@@ -1,14 +1,14 @@
 ---
 title: HeaderFooter.ParentSection
 second_title: Aspose.Words per .NET API Reference
-description: HeaderFooter proprietà. Ottiene la sezione padre di questa storia.
+description: HeaderFooter proprietà. Ottiene la sezione principale di questa storia.
 type: docs
 weight: 60
 url: /it/net/aspose.words/headerfooter/parentsection/
 ---
 ## HeaderFooter.ParentSection property
 
-Ottiene la sezione padre di questa storia.
+Ottiene la sezione principale di questa storia.
 
 ```csharp
 public Section ParentSection { get; }
@@ -16,7 +16,7 @@ public Section ParentSection { get; }
 
 ### Osservazioni
 
-**Sezione Genitori** è equivalente a`(Sezione) ParentNode`.
+`ParentSection` è equivalente a[`ParentNode`](../../node/parentnode/) lanciato a[`Section`](../../section/).
 
 ### Esempi
 
@@ -46,18 +46,18 @@ builder.Write("This is the footer, which will be displayed in sections 1, 2 and 
 // per consentire alla sezione di collegamento di visualizzare le intestazioni/piè di pagina della sezione collegata.
 doc.Sections[1].HeadersFooters.LinkToPrevious(true);
 
-// Ogni sezione avrà ancora i propri oggetti intestazione/piè di pagina. Quando colleghiamo sezioni,
-// la sezione di collegamento visualizzerà l'intestazione/i piè di pagina della sezione collegata mantenendone la propria.
+// Ogni sezione avrà comunque i propri oggetti intestazione/piè di pagina. Quando colleghiamo le sezioni,
+// la sezione di collegamento mostrerà l'intestazione/i piè di pagina della sezione collegata mantenendo i propri.
 Assert.AreNotEqual(doc.Sections[0].HeadersFooters[0], doc.Sections[1].HeadersFooters[0]);
 Assert.AreNotEqual(doc.Sections[0].HeadersFooters[0].ParentSection, doc.Sections[1].HeadersFooters[0].ParentSection);
 
 // Collega le intestazioni/piè di pagina della terza sezione alle intestazioni/piè di pagina della seconda sezione.
-// La seconda sezione si collega già all'intestazione/piè di pagina della prima sezione,
+// La seconda sezione è già collegata all'intestazione/piè di pagina della prima sezione,
 // quindi il collegamento alla seconda sezione creerà una catena di collegamenti.
 // La prima, la seconda e ora la terza sezione mostreranno tutte le intestazioni della prima sezione.
 doc.Sections[2].HeadersFooters.LinkToPrevious(true);
 
-// Possiamo scollegare l'intestazione/piè di pagina di una sezione precedente passando "false" quando si chiama il metodo LinkToPrevious.
+// Possiamo scollegare l'intestazione/piè di pagina di una sezione precedente passando "false" quando chiamiamo il metodo LinkToPrevious.
 doc.Sections[2].HeadersFooters.LinkToPrevious(false);
 
 // Possiamo anche selezionare solo un tipo specifico di intestazione/piè di pagina da collegare utilizzando questo metodo.

@@ -64,7 +64,7 @@ public PlainTextDocument(string fileName, LoadOptions loadOptions)
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | fileName | String | Namnet på filen att extrahera texten från. |
-| loadOptions | LoadOptions | Ytterligare alternativ att använda när du laddar ett dokument. Kan vara null. |
+| loadOptions | LoadOptions | Ytterligare alternativ att använda när du laddar ett dokument. Kan vara`null`. |
 
 ### Undantag
 
@@ -175,7 +175,7 @@ public PlainTextDocument(Stream stream, LoadOptions loadOptions)
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | stream | Stream | Strömmen varifrån texten ska extraheras. |
-| loadOptions | LoadOptions | Ytterligare alternativ att använda när du laddar ett dokument. Kan vara null. |
+| loadOptions | LoadOptions | Ytterligare alternativ att använda när du laddar ett dokument. Kan vara`null`. |
 
 ### Undantag
 

@@ -1,14 +1,14 @@
 ---
 title: Document.ProtectionType
 second_title: Aspose.Words لمراجع .NET API
-description: Document ملكية. يحصل على نوع حماية المستند النشط حاليًا.
+description: Document ملكية. للحصول على نوع حماية المستند النشط حاليًا.
 type: docs
-weight: 310
+weight: 330
 url: /ar/net/aspose.words/document/protectiontype/
 ---
 ## Document.ProtectionType property
 
-يحصل على نوع حماية المستند النشط حاليًا.
+للحصول على نوع حماية المستند النشط حاليًا.
 
 ```csharp
 public ProtectionType ProtectionType { get; }
@@ -16,11 +16,11 @@ public ProtectionType ProtectionType { get; }
 
 ### ملاحظات
 
-تسمح هذه الخاصية باسترداد نوع حماية المستند المحدد حاليًا[`Protect`](../protect/) و[`Unprotect`](../unprotect/)طُرق.
+تسمح هذه الخاصية باسترداد نوع حماية المستند المحدد حاليًا. لتغيير نوع حماية المستند، استخدم[`Protect`](../protect/) و[`Unprotect`](../unprotect/) طُرق.
 
-عندما يكون المستند محميًا ، يمكن للمستخدم إجراء تغييرات محدودة فقط ، مثل إضافة التعليقات التوضيحية أو إجراء المراجعات أو إكمال نموذج.
+عندما يكون المستند محميًا، يمكن للمستخدم إجراء تغييرات محدودة فقط، مثل إضافة التعليقات التوضيحية، أو إجراء المراجعات، أو إكمال النموذج.
 
-لاحظ أن حماية المستند تختلف عن الحماية ضد الكتابة. يتم تحديد الحماية ضد الكتابة باستخدام امتداد[`WriteProtection`](../writeprotection/)
+لاحظ أن حماية المستند تختلف عن الحماية ضد الكتابة. يتم تحديد الحماية ضد الكتابة باستخدام[`WriteProtection`](../writeprotection/)
 
 ### أمثلة
 
@@ -32,12 +32,12 @@ doc.Protect(ProtectionType.ReadOnly, "password");
 
 Assert.AreEqual(ProtectionType.ReadOnly, doc.ProtectionType);
 
-// إذا فتحنا هذا المستند مع Microsoft Word يعتزم تحريره ،
+// إذا فتحنا هذا المستند باستخدام برنامج Microsoft Word بهدف تعديله،
 // سنحتاج إلى تطبيق كلمة المرور لتجاوز الحماية.
 doc.Save(ArtifactsDir + "Document.Protect.docx");
 
 // لاحظ أن الحماية تنطبق فقط على مستخدمي Microsoft Word الذين يفتحون وثيقتنا.
-// لم نشفر المستند بأي شكل من الأشكال ، ولسنا بحاجة إلى كلمة المرور لفتحه وتعديله برمجيًا.
+// لم نقم بتشفير المستند بأي شكل من الأشكال، ولا نحتاج إلى كلمة المرور لفتحه وتحريره برمجيًا.
 Document protectedDoc = new Document(ArtifactsDir + "Document.Protect.docx");
 
 Assert.AreEqual(ProtectionType.ReadOnly, protectedDoc.ProtectionType);

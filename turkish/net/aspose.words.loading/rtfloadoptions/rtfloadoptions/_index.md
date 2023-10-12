@@ -1,14 +1,14 @@
 ---
 title: RtfLoadOptions.RtfLoadOptions
 second_title: Aspose.Words for .NET API Referansı
-description: RtfLoadOptions inşaatçı. Varsayılan değerlerle bu sınıfın yeni bir örneğini başlatır.
+description: RtfLoadOptions inşaatçı. Bu sınıfın yeni bir örneğini varsayılan değerlerle başlatır.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.loading/rtfloadoptions/rtfloadoptions/
 ---
 ## RtfLoadOptions constructor
 
-Varsayılan değerlerle bu sınıfın yeni bir örneğini başlatır.
+Bu sınıfın yeni bir örneğini varsayılan değerlerle başlatır.
 
 ```csharp
 public RtfLoadOptions()
@@ -19,10 +19,10 @@ public RtfLoadOptions()
 Bir RTF belgesi yüklenirken UTF-8 karakterlerinin nasıl algılanacağını gösterir.
 
 ```csharp
-// Bir RTF belgesini nasıl yüklediğimizi değiştirmek için bir "RtfLoadOptions" nesnesi oluşturun.
+// Bir RTF belgesini yükleme şeklimizi değiştirmek için bir "RtfLoadOptions" nesnesi oluşturun.
 RtfLoadOptions loadOptions = new RtfLoadOptions();
 
-// Belgenin ISO 8859-1 karakter kümesini kullandığını varsaymak için "RecognizeUtf8Text" özelliğini "false" olarak ayarlayın
+// Belgenin ISO 8859-1 karakter setini kullandığını varsaymak için "RecognizeUtf8Text" özelliğini "false" olarak ayarlayın
 // ve belgedeki her karakteri yükler.
 // Metinde oluşabilecek değişken uzunluktaki karakterleri ayrıştırmak için "RecognizeUtf8Text" özelliğini "true" olarak ayarlayın.
 loadOptions.RecognizeUtf8Text = recognizeUtf8Text;

@@ -1,14 +1,14 @@
 ---
 title: XmlMapping.StoreItemId
 second_title: Aspose.Words für .NET-API-Referenz
-description: XmlMapping eigendom. Gibt den benutzerdefinierten XMLDatenbezeichner für den benutzerdefinierten XMLDatenteil an der zur Auswertung verwendet werden sollXPath Ausdruck.
+description: XmlMapping eigendom. Gibt die benutzerdefinierte XMLDatenkennung für den benutzerdefinierten XMLDatenteil an der zur Auswertung verwendet werden sollXPath Ausdruck.
 type: docs
 weight: 40
 url: /de/net/aspose.words.markup/xmlmapping/storeitemid/
 ---
 ## XmlMapping.StoreItemId property
 
-Gibt den benutzerdefinierten XML-Datenbezeichner für den benutzerdefinierten XML-Datenteil an, der zur Auswertung verwendet werden soll[`XPath`](../xpath/) Ausdruck.
+Gibt die benutzerdefinierte XML-Datenkennung für den benutzerdefinierten XML-Datenteil an, der zur Auswertung verwendet werden soll[`XPath`](../xpath/) Ausdruck.
 
 ```csharp
 public string StoreItemId { get; }
@@ -16,7 +16,7 @@ public string StoreItemId { get; }
 
 ### Beispiele
 
-Zeigt, wie der benutzerdefinierte XML-Datenbezeichner eines XML-Teils abgerufen wird.
+Zeigt, wie die benutzerdefinierte XML-Datenkennung eines XML-Teils abgerufen wird.
 
 ```csharp
 Document doc = new Document(MyDir + "Custom XML part in structured document tag.docx");

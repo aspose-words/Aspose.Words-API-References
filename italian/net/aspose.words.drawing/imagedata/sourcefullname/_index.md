@@ -40,12 +40,12 @@ builder.InsertNode(shape);
 
 doc.Save(ArtifactsDir + "Image.CreateLinkedImage.Embedded.docx");
 
-// Ogni immagine che memorizziamo in forma aumenterà le dimensioni del nostro documento.
+// Ogni immagine che memorizziamo in forma aumenterà la dimensione del nostro documento.
 Assert.True(70000 < new FileInfo(ArtifactsDir + "Image.CreateLinkedImage.Embedded.docx").Length);
 
 doc.FirstSection.Body.FirstParagraph.RemoveAllChildren();
 
-// 2 - Imposta la forma da collegare a un file immagine nel file system locale.
+// 2 - Imposta la forma per collegarsi a un file immagine nel file system locale.
 shape = new Shape(builder.Document, ShapeType.Image);
 shape.WrapType = WrapType.Inline;
 shape.ImageData.SourceFullName = imageFileName;

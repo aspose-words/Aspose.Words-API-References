@@ -31,7 +31,6 @@ class Section : public Aspose::Words::CompositeNode,
 | [DeleteHeaderFooterShapes](./deleteheaderfootershapes/)() | Deletes all shapes (drawing objects) from the headers and footers of this section. |
 | [EnsureMinimum](./ensureminimum/)() | Ensures that the section has [Body](./get_body/) with one [Paragraph](../paragraph/). |
 | [get_Body](./get_body/)() | Returns the [Body](../body/) child node of the section. |
-| [get_ChildNodes](../compositenode/get_childnodes/)() | Gets all immediate child nodes of this node. |
 | [get_Count](../compositenode/get_count/)() | Gets the number of immediate children of this node. |
 | [get_CustomNodeId](../node/get_customnodeid/)() const | Specifies custom node identifier. |
 | virtual [get_Document](../node/get_document/)() const | Gets the document to which this node belongs. |

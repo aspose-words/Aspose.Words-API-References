@@ -16,7 +16,7 @@ public bool CalculateOnExit { get; set; }
 
 ### Anmärkningar
 
-Miljö **CalculateOnExit** påverkar bara beteendet för formulärfältet när dokumentet öppnas i Microsoft Word. Aspose.Words uppdaterar aldrig referenser till formulärfältet.
+Miljö`CalculateOnExit` påverkar bara beteendet för formulärfältet när dokumentet öppnas i Microsoft Word. Aspose.Words uppdaterar aldrig referenser till formulärfältet.
 
 ### Exempel
 
@@ -89,7 +89,7 @@ public void Visitor()
 }
 
 /// <summary>
-/// Besöksimplementering som skriver ut detaljer om formulärfält som den besöker. 
+ /// Besöksimplementering som skriver ut detaljer om formulärfält som den besöker.
 /// </summary>
 public class FormFieldVisitor : DocumentVisitor
 {

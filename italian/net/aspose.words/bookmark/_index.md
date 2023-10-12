@@ -3,12 +3,14 @@ title: Class Bookmark
 second_title: Aspose.Words per .NET API Reference
 description: Aspose.Words.Bookmark classe. Rappresenta un singolo segnalibro.
 type: docs
-weight: 30
+weight: 40
 url: /it/net/aspose.words/bookmark/
 ---
 ## Bookmark class
 
 Rappresenta un singolo segnalibro.
+
+Per saperne di più, visita il[Lavorare con i segnalibri](https://docs.aspose.com/words/net/working-with-bookmarks/) articolo di documentazione.
 
 ```csharp
 public class Bookmark
@@ -21,7 +23,7 @@ public class Bookmark
 | [BookmarkEnd](../../aspose.words/bookmark/bookmarkend/) { get; } | Ottiene il nodo che rappresenta la fine del segnalibro. |
 | [BookmarkStart](../../aspose.words/bookmark/bookmarkstart/) { get; } | Ottiene il nodo che rappresenta l'inizio del segnalibro. |
 | [FirstColumn](../../aspose.words/bookmark/firstcolumn/) { get; } | Ottiene l'indice in base zero della prima colonna dell'intervallo di colonne della tabella associato al segnalibro. |
-| [IsColumn](../../aspose.words/bookmark/iscolumn/) { get; } | Restituisce **VERO** se questo segnalibro è un segnalibro della colonna della tabella. |
+| [IsColumn](../../aspose.words/bookmark/iscolumn/) { get; } | Restituisce`VERO` se questo segnalibro è un segnalibro di colonna di tabella. |
 | [LastColumn](../../aspose.words/bookmark/lastcolumn/) { get; } | Ottiene l'indice in base zero dell'ultima colonna dell'intervallo di colonne della tabella associato al segnalibro. |
 | [Name](../../aspose.words/bookmark/name/) { get; set; } | Ottiene o imposta il nome del segnalibro. |
 | [Text](../../aspose.words/bookmark/text/) { get; set; } | Ottiene o imposta il testo racchiuso nel segnalibro. |
@@ -34,11 +36,11 @@ public class Bookmark
 
 ### Osservazioni
 
-`Bookmark` è un oggetto "facciata" che incapsula due nodi[`BookmarkStart`](./bookmarkstart/) e[`BookmarkEnd`](./bookmarkend/) in un albero di documenti e permette di lavorare con un segnalibro come un singolo oggetto.
+`Bookmark` è un oggetto "facciata" che incapsula due nodi[`BookmarkStart`](./bookmarkstart/) e[`BookmarkEnd`](./bookmarkend/) in un albero del documento e consente di lavorare con un segnalibro come un singolo oggetto.
 
 ### Esempi
 
-Mostra come aggiungere segnalibri e aggiornarne il contenuto.
+Mostra come aggiungere segnalibri e aggiornarne i contenuti.
 
 ```csharp
 public void CreateUpdateAndPrintBookmarks()
@@ -46,14 +48,13 @@ public void CreateUpdateAndPrintBookmarks()
     // Crea un documento con tre segnalibri, quindi utilizza un'implementazione personalizzata del visitatore del documento per stamparne il contenuto.
     Document doc = CreateDocumentWithBookmarks(3);
     BookmarkCollection bookmarks = doc.Range.Bookmarks;
-
     PrintAllBookmarkInfo(bookmarks);
 
-    // È possibile accedere ai segnalibri nella raccolta di segnalibri in base all'indice o al nome e i loro nomi possono essere aggiornati.
+    // È possibile accedere ai segnalibri nella raccolta di segnalibri tramite indice o nome e i relativi nomi possono essere aggiornati.
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
-    // Stampa di nuovo tutti i segnalibri per visualizzare i valori aggiornati.
+    // Stampa di nuovo tutti i segnalibri per vedere i valori aggiornati.
     PrintAllBookmarkInfo(bookmarks);
 }
 
@@ -80,13 +81,13 @@ private static Document CreateDocumentWithBookmarks(int numberOfBookmarks)
 }
 
 /// <summary>
-/// Usa un iteratore e un visitatore per stampare le informazioni di ogni segnalibro nella raccolta.
+/// Utilizza un iteratore e un visitatore per stampare le informazioni di ogni segnalibro nella raccolta.
 /// </summary>
 private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 {
     BookmarkInfoPrinter bookmarkVisitor = new BookmarkInfoPrinter();
 
-    // Ottieni ogni segnalibro nella raccolta per accettare un visitatore che ne stamperà il contenuto.
+    // Fa in modo che ogni segnalibro nella raccolta accetti un visitatore che ne stamperà il contenuto.
     using (IEnumerator<Bookmark> enumerator = bookmarks.GetEnumerator())
     {
         while (enumerator.MoveNext())
@@ -105,7 +106,7 @@ private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 }
 
 /// <summary>
-/// Stampa il contenuto di ogni segnalibro visitato sulla console.
+/// Stampa sulla console il contenuto di ogni segnalibro visitato.
 /// </summary>
 public class BookmarkInfoPrinter : DocumentVisitor
 {

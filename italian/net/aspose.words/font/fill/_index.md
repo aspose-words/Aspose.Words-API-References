@@ -1,14 +1,14 @@
 ---
 title: Font.Fill
 second_title: Aspose.Words per .NET API Reference
-description: Font proprietà. Ottiene la formattazione di riempimento per Font.
+description: Font proprietà. Ottiene la formattazione di riempimento per il fileFont .
 type: docs
 weight: 130
 url: /it/net/aspose.words/font/fill/
 ---
 ## Font.Fill property
 
-Ottiene la formattazione di riempimento per Font.
+Ottiene la formattazione di riempimento per il file[`Font`](../) .
 
 ```csharp
 public Fill Fill { get; }

@@ -1,14 +1,14 @@
 ---
 title: CompositeNode.HasChildNodes
 second_title: Aspose.Words for .NET API 参考
-description: CompositeNode 财产. 如果此节点有任何子节点则返回 true
+description: CompositeNode 财产. 返回真的如果该节点有任何子节点.
 type: docs
-weight: 40
+weight: 30
 url: /zh/net/aspose.words/compositenode/haschildnodes/
 ---
 ## CompositeNode.HasChildNodes property
 
-如果此节点有任何子节点，则返回 true。
+返回`真的`如果该节点有任何子节点.
 
 ```csharp
 public bool HasChildNodes { get; }
@@ -16,7 +16,7 @@ public bool HasChildNodes { get; }
 
 ### 例子
 
-显示如何将两个表中的行合并为一个。
+演示如何将两个表中的行合并为一个表。
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");

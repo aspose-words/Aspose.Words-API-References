@@ -1,16 +1,16 @@
 ---
 title: Class ThemeColors
 second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Themes.ThemeColors clase. Representa el esquema de color del tema del documento que contiene doce colores.
+description: Aspose.Words.Themes.ThemeColors clase. Representa la combinación de colores del tema del documento que contiene doce colores.
 type: docs
-weight: 6180
+weight: 6480
 url: /es/net/aspose.words.themes/themecolors/
 ---
 ## ThemeColors class
 
-Representa el esquema de color del tema del documento que contiene doce colores.
+Representa la combinación de colores del tema del documento que contiene doce colores.
 
-El objeto ThemeColors contiene seis colores de énfasis, dos colores oscuros, dos colores claros y un color para cada hipervínculo y un hipervínculo seguido.
+`ThemeColors` El objeto contiene seis colores de acento, dos colores oscuros, dos colores claros y un color para cada uno de los hipervínculos y los hipervínculos seguidos.
 
 ```csharp
 public class ThemeColors
@@ -28,14 +28,14 @@ public class ThemeColors
 | [Accent6](../../aspose.words.themes/themecolors/accent6/) { get; set; } | Especifica el color Acento 6. |
 | [Dark1](../../aspose.words.themes/themecolors/dark1/) { get; set; } | Especifica el color Oscuro 1. |
 | [Dark2](../../aspose.words.themes/themecolors/dark2/) { get; set; } | Especifica el color Oscuro 2. |
-| [FollowedHyperlink](../../aspose.words.themes/themecolors/followedhyperlink/) { get; set; } | Especifica el color de un hipervínculo en el que se ha hecho clic. |
+| [FollowedHyperlink](../../aspose.words.themes/themecolors/followedhyperlink/) { get; set; } | Especifica el color de un hipervínculo en el que se hace clic. |
 | [Hyperlink](../../aspose.words.themes/themecolors/hyperlink/) { get; set; } | Especifica el color de un hipervínculo. |
 | [Light1](../../aspose.words.themes/themecolors/light1/) { get; set; } | Especifica el color Luz 1. |
 | [Light2](../../aspose.words.themes/themecolors/light2/) { get; set; } | Especifica el color Luz 2. |
 
 ### Ejemplos
 
-Muestra cómo establecer colores y fuentes personalizados para los temas.
+Muestra cómo configurar colores y fuentes personalizados para temas.
 
 ```csharp
 Document doc = new Document(MyDir + "Theme colors.docx");
@@ -47,17 +47,17 @@ Theme theme = doc.Theme;
 theme.MajorFonts.Latin = "Courier New";
 theme.MinorFonts.Latin = "Agency FB";
 
-// Otros idiomas también pueden tener sus fuentes personalizadas en este tema.
+// Otros idiomas también pueden tener fuentes personalizadas en este tema.
 Assert.AreEqual(string.Empty, theme.MajorFonts.ComplexScript);
 Assert.AreEqual(string.Empty, theme.MajorFonts.EastAsian);
 Assert.AreEqual(string.Empty, theme.MinorFonts.ComplexScript);
 Assert.AreEqual(string.Empty, theme.MinorFonts.EastAsian);
 
 // La propiedad "Colores" contiene la paleta de colores de Microsoft Word,
-// que aparece al cambiar el sombreado o el color de la fuente.
-// Aplique colores personalizados a la paleta de colores para que tengamos fácil acceso a ellos en Microsoft Word
-// cuando, por ejemplo, cambiamos el color de la fuente a través de "Inicio" -> "Fuente" -> "Color de fuente",
-// o inserte una forma, y luego establezca un color para ella a través de "Formato de forma" -> "Estilos de forma".
+// que aparece al cambiar el sombreado o el color de fuente.
+// Aplicar colores personalizados a la paleta de colores para que tengamos fácil acceso a ellos en Microsoft Word
+// cuando, por ejemplo, cambiamos el color de la fuente mediante "Inicio" -> "Fuente" -> "Color de fuente",
+// o insertar una forma y luego establecerle un color a través de "Formato de forma" -> "Estilos de forma".
 ThemeColors colors = theme.Colors;
 colors.Dark1 = Color.MidnightBlue;
 colors.Light1 = Color.PaleGreen;
@@ -71,7 +71,7 @@ colors.Accent4 = Color.Gold;
 colors.Accent5 = Color.BlueViolet;
 colors.Accent6 = Color.DarkViolet;
 
-// Aplique colores personalizados a los hipervínculos en sus estados de clic y no clic.
+// Aplicar colores personalizados a los hipervínculos en sus estados en los que se hizo clic y en los que no se hizo clic.
 colors.Hyperlink = Color.Black;
 colors.FollowedHyperlink = Color.Gray;
 

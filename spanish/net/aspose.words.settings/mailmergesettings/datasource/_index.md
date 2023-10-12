@@ -16,10 +16,10 @@ public string DataSource { get; set; }
 
 ### Ejemplos
 
-Muestra cómo construir un origen de datos para una combinación de correspondencia a partir de un origen de encabezado y un origen de datos.
+Muestra cómo construir una fuente de datos para una combinación de correspondencia a partir de una fuente de encabezado y una fuente de datos.
 
 ```csharp
-// Cree un archivo de encabezado de combinación de etiquetas postales, que consistirá en una tabla con una fila.
+// Cree un archivo de encabezado de combinación de etiquetas de correo, que constará de una tabla con una fila.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
@@ -32,8 +32,8 @@ builder.EndTable();
 
 doc.Save(ArtifactsDir + "MailMerge.MailingLabelMerge.Header.docx");
 
-// Crear un archivo de datos combinados de etiquetas postales que consta de una tabla con una fila
-// y el mismo número de columnas que la tabla del documento de cabecera. 
+// Crea un archivo de datos de combinación de etiquetas de correo que consta de una tabla con una fila
+ // y el mismo número de columnas que la tabla del documento de encabezado.
 doc = new Document();
 builder = new DocumentBuilder(doc);
 
@@ -46,8 +46,8 @@ builder.EndTable();
 
 doc.Save(ArtifactsDir + "MailMerge.MailingLabelMerge.Data.docx");
 
-// Crear un documento de destino de fusión con MERGEFIELDS con nombres que
-// hacer coincidir los nombres de las columnas en la tabla del archivo de encabezado combinado.
+// Crea un documento de destino de fusión con MERGEFIELDS con nombres que
+// coincide con los nombres de las columnas en la tabla del archivo de encabezado de combinación.
 doc = new Document();
 builder = new DocumentBuilder(doc);
 
@@ -58,14 +58,14 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 
 MailMergeSettings settings = doc.MailMergeSettings;
 
-// Construya una fuente de datos para nuestra combinación de correspondencia especificando dos nombres de archivos de documentos.
-// La fuente del encabezado nombrará las columnas de la tabla de la fuente de datos.
+// Construya una fuente de datos para nuestra combinación de correspondencia especificando dos nombres de archivo de documentos.
+// La fuente del encabezado nombrará las columnas de la tabla de fuente de datos.
 settings.HeaderSource = ArtifactsDir + "MailMerge.MailingLabelMerge.Header.docx";
 
-// La fuente de datos proporcionará filas de datos para todas las columnas en la tabla del documento de encabezado.
+// La fuente de datos proporcionará filas de datos para todas las columnas de la tabla del documento de encabezado.
 settings.DataSource = ArtifactsDir + "MailMerge.MailingLabelMerge.Data.docx";
 
-// Configure una combinación de correspondencia de tipo de etiqueta de correo, que Microsoft Word ejecutará
+// Configurar una combinación de correspondencia de tipo etiqueta de correo, que Microsoft Word ejecutará
 // tan pronto como lo usemos para cargar el documento de salida.
 settings.Query = "SELECT * FROM " + settings.DataSource;
 settings.MainDocumentType = MailMergeMainDocumentType.MailingLabels;

@@ -3,12 +3,14 @@ title: Class HyphenationOptions
 second_title: Aspose.Words for .NET API Referansı
 description: Aspose.Words.Settings.HyphenationOptions sınıf. Belge tireleme seçeneklerini yapılandırmaya izin verir.
 type: docs
-weight: 5500
+weight: 5790
 url: /tr/net/aspose.words.settings/hyphenationoptions/
 ---
 ## HyphenationOptions class
 
 Belge tireleme seçeneklerini yapılandırmaya izin verir.
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Tireleme ile Çalışmak](https://docs.aspose.com/words/net/working-with-hyphenation/) dokümantasyon makalesi.
 
 ```csharp
 public class HyphenationOptions
@@ -24,10 +26,10 @@ public class HyphenationOptions
 
 | İsim | Tanım |
 | --- | --- |
-| [AutoHyphenation](../../aspose.words.settings/hyphenationoptions/autohyphenation/) { get; set; } | Belge için otomatik tirelemenin açık olup olmadığını belirleyen değeri alır veya ayarlar. Bu özellik için varsayılan değer **yanlış** . |
-| [ConsecutiveHyphenLimit](../../aspose.words.settings/hyphenationoptions/consecutivehyphenlimit/) { get; set; } | Kısa çizgi ile bitebilecek maksimum ardışık satır sayısını alır veya ayarlar. Bu özellik için varsayılan değer 0. |
-| [HyphenateCaps](../../aspose.words.settings/hyphenationoptions/hyphenatecaps/) { get; set; } | Tamamı büyük harflerle yazılan sözcüklerin tireli olup olmadığını belirleyen değeri alır veya ayarlar. Bu özellik için varsayılan değer **doğru** . |
-| [HyphenationZone](../../aspose.words.settings/hyphenationoptions/hyphenationzone/) { get; set; } | Kelimeleri tirelemek için istemediğiniz sağ kenar boşluğundan bir noktanın 1/20'si olarak mesafeyi alır veya ayarlar. Bu özellik için varsayılan değer 360'tır (0,25 inç). |
+| [AutoHyphenation](../../aspose.words.settings/hyphenationoptions/autohyphenation/) { get; set; } | Belge için otomatik tirelemenin açık olup olmadığını belirleyen değeri alır veya ayarlar. Bu özelliğin varsayılan değeri:`YANLIŞ` . |
+| [ConsecutiveHyphenLimit](../../aspose.words.settings/hyphenationoptions/consecutivehyphenlimit/) { get; set; } | Kısa çizgilerle bitebilecek ardışık satırların maksimum sayısını alır veya ayarlar. Bu özelliğin varsayılan değeri 0. 'dir |
+| [HyphenateCaps](../../aspose.words.settings/hyphenationoptions/hyphenatecaps/) { get; set; } | Tamamı büyük harflerle yazılan kelimelerin tireli olup olmayacağını belirleyen değeri alır veya ayarlar. Bu özelliğin varsayılan değeri:`doğru` . |
+| [HyphenationZone](../../aspose.words.settings/hyphenationoptions/hyphenationzone/) { get; set; } | Sağ kenar boşluğundan, sözcükleri tirelemesini istemediğiniz noktanın 1/20'si kadar mesafeyi alır veya ayarlar. . Bu özellik için varsayılan değer 360'tır (0,25 inç). |
 
 ### Örnekler
 

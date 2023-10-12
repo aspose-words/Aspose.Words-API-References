@@ -1,14 +1,14 @@
 ---
 title: CssSavingArgs.KeepCssStreamOpen
 second_title: Справочник по API Aspose.Words для .NET
-description: CssSavingArgs свойство. Указывает должен ли Aspose.Words оставить поток открытым или закрыть его после сохранения информации CSS.
+description: CssSavingArgs свойство. Указывает должен ли Aspose.Words сохранять поток открытым или закрывать его после сохранения информации CSS.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.saving/csssavingargs/keepcssstreamopen/
 ---
 ## CssSavingArgs.KeepCssStreamOpen property
 
-Указывает, должен ли Aspose.Words оставить поток открытым или закрыть его после сохранения информации CSS.
+Указывает, должен ли Aspose.Words сохранять поток открытым или закрывать его после сохранения информации CSS.
 
 ```csharp
 public bool KeepCssStreamOpen { get; set; }
@@ -16,30 +16,30 @@ public bool KeepCssStreamOpen { get; set; }
 
 ### Примечания
 
-По умолчанию`ЛОЖЬ` и Aspose.Words закроет предоставленный вами поток в[`CssStream`](../cssstream/) свойство после записи в него информации CSS. Указать`истинный` чтобы поток оставался открытым.
+По умолчанию`ЛОЖЬ` и Aspose.Words закроет поток, который вы предоставили в[`CssStream`](../cssstream/) свойство после записи в него информации CSS. Укажите`истинный` чтобы поток оставался открытым.
 
 ### Примеры
 
-Показывает, как работать с таблицами стилей CSS, которые создаются при преобразовании HTML.
+Показывает, как работать с таблицами стилей CSS, создаваемыми преобразованием HTML.
 
 ```csharp
 public void ExternalCssFilenames()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
-    // Создаем объект "HtmlFixedSaveOptions", который мы можем передать в метод документа "Сохранить"
+    // Создаем объект HtmlFixedSaveOptions, который мы можем передать методу Save документа.
     // чтобы изменить способ преобразования документа в HTML.
     HtmlSaveOptions options = new HtmlSaveOptions();
 
-    // Установите для свойства "CssStylesheetType" значение "CssStyleSheetType.External", чтобы
-    // сопровождать сохраненный HTML-документ внешним файлом таблицы стилей CSS.
+    // Установите для свойства «CssStylesheetType» значение «CssStyleSheetType.External», чтобы
+    // сопровождаем сохраненный HTML-документ внешним файлом таблицы стилей CSS.
     options.CssStyleSheetType = CssStyleSheetType.External;
 
     // Ниже приведены два способа указания каталогов и имен файлов для выходных таблиц стилей CSS.
-    // 1 — Используйте свойство «CssStyleSheetFileName», чтобы присвоить имя файла нашей таблице стилей:
+    // 1 — используйте свойство «CssStyleSheetFileName», чтобы присвоить имя файла нашей таблице стилей:
     options.CssStyleSheetFileName = ArtifactsDir + "SavingCallback.ExternalCssFilenames.css";
 
-    // 2 - Используйте пользовательский обратный вызов, чтобы назвать нашу таблицу стилей:
+    // 2 — Используйте собственный обратный вызов для присвоения имени нашей таблице стилей:
     options.CssSavingCallback =
         new CustomCssSavingCallback(ArtifactsDir + "SavingCallback.ExternalCssFilenames.css", true, false);
 
@@ -47,7 +47,7 @@ public void ExternalCssFilenames()
 }
 
 /// <summary>
-/// Устанавливает пользовательское имя файла вместе с другими параметрами для внешней таблицы стилей CSS.
+/// Устанавливает собственное имя файла вместе с другими параметрами для внешней таблицы стилей CSS.
 /// </summary>
 private class CustomCssSavingCallback : ICssSavingCallback
 {

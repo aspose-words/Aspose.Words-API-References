@@ -1,14 +1,14 @@
 ---
 title: RowFormat.Borders
 second_title: Aspose.Words per .NET API Reference
-description: RowFormat proprietà. Ottiene la raccolta dei bordi di cella predefiniti per la riga.
+description: RowFormat proprietà. Ottiene la raccolta dei bordi delle celle predefiniti per la riga.
 type: docs
 weight: 20
 url: /it/net/aspose.words.tables/rowformat/borders/
 ---
 ## RowFormat.Borders property
 
-Ottiene la raccolta dei bordi di cella predefiniti per la riga.
+Ottiene la raccolta dei bordi delle celle predefiniti per la riga.
 
 ```csharp
 public BorderCollection Borders { get; }
@@ -49,8 +49,8 @@ builder.Write("Row 1, Col 2");
 builder.EndRow();
 
 // La modifica della formattazione la applicherà alla cella corrente,
-// e tutte le nuove celle che creiamo con il builder in seguito.
-// Ciò non influirà sulle celle che abbiamo aggiunto in precedenza.
+// e tutte le nuove celle che creeremo successivamente con il builder.
+// Ciò non influenzerà le celle che abbiamo aggiunto in precedenza.
 builder.CellFormat.Shading.ClearFormatting();
 
 builder.InsertCell();

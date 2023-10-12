@@ -16,13 +16,13 @@ public int Count { get; }
 
 ### Esempi
 
-Mostra come usare XPath per navigare in una NodeList.
+Mostra come utilizzare XPath per navigare in un NodeList.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inserisce alcuni nodi con un DocumentBuilder.
+// Inserisci alcuni nodi con un DocumentBuilder.
 builder.Writeln("Hello world!");
 
 builder.StartTable();
@@ -39,7 +39,7 @@ using (SKBitmap image = SKBitmap.Decode(ImageDir + "Logo.jpg"))
     builder.InsertImage(image);
 #endif
 
-// Il nostro documento contiene tre nodi Run.
+// Il nostro documento contiene tre nodi Esegui.
 NodeList nodeList = doc.SelectNodes("//Correre");
 
 Assert.AreEqual(3, nodeList.Count);
@@ -47,15 +47,15 @@ Assert.True(nodeList.Any(n => n.GetText().Trim() == "Hello world!"));
 Assert.True(nodeList.Any(n => n.GetText().Trim() == "Cell 1"));
 Assert.True(nodeList.Any(n => n.GetText().Trim() == "Cell 2"));
 
-// Usa una doppia barra per selezionare tutti i nodi Run
-// che sono discendenti indiretti di un nodo Table, che sarebbero le corse all'interno delle due celle che abbiamo inserito.
+// Utilizzare una doppia barra per selezionare tutti i nodi Esegui
+// che sono discendenti indiretti di un nodo Tabella, che sarebbero le sequenze all'interno delle due celle che abbiamo inserito.
 nodeList = doc.SelectNodes("//Table//Correre");
 
 Assert.AreEqual(2, nodeList.Count);
 Assert.True(nodeList.Any(n => n.GetText().Trim() == "Cell 1"));
 Assert.True(nodeList.Any(n => n.GetText().Trim() == "Cell 2"));
 
-// Le singole barre in avanti specificano le relazioni discendenti dirette,
+// Le singole barre specificano le relazioni discendenti dirette,
 // che abbiamo saltato quando abbiamo usato le doppie barre.
 Assert.AreEqual(doc.SelectNodes(" //Tabella//Esegui"),
     doc.SelectNodes("//Tabella/Riga/Cella/Paragrafo/Esegui"));

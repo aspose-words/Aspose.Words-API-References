@@ -1,14 +1,14 @@
 ---
 title: CustomPart.Name
 second_title: Aspose.Words for .NET API Referansı
-description: CustomPart mülk. OOXML paketi veya hedef URL içindeki bu parçanın mutlak adını alır veya ayarlar.
+description: CustomPart mülk. Bu parçanın OOXML paketi veya hedef URL içindeki mutlak adını alır veya ayarlar.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.markup/custompart/name/
 ---
 ## CustomPart.Name property
 
-OOXML paketi veya hedef URL içindeki bu parçanın mutlak adını alır veya ayarlar.
+Bu parçanın OOXML paketi veya hedef URL içindeki mutlak adını alır veya ayarlar.
 
 ```csharp
 public string Name { get; set; }
@@ -16,25 +16,25 @@ public string Name { get; set; }
 
 ### Notlar
 
-İlişki hedefi dahili ise, bu özellik paket içindeki mutlak parça adıdır. İlişki hedefi harici ise, bu özellik hedef URL'dir.
+İlişki hedefi dahili ise bu özellik paket içindeki mutlak parça adıdır. İlişki hedefi harici ise bu özellik hedef URL'dir.
 
-Varsayılan değer boş bir dizedir. Geçerli bir değer, boş olmayan bir dize olmalıdır.
+Varsayılan değer boş bir dizedir. Geçerli bir değer boş olmayan bir dize olmalıdır.
 
 ### Örnekler
 
-Bir belgenin isteğe bağlı özel parça koleksiyonuna nasıl erişileceğini gösterir.
+Bir belgenin rastgele özel parça koleksiyonuna nasıl erişileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);
 
-// İkinci bölümü klonlayın, ardından klonu koleksiyona ekleyin.
+// İkinci kısmı klonlayın, ardından klonu koleksiyona ekleyin.
 CustomPart clonedPart = doc.PackageCustomParts[1].Clone();
 doc.PackageCustomParts.Add(clonedPart);
 Assert.AreEqual(3, doc.PackageCustomParts.Count);
 
-// Koleksiyon üzerinde numaralandırın ve her parçayı yazdırın.
+// Koleksiyonun üzerinde numaralandırın ve her parçayı yazdırın.
 using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator())
 {
     int index = 0;
@@ -51,7 +51,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// Bu koleksiyondaki öğeleri tek tek veya bir kerede kaldırabiliriz.
+// Bu koleksiyondaki öğeleri tek tek veya hepsini birden kaldırabiliriz.
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);

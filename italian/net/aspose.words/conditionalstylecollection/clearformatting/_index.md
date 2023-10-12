@@ -16,7 +16,7 @@ public void ClearFormatting()
 
 ### Esempi
 
-Mostra come reimpostare gli stili di tabella condizionali.
+Mostra come reimpostare gli stili di tabella condizionale.
 
 ```csharp
 Document doc = new Document();
@@ -33,10 +33,10 @@ builder.EndTable();
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 table.Style = tableStyle;
 
-// Imposta lo stile della tabella per colorare i bordi della prima riga della tabella in rosso.
+// Imposta lo stile della tabella per colorare in rosso i bordi della prima riga della tabella.
 tableStyle.ConditionalStyles.FirstRow.Borders.Color = Color.Red;
 
-// Imposta lo stile della tabella per colorare di blu i bordi dell'ultima riga della tabella.
+// Imposta lo stile della tabella per colorare in blu i bordi dell'ultima riga della tabella.
 tableStyle.ConditionalStyles.LastRow.Borders.Color = Color.Blue;
 
 // Di seguito sono riportati due modi per utilizzare il metodo "ClearFormatting" per cancellare gli stili condizionali.

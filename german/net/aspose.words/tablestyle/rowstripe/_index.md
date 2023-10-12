@@ -1,14 +1,14 @@
 ---
 title: TableStyle.RowStripe
 second_title: Aspose.Words für .NET-API-Referenz
-description: TableStyle eigendom. Ruft eine Anzahl von Zeilen ab oder legt sie fest die in das Banding eingeschlossen werden sollen wenn der Stil ein Banding für ungerade/gerade Zeilen angibt.
+description: TableStyle eigendom. Ruft eine Anzahl von Zeilen ab die in die Banderstellung einbezogen werden sollen oder legt diese fest wenn der Stil ungerade/gerade Zeilenbanderstellung angibt.
 type: docs
 weight: 120
 url: /de/net/aspose.words/tablestyle/rowstripe/
 ---
 ## TableStyle.RowStripe property
 
-Ruft eine Anzahl von Zeilen ab oder legt sie fest, die in das Banding eingeschlossen werden sollen, wenn der Stil ein Banding für ungerade/gerade Zeilen angibt.
+Ruft eine Anzahl von Zeilen ab, die in die Banderstellung einbezogen werden sollen, oder legt diese fest, wenn der Stil ungerade/gerade Zeilenbanderstellung angibt.
 
 ```csharp
 public int RowStripe { get; set; }
@@ -22,11 +22,11 @@ Zeigt, wie bedingte Tabellenstile erstellt werden, die zwischen Zeilen wechseln.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Wir können einen bedingten Stil einer Tabelle konfigurieren, um eine andere Farbe auf die Zeile/Spalte anzuwenden,
-// basierend darauf, ob die Zeile/Spalte gerade oder ungerade ist, wodurch ein abwechselndes Farbmuster entsteht.
-// Wir können auch eine Zahl n auf die Zeilen-/Spaltenbänderung anwenden,
-// was bedeutet, dass die Farbe nach jeweils n Zeilen/Spalten statt nach einer wechselt.
-// Erstellen Sie eine Tabelle, in der einzelne Spalten und Zeilen gebändert werden, die Spalten werden zu dritt gebändert.
+// Wir können einen bedingten Stil einer Tabelle konfigurieren, um eine andere Farbe auf die Zeile/Spalte anzuwenden.
+// basierend darauf, ob die Zeile/Spalte gerade oder ungerade ist, wodurch ein alternierendes Farbmuster entsteht.
+// Wir können auch eine Zahl n auf die Zeilen-/Spaltenbandierung anwenden,
+// bedeutet, dass die Farbe nach jeweils n Zeilen/Spalten statt nach einer wechselt.
+// Erstellen Sie eine Tabelle, in der einzelne Spalten und Zeilen in drei Gruppen unterteilt werden.
 Table table = builder.StartTable();
 for (int i = 0; i < 15; i++)
 {
@@ -40,27 +40,27 @@ for (int i = 0; i < 15; i++)
 }
 builder.EndTable();
 
-// Anwenden eines Linienstils auf alle Ränder der Tabelle.
+// Einen Linienstil auf alle Ränder der Tabelle anwenden.
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 tableStyle.Borders.Color = Color.Black;
 tableStyle.Borders.LineStyle = LineStyle.Double;
 
-// Legen Sie die zwei Farben fest, die sich alle 3 Zeilen abwechseln.
+// Legen Sie die beiden Farben fest, die sich alle 3 Zeilen abwechseln.
 tableStyle.RowStripe = 3;
 tableStyle.ConditionalStyles[ConditionalStyleType.OddRowBanding].Shading.BackgroundPatternColor = Color.LightBlue;
 tableStyle.ConditionalStyles[ConditionalStyleType.EvenRowBanding].Shading.BackgroundPatternColor = Color.LightCyan;
 
-// Legen Sie eine Farbe fest, die auf jede gerade Spalte angewendet wird, wodurch alle benutzerdefinierten Zeilenfarben überschrieben werden.
+// Legen Sie eine Farbe fest, die auf jede gerade Spalte angewendet wird und alle benutzerdefinierten Zeilenfarben überschreibt.
 tableStyle.ColumnStripe = 1;
 tableStyle.ConditionalStyles[ConditionalStyleType.EvenColumnBanding].Shading.BackgroundPatternColor = Color.LightSalmon;
 
 table.Style = tableStyle;
 
-// Die Eigenschaft "StyleOptions" aktiviert standardmäßig Zeilenbanding.
+// Die Eigenschaft „StyleOptions“ aktiviert standardmäßig die Zeilenbanderstellung.
 Assert.AreEqual(TableStyleOptions.FirstRow | TableStyleOptions.FirstColumn | TableStyleOptions.RowBands,
     table.StyleOptions);
 
-// Verwenden Sie die Eigenschaft "StyleOptions", um auch Spaltenbanding zu aktivieren.
+// Verwenden Sie die Eigenschaft „StyleOptions“ auch, um die Spaltenbänderung zu aktivieren.
 table.StyleOptions = table.StyleOptions | TableStyleOptions.ColumnBands;
 
 doc.Save(ArtifactsDir + "Table.AlternatingRowStyles.docx");

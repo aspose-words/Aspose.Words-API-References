@@ -1,14 +1,14 @@
 ---
 title: Shape.ExtrusionEnabled
 second_title: Aspose.Words för .NET API Referens
-description: Shape fast egendom. Returnerar sant om en extruderingseffekt är aktiverad.
+description: Shape fast egendom. ReturnerarSann om en extruderingseffekt är aktiverad.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.drawing/shape/extrusionenabled/
 ---
 ## Shape.ExtrusionEnabled property
 
-Returnerar sant om en extruderingseffekt är aktiverad.
+Returnerar`Sann` om en extruderingseffekt är aktiverad.
 
 ```csharp
 public bool ExtrusionEnabled { get; }
@@ -19,6 +19,7 @@ public bool ExtrusionEnabled { get; }
 Visar hur man itererar över alla former i ett dokument.
 
 ```csharp
+public void VisitShapes()
 {
     Document doc = new Document(MyDir + "Revision shape.docx");
     ShapeAppearancePrinter visitor = new ShapeAppearancePrinter();

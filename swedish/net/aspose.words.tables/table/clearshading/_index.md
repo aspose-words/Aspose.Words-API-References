@@ -3,7 +3,7 @@ title: Table.ClearShading
 second_title: Aspose.Words för .NET API Referens
 description: Table metod. Tar bort all skuggning på bordet.
 type: docs
-weight: 380
+weight: 400
 url: /sv/net/aspose.words.tables/table/clearshading/
 ---
 ## Table.ClearShading method
@@ -29,7 +29,7 @@ table.Alignment = TableAlignment.Center;
 table.ClearBorders();
 table.ClearShading();
 
-// Lägg till gröna kanter till tabellens konturer.
+// Lägg till gröna ramar till tabellens konturer.
 table.SetBorder(BorderType.Left, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Right, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Top, LineStyle.Single, 1.5, Color.Green, true);

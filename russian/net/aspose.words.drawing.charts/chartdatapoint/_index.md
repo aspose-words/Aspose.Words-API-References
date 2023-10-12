@@ -1,14 +1,16 @@
 ---
 title: Class ChartDataPoint
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.Charts.ChartDataPoint сорт. Позволяет задать форматирование одной точки данных на диаграмме.
+description: Aspose.Words.Drawing.Charts.ChartDataPoint сорт. Позволяет указать форматирование одной точки данных на диаграмме.
 type: docs
-weight: 650
+weight: 690
 url: /ru/net/aspose.words.drawing.charts/chartdatapoint/
 ---
 ## ChartDataPoint class
 
-Позволяет задать форматирование одной точки данных на диаграмме.
+Позволяет указать форматирование одной точки данных на диаграмме.
+
+Чтобы узнать больше, посетите[Работа с диаграммами](https://docs.aspose.com/words/net/working-with-charts/) статья документации.
 
 ```csharp
 public class ChartDataPoint : IChartDataPoint
@@ -18,12 +20,12 @@ public class ChartDataPoint : IChartDataPoint
 
 | Имя | Описание |
 | --- | --- |
-| [Bubble3D](../../aspose.words.drawing.charts/chartdatapoint/bubble3d/) { get; set; } |  |
-| [Explosion](../../aspose.words.drawing.charts/chartdatapoint/explosion/) { get; set; } |  |
-| [Format](../../aspose.words.drawing.charts/chartdatapoint/format/) { get; } | Предоставляет доступ к заполнению и форматированию строки этой точки данных. |
+| [Bubble3D](../../aspose.words.drawing.charts/chartdatapoint/bubble3d/) { get; set; } | Указывает, должен ли к пузырькам на пузырьковой диаграмме применяться трехмерный эффект. |
+| [Explosion](../../aspose.words.drawing.charts/chartdatapoint/explosion/) { get; set; } | Указывает, на сколько точка данных должна быть перемещена из центра круговой диаграммы. Может быть отрицательным. Отрицательное значение означает, что свойство не установлено и не следует применять развертывание. Применяется только к круговым диаграммам. |
+| [Format](../../aspose.words.drawing.charts/chartdatapoint/format/) { get; } | Предоставляет доступ к форматированию заливки и строк этой точки данных. |
 | [Index](../../aspose.words.drawing.charts/chartdatapoint/index/) { get; } | Индекс точки данных, к которой этот объект применяет форматирование. |
-| [InvertIfNegative](../../aspose.words.drawing.charts/chartdatapoint/invertifnegative/) { get; set; } |  |
-| [Marker](../../aspose.words.drawing.charts/chartdatapoint/marker/) { get; } |  |
+| [InvertIfNegative](../../aspose.words.drawing.charts/chartdatapoint/invertifnegative/) { get; set; } | Указывает, должен ли родительский элемент инвертировать свои цвета, если значение отрицательное. |
+| [Marker](../../aspose.words.drawing.charts/chartdatapoint/marker/) { get; } | Указывает маркер данных диаграммы. |
 
 ## Методы
 
@@ -40,7 +42,6 @@ public class ChartDataPoint : IChartDataPoint
 Показывает, как работать с точками данных на линейной диаграмме.
 
 ```csharp
-[Test]
 public void ChartDataPoint()
 {
     Document doc = new Document();
@@ -54,14 +55,14 @@ public void ChartDataPoint()
     Assert.AreEqual("Series 2", chart.Series[1].Name);
     Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-    // Подчеркните точки данных диаграммы, сделав их ромбовидными.
+    // Выделите точки данных диаграммы, придав им вид ромба.
     foreach (ChartSeries series in chart.Series) 
         ApplyDataPoints(series, 4, MarkerSymbol.Diamond, 15);
 
     // Сглаживаем линию, представляющую первый ряд данных.
     chart.Series[0].Smooth = true;
 
-    // Убедитесь, что точки данных для первого ряда не инвертируют свои цвета, если значение отрицательное.
+    // Убедитесь, что точки данных для первой серии не инвертируют свои цвета, если значение отрицательное.
     using (IEnumerator<ChartDataPoint> enumerator = chart.Series[0].DataPoints.GetEnumerator())
     {
         while (enumerator.MoveNext())
@@ -70,17 +71,17 @@ public void ChartDataPoint()
         }
     }
 
-    // Чтобы график выглядел чище, мы можем очистить формат по отдельности.
+    // Чтобы график выглядел чище, мы можем очистить формат индивидуально.
     chart.Series[1].DataPoints[2].ClearFormat();
 
-    // Мы также можем сразу удалить всю серию точек данных.
+    // Мы также можем удалить сразу всю серию точек данных.
     chart.Series[2].DataPoints.ClearFormat();
 
     doc.Save(ArtifactsDir + "Charts.ChartDataPoint.docx");
 }
 
 /// <summary>
-/// Применяет ряд точек данных к ряду.
+/// Применяет к ряду несколько точек данных.
 /// </summary>
 private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, MarkerSymbol markerSymbol, int dataPointSize)
 {

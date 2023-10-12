@@ -1,14 +1,14 @@
 ---
 title: HtmlLoadOptions.WebRequestTimeout
 second_title: Aspose.Words for .NET API Referansı
-description: HtmlLoadOptions mülk. Web isteğinin zaman aşımına uğramadan önce beklenecek milisaniye sayısı. Varsayılan değer 100.000 milisaniyedir 100 saniye.
+description: HtmlLoadOptions mülk. Web isteği zaman aşımına uğramadan önce beklenecek milisaniye sayısı. Varsayılan değer 100000 milliseconds 100 saniye. dir.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.loading/htmlloadoptions/webrequesttimeout/
 ---
 ## HtmlLoadOptions.WebRequestTimeout property
 
-Web isteğinin zaman aşımına uğramadan önce beklenecek milisaniye sayısı. Varsayılan değer 100.000 milisaniyedir (100 saniye).
+Web isteği zaman aşımına uğramadan önce beklenecek milisaniye sayısı. Varsayılan değer 100000 milliseconds (100 saniye). 'dir.
 
 ```csharp
 public int WebRequestTimeout { get; set; }
@@ -16,40 +16,41 @@ public int WebRequestTimeout { get; set; }
 
 ### Notlar
 
-HTML ve MHTML belgelerinde bağlantılı harici kaynaklar (resimler, style sayfaları) yüklenirken Aspose.Words'ün yanıt beklediği milisaniye sayısı.
+HTML ve MHTML belgelerine bağlı harici kaynakları (resimler, style sayfalar) yüklerken Aspose.Words'ün yanıt için bekleyeceği milisaniye sayısı.
 
 ### Örnekler
 
-URL'lerle bağlantılı harici kaynaklara sahip bir belge yüklenirken web istekleri için bir zaman sınırının nasıl ayarlanacağını gösterir.
+URL'lerle bağlanan harici kaynaklara sahip bir belge yüklenirken web istekleri için zaman sınırının nasıl ayarlanacağını gösterir.
 
 ```csharp
+public void WebRequestTimeout()
 {
     // Yeni bir HtmlLoadOptions nesnesi oluşturun ve bir web isteği için zaman aşımı eşiğini doğrulayın.
     HtmlLoadOptions options = new HtmlLoadOptions();
 
-    // Bir web adresi URL'si ile harici olarak bağlantılı kaynaklara sahip bir Html belgesi yüklerken,
-    // Aspose.Words bu süre içinde kaynakları getiremeyen web isteklerini milisaniye cinsinden iptal eder.
+    // Bir web adresi URL'si ile harici olarak bağlanan kaynaklara sahip bir Html belgesi yüklenirken,
+    // Aspose.Words, kaynakları bu süre sınırı içinde (milisaniye cinsinden) getiremeyen web isteklerini iptal edecektir.
     Assert.AreEqual(100000, options.WebRequestTimeout);
 
-    // Yükleme sırasında oluşan tüm uyarıları kaydedecek bir WarningCallback ayarlayın.
+    // Yükleme sırasında meydana gelen tüm uyarıları kaydedecek bir WarningCallback ayarlayın.
     ListDocumentWarnings warningCallback = new ListDocumentWarnings();
     options.WarningCallback = warningCallback;
 
-    // Böyle bir belgeyi yükleyin ve görüntü verileriyle bir şeklin oluşturulduğunu doğrulayın.
-    // Bu bağlantılı resmin yüklenmesi için bir web isteği gerekecek ve bu istek bizim zaman sınırımız içinde tamamlanacak.
+    // Böyle bir belge yükleyin ve görüntü verileri içeren bir şeklin oluşturulduğunu doğrulayın.
+    // Bu bağlantılı görselin yüklenmesi için bir web isteği gerekecek ve bunun bizim zaman sınırımız içinde tamamlanması gerekecek.
     string html = $@"
         <html>
             <img src=""{ImageUrl}"" alt=""Aspose logo"" style=""width:400px;height:400px;"">
         </html>
     ";
 
-    // Mantıksız bir zaman aşımı sınırı ayarlayın ve belgeyi yeniden yüklemeyi deneyin.
+    // Makul olmayan bir zaman aşımı sınırı belirleyin ve belgeyi yeniden yüklemeyi deneyin.
     options.WebRequestTimeout = 0;
     Document doc = new Document(new MemoryStream(Encoding.UTF8.GetBytes(html)), options);
     Assert.AreEqual(2, warningCallback.Warnings().Count);
 
-    // Zaman sınırı içinde bir görüntü elde edemeyen bir web isteği yine de bir görüntü üretecektir.
-    // Ancak, resim genellikle eksik resimleri ifade eden kırmızı 'x' olacaktır.
+    // Zaman sınırı içinde görüntü elde edemeyen bir web isteği yine de görüntü üretecektir.
+    // Ancak resim, genellikle eksik resimleri belirten kırmızı 'x' olacaktır.
     Shape imageShape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
     Assert.AreEqual(924, imageShape.ImageData.ImageBytes.Length);
 
@@ -66,7 +67,7 @@ URL'lerle bağlantılı harici kaynaklara sahip bir belge yüklenirken web istek
 }
 
 /// <summary>
-/// Belge yükleme işlemi sırasında oluşan tüm uyarıları bir Listede saklar.
+/// Bir belge yükleme işlemi sırasında oluşan tüm uyarıları bir Listede saklar.
 /// </summary>
 private class ListDocumentWarnings : IWarningCallback
 {

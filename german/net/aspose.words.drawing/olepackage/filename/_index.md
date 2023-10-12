@@ -1,14 +1,14 @@
 ---
 title: OlePackage.FileName
 second_title: Aspose.Words für .NET-API-Referenz
-description: OlePackage eigendom. Ruft den Dateinamen des OLEPakets ab oder legt ihn fest.
+description: OlePackage eigendom. Ruft den Namen der OLEPaketdatei ab oder legt diesen fest.
 type: docs
 weight: 20
 url: /de/net/aspose.words.drawing/olepackage/filename/
 ---
 ## OlePackage.FileName property
 
-Ruft den Dateinamen des OLE-Pakets ab oder legt ihn fest.
+Ruft den Namen der OLE-Paketdatei ab oder legt diesen fest.
 
 ```csharp
 public string FileName { get; set; }

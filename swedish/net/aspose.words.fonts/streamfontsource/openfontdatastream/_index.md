@@ -27,6 +27,7 @@ Strömmen kommer att stängas efter läsning. Det finns ingen anledning att stä
 Visar hur man laddar typsnitt från stream.
 
 ```csharp
+public void StreamFontSourceFileRendering()
 {
     FontSettings fontSettings = new FontSettings();
     fontSettings.SetFontsSources(new FontSourceBase[] {new StreamFontSourceFile()});

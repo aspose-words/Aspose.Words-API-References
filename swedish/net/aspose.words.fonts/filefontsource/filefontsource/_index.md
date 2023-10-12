@@ -98,7 +98,6 @@ public FileFontSource(string filePath, int priority, string cacheKey)
 Visar hur man snabbar upp initieringsprocessen för teckensnittscache.
 
 ```csharp
-[Test]
 public void LoadFontSearchCache()
 {
     const string cacheKey1 = "Arvo";

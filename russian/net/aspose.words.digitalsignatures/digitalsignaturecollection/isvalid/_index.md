@@ -1,14 +1,14 @@
 ---
 title: DigitalSignatureCollection.IsValid
 second_title: Справочник по API Aspose.Words для .NET
-description: DigitalSignatureCollection свойство. Возвращаетистинный если все цифровые подписи в этой коллекции действительны и документ не был подделан с Также возвращаетистинныйесли нет цифровых подписей. ВозвращаетЛОЖЬ если хотя бы одна цифровая подпись недействительна.
+description: DigitalSignatureCollection свойство. Возвращаетистинный если все цифровые подписи в этой коллекции действительны и документ не был подделан Также возвращаетсяистинный если нет цифровых подписей. ВозвращаетЛОЖЬ если хотя бы одна цифровая подпись недействительна.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.digitalsignatures/digitalsignaturecollection/isvalid/
 ---
 ## DigitalSignatureCollection.IsValid property
 
-Возвращает`истинный` если все цифровые подписи в этой коллекции действительны и документ не был подделан с Также возвращает`истинный`если нет цифровых подписей. Возвращает`ЛОЖЬ` если хотя бы одна цифровая подпись недействительна.
+Возвращает`истинный` если все цифровые подписи в этой коллекции действительны и документ не был подделан Также возвращается`истинный` если нет цифровых подписей. Возвращает`ЛОЖЬ` если хотя бы одна цифровая подпись недействительна.
 
 ```csharp
 public bool IsValid { get; }
@@ -16,23 +16,23 @@ public bool IsValid { get; }
 
 ### Примеры
 
-Показывает, как подписывать документы сертификатами X.509.
+Показывает, как подписывать документы с помощью сертификатов X.509.
 
 ```csharp
 // Проверяем, что документ не подписан.
 Assert.False(FileFormatUtil.DetectFileFormat(MyDir + "Document.docx").HasDigitalSignature);
 
-// Создадим объект CertificateHolder из файла PKCS12, который мы будем использовать для подписи документа.
+// Создайте объект CertificateHolder из файла PKCS12, который мы будем использовать для подписи документа.
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 
-// Есть два способа сохранить подписанную копию документа в локальную файловую систему:
-// 1 - Назначить документ именем локального системного файла и сохранить подписанную копию в месте, указанном другим именем файла.
+// Существует два способа сохранить подписанную копию документа в локальной файловой системе:
+// 1 — обозначить документ по локальному системному имени файла и сохранить подписанную копию в месте, указанном другим именем файла.
 DigitalSignatureUtil.Sign(MyDir + "Document.docx", ArtifactsDir + "Document.DigitalSignature.docx", 
     certificateHolder, new SignOptions() { SignTime = DateTime.Now } );
 
 Assert.True(FileFormatUtil.DetectFileFormat(ArtifactsDir + "Document.DigitalSignature.docx").HasDigitalSignature);
 
-// 2 - Взять документ из потока и сохранить подписанную копию в другой поток.
+// 2 — Взять документ из потока и сохранить подписанную копию в другой поток.
 using (FileStream inDoc = new FileStream(MyDir + "Document.docx", FileMode.Open))
 {
     using (FileStream outDoc = new FileStream(ArtifactsDir + "Document.DigitalSignature.docx", FileMode.Create))

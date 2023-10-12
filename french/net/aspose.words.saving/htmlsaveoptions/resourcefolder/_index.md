@@ -18,7 +18,7 @@ public string ResourceFolder { get; set; }
 
 `ResourceFolder` est le moyen le plus simple de spécifier un dossier dans lequel toutes les ressources doivent être écrites. Une autre façon consiste à utiliser des propriétés individuelles[`FontsFolder`](../fontsfolder/) ,[`ImagesFolder`](../imagesfolder/) , et[`CssStyleSheetFileName`](../cssstylesheetfilename/).
 
-`ResourceFolder` a une priorité inférieure aux dossiers spécifiés via[`FontsFolder`](../fontsfolder/) , [`ImagesFolder`](../imagesfolder/) , et[`CssStyleSheetFileName`](../cssstylesheetfilename/) . Par exemple, si les deux `ResourceFolder` et[`FontsFolder`](../fontsfolder/)sont spécifiés, les polices seront enregistrées dans[`FontsFolder`](../fontsfolder/) , tandis que les images et le CSS seront enregistrés dans`ResourceFolder`.
+`ResourceFolder` a une priorité inférieure aux dossiers spécifiés via[`FontsFolder`](../fontsfolder/) , [`ImagesFolder`](../imagesfolder/) , et[`CssStyleSheetFileName`](../cssstylesheetfilename/) . Par exemple, si Both `ResourceFolder` et[`FontsFolder`](../fontsfolder/)sont spécifiés, les polices seront enregistrées dans[`FontsFolder`](../fontsfolder/) , tandis que les images et CSS seront enregistrés dans`ResourceFolder`.
 
 Si le dossier spécifié par`ResourceFolder` n'existe pas, il sera créé automatiquement.
 

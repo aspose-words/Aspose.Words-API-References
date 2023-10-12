@@ -1,14 +1,14 @@
 ---
 title: VbaReference.Type
 second_title: Справочник по API Aspose.Words для .NET
-description: VbaReference свойство. получаетVbaReferenceTypeобъект указывающий тип ссылки которую представляет объект VbaReference.
+description: VbaReference свойство. ПолучаетVbaReferenceType объект указывающий тип ссылки которуюVbaReference объект представляет.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.vba/vbareference/type/
 ---
 ## VbaReference.Type property
 
-получает[`VbaReferenceType`](../../vbareferencetype/)объект, указывающий тип ссылки, которую представляет объект VbaReference.
+Получает[`VbaReferenceType`](../../vbareferencetype/) объект, указывающий тип ссылки, которую[`VbaReference`](../) объект представляет.
 
 ```csharp
 public abstract VbaReferenceType Type { get; }

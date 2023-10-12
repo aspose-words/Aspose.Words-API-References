@@ -3,12 +3,14 @@ title: Class GeneralFormatCollection
 second_title: Справочник по API Aspose.Words для .NET
 description: Aspose.Words.Fields.GeneralFormatCollection сорт. Представляет типизированную коллекцию общих форматов.
 type: docs
-weight: 2490
+weight: 2650
 url: /ru/net/aspose.words.fields/generalformatcollection/
 ---
 ## GeneralFormatCollection class
 
 Представляет типизированную коллекцию общих форматов.
+
+Чтобы узнать больше, посетите[Работа с полями](https://docs.aspose.com/words/net/working-with-fields/) статья документации.
 
 ```csharp
 public class GeneralFormatCollection : IEnumerable<GeneralFormat>
@@ -27,12 +29,12 @@ public class GeneralFormatCollection : IEnumerable<GeneralFormat>
 | --- | --- |
 | [Add](../../aspose.words.fields/generalformatcollection/add/)(GeneralFormat) | Добавляет в коллекцию общий формат. |
 | [GetEnumerator](../../aspose.words.fields/generalformatcollection/getenumerator/)() | Возвращает объект перечислителя. |
-| [Remove](../../aspose.words.fields/generalformatcollection/remove/)(GeneralFormat) | Удаляет все вхождения указанного общего формата из коллекции. |
+| [Remove](../../aspose.words.fields/generalformatcollection/remove/)(GeneralFormat) | Удаляет из коллекции все вхождения указанного общего формата. |
 | [RemoveAt](../../aspose.words.fields/generalformatcollection/removeat/)(int) | Удаляет вхождение общего формата по указанному индексу. |
 
 ### Примеры
 
-Показывает, как форматировать результаты поля.
+Показывает, как форматировать результаты полей.
 
 ```csharp
 Document doc = new Document();

@@ -16,7 +16,7 @@ public static PageSet Even { get; }
 
 ### Remarques
 
-Les pages paires ont des index impairs puisque les index de page sont basés sur zéro.
+Les pages paires ont des indices impairs puisque les indices de page sont de base zéro.
 
 ### Voir également
 

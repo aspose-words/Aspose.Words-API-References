@@ -1,14 +1,14 @@
 ---
 title: RowFormat.Borders
 second_title: Aspose.Words für .NET-API-Referenz
-description: RowFormat eigendom. Ruft die Sammlung von Standardzellenrahmen für die Zeile ab.
+description: RowFormat eigendom. Ruft die Sammlung der Standardzellenränder für die Zeile ab.
 type: docs
 weight: 20
 url: /de/net/aspose.words.tables/rowformat/borders/
 ---
 ## RowFormat.Borders property
 
-Ruft die Sammlung von Standardzellenrahmen für die Zeile ab.
+Ruft die Sammlung der Standardzellenränder für die Zeile ab.
 
 ```csharp
 public BorderCollection Borders { get; }
@@ -16,7 +16,7 @@ public BorderCollection Borders { get; }
 
 ### Beispiele
 
-Zeigt, wie eine Tabelle mit benutzerdefinierten Rahmen erstellt wird.
+Zeigt, wie man eine Tabelle mit benutzerdefinierten Rändern erstellt.
 
 ```csharp
 Document doc = new Document();
@@ -48,9 +48,9 @@ builder.InsertCell();
 builder.Write("Row 1, Col 2");
 builder.EndRow();
 
-// Wenn Sie die Formatierung ändern, wird sie auf die aktuelle Zelle angewendet,
-// und alle neuen Zellen, die wir danach mit dem Builder erstellen.
-// Dies wirkt sich nicht auf die zuvor hinzugefügten Zellen aus.
+// Wenn Sie die Formatierung ändern, wird sie auf die aktuelle Zelle angewendet.
+// und alle neuen Zellen, die wir anschließend mit dem Builder erstellen.
+// Dies hat keine Auswirkungen auf die Zellen, die wir zuvor hinzugefügt haben.
 builder.CellFormat.Shading.ClearFormatting();
 
 builder.InsertCell();
@@ -61,7 +61,7 @@ builder.Write("Row 2, Col 2");
 
 builder.EndRow();
 
-// Erhöhen Sie die Zeilenhöhe, um sie an den vertikalen Text anzupassen.
+// Zeilenhöhe erhöhen, um sie an den vertikalen Text anzupassen.
 builder.InsertCell();
 builder.RowFormat.Height = 150;
 builder.CellFormat.Orientation = TextOrientation.Upward;

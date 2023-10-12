@@ -1,14 +1,14 @@
 ---
 title: Range.UnlinkFields
 second_title: Aspose.Words لمراجع .NET API
-description: Range طريقة. إلغاء ربط الحقول في هذا النطاق .
+description: Range طريقة. إلغاء ربط الحقول في هذا النطاق.
 type: docs
-weight: 100
+weight: 110
 url: /ar/net/aspose.words/range/unlinkfields/
 ---
 ## Range.UnlinkFields method
 
-إلغاء ربط الحقول في هذا النطاق .
+إلغاء ربط الحقول في هذا النطاق.
 
 ```csharp
 public void UnlinkFields()
@@ -16,13 +16,13 @@ public void UnlinkFields()
 
 ### ملاحظات
 
-يستبدل جميع الحقول في هذا النطاق بأحدث نتائجها.
+يستبدل كافة الحقول الموجودة في هذا النطاق بأحدث نتائجها.
 
-لإلغاء ربط الحقول في المستند بأكمله ، استخدم`UnlinkFields`.
+لإلغاء ربط الحقول في استخدام المستند بأكمله`UnlinkFields`.
 
 ### أمثلة
 
-يوضح كيفية إلغاء ارتباط كل الحقول في نطاق.
+يوضح كيفية إلغاء ربط كافة الحقول في النطاق.
 
 ```csharp
 Document doc = new Document(MyDir + "Linked fields.docx");

@@ -3,7 +3,7 @@ title: Enum ContinuousSectionRestart
 second_title: Справочник по API Aspose.Words для .NET
 description: Aspose.Words.Layout.ContinuousSectionRestart перечисление. Представляет различное поведение при вычислении номеров страниц в непрерывном разделе который перезапускает нумерацию страниц.
 type: docs
-weight: 3100
+weight: 3300
 url: /ru/net/aspose.words.layout/continuoussectionrestart/
 ---
 ## ContinuousSectionRestart enumeration
@@ -18,8 +18,8 @@ public enum ContinuousSectionRestart
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| Always | `0` | Нумерация страниц всегда перезапускается независимо от потока содержимого. |
-| FromNewPageOnly | `1` | Нумерация страниц возобновляется только в том случае, если перед разделом на странице, с которой начинается раздел, нет другого содержимого. |
+| Always | `0` | Нумерация страниц всегда начинается заново независимо от потока содержимого. |
+| FromNewPageOnly | `1` | Нумерация страниц возобновляется только в том случае, если перед разделом на странице, где этот раздел начинается, нет другого содержимого. |
 
 ### Примеры
 
@@ -29,9 +29,9 @@ public enum ContinuousSectionRestart
 Document doc = new Document(MyDir + "Continuous section page numbering.docx");
 
 // По умолчанию поведение Aspose.Words соответствует Microsoft Word 2019.
-// Если вам нужно старое поведение Aspose.Words, повторяющееся в Microsoft Word 2016, используйте «ContinuousSectionRestart.FromNewPageOnly».
+// Если вам нужно старое поведение Aspose.Words, повторяющееся Microsoft Word 2016, используйте ContinousSectionRestart.FromNewPageOnly.
 // Нумерация страниц возобновляется только в том случае, если перед разделом на странице, где начинается раздел, нет другого контента,
-// из-за этого нумерация сбрасывается на 2 со второй страницы.
+// из-за этого нумерация будет сброшена на 2 со второй страницы.
 doc.LayoutOptions.ContinuousSectionPageNumberingRestart = ContinuousSectionRestart.FromNewPageOnly;
 doc.UpdatePageLayout();
 

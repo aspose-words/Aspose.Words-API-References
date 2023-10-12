@@ -3,7 +3,7 @@ title: DocumentBuilder.Writeln
 second_title: Aspose.Words per .NET API Reference
 description: DocumentBuilder metodo. Inserisce una stringa e uninterruzione di paragrafo nel documento.
 type: docs
-weight: 630
+weight: 670
 url: /it/net/aspose.words/documentbuilder/writeln/
 ---
 ## Writeln(string) {#writeln_1}
@@ -20,7 +20,7 @@ public void Writeln(string text)
 
 ### Osservazioni
 
-Carattere corrente e formattazione del paragrafo specificata da[`Font`](../font/) e[`ParagraphFormat`](../paragraphformat/) vengono utilizzate le proprietà.
+Carattere corrente e formattazione del paragrafo specificati dal[`Font`](../font/) E[`ParagraphFormat`](../paragraphformat/) vengono utilizzate le proprietà.
 
 ### Esempi
 
@@ -38,8 +38,8 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndRow();
 
-// Durante la creazione della tabella, il generatore di documenti applicherà i suoi valori di proprietà RowFormat/CellFormat correnti
-// alla riga/cella corrente in cui si trova il cursore e a tutte le nuove righe/celle man mano che le crea.
+// Durante la creazione della tabella, il generatore di documenti applicherà i valori correnti della proprietà RowFormat/CellFormat
+// alla riga/cella corrente in cui si trova il cursore e a qualsiasi nuova riga/cella mentre le crea.
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[0].CellFormat.VerticalAlignment);
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[1].CellFormat.VerticalAlignment);
 
@@ -54,7 +54,7 @@ builder.Write("Row 2, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// Le righe e le celle aggiunte in precedenza non sono influenzate retroattivamente dalle modifiche alla formattazione del builder.
+// Le righe e le celle aggiunte in precedenza non vengono influenzate retroattivamente dalle modifiche alla formattazione del builder.
 Assert.AreEqual(0, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 Assert.AreEqual(100, table.Rows[1].RowFormat.Height);
@@ -93,11 +93,11 @@ Mostra come creare intestazioni e piè di pagina in un documento utilizzando Doc
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Specifica che vogliamo intestazioni e piè di pagina diversi per le prime, pari e dispari.
+// Specifica che vogliamo intestazioni e piè di pagina diversi per le prime pagine, pari e dispari.
 builder.PageSetup.DifferentFirstPageHeaderFooter = true;
 builder.PageSetup.OddAndEvenPagesHeaderFooter = true;
 
-// Crea le intestazioni, quindi aggiungi tre pagine al documento per visualizzare ogni tipo di intestazione.
+// Crea le intestazioni, quindi aggiungi tre pagine al documento per visualizzare ciascun tipo di intestazione.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderFirst);
 builder.Write("Header for the first page");
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderEven);

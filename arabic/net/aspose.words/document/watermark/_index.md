@@ -3,7 +3,7 @@ title: Document.Watermark
 second_title: Aspose.Words لمراجع .NET API
 description: Document ملكية. يوفر الوصول إلى العلامة المائية للمستند.
 type: docs
-weight: 460
+weight: 480
 url: /ar/net/aspose.words/document/watermark/
 ---
 ## Document.Watermark property

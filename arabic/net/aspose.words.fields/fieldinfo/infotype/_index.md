@@ -1,14 +1,14 @@
 ---
 title: FieldInfo.InfoType
 second_title: Aspose.Words لمراجع .NET API
-description: FieldInfo ملكية. الحصول على أو تحديد نوع خاصية المستند المراد إدراجها .
+description: FieldInfo ملكية. الحصول على أو تعيين نوع خاصية المستند المراد إدراجه.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldinfo/infotype/
 ---
 ## FieldInfo.InfoType property
 
-الحصول على أو تحديد نوع خاصية المستند المراد إدراجها .
+الحصول على أو تعيين نوع خاصية المستند المراد إدراجه.
 
 ```csharp
 public string InfoType { get; set; }
@@ -22,7 +22,7 @@ public string InfoType { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// قم بتعيين قيمة للخاصية المضمنة "التعليقات" ثم أدخل حقل INFO لعرض قيمة هذه الخاصية.
+// قم بتعيين قيمة للخاصية المضمنة "التعليقات"، ثم قم بإدراج حقل INFO لعرض قيمة تلك الخاصية.
 doc.BuiltInDocumentProperties.Comments = "My comment";
 FieldInfo field = (FieldInfo)builder.InsertField(FieldType.FieldInfo, true);
 field.InfoType = "Comments";
@@ -34,7 +34,7 @@ Assert.AreEqual("My comment", field.Result);
 builder.Writeln();
 
 // تعيين قيمة لخاصية NewValue للحقل وتحديثها
-// سيقوم الحقل أيضًا بالكتابة فوق الخاصية المضمنة المقابلة بالقيمة الجديدة.
+// سيقوم الحقل أيضًا باستبدال الخاصية المضمنة المقابلة بالقيمة الجديدة.
 field = (FieldInfo)builder.InsertField(FieldType.FieldInfo, true);
 field.InfoType = "Comments";
 field.NewValue = "New comment";

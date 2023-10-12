@@ -3,12 +3,14 @@ title: Class FieldToc
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Fields.FieldToc klass. Implementerar TOCfältet.
 type: docs
-weight: 2380
+weight: 2530
 url: /sv/net/aspose.words.fields/fieldtoc/
 ---
 ## FieldToc class
 
 Implementerar TOC-fältet.
+
+För att lära dig mer, besök[Arbeta med Fields](https://docs.aspose.com/words/net/working-with-fields/) dokumentationsartikel.
 
 ```csharp
 public class FieldToc : Field
@@ -44,7 +46,7 @@ public class FieldToc : Field
 | [PreserveLineBreaks](../../aspose.words.fields/fieldtoc/preservelinebreaks/) { get; set; } | Hämtar eller ställer in om nyradstecken ska bevaras i tabellposter. |
 | [PreserveTabs](../../aspose.words.fields/fieldtoc/preservetabs/) { get; set; } | Hämtar eller ställer in om flikposter ska bevaras i tabellposter. |
 | [Result](../../aspose.words.fields/field/result/) { get; set; } | Hämtar eller ställer in text som är mellan fältavgränsaren och fältslutet. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | Hämtar noden som representerar fältseparatorn. Kan vara null. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Hämtar noden som representerar fältseparatorn. Kan vara`null` . |
 | [SequenceSeparator](../../aspose.words.fields/fieldtoc/sequenceseparator/) { get; set; } | Hämtar eller ställer in teckensekvensen som används för att separera sekvensnummer och sidnummer. |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Hämtar noden som representerar början av fältet. |
 | [TableOfFiguresLabel](../../aspose.words.fields/fieldtoc/tableoffigureslabel/) { get; set; } | Hämtar eller ställer in namnet på sekvensidentifieraren som används när man bygger en tabell med figurer. |
@@ -57,7 +59,7 @@ public class FieldToc : Field
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). Både fältkod och fältresultat för underordnade fält ingår. |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). |
-| [Remove](../../aspose.words.fields/field/remove/)() | Tar bort fältet från dokumentet. Returnerar en nod direkt efter fältet. Om fältets slut är den sista child av dess överordnade nod, returnerar dess överordnade stycke. Om fältet redan är borttaget, returneras **null** . |
+| [Remove](../../aspose.words.fields/field/remove/)() | Tar bort fältet från dokumentet. Returnerar en nod direkt efter fältet. Om fältets slut är den sista child av dess överordnade nod, returnerar dess överordnade stycke. Om fältet redan är borttaget, returneras`null` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Utför fältavlänkningen. |
 | [Update](../../aspose.words.fields/field/update/)() | Utför fältuppdateringen. Kastar om fältet redan uppdateras. |
 | [Update](../../aspose.words.fields/field/update/)(bool) | Utför en fältuppdatering. Kastar om fältet redan uppdateras. |
@@ -72,6 +74,7 @@ Bygger en innehållsförteckning (som också kan vara en figurförteckning) med 
 Visar hur man infogar en innehållsförteckning och fyller den med poster baserat på rubrikstilar.
 
 ```csharp
+public void FieldToc()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -101,7 +104,7 @@ Visar hur man infogar en innehållsförteckning och fyller den med poster basera
     // Innehållsförteckningen visar inte sidnumren för rubriker vars innehållsförteckningsnivåer ligger inom detta intervall.
     field.PageNumberOmittingLevelRange = "2-5";
 
-      // Ställ in en anpassad sträng som skiljer varje rubrik från dess sidnummer.
+     // Ställ in en anpassad sträng som skiljer varje rubrik från dess sidnummer.
     field.EntrySeparator = "-";
     field.InsertHyperlinks = true;
     field.HideInWebLayout = false;
@@ -133,6 +136,7 @@ Visar hur man infogar en innehållsförteckning och fyller den med poster basera
     field.UpdatePageNumbers();
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.TOC.docx");
+}
 
 /// <summary>
 /// Starta en ny sida och infoga ett stycke av en angiven stil.
@@ -165,7 +169,7 @@ FieldToc fieldToc = (FieldToc)builder.InsertField(FieldType.FieldTOC, true);
 fieldToc.TableOfFiguresLabel = "MySequence";
 
 // Vi kan namnge en annan SEQ-fältsekvens i egenskapen "PrefixedSequenceIdentifier".
-  // SEQ-fält från denna prefixsekvens kommer inte att skapa TOC-poster.
+ // SEQ-fält från denna prefixsekvens kommer inte att skapa TOC-poster.
 // Varje TOC-post som skapas från ett SEQ-fält i huvudsekvensen kommer nu också att visa antalet som
 // Prefixsekvensen är för närvarande på i det primära sekvens SEQ-fältet som gjorde inmatningen.
 fieldToc.PrefixedSequenceIdentifier = "PrefixSequence";

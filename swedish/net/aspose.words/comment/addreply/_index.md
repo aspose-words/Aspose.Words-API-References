@@ -3,7 +3,7 @@ title: Comment.AddReply
 second_title: Aspose.Words för .NET API Referens
 description: Comment metod. Lägger till ett svar på den här kommentaren.
 type: docs
-weight: 120
+weight: 150
 url: /sv/net/aspose.words/comment/addreply/
 ---
 ## Comment.AddReply method

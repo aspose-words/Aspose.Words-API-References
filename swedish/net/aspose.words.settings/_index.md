@@ -3,7 +3,7 @@ title: Aspose.Words.Settings
 second_title: Aspose.Words för .NET API Referens
 description: De Aspose.Words.Settings namnrymden innehåller klasser och enums som används när du anger olika inställningar och alternativ som lagras i ett dokument. Dessa är sammanslagning skrivskydd kompatibilitet och andra inställningar.
 type: docs
-weight: 230
+weight: 240
 url: /sv/net/aspose.words.settings/
 ---
 De **Aspose.Words.Settings** namnrymden innehåller klasser och enums som används när du anger olika inställningar och alternativ som lagras i ett dokument. Dessa är sammanslagning, skrivskydd, kompatibilitet och andra inställningar.
@@ -27,6 +27,7 @@ De **Aspose.Words.Settings** namnrymden innehåller klasser och enums som använ
 | Uppräkning | Beskrivning |
 | --- | --- |
 | [Compatibility](./compatibility/) | Anger namn på kompatibilitetsalternativ. |
+| [JustificationMode](./justificationmode/) | Anger teckenavståndsjusteringen för ett dokument. Standardvärdet är`Bygga ut` . |
 | [MailMergeCheckErrors](./mailmergecheckerrors/) | Anger hur Microsoft Word kommer att rapportera fel som upptäcks under sammanslagningen. |
 | [MailMergeDataType](./mailmergedatatype/) | Anger typen av en extern kopplingsdatakälla. |
 | [MailMergeDestination](./mailmergedestination/) | Anger möjliga resultat som kan genereras när en e-postsammanslagning utförs på ett dokument. |

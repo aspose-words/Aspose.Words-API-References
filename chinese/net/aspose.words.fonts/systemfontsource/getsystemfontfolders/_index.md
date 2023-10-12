@@ -1,14 +1,14 @@
 ---
 title: SystemFontSource.GetSystemFontFolders
 second_title: Aspose.Words for .NET API 参考
-description: SystemFontSource 方法. 如果文件夹不可访问则返回系统字体文件夹或空数组
+description: SystemFontSource 方法. 返回系统字体文件夹或空数组如果文件夹不可访问
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fonts/systemfontsource/getsystemfontfolders/
 ---
 ## SystemFontSource.GetSystemFontFolders method
 
-如果文件夹不可访问，则返回系统字体文件夹或空数组。
+返回系统字体文件夹或空数组（如果文件夹不可访问）。
 
 ```csharp
 public static string[] GetSystemFontFolders()
@@ -16,11 +16,11 @@ public static string[] GetSystemFontFolders()
 
 ### 评论
 
-在某些平台上，Aspose.Words 不仅可以通过文件夹搜索系统字体，还可以通过其他来源搜索系统字体。例如，在 Windows 平台上 Aspose.Words 也在注册表中搜索字体。
+在某些平台上，Aspose.Words 不仅可以通过文件夹搜索系统字体，还可以在其他来源中搜索系统字体。例如，在 Windows 平台上 Aspose.Words 也在注册表中搜索字体。
 
 ### 例子
 
-显示如何访问文档的系统字体源和设置字体替换。
+演示如何访问文档的系统字体源并设置字体替代品。
 
 ```csharp
 Document doc = new Document();
@@ -48,7 +48,7 @@ foreach (string systemFontFolder in SystemFontSource.GetSystemFontFolders())
     Console.WriteLine(systemFontFolder);
 }
 
-// 设置一种存在于 Windows 字体目录中的字体来替代不存在的字体。
+// 设置 Windows Fonts 目录中存在的字体来替代不存在的字体。
 doc.FontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 doc.FontSettings.SubstitutionSettings.TableSubstitution.AddSubstitutes("Kreon-Regular", new[] {"Calibri"});
 
@@ -62,7 +62,7 @@ FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false);
 doc.FontSettings.SetFontsSources(new FontSourceBase[] {systemFontSource, folderFontSource});
 Assert.AreEqual(2, doc.FontSettings.GetFontsSources().Length);
 
-// 重置字体源仍然给我们留下系统字体源以及我们的替代品。
+// 重置字体源仍然让我们保留系统字体源以及替代品。
 doc.FontSettings.ResetFontSources();
 
 Assert.AreEqual(1, doc.FontSettings.GetFontsSources().Length);

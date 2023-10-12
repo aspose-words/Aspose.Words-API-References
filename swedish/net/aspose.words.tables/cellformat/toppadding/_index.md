@@ -3,7 +3,7 @@ title: CellFormat.TopPadding
 second_title: Aspose.Words för .NET API Referens
 description: CellFormat fast egendom. Returnerar eller ställer in mängden utrymme i poäng som ska läggas till ovanför innehållet i cellen.
 type: docs
-weight: 100
+weight: 110
 url: /sv/net/aspose.words.tables/cellformat/toppadding/
 ---
 ## CellFormat.TopPadding property

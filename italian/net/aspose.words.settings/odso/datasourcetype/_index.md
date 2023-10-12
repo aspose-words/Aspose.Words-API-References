@@ -16,7 +16,7 @@ public OdsoDataSourceType DataSourceType { get; set; }
 
 ### Osservazioni
 
-Questa impostazione è puramente un suggerimento del tipo di origine dati utilizzato per questa stampa unione.
+Questa impostazione è puramente un suggerimento del tipo di origine dati utilizzata per questa stampa unione.
 
 ### Esempi
 
@@ -63,7 +63,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
-// L'apertura di questo documento in Microsoft Word eseguirà la stampa unione prima di visualizzare il contenuto. 
+ // L'apertura di questo documento in Microsoft Word eseguirà la stampa unione prima di visualizzarne il contenuto.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

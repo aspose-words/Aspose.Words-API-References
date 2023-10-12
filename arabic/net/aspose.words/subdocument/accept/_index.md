@@ -1,14 +1,14 @@
 ---
 title: SubDocument.Accept
 second_title: Aspose.Words لمراجع .NET API
-description: SubDocument طريقة. يقبل الزائر .
+description: SubDocument طريقة. يقبل الزائر.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/subdocument/accept/
 ---
 ## SubDocument.Accept method
 
-يقبل الزائر .
+يقبل الزائر.
 
 ```csharp
 public override bool Accept(DocumentVisitor visitor)
@@ -20,13 +20,13 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### قيمة الإرجاع
 
-صحيح إذا تمت زيارة جميع العقد ؛ خطأ إذا أوقف برنامج DocumentVisitor العملية قبل زيارة جميع العقد.
+صحيح إذا تمت زيارة جميع العقد؛ كاذبة إذا[`DocumentVisitor`](../../documentvisitor/) أوقفت العملية قبل زيارة كافة العقد.
 
 ### ملاحظات
 
-يعدّ فوق هذه العقدة وجميع توابعها. تستدعي كل عقدة طريقة مقابلة في DocumentVisitor.
+يعدد هذه العقدة وجميع أبنائها. تستدعي كل عقدة الطريقة المقابلة لها[`DocumentVisitor`](../../documentvisitor/).
 
-لمزيد من المعلومات ، راجع نمط تصميم الزائر.
+لمزيد من المعلومات، راجع نمط تصميم الزائر.
 
 ### أمثلة
 
@@ -38,16 +38,16 @@ public void DocStructureToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     DocStructurePrinter visitor = new DocStructurePrinter();
 
-    // عندما نحصل على عقدة مركبة لقبول زائر المستند ، يزور الزائر عقدة القبول ،
-    // ثم يعبر جميع أبناء العقدة بطريقة العمق أولاً.
-    // يمكن للزائر قراءة كل عقدة تمت زيارتها وتعديلها.
+    // عندما نحصل على عقدة مركبة لقبول زائر المستند، يقوم الزائر بزيارة العقدة المقبولة،
+    // ثم يجتاز جميع أبناء العقدة بطريقة العمق الأول.
+    // يمكن للزائر قراءة وتعديل كل عقدة تمت زيارتها.
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 }
 
 /// <summary>
-/// يتجاوز شجرة العقد التابعة للعقد.
+/// يجتاز شجرة العقدة من العقد الفرعية.
 /// ينشئ خريطة لهذه الشجرة على شكل سلسلة.
 /// </summary>
 public class DocStructurePrinter : DocumentVisitor
@@ -63,7 +63,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاستدعاء عند مصادفة عقدة المستند.
+    /// يتم الاتصال به عند مواجهة عقدة مستند.
     /// </summary>
     public override VisitorAction VisitDocumentStart(Document doc)
     {
@@ -77,7 +77,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم استدعاؤها بعد زيارة جميع العقد الفرعية لعقدة المستند.
+    /// يتم الاتصال به بعد زيارة جميع العقد التابعة لعقدة المستند.
     /// </summary>
     public override VisitorAction VisitDocumentEnd(Document doc)
     {
@@ -88,11 +88,11 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم استدعاؤها عند مواجهة عقدة قسم في المستند.
+    /// يتم الاتصال به عند مواجهة عقدة القسم في المستند.
     /// </summary>
     public override VisitorAction VisitSectionStart(Section section)
     {
-        // احصل على فهرس القسم الخاص بنا داخل المستند.
+        // احصل على فهرس قسمنا داخل المستند.
         NodeCollection docSections = section.Document.GetChildNodes(NodeType.Section, false);
         int sectionIndex = docSections.IndexOf(section);
 
@@ -103,7 +103,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم استدعاؤها بعد زيارة جميع العقد الفرعية لعقدة القسم.
+    /// يتم الاتصال به بعد زيارة جميع العقد التابعة لعقدة القسم.
     /// </summary>
     public override VisitorAction VisitSectionEnd(Section section)
     {
@@ -114,7 +114,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم استدعاؤها عند مصادفة عقدة أساسية في المستند.
+    /// يتم الاتصال به عند مواجهة عقدة النص في المستند.
     /// </summary>
     public override VisitorAction VisitBodyStart(Body body)
     {
@@ -126,7 +126,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم استدعاؤها بعد زيارة جميع العقد الفرعية لعقدة الجسم.
+    /// يتم الاتصال به بعد زيارة جميع العقد التابعة للعقدة الأساسية.
     /// </summary>
     public override VisitorAction VisitBodyEnd(Body body)
     {
@@ -137,7 +137,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم استدعاؤها عند مواجهة عقدة فقرة في المستند.
+    /// يتم استدعاؤه عند مواجهة عقدة فقرة في المستند.
     /// </summary>
     public override VisitorAction VisitParagraphStart(Paragraph paragraph)
     {
@@ -148,7 +148,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم استدعاؤها بعد زيارة جميع العقد الفرعية لعقدة فقرة.
+    /// يتم الاتصال به بعد زيارة جميع العقد التابعة لعقدة الفقرة.
     /// </summary>
     public override VisitorAction VisitParagraphEnd(Paragraph paragraph)
     {
@@ -159,7 +159,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاستدعاء عند مواجهة عقدة تشغيل في المستند.
+    /// يتم الاتصال به عند مواجهة عقدة التشغيل في المستند.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -169,7 +169,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم استدعاؤه عند مواجهة عقدة SubDocument في المستند.
+    /// يتم الاتصال به عند مواجهة عقدة مستند فرعي في المستند.
     /// </summary>
     public override VisitorAction VisitSubDocument(SubDocument subDocument)
     {
@@ -179,9 +179,9 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// قم بإلحاق سطر بـ StringBuilder وقم بعمل مسافة بادئة له اعتمادًا على مدى عمق الزائر في شجرة المستند.
+    /// ألحق سطرًا بـ StringBuilder وقم بوضع مسافة بادئة له اعتمادًا على مدى عمق الزائر في شجرة المستندات.
     /// </summary>
-    /// < param name = "text" > < / param >
+    /// <param name="text"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++) mAcceptingNodeChildTree.Append("|  ");

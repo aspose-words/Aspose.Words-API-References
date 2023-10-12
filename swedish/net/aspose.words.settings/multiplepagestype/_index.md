@@ -3,7 +3,7 @@ title: Enum MultiplePagesType
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Settings.MultiplePagesType uppräkning. Anger hur dokumentet skrivs ut.
 type: docs
-weight: 5570
+weight: 5870
 url: /sv/net/aspose.words.settings/multiplepagestype/
 ---
 ## MultiplePagesType enumeration

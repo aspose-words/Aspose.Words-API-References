@@ -20,7 +20,7 @@ Obwohl Aspose.Words diese Option lesen und schreiben kann, ist ihre Verwendung a
 
 ### Beispiele
 
-Zeigt, wie Sie einen benutzerdefinierten Zoomfaktor festlegen, der ältere Versionen von Microsoft Word beim Laden auf ein Dokument anwenden.
+Zeigt, wie man einen benutzerdefinierten Zoomfaktor festlegt, den ältere Versionen von Microsoft Word beim Laden auf ein Dokument anwenden.
 
 ```csharp
 Document doc = new Document();

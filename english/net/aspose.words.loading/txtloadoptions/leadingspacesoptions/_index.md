@@ -5,7 +5,7 @@ articleTitle: LeadingSpacesOptions
 second_title: Aspose.Words for .NET
 description: TxtLoadOptions LeadingSpacesOptions property. Gets or sets preferred option of a leading space handling. Default value is ConvertToIndent in C#.
 type: docs
-weight: 50
+weight: 60
 url: /net/aspose.words.loading/txtloadoptions/leadingspacesoptions/
 ---
 ## TxtLoadOptions.LeadingSpacesOptions property

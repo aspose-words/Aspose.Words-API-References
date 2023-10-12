@@ -1,14 +1,14 @@
 ---
 title: Stroke.On
 second_title: Aspose.Words for .NET API Referansı
-description: Stroke mülk. Yolun konturlu olup olmayacağını tanımlar.
+description: Stroke mülk. Yolun vuruşlu olup olmayacağını tanımlar.
 type: docs
-weight: 130
+weight: 150
 url: /tr/net/aspose.words.drawing/stroke/on/
 ---
 ## Stroke.On property
 
-Yolun konturlu olup olmayacağını tanımlar.
+Yolun vuruşlu olup olmayacağını tanımlar.
 
 ```csharp
 public bool On { get; set; }
@@ -16,7 +16,7 @@ public bool On { get; set; }
 
 ### Notlar
 
-Bir için varsayılan değer[`Shape`](../../shape/) dır-dir **doğru**.
+Bir için varsayılan değer[`Shape`](../../shape/) dır-dir`doğru`.
 
 ### Örnekler
 
@@ -29,11 +29,11 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPosition.LeftMargin, 100,
     RelativeVerticalPosition.TopMargin, 100, 200, 200, WrapType.None);
 
-// Dikdörtgen gibi temel şekillerin iki görünür parçası vardır.
-// 1 - Şeklin anahattı içindeki alana uygulanan dolgu:
+// Dikdörtgen gibi temel şekillerin iki görünür kısmı vardır.
+// 1 - Şeklin ana hatları içindeki alana uygulanan dolgu:
 shape.Fill.ForeColor = Color.White;
 
-// 2 - Şeklin ana hatlarını belirleyen kontur:
+// 2 - Şeklin ana hatlarını işaretleyen kontur:
 // Bu şeklin konturunun çeşitli özelliklerini değiştirin.
 Stroke stroke = shape.Stroke;
 stroke.On = true;
@@ -43,6 +43,7 @@ stroke.DashStyle = DashStyle.ShortDashDotDot;
 stroke.JoinStyle = JoinStyle.Miter;
 stroke.EndCap = EndCap.Square;
 stroke.LineStyle = ShapeLineStyle.Triple;
+stroke.Fill.TwoColorGradient(Color.Red, Color.Blue, GradientStyle.Vertical, GradientVariant.Variant1);
 
 doc.Save(ArtifactsDir + "Shape.Stroke.docx");
 ```

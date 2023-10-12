@@ -1,14 +1,14 @@
 ---
 title: MailMerge.ExecuteWithRegionsADO
 second_title: Справочник по API Aspose.Words для .NET
-description: MailMerge метод. Выполняет слияние из объекта набора записей ADO в документ с областями слияния.
+description: MailMerge метод. Выполняет слияние почты из объекта набора записей ADO в документ с областями слияния почты.
 type: docs
 weight: 210
 url: /ru/net/aspose.words.mailmerging/mailmerge/executewithregionsado/
 ---
 ## MailMerge.ExecuteWithRegionsADO method
 
-Выполняет слияние из объекта набора записей ADO в документ с областями слияния.
+Выполняет слияние почты из объекта набора записей ADO в документ с областями слияния почты.
 
 ```csharp
 public void ExecuteWithRegionsADO(object recordset, string tableName)
@@ -17,13 +17,13 @@ public void ExecuteWithRegionsADO(object recordset, string tableName)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | recordset | Object | Набор записей ADO или объект записи. |
-| tableName | String | Имя области слияния в документе для заполнения. |
+| tableName | String | Имя региона слияния почты в заполняемом документе. |
 
 ### Примечания
 
-Этот метод полезен, когда вы собираетесь использовать классы Aspose.Words как COM-объекты из неуправляемого кода, такого как приложение, созданное с помощью ASP или Visual Basic 6.0.
+Этот метод полезен, если вы собираетесь использовать классы Aspose.Words как COM-объекты из неуправляемого кода, например приложения, созданного с использованием ASP или Visual Basic 6.0.
 
-Дополнительные сведения см. в описании MailMerge.ExecuteWithRegions(DataTable).
+Более подробную информацию смотрите в описании[`ExecuteWithRegions`](../executewithregions/).
 
 ### Примеры
 
@@ -46,25 +46,25 @@ Doc.MailMerge.ExecuteWithRegionsADO RS, "OrderDetails"
 Doc.Save "Invoice Out VBScript.doc"
 ```
 
-Показывает, как выполнить слияние почты с несколькими регионами, скомпилированными с данными из набора данных ADO.
+Показывает, как запустить слияние почты с несколькими регионами, скомпилированное с использованием данных из набора данных ADO.
 
 ```csharp
 public void ExecuteWithRegionsADO()
 {
     Document doc = CreateSourceDocADOMailMergeWithRegions();
 
-    // Для работы с наборами данных ADO нам потребуется добавить ссылку на библиотеку Microsoft ActiveX Data Objects,
-    // которая включена в дистрибутив .NET и хранится в "adodb.dll".
+    // Для работы с наборами данных ADO нам нужно будет добавить ссылку на библиотеку объектов данных Microsoft ActiveX,
+    // который включен в дистрибутив .NET и хранится в "adodb.dll".
     ADODB.Connection connection = new ADODB.Connection();
 
     // Создаем строку подключения, указывающую на файл базы данных "Борей"
     // в нашей локальной файловой системе и открываем соединение.
-    string connectionString = @"Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" + DatabaseDir + "Northwind.mdb";
+    string connectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" + DatabaseDir + "Northwind.accdb";
     connection.Open(connectionString);
 
-    // Заполнить наш набор данных, запустив команду SQL в нашей базе данных.
+    // Заполните наш набор данных, выполнив команду SQL в нашей базе данных.
     // Имена столбцов в таблице результатов должны соответствовать
-    // к значениям MERGEFIELDS, которые будут вмещать наши данные.
+    // к значениям MERGEFIELDS, которые будут содержать наши данные.
     string command = "SELECT FirstName, LastName, City FROM Employees";
 
     ADODB.Recordset recordset = new ADODB.Recordset();
@@ -73,20 +73,21 @@ public void ExecuteWithRegionsADO()
     // Запускаем слияние только для первого региона, заполняя его MERGEFIELDS данными из набора записей.
     doc.MailMerge.ExecuteWithRegionsADO(recordset, "MergeRegion1");
 
-    // Закройте набор записей и снова откройте его с данными из другого SQL-запроса.
+    // Закрываем набор записей и открываем его снова с данными из другого SQL-запроса.
     command = "SELECT * FROM Customers";
 
     recordset.Close();
     recordset.Open(command, connection);
 
-    // Запускаем второе слияние во втором регионе и сохраняем документ.
+    // Запускаем второе слияние почты во втором регионе и сохраняем документ.
     doc.MailMerge.ExecuteWithRegionsADO(recordset, "MergeRegion2");
 
     doc.Save(ArtifactsDir + "MailMerge.ExecuteWithRegionsADO.docx");
+
 }
 
 /// <summary>
-/// Создайте документ с двумя областями слияния.
+/// Создайте документ с двумя областями слияния почты.
 /// </summary>
 private static Document CreateSourceDocADOMailMergeWithRegions()
 {

@@ -16,11 +16,11 @@ public bool AnchorLocked { get; set; }
 
 ### Bemerkungen
 
-Der Standardwert ist **FALSCH**.
+Der Standardwert ist`FALSCH`.
 
-Hat nur Auswirkungen auf Shapes der obersten Ebene.
+Hat nur Auswirkungen auf Formen der obersten Ebene.
 
-Diese Eigenschaft wirkt sich auf das Verhalten des Ankers der Form in Microsoft Word aus. Wenn der Anker nicht gesperrt ist, kann das Verschieben der Form in Microsoft Word auch den Anker der Form verschieben .
+Diese Eigenschaft beeinflusst das Verhalten des Ankers der Form in Microsoft Word. Wenn der Anker nicht gesperrt ist, kann das Verschieben der Form in Microsoft Word auch den Anker der Form verschieben .
 
 ### Beispiele
 
@@ -39,14 +39,14 @@ builder.InsertBreak(BreakType.ParagraphBreak);
 
 builder.Writeln("Hello again!");
 
-// Setzen Sie die Eigenschaft "AnchorLocked" auf "true", um den Anker der Form zu verhindern
+// Setzen Sie die Eigenschaft „AnchorLocked“ auf „true“, um den Anker der Form zu verhindern
 // vom Verschieben beim Verschieben der Form in Microsoft Word.
-// Setzen Sie die Eigenschaft "AnchorLocked" auf "false", um jede Bewegung der Form zuzulassen
-// um seinen Anker auch zu einem anderen Absatz zu verschieben, in dessen Nähe die Form endet.
+// Setzen Sie die Eigenschaft „AnchorLocked“ auf „false“, um jede Bewegung der Form zu ermöglichen
+// um seinen Anker auch zu jedem anderen Absatz zu verschieben, in dessen Nähe die Form endet.
 shape.AnchorLocked = anchorLocked;
 
 // Wenn die Form links kein sichtbares Ankersymbol hat,
-// Wir müssen sichtbare Anker über "Optionen" aktivieren -> "Anzeigen" -> "Objektanker".
+// Wir müssen sichtbare Anker über „Optionen“ aktivieren -> „Anzeige“ -> „Objektanker“.
 doc.Save(ArtifactsDir + "Shape.AnchorLocked.docx");
 ```
 

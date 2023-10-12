@@ -1,14 +1,14 @@
 ---
 title: Shape.HorizontalRuleFormat
 second_title: Aspose.Words för .NET API Referens
-description: Shape fast egendom. Ger tillgång till egenskaperna för den horisontella regelformen. För en form som inte är en horisontell regel returnerar null.
+description: Shape fast egendom. Ger tillgång till egenskaperna för den horisontella regelformen. För en form som inte är en horisontell regel returnerarnull .
 type: docs
 weight: 100
 url: /sv/net/aspose.words.drawing/shape/horizontalruleformat/
 ---
 ## Shape.HorizontalRuleFormat property
 
-Ger tillgång till egenskaperna för den horisontella regelformen. För en form som inte är en horisontell regel, returnerar null.
+Ger tillgång till egenskaperna för den horisontella regelformen. För en form som inte är en horisontell regel, returnerar`null` .
 
 ```csharp
 public HorizontalRuleFormat HorizontalRuleFormat { get; }

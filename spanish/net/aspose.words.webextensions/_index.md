@@ -1,19 +1,19 @@
 ---
 title: Aspose.Words.WebExtensions
 second_title: Referencia de API de Aspose.Words para .NET
-description: los Aspose.Words.WebExtensions El espacio de nombres proporciona clases que permiten personalizar elementos y atributos que amplían el vocabulario XML para representar complementos de Office.
+description: El Aspose.Words.WebExtensionsEl espacio de nombres proporciona clases que permiten personalizar elementos y atributos que amplían el vocabulario XML para representar complementos de Office.
 type: docs
-weight: 280
+weight: 290
 url: /es/net/aspose.words.webextensions/
 ---
-los **Aspose.Words.WebExtensions** El espacio de nombres proporciona clases que permiten personalizar elementos y atributos que amplían el vocabulario XML para representar complementos de Office.
+El **Aspose.Words.WebExtensions**El espacio de nombres proporciona clases que permiten personalizar elementos y atributos que amplían el vocabulario XML para representar complementos de Office.
 
 ## Clases
 
 | Clase | Descripción |
 | --- | --- |
 | [BaseWebExtensionCollection&lt;T&gt;](./basewebextensioncollection-1/) | Clase base para[`TaskPaneCollection`](../aspose.words.webextensions/taskpanecollection/) ,[`WebExtensionBindingCollection`](../aspose.words.webextensions/webextensionbindingcollection/) , [`WebExtensionPropertyCollection`](../aspose.words.webextensions/webextensionpropertycollection/) y[`WebExtensionReferenceCollection`](../aspose.words.webextensions/webextensionreferencecollection/) colecciones. |
-| [TaskPane](./taskpane/) | Representa un objeto de panel de tareas de complemento. |
+| [TaskPane](./taskpane/) | Representa un objeto de panel de tareas complementario. |
 | [TaskPaneCollection](./taskpanecollection/) | Especifica una lista de objetos del panel de tareas persistentes. |
 | [WebExtension](./webextension/) | Representa un objeto de extensión web. |
 | [WebExtensionBinding](./webextensionbinding/) | Especifica una relación vinculante entre una extensión web y los datos del documento. |

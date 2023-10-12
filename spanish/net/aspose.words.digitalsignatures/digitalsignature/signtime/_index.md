@@ -1,14 +1,14 @@
 ---
 title: DigitalSignature.SignTime
 second_title: Referencia de API de Aspose.Words para .NET
-description: DigitalSignature propiedad. Obtiene la hora a la que se firmó el documento.
+description: DigitalSignature propiedad. Obtiene la hora en que se firmó el documento.
 type: docs
-weight: 60
+weight: 70
 url: /es/net/aspose.words.digitalsignatures/digitalsignature/signtime/
 ---
 ## DigitalSignature.SignTime property
 
-Obtiene la hora a la que se firmó el documento.
+Obtiene la hora en que se firmó el documento.
 
 ```csharp
 public DateTime SignTime { get; }

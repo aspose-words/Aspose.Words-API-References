@@ -1,14 +1,14 @@
 ---
 title: Border.IsVisible
 second_title: Aspose.Words لمراجع .NET API
-description: Border ملكية. إرجاع صحيح إذا لم يكن LineStyle ليس LineStyle.
+description: Border ملكية. إرجاعحقيقي إذاLineStyle ليسNone .
 type: docs
 weight: 30
 url: /ar/net/aspose.words/border/isvisible/
 ---
 ## Border.IsVisible property
 
-إرجاع صحيح إذا لم يكن LineStyle ليس LineStyle.
+إرجاع`حقيقي` إذا[`LineStyle`](../linestyle/) ليسNone .
 
 ```csharp
 public bool IsVisible { get; }
@@ -16,13 +16,13 @@ public bool IsVisible { get; }
 
 ### أمثلة
 
-يوضح كيفية إزالة الحدود من فقرة.
+يوضح كيفية إزالة الحدود من الفقرة.
 
 ```csharp
 Document doc = new Document(MyDir + "Borders.docx");
 
-// لكل فقرة مجموعة فردية من الحدود.
-// يمكننا الوصول إلى إعدادات ظهور هذه الحدود عبر كائن تنسيق الفقرة.
+// تحتوي كل فقرة على مجموعة فردية من الحدود.
+// يمكننا الوصول إلى إعدادات مظهر هذه الحدود عبر كائن تنسيق الفقرة.
 BorderCollection borders = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Borders;
 
 Assert.AreEqual(Color.Red.ToArgb(), borders[0].Color.ToArgb());
@@ -30,8 +30,8 @@ Assert.AreEqual(3.0d, borders[0].LineWidth);
 Assert.AreEqual(LineStyle.Single, borders[0].LineStyle);
 Assert.True(borders[0].IsVisible);
 
-// يمكننا إزالة حد مرة واحدة عن طريق تشغيل طريقة ClearFormatting. 
-// سيؤدي تشغيل هذه الطريقة على كل حدود الفقرة إلى إزالة كل حدودها.
+ // يمكننا إزالة الحدود مرة واحدة عن طريق تشغيل طريقة ClearFormatting.
+// سيؤدي تشغيل هذه الطريقة على كل حدود الفقرة إلى إزالة جميع حدودها.
 foreach (Border border in borders)
     border.ClearFormatting();
 

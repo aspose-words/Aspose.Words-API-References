@@ -20,7 +20,7 @@ Alan karakteri için bir alan.
 
 ### Notlar
 
-Yeni bir[`Field`](../../field/) nesne, yöntem her çağrıldığında oluşturulur.
+Yeni bir[`Field`](../../field/) Yöntem her çağrıldığında nesne oluşturulur.
 
 ### Örnekler
 
@@ -46,7 +46,7 @@ field = (FieldDate)fieldStart.GetField();
 Assert.AreEqual(false, field.IsLocked);
 Assert.AreEqual(" DATE  \\@ \"dddd, MMMM dd, yyyy\"", field.GetFieldCode());
 
-// Geçerli tarihi göstermek için alanı güncelleyin.
+// Geçerli tarihi gösterecek şekilde alanı güncelleyin.
 field.Update();
 ```
 

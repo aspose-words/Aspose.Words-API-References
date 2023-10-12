@@ -1,16 +1,16 @@
 ---
 title: StructuredDocumentTagRangeStart.IsShowingPlaceholderText
 second_title: Aspose.Words لمراجع .NET API
-description: StructuredDocumentTagRangeStart ملكية. يحدد ما إذا كان يجب تفسير محتوى علامة المستند المهيكلة هذه على أنها تحتوي على نص عنصر نائب على عكس محتويات النص العادي داخل علامة المستند المهيكل.
+description: StructuredDocumentTagRangeStart ملكية. يحدد ما إذا كان يجب تفسير محتوى علامة المستند المنظم هذه بحيث يحتوي على نص نائب على عكس محتويات النص العادي داخل علامة المستند المنظم.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.markup/structureddocumenttagrangestart/isshowingplaceholdertext/
 ---
 ## StructuredDocumentTagRangeStart.IsShowingPlaceholderText property
 
-يحدد ما إذا كان يجب تفسير محتوى علامة المستند المهيكلة هذه على أنها تحتوي على نص عنصر نائب (على عكس محتويات النص العادي داخل علامة المستند المهيكل).
+يحدد ما إذا كان يجب تفسير محتوى علامة المستند المنظم هذه بحيث يحتوي على نص نائب (على عكس محتويات النص العادي داخل علامة المستند المنظم).
 
-إذا تم ضبطه على "صحيح" ، يجب استئناف هذه الحالة (إظهار نص العنصر النائب) عند فتح هذا المستند.
+إذا تم ضبطه على`حقيقي` ، سيتم استئناف هذه الحالة (إظهار نص العنصر النائب) عند فتح هذا المستند.
 
 ```csharp
 public bool IsShowingPlaceholderText { get; set; }

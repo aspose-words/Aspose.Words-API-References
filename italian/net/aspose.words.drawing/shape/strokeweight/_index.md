@@ -16,7 +16,7 @@ public double StrokeWeight { get; set; }
 
 ### Osservazioni
 
-Questa è una scorciatoia per il[`Weight`](../../stroke/weight/) proprietà.
+Questa è una scorciatoia per[`Weight`](../../stroke/weight/) proprietà.
 
 Il valore predefinito è 0,75.
 
@@ -25,6 +25,7 @@ Il valore predefinito è 0,75.
 Mostra come scorrere tutte le forme in un documento.
 
 ```csharp
+public void VisitShapes()
 {
     Document doc = new Document(MyDir + "Revision shape.docx");
     ShapeAppearancePrinter visitor = new ShapeAppearancePrinter();

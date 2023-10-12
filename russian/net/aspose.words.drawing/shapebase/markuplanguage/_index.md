@@ -3,7 +3,7 @@ title: ShapeBase.MarkupLanguage
 second_title: Справочник по API Aspose.Words для .NET
 description: ShapeBase свойство. Получает язык разметки используемый для этого графического объекта.
 type: docs
-weight: 370
+weight: 390
 url: /ru/net/aspose.words.drawing/shapebase/markuplanguage/
 ---
 ## ShapeBase.MarkupLanguage property

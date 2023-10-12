@@ -1,14 +1,16 @@
 ---
 title: Class StructuredDocumentTagRangeEnd
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Markup.StructuredDocumentTagRangeEnd sınıf. Bir sonunu temsil eder menzilli çok bölümlü içeriği kabul eden yapılandırılmış belge etiketi. Ayrıca bkz.StructuredDocumentTagRangeStart düğüm.
+description: Aspose.Words.Markup.StructuredDocumentTagRangeEnd sınıf. Sonunu temsil eder aralıklı çok bölümlü içeriği kabul eden yapılandırılmış belge etiketi. Ayrıca bkz.StructuredDocumentTagRangeStart düğüm.
 type: docs
-weight: 3840
+weight: 4080
 url: /tr/net/aspose.words.markup/structureddocumenttagrangeend/
 ---
 ## StructuredDocumentTagRangeEnd class
 
-Bir sonunu temsil eder **menzilli** çok bölümlü içeriği kabul eden yapılandırılmış belge etiketi. Ayrıca bkz.[`StructuredDocumentTagRangeStart`](../structureddocumenttagrangestart/) düğüm.
+Sonunu temsil eder **aralıklı** çok bölümlü içeriği kabul eden yapılandırılmış belge etiketi. Ayrıca bkz.[`StructuredDocumentTagRangeStart`](../structureddocumenttagrangestart/) düğüm.
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Yapılandırılmış Belge Etiketleri veya İçerik Kontrolü](https://docs.aspose.com/words/net/working-with-content-control-sdt/) dokümantasyon makalesi.
 
 ```csharp
 public class StructuredDocumentTagRangeEnd : Node
@@ -18,7 +20,7 @@ public class StructuredDocumentTagRangeEnd : Node
 
 | İsim | Tanım |
 | --- | --- |
-| [StructuredDocumentTagRangeEnd](structureddocumenttagrangeend/)(DocumentBase, int) | Yeni bir örneğini başlatır **Yapılandırılmış belge etiketi aralığı sonu** sınıf. |
+| [StructuredDocumentTagRangeEnd](structureddocumenttagrangeend/)(DocumentBase, int) | Yeni bir örneğini başlatır **Yapılandırılmış belge etiketi aralığı sonu** class. |
 
 ## Özellikleri
 
@@ -26,32 +28,32 @@ public class StructuredDocumentTagRangeEnd : Node
 | --- | --- |
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Özel düğüm tanımlayıcısını belirtir. |
 | virtual [Document](../../aspose.words/node/document/) { get; } | Bu düğümün ait olduğu belgeyi alır. |
-| [Id](../../aspose.words.markup/structureddocumenttagrangeend/id/) { get; } | Bunun için benzersiz bir salt okunur kalıcı sayısal kimlik belirtir **YapılandırılmışBelgeEtiketAralığı** node. Karşılık gelen[`StructuredDocumentTagRangeStart`](../structureddocumenttagrangestart/) düğüm aynı[`Id`](../structureddocumenttagrangestart/id/) . |
-| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Bu düğüm başka düğümler içerebiliyorsa true değerini döndürür. |
-| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Bu düğümden hemen sonraki düğümü alır. |
-| override [NodeType](../../aspose.words.markup/structureddocumenttagrangeend/nodetype/) { get; } |  |
-| [ParentNode](../../aspose.words/node/parentnode/) { get; } | Bu düğümün hemen üst öğesini alır. |
+| [Id](../../aspose.words.markup/structureddocumenttagrangeend/id/) { get; } | Bunun için benzersiz, salt okunur, kalıcı bir sayısal kimlik belirtir **YapılandırılmışBelgeTagAralığı** node. Karşılık gelen[`StructuredDocumentTagRangeStart`](../structureddocumenttagrangestart/) düğüm aynısına sahip[`Id`](../structureddocumenttagrangestart/id/) . |
+| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | İadeler`doğru` bu düğüm başka düğümler içeriyorsa. |
+| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Bu düğümden hemen sonra gelen düğümü alır. |
+| override [NodeType](../../aspose.words.markup/structureddocumenttagrangeend/nodetype/) { get; } | İadelerStructuredDocumentTagRangeEnd . |
+| [ParentNode](../../aspose.words/node/parentnode/) { get; } | Bu düğümün doğrudan ebeveynini alır. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Bu düğümden hemen önceki düğümü alır. |
-| [Range](../../aspose.words/node/range/) { get; } | Bir döndürür **Menzil** belgenin bu düğümde bulunan bölümünü temsil eden nesne. |
+| [Range](../../aspose.words/node/range/) { get; } | Bir değeri döndürür[`Range`](../../aspose.words/range/) Bu düğümde bulunan bir belgenin bölümünü temsil eden nesne. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| override [Accept](../../aspose.words.markup/structureddocumenttagrangeend/accept/)(DocumentVisitor) |  |
+| override [Accept](../../aspose.words.markup/structureddocumenttagrangeend/accept/)(DocumentVisitor) | Ziyaretçi kabul eder. |
 | [Clone](../../aspose.words/node/clone/)(bool) | Düğümün bir kopyasını oluşturur. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Belirtilenin ilk atasını alır[`NodeType`](../../aspose.words/nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Belirtilen nesne türünün ilk üst öğesini alır. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Belirtilenin ilk atayı alır[`NodeType`](../../aspose.words/nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Belirtilen nesne türünün ilk atayı alır. |
 | virtual [GetText](../../aspose.words/node/gettext/)() | Bu düğümün ve tüm alt öğelerinin metnini alır. |
 | [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Ön sipariş ağaç geçiş algoritmasına göre sonraki düğümü alır. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Ön sipariş ağacı geçiş algoritmasına göre önceki düğümü alır. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Ön sipariş ağaç geçiş algoritmasına göre önceki düğümü alır. |
 | [Remove](../../aspose.words/node/remove/)() | Kendini üst öğeden kaldırır. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Düğümün içeriğini belirtilen biçimde bir dizeye aktarır. |
+| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Düğümün içeriğini belirtilen formatta bir dizeye aktarır. |
 | [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Belirtilen kaydetme seçeneklerini kullanarak düğümün içeriğini bir dizeye aktarır. |
 
 ### Notlar
 
-Hemen alt öğesi olabilir[`Body`](../../aspose.words/body/) düğüm **sadece** .
+Birincil alt öğe olabilir[`Body`](../../aspose.words/body/) düğüm **sadece** .
 
 ### Örnekler
 

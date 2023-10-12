@@ -3,7 +3,7 @@ title: Style.Styles
 second_title: Aspose.Words für .NET-API-Referenz
 description: Style eigendom. Ruft die Sammlung von Stilen ab zu denen dieser Stil gehört.
 type: docs
-weight: 150
+weight: 170
 url: /de/net/aspose.words/style/styles/
 ---
 ## Style.Styles property
@@ -23,7 +23,7 @@ Document doc = new Document();
 
 Assert.AreEqual(4, doc.Styles.Count);
 
-// Aufzählen und Auflisten aller Stile, die ein mit Aspose.Words erstelltes Dokument standardmäßig enthält.
+// Alle Stile aufzählen und auflisten, die ein mit Aspose.Words erstelltes Dokument standardmäßig enthält.
 using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 {
     while (stylesEnum.MoveNext())

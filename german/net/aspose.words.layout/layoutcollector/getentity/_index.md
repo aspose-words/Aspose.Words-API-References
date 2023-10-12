@@ -1,14 +1,14 @@
 ---
 title: LayoutCollector.GetEntity
 second_title: Aspose.Words für .NET-API-Referenz
-description: LayoutCollector methode. Gibt eine undurchsichtige Position von zurückLayoutEnumerator was dem angegebenen Knoten entspricht. Sie können den zurückgegebenen Wert als Argument für verwendenCurrent Da das Dokument das aufgezählt wird und das Dokument des Knotens identisch sind.
+description: LayoutCollector methode. Gibt eine undurchsichtige Position des zurückLayoutEnumerator was dem angegebenen Knoten entspricht. Sie können den zurückgegebenen Wert als Argument für verwendenCurrent vorausgesetzt dass das Dokument das aufgezählt wird und das Dokument des Knotens gleich sind.
 type: docs
 weight: 50
 url: /de/net/aspose.words.layout/layoutcollector/getentity/
 ---
 ## LayoutCollector.GetEntity method
 
-Gibt eine undurchsichtige Position von zurück[`LayoutEnumerator`](../../layoutenumerator/) was dem angegebenen Knoten entspricht. Sie können den zurückgegebenen Wert als Argument für verwenden[`Current`](../../layoutenumerator/current/) Da das Dokument, das aufgezählt wird, und das Dokument des Knotens identisch sind.
+Gibt eine undurchsichtige Position des zurück[`LayoutEnumerator`](../../layoutenumerator/) was dem angegebenen Knoten entspricht. Sie können den zurückgegebenen Wert als Argument für verwenden[`Current`](../../layoutenumerator/current/) vorausgesetzt, dass das Dokument, das aufgezählt wird, und das Dokument des Knotens gleich sind.
 
 ```csharp
 public object GetEntity(Node node)
@@ -16,13 +16,13 @@ public object GetEntity(Node node)
 
 ### Bemerkungen
 
-Diese Methode funktioniert nur für[`Paragraph`](../../../aspose.words/paragraph/) Knoten sowie unteilbare Inline-Knoten, zB[`BookmarkStart`](../../../aspose.words/bookmarkstart/) oder[`Shape`](../../../aspose.words.drawing/shape/) Es funktioniert nicht für[`Run`](../../../aspose.words/run/) ,[`Cell`](../../../aspose.words.tables/cell/)[`Row`](../../../aspose.words.tables/row/) oder[`Table`](../../../aspose.words.tables/table/) Knoten und Knoten innerhalb der Kopf-/Fußzeile.
+Diese Methode funktioniert nur für[`Paragraph`](../../../aspose.words/paragraph/) Knoten sowie unteilbare Inline-Knoten, zB[`BookmarkStart`](../../../aspose.words/bookmarkstart/) oder[`Shape`](../../../aspose.words.drawing/shape/) . Es funktioniert nicht[`Run`](../../../aspose.words/run/) ,[`Cell`](../../../aspose.words.tables/cell/)[`Row`](../../../aspose.words.tables/row/) oder[`Table`](../../../aspose.words.tables/table/) Knoten und Knoten innerhalb der Kopf-/Fußzeile.
 
-Beachten Sie, dass die für a zurückgegebene Entität[`Paragraph`](../../../aspose.words/paragraph/) node ist eine Absatzumbruchspanne. Verwenden Sie die geeignete Methode, um zur übergeordneten Linie aufzusteigen
+Beachten Sie, dass die Entität für a zurückgegeben wurde[`Paragraph`](../../../aspose.words/paragraph/) Knoten ist ein Absatzumbruchbereich. Verwenden Sie die entsprechende Methode, um zur übergeordneten Linie aufzusteigen
 
-Wenn Sie zu a navigieren müssen[`Run`](../../../aspose.words/run/) von Text, dann können Sie ein Lesezeichen direkt vor it einfügen und dann stattdessen zum Lesezeichen navigieren.
+Wenn Sie zu a navigieren müssen[`Run`](../../../aspose.words/run/) Wenn Sie einen Text haben, können Sie direkt vor it ein Lesezeichen einfügen und dann stattdessen zum Lesezeichen navigieren.
 
-Wenn Sie zu a navigieren müssen[`Cell`](../../../aspose.words.tables/cell/) Knoten, dann können Sie zu a wechseln[`Paragraph`](../../../aspose.words/paragraph/) Knoten in dieser Zelle und steige dann zu einer übergeordneten Entität auf. Der gleiche Ansatz kann für verwendet werden[`Row`](../../../aspose.words.tables/row/) und[`Table`](../../../aspose.words.tables/table/) Knoten.
+Wenn Sie zu a navigieren müssen[`Cell`](../../../aspose.words.tables/cell/) Knoten, dann können Sie zu einem wechseln[`Paragraph`](../../../aspose.words/paragraph/) -Knoten in dieser Zelle und steigen Sie dann zu einer übergeordneten Entität auf. Der gleiche Ansatz kann verwendet werden für[`Row`](../../../aspose.words.tables/row/) und[`Table`](../../../aspose.words.tables/table/) Knoten.
 
 ### Beispiele
 
@@ -32,12 +32,12 @@ Zeigt, wie die Seitenbereiche angezeigt werden, die ein Knoten umfasst.
 Document doc = new Document();
 LayoutCollector layoutCollector = new LayoutCollector(doc);
 
-// Rufen Sie die Methode "GetNumPagesSpanned" auf, um zu zählen, wie viele Seiten der Inhalt unseres Dokuments umfasst.
-// Da das Dokument leer ist, ist diese Seitenzahl derzeit null.
+// Rufen Sie die Methode „GetNumPagesSpanned“ auf, um zu zählen, wie viele Seiten der Inhalt unseres Dokuments umfasst.
+// Da das Dokument leer ist, beträgt die Anzahl der Seiten derzeit Null.
 Assert.AreEqual(doc, layoutCollector.Document);
 Assert.AreEqual(0, layoutCollector.GetNumPagesSpanned(doc));
 
-// Das Dokument mit 5 Seiten Inhalt füllen.
+// Füllen Sie das Dokument mit 5 Seiten Inhalt.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Write("Section 1");
 builder.InsertBreak(BreakType.PageBreak);
@@ -47,8 +47,8 @@ builder.Write("Section 2");
 builder.InsertBreak(BreakType.PageBreak);
 builder.InsertBreak(BreakType.PageBreak);
 
-// Vor dem Layout-Sammler müssen wir die Methode "UpdatePageLayout" aufrufen, um uns zu geben
-// eine genaue Zahl für alle Layout-bezogenen Metriken, wie z. B. die Seitenzahl.
+// Vor dem Layout-Kollektor müssen wir die Methode „UpdatePageLayout“ aufrufen, um sie uns zu geben
+// eine genaue Zahl für alle Layout-bezogenen Metriken, wie zum Beispiel die Seitenzahl.
 Assert.AreEqual(0, layoutCollector.GetNumPagesSpanned(doc));
 
 layoutCollector.Clear();
@@ -56,7 +56,7 @@ doc.UpdatePageLayout();
 
 Assert.AreEqual(5, layoutCollector.GetNumPagesSpanned(doc));
 
-// Wir können die Nummern der Start- und Endseiten jedes Knotens und ihre gesamten Seitenspannen sehen.
+// Wir können die Nummern der Start- und Endseiten jedes Knotens und deren gesamte Seitenspanne sehen.
 NodeCollection nodes = doc.GetChildNodes(NodeType.Any, true);
 foreach (Node node in nodes)
 {
@@ -66,7 +66,7 @@ foreach (Node node in nodes)
         $" spanning {layoutCollector.GetNumPagesSpanned(node)} pages.");
 }
 
-// Wir können mit einem LayoutEnumerator über die Layout-Entitäten iterieren.
+// Wir können die Layout-Entitäten mit einem LayoutEnumerator durchlaufen.
 LayoutEnumerator layoutEnumerator = new LayoutEnumerator(doc);
 
 Assert.AreEqual(LayoutEntityType.Page, layoutEnumerator.Type);

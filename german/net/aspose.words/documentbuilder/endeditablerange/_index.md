@@ -3,7 +3,7 @@ title: DocumentBuilder.EndEditableRange
 second_title: Aspose.Words für .NET-API-Referenz
 description: DocumentBuilder methode. Markiert die aktuelle Position im Dokument als bearbeitbares Bereichsende.
 type: docs
-weight: 210
+weight: 230
 url: /de/net/aspose.words/documentbuilder/endeditablerange/
 ---
 ## EndEditableRange() {#endeditablerange}
@@ -16,13 +16,13 @@ public EditableRangeEnd EndEditableRange()
 
 ### Rückgabewert
 
-Der soeben erstellte bearbeitbare Bereichsendknoten.
+Der gerade erstellte bearbeitbare Bereichsendknoten.
 
 ### Bemerkungen
 
-Der bearbeitbare Bereich in einem Dokument kann jeden Bereich überlappen und überspannen. Um einen gültigen bearbeitbaren Bereich zu erstellen, müssen Sie beide aufrufen[`StartEditableRange`](../starteditablerange/) und`EndEditableRange` oder`EndEditableRange`Methoden.
+Der bearbeitbare Bereich in einem Dokument kann jeden Bereich überlappen und umfassen. Um einen gültigen bearbeitbaren Bereich zu erstellen, müssen Sie beide aufrufen[`StartEditableRange`](../starteditablerange/) Und`EndEditableRange` oder`EndEditableRange` Methoden.
 
-Ein schlecht formatierter bearbeitbarer Bereich wird beim Speichern des Dokuments ignoriert.
+Ein fehlerhaft geformter bearbeitbarer Bereich wird beim Speichern des Dokuments ignoriert.
 
 ### Beispiele
 
@@ -42,7 +42,7 @@ builder.Writeln("This paragraph is inside an editable range, and can be edited."
 EditableRangeEnd editableRangeEnd = builder.EndEditableRange();
 
 // Ein wohlgeformter bearbeitbarer Bereich hat einen Startknoten und einen Endknoten.
-// Diese Knoten haben übereinstimmende IDs und umfassen bearbeitbare Knoten.
+// Diese Knoten haben passende IDs und umfassen bearbeitbare Knoten.
 EditableRange editableRange = editableRangeStart.EditableRange;
 
 Assert.AreEqual(editableRangeStart.Id, editableRange.Id);
@@ -54,8 +54,8 @@ Assert.AreEqual(editableRangeStart.Id, editableRangeEnd.EditableRangeStart.Id);
 Assert.AreEqual(editableRange.Id, editableRangeStart.EditableRange.Id);
 Assert.AreEqual(editableRangeEnd.Id, editableRange.EditableRangeEnd.Id);
 
-// So können wir auf die Knotentypen jedes Teils zugreifen. Der bearbeitbare Bereich selbst ist kein Knoten,
-// aber eine Entität, die aus einem Anfang, einem Ende und ihren eingeschlossenen Inhalten besteht.
+// Auf diese Weise können wir auf die Knotentypen jedes Teils zugreifen. Der bearbeitbare Bereich selbst ist kein Knoten,
+// sondern eine Entität, die aus einem Anfang, einem Ende und den darin enthaltenen Inhalten besteht.
 Assert.AreEqual(NodeType.EditableRangeStart, editableRangeStart.NodeType);
 Assert.AreEqual(NodeType.EditableRangeEnd, editableRangeEnd.NodeType);
 
@@ -63,7 +63,7 @@ builder.Writeln("This paragraph is outside the editable range, and cannot be edi
 
 doc.Save(ArtifactsDir + "EditableRange.CreateAndRemove.docx");
 
-// Einen bearbeitbaren Bereich entfernen. Alle Knoten innerhalb des Bereichs bleiben intakt.
+// Einen bearbeitbaren Bereich entfernen. Alle Knoten, die innerhalb des Bereichs lagen, bleiben intakt.
 editableRange.Remove();
 ```
 
@@ -90,15 +90,15 @@ public EditableRangeEnd EndEditableRange(EditableRangeStart start)
 
 ### Rückgabewert
 
-Der soeben erstellte bearbeitbare Bereichsendknoten.
+Der gerade erstellte bearbeitbare Bereichsendknoten.
 
 ### Bemerkungen
 
 Verwenden Sie diese Überladung beim Erstellen verschachtelter bearbeitbarer Bereiche.
 
-Der bearbeitbare Bereich in einem Dokument kann jeden Bereich überlappen und überspannen. Um einen gültigen bearbeitbaren Bereich zu erstellen, müssen Sie beide aufrufen[`StartEditableRange`](../starteditablerange/) und`EndEditableRange` oder`EndEditableRange`Methoden.
+Der bearbeitbare Bereich in einem Dokument kann jeden Bereich überlappen und umfassen. Um einen gültigen bearbeitbaren Bereich zu erstellen, müssen Sie beide aufrufen[`StartEditableRange`](../starteditablerange/) Und`EndEditableRange` oder`EndEditableRange` Methoden.
 
-Ein schlecht formatierter bearbeitbarer Bereich wird beim Speichern des Dokuments ignoriert.
+Ein fehlerhaft geformter bearbeitbarer Bereich wird beim Speichern des Dokuments ignoriert.
 
 ### Beispiele
 
@@ -119,7 +119,7 @@ builder.Writeln("This paragraph inside the outer editable range and can be edite
 EditableRangeStart innerEditableRangeStart = builder.StartEditableRange();
 builder.Writeln("This paragraph inside both the outer and inner editable ranges and can be edited.");
 
-// Derzeit befindet sich der Einfügecursor des Document Builder in mehr als einem fortlaufend bearbeitbaren Bereich.
+// Derzeit befindet sich der Knoteneinfügungscursor des Document Builders in mehr als einem fortlaufend bearbeitbaren Bereich.
 // Wenn wir in dieser Situation einen bearbeitbaren Bereich beenden möchten,
 // Wir müssen angeben, welchen der Bereiche wir beenden möchten, indem wir seinen EditableRangeStart-Knoten übergeben.
 builder.EndEditableRange(innerEditableRangeStart);
@@ -131,7 +131,7 @@ builder.EndEditableRange(outerEditableRangeStart);
 builder.Writeln("This paragraph is outside any editable ranges, and cannot be edited.");
 
 // Wenn ein Textbereich zwei überlappende bearbeitbare Bereiche mit angegebenen Gruppen hat,
-// Die kombinierte Gruppe von Benutzern, die von beiden Gruppen ausgeschlossen wurden, wird daran gehindert, sie zu bearbeiten.
+// Die kombinierte Gruppe von Benutzern, die von beiden Gruppen ausgeschlossen wurden, wird daran gehindert, es zu bearbeiten.
 outerEditableRangeStart.EditableRange.EditorGroup = EditorType.Everyone;
 innerEditableRangeStart.EditableRange.EditorGroup = EditorType.Contributors;
 

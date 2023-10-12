@@ -27,12 +27,13 @@ Document docEdited = new Document();
 builder = new DocumentBuilder(docEdited);
 builder.Writeln("This is the edited document.");
 
-// ستؤدي مقارنة المستندات بالمراجعات إلى استثناء.
+// ستؤدي مقارنة المستندات مع المراجعات إلى حدوث استثناء.
 if (docOriginal.Revisions.Count == 0 && docEdited.Revisions.Count == 0)
     docOriginal.Compare(docEdited, "authorName", DateTime.Now);
 
-// بعد المقارنة ، سيحصل المستند الأصلي على مراجعة جديدة
+// بعد المقارنة، سيحصل المستند الأصلي على مراجعة جديدة
 // لكل عنصر مختلف في المستند المحرر.
+foreach (Revision r in docOriginal.Revisions)
 {
     Console.WriteLine($"Revision type: {r.RevisionType}, on a node of type \"{r.ParentNode.NodeType}\"");
     Console.WriteLine($"\tChanged text: \"{r.ParentNode.GetText()}\"");

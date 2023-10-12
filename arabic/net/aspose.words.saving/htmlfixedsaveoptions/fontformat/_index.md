@@ -1,14 +1,14 @@
 ---
 title: HtmlFixedSaveOptions.FontFormat
 second_title: Aspose.Words لمراجع .NET API
-description: HtmlFixedSaveOptions ملكية. يحصل أو يحددExportFontFormat تستخدم لتصدير الخط. القيمة الافتراضية هيWoff .
+description: HtmlFixedSaveOptions ملكية. يحصل على أو مجموعاتExportFontFormat يستخدم لتصدير الخط. القيمة الافتراضية هيWoff .
 type: docs
 weight: 90
 url: /ar/net/aspose.words.saving/htmlfixedsaveoptions/fontformat/
 ---
 ## HtmlFixedSaveOptions.FontFormat property
 
-يحصل أو يحدد[`ExportFontFormat`](../../exportfontformat/) تستخدم لتصدير الخط. القيمة الافتراضية هيWoff .
+يحصل على أو مجموعات[`ExportFontFormat`](../../exportfontformat/) يستخدم لتصدير الخط. القيمة الافتراضية هيWoff .
 
 ```csharp
 public ExportFontFormat FontFormat { get; set; }
@@ -16,7 +16,7 @@ public ExportFontFormat FontFormat { get; set; }
 
 ### أمثلة
 
-يوضح كيفية استخدام الخطوط فقط من الجهاز الهدف عند حفظ مستند إلى HTML.
+يوضح كيفية استخدام الخطوط فقط من الجهاز المستهدف عند حفظ مستند بتنسيق HTML.
 
 ```csharp
 Document doc = new Document(MyDir + "Bullet points with alternative font.docx");

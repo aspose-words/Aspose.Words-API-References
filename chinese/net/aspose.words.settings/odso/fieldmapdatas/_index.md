@@ -1,14 +1,14 @@
 ---
 title: Odso.FieldMapDatas
 second_title: Aspose.Words for .NET API 参考
-description: Odso 财产. 获取或设置一组对象这些对象指定如何将来自外部数据源 的列映射到文档中的预定义合并字段名称 此对象永远不会为空
+description: Odso 财产. 获取或设置对象集合这些对象指定如何将外部数据源 中的列映射到文档中的预定义合并字段名称 该对象从不无效的.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.settings/odso/fieldmapdatas/
 ---
 ## Odso.FieldMapDatas property
 
-获取或设置一组对象，这些对象指定如何将来自外部数据源 的列映射到文档中的预定义合并字段名称。 此对象永远不会为空。
+获取或设置对象集合，这些对象指定如何将外部数据源 中的列映射到文档中的预定义合并字段名称。 该对象从不`无效的`.
 
 ```csharp
 public OdsoFieldMapDataCollection FieldMapDatas { get; set; }
@@ -21,8 +21,8 @@ public OdsoFieldMapDataCollection FieldMapDatas { get; set; }
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
 
-// 此集合定义邮件合并如何映射来自数据源的列
-// 到预定义的 MERGEFIELD、ADDRESSBLOCK 和 GREETINGLINE 字段。
+// 该集合定义邮件合并如何映射数据源中的列
+// 预定义的 MERGEFIELD、ADDRESSBLOCK 和 GREETINGLINE 字段。
 OdsoFieldMapDataCollection dataCollection = doc.MailMergeSettings.Odso.FieldMapDatas;
 Assert.AreEqual(30, dataCollection.Count);
 
@@ -48,7 +48,7 @@ dataCollection.RemoveAt(0);
 
 Assert.AreEqual(29, dataCollection.Count);
 
-// 使用“Clear”方法一次清除整个集合。
+// 使用“Clear”方法一次性清除整个集合。
 dataCollection.Clear();
 
 Assert.AreEqual(0, dataCollection.Count);

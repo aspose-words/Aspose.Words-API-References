@@ -1,14 +1,16 @@
 ---
 title: Class GradientStop
 second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Drawing.GradientStop klas. Repräsentiert einen Gradientenstopp.
+description: Aspose.Words.Drawing.GradientStop klas. Stellt einen Gradientenstopp dar.
 type: docs
-weight: 850
+weight: 980
 url: /de/net/aspose.words.drawing/gradientstop/
 ---
 ## GradientStop class
 
-Repräsentiert einen Gradientenstopp.
+Stellt einen Gradientenstopp dar.
+
+Um mehr zu erfahren, besuchen Sie die[Arbeiten mit grafischen Elementen](https://docs.aspose.com/words/net/working-with-graphic-elements/) Dokumentationsartikel.
 
 ```csharp
 public class GradientStop
@@ -25,9 +27,10 @@ public class GradientStop
 
 | Name | Beschreibung |
 | --- | --- |
-| [Color](../../aspose.words.drawing/gradientstop/color/) { get; set; } | Ruft einen Wert ab oder legt einen Wert fest, der die Farbe des Verlaufsstopps darstellt. |
-| [Position](../../aspose.words.drawing/gradientstop/position/) { get; set; } | Ruft einen Wert ab oder legt einen Wert fest, der die Position eines Stopps innerhalb des Gradienten darstellt, ausgedrückt als Prozent im Bereich von 0,0 bis 1,0. |
-| [Transparency](../../aspose.words.drawing/gradientstop/transparency/) { get; set; } | Ruft einen Wert ab oder legt einen Wert fest, der die Transparenz der Farbverlaufsfüllung darstellt, ausgedrückt als Prozent im Bereich von 0,0 bis 1,0. |
+| [BaseColor](../../aspose.words.drawing/gradientstop/basecolor/) { get; } | Ruft einen Wert ab, der die Farbe des Farbverlaufsstopps ohne Modifikatoren darstellt. |
+| [Color](../../aspose.words.drawing/gradientstop/color/) { get; set; } | Ruft einen Wert ab, der die Farbe des Farbverlaufsstopps darstellt, oder legt diesen fest. |
+| [Position](../../aspose.words.drawing/gradientstop/position/) { get; set; } | Ruft einen Wert ab oder legt diesen fest, der die Position eines Stopps innerhalb des Farbverlaufs darstellt , ausgedrückt als Prozentsatz im Bereich von 0,0 bis 1,0. |
+| [Transparency](../../aspose.words.drawing/gradientstop/transparency/) { get; set; } | Ruft einen Wert ab oder legt diesen fest, der die Transparenz der Farbverlaufsfüllung darstellt , ausgedrückt als Prozentsatz im Bereich von 0,0 bis 1,0. |
 
 ## Methoden
 

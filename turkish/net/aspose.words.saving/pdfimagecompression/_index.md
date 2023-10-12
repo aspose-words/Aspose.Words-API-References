@@ -3,7 +3,7 @@ title: Enum PdfImageCompression
 second_title: Aspose.Words for .NET API Referansı
 description: Aspose.Words.Saving.PdfImageCompression Sıralama. PDF dosyasındaki görüntülere uygulanan sıkıştırma türünü belirtir.
 type: docs
-weight: 5210
+weight: 5490
 url: /tr/net/aspose.words.saving/pdfimagecompression/
 ---
 ## PdfImageCompression enumeration
@@ -19,11 +19,11 @@ public enum PdfImageCompression
 | İsim | Değer | Tanım |
 | --- | --- | --- |
 | Auto | `0` | Her görüntü için en uygun sıkıştırmayı otomatik olarak seçer. |
-| Jpeg | `1` | Jpeg sıkıştırma. Şeffaflığı desteklemez. |
+| Jpeg | `1` | Jpeg sıkıştırması. Şeffaflığı desteklemez. |
 
 ### Örnekler
 
-PDF'ye dönüştürdüğümüz bir belgedeki tüm resimler için bir sıkıştırma türünün nasıl belirleneceğini gösterir.
+PDF'ye dönüştürdüğümüz bir belgedeki tüm görüntüler için sıkıştırma türünün nasıl belirleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -35,8 +35,8 @@ builder.InsertParagraph();
 builder.Writeln("Png image:");
 builder.InsertImage(ImageDir + "Transparent background logo.png");
 
-// Belgenin "Kaydet" yöntemine aktarabileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
-// bu yöntemin belgeyi .PDF'ye dönüştürme şeklini değiştirmek için.
+// Belgenin "Save" yöntemine aktarabileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
+// bu yöntemin belgeyi .PDF'ye dönüştürme biçimini değiştirmek için.
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 
 // "ImageCompression" özelliğini kullanmak için "PdfImageCompression.Auto" olarak ayarlayın.
@@ -45,7 +45,7 @@ PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 // Çıktı PDF'sinde yer alan tüm görüntülerin kalitesini kontrol etmek için "ImageCompression" özelliği.
 pdfSaveOptions.ImageCompression = pdfImageCompression;
 
-// Görüntü kalitesi pahasına sıkıştırmayı güçlendirmek için "JpegQuality" özelliğini "10" olarak ayarlayın.
+// Görüntü kalitesinden ödün vererek sıkıştırmayı güçlendirmek için "JpegQuality" özelliğini "10" olarak ayarlayın.
 pdfSaveOptions.JpegQuality = 10;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.ImageCompression.pdf", pdfSaveOptions);

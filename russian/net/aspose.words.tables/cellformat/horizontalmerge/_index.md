@@ -3,7 +3,7 @@ title: CellFormat.HorizontalMerge
 second_title: Справочник по API Aspose.Words для .NET
 description: CellFormat свойство. Указывает как ячейка объединяется по горизонтали с другими ячейками в строке.
 type: docs
-weight: 40
+weight: 50
 url: /ru/net/aspose.words.tables/cellformat/horizontalmerge/
 ---
 ## CellFormat.HorizontalMerge property
@@ -29,12 +29,12 @@ builder.CellFormat.HorizontalMerge = CellMerge.First;
 builder.Write("Text in merged cells.");
 
 // Вставляем ячейку во второй столбец первой строки. Вместо добавления текстового содержимого,
-// мы объединим эту ячейку с первой ячейкой, которую мы добавили слева.
+// мы объединим эту ячейку с первой ячейкой, которую мы добавили непосредственно слева.
 builder.InsertCell();
 builder.CellFormat.HorizontalMerge = CellMerge.Previous;
 builder.EndRow();
 
-// Вставляем еще две необъединенные ячейки во вторую строку.
+// Вставляем еще две несвязанные ячейки во вторую строку.
 builder.CellFormat.HorizontalMerge = CellMerge.None;
 builder.InsertCell();
 builder.Write("Text in unmerged cell.");

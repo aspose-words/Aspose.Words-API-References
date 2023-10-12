@@ -1,14 +1,14 @@
 ---
 title: Document.Clone
 second_title: Aspose.Words for .NET API Referansı
-description: Document yöntem. Document .
+description: Document yöntem. Derin bir kopyasını gerçekleştirir.Document .
 type: docs
-weight: 530
+weight: 570
 url: /tr/net/aspose.words/document/clone/
 ---
 ## Document.Clone method
 
-[`Document`](../) .
+Derin bir kopyasını gerçekleştirir.[`Document`](../) .
 
 ```csharp
 public Document Clone()
@@ -20,7 +20,7 @@ Klonlanmış belge.
 
 ### Örnekler
 
-Bir belgenin nasıl derin klonlanacağını gösterir.
+Bir belgenin nasıl derinlemesine klonlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -28,7 +28,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("Hello world!");
 
-// Klonlama, orijinaliyle aynı içeriğe sahip yeni bir belge üretecek,
+// Klonlama orijinaliyle aynı içeriğe sahip yeni bir belge üretecek,
 // ancak orijinal belgenin düğümlerinin her birinin benzersiz bir kopyasıyla.
 Document clone = doc.Clone();
 

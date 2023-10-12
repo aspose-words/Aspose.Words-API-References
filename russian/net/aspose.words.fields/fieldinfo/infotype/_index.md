@@ -1,14 +1,14 @@
 ---
 title: FieldInfo.InfoType
 second_title: Справочник по API Aspose.Words для .NET
-description: FieldInfo свойство. Получает или задает тип вставляемого свойства документа.
+description: FieldInfo свойство. Получает или задает тип свойства документа для вставки.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldinfo/infotype/
 ---
 ## FieldInfo.InfoType property
 
-Получает или задает тип вставляемого свойства документа.
+Получает или задает тип свойства документа для вставки.
 
 ```csharp
 public string InfoType { get; set; }
@@ -22,7 +22,7 @@ public string InfoType { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Установите значение для встроенного свойства «Комментарии», а затем вставьте поле INFO для отображения значения этого свойства.
+// Установите значение для встроенного свойства «Комментарии», а затем вставьте поле INFO, чтобы отобразить значение этого свойства.
 doc.BuiltInDocumentProperties.Comments = "My comment";
 FieldInfo field = (FieldInfo)builder.InsertField(FieldType.FieldInfo, true);
 field.InfoType = "Comments";
@@ -33,7 +33,7 @@ Assert.AreEqual("My comment", field.Result);
 
 builder.Writeln();
 
-// Установка значения для свойства NewValue поля и обновление
+// Установка значения свойства NewValue поля и его обновление
 // поле также перезапишет соответствующее встроенное свойство новым значением.
 field = (FieldInfo)builder.InsertField(FieldType.FieldInfo, true);
 field.InfoType = "Comments";

@@ -1,14 +1,14 @@
 ---
 title: Enum MailMergeCleanupOptions
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.MailMerging.MailMergeCleanupOptions Sıralama. Adres mektup birleştirme sırasında hangi öğelerin kaldırılacağını belirleyen seçenekleri belirtir.
+description: Aspose.Words.MailMerging.MailMergeCleanupOptions Sıralama. Adresmektup birleştirme sırasında hangi öğelerin kaldırılacağını belirleyen seçenekleri belirtir.
 type: docs
-weight: 3630
+weight: 3850
 url: /tr/net/aspose.words.mailmerging/mailmergecleanupoptions/
 ---
 ## MailMergeCleanupOptions enumeration
 
-Adres mektup birleştirme sırasında hangi öğelerin kaldırılacağını belirleyen seçenekleri belirtir.
+Adres-mektup birleştirme sırasında hangi öğelerin kaldırılacağını belirleyen seçenekleri belirtir.
 
 ```csharp
 [Flags]
@@ -19,17 +19,17 @@ public enum MailMergeCleanupOptions
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| None | `0` | Varsayılan bir değer belirtir. |
-| RemoveEmptyParagraphs | `1` | Veri içermeyen adres mektup birleştirme alanları içeren paragrafların belgeden kaldırılıp kaldırılmayacağını belirtir. Bu seçenek ayarlandığında, aksi takdirde boş olan bölge başlangıç ve bitiş birleştirme alanlarını içeren paragraflar da kaldırılır . |
-| RemoveUnusedRegions | `2` | Kullanılmayan adres mektup birleştirme bölgelerinin belgeden kaldırılması gerekip gerekmediğini belirtir. |
-| RemoveUnusedFields | `4` | Kullanılmayan birleştirme alanlarının belgeden kaldırılması gerekip gerekmediğini belirtir. |
-| RemoveContainingFields | `8` | İç içe birleştirme alanları kaldırılırsa, birleştirme alanları (örneğin, IF'ler) içeren alanların belge 'den kaldırılması gerekip gerekmediğini belirtir. |
-| RemoveStaticFields | `10` | Statik alanların belgeden kaldırılması gerekip gerekmediğini belirtir. Statik alanlar, herhangi bir belge değişikliğinde sonuçları aynı kalan alanlardır. Sonuçlarını bir document dosyasında saklamayan ve anında hesaplanan alanlar (örn.FieldListNum , FieldSymbol , vb.) statik olarak kabul edilmez. |
-| RemoveEmptyTableRows | `20` | Adres mektup birleştirme bölgelerini içeren boş satırların belgeden kaldırılıp kaldırılmayacağını belirtir. |
+| None | `0` | Varsayılan bir değeri belirtir. |
+| RemoveEmptyParagraphs | `1` | Veri içermeyen adres-mektup birleştirme alanları içeren paragrafların belgeden kaldırılıp kaldırılmayacağını belirtir. Bu seçenek ayarlandığında, aksi durumda boş olan bölge başlangıç ve bitiş birleştirme alanlarını içeren paragraflar da kaldırılır. |
+| RemoveUnusedRegions | `2` | Kullanılmayan adres-mektup birleştirme bölgelerinin belgeden kaldırılıp kaldırılmayacağını belirtir. |
+| RemoveUnusedFields | `4` | Kullanılmayan birleştirme alanlarının belgeden kaldırılıp kaldırılmayacağını belirtir. |
+| RemoveContainingFields | `8` | İç içe geçmiş birleştirme alanları kaldırılırsa, birleştirme alanları içeren alanların (örneğin IF'ler) document 'den kaldırılıp kaldırılmayacağını belirtir. |
+| RemoveStaticFields | `10` | Statik alanların belgeden kaldırılıp kaldırılmayacağını belirtir. Statik alanlar, herhangi bir belge değişikliğinde sonuçlarının aynı kaldığı alanlardır. Sonuçlarını bir document dosyasında saklamayan ve anında hesaplanan alanlar (örneğinFieldListNum , FieldSymbol , vb.) statik olarak kabul edilmez. |
+| RemoveEmptyTableRows | `20` | Adres-mektup birleştirme bölgelerini içeren boş satırların belgeden kaldırılıp kaldırılmayacağını belirtir. |
 
 ### Örnekler
 
-Adres mektup birleştirmenin oluşturabileceği boş paragrafların birleştirme çıktı belgesinden nasıl kaldırılacağını gösterir.
+Adres-mektup birleştirmenin birleştirme çıktı belgesinden oluşturabileceği boş paragrafların nasıl kaldırılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -62,14 +62,14 @@ else
         "Jane Doe", doc.GetText().Trim());
 ```
 
-Adres mektup birleştirme sırasında kullanılmayan MERGEFIELD'lerin otomatik olarak nasıl kaldırılacağını gösterir.
+Adres-mektup birleştirme sırasında kullanılmayan MERGEFIELD'lerin otomatik olarak nasıl kaldırılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Adres mektup birleştirme veri kaynağı tablosunun üç sütunu için MERGEFIELD'ler içeren bir belge oluşturun,
-// ve adları MERGEFIELD'lerimizle eşleşen yalnızca iki sütunlu bir tablo oluşturun.
+// Adres-mektup birleştirme veri kaynağı tablosunun üç sütunu için MERGEFIELD'leri içeren bir belge oluşturun,
+// ve ardından adları MERGEFIELD'lerimizle eşleşen yalnızca iki sütunlu bir tablo oluşturun.
 builder.InsertField(" MERGEFIELD FirstName ");
 builder.Write(" ");
 builder.InsertField(" MERGEFIELD LastName ");
@@ -82,10 +82,10 @@ dataTable.Columns.Add("LastName");
 dataTable.Rows.Add(new object[] { "John", "Doe" });
 dataTable.Rows.Add(new object[] { "Joe", "Bloggs" });
 
-// Üçüncü MERGEFIELD veri kaynağımızda mevcut olmayan bir "Şehir" sütununa başvuruyor.
-// Adres mektup birleştirme, bunun gibi alanları birleştirme öncesi durumlarında olduğu gibi bırakacaktır.
+// Üçüncü MERGEFIELD'ımız, veri kaynağımızda bulunmayan bir "Şehir" sütununa başvuruyor.
+// Adres-mektup birleştirme, bunun gibi alanları birleştirme öncesi durumlarında olduğu gibi bırakacaktır.
 // "CleanupOptions" özelliğinin "RemoveUnusedFields" olarak ayarlanması tüm MERGEFIELD'leri kaldıracaktır
-// adres mektup birleştirme sırasında birleştirme belgelerini temizlemek için kullanılmaz.
+// adres-mektup birleştirme sırasında birleştirme belgelerini temizlemek için kullanılmayanlar.
 doc.MailMerge.CleanupOptions = mailMergeCleanupOptions;
 doc.MailMerge.Execute(dataTable);
 

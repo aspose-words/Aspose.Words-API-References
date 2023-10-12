@@ -28,7 +28,7 @@ public JsonDataSource(string jsonPath)
 
 ## JsonDataSource(Stream) {#constructor}
 
-إنشاء مصدر بيانات جديد ببيانات من دفق JSON باستخدام الخيارات الافتراضية لتحليل بيانات JSON.
+إنشاء مصدر بيانات جديد ببيانات من تدفق JSON باستخدام الخيارات الافتراضية لتحليل بيانات JSON.
 
 ```csharp
 public JsonDataSource(Stream jsonStream)
@@ -36,7 +36,7 @@ public JsonDataSource(Stream jsonStream)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| jsonStream | Stream | دفق بيانات JSON لاستخدامها كمصدر للبيانات. |
+| jsonStream | Stream | دفق بيانات JSON المراد استخدامه كمصدر للبيانات. |
 
 ### أنظر أيضا
 
@@ -70,7 +70,7 @@ public JsonDataSource(string jsonPath, JsonDataLoadOptions options)
 
 ## JsonDataSource(Stream, JsonDataLoadOptions) {#constructor_1}
 
-إنشاء مصدر بيانات جديد ببيانات من دفق JSON باستخدام الخيارات المحددة لتحليل بيانات JSON.
+إنشاء مصدر بيانات جديد ببيانات من تدفق JSON باستخدام الخيارات المحددة لتحليل بيانات JSON.
 
 ```csharp
 public JsonDataSource(Stream jsonStream, JsonDataLoadOptions options)
@@ -78,7 +78,7 @@ public JsonDataSource(Stream jsonStream, JsonDataLoadOptions options)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| jsonStream | Stream | دفق بيانات JSON لاستخدامها كمصدر للبيانات. |
+| jsonStream | Stream | دفق بيانات JSON المراد استخدامه كمصدر للبيانات. |
 | options | JsonDataLoadOptions | خيارات لتحليل بيانات JSON. |
 
 ### أنظر أيضا

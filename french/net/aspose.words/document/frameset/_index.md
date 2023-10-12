@@ -1,14 +1,14 @@
 ---
 title: Document.Frameset
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Document propriété. Renvoie unFramesetexemple si ce document représente une page de cadres.
+description: Document propriété. Renvoie unFramesetexemple si ce document représente une page de frames.
 type: docs
 weight: 160
 url: /fr/net/aspose.words/document/frameset/
 ---
 ## Document.Frameset property
 
-Renvoie un`Frameset`exemple si ce document représente une page de cadres.
+Renvoie un`Frameset`exemple si ce document représente une page de frames.
 
 ```csharp
 public Frameset Frameset { get; }
@@ -16,7 +16,7 @@ public Frameset Frameset { get; }
 
 ### Remarques
 
-Si le document n'est pas encadré, la propriété a le **nul** valeur.
+Si le document n'est pas encadré, la propriété a le`nul` valeur.
 
 ### Exemples
 
@@ -34,7 +34,7 @@ Assert.True(doc.Frameset.ChildFramesets[0].ChildFramesets[0].IsFrameLinkToFile);
 Assert.AreEqual("Document.docx", doc.Frameset.ChildFramesets[1].FrameDefaultUrl);
 Assert.False(doc.Frameset.ChildFramesets[1].IsFrameLinkToFile);
 
-// Modifiez les propriétés de l'un de nos cadres.
+// Change les propriétés d'un de nos frames.
 doc.Frameset.ChildFramesets[0].ChildFramesets[0].FrameDefaultUrl =
     "https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Absolute%20position%20tab.docx" ;
 doc.Frameset.ChildFramesets[0].ChildFramesets[0].IsFrameLinkToFile = false;

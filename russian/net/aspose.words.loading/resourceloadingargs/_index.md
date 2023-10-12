@@ -3,7 +3,7 @@ title: Class ResourceLoadingArgs
 second_title: Справочник по API Aspose.Words для .NET
 description: Aspose.Words.Loading.ResourceLoadingArgs сорт. Предоставляет данные дляResourceLoading метод.
 type: docs
-weight: 3490
+weight: 3690
 url: /ru/net/aspose.words.loading/resourceloadingargs/
 ---
 ## ResourceLoadingArgs class
@@ -20,7 +20,7 @@ public class ResourceLoadingArgs
 | --- | --- |
 | [OriginalUri](../../aspose.words.loading/resourceloadingargs/originaluri/) { get; } | Исходный URI ресурса, указанный в импортированном документе. |
 | [ResourceType](../../aspose.words.loading/resourceloadingargs/resourcetype/) { get; } | Тип ресурса. |
-| [Uri](../../aspose.words.loading/resourceloadingargs/uri/) { get; set; } | URI ресурса, который используется для скачивания , если[`ResourceLoading`](../iresourceloadingcallback/resourceloading/) возвращаетDefault. |
+| [Uri](../../aspose.words.loading/resourceloadingargs/uri/) { get; set; } | URI ресурса, который используется для загрузки , если[`ResourceLoading`](../iresourceloadingcallback/resourceloading/) возвращаетDefault. |
 
 ## Методы
 
@@ -33,6 +33,7 @@ public class ResourceLoadingArgs
 Показывает, как настроить процесс загрузки внешних ресурсов в документ.
 
 ```csharp
+public void ResourceLoadingCallback()
 {
     Document doc = new Document();
     doc.ResourceLoadingCallback = new ImageNameHandler();
@@ -40,7 +41,7 @@ public class ResourceLoadingArgs
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     // Изображения обычно вставляются с использованием URI или массива байтов.
-    // Каждый экземпляр загрузки ресурсов будет вызывать метод ResourceLoading нашего обратного вызова.
+    // Каждый экземпляр загрузки ресурса будет вызывать метод ResourceLoading нашего обратного вызова.
     builder.InsertImage("Google logo");
     builder.InsertImage("Aspose logo");
     builder.InsertImage("Watermark");
@@ -48,10 +49,11 @@ public class ResourceLoadingArgs
     Assert.AreEqual(3, doc.GetChildNodes(NodeType.Shape, true).Count);
 
     doc.Save(ArtifactsDir + "DocumentBase.ResourceLoadingCallback.docx");
+}
 
 /// <summary>
 /// Позволяет нам загружать изображения в документ, используя предопределенные сокращения, а не URI.
-/// Это отделит логику загрузки изображения от остальной конструкции документа.
+/// Это позволит отделить логику загрузки изображения от остальной части конструкции документа.
 /// </summary>
 private class ImageNameHandler : IResourceLoadingCallback
 {

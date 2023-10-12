@@ -1,12 +1,14 @@
 ---
 title: Enum SvgTextOutputMode
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Saving.SvgTextOutputMode перечисление. 
+description: Aspose.Words.Saving.SvgTextOutputMode перечисление. Позволяет указать как должен отображаться текст внутри документа при сохранении в формате SVG.
 type: docs
-weight: 5330
+weight: 5610
 url: /ru/net/aspose.words.saving/svgtextoutputmode/
 ---
 ## SvgTextOutputMode enumeration
+
+Позволяет указать, как должен отображаться текст внутри документа при сохранении в формате SVG.
 
 ```csharp
 public enum SvgTextOutputMode
@@ -16,9 +18,9 @@ public enum SvgTextOutputMode
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| UseSvgFonts | `0` | Шрифты SVG используются для отображения текста. Обратите внимание, что не все браузеры поддерживают шрифты SVG. |
-| UseTargetMachineFonts | `1` | Шрифты, установленные на целевой машине, используются для рендеринга текста. Обратите внимание: если некоторые шрифты, используемые в документе, недоступны на целевой машине, документ может выглядеть иначе. |
-| UsePlacedGlyphs | `2` | Текст визуализируется с использованием кривых. Обратите внимание: выделение текста не будет работать, если вы используете эту опцию. |
+| UseSvgFonts | `0` | Шрифты SVG используются для рендеринга текста. Обратите внимание: не все браузеры поддерживают шрифты SVG. |
+| UseTargetMachineFonts | `1` | Шрифты, установленные на целевой машине, используются для рендеринга текста. Обратите внимание: если некоторые шрифты, используемые в документе, недоступны на целевом компьютере, документ может выглядеть иначе. |
+| UsePlacedGlyphs | `2` | Текст отображается с помощью кривых. Обратите внимание, что выделение текста не будет работать, если вы используете эту опцию. |
 
 ### Примеры
 
@@ -27,7 +29,7 @@ public enum SvgTextOutputMode
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
 
-// Настройте объект SvgSaveOptions для сохранения без границ страницы или выбираемого текста.
+// Настройте объект SvgSaveOptions для сохранения без границ страницы и выбираемого текста.
 SvgSaveOptions options = new SvgSaveOptions
 {
     FitToViewPort = true,

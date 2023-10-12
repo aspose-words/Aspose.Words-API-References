@@ -3,7 +3,7 @@ title: Enum LineStyle
 second_title: Aspose.Words für .NET-API-Referenz
 description: Aspose.Words.LineStyle opsomming. Gibt den Linienstil von a anBorder .
 type: docs
-weight: 3250
+weight: 3450
 url: /de/net/aspose.words/linestyle/
 ---
 ## LineStyle enumeration
@@ -48,7 +48,7 @@ public enum LineStyle
 
 ### Beispiele
 
-Zeigt, wie eine von einem Rahmen umgebene Zeichenfolge in ein Dokument eingefügt wird.
+Zeigt, wie man eine von einem Rahmen umgebene Zeichenfolge in ein Dokument einfügt.
 
 ```csharp
 Document doc = new Document();

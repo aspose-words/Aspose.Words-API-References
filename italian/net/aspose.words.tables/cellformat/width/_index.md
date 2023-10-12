@@ -3,7 +3,7 @@ title: CellFormat.Width
 second_title: Aspose.Words per .NET API Reference
 description: CellFormat proprietà. Ottiene la larghezza della cella in punti.
 type: docs
-weight: 130
+weight: 140
 url: /it/net/aspose.words.tables/cellformat/width/
 ---
 ## CellFormat.Width property
@@ -16,9 +16,9 @@ public double Width { get; set; }
 
 ### Osservazioni
 
-La larghezza viene calcolata da Aspose.Words sul caricamento e il salvataggio del documento. Attualmente, non tutte le combinazioni di proprietà di tabelle, celle e documenti sono supportate. Il valore restituito potrebbe non essere accurato per alcuni documenti. Potrebbe non corrispondere esattamente al larghezza della cella calcolata da MS Word quando il documento viene aperto in MS Word.
+La larghezza viene calcolata da Aspose.Words durante il caricamento e il salvataggio del documento. Attualmente, non tutte le combinazioni di proprietà di tabella, cella e documento sono supportate. Il valore restituito potrebbe non essere accurato per alcuni documenti. Potrebbe non corrispondere esattamente al larghezza della cella calcolata da MS Word quando il documento viene aperto in MS Word.
 
-L'impostazione di questa proprietà non è consigliata. Non vi è alcuna garanzia che la cella abbia effettivamente la larghezza impostata. La larghezza può essere regolata per adattarsi al contenuto della cella in un layout di tabella con adattamento automatico. Le celle in altre righe potrebbero avere una larghezza in conflitto settings. La tabella può essere ridimensionata per adattarsi al contenitore o per soddisfare le impostazioni di larghezza della tabella. Considerare l'utilizzo[`PreferredWidth`](../preferredwidth/) per impostare la larghezza della cella. L'impostazione di questa proprietà imposta[`PreferredWidth`](../preferredwidth/)implicitamente dalla versione 15.8.
+L'impostazione di questa proprietà non è consigliata. Non vi è alcuna garanzia che la cella abbia effettivamente la larghezza impostata. La larghezza può essere regolata per adattarsi al contenuto della cella in un layout di tabella con adattamento automatico. Le celle in altre righe potrebbero avere una larghezza in conflitto settings. La tabella può essere ridimensionata per adattarsi al contenitore o per soddisfare le impostazioni di larghezza della tabella. Considera l'utilizzo[`PreferredWidth`](../preferredwidth/) per impostare la larghezza della cella. L'impostazione di questa proprietà imposta[`PreferredWidth`](../preferredwidth/)implicitamente dalla versione 15.8.
 
 ### Esempi
 
@@ -33,7 +33,7 @@ builder.InsertCell();
 builder.Write("Row 1, cell 1.");
 
 // Inserisci una seconda cella, quindi configura le opzioni di riempimento del testo della cella.
-// Il builder applicherà queste impostazioni alla cella corrente e le nuove celle verranno create in seguito.
+// Il builder applicherà queste impostazioni alla cella corrente e successivamente creerà eventuali nuove celle.
 builder.InsertCell();
 
 CellFormat cellFormat = builder.CellFormat;
@@ -47,7 +47,7 @@ builder.Write("Row 1, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// La prima cella non è stata influenzata dalla riconfigurazione del riempimento e mantiene ancora i valori predefiniti.
+// La prima cella non è stata influenzata dalla riconfigurazione del riempimento e conserva ancora i valori predefiniti.
 Assert.AreEqual(0.0d, table.FirstRow.Cells[0].CellFormat.Width);
 Assert.AreEqual(5.4d, table.FirstRow.Cells[0].CellFormat.LeftPadding);
 Assert.AreEqual(5.4d, table.FirstRow.Cells[0].CellFormat.RightPadding);
@@ -60,7 +60,7 @@ Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.RightPadding);
 Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.TopPadding);
 Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.BottomPadding);
 
-// La prima cella crescerà ancora nel documento di output per corrispondere alle dimensioni della cella adiacente.
+// La prima cella continuerà a crescere nel documento di output per corrispondere alla dimensione della cella vicina.
 doc.Save(ArtifactsDir + "DocumentBuilder.SetCellFormatting.docx");
 ```
 
@@ -97,8 +97,8 @@ builder.Write("Row 1, Col 2");
 builder.EndRow();
 
 // La modifica della formattazione la applicherà alla cella corrente,
-// e tutte le nuove celle che creiamo con il builder in seguito.
-// Ciò non influirà sulle celle che abbiamo aggiunto in precedenza.
+// e tutte le nuove celle che creeremo successivamente con il builder.
+// Ciò non influenzerà le celle che abbiamo aggiunto in precedenza.
 builder.CellFormat.Shading.ClearFormatting();
 
 builder.InsertCell();

@@ -1,14 +1,14 @@
 ---
 title: FieldStart.FieldData
 second_title: Справочник по API Aspose.Words для .NET
-description: FieldStart свойство. Получает данные пользовательского поля связанные с полем.
+description: FieldStart свойство. Получает данные настраиваемого поля связанные с полем.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldstart/fielddata/
 ---
 ## FieldStart.FieldData property
 
-Получает данные пользовательского поля, связанные с полем.
+Получает данные настраиваемого поля, связанные с полем.
 
 ```csharp
 public byte[] FieldData { get; }

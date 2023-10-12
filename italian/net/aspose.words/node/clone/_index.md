@@ -16,7 +16,7 @@ public Node Clone(bool isCloneChildren)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| isCloneChildren | Boolean | True per clonare ricorsivamente il sottoalbero nel nodo specificato; false per clonare solo il nodo stesso. |
+| isCloneChildren | Boolean | True per clonare ricorsivamente il sottoalbero sotto il nodo specificato; false per clonare solo il nodo stesso. |
 
 ### Valore di ritorno
 
@@ -24,9 +24,9 @@ Il nodo clonato.
 
 ### Osservazioni
 
-Questo metodo funge da costruttore di copie per i nodi. Il nodo clonato non ha padre, ma appartiene allo stesso documento del nodo originale.
+Questo metodo funge da costruttore di copie per i nodi. Il nodo clonato non ha un genitore, ma appartiene allo stesso documento del nodo originale.
 
-Questo metodo esegue sempre una copia completa del nodo. IlisCloneChildren parametro specifica se eseguire la copia anche di tutti i nodi figlio.
+Questo metodo esegue sempre una copia approfondita del nodo. IL*isCloneChildren* parametri specifica se eseguire la copia anche di tutti i nodi figlio.
 
 ### Esempi
 
@@ -38,7 +38,7 @@ Paragraph para = doc.FirstSection.Body.FirstParagraph;
 para.AppendChild(new Run(doc, "Hello world!"));
 
 // Di seguito sono riportati due modi per clonare un nodo composito.
-// 1 - Crea un clone di un nodo e crea anche un clone di ciascuno dei suoi nodi figlio.
+// 1 - Crea un clone di un nodo e crea anche un clone di ciascuno dei suoi nodi figli.
 Node cloneWithChildren = para.Clone(true);
 
 Assert.IsTrue(((CompositeNode)cloneWithChildren).HasChildNodes);

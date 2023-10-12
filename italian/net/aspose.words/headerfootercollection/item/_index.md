@@ -1,14 +1,14 @@
 ---
 title: HeaderFooterCollection.Item
 second_title: Aspose.Words per .NET API Reference
-description: HeaderFooterCollection proprietà. Recupera a HeaderFooter allindice dato.
+description: HeaderFooterCollection proprietà. Recupera aHeaderFooter allindice indicato.
 type: docs
 weight: 10
 url: /it/net/aspose.words/headerfootercollection/item/
 ---
 ## HeaderFooterCollection indexer (1 of 2)
 
-Recupera a **HeaderFooter** all'indice dato.
+Recupera a[`HeaderFooter`](../../headerfooter/) all'indice indicato.
 
 ```csharp
 public HeaderFooter this[int index] { get; }
@@ -22,11 +22,11 @@ public HeaderFooter this[int index] { get; }
 
 L'indice è a base zero.
 
-Gli indici negativi sono consentiti e indicano l'accesso dal retro della raccolta. Ad esempio -1 indica l'ultimo elemento, -2 indica il penultimo e così via.
+Gli indici negativi sono consentiti e indicano l'accesso dal retro della raccolta. Ad esempio -1 significa l'ultimo elemento, -2 significa il penultimo e così via.
 
-Se l'indice è maggiore o uguale al numero di elementi nell'elenco, restituisce un riferimento nullo.
+Se indice è maggiore o uguale al numero di elementi nell'elenco, restituisce un riferimento null.
 
-Se l'indice è negativo e il suo valore assoluto è maggiore del numero di elementi nell'elenco, restituisce un riferimento nullo.
+Se indice è negativo e il suo valore assoluto è maggiore del numero di elementi nell'elenco, restituisce un riferimento null.
 
 ### Esempi
 
@@ -56,18 +56,18 @@ builder.Write("This is the footer, which will be displayed in sections 1, 2 and 
 // per consentire alla sezione di collegamento di visualizzare le intestazioni/piè di pagina della sezione collegata.
 doc.Sections[1].HeadersFooters.LinkToPrevious(true);
 
-// Ogni sezione avrà ancora i propri oggetti intestazione/piè di pagina. Quando colleghiamo sezioni,
-// la sezione di collegamento visualizzerà l'intestazione/i piè di pagina della sezione collegata mantenendone la propria.
+// Ogni sezione avrà comunque i propri oggetti intestazione/piè di pagina. Quando colleghiamo le sezioni,
+// la sezione di collegamento mostrerà l'intestazione/i piè di pagina della sezione collegata mantenendo i propri.
 Assert.AreNotEqual(doc.Sections[0].HeadersFooters[0], doc.Sections[1].HeadersFooters[0]);
 Assert.AreNotEqual(doc.Sections[0].HeadersFooters[0].ParentSection, doc.Sections[1].HeadersFooters[0].ParentSection);
 
 // Collega le intestazioni/piè di pagina della terza sezione alle intestazioni/piè di pagina della seconda sezione.
-// La seconda sezione si collega già all'intestazione/piè di pagina della prima sezione,
+// La seconda sezione è già collegata all'intestazione/piè di pagina della prima sezione,
 // quindi il collegamento alla seconda sezione creerà una catena di collegamenti.
 // La prima, la seconda e ora la terza sezione mostreranno tutte le intestazioni della prima sezione.
 doc.Sections[2].HeadersFooters.LinkToPrevious(true);
 
-// Possiamo scollegare l'intestazione/piè di pagina di una sezione precedente passando "false" quando si chiama il metodo LinkToPrevious.
+// Possiamo scollegare l'intestazione/piè di pagina di una sezione precedente passando "false" quando chiamiamo il metodo LinkToPrevious.
 doc.Sections[2].HeadersFooters.LinkToPrevious(false);
 
 // Possiamo anche selezionare solo un tipo specifico di intestazione/piè di pagina da collegare utilizzando questo metodo.
@@ -101,7 +101,7 @@ doc.Save(ArtifactsDir + "HeaderFooter.Link.docx");
 
 ## HeaderFooterCollection indexer (2 of 2)
 
-Recupera a **HeaderFooter** del tipo specificato.
+Recupera a[`HeaderFooter`](../../headerfooter/) del tipo specificato.
 
 ```csharp
 public HeaderFooter this[HeaderFooterType headerFooterType] { get; }
@@ -113,7 +113,7 @@ public HeaderFooter this[HeaderFooterType headerFooterType] { get; }
 
 ### Osservazioni
 
-Restituisce null se l'intestazione/piè di pagina del tipo specificato non viene trovato.
+Restituisce`nullo` se l'intestazione/piè di pagina del tipo specificato non viene trovata.
 
 ### Esempi
 
@@ -142,19 +142,19 @@ Mostra come eliminare tutti i piè di pagina da un documento.
 ```csharp
 Document doc = new Document(MyDir + "Header and footer types.docx");
 
-// Scorri ogni sezione e rimuovi i piè di pagina di ogni tipo.
+// Scorri ogni sezione e rimuovi piè di pagina di ogni tipo.
 foreach (Section section in doc.OfType<Section>())
 {
     // Esistono tre tipi di piè di pagina e di intestazione.
-    // 1 - L'intestazione/piè di pagina "Primo", che appare solo sulla prima pagina di una sezione.
+    // 1 - L'intestazione/piè di pagina "Prima", che appare solo sulla prima pagina di una sezione.
     HeaderFooter footer = section.HeadersFooters[HeaderFooterType.FooterFirst];
     footer?.Remove();
 
-    // 2 - L'intestazione/piè di pagina "Principale", che appare sulle pagine dispari.
+    // 2 - L'intestazione/piè di pagina "Primario", che appare sulle pagine dispari.
     footer = section.HeadersFooters[HeaderFooterType.FooterPrimary];
     footer?.Remove();
 
-     // 3 - L'intestazione/piè di pagina "Even", che appare sulle pagine pari.
+     // 3 - L'intestazione/piè di pagina "Pari", che appare sulle pagine pari.
     footer = section.HeadersFooters[HeaderFooterType.FooterEven];
     footer?.Remove();
 

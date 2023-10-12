@@ -1,14 +1,14 @@
 ---
 title: Document.HyphenationOptions
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Document propriété. Fournit un accès aux options de césure des documents.
+description: Document propriété. Donne accès aux options de césure des documents.
 type: docs
 weight: 210
 url: /fr/net/aspose.words/document/hyphenationoptions/
 ---
 ## Document.HyphenationOptions property
 
-Fournit un accès aux options de césure des documents.
+Donne accès aux options de césure des documents.
 
 ```csharp
 public HyphenationOptions HyphenationOptions { get; }

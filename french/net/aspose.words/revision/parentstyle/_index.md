@@ -16,21 +16,21 @@ public Style ParentStyle { get; }
 
 ### Remarques
 
-Si cette révision concerne des modifications sur les nœuds de document, utilisez[`ParentNode`](../parentnode/) à la place.
+Si cette révision concerne des modifications sur les nœuds du document, utilisez[`ParentNode`](../parentnode/) à la place.
 
 ### Exemples
 
-Montre comment travailler avec la collection de révisions d'un document.
+Montre comment travailler avec la collection de révisions d’un document.
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");
 RevisionCollection revisions = doc.Revisions;
 
-// Cette collection elle-même a une collection de groupes de révision.
+// Cette collection elle-même possède une collection de groupes de révision.
 // Chaque groupe est une séquence de révisions adjacentes.
 Console.WriteLine($"{revisions.Groups.Count} revision groups:");
 
-// Itérer sur la collection de groupes et imprimer le texte concerné par la révision.
+// Parcourez la collection de groupes et imprimez le texte concerné par la révision.
 using (IEnumerator<RevisionGroup> e = revisions.Groups.GetEnumerator())
 {
     while (e.MoveNext())
@@ -40,18 +40,18 @@ using (IEnumerator<RevisionGroup> e = revisions.Groups.GetEnumerator())
     }
 }
 
-// Chaque exécution affectée par une révision obtient un objet de révision correspondant.
+// Chaque exécution affectée par une révision obtient un objet Revision correspondant.
 // La collection des révisions est considérablement plus grande que la forme condensée que nous avons imprimée ci-dessus,
-// en fonction du nombre d'exécutions dans lesquelles nous avons segmenté le document lors de l'édition de Microsoft Word.
+// en fonction du nombre d'exécutions en lesquelles nous avons segmenté le document lors de l'édition de Microsoft Word.
 Console.WriteLine($"\n{revisions.Count} revisions:");
 
 using (IEnumerator<Revision> e = revisions.GetEnumerator())
 {
     while (e.MoveNext())
     {
-        // Un StyleDefinitionChange affecte strictement les styles et non les nœuds de document. Cela signifie le "ParentStyle"
-        // la propriété sera toujours utilisée, tandis que le ParentNode sera toujours nul.
-        // Étant donné que toutes les autres modifications affectent les nœuds, ParentNode sera à l'inverse utilisé et ParentStyle sera nul.
+        // Un StyleDefinitionChange affecte strictement les styles et non les nœuds du document. Cela signifie le "ParentStyle"
+        // La propriété sera toujours utilisée, tandis que le ParentNode sera toujours nul.
+        // Puisque toutes les autres modifications affectent les nœuds, ParentNode sera à l'inverse utilisé et ParentStyle sera nul.
         if (e.Current.RevisionType == RevisionType.StyleDefinitionChange)
         {
             Console.WriteLine($"\tRevision type \"{e.Current.RevisionType}\", " +
@@ -65,7 +65,7 @@ using (IEnumerator<Revision> e = revisions.GetEnumerator())
     }
 }
 
-// Rejette toutes les révisions via la collection, ramenant le document à sa forme d'origine.
+// Rejette toutes les révisions via la collection, ramenant le document à sa forme originale.
 revisions.RejectAll();
 
 Assert.AreEqual(0, revisions.Count);

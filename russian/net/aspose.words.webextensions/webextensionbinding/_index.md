@@ -1,14 +1,16 @@
 ---
 title: Class WebExtensionBinding
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.WebExtensions.WebExtensionBinding сорт. Указывает отношение привязки между вебрасширением и данными в документе.
+description: Aspose.Words.WebExtensions.WebExtensionBinding сорт. Указывает связь привязки между вебрасширением и данными в документе.
 type: docs
-weight: 6440
+weight: 6750
 url: /ru/net/aspose.words.webextensions/webextensionbinding/
 ---
 ## WebExtensionBinding class
 
-Указывает отношение привязки между веб-расширением и данными в документе.
+Указывает связь привязки между веб-расширением и данными в документе.
+
+Чтобы узнать больше, посетите[Работа с надстройками Office](https://docs.aspose.com/words/net/work-with-office-add-ins/) статья документации.
 
 ```csharp
 public class WebExtensionBinding
@@ -24,7 +26,7 @@ public class WebExtensionBinding
 
 | Имя | Описание |
 | --- | --- |
-| [AppRef](../../aspose.words.webextensions/webextensionbinding/appref/) { get; set; } | Указывает ключ привязки, используемый для сопоставления записи привязки в этом списке со связанными данными в документе. |
+| [AppRef](../../aspose.words.webextensions/webextensionbinding/appref/) { get; set; } | Указывает ключ привязки, используемый для сопоставления записи привязки в этом списке с привязанными данными в документе. |
 | [BindingType](../../aspose.words.webextensions/webextensionbinding/bindingtype/) { get; set; } | Указывает тип привязки. |
 | [Id](../../aspose.words.webextensions/webextensionbinding/id/) { get; set; } | Указывает идентификатор привязки. |
 

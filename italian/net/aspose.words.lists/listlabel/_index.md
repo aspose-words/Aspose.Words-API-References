@@ -3,12 +3,14 @@ title: Class ListLabel
 second_title: Aspose.Words per .NET API Reference
 description: Aspose.Words.Lists.ListLabel classe. Definisce le proprietà specifiche di unetichetta di elenco.
 type: docs
-weight: 3290
+weight: 3490
 url: /it/net/aspose.words.lists/listlabel/
 ---
 ## ListLabel class
 
 Definisce le proprietà specifiche di un'etichetta di elenco.
+
+Per saperne di più, visita il[Lavorare con gli elenchi](https://docs.aspose.com/words/net/working-with-lists/) articolo di documentazione.
 
 ```csharp
 public class ListLabel
@@ -32,21 +34,21 @@ doc.UpdateListLabels();
 
 NodeCollection paras = doc.GetChildNodes(NodeType.Paragraph, true);
 
-// Trova se abbiamo l'elenco dei paragrafi. Nel nostro documento, il nostro elenco utilizza semplici numeri arabi,
-// che iniziano alle tre e finiscono alle sei.
+// Trova se abbiamo l'elenco dei paragrafi. Nel nostro documento, l'elenco utilizza semplici numeri arabi,
+// che inizia alle tre e finisce alle sei.
 foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsListItem))
 {
     Console.WriteLine($"List item paragraph #{paras.IndexOf(paragraph)}");
 
-    // Questo è il testo che otteniamo quando otteniamo quando emettiamo questo nodo in formato testo.
-    // Questo output di testo ometterà le etichette dell'elenco. Taglia i caratteri di formattazione del paragrafo. 
+    // Questo è il testo che otteniamo quando restituiamo questo nodo in formato testo.
+     // Questo output di testo ometterà le etichette dell'elenco. Taglia eventuali caratteri di formattazione del paragrafo.
     string paragraphText = paragraph.ToString(SaveFormat.Text).Trim();
     Console.WriteLine($"\tExported Text: {paragraphText}");
 
     ListLabel label = paragraph.ListLabel;
 
-    // Ottiene la posizione del paragrafo nel livello corrente dell'elenco. Se abbiamo una lista con più livelli,
-    // questo ci dirà quale posizione si trova a quel livello.
+    // Questo ottiene la posizione del paragrafo nel livello corrente dell'elenco. Se abbiamo un elenco con più livelli,
+    // questo ci dirà quale posizione è su quel livello.
     Console.WriteLine($"\tNumerical Id: {label.LabelValue}");
 
     // Combinali insieme per includere l'etichetta dell'elenco con il testo nell'output.

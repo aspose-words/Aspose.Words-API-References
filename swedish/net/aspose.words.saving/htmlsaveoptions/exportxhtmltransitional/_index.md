@@ -3,7 +3,7 @@ title: HtmlSaveOptions.ExportXhtmlTransitional
 second_title: Aspose.Words för .NET API Referens
 description: HtmlSaveOptions fast egendom. Anger om DOCTYPEdeklarationen ska skrivas när du sparar till HTML eller MHTML. NärSann  skriver en DOCTYPEdeklaration i dokumentet före rotelementet. Standardvärdet ärfalsk. När du sparar till EPUB eller HTML5 Html5  DOCTYPE deklarationen skrivs alltid.
 type: docs
-weight: 290
+weight: 280
 url: /sv/net/aspose.words.saving/htmlsaveoptions/exportxhtmltransitional/
 ---
 ## HtmlSaveOptions.ExportXhtmlTransitional property

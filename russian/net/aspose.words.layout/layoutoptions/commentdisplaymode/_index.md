@@ -16,11 +16,11 @@ public CommentDisplayMode CommentDisplayMode { get; set; }
 
 ### Примечания
 
-Обратите внимание, что ревизии не отображаются во всплывающих подсказках дляShowInAnnotations .
+Обратите внимание, что изменения не отображаются в выносках дляShowInAnnotations .
 
 ### Примеры
 
-Показывает, как отображать комментарии при сохранении документа в подготовленном формате.
+Показывает, как отображать комментарии при сохранении документа в визуализированном формате.
 
 ```csharp
 Document doc = new Document();
@@ -38,7 +38,7 @@ doc.LayoutOptions.CommentDisplayMode = CommentDisplayMode.ShowInAnnotations;
 
 doc.Save(ArtifactsDir + "Document.ShowCommentsInAnnotations.pdf");
 
-// Обратите внимание, что необходимо перестроить макет страницы документа (через метод Document.UpdatePageLayout())
+// Обратите внимание, что необходимо перестроить макет страницы документа (с помощью метода Document.UpdatePageLayout())
 // после изменения значений Document.LayoutOptions.
 doc.LayoutOptions.CommentDisplayMode = CommentDisplayMode.ShowInBalloons;
 doc.UpdatePageLayout();

@@ -1,14 +1,14 @@
 ---
 title: BookmarkStart.BookmarkStart
 second_title: Aspose.Words for .NET API Referansı
-description: BookmarkStart inşaatçı. Yeni bir örneğini başlatırBookmarkStart sınıf.
+description: BookmarkStart inşaatçı. Yeni bir örneğini başlatırBookmarkStart class.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/bookmarkstart/bookmarkstart/
 ---
 ## BookmarkStart constructor
 
-Yeni bir örneğini başlatır[`BookmarkStart`](../) sınıf.
+Yeni bir örneğini başlatır[`BookmarkStart`](../) class.
 
 ```csharp
 public BookmarkStart(DocumentBase doc, string name)
@@ -16,32 +16,31 @@ public BookmarkStart(DocumentBase doc, string name)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| doc | DocumentBase | Sahip belgesi. |
-| name | String | Yer iminin adı. Boş olamaz. |
+| doc | DocumentBase | Sahibi belgesi. |
+| name | String | Yer iminin adı. Olamaz`hükümsüz`. |
 
 ### Örnekler
 
-Yer imlerinin nasıl ekleneceğini ve içeriklerinin nasıl güncelleneceğini gösterir.
+Yer işaretlerinin nasıl ekleneceğini ve içeriklerinin nasıl güncelleneceğini gösterir.
 
 ```csharp
 public void CreateUpdateAndPrintBookmarks()
 {
-    // Üç yer imi içeren bir belge oluşturun, ardından içeriklerini yazdırmak için özel bir belge ziyaretçi uygulaması kullanın.
+    // Üç yer imine sahip bir belge oluşturun, ardından içeriklerini yazdırmak için özel bir belge ziyaretçisi uygulaması kullanın.
     Document doc = CreateDocumentWithBookmarks(3);
     BookmarkCollection bookmarks = doc.Range.Bookmarks;
-
     PrintAllBookmarkInfo(bookmarks);
 
-    // Yer imi koleksiyonundaki yer imlerine dizin veya isme göre erişilebilir ve adları güncellenebilir.
+    // Yer imleri koleksiyonundaki yer imlerine dizine veya isme göre erişilebilir ve adları güncellenebilir.
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
-    // Güncellenen değerleri görmek için tüm yer imlerini yeniden yazdırın.
+    // Güncellenen değerleri görmek için tüm yer imlerini tekrar yazdırın.
     PrintAllBookmarkInfo(bookmarks);
 }
 
 /// <summary>
-/// Belirli sayıda yer imi içeren bir belge oluşturun.
+/// Belirli sayıda yer işaretine sahip bir belge oluşturun.
 /// </summary>
 private static Document CreateDocumentWithBookmarks(int numberOfBookmarks)
 {
@@ -69,7 +68,7 @@ private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 {
     BookmarkInfoPrinter bookmarkVisitor = new BookmarkInfoPrinter();
 
-    // İçeriğini yazdıracak bir ziyaretçiyi kabul etmek için koleksiyondaki her yer işaretini alın.
+    // Koleksiyondaki her yer iminin, içeriğini yazdıracak bir ziyaretçiyi kabul etmesini sağlayın.
     using (IEnumerator<Bookmark> enumerator = bookmarks.GetEnumerator())
     {
         while (enumerator.MoveNext())

@@ -20,14 +20,14 @@ public TableAlignment Alignment { get; set; }
 
 ### 例子
 
-显示如何设置表格的位置。
+展示如何设置表格的位置。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 下面是水平对齐表格的两种方法。
-// 1 - 使用“对齐”属性将其对齐到页面上的某个位置，例如中心：
+// 下面是两种水平对齐表格的方法。
+// 1 - 使用“Alignment”属性将其对齐到页面上的某个位置，例如中心：
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 tableStyle.Alignment = TableAlignment.Center;
 tableStyle.Borders.Color = Color.Blue;
@@ -42,7 +42,7 @@ table.PreferredWidth = PreferredWidth.FromPoints(300);
 
 table.Style = tableStyle;
 
-// 2 - 使用“LeftIndent”来指定页面左边距的缩进：
+// 2 - 使用“LeftIndent”指定从页面左边距的缩进：
 tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle2");
 tableStyle.LeftIndent = 55;
 tableStyle.Borders.Color = Color.Green;

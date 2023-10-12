@@ -1,14 +1,14 @@
 ---
 title: FrameFormat.IsFrame
 second_title: Aspose.Words for .NET API Referansı
-description: FrameFormat mülk. Paragraf bir çerçeve ise true değerini döndürür.
+description: FrameFormat mülk. İadelerdoğru paragraf bir çerçeve ise.
 type: docs
 weight: 60
 url: /tr/net/aspose.words/frameformat/isframe/
 ---
 ## FrameFormat.IsFrame property
 
-Paragraf bir çerçeve ise true değerini döndürür.
+İadeler`doğru` paragraf bir çerçeve ise.
 
 ```csharp
 public bool IsFrame { get; }

@@ -3,12 +3,14 @@ title: Class ChartMarker
 second_title: Aspose.Words per .NET API Reference
 description: Aspose.Words.Drawing.Charts.ChartMarker classe. Rappresenta un indicatore di dati del grafico.
 type: docs
-weight: 710
+weight: 750
 url: /it/net/aspose.words.drawing.charts/chartmarker/
 ---
 ## ChartMarker class
 
 Rappresenta un indicatore di dati del grafico.
+
+Per saperne di più, visita il[Lavorare con i grafici](https://docs.aspose.com/words/net/working-with-charts/) articolo di documentazione.
 
 ```csharp
 public class ChartMarker
@@ -18,16 +20,15 @@ public class ChartMarker
 
 | Nome | Descrizione |
 | --- | --- |
-| [Format](../../aspose.words.drawing.charts/chartmarker/format/) { get; } | Fornisce l'accesso al riempimento e alla formattazione della linea di questo marcatore. |
+| [Format](../../aspose.words.drawing.charts/chartmarker/format/) { get; } | Fornisce l'accesso al riempimento e alla formattazione della linea di questo indicatore. |
 | [Size](../../aspose.words.drawing.charts/chartmarker/size/) { get; set; } | Ottiene o imposta la dimensione dell'indicatore del grafico. Il valore predefinito è 7. |
 | [Symbol](../../aspose.words.drawing.charts/chartmarker/symbol/) { get; set; } | Ottiene o imposta il simbolo dell'indicatore del grafico. |
 
 ### Esempi
 
-Mostra come lavorare con i punti dati su un grafico a linee.
+Mostra come utilizzare i punti dati su un grafico a linee.
 
 ```csharp
-[Test]
 public void ChartDataPoint()
 {
     Document doc = new Document();
@@ -45,10 +46,10 @@ public void ChartDataPoint()
     foreach (ChartSeries series in chart.Series) 
         ApplyDataPoints(series, 4, MarkerSymbol.Diamond, 15);
 
-    // Appiana la linea che rappresenta la prima serie di dati.
+    // Appianare la linea che rappresenta la prima serie di dati.
     chart.Series[0].Smooth = true;
 
-    // Verifica che i punti dati per la prima serie non invertano i loro colori se il valore è negativo.
+    // Verifica che i punti dati per la prima serie non invertano i colori se il valore è negativo.
     using (IEnumerator<ChartDataPoint> enumerator = chart.Series[0].DataPoints.GetEnumerator())
     {
         while (enumerator.MoveNext())
@@ -60,7 +61,7 @@ public void ChartDataPoint()
     // Per un grafico dall'aspetto più pulito, possiamo cancellare il formato individualmente.
     chart.Series[1].DataPoints[2].ClearFormat();
 
-    // Possiamo anche rimuovere un'intera serie di punti dati contemporaneamente.
+    // Possiamo anche eliminare un'intera serie di punti dati contemporaneamente.
     chart.Series[2].DataPoints.ClearFormat();
 
     doc.Save(ArtifactsDir + "Charts.ChartDataPoint.docx");

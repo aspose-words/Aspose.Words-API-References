@@ -3,7 +3,7 @@ title: Class ComHelper
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.ComHelper klass. Tillhandahåller metoder för COMklienter att ladda ett dokument i Aspose.Words.
 type: docs
-weight: 210
+weight: 220
 url: /sv/net/aspose.words/comhelper/
 ---
 ## ComHelper class
@@ -32,7 +32,7 @@ public class ComHelper
 
 Använd`ComHelper` klass för att ladda ett dokument från en fil eller streama till en [`Document`](../document/) objekt i en COM-applikation.
 
-De[`Document`](../document/)class tillhandahåller en standardkonstruktor för att skapa ett nytt document och tillhandahåller även överbelastade konstruktorer för att ladda ett dokument från en fil eller ström. Om du använder Aspose.Words från ett .NET-program kan du använda alla[`Document`](../document/) konstruktörer direkt, men om du använder Aspose.Words från en COM-applikation, endast standard[`Document`](../document/) konstruktör är tillgänglig.
+De[`Document`](../document/) class tillhandahåller en standardkonstruktor för att skapa ett nytt document och tillhandahåller även överbelastade konstruktorer för att ladda ett dokument från en fil eller ström. Om du använder Aspose.Words från en .NET-applikation kan du använda alla[`Document`](../document/) konstruktörer direkt, men om du använder Aspose.Words från en COM-applikation, endast standard[`Document`](../document/) konstruktör är tillgänglig.
 
 ### Exempel
 

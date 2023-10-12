@@ -1,14 +1,14 @@
 ---
 title: FontSettings.SetFontsFolder
 second_title: Aspose.Words لمراجع .NET API
-description: FontSettings طريقة. يضبط المجلد حيث يبحث Aspose.Words عن خطوط TrueType عند عرض المستندات أو تضمين الخطوط . هذا اختصار لـSetFontsFolders لتعيين دليل خطوط واحد فقط.
+description: FontSettings طريقة. يعين المجلد الذي يبحث فيه Aspose.Words عن خطوط TrueType عند عرض المستندات أو تضمين الخطوط. هذا اختصار لـSetFontsFolders لتعيين دليل خط واحد فقط.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.fonts/fontsettings/setfontsfolder/
 ---
 ## FontSettings.SetFontsFolder method
 
-يضبط المجلد حيث يبحث Aspose.Words عن خطوط TrueType عند عرض المستندات أو تضمين الخطوط . هذا اختصار لـ[`SetFontsFolders`](../setfontsfolders/) لتعيين دليل خطوط واحد فقط.
+يعين المجلد الذي يبحث فيه Aspose.Words عن خطوط TrueType عند عرض المستندات أو تضمين الخطوط. هذا اختصار لـ[`SetFontsFolders`](../setfontsfolders/) لتعيين دليل خط واحد فقط.
 
 ```csharp
 public void SetFontsFolder(string fontFolder, bool recursive)
@@ -17,7 +17,7 @@ public void SetFontsFolder(string fontFolder, bool recursive)
 | معامل | يكتب | وصف |
 | --- | --- | --- |
 | fontFolder | String | المجلد الذي يحتوي على خطوط تروتايب. |
-| recursive | Boolean | صحيح أن تفحص المجلدات المحددة بحثًا عن الخطوط بشكل متكرر. |
+| recursive | Boolean | صحيح لفحص المجلدات المحددة بحثًا عن الخطوط بشكل متكرر. |
 
 ### أمثلة
 
@@ -33,22 +33,22 @@ builder.Font.Name = "Amethysta";
 builder.Writeln("The quick brown fox jumps over the lazy dog.");
 
 // لا تحتوي مصادر الخطوط لدينا على الخط الذي استخدمناه للنص في هذا المستند.
-// إذا استخدمنا إعدادات الخط هذه أثناء تقديم هذا المستند ،
-// Aspose.Words ستطبق خطًا احتياطيًا على النص الذي يحتوي على خط لا يمكن لـ Aspose.Words تحديد مكانه.
+// إذا استخدمنا إعدادات الخط هذه أثناء عرض هذا المستند،
+// سيقوم Aspose.Words بتطبيق خط احتياطي على النص الذي يحتوي على خط لا يمكن لـ Aspose.Words تحديد موقعه.
 FontSourceBase[] originalFontSources = FontSettings.DefaultInstance.GetFontsSources();
 
 Assert.AreEqual(1, originalFontSources.Length);
 Assert.True(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"));
 
-// تفتقد مصادر الخطوط الافتراضية إلى الخطين اللذين نستخدمهما في هذا المستند.
+// مصادر الخطوط الافتراضية تفتقد الخطين اللذين نستخدمهما في هذا المستند.
 Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arvo"));
 Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Amethysta"));
 
-// استخدم طريقة "SetFontsFolder" لتعيين دليل يعمل كمصدر خط جديد.
-// تمرير "خطأ" كوسيطة "متكررة" لتضمين الخطوط من كافة ملفات الخطوط الموجودة في الدليل
-// أننا نمرر في الوسيطة الأولى ، لكن لا نضمن أي خطوط في أي من المجلدات الفرعية لهذا الدليل.
-// تمرير "true" كوسيطة "عودية" لتضمين جميع ملفات الخطوط في الدليل الذي نقوم بتمريره
-// في الوسيطة الأولى ، بالإضافة إلى جميع الخطوط الموجودة في مجلداته الفرعية.
+// استخدم طريقة "SetFontsFolder" لتعيين دليل سيكون بمثابة مصدر خط جديد.
+// قم بتمرير "خطأ" كوسيطة "متكررة" لتضمين الخطوط من جميع ملفات الخطوط الموجودة في الدليل
+// أننا نقوم بتمرير الوسيطة الأولى، ولكن لا نقوم بتضمين أي خطوط في أي من المجلدات الفرعية لهذا الدليل.
+// قم بتمرير "صحيح" كوسيطة "متكررة" لتضمين جميع ملفات الخطوط في الدليل الذي نمرره
+// في الوسيطة الأولى، وكذلك جميع الخطوط الموجودة في أدلةها الفرعية.
 FontSettings.DefaultInstance.SetFontsFolder(FontsDir, recursive);
 
 FontSourceBase[] newFontSources = FontSettings.DefaultInstance.GetFontsSources();
@@ -57,7 +57,7 @@ Assert.AreEqual(1, newFontSources.Length);
 Assert.False(newFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"));
 Assert.True(newFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arvo"));
 
-// الخط "Amethysta" موجود في مجلد فرعي من دليل الخطوط.
+// الخط "Amethysta" موجود في مجلد فرعي لدليل الخطوط.
 if (recursive)
 {
     Assert.AreEqual(25, newFontSources[0].GetAvailableFonts().Count);
@@ -71,7 +71,7 @@ else
 
 doc.Save(ArtifactsDir + "FontSettings.SetFontsFolder.pdf");
 
-// استعادة مصادر الخط الأصلية.
+// استعادة مصادر الخط الأصلي.
 FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 ```
 

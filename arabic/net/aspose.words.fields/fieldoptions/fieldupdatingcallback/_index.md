@@ -1,14 +1,14 @@
 ---
 title: FieldOptions.FieldUpdatingCallback
 second_title: Aspose.Words لمراجع .NET API
-description: FieldOptions ملكية. يحصل أو يحددIFieldUpdatingCallback تنفيذ
+description: FieldOptions ملكية. يحصل على أو مجموعاتIFieldUpdatingCallback التنفيذ
 type: docs
-weight: 110
+weight: 120
 url: /ar/net/aspose.words.fields/fieldoptions/fieldupdatingcallback/
 ---
 ## FieldOptions.FieldUpdatingCallback property
 
-يحصل أو يحدد[`IFieldUpdatingCallback`](../../ifieldupdatingcallback/) تنفيذ
+يحصل على أو مجموعات[`IFieldUpdatingCallback`](../../ifieldupdatingcallback/) التنفيذ
 
 ```csharp
 public IFieldUpdatingCallback FieldUpdatingCallback { get; set; }

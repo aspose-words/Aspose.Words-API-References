@@ -1,14 +1,14 @@
 ---
 title: DocumentVisitor.VisitShapeEnd
 second_title: Справочник по API Aspose.Words для .NET
-description: DocumentVisitor метод. Вызывается после окончания перечисления формы.
+description: DocumentVisitor метод. Вызывается когда перечисление фигуры завершено.
 type: docs
 weight: 390
 url: /ru/net/aspose.words/documentvisitor/visitshapeend/
 ---
 ## DocumentVisitor.VisitShapeEnd method
 
-Вызывается после окончания перечисления формы.
+Вызывается, когда перечисление фигуры завершено.
 
 ```csharp
 public virtual VisitorAction VisitShapeEnd(Shape shape)
@@ -32,7 +32,7 @@ public void GroupOfShapes()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Если вам нужно создать "непримитивные" фигуры, такие как SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
+    // Если вам нужно создать «NonPrimitive» фигуры, такие как SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
     // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, DiagonalCornersRounded
     // используйте методы DocumentBuilder.InsertShape.
     Shape balloon = new Shape(doc, ShapeType.Balloon)
@@ -64,7 +64,7 @@ public void GroupOfShapes()
 }
 
 /// <summary>
-/// Выводит содержимое посещенной группы форм на консоль.
+/// Выводит на консоль содержимое посещенной группы фигур.
 /// </summary>
 public class ShapeGroupPrinter : DocumentVisitor
 {

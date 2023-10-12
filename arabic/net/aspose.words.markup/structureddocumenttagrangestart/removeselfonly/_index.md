@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTagRangeStart.RemoveSelfOnly
 second_title: Aspose.Words لمراجع .NET API
-description: StructuredDocumentTagRangeStart طريقة. يزيل بداية النطاق وعقد نهاية النطاق المناسبة لعلامة المستند المهيكل  ولكنه يحتفظ بمحتواه داخل شجرة المستند.
+description: StructuredDocumentTagRangeStart طريقة. يزيل هذا النطاق بداية وعقد نهاية النطاق المناسبة لعلامة المستند المنظمة ولكنه يحتفظ بمحتواه داخل شجرة المستند.
 type: docs
 weight: 240
 url: /ar/net/aspose.words.markup/structureddocumenttagrangestart/removeselfonly/
 ---
 ## StructuredDocumentTagRangeStart.RemoveSelfOnly method
 
-يزيل بداية النطاق وعقد نهاية النطاق المناسبة لعلامة المستند المهيكل ، ولكنه يحتفظ بمحتواه داخل شجرة المستند.
+يزيل هذا النطاق بداية وعقد نهاية النطاق المناسبة لعلامة المستند المنظمة، ولكنه يحتفظ بمحتواه داخل شجرة المستند.
 
 ```csharp
 public void RemoveSelfOnly()
@@ -16,9 +16,10 @@ public void RemoveSelfOnly()
 
 ### أمثلة
 
-يوضح كيفية إنشاء / إزالة علامة مستند منظم ومحتوياته.
+يوضح كيفية إنشاء/إزالة علامة المستند المنظمة ومحتواها.
 
 ```csharp
+public void SdtRangeExtendedMethods()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -27,7 +28,7 @@ public void RemoveSelfOnly()
 
     InsertStructuredDocumentTagRanges(doc, out StructuredDocumentTagRangeStart rangeStart);
 
-    // يزيل علامة المستند المهيكلة النطاق ، لكنه يحتفظ بالمحتوى بالداخل.
+    // يزيل علامة المستند المنظمة ذات النطاق، لكنه يحتفظ بالمحتوى بداخله.
     rangeStart.RemoveSelfOnly();
 
     rangeStart = (StructuredDocumentTagRangeStart)doc.GetChild(
@@ -45,7 +46,7 @@ public void RemoveSelfOnly()
     Node paragraphNode = rangeStart.LastOrDefault();
     Assert.AreEqual("StructuredDocumentTag element", paragraphNode?.GetText().Trim());
 
-    // يزيل علامة المستند المهيكلة النطاق والمحتوى بالداخل.
+    // يزيل علامة المستند المنظمة والمحتويات الموجودة بداخله.
     rangeStart.RemoveAllChildren();
 
     paragraphNode = rangeStart.LastOrDefault();

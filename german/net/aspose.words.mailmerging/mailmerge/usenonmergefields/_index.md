@@ -1,14 +1,14 @@
 ---
 title: MailMerge.UseNonMergeFields
 second_title: Aspose.Words für .NET-API-Referenz
-description: MailMerge eigendom. Wenn true gibt an dass der Seriendruck zusätzlich zu MERGEFIELDFeldern in einigen anderen Feldtypen und auch in fieldNameTags durchgeführt wird.
+description: MailMerge eigendom. WannWAHR  gibt an dass der Seriendruck zusätzlich zu MERGEFIELDFeldern auch in einigen anderen Feldtypen und auch in fieldNameTags durchgeführt wird.
 type: docs
 weight: 150
 url: /de/net/aspose.words.mailmerging/mailmerge/usenonmergefields/
 ---
 ## MailMerge.UseNonMergeFields property
 
-Wenn „true“, gibt an, dass der Seriendruck zusätzlich zu MERGEFIELD-Feldern in einigen anderen Feldtypen und auch in „{{fieldName}}“-Tags durchgeführt wird.
+Wann`WAHR` , gibt an, dass der Seriendruck zusätzlich zu MERGEFIELD-Feldern auch in einigen anderen Feldtypen und auch in „{{fieldName}}“-Tags durchgeführt wird.
 
 ```csharp
 public bool UseNonMergeFields { get; set; }
@@ -16,21 +16,21 @@ public bool UseNonMergeFields { get; set; }
 
 ### Bemerkungen
 
-Normalerweise wird der Seriendruck nur in MERGEFIELD-Feldern ausgeführt, aber mehrere Kunden haben ihre reporting mit anderen Feldern erstellt und viele Dokumente auf diese Weise erstellt. Um die Migration zu vereinfachen (und weil dieser -Ansatz von mehreren Kunden unabhängig voneinander verwendet wurde) wurde die Möglichkeit des Seriendrucks in andere Felder eingeführt.
+Normalerweise wird der Seriendruck nur in MERGEFIELD-Feldern durchgeführt, aber bei mehreren Kunden wurde das Reporting mit anderen Feldern erstellt und viele Dokumente wurden auf diese Weise erstellt. Um die Migration zu vereinfachen (und weil dieser -Ansatz von mehreren Kunden unabhängig voneinander verwendet wurde), wurde die Möglichkeit eingeführt, Serienbriefe in andere Felder zu übertragen.
 
-Wann **Verwenden Sie NonMergeFields** auf true gesetzt ist, führt Aspose.Words einen Seriendruck in den folgenden Feldern durch:
+Wann`UseNonMergeFields` ist eingestellt auf`WAHR`, Aspose.Words führt einen Serienbrief in den folgenden Feldern durch:
 
-MERGEFIELD-Feldname
+MERGEFIELD Feldname
 
 MACROBUTTON NOMACRO FieldName
 
-WENN 0 = 0 "{Feldname}" ""
+WENN 0 = 0 „{FieldName}“ „“
 
-Auch wann **UserNonMergeFields** auf true gesetzt ist, führt Aspose.Words einen Seriendruck in Text tags "{{fieldName}}" durch. Dies sind keine Felder, sondern nur Text-Tags.
+Auch wann`UseNonMergeFields` ist eingestellt auf`WAHR`, Aspose.Words führt einen Seriendruck in Text-Tags „{{fieldName}}“ durch. Dabei handelt es sich nicht um Felder, sondern nur um Text-Tags.
 
 ### Beispiele
 
-Zeigt, wie das Erscheinungsbild alternativer Seriendruck-Tags beibehalten wird, die während eines Seriendrucks nicht verwendet werden.
+Zeigt, wie das Erscheinungsbild alternativer Seriendruck-Tags erhalten bleibt, die während eines Seriendrucks nicht verwendet werden.
 
 ```csharp
 public void PreserveUnusedTags(bool preserveUnusedTags)
@@ -38,19 +38,19 @@ public void PreserveUnusedTags(bool preserveUnusedTags)
     Document doc = CreateSourceDocWithAlternativeMergeFields();
     DataTable dataTable = CreateSourceTablePreserveUnusedTags();
 
-    // Standardmäßig platziert ein Seriendruck Daten aus jeder Zeile einer Tabelle in MERGEFIELDs, die Spalten in dieser Tabelle benennen. 
-    // Unser Dokument hat keine solchen Felder, aber es hat Klartext-Tags, die von geschweiften Klammern eingeschlossen sind.
-    // Wenn wir das Flag "PreserveUnusedTags" auf "true" setzen, könnten wir diese Tags als MERGEFIELDs behandeln
-    // damit unser Seriendruck Daten aus der Datenquelle an diesen Tags einfügen kann.
-    // Wenn wir das Flag "PreserveUnusedTags" auf "false" setzen,
-    // Der Seriendruck konvertiert diese Tags in MERGEFIELDs und lässt sie ungefüllt.
+     // Standardmäßig platziert ein Serienbrief Daten aus jeder Zeile einer Tabelle in MERGEFIELDs, die Spalten in dieser Tabelle benennen.
+    // Unser Dokument hat keine solchen Felder, aber Klartext-Tags, die in geschweifte Klammern eingeschlossen sind.
+    // Wenn wir das Flag „PreserveUnusedTags“ auf „true“ setzen, könnten wir diese Tags als MERGEFIELDs behandeln
+    // damit unser Serienbrief an diesen Tags Daten aus der Datenquelle einfügen kann.
+    // Wenn wir das Flag „PreserveUnusedTags“ auf „false“ setzen,
+    // Der Seriendruck wandelt diese Tags in MERGEFIELDs um und lässt sie leer.
     doc.MailMerge.PreserveUnusedTags = preserveUnusedTags;
     doc.MailMerge.Execute(dataTable);
 
     doc.Save(ArtifactsDir + "MailMerge.PreserveUnusedTags.docx");
 
-    // Unser Dokument hat ein Tag für eine Spalte namens "Spalte2", die in der Tabelle nicht vorhanden ist.
-    // Wenn wir das Flag "PreserveUnusedTags" auf "false" setzen, then the mail merge will convert this tag into a MERGEFIELD.
+    // Unser Dokument hat ein Tag für eine Spalte namens „Column2“, die in der Tabelle nicht vorhanden ist.
+    // Wenn wir das Flag „PreserveUnusedTags“ auf „false“ setzen, then the mail merge will convert this tag into a MERGEFIELD.
     Assert.AreEqual(doc.GetText().Contains("{{ Column2 }}"), preserveUnusedTags);
 
     if (preserveUnusedTags)
@@ -70,7 +70,7 @@ private static Document CreateSourceDocWithAlternativeMergeFields()
     builder.Writeln("{{ Column1 }}");
     builder.Writeln("{{ Column2 }}");
 
-    // Unsere Tags werden nur dann als Ziele für Seriendruckdaten registriert, wenn wir dies auf „true“ setzen.
+    // Unsere Tags werden nur dann als Ziele für Serienbriefdaten registriert, wenn wir dies auf „true“ setzen.
     doc.MailMerge.UseNonMergeFields = true;
 
     return doc;

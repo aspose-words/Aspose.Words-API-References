@@ -1,18 +1,18 @@
 ---
 title: Aspose.Words.DigitalSignatures
 second_title: Referencia de API de Aspose.Words para .NET
-description: los Aspose.Words.DigitalSignatures El espacio de nombres proporciona clases para firmar documentos y verificar firmas.
+description: El Aspose.Words.DigitalSignatures El espacio de nombres proporciona clases para firmar documentos y verificar firmas.
 type: docs
 weight: 40
 url: /es/net/aspose.words.digitalsignatures/
 ---
-los **Aspose.Words.DigitalSignatures** El espacio de nombres proporciona clases para firmar documentos y verificar firmas.
+El **Aspose.Words.DigitalSignatures** El espacio de nombres proporciona clases para firmar documentos y verificar firmas.
 
 ## Clases
 
 | Clase | Descripción |
 | --- | --- |
-| [CertificateHolder](./certificateholder/) | Representa a un titular de **X509Certificado2** instancia. |
+| [CertificateHolder](./certificateholder/) | Representa un titular de **Certificado X5092** instancia. |
 | [DigitalSignature](./digitalsignature/) | Representa una firma digital en un documento y el resultado de su verificación. |
 | [DigitalSignatureCollection](./digitalsignaturecollection/) | Proporciona una colección de solo lectura de firmas digitales adjuntas a un documento. |
 | [DigitalSignatureUtil](./digitalsignatureutil/) | Proporciona métodos para firmar documentos. |

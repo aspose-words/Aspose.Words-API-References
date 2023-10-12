@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.WrapTrailSpaces
 second_title: Aspose.Words für .NET-API-Referenz
-description: CompatibilityOptions eigendom. Zeilenumbruch nachgestellte Leerzeichen.
+description: CompatibilityOptions eigendom. Nachgestellte Leerzeichen für Zeilenumbruch.
 type: docs
 weight: 710
 url: /de/net/aspose.words.settings/compatibilityoptions/wraptrailspaces/
 ---
 ## CompatibilityOptions.WrapTrailSpaces property
 
-Zeilenumbruch nachgestellte Leerzeichen.
+Nachgestellte Leerzeichen für Zeilenumbruch.
 
 ```csharp
 public bool WrapTrailSpaces { get; set; }

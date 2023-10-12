@@ -1,14 +1,14 @@
 ---
 title: ShapeBase.ParentParagraph
 second_title: Aspose.Words لمراجع .NET API
-description: ShapeBase ملكية. إرجاع الفقرة الأصل المباشرة .
+description: ShapeBase ملكية. إرجاع الفقرة الأصلية المباشرة.
 type: docs
-weight: 390
+weight: 410
 url: /ar/net/aspose.words.drawing/shapebase/parentparagraph/
 ---
 ## ShapeBase.ParentParagraph property
 
-إرجاع الفقرة الأصل المباشرة .
+إرجاع الفقرة الأصلية المباشرة.
 
 ```csharp
 public Paragraph ParentParagraph { get; }
@@ -16,11 +16,11 @@ public Paragraph ParentParagraph { get; }
 
 ### ملاحظات
 
-بالنسبة للأشكال الفرعية لشكل المجموعة والأشكال الفرعية لكائن Office Math ، ترجع دائمًا قيمة خالية.
+بالنسبة للأشكال التابعة لشكل المجموعة والأشكال الفرعية لكائن Office Math، يتم إرجاعها دائمًا`باطل`.
 
 ### أمثلة
 
-يوضح كيفية إدراج مربع نص ، وتعيين خط محتوياته.
+يوضح كيفية إدراج مربع نص وتعيين خط محتوياته.
 
 ```csharp
 Document doc = new Document();
@@ -32,12 +32,12 @@ Shape shape = builder.InsertShape(ShapeType.TextBox, 300, 50);
 builder.MoveTo(shape.LastParagraph);
 builder.Write("This text is inside the text box.");
 
-// قم بتعيين الخاصية "Hidden" لكائن "Font" للشكل على "true" لإخفاء مربع النص عن الأنظار
-// وخفض المساحة التي تشغلها عادةً.
-// قم بتعيين الخاصية "Hidden" لكائن "Font" للشكل على "false" لترك مربع النص مرئيًا.
+// قم بتعيين الخاصية "مخفي" لكائن "الخط" الخاص بالشكل على "صحيح" لإخفاء مربع النص عن الأنظار
+// وقم بطي المساحة التي كانت تشغلها عادةً.
+// قم بتعيين الخاصية "مخفي" لكائن "الخط" الخاص بالشكل على "خطأ" لترك مربع النص مرئيًا.
 shape.Font.Hidden = hideShape;
 
-// إذا كان الشكل مرئيًا ، فسنقوم بتعديل مظهره عبر كائن الخط.
+// إذا كان الشكل مرئيًا، فسنقوم بتعديل مظهره عبر كائن الخط.
 if (!hideShape)
 {
     shape.Font.HighlightColor = Color.LightGray;
@@ -45,7 +45,7 @@ if (!hideShape)
     shape.Font.Underline = Underline.Dash;
 }
 
-// انقل المنشئ خارج مربع النص إلى المستند الرئيسي.
+// انقل المنشئ خارج مربع النص مرة أخرى إلى المستند الرئيسي.
 builder.MoveTo(shape.ParentParagraph);
 
 builder.Writeln("\nThis text is outside the text box.");

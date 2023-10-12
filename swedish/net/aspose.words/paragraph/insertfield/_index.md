@@ -3,7 +3,7 @@ title: Paragraph.InsertField
 second_title: Aspose.Words för .NET API Referens
 description: Paragraph metod. Infogar ett fält i detta stycke.
 type: docs
-weight: 270
+weight: 290
 url: /sv/net/aspose.words/paragraph/insertfield/
 ---
 ## InsertField(FieldType, bool, Node, bool) {#insertfield}
@@ -18,7 +18,7 @@ public Field InsertField(FieldType fieldType, bool updateField, Node refNode, bo
 | --- | --- | --- |
 | fieldType | FieldType | Typen av fält som ska infogas. |
 | updateField | Boolean | Anger om fältet ska uppdateras omedelbart. |
-| refNode | Node | Referensnod inuti det här stycket (om refNode är null, läggs det till i slutet av stycket). |
+| refNode | Node | Referensnod i detta stycke (om*refNode* är`null`, läggs sedan till i slutet av stycket). |
 | isAfter | Boolean | Om fältet ska infogas efter eller före referensnoden. |
 
 ### Returvärde
@@ -83,7 +83,7 @@ public Field InsertField(string fieldCode, Node refNode, bool isAfter)
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | fieldCode | String | Fältkoden som ska infogas (utan hängslen). |
-| refNode | Node | Referensnod inuti det här stycket (om refNode är null, läggs det till i slutet av stycket). |
+| refNode | Node | Referensnod i detta stycke (om*refNode* är`null`, läggs sedan till i slutet av stycket). |
 | isAfter | Boolean | Om fältet ska infogas efter eller före referensnoden. |
 
 ### Returvärde
@@ -147,8 +147,8 @@ public Field InsertField(string fieldCode, string fieldValue, Node refNode, bool
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | fieldCode | String | Fältkoden som ska infogas (utan hängslen). |
-| fieldValue | String | Fältvärdet som ska infogas. Skicka null för fält som inte har ett värde. |
-| refNode | Node | Referensnod inuti det här stycket (om refNode är null, läggs det till i slutet av stycket). |
+| fieldValue | String | Fältvärdet som ska infogas. Passera`null` för fält som inte har ett värde. |
+| refNode | Node | Referensnod i detta stycke (om*refNode* är`null`, läggs sedan till i slutet av stycket). |
 | isAfter | Boolean | Om fältet ska infogas efter eller före referensnoden. |
 
 ### Returvärde

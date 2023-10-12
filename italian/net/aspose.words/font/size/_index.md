@@ -16,7 +16,7 @@ public double Size { get; set; }
 
 ### Esempi
 
-Mostra come formattare una sequenza di testo utilizzando la relativa proprietà del carattere.
+Mostra come formattare una sequenza di testo utilizzando la relativa proprietà font.
 
 ```csharp
 Document doc = new Document();
@@ -37,7 +37,7 @@ Mostra come inserire testo formattato utilizzando DocumentBuilder.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Specifica la formattazione del carattere, quindi aggiungi il testo.
+// Specifica la formattazione del carattere, quindi aggiunge il testo.
 Aspose.Words.Font font = builder.Font;
 font.Size = 16;
 font.Bold = true;

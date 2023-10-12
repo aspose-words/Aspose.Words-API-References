@@ -1,14 +1,14 @@
 ---
 title: Enum MsWordVersion
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Settings.MsWordVersion перечисление. Позволяет Aspose.Wods имитировать поведение приложения в зависимости от версии MS Word.
+description: Aspose.Words.Settings.MsWordVersion перечисление. Позволяет Aspose.Wods имитировать поведение приложения MS Word зависящее от версии.
 type: docs
-weight: 5560
+weight: 5860
 url: /ru/net/aspose.words.settings/mswordversion/
 ---
 ## MsWordVersion enumeration
 
-Позволяет Aspose.Wods имитировать поведение приложения в зависимости от версии MS Word.
+Позволяет Aspose.Wods имитировать поведение приложения MS Word, зависящее от версии.
 
 ```csharp
 public enum MsWordVersion
@@ -18,14 +18,14 @@ public enum MsWordVersion
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| Word2000 | `0` | Оптимизация поведения Aspose.Words в соответствии с версией MS Word 2000. |
-| Word2002 | `1` | Оптимизация поведения Aspose.Words в соответствии с версией MS Word 2002. |
-| Word2003 | `2` | Оптимизация поведения Aspose.Words в соответствии с версией MS Word 2003. |
-| Word2007 | `3` | Оптимизация поведения Aspose.Words в соответствии с версией MS Word 2007. |
-| Word2010 | `4` | Оптимизация поведения Aspose.Words в соответствии с версией MS Word 2010. |
-| Word2013 | `5` | Оптимизация поведения Aspose.Words в соответствии с версией MS Word 2013. |
-| Word2016 | `6` | Оптимизация поведения Aspose.Words в соответствии с версией MS Word 2016. |
-| Word2019 | `7` | Оптимизировать поведение Aspose.Words, чтобы оно соответствовало версии MS Word 2019. |
+| Word2000 | `0` | Оптимизировать поведение Aspose.Words в соответствии с версией MS Word 2000. |
+| Word2002 | `1` | Оптимизировать поведение Aspose.Words в соответствии с версией MS Word 2002. |
+| Word2003 | `2` | Оптимизировать поведение Aspose.Words в соответствии с версией MS Word 2003. |
+| Word2007 | `3` | Оптимизировать поведение Aspose.Words в соответствии с версией MS Word 2007. |
+| Word2010 | `4` | Оптимизировать поведение Aspose.Words в соответствии с версией MS Word 2010. |
+| Word2013 | `5` | Оптимизировать поведение Aspose.Words в соответствии с версией MS Word 2013. |
+| Word2016 | `6` | Оптимизировать поведение Aspose.Words в соответствии с версией MS Word 2016. |
+| Word2019 | `7` | Оптимизировать поведение Aspose.Words в соответствии с версией MS Word 2019. |
 
 ### Примеры
 
@@ -40,14 +40,14 @@ public void OptimizeFor()
     // которые позволяют нам обеспечить обратную совместимость со старыми версиями Microsoft Word.
     CompatibilityOptions options = doc.CompatibilityOptions;
 
-    // Печать настроек по умолчанию для пустого документа.
+    // Распечатываем настройки по умолчанию для пустого документа.
     Console.WriteLine("\nDefault optimization settings:");
     PrintCompatibilityOptions(options);
 
-    // Мы можем получить доступ к этим настройкам в Microsoft Word через «Файл» -> "Опции" -> «Дополнительно» -> "Параметры совместимости для...".
+    // Мы можем получить доступ к этим настройкам в Microsoft Word через «Файл» -> gt; «Параметры» -> «Дополнительно» -> «Параметры совместимости для...».
     doc.Save(ArtifactsDir + "CompatibilityOptions.OptimizeFor.DefaultSettings.docx");
 
-    // Мы можем использовать метод OptimizeFor, чтобы обеспечить оптимальную совместимость с определенной версией Microsoft Word.
+    // Мы можем использовать метод OptimizeFor, чтобы обеспечить оптимальную совместимость с конкретной версией Microsoft Word.
     doc.CompatibilityOptions.OptimizeFor(MsWordVersion.Word2010);
     Console.WriteLine("\nOptimized for Word 2010:");
     PrintCompatibilityOptions(options);

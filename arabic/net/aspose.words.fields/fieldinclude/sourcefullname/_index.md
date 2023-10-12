@@ -1,14 +1,14 @@
 ---
 title: FieldInclude.SourceFullName
 second_title: Aspose.Words لمراجع .NET API
-description: FieldInclude ملكية. الحصول على أو تحديد مكان المستند.
+description: FieldInclude ملكية. الحصول على أو تعيين موقع المستند.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fields/fieldinclude/sourcefullname/
 ---
 ## FieldInclude.SourceFullName property
 
-الحصول على أو تحديد مكان المستند.
+الحصول على أو تعيين موقع المستند.
 
 ```csharp
 public string SourceFullName { get; set; }
@@ -23,7 +23,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // يمكننا استخدام حقل INCLUDE لاستيراد جزء من مستند آخر في نظام الملفات المحلي.
-// تحتوي الإشارة المرجعية من المستند الآخر التي نشير إليها مع هذا الحقل على هذا الجزء المستورد.
+// تحتوي الإشارة المرجعية من المستند الآخر الذي نشير إليه بهذا الحقل على هذا الجزء المستورد.
 FieldInclude field = (FieldInclude)builder.InsertField(FieldType.FieldInclude, true);
 field.SourceFullName = MyDir + "Bookmarks.docx";
 field.BookmarkName = "MyBookmark1";

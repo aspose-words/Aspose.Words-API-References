@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertCell
 second_title: Référence de l'API Aspose.Words pour .NET
 description: DocumentBuilder méthode. Insère une cellule de tableau dans le document.
 type: docs
-weight: 250
+weight: 270
 url: /fr/net/aspose.words/documentbuilder/insertcell/
 ---
 ## DocumentBuilder.InsertCell method
@@ -20,17 +20,17 @@ Le nœud de cellule qui vient d'être inséré.
 
 ### Remarques
 
-Pour commencer une table, il suffit d'appeler **InsérerCellule** . Après cela, tout contenu que vous ajoutez en utilisant d'autres méthodes du[`DocumentBuilder`](../) la classe sera ajoutée à la cellule actuelle.
+Pour démarrer une table, il suffit d'appeler`InsertCell` . Après cela, tout contenu que vous ajoutez en utilisant d'autres méthodes du[`DocumentBuilder`](../) la classe sera ajoutée à la cellule actuelle.
 
-Pour commencer une nouvelle cellule dans la même ligne, appelez **InsérerCellule** encore.
+Pour démarrer une nouvelle cellule dans la même ligne, appelez`InsertCell` encore.
 
-Pour terminer un appel de ligne de table[`EndRow`](../endrow/).
+Pour mettre fin à un appel de ligne de table[`EndRow`](../endrow/).
 
 Utilisez le[`CellFormat`](../cellformat/)propriété pour spécifier le formatage des cellules.
 
 ### Exemples
 
-Montre comment utiliser un générateur de document pour créer un tableau.
+Montre comment utiliser un générateur de documents pour créer un tableau.
 
 ```csharp
 Document doc = new Document();
@@ -43,7 +43,7 @@ builder.Write("Row 1, Cell 1.");
 builder.InsertCell();
 builder.Write("Row 1, Cell 2.");
 
-// Appelez la méthode "EndRow" du générateur pour démarrer une nouvelle ligne.
+// Appelez la méthode "EndRow" du constructeur pour démarrer une nouvelle ligne.
 builder.EndRow();
 builder.InsertCell();
 builder.Write("Row 2, Cell 1.");
@@ -62,7 +62,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.StartTable();
 
-// Définition des options de formatage de tableau pour un générateur de document
+// Définition des options de formatage de tableau pour un générateur de documents
 // les appliquera à chaque ligne et cellule que nous ajouterons avec.
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
@@ -86,8 +86,8 @@ builder.InsertCell();
 builder.Write("Row 1, Col 2");
 builder.EndRow();
 
-// Changer la mise en forme l'appliquera à la cellule courante,
-// et toutes les nouvelles cellules que nous créons avec le constructeur par la suite.
+// Changer le formatage l'appliquera à la cellule actuelle,
+// et toutes les nouvelles cellules que nous créons ensuite avec le constructeur.
 // Cela n'affectera pas les cellules que nous avons ajoutées précédemment.
 builder.CellFormat.Shading.ClearFormatting();
 
@@ -99,7 +99,7 @@ builder.Write("Row 2, Col 2");
 
 builder.EndRow();
 
-// Augmente la hauteur de ligne pour s'adapter au texte vertical.
+// Augmente la hauteur de la ligne pour l'adapter au texte vertical.
 builder.InsertCell();
 builder.RowFormat.Height = 150;
 builder.CellFormat.Orientation = TextOrientation.Upward;

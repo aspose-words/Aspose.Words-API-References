@@ -1,14 +1,14 @@
 ---
 title: ImageSavingArgs.KeepImageStreamOpen
 second_title: Справочник по API Aspose.Words для .NET
-description: ImageSavingArgs свойство. Указывает должен ли Aspose.Words оставить поток открытым или закрыть его после сохранения изображения.
+description: ImageSavingArgs свойство. Указывает должен ли Aspose.Words сохранять поток открытым или закрывать его после сохранения изображения.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.saving/imagesavingargs/keepimagestreamopen/
 ---
 ## ImageSavingArgs.KeepImageStreamOpen property
 
-Указывает, должен ли Aspose.Words оставить поток открытым или закрыть его после сохранения изображения.
+Указывает, должен ли Aspose.Words сохранять поток открытым или закрывать его после сохранения изображения.
 
 ```csharp
 public bool KeepImageStreamOpen { get; set; }
@@ -16,18 +16,19 @@ public bool KeepImageStreamOpen { get; set; }
 
 ### Примечания
 
-По умолчанию`ЛОЖЬ` и Aspose.Words закроет предоставленный вами поток в[`ImageStream`](../imagestream/) свойство после записи в него образа. Указать`истинный` чтобы поток оставался открытым.
+По умолчанию`ЛОЖЬ` и Aspose.Words закроет поток, который вы предоставили в[`ImageStream`](../imagestream/) свойство после записи в него изображения. Укажите`истинный` чтобы поток оставался открытым.
 
 ### Примеры
 
-Показывает, как использовать обратный вызов сохранения изображения в процессе преобразования HTML.
+Показывает, как включить обратный вызов сохранения изображения в процесс преобразования HTML.
 
 ```csharp
+public void ImageSavingCallback()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
-    // Когда мы сохраняем документ в HTML, мы можем передать объект SaveOptions для назначения обратного вызова
-    // для настройки процесса сохранения изображения.
+    // Когда мы сохраняем документ в HTML, мы можем передать объект SaveOptions для обозначения обратного вызова
+    // чтобы настроить процесс сохранения изображения.
     HtmlSaveOptions options = new HtmlSaveOptions();
     options.ImageSavingCallback = new ImageShapePrinter();
 
@@ -35,7 +36,7 @@ public bool KeepImageStreamOpen { get; set; }
 }
 
 /// <summary>
-/// Выводит свойства каждого изображения по мере того, как процесс сохранения сохраняет его в файл изображения в локальной файловой системе
+/// Печатает свойства каждого изображения, поскольку процесс сохранения сохраняет его в файл изображения в локальной файловой системе.
 /// при экспорте документа в HTML.
 /// </summary>
 private class ImageShapePrinter : IImageSavingCallback

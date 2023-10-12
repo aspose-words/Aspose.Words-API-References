@@ -3,12 +3,14 @@ title: Class FieldMergingArgsBase
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.MailMerging.FieldMergingArgsBase klass. Basklass förFieldMergingArgs ochImageFieldMergingArgs .
 type: docs
-weight: 3560
+weight: 3780
 url: /sv/net/aspose.words.mailmerging/fieldmergingargsbase/
 ---
 ## FieldMergingArgsBase class
 
 Basklass för[`FieldMergingArgs`](../fieldmergingargs/) och[`ImageFieldMergingArgs`](../imagefieldmergingargs/) .
+
+För att lära dig mer, besök[Mail Merge och rapportering](https://docs.aspose.com/words/net/mail-merge-and-reporting/) dokumentationsartikel.
 
 ```csharp
 public abstract class FieldMergingArgsBase
@@ -31,6 +33,7 @@ public abstract class FieldMergingArgsBase
 Visar hur man utför en sammankoppling med en anpassad återuppringning som hanterar sammanslagningsdata i form av HTML-dokument.
 
 ```csharp
+public void MergeHtml()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -78,7 +81,7 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
             builder.InsertHtml((string)args.FieldValue);
 
             // Eftersom vi redan har infogat det sammanslagna innehållet manuellt,
-              // vi behöver inte svara på denna händelse genom att returnera innehåll via "Text"-egenskapen.
+             // vi behöver inte svara på denna händelse genom att returnera innehåll via "Text"-egenskapen.
             args.Text = string.Empty;
         }
     }

@@ -1,14 +1,16 @@
 ---
 title: Class VbaModule
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Vba.VbaModule classe. Fournit un accès au module de projet VBA.
+description: Aspose.Words.Vba.VbaModule classe. Donne accès au module de projet VBA.
 type: docs
-weight: 6240
+weight: 6550
 url: /fr/net/aspose.words.vba/vbamodule/
 ---
 ## VbaModule class
 
-Fournit un accès au module de projet VBA.
+Donne accès au module de projet VBA.
+
+Pour en savoir plus, visitez le[Travailler avec des macros VBA](https://docs.aspose.com/words/net/working-with-vba-macros/) article documentaire.
 
 ```csharp
 public class VbaModule
@@ -24,7 +26,7 @@ public class VbaModule
 
 | Nom | La description |
 | --- | --- |
-| [Name](../../aspose.words.vba/vbamodule/name/) { get; set; } | Obtient ou définit le nom du module de projet VBA. |
+| [Name](../../aspose.words.vba/vbamodule/name/) { get; set; } | Obtient ou définit le nom du module du projet VBA. |
 | [SourceCode](../../aspose.words.vba/vbamodule/sourcecode/) { get; set; } | Obtient ou définit le code source du module de projet VBA. |
 | [Type](../../aspose.words.vba/vbamodule/type/) { get; set; } | Spécifie si le module est un module procédural, un module de document, un module de classe ou un module de concepteur. |
 
@@ -36,13 +38,14 @@ public class VbaModule
 
 ### Exemples
 
-Montre comment accéder aux informations de projet VBA d'un document.
+Montre comment accéder aux informations de projet VBA d’un document.
 
 ```csharp
 Document doc = new Document(MyDir + "VBA project.docm");
 
 // Un projet VBA contient une collection de modules VBA.
 VbaProject vbaProject = doc.VbaProject;
+Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 
@@ -53,7 +56,7 @@ Assert.AreEqual(vbaModules.Count(), 3);
 foreach (VbaModule module in vbaModules)
     Console.WriteLine($"Module name: {module.Name};\nModule code:\n{module.SourceCode}\n");
 
-// Définit le nouveau code source pour le module VBA. Vous pouvez accéder aux modules VBA de la collection par index ou par nom.
+// Définir un nouveau code source pour le module VBA. Vous pouvez accéder aux modules VBA de la collection soit par index, soit par nom.
 vbaModules[0].SourceCode = "Your VBA code...";
 vbaModules["Module1"].SourceCode = "Your VBA code...";
 

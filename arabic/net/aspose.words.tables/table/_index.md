@@ -1,14 +1,16 @@
 ---
 title: Class Table
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Tables.Table فصل. يمثل جدولاً في مستند Word .
+description: Aspose.Words.Tables.Table فصل. يمثل جدولاً في مستند Word.
 type: docs
-weight: 6040
+weight: 6340
 url: /ar/net/aspose.words.tables/table/
 ---
 ## Table class
 
-يمثل جدولاً في مستند Word .
+يمثل جدولاً في مستند Word.
+
+لمعرفة المزيد، قم بزيارة[العمل مع الجداول](https://docs.aspose.com/words/net/working-with-tables/) مقالة توثيقية.
 
 ```csharp
 public class Table : CompositeNode
@@ -18,102 +20,103 @@ public class Table : CompositeNode
 
 | اسم | وصف |
 | --- | --- |
-| [Table](table/)(DocumentBase) | يقوم بتهيئة مثيل جديد لملف **الطاولة** فئة . |
+| [Table](table/)(DocumentBase) | تهيئة مثيل جديد لـ`Table` فئة. |
 
 ## الخصائص
 
 | اسم | وصف |
 | --- | --- |
-| [AbsoluteHorizontalDistance](../../aspose.words.tables/table/absolutehorizontaldistance/) { get; set; } | الحصول على أو تعيين موضع الجدول العائم الأفقي المطلق المحدد بواسطة خصائص الجدول ، بالنقاط . القيمة الافتراضية هي 0. |
-| [AbsoluteVerticalDistance](../../aspose.words.tables/table/absoluteverticaldistance/) { get; set; } | الحصول على أو تعيين موضع الجدول العائم العمودي المطلق المحدد بواسطة خصائص الجدول ، بالنقاط . القيمة الافتراضية هي 0. |
+| [AbsoluteHorizontalDistance](../../aspose.words.tables/table/absolutehorizontaldistance/) { get; set; } | الحصول على أو تعيين موضع الجدول العائم الأفقي المطلق المحدد بواسطة خصائص الجدول، بالنقاط. القيمة الافتراضية هي 0. |
+| [AbsoluteVerticalDistance](../../aspose.words.tables/table/absoluteverticaldistance/) { get; set; } | الحصول على أو تعيين موضع الجدول العائم الرأسي المطلق المحدد بواسطة خصائص الجدول، بالنقاط. القيمة الافتراضية هي 0. |
 | [Alignment](../../aspose.words.tables/table/alignment/) { get; set; } | يحدد كيفية محاذاة الجدول المضمن في المستند. |
-| [AllowAutoFit](../../aspose.words.tables/table/allowautofit/) { get; set; } | يسمح لـ Microsoft Word و Aspose.Words بتغيير حجم الخلايا تلقائيًا في جدول لتلائم محتوياتها . |
-| [AllowCellSpacing](../../aspose.words.tables/table/allowcellspacing/) { get; set; } | الحصول على أو تعيين خيار "السماح بالتباعد بين الخلايا". |
-| [AllowOverlap](../../aspose.words.tables/table/allowoverlap/) { get; } | التعرف على ما إذا كان الجدول العائم سيسمح للكائنات العائمة الأخرى في document بتداخل نطاقاتها عند عرضها. القيمة الافتراضية هي`حقيقي` . |
+| [AllowAutoFit](../../aspose.words.tables/table/allowautofit/) { get; set; } | يسمح لـ Microsoft Word وAspose.Words بتغيير حجم الخلايا تلقائيًا في الجدول لتناسب محتوياتها. |
+| [AllowCellSpacing](../../aspose.words.tables/table/allowcellspacing/) { get; set; } | الحصول على خيار "السماح بالتباعد بين الخلايا" أو تعيينه. |
+| [AllowOverlap](../../aspose.words.tables/table/allowoverlap/) { get; } | يحصل على ما إذا كان الجدول العائم يسمح للكائنات العائمة الأخرى في المستند بتداخل نطاقاته عند عرضها. القيمة الافتراضية هي`حقيقي` . |
 | [Bidi](../../aspose.words.tables/table/bidi/) { get; set; } | الحصول على أو تحديد ما إذا كان هذا جدولًا من اليمين إلى اليسار. |
-| [BottomPadding](../../aspose.words.tables/table/bottompadding/) { get; set; } | الحصول على أو تحديد مقدار المساحة (بالنقاط) لإضافتها أسفل محتويات الخلايا. |
-| [CellSpacing](../../aspose.words.tables/table/cellspacing/) { get; set; } | الحصول على أو تحديد مقدار المسافة (بالنقاط) بين الخلايا. |
-| [ChildNodes](../../aspose.words/compositenode/childnodes/) { get; } | يحصل على جميع العقد الفرعية الفورية لهذه العقدة. |
-| [Count](../../aspose.words/compositenode/count/) { get; } | الحصول على عدد الأطفال المباشرين لهذه العقدة. |
-| [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | يحدد معرف العقدة المخصص . |
-| [Description](../../aspose.words.tables/table/description/) { get; set; } | الحصول على وصف لهذا الجدول أو تعيينه . يوفر تمثيلًا نصيًا بديلاً للمعلومات الواردة في الجدول. |
-| [DistanceBottom](../../aspose.words.tables/table/distancebottom/) { get; } | تحصل على المسافة بين أسفل الجدول والنص المحيط بالنقاط . |
-| [DistanceLeft](../../aspose.words.tables/table/distanceleft/) { get; } | تحصل على المسافة بين يسار الجدول والنص المحيط بالنقاط . |
-| [DistanceRight](../../aspose.words.tables/table/distanceright/) { get; } | تحصل على المسافة بين الجدول الأيمن والنص المحيط بالنقاط . |
-| [DistanceTop](../../aspose.words.tables/table/distancetop/) { get; } | تحصل على المسافة بين سطح الجدول والنص المحيط بالنقاط . |
-| virtual [Document](../../aspose.words/node/document/) { get; } | الحصول على المستند الذي تنتمي إليه هذه العقدة . |
-| [FirstChild](../../aspose.words/compositenode/firstchild/) { get; } | الحصول على الطفل الأول للعقدة . |
-| [FirstRow](../../aspose.words.tables/table/firstrow/) { get; } | إرجاع أول **صف** عقدة في الجدول . |
-| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | إرجاع صحيح إذا كانت هذه العقدة بها أي عقد فرعية. |
-| [HorizontalAnchor](../../aspose.words.tables/table/horizontalanchor/) { get; set; } | الحصول على الكائن الأساسي الذي يجب من خلاله حساب الموضع الأفقي للجدول العائم. القيمة الافتراضية هيColumn . |
-| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | إرجاع صحيح لأن هذه العقدة يمكن أن تحتوي على عقد فرعية. |
-| [LastChild](../../aspose.words/compositenode/lastchild/) { get; } | الحصول على آخر تابع للعقدة . |
-| [LastRow](../../aspose.words.tables/table/lastrow/) { get; } | إرجاع الأخير **صف** عقدة في الجدول . |
+| [BottomPadding](../../aspose.words.tables/table/bottompadding/) { get; set; } | الحصول على أو تعيين مقدار المسافة (بالنقاط) لإضافتها أسفل محتويات الخلايا. |
+| [CellSpacing](../../aspose.words.tables/table/cellspacing/) { get; set; } | الحصول على أو تعيين مقدار المسافة (بالنقاط) بين الخلايا. |
+| [Count](../../aspose.words/compositenode/count/) { get; } | يحصل على عدد الأطفال المباشرين لهذه العقدة. |
+| [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | يحدد معرف العقدة المخصصة. |
+| [Description](../../aspose.words.tables/table/description/) { get; set; } | الحصول على أو تعيين وصف لهذا الجدول. يوفر تمثيل نصي بديل للمعلومات الموجودة في الجدول. |
+| [DistanceBottom](../../aspose.words.tables/table/distancebottom/) { get; set; } | الحصول على المسافة بين أسفل الجدول والنص المحيط بالنقاط أو تحديدها. |
+| [DistanceLeft](../../aspose.words.tables/table/distanceleft/) { get; set; } | الحصول على المسافة بين يسار الجدول والنص المحيط بالنقاط أو تحديدها. |
+| [DistanceRight](../../aspose.words.tables/table/distanceright/) { get; set; } | الحصول على أو تعيين المسافة بين يمين الجدول والنص المحيط بالنقاط. |
+| [DistanceTop](../../aspose.words.tables/table/distancetop/) { get; set; } | الحصول على أو تعيين المسافة بين سطح الطاولة والنص المحيط بالنقاط. |
+| virtual [Document](../../aspose.words/node/document/) { get; } | الحصول على المستند الذي تنتمي إليه هذه العقدة. |
+| [FirstChild](../../aspose.words/compositenode/firstchild/) { get; } | يحصل على الطفل الأول للعقدة. |
+| [FirstRow](../../aspose.words.tables/table/firstrow/) { get; } | إرجاع الأول[`Row`](../row/) العقدة في الجدول. |
+| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | إرجاع`حقيقي` إذا كانت هذه العقدة تحتوي على أي عقد فرعية. |
+| [HorizontalAnchor](../../aspose.words.tables/table/horizontalanchor/) { get; set; } | يحصل على الكائن الأساسي الذي يجب حساب الموضع الأفقي للجدول العائم منه. القيمة الافتراضية هيColumn . |
+| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | إرجاع`حقيقي` لأن هذه العقدة يمكن أن تحتوي على عقد فرعية. |
+| [LastChild](../../aspose.words/compositenode/lastchild/) { get; } | يحصل على الطفل الأخير للعقدة. |
+| [LastRow](../../aspose.words.tables/table/lastrow/) { get; } | إرجاع الأخير[`Row`](../row/) العقدة في الجدول. |
 | [LeftIndent](../../aspose.words.tables/table/leftindent/) { get; set; } | الحصول على أو تعيين القيمة التي تمثل المسافة البادئة اليسرى للجدول. |
-| [LeftPadding](../../aspose.words.tables/table/leftpadding/) { get; set; } | الحصول على أو تعيين مقدار المساحة (بالنقاط) لإضافتها إلى يسار محتويات الخلايا. |
+| [LeftPadding](../../aspose.words.tables/table/leftpadding/) { get; set; } | الحصول على أو تعيين مقدار المسافة (بالنقاط) المراد إضافتها إلى يسار محتويات الخلايا. |
 | [NextSibling](../../aspose.words/node/nextsibling/) { get; } | يحصل على العقدة التي تلي هذه العقدة مباشرة. |
-| override [NodeType](../../aspose.words.tables/table/nodetype/) { get; } | عوائد **NodeType. جدول** . |
-| [ParentNode](../../aspose.words/node/parentnode/) { get; } | الحصول على الأصل المباشر لهذه العقدة. |
-| [PreferredWidth](../../aspose.words.tables/table/preferredwidth/) { get; set; } | الحصول على أو تحديد العرض المفضل للجدول. |
+| override [NodeType](../../aspose.words.tables/table/nodetype/) { get; } | إرجاعTable . |
+| [ParentNode](../../aspose.words/node/parentnode/) { get; } | يحصل على الأصل المباشر لهذه العقدة. |
+| [PreferredWidth](../../aspose.words.tables/table/preferredwidth/) { get; set; } | الحصول على العرض المفضل للجدول أو تعيينه. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | يحصل على العقدة التي تسبق هذه العقدة مباشرة. |
-| [Range](../../aspose.words/node/range/) { get; } | إرجاع أ **نطاق** الكائن الذي يمثل جزء المستند الموجود في هذه العقدة. |
+| [Range](../../aspose.words/node/range/) { get; } | إرجاع أ[`Range`](../../aspose.words/range/) الكائن الذي يمثل جزء المستند الموجود في هذه العقدة. |
 | [RelativeHorizontalAlignment](../../aspose.words.tables/table/relativehorizontalalignment/) { get; set; } | الحصول على أو تعيين المحاذاة الأفقية النسبية للجدول العائم. |
-| [RelativeVerticalAlignment](../../aspose.words.tables/table/relativeverticalalignment/) { get; set; } | الحصول على أو تعيين المحاذاة الرأسية النسبية للجدول العائم. |
-| [RightPadding](../../aspose.words.tables/table/rightpadding/) { get; set; } | الحصول على أو تعيين مقدار المساحة (بالنقاط) لإضافتها إلى يمين محتويات الخلايا. |
-| [Rows](../../aspose.words.tables/table/rows/) { get; } | يوفر وصولاً مكتوبًا إلى صفوف الجدول. |
-| [Style](../../aspose.words.tables/table/style/) { get; set; } | الحصول على أو تحديد نمط الجدول المطبق على هذا الجدول. |
-| [StyleIdentifier](../../aspose.words.tables/table/styleidentifier/) { get; set; } | الحصول على أو تعيين معرف النمط المستقل للإعدادات المحلية لنمط الجدول المطبق على هذا الجدول. |
-| [StyleName](../../aspose.words.tables/table/stylename/) { get; set; } | الحصول على أو تحديد اسم نمط الجدول المطبق على هذا الجدول. |
-| [StyleOptions](../../aspose.words.tables/table/styleoptions/) { get; set; } | الحصول على أو تعيين علامات البت التي تحدد كيفية تطبيق نمط الجدول على هذا الجدول. |
-| [TextWrapping](../../aspose.words.tables/table/textwrapping/) { get; set; } | يحصل أو يحدد[`TextWrapping`](./textwrapping/) للجدول . |
-| [Title](../../aspose.words.tables/table/title/) { get; set; } | الحصول على عنوان هذا الجدول أو تعيينه . يوفر تمثيلًا نصيًا بديلاً للمعلومات الواردة في الجدول. |
-| [TopPadding](../../aspose.words.tables/table/toppadding/) { get; set; } | الحصول على أو تحديد مقدار المساحة (بالنقاط) للإضافة فوق محتويات الخلايا. |
-| [VerticalAnchor](../../aspose.words.tables/table/verticalanchor/) { get; set; } | الحصول على الكائن الأساسي الذي يجب من خلاله حساب الموضع الرأسي للجدول العائم. القيمة الافتراضية هيMargin . |
+| [RelativeVerticalAlignment](../../aspose.words.tables/table/relativeverticalalignment/) { get; set; } | الحصول على أو تعيين المحاذاة العمودية النسبية للجدول العائم. |
+| [RightPadding](../../aspose.words.tables/table/rightpadding/) { get; set; } | الحصول على أو تعيين مقدار المسافة (بالنقاط) المراد إضافتها إلى يمين محتويات الخلايا. |
+| [Rows](../../aspose.words.tables/table/rows/) { get; } | يوفر الوصول المكتوب إلى صفوف الجدول. |
+| [Style](../../aspose.words.tables/table/style/) { get; set; } | الحصول على أو تعيين نمط الجدول المطبق على هذا الجدول. |
+| [StyleIdentifier](../../aspose.words.tables/table/styleidentifier/) { get; set; } | الحصول على أو تعيين معرف النمط المحلي المستقل لنمط الجدول المطبق على هذا الجدول. |
+| [StyleName](../../aspose.words.tables/table/stylename/) { get; set; } | الحصول على أو تعيين اسم نمط الجدول المطبق على هذا الجدول. |
+| [StyleOptions](../../aspose.words.tables/table/styleoptions/) { get; set; } | الحصول على أو تعيين إشارات البت التي تحدد كيفية تطبيق نمط الجدول على هذا الجدول. |
+| [TextWrapping](../../aspose.words.tables/table/textwrapping/) { get; set; } | يحصل على أو مجموعات[`TextWrapping`](./textwrapping/) للجدول. |
+| [Title](../../aspose.words.tables/table/title/) { get; set; } | الحصول على عنوان هذا الجدول أو تعيينه. يوفر تمثيلاً نصيًا بديلاً للمعلومات الموجودة في الجدول. |
+| [TopPadding](../../aspose.words.tables/table/toppadding/) { get; set; } | الحصول على أو تعيين مقدار المسافة (بالنقاط) لإضافتها فوق محتويات الخلايا. |
+| [VerticalAnchor](../../aspose.words.tables/table/verticalanchor/) { get; set; } | يحصل على الكائن الأساسي الذي يجب حساب الموضع الرأسي للجدول العائم منه. القيمة الافتراضية هيMargin . |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| override [Accept](../../aspose.words.tables/table/accept/)(DocumentVisitor) | يقبل الزائر . |
-| [AppendChild](../../aspose.words/compositenode/appendchild/)(Node) | يضيف العقدة المحددة إلى نهاية قائمة العقد الفرعية لهذه العقدة . |
-| [AutoFit](../../aspose.words.tables/table/autofit/)(AutoFitBehavior) | يغير حجم الجدول والخلايا وفقًا لسلوك الاحتواء التلقائي المحدد. |
-| [ClearBorders](../../aspose.words.tables/table/clearborders/)() | يزيل كل حدود الجدول والخلية في هذا الجدول. |
-| [ClearShading](../../aspose.words.tables/table/clearshading/)() | يزيل كل التظليل على الطاولة. |
-| [Clone](../../aspose.words/node/clone/)(bool) | لإنشاء نسخة مكررة من العقدة . |
-| [ConvertToHorizontallyMergedCells](../../aspose.words.tables/table/converttohorizontallymergedcells/)() | يحول الخلايا المدمجة أفقيًا حسب العرض إلى خلايا مدمجة بواسطة[`HorizontalMerge`](../cellformat/horizontalmerge/) . |
-| [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | محجوز لاستخدام النظام. IXPathNavigable. |
-| [EnsureMinimum](../../aspose.words.tables/table/ensureminimum/)() | في حالة عدم احتواء الجدول على صفوف ، يتم إنشاء صفوف وإلحاقها **صف** . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | يحصل على أول سلف محدد[`NodeType`](../../aspose.words/nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | الحصول على الأصل الأول لنوع الكائن المحدد. |
-| [GetChild](../../aspose.words/compositenode/getchild/)(NodeType, int, bool) | إرجاع العقدة الفرعية رقم N التي تطابق النوع المحدد. |
+| override [Accept](../../aspose.words.tables/table/accept/)(DocumentVisitor) | يقبل الزائر. |
+| override [AcceptEnd](../../aspose.words.tables/table/acceptend/)(DocumentVisitor) |  |
+| override [AcceptStart](../../aspose.words.tables/table/acceptstart/)(DocumentVisitor) |  |
+| [AppendChild&lt;T&gt;](../../aspose.words/compositenode/appendchild/)(T) |  |
+| [AutoFit](../../aspose.words.tables/table/autofit/)(AutoFitBehavior) | تغيير حجم الجدول والخلايا وفقًا لسلوك الاحتواء التلقائي المحدد. |
+| [ClearBorders](../../aspose.words.tables/table/clearborders/)() | إزالة كافة حدود الجدول والخلايا في هذا الجدول. |
+| [ClearShading](../../aspose.words.tables/table/clearshading/)() | إزالة كل التظليل الموجود على الطاولة. |
+| [Clone](../../aspose.words/node/clone/)(bool) | إنشاء نسخة مكررة من العقدة. |
+| [ConvertToHorizontallyMergedCells](../../aspose.words.tables/table/converttohorizontallymergedcells/)() | تحويل الخلايا المدمجة أفقيا حسب العرض إلى الخلايا المدمجة بها[`HorizontalMerge`](../cellformat/horizontalmerge/) . |
+| [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | إنشاء متصفح يمكن استخدامه لاجتياز العقد وقراءتها. |
+| [EnsureMinimum](../../aspose.words.tables/table/ensureminimum/)() | إذا لم يكن الجدول يحتوي على صفوف، فسيتم إنشاء واحد وإلحاقه[`Row`](../row/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | يحصل على السلف الأول للمحدد[`NodeType`](../../aspose.words/nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | الحصول على السلف الأول لنوع الكائن المحدد. |
+| [GetChild](../../aspose.words/compositenode/getchild/)(NodeType, int, bool) | إرجاع العقدة الفرعية N التي تطابق النوع المحدد. |
 | [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(NodeType, bool) | إرجاع مجموعة مباشرة من العقد الفرعية التي تطابق النوع المحدد. |
-| [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() | يوفر دعمًا لكل تكرار نمط على العقد التابعة لهذه العقدة . |
-| override [GetText](../../aspose.words/compositenode/gettext/)() | يحصل على نص هذه العقدة وجميع توابعها. |
-| [IndexOf](../../aspose.words/compositenode/indexof/)(Node) | إرجاع فهرس العقدة الفرعية المحددة في مصفوفة العقدة الفرعية. |
-| [InsertAfter](../../aspose.words/compositenode/insertafter/)(Node, Node) | يدخل العقدة المحددة مباشرة بعد العقدة المرجعية المحددة. |
-| [InsertBefore](../../aspose.words/compositenode/insertbefore/)(Node, Node) | يقوم بإدراج العقدة المحددة مباشرة قبل العقدة المرجعية المحددة. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | الحصول على العقدة التالية وفقًا لخوارزمية اجتياز الشجرة بالطلب المسبق. |
-| [PrependChild](../../aspose.words/compositenode/prependchild/)(Node) | يضيف العقدة المحددة إلى بداية قائمة العقد الفرعية لهذه العقدة . |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | الحصول على العقدة السابقة وفقًا لخوارزمية اجتياز الشجرة بالطلب المسبق. |
+| [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() | يوفر الدعم لتكرار كل نمط عبر العقد الفرعية لهذه العقدة. |
+| override [GetText](../../aspose.words/compositenode/gettext/)() | الحصول على نص هذه العقدة وجميع أبنائها. |
+| [IndexOf](../../aspose.words/compositenode/indexof/)(Node) | إرجاع فهرس العقدة الفرعية المحددة في صفيف العقدة الفرعية. |
+| [InsertAfter&lt;T&gt;](../../aspose.words/compositenode/insertafter/)(T, Node) |  |
+| [InsertBefore&lt;T&gt;](../../aspose.words/compositenode/insertbefore/)(T, Node) |  |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | الحصول على العقدة التالية وفقًا لخوارزمية اجتياز شجرة الطلب المسبق. |
+| [PrependChild&lt;T&gt;](../../aspose.words/compositenode/prependchild/)(T) |  |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | الحصول على العقدة السابقة وفقًا لخوارزمية اجتياز شجرة الطلب المسبق. |
 | [Remove](../../aspose.words/node/remove/)() | يزيل نفسه من الأصل. |
-| [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | يزيل كافة العقد التابعة للعقدة الحالية. |
-| [RemoveChild](../../aspose.words/compositenode/removechild/)(Node) | يزيل العقدة الفرعية المحددة . |
-| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | يزيل الكل[`SmartTag`](../../aspose.words.markup/smarttag/) العقد التابعة للعقدة الحالية. |
-| [SelectNodes](../../aspose.words/compositenode/selectnodes/)(string) | تحديد قائمة بالعقد المطابقة لتعبير XPath. |
-| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | تحديد العقدة الأولى التي تطابق تعبير XPath. |
-| [SetBorder](../../aspose.words.tables/table/setborder/)(BorderType, LineStyle, double, Color, bool) | يضبط حد الجدول المحدد على نمط الخط والعرض واللون المحدد. |
-| [SetBorders](../../aspose.words.tables/table/setborders/)(LineStyle, double, Color) | تعيين كافة حدود الجدول على نمط الخط والعرض واللون المحدد. |
+| [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | إزالة جميع العقد الفرعية للعقدة الحالية. |
+| [RemoveChild&lt;T&gt;](../../aspose.words/compositenode/removechild/)(T) |  |
+| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | يزيل الكل[`SmartTag`](../../aspose.words.markup/smarttag/)العقد التابعة للعقدة الحالية. |
+| [SelectNodes](../../aspose.words/compositenode/selectnodes/)(string) | تحديد قائمة العقد المطابقة لتعبير XPath. |
+| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | تحديد الأول[`Node`](../../aspose.words/node/) الذي يطابق تعبير XPath. |
+| [SetBorder](../../aspose.words.tables/table/setborder/)(BorderType, LineStyle, double, Color, bool) | يضبط حدود الجدول المحدد على نمط الخط المحدد والعرض واللون. |
+| [SetBorders](../../aspose.words.tables/table/setborders/)(LineStyle, double, Color) | يضبط كل حدود الجدول على نمط الخط والعرض واللون المحدد. |
 | [SetShading](../../aspose.words.tables/table/setshading/)(TextureIndex, Color, Color) | يضبط التظليل على القيم المحددة في الجدول بأكمله. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | يصدر محتوى العقدة إلى سلسلة بالتنسيق المحدد. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | يصدر محتوى العقدة إلى سلسلة باستخدام خيارات الحفظ المحددة. |
+| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | تصدير محتوى العقدة إلى سلسلة بالتنسيق المحدد. |
+| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | تصدير محتوى العقدة إلى سلسلة باستخدام خيارات الحفظ المحددة. |
 
 ### ملاحظات
 
-**الطاولة**هي عقدة على مستوى الكتلة ويمكن أن تكون تابعة للفئات المشتقة منها **قصة** أو  **InlineStory**.
+`Table`هي عقدة على مستوى الكتلة ويمكن أن تكون تابعة للفئات المشتقة منها[`Story`](../../aspose.words/story/) أو [`InlineStory`](../../aspose.words/inlinestory/).
 
-**الطاولة** يمكن أن تحتوي على واحد أو أكثر **صف** العقد.
+`Table` يمكن أن تحتوي على واحد أو أكثر[`Row`](../row/) العقد.
 
-الحد الأدنى للجدول الصالح يحتاج إلى واحد على الأقل **صف**.
+يجب أن يحتوي الحد الأدنى من الجدول الصالح على واحد على الأقل[`Row`](../row/).
 
 ### أمثلة
 
@@ -126,7 +129,7 @@ doc.FirstSection.Body.AppendChild(table);
 
 // تحتوي الجداول على صفوف تحتوي على خلايا قد تحتوي على فقرات
 // مع عناصر نموذجية مثل المسارات والأشكال وحتى الجداول الأخرى.
-// استدعاء طريقة "ضمان الحد الأدنى" على الطاولة سيضمن ذلك
+// سيؤدي استدعاء طريقة "EnsureMinimum" على الجدول إلى التأكد من ذلك
 // يحتوي الجدول على صف وخلية وفقرة واحدة على الأقل.
 Row firstRow = new Row(doc);
 table.AppendChild(firstRow);
@@ -144,7 +147,7 @@ paragraph.AppendChild(run);
 doc.Save(ArtifactsDir + "Table.CreateTable.docx");
 ```
 
-يوضح كيفية التكرار عبر جميع الجداول في المستند وطباعة محتويات كل خلية.
+يوضح كيفية التكرار عبر كافة الجداول في المستند وطباعة محتويات كل خلية.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -158,7 +161,7 @@ for (int i = 0; i < tables.Count; i++)
 
     RowCollection rows = tables[i].Rows;
 
-    // يمكننا استخدام طريقة "ToArray" في مجموعة صف لاستنساخها في مصفوفة.
+    // يمكننا استخدام طريقة "ToArray" في مجموعة صفوف لاستنساخها في مصفوفة.
     Assert.AreEqual(rows, rows.ToArray());
     Assert.AreNotSame(rows, rows.ToArray());
 
@@ -168,7 +171,7 @@ for (int i = 0; i < tables.Count; i++)
 
         CellCollection cells = rows[j].Cells;
 
-        // يمكننا استخدام طريقة "ToArray" على مجموعة خلايا لاستنساخها في مصفوفة.
+        // يمكننا استخدام طريقة "ToArray" في مجموعة خلايا لاستنساخها في مصفوفة.
         Assert.AreEqual(cells, cells.ToArray());
         Assert.AreNotSame(cells, cells.ToArray());
 
@@ -185,7 +188,7 @@ for (int i = 0; i < tables.Count; i++)
 }
 ```
 
-يوضح كيفية إنشاء جدول منسق بحجم 2 × 2.
+يوضح كيفية إنشاء جدول منسق 2x2.
 
 ```csharp
 Document doc = new Document();
@@ -199,8 +202,8 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndRow();
 
-// أثناء بناء الجدول ، سيقوم منشئ الوثيقة بتطبيق قيم خاصية RowFormat / CellFormat الحالية
-// إلى الصف / الخلية الحالية التي يوجد بها المؤشر وأي صفوف / خلايا جديدة أثناء إنشائها.
+// أثناء إنشاء الجدول، سيطبق منشئ المستندات قيم خاصية RowFormat/CellFormat الحالية الخاصة به
+// إلى الصف/الخلية الحالية التي يوجد بها المؤشر وأي صفوف/خلايا جديدة أثناء إنشائها.
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[0].CellFormat.VerticalAlignment);
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[1].CellFormat.VerticalAlignment);
 
@@ -215,7 +218,7 @@ builder.Write("Row 2, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// لا تتأثر الصفوف والخلايا المضافة مسبقًا بأثر رجعي بالتغييرات في تنسيق المنشئ.
+// لا تتأثر الصفوف والخلايا المضافة مسبقًا بأثر رجعي بالتغييرات التي تطرأ على تنسيق المنشئ.
 Assert.AreEqual(0, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 Assert.AreEqual(100, table.Rows[1].RowFormat.Height);
@@ -226,18 +229,18 @@ Assert.AreEqual(TextOrientation.Downward, table.Rows[1].Cells[1].CellFormat.Orie
 doc.Save(ArtifactsDir + "DocumentBuilder.BuildTable.docx");
 ```
 
-يوضح كيفية إنشاء جدول متداخل بدون استخدام منشئ المستندات.
+يوضح كيفية إنشاء جدول متداخل دون استخدام أداة إنشاء المستندات.
 
 ```csharp
 public void CreateNestedTable()
 {
     Document doc = new Document();
 
-    // أنشئ الجدول الخارجي بثلاثة صفوف وأربعة أعمدة ، ثم أضفه إلى المستند.
+    // أنشئ الجدول الخارجي بثلاثة صفوف وأربعة أعمدة، ثم أضفه إلى المستند.
     Table outerTable = CreateTable(doc, 3, 4, "Outer Table");
     doc.FirstSection.Body.AppendChild(outerTable);
 
-    // أنشئ جدولًا آخر يحتوي على صفين وعمودين ثم أدخله في الخلية الأولى في الجدول الأول.
+    // أنشئ جدولًا آخر يتكون من صفين وعمودين، ثم أدخله في الخلية الأولى للجدول الأول.
     Table innerTable = CreateTable(doc, 2, 2, "Inner Table");
     outerTable.FirstRow.FirstCell.AppendChild(innerTable);
 
@@ -245,7 +248,7 @@ public void CreateNestedTable()
 }
 
 /// <summary>
-/// ينشئ جدولًا جديدًا في المستند بالأبعاد المحددة والنص في كل خلية.
+/// إنشاء جدول جديد في المستند بالأبعاد والنص المحدد في كل خلية.
 /// </summary>
 private static Table CreateTable(Document doc, int rowCount, int cellCount, string cellText)
 {
@@ -266,10 +269,10 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
         }
     }
 
-    // يمكنك استخدام خصائص "العنوان" و "الوصف" لإضافة عنوان ووصف على التوالي إلى جدولك.
+    // يمكنك استخدام خصائص "العنوان" و"الوصف" لإضافة عنوان ووصف على التوالي إلى الجدول الخاص بك.
     // يجب أن يحتوي الجدول على صف واحد على الأقل قبل أن نتمكن من استخدام هذه الخصائص.
-    // هذه الخصائص مفيدة لمستندات .docx المتوافقة مع ISO / IEC 29500 (انظر فئة OoxmlCompliance).
-    // إذا قمنا بحفظ المستند بتنسيقات ما قبل ISO / IEC 29500 ، فإن Microsoft Word يتجاهل هذه الخصائص.
+    // هذه الخصائص مفيدة لمستندات .docx المتوافقة مع ISO / IEC 29500 (راجع فئة OoxmlCompliance).
+    // إذا قمنا بحفظ المستند بتنسيقات ما قبل ISO/IEC 29500، فسيتجاهل Microsoft Word هذه الخصائص.
     table.Title = "Aspose table title";
     table.Description = "Aspose table description";
 

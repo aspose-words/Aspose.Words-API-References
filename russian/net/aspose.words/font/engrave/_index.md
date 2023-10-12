@@ -1,14 +1,14 @@
 ---
 title: Font.Engrave
 second_title: Справочник по API Aspose.Words для .NET
-description: Font свойство. Истинно если шрифт отформатирован как выгравированный.
+description: Font свойство. True если шрифт отформатирован как гравированный.
 type: docs
 weight: 120
 url: /ru/net/aspose.words/font/engrave/
 ---
 ## Font.Engrave property
 
-Истинно, если шрифт отформатирован как выгравированный.
+True, если шрифт отформатирован как гравированный.
 
 ```csharp
 public bool Engrave { get; set; }
@@ -25,13 +25,13 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Font.Size = 36;
 builder.Font.Color = Color.LightBlue;
 
-// Ниже приведены два способа использования теней для применения к тексту 3D-эффекта.
-// 1 - Выгравировать текст, чтобы он выглядел так, будто буквы вдавлены в страницу:
+// Ниже приведены два способа использования теней для применения к тексту трехмерного эффекта.
+// 1 — Выгравировать текст, чтобы он выглядел так, как будто буквы утоплены в странице:
 builder.Font.Engrave = true;
 
 builder.Writeln("This text is engraved.");
 
-// 2 - Рельефный текст, чтобы он выглядел так, как будто буквы выпрыгивают из страницы:
+// 2 — Тиснение текста, чтобы оно выглядело так, будто буквы выскакивают из страницы:
 builder.Font.Engrave = false;
 builder.Font.Emboss = true;
 

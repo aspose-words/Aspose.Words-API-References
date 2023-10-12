@@ -3,7 +3,7 @@ title: OfficeMath.ParentParagraph
 second_title: Aspose.Words för .NET API Referens
 description: OfficeMath fast egendom. Hämtar föräldernParagraph av denna nod.
 type: docs
-weight: 60
+weight: 50
 url: /sv/net/aspose.words.math/officemath/parentparagraph/
 ---
 ## OfficeMath.ParentParagraph property
@@ -28,9 +28,6 @@ OfficeMath officeMath = (OfficeMath) doc.GetChild(NodeType.OfficeMath, 0, true);
 Assert.AreEqual(MathObjectType.OMathPara, officeMath.MathObjectType);
 Assert.AreEqual(NodeType.OfficeMath, officeMath.NodeType);
 Assert.AreEqual(officeMath.ParentNode, officeMath.ParentParagraph);
-
-// OOXML- och WML-format använder egenskapen "EquationXmlEncoding".
-Assert.IsNull(officeMath.EquationXmlEncoding);
 
 // Ändra plats och visningstyp för OfficeMath-noden.
 officeMath.DisplayType = OfficeMathDisplayType.Display;

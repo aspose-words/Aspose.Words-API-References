@@ -3,12 +3,14 @@ title: Class ConditionalStyleCollection
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.ConditionalStyleCollection klass. Representerar en samling avConditionalStyle objekt.
 type: docs
-weight: 310
+weight: 320
 url: /sv/net/aspose.words/conditionalstylecollection/
 ---
 ## ConditionalStyleCollection class
 
 Representerar en samling av[`ConditionalStyle`](../conditionalstyle/) objekt.
+
+För att lära dig mer, besök[Arbeta med tabeller](https://docs.aspose.com/words/net/working-with-tables/) dokumentationsartikel.
 
 ```csharp
 public sealed class ConditionalStyleCollection : IEnumerable<ConditionalStyle>

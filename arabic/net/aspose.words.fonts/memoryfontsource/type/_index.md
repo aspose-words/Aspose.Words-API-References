@@ -16,7 +16,7 @@ public override FontSourceType Type { get; }
 
 ### أمثلة
 
-يوضح كيفية استخدام مصفوفة بايت مع بيانات من ملف خط كمصدر خط.
+يوضح كيفية استخدام مصفوفة بايت مع البيانات من ملف خط كمصدر خط.
 
 ```csharp
 byte[] fontBytes = File.ReadAllBytes(MyDir + "Alte DIN 1451 Mittelschrift.ttf");

@@ -3,7 +3,7 @@ title: CellFormat.VerticalMerge
 second_title: Référence de l'API Aspose.Words pour .NET
 description: CellFormat propriété. Spécifie comment la cellule est fusionnée verticalement avec dautres cellules.
 type: docs
-weight: 120
+weight: 130
 url: /fr/net/aspose.words.tables/cellformat/verticalmerge/
 ---
 ## CellFormat.VerticalMerge property
@@ -51,14 +51,14 @@ public string PrintCellMergeType(Cell cell)
 }
 ```
 
-Montre comment fusionner verticalement des cellules de tableau.
+Montre comment fusionner verticalement les cellules d’un tableau.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Insère une cellule dans la première colonne de la première ligne.
-// Cette cellule sera la première d'une série de cellules fusionnées verticalement.
+// Cette cellule sera la première d'une plage de cellules fusionnées verticalement.
 builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.First;
 builder.Write("Text in merged cells.");
@@ -70,8 +70,8 @@ builder.CellFormat.VerticalMerge = CellMerge.None;
 builder.Write("Text in unmerged cell.");
 builder.EndRow();
 
-// Insère une cellule dans la première colonne de la deuxième ligne. 
-// Au lieu d'ajouter du contenu textuel, nous fusionnerons cette cellule avec la première cellule que nous avons ajoutée directement au-dessus.
+ // Insère une cellule dans la première colonne de la deuxième ligne.
+// Au lieu d'ajouter du contenu textuel, nous fusionnerons cette cellule avec la première cellule que nous avons ajoutée directement ci-dessus.
 builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.Previous;
 

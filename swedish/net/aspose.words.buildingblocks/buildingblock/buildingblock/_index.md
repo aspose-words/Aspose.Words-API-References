@@ -20,9 +20,9 @@ public BuildingBlock(GlossaryDocument glossaryDoc)
 
 ### Anmärkningar
 
-När[`BuildingBlock`](../) skapas, det tillhör det angivna ordlistadokumentet, men är ännu inte en del av ordlistasdokumentet och[`ParentNode`](../../../aspose.words/node/parentnode/) är`null`.
+När[`BuildingBlock`](../)skapas, det tillhör det angivna ordlistadokumentet, men är ännu inte en del av ordlistasdokumentet och[`ParentNode`](../../../aspose.words/node/parentnode/) är`null`.
 
-Att lägga till[`BuildingBlock`](../) till a[`GlossaryDocument`](../../glossarydocument/) använd [`AppendChild`](../../../aspose.words/compositenode/appendchild/).
+Att lägga till[`BuildingBlock`](../)till a[`GlossaryDocument`](../../glossarydocument/) använd Node).
 
 ### Exempel
 
@@ -68,7 +68,6 @@ public void CreateAndInsert()
     // Själva blocket är ett avsnitt som innehåller texten.
     Assert.AreEqual($"Text inside {customBlock.Name}\f", customBlock.FirstSection.Body.FirstParagraph.GetText());
     Assert.AreEqual(customBlock.FirstSection, customBlock.LastSection);
-
     // Nu kan vi infoga det i dokumentet som ett nytt avsnitt.
     doc.AppendChild(doc.ImportNode(customBlock.FirstSection, true));
 

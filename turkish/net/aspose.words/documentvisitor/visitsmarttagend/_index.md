@@ -32,17 +32,17 @@ public void SmartTagToText()
     Document doc = new Document(MyDir + "Smart tags.doc");
     SmartTagStructurePrinter visitor = new SmartTagStructurePrinter();
 
-    // Bir belge ziyaretçisini kabul etmek için bir bileşik düğüm aldığımızda, ziyaretçi kabul eden düğümü ziyaret eder,
-    // ve ardından tüm düğümün alt öğelerini derinlik öncelikli bir şekilde çaprazlar.
-    // Ziyaretçi, ziyaret edilen her düğümü okuyabilir ve değiştirebilir.
+    // Bir belge ziyaretçisini kabul edecek bileşik bir düğüm aldığımızda, ziyaretçi kabul eden düğümü ziyaret eder,
+    // ve ardından düğümün tüm alt öğelerini derinlik öncelikli bir şekilde geçer.
+    // Ziyaretçi ziyaret edilen her düğümü okuyabilir ve değiştirebilir.
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 }
 
 /// <summary>
-/// Bir düğümün ikili olmayan alt düğümler ağacında çapraz geçiş yapar.
-/// Karşılaşılan tüm SmartTag düğümlerinin ve bunların alt öğelerinin bir dizesi biçiminde bir harita oluşturur.
+/// Bir düğümün ikili olmayan alt düğüm ağacını geçer.
+/// Karşılaşılan tüm SmartTag düğümleri ve bunların alt öğelerinden oluşan bir dizi biçiminde bir harita oluşturur.
 /// </summary>
 public class SmartTagStructurePrinter : DocumentVisitor
 {
@@ -53,7 +53,7 @@ public class SmartTagStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Ziyaretçi tarafından toplanan belgenin düz metnini alır.
+    /// Ziyaretçinin biriktirdiği belgenin düz metnini alır.
     /// </summary>
     public string GetText()
     {
@@ -95,9 +95,9 @@ public class SmartTagStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// StringBuilder'a bir satır ekleyin ve ziyaretçinin belge ağacında ne kadar derin olduğuna bağlı olarak girinti yapın.
+    /// StringBuilder'a bir satır ekleyin ve ziyaretçinin belge ağacında ne kadar derin olduğuna bağlı olarak onu girintileyin.
     /// </summary>
-    /// <param name="metin"></param>
+    /// <param adı="metin"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++) mBuilder.Append("|  ");

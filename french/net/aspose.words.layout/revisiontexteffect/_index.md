@@ -3,7 +3,7 @@ title: Enum RevisionTextEffect
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.Layout.RevisionTextEffect énumération. Permet de spécifier leffet de décoration pour les révisions du texte du document.
 type: docs
-weight: 3200
+weight: 3400
 url: /fr/net/aspose.words.layout/revisiontexteffect/
 ---
 ## RevisionTextEffect enumeration
@@ -18,19 +18,19 @@ public enum RevisionTextEffect
 
 | Nom | Évaluer | La description |
 | --- | --- | --- |
-| None | `0` | Le contenu révisé n'a pas d'effets spéciaux appliqués. Cela correspond àNoHighlight . |
-| Color | `1` | Le contenu révisé est surligné en couleur uniquement. |
+| None | `0` | Le contenu révisé n'a aucun effet spécial appliqué. Cela correspond àNoHighlight . |
+| Color | `1` | Le contenu révisé est mis en évidence uniquement en couleur. |
 | Bold | `2` | Le contenu révisé est mis en gras et en couleur. |
-| Italic | `3` | Le contenu révisé est en italique et coloré. |
+| Italic | `3` | Le contenu révisé est en italique et en couleur. |
 | Underline | `4` | Le contenu révisé est souligné et coloré. |
-| DoubleUnderline | `5` | Le contenu révisé est double souligné et coloré. |
+| DoubleUnderline | `5` | Le contenu révisé est souligné deux fois et coloré. |
 | StrikeThrough | `6` | Le contenu révisé est barré et coloré. |
-| DoubleStrikeThrough | `7` | Le contenu révisé est barré deux fois et coloré. |
+| DoubleStrikeThrough | `7` | Le contenu révisé est doublement souligné et coloré. |
 | Hidden | `8` | Le contenu révisé est masqué. |
 
 ### Exemples
 
-Montre comment modifier l'apparence des révisions.
+Montre comment modifier l’apparence des révisions.
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");
@@ -38,7 +38,7 @@ Document doc = new Document(MyDir + "Revisions.docx");
 // Récupère l'objet RevisionOptions qui contrôle l'apparence des révisions.
 RevisionOptions revisionOptions = doc.LayoutOptions.RevisionOptions;
 
-// Affiche les révisions d'insertion en vert et en italique.
+// Rendre les révisions d'insertion en vert et en italique.
 revisionOptions.InsertedTextColor = RevisionColor.Green;
 revisionOptions.InsertedTextEffect = RevisionTextEffect.Italic;
 
@@ -46,24 +46,24 @@ revisionOptions.InsertedTextEffect = RevisionTextEffect.Italic;
 revisionOptions.DeletedTextColor = RevisionColor.Red;
 revisionOptions.DeletedTextEffect = RevisionTextEffect.Bold;
 
-// Le même texte apparaîtra deux fois dans une révision de mouvement :
+// Le même texte apparaîtra deux fois dans une révision de mouvement :
 // une fois au point de départ et une fois à la destination d'arrivée.
-// Rendre le texte à la révision d'origine jaune avec un double barré
-// et bleu souligné deux fois à la révision déplacée vers.
+// Rend le texte à la révision déplacée en jaune avec un double barré
+// et bleu doublement souligné à la révision déplacée.
 revisionOptions.MovedFromTextColor = RevisionColor.Yellow;
 revisionOptions.MovedFromTextEffect = RevisionTextEffect.DoubleStrikeThrough;
-revisionOptions.MovedToTextColor = RevisionColor.Blue;
+revisionOptions.MovedToTextColor = RevisionColor.ClassicBlue;
 revisionOptions.MovedFromTextEffect = RevisionTextEffect.DoubleUnderline;
 
-// Afficher les révisions de format en rouge foncé et en gras.
+// Rendu des révisions de format en rouge foncé et gras.
 revisionOptions.RevisedPropertiesColor = RevisionColor.DarkRed;
 revisionOptions.RevisedPropertiesEffect = RevisionTextEffect.Bold;
 
-// Place une épaisse barre bleu foncé sur le côté gauche de la page à côté des lignes affectées par les révisions.
+// Place une barre bleue foncée épaisse sur le côté gauche de la page à côté des lignes affectées par les révisions.
 revisionOptions.RevisionBarsColor = RevisionColor.DarkBlue;
 revisionOptions.RevisionBarsWidth = 15.0f;
 
-// Affiche les marques de révision et le texte d'origine.
+// Afficher les marques de révision et le texte original.
 revisionOptions.ShowOriginalRevision = true;
 revisionOptions.ShowRevisionMarks = true;
 
@@ -72,7 +72,7 @@ revisionOptions.ShowRevisionMarks = true;
 revisionOptions.ShowInBalloons = ShowInBalloons.Format;
 revisionOptions.CommentColor = RevisionColor.BrightGreen;
 
-// Ces fonctionnalités ne s'appliquent qu'aux formats tels que .pdf ou .jpg.
+// Ces fonctionnalités ne sont applicables qu'aux formats tels que .pdf ou .jpg.
 doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 ```
 

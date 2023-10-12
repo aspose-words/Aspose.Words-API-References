@@ -21,9 +21,9 @@ public bool UseSakaEraCalendar { get; set; }
 ```csharp
 Document doc = new Document(MyDir + "Field sample - PRINTDATE.docx");
 
-// 当文档被打印机打印或打印为 PDF（但不导出为 PDF）时，
+// 当文档被打印机打印或打印为 PDF（但未导出为 PDF）时，
 // PRINTDATE 字段将显示打印操作的日期/时间。
-// 如果没有打印，这些字段将显示“0/0/0000”。
+// 如果没有进行打印，这些字段将显示“0/0/0000”。
 FieldPrintDate field = (FieldPrintDate)doc.Range.Fields[0];
 
 Assert.AreEqual("3/25/2020 12:00:00 AM", field.Result);
@@ -40,14 +40,14 @@ Assert.AreEqual(" PRINTDATE  \\h", field.GetFieldCode());
 
 field = (FieldPrintDate)doc.Range.Fields[2];
 
-// 2 - Umm al-Qura 日历：
+// 2 - 乌姆古拉历：
 Assert.True(field.UseUmAlQuraCalendar);
 Assert.AreEqual("8/1/1441 12:00:00 AM", field.Result);
 Assert.AreEqual(" PRINTDATE  \\u", field.GetFieldCode());
 
 field = (FieldPrintDate)doc.Range.Fields[3];
 
-// 3 - 印度国历：
+// 3 - 印度国家日历：
 Assert.True(field.UseSakaEraCalendar);
 Assert.AreEqual("1/5/1942 12:00:00 AM", field.Result);
 Assert.AreEqual(" PRINTDATE  \\s", field.GetFieldCode());

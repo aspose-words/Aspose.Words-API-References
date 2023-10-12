@@ -19,6 +19,7 @@ public IImageSavingCallback ImageSavingCallback { get; set; }
 Visar hur du byter namn på bildnamnet när du sparar i Markdown-dokument.
 
 ```csharp
+public void RenameImages()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 

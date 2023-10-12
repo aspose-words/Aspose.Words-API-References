@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTagRangeStart.RangeEnd
 second_title: Aspose.Words per .NET API Reference
-description: StructuredDocumentTagRangeStart proprietà. Specifica la fine dellintervallo se StructuredDocumentTag è un tag di documento strutturato con intervalli. Altrimenti restituisce null.
+description: StructuredDocumentTagRangeStart proprietà. Specifica la fine dellintervallo se ilStructuredDocumentTag è un tag di documento strutturato con intervalli. Altrimenti ritornanullo .
 type: docs
 weight: 130
 url: /it/net/aspose.words.markup/structureddocumenttagrangestart/rangeend/
 ---
 ## StructuredDocumentTagRangeStart.RangeEnd property
 
-Specifica la fine dell'intervallo se StructuredDocumentTag è un tag di documento strutturato con intervalli. Altrimenti restituisce null.
+Specifica la fine dell'intervallo se il[`StructuredDocumentTag`](../../structureddocumenttag/) è un tag di documento strutturato con intervalli. Altrimenti ritorna`nullo` .
 
 ```csharp
 public StructuredDocumentTagRangeEnd RangeEnd { get; }

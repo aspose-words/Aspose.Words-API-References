@@ -22,7 +22,7 @@ public void Clear()
 Document doc = new Document();
 VariableCollection variables = doc.Variables;
 
-// В каждом документе есть набор парных переменных ключ/значение, к которым мы можем добавлять элементы.
+// В каждом документе есть набор переменных пары ключ/значение, в которые мы можем добавлять элементы.
 variables.Add("Home address", "123 Main St.");
 variables.Add("City", "London");
 variables.Add("Bedrooms", "3");
@@ -37,17 +37,17 @@ field.Update();
 
 Assert.AreEqual("123 Main St.", field.Result);
 
-// Присвоение значений существующим ключам приведет к их обновлению.
+// Присвоение значений существующим ключам обновит их.
 variables.Add("Home address", "456 Queen St.");
 
-// Затем нам нужно будет обновить поля DOCVARIABLE, чтобы убедиться, что они отображают актуальное значение.
+// Затем нам придется обновить поля DOCVARIABLE, чтобы они отображали актуальное значение.
 Assert.AreEqual("123 Main St.", field.Result);
 
 field.Update();
 
 Assert.AreEqual("456 Queen St.", field.Result);
 
-// Проверяем, существуют ли переменные документа с определенным именем или значением.
+// Проверяем, что переменные документа с определенным именем или значением существуют.
 Assert.True(variables.Contains("City"));
 Assert.True(variables.Any(v => v.Value == "London"));
 
@@ -56,7 +56,7 @@ Assert.AreEqual(0, variables.IndexOfKey("Bedrooms"));
 Assert.AreEqual(1, variables.IndexOfKey("City"));
 Assert.AreEqual(2, variables.IndexOfKey("Home address"));
 
-// Перебрать набор переменных.
+// Перебираем коллекцию переменных.
 using (IEnumerator<KeyValuePair<string, string>> enumerator = doc.Variables.GetEnumerator())
     while (enumerator.MoveNext())
         Console.WriteLine($"Name: {enumerator.Current.Key}, Value: {enumerator.Current.Value}");

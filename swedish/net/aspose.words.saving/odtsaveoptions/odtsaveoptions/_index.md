@@ -76,7 +76,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
 // Skapa ett nytt OdtSaveOptions och skicka antingen "SaveFormat.Odt",
-// eller "SaveFormat.Ott" som formatet att spara dokumentet i. 
+ // eller "SaveFormat.Ott" som formatet att spara dokumentet i.
 OdtSaveOptions saveOptions = new OdtSaveOptions(saveFormat);
 saveOptions.Password = "@sposeEncrypted_1145";
 

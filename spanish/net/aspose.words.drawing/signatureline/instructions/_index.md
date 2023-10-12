@@ -1,14 +1,14 @@
 ---
 title: SignatureLine.Instructions
 second_title: Referencia de API de Aspose.Words para .NET
-description: SignatureLine propiedad. Obtiene o establece instrucciones para el firmante que se muestran al firmar la línea de firma. Esta propiedad se ignora siDefaultInstructions is set. El valor predeterminado para esta propiedad es cuerda vacía Empty .
+description: SignatureLine propiedad. Obtiene o establece instrucciones para el firmante que se muestran al firmar la línea de firma. Esta propiedad se ignora siDefaultInstructionsestá establecido. El valor predeterminado para esta propiedad es cuerda vacía Empty.
 type: docs
 weight: 50
 url: /es/net/aspose.words.drawing/signatureline/instructions/
 ---
 ## SignatureLine.Instructions property
 
-Obtiene o establece instrucciones para el firmante que se muestran al firmar la línea de firma. Esta propiedad se ignora si[`DefaultInstructions`](../defaultinstructions/) is set. El valor predeterminado para esta propiedad es **cuerda vacía** (Empty ).
+Obtiene o establece instrucciones para el firmante que se muestran al firmar la línea de firma. Esta propiedad se ignora si[`DefaultInstructions`](../defaultinstructions/)está establecido. El valor predeterminado para esta propiedad es **cuerda vacía** (Empty).
 
 ```csharp
 public string Instructions { get; set; }
@@ -33,10 +33,10 @@ SignatureLineOptions options = new SignatureLineOptions
     SignerTitle = "Senior Manager"
 };
 
-// Inserta una forma que contendrá una línea de firma, cuya apariencia vamos a
-// personalizar utilizando el objeto "SignatureLineOptions" que hemos creado anteriormente.
+// Inserta una forma que contendrá una línea de firma, cuya apariencia configuraremos
+// personalizar usando el objeto "SignatureLineOptions" que hemos creado arriba.
 // Si insertamos una forma cuyas coordenadas se originan en la esquina inferior derecha de la página,
-// necesitaremos proporcionar coordenadas x e y negativas para mostrar la forma.
+// necesitaremos proporcionar coordenadas xey negativas para que la forma se vea.
 Shape shape = builder.InsertSignatureLine(options, RelativeHorizontalPosition.RightMargin, -170.0, 
         RelativeVerticalPosition.BottomMargin, -60.0, WrapType.None);
 

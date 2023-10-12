@@ -16,7 +16,22 @@ public bool Visible { get; }
 
 ### 评论
 
-不像[`Clear`](../clear/) 赋值`错误的`to Visible 不清除格式， 它只隐藏形状效果。
+不像[`Clear`](../clear/) 分配`错误的`to Visible 不会清除格式， 它仅隐藏形状效果。
+
+### 例子
+
+展示如何使用形状的阴影格式。
+
+```csharp
+Document doc = new Document(MyDir + "Shape stroke pattern border.docx");
+Shape shape = (Shape)doc.GetChildNodes(NodeType.Shape, true)[0];
+
+if (shape.ShadowFormat.Visible && shape.ShadowFormat.Type == ShadowType.Shadow2)                
+    shape.ShadowFormat.Type = ShadowType.Shadow7;
+
+if (shape.ShadowFormat.Type == ShadowType.ShadowMixed)            
+    shape.ShadowFormat.Clear();
+```
 
 ### 也可以看看
 

@@ -3,12 +3,14 @@ title: Class FieldIncludePicture
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.Fields.FieldIncludePicture classe. Implémente le champ INCLUDEPICTURE.
 type: docs
-weight: 1890
+weight: 2040
 url: /fr/net/aspose.words.fields/fieldincludepicture/
 ---
 ## FieldIncludePicture class
 
 Implémente le champ INCLUDEPICTURE.
+
+Pour en savoir plus, visitez le[Travailler avec des champs](https://docs.aspose.com/words/net/working-with-fields/) article documentaire.
 
 ```csharp
 public class FieldIncludePicture : Field
@@ -34,8 +36,8 @@ public class FieldIncludePicture : Field
 | [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Obtient ou définit le LCID du champ. |
 | [ResizeHorizontally](../../aspose.words.fields/fieldincludepicture/resizehorizontally/) { get; set; } | Obtient ou définit s'il faut redimensionner l'image horizontalement à partir de la source. |
 | [ResizeVertically](../../aspose.words.fields/fieldincludepicture/resizevertically/) { get; set; } | Obtient ou définit s'il faut redimensionner l'image verticalement à partir de la source. |
-| [Result](../../aspose.words.fields/field/result/) { get; set; } | Obtient ou définit le texte qui se trouve entre le séparateur de champ et la fin du champ. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | Obtient le nœud qui représente le séparateur de champs. Peut être null. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | Obtient ou définit le texte situé entre le séparateur de champ et la fin du champ. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Obtient le nœud qui représente le séparateur de champ. Peut être`nul` . |
 | [SourceFullName](../../aspose.words.fields/fieldincludepicture/sourcefullname/) { get; set; } | Obtient ou définit l'emplacement de l'image à l'aide d'un IRI. |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Obtient le nœud qui représente le début du champ. |
 | virtual [Type](../../aspose.words.fields/field/type/) { get; } | Obtient le type de champ Microsoft Word. |
@@ -46,25 +48,25 @@ public class FieldIncludePicture : Field
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Renvoie le texte entre le début du champ et le séparateur de champ (ou la fin du champ s'il n'y a pas de séparateur). Le code de champ et le résultat du champ des champs enfants sont inclus. |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Renvoie le texte entre le début du champ et le séparateur de champ (ou la fin du champ s'il n'y a pas de séparateur). |
-| [Remove](../../aspose.words.fields/field/remove/)() | Supprime le champ du document. Renvoie un nœud juste après le champ. Si la fin du champ est le dernier enfant de son nœud parent, renvoie son paragraphe parent. Si le champ est déjà supprimé, renvoie **nul** . |
+| [Remove](../../aspose.words.fields/field/remove/)() | Supprime le champ du document. Renvoie un nœud juste après le champ. Si la fin du champ est le dernier child de son nœud parent, renvoie son paragraphe parent. Si le champ est déjà supprimé, renvoie`nul` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Effectue la dissociation du champ. |
 | [Update](../../aspose.words.fields/field/update/)() | Effectue la mise à jour du champ. Lance si le champ est déjà mis à jour. |
 | [Update](../../aspose.words.fields/field/update/)(bool) | Effectue une mise à jour du champ. Lance si le champ est déjà mis à jour. |
 
 ### Remarques
 
-Récupère une image et l'affiche comme résultat de champ.
+Récupère une image et l'affiche comme résultat du champ.
 
 ### Exemples
 
-Montre comment insérer des images à l'aide des champs IMPORT et INCLUDEPICTURE.
+Montre comment insérer des images à l’aide des champs IMPORT et INCLUDEPICTURE.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Vous trouverez ci-dessous deux types de champs similaires que nous pouvons utiliser pour afficher des images liées à partir du système de fichiers local.
-// 1 - Le champ INCLUDEPICTURE :
+// Vous trouverez ci-dessous deux types de champs similaires que nous pouvons utiliser pour afficher des images liées depuis le système de fichiers local.
+// 1 - Le champ INCLUDEPICTURE :
 FieldIncludePicture fieldIncludePicture = (FieldIncludePicture)builder.InsertField(FieldType.FieldIncludePicture, true);
 fieldIncludePicture.SourceFullName = ImageDir + "Transparent background logo.png";
 

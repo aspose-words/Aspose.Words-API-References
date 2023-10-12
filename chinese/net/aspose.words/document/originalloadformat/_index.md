@@ -3,7 +3,7 @@ title: Document.OriginalLoadFormat
 second_title: Aspose.Words for .NET API 参考
 description: Document 财产. 获取加载到此对象中的原始文档的格式
 type: docs
-weight: 280
+weight: 300
 url: /zh/net/aspose.words/document/originalloadformat/
 ---
 ## Document.OriginalLoadFormat property
@@ -20,7 +20,7 @@ public LoadFormat OriginalLoadFormat { get; }
 
 ### 例子
 
-显示如何检索文档加载操作的详细信息。
+演示如何检索文档加载操作的详细信息。
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");

@@ -1,14 +1,14 @@
 ---
 title: TextWatermarkOptions.Color
 second_title: Aspose.Words för .NET API Referens
-description: TextWatermarkOptions fast egendom. Hämtar eller ställer in teckensnittsfärg. Standardvärdet är Color.Silver.
+description: TextWatermarkOptions fast egendom. Hämtar eller ställer in teckensnittsfärg. Standardvärdet ärSilver .
 type: docs
 weight: 20
 url: /sv/net/aspose.words/textwatermarkoptions/color/
 ---
 ## TextWatermarkOptions.Color property
 
-Hämtar eller ställer in teckensnittsfärg. Standardvärdet är Color.Silver.
+Hämtar eller ställer in teckensnittsfärg. Standardvärdet ärSilver .
 
 ```csharp
 public Color Color { get; set; }

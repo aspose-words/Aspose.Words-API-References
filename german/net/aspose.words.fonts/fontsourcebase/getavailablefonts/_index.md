@@ -1,14 +1,14 @@
 ---
 title: FontSourceBase.GetAvailableFonts
 second_title: Aspose.Words für .NET-API-Referenz
-description: FontSourceBase methode. Gibt eine Liste der Schriftarten zurück die über diese Quelle verfügbar sind.
+description: FontSourceBase methode. Gibt eine Liste der über diese Quelle verfügbaren Schriftarten zurück.
 type: docs
 weight: 40
 url: /de/net/aspose.words.fonts/fontsourcebase/getavailablefonts/
 ---
 ## FontSourceBase.GetAvailableFonts method
 
-Gibt eine Liste der Schriftarten zurück, die über diese Quelle verfügbar sind.
+Gibt eine Liste der über diese Quelle verfügbaren Schriftarten zurück.
 
 ```csharp
 public IList<PhysicalFontInfo> GetAvailableFonts()
@@ -19,7 +19,7 @@ public IList<PhysicalFontInfo> GetAvailableFonts()
 Zeigt, wie verfügbare Schriftarten aufgelistet werden.
 
 ```csharp
-// Konfigurieren Sie Aspose.Words, um Schriftarten aus einem benutzerdefinierten Ordner zu beziehen, und drucken Sie dann jede verfügbare Schriftart.
+// Aspose.Words so konfigurieren, dass Schriftarten aus einem benutzerdefinierten Ordner stammen, und dann jede verfügbare Schriftart drucken.
 FontSourceBase[] folderFontSource = { new FolderFontSource(FontsDir, true) };
 
 foreach (PhysicalFontInfo fontInfo in folderFontSource[0].GetAvailableFonts())

@@ -1,14 +1,14 @@
 ---
 title: Enum OfficeMathJustification
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Math.OfficeMathJustification перечисление. Указывает обоснование уравнения.
+description: Aspose.Words.Math.OfficeMathJustification перечисление. Указывает выравнивание уравнения.
 type: docs
-weight: 3900
+weight: 4140
 url: /ru/net/aspose.words.math/officemathjustification/
 ---
 ## OfficeMathJustification enumeration
 
-Указывает обоснование уравнения.
+Указывает выравнивание уравнения.
 
 ```csharp
 public enum OfficeMathJustification
@@ -18,32 +18,29 @@ public enum OfficeMathJustification
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| CenterGroup | `1` | Выравнивает экземпляры математического текста слева относительно друг друга и центрирует группу математического текста (Математический абзац) относительно страницы. |
-| Center | `2` | Центрирует каждый экземпляр математического текста отдельно относительно полей. |
-| Left | `3` | Левое выравнивание математического абзаца. |
-| Right | `4` | Правильное обоснование математического абзаца. |
+| CenterGroup | `1` | Выравнивает экземпляры математического текста слева относительно друг друга и центрирует группу математического текста (математический абзац) относительно страницы. |
+| Center | `2` | Центрирует каждый экземпляр математического текста индивидуально относительно полей. |
+| Left | `3` | Выравнивание математического абзаца по левому краю. |
+| Right | `4` | Правое обоснование математического абзаца. |
 | Inline | `7` | Встроенная позиция Math. |
 | Default | `1` | Значение по умолчаниюCenterGroup . |
 
 ### Примеры
 
-Показывает, как настроить формат отображения математических данных в офисе.
+Показывает, как настроить форматирование отображения математических функций Office.
 
 ```csharp
 Document doc = new Document(MyDir + "Office math.docx");
 
 OfficeMath officeMath = (OfficeMath) doc.GetChild(NodeType.OfficeMath, 0, true);
 
-// Узлы OfficeMath, являющиеся потомками других узлов OfficeMath, всегда являются встроенными.
+// Узлы OfficeMath, являющиеся дочерними по отношению к другим узлам OfficeMath, всегда являются встроенными.
 // Узел, с которым мы работаем, является базовым узлом для изменения его местоположения и типа отображения.
 Assert.AreEqual(MathObjectType.OMathPara, officeMath.MathObjectType);
 Assert.AreEqual(NodeType.OfficeMath, officeMath.NodeType);
 Assert.AreEqual(officeMath.ParentNode, officeMath.ParentParagraph);
 
-// Форматы OOXML и WML используют свойство "EquationXmlEncoding".
-Assert.IsNull(officeMath.EquationXmlEncoding);
-
-// Измените расположение и тип отображения узла OfficeMath.
+// Изменяем расположение и тип отображения узла OfficeMath.
 officeMath.DisplayType = OfficeMathDisplayType.Display;
 officeMath.Justification = OfficeMathJustification.Left;
 

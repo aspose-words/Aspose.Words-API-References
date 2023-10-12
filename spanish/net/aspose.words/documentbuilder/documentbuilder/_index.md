@@ -16,17 +16,17 @@ public DocumentBuilder()
 
 ### Observaciones
 
-Crea un nuevo **Creador de documentos** objeto y lo adjunta a un nuevo[`Document`](../document/) objeto.
+Crea un nuevo[`DocumentBuilder`](../) objeto y lo adjunta a un nuevo[`Document`](../../document/) objeto.
 
 ### Ejemplos
 
-Muestra cómo insertar texto con formato utilizando DocumentBuilder.
+Muestra cómo insertar texto formateado usando DocumentBuilder.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Especifique el formato de fuente, luego agregue texto.
+// Especifique el formato de fuente y luego agregue texto.
 Aspose.Words.Font font = builder.Font;
 font.Size = 16;
 font.Bold = true;
@@ -55,11 +55,11 @@ public DocumentBuilder(Document doc)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| doc | Document | El objeto Documento al que adjuntar. |
+| doc | Document | El[`Document`](../../document/) objeto al que adjuntar. |
 
 ### Observaciones
 
-Crea un nuevo **Creador de documentos** objeto, se adjunta al especificado[`Document`](../document/) objeto. El cursor se posiciona al principio del documento.
+Crea un nuevo[`DocumentBuilder`](../) objeto, se adjunta al especificado[`Document`](../../document/)object. El cursor se posiciona al principio del documento.
 
 ### Ejemplos
 
@@ -69,7 +69,7 @@ Muestra cómo crear encabezados y pies de página en un documento usando Documen
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Especificar que queremos encabezados y pies de página diferentes para las primeras páginas, pares e impares.
+// Especifica que queremos encabezados y pies de página diferentes para las primeras páginas, pares e impares.
 builder.PageSetup.DifferentFirstPageHeaderFooter = true;
 builder.PageSetup.OddAndEvenPagesHeaderFooter = true;
 
@@ -91,21 +91,21 @@ builder.Writeln("Page3");
 doc.Save(ArtifactsDir + "DocumentBuilder.HeadersAndFooters.docx");
 ```
 
-Muestra cómo insertar una tabla de contenido (TOC) en un documento utilizando estilos de título como entradas.
+Muestra cómo insertar una tabla de contenido (TOC) en un documento utilizando estilos de encabezado como entradas.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inserta una tabla de contenido para la primera página del documento.
-// Configure la tabla para recoger párrafos con encabezados de niveles 1 a 3.
-// Además, configure sus entradas para que sean hipervínculos que nos llevarán
-// a la ubicación del encabezado cuando se hace clic con el botón izquierdo en Microsoft Word.
+// Insertar una tabla de contenido para la primera página del documento.
+// Configurar la tabla para recoger párrafos con títulos de niveles 1 a 3.
+// Además, configura sus entradas para que sean hipervínculos que nos llevarán
+// a la ubicación del encabezado cuando se hace clic izquierdo en Microsoft Word.
 builder.InsertTableOfContents("\\o \"1-3\" \\h \\z \\u");
 builder.InsertBreak(BreakType.PageBreak);
 
 // Complete la tabla de contenido agregando párrafos con estilos de encabezado.
-// Cada encabezado con un nivel entre 1 y 3 creará una entrada en la tabla.
+// Cada uno de estos encabezados con un nivel entre 1 y 3 creará una entrada en la tabla.
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 builder.Writeln("Heading 1");
 

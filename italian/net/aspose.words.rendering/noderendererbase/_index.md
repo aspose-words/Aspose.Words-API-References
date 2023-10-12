@@ -1,14 +1,16 @@
 ---
 title: Class NodeRendererBase
 second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Rendering.NodeRendererBase classe. Classe base perShapeRenderer eOfficeMathRenderer .
+description: Aspose.Words.Rendering.NodeRendererBase classe. Classe base perShapeRenderer EOfficeMathRenderer .
 type: docs
-weight: 4290
+weight: 4550
 url: /it/net/aspose.words.rendering/noderendererbase/
 ---
 ## NodeRendererBase class
 
-Classe base per[`ShapeRenderer`](../shaperenderer/) e[`OfficeMathRenderer`](../officemathrenderer/) .
+Classe base per[`ShapeRenderer`](../shaperenderer/) E[`OfficeMathRenderer`](../officemathrenderer/) .
+
+Per saperne di più, visita il[Lavorare con le forme](https://docs.aspose.com/words/net/working-with-shapes/) articolo di documentazione.
 
 ```csharp
 public abstract class NodeRendererBase
@@ -34,8 +36,8 @@ public abstract class NodeRendererBase
 | [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels/#getsizeinpixels_1)(float, float, float) | Calcola la dimensione della forma in pixel per un fattore di zoom e una risoluzione specificati. |
 | [RenderToScale](../../aspose.words.rendering/noderendererbase/rendertoscale/)(Graphics, float, float, float) | Rende la forma in aGraphics oggetto su una scala specificata. |
 | [RenderToSize](../../aspose.words.rendering/noderendererbase/rendertosize/)(Graphics, float, float, float, float) | Rende la forma in aGraphics oggetto a una dimensione specificata. |
-| [Save](../../aspose.words.rendering/noderendererbase/save/#save)(Stream, ImageSaveOptions) | Rende la forma in un'immagine e salva in un flusso. |
-| [Save](../../aspose.words.rendering/noderendererbase/save/#save_1)(string, ImageSaveOptions) | Rende la forma in un'immagine e salva in un file. |
+| [Save](../../aspose.words.rendering/noderendererbase/save/#save)(Stream, ImageSaveOptions) | Rende la forma in un'immagine e la salva in uno stream. |
+| [Save](../../aspose.words.rendering/noderendererbase/save/#save_1)(string, ImageSaveOptions) | Rende la forma in un'immagine e la salva in un file. |
 
 ### Esempi
 
@@ -47,7 +49,7 @@ Document doc = new Document(MyDir + "Office math.docx");
 OfficeMath officeMath = (OfficeMath)doc.GetChild(NodeType.OfficeMath, 0, true);
 OfficeMathRenderer renderer = new OfficeMathRenderer(officeMath);
 
-// Verifica la dimensione dell'immagine che verrà creata dall'oggetto OfficeMath durante il rendering.
+// Verifica la dimensione dell'immagine che l'oggetto OfficeMath creerà quando ne eseguiremo il rendering.
 Assert.AreEqual(119.0f, renderer.SizeInPoints.Width, 0.2f);
 Assert.AreEqual(13.0f, renderer.SizeInPoints.Height, 0.1f);
 
@@ -64,7 +66,7 @@ Rectangle bounds = renderer.GetBoundsInPixels(1.0f, 96.0f);
 Assert.AreEqual(159, bounds.Width);
 Assert.AreEqual(18, bounds.Height);
 
-// Ottieni la dimensione della forma in pixel, ma con un DPI diverso per le dimensioni orizzontali e verticali.
+// Ottieni la dimensione della forma in pixel, ma con un DPI diverso per le dimensioni orizzontale e verticale.
 bounds = renderer.GetBoundsInPixels(1.0f, 96.0f, 150.0f);
 Assert.AreEqual(159, bounds.Width);
 Assert.AreEqual(28, bounds.Height);

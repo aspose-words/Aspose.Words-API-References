@@ -3,12 +3,14 @@ title: Class RevisionOptions
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Layout.RevisionOptions klass. Gör det möjligt att styra hur dokumentrevisioner hanteras under layoutprocessen.
 type: docs
-weight: 3190
+weight: 3390
 url: /sv/net/aspose.words.layout/revisionoptions/
 ---
 ## RevisionOptions class
 
 Gör det möjligt att styra hur dokumentrevisioner hanteras under layoutprocessen.
+
+För att lära dig mer, besök[Konvertera till fastsidesformat](https://docs.aspose.com/words/net/converting-to-fixed-page-format/) dokumentationsartikel.
 
 ```csharp
 public class RevisionOptions
@@ -34,9 +36,9 @@ public class RevisionOptions
 | [RevisionBarsPosition](../../aspose.words.layout/revisionoptions/revisionbarsposition/) { get; set; } | Hämtar eller ställer in renderingsposition för revisionsstaplar. Standardvärdet ärOutside . |
 | [RevisionBarsWidth](../../aspose.words.layout/revisionoptions/revisionbarswidth/) { get; set; } | Hämtar eller ställer in bredden på revisionsstaplar, punkter. |
 | [ShowInBalloons](../../aspose.words.layout/revisionoptions/showinballoons/) { get; set; } | Gör det möjligt att ange om revisionerna ska återges i ballongerna. Standardvärdet ärNone . |
-| [ShowOriginalRevision](../../aspose.words.layout/revisionoptions/showoriginalrevision/) { get; set; } | Tillåter att ange om den ursprungliga texten ska visas istället för en reviderad. Standardvärdet är False. |
-| [ShowRevisionBars](../../aspose.words.layout/revisionoptions/showrevisionbars/) { get; set; } | Tillåter att ange om revisionsstaplar ska renderas nära linjer som innehåller reviderat innehåll. Standardvärdet är True. |
-| [ShowRevisionMarks](../../aspose.words.layout/revisionoptions/showrevisionmarks/) { get; set; } | Tillåt att ange om versionstext ska markeras med speciell formateringsmarkering. Standardvärdet är True. |
+| [ShowOriginalRevision](../../aspose.words.layout/revisionoptions/showoriginalrevision/) { get; set; } | Tillåter att ange om den ursprungliga texten ska visas istället för en reviderad. Standardvärdet är`falsk` . |
+| [ShowRevisionBars](../../aspose.words.layout/revisionoptions/showrevisionbars/) { get; set; } | Tillåter att ange om revisionsstaplar ska renderas nära linjer som innehåller reviderat innehåll. Standardvärdet är`Sann` . |
+| [ShowRevisionMarks](../../aspose.words.layout/revisionoptions/showrevisionmarks/) { get; set; } | Tillåt att ange om versionstext ska markeras med speciell formateringsmarkering. Standardvärdet är`Sann` . |
 
 ### Exempel
 

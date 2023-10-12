@@ -1,14 +1,14 @@
 ---
 title: ShapeBase.Font
 second_title: Aspose.Words für .NET-API-Referenz
-description: ShapeBase eigendom. Bietet Zugriff auf die Schriftformatierung dieses Objekts.
+description: ShapeBase eigendom. Bietet Zugriff auf die Schriftartformatierung dieses Objekts.
 type: docs
 weight: 190
 url: /de/net/aspose.words.drawing/shapebase/font/
 ---
 ## ShapeBase.Font property
 
-Bietet Zugriff auf die Schriftformatierung dieses Objekts.
+Bietet Zugriff auf die Schriftartformatierung dieses Objekts.
 
 ```csharp
 public Font Font { get; }
@@ -16,7 +16,7 @@ public Font Font { get; }
 
 ### Beispiele
 
-Zeigt, wie ein Textfeld eingefügt und die Schriftart seines Inhalts festgelegt wird.
+Zeigt, wie man ein Textfeld einfügt und die Schriftart seines Inhalts festlegt.
 
 ```csharp
 Document doc = new Document();
@@ -28,12 +28,12 @@ Shape shape = builder.InsertShape(ShapeType.TextBox, 300, 50);
 builder.MoveTo(shape.LastParagraph);
 builder.Write("This text is inside the text box.");
 
-// Setzen Sie die „Hidden“-Eigenschaft des „Font“-Objekts der Form auf „true“, um das Textfeld unsichtbar zu machen
+// Setzen Sie die „Hidden“-Eigenschaft des „Font“-Objekts der Form auf „true“, um das Textfeld vor den Augen zu verbergen
 // und reduzieren Sie den Platz, den es normalerweise einnehmen würde.
-// Setzen Sie die "Hidden"-Eigenschaft des "Font"-Objekts der Form auf "false", um das Textfeld sichtbar zu lassen.
+// Setzen Sie die Eigenschaft „Hidden“ des „Font“-Objekts der Form auf „false“, um das Textfeld sichtbar zu lassen.
 shape.Font.Hidden = hideShape;
 
-// Wenn die Form sichtbar ist, ändern wir ihr Aussehen über das Schriftobjekt.
+// Wenn die Form sichtbar ist, ändern wir ihr Aussehen über das Schriftartobjekt.
 if (!hideShape)
 {
     shape.Font.HighlightColor = Color.LightGray;

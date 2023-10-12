@@ -1,14 +1,14 @@
 ---
 title: Document.CompatibilityOptions
 second_title: Aspose.Words per .NET API Reference
-description: Document proprietà. Fornisce laccesso alle opzioni di compatibilità dei documenti ovvero le preferenze dellutente immesse nel file Compatibilità scheda del Opzioni finestra di dialogo in Word.
+description: Document proprietà. Fornisce laccesso alle opzioni di compatibilità del documento ovvero le preferenze dellutente immesse nel file Compatibilità scheda del Opzioni finestra di dialogo in Word.
 type: docs
 weight: 50
 url: /it/net/aspose.words/document/compatibilityoptions/
 ---
 ## Document.CompatibilityOptions property
 
-Fornisce l'accesso alle opzioni di compatibilità dei documenti (ovvero le preferenze dell'utente immesse nel file **Compatibilità** scheda del **Opzioni** finestra di dialogo in Word).
+Fornisce l'accesso alle opzioni di compatibilità del documento (ovvero, le preferenze dell'utente immesse nel file **Compatibilità** scheda del **Opzioni** finestra di dialogo in Word).
 
 ```csharp
 public CompatibilityOptions CompatibilityOptions { get; }
@@ -23,7 +23,7 @@ public void OptimizeFor()
 {
     Document doc = new Document();
 
-    // Questo oggetto contiene un ampio elenco di flag univoci per ogni documento
+    // Questo oggetto contiene un elenco completo di flag univoci per ciascun documento
     // che ci consentono di facilitare la compatibilità con le versioni precedenti di Microsoft Word.
     CompatibilityOptions options = doc.CompatibilityOptions;
 
@@ -34,7 +34,7 @@ public void OptimizeFor()
     // Possiamo accedere a queste impostazioni in Microsoft Word tramite "File" -> "Opzioni" -> "Avanzate" -> "Opzioni di compatibilità per...".
     doc.Save(ArtifactsDir + "CompatibilityOptions.OptimizeFor.DefaultSettings.docx");
 
-    // Possiamo utilizzare il metodo OptimizeFor per garantire la compatibilità ottimale con una specifica versione di Microsoft Word.
+    // Possiamo utilizzare il metodo OptimizeFor per garantire la compatibilità ottimale con una versione specifica di Microsoft Word.
     doc.CompatibilityOptions.OptimizeFor(MsWordVersion.Word2010);
     Console.WriteLine("\nOptimized for Word 2010:");
     PrintCompatibilityOptions(options);
@@ -45,7 +45,7 @@ public void OptimizeFor()
 }
 
 /// <summary>
-/// Raggruppa tutti i flag nelle opzioni di compatibilità di un documento oggetto per stato, quindi stampa ogni gruppo.
+/// Raggruppa tutti i flag nell'oggetto delle opzioni di compatibilità di un documento in base allo stato, quindi stampa ciascun gruppo.
 /// </summary>
 private static void PrintCompatibilityOptions(CompatibilityOptions options)
 {

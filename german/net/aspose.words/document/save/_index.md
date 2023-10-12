@@ -1,14 +1,14 @@
 ---
 title: Document.Save
 second_title: Aspose.Words für .NET-API-Referenz
-description: Document methode. Speichert das Dokument in einer Datei. Ermittelt automatisch das Speicherformat aus der Erweiterung.
+description: Document methode. Speichert das Dokument in einer Datei. Ermittelt automatisch das Speicherformat anhand der Erweiterung.
 type: docs
-weight: 680
+weight: 720
 url: /de/net/aspose.words/document/save/
 ---
 ## Save(string) {#save_2}
 
-Speichert das Dokument in einer Datei. Ermittelt automatisch das Speicherformat aus der Erweiterung.
+Speichert das Dokument in einer Datei. Ermittelt automatisch das Speicherformat anhand der Erweiterung.
 
 ```csharp
 public SaveOutputParameters Save(string fileName)
@@ -16,15 +16,15 @@ public SaveOutputParameters Save(string fileName)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| fileName | String | Der Name für das Dokument. Wenn bereits ein Dokument mit dem angegebenen Dateinamen vorhanden ist, wird das vorhandene Dokument überschrieben. |
+| fileName | String | Der Name für das Dokument. Wenn bereits ein Dokument mit dem angegebenen Dateinamen existiert, wird das vorhandene Dokument überschrieben. |
 
 ### Rückgabewert
 
-Zusätzliche Informationen, die Sie optional verwenden können.
+Zusätzliche Informationen, die Sie optional nutzen können.
 
 ### Beispiele
 
-Zeigt, wie ein Dokument geöffnet und in .PDF konvertiert wird.
+Zeigt, wie man ein Dokument öffnet und in .PDF konvertiert.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -32,7 +32,7 @@ Document doc = new Document(MyDir + "Document.docx");
 doc.Save(ArtifactsDir + "Document.ConvertToPdf.pdf");
 ```
 
-Zeigt, wie man eine PDF-Datei in eine .docx-Datei konvertiert.
+Zeigt, wie man eine PDF-Datei in eine DOCX-Datei konvertiert.
 
 ```csharp
 Document doc = new Document();
@@ -67,16 +67,16 @@ public SaveOutputParameters Save(string fileName, SaveFormat saveFormat)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| fileName | String | Der Name für das Dokument. Wenn bereits ein Dokument mit dem angegebenen Dateinamen vorhanden ist, wird das vorhandene Dokument überschrieben. |
+| fileName | String | Der Name für das Dokument. Wenn bereits ein Dokument mit dem angegebenen Dateinamen existiert, wird das vorhandene Dokument überschrieben. |
 | saveFormat | SaveFormat | Das Format, in dem das Dokument gespeichert werden soll. |
 
 ### Rückgabewert
 
-Zusätzliche Informationen, die Sie optional verwenden können.
+Zusätzliche Informationen, die Sie optional nutzen können.
 
 ### Beispiele
 
-Zeigt, wie Sie vom DOCX- in das HTML-Format konvertieren.
+Zeigt, wie man vom DOCX- in das HTML-Format konvertiert.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -96,7 +96,7 @@ doc.Save(ArtifactsDir + "Document.ConvertToHtml.html", SaveFormat.Html);
 
 ## Save(string, SaveOptions) {#save_4}
 
-Speichert das Dokument unter Verwendung der angegebenen Speicheroptionen in einer Datei.
+Speichert das Dokument mit den angegebenen Speicheroptionen in einer Datei.
 
 ```csharp
 public SaveOutputParameters Save(string fileName, SaveOptions saveOptions)
@@ -104,16 +104,16 @@ public SaveOutputParameters Save(string fileName, SaveOptions saveOptions)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| fileName | String | Der Name für das Dokument. Wenn bereits ein Dokument mit dem angegebenen Dateinamen vorhanden ist, wird das vorhandene Dokument überschrieben. |
-| saveOptions | SaveOptions | Gibt die Optionen an, die steuern, wie das Dokument gespeichert wird. Kann null sein. |
+| fileName | String | Der Name für das Dokument. Wenn bereits ein Dokument mit dem angegebenen Dateinamen existiert, wird das vorhandene Dokument überschrieben. |
+| saveOptions | SaveOptions | Gibt die Optionen an, die steuern, wie das Dokument gespeichert wird. Kann sein`Null`. |
 
 ### Rückgabewert
 
-Zusätzliche Informationen, die Sie optional verwenden können.
+Zusätzliche Informationen, die Sie optional nutzen können.
 
 ### Beispiele
 
-Zeigt, wie die Qualität eines gerenderten Dokuments mit SaveOptions verbessert wird.
+Zeigt, wie Sie die Qualität eines gerenderten Dokuments mit SaveOptions verbessern können.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
@@ -123,7 +123,6 @@ builder.Font.Size = 60;
 builder.Writeln("Some text.");
 
 SaveOptions options = new ImageSaveOptions(SaveFormat.Jpeg);
-
 doc.Save(ArtifactsDir + "Document.ImageSaveOptions.Default.jpg", options);
 
 options.UseAntiAliasing = true;
@@ -132,7 +131,7 @@ options.UseHighQualityRendering = true;
 doc.Save(ArtifactsDir + "Document.ImageSaveOptions.HighQuality.jpg", options);
 ```
 
-Zeigt, wie Sie eine PDF-Datei in eine .docx-Datei konvertieren und den Speichervorgang mit einem SaveOptions-Objekt anpassen.
+Zeigt, wie man eine PDF-Datei in eine DOCX-Datei konvertiert und den Speichervorgang mit einem SaveOptions-Objekt anpasst.
 
 ```csharp
 Document doc = new Document();
@@ -147,7 +146,7 @@ Document pdfDoc = new Document(ArtifactsDir + "PDF2Word.ConvertPdfToDocxCustom.p
 
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Docx);
 
-// Legen Sie die Eigenschaft "Password" fest, um das gespeicherte Dokument mit einem Passwort zu verschlüsseln.
+// Legen Sie die Eigenschaft „Password“ fest, um das gespeicherte Dokument mit einem Passwort zu verschlüsseln.
 saveOptions.Password = "MyPassword";
 
 pdfDoc.Save(ArtifactsDir + "PDF2Word.ConvertPdfToDocxCustom.docx", saveOptions);
@@ -166,21 +165,24 @@ builder.InsertImage(ImageDir + "Logo.jpg");
 builder.InsertBreak(BreakType.PageBreak);
 builder.Writeln("Page 3.");
 
-// Erstellen Sie ein "ImageSaveOptions"-Objekt, das wir an die "Save"-Methode des Dokuments übergeben können
-// um die Art und Weise zu ändern, in der diese Methode das Dokument in ein Bild rendert.
+// Erstellen Sie ein „ImageSaveOptions“-Objekt, das wir an die „Save“-Methode des Dokuments übergeben können
+// um die Art und Weise zu ändern, wie diese Methode das Dokument in ein Bild rendert.
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Tiff);
 
 for (int i = 0; i < doc.PageCount; i++)
 {
-    // Setzen Sie die Eigenschaft "PageSet" auf die Nummer der ersten Seite von
-    // von wo aus das Dokument gerendert werden soll.
+    // Setze die Eigenschaft „PageSet“ auf die Nummer der ersten Seite von
+    // von dem aus mit dem Rendern des Dokuments begonnen werden soll.
     options.PageSet = new PageSet(i);
+    // Seite mit 2325 x 5325 Pixel und 600 dpi exportieren.
+    options.Resolution = 600;
+    options.ImageSize = new Size(2325, 5325);
 
     doc.Save(ArtifactsDir + $"ImageSaveOptions.PageByPage.{i + 1}.tiff", options);
 }
 ```
 
-Zeigt, wie eine Seite aus einem Dokument in ein JPEG-Bild gerendert wird.
+Zeigt, wie eine Seite eines Dokuments in ein JPEG-Bild gerendert wird.
 
 ```csharp
 Document doc = new Document();
@@ -193,41 +195,41 @@ builder.InsertImage(ImageDir + "Logo.jpg");
 builder.InsertBreak(BreakType.PageBreak);
 builder.Writeln("Page 3.");
 
-// Erstellen Sie ein "ImageSaveOptions"-Objekt, das wir an die "Save"-Methode des Dokuments übergeben können
-// um die Art und Weise zu ändern, in der diese Methode das Dokument in ein Bild rendert.
+// Erstellen Sie ein „ImageSaveOptions“-Objekt, das wir an die „Save“-Methode des Dokuments übergeben können
+// um die Art und Weise zu ändern, wie diese Methode das Dokument in ein Bild rendert.
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Jpeg);
 
-// Setzen Sie "PageSet" auf "1", um die zweite Seite über auszuwählen
-// der nullbasierte Index, von dem aus das Dokument gerendert werden soll.
+// Setzen Sie „PageSet“ auf „1“, um die zweite Seite auszuwählen
+// der nullbasierte Index, von dem aus mit dem Rendern des Dokuments begonnen werden soll.
 options.PageSet = new PageSet(1);
 
 // Wenn wir das Dokument im JPEG-Format speichern, rendert Aspose.Words nur eine Seite.
 // Dieses Bild enthält eine Seite beginnend mit Seite zwei,
-// das wird nur die zweite Seite des Originaldokuments sein.
+// was nur die zweite Seite des Originaldokuments sein wird.
 doc.Save(ArtifactsDir + "ImageSaveOptions.OnePage.jpg", options);
 ```
 
-Zeigt, wie die Komprimierung konfiguriert wird, während ein Dokument als JPEG gespeichert wird.
+Zeigt, wie die Komprimierung beim Speichern eines Dokuments als JPEG konfiguriert wird.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.InsertImage(ImageDir + "Logo.jpg");
 
-// Erstellen Sie ein "ImageSaveOptions"-Objekt, das wir an die "Save"-Methode des Dokuments übergeben können
-// um die Art und Weise zu ändern, in der diese Methode das Dokument in ein Bild rendert.
+// Erstellen Sie ein „ImageSaveOptions“-Objekt, das wir an die „Save“-Methode des Dokuments übergeben können
+// um die Art und Weise zu ändern, wie diese Methode das Dokument in ein Bild rendert.
 ImageSaveOptions imageOptions = new ImageSaveOptions(SaveFormat.Jpeg);
 
-// Setzen Sie die Eigenschaft "JpegQuality" auf "10", um beim Rendern des Dokuments eine stärkere Komprimierung zu verwenden.
-// Dadurch wird die Dateigröße des Dokuments reduziert, aber das Bild zeigt deutlichere Komprimierungsartefakte.
+// Setzen Sie die Eigenschaft „JpegQuality“ auf „10“, um beim Rendern des Dokuments eine stärkere Komprimierung zu verwenden.
+// Dadurch wird die Dateigröße des Dokuments verringert, das Bild weist jedoch deutlichere Komprimierungsartefakte auf.
 imageOptions.JpegQuality = 10;
 
 doc.Save(ArtifactsDir + "ImageSaveOptions.JpegQuality.HighCompression.jpg", imageOptions);
 
 Assert.That(20000, Is.AtLeast(new FileInfo(ArtifactsDir + "ImageSaveOptions.JpegQuality.HighCompression.jpg").Length));
 
-// Legen Sie die Eigenschaft "JpegQuality" auf "100" fest, um beim Rendern des Dokuments eine schwächere Komprimierung zu verwenden.
-// Dadurch wird die Bildqualität auf Kosten einer erhöhten Dateigröße verbessert.
+// Setzen Sie die Eigenschaft „JpegQuality“ auf „100“, um beim Rendern des Dokuments eine schwächere Komprimierung zu verwenden.
+// Dies verbessert die Qualität des Bildes auf Kosten einer größeren Dateigröße.
 imageOptions.JpegQuality = 100;
 
 doc.Save(ArtifactsDir + "ImageSaveOptions.JpegQuality.HighQuality.jpg", imageOptions);
@@ -235,7 +237,7 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.JpegQuality.HighQuality.jpg", imageOpt
 Assert.That(60000, Is.LessThan(new FileInfo(ArtifactsDir + "ImageSaveOptions.JpegQuality.HighQuality.jpg").Length));
 ```
 
-Zeigt, wie ein ganzes Dokument mit drei Ebenen in der Dokumentgliederung in PDF konvertiert wird.
+Zeigt, wie ein gesamtes Dokument mit drei Ebenen in der Dokumentgliederung in PDF konvertiert wird.
 
 ```csharp
 Document doc = new Document();
@@ -268,22 +270,22 @@ builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading5;
 builder.Writeln("Heading 1.2.2.2.1");
 builder.Writeln("Heading 1.2.2.2.2");
 
-// Erstellen Sie ein "PdfSaveOptions"-Objekt, das wir an die "Save"-Methode des Dokuments übergeben können
+// Erstellen Sie ein „PdfSaveOptions“-Objekt, das wir an die „Save“-Methode des Dokuments übergeben können
 // um zu ändern, wie diese Methode das Dokument in .PDF konvertiert.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// Das ausgegebene PDF-Dokument enthält eine Gliederung, die ein Inhaltsverzeichnis ist, das Überschriften im Dokumentkörper auflistet.
+// Das ausgegebene PDF-Dokument enthält eine Gliederung, bei der es sich um ein Inhaltsverzeichnis handelt, das die Überschriften im Hauptteil des Dokuments auflistet.
 // Durch Klicken auf einen Eintrag in dieser Gliederung gelangen wir zur Position der entsprechenden Überschrift.
-// Setzen Sie die Eigenschaft "HeadingsOutlineLevels" auf "4", um alle Überschriften, deren Ebenen höher als 4 sind, von der Gliederung auszuschließen.
+// Setzen Sie die Eigenschaft „HeadingsOutlineLevels“ auf „4“, um alle Überschriften, deren Ebenen über 4 liegen, aus der Gliederung auszuschließen.
 options.OutlineOptions.HeadingsOutlineLevels = 4;
 
-// Wenn ein Gliederungseintrag nachfolgende Einträge einer höheren Ebene zwischen sich und dem nächsten Eintrag der gleichen oder niedrigeren Ebene hat,
-// Links neben dem Eintrag erscheint ein Pfeil. Dieser Eintrag ist der "Eigentümer" mehrerer solcher "Untereinträge".
-// In unserem Dokument sind die Gliederungseinträge der 5. Überschriftenebene Untereinträge der zweiten Gliederungsebene der 4. Ebene,
- // Die Einträge der 4. und 5. Überschriftenebene sind Untereinträge des zweiten Eintrags der 3. Ebene und so weiter.
-// In der Gliederung können wir auf den Pfeil des „Besitzer“-Eintrags klicken, um alle seine Untereinträge zu reduzieren/erweitern.
-// Legen Sie die Eigenschaft "ExpandedOutlineLevels" auf "2" fest, um automatisch alle Einträge der Überschriftenebene 2 und der unteren Gliederung zu erweitern
- // und alle Einträge der Ebene und 3 und höher reduzieren, wenn wir das Dokument öffnen.
+// Wenn ein Gliederungseintrag zwischen sich und dem nächsten Eintrag derselben oder einer niedrigeren Ebene nachfolgende Einträge einer höheren Ebene hat,
+// links neben dem Eintrag erscheint ein Pfeil. Dieser Eintrag ist „Eigentümer“ mehrerer solcher „Untereinträge“.
+// In unserem Dokument sind die Gliederungseinträge der 5. Überschriftenebene Untereinträge des zweiten Gliederungseintrags der 4. Ebene,
+// Die Einträge der 4. und 5. Überschriftenebene sind Untereinträge des zweiten Eintrags der 3. Ebene usw.
+// In der Gliederung können wir auf den Pfeil des Eintrags „Eigentümer“ klicken, um alle Untereinträge ein-/auszuklappen.
+// Setzen Sie die Eigenschaft „ExpandedOutlineLevels“ auf „2“, um alle Gliederungseinträge der Überschriftenebene 2 und darunter automatisch zu erweitern
+// und alle Einträge der Ebene und 3 und höher ausblenden, wenn wir das Dokument öffnen.
 options.OutlineOptions.ExpandedOutlineLevels = 2;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.ExpandedOutlineLevels.pdf", options);
@@ -301,7 +303,7 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ExpandedOutlineLevels.pdf", options);
 
 ## Save(Stream, SaveFormat) {#save}
 
-Speichert das Dokument unter Verwendung des angegebenen Formats in einem Stream.
+Speichert das Dokument im angegebenen Format in einem Stream.
 
 ```csharp
 public SaveOutputParameters Save(Stream stream, SaveFormat saveFormat)
@@ -314,7 +316,7 @@ public SaveOutputParameters Save(Stream stream, SaveFormat saveFormat)
 
 ### Rückgabewert
 
-Zusätzliche Informationen, die Sie optional verwenden können.
+Zusätzliche Informationen, die Sie optional nutzen können.
 
 ### Beispiele
 
@@ -327,12 +329,12 @@ using (MemoryStream dstStream = new MemoryStream())
 {
     doc.Save(dstStream, SaveFormat.Docx);
 
-    // Prüfen, ob der Stream das Dokument enthält.
+    // Überprüfen Sie, ob der Stream das Dokument enthält.
     Assert.AreEqual("Hello World!\r\rHello Word!\r\r\rHello World!", new Document(dstStream).GetText().Trim());
 }
 ```
 
-Zeigt, wie Sie ein Dokument per Stream in einem Bild speichern und dann das Bild aus diesem Stream lesen.
+Zeigt, wie man ein Dokument über einen Stream in einem Bild speichert und dann das Bild aus diesem Stream liest.
 
 ```csharp
 Document doc = new Document();
@@ -351,7 +353,7 @@ Document doc = new Document();
 
                 stream.Position = 0;
 
-                // Lies den Stream zurück in ein Bild.
+                // Den Stream zurück in ein Bild einlesen.
                 using (Image image = Image.FromStream(stream))
                 {
                     Assert.AreEqual(ImageFormat.Bmp, image.RawFormat);
@@ -393,7 +395,7 @@ Document doc = new Document();
 
 ## Save(Stream, SaveOptions) {#save_1}
 
-Speichert das Dokument unter Verwendung der angegebenen Speicheroptionen in einem Stream.
+Speichert das Dokument mit den angegebenen Speicheroptionen in einem Stream.
 
 ```csharp
 public SaveOutputParameters Save(Stream stream, SaveOptions saveOptions)
@@ -402,15 +404,15 @@ public SaveOutputParameters Save(Stream stream, SaveOptions saveOptions)
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | stream | Stream | Streamen Sie, wo das Dokument gespeichert werden soll. |
-| saveOptions | SaveOptions | Gibt die Optionen an, die steuern, wie das Dokument gespeichert wird. Kann null sein. Wenn dies null ist, wird das Dokument im binären DOC-Format gespeichert. |
+| saveOptions | SaveOptions | Gibt die Optionen an, die steuern, wie das Dokument gespeichert wird. Kann sein`Null` . Wenn das so ist`Null`, wird das Dokument im binären DOC-Format gespeichert. |
 
 ### Rückgabewert
 
-Zusätzliche Informationen, die Sie optional verwenden können.
+Zusätzliche Informationen, die Sie optional nutzen können.
 
 ### Beispiele
 
-Zeigt, wie nur einige der Seiten in einem Dokument in PDF konvertiert werden.
+Zeigt, wie nur einige Seiten eines Dokuments in PDF konvertiert werden.
 
 ```csharp
 Document doc = new Document();
@@ -424,14 +426,14 @@ builder.Writeln("Page 3.");
 
 using (Stream stream = File.Create(ArtifactsDir + "PdfSaveOptions.OnePage.pdf"))
 {
-    // Erstellen Sie ein "PdfSaveOptions"-Objekt, das wir an die "Save"-Methode des Dokuments übergeben können
+    // Erstellen Sie ein „PdfSaveOptions“-Objekt, das wir an die „Save“-Methode des Dokuments übergeben können
     // um zu ändern, wie diese Methode das Dokument in .PDF konvertiert.
     PdfSaveOptions options = new PdfSaveOptions();
 
-    // "PageIndex" auf "1" setzen, um einen Teil des Dokuments ab der zweiten Seite zu rendern.
+    // Setzen Sie „PageIndex“ auf „1“, um einen Teil des Dokuments beginnend mit der zweiten Seite darzustellen.
     options.PageSet = new PageSet(1);
 
-    // Dieses Dokument enthält eine Seite beginnend mit Seite zwei, die nur die zweite Seite enthält.
+    // Dieses Dokument enthält eine Seite ab Seite zwei, die nur die zweite Seite enthält.
     doc.Save(stream, options);
 }
 ```
@@ -457,22 +459,22 @@ public SaveOutputParameters Save(HttpResponse response, string fileName,
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| response | HttpResponse | Antwortobjekt, in dem das Dokument gespeichert werden soll. |
+| response | HttpResponse | Antwortobjekt, wo das Dokument gespeichert werden soll. |
 | fileName | String | Der Name für das Dokument, das im Client-Browser angezeigt wird. Der Name sollte keinen Pfad enthalten. |
-| contentDisposition | ContentDisposition | EIN[`ContentDisposition`](../../contentdisposition/) Der Wert that gibt an, wie das Dokument im Client-Browser dargestellt wird. |
-| saveOptions | SaveOptions | Gibt die Optionen an, die steuern, wie das Dokument gespeichert wird. Kann null sein. |
+| contentDisposition | ContentDisposition | A[`ContentDisposition`](../../contentdisposition/)Der Wert that gibt an, wie das Dokument im Client-Browser dargestellt wird. |
+| saveOptions | SaveOptions | Gibt die Optionen an, die steuern, wie das Dokument gespeichert wird. Kann sein`Null`. |
 
 ### Rückgabewert
 
-Zusätzliche Informationen, die Sie optional verwenden können.
+Zusätzliche Informationen, die Sie optional nutzen können.
 
 ### Bemerkungen
 
-Intern speichert diese Methode zuerst in einem Speicherstrom und kopiert dann in den Antwortstrom stream , da der Antwortstrom die Suche nicht unterstützt.
+Intern speichert diese Methode zuerst in einem Speicherstream und kopiert sie dann in den Antwortstream , da der Antwortstream die Suche nicht unterstützt.
 
 ### Beispiele
 
-Zeigt, wie Sie einen Seriendruck durchführen und das Dokument dann im Client-Browser speichern.
+Zeigt, wie Sie einen Seriendruck durchführen und das Dokument anschließend im Client-Browser speichern.
 
 ```csharp
 Document doc = new Document();
@@ -489,11 +491,11 @@ builder.InsertField(" MERGEFIELD City ");
 doc.MailMerge.Execute(new string[] { "FullName", "Company", "Address", "City" },
     new object[] { "James Bond", "MI5 Headquarters", "Milbank", "London" });
 
-// Senden Sie das Dokument an den Client-Browser.
+// Das Dokument an den Client-Browser senden.
 Assert.That(() => doc.Save(response, "Artifacts/MailMerge.ExecuteArray.docx", ContentDisposition.Inline, null),
     Throws.TypeOf<ArgumentNullException>()); //Wird ausgelöst, weil HttpResponse im Test null ist.
 
-// Wir müssen diese Antwort manuell schließen, um sicherzustellen, dass wir dem Dokument nach dem Speichern keine überflüssigen Inhalte hinzufügen.
+// Wir müssen diese Antwort manuell schließen, um sicherzustellen, dass wir dem Dokument nach dem Speichern keinen überflüssigen Inhalt hinzufügen.
 Assert.That(() => response.End(), Throws.TypeOf<NullReferenceException>());
 ```
 

@@ -3,12 +3,14 @@ title: Class HyphenationOptions
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Settings.HyphenationOptions klass. Gör det möjligt att konfigurera alternativ för dokumentavstavning.
 type: docs
-weight: 5500
+weight: 5790
 url: /sv/net/aspose.words.settings/hyphenationoptions/
 ---
 ## HyphenationOptions class
 
 Gör det möjligt att konfigurera alternativ för dokumentavstavning.
+
+För att lära dig mer, besök[Arbeta med avstavning](https://docs.aspose.com/words/net/working-with-hyphenation/) dokumentationsartikel.
 
 ```csharp
 public class HyphenationOptions
@@ -24,9 +26,9 @@ public class HyphenationOptions
 
 | namn | Beskrivning |
 | --- | --- |
-| [AutoHyphenation](../../aspose.words.settings/hyphenationoptions/autohyphenation/) { get; set; } | Hämtar eller ställer in värde som avgör om automatisk avstavning är aktiverad för dokumentet. Standardvärdet för den här egenskapen är **falsk** . |
+| [AutoHyphenation](../../aspose.words.settings/hyphenationoptions/autohyphenation/) { get; set; } | Hämtar eller ställer in värde som avgör om automatisk avstavning är aktiverad för dokumentet. Standardvärdet för den här egenskapen är`falsk` . |
 | [ConsecutiveHyphenLimit](../../aspose.words.settings/hyphenationoptions/consecutivehyphenlimit/) { get; set; } | Hämtar eller ställer in det maximala antalet rader i följd som kan sluta med bindestreck. Standardvärdet för den här egenskapen är 0. |
-| [HyphenateCaps](../../aspose.words.settings/hyphenationoptions/hyphenatecaps/) { get; set; } | Hämtar eller ställer in ett värde som avgör om ord skrivna med stora bokstäver är avstavade. Standardvärdet för den här egenskapen är **Sann** . |
+| [HyphenateCaps](../../aspose.words.settings/hyphenationoptions/hyphenatecaps/) { get; set; } | Hämtar eller ställer in ett värde som avgör om ord skrivna med stora bokstäver är avstavade. Standardvärdet för den här egenskapen är`Sann` . |
 | [HyphenationZone](../../aspose.words.settings/hyphenationoptions/hyphenationzone/) { get; set; } | Hämtar eller ställer in avståndet i 1/20 av en punkt från högermarginalen inom vilken du inte vill att ska avstava ord. Standardvärdet för den här egenskapen är 360 (0,25 tum). |
 
 ### Exempel

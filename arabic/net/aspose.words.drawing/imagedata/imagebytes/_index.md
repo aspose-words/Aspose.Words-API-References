@@ -1,14 +1,14 @@
 ---
 title: ImageData.ImageBytes
 second_title: Aspose.Words لمراجع .NET API
-description: ImageData ملكية. الحصول على أو تعيين وحدات البايت الأولية للصورة المخزنة بالشكل.
+description: ImageData ملكية. الحصول على أو تعيين البايتات الأولية للصورة المخزنة في الشكل.
 type: docs
 weight: 120
 url: /ar/net/aspose.words.drawing/imagedata/imagebytes/
 ---
 ## ImageData.ImageBytes property
 
-الحصول على أو تعيين وحدات البايت الأولية للصورة المخزنة بالشكل.
+الحصول على أو تعيين البايتات الأولية للصورة المخزنة في الشكل.
 
 ```csharp
 public byte[] ImageBytes { get; set; }
@@ -16,9 +16,9 @@ public byte[] ImageBytes { get; set; }
 
 ### ملاحظات
 
-تحديد القيمة ل`لا شيء` أو مصفوفة فارغة ستزيل الصورة من الشكل.
+ضبط القيمة على`باطل` أو ستقوم مجموعة فارغة بإزالة الصورة من الشكل.
 
-عائدات`لا شيء` إذا لم يتم تخزين الصورة في المستند (على سبيل المثال ، من المحتمل أن تكون الصورة مرتبطة في هذه الحالة).
+عائدات`باطل` إذا لم تكن الصورة مخزنة في المستند (على سبيل المثال، من المحتمل أن تكون الصورة مرتبطة في هذه الحالة).
 
 ### أمثلة
 
@@ -26,15 +26,14 @@ public byte[] ImageBytes { get; set; }
 
 ```csharp
 Document imgSourceDoc = new Document(MyDir + "Images.docx");
-
 Shape imgShape = (Shape) imgSourceDoc.GetChild(NodeType.Shape, 0, true);
 
 Assert.True(imgShape.HasImage);
 
-// يُرجع ToByteArray () الصفيف المخزن في خاصية ImageBytes.
+// ToByteArray () يُرجع المصفوفة المخزنة في خاصية ImageBytes.
 Assert.AreEqual(imgShape.ImageData.ImageBytes, imgShape.ImageData.ToByteArray());
 
-// حفظ بيانات صورة الشكل في ملف صورة في نظام الملفات المحلي.
+// احفظ بيانات صورة الشكل في ملف صورة في نظام الملفات المحلي.
 using (Stream imgStream = imgShape.ImageData.ToStream())
 {
     using (FileStream outStream = new FileStream(ArtifactsDir + "Drawing.GetDataFromImage.png",

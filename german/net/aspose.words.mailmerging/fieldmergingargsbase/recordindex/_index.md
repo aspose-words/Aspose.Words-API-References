@@ -16,15 +16,16 @@ public int RecordIndex { get; }
 
 ### Beispiele
 
-Zeigt, wie Kontrollkästchen-Formularfelder während des Seriendrucks als Zusammenführungsdaten in MERGEFIELDs eingefügt werden.
+Zeigt, wie Kontrollkästchen-Formularfelder als Seriendaten während des Seriendrucks in MERGEFIELDs eingefügt werden.
 
 ```csharp
+public void InsertCheckBox()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Verwenden Sie MERGEFIELDs mit den Tags "TableStart"/"TableEnd", um einen Seriendruckbereich zu definieren
-    // die zu einer Datenquelle namens "StudentCourse" gehört und ein MERGEFIELD hat, das Daten aus einer Spalte namens "CourseName" akzeptiert.
+    // Verwenden Sie MERGEFIELDs mit den Tags „TableStart“/„TableEnd“, um einen Seriendruckbereich zu definieren
+    // das zu einer Datenquelle namens „StudentCourse“ gehört und über ein MERGEFIELD verfügt, das Daten aus einer Spalte namens „CourseName“ akzeptiert.
     builder.StartTable();
     builder.InsertCell();
     builder.InsertField(" MERGEFIELD  TableStart:StudentCourse ");
@@ -40,14 +41,15 @@ Zeigt, wie Kontrollkästchen-Formularfelder während des Seriendrucks als Zusamm
 
     doc.MailMerge.ExecuteWithRegions(dataTable);
     doc.Save(ArtifactsDir + "MailMergeEvent.InsertCheckBox.docx");
+}
 
 /// <summary>
-/// Wenn ein MERGEFIELD mit einem bestimmten Namen gefunden wird, wird ein Kontrollkästchen-Formularfeld anstelle des Datentexts für die Zusammenführung eingefügt.
+/// Wenn ein MERGEFIELD mit einem bestimmten Namen gefunden wird, wird anstelle des Zusammenführungsdatentextes ein Kontrollkästchen-Formularfeld eingefügt.
 /// </summary>
 private class HandleMergeFieldInsertCheckBox : IFieldMergingCallback
 {
     /// <summary>
-    /// Wird aufgerufen, wenn bei einem Seriendruck Daten in einem MERGEFIELD zusammengeführt werden.
+    /// Wird aufgerufen, wenn ein Serienbrief Daten in einem MERGEFIELD zusammenführt.
     /// </summary>
     void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)
     {
@@ -61,7 +63,7 @@ private class HandleMergeFieldInsertCheckBox : IFieldMergingCallback
 
             string fieldValue = args.FieldValue.ToString();
 
-            // In diesem Fall ist für jeden Datensatzindex 'n' der entsprechende Feldwert "Kurs n".
+            // In diesem Fall ist für jeden Datensatzindex „n“ der entsprechende Feldwert „Kurs n“.
             Assert.AreEqual(char.GetNumericValue(fieldValue[7]), args.RecordIndex);
 
             builder.Write(fieldValue);
@@ -78,7 +80,7 @@ private class HandleMergeFieldInsertCheckBox : IFieldMergingCallback
 }
 
 /// <summary>
-/// Erstellt eine Seriendruck-Datenquelle.
+/// Erstellt eine Serienbrief-Datenquelle.
 /// </summary>
 private static DataTable GetStudentCourseDataTable()
 {

@@ -3,7 +3,7 @@ title: Enum VbaReferenceType
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.Vba.VbaReferenceType enumeración. Permite especificar el tipo de unVbaReference objeto.
 type: docs
-weight: 6300
+weight: 6610
 url: /es/net/aspose.words.vba/vbareferencetype/
 ---
 ## VbaReferenceType enumeration
@@ -20,15 +20,14 @@ public enum VbaReferenceType
 | --- | --- | --- |
 | Registered | `13` | Especifica un tipo de referencia de biblioteca de tipos de automatización. |
 | Project | `14` | Se especificó un tipo de referencia de proyecto VBA externo. |
-| Original | `51` | Especifica un tipo de referencia de biblioteca de tipo de automatización original. |
-| Control | `47` | Especifica un tipo de referencia de biblioteca de tipos manipulados. |
+| Original | `51` | Especifica un tipo de referencia de biblioteca de tipos de automatización original. |
+| Control | `47` | Especifica un tipo de referencia de biblioteca de tipos modificados. |
 
 ### Ejemplos
 
 Muestra cómo obtener/eliminar un elemento de la colección de referencia de VBA.
 
 ```csharp
-[Test]
 public void RemoveVbaReference()
 {
     const string brokenPath = @"X:\broken.dll";
@@ -54,7 +53,7 @@ public void RemoveVbaReference()
 }
 
 /// <summary>
-/// Devuelve una cadena que representa la ruta LibId de una referencia especificada. 
+ /// Devuelve una cadena que representa la ruta LibId de una referencia especificada.
 /// </summary>
 private static string GetLibIdPath(VbaReference reference)
 {
@@ -72,7 +71,7 @@ private static string GetLibIdPath(VbaReference reference)
 }
 
 /// <summary>
-/// Devuelve la ruta de un identificador especificado de una biblioteca de tipos de automatización.
+/// Devuelve la ruta de un identificador especificado de una biblioteca de tipo Automatización.
 /// </summary>
 private static string GetLibIdReferencePath(string libIdReference)
 {
@@ -87,7 +86,7 @@ private static string GetLibIdReferencePath(string libIdReference)
 }
 
 /// <summary>
-/// Devuelve la ruta de un identificador especificado de una biblioteca de tipos de automatización.
+/// Devuelve la ruta de un identificador especificado de una biblioteca de tipo Automatización.
 /// </summary>
 private static string GetLibIdProjectPath(string libIdProject)
 {

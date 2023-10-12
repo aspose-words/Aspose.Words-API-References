@@ -1,14 +1,14 @@
 ---
 title: MailMerge.DeleteFields
 second_title: Aspose.Words for .NET API 参考
-description: MailMerge 方法. 从文档中删除与邮件合并相关的字段
+description: MailMerge 方法. 从文档中删除邮件合并相关字段
 type: docs
 weight: 170
 url: /zh/net/aspose.words.mailmerging/mailmerge/deletefields/
 ---
 ## MailMerge.DeleteFields method
 
-从文档中删除与邮件合并相关的字段。
+从文档中删除邮件合并相关字段。
 
 ```csharp
 public void DeleteFields()
@@ -18,11 +18,11 @@ public void DeleteFields()
 
 此方法从文档中删除 MERGEFIELD 和 NEXT 字段。
 
-如果您的邮件合并操作并不总是需要 来填充文档中的所有字段，则此方法可能很有用。使用此方法删除所有剩余的 邮件合并字段。
+如果您的邮件合并操作并不总是需要 来填充文档中的所有字段，则此方法可能很有用。使用此方法删除所有剩余 邮件合并字段。
 
 ### 例子
 
-显示如何从文档中删除所有 MERGEFIELD。
+演示如何从文档中删除所有 MERGEFIELD。
 
 ```csharp
 Document doc = new Document();

@@ -3,7 +3,7 @@ title: Document.UpdateThumbnail
 second_title: Referencia de API de Aspose.Words para .NET
 description: Document método. ActualizacionesThumbnail del documento según las opciones especificadas.
 type: docs
-weight: 760
+weight: 800
 url: /es/net/aspose.words/document/updatethumbnail/
 ---
 ## UpdateThumbnail(ThumbnailGeneratingOptions) {#updatethumbnail_1}
@@ -20,7 +20,7 @@ public void UpdateThumbnail(ThumbnailGeneratingOptions options)
 
 ### Observaciones
 
-El[`ThumbnailGeneratingOptions`](../../../aspose.words.rendering/thumbnailgeneratingoptions/) le permite especificar la fuente de la miniatura, el tamaño y otras opciones. Si falla el intento de generar la miniatura, no cambia una.
+El[`ThumbnailGeneratingOptions`](../../../aspose.words.rendering/thumbnailgeneratingoptions/) le permite especificar el origen de la miniatura, el tamaño y otras opciones. Si falla el intento de generar la miniatura, no cambia ninguna.
 
 ### Ejemplos
 
@@ -38,7 +38,7 @@ builder.InsertImage(ImageDir + "Logo.jpg");
 doc.UpdateThumbnail();
 doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstPage.epub");
 
-// 2 - Usa la primera imagen encontrada en el documento:
+// 2 - Usa la primera imagen que se encuentra en el documento:
 ThumbnailGeneratingOptions options = new ThumbnailGeneratingOptions();
 options.ThumbnailSize = new Size(400, 400);
 options.GenerateFromFirstPage = false;
@@ -80,7 +80,7 @@ builder.InsertImage(ImageDir + "Logo.jpg");
 doc.UpdateThumbnail();
 doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstPage.epub");
 
-// 2 - Usa la primera imagen encontrada en el documento:
+// 2 - Usa la primera imagen que se encuentra en el documento:
 ThumbnailGeneratingOptions options = new ThumbnailGeneratingOptions();
 options.ThumbnailSize = new Size(400, 400);
 options.GenerateFromFirstPage = false;

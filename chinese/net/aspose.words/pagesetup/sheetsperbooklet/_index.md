@@ -1,14 +1,14 @@
 ---
 title: PageSetup.SheetsPerBooklet
 second_title: Aspose.Words for .NET API 参考
-description: PageSetup 财产. 返回或设置要包含在每个小册子中的页数
+description: PageSetup 财产. 返回或设置每本小册子中要包含的页数
 type: docs
-weight: 390
+weight: 400
 url: /zh/net/aspose.words/pagesetup/sheetsperbooklet/
 ---
 ## PageSetup.SheetsPerBooklet property
 
-返回或设置要包含在每个小册子中的页数。
+返回或设置每本小册子中要包含的页数。
 
 ```csharp
 public int SheetsPerBooklet { get; set; }
@@ -16,12 +16,12 @@ public int SheetsPerBooklet { get; set; }
 
 ### 例子
 
-显示如何配置可以作为折页打印的文档。
+演示如何配置可打印为书本折叠的文档。
 
 ```csharp
 Document doc = new Document();
 
-// 插入跨越 16 页的文本。
+// 插入跨 16 页的文本。
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("My Booklet:");
 
@@ -31,13 +31,13 @@ for (int i = 0; i < 15; i++)
     builder.Write($"Booklet face #{i}");
 }
 
-// 配置第一节的“PageSetup”属性，以折页的形式打印文档。
-// 当我们把这个文件双面打印出来的时候，我们就可以把页面拿来堆叠起来
-// 并立即将它们全部折叠到中间。文档的内容将排列成书折。
+// 配置第一部分的“PageSetup”属性以书本折叠的形式打印文档。
+// 当我们双面打印这个文档时，我们可以把页面叠起来
+// 然后将它们全部从中间折叠起来。文档的内容将排列成书本折叠。
 PageSetup pageSetup = doc.Sections[0].PageSetup;
 pageSetup.MultiplePages = MultiplePagesType.BookFoldPrinting;
 
-// 我们只能以 4 的倍数指定张数。
+// 我们只能指定 4 的倍数的页数。
 pageSetup.SheetsPerBooklet = 4;
 
 doc.Save(ArtifactsDir + "PageSetup.Booklet.docx");

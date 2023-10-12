@@ -1,14 +1,14 @@
 ---
 title: LoadOptions.UpdateDirtyFields
 second_title: Aspose.Words für .NET-API-Referenz
-description: LoadOptions eigendom. Gibt an ob die Felder mit aktualisiert werden sollenschmutzig Attribut.
+description: LoadOptions eigendom. Gibt an ob die Felder mit aktualisiert werden sollenschmutzig attribute.
 type: docs
 weight: 160
 url: /de/net/aspose.words.loading/loadoptions/updatedirtyfields/
 ---
 ## LoadOptions.UpdateDirtyFields property
 
-Gibt an, ob die Felder mit aktualisiert werden sollen`schmutzig` Attribut.
+Gibt an, ob die Felder mit aktualisiert werden sollen`schmutzig` attribute.
 
 ```csharp
 public bool UpdateDirtyFields { get; set; }
@@ -16,26 +16,26 @@ public bool UpdateDirtyFields { get; set; }
 
 ### Beispiele
 
-Zeigt, wie eine spezielle Eigenschaft zum Aktualisieren von Feldergebnissen verwendet wird.
+Zeigt, wie eine spezielle Eigenschaft zum Aktualisieren des Feldergebnisses verwendet wird.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Geben Sie den integrierten "Autor"-Eigenschaftswert des Dokuments an und zeigen Sie ihn dann mit einem Feld an.
+// Geben Sie den integrierten Eigenschaftswert „Autor“ des Dokuments an und zeigen Sie ihn dann mit einem Feld an.
 doc.BuiltInDocumentProperties.Author = "John Doe";
 FieldAuthor field = (FieldAuthor)builder.InsertField(FieldType.FieldAuthor, true);
 
 Assert.False(field.IsDirty);
 Assert.AreEqual("John Doe", field.Result);
 
-// Eigenschaft aktualisieren. Das Feld zeigt noch den alten Wert an.
+// Die Eigenschaft aktualisieren. Das Feld zeigt weiterhin den alten Wert an.
 doc.BuiltInDocumentProperties.Author = "John & Jane Doe";
 
 Assert.AreEqual("John Doe", field.Result);
 
-// Da der Wert des Feldes veraltet ist, können wir ihn als "dirty" markieren.
-// Dieser Wert bleibt veraltet, bis wir das Feld manuell mit der Methode Field.Update() aktualisieren.
+// Da der Feldwert veraltet ist, können wir ihn als „schmutzig“ markieren.
+// Dieser Wert bleibt veraltet, bis wir das Feld manuell mit der Field.Update()-Methode aktualisieren.
 field.IsDirty = true;
 
 using (MemoryStream docStream = new MemoryStream())
@@ -44,8 +44,8 @@ using (MemoryStream docStream = new MemoryStream())
     // Das Feld zeigt weiterhin den veralteten Wert im Ausgabedokument an.
     doc.Save(docStream, SaveFormat.Docx);
 
-    // Das LoadOptions-Objekt hat eine Option zum Aktualisieren aller Felder
-    // beim Laden des Dokuments als "dirty" markiert.
+    // Das LoadOptions-Objekt verfügt über eine Option zum Aktualisieren aller Felder
+    // Beim Laden des Dokuments als „dirty“ markiert.
     LoadOptions options = new LoadOptions();
     options.UpdateDirtyFields = updateDirtyFields;
     doc = new Document(docStream, options);
@@ -54,7 +54,7 @@ using (MemoryStream docStream = new MemoryStream())
 
     field = (FieldAuthor)doc.Range.Fields[0];
 
-    // Das Aktualisieren von Dirty-Feldern wie diesem setzt ihr "IsDirty"-Flag automatisch auf "false".
+    // Beim Aktualisieren solcher Dirty-Felder wird ihr „IsDirty“-Flag automatisch auf „false“ gesetzt.
     if (updateDirtyFields)
     {
         Assert.AreEqual("John & Jane Doe", field.Result);

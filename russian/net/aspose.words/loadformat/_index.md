@@ -3,7 +3,7 @@ title: Enum LoadFormat
 second_title: Справочник по API Aspose.Words для .NET
 description: Aspose.Words.LoadFormat перечисление. Указывает формат загружаемого документа.
 type: docs
-weight: 3350
+weight: 3550
 url: /ru/net/aspose.words/loadformat/
 ---
 ## LoadFormat enumeration
@@ -19,45 +19,46 @@ public enum LoadFormat
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | Auto | `0` | Указывает Aspose.Words автоматически распознавать формат. |
-| Doc | `10` | Microsoft Word 95 или Word 97 — документ 2003 г. |
-| Dot | `11` | Microsoft Word 95 или Word 97 — шаблон 2003 года. |
-| DocPreWord60 | `12` | Документ находится в формате, предшествующем Word 95. В настоящее время Aspose.Words не поддерживает загрузку таких документов. |
+| Doc | `10` | Документ Microsoft Word 95 или Word 97 – 2003. |
+| Dot | `11` | Шаблон Microsoft Word 95 или Word 97 – 2003. |
+| DocPreWord60 | `12` | Документ имеет формат, предшествующий Word 95. Aspose.Words в настоящее время не поддерживает загрузку таких документов. |
 | Docx | `20` | Документ Office Open XML WordprocessingML (без макросов). |
 | Docm | `21` | Документ Office Open XML WordprocessingML с поддержкой макросов. |
 | Dotx | `22` | Шаблон Office Open XML WordprocessingML (без макросов). |
 | Dotm | `23` | Шаблон Office Open XML WordprocessingML с поддержкой макросов. |
-| FlatOpc | `24` | Office Open XML WordprocessingML хранится в простом XML-файле, а не в ZIP-архиве. |
-| FlatOpcMacroEnabled | `25` | Документ Office Open XML WordprocessingML с поддержкой макросов хранится в плоском XML-файле, а не в ZIP-архиве. |
-| FlatOpcTemplate | `26` | Шаблон Office Open XML WordprocessingML (без макросов), хранящийся в плоском XML-файле, а не в ZIP-архиве. |
-| FlatOpcTemplateMacroEnabled | `27` | Шаблон Office Open XML WordprocessingML с поддержкой макросов, хранящийся в простом XML-файле, а не в ZIP-архиве. |
+| FlatOpc | `24` | Office Open XML WordprocessingML хранится в простом XML-файле, а не в ZIP-пакете. |
+| FlatOpcMacroEnabled | `25` | Документ Office Open XML WordprocessingML с поддержкой макросов, хранящийся в простом XML-файле, а не в ZIP-пакете. |
+| FlatOpcTemplate | `26` | Шаблон Office Open XML WordprocessingML (без макросов), хранящийся в простом XML-файле, а не в ZIP-пакете. |
+| FlatOpcTemplateMacroEnabled | `27` | Шаблон Office Open XML WordprocessingML с поддержкой макросов, хранящийся в простом XML-файле, а не в ZIP-пакете. |
 | Rtf | `30` | Формат RTF. |
 | WordML | `31` | Формат Microsoft Word 2003 WordprocessingML. |
 | Html | `50` | Формат HTML. |
 | Mhtml | `51` | Формат MHTML (веб-архив). |
-| Mobi | `52` | Формат MOBI. Используется считывателями MobiPocket и Amazon Kindle. |
+| Mobi | `52` | Формат MOBI. Используется читателями MobiPocket и Amazon Kindle. |
 | Chm | `53` | Формат CHM (скомпилированная HTML-справка). |
 | Azw3 | `54` | Формат AZW3. Используется читателями Amazon Kindle. |
 | Epub | `55` | Формат EPUB. |
 | Odt | `60` | Текстовый документ ODF. |
 | Ott | `61` | Шаблон текстового документа ODF. |
-| Text | `62` | Простой текст. |
-| Markdown | `63` | Текстовый документ Markdown. |
+| Text | `62` | Обычный текст. |
+| Markdown | `63` | Текстовый документ с уценкой. |
 | Pdf | `64` | PDF-документ. |
 | Xml | `65` | XML-документ. |
-| Unknown | `255` | Нераспознанный формат, не может быть загружен Aspose.Words. |
+| Unknown | `255` | Нераспознанный формат, невозможно загрузить с помощью Aspose.Words. |
 
 ### Примеры
 
 Показывает, как сохранить веб-страницу в виде файла .docx.
 
 ```csharp
-const string url = "http://www.aspose.com/";
+const string url = "https://www.aspose.com/";
 
-using (WebClient client = new WebClient()) 
-{ 
-    using (MemoryStream stream = new MemoryStream(client.DownloadData(url)))
+using (HttpClient client = new HttpClient()) 
+{
+    var bytes = await client.GetByteArrayAsync(url);
+    using (MemoryStream stream = new MemoryStream(bytes))
     {
-        // URL-адрес снова используется как baseUri, чтобы убедиться, что любые относительные пути к изображениям извлекаются правильно.
+        // URL-адрес снова используется в качестве baseUri, чтобы гарантировать правильность получения любых относительных путей к изображениям.
         LoadOptions options = new LoadOptions(LoadFormat.Html, "", url);
 
         // Загружаем HTML-документ из потока и передаем объект LoadOptions.
@@ -69,10 +70,10 @@ using (WebClient client = new WebClient())
 }
 ```
 
-Показывает, как указать базовый URI при открытии html-документа.
+Показывает, как указать базовый URI при открытии HTML-документа.
 
 ```csharp
-// Предположим, мы хотим загрузить документ .html, содержащий изображение, связанное относительным URI
+// Предположим, мы хотим загрузить документ .html, содержащий изображение, связанное относительным URI.
 // пока изображение находится в другом месте. В этом случае нам нужно будет преобразовать относительный URI в абсолютный.
  // Мы можем предоставить базовый URI, используя объект HtmlLoadOptions.
 HtmlLoadOptions loadOptions = new HtmlLoadOptions(LoadFormat.Html, "", ImageDir);
@@ -85,14 +86,14 @@ Document doc = new Document(MyDir + "Missing image.html", loadOptions);
 Shape imageShape = (Shape)doc.GetChildNodes(NodeType.Shape, true)[0];
 Assert.True(imageShape.IsImage);
 
-// Этот выходной документ будет отображать отсутствующее изображение.
+// Этот выходной документ отобразит отсутствующее изображение.
 doc.Save(ArtifactsDir + "HtmlLoadOptions.BaseUri.docx");
 ```
 
 Показывает, как использовать методы FileFormatUtil для определения формата документа.
 
 ```csharp
-// Загрузить документ из файла, в котором отсутствует расширение файла, а затем определить его формат файла.
+// Загрузите документ из файла, у которого отсутствует расширение файла, а затем определите его формат файла.
 using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing file extension"))
 {
     FileFormatInfo info = FileFormatUtil.DetectFileFormat(docStream);
@@ -100,15 +101,15 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
 
     Assert.AreEqual(LoadFormat.Doc, loadFormat);
 
-    // Ниже приведены два метода преобразования LoadFormat в соответствующий ему SaveFormat.
+    // Ниже приведены два метода преобразования LoadFormat в соответствующий SaveFormat.
     // 1 — Получить строку расширения файла для LoadFormat, затем получить соответствующий SaveFormat из этой строки:
     string fileExtension = FileFormatUtil.LoadFormatToExtension(loadFormat);
     SaveFormat saveFormat = FileFormatUtil.ExtensionToSaveFormat(fileExtension);
 
-    // 2 - Преобразование LoadFormat напрямую в его SaveFormat:
+    // 2 — преобразовать LoadFormat непосредственно в его SaveFormat:
     saveFormat = FileFormatUtil.LoadFormatToSaveFormat(loadFormat);
 
-    // Загрузите документ из потока, а затем сохраните его в файле с автоматически обнаруженным расширением.
+    // Загрузите документ из потока, а затем сохраните его с автоматически определенным расширением файла.
     Document doc = new Document(docStream);
 
     Assert.AreEqual(".doc", FileFormatUtil.SaveFormatToExtension(saveFormat));

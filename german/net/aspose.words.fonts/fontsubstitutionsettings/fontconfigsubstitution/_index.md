@@ -1,14 +1,14 @@
 ---
 title: FontSubstitutionSettings.FontConfigSubstitution
 second_title: Aspose.Words für .NET-API-Referenz
-description: FontSubstitutionSettings eigendom. Einstellungen im Zusammenhang mit der SchriftkonfigurationsErsetzungsregel.
+description: FontSubstitutionSettings eigendom. Einstellungen im Zusammenhang mit der Ersetzungsregel für die Schriftartkonfiguration.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fonts/fontsubstitutionsettings/fontconfigsubstitution/
 ---
 ## FontSubstitutionSettings.FontConfigSubstitution property
 
-Einstellungen im Zusammenhang mit der Schriftkonfigurations-Ersetzungsregel.
+Einstellungen im Zusammenhang mit der Ersetzungsregel für die Schriftartkonfiguration.
 
 ```csharp
 public FontConfigSubstitutionRule FontConfigSubstitution { get; }
@@ -16,7 +16,7 @@ public FontConfigSubstitutionRule FontConfigSubstitution { get; }
 
 ### Beispiele
 
-Zeigt die vom Betriebssystem abhängige Ersetzung der Schriftartkonfiguration an.
+Zeigt die betriebssystemabhängige Schriftartkonfigurationsersetzung an.
 
 ```csharp
 FontSettings fontSettings = new FontSettings();
@@ -37,7 +37,7 @@ if (isWindows)
 bool isLinuxOrMac =
     new[] {PlatformID.Unix, PlatformID.MacOSX}.Any(p => Environment.OSVersion.Platform == p);
 
-// Unter Linux/Mac haben wir Zugriff darauf und können Operationen ausführen.
+// Unter Linux/Mac haben wir Zugriff darauf und können Vorgänge ausführen.
 if (isLinuxOrMac)
 {
     Assert.True(fontConfigSubstitution.Enabled);

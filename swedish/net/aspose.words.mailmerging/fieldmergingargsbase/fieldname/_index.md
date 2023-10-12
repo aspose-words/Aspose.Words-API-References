@@ -18,13 +18,14 @@ public string FieldName { get; }
 
 Om du har en mappning från ett dokumentfältnamn till en annan datakällas fältnamn, är detta det mappade fältnamnet.
 
-Om du angav ett fältnamnsprefix, till exempel "Image:MyFieldName" i dokumentet,  **Fält namn** returnerar fältnamnet utan prefixet, det vill säga "MyFieldName".
+Om du angav ett fältnamnsprefix, till exempel "Image:MyFieldName" i dokumentet, `FieldName` returnerar fältnamnet utan prefixet, det vill säga "MyFieldName".
 
 ### Exempel
 
 Visar hur man infogar kryssrutaformulär i MERGEFIELDs som sammanfogningsdata under sammanfogning.
 
 ```csharp
+public void InsertCheckBox()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -46,6 +47,7 @@ Visar hur man infogar kryssrutaformulär i MERGEFIELDs som sammanfogningsdata un
 
     doc.MailMerge.ExecuteWithRegions(dataTable);
     doc.Save(ArtifactsDir + "MailMergeEvent.InsertCheckBox.docx");
+}
 
 /// <summary>
 /// När du stöter på ett MERGEFIELD med ett specifikt namn, infogar ett kryssrutaformulärfält istället för sammanslagningsdatatext.

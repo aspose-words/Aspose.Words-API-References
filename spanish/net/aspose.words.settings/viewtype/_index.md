@@ -1,14 +1,14 @@
 ---
 title: Enum ViewType
 second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Settings.ViewType enumeración. Valores posibles para el modo de vista en Microsoft Word.
+description: Aspose.Words.Settings.ViewType enumeración. Valores posibles para el modo de visualización en Microsoft Word.
 type: docs
-weight: 5660
+weight: 5960
 url: /es/net/aspose.words.settings/viewtype/
 ---
 ## ViewType enumeration
 
-Valores posibles para el modo de vista en Microsoft Word.
+Valores posibles para el modo de visualización en Microsoft Word.
 
 ```csharp
 public enum ViewType
@@ -21,13 +21,13 @@ public enum ViewType
 | None | `0` | El documento se representará en la vista predeterminada de la aplicación. |
 | Reading | `0` | El documento se representará en la vista predeterminada de la aplicación. |
 | PageLayout | `1` | El documento se abrirá en una vista que muestre el documento tal como se imprimirá. |
-| Outline | `3` | El documento se representará en una vista optimizada para delinear o crear documentos extensos. |
-| Normal | `4` | El documento se representará en una vista optimizada para delinear o crear documentos extensos. |
-| Web | `5` | El documento se representará en una vista que imite la forma en que se mostraría este documento en una página web. |
+| Outline | `3` | El documento se presentará en una vista optimizada para delinear o crear documentos largos. |
+| Normal | `4` | El documento se presentará en una vista optimizada para delinear o crear documentos largos. |
+| Web | `5` | El documento se presentará en una vista que imite la forma en que se mostraría este documento en una página web. |
 
 ### Ejemplos
 
-Muestra cómo establecer un factor de zoom personalizado, que las versiones anteriores de Microsoft Word aplicarán a un documento al cargarlo.
+Muestra cómo configurar un factor de zoom personalizado, que las versiones anteriores de Microsoft Word se aplicarán a un documento al cargarlo.
 
 ```csharp
 Document doc = new Document();

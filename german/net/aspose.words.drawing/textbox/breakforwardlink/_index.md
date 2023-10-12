@@ -1,14 +1,14 @@
 ---
 title: TextBox.BreakForwardLink
 second_title: Aspose.Words für .NET-API-Referenz
-description: TextBox methode. Unterbricht den Link zur nächsten TextBox.
+description: TextBox methode. Unterbricht die Verbindung zum nächstenTextBox .
 type: docs
-weight: 120
+weight: 130
 url: /de/net/aspose.words.drawing/textbox/breakforwardlink/
 ---
 ## TextBox.BreakForwardLink method
 
-Unterbricht den Link zur nächsten TextBox.
+Unterbricht die Verbindung zum nächsten[`TextBox`](../) .
 
 ```csharp
 public void BreakForwardLink()
@@ -16,7 +16,7 @@ public void BreakForwardLink()
 
 ### Bemerkungen
 
-BreakForwardLink() unterbricht nicht alle anderen Verknüpfungen in der aktuellen Sequenz von Formen. Zum Beispiel: 1-2-3-4-Sequenz und BreakForwardLink im 2. Textfeld erstellt zwei Sequenzen 1-2, 3-4.
+`BreakForwardLink`Unterbricht nicht alle anderen Verknüpfungen in der aktuellen Formenfolge. Zum Beispiel: 1-2-3-4-Sequenz und`BreakForwardLink` Im 2. Textfeld werden zwei Sequenzen erstellt 1-2, 3-4.
 
 ### Beispiele
 
@@ -66,7 +66,7 @@ if (textBox3.Next == null && textBox3.Previous != null)
 {
     Console.WriteLine("This TextBox is the tail of the sequence");
 
-    // Unterbrechen Sie die Vorwärtsverknüpfung zwischen textBox2 und textBox3 und überprüfen Sie dann, ob sie nicht mehr verknüpft sind.
+    // Unterbrechen Sie die Vorwärtsverknüpfung zwischen textBox2 und textBox3 und stellen Sie dann sicher, dass sie nicht mehr verknüpft sind.
     textBox3.Previous.BreakForwardLink();
 
     Assert.IsTrue(textBox2.Next == null);

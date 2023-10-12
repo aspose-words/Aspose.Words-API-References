@@ -1,14 +1,14 @@
 ---
 title: MailMergeSettings.LinkToQuery
 second_title: Aspose.Words per .NET API Reference
-description: MailMergeSettings proprietà. Non sono sicuro di questo. Il riferimento di automazione di Microsoft Word suggerisce che questo specifica che la query viene eseguita ogni volta che il documento viene aperto in Microsoft Word. Ma la specifica OOXML suggerisce che questo specifichi che la query contiene un riferimento a un file di query esterno che contiene la query effettiva. Il valore predefinito èfalso .
+description: MailMergeSettings proprietà. Non sono sicuro di questo. Il riferimento allautomazione di Microsoft Word suggerisce che questo specifichi che la query viene eseguita ogni volta che il documento viene aperto in Microsoft Word. Ma la specifica OOXML suggerisce che ciò specifichi che la query contiene un riferimento a un file di query esterno che contiene la query effettiva. Il valore predefinito èfalso .
 type: docs
 weight: 110
 url: /it/net/aspose.words.settings/mailmergesettings/linktoquery/
 ---
 ## MailMergeSettings.LinkToQuery property
 
-Non sono sicuro di questo. Il riferimento di automazione di Microsoft Word suggerisce che questo specifica che la query viene eseguita ogni volta che il documento viene aperto in Microsoft Word. Ma la specifica OOXML suggerisce che questo specifichi che la query contiene un riferimento a un file di query esterno che contiene la query effettiva. Il valore predefinito è`falso` .
+Non sono sicuro di questo. Il riferimento all'automazione di Microsoft Word suggerisce che questo specifichi che la query viene eseguita ogni volta che il documento viene aperto in Microsoft Word. Ma la specifica OOXML suggerisce che ciò specifichi che la query contiene un riferimento a un file di query esterno che contiene la query effettiva. Il valore predefinito è`falso` .
 
 ```csharp
 public bool LinkToQuery { get; set; }
@@ -59,7 +59,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
-// L'apertura di questo documento in Microsoft Word eseguirà la stampa unione prima di visualizzare il contenuto. 
+ // L'apertura di questo documento in Microsoft Word eseguirà la stampa unione prima di visualizzarne il contenuto.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

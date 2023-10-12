@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.TransparentMetafiles
 second_title: Aspose.Words für .NET-API-Referenz
-description: CompatibilityOptions eigendom. Gibt an dass der Bereich hinter Metadateibildern nicht ausgeblendet werden soll.
+description: CompatibilityOptions eigendom. Gibt an dass der Bereich hinter Metadateibildern nicht ausgeblendet wird.
 type: docs
 weight: 550
 url: /de/net/aspose.words.settings/compatibilityoptions/transparentmetafiles/
 ---
 ## CompatibilityOptions.TransparentMetafiles property
 
-Gibt an, dass der Bereich hinter Metadateibildern nicht ausgeblendet werden soll.
+Gibt an, dass der Bereich hinter Metadateibildern nicht ausgeblendet wird.
 
 ```csharp
 public bool TransparentMetafiles { get; set; }

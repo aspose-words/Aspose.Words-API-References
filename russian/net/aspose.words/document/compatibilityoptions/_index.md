@@ -1,14 +1,14 @@
 ---
 title: Document.CompatibilityOptions
 second_title: Справочник по API Aspose.Words для .NET
-description: Document свойство. Предоставляет доступ к параметрам совместимости документов то есть к настройкам пользователя введенным на Совместимость вкладка Опции диалоговое окно в Word.
+description: Document свойство. Предоставляет доступ к параметрам совместимости документов т. е. к пользовательским настройкам введенным в Совместимость вкладка  Параметры диалог в Word.
 type: docs
 weight: 50
 url: /ru/net/aspose.words/document/compatibilityoptions/
 ---
 ## Document.CompatibilityOptions property
 
-Предоставляет доступ к параметрам совместимости документов (то есть к настройкам пользователя, введенным на **Совместимость** вкладка **Опции** диалоговое окно в Word).
+Предоставляет доступ к параметрам совместимости документов (т. е. к пользовательским настройкам, введенным в **Совместимость** вкладка  **Параметры** диалог в Word).
 
 ```csharp
 public CompatibilityOptions CompatibilityOptions { get; }
@@ -27,14 +27,14 @@ public void OptimizeFor()
     // которые позволяют нам обеспечить обратную совместимость со старыми версиями Microsoft Word.
     CompatibilityOptions options = doc.CompatibilityOptions;
 
-    // Печать настроек по умолчанию для пустого документа.
+    // Распечатываем настройки по умолчанию для пустого документа.
     Console.WriteLine("\nDefault optimization settings:");
     PrintCompatibilityOptions(options);
 
-    // Мы можем получить доступ к этим настройкам в Microsoft Word через «Файл» -> "Опции" -> «Дополнительно» -> "Параметры совместимости для...".
+    // Мы можем получить доступ к этим настройкам в Microsoft Word через «Файл» -> gt; «Параметры» -> «Дополнительно» -> «Параметры совместимости для...».
     doc.Save(ArtifactsDir + "CompatibilityOptions.OptimizeFor.DefaultSettings.docx");
 
-    // Мы можем использовать метод OptimizeFor, чтобы обеспечить оптимальную совместимость с определенной версией Microsoft Word.
+    // Мы можем использовать метод OptimizeFor, чтобы обеспечить оптимальную совместимость с конкретной версией Microsoft Word.
     doc.CompatibilityOptions.OptimizeFor(MsWordVersion.Word2010);
     Console.WriteLine("\nOptimized for Word 2010:");
     PrintCompatibilityOptions(options);

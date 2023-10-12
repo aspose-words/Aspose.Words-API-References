@@ -1,14 +1,14 @@
 ---
 title: Document.Clone
 second_title: Aspose.Words لمراجع .NET API
-description: Document طريقة. يقوم بإجراء نسخة عميقة من ملفDocument .
+description: Document طريقة. إجراء نسخة عميقة من ملفDocument .
 type: docs
-weight: 530
+weight: 570
 url: /ar/net/aspose.words/document/clone/
 ---
 ## Document.Clone method
 
-يقوم بإجراء نسخة عميقة من ملف[`Document`](../) .
+إجراء نسخة عميقة من ملف[`Document`](../) .
 
 ```csharp
 public Document Clone()
@@ -28,8 +28,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("Hello world!");
 
-// سينتج الاستنساخ مستندًا جديدًا بنفس محتويات المستند الأصلي ،
-// ولكن بنسخة فريدة من كل عقد من عقد المستند الأصلي.
+// سيؤدي الاستنساخ إلى إنتاج مستند جديد بنفس محتويات المستند الأصلي،
+// ولكن مع نسخة فريدة من كل عقد من عقد المستند الأصلي.
 Document clone = doc.Clone();
 
 Assert.AreEqual(doc.FirstSection.Body.FirstParagraph.Runs[0].GetText(), 

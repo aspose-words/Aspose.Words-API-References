@@ -1,14 +1,14 @@
 ---
 title: FieldBarcode.IsUSPostalAddress
 second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldBarcode propriété. Obtient ou définit siPostalAddress est une adresse postale américaine.
+description: FieldBarcode propriété. Obtient ou définit siPostalAddress est une adresse postale aux ÉtatsUnis.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.fields/fieldbarcode/isuspostaladdress/
 ---
 ## FieldBarcode.IsUSPostalAddress property
 
-Obtient ou définit si[`PostalAddress`](../postaladdress/) est une adresse postale américaine.
+Obtient ou définit si[`PostalAddress`](../postaladdress/) est une adresse postale aux États-Unis.
 
 ```csharp
 public bool IsUSPostalAddress { get; set; }
@@ -16,7 +16,7 @@ public bool IsUSPostalAddress { get; set; }
 
 ### Exemples
 
-Montre comment utiliser le champ CODE-BARRES pour afficher les codes postaux américains sous la forme d'un code-barres.
+Montre comment utiliser le champ BARCODE pour afficher les codes postaux américains sous la forme d'un code-barres.
 
 ```csharp
 Document doc = new Document();
@@ -45,7 +45,7 @@ field.IsBookmark = true;
 Assert.AreEqual(" BARCODE  BarcodeBookmark \\b", field.GetFieldCode());
 
 // Le signet auquel le champ BARCODE fait référence dans sa propriété PostalAddress
-// ne doit contenir rien d'autre que le code postal valide.
+// ne doit rien contenir d'autre que le code postal valide.
 builder.InsertBreak(BreakType.PageBreak);
 builder.StartBookmark("BarcodeBookmark");
 builder.Writeln("968877");

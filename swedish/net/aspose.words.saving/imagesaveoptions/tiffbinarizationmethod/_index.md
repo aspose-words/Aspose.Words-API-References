@@ -1,14 +1,14 @@
 ---
 title: ImageSaveOptions.TiffBinarizationMethod
 second_title: Aspose.Words för .NET API Referens
-description: ImageSaveOptions fast egendom. Hämtar eller ställer in metod som används vid konvertering av bilder till 1 bpp format närSaveFormat är SaveFormat.Tiff and TiffCompression är lika med TiffCompression.Ccitt3 eller TiffCompression.Ccitt4.
+description: ImageSaveOptions fast egendom. Hämtar eller ställer in metod som används vid konvertering av bilder till 1 bpp format närSaveFormat ärTiff och TiffCompression är lika medCcitt3 ellerCcitt4 .
 type: docs
-weight: 160
+weight: 170
 url: /sv/net/aspose.words.saving/imagesaveoptions/tiffbinarizationmethod/
 ---
 ## ImageSaveOptions.TiffBinarizationMethod property
 
-Hämtar eller ställer in metod som används vid konvertering av bilder till 1 bpp format när[`SaveFormat`](../saveformat/) är SaveFormat.Tiff and [`TiffCompression`](../tiffcompression/) är lika med TiffCompression.Ccitt3 eller TiffCompression.Ccitt4.
+Hämtar eller ställer in metod som används vid konvertering av bilder till 1 bpp format när[`SaveFormat`](../saveformat/) ärTiff och [`TiffCompression`](../tiffcompression/) är lika medCcitt3 ellerCcitt4 .
 
 ```csharp
 public ImageBinarizationMethod TiffBinarizationMethod { get; set; }
@@ -16,7 +16,7 @@ public ImageBinarizationMethod TiffBinarizationMethod { get; set; }
 
 ### Anmärkningar
 
-Standardvärdet är ImageBinarizationMethod.Threshold.
+Standardvärdet ärThreshold.
 
 ### Exempel
 

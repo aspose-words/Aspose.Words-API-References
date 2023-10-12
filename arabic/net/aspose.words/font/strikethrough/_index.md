@@ -1,14 +1,14 @@
 ---
 title: Font.StrikeThrough
 second_title: Aspose.Words لمراجع .NET API
-description: Font ملكية. True إذا تم تنسيق الخط كنص يتوسطه خط .
+description: Font ملكية. صحيح إذا تم تنسيق الخط كنص يتوسطه خط.
 type: docs
 weight: 390
 url: /ar/net/aspose.words/font/strikethrough/
 ---
 ## Font.StrikeThrough property
 
-True إذا تم تنسيق الخط كنص يتوسطه خط .
+صحيح إذا تم تنسيق الخط كنص يتوسطه خط.
 
 ```csharp
 public bool StrikeThrough { get; set; }

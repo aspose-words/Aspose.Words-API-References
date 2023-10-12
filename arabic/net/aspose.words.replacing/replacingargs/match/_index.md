@@ -1,14 +1,14 @@
 ---
 title: ReplacingArgs.Match
 second_title: Aspose.Words لمراجع .NET API
-description: ReplacingArgs ملكية. ملفMatch الناتج عن تطابق تعبير واحد normal أثناء a يحل محل .
+description: ReplacingArgs ملكية. الMatch الناتجة عن تطابق تعبير Regular واحد أثناء a يستبدل .
 type: docs
 weight: 30
 url: /ar/net/aspose.words.replacing/replacingargs/match/
 ---
 ## ReplacingArgs.Match property
 
-ملفMatch الناتج عن تطابق تعبير واحد normal أثناء a **يحل محل** .
+الMatch الناتجة عن تطابق تعبير Regular واحد أثناء a **يستبدل** .
 
 ```csharp
 public Match Match { get; }
@@ -16,13 +16,14 @@ public Match Match { get; }
 
 ### ملاحظات
 
-**المباراة. الفهرس "** يحصل على موضع البدء الصفري للمباراة من بداية نطاق البحث والاستبدال.
+**"مطابقة. الفهرس"** يحصل على موضع start القائم على الصفر للمطابقة من بداية نطاق البحث والاستبدال.
 
 ### أمثلة
 
-يوضح كيفية تطبيق خط مختلف على محتوى جديد عبر FindReplaceOptions.
+يوضح كيفية تطبيق خط مختلف على المحتوى الجديد عبر FindReplaceOptions.
 
 ```csharp
+public void ConvertNumbersToHexadecimal()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -34,7 +35,7 @@ public Match Match { get; }
     // يمكننا استخدام كائن "FindReplaceOptions" لتعديل عملية البحث والاستبدال.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // اضبط خاصية "HighlightColor" على لون الخلفية الذي نريد تطبيقه على النص الناتج للعملية.
+    // قم بتعيين خاصية "HighlightColor" على لون الخلفية الذي نريد تطبيقه على النص الناتج عن العملية.
     options.ApplyFont.HighlightColor = Color.LightGray;
 
     NumberHexer numberHexer = new NumberHexer();

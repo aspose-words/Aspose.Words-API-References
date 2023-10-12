@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTag.BuildingBlockCategory
 second_title: Référence de l'API Aspose.Words pour .NET
-description: StructuredDocumentTag propriété. Spécifie la catégorie de bloc de construction pour ce TDS node. Ne peut pas être null.
+description: StructuredDocumentTag propriété. Spécifie la catégorie du bloc de construction pour ce TSD node. Ne peut pas êtrenul .
 type: docs
 weight: 30
 url: /fr/net/aspose.words.markup/structureddocumenttag/buildingblockcategory/
 ---
 ## StructuredDocumentTag.BuildingBlockCategory property
 
-Spécifie la catégorie de bloc de construction pour ce **TDS** node. Ne peut pas être null.
+Spécifie la catégorie du bloc de construction pour ce **TSD** node. Ne peut pas être`nul` .
 
 ```csharp
 public string BuildingBlockCategory { get; set; }
@@ -16,7 +16,7 @@ public string BuildingBlockCategory { get; set; }
 
 ### Remarques
 
-L'accès à cette propriété ne fonctionnera que pourBuildingBlockGallery et DocPartObj Type SDT. Il est en lecture seule pour **TDS**du type de partie de document.
+L'accès à cette propriété ne fonctionnera que pourBuildingBlockGallery et DocPartObj Types SDT. Il est en lecture seule pour **TSD** du type de partie de document.
 
 Pour tous les autres types de SDT, une exception se produira.
 

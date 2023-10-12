@@ -16,18 +16,18 @@ public void SetFontsFolders(string[] fontsFolders, bool recursive)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| fontsFolders | String[] | Una matriz de carpetas que contienen fuentes TrueType. |
+| fontsFolders | String[] | Una serie de carpetas que contienen fuentes TrueType. |
 | recursive | Boolean | True para escanear las carpetas especificadas en busca de fuentes de forma recursiva. |
 
 ### Observaciones
 
-De forma predeterminada, Aspose.Words busca las fuentes instaladas en el sistema.
+De forma predeterminada, Aspose.Words busca fuentes instaladas en el sistema.
 
-Establecer esta propiedad restablece la memoria caché de todas las fuentes cargadas anteriormente.
+Establecer esta propiedad restablece el caché de todas las fuentes cargadas anteriormente.
 
 ### Ejemplos
 
-Muestra cómo establecer varios directorios de fuentes de fuentes.
+Muestra cómo configurar múltiples directorios de fuentes de fuentes.
 
 ```csharp
 Document doc = new Document();
@@ -38,8 +38,8 @@ builder.Writeln("The quick brown fox jumps over the lazy dog.");
 builder.Font.Name = "Junction Light";
 builder.Writeln("The quick brown fox jumps over the lazy dog.");
 
-// Nuestras fuentes de fuentes no contienen la fuente que hemos usado para el texto en este documento.
-// Si usamos esta configuración de fuente mientras renderizamos este documento,
+// Nuestras fuentes de fuentes no contienen la fuente que hemos utilizado para el texto de este documento.
+// Si utilizamos esta configuración de fuente al renderizar este documento,
 // Aspose.Words aplicará una fuente alternativa al texto que tenga una fuente que Aspose.Words no pueda localizar.
 FontSourceBase[] originalFontSources = FontSettings.DefaultInstance.GetFontsSources();
 
@@ -50,10 +50,10 @@ Assert.True(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName =
 Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Amethysta"));
 Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Junction Light"));
 
-// Use el método "SetFontsFolders" para crear una fuente de fuente de cada directorio de fuentes que pasemos como primer argumento.
-// Pase "falso" como argumento "recursivo" para incluir fuentes de todos los archivos de fuentes que están en los directorios
-// que estamos pasando en el primer argumento, pero sin incluir ninguna fuente de ninguna de las subcarpetas de los directorios.
-// Pasar "verdadero" como argumento "recursivo" para incluir todos los archivos de fuentes en los directorios que estamos pasando
+// Utilice el método "SetFontsFolders" para crear una fuente de fuente a partir de cada directorio de fuentes que pasemos como primer argumento.
+// Pasa "falso" como argumento "recursivo" para incluir fuentes de todos los archivos de fuentes que están en los directorios
+// que estamos pasando el primer argumento, pero no incluimos ninguna fuente de ninguna de las subcarpetas de los directorios.
+// Pasa "true" como argumento "recursivo" para incluir todos los archivos de fuentes en los directorios que estamos pasando
 // en el primer argumento, así como todas las fuentes en sus subdirectorios.
 FontSettings.DefaultInstance.SetFontsFolders(new[] {FontsDir + "/Amethysta", FontsDir + "/Junction"},
     recursive);
@@ -65,7 +65,7 @@ Assert.False(newFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "A
 Assert.AreEqual(1, newFontSources[0].GetAvailableFonts().Count);
 Assert.True(newFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Amethysta"));
 
-// La carpeta "Junction" en sí no contiene archivos de fuentes, pero tiene subcarpetas que sí.
+// La carpeta "Junction" en sí no contiene archivos de fuentes, pero tiene subcarpetas que sí los contienen.
 if (recursive)
 {
     Assert.AreEqual(6, newFontSources[1].GetAvailableFonts().Count);

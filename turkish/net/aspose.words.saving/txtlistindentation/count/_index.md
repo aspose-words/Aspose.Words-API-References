@@ -1,14 +1,14 @@
 ---
 title: TxtListIndentation.Count
 second_title: Aspose.Words for .NET API Referansı
-description: TxtListIndentation mülk. Kaç tane alır veya ayarlarCharacter bir liste düzeyi için girinti olarak kullanmak için. Varsayılan değer 0dır bu girinti olmadığı anlamına gelir.
+description: TxtListIndentation mülk. Kaç tane olduğunu alır veya ayarlarCharacter bir liste düzeyi başına girinti olarak kullanılacak. Varsayılan değer 0dır bu girinti olmadığı anlamına gelir.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.saving/txtlistindentation/count/
 ---
 ## TxtListIndentation.Count property
 
-Kaç tane alır veya ayarlar[`Character`](../character/) bir liste düzeyi için girinti olarak kullanmak için. Varsayılan değer 0'dır, bu, girinti olmadığı anlamına gelir.
+Kaç tane olduğunu alır veya ayarlar[`Character`](../character/) bir liste düzeyi başına girinti olarak kullanılacak. Varsayılan değer 0'dır; bu, girinti olmadığı anlamına gelir.
 
 ```csharp
 public int Count { get; set; }
@@ -22,7 +22,7 @@ Bir belgeyi düz metne kaydederken liste girintisinin nasıl yapılandırılaca�
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Üç seviyeli girintili bir liste oluşturun.
+// Üç düzeyde girintiye sahip bir liste oluşturun.
 builder.ListFormat.ApplyNumberDefault();
 builder.Writeln("Item 1");
 builder.ListFormat.ListIndent();
@@ -30,16 +30,16 @@ builder.Writeln("Item 2");
 builder.ListFormat.ListIndent(); 
 builder.Write("Item 3");
 
-// Belgenin "Kaydet" yöntemine aktarabileceğimiz bir "TxtSaveOptions" nesnesi oluşturun
+// Belgenin "Save" yöntemine aktarabileceğimiz bir "TxtSaveOptions" nesnesi oluşturun
 // belgeyi düz metne kaydetme şeklimizi değiştirmek için.
 TxtSaveOptions txtSaveOptions = new TxtSaveOptions();
 
 // Kullanılacak bir karakter atamak için "Karakter" özelliğini ayarlayın
-// liste girintisini düz metinde simüle eden dolgu için.
+// düz metinde liste girintisini simüle eden dolgu için.
 txtSaveOptions.ListIndentation.Character = ' ';
 
-// Sayıyı belirtmek için "Count" özelliğini ayarlayın
-// her liste girinti düzeyi için dolgu karakteri yerleştirmek için.
+// Kaç kez olduğunu belirtmek için "Sayma" özelliğini ayarlayın
+// her liste girinti düzeyine dolgu karakteri yerleştirmek için.
 txtSaveOptions.ListIndentation.Count = 3;
 
 doc.Save(ArtifactsDir + "TxtSaveOptions.TxtListIndentation.txt", txtSaveOptions);

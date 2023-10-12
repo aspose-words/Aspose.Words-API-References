@@ -1,14 +1,14 @@
 ---
 title: DocumentVisitor.VisitCommentRangeStart
 second_title: Aspose.Words per .NET API Reference
-description: DocumentVisitor metodo. Chiamato quando viene rilevato linizio di un intervallo di testo commentato.
+description: DocumentVisitor metodo. Chiamato quando viene incontrato linizio di un intervallo di testo commentato.
 type: docs
 weight: 120
 url: /it/net/aspose.words/documentvisitor/visitcommentrangestart/
 ---
 ## DocumentVisitor.VisitCommentRangeStart method
 
-Chiamato quando viene rilevato l'inizio di un intervallo di testo commentato.
+Chiamato quando viene incontrato l'inizio di un intervallo di testo commentato.
 
 ```csharp
 public virtual VisitorAction VisitCommentRangeStart(CommentRangeStart commentRangeStart)
@@ -24,7 +24,7 @@ UN[`VisitorAction`](../../visitoraction/) valore che specifica come continuare l
 
 ### Esempi
 
-Mostra come stampare la struttura del nodo di ogni commento e intervallo di commenti in un documento.
+Mostra come stampare la struttura dei nodi di ogni commento e intervallo di commenti in un documento.
 
 ```csharp
 public void CommentsToText()
@@ -32,8 +32,8 @@ public void CommentsToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     CommentStructurePrinter visitor = new CommentStructurePrinter();
 
-    // Quando otteniamo un nodo composito per accettare un visitatore del documento, il visitatore visita il nodo di accettazione,
-    // e quindi attraversa tutti i figli del nodo in modo approfondito.
+    // Quando facciamo in modo che un nodo composito accetti un visitatore del documento, il visitatore visita il nodo accettante,
+    // e poi attraversa tutti i figli del nodo in modo approfondito.
     // Il visitatore può leggere e modificare ogni nodo visitato.
     doc.Accept(visitor);
 
@@ -41,8 +41,8 @@ public void CommentsToText()
 }
 
 /// <summary>
-/// Attraversa l'albero non binario di nodi figlio di un nodo.
-/// Crea una mappa sotto forma di una stringa di tutti i nodi Comment/CommentRange incontrati e dei loro figli.
+/// Attraversa l'albero non binario dei nodi figlio di un nodo.
+/// Crea una mappa sotto forma di una stringa di tutti i nodi Comment/CommentRange incontrati e i relativi figli.
 /// </summary>
 public class CommentStructurePrinter : DocumentVisitor
 {
@@ -58,8 +58,8 @@ public class CommentStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando viene rilevato un nodo Run nel documento.
-    /// Un'esecuzione viene registrata solo se è figlia di un nodo Commento o CommentRange.
+    /// Chiamato quando nel documento viene incontrato un nodo Esegui.
+    /// Una corsa viene registrata solo se è figlia di un nodo Comment o CommentRange.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -69,7 +69,7 @@ public class CommentStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando viene rilevato un nodo CommentRangeStart nel documento.
+    /// Chiamato quando nel documento viene rilevato un nodo CommentRangeStart.
     /// </summary>
     public override VisitorAction VisitCommentRangeStart(CommentRangeStart commentRangeStart)
     {
@@ -81,7 +81,7 @@ public class CommentStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando viene rilevato un nodo CommentRangeEnd nel documento.
+    /// Chiamato quando nel documento viene incontrato un nodo CommentRangeEnd.
     /// </summary>
     public override VisitorAction VisitCommentRangeEnd(CommentRangeEnd commentRangeEnd)
     {
@@ -93,7 +93,7 @@ public class CommentStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando viene rilevato un nodo Commento nel documento.
+    /// Chiamato quando nel documento viene incontrato un nodo Commento.
     /// </summary>
     public override VisitorAction VisitCommentStart(Comment comment)
     {
@@ -106,7 +106,7 @@ public class CommentStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato dopo che tutti i nodi figlio di un nodo Comment sono stati visitati.
+    /// Chiamato dopo che tutti i nodi figli di un nodo Commento sono stati visitati.
     /// </summary>
     public override VisitorAction VisitCommentEnd(Comment comment)
     {
@@ -118,10 +118,10 @@ public class CommentStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Aggiunge una riga a StringBuilder e indentala a seconda della profondità del visitatore
-    /// in un albero di nodi figlio di un intervallo di commenti/commenti.
+    /// Aggiungi una riga a StringBuilder e applica un rientro a seconda della profondità del visitatore
+    /// nell'albero dei nodi secondari di un commento/intervallo di commenti.
     /// </summary>
-    /// <nome parametro="testo"></param>
+    /// <param name="text"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++)

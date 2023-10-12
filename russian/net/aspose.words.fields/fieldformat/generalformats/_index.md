@@ -1,14 +1,14 @@
 ---
 title: FieldFormat.GeneralFormats
 second_title: Справочник по API Aspose.Words для .NET
-description: FieldFormat свойство. Получает набор общих форматов которые применяются к числовому текстовому или любому результату поля. Соответствует переключателям .
+description: FieldFormat свойство. Получает коллекцию общих форматов которые применяются к числовым текстовым или любым результатам поля. Соответствует переключателям .
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldformat/generalformats/
 ---
 ## FieldFormat.GeneralFormats property
 
-Получает набор общих форматов, которые применяются к числовому, текстовому или любому результату поля. Соответствует переключателям \*.
+Получает коллекцию общих форматов, которые применяются к числовым, текстовым или любым результатам поля. Соответствует переключателям \*.
 
 ```csharp
 public GeneralFormatCollection GeneralFormats { get; }
@@ -16,7 +16,7 @@ public GeneralFormatCollection GeneralFormats { get; }
 
 ### Примеры
 
-Показывает, как форматировать результаты поля.
+Показывает, как форматировать результаты полей.
 
 ```csharp
 Document doc = new Document();

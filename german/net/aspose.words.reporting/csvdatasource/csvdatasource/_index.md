@@ -1,14 +1,14 @@
 ---
 title: CsvDataSource.CsvDataSource
 second_title: Aspose.Words für .NET-API-Referenz
-description: CsvDataSource constructeur. Erstellt eine neue Datenquelle mit Daten aus einer CSVDatei unter Verwendung von Standardoptionen zum Analysieren von CSVDaten.
+description: CsvDataSource constructeur. Erstellt eine neue Datenquelle mit Daten aus einer CSVDatei unter Verwendung der Standardoptionen zum Parsen von CSVDaten.
 type: docs
 weight: 10
 url: /de/net/aspose.words.reporting/csvdatasource/csvdatasource/
 ---
 ## CsvDataSource(string) {#constructor_2}
 
-Erstellt eine neue Datenquelle mit Daten aus einer CSV-Datei unter Verwendung von Standardoptionen zum Analysieren von CSV-Daten.
+Erstellt eine neue Datenquelle mit Daten aus einer CSV-Datei unter Verwendung der Standardoptionen zum Parsen von CSV-Daten.
 
 ```csharp
 public CsvDataSource(string csvPath)
@@ -50,7 +50,7 @@ public CsvDataSource(string csvPath, CsvDataLoadOptions options)
 
 ## CsvDataSource(Stream) {#constructor}
 
-Erstellt eine neue Datenquelle mit Daten aus einem CSV-Stream unter Verwendung von Standardoptionen zum Analysieren von CSV-Daten.
+Erstellt eine neue Datenquelle mit Daten aus einem CSV-Stream unter Verwendung von Standardoptionen zum Parsen von CSV-Daten.
 
 ```csharp
 public CsvDataSource(Stream csvStream)

@@ -1,14 +1,14 @@
 ---
 title: NodeImporter.ImportNode
 second_title: Aspose.Words per .NET API Reference
-description: NodeImporter metodo. Importa un nodo da un documento a un altro.
+description: NodeImporter metodo. Importa un nodo da un documento in un altro.
 type: docs
 weight: 20
 url: /it/net/aspose.words/nodeimporter/importnode/
 ---
 ## NodeImporter.ImportNode method
 
-Importa un nodo da un documento a un altro.
+Importa un nodo da un documento in un altro.
 
 ```csharp
 public Node ImportNode(Node srcNode, bool isImportChildren)
@@ -17,7 +17,7 @@ public Node ImportNode(Node srcNode, bool isImportChildren)
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | srcNode | Node | Il nodo da importare. |
-| isImportChildren | Boolean | True per importare ricorsivamente tutti i nodi figlio; altrimenti falso. |
+| isImportChildren | Boolean | `VERO` per importare ricorsivamente tutti i nodi figlio; Altrimenti,`falso`. |
 
 ### Valore di ritorno
 
@@ -25,9 +25,9 @@ Il nodo clonato e importato. Il nodo appartiene al documento di destinazione, ma
 
 ### Osservazioni
 
-L'importazione di un nodo crea una copia del nodo di origine appartenente al documento di importazione. Il nodo restituito non ha padre. Il nodo di origine non viene alterato o rimosso dal documento originale.
+L'importazione di un nodo crea una copia del nodo di origine appartenente al documento di importazione. Il nodo restituito non ha genitore. Il nodo di origine non viene alterato o rimosso dal documento originale.
 
-Prima che un nodo di un altro documento possa essere inserito in questo documento, deve essere importato. Durante l'importazione, le proprietà specifiche del documento come i riferimenti a stili ed elenchi vengono tradotte dall'originale al documento di importazione. Dopo che il nodo è stato importato, può essere inserito nella posizione appropriata nel documento utilizzando[`InsertBefore`](../../compositenode/insertbefore/) o [`InsertAfter`](../../compositenode/insertafter/).
+Prima che un nodo di un altro documento possa essere inserito in questo documento, deve essere importato. Durante l'importazione, le proprietà specifiche del documento come i riferimenti a stili ed elenchi vengono tradotte dal documento originale al documento importato. Dopo che il nodo è stato importato, può essere inserito nella posizione appropriata nel documento utilizzandoNode) o Node).
 
 Se il nodo di origine appartiene già al documento di destinazione, viene semplicemente creato un deep clone del nodo di origine.
 
@@ -36,7 +36,6 @@ Se il nodo di origine appartiene già al documento di destinazione, viene sempli
 Mostra come inserire il contenuto di un documento in un segnalibro in un altro documento.
 
 ```csharp
-[Test]
 public void InsertAtBookmark()
 {
     Document doc = new Document();
@@ -73,7 +72,7 @@ static void InsertDocument(Node insertionDestination, Document docToInsert)
             new NodeImporter(docToInsert, insertionDestination.Document, ImportFormatMode.KeepSourceFormatting);
 
         // Passa attraverso tutti i nodi a livello di blocco nel corpo della sezione,
-        // quindi clona e inserisci ogni nodo che non sia l'ultimo paragrafo vuoto di una sezione.
+        // quindi clona e inserisce ogni nodo che non sia l'ultimo paragrafo vuoto di una sezione.
         foreach (Section srcSection in docToInsert.Sections.OfType<Section>())
             foreach (Node srcNode in srcSection.Body)
             {

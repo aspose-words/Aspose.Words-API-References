@@ -1,14 +1,16 @@
 ---
 title: Class FontInfoSubstitutionRule
 second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Fonts.FontInfoSubstitutionRule klas. Ersetzungsregel für Schriftinformationen.
+description: Aspose.Words.Fonts.FontInfoSubstitutionRule klas. SchriftartInfoErsetzungsregel.
 type: docs
-weight: 2760
+weight: 2940
 url: /de/net/aspose.words.fonts/fontinfosubstitutionrule/
 ---
 ## FontInfoSubstitutionRule class
 
-Ersetzungsregel für Schriftinformationen.
+Schriftart-Info-Ersetzungsregel.
+
+Um mehr zu erfahren, besuchen Sie die[Arbeiten mit Schriftarten](https://docs.aspose.com/words/net/working-with-fonts/) Dokumentationsartikel.
 
 ```csharp
 public class FontInfoSubstitutionRule : FontSubstitutionRule
@@ -22,14 +24,13 @@ public class FontInfoSubstitutionRule : FontSubstitutionRule
 
 ### Bemerkungen
 
-Gemäß dieser Regel wertet Aspose.Words alle zugehörigen Felder aus[`FontInfo`](../fontinfo/) (Panose, Sig usw.) for die fehlende Schriftart und findet die beste Übereinstimmung unter den verfügbaren Schriftartquellen. Wenn[`FontInfo`](../fontinfo/) für die fehlende Schriftart nicht verfügbar ist, wird nichts unternommen.
+Gemäß dieser Regel wertet Aspose.Words alle zugehörigen Felder in aus[`FontInfo`](../fontinfo/) (Panose, Sig usw.) for die fehlende Schriftart und findet die beste Übereinstimmung unter den verfügbaren Schriftartquellen. Wenn[`FontInfo`](../fontinfo/)Ist die fehlende Schriftart nicht verfügbar, wird nichts unternommen.
 
 ### Beispiele
 
 Zeigt, wie die Eigenschaft festgelegt wird, um die beste Übereinstimmung für eine fehlende Schriftart aus den verfügbaren Schriftartquellen zu finden.
 
 ```csharp
-[Test]
 public void EnableFontSubstitution()
 {
     // Öffnen Sie ein Dokument, das Text enthält, der mit einer Schriftart formatiert ist, die in keiner unserer Schriftartquellen vorhanden ist.
@@ -45,7 +46,10 @@ public void EnableFontSubstitution()
     ;
     fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 
-    // Wir erhalten eine Schriftersetzungswarnung, wenn wir ein Dokument mit einer fehlenden Schrift speichern.
+    // Nach der Schriftartersetzung sollten die ursprünglichen Schriftartmetriken verwendet werden.
+    doc.LayoutOptions.KeepOriginalFontMetrics = true;
+
+    // Wir erhalten eine Warnung zur Schriftartersetzung, wenn wir ein Dokument mit einer fehlenden Schriftart speichern.
     doc.FontSettings = fontSettings;
     doc.Save(ArtifactsDir + "FontSettings.EnableFontSubstitution.pdf");
 
@@ -67,7 +71,7 @@ public void EnableFontSubstitution()
 public class HandleDocumentSubstitutionWarnings : IWarningCallback
 {
     /// <summary>
-    /// Wird jedes Mal aufgerufen, wenn während des Ladens/Speicherns eine Warnung auftritt.
+    /// Wird jedes Mal aufgerufen, wenn beim Laden/Speichern eine Warnung auftritt.
     /// </summary>
     public void Warning(WarningInfo info)
     {

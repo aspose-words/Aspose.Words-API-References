@@ -3,7 +3,7 @@ title: Enum CssStyleSheetType
 second_title: Aspose.Words لمراجع .NET API
 description: Aspose.Words.Saving.CssStyleSheetType تعداد. يحدد كيفية تصدير أنماط CSS ورقة الأنماط المتتالية إلى HTML.
 type: docs
-weight: 4630
+weight: 4890
 url: /ar/net/aspose.words.saving/cssstylesheettype/
 ---
 ## CssStyleSheetType enumeration
@@ -18,9 +18,9 @@ public enum CssStyleSheetType
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| Inline | `0` | تتم كتابة أنماط CSS مضمنة (كقيمة لملف **نمط** السمة على كل عنصر) . |
-| Embedded | `1` | تتم كتابة أنماط CSS بشكل منفصل عن المحتوى الموجود في ورقة أنماط مضمنة في ملف HTML. |
-| External | `2` | تتم كتابة أنماط CSS بشكل منفصل عن المحتوى الموجود في ورقة أنماط في ملف خارجي. يربط ملف HTML ورقة الأنماط. |
+| Inline | `0` | تتم كتابة أنماط CSS بشكل مضمن (كقيمة لـ **أسلوب** سمة على كل عنصر). |
+| Embedded | `1` | تتم كتابة أنماط CSS بشكل منفصل عن المحتوى في ورقة الأنماط المضمنة في ملف HTML. |
+| External | `2` | تتم كتابة أنماط CSS بشكل منفصل عن المحتوى الموجود في ورقة الأنماط في ملف خارجي. يربط ملف HTML ورقة الأنماط. |
 
 ### أمثلة
 
@@ -31,19 +31,19 @@ public void ExternalCssFilenames()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
-    // قم بإنشاء كائن "HtmlFixedSaveOptions" ، والذي يمكننا تمريره إلى طريقة "Save" الخاصة بالمستند
+    // قم بإنشاء كائن "HtmlFixedSaveOptions"، والذي يمكننا تمريره إلى طريقة "حفظ" المستند
     // لتعديل كيفية تحويل المستند إلى HTML.
     HtmlSaveOptions options = new HtmlSaveOptions();
 
-    // عيّن الخاصية "CssStylesheetType" على "CssStyleSheetType.External" على
-    // إرفاق مستند HTML محفوظ بملف ورقة أنماط CSS خارجي.
+    // قم بتعيين خاصية "CssStylesheetType" على "CssStyleSheetType.External" إلى
+    // قم بإرفاق مستند HTML محفوظ بملف ورقة أنماط CSS خارجي.
     options.CssStyleSheetType = CssStyleSheetType.External;
 
-    // فيما يلي طريقتان لتحديد الدلائل وأسماء الملفات لأوراق أنماط الإخراج CSS.
-    // 1 - استخدم خاصية "CssStyleSheetFileName" لتعيين اسم ملف إلى ورقة الأنماط الخاصة بنا:
+    // فيما يلي طريقتان لتحديد الدلائل وأسماء الملفات لأوراق أنماط CSS الناتجة.
+    // 1 - استخدم خاصية "CssStyleSheetFileName" لتعيين اسم ملف لورقة الأنماط الخاصة بنا:
     options.CssStyleSheetFileName = ArtifactsDir + "SavingCallback.ExternalCssFilenames.css";
 
-    // 2 - استخدم رد اتصال مخصص لتسمية ورقة الأنماط الخاصة بنا:
+    // 2 - استخدم رد اتصال مخصصًا لتسمية ورقة الأنماط الخاصة بنا:
     options.CssSavingCallback =
         new CustomCssSavingCallback(ArtifactsDir + "SavingCallback.ExternalCssFilenames.css", true, false);
 
@@ -51,7 +51,7 @@ public void ExternalCssFilenames()
 }
 
 /// <summary>
-/// يعين اسم ملف مخصص ، مع معلمات أخرى لورقة أنماط CSS خارجية.
+/// يعين اسم ملف مخصصًا، بالإضافة إلى معلمات أخرى لورقة أنماط CSS خارجية.
 /// </summary>
 private class CustomCssSavingCallback : ICssSavingCallback
 {
@@ -64,7 +64,7 @@ private class CustomCssSavingCallback : ICssSavingCallback
 
     public void CssSaving(CssSavingArgs args)
     {
-        // يمكننا الوصول إلى المستند المصدر بالكامل عبر خاصية "المستند".
+        // يمكننا الوصول إلى المستند المصدر بأكمله عبر خاصية "المستند".
         Assert.True(args.Document.OriginalFileName.EndsWith("Rendering.docx"));
 
         args.CssStream = new FileStream(mCssTextFileName, FileMode.Create);

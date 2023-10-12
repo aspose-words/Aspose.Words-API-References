@@ -1,14 +1,14 @@
 ---
 title: PageSetup.BorderAlwaysInFront
 second_title: Aspose.Words لمراجع .NET API
-description: PageSetup ملكية. يحدد مكان حد الصفحة بالنسبة للنصوص والكائنات المتقاطعة.
+description: PageSetup ملكية. يحدد مكان وضع حدود الصفحة بالنسبة للنصوص والكائنات المتقاطعة.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/pagesetup/borderalwaysinfront/
 ---
 ## PageSetup.BorderAlwaysInFront property
 
-يحدد مكان حد الصفحة بالنسبة للنصوص والكائنات المتقاطعة.
+يحدد مكان وضع حدود الصفحة بالنسبة للنصوص والكائنات المتقاطعة.
 
 ```csharp
 public bool BorderAlwaysInFront { get; set; }
@@ -16,7 +16,7 @@ public bool BorderAlwaysInFront { get; set; }
 
 ### أمثلة
 
-يوضح كيفية إنشاء حد شريط أزرق عريض أعلى الصفحة الأولى.
+يوضح كيفية إنشاء حد شريطي أزرق عريض في أعلى الصفحة الأولى.
 
 ```csharp
 Document doc = new Document();

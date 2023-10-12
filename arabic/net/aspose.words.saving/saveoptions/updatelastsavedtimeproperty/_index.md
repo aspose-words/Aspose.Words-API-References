@@ -1,14 +1,14 @@
 ---
 title: SaveOptions.UpdateLastSavedTimeProperty
 second_title: Aspose.Words لمراجع .NET API
-description: SaveOptions ملكية. الحصول على أو تعيين قيمة تحدد ما إذا كان ملفLastSavedTime يتم تحديث الخاصية قبل الحفظ.
+description: SaveOptions ملكية. الحصول على أو تعيين قيمة لتحديد ما إذا كانLastSavedTime يتم تحديث الخاصية قبل الحفظ.
 type: docs
-weight: 190
+weight: 180
 url: /ar/net/aspose.words.saving/saveoptions/updatelastsavedtimeproperty/
 ---
 ## SaveOptions.UpdateLastSavedTimeProperty property
 
-الحصول على أو تعيين قيمة تحدد ما إذا كان ملف[`LastSavedTime`](../../../aspose.words.properties/builtindocumentproperties/lastsavedtime/) يتم تحديث الخاصية قبل الحفظ.
+الحصول على أو تعيين قيمة لتحديد ما إذا كان[`LastSavedTime`](../../../aspose.words.properties/builtindocumentproperties/lastsavedtime/) يتم تحديث الخاصية قبل الحفظ.
 
 ```csharp
 public bool UpdateLastSavedTimeProperty { get; set; }
@@ -16,7 +16,7 @@ public bool UpdateLastSavedTimeProperty { get; set; }
 
 ### أمثلة
 
-يوضح كيفية تحديد ما إذا كان سيتم الاحتفاظ بخاصية "آخر وقت تم حفظه" عند الحفظ.
+يوضح كيفية تحديد ما إذا كان سيتم الاحتفاظ بخاصية "آخر وقت تم حفظه" للمستند عند الحفظ.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -24,12 +24,12 @@ Document doc = new Document(MyDir + "Document.docx");
 Assert.AreEqual(new DateTime(2021, 5, 11, 6, 32, 0), 
     doc.BuiltInDocumentProperties.LastSavedTime);
 
-// عندما نحفظ المستند بتنسيق OOXML ، يمكننا إنشاء كائن OoxmlSaveOptions
+// عندما نحفظ المستند بتنسيق OOXML، يمكننا إنشاء كائن OoxmlSaveOptions
 // ثم قم بتمريره إلى طريقة حفظ المستند لتعديل كيفية حفظ المستند.
-// اضبط خاصية "UpdateLastSavedTimeProperty" على "true" إلى
-// قم بتعيين الخاصية المضمنة "آخر وقت تم حفظه" للمستند الناتج على التاريخ / الوقت الحالي.
-// اضبط خاصية "UpdateLastSavedTimeProperty" على "false" إلى
-// الحفاظ على القيمة الأصلية للخاصية المضمنة "آخر وقت تم توفيره" في مستند الإدخال.
+// قم بتعيين خاصية "UpdateLastSavedTimeProperty" على "صحيح" لـ
+// قم بتعيين الخاصية المضمنة "آخر وقت تم حفظه" للمستند الناتج على التاريخ/الوقت الحالي.
+// قم بتعيين خاصية "UpdateLastSavedTimeProperty" على "خطأ" لـ
+// الحفاظ على القيمة الأصلية للخاصية المضمنة "آخر وقت تم حفظه" في مستند الإدخال.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
 saveOptions.UpdateLastSavedTimeProperty = updateLastSavedTimeProperty;
 

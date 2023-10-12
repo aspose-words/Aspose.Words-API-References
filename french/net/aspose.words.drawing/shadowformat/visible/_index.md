@@ -16,7 +16,22 @@ public bool Visible { get; }
 
 ### Remarques
 
-Contrairement[`Clear`](../clear/) , attribuant`faux` sur Visible n'efface pas la mise en forme, il masque uniquement l'effet de forme.
+Contrairement[`Clear`](../clear/) , assignant`FAUX` to Visible n'efface pas le formatage, il masque uniquement l'effet de forme.
+
+### Exemples
+
+Montre comment utiliser un formatage d’ombre pour la forme.
+
+```csharp
+Document doc = new Document(MyDir + "Shape stroke pattern border.docx");
+Shape shape = (Shape)doc.GetChildNodes(NodeType.Shape, true)[0];
+
+if (shape.ShadowFormat.Visible && shape.ShadowFormat.Type == ShadowType.Shadow2)                
+    shape.ShadowFormat.Type = ShadowType.Shadow7;
+
+if (shape.ShadowFormat.Type == ShadowType.ShadowMixed)            
+    shape.ShadowFormat.Clear();
+```
 
 ### Voir également
 

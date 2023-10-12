@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTagRangeEnd.StructuredDocumentTagRangeEnd
 second_title: Référence de l'API Aspose.Words pour .NET
-description: StructuredDocumentTagRangeEnd constructeur. Initialise une nouvelle instance du Fin de plage de balises de document structuré classe.
+description: StructuredDocumentTagRangeEnd constructeur. Initialise une nouvelle instance du Fin de la plage de balises de document structuré classe.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.markup/structureddocumenttagrangeend/structureddocumenttagrangeend/
 ---
 ## StructuredDocumentTagRangeEnd constructor
 
-Initialise une nouvelle instance du **Fin de plage de balises de document structuré** classe.
+Initialise une nouvelle instance du **Fin de la plage de balises de document structuré** classe.
 
 ```csharp
 public StructuredDocumentTagRangeEnd(DocumentBase doc, int id)
@@ -17,13 +17,14 @@ public StructuredDocumentTagRangeEnd(DocumentBase doc, int id)
 | Paramètre | Taper | La description |
 | --- | --- | --- |
 | doc | DocumentBase | Le document du propriétaire. |
-| id | Int32 | Identifiant du début de plage de balises de document structuré correspondant. |
+| id | Int32 | Identifiant du début de la plage de balises du document structuré correspondant. |
 
 ### Exemples
 
 Montre comment créer/supprimer une balise de document structuré et son contenu.
 
 ```csharp
+public void SdtRangeExtendedMethods()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);

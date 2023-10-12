@@ -3,12 +3,14 @@ title: Class BaseWebExtensionCollectionT
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.WebExtensions.BaseWebExtensionCollection1T klass. Basklass förTaskPaneCollection WebExtensionBindingCollection  WebExtensionPropertyCollection ochWebExtensionReferenceCollection samlingar.
 type: docs
-weight: 6390
+weight: 6700
 url: /sv/net/aspose.words.webextensions/basewebextensioncollection-1/
 ---
 ## BaseWebExtensionCollection&lt;T&gt; class
 
 Basklass för[`TaskPaneCollection`](../taskpanecollection/) ,[`WebExtensionBindingCollection`](../webextensionbindingcollection/) , [`WebExtensionPropertyCollection`](../webextensionpropertycollection/) och[`WebExtensionReferenceCollection`](../webextensionreferencecollection/) samlingar.
+
+För att lära dig mer, besök[Arbeta med Office-tillägg](https://docs.aspose.com/words/net/work-with-office-add-ins/) dokumentationsartikel.
 
 ```csharp
 public abstract class BaseWebExtensionCollection<T> : IEnumerable<T>

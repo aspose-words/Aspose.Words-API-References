@@ -3,7 +3,7 @@ title: Enum TableStyleOptions
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.Tables.TableStyleOptions énumération. Spécifie comment le style de tableau est appliqué à un tableau.
 type: docs
-weight: 6070
+weight: 6370
 url: /fr/net/aspose.words.tables/tablestyleoptions/
 ---
 ## TableStyleOptions enumeration
@@ -19,14 +19,14 @@ public enum TableStyleOptions
 
 | Nom | Évaluer | La description |
 | --- | --- | --- |
-| None | `0` | Aucune mise en forme de style de tableau n'est appliquée. |
+| None | `0` | Aucun formatage de style de tableau n'est appliqué. |
 | FirstRow | `20` | Appliquer la mise en forme conditionnelle de la première ligne. |
 | LastRow | `40` | Appliquer la mise en forme conditionnelle de la dernière ligne. |
-| FirstColumn | `80` | Appliquez 1 mise en forme conditionnelle à la première colonne. |
+| FirstColumn | `80` | Appliquer la mise en forme conditionnelle d'une première colonne. |
 | LastColumn | `100` | Appliquer la mise en forme conditionnelle de la dernière colonne. |
 | RowBands | `200` | Appliquer la mise en forme conditionnelle des bandes de lignes. |
 | ColumnBands | `400` | Appliquer la mise en forme conditionnelle des bandes de colonnes. |
-| Default2003 | `600` | Les bandes de ligne et de colonne sont appliquées. Il s'agit de la valeur par défaut de Microsoft Word pour les anciens formats tels que DOC, WML et RTF. |
+| Default2003 | `600` | Les bandes de lignes et de colonnes sont appliquées. Il s'agit de la valeur par défaut de Microsoft Word pour les anciens formats tels que DOC, WML et RTF. |
 | Default | `2A0` | Il s'agit des valeurs par défaut de Microsoft Word. |
 
 ### Exemples
@@ -38,14 +38,14 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 Table table = builder.StartTable();
 
-// Nous devons insérer au moins une ligne avant de définir la mise en forme du tableau.
+// Nous devons insérer au moins une ligne avant de définir un formatage de tableau.
 builder.InsertCell();
 
 // Définit le style de tableau utilisé en fonction de l'identifiant de style.
 // Notez que tous les styles de tableau ne sont pas disponibles lors de l'enregistrement au format .doc.
 table.StyleIdentifier = StyleIdentifier.MediumShading1Accent1;
 
-// Appliquez partiellement le style aux fonctionnalités de la table en fonction des prédicats, puis construisez la table.
+// Applique partiellement le style aux fonctionnalités de la table en fonction des prédicats, puis construit la table.
 table.StyleOptions =
     TableStyleOptions.FirstColumn | TableStyleOptions.RowBands | TableStyleOptions.FirstRow;
 table.AutoFit(AutoFitBehavior.AutoFitToContents);

@@ -1,14 +1,14 @@
 ---
 title: Fill.Pattern
 second_title: Aspose.Words for .NET API Referansı
-description: Fill mülk. PatternType dolgu için.
+description: Fill mülk. Bir alırPatternType dolgu için.
 type: docs
-weight: 100
+weight: 160
 url: /tr/net/aspose.words.drawing/fill/pattern/
 ---
 ## Fill.Pattern property
 
-[`PatternType`](../../patterntype/) dolgu için.
+Bir alır[`PatternType`](../../patterntype/) dolgu için.
 
 ```csharp
 public PatternType Pattern { get; }

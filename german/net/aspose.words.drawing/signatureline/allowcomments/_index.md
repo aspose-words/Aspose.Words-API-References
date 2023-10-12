@@ -1,14 +1,14 @@
 ---
 title: SignatureLine.AllowComments
 second_title: Aspose.Words für .NET-API-Referenz
-description: SignatureLine eigendom. Ruft einen Wert ab oder legt einen Wert fest der angibt dass der Unterzeichner Kommentare im Dialogfeld Signieren hinzufügen kann. Der Standardwert für diese Eigenschaft ist FALSCH .
+description: SignatureLine eigendom. Ruft einen Wert ab oder legt diesen fest der angibt dass der Unterzeichner im Dialogfeld Signieren Kommentare hinzufügen kann. Der Standardwert für diese Eigenschaft istFALSCH .
 type: docs
 weight: 10
 url: /de/net/aspose.words.drawing/signatureline/allowcomments/
 ---
 ## SignatureLine.AllowComments property
 
-Ruft einen Wert ab oder legt einen Wert fest, der angibt, dass der Unterzeichner Kommentare im Dialogfeld „Signieren“ hinzufügen kann. Der Standardwert für diese Eigenschaft ist **FALSCH** .
+Ruft einen Wert ab oder legt diesen fest, der angibt, dass der Unterzeichner im Dialogfeld „Signieren“ Kommentare hinzufügen kann. Der Standardwert für diese Eigenschaft ist`FALSCH` .
 
 ```csharp
 public bool AllowComments { get; set; }
@@ -33,10 +33,10 @@ SignatureLineOptions options = new SignatureLineOptions
     SignerTitle = "Senior Manager"
 };
 
-// Fügen Sie eine Form ein, die eine Signaturlinie enthält, deren Aussehen wir festlegen werden
-// Anpassen mit dem oben erstellten "SignatureLineOptions"-Objekt.
-// Wenn wir eine Form einfügen, deren Koordinaten von der rechten unteren Ecke der Seite stammen,
-// Wir müssen negative x- und y-Koordinaten angeben, um die Form sichtbar zu machen.
+// Fügen Sie eine Form ein, die eine Signaturlinie enthält, deren Aussehen wir festlegen
+// Anpassen mit dem „SignatureLineOptions“-Objekt, das wir oben erstellt haben.
+// Wenn wir eine Form einfügen, deren Koordinaten aus der unteren rechten Ecke der Seite stammen,
+// Wir müssen negative X- und Y-Koordinaten angeben, um die Form sichtbar zu machen.
 Shape shape = builder.InsertSignatureLine(options, RelativeHorizontalPosition.RightMargin, -170.0, 
         RelativeVerticalPosition.BottomMargin, -60.0, WrapType.None);
 

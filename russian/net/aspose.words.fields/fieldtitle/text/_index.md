@@ -21,7 +21,7 @@ public string Text { get; set; }
 ```csharp
 Document doc = new Document();
 
- // Задаем значение для встроенного свойства документа "Заголовок".
+ // Устанавливаем значение для встроенного свойства документа "Заголовок".
 doc.BuiltInDocumentProperties.Title = "My Title";
 
 // Мы можем использовать поле TITLE для отображения значения этого свойства в документе.
@@ -32,8 +32,8 @@ field.Update();
 Assert.AreEqual(" TITLE ", field.GetFieldCode());
 Assert.AreEqual("My Title", field.Result);
 
-// Установка значения для свойства Text поля,
-// и последующее обновление поля также перезапишет соответствующее встроенное свойство новым значением.
+// Установка значения свойства Text поля,
+// а затем обновление поля также перезапишет соответствующее встроенное свойство новым значением.
 builder.Writeln();
 field = (FieldTitle)builder.InsertField(FieldType.FieldTitle, false);
 field.Text = "My New Title";

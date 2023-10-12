@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTagRangeEnd.Id
 second_title: Aspose.Words per .NET API Reference
-description: StructuredDocumentTagRangeEnd proprietà. Specifica un ID numerico persistente di sola lettura univoco per questo StructuredDocumentTagRange nodo. CorrispondenteStructuredDocumentTagRangeStart nodo ha lo stessoId .
+description: StructuredDocumentTagRangeEnd proprietà. Specifica un ID numerico persistente univoco di sola lettura per questo Intervallo tag documento strutturato nodo. CorrispondenteStructuredDocumentTagRangeStart il nodo ha lo stessoId .
 type: docs
 weight: 20
 url: /it/net/aspose.words.markup/structureddocumenttagrangeend/id/
 ---
 ## StructuredDocumentTagRangeEnd.Id property
 
-Specifica un ID numerico persistente di sola lettura univoco per questo **StructuredDocumentTagRange** nodo. Corrispondente[`StructuredDocumentTagRangeStart`](../../structureddocumenttagrangestart/) nodo ha lo stesso[`Id`](../../structureddocumenttagrangestart/id/) .
+Specifica un ID numerico persistente univoco di sola lettura per questo **Intervallo tag documento strutturato** nodo. Corrispondente[`StructuredDocumentTagRangeStart`](../../structureddocumenttagrangestart/) il nodo ha lo stesso[`Id`](../../structureddocumenttagrangestart/id/) .
 
 ```csharp
 public int Id { get; }

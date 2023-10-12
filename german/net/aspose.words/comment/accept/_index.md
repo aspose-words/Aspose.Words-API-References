@@ -3,7 +3,7 @@ title: Comment.Accept
 second_title: Aspose.Words für .NET-API-Referenz
 description: Comment methode. Akzeptiert einen Besucher.
 type: docs
-weight: 110
+weight: 120
 url: /de/net/aspose.words/comment/accept/
 ---
 ## Comment.Accept method
@@ -20,19 +20,19 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Rückgabewert
 
-True, wenn alle Knoten besucht wurden; false, wenn DocumentVisitor den Vorgang beendet hat, bevor alle Knoten besucht wurden.
+True, wenn alle Knoten besucht wurden; falsch wenn[`DocumentVisitor`](../../documentvisitor/) stoppte den Vorgang, bevor alle Knoten besucht wurden.
 
 ### Bemerkungen
 
-Listet diesen Knoten und alle seine untergeordneten Elemente auf. Jeder Knoten ruft eine entsprechende Methode auf DocumentVisitor auf.
+Listet diesen Knoten und alle seine untergeordneten Knoten auf. Jeder Knoten ruft eine entsprechende Methode auf[`DocumentVisitor`](../../documentvisitor/).
 
-Weitere Informationen finden Sie im Besucher-Entwurfsmuster.
+Weitere Informationen finden Sie im Visitor-Entwurfsmuster.
 
-Anrufe[`VisitCommentStart`](../../documentvisitor/visitcommentstart/) , ruft dann an[`Accept`](../../node/accept/) für all untergeordnete Knoten des Kommentars und der Aufrufe[`VisitCommentEnd`](../../documentvisitor/visitcommentend/) am Ende.
+Anrufe[`VisitCommentStart`](../../documentvisitor/visitcommentstart/) , dann ruft[`Accept`](../../node/accept/) für alle untergeordneten Knoten des Kommentars und der Aufrufe[`VisitCommentEnd`](../../documentvisitor/visitcommentend/) am Ende.
 
 ### Beispiele
 
-Zeigt, wie der Inhalt aller Kommentare und ihre Kommentarbereiche mithilfe eines Dokumentbesuchers gedruckt werden.
+Zeigt, wie der Inhalt aller Kommentare und deren Kommentarbereiche mithilfe eines Dokumentbesuchers gedruckt wird.
 
 ```csharp
 public void CreateCommentsAndPrintAllInfo()
@@ -48,14 +48,14 @@ public void CreateCommentsAndPrintAllInfo()
 
     newComment.SetText("Comment regarding text.");
 
-    // Fügen Sie dem Dokument Text hinzu, verzerren Sie es in einen Kommentarbereich und fügen Sie dann Ihren Kommentar hinzu.
+    // Fügen Sie dem Dokument Text hinzu, verzerren Sie ihn in einem Kommentarbereich und fügen Sie dann Ihren Kommentar hinzu.
     Paragraph para = doc.FirstSection.Body.FirstParagraph;
     para.AppendChild(new CommentRangeStart(doc, newComment.Id));
     para.AppendChild(new Run(doc, "Commented text."));
     para.AppendChild(new CommentRangeEnd(doc, newComment.Id));
     para.AppendChild(newComment); 
 
-    // Dem Kommentar zwei Antworten hinzufügen.
+    // Zwei Antworten zum Kommentar hinzufügen.
     newComment.AddReply("John Doe", "JD", DateTime.Now, "New reply.");
     newComment.AddReply("John Doe", "JD", DateTime.Now, "Another reply.");
 
@@ -63,26 +63,26 @@ public void CreateCommentsAndPrintAllInfo()
 }
 
 /// <summary>
-/// Iteriert über jeden Kommentar der obersten Ebene und gibt dessen Kommentarbereich, Inhalt und Antworten aus.
+/// Durchläuft jeden Kommentar der obersten Ebene und gibt dessen Kommentarbereich, Inhalte und Antworten aus.
 /// </summary>
 private static void PrintAllCommentInfo(NodeCollection comments)
 {
     CommentInfoPrinter commentVisitor = new CommentInfoPrinter();
 
-    // Über alle Kommentare der obersten Ebene iterieren. Im Gegensatz zu Kommentaren vom Antworttyp haben Kommentare auf oberster Ebene keinen Vorfahren.
+    // Alle Kommentare der obersten Ebene durchlaufen. Im Gegensatz zu Kommentaren vom Typ „Antwort“ haben Kommentare der obersten Ebene keinen Vorfahren.
     foreach (Comment comment in comments.Where(c => ((Comment)c).Ancestor == null))
     {
-        // Besuchen Sie zuerst den Anfang des Kommentarbereichs.
+        // Besuchen Sie zunächst den Anfang des Kommentarbereichs.
         CommentRangeStart commentRangeStart = (CommentRangeStart)comment.PreviousSibling.PreviousSibling.PreviousSibling;
         commentRangeStart.Accept(commentVisitor);
 
-        // Besuchen Sie dann den Kommentar und alle Antworten, die er möglicherweise enthält.
+        // Dann besuchen Sie den Kommentar und eventuelle Antworten.
         comment.Accept(commentVisitor);
 
         foreach (Comment reply in comment.Replies)
             reply.Accept(commentVisitor);
 
-        // Besuchen Sie schließlich das Ende des Kommentarbereichs und drucken Sie dann den Textinhalt des Besuchers aus.
+        // Besuchen Sie abschließend das Ende des Kommentarbereichs und drucken Sie dann den Textinhalt des Besuchers aus.
         CommentRangeEnd commentRangeEnd = (CommentRangeEnd)comment.PreviousSibling;
         commentRangeEnd.Accept(commentVisitor);
 
@@ -91,7 +91,7 @@ private static void PrintAllCommentInfo(NodeCollection comments)
 }
 
 /// <summary>
-/// Gibt Informationen und Inhalte aller Kommentare und Kommentarbereiche aus, die im Dokument vorkommen.
+/// Druckt Informationen und Inhalte aller im Dokument vorkommenden Kommentare und Kommentarbereiche.
 /// </summary>
 public class CommentInfoPrinter : DocumentVisitor
 {
@@ -102,7 +102,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Ruft den Klartext des Dokuments ab, das vom Besucher angesammelt wurde.
+    /// Ruft den Klartext des vom Besucher gesammelten Dokuments ab.
     /// </summary>
     public string GetText()
     {
@@ -169,7 +169,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Eine Zeile an den StringBuilder anhängen und einrücken, je nachdem, wie tief der Besucher in den Dokumentenbaum eindringt.
+    /// Hängen Sie eine Zeile an den StringBuilder an und rücken Sie sie ein, je nachdem, wie tief sich der Besucher im Dokumentbaum befindet.
     /// </summary>
     /// <param name="text"></param>
     private void IndentAndAppendLine(string text)

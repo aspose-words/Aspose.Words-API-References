@@ -1,14 +1,14 @@
 ---
 title: FieldHyperlink.Target
 second_title: Aspose.Words für .NET-API-Referenz
-description: FieldHyperlink eigendom. Holt oder setzt das Ziel zu dem der Link umgeleitet werden soll.
+description: FieldHyperlink eigendom. Ruft das Ziel ab zu dem der Link umgeleitet werden soll oder legt dieses fest.
 type: docs
 weight: 70
 url: /de/net/aspose.words.fields/fieldhyperlink/target/
 ---
 ## FieldHyperlink.Target property
 
-Holt oder setzt das Ziel, zu dem der Link umgeleitet werden soll.
+Ruft das Ziel ab, zu dem der Link umgeleitet werden soll, oder legt dieses fest.
 
 ```csharp
 public string Target { get; set; }
@@ -16,7 +16,7 @@ public string Target { get; set; }
 
 ### Beispiele
 
-Zeigt, wie HYPERLINK-Felder verwendet werden, um auf Dokumente im lokalen Dateisystem zu verlinken.
+Zeigt, wie HYPERLINK-Felder zum Verknüpfen mit Dokumenten im lokalen Dateisystem verwendet werden.
 
 ```csharp
 Document doc = new Document();
@@ -25,7 +25,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 FieldHyperlink field = (FieldHyperlink)builder.InsertField(FieldType.FieldHyperlink, true);
 
 // Wenn wir in Microsoft Word auf dieses HYPERLINK-Feld klicken,
-// Es öffnet das verknüpfte Dokument und setzt dann den Cursor auf das angegebene Lesezeichen.
+// Es öffnet das verknüpfte Dokument und platziert den Cursor dann auf dem angegebenen Lesezeichen.
 field.Address = MyDir + "Bookmarks.docx";
 field.SubAddress = "MyBookmark3";
 field.ScreenTip = "Open " + field.Address + " on bookmark " + field.SubAddress + " in a new window";

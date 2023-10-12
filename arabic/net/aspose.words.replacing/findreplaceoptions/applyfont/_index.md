@@ -16,9 +16,10 @@ public Font ApplyFont { get; }
 
 ### أمثلة
 
-يوضح كيفية تطبيق خط مختلف على محتوى جديد عبر FindReplaceOptions.
+يوضح كيفية تطبيق خط مختلف على المحتوى الجديد عبر FindReplaceOptions.
 
 ```csharp
+public void ConvertNumbersToHexadecimal()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -30,7 +31,7 @@ public Font ApplyFont { get; }
     // يمكننا استخدام كائن "FindReplaceOptions" لتعديل عملية البحث والاستبدال.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // اضبط خاصية "HighlightColor" على لون الخلفية الذي نريد تطبيقه على النص الناتج للعملية.
+    // قم بتعيين خاصية "HighlightColor" على لون الخلفية الذي نريد تطبيقه على النص الناتج عن العملية.
     options.ApplyFont.HighlightColor = Color.LightGray;
 
     NumberHexer numberHexer = new NumberHexer();

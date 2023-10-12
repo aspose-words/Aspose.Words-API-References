@@ -1,14 +1,14 @@
 ---
 title: Field.IsLocked
 second_title: Aspose.Words for .NET API Referansı
-description: Field mülk. Alanın kilitli olup olmadığını alır veya ayarlar sonucunu yeniden hesaplamamalıdır.
+description: Field mülk. Alanın kilitli olup olmadığını alır veya ayarlar sonucu yeniden hesaplanmamalıdır.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.fields/field/islocked/
 ---
 ## Field.IsLocked property
 
-Alanın kilitli olup olmadığını alır veya ayarlar (sonucunu yeniden hesaplamamalıdır).
+Alanın kilitli olup olmadığını alır veya ayarlar (sonucu yeniden hesaplanmamalıdır).
 
 ```csharp
 public bool IsLocked { get; set; }
@@ -38,7 +38,7 @@ field = (FieldDate)fieldStart.GetField();
 Assert.AreEqual(false, field.IsLocked);
 Assert.AreEqual(" DATE  \\@ \"dddd, MMMM dd, yyyy\"", field.GetFieldCode());
 
-// Geçerli tarihi göstermek için alanı güncelleyin.
+// Geçerli tarihi gösterecek şekilde alanı güncelleyin.
 field.Update();
 ```
 

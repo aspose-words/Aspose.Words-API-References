@@ -1,14 +1,14 @@
 ---
 title: GraphicsQualityOptions.CompositingQuality
 second_title: Справочник по API Aspose.Words для .NET
-description: GraphicsQualityOptions свойство. Получает или задает качество рендеринга составных изображений нарисованных на этом объекте Graphics.
+description: GraphicsQualityOptions свойство. Получает или задает качество рендеринга составных изображений нарисованных в этом объекте Graphics.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.saving/graphicsqualityoptions/compositingquality/
 ---
 ## GraphicsQualityOptions.CompositingQuality property
 
-Получает или задает качество рендеринга составных изображений, нарисованных на этом объекте Graphics.
+Получает или задает качество рендеринга составных изображений, нарисованных в этом объекте Graphics.
 
 ```csharp
 public CompositingQuality? CompositingQuality { get; set; }
@@ -16,7 +16,7 @@ public CompositingQuality? CompositingQuality { get; set; }
 
 ### Примеры
 
-Показывает, как установить параметры качества рендеринга при преобразовании документов в форматы изображений.
+Показывает, как настроить параметры качества рендеринга при преобразовании документов в форматы изображений.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

@@ -23,11 +23,11 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Signed PDF contents.");
 
-// Crée un objet "PdfSaveOptions" que nous pouvons passer à la méthode "Save" du document
+// Crée un objet "PdfSaveOptions" que l'on peut passer à la méthode "Save" du document
 // pour modifier la façon dont cette méthode convertit le document en .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
- // Créez une signature numérique et attribuez-la à notre objet SaveOptions pour signer le document lorsque nous l'enregistrons au format PDF.
+// Créez une signature numérique et attribuez-la à notre objet SaveOptions pour signer le document lorsque nous l'enregistrons au format PDF.
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
 options.DigitalSignatureDetails = new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "Aspose Office", DateTime.Now);
 
@@ -69,7 +69,7 @@ public PdfDigitalSignatureTimestampSettings(string serverUrl, string userName, s
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| serverUrl | String | URL du serveur d'horodatage. |
+| serverUrl | String | URL du serveur d’horodatage. |
 | userName | String | Nom d'utilisateur du serveur d'horodatage. |
 | password | String | Mot de passe du serveur d'horodatage. |
 
@@ -82,11 +82,11 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Signed PDF contents.");
 
-// Crée un objet "PdfSaveOptions" que nous pouvons passer à la méthode "Save" du document
+// Crée un objet "PdfSaveOptions" que l'on peut passer à la méthode "Save" du document
 // pour modifier la façon dont cette méthode convertit le document en .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
- // Créez une signature numérique et attribuez-la à notre objet SaveOptions pour signer le document lorsque nous l'enregistrons au format PDF.
+// Créez une signature numérique et attribuez-la à notre objet SaveOptions pour signer le document lorsque nous l'enregistrons au format PDF.
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
 options.DigitalSignatureDetails = new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "Aspose Office", DateTime.Now);
 
@@ -129,7 +129,7 @@ public PdfDigitalSignatureTimestampSettings(string serverUrl, string userName, s
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| serverUrl | String | URL du serveur d'horodatage. |
+| serverUrl | String | URL du serveur d’horodatage. |
 | userName | String | Nom d'utilisateur du serveur d'horodatage. |
 | password | String | Mot de passe du serveur d'horodatage. |
 | timeout | TimeSpan | Valeur du délai d'attente pour accéder au serveur d'horodatage. |
@@ -143,11 +143,11 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Signed PDF contents.");
 
-// Crée un objet "PdfSaveOptions" que nous pouvons passer à la méthode "Save" du document
+// Crée un objet "PdfSaveOptions" que l'on peut passer à la méthode "Save" du document
 // pour modifier la façon dont cette méthode convertit le document en .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
- // Créez une signature numérique et attribuez-la à notre objet SaveOptions pour signer le document lorsque nous l'enregistrons au format PDF.
+// Créez une signature numérique et attribuez-la à notre objet SaveOptions pour signer le document lorsque nous l'enregistrons au format PDF.
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
 options.DigitalSignatureDetails = new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "Aspose Office", DateTime.Now);
 

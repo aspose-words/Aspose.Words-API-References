@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.AllowNegativeIndent
 second_title: Referencia de API de Aspose.Words para .NET
-description: HtmlSaveOptions propiedad. Especifica si las sangrías izquierda y derecha negativas de los párrafos se normalizan al guardar en HTML MHTML o EPUB. El valor predeterminado esfalso .
+description: HtmlSaveOptions propiedad. Especifica si las sangrías negativas izquierda y derecha de los párrafos se normalizan al guardar en HTML MHTML o EPUB. El valor predeterminado esFALSO .
 type: docs
 weight: 20
 url: /es/net/aspose.words.saving/htmlsaveoptions/allownegativeindent/
 ---
 ## HtmlSaveOptions.AllowNegativeIndent property
 
-Especifica si las sangrías izquierda y derecha negativas de los párrafos se normalizan al guardar en HTML, MHTML o EPUB. El valor predeterminado es`falso` .
+Especifica si las sangrías negativas izquierda y derecha de los párrafos se normalizan al guardar en HTML, MHTML o EPUB. El valor predeterminado es`FALSO` .
 
 ```csharp
 public bool AllowNegativeIndent { get; set; }
@@ -20,7 +20,7 @@ Cuando no se permite la sangría negativa, se exporta como margen cero a HTML. C
 
 ### Ejemplos
 
-Muestra cómo conservar las sangrías negativas en el .html de salida.
+Muestra cómo conservar sangrías negativas en el archivo .html de salida.
 
 ```csharp
 Document doc = new Document();
@@ -49,7 +49,7 @@ table.LeftIndent = 36;
 table.PreferredWidth = PreferredWidth.FromPoints(144);
 
 // Cuando guardamos un documento en HTML, Aspose.Words solo conservará las sangrías negativas
-// como el que hemos aplicado a la primera tabla si ponemos el flag "AllowNegativeIndent"
+// como el que hemos aplicado a la primera tabla si configuramos el indicador "AllowNegativeIndent"
 // en un objeto SaveOptions que pasaremos a "true".
 HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html)
 {

@@ -3,7 +3,7 @@ title: TxtLoadOptions.TrailingSpacesOptions
 second_title: Aspose.Words per .NET API Reference
 description: TxtLoadOptions proprietà. Ottiene o imposta lopzione preferita per la gestione dello spazio finale. Il valore predefinito èTrim .
 type: docs
-weight: 50
+weight: 70
 url: /it/net/aspose.words.loading/txtloadoptions/trailingspacesoptions/
 ---
 ## TxtLoadOptions.TrailingSpacesOptions property
@@ -16,7 +16,7 @@ public TxtTrailingSpacesOptions TrailingSpacesOptions { get; set; }
 
 ### Esempi
 
-Mostra come tagliare gli spazi bianchi durante il caricamento di documenti in testo normale.
+Mostra come tagliare gli spazi bianchi durante il caricamento di documenti di testo normale.
 
 ```csharp
 string textDoc = "      Line 1 \n" +
@@ -30,16 +30,16 @@ TxtLoadOptions loadOptions = new TxtLoadOptions();
 // Imposta la proprietà "LeadingSpacesOptions" su "TxtLeadingSpacesOptions.Preserve"
 // per preservare tutti gli spazi bianchi all'inizio di ogni riga.
 // Imposta la proprietà "LeadingSpacesOptions" su "TxtLeadingSpacesOptions.ConvertToIndent"
-// per rimuovere tutti gli spazi vuoti dall'inizio di ogni riga,
-// e quindi applica un rientro della prima riga sinistra al paragrafo per simulare l'effetto degli spazi bianchi.
+// per rimuovere tutti gli spazi bianchi dall'inizio di ogni riga,
+// e quindi applica un rientro della prima riga a sinistra al paragrafo per simulare l'effetto degli spazi bianchi.
 // Imposta la proprietà "LeadingSpacesOptions" su "TxtLeadingSpacesOptions.Trim"
-// per rimuovere tutti gli spazi vuoti dall'inizio di ogni riga.
+// per rimuovere tutti i caratteri di spazio bianco dall'inizio di ogni riga.
 loadOptions.LeadingSpacesOptions = txtLeadingSpacesOptions;
 
 // Imposta la proprietà "TrailingSpacesOptions" su "TxtTrailingSpacesOptions.Preserve"
-// per preservare tutti gli spazi bianchi alla fine di ogni riga. 
-// Imposta la proprietà "TrailingSpacesOptions" su "TxtTrailingSpacesOptions.Trim" su 
-// rimuove tutti gli spazi vuoti dalla fine di ogni riga.
+ // per preservare tutti gli spazi bianchi alla fine di ogni riga.
+ // Imposta la proprietà "TrailingSpacesOptions" su "TxtTrailingSpacesOptions.Trim" su
+// rimuove tutti gli spazi bianchi dalla fine di ogni riga.
 loadOptions.TrailingSpacesOptions = txtTrailingSpacesOptions;
 
 Document doc = new Document(new MemoryStream(Encoding.UTF8.GetBytes(textDoc)), loadOptions);

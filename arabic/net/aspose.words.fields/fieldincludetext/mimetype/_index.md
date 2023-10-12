@@ -36,10 +36,12 @@ public void FieldIncludeText()
     fieldIncludeText.NamespaceMappings = "xmlns:n='myNamespace'";
     fieldIncludeText.XPath = "/catalog/cd/title";
 
+    doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.INCLUDETEXT.docx");
+}
 
 /// <summary>
-/// استخدم أداة إنشاء المستندات لإدراج حقل INCLUDETEXT بخصائص مخصصة.
+/// استخدم منشئ المستندات لإدراج حقل INCLUDETEXT بخصائص مخصصة.
 /// </summary>
 public FieldIncludeText CreateFieldIncludeText(DocumentBuilder builder, string sourceFullName, bool lockFields, string mimeType, string textConverter, string encoding)
 {

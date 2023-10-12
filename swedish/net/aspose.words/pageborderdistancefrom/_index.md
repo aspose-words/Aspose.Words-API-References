@@ -3,7 +3,7 @@ title: Enum PageBorderDistanceFrom
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.PageBorderDistanceFrom uppräkning. Anger placeringen av sidkanten i förhållande till sidmarginalen.
 type: docs
-weight: 4110
+weight: 4350
 url: /sv/net/aspose.words/pageborderdistancefrom/
 ---
 ## PageBorderDistanceFrom enumeration

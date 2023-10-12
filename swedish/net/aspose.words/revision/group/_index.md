@@ -1,14 +1,14 @@
 ---
 title: Revision.Group
 second_title: Aspose.Words för .NET API Referens
-description: Revision fast egendom. Hämtar revisionsgruppen. Returnerar null om revisionen inte tillhör någon grupp.
+description: Revision fast egendom. Hämtar revisionsgruppen. Returnerarnull om revisionen inte tillhör någon grupp.
 type: docs
 weight: 30
 url: /sv/net/aspose.words/revision/group/
 ---
 ## Revision.Group property
 
-Hämtar revisionsgruppen. Returnerar null om revisionen inte tillhör någon grupp.
+Hämtar revisionsgruppen. Returnerar`null` om revisionen inte tillhör någon grupp.
 
 ```csharp
 public RevisionGroup Group { get; }
@@ -16,7 +16,7 @@ public RevisionGroup Group { get; }
 
 ### Anmärkningar
 
-Revision har ingen grupp om revisionstypen är RevisionType.StyleDefinitionChange eller om revisionen inte längre finns i dokumentsammanhang (godkänd/avvisad).
+Revision har ingen grupp om revisionstypen är detStyleDefinitionChangeor om revisionen inte längre finns i dokumentsammanhang (godkänd/avvisad).
 
 ### Exempel
 

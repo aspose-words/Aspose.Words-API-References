@@ -3,7 +3,7 @@ title: ImportFormatOptions.IgnoreHeaderFooter
 second_title: Справочник по API Aspose.Words для .NET
 description: ImportFormatOptions свойство. Получает или задает логическое значение указывающее что исходное форматирование содержимого верхних и нижних колонтитулов игнорируется  еслиKeepSourceFormatting используется режим. Значение по умолчаниюистинный .
 type: docs
-weight: 30
+weight: 40
 url: /ru/net/aspose.words/importformatoptions/ignoreheaderfooter/
 ---
 ## ImportFormatOptions.IgnoreHeaderFooter property

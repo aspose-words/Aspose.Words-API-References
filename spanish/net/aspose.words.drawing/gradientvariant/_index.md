@@ -3,7 +3,7 @@ title: Enum GradientVariant
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.Drawing.GradientVariant enumeración. Especifica la variante para un relleno degradado.
 type: docs
-weight: 880
+weight: 1010
 url: /es/net/aspose.words.drawing/gradientvariant/
 ---
 ## GradientVariant enumeration
@@ -19,14 +19,14 @@ public enum GradientVariant
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
 | None | `0` | Variante de degradado 'Ninguno'. |
-| Variant1 | `1` | Variante de degradado 1. |
+| Variant1 | `1` | Variante de gradiente 1. |
 | Variant2 | `2` | Variante de degradado 2. |
-| Variant3 | `3` | Variante degradado 3. |
-| Variant4 | `4` | Variante degradado 4. |
+| Variant3 | `3` | Variante de gradiente 3. |
+| Variant4 | `4` | Variante de degradado 4. |
 
 ### Observaciones
 
-Corresponde a las cuatro variantes en la pestaña Degradado en el cuadro de diálogo Efectos de relleno en Word.
+Corresponde a las cuatro variantes de la pestaña Degradado del cuadro de diálogo Efectos de relleno en Word.
 
 ### Ejemplos
 
@@ -51,7 +51,7 @@ shape.Fill.TwoColorGradient(GradientStyle.FromCorner, GradientVariant.Variant4);
 // Cambia el color de fondo del relleno degradado.
 shape.Fill.BackColor = Color.Yellow;
 // Tenga en cuenta que cambia "GradientAngle" por "GradientStyle.FromCorner/GradientStyle.FromCenter"
-// el relleno de degradado no obtiene ningún efecto, solo funcionará para degradado lineal.
+// el relleno degradado no obtiene ningún efecto, funcionará solo para degradado lineal.
 shape.Fill.GradientAngle = 15;
 
 Assert.AreEqual(Color.Yellow.ToArgb(), shape.Fill.BackColor.ToArgb());
@@ -59,7 +59,7 @@ Assert.AreEqual(GradientStyle.FromCorner, shape.Fill.GradientStyle);
 Assert.AreEqual(GradientVariant.Variant4, shape.Fill.GradientVariant);
 Assert.AreEqual(0, shape.Fill.GradientAngle);
 
-// Use la opción de cumplimiento para definir la forma usando DML si desea obtener "GradientStyle",
+// Utilice la opción de cumplimiento para definir la forma usando DML si desea obtener "GradientStyle",
 // Propiedades "GradientVariant" y "GradientAngle" después de guardar el documento.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions { Compliance = OoxmlCompliance.Iso29500_2008_Strict };
 

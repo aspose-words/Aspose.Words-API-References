@@ -3,12 +3,14 @@ title: Class ImageSavingArgs
 second_title: Aspose.Words per .NET API Reference
 description: Aspose.Words.Saving.ImageSavingArgs classe. Fornisce i dati per ilImageSaving evento.
 type: docs
-weight: 4980
+weight: 5240
 url: /it/net/aspose.words.saving/imagesavingargs/
 ---
 ## ImageSavingArgs class
 
 Fornisce i dati per il[`ImageSaving`](../iimagesavingcallback/imagesaving/) evento.
+
+Per saperne di più, visita il[Salva un documento](https://docs.aspose.com/words/net/save-a-document/) articolo di documentazione.
 
 ```csharp
 public class ImageSavingArgs
@@ -18,22 +20,22 @@ public class ImageSavingArgs
 
 | Nome | Descrizione |
 | --- | --- |
-| [CurrentShape](../../aspose.words.saving/imagesavingargs/currentshape/) { get; } | Ottiene il[`ShapeBase`](../../aspose.words.drawing/shapebase/) oggetto corrispondente alla forma o alla forma del gruppo che sta per essere salvata. |
-| [Document](../../aspose.words.saving/imagesavingargs/document/) { get; } | Ottiene l'oggetto del documento attualmente in fase di salvataggio. |
+| [CurrentShape](../../aspose.words.saving/imagesavingargs/currentshape/) { get; } | Ottiene il file[`ShapeBase`](../../aspose.words.drawing/shapebase/) oggetto corrispondente alla forma o alla forma del gruppo che sta per essere salvato. |
+| [Document](../../aspose.words.saving/imagesavingargs/document/) { get; } | Ottiene l'oggetto documento attualmente in fase di salvataggio. |
 | [ImageFileName](../../aspose.words.saving/imagesavingargs/imagefilename/) { get; set; } | Ottiene o imposta il nome del file (senza percorso) in cui verrà salvata l'immagine. |
-| [ImageStream](../../aspose.words.saving/imagesavingargs/imagestream/) { get; set; } | Consente di specificare lo stream in cui verrà salvata l'immagine. |
+| [ImageStream](../../aspose.words.saving/imagesavingargs/imagestream/) { get; set; } | Permette di specificare lo stream in cui verrà salvata l'immagine. |
 | [IsImageAvailable](../../aspose.words.saving/imagesavingargs/isimageavailable/) { get; } | Restituisce`VERO` se l'immagine corrente è disponibile per l'esportazione. |
-| [KeepImageStreamOpen](../../aspose.words.saving/imagesavingargs/keepimagestreamopen/) { get; set; } | Specifica se Aspose.Words deve mantenere lo stream aperto o chiuderlo dopo aver salvato un'immagine. |
+| [KeepImageStreamOpen](../../aspose.words.saving/imagesavingargs/keepimagestreamopen/) { get; set; } | Specifica se Aspose.Words deve mantenere aperto lo stream o chiuderlo dopo aver salvato un'immagine. |
 
 ### Osservazioni
 
 Per impostazione predefinita, quando Aspose.Words salva un documento in HTML, salva ogni immagine in un file separato. Aspose.Words utilizza il nome del file del documento e un numero univoco per generare un nome file univoco per ogni immagine trovata nel documento.
 
-`ImageSavingArgs` consente di ridefinire il modo in cui vengono generati i nomi dei file di immagine o di eludere completamente il salvataggio delle immagini nei file fornendo i propri oggetti flusso.
+`ImageSavingArgs`consente di ridefinire il modo in cui vengono generati i nomi dei file di immagine o di aggirare completamente il salvataggio delle immagini nei file fornendo i propri oggetti stream.
 
-Per applicare la tua logica per la generazione di nomi di file immagine, usa [`ImageFileName`](./imagefilename/) ,[`CurrentShape`](./currentshape/) e[`IsImageAvailable`](./isimageavailable/) proprietà.
+Per applicare la tua logica per generare nomi di file immagine, utilizza [`ImageFileName`](./imagefilename/) ,[`CurrentShape`](./currentshape/) E[`IsImageAvailable`](./isimageavailable/) proprietà .
 
-Per salvare le immagini nei flussi anziché nei file, utilizzare il file[`ImageStream`](./imagestream/) proprietà.
+Per salvare le immagini in flussi anziché in file, utilizzare il file[`ImageStream`](./imagestream/) proprietà.
 
 ### Esempi
 
@@ -49,8 +51,8 @@ public void DocumentPartsFileNames()
     // per modificare il modo in cui convertiamo il documento in HTML.
     HtmlSaveOptions options = new HtmlSaveOptions();
 
-    // Se salviamo il documento normalmente, ci sarà un HTML di output
-    // documento con tutti i contenuti del documento sorgente.
+    // Se salviamo il documento normalmente, ci sarà un output HTML
+    // documento con tutto il contenuto del documento sorgente.
     // Imposta la proprietà "DocumentSplitCriteria" su "DocumentSplitCriteria.SectionBreak" su
     // salva il nostro documento in più file HTML: uno per ogni sezione.
     options.DocumentSplitCriteria = DocumentSplitCriteria.SectionBreak;
@@ -58,9 +60,9 @@ public void DocumentPartsFileNames()
     // Assegna un callback personalizzato alla proprietà "DocumentPartSavingCallback" per modificare la logica di salvataggio della parte del documento.
     options.DocumentPartSavingCallback = new SavedDocumentPartRename(outFileName, options.DocumentSplitCriteria);
 
-    // Se convertiamo un documento che contiene immagini in html, ci ritroveremo con un file html che si collega a più immagini.
+    // Se convertiamo un documento che contiene immagini in html, ci ritroveremo con un file html che collega a diverse immagini.
     // Ogni immagine avrà la forma di un file nel file system locale.
-    // C'è anche un callback che può personalizzare il nome e la posizione del file system di ogni immagine.
+    // Esiste anche un callback che può personalizzare il nome e la posizione del file system di ciascuna immagine.
     options.ImageSavingCallback = new SavedImageRename(outFileName);
 
     doc.Save(ArtifactsDir + outFileName, options);
@@ -79,7 +81,7 @@ private class SavedDocumentPartRename : IDocumentPartSavingCallback
 
     void IDocumentPartSavingCallback.DocumentPartSaving(DocumentPartSavingArgs args)
     {
-        // Possiamo accedere all'intero documento sorgente tramite la proprietà "Documento".
+        // Possiamo accedere all'intero documento sorgente tramite la proprietà "Document".
         Assert.True(args.Document.OriginalFileName.EndsWith("Rendering.docx"));
 
         string partType = string.Empty;
@@ -102,7 +104,7 @@ private class SavedDocumentPartRename : IDocumentPartSavingCallback
 
         string partFileName = $"{mOutFileName} part {++mCount}, of type {partType}{Path.GetExtension(args.DocumentPartFileName)}";
 
-        // Di seguito sono riportati due modi per specificare dove Aspose.Words salverà ogni parte del documento.
+        // Di seguito sono riportati due modi per specificare dove Aspose.Words salverà ciascuna parte del documento.
         // 1 - Imposta un nome file per il file della parte di output:
         args.DocumentPartFileName = partFileName;
 
@@ -132,7 +134,7 @@ public class SavedImageRename : IImageSavingCallback
     {
         string imageFileName = $"{mOutFileName} shape {++mCount}, of type {args.CurrentShape.ShapeType}{Path.GetExtension(args.ImageFileName)}";
 
-        // Di seguito sono riportati due modi per specificare dove Aspose.Words salverà ogni parte del documento.
+        // Di seguito sono riportati due modi per specificare dove Aspose.Words salverà ciascuna parte del documento.
         // 1 - Imposta un nome file per il file immagine di output:
         args.ImageFileName = imageFileName;
 

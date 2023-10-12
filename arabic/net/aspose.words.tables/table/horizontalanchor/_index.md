@@ -1,14 +1,14 @@
 ---
 title: Table.HorizontalAnchor
 second_title: Aspose.Words لمراجع .NET API
-description: Table ملكية. الحصول على الكائن الأساسي الذي يجب من خلاله حساب الموضع الأفقي للجدول العائم. القيمة الافتراضية هيColumn .
+description: Table ملكية. يحصل على الكائن الأساسي الذي يجب حساب الموضع الأفقي للجدول العائم منه. القيمة الافتراضية هيColumn .
 type: docs
 weight: 170
 url: /ar/net/aspose.words.tables/table/horizontalanchor/
 ---
 ## Table.HorizontalAnchor property
 
-الحصول على الكائن الأساسي الذي يجب من خلاله حساب الموضع الأفقي للجدول العائم. القيمة الافتراضية هيColumn .
+يحصل على الكائن الأساسي الذي يجب حساب الموضع الأفقي للجدول العائم منه. القيمة الافتراضية هيColumn .
 
 ```csharp
 public RelativeHorizontalPosition HorizontalAnchor { get; set; }
@@ -16,7 +16,7 @@ public RelativeHorizontalPosition HorizontalAnchor { get; set; }
 
 ### أمثلة
 
-يوضح كيفية استخدام خصائص الجداول العائمة.
+يوضح كيفية العمل مع خصائص الجداول العائمة.
 
 ```csharp
 Document doc = new Document(MyDir + "Table wrapped by text.docx");
@@ -29,12 +29,12 @@ if (table.TextWrapping == TextWrapping.Around)
     Assert.AreEqual(RelativeVerticalPosition.Paragraph, table.VerticalAnchor);
     Assert.AreEqual(false, table.AllowOverlap);
 
-    // فقط الهامش والصفحة والعمود متاحان في RelativeHorizontalPosition for HorizontalAnchor setter.
-    // سيتم طرح ArgumentException لأية قيم أخرى.
+    // يتوفر الهامش والصفحة والعمود فقط في RelativeHorizontalPosition لأداة ضبط HorizontalAnchor.
+    // سيتم طرح ArgumentException لأي قيم أخرى.
     table.HorizontalAnchor = RelativeHorizontalPosition.Column;
 
-    // فقط الهامش والصفحة والفقرة المتوفرة في RelativeVerticalPosition لـ VerticalAnchor setter.
-    // سيتم طرح ArgumentException لأية قيم أخرى.
+    // يتوفر فقط الهامش والصفحة والفقرة في RelativeVerticalPosition لأداة إعداد VerticalAnchor.
+    // سيتم طرح ArgumentException لأي قيم أخرى.
     table.VerticalAnchor = RelativeVerticalPosition.Page;
 }
 ```

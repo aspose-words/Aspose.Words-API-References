@@ -1,14 +1,14 @@
 ---
 title: Interface IMailMergeDataSource
 second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.MailMerging.IMailMergeDataSource interfaz. Implemente esta interfaz para permitir la combinación de correspondencia desde un origen de datos personalizado como una lista de objetos. También se admiten datos maestrodetalle.
+description: Aspose.Words.MailMerging.IMailMergeDataSource interfaz. Implemente esta interfaz para permitir la combinación de correspondencia desde una fuente de datos personalizada como una lista de objetos. También se admiten datos maestrodetalle.
 type: docs
-weight: 3590
+weight: 3810
 url: /es/net/aspose.words.mailmerging/imailmergedatasource/
 ---
 ## IMailMergeDataSource interface
 
-Implemente esta interfaz para permitir la combinación de correspondencia desde un origen de datos personalizado, como una lista de objetos. También se admiten datos maestro-detalle.
+Implemente esta interfaz para permitir la combinación de correspondencia desde una fuente de datos personalizada, como una lista de objetos. También se admiten datos maestro-detalle.
 
 ```csharp
 public interface IMailMergeDataSource
@@ -24,17 +24,17 @@ public interface IMailMergeDataSource
 
 | Nombre | Descripción |
 | --- | --- |
-| [GetChildDataSource](../../aspose.words.mailmerging/imailmergedatasource/getchilddatasource/)(string) | El motor de combinación de correspondencia de Aspose.Words invoca este método cuando encuentra el comienzo de una región de combinación de correspondencia anidada. |
-| [GetValue](../../aspose.words.mailmerging/imailmergedatasource/getvalue/)(string, out object) | Devuelve un valor para el nombre de campo especificado o falso si no se encuentra el campo. |
+| [GetChildDataSource](../../aspose.words.mailmerging/imailmergedatasource/getchilddatasource/)(string) | El motor de combinación de correspondencia Aspose.Words invoca este método cuando encuentra el comienzo de una región de combinación de correspondencia anidada. |
+| [GetValue](../../aspose.words.mailmerging/imailmergedatasource/getvalue/)(string, out object) | Devuelve un valor para el nombre de campo especificado o`FALSO` si no se encuentra el campo. |
 | [MoveNext](../../aspose.words.mailmerging/imailmergedatasource/movenext/)() | Avanza al siguiente registro en la fuente de datos. |
 
 ### Observaciones
 
-Cuando se crea una fuente de datos, debe inicializarse para apuntar a BOF (antes del primer registro). El motor de combinación de correspondencia de Aspose.Words invocará[`MoveNext`](./movenext/) para avanzar al siguiente registro y luego invocar[`GetValue`](./getvalue/) para cada campo de combinación que encuentre en el documento o en la región de combinación de correspondencia actual.
+Cuando se crea una fuente de datos, se debe inicializar para que apunte a BOF (antes del primer registro). El motor de combinación de correspondencia Aspose.Words invocará[`MoveNext`](./movenext/) para avanzar al siguiente registro y luego invocar[`GetValue`](./getvalue/) para cada campo de combinación que encuentre en el documento o en la región de combinación de correspondencia actual.
 
 ### Ejemplos
 
-Muestra cómo ejecutar una combinación de correspondencia con una fuente de datos en forma de un objeto personalizado.
+Muestra cómo ejecutar una combinación de correspondencia con una fuente de datos en forma de objeto personalizado.
 
 ```csharp
 public void CustomDataSource()
@@ -45,11 +45,13 @@ public void CustomDataSource()
     builder.InsertParagraph();
     builder.InsertField(" MERGEFIELD Address ");
 
-    List<Customer> customers = new List<Customer>();
-    customers.Add(new Customer("Thomas Hardy", "120 Hanover Sq., London"));
-    customers.Add(new Customer("Paolo Accorti", "Via Monte Bianco 34, Torino"));
+    List<Customer> customers = new List<Customer>
+    {
+        new Customer("Thomas Hardy", "120 Hanover Sq., London"),
+        new Customer("Paolo Accorti", "Via Monte Bianco 34, Torino")
+    };
 
-    // Para usar un objeto personalizado como fuente de datos, debe implementar la interfaz IMailMergeDataSource. 
+     // Para utilizar un objeto personalizado como fuente de datos, debe implementar la interfaz IMailMergeDataSource.
     CustomerMailMergeDataSource dataSource = new CustomerMailMergeDataSource(customers);
 
     doc.MailMerge.Execute(dataSource);
@@ -73,8 +75,8 @@ public class Customer
 }
 
 /// <summary>
-/// Una fuente de datos de combinación de correspondencia personalizada que implementa para permitir Aspose.Words 
-/// para combinar datos de sus objetos de Cliente en documentos de Microsoft Word.
+ /// Una fuente de datos de combinación de correspondencia personalizada que implementas para permitir Aspose.Words
+/// para combinar datos de correspondencia de sus objetos de Cliente en documentos de Microsoft Word.
 /// </summary>
 public class CustomerMailMergeDataSource : IMailMergeDataSource
 {
@@ -87,7 +89,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// El nombre de la fuente de datos. Usado por Aspose.Words solo cuando se ejecuta la combinación de correspondencia con regiones repetibles.
+    /// El nombre de la fuente de datos. Utilizado por Aspose.Words solo cuando se ejecuta combinación de correspondencia con regiones repetibles.
     /// </summary>
     public string TableName
     {
@@ -108,7 +110,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
                 fieldValue = mCustomers[mRecordIndex].Address;
                 return true;
             default:
-                // Devuelve "falso" al motor de combinación de correspondencia de Aspose.Words para indicar
+                // Devuelve "falso" al motor de combinación de correspondencia Aspose.Words para indicar
                 // que no pudimos encontrar un campo con este nombre.
                 fieldValue = null;
                 return false;
@@ -116,7 +118,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Una implementación estándar para pasar al siguiente registro en una colección.
+    /// Una implementación estándar para pasar al siguiente registro de una colección.
     /// </summary>
     public bool MoveNext()
     {

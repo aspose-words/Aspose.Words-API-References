@@ -3,7 +3,7 @@ title: ShapeBase.SetShapeAttr
 second_title: Aspose.Words لمراجع .NET API
 description: ShapeBase طريقة. محجوز لاستخدام النظام. IShapeAttrSource.
 type: docs
-weight: 630
+weight: 690
 url: /ar/net/aspose.words.drawing/shapebase/setshapeattr/
 ---
 ## ShapeBase.SetShapeAttr method

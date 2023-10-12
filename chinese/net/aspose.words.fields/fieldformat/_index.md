@@ -1,14 +1,16 @@
 ---
 title: Class FieldFormat
 second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Fields.FieldFormat 班级. 提供对字段的数字日期和时间以及一般格式的键入访问
+description: Aspose.Words.Fields.FieldFormat 班级. 提供对字段的数字日期和时间以及常规格式的键入访问
 type: docs
-weight: 1790
+weight: 1940
 url: /zh/net/aspose.words.fields/fieldformat/
 ---
 ## FieldFormat class
 
-提供对字段的数字、日期和时间以及一般格式的键入访问。
+提供对字段的数字、日期和时间以及常规格式的键入访问。
+
+要了解更多信息，请访问[使用字段](https://docs.aspose.com/words/net/working-with-fields/)文档文章。
 
 ```csharp
 public class FieldFormat
@@ -18,19 +20,19 @@ public class FieldFormat
 
 | 姓名 | 描述 |
 | --- | --- |
-| [DateTimeFormat](../../aspose.words.fields/fieldformat/datetimeformat/) { get; set; } | 获取或设置应用于日期和时间字段结果的格式。对应于 \@ 开关。 |
+| [DateTimeFormat](../../aspose.words.fields/fieldformat/datetimeformat/) { get; set; } | 获取或设置应用于日期和时间字段结果的格式。对应于\@开关. |
 | [GeneralFormats](../../aspose.words.fields/fieldformat/generalformats/) { get; } | 获取应用于数字、文本或任何字段结果的通用格式的集合。 对应于 \* 开关。 |
-| [NumericFormat](../../aspose.words.fields/fieldformat/numericformat/) { get; set; } | 获取或设置应用于数值字段结果的格式。对应于\# switch. |
+| [NumericFormat](../../aspose.words.fields/fieldformat/numericformat/) { get; set; } | 获取或设置应用于数字字段结果的格式。对应\#开关. |
 
 ### 例子
 
-显示如何格式化字段结果。
+展示如何设置字段结果的格式。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 使用文档构建器插入一个显示未应用格式的结果的字段。
+// 使用文档生成器插入一个显示未应用格式的结果的字段。
 Field field = builder.InsertField("= 2 + 3");
 
 Assert.AreEqual("= 2 + 3", field.GetFieldCode());
@@ -72,7 +74,7 @@ Assert.AreEqual("LVIII", field.Result);
 Assert.AreEqual(2, format.GeneralFormats.Count);
 Assert.AreEqual(GeneralFormat.LowercaseRoman, format.GeneralFormats[0]);
 
-// 我们可以删除格式以将字段的结果恢复为原始形式。
+// 我们可以删除格式以将字段的结果恢复为其原始形式。
 format.GeneralFormats.Remove(GeneralFormat.LowercaseRoman);
 format.GeneralFormats.RemoveAt(0);
 Assert.AreEqual(0, format.GeneralFormats.Count);

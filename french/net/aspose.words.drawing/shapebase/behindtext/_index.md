@@ -1,14 +1,14 @@
 ---
 title: ShapeBase.BehindText
 second_title: Référence de l'API Aspose.Words pour .NET
-description: ShapeBase propriété. Spécifie si la forme est audessous ou audessus du texte.
+description: ShapeBase propriété. Spécifie si la forme est en dessous ou audessus du texte.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.drawing/shapebase/behindtext/
 ---
 ## ShapeBase.BehindText property
 
-Spécifie si la forme est au-dessous ou au-dessus du texte.
+Spécifie si la forme est en dessous ou au-dessus du texte.
 
 ```csharp
 public bool BehindText { get; set; }
@@ -16,19 +16,19 @@ public bool BehindText { get; set; }
 
 ### Remarques
 
-N'a d'effet que pour les formes de niveau supérieur.
+N'a d'effet que sur les formes de niveau supérieur.
 
-La valeur par défaut est **faux**.
+La valeur par défaut est`FAUX`.
 
 ### Exemples
 
-Montre comment insérer une image flottante au centre d'une page.
+Montre comment insérer une image flottante au centre d’une page.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Insère une image flottante qui apparaîtra derrière le texte superposé et l'aligne au centre de la page.
+// Insère une image flottante qui apparaîtra derrière le texte superposé et alignez-la au centre de la page.
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 shape.WrapType = WrapType.None;
 shape.BehindText = true;

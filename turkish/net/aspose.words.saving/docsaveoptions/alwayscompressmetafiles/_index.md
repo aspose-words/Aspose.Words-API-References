@@ -1,14 +1,14 @@
 ---
 title: DocSaveOptions.AlwaysCompressMetafiles
 second_title: Aspose.Words for .NET API Referansı
-description: DocSaveOptions mülk. Ne zamanyanlış  küçük meta dosyaları performans nedeniyle sıkıştırılmaz. Varsayılan değer doğru  boyutundan bağımsız olarak tüm meta dosyaları sıkıştırılır.
+description: DocSaveOptions mülk. Ne zamanYANLIŞ  küçük meta dosyalar performans nedeniyle sıkıştırılmaz. Varsayılan değerdoğru  tüm meta dosyalar boyutuna bakılmaksızın sıkıştırılır.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.saving/docsaveoptions/alwayscompressmetafiles/
 ---
 ## DocSaveOptions.AlwaysCompressMetafiles property
 
-Ne zaman`yanlış` , küçük meta dosyaları performans nedeniyle sıkıştırılmaz. Varsayılan değer **doğru** , boyutundan bağımsız olarak tüm meta dosyaları sıkıştırılır.
+Ne zaman`YANLIŞ` , küçük meta dosyalar performans nedeniyle sıkıştırılmaz. Varsayılan değer:`doğru` , tüm meta dosyalar boyutuna bakılmaksızın sıkıştırılır.
 
 ```csharp
 public bool AlwaysCompressMetafiles { get; set; }
@@ -16,15 +16,15 @@ public bool AlwaysCompressMetafiles { get; set; }
 
 ### Örnekler
 
-Kaydederken bir belgedeki meta dosya sıkıştırmasının nasıl değiştirileceğini gösterir.
+Bir belgeyi kaydederken meta dosya sıkıştırmasının nasıl değiştirileceğini gösterir.
 
 ```csharp
-// Microsoft Denklem 3.0 formülü içeren bir belge açın.
+// Microsoft Denklem 3.0 formülünü içeren bir belgeyi açın.
 Document doc = new Document(MyDir + "Microsoft equation object.docx");
 
-// Bir belgeyi kaydettiğimizde, performans nedenleriyle daha küçük meta dosyaları sıkıştırılmaz.
-// Kaydederken her meta dosyasını sıkıştırmak için SaveOptions nesnesinde bir bayrak ayarlayabiliriz.
-// LibreOffice gibi bazı editörler sıkıştırılmamış meta dosyaları okuyamaz.
+// Bir belgeyi kaydettiğimizde performans nedeniyle daha küçük meta dosyalar sıkıştırılmaz.
+// Kaydederken her meta dosyayı sıkıştırmak için SaveOptions nesnesine bir bayrak ayarlayabiliriz.
+// LibreOffice gibi bazı düzenleyiciler sıkıştırılmamış meta dosyaları okuyamaz.
 DocSaveOptions saveOptions = new DocSaveOptions();
 saveOptions.AlwaysCompressMetafiles = compressAllMetafiles;
 

@@ -1,14 +1,14 @@
 ---
 title: ConditionalStyleCollection.OddColumnBanding
 second_title: Справочник по API Aspose.Words для .NET
-description: ConditionalStyleCollection свойство. Получает стиль чередования нечетных столбцов.
+description: ConditionalStyleCollection свойство. Получает нечетный стиль полосирования столбцов.
 type: docs
 weight: 110
 url: /ru/net/aspose.words/conditionalstylecollection/oddcolumnbanding/
 ---
 ## ConditionalStyleCollection.OddColumnBanding property
 
-Получает стиль чередования нечетных столбцов.
+Получает нечетный стиль полосирования столбцов.
 
 ```csharp
 public ConditionalStyle OddColumnBanding { get; }
@@ -34,11 +34,11 @@ builder.InsertCell();
 builder.Write("Cell 4");
 builder.EndTable();
 
-// Создаем пользовательский стиль таблицы.
+// Создаем собственный стиль таблицы.
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 
-// Условные стили — это изменения форматирования, которые влияют только на некоторые ячейки таблицы
-// на основе предиката, такого как ячейки, находящиеся в последней строке.
+// Условные стили — это изменения форматирования, которые затрагивают только некоторые ячейки таблицы
+// на основе предиката, например, ячеек в последней строке.
 // Ниже приведены три способа доступа к условным стилям табличного стиля из коллекции «ConditionalStyles».
 // 1 - По типу стиля:
 tableStyle.ConditionalStyles[ConditionalStyleType.FirstRow].Shading.BackgroundPatternColor = Color.AliceBlue;
@@ -51,14 +51,14 @@ Assert.AreEqual(ConditionalStyleType.FirstRow, tableStyle.ConditionalStyles[0].T
 // 3 - Как свойство:
 tableStyle.ConditionalStyles.FirstRow.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
-// Применение отступов и форматирования текста к условным стилям.
+// Применяем отступы и форматирование текста к условным стилям.
 tableStyle.ConditionalStyles.LastRow.BottomPadding = 10;
 tableStyle.ConditionalStyles.LastRow.LeftPadding = 10;
 tableStyle.ConditionalStyles.LastRow.RightPadding = 10;
 tableStyle.ConditionalStyles.LastRow.TopPadding = 10;
 tableStyle.ConditionalStyles.LastColumn.Font.Bold = true;
 
-// Список всех возможных условий стиля.
+// Перечислить все возможные условия стиля.
 using (IEnumerator<ConditionalStyle> enumerator = tableStyle.ConditionalStyles.GetEnumerator())
 {
     while (enumerator.MoveNext())
@@ -75,7 +75,7 @@ table.Style = tableStyle;
 Assert.AreEqual(TableStyleOptions.FirstRow | TableStyleOptions.FirstColumn | TableStyleOptions.RowBands, 
     table.StyleOptions);
 
-// Нам нужно будет включить все остальные стили самостоятельно через свойство StyleOptions.
+// Нам нужно будет самостоятельно включить все остальные стили через свойство StyleOptions.
 table.StyleOptions = table.StyleOptions | TableStyleOptions.LastRow | TableStyleOptions.LastColumn;
 
 doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");

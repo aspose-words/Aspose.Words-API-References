@@ -3,7 +3,7 @@ title: Document.RevisionsView
 second_title: Aspose.Words per .NET API Reference
 description: Document proprietà. Ottiene o imposta un valore che indica se lavorare con la versione originale o rivista di un documento.
 type: docs
-weight: 340
+weight: 360
 url: /it/net/aspose.words/document/revisionsview/
 ---
 ## Document.RevisionsView property
@@ -20,7 +20,7 @@ Il valore predefinito è .
 
 ### Esempi
 
-Mostra come passare dalla visualizzazione rivista a quella originale di un documento.
+Mostra come passare dalla visualizzazione modificata a quella originale di un documento.
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions at list levels.docx");

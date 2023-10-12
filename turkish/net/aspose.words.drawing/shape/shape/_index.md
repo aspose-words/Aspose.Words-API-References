@@ -16,21 +16,21 @@ public Shape(DocumentBase doc, ShapeType shapeType)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| doc | DocumentBase | Sahip belgesi. |
+| doc | DocumentBase | Sahibi belgesi. |
 | shapeType | ShapeType | Oluşturulacak şeklin türü. |
 
 ### Notlar
 
-Bir şekil oluşturduktan sonra istediğiniz şekil özelliklerini belirtmelisiniz.
+Şekil oluşturduktan sonra istediğiniz şekil özelliklerini belirtmelisiniz.
 
 ### Örnekler
 
-Yerel dosya sisteminden bir görüntüyle bir şeklin bir belgeye nasıl ekleneceğini gösterir.
+Yerel dosya sisteminden bir görüntü içeren şeklin belgeye nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 
-// "Shape" sınıfının genel kurucusu, "ShapeMarkupLanguage.Vml" işaretleme türüyle bir şekil oluşturacaktır.
+// "Shape" sınıfının public yapıcısı "ShapeMarkupLanguage.Vml" işaretleme tipine sahip bir şekil oluşturacaktır.
 // SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped gibi ilkel olmayan türde bir şekil oluşturmanız gerekiyorsa,
 // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded veya DiagonalCornersRounded,
 // lütfen DocumentBuilder.InsertShape'i kullanın.

@@ -1,22 +1,22 @@
 ---
 title: Aspose.Words.Layout
 second_title: Aspose.Words لمراجع .NET API
-description: ال Aspose. كلمات. تخطيطتوفر مساحة الاسم فئات تسمح بالوصول إلى معلومات مثل ما هي الصفحة وأين يتم وضع عناصر معينة من المستند على الصفحة  عندما يتم تنسيق المستند في صفحات.
+description: ال Aspose.Words.Layout توفر مساحة الاسم فئات تسمح بالوصول إلى معلومات مثل أي صفحة وأين يتم وضع عناصر مستند معينة على الصفحة عندما يتم تنسيق المستند في صفحات.
 type: docs
 weight: 110
 url: /ar/net/aspose.words.layout/
 ---
-ال **Aspose. كلمات. تخطيط**توفر مساحة الاسم فئات تسمح بالوصول إلى معلومات مثل ما هي الصفحة وأين يتم وضع عناصر معينة من المستند على الصفحة ، عندما يتم تنسيق المستند في صفحات.
+ال **Aspose.Words.Layout** توفر مساحة الاسم فئات تسمح بالوصول إلى معلومات مثل أي صفحة وأين يتم وضع عناصر مستند معينة على الصفحة، عندما يتم تنسيق المستند في صفحات.
 
 ## الطبقات
 
 | فصل | وصف |
 | --- | --- |
 | [LayoutCollector](./layoutcollector/) | تسمح هذه الفئة بحساب أرقام الصفحات لعقد المستند. |
-| [LayoutEnumerator](./layoutenumerator/) | تعداد كيانات تخطيط الصفحة للمستند. يمكنك استخدام هذه الفئة للتجول في نموذج تخطيط الصفحة. الخصائص المتاحة هي النوع والشكل الهندسي والنص وفهرس الصفحة حيث يتم تقديم الكيان ، بالإضافة إلى الهيكل العام والعلاقات . استخدم مزيجًا من[`GetEntity`](../aspose.words.layout/layoutcollector/getentity/) و[`Current`](../aspose.words.layout/layoutenumerator/current/) الانتقال إلى الكيان الذي يتوافق مع عقدة المستند. |
-| [LayoutOptions](./layoutoptions/) | يحتوي على الخيارات التي تسمح بالتحكم في عملية تخطيط المستند. |
-| [PageLayoutCallbackArgs](./pagelayoutcallbackargs/) | تم تمرير وسيطة إلى[`Notify`](../aspose.words.layout/ipagelayoutcallback/notify/) |
-| [RevisionOptions](./revisionoptions/) | يسمح بالتحكم في كيفية معالجة مراجعات المستند أثناء عملية التخطيط. |
+| [LayoutEnumerator](./layoutenumerator/) | تعداد كيانات تخطيط الصفحة الخاصة بالمستند. يمكنك استخدام هذه الفئة للتجول في نموذج تخطيط الصفحة. الخصائص المتاحة هي النوع والهندسة والنص وفهرس الصفحة حيث يتم عرض الكيان، بالإضافة إلى البنية والعلاقات العامة. استخدم مجموعة من[`GetEntity`](../aspose.words.layout/layoutcollector/getentity/) و[`Current`](../aspose.words.layout/layoutenumerator/current/) انتقل إلى الكيان الذي يتوافق مع عقدة المستند. |
+| [LayoutOptions](./layoutoptions/) | يحمل الخيارات التي تسمح بالتحكم في عملية تخطيط المستند. |
+| [PageLayoutCallbackArgs](./pagelayoutcallbackargs/) | تم تمرير وسيطة[`Notify`](../aspose.words.layout/ipagelayoutcallback/notify/) |
+| [RevisionOptions](./revisionoptions/) | يسمح بالتحكم في كيفية معالجة مراجعات المستندات أثناء عملية التخطيط. |
 ## واجهات
 
 | واجهه المستخدم | وصف |
@@ -26,12 +26,12 @@ url: /ar/net/aspose.words.layout/
 
 | تعداد | وصف |
 | --- | --- |
-| [CommentDisplayMode](./commentdisplaymode/) | يحدد وضع التجسيد لتعليقات المستند. |
-| [ContinuousSectionRestart](./continuoussectionrestart/) | يمثل سلوكيات مختلفة عند حساب أرقام الصفحات في قسم مستمر يقوم بإعادة تشغيل ترقيم الصفحات. |
-| [LayoutEntityType](./layoutentitytype/) | أنواع كيانات التخطيط . |
-| [PageLayoutEvent](./pagelayoutevent/) | رمز حدث يظهر أثناء إنشاء نموذج تخطيط الصفحة وعرضه. |
+| [CommentDisplayMode](./commentdisplaymode/) | يحدد وضع العرض لتعليقات المستند. |
+| [ContinuousSectionRestart](./continuoussectionrestart/) | يمثل سلوكيات مختلفة عند حساب أرقام الصفحات في قسم مستمر يعيد تشغيل ترقيم الصفحات. |
+| [LayoutEntityType](./layoutentitytype/) | أنواع كيانات التخطيط. |
+| [PageLayoutEvent](./pagelayoutevent/) | رمز الحدث الذي تم رفعه أثناء إنشاء نموذج تخطيط الصفحة وعرضه. |
 | [RevisionColor](./revisioncolor/) | يسمح بتحديد لون مراجعات المستند. |
 | [RevisionTextEffect](./revisiontexteffect/) | يسمح بتحديد تأثير الزخرفة لمراجعات نص المستند. |
-| [ShowInBalloons](./showinballoons/) | تحديد المراجعات التي سيتم تقديمها في بالونات. |
+| [ShowInBalloons](./showinballoons/) | يحدد المراجعات التي سيتم عرضها في البالونات. |
 
 

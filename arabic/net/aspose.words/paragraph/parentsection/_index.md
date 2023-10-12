@@ -1,14 +1,14 @@
 ---
 title: Paragraph.ParentSection
 second_title: Aspose.Words لمراجع .NET API
-description: Paragraph ملكية. استرداد الأصلSection من الفقرة .
+description: Paragraph ملكية. يسترد الأصلSection من الفقرة.
 type: docs
 weight: 200
 url: /ar/net/aspose.words/paragraph/parentsection/
 ---
 ## Paragraph.ParentSection property
 
-استرداد الأصل[`Section`](../../section/) من الفقرة .
+يسترد الأصل[`Section`](../../section/) من الفقرة.
 
 ```csharp
 public Section ParentSection { get; }
@@ -21,8 +21,8 @@ public Section ParentSection { get; }
 ```csharp
 Document doc = new Document();
 
-// إنشاء رأس وإلحاق فقرة به. النص في تلك الفقرة
-// في أعلى كل صفحة من هذا القسم ، فوق النص الأساسي الرئيسي.
+// قم بإنشاء رأس وألحق فقرة به. النص في تلك الفقرة
+// سيظهر في أعلى كل صفحة من هذا القسم، فوق النص الأساسي.
 HeaderFooter header = new HeaderFooter(doc, HeaderFooterType.HeaderPrimary);
 doc.FirstSection.HeadersFooters.Add(header);
 
@@ -31,8 +31,8 @@ Paragraph para = header.AppendParagraph("My header.");
 Assert.True(header.IsHeader);
 Assert.True(para.IsEndOfHeaderFooter);
 
-// إنشاء تذييل وإلحاق فقرة به. النص في تلك الفقرة
-// في أسفل كل صفحة من هذا القسم ، أسفل النص الأساسي الرئيسي.
+// قم بإنشاء تذييل وإلحاق فقرة به. النص في تلك الفقرة
+// سيظهر في أسفل كل صفحة من هذا القسم، أسفل النص الرئيسي.
 HeaderFooter footer = new HeaderFooter(doc, HeaderFooterType.FooterPrimary);
 doc.FirstSection.HeadersFooters.Add(footer);
 

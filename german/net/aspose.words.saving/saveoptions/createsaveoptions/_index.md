@@ -24,18 +24,18 @@ Ein Objekt einer Klasse, die von abgeleitet ist[`SaveOptions`](../).
 
 ### Beispiele
 
-Zeigt eine Option zum Optimieren des Speicherverbrauchs beim Rendern großer Dokumente in PDF an.
+Zeigt eine Option zur Optimierung des Speicherverbrauchs beim Rendern großer Dokumente in PDF.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Erstellen Sie ein "PdfSaveOptions"-Objekt, das wir an die "Save"-Methode des Dokuments übergeben können
+// Erstellen Sie ein „PdfSaveOptions“-Objekt, das wir an die „Save“-Methode des Dokuments übergeben können
 // um zu ändern, wie diese Methode das Dokument in .PDF konvertiert.
 SaveOptions saveOptions = SaveOptions.CreateSaveOptions(SaveFormat.Pdf);
 
-// Setzen Sie die Eigenschaft „MemoryOptimization“ auf „true“, um den Speicherbedarf beim Speichern großer Dokumente zu verringern
-// auf Kosten der Verlängerung der Operationsdauer.
-// Setzen Sie die Eigenschaft "MemoryOptimization" auf "false", um das Dokument normal als PDF zu speichern.
+// Setzen Sie die Eigenschaft „MemoryOptimization“ auf „true“, um den Speicherbedarf bei Speichervorgängen großer Dokumente zu verringern
+// auf Kosten einer Verlängerung der Operationsdauer.
+// Setzen Sie die Eigenschaft „MemoryOptimization“ auf „false“, um das Dokument normal als PDF zu speichern.
 saveOptions.MemoryOptimization = memoryOptimization;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.MemoryOptimization.pdf", saveOptions);
@@ -60,7 +60,7 @@ public static SaveOptions CreateSaveOptions(string fileName)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| fileName | String | Die Erweiterung dieses Dateinamens bestimmt die Klasse des zu erstellenden Sicherungsoptionsobjekts. |
+| fileName | String | Die Erweiterung dieses Dateinamens bestimmt die Klasse des zu erstellenden Speicheroptionsobjekts. |
 
 ### Rückgabewert
 
@@ -68,7 +68,7 @@ Ein Objekt einer Klasse, die von abgeleitet ist[`SaveOptions`](../).
 
 ### Beispiele
 
-Zeigt, wie Sie eine Standardvorlage für Dokumente festlegen, die keine angehängten Vorlagen haben.
+Zeigt, wie eine Standardvorlage für Dokumente festgelegt wird, denen keine Vorlagen angehängt sind.
 
 ```csharp
 Document doc = new Document();
@@ -78,9 +78,9 @@ doc.AutomaticallyUpdateStyles = true;
 
 Assert.AreEqual(string.Empty, doc.AttachedTemplate);
 
-// Da es kein Vorlagendokument gibt, konnte das Dokument Stiländerungen nirgendwo nachverfolgen.
+// Da es kein Vorlagendokument gibt, konnte das Dokument Stiländerungen nicht nachverfolgen.
 // Verwenden Sie ein SaveOptions-Objekt, um automatisch eine Vorlage festzulegen
-// wenn ein Dokument, das wir speichern, keines hat.
+// wenn ein Dokument, das wir speichern, keins hat.
 SaveOptions options = SaveOptions.CreateSaveOptions("Document.DefaultTemplate.docx");
 options.DefaultTemplate = MyDir + "Business brochure.dotx";
 

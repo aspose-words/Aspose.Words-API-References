@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTagRangeStart.Title
 second_title: Aspose.Words per .NET API Reference
-description: StructuredDocumentTagRangeStart proprietà. Specifica il nome descrittivo associato a questo tag di documento strutturato. Non può essere null.
+description: StructuredDocumentTagRangeStart proprietà. Specifica il nome descrittivo associato a questo tag di documento strutturato. Non può esserenullo .
 type: docs
 weight: 160
 url: /it/net/aspose.words.markup/structureddocumenttagrangestart/title/
 ---
 ## StructuredDocumentTagRangeStart.Title property
 
-Specifica il nome descrittivo associato a questo tag di documento strutturato. Non può essere null.
+Specifica il nome descrittivo associato a questo tag di documento strutturato. Non può essere`nullo` .
 
 ```csharp
 public string Title { get; set; }

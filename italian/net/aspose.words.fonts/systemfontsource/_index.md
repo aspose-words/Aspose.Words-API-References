@@ -1,14 +1,16 @@
 ---
 title: Class SystemFontSource
 second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Fonts.SystemFontSource classe. Rappresenta tutti i font TrueType installati nel sistema.
+description: Aspose.Words.Fonts.SystemFontSource classe. Rappresenta tutti i caratteri TrueType installati nel sistema.
 type: docs
-weight: 2870
+weight: 3050
 url: /it/net/aspose.words.fonts/systemfontsource/
 ---
 ## SystemFontSource class
 
-Rappresenta tutti i font TrueType installati nel sistema.
+Rappresenta tutti i caratteri TrueType installati nel sistema.
+
+Per saperne di più, visita il[Lavorare con i caratteri](https://docs.aspose.com/words/net/working-with-fonts/) articolo di documentazione.
 
 ```csharp
 public class SystemFontSource : FontSourceBase
@@ -18,33 +20,33 @@ public class SystemFontSource : FontSourceBase
 
 | Nome | Descrizione |
 | --- | --- |
-| [SystemFontSource](systemfontsource/#constructor)() | Tor. |
-| [SystemFontSource](systemfontsource/#constructor_1)(int) | Tor. |
+| [SystemFontSource](systemfontsource/#constructor)() | Ctor. |
+| [SystemFontSource](systemfontsource/#constructor_1)(int) | Ctor. |
 
 ## Proprietà
 
 | Nome | Descrizione |
 | --- | --- |
-| [Priority](../../aspose.words.fonts/fontsourcebase/priority/) { get; } | Restituisce la priorità dell'origine del carattere. |
-| override [Type](../../aspose.words.fonts/systemfontsource/type/) { get; } | Restituisce il tipo di origine del carattere. |
-| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | Chiamato durante l'elaborazione dell'origine del carattere quando viene rilevato un problema che potrebbe causare una perdita di fedeltà di formattazione. |
+| [Priority](../../aspose.words.fonts/fontsourcebase/priority/) { get; } | Restituisce la priorità della fonte del carattere. |
+| override [Type](../../aspose.words.fonts/systemfontsource/type/) { get; } | Restituisce il tipo di fonte del carattere. |
+| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | Chiamato durante l'elaborazione dell'origine del carattere quando viene rilevato un problema che potrebbe comportare una perdita di fedeltà della formattazione. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | Restituisce l'elenco dei caratteri disponibili tramite questa fonte. |
+| [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | Restituisce l'elenco dei caratteri disponibili tramite questa origine. |
 | static [GetSystemFontFolders](../../aspose.words.fonts/systemfontsource/getsystemfontfolders/)() | Restituisce le cartelle dei caratteri di sistema o un array vuoto se le cartelle non sono accessibili. |
 
 ### Esempi
 
-Mostra come accedere all'origine dei caratteri di sistema di un documento e impostare i caratteri sostitutivi.
+Mostra come accedere all'origine dei caratteri di sistema di un documento e impostare i sostituti dei caratteri.
 
 ```csharp
 Document doc = new Document();
 doc.FontSettings = new FontSettings();
 
-// Per impostazione predefinita, un documento vuoto contiene sempre un'origine del carattere di sistema.
+// Per impostazione predefinita, un documento vuoto contiene sempre un'origine carattere di sistema.
 Assert.AreEqual(1, doc.FontSettings.GetFontsSources().Length);
 
 SystemFontSource systemFontSource = (SystemFontSource) doc.FontSettings.GetFontsSources()[0];
@@ -66,7 +68,7 @@ foreach (string systemFontFolder in SystemFontSource.GetSystemFontFolders())
     Console.WriteLine(systemFontFolder);
 }
 
-// Imposta un carattere che esiste nella directory dei caratteri di Windows come sostituto di uno che non lo è.
+// Imposta un carattere esistente nella directory Fonts di Windows come sostituto di uno che non esiste.
 doc.FontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 doc.FontSettings.SubstitutionSettings.TableSubstitution.AddSubstitutes("Kreon-Regular", new[] {"Calibri"});
 
@@ -75,7 +77,7 @@ Assert.AreEqual(1,
 Assert.Contains("Calibri",
     doc.FontSettings.SubstitutionSettings.TableSubstitution.GetSubstitutes("Kreon-Regular").ToArray());
 
-// In alternativa, potremmo aggiungere una cartella font source in cui la cartella corrispondente contiene il font.
+// In alternativa, potremmo aggiungere una cartella di origine del carattere in cui la cartella corrispondente contiene il carattere.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false);
 doc.FontSettings.SetFontsSources(new FontSourceBase[] {systemFontSource, folderFontSource});
 Assert.AreEqual(2, doc.FontSettings.GetFontsSources().Length);

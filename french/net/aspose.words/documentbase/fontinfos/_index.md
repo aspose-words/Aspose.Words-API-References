@@ -28,7 +28,7 @@ Montre comment imprimer les détails des polices présentes dans un document.
 Document doc = new Document(MyDir + "Embedded font.docx");
 
 FontInfoCollection allFonts = doc.FontInfos;
-// Affiche toutes les polices utilisées et non utilisées dans le document.
+// Imprime toutes les polices utilisées et inutilisées dans le document.
 for (int i = 0; i < allFonts.Count; i++)
 {
     Console.WriteLine($"Font index #{i}");

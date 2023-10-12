@@ -1,14 +1,14 @@
 ---
 title: IFieldUpdateCultureProvider.GetCulture
 second_title: Справочник по API Aspose.Words для .NET
-description: IFieldUpdateCultureProvider метод. ВозвращаетCultureInfo объект который будет использоваться во время обновления поля.
+description: IFieldUpdateCultureProvider метод. ВозвращаетCultureInfoобъект который будет использоваться во время обновления поля.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/ifieldupdatecultureprovider/getculture/
 ---
 ## IFieldUpdateCultureProvider.GetCulture method
 
-ВозвращаетCultureInfo объект, который будет использоваться во время обновления поля.
+ВозвращаетCultureInfoобъект, который будет использоваться во время обновления поля.
 
 ```csharp
 public CultureInfo GetCulture(string culture, Field field)
@@ -16,7 +16,7 @@ public CultureInfo GetCulture(string culture, Field field)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| culture | String | Имя языка и региональных параметров, запрошенное для обновляемого поля. |
+| culture | String | Название языка и региональных параметров, запрошенное для обновляемого поля. |
 | field | Field | Поле обновляется. |
 
 ### Возвращаемое значение
@@ -28,7 +28,6 @@ public CultureInfo GetCulture(string culture, Field field)
 Показывает, как указать язык и региональные параметры, которые анализируют форматирование даты и времени для каждого поля.
 
 ```csharp
-[Test]
 public void DefineDateTimeFormatting()
 {
     Document doc = new Document();
@@ -38,7 +37,7 @@ public void DefineDateTimeFormatting()
 
     doc.FieldOptions.FieldUpdateCultureSource = FieldUpdateCultureSource.FieldCode;
 
-    // Установить провайдера, который возвращает объект культуры для каждого поля.
+    // Установите поставщика, который возвращает объект культуры, специфичный для каждого поля.
     doc.FieldOptions.FieldUpdateCultureProvider = new FieldUpdateCultureProvider();
 
     FieldTime fieldDate = (FieldTime)doc.Range.Fields[0];

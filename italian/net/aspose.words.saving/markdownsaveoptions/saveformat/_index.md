@@ -1,14 +1,14 @@
 ---
 title: MarkdownSaveOptions.SaveFormat
 second_title: Aspose.Words per .NET API Reference
-description: MarkdownSaveOptions proprietà. Specifica il formato in cui verrà salvato il documento se viene utilizzato questo oggetto opzioni di salvataggio. Può essereMarkdown .
+description: MarkdownSaveOptions proprietà. Specifica il formato in cui il documento verrà salvato se viene utilizzato questo oggetto opzioni di salvataggio. Può essereMarkdown .
 type: docs
-weight: 50
+weight: 70
 url: /it/net/aspose.words.saving/markdownsaveoptions/saveformat/
 ---
 ## MarkdownSaveOptions.SaveFormat property
 
-Specifica il formato in cui verrà salvato il documento se viene utilizzato questo oggetto opzioni di salvataggio. Può essereMarkdown .
+Specifica il formato in cui il documento verrà salvato se viene utilizzato questo oggetto opzioni di salvataggio. Può essereMarkdown .
 
 ```csharp
 public override SaveFormat SaveFormat { get; set; }

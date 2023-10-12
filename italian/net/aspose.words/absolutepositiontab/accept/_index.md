@@ -16,17 +16,17 @@ public override bool Accept(DocumentVisitor visitor)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| visitor | DocumentVisitor | Il visitatore che visiterà il nodo. |
+| visitor | DocumentVisitor | Il visitatore che visiterà il node. |
 
 ### Valore di ritorno
 
-Falso se il visitatore ha richiesto l'interruzione dell'enumerazione.
+`falso` se il visitatore ha richiesto l'interruzione dell'enumerazione.
 
 ### Osservazioni
 
-Chiama DocumentVisitor.VisitAbsolutePositionTab.
+Chiamate[`VisitAbsolutePositionTab`](../../documentvisitor/visitabsolutepositiontab/).
 
-Per ulteriori informazioni, vedere il modello di progettazione del visitatore.
+Per maggiori informazioni vedere il modello di progettazione Visitor.
 
 ### Esempi
 
@@ -41,10 +41,10 @@ public void DocumentToTxt()
     DocTextExtractor myDocTextExtractor = new DocTextExtractor();
     doc.FirstSection.Body.Accept(myDocTextExtractor);
 
-    // La tabulazione della posizione assoluta, che non ha equivalenti in forma di stringa, è stata convertita in modo esplicito in un carattere di tabulazione.
+    // Il tab della posizione assoluta, che non ha equivalenti sotto forma di stringa, è stato convertito esplicitamente in un carattere di tabulazione.
     Assert.AreEqual("Before AbsolutePositionTab\tAfter AbsolutePositionTab", myDocTextExtractor.GetText());
 
-    // Anche un AbsolutePositionTab può accettare un DocumentVisitor da solo.
+    // Un AbsolutePositionTab può accettare anche un DocumentVisitor da solo.
     AbsolutePositionTab absPositionTab = (AbsolutePositionTab)doc.FirstSection.Body.FirstParagraph.GetChild(NodeType.SpecialChar, 0, true);
 
     myDocTextExtractor = new DocTextExtractor();
@@ -54,7 +54,7 @@ public void DocumentToTxt()
 }
 
 /// <summary>
-/// Raccoglie il contenuto del testo di tutte le esecuzioni nel documento visitato. Sostituisce tutti i caratteri di tabulazione assoluti con tabulazioni ordinarie.
+/// Raccoglie il contenuto testuale di tutte le esecuzioni nel documento visitato. Sostituisce tutti i caratteri di tabulazione assoluti con tabulazioni ordinarie.
 /// </summary>
 public class DocTextExtractor : DocumentVisitor
 {
@@ -64,7 +64,7 @@ public class DocTextExtractor : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando viene rilevato un nodo Run nel documento.
+    /// Chiamato quando nel documento viene incontrato un nodo Esegui.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -73,7 +73,7 @@ public class DocTextExtractor : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando viene rilevato un nodo AbsolutePositionTab nel documento.
+    /// Chiamato quando nel documento viene incontrato un nodo AbsolutePositionTab.
     /// </summary>
     public override VisitorAction VisitAbsolutePositionTab(AbsolutePositionTab tab)
     {
@@ -90,7 +90,7 @@ public class DocTextExtractor : DocumentVisitor
     }
 
     /// <summary>
-    /// Testo normale del documento accumulato dal visitatore.
+    /// Testo semplice del documento accumulato dal visitatore.
     /// </summary>
     public string GetText()
     {

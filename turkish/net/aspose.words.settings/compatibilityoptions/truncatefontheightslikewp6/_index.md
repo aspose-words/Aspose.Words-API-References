@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.TruncateFontHeightsLikeWP6
 second_title: Aspose.Words for .NET API Referansı
-description: CompatibilityOptions mülk. WordPerfect 6.x Yazı Tipi Yüksekliği Hesaplamasına Öykün.
+description: CompatibilityOptions mülk. WordPerfect 6.x Yazı Tipi Yüksekliği Hesaplamasını Taklit Edin.
 type: docs
 weight: 560
 url: /tr/net/aspose.words.settings/compatibilityoptions/truncatefontheightslikewp6/
 ---
 ## CompatibilityOptions.TruncateFontHeightsLikeWP6 property
 
-WordPerfect 6.x Yazı Tipi Yüksekliği Hesaplamasına Öykün.
+WordPerfect 6.x Yazı Tipi Yüksekliği Hesaplamasını Taklit Edin.
 
 ```csharp
 public bool TruncateFontHeightsLikeWP6 { get; set; }

@@ -16,14 +16,14 @@ public string BookmarkName { get; set; }
 
 ### Exemples
 
-Montre comment créer un texte marqué d'un signet avec un champ SET, puis l'afficher dans le document à l'aide d'un champ REF.
+Montre comment créer un texte mis en signet avec un champ SET, puis l'afficher dans le document à l'aide d'un champ REF.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
  // Nommez le texte mis en signet avec un champ SET.
-// Ce champ fait référence au "signet" et non à une structure de signet qui apparaît dans le texte, mais à une variable nommée.
+// Ce champ fait référence au "signet" non pas à une structure de signet qui apparaît dans le texte, mais à une variable nommée.
 FieldSet fieldSet = (FieldSet)builder.InsertField(FieldType.FieldSet, false);
 fieldSet.BookmarkName = "MyBookmark";
 fieldSet.BookmarkText = "Hello world!";
@@ -31,7 +31,7 @@ fieldSet.Update();
 
 Assert.AreEqual(" SET  MyBookmark \"Hello world!\"", fieldSet.GetFieldCode());
 
-// Fait référence au signet par son nom dans un champ REF et affiche son contenu.
+// Faites référence au signet par son nom dans un champ REF et affichez son contenu.
 FieldRef fieldRef = (FieldRef)builder.InsertField(FieldType.FieldRef, true);
 fieldRef.BookmarkName = "MyBookmark";
 fieldRef.Update();
@@ -61,14 +61,14 @@ public void FieldRef()
     builder.ListFormat.ApplyNumberDefault();
     builder.ListFormat.ListLevel.NumberFormat = "> \x0000";
 
-    // Insère un champ REF qui contiendra le texte dans notre signet, agira comme un lien hypertexte et clonera les notes de bas de page du signet.
+    // Insérez un champ REF qui contiendra le texte dans notre signet, agira comme un lien hypertexte et clonera les notes de bas de page du signet.
     FieldRef field = InsertFieldRef(builder, "MyBookmark", "", "\n");
     field.IncludeNoteOrComment = true;
     field.InsertHyperlink = true;
 
     Assert.AreEqual(" REF  MyBookmark \\f \\h", field.GetFieldCode());
 
-    // Insère un champ REF et affiche si le signet référencé est au-dessus ou en dessous.
+    // Insère un champ REF et affiche si le signet référencé est au-dessus ou en dessous de celui-ci.
     field = InsertFieldRef(builder, "MyBookmark", "The referenced paragraph is ", " this field.\n");
     field.InsertRelativePosition = true;
 
@@ -80,14 +80,14 @@ public void FieldRef()
 
     Assert.AreEqual(" REF  MyBookmark \\n", field.GetFieldCode());
 
-    // Affiche le numéro de liste du signet, mais avec les caractères non délimiteurs, tels que les crochets angulaires, omis.
+    // Affiche le numéro de liste du signet, mais en omettant les caractères non délimiteurs, tels que les crochets angulaires.
     field = InsertFieldRef(builder, "MyBookmark", "The bookmark's paragraph number, non-delimiters suppressed, is ", "\n");
     field.InsertParagraphNumber = true;
     field.SuppressNonDelimiters = true;
 
     Assert.AreEqual(" REF  MyBookmark \\n \\t", field.GetFieldCode());
 
-    // Descend d'un niveau de liste.
+    // Descendre d'un niveau de liste.
     builder.ListFormat.ListLevelNumber++;
     builder.ListFormat.ListLevel.NumberFormat = ">> \x0001";
 
@@ -105,16 +105,17 @@ public void FieldRef()
 
     Assert.AreEqual(" REF  MyBookmark \\r", field.GetFieldCode());
 
-    // À la fin du document, le signet apparaîtra comme un élément de liste ici.
+    // À la fin du document, le signet apparaîtra ici comme élément de liste.
     builder.Writeln("List level above bookmark");
     builder.ListFormat.ListLevelNumber++;
     builder.ListFormat.ListLevel.NumberFormat = ">>> \x0002";
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.REF.docx");
+}
 
 /// <summary>
-/// Demandez au générateur de document d'insérer un champ REF, de référencer un signet avec celui-ci et d'ajouter du texte avant et après.
+/// Demandez au générateur de documents d'insérer un champ REF, de référencer un signet avec celui-ci et d'ajouter du texte avant et après celui-ci.
 /// </summary>
 private static FieldRef InsertFieldRef(DocumentBuilder builder, string bookmarkName, string textBefore, string textAfter)
 {

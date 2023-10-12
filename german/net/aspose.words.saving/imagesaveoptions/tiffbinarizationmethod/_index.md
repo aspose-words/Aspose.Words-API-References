@@ -1,14 +1,14 @@
 ---
 title: ImageSaveOptions.TiffBinarizationMethod
 second_title: Aspose.Words für .NET-API-Referenz
-description: ImageSaveOptions eigendom. Ruft die Methode ab oder legt sie fest die beim Konvertieren von Bildern in das 1bppFormat wann verwendet wirdSaveFormat ist SaveFormat.Tiff and TiffCompression ist gleich TiffCompression.Ccitt3 oder TiffCompression.Ccitt4.
+description: ImageSaveOptions eigendom. Ruft die beim Konvertieren von Bildern in das 1bppFormat verwendete Methode ab oder legt diese fest. wannSaveFormat IstTiff and TiffCompression ist gleichCcitt3 oderCcitt4 .
 type: docs
-weight: 160
+weight: 170
 url: /de/net/aspose.words.saving/imagesaveoptions/tiffbinarizationmethod/
 ---
 ## ImageSaveOptions.TiffBinarizationMethod property
 
-Ruft die Methode ab oder legt sie fest, die beim Konvertieren von Bildern in das 1-bpp-Format wann verwendet wird[`SaveFormat`](../saveformat/) ist SaveFormat.Tiff and [`TiffCompression`](../tiffcompression/) ist gleich TiffCompression.Ccitt3 oder TiffCompression.Ccitt4.
+Ruft die beim Konvertieren von Bildern in das 1-bpp-Format verwendete Methode ab oder legt diese fest. wann[`SaveFormat`](../saveformat/) IstTiff and [`TiffCompression`](../tiffcompression/) ist gleichCcitt3 oderCcitt4 .
 
 ```csharp
 public ImageBinarizationMethod TiffBinarizationMethod { get; set; }
@@ -16,11 +16,11 @@ public ImageBinarizationMethod TiffBinarizationMethod { get; set; }
 
 ### Bemerkungen
 
-Der Standardwert ist ImageBinarizationMethod.Threshold.
+Der Standardwert istThreshold.
 
 ### Beispiele
 
-Zeigt, wie der TIFF-Binärisierungsfehlerschwellenwert festgelegt wird, wenn die Floyd-Steinberg-Methode zum Rendern eines TIFF-Bilds verwendet wird.
+Zeigt, wie der TIFF-Binarisierungsfehlerschwellenwert festgelegt wird, wenn die Floyd-Steinberg-Methode zum Rendern eines TIFF-Bilds verwendet wird.
 
 ```csharp
 Document doc = new Document();
@@ -32,7 +32,7 @@ builder.InsertImage(ImageDir + "Logo.jpg");
 
 // Wenn wir das Dokument als TIFF speichern, können wir ein SaveOptions-Objekt an übergeben
 // Passen Sie das Dithering an, das Aspose.Words beim Rendern dieses Bildes anwendet.
-// Der Standardwert der Eigenschaft "ThresholdForFloydSteinbergDithering" ist 128.
+// Der Standardwert der Eigenschaft „ThresholdForFloydSteinbergDithering“ ist 128.
 // Höhere Werte führen tendenziell zu dunkleren Bildern.
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Tiff)
 {

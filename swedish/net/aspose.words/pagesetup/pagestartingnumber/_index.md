@@ -3,7 +3,7 @@ title: PageSetup.PageStartingNumber
 second_title: Aspose.Words för .NET API Referens
 description: PageSetup fast egendom. Hämtar eller ställer in startsidnumret för avsnittet.
 type: docs
-weight: 320
+weight: 330
 url: /sv/net/aspose.words/pagesetup/pagestartingnumber/
 ---
 ## PageSetup.PageStartingNumber property
@@ -16,7 +16,7 @@ public int PageStartingNumber { get; set; }
 
 ### Anmärkningar
 
-Den[`RestartPageNumbering`](../restartpagenumbering/) egenskap, om inställd på **falsk** , kommer att åsidosätta the  **PageStartingNumber** egenskap så att sidnumreringen kan fortsätta från föregående avsnitt.
+Den[`RestartPageNumbering`](../restartpagenumbering/)egenskap, om den är inställd på`falsk` , kommer att åsidosätta the `PageStartingNumber` egenskap så att sidnumreringen kan fortsätta från föregående avsnitt.
 
 ### Exempel
 

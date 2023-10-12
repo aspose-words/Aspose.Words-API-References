@@ -3,7 +3,7 @@ title: Interface IFieldResultFormatter
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.Fields.IFieldResultFormatter interfaz. Implemente esta interfaz si desea controlar cómo se formatea el resultado del campo.
 type: docs
-weight: 2530
+weight: 2700
 url: /es/net/aspose.words.fields/ifieldresultformatter/
 ---
 ## IFieldResultFormatter interface
@@ -18,24 +18,25 @@ public interface IFieldResultFormatter
 
 | Nombre | Descripción |
 | --- | --- |
-| [Format](../../aspose.words.fields/ifieldresultformatter/format/#format)(double, GeneralFormat) | Llamado cuando Aspose.Words aplica un cambio de formato de número, es decir, \* Ordinal. |
-| [Format](../../aspose.words.fields/ifieldresultformatter/format/#format_1)(string, GeneralFormat) | Llamado cuando Aspose.Words aplica un cambio de formato de mayúsculas, es decir, \* Upper. |
-| [FormatDateTime](../../aspose.words.fields/ifieldresultformatter/formatdatetime/)(DateTime, string, CalendarType) | Llamado cuando Aspose.Words aplica un cambio de formato de fecha/hora, es decir, \@ "dd.MM.yyyy". |
-| [FormatNumeric](../../aspose.words.fields/ifieldresultformatter/formatnumeric/)(double, string) | Llamado cuando Aspose.Words aplica un cambio de formato numérico, es decir, \# "#.##". |
+| [Format](../../aspose.words.fields/ifieldresultformatter/format/#format)(double, GeneralFormat) | Se llama cuando Aspose.Words aplica un cambio de formato numérico, es decir, \* Ordinal. |
+| [Format](../../aspose.words.fields/ifieldresultformatter/format/#format_1)(string, GeneralFormat) | Se llama cuando Aspose.Words aplica un cambio de formato de mayúsculas, es decir, \* Upper. |
+| [FormatDateTime](../../aspose.words.fields/ifieldresultformatter/formatdatetime/)(DateTime, string, CalendarType) | Se llama cuando Aspose.Words aplica un cambio de formato de fecha/hora, es decir, \@ "dd.MM.yyyy". |
+| [FormatNumeric](../../aspose.words.fields/ifieldresultformatter/formatnumeric/)(double, string) | Se llama cuando Aspose.Words aplica un cambio de formato numérico, es decir, \# "#.##". |
 
 ### Ejemplos
 
-Muestra cómo aplicar automáticamente un formato personalizado a los resultados de campo a medida que se actualizan los campos.
+Muestra cómo aplicar automáticamente un formato personalizado a los resultados de los campos a medida que se actualizan los campos.
 
 ```csharp
+public void FieldResultFormatting()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
     FieldResultFormatter formatter = new FieldResultFormatter("${0}", "Date: {0}", "Item # {0}:");
     doc.FieldOptions.ResultFormatter = formatter;
 
-    // Nuestro formateador de resultados de campo aplica un formato personalizado a los campos recién creados de tres tipos de formatos.
-    // Los formateadores de resultados de campo aplican un nuevo formato a los campos a medida que se actualizan,
+    // Nuestro formateador de resultados de campos aplica un formato personalizado a campos recién creados de tres tipos de formatos.
+    // Los formateadores de resultados de campo aplican nuevo formato a los campos a medida que se actualizan.
     // lo que sucede tan pronto como los creamos usando esta sobrecarga del método InsertField.
     // 1 - Numérico:
     builder.InsertField(" = 2 + 3 \\# $###");
@@ -59,8 +60,8 @@ Muestra cómo aplicar automáticamente un formato personalizado a los resultados
 }
 
 /// <summary>
-/// Cuando se actualizan los campos con formato, este formateador anulará su formato
-/// con un formato personalizado, mientras rastrea cada invocación.
+/// Cuando se actualizan campos con formato, este formateador anulará su formato
+/// con un formato personalizado, mientras realiza un seguimiento de cada invocación.
 /// </summary>
 private class FieldResultFormatter : IFieldResultFormatter
 {

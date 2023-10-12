@@ -1,14 +1,14 @@
 ---
 title: FindReplaceOptions.LegacyMode
 second_title: Aspose.Words لمراجع .NET API
-description: FindReplaceOptions ملكية. الحصول على أو تعيين قيمة منطقية تشير إلى استخدام خوارزمية البحث / الاستبدال القديمة.
+description: FindReplaceOptions ملكية. الحصول على قيمة منطقية أو تعيينها تشير إلى استخدام خوارزمية البحث/الاستبدال القديمة.
 type: docs
-weight: 110
+weight: 130
 url: /ar/net/aspose.words.replacing/findreplaceoptions/legacymode/
 ---
 ## FindReplaceOptions.LegacyMode property
 
-الحصول على أو تعيين قيمة منطقية تشير إلى استخدام خوارزمية البحث / الاستبدال القديمة.
+الحصول على قيمة منطقية أو تعيينها تشير إلى استخدام خوارزمية البحث/الاستبدال القديمة.
 
 ```csharp
 public bool LegacyMode { get; set; }
@@ -16,11 +16,11 @@ public bool LegacyMode { get; set; }
 
 ### ملاحظات
 
-استخدم هذه العلامة إذا كنت بحاجة إلى نفس السلوك تمامًا كما كان قبل تقديم ميزة البحث / الاستبدال المتقدمة. لاحظ أن الخوارزمية القديمة لا تدعم الميزات المتقدمة مثل الاستبدال بفواصل وتطبيق التنسيق وما إلى ذلك.
+استخدم هذه العلامة إذا كنت بحاجة إلى نفس السلوك تمامًا كما كان قبل تقديم ميزة البحث/الاستبدال المتقدمة. لاحظ أن الخوارزمية القديمة لا تدعم الميزات المتقدمة مثل الاستبدال بالفواصل وتطبيق التنسيق وما إلى ذلك.
 
 ### أمثلة
 
-يوضح كيفية التعرف على البدائل واستخدامها في أنماط الاستبدال.
+يوضح كيفية التعرف على البدائل واستخدامها ضمن أنماط الاستبدال.
 
 ```csharp
 Document doc = new Document();
@@ -33,7 +33,7 @@ Regex regex = new Regex(@"([A-z]+) gave money to ([A-z]+)");
 FindReplaceOptions options = new FindReplaceOptions();
 options.UseSubstitutions = true;
 
-// لا يدعم استخدام الوضع القديم العديد من الميزات المتقدمة ، لذلك نحتاج إلى تعيينه على "خطأ".
+// استخدام الوضع القديم لا يدعم العديد من الميزات المتقدمة، لذا نحتاج إلى ضبطه على "خطأ".
 options.LegacyMode = false;
 
 doc.Range.Replace(regex, @"$2 took money from $1", options);

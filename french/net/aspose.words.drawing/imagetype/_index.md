@@ -3,7 +3,7 @@ title: Enum ImageType
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.Drawing.ImageType énumération. Spécifie le type format dune image dans un document Microsoft Word.
 type: docs
-weight: 950
+weight: 1080
 url: /fr/net/aspose.words.drawing/imagetype/
 ---
 ## ImageType enumeration
@@ -19,13 +19,14 @@ public enum ImageType
 | Nom | Évaluer | La description |
 | --- | --- | --- |
 | NoImage | `0` | Il n'y a pas de données d'image. |
-| Unknown | `1` | Un type d'image inconnu ou un type d'image qui ne peut pas être stocké directement dans un document Microsoft Word. |
+| Unknown | `1` | Un type d'image inconnu ou un type d'image qui ne peut pas être directement stocké dans un document Microsoft Word. |
 | Emf | `2` | Métafichier amélioré Windows. |
 | Wmf | `3` | Métafichier Windows. |
 | Pict | `4` | Macintosh PICT. Une image existante sera conservée dans un document, mais l'insertion de nouvelles images PICT dans un document n'est pas prise en charge. |
 | Jpeg | `5` | JPEG JFIF. |
 | Png | `6` | Graphiques réseau portables. |
 | Bmp | `7` | Bitmap Windows. |
+| Eps | `8` | PostScript encapsulé. |
 
 ### Exemples
 

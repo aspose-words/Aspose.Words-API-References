@@ -1,14 +1,14 @@
 ---
 title: SubDocument.NodeType
 second_title: Aspose.Words för .NET API Referens
-description: SubDocument fast egendom. Returnerar NodeType.SubDocument
+description: SubDocument fast egendom. ReturnerarSubDocument .
 type: docs
 weight: 10
 url: /sv/net/aspose.words/subdocument/nodetype/
 ---
 ## SubDocument.NodeType property
 
-Returnerar **NodeType.SubDocument**
+ReturnerarSubDocument .
 
 ```csharp
 public override NodeType NodeType { get; }

@@ -1,14 +1,14 @@
 ---
 title: Odso.RecipientDatas
 second_title: Referencia de API de Aspose.Words para .NET
-description: Odso propiedad. Obtiene o establece una colección de objetos que especifican la inclusión/exclusión de registros individuales en la combinación de correspondencia. Este objeto nunca es nulo.
+description: Odso propiedad. Obtiene o establece una colección de objetos que especifican la inclusión/exclusión de registros individuales en la combinación de correspondencia. Este objeto nuncanulo .
 type: docs
 weight: 70
 url: /es/net/aspose.words.settings/odso/recipientdatas/
 ---
 ## Odso.RecipientDatas property
 
-Obtiene o establece una colección de objetos que especifican la inclusión/exclusión de registros individuales en la combinación de correspondencia. Este objeto nunca es nulo.
+Obtiene o establece una colección de objetos que especifican la inclusión/exclusión de registros individuales en la combinación de correspondencia. Este objeto nunca`nulo` .
 
 ```csharp
 public OdsoRecipientDataCollection RecipientDatas { get; set; }
@@ -16,7 +16,7 @@ public OdsoRecipientDataCollection RecipientDatas { get; set; }
 
 ### Ejemplos
 
-Muestra cómo acceder a la colección de datos que designa qué registros de origen de datos combinados excluirá una combinación de correspondencia.
+Muestra cómo acceder a la colección de datos que designa qué registros de origen de datos de combinación excluirá una combinación de correspondencia.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");

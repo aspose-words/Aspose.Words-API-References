@@ -22,7 +22,7 @@ public void SetImage(Image image)
 
 | undantag | skick |
 | --- | --- |
-| ArgumentNullException | Kastar när bilden är null. |
+| ArgumentNullException | Kastar när bilden är`null` . |
 
 ### Se även
 
@@ -49,11 +49,11 @@ public void SetImage(Image image, ImageWatermarkOptions options)
 
 | undantag | skick |
 | --- | --- |
-| ArgumentNullException | Kastar när bilden är null. |
+| ArgumentNullException | Kastar när bilden är`null` . |
 
 ### Anmärkningar
 
-Om[`ImageWatermarkOptions`](../../imagewatermarkoptions/) är null, kommer vattenstämpeln att ställas in med standardalternativ.
+Om[`ImageWatermarkOptions`](../../imagewatermarkoptions/) är`null`, kommer vattenstämpeln att ställas in med standardalternativ.
 
 ### Exempel
 
@@ -106,11 +106,11 @@ public void SetImage(string imagePath, ImageWatermarkOptions options)
 
 | undantag | skick |
 | --- | --- |
-| ArgumentNullException | Kastar när sökvägen är null. |
+| ArgumentNullException | Kastar när sökvägen är`null` . |
 
 ### Anmärkningar
 
-Om[`ImageWatermarkOptions`](../../imagewatermarkoptions/) är null, kommer vattenstämpeln att ställas in med standardalternativ.
+Om[`ImageWatermarkOptions`](../../imagewatermarkoptions/) är`null`, kommer vattenstämpeln att ställas in med standardalternativ.
 
 ### Se även
 

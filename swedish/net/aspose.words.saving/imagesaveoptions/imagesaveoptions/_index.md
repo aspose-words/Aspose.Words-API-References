@@ -1,14 +1,14 @@
 ---
 title: ImageSaveOptions.ImageSaveOptions
 second_title: Aspose.Words för .NET API Referens
-description: ImageSaveOptions byggare. Initierar en ny instans av denna klass som kan användas för att spara renderade bilder i Tiff Png Bmp  Emf Jpeg ellerSvg format. Png Bmp Jpeg ellerSvg format.
+description: ImageSaveOptions byggare. Initierar en ny instans av denna klass som kan användas för att spara renderade bilder i Tiff Png Bmp  Jpeg Emf Eps ellerSvg format.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.saving/imagesaveoptions/imagesaveoptions/
 ---
 ## ImageSaveOptions constructor
 
-Initierar en ny instans av denna klass som kan användas för att spara renderade bilder i Tiff ,Png ,Bmp , Emf ,Jpeg ellerSvg format. Png ,Bmp ,Jpeg ellerSvg format.
+Initierar en ny instans av denna klass som kan användas för att spara renderade bilder i Tiff ,Png ,Bmp , Jpeg ,Emf ,Eps ellerSvg format.
 
 ```csharp
 public ImageSaveOptions(SaveFormat saveFormat)
@@ -16,7 +16,7 @@ public ImageSaveOptions(SaveFormat saveFormat)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| saveFormat | SaveFormat | Kan vara Tiff ,Png ,Bmp , Emf ,Jpeg ellerSvg . Png ,Bmp ,Jpeg ellerSvg . |
+| saveFormat | SaveFormat | Kan vara Tiff ,Png ,Bmp , Jpeg ,Emf ,Eps ellerSvg format. |
 
 ### Exempel
 

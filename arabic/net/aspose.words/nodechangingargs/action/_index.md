@@ -1,14 +1,14 @@
 ---
 title: NodeChangingArgs.Action
 second_title: Aspose.Words لمراجع .NET API
-description: NodeChangingArgs ملكية. يحصل على قيمة تشير إلى نوع حدث تغيير العقدة الذي يحدث .
+description: NodeChangingArgs ملكية. الحصول على قيمة تشير إلى نوع حدث تغيير العقدة الذي يحدث.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/nodechangingargs/action/
 ---
 ## NodeChangingArgs.Action property
 
-يحصل على قيمة تشير إلى نوع حدث تغيير العقدة الذي يحدث .
+الحصول على قيمة تشير إلى نوع حدث تغيير العقدة الذي يحدث.
 
 ```csharp
 public NodeChangingAction Action { get; }
@@ -16,9 +16,10 @@ public NodeChangingAction Action { get; }
 
 ### أمثلة
 
-يوضح كيفية استخدام NodeChangingCallback لمراقبة التغييرات في شجرة المستند في الوقت الفعلي أثناء تحريرها.
+يوضح كيفية استخدام NodeChangingCallback لمراقبة التغييرات التي تطرأ على شجرة المستندات في الوقت الفعلي أثناء قيامنا بتحريرها.
 
 ```csharp
+public void NodeChangingCallback()
 {
     Document doc = new Document();
     doc.NodeChangingCallback = new NodeChangingPrinter();
@@ -43,7 +44,7 @@ public NodeChangingAction Action { get; }
 }
 
 /// <summary>
-/// يطبع كل إدخال / إزالة عقدة كما يحدث في المستند.
+/// يطبع كل إدخال/إزالة للعقدة أثناء حدوثها في المستند.
 /// </summary>
 private class NodeChangingPrinter : INodeChangingCallback
 {

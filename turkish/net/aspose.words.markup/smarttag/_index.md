@@ -1,14 +1,16 @@
 ---
 title: Class SmartTag
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Markup.SmartTag sınıf. Bu öğe bir paragraf içinde bir veya daha fazla satır içi yapı çalışmalar görüntüler alanlar vb. çevresinde akıllı bir etiketin varlığını belirtir.
+description: Aspose.Words.Markup.SmartTag sınıf. Bu öğe bir paragraf içindeki bir veya daha fazla satır içi yapı çalıştırmalar resimler alanlar vb. etrafında bir akıllı etiketin varlığını belirtir.
 type: docs
-weight: 3810
+weight: 4050
 url: /tr/net/aspose.words.markup/smarttag/
 ---
 ## SmartTag class
 
-Bu öğe, bir paragraf içinde bir veya daha fazla satır içi yapı (çalışmalar, görüntüler, alanlar, vb.) çevresinde akıllı bir etiketin varlığını belirtir.
+Bu öğe, bir paragraf içindeki bir veya daha fazla satır içi yapı (çalıştırmalar, resimler, alanlar vb.) etrafında bir akıllı etiketin varlığını belirtir.
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Yapılandırılmış Belge Etiketleri veya İçerik Kontrolü](https://docs.aspose.com/words/net/working-with-content-control-sdt/) dokümantasyon makalesi.
 
 ```csharp
 public class SmartTag : CompositeNode
@@ -18,65 +20,66 @@ public class SmartTag : CompositeNode
 
 | İsim | Tanım |
 | --- | --- |
-| [SmartTag](smarttag/)(DocumentBase) | Yeni bir örneğini başlatır`SmartTag` sınıf. |
+| [SmartTag](smarttag/)(DocumentBase) | Yeni bir örneğini başlatır`SmartTag` class. |
 
 ## Özellikleri
 
 | İsim | Tanım |
 | --- | --- |
-| [ChildNodes](../../aspose.words/compositenode/childnodes/) { get; } | Bu düğümün tüm acil alt düğümlerini alır. |
-| [Count](../../aspose.words/compositenode/count/) { get; } | Bu düğümün acil alt öğelerinin sayısını alır. |
+| [Count](../../aspose.words/compositenode/count/) { get; } | Bu düğümün doğrudan alt öğelerinin sayısını alır. |
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Özel düğüm tanımlayıcısını belirtir. |
 | virtual [Document](../../aspose.words/node/document/) { get; } | Bu düğümün ait olduğu belgeyi alır. |
 | [Element](../../aspose.words.markup/smarttag/element/) { get; set; } | Belge içindeki akıllı etiketin adını belirtir. |
-| [FirstChild](../../aspose.words/compositenode/firstchild/) { get; } | Düğümün ilk alt öğesini alır. |
-| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Bu düğümün herhangi bir alt düğümü varsa doğru döndürür. |
-| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Bu düğümün alt düğümleri olabileceğinden true değerini döndürür. |
-| [LastChild](../../aspose.words/compositenode/lastchild/) { get; } | Düğümün son alt öğesini alır. |
-| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Bu düğümden hemen sonraki düğümü alır. |
-| override [NodeType](../../aspose.words.markup/smarttag/nodetype/) { get; } | İade **NodeType.SmartTag** . |
-| [ParentNode](../../aspose.words/node/parentnode/) { get; } | Bu düğümün hemen üst öğesini alır. |
+| [FirstChild](../../aspose.words/compositenode/firstchild/) { get; } | Düğümün ilk çocuğunu alır. |
+| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | İadeler`doğru` bu düğümün herhangi bir alt düğümü varsa. |
+| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | İadeler`doğru` çünkü bu düğüm alt düğümlere sahip olabilir. |
+| [LastChild](../../aspose.words/compositenode/lastchild/) { get; } | Düğümün son çocuğunu alır. |
+| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Bu düğümden hemen sonra gelen düğümü alır. |
+| override [NodeType](../../aspose.words.markup/smarttag/nodetype/) { get; } | İadelerSmartTag . |
+| [ParentNode](../../aspose.words/node/parentnode/) { get; } | Bu düğümün doğrudan ebeveynini alır. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Bu düğümden hemen önceki düğümü alır. |
 | [Properties](../../aspose.words.markup/smarttag/properties/) { get; } | Akıllı etiket özelliklerinin bir koleksiyonu. |
-| [Range](../../aspose.words/node/range/) { get; } | Bir döndürür **Menzil** belgenin bu düğümde bulunan bölümünü temsil eden nesne. |
+| [Range](../../aspose.words/node/range/) { get; } | Bir değeri döndürür[`Range`](../../aspose.words/range/) Bu düğümde bulunan bir belgenin bölümünü temsil eden nesne. |
 | [Uri](../../aspose.words.markup/smarttag/uri/) { get; set; } | Akıllı etiketin ad alanı URI'sini belirtir. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| override [Accept](../../aspose.words.markup/smarttag/accept/)(DocumentVisitor) | Bir ziyaretçiyi kabul eder. |
-| [AppendChild](../../aspose.words/compositenode/appendchild/)(Node) | Belirtilen düğümü, bu düğüm için alt düğümler listesinin sonuna ekler. |
+| override [Accept](../../aspose.words.markup/smarttag/accept/)(DocumentVisitor) | Ziyaretçi kabul eder. |
+| override [AcceptEnd](../../aspose.words.markup/smarttag/acceptend/)(DocumentVisitor) |  |
+| override [AcceptStart](../../aspose.words.markup/smarttag/acceptstart/)(DocumentVisitor) |  |
+| [AppendChild&lt;T&gt;](../../aspose.words/compositenode/appendchild/)(T) |  |
 | [Clone](../../aspose.words/node/clone/)(bool) | Düğümün bir kopyasını oluşturur. |
-| [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Sistem kullanımı için ayrılmıştır. IXPathNavigable. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Belirtilenin ilk atasını alır[`NodeType`](../../aspose.words/nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Belirtilen nesne türünün ilk üst öğesini alır. |
-| [GetChild](../../aspose.words/compositenode/getchild/)(NodeType, int, bool) | Belirtilen türle eşleşen N. alt düğümü döndürür. |
-| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(NodeType, bool) | Belirtilen türle eşleşen canlı bir alt düğüm koleksiyonu döndürür. |
-| [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() | Bu düğümün alt düğümleri üzerinde her stil yinelemesi için destek sağlar. |
+| [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Düğümlerin arasında geçiş yapmak ve düğümleri okumak için kullanılabilecek gezgini oluşturur. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Belirtilenin ilk atayı alır[`NodeType`](../../aspose.words/nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Belirtilen nesne türünün ilk atayı alır. |
+| [GetChild](../../aspose.words/compositenode/getchild/)(NodeType, int, bool) | Belirtilen türle eşleşen N'inci alt düğümü döndürür. |
+| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(NodeType, bool) | Belirtilen türle eşleşen alt düğümlerin canlı bir koleksiyonunu döndürür. |
+| [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() | Bu düğümün alt düğümleri üzerindeki her stil yinelemesi için destek sağlar. |
 | override [GetText](../../aspose.words/compositenode/gettext/)() | Bu düğümün ve tüm alt öğelerinin metnini alır. |
-| [IndexOf](../../aspose.words/compositenode/indexof/)(Node) | Alt düğüm dizisindeki belirtilen alt düğümün dizinini döndürür. |
-| [InsertAfter](../../aspose.words/compositenode/insertafter/)(Node, Node) | Belirtilen referans düğümünden hemen sonra belirtilen düğümü ekler. |
-| [InsertBefore](../../aspose.words/compositenode/insertbefore/)(Node, Node) | Belirtilen düğümü, belirtilen referans düğümünden hemen önce ekler. |
+| [IndexOf](../../aspose.words/compositenode/indexof/)(Node) | Alt düğüm dizisinde belirtilen alt düğümün dizinini döndürür. |
+| [InsertAfter&lt;T&gt;](../../aspose.words/compositenode/insertafter/)(T, Node) |  |
+| [InsertBefore&lt;T&gt;](../../aspose.words/compositenode/insertbefore/)(T, Node) |  |
 | [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Ön sipariş ağaç geçiş algoritmasına göre sonraki düğümü alır. |
-| [PrependChild](../../aspose.words/compositenode/prependchild/)(Node) | Belirtilen düğümü, bu düğüm için alt düğümler listesinin başına ekler. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Ön sipariş ağacı geçiş algoritmasına göre önceki düğümü alır. |
+| [PrependChild&lt;T&gt;](../../aspose.words/compositenode/prependchild/)(T) |  |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Ön sipariş ağaç geçiş algoritmasına göre önceki düğümü alır. |
 | [Remove](../../aspose.words/node/remove/)() | Kendini üst öğeden kaldırır. |
 | [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | Geçerli düğümün tüm alt düğümlerini kaldırır. |
-| [RemoveChild](../../aspose.words/compositenode/removechild/)(Node) | Belirtilen alt düğümü kaldırır. |
-| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Tümünü kaldırır`SmartTag` geçerli düğümün alt düğümleri. |
+| [RemoveChild&lt;T&gt;](../../aspose.words/compositenode/removechild/)(T) |  |
+| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Tümünü kaldırır`SmartTag`Geçerli düğümün alt düğümleri. |
 | [SelectNodes](../../aspose.words/compositenode/selectnodes/)(string) | XPath ifadesiyle eşleşen düğümlerin listesini seçer. |
-| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | XPath ifadesiyle eşleşen ilk Düğümü seçer. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Düğümün içeriğini belirtilen biçimde bir dizeye aktarır. |
+| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | İlkini seçer[`Node`](../../aspose.words/node/) XPath ifadesiyle eşleşen. |
+| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Düğümün içeriğini belirtilen formatta bir dizeye aktarır. |
 | [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Belirtilen kaydetme seçeneklerini kullanarak düğümün içeriğini bir dizeye aktarır. |
 
 ### Notlar
 
-Akıllı etiketler, bir tür özel XML işaretlemesidir. Akıllı etiketler, bir belge içindeki bir çalıştırma veya çalıştırma kümesi için temel bir ad alanı/ad sağlama yeteneği aracılığıyla belgeye müşteri tanımlı semantiği yerleştirmek için bir olanak sağlar.
+Akıllı etiketler bir tür özel XML işaretlemesidir. Akıllı etiketler, bir belge içindeki bir çalıştırma veya çalıştırma kümesi için temel bir ad alanı/name sağlama yeteneği yoluyla belgeye müşteri tanımlı semantiğin yerleştirilmesi için bir olanak sağlar.
 
-`SmartTag` çocuğu olabilir[`Paragraph`](../../aspose.words/paragraph/) or başka`SmartTag` düğüm.
+`SmartTag` bir çocuk olabilir[`Paragraph`](../../aspose.words/paragraph/) or başka bir`SmartTag` düğüm.
 
-Bir akıllı etiket içinde oluşabilecek alt düğümlerin tam listesi, 'den oluşur.[`BookmarkStart`](../../aspose.words/bookmarkstart/) ,[`BookmarkEnd`](../../aspose.words/bookmarkend/) , [`FieldStart`](../../aspose.words.fields/fieldstart/) ,[`FieldSeparator`](../../aspose.words.fields/fieldseparator/) ,[`FieldEnd`](../../aspose.words.fields/fieldend/) ,[`FormField`](../../aspose.words.fields/formfield/) , [`Comment`](../../aspose.words/comment/) ,[`Footnote`](../../aspose.words.notes/footnote/) , [`Run`](../../aspose.words/run/) ,[`SpecialChar`](../../aspose.words/specialchar/) , [`Shape`](../../aspose.words.drawing/shape/) ,[`GroupShape`](../../aspose.words.drawing/groupshape/) , [`CommentRangeStart`](../../aspose.words/commentrangestart/) , [`CommentRangeEnd`](../../aspose.words/commentrangeend/) , `SmartTag`.
+Bir akıllı etiketin içinde oluşabilecek alt düğümlerin tam listesi şunlardan oluşur: [`BookmarkStart`](../../aspose.words/bookmarkstart/) ,[`BookmarkEnd`](../../aspose.words/bookmarkend/) , [`FieldStart`](../../aspose.words.fields/fieldstart/) ,[`FieldSeparator`](../../aspose.words.fields/fieldseparator/) ,[`FieldEnd`](../../aspose.words.fields/fieldend/) ,[`FormField`](../../aspose.words.fields/formfield/) , [`Comment`](../../aspose.words/comment/) ,[`Footnote`](../../aspose.words.notes/footnote/) , [`Run`](../../aspose.words/run/) ,[`SpecialChar`](../../aspose.words/specialchar/) , [`Shape`](../../aspose.words.drawing/shape/) ,[`GroupShape`](../../aspose.words.drawing/groupshape/) , [`CommentRangeStart`](../../aspose.words/commentrangestart/) , [`CommentRangeEnd`](../../aspose.words/commentrangeend/) , `SmartTag`.
 
 ### Örnekler
 
@@ -87,19 +90,19 @@ public void Create()
 {
     Document doc = new Document();
 
-    // Microsoft Word ile bir belgede bir akıllı etiket görünür, metninin bir bölümünü bir tür veri olarak tanır,
+    // Microsoft Word'ün metnin bir bölümünü bir tür veri olarak tanıdığı bir belgede akıllı etiket görünür,
     // ad, tarih veya adres gibi ve onu mor noktalı alt çizgi görüntüleyen bir köprüye dönüştürür.
     SmartTag smartTag = new SmartTag(doc);
 
-    // Akıllı etiketler, tanınan metinlerini bütünüyle içeren bileşik düğümlerdir.
-    // Bu akıllı etikete manuel olarak içerik ekleyin.
+    // Akıllı etiketler, tanınan metnin tamamını içeren bileşik düğümlerdir.
+    // İçeriği bu akıllı etikete manuel olarak ekleyin.
     smartTag.AppendChild(new Run(doc, "May 29, 2019"));
 
-    // Microsoft Word, yukarıdaki içeriği bir tarih olarak tanıyabilir.
-    // Akıllı etiketler, içerdikleri veri türünü yansıtmak için "Element" özelliğini kullanır.
+    // Microsoft Word yukarıdaki içerikleri tarih olarak tanıyabilir.
+    // Akıllı etiketler içerdikleri veri türünü yansıtmak için "Element" özelliğini kullanır.
     smartTag.Element = "date";
 
-    // Bazı akıllı etiket türleri, içeriklerini daha fazla özel XML özelliklerine işler.
+    // Bazı akıllı etiket türleri, içeriklerini özel XML özelliklerine göre işler.
     smartTag.Properties.Add(new CustomXmlProperty("Day", string.Empty, "29"));
     smartTag.Properties.Add(new CustomXmlProperty("Month", string.Empty, "5"));
     smartTag.Properties.Add(new CustomXmlProperty("Year", string.Empty, "2019"));
@@ -110,7 +113,7 @@ public void Create()
     doc.FirstSection.Body.FirstParagraph.AppendChild(smartTag);
     doc.FirstSection.Body.FirstParagraph.AppendChild(new Run(doc, " is a date. "));
 
-    // Bir hisse senedi için başka bir akıllı etiket oluşturun.
+    // Hisse senedi takip cihazı için başka bir akıllı etiket oluşturun.
     smartTag = new SmartTag(doc);
     smartTag.Element = "stockticker";
     smartTag.Uri = "urn:schemas-microsoft-com:office:smarttags";
@@ -126,7 +129,7 @@ public void Create()
     // Microsoft Word'ün eski sürümleri akıllı etiketleri destekler.
     doc.Save(ArtifactsDir + "SmartTag.Create.doc");
 
-    // Bir belgeden tüm akıllı etiketleri kaldırmak için "RemoveSmartTags" yöntemini kullanın.
+    // Bir belgedeki tüm akıllı etiketleri kaldırmak için "RemoveSmartTags" yöntemini kullanın.
     Assert.AreEqual(2, doc.GetChildNodes(NodeType.SmartTag, true).Count);
 
     doc.RemoveSmartTags();
@@ -149,7 +152,7 @@ private class SmartTagPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Bir SmartTag düğümünün ziyareti sona erdiğinde çağrılır.
+    /// SmartTag düğümünün ziyareti sonlandırıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitSmartTagEnd(SmartTag smartTag)
     {

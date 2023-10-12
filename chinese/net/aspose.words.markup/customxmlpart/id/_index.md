@@ -1,14 +1,14 @@
 ---
 title: CustomXmlPart.Id
 second_title: Aspose.Words for .NET API 参考
-description: CustomXmlPart 财产. 获取或设置在 OOXML 文档中标识此自定义 XML 部件的字符串
+description: CustomXmlPart 财产. 获取或设置在 OOXML 文档中标识此自定义 XML 部分的字符串
 type: docs
 weight: 40
 url: /zh/net/aspose.words.markup/customxmlpart/id/
 ---
 ## CustomXmlPart.Id property
 
-获取或设置在 OOXML 文档中标识此自定义 XML 部件的字符串。
+获取或设置在 OOXML 文档中标识此自定义 XML 部分的字符串。
 
 ```csharp
 public string Id { get; set; }
@@ -16,22 +16,22 @@ public string Id { get; set; }
 
 ### 评论
 
-ISO/IEC 29500 指定此值为 GUID，但旧版本的 Microsoft Word 在此处允许使用 any 字符串。 Aspose.Words 对 ECMA-376 格式执行相同的操作。但请注意，Microsoft Word Online 无法 打开使用非 GUID 值创建的文档。因此，GUID 是此属性的首选值。
+ISO/IEC 29500 指定该值是 GUID，但旧版本的 Microsoft Word 允许此处使用任何 字符串。 Aspose.Words 对 ECMA-376 格式执行相同的操作。但请注意，Microsoft Word Online 无法 打开使用非 GUID 值创建的文档。因此，GUID 是此属性的首选值。
 
-有效值必须是在此文档的所有自定义 XML 数据部分中唯一的标识符。
+有效值必须是在本文档中所有自定义 XML 数据部分中唯一的标识符。
 
-默认值为空字符串。该值不能`无效的`.
+默认值为空字符串。该值不能是`无效的`。
 
 ### 例子
 
-展示如何使用自定义 XML 数据创建结构化文档标签。
+演示如何使用自定义 XML 数据创建结构化文档标签。
 
 ```csharp
 Document doc = new Document();
 
 // 构造一个包含数据的 XML 部分并将其添加到文档的集合中。
-// 如果我们在 Microsoft Word 中启用“开发者”选项卡，
-// 我们可以在“XML Mapping Pane”中找到这个集合中的元素，以及一些默认元素。
+// 如果我们在 Microsoft Word 中启用“开发人员”选项卡，
+// 我们可以在“XML 映射窗格”中找到该集合中的元素以及一些默认元素。
 string xmlPartId = Guid.NewGuid().ToString("B");
 string xmlPartContent = "<root><text>Hello world!</text></root>";
 CustomXmlPart xmlPart = doc.CustomXmlParts.Add(xmlPartId, xmlPartContent);
@@ -46,7 +46,7 @@ Assert.AreEqual(xmlPart, doc.CustomXmlParts[0]);
 // 2 - 通过 GUID：
 Assert.AreEqual(xmlPart, doc.CustomXmlParts.GetById(xmlPartId));
 
-// 添加一个 XML 模式关联。
+// 添加 XML 模式关联。
 xmlPart.Schemas.Add("http://www.w3.org/2001/XMLSchema");
 
 // 克隆一部分，然后将其插入到集合中。
@@ -68,7 +68,7 @@ using (IEnumerator<CustomXmlPart> enumerator = doc.CustomXmlParts.GetEnumerator(
     }
 }
 
-// 使用“RemoveAt”方法按索引删除克隆的部分。
+// 使用“RemoveAt”方法按索引删除克隆部分。
 doc.CustomXmlParts.RemoveAt(1);
 
 Assert.AreEqual(1, doc.CustomXmlParts.Count);
@@ -77,7 +77,7 @@ Assert.AreEqual(1, doc.CustomXmlParts.Count);
 CustomXmlPartCollection customXmlParts = doc.CustomXmlParts.Clone();
 customXmlParts.Clear();
 
-// 创建一个结构化的文档标签，它将显示我们部分的内容并将其插入到文档正文中。
+// 创建一个结构化文档标签，该标签将显示我们部分的内容并将其插入到文档正文中。
 StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Block);
 tag.XmlMapping.SetMapping(xmlPart, "/root[1]/text[1]", string.Empty);
 

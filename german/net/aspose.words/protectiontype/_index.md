@@ -3,7 +3,7 @@ title: Enum ProtectionType
 second_title: Aspose.Words für .NET-API-Referenz
 description: Aspose.Words.ProtectionType opsomming. Schutztyp für ein Dokument.
 type: docs
-weight: 4260
+weight: 4510
 url: /de/net/aspose.words/protectiontype/
 ---
 ## ProtectionType enumeration
@@ -20,8 +20,8 @@ public enum ProtectionType
 | --- | --- | --- |
 | AllowOnlyComments | `1` | Der Benutzer kann nur Kommentare im Dokument ändern. |
 | AllowOnlyFormFields | `2` | Der Benutzer kann nur Daten in die Formularfelder im Dokument eingeben. |
-| AllowOnlyRevisions | `0` | Der Benutzer kann dem Dokument nur Überarbeitungsmarkierungen hinzufügen. |
-| ReadOnly | `3` | Das Dokument darf nicht verändert werden. Verfügbar seit Microsoft Word 2003. |
+| AllowOnlyRevisions | `0` | Der Benutzer kann dem Dokument nur Revisionsmarkierungen hinzufügen. |
+| ReadOnly | `3` | Es sind keine Änderungen am Dokument zulässig. Verfügbar seit Microsoft Word 2003. |
 | NoProtection | `-1` | Das Dokument ist nicht geschützt. |
 
 ### Beispiele
@@ -46,7 +46,7 @@ doc.Protect(ProtectionType.AllowOnlyFormFields);
 doc.Sections[0].ProtectedForForms = false;
 
 // In diesem Ausgabedokument können wir den ersten Abschnitt frei bearbeiten,
-// und wir können nur den Inhalt des Formularfelds im zweiten Abschnitt bearbeiten.
+// und wir können den Inhalt des Formularfelds nur im zweiten Abschnitt bearbeiten.
 doc.Save(ArtifactsDir + "Section.Protect.docx");
 ```
 

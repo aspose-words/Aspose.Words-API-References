@@ -3,12 +3,14 @@ title: Class ChartDataPointCollection
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.Drawing.Charts.ChartDataPointCollection clase. Representa la colección de unChartDataPoint .
 type: docs
-weight: 660
+weight: 700
 url: /es/net/aspose.words.drawing.charts/chartdatapointcollection/
 ---
 ## ChartDataPointCollection class
 
 Representa la colección de un[`ChartDataPoint`](../chartdatapoint/) .
+
+Para obtener más información, visite el[Trabajar con gráficos](https://docs.aspose.com/words/net/working-with-charts/) artículo de documentación.
 
 ```csharp
 public class ChartDataPointCollection : IEnumerable<ChartDataPoint>
@@ -25,15 +27,16 @@ public class ChartDataPointCollection : IEnumerable<ChartDataPoint>
 
 | Nombre | Descripción |
 | --- | --- |
-| [ClearFormat](../../aspose.words.drawing.charts/chartdatapointcollection/clearformat/)() | Borra el formato de todos[`ChartDataPoint`](../chartdatapoint/) en esta colección. |
+| [ClearFormat](../../aspose.words.drawing.charts/chartdatapointcollection/clearformat/)() | Borra el formato de todo[`ChartDataPoint`](../chartdatapoint/) en esta colección. |
+| [CopyFormat](../../aspose.words.drawing.charts/chartdatapointcollection/copyformat/)(int, int) |  |
 | [GetEnumerator](../../aspose.words.drawing.charts/chartdatapointcollection/getenumerator/)() | Devuelve un objeto enumerador. |
+| [HasDefaultFormat](../../aspose.words.drawing.charts/chartdatapointcollection/hasdefaultformat/)(int) |  |
 
 ### Ejemplos
 
 Muestra cómo trabajar con puntos de datos en un gráfico de líneas.
 
 ```csharp
-[Test]
 public void ChartDataPoint()
 {
     Document doc = new Document();
@@ -47,11 +50,11 @@ public void ChartDataPoint()
     Assert.AreEqual("Series 2", chart.Series[1].Name);
     Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-    // Enfatice los puntos de datos del gráfico haciéndolos aparecer como formas de diamante.
+    // Enfatiza los puntos de datos del gráfico haciéndolos aparecer como formas de diamantes.
     foreach (ChartSeries series in chart.Series) 
         ApplyDataPoints(series, 4, MarkerSymbol.Diamond, 15);
 
-    // Suavizar la línea que representa la primera serie de datos.
+    // Suaviza la línea que representa la primera serie de datos.
     chart.Series[0].Smooth = true;
 
     // Verifique que los puntos de datos de la primera serie no inviertan sus colores si el valor es negativo.
@@ -63,7 +66,7 @@ public void ChartDataPoint()
         }
     }
 
-    // Para un gráfico de aspecto más limpio, podemos borrar el formato individualmente.
+    // Para obtener un gráfico más limpio, podemos borrar el formato individualmente.
     chart.Series[1].DataPoints[2].ClearFormat();
 
     // También podemos eliminar una serie completa de puntos de datos a la vez.
@@ -73,7 +76,7 @@ public void ChartDataPoint()
 }
 
 /// <summary>
-/// Aplica un número de puntos de datos a una serie.
+/// Aplica una cantidad de puntos de datos a una serie.
 /// </summary>
 private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, MarkerSymbol markerSymbol, int dataPointSize)
 {

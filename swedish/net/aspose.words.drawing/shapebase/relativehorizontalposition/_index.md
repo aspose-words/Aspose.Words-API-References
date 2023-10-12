@@ -3,7 +3,7 @@ title: ShapeBase.RelativeHorizontalPosition
 second_title: Aspose.Words för .NET API Referens
 description: ShapeBase fast egendom. Anger i förhållande till vad formen är placerad horisontellt.
 type: docs
-weight: 400
+weight: 420
 url: /sv/net/aspose.words.drawing/shapebase/relativehorizontalposition/
 ---
 ## ShapeBase.RelativeHorizontalPosition property

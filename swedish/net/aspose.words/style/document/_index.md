@@ -3,7 +3,7 @@ title: Style.Document
 second_title: Aspose.Words för .NET API Referens
 description: Style fast egendom. Hämtar ägardokumentet.
 type: docs
-weight: 40
+weight: 50
 url: /sv/net/aspose.words/style/document/
 ---
 ## Style.Document property

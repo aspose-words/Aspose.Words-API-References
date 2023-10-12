@@ -1,14 +1,14 @@
 ---
 title: FieldIf.FalseText
 second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldIf propriété. Obtient ou définit le texte affiché si lexpression de comparaison est fausse.
+description: FieldIf propriété. Obtient ou définit le texte affiché si lexpression de comparaison estFAUX .
 type: docs
 weight: 30
 url: /fr/net/aspose.words.fields/fieldif/falsetext/
 ---
 ## FieldIf.FalseText property
 
-Obtient ou définit le texte affiché si l'expression de comparaison est fausse.
+Obtient ou définit le texte affiché si l'expression de comparaison est`FAUX` .
 
 ```csharp
 public string FalseText { get; set; }
@@ -34,7 +34,7 @@ field.TrueText = "True";
 field.FalseText = "False";
 field.Update();
 
-// Dans ce cas, "0 = 1" est incorrect, donc le résultat affiché sera "False".
+// Dans ce cas, "0 = 1" est incorrect, le résultat affiché sera donc "False".
 Assert.AreEqual(" IF  0 = 1 True False", field.GetFieldCode());
 Assert.AreEqual(FieldIfComparisonResult.False, field.EvaluateCondition());
 Assert.AreEqual("False", field.Result);
@@ -48,7 +48,7 @@ field.TrueText = "True";
 field.FalseText = "False";
 field.Update();
 
-// Cette fois, la déclaration est correcte, donc le résultat affiché sera "True".
+// Cette fois, l'instruction est correcte, donc le résultat affiché sera "True".
 Assert.AreEqual(" IF  5 = \"2 + 3\" True False", field.GetFieldCode());
 Assert.AreEqual(FieldIfComparisonResult.True, field.EvaluateCondition());
 Assert.AreEqual("True", field.Result);

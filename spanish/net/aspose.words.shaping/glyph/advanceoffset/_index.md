@@ -1,12 +1,14 @@
 ---
 title: Glyph.AdvanceOffset
 second_title: Referencia de API de Aspose.Words para .NET
-description: Glyph propiedad. 
+description: Glyph propiedad. Desplazamiento horizontal x relativo a la posición del glifo. Se utiliza principalmente para adjuntar marcas como signos diacríticos a caracteres base.
 type: docs
 weight: 30
 url: /es/net/aspose.words.shaping/glyph/advanceoffset/
 ---
 ## Glyph.AdvanceOffset property
+
+Desplazamiento horizontal (x) relativo a la posición del glifo. Se utiliza principalmente para adjuntar marcas (como signos diacríticos) a caracteres base.
 
 ```csharp
 public short AdvanceOffset { get; }

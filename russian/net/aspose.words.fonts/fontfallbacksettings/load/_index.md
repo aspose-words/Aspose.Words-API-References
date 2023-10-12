@@ -1,14 +1,14 @@
 ---
 title: FontFallbackSettings.Load
 second_title: Справочник по API Aspose.Words для .NET
-description: FontFallbackSettings метод. Загружает резервные настройки шрифта из файла XML.
+description: FontFallbackSettings метод. Загружает настройки резервного шрифта из XMLфайла.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fonts/fontfallbacksettings/load/
 ---
 ## Load(string) {#load_1}
 
-Загружает резервные настройки шрифта из файла XML.
+Загружает настройки резервного шрифта из XML-файла.
 
 ```csharp
 public void Load(string fileName)
@@ -16,23 +16,23 @@ public void Load(string fileName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fileName | String | Введите имя файла. |
+| fileName | String | Имя входного файла. |
 
 ### Примеры
 
-Показывает, как загружать и сохранять резервные настройки шрифта в/из XML-документа в локальной файловой системе.
+Показывает, как загрузить и сохранить настройки резервного шрифта в XML-документе в локальной файловой системе или из него.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Загружаем XML-документ, определяющий набор резервных настроек шрифта.
+// Загрузите XML-документ, который определяет набор резервных настроек шрифта.
 FontSettings fontSettings = new FontSettings();
 fontSettings.FallbackSettings.Load(MyDir + "Font fallback rules.xml");
 
 doc.FontSettings = fontSettings;
 doc.Save(ArtifactsDir + "FontSettings.LoadFontFallbackSettingsFromFile.pdf");
 
-// Сохраняем текущие настройки резервного шрифта нашего документа в виде XML-документа.
+// Сохраняем текущие настройки резервного шрифта нашего документа как XML-документ.
 doc.FontSettings.FallbackSettings.Save(ArtifactsDir + "FallbackSettings.xml");
 ```
 
@@ -58,12 +58,12 @@ public void Load(Stream stream)
 
 ### Примеры
 
-Показывает, как загружать и сохранять резервные настройки шрифта в/из потока.
+Показывает, как загрузить и сохранить настройки резервного шрифта в поток или из него.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Загружаем XML-документ, определяющий набор резервных настроек шрифта.
+// Загрузите XML-документ, который определяет набор резервных настроек шрифта.
 using (FileStream fontFallbackStream = new FileStream(MyDir + "Font fallback rules.xml", FileMode.Open))
 {
     FontSettings fontSettings = new FontSettings();

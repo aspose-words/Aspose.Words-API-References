@@ -3,7 +3,7 @@ title: Section.AppendContent
 second_title: Aspose.Words för .NET API Referens
 description: Section metod. Infogar en kopia av innehållet i källavsnittet i slutet av det här avsnittet.
 type: docs
-weight: 80
+weight: 100
 url: /sv/net/aspose.words/section/appendcontent/
 ---
 ## Section.AppendContent method

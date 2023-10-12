@@ -1,14 +1,14 @@
 ---
 title: HorizontalRuleFormat.WidthPercent
 second_title: Aspose.Words لمراجع .NET API
-description: HorizontalRuleFormat ملكية. الحصول على أو تحديد طول القاعدة الأفقية المحددة كنسبة مئوية من عرض النافذة.
+description: HorizontalRuleFormat ملكية. الحصول على أو تعيين طول القاعدة الأفقية المحددة معبرًا عنها كنسبة مئوية من عرض النافذة.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.drawing/horizontalruleformat/widthpercent/
 ---
 ## HorizontalRuleFormat.WidthPercent property
 
-الحصول على أو تحديد طول القاعدة الأفقية المحددة كنسبة مئوية من عرض النافذة.
+الحصول على أو تعيين طول القاعدة الأفقية المحددة معبرًا عنها كنسبة مئوية من عرض النافذة.
 
 ```csharp
 public double WidthPercent { get; set; }
@@ -18,7 +18,7 @@ public double WidthPercent { get; set; }
 
 | استثناء | حالة |
 | --- | --- |
-| ArgumentOutOfRangeException | يظهر عندما تكون الوسيطة خارج نطاق القيم الصالحة. |
+| ArgumentOutOfRangeException | يتم طرحه عندما تكون الوسيطة خارج نطاق القيم الصالحة. |
 
 ### ملاحظات
 
@@ -28,7 +28,7 @@ public double WidthPercent { get; set; }
 
 ### أمثلة
 
-يوضح كيفية إدراج شكل تسطير أفقي ، وتخصيص تنسيقه.
+يوضح كيفية إدراج شكل قاعدة أفقية، وتخصيص تنسيقه.
 
 ```csharp
 Document doc = new Document();

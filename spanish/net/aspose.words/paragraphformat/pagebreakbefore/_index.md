@@ -3,7 +3,7 @@ title: ParagraphFormat.PageBreakBefore
 second_title: Referencia de API de Aspose.Words para .NET
 description: ParagraphFormat propiedad. Verdadero si se fuerza un salto de página antes del párrafo.
 type: docs
-weight: 250
+weight: 260
 url: /es/net/aspose.words/paragraphformat/pagebreakbefore/
 ---
 ## ParagraphFormat.PageBreakBefore property
@@ -22,10 +22,10 @@ Muestra cómo crear párrafos con saltos de página al principio.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Establezca esta bandera en "verdadero" para aplicar un salto de página al comienzo de cada párrafo
-// que el generador de documentos creará bajo esta configuración de ParagraphFormat.
+// Establece esta bandera en "verdadero" para aplicar un salto de página al comienzo de cada párrafo
+// que el creador de documentos creará bajo esta configuración de ParagraphFormat.
 // El primer párrafo no recibirá un salto de página.
-// Deje esta bandera como "falso" para comenzar cada nuevo párrafo en la misma página
+// Deja esta bandera como "falso" para comenzar cada nuevo párrafo en la misma página
 // como el anterior, siempre que haya suficiente espacio.
 builder.ParagraphFormat.PageBreakBefore = pageBreakBefore;
 

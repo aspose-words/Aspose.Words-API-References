@@ -1,14 +1,14 @@
 ---
 title: TableStyle.Borders
 second_title: Aspose.Words for .NET API Referansı
-description: TableStyle mülk. Stil için varsayılan hücre kenarlıkları koleksiyonunu alır.
+description: TableStyle mülk. Stil için varsayılan hücre kenarlıklarının koleksiyonunu alır.
 type: docs
 weight: 40
 url: /tr/net/aspose.words/tablestyle/borders/
 ---
 ## TableStyle.Borders property
 
-Stil için varsayılan hücre kenarlıkları koleksiyonunu alır.
+Stil için varsayılan hücre kenarlıklarının koleksiyonunu alır.
 
 ```csharp
 public BorderCollection Borders { get; }
@@ -47,7 +47,7 @@ tableStyle.VerticalAlignment = CellVerticalAlignment.Center;
 
 table.Style = tableStyle;
 
-// Bir tablonun stil özelliklerini ayarlamak, tablonun özelliklerini etkileyebilir.
+// Bir tablonun stil özelliklerinin ayarlanması, tablonun kendi özelliklerini etkileyebilir.
 Assert.True(table.Bidi);
 Assert.AreEqual(5.0d, table.CellSpacing);
 Assert.AreEqual("MyTableStyle1", table.StyleName);

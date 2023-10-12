@@ -1,14 +1,14 @@
 ---
 title: Body.Body
 second_title: Aspose.Words för .NET API Referens
-description: Body byggare. Initierar en ny instans av Kropp class.
+description: Body byggare. Initierar en ny instans avBody class.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/body/body/
 ---
 ## Body constructor
 
-Initierar en ny instans av **Kropp** class.
+Initierar en ny instans av[`Body`](../) class.
 
 ```csharp
 public Body(DocumentBase doc)
@@ -20,9 +20,9 @@ public Body(DocumentBase doc)
 
 ### Anmärkningar
 
-När **Kropp** skapas, det tillhör det angivna dokumentet, men är inte ännu en del av dokumentet och **ParentNode** är inget.
+När[`Body`](../) skapas, det tillhör det angivna dokumentet, men är inte ännu en del av dokumentet och[`ParentNode`](../../node/parentnode/) är`null`.
 
-Att lägga till **Kropp** till a **Sektion** använd Section.InsertAfter eller Section.InsertBefore.
+Att lägga till[`Body`](../)till a[`Section`](../../section/) använda sig avAppendChild , InsertAfter ellerInsertBefore metoder.
 
 ### Exempel
 

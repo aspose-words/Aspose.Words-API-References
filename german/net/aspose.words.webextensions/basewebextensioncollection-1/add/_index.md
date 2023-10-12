@@ -1,14 +1,14 @@
 ---
 title: BaseWebExtensionCollection1.Add
 second_title: Aspose.Words für .NET-API-Referenz
-description: BaseWebExtensionCollection methode. Fügt der Sammlung das angegebene Element hinzu.
+description: BaseWebExtensionCollection methode. Fügt das angegebene Element zur Sammlung hinzu.
 type: docs
 weight: 30
 url: /de/net/aspose.words.webextensions/basewebextensioncollection-1/add/
 ---
 ## BaseWebExtensionCollection&lt;T&gt;.Add method
 
-Fügt der Sammlung das angegebene Element hinzu.
+Fügt das angegebene Element zur Sammlung hinzu.
 
 ```csharp
 public void Add(T item)
@@ -20,12 +20,12 @@ public void Add(T item)
 
 ### Beispiele
 
-Zeigt, wie Sie einem Dokument eine Weberweiterung hinzufügen.
+Zeigt, wie man einem Dokument eine Weberweiterung hinzufügt.
 
 ```csharp
 Document doc = new Document();
 
-// Aufgabenbereich mit "MyScript"-Add-In erstellen, das vom Dokument verwendet wird,
+// Aufgabenbereich mit „MyScript“-Add-in erstellen, der vom Dokument verwendet wird,
 // dann den Standardspeicherort festlegen.
 TaskPane myScriptTaskPane = new TaskPane();
 doc.WebExtensionTaskPanes.Add(myScriptTaskPane);
@@ -37,10 +37,10 @@ myScriptTaskPane.IsLocked = true;
 // Wenn sich mehrere Aufgabenbereiche am selben Andockort befinden, können wir diesen Index festlegen, um sie anzuordnen.
 myScriptTaskPane.Row = 1;
 
-// Erstellen Sie ein Add-In namens "MyScript Math Sample", in dem der Aufgabenbereich angezeigt wird.
+// Erstellen Sie ein Add-In mit dem Namen „MyScript Math Sample“, in dem der Aufgabenbereich angezeigt wird.
 WebExtension webExtension = myScriptTaskPane.WebExtension;
 
-// Anwendungsspeicher-Referenzparameter für unser Add-In festlegen, z. B. die ID.
+// Legen Sie Referenzparameter für den Anwendungsspeicher für unser Add-In fest, z. B. die ID.
 webExtension.Reference.Id = "WA104380646";
 webExtension.Reference.Version = "1.0.0.0";
 webExtension.Reference.StoreType = WebExtensionStoreType.OMEX;
@@ -51,10 +51,10 @@ webExtension.Bindings.Add(new WebExtensionBinding("MyScript", WebExtensionBindin
 // Dem Benutzer erlauben, mit dem Add-In zu interagieren.
 webExtension.IsFrozen = false;
 
-// Wir können auf die Weberweiterung in Microsoft Word über Entwickler zugreifen -> Add-Ins.
+// Wir können über Developer -> auf die Web-Erweiterung in Microsoft Word zugreifen. Add-Ins.
 doc.Save(ArtifactsDir + "Document.WebExtension.docx");
 
-// So entfernen Sie alle Aufgabenbereiche der Weberweiterung auf einmal.
+// Entfernen Sie auf diese Weise alle Aufgabenbereiche der Weberweiterung auf einmal.
 doc.WebExtensionTaskPanes.Clear();
 
 Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);

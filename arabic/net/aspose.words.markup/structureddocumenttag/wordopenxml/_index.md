@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTag.WordOpenXML
 second_title: Aspose.Words لمراجع .NET API
-description: StructuredDocumentTag ملكية. يحصل على سلسلة تمثل XML الموجود داخل العقدة في ملفFlatOpc التنسيق .
+description: StructuredDocumentTag ملكية. يحصل على سلسلة تمثل XML الموجود داخل العقدة في ملفFlatOpc التنسيق.
 type: docs
 weight: 300
 url: /ar/net/aspose.words.markup/structureddocumenttag/wordopenxml/
 ---
 ## StructuredDocumentTag.WordOpenXML property
 
-يحصل على سلسلة تمثل XML الموجود داخل العقدة في ملفFlatOpc التنسيق .
+يحصل على سلسلة تمثل XML الموجود داخل العقدة في ملفFlatOpc التنسيق.
 
 ```csharp
 public string WordOpenXML { get; }
@@ -16,7 +16,7 @@ public string WordOpenXML { get; }
 
 ### أمثلة
 
-يوضح كيفية الحصول على XML داخل العقدة بتنسيق FlatOpc.
+يوضح كيفية الحصول على XML الموجود داخل العقدة بتنسيق FlatOpc.
 
 ```csharp
 Document doc = new Document(MyDir + "Structured document tags.docx");

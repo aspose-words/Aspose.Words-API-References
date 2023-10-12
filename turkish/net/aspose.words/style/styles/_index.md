@@ -1,14 +1,14 @@
 ---
 title: Style.Styles
 second_title: Aspose.Words for .NET API Referansı
-description: Style mülk. Bu stilin ait olduğu stiller koleksiyonunu alır.
+description: Style mülk. Bu stilin ait olduğu stillerin koleksiyonunu getirir.
 type: docs
-weight: 150
+weight: 170
 url: /tr/net/aspose.words/style/styles/
 ---
 ## Style.Styles property
 
-Bu stilin ait olduğu stiller koleksiyonunu alır.
+Bu stilin ait olduğu stillerin koleksiyonunu getirir.
 
 ```csharp
 public StyleCollection Styles { get; }

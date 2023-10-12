@@ -3,7 +3,7 @@ title: Enum PageBorderAppliesTo
 second_title: Справочник по API Aspose.Words для .NET
 description: Aspose.Words.PageBorderAppliesTo перечисление. Указывает на каких страницах печатается граница страницы.
 type: docs
-weight: 4100
+weight: 4340
 url: /ru/net/aspose.words/pageborderappliesto/
 ---
 ## PageBorderAppliesTo enumeration

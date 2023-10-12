@@ -1,16 +1,16 @@
 ---
 title: StructuredDocumentTagRangeStart.PlaceholderName
 second_title: Справочник по API Aspose.Words для .NET
-description: StructuredDocumentTagRangeStart свойство. Получает или задает имяBuildingBlock содержащий текстзаполнитель.
+description: StructuredDocumentTagRangeStart свойство. Получает или задает ИмяBuildingBlock содержащий текстзаполнитель.
 type: docs
 weight: 120
 url: /ru/net/aspose.words.markup/structureddocumenttagrangestart/placeholdername/
 ---
 ## StructuredDocumentTagRangeStart.PlaceholderName property
 
-Получает или задает имя[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock/) содержащий текст-заполнитель.
+Получает или задает Имя[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock/) содержащий текст-заполнитель.
 
-BuildingBlock с таким названием[`Name`](../../../aspose.words.buildingblocks/buildingblock/name/) должен присутствовать в[`GlossaryDocument`](../../../aspose.words/document/glossarydocument/) иначеInvalidOperationException произойдет.
+[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock/) с этим именем[`Name`](../../../aspose.words.buildingblocks/buildingblock/name/) должен присутствовать в[`GlossaryDocument`](../../../aspose.words/document/glossarydocument/) иначеInvalidOperationException произойдет.
 
 ```csharp
 public string PlaceholderName { get; set; }
@@ -18,7 +18,7 @@ public string PlaceholderName { get; set; }
 
 ### Примеры
 
-Показывает, как получить свойства тегов структурированного документа, состоящего из нескольких разделов.
+Показывает, как получить свойства тегов многосекционного структурированного документа.
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");

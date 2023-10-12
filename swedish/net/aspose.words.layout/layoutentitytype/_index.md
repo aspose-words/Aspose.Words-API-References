@@ -3,7 +3,7 @@ title: Enum LayoutEntityType
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Layout.LayoutEntityType uppräkning. Typer av layoutentiteter.
 type: docs
-weight: 3130
+weight: 3330
 url: /sv/net/aspose.words.layout/layoutentitytype/
 ---
 ## LayoutEntityType enumeration
@@ -25,7 +25,7 @@ public enum LayoutEntityType
 | Row | `8` | Representerar en tabellrad. Rad kan haCell som underordnade enheter. |
 | Cell | `10` | Representerar en tabellcell. Cell kan haLine ochRow underordnade enheter. |
 | Line | `20` | Representerar rad med tecken i text och inline-objekt. Raden kan haSpan underordnade enheter. |
-| Span | `40` | Representerar ett eller flera tecken på en rad. Detta inkluderar specialtecken som fältstart-/slutmarkörer, bokmärken och kommentarer. Spännet får inte ha underordnade enheter. |
+| Span | `40` | Representerar ett eller flera tecken på en rad. Detta inkluderar specialtecken som fältstart-/slutmarkörer, bokmärken och kommentarer. Span får inte ha underordnade enheter. |
 | Footnote | `100` | Representerar platshållare för fotnotsinnehåll. Fotnot kan haNote underordnade enheter. |
 | Endnote | `200` | Representerar platshållare för slutnotens innehåll. Endnote kan haNote underordnade enheter. |
 | Note | `4000` | Representerar platshållare för anteckningsinnehåll. Note kan haLine ochRow underordnade enheter. |

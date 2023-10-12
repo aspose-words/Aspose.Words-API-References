@@ -20,7 +20,7 @@ public bool Contains(string name)
 
 ### Returvärde
 
-Sant om föremål finns i samlingen; annars falskt.
+`Sann` om föremål finns i samlingen; annat,`falsk`.
 
 ### Exempel
 

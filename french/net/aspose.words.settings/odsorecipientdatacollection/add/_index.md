@@ -16,7 +16,7 @@ public int Add(OdsoRecipientData value)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| value | OdsoRecipientData | Objet à ajouter. Ne peut pas être nulle. |
+| value | OdsoRecipientData | L'objet à ajouter. C'est pas possible`nul`. |
 
 ### Exemples
 
@@ -45,7 +45,7 @@ using (IEnumerator<OdsoRecipientData> enumerator = dataCollection.GetEnumerator(
 // Nous pouvons cloner les éléments de cette collection.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Nous pouvons également supprimer des éléments individuellement ou effacer toute la collection en une seule fois.
+// Nous pouvons également supprimer des éléments individuellement ou effacer toute la collection en même temps.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(69, dataCollection.Count);

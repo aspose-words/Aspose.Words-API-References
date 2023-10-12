@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.HtmlVersion
 second_title: Referencia de API de Aspose.Words para .NET
-description: HtmlSaveOptions propiedad. Especifica la versión del estándar HTML que debe utilizarse al guardar el documento en HTML o MHTML. El valor predeterminado esXhtml .
+description: HtmlSaveOptions propiedad. Especifica la versión del estándar HTML que se debe usar al guardar el documento en HTML o MHTML. El valor predeterminado esXhtml .
 type: docs
-weight: 340
+weight: 330
 url: /es/net/aspose.words.saving/htmlsaveoptions/htmlversion/
 ---
 ## HtmlSaveOptions.HtmlVersion property
 
-Especifica la versión del estándar HTML que debe utilizarse al guardar el documento en HTML o MHTML. El valor predeterminado esXhtml .
+Especifica la versión del estándar HTML que se debe usar al guardar el documento en HTML o MHTML. El valor predeterminado esXhtml .
 
 ```csharp
 public HtmlVersion HtmlVersion { get; set; }
@@ -33,13 +33,13 @@ HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html)
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.ExportXhtmlTransitional.html", options);
 
-// Nuestro documento solo contendrá un encabezado de declaración DOCTYPE si hemos establecido el indicador "ExportXhtmlTransitional" en "true".
+// Nuestro documento sólo contendrá un encabezado de declaración DOCTYPE si hemos configurado el indicador "ExportXhtmlTransitional" en "true".
 string outDocContents = File.ReadAllText(ArtifactsDir + "HtmlSaveOptions.ExportXhtmlTransitional.html");
 
 if (showDoctypeDeclaration)
     Assert.True(outDocContents.Contains(
         "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"no\"?>\r\n" +
-        "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transicional//ES\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transicional.dtd\">\r\n" +
+        "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transicional//ES\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\r\n" +
         "<html xmlns=\"http://www.w3.org/1999/xhtml\">"));
 else
     Assert.True(outDocContents.Contains("<html>"));

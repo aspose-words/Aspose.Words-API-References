@@ -16,7 +16,7 @@ public OdtSaveMeasureUnit MeasureUnit { get; set; }
 
 ### Remarques
 
-Open Office utilise les centimètres pour spécifier les longueurs, largeurs et autres propriétés mesurables de mise en forme et de contenu dans les documents, tandis que MS Office utilise les pouces.
+Open Office utilise des centimètres pour spécifier les longueurs, les largeurs et autres formats mesurables et les propriétés de contenu dans les documents, tandis que MS Office utilise les pouces.
 
 ### Exemples
 
@@ -25,11 +25,11 @@ Montre comment utiliser différentes unités de mesure pour définir les paramè
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Lorsque nous exportons le document vers .odt, nous pouvons utiliser un objet OdtSaveOptions pour modifier la façon dont nous enregistrons le document.
+// Lorsque nous exportons le document au format .odt, nous pouvons utiliser un objet OdtSaveOptions pour modifier la façon dont nous enregistrons le document.
 // Nous pouvons définir la propriété "MeasureUnit" sur "OdtSaveMeasureUnit.Centimeters"
-// pour définir le contenu tel que les paramètres de style à l'aide du système métrique utilisé par Open Office. 
+ // pour définir le contenu tel que les paramètres de style à l'aide du système métrique utilisé par Open Office.
 // Nous pouvons définir la propriété "MeasureUnit" sur "OdtSaveMeasureUnit.Inches"
-// pour définir le contenu tel que les paramètres de style à l'aide du système impérial, utilisé par Microsoft Word.
+// pour définir le contenu tel que les paramètres de style en utilisant le système impérial, utilisé par Microsoft Word.
 OdtSaveOptions saveOptions = new OdtSaveOptions
 {
     MeasureUnit = odtSaveMeasureUnit

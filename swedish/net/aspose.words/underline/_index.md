@@ -3,7 +3,7 @@ title: Enum Underline
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Underline uppräkning. Indikerar typen av understrykning som appliceras på ett teckensnitt.
 type: docs
-weight: 6210
+weight: 6510
 url: /sv/net/aspose.words/underline/
 ---
 ## Underline enumeration

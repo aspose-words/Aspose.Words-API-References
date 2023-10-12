@@ -3,7 +3,7 @@ title: ShapeBase.HRef
 second_title: Aspose.Words لمراجع .NET API
 description: ShapeBase ملكية. الحصول على عنوان الارتباط التشعبي الكامل للشكل أو تعيينه.
 type: docs
-weight: 220
+weight: 230
 url: /ar/net/aspose.words.drawing/shapebase/href/
 ---
 ## ShapeBase.HRef property
@@ -18,35 +18,35 @@ public string HRef { get; set; }
 
 القيمة الافتراضية هي سلسلة فارغة.
 
-فيما يلي أمثلة على القيم الصالحة لهذه الخاصية:
+فيما يلي أمثلة للقيم الصالحة لهذه الخاصية:
 
 عنوان URL الكامل:`https://www.aspose.com/`.
 
-اسم الملف الكامل:`C: \\ My Documents \\ SalesReport.doc`.
+اسم الملف الكامل:`C:\\My Documents\\SalesReport.doc`.
 
-URI النسبي:`../../../resource.txt`
+معرف الموارد المنتظم (URI) النسبي:`../../../resource.txt`
 
-اسم الملف النسبي:`.. \\ My Documents \\ SalesReport.doc`.
+اسم الملف النسبي:`..\\المستندات\\SalesReport.doc`.
 
-إشارة مرجعية في وثيقة أخرى:`https://www.aspose.com/Products/Default.aspx#Suites`
+إشارة مرجعية داخل مستند آخر:`https://www.aspose.com/Products/Default.aspx#Suites`
 
-إشارة مرجعية في هذا المستند:`#BookmakName`.
+الإشارة المرجعية داخل هذا المستند:`#BookmakName`.
 
 ### أمثلة
 
-يوضح كيفية إدراج شكل يحتوي على صورة ، وهو أيضًا ارتباط تشعبي.
+يوضح كيفية إدراج شكل يحتوي على صورة، ويكون أيضًا ارتباطًا تشعبيًا.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
-shape.HRef = "https://forum.aspose.com/ ";
+shape.HRef = "https://forum.aspose.com/";
 shape.Target = "New Window";
 shape.ScreenTip = "Aspose.Words Support Forums";
 
 // Ctrl + النقر بزر الماوس الأيسر على الشكل في Microsoft Word سيفتح نافذة متصفح ويب جديدة
-// وانتقل بنا إلى الارتباط التشعبي في خاصية "HRef".
+// وانقلنا إلى الارتباط التشعبي الموجود في خاصية "HRef".
 doc.Save(ArtifactsDir + "Image.InsertImageWithHyperlink.docx");
 ```
 

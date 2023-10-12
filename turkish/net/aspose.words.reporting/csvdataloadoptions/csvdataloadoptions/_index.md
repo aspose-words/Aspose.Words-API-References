@@ -1,14 +1,14 @@
 ---
 title: CsvDataLoadOptions.CsvDataLoadOptions
 second_title: Aspose.Words for .NET API Referansı
-description: CsvDataLoadOptions inşaatçı. Varsayılan seçeneklerle bu sınıfın yeni bir örneğini başlatır.
+description: CsvDataLoadOptions inşaatçı. Bu sınıfın yeni bir örneğini varsayılan seçeneklerle başlatır.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.reporting/csvdataloadoptions/csvdataloadoptions/
 ---
 ## CsvDataLoadOptions() {#constructor}
 
-Varsayılan seçeneklerle bu sınıfın yeni bir örneğini başlatır.
+Bu sınıfın yeni bir örneğini varsayılan seçeneklerle başlatır.
 
 ```csharp
 public CsvDataLoadOptions()
@@ -24,7 +24,7 @@ public CsvDataLoadOptions()
 
 ## CsvDataLoadOptions(bool) {#constructor_1}
 
-CSV verilerinin ilk satırda sütun adları içerip içermediğini belirterek bu sınıfın yeni bir örneğini başlatır.
+CSV verilerinin ilk satırda name sütununu içerip içermediğini belirterek bu sınıfın yeni bir örneğini başlatır.
 
 ```csharp
 public CsvDataLoadOptions(bool hasHeaders)

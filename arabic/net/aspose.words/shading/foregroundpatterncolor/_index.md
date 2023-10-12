@@ -1,14 +1,14 @@
 ---
 title: Shading.ForegroundPatternColor
 second_title: Aspose.Words لمراجع .NET API
-description: Shading ملكية. الحصول على أو تعيين اللون المطبق على مقدمة كائن التظليل .
+description: Shading ملكية. الحصول على أو تعيين اللون المطبق على مقدمة الصورةShading الكائن.
 type: docs
-weight: 20
+weight: 40
 url: /ar/net/aspose.words/shading/foregroundpatterncolor/
 ---
 ## Shading.ForegroundPatternColor property
 
-الحصول على أو تعيين اللون المطبق على مقدمة كائن التظليل .
+الحصول على أو تعيين اللون المطبق على مقدمة الصورة[`Shading`](../) الكائن.
 
 ```csharp
 public Color ForegroundPatternColor { get; set; }

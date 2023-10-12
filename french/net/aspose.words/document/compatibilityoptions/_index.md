@@ -1,14 +1,14 @@
 ---
 title: Document.CompatibilityOptions
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Document propriété. Fournit laccès aux options de compatibilité des documents cestàdire les préférences utilisateur saisies sur le Compatibilité onglet de la Choix boîte de dialogue dans Word.
+description: Document propriété. Donne accès aux options de compatibilité des documents cestàdire les préférences utilisateur saisies dans le Compatibilité Onglet du Possibilités boîte de dialogue dans Word.
 type: docs
 weight: 50
 url: /fr/net/aspose.words/document/compatibilityoptions/
 ---
 ## Document.CompatibilityOptions property
 
-Fournit l'accès aux options de compatibilité des documents (c'est-à-dire les préférences utilisateur saisies sur le **Compatibilité** onglet de la **Choix** boîte de dialogue dans Word).
+Donne accès aux options de compatibilité des documents (c'est-à-dire les préférences utilisateur saisies dans le **Compatibilité** Onglet du **Possibilités** boîte de dialogue dans Word).
 
 ```csharp
 public CompatibilityOptions CompatibilityOptions { get; }
@@ -23,7 +23,7 @@ public void OptimizeFor()
 {
     Document doc = new Document();
 
-    // Cet objet contient une longue liste d'indicateurs uniques à chaque document
+    // Cet objet contient une liste complète d'indicateurs uniques à chaque document
     // qui nous permettent de faciliter la rétrocompatibilité avec les anciennes versions de Microsoft Word.
     CompatibilityOptions options = doc.CompatibilityOptions;
 
@@ -45,7 +45,7 @@ public void OptimizeFor()
 }
 
 /// <summary>
-/// Regroupe tous les drapeaux dans l'objet d'options de compatibilité d'un document par état, puis imprime chaque groupe.
+/// Regroupe tous les indicateurs dans l'objet d'options de compatibilité d'un document par état, puis imprime chaque groupe.
 /// </summary>
 private static void PrintCompatibilityOptions(CompatibilityOptions options)
 {

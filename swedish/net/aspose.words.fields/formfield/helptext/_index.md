@@ -16,7 +16,7 @@ public string HelpText { get; set; }
 
 ### Anmärkningar
 
-Om OwnHelp-egenskapen är inställd på True, anger HelpText textsträngens värde. Om OwnHelp är inställd på False, anger HelpText namnet på en AutoText-post som innehåller help -text för formulärfältet.
+Om[`OwnHelp`](../ownhelp/) egenskapen är inställd på`Sann` ,`HelpText` anger textsträngens värde. If[`OwnHelp`](../ownhelp/) är satt till`falsk` ,`HelpText`anger namnet på en AutoText-post som innehåller hjälp text för formulärfältet.
 
 Microsoft Word tillåter strängar med högst 255 tecken.
 
@@ -91,7 +91,7 @@ public void Visitor()
 }
 
 /// <summary>
-/// Besöksimplementering som skriver ut detaljer om formulärfält som den besöker. 
+ /// Besöksimplementering som skriver ut detaljer om formulärfält som den besöker.
 /// </summary>
 public class FormFieldVisitor : DocumentVisitor
 {

@@ -1,14 +1,14 @@
 ---
 title: Shape.HasSmartArt
 second_title: Referencia de API de Aspose.Words para .NET
-description: Shape propiedad. Devuelve verdadero si esta Forma tiene un objeto SmartArt.
+description: Shape propiedad. Devolucionesverdadero si estoShape tiene un objeto SmartArt.
 type: docs
 weight: 90
 url: /es/net/aspose.words.drawing/shape/hassmartart/
 ---
 ## Shape.HasSmartArt property
 
-Devuelve verdadero si esta Forma tiene un objeto SmartArt.
+Devoluciones`verdadero` si esto[`Shape`](../) tiene un objeto SmartArt.
 
 ```csharp
 public bool HasSmartArt { get; }

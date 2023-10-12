@@ -16,7 +16,7 @@ public string CacheKey { get; }
 
 ### Observaciones
 
-Esta clave se utiliza para identificar el elemento de la caché al guardar/cargar la caché de búsqueda de fuentes con [`SaveSearchCache`](../../fontsettings/savesearchcache/) y[`SetFontsSources`](../../fontsettings/setfontssources/)métodos.
+Esta clave se utiliza para identificar el elemento de caché al guardar/cargar caché de búsqueda de fuentes con [`SaveSearchCache`](../../fontsettings/savesearchcache/) y[`SetFontsSources`](../../fontsettings/setfontssources/)métodos.
 
 ### Ver también
 

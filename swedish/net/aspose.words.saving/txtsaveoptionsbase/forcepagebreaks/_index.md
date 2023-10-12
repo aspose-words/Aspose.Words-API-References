@@ -10,7 +10,7 @@ url: /sv/net/aspose.words.saving/txtsaveoptionsbase/forcepagebreaks/
 
 Tillåter att ange om sidbrytningarna ska bevaras under export.
 
-Standardvärdet är **falsk**.
+Standardvärdet är`falsk`.
 
 ```csharp
 public bool ForcePageBreaks { get; set; }

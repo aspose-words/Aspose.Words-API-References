@@ -1,14 +1,14 @@
 ---
 title: IPageLayoutCallback.Notify
 second_title: Aspose.Words لمراجع .NET API
-description: IPageLayoutCallback طريقة. يتم استدعاء هذا لإخطار بناء التخطيط وتقديم التقدم .
+description: IPageLayoutCallback طريقة. يتم استدعاؤه للإخطار ببناء التخطيط وتقديم التقدم.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.layout/ipagelayoutcallback/notify/
 ---
 ## IPageLayoutCallback.Notify method
 
-يتم استدعاء هذا لإخطار بناء التخطيط وتقديم التقدم .
+يتم استدعاؤه للإخطار ببناء التخطيط وتقديم التقدم.
 
 ```csharp
 public void Notify(PageLayoutCallbackArgs args)
@@ -20,14 +20,13 @@ public void Notify(PageLayoutCallbackArgs args)
 
 ### ملاحظات
 
-يؤدي الاستثناء عند طرحه بواسطة التنفيذ إلى إحباط عملية إنشاء التخطيط.
+الاستثناء عند طرحه بواسطة التنفيذ يجهض عملية بناء التخطيط.
 
 ### أمثلة
 
-يوضح كيفية تتبع تغييرات التخطيط مع استدعاء التخطيط.
+يوضح كيفية تتبع تغييرات التخطيط من خلال رد اتصال التخطيط.
 
 ```csharp
-[Test]
 public void PageLayoutCallback()
 {
     Document doc = new Document();
@@ -44,7 +43,7 @@ public void PageLayoutCallback()
 
 /// <summary>
 /// يخطرنا عندما نحفظ المستند بتنسيق صفحة ثابت
-/// ويعرض صفحة ننفذها لإعادة تدفق الصفحة إلى صورة في نظام الملفات المحلي.
+/// ويعرض الصفحة التي نقوم بإعادة تدفق الصفحة عليها إلى صورة في نظام الملفات المحلي.
 /// </summary>
 private class RenderPageLayoutCallback : IPageLayoutCallback
 {

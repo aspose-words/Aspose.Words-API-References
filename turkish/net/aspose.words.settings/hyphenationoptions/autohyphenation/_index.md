@@ -1,14 +1,14 @@
 ---
 title: HyphenationOptions.AutoHyphenation
 second_title: Aspose.Words for .NET API Referansı
-description: HyphenationOptions mülk. Belge için otomatik tirelemenin açık olup olmadığını belirleyen değeri alır veya ayarlar. Bu özellik için varsayılan değer yanlış .
+description: HyphenationOptions mülk. Belge için otomatik tirelemenin açık olup olmadığını belirleyen değeri alır veya ayarlar. Bu özelliğin varsayılan değeriYANLIŞ .
 type: docs
 weight: 20
 url: /tr/net/aspose.words.settings/hyphenationoptions/autohyphenation/
 ---
 ## HyphenationOptions.AutoHyphenation property
 
-Belge için otomatik tirelemenin açık olup olmadığını belirleyen değeri alır veya ayarlar. Bu özellik için varsayılan değer **yanlış** .
+Belge için otomatik tirelemenin açık olup olmadığını belirleyen değeri alır veya ayarlar. Bu özelliğin varsayılan değeri:`YANLIŞ` .
 
 ```csharp
 public bool AutoHyphenation { get; set; }

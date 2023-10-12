@@ -3,7 +3,7 @@ title: ShapeBase.RelativeHorizontalPosition
 second_title: Referencia de API de Aspose.Words para .NET
 description: ShapeBase propiedad. Especifica en relación con la posición horizontal de la forma.
 type: docs
-weight: 400
+weight: 420
 url: /es/net/aspose.words.drawing/shapebase/relativehorizontalposition/
 ---
 ## ShapeBase.RelativeHorizontalPosition property
@@ -18,7 +18,7 @@ public RelativeHorizontalPosition RelativeHorizontalPosition { get; set; }
 
 El valor predeterminado esColumn.
 
-Solo tiene efecto para las formas flotantes de nivel superior.
+Tiene efecto sólo para formas flotantes de nivel superior.
 
 ### Ejemplos
 

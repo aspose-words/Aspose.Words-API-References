@@ -18,7 +18,7 @@ public static LoadFormat SaveFormatToLoadFormat(SaveFormat saveFormat)
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| ArgumentException | Wirft, wenn nicht konvertiert werden kann. |
+| ArgumentException | Wirft, wenn keine Konvertierung möglich ist. |
 
 ### Beispiele
 
@@ -27,8 +27,8 @@ Zeigt, wie ein Speicherformat in das entsprechende Ladeformat konvertiert wird.
 ```csharp
 Assert.AreEqual(LoadFormat.Html, FileFormatUtil.SaveFormatToLoadFormat(SaveFormat.Html));
 
-// In einigen Dateitypen können Dokumente gespeichert, aber nicht von Aspose.Words geladen werden.
-// Wenn wir versuchen, ein Speicherformat eines solchen Typs in ein Ladeformat zu konvertieren, wird eine Ausnahme ausgelöst.
+// Bei einigen Dateitypen können Dokumente gespeichert, aber nicht mit Aspose.Words geladen werden.
+// Wenn wir versuchen, ein Speicherformat dieses Typs in ein Ladeformat zu konvertieren, wird eine Ausnahme ausgelöst.
 Assert.Throws<ArgumentException>(() => FileFormatUtil.SaveFormatToLoadFormat(SaveFormat.Jpeg));
 ```
 

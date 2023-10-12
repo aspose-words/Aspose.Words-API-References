@@ -1,14 +1,14 @@
 ---
 title: Paragraph.ListFormat
 second_title: Aspose.Words لمراجع .NET API
-description: Paragraph ملكية. يوفر الوصول إلى خصائص تنسيق القائمة للفقرة.
+description: Paragraph ملكية. يوفر الوصول إلى خصائص تنسيق القائمة الخاصة بالفقرة.
 type: docs
 weight: 150
 url: /ar/net/aspose.words/paragraph/listformat/
 ---
 ## Paragraph.ListFormat property
 
-يوفر الوصول إلى خصائص تنسيق القائمة للفقرة.
+يوفر الوصول إلى خصائص تنسيق القائمة الخاصة بالفقرة.
 
 ```csharp
 public ListFormat ListFormat { get; }
@@ -16,7 +16,7 @@ public ListFormat ListFormat { get; }
 
 ### أمثلة
 
-يوضح كيفية إخراج كل الفقرات في مستند تكون من عناصر القائمة.
+يوضح كيفية إخراج كافة الفقرات في مستند عبارة عن عناصر قائمة.
 
 ```csharp
 Document doc = new Document();

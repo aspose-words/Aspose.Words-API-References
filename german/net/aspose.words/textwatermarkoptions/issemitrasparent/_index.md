@@ -1,14 +1,14 @@
 ---
 title: TextWatermarkOptions.IsSemitrasparent
 second_title: Aspose.Words für .NET-API-Referenz
-description: TextWatermarkOptions eigendom. Erhält oder setzt einen booleschen Wert der für die Deckkraft des Wasserzeichens verantwortlich ist. Der Standardwert ist True.
+description: TextWatermarkOptions eigendom. Ruft einen booleschen Wert ab der für die Deckkraft des Wasserzeichens verantwortlich ist oder legt diesen fest. Der Standardwert istWAHR .
 type: docs
 weight: 50
 url: /de/net/aspose.words/textwatermarkoptions/issemitrasparent/
 ---
 ## TextWatermarkOptions.IsSemitrasparent property
 
-Erhält oder setzt einen booleschen Wert, der für die Deckkraft des Wasserzeichens verantwortlich ist. Der Standardwert ist True.
+Ruft einen booleschen Wert ab, der für die Deckkraft des Wasserzeichens verantwortlich ist, oder legt diesen fest. Der Standardwert ist`WAHR` .
 
 ```csharp
 public bool IsSemitrasparent { get; set; }
@@ -16,15 +16,15 @@ public bool IsSemitrasparent { get; set; }
 
 ### Beispiele
 
-Zeigt, wie ein Textwasserzeichen erstellt wird.
+Zeigt, wie man ein Textwasserzeichen erstellt.
 
 ```csharp
 Document doc = new Document();
 
-// Fügen Sie ein Nur-Text-Wasserzeichen hinzu.
+// Ein reines Textwasserzeichen hinzufügen.
 doc.Watermark.SetText("Aspose Watermark");
 
-// Wenn wir die Textformatierung als Wasserzeichen bearbeiten möchten,
+// Wenn wir die Textformatierung bearbeiten und ihn als Wasserzeichen verwenden möchten,
 // Wir können dies tun, indem wir beim Erstellen des Wasserzeichens ein TextWatermarkOptions-Objekt übergeben.
 TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
 textWatermarkOptions.FontFamily = "Arial";

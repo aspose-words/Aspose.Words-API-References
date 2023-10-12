@@ -3,7 +3,7 @@ title: Section.ClearHeadersFooters
 second_title: Справочник по API Aspose.Words для .NET
 description: Section метод. Очищает верхние и нижние колонтитулы этого раздела.
 type: docs
-weight: 100
+weight: 120
 url: /ru/net/aspose.words/section/clearheadersfooters/
 ---
 ## Section.ClearHeadersFooters method
@@ -18,7 +18,7 @@ public void ClearHeadersFooters()
 
 Текст всех верхних и нижних колонтитулов очищается, но[`HeaderFooter`](../../headerfooter/) сами объекты не удаляются.
 
-Это делает верхние и нижние колонтитулы этого раздела связанными с верхними и нижними колонтитулами предыдущего раздела.
+Это сделает верхние и нижние колонтитулы этого раздела связанными с верхними и нижними колонтитулами предыдущего раздела.
 
 ### Примеры
 
@@ -41,8 +41,8 @@ Assert.AreEqual(2, doc.FirstSection.HeadersFooters.Count);
 Assert.AreEqual("This is the primary header.", doc.FirstSection.HeadersFooters[HeaderFooterType.HeaderPrimary].GetText().Trim());
 Assert.AreEqual("This is the primary footer.", doc.FirstSection.HeadersFooters[HeaderFooterType.FooterPrimary].GetText().Trim());
 
-// Очистить все верхние и нижние колонтитулы в этом разделе от всего их содержимого.
-// Верхние и нижние колонтитулы по-прежнему будут присутствовать, но отображать их будет нечего.
+// Очищаем все верхние и нижние колонтитулы в этом разделе от всего их содержимого.
+// Сами верхние и нижние колонтитулы по-прежнему будут присутствовать, но отображать им будет нечего.
 doc.FirstSection.ClearHeadersFooters();
 
 Assert.AreEqual(2, doc.FirstSection.HeadersFooters.Count);

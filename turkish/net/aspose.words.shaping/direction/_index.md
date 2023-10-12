@@ -1,12 +1,14 @@
 ---
 title: Enum Direction
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Shaping.Direction Sıralama. 
+description: Aspose.Words.Shaping.Direction Sıralama. Metin yönü.
 type: docs
-weight: 5720
+weight: 6020
 url: /tr/net/aspose.words.shaping/direction/
 ---
 ## Direction enumeration
+
+Metin yönü.
 
 ```csharp
 public enum Direction
@@ -16,11 +18,11 @@ public enum Direction
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| Default | `0` |  |
-| LTR | `0` |  |
-| RTL | `1` |  |
-| TTB | `2` |  |
-| BTT | `3` |  |
+| Default | `0` | Varsayılan değer, aynıLTR . |
+| LTR | `0` | Soldan sağa yazma yönü. |
+| RTL | `1` | Sağdan sola yazma yönü. |
+| TTB | `2` | Yukarıdan aşağıya yazma yönü. |
+| BTT | `3` | Aşağıdan yukarıya yazma yönü. |
 
 ### Ayrıca bakınız
 

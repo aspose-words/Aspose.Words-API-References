@@ -26,7 +26,7 @@ builder.StartBookmark("MyBookmark");
 builder.Write("Hello world!");
 builder.EndBookmark("MyBookmark");
 
-// Lie une nouvelle propriété personnalisée à un signet. La valeur de ce bien
+// Lier une nouvelle propriété personnalisée à un signet. La valeur de cette propriété
 // sera le contenu du signet auquel il fait référence dans le membre "LinkSource".
 CustomDocumentProperties customProperties = doc.CustomDocumentProperties;
 DocumentProperty customProperty = customProperties.AddLinkToContent("Bookmark", "MyBookmark");

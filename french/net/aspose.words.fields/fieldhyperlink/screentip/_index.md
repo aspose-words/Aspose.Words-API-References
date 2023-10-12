@@ -1,14 +1,14 @@
 ---
 title: FieldHyperlink.ScreenTip
 second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldHyperlink propriété. Obtient ou définit le texte de linfobulle pour le lien hypertexte.
+description: FieldHyperlink propriété. Obtient ou définit le texte dinfobulle du lien hypertexte.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.fields/fieldhyperlink/screentip/
 ---
 ## FieldHyperlink.ScreenTip property
 
-Obtient ou définit le texte de l'info-bulle pour le lien hypertexte.
+Obtient ou définit le texte d'info-bulle du lien hypertexte.
 
 ```csharp
 public string ScreenTip { get; set; }
@@ -16,7 +16,7 @@ public string ScreenTip { get; set; }
 
 ### Exemples
 
-Montre comment utiliser les champs HYPERLINK pour créer un lien vers des documents dans le système de fichiers local.
+Montre comment utiliser les champs HYPERLINK pour créer des liens vers des documents dans le système de fichiers local.
 
 ```csharp
 Document doc = new Document();
@@ -24,7 +24,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 FieldHyperlink field = (FieldHyperlink)builder.InsertField(FieldType.FieldHyperlink, true);
 
-// Lorsque nous cliquons sur ce champ HYPERLINK dans Microsoft Word,
+// Lorsque l'on clique sur ce champ HYPERLIEN dans Microsoft Word,
 // il ouvrira le document lié puis placera le curseur sur le signet spécifié.
 field.Address = MyDir + "Bookmarks.docx";
 field.SubAddress = "MyBookmark3";
@@ -32,7 +32,7 @@ field.ScreenTip = "Open " + field.Address + " on bookmark " + field.SubAddress +
 
 builder.Writeln();
 
-// Lorsque nous cliquons sur ce champ HYPERLINK dans Microsoft Word,
+// Lorsque l'on clique sur ce champ HYPERLIEN dans Microsoft Word,
 // il ouvrira le document lié et défilera automatiquement jusqu'à l'iframe spécifié.
 field = (FieldHyperlink)builder.InsertField(FieldType.FieldHyperlink, true);
 field.Address = MyDir + "Iframes.html";

@@ -3,7 +3,7 @@ title: PdfSaveOptions.ExportDocumentStructure
 second_title: Aspose.Words för .NET API Referens
 description: PdfSaveOptions fast egendom. Hämtar eller ställer in ett värde som avgör om dokumentstruktur ska exporteras eller inte.
 type: docs
-weight: 120
+weight: 140
 url: /sv/net/aspose.words.saving/pdfsaveoptions/exportdocumentstructure/
 ---
 ## PdfSaveOptions.ExportDocumentStructure property

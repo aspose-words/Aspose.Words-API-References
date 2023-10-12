@@ -1,14 +1,14 @@
 ---
 title: HtmlLoadOptions.ConvertSvgToEmf
 second_title: Aspose.Words لمراجع .NET API
-description: HtmlLoadOptions ملكية. الحصول على أو تعيين قيمة تشير إلى ما إذا كان سيتم تحويل صور SVG المحملة إلى تنسيق EMF. القيمة الافتراضية هيخاطئة وإذا أمكن  يتم تخزين صور SVG المحملة كما هي بدون تحويل.
+description: HtmlLoadOptions ملكية. الحصول على أو تعيين قيمة تشير إلى ما إذا كان سيتم تحويل صور SVG المحملة إلى تنسيق EMF. القيمة الافتراضية هيخطأ شنيع وإذا أمكن يتم تخزين صور SVG المحملة كما هي بدون تحويل.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.loading/htmlloadoptions/convertsvgtoemf/
 ---
 ## HtmlLoadOptions.ConvertSvgToEmf property
 
-الحصول على أو تعيين قيمة تشير إلى ما إذا كان سيتم تحويل صور SVG المحملة إلى تنسيق EMF. القيمة الافتراضية هي`خاطئة` وإذا أمكن ، يتم تخزين صور SVG المحملة كما هي بدون تحويل.
+الحصول على أو تعيين قيمة تشير إلى ما إذا كان سيتم تحويل صور SVG المحملة إلى تنسيق EMF. القيمة الافتراضية هي`خطأ شنيع` وإذا أمكن، يتم تخزين صور SVG المحملة كما هي بدون تحويل.
 
 ```csharp
 public bool ConvertSvgToEmf { get; set; }
@@ -16,9 +16,9 @@ public bool ConvertSvgToEmf { get; set; }
 
 ### ملاحظات
 
-تدعم الإصدارات الأحدث من MS Word صور SVG في الأصل. إذا كان إصدار MS Word المحدد في خيارات التحميل يدعم SVG ، فسوف يقوم Aspose.Words بتخزين صور SVG كما هي بدون تحويل. إذا لم يكن SVG مدعومًا ، فسيتم تحويل صور SVG المحملة إلى تنسيق EMF.
+تدعم الإصدارات الأحدث من برنامج MS Word صور SVG محليًا. إذا كان إصدار MS Word المحدد في خيارات التحميل يدعم SVG، فسيقوم Aspose.Words بتخزين صور SVG كما هي بدون تحويل. إذا لم يكن SVG مدعومًا، فسيتم تحويل صور SVG المحملة إلى تنسيق EMF.
 
-إذا كان هذا الخيار مضبوطًا على`حقيقي` ، ستقوم Aspose.Words بتحويل صور SVG المحملة إلى EMF حتى إذا كانت صور SVG مدعومة بواسطة الإصدار المحدد من MS Word.
+إذا تم ضبط هذا الخيار على`حقيقي` سيقوم Aspose.Words بتحويل صور SVG المحملة إلى EMF حتى لو كانت صور SVG مدعومة بالإصدار المحدد من MS Word.
 
 ### أمثلة
 
@@ -27,25 +27,25 @@ public bool ConvertSvgToEmf { get; set; }
 ```csharp
 string html = 
     @"<html>
-        <svg xmlns='http://www.w3.org/2000/svg 'width =' 500 'height = '40' viewBox = '0 0500 40' >
+        <svg xmlns='http://www.w3.org/2000/svg' width='500' height='40' viewBox='0 0 500 40'>
             <text x='0' y='35' font-family='Verdana' font-size='35'>Hello world!</text>
         </svg>
     </html>";
 
-// استخدم "ConvertSvgToEmf" لإعادة السلوك القديم إلى الوراء
-// حيث تم تحويل جميع صور SVG التي تم تحميلها من مستند HTML إلى EMF.
+// استخدم "ConvertSvgToEmf" لإعادة السلوك القديم
+// حيث تم تحويل جميع صور SVG المحملة من مستند HTML إلى EMF.
 // الآن يتم تحميل صور SVG بدون تحويل
 // إذا كان إصدار MS Word المحدد في خيارات التحميل يدعم صور SVG أصلاً.
 HtmlLoadOptions loadOptions = new HtmlLoadOptions { ConvertSvgToEmf = true };
 
 Document doc = new Document(new MemoryStream(Encoding.UTF8.GetBytes(html)), loadOptions);
 
-// يحتوي هذا المستند على < svg > عنصر في شكل نص.
-// عندما نحفظ المستند بتنسيق HTML ، يمكننا تمرير كائن SaveOptions
+// يحتوي هذا المستند على <svg> العنصر على شكل نص
+// عندما نحفظ المستند إلى HTML، يمكننا تمرير كائن SaveOptions
 // لتحديد كيفية معالجة عملية الحفظ لهذا الكائن.
-// تعيين الخاصية "MetafileFormat" إلى "HtmlMetafileFormat.Png" لتحويلها إلى صورة PNG.
-// تعيين خاصية "MetafileFormat" على "HtmlMetafileFormat.Svg" ، مع الاحتفاظ بها ككائن SVG.
-// تعيين الخاصية "MetafileFormat" إلى "HtmlMetafileFormat.EmfOrWmf" لتحويلها إلى ملف تعريف.
+// ضبط خاصية "MetafileFormat" على "HtmlMetafileFormat.Png" لتحويلها إلى صورة PNG.
+// يؤدي تعيين خاصية "MetafileFormat" إلى "HtmlMetafileFormat.Svg" إلى الاحتفاظ بها ككائن SVG.
+// تعيين خاصية "MetafileFormat" على "HtmlMetafileFormat.EmfOrWmf" لتحويلها إلى ملف تعريف.
 HtmlSaveOptions options = new HtmlSaveOptions { MetafileFormat = htmlMetafileFormat };
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.MetafileFormat.html", options);
@@ -64,7 +64,7 @@ switch (htmlMetafileFormat)
     case HtmlMetafileFormat.Svg:
         Assert.True(outDocContents.Contains(
             "<span style=\"-aw-left-pos:0pt; -aw-rel-hpos:column; -aw-rel-vpos:paragraph; -aw-top-pos:0pt; -aw-wrap-type:inline\">" +
-            "<svg xmlns=\"http://www.w3.org/2000/svg \ "xmlns: xlink = \" http: //www.w3.org/1999/xlink \ "version = \" 1.1 \ "width = \" 499 \ "height = \ "40 \" >; ")) ;
+            "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\" width=\"499\" height= \"40\">"));
         break;
     case HtmlMetafileFormat.EmfOrWmf:
         Assert.True(outDocContents.Contains(

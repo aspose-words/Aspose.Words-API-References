@@ -1,14 +1,14 @@
 ---
 title: FieldMergeBarcode.FixCheckDigit
 second_title: Справочник по API Aspose.Words для .NET
-description: FieldMergeBarcode свойство. Получает или задает следует ли исправить контрольную цифру если она недействительна.
+description: FieldMergeBarcode свойство. Получает или задает следует ли исправлять контрольную цифру если она недействительна.
 type: docs
 weight: 90
 url: /ru/net/aspose.words.fields/fieldmergebarcode/fixcheckdigit/
 ---
 ## FieldMergeBarcode.FixCheckDigit property
 
-Получает или задает, следует ли исправить контрольную цифру, если она недействительна.
+Получает или задает, следует ли исправлять контрольную цифру, если она недействительна.
 
 ```csharp
 public bool FixCheckDigit { get; set; }
@@ -16,13 +16,13 @@ public bool FixCheckDigit { get; set; }
 
 ### Примеры
 
-Показывает, как выполнять слияние со штрих-кодами EAN13.
+Показывает, как выполнить объединение писем со штрих-кодами EAN13.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставьте поле MERGEBARCODE, которое будет принимать значения из источника данных во время слияния.
+// Вставляем поле MERGEBARCODE, которое будет принимать значения из источника данных во время слияния почты.
 // Это поле преобразует все значения в столбце «MyEAN13Barcode» источника данных слияния в штрих-коды EAN13.
 FieldMergeBarcode field = (FieldMergeBarcode)builder.InsertField(FieldType.FieldMergeBarcode, true);
 field.BarcodeType = "EAN13";

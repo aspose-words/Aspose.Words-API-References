@@ -3,12 +3,14 @@ title: Class NodeRendererBase
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Rendering.NodeRendererBase klass. Basklass förShapeRenderer ochOfficeMathRenderer .
 type: docs
-weight: 4290
+weight: 4550
 url: /sv/net/aspose.words.rendering/noderendererbase/
 ---
 ## NodeRendererBase class
 
 Basklass för[`ShapeRenderer`](../shaperenderer/) och[`OfficeMathRenderer`](../officemathrenderer/) .
+
+För att lära dig mer, besök[Arbeta med former](https://docs.aspose.com/words/net/working-with-shapes/) dokumentationsartikel.
 
 ```csharp
 public abstract class NodeRendererBase

@@ -20,21 +20,21 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Return_Value
 
-Vrai si tous les nœuds ont été visités ; false si DocumentVisitor a arrêté l'opération avant de visiter tous les nœuds.
+Vrai si tous les nœuds ont été visités ; faux si[`DocumentVisitor`](../../../aspose.words/documentvisitor/) arrêté l'opération avant de visiter tous les nœuds.
 
 ### Remarques
 
-Énumère ce nœud et tous ses enfants. Chaque nœud appelle une méthode correspondante sur DocumentVisitor.
+Énumère ce nœud et tous ses enfants. Chaque nœud appelle une méthode correspondante sur[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
-Pour plus d'informations, consultez le modèle de conception Visiteur.
+Pour plus d’informations, consultez le modèle de conception Visiteur.
 
 Appels[`VisitGlossaryDocumentStart`](../../../aspose.words/documentvisitor/visitglossarydocumentstart/) , puis appelle[`Accept`](../../../aspose.words/node/accept/) pour tous les nœuds enfants de ce nœud, puis appelle[`VisitGlossaryDocumentEnd`](../../../aspose.words/documentvisitor/visitglossarydocumentend/) à la fin.
 
-Remarque : Un nœud de document de glossaire et ses enfants ne sont pas visités lorsque vous exécutez un Visiteur sur un[`Document`](../../../aspose.words/document/) . Si vous souhaitez exécuter un visiteur sur un document de glossaire , vous devez appeler`Accept` .
+Remarque : Un nœud de document de glossaire et ses enfants ne sont pas visités lorsque vous exécutez a Visitor sur un[`Document`](../../../aspose.words/document/) . Si vous souhaitez exécuter un Visiteur sur un document glossaire , vous devez appeler`Accept` .
 
 ### Exemples
 
-Montre les moyens d'accéder aux blocs de construction dans un document de glossaire.
+Montre les moyens d'accéder aux blocs de construction dans un document glossaire.
 
 ```csharp
 public void GlossaryDocument()
@@ -53,7 +53,7 @@ public void GlossaryDocument()
     doc.GlossaryDocument = glossaryDoc;
 
     // Il existe différentes manières d'accéder aux blocs de construction.
-    // 1 - Récupère les premiers/derniers blocs de construction de la collection :
+    // 1 - Récupère les premier/dernier blocs de construction de la collection :
     Assert.AreEqual("Block 1", glossaryDoc.FirstBuildingBlock.Name);
     Assert.AreEqual("Block 5", glossaryDoc.LastBuildingBlock.Name);
 
@@ -61,18 +61,17 @@ public void GlossaryDocument()
     Assert.AreEqual("Block 2", glossaryDoc.BuildingBlocks[1].Name);
     Assert.AreEqual("Block 3", glossaryDoc.BuildingBlocks.ToArray()[2].Name);
 
-    // 3 - Récupérez le premier bloc de construction qui correspond à une galerie, un nom et une catégorie :
+    // 3 - Obtenez le premier bloc de construction qui correspond à une galerie, un nom et une catégorie :
     Assert.AreEqual("Block 4", 
         glossaryDoc.GetBuildingBlock(BuildingBlockGallery.All, "(Empty Category)", "Block 4").Name);
 
-    // Nous le ferons en utilisant un visiteur personnalisé,
-    // qui donnera à chaque BuildingBlock dans le GlossaryDocument un GUID unique
+    // Nous ferons cela en utilisant un visiteur personnalisé,
+    // qui donnera à chaque BuildingBlock du GlossaryDocument un GUID unique
     GlossaryDocVisitor visitor = new GlossaryDocVisitor();
     glossaryDoc.Accept(visitor);
-
     Console.WriteLine(visitor.GetText());
 
-    // Dans Microsoft Word, nous pouvons accéder aux blocs de construction via "Insérer" -> "Parties rapides" -> "Organisateur de blocs de construction".
+    // Dans Microsoft Word, nous pouvons accéder aux blocs de construction via "Insérer" -> "Pièces rapides" -> "Organisateur de blocs de construction".
     doc.Save(ArtifactsDir + "BuildingBlocks.GlossaryDocument.dotx"); 
 }
 

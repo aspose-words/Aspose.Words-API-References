@@ -1,14 +1,14 @@
 ---
 title: FieldMergeBarcode.ScalingFactor
 second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldMergeBarcode propriété. Obtient ou définit un facteur déchelle pour le symbole. La valeur est en points de pourcentage entiers et les valeurs valides sont 10 1000
+description: FieldMergeBarcode propriété. Obtient ou définit un facteur de mise à léchelle pour le symbole. La valeur est en points de pourcentage entiers et les valeurs valides sont 10 1000
 type: docs
 weight: 120
 url: /fr/net/aspose.words.fields/fieldmergebarcode/scalingfactor/
 ---
 ## FieldMergeBarcode.ScalingFactor property
 
-Obtient ou définit un facteur d'échelle pour le symbole. La valeur est en points de pourcentage entiers et les valeurs valides sont [10, 1000]
+Obtient ou définit un facteur de mise à l'échelle pour le symbole. La valeur est en points de pourcentage entiers et les valeurs valides sont [10, 1000]
 
 ```csharp
 public string ScalingFactor { get; set; }
@@ -28,7 +28,7 @@ FieldMergeBarcode field = (FieldMergeBarcode)builder.InsertField(FieldType.Field
 field.BarcodeType = "QR";
 field.BarcodeValue = "MyQRCode";
 
-// Appliquez des couleurs et une mise à l'échelle personnalisées.
+// Applique des couleurs et une mise à l'échelle personnalisées.
 field.BackgroundColor = "0xF8BD69";
 field.ForegroundColor = "0xB5413B";
 field.ErrorCorrectionLevel = "3";
@@ -41,7 +41,7 @@ Assert.AreEqual(" MERGEBARCODE  MyQRCode QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 
     field.GetFieldCode());
 builder.Writeln();
 
-// Crée un DataTable avec une colonne portant le même nom que la BarcodeValue de notre champ MERGEBARCODE.
+// Créez un DataTable avec une colonne portant le même nom que la BarcodeValue de notre champ MERGEBARCODE.
 // Le publipostage créera une nouvelle page pour chaque ligne. Chaque page contiendra un champ DISPLAYBARCODE,
 // qui affichera un code QR avec la valeur de la ligne fusionnée.
 DataTable table = new DataTable("Barcodes");

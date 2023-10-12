@@ -1,14 +1,14 @@
 ---
 title: Comment.Comment
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Comment constructeur. Initialise une nouvelle instance du Commentaire classe.
+description: Comment constructeur. Initialise une nouvelle instance duComment classe.
 type: docs
 weight: 10
 url: /fr/net/aspose.words/comment/comment/
 ---
 ## Comment(DocumentBase) {#constructor}
 
-Initialise une nouvelle instance du **Commentaire** classe.
+Initialise une nouvelle instance du[`Comment`](../) classe.
 
 ```csharp
 public Comment(DocumentBase doc)
@@ -20,11 +20,11 @@ public Comment(DocumentBase doc)
 
 ### Remarques
 
-Lorsque **Commentaire** est créé, il appartient au document spécifié, mais ne fait pas encore partie du document et **ParentNode** est nul.
+Quand[`Comment`](../) est créé, il appartient au document spécifié, mais ne fait pas encore partie du document et[`ParentNode`](../../node/parentnode/) est`nul`.
 
-À ajouter **Commentaire** au document, utilisez InsertAfter ou InsertBefore sur le paragraphe où vous souhaitez insérer le commentaire.
+À ajouter[`Comment`](../) à l'utilisation du documentNode) ouNode) sur le paragraphe où vous souhaitez insérer le commentaire.
 
-Après avoir créé un commentaire, n'oubliez pas de définir son[`Author`](../author/) , [`Initial`](../initial/) et[`DateTime`](../datetime/) Propriétés.
+Après avoir créé un commentaire, n'oubliez pas de définir son[`Author`](../author/) , [`Initial`](../initial/) et[`DateTime`](../datetime/) propriétés.
 
 ### Exemples
 
@@ -59,13 +59,13 @@ public void CreateCommentsAndPrintAllInfo()
 }
 
 /// <summary>
-/// Itère sur chaque commentaire de niveau supérieur et imprime sa plage de commentaires, son contenu et ses réponses.
+/// Parcourt chaque commentaire de niveau supérieur et imprime sa plage de commentaires, son contenu et ses réponses.
 /// </summary>
 private static void PrintAllCommentInfo(NodeCollection comments)
 {
     CommentInfoPrinter commentVisitor = new CommentInfoPrinter();
 
-    // Itération sur tous les commentaires de niveau supérieur. Contrairement aux commentaires de type réponse, les commentaires de niveau supérieur n'ont pas d'ancêtre.
+    // Parcourez tous les commentaires de niveau supérieur. Contrairement aux commentaires de type réponse, les commentaires de niveau supérieur n'ont pas d'ancêtre.
     foreach (Comment comment in comments.Where(c => ((Comment)c).Ancestor == null))
     {
         // Tout d'abord, visitez le début de la plage de commentaires.
@@ -98,7 +98,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Obtient le texte brut du document qui a été accumulé par le visiteur.
+    /// Obtient le texte brut du document accumulé par le visiteur.
     /// </summary>
     public string GetText()
     {
@@ -106,7 +106,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Appelé lorsqu'un noeud Run est rencontré dans le document.
+    /// Appelé lorsqu'un nœud Run est rencontré dans le document.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -167,7 +167,7 @@ public class CommentInfoPrinter : DocumentVisitor
     /// <summary>
     /// Ajoutez une ligne au StringBuilder et indentez-la en fonction de la profondeur du visiteur dans l'arborescence du document.
     /// </summary>
-    /// <nom du paramètre="texte"></param>
+    /// <param name="text"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++)
@@ -195,7 +195,7 @@ public class CommentInfoPrinter : DocumentVisitor
 
 ## Comment(DocumentBase, string, string, DateTime) {#constructor_1}
 
-Initialise une nouvelle instance du **Commentaire** classe.
+Initialise une nouvelle instance du[`Comment`](../) classe.
 
 ```csharp
 public Comment(DocumentBase doc, string author, string initial, DateTime dateTime)
@@ -204,8 +204,8 @@ public Comment(DocumentBase doc, string author, string initial, DateTime dateTim
 | Paramètre | Taper | La description |
 | --- | --- | --- |
 | doc | DocumentBase | Le document du propriétaire. |
-| author | String | Nom de l'auteur du commentaire. Ne peut pas être nulle. |
-| initial | String | L'auteur paraphe le commentaire. Ne peut pas être nulle. |
+| author | String | Le nom de l'auteur du commentaire. C'est pas possible`nul`. |
+| initial | String | L’auteur paraphe le commentaire. C'est pas possible`nul`. |
 | dateTime | DateTime | La date et l'heure du commentaire. |
 
 ### Exemples
@@ -224,7 +224,7 @@ builder.Write("Comment text.");
 
 Assert.AreEqual(DateTime.Today, comment.DateTime);
 
-// Dans Microsoft Word, nous pouvons cliquer avec le bouton droit sur ce commentaire dans le corps du document pour le modifier ou y répondre. 
+ // Dans Microsoft Word, nous pouvons cliquer avec le bouton droit sur ce commentaire dans le corps du document pour le modifier ou y répondre.
 doc.Save(ArtifactsDir + "InlineStory.AddComment.docx");
 ```
 

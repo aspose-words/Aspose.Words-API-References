@@ -25,13 +25,13 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Font.Size = 36;
 builder.Font.Color = Color.LightBlue;
 
-// Metne 3B benzeri bir efekt uygulamak için gölgeleri kullanmanın iki yolu aşağıdadır.
-// 1 - Harfler sayfaya gömülmüş gibi görünmesi için metni kazıyın:
+// Aşağıda metne 3B benzeri bir efekt uygulamak için gölgeleri kullanmanın iki yolu verilmiştir.
+// 1 - Harflerin sayfaya gömülmüş gibi görünmesini sağlamak için metni kazıyın:
 builder.Font.Engrave = true;
 
 builder.Writeln("This text is engraved.");
 
-// 2 - Harflerin sayfadan fırlıyormuş gibi görünmesi için metni kabartma:
+// 2 - Harflerin sayfadan fırlamış gibi görünmesini sağlamak için metni kabartın:
 builder.Font.Engrave = false;
 builder.Font.Emboss = true;
 

@@ -32,9 +32,9 @@ field.Update();
 Assert.AreEqual(" COMMENTS ", field.GetFieldCode());
 Assert.AreEqual("My comment.", field.Result);
 
-// Se diamo il valore della proprietà Text del campo COMMENTS e lo aggiorniamo, il campo lo farà
-// sovrascrive il valore corrente della proprietà incorporata "Commenti" con il valore della relativa proprietà Text,
-// e quindi visualizzare il nuovo valore.
+// Se diamo il valore della proprietà Text del campo COMMENTI e lo aggiorniamo, il campo lo farà
+// sovrascrive il valore corrente della proprietà integrata "Commenti" con il valore della sua proprietà Text,
+// e quindi visualizza il nuovo valore.
 field.Text = "My overriding comment.";
 field.Update();
 

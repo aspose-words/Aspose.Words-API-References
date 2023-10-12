@@ -3,7 +3,7 @@ title: Style.Name
 second_title: Aspose.Words for .NET API Referansı
 description: Style mülk. Stilin adını alır veya ayarlar.
 type: docs
-weight: 110
+weight: 130
 url: /tr/net/aspose.words/style/name/
 ---
 ## Style.Name property
@@ -18,7 +18,7 @@ public string Name { get; set; }
 
 Boş dize olamaz.
 
-Koleksiyonda zaten böyle bir ada sahip bir stil varsa, bu stil onu geçersiz kılar. Etkilenen tüm düğümler yeni stile başvuracaktır.
+Koleksiyonda zaten böyle bir ada sahip bir stil varsa, bu stil onu geçersiz kılacaktır. Etkilenen tüm düğümler yeni stile referans verecektir.
 
 ### Örnekler
 
@@ -45,19 +45,19 @@ using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 }
 ```
 
-Bir belgenin stilinin nasıl klonlanacağını gösterir.
+Bir belgenin stilinin nasıl kopyalanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 
-// AddCopy yöntemi, belirtilen stilin bir kopyasını oluşturur ve
-// stil için otomatik olarak "Heading 1_0" gibi yeni bir ad oluşturur.
+// AddCopy yöntemi belirtilen stilin bir kopyasını oluşturur ve
+// stil için otomatik olarak "Başlık 1_0" gibi yeni bir ad oluşturur.
 Style newStyle = doc.Styles.AddCopy(doc.Styles["Heading 1"]);
 
 // Stilin tanımlayıcı adını değiştirmek için stilin "Ad" özelliğini kullanın.
 newStyle.Name = "My Heading 1";
 
-// Belgemiz artık farklı adlara sahip iki özdeş görünümlü stile sahip.
+// Belgemiz artık farklı adlara sahip iki aynı görünümlü stile sahip.
 // Stillerden birinin ayarlarının değiştirilmesi diğerini etkilemez.
 newStyle.Font.Color = Color.Red;
 

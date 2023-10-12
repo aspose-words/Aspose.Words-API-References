@@ -1,14 +1,14 @@
 ---
 title: SignatureLine.IsValid
 second_title: Aspose.Words per .NET API Reference
-description: SignatureLine proprietà. Indica che la riga della firma è firmata dalla firma digitale e che questa firma digitale è valida.
+description: SignatureLine proprietà. Indica che la riga della firma è firmata tramite firma digitale e questa firma digitale è valida.
 type: docs
 weight: 70
 url: /it/net/aspose.words.drawing/signatureline/isvalid/
 ---
 ## SignatureLine.IsValid property
 
-Indica che la riga della firma è firmata dalla firma digitale e che questa firma digitale è valida.
+Indica che la riga della firma è firmata tramite firma digitale e questa firma digitale è valida.
 
 ```csharp
 public bool IsValid { get; }
@@ -16,7 +16,7 @@ public bool IsValid { get; }
 
 ### Esempi
 
-Mostra come firmare un documento con un certificato personale e una riga di firma.
+Mostra come firmare un documento con un certificato personale e una riga per la firma.
 
 ```csharp
 Document doc = new Document();
@@ -54,8 +54,8 @@ CertificateHolder certHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "a
 DigitalSignatureUtil.Sign(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.docx", 
     ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
 
-// Riapri il nostro documento salvato e verifica che le proprietà "IsSigned" e "IsValid" siano entrambe "true",
-// indicando che la riga della firma contiene una firma.
+// Riapri il nostro documento salvato e verifica che le proprietà "IsSigned" e "IsValid" siano entrambe uguali a "true",
+// indica che la riga della firma contiene una firma.
 doc = new Document(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 signatureLine = shape.SignatureLine;

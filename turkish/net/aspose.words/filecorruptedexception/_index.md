@@ -1,14 +1,16 @@
 ---
 title: Class FileCorruptedException
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.FileCorruptedException sınıf. Belge yükleme sırasında belge bozuk ve yüklenmesi imkansız göründüğünde atılır.
+description: Aspose.Words.FileCorruptedException sınıf. Belge yükleme sırasında belge bozuk göründüğünde ve yüklenmesi imkansız olduğunda atılır.
 type: docs
-weight: 2620
+weight: 2800
 url: /tr/net/aspose.words/filecorruptedexception/
 ---
 ## FileCorruptedException class
 
-Belge yükleme sırasında, belge bozuk ve yüklenmesi imkansız göründüğünde atılır.
+Belge yükleme sırasında, belge bozuk göründüğünde ve yüklenmesi imkansız olduğunda atılır.
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Belgelerle Programlama](https://docs.aspose.com/words/net/programming-with-documents/) dokümantasyon makalesi.
 
 ```csharp
 public class FileCorruptedException : Exception
@@ -16,13 +18,13 @@ public class FileCorruptedException : Exception
 
 ### Örnekler
 
-Bir FileCorruptedException'ın nasıl yakalanacağını gösterir.
+FileCorruptedException'ın nasıl yakalanacağını gösterir.
 
 ```csharp
 try
 {
     // Microsoft Word kullanarak bir belgeyi açmaya çalışırken "Okunamayan içerik" hata mesajı alırsak,
-    // Bu belgeyi Aspose.Words kullanarak yüklemeye çalışırken bir istisna atılması ihtimalimiz var.
+    // Aspose.Words'ü kullanarak bu belgeyi yüklemeye çalışırken bir istisna oluşması ihtimali var.
     Document doc = new Document(MyDir + "Corrupted document.docx");
 }
 catch (FileCorruptedException e)

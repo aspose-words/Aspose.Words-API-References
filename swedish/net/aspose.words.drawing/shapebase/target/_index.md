@@ -3,7 +3,7 @@ title: ShapeBase.Target
 second_title: Aspose.Words för .NET API Referens
 description: ShapeBase fast egendom. Hämtar eller ställer in målramen för formhyperlänken.
 type: docs
-weight: 480
+weight: 520
 url: /sv/net/aspose.words.drawing/shapebase/target/
 ---
 ## ShapeBase.Target property

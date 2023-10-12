@@ -1,14 +1,14 @@
 ---
 title: FrameFormat.RelativeHorizontalPosition
 second_title: Aspose.Words لمراجع .NET API
-description: FrameFormat ملكية. الحصول على الموضع الأفقي النسبي للإطار.
+description: FrameFormat ملكية. يحصل على الموضع الأفقي النسبي للإطار.
 type: docs
 weight: 70
 url: /ar/net/aspose.words/frameformat/relativehorizontalposition/
 ---
 ## FrameFormat.RelativeHorizontalPosition property
 
-الحصول على الموضع الأفقي النسبي للإطار.
+يحصل على الموضع الأفقي النسبي للإطار.
 
 ```csharp
 public RelativeHorizontalPosition RelativeHorizontalPosition { get; }
@@ -16,7 +16,7 @@ public RelativeHorizontalPosition RelativeHorizontalPosition { get; }
 
 ### أمثلة
 
-يوضح كيفية الحصول على معلومات حول خصائص التنسيق للفقرات التي هي إطارات.
+يوضح كيفية الحصول على معلومات حول خصائص تنسيق الفقرات التي تكون إطارات.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraph frame.docx");

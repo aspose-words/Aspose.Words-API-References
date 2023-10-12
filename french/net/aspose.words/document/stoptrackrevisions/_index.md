@@ -1,14 +1,14 @@
 ---
 title: Document.StopTrackRevisions
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Document méthode. Arrête le marquage automatique des modifications de document en tant que révisions.
+description: Document méthode. Arrête le marquage automatique des modifications du document en tant que révisions.
 type: docs
-weight: 700
+weight: 740
 url: /fr/net/aspose.words/document/stoptrackrevisions/
 ---
 ## Document.StopTrackRevisions method
 
-Arrête le marquage automatique des modifications de document en tant que révisions.
+Arrête le marquage automatique des modifications du document en tant que révisions.
 
 ```csharp
 public void StopTrackRevisions()
@@ -16,13 +16,13 @@ public void StopTrackRevisions()
 
 ### Exemples
 
-Montre comment suivre les révisions lors de la modification d'un document.
+Montre comment suivre les révisions lors de la modification d’un document.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// La modification d'un document ne compte généralement pas comme une révision tant que nous n'avons pas commencé à les suivre.
+// La modification d'un document ne compte généralement pas comme une révision jusqu'à ce que nous commencions à le suivre.
 builder.Write("Hello world! ");
 
 Assert.AreEqual(0, doc.Revisions.Count);
@@ -37,7 +37,7 @@ Assert.True(doc.FirstSection.Body.Paragraphs[0].Runs[1].IsInsertRevision);
 Assert.AreEqual("John Doe", doc.Revisions[0].Author);
 Assert.That(doc.Revisions[0].DateTime, Is.EqualTo(DateTime.Now).Within(10).Milliseconds);
 
-// Arrêtez le suivi des révisions pour ne pas compter les modifications futures comme des révisions.
+// Arrêtez de suivre les révisions pour ne pas compter les modifications futures comme des révisions.
 doc.StopTrackRevisions();
 builder.Write("Hello again! ");
 
@@ -55,7 +55,7 @@ Assert.AreEqual(DateTime.MinValue, doc.Revisions[1].DateTime);
 
 // Nous pouvons accepter/rejeter ces révisions par programmation
 // en appelant des méthodes telles que Document.AcceptAllRevisions ou la méthode Accept de chaque révision.
-// Dans Microsoft Word, nous pouvons les traiter manuellement via "Review" -> "Changements".
+// Dans Microsoft Word, nous pouvons les traiter manuellement via "Révision" -> "Changements".
 doc.Save(ArtifactsDir + "Document.StartTrackRevisions.docx");
 ```
 

@@ -3,7 +3,7 @@ title: Enum Granularity
 second_title: Aspose.Words for .NET API 参考
 description: Aspose.Words.Comparing.Granularity 枚举. 指定比较两个文档时要跟踪的更改的粒度
 type: docs
-weight: 280
+weight: 290
 url: /zh/net/aspose.words.comparing/granularity/
 ---
 ## Granularity enumeration
@@ -23,7 +23,7 @@ public enum Granularity
 
 ### 例子
 
-显示以在比较文档时指定粒度。
+显示在比较文档时指定粒度。
 
 ```csharp
 Document docA = new Document();
@@ -34,8 +34,8 @@ Document docB = new Document();
 DocumentBuilder builderB = new DocumentBuilder(docB);
 builderB.Writeln("Lorems ipsum dolor sit amet consectetur - \"adipiscing\" elit");
 
-// 指定是否跟踪变化
-// 按字符 ('Granularity.CharLevel')，或按单词 ('Granularity.WordLevel')。
+// 指定是否跟踪更改
+// 按字符 ('Granularity.CharLevel') 或按单词 ('Granularity.WordLevel')。
 Aspose.Words.Comparing.CompareOptions compareOptions = new Aspose.Words.Comparing.CompareOptions();
 compareOptions.Granularity = granularity;
 

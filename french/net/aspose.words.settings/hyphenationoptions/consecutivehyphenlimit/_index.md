@@ -1,14 +1,14 @@
 ---
 title: HyphenationOptions.ConsecutiveHyphenLimit
 second_title: Référence de l'API Aspose.Words pour .NET
-description: HyphenationOptions propriété. Obtient ou définit le nombre maximal de lignes consécutives pouvant se terminer par des tirets. La valeur par défaut de cette propriété est 0.
+description: HyphenationOptions propriété. Obtient ou définit le nombre maximum de lignes consécutives pouvant se terminer par des traits dunion. La valeur par défaut de cette propriété est 0.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.settings/hyphenationoptions/consecutivehyphenlimit/
 ---
 ## HyphenationOptions.ConsecutiveHyphenLimit property
 
-Obtient ou définit le nombre maximal de lignes consécutives pouvant se terminer par des tirets. La valeur par défaut de cette propriété est 0.
+Obtient ou définit le nombre maximum de lignes consécutives pouvant se terminer par des traits d'union. La valeur par défaut de cette propriété est 0.
 
 ```csharp
 public int ConsecutiveHyphenLimit { get; set; }
@@ -18,7 +18,7 @@ public int ConsecutiveHyphenLimit { get; set; }
 
 Si la valeur de cette propriété est définie sur 0, n'importe quel nombre de lignes consécutives peut se terminer par des traits d'union.
 
-La propriété n'a pas d'effet lors de l'enregistrement dans des formats de page fixes, par exemple PDF.
+La propriété n'a aucun effet lors de l'enregistrement dans des formats de page fixes, par exemple PDF.
 
 ### Exemples
 

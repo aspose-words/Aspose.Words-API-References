@@ -1,12 +1,14 @@
 ---
 title: BookmarksOutlineLevelCollection.GetEnumerator
 second_title: Aspose.Words for .NET API Referansı
-description: BookmarksOutlineLevelCollection yöntem. 
+description: BookmarksOutlineLevelCollection yöntem. Koleksiyondaki tüm öğeler üzerinde yineleme yapmak için kullanılabilecek bir numaralandırıcı nesnesini döndürür.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.saving/bookmarksoutlinelevelcollection/getenumerator/
 ---
 ## BookmarksOutlineLevelCollection.GetEnumerator method
+
+Koleksiyondaki tüm öğeler üzerinde yineleme yapmak için kullanılabilecek bir numaralandırıcı nesnesini döndürür.
 
 ```csharp
 public IEnumerator<KeyValuePair<string, int>> GetEnumerator()

@@ -1,14 +1,14 @@
 ---
 title: Enum AutoFitBehavior
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Tables.AutoFitBehavior énumération. Détermine comment Aspose.Words redimensionne le tableau lorsque vous appelez leAutoFit méthode.
+description: Aspose.Words.Tables.AutoFitBehavior énumération. Détermine comment Aspose.Words redimensionne la table lorsque vous appelez leAutoFit méthode.
 type: docs
-weight: 5930
+weight: 6230
 url: /fr/net/aspose.words.tables/autofitbehavior/
 ---
 ## AutoFitBehavior enumeration
 
-Détermine comment Aspose.Words redimensionne le tableau lorsque vous appelez le[`AutoFit`](../table/autofit/) méthode.
+Détermine comment Aspose.Words redimensionne la table lorsque vous appelez le[`AutoFit`](../table/autofit/) méthode.
 
 ```csharp
 public enum AutoFitBehavior
@@ -19,8 +19,8 @@ public enum AutoFitBehavior
 | Nom | Évaluer | La description |
 | --- | --- | --- |
 | AutoFitToContents | `0` | Aspose.Words active l'option AutoFit, supprime la largeur préférée du tableau et de toutes les cellules, puis met à jour la disposition du tableau. |
-| AutoFitToWindow | `1` | Lorsque vous utilisez cette valeur, Aspose.Words active l'option AutoFit, définit la largeur préférée du tableau sur 100 %, supprime les largeurs préférées de toutes les cellules, puis met à jour la disposition du tableau. |
-| FixedColumnWidths | `2` | Aspose.Words désactive l'option AutoFit et supprime le favori avec de la table. |
+| AutoFitToWindow | `1` | Lorsque vous utilisez cette valeur, Aspose.Words active l'option AutoFit, définit la largeur préférée du tableau à 100 %, supprime les largeurs préférées de toutes les cellules, puis met à jour la disposition du tableau. |
+| FixedColumnWidths | `2` | Aspose.Words désactive l'option AutoFit et supprime le with préféré du tableau. |
 
 ### Exemples
 
@@ -31,14 +31,14 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 Table table = builder.StartTable();
 
-// Nous devons insérer au moins une ligne avant de définir la mise en forme du tableau.
+// Nous devons insérer au moins une ligne avant de définir un formatage de tableau.
 builder.InsertCell();
 
 // Définit le style de tableau utilisé en fonction de l'identifiant de style.
 // Notez que tous les styles de tableau ne sont pas disponibles lors de l'enregistrement au format .doc.
 table.StyleIdentifier = StyleIdentifier.MediumShading1Accent1;
 
-// Appliquez partiellement le style aux fonctionnalités de la table en fonction des prédicats, puis construisez la table.
+// Applique partiellement le style aux fonctionnalités de la table en fonction des prédicats, puis construit la table.
 table.StyleOptions =
     TableStyleOptions.FirstColumn | TableStyleOptions.RowBands | TableStyleOptions.FirstRow;
 table.AutoFit(AutoFitBehavior.AutoFitToContents);
@@ -100,7 +100,7 @@ builder.Write("Row 2, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// Les lignes et les cellules ajoutées précédemment ne sont pas affectées rétroactivement par les modifications apportées à la mise en forme du générateur.
+// Les lignes et cellules précédemment ajoutées ne sont pas affectées rétroactivement par les modifications apportées au formatage du générateur.
 Assert.AreEqual(0, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 Assert.AreEqual(100, table.Rows[1].RowFormat.Height);

@@ -1,14 +1,14 @@
 ---
 title: Document.RevisionsView
 second_title: Aspose.Words for .NET API Referansı
-description: Document mülk. Bir belgenin orijinal mi yoksa gözden geçirilmiş sürümüyle mi çalışılacağını belirten bir değer alır veya ayarlar.
+description: Document mülk. Bir belgenin orijinal sürümüyle mi yoksa revize edilmiş sürümüyle mi çalışılacağını belirten bir değer alır veya ayarlar.
 type: docs
-weight: 340
+weight: 360
 url: /tr/net/aspose.words/document/revisionsview/
 ---
 ## Document.RevisionsView property
 
-Bir belgenin orijinal mi yoksa gözden geçirilmiş sürümüyle mi çalışılacağını belirten bir değer alır veya ayarlar.
+Bir belgenin orijinal sürümüyle mi yoksa revize edilmiş sürümüyle mi çalışılacağını belirten bir değer alır veya ayarlar.
 
 ```csharp
 public RevisionsView RevisionsView { get; set; }
@@ -16,11 +16,11 @@ public RevisionsView RevisionsView { get; set; }
 
 ### Notlar
 
-Varsayılan değer .
+Varsayılan değer: .
 
 ### Örnekler
 
-Bir belgenin gözden geçirilmiş ve orijinal görünümü arasında nasıl geçiş yapılacağını gösterir.
+Bir belgenin revize edilmiş görünümü ile orijinal görünümü arasında nasıl geçiş yapılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions at list levels.docx");
@@ -31,7 +31,7 @@ Assert.AreEqual("1.", paragraphs[0].ListLabel.LabelString);
 Assert.AreEqual("a.", paragraphs[1].ListLabel.LabelString);
 Assert.AreEqual(string.Empty, paragraphs[2].ListLabel.LabelString);
 
-// Belge nesnesini tüm revizyonlar kabul edilmiş gibi görüntüleyin. Şu anda liste etiketlerini destekler.
+// Belge nesnesini tüm revizyonlar kabul edilmiş gibi görüntüleyin. Şu anda liste etiketlerini desteklemektedir.
 doc.RevisionsView = RevisionsView.Final;
 
 Assert.AreEqual(string.Empty, paragraphs[0].ListLabel.LabelString);

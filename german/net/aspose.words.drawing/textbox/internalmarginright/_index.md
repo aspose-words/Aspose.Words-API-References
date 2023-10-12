@@ -1,14 +1,14 @@
 ---
 title: TextBox.InternalMarginRight
 second_title: Aspose.Words für .NET-API-Referenz
-description: TextBox eigendom. Gibt den inneren rechten Rand in Punkt für eine Form an.
+description: TextBox eigendom. Gibt den inneren rechten Rand in Punkten für eine Form an.
 type: docs
 weight: 40
 url: /de/net/aspose.words.drawing/textbox/internalmarginright/
 ---
 ## TextBox.InternalMarginRight property
 
-Gibt den inneren rechten Rand in Punkt für eine Form an.
+Gibt den inneren rechten Rand in Punkten für eine Form an.
 
 ```csharp
 public double InternalMarginRight { get; set; }
@@ -26,7 +26,7 @@ Zeigt, wie interne Ränder für ein Textfeld festgelegt werden.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Fügen Sie ein weiteres Textfeld mit bestimmten Rändern ein.
+// Ein weiteres Textfeld mit bestimmten Rändern einfügen.
 Shape textBoxShape = builder.InsertShape(ShapeType.TextBox, 100, 100);
 TextBox textBox = textBoxShape.TextBox;
 textBox.InternalMarginTop = 15;

@@ -1,14 +1,14 @@
 ---
 title: FieldIncludeText.BookmarkName
 second_title: Aspose.Words für .NET-API-Referenz
-description: FieldIncludeText eigendom. Ruft den Namen des Lesezeichens im einzuschließenden Dokument ab oder legt ihn fest.
+description: FieldIncludeText eigendom. Ruft den Namen des Lesezeichens im Dokument ab oder legt diesen fest.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/fieldincludetext/bookmarkname/
 ---
 ## FieldIncludeText.BookmarkName property
 
-Ruft den Namen des Lesezeichens im einzuschließenden Dokument ab oder legt ihn fest.
+Ruft den Namen des Lesezeichens im Dokument ab oder legt diesen fest.
 
 ```csharp
 public string BookmarkName { get; set; }
@@ -25,21 +25,23 @@ public void FieldIncludeText()
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     // Im Folgenden finden Sie zwei Möglichkeiten, INCLUDETEXT-Felder zu verwenden, um den Inhalt einer XML-Datei im lokalen Dateisystem anzuzeigen.
-    // 1 - Führen Sie eine XSL-Transformation für ein XML-Dokument durch:
+    // 1 – Führen Sie eine XSL-Transformation für ein XML-Dokument durch:
     FieldIncludeText fieldIncludeText = CreateFieldIncludeText(builder, MyDir + "CD collection data.xml", false, "text/xml", "XML", "ISO-8859-1");
     fieldIncludeText.XslTransformation = MyDir + "CD collection XSL transformation.xsl";
 
     builder.Writeln();
 
-    // 2 - Verwenden Sie einen XPath, um bestimmte Elemente aus einem XML-Dokument zu entnehmen:
+    // 2 – Verwenden Sie einen XPath, um bestimmte Elemente aus einem XML-Dokument zu übernehmen:
     fieldIncludeText = CreateFieldIncludeText(builder, MyDir + "CD collection data.xml", false, "text/xml", "XML", "ISO-8859-1");
     fieldIncludeText.NamespaceMappings = "xmlns:n='myNamespace'";
     fieldIncludeText.XPath = "/catalog/cd/title";
 
+    doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.INCLUDETEXT.docx");
+}
 
 /// <summary>
-/// Verwenden Sie einen Document Builder, um ein INCLUDETEXT-Feld mit benutzerdefinierten Eigenschaften einzufügen.
+/// Verwenden Sie einen Dokument-Builder, um ein INCLUDETEXT-Feld mit benutzerdefinierten Eigenschaften einzufügen.
 /// </summary>
 public FieldIncludeText CreateFieldIncludeText(DocumentBuilder builder, string sourceFullName, bool lockFields, string mimeType, string textConverter, string encoding)
 {

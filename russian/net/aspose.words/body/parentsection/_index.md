@@ -1,14 +1,14 @@
 ---
 title: Body.ParentSection
 second_title: Справочник по API Aspose.Words для .NET
-description: Body свойство. Получает родительский раздел этой истории.
+description: Body свойство. Получает родительский раздел этой статьи.
 type: docs
 weight: 30
 url: /ru/net/aspose.words/body/parentsection/
 ---
 ## Body.ParentSection property
 
-Получает родительский раздел этой истории.
+Получает родительский раздел этой статьи.
 
 ```csharp
 public Section ParentSection { get; }
@@ -16,13 +16,14 @@ public Section ParentSection { get; }
 
 ### Примечания
 
-**Родительский раздел** эквивалентно`(Раздел)Родительский узел`.
+`ParentSection` эквивалентно[`ParentNode`](../../node/parentnode/) брошен в[`Section`](../../section/).
 
 ### Примеры
 
 Показывает, как сохранять концевые сноски в конце каждого раздела и изменять их положение.
 
 ```csharp
+public void SuppressEndnotes()
 {
     Document doc = new Document();
     doc.RemoveAllChildren();
@@ -30,24 +31,25 @@ public Section ParentSection { get; }
      // По умолчанию документ компилирует все концевые сноски в конце.
     Assert.AreEqual(EndnotePosition.EndOfDocument, doc.EndnoteOptions.Position);
 
-    // Мы используем свойство "Position" объекта "EndnoteOptions" документа
-     // вместо этого собирать концевые сноски в конце каждого раздела.
+    // Мы используем свойство «Позиция» объекта «EndnoteOptions» документа.
+     // вместо этого собирать сноски в конце каждого раздела.
     doc.EndnoteOptions.Position = EndnotePosition.EndOfSection;
 
     InsertSectionWithEndnote(doc, "Section 1", "Endnote 1, will stay in section 1");
     InsertSectionWithEndnote(doc, "Section 2", "Endnote 2, will be pushed down to section 3");
     InsertSectionWithEndnote(doc, "Section 3", "Endnote 3, will stay in section 3");
 
-    // Получая разделы для отображения соответствующих концевых сносок, мы можем установить флаг «SuppressEndnotes»
-    // объекта "PageSetup" раздела в "true", чтобы вернуться к поведению по умолчанию и передать его концевые сноски
-    // в следующий раздел.
+    // При получении разделов для отображения соответствующих концевых сносок мы можем установить флаг «SuppressEndnotes»
+    // объекта «PageSetup» раздела на «true», чтобы вернуться к поведению по умолчанию и передать его концевые сноски
+    // переходим к следующему разделу.
     PageSetup pageSetup = doc.Sections[1].PageSetup;
     pageSetup.SuppressEndnotes = true;
 
     doc.Save(ArtifactsDir + "PageSetup.SuppressEndnotes.docx");
+}
 
 /// <summary>
-/// Добавляем к документу раздел с текстом и концевой сноской.
+/// Добавляем в документ раздел с текстом и сноской.
 /// </summary>
 private static void InsertSectionWithEndnote(Document doc, string sectionBodyText, string endnoteText)
 {

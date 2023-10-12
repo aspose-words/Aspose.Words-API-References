@@ -3,7 +3,7 @@ title: Enum TextBoxWrapMode
 second_title: Aspose.Words لمراجع .NET API
 description: Aspose.Words.Drawing.TextBoxWrapMode تعداد. يحدد كيفية التفاف النص داخل الشكل.
 type: docs
-weight: 1190
+weight: 1340
 url: /ar/net/aspose.words.drawing/textboxwrapmode/
 ---
 ## TextBoxWrapMode enumeration
@@ -18,12 +18,12 @@ public enum TextBoxWrapMode
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| Square | `0` | التفاف النص داخل شكل . |
-| None | `2` | لا يلتف النص داخل شكل. |
+| Square | `0` | يلتف النص داخل الشكل. |
+| None | `2` | عدم التفاف النص داخل الشكل. |
 
 ### أمثلة
 
-يوضح كيفية تعيين وضع التفاف لمحتويات مربع نص.
+يوضح كيفية تعيين وضع الالتفاف لمحتويات مربع النص.
 
 ```csharp
 Document doc = new Document();
@@ -32,10 +32,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape textBoxShape = builder.InsertShape(ShapeType.TextBox, 300, 300);
 TextBox textBox = textBoxShape.TextBox;
 
-// تعيين خاصية "TextBoxWrapMode" على "TextBoxWrapMode.None" لزيادة عرض مربع النص
-// لاستيعاب النص ، يجب أن يكون كبيرًا بدرجة كافية.
+// قم بتعيين خاصية "TextBoxWrapMode" على "TextBoxWrapMode.None" لزيادة عرض مربع النص
+// لاستيعاب النص، إذا كان كبيرًا بدرجة كافية.
 // قم بتعيين خاصية "TextBoxWrapMode" على "TextBoxWrapMode.Square" إلى
-// لف كل النص داخل مربع النص ، مع الاحتفاظ بأبعاده.
+// لف النص بالكامل داخل مربع النص، مع الحفاظ على أبعاده.
 textBox.TextBoxWrapMode = textBoxWrapMode;
 
 builder.MoveTo(textBoxShape.LastParagraph);

@@ -1,14 +1,14 @@
 ---
 title: TabStopCollection.RemoveByIndex
 second_title: Aspose.Words for .NET API Referansı
-description: TabStopCollection yöntem. Belirtilen dizindeki bir sekme durağını koleksiyondan kaldırır.
+description: TabStopCollection yöntem. Koleksiyondan belirtilen dizindeki sekme durağını kaldırır.
 type: docs
 weight: 110
 url: /tr/net/aspose.words/tabstopcollection/removebyindex/
 ---
 ## TabStopCollection.RemoveByIndex method
 
-Belirtilen dizindeki bir sekme durağını koleksiyondan kaldırır.
+Koleksiyondan belirtilen dizindeki sekme durağını kaldırır.
 
 ```csharp
 public void RemoveByIndex(int index)
@@ -16,11 +16,11 @@ public void RemoveByIndex(int index)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| index | Int32 | Sekme duraklarının koleksiyonuna bir dizin. |
+| index | Int32 | Sekme duraklarının koleksiyonuna ilişkin bir dizin. |
 
 ### Örnekler
 
-Dizine göre bir belgede bir sekme durağının nasıl seçileceğini ve kaldırılacağını gösterir.
+Bir belgedeki sekme durağının dizinine göre nasıl seçileceğini ve kaldırılacağını gösterir.
 
 ```csharp
 Document doc = new Document();

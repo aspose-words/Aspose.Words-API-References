@@ -1,14 +1,14 @@
 ---
 title: HtmlFixedSaveOptions.UseTargetMachineFonts
 second_title: Aspose.Words för .NET API Referens
-description: HtmlFixedSaveOptions fast egendom. Flagga indikerar om teckensnitt från måldatorn måste användas för att visa dokumentet. Om denna flagga är satt till trueFontFormat ochExportEmbeddedFontsegenskaper har ingen effekt ocksåResourceSavingCallback aktiveras inte för teckensnitt. Standard är false.
+description: HtmlFixedSaveOptions fast egendom. Flagga indikerar om teckensnitt från måldatorn måste användas för att visa dokumentet. Om denna flagga är inställd påSann FontFormat ochExportEmbeddedFonts egenskaper har ingen effekt ocksåResourceSavingCallback aktiveras inte för teckensnitt. Standard ärfalsk .
 type: docs
 weight: 190
 url: /sv/net/aspose.words.saving/htmlfixedsaveoptions/usetargetmachinefonts/
 ---
 ## HtmlFixedSaveOptions.UseTargetMachineFonts property
 
-Flagga indikerar om teckensnitt från måldatorn måste användas för att visa dokumentet. Om denna flagga är satt till true,[`FontFormat`](../fontformat/) och[`ExportEmbeddedFonts`](../exportembeddedfonts/)egenskaper har ingen effekt, också[`ResourceSavingCallback`](../resourcesavingcallback/) aktiveras inte för teckensnitt. Standard är false.
+Flagga indikerar om teckensnitt från måldatorn måste användas för att visa dokumentet. Om denna flagga är inställd på`Sann` ,[`FontFormat`](../fontformat/) och[`ExportEmbeddedFonts`](../exportembeddedfonts/) egenskaper har ingen effekt, också[`ResourceSavingCallback`](../resourcesavingcallback/) aktiveras inte för teckensnitt. Standard är`falsk` .
 
 ```csharp
 public bool UseTargetMachineFonts { get; set; }

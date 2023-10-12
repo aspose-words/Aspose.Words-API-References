@@ -3,12 +3,14 @@ title: Class StructuredDocumentTagRangeEnd
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.Markup.StructuredDocumentTagRangeEnd clase. Representa el final de a distancia etiqueta de documento estructurado que acepta contenido de varias secciones. Véase tambiénStructuredDocumentTagRangeStart nodo.
 type: docs
-weight: 3840
+weight: 4080
 url: /es/net/aspose.words.markup/structureddocumenttagrangeend/
 ---
 ## StructuredDocumentTagRangeEnd class
 
 Representa el final de **a distancia** etiqueta de documento estructurado que acepta contenido de varias secciones. Véase también[`StructuredDocumentTagRangeStart`](../structureddocumenttagrangestart/) nodo.
+
+Para obtener más información, visite el[Etiquetas de documentos estructurados o control de contenido](https://docs.aspose.com/words/net/working-with-content-control-sdt/) artículo de documentación.
 
 ```csharp
 public class StructuredDocumentTagRangeEnd : Node
@@ -18,7 +20,7 @@ public class StructuredDocumentTagRangeEnd : Node
 
 | Nombre | Descripción |
 | --- | --- |
-| [StructuredDocumentTagRangeEnd](structureddocumenttagrangeend/)(DocumentBase, int) | Inicializa una nueva instancia del **Fin de rango de etiqueta de documento estructurado** clase. |
+| [StructuredDocumentTagRangeEnd](structureddocumenttagrangeend/)(DocumentBase, int) | Inicializa una nueva instancia del **Fin del rango de etiquetas de documentos estructurados** clase. |
 
 ## Propiedades
 
@@ -26,36 +28,36 @@ public class StructuredDocumentTagRangeEnd : Node
 | --- | --- |
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Especifica el identificador de nodo personalizado. |
 | virtual [Document](../../aspose.words/node/document/) { get; } | Obtiene el documento al que pertenece este nodo. |
-| [Id](../../aspose.words.markup/structureddocumenttagrangeend/id/) { get; } | Especifica una identificación numérica persistente única de solo lectura para este **Rango de etiqueta de documento estructurado** node. correspondiente[`StructuredDocumentTagRangeStart`](../structureddocumenttagrangestart/) el nodo tiene el mismo[`Id`](../structureddocumenttagrangestart/id/) . |
-| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Devuelve verdadero si este nodo puede contener otros nodos. |
+| [Id](../../aspose.words.markup/structureddocumenttagrangeend/id/) { get; } | Especifica una identificación numérica persistente única de solo lectura para este **Rango de etiquetas de documentos estructurados** nodo. Correspondiente[`StructuredDocumentTagRangeStart`](../structureddocumenttagrangestart/) el nodo tiene el mismo[`Id`](../structureddocumenttagrangestart/id/) . |
+| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Devoluciones`verdadero` si este nodo puede contener otros nodos. |
 | [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Obtiene el nodo que sigue inmediatamente a este nodo. |
-| override [NodeType](../../aspose.words.markup/structureddocumenttagrangeend/nodetype/) { get; } |  |
+| override [NodeType](../../aspose.words.markup/structureddocumenttagrangeend/nodetype/) { get; } | DevolucionesStructuredDocumentTagRangeEnd . |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Obtiene el padre inmediato de este nodo. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Obtiene el nodo inmediatamente anterior a este nodo. |
-| [Range](../../aspose.words/node/range/) { get; } | Devuelve un **Rango** objeto que representa la parte de un documento que está contenido en este nodo. |
+| [Range](../../aspose.words/node/range/) { get; } | Devuelve un[`Range`](../../aspose.words/range/) objeto que representa la parte de un documento contenido en este nodo. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| override [Accept](../../aspose.words.markup/structureddocumenttagrangeend/accept/)(DocumentVisitor) |  |
+| override [Accept](../../aspose.words.markup/structureddocumenttagrangeend/accept/)(DocumentVisitor) | Acepta un visitante. |
 | [Clone](../../aspose.words/node/clone/)(bool) | Crea un duplicado del nodo. |
 | [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Obtiene el primer ancestro del especificado[`NodeType`](../../aspose.words/nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Obtiene el primer ancestro del tipo de objeto especificado. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Obtiene el primer antepasado del tipo de objeto especificado. |
 | virtual [GetText](../../aspose.words/node/gettext/)() | Obtiene el texto de este nodo y de todos sus hijos. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Obtiene el siguiente nodo de acuerdo con el algoritmo de recorrido del árbol de pedido previo. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Obtiene el nodo anterior de acuerdo con el algoritmo de recorrido del árbol de pedido previo. |
-| [Remove](../../aspose.words/node/remove/)() | Se elimina a sí mismo del padre. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Obtiene el siguiente nodo según el algoritmo transversal del árbol de pedidos anticipados. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Obtiene el nodo anterior según el algoritmo transversal del árbol de pedidos anticipados. |
+| [Remove](../../aspose.words/node/remove/)() | Se elimina del padre. |
 | [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exporta el contenido del nodo a una cadena en el formato especificado. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exporta el contenido del nodo a una cadena utilizando las opciones de guardado especificadas. |
+| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exporta el contenido del nodo a una cadena usando las opciones de guardado especificadas. |
 
 ### Observaciones
 
-Puede ser hijo inmediato de[`Body`](../../aspose.words/body/) nodo **solamente** .
+Puede ser hijo inmediato de[`Body`](../../aspose.words/body/) nodo **solo** .
 
 ### Ejemplos
 
-Muestra cómo obtener las propiedades de las etiquetas de documentos estructurados de varias secciones.
+Muestra cómo obtener las propiedades de etiquetas de documentos estructurados de varias secciones.
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");

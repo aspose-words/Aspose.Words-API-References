@@ -1,14 +1,14 @@
 ---
 title: ChartAxis.TickLabelPosition
 second_title: Справочник по API Aspose.Words для .NET
-description: ChartAxis свойство. Возвращает или задает положение меток деления на оси.
+description: ChartAxis свойство. Возвращает или задает положение меток делений на оси.
 type: docs
-weight: 220
+weight: 240
 url: /ru/net/aspose.words.drawing.charts/chartaxis/ticklabelposition/
 ---
 ## ChartAxis.TickLabelPosition property
 
-Возвращает или задает положение меток деления на оси.
+Возвращает или задает положение меток делений на оси.
 
 ```csharp
 public AxisTickLabelPosition TickLabelPosition { get; set; }
@@ -16,7 +16,7 @@ public AxisTickLabelPosition TickLabelPosition { get; set; }
 
 ### Примечания
 
-Свойство не поддерживается новыми диаграммами MS Office 2016.
+Это свойство не поддерживается новыми диаграммами MS Office 2016.
 
 ### Примеры
 
@@ -29,16 +29,16 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Column, 500, 300);
 Chart chart = shape.Chart;
 
-// Очистить серию демонстрационных данных диаграммы, чтобы начать с чистой диаграммы.
+// Очистите ряд демонстрационных данных диаграммы, чтобы начать с чистой диаграммы.
 chart.Series.Clear();
 
-// Вставьте серию диаграммы с категориями для оси X и соответствующими числовыми значениями для оси Y.
+// Вставляем серию диаграмм с категориями для оси X и соответствующими числовыми значениями для оси Y.
 chart.Series.Add("Aspose Test Series",
     new[] { "Word", "PDF", "Excel", "GoogleDocs", "Note" },
     new double[] { 640, 320, 280, 120, 150 });
 
 // Оси диаграммы имеют различные параметры, которые могут изменить их внешний вид,
-// такие как их направление, основные/второстепенные деления единиц и деления.
+// такие как их направление, такты основных/второстепенных единиц и деления.
 ChartAxis xAxis = chart.AxisX;
 xAxis.CategoryType = AxisCategoryType.Category;
 xAxis.Crosses = AxisCrosses.Minimum;

@@ -1,14 +1,14 @@
 ---
 title: Row.IsLastRow
 second_title: Aspose.Words لمراجع .NET API
-description: Row ملكية. صواب إذا كان هذا هو الصف الأخير في الجدول  خطأ بخلاف ذلك.
+description: Row ملكية. صحيح إذا كان هذا هو الصف الأخير في الجدول كاذبة خلاف ذلك.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.tables/row/islastrow/
 ---
 ## Row.IsLastRow property
 
-صواب إذا كان هذا هو الصف الأخير في الجدول ؛ خطأ بخلاف ذلك.
+صحيح إذا كان هذا هو الصف الأخير في الجدول؛ كاذبة خلاف ذلك.
 
 ```csharp
 public bool IsLastRow { get; }
@@ -22,8 +22,8 @@ public bool IsLastRow { get; }
 Document doc = new Document(MyDir + "Table spanning two pages.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
-// تمكين KeepWithNext لكل فقرة في الجدول باستثناء ملف
-// الأخيرة في الصف الأخير ستمنع الجدول من الانقسام عبر صفحات متعددة.
+// تمكين KeepWithNext لكل فقرة في الجدول باستثناء فقرة
+// آخر العناصر الموجودة في الصف الأخير ستمنع تقسيم الجدول عبر صفحات متعددة.
 foreach (Cell cell in table.GetChildNodes(NodeType.Cell, true).OfType<Cell>())
     foreach (Paragraph para in cell.Paragraphs.OfType<Paragraph>())
     {

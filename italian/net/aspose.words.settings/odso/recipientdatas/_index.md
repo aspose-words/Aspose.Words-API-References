@@ -1,14 +1,14 @@
 ---
 title: Odso.RecipientDatas
 second_title: Aspose.Words per .NET API Reference
-description: Odso proprietà. Ottiene o imposta una raccolta di oggetti che specificano linclusione/esclusione di singoli record nella stampa unione. Questo oggetto non è mai nullo.
+description: Odso proprietà. Ottiene o imposta una raccolta di oggetti che specificano linclusione/esclusione di singoli record nella stampa unione. Questo oggetto non viene mainullo .
 type: docs
 weight: 70
 url: /it/net/aspose.words.settings/odso/recipientdatas/
 ---
 ## Odso.RecipientDatas property
 
-Ottiene o imposta una raccolta di oggetti che specificano l'inclusione/esclusione di singoli record nella stampa unione. Questo oggetto non è mai nullo.
+Ottiene o imposta una raccolta di oggetti che specificano l'inclusione/esclusione di singoli record nella stampa unione. Questo oggetto non viene mai`nullo` .
 
 ```csharp
 public OdsoRecipientDataCollection RecipientDatas { get; set; }
@@ -16,7 +16,7 @@ public OdsoRecipientDataCollection RecipientDatas { get; set; }
 
 ### Esempi
 
-Mostra come accedere alla raccolta di dati che designa quali record di origine dati unire verranno esclusi da un'unione di posta.
+Mostra come accedere alla raccolta di dati che indica quali record dell'origine dati di unione verranno esclusi da una stampa unione.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
@@ -41,7 +41,7 @@ using (IEnumerator<OdsoRecipientData> enumerator = dataCollection.GetEnumerator(
 // Possiamo clonare gli elementi in questa raccolta.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Possiamo anche rimuovere elementi singolarmente o cancellare l'intera raccolta in una volta.
+// Possiamo anche rimuovere elementi individualmente o cancellare l'intera raccolta in una volta.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(69, dataCollection.Count);

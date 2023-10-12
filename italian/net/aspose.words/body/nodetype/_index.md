@@ -1,14 +1,14 @@
 ---
 title: Body.NodeType
 second_title: Aspose.Words per .NET API Reference
-description: Body proprietà. Restituisce NodeType.Body .
+description: Body proprietà. RestituisceBody .
 type: docs
 weight: 20
 url: /it/net/aspose.words/body/nodetype/
 ---
 ## Body.NodeType property
 
-Restituisce **NodeType.Body** .
+RestituisceBody .
 
 ```csharp
 public override NodeType NodeType { get; }
@@ -16,7 +16,7 @@ public override NodeType NodeType { get; }
 
 ### Esempi
 
-Mostra come scorrere i figli di un nodo composto.
+Mostra come scorrere i figli di un nodo composito.
 
 ```csharp
 Document doc = new Document();
@@ -31,7 +31,7 @@ builder.Write("Primary footer");
 Section section = doc.FirstSection;
 
 // Una sezione è un nodo composito e può contenere nodi figli,
-// ma solo se quei nodi figlio sono di tipo "Body" o "HeaderFooter".
+// ma solo se i nodi secondari sono di tipo "Body" o "HeaderFooter".
 foreach (Node node in section)
 {
     switch (node.NodeType)

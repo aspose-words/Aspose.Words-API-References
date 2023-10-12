@@ -5,7 +5,7 @@ articleTitle: Save
 second_title: Aspose.Words for .NET
 description: Document Save method. Saves the document to a file. Automatically determines the save format from the extension in C#.
 type: docs
-weight: 700
+weight: 720
 url: /net/aspose.words/document/save/
 ---
 ## Save(*string*) {#save_2}
@@ -371,7 +371,6 @@ Document doc = new Document();
                 stream.Position = 0;
 
                 SKCodec codec = SKCodec.Create(stream);
-
                 Assert.AreEqual(SKEncodedImageFormat.Bmp, codec.EncodedFormat);
 
                 stream.Position = 0;

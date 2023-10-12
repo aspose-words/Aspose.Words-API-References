@@ -1,14 +1,14 @@
 ---
 title: RevisionOptions.RevisedPropertiesEffect
 second_title: Aspose.Words für .NET-API-Referenz
-description: RevisionOptions eigendom. Ermöglicht das Festlegen des Effekts für Inhaltsbereiche mit Änderungen der FormatierungseigenschaftenFormatChange Standardwert istNone
+description: RevisionOptions eigendom. Ermöglicht die Angabe des Effekts für Inhaltsbereiche bei Änderungen der FormatierungseigenschaftenFormatChange Der Standardwert istNone
 type: docs
 weight: 120
 url: /de/net/aspose.words.layout/revisionoptions/revisedpropertieseffect/
 ---
 ## RevisionOptions.RevisedPropertiesEffect property
 
-Ermöglicht das Festlegen des Effekts für Inhaltsbereiche mit Änderungen der FormatierungseigenschaftenFormatChange Standardwert istNone
+Ermöglicht die Angabe des Effekts für Inhaltsbereiche bei Änderungen der FormatierungseigenschaftenFormatChange Der Standardwert istNone
 
 ```csharp
 public RevisionTextEffect RevisedPropertiesEffect { get; set; }
@@ -16,7 +16,7 @@ public RevisionTextEffect RevisedPropertiesEffect { get; set; }
 
 ### Bemerkungen
 
-Hidden ist nicht erlaubt und führt dazuArgumentOutOfRangeException.
+Hiddenist nicht erlaubt und verursachtArgumentOutOfRangeException.
 
 ### Beispiele
 
@@ -25,10 +25,10 @@ Zeigt, wie das Erscheinungsbild von Revisionen geändert wird.
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");
 
-// Abrufen des RevisionOptions-Objekts, das die Darstellung von Revisionen steuert.
+// Holen Sie sich das RevisionOptions-Objekt, das die Darstellung von Revisionen steuert.
 RevisionOptions revisionOptions = doc.LayoutOptions.RevisionOptions;
 
-// Einfügungsrevisionen in grün und kursiv darstellen.
+// Einfügungsrevisionen in Grün und Kursiv darstellen.
 revisionOptions.InsertedTextColor = RevisionColor.Green;
 revisionOptions.InsertedTextEffect = RevisionTextEffect.Italic;
 
@@ -37,27 +37,27 @@ revisionOptions.DeletedTextColor = RevisionColor.Red;
 revisionOptions.DeletedTextEffect = RevisionTextEffect.Bold;
 
 // Derselbe Text erscheint zweimal in einer Bewegungsrevision:
-// einmal am Abfahrtsort und einmal am Zielort.
-// Rendern Sie den Text an der verschobenen Revision gelb mit einem doppelten Durchstrich
+// einmal am Abfahrtsort und einmal am Ankunftsort.
+// Rendern Sie den Text in der Revision, aus der er verschoben wurde, gelb und doppelt durchgestrichen
 // und doppelt unterstrichen blau bei der verschobenen Revision.
 revisionOptions.MovedFromTextColor = RevisionColor.Yellow;
 revisionOptions.MovedFromTextEffect = RevisionTextEffect.DoubleStrikeThrough;
-revisionOptions.MovedToTextColor = RevisionColor.Blue;
+revisionOptions.MovedToTextColor = RevisionColor.ClassicBlue;
 revisionOptions.MovedFromTextEffect = RevisionTextEffect.DoubleUnderline;
 
-// Überarbeitungen des Formats in dunkelrot und fett darstellen.
+// Formatrevisionen dunkelrot und fett darstellen.
 revisionOptions.RevisedPropertiesColor = RevisionColor.DarkRed;
 revisionOptions.RevisedPropertiesEffect = RevisionTextEffect.Bold;
 
-// Platzieren Sie einen dicken dunkelblauen Balken auf der linken Seite der Seite neben Zeilen, die von Überarbeitungen betroffen sind.
+// Platzieren Sie einen dicken dunkelblauen Balken auf der linken Seite der Seite neben den von Revisionen betroffenen Zeilen.
 revisionOptions.RevisionBarsColor = RevisionColor.DarkBlue;
 revisionOptions.RevisionBarsWidth = 15.0f;
 
-// Überarbeitungsmarkierungen und Originaltext anzeigen.
+// Revisionsmarkierungen und Originaltext anzeigen.
 revisionOptions.ShowOriginalRevision = true;
 revisionOptions.ShowRevisionMarks = true;
 
-// Erhalten Sie Verschiebungen, Löschungen, Formatierungsüberarbeitungen und Kommentare, die in grünen Sprechblasen angezeigt werden
+// Bewegungen, Löschungen, Formatierungsänderungen und Kommentare werden in grünen Sprechblasen angezeigt
 // auf der rechten Seite der Seite.
 revisionOptions.ShowInBalloons = ShowInBalloons.Format;
 revisionOptions.CommentColor = RevisionColor.BrightGreen;

@@ -1,14 +1,14 @@
 ---
 title: RowFormat.ClearFormatting
 second_title: Aspose.Words per .NET API Reference
-description: RowFormat metodo. Ripristina la formattazione di riga predefinita.
+description: RowFormat metodo. Ripristina la formattazione predefinita delle righe.
 type: docs
 weight: 60
 url: /it/net/aspose.words.tables/rowformat/clearformatting/
 ---
 ## RowFormat.ClearFormatting method
 
-Ripristina la formattazione di riga predefinita.
+Ripristina la formattazione predefinita delle righe.
 
 ```csharp
 public void ClearFormatting()
@@ -49,8 +49,8 @@ builder.Write("Row 1, Col 2");
 builder.EndRow();
 
 // La modifica della formattazione la applicherà alla cella corrente,
-// e tutte le nuove celle che creiamo con il builder in seguito.
-// Ciò non influirà sulle celle che abbiamo aggiunto in precedenza.
+// e tutte le nuove celle che creeremo successivamente con il builder.
+// Ciò non influenzerà le celle che abbiamo aggiunto in precedenza.
 builder.CellFormat.Shading.ClearFormatting();
 
 builder.InsertCell();

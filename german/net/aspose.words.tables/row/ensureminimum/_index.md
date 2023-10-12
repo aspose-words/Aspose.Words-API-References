@@ -1,14 +1,14 @@
 ---
 title: Row.EnsureMinimum
 second_title: Aspose.Words für .NET-API-Referenz
-description: Row methode. Wenn die Die Zeile hat keine Zellen erstellt und hängt eine an Zelle .
+description: Row methode. Wenn dieRow hat keine Zellen erstellt eine und hängt eine anCell .
 type: docs
-weight: 110
+weight: 150
 url: /de/net/aspose.words.tables/row/ensureminimum/
 ---
 ## Row.EnsureMinimum method
 
-Wenn die **Die Zeile** hat keine Zellen, erstellt und hängt eine an **Zelle** .
+Wenn die[`Row`](../) hat keine Zellen, erstellt eine und hängt eine an[`Cell`](../../cell/) .
 
 ```csharp
 public void EnsureMinimum()
@@ -26,11 +26,11 @@ Row row = new Row(doc);
 table.AppendChild(row);
 
 // Zeilen enthalten Zellen, die Absätze mit typischen Elementen wie Läufen, Formen und sogar anderen Tabellen enthalten.
-// Unsere neue Zeile hat keinen dieser Knoten, und wir können ihr keinen Inhalt hinzufügen, bis dies der Fall ist.
+// Unsere neue Zeile hat keinen dieser Knoten und wir können ihr erst dann Inhalte hinzufügen, wenn dies der Fall ist.
 Assert.AreEqual(0, row.GetChildNodes(NodeType.Any, true).Count);
 
-// Das Aufrufen der "EnsureMinimum"-Methode für eine Tabelle stellt dies sicher
-// Die Tabelle hat mindestens eine Zelle mit einem leeren Absatz.
+// Der Aufruf der Methode „EnsureMinimum“ für eine Tabelle stellt dies sicher
+// Die Tabelle enthält mindestens eine Zelle mit einem leeren Absatz.
 row.EnsureMinimum();
 row.FirstCell.FirstParagraph.AppendChild(new Run(doc, "Hello world!"));
 ```

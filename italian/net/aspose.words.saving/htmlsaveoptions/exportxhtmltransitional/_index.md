@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.ExportXhtmlTransitional
 second_title: Aspose.Words per .NET API Reference
-description: HtmlSaveOptions proprietà. Specifica se scrivere la dichiarazione DOCTYPE durante il salvataggio in HTML o MHTML. QuandoVERO  scrive una dichiarazione DOCTYPE nel documento prima dellelemento radice. Il valore predefinito èfalso. Quando si salva in EPUB o HTML5 Html5  viene sempre scritta la dichiarazione DOCTYPE .
+description: HtmlSaveOptions proprietà. Specifica se scrivere la dichiarazione DOCTYPE durante il salvataggio in HTML o MHTML. QuandoVERO  scrive una dichiarazione DOCTYPE nel documento prima dellelemento root. Il valore predefinito èfalso. Quando si salva in EPUB o HTML5 Html5  viene sempre scritta la dichiarazione DOCTYPE .
 type: docs
-weight: 290
+weight: 280
 url: /it/net/aspose.words.saving/htmlsaveoptions/exportxhtmltransitional/
 ---
 ## HtmlSaveOptions.ExportXhtmlTransitional property
 
-Specifica se scrivere la dichiarazione DOCTYPE durante il salvataggio in HTML o MHTML. Quando`VERO` , scrive una dichiarazione DOCTYPE nel documento prima dell'elemento radice. Il valore predefinito è`falso`. Quando si salva in EPUB o HTML5 (Html5 ) viene sempre scritta la dichiarazione DOCTYPE .
+Specifica se scrivere la dichiarazione DOCTYPE durante il salvataggio in HTML o MHTML. Quando`VERO` , scrive una dichiarazione DOCTYPE nel documento prima dell'elemento root. Il valore predefinito è`falso`. Quando si salva in EPUB o HTML5 (Html5 ) viene sempre scritta la dichiarazione DOCTYPE .
 
 ```csharp
 public bool ExportXhtmlTransitional { get; set; }
@@ -18,21 +18,21 @@ public bool ExportXhtmlTransitional { get; set; }
 
 Aspose.Words scrive sempre HTML ben formato indipendentemente da questa impostazione.
 
-quando`VERO`, l'inizio del documento di output HTML sarà simile al seguente:
+Quando`VERO`, l'inizio del documento di output HTML sarà simile a questo:
 
-Aspose.Words mira a produrre XHTML secondo la specifica XHTML 1.0 Transitional, ma l'output non sarà sempre convalidato rispetto al DTD. Alcune strutture all'interno di un documento Microsoft Word sono difficili o impossibili da mappare a un documento che convaliderà lo schema XHTML. Ad esempio, XHTML non consente elenchi nidificati (UL non può essere nidificato all'interno di un altro elemento UL), ma nel documento Microsoft Word gli elenchi multilivello si verificano abbastanza spesso.
+Aspose.Words mira a produrre XHTML secondo la specifica XHTML 1.0 Transitional, ma l'output non sarà sempre convalidato rispetto al DTD. Alcune strutture all'interno di un documento Microsoft Word sono difficili o impossibili da mappare su un documento che verrà convalidato rispetto allo schema XHTML. Ad esempio, XHTML non consente elenchi annidati (UL non può essere annidato all'interno di un altro elemento UL), ma nei documenti Microsoft Word gli elenchi multilivello si verificano abbastanza spesso.
 
 ```csharp
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <!DOCTYPE html 
-      PUBLIC "-//W3C//DTD XHTML 1.0 di transizione//EN"
+      PUBLIC "-//W3C//DTD XHTML 1.0 Transitorio//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="it">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
 ```
 
 ### Esempi
 
-Mostra come visualizzare un'intestazione DOCTYPE durante la conversione di documenti nello standard di transizione Xhtml 1.0.
+Mostra come visualizzare un'intestazione DOCTYPE durante la conversione di documenti nello standard transitorio Xhtml 1.0.
 
 ```csharp
 Document doc = new Document();

@@ -1,14 +1,14 @@
 ---
 title: RowFormat.ClearFormatting
 second_title: Aspose.Words for .NET API Referansı
-description: RowFormat yöntem. Varsayılan satır biçimlendirmesine sıfırlanır.
+description: RowFormat yöntem. Varsayılan satır formatına sıfırlar.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.tables/rowformat/clearformatting/
 ---
 ## RowFormat.ClearFormatting method
 
-Varsayılan satır biçimlendirmesine sıfırlanır.
+Varsayılan satır formatına sıfırlar.
 
 ```csharp
 public void ClearFormatting()
@@ -16,7 +16,7 @@ public void ClearFormatting()
 
 ### Örnekler
 
-Özel kenarlıklı bir tablonun nasıl oluşturulacağını gösterir.
+Özel kenarlıklara sahip bir tablonun nasıl oluşturulacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -24,8 +24,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.StartTable();
 
-// Bir belge oluşturucu için tablo biçimlendirme seçeneklerini ayarlama
-// onları eklediğimiz her satıra ve hücreye uygulayacak.
+// Belge oluşturucu için tablo biçimlendirme seçeneklerini ayarlama
+// bunları eklediğimiz her satıra ve hücreye uygulayacaktır.
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 builder.CellFormat.ClearFormatting();
@@ -48,8 +48,8 @@ builder.InsertCell();
 builder.Write("Row 1, Col 2");
 builder.EndRow();
 
-// Biçimlendirmeyi değiştirmek, onu geçerli hücreye uygular,
-// ve daha sonra oluşturucu ile oluşturduğumuz yeni hücreler.
+// Biçimlendirmeyi değiştirmek onu geçerli hücreye uygulayacaktır,
+// ve daha sonra oluşturucuyla oluşturduğumuz yeni hücreler.
 // Bu daha önce eklediğimiz hücreleri etkilemeyecektir.
 builder.CellFormat.Shading.ClearFormatting();
 
@@ -61,7 +61,7 @@ builder.Write("Row 2, Col 2");
 
 builder.EndRow();
 
-// Dikey metne sığdırmak için satır yüksekliğini artırın.
+// Dikey metne sığacak şekilde satır yüksekliğini artırın.
 builder.InsertCell();
 builder.RowFormat.Height = 150;
 builder.CellFormat.Orientation = TextOrientation.Upward;

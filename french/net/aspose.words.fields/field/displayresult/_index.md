@@ -20,7 +20,7 @@ Le[`UpdateListLabels`](../../../aspose.words/document/updatelistlabels/) la mét
 
 ### Exemples
 
-Montre comment obtenir le texte réel qu'un champ affiche dans le document.
+Montre comment obtenir le texte réel affiché par un champ dans le document.
 
 ```csharp
 Document doc = new Document();
@@ -34,8 +34,8 @@ fieldAuthor.AuthorName = "John Doe";
 // un champ s'afficherait à sa place dans le document.
 Assert.AreEqual(string.Empty, fieldAuthor.DisplayResult);
 
- // Les champs ne conservent pas des valeurs de résultat précises en temps réel.
-// Pour vous assurer que nos champs affichent des résultats précis à tout moment,
+ // Les champs ne conservent pas les valeurs de résultat précises en temps réel.
+// Pour nous assurer que nos champs affichent des résultats précis à tout moment,
 // comme juste avant une opération de sauvegarde, nous devons les mettre à jour manuellement.
 fieldAuthor.Update();
 

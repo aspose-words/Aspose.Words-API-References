@@ -3,12 +3,14 @@ title: Class FontSubstitutionRule
 second_title: Aspose.Words per .NET API Reference
 description: Aspose.Words.Fonts.FontSubstitutionRule classe. Questa è una classe base astratta per la regola di sostituzione dei caratteri.
 type: docs
-weight: 2820
+weight: 3000
 url: /it/net/aspose.words.fonts/fontsubstitutionrule/
 ---
 ## FontSubstitutionRule class
 
 Questa è una classe base astratta per la regola di sostituzione dei caratteri.
+
+Per saperne di più, visita il[Lavorare con i caratteri](https://docs.aspose.com/words/net/working-with-fonts/) articolo di documentazione.
 
 ```csharp
 public abstract class FontSubstitutionRule
@@ -33,7 +35,7 @@ bool isWindows = new[] {PlatformID.Win32NT, PlatformID.Win32S, PlatformID.Win32W
     .Any(p => Environment.OSVersion.Platform == p);
 
 // L'oggetto FontConfigSubstitutionRule funziona in modo diverso su piattaforme Windows/non Windows.
-// Su Windows, non è disponibile.
+// Su Windows non è disponibile.
 if (isWindows)
 {
     Assert.False(fontConfigSubstitution.Enabled);
@@ -43,7 +45,7 @@ if (isWindows)
 bool isLinuxOrMac =
     new[] {PlatformID.Unix, PlatformID.MacOSX}.Any(p => Environment.OSVersion.Platform == p);
 
-// Su Linux/Mac, avremo accesso ad esso e saremo in grado di eseguire operazioni.
+// Su Linux/Mac avremo accesso ad esso e saremo in grado di eseguire operazioni.
 if (isLinuxOrMac)
 {
     Assert.True(fontConfigSubstitution.Enabled);

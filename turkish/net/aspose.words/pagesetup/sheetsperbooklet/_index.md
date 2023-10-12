@@ -3,7 +3,7 @@ title: PageSetup.SheetsPerBooklet
 second_title: Aspose.Words for .NET API Referansı
 description: PageSetup mülk. Her kitapçığa dahil edilecek sayfa sayısını döndürür veya ayarlar.
 type: docs
-weight: 390
+weight: 400
 url: /tr/net/aspose.words/pagesetup/sheetsperbooklet/
 ---
 ## PageSetup.SheetsPerBooklet property
@@ -16,12 +16,12 @@ public int SheetsPerBooklet { get; set; }
 
 ### Örnekler
 
-Kitap katlama olarak yazdırılabilen bir belgenin nasıl yapılandırılacağını gösterir.
+Kitap katlaması olarak yazdırılabilecek bir belgenin nasıl yapılandırılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 
-// 16 sayfaya yayılan metin ekleyin.
+// 16 sayfaya yayılan metni ekleyin.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("My Booklet:");
 
@@ -32,12 +32,12 @@ for (int i = 0; i < 15; i++)
 }
 
 // Belgeyi kitap katlama biçiminde yazdırmak için ilk bölümün "PageSetup" özelliğini yapılandırın.
-// Bu belgeyi her iki tarafa yazdırdığımızda, sayfaları istiflemek için alabiliriz
-// ve hepsini bir kerede ortadan katlayın. Belgenin içeriği bir kitap katlaması şeklinde sıralanacaktır.
+// Bu belgeyi her iki tarafa da yazdırdığımızda sayfaları istiflemek için alabiliriz
+// ve hepsini aynı anda ortadan katlayın. Belgenin içeriği bir kitap katlama şeklinde sıralanacaktır.
 PageSetup pageSetup = doc.Sections[0].PageSetup;
 pageSetup.MultiplePages = MultiplePagesType.BookFoldPrinting;
 
-// Sayfa sayısını sadece 4'ün katları olarak belirtebiliriz.
+// Sayfa sayısını yalnızca 4'ün katları olarak belirtebiliriz.
 pageSetup.SheetsPerBooklet = 4;
 
 doc.Save(ArtifactsDir + "PageSetup.Booklet.docx");

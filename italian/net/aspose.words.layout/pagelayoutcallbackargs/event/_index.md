@@ -16,10 +16,9 @@ public PageLayoutEvent Event { get; }
 
 ### Esempi
 
-Mostra come tenere traccia delle modifiche al layout con una richiamata del layout.
+Mostra come tenere traccia delle modifiche al layout con un callback del layout.
 
 ```csharp
-[Test]
 public void PageLayoutCallback()
 {
     Document doc = new Document();
@@ -35,8 +34,8 @@ public void PageLayoutCallback()
 }
 
 /// <summary>
-/// Avvisa quando salviamo il documento in un formato pagina fisso
-/// ed esegue il rendering di una pagina su cui eseguiamo un riflusso della pagina in un'immagine nel file system locale.
+/// Ci avvisa quando salviamo il documento in un formato di pagina fisso
+/// ed esegue il rendering di una pagina su cui eseguiamo il reflow della pagina su un'immagine nel file system locale.
 /// </summary>
 private class RenderPageLayoutCallback : IPageLayoutCallback
 {

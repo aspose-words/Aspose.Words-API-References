@@ -3,7 +3,7 @@ title: Enum CellMerge
 second_title: Aspose.Words for .NET API Referansı
 description: Aspose.Words.Tables.CellMerge Sıralama. Tablodaki bir hücrenin diğer hücrelerle nasıl birleştirileceğini belirtir.
 type: docs
-weight: 5970
+weight: 6270
 url: /tr/net/aspose.words.tables/cellmerge/
 ---
 ## CellMerge enumeration
@@ -18,9 +18,9 @@ public enum CellMerge
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| None | `0` | Hücre birleştirilmemiş. |
-| First | `1` | Hücre, birleştirilmiş hücre aralığındaki ilk hücredir. |
-| Previous | `2` | Hücre, önceki hücreyle yatay veya dikey olarak birleştirilir. |
+| None | `0` | Hücre birleştirilmedi. |
+| First | `1` | Hücre, birleştirilmiş hücreler aralığındaki ilk hücredir. |
+| Previous | `2` | Hücre yatay veya dikey olarak bir önceki hücreyle birleştirilir. |
 
 ### Örnekler
 
@@ -31,18 +31,18 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // İlk satırın ilk sütununa bir hücre ekleyin.
-// Bu hücre, yatay olarak birleştirilmiş hücre aralığındaki ilk hücre olacaktır.
+// Bu hücre, yatay olarak birleştirilmiş hücreler aralığındaki ilk hücre olacaktır.
 builder.InsertCell();
 builder.CellFormat.HorizontalMerge = CellMerge.First;
 builder.Write("Text in merged cells.");
 
 // İlk satırın ikinci sütununa bir hücre ekleyin. Metin içeriği eklemek yerine,
-// bu hücreyi doğrudan sola eklediğimiz ilk hücre ile birleştireceğiz.
+// bu hücreyi direkt sola eklediğimiz ilk hücreyle birleştireceğiz.
 builder.InsertCell();
 builder.CellFormat.HorizontalMerge = CellMerge.Previous;
 builder.EndRow();
 
-// İkinci satıra birleştirilmemiş iki hücre daha ekleyin.
+// İkinci satıra iki birleşmemiş hücre daha ekleyin.
 builder.CellFormat.HorizontalMerge = CellMerge.None;
 builder.InsertCell();
 builder.Write("Text in unmerged cell.");
@@ -90,24 +90,24 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // İlk satırın ilk sütununa bir hücre ekleyin.
-// Bu hücre, dikey olarak birleştirilmiş hücre aralığındaki ilk hücre olacaktır.
+// Bu hücre, dikey olarak birleştirilmiş hücreler aralığındaki ilk hücre olacaktır.
 builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.First;
 builder.Write("Text in merged cells.");
 
-// İlk satırın ikinci sütununa bir hücre ekleyin, ardından satırı bitirin.
-// Ayrıca, oluşturucuyu oluşturulan hücrelerde dikey birleştirmeyi devre dışı bırakacak şekilde yapılandırın.
+// İlk satırın ikinci sütununa bir hücre ekleyin ve ardından satırı sonlandırın.
+// Ayrıca oluşturucuyu, oluşturulan hücrelerde dikey birleştirmeyi devre dışı bırakacak şekilde yapılandırın.
 builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.None;
 builder.Write("Text in unmerged cell.");
 builder.EndRow();
 
-// İkinci satırın ilk sütununa bir hücre ekleyin. 
-// Metin içeriği eklemek yerine, bu hücreyi doğrudan yukarıda eklediğimiz ilk hücreyle birleştireceğiz.
+ // İkinci satırın ilk sütununa bir hücre ekleyin.
+// Metin içeriği eklemek yerine bu hücreyi doğrudan yukarıda eklediğimiz ilk hücreyle birleştireceğiz.
 builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.Previous;
 
-// İkinci satırın ikinci sütununa başka bir bağımsız hücre ekle.
+// İkinci satırın ikinci sütununa başka bir bağımsız hücre ekleyin.
 builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.None;
 builder.Write("Text in unmerged cell.");

@@ -1,14 +1,14 @@
 ---
 title: Comment.Ancestor
 second_title: Справочник по API Aspose.Words для .NET
-description: Comment свойство. Возвращает родительский объект Comment. Возвращает null для комментариев верхнего уровня.
+description: Comment свойство. Возвращает родительский элементComment объект. Возвратнулевой для комментариев верхнего уровня.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/comment/ancestor/
 ---
 ## Comment.Ancestor property
 
-Возвращает родительский объект Comment. Возвращает null для комментариев верхнего уровня.
+Возвращает родительский элемент[`Comment`](../) объект. Возврат`нулевой` для комментариев верхнего уровня.
 
 ```csharp
 public Comment Ancestor { get; }
@@ -22,9 +22,8 @@ public Comment Ancestor { get; }
 Document doc = new Document(MyDir + "Comments.docx");
 
 NodeCollection comments = doc.GetChildNodes(NodeType.Comment, true);
-
-// Если у комментария нет предка, это комментарий «верхнего уровня», а не комментарий типа ответа.
-// Печатать все комментарии верхнего уровня вместе с любыми ответами, которые они могут иметь.
+// Если комментарий не имеет предка, это комментарий «верхнего уровня», а не комментарий типа ответа.
+// Распечатываем все комментарии верхнего уровня вместе со всеми ответами, которые они могут иметь.
 foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == null))
 {
     Console.WriteLine("Top-level comment:");

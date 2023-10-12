@@ -1,14 +1,14 @@
 ---
 title: CustomPart.IsExternal
 second_title: Aspose.Words für .NET-API-Referenz
-description: CustomPart eigendom. FALSCH wenn dieser benutzerdefinierte Teil im OOXMLPaket gespeichert ist.WAHR wenn dieses benutzerdefinierte Teil ein externes Ziel ist.
+description: CustomPart eigendom. False wenn dieser benutzerdefinierte Teil im OOXMLPaket gespeichert ist. True wenn dieses benutzerdefinierte Teil ein externes Ziel ist.
 type: docs
 weight: 40
 url: /de/net/aspose.words.markup/custompart/isexternal/
 ---
 ## CustomPart.IsExternal property
 
-`FALSCH` wenn dieser benutzerdefinierte Teil im OOXML-Paket gespeichert ist.`WAHR` wenn dieses benutzerdefinierte Teil ein externes Ziel ist.
+False, wenn dieser benutzerdefinierte Teil im OOXML-Paket gespeichert ist. True, wenn dieses benutzerdefinierte Teil ein externes Ziel ist.
 
 ```csharp
 public bool IsExternal { get; set; }
@@ -20,19 +20,19 @@ Der Standardwert ist`FALSCH`.
 
 ### Beispiele
 
-Zeigt, wie auf die Sammlung beliebiger benutzerdefinierter Teile eines Dokuments zugegriffen wird.
+Zeigt, wie auf die beliebige benutzerdefinierte Teilesammlung eines Dokuments zugegriffen wird.
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);
 
-// Den zweiten Teil klonen, dann den Klon zur Sammlung hinzufügen.
+// Klonen Sie den zweiten Teil und fügen Sie dann den Klon zur Sammlung hinzu.
 CustomPart clonedPart = doc.PackageCustomParts[1].Clone();
 doc.PackageCustomParts.Add(clonedPart);
 Assert.AreEqual(3, doc.PackageCustomParts.Count);
 
-// Aufzählen über die Sammlung und jeden Teil drucken.
+// Die Sammlung aufzählen und jeden Teil ausdrucken.
 using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator())
 {
     int index = 0;
@@ -49,7 +49,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// Wir können Elemente aus dieser Sammlung einzeln oder alle auf einmal entfernen.
+// Wir können Elemente einzeln oder alle auf einmal aus dieser Sammlung entfernen.
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);

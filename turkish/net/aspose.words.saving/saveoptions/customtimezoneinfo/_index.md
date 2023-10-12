@@ -16,9 +16,9 @@ public TimeZoneInfo CustomTimeZoneInfo { get; set; }
 
 ### Notlar
 
-Bu seçenek, 3.5 sürümünden başlayarak .Net çerçevesinde veya .Net Standardında mevcuttur.
+Bu seçenek, 3.5 sürümünden itibaren .Net çerçevesinde veya .Net Standard'ta mevcuttur.
 
-Aspose.Words varsayılan olarak tarih/saat alanlarını yazarken sistem yerel saat dilimini kullanır, bu seçenek özel değerin ayarlanmasına izin verir.
+Aspose.Words varsayılan olarak tarih/saat alanlarını yazarken sistemin yerel saat dilimini kullanır; bu seçenek özel değerin ayarlanmasına olanak tanır.
 
 ### Ayrıca bakınız
 

@@ -1,14 +1,14 @@
 ---
 title: MarkdownSaveOptions.ExportImagesAsBase64
 second_title: Aspose.Words لمراجع .NET API
-description: MarkdownSaveOptions ملكية. يحدد ما إذا كانت الصور سيتم حفظها بتنسيق Base64 في ملف الإخراج. الإعداد الافتراضي هوخاطئة .
+description: MarkdownSaveOptions ملكية. يحدد ما إذا كان سيتم حفظ الصور بتنسيق Base64 في ملف الإخراج. القيمة الافتراضية هيخطأ شنيع .
 type: docs
 weight: 20
 url: /ar/net/aspose.words.saving/markdownsaveoptions/exportimagesasbase64/
 ---
 ## MarkdownSaveOptions.ExportImagesAsBase64 property
 
-يحدد ما إذا كانت الصور سيتم حفظها بتنسيق Base64 في ملف الإخراج. الإعداد الافتراضي هو`خاطئة` .
+يحدد ما إذا كان سيتم حفظ الصور بتنسيق Base64 في ملف الإخراج. القيمة الافتراضية هي`خطأ شنيع` .
 
 ```csharp
 public bool ExportImagesAsBase64 { get; set; }
@@ -16,7 +16,7 @@ public bool ExportImagesAsBase64 { get; set; }
 
 ### ملاحظات
 
-عندما يتم تعيين هذه الخاصية على`حقيقي`يتم تصدير بيانات الصور مباشرة إلى ملف **IMG** لم يتم إنشاء عناصر وملفات منفصلة.
+عندما يتم تعيين هذه الخاصية إلى`حقيقي` يتم تصدير بيانات الصور مباشرة إلى ملف **img** لا يتم إنشاء العناصر والملفات المنفصلة.
 
 ### أمثلة
 

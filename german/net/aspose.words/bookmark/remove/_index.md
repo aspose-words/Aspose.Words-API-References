@@ -1,14 +1,14 @@
 ---
 title: Bookmark.Remove
 second_title: Aspose.Words für .NET-API-Referenz
-description: Bookmark methode. Entfernt das Lesezeichen aus dem Dokument. Entfernt keinen Text innerhalb des Lesezeichens.
+description: Bookmark methode. Entfernt das Lesezeichen aus dem Dokument. Entfernt keinen Text im Lesezeichen.
 type: docs
 weight: 80
 url: /de/net/aspose.words/bookmark/remove/
 ---
 ## Bookmark.Remove method
 
-Entfernt das Lesezeichen aus dem Dokument. Entfernt keinen Text innerhalb des Lesezeichens.
+Entfernt das Lesezeichen aus dem Dokument. Entfernt keinen Text im Lesezeichen.
 
 ```csharp
 public void Remove()
@@ -38,24 +38,24 @@ BookmarkCollection bookmarks = doc.Range.Bookmarks;
 
 Assert.AreEqual(5, bookmarks.Count);
 
-// Es gibt mehrere Möglichkeiten, Lesezeichen zu entfernen.
-// 1 - Aufruf der Remove-Methode des Lesezeichens:
+// Es gibt verschiedene Möglichkeiten, Lesezeichen zu entfernen.
+// 1 – Aufruf der Remove-Methode des Lesezeichens:
 bookmarks["MyBookmark_1"].Remove();
 
 Assert.False(bookmarks.Any(b => b.Name == "MyBookmark_1"));
 
-// 2 - Übergeben des Lesezeichens an die Remove-Methode der Sammlung:
+// 2 – Übergabe des Lesezeichens an die Remove-Methode der Sammlung:
 Bookmark bookmark = doc.Range.Bookmarks[0];
 doc.Range.Bookmarks.Remove(bookmark);
 
 Assert.False(bookmarks.Any(b => b.Name == "MyBookmark_2"));
 
-// 3 - Entfernen eines Lesezeichens aus der Sammlung nach Namen:
+// 3 – Entfernen eines Lesezeichens aus der Sammlung nach Namen:
 doc.Range.Bookmarks.Remove("MyBookmark_3");
 
 Assert.False(bookmarks.Any(b => b.Name == "MyBookmark_3"));
 
-// 4 - Entfernen eines Lesezeichens an einem Index in der Lesezeichensammlung:
+// 4 – Entfernen eines Lesezeichens an einem Index in der Lesezeichensammlung:
 doc.Range.Bookmarks.RemoveAt(0);
 
 Assert.False(bookmarks.Any(b => b.Name == "MyBookmark_4"));

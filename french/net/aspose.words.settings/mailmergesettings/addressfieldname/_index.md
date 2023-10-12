@@ -1,14 +1,14 @@
 ---
 title: MailMergeSettings.AddressFieldName
 second_title: Référence de l'API Aspose.Words pour .NET
-description: MailMergeSettings propriété. Spécifie la colonne dans la source de données qui contient les adresses email. La valeur par défaut est une chaîne vide.
+description: MailMergeSettings propriété. Spécifie la colonne de la source de données qui contient les adresses email. La valeur par défaut est une chaîne vide.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.settings/mailmergesettings/addressfieldname/
 ---
 ## MailMergeSettings.AddressFieldName property
 
-Spécifie la colonne dans la source de données qui contient les adresses e-mail. La valeur par défaut est une chaîne vide.
+Spécifie la colonne de la source de données qui contient les adresses e-mail. La valeur par défaut est une chaîne vide.
 
 ```csharp
 public string AddressFieldName { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: Document.PackageCustomParts
 second_title: Aspose.Words für .NET-API-Referenz
-description: Document eigendom. Ruft die Sammlung benutzerdefinierter Teile beliebiger Inhalt ab oder legt sie fest die über unbekannte Beziehungen mit dem OOXMLPaket verknüpft sind.
+description: Document eigendom. Ruft die Sammlung benutzerdefinierter Teile beliebiger Inhalt ab oder legt diese fest die über unbekannte Beziehungen mit dem OOXMLPaket verknüpft sind.
 type: docs
-weight: 290
+weight: 310
 url: /de/net/aspose.words/document/packagecustomparts/
 ---
 ## Document.PackageCustomParts property
 
-Ruft die Sammlung benutzerdefinierter Teile (beliebiger Inhalt) ab oder legt sie fest, die über "unbekannte Beziehungen" mit dem OOXML-Paket verknüpft sind.
+Ruft die Sammlung benutzerdefinierter Teile (beliebiger Inhalt) ab oder legt diese fest, die über „unbekannte Beziehungen“ mit dem OOXML-Paket verknüpft sind.
 
 ```csharp
 public CustomPartCollection PackageCustomParts { get; set; }
@@ -18,27 +18,27 @@ public CustomPartCollection PackageCustomParts { get; set; }
 
 Verwechseln Sie diese benutzerdefinierten Teile nicht mit benutzerdefinierten XML-Daten. Wenn Sie auf benutzerdefinierte XML-Teile zugreifen müssen, verwenden Sie die[`CustomXmlParts`](../customxmlparts/) Eigentum.
 
-Diese Sammlung enthält OOXML-Teile, deren übergeordnetes Element das OOXML-Paket ist, und deren Ziele in einer „unbekannten Beziehung“ stehen. Weitere Informationen finden Sie unter[`CustomPart`](../../../aspose.words.markup/custompart/).
+Diese Sammlung enthält OOXML-Teile, deren übergeordnetes Element das OOXML-Paket ist und deren Ziele in einer „unbekannten Beziehung“ stehen. Weitere Informationen finden Sie unter[`CustomPart`](../../../aspose.words.markup/custompart/).
 
-Aspose.Words lädt und speichert benutzerdefinierte Teile nur in OOXML-Dokumente.
+Aspose.Words lädt und speichert benutzerdefinierte Teile nur in OOXML-Dokumenten.
 
 Diese Eigenschaft kann nicht sein`Null`.
 
 ### Beispiele
 
-Zeigt, wie auf die Sammlung beliebiger benutzerdefinierter Teile eines Dokuments zugegriffen wird.
+Zeigt, wie auf die beliebige benutzerdefinierte Teilesammlung eines Dokuments zugegriffen wird.
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);
 
-// Den zweiten Teil klonen, dann den Klon zur Sammlung hinzufügen.
+// Klonen Sie den zweiten Teil und fügen Sie dann den Klon zur Sammlung hinzu.
 CustomPart clonedPart = doc.PackageCustomParts[1].Clone();
 doc.PackageCustomParts.Add(clonedPart);
 Assert.AreEqual(3, doc.PackageCustomParts.Count);
 
-// Aufzählen über die Sammlung und jeden Teil drucken.
+// Die Sammlung aufzählen und jeden Teil ausdrucken.
 using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator())
 {
     int index = 0;
@@ -55,7 +55,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// Wir können Elemente aus dieser Sammlung einzeln oder alle auf einmal entfernen.
+// Wir können Elemente einzeln oder alle auf einmal aus dieser Sammlung entfernen.
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);

@@ -16,7 +16,7 @@ public CompositeNode ParentNode { get; }
 
 ### Anmärkningar
 
-Om en nod precis har skapats och ännu inte lagts till i trädet, eller om den har tagits bort från trädet, är föräldern null.
+Om en nod just har skapats och ännu inte lagts till i trädet, eller om den har tagits bort från trädet, är föräldern`null`.
 
 ### Exempel
 

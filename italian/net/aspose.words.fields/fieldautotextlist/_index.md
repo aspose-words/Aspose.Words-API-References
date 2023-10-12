@@ -3,12 +3,14 @@ title: Class FieldAutoTextList
 second_title: Aspose.Words per .NET API Reference
 description: Aspose.Words.Fields.FieldAutoTextList classe. Implementa il campo AUTOTEXTLIST.
 type: docs
-weight: 1470
+weight: 1620
 url: /it/net/aspose.words.fields/fieldautotextlist/
 ---
 ## FieldAutoTextList class
 
 Implementa il campo AUTOTEXTLIST.
+
+Per saperne di più, visita il[Lavorare con i campi](https://docs.aspose.com/words/net/working-with-fields/) articolo di documentazione.
 
 ```csharp
 public class FieldAutoTextList : Field
@@ -27,27 +29,27 @@ public class FieldAutoTextList : Field
 | [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Ottiene il testo che rappresenta il risultato del campo visualizzato. |
 | [End](../../aspose.words.fields/field/end/) { get; } | Ottiene il nodo che rappresenta la fine del campo. |
 | [EntryName](../../aspose.words.fields/fieldautotextlist/entryname/) { get; set; } | Ottiene o imposta il nome della voce di glossario. |
-| [Format](../../aspose.words.fields/field/format/) { get; } | Ottiene a[`FieldFormat`](../fieldformat/) oggetto che fornisce l'accesso digitato alla formattazione del campo. |
+| [Format](../../aspose.words.fields/field/format/) { get; } | Ottiene a[`FieldFormat`](../fieldformat/) oggetto che fornisce accesso digitato alla formattazione del campo. |
 | [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Ottiene o imposta se il risultato corrente del campo non è più corretto (obsoleto) a causa di altre modifiche apportate al documento. |
-| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Ottiene o imposta se il campo è bloccato (non dovrebbe ricalcolarne il risultato). |
-| [ListStyle](../../aspose.words.fields/fieldautotextlist/liststyle/) { get; set; } | Ottiene o imposta il nome dello stile su cui si basa l'elenco per contenere le voci. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Ottiene o imposta se il campo è bloccato (non deve ricalcolare il risultato). |
+| [ListStyle](../../aspose.words.fields/fieldautotextlist/liststyle/) { get; set; } | Ottiene o imposta il nome dello stile su cui si basa l'elenco che dovrà contenere le voci. |
 | [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Ottiene o imposta l'LCID del campo. |
-| [Result](../../aspose.words.fields/field/result/) { get; set; } | Ottiene o imposta il testo che si trova tra il separatore di campo e la fine del campo. |
-| [ScreenTip](../../aspose.words.fields/fieldautotextlist/screentip/) { get; set; } | Ottiene o imposta il testo della descrizione schermo da mostrare. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | Ottiene il nodo che rappresenta il separatore di campo. Può essere nullo. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | Ottiene o imposta il testo compreso tra il separatore di campo e la fine del campo. |
+| [ScreenTip](../../aspose.words.fields/fieldautotextlist/screentip/) { get; set; } | Ottiene o imposta il testo della descrizione comando da mostrare. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Ottiene il nodo che rappresenta il separatore di campo. Può essere`nullo` . |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Ottiene il nodo che rappresenta l'inizio del campo. |
-| virtual [Type](../../aspose.words.fields/field/type/) { get; } | Ottiene il tipo di campo di Microsoft Word. |
+| virtual [Type](../../aspose.words.fields/field/type/) { get; } | Ottiene il tipo di campo Microsoft Word. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Restituisce il testo tra l'inizio del campo e il separatore di campo (o la fine del campo se non è presente alcun separatore). Sono inclusi sia il codice campo che il risultato campo dei campi figlio. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Restituisce il testo tra l'inizio del campo e il separatore di campo (o la fine del campo se non c'è un separatore). |
-| [Remove](../../aspose.words.fields/field/remove/)() | Rimuove il campo dal documento. Restituisce un nodo subito dopo il campo. Se la fine del campo è l'ultimo figlio del suo nodo padre, restituisce il suo paragrafo padre. Se il campo è già stato rimosso, ritorna **nullo** . |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Restituisce il testo compreso tra l'inizio del campo e il separatore di campo (o la fine del campo se non è presente alcun separatore). Sono inclusi sia il codice di campo che il risultato del campo dei campi secondari. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Restituisce il testo tra l'inizio del campo e il separatore di campo (o la fine del campo se non è presente alcun separatore). |
+| [Remove](../../aspose.words.fields/field/remove/)() | Rimuove il campo dal documento. Restituisce un nodo subito dopo il campo. Se la fine del campo è l'ultimo figlio del suo nodo genitore, restituisce il paragrafo genitore. Se il campo è già stato rimosso, restituisce`nullo` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Esegue lo scollegamento del campo. |
-| [Update](../../aspose.words.fields/field/update/)() | Esegue l'aggiornamento del campo. Genera se il campo è già in fase di aggiornamento. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Esegue un aggiornamento del campo. Genera se il campo è già in fase di aggiornamento. |
+| [Update](../../aspose.words.fields/field/update/)() | Esegue l'aggiornamento del campo. Genera un risultato se il campo è già in fase di aggiornamento. |
+| [Update](../../aspose.words.fields/field/update/)(bool) | Esegue un aggiornamento del campo. Genera un risultato se il campo è già in fase di aggiornamento. |
 
 ### Osservazioni
 
@@ -58,6 +60,7 @@ Crea un menu di scelta rapida basato sulle voci di glossario nel modello attivo.
 Mostra come utilizzare un campo AUTOTEXTLIST per selezionare da un elenco di voci di glossario.
 
 ```csharp
+public void FieldAutoTextList()
 {
     Document doc = new Document();
 
@@ -69,7 +72,7 @@ Mostra come utilizzare un campo AUTOTEXTLIST per selezionare da un elenco di voc
 
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Crea un campo AUTOTEXTLIST e imposta il testo che il campo visualizzerà in Microsoft Word.
+    // Crea un campo AUTOTEXTLIST e imposta il testo che verrà visualizzato nel campo in Microsoft Word.
     // Imposta il testo per richiedere all'utente di fare clic con il pulsante destro del mouse su questo campo per selezionare un blocco predefinito di glossario,
     // il cui contenuto verrà visualizzato nel campo.
     FieldAutoTextList field = (FieldAutoTextList)builder.InsertField(FieldType.FieldAutoTextList, true);
@@ -82,9 +85,10 @@ Mostra come utilizzare un campo AUTOTEXTLIST per selezionare da un elenco di voc
                     "\\t \"Hover tip text for AutoTextList goes here\"", field.GetFieldCode());
 
     doc.Save(ArtifactsDir + "Field.AUTOTEXTLIST.dotx");
+}
 
 /// <summary>
-/// Crea un blocco predefinito di tipo glossario e aggiungilo a un documento di glossario.
+/// Crea un blocco predefinito di tipo Glossario e aggiungilo a un documento di glossario.
 /// </summary>
 private static void AppendAutoTextEntry(GlossaryDocument glossaryDoc, string name, string contents)
 {

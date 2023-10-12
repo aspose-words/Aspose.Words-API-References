@@ -3,7 +3,7 @@ title: PageSetup.TopMargin
 second_title: Aspose.Words för .NET API Referens
 description: PageSetup fast egendom. Returnerar eller ställer in avståndet i poäng mellan sidans övre kant och den övre gränsen för brödtexten.
 type: docs
-weight: 430
+weight: 440
 url: /sv/net/aspose.words/pagesetup/topmargin/
 ---
 ## PageSetup.TopMargin property

@@ -1,14 +1,14 @@
 ---
 title: Enum LineStyle
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.LineStyle Sıralama. Bir satırın çizgi stilini belirtir.Border .
+description: Aspose.Words.LineStyle Sıralama. Bir çizgi stilini belirtirBorder .
 type: docs
-weight: 3250
+weight: 3450
 url: /tr/net/aspose.words/linestyle/
 ---
 ## LineStyle enumeration
 
-Bir satırın çizgi stilini belirtir.[`Border`](../border/) .
+Bir çizgi stilini belirtir[`Border`](../border/) .
 
 ```csharp
 public enum LineStyle
@@ -48,7 +48,7 @@ public enum LineStyle
 
 ### Örnekler
 
-Kenarlıkla çevrili bir dizenin belgeye nasıl ekleneceğini gösterir.
+Kenarlıkla çevrelenmiş bir dizenin belgeye nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();

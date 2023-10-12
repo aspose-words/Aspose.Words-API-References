@@ -27,17 +27,17 @@ Shape shape = builder.InsertShape(ShapeType.Line, RelativeHorizontalPosition.Lef
 shape.StrokeColor = Color.Orange;
 
 // Aunque la línea en sí ocupa poco espacio en la página del documento,
-// ocupa un bloque contenedor rectangular, cuyo tamaño podemos determinar utilizando las propiedades "Límites".
+// ocupa un bloque contenedor rectangular, cuyo tamaño podemos determinar usando las propiedades "Límites".
 Assert.AreEqual(new RectangleF(50, 50, 100, 100), shape.Bounds);
 Assert.AreEqual(new RectangleF(50, 50, 100, 100), shape.BoundsInPoints);
 
-// Cree una forma de grupo y luego establezca el tamaño del bloque que lo contiene usando la propiedad "Límites".
+// Crea una forma de grupo y luego establece el tamaño del bloque que lo contiene usando la propiedad "Límites".
 GroupShape group = new GroupShape(doc);
 group.Bounds = new RectangleF(0, 100, 250, 250);
 
 Assert.AreEqual(new RectangleF(0, 100, 250, 250), group.BoundsInPoints);
 
-// Cree un rectángulo, verifique el tamaño de su bloque delimitador y luego agréguelo a la forma del grupo.
+// Crea un rectángulo, verifica el tamaño de su bloque delimitador y luego agrégalo a la forma del grupo.
 shape = new Shape(doc, ShapeType.Rectangle)
 {
     Width = 100,
@@ -51,10 +51,10 @@ Assert.AreEqual(new RectangleF(700, 700, 100, 100), shape.BoundsInPoints);
 group.AppendChild(shape);
 
 // El plano de coordenadas de la forma del grupo tiene su origen en la esquina superior izquierda del bloque que lo contiene,
-// y las coordenadas x e y de (1000, 1000) en la esquina inferior derecha.
+// y las coordenadas xey de (1000, 1000) en la esquina inferior derecha.
 // La forma de nuestro grupo tiene un tamaño de 250x250 puntos, por lo que cada 4 puntos en el plano de coordenadas de la forma del grupo
-// se traduce a 1pt en el plano de coordenadas del cuerpo del documento.
-// Cada forma que insertemos también se reducirá en tamaño por un factor de 4.
+// se traduce en 1 punto en el plano de coordenadas del cuerpo del documento.
+// Cada forma que insertemos también reducirá su tamaño en un factor de 4.
 // El cambio en la propiedad "BoundsInPoints" de la forma reflejará esto.
 Assert.AreEqual(new RectangleF(175, 275, 25, 25), shape.BoundsInPoints);
 

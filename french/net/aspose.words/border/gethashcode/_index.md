@@ -3,7 +3,7 @@ title: Border.GetHashCode
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Border méthode. Sert de fonction de hachage pour ce type.
 type: docs
-weight: 90
+weight: 110
 url: /fr/net/aspose.words/border/gethashcode/
 ---
 ## Border.GetHashCode method
@@ -29,7 +29,6 @@ builder.Write("Paragraph 2.");
 // ces paragraphes, leurs collections de bordures partagent les mêmes éléments.
 BorderCollection firstParagraphBorders = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Borders;
 BorderCollection secondParagraphBorders = builder.CurrentParagraph.ParagraphFormat.Borders;
-
 for (int i = 0; i < firstParagraphBorders.Count; i++)
 {
     Assert.IsTrue(firstParagraphBorders[i].Equals(secondParagraphBorders[i]));
@@ -40,7 +39,7 @@ for (int i = 0; i < firstParagraphBorders.Count; i++)
 foreach (Border border in secondParagraphBorders)
     border.LineStyle = LineStyle.DotDash;
 
-// Après avoir changé le style de ligne des bordures dans le deuxième paragraphe seulement,
+// Après avoir modifié le style de ligne des bordures uniquement dans le deuxième paragraphe,
 // les collections de bordures ne partagent plus les mêmes éléments.
 for (int i = 0; i < firstParagraphBorders.Count; i++)
 {

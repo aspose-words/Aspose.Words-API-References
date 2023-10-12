@@ -3,7 +3,7 @@ title: Document.ShowGrammaticalErrors
 second_title: Aspose.Words für .NET-API-Referenz
 description: Document eigendom. Gibt an ob Grammatikfehler in diesem Dokument angezeigt werden sollen.
 type: docs
-weight: 370
+weight: 390
 url: /de/net/aspose.words/document/showgrammaticalerrors/
 ---
 ## Document.ShowGrammaticalErrors property
@@ -22,13 +22,13 @@ Zeigt, wie Fehler im Dokument angezeigt/ausgeblendet werden.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Fügen Sie zwei Sätze mit Fehlern ein, die aufgegriffen würden
+// Fügen Sie zwei Sätze mit Fehlern ein, die aufgegriffen werden
 // durch die Rechtschreib- und Grammatikprüfung in Microsoft Word.
 builder.Writeln("There is a speling error in this sentence.");
 builder.Writeln("Their is a grammatical error in this sentence.");
 
 // Wenn diese Optionen aktiviert sind, werden Rechtschreibfehler unterstrichen
-// im Ausgabedokument durch eine gezackte rote Linie und eine doppelte blaue Linie hebt Grammatikfehler hervor.
+// im Ausgabedokument durch eine gezackte rote Linie und eine doppelte blaue Linie markiert grammatikalische Fehler.
 doc.ShowGrammaticalErrors = showErrors;
 doc.ShowSpellingErrors = showErrors;
 

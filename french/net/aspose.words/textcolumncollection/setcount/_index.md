@@ -20,7 +20,7 @@ public void SetCount(int newCount)
 
 ### Remarques
 
-Lorsque[`EvenlySpaced`](../evenlyspaced/) est **faux** et vous augmentez le nombre de colonnes, nouveau[`TextColumn`](../../textcolumn/) les objets sont créés avec une largeur et un espacement nuls. Vous devez définir la largeur et l'espacement des nouvelles colonnes.
+Quand[`EvenlySpaced`](../evenlyspaced/) est`FAUX` et vous augmentez le nombre de colonnes, new[`TextColumn`](../../textcolumn/) les objets sont créés avec une largeur et un espacement nuls. Vous devez définir la largeur et l'espacement pour les nouvelles colonnes.
 
 ### Exemples
 

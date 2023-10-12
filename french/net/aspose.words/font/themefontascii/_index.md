@@ -1,14 +1,14 @@
 ---
 title: Font.ThemeFontAscii
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Font propriété. Obtient ou définit la police de thème utilisée pour le texte latin caractères avec des codes de caractère de 0 zéro à 127 dans le jeu de polices appliqué qui est associé à cet objet Font.
+description: Font propriété. Obtient ou définit la police de thème utilisée pour le texte latin caractères avec des codes de caractères compris entre 0 zéro et 127 dans le jeu de polices appliqué associé à ce thème.Font objet.
 type: docs
 weight: 480
 url: /fr/net/aspose.words/font/themefontascii/
 ---
 ## Font.ThemeFontAscii property
 
-Obtient ou définit la police de thème utilisée pour le texte latin (caractères avec des codes de caractère de 0 (zéro) à 127) dans le jeu de polices appliqué qui est associé à cet objet Font.
+Obtient ou définit la police de thème utilisée pour le texte latin (caractères avec des codes de caractères compris entre 0 (zéro) et 127) dans le jeu de polices appliqué associé à ce thème.[`Font`](../) objet.
 
 ```csharp
 public ThemeFont ThemeFontAscii { get; set; }
@@ -16,12 +16,12 @@ public ThemeFont ThemeFontAscii { get; set; }
 
 ### Exemples
 
-Montre comment travailler avec les polices et les couleurs de thème.
+Montre comment utiliser les polices et les couleurs du thème.
 
 ```csharp
 Document doc = new Document();
 
-// Définit les polices pour les langues utilisées par défaut.
+// Définir les polices pour les langues utilisées par défaut.
 doc.Theme.MinorFonts.Latin = "Algerian";
 doc.Theme.MinorFonts.EastAsian = "Aharoni";
 doc.Theme.MinorFonts.ComplexScript = "Andalus";
@@ -51,7 +51,7 @@ Assert.AreEqual("Algerian", font.NameOther);
 Assert.AreEqual(ThemeColor.Accent2, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
-// Il existe plusieurs façons de réinitialiser leur police et leur couleur.
+// Il existe plusieurs façons de réinitialiser la police et la couleur.
 // 1 - En définissant ThemeFont.None/ThemeColor.None :
 font.ThemeFont = ThemeFont.None;
 font.ThemeColor = ThemeColor.None;

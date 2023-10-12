@@ -3,7 +3,7 @@ title: Style.Name
 second_title: Aspose.Words för .NET API Referens
 description: Style fast egendom. Hämtar eller ställer in namnet på stilen.
 type: docs
-weight: 110
+weight: 130
 url: /sv/net/aspose.words/style/name/
 ---
 ## Style.Name property

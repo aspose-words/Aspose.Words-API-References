@@ -3,7 +3,7 @@ title: Range.UnlinkFields
 second_title: Aspose.Words for .NET API Referansı
 description: Range yöntem. Bu aralıktaki alanların bağlantısını kaldırır.
 type: docs
-weight: 100
+weight: 110
 url: /tr/net/aspose.words/range/unlinkfields/
 ---
 ## Range.UnlinkFields method
@@ -18,7 +18,7 @@ public void UnlinkFields()
 
 Bu aralıktaki tüm alanları en son sonuçlarıyla değiştirir.
 
-Tüm belgedeki alanların bağlantısını kaldırmak için`UnlinkFields`.
+Tüm belgedeki alanların bağlantısını kaldırmak için şunu kullanın:`UnlinkFields`.
 
 ### Örnekler
 

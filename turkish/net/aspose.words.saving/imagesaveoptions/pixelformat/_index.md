@@ -1,14 +1,14 @@
 ---
 title: ImageSaveOptions.PixelFormat
 second_title: Aspose.Words for .NET API Referansı
-description: ImageSaveOptions mülk. Oluşturulan görüntüler için piksel biçimini alır veya ayarlar.
+description: ImageSaveOptions mülk. Oluşturulan görüntülerin piksel biçimini alır veya ayarlar.
 type: docs
-weight: 110
+weight: 120
 url: /tr/net/aspose.words.saving/imagesaveoptions/pixelformat/
 ---
 ## ImageSaveOptions.PixelFormat property
 
-Oluşturulan görüntüler için piksel biçimini alır veya ayarlar.
+Oluşturulan görüntülerin piksel biçimini alır veya ayarlar.
 
 ```csharp
 public ImagePixelFormat PixelFormat { get; set; }
@@ -16,15 +16,15 @@ public ImagePixelFormat PixelFormat { get; set; }
 
 ### Notlar
 
-Bu özellik yalnızca raster görüntü biçimlerine kaydederken etkilidir.
+Bu özellik yalnızca taramalı görüntü formatlarına kaydederken etkilidir.
 
-Varsayılan değerFormat32BppArgb.
+Varsayılan değer:Format32BppArgb.
 
-Çıktı görüntüsünün piksel formatı, GDI+ çalışması nedeniyle ayarlanan değer 'den farklı olabilir.
+Çıkış görüntüsünün piksel biçimi, GDI+ çalışması nedeniyle ayarlanan değerden farklı olabilir.
 
 ### Örnekler
 
-Bir belgenin bir görüntüye dönüştürüleceği piksel başına bit oranının nasıl seçileceğini gösterir.
+Bir belgenin görüntüye dönüştürüleceği piksel başına bit oranının nasıl seçileceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -36,9 +36,9 @@ Document doc = new Document();
 
             Assert.That(20000, Is.LessThan(new FileInfo(ImageDir + "Logo.jpg").Length));
 
-            // Belgeyi bir resim olarak kaydettiğimizde, bir SaveOptions nesnesini şuraya aktarabiliriz:
+            // Belgeyi resim olarak kaydettiğimizde, bir SaveOptions nesnesini iletebiliriz
             // kaydetme işleminin oluşturacağı görüntü için bir piksel formatı seçin.
-            // Piksel başına çeşitli bit oranları, oluşturulan görüntünün kalitesini ve dosya boyutunu etkiler.
+            // Piksel başına çeşitli bit oranları, oluşturulan görüntünün kalitesini ve dosya boyutunu etkileyecektir.
             ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFormat.Png);
             imageSaveOptions.PixelFormat = imagePixelFormat;
 

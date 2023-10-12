@@ -1,14 +1,14 @@
 ---
 title: NodeRendererBase.GetSizeInPixels
 second_title: Aspose.Words for .NET API 参考
-description: NodeRendererBase 方法. 计算指定缩放因子和分辨率的形状大小以像素为单位
+description: NodeRendererBase 方法. 计算指定缩放系数和分辨率下形状的大小以像素为单位
 type: docs
 weight: 60
 url: /zh/net/aspose.words.rendering/noderendererbase/getsizeinpixels/
 ---
 ## GetSizeInPixels(float, float) {#getsizeinpixels}
 
-计算指定缩放因子和分辨率的形状大小（以像素为单位）。
+计算指定缩放系数和分辨率下形状的大小（以像素为单位）。
 
 ```csharp
 public Size GetSizeInPixels(float scale, float dpi)
@@ -25,7 +25,7 @@ public Size GetSizeInPixels(float scale, float dpi)
 
 ### 评论
 
-该方法转换[`SizeInPoints`](../sizeinpoints/)以像素为单位的大小，当您想要创建位图以将形状整齐地渲染到位图上时，它很有用 。
+这个方法转换[`SizeInPoints`](../sizeinpoints/)以像素为单位的大小，当您想要创建一个位图以将形状整齐地渲染到位图上时，它很有用 。
 
 ### 例子
 
@@ -48,18 +48,18 @@ Assert.AreEqual(13.0f, renderer.BoundsInPoints.Height, 0.1f);
 Assert.AreEqual(119.0f, renderer.OpaqueBoundsInPoints.Width, 0.2f);
 Assert.AreEqual(14.2f, renderer.OpaqueBoundsInPoints.Height, 0.1f);
 
-// 以像素为单位获取形状大小，线性缩放到特定的 DPI。
+// 获取形状大小（以像素为单位），并线性缩放到特定 DPI。
 Rectangle bounds = renderer.GetBoundsInPixels(1.0f, 96.0f);
 
 Assert.AreEqual(159, bounds.Width);
 Assert.AreEqual(18, bounds.Height);
 
-// 以像素为单位获取形状大小，但水平和垂直尺寸使用不同的 DPI。
+// 获取形状大小（以像素为单位），但水平和垂直尺寸具有不同的 DPI。
 bounds = renderer.GetBoundsInPixels(1.0f, 96.0f, 150.0f);
 Assert.AreEqual(159, bounds.Width);
 Assert.AreEqual(28, bounds.Height);
 
-// 这里的不透明边界也可能不同。
+// 此处的不透明边界也可能有所不同。
 bounds = renderer.GetOpaqueBoundsInPixels(1.0f, 96.0f);
 
 Assert.AreEqual(159, bounds.Width);
@@ -81,7 +81,7 @@ Assert.AreEqual(30, bounds.Height);
 
 ## GetSizeInPixels(float, float, float) {#getsizeinpixels_1}
 
-计算指定缩放因子和分辨率的形状大小（以像素为单位）。
+计算指定缩放系数和分辨率下形状的大小（以像素为单位）。
 
 ```csharp
 public Size GetSizeInPixels(float scale, float horizontalDpi, float verticalDpi)
@@ -99,7 +99,7 @@ public Size GetSizeInPixels(float scale, float horizontalDpi, float verticalDpi)
 
 ### 评论
 
-该方法转换[`SizeInPoints`](../sizeinpoints/)以像素为单位的大小，当您想要创建位图以将形状整齐地渲染到位图上时，它很有用 。
+这个方法转换[`SizeInPoints`](../sizeinpoints/)以像素为单位的大小，当您想要创建一个位图以将形状整齐地渲染到位图上时，它很有用 。
 
 ### 例子
 
@@ -122,18 +122,18 @@ Assert.AreEqual(13.0f, renderer.BoundsInPoints.Height, 0.1f);
 Assert.AreEqual(119.0f, renderer.OpaqueBoundsInPoints.Width, 0.2f);
 Assert.AreEqual(14.2f, renderer.OpaqueBoundsInPoints.Height, 0.1f);
 
-// 以像素为单位获取形状大小，线性缩放到特定的 DPI。
+// 获取形状大小（以像素为单位），并线性缩放到特定 DPI。
 Rectangle bounds = renderer.GetBoundsInPixels(1.0f, 96.0f);
 
 Assert.AreEqual(159, bounds.Width);
 Assert.AreEqual(18, bounds.Height);
 
-// 以像素为单位获取形状大小，但水平和垂直尺寸使用不同的 DPI。
+// 获取形状大小（以像素为单位），但水平和垂直尺寸具有不同的 DPI。
 bounds = renderer.GetBoundsInPixels(1.0f, 96.0f, 150.0f);
 Assert.AreEqual(159, bounds.Width);
 Assert.AreEqual(28, bounds.Height);
 
-// 这里的不透明边界也可能不同。
+// 此处的不透明边界也可能有所不同。
 bounds = renderer.GetOpaqueBoundsInPixels(1.0f, 96.0f);
 
 Assert.AreEqual(159, bounds.Width);

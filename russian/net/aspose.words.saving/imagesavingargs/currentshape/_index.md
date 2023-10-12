@@ -1,14 +1,14 @@
 ---
 title: ImageSavingArgs.CurrentShape
 second_title: Справочник по API Aspose.Words для .NET
-description: ImageSavingArgs свойство. ПолучаетShapeBase объект соответствующий фигуре или групповой фигуре  которую нужно сохранить.
+description: ImageSavingArgs свойство. ПолучаетShapeBase объект соответствующий форме или группе фигур  которая будет сохранена.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.saving/imagesavingargs/currentshape/
 ---
 ## ImageSavingArgs.CurrentShape property
 
-Получает[`ShapeBase`](../../../aspose.words.drawing/shapebase/) объект, соответствующий фигуре или групповой фигуре , которую нужно сохранить.
+Получает[`ShapeBase`](../../../aspose.words.drawing/shapebase/) объект, соответствующий форме или группе фигур , которая будет сохранена.
 
 ```csharp
 public ShapeBase CurrentShape { get; }
@@ -16,22 +16,23 @@ public ShapeBase CurrentShape { get; }
 
 ### Примечания
 
-[`IImageSavingCallback`](../../iimagesavingcallback/) может быть запущен при сохранении формы или формы группы. Вот почему свойство[`ShapeBase`](../../../aspose.words.drawing/shapebase/) тип. Вы можете проверить, является ли это формой группы, сравнивая [`ShapeType`](../../../aspose.words.drawing/shapebase/shapetype/) сGroup или приведя его к одному из производных классов: [`Shape`](../../../aspose.words.drawing/shape/) или же[`GroupShape`](../../../aspose.words.drawing/groupshape/).
+[`IImageSavingCallback`](../../iimagesavingcallback/) может быть запущен при сохранении формы или формы группы. Вот почему в собственности есть[`ShapeBase`](../../../aspose.words.drawing/shapebase/) тип. Вы можете проверить, является ли это фигурой группы, сравнивая [`ShapeType`](../../../aspose.words.drawing/shapebase/shapetype/) сGroup или приведя его к одному из производных классов: [`Shape`](../../../aspose.words.drawing/shape/) или[`GroupShape`](../../../aspose.words.drawing/groupshape/).
 
-Aspose.Words использует имя файла документа и уникальный номер для создания уникального имени файла для каждого изображения, найденного в документе. Вы можете использовать`CurrentShape` свойство для создания «лучшего» имени файла путем изучения свойств формы, таких как[`Title`](../../../aspose.words.drawing/imagedata/title/) (только форма),[`SourceFullName`](../../../aspose.words.drawing/imagedata/sourcefullname/) (только форма) и[`Name`](../../../aspose.words.drawing/shapebase/name/)Конечно, вы можете создавать имена файлов, используя любые другие свойства или критерии , но обратите внимание, что имена дочерних файлов должны быть уникальными в рамках операции экспорта.
+Aspose.Words использует имя файла документа и уникальный номер для создания уникального имени файла для каждого изображения, найденного в документе. Вы можете использовать`CurrentShape`свойство для создания «лучшего» имени файла путем изучения свойств формы, таких как[`Title`](../../../aspose.words.drawing/imagedata/title/) (только форма),[`SourceFullName`](../../../aspose.words.drawing/imagedata/sourcefullname/) (Только форма) и[`Name`](../../../aspose.words.drawing/shapebase/name/). Конечно, вы можете создавать имена файлов, используя любые другие свойства или критерии , но обратите внимание, что имена вспомогательных файлов должны быть уникальными в рамках операции экспорта.
 
-Некоторые изображения в документе могут быть недоступны. Чтобы проверить доступность образа , используйте[`IsImageAvailable`](../isimageavailable/) имущество.
+Некоторые изображения в документе могут быть недоступны. Чтобы проверить доступность изображения , используйте команду[`IsImageAvailable`](../isimageavailable/) свойство.
 
 ### Примеры
 
-Показывает, как использовать обратный вызов сохранения изображения в процессе преобразования HTML.
+Показывает, как включить обратный вызов сохранения изображения в процесс преобразования HTML.
 
 ```csharp
+public void ImageSavingCallback()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
-    // Когда мы сохраняем документ в HTML, мы можем передать объект SaveOptions для назначения обратного вызова
-    // для настройки процесса сохранения изображения.
+    // Когда мы сохраняем документ в HTML, мы можем передать объект SaveOptions для обозначения обратного вызова
+    // чтобы настроить процесс сохранения изображения.
     HtmlSaveOptions options = new HtmlSaveOptions();
     options.ImageSavingCallback = new ImageShapePrinter();
 
@@ -39,7 +40,7 @@ Aspose.Words использует имя файла документа и уни
 }
 
 /// <summary>
-/// Выводит свойства каждого изображения по мере того, как процесс сохранения сохраняет его в файл изображения в локальной файловой системе
+/// Печатает свойства каждого изображения, поскольку процесс сохранения сохраняет его в файл изображения в локальной файловой системе.
 /// при экспорте документа в HTML.
 /// </summary>
 private class ImageShapePrinter : IImageSavingCallback

@@ -3,7 +3,7 @@ title: CompareOptions.Granularity
 second_title: Aspose.Words för .NET API Referens
 description: CompareOptions fast egendom. Anger om ändringar spåras med tecken eller ord. Standardvärdet ärWordLevel .
 type: docs
-weight: 20
+weight: 30
 url: /sv/net/aspose.words.comparing/compareoptions/granularity/
 ---
 ## CompareOptions.Granularity property

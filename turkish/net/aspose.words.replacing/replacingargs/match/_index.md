@@ -1,14 +1,14 @@
 ---
 title: ReplacingArgs.Match
 second_title: Aspose.Words for .NET API Referansı
-description: ReplacingArgs mülk. Match sırasında tek bir normal ifade eşleşmesinden kaynaklanan Yer değiştirmek .
+description: ReplacingArgs mülk. Match sırasında tek bir normal ifadesi eşleşmesinden kaynaklanır Yer değiştirmek .
 type: docs
 weight: 30
 url: /tr/net/aspose.words.replacing/replacingargs/match/
 ---
 ## ReplacingArgs.Match property
 
-Match sırasında tek bir normal ifade eşleşmesinden kaynaklanan **Yer değiştirmek** .
+Match sırasında tek bir normal ifadesi eşleşmesinden kaynaklanır **Yer değiştirmek** .
 
 ```csharp
 public Match Match { get; }
@@ -16,13 +16,14 @@ public Match Match { get; }
 
 ### Notlar
 
-**Match.Index"** bul ve değiştir aralığının başlangıcından itibaren eşleşmenin sıfır tabanlı başlangıç konumunu alır.
+**Eşleşme Endeksi"** bulma ve değiştirme aralığının başlangıcından itibaren eşleşmenin sıfır tabanlı startup konumunu alır.
 
 ### Örnekler
 
 FindReplaceOptions aracılığıyla yeni içeriğe farklı bir yazı tipinin nasıl uygulanacağını gösterir.
 
 ```csharp
+public void ConvertNumbersToHexadecimal()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -34,7 +35,7 @@ FindReplaceOptions aracılığıyla yeni içeriğe farklı bir yazı tipinin nas
     // Bul ve değiştir işlemini değiştirmek için bir "FindReplaceOptions" nesnesi kullanabiliriz.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // "HighlightColor" özelliğini, işlemin sonuç metnine uygulamak istediğimiz bir arka plan rengine ayarlayın.
+    // "HighlightColor" özelliğini, işlemin sonuç metnine uygulamak istediğimiz arka plan rengine ayarlayın.
     options.ApplyFont.HighlightColor = Color.LightGray;
 
     NumberHexer numberHexer = new NumberHexer();
@@ -52,8 +53,8 @@ FindReplaceOptions aracılığıyla yeni içeriğe farklı bir yazı tipinin nas
 }
 
 /// <summary>
-/// Sayısal bul ve değiştir eşleşmelerini onaltılık eşdeğerleriyle değiştirir.
-/// Her değiştirmenin bir günlüğünü tutar.
+/// Sayısal bulma ve değiştirme eşleşmelerini onaltılık eşdeğerleriyle değiştirir.
+/// Her değişimin kaydını tutar.
 /// </summary>
 private class NumberHexer : IReplacingCallback
 {

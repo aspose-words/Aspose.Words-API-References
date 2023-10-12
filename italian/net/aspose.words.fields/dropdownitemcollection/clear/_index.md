@@ -16,15 +16,15 @@ public void Clear()
 
 ### Esempi
 
-Mostra come inserire un campo casella combinata e modificare gli elementi nella sua raccolta di elementi.
+Mostra come inserire un campo casella combinata e modificare gli elementi nella relativa raccolta di elementi.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inserisci una casella combinata, quindi verifica la sua raccolta di elementi a discesa.
+// Inserisci una casella combinata, quindi verifica la raccolta di elementi a discesa.
 // In Microsoft Word, l'utente farà clic sulla casella combinata,
-// e quindi scegli uno degli elementi di testo nella raccolta da visualizzare.
+// quindi scegli uno degli elementi di testo nella raccolta da visualizzare.
 string[] items = { "One", "Two", "Three" };
 FormField comboBoxField = builder.InsertComboBox("DropDown", items, 0);
 DropDownItemCollection dropDownItems = comboBoxField.DropDownItems;
@@ -43,7 +43,7 @@ dropDownItems.Insert(3, "Three and a half");
 
 Assert.AreEqual(5, dropDownItems.Count);
 
-// Scorri la raccolta e stampa ogni elemento.
+// Itera sulla raccolta e stampa ogni elemento.
 using (IEnumerator<string> dropDownCollectionEnumerator = dropDownItems.GetEnumerator())
     while (dropDownCollectionEnumerator.MoveNext())
         Console.WriteLine(dropDownCollectionEnumerator.Current);
@@ -52,7 +52,7 @@ using (IEnumerator<string> dropDownCollectionEnumerator = dropDownItems.GetEnume
 // 1 - Rimuove un elemento con contenuto uguale alla stringa passata:
 dropDownItems.Remove("Four");
 
-// 2 - Rimuovere un elemento in un indice:
+// 2 - Rimuovi un elemento in un indice:
 dropDownItems.RemoveAt(3);
 
 Assert.AreEqual(3, dropDownItems.Count);

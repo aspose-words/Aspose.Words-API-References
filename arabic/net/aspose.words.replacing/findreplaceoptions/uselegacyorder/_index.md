@@ -1,14 +1,14 @@
 ---
 title: FindReplaceOptions.UseLegacyOrder
 second_title: Aspose.Words لمراجع .NET API
-description: FindReplaceOptions ملكية. تشير True إلى أن البحث عن نص يتم إجراؤه بالتتابع من أعلى إلى أسفل مع الأخذ في الاعتبار مربعات النص. القيمة الافتراضية هي false .
+description: FindReplaceOptions ملكية. يشير True إلى أن البحث عن النص يتم إجراؤه بشكل تسلسلي من الأعلى إلى الأسفل مع الأخذ في الاعتبار مربعات النص. القيمة الافتراضية هيخطأ شنيع .
 type: docs
-weight: 150
+weight: 170
 url: /ar/net/aspose.words.replacing/findreplaceoptions/uselegacyorder/
 ---
 ## FindReplaceOptions.UseLegacyOrder property
 
-تشير True إلى أن البحث عن نص يتم إجراؤه بالتتابع من أعلى إلى أسفل مع الأخذ في الاعتبار مربعات النص. القيمة الافتراضية هي false .
+يشير True إلى أن البحث عن النص يتم إجراؤه بشكل تسلسلي من الأعلى إلى الأسفل مع الأخذ في الاعتبار مربعات النص. القيمة الافتراضية هي`خطأ شنيع` .
 
 ```csharp
 public bool UseLegacyOrder { get; set; }
@@ -16,18 +16,16 @@ public bool UseLegacyOrder { get; set; }
 
 ### أمثلة
 
-يوضح كيفية تغيير ترتيب البحث في العقد عند تنفيذ عملية البحث والاستبدال النصية.
+يوضح كيفية تغيير ترتيب البحث للعقد عند إجراء عملية البحث عن النص واستبداله.
 
 ```csharp
-[TestCase(true)] // ExSkip
-[TestCase(false)] // ExSkip
 public void UseLegacyOrder(bool useLegacyOrder)
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // أدخل ثلاثة عمليات تشغيل يمكننا البحث عنها باستخدام نمط regex.
-    // ضع واحدة من تلك التي تعمل داخل مربع نص.
+    // أدخل ثلاثة مسارات يمكننا البحث عنها باستخدام نمط التعبير العادي.
+    // ضع أحد هذه العمليات داخل مربع نص.
     builder.Writeln("[tag 1]");
     Shape textBox = builder.InsertShape(ShapeType.TextBox, 100, 50);
     builder.Writeln("[tag 2]");
@@ -37,15 +35,15 @@ public void UseLegacyOrder(bool useLegacyOrder)
     // يمكننا استخدام كائن "FindReplaceOptions" لتعديل عملية البحث والاستبدال.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // تعيين رد اتصال مخصص لخاصية "ReplacingCallback".
+    // قم بتعيين رد اتصال مخصص للخاصية "ReplacingCallback".
     TextReplacementTracker callback = new TextReplacementTracker();
     options.ReplacingCallback = callback;
 
-    // إذا قمنا بتعيين الخاصية "UseLegacyOrder" على "true" ، فإن ملف
-    // ستمر عملية البحث والاستبدال في جميع عمليات التشغيل خارج مربع النص
-    // قبل الانتقال إلى تلك الموجودة داخل مربع نص.
-    // إذا قمنا بتعيين الخاصية "UseLegacyOrder" على "false" ، فإن ملف
-    // البحث والاستبدال ستتجاوز جميع عمليات التشغيل في نطاق بترتيب تسلسلي.
+    // إذا قمنا بتعيين الخاصية "UseLegacyOrder" على "صحيح"، فإن
+    // ستتم عملية البحث والاستبدال عبر كافة عمليات التشغيل خارج مربع النص
+    // قبل المرور على العناصر الموجودة داخل مربع النص.
+    // إذا قمنا بتعيين خاصية "UseLegacyOrder" على "خطأ"، فإن
+    // ستتم عملية البحث والاستبدال عبر جميع عمليات التشغيل في نطاق ما بترتيب تسلسلي.
     options.UseLegacyOrder = useLegacyOrder;
 
     doc.Range.Replace(new Regex(@"\[tag \d*\]"), "", options);
@@ -56,7 +54,7 @@ public void UseLegacyOrder(bool useLegacyOrder)
 }
 
 /// <summary>
-/// يسجل ترتيب كل التطابقات التي تحدث أثناء عملية البحث والاستبدال.
+/// يسجل ترتيب جميع التطابقات التي تحدث أثناء عملية البحث والاستبدال.
 /// </summary>
 private class TextReplacementTracker : IReplacingCallback
 {

@@ -1,14 +1,14 @@
 ---
 title: DocumentProperty.Value
 second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentProperty eigendom. Ruft den Wert der Eigenschaft ab oder legt ihn fest.
+description: DocumentProperty eigendom. Ruft den Wert der Eigenschaft ab oder legt diesen fest.
 type: docs
 weight: 50
 url: /de/net/aspose.words.properties/documentproperty/value/
 ---
 ## DocumentProperty.Value property
 
-Ruft den Wert der Eigenschaft ab oder legt ihn fest.
+Ruft den Wert der Eigenschaft ab oder legt diesen fest.
 
 ```csharp
 public object Value { get; set; }
@@ -16,20 +16,20 @@ public object Value { get; set; }
 
 ### Bemerkungen
 
-Kann nicht Null sein.
+Kann nicht sein`Null`.
 
 ### Beispiele
 
-Zeigt, wie Sie mit integrierten Dokumenteigenschaften arbeiten.
+Zeigt, wie mit integrierten Dokumenteigenschaften gearbeitet wird.
 
 ```csharp
 Document doc = new Document(MyDir + "Properties.docx");
 
-// Das "Document"-Objekt enthält einige seiner Metadaten in seinen Mitgliedern.
+// Das Objekt „Document“ enthält einige seiner Metadaten in seinen Mitgliedern.
 Console.WriteLine($"Document filename:\n\t \"{doc.OriginalFileName}\"");
 
-// Das Dokument speichert auch Metadaten in seinen eingebauten Eigenschaften.
-// Jede eingebaute Eigenschaft ist ein Mitglied des "BuiltInDocumentProperties"-Objekts des Dokuments.
+// Das Dokument speichert auch Metadaten in seinen integrierten Eigenschaften.
+// Jede integrierte Eigenschaft ist Mitglied des „BuiltInDocumentProperties“-Objekts des Dokuments.
 Console.WriteLine("Built-in Properties:");
 foreach (DocumentProperty docProperty in doc.BuiltInDocumentProperties)
 {

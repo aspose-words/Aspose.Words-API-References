@@ -29,11 +29,12 @@ Assert.AreEqual(1, chart.Series.Count);
 Assert.AreEqual("Y-Values", chart.Series[0].Name);
 Assert.True(chart.Series[0].Bubble3D);
 
-// Wenden Sie ein Datenetikett auf jede Blase an, die ihren Durchmesser anzeigt.
+// Jeder Blase ein Datenetikett zuweisen, das ihren Durchmesser anzeigt.
 for (int i = 0; i < 3; i++)
 {
     chart.Series[0].HasDataLabels = true;
     chart.Series[0].DataLabels[i].ShowBubbleSize = true;
+    chart.Series[0].DataLabels[i].Font.Size = 12;
 }
 
 doc.Save(ArtifactsDir + "Charts.Bubble3D.docx");

@@ -16,7 +16,7 @@ public bool UseSakaEraCalendar { get; set; }
 
 ### Beispiele
 
-Zeigt, wie das CREATEDATE-Feld verwendet wird, um das Erstellungsdatum/die Erstellungszeit des Dokuments anzuzeigen.
+Zeigt, wie das Feld CREATEDATE verwendet wird, um das Erstellungsdatum und die Erstellungszeit des Dokuments anzuzeigen.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -24,8 +24,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.MoveToDocumentEnd();
 builder.Writeln(" Date this document was created:");
 
-// Wir können das Feld CREATEDATE verwenden, um das Datum und die Uhrzeit der Erstellung des Dokuments anzuzeigen.
-// Nachfolgend sind drei verschiedene Kalendertypen aufgeführt, nach denen das Feld CREATEDATE das Datum/die Uhrzeit anzeigen kann.
+// Wir können das Feld CREATEDATE verwenden, um Datum und Uhrzeit der Erstellung des Dokuments anzuzeigen.
+// Nachfolgend sind drei verschiedene Kalendertypen aufgeführt, nach denen das CREATEDATE-Feld Datum/Uhrzeit anzeigen kann.
 // 1 - Islamischer Mondkalender:
 builder.Write("According to the Lunar Calendar - ");
 FieldCreateDate field = (FieldCreateDate)builder.InsertField(FieldType.FieldCreateDate, true);
@@ -33,7 +33,7 @@ field.UseLunarCalendar = true;
 
 Assert.AreEqual(" CREATEDATE  \\h", field.GetFieldCode());
 
-// 2 - Umm al-Qura Kalender:
+// 2 - Umm al-Qura-Kalender:
 builder.Write("\nAccording to the Umm al-Qura Calendar - ");
 field = (FieldCreateDate)builder.InsertField(FieldType.FieldCreateDate, true);
 field.UseUmAlQuraCalendar = true;

@@ -1,14 +1,14 @@
 ---
 title: Shape.ImageData
 second_title: Справочник по API Aspose.Words для .NET
-description: Shape свойство. Предоставляет доступ к изображению фигуры. Возвращает значение null если фигура не может иметь изображение.
+description: Shape свойство. Предоставляет доступ к изображению фигуры. Возвращаетнулевой если фигура не может иметь изображение.
 type: docs
 weight: 110
 url: /ru/net/aspose.words.drawing/shape/imagedata/
 ---
 ## Shape.ImageData property
 
-Предоставляет доступ к изображению фигуры. Возвращает значение null, если фигура не может иметь изображение.
+Предоставляет доступ к изображению фигуры. Возвращает`нулевой` если фигура не может иметь изображение.
 
 ```csharp
 public ImageData ImageData { get; }
@@ -16,13 +16,13 @@ public ImageData ImageData { get; }
 
 ### Примеры
 
-Показывает, как извлекать изображения из документа и сохранять их в локальной файловой системе в виде отдельных файлов.
+Показывает, как извлечь изображения из документа и сохранить их в локальной файловой системе как отдельные файлы.
 
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");
 
-// Получить набор фигур из документа,
-// и сохранить данные изображения каждой фигуры с изображением в виде файла в локальной файловой системе.
+// Получаем коллекцию фигур из документа,
+// и сохраняем данные изображения каждой формы с изображением в виде файла в локальной файловой системе.
 NodeCollection shapes = doc.GetChildNodes(NodeType.Shape, true);
 
 Assert.AreEqual(9, shapes.Count(s => ((Shape)s).HasImage));
@@ -32,8 +32,8 @@ foreach (Shape shape in shapes.OfType<Shape>())
 {
     if (shape.HasImage)
     {
-        // Данные изображения фигур могут содержать изображения многих возможных форматов изображений. 
-        // Мы можем определить расширение файла для каждого изображения автоматически, исходя из его формата.
+         // Данные изображений фигур могут содержать изображения многих возможных форматов изображений.
+        // Мы можем автоматически определить расширение файла для каждого изображения в зависимости от его формата.
         string imageFileName =
             $"File.ExtractImages.{imageIndex}{FileFormatUtil.ImageTypeToExtension(shape.ImageData.ImageType)}";
         shape.ImageData.Save(ArtifactsDir + imageFileName);
@@ -50,8 +50,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 string imageFileName = ImageDir + "Windows MetaFile.wmf";
 
-// Ниже приведены два способа применения изображения к фигуре, чтобы она могла ее отображать.
-// 1 - Устанавливаем фигуру для изображения.
+// Ниже приведены два способа применения изображения к фигуре для ее отображения.
+// 1 — установить форму, в которой будет находиться изображение.
 Shape shape = new Shape(builder.Document, ShapeType.Image);
 shape.WrapType = WrapType.Inline;
 shape.ImageData.SetImage(imageFileName);
@@ -60,12 +60,12 @@ builder.InsertNode(shape);
 
 doc.Save(ArtifactsDir + "Image.CreateLinkedImage.Embedded.docx");
 
-// Каждое изображение, которое мы храним в форме, увеличивает размер нашего документа.
+// Каждое изображение, которое мы сохраняем в shape, увеличивает размер нашего документа.
 Assert.True(70000 < new FileInfo(ArtifactsDir + "Image.CreateLinkedImage.Embedded.docx").Length);
 
 doc.FirstSection.Body.FirstParagraph.RemoveAllChildren();
 
-// 2 - Установите форму для ссылки на файл изображения в локальной файловой системе.
+// 2 — Установить форму для связи с файлом изображения в локальной файловой системе.
 shape = new Shape(builder.Document, ShapeType.Image);
 shape.WrapType = WrapType.Inline;
 shape.ImageData.SourceFullName = imageFileName;
@@ -73,9 +73,9 @@ shape.ImageData.SourceFullName = imageFileName;
 builder.InsertNode(shape);
 doc.Save(ArtifactsDir + "Image.CreateLinkedImage.Linked.docx");
 
-// Связывание с изображениями сэкономит место и приведет к уменьшению размера документа.
+// Ссылки на изображения сэкономят место и приведут к уменьшению размера документа.
 // Однако документ может правильно отображать изображение только тогда, когда
-// файл изображения находится в месте, на которое указывает свойство SourceFullName фигуры.
+// файл изображения находится в том месте, на которое указывает свойство SourceFullName фигуры.
 Assert.True(10000 > new FileInfo(ArtifactsDir + "Image.CreateLinkedImage.Linked.docx").Length);
 ```
 

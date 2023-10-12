@@ -22,6 +22,7 @@ public class ChartTitle
 
 | Name | Description |
 | --- | --- |
+| [Font](../../aspose.words.drawing.charts/charttitle/font/) { get; } | Provides access to the font formatting of the chart title. |
 | [Overlay](../../aspose.words.drawing.charts/charttitle/overlay/) { get; set; } | Determines whether other chart elements shall be allowed to overlap title. By default overlay is `false`. |
 | [Show](../../aspose.words.drawing.charts/charttitle/show/) { get; set; } | Determines whether the title shall be shown for this chart. Default value is `true`. |
 | [Text](../../aspose.words.drawing.charts/charttitle/text/) { get; set; } | Gets or sets the text of the chart title. If `null` or empty value is specified, auto generated title will be shown. |
@@ -41,6 +42,8 @@ Chart chart = chartShape.Chart;
 // Use the "Title" property to give our chart a title, which appears at the top center of the chart area.
 ChartTitle title = chart.Title;
 title.Text = "My Chart";
+title.Font.Size = 15;
+title.Font.Color = Color.Blue;
 
 // Set the "Show" property to "true" to make the title visible. 
 title.Show = true;

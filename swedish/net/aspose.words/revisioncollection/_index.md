@@ -3,12 +3,14 @@ title: Class RevisionCollection
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.RevisionCollection klass. En samling avRevision objekt som representerar revisioner i dokumentet.
 type: docs
-weight: 4510
+weight: 4770
 url: /sv/net/aspose.words/revisioncollection/
 ---
 ## RevisionCollection class
 
 En samling av[`Revision`](../revision/) objekt som representerar revisioner i dokumentet.
+
+För att lära dig mer, besök[Spåra ändringar i ett dokument](https://docs.aspose.com/words/net/track-changes-in-a-document/) dokumentationsartikel.
 
 ```csharp
 public class RevisionCollection : IEnumerable<Revision>
@@ -20,7 +22,7 @@ public class RevisionCollection : IEnumerable<Revision>
 | --- | --- |
 | [Count](../../aspose.words/revisioncollection/count/) { get; } | Returnerar antalet revisioner i samlingen. |
 | [Groups](../../aspose.words/revisioncollection/groups/) { get; } | Samling av revisionsgrupper. |
-| [Item](../../aspose.words/revisioncollection/item/) { get; } | Returnerar en revision vid det angivna indexet. |
+| [Item](../../aspose.words/revisioncollection/item/) { get; } | Returnerar en[`Revision`](../revision/) vid angivet index. |
 
 ## Metoder
 

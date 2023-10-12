@@ -1,14 +1,14 @@
 ---
 title: ImageSize.ImageSize
 second_title: Aspose.Words for .NET API Referansı
-description: ImageSize inşaatçı. Genişliği ve yüksekliği piksel cinsinden verilen değerlere sıfırlar. Çözünürlüğü 96 dpi. olarak başlatır
+description: ImageSize inşaatçı. Genişlik ve yüksekliği piksel cinsinden verilen değerlere göre başlatır. Çözünürlüğü 96 dpi olarak başlatır.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.drawing/imagesize/imagesize/
 ---
 ## ImageSize(int, int) {#constructor}
 
-Genişliği ve yüksekliği, piksel cinsinden verilen değerlere sıfırlar. Çözünürlüğü 96 dpi. olarak başlatır
+Genişlik ve yüksekliği piksel cinsinden verilen değerlere göre başlatır. Çözünürlüğü 96 dpi olarak başlatır.
 
 ```csharp
 public ImageSize(int widthPixels, int heightPixels)

@@ -1,14 +1,14 @@
 ---
 title: SignOptions.ProviderId
 second_title: Aspose.Words لمراجع .NET API
-description: SignOptions ملكية. يحدد معرف فئة موفر التوقيع. القيمة الافتراضية هي دليل فارغ جميع الأصفار .
+description: SignOptions ملكية. يحدد معرف الفئة لموفر التوقيع. القيمة الافتراضية هي دليل فارغ جميع الأصفار. .
 type: docs
 weight: 40
 url: /ar/net/aspose.words.digitalsignatures/signoptions/providerid/
 ---
 ## SignOptions.ProviderId property
 
-يحدد معرف فئة موفر التوقيع. القيمة الافتراضية هي **دليل فارغ (جميع الأصفار)** .
+يحدد معرف الفئة لموفر التوقيع. القيمة الافتراضية هي **دليل فارغ (جميع الأصفار).** .
 
 ```csharp
 public Guid ProviderId { get; set; }
@@ -16,15 +16,15 @@ public Guid ProviderId { get; set; }
 
 ### ملاحظات
 
-موفر خدمة التشفير (CSP) عبارة عن وحدة برمجية مستقلة تقوم بالفعل بتنفيذ خوارزميات تشفير للمصادقة والتشفير والتشفير. يحتفظ MS Office بقيمة {00000000-0000-0000-0000-000000000000} بقيمة {00000000-0000-0000-000000000000} لموفر التوقيع الافتراضي الخاص به.
+يعد موفر خدمة التشفير (CSP) وحدة برمجية مستقلة تقوم بالفعل بتنفيذ خوارزميات التشفير للمصادقة والتشفير والتشفير. يحتفظ MS Office بالقيمة البالغة {00000000-0000-0000-0000-000000000000} لموفر التوقيع الافتراضي الخاص به.
 
-يجب الحصول على المعرف الفريد العمومي (GUID) الخاص بالموفر المثبت بشكل إضافي من الوثائق التي يتم شحنها مع الموفر.
+يجب الحصول على المعرف الفريد العمومي (GUID) الخاص بالموفر المثبت بشكل إضافي من الوثائق المرفقة مع الموفر.
 
-بالإضافة إلى ذلك ، يتم تعداد جميع موفري التشفير المثبتين في سجل windows. يمكن العثور عليها في المسار التالي: HKLM \ SOFTWARE \ Microsoft \ Cryptography \ Defaults \ Provider. يوجد اسم مفتاح "CP Service UUID" الذي يتوافق مع GUID لموفر التوقيع.
+بالإضافة إلى ذلك، يتم تعداد كافة موفري التشفير المثبتين في سجل Windows. يمكن العثور عليه في المسار التالي: HKLM\SOFTWARE\Microsoft\Cryptography\Defaults\Provider. يوجد اسم مفتاح "CP Service UUID" الذي يتوافق مع GUID لموفر التوقيع.
 
 ### أمثلة
 
-يوضح كيفية توقيع مستند بشهادة شخصية وسطر توقيع.
+يوضح كيفية توقيع مستند باستخدام شهادة شخصية وسطر التوقيع.
 
 ```csharp
 Document doc = new Document();
@@ -62,7 +62,7 @@ CertificateHolder certHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "a
 DigitalSignatureUtil.Sign(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.docx", 
     ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
 
-// أعد فتح المستند المحفوظ ، وتحقق من أن خصائص "IsSigned" و "IsValid" تساوي "true" ،
+// أعد فتح المستند المحفوظ لدينا، وتحقق من أن الخاصيتين "IsSigned" و"IsValid" متساويتان للقيمة "true"،
 // يشير إلى أن سطر التوقيع يحتوي على توقيع.
 doc = new Document(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);

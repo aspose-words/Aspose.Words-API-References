@@ -1,14 +1,14 @@
 ---
 title: FileFormatUtil.DetectFileFormat
 second_title: Справочник по API Aspose.Words для .NET
-description: FileFormatUtil метод. Обнаруживает и возвращает информацию о формате документа хранящегося в файле на диске.
+description: FileFormatUtil метод. Обнаруживает и возвращает информацию о формате документа хранящегося в дисковом файле.
 type: docs
 weight: 30
 url: /ru/net/aspose.words/fileformatutil/detectfileformat/
 ---
 ## DetectFileFormat(string) {#detectfileformat_1}
 
-Обнаруживает и возвращает информацию о формате документа, хранящегося в файле на диске.
+Обнаруживает и возвращает информацию о формате документа, хранящегося в дисковом файле.
 
 ```csharp
 public static FileFormatInfo DetectFileFormat(string fileName)
@@ -24,9 +24,9 @@ public static FileFormatInfo DetectFileFormat(string fileName)
 
 ### Примечания
 
-Даже если этот метод определяет формат документа, он не гарантирует , что указанный документ действителен. Этот метод определяет формат документа только путем считывания данных, достаточных для обнаружения. Чтобы полностью убедиться, что документ действителен , вам необходимо загрузить документ в[`Document`](../../document/) объект.
+Даже если этот метод определяет формат документа, он не гарантирует , что указанный документ действителен. Этот метод определяет формат документа только путем чтения данных, достаточных для обнаружения. Чтобы полностью убедиться в том, что документ действителен, вам необходимо загрузить документ в[`Document`](../../document/) объект.
 
-Этот метод выдает[`FileCorruptedException`](../../filecorruptedexception/) когда формат распознан, но обнаружение не может быть завершено из-за повреждения.
+Этот метод выбрасывает[`FileCorruptedException`](../../filecorruptedexception/) когда формат распознан, но обнаружение не может быть завершено из-за повреждения.
 
 ### Примеры
 
@@ -35,14 +35,14 @@ public static FileFormatInfo DetectFileFormat(string fileName)
 ```csharp
 Document doc = new Document();
 
-// Настроить объект SaveOptions для шифрования документа
+// Настраиваем объект SaveOptions для шифрования документа
 // с паролем, когда мы его сохраняем, а затем сохраняем документ.
 OdtSaveOptions saveOptions = new OdtSaveOptions(SaveFormat.Odt);
 saveOptions.Password = "MyPassword";
 
 doc.Save(ArtifactsDir + "File.DetectDocumentEncryption.odt", saveOptions);
 
-// Проверяем тип файла нашего документа и его статус шифрования.
+// Проверяем тип файла нашего документа и статус его шифрования.
 FileFormatInfo info = FileFormatUtil.DetectFileFormat(ArtifactsDir + "File.DetectDocumentEncryption.odt");
 
 Assert.AreEqual(".odt", FileFormatUtil.LoadFormatToExtension(info.LoadFormat));
@@ -100,18 +100,18 @@ public static FileFormatInfo DetectFileFormat(Stream stream)
 
 Поток должен располагаться в начале документа.
 
-Когда этот метод возвращается, положение в потоке восстанавливается до исходного положения.
+Когда этот метод завершает работу, позиция в потоке восстанавливается в исходное положение.
 
-Даже если этот метод определяет формат документа, он не гарантирует , что указанный документ действителен. Этот метод определяет формат документа только путем считывания данных, достаточных для обнаружения. Чтобы полностью убедиться, что документ действителен , вам необходимо загрузить документ в[`Document`](../../document/) объект.
+Даже если этот метод определяет формат документа, он не гарантирует , что указанный документ действителен. Этот метод определяет формат документа только путем чтения данных, достаточных для обнаружения. Чтобы полностью убедиться в том, что документ действителен, вам необходимо загрузить документ в[`Document`](../../document/) объект.
 
-Этот метод выдает[`FileCorruptedException`](../../filecorruptedexception/) когда формат распознан, но обнаружение не может быть завершено из-за повреждения.
+Этот метод выбрасывает[`FileCorruptedException`](../../filecorruptedexception/) когда формат распознан, но обнаружение не может быть завершено из-за повреждения.
 
 ### Примеры
 
 Показывает, как использовать методы FileFormatUtil для определения формата документа.
 
 ```csharp
-// Загрузить документ из файла, в котором отсутствует расширение файла, а затем определить его формат файла.
+// Загрузите документ из файла, у которого отсутствует расширение файла, а затем определите его формат файла.
 using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing file extension"))
 {
     FileFormatInfo info = FileFormatUtil.DetectFileFormat(docStream);
@@ -119,15 +119,15 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
 
     Assert.AreEqual(LoadFormat.Doc, loadFormat);
 
-    // Ниже приведены два метода преобразования LoadFormat в соответствующий ему SaveFormat.
+    // Ниже приведены два метода преобразования LoadFormat в соответствующий SaveFormat.
     // 1 — Получить строку расширения файла для LoadFormat, затем получить соответствующий SaveFormat из этой строки:
     string fileExtension = FileFormatUtil.LoadFormatToExtension(loadFormat);
     SaveFormat saveFormat = FileFormatUtil.ExtensionToSaveFormat(fileExtension);
 
-    // 2 - Преобразование LoadFormat напрямую в его SaveFormat:
+    // 2 — преобразовать LoadFormat непосредственно в его SaveFormat:
     saveFormat = FileFormatUtil.LoadFormatToSaveFormat(loadFormat);
 
-    // Загрузите документ из потока, а затем сохраните его в файле с автоматически обнаруженным расширением.
+    // Загрузите документ из потока, а затем сохраните его с автоматически определенным расширением файла.
     Document doc = new Document(docStream);
 
     Assert.AreEqual(".doc", FileFormatUtil.SaveFormatToExtension(saveFormat));

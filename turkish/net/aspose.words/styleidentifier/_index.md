@@ -1,14 +1,14 @@
 ---
 title: Enum StyleIdentifier
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.StyleIdentifier Sıralama. Yerel ayardan bağımsız stil tanımlayıcısı.
+description: Aspose.Words.StyleIdentifier Sıralama. Yerel ayardan bağımsız stil tanımlayıcı.
 type: docs
-weight: 5850
+weight: 6150
 url: /tr/net/aspose.words/styleidentifier/
 ---
 ## StyleIdentifier enumeration
 
-Yerel ayardan bağımsız stil tanımlayıcısı.
+Yerel ayardan bağımsız stil tanımlayıcı.
 
 ```csharp
 public enum StyleIdentifier
@@ -19,7 +19,7 @@ public enum StyleIdentifier
 | İsim | Değer | Tanım |
 | --- | --- | --- |
 | BookTitle | `264` |  |
-| CommentReference | `39` | Açıklama (Yorum) Başvuru stili. |
+| CommentReference | `39` | Ek Açıklama (Yorum) Referans stili. |
 | DefaultParagraphFont | `65` | Varsayılan Paragraf Yazı Tipi stili. |
 | Emphasis | `88` |  |
 | EndnoteReference | `42` | Son Not Referans stili. |
@@ -54,7 +54,7 @@ public enum StyleIdentifier
 | BodyTextInd3 | `83` |  |
 | Closing | `63` |  |
 | CommentSubject | `106` |  |
-| CommentText | `30` | Açıklama (Yorum) Metin stili. |
+| CommentText | `30` | Ek Açıklama (Yorum) Metin stili. |
 | Date | `76` |  |
 | DocumentMap | `89` |  |
 | EmailSignature | `91` |  |
@@ -126,7 +126,7 @@ public enum StyleIdentifier
 | NormalWeb | `94` |  |
 | NormalIndent | `28` | Normal Girinti stili. |
 | TableOfAuthorities | `44` |  |
-| TableOfFigures | `35` | Şekil Tablosu stili. |
+| TableOfFigures | `35` | Şekiller Tablosu stili. |
 | ToaHeading | `46` |  |
 | Toc1 | `19` |  |
 | Toc2 | `20` |  |
@@ -139,7 +139,7 @@ public enum StyleIdentifier
 | Toc9 | `27` |  |
 | TocHeading | `266` |  |
 | Revision | `178` |  |
-| OutlineList1 | `108` | 1 / a / i stili. |
+| OutlineList1 | `108` | 1/a/i stili. |
 | OutlineList2 | `109` | 1 / 1.1 / 1.1.1 stili. |
 | OutlineList3 | `110` | Makale / Bölüm stili. |
 | NoList | `107` |  |
@@ -291,57 +291,57 @@ public enum StyleIdentifier
 | PlainTable3 | `269` | Düz Tablo 3 |
 | PlainTable4 | `270` | Düz Tablo 4 |
 | PlainTable5 | `271` | Düz Tablo 5 |
-| TableGridLight | `272` | Tablo Izgara Işığı |
-| GridTable1Light | `273` | Izgara Tablo 1 Light |
+| TableGridLight | `272` | Masa Izgarası Işığı |
+| GridTable1Light | `273` | Izgara Tablosu 1 Light |
 | GridTable2 | `274` | Izgara Tablosu 2 |
 | GridTable3 | `275` | Izgara Tablosu 3 |
 | GridTable4 | `276` | Izgara Tablosu 4 |
-| GridTable5Dark | `277` | Izgara Tablo 5 Dark |
-| GridTable6Colorful | `278` | Izgara Tablo 6 Renkli |
-| GridTable7Colorful | `279` | Izgara Tablo 7 Renkli |
+| GridTable5Dark | `277` | Izgara Tablosu 5 Dark |
+| GridTable6Colorful | `278` | Izgara Tablosu 6 Renkli |
+| GridTable7Colorful | `279` | Izgara Tablosu 7 Renkli |
 | GridTable1LightAccent1 | `280` | Izgara Tablo 1 Işık - Vurgu 1 |
 | GridTable2Accent1 | `281` | Izgara Tablo 2 - Vurgu 1 |
 | GridTable3Accent1 | `282` | Izgara Tablo 3 - Vurgu 1 |
 | GridTable4Accent1 | `283` | Izgara Tablo 4 - Vurgu 1 |
-| GridTable5DarkAccent1 | `284` | Izgara Tablo 5 Koyu - Vurgu 1 |
-| GridTable6ColorfulAccent1 | `285` | Izgara Tablo 6 Renkli - Vurgu 1 |
+| GridTable5DarkAccent1 | `284` | Izgara Tablo 5 Koyu - Vurgulu 1 |
+| GridTable6ColorfulAccent1 | `285` | Izgara Tablo 6 Renkli - Vurgulu 1 |
 | GridTable7ColorfulAccent1 | `286` | Izgara Tablo 7 Renkli - Vurgu 1 |
 | GridTable1LightAccent2 | `287` | Izgara Tablo 1 Işık - Vurgu 2 |
 | GridTable2Accent2 | `288` | Izgara Tablo 2 - Vurgu 2 |
 | GridTable3Accent2 | `289` | Izgara Tablo 3 - Vurgu 2 |
 | GridTable4Accent2 | `290` | Izgara Tablo 4 - Vurgu 2 |
-| GridTable5DarkAccent2 | `291` | Izgara Tablo 5 Koyu - Vurgu 2 |
+| GridTable5DarkAccent2 | `291` | Izgara Tablo 5 Koyu - Vurgulu 2 |
 | GridTable6ColorfulAccent2 | `292` | Izgara Tablo 6 Renkli - Vurgu 2 |
 | GridTable7ColorfulAccent2 | `293` | Izgara Tablo 7 Renkli - Vurgu 2 |
 | GridTable1LightAccent3 | `294` | Izgara Tablo 1 Işık - Vurgu 3 |
 | GridTable2Accent3 | `295` | Izgara Tablo 2 - Vurgu 3 |
 | GridTable3Accent3 | `296` | Izgara Tablo 3 - Vurgu 3 |
 | GridTable4Accent3 | `297` | Izgara Tablo 4 - Vurgu 3 |
-| GridTable5DarkAccent3 | `298` | Izgara Tablo 5 Koyu - Vurgu 3 |
-| GridTable6ColorfulAccent3 | `299` | Izgara Tablo 6 Renkli - Vurgu 3 |
-| GridTable7ColorfulAccent3 | `300` | Izgara Tablo 7 Renkli - Vurgu 3 |
+| GridTable5DarkAccent3 | `298` | Izgara Tablo 5 Koyu - Vurgulu 3 |
+| GridTable6ColorfulAccent3 | `299` | Izgara Tablo 6 Renkli - Vurgulu 3 |
+| GridTable7ColorfulAccent3 | `300` | Izgara Tablo 7 Renkli - Vurgulu 3 |
 | GridTable1LightAccent4 | `301` | Izgara Tablo 1 Işık - Vurgu 4 |
 | GridTable2Accent4 | `302` | Izgara Tablo 2 - Vurgu 4 |
 | GridTable3Accent4 | `303` | Izgara Tablo 3 - Vurgu 4 |
 | GridTable4Accent4 | `304` | Izgara Tablo 4 - Vurgu 4 |
-| GridTable5DarkAccent4 | `305` | Izgara Tablo 5 Koyu - Vurgu 4 |
-| GridTable6ColorfulAccent4 | `306` | Izgara Tablo 6 Renkli - Vurgu 4 |
-| GridTable7ColorfulAccent4 | `307` | Izgara Tablo 7 Renkli - Vurgu 4 |
+| GridTable5DarkAccent4 | `305` | Izgara Tablo 5 Koyu - Vurgulu 4 |
+| GridTable6ColorfulAccent4 | `306` | Izgara Tablo 6 Renkli - Vurgulu 4 |
+| GridTable7ColorfulAccent4 | `307` | Izgara Tablo 7 Renkli - Vurgulu 4 |
 | GridTable1LightAccent5 | `308` | Izgara Tablo 1 Işık - Vurgu 5 |
 | GridTable2Accent5 | `309` | Izgara Tablo 2 - Vurgu 5 |
 | GridTable3Accent5 | `310` | Izgara Tablo 3 - Vurgu 5 |
 | GridTable4Accent5 | `311` | Izgara Tablo 4 - Vurgu 5 |
-| GridTable5DarkAccent5 | `312` | Izgara Tablo 5 Koyu - Vurgu 5 |
-| GridTable6ColorfulAccent5 | `313` | Izgara Tablo 6 Renkli - Vurgu 5 |
-| GridTable7ColorfulAccent5 | `314` | Izgara Tablo 7 Renkli - Vurgu 5 |
-| GridTable1LightAccent6 | `315` | Izgara Tablo 1 Işık - Vurgu 6 |
+| GridTable5DarkAccent5 | `312` | Izgara Tablo 5 Koyu - Vurgulu 5 |
+| GridTable6ColorfulAccent5 | `313` | Izgara Tablo 6 Renkli - Vurgulu 5 |
+| GridTable7ColorfulAccent5 | `314` | Izgara Tablo 7 Renkli - Vurgulu 5 |
+| GridTable1LightAccent6 | `315` | Izgaralı Tablo 1 Işık - Vurgu 6 |
 | GridTable2Accent6 | `316` | Izgara Tablo 2 - Vurgu 6 |
 | GridTable3Accent6 | `317` | Izgara Tablo 3 - Vurgu 6 |
 | GridTable4Accent6 | `318` | Izgara Tablo 4 - Vurgu 6 |
-| GridTable5DarkAccent6 | `319` | Izgara Tablo 5 Koyu - Vurgu 6 |
-| GridTable6ColorfulAccent6 | `320` | Izgara Tablo 6 Renkli - Vurgu 6 |
-| GridTable7ColorfulAccent6 | `321` | Izgara Tablo 7 Renkli - Vurgu 6 |
-| ListTable1Light | `322` | Liste Tablo 1 Light |
+| GridTable5DarkAccent6 | `319` | Izgara Tablo 5 Koyu - Vurgulu 6 |
+| GridTable6ColorfulAccent6 | `320` | Izgara Tablo 6 Renkli - Vurgulu 6 |
+| GridTable7ColorfulAccent6 | `321` | Izgara Tablo 7 Renkli - Vurgulu 6 |
+| ListTable1Light | `322` | Liste Tablosu 1 Light |
 | ListTable2 | `323` | Liste Tablosu 2 |
 | ListTable3 | `324` | Liste Tablosu 3 |
 | ListTable4 | `325` | Liste Tablosu 4 |
@@ -350,58 +350,58 @@ public enum StyleIdentifier
 | ListTable7Colorful | `328` | Liste Tablosu 7 Renkli |
 | ListTable1LightAccent1 | `329` | Liste Tablo 1 Işık - Vurgu 1 |
 | ListTable2Accent1 | `330` | Liste Tablosu 2 - Vurgu 1 |
-| ListTable3Accent1 | `331` | Liste Tablosu 3 - Vurgu 1 |
-| ListTable4Accent1 | `332` | Liste Tablosu 4 - Vurgu 1 |
-| ListTable5DarkAccent1 | `333` | Liste Tablo 5 Koyu - Vurgu 1 |
-| ListTable6ColorfulAccent1 | `334` | Liste Tablosu 6 Renkli - Vurgu 1 |
-| ListTable7ColorfulAccent1 | `335` | Liste Tablo 7 Renkli - Vurgu 1 |
+| ListTable3Accent1 | `331` | Liste Tablo 3 - Vurgu 1 |
+| ListTable4Accent1 | `332` | Liste Tablo 4 - Vurgu 1 |
+| ListTable5DarkAccent1 | `333` | Liste Tablosu 5 Koyu - Vurgulu 1 |
+| ListTable6ColorfulAccent1 | `334` | Liste Tablosu 6 Renkli - Vurgulu 1 |
+| ListTable7ColorfulAccent1 | `335` | Liste Tablosu 7 Renkli - Vurgulu 1 |
 | ListTable1LightAccent2 | `336` | Liste Tablo 1 Işık - Vurgu 2 |
 | ListTable2Accent2 | `337` | Liste Tablosu 2 - Vurgu 2 |
 | ListTable3Accent2 | `338` | Liste Tablosu 3 - Vurgu 2 |
-| ListTable4Accent2 | `339` | Liste Tablosu 4 - Vurgu 2 |
-| ListTable5DarkAccent2 | `340` | Liste Tablo 5 Koyu - Vurgu 2 |
-| ListTable6ColorfulAccent2 | `341` | Liste Tablo 6 Renkli - Vurgu 2 |
-| ListTable7ColorfulAccent2 | `342` | Liste Tablo 7 Renkli - Vurgu 2 |
+| ListTable4Accent2 | `339` | Liste Tablo 4 - Vurgu 2 |
+| ListTable5DarkAccent2 | `340` | Liste Tablosu 5 Koyu - Vurgulu 2 |
+| ListTable6ColorfulAccent2 | `341` | Liste Tablosu 6 Renkli - Vurgu 2 |
+| ListTable7ColorfulAccent2 | `342` | Liste Tablosu 7 Renkli - Vurgulu 2 |
 | ListTable1LightAccent3 | `343` | Liste Tablo 1 Işık - Vurgu 3 |
 | ListTable2Accent3 | `344` | Liste Tablosu 2 - Vurgu 3 |
 | ListTable3Accent3 | `345` | Liste Tablosu 3 - Vurgu 3 |
-| ListTable4Accent3 | `346` | Liste Tablosu 4 - Vurgu 3 |
-| ListTable5DarkAccent3 | `347` | Liste Tablo 5 Koyu - Vurgu 3 |
-| ListTable6ColorfulAccent3 | `348` | Liste Tablo 6 Renkli - Vurgu 3 |
-| ListTable7ColorfulAccent3 | `349` | Liste Tablo 7 Renkli - Vurgu 3 |
+| ListTable4Accent3 | `346` | Liste Tablo 4 - Vurgu 3 |
+| ListTable5DarkAccent3 | `347` | Liste Tablosu 5 Koyu - Vurgulu 3 |
+| ListTable6ColorfulAccent3 | `348` | Liste Tablosu 6 Renkli - Vurgulu 3 |
+| ListTable7ColorfulAccent3 | `349` | Liste Tablosu 7 Renkli - Vurgulu 3 |
 | ListTable1LightAccent4 | `350` | Liste Tablo 1 Işık - Vurgu 4 |
 | ListTable2Accent4 | `351` | Liste Tablosu 2 - Vurgu 4 |
 | ListTable3Accent4 | `352` | Liste Tablosu 3 - Vurgu 4 |
-| ListTable4Accent4 | `353` | Liste Tablosu 4 - Vurgu 4 |
-| ListTable5DarkAccent4 | `354` | Liste Tablo 5 Koyu - Vurgu 4 |
-| ListTable6ColorfulAccent4 | `355` | Liste Tablo 6 Renkli - Vurgu 4 |
-| ListTable7ColorfulAccent4 | `356` | Liste Tablo 7 Renkli - Vurgu 4 |
+| ListTable4Accent4 | `353` | Liste Tablo 4 - Vurgu 4 |
+| ListTable5DarkAccent4 | `354` | Liste Tablosu 5 Koyu - Vurgulu 4 |
+| ListTable6ColorfulAccent4 | `355` | Liste Tablosu 6 Renkli - Vurgulu 4 |
+| ListTable7ColorfulAccent4 | `356` | Liste Tablosu 7 Renkli - Vurgulu 4 |
 | ListTable1LightAccent5 | `357` | Liste Tablo 1 Işık - Vurgu 5 |
 | ListTable2Accent5 | `358` | Liste Tablosu 2 - Vurgu 5 |
 | ListTable3Accent5 | `359` | Liste Tablosu 3 - Vurgu 5 |
 | ListTable4Accent5 | `360` | Liste Tablosu 4 - Vurgu 5 |
-| ListTable5DarkAccent5 | `361` | Liste Tablo 5 Koyu - Vurgu 5 |
-| ListTable6ColorfulAccent5 | `362` | Liste Tablo 6 Renkli - Vurgu 5 |
-| ListTable7ColorfulAccent5 | `363` | Liste Tablo 7 Renkli - Vurgu 5 |
+| ListTable5DarkAccent5 | `361` | Liste Tablosu 5 Koyu - Vurgulu 5 |
+| ListTable6ColorfulAccent5 | `362` | Liste Tablosu 6 Renkli - Vurgulu 5 |
+| ListTable7ColorfulAccent5 | `363` | Liste Tablosu 7 Renkli - Vurgulu 5 |
 | ListTable1LightAccent6 | `364` | Liste Tablo 1 Işık - Vurgu 6 |
 | ListTable2Accent6 | `365` | Liste Tablosu 2 - Vurgu 6 |
 | ListTable3Accent6 | `366` | Liste Tablosu 3 - Vurgu 6 |
 | ListTable4Accent6 | `367` | Liste Tablosu 4 - Vurgu 6 |
-| ListTable5DarkAccent6 | `368` | Liste Tablo 5 Koyu - Vurgu 6 |
-| ListTable6ColorfulAccent6 | `369` | Liste Tablo 6 Renkli - Vurgu 6 |
-| ListTable7ColorfulAccent6 | `370` | Liste Tablo 7 Renkli - Vurgu 6 |
-| Mention | `372` | Bahsetme stili. |
+| ListTable5DarkAccent6 | `368` | Liste Tablosu 5 Koyu - Vurgulu 6 |
+| ListTable6ColorfulAccent6 | `369` | Liste Tablosu 6 Renkli - Vurgulu 6 |
+| ListTable7ColorfulAccent6 | `370` | Liste Tablosu 7 Renkli - Vurgulu 6 |
+| Mention | `372` | Mansiyon stili. |
 | SmartHyperlink | `373` | SmartHyperlink stili. |
 | Hashtag | `374` | Hashtag stili. |
-| UnresolvedMention | `375` | Çözülmemiş Söz stili. |
+| UnresolvedMention | `375` | Çözülmemiş Bahsetme stili. |
 | User | `4094` | Kullanıcı tanımlı bir stil. |
 | Nil | `12287` | Dahili kullanım için ayrılmıştır. |
 
 ### Notlar
 
-MS Word'deki yerleşik stillerin adları farklı diller için yerelleştirilmiştir. Bir stil tanımlayıcı kullanarak, belge dilinden bağımsız olarak doğru stili bulabilirsiniz.
+MS Word'deki yerleşik stillerin adları farklı diller için yerelleştirilmiştir. Bir stil tanımlayıcı kullanarak, belgenin dilinden bağımsız olarak doğru stili bulabilirsiniz.
 
-Tüm kullanıcı tanımlı stillere StyleIdentifier.User değeri atanır.
+Tüm kullanıcı tanımlı stillereUser değer.
 
 ### Örnekler
 
@@ -411,17 +411,17 @@ Mevcut metnin stilinin nasıl değiştirileceğini gösterir.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Aşağıda, stillere başvurmanın iki yolu vardır.
-// 1 - Stil adını kullanarak:
+// Aşağıda stillere referans vermenin iki yolu verilmiştir.
+// 1 - Stil adının kullanılması:
 builder.Font.StyleName = "Emphasis";
 builder.Writeln("Text originally in \"Emphasis\" style");
 
-// 2 - Yerleşik bir stil tanımlayıcısı kullanma:
+// 2 - Yerleşik bir stil tanımlayıcı kullanma:
 builder.Font.StyleIdentifier = StyleIdentifier.IntenseEmphasis;
 builder.Writeln("Text originally in \"Intense Emphasis\" style");
 
 // Bir stilin tüm kullanımlarını diğerine dönüştürün,
-// eski ve yeni stillere başvurmak için yukarıdaki yöntemleri kullanma.
+// eski ve yeni stillere referans vermek için yukarıdaki yöntemleri kullanıyoruz.
 foreach (Run run in doc.GetChildNodes(NodeType.Run, true).OfType<Run>())
 {
     if (run.Font.StyleName == "Emphasis")

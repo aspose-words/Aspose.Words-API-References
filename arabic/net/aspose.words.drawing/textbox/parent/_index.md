@@ -1,14 +1,14 @@
 ---
 title: TextBox.Parent
 second_title: Aspose.Words لمراجع .NET API
-description: TextBox ملكية. الحصول على شكل أصل لمربع النص.
+description: TextBox ملكية. يحصل على الشكل الأصلي لـTextBox .
 type: docs
-weight: 80
+weight: 90
 url: /ar/net/aspose.words.drawing/textbox/parent/
 ---
 ## TextBox.Parent property
 
-الحصول على شكل أصل لمربع النص.
+يحصل على الشكل الأصلي لـ[`TextBox`](../) .
 
 ```csharp
 public Shape Parent { get; }

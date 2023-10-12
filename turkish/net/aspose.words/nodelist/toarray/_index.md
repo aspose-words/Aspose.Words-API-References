@@ -20,32 +20,32 @@ Bir dizi düğüm.
 
 ### Notlar
 
-Yineleyiciyi geçersiz kıldığı ve canlı koleksiyonlar için yenilemeler gerektirdiğinden, düğüm koleksiyonu üzerinde yineleme yaparken düğüm ekleme/çıkarma yapmamalısınız.
+Yineleyiciyi geçersiz kıldığından ve canlı koleksiyonlar için yenilemeler gerektirdiğinden, düğüm koleksiyonu üzerinde yineleme yaparken düğüm eklememeli/kaldırmamalısınız.
 
-Yineleme sırasında düğüm ekleyebilmek/kaldırabilmek için, düğümlerini sabit boyutlu bir diziye kopyalamak için bu yöntemi kullanın ve ardından dizi üzerinde yineleme yapın.
+Yineleme sırasında düğümleri ekleyebilmek/kaldırabilmek için, düğümlerini sabit boyutlu bir diziye kopyalamak ve ardından dizi üzerinde yineleme yapmak için bu yöntemi kullanın.
 
 ### Örnekler
 
-Bir XPath ifadesi kullanarak belirli düğümlerin nasıl seçileceğini gösterir.
+XPath ifadesini kullanarak belirli düğümlerin nasıl seçileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
 
 // Bu ifade tüm paragraf düğümlerini çıkaracak,
-// belgedeki herhangi bir tablo düğümünün soyundan gelenler.
+// bunlar belgedeki herhangi bir tablo düğümünün alt öğeleridir.
 NodeList nodeList = doc.SelectNodes("//Tablo//Paragraf");
 
-// Listeyi bir numaralandırıcı ile yineleyin ve tablonun her hücresindeki her paragrafın içeriğini yazdırın.
+// Listeyi bir numaralandırıcıyla yineleyin ve her paragrafın içeriğini tablonun her hücresine yazdırın.
 int index = 0;
 
 using (IEnumerator<Node> e = nodeList.GetEnumerator())
     while (e.MoveNext())
         Console.WriteLine($"Table paragraph index {index++}, contents: \"{e.Current.GetText().Trim()}\"");
 
-// Bu ifade, belgedeki herhangi bir Gövde düğümünün doğrudan çocukları olan tüm paragrafları seçecektir.
+// Bu ifade, belgedeki herhangi bir Gövde düğümünün doğrudan alt öğesi olan paragrafları seçecektir.
 nodeList = doc.SelectNodes("//Gelişme paragrafı");
 
-// Listeyi bir dizi olarak ele alabiliriz.
+// Listeyi bir dizi gibi ele alabiliriz.
 Assert.AreEqual(4, nodeList.ToArray().Length);
 
 // Yukarıdakiyle aynı ifadenin ilk sonucunu seçmek için SelectSingleNode'u kullanın.

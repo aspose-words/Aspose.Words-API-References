@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.UsePrinterMetrics
 second_title: Referencia de API de Aspose.Words para .NET
-description: CompatibilityOptions propiedad. Usar métricas de impresora para mostrar documentos.
+description: CompatibilityOptions propiedad. Utilice métricas de impresora para mostrar documentos.
 type: docs
 weight: 640
 url: /es/net/aspose.words.settings/compatibilityoptions/useprintermetrics/
 ---
 ## CompatibilityOptions.UsePrinterMetrics property
 
-Usar métricas de impresora para mostrar documentos.
+Utilice métricas de impresora para mostrar documentos.
 
 ```csharp
 public bool UsePrinterMetrics { get; set; }

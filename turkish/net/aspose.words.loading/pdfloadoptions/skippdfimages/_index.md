@@ -1,14 +1,14 @@
 ---
 title: PdfLoadOptions.SkipPdfImages
 second_title: Aspose.Words for .NET API Referansı
-description: PdfLoadOptions mülk. PDF belgesi yüklenirken görüntülerin atlanması gerekip gerekmediğini belirten bayrağı alır veya ayarlar. Varsayılan Yanlıştır.
+description: PdfLoadOptions mülk. PDF belgesi yüklenirken görüntülerin atlanması gerekip gerekmediğini belirten bayrağı alır veya ayarlar. VarsayılanYANLIŞ .
 type: docs
 weight: 40
 url: /tr/net/aspose.words.loading/pdfloadoptions/skippdfimages/
 ---
 ## PdfLoadOptions.SkipPdfImages property
 
-PDF belgesi yüklenirken görüntülerin atlanması gerekip gerekmediğini belirten bayrağı alır veya ayarlar. Varsayılan, Yanlış'tır.
+PDF belgesi yüklenirken görüntülerin atlanması gerekip gerekmediğini belirten bayrağı alır veya ayarlar. Varsayılan:`YANLIŞ` .
 
 ```csharp
 public bool SkipPdfImages { get; set; }
@@ -16,7 +16,7 @@ public bool SkipPdfImages { get; set; }
 
 ### Örnekler
 
-PDF dosyaları yüklenirken görüntülerin nasıl atlanacağını gösterir.
+PDF dosyalarını yüklerken görüntülerin nasıl atlanacağını gösterir.
 
 ```csharp
 PdfLoadOptions options = new PdfLoadOptions();

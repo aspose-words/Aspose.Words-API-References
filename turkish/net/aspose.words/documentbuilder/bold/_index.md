@@ -16,14 +16,14 @@ public bool Bold { get; set; }
 
 ### Örnekler
 
-Adres mektup birleştirme yerine belge oluşturucu ile MERGEFIELD'lerin verilerle nasıl doldurulacağını gösterir.
+Adres-mektup birleştirme yerine belge oluşturucuyla MERGEFIELD'lerin verilerle nasıl doldurulacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Adres mektup birleştirme sırasında bir veri kaynağındaki aynı ada sahip sütunlardan veri kabul eden bazı MERGEFIELDS ekleyin,
-// ve ardından bunları manuel olarak doldurun.
+// Adres-mektup birleştirme sırasında veri kaynağındaki aynı isimdeki sütunlardan veri kabul eden bazı MERGEFIELDS'leri ekleyin,
+// ve ardından manuel olarak doldurun.
 builder.InsertField(" MERGEFIELD Chairman ");
 builder.InsertField(" MERGEFIELD ChiefFinancialOfficer ");
 builder.InsertField(" MERGEFIELD ChiefTechnologyOfficer ");

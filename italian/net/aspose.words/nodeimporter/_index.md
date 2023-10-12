@@ -1,14 +1,16 @@
 ---
 title: Class NodeImporter
 second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.NodeImporter classe. Consente di eseguire in modo efficiente limportazione ripetuta di nodi da un documento allaltro.
+description: Aspose.Words.NodeImporter classe. Permette di eseguire in modo efficiente limportazione ripetuta di nodi da un documento allaltro.
 type: docs
-weight: 3970
+weight: 4210
 url: /it/net/aspose.words/nodeimporter/
 ---
 ## NodeImporter class
 
-Consente di eseguire in modo efficiente l'importazione ripetuta di nodi da un documento all'altro.
+Permette di eseguire in modo efficiente l'importazione ripetuta di nodi da un documento all'altro.
+
+Per saperne di più, visita il[Modello oggetto documento Aspose.Words (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) articolo di documentazione.
 
 ```csharp
 public class NodeImporter
@@ -25,28 +27,27 @@ public class NodeImporter
 
 | Nome | Descrizione |
 | --- | --- |
-| [ImportNode](../../aspose.words/nodeimporter/importnode/)(Node, bool) | Importa un nodo da un documento a un altro. |
+| [ImportNode](../../aspose.words/nodeimporter/importnode/)(Node, bool) | Importa un nodo da un documento in un altro. |
 
 ### Osservazioni
 
-Aspose.Words fornisce funzionalità per copiare e spostare facilmente frammenti tra documenti Microsoft Word. Questo è noto come "importazione di nodi". Prima di poter inserire un frammento da un documento in un altro, è necessario "importarlo". L'importazione crea un clone profondo del nodo originale, pronto per essere inserito nel documento di destinazione .
+Aspose.Words fornisce funzionalità per copiare e spostare facilmente frammenti tra documenti Microsoft Word. Questo è noto come "importazione di nodi". Prima di poter inserire un frammento da un documento in un altro, è necessario "importarlo". L'importazione crea un clone profondo del nodo originale, pronto per essere inserito nel documento di destinazione.
 
-Il modo più semplice per importare un nodo è utilizzare il file[`ImportNode`](../documentbase/importnode/) metodo fornito dal[`DocumentBase`](../documentbase/) oggetto.
+Il modo più semplice per importare un nodo è utilizzare il file[`ImportNode`](../documentbase/importnode/) metodo fornito da[`DocumentBase`](../documentbase/) oggetto.
 
-Tuttavia, quando devi importare nodi da un documento all'altro più volte, è meglio usare il`NodeImporter` classe. Il`NodeImporter` La classe consente di ridurre al minimo il numero di stili ed elenchi creati nel documento di destinazione.
+Tuttavia, quando è necessario importare nodi da un documento all'altro più volte, è meglio utilizzare il comando`NodeImporter` classe. IL`NodeImporter` La classe consente di ridurre al minimo il numero di stili ed elenchi creati nel documento di destinazione.
 
-La copia o lo spostamento di frammenti da un documento di Microsoft Word a un altro presenta un numero di sfide tecniche per Aspose.Words. In un documento Word, gli stili e la formattazione dell'elenco sono archiviati centralmente, separatamente dal testo del documento. I paragrafi e le sequenze di testo fanno semplicemente riferimento agli stili tramite identificatori univoci interni.
+Copiare o spostare frammenti da un documento Microsoft Word a un altro presenta un numero di sfide tecniche per Aspose.Words. In un documento Word, gli stili e la formattazione dell'elenco vengono archiviati centralmente, separatamente dal testo del documento. I paragrafi e le sequenze di testo fanno semplicemente riferimento agli stili tramite identificatori univoci interni.
 
-Le sfide derivano dal fatto che stili ed elenchi sono diversi in documenti diversi. Ad esempio, per copiare un paragrafo formattato con lo stile Intestazione 1 da un documento all'altro, è necessario tenere conto di una serie di cose: decidere se copia lo stile Intestazione 1 da il documento di origine al documento di destinazione, clona il paragrafo, aggiorna il paragrafo clonato in modo che faccia riferimento allo stile Intestazione 1 corretto nel documento di destinazione. Se lo stile doveva essere copiato, tutti gli stili che esso i riferimenti (basati su style e sullo stile del paragrafo successivo) dovrebbero essere analizzati ed eventualmente copiati e così via. Esistono problemi simili quando si copiano paragrafi puntati o numerati perché Microsoft Word memorizza le definizioni degli elenchi separatamente dal testo.
+Le sfide nascono dal fatto che stili ed elenchi sono diversi nei diversi documenti. Ad esempio, per copiare un paragrafo formattato con lo stile Titolo 1 da un documento a un altro, è necessario tenere conto di una serie di cose: decidere se copiare lo stile Titolo 1 dal documento di origine al documento di destinazione, clonare il paragrafo, aggiornare il paragrafo clonato in modo che faccia riferimento allo stile Titolo 1 corretto nel documento di destinazione. Se lo stile dovesse essere copiato, tutti gli stili che contiene i riferimenti (basati su style e sullo stile del paragrafo successivo) dovrebbero essere analizzati ed eventualmente anche copiati e così via. Problemi simili esistono quando si copiano paragrafi puntati o numerati perché Microsoft Word memorizza le definizioni degli elenchi separatamente dal testo.
 
-Il`NodeImporter`class è come un contesto, che contiene le "tabelle di traduzione" durante l'importazione. Traduce correttamente tra stili ed elenchi nei documenti di origine e di destinazione.
+IL`NodeImporter`class è come un contesto, che contiene le "tabelle di traduzione" durante l'importazione. Si traduce correttamente tra stili ed elenchi nei documenti di origine e di destinazione.
 
 ### Esempi
 
 Mostra come inserire il contenuto di un documento in un segnalibro in un altro documento.
 
 ```csharp
-[Test]
 public void InsertAtBookmark()
 {
     Document doc = new Document();
@@ -83,7 +84,7 @@ static void InsertDocument(Node insertionDestination, Document docToInsert)
             new NodeImporter(docToInsert, insertionDestination.Document, ImportFormatMode.KeepSourceFormatting);
 
         // Passa attraverso tutti i nodi a livello di blocco nel corpo della sezione,
-        // quindi clona e inserisci ogni nodo che non sia l'ultimo paragrafo vuoto di una sezione.
+        // quindi clona e inserisce ogni nodo che non sia l'ultimo paragrafo vuoto di una sezione.
         foreach (Section srcSection in docToInsert.Sections.OfType<Section>())
             foreach (Node srcNode in srcSection.Body)
             {

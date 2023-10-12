@@ -1,14 +1,14 @@
 ---
 title: Document.PageCount
 second_title: Aspose.Words for .NET API Referansı
-description: Document mülk. En son sayfa düzeni işlemi tarafından hesaplandığı şekliyle belgedeki sayfa sayısını alır.
+description: Document mülk. En son sayfa düzeni işlemiyle hesaplanan belgedeki sayfa sayısını alır.
 type: docs
-weight: 300
+weight: 320
 url: /tr/net/aspose.words/document/pagecount/
 ---
 ## Document.PageCount property
 
-En son sayfa düzeni işlemi tarafından hesaplandığı şekliyle belgedeki sayfa sayısını alır.
+En son sayfa düzeni işlemiyle hesaplanan belgedeki sayfa sayısını alır.
 
 ```csharp
 public int PageCount { get; }
@@ -32,7 +32,7 @@ builder.Write("Page 3");
 Assert.AreEqual(3, doc.PageCount);
 
 // PageCount özelliğinin alınması, değeri hesaplamak için belgenin sayfa düzenini çağırdı.
-// Belgeyi sabit bir sayfa kaydetme biçimine dönüştürürken bu işlemin yeniden yapılması gerekmeyecek,
+// Belgeyi sabit sayfa kaydetme formatına dönüştürürken bu işlemin yeniden yapılmasına gerek kalmayacak,
 // .pdf gibi. Böylece, özellikle daha karmaşık belgelerde biraz zaman kazanabilirsiniz.
 doc.Save(ArtifactsDir + "Document.GetPageCount.pdf");
 ```

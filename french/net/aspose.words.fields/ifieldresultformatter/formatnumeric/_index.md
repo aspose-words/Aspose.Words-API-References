@@ -1,14 +1,14 @@
 ---
 title: IFieldResultFormatter.FormatNumeric
 second_title: Référence de l'API Aspose.Words pour .NET
-description: IFieldResultFormatter méthode. Appelé lorsque Aspose.Words applique un commutateur de format numérique cestàdire  ..
+description: IFieldResultFormatter méthode. Appelé lorsque Aspose.Words applique un changement de format numérique cestàdire  ..
 type: docs
 weight: 30
 url: /fr/net/aspose.words.fields/ifieldresultformatter/formatnumeric/
 ---
 ## IFieldResultFormatter.FormatNumeric method
 
-Appelé lorsque Aspose.Words applique un commutateur de format numérique, c'est-à-dire \# "#.##".
+Appelé lorsque Aspose.Words applique un changement de format numérique, c'est-à-dire \# "#.##".
 
 ```csharp
 public string FormatNumeric(double value, string format)
@@ -16,23 +16,24 @@ public string FormatNumeric(double value, string format)
 
 ### Remarques
 
-L'implémentation doit retourner **nul** pour indiquer que la mise en forme par défaut doit être appliquée.
+L'implémentation devrait renvoyer`nul` pour indiquer que le formatage par défaut doit être appliqué.
 
 ### Exemples
 
-Montre comment appliquer automatiquement un format personnalisé aux résultats de champ lors de la mise à jour des champs.
+Montre comment appliquer automatiquement un format personnalisé aux résultats des champs à mesure que les champs sont mis à jour.
 
 ```csharp
+public void FieldResultFormatting()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
     FieldResultFormatter formatter = new FieldResultFormatter("${0}", "Date: {0}", "Item # {0}:");
     doc.FieldOptions.ResultFormatter = formatter;
 
-    // Notre formateur de résultat de champ applique un format personnalisé aux champs nouvellement créés de trois types de formats.
-    // Les formateurs de résultats de champ appliquent une nouvelle mise en forme aux champs lorsqu'ils sont mis à jour,
-    // qui se produit dès que nous les créons à l'aide de cette surcharge de méthode InsertField.
-    // 1 - Numérique :
+    // Notre formateur de résultats de champ applique un format personnalisé aux champs nouvellement créés de trois types de formats.
+    // Les formateurs de résultats de champs appliquent un nouveau formatage aux champs au fur et à mesure de leur mise à jour,
+    // ce qui se produit dès que nous les créons en utilisant cette surcharge de méthode InsertField.
+    // 1 - Numérique :
     builder.InsertField(" = 2 + 3 \\# $###");
 
     Assert.AreEqual("$5", doc.Range.Fields[0].Result);

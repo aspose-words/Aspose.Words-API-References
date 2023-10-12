@@ -3,12 +3,14 @@ title: Class FieldFormat
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Fields.FieldFormat klass. Ger maskinskriven åtkomst till fältets siffror datum och tid samt allmän formatering.
 type: docs
-weight: 1790
+weight: 1940
 url: /sv/net/aspose.words.fields/fieldformat/
 ---
 ## FieldFormat class
 
 Ger maskinskriven åtkomst till fältets siffror, datum och tid samt allmän formatering.
+
+För att lära dig mer, besök[Arbeta med Fields](https://docs.aspose.com/words/net/working-with-fields/) dokumentationsartikel.
 
 ```csharp
 public class FieldFormat

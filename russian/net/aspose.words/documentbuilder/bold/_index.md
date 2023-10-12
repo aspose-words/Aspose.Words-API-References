@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.Bold
 second_title: Справочник по API Aspose.Words для .NET
-description: DocumentBuilder свойство. Истинно если шрифт отформатирован как полужирный.
+description: DocumentBuilder свойство. True если шрифт отформатирован как жирный.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/documentbuilder/bold/
 ---
 ## DocumentBuilder.Bold property
 
-Истинно, если шрифт отформатирован как полужирный.
+True, если шрифт отформатирован как жирный.
 
 ```csharp
 public bool Bold { get; set; }
@@ -16,14 +16,14 @@ public bool Bold { get; set; }
 
 ### Примеры
 
-Показывает, как заполнить поля MERGEFIELD данными с помощью построителя документов вместо слияния.
+Показывает, как заполнить поля MERGEFIELD данными с помощью построителя документов вместо слияния почты.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставляем несколько MERGEFIELDS, которые принимают данные из столбцов с тем же именем в источнике данных во время слияния почты,
-// и затем заполнить их вручную.
+// Вставляем несколько MERGEFIELDS, которые принимают данные из одноименных столбцов в источнике данных во время слияния почты,
+// а затем заполняем их вручную.
 builder.InsertField(" MERGEFIELD Chairman ");
 builder.InsertField(" MERGEFIELD ChiefFinancialOfficer ");
 builder.InsertField(" MERGEFIELD ChiefTechnologyOfficer ");

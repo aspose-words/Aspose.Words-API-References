@@ -3,7 +3,7 @@ title: Stroke.Weight
 second_title: Aspose.Words per .NET API Reference
 description: Stroke proprietà. Definisce lo spessore del pennello che traccia il percorso di una forma in punti.
 type: docs
-weight: 200
+weight: 220
 url: /it/net/aspose.words.drawing/stroke/weight/
 ---
 ## Stroke.Weight property
@@ -43,6 +43,7 @@ stroke.DashStyle = DashStyle.ShortDashDotDot;
 stroke.JoinStyle = JoinStyle.Miter;
 stroke.EndCap = EndCap.Square;
 stroke.LineStyle = ShapeLineStyle.Triple;
+stroke.Fill.TwoColorGradient(Color.Red, Color.Blue, GradientStyle.Vertical, GradientVariant.Variant1);
 
 doc.Save(ArtifactsDir + "Shape.Stroke.docx");
 ```

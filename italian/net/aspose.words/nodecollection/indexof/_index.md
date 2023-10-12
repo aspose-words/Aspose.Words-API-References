@@ -24,7 +24,7 @@ L'indice in base zero del nodo all'interno della raccolta, se trovato; altriment
 
 ### Osservazioni
 
-Questo metodo esegue una ricerca lineare; pertanto, il tempo medio di esecuzione è proporzionale a Count.
+Questo metodo esegue una ricerca lineare; pertanto, il tempo medio di esecuzione è proporzionale a[`Count`](../count/).
 
 ### Esempi
 

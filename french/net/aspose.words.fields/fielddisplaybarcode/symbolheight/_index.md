@@ -1,14 +1,14 @@
 ---
 title: FieldDisplayBarcode.SymbolHeight
 second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldDisplayBarcode propriété. Obtient ou définit la hauteur du symbole. Les unités sont en TWIPS 1/1440 pouce.
+description: FieldDisplayBarcode propriété. Obtient ou définit la hauteur du symbole. Les unités sont en TWIPS 1/1440 de pouce.
 type: docs
 weight: 130
 url: /fr/net/aspose.words.fields/fielddisplaybarcode/symbolheight/
 ---
 ## FieldDisplayBarcode.SymbolHeight property
 
-Obtient ou définit la hauteur du symbole. Les unités sont en TWIPS (1/1440 pouce).
+Obtient ou définit la hauteur du symbole. Les unités sont en TWIPS (1/1440 de pouce).
 
 ```csharp
 public string SymbolHeight { get; set; }
@@ -25,7 +25,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 FieldDisplayBarcode field = (FieldDisplayBarcode)builder.InsertField(FieldType.FieldDisplayBarcode, true);
 
 // Vous trouverez ci-dessous quatre types de codes-barres, décorés de différentes manières, que le champ DISPLAYBARCODE peut afficher.
-// 1 - QR code avec des couleurs personnalisées :
+// 1 - QR code avec couleurs personnalisées :
 field.BarcodeType = "QR";
 field.BarcodeValue = "ABC123";
 field.BackgroundColor = "0xF8BD69";
@@ -58,7 +58,7 @@ field.AddStartStopChar = true;
 Assert.AreEqual(" DISPLAYBARCODE  12345ABCDE CODE39 \\d", field.GetFieldCode());
 builder.Writeln();
 
-// 4 - Code-barres ITF4, avec un code de cas spécifié :
+// 4 - Code-barres ITF4, avec un code cas spécifié :
 field = (FieldDisplayBarcode)builder.InsertField(FieldType.FieldDisplayBarcode, true);
 field.BarcodeType = "ITF14";
 field.BarcodeValue = "09312345678907";

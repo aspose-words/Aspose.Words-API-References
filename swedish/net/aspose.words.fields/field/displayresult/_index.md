@@ -34,7 +34,7 @@ fieldAuthor.AuthorName = "John Doe";
 // ett fält skulle visas på dess plats i dokumentet.
 Assert.AreEqual(string.Empty, fieldAuthor.DisplayResult);
 
-  // Fält upprätthåller inte korrekta resultatvärden i realtid.
+ // Fält upprätthåller inte korrekta resultatvärden i realtid.
 // För att säkerställa att våra fält visar korrekta resultat vid varje given tidpunkt,
 // som precis innan en lagringsoperation måste vi uppdatera dem manuellt.
 fieldAuthor.Update();

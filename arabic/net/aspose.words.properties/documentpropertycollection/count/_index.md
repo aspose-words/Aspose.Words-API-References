@@ -1,14 +1,14 @@
 ---
 title: DocumentPropertyCollection.Count
 second_title: Aspose.Words لمراجع .NET API
-description: DocumentPropertyCollection ملكية. الحصول على عدد العناصر في المجموعة.
+description: DocumentPropertyCollection ملكية. الحصول على عدد العناصر الموجودة في المجموعة.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.properties/documentpropertycollection/count/
 ---
 ## DocumentPropertyCollection.Count property
 
-الحصول على عدد العناصر في المجموعة.
+الحصول على عدد العناصر الموجودة في المجموعة.
 
 ```csharp
 public int Count { get; }
@@ -16,13 +16,13 @@ public int Count { get; }
 
 ### أمثلة
 
-يوضح كيفية التعامل مع خصائص المستند المخصصة.
+يوضح كيفية العمل مع خصائص المستند المخصصة.
 
 ```csharp
 Document doc = new Document(MyDir + "Properties.docx");
 
-// يحتوي كل مستند على مجموعة من الخصائص المخصصة ، والتي ، مثل الخصائص المضمنة ، هي أزواج مفتاح - قيمة.
-// يحتوي المستند على قائمة ثابتة من الخصائص المضمنة. يقوم المستخدم بإنشاء كافة الخصائص المخصصة. 
+// يحتوي كل مستند على مجموعة من الخصائص المخصصة، والتي، مثل الخصائص المضمنة، هي أزواج قيمة المفتاح.
+ // يحتوي المستند على قائمة ثابتة بالخصائص المضمنة. يقوم المستخدم بإنشاء كافة الخصائص المخصصة.
 Assert.AreEqual("Value of custom document property", doc.CustomDocumentProperties["CustomProperty"].ToString());
 
 doc.CustomDocumentProperties.Add("CustomProperty2", "Value of custom document property #2");

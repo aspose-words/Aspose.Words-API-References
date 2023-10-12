@@ -1,14 +1,14 @@
 ---
 title: TextBox.FitShapeToText
 second_title: Aspose.Words für .NET-API-Referenz
-description: TextBox eigendom. Legt fest ob Microsoft Word die Form vergrößert damit sie in den Text passt.
+description: TextBox eigendom. Legt fest ob Microsoft Word die Form an den Text anpasst.
 type: docs
 weight: 10
 url: /de/net/aspose.words.drawing/textbox/fitshapetotext/
 ---
 ## TextBox.FitShapeToText property
 
-Legt fest, ob Microsoft Word die Form vergrößert, damit sie in den Text passt.
+Legt fest, ob Microsoft Word die Form an den Text anpasst.
 
 ```csharp
 public bool FitShapeToText { get; set; }
@@ -16,11 +16,11 @@ public bool FitShapeToText { get; set; }
 
 ### Bemerkungen
 
-Der Standardwert ist **FALSCH**.
+Der Standardwert ist`FALSCH`.
 
 ### Beispiele
 
-Zeigt, wie ein Textfeld dazu gebracht wird, seine Größe so zu ändern, dass es eng an seinen Inhalt passt.
+Zeigt, wie man die Größe eines Textfelds so anpasst, dass es genau in den Inhalt passt.
 
 ```csharp
 Document doc = new Document();
@@ -29,8 +29,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape textBoxShape = builder.InsertShape(ShapeType.TextBox, 150, 100);
 TextBox textBox = textBoxShape.TextBox;
 
-// Wenden Sie diese Werte auf diese beiden Elemente an, damit die übergeordnete Form passt
-// eng um den Textinhalt herum und ignoriert die von uns festgelegten Abmessungen.
+// Diese Werte auf diese beiden Elemente anwenden, damit die übergeordnete Form passt
+// eng um den Textinhalt legen und dabei die von uns festgelegten Abmessungen ignorieren.
 textBox.FitShapeToText = true;
 textBox.TextBoxWrapMode = TextBoxWrapMode.None;
 

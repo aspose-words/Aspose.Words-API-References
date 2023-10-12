@@ -16,17 +16,16 @@ public abstract string LibId { get; }
 
 ### Notlar
 
-Referans türüne bağlı olarak bu özelliğin değeri şu olabilir:
+Referans türüne bağlı olarak bu özelliğin değeri şu şekilde olabilir:
 
-* [MS-OVBA]: https://docs.microsoft.com/en-us/openspecs/office_file_formats/ms-ovba/3737ef6e-d819-4186-a5f2-6e258ddf66a5 2.1.1.8 LibidReference'da belirtilen bir LibidReference
-* [MS-OVBA]: https://docs.microsoft.com/en-us/openspecs/office_file_formats/ms-ovba/9a45ac1a-f1ff-4ebd-958e-537701aa8131'in 2.1.1.12 Proje Referansında belirtilen bir Proje Referansı
+* 2.1.1.8 [MS-OVBA] LibidReferansında belirtilen bir LibidReferansı: https://docs.microsoft.com/en-us/openspecs/office_file_formats/ms-ovba/3737ef6e-d819-4186-a5f2-6e258ddf66a5
+* [MS-OVBA]'nın 2.1.1.12 Proje Referansı'nda belirtilen bir Proje Referansı: https://docs.microsoft.com/en-us/openspecs/office_file_formats/ms-ovba/9a45ac1a-f1ff-4ebd-958e-537701aa8131
 
 ### Örnekler
 
-VBA başvuru koleksiyonundan bir öğenin nasıl alınacağını/kaldırılacağını gösterir.
+VBA referans koleksiyonundan bir öğenin nasıl alınacağını/kaldırılacağını gösterir.
 
 ```csharp
-[Test]
 public void RemoveVbaReference()
 {
     const string brokenPath = @"X:\broken.dll";
@@ -52,7 +51,7 @@ public void RemoveVbaReference()
 }
 
 /// <summary>
-/// Belirtilen bir başvurunun LibId yolunu temsil eden dizeyi döndürür. 
+ /// Belirtilen bir referansın LibId yolunu temsil eden dizeyi döndürür.
 /// </summary>
 private static string GetLibIdPath(VbaReference reference)
 {

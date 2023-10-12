@@ -1,14 +1,14 @@
 ---
 title: TableStyle.ColumnStripe
 second_title: Справочник по API Aspose.Words для .NET
-description: TableStyle свойство. Получает или задает количество столбцов для включения в полосу когда стиль определяет полосу нечетных/четных столбцов.
+description: TableStyle свойство. Получает или задает количество столбцов которые необходимо включить в группировку когда стиль определяет группировку нечетных/четных столбцов.
 type: docs
 weight: 70
 url: /ru/net/aspose.words/tablestyle/columnstripe/
 ---
 ## TableStyle.ColumnStripe property
 
-Получает или задает количество столбцов для включения в полосу, когда стиль определяет полосу нечетных/четных столбцов.
+Получает или задает количество столбцов, которые необходимо включить в группировку, когда стиль определяет группировку нечетных/четных столбцов.
 
 ```csharp
 public int ColumnStripe { get; set; }
@@ -16,17 +16,17 @@ public int ColumnStripe { get; set; }
 
 ### Примеры
 
-Показывает, как создавать условные стили таблиц, которые чередуются между строками.
+Показывает, как создавать стили условных таблиц, которые чередуются между строками.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Мы можем настроить условный стиль таблицы, чтобы применить другой цвет к строке/столбцу,
-// в зависимости от того, является ли строка/столбец четным или нечетным, создавая чередующийся цветовой узор.
+// в зависимости от того, является ли строка/столбец четной или нечетной, создается шаблон чередующегося цвета.
 // Мы также можем применить число n к полосе строк/столбцов,
-// это означает, что цвет меняется после каждых n строк/столбцов вместо одного.
-// Создайте таблицу, в которой отдельные столбцы и строки будут объединены, а столбцы будут объединены в тройки.
+// это означает, что цвет меняется после каждых n строк/столбцов вместо одной.
+// Создайте таблицу, в которой отдельные столбцы и строки будут объединены в группы, а столбцы будут объединены в тройки.
 Table table = builder.StartTable();
 for (int i = 0; i < 15; i++)
 {
@@ -45,22 +45,22 @@ TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyl
 tableStyle.Borders.Color = Color.Black;
 tableStyle.Borders.LineStyle = LineStyle.Double;
 
-// Установите два цвета, которые будут чередоваться через каждые 3 строки.
+// Устанавливаем два цвета, которые будут чередоваться через каждые 3 строки.
 tableStyle.RowStripe = 3;
 tableStyle.ConditionalStyles[ConditionalStyleType.OddRowBanding].Shading.BackgroundPatternColor = Color.LightBlue;
 tableStyle.ConditionalStyles[ConditionalStyleType.EvenRowBanding].Shading.BackgroundPatternColor = Color.LightCyan;
 
-// Установите цвет для каждого четного столбца, который переопределит любой пользовательский цвет строки.
+// Установите цвет, который будет применяться к каждому четному столбцу, который будет переопределять любую пользовательскую окраску строк.
 tableStyle.ColumnStripe = 1;
 tableStyle.ConditionalStyles[ConditionalStyleType.EvenColumnBanding].Shading.BackgroundPatternColor = Color.LightSalmon;
 
 table.Style = tableStyle;
 
-// Свойство "StyleOptions" по умолчанию включает полосу строк.
+// Свойство «StyleOptions» по умолчанию включает объединение строк.
 Assert.AreEqual(TableStyleOptions.FirstRow | TableStyleOptions.FirstColumn | TableStyleOptions.RowBands,
     table.StyleOptions);
 
-// Используйте свойство "StyleOptions" также, чтобы включить полосу столбцов.
+// Используйте также свойство StyleOptions, чтобы включить объединение столбцов.
 table.StyleOptions = table.StyleOptions | TableStyleOptions.ColumnBands;
 
 doc.Save(ArtifactsDir + "Table.AlternatingRowStyles.docx");

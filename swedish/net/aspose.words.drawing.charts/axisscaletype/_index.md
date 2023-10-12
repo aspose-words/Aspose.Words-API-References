@@ -3,7 +3,7 @@ title: Enum AxisScaleType
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Drawing.Charts.AxisScaleType uppräkning. Anger möjliga skaltyper för en axel.
 type: docs
-weight: 550
+weight: 560
 url: /sv/net/aspose.words.drawing.charts/axisscaletype/
 ---
 ## AxisScaleType enumeration

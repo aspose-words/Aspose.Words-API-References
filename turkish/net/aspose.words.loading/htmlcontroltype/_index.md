@@ -3,7 +3,7 @@ title: Enum HtmlControlType
 second_title: Aspose.Words for .NET API Referansı
 description: Aspose.Words.Loading.HtmlControlType Sıralama. HTMLden içe aktarılan input ve select öğelerini temsil eden belge düğümlerinin türü.
 type: docs
-weight: 3410
+weight: 3610
 url: /tr/net/aspose.words.loading/htmlcontroltype/
 ---
 ## HtmlControlType enumeration

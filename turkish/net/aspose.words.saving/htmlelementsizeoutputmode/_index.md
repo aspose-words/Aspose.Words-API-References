@@ -1,14 +1,14 @@
 ---
 title: Enum HtmlElementSizeOutputMode
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Saving.HtmlElementSizeOutputMode Sıralama. Aspose.Wordsün eleman genişliklerini ve yüksekliklerini HTML MHTML ve EPUBa nasıl aktardığını belirtir.
+description: Aspose.Words.Saving.HtmlElementSizeOutputMode Sıralama. Aspose.Wordsün öğe genişliklerini ve yüksekliklerini HTML MHTML ve EPUBa nasıl aktardığını belirtir.
 type: docs
-weight: 4800
+weight: 5060
 url: /tr/net/aspose.words.saving/htmlelementsizeoutputmode/
 ---
 ## HtmlElementSizeOutputMode enumeration
 
-Aspose.Words'ün eleman genişliklerini ve yüksekliklerini HTML, MHTML ve EPUB'a nasıl aktardığını belirtir.
+Aspose.Words'ün öğe genişliklerini ve yüksekliklerini HTML, MHTML ve EPUB'a nasıl aktardığını belirtir.
 
 ```csharp
 public enum HtmlElementSizeOutputMode
@@ -19,7 +19,7 @@ public enum HtmlElementSizeOutputMode
 | İsim | Değer | Tanım |
 | --- | --- | --- |
 | All | `0` | Belgede belirtilen hem mutlak hem de göreli birimlerdeki tüm öğe boyutları dışa aktarılır. |
-| RelativeOnly | `1` | Öğe boyutları, yalnızca belgede göreli birimlerde belirtilmişse dışa aktarılır. Bu modda sabit boyutlar dışa aktarılmaz. Görsel aracılar, belge düzenini daha doğal hale getirmek için eksik boyutları hesaplayacaktır. |
+| RelativeOnly | `1` | Öğe boyutları yalnızca belgede ilgili birimler halinde belirtilmişse dışa aktarılır. Sabit boyutlar bu modda dışa aktarılmaz. Görsel aracılar, belge düzenini daha doğal hale getirmek için eksik boyutları hesaplayacak. |
 | None | `2` | Öğe boyutları dışa aktarılmaz. Görsel aracılar, öğeler arasındaki ilişkiye göre düzeni otomatik olarak oluşturacaktır. |
 
 ### Örnekler
@@ -30,7 +30,7 @@ public enum HtmlElementSizeOutputMode
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Negatif girintili bir tablo ekleyin, bu tablo onu sol sayfa sınırını geçecek şekilde sola itecektir.
+// Negatif girintili bir tablo ekleyin, bu tabloyu sol sayfa sınırının ötesine itecek.
 Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, Cell 1");
@@ -52,9 +52,9 @@ builder.EndTable();
 table.LeftIndent = 36;
 table.PreferredWidth = PreferredWidth.FromPoints(144);
 
-// Bir belgeyi HTML'ye kaydettiğimizde Aspose.Words sadece negatif girintileri koruyacak
+// Bir belgeyi HTML'ye kaydettiğimizde Aspose.Words yalnızca negatif girintileri korur
 // "AllowNegativeIndent" bayrağını ayarlarsak ilk tabloya uyguladığımız gibi
-// "true" olarak geçireceğimiz bir SaveOptions nesnesinde.
+// SaveOptions nesnesinde "true" değerine geçeceğiz.
 HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html)
 {
     AllowNegativeIndent = allowNegativeIndent,

@@ -1,14 +1,14 @@
 ---
 title: WarningInfoCollection.Count
 second_title: Aspose.Words for .NET API Referansı
-description: WarningInfoCollection mülk. Koleksiyonda bulunan öğelerin sayısını alır.
+description: WarningInfoCollection mülk. Koleksiyonda yer alan öğelerin sayısını alır.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/warninginfocollection/count/
 ---
 ## WarningInfoCollection.Count property
 
-Koleksiyonda bulunan öğelerin sayısını alır.
+Koleksiyonda yer alan öğelerin sayısını alır.
 
 ```csharp
 public int Count { get; }

@@ -1,12 +1,12 @@
 ---
 title: Aspose.Words.Replacing
 second_title: Référence de l'API Aspose.Words pour .NET
-description: La Aspose.Words.Replaceing namespace fournit des classes pour manipuler avec des opérations de recherche/remplacement sur larborescence du document.
+description: Le Aspose.Words.Remplacer Lespace de noms fournit des classes pour manipuler avec des opérations de recherche/remplacement sur larborescence du document.
 type: docs
-weight: 200
+weight: 210
 url: /fr/net/aspose.words.replacing/
 ---
-La **Aspose.Words.Replaceing** namespace fournit des classes pour manipuler avec des opérations de recherche/remplacement sur l'arborescence du document.
+Le **Aspose.Words.Remplacer** L'espace de noms fournit des classes pour manipuler avec des opérations de recherche/remplacement sur l'arborescence du document.
 
 ## Des classes
 
@@ -24,6 +24,6 @@ La **Aspose.Words.Replaceing** namespace fournit des classes pour manipuler avec
 | Énumération | La description |
 | --- | --- |
 | [FindReplaceDirection](./findreplacedirection/) | Spécifie la direction des opérations de remplacement. |
-| [ReplaceAction](./replaceaction/) | Permet à l'utilisateur de spécifier ce qu'il advient de la correspondance actuelle lors d'une opération de remplacement. |
+| [ReplaceAction](./replaceaction/) | Permet à l'utilisateur de spécifier ce qui arrive à la correspondance actuelle lors d'une opération de remplacement. |
 
 

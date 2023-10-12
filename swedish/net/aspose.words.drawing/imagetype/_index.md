@@ -3,7 +3,7 @@ title: Enum ImageType
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Drawing.ImageType uppräkning. Anger typen formatet av en bild i ett Microsoft Worddokument.
 type: docs
-weight: 950
+weight: 1080
 url: /sv/net/aspose.words.drawing/imagetype/
 ---
 ## ImageType enumeration
@@ -26,6 +26,7 @@ public enum ImageType
 | Jpeg | `5` | JPEG JFIF. |
 | Png | `6` | Portabel nätverksgrafik. |
 | Bmp | `7` | Windows Bitmap. |
+| Eps | `8` | Encapsulated PostScript. |
 
 ### Exempel
 

@@ -1,16 +1,16 @@
 ---
 title: Enum EmbeddedFontFormat
 second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Fonts.EmbeddedFontFormat opsomming. Gibt das Format einer bestimmten eingebetteten Schriftart anFontInfo Objekt.
+description: Aspose.Words.Fonts.EmbeddedFontFormat opsomming. Gibt das Format einer bestimmten darin eingebetteten Schriftart anFontInfo Objekt.
 type: docs
-weight: 2670
+weight: 2850
 url: /de/net/aspose.words.fonts/embeddedfontformat/
 ---
 ## EmbeddedFontFormat enumeration
 
-Gibt das Format einer bestimmten eingebetteten Schriftart an[`FontInfo`](../fontinfo/) Objekt.
+Gibt das Format einer bestimmten darin eingebetteten Schriftart an[`FontInfo`](../fontinfo/) Objekt.
 
-Beim Speichern eines Dokuments in eine Datei werden nur eingebettete Schriftarten des entsprechenden Formats mitgeschrieben.
+Beim Speichern eines Dokuments in einer Datei werden nur eingebettete Schriftarten des entsprechenden Formats mitgeschrieben.
 
 ```csharp
 public enum EmbeddedFontFormat
@@ -20,12 +20,12 @@ public enum EmbeddedFontFormat
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| EmbeddedOpenType | `0` | Gibt das Dateiformat Embedded OpenType (EOT) an. |
+| EmbeddedOpenType | `0` | Gibt das eingebettete OpenType-Dateiformat (EOT) an. |
 | OpenType | `1` | Gibt die Schriftart an, die als einfache Kopie der OpenType-Schriftartdatei (TrueType) eingebettet ist. |
 
 ### Beispiele
 
-Zeigt, wie eine eingebettete Schriftart aus einem Dokument extrahiert und im lokalen Dateisystem gespeichert wird.
+Zeigt, wie man eine eingebettete Schriftart aus einem Dokument extrahiert und im lokalen Dateisystem speichert.
 
 ```csharp
 Document doc = new Document(MyDir + "Embedded font.docx");
@@ -34,7 +34,7 @@ FontInfo embeddedFont = doc.FontInfos["Alte DIN 1451 Mittelschrift"];
 byte[] embeddedFontBytes = embeddedFont.GetEmbeddedFont(EmbeddedFontFormat.OpenType, EmbeddedFontStyle.Regular);
 File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.ttf", embeddedFontBytes);
 
-// Eingebettete Schriftformate können in anderen Formaten wie .doc anders sein.
+// Eingebettete Schriftartformate können in anderen Formaten wie .doc unterschiedlich sein.
 // Wir müssen das richtige Format kennen, bevor wir die Schriftart extrahieren können.
 doc = new Document(MyDir + "Embedded font.doc");
 

@@ -1,14 +1,14 @@
 ---
 title: Font.ThemeFontBi
 second_title: Referencia de API de Aspose.Words para .NET
-description: Font propiedad. Obtiene o establece la fuente del tema en el esquema de fuente aplicado que está asociado con este objeto de fuente en un documento de idioma de derecha a izquierda.
+description: Font propiedad. Obtiene o establece la fuente del tema en el esquema de fuente aplicado que está asociado con esteFont object en un documento de idioma de derecha a izquierda.
 type: docs
 weight: 490
 url: /es/net/aspose.words/font/themefontbi/
 ---
 ## Font.ThemeFontBi property
 
-Obtiene o establece la fuente del tema en el esquema de fuente aplicado que está asociado con este objeto de fuente en un documento de idioma de derecha a izquierda.
+Obtiene o establece la fuente del tema en el esquema de fuente aplicado que está asociado con este[`Font`](../) object en un documento de idioma de derecha a izquierda.
 
 ```csharp
 public ThemeFont ThemeFontBi { get; set; }
@@ -16,12 +16,12 @@ public ThemeFont ThemeFontBi { get; set; }
 
 ### Ejemplos
 
-Muestra cómo trabajar con fuentes y colores temáticos.
+Muestra cómo trabajar con fuentes y colores de temas.
 
 ```csharp
 Document doc = new Document();
 
-// Definir fuentes para usos de idiomas por defecto.
+// Definir fuentes para los idiomas utilizados de forma predeterminada.
 doc.Theme.MinorFonts.Latin = "Algerian";
 doc.Theme.MinorFonts.EastAsian = "Aharoni";
 doc.Theme.MinorFonts.ComplexScript = "Andalus";
@@ -74,7 +74,7 @@ Assert.AreEqual("Algerian", font.NameOther);
 Assert.AreEqual(ThemeColor.None, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
-// 2 - Al establecer nombres de fuentes/colores que no sean del tema:
+// 2 - Configurando nombres de fuentes/colores que no sean temas:
 font.Name = "Arial";
 font.Color = Color.Blue;
 

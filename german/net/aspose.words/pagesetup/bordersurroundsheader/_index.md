@@ -16,11 +16,11 @@ public bool BorderSurroundsHeader { get; set; }
 
 ### Bemerkungen
 
-Beachten Sie, dass sich das Ändern dieser Eigenschaft auf alle Abschnitte im Dokument auswirkt.
+Beachten Sie, dass sich die Änderung dieser Eigenschaft auf alle Abschnitte im Dokument auswirkt.
 
 ### Beispiele
 
-Zeigt, wie Sie einen Rahmen auf die Seite und die Kopf-/Fußzeile anwenden.
+Zeigt, wie man einen Rahmen auf die Seite und die Kopf-/Fußzeile anwendet.
 
 ```csharp
 Document doc = new Document();
@@ -38,10 +38,10 @@ PageSetup pageSetup = doc.Sections[0].PageSetup;
 pageSetup.Borders.LineStyle = LineStyle.Double;
 pageSetup.Borders.Color = Color.Blue;
 
-// Das PageSetup-Objekt eines Abschnitts hat "BorderSurroundsHeader"- und "BorderSurroundsFooter"-Flags, die bestimmen
-// Ob ein Seitenrand den Haupttext umgibt, schließt auch die Kopf- bzw. Fußzeile ein.
-// Setzen Sie das Flag "BorderSurroundsHeader" auf "true", um den Header mit unserem Rahmen zu umgeben,
-// und dann das Flag "BorderSurroundsFooter" setzen, um die Fußzeile außerhalb des Rahmens zu lassen.
+// Das PageSetup-Objekt eines Abschnitts verfügt über die Flags „BorderSurroundsHeader“ und „BorderSurroundsFooter“, die bestimmen
+// ob ein Seitenrand den Haupttext umgibt, einschließlich der Kopf- bzw. Fußzeile.
+// Setzen Sie das Flag „BorderSurroundsHeader“ auf „true“, um den Header mit unserem Rand zu umgeben.
+// und dann das Flag „BorderSurroundsFooter“ setzen, um die Fußzeile außerhalb des Rahmens zu belassen.
 pageSetup.BorderSurroundsHeader = true;
 pageSetup.BorderSurroundsFooter = false;
 

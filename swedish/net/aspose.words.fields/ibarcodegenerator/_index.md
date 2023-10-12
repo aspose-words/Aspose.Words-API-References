@@ -3,7 +3,7 @@ title: Interface IBarcodeGenerator
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Fields.IBarcodeGenerator gränssnitt. Offentligt gränssnitt för streckkodsgenerator. Implementering bör tillhandahållas av användaren.
 type: docs
-weight: 2500
+weight: 2660
 url: /sv/net/aspose.words.fields/ibarcodegenerator/
 ---
 ## IBarcodeGenerator interface
@@ -32,7 +32,6 @@ Visar hur man använder en streckkodsgenerator.
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-
 // Vi kan använda en anpassad IBarcodeGenerator-implementering för att generera streckkoder,
 // och infoga dem sedan i dokumentet som bilder.
 doc.FieldOptions.BarcodeGenerator = new CustomBarcodeGenerator();

@@ -1,14 +1,14 @@
 ---
 title: Font.Fill
 second_title: Aspose.Words for .NET API Referansı
-description: Font mülk. Font. için dolgu biçimlendirmesini alır
+description: Font mülk. Dolgu formatını alırFont .
 type: docs
 weight: 130
 url: /tr/net/aspose.words/font/fill/
 ---
 ## Font.Fill property
 
-Font. için dolgu biçimlendirmesini alır
+Dolgu formatını alır[`Font`](../) .
 
 ```csharp
 public Fill Fill { get; }

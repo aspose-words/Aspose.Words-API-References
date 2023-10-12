@@ -10,7 +10,7 @@ url: /es/net/aspose.words.drawing/signatureline/id/
 
 Obtiene o establece el identificador para esta línea de firma.
 
-Este identificador se puede asociar a una firma digital, al firmar documento utilizando[`DigitalSignatureUtil`](../../../aspose.words.digitalsignatures/digitalsignatureutil/). Este valor debe ser único y por defecto se genera aleatoriamente un nuevo Guid (NewGuid).
+Este identificador se puede asociar a una firma digital, al firmar un documento mediante[`DigitalSignatureUtil`](../../../aspose.words.digitalsignatures/digitalsignatureutil/). Este valor debe ser único y, de forma predeterminada, se genera aleatoriamente un nuevo Guid (NewGuid).
 
 ```csharp
 public Guid Id { get; set; }
@@ -18,10 +18,11 @@ public Guid Id { get; set; }
 
 ### Ejemplos
 
-Muestra cómo agregar una línea de firma a un documento y luego firmarlo con un certificado digital.
+Muestra cómo agregar una línea de firma a un documento y luego firmarlo usando un certificado digital.
 
 ```csharp
-public static void Sign()
+[Description("WORDSNET-16868")]
+        public static void Sign()
         {
             string signeeName = "Ron Williams";
             string srcDocumentPath = MyDir + "Document.docx";
@@ -40,7 +41,7 @@ public static void Sign()
         }
 
         /// <summary>
-        /// Crea una copia de un documento de origen firmado con la información del firmante proporcionada y el certificado X509.
+        /// Crea una copia de un documento fuente firmado utilizando la información del firmante proporcionada y el certificado X509.
         /// </summary>
         private static void SignDocument(string srcDocumentPath, string dstDocumentPath,
             Signee signeeInfo, string certificatePath, string certificatePassword)
@@ -69,7 +70,7 @@ public static void Sign()
                 SignatureLineImage = signeeInfo.Image
             };
 
-            // Sobrescribir el documento sin firmar que guardamos anteriormente con una versión firmada con el certificado.
+            // Sobrescribe el documento sin firmar que guardamos arriba con una versión firmada con el certificado.
             DigitalSignatureUtil.Sign(dstDocumentPath, dstDocumentPath, certificateHolder, signOptions);
         }
 

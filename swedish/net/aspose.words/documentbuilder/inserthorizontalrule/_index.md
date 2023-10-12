@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertHorizontalRule
 second_title: Aspose.Words för .NET API Referens
 description: DocumentBuilder metod. Infogar en horisontell regelform i dokumentet.
 type: docs
-weight: 320
+weight: 350
 url: /sv/net/aspose.words/documentbuilder/inserthorizontalrule/
 ---
 ## DocumentBuilder.InsertHorizontalRule method

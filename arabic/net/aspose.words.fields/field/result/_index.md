@@ -16,7 +16,7 @@ public string Result { get; set; }
 
 ### أمثلة
 
-يوضح كيفية إدراج حقل في مستند باستخدام رمز حقل.
+يوضح كيفية إدراج حقل في مستند باستخدام رمز الحقل.
 
 ```csharp
 Document doc = new Document();

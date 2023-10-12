@@ -16,7 +16,7 @@ public StyleCollection Styles { get; }
 
 ### ملاحظات
 
-لمزيد من المعلومات ، انظر وصف[`StyleCollection`](../../stylecollection/) صف دراسي.
+لمزيد من المعلومات راجع وصف[`StyleCollection`](../../stylecollection/) فصل.
 
 ### أمثلة
 
@@ -27,7 +27,7 @@ Document doc = new Document();
 
 Assert.AreEqual(4, doc.Styles.Count);
 
-// تعداد وإدراج جميع الأنماط التي تم إنشاؤها باستخدام Aspose.Words تحتوي على كل الأنماط التي تم إنشاؤها باستخدام Aspose.Words بشكل افتراضي.
+// تعداد وسرد جميع الأنماط التي يحتوي عليها المستند الذي تم إنشاؤه باستخدام Aspose.Words بشكل افتراضي.
 using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 {
     while (stylesEnum.MoveNext())
@@ -43,7 +43,7 @@ using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 }
 ```
 
-يوضح كيفية إنشاء نمط فقرة واستخدامه مع تنسيق القائمة.
+يوضح كيفية إنشاء نمط فقرة واستخدامه بتنسيق القائمة.
 
 ```csharp
 Document doc = new Document();
@@ -59,7 +59,7 @@ style.ParagraphFormat.SpaceAfter = 12;
 style.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
 style.ListFormat.ListLevelNumber = 0;
 
-// قم بتطبيق نمط الفقرة على الفقرة الحالية لمنشئ الوثيقة ، ثم أضف بعض النص.
+// قم بتطبيق نمط الفقرة على الفقرة الحالية لمنشئ المستند، ثم قم بإضافة بعض النص.
 builder.ParagraphFormat.Style = style;
 builder.Writeln("Hello World: MyStyle1, bulleted list.");
 

@@ -1,14 +1,14 @@
 ---
 title: Stroke.Transparency
 second_title: Справочник по API Aspose.Words для .NET
-description: Stroke свойство. Получает или задает значение от 00 непрозрачный до 10 прозрачный представляющее степень прозрачности штриха.
+description: Stroke свойство. Получает или задает значение от 00 непрозрачный до 10 прозрачный представляющее степень прозрачности обводки.
 type: docs
-weight: 180
+weight: 200
 url: /ru/net/aspose.words.drawing/stroke/transparency/
 ---
 ## Stroke.Transparency property
 
-Получает или задает значение от 0,0 (непрозрачный) до 1,0 (прозрачный), представляющее степень прозрачности штриха.
+Получает или задает значение от 0,0 (непрозрачный) до 1,0 (прозрачный), представляющее степень прозрачности обводки.
 
 ```csharp
 public double Transparency { get; set; }
@@ -16,11 +16,11 @@ public double Transparency { get; set; }
 
 ### Примечания
 
-Значение по умолчанию: 0.
+Значение по умолчанию — 0. .
 
 ### Примеры
 
-Покажите, как настроить форматирование маркера.
+Покажите, как установить форматирование маркера.
 
 ```csharp
 Document doc = new Document();
@@ -34,7 +34,7 @@ chart.Series.Clear();
 ChartSeries series = chart.Series.Add("AW Series 1", new[] { 0.7, 1.8, 2.6, 3.9 },
     new[] { 2.7, 3.2, 0.8, 1.7 });
 
-// Установить форматирование маркера.
+// Устанавливаем форматирование маркера.
 series.Marker.Size = 40;
 series.Marker.Symbol = MarkerSymbol.Square;
 ChartDataPointCollection dataPoints = series.DataPoints;

@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTag.BuildingBlockCategory
 second_title: Aspose.Words för .NET API Referens
-description: StructuredDocumentTag fast egendom. Anger kategori av byggblock för detta SDT node. Kan inte vara null.
+description: StructuredDocumentTag fast egendom. Anger kategori av byggblock för detta SDT node. Kan inte varanull .
 type: docs
 weight: 30
 url: /sv/net/aspose.words.markup/structureddocumenttag/buildingblockcategory/
 ---
 ## StructuredDocumentTag.BuildingBlockCategory property
 
-Anger kategori av byggblock för detta **SDT** node. Kan inte vara null.
+Anger kategori av byggblock för detta **SDT** node. Kan inte vara`null` .
 
 ```csharp
 public string BuildingBlockCategory { get; set; }
@@ -16,7 +16,7 @@ public string BuildingBlockCategory { get; set; }
 
 ### Anmärkningar
 
-Åtkomst till den här egenskapen fungerar bara förBuildingBlockGallery och DocPartObj SDT-typer. Den är skrivskyddad för **SDT**av typen dokumentdel.
+Åtkomst till den här egenskapen fungerar bara förBuildingBlockGallery och DocPartObj SDT-typer. Den är skrivskyddad för **SDT** av typen dokumentdel.
 
 För alla andra SDT-typer kommer undantag att förekomma.
 

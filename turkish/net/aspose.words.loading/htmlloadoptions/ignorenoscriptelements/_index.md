@@ -1,14 +1,14 @@
 ---
 title: HtmlLoadOptions.IgnoreNoscriptElements
 second_title: Aspose.Words for .NET API Referansı
-description: HtmlLoadOptions mülk. noscript HTML öğelerinin göz ardı edilip edilmeyeceğini belirten bir değer alır veya ayarlar. Varsayılan değeryanlış .
+description: HtmlLoadOptions mülk. noscript HTML öğelerinin göz ardı edilip edilmeyeceğini belirten bir değer alır veya ayarlar. Varsayılan değerYANLIŞ .
 type: docs
 weight: 40
 url: /tr/net/aspose.words.loading/htmlloadoptions/ignorenoscriptelements/
 ---
 ## HtmlLoadOptions.IgnoreNoscriptElements property
 
-&lt;noscript&gt; HTML öğelerinin göz ardı edilip edilmeyeceğini belirten bir değer alır veya ayarlar. Varsayılan değer`yanlış` .
+&lt;noscript&gt; HTML öğelerinin göz ardı edilip edilmeyeceğini belirten bir değer alır veya ayarlar. Varsayılan değer:`YANLIŞ` .
 
 ```csharp
 public bool IgnoreNoscriptElements { get; set; }
@@ -16,7 +16,7 @@ public bool IgnoreNoscriptElements { get; set; }
 
 ### Notlar
 
-MS Word gibi Aspose.Words de komut dosyalarını desteklemez ve varsayılan olarak &lt;noscript&gt; element içeriğini ortaya çıkan belgeye yükler. Ancak çoğu tarayıcıda komut dosyaları desteklenir ve &lt;noscript&gt; içeriği görünmez. Bu özelliğin ayarlanması`doğru` Aspose.Words'ü tüm &lt;noscript&gt; element yok saymaya zorlar ve tarayıcılarda görülene daha yakın görünen belgeler üretmeye yardımcı olur.
+MS Word gibi, Aspose.Words da komut dosyalarını desteklemez ve varsayılan olarak &lt;noscript&gt; elements içeriğini sonuçtaki belgeye yükler. Ancak çoğu tarayıcıda komut dosyaları desteklenir ve &lt;noscript&gt; içeriği görünmez. Bu özelliği şu şekilde ayarlamak`doğru` Aspose.Words'ü tüm &lt;noscript&gt; öğelerini yoksaymaya zorlar ve tarayıcılarda görülene daha yakın görünen belgeler üretilmesine yardımcı olur.
 
 ### Örnekler
 

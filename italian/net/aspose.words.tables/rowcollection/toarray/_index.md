@@ -1,14 +1,14 @@
 ---
 title: RowCollection.ToArray
 second_title: Aspose.Words per .NET API Reference
-description: RowCollection metodo. Copia tutte le righe dalla raccolta in una nuova matrice di righe.
+description: RowCollection metodo. Copia tutte le righe dalla raccolta in un nuovo array di righe.
 type: docs
 weight: 20
 url: /it/net/aspose.words.tables/rowcollection/toarray/
 ---
 ## RowCollection.ToArray method
 
-Copia tutte le righe dalla raccolta in una nuova matrice di righe.
+Copia tutte le righe dalla raccolta in un nuovo array di righe.
 
 ```csharp
 public Row[] ToArray()
@@ -20,7 +20,7 @@ Una matrice di righe.
 
 ### Esempi
 
-Mostra come scorrere tutte le tabelle nel documento e stampare il contenuto di ogni cella.
+Mostra come scorrere tutte le tabelle del documento e stampare il contenuto di ciascuna cella.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -44,7 +44,7 @@ for (int i = 0; i < tables.Count; i++)
 
         CellCollection cells = rows[j].Cells;
 
-        // Possiamo usare il metodo "ToArray" su una raccolta di celle per clonarla in un array.
+        // Possiamo utilizzare il metodo "ToArray" su una raccolta di celle per clonarla in un array.
         Assert.AreEqual(cells, cells.ToArray());
         Assert.AreNotSame(cells, cells.ToArray());
 

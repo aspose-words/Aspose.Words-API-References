@@ -16,7 +16,7 @@ public string Name { get; set; }
 
 ### Osservazioni
 
-Si noti che se si cambia il nome di un segnalibro con un nome già esistente nel documento, non verrà dato alcun errore e solo il primo segnalibro verrà memorizzato quando si salva il documento.
+Tieni presente che se modifichi il nome di un segnalibro con un nome già esistente nel documento, non verrà restituito alcun errore e solo il primo segnalibro verrà memorizzato quando salvi il documento.
 
 ### Esempi
 
@@ -24,23 +24,23 @@ Mostra come inserire un segnalibro.
 
 ```csharp
 Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
+DocumentBuilder builder = new DocumentBuilder(doc);            
 
-// Un segnalibro valido ha un nome, un BookmarkStart e un nodo BookmarkEnd.
-// Qualsiasi spazio bianco nei nomi dei segnalibri verrà convertito in caratteri di sottolineatura se apriamo il documento salvato con Microsoft Word. 
-// Se si evidenzia il nome del segnalibro in Microsoft Word tramite Inserisci -> Collegamenti -> Aggiungi ai preferiti e premi "Vai a",
+// Un segnalibro valido ha un nome, un nodo BookmarkStart e un nodo BookmarkEnd.
+// Eventuali spazi bianchi nei nomi dei segnalibri verranno convertiti in caratteri di sottolineatura se apriamo il documento salvato con Microsoft Word.
+// Se evidenziamo il nome del segnalibro in Microsoft Word tramite Inserisci -> Collegamenti -> Aggiungi ai segnalibri e premi "Vai a",
 // il cursore passerà al testo racchiuso tra i nodi BookmarkStart e BookmarkEnd.
 builder.StartBookmark("My Bookmark");
 builder.Write("Contents of MyBookmark.");
 builder.EndBookmark("My Bookmark");
 
-// I segnalibri sono memorizzati in questa raccolta.
+// I segnalibri vengono archiviati in questa raccolta.
 Assert.AreEqual("My Bookmark", doc.Range.Bookmarks[0].Name);
 
 doc.Save(ArtifactsDir + "Bookmarks.Insert.docx");
 ```
 
-Mostra come aggiungere segnalibri e aggiornarne il contenuto.
+Mostra come aggiungere segnalibri e aggiornarne i contenuti.
 
 ```csharp
 public void CreateUpdateAndPrintBookmarks()
@@ -48,14 +48,13 @@ public void CreateUpdateAndPrintBookmarks()
     // Crea un documento con tre segnalibri, quindi utilizza un'implementazione personalizzata del visitatore del documento per stamparne il contenuto.
     Document doc = CreateDocumentWithBookmarks(3);
     BookmarkCollection bookmarks = doc.Range.Bookmarks;
-
     PrintAllBookmarkInfo(bookmarks);
 
-    // È possibile accedere ai segnalibri nella raccolta di segnalibri in base all'indice o al nome e i loro nomi possono essere aggiornati.
+    // È possibile accedere ai segnalibri nella raccolta di segnalibri tramite indice o nome e i relativi nomi possono essere aggiornati.
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
-    // Stampa di nuovo tutti i segnalibri per visualizzare i valori aggiornati.
+    // Stampa di nuovo tutti i segnalibri per vedere i valori aggiornati.
     PrintAllBookmarkInfo(bookmarks);
 }
 
@@ -82,13 +81,13 @@ private static Document CreateDocumentWithBookmarks(int numberOfBookmarks)
 }
 
 /// <summary>
-/// Usa un iteratore e un visitatore per stampare le informazioni di ogni segnalibro nella raccolta.
+/// Utilizza un iteratore e un visitatore per stampare le informazioni di ogni segnalibro nella raccolta.
 /// </summary>
 private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 {
     BookmarkInfoPrinter bookmarkVisitor = new BookmarkInfoPrinter();
 
-    // Ottieni ogni segnalibro nella raccolta per accettare un visitatore che ne stamperà il contenuto.
+    // Fa in modo che ogni segnalibro nella raccolta accetti un visitatore che ne stamperà il contenuto.
     using (IEnumerator<Bookmark> enumerator = bookmarks.GetEnumerator())
     {
         while (enumerator.MoveNext())
@@ -107,7 +106,7 @@ private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 }
 
 /// <summary>
-/// Stampa il contenuto di ogni segnalibro visitato sulla console.
+/// Stampa sulla console il contenuto di ogni segnalibro visitato.
 /// </summary>
 public class BookmarkInfoPrinter : DocumentVisitor
 {

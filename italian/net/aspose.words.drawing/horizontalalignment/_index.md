@@ -3,7 +3,7 @@ title: Enum HorizontalAlignment
 second_title: Aspose.Words per .NET API Reference
 description: Aspose.Words.Drawing.HorizontalAlignment enum. Specifica lallineamento orizzontale di una forma mobile cornice di testo o tabella mobile.
 type: docs
-weight: 900
+weight: 1030
 url: /it/net/aspose.words.drawing/horizontalalignment/
 ---
 ## HorizontalAlignment enumeration
@@ -18,13 +18,13 @@ public enum HorizontalAlignment
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| None | `0` | L'oggetto è posizionato in modo esplicito, di solito usando il suo **Sono partiti** proprietà. |
-| Default | `0` | ComeNone . |
-| Left | `1` | Specifica che l'oggetto deve essere allineato a sinistra alla base di allineamento orizzontale. |
-| Center | `2` | Specifica che l'oggetto deve essere centrato rispetto alla base di allineamento orizzontale. |
+| None | `0` | L'oggetto viene posizionato esplicitamente, solitamente utilizzando its **Sinistra** proprietà. |
+| Default | `0` | Uguale aNone . |
+| Left | `1` | Specifica che l'oggetto deve essere allineato a sinistra alla base dell'allineamento orizzontale. |
+| Center | `2` | Specifica che l'oggetto dovrà essere centrato rispetto alla base di allineamento orizzontale. |
 | Right | `3` | Specifica che l'oggetto deve essere allineato a destra rispetto alla base di allineamento orizzontale. |
 | Inside | `4` | Specifica che l'oggetto deve trovarsi all'interno della base di allineamento orizzontale. |
-| Outside | `5` | Specifica che l'oggetto deve trovarsi al di fuori della base di allineamento orizzontale. |
+| Outside | `5` | Specifica che l'oggetto deve trovarsi all'esterno della base dell'allineamento orizzontale. |
 
 ### Esempi
 

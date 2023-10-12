@@ -1,14 +1,14 @@
 ---
 title: Style.Styles
 second_title: Aspose.Words لمراجع .NET API
-description: Style ملكية. الحصول على مجموعة الأنماط التي ينتمي إليها هذا النمط .
+description: Style ملكية. الحصول على مجموعة الأنماط التي ينتمي إليها هذا النمط.
 type: docs
-weight: 150
+weight: 170
 url: /ar/net/aspose.words/style/styles/
 ---
 ## Style.Styles property
 
-الحصول على مجموعة الأنماط التي ينتمي إليها هذا النمط .
+الحصول على مجموعة الأنماط التي ينتمي إليها هذا النمط.
 
 ```csharp
 public StyleCollection Styles { get; }
@@ -23,7 +23,7 @@ Document doc = new Document();
 
 Assert.AreEqual(4, doc.Styles.Count);
 
-// تعداد وإدراج جميع الأنماط التي تم إنشاؤها باستخدام Aspose.Words تحتوي على كل الأنماط التي تم إنشاؤها باستخدام Aspose.Words بشكل افتراضي.
+// تعداد وسرد جميع الأنماط التي يحتوي عليها المستند الذي تم إنشاؤه باستخدام Aspose.Words بشكل افتراضي.
 using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 {
     while (stylesEnum.MoveNext())

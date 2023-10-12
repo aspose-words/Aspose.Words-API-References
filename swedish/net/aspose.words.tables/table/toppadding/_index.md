@@ -29,7 +29,7 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndTable();
 
-// För varje cell i tabellen, ställ in avståndet mellan dess innehåll och var och en av dess kanter. 
+ // För varje cell i tabellen, ställ in avståndet mellan dess innehåll och var och en av dess kanter.
 // Den här tabellen kommer att bibehålla det minsta utfyllnadsavståndet genom att slå in text.
 table.LeftPadding = 30;
 table.RightPadding = 60;

@@ -1,14 +1,16 @@
 ---
 title: Class OfficeMathRenderer
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Rendering.OfficeMathRenderer сорт. Предоставляет методы для рендеринга отдельногоOfficeMath в растровое или векторное изображение или в объект Graphics.
+description: Aspose.Words.Rendering.OfficeMathRenderer сорт. Предоставляет методы для визуализации человекаOfficeMath в растровое или векторное изображение или в графический объект.
 type: docs
-weight: 4300
+weight: 4560
 url: /ru/net/aspose.words.rendering/officemathrenderer/
 ---
 ## OfficeMathRenderer class
 
-Предоставляет методы для рендеринга отдельного[`OfficeMath`](../../aspose.words.math/officemath/) в растровое или векторное изображение или в объект Graphics.
+Предоставляет методы для визуализации человека[`OfficeMath`](../../aspose.words.math/officemath/) в растровое или векторное изображение или в графический объект.
+
+Чтобы узнать больше, посетите[Работа с OfficeMath](https://docs.aspose.com/words/net/working-with-officemath/) статья документации.
 
 ```csharp
 public class OfficeMathRenderer : NodeRendererBase
@@ -38,10 +40,10 @@ public class OfficeMathRenderer : NodeRendererBase
 | [GetOpaqueBoundsInPixels](../../aspose.words.rendering/noderendererbase/getopaqueboundsinpixels/)(float, float, float) | Вычисляет непрозрачные границы фигуры в пикселях для указанного коэффициента масштабирования и разрешения. |
 | [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels/)(float, float) | Вычисляет размер фигуры в пикселях для указанного коэффициента масштабирования и разрешения. |
 | [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels/)(float, float, float) | Вычисляет размер фигуры в пикселях для указанного коэффициента масштабирования и разрешения. |
-| [RenderToScale](../../aspose.words.rendering/noderendererbase/rendertoscale/)(Graphics, float, float, float) | Преобразует форму вGraphics объект в указанном масштабе. |
-| [RenderToSize](../../aspose.words.rendering/noderendererbase/rendertosize/)(Graphics, float, float, float, float) | Преобразует форму вGraphics объекта указанного размера. |
-| [Save](../../aspose.words.rendering/noderendererbase/save/)(Stream, ImageSaveOptions) | Преобразует форму в изображение и сохраняет в поток. |
-| [Save](../../aspose.words.rendering/noderendererbase/save/)(string, ImageSaveOptions) | Преобразует фигуру в изображение и сохраняет в файл. |
+| [RenderToScale](../../aspose.words.rendering/noderendererbase/rendertoscale/)(Graphics, float, float, float) | Преобразует фигуру вGraphics объект в указанном масштабе. |
+| [RenderToSize](../../aspose.words.rendering/noderendererbase/rendertosize/)(Graphics, float, float, float, float) | Преобразует фигуру вGraphics объект указанного размера. |
+| [Save](../../aspose.words.rendering/noderendererbase/save/)(Stream, ImageSaveOptions) | Преобразует фигуру в изображение и сохраняет в поток. |
+| [Save](../../aspose.words.rendering/noderendererbase/save/)(string, ImageSaveOptions) | Преобразует форму в изображение и сохраняет в файл. |
 
 ### Примеры
 
@@ -60,11 +62,11 @@ Assert.AreEqual(13.0f, renderer.SizeInPoints.Height, 0.1f);
 Assert.AreEqual(119.0f, renderer.BoundsInPoints.Width, 0.2f);
 Assert.AreEqual(13.0f, renderer.BoundsInPoints.Height, 0.1f);
 
-// Формы с прозрачными частями могут содержать разные значения в свойствах "OpaqueBoundsInPoints".
+// Фигуры с прозрачными частями могут содержать разные значения в свойствах OpaqueBoundsInPoints.
 Assert.AreEqual(119.0f, renderer.OpaqueBoundsInPoints.Width, 0.2f);
 Assert.AreEqual(14.2f, renderer.OpaqueBoundsInPoints.Height, 0.1f);
 
-// Получить размер фигуры в пикселях с линейным масштабированием до определенного DPI.
+// Получаем размер фигуры в пикселях с линейным масштабированием до определенного разрешения.
 Rectangle bounds = renderer.GetBoundsInPixels(1.0f, 96.0f);
 
 Assert.AreEqual(159, bounds.Width);
@@ -75,7 +77,7 @@ bounds = renderer.GetBoundsInPixels(1.0f, 96.0f, 150.0f);
 Assert.AreEqual(159, bounds.Width);
 Assert.AreEqual(28, bounds.Height);
 
-// Непрозрачные границы здесь тоже могут быть разными.
+// Здесь также непрозрачные границы могут различаться.
 bounds = renderer.GetOpaqueBoundsInPixels(1.0f, 96.0f);
 
 Assert.AreEqual(159, bounds.Width);

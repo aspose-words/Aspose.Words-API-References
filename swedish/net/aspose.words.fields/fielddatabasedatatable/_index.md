@@ -1,14 +1,16 @@
 ---
 title: Class FieldDatabaseDataTable
 second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Fields.FieldDatabaseDataTable klass. Tillhandahåller data förFieldDatabase fältresultat.
+description: Aspose.Words.Fields.FieldDatabaseDataTable klass. Tillhandahåller data förFieldDatabase fältresultat. Snälla seDataTable instans.
 type: docs
-weight: 1610
+weight: 1760
 url: /sv/net/aspose.words.fields/fielddatabasedatatable/
 ---
 ## FieldDatabaseDataTable class
 
-Tillhandahåller data för[`FieldDatabase`](../fielddatabase/) fältresultat.
+Tillhandahåller data för[`FieldDatabase`](../fielddatabase/) fältresultat. Snälla seDataTable instans.
+
+För att lära dig mer, besök[Arbeta med Fields](https://docs.aspose.com/words/net/working-with-fields/) dokumentationsartikel.
 
 ```csharp
 public class FieldDatabaseDataTable

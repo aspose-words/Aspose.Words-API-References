@@ -3,7 +3,7 @@ title: TxtLoadOptions.LeadingSpacesOptions
 second_title: Aspose.Words för .NET API Referens
 description: TxtLoadOptions fast egendom. Hämtar eller ställer in föredraget alternativ för en ledande utrymmeshantering. Standardvärdet ärConvertToIndent .
 type: docs
-weight: 40
+weight: 60
 url: /sv/net/aspose.words.loading/txtloadoptions/leadingspacesoptions/
 ---
 ## TxtLoadOptions.LeadingSpacesOptions property
@@ -37,8 +37,8 @@ TxtLoadOptions loadOptions = new TxtLoadOptions();
 loadOptions.LeadingSpacesOptions = txtLeadingSpacesOptions;
 
 // Ställ in egenskapen "TrailingSpacesOptions" till "TxtTrailingSpacesOptions.Preserve"
-// för att bevara alla blanksteg i slutet av varje rad. 
-// Ställ in egenskapen "TrailingSpacesOptions" till "TxtTrailingSpacesOptions.Trim" till 
+ // för att bevara alla blanksteg i slutet av varje rad.
+ // Ställ in egenskapen "TrailingSpacesOptions" till "TxtTrailingSpacesOptions.Trim" till
 // ta bort alla blanksteg från slutet av varje rad.
 loadOptions.TrailingSpacesOptions = txtTrailingSpacesOptions;
 

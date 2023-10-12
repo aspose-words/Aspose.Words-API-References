@@ -16,13 +16,13 @@ public bool IsItalic { get; set; }
 
 ### Exemples
 
-Montre comment remplir un champ INDEX avec des entrées à l'aide de champs XE, et également modifier son apparence.
+Montre comment remplir un champ INDEX avec des entrées à l'aide de champs XE et également modifier son apparence.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Crée un champ INDEX qui affichera une entrée pour chaque champ XE trouvé dans le document.
+// Créez un champ INDEX qui affichera une entrée pour chaque champ XE trouvé dans le document.
 // Chaque entrée affichera la valeur de la propriété Text du champ XE sur le côté gauche,
 // et le numéro de la page qui contient le champ XE à droite.
 // Si les champs XE ont la même valeur dans leur propriété "Texte",
@@ -37,7 +37,7 @@ index.Heading = "A";
 // Définit la table créée par le champ INDEX pour qu'elle s'étende sur 2 colonnes.
 index.NumberOfColumns = "2";
 
-// Définir toutes les entrées avec des lettres de départ en dehors de la plage de caractères "ac" à omettre.
+// Définit toutes les entrées avec des lettres de début en dehors de la plage de caractères "ac" à omettre.
 index.LetterRange = "a-c";
 
 Assert.AreEqual(" INDEX  \\z 1033 \\h A \\c 2 \\p a-c", index.GetFieldCode());
@@ -58,7 +58,7 @@ indexEntry.IsBold = true;
 
 Assert.AreEqual(" XE  Apricot \\b", indexEntry.GetFieldCode());
 
-// Les deux champs XE suivants seront sous un en-tête "B" et "C" dans la table des matières des champs INDEX.
+// Les deux champs XE suivants seront sous les en-têtes "B" et "C" dans la table des matières des champs INDEX.
 builder.InsertBreak(BreakType.PageBreak);
 indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "Banana";
@@ -73,11 +73,12 @@ indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "Avocado";
 
 // Cette entrée n'apparaîtra pas car elle commence par la lettre "D",
-// qui est en dehors de la plage de caractères "ac" définie par la propriété LetterRange du champ INDEX.
+// qui se trouve en dehors de la plage de caractères "ac" définie par la propriété LetterRange du champ INDEX.
 builder.InsertBreak(BreakType.PageBreak);
 indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "Durian";
 
+doc.UpdatePageLayout();
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "Field.INDEX.XE.Formatting.docx");
 ```

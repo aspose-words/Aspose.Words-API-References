@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.Document
 second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentBuilder eigendom. Ruft ab oder setzt dieDocument Objekt an das dieses Objekt angehängt ist.
+description: DocumentBuilder eigendom. Ruft das ab oder legt es festDocumentObjekt an das dieses Objekt angehängt ist.
 type: docs
-weight: 80
+weight: 90
 url: /de/net/aspose.words/documentbuilder/document/
 ---
 ## DocumentBuilder.Document property
 
-Ruft ab oder setzt die`Document` Objekt, an das dieses Objekt angehängt ist.
+Ruft das ab oder legt es fest`Document`Objekt, an das dieses Objekt angehängt ist.
 
 ```csharp
 public Document Document { get; set; }
@@ -16,7 +16,7 @@ public Document Document { get; set; }
 
 ### Beispiele
 
-Zeigt, wie Seiteneinrichtungseinstellungen auf Abschnitte in einem Dokument angewendet und zurückgesetzt werden.
+Zeigt, wie Seiteneinrichtungseinstellungen auf Abschnitte in einem Dokument angewendet und wiederhergestellt werden.
 
 ```csharp
 Document doc = new Document();
@@ -27,14 +27,14 @@ builder.PageSetup.Orientation = Orientation.Landscape;
 builder.PageSetup.VerticalAlignment = PageVerticalAlignment.Center;
 builder.Writeln("This is the first section, which landscape oriented with vertically centered text.");
 
-// Wenn wir mit einem Document Builder einen neuen Abschnitt beginnen,
-// er erbt die aktuellen Seiteneinrichtungseigenschaften des Builders.
+// Wenn wir einen neuen Abschnitt mit einem Document Builder beginnen,
+// Es erbt die aktuellen Seiteneinrichtungseigenschaften des Builders.
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 
 Assert.AreEqual(Orientation.Landscape, doc.Sections[1].PageSetup.Orientation);
 Assert.AreEqual(PageVerticalAlignment.Center, doc.Sections[1].PageSetup.VerticalAlignment);
 
-// Wir können die Seiteneinrichtungseigenschaften mit der Methode "ClearFormatting" auf ihre Standardwerte zurücksetzen.
+// Mit der Methode „ClearFormatting“ können wir die Seiteneinrichtungseigenschaften auf ihre Standardwerte zurücksetzen.
 builder.PageSetup.ClearFormatting();
 
 Assert.AreEqual(Orientation.Portrait, doc.Sections[1].PageSetup.Orientation);

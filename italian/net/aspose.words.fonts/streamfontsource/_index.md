@@ -1,14 +1,16 @@
 ---
 title: Class StreamFontSource
 second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Fonts.StreamFontSource classe. Classe base per lorigine del font stream definita dallutente.
+description: Aspose.Words.Fonts.StreamFontSource classe. Classe base per lorigine del carattere stream definito dallutente.
 type: docs
-weight: 2860
+weight: 3040
 url: /it/net/aspose.words.fonts/streamfontsource/
 ---
 ## StreamFontSource class
 
-Classe base per l'origine del font stream definita dall'utente.
+Classe base per l'origine del carattere stream definito dall'utente.
+
+Per saperne di più, visita il[Lavorare con i caratteri](https://docs.aspose.com/words/net/working-with-fonts/) articolo di documentazione.
 
 ```csharp
 public abstract class StreamFontSource : FontSourceBase
@@ -18,31 +20,32 @@ public abstract class StreamFontSource : FontSourceBase
 
 | Nome | Descrizione |
 | --- | --- |
-| [CacheKey](../../aspose.words.fonts/streamfontsource/cachekey/) { get; } | La chiave di questa sorgente nella cache. |
-| [Priority](../../aspose.words.fonts/fontsourcebase/priority/) { get; } | Restituisce la priorità dell'origine del carattere. |
-| [Type](../../aspose.words.fonts/streamfontsource/type/) { get; } | Restituisce il tipo di origine del carattere. |
-| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | Chiamato durante l'elaborazione dell'origine del carattere quando viene rilevato un problema che potrebbe causare una perdita di fedeltà di formattazione. |
+| [CacheKey](../../aspose.words.fonts/streamfontsource/cachekey/) { get; } | La chiave di questa origine nella cache. |
+| [Priority](../../aspose.words.fonts/fontsourcebase/priority/) { get; } | Restituisce la priorità della fonte del carattere. |
+| [Type](../../aspose.words.fonts/streamfontsource/type/) { get; } | Restituisce il tipo di fonte del carattere. |
+| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | Chiamato durante l'elaborazione dell'origine del carattere quando viene rilevato un problema che potrebbe comportare una perdita di fedeltà della formattazione. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | Restituisce l'elenco dei caratteri disponibili tramite questa fonte. |
-| abstract [OpenFontDataStream](../../aspose.words.fonts/streamfontsource/openfontdatastream/)() | Questo metodo dovrebbe aprire il flusso con i dati dei caratteri su richiesta. |
+| [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | Restituisce l'elenco dei caratteri disponibili tramite questa origine. |
+| abstract [OpenFontDataStream](../../aspose.words.fonts/streamfontsource/openfontdatastream/)() | Questo metodo dovrebbe aprire lo stream con i dati dei caratteri su richiesta. |
 
 ### Osservazioni
 
-Per utilizzare l'origine del font stream è necessario creare una classe derivata da`StreamFontSource` e fornire l'implementazione del[`OpenFontDataStream`](./openfontdatastream/) metodo.
+Per utilizzare l'origine del carattere del flusso è necessario creare una classe derivata dal file`StreamFontSource` e fornire l'implementazione di[`OpenFontDataStream`](./openfontdatastream/) metodo.
 
-[`OpenFontDataStream`](./openfontdatastream/)il metodo potrebbe essere chiamato più volte. Per la prima volta verrà chiamato quando Aspose.Words esegue la scansione delle fonti di font fornite per ottenere l'elenco dei font disponibili. Successivamente può essere chiamato se il font viene utilizzato nel documento per analizzare i dati del font e incorporare i dati del font in alcuni formati di output.
+[`OpenFontDataStream`](./openfontdatastream/)il metodo potrebbe essere chiamato più volte. Per la prima volta verrà chiamato quando Aspose.Words esegue la scansione delle fonti di caratteri fornite per ottenere l'elenco dei caratteri disponibili. Successivamente potrebbe essere chiamato se il carattere viene utilizzato nel documento per analizzare i dati del carattere e incorporare i dati del carattere in alcuni formati di output.
 
-`StreamFontSource` può essere utile perché permette di caricare i dati del font solo quando è richiesto e di non salvarli in memoria per il[`FontSettings`](../fontsettings/) tutta la vita.
+`StreamFontSource` può essere utile perché permette di caricare i dati del font solo quando è richiesto e non di salvarli in memoria per il[`FontSettings`](../fontsettings/) tutta la vita.
 
 ### Esempi
 
 Mostra come caricare i caratteri dallo stream.
 
 ```csharp
+public void StreamFontSourceFileRendering()
 {
     FontSettings fontSettings = new FontSettings();
     fontSettings.SetFontsSources(new FontSourceBase[] {new StreamFontSourceFile()});
@@ -56,7 +59,7 @@ Mostra come caricare i caratteri dallo stream.
 }
 
 /// <summary>
-/// Carica i dati del font solo quando richiesto invece di salvarli in memoria
+/// Carica i dati dei caratteri solo quando richiesto invece di archiviarli nella memoria
 /// per l'intera durata dell'oggetto "FontSettings".
 /// </summary>
 private class StreamFontSourceFile : StreamFontSource

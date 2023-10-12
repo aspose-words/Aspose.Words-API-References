@@ -20,11 +20,11 @@ public TabStop After(double position)
 
 ### Returvärde
 
-Ett tabbstoppobjekt eller noll om ett lämpligt tabbstopp inte hittades.
+Ett tabbstoppobjekt eller`null` om ett lämpligt tabbstopp inte hittades.
 
 ### Anmärkningar
 
-Hoppar över tabbstopp med **Inriktning** satt till`TabAlignment.Bar`.
+Hoppar över tabbstopp med[`Alignment`](../../tabstop/alignment/) satt tillBar.
 
 ### Exempel
 

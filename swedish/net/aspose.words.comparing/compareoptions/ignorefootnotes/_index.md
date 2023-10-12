@@ -3,7 +3,7 @@ title: CompareOptions.IgnoreFootnotes
 second_title: Aspose.Words för .NET API Referens
 description: CompareOptions fast egendom. Anger om skillnader i fotnoter och slutnoter ska jämföras. Som standard ignoreras inte fotnoter.
 type: docs
-weight: 70
+weight: 80
 url: /sv/net/aspose.words.comparing/compareoptions/ignorefootnotes/
 ---
 ## CompareOptions.IgnoreFootnotes property
@@ -40,7 +40,7 @@ Shape textBox = builder.InsertShape(ShapeType.TextBox, 150, 20);
 builder.MoveTo(textBox.FirstParagraph);
 builder.Write("Original textbox contents");
 
-// DATE-fält:
+// DATUMfält:
 builder.MoveTo(docOriginal.FirstSection.Body.AppendParagraph(""));
 builder.InsertField(" DATE ");
 

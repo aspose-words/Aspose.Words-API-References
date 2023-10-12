@@ -1,14 +1,14 @@
 ---
 title: CompositeNode.CreateNavigator
 second_title: Référence de l'API Aspose.Words pour .NET
-description: CompositeNode méthode. Réservé à lutilisation du système. IXPathNavigable.
+description: CompositeNode méthode. Crée un navigateur qui peut être utilisé pour parcourir et lire des nœuds.
 type: docs
-weight: 80
+weight: 90
 url: /fr/net/aspose.words/compositenode/createnavigator/
 ---
 ## CompositeNode.CreateNavigator method
 
-Réservé à l'utilisation du système. IXPathNavigable.
+Crée un navigateur qui peut être utilisé pour parcourir et lire des nœuds.
 
 ```csharp
 [EditorBrowsable(EditorBrowsableState.Never)]
@@ -20,6 +20,7 @@ public XPathNavigator CreateNavigator()
 Montre comment créer un XPathNavigator, puis l'utiliser pour parcourir et lire des nœuds.
 
 ```csharp
+public void NodeXPathNavigator()
 {
     Document doc = new Document();
     XPathNavigator navigator = doc.CreateNavigator();
@@ -31,8 +32,8 @@ Montre comment créer un XPathNavigator, puis l'utiliser pour parcourir et lire 
         Assert.AreEqual(1, navigator.SelectChildren(XPathNodeType.All).Count);
 
         // L'arborescence du document contient le document, première section,
-        // corps et premier paragraphe comme nœuds, chacun étant un enfant unique du précédent.
-        // Nous pouvons en ajouter quelques autres pour donner à l'arbre des branches que le navigateur doit parcourir.
+        // corps et premier paragraphe comme nœuds, chacun étant le seul enfant du précédent.
+        // Nous pouvons en ajouter quelques autres pour donner à l'arborescence quelques branches que le navigateur pourra parcourir.
         DocumentBuilder docBuilder = new DocumentBuilder(doc);
         docBuilder.Write("Section 1, Paragraph 1. ");
         docBuilder.InsertParagraph();
@@ -41,16 +42,17 @@ Montre comment créer un XPathNavigator, puis l'utiliser pour parcourir et lire 
         docBuilder.MoveToSection(1);
         docBuilder.Write("Section 2, Paragraph 1. ");
 
-        // Utilisez notre navigateur pour imprimer une carte de tous les nœuds du document vers la console.
+        // Utilisez notre navigateur pour imprimer une carte de tous les nœuds du document sur la console.
         StringBuilder stringBuilder = new StringBuilder();
         MapDocument(navigator, stringBuilder, 0);
         Console.Write(stringBuilder.ToString());
+    }
 }
 
 /// <summary>
 /// Parcourt tous les enfants d'un nœud composite et mappe la structure dans le style d'une arborescence de répertoires.
-/// La quantité d'espace d'indentation indique la profondeur par rapport au nœud initial.
-/// Imprime le contenu textuel du nœud actuel uniquement s'il s'agit d'un Run.
+/// La quantité d'indentation spatiale indique la profondeur par rapport au nœud initial.
+/// Imprime le contenu du texte du nœud actuel uniquement s'il s'agit d'un Run.
 /// </summary>
 private static void MapDocument(XPathNavigator navigator, StringBuilder stringBuilder, int depth)
 {

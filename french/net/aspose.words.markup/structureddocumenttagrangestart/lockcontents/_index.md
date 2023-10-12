@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTagRangeStart.LockContents
 second_title: Référence de l'API Aspose.Words pour .NET
-description: StructuredDocumentTagRangeStart propriété. Lorsquelle est définie sur true cette propriété interdit à un utilisateur de modifier le contenu de cette balise de document structuré.
+description: StructuredDocumentTagRangeStart propriété. Lorsquil est défini survrai  cette propriété interdira à un utilisateur de modifier le contenu de cette balise de document structuré.
 type: docs
 weight: 90
 url: /fr/net/aspose.words.markup/structureddocumenttagrangestart/lockcontents/
 ---
 ## StructuredDocumentTagRangeStart.LockContents property
 
-Lorsqu'elle est définie sur true, cette propriété interdit à un utilisateur de modifier le contenu de cette balise de document structuré.
+Lorsqu'il est défini sur`vrai` , cette propriété interdira à un utilisateur de modifier le contenu de cette balise de document structuré.
 
 ```csharp
 public bool LockContents { get; set; }
@@ -16,7 +16,7 @@ public bool LockContents { get; set; }
 
 ### Exemples
 
-Montre comment obtenir les propriétés des balises de document structuré à plusieurs sections.
+Montre comment obtenir les propriétés des balises de documents structurés à plusieurs sections.
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");

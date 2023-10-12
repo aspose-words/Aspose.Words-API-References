@@ -3,7 +3,7 @@ title: Document.WebExtensionTaskPanes
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Document propriété. Renvoie une collection qui représente une liste de compléments du volet Office.
 type: docs
-weight: 470
+weight: 490
 url: /fr/net/aspose.words/document/webextensiontaskpanes/
 ---
 ## Document.WebExtensionTaskPanes property

@@ -3,7 +3,7 @@ title: Enum TextureIndex
 second_title: Aspose.Words für .NET-API-Referenz
 description: Aspose.Words.TextureIndex opsomming. Gibt die Schattierungstextur an.
 type: docs
-weight: 6150
+weight: 6450
 url: /de/net/aspose.words/textureindex/
 ---
 ## TextureIndex enumeration
@@ -75,7 +75,7 @@ public enum TextureIndex
 
 ### Beispiele
 
-Zeigt, wie Text mit Rändern und Schattierungen verziert wird.
+Zeigt, wie Text mit Rändern und Schattierungen dekoriert wird.
 
 ```csharp
 Document doc = new Document();
@@ -97,20 +97,20 @@ builder.Write("This paragraph is formatted with a double border and shading.");
 doc.Save(ArtifactsDir + "DocumentBuilder.ApplyBordersAndShading.docx");
 ```
 
-Zeigt, wie Sie einen Gliederungsrahmen auf eine Tabelle anwenden.
+Zeigt, wie man einen Umrissrahmen auf eine Tabelle anwendet.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
-// Richten Sie die Tabelle an der Mitte der Seite aus.
+// Richten Sie die Tabelle in der Mitte der Seite aus.
 table.Alignment = TableAlignment.Center;
 
-// Löschen Sie alle vorhandenen Rahmen und Schattierungen aus der Tabelle.
+// Alle vorhandenen Ränder und Schattierungen aus der Tabelle löschen.
 table.ClearBorders();
 table.ClearShading();
 
-// Fügen Sie dem Umriss der Tabelle grüne Ränder hinzu.
+// Füge grüne Ränder zum Umriss der Tabelle hinzu.
 table.SetBorder(BorderType.Left, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Right, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Top, LineStyle.Single, 1.5, Color.Green, true);

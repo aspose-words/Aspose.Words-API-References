@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertStyleSeparator
 second_title: Aspose.Words för .NET API Referens
 description: DocumentBuilder metod. Infogar stilavgränsare i dokumentet.
 type: docs
-weight: 430
+weight: 460
 url: /sv/net/aspose.words/documentbuilder/insertstyleseparator/
 ---
 ## DocumentBuilder.InsertStyleSeparator method

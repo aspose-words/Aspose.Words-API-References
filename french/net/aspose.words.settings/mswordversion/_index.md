@@ -3,7 +3,7 @@ title: Enum MsWordVersion
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.Settings.MsWordVersion énumération. Permet à Aspose.Wods dimiter le comportement de lapplication spécifique à la version de MS Word.
 type: docs
-weight: 5560
+weight: 5860
 url: /fr/net/aspose.words.settings/mswordversion/
 ---
 ## MsWordVersion enumeration
@@ -18,14 +18,14 @@ public enum MsWordVersion
 
 | Nom | Évaluer | La description |
 | --- | --- | --- |
-| Word2000 | `0` | Optimiser le comportement de Aspose.Words pour correspondre à la version MS Word 2000. |
-| Word2002 | `1` | Optimiser le comportement de Aspose.Words pour correspondre à la version MS Word 2002. |
-| Word2003 | `2` | Optimiser le comportement de Aspose.Words pour correspondre à la version MS Word 2003. |
-| Word2007 | `3` | Optimiser le comportement de Aspose.Words pour correspondre à la version MS Word 2007. |
-| Word2010 | `4` | Optimiser le comportement de Aspose.Words pour correspondre à la version MS Word 2010. |
-| Word2013 | `5` | Optimiser le comportement de Aspose.Words pour correspondre à la version MS Word 2013. |
-| Word2016 | `6` | Optimiser le comportement de Aspose.Words pour correspondre à la version MS Word 2016. |
-| Word2019 | `7` | Optimiser le comportement de Aspose.Words pour correspondre à la version MS Word 2019. |
+| Word2000 | `0` | Optimiser le comportement d'Aspose.Words pour correspondre à la version MS Word 2000. |
+| Word2002 | `1` | Optimiser le comportement d'Aspose.Words pour correspondre à la version MS Word 2002. |
+| Word2003 | `2` | Optimiser le comportement d'Aspose.Words pour correspondre à la version MS Word 2003. |
+| Word2007 | `3` | Optimiser le comportement d'Aspose.Words pour correspondre à la version MS Word 2007. |
+| Word2010 | `4` | Optimiser le comportement d'Aspose.Words pour correspondre à la version MS Word 2010. |
+| Word2013 | `5` | Optimiser le comportement d'Aspose.Words pour correspondre à la version MS Word 2013. |
+| Word2016 | `6` | Optimiser le comportement d'Aspose.Words pour correspondre à la version MS Word 2016. |
+| Word2019 | `7` | Optimiser le comportement d'Aspose.Words pour correspondre à la version MS Word 2019. |
 
 ### Exemples
 
@@ -36,7 +36,7 @@ public void OptimizeFor()
 {
     Document doc = new Document();
 
-    // Cet objet contient une longue liste d'indicateurs uniques à chaque document
+    // Cet objet contient une liste complète d'indicateurs uniques à chaque document
     // qui nous permettent de faciliter la rétrocompatibilité avec les anciennes versions de Microsoft Word.
     CompatibilityOptions options = doc.CompatibilityOptions;
 
@@ -58,7 +58,7 @@ public void OptimizeFor()
 }
 
 /// <summary>
-/// Regroupe tous les drapeaux dans l'objet d'options de compatibilité d'un document par état, puis imprime chaque groupe.
+/// Regroupe tous les indicateurs dans l'objet d'options de compatibilité d'un document par état, puis imprime chaque groupe.
 /// </summary>
 private static void PrintCompatibilityOptions(CompatibilityOptions options)
 {

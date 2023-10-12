@@ -1,14 +1,14 @@
 ---
 title: FrameFormat.IsFrame
 second_title: Aspose.Words per .NET API Reference
-description: FrameFormat proprietà. Restituisce vero se il paragrafo è un frame.
+description: FrameFormat proprietà. RestituisceVERO se il paragrafo è una cornice.
 type: docs
 weight: 60
 url: /it/net/aspose.words/frameformat/isframe/
 ---
 ## FrameFormat.IsFrame property
 
-Restituisce vero se il paragrafo è un frame.
+Restituisce`VERO` se il paragrafo è una cornice.
 
 ```csharp
 public bool IsFrame { get; }

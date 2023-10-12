@@ -23,12 +23,12 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// Bir belgeyi kaydettikten sonra, yeni oluşturulan çıktı belgesinin İnternet Medya Türüne (MIME türü) erişebiliriz.
+// Bir belgeyi kaydettikten sonra yeni oluşturulan çıktı belgesinin İnternet Medya Türüne (MIME türü) erişebiliriz.
 SaveOutputParameters parameters = doc.Save(ArtifactsDir + "Document.SaveOutputParameters.doc");
 
 Assert.AreEqual("application/msword", parameters.ContentType);
 
-// Bu özellik kaydetme biçimine göre değişir.
+// Bu özellik kaydetme formatına bağlı olarak değişir.
 parameters = doc.Save(ArtifactsDir + "Document.SaveOutputParameters.pdf");
 
 Assert.AreEqual("application/pdf", parameters.ContentType);

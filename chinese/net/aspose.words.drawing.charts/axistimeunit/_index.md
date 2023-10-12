@@ -1,14 +1,14 @@
 ---
 title: Enum AxisTimeUnit
 second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.Charts.AxisTimeUnit 枚举. 指定坐标轴的时间单位
+description: Aspose.Words.Drawing.Charts.AxisTimeUnit 枚举. 指定轴的时间单位
 type: docs
-weight: 590
+weight: 600
 url: /zh/net/aspose.words.drawing.charts/axistimeunit/
 ---
 ## AxisTimeUnit enumeration
 
-指定坐标轴的时间单位。
+指定轴的时间单位。
 
 ```csharp
 public enum AxisTimeUnit
@@ -20,12 +20,12 @@ public enum AxisTimeUnit
 | --- | --- | --- |
 | Automatic | `0` | 指定未明确设置单位，应使用默认值。 |
 | Days | `1` | 指定图表数据应以天为单位显示。 |
-| Months | `2` | 指定图表数据应以月显示。 |
-| Years | `3` | 指定图表数据应以年显示。 |
+| Months | `2` | 指定图表数据应以月为单位显示。 |
+| Years | `3` | 指定图表数据应以年为单位显示。 |
 
 ### 例子
 
-显示如何插入带有日期/时间值的图表。
+演示如何插入带有日期/时间值的图表。
 
 ```csharp
 Document doc = new Document();
@@ -37,7 +37,7 @@ Chart chart = shape.Chart;
 // 清除图表的演示数据系列以从干净的图表开始。
 chart.Series.Clear();
 
-// 添加一个自定义系列，其中包含 X 轴的日期/时间值和 Y 轴的相应十进制值。
+// 添加一个自定义系列，其中包含 X 轴的日期/时间值以及 Y 轴的相应小数值。
 chart.Series.Add("Aspose Test Series",
     new[]
     {
@@ -51,14 +51,16 @@ ChartAxis xAxis = chart.AxisX;
 xAxis.Scaling.Minimum = new AxisBound(new DateTime(2017, 11, 05).ToOADate());
 xAxis.Scaling.Maximum = new AxisBound(new DateTime(2017, 12, 03));
 
-// 设置 X 轴的主要单位为周，次要单位为天。
+// 将X轴的主要单位设置为周，次要单位设置为天。
 xAxis.BaseTimeUnit = AxisTimeUnit.Days;
 xAxis.MajorUnit = 7.0d;
 xAxis.MajorTickMark = AxisTickMark.Cross;
 xAxis.MinorUnit = 1.0d;
 xAxis.MinorTickMark = AxisTickMark.Outside;
+xAxis.HasMajorGridlines = true;
+xAxis.HasMinorGridlines = true;
 
-// 定义十进制值的 Y 轴属性。
+// 定义小数值的 Y 轴属性。
 ChartAxis yAxis = chart.AxisY;
 yAxis.TickLabelPosition = AxisTickLabelPosition.High;
 yAxis.MajorUnit = 100.0d;
@@ -66,6 +68,8 @@ yAxis.MinorUnit = 50.0d;
 yAxis.DisplayUnit.Unit = AxisBuiltInUnit.Hundreds;
 yAxis.Scaling.Minimum = new AxisBound(100);
 yAxis.Scaling.Maximum = new AxisBound(700);
+yAxis.HasMajorGridlines = true;
+yAxis.HasMinorGridlines = true;
 
 doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 ```

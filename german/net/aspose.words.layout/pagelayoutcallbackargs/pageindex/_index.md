@@ -1,14 +1,14 @@
 ---
 title: PageLayoutCallbackArgs.PageIndex
 second_title: Aspose.Words für .NET-API-Referenz
-description: PageLayoutCallbackArgs eigendom. Ruft einen 0basierten Index der Seite in dem Dokument ab auf das sich dieses Ereignis bezieht. Gibt einen negativen Wert zurück wenn keine zugehörige Seite vorhanden ist oder wenn die Seite während des Umfließens entfernt wurde.
+description: PageLayoutCallbackArgs eigendom. Ruft den 0basierten Index der Seite im Dokument ab auf die sich dieses Ereignis bezieht. Gibt einen negativen Wert zurück wenn keine zugeordnete Seite vorhanden ist oder wenn die Seite während des Reflows entfernt wurde.
 type: docs
 weight: 30
 url: /de/net/aspose.words.layout/pagelayoutcallbackargs/pageindex/
 ---
 ## PageLayoutCallbackArgs.PageIndex property
 
-Ruft einen 0-basierten Index der Seite in dem Dokument ab, auf das sich dieses Ereignis bezieht. Gibt einen negativen Wert zurück, wenn keine zugehörige Seite vorhanden ist oder wenn die Seite während des Umfließens entfernt wurde.
+Ruft den 0-basierten Index der Seite im Dokument ab, auf die sich dieses Ereignis bezieht. Gibt einen negativen Wert zurück, wenn keine zugeordnete Seite vorhanden ist oder wenn die Seite während des Reflows entfernt wurde.
 
 ```csharp
 public int PageIndex { get; }
@@ -16,10 +16,9 @@ public int PageIndex { get; }
 
 ### Beispiele
 
-Zeigt, wie Layoutänderungen mit einem Layout-Callback nachverfolgt werden.
+Zeigt, wie Layoutänderungen mit einem Layout-Callback verfolgt werden.
 
 ```csharp
-[Test]
 public void PageLayoutCallback()
 {
     Document doc = new Document();
@@ -36,7 +35,7 @@ public void PageLayoutCallback()
 
 /// <summary>
 /// Benachrichtigt uns, wenn wir das Dokument in einem festen Seitenformat speichern
-/// und rendert eine Seite, auf der wir einen Seitenumbruch zu einem Bild im lokalen Dateisystem durchführen.
+/// und rendert eine Seite, auf der wir einen Seiten-Reflow durchführen, in ein Bild im lokalen Dateisystem.
 /// </summary>
 private class RenderPageLayoutCallback : IPageLayoutCallback
 {

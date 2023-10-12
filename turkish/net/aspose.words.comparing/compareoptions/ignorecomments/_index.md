@@ -1,14 +1,14 @@
 ---
 title: CompareOptions.IgnoreComments
 second_title: Aspose.Words for .NET API Referansı
-description: CompareOptions mülk. Yorumlardaki farklılıkların karşılaştırılıp karşılaştırılmayacağını belirtir. Varsayılan olarak yorumlar göz ardı edilmez.
+description: CompareOptions mülk. Yorumlardaki farklılıkların karşılaştırılıp karşılaştırılmayacağını belirtir. Varsayılan olarak yorumlar dikkate alınmaz.
 type: docs
-weight: 40
+weight: 50
 url: /tr/net/aspose.words.comparing/compareoptions/ignorecomments/
 ---
 ## CompareOptions.IgnoreComments property
 
-Yorumlardaki farklılıkların karşılaştırılıp karşılaştırılmayacağını belirtir. Varsayılan olarak yorumlar göz ardı edilmez.
+Yorumlardaki farklılıkların karşılaştırılıp karşılaştırılmayacağını belirtir. Varsayılan olarak yorumlar dikkate alınmaz.
 
 ```csharp
 public bool IgnoreComments { get; set; }
@@ -16,14 +16,14 @@ public bool IgnoreComments { get; set; }
 
 ### Örnekler
 
-Karşılaştırma yaparken belirli türdeki belge öğelerinin nasıl filtreleneceğini gösterir.
+Karşılaştırma yaparken belirli belge öğesi türlerinin nasıl filtreleneceğini gösterir.
 
 ```csharp
-// Orijinal belgeyi oluşturun ve onu çeşitli öğelerle doldurun.
+// Orijinal belgeyi oluşturun ve onu çeşitli türde öğelerle doldurun.
 Document docOriginal = new Document();
 DocumentBuilder builder = new DocumentBuilder(docOriginal);
 
-// Son notla başvurulan paragraf metni:
+// Son notla referans verilen paragraf metni:
 builder.Writeln("Hello world! This is the first paragraph.");
 builder.InsertFootnote(FootnoteType.Endnote, "Original endnote text.");
 
@@ -53,7 +53,7 @@ builder.CurrentParagraph.AppendChild(newComment);
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 builder.Writeln("Original header contents.");
 
-// Belgemizin bir klonunu oluşturun ve klonlanan belgenin öğelerinin her biri üzerinde hızlı bir düzenleme yapın.
+// Belgemizin bir kopyasını oluşturun ve kopyalanan belgenin her bir öğesi üzerinde hızlı bir düzenleme yapın.
 Document docEdited = (Document)docOriginal.Clone(true);
 Paragraph firstParagraph = docEdited.FirstSection.Body.FirstParagraph;
 
@@ -67,9 +67,9 @@ firstParagraph.ParagraphFormat.Style = docEdited.Styles[StyleIdentifier.Heading1
 docEdited.FirstSection.HeadersFooters[HeaderFooterType.HeaderPrimary].FirstParagraph.Runs[0].Text =
     "Edited header contents.";
 
-// Belgeleri karşılaştırmak, düzenlenen belgedeki her düzenleme için bir revizyon oluşturur.
-// Bir CompareOptions nesnesi, revizyonları bastırabilen bir dizi işarete sahiptir.
-// her ilgili öğe türünde, değişikliklerini etkin bir şekilde yok sayar.
+// Belgelerin karşılaştırılması, düzenlenen belgedeki her düzenleme için bir revizyon oluşturur.
+// CompareOptions nesnesinde revizyonları bastırabilecek bir dizi bayrak bulunur
+// ilgili her öğe türü üzerinde, değişikliklerini etkili bir şekilde göz ardı ederek.
 Aspose.Words.Comparing.CompareOptions compareOptions = new Aspose.Words.Comparing.CompareOptions();
 compareOptions.IgnoreFormatting = false;
 compareOptions.IgnoreCaseChanges = false;

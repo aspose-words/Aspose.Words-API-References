@@ -1,14 +1,14 @@
 ---
 title: FrameFormat.RelativeVerticalPosition
 second_title: Aspose.Words for .NET API Referansı
-description: FrameFormat mülk. Bir çerçevenin göreli dikey konumunu alır.
+description: FrameFormat mülk. Bir çerçevenin göreceli dikey konumunu alır.
 type: docs
 weight: 80
 url: /tr/net/aspose.words/frameformat/relativeverticalposition/
 ---
 ## FrameFormat.RelativeVerticalPosition property
 
-Bir çerçevenin göreli dikey konumunu alır.
+Bir çerçevenin göreceli dikey konumunu alır.
 
 ```csharp
 public RelativeVerticalPosition RelativeVerticalPosition { get; }

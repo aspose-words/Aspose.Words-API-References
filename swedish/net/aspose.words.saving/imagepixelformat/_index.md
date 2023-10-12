@@ -3,7 +3,7 @@ title: Enum ImagePixelFormat
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Saving.ImagePixelFormat uppräkning. Anger pixelformatet för de genererade bilderna av dokumentsidor.
 type: docs
-weight: 4960
+weight: 5220
 url: /sv/net/aspose.words.saving/imagepixelformat/
 ---
 ## ImagePixelFormat enumeration

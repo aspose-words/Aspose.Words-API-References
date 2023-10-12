@@ -1,14 +1,14 @@
 ---
 title: Font.Shading
 second_title: Aspose.Words per .NET API Reference
-description: Font proprietà. Restituisce un oggetto Shading che fa riferimento alla formattazione dellombreggiatura per il font.
+description: Font proprietà. Restituisce aShading oggetto che fa riferimento alla formattazione dellombreggiatura per il font.
 type: docs
 weight: 320
 url: /it/net/aspose.words/font/shading/
 ---
 ## Font.Shading property
 
-Restituisce un oggetto Shading che fa riferimento alla formattazione dell'ombreggiatura per il font.
+Restituisce a[`Shading`](../../shading/) oggetto che fa riferimento alla formattazione dell'ombreggiatura per il font.
 
 ```csharp
 public Shading Shading { get; }
@@ -24,8 +24,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Font.Color = Color.White;
 
-// Un modo per rendere visibile il testo creato utilizzando il nostro colore del carattere bianco
-// serve per applicare un effetto di ombreggiatura dello sfondo.
+// Un modo per rendere visibile il testo creato utilizzando il colore del carattere bianco
+// consiste nell'applicare un effetto di ombreggiatura dello sfondo.
 Shading shading = builder.Font.Shading;
 shading.Texture = TextureIndex.TextureDiagonalUp;
 shading.BackgroundPatternColor = Color.OrangeRed;

@@ -22,7 +22,7 @@ public void Execute(IMailMergeDataSource dataSource)
 
 Använd den här metoden för att fylla sammankopplingsfält i dokumentet med värden from vilken datakälla som helst som en lista eller hashtabell eller objekt. Du måste skriva din egen klass som implementerar[`IMailMergeDataSource`](../../imailmergedatasource/) gränssnitt.
 
-Du kan bara använda den här metoden när[`IsBidiTextSupportedOnUpdate`](../../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/)är falsk, det vill säga att du inte behöver höger-till-vänster-språk (som arabiska eller hebreiska) kompatibilitet.
+Du kan bara använda den här metoden när[`IsBidiTextSupportedOnUpdate`](../../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/) är`falsk`, det vill säga att du inte behöver höger-till-vänster-språk (som arabiska eller hebreiska) kompatibilitet.
 
 Denna metod ignorerarRemoveUnusedRegions alternativ.
 
@@ -46,7 +46,7 @@ public void Execute(string[] fieldNames, object[] values)
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | fieldNames | String[] | Array av sammanslagningsfältnamn. Fältnamn är inte skiftlägeskänsliga. Om ett fältnamn som inte finns i dokumentet påträffas ignoreras det. |
-| values | Object[] | Matris med värden som ska infogas i sammanslagningsfälten. Antalet element i denna matris måste vara detsamma som antalet element i fieldNames. |
+| values | Object[] | Matris med värden som ska infogas i sammanslagningsfälten. Antalet element i denna matris måste vara detsamma som antalet element i*fieldNames*. |
 
 ### Anmärkningar
 
@@ -72,7 +72,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.InsertField("MERGEFIELD  Image:logo_FromWeb ");
 builder.InsertField("MERGEFIELD  Image:logo_FromFileSystem ");
 
-  // Skapa en datakälla som innehåller URI:er av bilder som vi kommer att slå samman.
+ // Skapa en datakälla som innehåller URI:er av bilder som vi kommer att slå samman.
 // En URI kan vara en webbadress som pekar på en bild, eller ett lokalt filsystems filnamn för en bildfil.
 string[] columns = { "logo_FromWeb", "logo_FromFileSystem" };
 object[] URIs = { ImageUrl, ImageDir + "Logo.jpg" };
@@ -134,9 +134,9 @@ Använd den här metoden för att fylla sammanslagningsfält i dokumentet med v�
 
 Alla poster från tabellen slås samman i dokumentet.
 
-Du kan använda NÄSTA-fältet i Word-dokumentet för att orsaka **MailMerge** objekt för att välja nästa post från **Datatabell** och fortsätt sammanfoga. Detta kan användas när du skapar dokument som adressetiketter.
+Du kan använda NÄSTA-fältet i Word-dokumentet för att orsaka[`MailMerge`](../) objekt för att välja nästa post från **Datatabell** och fortsätt sammanfoga. Detta kan användas när du skapar dokument som adressetiketter.
 
-När **MailMerge**objektet når slutet av huvuddokumentet och det finns fortfarande fler rader i **Datatabell**, kopierar det hela innehållet i huvuddokumentet och lägger till det i slutet av måldokumentet med en section break som avgränsare.
+När[`MailMerge`](../) objektet når slutet av huvuddokumentet och det finns fortfarande fler rader i **Datatabell**, kopierar det hela innehållet i huvuddokumentet och lägger till det i slutet av måldokumentet med en section break som avgränsare.
 
 Denna metod ignorerarRemoveUnusedRegions alternativ.
 
@@ -195,7 +195,7 @@ private static Document CreateSourceDocExecuteDataTable()
 
 ## Execute(IDataReader) {#execute_4}
 
-Utför e-postkoppling från IDataReader till dokumentet.
+Utför sammanslagning från **IDataReader** in i dokumentet.
 
 ```csharp
 public void Execute(IDataReader dataReader)
@@ -232,29 +232,33 @@ builder.InsertField(" MERGEFIELD UnitPrice");
 
 // Skapa en anslutningssträng som pekar på databasfilen "Northwind".
 // i vårt lokala filsystem, öppna en anslutning och ställ in en SQL-fråga.
-string connectionString = @"Driver={Microsoft Access Driver (*.mdb)};Dbq=" + DatabaseDir + "Northwind.mdb";
-string query = 
-    @"SELECT Products.ProductName, Suppliers.CompanyName, Products.QuantityPerUnit, {fn ROUND(Products.UnitPrice,2)} as UnitPrice
+string connectionString = @"Provider = Microsoft.ACE.OLEDB.12.0; Data Source=" + DatabaseDir + "Northwind.accdb";
+string query =
+    @"SELECT Products.ProductName, Suppliers.CompanyName, Products.QuantityPerUnit, Products.UnitPrice
     FROM Products 
     INNER JOIN Suppliers 
     ON Products.SupplierID = Suppliers.SupplierID";
 
-using (OdbcConnection connection = new OdbcConnection())
+using (OleDbConnection connection = new OleDbConnection(connectionString))
 {
-    connection.ConnectionString = connectionString;
-    connection.Open();
-
     // Skapa ett SQL-kommando som kommer att hämta data för vår sammanslagning.
     // Namnen på tabellens kolumner som denna SELECT-sats kommer att returnera
     // kommer att behöva motsvara sammanslagningsfälten vi placerade ovan.
-    OdbcCommand command = connection.CreateCommand();
+    OleDbCommand command = new OleDbCommand(query, connection);
     command.CommandText = query;
-
-    // Detta kommer att köra kommandot och lagra data i läsaren.
-    OdbcDataReader reader = command.ExecuteReader(CommandBehavior.CloseConnection);
-
-    // Ta data från läsaren och använd den i kopplingen.
-    doc.MailMerge.Execute(reader);
+    try
+    {                    
+        connection.Open();                 
+        using (OleDbDataReader reader = command.ExecuteReader())
+        {
+            // Ta data från läsaren och använd den i kopplingen.
+            doc.MailMerge.Execute(reader);
+        }
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine(ex.Message);
+    }                
 }
 
 doc.Save(ArtifactsDir + "MailMerge.ExecuteDataReader.docx");
@@ -270,7 +274,7 @@ doc.Save(ArtifactsDir + "MailMerge.ExecuteDataReader.docx");
 
 ## Execute(DataView) {#execute_3}
 
-Utför e-postkoppling från en DataView till dokumentet.
+Utför sammanslagning från en **DataView** in i dokumentet.
 
 ```csharp
 public void Execute(DataView dataView)
@@ -332,7 +336,7 @@ doc.Save(ArtifactsDir + "MailMerge.ExecuteDataView.docx");
 
 ## Execute(DataRow) {#execute_1}
 
-Utför e-postkoppling från en DataRow till dokumentet.
+Utför sammanslagning från en **DataRow** in i dokumentet.
 
 ```csharp
 public void Execute(DataRow row)

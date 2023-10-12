@@ -52,7 +52,7 @@ doc.Cleanup(cleanupOptions);
 
 Assert.AreEqual(4, doc.Styles.Count);
 
-// Om du tar bort varje nod som en anpassad stil tillämpas på markeras den som "oanvänd" igen. 
+ // Om du tar bort varje nod som en anpassad stil tillämpas på markeras den som "oanvänd" igen.
 // Kör rengöringsmetoden igen för att ta bort dem.
 doc.FirstSection.Body.RemoveAllChildren();
 doc.Cleanup(cleanupOptions);

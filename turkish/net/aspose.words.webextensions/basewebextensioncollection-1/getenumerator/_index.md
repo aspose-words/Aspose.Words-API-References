@@ -1,14 +1,14 @@
 ---
 title: BaseWebExtensionCollection1.GetEnumerator
 second_title: Aspose.Words for .NET API Referansı
-description: BaseWebExtensionCollection yöntem. Bir koleksiyon boyunca yinelenebilen bir Numaralandırıcı döndürür.
+description: BaseWebExtensionCollection yöntem. Bir koleksiyonda yineleme yapabilen bir numaralandırıcıyı döndürür.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.webextensions/basewebextensioncollection-1/getenumerator/
 ---
 ## BaseWebExtensionCollection&lt;T&gt;.GetEnumerator method
 
-Bir koleksiyon boyunca yinelenebilen bir Numaralandırıcı döndürür.
+Bir koleksiyonda yineleme yapabilen bir numaralandırıcıyı döndürür.
 
 ```csharp
 public IEnumerator<T> GetEnumerator()

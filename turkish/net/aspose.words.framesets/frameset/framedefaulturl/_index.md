@@ -1,14 +1,14 @@
 ---
 title: Frameset.FrameDefaultUrl
 second_title: Aspose.Words for .NET API Referansı
-description: Frameset mülk. Bu çerçevede görüntülenecek web sayfası URLsini veya belge dosya adını alır veya ayarlar.
+description: Frameset mülk. Bu çerçevede görüntülenecek web sayfası URLsini veya belge dosyası adını alır veya ayarlar.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.framesets/frameset/framedefaulturl/
 ---
 ## Frameset.FrameDefaultUrl property
 
-Bu çerçevede görüntülenecek web sayfası URL'sini veya belge dosya adını alır veya ayarlar.
+Bu çerçevede görüntülenecek web sayfası URL'sini veya belge dosyası adını alır veya ayarlar.
 
 ```csharp
 public string FrameDefaultUrl { get; set; }
@@ -19,7 +19,7 @@ public string FrameDefaultUrl { get; set; }
 Sayfadaki çerçevelere nasıl erişileceğini gösterir.
 
 ```csharp
-// Belge, diğer belgelere bağlantı içeren birkaç çerçeve içeriyor.
+// Belge, diğer belgelere bağlantılar içeren birkaç çerçeve içerir.
 Document doc = new Document(MyDir + "Frameset.docx");
 
 // Varsayılan URL'yi (bir web sayfası URL'si veya yerel belge) veya çerçevenin harici bir kaynak olup olmadığını kontrol edebiliriz.

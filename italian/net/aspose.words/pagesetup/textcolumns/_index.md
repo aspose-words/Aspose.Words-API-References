@@ -3,7 +3,7 @@ title: PageSetup.TextColumns
 second_title: Aspose.Words per .NET API Reference
 description: PageSetup proprietà. Restituisce una raccolta che rappresenta linsieme di colonne di testo.
 type: docs
-weight: 410
+weight: 420
 url: /it/net/aspose.words/pagesetup/textcolumns/
 ---
 ## PageSetup.TextColumns property

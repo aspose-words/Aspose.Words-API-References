@@ -3,7 +3,7 @@ title: Enum PdfTextCompression
 second_title: Aspose.Words لمراجع .NET API
 description: Aspose.Words.Saving.PdfTextCompression تعداد. يحدد نوع الضغط المطبق على كل المحتوى في ملف PDF باستثناء الصور.
 type: docs
-weight: 5250
+weight: 5530
 url: /ar/net/aspose.words.saving/pdftextcompression/
 ---
 ## PdfTextCompression enumeration
@@ -18,12 +18,12 @@ public enum PdfTextCompression
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| None | `0` | بدون ضغط . |
-| Flate | `1` | ضغط Flate (ZIP) . |
+| None | `0` | لا يوجد ضغط. |
+| Flate | `1` | ضغط Flate (ZIP). |
 
 ### أمثلة
 
-يوضح كيفية تطبيق ضغط النص عند حفظ مستند في PDF.
+يوضح كيفية تطبيق ضغط النص عند حفظ مستند إلى PDF.
 
 ```csharp
 Document doc = new Document();
@@ -33,14 +33,14 @@ for (int i = 0; i < 100; i++)
     builder.Writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, " +
                     "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
 
-// قم بإنشاء كائن "PdfSaveOptions" يمكننا تمريره إلى طريقة "Save" الخاصة بالمستند
-// لتعديل كيفية تحويل هذه الطريقة المستند إلى PDF.
+// قم بإنشاء كائن "PdfSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" المستند
+// لتعديل كيفية تحويل هذه الطريقة للمستند إلى .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// اضبط خاصية "TextCompression" على "PdfTextCompression.None" لعدم تطبيق أي منها
-// الضغط على النص عندما نحفظ المستند في PDF.
+// اضبط خاصية "ضغط النص" على "PdfTextCompression.None" حتى لا يتم تطبيق أي منها
+// الضغط على النص عندما نحفظ المستند بصيغة PDF.
 // اضبط خاصية "TextCompression" على "PdfTextCompression.Flate" لتطبيق ضغط ZIP
-// إلى النص عندما نحفظ المستند في PDF. كلما زاد حجم المستند ، زاد تأثير ذلك.
+// إلى النص عندما نحفظ المستند إلى PDF. كلما كانت الوثيقة أكبر، كلما كان التأثير أكبر.
 options.TextCompression = pdfTextCompression;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.TextCompression.pdf", options);

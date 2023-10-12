@@ -3,12 +3,14 @@ title: Class MetafileRenderingOptions
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.Saving.MetafileRenderingOptions classe. Permet de spécifier des options de rendu de métafichier supplémentaires.
 type: docs
-weight: 5020
+weight: 5300
 url: /fr/net/aspose.words.saving/metafilerenderingoptions/
 ---
 ## MetafileRenderingOptions class
 
 Permet de spécifier des options de rendu de métafichier supplémentaires.
+
+Pour en savoir plus, visitez le[Gestion des métafichiers Windows](https://docs.aspose.com/words/net/handling-windows-metafiles/) article documentaire.
 
 ```csharp
 public class MetafileRenderingOptions
@@ -26,30 +28,33 @@ public class MetafileRenderingOptions
 | --- | --- |
 | [EmfPlusDualRenderingMode](../../aspose.words.saving/metafilerenderingoptions/emfplusdualrenderingmode/) { get; set; } | Obtient ou définit une valeur déterminant comment les métafichiers EMF+ Dual doivent être rendus. |
 | [EmulateRasterOperations](../../aspose.words.saving/metafilerenderingoptions/emulaterasteroperations/) { get; set; } | Obtient ou définit une valeur déterminant si les opérations raster doivent être émulées ou non. |
-| [RenderingMode](../../aspose.words.saving/metafilerenderingoptions/renderingmode/) { get; set; } | Obtient ou définit une valeur déterminant le rendu des images de métafichier. |
-| [ScaleWmfFontsToMetafileSize](../../aspose.words.saving/metafilerenderingoptions/scalewmffontstometafilesize/) { get; set; } | Obtient ou définit une valeur déterminant s'il faut ou non mettre à l'échelle les polices dans le métafichier WMF en fonction de la taille du métafichier sur la page. |
+| [EmulateRenderingToSizeOnPage](../../aspose.words.saving/metafilerenderingoptions/emulaterenderingtosizeonpage/) { get; set; } | Obtient ou définit une valeur déterminant si le rendu du métafichier émule l'affichage du métafichier en fonction de la taille sur la page ou l'affichage du métafichier dans sa taille par défaut. |
+| [EmulateRenderingToSizeOnPageResolution](../../aspose.words.saving/metafilerenderingoptions/emulaterenderingtosizeonpageresolution/) { get; set; } | Obtient ou définit la résolution en pixels par pouce pour l'émulation du rendu des métafichiers à la taille de la page. |
+| [RenderingMode](../../aspose.words.saving/metafilerenderingoptions/renderingmode/) { get; set; } | Obtient ou définit une valeur déterminant la façon dont les images de métafichier doivent être rendues. |
 | [UseEmfEmbeddedToWmf](../../aspose.words.saving/metafilerenderingoptions/useemfembeddedtowmf/) { get; set; } | Obtient ou définit une valeur déterminant comment les métafichiers WMF avec des métafichiers EMF intégrés doivent être rendus. |
+| [UseGdiRasterOperationsEmulation](../../aspose.words.saving/metafilerenderingoptions/usegdirasteroperationsemulation/) { get; set; } | Obtient ou définit une valeur déterminant s'il faut ou non utiliser GDI+ pour l'émulation des opérations raster. |
 
 ### Exemples
 
-Affiche l'ajout d'un retour au rendu bitmap et la modification du type d'avertissements concernant les enregistrements de métafichiers non pris en charge.
+Affiche l'ajout d'une solution de secours au rendu bitmap et la modification du type d'avertissements concernant les enregistrements de métafichiers non pris en charge.
 
 ```csharp
+public void HandleBinaryRasterWarnings()
 {
     Document doc = new Document(MyDir + "WMF with image.docx");
 
     MetafileRenderingOptions metafileRenderingOptions = new MetafileRenderingOptions();
 
     // Définissez la propriété "EmulateRasterOperations" sur "false" pour revenir au bitmap lorsque
-    // il rencontre un métafichier, qui nécessitera des opérations raster pour s'afficher dans le PDF de sortie.
+    // il rencontre un métafichier, qui nécessitera le rendu des opérations raster dans le PDF de sortie.
     metafileRenderingOptions.EmulateRasterOperations = false;
 
     // Définissez la propriété "RenderingMode" sur "VectorWithFallback" pour essayer de restituer chaque métafichier à l'aide de graphiques vectoriels.
     metafileRenderingOptions.RenderingMode = MetafileRenderingMode.VectorWithFallback;
 
-    // Crée un objet "PdfSaveOptions" que nous pouvons passer à la méthode "Save" du document
+    // Crée un objet "PdfSaveOptions" que l'on peut passer à la méthode "Save" du document
     // pour modifier la façon dont cette méthode convertit le document en .PDF et applique la configuration
-    // dans notre objet MetafileRenderingOptions à l'opération d'enregistrement.
+    // dans notre objet MetafileRenderingOptions à l'opération de sauvegarde.
     PdfSaveOptions saveOptions = new PdfSaveOptions();
     saveOptions.MetafileRenderingOptions = metafileRenderingOptions;
 
@@ -59,12 +64,12 @@ Affiche l'ajout d'un retour au rendu bitmap et la modification du type d'avertis
     doc.Save(ArtifactsDir + "PdfSaveOptions.HandleBinaryRasterWarnings.pdf", saveOptions);
 
     Assert.AreEqual(1, callback.Warnings.Count);
-    Assert.AreEqual("'R2_XORPEN' binary raster operation is partly supported.",
+    Assert.AreEqual("'R2_XORPEN' binary raster operation is not supported.",
         callback.Warnings[0].Description);
 }
 
 /// <summary>
-/// Imprime et collecte les avertissements liés à la perte de mise en forme qui se produisent lors de l'enregistrement d'un document.
+/// Imprime et collecte les avertissements liés à la perte de formatage qui se produisent lors de l'enregistrement d'un document.
 /// </summary>
 public class HandleDocumentWarnings : IWarningCallback
 {

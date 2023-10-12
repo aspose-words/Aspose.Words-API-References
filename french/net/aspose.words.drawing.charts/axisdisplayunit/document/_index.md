@@ -1,14 +1,14 @@
 ---
 title: AxisDisplayUnit.Document
 second_title: Référence de l'API Aspose.Words pour .NET
-description: AxisDisplayUnit propriété. Renvoie le document auquel appartient le détenteur du titre.
+description: AxisDisplayUnit propriété. Renvoie le document auquel appartient le titulaire du titre.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.drawing.charts/axisdisplayunit/document/
 ---
 ## AxisDisplayUnit.Document property
 
-Renvoie le document auquel appartient le détenteur du titre.
+Renvoie le document auquel appartient le titulaire du titre.
 
 ```csharp
 public DocumentBase Document { get; }

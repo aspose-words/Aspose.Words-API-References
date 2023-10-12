@@ -3,7 +3,7 @@ title: Style.NextParagraphStyleName
 second_title: Referencia de API de Aspose.Words para .NET
 description: Style propiedad. Obtiene/establece el nombre del estilo que se aplicará automáticamente a un nuevo párrafo insertado después de un párrafo formateado con el estilo especificado.
 type: docs
-weight: 120
+weight: 140
 url: /es/net/aspose.words/style/nextparagraphstylename/
 ---
 ## Style.NextParagraphStyleName property
@@ -27,7 +27,7 @@ Document doc = new Document();
 
 Assert.AreEqual(4, doc.Styles.Count);
 
-// Enumerar y listar todos los estilos que un documento creado usando Aspose.Words contiene por defecto.
+// Enumerar y enumerar todos los estilos que contiene de forma predeterminada un documento creado con Aspose.Words.
 using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 {
     while (stylesEnum.MoveNext())

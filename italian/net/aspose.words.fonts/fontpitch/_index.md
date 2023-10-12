@@ -1,14 +1,14 @@
 ---
 title: Enum FontPitch
 second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Fonts.FontPitch enum. Rappresenta il passo del carattere.
+description: Aspose.Words.Fonts.FontPitch enum. Rappresenta la spaziatura del carattere.
 type: docs
-weight: 2780
+weight: 2960
 url: /it/net/aspose.words.fonts/fontpitch/
 ---
 ## FontPitch enumeration
 
-Rappresenta il passo del carattere.
+Rappresenta la spaziatura del carattere.
 
 ```csharp
 public enum FontPitch
@@ -18,17 +18,17 @@ public enum FontPitch
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| Default | `0` | Specifica che non sono disponibili informazioni sul passo di un font. |
-| Fixed | `1` | Specifica che si tratta di un carattere a larghezza fissa. |
-| Variable | `2` | Specifica che si tratta di un carattere di larghezza proporzionale. |
+| Default | `0` | Specifica che non sono disponibili informazioni sulla spaziatura di un font. |
+| Fixed | `1` | Specifica che si tratta di un font a larghezza fissa. |
+| Variable | `2` | Specifica che si tratta di un carattere a larghezza proporzionale. |
 
 ### Osservazioni
 
-Il passo indica se il carattere è a passo fisso, a spaziatura proporzionale o si basa su un'impostazione predefinita.
+Il passo indica se il carattere ha passo fisso, spaziatura proporzionale o si basa su un'impostazione predefinita.
 
 ### Esempi
 
-Mostra come accedere e stampare i dettagli di ogni font in un documento.
+Mostra come accedere e stampare i dettagli di ciascun carattere in un documento.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -41,7 +41,7 @@ while (fontCollectionEnumerator.MoveNext())
     {
         Console.WriteLine("Font name: " + fontInfo.Name);
 
-        // I nomi alternativi di solito sono vuoti.
+        // I nomi alternativi sono generalmente vuoti.
         Console.WriteLine("Alt name: " + fontInfo.AltName);
         Console.WriteLine("\t- Family: " + fontInfo.Family);
         Console.WriteLine("\t- " + (fontInfo.IsTrueType ? "Is TrueType" : "Is not TrueType"));

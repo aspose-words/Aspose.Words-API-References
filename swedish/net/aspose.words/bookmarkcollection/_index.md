@@ -3,12 +3,14 @@ title: Class BookmarkCollection
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.BookmarkCollection klass. En samling avBookmark objekt som representerar bokmärkena i det angivna intervallet.
 type: docs
-weight: 40
+weight: 50
 url: /sv/net/aspose.words/bookmarkcollection/
 ---
 ## BookmarkCollection class
 
 En samling av[`Bookmark`](../bookmark/) objekt som representerar bokmärkena i det angivna intervallet.
+
+För att lära dig mer, besök[Arbeta med bokmärken](https://docs.aspose.com/words/net/working-with-bookmarks/) dokumentationsartikel.
 
 ```csharp
 public class BookmarkCollection : IEnumerable<Bookmark>
@@ -41,7 +43,6 @@ public void CreateUpdateAndPrintBookmarks()
     // Skapa ett dokument med tre bokmärken och använd sedan en anpassad dokumentbesökarimplementering för att skriva ut innehållet.
     Document doc = CreateDocumentWithBookmarks(3);
     BookmarkCollection bookmarks = doc.Range.Bookmarks;
-
     PrintAllBookmarkInfo(bookmarks);
 
     // Bokmärken kan nås i bokmärkessamlingen genom index eller namn, och deras namn kan uppdateras.

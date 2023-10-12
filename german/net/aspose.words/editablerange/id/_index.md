@@ -16,9 +16,9 @@ public int Id { get; }
 
 ### Bemerkungen
 
-Die Region muss mit dem abgegrenzt werden[`EditableRangeStart`](../editablerangestart/) und[`EditableRangeEnd`](../editablerangeend/)
+Die Region muss mit dem abgegrenzt werden[`EditableRangeStart`](../editablerangestart/) Und[`EditableRangeEnd`](../editablerangeend/)
 
-Bearbeitbare Bereichskennungen sollen in einem Dokument eindeutig sein, und Aspose.Words behält automatisch bearbeitbare Bereichskennungen bei, wenn Dokumente geladen, gespeichert und kombiniert werden.
+Bearbeitbare Bereichsbezeichner sollen in einem Dokument eindeutig sein und Aspose.Words behält bearbeitbare Bereichsbezeichner automatisch beim Laden, Speichern und Kombinieren von Dokumenten bei.
 
 ### Beispiele
 
@@ -38,7 +38,7 @@ builder.Writeln("This paragraph is inside an editable range, and can be edited."
 EditableRangeEnd editableRangeEnd = builder.EndEditableRange();
 
 // Ein wohlgeformter bearbeitbarer Bereich hat einen Startknoten und einen Endknoten.
-// Diese Knoten haben übereinstimmende IDs und umfassen bearbeitbare Knoten.
+// Diese Knoten haben passende IDs und umfassen bearbeitbare Knoten.
 EditableRange editableRange = editableRangeStart.EditableRange;
 
 Assert.AreEqual(editableRangeStart.Id, editableRange.Id);
@@ -50,8 +50,8 @@ Assert.AreEqual(editableRangeStart.Id, editableRangeEnd.EditableRangeStart.Id);
 Assert.AreEqual(editableRange.Id, editableRangeStart.EditableRange.Id);
 Assert.AreEqual(editableRangeEnd.Id, editableRange.EditableRangeEnd.Id);
 
-// So können wir auf die Knotentypen jedes Teils zugreifen. Der bearbeitbare Bereich selbst ist kein Knoten,
-// aber eine Entität, die aus einem Anfang, einem Ende und ihren eingeschlossenen Inhalten besteht.
+// Auf diese Weise können wir auf die Knotentypen jedes Teils zugreifen. Der bearbeitbare Bereich selbst ist kein Knoten,
+// sondern eine Entität, die aus einem Anfang, einem Ende und den darin enthaltenen Inhalten besteht.
 Assert.AreEqual(NodeType.EditableRangeStart, editableRangeStart.NodeType);
 Assert.AreEqual(NodeType.EditableRangeEnd, editableRangeEnd.NodeType);
 
@@ -59,7 +59,7 @@ builder.Writeln("This paragraph is outside the editable range, and cannot be edi
 
 doc.Save(ArtifactsDir + "EditableRange.CreateAndRemove.docx");
 
-// Einen bearbeitbaren Bereich entfernen. Alle Knoten innerhalb des Bereichs bleiben intakt.
+// Einen bearbeitbaren Bereich entfernen. Alle Knoten, die innerhalb des Bereichs lagen, bleiben intakt.
 editableRange.Remove();
 ```
 

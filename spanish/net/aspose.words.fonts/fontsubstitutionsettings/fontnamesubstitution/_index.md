@@ -1,14 +1,14 @@
 ---
 title: FontSubstitutionSettings.FontNameSubstitution
 second_title: Referencia de API de Aspose.Words para .NET
-description: FontSubstitutionSettings propiedad. Configuración relacionada con la regla de sustitución de nombre de fuente.
+description: FontSubstitutionSettings propiedad. Configuraciones relacionadas con la regla de sustitución de nombres de fuentes.
 type: docs
 weight: 40
 url: /es/net/aspose.words.fonts/fontsubstitutionsettings/fontnamesubstitution/
 ---
 ## FontSubstitutionSettings.FontNameSubstitution property
 
-Configuración relacionada con la regla de sustitución de nombre de fuente.
+Configuraciones relacionadas con la regla de sustitución de nombres de fuentes.
 
 ```csharp
 public FontNameSubstitutionRule FontNameSubstitution { get; }

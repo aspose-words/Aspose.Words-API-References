@@ -1,14 +1,14 @@
 ---
 title: MailMerge.MergeDuplicateRegions
 second_title: Aspose.Words för .NET API Referens
-description: MailMerge fast egendom. Hämtar eller ställer in ett värde som indikerar om alla dokumentkopplingsregioner med namnet på en datakälla ska slås samman under körning av en epostkoppling med regioner mot datakällan eller bara den första.
+description: MailMerge fast egendom. Hämtar eller ställer in ett värde som indikerar om alla dokumentkopplingsregioner med namnet på en datakälla ska slås samman under körning av en brevkoppling med regioner mot datakällan eller bara den första.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.mailmerging/mailmerge/mergeduplicateregions/
 ---
 ## MailMerge.MergeDuplicateRegions property
 
-Hämtar eller ställer in ett värde som indikerar om alla dokumentkopplingsregioner med namnet på en datakälla ska slås samman under körning av en e-postkoppling med regioner mot datakällan eller bara den första.
+Hämtar eller ställer in ett värde som indikerar om alla dokumentkopplingsregioner med namnet på en datakälla ska slås samman under körning av en brevkoppling med regioner mot datakällan eller bara den första.
 
 ```csharp
 public bool MergeDuplicateRegions { get; set; }
@@ -16,7 +16,7 @@ public bool MergeDuplicateRegions { get; set; }
 
 ### Anmärkningar
 
-Standardvärdet är **falsk** .
+Standardvärdet är`falsk` .
 
 ### Exempel
 

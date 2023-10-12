@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTag.SetCheckedSymbol
 second_title: Aspose.Words für .NET-API-Referenz
-description: StructuredDocumentTag methode. Legt das Symbol fest das zur Darstellung des aktivierten Zustands eines KontrollkästchenInhaltssteuerelements verwendet wird.
+description: StructuredDocumentTag methode. Legt das Symbol fest das zur Darstellung des aktivierten Status eines KontrollkästchenInhaltssteuerelements verwendet wird.
 type: docs
-weight: 350
+weight: 380
 url: /de/net/aspose.words.markup/structureddocumenttag/setcheckedsymbol/
 ---
 ## StructuredDocumentTag.SetCheckedSymbol method
 
-Legt das Symbol fest, das zur Darstellung des aktivierten Zustands eines Kontrollkästchen-Inhaltssteuerelements verwendet wird.
+Legt das Symbol fest, das zur Darstellung des aktivierten Status eines Kontrollkästchen-Inhaltssteuerelements verwendet wird.
 
 ```csharp
 public void SetCheckedSymbol(int characterCode, string fontName)
@@ -23,7 +23,7 @@ public void SetCheckedSymbol(int characterCode, string fontName)
 
 Der Zugriff auf diese Methode funktioniert nur fürCheckbox SDT-Typen.
 
-Für alle anderen SDT-Typen tritt eine Ausnahme auf.
+Bei allen anderen SDT-Typen tritt eine Ausnahme auf.
 
 ### Beispiele
 
@@ -36,7 +36,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 StructuredDocumentTag sdtCheckBox =
     new StructuredDocumentTag(doc, SdtType.Checkbox, MarkupLevel.Inline) {Checked = true};
 
-// Wir können die Symbole festlegen, die verwendet werden, um den aktivierten/nicht aktivierten Zustand eines Kontrollkästchen-Inhaltssteuerelements darzustellen.
+// Wir können die Symbole festlegen, die verwendet werden, um den aktivierten/nicht aktivierten Status eines Kontrollkästchen-Inhaltssteuerelements darzustellen.
 sdtCheckBox.SetCheckedSymbol(0x00A9, "Times New Roman");
 sdtCheckBox.SetUncheckedSymbol(0x00AE, "Times New Roman");
 

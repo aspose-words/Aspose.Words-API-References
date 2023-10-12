@@ -3,7 +3,7 @@ title: Chart.Series
 second_title: Aspose.Words för .NET API Referens
 description: Chart fast egendom. Ger tillgång till seriesamling.
 type: docs
-weight: 50
+weight: 60
 url: /sv/net/aspose.words.drawing.charts/chart/series/
 ---
 ## Chart.Series property
@@ -19,6 +19,7 @@ public ChartSeriesCollection Series { get; }
 Visar hur man skapar en lämplig typ av diagramserie för en graftyp.
 
 ```csharp
+public void ChartSeriesCollection()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -77,7 +78,7 @@ Visar hur man skapar en lämplig typ av diagramserie för en graftyp.
     chart = AppendChart(builder, ChartType.Bubble, 500, 300);
 
     // Varje serie kommer att behöva tre decimalmatriser av samma längd.
-    // Den första matrisen innehåller X-värden och den andra innehåller motsvarande Y-värden，
+    // Den första matrisen innehåller X-värden, den andra innehåller motsvarande Y-värden,
     // och den tredje innehåller diametrar för var och en av grafens datapunkter.
     chart.Series.Add("Series 1", 
         new [] { 1.1, 5.0, 9.8 }, 

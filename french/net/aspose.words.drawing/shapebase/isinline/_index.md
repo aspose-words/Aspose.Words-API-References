@@ -1,14 +1,14 @@
 ---
 title: ShapeBase.IsInline
 second_title: Référence de l'API Aspose.Words pour .NET
-description: ShapeBase propriété. Un moyen rapide de déterminer si cette forme est alignée avec le texte.
+description: ShapeBase propriété. Un moyen rapide de déterminer si cette forme est positionnée en ligne avec le texte.
 type: docs
-weight: 280
+weight: 290
 url: /fr/net/aspose.words.drawing/shapebase/isinline/
 ---
 ## ShapeBase.IsInline property
 
-Un moyen rapide de déterminer si cette forme est alignée avec le texte.
+Un moyen rapide de déterminer si cette forme est positionnée en ligne avec le texte.
 
 ```csharp
 public bool IsInline { get; }
@@ -16,11 +16,11 @@ public bool IsInline { get; }
 
 ### Remarques
 
-N'a d'effet que pour les formes de niveau supérieur.
+N'a d'effet que sur les formes de niveau supérieur.
 
 ### Exemples
 
-Montre comment déterminer si une forme est en ligne ou flottante.
+Montre comment déterminer si une forme est intégrée ou flottante.
 
 ```csharp
 Document doc = new Document();
@@ -46,10 +46,10 @@ shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPosition.Left
 shape.FillColor = Color.Orange;
 
 // Une forme flottante appartient au paragraphe dans lequel on l'insère,
-// que nous pouvons déterminer par un symbole d'ancre qui apparaît lorsque nous cliquons sur la forme.
+// que l'on peut déterminer par un symbole d'ancre qui apparaît lorsque l'on clique sur la forme.
 // Si la forme n'a pas de symbole d'ancre visible à sa gauche,
 // nous devrons activer les ancres visibles via "Options" -> "Affichage" -> "Ancres d'objet".
-// Dans Microsoft Word, nous pouvons faire un clic gauche et faire glisser cette forme librement vers n'importe quel emplacement.
+// Dans Microsoft Word, nous pouvons cliquer avec le bouton gauche et faire glisser cette forme librement vers n'importe quel emplacement.
 Assert.AreEqual(WrapType.None, shape.WrapType);
 Assert.False(shape.IsInline);
 

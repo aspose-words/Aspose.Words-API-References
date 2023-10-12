@@ -3,12 +3,14 @@ title: Class SpecialChar
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.SpecialChar clase. Clase base para caracteres especiales en el documento.
 type: docs
-weight: 5800
+weight: 6100
 url: /es/net/aspose.words/specialchar/
 ---
 ## SpecialChar class
 
 Clase base para caracteres especiales en el documento.
+
+Para obtener más información, visite el[Modelo de objetos de documento (DOM) de Aspose.Words](https://docs.aspose.com/words/net/aspose-words-document-object-model/) artículo de documentación.
 
 ```csharp
 public class SpecialChar : Inline
@@ -21,18 +23,18 @@ public class SpecialChar : Inline
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Especifica el identificador de nodo personalizado. |
 | virtual [Document](../../aspose.words/node/document/) { get; } | Obtiene el documento al que pertenece este nodo. |
 | [Font](../../aspose.words/inline/font/) { get; } | Proporciona acceso al formato de fuente de este objeto. |
-| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Devuelve verdadero si este nodo puede contener otros nodos. |
+| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Devoluciones`verdadero` si este nodo puede contener otros nodos. |
 | [IsDeleteRevision](../../aspose.words/inline/isdeleterevision/) { get; } | Devuelve verdadero si este objeto se eliminó en Microsoft Word mientras el seguimiento de cambios estaba habilitado. |
-| [IsFormatRevision](../../aspose.words/inline/isformatrevision/) { get; } | Devuelve verdadero si se cambió el formato del objeto en Microsoft Word mientras estaba habilitado el seguimiento de cambios. |
+| [IsFormatRevision](../../aspose.words/inline/isformatrevision/) { get; } | Devuelve verdadero si se cambió el formato del objeto en Microsoft Word mientras el seguimiento de cambios estaba habilitado. |
 | [IsInsertRevision](../../aspose.words/inline/isinsertrevision/) { get; } | Devuelve verdadero si este objeto se insertó en Microsoft Word mientras el seguimiento de cambios estaba habilitado. |
-| [IsMoveFromRevision](../../aspose.words/inline/ismovefromrevision/) { get; } | Devoluciones **verdadero** si este objeto se movió (eliminó) en Microsoft Word mientras el seguimiento de cambios estaba habilitado. |
-| [IsMoveToRevision](../../aspose.words/inline/ismovetorevision/) { get; } | Devoluciones **verdadero** si este objeto se movió (insertó) en Microsoft Word mientras el seguimiento de cambios estaba habilitado. |
+| [IsMoveFromRevision](../../aspose.words/inline/ismovefromrevision/) { get; } | Devoluciones`verdadero` si este objeto se movió (eliminó) en Microsoft Word mientras el seguimiento de cambios estaba habilitado. |
+| [IsMoveToRevision](../../aspose.words/inline/ismovetorevision/) { get; } | Devoluciones`verdadero` si este objeto se movió (insertó) en Microsoft Word mientras el seguimiento de cambios estaba habilitado. |
 | [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Obtiene el nodo que sigue inmediatamente a este nodo. |
-| override [NodeType](../../aspose.words/specialchar/nodetype/) { get; } | Devoluciones **NodeType.SpecialChar** . |
+| override [NodeType](../../aspose.words/specialchar/nodetype/) { get; } | DevolucionesSpecialChar . |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Obtiene el padre inmediato de este nodo. |
 | [ParentParagraph](../../aspose.words/inline/parentparagraph/) { get; } | Recupera el padre[`Paragraph`](../paragraph/) de este nodo. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Obtiene el nodo inmediatamente anterior a este nodo. |
-| [Range](../../aspose.words/node/range/) { get; } | Devuelve un **Rango** objeto que representa la parte de un documento que está contenido en este nodo. |
+| [Range](../../aspose.words/node/range/) { get; } | Devuelve un[`Range`](../range/) objeto que representa la parte de un documento contenido en este nodo. |
 
 ## Métodos
 
@@ -41,36 +43,36 @@ public class SpecialChar : Inline
 | override [Accept](../../aspose.words/specialchar/accept/)(DocumentVisitor) | Acepta un visitante. |
 | [Clone](../../aspose.words/node/clone/)(bool) | Crea un duplicado del nodo. |
 | [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Obtiene el primer ancestro del especificado[`NodeType`](../nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Obtiene el primer ancestro del tipo de objeto especificado. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Obtiene el primer antepasado del tipo de objeto especificado. |
 | override [GetText](../../aspose.words/specialchar/gettext/)() | Obtiene el carácter especial que representa este nodo. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Obtiene el siguiente nodo de acuerdo con el algoritmo de recorrido del árbol de pedido previo. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Obtiene el nodo anterior de acuerdo con el algoritmo de recorrido del árbol de pedido previo. |
-| [Remove](../../aspose.words/node/remove/)() | Se elimina a sí mismo del padre. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Obtiene el siguiente nodo según el algoritmo transversal del árbol de pedidos anticipados. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Obtiene el nodo anterior según el algoritmo transversal del árbol de pedidos anticipados. |
+| [Remove](../../aspose.words/node/remove/)() | Se elimina del padre. |
 | [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exporta el contenido del nodo a una cadena en el formato especificado. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exporta el contenido del nodo a una cadena utilizando las opciones de guardado especificadas. |
+| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exporta el contenido del nodo a una cadena usando las opciones de guardado especificadas. |
 
 ### Observaciones
 
-Un documento de Microsoft Word puede incluir una serie de caracteres especiales que representan campos, campos de formulario, formas, objetos OLE, notas al pie, etc. Para ver la lista de caracteres especiales, consulte[`ControlChar`](../controlchar/).
+Un documento de Microsoft Word puede incluir una cantidad de caracteres especiales que representan campos, campos de formulario, formas, objetos OLE, notas al pie, etc. Para obtener la lista de caracteres especiales, consulte[`ControlChar`](../controlchar/).
 
-**Caracter especial** es un nodo en línea y solo puede ser un hijo de **Párrafo**.
+`SpecialChar`es un nodo en línea y sólo puede ser hijo de[`Paragraph`](../paragraph/).
 
-**Caracter especial** char se usa como clase base para clases más específicas que representan caracteres especiales para los que Aspose.Words proporciona acceso programático. El **Caracter especial** class también se usa para representar un carácter especial para el cual Aspose.Words no proporciona acceso programático detallado.
+`SpecialChar` char se utiliza como clase base para clases más específicas que representan caracteres especiales para los que Aspose.Words proporciona acceso programático. El`SpecialChar` La clase también se utiliza para representar un carácter especial para el cual Aspose.Words no proporciona acceso programático detallado.
 
 ### Ejemplos
 
-Muestra cómo usar una implementación de DocumentVisitor para eliminar todo el contenido oculto de un documento.
+Muestra cómo utilizar una implementación de DocumentVisitor para eliminar todo el contenido oculto de un documento.
 
 ```csharp
+public void RemoveHiddenContentFromDocument()
 {
     Document doc = new Document(MyDir + "Hidden content.docx");
-
     RemoveHiddenContentVisitor hiddenContentRemover = new RemoveHiddenContentVisitor();
 
-    // A continuación hay tres tipos de campos que pueden aceptar un visitante del documento,
+    // A continuación se muestran tres tipos de campos que pueden aceptar un visitante de documentos,
     // lo que le permitirá visitar el nodo de aceptación y luego atravesar sus nodos secundarios en profundidad.
     // 1 - Nodo de párrafo:
-    Paragraph para = (Paragraph) doc.GetChild(NodeType.Paragraph, 4, true);
+    Paragraph para = (Paragraph)doc.GetChild(NodeType.Paragraph, 4, true);
     para.Accept(hiddenContentRemover);
 
     // 2 - Nodo de tabla:
@@ -81,6 +83,7 @@ Muestra cómo usar una implementación de DocumentVisitor para eliminar todo el 
     doc.Accept(hiddenContentRemover);
 
     doc.Save(ArtifactsDir + "Font.RemoveHiddenContentFromDocument.docx");
+}
 
 /// <summary>
 /// Elimina todos los nodos visitados marcados como "contenido oculto".
@@ -88,7 +91,7 @@ Muestra cómo usar una implementación de DocumentVisitor para eliminar todo el 
 public class RemoveHiddenContentVisitor : DocumentVisitor
 {
     /// <summary>
-    /// Llamado cuando se encuentra un nodo FieldStart en el documento.
+    /// Se llama cuando se encuentra un nodo FieldStart en el documento.
     /// </summary>
     public override VisitorAction VisitFieldStart(FieldStart fieldStart)
     {
@@ -99,7 +102,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Llamado cuando se encuentra un nodo FieldEnd en el documento.
+    /// Se llama cuando se encuentra un nodo FieldEnd en el documento.
     /// </summary>
     public override VisitorAction VisitFieldEnd(FieldEnd fieldEnd)
     {
@@ -110,7 +113,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Llamado cuando se encuentra un nodo FieldSeparator en el documento.
+    /// Se llama cuando se encuentra un nodo FieldSeparator en el documento.
     /// </summary>
     public override VisitorAction VisitFieldSeparator(FieldSeparator fieldSeparator)
     {
@@ -121,7 +124,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Llamado cuando se encuentra un nodo Ejecutar en el documento.
+    /// Se llama cuando se encuentra un nodo Ejecutar en el documento.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -132,7 +135,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Llamado cuando se encuentra un nodo de párrafo en el documento.
+    /// Se llama cuando se encuentra un nodo Párrafo en el documento.
     /// </summary>
     public override VisitorAction VisitParagraphStart(Paragraph paragraph)
     {
@@ -143,7 +146,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Llamado cuando se encuentra un FormField en el documento.
+    /// Se llama cuando se encuentra un FormField en el documento.
     /// </summary>
     public override VisitorAction VisitFormField(FormField formField)
     {
@@ -154,7 +157,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Llamado cuando se encuentra un GroupShape en el documento.
+    /// Se llama cuando se encuentra un GroupShape en el documento.
     /// </summary>
     public override VisitorAction VisitGroupShapeStart(GroupShape groupShape)
     {
@@ -165,7 +168,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Llamado cuando se encuentra una Forma en el documento.
+    /// Se llama cuando se encuentra una forma en el documento.
     /// </summary>
     public override VisitorAction VisitShapeStart(Shape shape)
     {
@@ -187,7 +190,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Llamado cuando se encuentra una nota al pie en el documento.
+    /// Se llama cuando se encuentra una nota al pie en el documento.
     /// </summary>
     public override VisitorAction VisitFootnoteStart(Footnote footnote)
     {
@@ -209,15 +212,15 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Se llama cuando se finaliza la visita de un nodo Tabla en el documento.
+    /// Se llama cuando finaliza la visita a un nodo de tabla en el documento.
     /// </summary>
     public override VisitorAction VisitTableEnd(Table table)
     {
-        // El contenido dentro de las celdas de la tabla puede tener el indicador de contenido oculto, pero las tablas en sí no pueden.
-        // Si esta tabla no tuviera nada más que contenido oculto, este visitante lo habría eliminado todo,
-        // y no quedarían nodos secundarios.
-        // Por lo tanto, también podemos tratar la tabla en sí misma como contenido oculto y eliminarla.
-        // Las tablas que están vacías pero no tienen contenido oculto tendrán celdas con párrafos vacíos dentro,
+        // El contenido dentro de las celdas de la tabla puede tener la marca de contenido oculto, pero las tablas mismas no.
+        // Si esta tabla no tuviera nada más que contenido oculto, este visitante lo habría eliminado todo.
+        // y no quedarán nodos secundarios.
+        // Por lo tanto, también podemos tratar la tabla como contenido oculto y eliminarla.
+        // Las tablas que están vacías pero que no tienen contenido oculto tendrán celdas con párrafos vacíos en su interior.
         // que este visitante no eliminará.
         if (!table.HasChildNodes)
             table.Remove();
@@ -226,7 +229,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Se llama cuando se finaliza la visita de un nodo Cell en el documento.
+    /// Se llama cuando finaliza la visita a un nodo celular en el documento.
     /// </summary>
     public override VisitorAction VisitCellEnd(Cell cell)
     {
@@ -237,7 +240,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Se llama cuando finaliza la visita de un nodo Fila en el documento.
+    /// Se llama cuando finaliza la visita a un nodo de fila en el documento.
     /// </summary>
     public override VisitorAction VisitRowEnd(Row row)
     {

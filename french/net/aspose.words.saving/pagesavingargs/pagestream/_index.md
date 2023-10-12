@@ -16,11 +16,11 @@ public Stream PageStream { get; set; }
 
 ### Remarques
 
-Cette propriété vous permet d'enregistrer des pages de document dans des flux plutôt que dans des fichiers.
+Cette propriété vous permet d'enregistrer les pages du document dans des flux plutôt que dans des fichiers.
 
-La valeur par défaut est`nul` . Lorsque cette propriété est`nul` la page de document sera enregistrée dans un fichier spécifié dans le[`PageFileName`](../pagefilename/) propriété.
+La valeur par défaut est`nul` . Lorsque cette propriété est`nul` , la page du document sera enregistrée dans un fichier spécifié dans le[`PageFileName`](../pagefilename/) propriété.
 
-Si PageStream et PageFileName sont définis, PageStream sera utilisé.
+Si les deux`PageStream` et[`PageFileName`](../pagefilename/) sont définis, alors PageStream sera utilisé.
 
 ### Exemples
 
@@ -39,12 +39,12 @@ public void PageFileNames()
     builder.InsertBreak(BreakType.PageBreak);
     builder.Writeln("Page 3.");
 
-    // Crée un objet "HtmlFixedSaveOptions", que nous pouvons passer à la méthode "Save" du document
+    // Crée un objet "HtmlFixedSaveOptions", que l'on peut passer à la méthode "Save" du document
     // pour modifier la façon dont nous convertissons le document en HTML.
     HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions();
 
-    // Nous enregistrerons chaque page de ce document dans un fichier HTML séparé dans le système de fichiers local.
-    // Définir un rappel qui nous permet de nommer chaque document HTML de sortie.
+    // Nous enregistrerons chaque page de ce document dans un fichier HTML distinct dans le système de fichiers local.
+    // Définissez un rappel qui nous permet de nommer chaque document HTML de sortie.
     htmlFixedSaveOptions.PageSavingCallback = new CustomFileNamePageSavingCallback();
 
     doc.Save(ArtifactsDir + "SavingCallback.PageFileNames.html", htmlFixedSaveOptions);
@@ -65,10 +65,10 @@ private class CustomFileNamePageSavingCallback : IPageSavingCallback
         string outFileName = $"{ArtifactsDir}SavingCallback.PageFileNames.Page_{args.PageIndex}.html";
 
         // Vous trouverez ci-dessous deux façons de spécifier où Aspose.Words enregistrera chaque page du document.
-        // 1 - Définissez un nom de fichier pour le fichier de page de sortie :
+        // 1 - Définissez un nom de fichier pour le fichier d'échange de sortie :
         args.PageFileName = outFileName;
 
-        // 2 - Créez un flux personnalisé pour le fichier de page de sortie :
+        // 2 - Créez un flux personnalisé pour le fichier d'échange de sortie :
         args.PageStream = new FileStream(outFileName, FileMode.Create);
 
         Assert.False(args.KeepPageStreamOpen);

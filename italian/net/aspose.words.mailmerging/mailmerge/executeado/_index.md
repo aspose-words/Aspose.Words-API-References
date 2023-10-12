@@ -1,14 +1,14 @@
 ---
 title: MailMerge.ExecuteADO
 second_title: Aspose.Words per .NET API Reference
-description: MailMerge metodo. Esegue la stampa unione da un oggetto Recordset ADO nel documento.
+description: MailMerge metodo. Esegue la stampa unione da un oggetto ADO Recordset nel documento.
 type: docs
 weight: 190
 url: /it/net/aspose.words.mailmerging/mailmerge/executeado/
 ---
 ## MailMerge.ExecuteADO method
 
-Esegue la stampa unione da un oggetto Recordset ADO nel documento.
+Esegue la stampa unione da un oggetto ADO Recordset nel documento.
 
 ```csharp
 public void ExecuteADO(object recordset)
@@ -16,15 +16,15 @@ public void ExecuteADO(object recordset)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| recordset | Object | Oggetto Recordset o Record ADO. |
+| recordset | Object | Oggetto Recordset ADO o record. |
 
 ### Osservazioni
 
-Questo metodo è utile quando si intende utilizzare le classi Aspose.Words come oggetti COM da codice non gestito, ad esempio un'applicazione creata utilizzando ASP o Visual Basic 6.0.
+Questo metodo è utile quando si intende utilizzare le classi Aspose.Words come oggetti COM da codice non gestito come un'applicazione creata utilizzando ASP o Visual Basic 6.0.
 
-Questo metodo ignora ilRemoveUnusedRegions opzione.
+Questo metodo ignora il fileRemoveUnusedRegions opzione.
 
-Per ulteriori informazioni, vedere la descrizione di MailMerge.Execute(DataTable).
+Per ulteriori informazioni vedere la descrizione di[`Execute`](../execute/).
 
 ### Esempi
 
@@ -57,24 +57,24 @@ public void ExecuteADO()
 {
     Document doc = CreateSourceDocADOMailMerge();
 
-    // Per lavorare con ADO DataSet, dovremo aggiungere un riferimento alla libreria Microsoft ActiveX Data Objects,
+    // Per lavorare con ADO DataSets, dovremo aggiungere un riferimento alla libreria Microsoft ActiveX Data Objects,
     // che è incluso nella distribuzione .NET e archiviato in "adodb.dll".
     ADODB.Connection connection = new ADODB.Connection();
 
     // Crea una stringa di connessione che punta al file di database "Northwind".
-    // nel nostro file system locale e apriamo una connessione.
-    string connectionString = @"Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" + DatabaseDir + "Northwind.mdb";
+    // nel nostro file system locale e apri una connessione.
+    string connectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" + DatabaseDir + "Northwind.accdb";
     connection.Open(connectionString);
 
-    // Popolare il nostro DataSet eseguendo un comando SQL sul nostro database.
+    // Compila il nostro DataSet eseguendo un comando SQL sul nostro database.
     // I nomi delle colonne nella tabella dei risultati dovranno corrispondere
-    // ai valori dei MERGEFIELDS che conterranno i nostri dati.
+    // ai valori dei MERGEFIELDS che ospiteranno i nostri dati.
     const string command = @"SELECT ProductName, QuantityPerUnit, UnitPrice FROM Products";
 
     ADODB.Recordset recordset = new ADODB.Recordset();
     recordset.Open(command, connection);
 
-    // Esegui la stampa unione e salva il documento.
+    // Esegue la stampa unione e salva il documento.
     doc.MailMerge.ExecuteADO(recordset);
     doc.Save(ArtifactsDir + "MailMerge.ExecuteADO.docx");
 }

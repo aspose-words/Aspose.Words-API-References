@@ -1,14 +1,14 @@
 ---
 title: Cell.Tables
 second_title: Referencia de API de Aspose.Words para .NET
-description: Cell propiedad. Obtiene una colección de tablas que son elementos secundarios inmediatos de la celda.
+description: Cell propiedad. Obtiene una colección de tablas que son hijas inmediatas de la celda.
 type: docs
-weight: 100
+weight: 120
 url: /es/net/aspose.words.tables/cell/tables/
 ---
 ## Cell.Tables property
 
-Obtiene una colección de tablas que son elementos secundarios inmediatos de la celda.
+Obtiene una colección de tablas que son hijas inmediatas de la celda.
 
 ```csharp
 public TableCollection Tables { get; }
@@ -16,23 +16,22 @@ public TableCollection Tables { get; }
 
 ### Ejemplos
 
-Muestra cómo averiguar si las tablas están anidadas.
+Muestra cómo saber si una tabla está anidada.
 
 ```csharp
 public void CalculateDepthOfNestedTables()
 {
     Document doc = new Document(MyDir + "Nested tables.docx");
     NodeCollection tables = doc.GetChildNodes(NodeType.Table, true);
-
     for (int i = 0; i < tables.Count; i++)
     {
         Table table = (Table)tables[i];
 
-        // Averigüe si alguna celda de la tabla tiene otras tablas como hijos.
+        // Descubra si alguna celda de la tabla tiene otras tablas como hijas.
         int count = GetChildTableCount(table);
         Console.WriteLine("Table #{0} has {1} tables directly within its cells", i, count);
 
-        // Averigüe si la tabla está anidada dentro de otra tabla y, de ser así, a qué profundidad.
+        // Descubra si la tabla está anidada dentro de otra tabla y, de ser así, a qué profundidad.
         int tableDepth = GetNestedDepthOfTable(table);
 
         if (tableDepth > 0)
@@ -44,7 +43,7 @@ public void CalculateDepthOfNestedTables()
 }
 
 /// <summary>
-/// Calcula a qué nivel está anidada una tabla dentro de otras tablas.
+/// Calcula en qué nivel está anidada una tabla dentro de otras tablas.
 /// </summary>
 /// <returns>
 /// Un número entero que indica la profundidad de anidamiento de la tabla (número de nodos de la tabla principal).

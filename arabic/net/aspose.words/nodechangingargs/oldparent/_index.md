@@ -16,9 +16,10 @@ public Node OldParent { get; }
 
 ### أمثلة
 
-يوضح كيفية استخدام NodeChangingCallback لمراقبة التغييرات في شجرة المستند في الوقت الفعلي أثناء تحريرها.
+يوضح كيفية استخدام NodeChangingCallback لمراقبة التغييرات التي تطرأ على شجرة المستندات في الوقت الفعلي أثناء قيامنا بتحريرها.
 
 ```csharp
+public void NodeChangingCallback()
 {
     Document doc = new Document();
     doc.NodeChangingCallback = new NodeChangingPrinter();
@@ -43,7 +44,7 @@ public Node OldParent { get; }
 }
 
 /// <summary>
-/// يطبع كل إدخال / إزالة عقدة كما يحدث في المستند.
+/// يطبع كل إدخال/إزالة للعقدة أثناء حدوثها في المستند.
 /// </summary>
 private class NodeChangingPrinter : INodeChangingCallback
 {

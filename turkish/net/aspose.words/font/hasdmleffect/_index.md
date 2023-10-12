@@ -1,14 +1,14 @@
 ---
 title: Font.HasDmlEffect
 second_title: Aspose.Words for .NET API Referansı
-description: Font yöntem. Belirli DrawingML metin efektinin uygulanıp uygulanmadığını kontrol eder.
+description: Font yöntem. Belirli bir DrawingML metin efektinin uygulanıp uygulanmadığını kontrol eder.
 type: docs
 weight: 560
 url: /tr/net/aspose.words/font/hasdmleffect/
 ---
 ## Font.HasDmlEffect method
 
-Belirli DrawingML metin efektinin uygulanıp uygulanmadığını kontrol eder.
+Belirli bir DrawingML metin efektinin uygulanıp uygulanmadığını kontrol eder.
 
 ```csharp
 public bool HasDmlEffect(TextDmlEffect dmlEffectType)
@@ -20,7 +20,7 @@ public bool HasDmlEffect(TextDmlEffect dmlEffectType)
 
 ### Geri dönüş değeri
 
-Belirli DrawingML metin efekti uygulandıysa doğrudur.
+`doğru` belirli bir DrawingML metin efekti uygulanmışsa.
 
 ### Örnekler
 

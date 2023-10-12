@@ -70,7 +70,7 @@ public CsvDataSource(Stream csvStream)
 
 ## CsvDataSource(Stream, CsvDataLoadOptions) {#constructor_1}
 
-Crea una nuova origine dati con i dati di un flusso CSV utilizzando le opzioni specificate per l'analisi dei dati CSV.
+Crea una nuova origine dati con i dati da un flusso CSV utilizzando le opzioni specificate per l'analisi dei dati CSV.
 
 ```csharp
 public CsvDataSource(Stream csvStream, CsvDataLoadOptions options)

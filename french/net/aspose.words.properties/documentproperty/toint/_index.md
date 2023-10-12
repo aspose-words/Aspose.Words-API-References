@@ -1,14 +1,14 @@
 ---
 title: DocumentProperty.ToInt
 second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentProperty méthode. Renvoie la valeur de la propriété sous forme dentier.
+description: DocumentProperty méthode. Renvoie la valeur de la propriété sous forme entière.
 type: docs
 weight: 100
 url: /fr/net/aspose.words.properties/documentproperty/toint/
 ---
 ## DocumentProperty.ToInt method
 
-Renvoie la valeur de la propriété sous forme d'entier.
+Renvoie la valeur de la propriété sous forme entière.
 
 ```csharp
 public int ToInt()
@@ -20,7 +20,7 @@ Lève une exception si le type de propriété n'est pasNumber .
 
 ### Exemples
 
-Affiche diverses méthodes de conversion de type des propriétés de document personnalisées.
+Affiche différentes méthodes de conversion de type des propriétés de document personnalisées.
 
 ```csharp
 Document doc = new Document();

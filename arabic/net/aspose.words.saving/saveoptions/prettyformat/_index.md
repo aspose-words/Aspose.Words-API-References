@@ -1,14 +1,14 @@
 ---
 title: SaveOptions.PrettyFormat
 second_title: Aspose.Words لمراجع .NET API
-description: SaveOptions ملكية. متىحقيقي  جميلة تنسيقات الإخراج حيثما أمكن ذلك. القيمة الافتراضية هي خاطئة .
+description: SaveOptions ملكية. متىحقيقي إخراج تنسيقات جميلة حيثما ينطبق ذلك. القيمة الافتراضية هيخطأ شنيع .
 type: docs
-weight: 120
+weight: 110
 url: /ar/net/aspose.words.saving/saveoptions/prettyformat/
 ---
 ## SaveOptions.PrettyFormat property
 
-متى`حقيقي` ، جميلة تنسيقات الإخراج حيثما أمكن ذلك. القيمة الافتراضية هي **خاطئة** .
+متى`حقيقي`، إخراج تنسيقات جميلة حيثما ينطبق ذلك. القيمة الافتراضية هي`خطأ شنيع` .
 
 ```csharp
 public bool PrettyFormat { get; set; }
@@ -16,11 +16,11 @@ public bool PrettyFormat { get; set; }
 
 ### ملاحظات
 
-ضبط ل **حقيقي** لجعل مخرجات HTML و MHTML و EPUB و WordML و RTF و DOCX و ODT قابلة للقراءة البشرية. مفيد للاختبار أو التصحيح.
+ضبط ل`حقيقي` لجعل مخرجات HTML وMHTML وEPUB وWordML وRTF وDOCX وODT قابلة للقراءة البشرية. مفيد للاختبار أو تصحيح الأخطاء.
 
 ### أمثلة
 
-يوضح كيفية تحسين إمكانية قراءة الشفرة الأولية لمستند .html محفوظ.
+يوضح كيفية تحسين إمكانية قراءة التعليمات البرمجية الأولية لمستند html محفوظ.
 
 ```csharp
 Document doc = new Document();
@@ -31,7 +31,7 @@ HtmlSaveOptions htmlOptions = new HtmlSaveOptions(SaveFormat.Html) { PrettyForma
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.PrettyFormat.html", htmlOptions);
 
-// تمكين تنسيق جميل يجعل شفرة html الأولية أكثر قابلية للقراءة عن طريق إضافة علامة جدولة وأحرف سطر جديدة.
+// يؤدي تمكين التنسيق الجميل إلى جعل تعليمات HTML البرمجية الأولية أكثر قابلية للقراءة عن طريق إضافة علامة جدولة وأحرف سطر جديدة.
 string html = File.ReadAllText(ArtifactsDir + "HtmlSaveOptions.PrettyFormat.html");
 
 if (usePrettyFormat)

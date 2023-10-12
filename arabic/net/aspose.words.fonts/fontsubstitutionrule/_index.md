@@ -3,12 +3,14 @@ title: Class FontSubstitutionRule
 second_title: Aspose.Words لمراجع .NET API
 description: Aspose.Words.Fonts.FontSubstitutionRule فصل. هذه فئة أساسية مجردة لقاعدة استبدال الخط.
 type: docs
-weight: 2820
+weight: 3000
 url: /ar/net/aspose.words.fonts/fontsubstitutionrule/
 ---
 ## FontSubstitutionRule class
 
 هذه فئة أساسية مجردة لقاعدة استبدال الخط.
+
+لمعرفة المزيد، قم بزيارة[العمل مع الخطوط](https://docs.aspose.com/words/net/working-with-fonts/) مقالة توثيقية.
 
 ```csharp
 public abstract class FontSubstitutionRule
@@ -18,7 +20,7 @@ public abstract class FontSubstitutionRule
 
 | اسم | وصف |
 | --- | --- |
-| virtual [Enabled](../../aspose.words.fonts/fontsubstitutionrule/enabled/) { get; set; } | يحدد ما إذا كانت القاعدة ممكّنة أم لا. |
+| virtual [Enabled](../../aspose.words.fonts/fontsubstitutionrule/enabled/) { get; set; } | يحدد ما إذا كانت القاعدة مفعلة أم لا. |
 
 ### أمثلة
 
@@ -32,8 +34,8 @@ FontConfigSubstitutionRule fontConfigSubstitution =
 bool isWindows = new[] {PlatformID.Win32NT, PlatformID.Win32S, PlatformID.Win32Windows, PlatformID.WinCE}
     .Any(p => Environment.OSVersion.Platform == p);
 
-// يعمل كائن FontConfigSubstitutionRule بشكل مختلف على أنظمة تشغيل Windows / غير أنظمة تشغيل Windows.
-// في Windows ، إنه غير متوفر.
+// يعمل كائن FontConfigSubstitutionRule بشكل مختلف على الأنظمة الأساسية التي تعمل بنظام Windows/غير Windows.
+// على نظام التشغيل Windows، فهو غير متوفر.
 if (isWindows)
 {
     Assert.False(fontConfigSubstitution.Enabled);
@@ -43,7 +45,7 @@ if (isWindows)
 bool isLinuxOrMac =
     new[] {PlatformID.Unix, PlatformID.MacOSX}.Any(p => Environment.OSVersion.Platform == p);
 
-// في Linux / Mac ، سنتمكن من الوصول إليه ، وسنكون قادرين على إجراء العمليات.
+// على Linux/Mac، سيكون لدينا إمكانية الوصول إليه وسنكون قادرين على تنفيذ العمليات.
 if (isLinuxOrMac)
 {
     Assert.True(fontConfigSubstitution.Enabled);

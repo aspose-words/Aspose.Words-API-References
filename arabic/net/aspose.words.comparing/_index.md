@@ -1,12 +1,12 @@
 ---
 title: Aspose.Words.Comparing
 second_title: Aspose.Words لمراجع .NET API
-description: ال كلمات توفر مساحة الاسم الفئات والتعدادات التي تسمح بتحديد خيارات إضافية عند مقارنة المستندات.
+description: ال Aspose.Words.Comparing توفر مساحة الاسم فئات وتعدادات تسمح بتحديد خيارات إضافية عند مقارنة المستندات.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.comparing/
 ---
-ال **كلمات** توفر مساحة الاسم الفئات والتعدادات التي تسمح بتحديد خيارات إضافية عند مقارنة المستندات.
+ال **Aspose.Words.Comparing** توفر مساحة الاسم فئات وتعدادات تسمح بتحديد خيارات إضافية عند مقارنة المستندات.
 
 ## الطبقات
 
@@ -18,6 +18,6 @@ url: /ar/net/aspose.words.comparing/
 | تعداد | وصف |
 | --- | --- |
 | [ComparisonTargetType](./comparisontargettype/) | يسمح بتحديد المستند الأساسي الذي سيتم استخدامه أثناء المقارنة. القيمة الافتراضية هيCurrent . |
-| [Granularity](./granularity/) | يحدد مدى دقة التغييرات المطلوب تتبعها عند مقارنة مستندين. |
+| [Granularity](./granularity/) | يحدد مدى دقة التغييرات التي يجب تتبعها عند مقارنة مستندين. |
 
 

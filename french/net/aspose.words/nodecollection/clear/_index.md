@@ -16,12 +16,12 @@ public void Clear()
 
 ### Exemples
 
-Montre comment supprimer toutes les sections d'un document.
+Montre comment supprimer toutes les sections d’un document.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
 
-// Ce document a une section avec quelques nœuds enfants contenant et affichant tout le contenu du document.
+// Ce document comporte une section avec quelques nœuds enfants contenant et affichant tout le contenu du document.
 Assert.AreEqual(1, doc.Sections.Count);
 Assert.AreEqual(17, doc.Sections[0].GetChildNodes(NodeType.Any, true).Count);
 Assert.AreEqual("Hello World!\r\rHello Word!\r\r\rHello World!", doc.GetText().Trim());

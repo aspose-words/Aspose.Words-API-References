@@ -3,12 +3,14 @@ title: Class MetafileRenderingOptions
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Saving.MetafileRenderingOptions klass. Tillåter att ange ytterligare alternativ för metafilrendering.
 type: docs
-weight: 5020
+weight: 5300
 url: /sv/net/aspose.words.saving/metafilerenderingoptions/
 ---
 ## MetafileRenderingOptions class
 
 Tillåter att ange ytterligare alternativ för metafilrendering.
+
+För att lära dig mer, besök[Hantera Windows-metafiler](https://docs.aspose.com/words/net/handling-windows-metafiles/) dokumentationsartikel.
 
 ```csharp
 public class MetafileRenderingOptions
@@ -26,15 +28,18 @@ public class MetafileRenderingOptions
 | --- | --- |
 | [EmfPlusDualRenderingMode](../../aspose.words.saving/metafilerenderingoptions/emfplusdualrenderingmode/) { get; set; } | Hämtar eller ställer in ett värde som bestämmer hur EMF+ Dual-metafiler ska renderas. |
 | [EmulateRasterOperations](../../aspose.words.saving/metafilerenderingoptions/emulaterasteroperations/) { get; set; } | Hämtar eller ställer in ett värde som avgör om rasteroperationerna ska emuleras eller inte. |
+| [EmulateRenderingToSizeOnPage](../../aspose.words.saving/metafilerenderingoptions/emulaterenderingtosizeonpage/) { get; set; } | Hämtar eller ställer in ett värde som avgör om metafil-rendering emulerar visningen av metafilen enligt storleken på page eller visningen av metafilen i dess standardstorlek. |
+| [EmulateRenderingToSizeOnPageResolution](../../aspose.words.saving/metafilerenderingoptions/emulaterenderingtosizeonpageresolution/) { get; set; } | Hämtar eller ställer in upplösningen i pixlar per tum för emulering av metafilrendering till storleken på sidan. |
 | [RenderingMode](../../aspose.words.saving/metafilerenderingoptions/renderingmode/) { get; set; } | Hämtar eller ställer in ett värde som bestämmer hur metafilbilder ska renderas. |
-| [ScaleWmfFontsToMetafileSize](../../aspose.words.saving/metafilerenderingoptions/scalewmffontstometafilesize/) { get; set; } | Hämtar eller ställer in ett värde som avgör om teckensnitt ska skalas eller inte i WMF-metafil enligt metafilstorlek på sidan. |
 | [UseEmfEmbeddedToWmf](../../aspose.words.saving/metafilerenderingoptions/useemfembeddedtowmf/) { get; set; } | Hämtar eller ställer in ett värde som bestämmer hur WMF-metafiler med inbäddade EMF-metafiler ska renderas. |
+| [UseGdiRasterOperationsEmulation](../../aspose.words.saving/metafilerenderingoptions/usegdirasteroperationsemulation/) { get; set; } | Hämtar eller ställer in ett värde som avgör om GDI+ ska användas eller inte för emulering av rasteroperationer. |
 
 ### Exempel
 
 Visar lade till en reserv till bitmappsrendering och ändrade typ av varningar om metafilposter som inte stöds.
 
 ```csharp
+public void HandleBinaryRasterWarnings()
 {
     Document doc = new Document(MyDir + "WMF with image.docx");
 
@@ -59,7 +64,7 @@ Visar lade till en reserv till bitmappsrendering och ändrade typ av varningar o
     doc.Save(ArtifactsDir + "PdfSaveOptions.HandleBinaryRasterWarnings.pdf", saveOptions);
 
     Assert.AreEqual(1, callback.Warnings.Count);
-    Assert.AreEqual("'R2_XORPEN' binary raster operation is partly supported.",
+    Assert.AreEqual("'R2_XORPEN' binary raster operation is not supported.",
         callback.Warnings[0].Description);
 }
 

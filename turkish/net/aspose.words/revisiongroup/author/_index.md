@@ -1,14 +1,14 @@
 ---
 title: RevisionGroup.Author
 second_title: Aspose.Words for .NET API Referansı
-description: RevisionGroup mülk. Bu revizyon grubunun yazarını alır.
+description: RevisionGroup mülk. Bu revizyon grubunun yazarını döndürür.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/revisiongroup/author/
 ---
 ## RevisionGroup.Author property
 
-Bu revizyon grubunun yazarını alır.
+Bu revizyon grubunun yazarını döndürür.
 
 ```csharp
 public string Author { get; }
@@ -16,7 +16,7 @@ public string Author { get; }
 
 ### Örnekler
 
-Bir belgedeki bir grup düzeltme hakkındaki bilgilerin nasıl yazdırılacağını gösterir.
+Bir belgedeki revizyon grubu hakkındaki bilgilerin nasıl yazdırılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");

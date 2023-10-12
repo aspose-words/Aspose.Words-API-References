@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.AdjustLineHeightInTable
 second_title: Aspose.Words per .NET API Reference
-description: CompatibilityOptions proprietà. Aggiungi il passo della linea della griglia del documento alle linee nelle celle della tabella.
+description: CompatibilityOptions proprietà. Aggiungi passo linea griglia documento alle linee nelle celle della tabella.
 type: docs
 weight: 10
 url: /it/net/aspose.words.settings/compatibilityoptions/adjustlineheightintable/
 ---
 ## CompatibilityOptions.AdjustLineHeightInTable property
 
-Aggiungi il passo della linea della griglia del documento alle linee nelle celle della tabella.
+Aggiungi passo linea griglia documento alle linee nelle celle della tabella.
 
 ```csharp
 public bool AdjustLineHeightInTable { get; set; }

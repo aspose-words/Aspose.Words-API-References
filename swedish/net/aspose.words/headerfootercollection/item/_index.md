@@ -1,14 +1,14 @@
 ---
 title: HeaderFooterCollection.Item
 second_title: Aspose.Words för .NET API Referens
-description: HeaderFooterCollection fast egendom. Hämtar en Sidhuvud vid det givna indexet.
+description: HeaderFooterCollection fast egendom. Hämtar enHeaderFooter vid det givna indexet.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/headerfootercollection/item/
 ---
 ## HeaderFooterCollection indexer (1 of 2)
 
-Hämtar en **Sidhuvud** vid det givna indexet.
+Hämtar en[`HeaderFooter`](../../headerfooter/) vid det givna indexet.
 
 ```csharp
 public HeaderFooter this[int index] { get; }
@@ -101,7 +101,7 @@ doc.Save(ArtifactsDir + "HeaderFooter.Link.docx");
 
 ## HeaderFooterCollection indexer (2 of 2)
 
-Hämtar en **Sidhuvud** av den angivna typen.
+Hämtar en[`HeaderFooter`](../../headerfooter/) av den angivna typen.
 
 ```csharp
 public HeaderFooter this[HeaderFooterType headerFooterType] { get; }
@@ -113,7 +113,7 @@ public HeaderFooter this[HeaderFooterType headerFooterType] { get; }
 
 ### Anmärkningar
 
-Returnerar null om sidhuvudet/sidfoten av den angivna typen inte hittas.
+Returnerar`null` om sidhuvudet/sidfoten av den angivna typen inte hittas.
 
 ### Exempel
 
@@ -154,7 +154,7 @@ foreach (Section section in doc.OfType<Section>())
     footer = section.HeadersFooters[HeaderFooterType.FooterPrimary];
     footer?.Remove();
 
-      // 3 - "Jämn" sidhuvudet/sidfoten, som visas på jämna sidor.
+     // 3 - "Jämn" sidhuvudet/sidfoten, som visas på jämna sidor.
     footer = section.HeadersFooters[HeaderFooterType.FooterEven];
     footer?.Remove();
 

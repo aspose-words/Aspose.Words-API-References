@@ -3,12 +3,14 @@ title: Class ChartNumberFormat
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Drawing.Charts.ChartNumberFormat klass. Representerar nummerformatering av det överordnade elementet.
 type: docs
-weight: 720
+weight: 770
 url: /sv/net/aspose.words.drawing.charts/chartnumberformat/
 ---
 ## ChartNumberFormat class
 
 Representerar nummerformatering av det överordnade elementet.
+
+För att lära dig mer, besök[Arbeta med diagram](https://docs.aspose.com/words/net/working-with-charts/) dokumentationsartikel.
 
 ```csharp
 public class ChartNumberFormat
@@ -36,12 +38,12 @@ Chart chart = shape.Chart;
 chart.Series.Clear();
 
 // Lägg till en anpassad serie till diagrammet med kategorier för X-axeln,
-  // och stora respektive numeriska värden för Y-axeln.
+ // och stora respektive numeriska värden för Y-axeln.
 chart.Series.Add("Aspose Test Series",
     new [] { "Word", "PDF", "Excel", "GoogleDocs", "Note" },
     new double[] { 1900000, 850000, 2100000, 600000, 1500000 });
 
-  // Ställ in nummerformatet för Y-axelns bocketiketter för att inte gruppera siffror med kommatecken.
+ // Ställ in nummerformatet för Y-axelns bocketiketter för att inte gruppera siffror med kommatecken.
 chart.AxisY.NumberFormat.FormatCode = "#,##0";
 
 // Den här flaggan kan åsidosätta ovanstående värde och rita talformatet från källcellen.

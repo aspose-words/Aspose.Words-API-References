@@ -3,7 +3,7 @@ title: Style.Name
 second_title: Aspose.Words for .NET API 参考
 description: Style 财产. 获取或设置样式的名称
 type: docs
-weight: 110
+weight: 130
 url: /zh/net/aspose.words/style/name/
 ---
 ## Style.Name property
@@ -18,11 +18,11 @@ public string Name { get; set; }
 
 不能为空字符串。
 
-如果集合中已经存在具有此类名称的样式，则此样式将覆盖它。所有受影响的节点都将引用新样式。
+如果集合中已经存在具有该名称的样式，则该样式将覆盖它。所有受影响的节点都将引用新样式。
 
 ### 例子
 
-展示如何访问文档的样式集合。
+演示如何访问文档的样式集合。
 
 ```csharp
 Document doc = new Document();
@@ -45,7 +45,7 @@ using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 }
 ```
 
-显示如何克隆文档的样式。
+演示如何克隆文档的样式。
 
 ```csharp
 Document doc = new Document();
@@ -54,11 +54,11 @@ Document doc = new Document();
 // 自动为样式生成一个新名称，例如“Heading 1_0”。
 Style newStyle = doc.Styles.AddCopy(doc.Styles["Heading 1"]);
 
-// 使用样式的“名称”属性来更改样式的标识名称。
+// 使用样式的“Name”属性来更改样式的标识名称。
 newStyle.Name = "My Heading 1";
 
 // 我们的文档现在有两个外观相同但名称不同的样式。
-// 更改其中一种样式的设置不会影响另一种。
+// 更改其中一种样式的设置不会影响另一种样式。
 newStyle.Font.Color = Color.Red;
 
 Assert.AreEqual("My Heading 1", newStyle.Name);

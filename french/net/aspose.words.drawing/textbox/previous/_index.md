@@ -1,14 +1,14 @@
 ---
 title: TextBox.Previous
 second_title: Référence de l'API Aspose.Words pour .NET
-description: TextBox propriété. Renvoie un TextBox qui représente le TextBox précédent dans une séquence de formes.
+description: TextBox propriété. Renvoie unTextBox qui représente le précédentTextBox dans une séquence de formes.
 type: docs
-weight: 90
+weight: 100
 url: /fr/net/aspose.words.drawing/textbox/previous/
 ---
 ## TextBox.Previous property
 
-Renvoie un TextBox qui représente le TextBox précédent dans une séquence de formes.
+Renvoie un[`TextBox`](../) qui représente le précédent[`TextBox`](../) dans une séquence de formes.
 
 ```csharp
 public TextBox Previous { get; }
@@ -37,14 +37,14 @@ builder.Writeln();
 Shape textBoxShape4 = builder.InsertShape(ShapeType.TextBox, 100, 100);
 TextBox textBox4 = textBoxShape4.TextBox;
 
-// Crée des liens entre certaines des zones de texte.
+// Crée des liens entre certaines zones de texte.
 if (textBox1.IsValidLinkTarget(textBox2))
     textBox1.Next = textBox2;
 
 if (textBox2.IsValidLinkTarget(textBox3))
     textBox2.Next = textBox3;
 
-// Seule une zone de texte vide peut avoir un lien.
+// Seule une zone de texte vide peut contenir un lien.
 Assert.True(textBox3.IsValidLinkTarget(textBox4));
 
 builder.MoveTo(textBoxShape4.LastParagraph);

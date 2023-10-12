@@ -1,14 +1,14 @@
 ---
 title: Enum MarkupLevel
 second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Markup.MarkupLevel enumeración. Especifica el nivel en el árbol del documento donde un determinadoStructuredDocumentTag puede ocurrir.
+description: Aspose.Words.Markup.MarkupLevel enumeración. Especifica el nivel en el árbol del documento donde seStructuredDocumentTag puede ocurrir.
 type: docs
-weight: 3740
+weight: 3980
 url: /es/net/aspose.words.markup/markuplevel/
 ---
 ## MarkupLevel enumeration
 
-Especifica el nivel en el árbol del documento donde un determinado[`StructuredDocumentTag`](../structureddocumenttag/) puede ocurrir.
+Especifica el nivel en el árbol del documento donde se[`StructuredDocumentTag`](../structureddocumenttag/) puede ocurrir.
 
 ```csharp
 public enum MarkupLevel
@@ -19,10 +19,10 @@ public enum MarkupLevel
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
 | Unknown | `0` | Especifica el valor desconocido o no válido. |
-| Inline | `1` | El elemento aparece en el nivel en línea (p. ej., entre líneas de texto). |
+| Inline | `1` | El elemento aparece en el nivel en línea (por ejemplo, entre series de texto). |
 | Block | `2` | El elemento aparece a nivel de bloque (por ejemplo, entre tablas y párrafos). |
-| Row | `3` | El elemento se encuentra entre las filas de una tabla. |
-| Cell | `4` | El elemento se encuentra entre las celdas de una fila. |
+| Row | `3` | El elemento aparece entre filas de una tabla. |
+| Cell | `4` | El elemento aparece entre celdas de una fila. |
 
 ### Ejemplos
 
@@ -38,7 +38,7 @@ Style quoteStyle = doc.Styles[StyleIdentifier.Quote];
 StructuredDocumentTag sdtPlainText =
     new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Inline) { Style = quoteStyle };
 
-// 2 - Hacer referencia a un estilo en el documento por su nombre:
+// 2 - Referencia a un estilo en el documento por nombre:
 StructuredDocumentTag sdtRichText =
     new StructuredDocumentTag(doc, SdtType.RichText, MarkupLevel.Inline) { StyleName = "Quote" };
 
@@ -52,6 +52,8 @@ NodeCollection tags = doc.GetChildNodes(NodeType.StructuredDocumentTag, true);
 foreach (Node node in tags)
 {
     StructuredDocumentTag sdt = (StructuredDocumentTag)node;
+
+    Console.WriteLine(sdt.WordOpenXMLMinimal);
 
     Assert.AreEqual(StyleIdentifier.Quote, sdt.Style.StyleIdentifier);
     Assert.AreEqual("Quote", sdt.StyleName);

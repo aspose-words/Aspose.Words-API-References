@@ -3,7 +3,7 @@ title: HtmlSaveOptions.ExportOriginalUrlForLinkedImages
 second_title: Aspose.Words för .NET API Referens
 description: HtmlSaveOptions fast egendom. Anger om den ursprungliga webbadressen ska användas som URL för de länkade bilderna. Standardvärdet ärfalsk .
 type: docs
-weight: 210
+weight: 200
 url: /sv/net/aspose.words.saving/htmlsaveoptions/exportoriginalurlforlinkedimages/
 ---
 ## HtmlSaveOptions.ExportOriginalUrlForLinkedImages property
@@ -18,7 +18,7 @@ public bool ExportOriginalUrlForLinkedImages { get; set; }
 
 Om värdet är satt till`Sann`[`SourceFullName`](../../../aspose.words.drawing/imagedata/sourcefullname/) värdet används eftersom webbadressen till länkade bilder och länkade bilder inte läses in i dokumentets folder eller[`ImagesFolder`](../imagesfolder/).
 
-Om värdet är satt till`falsk` länkade bilder läses in i dokumentets folder eller[`ImagesFolder`](../imagesfolder/) och URL för varje länkad bild är konstruerad beroende på dokumentets mapp,[`ImagesFolder`](../imagesfolder/) och[`ImagesFolderAlias`](../imagesfolderalias/) egenskaper.
+Om värdet är satt till`falsk`länkade bilder läses in i dokumentets folder eller[`ImagesFolder`](../imagesfolder/) och URL för varje länkad bild är konstruerad beroende på dokumentets mapp,[`ImagesFolder`](../imagesfolder/) och[`ImagesFolderAlias`](../imagesfolderalias/) egenskaper.
 
 ### Exempel
 

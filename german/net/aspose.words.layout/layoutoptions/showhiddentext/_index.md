@@ -1,14 +1,14 @@
 ---
 title: LayoutOptions.ShowHiddenText
 second_title: Aspose.Words für .NET-API-Referenz
-description: LayoutOptions eigendom. Ruft ab oder legt fest ob verborgener Text im Dokument gerendert wird. Standard ist False.
+description: LayoutOptions eigendom. Ruft den Hinweis ab ob versteckter Text im Dokument gerendert wird oder legt diesen fest. Standard istFALSCH .
 type: docs
-weight: 70
+weight: 80
 url: /de/net/aspose.words.layout/layoutoptions/showhiddentext/
 ---
 ## LayoutOptions.ShowHiddenText property
 
-Ruft ab oder legt fest, ob verborgener Text im Dokument gerendert wird. Standard ist False.
+Ruft den Hinweis ab, ob versteckter Text im Dokument gerendert wird, oder legt diesen fest. Standard ist`FALSCH` .
 
 ```csharp
 public bool ShowHiddenText { get; set; }
@@ -16,7 +16,7 @@ public bool ShowHiddenText { get; set; }
 
 ### Bemerkungen
 
-Diese Eigenschaft wirkt sich auf alle ausgeblendeten Inhalte aus, nicht nur auf Text.
+Diese Eigenschaft betrifft alle ausgeblendeten Inhalte, nicht nur Text.
 
 ### Beispiele
 
@@ -25,7 +25,7 @@ Zeigt, wie Text in einem gerenderten Ausgabedokument ausgeblendet wird.
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-// Verborgenen Text einfügen, dann angeben, ob wir ihn aus einem gerenderten Dokument weglassen möchten.
+// Versteckten Text einfügen und dann angeben, ob wir ihn in einem gerenderten Dokument weglassen möchten.
 builder.Writeln("This text is not hidden.");
 builder.Font.Hidden = true;
 builder.Writeln("This text is hidden.");

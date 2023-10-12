@@ -16,15 +16,16 @@ public int RecordIndex { get; }
 
 ### Exemples
 
-Montre comment insérer des champs de formulaire de case à cocher dans les champs de fusion en tant que données de fusion lors du publipostage.
+Montre comment insérer des champs de formulaire de case à cocher dans les MERGEFIELD en tant que données de fusion lors du publipostage.
 
 ```csharp
+public void InsertCheckBox()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Utilisez les champs MERGEFIELD avec les balises "TableStart"/"TableEnd" pour définir une région de fusion et publipostage
-    // qui appartient à une source de données nommée "StudentCourse" et a un MERGEFIELD qui accepte les données d'une colonne nommée "CourseName".
+    // Utiliser les MERGEFIELD avec les balises "TableStart"/"TableEnd" pour définir une région de publipostage
+    // qui appartient à une source de données nommée "StudentCourse" et possède un MERGEFIELD qui accepte les données d'une colonne nommée "CourseName".
     builder.StartTable();
     builder.InsertCell();
     builder.InsertField(" MERGEFIELD  TableStart:StudentCourse ");
@@ -40,9 +41,10 @@ Montre comment insérer des champs de formulaire de case à cocher dans les cham
 
     doc.MailMerge.ExecuteWithRegions(dataTable);
     doc.Save(ArtifactsDir + "MailMergeEvent.InsertCheckBox.docx");
+}
 
 /// <summary>
-/// Lors de la rencontre d'un MERGEFIELD avec un nom spécifique, insère un champ de formulaire de case à cocher au lieu de fusionner le texte des données.
+/// Lors de la rencontre d'un MERGEFIELD avec un nom spécifique, insère un champ de formulaire de case à cocher au lieu du texte de données de fusion.
 /// </summary>
 private class HandleMergeFieldInsertCheckBox : IFieldMergingCallback
 {
@@ -61,7 +63,7 @@ private class HandleMergeFieldInsertCheckBox : IFieldMergingCallback
 
             string fieldValue = args.FieldValue.ToString();
 
-            // Dans ce cas, pour chaque index d'enregistrement 'n', la valeur de champ correspondante est "Cours n".
+            // Dans ce cas, pour chaque index d'enregistrement 'n', la valeur du champ correspondant est "Cours n".
             Assert.AreEqual(char.GetNumericValue(fieldValue[7]), args.RecordIndex);
 
             builder.Write(fieldValue);

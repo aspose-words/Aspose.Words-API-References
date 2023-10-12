@@ -18,13 +18,13 @@ public double PageMargins { get; set; }
 
 Depende del valor de[`PageHorizontalAlignment`](../pagehorizontalalignment/) propiedad:
 
-* Define los márgenes superior, inferior e izquierdo de la página si el valor esLeft .
-* Define los márgenes superior, inferior y derecho de la página si el valor esRight .
+* Define los márgenes de página superior, inferior e izquierdo si el valor esLeft .
+* Define los márgenes de página superior, inferior y derecho si el valor esRight .
 * Define los márgenes superior e inferior de la página si el valor esCenter .
 
 ### Ejemplos
 
-Muestra cómo ajustar los márgenes de página al guardar un documento en HTML.
+Muestra cómo ajustar los márgenes de la página al guardar un documento en HTML.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");

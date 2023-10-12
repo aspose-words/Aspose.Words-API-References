@@ -1,36 +1,17 @@
 ---
 title: StructuredDocumentTagRangeStart.ChildNodes
 second_title: Справочник по API Aspose.Words для .NET
-description: StructuredDocumentTagRangeStart свойство. Получает все узлы между начальным узлом диапазона и конечным узлом диапазона.
+description: StructuredDocumentTagRangeStart свойство. Получает все узлы между этим начальным узлом диапазона и конечным узлом диапазона.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.markup/structureddocumenttagrangestart/childnodes/
 ---
 ## StructuredDocumentTagRangeStart.ChildNodes property
 
-Получает все узлы между начальным узлом диапазона и конечным узлом диапазона.
+Получает все узлы между этим начальным узлом диапазона и конечным узлом диапазона.
 
 ```csharp
 public NodeCollection ChildNodes { get; }
-```
-
-### Примеры
-
-Показывает, как получить дочерние узлы StructuredDocumentTagRangeStart.
-
-```csharp
-Document doc = new Document(MyDir + "Multi-section structured document tags.docx");
-StructuredDocumentTagRangeStart tag =
-    doc.GetChildNodes(NodeType.StructuredDocumentTagRangeStart, true)[0] as StructuredDocumentTagRangeStart;
-
-Console.WriteLine("StructuredDocumentTagRangeStart values:");
-Console.WriteLine($"\t|Child nodes count: {tag.ChildNodes.Count}\n");
-
-foreach (Node node in tag.ChildNodes)
-    Console.WriteLine($"\t|Child node type: {node.NodeType}");
-
-foreach (Node node in tag.GetChildNodes(NodeType.Run, true))
-    Console.WriteLine($"\t|Child node text: {node.GetText()}");
 ```
 
 ### Смотрите также

@@ -16,9 +16,9 @@ public bool BehindText { get; set; }
 
 ### Observaciones
 
-Solo tiene efecto para las formas de nivel superior.
+Tiene efecto sólo para formas de nivel superior.
 
-El valor predeterminado es **falso**.
+El valor predeterminado es`FALSO`.
 
 ### Ejemplos
 

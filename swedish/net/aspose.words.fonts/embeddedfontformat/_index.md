@@ -3,7 +3,7 @@ title: Enum EmbeddedFontFormat
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Fonts.EmbeddedFontFormat uppräkning. Anger formatet för ett visst inbäddat teckensnitt inutiFontInfo objekt.
 type: docs
-weight: 2670
+weight: 2850
 url: /sv/net/aspose.words.fonts/embeddedfontformat/
 ---
 ## EmbeddedFontFormat enumeration

@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertSignatureLine
 second_title: Aspose.Words for .NET API 参考
 description: DocumentBuilder 方法. 在当前位置插入签名行
 type: docs
-weight: 420
+weight: 450
 url: /zh/net/aspose.words/documentbuilder/insertsignatureline/
 ---
 ## InsertSignatureLine(SignatureLineOptions) {#insertsignatureline}
@@ -24,7 +24,7 @@ public Shape InsertSignatureLine(SignatureLineOptions signatureLineOptions)
 
 ### 例子
 
-显示如何使用个人证书和签名行签署文档。
+演示如何使用个人证书和签名行签署文档。
 
 ```csharp
 Document doc = new Document();
@@ -62,7 +62,7 @@ CertificateHolder certHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "a
 DigitalSignatureUtil.Sign(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.docx", 
     ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
 
-// 重新打开我们保存的文档，并验证 "IsSigned" 和 "IsValid" 属性都等于 "true",
+// 重新打开我们保存的文档，并验证“IsSigned”和“IsValid”属性都等于“true”，
 // 表示签名行包含签名。
 doc = new Document(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
@@ -96,10 +96,10 @@ public Shape InsertSignatureLine(SignatureLineOptions signatureLineOptions,
 | --- | --- | --- |
 | signatureLineOptions | SignatureLineOptions | 存储创建签名行参数的对象。 |
 | horzPos | RelativeHorizontalPosition | 指定从何处测量到签名线的距离。 |
-| left | Double | 从原点到签名线左侧的距离（以点为单位）。 |
+| left | Double | 从原点到签名线左侧的距离（以磅为单位）。 |
 | vertPos | RelativeVerticalPosition | 指定从何处测量到签名线的距离。 |
-| top | Double | 从原点到签名线顶部的距离（以点为单位）。 |
-| wrapType | WrapType | 指定如何在签名行周围环绕文本。 |
+| top | Double | 从原点到签名线顶边的距离（以磅为单位）。 |
+| wrapType | WrapType | 指定如何将文本环绕签名行。 |
 
 ### 返回值
 
@@ -107,11 +107,11 @@ public Shape InsertSignatureLine(SignatureLineOptions signatureLineOptions,
 
 ### 评论
 
-您可以使用 更改图像大小、位置、定位方法和其他设置[`Shape`](../../../aspose.words.drawing/shape/)此方法返回的对象。
+您可以使用 更改图像大小、位置、定位方法和其他设置[`Shape`](../../../aspose.words.drawing/shape/)该方法返回的对象。
 
 ### 例子
 
-显示如何将内联签名行插入到文档中。
+演示如何将内嵌签名行插入到文档中。
 
 ```csharp
 Document doc = new Document();
@@ -131,7 +131,7 @@ SignatureLineOptions options = new SignatureLineOptions
 builder.InsertSignatureLine(options, RelativeHorizontalPosition.RightMargin, 2.0,
     RelativeVerticalPosition.Page, 3.0, WrapType.Inline);
 
-// 签名行可以在 Microsoft Word 中通过双击进行签名。
+// 签名行可以在 Microsoft Word 中双击签名。
 doc.Save(ArtifactsDir + "DocumentBuilder.SignatureLineInline.docx");
 ```
 

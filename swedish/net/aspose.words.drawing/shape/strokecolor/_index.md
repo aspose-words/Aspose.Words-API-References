@@ -55,6 +55,7 @@ doc.Save(ArtifactsDir + "Shape.Fill.docx");
 Visar hur man itererar över alla former i ett dokument.
 
 ```csharp
+public void VisitShapes()
 {
     Document doc = new Document(MyDir + "Revision shape.docx");
     ShapeAppearancePrinter visitor = new ShapeAppearancePrinter();

@@ -1,14 +1,16 @@
 ---
 title: Class GeneralFormatCollection
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fields.GeneralFormatCollection فصل. يمثل مجموعة مطبوعة من التنسيقات العامة.
+description: Aspose.Words.Fields.GeneralFormatCollection فصل. يمثل مجموعة مكتوبة من التنسيقات العامة.
 type: docs
-weight: 2490
+weight: 2650
 url: /ar/net/aspose.words.fields/generalformatcollection/
 ---
 ## GeneralFormatCollection class
 
-يمثل مجموعة مطبوعة من التنسيقات العامة.
+يمثل مجموعة مكتوبة من التنسيقات العامة.
+
+لمعرفة المزيد، قم بزيارة[العمل مع الحقول](https://docs.aspose.com/words/net/working-with-fields/) مقالة توثيقية.
 
 ```csharp
 public class GeneralFormatCollection : IEnumerable<GeneralFormat>
@@ -18,17 +20,17 @@ public class GeneralFormatCollection : IEnumerable<GeneralFormat>
 
 | اسم | وصف |
 | --- | --- |
-| [Count](../../aspose.words.fields/generalformatcollection/count/) { get; } | الحصول على العدد الإجمالي للعناصر في المجموعة. |
-| [Item](../../aspose.words.fields/generalformatcollection/item/) { get; } | الحصول على تنسيق عام بالفهرس المحدد . |
+| [Count](../../aspose.words.fields/generalformatcollection/count/) { get; } | الحصول على العدد الإجمالي للعناصر الموجودة في المجموعة. |
+| [Item](../../aspose.words.fields/generalformatcollection/item/) { get; } | الحصول على تنسيق عام في الفهرس المحدد. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [Add](../../aspose.words.fields/generalformatcollection/add/)(GeneralFormat) | يضيف تنسيقًا عامًا للمجموعة. |
-| [GetEnumerator](../../aspose.words.fields/generalformatcollection/getenumerator/)() | إرجاع كائن العداد . |
-| [Remove](../../aspose.words.fields/generalformatcollection/remove/)(GeneralFormat) | يزيل كل تكرارات التنسيق العام المحدد من المجموعة. |
-| [RemoveAt](../../aspose.words.fields/generalformatcollection/removeat/)(int) | يزيل حدوث تنسيق عام في الفهرس المحدد. |
+| [Add](../../aspose.words.fields/generalformatcollection/add/)(GeneralFormat) | إضافة تنسيق عام إلى المجموعة. |
+| [GetEnumerator](../../aspose.words.fields/generalformatcollection/getenumerator/)() | يُرجع كائن العداد. |
+| [Remove](../../aspose.words.fields/generalformatcollection/remove/)(GeneralFormat) | إزالة كافة تكرارات التنسيق العام المحدد من المجموعة. |
+| [RemoveAt](../../aspose.words.fields/generalformatcollection/removeat/)(int) | إزالة تكرار التنسيق العام في الفهرس المحدد. |
 
 ### أمثلة
 
@@ -38,7 +40,7 @@ public class GeneralFormatCollection : IEnumerable<GeneralFormat>
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// استخدم منشئ المستندات لإدراج حقل يعرض نتيجة بدون أي تنسيق مطبق.
+// استخدم منشئ المستندات لإدراج حقل يعرض نتيجة بدون تطبيق أي تنسيق.
 Field field = builder.InsertField("= 2 + 3");
 
 Assert.AreEqual("= 2 + 3", field.GetFieldCode());
@@ -54,7 +56,7 @@ field.Update();
 Assert.AreEqual("= 2 + 3 \\# $###.00", field.GetFieldCode());
 Assert.AreEqual("$  5.00", field.Result);
 
-// 2 - تنسيق التاريخ / الوقت:
+// 2 - تنسيق التاريخ/الوقت:
 field = builder.InsertField("DATE");
 format = field.Format;
 format.DateTimeFormat = "dddd, MMMM dd, yyyy";
@@ -80,7 +82,7 @@ Assert.AreEqual("LVIII", field.Result);
 Assert.AreEqual(2, format.GeneralFormats.Count);
 Assert.AreEqual(GeneralFormat.LowercaseRoman, format.GeneralFormats[0]);
 
-// يمكننا إزالة التنسيقات الخاصة بنا لإعادة نتيجة الحقل إلى شكله الأصلي.
+// يمكننا إزالة التنسيقات الخاصة بنا لإعادة نتيجة الحقل إلى شكلها الأصلي.
 format.GeneralFormats.Remove(GeneralFormat.LowercaseRoman);
 format.GeneralFormats.RemoveAt(0);
 Assert.AreEqual(0, format.GeneralFormats.Count);

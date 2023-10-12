@@ -1,14 +1,14 @@
 ---
 title: RowFormat.AllowBreakAcrossPages
 second_title: Справочник по API Aspose.Words для .NET
-description: RowFormat свойство. Истинно если текст в строке таблицы может разделяться через разрыв страницы.
+description: RowFormat свойство. Истинно если тексту в строке таблицы разрешено разделение по разрыву страницы.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.tables/rowformat/allowbreakacrosspages/
 ---
 ## RowFormat.AllowBreakAcrossPages property
 
-Истинно, если текст в строке таблицы может разделяться через разрыв страницы.
+Истинно, если тексту в строке таблицы разрешено разделение по разрыву страницы.
 
 ```csharp
 public bool AllowBreakAcrossPages { get; set; }
@@ -16,16 +16,16 @@ public bool AllowBreakAcrossPages { get; set; }
 
 ### Примеры
 
-Показывает, как отключить разбиение строк на страницы для каждой строки в таблице.
+Показывает, как отключить разбивку строк по страницам для каждой строки таблицы.
 
 ```csharp
 Document doc = new Document(MyDir + "Table spanning two pages.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
 // Установите для свойства «AllowBreakAcrossPages» значение «false», чтобы сохранить строку
-// одним куском, если таблица занимает две страницы, которые разбиваются по этой строке.
-// Если строка слишком велика для размещения на одной странице, Microsoft Word переместит ее на следующую страницу.
-// Установите для свойства "AllowBreakAcrossPages" значение "true", чтобы разрешить разбиение строки на две страницы.
+// целиком, если таблица занимает две страницы, которые разбиваются по этой строке.
+// Если строка слишком велика и не помещается на одной странице, Microsoft Word переместит ее на следующую страницу.
+// Установите для свойства «AllowBreakAcrossPages» значение «true», чтобы разрешить разбивку строки на две страницы.
 foreach (Row row in table.OfType<Row>())
     row.RowFormat.AllowBreakAcrossPages = allowBreakAcrossPages;
 

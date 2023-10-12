@@ -19,6 +19,7 @@ public Document Document { get; }
 Montre comment exécuter un publipostage avec un rappel personnalisé qui gère les données de fusion sous la forme de documents HTML.
 
 ```csharp
+public void MergeHtml()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -66,7 +67,7 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
             builder.InsertHtml((string)args.FieldValue);
 
             // Puisque nous avons déjà inséré manuellement le contenu fusionné,
-             // nous n'aurons pas besoin de répondre à cet événement en renvoyant du contenu via la propriété "Texte".
+             // nous n'aurons pas besoin de répondre à cet événement en renvoyant du contenu via la propriété "Text".
             args.Text = string.Empty;
         }
     }

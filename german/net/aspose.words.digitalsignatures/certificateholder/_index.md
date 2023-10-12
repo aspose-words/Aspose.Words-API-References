@@ -1,14 +1,16 @@
 ---
 title: Class CertificateHolder
 second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.DigitalSignatures.CertificateHolder klas. Repräsentiert einen Inhaber von X509Zertifikat2 Beispiel.
+description: Aspose.Words.DigitalSignatures.CertificateHolder klas. Stellt einen Inhaber dar X509Zertifikat2 Instanz.
 type: docs
-weight: 360
+weight: 370
 url: /de/net/aspose.words.digitalsignatures/certificateholder/
 ---
 ## CertificateHolder class
 
-Repräsentiert einen Inhaber von **X509Zertifikat2** Beispiel.
+Stellt einen Inhaber dar **X509Zertifikat2** Instanz.
+
+Um mehr zu erfahren, besuchen Sie die[Arbeiten Sie mit digitalen Signaturen](https://docs.aspose.com/words/net/working-with-digital-signatures/) Dokumentationsartikel.
 
 ```csharp
 public class CertificateHolder
@@ -18,30 +20,30 @@ public class CertificateHolder
 
 | Name | Beschreibung |
 | --- | --- |
-| [Certificate](../../aspose.words.digitalsignatures/certificateholder/certificate/) { get; } | Gibt die Instanz von zurück **X509Zertifikat2** die private, öffentliche Schlüssel und Zertifikatskette enthält. |
+| [Certificate](../../aspose.words.digitalsignatures/certificateholder/certificate/) { get; } | Gibt die Instanz von zurück **X509Zertifikat2** das private, öffentliche Schlüssel und die Zertifikatskette enthält. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create)(byte[], SecureString) | Erstellt ein CertificateHolder-Objekt mithilfe des Byte-Arrays des PKCS12-Speichers und seines Kennworts. |
-| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create_1)(byte[], string) | Erstellt ein CertificateHolder-Objekt mithilfe des Byte-Arrays des PKCS12-Speichers und seines Kennworts. |
-| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create_2)(string, string) | Erstellt ein CertificateHolder-Objekt unter Verwendung des Pfads zum PKCS12-Speicher und seines Kennworts. |
-| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create_3)(string, string, string) | Erstellt ein CertificateHolder-Objekt unter Verwendung des Pfads zum PKCS12-Speicher, seines Passworts und des Alias, anhand dessen der private Schlüssel und das Zertifikat gefunden werden. |
+| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create)(byte[], SecureString) | Erstellt`CertificateHolder` Objekt unter Verwendung des Byte-Arrays des PKCS12-Speichers und seines Passworts. |
+| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create_1)(byte[], string) | Erstellt`CertificateHolder` Objekt unter Verwendung des Byte-Arrays des PKCS12-Speichers und seines Passworts. |
+| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create_2)(string, string) | Erstellt`CertificateHolder` Objekt unter Verwendung des Pfads zum PKCS12-Speicher und seines Passworts. |
+| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create_3)(string, string, string) | Erstellt`CertificateHolder` Objekt unter Verwendung des Pfads zum PKCS12-Speicher, seines Passworts und des Alias, mit dem der private Schlüssel und das Zertifikat gefunden werden. |
 
 ### Bemerkungen
 
-**Zertifikatsinhaber** kann nur durch statische Factory-Methoden erstellt werden. Es enthält eine Instanz von **X509Zertifikat2** die verwendet wird, um private, öffentliche Schlüssel und Zertifikatsketten in das System einzuführen. Diese Klasse wird angewendet in[`DigitalSignatureUtil`](../digitalsignatureutil/) und[`PdfDigitalSignatureDetails`](../../aspose.words.saving/pdfdigitalsignaturedetails/) statt veralteter Methoden mit X509Certificate2 als Parameter.
+`CertificateHolder` kann nur mit statischen Factory-Methoden erstellt werden. Es enthält eine Instanz von **X509Zertifikat2** die verwendet wird, um private, öffentliche Schlüssel und Zertifikatsketten in das System einzuführen. Diese Klasse wird in angewendet[`DigitalSignatureUtil`](../digitalsignatureutil/) Und[`PdfDigitalSignatureDetails`](../../aspose.words.saving/pdfdigitalsignaturedetails/) statt veralteter Methoden mit X509Certificate2 als Parameter.
 
 ### Beispiele
 
-Zeigt, wie verschlüsselte Dokumentdateien signiert werden.
+Zeigt, wie eine verschlüsselte Dokumentdatei signiert wird.
 
 ```csharp
 // Erstellen Sie ein X.509-Zertifikat aus einem PKCS#12-Speicher, das einen privaten Schlüssel enthalten sollte.
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
 
-// Erstellen Sie einen Kommentar, ein Datum und ein Entschlüsselungspasswort, das mit unserer neuen digitalen Signatur angewendet wird.
+// Erstellen Sie einen Kommentar, ein Datum und ein Entschlüsselungskennwort, das mit unserer neuen digitalen Signatur angewendet wird.
 SignOptions signOptions = new SignOptions
 {
     Comments = "Comment",
@@ -56,21 +58,21 @@ string outputFileName = ArtifactsDir + "DigitalSignatureUtil.DecryptionPassword.
 DigitalSignatureUtil.Sign(inputFileName, outputFileName, certificateHolder, signOptions);
 ```
 
-Zeigt, wie Dokumente digital signiert werden.
+Zeigt, wie man Dokumente digital signiert.
 
 ```csharp
 // Erstellen Sie ein X.509-Zertifikat aus einem PKCS#12-Speicher, das einen privaten Schlüssel enthalten sollte.
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
 
-// Erstellen Sie einen Kommentar und ein Datum, die mit unserer neuen digitalen Signatur angewendet werden.
+// Erstellen Sie einen Kommentar und ein Datum, das mit unserer neuen digitalen Signatur angewendet wird.
 SignOptions signOptions = new SignOptions
 {
     Comments = "My comment", 
     SignTime = DateTime.Now
 };
 
-// Nimm ein unsigniertes Dokument aus dem lokalen Dateisystem über einen Dateistream,
-// Erstellen Sie dann eine signierte Kopie davon, die durch den Dateinamen des Ausgabedateistreams bestimmt wird.
+// Über einen Dateistream ein unsigniertes Dokument aus dem lokalen Dateisystem übernehmen,
+// dann eine signierte Kopie davon erstellen, die durch den Dateinamen des Ausgabedateistreams bestimmt wird.
 using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 {
     using (Stream streamOut = new FileStream(ArtifactsDir + "DigitalSignatureUtil.SignDocument.docx", FileMode.OpenOrCreate))
@@ -80,10 +82,11 @@ using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 }
 ```
 
-Zeigt, wie Sie einem Dokument eine Signaturzeile hinzufügen und es dann mit einem digitalen Zertifikat signieren.
+Zeigt, wie man einem Dokument eine Signaturzeile hinzufügt und es dann mit einem digitalen Zertifikat signiert.
 
 ```csharp
-public static void Sign()
+[Description("WORDSNET-16868")]
+        public static void Sign()
         {
             string signeeName = "Ron Williams";
             string srcDocumentPath = MyDir + "Document.docx";
@@ -102,7 +105,7 @@ public static void Sign()
         }
 
         /// <summary>
-        /// Erstellt eine Kopie eines Quelldokuments, das mit den bereitgestellten Informationen zum Unterzeichner und dem X509-Zertifikat signiert wurde.
+        /// Erstellt eine Kopie eines Quelldokuments, das mit den bereitgestellten Unterzeichnerinformationen und dem X509-Zertifikat signiert wurde.
         /// </summary>
         private static void SignDocument(string srcDocumentPath, string dstDocumentPath,
             Signee signeeInfo, string certificatePath, string certificatePassword)
@@ -131,7 +134,7 @@ public static void Sign()
                 SignatureLineImage = signeeInfo.Image
             };
 
-            // Überschreiben Sie das unsignierte Dokument, das wir oben gespeichert haben, mit einer Version, die mit dem Zertifikat signiert wurde.
+            // Überschreiben Sie das oben gespeicherte unsignierte Dokument mit einer mit dem Zertifikat signierten Version.
             DigitalSignatureUtil.Sign(dstDocumentPath, dstDocumentPath, certificateHolder, signOptions);
         }
 

@@ -1,14 +1,14 @@
 ---
 title: ImageSaveOptions.ThresholdForFloydSteinbergDithering
 second_title: Aspose.Words per .NET API Reference
-description: ImageSaveOptions proprietà. Ottiene o imposta la soglia che determina il valore dellerrore di binarizzazione nel metodo FloydSteinberg. quandoImageBinarizationMethod is ImageBinarizationMethod.FloydSteinbergDithering.
+description: ImageSaveOptions proprietà. Ottiene o imposta la soglia che determina il valore dellerrore di binarizzazione nel metodo FloydSteinberg. quandoImageBinarizationMethod ÈFloydSteinbergDithering .
 type: docs
-weight: 150
+weight: 160
 url: /it/net/aspose.words.saving/imagesaveoptions/thresholdforfloydsteinbergdithering/
 ---
 ## ImageSaveOptions.ThresholdForFloydSteinbergDithering property
 
-Ottiene o imposta la soglia che determina il valore dell'errore di binarizzazione nel metodo Floyd-Steinberg. quando[`ImageBinarizationMethod`](../../imagebinarizationmethod/) is ImageBinarizationMethod.FloydSteinbergDithering.
+Ottiene o imposta la soglia che determina il valore dell'errore di binarizzazione nel metodo Floyd-Steinberg. quando[`ImageBinarizationMethod`](../../imagebinarizationmethod/) ÈFloydSteinbergDithering .
 
 ```csharp
 public byte ThresholdForFloydSteinbergDithering { get; set; }

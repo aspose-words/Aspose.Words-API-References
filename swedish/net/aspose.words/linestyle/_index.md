@@ -3,7 +3,7 @@ title: Enum LineStyle
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.LineStyle uppräkning. Anger linjestil för enBorder .
 type: docs
-weight: 3250
+weight: 3450
 url: /sv/net/aspose.words/linestyle/
 ---
 ## LineStyle enumeration

@@ -3,7 +3,7 @@ title: Enum OdsoDataSourceType
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Settings.OdsoDataSourceType uppräkning. Anger typen av extern datakälla som ska anslutas till som en del av ODSOanslutningsinformationen.
 type: docs
-weight: 5590
+weight: 5890
 url: /sv/net/aspose.words.settings/odsodatasourcetype/
 ---
 ## OdsoDataSourceType enumeration
@@ -79,7 +79,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
-// Att öppna detta dokument i Microsoft Word kommer att köra sammanslagningen innan innehållet visas. 
+ // Att öppna detta dokument i Microsoft Word kommer att köra sammanslagningen innan innehållet visas.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

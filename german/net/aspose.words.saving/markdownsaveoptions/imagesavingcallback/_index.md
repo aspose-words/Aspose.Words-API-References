@@ -1,14 +1,14 @@
 ---
 title: MarkdownSaveOptions.ImageSavingCallback
 second_title: Aspose.Words für .NET-API-Referenz
-description: MarkdownSaveOptions eigendom. Ermöglicht die Steuerung wie Bilder gespeichert werden wenn ein Dokument in gespeichert wirdMarkdown format.
+description: MarkdownSaveOptions eigendom. Ermöglicht die Steuerung wie Bilder gespeichert werden wenn ein Dokument in gespeichert wird.Markdown format.
 type: docs
 weight: 30
 url: /de/net/aspose.words.saving/markdownsaveoptions/imagesavingcallback/
 ---
 ## MarkdownSaveOptions.ImageSavingCallback property
 
-Ermöglicht die Steuerung, wie Bilder gespeichert werden, wenn ein Dokument in gespeichert wirdMarkdown format.
+Ermöglicht die Steuerung, wie Bilder gespeichert werden, wenn ein Dokument in gespeichert wird.Markdown format.
 
 ```csharp
 public IImageSavingCallback ImageSavingCallback { get; set; }
@@ -19,17 +19,18 @@ public IImageSavingCallback ImageSavingCallback { get; set; }
 Zeigt, wie der Bildname beim Speichern im Markdown-Dokument umbenannt wird.
 
 ```csharp
+public void RenameImages()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
     MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
 
-    // Wenn wir ein Dokument, das Bilder enthält, in Markdown konvertieren, erhalten wir am Ende eine Markdown-Datei, die mit mehreren Bildern verknüpft ist.
+    // Wenn wir ein Dokument, das Bilder enthält, in Markdown konvertieren, erhalten wir am Ende eine Markdown-Datei, die auf mehrere Bilder verweist.
     // Jedes Bild liegt in Form einer Datei im lokalen Dateisystem vor.
-    // Es gibt auch einen Rückruf, der den Namen und den Speicherort des Dateisystems jedes Bildes anpassen kann.
+    // Es gibt auch einen Rückruf, mit dem der Name und der Dateisystemspeicherort jedes Bildes angepasst werden können.
     saveOptions.ImageSavingCallback = new SavedImageRename("MarkdownSaveOptions.HandleDocument.md");
 
-    // Die Methode ImageSaving() unseres Callbacks wird zu diesem Zeitpunkt ausgeführt.
+    // Die ImageSaving()-Methode unseres Rückrufs wird zu diesem Zeitpunkt ausgeführt.
     doc.Save(ArtifactsDir + "MarkdownSaveOptions.HandleDocument.md", saveOptions);
 
     Assert.AreEqual(1,
@@ -43,7 +44,7 @@ Zeigt, wie der Bildname beim Speichern im Markdown-Dokument umbenannt wird.
 }
 
 /// <summary>
-/// Benennt gespeicherte Bilder um, die erzeugt werden, wenn ein Markdown-Dokument gespeichert wird.
+/// Benennt gespeicherte Bilder um, die beim Speichern eines Markdown-Dokuments erstellt werden.
 /// </summary>
 public class SavedImageRename : IImageSavingCallback
 {

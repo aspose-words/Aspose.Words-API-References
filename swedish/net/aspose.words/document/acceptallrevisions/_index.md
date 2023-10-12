@@ -3,7 +3,7 @@ title: Document.AcceptAllRevisions
 second_title: Aspose.Words för .NET API Referens
 description: Document metod. Accepterar alla spårade ändringar i dokumentet.
 type: docs
-weight: 500
+weight: 520
 url: /sv/net/aspose.words/document/acceptallrevisions/
 ---
 ## Document.AcceptAllRevisions method

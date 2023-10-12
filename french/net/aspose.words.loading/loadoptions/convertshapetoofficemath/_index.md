@@ -22,7 +22,7 @@ Montre comment convertir des formes EquationXML en objets Office Math.
 LoadOptions loadOptions = new LoadOptions();
 
 // Utilisez cet indicateur pour spécifier s'il faut convertir les formes avec les attributs EquationXML
-// aux objets Office Math, puis chargez le document.
+// vers les objets Office Math, puis chargez le document.
 loadOptions.ConvertShapeToOfficeMath = isConvertShapeToOfficeMath;
 
 Document doc = new Document(MyDir + "Math shapes.docx", loadOptions);

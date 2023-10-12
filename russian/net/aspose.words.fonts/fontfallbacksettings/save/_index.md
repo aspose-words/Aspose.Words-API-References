@@ -1,14 +1,14 @@
 ---
 title: FontFallbackSettings.Save
 second_title: Справочник по API Aspose.Words для .NET
-description: FontFallbackSettings метод. Сохраняет текущие резервные настройки в потоке.
+description: FontFallbackSettings метод. Сохраняет текущие резервные настройки в потоковом режиме.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.fonts/fontfallbacksettings/save/
 ---
 ## Save(Stream) {#save}
 
-Сохраняет текущие резервные настройки в потоке.
+Сохраняет текущие резервные настройки в потоковом режиме.
 
 ```csharp
 public void Save(Stream outputStream)
@@ -20,12 +20,12 @@ public void Save(Stream outputStream)
 
 ### Примеры
 
-Показывает, как загружать и сохранять резервные настройки шрифта в/из потока.
+Показывает, как загрузить и сохранить настройки резервного шрифта в поток или из него.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Загружаем XML-документ, определяющий набор резервных настроек шрифта.
+// Загрузите XML-документ, который определяет набор резервных настроек шрифта.
 using (FileStream fontFallbackStream = new FileStream(MyDir + "Font fallback rules.xml", FileMode.Open))
 {
     FontSettings fontSettings = new FontSettings();
@@ -66,19 +66,19 @@ public void Save(string fileName)
 
 ### Примеры
 
-Показывает, как загружать и сохранять резервные настройки шрифта в/из XML-документа в локальной файловой системе.
+Показывает, как загрузить и сохранить настройки резервного шрифта в XML-документе в локальной файловой системе или из него.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Загружаем XML-документ, определяющий набор резервных настроек шрифта.
+// Загрузите XML-документ, который определяет набор резервных настроек шрифта.
 FontSettings fontSettings = new FontSettings();
 fontSettings.FallbackSettings.Load(MyDir + "Font fallback rules.xml");
 
 doc.FontSettings = fontSettings;
 doc.Save(ArtifactsDir + "FontSettings.LoadFontFallbackSettingsFromFile.pdf");
 
-// Сохраняем текущие настройки резервного шрифта нашего документа в виде XML-документа.
+// Сохраняем текущие настройки резервного шрифта нашего документа как XML-документ.
 doc.FontSettings.FallbackSettings.Save(ArtifactsDir + "FallbackSettings.xml");
 ```
 

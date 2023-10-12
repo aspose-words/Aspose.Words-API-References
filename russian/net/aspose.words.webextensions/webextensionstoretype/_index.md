@@ -3,7 +3,7 @@ title: Enum WebExtensionStoreType
 second_title: Справочник по API Aspose.Words для .NET
 description: Aspose.Words.WebExtensions.WebExtensionStoreType перечисление. Перечисляет доступные типы магазина вебрасширений.
 type: docs
-weight: 6510
+weight: 6820
 url: /ru/net/aspose.words.webextensions/webextensionstoretype/
 ---
 ## WebExtensionStoreType enumeration
@@ -18,13 +18,13 @@ public enum WebExtensionStoreType
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| SPCatalog | `0` | Указывает, что тип хранилища — корпоративный каталог SharePoint. |
-| OMEX | `1` | Указывает, что тип магазина — Office.com. |
-| SPApp | `2` | Указывает, что тип хранилища — веб-приложение SharePoint. |
-| Exchange | `3` | Указывает, что тип хранилища — сервер Exchange. |
-| FileSystem | `4` | Указывает, что тип хранилища — общий ресурс файловой системы. |
+| SPCatalog | `0` | Указывает, что типом хранилища является корпоративный каталог SharePoint. |
+| OMEX | `1` | Указывает, что тип магазина — Office.com. . |
+| SPApp | `2` | Указывает, что типом хранилища является веб-приложение SharePoint. |
+| Exchange | `3` | Указывает, что типом хранилища является сервер Exchange. |
+| FileSystem | `4` | Указывает, что тип хранилища является общим ресурсом файловой системы. |
 | Registry | `5` | Указывает, что типом хранилища является системный реестр. |
-| ExCatalog | `6` | Указывает, что тип хранилища — Централизованное развертывание через Exchange. |
+| ExCatalog | `6` | Указывает, что тип хранилища — централизованное развертывание через Exchange. |
 | Default | `0` | Значение по умолчанию. |
 
 ### Примеры
@@ -34,8 +34,8 @@ public enum WebExtensionStoreType
 ```csharp
 Document doc = new Document();
 
-// Создаем панель задач с надстройкой "MyScript", которая будет использоваться документом,
-// затем установите его местоположение по умолчанию.
+// Создаём панель задач с надстройкой MyScript, которая будет использоваться документом,
+// затем устанавливаем местоположение по умолчанию.
 TaskPane myScriptTaskPane = new TaskPane();
 doc.WebExtensionTaskPanes.Add(myScriptTaskPane);
 myScriptTaskPane.DockState = TaskPaneDockState.Right;
@@ -43,13 +43,13 @@ myScriptTaskPane.IsVisible = true;
 myScriptTaskPane.Width = 300;
 myScriptTaskPane.IsLocked = true;
 
-// Если в одном и том же месте закрепления есть несколько панелей задач, мы можем установить этот индекс, чтобы упорядочить их.
+// Если в одном месте закрепления находится несколько панелей задач, мы можем установить этот индекс, чтобы упорядочить их.
 myScriptTaskPane.Row = 1;
 
 // Создайте надстройку под названием «MyScript Math Sample», внутри которой будет отображаться панель задач.
 WebExtension webExtension = myScriptTaskPane.WebExtension;
 
-// Задаем эталонные параметры хранилища приложений для нашей надстройки, например идентификатор.
+// Установите ссылочные параметры хранилища приложений для нашей надстройки, например идентификатор.
 webExtension.Reference.Id = "WA104380646";
 webExtension.Reference.Version = "1.0.0.0";
 webExtension.Reference.StoreType = WebExtensionStoreType.OMEX;
@@ -60,10 +60,10 @@ webExtension.Bindings.Add(new WebExtensionBinding("MyScript", WebExtensionBindin
 // Разрешить пользователю взаимодействовать с надстройкой.
 webExtension.IsFrozen = false;
 
-// Мы можем получить доступ к веб-расширению в Microsoft Word через Developer -> Надстройки.
+// Мы можем получить доступ к веб-расширению в Microsoft Word через Developer -> gt; Надстройки.
 doc.Save(ArtifactsDir + "Document.WebExtension.docx");
 
-// Сразу удалить все панели задач веб-расширения, как показано ниже.
+// Удалить все панели задач веб-расширений одновременно, вот так.
 doc.WebExtensionTaskPanes.Clear();
 
 Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);

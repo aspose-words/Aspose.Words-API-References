@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.SuppressTopSpacing
 second_title: Aspose.Words für .NET-API-Referenz
-description: CompatibilityOptions eigendom. Minimale und exakte Zeilenhöhe für erste Zeile auf Seite ignorieren.
+description: CompatibilityOptions eigendom. Ignorieren Sie die minimale und genaue Zeilenhöhe für die erste Zeile auf der Seite.
 type: docs
 weight: 510
 url: /de/net/aspose.words.settings/compatibilityoptions/suppresstopspacing/
 ---
 ## CompatibilityOptions.SuppressTopSpacing property
 
-Minimale und exakte Zeilenhöhe für erste Zeile auf Seite ignorieren.
+Ignorieren Sie die minimale und genaue Zeilenhöhe für die erste Zeile auf der Seite.
 
 ```csharp
 public bool SuppressTopSpacing { get; set; }

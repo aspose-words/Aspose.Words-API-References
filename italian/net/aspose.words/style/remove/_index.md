@@ -3,7 +3,7 @@ title: Style.Remove
 second_title: Aspose.Words per .NET API Reference
 description: Style metodo. Rimuove lo stile specificato dal documento.
 type: docs
-weight: 180
+weight: 200
 url: /it/net/aspose.words/style/remove/
 ---
 ## Style.Remove method
@@ -19,8 +19,8 @@ public void Remove()
 La rimozione dello stile ha i seguenti effetti sul modello del documento:
 
 * Tutti i riferimenti allo stile vengono rimossi dai paragrafi, dalle sequenze e dalle tabelle corrispondenti.
-* Se lo stile di base viene rimosso, la sua formattazione viene spostata negli stili figlio.
-* Se lo stile da eliminare ha uno stile collegato, vengono eliminati entrambi.
+* Se lo stile di base viene rimosso, la sua formattazione viene spostata negli stili secondari.
+* Se lo stile da eliminare ha uno stile collegato, verranno eliminati entrambi.
 
 ### Esempi
 
@@ -33,10 +33,12 @@ Style style = doc.Styles.Add(StyleType.Paragraph, "MyStyle");
 style.Font.Name = "Times New Roman";
 style.Font.Size = 16;
 style.Font.Color = Color.Navy;
+// Ridefinisce automaticamente lo stile.
+style.AutomaticallyUpdate = true;
 
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Applica uno degli stili dal documento al paragrafo che sta creando il generatore di documenti.
+// Applica uno degli stili del documento al paragrafo che il generatore di documenti sta creando.
 builder.ParagraphFormat.Style = doc.Styles["MyStyle"];
 builder.Writeln("Hello world!");
 
@@ -44,7 +46,7 @@ Style firstParagraphStyle = doc.FirstSection.Body.FirstParagraph.ParagraphFormat
 
 Assert.AreEqual(style, firstParagraphStyle);
 
-// Rimuovi il nostro stile personalizzato dalla raccolta di stili del documento.
+// Rimuove il nostro stile personalizzato dalla raccolta di stili del documento.
 doc.Styles["MyStyle"].Remove();
 
 firstParagraphStyle = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Style;

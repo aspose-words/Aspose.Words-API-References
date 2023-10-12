@@ -1,14 +1,14 @@
 ---
 title: ImportFormatOptions.ForceCopyStyles
 second_title: Referencia de API de Aspose.Words para .NET
-description: ImportFormatOptions propiedad. Obtiene o establece un valor booleano que indica copiar estilos conflictivos enKeepSourceFormatting mode. El valor predeterminado esfalso .
+description: ImportFormatOptions propiedad. Obtiene o establece un valor booleano que indica si se deben copiar estilos conflictivos enKeepSourceFormatting mode. El valor predeterminado esFALSO .
 type: docs
-weight: 20
+weight: 30
 url: /es/net/aspose.words/importformatoptions/forcecopystyles/
 ---
 ## ImportFormatOptions.ForceCopyStyles property
 
-Obtiene o establece un valor booleano que indica copiar estilos conflictivos enKeepSourceFormatting mode. El valor predeterminado es`falso` .
+Obtiene o establece un valor booleano que indica si se deben copiar estilos conflictivos enKeepSourceFormatting mode. El valor predeterminado es`FALSO` .
 
 ```csharp
 public bool ForceCopyStyles { get; set; }
@@ -16,18 +16,18 @@ public bool ForceCopyStyles { get; set; }
 
 ### Observaciones
 
-De forma predeterminada, si ya existe un estilo coincidente en un documento de destino, el formato de estilo de origen se expande en atributos de nodo directo y el estilo de este nodo se restablece a su valor predeterminado.
+De forma predeterminada, si ya existe un estilo coincidente en un documento de destino, el estilo de origen formatting se expande a atributos de nodo directo y el estilo de este nodo se restablece a su valor predeterminado.
 
-Cuando esta opción se establece en`verdadero`, el estilo de origen se copiará a la fuerza en el documento de destino con un nombre único y se aplicará al nodo importado.
+Cuando esta opción está configurada en`verdadero`, el estilo de origen se copiará a la fuerza en el documento de destino con un nombre único y se aplicará al nodo importado.
 
-Tenga en cuenta que, en este caso, no se garantiza que se conserve el formato del nodo importado en el documento de destino .
+Tenga en cuenta que en este caso no se garantiza que se conserve el formato del nodo importado en el documento de destino .
 
 ### Ejemplos
 
-Muestra cómo copiar estilos de origen con nombres únicos a la fuerza.
+Muestra cómo copiar a la fuerza estilos de origen con nombres únicos.
 
 ```csharp
-// Ambos documentos contienen MyStyle1 y MyStyle2, MyStyle3 solo existe en un documento de origen.
+// Ambos documentos contienen MyStyle1 y MyStyle2, MyStyle3 existe solo en un documento fuente.
 Document srcDoc = new Document(MyDir + "Styles source.docx");
 Document dstDoc = new Document(MyDir + "Styles destination.docx");
 

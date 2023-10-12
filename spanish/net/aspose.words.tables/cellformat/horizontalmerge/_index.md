@@ -3,7 +3,7 @@ title: CellFormat.HorizontalMerge
 second_title: Referencia de API de Aspose.Words para .NET
 description: CellFormat propiedad. Especifica cómo se fusiona la celda horizontalmente con otras celdas de la fila.
 type: docs
-weight: 40
+weight: 50
 url: /es/net/aspose.words.tables/cellformat/horizontalmerge/
 ---
 ## CellFormat.HorizontalMerge property
@@ -16,19 +16,19 @@ public CellMerge HorizontalMerge { get; set; }
 
 ### Ejemplos
 
-Muestra cómo fusionar celdas de tabla horizontalmente.
+Muestra cómo fusionar celdas de tablas horizontalmente.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Inserta una celda en la primera columna de la primera fila.
-// Esta celda será la primera en un rango de celdas combinadas horizontalmente.
+// Esta celda será la primera de un rango de celdas fusionadas horizontalmente.
 builder.InsertCell();
 builder.CellFormat.HorizontalMerge = CellMerge.First;
 builder.Write("Text in merged cells.");
 
-// Inserta una celda en la segunda columna de la primera fila. En lugar de agregar contenido de texto,
+// Inserta una celda en la segunda columna de la primera fila. En lugar de agregar contenidos de texto,
 // fusionaremos esta celda con la primera celda que agregamos directamente a la izquierda.
 builder.InsertCell();
 builder.CellFormat.HorizontalMerge = CellMerge.Previous;

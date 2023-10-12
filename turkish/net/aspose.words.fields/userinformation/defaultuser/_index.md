@@ -16,11 +16,11 @@ public static UserInformation DefaultUser { get; }
 
 ### Notlar
 
-[`CurrentUser`](../../fieldoptions/currentuser/)tek belge için kullanıcı bilgilerini belirtme özelliği.
+Kullan[`CurrentUser`](../../fieldoptions/currentuser/) Tek bir belge için kullanıcı bilgilerini belirtme özelliği.
 
 ### Örnekler
 
-Kullanıcı ayrıntılarının nasıl ayarlanacağını ve alanları kullanarak nasıl görüntüleneceğini gösterir.
+Kullanıcı ayrıntılarının nasıl ayarlanacağını ve alanları kullanarak bunların nasıl görüntüleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -35,13 +35,13 @@ UserInformation userInformation = new UserInformation
 };
 doc.FieldOptions.CurrentUser = userInformation;
 
-// değerlerini görüntüleyen USERNAME, USERINITIALS ve USERADDRESS alanlarını girin
-// yukarıda oluşturduğumuz UserInformation nesnesinin ilgili özellikleri. 
+// değerlerini görüntüleyen USERNAME, USERINITIALS ve USERAADDRESS alanlarını ekleyin
+ // yukarıda oluşturduğumuz UserInformation nesnesinin ilgili özellikleri.
 Assert.AreEqual(userInformation.Name, builder.InsertField(" USERNAME ").Result);
 Assert.AreEqual(userInformation.Initials, builder.InsertField(" USERINITIALS ").Result);
 Assert.AreEqual(userInformation.Address, builder.InsertField(" USERADDRESS ").Result);
 
-// Alan seçenekleri nesnesi ayrıca tüm belgelerdeki alanların başvurabileceği statik bir varsayılan kullanıcıya sahiptir.
+// Alan seçenekleri nesnesi aynı zamanda tüm belgelerdeki alanların başvurabileceği statik bir varsayılan kullanıcıya da sahiptir.
 UserInformation.DefaultUser.Name = "Default User";
 UserInformation.DefaultUser.Initials = "D. U.";
 UserInformation.DefaultUser.Address = "One Microsoft Way";

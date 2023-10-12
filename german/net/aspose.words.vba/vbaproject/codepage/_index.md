@@ -1,18 +1,22 @@
 ---
 title: VbaProject.CodePage
 second_title: Aspose.Words für .NET-API-Referenz
-description: VbaProject eigendom. Gibt die Codepage des VBAProjekts zurück.
+description: VbaProject eigendom. Ruft die Codepage des VBAProjekts ab oder legt diese fest.
 type: docs
 weight: 20
 url: /de/net/aspose.words.vba/vbaproject/codepage/
 ---
 ## VbaProject.CodePage property
 
-Gibt die Codepage des VBA-Projekts zurück.
+Ruft die Codepage des VBA-Projekts ab oder legt diese fest.
 
 ```csharp
-public int CodePage { get; }
+public int CodePage { get; set; }
 ```
+
+### Bemerkungen
+
+Bitte beachten Sie, dass VBA eine Funktion vor Unicode ist und Sie die entsprechende Codepage explizit festlegen müssen , um regionale Zeichensätze beizubehalten.
 
 ### Beispiele
 
@@ -23,6 +27,7 @@ Document doc = new Document(MyDir + "VBA project.docm");
 
 // Ein VBA-Projekt enthält eine Sammlung von VBA-Modulen.
 VbaProject vbaProject = doc.VbaProject;
+Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 
@@ -33,7 +38,7 @@ Assert.AreEqual(vbaModules.Count(), 3);
 foreach (VbaModule module in vbaModules)
     Console.WriteLine($"Module name: {module.Name};\nModule code:\n{module.SourceCode}\n");
 
-// Neuen Quellcode für VBA-Modul setzen. Sie können auf VBA-Module in der Sammlung entweder nach Index oder nach Name zugreifen.
+// Neuen Quellcode für VBA-Modul festlegen. Sie können auf VBA-Module in der Sammlung entweder über den Index oder über den Namen zugreifen.
 vbaModules[0].SourceCode = "Your VBA code...";
 vbaModules["Module1"].SourceCode = "Your VBA code...";
 

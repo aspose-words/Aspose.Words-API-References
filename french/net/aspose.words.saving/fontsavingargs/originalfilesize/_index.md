@@ -16,13 +16,14 @@ public int OriginalFileSize { get; }
 
 ### Remarques
 
-Cette propriété contient la taille de fichier d'origine de la police actuelle si elle est connue. Sinon, il peut être nul.
+Cette propriété contient la taille de fichier d'origine de la police actuelle si elle est connue. Sinon, cela peut être nul.
 
 ### Exemples
 
-Montre comment définir une logique personnalisée pour l'exportation des polices lors de l'enregistrement au format HTML.
+Montre comment définir une logique personnalisée pour l’exportation des polices lors de l’enregistrement au format HTML.
 
 ```csharp
+public void SaveExportedFonts()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
@@ -42,8 +43,10 @@ Montre comment définir une logique personnalisée pour l'exportation des police
         Console.WriteLine(fontFilename);
     }
 
+}
+
 /// <summary>
-/// Imprime des informations sur les polices exportées et les enregistre dans le même dossier système local que leur sortie .html.
+/// Imprime les informations sur les polices exportées et les enregistre dans le même dossier système local que leur sortie .html.
 /// </summary>
 public class HandleFontSaving : IFontSavingCallback
 {
@@ -60,7 +63,7 @@ public class HandleFontSaving : IFontSavingCallback
         Assert.True(args.IsExportNeeded);
         Assert.True(args.IsSubsettingNeeded);
 
-        // Il existe deux manières d'enregistrer une police exportée.
+        // Il existe deux manières de sauvegarder une police exportée.
         // 1 - Enregistrez-le dans un emplacement du système de fichiers local :
         args.FontFileName = args.OriginalFileName.Split(Path.DirectorySeparatorChar).Last();
 

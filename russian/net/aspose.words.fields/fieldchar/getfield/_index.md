@@ -40,13 +40,13 @@ Assert.AreEqual(FieldType.FieldDate, fieldStart.FieldType);
 Assert.AreEqual(false, fieldStart.IsDirty);
 Assert.AreEqual(false, fieldStart.IsLocked);
 
-// Получить объект фасада, представляющий поле в документе.
+// Получаем фасадный объект, который представляет поле в документе.
 field = (FieldDate)fieldStart.GetField();
 
 Assert.AreEqual(false, field.IsLocked);
 Assert.AreEqual(" DATE  \\@ \"dddd, MMMM dd, yyyy\"", field.GetFieldCode());
 
-// Обновить поле, чтобы показать текущую дату.
+// Обновляем поле, чтобы оно отображало текущую дату.
 field.Update();
 ```
 

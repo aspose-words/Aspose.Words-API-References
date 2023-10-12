@@ -1,14 +1,14 @@
 ---
 title: PageSetup.OddAndEvenPagesHeaderFooter
 second_title: Справочник по API Aspose.Words для .NET
-description: PageSetup свойство. Истинныйесли документ имеет разные верхние и нижние колонтитулы для четных и нечетных страниц.
+description: PageSetup свойство. Истинно если документ имеет разные верхние и нижние колонтитулы для страниц с нечетными и четными номерами.
 type: docs
-weight: 270
+weight: 280
 url: /ru/net/aspose.words/pagesetup/oddandevenpagesheaderfooter/
 ---
 ## PageSetup.OddAndEvenPagesHeaderFooter property
 
-**Истинный**если документ имеет разные верхние и нижние колонтитулы для четных и нечетных страниц.
+Истинно, если документ имеет разные верхние и нижние колонтитулы для страниц с нечетными и четными номерами.
 
 ```csharp
 public bool OddAndEvenPagesHeaderFooter { get; set; }
@@ -30,7 +30,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.PageSetup.DifferentFirstPageHeaderFooter = true;
 builder.PageSetup.OddAndEvenPagesHeaderFooter = true;
 
-// Создайте заголовки, затем добавьте в документ три страницы для отображения каждого типа заголовков.
+// Создайте заголовки, затем добавьте в документ три страницы для отображения каждого типа заголовка.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderFirst);
 builder.Write("Header for the first page");
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderEven);
@@ -48,22 +48,22 @@ builder.Writeln("Page3");
 doc.Save(ArtifactsDir + "DocumentBuilder.HeadersAndFooters.docx");
 ```
 
-Показывает, как включить или отключить верхние/нижние колонтитулы четных страниц.
+Показывает, как включить или отключить даже верхние/нижние колонтитулы страницы.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Ниже приведены два типа верхних/нижних колонтитулов.
-// 1 - «Основной» верхний/нижний колонтитул, который появляется на каждой странице раздела.
-// Мы можем переопределить основной верхний/нижний колонтитул первой и четной верхней/нижней страницей.
+// Ниже приведены два типа верхних и нижних колонтитулов.
+// 1 — «Основной» верхний/нижний колонтитул, который появляется на каждой странице раздела.
+ // Мы можем переопределить основной верхний/нижний колонтитул на первый и четный верхний/нижний колонтитулы страницы.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 builder.Writeln("Primary header.");
 
 builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
 builder.Writeln("Primary footer.");
 
-// 2 - "Четный" верхний/нижний колонтитул, который появляется на каждой четной странице этого раздела.
+// 2 — «Четный» верхний/нижний колонтитул, который появляется на каждой четной странице этого раздела.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderEven);
 builder.Writeln("Even page header.");
 
@@ -77,7 +77,7 @@ builder.Writeln("Page 2.");
 builder.InsertBreak(BreakType.PageBreak);
 builder.Writeln("Page 3.");
 
-// Каждый раздел имеет объект "PageSetup", который определяет свойства, связанные с внешним видом страницы
+// Каждый раздел имеет объект «PageSetup», который определяет свойства, связанные с внешним видом страницы.
 // такие как ориентация, размер и границы.
 // Установите для свойства "OddAndEvenPagesHeaderFooter" значение "true"
 // для отображения верхнего/нижнего колонтитула четной страницы на четных страницах.

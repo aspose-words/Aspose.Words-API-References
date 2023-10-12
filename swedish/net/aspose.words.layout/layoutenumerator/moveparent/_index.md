@@ -3,7 +3,7 @@ title: LayoutEnumerator.MoveParent
 second_title: Aspose.Words för .NET API Referens
 description: LayoutEnumerator metod. Flyttar till den överordnade enheten.
 type: docs
-weight: 130
+weight: 140
 url: /sv/net/aspose.words.layout/layoutenumerator/moveparent/
 ---
 ## MoveParent() {#moveparent}

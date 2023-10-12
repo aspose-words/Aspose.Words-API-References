@@ -1,14 +1,14 @@
 ---
 title: HorizontalRuleFormat.NoShade
 second_title: Aspose.Words für .NET-API-Referenz
-description: HorizontalRuleFormat eigendom. Zeigt das Vorhandensein von 3DSchattierung für die horizontale Linie an. Wenn wahr dann ist die horizontale Linie ohne 3DSchattierung und es wird Volltonfarbe verwendet.
+description: HorizontalRuleFormat eigendom. Zeigt das Vorhandensein einer 3DSchattierung für die horizontale Regel an. WennWAHR dann ist die horizontale Regel ohne 3DSchattierung und es wird Volltonfarbe verwendet.
 type: docs
 weight: 40
 url: /de/net/aspose.words.drawing/horizontalruleformat/noshade/
 ---
 ## HorizontalRuleFormat.NoShade property
 
-Zeigt das Vorhandensein von 3D-Schattierung für die horizontale Linie an. Wenn wahr, dann ist die horizontale Linie ohne 3D-Schattierung und es wird Volltonfarbe verwendet.
+Zeigt das Vorhandensein einer 3D-Schattierung für die horizontale Regel an. Wenn`WAHR` dann ist die horizontale Regel ohne 3D-Schattierung und es wird Volltonfarbe verwendet.
 
 ```csharp
 public bool NoShade { get; set; }
@@ -16,11 +16,11 @@ public bool NoShade { get; set; }
 
 ### Bemerkungen
 
-Der Standardwert ist falsch.
+Der Standardwert ist`FALSCH`.
 
 ### Beispiele
 
-Zeigt, wie Sie eine horizontale Linienform einfügen und ihre Formatierung anpassen.
+Zeigt, wie man eine horizontale Regelform einfügt und deren Formatierung anpasst.
 
 ```csharp
 Document doc = new Document();

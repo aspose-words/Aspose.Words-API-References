@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.UseAnsiKerningPairs
 second_title: Aspose.Words for .NET API Referansı
-description: CompatibilityOptions mülk. Fontlardan ANSI Karakter Aralığı Çiftlerini Kullanın.
+description: CompatibilityOptions mülk. Fontlardan ANSI Karakter Aralığı Çiftlerini Kullan.
 type: docs
 weight: 610
 url: /tr/net/aspose.words.settings/compatibilityoptions/useansikerningpairs/
 ---
 ## CompatibilityOptions.UseAnsiKerningPairs property
 
-Fontlardan ANSI Karakter Aralığı Çiftlerini Kullanın.
+Fontlardan ANSI Karakter Aralığı Çiftlerini Kullan.
 
 ```csharp
 public bool UseAnsiKerningPairs { get; set; }

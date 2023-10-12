@@ -1,12 +1,12 @@
 ---
 title: Aspose.Words.Loading
 second_title: Aspose.Words för .NET API Referens
-description: De Aspose.Words.Loading namnområdet tillhandahåller klasser och uppräkningar som tillåter att ange ytterligare alternativ när dokument laddas.
+description: De Aspose.Words.Loadingnamnområdet tillhandahåller klasser och uppräkningar som tillåter att ange ytterligare alternativ när dokument laddas.
 type: docs
 weight: 130
 url: /sv/net/aspose.words.loading/
 ---
-De **Aspose.Words.Loading** namnområdet tillhandahåller klasser och uppräkningar som tillåter att ange ytterligare alternativ när dokument laddas.
+De **Aspose.Words.Loading**namnområdet tillhandahåller klasser och uppräkningar som tillåter att ange ytterligare alternativ när dokument laddas.
 
 ## Klasser
 

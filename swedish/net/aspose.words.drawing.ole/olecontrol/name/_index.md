@@ -1,17 +1,17 @@
 ---
 title: OleControl.Name
 second_title: Aspose.Words för .NET API Referens
-description: OleControl fast egendom. Hämtar namnet på ActiveXkontrollen.
+description: OleControl fast egendom. Hämtar eller ställer in namnet på ActiveXkontrollen.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.drawing.ole/olecontrol/name/
 ---
 ## OleControl.Name property
 
-Hämtar namnet på ActiveX-kontrollen.
+Hämtar eller ställer in namnet på ActiveX-kontrollen.
 
 ```csharp
-public string Name { get; }
+public string Name { get; set; }
 ```
 
 ### Exempel
@@ -24,7 +24,7 @@ Document doc = new Document(MyDir + "ActiveX controls.docx");
 Shape shape = (Shape) doc.GetChild(NodeType.Shape, 0, true);
 OleControl oleControl = shape.OleFormat.OleControl;
 
-Assert.AreEqual(null, oleControl.Name);
+Assert.AreEqual("CheckBox1", oleControl.Name);
 
 if (oleControl.IsForms2OleControl)
 {
@@ -34,6 +34,10 @@ if (oleControl.IsForms2OleControl)
     Assert.AreEqual(true, checkBox.Enabled);
     Assert.AreEqual(Forms2OleControlType.CheckBox, checkBox.Type);
     Assert.AreEqual(null, checkBox.ChildNodes);
+    Assert.AreEqual(string.Empty, checkBox.GroupName);
+
+    // Observera att du inte kan ställa in GroupName för en ram.
+    checkBox.GroupName = "Aspose group name";
 }
 ```
 

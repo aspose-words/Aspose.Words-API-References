@@ -22,15 +22,15 @@ GOTOBUTTON alanı eklemeyi gösterir.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Bir GOTOBUTTON alanı ekleyin. Microsoft Word'de bu alana çift tıkladığımızda,
-// metin imlecini, Konum özelliğinin adının başvurduğu yer işaretine götürecektir.
+// GOTOBUTTON alanı ekleyin. Microsoft Word'de bu alana çift tıkladığımızda,
+// metin imlecini Location özelliğinin ismine referans verdiği yer imine götürecektir.
 FieldGoToButton field = (FieldGoToButton)builder.InsertField(FieldType.FieldGoToButton, true);
 field.DisplayText = "My Button";
 field.Location = "MyBookmark";
 
 Assert.AreEqual(" GOTOBUTTON  MyBookmark My Button", field.GetFieldCode());
 
-// Başvuru yapılacak alan için geçerli bir yer imi ekleyin.
+// Referans verilecek alan için geçerli bir yer imi ekleyin.
 builder.InsertBreak(BreakType.PageBreak);
 builder.StartBookmark(field.Location);
 builder.Writeln("Bookmark text contents.");

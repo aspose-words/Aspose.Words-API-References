@@ -16,7 +16,7 @@ public bool DoubleStrikeThrough { get; set; }
 
 ### Örnekler
 
-Metne nasıl üstü çizili çizgi ekleneceğini gösterir.
+Metne üstü çizili çizginin nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();

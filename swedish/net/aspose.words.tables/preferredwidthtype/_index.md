@@ -3,7 +3,7 @@ title: Enum PreferredWidthType
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Tables.PreferredWidthType uppräkning. Anger måttenheten för den föredragna bredden på en tabell eller cell.
 type: docs
-weight: 6000
+weight: 6300
 url: /sv/net/aspose.words.tables/preferredwidthtype/
 ---
 ## PreferredWidthType enumeration

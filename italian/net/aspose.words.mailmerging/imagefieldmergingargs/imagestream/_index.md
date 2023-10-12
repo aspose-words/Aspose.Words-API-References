@@ -1,14 +1,14 @@
 ---
 title: ImageFieldMergingArgs.ImageStream
 second_title: Aspose.Words per .NET API Reference
-description: ImageFieldMergingArgs proprietà. Specifica il flusso da cui il motore di stampa unione deve leggere unimmagine.
+description: ImageFieldMergingArgs proprietà. Specifica il flusso da cui il motore di stampa unione legge unimmagine.
 type: docs
 weight: 40
 url: /it/net/aspose.words.mailmerging/imagefieldmergingargs/imagestream/
 ---
 ## ImageFieldMergingArgs.ImageStream property
 
-Specifica il flusso da cui il motore di stampa unione deve leggere un'immagine.
+Specifica il flusso da cui il motore di stampa unione legge un'immagine.
 
 ```csharp
 public Stream ImageStream { get; set; }
@@ -16,7 +16,7 @@ public Stream ImageStream { get; set; }
 
 ### Osservazioni
 
-Aspose.Words chiude questo flusso dopo aver unito l'immagine al documento.
+Aspose.Words chiude questo flusso dopo aver unito l'immagine nel documento.
 
 ### Esempi
 
@@ -29,14 +29,14 @@ public void ImageFromBlob()
 
     doc.MailMerge.FieldMergingCallback = new HandleMergeImageFieldFromBlob();
 
-    string connString = $"Provider=Microsoft.Jet.OLEDB.4.0;Data Source={DatabaseDir + "Northwind.mdb"};";
+    string connString = $"Provider=Microsoft.ACE.OLEDB.12.0;Data Source={DatabaseDir + "Northwind.accdb"};";
     string query = "SELECT FirstName, LastName, Title, Address, City, Region, Country, PhotoBLOB FROM Employees";
 
     using (OleDbConnection conn = new OleDbConnection(connString))
     {
         conn.Open();
 
-        // Apre il lettore di dati, che deve essere in una modalità che legga tutti i record contemporaneamente.
+        // Apre il lettore dati, che deve essere in una modalità che legga tutti i record contemporaneamente.
         OleDbCommand cmd = new OleDbCommand(query, conn);
         IDataReader dataReader = cmd.ExecuteReader();
 
@@ -44,6 +44,7 @@ public void ImageFromBlob()
     }
 
     doc.Save(ArtifactsDir + "MailMergeEvent.ImageFromBlob.docx");
+}
 
 private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 {
@@ -53,7 +54,7 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
     }
 
     /// <summary>
-    /// Viene chiamato quando una stampa unione incontra un MERGEFIELD nel documento con un tag "Image:" nel nome.
+    /// Viene chiamato quando una stampa unione incontra un MERGEFIELD nel documento con un tag "Immagine:" nel suo nome.
     /// </summary>
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs e)
     {

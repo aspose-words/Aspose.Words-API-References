@@ -1,14 +1,14 @@
 ---
 title: BookmarkCollection.RemoveAt
 second_title: Aspose.Words per .NET API Reference
-description: BookmarkCollection metodo. Rimuove un segnalibro nellindice specificato.
+description: BookmarkCollection metodo. Rimuove un segnalibro allindice specificato.
 type: docs
 weight: 60
 url: /it/net/aspose.words/bookmarkcollection/removeat/
 ---
 ## BookmarkCollection.RemoveAt method
 
-Rimuove un segnalibro nell'indice specificato.
+Rimuove un segnalibro all'indice specificato.
 
 ```csharp
 public void RemoveAt(int index)
@@ -26,7 +26,7 @@ Mostra come rimuovere i segnalibri da un documento.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inserisci cinque segnalibri con il testo all'interno dei loro limiti.
+// Inserisci cinque segnalibri con testo all'interno dei loro confini.
 for (int i = 1; i <= 5; i++)
 {
     string bookmarkName = "MyBookmark_" + i;
@@ -43,18 +43,18 @@ BookmarkCollection bookmarks = doc.Range.Bookmarks;
 Assert.AreEqual(5, bookmarks.Count);
 
 // Esistono diversi modi per rimuovere i segnalibri.
-// 1 - Chiamare il metodo Rimuovi del segnalibro:
+// 1 - Richiamo del metodo Rimuovi del segnalibro:
 bookmarks["MyBookmark_1"].Remove();
 
 Assert.False(bookmarks.Any(b => b.Name == "MyBookmark_1"));
 
-// 2 - Passaggio del segnalibro al metodo Rimuovi della raccolta:
+// 2 - Passando il segnalibro al metodo Remove della raccolta:
 Bookmark bookmark = doc.Range.Bookmarks[0];
 doc.Range.Bookmarks.Remove(bookmark);
 
 Assert.False(bookmarks.Any(b => b.Name == "MyBookmark_2"));
 
-// 3 - Rimozione di un segnalibro dalla raccolta per nome:
+// 3 - Rimuovere un segnalibro dalla raccolta per nome:
 doc.Range.Bookmarks.Remove("MyBookmark_3");
 
 Assert.False(bookmarks.Any(b => b.Name == "MyBookmark_3"));

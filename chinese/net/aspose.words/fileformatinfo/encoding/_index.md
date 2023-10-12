@@ -1,14 +1,14 @@
 ---
 title: FileFormatInfo.Encoding
 second_title: Aspose.Words for .NET API 参考
-description: FileFormatInfo 财产. 如果适用于当前文档格式则获取检测到的编码 目前仅检测 HTML 文档的编码
+description: FileFormatInfo 财产. 获取检测到的编码如果适用于当前文档格式 目前仅检测 HTML 文档的编码
 type: docs
 weight: 10
 url: /zh/net/aspose.words/fileformatinfo/encoding/
 ---
 ## FileFormatInfo.Encoding property
 
-如果适用于当前文档格式，则获取检测到的编码。 目前仅检测 HTML 文档的编码。
+获取检测到的编码（如果适用于当前文档格式）。 目前仅检测 HTML 文档的编码。
 
 ```csharp
 public Encoding Encoding { get; }
@@ -16,7 +16,7 @@ public Encoding Encoding { get; }
 
 ### 例子
 
-展示如何检测 html 文件中的编码。
+演示如何检测 html 文件中的编码。
 
 ```csharp
 FileFormatInfo info = FileFormatUtil.DetectFileFormat(MyDir + "Document.html");

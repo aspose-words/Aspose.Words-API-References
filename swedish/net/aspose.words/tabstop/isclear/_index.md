@@ -1,14 +1,14 @@
 ---
 title: TabStop.IsClear
 second_title: Aspose.Words för .NET API Referens
-description: TabStop fast egendom. Returnerar sant om detta tabbstopp rensar alla befintliga tabbstopp i denna position.
+description: TabStop fast egendom. ReturnerarSann om detta tabbstopp rensar alla befintliga tabbstopp i denna position.
 type: docs
 weight: 30
 url: /sv/net/aspose.words/tabstop/isclear/
 ---
 ## TabStop.IsClear property
 
-Returnerar sant om detta tabbstopp rensar alla befintliga tabbstopp i denna position.
+Returnerar`Sann` om detta tabbstopp rensar alla befintliga tabbstopp i denna position.
 
 ```csharp
 public bool IsClear { get; }

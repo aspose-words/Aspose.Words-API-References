@@ -1,14 +1,14 @@
 ---
 title: MailMerge.FieldMergingCallback
 second_title: Aspose.Words لمراجع .NET API
-description: MailMerge ملكية. يحدث أثناء دمج المراسلات عند مصادفة حقل دمج المراسلات في المستند.
+description: MailMerge ملكية. يحدث أثناء دمج البريد عند مواجهة حقل دمج البريد في المستند.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.mailmerging/mailmerge/fieldmergingcallback/
 ---
 ## MailMerge.FieldMergingCallback property
 
-يحدث أثناء دمج المراسلات عند مصادفة حقل دمج المراسلات في المستند.
+يحدث أثناء دمج البريد عند مواجهة حقل دمج البريد في المستند.
 
 ```csharp
 public IFieldMergingCallback FieldMergingCallback { get; set; }
@@ -16,7 +16,7 @@ public IFieldMergingCallback FieldMergingCallback { get; set; }
 
 ### أمثلة
 
-يوضح كيفية إدراج الصور المخزنة في حقل BLOB لقاعدة البيانات في تقرير.
+يوضح كيفية إدراج الصور المخزنة في حقل BLOB بقاعدة البيانات في تقرير.
 
 ```csharp
 public void ImageFromBlob()
@@ -25,14 +25,14 @@ public void ImageFromBlob()
 
     doc.MailMerge.FieldMergingCallback = new HandleMergeImageFieldFromBlob();
 
-    string connString = $"Provider=Microsoft.Jet.OLEDB.4.0;Data Source={DatabaseDir + "Northwind.mdb"};";
+    string connString = $"Provider=Microsoft.ACE.OLEDB.12.0;Data Source={DatabaseDir + "Northwind.accdb"};";
     string query = "SELECT FirstName, LastName, Title, Address, City, Region, Country, PhotoBLOB FROM Employees";
 
     using (OleDbConnection conn = new OleDbConnection(connString))
     {
         conn.Open();
 
-        // افتح قارئ البيانات ، الذي يجب أن يكون في وضع يقرأ جميع السجلات مرة واحدة.
+        // افتح قارئ البيانات، والذي يجب أن يكون في وضع يقرأ جميع السجلات مرة واحدة.
         OleDbCommand cmd = new OleDbCommand(query, conn);
         IDataReader dataReader = cmd.ExecuteReader();
 
@@ -40,6 +40,7 @@ public void ImageFromBlob()
     }
 
     doc.Save(ArtifactsDir + "MailMergeEvent.ImageFromBlob.docx");
+}
 
 private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 {
@@ -49,7 +50,7 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
     }
 
     /// <summary>
-    /// يتم استدعاء هذا عندما يواجه دمج المراسلات MERGEFIELD في المستند بعلامة "صورة:" في اسمه.
+    /// يتم استدعاء هذا عندما يواجه دمج البريد MERGEFIELD في المستند الذي يحتوي على علامة "صورة:" في اسمه.
     /// </summary>
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs e)
     {
@@ -59,9 +60,10 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 }
 ```
 
-يوضح كيفية تنفيذ دمج المراسلات باستخدام رد اتصال مخصص يعالج بيانات الدمج في شكل مستندات HTML.
+يوضح كيفية تنفيذ عملية دمج البريد باستخدام رد اتصال مخصص يتعامل مع بيانات الدمج في شكل مستندات HTML.
 
 ```csharp
+public void MergeHtml()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -91,13 +93,13 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 }
 
 /// <summary>
-/// إذا واجه دمج البريد MERGEFIELD يبدأ اسمه بالبادئة "html_" ،
-/// هذا الاستدعاء يحلل بيانات الدمج الخاصة به كمحتوى HTML ويضيف النتيجة إلى موقع المستند الخاص بـ MERGEFIELD.
+/// إذا واجه دمج البريد MERGEFIELD الذي يبدأ اسمه بالبادئة "html_"،
+/// يقوم رد الاتصال هذا بتحليل بيانات الدمج الخاصة به كمحتوى HTML وإضافة النتيجة إلى موقع مستند MERGEFIELD.
 /// </summary>
 private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 {
     /// <summary>
-    /// يتم الاستدعاء عندما يقوم دمج المراسلات بدمج البيانات في MERGEFIELD.
+    /// يتم الاتصال به عندما يقوم دمج البريد بدمج البيانات في MERGEFIELD.
     /// </summary>
     void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)
     {
@@ -108,7 +110,7 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
             builder.MoveToMergeField(args.DocumentFieldName);
             builder.InsertHtml((string)args.FieldValue);
 
-            // نظرًا لأننا أدخلنا المحتوى المدمج يدويًا بالفعل ،
+            // نظرًا لأننا قمنا بالفعل بإدراج المحتوى المدمج يدويًا،
              // لن نحتاج إلى الرد على هذا الحدث من خلال إعادة المحتوى عبر خاصية "النص".
             args.Text = string.Empty;
         }

@@ -1,14 +1,14 @@
 ---
 title: PageSetup.DifferentFirstPageHeaderFooter
 second_title: Справочник по API Aspose.Words для .NET
-description: PageSetup свойство. Истинный если на первой странице используется другой верхний или нижний колонтитул.
+description: PageSetup свойство. True если на первой странице используется другой верхний или нижний колонтитул.
 type: docs
 weight: 110
 url: /ru/net/aspose.words/pagesetup/differentfirstpageheaderfooter/
 ---
 ## PageSetup.DifferentFirstPageHeaderFooter property
 
-**Истинный** если на первой странице используется другой верхний или нижний колонтитул.
+True, если на первой странице используется другой верхний или нижний колонтитул.
 
 ```csharp
 public bool DifferentFirstPageHeaderFooter { get; set; }
@@ -26,7 +26,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.PageSetup.DifferentFirstPageHeaderFooter = true;
 builder.PageSetup.OddAndEvenPagesHeaderFooter = true;
 
-// Создайте заголовки, затем добавьте в документ три страницы для отображения каждого типа заголовков.
+// Создайте заголовки, затем добавьте в документ три страницы для отображения каждого типа заголовка.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderFirst);
 builder.Write("Header for the first page");
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderEven);
@@ -44,22 +44,22 @@ builder.Writeln("Page3");
 doc.Save(ArtifactsDir + "DocumentBuilder.HeadersAndFooters.docx");
 ```
 
-Показывает, как включить или отключить основные верхние/нижние колонтитулы.
+Показывает, как включить или отключить основные верхние и нижние колонтитулы.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Ниже приведены два типа верхних/нижних колонтитулов.
-// 1 - «Первый» верхний/нижний колонтитул, который появляется на первой странице раздела.
+// Ниже приведены два типа верхних и нижних колонтитулов.
+// 1 — «Первый» верхний/нижний колонтитул, который появляется на первой странице раздела.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderFirst);
 builder.Writeln("First page header.");
 
 builder.MoveToHeaderFooter(HeaderFooterType.FooterFirst);
 builder.Writeln("First page footer.");
 
-// 2 - «Основной» верхний/нижний колонтитул, который появляется на каждой странице раздела.
-// Мы можем переопределить основной верхний/нижний колонтитул первой и четной верхней/нижней страницей.
+// 2 — «Основной» верхний/нижний колонтитул, который появляется на каждой странице раздела.
+ // Мы можем переопределить основной верхний/нижний колонтитул на первый и четный верхний/нижний колонтитулы страницы.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 builder.Writeln("Primary header.");
 
@@ -73,17 +73,17 @@ builder.Writeln("Page 2.");
 builder.InsertBreak(BreakType.PageBreak);
 builder.Writeln("Page 3.");
 
-// Каждый раздел имеет объект "PageSetup", который определяет свойства, связанные с внешним видом страницы
+// Каждый раздел имеет объект «PageSetup», который определяет свойства, связанные с внешним видом страницы.
 // такие как ориентация, размер и границы.
-// Установите для свойства "DifferentFirstPageHeaderFooter" значение "true", чтобы применить первый верхний/нижний колонтитул к первой странице.
-// Установите для свойства "DifferentFirstPageHeaderFooter" значение "false"
+// Установите для свойства «DifferentFirstPageHeaderFooter» значение «true», чтобы применить первый верхний или нижний колонтитул к первой странице.
+// Установите для свойства «DifferentFirstPageHeaderFooter» значение «false»
 // чтобы на первой странице отображался основной верхний/нижний колонтитул.
 builder.PageSetup.DifferentFirstPageHeaderFooter = differentFirstPageHeaderFooter;
 
 doc.Save(ArtifactsDir + "PageSetup.DifferentFirstPageHeaderFooter.docx");
 ```
 
-Показывает, как отслеживать порядок, в котором операция замены текста проходит через узлы.
+Показывает, как отслеживать порядок, в котором операция замены текста проходит узлы.
 
 ```csharp
 public void Order(bool differentFirstPageHeaderFooter)
@@ -115,8 +115,8 @@ public void Order(bool differentFirstPageHeaderFooter)
         }
 
         /// <summary>
-        /// Во время операции поиска и замены записывает содержимое каждого узла с текстом, который операция «находит»,
-        /// в том состоянии, в котором он находился перед заменой.
+        /// Во время операции поиска и замены записывает содержимое каждого узла, имеющего текст, который "находит" операция,
+        /// в том состоянии, в котором он находился до замены.
         /// Это отобразит порядок, в котором операция замены текста проходит через узлы.
         /// </summary>
         private class ReplaceLog : IReplacingCallback

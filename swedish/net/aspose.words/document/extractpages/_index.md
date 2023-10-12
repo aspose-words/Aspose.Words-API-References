@@ -3,7 +3,7 @@ title: Document.ExtractPages
 second_title: Aspose.Words för .NET API Referens
 description: Document metod. ReturnerarDocument objekt som representerar specificerat intervall av sidor.
 type: docs
-weight: 580
+weight: 620
 url: /sv/net/aspose.words/document/extractpages/
 ---
 ## Document.ExtractPages method
@@ -21,7 +21,7 @@ public Document ExtractPages(int index, int count)
 
 ### Anmärkningar
 
-Det resulterande dokumentet ska se ut som det i MS Word, som om vi hade utfört 'Skriv ut specifika sidor' – numreringen, sidhuvuden/sidfötter och korstabelllayouten kommer att bevaras. Men på grund av ett stort antal nyanser, visas samtidigt som antalet sidor minskas, är fullständig matchning av layouten en tyst och komplicerad uppgift som kräver mycket ansträngning. Beroende på dokumentets komplexitet kan det finnas små skillnader i den resulterande dokumentinnehållslayouten jämfört med källdokumentet. All feedback skulle vara mycket uppskattad.
+Det resulterande dokumentet ska se ut som det i MS Word, som om vi hade utfört 'Skriv ut specifika sidor' – numreringen, sidhuvuden/sidfötter och korstabelllayouten kommer att bevaras. Men på grund av ett stort antal nyanser, visas samtidigt som man minskar antalet sidor, är fullständig matchning av layouten en tyst och komplicerad uppgift som kräver mycket ansträngning. Beroende på dokumentets komplexitet kan det finnas små skillnader i den resulterande dokumentinnehållslayouten jämfört med källdokumentet. All feedback skulle vara mycket uppskattad.
 
 ### Exempel
 

@@ -3,7 +3,7 @@ title: PageInfo.SizeInPoints
 second_title: Aspose.Words för .NET API Referens
 description: PageInfo fast egendom. Får sidstorleken i poäng.
 type: docs
-weight: 50
+weight: 60
 url: /sv/net/aspose.words.rendering/pageinfo/sizeinpoints/
 ---
 ## PageInfo.SizeInPoints property

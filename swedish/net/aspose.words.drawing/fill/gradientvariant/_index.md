@@ -3,7 +3,7 @@ title: Fill.GradientVariant
 second_title: Aspose.Words för .NET API Referens
 description: Fill fast egendom. Hämtar gradientvariantenGradientVariant för fyllningen.
 type: docs
-weight: 70
+weight: 130
 url: /sv/net/aspose.words.drawing/fill/gradientvariant/
 ---
 ## Fill.GradientVariant property

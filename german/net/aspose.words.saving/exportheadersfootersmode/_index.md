@@ -1,14 +1,14 @@
 ---
 title: Enum ExportHeadersFootersMode
 second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Saving.ExportHeadersFootersMode opsomming. Gibt an wie Kopf und Fußzeilen in HTML MHTML oder EPUB exportiert werden.
+description: Aspose.Words.Saving.ExportHeadersFootersMode opsomming. Gibt an wie Kopf und Fußzeilen nach HTML MHTML oder EPUB exportiert werden.
 type: docs
-weight: 4740
+weight: 5000
 url: /de/net/aspose.words.saving/exportheadersfootersmode/
 ---
 ## ExportHeadersFootersMode enumeration
 
-Gibt an, wie Kopf- und Fußzeilen in HTML, MHTML oder EPUB exportiert werden.
+Gibt an, wie Kopf- und Fußzeilen nach HTML, MHTML oder EPUB exportiert werden.
 
 ```csharp
 public enum ExportHeadersFootersMode
@@ -25,24 +25,24 @@ public enum ExportHeadersFootersMode
 
 ### Beispiele
 
-Zeigt, wie Kopf-/Fußzeilen weggelassen werden, wenn ein Dokument in HTML gespeichert wird.
+Zeigt, wie Kopf-/Fußzeilen weggelassen werden, wenn ein Dokument im HTML-Format gespeichert wird.
 
 ```csharp
 Document doc = new Document(MyDir + "Header and footer types.docx");
 
-// Dieses Dokument enthält Kopf- und Fußzeilen. Wir können auf sie über die Sammlung "HeadersFooters" zugreifen.
+// Dieses Dokument enthält Kopf- und Fußzeilen. Auf sie können wir über die Sammlung „HeadersFooters“ zugreifen.
 Assert.AreEqual("First header", doc.FirstSection.HeadersFooters[HeaderFooterType.HeaderFirst].GetText().Trim());
 
-// Formate wie .html teilen das Dokument nicht in Seiten auf, daher funktionieren Kopf-/Fußzeilen nicht auf die gleiche Weise
-// würden sie, wenn wir das Dokument als .docx mit Microsoft Word öffnen.
-// Wenn wir ein Dokument mit Kopf-/Fußzeilen in HTML umwandeln, wird die Konvertierung die Kopf-/Fußzeilen in den Haupttext integrieren.
-// Wir können ein SaveOptions-Objekt verwenden, um Kopf-/Fußzeilen beim Konvertieren in HTML wegzulassen.
+// Formate wie .html teilen das Dokument nicht in Seiten auf, sodass Kopf- und Fußzeilen nicht auf die gleiche Weise funktionieren
+// Das würden sie tun, wenn wir das Dokument als .docx mit Microsoft Word öffnen.
+// Wenn wir ein Dokument mit Kopf-/Fußzeilen in HTML konvertieren, werden bei der Konvertierung die Kopf-/Fußzeilen in den Textkörper übernommen.
+// Wir können ein SaveOptions-Objekt verwenden, um beim Konvertieren in HTML Kopf-/Fußzeilen wegzulassen.
 HtmlSaveOptions saveOptions =
     new HtmlSaveOptions(SaveFormat.Html) { ExportHeadersFootersMode = ExportHeadersFootersMode.None };
 
 doc.Save(ArtifactsDir + "HeaderFooter.ExportMode.html", saveOptions);
 
-// Öffnen Sie unser gespeichertes Dokument und vergewissern Sie sich, dass es den Text der Kopfzeile nicht enthält
+// Öffnen Sie unser gespeichertes Dokument und stellen Sie sicher, dass es den Text der Kopfzeile nicht enthält
 doc = new Document(ArtifactsDir + "HeaderFooter.ExportMode.html");
 
 Assert.IsFalse(doc.Range.Text.Contains("First header"));

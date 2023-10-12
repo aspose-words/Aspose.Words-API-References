@@ -22,7 +22,7 @@ Muestra cómo especificar un para el número de caracteres que puede tener cada 
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Habilite el lanzamiento y luego utilícelo para establecer la cantidad de caracteres por línea en esta sección.
+// Habilite el paso y luego utilícelo para establecer el número de caracteres por línea en esta sección.
 builder.PageSetup.LayoutMode = SectionLayoutMode.Grid;
 builder.PageSetup.CharactersPerLine = 10;
 
@@ -43,7 +43,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Habilite el lanzamiento y luego utilícelo para establecer el número de líneas por página en esta sección.
-// Un tamaño de fuente lo suficientemente grande empujará algunas líneas hacia abajo en la página siguiente para evitar la superposición de caracteres.
+// Un tamaño de fuente lo suficientemente grande empujará algunas líneas hacia la página siguiente para evitar la superposición de caracteres.
 builder.PageSetup.LayoutMode = SectionLayoutMode.LineGrid;
 builder.PageSetup.LinesPerPage = 15;
 

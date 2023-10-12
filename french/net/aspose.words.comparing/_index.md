@@ -1,18 +1,18 @@
 ---
 title: Aspose.Words.Comparing
 second_title: Référence de l'API Aspose.Words pour .NET
-description: La Aspose.Words.Comparaison namespace fournit des classes et des énumérations qui permettent de spécifier des options supplémentaires lors de la comparaison de documents.
+description: Le Aspose.Words.Comparing lespace de noms fournit des classes et des énumérations qui permettent de spécifier des options supplémentaires lors de la comparaison de documents.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.comparing/
 ---
-La **Aspose.Words.Comparaison** namespace fournit des classes et des énumérations qui permettent de spécifier des options supplémentaires lors de la comparaison de documents.
+Le **Aspose.Words.Comparing** l'espace de noms fournit des classes et des énumérations qui permettent de spécifier des options supplémentaires lors de la comparaison de documents.
 
 ## Des classes
 
 | Classer | La description |
 | --- | --- |
-| [CompareOptions](./compareoptions/) | Permet de choisir des options avancées pour l'opération de comparaison de documents. |
+| [CompareOptions](./compareoptions/) | Permet de choisir les options avancées pour l'opération de comparaison de documents. |
 ## Énumération
 
 | Énumération | La description |

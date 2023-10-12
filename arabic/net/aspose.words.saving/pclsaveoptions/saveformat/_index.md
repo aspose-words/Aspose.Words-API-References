@@ -1,14 +1,14 @@
 ---
 title: PclSaveOptions.SaveFormat
 second_title: Aspose.Words لمراجع .NET API
-description: PclSaveOptions ملكية. يحدد التنسيق الذي سيتم حفظ المستند به إذا تم استخدام كائن خيارات الحفظ . يمكن فقط أن يكونPcl .
+description: PclSaveOptions ملكية. يحدد التنسيق الذي سيتم حفظ المستند به في حالة استخدام كائن خيارات الحفظ هذا. يمكن أن يكون فقطPcl .
 type: docs
 weight: 40
 url: /ar/net/aspose.words.saving/pclsaveoptions/saveformat/
 ---
 ## PclSaveOptions.SaveFormat property
 
-يحدد التنسيق الذي سيتم حفظ المستند به إذا تم استخدام كائن خيارات الحفظ . يمكن فقط أن يكونPcl .
+يحدد التنسيق الذي سيتم حفظ المستند به في حالة استخدام كائن خيارات الحفظ هذا. يمكن أن يكون فقطPcl .
 
 ```csharp
 public override SaveFormat SaveFormat { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: FontSourceBase.Priority
 second_title: Referencia de API de Aspose.Words para .NET
-description: FontSourceBase propiedad. Devuelve la prioridad de origen de la fuente.
+description: FontSourceBase propiedad. Devuelve la prioridad de fuente de fuente.
 type: docs
 weight: 10
 url: /es/net/aspose.words.fonts/fontsourcebase/priority/
 ---
 ## FontSourceBase.Priority property
 
-Devuelve la prioridad de origen de la fuente.
+Devuelve la prioridad de fuente de fuente.
 
 ```csharp
 public int Priority { get; }
@@ -16,7 +16,7 @@ public int Priority { get; }
 
 ### Observaciones
 
-Este valor se usa cuando hay fuentes con el mismo nombre de familia y estilo en diferentes fuentes de fuentes. En este caso, Aspose.Words selecciona la fuente de la fuente con el valor de mayor prioridad.
+Este valor se utiliza cuando hay fuentes con el mismo nombre de familia y estilo en diferentes fuentes. En este caso, Aspose.Words selecciona la fuente de la fuente con el valor de prioridad más alto.
 
 El valor predeterminado es 0.
 

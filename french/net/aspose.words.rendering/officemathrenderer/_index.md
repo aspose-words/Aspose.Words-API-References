@@ -1,14 +1,16 @@
 ---
 title: Class OfficeMathRenderer
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Rendering.OfficeMathRenderer classe. Fournit des méthodes pour rendre un individuOfficeMath à une image raster ou vectorielle ou à un objet Graphics.
+description: Aspose.Words.Rendering.OfficeMathRenderer classe. Fournit des méthodes pour restituer un individuOfficeMath vers une image raster ou vectorielle ou vers un objet graphique.
 type: docs
-weight: 4300
+weight: 4560
 url: /fr/net/aspose.words.rendering/officemathrenderer/
 ---
 ## OfficeMathRenderer class
 
-Fournit des méthodes pour rendre un individu[`OfficeMath`](../../aspose.words.math/officemath/) à une image raster ou vectorielle ou à un objet Graphics.
+Fournit des méthodes pour restituer un individu[`OfficeMath`](../../aspose.words.math/officemath/) vers une image raster ou vectorielle ou vers un objet graphique.
+
+Pour en savoir plus, visitez le[Travailler avec OfficeMath](https://docs.aspose.com/words/net/working-with-officemath/) article documentaire.
 
 ```csharp
 public class OfficeMathRenderer : NodeRendererBase
@@ -38,14 +40,14 @@ public class OfficeMathRenderer : NodeRendererBase
 | [GetOpaqueBoundsInPixels](../../aspose.words.rendering/noderendererbase/getopaqueboundsinpixels/)(float, float, float) | Calcule les limites opaques de la forme en pixels pour un facteur de zoom et une résolution spécifiés. |
 | [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels/)(float, float) | Calcule la taille de la forme en pixels pour un facteur de zoom et une résolution spécifiés. |
 | [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels/)(float, float, float) | Calcule la taille de la forme en pixels pour un facteur de zoom et une résolution spécifiés. |
-| [RenderToScale](../../aspose.words.rendering/noderendererbase/rendertoscale/)(Graphics, float, float, float) | Rend la forme en unGraphics objet à une échelle spécifiée. |
-| [RenderToSize](../../aspose.words.rendering/noderendererbase/rendertosize/)(Graphics, float, float, float, float) | Rend la forme en unGraphics objet à une taille spécifiée. |
-| [Save](../../aspose.words.rendering/noderendererbase/save/)(Stream, ImageSaveOptions) | Rend la forme dans une image et enregistre dans un flux. |
+| [RenderToScale](../../aspose.words.rendering/noderendererbase/rendertoscale/)(Graphics, float, float, float) | Rend la forme dans unGraphics objet à une échelle spécifiée. |
+| [RenderToSize](../../aspose.words.rendering/noderendererbase/rendertosize/)(Graphics, float, float, float, float) | Rend la forme dans unGraphics objet à une taille spécifiée. |
+| [Save](../../aspose.words.rendering/noderendererbase/save/)(Stream, ImageSaveOptions) | Rend la forme dans une image et l'enregistre dans un flux. |
 | [Save](../../aspose.words.rendering/noderendererbase/save/)(string, ImageSaveOptions) | Rend la forme dans une image et l'enregistre dans un fichier. |
 
 ### Exemples
 
-Montre comment mesurer et mettre à l'échelle des formes.
+Montre comment mesurer et mettre à l’échelle des formes.
 
 ```csharp
 Document doc = new Document(MyDir + "Office math.docx");
@@ -64,13 +66,13 @@ Assert.AreEqual(13.0f, renderer.BoundsInPoints.Height, 0.1f);
 Assert.AreEqual(119.0f, renderer.OpaqueBoundsInPoints.Width, 0.2f);
 Assert.AreEqual(14.2f, renderer.OpaqueBoundsInPoints.Height, 0.1f);
 
-// Obtient la taille de la forme en pixels, avec une mise à l'échelle linéaire à un DPI spécifique.
+// Obtenez la taille de la forme en pixels, avec une mise à l'échelle linéaire vers un DPI spécifique.
 Rectangle bounds = renderer.GetBoundsInPixels(1.0f, 96.0f);
 
 Assert.AreEqual(159, bounds.Width);
 Assert.AreEqual(18, bounds.Height);
 
-// Obtient la taille de la forme en pixels, mais avec un DPI différent pour les dimensions horizontales et verticales.
+// Récupère la taille de la forme en pixels, mais avec un DPI différent pour les dimensions horizontales et verticales.
 bounds = renderer.GetBoundsInPixels(1.0f, 96.0f, 150.0f);
 Assert.AreEqual(159, bounds.Width);
 Assert.AreEqual(28, bounds.Height);

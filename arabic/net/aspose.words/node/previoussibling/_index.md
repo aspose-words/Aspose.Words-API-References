@@ -16,11 +16,11 @@ public Node PreviousSibling { get; }
 
 ### ملاحظات
 
-في حالة عدم وجود عقدة سابقة ، يتم إرجاع قيمة فارغة .
+إذا لم تكن هناك عقدة سابقة، أ`باطل` تم إرجاعها.
 
 ### أمثلة
 
-يوضح كيفية استخدام طرق العقدة والعقدة المركبة لإزالة قسم قبل القسم الأخير في المستند.
+يوضح كيفية استخدام طريقتي Node وCompositeNode لإزالة قسم قبل القسم الأخير في المستند.
 
 ```csharp
 Document doc = new Document();
@@ -34,11 +34,11 @@ builder.Writeln("Section 2 text.");
 Section lastSection = (Section)doc.LastChild;
 Section firstSection = (Section)lastSection.PreviousSibling;
 
-// إزالة قسم بناءً على علاقته بأخيه مع قسم آخر.
+// إزالة قسم بناءً على علاقة الأخوة مع قسم آخر.
 if (lastSection.PreviousSibling != null)
     doc.RemoveChild(firstSection);
 
-// كان القسم الذي أزلناه هو الأول ، تاركًا المستند مع الثاني فقط.
+// القسم الذي أزلناه هو الأول، وتركنا الوثيقة مع الثاني فقط.
 Assert.AreEqual("Section 2 text.", doc.GetText().Trim());
 ```
 

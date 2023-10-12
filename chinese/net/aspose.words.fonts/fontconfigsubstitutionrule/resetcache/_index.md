@@ -1,14 +1,14 @@
 ---
 title: FontConfigSubstitutionRule.ResetCache
 second_title: Aspose.Words for .NET API 参考
-description: FontConfigSubstitutionRule 方法. 重置fontconfig调用结果的缓存
+description: FontConfigSubstitutionRule 方法. 重置 fontconfig 调用结果的缓存
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fonts/fontconfigsubstitutionrule/resetcache/
 ---
 ## FontConfigSubstitutionRule.ResetCache method
 
-重置fontconfig调用结果的缓存。
+重置 fontconfig 调用结果的缓存。
 
 ```csharp
 public void ResetCache()
@@ -37,7 +37,7 @@ if (isWindows)
 bool isLinuxOrMac =
     new[] {PlatformID.Unix, PlatformID.MacOSX}.Any(p => Environment.OSVersion.Platform == p);
 
-// 在 Linux/Mac 上，我们可以访问它，并且能够执行操作。
+// 在 Linux/Mac 上，我们将可以访问它，并且能够执行操作。
 if (isLinuxOrMac)
 {
     Assert.True(fontConfigSubstitution.Enabled);

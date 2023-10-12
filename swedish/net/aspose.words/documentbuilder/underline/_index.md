@@ -3,7 +3,7 @@ title: DocumentBuilder.Underline
 second_title: Aspose.Words för .NET API Referens
 description: DocumentBuilder fast egendom. Hämtar/ställer in understrykningstyp för det aktuella teckensnittet.
 type: docs
-weight: 170
+weight: 190
 url: /sv/net/aspose.words/documentbuilder/underline/
 ---
 ## DocumentBuilder.Underline property

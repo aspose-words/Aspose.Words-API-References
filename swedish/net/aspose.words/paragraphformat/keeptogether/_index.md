@@ -3,7 +3,7 @@ title: ParagraphFormat.KeepTogether
 second_title: Aspose.Words för .NET API Referens
 description: ParagraphFormat fast egendom. Sant om alla rader i stycket ska förbli på samma sida.
 type: docs
-weight: 150
+weight: 160
 url: /sv/net/aspose.words/paragraphformat/keeptogether/
 ---
 ## ParagraphFormat.KeepTogether property

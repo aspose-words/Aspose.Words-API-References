@@ -3,7 +3,7 @@ title: Enum CellVerticalAlignment
 second_title: Aspose.Words per .NET API Reference
 description: Aspose.Words.Tables.CellVerticalAlignment enum. Specifica la giustificazione verticale del testo allinterno di una cella di tabella.
 type: docs
-weight: 5980
+weight: 6280
 url: /it/net/aspose.words.tables/cellverticalalignment/
 ---
 ## CellVerticalAlignment enumeration
@@ -20,7 +20,7 @@ public enum CellVerticalAlignment
 | --- | --- | --- |
 | Top | `0` | Il testo è allineato nella parte superiore di una cella. |
 | Center | `1` | Il testo è allineato al centro di una cella. |
-| Bottom | `2` | Il testo è allineato nella parte inferiore della cella. |
+| Bottom | `2` | Il testo è allineato in fondo alla cella. |
 
 ### Esempi
 
@@ -38,8 +38,8 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndRow();
 
-// Durante la creazione della tabella, il generatore di documenti applicherà i suoi valori di proprietà RowFormat/CellFormat correnti
-// alla riga/cella corrente in cui si trova il cursore e a tutte le nuove righe/celle man mano che le crea.
+// Durante la creazione della tabella, il generatore di documenti applicherà i valori correnti della proprietà RowFormat/CellFormat
+// alla riga/cella corrente in cui si trova il cursore e a qualsiasi nuova riga/cella mentre le crea.
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[0].CellFormat.VerticalAlignment);
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[1].CellFormat.VerticalAlignment);
 
@@ -54,7 +54,7 @@ builder.Write("Row 2, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// Le righe e le celle aggiunte in precedenza non sono influenzate retroattivamente dalle modifiche alla formattazione del builder.
+// Le righe e le celle aggiunte in precedenza non vengono influenzate retroattivamente dalle modifiche alla formattazione del builder.
 Assert.AreEqual(0, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 Assert.AreEqual(100, table.Rows[1].RowFormat.Height);

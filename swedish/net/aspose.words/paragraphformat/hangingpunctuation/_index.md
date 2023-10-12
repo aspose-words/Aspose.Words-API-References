@@ -3,7 +3,7 @@ title: ParagraphFormat.HangingPunctuation
 second_title: Aspose.Words för .NET API Referens
 description: ParagraphFormat fast egendom. Hämtar eller ställer in en flagga som indikerar om hängande interpunktion är aktiverad för det aktuella stycket.
 type: docs
-weight: 120
+weight: 130
 url: /sv/net/aspose.words/paragraphformat/hangingpunctuation/
 ---
 ## ParagraphFormat.HangingPunctuation property

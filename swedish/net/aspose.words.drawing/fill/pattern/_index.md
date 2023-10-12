@@ -3,7 +3,7 @@ title: Fill.Pattern
 second_title: Aspose.Words för .NET API Referens
 description: Fill fast egendom. Får enPatternType för fyllningen.
 type: docs
-weight: 100
+weight: 160
 url: /sv/net/aspose.words.drawing/fill/pattern/
 ---
 ## Fill.Pattern property

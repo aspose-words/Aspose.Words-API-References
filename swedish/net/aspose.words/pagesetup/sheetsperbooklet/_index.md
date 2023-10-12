@@ -3,7 +3,7 @@ title: PageSetup.SheetsPerBooklet
 second_title: Aspose.Words för .NET API Referens
 description: PageSetup fast egendom. Returnerar eller ställer in antalet sidor som ska ingå i varje häfte.
 type: docs
-weight: 390
+weight: 400
 url: /sv/net/aspose.words/pagesetup/sheetsperbooklet/
 ---
 ## PageSetup.SheetsPerBooklet property

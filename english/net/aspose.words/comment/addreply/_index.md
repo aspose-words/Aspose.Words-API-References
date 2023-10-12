@@ -5,7 +5,7 @@ articleTitle: AddReply
 second_title: Aspose.Words for .NET
 description: Comment AddReply method. Adds a reply to this comment in C#.
 type: docs
-weight: 120
+weight: 150
 url: /net/aspose.words/comment/addreply/
 ---
 ## Comment.AddReply method

@@ -1,14 +1,14 @@
 ---
 title: EditableRange.Remove
 second_title: Aspose.Words per .NET API Reference
-description: EditableRange metodo. Rimuove lintervallo modificabile dal documento. Non rimuove i contenuti allinterno dellintervallo modificabile.
+description: EditableRange metodo. Rimuove lintervallo modificabile dal documento. Non rimuove il contenuto allinterno dellintervallo modificabile.
 type: docs
 weight: 60
 url: /it/net/aspose.words/editablerange/remove/
 ---
 ## EditableRange.Remove method
 
-Rimuove l'intervallo modificabile dal documento. Non rimuove i contenuti all'interno dell'intervallo modificabile.
+Rimuove l'intervallo modificabile dal documento. Non rimuove il contenuto all'interno dell'intervallo modificabile.
 
 ```csharp
 public void Remove()
@@ -38,14 +38,14 @@ EditableRange editableRange = editableRangeStart.EditableRange;
 Assert.AreEqual(editableRangeStart.Id, editableRange.Id);
 Assert.AreEqual(editableRangeEnd.Id, editableRange.Id);
 
-// Diverse parti dell'intervallo modificabile si collegano tra loro.
+// Parti diverse dell'intervallo modificabile si collegano tra loro.
 Assert.AreEqual(editableRangeStart.Id, editableRange.EditableRangeStart.Id);
 Assert.AreEqual(editableRangeStart.Id, editableRangeEnd.EditableRangeStart.Id);
 Assert.AreEqual(editableRange.Id, editableRangeStart.EditableRange.Id);
 Assert.AreEqual(editableRangeEnd.Id, editableRange.EditableRangeEnd.Id);
 
-// Possiamo accedere ai tipi di nodo di ciascuna parte in questo modo. L'intervallo modificabile stesso non è un nodo,
-// ma un'entità che consiste in un inizio, una fine e il loro contenuto racchiuso.
+// Possiamo accedere ai tipi di nodo di ciascuna parte in questo modo. L'intervallo modificabile in sé non è un nodo,
+// ma un'entità che consiste in un inizio, una fine e il contenuto racchiuso.
 Assert.AreEqual(NodeType.EditableRangeStart, editableRangeStart.NodeType);
 Assert.AreEqual(NodeType.EditableRangeEnd, editableRangeEnd.NodeType);
 

@@ -20,7 +20,7 @@ Microsoft Word 允许最多包含 20 个字符的字符串。
 
 ### 例子
 
-显示如何插入组合框。
+演示如何插入组合框。
 
 ```csharp
 Document doc = new Document();
@@ -35,7 +35,7 @@ Assert.AreEqual("MyComboBox", comboBox.Name);
 Assert.AreEqual(FieldType.FieldFormDropDown, comboBox.Type);
 Assert.AreEqual("Apple", comboBox.Result);
 
-// 表单域将以“select”html标签的形式出现。
+// 表单字段将以“select”html 标签的形式出现。
 doc.Save(ArtifactsDir + "FormFields.Create.html");
 ```
 

@@ -3,7 +3,7 @@ title: DocumentBuilder.MoveToField
 second_title: Aspose.Words for .NET API Referansı
 description: DocumentBuilder yöntem. İmleci belgedeki bir alana taşır.
 type: docs
-weight: 510
+weight: 540
 url: /tr/net/aspose.words/documentbuilder/movetofield/
 ---
 ## DocumentBuilder.MoveToField method
@@ -17,7 +17,7 @@ public void MoveToField(Field field, bool isAfter)
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | field | Field | İmlecin taşınacağı alan. |
-| isAfter | Boolean | Doğru olduğunda, imleci alan bitiminden sonra olacak şekilde hareket ettirir. Yanlış olduğunda, imleci alan başlangıcından önce olacak şekilde hareket ettirir. |
+| isAfter | Boolean | Ne zaman`doğru` , imleci alanın sonundan sonraya taşır. Ne zaman`YANLIŞ`, imleci alan başlangıcından önce olacak şekilde hareket ettirir. |
 
 ### Örnekler
 
@@ -27,19 +27,19 @@ Belge oluşturucunun düğüm ekleme noktası imlecinin belirli bir alana nasıl
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// DocumentBuilder'ı kullanarak bir alan ekleyin ve ondan sonra bir metin dizisi ekleyin.
+// DocumentBuilder'ı kullanarak bir alan ekleyin ve ardından bir metin dizisi ekleyin.
 Field field = builder.InsertField(" AUTHOR \"John Doe\" ");
 
-// Oluşturucunun imleci şu anda belgenin sonunda.
+// Oluşturucunun imleci şu anda belgenin sonundadır.
 Assert.Null(builder.CurrentNode);
 
-// İmleci alandan önce mi sonra mı yerleştireceğinizi belirtirken imleci alana taşıyın.
+// İmlecin alanın önüne mi yoksa arkasına mı yerleştirileceğini belirlerken imleci alana taşıyın.
 builder.MoveToField(field, moveCursorToAfterTheField);
 
 // Her iki durumda da imlecin alanın dışında olduğuna dikkat edin.
 // Bu, oluşturucuyu bu şekilde kullanarak alanı düzenleyemeyeceğimiz anlamına gelir.
 // Bir alanı düzenlemek için, alanın FieldStart'ında oluşturucunun MoveTo yöntemini kullanabiliriz
-// veya imleci içine yerleştirmek için FieldSeparator düğümü.
+// veya İmleci içeriye yerleştirmek için FieldSeparator düğümü.
 if (moveCursorToAfterTheField)
 {
     Assert.Null(builder.CurrentNode);

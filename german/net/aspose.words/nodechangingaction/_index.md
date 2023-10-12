@@ -3,7 +3,7 @@ title: Enum NodeChangingAction
 second_title: Aspose.Words für .NET-API-Referenz
 description: Aspose.Words.NodeChangingAction opsomming. Gibt die Art der Knotenänderung an.
 type: docs
-weight: 3940
+weight: 4180
 url: /de/net/aspose.words/nodechangingaction/
 ---
 ## NodeChangingAction enumeration
@@ -23,9 +23,10 @@ public enum NodeChangingAction
 
 ### Beispiele
 
-Zeigt, wie ein NodeChangingCallback verwendet wird, um Änderungen an der Dokumentstruktur in Echtzeit zu überwachen, während wir sie bearbeiten.
+Zeigt, wie ein NodeChangingCallback verwendet wird, um Änderungen am Dokumentbaum in Echtzeit zu überwachen, während wir ihn bearbeiten.
 
 ```csharp
+public void NodeChangingCallback()
 {
     Document doc = new Document();
     doc.NodeChangingCallback = new NodeChangingPrinter();
@@ -50,7 +51,7 @@ Zeigt, wie ein NodeChangingCallback verwendet wird, um Änderungen an der Dokume
 }
 
 /// <summary>
-/// Druckt jedes Einfügen/Entfernen von Knoten, während es im Dokument stattfindet.
+/// Druckt jedes Einfügen/Entfernen eines Knotens, während es im Dokument stattfindet.
 /// </summary>
 private class NodeChangingPrinter : INodeChangingCallback
 {

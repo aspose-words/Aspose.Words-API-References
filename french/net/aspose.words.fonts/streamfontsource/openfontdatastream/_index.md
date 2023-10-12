@@ -20,13 +20,14 @@ Flux de données de police.
 
 ### Remarques
 
-Le flux sera fermé après lecture. Il n'est pas nécessaire de le fermer explicitement.
+Le flux sera fermé après la lecture. Il n'est pas nécessaire de le fermer explicitement.
 
 ### Exemples
 
-Montre comment charger des polices à partir du flux.
+Montre comment charger les polices à partir du flux.
 
 ```csharp
+public void StreamFontSourceFileRendering()
 {
     FontSettings fontSettings = new FontSettings();
     fontSettings.SetFontsSources(new FontSourceBase[] {new StreamFontSourceFile()});
@@ -40,8 +41,8 @@ Montre comment charger des polices à partir du flux.
 }
 
 /// <summary>
-/// Charger les données de police uniquement lorsque cela est nécessaire au lieu de les stocker dans la mémoire
-/// pour toute la durée de vie de l'objet "FontSettings".
+/// Charge les données de police uniquement lorsque cela est nécessaire au lieu de les stocker dans la mémoire
+/// pendant toute la durée de vie de l'objet "FontSettings".
 /// </summary>
 private class StreamFontSourceFile : StreamFontSource
 {

@@ -1,14 +1,14 @@
 ---
 title: IFieldUserPromptRespondent.Respond
 second_title: Aspose.Words for .NET API Referansı
-description: IFieldUserPromptRespondent yöntem. Uygulandığında istendiğinde kullanıcıdan bir yanıt döndürür. Uygulamanız geri dönmelidir hükümsüz kullanıcının komut istemine yanıt vermediğini belirtmek için yani kullanıcı bilgi istemi penceresinde İptal düğmesine basmıştır.
+description: IFieldUserPromptRespondent yöntem. Uygulandığında istem üzerine kullanıcıdan bir yanıt döndürür. Uygulamanız geri dönmelidirhükümsüz kullanıcının istem ye yanıt vermediğini belirtmek için yani kullanıcı bilgi istemi penceresinde İptal düğmesine basmıştır.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/ifielduserpromptrespondent/respond/
 ---
 ## IFieldUserPromptRespondent.Respond method
 
-Uygulandığında, istendiğinde kullanıcıdan bir yanıt döndürür. Uygulamanız geri dönmelidir **hükümsüz** kullanıcının komut istemine yanıt vermediğini belirtmek için (yani, kullanıcı bilgi istemi penceresinde İptal düğmesine basmıştır).
+Uygulandığında, istem üzerine kullanıcıdan bir yanıt döndürür. Uygulamanız geri dönmelidir`hükümsüz` kullanıcının istem 'ye yanıt vermediğini belirtmek için (yani kullanıcı bilgi istemi penceresinde İptal düğmesine basmıştır).
 
 ```csharp
 public string Respond(string promptText, string defaultResponse)
@@ -17,31 +17,30 @@ public string Respond(string promptText, string defaultResponse)
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | promptText | String | Bilgi istemi metni (yani bilgi istemi penceresinin başlığı). |
-| defaultResponse | String | Varsayılan kullanıcı yanıtı (yani bilgi istemi penceresinde bulunan ilk değer). |
+| defaultResponse | String | Varsayılan kullanıcı yanıtı (yani bilgi istemi penceresinde yer alan başlangıç değeri). |
 
 ### Geri dönüş değeri
 
-Kullanıcı yanıtı (yani bilgi istemi penceresinde bulunan onaylanmış değer).
+Kullanıcı yanıtı (yani bilgi istemi penceresinde yer alan onaylanmış değer).
 
 ### Örnekler
 
 ASK alanının nasıl oluşturulacağını ve özelliklerinin nasıl ayarlanacağını gösterir.
 
 ```csharp
-[Test]
 public void FieldAsk()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // ASK alanımızın cevabının yerleştirileceği bir alan yerleştirin.
+    // ASK alanımıza verilecek yanıtın yerleştirileceği alanı yerleştirin.
     FieldRef fieldRef = (FieldRef)builder.InsertField(FieldType.FieldRef, true);
     fieldRef.BookmarkName = "MyAskField";
     builder.Writeln();
 
     Assert.AreEqual(" REF  MyAskField", fieldRef.GetFieldCode());
 
-    // ASK alanını ekleyin ve yer imi adına göre REF alanımıza başvurmak için özelliklerini düzenleyin.
+    // ASK alanını ekleyin ve REF alanımıza yer işareti adıyla referans verecek şekilde özelliklerini düzenleyin.
     FieldAsk fieldAsk = (FieldAsk)builder.InsertField(FieldType.FieldAsk, true);
     fieldAsk.BookmarkName = "MyAskField";
     fieldAsk.PromptText = "Please provide a response for this ASK field";
@@ -53,7 +52,7 @@ public void FieldAsk()
         " ASK  MyAskField \"Please provide a response for this ASK field\" \\d \"Response from within the field.\" \\o",
         fieldAsk.GetFieldCode());
 
-    // ASK alanları, adres mektup birleştirme sırasında ilgili REF alanlarına varsayılan yanıtı uygular.
+    // ASK alanları, adres-mektup birleştirme sırasında ilgili REF alanlarına varsayılan yanıtı uygular.
     DataTable table = new DataTable("My Table");
     table.Columns.Add("Column 1");
     table.Rows.Add("Row 1");
@@ -63,15 +62,16 @@ public void FieldAsk()
     fieldMergeField.FieldName = "Column 1";
 
     // Özel bir istem yanıtlayıcı ile ASK alanlarımızdaki varsayılan yanıtı değiştirebilir veya geçersiz kılabiliriz,
-    // adres mektup birleştirme sırasında gerçekleşecek.
+    // adres-mektup birleştirme sırasında gerçekleşecek.
     doc.FieldOptions.UserPromptRespondent = new MyPromptRespondent();
     doc.MailMerge.Execute(table);
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.ASK.docx");
+}
 
 /// <summary>
-/// Adres mektup birleştirme sırasında ASK alanının varsayılan yanıtının önüne metin ekler.
+/// Adres-mektup birleştirme sırasında ASK alanının varsayılan yanıtının başına metin ekler.
 /// </summary>
 private class MyPromptRespondent : IFieldUserPromptRespondent
 {

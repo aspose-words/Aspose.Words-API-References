@@ -1,14 +1,14 @@
 ---
 title: BorderCollection.Shadow
 second_title: Aspose.Words für .NET-API-Referenz
-description: BorderCollection eigendom. Ruft einen Wert ab oder legt einen Wert fest der angibt ob der Rahmen einen Schatten hat.
+description: BorderCollection eigendom. Ruft einen Wert ab oder legt diesen fest der angibt ob der Rahmen einen Schatten hat.
 type: docs
 weight: 110
 url: /de/net/aspose.words/bordercollection/shadow/
 ---
 ## BorderCollection.Shadow property
 
-Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob der Rahmen einen Schatten hat.
+Ruft einen Wert ab oder legt diesen fest, der angibt, ob der Rahmen einen Schatten hat.
 
 ```csharp
 public bool Shadow { get; set; }
@@ -18,11 +18,11 @@ public bool Shadow { get; set; }
 
 Ruft den Wert vom ersten Rahmen in der Auflistung ab.
 
-Legt den Wert für alle Ränder in der Sammlung außer diagonalen Rändern fest.
+Legt den Wert für alle Rahmen in der Sammlung fest, mit Ausnahme diagonaler Ränder.
 
 ### Beispiele
 
-Zeigt, wie Sie einen grünen wellenförmigen Seitenrand mit einem Schatten erstellen.
+Zeigt, wie man einen grünen, wellenförmigen Seitenrand mit einem Schatten erstellt.
 
 ```csharp
 Document doc = new Document();

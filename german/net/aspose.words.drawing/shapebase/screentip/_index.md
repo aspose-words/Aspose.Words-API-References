@@ -1,14 +1,14 @@
 ---
 title: ShapeBase.ScreenTip
 second_title: Aspose.Words für .NET-API-Referenz
-description: ShapeBase eigendom. Definiert den Text der angezeigt wird wenn der Mauszeiger über die Form bewegt wird.
+description: ShapeBase eigendom. Definiert den Text der angezeigt wird wenn der Mauszeiger über die Form bewegt.
 type: docs
-weight: 440
+weight: 480
 url: /de/net/aspose.words.drawing/shapebase/screentip/
 ---
 ## ShapeBase.ScreenTip property
 
-Definiert den Text, der angezeigt wird, wenn der Mauszeiger über die Form bewegt wird.
+Definiert den Text, der angezeigt wird, wenn der Mauszeiger über die Form bewegt.
 
 ```csharp
 public string ScreenTip { get; set; }
@@ -20,7 +20,7 @@ Der Standardwert ist eine leere Zeichenfolge.
 
 ### Beispiele
 
-Zeigt, wie eine Form eingefügt wird, die ein Bild enthält und auch ein Hyperlink ist.
+Zeigt, wie eine Form eingefügt wird, die ein Bild enthält und gleichzeitig einen Hyperlink darstellt.
 
 ```csharp
 Document doc = new Document();
@@ -32,7 +32,7 @@ shape.Target = "New Window";
 shape.ScreenTip = "Aspose.Words Support Forums";
 
 // Strg + Linksklick auf die Form in Microsoft Word öffnet ein neues Webbrowser-Fenster
-// und führen Sie uns zum Hyperlink in der Eigenschaft "HRef".
+// und führen Sie uns zum Hyperlink in der Eigenschaft „HRef“.
 doc.Save(ArtifactsDir + "Image.InsertImageWithHyperlink.docx");
 ```
 

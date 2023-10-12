@@ -1,14 +1,14 @@
 ---
 title: FieldToc.EntrySeparator
 second_title: Aspose.Words for .NET API Referansı
-description: FieldToc mülk. Bir girdi ile sayfa numarasını ayıran bir karakter dizisini alır veya ayarlar.
+description: FieldToc mülk. Bir girişi ve onun sayfa numarasını ayıran bir karakter dizisini alır veya ayarlar.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.fields/fieldtoc/entryseparator/
 ---
 ## FieldToc.EntrySeparator property
 
-Bir girdi ile sayfa numarasını ayıran bir karakter dizisini alır veya ayarlar.
+Bir girişi ve onun sayfa numarasını ayıran bir karakter dizisini alır veya ayarlar.
 
 ```csharp
 public string EntrySeparator { get; set; }
@@ -16,36 +16,37 @@ public string EntrySeparator { get; set; }
 
 ### Örnekler
 
-İçindekiler'in nasıl ekleneceğini ve başlık stillerine göre girişlerle nasıl doldurulacağını gösterir.
+İçindekiler tablosunun nasıl ekleneceğini ve başlık stillerine göre girdilerle nasıl doldurulacağını gösterir.
 
 ```csharp
+public void FieldToc()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     builder.StartBookmark("MyBookmark");
 
-    // Tüm başlıkları bir içindekiler tablosunda derleyecek bir TOC alanı ekleyin.
-    // Her başlık için bu alan, soldaki o başlık stilindeki metinle birlikte bir satır oluşturacaktır,
+    // Tüm başlıkları içindekiler tablosunda derleyecek bir TOC alanı ekleyin.
+    // Her başlık için bu alan, solda o başlık stilindeki metnin yer aldığı bir satır oluşturacaktır,
     // ve başlığın sağda göründüğü sayfa.
     FieldToc field = (FieldToc)builder.InsertField(FieldType.FieldTOC, true);
 
     // Yalnızca başlıkları listelemek için BookmarkName özelliğini kullanın
-    // "MyBookmark" adıyla bir yer iminin sınırları içinde görünen.
+    // "MyBookmark" adındaki bir yer iminin sınırları içinde görünenler.
     field.BookmarkName = "MyBookmark";
 
-    // "Başlık 1" gibi yerleşik bir başlık stiline sahip metinler, başlık olarak sayılır.
-    // Bu özellikte TOC tarafından başlık olarak alınacak ek stilleri ve TOC seviyelerini adlandırabiliriz.
+    // "Başlık 1" gibi yerleşik başlık stilinin uygulandığı metin başlık olarak sayılacaktır.
+    // TOC tarafından başlık olarak alınacak ek stilleri ve TOC seviyelerini bu özellikte adlandırabiliriz.
     field.CustomStyles = "Quote; 6; Intense Quote; 7";
 
-    // Varsayılan olarak, Styles/TOC seviyeleri CustomStyles özelliğinde virgülle ayrılır,
+    // Varsayılan olarak, Stiller/TOC düzeyleri CustomStyles özelliğinde virgülle ayrılır,
     // ancak bu özellikte özel bir sınırlayıcı ayarlayabiliriz.
     doc.FieldOptions.CustomTocStyleSeparator = ";";
 
-    // Bu aralığın dışında TOC düzeylerine sahip tüm başlıkları hariç tutmak için alanı yapılandırın.
+    // TOC düzeyleri bu aralığın dışında olan başlıkları hariç tutacak şekilde alanı yapılandırın.
     field.HeadingLevelRange = "1-3";
 
-    // İçindekiler, TOC seviyeleri bu aralıkta olan başlıkların sayfa numaralarını göstermeyecektir.
+    // TOC, TOC düzeyleri bu aralıkta olan başlıkların sayfa numaralarını görüntülemeyecektir.
     field.PageNumberOmittingLevelRange = "2-5";
 
      // Her başlığı sayfa numarasından ayıracak özel bir dize ayarlayın.
@@ -62,17 +63,17 @@ public string EntrySeparator { get; set; }
     InsertNewPageWithHeading(builder, "Third entry", "Quote");
     InsertNewPageWithHeading(builder, "Fourth entry", "Intense Quote");
 
-    // Bu iki başlık, "2-5" aralığında oldukları için sayfa numaralarına sahip olmayacaktır.
+    // Bu iki başlık "2-5" aralığında olduğundan sayfa numaraları çıkarılacaktır.
     InsertNewPageWithHeading(builder, "Fifth entry", "Heading 2");
     InsertNewPageWithHeading(builder, "Sixth entry", "Heading 3");
 
-    // "Başlık 4", daha önce belirlediğimiz "1-3" aralığının dışında olduğu için bu giriş görünmüyor.
+    // "Başlık 4" daha önce belirlediğimiz "1-3" aralığının dışında olduğundan bu giriş görünmüyor.
     InsertNewPageWithHeading(builder, "Seventh entry", "Heading 4");
 
     builder.EndBookmark("MyBookmark");
     builder.Writeln("Paragraph text.");
 
-    // Bu girdi, İçindekiler tarafından belirtilen yer iminin dışında olduğu için görünmüyor.
+    // Bu giriş TOC tarafından belirtilen yer iminin dışında olduğundan görünmüyor.
     InsertNewPageWithHeading(builder, "Eighth entry", "Heading 1");
 
     Assert.AreEqual(" TOC  \\b MyBookmark \\t \"Quote; 6; Intense Quote; 7\" \\o 1-3 \\n 2-5 \\p - \\h \\x \\w", field.GetFieldCode());
@@ -80,6 +81,7 @@ public string EntrySeparator { get; set; }
     field.UpdatePageNumbers();
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.TOC.docx");
+}
 
 /// <summary>
 /// Yeni bir sayfa başlatın ve belirtilen stilde bir paragraf ekleyin.

@@ -1,14 +1,14 @@
 ---
 title: Paragraph.IsInsertRevision
 second_title: Aspose.Words per .NET API Reference
-description: Paragraph proprietà. Restituisce true se questo oggetto è stato inserito in Microsoft Word mentre era abilitato il rilevamento delle modifiche.
+description: Paragraph proprietà. Restituisce vero se questo oggetto è stato inserito in Microsoft Word mentre il rilevamento delle modifiche era abilitato.
 type: docs
 weight: 110
 url: /it/net/aspose.words/paragraph/isinsertrevision/
 ---
 ## Paragraph.IsInsertRevision property
 
-Restituisce true se questo oggetto è stato inserito in Microsoft Word mentre era abilitato il rilevamento delle modifiche.
+Restituisce vero se questo oggetto è stato inserito in Microsoft Word mentre il rilevamento delle modifiche era abilitato.
 
 ```csharp
 public bool IsInsertRevision { get; }
@@ -43,9 +43,9 @@ Assert.AreEqual(4, paragraphs.Count);
 para = paragraphs[2];
 para.Remove();
 
-// Tali paragrafi rimarranno fino a quando non accettiamo o rifiutiamo la revisione dell'eliminazione.
-// L'accettazione della revisione rimuoverà definitivamente il paragrafo,
-// e rifiutando la revisione la lascerà nel documento come se non l'avessimo mai cancellata.
+// Tali paragrafi rimarranno finché non accetteremo o rifiuteremo la revisione di eliminazione.
+// Accettare la revisione rimuoverà definitivamente il paragrafo,
+// e rifiutando la revisione la lasceremo nel documento come se non l'avessimo mai cancellata.
 Assert.AreEqual(4, paragraphs.Count);
 Assert.True(para.IsDeleteRevision);
 

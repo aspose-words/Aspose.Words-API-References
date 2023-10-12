@@ -3,7 +3,7 @@ title: DocumentBuilder.StartBookmark
 second_title: Aspose.Words för .NET API Referens
 description: DocumentBuilder metod. Markerar den aktuella positionen i dokumentet som en bokmärkesstart.
 type: docs
-weight: 580
+weight: 620
 url: /sv/net/aspose.words/documentbuilder/startbookmark/
 ---
 ## DocumentBuilder.StartBookmark method
@@ -24,7 +24,7 @@ Bokmärkets startnod som just skapades.
 
 ### Anmärkningar
 
-Bokmärken i ett dokument kan överlappa och sträcka sig över alla områden. För att skapa ett giltigt bokmärke måste du anropa båda`StartBookmark` och[`EndBookmark`](../endbookmark/) med samma **bokmärkeNamn** parameter.
+Bokmärken i ett dokument kan överlappa och sträcka sig över alla områden. För att skapa ett giltigt bokmärke måste du anropa båda`StartBookmark` och[`EndBookmark`](../endbookmark/) med samma*bookmarkName* parameter.
 
 Dåligt utformade bokmärken eller bokmärken med dubbletter av namn kommer att ignoreras när dokumentet sparas.
 

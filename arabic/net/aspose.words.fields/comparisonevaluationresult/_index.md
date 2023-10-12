@@ -1,14 +1,16 @@
 ---
 title: Class ComparisonEvaluationResult
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fields.ComparisonEvaluationResult فصل. نتيجة تقييم المقارنة .
+description: Aspose.Words.Fields.ComparisonEvaluationResult فصل. نتيجة تقييم المقارنة.
 type: docs
-weight: 1330
+weight: 1480
 url: /ar/net/aspose.words.fields/comparisonevaluationresult/
 ---
 ## ComparisonEvaluationResult class
 
-نتيجة تقييم المقارنة .
+نتيجة تقييم المقارنة.
+
+لمعرفة المزيد، قم بزيارة[العمل مع الحقول](https://docs.aspose.com/words/net/working-with-fields/) مقالة توثيقية.
 
 ```csharp
 public sealed class ComparisonEvaluationResult
@@ -18,19 +20,19 @@ public sealed class ComparisonEvaluationResult
 
 | اسم | وصف |
 | --- | --- |
-| [ComparisonEvaluationResult](comparisonevaluationresult/#constructor)(bool) | إنشاء نتيجة تقييم مقارنة . |
+| [ComparisonEvaluationResult](comparisonevaluationresult/#constructor)(bool) | إنشاء نتيجة تقييم المقارنة. |
 | [ComparisonEvaluationResult](comparisonevaluationresult/#constructor_1)(string) | إنشاء نتيجة تقييم مقارنة فاشلة مع رسالة الخطأ المقابلة. |
 
 ## الخصائص
 
 | اسم | وصف |
 | --- | --- |
-| [ErrorMessage](../../aspose.words.fields/comparisonevaluationresult/errormessage/) { get; } | الحصول على رسالة الخطأ الخاصة بنتيجة تقييم المقارنة الفاشلة . |
-| [Result](../../aspose.words.fields/comparisonevaluationresult/result/) { get; } | الحصول على نتيجة تقييم المقارنة . |
+| [ErrorMessage](../../aspose.words.fields/comparisonevaluationresult/errormessage/) { get; } | الحصول على رسالة خطأ نتيجة تقييم المقارنة الفاشلة. |
+| [Result](../../aspose.words.fields/comparisonevaluationresult/result/) { get; } | الحصول على نتيجة تقييم المقارنة. |
 
 ### أمثلة
 
-يوضح كيفية تنفيذ التقييم المخصص لحقلي IF و COMPARE.
+يوضح كيفية تنفيذ التقييم المخصص لحقول IF وCOMPARE.
 
 ```csharp
 public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparisonResult, string comparisonError,
@@ -42,12 +44,12 @@ public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparison
 
     DocumentBuilder builder = new DocumentBuilder();
 
-    // أكواد الحقول التي نستخدمها في هذا المثال:
-    // 1. "إذا {0} {1} {2} \" وسيطة صحيحة \ "\" وسيطة خاطئة \ "".
-    // 2. "قارن {0} {1} {2}".
+    // رموز الحقول التي نستخدمها في هذا المثال:
+    // 1. " IF {0} {1} {2} \"الوسيطة الحقيقية\" \"الوسيطة الخاطئة\" ".
+    // 2. " قارن {0} {1} {2}".
     Field field = builder.InsertField(string.Format(fieldCode, left, @operator, right), null);
 
-    // إذا كانت "ComparisonEvaluationResult" غير محددة ، فإننا ننشئ "ComparisonEvaluationResult" بسلسلة بدلاً من منطقي.
+    // إذا كانت "comparisonResult" غير محددة، فإننا ننشئ "ComparisonEvaluationResult" بسلسلة بدلاً من bool.
     ComparisonEvaluationResult result = comparisonResult != -1
         ? new ComparisonEvaluationResult(comparisonResult == 1)
         : comparisonError != null ? new ComparisonEvaluationResult(comparisonError) : null;

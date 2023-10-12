@@ -18,13 +18,13 @@ public FieldDatabaseDataTable GetQueryResult(string fileName, string connection,
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | fileName | String | Der vollständige Pfad und Dateiname der im Feldschalter \d angegebenen Datenbank. |
-| connection | String | Die Verbindung zu den im Feld \c angegebenen Daten wechseln. |
-| query | String | Der Satz von SQL-Anweisungen, die die Datenbank abfragen, die im Feldschalter \s angegeben ist. |
+| connection | String | Die Verbindung zu den im Feldschalter \c angegebenen Daten. |
+| query | String | Der Satz von SQL-Anweisungen, die die im Feldschalter \s angegebene Datenbank abfragen. |
 | field | FieldDatabase | Das Feld, das aktualisiert wird. |
 
 ### Rückgabewert
 
-Das[`FieldDatabaseDataTable`](../../fielddatabasedatatable/) Instanz, die für die Aktualisierung des Felds verwendet werden soll.
+Der[`FieldDatabaseDataTable`](../../fielddatabasedatatable/) Instanz, die für die Aktualisierung des Feldes verwendet werden soll.
 
 ### Siehe auch
 

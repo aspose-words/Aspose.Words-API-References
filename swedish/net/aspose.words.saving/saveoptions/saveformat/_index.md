@@ -3,7 +3,7 @@ title: SaveOptions.SaveFormat
 second_title: Aspose.Words för .NET API Referens
 description: SaveOptions fast egendom. Anger formatet som dokumentet kommer att sparas i om detta sparaalternativobjekt används.
 type: docs
-weight: 140
+weight: 130
 url: /sv/net/aspose.words.saving/saveoptions/saveformat/
 ---
 ## SaveOptions.SaveFormat property

@@ -3,7 +3,7 @@ title: Enum TextureIndex
 second_title: Aspose.Words for .NET API 参考
 description: Aspose.Words.TextureIndex 枚举. 指定着色纹理
 type: docs
-weight: 6150
+weight: 6450
 url: /zh/net/aspose.words/textureindex/
 ---
 ## TextureIndex enumeration
@@ -71,7 +71,7 @@ public enum TextureIndex
 | TextureNone | `0` |  |
 | TextureSolid | `1` |  |
 | TextureVertical | `21` |  |
-| TextureNil | `65535` | 指定当前阴影区域 上不应使用任何图案（即图案应为背景颜色的完整填充）。 |
+| TextureNil | `65535` | 指定当前阴影区域 上不应使用任何图案（即图案应完全填充背景颜色）。 |
 
 ### 例子
 
@@ -97,7 +97,7 @@ builder.Write("This paragraph is formatted with a double border and shading.");
 doc.Save(ArtifactsDir + "DocumentBuilder.ApplyBordersAndShading.docx");
 ```
 
-显示如何将轮廓边框应用于表格。
+演示如何将轮廓边框应用到表格。
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -110,7 +110,7 @@ table.Alignment = TableAlignment.Center;
 table.ClearBorders();
 table.ClearShading();
 
-// 为表格的轮廓添加绿色边框。
+// 将绿色边框添加到表格的轮廓。
 table.SetBorder(BorderType.Left, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Right, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Top, LineStyle.Single, 1.5, Color.Green, true);

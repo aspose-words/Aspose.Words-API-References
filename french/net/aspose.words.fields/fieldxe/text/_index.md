@@ -16,28 +16,28 @@ public string Text { get; set; }
 
 ### Exemples
 
-Montre comment créer un champ INDEX, puis utiliser des champs XE pour le remplir avec des entrées.
+Montre comment créer un champ INDEX, puis utiliser les champs XE pour le remplir avec des entrées.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Crée un champ INDEX qui affichera une entrée pour chaque champ XE trouvé dans le document.
+// Créez un champ INDEX qui affichera une entrée pour chaque champ XE trouvé dans le document.
 // Chaque entrée affichera la valeur de la propriété Text du champ XE sur le côté gauche
 // et la page contenant le champ XE à droite.
 // Si les champs XE ont la même valeur dans leur propriété "Texte",
 // le champ INDEX les regroupera en une seule entrée.
 FieldIndex index = (FieldIndex)builder.InsertField(FieldType.FieldIndex, true);
 
-// Configurez le champ INDEX uniquement pour afficher les champs XE qui sont dans les limites
-// d'un signet nommé "MainBookmark", et dont les propriétés "EntryType" ont la valeur "A".
+// Configurez le champ INDEX uniquement pour afficher les champs XE qui se trouvent dans les limites
+// d'un marque-page nommé "MainBookmark", et dont les propriétés "EntryType" ont la valeur "A".
 // Pour les champs INDEX et XE, la propriété "EntryType" utilise uniquement le premier caractère de sa valeur de chaîne.
 index.BookmarkName = "MainBookmark";
 index.EntryType = "A";
 
 Assert.AreEqual(" INDEX  \\b MainBookmark \\f A", index.GetFieldCode());
 
-// Sur une nouvelle page, démarrez le signet avec un nom qui correspond à la valeur
+// Sur une nouvelle page, démarre le signet avec un nom qui correspond à la valeur
 // de la propriété "BookmarkName" du champ INDEX.
 builder.InsertBreak(BreakType.PageBreak);
 builder.StartBookmark("MainBookmark");
@@ -58,24 +58,25 @@ indexEntry.EntryType = "B";
 
 // Termine le signet et insère ensuite un champ XE.
 // Il est du même type que le champ INDEX, mais n'apparaîtra pas
-// car il est en dehors des limites du signet.
+// puisqu'il est en dehors des limites du signet.
 builder.EndBookmark("MainBookmark");
 builder.InsertBreak(BreakType.PageBreak);
 indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "Index entry 3";
 indexEntry.EntryType = "A";
 
+doc.UpdatePageLayout();
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "Field.INDEX.XE.Filtering.docx");
 ```
 
-Montre comment remplir un champ INDEX avec des entrées à l'aide de champs XE, et également modifier son apparence.
+Montre comment remplir un champ INDEX avec des entrées à l'aide de champs XE et également modifier son apparence.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Crée un champ INDEX qui affichera une entrée pour chaque champ XE trouvé dans le document.
+// Créez un champ INDEX qui affichera une entrée pour chaque champ XE trouvé dans le document.
 // Chaque entrée affichera la valeur de la propriété Text du champ XE sur le côté gauche,
 // et le numéro de la page qui contient le champ XE à droite.
 // Si les champs XE ont la même valeur dans leur propriété "Texte",
@@ -90,7 +91,7 @@ index.Heading = "A";
 // Définit la table créée par le champ INDEX pour qu'elle s'étende sur 2 colonnes.
 index.NumberOfColumns = "2";
 
-// Définir toutes les entrées avec des lettres de départ en dehors de la plage de caractères "ac" à omettre.
+// Définit toutes les entrées avec des lettres de début en dehors de la plage de caractères "ac" à omettre.
 index.LetterRange = "a-c";
 
 Assert.AreEqual(" INDEX  \\z 1033 \\h A \\c 2 \\p a-c", index.GetFieldCode());
@@ -111,7 +112,7 @@ indexEntry.IsBold = true;
 
 Assert.AreEqual(" XE  Apricot \\b", indexEntry.GetFieldCode());
 
-// Les deux champs XE suivants seront sous un en-tête "B" et "C" dans la table des matières des champs INDEX.
+// Les deux champs XE suivants seront sous les en-têtes "B" et "C" dans la table des matières des champs INDEX.
 builder.InsertBreak(BreakType.PageBreak);
 indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "Banana";
@@ -126,11 +127,12 @@ indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "Avocado";
 
 // Cette entrée n'apparaîtra pas car elle commence par la lettre "D",
-// qui est en dehors de la plage de caractères "ac" définie par la propriété LetterRange du champ INDEX.
+// qui se trouve en dehors de la plage de caractères "ac" définie par la propriété LetterRange du champ INDEX.
 builder.InsertBreak(BreakType.PageBreak);
 indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "Durian";
 
+doc.UpdatePageLayout();
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "Field.INDEX.XE.Formatting.docx");
 ```

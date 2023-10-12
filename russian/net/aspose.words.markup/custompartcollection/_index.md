@@ -1,14 +1,16 @@
 ---
 title: Class CustomPartCollection
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Markup.CustomPartCollection сорт. Представляет наборCustomPart объекты.
+description: Aspose.Words.Markup.CustomPartCollection сорт. Представляет коллекциюCustomPart объекты.
 type: docs
-weight: 3670
+weight: 3910
 url: /ru/net/aspose.words.markup/custompartcollection/
 ---
 ## CustomPartCollection class
 
-Представляет набор[`CustomPart`](../custompart/) объекты.
+Представляет коллекцию[`CustomPart`](../custompart/) объекты.
+
+Чтобы узнать больше, посетите[Структурированные теги документа или контроль содержимого](https://docs.aspose.com/words/net/working-with-content-control-sdt/) статья документации.
 
 ```csharp
 public class CustomPartCollection : IEnumerable<CustomPart>
@@ -33,17 +35,17 @@ public class CustomPartCollection : IEnumerable<CustomPart>
 | --- | --- |
 | [Add](../../aspose.words.markup/custompartcollection/add/)(CustomPart) | Добавляет элемент в коллекцию. |
 | [Clear](../../aspose.words.markup/custompartcollection/clear/)() | Удаляет все элементы из коллекции. |
-| [Clone](../../aspose.words.markup/custompartcollection/clone/)() | Создает полную копию этой коллекции и ее элементов. |
-| [GetEnumerator](../../aspose.words.markup/custompartcollection/getenumerator/)() | Возвращает объект перечислителя, который можно использовать для перебора всех элементов в коллекции. |
+| [Clone](../../aspose.words.markup/custompartcollection/clone/)() | Создает глубокую копию этой коллекции и ее элементов. |
+| [GetEnumerator](../../aspose.words.markup/custompartcollection/getenumerator/)() | Возвращает объект перечислителя, который можно использовать для перебора всех элементов коллекции. |
 | [RemoveAt](../../aspose.words.markup/custompartcollection/removeat/)(int) | Удаляет элемент по указанному индексу. |
 
 ### Примечания
 
-Обычно вам не нужно создавать экземпляры этого класса. Вы получаете доступ к пользовательским частям , связанным с пакетом OOXML, через[`PackageCustomParts`](../../aspose.words/document/packagecustomparts/) имущество.
+Обычно вам не нужно создавать экземпляры этого класса. Вы получаете доступ к пользовательским частям , связанным с пакетом OOXML, через[`PackageCustomParts`](../../aspose.words/document/packagecustomparts/) свойство.
 
 ### Примеры
 
-Показывает, как получить доступ к коллекции произвольных пользовательских частей документа.
+Показывает, как получить доступ к произвольной коллекции пользовательских частей документа.
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
@@ -55,7 +57,7 @@ CustomPart clonedPart = doc.PackageCustomParts[1].Clone();
 doc.PackageCustomParts.Add(clonedPart);
 Assert.AreEqual(3, doc.PackageCustomParts.Count);
 
-// Перечисляем коллекцию и печатаем каждую часть.
+// Перебираем коллекцию и печатаем каждую часть.
 using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator())
 {
     int index = 0;
@@ -72,7 +74,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// Мы можем удалить элементы из этой коллекции по отдельности или все сразу.
+// Мы можем удалять элементы из этой коллекции по отдельности или все сразу.
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);

@@ -1,14 +1,14 @@
 ---
 title: HtmlFixedSaveOptions.ResourcesFolderAlias
 second_title: Aspose.Words لمراجع .NET API
-description: HtmlFixedSaveOptions ملكية. يحدد اسم المجلد المستخدم في إنشاء عناوين URI للصورة مكتوبة في مستند Html . الافتراضي هولا شيء .
+description: HtmlFixedSaveOptions ملكية. يحدد اسم المجلد المستخدم لإنشاء معرفات URI للصور المكتوبة في مستند Html. الافتراضي هوباطل .
 type: docs
 weight: 150
 url: /ar/net/aspose.words.saving/htmlfixedsaveoptions/resourcesfolderalias/
 ---
 ## HtmlFixedSaveOptions.ResourcesFolderAlias property
 
-يحدد اسم المجلد المستخدم في إنشاء عناوين URI للصورة مكتوبة في مستند Html . الافتراضي هو`لا شيء` .
+يحدد اسم المجلد المستخدم لإنشاء معرفات URI للصور المكتوبة في مستند Html. الافتراضي هو`باطل` .
 
 ```csharp
 public string ResourcesFolderAlias { get; set; }
@@ -16,11 +16,11 @@ public string ResourcesFolderAlias { get; set; }
 
 ### ملاحظات
 
-عندما تقوم بحفظ ملف[`Document`](../../../aspose.words/document/) بتنسيق Html ، يحتاج Aspose.Words إلى حفظ all الصور المضمنة في المستند كملفات مستقلة.[`ResourcesFolder`](../resourcesfolder/) يسمح لك بتحديد مكان حفظ الصور و`ResourcesFolderAlias` يسمح بتحديد كيفية إنشاء عناوين URI للصورة.
+عندما تقوم بحفظ أ[`Document`](../../../aspose.words/document/) بتنسيق Html، يحتاج Aspose.Words إلى حفظ جميع الصور المضمنة في المستند كملفات مستقلة.[`ResourcesFolder`](../resourcesfolder/) يسمح لك بتحديد مكان حفظ الصور و`ResourcesFolderAlias` يسمح بتحديد كيفية إنشاء معرفات URI للصورة.
 
 ### أمثلة
 
-يوضح كيفية استخدام رد اتصال لطباعة URIs للموارد الخارجية التي تم إنشاؤها أثناء تحويل مستند إلى HTML.
+يوضح كيفية استخدام رد اتصال لطباعة معرفات URI للموارد الخارجية التي تم إنشاؤها أثناء تحويل مستند إلى HTML.
 
 ```csharp
 public void HtmlFixedResourceFolder()
@@ -40,7 +40,7 @@ public void HtmlFixedResourceFolder()
     };
 
     // سيحتوي المجلد المحدد بواسطة ResourcesFolderAlias على الموارد بدلاً من ResourcesFolder.
-    // يجب أن نتأكد من وجود المجلد قبل أن تضع التدفقات مواردها فيه.
+    // يجب أن نتأكد من وجود المجلد قبل أن تتمكن التدفقات من وضع مواردها فيه.
     Directory.CreateDirectory(options.ResourcesFolderAlias);
 
     doc.Save(ArtifactsDir + "HtmlFixedSaveOptions.HtmlFixedResourceFolder.html", options);
@@ -54,13 +54,13 @@ public void HtmlFixedResourceFolder()
 }
 
 /// <summary>
-/// يحسب ويطبع URIs للموارد المتضمنة بواسطة حيث يتم تحويلها إلى HTML ثابت.
+/// يحسب ويطبع عناوين URI للموارد التي تحتوي عليها عند تحويلها إلى HTML ثابت.
 /// </summary>
 private class ResourceUriPrinter : IResourceSavingCallback
 {
     void IResourceSavingCallback.ResourceSaving(ResourceSavingArgs args)
     {
-        // إذا قمنا بتعيين اسم مستعار للمجلد في كائن SaveOptions ، فسنكون قادرين على طباعته من هنا.
+        // إذا قمنا بتعيين اسم مستعار للمجلد في كائن SaveOptions، فسنكون قادرين على طباعته من هنا.
         mText.AppendLine($"Resource #{++mSavedResourceCount} \"{args.ResourceFileName}\"");
 
         string extension = Path.GetExtension(args.ResourceFileName);
@@ -69,8 +69,8 @@ private class ResourceUriPrinter : IResourceSavingCallback
             case ".ttf":
             case ".woff":
             {
-                // افتراضيًا ، يستخدم "ResourceFileUri" مجلد النظام للخطوط.
-                // لتجنب المشاكل في الأنظمة الأساسية الأخرى ، يجب عليك تحديد مسار الخطوط بشكل صريح.
+                // بشكل افتراضي، يستخدم 'ResourceFileUri' مجلد النظام للخطوط.
+                // لتجنب المشاكل في الأنظمة الأساسية الأخرى، يجب عليك تحديد مسار الخطوط بشكل صريح.
                 args.ResourceFileUri = ArtifactsDir + Path.DirectorySeparatorChar + args.ResourceFileName;
                 break;
             }
@@ -78,8 +78,8 @@ private class ResourceUriPrinter : IResourceSavingCallback
 
         mText.AppendLine("\t" + args.ResourceFileUri);
 
-        // إذا حددنا مجلدًا في خاصية "ResourcesFolderAlias" ،
-        // سنحتاج أيضًا إلى إعادة توجيه كل دفق لوضع مورده في هذا المجلد.
+        // إذا قمنا بتحديد مجلد في خاصية "ResourcesFolderAlias"،
+        // سنحتاج أيضًا إلى إعادة توجيه كل تيار لوضع موارده في هذا المجلد.
         args.ResourceStream = new FileStream(args.ResourceFileUri, FileMode.Create);
         args.KeepResourceStreamOpen = false;
     }

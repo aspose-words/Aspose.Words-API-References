@@ -1,14 +1,14 @@
 ---
 title: Enum PdfImageCompression
 second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Saving.PdfImageCompression enum. Specifica il tipo di compressione applicato alle immagini nel file PDF.
+description: Aspose.Words.Saving.PdfImageCompression enum. Specifica il tipo di compressione applicata alle immagini nel file PDF.
 type: docs
-weight: 5210
+weight: 5490
 url: /it/net/aspose.words.saving/pdfimagecompression/
 ---
 ## PdfImageCompression enumeration
 
-Specifica il tipo di compressione applicato alle immagini nel file PDF.
+Specifica il tipo di compressione applicata alle immagini nel file PDF.
 
 ```csharp
 public enum PdfImageCompression
@@ -18,7 +18,7 @@ public enum PdfImageCompression
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| Auto | `0` | Seleziona automaticamente la compressione più appropriata per ogni immagine. |
+| Auto | `0` | Seleziona automaticamente la compressione più appropriata per ciascuna immagine. |
 | Jpeg | `1` | Compressione Jpeg. Non supporta la trasparenza. |
 
 ### Esempi
@@ -36,12 +36,12 @@ builder.Writeln("Png image:");
 builder.InsertImage(ImageDir + "Transparent background logo.png");
 
 // Crea un oggetto "PdfSaveOptions" che possiamo passare al metodo "Save" del documento
-// per modificare il modo in cui quel metodo converte il documento in .PDF.
+// per modificare il modo in cui il metodo converte il documento in .PDF.
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 
 // Imposta la proprietà "ImageCompression" su "PdfImageCompression.Auto" per utilizzare il file
 // Proprietà "ImageCompression" per controllare la qualità delle immagini Jpeg che finiscono nel PDF di output.
-// Imposta la proprietà "ImageCompression" su "PdfImageCompression.Jpeg" per usare il file
+// Imposta la proprietà "ImageCompression" su "PdfImageCompression.Jpeg" per utilizzare il file
 // Proprietà "ImageCompression" per controllare la qualità di tutte le immagini che finiscono nel PDF di output.
 pdfSaveOptions.ImageCompression = pdfImageCompression;
 

@@ -1,14 +1,14 @@
 ---
 title: PclSaveOptions.RasterizeTransformedElements
 second_title: Aspose.Words für .NET-API-Referenz
-description: PclSaveOptions eigendom. Ruft einen Wert ab oder legt ihn fest der bestimmt ob komplexe transformierte Elemente vor dem Speichern in ein PCLDokument gerastert werden sollen. Standard istStimmt .
+description: PclSaveOptions eigendom. Ruft einen Wert ab oder legt diesen fest der bestimmt ob komplexe transformierte Elemente vor dem Speichern im PCLDokument gerastert werden sollen. Die Standardeinstellung istWAHR .
 type: docs
 weight: 30
 url: /de/net/aspose.words.saving/pclsaveoptions/rasterizetransformedelements/
 ---
 ## PclSaveOptions.RasterizeTransformedElements property
 
-Ruft einen Wert ab oder legt ihn fest, der bestimmt, ob komplexe transformierte Elemente vor dem Speichern in ein PCL-Dokument gerastert werden sollen. Standard ist`Stimmt` .
+Ruft einen Wert ab oder legt diesen fest, der bestimmt, ob komplexe transformierte Elemente vor dem Speichern im PCL-Dokument gerastert werden sollen. Die Standardeinstellung ist`WAHR` .
 
 ```csharp
 public bool RasterizeTransformedElements { get; set; }
@@ -16,11 +16,11 @@ public bool RasterizeTransformedElements { get; set; }
 
 ### Bemerkungen
 
-PCL unterstützt einige Transformationen nicht, die von Aspose Words verwendet werden. ZB gedrehte, schiefe Bilder und Texturpinsel. Um solche Elemente richtig zu rendern, wird ein Rasterisierungsprozess verwendet, dh Speichern im Bild und Zuschneiden. Dieser Prozess kann zusätzliche Zeit und Speicherplatz beanspruchen. Wenn das Flag auf gesetzt ist`FALSCH` einige Inhalte in der Ausgabe können im Vergleich zum Quelldokument unterschiedlich sein.
+PCL unterstützt einige Transformationen, die von Aspose Words verwendet werden, nicht. Z. B. gedrehte, geneigte Bilder und Texturpinsel. Um solche Elemente richtig zu rendern, wird der Rasterisierungsprozess verwendet, d. h. Speichern im Bild und Ausschneiden. Dieser Prozess kann zusätzliche Zeit und Speicher beanspruchen. Wenn das Flag auf gesetzt ist`FALSCH` , einige Inhalte in der Ausgabe können im Vergleich zum Quelldokument unterschiedlich sein
 
 ### Beispiele
 
-Zeigt, wie komplexe Elemente beim Speichern eines Dokuments in PCL gerastert werden.
+Zeigt, wie man komplexe Elemente rastern kann, während man ein Dokument in PCL speichert.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

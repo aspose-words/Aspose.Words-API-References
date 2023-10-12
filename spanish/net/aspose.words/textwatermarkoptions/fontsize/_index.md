@@ -24,7 +24,7 @@ public float FontSize { get; set; }
 
 Los valores válidos oscilan entre 0 y 65,5 inclusive.
 
-El tamaño de fuente automático significa que la marca de agua se escalará a su ancho máximo y alto máximo en relación con los márgenes de la página.
+El tamaño de fuente automático significa que la marca de agua se escalará a su ancho y alto máximos en relación con los márgenes de la página.
 
 ### Ejemplos
 
@@ -33,7 +33,7 @@ Muestra cómo crear una marca de agua de texto.
 ```csharp
 Document doc = new Document();
 
-// Agregue una marca de agua de texto sin formato.
+// Agrega una marca de agua de texto sin formato.
 doc.Watermark.SetText("Aspose Watermark");
 
 // Si deseamos editar el formato del texto usándolo como marca de agua,

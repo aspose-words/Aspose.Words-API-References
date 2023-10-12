@@ -1,14 +1,14 @@
 ---
 title: ImageData.ToByteArray
 second_title: Справочник по API Aspose.Words для .NET
-description: ImageData метод. Возвращает байты изображения для любого изображения независимо от того сохранено ли изображение или связано.
+description: ImageData метод. Возвращает байты изображения для любого изображения независимо от того сохранено оно или связано с ним.
 type: docs
-weight: 210
+weight: 220
 url: /ru/net/aspose.words.drawing/imagedata/tobytearray/
 ---
 ## ImageData.ToByteArray method
 
-Возвращает байты изображения для любого изображения, независимо от того, сохранено ли изображение или связано.
+Возвращает байты изображения для любого изображения независимо от того, сохранено оно или связано с ним.
 
 ```csharp
 public byte[] ToByteArray()
@@ -16,7 +16,7 @@ public byte[] ToByteArray()
 
 ### Примечания
 
-Если изображение связано, загружает изображение каждый раз, когда оно вызывается.
+Если изображение связано, загружает изображение при каждом вызове.
 
 ### Примеры
 
@@ -24,7 +24,6 @@ public byte[] ToByteArray()
 
 ```csharp
 Document imgSourceDoc = new Document(MyDir + "Images.docx");
-
 Shape imgShape = (Shape) imgSourceDoc.GetChild(NodeType.Shape, 0, true);
 
 Assert.True(imgShape.HasImage);

@@ -45,8 +45,8 @@ while (curNode != null)
     // Speichern Sie den nächsten Geschwisterknoten als Variable, falls wir nach dem Löschen dieses Knotens dorthin wechseln möchten.
     Node nextNode = curNode.NextSibling;
 
-    // Ein Abschnittskörper kann Absatz- und Tabellenknoten enthalten.
-    // Wenn der Knoten eine Tabelle ist, entferne ihn vom Elternknoten.
+    // Ein Abschnittshauptteil kann Absatz- und Tabellenknoten enthalten.
+    // Wenn der Knoten eine Tabelle ist, entfernen Sie ihn vom übergeordneten Knoten.
     if (curNode.NodeType == NodeType.Table)
         curNode.Remove();
 

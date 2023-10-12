@@ -3,7 +3,7 @@ title: Style.Name
 second_title: Aspose.Words per .NET API Reference
 description: Style proprietà. Ottiene o imposta il nome dello stile.
 type: docs
-weight: 110
+weight: 130
 url: /it/net/aspose.words/style/name/
 ---
 ## Style.Name property
@@ -18,7 +18,7 @@ public string Name { get; set; }
 
 Non può essere una stringa vuota.
 
-Se esiste già uno stile con tale nome nella raccolta, questo stile lo sovrascriverà. Tutti i nodi interessati faranno riferimento al nuovo stile.
+Se nella raccolta è già presente uno stile con questo nome, questo stile lo sovrascriverà. Tutti i nodi interessati faranno riferimento al nuovo stile.
 
 ### Esempi
 
@@ -51,14 +51,14 @@ Mostra come clonare lo stile di un documento.
 Document doc = new Document();
 
 // Il metodo AddCopy crea una copia dello stile specificato e
-// genera automaticamente un nuovo nome per lo stile, ad esempio "Titolo 1_0".
+// genera automaticamente un nuovo nome per lo stile, ad esempio "Intestazione 1_0".
 Style newStyle = doc.Styles.AddCopy(doc.Styles["Heading 1"]);
 
-// Usa la proprietà "Nome" dello stile per modificare il nome identificativo dello stile.
+// Utilizza la proprietà "Nome" dello stile per modificare il nome identificativo dello stile.
 newStyle.Name = "My Heading 1";
 
-// Il nostro documento ora ha due stili di aspetto identici con nomi diversi.
-// La modifica delle impostazioni di uno degli stili non ha effetto sull'altro.
+// Il nostro documento ora ha due stili identici con nomi diversi.
+// La modifica delle impostazioni di uno degli stili non influisce sull'altro.
 newStyle.Font.Color = Color.Red;
 
 Assert.AreEqual("My Heading 1", newStyle.Name);

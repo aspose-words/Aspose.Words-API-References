@@ -3,7 +3,7 @@ title: ImageData.SetImage
 second_title: Aspose.Words för .NET API Referens
 description: ImageData metod. Ställer in bilden som formen visar.
 type: docs
-weight: 200
+weight: 210
 url: /sv/net/aspose.words.drawing/imagedata/setimage/
 ---
 ## SetImage(Image) {#setimage}

@@ -1,14 +1,14 @@
 ---
 title: Shape.HorizontalRuleFormat
 second_title: Справочник по API Aspose.Words для .NET
-description: Shape свойство. Предоставляет доступ к свойствам фигуры горизонтальной линейки. Для фигуры не являющейся горизонтальной линейкой возвращает null.
+description: Shape свойство. Предоставляет доступ к свойствам фигуры горизонтальной линейки. Для фигуры не являющейся горизонтальной линейкой возвращаетсянулевой .
 type: docs
 weight: 100
 url: /ru/net/aspose.words.drawing/shape/horizontalruleformat/
 ---
 ## Shape.HorizontalRuleFormat property
 
-Предоставляет доступ к свойствам фигуры горизонтальной линейки. Для фигуры, не являющейся горизонтальной линейкой, возвращает null.
+Предоставляет доступ к свойствам фигуры горизонтальной линейки. Для фигуры, не являющейся горизонтальной линейкой, возвращается`нулевой` .
 
 ```csharp
 public HorizontalRuleFormat HorizontalRuleFormat { get; }

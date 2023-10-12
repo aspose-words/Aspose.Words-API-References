@@ -1,14 +1,14 @@
 ---
 title: RtfSaveOptions.SaveImagesAsWmf
 second_title: Référence de l'API Aspose.Words pour .NET
-description: RtfSaveOptions propriété. Si vrai toutes les images seront enregistrées au format WMF.
+description: RtfSaveOptions propriété. Quandvrai toutes les images seront enregistrées au format WMF.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.saving/rtfsaveoptions/saveimagesaswmf/
 ---
 ## RtfSaveOptions.SaveImagesAsWmf property
 
-Si vrai, toutes les images seront enregistrées au format WMF.
+Quand`vrai` toutes les images seront enregistrées au format WMF.
 
 ```csharp
 public bool SaveImagesAsWmf { get; set; }
@@ -20,7 +20,7 @@ Cette option peut aider à éviter les messages d'avertissement de WordPad.
 
 ### Exemples
 
-Montre comment convertir toutes les images d'un document au format métafichier Windows lorsque nous enregistrons le document au format RTF.
+Montre comment convertir toutes les images d'un document au format Windows Metafile lorsque nous enregistrons le document au format RTF.
 
 ```csharp
 Document doc = new Document();
@@ -37,13 +37,13 @@ imageShape = builder.InsertImage(ImageDir + "Transparent background logo.png");
 
 Assert.AreEqual(ImageType.Png, imageShape.ImageData.ImageType);
 
-// Créez un objet "RtfSaveOptions" à transmettre à la méthode "Save" du document pour modifier la façon dont nous l'enregistrons au format RTF.
+// Créez un objet "RtfSaveOptions" à transmettre à la méthode "Save" du document pour modifier la façon dont nous l'enregistrons dans un RTF.
 RtfSaveOptions rtfSaveOptions = new RtfSaveOptions();
 
-// Définissez la propriété "SaveImagesAsWmf" sur "true" pour convertir toutes les images du document au format WMF lorsque nous l'enregistrons au format RTF.
+// Définissez la propriété "SaveImagesAsWmf" sur "true" pour convertir toutes les images du document en WMF lorsque nous l'enregistrons au format RTF.
 // Cela aidera les lecteurs tels que WordPad à lire notre document.
-// Définissez la propriété "SaveImagesAsWmf" sur "false" pour conserver le format d'origine de toutes les images du document
-// car nous l'enregistrons au format RTF. Cela préservera la qualité des images au détriment de la compatibilité avec les anciens lecteurs RTF.
+// Définissez la propriété "SaveImagesAsWmf" sur "false" pour conserver le format original de toutes les images du document
+// pendant que nous l'enregistrons au format RTF. Cela préservera la qualité des images au détriment de la compatibilité avec les anciens lecteurs RTF.
 rtfSaveOptions.SaveImagesAsWmf = saveImagesAsWmf;
 
 doc.Save(ArtifactsDir + "RtfSaveOptions.SaveImagesAsWmf.rtf", rtfSaveOptions);

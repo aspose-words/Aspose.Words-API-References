@@ -1,14 +1,14 @@
 ---
 title: Cell.Cell
 second_title: Aspose.Words per .NET API Reference
-description: Cell costruttore. Inizializza una nuova istanza di Cellula classe.
+description: Cell costruttore. Inizializza una nuova istanza diCell classe.
 type: docs
 weight: 10
 url: /it/net/aspose.words.tables/cell/cell/
 ---
 ## Cell constructor
 
-Inizializza una nuova istanza di **Cellula** classe.
+Inizializza una nuova istanza di[`Cell`](../) classe.
 
 ```csharp
 public Cell(DocumentBase doc)
@@ -20,9 +20,9 @@ public Cell(DocumentBase doc)
 
 ### Osservazioni
 
-quando **Cellula** viene creato, appartiene al documento specificato, ma non fa ancora parte del documento e **ParentNode** è zero.
+Quando[`Cell`](../) viene creato, appartiene al documento specificato, ma non è ancora parte del documento e[`ParentNode`](../../../aspose.words/node/parentnode/) È`nullo`.
 
-Aggiungere **Cellula** al documento utilizzare InsertAfter o InsertBefore sulla riga in cui si desidera inserire la cella.
+Per aggiungere[`Cell`](../) all'uso del documentoNode) ONode) sulla riga in cui desideri inserire la cella.
 
 ### Esempi
 
@@ -37,7 +37,7 @@ public void CreateNestedTable()
     Table outerTable = CreateTable(doc, 3, 4, "Outer Table");
     doc.FirstSection.Body.AppendChild(outerTable);
 
-    // Crea un'altra tabella con due righe e due colonne, quindi inseriscila nella prima cella della prima tabella.
+    // Crea un'altra tabella con due righe e due colonne e quindi inseriscila nella prima cella della prima tabella.
     Table innerTable = CreateTable(doc, 2, 2, "Inner Table");
     outerTable.FirstRow.FirstCell.AppendChild(innerTable);
 
@@ -45,7 +45,7 @@ public void CreateNestedTable()
 }
 
 /// <summary>
-/// Crea una nuova tabella nel documento con le dimensioni e il testo indicati in ogni cella.
+/// Crea una nuova tabella nel documento con le dimensioni e il testo specificati in ogni cella.
 /// </summary>
 private static Table CreateTable(Document doc, int rowCount, int cellCount, string cellText)
 {
@@ -69,7 +69,7 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
     // Puoi utilizzare le proprietà "Titolo" e "Descrizione" per aggiungere rispettivamente un titolo e una descrizione alla tua tabella.
     // La tabella deve avere almeno una riga prima di poter utilizzare queste proprietà.
     // Queste proprietà sono significative per i documenti .docx conformi a ISO / IEC 29500 (vedere la classe OoxmlCompliance).
-    // Se salviamo il documento in formati pre-ISO/IEC 29500, Microsoft Word ignora queste proprietà.
+    // Se salviamo il documento in formati precedenti a ISO/IEC 29500, Microsoft Word ignora queste proprietà.
     table.Title = "Aspose table title";
     table.Description = "Aspose table description";
 

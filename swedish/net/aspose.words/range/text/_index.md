@@ -3,7 +3,7 @@ title: Range.Text
 second_title: Aspose.Words för .NET API Referens
 description: Range fast egendom. Hämtar intervallets text.
 type: docs
-weight: 50
+weight: 60
 url: /sv/net/aspose.words/range/text/
 ---
 ## Range.Text property

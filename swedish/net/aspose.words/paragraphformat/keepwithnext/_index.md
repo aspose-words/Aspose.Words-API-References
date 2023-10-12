@@ -3,7 +3,7 @@ title: ParagraphFormat.KeepWithNext
 second_title: Aspose.Words för .NET API Referens
 description: ParagraphFormat fast egendom. Sant om stycket ska förbli på samma sida som stycket som följer efter det.
 type: docs
-weight: 160
+weight: 170
 url: /sv/net/aspose.words/paragraphformat/keepwithnext/
 ---
 ## ParagraphFormat.KeepWithNext property

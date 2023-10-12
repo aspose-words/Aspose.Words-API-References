@@ -1,14 +1,14 @@
 ---
 title: SystemFontSource.SystemFontSource
 second_title: Aspose.Words لمراجع .NET API
-description: SystemFontSource البناء. Ctor.
+description: SystemFontSource البناء. الممثل.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fonts/systemfontsource/systemfontsource/
 ---
 ## SystemFontSource() {#constructor}
 
-Ctor.
+الممثل.
 
 ```csharp
 public SystemFontSource()
@@ -16,13 +16,13 @@ public SystemFontSource()
 
 ### أمثلة
 
-يوضح كيفية الوصول إلى مصدر خط نظام المستند وتعيين بدائل الخط.
+يوضح كيفية الوصول إلى مصدر خط نظام المستند وتعيين بدائل الخطوط.
 
 ```csharp
 Document doc = new Document();
 doc.FontSettings = new FontSettings();
 
-// بشكل افتراضي ، يحتوي المستند الفارغ دائمًا على مصدر خط النظام.
+// بشكل افتراضي، يحتوي المستند الفارغ دائمًا على مصدر خط النظام.
 Assert.AreEqual(1, doc.FontSettings.GetFontsSources().Length);
 
 SystemFontSource systemFontSource = (SystemFontSource) doc.FontSettings.GetFontsSources()[0];
@@ -44,7 +44,7 @@ foreach (string systemFontFolder in SystemFontSource.GetSystemFontFolders())
     Console.WriteLine(systemFontFolder);
 }
 
-// تعيين خط موجود في دليل Windows Fonts كبديل لخط غير موجود.
+// قم بتعيين خط موجود في دليل خطوط Windows كبديل للخط غير الموجود.
 doc.FontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 doc.FontSettings.SubstitutionSettings.TableSubstitution.AddSubstitutes("Kreon-Regular", new[] {"Calibri"});
 
@@ -53,12 +53,12 @@ Assert.AreEqual(1,
 Assert.Contains("Calibri",
     doc.FontSettings.SubstitutionSettings.TableSubstitution.GetSubstitutes("Kreon-Regular").ToArray());
 
-// بدلاً من ذلك ، يمكننا إضافة مصدر خط مجلد يحتوي فيه المجلد المقابل على الخط.
+// بدلاً من ذلك، يمكننا إضافة مصدر خط المجلد حيث يحتوي المجلد المقابل على الخط.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false);
 doc.FontSettings.SetFontsSources(new FontSourceBase[] {systemFontSource, folderFontSource});
 Assert.AreEqual(2, doc.FontSettings.GetFontsSources().Length);
 
-// لا تزال إعادة تعيين مصادر الخط تترك لنا مصدر خط النظام وكذلك البدائل.
+// إعادة تعيين مصادر الخطوط لا تزال تتركنا مع مصدر خط النظام بالإضافة إلى البدائل.
 doc.FontSettings.ResetFontSources();
 
 Assert.AreEqual(1, doc.FontSettings.GetFontsSources().Length);
@@ -77,7 +77,7 @@ Assert.AreEqual(1,
 
 ## SystemFontSource(int) {#constructor_1}
 
-Ctor.
+الممثل.
 
 ```csharp
 public SystemFontSource(int priority)
@@ -85,17 +85,17 @@ public SystemFontSource(int priority)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| priority | Int32 | أولوية مصدر الخط. انظر[`Priority`](../../fontsourcebase/priority/) وصف الخاصية لمزيد من المعلومات. |
+| priority | Int32 | أولوية مصدر الخط. انظر[`Priority`](../../fontsourcebase/priority/) وصف العقار لمزيد من المعلومات. |
 
 ### أمثلة
 
-يوضح كيفية الوصول إلى مصدر خط نظام المستند وتعيين بدائل الخط.
+يوضح كيفية الوصول إلى مصدر خط نظام المستند وتعيين بدائل الخطوط.
 
 ```csharp
 Document doc = new Document();
 doc.FontSettings = new FontSettings();
 
-// بشكل افتراضي ، يحتوي المستند الفارغ دائمًا على مصدر خط النظام.
+// بشكل افتراضي، يحتوي المستند الفارغ دائمًا على مصدر خط النظام.
 Assert.AreEqual(1, doc.FontSettings.GetFontsSources().Length);
 
 SystemFontSource systemFontSource = (SystemFontSource) doc.FontSettings.GetFontsSources()[0];
@@ -117,7 +117,7 @@ foreach (string systemFontFolder in SystemFontSource.GetSystemFontFolders())
     Console.WriteLine(systemFontFolder);
 }
 
-// تعيين خط موجود في دليل Windows Fonts كبديل لخط غير موجود.
+// قم بتعيين خط موجود في دليل خطوط Windows كبديل للخط غير الموجود.
 doc.FontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 doc.FontSettings.SubstitutionSettings.TableSubstitution.AddSubstitutes("Kreon-Regular", new[] {"Calibri"});
 
@@ -126,12 +126,12 @@ Assert.AreEqual(1,
 Assert.Contains("Calibri",
     doc.FontSettings.SubstitutionSettings.TableSubstitution.GetSubstitutes("Kreon-Regular").ToArray());
 
-// بدلاً من ذلك ، يمكننا إضافة مصدر خط مجلد يحتوي فيه المجلد المقابل على الخط.
+// بدلاً من ذلك، يمكننا إضافة مصدر خط المجلد حيث يحتوي المجلد المقابل على الخط.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false);
 doc.FontSettings.SetFontsSources(new FontSourceBase[] {systemFontSource, folderFontSource});
 Assert.AreEqual(2, doc.FontSettings.GetFontsSources().Length);
 
-// لا تزال إعادة تعيين مصادر الخط تترك لنا مصدر خط النظام وكذلك البدائل.
+// إعادة تعيين مصادر الخطوط لا تزال تتركنا مع مصدر خط النظام بالإضافة إلى البدائل.
 doc.FontSettings.ResetFontSources();
 
 Assert.AreEqual(1, doc.FontSettings.GetFontsSources().Length);

@@ -16,7 +16,7 @@ public string StatusText { get; set; }
 
 ### Anmärkningar
 
-Om egenskapen OwnStatus är inställd på true, anger egenskapen StatusText statusfältets text. Om egenskapen OwnStatus är inställd på false, anger egenskapen StatusText namnet på en AutoText -post som innehåller statusfältstext för formulärfältet.
+Om[`OwnStatus`](../ownstatus/) egenskapen är inställd på`Sann` , den`StatusText` egenskapen anger statusfältets text. Om[`OwnStatus`](../ownstatus/) egenskapen är inställd på`falsk` , den`StatusText` egenskapen anger namnet på en AutoText -post som innehåller statusfältstext för formulärfältet.
 
 Microsoft Word tillåter strängar med högst 138 tecken.
 
@@ -91,7 +91,7 @@ public void Visitor()
 }
 
 /// <summary>
-/// Besöksimplementering som skriver ut detaljer om formulärfält som den besöker. 
+ /// Besöksimplementering som skriver ut detaljer om formulärfält som den besöker.
 /// </summary>
 public class FormFieldVisitor : DocumentVisitor
 {

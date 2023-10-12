@@ -16,11 +16,11 @@ public LineStyle LineStyle { get; set; }
 
 ### Bemerkungen
 
-Wenn Sie den Linienstil auf „Keine“ setzen, wird die Linienstärke automatisch auf Null geändert.
+Wenn Sie den Linienstil auf „Keine“ festlegen, wird die Linienbreite automatisch auf Null geändert.
 
 ### Beispiele
 
-Zeigt, wie eine von einem Rahmen umgebene Zeichenfolge in ein Dokument eingefügt wird.
+Zeigt, wie man eine von einem Rahmen umgebene Zeichenfolge in ein Dokument einfügt.
 
 ```csharp
 Document doc = new Document();

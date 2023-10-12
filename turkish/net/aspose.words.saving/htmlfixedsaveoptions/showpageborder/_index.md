@@ -8,7 +8,7 @@ url: /tr/net/aspose.words.saving/htmlfixedsaveoptions/showpageborder/
 ---
 ## HtmlFixedSaveOptions.ShowPageBorder property
 
-Sayfaların etrafındaki kenarlığın gösterilip gösterilmeyeceğini belirtir. Varsayılan`doğru` .
+Sayfaların etrafındaki kenarlığın gösterilip gösterilmeyeceğini belirtir. Varsayılan:`doğru` .
 
 ```csharp
 public bool ShowPageBorder { get; set; }
@@ -16,7 +16,7 @@ public bool ShowPageBorder { get; set; }
 
 ### Örnekler
 
-Bir belgeyi HTML'ye dönüştürürken oluşturulan harici kaynakların URI'lerini yazdırmak için bir geri aramanın nasıl kullanılacağını gösterir.
+Bir belgeyi HTML'ye dönüştürürken oluşturulan dış kaynakların URI'lerini yazdırmak için geri aramanın nasıl kullanılacağını gösterir.
 
 ```csharp
 public void HtmlFixedResourceFolder()
@@ -35,8 +35,8 @@ public void HtmlFixedResourceFolder()
         ResourceSavingCallback = callback
     };
 
-    // ResourcesFolderAlias tarafından belirtilen bir klasör, ResourcesFolder yerine kaynakları içerecektir.
-    // Akışlar kaynaklarını içine koymadan önce klasörün var olduğundan emin olmalıyız.
+    // ResourcesFolderAlias tarafından belirtilen bir klasör ResourcesFolder yerine kaynakları içerecektir.
+    // Akışların kaynaklarını klasöre koymadan önce klasörün var olduğundan emin olmalıyız.
     Directory.CreateDirectory(options.ResourcesFolderAlias);
 
     doc.Save(ArtifactsDir + "HtmlFixedSaveOptions.HtmlFixedResourceFolder.html", options);
@@ -50,13 +50,13 @@ public void HtmlFixedResourceFolder()
 }
 
 /// <summary>
-/// Sabit HTML'ye dönüştürüldükçe içerdiği kaynakların URI'lerini sayar ve yazdırır.
+/// Sabit HTML'ye dönüştürülürken içerdiği kaynakların URI'lerini sayar ve yazdırır.
 /// </summary>
 private class ResourceUriPrinter : IResourceSavingCallback
 {
     void IResourceSavingCallback.ResourceSaving(ResourceSavingArgs args)
     {
-        // SaveOptions nesnesinde bir klasör takma adı belirlersek, buradan yazdırabiliriz.
+        // SaveOptions nesnesinde bir klasör takma adı belirlersek, onu buradan yazdırabileceğiz.
         mText.AppendLine($"Resource #{++mSavedResourceCount} \"{args.ResourceFileName}\"");
 
         string extension = Path.GetExtension(args.ResourceFileName);
@@ -65,8 +65,8 @@ private class ResourceUriPrinter : IResourceSavingCallback
             case ".ttf":
             case ".woff":
             {
-                // Varsayılan olarak, 'ResourceFileUri' yazı tipleri için sistem klasörünü kullanır.
-                // Diğer platformlarda sorun yaşamamak için yazı tiplerinin yolunu açıkça belirtmelisiniz.
+                // Varsayılan olarak 'ResourceFileUri' yazı tipleri için sistem klasörünü kullanır.
+                // Diğer platformlardaki sorunları önlemek için yazı tiplerinin yolunu açıkça belirtmelisiniz.
                 args.ResourceFileUri = ArtifactsDir + Path.DirectorySeparatorChar + args.ResourceFileName;
                 break;
             }
@@ -74,8 +74,8 @@ private class ResourceUriPrinter : IResourceSavingCallback
 
         mText.AppendLine("\t" + args.ResourceFileUri);
 
-        // "ResourcesFolderAlias" özelliğinde bir klasör belirlediysek,
-        // Kaynağını o klasöre koymak için her akışı yeniden yönlendirmemiz gerekecek.
+        // "ResourcesFolderAlias" özelliğinde bir klasör belirttiysek,
+        // kaynağını o klasöre koymak için her akışı yeniden yönlendirmemiz gerekecek.
         args.ResourceStream = new FileStream(args.ResourceFileUri, FileMode.Create);
         args.KeepResourceStreamOpen = false;
     }

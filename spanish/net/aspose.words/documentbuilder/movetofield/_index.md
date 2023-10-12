@@ -3,7 +3,7 @@ title: DocumentBuilder.MoveToField
 second_title: Referencia de API de Aspose.Words para .NET
 description: DocumentBuilder método. Mueve el cursor a un campo del documento.
 type: docs
-weight: 510
+weight: 540
 url: /es/net/aspose.words/documentbuilder/movetofield/
 ---
 ## DocumentBuilder.MoveToField method
@@ -17,7 +17,7 @@ public void MoveToField(Field field, bool isAfter)
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
 | field | Field | El campo al que mover el cursor. |
-| isAfter | Boolean | Cuando es verdadero, mueve el cursor para que esté después del final del campo. Cuando es falso, mueve el cursor para que esté antes del inicio del campo. |
+| isAfter | Boolean | Cuando`verdadero` , mueve el cursor para que esté después del final del campo. Cuando`FALSO`, mueve el cursor para que esté antes del inicio del campo. |
 
 ### Ejemplos
 
@@ -27,13 +27,13 @@ Muestra cómo mover el cursor del punto de inserción de un nodo del generador d
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inserte un campo usando DocumentBuilder y agregue una secuencia de texto después de él.
+// Inserta un campo usando DocumentBuilder y agrega una serie de texto después de él.
 Field field = builder.InsertField(" AUTHOR \"John Doe\" ");
 
-// El cursor del constructor está actualmente al final del documento.
+// El cursor del constructor se encuentra actualmente al final del documento.
 Assert.Null(builder.CurrentNode);
 
-// Mueva el cursor al campo mientras especifica si colocar ese cursor antes o después del campo.
+// Mueve el cursor al campo mientras especificas si colocar ese cursor antes o después del campo.
 builder.MoveToField(field, moveCursorToAfterTheField);
 
 // Tenga en cuenta que el cursor está fuera del campo en ambos casos.

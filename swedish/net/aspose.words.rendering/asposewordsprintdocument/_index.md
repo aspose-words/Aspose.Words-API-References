@@ -3,12 +3,14 @@ title: Class AsposeWordsPrintDocument
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Rendering.AsposeWordsPrintDocument klass. Ger en standardimplementering för utskrift av enDocument inom .NETutskriftsramverket.
 type: docs
-weight: 4280
+weight: 4530
 url: /sv/net/aspose.words.rendering/asposewordsprintdocument/
 ---
 ## AsposeWordsPrintDocument class
 
 Ger en standardimplementering för utskrift av en[`Document`](../../aspose.words/document/) inom .NET-utskriftsramverket.
+
+För att lära dig mer, besök[Skriva ut ett dokument programmerat eller använda dialogrutor](https://docs.aspose.com/words/net/print-a-document-programmatically-or-using-dialogs/) dokumentationsartikel.
 
 ```csharp
 public class AsposeWordsPrintDocument : PrintDocument
@@ -19,6 +21,13 @@ public class AsposeWordsPrintDocument : PrintDocument
 | namn | Beskrivning |
 | --- | --- |
 | [AsposeWordsPrintDocument](asposewordsprintdocument/)(Document) | Initierar en ny instans av den här klassen. |
+
+## Egenskaper
+
+| namn | Beskrivning |
+| --- | --- |
+| [ColorMode](../../aspose.words.rendering/asposewordsprintdocument/colormode/) { get; set; } | Hämtar eller ställer in hur icke-färgade sidor skrivs ut om enheten stöder färgutskrift. |
+| [ColorPagesPrinted](../../aspose.words.rendering/asposewordsprintdocument/colorpagesprinted/) { get; } | Får antalet sidor som skrivs ut i färg (dvs. medColor satt till sant). |
 
 ## Metoder
 

@@ -1,14 +1,14 @@
 ---
 title: FileFontSource.Type
 second_title: Aspose.Words per .NET API Reference
-description: FileFontSource proprietà. Restituisce il tipo di origine del carattere.
+description: FileFontSource proprietà. Restituisce il tipo di fonte del carattere.
 type: docs
 weight: 40
 url: /it/net/aspose.words.fonts/filefontsource/type/
 ---
 ## FileFontSource.Type property
 
-Restituisce il tipo di origine del carattere.
+Restituisce il tipo di fonte del carattere.
 
 ```csharp
 public override FontSourceType Type { get; }

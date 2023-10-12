@@ -3,7 +3,7 @@ title: Document.MailMergeSettings
 second_title: Aspose.Words لمراجع .NET API
 description: Document ملكية. الحصول على الكائن الذي يحتوي على كافة معلومات دمج المراسلات لمستند أو تعيينه.
 type: docs
-weight: 250
+weight: 270
 url: /ar/net/aspose.words/document/mailmergesettings/
 ---
 ## Document.MailMergeSettings property
@@ -16,9 +16,9 @@ public MailMergeSettings MailMergeSettings { get; set; }
 
 ### ملاحظات
 
-يمكنك استخدام هذا الكائن لتحديد مصدر بيانات دمج المراسلات لمستند وستظهر هذه المعلومات_ (مع حقول البيانات المتاحة) في Microsoft Word عندما يفتح المستخدم هذا المستند . أو يمكنك استخدام هذا الكائن للاستعلام عن إعدادات دمج المراسلات التي حددها المستخدم في Microsoft Word لهذا المستند.
+يمكنك استخدام هذا الكائن لتحديد مصدر بيانات دمج البريد لمستند وستظهر هذه المعلومات (مع حقول البيانات المتوفرة) في Microsoft Word عندما يفتح المستخدم هذا المستند. أو يمكنك استخدام هذا الكائن للاستعلام عن إعدادات دمج البريد التي حددها المستخدم في Microsoft Word لهذا المستند.
 
-هذا الكائن ليس فارغًا أبدًا.
+هذا الكائن أبدا`باطل`.
 
 ### أمثلة
 
@@ -35,9 +35,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// إنشاء مصدر بيانات في شكل ملف ASCII ، باستخدام "|" حرف
-// يعمل كمحدد يفصل بين الأعمدة. يحتوي السطر الأول على أسماء الأعمدة الثلاثة ،
-// وكل سطر لاحق هو صف بقيمها الخاصة.
+// قم بإنشاء مصدر بيانات على شكل ملف ASCII، باستخدام "|" شخصية
+// يعمل كمحدد يفصل بين الأعمدة. السطر الأول يحتوي على أسماء الأعمدة الثلاثة،
+// وكل سطر لاحق عبارة عن صف بقيمه الخاصة.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";
@@ -65,7 +65,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
-// سيؤدي فتح هذا المستند في Microsoft Word إلى تنفيذ دمج البريد قبل عرض المحتويات. 
+ // سيؤدي فتح هذا المستند في Microsoft Word إلى تنفيذ دمج البريد قبل عرض المحتويات.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

@@ -3,12 +3,14 @@ title: Class CommentCollection
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.CommentCollection classe. Fournit un accès typé à une collection deComment nœuds.
 type: docs
-weight: 230
+weight: 240
 url: /fr/net/aspose.words/commentcollection/
 ---
 ## CommentCollection class
 
 Fournit un accès typé à une collection de[`Comment`](../comment/) nœuds.
+
+Pour en savoir plus, visitez le[Travailler avec des commentaires](https://docs.aspose.com/words/net/working-with-comments/) article documentaire.
 
 ```csharp
 public class CommentCollection : NodeCollection
@@ -19,7 +21,7 @@ public class CommentCollection : NodeCollection
 | Nom | La description |
 | --- | --- |
 | [Count](../../aspose.words/nodecollection/count/) { get; } | Obtient le nombre de nœuds dans la collection. |
-| [Item](../../aspose.words/commentcollection/item/) { get; } | Récupère un **Commentaire** à l'index donné. (2 indexers) |
+| [Item](../../aspose.words/commentcollection/item/) { get; } | Récupère un[`Comment`](../comment/) à l'index donné. (2 indexers) |
 
 ## Méthodes
 
@@ -27,7 +29,7 @@ public class CommentCollection : NodeCollection
 | --- | --- |
 | [Add](../../aspose.words/nodecollection/add/)(Node) | Ajoute un nœud à la fin de la collection. |
 | [Clear](../../aspose.words/nodecollection/clear/)() | Supprime tous les nœuds de cette collection et du document. |
-| [Contains](../../aspose.words/nodecollection/contains/)(Node) | Détermine si un nœud est dans la collection. |
+| [Contains](../../aspose.words/nodecollection/contains/)(Node) | Détermine si un nœud fait partie de la collection. |
 | [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Fournit une simple itération de style "foreach" sur la collection de nœuds. |
 | [IndexOf](../../aspose.words/nodecollection/indexof/)(Node) | Renvoie l'index de base zéro du nœud spécifié. |
 | [Insert](../../aspose.words/nodecollection/insert/)(int, Node) | Insère un nœud dans la collection à l'index spécifié. |
@@ -37,28 +39,28 @@ public class CommentCollection : NodeCollection
 
 ### Exemples
 
-Montre comment marquer un commentaire comme "terminé".
+Montre comment marquer un commentaire comme « terminé ».
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Helo world!");
 
-// Insère un commentaire pour signaler une erreur. 
+ // Insère un commentaire pour signaler une erreur.
 Comment comment = new Comment(doc, "John Doe", "J.D.", DateTime.Now);
 comment.SetText("Fix the spelling error!");
 doc.FirstSection.Body.FirstParagraph.AppendChild(comment);
 
-// Les commentaires ont un indicateur "Done", qui est défini sur "false" par défaut. 
-// Si un commentaire suggère que nous fassions un changement dans le document,
-// nous pouvons appliquer la modification, puis définir ensuite le drapeau "Done" pour indiquer la correction.
+ // Les commentaires ont un indicateur "Terminé", qui est défini sur "false" par défaut.
+// Si un commentaire nous suggère d'effectuer une modification au sein du document,
+// nous pouvons appliquer la modification, puis également définir le drapeau "Terminé" par la suite pour indiquer la correction.
 Assert.False(comment.Done);
 
 doc.FirstSection.Body.FirstParagraph.Runs[0].Text = "Hello world!";
 comment.Done = true;
 
-// Les commentaires "faits" se différencieront
-// de ceux qui ne sont pas "terminés" avec une couleur de texte fanée.
+// Les commentaires "terminés" se différencieront
+// parmi ceux qui ne sont pas "finis" avec une couleur de texte délavée.
 comment = new Comment(doc, "John Doe", "J.D.", DateTime.Now);
 comment.SetText("Add text to this paragraph.");
 builder.CurrentParagraph.AppendChild(comment);

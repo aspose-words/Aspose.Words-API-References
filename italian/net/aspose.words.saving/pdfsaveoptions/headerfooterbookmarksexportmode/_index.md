@@ -1,14 +1,14 @@
 ---
 title: PdfSaveOptions.HeaderFooterBookmarksExportMode
 second_title: Aspose.Words per .NET API Reference
-description: PdfSaveOptions proprietà. Determina come vengono esportati i segnalibri nelle intestazioni/piè di pagina.
+description: PdfSaveOptions proprietà. Determina la modalità di esportazione dei segnalibri nelle intestazioni/piè di pagina.
 type: docs
-weight: 150
+weight: 180
 url: /it/net/aspose.words.saving/pdfsaveoptions/headerfooterbookmarksexportmode/
 ---
 ## PdfSaveOptions.HeaderFooterBookmarksExportMode property
 
-Determina come vengono esportati i segnalibri nelle intestazioni/piè di pagina.
+Determina la modalità di esportazione dei segnalibri nelle intestazioni/piè di pagina.
 
 ```csharp
 public HeaderFooterBookmarksExportMode HeaderFooterBookmarksExportMode { get; set; }
@@ -18,17 +18,17 @@ public HeaderFooterBookmarksExportMode HeaderFooterBookmarksExportMode { get; se
 
 Il valore predefinito èAll.
 
-Questa proprietà è utilizzata in combinazione con il[`OutlineOptions`](../outlineoptions/) opzione.
+Questa proprietà viene utilizzata insieme a[`OutlineOptions`](../outlineoptions/) opzione.
 
 ### Esempi
 
-Mostra per elaborare i segnalibri nelle intestazioni/piè di pagina in un documento di cui stiamo effettuando il rendering in PDF.
+Mostra per elaborare i segnalibri nelle intestazioni/piè di pagina in un documento che stiamo convertendo in PDF.
 
 ```csharp
 Document doc = new Document(MyDir + "Bookmarks in headers and footers.docx");
 
 // Crea un oggetto "PdfSaveOptions" che possiamo passare al metodo "Save" del documento
-// per modificare il modo in cui quel metodo converte il documento in .PDF.
+// per modificare il modo in cui il metodo converte il documento in .PDF.
 PdfSaveOptions saveOptions = new PdfSaveOptions();
 
 // Imposta la proprietà "PageMode" su "PdfPageMode.UseOutlines" per visualizzare il riquadro di navigazione della struttura nel PDF di output.
@@ -39,7 +39,7 @@ saveOptions.PageMode = PdfPageMode.UseOutlines;
 saveOptions.OutlineOptions.DefaultBookmarksOutlineLevel = 1;
 
 // Imposta la proprietà "HeaderFooterBookmarksExportMode" su "HeaderFooterBookmarksExportMode.None" su
-// non esporta i segnalibri che si trovano all'interno di intestazioni/piè di pagina.
+// non esporta alcun segnalibro che si trova all'interno di intestazioni/piè di pagina.
 // Imposta la proprietà "HeaderFooterBookmarksExportMode" su "HeaderFooterBookmarksExportMode.First" su
 // esporta solo i segnalibri nell'intestazione/piè di pagina della prima sezione.
 // Imposta la proprietà "HeaderFooterBookmarksExportMode" su "HeaderFooterBookmarksExportMode.All" su

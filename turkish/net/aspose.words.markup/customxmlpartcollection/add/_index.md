@@ -25,9 +25,9 @@ public void Add(CustomXmlPart part)
 ```csharp
 Document doc = new Document();
 
-// Veri içeren bir XML parçası oluşturun ve bunu belgenin koleksiyonuna ekleyin.
+// Veri içeren bir XML bölümü oluşturun ve onu belgenin koleksiyonuna ekleyin.
 // Microsoft Word'de "Geliştirici" sekmesini etkinleştirirsek,
-// Bu koleksiyondaki öğeleri, birkaç varsayılan öğeyle birlikte "XML Eşleme Panosu"nda bulabiliriz.
+// bu koleksiyondaki öğeleri birkaç varsayılan öğeyle birlikte "XML Eşleme Bölmesi"nde bulabiliriz.
 string xmlPartId = Guid.NewGuid().ToString("B");
 string xmlPartContent = "<root><text>Hello world!</text></root>";
 CustomXmlPart xmlPart = doc.CustomXmlParts.Add(xmlPartId, xmlPartContent);
@@ -35,14 +35,14 @@ CustomXmlPart xmlPart = doc.CustomXmlParts.Add(xmlPartId, xmlPartContent);
 Assert.AreEqual(Encoding.ASCII.GetBytes(xmlPartContent), xmlPart.Data);
 Assert.AreEqual(xmlPartId, xmlPart.Id);
 
-// Aşağıda, XML bölümlerine başvurmanın iki yolu vardır.
+// Aşağıda XML parçalarına başvurmanın iki yolu verilmiştir.
 // 1 - Özel XML parça koleksiyonundaki bir dizine göre:
 Assert.AreEqual(xmlPart, doc.CustomXmlParts[0]);
 
-// 2 - GUID ile:
+// 2 - GUID'e göre:
 Assert.AreEqual(xmlPart, doc.CustomXmlParts.GetById(xmlPartId));
 
-// Bir XML şeması ilişkilendirmesi ekleyin.
+// Bir XML şeması ilişkisi ekleyin.
 xmlPart.Schemas.Add("http://www.w3.org/2001/XMLSchema");
 
 // Bir parçayı klonlayın ve ardından onu koleksiyona ekleyin.
@@ -69,11 +69,11 @@ doc.CustomXmlParts.RemoveAt(1);
 
 Assert.AreEqual(1, doc.CustomXmlParts.Count);
 
-// XML parça koleksiyonunu klonlayın ve ardından tüm öğelerini bir kerede kaldırmak için "Temizle" yöntemini kullanın.
+// XML parça koleksiyonunu kopyalayın ve ardından tüm öğelerini bir kerede kaldırmak için "Temizle" yöntemini kullanın.
 CustomXmlPartCollection customXmlParts = doc.CustomXmlParts.Clone();
 customXmlParts.Clear();
 
-// Parçamızın içeriğini gösterecek ve onu belge gövdesine ekleyecek yapılandırılmış bir belge etiketi oluşturun.
+// Parçamızın içeriğini görüntüleyecek yapılandırılmış bir belge etiketi oluşturun ve bunu belge gövdesine ekleyin.
 StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Block);
 tag.XmlMapping.SetMapping(xmlPart, "/root[1]/text[1]", string.Empty);
 
@@ -93,7 +93,7 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 
 ## Add(string, string) {#add}
 
-Belirtilen XML ile yeni bir XML bölümü oluşturur ve onu koleksiyona ekler.
+Belirtilen XML ile yeni bir XML parçası oluşturur ve bunu koleksiyona ekler.
 
 ```csharp
 public CustomXmlPart Add(string id, string xml)
@@ -115,9 +115,9 @@ public CustomXmlPart Add(string id, string xml)
 ```csharp
 Document doc = new Document();
 
-// Veri içeren bir XML parçası oluşturun ve bunu belgenin koleksiyonuna ekleyin.
+// Veri içeren bir XML bölümü oluşturun ve onu belgenin koleksiyonuna ekleyin.
 // Microsoft Word'de "Geliştirici" sekmesini etkinleştirirsek,
-// Bu koleksiyondaki öğeleri, birkaç varsayılan öğeyle birlikte "XML Eşleme Panosu"nda bulabiliriz.
+// bu koleksiyondaki öğeleri birkaç varsayılan öğeyle birlikte "XML Eşleme Bölmesi"nde bulabiliriz.
 string xmlPartId = Guid.NewGuid().ToString("B");
 string xmlPartContent = "<root><text>Hello world!</text></root>";
 CustomXmlPart xmlPart = doc.CustomXmlParts.Add(xmlPartId, xmlPartContent);
@@ -125,14 +125,14 @@ CustomXmlPart xmlPart = doc.CustomXmlParts.Add(xmlPartId, xmlPartContent);
 Assert.AreEqual(Encoding.ASCII.GetBytes(xmlPartContent), xmlPart.Data);
 Assert.AreEqual(xmlPartId, xmlPart.Id);
 
-// Aşağıda, XML bölümlerine başvurmanın iki yolu vardır.
+// Aşağıda XML parçalarına başvurmanın iki yolu verilmiştir.
 // 1 - Özel XML parça koleksiyonundaki bir dizine göre:
 Assert.AreEqual(xmlPart, doc.CustomXmlParts[0]);
 
-// 2 - GUID ile:
+// 2 - GUID'e göre:
 Assert.AreEqual(xmlPart, doc.CustomXmlParts.GetById(xmlPartId));
 
-// Bir XML şeması ilişkilendirmesi ekleyin.
+// Bir XML şeması ilişkisi ekleyin.
 xmlPart.Schemas.Add("http://www.w3.org/2001/XMLSchema");
 
 // Bir parçayı klonlayın ve ardından onu koleksiyona ekleyin.
@@ -159,11 +159,11 @@ doc.CustomXmlParts.RemoveAt(1);
 
 Assert.AreEqual(1, doc.CustomXmlParts.Count);
 
-// XML parça koleksiyonunu klonlayın ve ardından tüm öğelerini bir kerede kaldırmak için "Temizle" yöntemini kullanın.
+// XML parça koleksiyonunu kopyalayın ve ardından tüm öğelerini bir kerede kaldırmak için "Temizle" yöntemini kullanın.
 CustomXmlPartCollection customXmlParts = doc.CustomXmlParts.Clone();
 customXmlParts.Clear();
 
-// Parçamızın içeriğini gösterecek ve onu belge gövdesine ekleyecek yapılandırılmış bir belge etiketi oluşturun.
+// Parçamızın içeriğini görüntüleyecek yapılandırılmış bir belge etiketi oluşturun ve bunu belge gövdesine ekleyin.
 StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Block);
 tag.XmlMapping.SetMapping(xmlPart, "/root[1]/text[1]", string.Empty);
 

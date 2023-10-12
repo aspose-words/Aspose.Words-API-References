@@ -16,16 +16,16 @@ public string Text { get; set; }
 
 ### Примеры
 
-Показывает, как использовать поле COMMENTS.
+Показывает, как использовать поле КОММЕНТАРИИ.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Установите значение для встроенного свойства документа «Комментарии».
+// Устанавливаем значение для встроенного свойства документа «Комментарии».
 doc.BuiltInDocumentProperties.Comments = "My comment.";
 
-// Создайте поле COMMENTS для отображения значения этого встроенного свойства.
+// Создайте поле КОММЕНТАРИЙ для отображения значения этого встроенного свойства.
 FieldComments field = (FieldComments)builder.InsertField(FieldType.FieldComments, true);
 field.Update();
 
@@ -33,7 +33,7 @@ Assert.AreEqual(" COMMENTS ", field.GetFieldCode());
 Assert.AreEqual("My comment.", field.Result);
 
 // Если мы зададим значение свойства Text поля COMMENTS и обновим его, поле будет
-// перезаписываем текущее значение встроенного свойства "Комментарии" значением его свойства Текст,
+// перезаписываем текущее значение встроенного свойства «Комментарии» значением его свойства Text,
 // и затем отображаем новое значение.
 field.Text = "My overriding comment.";
 field.Update();

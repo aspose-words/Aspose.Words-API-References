@@ -1,14 +1,14 @@
 ---
 title: Paragraph.NodeType
 second_title: Referencia de API de Aspose.Words para .NET
-description: Paragraph propiedad. Devoluciones NodeType.Paragraph .
+description: Paragraph propiedad. DevolucionesParagraph .
 type: docs
 weight: 170
 url: /es/net/aspose.words/paragraph/nodetype/
 ---
 ## Paragraph.NodeType property
 
-Devoluciones **NodeType.Paragraph** .
+DevolucionesParagraph .
 
 ```csharp
 public override NodeType NodeType { get; }
@@ -19,19 +19,20 @@ public override NodeType NodeType { get; }
 Muestra cómo recorrer el árbol de nodos secundarios de un nodo compuesto.
 
 ```csharp
+public void RecurseChildren()
 {
     Document doc = new Document(MyDir + "Paragraphs.docx");
 
     // Cualquier nodo que pueda contener nodos secundarios, como el propio documento, es compuesto.
     Assert.True(doc.IsComposite);
 
-    // Invoque la función recursiva que pasará e imprimirá todos los nodos secundarios de un nodo compuesto.
+    // Invoca la función recursiva que revisará e imprimirá todos los nodos secundarios de un nodo compuesto.
     TraverseAllNodes(doc, 0);
 }
 
 /// <summary>
-/// Recorre recursivamente un árbol de nodos mientras imprime el tipo de cada nodo
-/// con una sangría que depende de la profundidad, así como del contenido de todos los nodos en línea.
+/// Atraviesa recursivamente un árbol de nodos mientras imprime el tipo de cada nodo
+/// con una sangría que depende de la profundidad y del contenido de todos los nodos en línea.
 /// </summary>
 public void TraverseAllNodes(CompositeNode parentNode, int depth)
 {

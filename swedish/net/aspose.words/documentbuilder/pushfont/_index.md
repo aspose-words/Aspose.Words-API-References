@@ -3,7 +3,7 @@ title: DocumentBuilder.PushFont
 second_title: Aspose.Words för .NET API Referens
 description: DocumentBuilder metod. Sparar aktuell teckenformatering i stacken.
 type: docs
-weight: 570
+weight: 610
 url: /sv/net/aspose.words/documentbuilder/pushfont/
 ---
 ## DocumentBuilder.PushFont method

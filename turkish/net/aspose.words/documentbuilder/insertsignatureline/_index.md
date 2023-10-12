@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertSignatureLine
 second_title: Aspose.Words for .NET API Referansı
 description: DocumentBuilder yöntem. Geçerli konuma bir imza satırı ekler.
 type: docs
-weight: 420
+weight: 450
 url: /tr/net/aspose.words/documentbuilder/insertsignatureline/
 ---
 ## InsertSignatureLine(SignatureLineOptions) {#insertsignatureline}
@@ -16,7 +16,7 @@ public Shape InsertSignatureLine(SignatureLineOptions signatureLineOptions)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| signatureLineOptions | SignatureLineOptions | İmza satırı oluşturma parametrelerini depolayan nesne. |
+| signatureLineOptions | SignatureLineOptions | İmza satırı oluşturma parametrelerinin saklandığı nesne. |
 
 ### Geri dönüş değeri
 
@@ -24,7 +24,7 @@ Yeni eklenen imza satırı düğümü.
 
 ### Örnekler
 
-Kişisel sertifika ve imza satırı ile bir belgenin nasıl imzalanacağını gösterir.
+Kişisel sertifika ve imza satırı içeren bir belgenin nasıl imzalanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -62,7 +62,7 @@ CertificateHolder certHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "a
 DigitalSignatureUtil.Sign(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.docx", 
     ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
 
-// Kaydedilmiş belgemizi yeniden açın ve "IsSigned" ve "IsValid" özelliklerinin her ikisinin de "true" değerine eşit olduğunu doğrulayın,
+// Kaydedilen belgemizi yeniden açın ve "IsSigned" ve "IsValid" özelliklerinin her ikisinin de "true" değerine eşit olduğunu doğrulayın,
 // imza satırının bir imza içerdiğini belirtir.
 doc = new Document(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
@@ -94,12 +94,12 @@ public Shape InsertSignatureLine(SignatureLineOptions signatureLineOptions,
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| signatureLineOptions | SignatureLineOptions | İmza satırı oluşturma parametrelerini depolayan nesne. |
+| signatureLineOptions | SignatureLineOptions | İmza satırı oluşturma parametrelerinin saklandığı nesne. |
 | horzPos | RelativeHorizontalPosition | İmza çizgisine olan mesafenin nereden ölçüleceğini belirtir. |
-| left | Double | Başlangıç noktasından imza çizgisinin sol tarafına nokta cinsinden uzaklık. |
-| vertPos | RelativeVerticalPosition | İmza çizgisine olan uzaklığın nereden ölçüleceğini belirtir. |
-| top | Double | Başlangıç noktasından imza çizgisinin üst kenarına kadar nokta cinsinden mesafe. |
-| wrapType | WrapType | Metnin imza satırının etrafına nasıl kaydırılacağını belirtir. |
+| left | Double | Başlangıç noktasından imza çizgisinin sol tarafına kadar olan nokta cinsinden mesafe. |
+| vertPos | RelativeVerticalPosition | İmza çizgisine olan mesafenin nereden ölçüldüğünü belirtir. |
+| top | Double | Başlangıç noktasından imza çizgisinin üst kısmına kadar olan nokta cinsinden mesafe. |
+| wrapType | WrapType | Metnin imza satırı etrafına nasıl sarılacağını belirtir. |
 
 ### Geri dönüş değeri
 
@@ -107,11 +107,11 @@ Yeni eklenen imza satırı düğümü.
 
 ### Notlar
 
-öğesini kullanarak görüntü boyutunu, konumunu, konumlandırma yöntemini ve diğer ayarları değiştirebilirsiniz.[`Shape`](../../../aspose.words.drawing/shape/) Bu yöntemle döndürülen nesne.
+'yi kullanarak görüntü boyutunu, konumunu, konumlandırma yöntemini ve diğer ayarları değiştirebilirsiniz.[`Shape`](../../../aspose.words.drawing/shape/) Bu yöntemle döndürülen nesne.
 
 ### Örnekler
 
-Belgeye satır içi imza satırının nasıl ekleneceğini gösterir.
+Bir belgeye satır içi imza satırının nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -131,7 +131,7 @@ SignatureLineOptions options = new SignatureLineOptions
 builder.InsertSignatureLine(options, RelativeHorizontalPosition.RightMargin, 2.0,
     RelativeVerticalPosition.Page, 3.0, WrapType.Inline);
 
-// İmza satırı, Microsoft Word'de çift tıklanarak imzalanabilir.
+// İmza satırı Microsoft Word'de çift tıklanarak imzalanabilir.
 doc.Save(ArtifactsDir + "DocumentBuilder.SignatureLineInline.docx");
 ```
 

@@ -16,7 +16,7 @@ public int LocaleIdFarEast { get; set; }
 
 ### Notlar
 
-Yerel ayar tanımlayıcılarının listesi için bkz. https://msdn.microsoft.com/en-us/library/cc233965.aspx
+Yerel tanımlayıcıların listesi için bkz. https://msdn.microsoft.com/en-us/library/cc233965.aspx
 
 ### Örnekler
 
@@ -30,17 +30,17 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Font.Name = "Courier New";
 builder.Font.LocaleId = new CultureInfo("en-US", false).LCID;
 
-// Yazı tipimiz ve yerel ayarımız için "FarEast" eşdeğerlerini adlandırın.
-// Oluşturucu bu Yazı Tipi yapılandırmasıyla Asya karakterlerini eklerse, aşağıdakileri içeren her çalıştırma
-// bu karakterler, onları varsayılan yerine "UzakEast" yazı tipi/yerel ayarı kullanarak görüntüler.
-// Bu, bir batı yazı tipinin Asya karakterleri için ideal temsilleri olmadığında faydalı olabilir.
+// Yazı tipimiz ve yerel ayarımızın "UzakDoğu" eşdeğerlerini adlandırın.
+// Eğer oluşturucu bu Font konfigürasyonuna Asya karakterleri eklerse, aşağıdakileri içeren her çalıştırma
+// bu karakterler, varsayılan yerine "FarEast" yazı tipi/yerel ayarı kullanılarak görüntülenecektir.
+// Batı yazı tipinin Asya karakterleri için ideal temsilleri olmadığında bu yararlı olabilir.
 builder.Font.NameFarEast = "SimSun";
 builder.Font.LocaleIdFarEast = new CultureInfo("zh-CN", false).LCID;
 
 // Bu metin varsayılan yazı tipinde/yerel ayarda görüntülenecektir.
 builder.Writeln("Hello world!");
 
-// Bunlar Asya karakterleri olduğundan, bu çalıştırma "Uzakdoğu" yazı tipi/yerel eşdeğerlerimizi uygulayacaktır.
+// Bunlar Asya karakterleri olduğundan, bu çalıştırma "UzakDoğu" yazı tipi/yerel eşdeğerlerimizi uygulayacaktır.
 builder.Writeln("你好世界");
 
 doc.Save(ArtifactsDir + "Font.FarEast.docx");

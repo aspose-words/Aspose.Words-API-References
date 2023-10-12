@@ -1,14 +1,14 @@
 ---
 title: TabStopCollection.Equals
 second_title: Aspose.Words för .NET API Referens
-description: TabStopCollection metod. Bestämmer om den angivna TabStopCollection är lika i värde med den aktuella TabStopCollection.
+description: TabStopCollection metod. Bestämmer om den angivnaTabStopCollection är lika i värde med strömmenTabStopCollection .
 type: docs
 weight: 70
 url: /sv/net/aspose.words/tabstopcollection/equals/
 ---
 ## Equals(TabStopCollection) {#equals}
 
-Bestämmer om den angivna TabStopCollection är lika i värde med den aktuella TabStopCollection.
+Bestämmer om den angivna[`TabStopCollection`](../) är lika i värde med strömmen[`TabStopCollection`](../) .
 
 ```csharp
 public bool Equals(TabStopCollection rhs)

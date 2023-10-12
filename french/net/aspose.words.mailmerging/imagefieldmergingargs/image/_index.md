@@ -16,9 +16,10 @@ public Image Image { get; set; }
 
 ### Exemples
 
-Montre comment utiliser un rappel pour personnaliser la logique de fusion d'images.
+Montre comment utiliser un rappel pour personnaliser la logique de fusion d’images.
 
 ```csharp
+public void MergeFieldImages()
 {
     Document doc = new Document();
 
@@ -31,23 +32,24 @@ Montre comment utiliser un rappel pour personnaliser la logique de fusion d'imag
     Assert.AreEqual("Image:ImageColumn", field.FieldName);
 
     // Les noms de fichiers peuvent être longs, et si nous pouvons trouver un moyen d'éviter de les stocker dans la source de données,
-    // nous pouvons réduire considérablement sa taille.
-    // Crée une source de données qui fait référence aux images en utilisant des noms courts.
+    // on peut réduire considérablement sa taille.
+    // Créez une source de données qui fait référence aux images en utilisant des noms courts.
     DataTable dataTable = new DataTable("Images");
     dataTable.Columns.Add(new DataColumn("ImageColumn"));
     dataTable.Rows.Add("Dark logo");
     dataTable.Rows.Add("Transparent logo");
 
-    // Affecte un rappel de fusion qui contient toute la logique qui traite ces noms,
-     // puis exécutez le publipostage.
+    // Attribue un rappel de fusion contenant toute la logique qui traite ces noms,
+     // puis exécute le publipostage.
     doc.MailMerge.FieldMergingCallback = new ImageFilenameCallback();
     doc.MailMerge.Execute(dataTable);
 
     doc.Save(ArtifactsDir + "Field.MERGEFIELD.Images.docx");
+}
 
 /// <summary>
-/// Contient un dictionnaire qui associe les noms d'images aux noms de fichiers du système local qui contiennent ces images.
-/// Si une source de données de fusion et publipostage utilise l'un des noms du dictionnaire pour faire référence à une image,
+/// Contient un dictionnaire qui mappe les noms d'images aux noms de fichiers du système local contenant ces images.
+/// Si une source de données de publipostage utilise l'un des noms du dictionnaire pour faire référence à une image,
 /// ce rappel transmettra le nom de fichier respectif à la destination de fusion.
 /// </summary>
 private class ImageFilenameCallback : IFieldMergingCallback

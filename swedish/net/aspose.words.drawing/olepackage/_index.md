@@ -3,12 +3,14 @@ title: Class OlePackage
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Drawing.OlePackage klass. Ger åtkomst till OLEpaketets egenskaper.
 type: docs
-weight: 1030
+weight: 1160
 url: /sv/net/aspose.words.drawing/olepackage/
 ---
 ## OlePackage class
 
 Ger åtkomst till OLE-paketets egenskaper.
+
+För att lära dig mer, besök[Arbeta med Ole Objects](https://docs.aspose.com/words/net/working-with-ole-objects/) dokumentationsartikel.
 
 ```csharp
 public class OlePackage

@@ -1,14 +1,14 @@
 ---
 title: ImageData.Contrast
 second_title: Справочник по API Aspose.Words для .NET
-description: ImageData свойство. Получает или задает контраст для указанного изображения. Значение для этого свойства должно быть числом от 00 наименьший контраст до 10 наибольший контраст.
+description: ImageData свойство. Получает или задает контрастность указанного изображения. Значение для этого свойства должно быть числом от 00 наименьший контраст до 10 наибольший контраст.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.drawing/imagedata/contrast/
 ---
 ## ImageData.Contrast property
 
-Получает или задает контраст для указанного изображения. Значение для этого свойства должно быть числом от 0,0 (наименьший контраст) до 1,0 (наибольший контраст).
+Получает или задает контрастность указанного изображения. Значение для этого свойства должно быть числом от 0,0 (наименьший контраст) до 1,0 (наибольший контраст).
 
 ```csharp
 public double Contrast { get; set; }
@@ -28,7 +28,7 @@ Shape sourceShape = (Shape)imgSourceDoc.GetChildNodes(NodeType.Shape, true)[0];
 
 Document dstDoc = new Document();
 
-// Импорт фигуры из исходного документа и добавление ее к первому абзацу.
+// Импортируем фигуру из исходного документа и добавляем ее в первый абзац.
 Shape importedShape = (Shape)dstDoc.ImportNode(sourceShape, true);
 dstDoc.FirstSection.Body.FirstParagraph.AppendChild(importedShape);
 
@@ -42,34 +42,34 @@ Assert.True(imageData.HasImage);
 Assert.AreEqual(4, imageData.Borders.Count);
 Assert.AreEqual(Color.Empty, imageData.Borders[0].Color);
 
-// Это изображение не связано с другим файлом фигуры или изображения в локальной файловой системе.
+// Это изображение не связано с другим файлом формы или изображения в локальной файловой системе.
 Assert.False(imageData.IsLink);
 Assert.False(imageData.IsLinkOnly);
 
-// Свойства "Яркость" и "Контрастность" определяют яркость и контрастность изображения
+// Свойства «Яркость» и «Контрастность» определяют яркость и контрастность изображения.
 // по шкале от 0 до 1 со значением по умолчанию 0,5.
 imageData.Brightness = 0.8;
 imageData.Contrast = 1.0;
 
-// Указанные выше значения яркости и контрастности создали изображение с большим количеством белого.
-// Мы можем выбрать цвет с помощью свойства ChromaKey, чтобы заменить его прозрачностью, например, белым.
+// Приведенные выше значения яркости и контрастности создали изображение с большим количеством белого цвета.
+// С помощью свойства ChromaKey мы можем выбрать цвет для замены на прозрачность, например белый.
 imageData.ChromaKey = Color.White;
 
-// Снова импортируем исходную форму и делаем изображение монохромным.
+// Снова импортируем исходную форму и установим монохромное изображение.
 importedShape = (Shape)dstDoc.ImportNode(sourceShape, true);
 dstDoc.FirstSection.Body.FirstParagraph.AppendChild(importedShape);
 
 importedShape.ImageData.GrayScale = true;
 
 // Снова импортируйте исходную форму, чтобы создать третье изображение, и установите для него значение BiLevel.
-// BiLevel устанавливает для каждого пикселя черный или белый цвет, в зависимости от того, какой из них ближе к исходному цвету.
+// BiLevel устанавливает для каждого пикселя черный или белый цвет, в зависимости от того, какой цвет ближе к исходному.
 importedShape = (Shape)dstDoc.ImportNode(sourceShape, true);
 dstDoc.FirstSection.Body.FirstParagraph.AppendChild(importedShape);
 
 importedShape.ImageData.BiLevel = true;
 
-// Обрезка определяется по шкале 0-1. Обрезка стороны на 0,3
-// обрезает 30% изображения с обрезанной стороны.
+// Обрезка определяется по шкале от 0 до 1. Обрезка стороны на 0,3
+// обрежет 30% изображения с обрезанной стороны.
 importedShape.ImageData.CropBottom = 0.3;
 importedShape.ImageData.CropLeft = 0.3;
 importedShape.ImageData.CropTop = 0.3;

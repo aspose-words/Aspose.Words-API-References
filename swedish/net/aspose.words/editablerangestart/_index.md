@@ -3,12 +3,14 @@ title: Class EditableRangeStart
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.EditableRangeStart klass. Representerar början på ett redigerbart område i ett Worddokument.
 type: docs
-weight: 1290
+weight: 1440
 url: /sv/net/aspose.words/editablerangestart/
 ---
 ## EditableRangeStart class
 
 Representerar början på ett redigerbart område i ett Word-dokument.
+
+För att lära dig mer, besök[Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) dokumentationsartikel.
 
 ```csharp
 public sealed class EditableRangeStart : Node
@@ -22,12 +24,12 @@ public sealed class EditableRangeStart : Node
 | virtual [Document](../../aspose.words/node/document/) { get; } | Hämtar dokumentet som denna nod tillhör. |
 | [EditableRange](../../aspose.words/editablerangestart/editablerange/) { get; } | Hämtar fasadobjektet som kapslar in det här redigerbara intervallets början och slut. |
 | [Id](../../aspose.words/editablerangestart/id/) { get; set; } | Anger identifieraren för det redigerbara intervallet. |
-| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Returnerar sant om denna nod kan innehålla andra noder. |
+| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Returnerar`Sann` om denna nod kan innehålla andra noder. |
 | [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Hämtar noden omedelbart efter denna nod. |
 | override [NodeType](../../aspose.words/editablerangestart/nodetype/) { get; } | ReturnerarEditableRangeStart . |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Hämtar den omedelbara föräldern till denna nod. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Hämtar noden omedelbart före denna nod. |
-| [Range](../../aspose.words/node/range/) { get; } | Returnerar en **Räckvidd** objekt som representerar den del av ett dokument som finns i denna nod. |
+| [Range](../../aspose.words/node/range/) { get; } | Returnerar en[`Range`](../range/) objekt som representerar den del av ett dokument som finns i denna nod. |
 
 ## Metoder
 
@@ -50,7 +52,7 @@ Ett komplett redigerbart område i ett Word-dokument består av en`EditableRange
 
 `EditableRangeStart` och[`EditableRangeEnd`](../editablerangeend/) är bara markörer inuti en document som anger var det redigerbara intervallet börjar och slutar.
 
-Använd[`EditableRange`](./editablerange/)klass som en "fasad" för att arbeta med ett redigerbart område som ett enda objekt.
+Använd[`EditableRange`](./editablerange/) klass som en "fasad" för att arbeta med ett redigerbart område som ett enda objekt.
 
 För närvarande stöds redigerbara intervall endast på inline-nivå, det vill säga inuti[`Paragraph`](../paragraph/), men redigerbart intervallstart och redigerbart intervallslut kan vara i olika stycken.
 

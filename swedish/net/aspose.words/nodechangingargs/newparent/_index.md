@@ -19,6 +19,7 @@ public Node NewParent { get; }
 Visar hur man använder en NodeChangingCallback för att övervaka ändringar i dokumentträdet i realtid när vi redigerar det.
 
 ```csharp
+public void NodeChangingCallback()
 {
     Document doc = new Document();
     doc.NodeChangingCallback = new NodeChangingPrinter();

@@ -3,7 +3,7 @@ title: Enum TextEffect
 second_title: Aspose.Words for .NET API Referansı
 description: Aspose.Words.TextEffect Sıralama. Metin çalıştırmaları için animasyon efekti.
 type: docs
-weight: 6120
+weight: 6420
 url: /tr/net/aspose.words/texteffect/
 ---
 ## TextEffect enumeration

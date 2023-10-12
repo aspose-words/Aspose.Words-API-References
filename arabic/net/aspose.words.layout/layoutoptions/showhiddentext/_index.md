@@ -1,14 +1,14 @@
 ---
 title: LayoutOptions.ShowHiddenText
 second_title: Aspose.Words لمراجع .NET API
-description: LayoutOptions ملكية. الحصول على أو تعيين إشارة إلى ما إذا كان النص المخفي في المستند سيتم تقديمه أم لا. الإعداد الافتراضي خطأ.
+description: LayoutOptions ملكية. الحصول على أو تعيين الإشارة إلى ما إذا كان سيتم عرض النص المخفي في المستند. الافتراضي هوخطأ شنيع .
 type: docs
-weight: 70
+weight: 80
 url: /ar/net/aspose.words.layout/layoutoptions/showhiddentext/
 ---
 ## LayoutOptions.ShowHiddenText property
 
-الحصول على أو تعيين إشارة إلى ما إذا كان النص المخفي في المستند سيتم تقديمه أم لا. الإعداد الافتراضي خطأ.
+الحصول على أو تعيين الإشارة إلى ما إذا كان سيتم عرض النص المخفي في المستند. الافتراضي هو`خطأ شنيع` .
 
 ```csharp
 public bool ShowHiddenText { get; set; }
@@ -16,16 +16,16 @@ public bool ShowHiddenText { get; set; }
 
 ### ملاحظات
 
-تؤثر هذه الخاصية على كل المحتوى المخفي ، وليس النص فقط.
+تؤثر هذه الخاصية على كافة المحتويات المخفية، وليس النص فقط.
 
 ### أمثلة
 
-يوضح كيفية إخفاء النص في مستند الإخراج المعروض.
+يوضح كيفية إخفاء النص في مستند الإخراج المقدم.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-// أدخل نصًا مخفيًا ، ثم حدد ما إذا كنا نرغب في حذفه من المستند المقدم.
+// أدخل نصًا مخفيًا، ثم حدد ما إذا كنا نرغب في حذفه من المستند المعروض.
 builder.Writeln("This text is not hidden.");
 builder.Font.Hidden = true;
 builder.Writeln("This text is hidden.");

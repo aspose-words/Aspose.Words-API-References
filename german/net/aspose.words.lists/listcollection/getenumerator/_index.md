@@ -1,14 +1,14 @@
 ---
 title: ListCollection.GetEnumerator
 second_title: Aspose.Words für .NET-API-Referenz
-description: ListCollection methode. Ruft das Aufzählungsobjekt ab das Listen im Dokument aufzählt.
+description: ListCollection methode. Ruft das Enumeratorobjekt ab das Listen im Dokument aufzählt.
 type: docs
 weight: 60
 url: /de/net/aspose.words.lists/listcollection/getenumerator/
 ---
 ## ListCollection.GetEnumerator method
 
-Ruft das Aufzählungsobjekt ab, das Listen im Dokument aufzählt.
+Ruft das Enumeratorobjekt ab, das Listen im Dokument aufzählt.
 
 ```csharp
 public IEnumerator<List> GetEnumerator()

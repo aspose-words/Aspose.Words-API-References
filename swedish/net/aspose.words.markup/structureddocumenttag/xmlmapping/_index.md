@@ -3,7 +3,7 @@ title: StructuredDocumentTag.XmlMapping
 second_title: Aspose.Words för .NET API Referens
 description: StructuredDocumentTag fast egendom. Hämtar ett objekt som representerar mappningen av denna strukturerade dokumenttagg till XML data i en anpassad XMLdel av det aktuella dokumentet.
 type: docs
-weight: 310
+weight: 320
 url: /sv/net/aspose.words.markup/structureddocumenttag/xmlmapping/
 ---
 ## StructuredDocumentTag.XmlMapping property

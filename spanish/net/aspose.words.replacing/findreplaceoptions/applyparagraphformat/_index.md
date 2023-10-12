@@ -1,14 +1,14 @@
 ---
 title: FindReplaceOptions.ApplyParagraphFormat
 second_title: Referencia de API de Aspose.Words para .NET
-description: FindReplaceOptions propiedad. Formato de párrafo aplicado al nuevo contenido.
+description: FindReplaceOptions propiedad. Formato de párrafo aplicado al contenido nuevo.
 type: docs
 weight: 30
 url: /es/net/aspose.words.replacing/findreplaceoptions/applyparagraphformat/
 ---
 ## FindReplaceOptions.ApplyParagraphFormat property
 
-Formato de párrafo aplicado al nuevo contenido.
+Formato de párrafo aplicado al contenido nuevo.
 
 ```csharp
 public ParagraphFormat ApplyParagraphFormat { get; }
@@ -16,7 +16,7 @@ public ParagraphFormat ApplyParagraphFormat { get; }
 
 ### Ejemplos
 
-Muestra cómo agregar formato a los párrafos en los que una operación de buscar y reemplazar ha encontrado coincidencias.
+Muestra cómo agregar formato a párrafos en los que una operación de buscar y reemplazar encontró coincidencias.
 
 ```csharp
 Document doc = new Document();
@@ -32,14 +32,14 @@ Assert.AreEqual(ParagraphAlignment.Left, paragraphs[0].ParagraphFormat.Alignment
 Assert.AreEqual(ParagraphAlignment.Left, paragraphs[1].ParagraphFormat.Alignment);
 Assert.AreEqual(ParagraphAlignment.Left, paragraphs[2].ParagraphFormat.Alignment);
 
-// Podemos usar un objeto "FindReplaceOptions" para modificar el proceso de buscar y reemplazar.
+// Podemos utilizar un objeto "FindReplaceOptions" para modificar el proceso de buscar y reemplazar.
 FindReplaceOptions options = new FindReplaceOptions();
 
-// Establecer la propiedad "Alineación" en "ParagraphAlignment.Right" para alinear a la derecha cada párrafo
+// Establece la propiedad "Alineación" en "ParagraphAlignment.Right" para alinear a la derecha cada párrafo
 // que contiene una coincidencia que encuentra la operación de buscar y reemplazar.
 options.ApplyParagraphFormat.Alignment = ParagraphAlignment.Right;
 
-// Reemplace cada punto que está justo antes de un salto de párrafo con un signo de exclamación.
+// Reemplaza cada punto que está justo antes de un salto de párrafo con un signo de exclamación.
 int count = doc.Range.Replace(".&p", "!&p", options);
 
 Assert.AreEqual(2, count);

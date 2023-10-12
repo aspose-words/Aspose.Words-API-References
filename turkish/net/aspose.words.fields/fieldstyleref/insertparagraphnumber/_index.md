@@ -22,15 +22,15 @@ STYLEREF alanlarının nasıl kullanılacağını gösterir.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Bir Microsoft Word liste şablonu kullanarak bir liste oluşturun.
+// Microsoft Word liste şablonunu kullanarak bir liste oluşturun.
 Aspose.Words.Lists.List list = doc.Lists.Add(Aspose.Words.Lists.ListTemplate.NumberDefault);
 
 // Oluşturulan bu listede "1.a )" görüntülenecektir.
- // Köşeli ayraçtan önceki boşluk, bastırabileceğimiz sınırlayıcı olmayan bir karakterdir.
+ // Parantezden önceki boşluk, sınırlayıcı olmayan bir karakterdir ve bunu bastırabiliriz.
 list.ListLevels[0].NumberFormat = "\x0000.";
 list.ListLevels[1].NumberFormat = "\x0001 )";
 
-// STYLEREF alanlarının başvuracağı metin ekleyin ve paragraf stilleri uygulayın.
+// Metin ekleyin ve STYLEREF alanlarının referans alacağı paragraf stillerini uygulayın.
 builder.ListFormat.List = list;
 builder.ListFormat.ListIndent();
 builder.ParagraphFormat.Style = doc.Styles["List Paragraph"];
@@ -42,12 +42,12 @@ builder.Writeln("Item 3");
 builder.ListFormat.RemoveNumbers();
 builder.ParagraphFormat.Style = doc.Styles["Normal"];
 
-// Başlığa bir STYLEREF alanı yerleştirin ve belgedeki ilk "Liste Paragrafı" stili metni görüntüleyin.
+// Başlığa bir STYLEREF alanı yerleştirin ve belgedeki ilk "Paragraf Listele" stilindeki metni görüntüleyin.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 FieldStyleRef field = (FieldStyleRef)builder.InsertField(FieldType.FieldStyleRef, true);
 field.StyleName = "List Paragraph";
 
-// Altbilgiye bir STYLEREF alanı yerleştirin ve son metni göstermesini sağlayın.
+// Altbilgiye bir STYLEREF alanı yerleştirin ve son metni görüntülemesini sağlayın.
 builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
 field = (FieldStyleRef)builder.InsertField(FieldType.FieldStyleRef, true);
 field.StyleName = "List Paragraph";
@@ -55,7 +55,7 @@ field.SearchFromBottom = true;
 
 builder.MoveToDocumentEnd();
 
-// Listelerin liste numaralarını referans almak için STYLEREF alanlarını da kullanabiliriz.
+// Listelerin liste numaralarına referans vermek için STYLEREF alanlarını da kullanabiliriz.
 builder.Write("\nParagraph number: ");
 field = (FieldStyleRef)builder.InsertField(FieldType.FieldStyleRef, true);
 field.StyleName = "Quote";
@@ -77,6 +77,7 @@ field.StyleName = "Quote";
 field.InsertParagraphNumberInFullContext = true;
 field.SuppressNonDelimiters = true;
 
+doc.UpdatePageLayout();
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "Field.STYLEREF.docx");
 ```

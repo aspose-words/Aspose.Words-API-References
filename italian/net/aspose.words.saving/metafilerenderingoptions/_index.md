@@ -1,14 +1,16 @@
 ---
 title: Class MetafileRenderingOptions
 second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Saving.MetafileRenderingOptions classe. Consente di specificare ulteriori opzioni di rendering del metafile.
+description: Aspose.Words.Saving.MetafileRenderingOptions classe. Permette di specificare opzioni aggiuntive di rendering del metafile.
 type: docs
-weight: 5020
+weight: 5300
 url: /it/net/aspose.words.saving/metafilerenderingoptions/
 ---
 ## MetafileRenderingOptions class
 
-Consente di specificare ulteriori opzioni di rendering del metafile.
+Permette di specificare opzioni aggiuntive di rendering del metafile.
+
+Per saperne di più, visita il[Gestione dei metafile di Windows](https://docs.aspose.com/words/net/handling-windows-metafiles/) articolo di documentazione.
 
 ```csharp
 public class MetafileRenderingOptions
@@ -26,15 +28,18 @@ public class MetafileRenderingOptions
 | --- | --- |
 | [EmfPlusDualRenderingMode](../../aspose.words.saving/metafilerenderingoptions/emfplusdualrenderingmode/) { get; set; } | Ottiene o imposta un valore che determina la modalità di rendering dei metafile EMF+ Dual. |
 | [EmulateRasterOperations](../../aspose.words.saving/metafilerenderingoptions/emulaterasteroperations/) { get; set; } | Ottiene o imposta un valore che determina se le operazioni raster devono essere emulate o meno. |
-| [RenderingMode](../../aspose.words.saving/metafilerenderingoptions/renderingmode/) { get; set; } | Ottiene o imposta un valore che determina la modalità di rendering delle immagini del metafile. |
-| [ScaleWmfFontsToMetafileSize](../../aspose.words.saving/metafilerenderingoptions/scalewmffontstometafilesize/) { get; set; } | Ottiene o imposta un valore che determina se ridimensionare o meno i caratteri nel metafile WMF in base alla dimensione del metafile nella pagina. |
+| [EmulateRenderingToSizeOnPage](../../aspose.words.saving/metafilerenderingoptions/emulaterenderingtosizeonpage/) { get; set; } | Ottiene o imposta un valore che determina se il rendering del metafile emula la visualizzazione del metafile in base alla dimensione su page o la visualizzazione del metafile nella sua dimensione predefinita. |
+| [EmulateRenderingToSizeOnPageResolution](../../aspose.words.saving/metafilerenderingoptions/emulaterenderingtosizeonpageresolution/) { get; set; } | Ottiene o imposta la risoluzione in pixel per pollice per l'emulazione del rendering del metafile sulla dimensione della pagina. |
+| [RenderingMode](../../aspose.words.saving/metafilerenderingoptions/renderingmode/) { get; set; } | Ottiene o imposta un valore che determina la modalità di rendering delle immagini metafile. |
 | [UseEmfEmbeddedToWmf](../../aspose.words.saving/metafilerenderingoptions/useemfembeddedtowmf/) { get; set; } | Ottiene o imposta un valore che determina la modalità di rendering dei metafile WMF con metafile EMF incorporati. |
+| [UseGdiRasterOperationsEmulation](../../aspose.words.saving/metafilerenderingoptions/usegdirasteroperationsemulation/) { get; set; } | Ottiene o imposta un valore che determina se utilizzare o meno GDI+ per l'emulazione delle operazioni raster. |
 
 ### Esempi
 
-Mostra aggiunto un fallback al rendering delle bitmap e alla modifica del tipo di avvisi sui record di metafile non supportati.
+Mostra aggiunto un fallback al rendering bitmap e modificando il tipo di avvisi sui record di metafile non supportati.
 
 ```csharp
+public void HandleBinaryRasterWarnings()
 {
     Document doc = new Document(MyDir + "WMF with image.docx");
 
@@ -48,7 +53,7 @@ Mostra aggiunto un fallback al rendering delle bitmap e alla modifica del tipo d
     metafileRenderingOptions.RenderingMode = MetafileRenderingMode.VectorWithFallback;
 
     // Crea un oggetto "PdfSaveOptions" che possiamo passare al metodo "Save" del documento
-    // per modificare il modo in cui quel metodo converte il documento in .PDF e applica la configurazione
+    // per modificare il modo in cui il metodo converte il documento in .PDF e applica la configurazione
     // nel nostro oggetto MetafileRenderingOptions all'operazione di salvataggio.
     PdfSaveOptions saveOptions = new PdfSaveOptions();
     saveOptions.MetafileRenderingOptions = metafileRenderingOptions;
@@ -59,7 +64,7 @@ Mostra aggiunto un fallback al rendering delle bitmap e alla modifica del tipo d
     doc.Save(ArtifactsDir + "PdfSaveOptions.HandleBinaryRasterWarnings.pdf", saveOptions);
 
     Assert.AreEqual(1, callback.Warnings.Count);
-    Assert.AreEqual("'R2_XORPEN' binary raster operation is partly supported.",
+    Assert.AreEqual("'R2_XORPEN' binary raster operation is not supported.",
         callback.Warnings[0].Description);
 }
 

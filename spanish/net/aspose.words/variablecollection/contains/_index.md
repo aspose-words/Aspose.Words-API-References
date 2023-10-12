@@ -1,14 +1,14 @@
 ---
 title: VariableCollection.Contains
 second_title: Referencia de API de Aspose.Words para .NET
-description: VariableCollection método. Determina si la colección contiene una variable de documento con el nombre dado.
+description: VariableCollection método. Determina si la colección contiene una variable de documento con el nombre indicado.
 type: docs
 weight: 50
 url: /es/net/aspose.words/variablecollection/contains/
 ---
 ## VariableCollection.Contains method
 
-Determina si la colección contiene una variable de documento con el nombre dado.
+Determina si la colección contiene una variable de documento con el nombre indicado.
 
 ```csharp
 public bool Contains(string name)
@@ -16,11 +16,11 @@ public bool Contains(string name)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| name | String | Nombre que no distingue entre mayúsculas y minúsculas de la variable de documento que se va a localizar. |
+| name | String | Nombre que no distingue entre mayúsculas y minúsculas de la variable del documento que se va a localizar. |
 
 ### Valor_devuelto
 
-True si el elemento se encuentra en la colección; en caso contrario, falso.
+`verdadero` si el artículo se encuentra en la colección; de lo contrario,`FALSO`.
 
 ### Ejemplos
 
@@ -64,12 +64,12 @@ Assert.AreEqual(0, variables.IndexOfKey("Bedrooms"));
 Assert.AreEqual(1, variables.IndexOfKey("City"));
 Assert.AreEqual(2, variables.IndexOfKey("Home address"));
 
-// Enumerar sobre la colección de variables.
+// Enumerar la colección de variables.
 using (IEnumerator<KeyValuePair<string, string>> enumerator = doc.Variables.GetEnumerator())
     while (enumerator.MoveNext())
         Console.WriteLine($"Name: {enumerator.Current.Key}, Value: {enumerator.Current.Value}");
 
-// A continuación se muestran tres formas de eliminar variables de documentos de una colección.
+// A continuación se muestran tres formas de eliminar variables de documento de una colección.
 // 1 - Por nombre:
 variables.Remove("City");
 

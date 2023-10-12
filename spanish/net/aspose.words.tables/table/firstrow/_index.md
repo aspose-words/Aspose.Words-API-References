@@ -1,14 +1,14 @@
 ---
 title: Table.FirstRow
 second_title: Referencia de API de Aspose.Words para .NET
-description: Table propiedad. Devuelve el primero Fila nodo en la tabla.
+description: Table propiedad. Devuelve el primeroRow nodo en la tabla.
 type: docs
 weight: 160
 url: /es/net/aspose.words.tables/table/firstrow/
 ---
 ## Table.FirstRow property
 
-Devuelve el primero **Fila** nodo en la tabla.
+Devuelve el primero[`Row`](../../row/) nodo en la tabla.
 
 ```csharp
 public Row FirstRow { get; }
@@ -41,8 +41,8 @@ Muestra cómo combinar las filas de dos tablas en una.
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
 
-// A continuación hay dos formas de obtener una tabla de un documento.
-// 1 - De la colección "Tables" de un nodo Body:
+// A continuación se muestran dos formas de obtener una tabla de un documento.
+// 1 - De la colección "Tablas" de un nodo Cuerpo:
 Table firstTable = doc.FirstSection.Body.Tables[0];
 
 // 2 - Usando el método "GetChild":

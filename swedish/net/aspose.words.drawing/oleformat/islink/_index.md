@@ -1,14 +1,14 @@
 ---
 title: OleFormat.IsLink
 second_title: Aspose.Words för .NET API Referens
-description: OleFormat fast egendom. Returnerar sant om OLEobjektet är länkat närSourceFullName anges.
+description: OleFormat fast egendom. ReturnerarSann om OLEobjektet är länkat närSourceFullName anges.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.drawing/oleformat/islink/
 ---
 ## OleFormat.IsLink property
 
-Returnerar sant om OLE-objektet är länkat (när[`SourceFullName`](../sourcefullname/) anges).
+Returnerar`Sann` om OLE-objektet är länkat (när[`SourceFullName`](../sourcefullname/) anges).
 
 ```csharp
 public bool IsLink { get; }

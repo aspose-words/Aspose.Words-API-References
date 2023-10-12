@@ -3,12 +3,14 @@ title: Class MemoryFontSource
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Fonts.MemoryFontSource klass. Representerar den enda TrueTypeteckensnittsfilen som är lagrad i minnet.
 type: docs
-weight: 2840
+weight: 3020
 url: /sv/net/aspose.words.fonts/memoryfontsource/
 ---
 ## MemoryFontSource class
 
 Representerar den enda TrueType-teckensnittsfilen som är lagrad i minnet.
+
+För att lära dig mer, besök[Arbeta med teckensnitt](https://docs.aspose.com/words/net/working-with-fonts/) dokumentationsartikel.
 
 ```csharp
 public class MemoryFontSource : FontSourceBase

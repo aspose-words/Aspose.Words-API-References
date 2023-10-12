@@ -24,7 +24,7 @@ La posición de la tabulación.
 
 ### Ejemplos
 
-Muestra cómo encontrar una pestaña, detenerse en su índice y verificar su posición.
+Muestra cómo encontrar una pestaña, pasar por su índice y verificar su posición.
 
 ```csharp
 Document doc = new Document();
@@ -33,7 +33,7 @@ TabStopCollection tabStops = doc.FirstSection.Body.Paragraphs[0].ParagraphFormat
 tabStops.Add(ConvertUtil.MillimeterToPoint(30), TabAlignment.Left, TabLeader.Dashes);
 tabStops.Add(ConvertUtil.MillimeterToPoint(60), TabAlignment.Left, TabLeader.Dashes);
 
-// Verificar la posición de la segunda tabulación en la colección.
+// Verifica la posición de la segunda tabulación en la colección.
 Assert.AreEqual(ConvertUtil.MillimeterToPoint(60), tabStops.GetPositionByIndex(1), 0.1d);
 ```
 

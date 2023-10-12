@@ -16,7 +16,7 @@ public VbaReference this[int index] { get; }
 
 | Paramètre | La description |
 | --- | --- |
-| index | Index de base zéro de la référence à obtenir. |
+| index | L'index de base zéro de la référence à obtenir. |
 
 ### Voir également
 

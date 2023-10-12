@@ -22,15 +22,14 @@ public bool ReadOnlyRecommended { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world! This document is protected.");
-
-// أدخل كلمة مرور يصل طولها إلى 15 حرفًا ، ثم تحقق من حالة حماية المستند.
+// أدخل كلمة مرور يصل طولها إلى 15 حرفًا، ثم تحقق من حالة حماية المستند.
 doc.WriteProtection.SetPassword("MyPassword");
 doc.WriteProtection.ReadOnlyRecommended = true;
 
 Assert.IsTrue(doc.WriteProtection.IsWriteProtected);
 Assert.IsTrue(doc.WriteProtection.ValidatePassword("MyPassword"));
 
-// لا تمنع الحماية تحرير المستند برمجيًا ولا تقوم بتشفير المحتويات.
+// الحماية لا تمنع تحرير المستند برمجيًا، ولا تقوم بتشفير محتوياته.
 doc.Save(ArtifactsDir + "Document.WriteProtection.docx");
 doc = new Document(ArtifactsDir + "Document.WriteProtection.docx");
 

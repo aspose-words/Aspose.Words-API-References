@@ -1,14 +1,16 @@
 ---
 title: Class CellCollection
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Tables.CellCollection сорт. Предоставляет типизированный доступ к коллекцииCell узлы.
+description: Aspose.Words.Tables.CellCollection сорт. Обеспечивает типизированный доступ к коллекцииCell узлы.
 type: docs
-weight: 5950
+weight: 6250
 url: /ru/net/aspose.words.tables/cellcollection/
 ---
 ## CellCollection class
 
-Предоставляет типизированный доступ к коллекции[`Cell`](../cell/) узлы.
+Обеспечивает типизированный доступ к коллекции[`Cell`](../cell/) узлы.
+
+Чтобы узнать больше, посетите[Работа с таблицами](https://docs.aspose.com/words/net/working-with-tables/) статья документации.
 
 ```csharp
 public class CellCollection : NodeCollection
@@ -19,7 +21,7 @@ public class CellCollection : NodeCollection
 | Имя | Описание |
 | --- | --- |
 | [Count](../../aspose.words/nodecollection/count/) { get; } | Получает количество узлов в коллекции. |
-| [Item](../../aspose.words.tables/cellcollection/item/) { get; } | Получает **Клетка** по данному индексу. (2 indexers) |
+| [Item](../../aspose.words.tables/cellcollection/item/) { get; } | Получает[`Cell`](../cell/) по данному индексу. (2 indexers) |
 
 ## Методы
 
@@ -28,16 +30,16 @@ public class CellCollection : NodeCollection
 | [Add](../../aspose.words/nodecollection/add/)(Node) | Добавляет узел в конец коллекции. |
 | [Clear](../../aspose.words/nodecollection/clear/)() | Удаляет все узлы из этой коллекции и из документа. |
 | [Contains](../../aspose.words/nodecollection/contains/)(Node) | Определяет, находится ли узел в коллекции. |
-| [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Обеспечивает простую итерацию в стиле foreach по набору узлов. |
-| [IndexOf](../../aspose.words/nodecollection/indexof/)(Node) | Возвращает отсчитываемый от нуля индекс указанного узла. |
+| [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Обеспечивает простую итерацию стиля foreach по коллекции узлов. |
+| [IndexOf](../../aspose.words/nodecollection/indexof/)(Node) | Возвращает индекс указанного узла, начинающийся с нуля. |
 | [Insert](../../aspose.words/nodecollection/insert/)(int, Node) | Вставляет узел в коллекцию по указанному индексу. |
 | [Remove](../../aspose.words/nodecollection/remove/)(Node) | Удаляет узел из коллекции и из документа. |
-| [RemoveAt](../../aspose.words/nodecollection/removeat/)(int) | Удаляет узел с указанным индексом из коллекции и из документа. |
+| [RemoveAt](../../aspose.words/nodecollection/removeat/)(int) | Удаляет узел по указанному индексу из коллекции и из документа. |
 | [ToArray](../../aspose.words.tables/cellcollection/toarray/#toarray_1)() | Копирует все ячейки из коллекции в новый массив ячеек. (2 methods) |
 
 ### Примеры
 
-Показывает, как выполнить итерацию по всем таблицам в документе и распечатать содержимое каждой ячейки.
+Показывает, как перебрать все таблицы в документе и распечатать содержимое каждой ячейки.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -51,7 +53,7 @@ for (int i = 0; i < tables.Count; i++)
 
     RowCollection rows = tables[i].Rows;
 
-    // Мы можем использовать метод "ToArray" для набора строк, чтобы клонировать его в массив.
+    // Мы можем использовать метод ToArray для коллекции строк, чтобы клонировать ее в массив.
     Assert.AreEqual(rows, rows.ToArray());
     Assert.AreNotSame(rows, rows.ToArray());
 
@@ -61,7 +63,7 @@ for (int i = 0; i < tables.Count; i++)
 
         CellCollection cells = rows[j].Cells;
 
-        // Мы можем использовать метод "ToArray" для набора ячеек, чтобы клонировать его в массив.
+        // Мы можем использовать метод ToArray для коллекции ячеек, чтобы клонировать ее в массив.
         Assert.AreEqual(cells, cells.ToArray());
         Assert.AreNotSame(cells, cells.ToArray());
 

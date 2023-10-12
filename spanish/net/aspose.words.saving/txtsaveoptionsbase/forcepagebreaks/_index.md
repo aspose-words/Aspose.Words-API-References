@@ -10,7 +10,7 @@ url: /es/net/aspose.words.saving/txtsaveoptionsbase/forcepagebreaks/
 
 Permite especificar si los saltos de página deben conservarse durante la exportación.
 
-El valor predeterminado es **falso**.
+El valor predeterminado es`FALSO`.
 
 ```csharp
 public bool ForcePageBreaks { get; set; }
@@ -18,11 +18,11 @@ public bool ForcePageBreaks { get; set; }
 
 ### Observaciones
 
-La propiedad afecta solo a los saltos de página que se insertan explícitamente en un documento. No está relacionado con los saltos de página que MS Word inserta automáticamente al final de cada página.
+La propiedad afecta sólo a los saltos de página que se insertan explícitamente en un documento. No está relacionado con los saltos de página que MS Word inserta automáticamente al final de cada página.
 
 ### Ejemplos
 
-Muestra cómo especificar si se deben conservar los saltos de página al exportar un documento a texto sin formato.
+Muestra cómo especificar si se conservan los saltos de página al exportar un documento a texto sin formato.
 
 ```csharp
 Document doc = new Document();
@@ -34,14 +34,14 @@ builder.Writeln("Page 2");
 builder.InsertBreak(BreakType.PageBreak);
 builder.Writeln("Page 3");
 
-// Crear un objeto "TxtSaveOptions", que podemos pasar al "Guardar" del documento
-// método para modificar cómo guardamos el documento en texto sin formato.
+// Crea un objeto "TxtSaveOptions", que podemos pasar al "Guardar" del documento.
+// método para modificar cómo guardamos el documento en texto plano.
 TxtSaveOptions saveOptions = new TxtSaveOptions();
 
 // Los objetos "Documento" de Aspose.Words tienen saltos de página, al igual que los documentos de Microsoft Word.
 // Los formatos de guardado como ".txt" son un cuerpo de texto continuo sin saltos de página.
-// Establezca la propiedad "ForcePageBreaks" en "true" para conservar todos los saltos de página en forma de caracteres '\f'.
-// Establezca la propiedad "ForcePageBreaks" en "false" para descartar todos los saltos de página.
+// Establece la propiedad "ForcePageBreaks" en "true" para conservar todos los saltos de página en forma de caracteres '\f'.
+// Establece la propiedad "ForcePageBreaks" en "false" para descartar todos los saltos de página.
 saveOptions.ForcePageBreaks = forcePageBreaks;
 
 doc.Save(ArtifactsDir + "TxtSaveOptions.PageBreaks.txt", saveOptions);

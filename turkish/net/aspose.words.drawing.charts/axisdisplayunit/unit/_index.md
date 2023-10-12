@@ -1,14 +1,14 @@
 ---
 title: AxisDisplayUnit.Unit
 second_title: Aspose.Words for .NET API Referansı
-description: AxisDisplayUnit mülk. Görüntüleme birimlerinin ölçekleme değerini önceden tanımlanmış değerlerden biri olarak alır veya ayarlar.
+description: AxisDisplayUnit mülk. Görüntü birimlerinin ölçeklendirme değerini önceden tanımlanmış değerlerden biri olarak alır veya ayarlar.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.drawing.charts/axisdisplayunit/unit/
 ---
 ## AxisDisplayUnit.Unit property
 
-Görüntüleme birimlerinin ölçekleme değerini önceden tanımlanmış değerlerden biri olarak alır veya ayarlar.
+Görüntü birimlerinin ölçeklendirme değerini önceden tanımlanmış değerlerden biri olarak alır veya ayarlar.
 
 ```csharp
 public AxisBuiltInUnit Unit { get; set; }
@@ -16,7 +16,7 @@ public AxisBuiltInUnit Unit { get; set; }
 
 ### Notlar
 
-Varsayılan değerNone . buCustom and Percentage değerler bazı grafik türlerinde bulunmaz; bkz. [`AxisBuiltInUnit`](../../axisbuiltinunit/) daha fazla bilgi için.
+Varsayılan değer:None .Custom ve Percentage değerler bazı grafik türlerinde mevcut değildir; bkz.x000d_[`AxisBuiltInUnit`](../../axisbuiltinunit/) daha fazla bilgi için.
 
 ### Örnekler
 
@@ -32,39 +32,39 @@ Chart chart = shape.Chart;
 Assert.AreEqual(1, chart.Series.Count);
 Assert.AreEqual("Y-Values", chart.Series[0].Name);
 
-// Y ekseninin küçük onay işaretlerini çizim alanından uzağa işaret edecek şekilde ayarlayın,
+// Y ekseninin küçük onay işaretlerini çizim alanından uzağa bakacak şekilde ayarlayın,
 // ve ekseni geçmek için ana onay işaretleri.
 ChartAxis axis = chart.AxisY;
 axis.MajorTickMark = AxisTickMark.Cross;
 axis.MinorTickMark = AxisTickMark.Outside;
 
-// Y eksenini, her 10 birimde bir büyük bir onay işareti ve her 1 birimde bir küçük onay işareti gösterecek şekilde ayarlayın.
+// Y eksenini her 10 birimde bir büyük işaret ve her 1 birimde bir küçük işaret gösterecek şekilde ayarlayın.
 axis.MajorUnit = 10;
 axis.MinorUnit = 1;
 
 // Y ekseni sınırlarını -10 ve 20 olarak ayarlayın.
-// Bu Y ekseni şimdi 4 ana onay işareti ve 27 küçük onay işareti gösterecektir.
+// Bu Y ekseni artık 4 ana onay işareti ve 27 küçük onay işareti görüntüleyecek.
 axis.Scaling.Minimum = new AxisBound(-10);
 axis.Scaling.Maximum = new AxisBound(20);
 
-// X ekseni için, ana onay işaretlerini her 10 birimde bir ayarlayın,
-// 2.5 birimde her küçük onay işareti.
+// X ekseni için her 10 birimde ana onay işaretlerini ayarlayın,
+// 2,5 birimdeki her küçük onay işareti.
 axis = chart.AxisX;
 axis.MajorUnit = 10;
 axis.MinorUnit = 2.5;
 
-// Her iki onay işareti türünü de grafik çizim alanı içinde görünecek şekilde yapılandırın.
+// Her iki onay işareti türünü de grafik çizim alanında görünecek şekilde yapılandırın.
 axis.MajorTickMark = AxisTickMark.Inside;
 axis.MinorTickMark = AxisTickMark.Inside;
 
-// X ekseni sınırlarını, X ekseni 5 ana çentik işaretine ve 12 küçük çentik işaretine yayılacak şekilde ayarlayın.
+// X ekseni sınırlarını, X ekseni 5 ana onay işaretini ve 12 ikincil onay işaretini kapsayacak şekilde ayarlayın.
 axis.Scaling.Minimum = new AxisBound(-10);
 axis.Scaling.Maximum = new AxisBound(30);
 axis.TickLabelAlignment = ParagraphAlignment.Right;
 
 Assert.AreEqual(1, axis.TickLabelSpacing);
 
-// Değerlerini milyon olarak göstermek için onay etiketlerini ayarlayın.
+// Onay etiketlerini değerlerini milyon cinsinden gösterecek şekilde ayarlayın.
 axis.DisplayUnit.Unit = AxisBuiltInUnit.Millions;
 
 // Onay etiketlerinin değerlerini göstereceği daha spesifik bir değer ayarlayabiliriz.

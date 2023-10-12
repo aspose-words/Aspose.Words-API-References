@@ -1,14 +1,14 @@
 ---
 title: DocumentProperty.ToBool
 second_title: Aspose.Words for .NET API 参考
-description: DocumentProperty 方法. 将属性值返回为布尔值
+description: DocumentProperty 方法. 以 bool 形式返回属性值
 type: docs
 weight: 60
 url: /zh/net/aspose.words.properties/documentproperty/tobool/
 ---
 ## DocumentProperty.ToBool method
 
-将属性值返回为布尔值。
+以 bool 形式返回属性值。
 
 ```csharp
 public bool ToBool()
@@ -16,7 +16,7 @@ public bool ToBool()
 
 ### 评论
 
-如果属性类型不是，则引发异常Boolean.
+如果属性类型不是，则抛出异常Boolean。
 
 ### 例子
 

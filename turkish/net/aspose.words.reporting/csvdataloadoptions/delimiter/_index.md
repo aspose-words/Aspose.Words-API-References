@@ -16,7 +16,7 @@ public char Delimiter { get; set; }
 
 ### Notlar
 
-Varsayılan değer ',' (virgül).
+Varsayılan değer ',' (virgül) şeklindedir.
 
 ### Ayrıca bakınız
 

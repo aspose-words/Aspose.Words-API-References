@@ -3,7 +3,7 @@ title: PageSetup.PageHeight
 second_title: Aspose.Words för .NET API Referens
 description: PageSetup fast egendom. Returnerar eller ställer in sidans höjd i poäng.
 type: docs
-weight: 300
+weight: 310
 url: /sv/net/aspose.words/pagesetup/pageheight/
 ---
 ## PageSetup.PageHeight property

@@ -22,8 +22,8 @@ Mostra come rimuovere tutte le forme da un nodo.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Usa un DocumentBuilder per inserire una forma. Questa è una forma in linea,
-// che ha un Paragraph padre, che è un nodo figlio del Body della prima sezione.
+// Utilizza un DocumentBuilder per inserire una forma. Questa è una forma in linea,
+// che ha un Paragrafo genitore, che è un nodo figlio del Corpo della prima sezione.
 builder.InsertShape(ShapeType.Cube, 100.0, 100.0);
 
 Assert.AreEqual(1, doc.GetChildNodes(NodeType.Shape, true).Count);

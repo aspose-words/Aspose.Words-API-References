@@ -1,14 +1,14 @@
 ---
 title: FieldIncludeText.NamespaceMappings
 second_title: Aspose.Words لمراجع .NET API
-description: FieldIncludeText ملكية. الحصول على أو تعيين تعيينات مساحة الاسم لاستعلامات XPath.
+description: FieldIncludeText ملكية. الحصول على تعيينات مساحة الاسم لاستعلامات XPath أو تعيينها.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.fields/fieldincludetext/namespacemappings/
 ---
 ## FieldIncludeText.NamespaceMappings property
 
-الحصول على أو تعيين تعيينات مساحة الاسم لاستعلامات XPath.
+الحصول على تعيينات مساحة الاسم لاستعلامات XPath أو تعيينها.
 
 ```csharp
 public string NamespaceMappings { get; set; }
@@ -36,10 +36,12 @@ public void FieldIncludeText()
     fieldIncludeText.NamespaceMappings = "xmlns:n='myNamespace'";
     fieldIncludeText.XPath = "/catalog/cd/title";
 
+    doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.INCLUDETEXT.docx");
+}
 
 /// <summary>
-/// استخدم أداة إنشاء المستندات لإدراج حقل INCLUDETEXT بخصائص مخصصة.
+/// استخدم منشئ المستندات لإدراج حقل INCLUDETEXT بخصائص مخصصة.
 /// </summary>
 public FieldIncludeText CreateFieldIncludeText(DocumentBuilder builder, string sourceFullName, bool lockFields, string mimeType, string textConverter, string encoding)
 {

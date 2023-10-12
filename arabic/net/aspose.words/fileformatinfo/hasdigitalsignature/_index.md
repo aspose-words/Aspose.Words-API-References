@@ -1,14 +1,14 @@
 ---
 title: FileFormatInfo.HasDigitalSignature
 second_title: Aspose.Words لمراجع .NET API
-description: FileFormatInfo ملكية. يتم إرجاع صحيح إذا كان هذا المستند يحتوي على توقيع رقمي. تخبر هذه الخاصية فقط بوجود توقيع رقمي على المستند  ولكنها لا تحدد ما إذا كان التوقيع صالحًا أم لا.
+description: FileFormatInfo ملكية. إرجاعحقيقيإذا كان هذا المستند يحتوي على توقيع رقمي. تشير هذه الخاصية فقط إلى وجود توقيع رقمي في المستند ولكنها لا تحدد ما إذا كان التوقيع صالحًا أم لا.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/fileformatinfo/hasdigitalsignature/
 ---
 ## FileFormatInfo.HasDigitalSignature property
 
-يتم إرجاع صحيح إذا كان هذا المستند يحتوي على توقيع رقمي. تخبر هذه الخاصية فقط بوجود توقيع رقمي على المستند ، ولكنها لا تحدد ما إذا كان التوقيع صالحًا أم لا.
+إرجاع`حقيقي`إذا كان هذا المستند يحتوي على توقيع رقمي. تشير هذه الخاصية فقط إلى وجود توقيع رقمي في المستند، ولكنها لا تحدد ما إذا كان التوقيع صالحًا أم لا.
 
 ```csharp
 public bool HasDigitalSignature { get; }
@@ -16,11 +16,11 @@ public bool HasDigitalSignature { get; }
 
 ### ملاحظات
 
-توجد هذه الخاصية لمساعدتك في فرز المستندات الموقعة رقميًا من تلك التي ليست موقعة. هذا حسب التصميم لأن التوقيع الرقمي موجود لحماية أصالة المستند. باستخدام هذه الخاصية ، يمكنك اكتشاف المستندات الموقعة رقميًا قبل معالجتها بنفس طريقة معالجة المستندات العادية واتخاذ بعض الإجراءات لتجنب فقدان التوقيع الرقمي ، على سبيل المثال إعلام المستخدم.
+توجد هذه الخاصية لمساعدتك في فرز المستندات الموقعة رقميًا عن المستندات غير الموقعة. إذا كنت تستخدم Aspose.Words لتعديل وحفظ مستند موقع رقميًا، فسيتم فقدان التوقيع الرقمي . وهذا حسب التصميم نظرًا لوجود توقيع رقمي لحماية صحة المستند. باستخدام هذه الخاصية، يمكنك اكتشاف المستندات الموقعة رقميًا قبل معالجتها بنفس طريقة التعامل مع المستندات العادية واتخاذ بعض الإجراءات لتجنب فقدان التوقيع الرقمي، على سبيل المثال إعلام المستخدم.
 
 ### أمثلة
 
-يوضح كيفية استخدام فئة FileFormatUtil لاكتشاف تنسيق المستند ووجود التوقيعات الرقمية.
+يوضح كيفية استخدام فئة FileFormatUtil للكشف عن تنسيق المستند ووجود التوقيعات الرقمية.
 
 ```csharp
 // استخدم مثيل FileFormatInfo للتحقق من عدم توقيع المستند رقميًا.
@@ -33,12 +33,12 @@ CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.p
 DigitalSignatureUtil.Sign(MyDir + "Document.docx", ArtifactsDir + "File.DetectDigitalSignatures.docx",
     certificateHolder, new SignOptions() { SignTime = DateTime.Now });
 
-// استخدم FileFormatInstance جديدًا لتأكيد توقيعه.
+// استخدم FileFormatInstance جديد لتأكيد توقيعه.
 info = FileFormatUtil.DetectFileFormat(ArtifactsDir + "File.DetectDigitalSignatures.docx");
 
 Assert.True(info.HasDigitalSignature);
 
-// يمكننا تحميل والوصول إلى توقيعات وثيقة موقعة في مجموعة مثل هذه.
+// يمكننا تحميل التوقيعات الخاصة بالمستند الموقع في مجموعة كهذه والوصول إليها.
 Assert.AreEqual(1, DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "File.DetectDigitalSignatures.docx").Count);
 ```
 

@@ -1,14 +1,14 @@
 ---
 title: Forms2OleControl.Value
 second_title: Справочник по API Aspose.Words для .NET
-description: Forms2OleControl свойство. Получает базовое свойство Value которое часто представляет состояние элемента управления. Например отмеченная кнопка имеет значение 1 а неотмеченная  0. Значение по умолчанию  пустая строка.
+description: Forms2OleControl свойство. Получает базовое свойство Value которое часто представляет состояние элемента управления. Например отмеченная кнопка выбора имеет значение 1 а неотмеченная  0. Значение по умолчанию  пустая строка.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.drawing.ole/forms2olecontrol/value/
 ---
 ## Forms2OleControl.Value property
 
-Получает базовое свойство Value, которое часто представляет состояние элемента управления. Например, отмеченная кнопка имеет значение «1», а неотмеченная — «0». Значение по умолчанию — пустая строка.
+Получает базовое свойство Value, которое часто представляет состояние элемента управления. Например, отмеченная кнопка выбора имеет значение «1», а неотмеченная — «0». Значение по умолчанию — пустая строка.
 
 ```csharp
 public string Value { get; }
@@ -24,7 +24,7 @@ Document doc = new Document(MyDir + "ActiveX controls.docx");
 Shape shape = (Shape) doc.GetChild(NodeType.Shape, 0, true);
 OleControl oleControl = shape.OleFormat.OleControl;
 
-Assert.AreEqual(null, oleControl.Name);
+Assert.AreEqual("CheckBox1", oleControl.Name);
 
 if (oleControl.IsForms2OleControl)
 {
@@ -34,6 +34,10 @@ if (oleControl.IsForms2OleControl)
     Assert.AreEqual(true, checkBox.Enabled);
     Assert.AreEqual(Forms2OleControlType.CheckBox, checkBox.Type);
     Assert.AreEqual(null, checkBox.ChildNodes);
+    Assert.AreEqual(string.Empty, checkBox.GroupName);
+
+    // Обратите внимание, что вы не можете установить GroupName для кадра.
+    checkBox.GroupName = "Aspose group name";
 }
 ```
 

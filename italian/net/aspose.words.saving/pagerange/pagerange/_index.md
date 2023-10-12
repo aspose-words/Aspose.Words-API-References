@@ -21,7 +21,7 @@ public PageRange(int from, int to)
 
 ### Osservazioni
 
-MaxValue indica l'ultima pagina del documento.
+MaxValue significa l'ultima pagina del documento.
 
 ### Esempi
 

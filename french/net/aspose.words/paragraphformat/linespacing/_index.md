@@ -1,14 +1,14 @@
 ---
 title: ParagraphFormat.LineSpacing
 second_title: Référence de l'API Aspose.Words pour .NET
-description: ParagraphFormat propriété. Obtient ou définit linterligne en points pour le paragraphe.
+description: ParagraphFormat propriété. Obtient ou définit lespacement des lignes en points pour le paragraphe.
 type: docs
-weight: 180
+weight: 190
 url: /fr/net/aspose.words/paragraphformat/linespacing/
 ---
 ## ParagraphFormat.LineSpacing property
 
-Obtient ou définit l'interligne (en points) pour le paragraphe.
+Obtient ou définit l'espacement des lignes (en points) pour le paragraphe.
 
 ```csharp
 public double LineSpacing { get; set; }
@@ -16,23 +16,23 @@ public double LineSpacing { get; set; }
 
 ### Remarques
 
-Lorsque la propriété LineSpacingRule est définie sur AtLeast, l'interligne peut être supérieur ou égal à, mais jamais inférieur à la valeur LineSpacing spécifiée.
+Quand[`LineSpacingRule`](../linespacingrule/) la propriété est définie surAtLeast , l'interligne peut être supérieur ou égal à, mais jamais inférieur à l'espacement spécifié`LineSpacing` valeur.
 
-Lorsque la propriété LineSpacingRule est définie sur Exactement, l'interligne ne change jamais à partir de la valeur LineSpacing spécifiée, même si une police plus grande est utilisée dans le paragraphe.
+Quand[`LineSpacingRule`](../linespacingrule/) la propriété est définie surExactly , l'interligne ne change jamais par rapport à spécifié`LineSpacing` valeur, même si une police plus grande est utilisée dans le paragraphe.
 
 ### Exemples
 
-Montre comment travailler avec l'interligne.
+Montre comment utiliser l'espacement des lignes.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Vous trouverez ci-dessous trois règles d'interligne que nous pouvons définir à l'aide de la
-// propriété "LineSpacingRule" du paragraphe pour configurer l'espacement entre les paragraphes.
-// 1 - Définir un espacement minimum.
+// Vous trouverez ci-dessous trois règles d'espacement des lignes que nous pouvons définir à l'aide de la
+// Propriété "LineSpacingRule" du paragraphe pour configurer l'espacement entre les paragraphes.
+// 1 - Définit un espacement minimum.
 // Cela donnera un remplissage vertical aux lignes de texte de n'importe quelle taille
-// qui est trop petit pour maintenir la hauteur de ligne minimale.
+// c'est trop petit pour maintenir la hauteur de ligne minimale.
 builder.ParagraphFormat.LineSpacingRule = LineSpacingRule.AtLeast;
 builder.ParagraphFormat.LineSpacing = 20;
 

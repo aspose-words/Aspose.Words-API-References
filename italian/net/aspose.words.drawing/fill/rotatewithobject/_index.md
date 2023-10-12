@@ -3,7 +3,7 @@ title: Fill.RotateWithObject
 second_title: Aspose.Words per .NET API Reference
 description: Fill proprietà. Ottiene o imposta se il riempimento ruota con loggetto specificato.
 type: docs
-weight: 120
+weight: 180
 url: /it/net/aspose.words.drawing/fill/rotatewithobject/
 ---
 ## Fill.RotateWithObject property

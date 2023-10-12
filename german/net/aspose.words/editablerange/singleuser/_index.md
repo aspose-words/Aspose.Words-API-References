@@ -18,17 +18,17 @@ public string SingleUser { get; set; }
 
 Dieser Editor kann in einer der folgenden Formen gespeichert werden:
 
-DOMÄNE\Benutzername – für Benutzer, deren Zugriff mit den Domänenanmeldeinformationen des aktuellen Benutzers authentifiziert werden soll.
+DOMÄNE\Benutzername – für Benutzer, deren Zugriff mithilfe der Domänenanmeldeinformationen des aktuellen Benutzers authentifiziert werden soll.
 
-user@domain.com - für Benutzer, deren Zugang mit der E-Mail-Adresse des Benutzers als Anmeldeinformationen authentifiziert werden soll.
+user@domain.com – für Benutzer, deren Zugriff mithilfe der E-Mail-Adresse des Benutzers als Anmeldeinformationen authentifiziert werden soll.
 
-Benutzer - für Benutzer, deren Zugriff mit den Anmeldeinformationen des Computers des aktuellen Benutzers authentifiziert werden soll.
+Benutzer – für Benutzer, deren Zugriff mithilfe der Computeranmeldeinformationen des aktuellen Benutzers authentifiziert werden soll.
 
-Einzelbenutzer und Editorgruppe können nicht gleichzeitig für den spezifischen editierbaren Bereich eingestellt werden, wenn der eine eingestellt ist, wird der andere gelöscht.
+Ein einzelner Benutzer und eine Editorgruppe können nicht gleichzeitig für den spezifischen bearbeitbaren Bereich festgelegt werden. wenn das eine festgelegt ist, ist das andere gelöscht.
 
 ### Beispiele
 
-Zeigt, wie die Bearbeitungsrechte von bearbeitbaren Bereichen auf eine bestimmte Gruppe/Benutzer beschränkt werden.
+Zeigt, wie man die Bearbeitungsrechte bearbeitbarer Bereiche auf eine bestimmte Gruppe/einen bestimmten Benutzer beschränkt.
 
 ```csharp
 public void Visitor()
@@ -40,9 +40,9 @@ public void Visitor()
     builder.Writeln("Hello world! Since we have set the document's protection level to read-only," +
                     " we cannot edit this paragraph without the password.");
 
-    // Wenn wir Dokumente mit Schreibschutz versehen, ermöglichen uns bearbeitbare Bereiche, bestimmte Bereiche auszuwählen, die Benutzer bearbeiten können.
-    // Es gibt zwei sich gegenseitig ausschließende Möglichkeiten, die Liste der erlaubten Editoren einzugrenzen.
-    // 1 - Geben Sie einen Benutzer an:
+    // Wenn wir Dokumente mit einem Schreibschutz versehen, ermöglichen uns bearbeitbare Bereiche die Auswahl bestimmter Bereiche, die Benutzer bearbeiten dürfen.
+    // Es gibt zwei sich gegenseitig ausschließende Möglichkeiten, die Liste der zulässigen Editoren einzugrenzen.
+    // 1 – Geben Sie einen Benutzer an:
     EditableRange editableRange = builder.StartEditableRange().EditableRange;
     editableRange.SingleUser = "john.doe@myoffice.com";
     builder.Writeln($"This paragraph is inside the first editable range, can only be edited by {editableRange.SingleUser}.");
@@ -50,7 +50,7 @@ public void Visitor()
 
     Assert.AreEqual(EditorType.Unspecified, editableRange.EditorGroup);
 
-    // 2 - Geben Sie eine Gruppe an, der zulässige Benutzer zugeordnet sind:
+    // 2 – Geben Sie eine Gruppe an, der zulässige Benutzer zugeordnet sind:
     editableRange = builder.StartEditableRange().EditableRange;
     editableRange.EditorGroup = EditorType.Administrators;
     builder.Writeln($"This paragraph is inside the first editable range, can only be edited by {editableRange.EditorGroup}.");
@@ -60,7 +60,7 @@ public void Visitor()
 
     builder.Writeln("This paragraph is outside the editable range, and cannot be edited by anybody.");
 
-    // Details und Inhalt jedes bearbeitbaren Bereichs im Dokument drucken.
+    // Details und Inhalte aller bearbeitbaren Bereiche im Dokument drucken.
     EditableRangePrinter editableRangePrinter = new EditableRangePrinter();
 
     doc.Accept(editableRangePrinter);
@@ -69,7 +69,7 @@ public void Visitor()
 }
 
 /// <summary>
-/// Sammelt Eigenschaften und Inhalte besuchter bearbeitbarer Bereiche in einem String.
+/// Sammelt Eigenschaften und Inhalte der besuchten bearbeitbaren Bereiche in einem String.
 /// </summary>
 public class EditableRangePrinter : DocumentVisitor
 {

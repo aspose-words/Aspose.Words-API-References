@@ -1,14 +1,14 @@
 ---
 title: Document.FieldOptions
 second_title: Aspose.Words لمراجع .NET API
-description: Document ملكية. يحصل على أ FieldOptionsكائن يمثل خيارات للتحكم في معالجة الحقل في المستند.
+description: Document ملكية. يحصل علىFieldOptions الكائن الذي يمثل خيارات التحكم في معالجة الحقل في المستند.
 type: docs
 weight: 120
 url: /ar/net/aspose.words/document/fieldoptions/
 ---
 ## Document.FieldOptions property
 
-يحصل على أ **FieldOptions**كائن يمثل خيارات للتحكم في معالجة الحقل في المستند.
+يحصل على[`FieldOptions`](../../../aspose.words.fields/fieldoptions/) الكائن الذي يمثل خيارات التحكم في معالجة الحقل في المستند.
 
 ```csharp
 public FieldOptions FieldOptions { get; }
@@ -16,30 +16,30 @@ public FieldOptions FieldOptions { get; }
 
 ### أمثلة
 
-يوضح كيفية تحديد مصدر الثقافة المستخدمة لتنسيق التاريخ أثناء تحديث الحقل أو دمج البريد.
+يوضح كيفية تحديد مصدر الثقافة المستخدمة لتنسيق التاريخ أثناء تحديث الحقل أو دمج المراسلات.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أدخل حقلي دمج باستخدام اللغة الألمانية.
+// أدخل حقلين مدمجين باللغة الألمانية.
 builder.Font.LocaleId = new CultureInfo("de-DE").LCID;
 builder.InsertField("MERGEFIELD Date1 \\@ \"dddd, d MMMM yyyy\"");
 builder.Write(" - ");
 builder.InsertField("MERGEFIELD Date2 \\@ \"dddd, d MMMM yyyy\"");
 
-// اضبط الثقافة الحالية على اللغة الإنجليزية الأمريكية بعد الاحتفاظ بقيمتها الأصلية في متغير.
+// اضبط الثقافة الحالية على اللغة الإنجليزية الأمريكية بعد الحفاظ على قيمتها الأصلية في متغير.
 CultureInfo currentCulture = Thread.CurrentThread.CurrentCulture;
 Thread.CurrentThread.CurrentCulture = new CultureInfo("en-US");
 
-// سيستخدم هذا الدمج ثقافة مؤشر الترابط الحالي لتنسيق التاريخ ، باللغة الإنجليزية الأمريكية.
+// سيستخدم هذا الدمج ثقافة الموضوع الحالي لتنسيق التاريخ، باللغة الإنجليزية الأمريكية.
 doc.MailMerge.Execute(new[] { "Date1" }, new object[] { new DateTime(2020, 1, 01) });
 
-// تكوين الدمج التالي للحصول على قيمة ثقافته من رمز الحقل. قيمة هذه الثقافة ستكون ألمانية.
+// قم بتكوين الدمج التالي لمصدر قيمة الثقافة الخاصة به من رمز الحقل. وستكون قيمة تلك الثقافة ألمانية.
 doc.FieldOptions.FieldUpdateCultureSource = FieldUpdateCultureSource.FieldCode;
 doc.MailMerge.Execute(new[] { "Date2" }, new object[] { new DateTime(2020, 1, 01) });
 
-// تحتوي نتيجة الدمج الأولى على تاريخ تم تنسيقه باللغة الإنجليزية ، بينما تحتوي النتيجة الثانية على تاريخ باللغة الألمانية.
+// تحتوي نتيجة الدمج الأولى على تاريخ منسق باللغة الإنجليزية، بينما تحتوي النتيجة الثانية على تاريخ منسق باللغة الألمانية.
 Assert.AreEqual("Wednesday, 1 January 2020 - Mittwoch, 1 Januar 2020", doc.Range.Text.Trim());
 
 // استعادة الثقافة الأصلية للخيط.

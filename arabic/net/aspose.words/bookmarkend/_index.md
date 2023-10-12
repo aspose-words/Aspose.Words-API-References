@@ -1,14 +1,16 @@
 ---
 title: Class BookmarkEnd
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.BookmarkEnd فصل. يمثل نهاية إشارة مرجعية في مستند Word.
+description: Aspose.Words.BookmarkEnd فصل. يمثل نهاية الإشارة المرجعية في مستند Word.
 type: docs
-weight: 50
+weight: 60
 url: /ar/net/aspose.words/bookmarkend/
 ---
 ## BookmarkEnd class
 
-يمثل نهاية إشارة مرجعية في مستند Word.
+يمثل نهاية الإشارة المرجعية في مستند Word.
+
+لمعرفة المزيد، قم بزيارة[العمل مع الإشارات المرجعية](https://docs.aspose.com/words/net/working-with-bookmarks/) مقالة توثيقية.
 
 ```csharp
 public class BookmarkEnd : Node
@@ -18,42 +20,42 @@ public class BookmarkEnd : Node
 
 | اسم | وصف |
 | --- | --- |
-| [BookmarkEnd](bookmarkend/)(DocumentBase, string) | يقوم بتهيئة مثيل جديد لملف`BookmarkEnd` فئة . |
+| [BookmarkEnd](bookmarkend/)(DocumentBase, string) | تهيئة مثيل جديد لـ`BookmarkEnd` فئة. |
 
 ## الخصائص
 
 | اسم | وصف |
 | --- | --- |
-| [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | يحدد معرف العقدة المخصص . |
-| virtual [Document](../../aspose.words/node/document/) { get; } | الحصول على المستند الذي تنتمي إليه هذه العقدة . |
-| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | إرجاع صحيح إذا كانت هذه العقدة يمكن أن تحتوي على عقد أخرى. |
+| [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | يحدد معرف العقدة المخصصة. |
+| virtual [Document](../../aspose.words/node/document/) { get; } | الحصول على المستند الذي تنتمي إليه هذه العقدة. |
+| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | إرجاع`حقيقي` إذا كانت هذه العقدة يمكن أن تحتوي على عقد أخرى. |
 | [Name](../../aspose.words/bookmarkend/name/) { get; set; } | الحصول على اسم الإشارة المرجعية أو تعيينه. |
 | [NextSibling](../../aspose.words/node/nextsibling/) { get; } | يحصل على العقدة التي تلي هذه العقدة مباشرة. |
-| override [NodeType](../../aspose.words/bookmarkend/nodetype/) { get; } | عوائدBookmarkEnd . |
-| [ParentNode](../../aspose.words/node/parentnode/) { get; } | الحصول على الأصل المباشر لهذه العقدة. |
+| override [NodeType](../../aspose.words/bookmarkend/nodetype/) { get; } | إرجاعBookmarkEnd . |
+| [ParentNode](../../aspose.words/node/parentnode/) { get; } | يحصل على الأصل المباشر لهذه العقدة. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | يحصل على العقدة التي تسبق هذه العقدة مباشرة. |
-| [Range](../../aspose.words/node/range/) { get; } | إرجاع أ **نطاق** الكائن الذي يمثل جزء المستند الموجود في هذه العقدة. |
+| [Range](../../aspose.words/node/range/) { get; } | إرجاع أ[`Range`](../range/) الكائن الذي يمثل جزء المستند الموجود في هذه العقدة. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| override [Accept](../../aspose.words/bookmarkend/accept/)(DocumentVisitor) | يقبل الزائر . |
-| [Clone](../../aspose.words/node/clone/)(bool) | لإنشاء نسخة مكررة من العقدة . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | يحصل على أول سلف محدد[`NodeType`](../nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | الحصول على الأصل الأول لنوع الكائن المحدد. |
-| virtual [GetText](../../aspose.words/node/gettext/)() | يحصل على نص هذه العقدة وجميع توابعها. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | الحصول على العقدة التالية وفقًا لخوارزمية اجتياز الشجرة بالطلب المسبق. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | الحصول على العقدة السابقة وفقًا لخوارزمية اجتياز الشجرة بالطلب المسبق. |
+| override [Accept](../../aspose.words/bookmarkend/accept/)(DocumentVisitor) | يقبل الزائر. |
+| [Clone](../../aspose.words/node/clone/)(bool) | إنشاء نسخة مكررة من العقدة. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | يحصل على السلف الأول للمحدد[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | الحصول على السلف الأول لنوع الكائن المحدد. |
+| virtual [GetText](../../aspose.words/node/gettext/)() | الحصول على نص هذه العقدة وجميع أبنائها. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | الحصول على العقدة التالية وفقًا لخوارزمية اجتياز شجرة الطلب المسبق. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | الحصول على العقدة السابقة وفقًا لخوارزمية اجتياز شجرة الطلب المسبق. |
 | [Remove](../../aspose.words/node/remove/)() | يزيل نفسه من الأصل. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | يصدر محتوى العقدة إلى سلسلة بالتنسيق المحدد. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | يصدر محتوى العقدة إلى سلسلة باستخدام خيارات الحفظ المحددة. |
+| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | تصدير محتوى العقدة إلى سلسلة بالتنسيق المحدد. |
+| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | تصدير محتوى العقدة إلى سلسلة باستخدام خيارات الحفظ المحددة. |
 
 ### ملاحظات
 
 تتكون الإشارة المرجعية الكاملة في مستند Word من ملف[`BookmarkStart`](../bookmarkstart/) ومطابقة`BookmarkEnd` بنفس اسم الإشارة المرجعية.
 
-[`BookmarkStart`](../bookmarkstart/) و`BookmarkEnd` هي مجرد علامات داخل document تحدد مكان بدء الإشارة المرجعية ونهايتها.
+[`BookmarkStart`](../bookmarkstart/) و`BookmarkEnd` هي مجرد علامات داخل document تحدد مكان بدء الإشارة المرجعية وانتهائها.
 
 استخدم ال[`Bookmark`](../bookmark/) فئة كـ "واجهة" للعمل مع bookmark ككائن واحد.
 
@@ -64,22 +66,21 @@ public class BookmarkEnd : Node
 ```csharp
 public void CreateUpdateAndPrintBookmarks()
 {
-    // أنشئ مستندًا بثلاث إشارات مرجعية ، ثم استخدم تنفيذ زائر مستند مخصص لطباعة محتوياتها.
+    // أنشئ مستندًا يحتوي على ثلاث إشارات مرجعية، ثم استخدم تطبيق زائر المستند المخصص لطباعة محتوياتها.
     Document doc = CreateDocumentWithBookmarks(3);
     BookmarkCollection bookmarks = doc.Range.Bookmarks;
-
     PrintAllBookmarkInfo(bookmarks);
 
-    // يمكن الوصول إلى الإشارات المرجعية في مجموعة الإشارات المرجعية بالفهرس أو الاسم ، ويمكن تحديث أسمائها.
+    // يمكن الوصول إلى الإشارات المرجعية في مجموعة الإشارات المرجعية عن طريق الفهرس أو الاسم، ويمكن تحديث أسمائها.
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
-    // طباعة جميع الإشارات المرجعية مرة أخرى لرؤية القيم المحدثة.
+    // اطبع جميع الإشارات المرجعية مرة أخرى لرؤية القيم المحدثة.
     PrintAllBookmarkInfo(bookmarks);
 }
 
 /// <summary>
-/// أنشئ مستندًا بعدد معين من الإشارات المرجعية.
+/// أنشئ مستندًا يحتوي على عدد معين من الإشارات المرجعية.
 /// </summary>
 private static Document CreateDocumentWithBookmarks(int numberOfBookmarks)
 {
@@ -101,7 +102,7 @@ private static Document CreateDocumentWithBookmarks(int numberOfBookmarks)
 }
 
 /// <summary>
-/// استخدم مكررًا وزائرًا لطباعة معلومات كل إشارة مرجعية في المجموعة.
+/// استخدم المكرر والزائر لطباعة معلومات كل إشارة مرجعية في المجموعة.
 /// </summary>
 private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 {
@@ -126,7 +127,7 @@ private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 }
 
 /// <summary>
-/// يطبع محتويات كل إشارة مرجعية تمت زيارتها على وحدة التحكم.
+/// يطبع محتويات كل إشارة مرجعية تمت زيارتها إلى وحدة التحكم.
 /// </summary>
 public class BookmarkInfoPrinter : DocumentVisitor
 {

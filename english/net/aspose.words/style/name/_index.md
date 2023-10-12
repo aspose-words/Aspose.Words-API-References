@@ -5,7 +5,7 @@ articleTitle: Name
 second_title: Aspose.Words for .NET
 description: Style Name property. Gets or sets the name of the style in C#.
 type: docs
-weight: 120
+weight: 130
 url: /net/aspose.words/style/name/
 ---
 ## Style.Name property

@@ -1,14 +1,14 @@
 ---
 title: RtfSaveOptions.SaveImagesAsWmf
 second_title: Aspose.Words for .NET API 参考
-description: RtfSaveOptions 财产. 如果为真所有图像都将保存为 WMF
+description: RtfSaveOptions 财产. 当真的所有图像都将保存为 WMF.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.saving/rtfsaveoptions/saveimagesaswmf/
 ---
 ## RtfSaveOptions.SaveImagesAsWmf property
 
-如果为真，所有图像都将保存为 WMF。
+当`真的`所有图像都将保存为 WMF.
 
 ```csharp
 public bool SaveImagesAsWmf { get; set; }
@@ -20,7 +20,7 @@ public bool SaveImagesAsWmf { get; set; }
 
 ### 例子
 
-展示了当我们将文档保存为 RTF 时如何将文档中的所有图像转换为 Windows 图元文件格式。
+演示当我们将文档另存为 RTF 时，如何将文档中的所有图像转换为 Windows 图元文件格式。
 
 ```csharp
 Document doc = new Document();
@@ -37,13 +37,13 @@ imageShape = builder.InsertImage(ImageDir + "Transparent background logo.png");
 
 Assert.AreEqual(ImageType.Png, imageShape.ImageData.ImageType);
 
-// 创建一个“RtfSaveOptions”对象以传递给文档的“Save”方法，以修改我们如何将其保存到 RTF。
+// 创建一个“RtfSaveOptions”对象传递给文档的“Save”方法来修改我们将其保存为 RTF 的方式。
 RtfSaveOptions rtfSaveOptions = new RtfSaveOptions();
 
-// 将“SaveImagesAsWmf”属性设置为“true”以将文档中的所有图像转换为 WMF，就像我们将其保存为 RTF。
-// 这样做会帮助写字板等阅读器阅读我们的文档。
+// 将“SaveImagesAsWmf”属性设置为“true”，以便在将文档保存为 RTF 时将文档中的所有图像转换为 WMF。
+// 这样做将有助于写字板等读者阅读我们的文档。
 // 将“SaveImagesAsWmf”属性设置为“false”以保留文档中所有图像的原始格式
-// 因为我们将它保存到 RTF。这将以与较旧的 RTF 阅读器兼容为代价来保持图像的质量。
+// 当我们将其保存为 RTF 时。这将保持图像的质量，但代价是与旧版 RTF 阅读器的兼容性。
 rtfSaveOptions.SaveImagesAsWmf = saveImagesAsWmf;
 
 doc.Save(ArtifactsDir + "RtfSaveOptions.SaveImagesAsWmf.rtf", rtfSaveOptions);

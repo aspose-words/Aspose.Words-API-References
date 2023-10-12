@@ -3,7 +3,7 @@ title: ImageData.ToStream
 second_title: Aspose.Words per .NET API Reference
 description: ImageData metodo. Crea e restituisce uno stream che contiene i byte dellimmagine.
 type: docs
-weight: 230
+weight: 240
 url: /it/net/aspose.words.drawing/imagedata/tostream/
 ---
 ## ImageData.ToStream method
@@ -26,16 +26,15 @@ Se l'immagine è collegata e archiviata in un URL esterno, scarica il file e res
 
 ### Esempi
 
-Mostra come creare un file immagine dai dati dell'immagine grezza di una forma.
+Mostra come creare un file immagine dai dati immagine grezzi di una forma.
 
 ```csharp
 Document imgSourceDoc = new Document(MyDir + "Images.docx");
-
 Shape imgShape = (Shape) imgSourceDoc.GetChild(NodeType.Shape, 0, true);
 
 Assert.True(imgShape.HasImage);
 
-// ToByteArray() restituisce l'array memorizzato nella proprietà ImageBytes.
+// ToByteArray() restituisce l'array archiviato nella proprietà ImageBytes.
 Assert.AreEqual(imgShape.ImageData.ImageBytes, imgShape.ImageData.ToByteArray());
 
 // Salva i dati dell'immagine della forma in un file immagine nel file system locale.

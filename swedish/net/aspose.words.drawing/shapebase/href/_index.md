@@ -3,7 +3,7 @@ title: ShapeBase.HRef
 second_title: Aspose.Words för .NET API Referens
 description: ShapeBase fast egendom. Hämtar eller ställer in den fullständiga hyperlänkadressen för en form.
 type: docs
-weight: 220
+weight: 230
 url: /sv/net/aspose.words.drawing/shapebase/href/
 ---
 ## ShapeBase.HRef property

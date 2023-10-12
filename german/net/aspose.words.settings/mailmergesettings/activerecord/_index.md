@@ -1,14 +1,14 @@
 ---
 title: MailMergeSettings.ActiveRecord
 second_title: Aspose.Words für .NET-API-Referenz
-description: MailMergeSettings eigendom. Gibt den einsbasierten Index des Datensatzes aus der Datenquelle an der in Microsoft Word angezeigt werden soll. Der Standardwert ist 1.
+description: MailMergeSettings eigendom. Gibt den einbasierten Index des Datensatzes aus der Datenquelle an der in Microsoft Word angezeigt werden soll. Der Standardwert ist 1.
 type: docs
 weight: 20
 url: /de/net/aspose.words.settings/mailmergesettings/activerecord/
 ---
 ## MailMergeSettings.ActiveRecord property
 
-Gibt den einsbasierten Index des Datensatzes aus der Datenquelle an, der in Microsoft Word angezeigt werden soll. Der Standardwert ist 1.
+Gibt den einbasierten Index des Datensatzes aus der Datenquelle an, der in Microsoft Word angezeigt werden soll. Der Standardwert ist 1.
 
 ```csharp
 public int ActiveRecord { get; set; }
@@ -16,7 +16,7 @@ public int ActiveRecord { get; set; }
 
 ### Beispiele
 
-Zeigt, wie ein Seriendruck ausgeführt wird, während eine Verbindung zu einer externen Datenquelle hergestellt wird.
+Zeigt, wie ein Serienbrief ausgeführt wird, während eine Verbindung zu einer externen Datenquelle hergestellt wird.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
@@ -37,7 +37,7 @@ Console.WriteLine($"Table:\n\t{odso.TableName}");
 Console.WriteLine($"Query:\n\t{doc.MailMergeSettings.Query}");
 
 // Wir können diese Einstellungen zurücksetzen, indem wir sie löschen. Sobald wir das getan und das Dokument gespeichert haben,
-// Microsoft Word führt keinen Seriendruck mehr aus, wenn wir es zum Laden des Dokuments verwenden.
+// Microsoft Word führt keinen Serienbrief mehr aus, wenn wir es zum Laden des Dokuments verwenden.
 settings.Clear();
 
 doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");

@@ -1,14 +1,16 @@
 ---
 title: Class ListLabel
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Lists.ListLabel sınıf. Bir liste etiketine özgü özellikleri tanımlar.
+description: Aspose.Words.Lists.ListLabel sınıf. Liste etiketine özgü özellikleri tanımlar.
 type: docs
-weight: 3290
+weight: 3490
 url: /tr/net/aspose.words.lists/listlabel/
 ---
 ## ListLabel class
 
-Bir liste etiketine özgü özellikleri tanımlar.
+Liste etiketine özgü özellikleri tanımlar.
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Listelerle Çalışmak](https://docs.aspose.com/words/net/working-with-lists/) dokümantasyon makalesi.
 
 ```csharp
 public class ListLabel
@@ -24,7 +26,7 @@ public class ListLabel
 
 ### Örnekler
 
-Liste öğeleri olan tüm paragrafların liste etiketlerinin nasıl çıkarılacağını gösterir.
+Liste öğesi olan tüm paragrafların liste etiketlerinin nasıl çıkarılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
@@ -32,24 +34,24 @@ doc.UpdateListLabels();
 
 NodeCollection paras = doc.GetChildNodes(NodeType.Paragraph, true);
 
-// Paragraf listesine sahip olup olmadığımızı bulun. Belgemizde listemizde düz Arapça sayılar kullanılıyor,
-// üçte başlayan ve altıda biten.
+//Paragraf listemizin olup olmadığını bulun. Belgemizde listemizde sade Arapça rakamlar kullanılıyor,
+// üçte başlayıp altıda biten.
 foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsListItem))
 {
     Console.WriteLine($"List item paragraph #{paras.IndexOf(paragraph)}");
 
-    // Bu düğümü metin biçimine çıkardığımızda aldığımız metin budur.
-    // Bu metin çıktısı liste etiketlerini atlayacak. Paragraf biçimlendirme karakterlerini kırpın. 
+    // Bu düğümün çıktısını metin formatına aldığımızda elde ettiğimiz metin budur.
+     // Bu metin çıktısı liste etiketlerini atlayacaktır. Paragraf biçimlendirme karakterlerini kırpın.
     string paragraphText = paragraph.ToString(SaveFormat.Text).Trim();
     Console.WriteLine($"\tExported Text: {paragraphText}");
 
     ListLabel label = paragraph.ListLabel;
 
-    // Bu, listenin geçerli düzeyinde paragrafın konumunu alır. Birden fazla seviye içeren bir listemiz varsa,
-    // bu bize o seviyede hangi pozisyonda olduğunu söyleyecek.
+    // Bu, paragrafın listenin geçerli düzeyindeki konumunu alır. Birden fazla düzeyden oluşan bir listemiz varsa,
+    // bu bize o seviyede hangi konumda olduğunu söyleyecektir.
     Console.WriteLine($"\tNumerical Id: {label.LabelValue}");
 
-    // Çıktıdaki metinle liste etiketini dahil etmek için bunları birleştirin.
+    // Liste etiketini çıktıdaki metinle birlikte eklemek için bunları birleştirin.
     Console.WriteLine($"\tList label combined with text: {label.LabelString} {paragraphText}");
 }
 ```

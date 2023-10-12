@@ -3,12 +3,14 @@ title: Class SystemFontSource
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.Fonts.SystemFontSource classe. Représente toutes les polices TrueType installées sur le système.
 type: docs
-weight: 2870
+weight: 3050
 url: /fr/net/aspose.words.fonts/systemfontsource/
 ---
 ## SystemFontSource class
 
 Représente toutes les polices TrueType installées sur le système.
+
+Pour en savoir plus, visitez le[Travailler avec des polices](https://docs.aspose.com/words/net/working-with-fonts/) article documentaire.
 
 ```csharp
 public class SystemFontSource : FontSourceBase
@@ -18,16 +20,16 @@ public class SystemFontSource : FontSourceBase
 
 | Nom | La description |
 | --- | --- |
-| [SystemFontSource](systemfontsource/#constructor)() | Ctor. |
-| [SystemFontSource](systemfontsource/#constructor_1)(int) | Ctor. |
+| [SystemFontSource](systemfontsource/#constructor)() | Directeur. |
+| [SystemFontSource](systemfontsource/#constructor_1)(int) | Directeur. |
 
 ## Propriétés
 
 | Nom | La description |
 | --- | --- |
-| [Priority](../../aspose.words.fonts/fontsourcebase/priority/) { get; } | Renvoie la priorité de la source de la police. |
-| override [Type](../../aspose.words.fonts/systemfontsource/type/) { get; } | Renvoie le type de la source de la police. |
-| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | Appelé lors du traitement de la source de la police lorsqu'un problème est détecté pouvant entraîner une perte de fidélité de formatage. |
+| [Priority](../../aspose.words.fonts/fontsourcebase/priority/) { get; } | Renvoie la priorité de la source de police. |
+| override [Type](../../aspose.words.fonts/systemfontsource/type/) { get; } | Renvoie le type de la source de police. |
+| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | Appelé lors du traitement de la source de police lorsqu'un problème susceptible d'entraîner une perte de fidélité du formatage est détecté. |
 
 ## Méthodes
 
@@ -38,7 +40,7 @@ public class SystemFontSource : FontSourceBase
 
 ### Exemples
 
-Montre comment accéder à la source de police système d'un document et définir des substituts de police.
+Montre comment accéder à la source de police système d’un document et définir des substituts de police.
 
 ```csharp
 Document doc = new Document();
@@ -66,7 +68,7 @@ foreach (string systemFontFolder in SystemFontSource.GetSystemFontFolders())
     Console.WriteLine(systemFontFolder);
 }
 
-// Définit une police qui existe dans le répertoire Windows Fonts en remplacement de celle qui n'existe pas.
+// Définit une police qui existe dans le répertoire des polices Windows en remplacement d'une autre qui n'existe pas.
 doc.FontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 doc.FontSettings.SubstitutionSettings.TableSubstitution.AddSubstitutes("Kreon-Regular", new[] {"Calibri"});
 
@@ -80,7 +82,7 @@ FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false);
 doc.FontSettings.SetFontsSources(new FontSourceBase[] {systemFontSource, folderFontSource});
 Assert.AreEqual(2, doc.FontSettings.GetFontsSources().Length);
 
-// La réinitialisation des sources de police nous laisse toujours avec la source de police système ainsi que nos substituts.
+// La réinitialisation des sources de polices nous laisse toujours la source de police système ainsi que nos substituts.
 doc.FontSettings.ResetFontSources();
 
 Assert.AreEqual(1, doc.FontSettings.GetFontsSources().Length);

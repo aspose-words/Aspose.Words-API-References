@@ -1,14 +1,14 @@
 ---
 title: Section.HeadersFooters
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Section propriété. Fournit laccès aux nœuds dentêtes et de pieds de page de la section.
+description: Section propriété. Donne accès aux nœuds dentêtes et de pieds de page de la section.
 type: docs
 weight: 30
 url: /fr/net/aspose.words/section/headersfooters/
 ---
 ## Section.HeadersFooters property
 
-Fournit l'accès aux nœuds d'en-têtes et de pieds de page de la section.
+Donne accès aux nœuds d'en-têtes et de pieds de page de la section.
 
 ```csharp
 public HeaderFooterCollection HeadersFooters { get; }
@@ -36,7 +36,7 @@ footer.Range.Replace("(C) 2006 Aspose Pty Ltd.", $"Copyright (C) {currentYear} b
 doc.Save(ArtifactsDir + "HeaderFooter.ReplaceText.docx");
 ```
 
-Montre comment supprimer tous les pieds de page d'un document.
+Montre comment supprimer tous les pieds de page d’un document.
 
 ```csharp
 Document doc = new Document(MyDir + "Header and footer types.docx");
@@ -53,7 +53,7 @@ foreach (Section section in doc.OfType<Section>())
     footer = section.HeadersFooters[HeaderFooterType.FooterPrimary];
     footer?.Remove();
 
-     // 3 - L'en-tête/pied de page "Even", qui apparaît sur les pages paires.
+     // 3 - L'en-tête/pied de page "Pair", qui apparaît sur les pages paires.
     footer = section.HeadersFooters[HeaderFooterType.FooterEven];
     footer?.Remove();
 

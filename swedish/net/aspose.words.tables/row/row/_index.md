@@ -1,14 +1,14 @@
 ---
 title: Row.Row
 second_title: Aspose.Words för .NET API Referens
-description: Row byggare. Initierar en ny instans av Rad class.
+description: Row byggare. Initierar en ny instans avRow class.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.tables/row/row/
 ---
 ## Row constructor
 
-Initierar en ny instans av **Rad** class.
+Initierar en ny instans av[`Row`](../) class.
 
 ```csharp
 public Row(DocumentBase doc)
@@ -20,9 +20,9 @@ public Row(DocumentBase doc)
 
 ### Anmärkningar
 
-När **Rad** skapas, det tillhör det angivna dokumentet, men är inte ännu en del av dokumentet och **ParentNode** är inget.
+När[`Row`](../) skapas, det tillhör det angivna dokumentet, men är inte ännu en del av dokumentet och[`ParentNode`](../../../aspose.words/node/parentnode/) är`null`.
 
-Att lägga till **Rad**till dokumentet använd InsertAfter eller InsertBefore på tabellen där du vill infoga raden.
+Att lägga till[`Row`](../) till dokumentanvändningenNode) ellerNode) i tabellen där du vill att raden ska infogas.
 
 ### Exempel
 

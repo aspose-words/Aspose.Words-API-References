@@ -1,14 +1,14 @@
 ---
 title: FindReplaceOptions.ReplacingCallback
 second_title: Aspose.Words for .NET API Referansı
-description: FindReplaceOptions mülk. Her değiştirme oluşumundan önce çağrılan kullanıcı tanımlı yöntem.
+description: FindReplaceOptions mülk. Her değiştirme işleminden önce çağrılan kullanıcı tanımlı yöntem.
 type: docs
-weight: 130
+weight: 150
 url: /tr/net/aspose.words.replacing/findreplaceoptions/replacingcallback/
 ---
 ## FindReplaceOptions.ReplacingCallback property
 
-Her değiştirme oluşumundan önce çağrılan kullanıcı tanımlı yöntem.
+Her değiştirme işleminden önce çağrılan kullanıcı tanımlı yöntem.
 
 ```csharp
 public IReplacingCallback ReplacingCallback { get; set; }
@@ -16,9 +16,10 @@ public IReplacingCallback ReplacingCallback { get; set; }
 
 ### Örnekler
 
-Tüm bu değiştirmeleri izlerken, bir normal ifade modelinin tüm oluşumlarının başka bir dizeyle nasıl değiştirileceğini gösterir.
+Tüm bu değiştirmeleri izlerken, düzenli ifade modelinin tüm oluşumlarının başka bir dizeyle nasıl değiştirileceğini gösterir.
 
 ```csharp
+public void ReplaceWithCallback()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -29,7 +30,7 @@ Tüm bu değiştirmeleri izlerken, bir normal ifade modelinin tüm oluşumların
     // Bul ve değiştir işlemini değiştirmek için bir "FindReplaceOptions" nesnesi kullanabiliriz.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // "Değiştir" yönteminin yapacağı değişiklikleri izleyen bir geri arama ayarlayın.
+    // "Değiştir" yönteminin yapacağı değişiklikleri izleyen bir geri çağırma ayarlayın.
     TextFindAndReplacementLogger logger = new TextFindAndReplacementLogger();
     options.ReplacingCallback = logger;
 
@@ -43,7 +44,7 @@ Tüm bu değiştirmeleri izlerken, bir normal ifade modelinin tüm oluşumların
 }
 
 /// <summary>
-/// Bul ve değiştir işlemiyle yapılan her metin değişikliğinin günlüğünü tutar
+/// Bul ve değiştir işlemiyle gerçekleştirilen her metin değişiminin kaydını tutar
 /// ve orijinal eşleşen metnin değerini not eder.
 /// </summary>
 private class TextFindAndReplacementLogger : IReplacingCallback
@@ -69,6 +70,7 @@ private class TextFindAndReplacementLogger : IReplacingCallback
 FindReplaceOptions aracılığıyla yeni içeriğe farklı bir yazı tipinin nasıl uygulanacağını gösterir.
 
 ```csharp
+public void ConvertNumbersToHexadecimal()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -80,7 +82,7 @@ FindReplaceOptions aracılığıyla yeni içeriğe farklı bir yazı tipinin nas
     // Bul ve değiştir işlemini değiştirmek için bir "FindReplaceOptions" nesnesi kullanabiliriz.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // "HighlightColor" özelliğini, işlemin sonuç metnine uygulamak istediğimiz bir arka plan rengine ayarlayın.
+    // "HighlightColor" özelliğini, işlemin sonuç metnine uygulamak istediğimiz arka plan rengine ayarlayın.
     options.ApplyFont.HighlightColor = Color.LightGray;
 
     NumberHexer numberHexer = new NumberHexer();
@@ -98,8 +100,8 @@ FindReplaceOptions aracılığıyla yeni içeriğe farklı bir yazı tipinin nas
 }
 
 /// <summary>
-/// Sayısal bul ve değiştir eşleşmelerini onaltılık eşdeğerleriyle değiştirir.
-/// Her değiştirmenin bir günlüğünü tutar.
+/// Sayısal bulma ve değiştirme eşleşmelerini onaltılık eşdeğerleriyle değiştirir.
+/// Her değişimin kaydını tutar.
 /// </summary>
 private class NumberHexer : IReplacingCallback
 {

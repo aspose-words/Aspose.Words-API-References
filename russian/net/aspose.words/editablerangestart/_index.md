@@ -3,12 +3,14 @@ title: Class EditableRangeStart
 second_title: Справочник по API Aspose.Words для .NET
 description: Aspose.Words.EditableRangeStart сорт. Представляет начало редактируемого диапазона в документе Word.
 type: docs
-weight: 1290
+weight: 1440
 url: /ru/net/aspose.words/editablerangestart/
 ---
 ## EditableRangeStart class
 
 Представляет начало редактируемого диапазона в документе Word.
+
+Чтобы узнать больше, посетите[Объектная модель документа Aspose.Words (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) статья документации.
 
 ```csharp
 public sealed class EditableRangeStart : Node
@@ -18,16 +20,16 @@ public sealed class EditableRangeStart : Node
 
 | Имя | Описание |
 | --- | --- |
-| [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Указывает идентификатор пользовательского узла. |
+| [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Указывает пользовательский идентификатор узла. |
 | virtual [Document](../../aspose.words/node/document/) { get; } | Получает документ, которому принадлежит этот узел. |
-| [EditableRange](../../aspose.words/editablerangestart/editablerange/) { get; } | Получает объект фасада, который инкапсулирует начало и конец редактируемого диапазона. |
-| [Id](../../aspose.words/editablerangestart/id/) { get; set; } | Задает идентификатор редактируемого диапазона. |
-| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Возвращает true, если этот узел может содержать другие узлы. |
+| [EditableRange](../../aspose.words/editablerangestart/editablerange/) { get; } | Получает объект фасада, который инкапсулирует начало и конец этого редактируемого диапазона. |
+| [Id](../../aspose.words/editablerangestart/id/) { get; set; } | Указывает идентификатор редактируемого диапазона. |
+| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Возвращает`истинный` если этот узел может содержать другие узлы. |
 | [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Получает узел, следующий сразу за этим узлом. |
 | override [NodeType](../../aspose.words/editablerangestart/nodetype/) { get; } | ВозвращаетEditableRangeStart . |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Получает непосредственного родителя этого узла. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Получает узел, непосредственно предшествующий этому узлу. |
-| [Range](../../aspose.words/node/range/) { get; } | Возвращает **Диапазон** объект, представляющий часть документа, содержащегося в этом узле. |
+| [Range](../../aspose.words/node/range/) { get; } | Возвращает[`Range`](../range/) объект, представляющий часть документа, содержащуюся в этом узле. |
 
 ## Методы
 
@@ -38,21 +40,21 @@ public sealed class EditableRangeStart : Node
 | [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Получает первого предка указанного[`NodeType`](../nodetype/) . |
 | [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Получает первого предка указанного типа объекта. |
 | virtual [GetText](../../aspose.words/node/gettext/)() | Получает текст этого узла и всех его дочерних элементов. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Получает следующий узел в соответствии с алгоритмом обхода дерева предварительного порядка. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Получает предыдущий узел в соответствии с алгоритмом обхода дерева предварительного порядка. |
-| [Remove](../../aspose.words/node/remove/)() | Удаляет себя из родителя. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Экспортирует содержимое узла в строку в указанном формате. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Получает следующий узел в соответствии с алгоритмом обхода дерева предварительного заказа. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Получает предыдущий узел в соответствии с алгоритмом обхода дерева предварительного заказа. |
+| [Remove](../../aspose.words/node/remove/)() | Удаляет себя от родителя. |
+| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Экспортирует содержимое узла в строку указанного формата. |
 | [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Экспортирует содержимое узла в строку, используя указанные параметры сохранения. |
 
 ### Примечания
 
-Полный редактируемый диапазон в документе Word состоит из`EditableRangeStart` и соответствующий[`EditableRangeEnd`](../editablerangeend/) с тем же идентификатором.
+Полный редактируемый диапазон в документе Word состоит из`EditableRangeStart` и соответствие[`EditableRangeEnd`](../editablerangeend/) с тем же идентификатором.
 
-`EditableRangeStart` а также[`EditableRangeEnd`](../editablerangeend/) являются просто маркерами внутри document , которые указывают, где начинается и заканчивается редактируемый диапазон.
+`EditableRangeStart` и[`EditableRangeEnd`](../editablerangeend/) это просто маркеры внутри document , которые указывают, где начинается и заканчивается редактируемый диапазон.
 
-Использовать[`EditableRange`](./editablerange/)class как «фасад» для работы с редактируемым range как с единым объектом.
+Использовать[`EditableRange`](./editablerange/) класс как «фасад» для работы с редактируемым диапазоном как с одним объектом.
 
-В настоящее время редактируемые диапазоны поддерживаются только на встроенном уровне, то есть внутри[`Paragraph`](../paragraph/), , но начало редактируемого диапазона и конец редактируемого диапазона могут быть в разных абзацах.
+В настоящее время редактируемые диапазоны поддерживаются только на линейном уровне, то есть внутри[`Paragraph`](../paragraph/), но начало редактируемого диапазона и конец редактируемого диапазона могут находиться в разных абзацах.
 
 ### Примеры
 
@@ -68,7 +70,7 @@ public void Visitor()
     builder.Writeln("Hello world! Since we have set the document's protection level to read-only," +
                     " we cannot edit this paragraph without the password.");
 
-    // Когда мы защищаем документы от записи, редактируемые диапазоны позволяют нам выбирать определенные области, которые могут редактировать пользователи.
+    // Когда мы защищаем документы от записи, редактируемые диапазоны позволяют нам выбирать определенные области, которые пользователи могут редактировать.
     // Есть два взаимоисключающих способа сузить список разрешенных редакторов.
     // 1 - Указываем пользователя:
     EditableRange editableRange = builder.StartEditableRange().EditableRange;
@@ -78,7 +80,7 @@ public void Visitor()
 
     Assert.AreEqual(EditorType.Unspecified, editableRange.EditorGroup);
 
-    // 2 - Указываем группу, с которой связаны разрешенные пользователи:
+    // 2 - Укажите группу, с которой связаны разрешенные пользователи:
     editableRange = builder.StartEditableRange().EditableRange;
     editableRange.EditorGroup = EditorType.Administrators;
     builder.Writeln($"This paragraph is inside the first editable range, can only be edited by {editableRange.EditorGroup}.");
@@ -88,7 +90,7 @@ public void Visitor()
 
     builder.Writeln("This paragraph is outside the editable range, and cannot be edited by anybody.");
 
-    // Печатаем детали и содержимое каждого редактируемого диапазона в документе.
+    // Распечатываем детали и содержимое каждого редактируемого диапазона в документе.
     EditableRangePrinter editableRangePrinter = new EditableRangePrinter();
 
     doc.Accept(editableRangePrinter);
@@ -148,7 +150,7 @@ public class EditableRangePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается, когда в документе встречается узел Run. Этот посетитель записывает только те пробеги, которые находятся в редактируемых диапазонах.
+    /// Вызывается, когда в документе встречается узел Run. Этот посетитель записывает только прогоны, находящиеся в пределах редактируемых диапазонов.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {

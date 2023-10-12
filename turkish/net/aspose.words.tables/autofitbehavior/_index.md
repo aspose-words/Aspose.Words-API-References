@@ -1,14 +1,14 @@
 ---
 title: Enum AutoFitBehavior
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Tables.AutoFitBehavior Sıralama. Aspose.Words öğesini çağırdığınızda tabloyu nasıl yeniden boyutlandıracağını belirler.AutoFit yöntem.
+description: Aspose.Words.Tables.AutoFitBehavior Sıralama. Aspose.Wordsün tabloyu çağırdığınızda tabloyu nasıl yeniden boyutlandıracağını belirler.AutoFit yöntem.
 type: docs
-weight: 5930
+weight: 6230
 url: /tr/net/aspose.words.tables/autofitbehavior/
 ---
 ## AutoFitBehavior enumeration
 
-Aspose.Words öğesini çağırdığınızda tabloyu nasıl yeniden boyutlandıracağını belirler.[`AutoFit`](../table/autofit/) yöntem.
+Aspose.Words'ün tabloyu çağırdığınızda tabloyu nasıl yeniden boyutlandıracağını belirler.[`AutoFit`](../table/autofit/) yöntem.
 
 ```csharp
 public enum AutoFitBehavior
@@ -18,27 +18,27 @@ public enum AutoFitBehavior
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| AutoFitToContents | `0` | Aspose.Words, AutoFit seçeneğini etkinleştirir, tercih edilen genişliği tablodan ve tüm hücrelerden kaldırır ve ardından tablo düzenini günceller. |
-| AutoFitToWindow | `1` | Bu değeri kullandığınızda Aspose.Words AutoFit seçeneğini etkinleştirir, tablo için tercih edilen genişliği %100'e ayarlar, tercih edilen genişlikleri tüm hücrelerden kaldırır ve ardından tablo düzenini günceller. |
-| FixedColumnWidths | `2` | Aspose.Words, AutoFit seçeneğini devre dışı bırakır ve tercih edileni tablodan kaldırır. |
+| AutoFitToContents | `0` | Aspose.Words, Otomatik Sığdır seçeneğini etkinleştirir, tercih edilen genişliği tablodan ve tüm hücrelerden kaldırır ve ardından tablo düzenini günceller. |
+| AutoFitToWindow | `1` | Bu değeri kullandığınızda Aspose.Words, Otomatik Sığdır seçeneğini etkinleştirir, tablo için tercih edilen genişliği %100'e ayarlar, tercih edilen genişlikleri tüm hücrelerden kaldırır ve ardından tablo düzenini günceller. |
+| FixedColumnWidths | `2` | Aspose.Words, Otomatik Sığdır seçeneğini devre dışı bırakır ve tercih edilenleri tablodan kaldırır. |
 
 ### Örnekler
 
-Bir stil uygularken yeni bir tablonun nasıl oluşturulacağını gösterir.
+Stil uygularken yeni bir tablonun nasıl oluşturulacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 Table table = builder.StartTable();
 
-// Herhangi bir tablo biçimlendirmesini ayarlamadan önce en az bir satır eklemeliyiz.
+// Herhangi bir tablo formatını ayarlamadan önce en az bir satır eklemeliyiz.
 builder.InsertCell();
 
-// Stil tanımlayıcısına göre kullanılan tablo stilini ayarlayın.
-// .doc biçiminde kaydederken tüm tablo stillerinin kullanılamayacağını unutmayın.
+// Kullanılan tablo stilini stil tanımlayıcıya göre ayarlayın.
+// .doc formatında kaydederken tüm tablo stillerinin kullanılamayacağını unutmayın.
 table.StyleIdentifier = StyleIdentifier.MediumShading1Accent1;
 
-// Tahminlere dayalı olarak stili kısmen tablonun özelliklerine uygulayın, ardından tabloyu oluşturun.
+// Stili, yüklemlere dayalı olarak tablonun özelliklerine kısmen uygulayın, ardından tabloyu oluşturun.
 table.StyleOptions =
     TableStyleOptions.FirstColumn | TableStyleOptions.RowBands | TableStyleOptions.FirstRow;
 table.AutoFit(AutoFitBehavior.AutoFitToContents);
@@ -84,8 +84,8 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndRow();
 
-// Tabloyu oluştururken, belge oluşturucu mevcut RowFormat/CellFormat özellik değerlerini uygulayacaktır
-// imlecinin içinde bulunduğu geçerli satıra/hücreye ve bunları oluştururken yeni satırlara/hücrelere.
+// Tabloyu oluştururken belge oluşturucu mevcut RowFormat/CellFormat özellik değerlerini uygulayacaktır
+// imlecin bulunduğu geçerli satıra/hücreye ve onları oluştururken yeni satırlara/hücrelere.
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[0].CellFormat.VerticalAlignment);
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[1].CellFormat.VerticalAlignment);
 

@@ -3,12 +3,14 @@ title: Class FontFallbackSettings
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.Fonts.FontFallbackSettings clase. Especifica la configuración del mecanismo de reserva de fuentes.
 type: docs
-weight: 2720
+weight: 2900
 url: /es/net/aspose.words.fonts/fontfallbacksettings/
 ---
 ## FontFallbackSettings class
 
 Especifica la configuración del mecanismo de reserva de fuentes.
+
+Para obtener más información, visite el[Trabajar con fuentes](https://docs.aspose.com/words/net/working-with-fonts/) artículo de documentación.
 
 ```csharp
 public class FontFallbackSettings
@@ -18,17 +20,17 @@ public class FontFallbackSettings
 
 | Nombre | Descripción |
 | --- | --- |
-| [BuildAutomatic](../../aspose.words.fonts/fontfallbacksettings/buildautomatic/)() | Crea automáticamente la configuración de respaldo al escanear las fuentes disponibles. |
-| [Load](../../aspose.words.fonts/fontfallbacksettings/load/#load)(Stream) | Carga la configuración de reserva desde el flujo XML. |
-| [Load](../../aspose.words.fonts/fontfallbacksettings/load/#load_1)(string) | Carga la configuración de reserva de fuente desde el archivo XML. |
-| [LoadMsOfficeFallbackSettings](../../aspose.words.fonts/fontfallbacksettings/loadmsofficefallbacksettings/)() | Carga la configuración de respaldo predefinida que imita el respaldo de Microsoft Word y usa las fuentes de Microsoft Office. |
-| [LoadNotoFallbackSettings](../../aspose.words.fonts/fontfallbacksettings/loadnotofallbacksettings/)() | Carga la configuración de respaldo predefinida que usa las fuentes Google Noto. |
-| [Save](../../aspose.words.fonts/fontfallbacksettings/save/#save)(Stream) | Guarda la configuración de respaldo actual en la transmisión. |
-| [Save](../../aspose.words.fonts/fontfallbacksettings/save/#save_1)(string) | Guarda la configuración de respaldo actual en el archivo. |
+| [BuildAutomatic](../../aspose.words.fonts/fontfallbacksettings/buildautomatic/)() | Crea automáticamente la configuración alternativa escaneando las fuentes disponibles. |
+| [Load](../../aspose.words.fonts/fontfallbacksettings/load/#load)(Stream) | Carga la configuración alternativa desde la secuencia XML. |
+| [Load](../../aspose.words.fonts/fontfallbacksettings/load/#load_1)(string) | Carga la configuración de reserva de fuentes desde el archivo XML. |
+| [LoadMsOfficeFallbackSettings](../../aspose.words.fonts/fontfallbacksettings/loadmsofficefallbacksettings/)() | Carga configuraciones de respaldo predefinidas que imitan el respaldo de Microsoft Word y utilizan fuentes de Microsoft Office. |
+| [LoadNotoFallbackSettings](../../aspose.words.fonts/fontfallbacksettings/loadnotofallbacksettings/)() | Carga configuraciones de respaldo predefinidas que utilizan fuentes Google Noto. |
+| [Save](../../aspose.words.fonts/fontfallbacksettings/save/#save)(Stream) | Guarda la configuración alternativa actual en la transmisión. |
+| [Save](../../aspose.words.fonts/fontfallbacksettings/save/#save_1)(string) | Guarda la configuración alternativa actual en un archivo. |
 
 ### Observaciones
 
-Por defecto, la configuración de respaldo se inicializa con configuraciones predefinidas que imitan el respaldo de Microsoft Word.
+De forma predeterminada, la configuración de respaldo se inicializa con configuraciones predefinidas que imitan el respaldo de Microsoft Word.
 
 ### Ejemplos
 
@@ -41,7 +43,7 @@ FontSettings fontSettings = new FontSettings();
 doc.FontSettings = fontSettings;
 FontFallbackSettings fontFallbackSettings = fontSettings.FallbackSettings;
 
-// Configure nuestros ajustes de fuentes para obtener fuentes solo desde la carpeta "MyFonts".
+// Configure nuestra configuración de fuentes para obtener fuentes solo desde la carpeta "MyFonts".
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false);
 fontSettings.SetFontsSources(new FontSourceBase[] {folderFontSource});
 
@@ -53,7 +55,7 @@ fontFallbackSettings.Save(ArtifactsDir + "FontSettings.FallbackSettingsCustom.Bu
 
 // También podemos cargar un esquema de sustitución personalizado desde un archivo como este.
 // Este esquema aplica la fuente "AllegroOpen" en los bloques Unicode "0000-00ff", la fuente "AllegroOpen" en "0100-024f",
-// y la fuente "M+ 2m" en todos los demás rangos que otras fuentes en el esquema no cubren.
+// y la fuente "M+ 2m" en todos los demás rangos que otras fuentes del esquema no cubren.
 fontFallbackSettings.Load(MyDir + "Custom font fallback settings.xml");
 
 // Cree un generador de documentos y establezca su fuente en una que no exista en ninguna de nuestras fuentes.
@@ -61,8 +63,8 @@ fontFallbackSettings.Load(MyDir + "Custom font fallback settings.xml");
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Font.Name = "Missing Font";
 
-// Usa el constructor para imprimir todos los caracteres Unicode desde 0x0021 hasta 0x052F,
-// con líneas descriptivas que dividen los bloques Unicode que definimos en nuestro esquema de respaldo de fuente personalizado.
+// Usa el constructor para imprimir cada carácter Unicode desde 0x0021 hasta 0x052F,
+// con líneas descriptivas que dividen los bloques Unicode que definimos en nuestro esquema de reserva de fuentes personalizado.
 for (int i = 0x0021; i < 0x0530; i++)
 {
     switch (i)

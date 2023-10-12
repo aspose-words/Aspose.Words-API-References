@@ -1,14 +1,14 @@
 ---
 title: SaveOptions.DefaultTemplate
 second_title: Aspose.Words för .NET API Referens
-description: SaveOptions fast egendom. Hämtar eller ställer in sökvägen till standardmall inklusive filnamn. Standardvärdet för den här egenskapen är tom sträng Empty .
+description: SaveOptions fast egendom. Hämtar eller ställer in sökvägen till standardmall inklusive filnamn. Standardvärdet för den här egenskapen är tom sträng Empty.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.saving/saveoptions/defaulttemplate/
 ---
 ## SaveOptions.DefaultTemplate property
 
-Hämtar eller ställer in sökvägen till standardmall (inklusive filnamn). Standardvärdet för den här egenskapen är **tom sträng** (Empty ).
+Hämtar eller ställer in sökvägen till standardmall (inklusive filnamn). Standardvärdet för den här egenskapen är **tom sträng** (Empty).
 
 ```csharp
 public string DefaultTemplate { get; set; }
@@ -16,7 +16,7 @@ public string DefaultTemplate { get; set; }
 
 ### Anmärkningar
 
-Om det anges används den här sökvägen för att ladda mallen när[`AutomaticallyUpdateStyles`](../../../aspose.words/document/automaticallyupdatestyles/) är sant, men[`AttachedTemplate`](../../../aspose.words/document/attachedtemplate/) är tom.
+Om det anges används den här sökvägen för att ladda mallen när[`AutomaticallyUpdateStyles`](../../../aspose.words/document/automaticallyupdatestyles/) är`Sann` , men[`AttachedTemplate`](../../../aspose.words/document/attachedtemplate/) är tom.
 
 ### Exempel
 

@@ -1,14 +1,14 @@
 ---
 title: PageSet.Odd
 second_title: Aspose.Words for .NET API Referansı
-description: PageSet mülk. Belgenin tüm tek sayfalarını orijinal sıralarına göre içeren bir küme alır.
+description: PageSet mülk. Belgenin tüm tek sayfalarını orijinal sıralarında içeren bir set alır.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.saving/pageset/odd/
 ---
 ## PageSet.Odd property
 
-Belgenin tüm tek sayfalarını orijinal sıralarına göre içeren bir küme alır.
+Belgenin tüm tek sayfalarını orijinal sıralarında içeren bir set alır.
 
 ```csharp
 public static PageSet Odd { get; }
@@ -16,7 +16,7 @@ public static PageSet Odd { get; }
 
 ### Notlar
 
-Sayfa dizinleri sıfır tabanlı olduğundan, tek sayfaların çift dizinleri vardır.
+Sayfa indeksleri sıfır tabanlı olduğundan tek sayfaların indeksleri çifttir.
 
 ### Ayrıca bakınız
 

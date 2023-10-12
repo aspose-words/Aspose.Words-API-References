@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.ExportRoundtripInformation
 second_title: Aspose.Words لمراجع .NET API
-description: HtmlSaveOptions ملكية. يحدد ما إذا كان سيتم كتابة معلومات الرحلة ذهابًا وإيابًا عند الحفظ بتنسيق HTML أو MHTML أو EPUB . القيمة الافتراضية هيحقيقي لـ HTML وخاطئة لـ MHTML و EPUB.
+description: HtmlSaveOptions ملكية. يحدد ما إذا كان سيتم كتابة معلومات رحلة الذهاب والإياب عند الحفظ في HTML أو MHTML أو EPUB. القيمة الافتراضية هيحقيقي لـ HTML وخطأ شنيع لـ MHTML وEPUB.
 type: docs
-weight: 250
+weight: 240
 url: /ar/net/aspose.words.saving/htmlsaveoptions/exportroundtripinformation/
 ---
 ## HtmlSaveOptions.ExportRoundtripInformation property
 
-يحدد ما إذا كان سيتم كتابة معلومات الرحلة ذهابًا وإيابًا عند الحفظ بتنسيق HTML أو MHTML أو EPUB . القيمة الافتراضية هي`حقيقي` لـ HTML و`خاطئة` لـ MHTML و EPUB.
+يحدد ما إذا كان سيتم كتابة معلومات رحلة الذهاب والإياب عند الحفظ في HTML أو MHTML أو EPUB. القيمة الافتراضية هي`حقيقي` لـ HTML و`خطأ شنيع` لـ MHTML وEPUB.
 
 ```csharp
 public bool ExportRoundtripInformation { get; set; }
@@ -16,30 +16,30 @@ public bool ExportRoundtripInformation { get; set; }
 
 ### ملاحظات
 
-يسمح حفظ معلومات رحلة الذهاب والإياب باستعادة خصائص المستند مثل علامات الجدولة والتعليقات والرؤوس والتذييلات أثناء تحميل مستندات HTML مرة أخرى في[`Document`](../../../aspose.words/document/) هدف.
+يتيح حفظ معلومات رحلة الذهاب والعودة استعادة خصائص المستند مثل علامات الجدولة وتعليقات والرؤوس والتذييلات أثناء تحميل مستندات HTML مرة أخرى إلى ملف[`Document`](../../../aspose.words/document/) هدف.
 
-متي`حقيقي`، يتم تصدير معلومات الرحلة ذهابًا وإيابًا كـ -aw- * CSS properties لعناصر HTML المقابلة.
+متى`حقيقي`، يتم تصدير معلومات رحلة الذهاب والإياب كـ -aw-* CSS property لعناصر HTML المقابلة.
 
-متي`خاطئة`، لا يؤدي إلى إخراج أي معلومات رحلة ذهابًا وإيابًا إلى الملفات المنتجة.
+متى`خطأ شنيع`، لا يؤدي إلى إخراج أي معلومات ذهابًا وإيابًا في الملفات المنتجة.
 
 ### أمثلة
 
-يوضح كيفية الاحتفاظ بالعناصر المخفية عند التحويل إلى .html.
+يوضح كيفية الحفاظ على العناصر المخفية عند التحويل إلى .html.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// عند تحويل مستند إلى .html ، فإن بعض العناصر مثل الإشارات المرجعية المخفية ومواضع الشكل الأصلية
-// أو ستتم إزالة الحواشي السفلية أو تحويلها إلى نص عادي وستفقد فعليًا.
-// الحفظ باستخدام كائن HtmlSaveOptions مع ضبط ExportRoundtripInformation على true سيحافظ على هذه العناصر.
+// عند تحويل مستند إلى .html، تظهر بعض العناصر مثل الإشارات المرجعية المخفية، ومواضع الأشكال الأصلية،
+// أو ستتم إزالة الحواشي السفلية أو تحويلها إلى نص عادي وسيتم فقدها فعليًا.
+// الحفظ باستخدام كائن HtmlSaveOptions مع تعيين ExportRoundtripInformation على القيمة true سوف يحافظ على هذه العناصر.
 
-// عندما نحفظ المستند إلى HTML ، يمكننا تمرير كائن SaveOptions لتحديده
-// كيف ستصدر عملية الحفظ عناصر المستند التي لا يدعمها HTML أو يستخدمها ،
-// مثل الإشارات المرجعية المخفية ومواضع الشكل الأصلية.
-// إذا قمنا بتعيين علامة "ExportRoundtripInformation" على "true" ، فستحتفظ عملية الحفظ بهذه العناصر.
-// إذا قمنا بتعيين علامة "ExportRoundTripInformation" على "خطأ" ، فستتجاهل عملية الحفظ هذه العناصر.
-// سنريد الاحتفاظ بهذه العناصر إذا كنا نعتزم تحميل HTML المحفوظ باستخدام Aspose.Words ،
-// لأنها يمكن أن تكون مفيدة مرة أخرى.
+// عندما نحفظ المستند إلى HTML، يمكننا تمرير كائن SaveOptions لتحديده
+// كيف ستقوم عملية الحفظ بتصدير عناصر المستند التي لا يدعمها HTML أو يستخدمها،
+// مثل الإشارات المرجعية المخفية ومواضع الأشكال الأصلية.
+// إذا قمنا بتعيين علامة "ExportRoundtripInformation" على "صحيح"، فستحافظ عملية الحفظ على هذه العناصر.
+// إذا قمنا بتعيين علامة "ExportRoundTripInformation" على "خطأ"، فستتجاهل عملية الحفظ هذه العناصر.
+// سنرغب في الحفاظ على هذه العناصر إذا أردنا تحميل HTML المحفوظ باستخدام Aspose.Words،
+// لأنها يمكن أن تكون ذات فائدة مرة أخرى.
 HtmlSaveOptions options = new HtmlSaveOptions { ExportRoundtripInformation = exportRoundtripInformation };
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.RoundTripInformation.html", options);

@@ -24,7 +24,7 @@ Document doc = new Document(MyDir + "Properties.docx");
 // "Belge" nesnesi, meta verilerinin bir kısmını üyelerinde içerir.
 Console.WriteLine($"Document filename:\n\t \"{doc.OriginalFileName}\"");
 
-// Belge ayrıca meta verileri yerleşik özelliklerinde de saklar.
+// Belge aynı zamanda meta verileri yerleşik özelliklerinde de saklar.
 // Her yerleşik özellik, belgenin "BuiltInDocumentProperties" nesnesinin bir üyesidir.
 Console.WriteLine("Built-in Properties:");
 foreach (DocumentProperty docProperty in doc.BuiltInDocumentProperties)
@@ -32,7 +32,7 @@ foreach (DocumentProperty docProperty in doc.BuiltInDocumentProperties)
     Console.WriteLine(docProperty.Name);
     Console.WriteLine($"\tType:\t{docProperty.Type}");
 
-    // Bazı özellikler birden fazla değer depolayabilir.
+    // Bazı özellikler birden fazla değer saklayabilir.
     if (docProperty.Value is ICollection<object>)
     {
         foreach (object value in docProperty.Value as ICollection<object>)

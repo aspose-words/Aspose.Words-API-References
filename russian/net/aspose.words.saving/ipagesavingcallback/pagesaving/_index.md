@@ -1,14 +1,14 @@
 ---
 title: IPageSavingCallback.PageSaving
 second_title: Справочник по API Aspose.Words для .NET
-description: IPageSavingCallback метод. Вызывается когда Aspose.Words сохраняет отдельную страницу в фиксированных форматах страниц.
+description: IPageSavingCallback метод. Вызывается когда Aspose.Words сохраняет отдельную страницу в фиксированном формате.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.saving/ipagesavingcallback/pagesaving/
 ---
 ## IPageSavingCallback.PageSaving method
 
-Вызывается, когда Aspose.Words сохраняет отдельную страницу в фиксированных форматах страниц.
+Вызывается, когда Aspose.Words сохраняет отдельную страницу в фиксированном формате.
 
 ```csharp
 public void PageSaving(PageSavingArgs args)
@@ -16,7 +16,7 @@ public void PageSaving(PageSavingArgs args)
 
 ### Примеры
 
-Показывает, как использовать обратный вызов для сохранения документа в формате HTML страница за страницей.
+Показывает, как использовать обратный вызов для сохранения документа в формате HTML постранично.
 
 ```csharp
 public void PageFileNames()
@@ -31,12 +31,12 @@ public void PageFileNames()
     builder.InsertBreak(BreakType.PageBreak);
     builder.Writeln("Page 3.");
 
-    // Создаем объект "HtmlFixedSaveOptions", который мы можем передать в метод документа "Сохранить"
+    // Создаем объект HtmlFixedSaveOptions, который мы можем передать методу Save документа.
     // чтобы изменить способ преобразования документа в HTML.
     HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions();
 
-    // Мы сохраним каждую страницу этого документа в отдельный файл HTML в локальной файловой системе.
-    // Установите обратный вызов, который позволит нам назвать каждый выходной HTML-документ.
+    // Мы сохраним каждую страницу этого документа в отдельный HTML-файл в локальной файловой системе.
+    // Устанавливаем обратный вызов, который позволяет нам присваивать имя каждому выходному HTML-документу.
     htmlFixedSaveOptions.PageSavingCallback = new CustomFileNamePageSavingCallback();
 
     doc.Save(ArtifactsDir + "SavingCallback.PageFileNames.html", htmlFixedSaveOptions);
@@ -57,10 +57,10 @@ private class CustomFileNamePageSavingCallback : IPageSavingCallback
         string outFileName = $"{ArtifactsDir}SavingCallback.PageFileNames.Page_{args.PageIndex}.html";
 
         // Ниже приведены два способа указать, где Aspose.Words будет сохранять каждую страницу документа.
-        // 1 - Установить имя файла для выходного файла страницы:
+        // 1 - Установить имя файла выходной страницы:
         args.PageFileName = outFileName;
 
-        // 2 - Создайте собственный поток для выходного файла страницы:
+        // 2 — Создать собственный поток для выходного файла страницы:
         args.PageStream = new FileStream(outFileName, FileMode.Create);
 
         Assert.False(args.KeepPageStreamOpen);

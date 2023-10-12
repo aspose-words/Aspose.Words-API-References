@@ -16,7 +16,7 @@ public HorizontalAlignment RelativeHorizontalAlignment { get; set; }
 
 ### أمثلة
 
-يوضح كيفية تعيين موقع الجداول العائمة.
+يوضح كيفية ضبط موقع الجداول العائمة.
 
 ```csharp
 Document doc = new Document();
@@ -28,7 +28,7 @@ builder.Write("Table 1, cell 1");
 builder.EndTable();
 table.PreferredWidth = PreferredWidth.FromPoints(300);
 
-// اضبط موقع الجدول على مكان ما على الصفحة ، مثل ، في هذه الحالة ، الركن الأيمن السفلي.
+// قم بتعيين موقع الجدول في مكان على الصفحة، مثل، في هذه الحالة، الزاوية اليمنى السفلية.
 table.RelativeVerticalAlignment = VerticalAlignment.Bottom;
 table.RelativeHorizontalAlignment = HorizontalAlignment.Right;
 
@@ -38,7 +38,7 @@ builder.Write("Table 2, cell 1");
 builder.EndTable();
 table.PreferredWidth = PreferredWidth.FromPoints(300);
 
-// يمكننا أيضًا تعيين إزاحة أفقية ورأسية في نقاط من موقع الفقرة حيث أدخلنا الجدول. 
+ // يمكننا أيضًا تعيين إزاحة أفقية ورأسية في النقاط من موقع الفقرة حيث قمنا بإدراج الجدول.
 table.AbsoluteVerticalDistance = 50;
 table.AbsoluteHorizontalDistance = 100;
 

@@ -3,7 +3,7 @@ title: ImageSaveOptions.PixelFormat
 second_title: Référence de l'API Aspose.Words pour .NET
 description: ImageSaveOptions propriété. Obtient ou définit le format de pixel pour les images générées.
 type: docs
-weight: 110
+weight: 120
 url: /fr/net/aspose.words.saving/imagesaveoptions/pixelformat/
 ---
 ## ImageSaveOptions.PixelFormat property
@@ -16,7 +16,7 @@ public ImagePixelFormat PixelFormat { get; set; }
 
 ### Remarques
 
-Cette propriété n'a d'effet que lors de l'enregistrement dans des formats d'image raster.
+Cette propriété n'a d'effet que lors de l'enregistrement au format d'image raster.
 
 La valeur par défaut estFormat32BppArgb.
 
@@ -24,7 +24,7 @@ Le format de pixel de l'image de sortie peut différer de la valeur définie en 
 
 ### Exemples
 
-Montre comment sélectionner un taux de bit par pixel avec lequel rendre un document en image.
+Montre comment sélectionner un débit bit par pixel avec lequel restituer un document en image.
 
 ```csharp
 Document doc = new Document();
@@ -36,13 +36,13 @@ Document doc = new Document();
 
             Assert.That(20000, Is.LessThan(new FileInfo(ImageDir + "Logo.jpg").Length));
 
-            // Lorsque nous enregistrons le document en tant qu'image, nous pouvons passer un objet SaveOptions à
-            // sélectionne un format de pixel pour l'image que l'opération de sauvegarde va générer.
-            // Divers taux de bit par pixel affecteront la qualité et la taille du fichier de l'image générée.
+            // Lorsque nous enregistrons le document sous forme d'image, nous pouvons passer un objet SaveOptions à
+            // sélectionne un format de pixel pour l'image que l'opération de sauvegarde générera.
+            // Différents débits bit par pixel affecteront la qualité et la taille du fichier de l'image générée.
             ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFormat.Png);
             imageSaveOptions.PixelFormat = imagePixelFormat;
 
-            // Nous pouvons cloner des instances ImageSaveOptions.
+            // Nous pouvons cloner les instances ImageSaveOptions.
             Assert.AreNotEqual(imageSaveOptions, imageSaveOptions.Clone());
 
             doc.Save(ArtifactsDir + "ImageSaveOptions.PixelFormat.png", imageSaveOptions);

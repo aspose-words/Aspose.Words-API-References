@@ -3,7 +3,7 @@ title: DocumentBuilder.ParagraphFormat
 second_title: Aspose.Words لمراجع .NET API
 description: DocumentBuilder ملكية. إرجاع كائن يمثل خصائص تنسيق الفقرة الحالية.
 type: docs
-weight: 150
+weight: 170
 url: /ar/net/aspose.words/documentbuilder/paragraphformat/
 ---
 ## DocumentBuilder.ParagraphFormat property
@@ -26,7 +26,7 @@ Table table = builder.StartTable();
 builder.InsertCell();
 table.LeftIndent = 20;
 
-// تعيين بعض خيارات التنسيق لمظهر النص والجدول.
+// قم بتعيين بعض خيارات التنسيق لمظهر النص والجدول.
 builder.RowFormat.Height = 40;
 builder.RowFormat.HeightRule = HeightRule.AtLeast;
 builder.CellFormat.Shading.BackgroundPatternColor = Color.FromArgb(198, 217, 241);
@@ -37,7 +37,7 @@ builder.Font.Name = "Arial";
 builder.Font.Bold = true;
 
 // سيؤدي تكوين خيارات التنسيق في أداة إنشاء المستندات إلى تطبيقها
-// إلى الخلية / الصف الحالي الذي يوجد به المؤشر ،
+// إلى الخلية/الصف الحالي الذي يوجد به المؤشر،
 // بالإضافة إلى أي خلايا وصفوف جديدة تم إنشاؤها باستخدام هذا المنشئ.
 builder.Write("Header Row,\n Cell 1");
 builder.InsertCell();
@@ -46,8 +46,8 @@ builder.InsertCell();
 builder.Write("Header Row,\n Cell 3");
 builder.EndRow();
 
-// إعادة تكوين كائنات التنسيق الخاصة بالباني للصفوف والخلايا الجديدة التي نحن على وشك تكوينها.
-// لن يطبق المنشئ هذه على الصف الأول الذي تم إنشاؤه بالفعل بحيث يبرز كصف رأس.
+// أعد تكوين كائنات التنسيق الخاصة بالمنشئ للصفوف والخلايا الجديدة التي نحن على وشك إنشاؤها.
+// لن يقوم المنشئ بتطبيق هذه العناصر على الصف الأول الذي تم إنشاؤه بالفعل بحيث يبرز كصف رأس.
 builder.CellFormat.Shading.BackgroundPatternColor = Color.White;
 builder.CellFormat.VerticalAlignment = CellVerticalAlignment.Center;
 builder.RowFormat.Height = 30;

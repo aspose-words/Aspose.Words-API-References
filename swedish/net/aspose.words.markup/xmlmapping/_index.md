@@ -3,12 +3,14 @@ title: Class XmlMapping
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Markup.XmlMapping klass. Anger informationen som används för att upprätta en mappning mellan den strukturerade dokumenttaggen parent och ett XMLelement lagrat i en anpassad XMLdatadel i dokumentet.
 type: docs
-weight: 3860
+weight: 4100
 url: /sv/net/aspose.words.markup/xmlmapping/
 ---
 ## XmlMapping class
 
 Anger informationen som används för att upprätta en mappning mellan den strukturerade dokumenttaggen parent och ett XML-element lagrat i en anpassad XML-datadel i dokumentet.
+
+För att lära dig mer, besök[Strukturerade dokumenttaggar eller innehållskontroll](https://docs.aspose.com/words/net/working-with-content-control-sdt/) dokumentationsartikel.
 
 ```csharp
 public class XmlMapping
@@ -19,7 +21,7 @@ public class XmlMapping
 | namn | Beskrivning |
 | --- | --- |
 | [CustomXmlPart](../../aspose.words.markup/xmlmapping/customxmlpart/) { get; } | Returnerar den anpassade XML-datadelen till vilken den överordnade strukturerade dokumenttaggen är mappad. |
-| [IsMapped](../../aspose.words.markup/xmlmapping/ismapped/) { get; } | Returnerar **Sann** om den överordnade strukturerade dokumenttaggen har mappats till XML-data. |
+| [IsMapped](../../aspose.words.markup/xmlmapping/ismapped/) { get; } | Returnerar`Sann` om den överordnade strukturerade dokumenttaggen har mappats till XML-data. |
 | [PrefixMappings](../../aspose.words.markup/xmlmapping/prefixmappings/) { get; } | Returnerar XML-namnområdesprefixmappningar för att utvärdera[`XPath`](./xpath/) . |
 | [StoreItemId](../../aspose.words.markup/xmlmapping/storeitemid/) { get; } | Anger den anpassade XML-dataidentifieraren för den anpassade XML-datadelen som ska användas för att utvärdera[`XPath`](./xpath/) expression. |
 | [XPath](../../aspose.words.markup/xmlmapping/xpath/) { get; } | Returnerar XPath-uttrycket, som utvärderas för att hitta den anpassade XML-noden som är mappad till den överordnade strukturerade dokumenttaggen. |

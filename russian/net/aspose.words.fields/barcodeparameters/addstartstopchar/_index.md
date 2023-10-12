@@ -1,14 +1,14 @@
 ---
 title: BarcodeParameters.AddStartStopChar
 second_title: Справочник по API Aspose.Words для .NET
-description: BarcodeParameters свойство. Добавлять ли символы Start/Stop для типов штрихкодов NW7 и CODE39.
+description: BarcodeParameters свойство. Добавлять ли символы начала/остановки для типов штрихкодов NW7 и CODE39.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/barcodeparameters/addstartstopchar/
 ---
 ## BarcodeParameters.AddStartStopChar property
 
-Добавлять ли символы Start/Stop для типов штрих-кодов NW7 и CODE39.
+Добавлять ли символы начала/остановки для типов штрих-кодов NW7 и CODE39.
 
 ```csharp
 public bool AddStartStopChar { get; set; }
@@ -21,9 +21,8 @@ public bool AddStartStopChar { get; set; }
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-
 // Мы можем использовать собственную реализацию IBarcodeGenerator для генерации штрих-кодов,
-// и затем вставляем их в документ как изображения.
+// а затем вставляем их в документ как изображения.
 doc.FieldOptions.BarcodeGenerator = new CustomBarcodeGenerator();
 
 // Ниже приведены четыре примера различных типов штрих-кодов, которые мы можем создать с помощью нашего генератора.

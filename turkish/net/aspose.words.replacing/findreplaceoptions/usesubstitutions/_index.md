@@ -1,14 +1,14 @@
 ---
 title: FindReplaceOptions.UseSubstitutions
 second_title: Aspose.Words for .NET API Referansı
-description: FindReplaceOptions mülk. Değiştirme kalıpları içindeki ikamelerin tanınıp tanınmayacağını ve kullanılıp kullanılmayacağını belirten bir boole değeri alır veya ayarlar. Varsayılan değer şuduryanlış .
+description: FindReplaceOptions mülk. Değiştirme kalıpları içindeki ikamelerin tanınıp kullanılmayacağını belirten bir boole değeri alır veya ayarlar. Varsayılan değerYANLIŞ .
 type: docs
-weight: 160
+weight: 180
 url: /tr/net/aspose.words.replacing/findreplaceoptions/usesubstitutions/
 ---
 ## FindReplaceOptions.UseSubstitutions property
 
-Değiştirme kalıpları içindeki ikamelerin tanınıp tanınmayacağını ve kullanılıp kullanılmayacağını belirten bir boole değeri alır veya ayarlar. Varsayılan değer şudur:`yanlış` .
+Değiştirme kalıpları içindeki ikamelerin tanınıp kullanılmayacağını belirten bir boole değeri alır veya ayarlar. Varsayılan değer:`YANLIŞ` .
 
 ```csharp
 public bool UseSubstitutions { get; set; }
@@ -16,11 +16,11 @@ public bool UseSubstitutions { get; set; }
 
 ### Notlar
 
-Yerine koyma öğeleriyle ilgili ayrıntılar için lütfen şu adrese bakın: https://docs.microsoft.com/en-us/dotnet/standard/base-types/substitutions-in-regular-expressions.
+İkame öğeleriyle ilgili ayrıntılar için lütfen şu adrese bakın: https://docs.microsoft.com/en-us/dotnet/standard/base-types/substitutions-in-regular-expressions.
 
 ### Örnekler
 
-Değiştirme kalıplarında yer değiştirmelerin nasıl tanınacağını ve kullanılacağını gösterir.
+Değiştirme kalıpları içindeki değiştirmelerin nasıl tanınacağını ve kullanılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -33,7 +33,7 @@ Regex regex = new Regex(@"([A-z]+) gave money to ([A-z]+)");
 FindReplaceOptions options = new FindReplaceOptions();
 options.UseSubstitutions = true;
 
-// Eski modu kullanmak pek çok gelişmiş özelliği desteklemez, bu yüzden onu 'false' olarak ayarlamamız gerekiyor.
+// Eski modun kullanılması birçok gelişmiş özelliği desteklemez, dolayısıyla onu 'yanlış' olarak ayarlamamız gerekir.
 options.LegacyMode = false;
 
 doc.Range.Replace(regex, @"$2 took money from $1", options);
@@ -41,7 +41,7 @@ doc.Range.Replace(regex, @"$2 took money from $1", options);
 Assert.AreEqual(doc.GetText(), "Paul took money from Jason.\f");
 ```
 
-Metnin ikamelerle nasıl değiştirileceğini gösterir.
+Metnin değişikliklerle nasıl değiştirileceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -53,8 +53,8 @@ builder.Writeln("Jane sold a house to Joe.");
 // Bul ve değiştir işlemini değiştirmek için bir "FindReplaceOptions" nesnesi kullanabiliriz.
 FindReplaceOptions options = new FindReplaceOptions();
 
-// Almak için "UseSubstitutions" özelliğini "true" olarak ayarlayın
-// ikame öğelerini tanımak için bul ve değiştir işlemi.
+// Bunu elde etmek için "UseSubstitutions" özelliğini "true" olarak ayarlayın
+// ikame elemanlarını tanımak için bul ve değiştir işlemi.
 // Değiştirme öğelerini yok saymak için "UseSubstitutions" özelliğini "false" olarak ayarlayın.
 options.UseSubstitutions = useSubstitutions;
 

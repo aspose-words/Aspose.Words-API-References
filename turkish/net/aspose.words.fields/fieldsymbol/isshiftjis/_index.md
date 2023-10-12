@@ -1,14 +1,14 @@
 ---
 title: FieldSymbol.IsShiftJis
 second_title: Aspose.Words for .NET API Referansı
-description: FieldSymbol mülk. Karakter kodunun bir SHIFTJIS karakterinin değeri olarak yorumlanıp yorumlanmayacağını alır veya ayarlar.
+description: FieldSymbol mülk. Karakter kodunun SHIFTJIS karakterinin değeri olarak yorumlanıp yorumlanmayacağını alır veya ayarlar.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.fields/fieldsymbol/isshiftjis/
 ---
 ## FieldSymbol.IsShiftJis property
 
-Karakter kodunun bir SHIFT-JIS karakterinin değeri olarak yorumlanıp yorumlanmayacağını alır veya ayarlar.
+Karakter kodunun SHIFT-JIS karakterinin değeri olarak yorumlanıp yorumlanmayacağını alır veya ayarlar.
 
 ```csharp
 public bool IsShiftJis { get; set; }
@@ -22,11 +22,11 @@ SEMBOL alanının nasıl kullanılacağını gösterir.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Aşağıda, tek bir karakter görüntülemek için bir SEMBOL alanını kullanmanın üç yolu bulunmaktadır.
-// 1 - Bir ANSI karakter koduyla belirtilen © (Telif hakkı) sembolünü görüntüleyen bir SEMBOL alanı ekleyin:
+// Aşağıda tek bir karakteri görüntülemek için SEMBOL alanını kullanmanın üç yolu verilmiştir.
+// 1 - ANSI karakter koduyla belirtilen © (Telif Hakkı) sembolünü görüntüleyen bir SEMBOL alanı ekleyin:
 FieldSymbol field = (FieldSymbol)builder.InsertField(FieldType.FieldSymbol, true);
 
-// ANSI karakter kodu "U+00A9" veya tamsayı biçiminde "169" telif hakkı sembolü için ayrılmıştır.
+// ANSI karakter kodu "U+00A9" veya tamsayı biçimindeki "169", telif hakkı sembolüne ayrılmıştır.
 field.CharacterCode = 0x00a9.ToString();
 field.IsAnsi = true;
 
@@ -37,23 +37,23 @@ builder.Writeln(" Line 1");
 // 2 - ∞ (Sonsuzluk) sembolünü görüntüleyen bir SEMBOL alanı ekleyin ve görünümünü değiştirin:
 field = (FieldSymbol)builder.InsertField(FieldType.FieldSymbol, true);
 
-// Unicode'da sonsuzluk sembolü "221E" kodunu kaplar.
+// Unicode'da sonsuzluk simgesi "221E" kodunun başında gelir.
 field.CharacterCode = 0x221E.ToString();
 field.IsUnicode = true;
 
-// Windows Karakter Haritasını kullandıktan sonra sembolümüzün yazı tipini değiştirin
-// yazı tipinin bu sembolü temsil etmesini sağlamak için.
+// Windows Karakter Eşlemini kullandıktan sonra sembolümüzün yazı tipini değiştirin
+// yazı tipinin o sembolü temsil edebildiğinden emin olmak için.
 field.FontName = "Calibri";
 field.FontSize = "24";
 
-// Metnin geri kalanını satırlarında aşağı itmemelerini sağlamak için bu bayrağı uzun semboller için ayarlayabiliriz.
+// Metnin geri kalanını kendi satırlarında aşağı itmemeleri için bu bayrağı uzun semboller için ayarlayabiliriz.
 field.DontAffectsLineSpacing = true;
 
 Assert.AreEqual(" SYMBOL  8734 \\u \\f Calibri \\s 24 \\h", field.GetFieldCode());
 
 builder.Writeln("Line 2");
 
-// 3 - あ karakterini gösteren bir SEMBOL alanı ekleyin,
+// 3 - あ karakterini görüntüleyen bir SEMBOL alanı ekleyin,
 // Shift-JIS (Windows-932) kod sayfasını destekleyen bir yazı tipiyle:
 field = (FieldSymbol)builder.InsertField(FieldType.FieldSymbol, true);
 field.FontName = "MS Gothic";

@@ -1,14 +1,14 @@
 ---
 title: FileFormatInfo.HasDigitalSignature
 second_title: Aspose.Words för .NET API Referens
-description: FileFormatInfo fast egendom. Returnerar sant om detta dokument innehåller en digital signatur. Den här egenskapen informerar bara om att en digital signatur finns på ett dokument men den anger inte om signaturen är giltig eller inte.
+description: FileFormatInfo fast egendom. ReturnerarSannom detta dokument innehåller en digital signatur. Den här egenskapen informerar bara om att en digital signatur finns på ett dokument men den anger inte om signaturen är giltig eller inte.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/fileformatinfo/hasdigitalsignature/
 ---
 ## FileFormatInfo.HasDigitalSignature property
 
-Returnerar sant om detta dokument innehåller en digital signatur. Den här egenskapen informerar bara om att en digital signatur finns på ett dokument, men den anger inte om signaturen är giltig eller inte.
+Returnerar`Sann`om detta dokument innehåller en digital signatur. Den här egenskapen informerar bara om att en digital signatur finns på ett dokument, men den anger inte om signaturen är giltig eller inte.
 
 ```csharp
 public bool HasDigitalSignature { get; }

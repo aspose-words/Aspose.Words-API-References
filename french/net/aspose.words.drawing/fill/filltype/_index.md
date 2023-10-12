@@ -3,7 +3,7 @@ title: Fill.FillType
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Fill propriété. Obtient un type de remplissage.
 type: docs
-weight: 20
+weight: 60
 url: /fr/net/aspose.words.drawing/fill/filltype/
 ---
 ## Fill.FillType property

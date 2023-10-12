@@ -16,7 +16,7 @@ public void ClearFormatting()
 
 ### Exemples
 
-Montre comment supprimer toutes les bordures de tous les paragraphes d'un document.
+Montre comment supprimer toutes les bordures de tous les paragraphes d’un document.
 
 ```csharp
 Document doc = new Document(MyDir + "Borders.docx");

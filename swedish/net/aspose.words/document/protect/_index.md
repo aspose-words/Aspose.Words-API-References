@@ -3,7 +3,7 @@ title: Document.Protect
 second_title: Aspose.Words för .NET API Referens
 description: Document metod. Skyddar dokumentet från ändringar utan att ändra det befintliga lösenordet eller tilldelar ett slumpmässigt lösenord.
 type: docs
-weight: 630
+weight: 670
 url: /sv/net/aspose.words/document/protect/
 ---
 ## Protect(ProtectionType) {#protect}
@@ -24,7 +24,7 @@ När ett dokument är skyddat kan användaren endast göra begränsade ändringa
 
 När du skyddar ett dokument och dokumentet redan har ett skyddslösenord, ändras inte det befintliga skyddslösenordet.
 
-När du skyddar ett dokument och dokumentet inte har ett skyddslösenord, tilldelar den här metoden ett slumpmässigt lösenord som gör det omöjligt att avskydda dokument i Microsoft Word, men du kan fortfarande avskydda dokumentet i Aspose.Words eftersom det inte kräva ett lösenord när du tar bort skyddet.
+När du skyddar ett dokument och dokumentet inte har något skyddslösenord, tilldelar denna metod ett slumpmässigt lösenord som gör det omöjligt att avskydda dokumentet i Microsoft Word, men du kan fortfarande avskydda dokumentet i Aspose.Words eftersom det inte kräva ett lösenord när du tar bort skyddet.
 
 ### Exempel
 
@@ -72,7 +72,7 @@ public void Protect(ProtectionType type, string password)
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | type | ProtectionType | Anger skyddstypen för dokumentet. |
-| password | String | Lösenordet att skydda dokumentet med. Ange null eller tom sträng om du vill skydda dokumentet utan lösenord. |
+| password | String | Lösenordet för att skydda dokumentet med. Ange`null`eller tom sträng om du vill skydda dokumentet utan lösenord. |
 
 ### Anmärkningar
 

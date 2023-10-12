@@ -3,7 +3,7 @@ title: DocumentBuilder.StartEditableRange
 second_title: Aspose.Words för .NET API Referens
 description: DocumentBuilder metod. Markerar den aktuella positionen i dokumentet som en redigerbar intervallstart.
 type: docs
-weight: 600
+weight: 640
 url: /sv/net/aspose.words/documentbuilder/starteditablerange/
 ---
 ## DocumentBuilder.StartEditableRange method
@@ -20,7 +20,7 @@ Den redigerbara intervallstartnoden som just skapades.
 
 ### Anmärkningar
 
-Redigerbart område i ett dokument kan överlappa och sträcka sig över vilket område som helst. För att skapa ett giltigt redigerbart område måste du anropa båda`StartEditableRange` och[`EndEditableRange`](../endeditablerange/) eller[`EndEditableRange`](../endeditablerange/)metoder.
+Redigerbart område i ett dokument kan överlappa och sträcka sig över vilket område som helst. För att skapa ett giltigt redigerbart område måste du anropa båda`StartEditableRange` och[`EndEditableRange`](../endeditablerange/) eller[`EndEditableRange`](../endeditablerange/) metoder.
 
 Dåligt format redigerbart område kommer att ignoreras när dokumentet sparas.
 

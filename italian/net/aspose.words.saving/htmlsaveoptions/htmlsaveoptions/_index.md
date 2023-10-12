@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.HtmlSaveOptions
 second_title: Aspose.Words per .NET API Reference
-description: HtmlSaveOptions costruttore. Inizializza una nuova istanza di questa classe che può essere utilizzata per salvare un documento nelHtml formato.
+description: HtmlSaveOptions costruttore. Inizializza una nuova istanza di questa classe che può essere utilizzata per salvare un documento nellaHtml formato.
 type: docs
 weight: 10
 url: /it/net/aspose.words.saving/htmlsaveoptions/htmlsaveoptions/
 ---
 ## HtmlSaveOptions() {#constructor}
 
-Inizializza una nuova istanza di questa classe che può essere utilizzata per salvare un documento nelHtml formato.
+Inizializza una nuova istanza di questa classe che può essere utilizzata per salvare un documento nellaHtml formato.
 
 ```csharp
 public HtmlSaveOptions()
@@ -16,20 +16,20 @@ public HtmlSaveOptions()
 
 ### Esempi
 
-Mostra come utilizzare una codifica specifica durante il salvataggio di un documento in .epub.
+Mostra come utilizzare una codifica specifica quando si salva un documento in .epub.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Usa un oggetto SaveOptions per specificare la codifica per un documento che salveremo.
+// Utilizza un oggetto SaveOptions per specificare la codifica per un documento che salveremo.
 HtmlSaveOptions saveOptions = new HtmlSaveOptions();
 saveOptions.SaveFormat = SaveFormat.Epub;
 saveOptions.Encoding = Encoding.UTF8;
 
-// Per impostazione predefinita, un documento di output .epub avrà tutto il suo contenuto in una parte HTML.
-// Un criterio diviso ci consente di segmentare il documento in più parti HTML.
-// Definiremo i criteri per dividere il documento in paragrafi di intestazione.
-// Questo è utile per i lettori che non possono leggere file HTML più significativi di una dimensione specifica.
+// Per impostazione predefinita, un documento .epub di output avrà tutto il suo contenuto in una parte HTML.
+// Un criterio di suddivisione ci permette di segmentare il documento in più parti HTML.
+// Imposteremo i criteri per suddividere il documento in paragrafi di intestazione.
+// Ciò è utile per i lettori che non possono leggere file HTML più significativi di una dimensione specifica.
 saveOptions.DocumentSplitCriteria = DocumentSplitCriteria.HeadingParagraph;
 
 // Specifica che vogliamo esportare le proprietà del documento.
@@ -48,7 +48,7 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions)
 
 ## HtmlSaveOptions(SaveFormat) {#constructor_1}
 
-Inizializza una nuova istanza di questa classe che può essere utilizzata per salvare un documento nelHtml ,Mhtml oEpub formato.
+Inizializza una nuova istanza di questa classe che può essere utilizzata per salvare un documento nellaHtml ,Mhtml ,Epub , Azw3 OMobi formato.
 
 ```csharp
 public HtmlSaveOptions(SaveFormat saveFormat)
@@ -56,7 +56,7 @@ public HtmlSaveOptions(SaveFormat saveFormat)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| saveFormat | SaveFormat | Può essereHtml ,Mhtml oEpub. |
+| saveFormat | SaveFormat | Può essereHtml ,Mhtml ,Epub , Azw3 OMobi . |
 
 ### Esempi
 
@@ -73,7 +73,7 @@ HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html)
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.HtmlVersions.html", options);
 
-// I nostri documenti HTML avranno piccole differenze per essere compatibili con diverse versioni HTML.
+// I nostri documenti HTML presenteranno piccole differenze per essere compatibili con diverse versioni HTML.
 string outDocContents = File.ReadAllText(ArtifactsDir + "HtmlSaveOptions.HtmlVersions.html");
 
 switch (htmlVersion)

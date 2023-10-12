@@ -1,14 +1,14 @@
 ---
 title: Font.LineSpacing
 second_title: Aspose.Words per .NET API Reference
-description: Font proprietà. Restituisce linterlinea di questo font in punti.
+description: Font proprietà. Restituisce linterlinea di questo carattere in punti.
 type: docs
 weight: 190
 url: /it/net/aspose.words/font/linespacing/
 ---
 ## Font.LineSpacing property
 
-Restituisce l'interlinea di questo font (in punti).
+Restituisce l'interlinea di questo carattere (in punti).
 
 ```csharp
 public double LineSpacing { get; }
@@ -16,13 +16,13 @@ public double LineSpacing { get; }
 
 ### Esempi
 
-Mostra come ottenere l'interlinea di un font, in punti.
+Mostra come ottenere l'interlinea di un carattere, in punti.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Imposta caratteri diversi per DocumentBuilder e verifica l'interlinea.
+// Imposta caratteri diversi per DocumentBuilder e verifica la loro interlinea.
 builder.Font.Name = "Calibri";
 Assert.AreEqual(14.6484375d, builder.Font.LineSpacing);
 

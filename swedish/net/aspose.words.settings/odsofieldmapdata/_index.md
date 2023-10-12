@@ -3,12 +3,14 @@ title: Class OdsoFieldMapData
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Settings.OdsoFieldMapData klass. Anger hur en kolumn i den externa datakällan ska mappas till de fördefinierade sammanslagningsfälten i dokumentet.
 type: docs
-weight: 5600
+weight: 5900
 url: /sv/net/aspose.words.settings/odsofieldmapdata/
 ---
 ## OdsoFieldMapData class
 
 Anger hur en kolumn i den externa datakällan ska mappas till de fördefinierade sammanslagningsfälten i dokumentet.
+
+För att lära dig mer, besök[Mail Merge och rapportering](https://docs.aspose.com/words/net/mail-merge-and-reporting/) dokumentationsartikel.
 
 ```csharp
 public class OdsoFieldMapData
@@ -26,7 +28,7 @@ public class OdsoFieldMapData
 | --- | --- |
 | [Column](../../aspose.words.settings/odsofieldmapdata/column/) { get; set; } | Anger det nollbaserade indexet för kolumnen inom en extern datakälla som ska mappas till det lokala namnet på ett specifikt MERGEFIELD-fält. Standardvärdet är 0. |
 | [MappedName](../../aspose.words.settings/odsofieldmapdata/mappedname/) { get; set; } | Anger det fördefinierade sammanslagningsfältets namn som ska mappas till kolumnnumret som anges av[`Column`](./column/) egenskap inom denna fältmappning. Standardvärdet är en tom sträng. |
-| [Name](../../aspose.words.settings/odsofieldmapdata/name/) { get; set; } | Anger kolumnnamnet inom en extern datakälla för kolumnen vars index anges av[`Column`](./column/) property. Standardvärdet är en tom sträng. |
+| [Name](../../aspose.words.settings/odsofieldmapdata/name/) { get; set; } | Anger kolumnnamnet inom en extern datakälla för kolumnen vars index anges av[`Column`](./column/)property. Standardvärdet är en tom sträng. |
 | [Type](../../aspose.words.settings/odsofieldmapdata/type/) { get; set; } | Anger om ett givet kopplingsfält har mappats till en kolumn i den givna externa datakällan eller inte. Standardvärdet ärDefault . |
 
 ## Metoder

@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.BalanceSingleByteDoubleByteWidth
 second_title: Aspose.Words لمراجع .NET API
-description: CompatibilityOptions ملكية. موازنة أحرف أحادية البايت ومزدوجة البايت.
+description: CompatibilityOptions ملكية. موازنة الأحرف المفردة والبايت المزدوج.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.settings/compatibilityoptions/balancesinglebytedoublebytewidth/
 ---
 ## CompatibilityOptions.BalanceSingleByteDoubleByteWidth property
 
-موازنة أحرف أحادية البايت ومزدوجة البايت.
+موازنة الأحرف المفردة والبايت المزدوج.
 
 ```csharp
 public bool BalanceSingleByteDoubleByteWidth { get; set; }

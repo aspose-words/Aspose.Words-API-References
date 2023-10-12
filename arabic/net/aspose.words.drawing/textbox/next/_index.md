@@ -1,14 +1,14 @@
 ---
 title: TextBox.Next
 second_title: Aspose.Words لمراجع .NET API
-description: TextBox ملكية. إرجاع أو تعيين مربع نص يمثل مربع النص التالي في تسلسل من الأشكال.
+description: TextBox ملكية. إرجاع أو تعيين أTextBox الذي يمثل القادمTextBox في تسلسل من الأشكال.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.drawing/textbox/next/
 ---
 ## TextBox.Next property
 
-إرجاع أو تعيين مربع نص يمثل مربع النص التالي في تسلسل من الأشكال.
+إرجاع أو تعيين أ[`TextBox`](../) الذي يمثل القادم[`TextBox`](../) في تسلسل من الأشكال.
 
 ```csharp
 public TextBox Next { get; set; }
@@ -44,7 +44,7 @@ if (textBox1.IsValidLinkTarget(textBox2))
 if (textBox2.IsValidLinkTarget(textBox3))
     textBox2.Next = textBox3;
 
-// فقط مربع نص فارغ قد يحتوي على ارتباط.
+// قد يحتوي مربع النص الفارغ فقط على رابط.
 Assert.True(textBox3.IsValidLinkTarget(textBox4));
 
 builder.MoveTo(textBoxShape4.LastParagraph);
@@ -62,7 +62,7 @@ if (textBox3.Next == null && textBox3.Previous != null)
 {
     Console.WriteLine("This TextBox is the tail of the sequence");
 
-    // قطع الارتباط الأمامي بين textBox2 و textBox3 ، ثم تحقق من أنهما لم يعودا مرتبطين.
+    // اقطع الارتباط الأمامي بين textBox2 وtextBox3، ثم تحقق من أنهما لم يعودا مرتبطين.
     textBox3.Previous.BreakForwardLink();
 
     Assert.IsTrue(textBox2.Next == null);

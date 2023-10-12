@@ -1,14 +1,14 @@
 ---
 title: TableStyle.TopPadding
 second_title: Aspose.Words لمراجع .NET API
-description: TableStyle ملكية. الحصول على أو تحديد مقدار المساحة بالنقاط للإضافة فوق محتويات خلايا الجدول.
+description: TableStyle ملكية. الحصول على أو تعيين مقدار المسافة بالنقاط لإضافتها فوق محتويات خلايا الجدول.
 type: docs
 weight: 140
 url: /ar/net/aspose.words/tablestyle/toppadding/
 ---
 ## TableStyle.TopPadding property
 
-الحصول على أو تحديد مقدار المساحة (بالنقاط) للإضافة فوق محتويات خلايا الجدول.
+الحصول على أو تعيين مقدار المسافة (بالنقاط) لإضافتها فوق محتويات خلايا الجدول.
 
 ```csharp
 public double TopPadding { get; set; }

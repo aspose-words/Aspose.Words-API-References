@@ -1,14 +1,14 @@
 ---
 title: Enum MailMergeDataType
 second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Settings.MailMergeDataType opsomming. Gibt den Typ einer externen Seriendruckdatenquelle an.
+description: Aspose.Words.Settings.MailMergeDataType opsomming. Gibt den Typ einer externen SerienbriefDatenquelle an.
 type: docs
-weight: 5520
+weight: 5820
 url: /de/net/aspose.words.settings/mailmergedatatype/
 ---
 ## MailMergeDataType enumeration
 
-Gibt den Typ einer externen Seriendruckdatenquelle an.
+Gibt den Typ einer externen Serienbrief-Datenquelle an.
 
 ```csharp
 public enum MailMergeDataType
@@ -18,18 +18,18 @@ public enum MailMergeDataType
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| None | `-1` | Es wurde keine Seriendatenquelle angegeben. |
+| None | `-1` | Es ist keine Serienbrief-Datenquelle angegeben. |
 | TextFile | `0` | Gibt an, dass ein bestimmtes Dokument über das Dynamic Data Exchange (DDE)-System mit einer Textdatei verbunden wurde. |
-| Database | `1` | Gibt an, dass ein bestimmtes Dokument über das DDE-System (Dynamic Data Exchange) mit einer Access-Datenbank verbunden wurde. |
-| Spreadsheet | `2` | Gibt an, dass ein bestimmtes Dokument über das DDE-System (Dynamic Data Exchange) mit einer Excel-Tabelle verbunden wurde. |
-| Query | `3` | Gibt an, dass ein bestimmtes Dokument mithilfe eines externen Abfragetools mit einer externen Datenquelle verbunden wurde. |
+| Database | `1` | Gibt an, dass ein bestimmtes Dokument über das Dynamic Data Exchange (DDE)-System mit einer Access-Datenbank verbunden wurde. |
+| Spreadsheet | `2` | Gibt an, dass ein bestimmtes Dokument über das Dynamic Data Exchange (DDE)-System mit einer Excel-Tabelle verbunden wurde. |
+| Query | `3` | Gibt an, dass ein bestimmtes Dokument über ein externes Abfragetool mit einer externen Datenquelle verbunden wurde. |
 | Odbc | `4` | Gibt an, dass ein bestimmtes Dokument über die Open Database Connectivity-Schnittstelle mit einer externen Datenquelle verbunden wurde. |
 | Native | `5` | Gibt an, dass ein bestimmtes Dokument über die Office Data Source Object (ODSO)-Schnittstelle mit einer externen Datenquelle verbunden wurde. |
 | Default | `-1` | EntsprichtNone . |
 
 ### Beispiele
 
-Zeigt, wie ein Seriendruck mit Daten aus einem Office-Datenquellenobjekt ausgeführt wird.
+Zeigt, wie ein Serienbrief mit Daten aus einem Office-Datenquellenobjekt ausgeführt wird.
 
 ```csharp
 Document doc = new Document();
@@ -42,8 +42,8 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Erstellen Sie eine Datenquelle in Form einer ASCII-Datei, mit dem "|" Charakter
-// fungiert als Trennzeichen, das Spalten trennt. Die erste Zeile enthält die Namen der drei Spalten,
+// Erstellen Sie eine Datenquelle in Form einer ASCII-Datei mit dem Zeichen „|“ Charakter
+// fungiert als Trennzeichen, das die Spalten trennt. Die erste Zeile enthält die Namen der drei Spalten,
 // und jede nachfolgende Zeile ist eine Zeile mit ihren jeweiligen Werten.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
@@ -72,7 +72,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
-// Beim Öffnen dieses Dokuments in Microsoft Word wird der Seriendruck ausgeführt, bevor der Inhalt angezeigt wird. 
+ // Beim Öffnen dieses Dokuments in Microsoft Word wird der Serienbrief ausgeführt, bevor der Inhalt angezeigt wird.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

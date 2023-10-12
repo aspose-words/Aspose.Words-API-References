@@ -1,14 +1,14 @@
 ---
 title: Shape.Stroked
 second_title: Referencia de API de Aspose.Words para .NET
-description: Shape propiedad. Define si se trazará el trazado.
+description: Shape propiedad. Define si se trazará el camino.
 type: docs
 weight: 200
 url: /es/net/aspose.words.drawing/shape/stroked/
 ---
 ## Shape.Stroked property
 
-Define si se trazará el trazado.
+Define si se trazará el camino.
 
 ```csharp
 public bool Stroked { get; set; }
@@ -16,15 +16,16 @@ public bool Stroked { get; set; }
 
 ### Observaciones
 
-Este es un atajo a la[`On`](../../stroke/on/) propiedad.
+Este es un atajo hacia el[`On`](../../stroke/on/) propiedad.
 
-El valor predeterminado es **verdadero**.
+El valor predeterminado es`verdadero`.
 
 ### Ejemplos
 
-Muestra cómo iterar sobre todas las formas en un documento.
+Muestra cómo iterar sobre todas las formas de un documento.
 
 ```csharp
+public void VisitShapes()
 {
     Document doc = new Document(MyDir + "Revision shape.docx");
     ShapeAppearancePrinter visitor = new ShapeAppearancePrinter();
@@ -46,7 +47,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Agrega una línea a StringBuilder con un carácter de tabulación antepuesto para cada nivel de sangría.
+    /// Agrega una línea al StringBuilder con un carácter de tabulación antepuesto para cada nivel de sangría.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -56,7 +57,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Devolver todo el texto que ha acumulado el StringBuilder.
+    /// Devuelve todo el texto que ha acumulado StringBuilder.
     /// </summary>
     public string GetText()
     {
@@ -64,7 +65,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Llamado cuando este visitante visita el inicio de un nodo Shape.
+    /// Se llama cuando este visitante visita el inicio de un nodo Shape.
     /// </summary>
     public override VisitorAction VisitShapeStart(Shape shape)
     {
@@ -100,7 +101,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Llamado cuando este visitante visita el final de un nodo Shape.
+    /// Se llama cuando este visitante visita el final de un nodo Shape.
     /// </summary>
     public override VisitorAction VisitShapeEnd(Shape shape)
     {
@@ -112,7 +113,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Llamado cuando este visitante visita el inicio de un nodo GroupShape.
+    /// Se llama cuando este visitante visita el inicio de un nodo GroupShape.
     /// </summary>
     public override VisitorAction VisitGroupShapeStart(GroupShape groupShape)
     {
@@ -123,7 +124,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Llamado cuando este visitante visita el final de un nodo GroupShape.
+    /// Se llama cuando este visitante visita el final de un nodo GroupShape.
     /// </summary>
     public override VisitorAction VisitGroupShapeEnd(GroupShape groupShape)
     {

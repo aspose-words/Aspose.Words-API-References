@@ -3,7 +3,7 @@ title: FieldOptions.CustomTocStyleSeparator
 second_title: Aspose.Words för .NET API Referens
 description: FieldOptions fast egendom. Hämtar eller ställer in anpassad stilseparator för tväxelnFieldToc field.
 type: docs
-weight: 50
+weight: 60
 url: /sv/net/aspose.words.fields/fieldoptions/customtocstyleseparator/
 ---
 ## FieldOptions.CustomTocStyleSeparator property
@@ -16,13 +16,14 @@ public string CustomTocStyleSeparator { get; set; }
 
 ### Anmärkningar
 
-Som standard är anpassade stilar definierade av \t-växeln i[`FieldToc`](../../fieldtoc/) fältet separeras av en avgränsare hämtad från den aktuella kulturen. Den här egenskapen åsidosätter det beteendet genom att ange en användardefinierad avgränsare.
+Som standard är anpassade stilar definierade av \t-växeln i[`FieldToc`](../../fieldtoc/)fältet separeras av en avgränsare hämtad från den aktuella kulturen. Den här egenskapen åsidosätter det beteendet genom att ange en användardefinierad avgränsare.
 
 ### Exempel
 
 Visar hur man infogar en innehållsförteckning och fyller den med poster baserat på rubrikstilar.
 
 ```csharp
+public void FieldToc()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -52,7 +53,7 @@ Visar hur man infogar en innehållsförteckning och fyller den med poster basera
     // Innehållsförteckningen visar inte sidnumren för rubriker vars innehållsförteckningsnivåer ligger inom detta intervall.
     field.PageNumberOmittingLevelRange = "2-5";
 
-      // Ställ in en anpassad sträng som skiljer varje rubrik från dess sidnummer.
+     // Ställ in en anpassad sträng som skiljer varje rubrik från dess sidnummer.
     field.EntrySeparator = "-";
     field.InsertHyperlinks = true;
     field.HideInWebLayout = false;
@@ -84,6 +85,7 @@ Visar hur man infogar en innehållsförteckning och fyller den med poster basera
     field.UpdatePageNumbers();
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.TOC.docx");
+}
 
 /// <summary>
 /// Starta en ny sida och infoga ett stycke av en angiven stil.

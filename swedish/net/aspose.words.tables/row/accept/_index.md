@@ -3,7 +3,7 @@ title: Row.Accept
 second_title: Aspose.Words för .NET API Referens
 description: Row metod. Accepterar en besökare.
 type: docs
-weight: 100
+weight: 120
 url: /sv/net/aspose.words.tables/row/accept/
 ---
 ## Row.Accept method
@@ -20,15 +20,15 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Returvärde
 
-Sant om alla noder besöktes; false om DocumentVisitor stoppade operationen innan alla noder besöktes.
+Sant om alla noder besöktes; falskt om[`DocumentVisitor`](../../../aspose.words/documentvisitor/) stoppade operationen innan du besökte alla noder.
 
 ### Anmärkningar
 
-Räknar upp denna nod och alla dess barn. Varje nod anropar en motsvarande metod på DocumentVisitor.
+Räknar upp denna nod och alla dess barn. Varje nod anropar en motsvarande metod[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
 För mer information se Visitor design mönster.
 
-Anropar DocumentVisitor.VisitRowStart, anropar sedan Acceptera för alla underordnade noder i section och anropar DocumentVisitor.VisitRowEnd i slutet.
+Samtal[`VisitRowStart`](../../../aspose.words/documentvisitor/visitrowstart/) , sedan ringer[`Accept`](../../../aspose.words/node/accept/) för alla underordnade noder i avsnittet och anrop[`VisitRowEnd`](../../../aspose.words/documentvisitor/visitrowend/) i slutet.
 
 ### Exempel
 

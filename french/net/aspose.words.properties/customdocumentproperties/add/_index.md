@@ -1,14 +1,14 @@
 ---
 title: CustomDocumentProperties.Add
 second_title: Référence de l'API Aspose.Words pour .NET
-description: CustomDocumentProperties méthode. Crée une nouvelle propriété de document personnalisée du PropertyType.String type de données.
+description: CustomDocumentProperties méthode. Crée une nouvelle propriété de document personnalisée duString type de données.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.properties/customdocumentproperties/add/
 ---
 ## Add(string, string) {#add_4}
 
-Crée une nouvelle propriété de document personnalisée du **PropertyType.String** type de données.
+Crée une nouvelle propriété de document personnalisée duString type de données.
 
 ```csharp
 public DocumentProperty Add(string name, string value)
@@ -33,7 +33,7 @@ CustomDocumentProperties properties = doc.CustomDocumentProperties;
 
 Assert.AreEqual(0, properties.Count);
 
-// Les propriétés de document personnalisées sont des paires clé-valeur que nous pouvons ajouter au document.
+// Les propriétés du document personnalisé sont des paires clé-valeur que nous pouvons ajouter au document.
 properties.Add("Authorized", true);
 properties.Add("Authorized By", "John Doe");
 properties.Add("Authorized Date", DateTime.Today);
@@ -44,7 +44,7 @@ properties.Add("Authorized Amount", 123.45);
 Assert.AreEqual(1, properties.IndexOf("Authorized Amount"));
 Assert.AreEqual(5, properties.Count);
 
-// Imprime chaque propriété personnalisée dans le document.
+// Imprime chaque propriété personnalisée du document.
 using (IEnumerator<DocumentProperty> enumerator = properties.GetEnumerator())
 {
     while (enumerator.MoveNext())
@@ -58,10 +58,10 @@ field.Update();
 
 Assert.AreEqual("John Doe", field.Result);
 
-// Nous pouvons trouver ces propriétés personnalisées dans Microsoft Word via "Fichier" -> "Propriétés" > "Propriétés avancées" > "Personnalisé".
+// Nous pouvons retrouver ces propriétés personnalisées dans Microsoft Word via "Fichier" -> "Propriétés" > "Propriétés avancées" > "Coutume".
 doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
 
-// Vous trouverez ci-dessous trois façons de supprimer les propriétés personnalisées d'un document.
+// Vous trouverez ci-dessous trois manières de supprimer les propriétés personnalisées d'un document.
 // 1 - Supprimer par index :
 properties.RemoveAt(1);
 
@@ -74,7 +74,7 @@ properties.Remove("Authorized Revision");
 Assert.False(properties.Contains("Authorized Revision"));
 Assert.AreEqual(3, properties.Count);
 
-// 3 - Vide toute la collection d'un coup :
+// 3 - Vider toute la collection d'un coup :
 properties.Clear();
 
 Assert.AreEqual(0, properties.Count);
@@ -91,7 +91,7 @@ Assert.AreEqual(0, properties.Count);
 
 ## Add(string, int) {#add_2}
 
-Crée une nouvelle propriété de document personnalisée du **PropertyType.Number** type de données.
+Crée une nouvelle propriété de document personnalisée duNumber type de données.
 
 ```csharp
 public DocumentProperty Add(string name, int value)
@@ -116,7 +116,7 @@ CustomDocumentProperties properties = doc.CustomDocumentProperties;
 
 Assert.AreEqual(0, properties.Count);
 
-// Les propriétés de document personnalisées sont des paires clé-valeur que nous pouvons ajouter au document.
+// Les propriétés du document personnalisé sont des paires clé-valeur que nous pouvons ajouter au document.
 properties.Add("Authorized", true);
 properties.Add("Authorized By", "John Doe");
 properties.Add("Authorized Date", DateTime.Today);
@@ -127,7 +127,7 @@ properties.Add("Authorized Amount", 123.45);
 Assert.AreEqual(1, properties.IndexOf("Authorized Amount"));
 Assert.AreEqual(5, properties.Count);
 
-// Imprime chaque propriété personnalisée dans le document.
+// Imprime chaque propriété personnalisée du document.
 using (IEnumerator<DocumentProperty> enumerator = properties.GetEnumerator())
 {
     while (enumerator.MoveNext())
@@ -141,10 +141,10 @@ field.Update();
 
 Assert.AreEqual("John Doe", field.Result);
 
-// Nous pouvons trouver ces propriétés personnalisées dans Microsoft Word via "Fichier" -> "Propriétés" > "Propriétés avancées" > "Personnalisé".
+// Nous pouvons retrouver ces propriétés personnalisées dans Microsoft Word via "Fichier" -> "Propriétés" > "Propriétés avancées" > "Coutume".
 doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
 
-// Vous trouverez ci-dessous trois façons de supprimer les propriétés personnalisées d'un document.
+// Vous trouverez ci-dessous trois manières de supprimer les propriétés personnalisées d'un document.
 // 1 - Supprimer par index :
 properties.RemoveAt(1);
 
@@ -157,7 +157,7 @@ properties.Remove("Authorized Revision");
 Assert.False(properties.Contains("Authorized Revision"));
 Assert.AreEqual(3, properties.Count);
 
-// 3 - Vide toute la collection d'un coup :
+// 3 - Vider toute la collection d'un coup :
 properties.Clear();
 
 Assert.AreEqual(0, properties.Count);
@@ -174,7 +174,7 @@ Assert.AreEqual(0, properties.Count);
 
 ## Add(string, DateTime) {#add_3}
 
-Crée une nouvelle propriété de document personnalisée du **PropertyType.DateTime** type de données.
+Crée une nouvelle propriété de document personnalisée duDateTime type de données.
 
 ```csharp
 public DocumentProperty Add(string name, DateTime value)
@@ -191,7 +191,7 @@ L'objet de propriété nouvellement créé.
 
 ### Exemples
 
-Montre comment créer une propriété de document personnalisée qui contient une date et une heure.
+Montre comment créer une propriété de document personnalisée contenant une date et une heure.
 
 ```csharp
 Document doc = new Document();
@@ -209,7 +209,7 @@ CustomDocumentProperties properties = doc.CustomDocumentProperties;
 
 Assert.AreEqual(0, properties.Count);
 
-// Les propriétés de document personnalisées sont des paires clé-valeur que nous pouvons ajouter au document.
+// Les propriétés du document personnalisé sont des paires clé-valeur que nous pouvons ajouter au document.
 properties.Add("Authorized", true);
 properties.Add("Authorized By", "John Doe");
 properties.Add("Authorized Date", DateTime.Today);
@@ -220,7 +220,7 @@ properties.Add("Authorized Amount", 123.45);
 Assert.AreEqual(1, properties.IndexOf("Authorized Amount"));
 Assert.AreEqual(5, properties.Count);
 
-// Imprime chaque propriété personnalisée dans le document.
+// Imprime chaque propriété personnalisée du document.
 using (IEnumerator<DocumentProperty> enumerator = properties.GetEnumerator())
 {
     while (enumerator.MoveNext())
@@ -234,10 +234,10 @@ field.Update();
 
 Assert.AreEqual("John Doe", field.Result);
 
-// Nous pouvons trouver ces propriétés personnalisées dans Microsoft Word via "Fichier" -> "Propriétés" > "Propriétés avancées" > "Personnalisé".
+// Nous pouvons retrouver ces propriétés personnalisées dans Microsoft Word via "Fichier" -> "Propriétés" > "Propriétés avancées" > "Coutume".
 doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
 
-// Vous trouverez ci-dessous trois façons de supprimer les propriétés personnalisées d'un document.
+// Vous trouverez ci-dessous trois manières de supprimer les propriétés personnalisées d'un document.
 // 1 - Supprimer par index :
 properties.RemoveAt(1);
 
@@ -250,7 +250,7 @@ properties.Remove("Authorized Revision");
 Assert.False(properties.Contains("Authorized Revision"));
 Assert.AreEqual(3, properties.Count);
 
-// 3 - Vide toute la collection d'un coup :
+// 3 - Vider toute la collection d'un coup :
 properties.Clear();
 
 Assert.AreEqual(0, properties.Count);
@@ -267,7 +267,7 @@ Assert.AreEqual(0, properties.Count);
 
 ## Add(string, bool) {#add}
 
-Crée une nouvelle propriété de document personnalisée du **PropertyType.Boolean** type de données.
+Crée une nouvelle propriété de document personnalisée duBoolean type de données.
 
 ```csharp
 public DocumentProperty Add(string name, bool value)
@@ -292,7 +292,7 @@ CustomDocumentProperties properties = doc.CustomDocumentProperties;
 
 Assert.AreEqual(0, properties.Count);
 
-// Les propriétés de document personnalisées sont des paires clé-valeur que nous pouvons ajouter au document.
+// Les propriétés du document personnalisé sont des paires clé-valeur que nous pouvons ajouter au document.
 properties.Add("Authorized", true);
 properties.Add("Authorized By", "John Doe");
 properties.Add("Authorized Date", DateTime.Today);
@@ -303,7 +303,7 @@ properties.Add("Authorized Amount", 123.45);
 Assert.AreEqual(1, properties.IndexOf("Authorized Amount"));
 Assert.AreEqual(5, properties.Count);
 
-// Imprime chaque propriété personnalisée dans le document.
+// Imprime chaque propriété personnalisée du document.
 using (IEnumerator<DocumentProperty> enumerator = properties.GetEnumerator())
 {
     while (enumerator.MoveNext())
@@ -317,10 +317,10 @@ field.Update();
 
 Assert.AreEqual("John Doe", field.Result);
 
-// Nous pouvons trouver ces propriétés personnalisées dans Microsoft Word via "Fichier" -> "Propriétés" > "Propriétés avancées" > "Personnalisé".
+// Nous pouvons retrouver ces propriétés personnalisées dans Microsoft Word via "Fichier" -> "Propriétés" > "Propriétés avancées" > "Coutume".
 doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
 
-// Vous trouverez ci-dessous trois façons de supprimer les propriétés personnalisées d'un document.
+// Vous trouverez ci-dessous trois manières de supprimer les propriétés personnalisées d'un document.
 // 1 - Supprimer par index :
 properties.RemoveAt(1);
 
@@ -333,7 +333,7 @@ properties.Remove("Authorized Revision");
 Assert.False(properties.Contains("Authorized Revision"));
 Assert.AreEqual(3, properties.Count);
 
-// 3 - Vide toute la collection d'un coup :
+// 3 - Vider toute la collection d'un coup :
 properties.Clear();
 
 Assert.AreEqual(0, properties.Count);
@@ -350,7 +350,7 @@ Assert.AreEqual(0, properties.Count);
 
 ## Add(string, double) {#add_1}
 
-Crée une nouvelle propriété de document personnalisée du **PropertyType.Float** type de données.
+Crée une nouvelle propriété de document personnalisée duDouble type de données.
 
 ```csharp
 public DocumentProperty Add(string name, double value)
@@ -375,7 +375,7 @@ CustomDocumentProperties properties = doc.CustomDocumentProperties;
 
 Assert.AreEqual(0, properties.Count);
 
-// Les propriétés de document personnalisées sont des paires clé-valeur que nous pouvons ajouter au document.
+// Les propriétés du document personnalisé sont des paires clé-valeur que nous pouvons ajouter au document.
 properties.Add("Authorized", true);
 properties.Add("Authorized By", "John Doe");
 properties.Add("Authorized Date", DateTime.Today);
@@ -386,7 +386,7 @@ properties.Add("Authorized Amount", 123.45);
 Assert.AreEqual(1, properties.IndexOf("Authorized Amount"));
 Assert.AreEqual(5, properties.Count);
 
-// Imprime chaque propriété personnalisée dans le document.
+// Imprime chaque propriété personnalisée du document.
 using (IEnumerator<DocumentProperty> enumerator = properties.GetEnumerator())
 {
     while (enumerator.MoveNext())
@@ -400,10 +400,10 @@ field.Update();
 
 Assert.AreEqual("John Doe", field.Result);
 
-// Nous pouvons trouver ces propriétés personnalisées dans Microsoft Word via "Fichier" -> "Propriétés" > "Propriétés avancées" > "Personnalisé".
+// Nous pouvons retrouver ces propriétés personnalisées dans Microsoft Word via "Fichier" -> "Propriétés" > "Propriétés avancées" > "Coutume".
 doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
 
-// Vous trouverez ci-dessous trois façons de supprimer les propriétés personnalisées d'un document.
+// Vous trouverez ci-dessous trois manières de supprimer les propriétés personnalisées d'un document.
 // 1 - Supprimer par index :
 properties.RemoveAt(1);
 
@@ -416,7 +416,7 @@ properties.Remove("Authorized Revision");
 Assert.False(properties.Contains("Authorized Revision"));
 Assert.AreEqual(3, properties.Count);
 
-// 3 - Vide toute la collection d'un coup :
+// 3 - Vider toute la collection d'un coup :
 properties.Clear();
 
 Assert.AreEqual(0, properties.Count);

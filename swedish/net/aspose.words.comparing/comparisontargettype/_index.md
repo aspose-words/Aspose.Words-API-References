@@ -3,7 +3,7 @@ title: Enum ComparisonTargetType
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Comparing.ComparisonTargetType uppräkning. Tillåter att ange basdokument som kommer att användas under jämförelse. Standardvärdet ärCurrent .
 type: docs
-weight: 270
+weight: 280
 url: /sv/net/aspose.words.comparing/comparisontargettype/
 ---
 ## ComparisonTargetType enumeration
@@ -51,7 +51,7 @@ Shape textBox = builder.InsertShape(ShapeType.TextBox, 150, 20);
 builder.MoveTo(textBox.FirstParagraph);
 builder.Write("Original textbox contents");
 
-// DATE-fält:
+// DATUMfält:
 builder.MoveTo(docOriginal.FirstSection.Body.AppendParagraph(""));
 builder.InsertField(" DATE ");
 

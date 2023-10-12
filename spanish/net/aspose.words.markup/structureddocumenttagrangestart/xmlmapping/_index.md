@@ -16,11 +16,11 @@ public XmlMapping XmlMapping { get; }
 
 ### Observaciones
 
-Puedes usar el[`SetMapping`](../../xmlmapping/setmapping/) método de este objeto para asignar un rango de etiqueta de documento estructurado a datos XML.
+Puedes usar el[`SetMapping`](../../xmlmapping/setmapping/) método del objeto this para asignar un rango de etiquetas de documento estructurado a datos XML.
 
 ### Ejemplos
 
-Muestra cómo establecer asignaciones XML para el inicio del rango de una etiqueta de documento estructurado.
+Muestra cómo configurar asignaciones XML para el inicio del rango de una etiqueta de documento estructurado.
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");
@@ -33,10 +33,10 @@ CustomXmlPart xmlPart = doc.CustomXmlParts.Add(xmlPartId, xmlPartContent);
 Assert.AreEqual("<root><text>Text element #1</text><text>Text element #2</text></root>",
     Encoding.UTF8.GetString(xmlPart.Data));
 
-// Cree una etiqueta de documento estructurado que mostrará el contenido de nuestro CustomXmlPart en el documento.
+// Crea una etiqueta de documento estructurado que mostrará el contenido de nuestro CustomXmlPart en el documento.
 StructuredDocumentTagRangeStart sdtRangeStart = (StructuredDocumentTagRangeStart)doc.GetChild(NodeType.StructuredDocumentTagRangeStart, 0, true);
 
-// Si establecemos un mapeo para nuestra etiqueta de documento estructurado,
+// Si configuramos una asignación para nuestra etiqueta de documento estructurado,
 // solo mostrará una parte de CustomXmlPart a la que apunta XPath.
 // Este XPath apuntará al segundo contenido "<text>" elemento del primer "<root>" elemento de nuestro CustomXmlPart.
 sdtRangeStart.XmlMapping.SetMapping(xmlPart, "/root[1]/text[2]", null);

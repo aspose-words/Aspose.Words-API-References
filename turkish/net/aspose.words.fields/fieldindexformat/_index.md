@@ -1,14 +1,14 @@
 ---
 title: Enum FieldIndexFormat
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Fields.FieldIndexFormat Sıralama. için biçimlendirmeyi belirtir.FieldIndex bir belgedeki alanlar.
+description: Aspose.Words.Fields.FieldIndexFormat Sıralama. Biçimlendirmeyi belirtir.FieldIndex bir belgedeki alanlar.
 type: docs
-weight: 1920
+weight: 2070
 url: /tr/net/aspose.words.fields/fieldindexformat/
 ---
 ## FieldIndexFormat enumeration
 
-için biçimlendirmeyi belirtir.[`FieldIndex`](../fieldindex/) bir belgedeki alanlar.
+Biçimlendirmeyi belirtir.[`FieldIndex`](../fieldindex/) bir belgedeki alanlar.
 
 ```csharp
 public enum FieldIndexFormat
@@ -22,7 +22,7 @@ public enum FieldIndexFormat
 | Classic | `1` | Klasik. |
 | Fancy | `2` | Süslü. |
 | Modern | `3` | Modern. |
-| Bulleted | `4` | Madde işaretli. |
+| Bulleted | `4` | Kurşunlu. |
 | Formal | `5` | Resmi. |
 | Simple | `6` | Basit. |
 

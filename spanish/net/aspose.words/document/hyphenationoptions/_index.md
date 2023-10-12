@@ -1,14 +1,14 @@
 ---
 title: Document.HyphenationOptions
 second_title: Referencia de API de Aspose.Words para .NET
-description: Document propiedad. Proporciona acceso a las opciones de partición de documentos.
+description: Document propiedad. Proporciona acceso a las opciones de separación de palabras del documento.
 type: docs
 weight: 210
 url: /es/net/aspose.words/document/hyphenationoptions/
 ---
 ## Document.HyphenationOptions property
 
-Proporciona acceso a las opciones de partición de documentos.
+Proporciona acceso a las opciones de separación de palabras del documento.
 
 ```csharp
 public HyphenationOptions HyphenationOptions { get; }
@@ -16,7 +16,7 @@ public HyphenationOptions HyphenationOptions { get; }
 
 ### Ejemplos
 
-Muestra cómo configurar la partición automática.
+Muestra cómo configurar la separación de palabras automática.
 
 ```csharp
 Document doc = new Document();

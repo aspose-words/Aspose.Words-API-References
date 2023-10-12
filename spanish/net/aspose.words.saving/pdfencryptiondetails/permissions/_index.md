@@ -1,14 +1,14 @@
 ---
 title: PdfEncryptionDetails.Permissions
 second_title: Referencia de API de Aspose.Words para .NET
-description: PdfEncryptionDetails propiedad. Especifica las operaciones que se permiten a un usuario en un documento PDF cifrado. El valor predeterminado esDisallowAll .
+description: PdfEncryptionDetails propiedad. Especifica las operaciones permitidas a un usuario en un documento PDF cifrado. El valor predeterminado esDisallowAll .
 type: docs
 weight: 30
 url: /es/net/aspose.words.saving/pdfencryptiondetails/permissions/
 ---
 ## PdfEncryptionDetails.Permissions property
 
-Especifica las operaciones que se permiten a un usuario en un documento PDF cifrado. El valor predeterminado esDisallowAll .
+Especifica las operaciones permitidas a un usuario en un documento PDF cifrado. El valor predeterminado esDisallowAll .
 
 ```csharp
 public PdfPermissions Permissions { get; set; }
@@ -24,20 +24,14 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("Hello world!");
 
-PdfEncryptionDetails encryptionDetails =
-    new PdfEncryptionDetails("password", string.Empty);
-
-// Comience por desautorizar todos los permisos.
-encryptionDetails.Permissions = PdfPermissions.DisallowAll;
-
 // Ampliar permisos para permitir la edición de anotaciones.
-encryptionDetails.Permissions = PdfPermissions.ModifyAnnotations | PdfPermissions.DocumentAssembly;
+PdfEncryptionDetails encryptionDetails =
+    new PdfEncryptionDetails("password", string.Empty, PdfPermissions.ModifyAnnotations | PdfPermissions.DocumentAssembly);
 
 // Crea un objeto "PdfSaveOptions" que podemos pasar al método "Guardar" del documento
 // para modificar cómo ese método convierte el documento a .PDF.
 PdfSaveOptions saveOptions = new PdfSaveOptions();
-
-// Habilite el cifrado a través de la propiedad "EncryptionDetails".
+// Habilite el cifrado mediante la propiedad "EncryptionDetails".
 saveOptions.EncryptionDetails = encryptionDetails;
 
 // Cuando abramos este documento, necesitaremos proporcionar la contraseña antes de acceder a su contenido.

@@ -16,7 +16,7 @@ public static UserInformation DefaultUser { get; }
 
 ### Bemerkungen
 
-Verwenden Sie die[`CurrentUser`](../../fieldoptions/currentuser/)Eigenschaft zum Angeben von Benutzerinformationen für ein einzelnes Dokument.
+Verwenden Sie die[`CurrentUser`](../../fieldoptions/currentuser/) Eigenschaft zum Angeben von Benutzerinformationen für ein einzelnes Dokument.
 
 ### Beispiele
 
@@ -36,12 +36,12 @@ UserInformation userInformation = new UserInformation
 doc.FieldOptions.CurrentUser = userInformation;
 
 // Felder USERNAME, USERINITIALS und USERADDRESS einfügen, die Werte von anzeigen
-// die entsprechenden Eigenschaften des oben erstellten UserInformation-Objekts. 
+ // die jeweiligen Eigenschaften des UserInformation-Objekts, das wir oben erstellt haben.
 Assert.AreEqual(userInformation.Name, builder.InsertField(" USERNAME ").Result);
 Assert.AreEqual(userInformation.Initials, builder.InsertField(" USERINITIALS ").Result);
 Assert.AreEqual(userInformation.Address, builder.InsertField(" USERADDRESS ").Result);
 
-// Das Feldoptionsobjekt hat auch einen statischen Standardbenutzer, auf den sich Felder aus allen Dokumenten beziehen können.
+// Das Feldoptionsobjekt verfügt außerdem über einen statischen Standardbenutzer, auf den Felder aus allen Dokumenten verweisen können.
 UserInformation.DefaultUser.Name = "Default User";
 UserInformation.DefaultUser.Initials = "D. U.";
 UserInformation.DefaultUser.Address = "One Microsoft Way";

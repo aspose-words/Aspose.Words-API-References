@@ -1,12 +1,12 @@
 ---
 title: Aspose.Words.Lists
 second_title: Referencia de API de Aspose.Words para .NET
-description: los Aspose.Palabras.ListasEl espacio de nombres contiene clases para working con listas numeradas y con viñetas definidas en un documento.
+description: El Aspose.Listas.de.palabras El espacio de nombres contiene clases paraworking con listas numeradas y con viñetas definidas en un documento.
 type: docs
 weight: 120
 url: /es/net/aspose.words.lists/
 ---
-los **Aspose.Palabras.Listas**El espacio de nombres contiene clases para working con listas numeradas y con viñetas definidas en un documento.
+El **Aspose.Listas.de.palabras** El espacio de nombres contiene clases paraworking con listas numeradas y con viñetas definidas en un documento.
 
 ## Clases
 
@@ -17,7 +17,7 @@ los **Aspose.Palabras.Listas**El espacio de nombres contiene clases para working
 | [ListFormat](./listformat/) | Permite controlar qué formato de lista se aplica a un párrafo. |
 | [ListLabel](./listlabel/) | Define propiedades específicas de una etiqueta de lista. |
 | [ListLevel](./listlevel/) | Define el formato para un nivel de lista. |
-| [ListLevelCollection](./listlevelcollection/) | Una colección de formato de lista para cada nivel en una lista. |
+| [ListLevelCollection](./listlevelcollection/) | Una colección de formato de lista para cada nivel de una lista. |
 ## Enumeración
 
 | Enumeración | Descripción |

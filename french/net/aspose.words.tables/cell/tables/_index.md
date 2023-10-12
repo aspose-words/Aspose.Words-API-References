@@ -1,14 +1,14 @@
 ---
 title: Cell.Tables
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Cell propriété. Obtient une collection de tables qui sont des enfants immédiats de la cellule.
+description: Cell propriété. Obtient une collection de tables qui sont les enfants immédiats de la cellule.
 type: docs
-weight: 100
+weight: 120
 url: /fr/net/aspose.words.tables/cell/tables/
 ---
 ## Cell.Tables property
 
-Obtient une collection de tables qui sont des enfants immédiats de la cellule.
+Obtient une collection de tables qui sont les enfants immédiats de la cellule.
 
 ```csharp
 public TableCollection Tables { get; }
@@ -16,19 +16,18 @@ public TableCollection Tables { get; }
 
 ### Exemples
 
-Montre comment savoir si une table est imbriquée.
+Montre comment savoir si des tables sont imbriquées.
 
 ```csharp
 public void CalculateDepthOfNestedTables()
 {
     Document doc = new Document(MyDir + "Nested tables.docx");
     NodeCollection tables = doc.GetChildNodes(NodeType.Table, true);
-
     for (int i = 0; i < tables.Count; i++)
     {
         Table table = (Table)tables[i];
 
-        // Détermine si des cellules du tableau ont d'autres tableaux comme enfants.
+        // Découvrez si des cellules du tableau ont d'autres tableaux comme enfants.
         int count = GetChildTableCount(table);
         Console.WriteLine("Table #{0} has {1} tables directly within its cells", i, count);
 
@@ -65,11 +64,11 @@ private static int GetNestedDepthOfTable(Table table)
 
 /// <summary>
 /// Détermine si une table contient une table enfant immédiate dans ses cellules.
-/// Ne parcourez pas ces tables de manière récursive pour rechercher d'autres tables.
+/// Ne parcourez pas de manière récursive ces tables pour rechercher d'autres tables.
 /// </summary>
 /// <returns>
-/// Renvoie true si au moins une cellule enfant contient un tableau.
-/// Renvoie faux si aucune cellule du tableau ne contient de tableau.
+/// Renvoie vrai si au moins une cellule enfant contient un tableau.
+/// Renvoie false si aucune cellule du tableau ne contient de tableau.
 /// </returns>
 private static int GetChildTableCount(Table table)
 {

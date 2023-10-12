@@ -1,14 +1,14 @@
 ---
 title: SignOptions.Comments
 second_title: Aspose.Words per .NET API Reference
-description: SignOptions proprietà. Specifica i commenti sulla firma digitale. Il valore predefinito è stringa vuota Empty .
+description: SignOptions proprietà. Specifica i commenti sulla firma digitale. Il valore predefinito è stringa vuota Empty.
 type: docs
 weight: 20
 url: /it/net/aspose.words.digitalsignatures/signoptions/comments/
 ---
 ## SignOptions.Comments property
 
-Specifica i commenti sulla firma digitale. Il valore predefinito è **stringa vuota** (Empty ).
+Specifica i commenti sulla firma digitale. Il valore predefinito è **stringa vuota** (Empty).
 
 ```csharp
 public string Comments { get; set; }
@@ -29,8 +29,8 @@ SignOptions signOptions = new SignOptions
     SignTime = DateTime.Now
 };
 
-// Prendi un documento non firmato dal file system locale tramite un flusso di file,
-// quindi creane una copia firmata determinata dal nome del file del flusso di file di output.
+// Preleva un documento non firmato dal file system locale tramite un flusso di file,
+// quindi crea una copia firmata determinata dal nome file del flusso di file di output.
 using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 {
     using (Stream streamOut = new FileStream(ArtifactsDir + "DigitalSignatureUtil.SignDocument.docx", FileMode.OpenOrCreate))

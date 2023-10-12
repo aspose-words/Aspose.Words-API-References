@@ -1,14 +1,14 @@
 ---
 title: SaveOptions.UseAntiAliasing
 second_title: Aspose.Words per .NET API Reference
-description: SaveOptions proprietà. Ottiene o imposta un valore che determina se utilizzare o meno lantialias per il rendering.
+description: SaveOptions proprietà. Ottiene o imposta un valore che determina se utilizzare o meno lantialiasing per il rendering.
 type: docs
-weight: 210
+weight: 190
 url: /it/net/aspose.words.saving/saveoptions/useantialiasing/
 ---
 ## SaveOptions.UseAntiAliasing property
 
-Ottiene o imposta un valore che determina se utilizzare o meno l'anti-alias per il rendering.
+Ottiene o imposta un valore che determina se utilizzare o meno l'antialiasing per il rendering.
 
 ```csharp
 public bool UseAntiAliasing { get; set; }
@@ -16,9 +16,9 @@ public bool UseAntiAliasing { get; set; }
 
 ### Osservazioni
 
-Il valore predefinito è`falso` . Quando questo valore è impostato su`VERO` l'anti-alias è usato per il rendering.
+Il valore predefinito è`falso` . Quando questo valore è impostato su`VERO` l'antialiasing is utilizzato per il rendering.
 
-Questa proprietà viene utilizzata quando il documento viene esportato nei seguenti formati: Tiff ,Png ,Bmp , Jpeg ,Emf . Quando il documento viene esportato in Html ,Mhtml eEpub formatta questa opzione viene utilizzata per le immagini raster.
+Questa proprietà viene utilizzata quando il documento viene esportato nei seguenti formati: Tiff ,Png ,Bmp , Jpeg ,Emf . Quando il documento viene esportato in Html ,Mhtml , Epub ,Azw3 oMobi formati questa opzione viene utilizzata per le immagini raster.
 
 ### Esempi
 
@@ -32,7 +32,6 @@ builder.Font.Size = 60;
 builder.Writeln("Some text.");
 
 SaveOptions options = new ImageSaveOptions(SaveFormat.Jpeg);
-
 doc.Save(ArtifactsDir + "Document.ImageSaveOptions.Default.jpg", options);
 
 options.UseAntiAliasing = true;

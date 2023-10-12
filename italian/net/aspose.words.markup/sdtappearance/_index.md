@@ -1,14 +1,14 @@
 ---
 title: Enum SdtAppearance
 second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Markup.SdtAppearance enum. Specifica laspetto di un tag del documento strutturato.
+description: Aspose.Words.Markup.SdtAppearance enum. Specifica laspetto di un tag di documento strutturato.
 type: docs
-weight: 3750
+weight: 3990
 url: /it/net/aspose.words.markup/sdtappearance/
 ---
 ## SdtAppearance enumeration
 
-Specifica l'aspetto di un tag del documento strutturato.
+Specifica l'aspetto di un tag di documento strutturato.
 
 ```csharp
 public enum SdtAppearance

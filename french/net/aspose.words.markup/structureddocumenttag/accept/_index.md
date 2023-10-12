@@ -3,7 +3,7 @@ title: StructuredDocumentTag.Accept
 second_title: Référence de l'API Aspose.Words pour .NET
 description: StructuredDocumentTag méthode. Accepte un visiteur.
 type: docs
-weight: 320
+weight: 330
 url: /fr/net/aspose.words.markup/structureddocumenttag/accept/
 ---
 ## StructuredDocumentTag.Accept method
@@ -20,19 +20,19 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Return_Value
 
-Vrai si tous les nœuds ont été visités ; false si DocumentVisitor a arrêté l'opération avant de visiter tous les nœuds.
+Vrai si tous les nœuds ont été visités ; faux si[`DocumentVisitor`](../../../aspose.words/documentvisitor/) arrêté l'opération avant de visiter tous les nœuds.
 
 ### Remarques
 
-Énumère ce nœud et tous ses enfants. Chaque nœud appelle une méthode correspondante sur DocumentVisitor.
+Énumère ce nœud et tous ses enfants. Chaque nœud appelle une méthode correspondante sur[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
-Pour plus d'informations, consultez le modèle de conception Visiteur.
+Pour plus d’informations, consultez le modèle de conception Visiteur.
 
-Appels[`VisitStructuredDocumentTagStart`](../../../aspose.words/documentvisitor/visitstructureddocumenttagstart/) , puis appelle[`Accept`](../../../aspose.words/node/accept/)pour all nœuds enfants de la balise active et des appels[`VisitStructuredDocumentTagEnd`](../../../aspose.words/documentvisitor/visitstructureddocumenttagend/) à la fin.
+Appels[`VisitStructuredDocumentTagStart`](../../../aspose.words/documentvisitor/visitstructureddocumenttagstart/) , puis appelle[`Accept`](../../../aspose.words/node/accept/) pour all nœuds enfants de la balise active et des appels[`VisitStructuredDocumentTagEnd`](../../../aspose.words/documentvisitor/visitstructureddocumenttagend/) à la fin.
 
 ### Exemples
 
-Montre comment imprimer la structure de nœud de chaque balise de document structuré dans un document.
+Montre comment imprimer la structure de nœuds de chaque balise de document structuré dans un document.
 
 ```csharp
 public void StructuredDocumentTagToText()
@@ -40,8 +40,8 @@ public void StructuredDocumentTagToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     StructuredDocumentTagNodePrinter visitor = new StructuredDocumentTagNodePrinter();
 
-    // Lorsque nous obtenons un nœud composite pour accepter un visiteur de document, le visiteur visite le nœud acceptant,
-    // puis parcourt tous les enfants du nœud en profondeur d'abord.
+    // Lorsque nous obtenons qu'un nœud composite accepte un visiteur de document, le visiteur visite le nœud accepteur,
+    // puis parcourt tous les enfants du nœud en profondeur.
     // Le visiteur peut lire et modifier chaque nœud visité.
     doc.Accept(visitor);
 
@@ -61,7 +61,7 @@ public class StructuredDocumentTagNodePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Obtient le texte brut du document qui a été accumulé par le visiteur.
+    /// Obtient le texte brut du document accumulé par le visiteur.
     /// </summary>
     public string GetText()
     {
@@ -69,7 +69,7 @@ public class StructuredDocumentTagNodePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Appelé lorsqu'un noeud Run est rencontré dans le document.
+    /// Appelé lorsqu'un nœud Run est rencontré dans le document.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -103,7 +103,7 @@ public class StructuredDocumentTagNodePrinter : DocumentVisitor
     /// <summary>
     /// Ajoutez une ligne au StringBuilder et indentez-la en fonction de la profondeur du visiteur dans l'arborescence du document.
     /// </summary>
-    /// <nom du paramètre="texte"></param>
+    /// <param name="text"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++) mBuilder.Append("|  ");

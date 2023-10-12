@@ -1,14 +1,14 @@
 ---
 title: CompareOptions.IgnoreDmlUniqueId
 second_title: Referencia de API de Aspose.Words para .NET
-description: CompareOptions propiedad. Especifica si se ignorará la diferencia en el ID único de DrawingML. El valor predeterminado es falso .
+description: CompareOptions propiedad. Especifica si se ignora la diferencia en el ID único de DrawingML. El valor predeterminado esFALSO .
 type: docs
-weight: 50
+weight: 60
 url: /es/net/aspose.words.comparing/compareoptions/ignoredmluniqueid/
 ---
 ## CompareOptions.IgnoreDmlUniqueId property
 
-Especifica si se ignorará la diferencia en el ID único de DrawingML. El valor predeterminado es **falso** .
+Especifica si se ignora la diferencia en el ID único de DrawingML. El valor predeterminado es`FALSO` .
 
 ```csharp
 public bool IgnoreDmlUniqueId { get; set; }
@@ -16,14 +16,14 @@ public bool IgnoreDmlUniqueId { get; set; }
 
 ### Ejemplos
 
-Muestra cómo comparar documentos ignorando la ID única de DML.
+Muestra cómo comparar documentos ignorando el ID único de DML.
 
 ```csharp
 Document docA = new Document(MyDir + "DML unique ID original.docx");
 Document docB = new Document(MyDir + "DML unique ID compare.docx");
 
-// De forma predeterminada, Aspose.Words no ignora la ID única de DML y el recuento de revisiones fue de 2.
-// Si ignoramos la ID única de DML y el recuento de revisiones fue 0.
+// De forma predeterminada, Aspose.Words no ignora el ID único de DML y el recuento de revisiones fue 2.
+// Si ignoramos el ID único de DML y el recuento de revisiones fue 0.
 Aspose.Words.Comparing.CompareOptions compareOptions = new Aspose.Words.Comparing.CompareOptions();
 compareOptions.IgnoreDmlUniqueId = isIgnoreDmlUniqueId;
 

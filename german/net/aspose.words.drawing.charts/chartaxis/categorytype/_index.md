@@ -1,14 +1,14 @@
 ---
 title: ChartAxis.CategoryType
 second_title: Aspose.Words für .NET-API-Referenz
-description: ChartAxis eigendom. Ruft den Typ der Kategorieachse ab oder legt ihn fest.
+description: ChartAxis eigendom. Ruft den Typ der Kategorieachse ab oder legt diesen fest.
 type: docs
 weight: 30
 url: /de/net/aspose.words.drawing.charts/chartaxis/categorytype/
 ---
 ## ChartAxis.CategoryType property
 
-Ruft den Typ der Kategorieachse ab oder legt ihn fest.
+Ruft den Typ der Kategorieachse ab oder legt diesen fest.
 
 ```csharp
 public AxisCategoryType CategoryType { get; set; }
@@ -20,7 +20,7 @@ Nur Textkategorien (Category ) sind in MS Office 2016 neue Diagramme erlaubt.
 
 ### Beispiele
 
-Zeigt, wie Sie ein Diagramm einfügen und das Aussehen seiner Achsen ändern.
+Zeigt, wie man ein Diagramm einfügt und das Erscheinungsbild seiner Achsen ändert.
 
 ```csharp
 Document doc = new Document();
@@ -32,13 +32,13 @@ Chart chart = shape.Chart;
 // Löschen Sie die Demo-Datenreihe des Diagramms, um mit einem sauberen Diagramm zu beginnen.
 chart.Series.Clear();
 
-// Einfügen einer Diagrammreihe mit Kategorien für die X-Achse und entsprechenden numerischen Werten für die Y-Achse.
+// Fügen Sie eine Diagrammreihe mit Kategorien für die X-Achse und entsprechenden numerischen Werten für die Y-Achse ein.
 chart.Series.Add("Aspose Test Series",
     new[] { "Word", "PDF", "Excel", "GoogleDocs", "Note" },
     new double[] { 640, 320, 280, 120, 150 });
 
 // Diagrammachsen haben verschiedene Optionen, die ihr Aussehen ändern können,
-// wie ihre Richtung, Haupt-/Nebeneinheiten-Ticks und Teilstriche.
+// wie ihre Richtung, Dur-/Moll-Einheitenstriche und Teilstriche.
 ChartAxis xAxis = chart.AxisX;
 xAxis.CategoryType = AxisCategoryType.Category;
 xAxis.Crosses = AxisCrosses.Minimum;

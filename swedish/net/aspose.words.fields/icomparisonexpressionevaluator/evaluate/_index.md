@@ -16,7 +16,7 @@ public ComparisonEvaluationResult Evaluate(Field field, ComparisonExpression exp
 
 ### Anmärkningar
 
-Implementeringen bör återkomma **null** för att indikera att standardutvärderingen ska utföras.
+Implementeringen bör återkomma`null` för att indikera att standardutvärderingen ska utföras.
 
 ### Se även
 

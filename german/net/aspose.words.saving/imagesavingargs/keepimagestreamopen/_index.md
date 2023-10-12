@@ -16,18 +16,19 @@ public bool KeepImageStreamOpen { get; set; }
 
 ### Bemerkungen
 
-Standard ist`FALSCH` und Aspose.Words schließt den von Ihnen bereitgestellten Stream in der[`ImageStream`](../imagestream/) Eigenschaft, nachdem ein Bild hineingeschrieben wurde. Angeben`Stimmt` um den Strom offen zu halten.
+Standard ist`FALSCH` und Aspose.Words schließt den von Ihnen bereitgestellten Stream im[`ImageStream`](../imagestream/) Eigenschaft, nachdem ein Bild hineingeschrieben wurde. Angeben`WAHR` um den Stream offen zu halten.
 
 ### Beispiele
 
-Zeigt, wie ein Callback zum Speichern von Bildern in einen HTML-Konvertierungsprozess einbezogen wird.
+Zeigt, wie ein Rückruf zum Speichern von Bildern in einen HTML-Konvertierungsprozess einbezogen wird.
 
 ```csharp
+public void ImageSavingCallback()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
     // Wenn wir das Dokument im HTML-Format speichern, können wir ein SaveOptions-Objekt übergeben, um einen Rückruf festzulegen
-    // um den Bildspeicherprozess anzupassen.
+    // um den Bildspeichervorgang anzupassen.
     HtmlSaveOptions options = new HtmlSaveOptions();
     options.ImageSavingCallback = new ImageShapePrinter();
 
@@ -35,8 +36,8 @@ Zeigt, wie ein Callback zum Speichern von Bildern in einen HTML-Konvertierungspr
 }
 
 /// <summary>
-/// Druckt die Eigenschaften jedes Bildes, während der Speicherprozess es in einer Bilddatei im lokalen Dateisystem speichert
-/// während des Exports eines Dokuments nach HTML.
+/// Druckt die Eigenschaften jedes Bildes, während der Speichervorgang es in einer Bilddatei im lokalen Dateisystem speichert
+/// beim Exportieren eines Dokuments nach HTML.
 /// </summary>
 private class ImageShapePrinter : IImageSavingCallback
 {

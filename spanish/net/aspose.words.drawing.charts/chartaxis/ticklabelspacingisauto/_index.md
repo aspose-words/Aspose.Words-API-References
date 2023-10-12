@@ -1,14 +1,14 @@
 ---
 title: ChartAxis.TickLabelSpacingIsAuto
 second_title: Referencia de API de Aspose.Words para .NET
-description: ChartAxis propiedad. Obtiene o establece un indicador que indica si se debe usar el intervalo automático de etiquetas de marca de dibujo.
+description: ChartAxis propiedad. Obtiene o establece un indicador que indica si se debe utilizar el intervalo automático de etiquetas de marca de dibujo.
 type: docs
-weight: 240
+weight: 260
 url: /es/net/aspose.words.drawing.charts/chartaxis/ticklabelspacingisauto/
 ---
 ## ChartAxis.TickLabelSpacingIsAuto property
 
-Obtiene o establece un indicador que indica si se debe usar el intervalo automático de etiquetas de marca de dibujo.
+Obtiene o establece un indicador que indica si se debe utilizar el intervalo automático de etiquetas de marca de dibujo.
 
 ```csharp
 public bool TickLabelSpacingIsAuto { get; set; }
@@ -16,7 +16,7 @@ public bool TickLabelSpacingIsAuto { get; set; }
 
 ### Observaciones
 
-El valor predeterminado es **verdadero**.
+El valor predeterminado es`verdadero`.
 
 La propiedad tiene efecto para la categoría de texto y los ejes de serie. No es compatible con MS Office 2016 nuevos gráficos.
 
@@ -31,16 +31,16 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Column, 500, 300);
 Chart chart = shape.Chart;
 
-// Borre la serie de datos de demostración del gráfico para comenzar con un gráfico limpio.
+// Borra la serie de datos de demostración del gráfico para comenzar con un gráfico limpio.
 chart.Series.Clear();
 
-// Inserte una serie de gráficos con categorías para el eje X y valores numéricos respectivos para el eje Y.
+// Inserta una serie de gráficos con categorías para el eje X y los respectivos valores numéricos para el eje Y.
 chart.Series.Add("Aspose Test Series",
     new[] { "Word", "PDF", "Excel", "GoogleDocs", "Note" },
     new double[] { 640, 320, 280, 120, 150 });
 
 // Los ejes del gráfico tienen varias opciones que pueden cambiar su apariencia,
-// como su dirección, marcas de unidad mayor/menor y marcas de graduación.
+// como su dirección, marcas de unidad mayor/menor y marcas de marca.
 ChartAxis xAxis = chart.AxisX;
 xAxis.CategoryType = AxisCategoryType.Category;
 xAxis.Crosses = AxisCrosses.Minimum;
@@ -64,7 +64,7 @@ yAxis.MajorUnit = 100.0d;
 yAxis.MinorUnit = 20.0d;
 yAxis.TickLabelPosition = AxisTickLabelPosition.NextToAxis;
 
-// Los gráficos de columnas no tienen un eje Z.
+// Los gráficos de columnas no tienen eje Z.
 Assert.Null(chart.AxisZ);
 
 doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");

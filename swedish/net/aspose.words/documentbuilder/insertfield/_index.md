@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertField
 second_title: Aspose.Words för .NET API Referens
 description: DocumentBuilder metod. Infogar ett Wordfält i ett dokument och uppdaterar eventuellt fältresultatet.
 type: docs
-weight: 300
+weight: 330
 url: /sv/net/aspose.words/documentbuilder/insertfield/
 ---
 ## InsertField(FieldType, bool) {#insertfield}
@@ -160,7 +160,7 @@ public Field InsertField(string fieldCode, string fieldValue)
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | fieldCode | String | Fältkoden som ska infogas (utan hängslen). |
-| fieldValue | String | Fältvärdet som ska infogas. Skicka null för fält som inte har ett värde. |
+| fieldValue | String | Fältvärdet som ska infogas. Passera`null` för fält som inte har ett värde. |
 
 ### Returvärde
 

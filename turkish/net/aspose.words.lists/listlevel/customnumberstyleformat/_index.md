@@ -16,7 +16,7 @@ public string CustomNumberStyleFormat { get; }
 
 ### Örnekler
 
-Özel sayı stiline sahip bir liste biçiminin nasıl alınacağını gösterir.
+Özel sayı stiline sahip bir listenin biçiminin nasıl alınacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "List with leading zero.docx");
@@ -30,7 +30,7 @@ if (listLevel.NumberStyle == NumberStyle.Custom)
 
 Assert.AreEqual("001, 002, 003, ...", customNumberStyleFormat);
 
-// Liste öğesinin belirtilen dizini için değer alabiliriz.
+// Liste öğesinin belirtilen indeksi için değer alabiliriz.
 Assert.AreEqual("iv", ListLevel.GetEffectiveValue(4, NumberStyle.LowercaseRoman, null));
 Assert.AreEqual("005", ListLevel.GetEffectiveValue(5, NumberStyle.Custom, customNumberStyleFormat));
 ```

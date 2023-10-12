@@ -1,14 +1,14 @@
 ---
 title: INodeChangingCallback.NodeInserting
 second_title: Aspose.Words für .NET-API-Referenz
-description: INodeChangingCallback methode. Wird aufgerufen kurz bevor ein Knoten der zu diesem Dokument gehört in einen anderen Knoten eingefügt werden soll.
+description: INodeChangingCallback methode. Wird aufgerufen kurz bevor ein zu diesem Dokument gehörender Knoten in einen anderen Knoten eingefügt werden soll.
 type: docs
 weight: 20
 url: /de/net/aspose.words/inodechangingcallback/nodeinserting/
 ---
 ## INodeChangingCallback.NodeInserting method
 
-Wird aufgerufen, kurz bevor ein Knoten, der zu diesem Dokument gehört, in einen anderen Knoten eingefügt werden soll.
+Wird aufgerufen, kurz bevor ein zu diesem Dokument gehörender Knoten in einen anderen Knoten eingefügt werden soll.
 
 ```csharp
 public void NodeInserting(NodeChangingArgs args)
@@ -16,15 +16,16 @@ public void NodeInserting(NodeChangingArgs args)
 
 ### Beispiele
 
-Zeigt, wie Sie Knotenänderungen mit einem Callback anpassen.
+Zeigt, wie Knotenänderungen mit einem Rückruf angepasst werden.
 
 ```csharp
+public void FontChangeViaCallback()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Setzen Sie den Callback für die Knotenänderung auf die benutzerdefinierte Implementierung,
-    // dann Knoten hinzufügen/entfernen, um ein Protokoll zu generieren.
+    // Den Rückruf zum Ändern des Knotens auf eine benutzerdefinierte Implementierung setzen,
+    // dann Knoten hinzufügen/entfernen, damit ein Protokoll generiert wird.
     HandleNodeChangingFontChanger callback = new HandleNodeChangingFontChanger();
     doc.NodeChangingCallback = callback;
 
@@ -36,10 +37,11 @@ Zeigt, wie Sie Knotenänderungen mit einem Callback anpassen.
     doc.Range.Fields[0].Remove();
 
     Console.WriteLine(callback.GetLog());
+}
 
 /// <summary>
-/// Protokolliert Datum und Uhrzeit jedes Einfügens und Entfernens von Knoten.
-/// Legt einen benutzerdefinierten Schriftartnamen/-größe für den Textinhalt von Run-Knoten fest.
+/// Protokolliert Datum und Uhrzeit des Einfügens und Entfernens jedes Knotens.
+/// Legt einen benutzerdefinierten Schriftartnamen/eine benutzerdefinierte Schriftart für den Textinhalt von Run-Knoten fest.
 /// </summary>
 public class HandleNodeChangingFontChanger : INodeChangingCallback
 {

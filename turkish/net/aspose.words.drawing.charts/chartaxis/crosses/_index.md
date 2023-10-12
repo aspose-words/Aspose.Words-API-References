@@ -1,14 +1,14 @@
 ---
 title: ChartAxis.Crosses
 second_title: Aspose.Words for .NET API Referansı
-description: ChartAxis mülk. Bu eksenin dikey ekseni nasıl geçtiğini belirtir.
+description: ChartAxis mülk. Bu eksenin dikey ekseni nasıl kestiğini belirtir.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.drawing.charts/chartaxis/crosses/
 ---
 ## ChartAxis.Crosses property
 
-Bu eksenin dikey ekseni nasıl geçtiğini belirtir.
+Bu eksenin dikey ekseni nasıl kestiğini belirtir.
 
 ```csharp
 public AxisCrosses Crosses { get; set; }
@@ -16,13 +16,13 @@ public AxisCrosses Crosses { get; set; }
 
 ### Notlar
 
-Varsayılan değerAutomatic.
+Varsayılan değer:Automatic.
 
-Mülk, MS Office 2016 yeni çizelgeleri tarafından desteklenmemektedir.
+Bu özellik MS Office 2016 yeni çizelgeleri tarafından desteklenmemektedir.
 
 ### Örnekler
 
-Bir grafiğin nasıl ekleneceğini ve eksenlerinin görünümünün nasıl değiştirileceğini gösterir.
+Grafiğin nasıl ekleneceğini ve eksenlerinin görünümünün nasıl değiştirileceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -34,13 +34,13 @@ Chart chart = shape.Chart;
 // Temiz bir grafikle başlamak için grafiğin demo veri serisini temizleyin.
 chart.Series.Clear();
 
-// X ekseni için kategoriler ve Y ekseni için ilgili sayısal değerler içeren bir grafik serisi ekleyin.
+// X ekseni için kategorileri ve Y ekseni için ilgili sayısal değerleri içeren bir grafik serisi ekleyin.
 chart.Series.Add("Aspose Test Series",
     new[] { "Word", "PDF", "Excel", "GoogleDocs", "Note" },
     new double[] { 640, 320, 280, 120, 150 });
 
-// Grafik eksenleri, görünümlerini değiştirebilen çeşitli seçeneklere sahiptir,
-// yönleri, majör/alt birim keneleri ve kene işaretleri gibi.
+// Grafik eksenlerinin görünümlerini değiştirebilecek çeşitli seçenekleri vardır,
+// yönleri, büyük/küçük birim işaretleri ve onay işaretleri gibi.
 ChartAxis xAxis = chart.AxisX;
 xAxis.CategoryType = AxisCategoryType.Category;
 xAxis.Crosses = AxisCrosses.Minimum;
@@ -64,7 +64,7 @@ yAxis.MajorUnit = 100.0d;
 yAxis.MinorUnit = 20.0d;
 yAxis.TickLabelPosition = AxisTickLabelPosition.NextToAxis;
 
-// Sütun grafiklerinin Z ekseni yoktur.
+// Sütun grafiklerinde Z ekseni yoktur.
 Assert.Null(chart.AxisZ);
 
 doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");

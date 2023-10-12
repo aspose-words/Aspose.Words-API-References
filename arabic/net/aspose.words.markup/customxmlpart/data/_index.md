@@ -1,14 +1,14 @@
 ---
 title: CustomXmlPart.Data
 second_title: Aspose.Words لمراجع .NET API
-description: CustomXmlPart ملكية. الحصول على محتوى XML لجزء تخزين بيانات XML المخصص هذا أو تعيينه.
+description: CustomXmlPart ملكية. الحصول على محتوى XML الخاص بجزء تخزين بيانات XML المخصص هذا أو تعيينه.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.markup/customxmlpart/data/
 ---
 ## CustomXmlPart.Data property
 
-الحصول على محتوى XML لجزء تخزين بيانات XML المخصص هذا أو تعيينه.
+الحصول على محتوى XML الخاص بجزء تخزين بيانات XML المخصص هذا أو تعيينه.
 
 ```csharp
 public byte[] Data { get; set; }
@@ -16,18 +16,18 @@ public byte[] Data { get; set; }
 
 ### ملاحظات
 
-القيمة الافتراضية هي صفيف بايت فارغ. لا يمكن أن تكون القيمة`لا شيء`.
+القيمة الافتراضية هي صفيف بايت فارغ. لا يمكن أن تكون القيمة`باطل`.
 
 ### أمثلة
 
-يوضح كيفية إنشاء علامة مستند منظم ببيانات XML مخصصة.
+يوضح كيفية إنشاء علامة مستند منظمة باستخدام بيانات XML المخصصة.
 
 ```csharp
 Document doc = new Document();
 
-// إنشاء جزء XML يحتوي على بيانات وإضافته إلى مجموعة المستند.
-// إذا قمنا بتمكين علامة التبويب "المطور" في Microsoft Word ،
-// يمكننا العثور على عناصر من هذه المجموعة في "جزء تعيين XML" ، جنبًا إلى جنب مع بعض العناصر الافتراضية.
+// قم بإنشاء جزء XML يحتوي على بيانات وأضفه إلى مجموعة المستند.
+// إذا قمنا بتمكين علامة التبويب "المطور" في Microsoft Word،
+// يمكننا العثور على عناصر من هذه المجموعة في "جزء تعيين XML"، بالإضافة إلى بعض العناصر الافتراضية.
 string xmlPartId = Guid.NewGuid().ToString("B");
 string xmlPartContent = "<root><text>Hello world!</text></root>";
 CustomXmlPart xmlPart = doc.CustomXmlParts.Add(xmlPartId, xmlPartContent);
@@ -36,23 +36,23 @@ Assert.AreEqual(Encoding.ASCII.GetBytes(xmlPartContent), xmlPart.Data);
 Assert.AreEqual(xmlPartId, xmlPart.Id);
 
 // فيما يلي طريقتان للإشارة إلى أجزاء XML.
-// 1 - بواسطة فهرس في مجموعة أجزاء XML المخصصة:
+// 1 - من خلال فهرس في مجموعة أجزاء XML المخصصة:
 Assert.AreEqual(xmlPart, doc.CustomXmlParts[0]);
 
-// 2 - بواسطة GUID:
+// 2 - بواسطة المعرف الدليلي:
 Assert.AreEqual(xmlPart, doc.CustomXmlParts.GetById(xmlPartId));
 
 // إضافة اقتران مخطط XML.
-xmlPart.Schemas.Add("http://www.w3.org/2001/XMLSchema ") ;
+xmlPart.Schemas.Add("http://www.w3.org/2001/XMLSchema");
 
-// استنساخ جزء ، ثم أدخله في المجموعة.
+// انسخ جزءًا، ثم أدخله في المجموعة.
 CustomXmlPart xmlPartClone = xmlPart.Clone();
 xmlPartClone.Id = Guid.NewGuid().ToString("B");
 doc.CustomXmlParts.Add(xmlPartClone);
 
 Assert.AreEqual(2, doc.CustomXmlParts.Count);
 
-// تكرار خلال المجموعة وطباعة محتويات كل جزء.
+// كرر المجموعة واطبع محتويات كل جزء.
 using (IEnumerator<CustomXmlPart> enumerator = doc.CustomXmlParts.GetEnumerator())
 {
     int index = 0;
@@ -64,16 +64,16 @@ using (IEnumerator<CustomXmlPart> enumerator = doc.CustomXmlParts.GetEnumerator(
     }
 }
 
-// استخدم طريقة "RemoveAt" لإزالة الجزء المستنسخ بالفهرس.
+// استخدم طريقة "RemoveAt" لإزالة الجزء المستنسخ حسب الفهرس.
 doc.CustomXmlParts.RemoveAt(1);
 
 Assert.AreEqual(1, doc.CustomXmlParts.Count);
 
-// استنساخ مجموعة أجزاء XML ، ثم استخدم طريقة "Clear" لإزالة جميع عناصرها مرة واحدة.
+// انسخ مجموعة أجزاء XML، ثم استخدم طريقة "المسح" لإزالة جميع عناصرها مرة واحدة.
 CustomXmlPartCollection customXmlParts = doc.CustomXmlParts.Clone();
 customXmlParts.Clear();
 
-// قم بإنشاء علامة مستند منظم تعرض محتويات الجزء الخاص بنا وإدراجها في نص المستند.
+// أنشئ علامة مستند منظمة تعرض محتويات الجزء الخاص بنا وتدرجه في نص المستند.
 StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Block);
 tag.XmlMapping.SetMapping(xmlPart, "/root[1]/text[1]", string.Empty);
 

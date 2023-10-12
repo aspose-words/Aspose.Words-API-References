@@ -1,14 +1,14 @@
 ---
 title: HyphenationOptions.HyphenationZone
 second_title: Referencia de API de Aspose.Words para .NET
-description: HyphenationOptions propiedad. Obtiene o establece la distancia en 1/20 de un punto desde el margen derecho dentro del cual no desea dividir palabras. El valor predeterminado para esta propiedad es 360 025 pulgadas.
+description: HyphenationOptions propiedad. Obtiene o establece la distancia en 1/20 de un punto desde el margen derecho dentro del cual no desea que separe las palabras con guiones. El valor predeterminado para esta propiedad es 360 025 pulgadas.
 type: docs
 weight: 50
 url: /es/net/aspose.words.settings/hyphenationoptions/hyphenationzone/
 ---
 ## HyphenationOptions.HyphenationZone property
 
-Obtiene o establece la distancia en 1/20 de un punto desde el margen derecho dentro del cual no desea dividir palabras. El valor predeterminado para esta propiedad es 360 (0,25 pulgadas).
+Obtiene o establece la distancia en 1/20 de un punto desde el margen derecho dentro del cual no desea que separe las palabras con guiones. El valor predeterminado para esta propiedad es 360 (0,25 pulgadas).
 
 ```csharp
 public int HyphenationZone { get; set; }
@@ -16,7 +16,7 @@ public int HyphenationZone { get; set; }
 
 ### Ejemplos
 
-Muestra cómo configurar la partición automática.
+Muestra cómo configurar la separación de palabras automática.
 
 ```csharp
 Document doc = new Document();

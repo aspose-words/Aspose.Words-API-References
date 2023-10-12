@@ -3,12 +3,14 @@ title: Class ComparisonEvaluationResult
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.Fields.ComparisonEvaluationResult classe. Le résultat de lévaluation de la comparaison.
 type: docs
-weight: 1330
+weight: 1480
 url: /fr/net/aspose.words.fields/comparisonevaluationresult/
 ---
 ## ComparisonEvaluationResult class
 
 Le résultat de l'évaluation de la comparaison.
+
+Pour en savoir plus, visitez le[Travailler avec des champs](https://docs.aspose.com/words/net/working-with-fields/) article documentaire.
 
 ```csharp
 public sealed class ComparisonEvaluationResult
@@ -42,7 +44,7 @@ public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparison
 
     DocumentBuilder builder = new DocumentBuilder();
 
-    // Codes de champ que nous utilisons dans cet exemple :
+    // Codes de champs que nous utilisons dans cet exemple :
     // 1. " SI {0} {1} {2} \"vrai argument\" \"faux argument\" ".
     // 2. " COMPARER {0} {1} {2} ".
     Field field = builder.InsertField(string.Format(fieldCode, left, @operator, right), null);

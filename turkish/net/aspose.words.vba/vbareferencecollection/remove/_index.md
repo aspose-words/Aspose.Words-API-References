@@ -1,14 +1,14 @@
 ---
 title: VbaReferenceCollection.Remove
 second_title: Aspose.Words for .NET API Referansı
-description: VbaReferenceCollection yöntem. Belirtilen bir VbaReference öğesinin ilk oluşumunu koleksiyondan kaldırır.
+description: VbaReferenceCollection yöntem. Belirtilenin ilk oluşumunu kaldırırVbaReference koleksiyondan bir parça.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.vba/vbareferencecollection/remove/
 ---
 ## VbaReferenceCollection.Remove method
 
-Belirtilen bir VbaReference öğesinin ilk oluşumunu koleksiyondan kaldırır.
+Belirtilenin ilk oluşumunu kaldırır[`VbaReference`](../../vbareference/) koleksiyondan bir parça.
 
 ```csharp
 public void Remove(VbaReference item)
@@ -16,10 +16,9 @@ public void Remove(VbaReference item)
 
 ### Örnekler
 
-VBA başvuru koleksiyonundan bir öğenin nasıl alınacağını/kaldırılacağını gösterir.
+VBA referans koleksiyonundan bir öğenin nasıl alınacağını/kaldırılacağını gösterir.
 
 ```csharp
-[Test]
 public void RemoveVbaReference()
 {
     const string brokenPath = @"X:\broken.dll";
@@ -45,7 +44,7 @@ public void RemoveVbaReference()
 }
 
 /// <summary>
-/// Belirtilen bir başvurunun LibId yolunu temsil eden dizeyi döndürür. 
+ /// Belirtilen bir referansın LibId yolunu temsil eden dizeyi döndürür.
 /// </summary>
 private static string GetLibIdPath(VbaReference reference)
 {

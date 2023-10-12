@@ -22,11 +22,9 @@ Montre comment vérifier les propriétés du document propriétaire des listes.
 Document doc = new Document();
 
 ListCollection lists = doc.Lists;
-
 Assert.AreEqual(doc, lists.Document);
 
 List list = lists.Add(ListTemplate.BulletDefault);
-
 Assert.AreEqual(doc, list.Document);
 
 Console.WriteLine("Current list count: " + lists.Count);
@@ -35,7 +33,7 @@ Console.WriteLine("ListId: " + list.ListId);
 Console.WriteLine("List is the same by ListId: " + (lists.GetListByListId(1).Equals(list)));
 ```
 
-Montre comment appliquer la mise en forme de liste d'une liste existante à une collection de paragraphes.
+Montre comment appliquer la mise en forme d’une liste existante à une collection de paragraphes.
 
 ```csharp
 Document doc = new Document();

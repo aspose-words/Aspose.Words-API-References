@@ -3,7 +3,7 @@ title: DocumentBuilder.StartBookmark
 second_title: Aspose.Words per .NET API Reference
 description: DocumentBuilder metodo. Contrassegna la posizione corrente nel documento come inizio segnalibro.
 type: docs
-weight: 580
+weight: 620
 url: /it/net/aspose.words/documentbuilder/startbookmark/
 ---
 ## DocumentBuilder.StartBookmark method
@@ -20,13 +20,13 @@ public BookmarkStart StartBookmark(string bookmarkName)
 
 ### Valore di ritorno
 
-Il nodo di inizio del segnalibro che è stato appena creato.
+Il nodo iniziale del segnalibro appena creato.
 
 ### Osservazioni
 
-I segnalibri in un documento possono sovrapporsi e estendersi a qualsiasi intervallo. Per creare un segnalibro valido devi chiamare entrambi`StartBookmark` e[`EndBookmark`](../endbookmark/) con lo stesso **bookmarkName** parametro .
+I segnalibri in un documento possono sovrapporsi e estendersi su qualsiasi intervallo. Per creare un segnalibro valido devi chiamarli entrambi`StartBookmark` E[`EndBookmark`](../endbookmark/) con lo stesso*bookmarkName* parametro .
 
-I segnalibri di formato errato o i segnalibri con nomi duplicati verranno ignorati quando il documento viene salvato.
+I segnalibri formati in modo errato o i segnalibri con nomi duplicati verranno ignorati quando il documento viene salvato.
 
 ### Esempi
 
@@ -36,7 +36,7 @@ Mostra come creare un segnalibro.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Un segnalibro valido deve contenere il testo del corpo del documento racchiuso tra
+// Un segnalibro valido deve avere il testo del corpo del documento racchiuso da
 // Nodi BookmarkStart e BookmarkEnd creati con un nome di segnalibro corrispondente.
 builder.StartBookmark("MyBookmark");
 builder.Writeln("Hello world!");
@@ -58,7 +58,7 @@ builder.Write("Bookmarked text. ");
 builder.EndBookmark("Bookmark1");
 builder.Writeln("Text outside of the bookmark.");
 
-// Inserisce un campo HYPERLINK che si collega al segnalibro. Possiamo passare gli interruttori di campo
+// Inserisci un campo HYPERLINK che si collega al segnalibro. Possiamo passare gli scambi di campo
 // al metodo "InsertHyperlink" come parte dell'argomento contenente il nome del segnalibro di riferimento.
 builder.Font.Color = Color.Blue;
 builder.Font.Underline = Underline.Single;

@@ -3,7 +3,7 @@ title: Enum PageVerticalAlignment
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.PageVerticalAlignment uppräkning. Anger vertikal justering av text på varje sida.
 type: docs
-weight: 4130
+weight: 4370
 url: /sv/net/aspose.words/pageverticalalignment/
 ---
 ## PageVerticalAlignment enumeration

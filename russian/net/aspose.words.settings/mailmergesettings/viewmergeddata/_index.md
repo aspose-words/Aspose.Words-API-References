@@ -8,7 +8,7 @@ url: /ru/net/aspose.words.settings/mailmergesettings/viewmergeddata/
 ---
 ## MailMergeSettings.ViewMergedData property
 
-Указывает, что Microsoft Word должен отображать данные из указанного внешнего источника данных, в который были вставлены поля слияния (например, предварительный просмотр объединенных данных). Значение по умолчанию`ЛОЖЬ` .
+Указывает, что Microsoft Word должен отображать данные из указанного внешнего источника данных, в который были вставлены поля слияния (например, предварительный просмотр объединенных данных). Значение по умолчанию:`ЛОЖЬ` .
 
 ```csharp
 public bool ViewMergedData { get; set; }
@@ -29,7 +29,7 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Создаем источник данных в виде ASCII-файла с символом "|" персонаж
+// Создаем источник данных в виде ASCII-файла с символом "|" характер
 // действует как разделитель, разделяющий столбцы. Первая строка содержит имена трех столбцов,
 // и каждая последующая строка представляет собой строку с соответствующими значениями.
 string[] lines = { "FirstName|LastName|Message",
@@ -59,7 +59,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
-// Открытие этого документа в Microsoft Word приведет к выполнению слияния перед отображением содержимого. 
+ // Открытие этого документа в Microsoft Word приведет к выполнению слияния почты перед отображением содержимого.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

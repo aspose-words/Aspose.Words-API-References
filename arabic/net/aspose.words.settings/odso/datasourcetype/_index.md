@@ -1,14 +1,14 @@
 ---
 title: Odso.DataSourceType
 second_title: Aspose.Words لمراجع .NET API
-description: Odso ملكية. يحدد نوع مصدر البيانات الخارجي الذي سيتم الاتصال به كجزء من معلومات اتصال ODSO لدمج البريد هذا. القيمة الافتراضية هيDefault .
+description: Odso ملكية. تحديد نوع مصدر البيانات الخارجي المراد الاتصال به كجزء من معلومات اتصال ODSO لدمج البريد هذا. القيمة الافتراضية هيDefault .
 type: docs
 weight: 40
 url: /ar/net/aspose.words.settings/odso/datasourcetype/
 ---
 ## Odso.DataSourceType property
 
-يحدد نوع مصدر البيانات الخارجي الذي سيتم الاتصال به كجزء من معلومات اتصال ODSO لدمج البريد هذا. القيمة الافتراضية هيDefault .
+تحديد نوع مصدر البيانات الخارجي المراد الاتصال به كجزء من معلومات اتصال ODSO لدمج البريد هذا. القيمة الافتراضية هيDefault .
 
 ```csharp
 public OdsoDataSourceType DataSourceType { get; set; }
@@ -16,7 +16,7 @@ public OdsoDataSourceType DataSourceType { get; set; }
 
 ### ملاحظات
 
-هذا الإعداد هو مجرد اقتراح لنوع مصدر البيانات الذي يتم استخدامه لدمج المراسلات هذا.
+يعد هذا الإعداد مجرد اقتراح لنوع مصدر البيانات المستخدم لدمج المراسلات هذا.
 
 ### أمثلة
 
@@ -33,9 +33,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// إنشاء مصدر بيانات في شكل ملف ASCII ، باستخدام "|" حرف
-// يعمل كمحدد يفصل بين الأعمدة. يحتوي السطر الأول على أسماء الأعمدة الثلاثة ،
-// وكل سطر لاحق هو صف بقيمها الخاصة.
+// قم بإنشاء مصدر بيانات على شكل ملف ASCII، باستخدام "|" شخصية
+// يعمل كمحدد يفصل بين الأعمدة. السطر الأول يحتوي على أسماء الأعمدة الثلاثة،
+// وكل سطر لاحق عبارة عن صف بقيمه الخاصة.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";
@@ -63,7 +63,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
-// سيؤدي فتح هذا المستند في Microsoft Word إلى تنفيذ دمج البريد قبل عرض المحتويات. 
+ // سيؤدي فتح هذا المستند في Microsoft Word إلى تنفيذ دمج البريد قبل عرض المحتويات.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

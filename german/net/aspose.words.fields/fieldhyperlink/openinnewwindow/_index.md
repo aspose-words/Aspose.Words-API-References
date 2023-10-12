@@ -1,14 +1,14 @@
 ---
 title: FieldHyperlink.OpenInNewWindow
 second_title: Aspose.Words für .NET-API-Referenz
-description: FieldHyperlink eigendom. Ruft ab oder legt fest ob die Zielsite in einem neuen WebbrowserFenster geöffnet werden soll.
+description: FieldHyperlink eigendom. Ruft ab oder legt fest ob die Zielseite in einem neuen Webbrowserfenster geöffnet werden soll.
 type: docs
 weight: 40
 url: /de/net/aspose.words.fields/fieldhyperlink/openinnewwindow/
 ---
 ## FieldHyperlink.OpenInNewWindow property
 
-Ruft ab oder legt fest, ob die Zielsite in einem neuen Webbrowser-Fenster geöffnet werden soll.
+Ruft ab oder legt fest, ob die Zielseite in einem neuen Webbrowserfenster geöffnet werden soll.
 
 ```csharp
 public bool OpenInNewWindow { get; set; }
@@ -16,7 +16,7 @@ public bool OpenInNewWindow { get; set; }
 
 ### Beispiele
 
-Zeigt, wie HYPERLINK-Felder verwendet werden, um auf Dokumente im lokalen Dateisystem zu verlinken.
+Zeigt, wie HYPERLINK-Felder zum Verknüpfen mit Dokumenten im lokalen Dateisystem verwendet werden.
 
 ```csharp
 Document doc = new Document();
@@ -25,7 +25,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 FieldHyperlink field = (FieldHyperlink)builder.InsertField(FieldType.FieldHyperlink, true);
 
 // Wenn wir in Microsoft Word auf dieses HYPERLINK-Feld klicken,
-// Es öffnet das verknüpfte Dokument und setzt dann den Cursor auf das angegebene Lesezeichen.
+// Es öffnet das verknüpfte Dokument und platziert den Cursor dann auf dem angegebenen Lesezeichen.
 field.Address = MyDir + "Bookmarks.docx";
 field.SubAddress = "MyBookmark3";
 field.ScreenTip = "Open " + field.Address + " on bookmark " + field.SubAddress + " in a new window";

@@ -1,14 +1,14 @@
 ---
 title: HtmlFixedSaveOptions.ExportEmbeddedFonts
 second_title: Aspose.Words per .NET API Reference
-description: HtmlFixedSaveOptions proprietà. Specifica se i caratteri devono essere incorporati nel documento HTML in formato Base64. Nota limpostazione di questo flag può aumentare notevolmente le dimensioni del file HTML di output.
+description: HtmlFixedSaveOptions proprietà. Specifica se i caratteri devono essere incorporati nel documento Html in formato Base64. Nota che limpostazione di questo flag può aumentare significativamente la dimensione del file Html di output.
 type: docs
 weight: 50
 url: /it/net/aspose.words.saving/htmlfixedsaveoptions/exportembeddedfonts/
 ---
 ## HtmlFixedSaveOptions.ExportEmbeddedFonts property
 
-Specifica se i caratteri devono essere incorporati nel documento HTML in formato Base64. Nota l'impostazione di questo flag può aumentare notevolmente le dimensioni del file HTML di output.
+Specifica se i caratteri devono essere incorporati nel documento Html in formato Base64. Nota che l'impostazione di questo flag può aumentare significativamente la dimensione del file Html di output.
 
 ```csharp
 public bool ExportEmbeddedFonts { get; set; }
@@ -23,10 +23,10 @@ Document doc = new Document(MyDir + "Embedded font.docx");
 
 // Quando esportiamo un documento con caratteri incorporati in .html,
 // Aspose.Words può posizionare i caratteri in due possibili posizioni.
-// L'impostazione del flag "ExportEmbeddedFonts" su "true" memorizzerà i dati grezzi per i caratteri incorporati all'interno del foglio di stile CSS,
-// nella proprietà "url" della regola "@font-face". Questo potrebbe creare un enorme file di foglio di stile CSS
-// e riduci il numero di file esterni che creerà questa conversione HTML.
-// Impostando questo flag su "false" verrà creato un file per ogni font.
+// Impostando il flag "ExportEmbeddedFonts" su "true" verranno memorizzati i dati grezzi per i caratteri incorporati nel foglio di stile CSS,
+// nella proprietà "url" della regola "@font-face". Ciò potrebbe creare un enorme file di fogli di stile CSS
+// e riduci il numero di file esterni creati da questa conversione HTML.
+// Impostando questo flag su "false" verrà creato un file per ciascun carattere.
 // Il foglio di stile CSS si collegherà a ciascun file di font utilizzando la proprietà "url" della regola "@font-face".
 HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions
 {

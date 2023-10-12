@@ -3,7 +3,7 @@ title: Range.Delete
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Range méthode. Supprime tous les caractères de la plage.
 type: docs
-weight: 60
+weight: 70
 url: /fr/net/aspose.words/range/delete/
 ---
 ## Range.Delete method
@@ -16,7 +16,7 @@ public void Delete()
 
 ### Exemples
 
-Montre comment supprimer tous les nœuds d'une plage.
+Montre comment supprimer tous les nœuds d’une plage.
 
 ```csharp
 Document doc = new Document();
@@ -29,7 +29,7 @@ builder.Write("Section 2.");
 
 Assert.AreEqual("Section 1. \fSection 2.", doc.GetText().Trim());
 
-// Supprimer entièrement la première section en supprimant tous les nœuds
+// Supprime entièrement la première section en supprimant tous les nœuds
 // dans sa plage, y compris la section elle-même.
 doc.Sections[0].Range.Delete();
 

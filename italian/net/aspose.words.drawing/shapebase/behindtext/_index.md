@@ -1,14 +1,14 @@
 ---
 title: ShapeBase.BehindText
 second_title: Aspose.Words per .NET API Reference
-description: ShapeBase proprietà. Specifica se la forma è al di sotto o al di sopra del testo.
+description: ShapeBase proprietà. Specifica se la forma è sotto o sopra il testo.
 type: docs
 weight: 50
 url: /it/net/aspose.words.drawing/shapebase/behindtext/
 ---
 ## ShapeBase.BehindText property
 
-Specifica se la forma è al di sotto o al di sopra del testo.
+Specifica se la forma è sotto o sopra il testo.
 
 ```csharp
 public bool BehindText { get; set; }
@@ -18,7 +18,7 @@ public bool BehindText { get; set; }
 
 Ha effetto solo per le forme di livello superiore.
 
-Il valore predefinito è **falso**.
+Il valore predefinito è`falso`.
 
 ### Esempi
 

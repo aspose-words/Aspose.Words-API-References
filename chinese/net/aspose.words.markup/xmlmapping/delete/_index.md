@@ -16,7 +16,7 @@ public void Delete()
 
 ### 例子
 
-展示如何为自定义 XML 部件设置 XML 映射。
+演示如何为自定义 XML 部件设置 XML 映射。
 
 ```csharp
 Document doc = new Document();
@@ -29,11 +29,11 @@ CustomXmlPart xmlPart = doc.CustomXmlParts.Add(xmlPartId, xmlPartContent);
 Assert.AreEqual("<root><text>Text element #1</text><text>Text element #2</text></root>", 
     Encoding.UTF8.GetString(xmlPart.Data));
 
-// 创建一个结构化的文档标签，它将显示我们的 CustomXmlPart 的内容。
+// 创建一个结构化文档标记，该标记将显示 CustomXmlPart 的内容。
 StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Block);
 
-// 为我们的结构化文档标签设置一个映射。该映射将指示
-// 我们的结构化文档标记，用于显示 XPath 指向的部分 XML 部分的文本内容。
+// 为我们的结构化文档标签设置映射。该映射将指示
+// 我们的结构化文档标记用于显示 XPath 指向的 XML 部分文本内容的一部分。
 // 在这种情况下，它将是第二个“<text>”的内容第一个“<root>”的元素元素：“文本元素#2”。
 tag.XmlMapping.SetMapping(xmlPart, "/root[1]/text[2]", "xmlns:ns='http://www.w3.org/2001/XMLSchema'");
 
@@ -42,7 +42,7 @@ Assert.AreEqual(xmlPart, tag.XmlMapping.CustomXmlPart);
 Assert.AreEqual("/root[1]/text[2]", tag.XmlMapping.XPath);
 Assert.AreEqual("xmlns:ns='http://www.w3.org/2001/XMLSchema'", tag.XmlMapping.PrefixMappings);
 
-// 将结构化文档标签添加到文档以显示来自我们自定义部分的内容。
+// 将结构化文档标签添加到文档中以显示自定义部分的内容。
 doc.FirstSection.Body.AppendChild(tag);
 doc.Save(ArtifactsDir + "StructuredDocumentTag.XmlMapping.docx");
 ```

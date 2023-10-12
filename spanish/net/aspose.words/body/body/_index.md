@@ -1,14 +1,14 @@
 ---
 title: Body.Body
 second_title: Referencia de API de Aspose.Words para .NET
-description: Body constructor. Inicializa una nueva instancia del Cuerpo clase.
+description: Body constructor. Inicializa una nueva instancia delBody clase.
 type: docs
 weight: 10
 url: /es/net/aspose.words/body/body/
 ---
 ## Body constructor
 
-Inicializa una nueva instancia del **Cuerpo** clase.
+Inicializa una nueva instancia del[`Body`](../) clase.
 
 ```csharp
 public Body(DocumentBase doc)
@@ -20,29 +20,29 @@ public Body(DocumentBase doc)
 
 ### Observaciones
 
-Cuando **Cuerpo** se crea, pertenece al documento especificado, pero aún no es parte del documento y **Nodo principal** es nulo.
+Cuando[`Body`](../) se crea, pertenece al documento especificado, pero aún no es parte del documento y[`ParentNode`](../../node/parentnode/) es`nulo`.
 
-Para anexar **Cuerpo** a un **Sección** use Section.InsertAfter o Section.InsertBefore.
+Para anexar[`Body`](../) un[`Section`](../../section/) usarAñadir Niño , Insertar después oInsertar antes métodos.
 
 ### Ejemplos
 
-Muestra cómo construir un documento de Aspose.Words a mano.
+Muestra cómo construir un documento Aspose.Words a mano.
 
 ```csharp
 Document doc = new Document();
 
 // Un documento en blanco contiene una sección, un cuerpo y un párrafo.
-// Llame al método "RemoveAllChildren" para eliminar todos esos nodos,
+// Llama al método "RemoveAllChildren" para eliminar todos esos nodos,
 // y terminar con un nodo de documento sin hijos.
 doc.RemoveAllChildren();
 
 // Este documento ahora no tiene nodos secundarios compuestos a los que podamos agregar contenido.
 // Si deseamos editarlo, necesitaremos volver a llenar su colección de nodos.
-// Primero, cree una nueva sección y luego agréguela como elemento secundario al nodo del documento raíz.
+// Primero, crea una nueva sección y luego agrégala como secundaria al nodo del documento raíz.
 Section section = new Section(doc);
 doc.AppendChild(section);
 
-// Establecer algunas propiedades de configuración de página para la sección.
+// Establece algunas propiedades de configuración de página para la sección.
 section.PageSetup.SectionStart = SectionStart.NewPage;
 section.PageSetup.PaperSize = PaperSize.Letter;
 
@@ -51,7 +51,7 @@ section.PageSetup.PaperSize = PaperSize.Letter;
 Body body = new Body(doc);
 section.AppendChild(body);
 
-// Cree un párrafo, establezca algunas propiedades de formato y luego agréguelo como elemento secundario al cuerpo.
+// Crea un párrafo, establece algunas propiedades de formato y luego añádelo como elemento secundario al cuerpo.
 Paragraph para = new Paragraph(doc);
 
 para.ParagraphFormat.StyleName = "Heading 1";
@@ -59,7 +59,7 @@ para.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 body.AppendChild(para);
 
-// Finalmente, agregue algo de contenido para hacer el documento. Crear una carrera,
+// Finalmente, agrega algo de contenido para hacer el documento. Crea una carrera,
 // establece su apariencia y contenido, y luego lo agrega como elemento secundario al párrafo.
 Run run = new Run(doc);
 run.Text = "Hello World!";

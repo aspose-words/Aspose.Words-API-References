@@ -22,13 +22,11 @@ public void Add(Node node)
 
 | undantag | skick |
 | --- | --- |
-| NotSupportedException | De **NodeCollection** är en "djup" samling. |
+| NotSupportedException | De[`NodeCollection`](../) är en "djup" samling. |
 
 ### Anmärkningar
 
 Noden infogas som ett underordnat objekt i nodobjektet från vilket samlingen skapades.
-
-Om det nya barnet redan finns i trädet tas det först bort.
 
 Om noden som infogas skapades från ett annat dokument bör du använda [`ImportNode`](../../documentbase/importnode/) för att importera noden till det aktuella dokumentet. Den importerade noden kan sedan infogas i det aktuella dokumentet.
 

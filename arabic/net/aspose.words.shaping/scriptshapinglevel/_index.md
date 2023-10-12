@@ -1,12 +1,14 @@
 ---
 title: Enum ScriptShapingLevel
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Shaping.ScriptShapingLevel تعداد. 
+description: Aspose.Words.Shaping.ScriptShapingLevel تعداد. يصف مستويات التشكيل المطلوبة بواسطة البرنامج النصي.
 type: docs
-weight: 5770
+weight: 6070
 url: /ar/net/aspose.words.shaping/scriptshapinglevel/
 ---
 ## ScriptShapingLevel enumeration
+
+يصف مستويات التشكيل المطلوبة بواسطة البرنامج النصي.
 
 ```csharp
 public enum ScriptShapingLevel
@@ -16,10 +18,10 @@ public enum ScriptShapingLevel
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| None | `0` |  |
-| Unknown | `1` |  |
-| Minimum | `2` |  |
-| Full | `3` |  |
+| None | `0` | البرنامج النصي لا يتطلب التشكيل. |
+| Unknown | `1` | يتم استخدامه عندما لا يتم تحديد مستوى البرنامج النصي. |
+| Minimum | `2` | يتطلب البرنامج النصي الحد الأدنى من دعم التشكيل. |
+| Full | `3` | يتطلب البرنامج النصي دعمًا كاملاً للتشكيل. |
 
 ### أنظر أيضا
 

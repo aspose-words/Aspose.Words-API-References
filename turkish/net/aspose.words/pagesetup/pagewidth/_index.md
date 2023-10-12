@@ -1,14 +1,14 @@
 ---
 title: PageSetup.PageWidth
 second_title: Aspose.Words for .NET API Referansı
-description: PageSetup mülk. Nokta olarak sayfanın genişliğini döndürür veya ayarlar.
+description: PageSetup mülk. Sayfanın genişliğini nokta cinsinden döndürür veya ayarlar.
 type: docs
-weight: 330
+weight: 340
 url: /tr/net/aspose.words/pagesetup/pagewidth/
 ---
 ## PageSetup.PageWidth property
 
-Nokta olarak sayfanın genişliğini döndürür veya ayarlar.
+Sayfanın genişliğini nokta cinsinden döndürür veya ayarlar.
 
 ```csharp
 public double PageWidth { get; set; }
@@ -16,7 +16,7 @@ public double PageWidth { get; set; }
 
 ### Örnekler
 
-Bir resmin nasıl ekleneceğini ve filigran olarak nasıl kullanılacağını gösterir.
+Bir görüntünün nasıl ekleneceğini ve filigran olarak nasıl kullanılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -64,7 +64,7 @@ using (SKBitmap image = SKBitmap.Decode(ImageDir + "Transparent background logo.
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertWatermarkNetStandard2.docx");
 ```
 
-Yüzen bir görüntünün nasıl ekleneceğini ve konumunu ve boyutunun nasıl belirleneceğini gösterir.
+Kayan bir görüntünün nasıl ekleneceğini ve konumunun ve boyutunun nasıl belirleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -74,17 +74,17 @@ Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 shape.WrapType = WrapType.None;
 
 // "Left" özelliğinin değerini işlemek için şeklin "RelativeHorizontalPosition" özelliğini yapılandırın
- // şeklin sayfanın sol tarafından nokta cinsinden yatay mesafesi olarak.
+ // şeklin sayfanın sol tarafına nokta cinsinden yatay uzaklığı olarak.
 shape.RelativeHorizontalPosition = RelativeHorizontalPosition.Page;
 
-// Şeklin sayfanın sol tarafından yatay mesafesini 100 olarak ayarlayın.
+// Şeklin sayfanın sol tarafından yatay uzaklığını 100 olarak ayarlayın.
 shape.Left = 100;
 
-// Şekli 80pt sayfanın üst kısmından aşağıya konumlandırmak için "RelativeVerticalPosition" özelliğini benzer şekilde kullanın.
+// Şekli sayfanın üst kısmının 80pt altına konumlandırmak için "RelativeVerticalPosition" özelliğini benzer şekilde kullanın.
 shape.RelativeVerticalPosition = RelativeVerticalPosition.Page;
 shape.Top = 80;
 
-// Boyutları korumak için genişliği otomatik olarak ölçekleyecek şeklin yüksekliğini ayarlayın.
+// Boyutu korumak için genişliği otomatik olarak ölçeklendirecek şekilde şeklin yüksekliğini ayarlayın.
 shape.Height = 125;
 
 Assert.AreEqual(125.0d, shape.Width);

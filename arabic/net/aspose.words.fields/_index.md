@@ -1,154 +1,157 @@
 ---
 title: Aspose.Words.Fields
 second_title: Aspose.Words لمراجع .NET API
-description: ال Aspose. Words.fields مساحة الاسم تحتوي على الفئات التي تمثل حقول Microsoft Word في مستند.
+description: ال Aspose.Words.Fields تحتوي مساحة الاسم على فئات تمثل حقول Microsoft Word في المستند.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.fields/
 ---
-ال **Aspose. Words.fields** مساحة الاسم تحتوي على الفئات التي تمثل حقول Microsoft Word في مستند.
+ال **Aspose.Words.Fields** تحتوي مساحة الاسم على فئات تمثل حقول Microsoft Word في المستند.
 
 ## الطبقات
 
 | فصل | وصف |
 | --- | --- |
-| [BarcodeParameters](./barcodeparameters/) | فئة حاوية لمعلمات الباركود لتمريرها إلى BarcodeGenerator. |
-| [ComparisonEvaluationResult](./comparisonevaluationresult/) | نتيجة تقييم المقارنة . |
-| [ComparisonExpression](./comparisonexpression/) | تعبير المقارنة . |
-| [DropDownItemCollection](./dropdownitemcollection/) | مجموعة من السلاسل التي تمثل كافة العناصر في حقل نموذج منسدل. |
-| [Field](./field/) | يمثل حقل مستند Microsoft Word . |
-| [FieldAddIn](./fieldaddin/) | تنفذ حقل ADDIN . |
-| [FieldAddressBlock](./fieldaddressblock/) | تنفيذ حقل ADDRESSBLOCK . |
-| [FieldAdvance](./fieldadvance/) | تنفذ حقل ADVANCE . |
+| [BarcodeParameters](./barcodeparameters/) | فئة الحاوية لمعلمات الباركود لتمريرها إلى BarcodeGenerator. |
+| [ComparisonEvaluationResult](./comparisonevaluationresult/) | نتيجة تقييم المقارنة. |
+| [ComparisonExpression](./comparisonexpression/) | تعبير المقارنة. |
+| [DropDownItemCollection](./dropdownitemcollection/) | مجموعة من السلاسل التي تمثل كافة العناصر الموجودة في حقل النموذج المنسدل. |
+| [Field](./field/) | يمثل حقل مستند Microsoft Word. |
+| [FieldAddIn](./fieldaddin/) | ينفذ حقل ADDIN. |
+| [FieldAddressBlock](./fieldaddressblock/) | ينفذ حقل ADDRESSBLOCK. |
+| [FieldAdvance](./fieldadvance/) | ينفذ حقل ADVANCE. |
 | [FieldArgumentBuilder](./fieldargumentbuilder/) | إنشاء وسيطة حقل معقدة تتكون من حقول وعقد ونص عادي. |
-| [FieldAsk](./fieldask/) | تنفذ حقل ASK . |
-| [FieldAuthor](./fieldauthor/) | تنفيذ حقل AUTHOR . |
-| [FieldAutoNum](./fieldautonum/) | يطبق حقل AUTONUM . |
-| [FieldAutoNumLgl](./fieldautonumlgl/) | تنفذ حقل AUTONUMLGL . |
-| [FieldAutoNumOut](./fieldautonumout/) | تنفيذ حقل AUTONUMOUT . |
-| [FieldAutoText](./fieldautotext/) | تنفيذ حقل AUTOTEXT . |
-| [FieldAutoTextList](./fieldautotextlist/) | تنفذ حقل AUTOTEXTLIST . |
-| [FieldBarcode](./fieldbarcode/) | تنفيذ حقل الرمز الشريطي . |
-| [FieldBibliography](./fieldbibliography/) | تنفيذ حقل ببليوغرافيا . |
-| [FieldBidiOutline](./fieldbidioutline/) | ينفذ حقل BIDIOUTLINE . |
-| [FieldBuilder](./fieldbuilder/) | ينشئ حقلاً من الرموز المميزة لرمز الحقل (الوسائط والمفاتيح) . |
-| [FieldChar](./fieldchar/) | الفئة الأساسية للعقد التي تمثل أحرف الحقل في مستند. |
-| [FieldCitation](./fieldcitation/) | تنفيذ حقل CITATION . |
-| [FieldCollection](./fieldcollection/) | مجموعة من[`Field`](../aspose.words.fields/field/) كائنات تمثل الحقول في النطاق المحدد. |
-| [FieldComments](./fieldcomments/) | تنفيذ حقل التعليقات . |
-| [FieldCompare](./fieldcompare/) | تنفيذ حقل المقارنة . |
-| [FieldCreateDate](./fieldcreatedate/) | تنفيذ الحقل CREATEDATE . |
-| [FieldData](./fielddata/) | تنفذ حقل البيانات . |
-| [FieldDatabase](./fielddatabase/) | تنفيذ حقل قاعدة البيانات . |
-| [FieldDatabaseDataRow](./fielddatabasedatarow/) | توفير بيانات لملف[`FieldDatabase`](../aspose.words.fields/fielddatabase/) نتيجة الحقل . |
-| [FieldDatabaseDataTable](./fielddatabasedatatable/) | توفير بيانات لملف[`FieldDatabase`](../aspose.words.fields/fielddatabase/) نتيجة الحقل . |
-| [FieldDate](./fielddate/) | تنفذ حقل التاريخ . |
-| [FieldDde](./fielddde/) | ينفذ حقل DDE . |
-| [FieldDdeAuto](./fieldddeauto/) | ينفذ حقل DDEAUTO . |
-| [FieldDisplayBarcode](./fielddisplaybarcode/) | تنفذ حقل DISPLAYBARCODE . |
-| [FieldDocProperty](./fielddocproperty/) | تنفيذ حقل DOCPROPERTY . |
-| [FieldDocVariable](./fielddocvariable/) | تنفيذات حقل DOCVARIABLE . |
-| [FieldEditTime](./fieldedittime/) | تنفيذ حقل EDITTIME . |
-| [FieldEmbed](./fieldembed/) | تنفيذ حقل EMBED . |
-| [FieldEnd](./fieldend/) | يمثل نهاية حقل Word في مستند. |
-| [FieldEQ](./fieldeq/) | ينفذ حقل EQ . |
-| [FieldFileName](./fieldfilename/) | تنفيذ حقل FILENAME . |
-| [FieldFileSize](./fieldfilesize/) | تنفيذ الحقل FILESIZE . |
-| [FieldFillIn](./fieldfillin/) | تنفيذ حقل FILLIN . |
-| [FieldFootnoteRef](./fieldfootnoteref/) | تنفذ حقل FOOTNOTEREF . |
-| [FieldFormat](./fieldformat/) | يوفر وصولاً مكتوبًا إلى التنسيق الرقمي والتاريخ والوقت والحقل العام. |
-| [FieldFormCheckBox](./fieldformcheckbox/) | تنفذ حقل FORMCHECKBOX . |
-| [FieldFormDropDown](./fieldformdropdown/) | تنفذ حقل FORMDROPDOWN . |
-| [FieldFormText](./fieldformtext/) | تنفذ حقل FORMTEXT . |
-| [FieldFormula](./fieldformula/) | يطبق الحقل = (الصيغة) . |
-| [FieldGlossary](./fieldglossary/) | يقوم بتنفيذ حقل المصطلحات . |
-| [FieldGoToButton](./fieldgotobutton/) | تنفيذ حقل GOTOBUTTON . |
-| [FieldGreetingLine](./fieldgreetingline/) | تنفيذ حقل الخط الأخضر . |
-| [FieldHyperlink](./fieldhyperlink/) | تنفذ الحقل HYPERLINK |
-| [FieldIf](./fieldif/) | تنفذ حقل IF . |
-| [FieldImport](./fieldimport/) | تنفذ حقل الاستيراد . |
-| [FieldInclude](./fieldinclude/) | تنفذ حقل التضمين . |
-| [FieldIncludePicture](./fieldincludepicture/) | تنفيذ حقل INCLUDEPICTURE . |
-| [FieldIncludeText](./fieldincludetext/) | تنفيذ حقل INCLUDETEXT . |
-| [FieldIndex](./fieldindex/) | تنفيذ الحقل INDEX . |
-| [FieldInfo](./fieldinfo/) | تنفذ حقل INFO . |
-| [FieldKeywords](./fieldkeywords/) | تنفذ حقل الكلمات الرئيسية. |
-| [FieldLastSavedBy](./fieldlastsavedby/) | تنفيذ حقل LASTSAVEDBY . |
-| [FieldLink](./fieldlink/) | تنفذ حقل LINK . |
-| [FieldListNum](./fieldlistnum/) | تنفذ حقل LISTNUM . |
-| [FieldMacroButton](./fieldmacrobutton/) | تنفذ حقل MACROBUTTON . |
-| [FieldMergeBarcode](./fieldmergebarcode/) | تنفيذ حقل MERGEBARCODE . |
-| [FieldMergeField](./fieldmergefield/) | تنفذ حقل MERGEFIELD . |
-| [FieldMergeRec](./fieldmergerec/) | تنفذ حقل MERGEREC . |
-| [FieldMergeSeq](./fieldmergeseq/) | تنفذ حقل MERGESEQ . |
-| [FieldNext](./fieldnext/) | تنفيذ الحقل التالي . |
-| [FieldNextIf](./fieldnextif/) | تنفيذ الحقل NEXTIF . |
-| [FieldNoteRef](./fieldnoteref/) | تنفيذ حقل NOTEREF . |
-| [FieldNumChars](./fieldnumchars/) | تنفذ الحقل NUMCHARS . |
-| [FieldNumPages](./fieldnumpages/) | ينفذ الحقل NUMPAGES . |
-| [FieldNumWords](./fieldnumwords/) | تنفذ الحقل NUMWORDS . |
-| [FieldOcx](./fieldocx/) | تنفذ حقل OCX . |
-| [FieldOptions](./fieldoptions/) | يمثل خيارات للتحكم في معالجة الحقول في المستند. |
-| [FieldPage](./fieldpage/) | تنفيذ حقل الصفحة . |
-| [FieldPageRef](./fieldpageref/) | تنفيذ حقل PAGEREF . |
-| [FieldPrint](./fieldprint/) | تنفيذ حقل الطباعة . |
-| [FieldPrintDate](./fieldprintdate/) | تنفذ حقل PRINTDATE . |
-| [FieldPrivate](./fieldprivate/) | تنفيذ الحقل الخاص . |
-| [FieldQuote](./fieldquote/) | يتم تنفيذ حقل QUOTE . |
-| [FieldRD](./fieldrd/) | تنفذ حقل RD . |
-| [FieldRef](./fieldref/) | تنفذ الحقل REF . |
-| [FieldRevNum](./fieldrevnum/) | تنفيذ حقل REVNUM . |
-| [FieldSaveDate](./fieldsavedate/) | تنفيذ حقل الحفظ . |
-| [FieldSection](./fieldsection/) | تنفيذ حقل القسم . |
-| [FieldSectionPages](./fieldsectionpages/) | ينفذ حقل SECTIONPAGES . |
+| [FieldAsk](./fieldask/) | ينفذ حقل ASK. |
+| [FieldAuthor](./fieldauthor/) | ينفذ حقل المؤلف. |
+| [FieldAutoNum](./fieldautonum/) | ينفذ الحقل AUTONUM. |
+| [FieldAutoNumLgl](./fieldautonumlgl/) | ينفذ الحقل AUTONUMLGL. |
+| [FieldAutoNumOut](./fieldautonumout/) | ينفذ حقل AUTONUMOUT. |
+| [FieldAutoText](./fieldautotext/) | ينفذ حقل النص التلقائي. |
+| [FieldAutoTextList](./fieldautotextlist/) | يطبق حقل AUTOTEXTLIST. |
+| [FieldBarcode](./fieldbarcode/) | ينفذ حقل الباركود. |
+| [FieldBibliography](./fieldbibliography/) | يطبق مجال الببليوغرافيا. |
+| [FieldBidiOutline](./fieldbidioutline/) | ينفذ حقل BIDIOUTLINE. |
+| [FieldBuilder](./fieldbuilder/) | إنشاء حقل من الرموز المميزة لرمز الحقل (الوسائط والمفاتيح). |
+| [FieldChar](./fieldchar/) | الفئة الأساسية للعقد التي تمثل أحرف الحقل في المستند. |
+| [FieldCitation](./fieldcitation/) | ينفذ حقل CITATION. |
+| [FieldCollection](./fieldcollection/) | مجموعة من[`Field`](../aspose.words.fields/field/) الكائنات التي تمثل الحقول في النطاق المحدد. |
+| [FieldComments](./fieldcomments/) | ينفذ حقل التعليقات. |
+| [FieldCompare](./fieldcompare/) | ينفذ حقل المقارنة. |
+| [FieldCreateDate](./fieldcreatedate/) | ينفذ الحقل CREATEDATE. |
+| [FieldData](./fielddata/) | ينفذ حقل البيانات. |
+| [FieldDatabase](./fielddatabase/) | ينفذ حقل قاعدة البيانات. |
+| [FieldDatabaseDataRow](./fielddatabasedatarow/) | يوفر بيانات لـ[`FieldDatabase`](../aspose.words.fields/fielddatabase/) النتيجة الميدانية. لطفا أنظرDataRow المثال. |
+| [FieldDatabaseDataTable](./fielddatabasedatatable/) | يوفر بيانات لـ[`FieldDatabase`](../aspose.words.fields/fielddatabase/) النتيجة الميدانية. لطفا أنظرDataTable المثال. |
+| [FieldDate](./fielddate/) | ينفذ حقل التاريخ. |
+| [FieldDde](./fielddde/) | ينفذ حقل DDE. |
+| [FieldDdeAuto](./fieldddeauto/) | يطبق حقل DDEAUTO. |
+| [FieldDisplayBarcode](./fielddisplaybarcode/) | ينفذ حقل DISPLAYBARCODE. |
+| [FieldDocProperty](./fielddocproperty/) | تنفيذ حقل DOCPROPERTY. |
+| [FieldDocVariable](./fielddocvariable/) | يطبق حقل DOCVARIABLE. |
+| [FieldEditTime](./fieldedittime/) | ينفذ حقل EDITTIME. |
+| [FieldEmbed](./fieldembed/) | ينفذ حقل EMBED. |
+| [FieldEnd](./fieldend/) | يمثل نهاية حقل Word في المستند. |
+| [FieldEQ](./fieldeq/) | ينفذ حقل EQ. |
+| [FieldFileName](./fieldfilename/) | ينفذ حقل FILENAME. |
+| [FieldFileSize](./fieldfilesize/) | ينفذ حقل FILESIZE. |
+| [FieldFillIn](./fieldfillin/) | ينفذ حقل FILLIN. |
+| [FieldFootnoteRef](./fieldfootnoteref/) | ينفذ حقل FOOTNOTEREF. |
+| [FieldFormat](./fieldformat/) | يوفر الوصول المكتوب إلى الحقل الرقمي والتاريخ والوقت والتنسيق العام. |
+| [FieldFormCheckBox](./fieldformcheckbox/) | تنفيذ حقل FORMCHECKBOX. |
+| [FieldFormDropDown](./fieldformdropdown/) | ينفذ حقل FORMDROPDOWN. |
+| [FieldFormText](./fieldformtext/) | تنفيذ حقل FORMTEXT. |
+| [FieldFormula](./fieldformula/) | يطبق حقل = (الصيغة). |
+| [FieldGlossary](./fieldglossary/) | ينفذ حقل المسرد. |
+| [FieldGoToButton](./fieldgotobutton/) | ينفذ حقل GOTOBUTTON. |
+| [FieldGreetingLine](./fieldgreetingline/) | ينفذ حقل GREETINGLINE. |
+| [FieldHyperlink](./fieldhyperlink/) | يطبق حقل HYPERLINK |
+| [FieldIf](./fieldif/) | ينفذ حقل IF. |
+| [FieldImport](./fieldimport/) | ينفذ حقل الاستيراد. |
+| [FieldInclude](./fieldinclude/) | ينفذ الحقل INCLUDE. |
+| [FieldIncludePicture](./fieldincludepicture/) | ينفذ حقل INCLUDEPICTURE. |
+| [FieldIncludeText](./fieldincludetext/) | ينفذ حقل INCLUDETEXT. |
+| [FieldIndex](./fieldindex/) | ينفذ حقل INDEX. |
+| [FieldInfo](./fieldinfo/) | ينفذ حقل INFO. |
+| [FieldKeywords](./fieldkeywords/) | ينفذ حقل الكلمات الرئيسية. |
+| [FieldLastSavedBy](./fieldlastsavedby/) | يطبق الحقل LASTSAVEDBY. |
+| [FieldLink](./fieldlink/) | ينفذ حقل LINK. |
+| [FieldListNum](./fieldlistnum/) | ينفذ حقل LISTNUM. |
+| [FieldMacroButton](./fieldmacrobutton/) | ينفذ حقل MACROBUTTON. |
+| [FieldMergeBarcode](./fieldmergebarcode/) | ينفذ حقل MERGEBARCODE. |
+| [FieldMergeField](./fieldmergefield/) | ينفذ حقل MERGEFIELD. |
+| [FieldMergeRec](./fieldmergerec/) | ينفذ حقل MERGEREC. |
+| [FieldMergeSeq](./fieldmergeseq/) | ينفذ حقل MERGESEQ. |
+| [FieldNext](./fieldnext/) | ينفذ الحقل التالي. |
+| [FieldNextIf](./fieldnextif/) | ينفذ الحقل NEXTIF. |
+| [FieldNoteRef](./fieldnoteref/) | ينفذ حقل NOTREF. |
+| [FieldNumChars](./fieldnumchars/) | ينفذ حقل NUMCHARS. |
+| [FieldNumPages](./fieldnumpages/) | ينفذ حقل NUMPAGES. |
+| [FieldNumWords](./fieldnumwords/) | يطبق الحقل NUMWORDS. |
+| [FieldOcx](./fieldocx/) | ينفذ حقل OCX. |
+| [FieldOptions](./fieldoptions/) | يمثل خيارات للتحكم في المعالجة الميدانية في المستند. |
+| [FieldPage](./fieldpage/) | ينفذ حقل PAGE. |
+| [FieldPageRef](./fieldpageref/) | ينفذ حقل PAGEREF. |
+| [FieldPrint](./fieldprint/) | ينفذ حقل الطباعة. |
+| [FieldPrintDate](./fieldprintdate/) | ينفذ حقل PRINTDATE. |
+| [FieldPrivate](./fieldprivate/) | ينفذ الحقل الخاص. |
+| [FieldQuote](./fieldquote/) | ينفذ حقل عرض الأسعار. |
+| [FieldRD](./fieldrd/) | ينفذ مجال RD. |
+| [FieldRef](./fieldref/) | ينفذ حقل REF. |
+| [FieldRevNum](./fieldrevnum/) | ينفذ حقل REVNUM. |
+| [FieldSaveDate](./fieldsavedate/) | تنفيذ الحقل "حفظ". |
+| [FieldSection](./fieldsection/) | ينفذ حقل القسم. |
+| [FieldSectionPages](./fieldsectionpages/) | ينفذ حقل SECTIONPAGES. |
 | [FieldSeparator](./fieldseparator/) | يمثل فاصل حقل Word الذي يفصل رمز الحقل عن نتيجة الحقل. |
-| [FieldSeq](./fieldseq/) | تنفذ حقل SEQ . |
-| [FieldSet](./fieldset/) | تنفيذ حقل SET . |
-| [FieldShape](./fieldshape/) | تنفيذ حقل الشكل . |
-| [FieldSkipIf](./fieldskipif/) | يطبق حقل SKIPIF . |
-| [FieldStart](./fieldstart/) | يمثل بداية حقل Word في مستند. |
-| [FieldStyleRef](./fieldstyleref/) | تنفيذ حقل STYLEREF . |
-| [FieldSubject](./fieldsubject/) | ينفذ الحقل SUBJECT . |
-| [FieldSymbol](./fieldsymbol/) | تنفيذ حقل SYMBOL . |
-| [FieldTA](./fieldta/) | تنفيذ حقل TA . |
-| [FieldTC](./fieldtc/) | تنفذ حقل TC . |
-| [FieldTemplate](./fieldtemplate/) | تنفيذ حقل النموذج . |
-| [FieldTime](./fieldtime/) | تنفيذ حقل الوقت . |
-| [FieldTitle](./fieldtitle/) | تنفيذ حقل العنوان . |
-| [FieldToa](./fieldtoa/) | تنفذ حقل TOA . |
-| [FieldToc](./fieldtoc/) | ينفذ حقل جدول المحتويات . |
+| [FieldSeq](./fieldseq/) | ينفذ حقل SEQ. |
+| [FieldSet](./fieldset/) | ينفذ حقل SET. |
+| [FieldShape](./fieldshape/) | ينفذ حقل الشكل. |
+| [FieldSkipIf](./fieldskipif/) | تنفيذ حقل SKIPIF. |
+| [FieldStart](./fieldstart/) | يمثل بداية حقل Word في المستند. |
+| [FieldStyleRef](./fieldstyleref/) | ينفذ حقل STYLEREF. |
+| [FieldSubject](./fieldsubject/) | ينفذ حقل SUBJECT. |
+| [FieldSymbol](./fieldsymbol/) | ينفذ حقل SYMBOL. |
+| [FieldTA](./fieldta/) | ينفذ حقل TA. |
+| [FieldTC](./fieldtc/) | ينفذ مجال TC. |
+| [FieldTemplate](./fieldtemplate/) | ينفذ حقل TEMPLATE. |
+| [FieldTime](./fieldtime/) | ينفذ حقل الوقت. |
+| [FieldTitle](./fieldtitle/) | ينفذ حقل TITLE. |
+| [FieldToa](./fieldtoa/) | ينفذ حقل TOA. |
+| [FieldToc](./fieldtoc/) | ينفذ حقل جدول المحتويات. |
 | [FieldUnknown](./fieldunknown/) | تنفيذ حقل غير معروف أو غير معروف. |
-| [FieldUserAddress](./fielduseraddress/) | تنفذ حقل USERADDRESS . |
-| [FieldUserInitials](./fielduserinitials/) | تنفذ حقل USERINITIALS . |
-| [FieldUserName](./fieldusername/) | ينفذ حقل اسم المستخدم . |
-| [FieldXE](./fieldxe/) | تنفذ حقل XE . |
-| [FormField](./formfield/) | يمثل حقل نموذج واحد . |
-| [FormFieldCollection](./formfieldcollection/) | مجموعة من **حقل النموذج** كائنات تمثل جميع حقول النموذج في نطاق . |
-| [GeneralFormatCollection](./generalformatcollection/) | يمثل مجموعة مطبوعة من التنسيقات العامة. |
-| [MergeFieldImageDimension](./mergefieldimagedimension/) | يمثل بُعد الصورة (أي العرض أو الارتفاع) المستخدم عبر عملية دمج المراسلات. |
-| [ToaCategories](./toacategories/) | يمثل جدول فئات المصادر . |
+| [FieldUpdatingProgressArgs](./fieldupdatingprogressargs/) | يوفر بيانات لحدث تقدم التحديث الميداني. |
+| [FieldUserAddress](./fielduseraddress/) | ينفذ حقل USERADDRESS. |
+| [FieldUserInitials](./fielduserinitials/) | ينفذ حقل USERINITIALS. |
+| [FieldUserName](./fieldusername/) | ينفذ حقل USERNAME. |
+| [FieldXE](./fieldxe/) | ينفذ حقل XE. |
+| [FormField](./formfield/) | يمثل حقل نموذج واحد. |
+| [FormFieldCollection](./formfieldcollection/) | مجموعة من[`FormField`](../aspose.words.fields/formfield/) الكائنات التي تمثل جميع حقول النموذج في النطاق. |
+| [GeneralFormatCollection](./generalformatcollection/) | يمثل مجموعة مكتوبة من التنسيقات العامة. |
+| [MergeFieldImageDimension](./mergefieldimagedimension/) | يمثل بُعد الصورة (أي العرض أو الارتفاع) المستخدم عبر عملية دمج البريد. |
+| [ToaCategories](./toacategories/) | يمثل جدول فئات السلطات. |
 | [UserInformation](./userinformation/) | يحدد معلومات حول المستخدم. |
 ## واجهات
 
 | واجهه المستخدم | وصف |
 | --- | --- |
 | [IBarcodeGenerator](./ibarcodegenerator/) | الواجهة العامة لمولد الباركود المخصص. يجب أن يتم التنفيذ من قبل المستخدم. |
-| [IComparisonExpressionEvaluator](./icomparisonexpressionevaluator/) | عند التنفيذ ، يسمح بتجاوز تقييم تعبيرات المقارنة الافتراضية لـ[`FieldIf`](../aspose.words.fields/fieldif/) و[`FieldCompare`](../aspose.words.fields/fieldcompare/) الحقول. |
-| [IFieldDatabaseProvider](./ifielddatabaseprovider/) | قم بتنفيذ هذه الواجهة لتوفير بيانات لملف[`FieldDatabase`](../aspose.words.fields/fielddatabase/) الحقل عند تحديثه. |
+| [IBibliographyStylesProvider](./ibibliographystylesprovider/) | قم بتنفيذ هذه الواجهة لتوفير نمط المراجع لـ [`FieldBibliography`](../aspose.words.fields/fieldbibliography/) و[`FieldCitation`](../aspose.words.fields/fieldcitation/) الحقول عند تحديثها. |
+| [IComparisonExpressionEvaluator](./icomparisonexpressionevaluator/) | عند التنفيذ، يسمح بتجاوز تقييم تعبيرات المقارنة الافتراضية لـ[`FieldIf`](../aspose.words.fields/fieldif/) و[`FieldCompare`](../aspose.words.fields/fieldcompare/) الحقول. |
+| [IFieldDatabaseProvider](./ifielddatabaseprovider/) | قم بتنفيذ هذه الواجهة لتوفير بيانات لـ[`FieldDatabase`](../aspose.words.fields/fielddatabase/) الحقل عند تحديثه. |
 | [IFieldResultFormatter](./ifieldresultformatter/) | قم بتنفيذ هذه الواجهة إذا كنت تريد التحكم في كيفية تنسيق نتيجة الحقل. |
-| [IFieldUpdateCultureProvider](./ifieldupdatecultureprovider/) | عند تنفيذه ، يوفر ملفCultureInfo الكائن الذي يجب استخدامه أثناء تحديث حقل معين. |
-| [IFieldUpdatingCallback](./ifieldupdatingcallback/) | قم بتنفيذ هذه الواجهة إذا كنت تريد استدعاء الأساليب المخصصة الخاصة بك أثناء تحديث الحقل. |
+| [IFieldUpdateCultureProvider](./ifieldupdatecultureprovider/) | عند تنفيذه، يوفر ملفCultureInfo الكائن الذي يجب استخدامه أثناء تحديث حقل معين. |
+| [IFieldUpdatingCallback](./ifieldupdatingcallback/) | قم بتنفيذ هذه الواجهة إذا كنت تريد أن يتم استدعاء الأساليب المخصصة الخاصة بك أثناء التحديث الميداني. |
+| [IFieldUpdatingProgressCallback](./ifieldupdatingprogresscallback/) | قم بتنفيذ هذه الواجهة إذا كنت تريد تتبع تقدم التحديث الميداني. |
 | [IFieldUserPromptRespondent](./ifielduserpromptrespondent/) | يمثل المستجيب لمطالبات المستخدم أثناء التحديث الميداني. |
 ## تعداد
 
 | تعداد | وصف |
 | --- | --- |
-| [FieldIfComparisonResult](./fieldifcomparisonresult/) | تحديد نتيجة تقييم حالة الحقل IF . |
-| [FieldIndexFormat](./fieldindexformat/) | تحديد تنسيق ملف[`FieldIndex`](../aspose.words.fields/fieldindex/) الحقول في المستند. |
-| [FieldType](./fieldtype/) | تحديد أنواع حقول Microsoft Word . |
-| [FieldUpdateCultureSource](./fieldupdateculturesource/) | يشير إلى الثقافة التي يجب استخدامها أثناء التحديث الميداني. |
-| [GeneralFormat](./generalformat/) | يحدد تنسيقًا عامًا يتم تطبيقه على نتيجة رقمية أو نصية أو أي حقل . قد يحتوي الحقل على مجموعة من التنسيقات العامة . |
+| [FieldIfComparisonResult](./fieldifcomparisonresult/) | يحدد نتيجة تقييم حالة حقل IF. |
+| [FieldIndexFormat](./fieldindexformat/) | يحدد التنسيق لـ[`FieldIndex`](../aspose.words.fields/fieldindex/) الحقول في مستند. |
+| [FieldType](./fieldtype/) | يحدد أنواع حقول Microsoft Word. |
+| [FieldUpdateCultureSource](./fieldupdateculturesource/) | يشير إلى الثقافة التي سيتم استخدامها أثناء التحديث الميداني. |
+| [GeneralFormat](./generalformat/) | يحدد تنسيقًا عامًا يتم تطبيقه على نتيجة رقمية أو نصية أو أي حقل. قد يحتوي الحقل على مجموعة من التنسيقات العامة. |
 | [MergeFieldImageDimensionUnit](./mergefieldimagedimensionunit/) | يحدد وحدة أبعاد الصورة (أي العرض أو الارتفاع) المستخدمة عبر عملية دمج البريد. |
-| [TextFormFieldType](./textformfieldtype/) | يحدد نوع حقل نموذج النص. |
+| [TextFormFieldType](./textformfieldtype/) | يحدد نوع حقل النموذج النصي. |
 
 

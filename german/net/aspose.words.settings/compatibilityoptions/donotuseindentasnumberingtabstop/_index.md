@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.DoNotUseIndentAsNumberingTabStop
 second_title: Aspose.Words für .NET-API-Referenz
-description: CompatibilityOptions eigendom. Hängenden Einzug beim Erstellen von Tabstopps nach der Nummerierung ignorieren.
+description: CompatibilityOptions eigendom. Hängenden Einzug beim Erstellen eines Tabstopps nach der Nummerierung ignorieren.
 type: docs
 weight: 220
 url: /de/net/aspose.words.settings/compatibilityoptions/donotuseindentasnumberingtabstop/
 ---
 ## CompatibilityOptions.DoNotUseIndentAsNumberingTabStop property
 
-Hängenden Einzug beim Erstellen von Tabstopps nach der Nummerierung ignorieren.
+Hängenden Einzug beim Erstellen eines Tabstopps nach der Nummerierung ignorieren.
 
 ```csharp
 public bool DoNotUseIndentAsNumberingTabStop { get; set; }

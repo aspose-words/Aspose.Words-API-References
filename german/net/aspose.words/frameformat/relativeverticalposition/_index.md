@@ -1,14 +1,14 @@
 ---
 title: FrameFormat.RelativeVerticalPosition
 second_title: Aspose.Words für .NET-API-Referenz
-description: FrameFormat eigendom. Ruft die relative vertikale Position eines Rahmens ab.
+description: FrameFormat eigendom. Ermittelt die relative vertikale Position eines Frames.
 type: docs
 weight: 80
 url: /de/net/aspose.words/frameformat/relativeverticalposition/
 ---
 ## FrameFormat.RelativeVerticalPosition property
 
-Ruft die relative vertikale Position eines Rahmens ab.
+Ermittelt die relative vertikale Position eines Frames.
 
 ```csharp
 public RelativeVerticalPosition RelativeVerticalPosition { get; }
@@ -16,7 +16,7 @@ public RelativeVerticalPosition RelativeVerticalPosition { get; }
 
 ### Beispiele
 
-Zeigt, wie Informationen zu Formatierungseigenschaften von Absätzen abgerufen werden, die Rahmen sind.
+Zeigt, wie Sie Informationen zu Formatierungseigenschaften von Absätzen erhalten, die Rahmen sind.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraph frame.docx");

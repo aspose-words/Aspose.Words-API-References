@@ -3,12 +3,14 @@ title: Class HeaderFooter
 second_title: Справочник по API Aspose.Words для .NET
 description: Aspose.Words.HeaderFooter сорт. Представляет контейнер для текста верхнего или нижнего колонтитула раздела.
 type: docs
-weight: 2920
+weight: 3100
 url: /ru/net/aspose.words/headerfooter/
 ---
 ## HeaderFooter class
 
 Представляет контейнер для текста верхнего или нижнего колонтитула раздела.
+
+Чтобы узнать больше, посетите[Работа с верхними и нижними колонтитулами](https://docs.aspose.com/words/net/working-with-headers-and-footers/) статья документации.
 
 ```csharp
 public class HeaderFooter : Story
@@ -24,69 +26,70 @@ public class HeaderFooter : Story
 
 | Имя | Описание |
 | --- | --- |
-| [ChildNodes](../../aspose.words/compositenode/childnodes/) { get; } | Получает все непосредственные дочерние узлы этого узла. |
 | [Count](../../aspose.words/compositenode/count/) { get; } | Получает количество непосредственных дочерних элементов этого узла. |
-| [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Указывает идентификатор пользовательского узла. |
+| [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Указывает пользовательский идентификатор узла. |
 | virtual [Document](../../aspose.words/node/document/) { get; } | Получает документ, которому принадлежит этот узел. |
-| [FirstChild](../../aspose.words/compositenode/firstchild/) { get; } | Получает первого потомка узла. |
-| [FirstParagraph](../../aspose.words/story/firstparagraph/) { get; } | Получает первый абзац в истории. |
-| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Возвращает true, если у этого узла есть дочерние узлы. |
-| [HeaderFooterType](../../aspose.words/headerfooter/headerfootertype/) { get; } | Получает тип этого верхнего/нижнего колонтитула. |
-| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Возвращает true, так как этот узел может иметь дочерние узлы. |
-| [IsHeader](../../aspose.words/headerfooter/isheader/) { get; } | Истинно, если это **Верхний колонтитул** объект является заголовком. |
+| [FirstChild](../../aspose.words/compositenode/firstchild/) { get; } | Получает первого дочернего элемента узла. |
+| [FirstParagraph](../../aspose.words/story/firstparagraph/) { get; } | Получает первый абзац статьи. |
+| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Возвращает`истинный` если у этого узла есть дочерние узлы. |
+| [HeaderFooterType](../../aspose.words/headerfooter/headerfootertype/) { get; } | Получает тип верхнего/нижнего колонтитула. |
+| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Возвращает`истинный` поскольку этот узел может иметь дочерние узлы. |
+| [IsHeader](../../aspose.words/headerfooter/isheader/) { get; } | Верно, если это`HeaderFooter` объект является заголовком. |
 | [IsLinkedToPrevious](../../aspose.words/headerfooter/islinkedtoprevious/) { get; set; } | Истинно, если этот верхний или нижний колонтитул связан с соответствующим верхним или нижним колонтитулом в предыдущем разделе. |
-| [LastChild](../../aspose.words/compositenode/lastchild/) { get; } | Получает последний дочерний элемент узла. |
-| [LastParagraph](../../aspose.words/story/lastparagraph/) { get; } | Получает последний абзац в истории. |
+| [LastChild](../../aspose.words/compositenode/lastchild/) { get; } | Получает последнего дочернего узла узла. |
+| [LastParagraph](../../aspose.words/story/lastparagraph/) { get; } | Получает последний абзац истории. |
 | [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Получает узел, следующий сразу за этим узлом. |
-| override [NodeType](../../aspose.words/headerfooter/nodetype/) { get; } | Возвращает **NodeType.HeaderFooter** . |
-| [Paragraphs](../../aspose.words/story/paragraphs/) { get; } | Получает набор абзацев, которые являются непосредственными дочерними элементами статьи. |
+| override [NodeType](../../aspose.words/headerfooter/nodetype/) { get; } | ВозвращаетHeaderFooter . |
+| [Paragraphs](../../aspose.words/story/paragraphs/) { get; } | Получает коллекцию абзацев, которые являются непосредственными дочерними элементами истории. |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Получает непосредственного родителя этого узла. |
-| [ParentSection](../../aspose.words/headerfooter/parentsection/) { get; } | Получает родительский раздел этой истории. |
+| [ParentSection](../../aspose.words/headerfooter/parentsection/) { get; } | Получает родительский раздел этой статьи. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Получает узел, непосредственно предшествующий этому узлу. |
-| [Range](../../aspose.words/node/range/) { get; } | Возвращает **Диапазон** объект, представляющий часть документа, содержащегося в этом узле. |
+| [Range](../../aspose.words/node/range/) { get; } | Возвращает[`Range`](../range/) объект, представляющий часть документа, содержащуюся в этом узле. |
 | [StoryType](../../aspose.words/story/storytype/) { get; } | Получает тип этой истории. |
-| [Tables](../../aspose.words/story/tables/) { get; } | Получает набор таблиц, которые являются непосредственными дочерними элементами истории. |
+| [Tables](../../aspose.words/story/tables/) { get; } | Получает коллекцию таблиц, которые являются непосредственными дочерними элементами истории. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
 | override [Accept](../../aspose.words/headerfooter/accept/)(DocumentVisitor) | Принимает посетителя. |
-| [AppendChild](../../aspose.words/compositenode/appendchild/)(Node) | Добавляет указанный узел в конец списка дочерних узлов для этого узла. |
-| [AppendParagraph](../../aspose.words/story/appendparagraph/)(string) | Быстрый метод, создающий[`Paragraph`](../paragraph/) объект с необязательным текстом и добавляет его в конец этого объекта. |
+| override [AcceptEnd](../../aspose.words/headerfooter/acceptend/)(DocumentVisitor) |  |
+| override [AcceptStart](../../aspose.words/headerfooter/acceptstart/)(DocumentVisitor) |  |
+| [AppendChild&lt;T&gt;](../../aspose.words/compositenode/appendchild/)(T) |  |
+| [AppendParagraph](../../aspose.words/story/appendparagraph/)(string) | Ярлык метода, создающий[`Paragraph`](../paragraph/) объект с необязательным текстом и добавляет его в конец этого объекта. |
 | [Clone](../../aspose.words/node/clone/)(bool) | Создает дубликат узла. |
-| [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Зарезервировано для системного использования. IXPathNavigable. |
+| [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Создает навигатор, который можно использовать для перемещения и чтения узлов. |
 | [DeleteShapes](../../aspose.words/story/deleteshapes/)() | Удаляет все фигуры из текста этой истории. |
 | [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Получает первого предка указанного[`NodeType`](../nodetype/) . |
 | [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Получает первого предка указанного типа объекта. |
 | [GetChild](../../aspose.words/compositenode/getchild/)(NodeType, int, bool) | Возвращает N-й дочерний узел, соответствующий указанному типу. |
-| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(NodeType, bool) | Возвращает динамическую коллекцию дочерних узлов, соответствующих указанному типу. |
+| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(NodeType, bool) | Возвращает живую коллекцию дочерних узлов, соответствующих указанному типу. |
 | [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() | Обеспечивает поддержку для каждой итерации стиля над дочерними узлами этого узла. |
 | override [GetText](../../aspose.words/compositenode/gettext/)() | Получает текст этого узла и всех его дочерних элементов. |
 | [IndexOf](../../aspose.words/compositenode/indexof/)(Node) | Возвращает индекс указанного дочернего узла в массиве дочерних узлов. |
-| [InsertAfter](../../aspose.words/compositenode/insertafter/)(Node, Node) | Вставляет указанный узел сразу после указанного ссылочного узла. |
-| [InsertBefore](../../aspose.words/compositenode/insertbefore/)(Node, Node) | Вставляет указанный узел непосредственно перед указанным ссылочным узлом. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Получает следующий узел в соответствии с алгоритмом обхода дерева предварительного порядка. |
-| [PrependChild](../../aspose.words/compositenode/prependchild/)(Node) | Добавляет указанный узел в начало списка дочерних узлов для этого узла. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Получает предыдущий узел в соответствии с алгоритмом обхода дерева предварительного порядка. |
-| [Remove](../../aspose.words/node/remove/)() | Удаляет себя из родителя. |
+| [InsertAfter&lt;T&gt;](../../aspose.words/compositenode/insertafter/)(T, Node) |  |
+| [InsertBefore&lt;T&gt;](../../aspose.words/compositenode/insertbefore/)(T, Node) |  |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Получает следующий узел в соответствии с алгоритмом обхода дерева предварительного заказа. |
+| [PrependChild&lt;T&gt;](../../aspose.words/compositenode/prependchild/)(T) |  |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Получает предыдущий узел в соответствии с алгоритмом обхода дерева предварительного заказа. |
+| [Remove](../../aspose.words/node/remove/)() | Удаляет себя от родителя. |
 | [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | Удаляет все дочерние узлы текущего узла. |
-| [RemoveChild](../../aspose.words/compositenode/removechild/)(Node) | Удаляет указанный дочерний узел. |
-| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Удаляет все[`SmartTag`](../../aspose.words.markup/smarttag/) узлы-потомки текущего узла. |
+| [RemoveChild&lt;T&gt;](../../aspose.words/compositenode/removechild/)(T) |  |
+| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Удаляет все[`SmartTag`](../../aspose.words.markup/smarttag/)узлы-потомки текущего узла. |
 | [SelectNodes](../../aspose.words/compositenode/selectnodes/)(string) | Выбирает список узлов, соответствующих выражению XPath. |
-| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | Выбирает первый узел, соответствующий выражению XPath. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Экспортирует содержимое узла в строку в указанном формате. |
+| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | Выбирает первый[`Node`](../node/) которое соответствует выражению XPath. |
+| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Экспортирует содержимое узла в строку указанного формата. |
 | [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Экспортирует содержимое узла в строку, используя указанные параметры сохранения. |
 
 ### Примечания
 
-**Верхний колонтитул** может содержать **Параграф** а также **Стол** дочерние узлы.
+`HeaderFooter` может содержать[`Paragraph`](../paragraph/) и[`Стол`](../../aspose.words.tables/table/) дочерние узлы.
 
-**Верхний колонтитул** является узлом уровня раздела и может быть только потомком **Раздел** . Может быть только один **Верхний колонтитул** или каждый[`HeaderFooterType`](./headerfootertype/) в **Раздел**.
+`HeaderFooter` является узлом уровня раздела и может быть только дочерним элементом[`Section`](../section/) . Может быть только один`HeaderFooter` каждого[`HeaderFooterType`](./headerfootertype/) в[`Section`](../section/).
 
-Если **Раздел** не имеет **Верхний колонтитул** определенного типа или  **Верхний колонтитул** не имеет дочерних узлов, этот верхний/нижний колонтитул считается связанным с верхним/нижним колонтитулом того же типа, что и предыдущий раздел в Microsoft Word.
+Если[`Section`](../section/) не имеет`HeaderFooter` определенного типа или `HeaderFooter`не имеет дочерних узлов, этот верхний/нижний колонтитул считается связанным с верхним/нижним колонтитулом того же типа из предыдущего раздела в Microsoft Word.
 
-Когда **Верхний колонтитул** содержит по крайней мере один **Параграф**, он больше не считается связанным с предыдущим в Microsoft Word.
+Когда`HeaderFooter` содержит хотя бы один[`Paragraph`](../paragraph/), он больше не считается связанным с предыдущим в Microsoft Word.
 
 ### Примеры
 
@@ -115,19 +118,19 @@ doc.Save(ArtifactsDir + "HeaderFooter.ReplaceText.docx");
 ```csharp
 Document doc = new Document(MyDir + "Header and footer types.docx");
 
-// Перебираем каждый раздел и удаляем нижние колонтитулы всех видов.
+// Перебираем каждый раздел и удаляем все виды нижних колонтитулов.
 foreach (Section section in doc.OfType<Section>())
 {
-    // Существует три типа нижнего и верхнего колонтитула.
-    // 1 - «Первый» верхний/нижний колонтитул, который появляется только на первой странице раздела.
+    // Существует три типа нижнего колонтитула и заголовка.
+    // 1 — «Первый» верхний/нижний колонтитул, который отображается только на первой странице раздела.
     HeaderFooter footer = section.HeadersFooters[HeaderFooterType.FooterFirst];
     footer?.Remove();
 
-    // 2 - «Основной» верхний/нижний колонтитул, который появляется на нечетных страницах.
+    // 2 — «Основной» верхний/нижний колонтитул, который появляется на нечетных страницах.
     footer = section.HeadersFooters[HeaderFooterType.FooterPrimary];
     footer?.Remove();
 
-     // 3 - "Четный" верхний/нижний колонтитул, который появляется на четных страницах.
+     // 3 — «Четный» верхний/нижний колонтитул, который появляется на четных страницах.
     footer = section.HeadersFooters[HeaderFooterType.FooterEven];
     footer?.Remove();
 
@@ -143,7 +146,7 @@ doc.Save(ArtifactsDir + "HeaderFooter.RemoveFooters.docx");
 Document doc = new Document();
 
 // Создаем заголовок и добавляем к нему абзац. Текст в этом абзаце
-// появится в верхней части каждой страницы этого раздела над основным текстом.
+// появится вверху каждой страницы этого раздела, над основным текстом.
 HeaderFooter header = new HeaderFooter(doc, HeaderFooterType.HeaderPrimary);
 doc.FirstSection.HeadersFooters.Add(header);
 

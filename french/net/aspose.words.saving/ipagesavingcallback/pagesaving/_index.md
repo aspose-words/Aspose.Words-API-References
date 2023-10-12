@@ -1,14 +1,14 @@
 ---
 title: IPageSavingCallback.PageSaving
 second_title: Référence de l'API Aspose.Words pour .NET
-description: IPageSavingCallback méthode. Appelé lorsque Aspose.Words enregistre une page distincte dans des formats de page fixes.
+description: IPageSavingCallback méthode. Appelé lorsquAspose.Words enregistre une page distincte dans des formats de page fixes.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.saving/ipagesavingcallback/pagesaving/
 ---
 ## IPageSavingCallback.PageSaving method
 
-Appelé lorsque Aspose.Words enregistre une page distincte dans des formats de page fixes.
+Appelé lorsqu'Aspose.Words enregistre une page distincte dans des formats de page fixes.
 
 ```csharp
 public void PageSaving(PageSavingArgs args)
@@ -31,12 +31,12 @@ public void PageFileNames()
     builder.InsertBreak(BreakType.PageBreak);
     builder.Writeln("Page 3.");
 
-    // Crée un objet "HtmlFixedSaveOptions", que nous pouvons passer à la méthode "Save" du document
+    // Crée un objet "HtmlFixedSaveOptions", que l'on peut passer à la méthode "Save" du document
     // pour modifier la façon dont nous convertissons le document en HTML.
     HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions();
 
-    // Nous enregistrerons chaque page de ce document dans un fichier HTML séparé dans le système de fichiers local.
-    // Définir un rappel qui nous permet de nommer chaque document HTML de sortie.
+    // Nous enregistrerons chaque page de ce document dans un fichier HTML distinct dans le système de fichiers local.
+    // Définissez un rappel qui nous permet de nommer chaque document HTML de sortie.
     htmlFixedSaveOptions.PageSavingCallback = new CustomFileNamePageSavingCallback();
 
     doc.Save(ArtifactsDir + "SavingCallback.PageFileNames.html", htmlFixedSaveOptions);
@@ -57,10 +57,10 @@ private class CustomFileNamePageSavingCallback : IPageSavingCallback
         string outFileName = $"{ArtifactsDir}SavingCallback.PageFileNames.Page_{args.PageIndex}.html";
 
         // Vous trouverez ci-dessous deux façons de spécifier où Aspose.Words enregistrera chaque page du document.
-        // 1 - Définissez un nom de fichier pour le fichier de page de sortie :
+        // 1 - Définissez un nom de fichier pour le fichier d'échange de sortie :
         args.PageFileName = outFileName;
 
-        // 2 - Créez un flux personnalisé pour le fichier de page de sortie :
+        // 2 - Créez un flux personnalisé pour le fichier d'échange de sortie :
         args.PageStream = new FileStream(outFileName, FileMode.Create);
 
         Assert.False(args.KeepPageStreamOpen);

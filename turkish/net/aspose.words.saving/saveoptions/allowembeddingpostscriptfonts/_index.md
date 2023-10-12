@@ -1,14 +1,14 @@
 ---
 title: SaveOptions.AllowEmbeddingPostScriptFonts
 second_title: Aspose.Words for .NET API Referansı
-description: SaveOptions mülk. TrueType yazı tiplerini bir belgeye gömerken PostScript anahatlarıyla yazı tiplerinin gömülmesine izin verilip verilmeyeceğini belirten bir boole değeri alır veya ayarlar. Varsayılan değer şudur yanlış .
+description: SaveOptions mülk. Kaydedildikten sonra TrueType yazı tiplerini bir belgeye gömerken PostScript ana hatlarıyla yazı tiplerinin gömülmesine izin verilip verilmeyeceğini belirten bir boole değeri alır veya ayarlar. Varsayılan değerYANLIŞ .
 type: docs
 weight: 20
 url: /tr/net/aspose.words.saving/saveoptions/allowembeddingpostscriptfonts/
 ---
 ## SaveOptions.AllowEmbeddingPostScriptFonts property
 
-TrueType yazı tiplerini bir belgeye gömerken PostScript anahatlarıyla yazı tiplerinin gömülmesine izin verilip verilmeyeceğini belirten bir boole değeri alır veya ayarlar. Varsayılan değer şudur: **yanlış** .
+Kaydedildikten sonra TrueType yazı tiplerini bir belgeye gömerken PostScript ana hatlarıyla yazı tiplerinin gömülmesine izin verilip verilmeyeceğini belirten bir boole değeri alır veya ayarlar. Varsayılan değer:`YANLIŞ` .
 
 ```csharp
 public bool AllowEmbeddingPostScriptFonts { get; set; }
@@ -16,9 +16,9 @@ public bool AllowEmbeddingPostScriptFonts { get; set; }
 
 ### Notlar
 
-Word, PostScript yazı tiplerini gömmez, ancak bu türde gömülü yazı tiplerine sahip belgeleri açabilir.
+Word'ün PostScript yazı tiplerini katıştırmadığını ancak bu türden katıştırılmış yazı tiplerine sahip belgeleri açabileceğini unutmayın.
 
-Bu seçenek yalnızca şu durumlarda çalışır:[`EmbedTrueTypeFonts`](../../../aspose.words.fonts/fontinfocollection/embedtruetypefonts/) the [`FontInfos`](../../../aspose.words/documentbase/fontinfos/) özellik olarak ayarlandı`doğru`.
+Bu seçenek yalnızca şu durumlarda çalışır:[`EmbedTrueTypeFonts`](../../../aspose.words.fonts/fontinfocollection/embedtruetypefonts/) of the [`FontInfos`](../../../aspose.words/documentbase/fontinfos/) özellik şu şekilde ayarlandı:`doğru`.
 
 ### Örnekler
 
@@ -31,16 +31,16 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Font.Name = "PostScriptFont";
 builder.Writeln("Some text with PostScript font.");
 
-// Belgede kullanmak için yazı tipini PostScript ile yükleyin.
+// Belgede kullanılacak yazı tipini PostScript ile yükleyin.
 MemoryFontSource otf = new MemoryFontSource(File.ReadAllBytes(FontsDir + "AllegroOpen.otf"));
 doc.FontSettings = new FontSettings();
 doc.FontSettings.SetFontsSources(new FontSourceBase[] { otf });
 
-// TrueType yazı tiplerini göm.
+// TrueType yazı tiplerini gömün.
 doc.FontInfos.EmbedTrueTypeFonts = true;
 
-// TrueType yazı tiplerini gömerken PostScript yazı tiplerini gömmeye izin ver.
-// Microsoft Word, PostScript yazı tiplerini gömmez, ancak bu tür gömülü yazı tiplerine sahip belgeleri açabilir.
+// TrueType yazı tiplerini gömerken PostScript yazı tiplerinin de gömülmesine izin ver.
+// Microsoft Word, PostScript yazı tiplerini gömmez ancak bu türden gömülü yazı tiplerine sahip belgeleri açabilir.
 SaveOptions saveOptions = SaveOptions.CreateSaveOptions(SaveFormat.Docx);
 saveOptions.AllowEmbeddingPostScriptFonts = true;
 

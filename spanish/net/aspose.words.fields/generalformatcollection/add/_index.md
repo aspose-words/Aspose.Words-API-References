@@ -26,7 +26,7 @@ Muestra cómo dar formato a los resultados de los campos.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Use un generador de documentos para insertar un campo que muestre un resultado sin formato aplicado.
+// Utilice un generador de documentos para insertar un campo que muestre un resultado sin formato aplicado.
 Field field = builder.InsertField("= 2 + 3");
 
 Assert.AreEqual("= 2 + 3", field.GetFieldCode());

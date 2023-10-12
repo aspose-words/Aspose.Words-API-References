@@ -1,14 +1,14 @@
 ---
 title: HeaderFooter.IsHeader
 second_title: Aspose.Words لمراجع .NET API
-description: HeaderFooter ملكية. صحيح إذا كان هذا تذييل الرأس الكائن عبارة عن رأس .
+description: HeaderFooter ملكية. صحيح إذا كان هذاHeaderFooter الكائن عبارة عن رأس.
 type: docs
 weight: 30
 url: /ar/net/aspose.words/headerfooter/isheader/
 ---
 ## HeaderFooter.IsHeader property
 
-صحيح إذا كان هذا **تذييل الرأس** الكائن عبارة عن رأس .
+صحيح إذا كان هذا[`HeaderFooter`](../) الكائن عبارة عن رأس.
 
 ```csharp
 public bool IsHeader { get; }
@@ -21,8 +21,8 @@ public bool IsHeader { get; }
 ```csharp
 Document doc = new Document();
 
-// إنشاء رأس وإلحاق فقرة به. النص في تلك الفقرة
-// في أعلى كل صفحة من هذا القسم ، فوق النص الأساسي الرئيسي.
+// قم بإنشاء رأس وألحق فقرة به. النص في تلك الفقرة
+// سيظهر في أعلى كل صفحة من هذا القسم، فوق النص الأساسي.
 HeaderFooter header = new HeaderFooter(doc, HeaderFooterType.HeaderPrimary);
 doc.FirstSection.HeadersFooters.Add(header);
 
@@ -31,8 +31,8 @@ Paragraph para = header.AppendParagraph("My header.");
 Assert.True(header.IsHeader);
 Assert.True(para.IsEndOfHeaderFooter);
 
-// إنشاء تذييل وإلحاق فقرة به. النص في تلك الفقرة
-// في أسفل كل صفحة من هذا القسم ، أسفل النص الأساسي الرئيسي.
+// قم بإنشاء تذييل وإلحاق فقرة به. النص في تلك الفقرة
+// سيظهر في أسفل كل صفحة من هذا القسم، أسفل النص الرئيسي.
 HeaderFooter footer = new HeaderFooter(doc, HeaderFooterType.FooterPrimary);
 doc.FirstSection.HeadersFooters.Add(footer);
 

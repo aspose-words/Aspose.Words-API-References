@@ -21,10 +21,10 @@ KONU alanının nasıl kullanılacağını gösterir.
 ```csharp
 Document doc = new Document();
 
-// Belgenin yerleşik "Konu" özelliği için bir değer ayarlayın.
+// Belgenin "Konu" yerleşik özelliği için bir değer belirleyin.
 doc.BuiltInDocumentProperties.Subject = "My subject";
 
-// Bu yerleşik özelliğin değerini görüntülemek için bir KONU alanı oluşturun.
+// Bu yerleşik özelliğin değerini görüntülemek için bir SUBJECT alanı oluşturun.
 DocumentBuilder builder = new DocumentBuilder(doc);
 FieldSubject field = (FieldSubject)builder.InsertField(FieldType.FieldSubject, true);
 field.Update();
@@ -32,8 +32,8 @@ field.Update();
 Assert.AreEqual(" SUBJECT ", field.GetFieldCode());
 Assert.AreEqual("My subject", field.Result);
 
-// SUBJECT alanının Text özellik değerini verip güncellersek alan
-// "Konu" yerleşik özelliğinin geçerli değerinin üzerine Metin özelliğinin değeriyle yaz,
+// SUBJECT alanının Text özelliği değerini verip güncellersek alan şu şekilde olacaktır:
+// "Subject" yerleşik özelliğinin mevcut değerinin üzerine Text özelliğinin değerini yazın,
 // ve ardından yeni değeri görüntüleyin.
 field.Text = "My new subject";
 field.Update();

@@ -18,11 +18,11 @@ public Color Color { get; set; }
 
 Restituisce il colore del primo bordo della raccolta.
 
-Imposta il colore di tutti i bordi nella raccolta esclusi i bordi diagonali.
+Imposta il colore di tutti i bordi della raccolta esclusi i bordi diagonali.
 
 ### Esempi
 
-Mostra come creare un bordo di pagina ondulato verde con un'ombra.
+Mostra come creare un bordo verde ondulato della pagina con un'ombra.
 
 ```csharp
 Document doc = new Document();

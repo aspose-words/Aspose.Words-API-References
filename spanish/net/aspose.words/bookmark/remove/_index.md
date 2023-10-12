@@ -39,7 +39,7 @@ BookmarkCollection bookmarks = doc.Range.Bookmarks;
 Assert.AreEqual(5, bookmarks.Count);
 
 // Hay varias formas de eliminar marcadores.
-// 1 - Llamar al método Remove del marcador:
+// 1 - Llamar al método Eliminar del marcador:
 bookmarks["MyBookmark_1"].Remove();
 
 Assert.False(bookmarks.Any(b => b.Name == "MyBookmark_1"));
@@ -55,7 +55,7 @@ doc.Range.Bookmarks.Remove("MyBookmark_3");
 
 Assert.False(bookmarks.Any(b => b.Name == "MyBookmark_3"));
 
-// 4 - Eliminación de un marcador en un índice de la colección de marcadores:
+// 4 - Eliminar un marcador en un índice de la colección de marcadores:
 doc.Range.Bookmarks.RemoveAt(0);
 
 Assert.False(bookmarks.Any(b => b.Name == "MyBookmark_4"));

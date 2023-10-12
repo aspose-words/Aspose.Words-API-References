@@ -3,7 +3,7 @@ title: Interface IPageLayoutCallback
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.Layout.IPageLayoutCallback interface. Implémentez cette interface si vous souhaitez que votre propre méthode personnalisée soit appelée lors de la construction et du rendu du modèle de mise en page.
 type: docs
-weight: 3110
+weight: 3310
 url: /fr/net/aspose.words.layout/ipagelayoutcallback/
 ---
 ## IPageLayoutCallback interface
@@ -18,24 +18,23 @@ public interface IPageLayoutCallback
 
 | Nom | La description |
 | --- | --- |
-| [Notify](../../aspose.words.layout/ipagelayoutcallback/notify/)(PageLayoutCallbackArgs) | Ceci est appelé pour notifier la construction de la mise en page et la progression du rendu. |
+| [Notify](../../aspose.words.layout/ipagelayoutcallback/notify/)(PageLayoutCallbackArgs) | Ceci est appelé pour informer de la construction de la mise en page et de la progression du rendu. |
 
 ### Remarques
 
-L'utilisation principale de cette interface est de permettre au code de l'application d'abandonner le processus de génération.
+L'utilisation principale de cette interface est de permettre au code d'application d'abandonner le processus de construction.
 
-Il est possible de créer un modèle de mise en page pour seulement quelques pages au début du document, puis d'abandonner le processus et de ne rendre que ce qui a déjà été construit.
+Il est possible de créer un modèle de mise en page pour quelques pages seulement au début du document, puis d'abandonner le processus et de restituer uniquement ce qui a déjà été construit.
 
-Notez, cependant, que les résultats du rendu peuvent ne pas correspondre à ce qui serait rendu pour chaque page si le processus était terminé.
+Notez cependant que les résultats du rendu peuvent ne pas correspondre à ce qui serait rendu pour chaque page si le processus était terminé.
 
-Cette technique peut ne pas fonctionner pour tous les documents ou échouer complètement.
+Cette technique peut ne pas fonctionner pour tous les documents ou peut échouer complètement.
 
 ### Exemples
 
 Montre comment suivre les modifications de mise en page avec un rappel de mise en page.
 
 ```csharp
-[Test]
 public void PageLayoutCallback()
 {
     Document doc = new Document();
@@ -52,7 +51,7 @@ public void PageLayoutCallback()
 
 /// <summary>
 /// Nous avertit lorsque nous enregistrons le document dans un format de page fixe
-/// et affiche une page sur laquelle nous effectuons une redistribution de page vers une image dans le système de fichiers local.
+/// et restitue une page sur laquelle nous effectuons une redistribution de page sur une image dans le système de fichiers local.
 /// </summary>
 private class RenderPageLayoutCallback : IPageLayoutCallback
 {

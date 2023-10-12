@@ -1,14 +1,14 @@
 ---
 title: ShapeBase.IsMoveFromRevision
 second_title: Aspose.Words för .NET API Referens
-description: ShapeBase fast egendom. Returnerar Sann om det här objektet flyttades borttogs i Microsoft Word medan ändringsspårning var aktiverad.
+description: ShapeBase fast egendom. ReturnerarSann om det här objektet flyttades borttogs i Microsoft Word medan ändringsspårning var aktiverad.
 type: docs
-weight: 310
+weight: 320
 url: /sv/net/aspose.words.drawing/shapebase/ismovefromrevision/
 ---
 ## ShapeBase.IsMoveFromRevision property
 
-Returnerar **Sann** om det här objektet flyttades (borttogs) i Microsoft Word medan ändringsspårning var aktiverad.
+Returnerar`Sann` om det här objektet flyttades (borttogs) i Microsoft Word medan ändringsspårning var aktiverad.
 
 ```csharp
 public bool IsMoveFromRevision { get; }

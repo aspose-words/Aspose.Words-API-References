@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTag.BuildingBlockGallery
 second_title: Aspose.Words لمراجع .NET API
-description: StructuredDocumentTag ملكية. تحديد نوع الكتلة البرمجية الإنشائية لهذا الغرض المعاملة الخاصة والتفضيلية . لا يمكن أن يكون فارغًا .
+description: StructuredDocumentTag ملكية. يحدد نوع الكتلة البرمجية الإنشائية لهذا الغرض المعاملة الخاصة والتفضيلية . لا يمكن أن يكونباطل .
 type: docs
 weight: 40
 url: /ar/net/aspose.words.markup/structureddocumenttag/buildingblockgallery/
 ---
 ## StructuredDocumentTag.BuildingBlockGallery property
 
-تحديد نوع الكتلة البرمجية الإنشائية لهذا الغرض **المعاملة الخاصة والتفضيلية** . لا يمكن أن يكون فارغًا .
+يحدد نوع الكتلة البرمجية الإنشائية لهذا الغرض **المعاملة الخاصة والتفضيلية** . لا يمكن أن يكون`باطل` .
 
 ```csharp
 public string BuildingBlockGallery { get; set; }
@@ -16,13 +16,13 @@ public string BuildingBlockGallery { get; set; }
 
 ### ملاحظات
 
-الوصول إلى هذه الخاصية سيعمل فقط من أجلBuildingBlockGallery و DocPartObj أنواع المعاملة الخاصة والتفضيلية. إنه للقراءة فقط لـ **المعاملة الخاصة والتفضيلية**من نوع جزء المستند.
+الوصول إلى هذه الخاصية سوف يعمل فقط من أجلBuildingBlockGallery و DocPartObj أنواع المعاملة الخاصة والتفضيلية. وهي للقراءة فقط ل **المعاملة الخاصة والتفضيلية** من نوع جزء المستند.
 
-سيحدث استثناء لجميع أنواع المعاملة الخاصة والتفضيلية الأخرى.
+بالنسبة لجميع أنواع SDT الأخرى، سيحدث استثناء.
 
 ### أمثلة
 
-يوضح كيفية إدراج علامة مستند منظم ككتلة إنشاء ، وتعيين فئته ومعرضه.
+يوضح كيفية إدراج علامة مستند منظمة ككتلة إنشاء وتعيين فئتها ومعرضها.
 
 ```csharp
 Document doc = new Document();

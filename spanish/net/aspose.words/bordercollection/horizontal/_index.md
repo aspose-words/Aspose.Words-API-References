@@ -1,14 +1,14 @@
 ---
 title: BorderCollection.Horizontal
 second_title: Referencia de API de Aspose.Words para .NET
-description: BorderCollection propiedad. Obtiene el borde horizontal que se usa entre celdas o párrafos conformes.
+description: BorderCollection propiedad. Obtiene el borde horizontal que se utiliza entre celdas o párrafos conformes.
 type: docs
 weight: 50
 url: /es/net/aspose.words/bordercollection/horizontal/
 ---
 ## BorderCollection.Horizontal property
 
-Obtiene el borde horizontal que se usa entre celdas o párrafos conformes.
+Obtiene el borde horizontal que se utiliza entre celdas o párrafos conformes.
 
 ```csharp
 public Border Horizontal { get; }
@@ -16,7 +16,7 @@ public Border Horizontal { get; }
 
 ### Ejemplos
 
-Muestra cómo aplicar configuraciones a los bordes horizontales al formato de un párrafo.
+Muestra cómo aplicar configuraciones a los bordes horizontales del formato de un párrafo.
 
 ```csharp
 Document doc = new Document();
@@ -28,18 +28,18 @@ borders.Horizontal.Color = Color.Red;
 borders.Horizontal.LineStyle = LineStyle.DashSmallGap;
 borders.Horizontal.LineWidth = 3;
 
-// Escribir texto en el documento sin crear un nuevo párrafo después.
-// Como no hay un párrafo debajo, el borde horizontal no será visible.
+// Escribe texto en el documento sin crear un nuevo párrafo después.
+// Como no hay ningún párrafo debajo, el borde horizontal no será visible.
 builder.Write("Paragraph above horizontal border.");
 
-// Una vez que agregamos un segundo párrafo, el borde del primer párrafo se hará visible.
+// Una vez que agreguemos un segundo párrafo, el borde del primer párrafo se hará visible.
 builder.InsertParagraph();
 builder.Write("Paragraph below horizontal border.");
 
 doc.Save(ArtifactsDir + "Border.HorizontalBorders.docx");
 ```
 
-Muestra cómo aplicar la configuración a los bordes verticales al formato de fila de una tabla.
+Muestra cómo aplicar configuraciones a los bordes verticales al formato de fila de una tabla.
 
 ```csharp
 Document doc = new Document();
@@ -58,7 +58,7 @@ for (int i = 0; i < 3; i++)
     Row row = builder.EndRow();
     BorderCollection borders = row.RowFormat.Borders;
 
-    // Ajusta la apariencia de los bordes que aparecerán entre las filas.
+    // Ajusta la apariencia de los bordes que aparecerán entre filas.
     borders.Horizontal.Color = Color.Red;
     borders.Horizontal.LineStyle = LineStyle.Dot;
     borders.Horizontal.LineWidth = 2.0d;
@@ -69,7 +69,7 @@ for (int i = 0; i < 3; i++)
     borders.Vertical.LineWidth = 2.0d;
 }
 
-// Un formato de fila y el párrafo interior de una celda usan configuraciones de borde diferentes.
+// Un formato de fila y el párrafo interior de una celda utilizan diferentes configuraciones de borde.
 Border border = table.FirstRow.FirstCell.LastParagraph.ParagraphFormat.Borders.Vertical;
 
 Assert.AreEqual(Color.Empty.ToArgb(), border.Color.ToArgb());

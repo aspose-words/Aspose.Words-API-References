@@ -1,14 +1,14 @@
 ---
 title: ChartSeries.Format
 second_title: Справочник по API Aspose.Words для .NET
-description: ChartSeries свойство. Предоставляет доступ к заполнению и форматированию строк серии.
+description: ChartSeries свойство. Предоставляет доступ к заливке и форматированию строк серии.
 type: docs
-weight: 50
+weight: 60
 url: /ru/net/aspose.words.drawing.charts/chartseries/format/
 ---
 ## ChartSeries.Format property
 
-Предоставляет доступ к заполнению и форматированию строк серии.
+Предоставляет доступ к заливке и форматированию строк серии.
 
 ```csharp
 public ChartFormat Format { get; }
@@ -16,7 +16,7 @@ public ChartFormat Format { get; }
 
 ### Примеры
 
-Посев, как установить цвет серии.
+Поясняет, как установить цвет серии.
 
 ```csharp
 Document doc = new Document();
@@ -33,12 +33,12 @@ seriesColl.Clear();
 // Создаем массив названий категорий.
 string[] categories = new[] { "Category 1", "Category 2" };
 
-// Добавление новой серии. Массивы значений и категорий должны быть одного размера.
+// Добавляем новую серию. Массивы значений и категорий должны быть одинакового размера.
 ChartSeries series1 = seriesColl.Add("Series 1", categories, new double[] { 1, 2 });
 ChartSeries series2 = seriesColl.Add("Series 2", categories, new double[] { 3, 4 });
 ChartSeries series3 = seriesColl.Add("Series 3", categories, new double[] { 5, 6 });
 
-// Установить цвет серии.
+// Устанавливаем цвет серии.
 series1.Format.Fill.ForeColor = Color.Red;
 series2.Format.Fill.ForeColor = Color.Yellow;
 series3.Format.Fill.ForeColor = Color.Blue;

@@ -1,14 +1,14 @@
 ---
 title: TableStyle.AllowBreakAcrossPages
 second_title: Aspose.Words for .NET API Referansı
-description: TableStyle mülk. Tablo satırındaki metnin sayfa sonu boyunca bölünmesine izin verilip verilmediğini belirten bir bayrak alır veya ayarlar.
+description: TableStyle mülk. Tablo satırındaki metnin sayfa sonu boyunca bölünmesine izin verilip verilmeyeceğini belirten bayrağı alır veya ayarlar.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/tablestyle/allowbreakacrosspages/
 ---
 ## TableStyle.AllowBreakAcrossPages property
 
-Tablo satırındaki metnin sayfa sonu boyunca bölünmesine izin verilip verilmediğini belirten bir bayrak alır veya ayarlar.
+Tablo satırındaki metnin sayfa sonu boyunca bölünmesine izin verilip verilmeyeceğini belirten bayrağı alır veya ayarlar.
 
 ```csharp
 public bool AllowBreakAcrossPages { get; set; }
@@ -16,7 +16,7 @@ public bool AllowBreakAcrossPages { get; set; }
 
 ### Notlar
 
-Varsayılan değer **doğru** .
+Varsayılan değer:`doğru` .
 
 ### Örnekler
 
@@ -51,7 +51,7 @@ tableStyle.VerticalAlignment = CellVerticalAlignment.Center;
 
 table.Style = tableStyle;
 
-// Bir tablonun stil özelliklerini ayarlamak, tablonun özelliklerini etkileyebilir.
+// Bir tablonun stil özelliklerinin ayarlanması, tablonun kendi özelliklerini etkileyebilir.
 Assert.True(table.Bidi);
 Assert.AreEqual(5.0d, table.CellSpacing);
 Assert.AreEqual("MyTableStyle1", table.StyleName);

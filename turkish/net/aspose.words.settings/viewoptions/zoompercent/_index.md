@@ -16,13 +16,13 @@ public int ZoomPercent { get; set; }
 
 ### Notlar
 
-Değer 0 ise, bu özellik bunun yerine 100'ü kullanır, aksi takdirde değer 10'dan küçük veya 500'den büyükse bu özellik atar.
+Değer 0 ise bu özellik bunun yerine 100'ü kullanır, aksi takdirde değer 10'dan küçük veya 500'den büyükse bu özellik atar.
 
-Aspose.Words bu seçeneği okuyup yazabiliyor olsa da, kullanımı uygulamaya özeldir. Örneğin MS Word 2013, bu seçeneğin değerine uymaz.
+Aspose.Words bu seçeneği okuyup yazabilse de kullanımı uygulamaya özeldir. Örneğin MS Word 2013 bu seçeneğin değerini dikkate almaz.
 
 ### Örnekler
 
-Microsoft Word'ün eski sürümlerinin yükleme sırasında bir belgeye uygulanacağı özel bir yakınlaştırma faktörünün nasıl ayarlanacağını gösterir.
+Microsoft Word'ün eski sürümlerinin yükleme sırasında bir belgeye uygulayacağı özel yakınlaştırma faktörünün nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();

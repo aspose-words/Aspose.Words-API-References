@@ -22,7 +22,7 @@ Muestra cómo utilizar el campo SÍMBOLO.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// A continuación se muestran tres formas de usar un campo SÍMBOLO para mostrar un solo carácter.
+// A continuación se muestran tres formas de utilizar un campo SÍMBOLO para mostrar un solo carácter.
 // 1 - Agregue un campo SÍMBOLO que muestre el símbolo © (Copyright), especificado por un código de carácter ANSI:
 FieldSymbol field = (FieldSymbol)builder.InsertField(FieldType.FieldSymbol, true);
 
@@ -34,15 +34,15 @@ Assert.AreEqual(" SYMBOL  169 \\a", field.GetFieldCode());
 
 builder.Writeln(" Line 1");
 
-// 2 - Agregue un campo SÍMBOLO que muestre el símbolo ∞ (Infinito) y modifique su apariencia:
+// 2 - Agrega un campo SÍMBOLO que muestra el símbolo ∞ (Infinito) y modifica su apariencia:
 field = (FieldSymbol)builder.InsertField(FieldType.FieldSymbol, true);
 
 // En Unicode, el símbolo de infinito ocupa el código "221E".
 field.CharacterCode = 0x221E.ToString();
 field.IsUnicode = true;
 
-// Cambiar la fuente de nuestro símbolo después de usar el Mapa de Caracteres de Windows
-// para asegurarse de que la fuente pueda representar ese símbolo.
+// Cambia la fuente de nuestro símbolo después de usar el Mapa de Caracteres de Windows
+// para garantizar que la fuente pueda representar ese símbolo.
 field.FontName = "Calibri";
 field.FontSize = "24";
 
@@ -53,8 +53,8 @@ Assert.AreEqual(" SYMBOL  8734 \\u \\f Calibri \\s 24 \\h", field.GetFieldCode()
 
 builder.Writeln("Line 2");
 
-// 3 - Agregue un campo SÍMBOLO que muestre el carácter あ,
-// con una fuente compatible con la página de códigos Shift-JIS (Windows-932):
+// 3 - Agrega un campo SÍMBOLO que muestra el carácter あ,
+// con una fuente que admita la página de códigos Shift-JIS (Windows-932):
 field = (FieldSymbol)builder.InsertField(FieldType.FieldSymbol, true);
 field.FontName = "MS Gothic";
 field.CharacterCode = 0x82A0.ToString();

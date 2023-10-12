@@ -3,7 +3,7 @@ title: FieldOptions.PreProcessCulture
 second_title: Aspose.Words för .NET API Referens
 description: FieldOptions fast egendom. Hämtar eller ställer in kulturen för att förbehandla fältvärden.
 type: docs
-weight: 150
+weight: 170
 url: /sv/net/aspose.words.fields/fieldoptions/preprocessculture/
 ---
 ## FieldOptions.PreProcessCulture property
@@ -18,7 +18,7 @@ public CultureInfo PreProcessCulture { get; set; }
 
 För närvarande påverkar denna egenskap endast värdet av[`FieldDocProperty`](../../fielddocproperty/) fält.
 
-Standardvärdet är **null** . När den här egenskapen är inställd på **null** , den[`FieldDocProperty`](../../fielddocproperty/) fältets värde är preprocessed med kulturen kontrollerad av[`FieldUpdateCultureSource`](../fieldupdateculturesource/) fast egendom.
+Standardvärdet är`null` . När den här egenskapen är inställd på`null` , den[`FieldDocProperty`](../../fielddocproperty/)fältets värde är preprocessed med kulturen kontrollerad av[`FieldUpdateCultureSource`](../fieldupdateculturesource/) fast egendom.
 
 ### Exempel
 

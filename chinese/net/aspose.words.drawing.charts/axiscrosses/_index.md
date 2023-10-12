@@ -1,14 +1,14 @@
 ---
 title: Enum AxisCrosses
 second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.Charts.AxisCrosses 枚举. 指定轴的可能交叉点
+description: Aspose.Words.Drawing.Charts.AxisCrosses 枚举. 指定轴可能的交叉点
 type: docs
-weight: 530
+weight: 540
 url: /zh/net/aspose.words.drawing.charts/axiscrosses/
 ---
 ## AxisCrosses enumeration
 
-指定轴的可能交叉点。
+指定轴可能的交叉点。
 
 ```csharp
 public enum AxisCrosses
@@ -18,14 +18,14 @@ public enum AxisCrosses
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Automatic | `0` | 类别轴交叉在值轴的零点（如果可能），或者在最小值处交叉 如果最小值大于零，或者如果最大值小于零，则在最大值处。 |
-| Maximum | `1` | 垂直轴与轴的最大值相交。 |
-| Minimum | `2` | 垂直轴与轴的最小值相交。 |
-| Custom | `3` | 垂直轴与轴的指定值相交。 |
+| Automatic | `0` | 类别轴在值轴的零点处交叉（如果可能），或者在最小值 （如果最小值大于零）处交叉，或者在最大值处（如果最大值小于零）交叉。 |
+| Maximum | `1` | 垂直轴在轴的最大值处相交。 |
+| Minimum | `2` | 垂直轴在轴的最小值处相交。 |
+| Custom | `3` | 垂直轴在轴的指定值处交叉。 |
 
 ### 例子
 
-显示如何插入图表并修改其轴的外观。
+演示如何插入图表并修改其轴的外观。
 
 ```csharp
 Document doc = new Document();
@@ -37,7 +37,7 @@ Chart chart = shape.Chart;
 // 清除图表的演示数据系列以从干净的图表开始。
 chart.Series.Clear();
 
-// 插入一个图表系列，其中 X 轴为类别，Y 轴为相应的数值。
+// 插入一个图表系列，其中 X 轴为类别，Y 轴为相应数值。
 chart.Series.Add("Aspose Test Series",
     new[] { "Word", "PDF", "Excel", "GoogleDocs", "Note" },
     new double[] { 640, 320, 280, 120, 150 });

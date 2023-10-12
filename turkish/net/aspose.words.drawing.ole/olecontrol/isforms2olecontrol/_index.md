@@ -1,17 +1,17 @@
 ---
 title: OleControl.IsForms2OleControl
 second_title: Aspose.Words for .NET API Referansı
-description: OleControl mülk. Kontrol bir ise true döndürürForms2OleControl .
+description: OleControl mülk. İadelerdoğru eğer kontrol birForms2OleControl .
 type: docs
 weight: 10
 url: /tr/net/aspose.words.drawing.ole/olecontrol/isforms2olecontrol/
 ---
 ## OleControl.IsForms2OleControl property
 
-Kontrol bir ise true döndürür[`Forms2OleControl`](../../forms2olecontrol/) .
+İadeler`doğru` eğer kontrol bir[`Forms2OleControl`](../../forms2olecontrol/) .
 
 ```csharp
-public virtual bool IsForms2OleControl { get; }
+public bool IsForms2OleControl { get; }
 ```
 
 ### Örnekler
@@ -24,7 +24,7 @@ Document doc = new Document(MyDir + "ActiveX controls.docx");
 Shape shape = (Shape) doc.GetChild(NodeType.Shape, 0, true);
 OleControl oleControl = shape.OleFormat.OleControl;
 
-Assert.AreEqual(null, oleControl.Name);
+Assert.AreEqual("CheckBox1", oleControl.Name);
 
 if (oleControl.IsForms2OleControl)
 {
@@ -34,6 +34,10 @@ if (oleControl.IsForms2OleControl)
     Assert.AreEqual(true, checkBox.Enabled);
     Assert.AreEqual(Forms2OleControlType.CheckBox, checkBox.Type);
     Assert.AreEqual(null, checkBox.ChildNodes);
+    Assert.AreEqual(string.Empty, checkBox.GroupName);
+
+    // Bir Çerçeve için GrupAdı'nı ayarlayamayacağınızı unutmayın.
+    checkBox.GroupName = "Aspose group name";
 }
 ```
 

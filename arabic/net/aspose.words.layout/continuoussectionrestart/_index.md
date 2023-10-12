@@ -1,14 +1,14 @@
 ---
 title: Enum ContinuousSectionRestart
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Layout.ContinuousSectionRestart تعداد. يمثل سلوكيات مختلفة عند حساب أرقام الصفحات في قسم مستمر يقوم بإعادة تشغيل ترقيم الصفحات.
+description: Aspose.Words.Layout.ContinuousSectionRestart تعداد. يمثل سلوكيات مختلفة عند حساب أرقام الصفحات في قسم مستمر يعيد تشغيل ترقيم الصفحات.
 type: docs
-weight: 3100
+weight: 3300
 url: /ar/net/aspose.words.layout/continuoussectionrestart/
 ---
 ## ContinuousSectionRestart enumeration
 
-يمثل سلوكيات مختلفة عند حساب أرقام الصفحات في قسم مستمر يقوم بإعادة تشغيل ترقيم الصفحات.
+يمثل سلوكيات مختلفة عند حساب أرقام الصفحات في قسم مستمر يعيد تشغيل ترقيم الصفحات.
 
 ```csharp
 public enum ContinuousSectionRestart
@@ -18,8 +18,8 @@ public enum ContinuousSectionRestart
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| Always | `0` | يتم دائمًا إعادة تشغيل ترقيم الصفحات بغض النظر عن تدفق المحتوى. |
-| FromNewPageOnly | `1` | يتم إعادة تشغيل ترقيم الصفحات فقط في حالة عدم وجود محتوى آخر قبل القسم الموجود على الصفحة حيث يبدأ القسم. |
+| Always | `0` | تتم إعادة تشغيل ترقيم الصفحات دائمًا بغض النظر عن تدفق المحتوى. |
+| FromNewPageOnly | `1` | تتم إعادة تشغيل ترقيم الصفحات فقط في حالة عدم وجود محتوى آخر قبل القسم الموجود في الصفحة التي يبدأ فيها القسم. |
 
 ### أمثلة
 
@@ -28,10 +28,10 @@ public enum ContinuousSectionRestart
 ```csharp
 Document doc = new Document(MyDir + "Continuous section page numbering.docx");
 
-// افتراضيًا ، يتطابق سلوك Aspose.Words مع Microsoft Word 2019.
-// إذا كنت بحاجة إلى سلوك Aspose.Words القديم ، Microsoft Word 2016 المتكرر ، استخدم "ContinuousSectionRestart.FromNewPageOnly".
-// يتم إعادة تشغيل ترقيم الصفحات فقط إذا لم يكن هناك محتوى آخر قبل القسم الموجود على الصفحة حيث يبدأ القسم ،
-// بسبب ذلك سيتم إعادة تعيين الترقيم إلى 2 من الصفحة الثانية.
+// افتراضيًا، يتطابق سلوك Aspose.Words مع Microsoft Word 2019.
+// إذا كنت بحاجة إلى سلوك Aspose.Words القديم، أو Microsoft Word 2016 المتكرر، فاستخدم "ContiniousSectionRestart.FromNewPageOnly".
+// تتم إعادة تشغيل ترقيم الصفحات فقط في حالة عدم وجود محتوى آخر قبل القسم الموجود في الصفحة التي يبدأ فيها القسم،
+// وبسبب ذلك سيتم إعادة تعيين الترقيم إلى 2 من الصفحة الثانية.
 doc.LayoutOptions.ContinuousSectionPageNumberingRestart = ContinuousSectionRestart.FromNewPageOnly;
 doc.UpdatePageLayout();
 

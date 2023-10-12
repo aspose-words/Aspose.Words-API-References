@@ -3,7 +3,7 @@ title: Interface ICssSavingCallback
 second_title: Aspose.Words per .NET API Reference
 description: Aspose.Words.Saving.ICssSavingCallback interfaccia. Implementa questa interfaccia se vuoi controllare come Aspose.Words salva CSS Cascading Style Sheet quando salva un documento in HTML.
 type: docs
-weight: 4870
+weight: 5130
 url: /it/net/aspose.words.saving/icsssavingcallback/
 ---
 ## ICssSavingCallback interface
@@ -38,7 +38,7 @@ public void ExternalCssFilenames()
     options.CssStyleSheetType = CssStyleSheetType.External;
 
     // Di seguito sono riportati due modi per specificare directory e nomi di file per i fogli di stile CSS di output.
-    // 1 - Usa la proprietà "CssStyleSheetFileName" per assegnare un nome file al nostro foglio di stile:
+    // 1 - Utilizza la proprietà "CssStyleSheetFileName" per assegnare un nome file al nostro foglio di stile:
     options.CssStyleSheetFileName = ArtifactsDir + "SavingCallback.ExternalCssFilenames.css";
 
     // 2 - Usa un callback personalizzato per nominare il nostro foglio di stile:
@@ -62,7 +62,7 @@ private class CustomCssSavingCallback : ICssSavingCallback
 
     public void CssSaving(CssSavingArgs args)
     {
-        // Possiamo accedere all'intero documento sorgente tramite la proprietà "Documento".
+        // Possiamo accedere all'intero documento sorgente tramite la proprietà "Document".
         Assert.True(args.Document.OriginalFileName.EndsWith("Rendering.docx"));
 
         args.CssStream = new FileStream(mCssTextFileName, FileMode.Create);

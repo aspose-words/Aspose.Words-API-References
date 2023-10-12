@@ -1,14 +1,14 @@
 ---
 title: ComparisonExpression.RightExpression
 second_title: Aspose.Words für .NET-API-Referenz
-description: ComparisonExpression eigendom. Bekommt den richtigen Ausdruck.
+description: ComparisonExpression eigendom. Erhält den richtigen Ausdruck.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fields/comparisonexpression/rightexpression/
 ---
 ## ComparisonExpression.RightExpression property
 
-Bekommt den richtigen Ausdruck.
+Erhält den richtigen Ausdruck.
 
 ```csharp
 public string RightExpression { get; }
@@ -30,10 +30,10 @@ public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparison
 
     // Feldcodes, die wir in diesem Beispiel verwenden:
     // 1. " IF {0} {1} {2} \"wahres Argument\" \"falsches Argument\" ".
-    // 2. " VERGLEICHEN {0} {1} {2} ".
+    // 2. " COMPARE {0} {1} {2} ".
     Field field = builder.InsertField(string.Format(fieldCode, left, @operator, right), null);
 
-    // Wenn "comparisonResult" nicht definiert ist, erstellen wir "ComparisonEvaluationResult" mit String statt mit bool.
+    // Wenn „comparisonResult“ undefiniert ist, erstellen wir „ComparisonEvaluationResult“ mit einer Zeichenfolge anstelle von bool.
     ComparisonEvaluationResult result = comparisonResult != -1
         ? new ComparisonEvaluationResult(comparisonResult == 1)
         : comparisonError != null ? new ComparisonEvaluationResult(comparisonError) : null;

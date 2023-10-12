@@ -20,7 +20,7 @@ public Node PreviousPreOrder(Node rootNode)
 
 ### Returvärde
 
-Föregående nod i förbeställning. Null om nått rootNode.
+Föregående nod i förbeställning. Null om nått*rootNode*.
 
 ### Exempel
 

@@ -1,14 +1,14 @@
 ---
 title: RevisionGroup.RevisionType
 second_title: Aspose.Words für .NET-API-Referenz
-description: RevisionGroup eigendom. Ruft den Revisionstyp ab der in dieser Gruppe enthalten ist.
+description: RevisionGroup eigendom. Ruft den Typ der in dieser Gruppe enthaltenen Revisionen ab.
 type: docs
 weight: 20
 url: /de/net/aspose.words/revisiongroup/revisiontype/
 ---
 ## RevisionGroup.RevisionType property
 
-Ruft den Revisionstyp ab, der in dieser Gruppe enthalten ist.
+Ruft den Typ der in dieser Gruppe enthaltenen Revisionen ab.
 
 ```csharp
 public RevisionType RevisionType { get; }

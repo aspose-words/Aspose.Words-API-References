@@ -1,14 +1,14 @@
 ---
 title: CssSavingArgs.CssStream
 second_title: Aspose.Words per .NET API Reference
-description: CssSavingArgs proprietà. Consente di specificare lo stream in cui verranno salvate le informazioni CSS.
+description: CssSavingArgs proprietà. Permette di specificare il flusso in cui verranno salvate le informazioni CSS.
 type: docs
 weight: 10
 url: /it/net/aspose.words.saving/csssavingargs/cssstream/
 ---
 ## CssSavingArgs.CssStream property
 
-Consente di specificare lo stream in cui verranno salvate le informazioni CSS.
+Permette di specificare il flusso in cui verranno salvate le informazioni CSS.
 
 ```csharp
 public Stream CssStream { get; set; }
@@ -16,11 +16,11 @@ public Stream CssStream { get; set; }
 
 ### Osservazioni
 
-Questa proprietà consente di salvare le informazioni CSS in uno stream.
+Questa proprietà ti consente di salvare le informazioni CSS in uno stream.
 
-Il valore predefinito è`nullo` Questa proprietà non impedisce il salvataggio delle informazioni CSS in un file o l'incorporamento di in un documento HTML. Per sopprimere l'esportazione CSS, utilizzare il file[`IsExportNeeded`](../isexportneeded/) proprietà.
+Il valore predefinito è`nullo` . Questa proprietà non impedisce il salvataggio delle informazioni CSS in un file o l'incorporamento nel documento HTML. Per sopprimere l'esportazione dei CSS utilizzare il file[`IsExportNeeded`](../isexportneeded/) proprietà.
 
-Usando[`ICssSavingCallback`](../../icsssavingcallback/) non puoi sostituire CSS con un altro. È inteso solo per salvare CSS in un flusso.
+Utilizzando[`ICssSavingCallback`](../../icsssavingcallback/) non puoi sostituire CSS con un altro. È inteso solo per salvare CSS in uno stream.
 
 ### Esempi
 
@@ -40,7 +40,7 @@ public void ExternalCssFilenames()
     options.CssStyleSheetType = CssStyleSheetType.External;
 
     // Di seguito sono riportati due modi per specificare directory e nomi di file per i fogli di stile CSS di output.
-    // 1 - Usa la proprietà "CssStyleSheetFileName" per assegnare un nome file al nostro foglio di stile:
+    // 1 - Utilizza la proprietà "CssStyleSheetFileName" per assegnare un nome file al nostro foglio di stile:
     options.CssStyleSheetFileName = ArtifactsDir + "SavingCallback.ExternalCssFilenames.css";
 
     // 2 - Usa un callback personalizzato per nominare il nostro foglio di stile:
@@ -64,7 +64,7 @@ private class CustomCssSavingCallback : ICssSavingCallback
 
     public void CssSaving(CssSavingArgs args)
     {
-        // Possiamo accedere all'intero documento sorgente tramite la proprietà "Documento".
+        // Possiamo accedere all'intero documento sorgente tramite la proprietà "Document".
         Assert.True(args.Document.OriginalFileName.EndsWith("Rendering.docx"));
 
         args.CssStream = new FileStream(mCssTextFileName, FileMode.Create);

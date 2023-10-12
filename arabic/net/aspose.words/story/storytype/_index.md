@@ -1,14 +1,14 @@
 ---
 title: Story.StoryType
 second_title: Aspose.Words لمراجع .NET API
-description: Story ملكية. الحصول على نوع هذه القصة .
+description: Story ملكية. احصل على نوع هذه القصة.
 type: docs
 weight: 40
 url: /ar/net/aspose.words/story/storytype/
 ---
 ## Story.StoryType property
 
-الحصول على نوع هذه القصة .
+احصل على نوع هذه القصة.
 
 ```csharp
 public StoryType StoryType { get; }
@@ -22,13 +22,13 @@ public StoryType StoryType { get; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// استخدم DocumentBuilder لإدراج شكل. هذا شكل مضمّن ،
-// التي تحتوي على فقرة أصل ، وهي عقدة فرعية لنص القسم الأول.
+// استخدم DocumentBuilder لإدراج شكل. وهذا شكل خطي
+// التي تحتوي على فقرة أصل، وهي عقدة فرعية لنص القسم الأول.
 builder.InsertShape(ShapeType.Cube, 100.0, 100.0);
 
 Assert.AreEqual(1, doc.GetChildNodes(NodeType.Shape, true).Count);
 
-// يمكننا حذف جميع الأشكال من الفقرات الفرعية لهذا النص.
+// يمكننا حذف جميع الأشكال من الفقرات الفرعية لهذا الجسم.
 Assert.AreEqual(StoryType.MainText, doc.FirstSection.Body.StoryType);
 doc.FirstSection.Body.DeleteShapes();
 

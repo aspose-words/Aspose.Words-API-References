@@ -5,7 +5,7 @@ articleTitle: Remove
 second_title: Aspose.Words for .NET
 description: Style Remove method. Removes the specified style from the document in C#.
 type: docs
-weight: 190
+weight: 200
 url: /net/aspose.words/style/remove/
 ---
 ## Style.Remove method

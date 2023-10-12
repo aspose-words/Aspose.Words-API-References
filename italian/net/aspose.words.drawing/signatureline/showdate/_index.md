@@ -1,14 +1,14 @@
 ---
 title: SignatureLine.ShowDate
 second_title: Aspose.Words per .NET API Reference
-description: SignatureLine proprietà. Ottiene o imposta un valore che indica che la data del segno è mostrata nella riga della firma. Il valore predefinito per questa proprietà è VERO .
+description: SignatureLine proprietà. Ottiene o imposta un valore che indica che la data del segno è visualizzata nella riga della firma. Il valore predefinito per questa proprietà èVERO .
 type: docs
 weight: 90
 url: /it/net/aspose.words.drawing/signatureline/showdate/
 ---
 ## SignatureLine.ShowDate property
 
-Ottiene o imposta un valore che indica che la data del segno è mostrata nella riga della firma. Il valore predefinito per questa proprietà è **VERO** .
+Ottiene o imposta un valore che indica che la data del segno è visualizzata nella riga della firma. Il valore predefinito per questa proprietà è`VERO` .
 
 ```csharp
 public bool ShowDate { get; set; }
@@ -33,16 +33,16 @@ SignatureLineOptions options = new SignatureLineOptions
     SignerTitle = "Senior Manager"
 };
 
-// Inserisci una forma che conterrà una linea di firma, il cui aspetto sarà
-// personalizza usando l'oggetto "SignatureLineOptions" che abbiamo creato sopra.
+// Inserisci una forma che conterrà una riga della firma, di cui modificheremo l'aspetto
+// personalizza utilizzando l'oggetto "SignatureLineOptions" che abbiamo creato sopra.
 // Se inseriamo una forma le cui coordinate hanno origine nell'angolo in basso a destra della pagina,
-// dovremo fornire coordinate xey negative per visualizzare la forma.
+// dovremo fornire le coordinate xey negative per visualizzare la forma.
 Shape shape = builder.InsertSignatureLine(options, RelativeHorizontalPosition.RightMargin, -170.0, 
         RelativeVerticalPosition.BottomMargin, -60.0, WrapType.None);
 
 Assert.True(shape.IsSignatureLine);
 
-// Verifica le proprietà della nostra linea di firma tramite il suo oggetto Shape.
+// Verifica le proprietà della nostra riga della firma tramite il suo oggetto Shape.
 SignatureLine signatureLine = shape.SignatureLine;
 
 Assert.AreEqual("john.doe@management.com", signatureLine.Email);

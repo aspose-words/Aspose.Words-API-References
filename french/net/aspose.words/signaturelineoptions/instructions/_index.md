@@ -1,14 +1,14 @@
 ---
 title: SignatureLineOptions.Instructions
 second_title: Référence de l'API Aspose.Words pour .NET
-description: SignatureLineOptions propriété. Obtient ou définit les instructions au signataire qui sont affichées lors de la signature de la ligne de signature. La valeur par défaut de cette propriété est chaîne vide Empty .
+description: SignatureLineOptions propriété. Obtient ou définit les instructions destinées au signataire qui sont affichées lors de la signature de la ligne de signature. La valeur par défaut de cette propriété est chaîne vide Empty.
 type: docs
 weight: 50
 url: /fr/net/aspose.words/signaturelineoptions/instructions/
 ---
 ## SignatureLineOptions.Instructions property
 
-Obtient ou définit les instructions au signataire qui sont affichées lors de la signature de la ligne de signature. La valeur par défaut de cette propriété est **chaîne vide** (Empty ).
+Obtient ou définit les instructions destinées au signataire qui sont affichées lors de la signature de la ligne de signature. La valeur par défaut de cette propriété est **chaîne vide** (Empty).
 
 ```csharp
 public string Instructions { get; set; }
@@ -54,7 +54,7 @@ CertificateHolder certHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "a
 DigitalSignatureUtil.Sign(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.docx", 
     ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
 
-// Rouvrez notre document enregistré et vérifiez que les propriétés "IsSigned" et "IsValid" sont toutes les deux égales à "true",
+// Rouvrez notre document enregistré et vérifiez que les propriétés "IsSigned" et "IsValid" sont toutes deux égales à "true",
 // indiquant que la ligne de signature contient une signature.
 doc = new Document(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);

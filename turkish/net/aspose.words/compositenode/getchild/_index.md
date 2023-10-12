@@ -1,14 +1,14 @@
 ---
 title: CompositeNode.GetChild
 second_title: Aspose.Words for .NET API Referansı
-description: CompositeNode yöntem. Belirtilen türle eşleşen N. alt düğümü döndürür.
+description: CompositeNode yöntem. Belirtilen türle eşleşen Ninci alt düğümü döndürür.
 type: docs
-weight: 90
+weight: 100
 url: /tr/net/aspose.words/compositenode/getchild/
 ---
 ## CompositeNode.GetChild method
 
-Belirtilen türle eşleşen N. alt düğümü döndürür.
+Belirtilen türle eşleşen N'inci alt düğümü döndürür.
 
 ```csharp
 public Node GetChild(NodeType nodeType, int index, bool isDeep)
@@ -17,18 +17,18 @@ public Node GetChild(NodeType nodeType, int index, bool isDeep)
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | nodeType | NodeType | Alt düğümün türünü belirtir. |
-| index | Int32 | Seçilecek alt düğümün sıfır tabanlı dizini. Negatif dizinlere de izin verilir ve sondan erişimi gösterir, yani -1, son düğüm anlamına gelir. |
-| isDeep | Boolean | Tüm alt düğümlerden özyinelemeli olarak seçim yapmak için true. Yalnızca en yakın alt öğeler arasından seçim yapmak için False. Daha fazla bilgi için açıklamalara bakın. |
+| index | Int32 | Seçilecek alt düğümün sıfır tabanlı dizini. Negatif dizinlere de izin verilir ve uçtan erişimi belirtir, yani -1 son düğüm anlamına gelir. |
+| isDeep | Boolean | `doğru` tüm alt düğümlerden yinelemeli olarak seçim yapmak için; `YANLIŞ`yalnızca yakın çocuklar arasından seçim yapmak. Daha fazla bilgi için açıklamalara bakın. |
 
 ### Geri dönüş değeri
 
-Ölçütle eşleşen alt düğüm veya eşleşen bir düğüm bulunamazsa boş.
+Kriterlerle eşleşen alt düğüm veya`hükümsüz` eşleşen düğüm bulunamazsa.
 
 ### Notlar
 
-Dizin aralık dışındaysa, bir boş değer döndürülür.
+Dizin aralık dışındaysa,`hükümsüz` Geri döndü.
 
-İşaretleme düğümlerinin (StructuredDocumentTag veSmartTag) , isDeep = false olduğunda ve biçimlendirme olmayan düğüm türü için GetChild çağrıldığında bile geçilir. Örneğin, bir para içindeki ilk çalıştırma bir StructuredDocumentTag içine sarılmışsa, yine de GetChild(NodeType.Run, 0, false) tarafından döndürülecektir.
+İşaretleme düğümlerinin (StructuredDocumentTag VeSmartTag ) geçildiğinde bile*isDeep* =`YANLIŞ` Ve`GetChild` biçimlendirme dışı düğüm türü için çağrılır. Örneğin para 'deki ilk çalıştırma bir içine sarılmışsa[`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) , yine de iade edilecek`GetChild`(Run 0,`YANLIŞ`).
 
 ### Örnekler
 
@@ -52,13 +52,13 @@ tableStyle.Borders.LineStyle = LineStyle.DotDash;
 
 table.Style = tableStyle;
 
-// Bu yöntem, yukarıda belirlediklerimiz gibi tablo stili özellikleriyle ilgilidir.
+// Bu yöntem yukarıda belirlediğimiz tablo stili özellikleriyle ilgilidir.
 doc.ExpandTableStylesToDirectFormatting();
 
 doc.Save(ArtifactsDir + "Document.TableStyleToDirectFormatting.docx");
 ```
 
-Bileşik bir düğümün alt düğüm koleksiyonunda nasıl geçileceğini gösterir.
+Bileşik bir düğümün alt düğüm koleksiyonunda nasıl geçiş yapılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -70,18 +70,18 @@ paragraph.AppendChild(new Run(doc, "Hello world! "));
 Shape shape = new Shape(doc, ShapeType.Rectangle);
 shape.Width = 200;
 shape.Height = 200;
-// 'CustomNodeId' bir çıktı dosyasına kaydedilmediğini ve yalnızca düğüm ömrü boyunca var olduğunu unutmayın.
+// 'CustomNodeId'in bir çıktı dosyasına kaydedilmediğini ve yalnızca düğümün ömrü boyunca mevcut olduğunu unutmayın.
 shape.CustomNodeId = 100;
 shape.WrapType = WrapType.Inline;
 paragraph.AppendChild(shape);
 
 paragraph.AppendChild(new Run(doc, "Hello again!"));
 
-// Paragrafın acil alt öğeleri koleksiyonunu yineleyin,
-// ve içinde bulduğumuz tüm koşuları veya şekilleri yazdırın.
-NodeCollection children = paragraph.ChildNodes;
+// Paragrafın yakın alt öğelerinin toplanması yoluyla yineleme yapın,
+// ve içinde bulduğumuz tüm sayıları veya şekilleri yazdırıyoruz.
+NodeCollection children = paragraph.GetChildNodes(NodeType.Any, false);
 
-Assert.AreEqual(3, paragraph.ChildNodes.Count);
+Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, false).Count);
 
 foreach (Node child in children)
     switch (child.NodeType)
@@ -94,6 +94,7 @@ foreach (Node child in children)
             Shape childShape = (Shape)child;
             Console.WriteLine("Shape:");
             Console.WriteLine($"\t{childShape.ShapeType}, {childShape.Width}x{childShape.Height}");
+            break;
     }
 ```
 

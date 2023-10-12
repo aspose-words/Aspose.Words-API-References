@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.SpaceForUL
 second_title: Aspose.Words für .NET-API-Referenz
-description: CompatibilityOptions eigendom. Zusätzliches Leerzeichen unter der Grundlinie für unterstrichenen ostasiatischen Text hinzufügen.
+description: CompatibilityOptions eigendom. Fügen Sie zusätzlichen Platz unterhalb der Grundlinie für unterstrichenen ostasiatischen Text hinzu.
 type: docs
 weight: 440
 url: /de/net/aspose.words.settings/compatibilityoptions/spaceforul/
 ---
 ## CompatibilityOptions.SpaceForUL property
 
-Zusätzliches Leerzeichen unter der Grundlinie für unterstrichenen ostasiatischen Text hinzufügen.
+Fügen Sie zusätzlichen Platz unterhalb der Grundlinie für unterstrichenen ostasiatischen Text hinzu.
 
 ```csharp
 public bool SpaceForUL { get; set; }

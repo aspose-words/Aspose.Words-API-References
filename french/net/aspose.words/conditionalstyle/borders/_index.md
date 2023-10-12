@@ -1,14 +1,14 @@
 ---
 title: ConditionalStyle.Borders
 second_title: Référence de l'API Aspose.Words pour .NET
-description: ConditionalStyle propriété. Obtient la collection de bordures de cellule par défaut pour le style conditionnel.
+description: ConditionalStyle propriété. Obtient la collection de bordures de cellules par défaut pour le style conditionnel.
 type: docs
 weight: 10
 url: /fr/net/aspose.words/conditionalstyle/borders/
 ---
 ## ConditionalStyle.Borders property
 
-Obtient la collection de bordures de cellule par défaut pour le style conditionnel.
+Obtient la collection de bordures de cellules par défaut pour le style conditionnel.
 
 ```csharp
 public BorderCollection Borders { get; }
@@ -16,7 +16,7 @@ public BorderCollection Borders { get; }
 
 ### Exemples
 
-Montre comment travailler avec certains styles de zone d'un tableau.
+Montre comment travailler avec certains styles de zones d'un tableau.
 
 ```csharp
 Document doc = new Document();
@@ -37,10 +37,10 @@ builder.EndTable();
 // Crée un style de tableau personnalisé.
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 
-// Les styles conditionnels sont des changements de mise en forme qui n'affectent que certaines cellules du tableau
-// basé sur un prédicat, tel que les cellules se trouvant dans la dernière ligne.
-// Vous trouverez ci-dessous trois façons d'accéder aux styles conditionnels d'un style de tableau à partir de la collection "ConditionalStyles".
-// 1 - Par type de style :
+// Les styles conditionnels sont des modifications de formatage qui n'affectent que certaines cellules du tableau
+// basé sur un prédicat, tel que les cellules de la dernière ligne.
+// Vous trouverez ci-dessous trois manières d'accéder aux styles conditionnels d'un style de tableau à partir de la collection "ConditionalStyles".
+// 1 - Par type de style :
 tableStyle.ConditionalStyles[ConditionalStyleType.FirstRow].Shading.BackgroundPatternColor = Color.AliceBlue;
 
 // 2 - Par index :
@@ -48,10 +48,10 @@ tableStyle.ConditionalStyles[0].Borders.Color = Color.Black;
 tableStyle.ConditionalStyles[0].Borders.LineStyle = LineStyle.DotDash;
 Assert.AreEqual(ConditionalStyleType.FirstRow, tableStyle.ConditionalStyles[0].Type);
 
-// 3 - En tant que propriété :
+// 3 - En propriété :
 tableStyle.ConditionalStyles.FirstRow.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
-// Appliquez le rembourrage et la mise en forme du texte aux styles conditionnels.
+// Applique un remplissage et un formatage de texte aux styles conditionnels.
 tableStyle.ConditionalStyles.LastRow.BottomPadding = 10;
 tableStyle.ConditionalStyles.LastRow.LeftPadding = 10;
 tableStyle.ConditionalStyles.LastRow.RightPadding = 10;

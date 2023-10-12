@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.NoLeading
 second_title: Aspose.Words لمراجع .NET API
-description: CompatibilityOptions ملكية. لا تضيف مسافة بادئة بين سطور النص.
+description: CompatibilityOptions ملكية. عدم إضافة مسافة بين أسطر النص.
 type: docs
 weight: 350
 url: /ar/net/aspose.words.settings/compatibilityoptions/noleading/
 ---
 ## CompatibilityOptions.NoLeading property
 
-لا تضيف مسافة بادئة بين سطور النص.
+عدم إضافة مسافة بين أسطر النص.
 
 ```csharp
 public bool NoLeading { get; set; }

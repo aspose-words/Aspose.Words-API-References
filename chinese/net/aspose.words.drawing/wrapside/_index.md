@@ -1,14 +1,14 @@
 ---
 title: Enum WrapSide
 second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.WrapSide 枚举. 指定文本环绕的形状或图片的哪一侧
+description: Aspose.Words.Drawing.WrapSide 枚举. 指定文本环绕形状或图片的哪一侧
 type: docs
-weight: 1240
+weight: 1390
 url: /zh/net/aspose.words.drawing/wrapside/
 ---
 ## WrapSide enumeration
 
-指定文本环绕的形状或图片的哪一侧。
+指定文本环绕形状或图片的哪一侧。
 
 ```csharp
 public enum WrapSide
@@ -19,9 +19,9 @@ public enum WrapSide
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | Both | `0` | 文档文本在形状的两侧换行。 |
-| Left | `1` | 文档文本仅在形状的左侧换行。形状右侧有一个无文字区域。 |
-| Right | `2` | 文档文本仅在形状的右侧换行。形状左侧有一个无文字区域。 |
-| Largest | `3` | 文档文本在距离页边距最远的形状一侧换行，在形状的另一侧留下文本空闲区域。 |
+| Left | `1` | 文档文本仅在形状的左侧换行。形状右侧有一个无文本区域。 |
+| Right | `2` | 文档文本仅在形状的右侧换行。形状左侧有一个无文本区域。 |
+| Largest | `3` | 文档文本在距离页边距最远的形状一侧换行，在形状的另一侧留下文本自由区域。 |
 | Default | `0` | 默认值为Both. |
 
 ### 例子

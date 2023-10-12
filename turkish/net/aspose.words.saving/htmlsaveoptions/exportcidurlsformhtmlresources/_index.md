@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.ExportCidUrlsForMhtmlResources
 second_title: Aspose.Words for .NET API Referansı
-description: HtmlSaveOptions mülk. MHTML belgelerinde bulunan kaynaklara resimler yazı tipleri CSS başvurmak için CID İçerik Kimliği URLlerinin kullanılıp kullanılmayacağını belirtir. Varsayılan değeryanlış .
+description: HtmlSaveOptions mülk. MHTML belgelerinde bulunan kaynaklara resimler yazı tipleri CSS başvurmak için CID İçerik Kimliği URLlerinin kullanılıp kullanılmayacağını belirtir. Varsayılan değerYANLIŞ .
 type: docs
-weight: 120
+weight: 110
 url: /tr/net/aspose.words.saving/htmlsaveoptions/exportcidurlsformhtmlresources/
 ---
 ## HtmlSaveOptions.ExportCidUrlsForMhtmlResources property
 
-MHTML belgelerinde bulunan kaynaklara (resimler, yazı tipleri, CSS) başvurmak için CID (İçerik Kimliği) URL'lerinin kullanılıp kullanılmayacağını belirtir. Varsayılan değer`yanlış` .
+MHTML belgelerinde bulunan kaynaklara (resimler, yazı tipleri, CSS) başvurmak için CID (İçerik Kimliği) URL'lerinin kullanılıp kullanılmayacağını belirtir. Varsayılan değer:`YANLIŞ` .
 
 ```csharp
 public bool ExportCidUrlsForMhtmlResources { get; set; }
@@ -16,22 +16,22 @@ public bool ExportCidUrlsForMhtmlResources { get; set; }
 
 ### Notlar
 
-Bu seçenek yalnızca MHTML'ye kaydedilmekte olan belgeleri etkiler.
+Bu seçenek yalnızca MHTML'ye kaydedilen belgeleri etkiler.
 
-Varsayılan olarak, MHTML belgelerindeki kaynaklara dosya adıyla başvurulur (örneğin, "image.png") ve bu , MIME bölümlerinin "Content-Location" başlıklarıyla eşleştirilir.
+Varsayılan olarak, MHTML belgelerindeki kaynaklara dosya adıyla başvurulur (örneğin, "image.png") ve bu , MIME bölümlerinin "İçerik-Konum" başlıklarıyla eşleştirilir.
 
-Bu seçenek, kaynak dosyalarına yapılan başvuruların CID (Content-ID) URL'leri (örneğin, "cid:image.png") olarak yazıldığı ve "Content-ID" başlıklarıyla eşleştirildiği alternatif bir yöntemi etkinleştirir.
+Bu seçenek, kaynak dosyalarına yapılan referansların CID (Content-ID) URL'leri (örneğin, "cid:image.png") olarak yazıldığı ve "Content-ID" başlıklarıyla eşleştirildiği alternatif bir yöntemi etkinleştirir.
 
-Teorik olarak, iki referans verme yöntemi arasında hiçbir fark olmamalı ve her ikisi de herhangi bir tarayıcıda veya posta aracısında iyi çalışmalıdır. Ancak uygulamada, bazı aracılar kaynakları dosya adına göre getiremez. Tarayıcınız veya posta aracınız bir MTHML belgesinde bulunan kaynakları yüklemeyi reddederse (görüntüleri göstermiyor veya CSS stillerini yüklemiyorsa), belgeyi CID URL'leriyle dışa aktarmayı deneyin.
+Teorik olarak, iki referanslama yöntemi arasında hiçbir fark olmamalıdır ve her ikisi de herhangi bir tarayıcıda veya posta aracısında fine çalışmalıdır. Ancak uygulamada bazı aracılar kaynakları dosya adına göre getirmede başarısız olur. Eğer tarayıcınız veya posta aracınız bir MTHML belgesinde yer alan kaynakları yüklemeyi reddediyorsa (resimleri göstermiyor veya CSS stillerini yüklemiyorsa), belgeyi CID URL'leri ile dışa aktarmayı deneyin.
 
 ### Örnekler
 
-Çıktı MHTML belgeleri için içerik kimliklerinin nasıl etkinleştirileceğini gösterir.
+Çıkış MHTML belgeleri için içerik kimliklerinin nasıl etkinleştirileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Bu bayrağın ayarlanması "Content-Location" etiketlerinin yerini alacak
+// Bu bayrağın ayarlanması "İçerik-Konum" etiketlerinin yerini alacaktır
 // giriş belgesindeki her kaynak için "Content-ID" etiketleriyle.
 HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Mhtml)
 {

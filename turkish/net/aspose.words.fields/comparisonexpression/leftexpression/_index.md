@@ -16,7 +16,7 @@ public string LeftExpression { get; }
 
 ### Örnekler
 
-EĞER ve KARŞILAŞTIR alanları için özel değerlendirmenin nasıl uygulanacağını gösterir.
+IF ve COMPARE alanları için özel değerlendirmenin nasıl uygulanacağını gösterir.
 
 ```csharp
 public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparisonResult, string comparisonError,
@@ -30,10 +30,10 @@ public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparison
 
     // Bu örnekte kullandığımız alan kodları:
     // 1. " IF {0} {1} {2} \"doğru argüman\" \"yanlış argüman\" ".
-    // 2. " KARŞILAŞTIR {0} {1} {2} ".
+    // 2. " KARŞILAŞTIRIN {0} {1} {2} ".
     Field field = builder.InsertField(string.Format(fieldCode, left, @operator, right), null);
 
-    // "comparisonResult" tanımsız ise bool yerine string ile "ComparisonEvaluationResult" yaratırız.
+    // "ComparisonEvaluationResult" tanımsızsa bool yerine string ile "ComparisonEvaluationResult" oluştururuz.
     ComparisonEvaluationResult result = comparisonResult != -1
         ? new ComparisonEvaluationResult(comparisonResult == 1)
         : comparisonError != null ? new ComparisonEvaluationResult(comparisonError) : null;
@@ -48,7 +48,7 @@ public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparison
 }
 
 /// <summary>
-/// FieldIf ve FieldCompare için karşılaştırma ifadeleri değerlendirmesi.
+/// FieldIf ve FieldCompare için karşılaştırma ifadelerinin değerlendirilmesi.
 /// </summary>
 private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 {

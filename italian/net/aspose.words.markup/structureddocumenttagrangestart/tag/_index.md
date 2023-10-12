@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTagRangeStart.Tag
 second_title: Aspose.Words per .NET API Reference
-description: StructuredDocumentTagRangeStart proprietà. Specifica un tag associato al nodo tag del documento strutturato corrente. Non può essere null.
+description: StructuredDocumentTagRangeStart proprietà. Specifica un tag associato al nodo tag del documento strutturato corrente. Non può esserenullo .
 type: docs
 weight: 150
 url: /it/net/aspose.words.markup/structureddocumenttagrangestart/tag/
 ---
 ## StructuredDocumentTagRangeStart.Tag property
 
-Specifica un tag associato al nodo tag del documento strutturato corrente. Non può essere null.
+Specifica un tag associato al nodo tag del documento strutturato corrente. Non può essere`nullo` .
 
 ```csharp
 public string Tag { get; set; }

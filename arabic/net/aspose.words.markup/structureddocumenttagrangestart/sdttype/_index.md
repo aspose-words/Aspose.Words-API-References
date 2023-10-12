@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTagRangeStart.SdtType
 second_title: Aspose.Words لمراجع .NET API
-description: StructuredDocumentTagRangeStart ملكية. يحصل على نوع علامة المستند المنظمة هذه.
+description: StructuredDocumentTagRangeStart ملكية. الحصول على نوع علامة المستند المنظمة هذه.
 type: docs
 weight: 140
 url: /ar/net/aspose.words.markup/structureddocumenttagrangestart/sdttype/
 ---
 ## StructuredDocumentTagRangeStart.SdtType property
 
-يحصل على نوع علامة المستند المنظمة هذه.
+الحصول على نوع علامة المستند المنظمة هذه.
 
 ```csharp
 public SdtType SdtType { get; }

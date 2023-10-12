@@ -26,12 +26,12 @@ Zeigt die Beziehung zwischen den Eigenschaften „HeadingPairs“ und „TitlesO
 Document doc = new Document(MyDir + "Heading pairs and titles of parts.docx");
 
 // Wir können die kombinierten Werte dieser Sammlungen finden über
-// "Datei" -> "Eigenschaften" -> "Erweiterte Eigenschaften" -> Reiter „Inhalt“.
-// Die Eigenschaft HeadingPairs ist eine Sammlung von <string, int> paart das
+// "Datei" -> „Eigenschaften“ -> „Erweiterte Eigenschaften“ -> Registerkarte „Inhalt“.
+// Die HeadingPairs-Eigenschaft ist eine Sammlung von <string, int> passt das zusammen
 // bestimmt, über wie viele Dokumentteile sich eine Überschrift erstreckt.
 object[] headingPairs = doc.BuiltInDocumentProperties.HeadingPairs;
 
-// Die Eigenschaft TitlesOfParts enthält die Namen der Teile, die zu den obigen Überschriften gehören.
+// Die Eigenschaft TitlesOfParts enthält die Namen der Teile, die zu den oben genannten Überschriften gehören.
 string[] titlesOfParts = doc.BuiltInDocumentProperties.TitlesOfParts;
 
 int headingPairsIndex = 0;

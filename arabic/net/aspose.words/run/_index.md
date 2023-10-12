@@ -3,12 +3,14 @@ title: Class Run
 second_title: Aspose.Words لمراجع .NET API
 description: Aspose.Words.Run فصل. يمثل سلسلة من الأحرف بنفس تنسيق الخط.
 type: docs
-weight: 4560
+weight: 4820
 url: /ar/net/aspose.words/run/
 ---
 ## Run class
 
 يمثل سلسلة من الأحرف بنفس تنسيق الخط.
+
+لمعرفة المزيد، قم بزيارة[البرمجة بالوثائق](https://docs.aspose.com/words/net/programming-with-documents/) مقالة توثيقية.
 
 ```csharp
 public class Run : Inline
@@ -18,50 +20,52 @@ public class Run : Inline
 
 | اسم | وصف |
 | --- | --- |
-| [Run](run/#constructor)(DocumentBase) | يقوم بتهيئة مثيل جديد لملف **يجري** فئة . |
-| [Run](run/#constructor_1)(DocumentBase, string) | يقوم بتهيئة مثيل جديد لملف **يجري** فئة . |
+| [Run](run/#constructor)(DocumentBase) | تهيئة مثيل جديد لـ`Run` فئة. |
+| [Run](run/#constructor_1)(DocumentBase, string) | تهيئة مثيل جديد لـ **يجري** فئة. |
 
 ## الخصائص
 
 | اسم | وصف |
 | --- | --- |
-| [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | يحدد معرف العقدة المخصص . |
-| virtual [Document](../../aspose.words/node/document/) { get; } | الحصول على المستند الذي تنتمي إليه هذه العقدة . |
-| [Font](../../aspose.words/inline/font/) { get; } | يوفر الوصول إلى تنسيق خط هذا الكائن. |
-| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | إرجاع صحيح إذا كانت هذه العقدة يمكن أن تحتوي على عقد أخرى. |
+| [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | يحدد معرف العقدة المخصصة. |
+| virtual [Document](../../aspose.words/node/document/) { get; } | الحصول على المستند الذي تنتمي إليه هذه العقدة. |
+| [Font](../../aspose.words/inline/font/) { get; } | يوفر الوصول إلى تنسيق الخط لهذا الكائن. |
+| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | إرجاع`حقيقي` إذا كانت هذه العقدة يمكن أن تحتوي على عقد أخرى. |
 | [IsDeleteRevision](../../aspose.words/inline/isdeleterevision/) { get; } | إرجاع صحيح إذا تم حذف هذا الكائن في Microsoft Word أثناء تمكين تعقب التغييرات. |
 | [IsFormatRevision](../../aspose.words/inline/isformatrevision/) { get; } | إرجاع صحيح إذا تم تغيير تنسيق الكائن في Microsoft Word أثناء تمكين تعقب التغييرات. |
 | [IsInsertRevision](../../aspose.words/inline/isinsertrevision/) { get; } | إرجاع صحيح إذا تم إدراج هذا الكائن في Microsoft Word أثناء تمكين تعقب التغييرات. |
-| [IsMoveFromRevision](../../aspose.words/inline/ismovefromrevision/) { get; } | عوائد **حقيقي** إذا تم نقل (حذف) هذا الكائن في Microsoft Word أثناء تمكين تعقب التغييرات. |
-| [IsMoveToRevision](../../aspose.words/inline/ismovetorevision/) { get; } | عوائد **حقيقي** إذا تم نقل هذا الكائن (إدراجه) في Microsoft Word أثناء تمكين تعقب التغيير. |
+| [IsMoveFromRevision](../../aspose.words/inline/ismovefromrevision/) { get; } | إرجاع`حقيقي` إذا تم نقل هذا الكائن (حذفه) في Microsoft Word أثناء تمكين تعقب التغييرات. |
+| [IsMoveToRevision](../../aspose.words/inline/ismovetorevision/) { get; } | إرجاع`حقيقي` إذا تم نقل هذا الكائن (إدراجه) في Microsoft Word أثناء تمكين تعقب التغييرات. |
+| [IsPhoneticGuide](../../aspose.words/run/isphoneticguide/) { get; } | الحصول على قيمة منطقية تشير إلى أن التشغيل هو دليل صوتي. |
 | [NextSibling](../../aspose.words/node/nextsibling/) { get; } | يحصل على العقدة التي تلي هذه العقدة مباشرة. |
-| override [NodeType](../../aspose.words/run/nodetype/) { get; } | عوائد **NodeType. تشغيل** . |
-| [ParentNode](../../aspose.words/node/parentnode/) { get; } | الحصول على الأصل المباشر لهذه العقدة. |
-| [ParentParagraph](../../aspose.words/inline/parentparagraph/) { get; } | استرداد الأصل[`Paragraph`](../paragraph/) من هذه العقدة. |
+| override [NodeType](../../aspose.words/run/nodetype/) { get; } | إرجاعRun . |
+| [ParentNode](../../aspose.words/node/parentnode/) { get; } | يحصل على الأصل المباشر لهذه العقدة. |
+| [ParentParagraph](../../aspose.words/inline/parentparagraph/) { get; } | يسترد الأصل[`Paragraph`](../paragraph/) من هذه العقدة. |
+| [PhoneticGuide](../../aspose.words/run/phoneticguide/) { get; } | يحصل على[`PhoneticGuide`](./phoneticguide/) الكائن. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | يحصل على العقدة التي تسبق هذه العقدة مباشرة. |
-| [Range](../../aspose.words/node/range/) { get; } | إرجاع أ **نطاق** الكائن الذي يمثل جزء المستند الموجود في هذه العقدة. |
+| [Range](../../aspose.words/node/range/) { get; } | إرجاع أ[`Range`](../range/) الكائن الذي يمثل جزء المستند الموجود في هذه العقدة. |
 | [Text](../../aspose.words/run/text/) { get; set; } | الحصول على نص التشغيل أو تعيينه. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| override [Accept](../../aspose.words/run/accept/)(DocumentVisitor) | يقبل الزائر . |
-| [Clone](../../aspose.words/node/clone/)(bool) | لإنشاء نسخة مكررة من العقدة . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | يحصل على أول سلف محدد[`NodeType`](../nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | الحصول على الأصل الأول لنوع الكائن المحدد. |
-| override [GetText](../../aspose.words/run/gettext/)() | يحصل على نص التشغيل . |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | الحصول على العقدة التالية وفقًا لخوارزمية اجتياز الشجرة بالطلب المسبق. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | الحصول على العقدة السابقة وفقًا لخوارزمية اجتياز الشجرة بالطلب المسبق. |
+| override [Accept](../../aspose.words/run/accept/)(DocumentVisitor) | يقبل الزائر. |
+| [Clone](../../aspose.words/node/clone/)(bool) | إنشاء نسخة مكررة من العقدة. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | يحصل على السلف الأول للمحدد[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | الحصول على السلف الأول لنوع الكائن المحدد. |
+| override [GetText](../../aspose.words/run/gettext/)() | يحصل على نص التشغيل. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | الحصول على العقدة التالية وفقًا لخوارزمية اجتياز شجرة الطلب المسبق. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | الحصول على العقدة السابقة وفقًا لخوارزمية اجتياز شجرة الطلب المسبق. |
 | [Remove](../../aspose.words/node/remove/)() | يزيل نفسه من الأصل. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | يصدر محتوى العقدة إلى سلسلة بالتنسيق المحدد. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | يصدر محتوى العقدة إلى سلسلة باستخدام خيارات الحفظ المحددة. |
+| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | تصدير محتوى العقدة إلى سلسلة بالتنسيق المحدد. |
+| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | تصدير محتوى العقدة إلى سلسلة باستخدام خيارات الحفظ المحددة. |
 
 ### ملاحظات
 
-يتم تخزين كل نص المستند في مجموعات من النصوص.
+يتم تخزين كل نص المستند في مجموعات من النص.
 
-**يجري** يمكن أن يكون فقط تابعًا لـ **فقرة** أو مضمنة **منظم المستند**.
+`Run` لا يمكن إلا أن يكون طفلا[`Paragraph`](../paragraph/) أو مضمنة[`StructuredDocumentTag`](../../aspose.words.markup/structureddocumenttag/).
 
 ### أمثلة
 
@@ -85,27 +89,27 @@ doc.Save(ArtifactsDir + "Font.CreateFormattedRun.docx");
 ```csharp
 Document doc = new Document();
 
-// يحتوي المستند الفارغ على قسم واحد وجسم واحد وفقرة واحدة.
-// اتصل بطريقة "RemoveAllChildren" لإزالة كل هذه العقد ،
-// وتنتهي بعقدة مستند بدون توابع.
+// يحتوي المستند الفارغ على قسم واحد ونص واحد وفقرة واحدة.
+// اتصل بالطريقة "RemoveAllChildren" لإزالة كل تلك العقد،
+// وينتهي الأمر بعقدة مستند بدون أطفال.
 doc.RemoveAllChildren();
 
 // لا يحتوي هذا المستند الآن على عقد فرعية مركبة يمكننا إضافة محتوى إليها.
-// إذا كنا نرغب في تعديله ، فسنحتاج إلى إعادة ملء مجموعة العقد الخاصة به.
-// أولاً ، قم بإنشاء قسم جديد ، ثم قم بإلحاقه كعقدة فرعية بصفته فرعيًا.
+// إذا أردنا تعديله، فسنحتاج إلى إعادة ملء مجموعة العقد الخاصة به.
+// أولاً، قم بإنشاء قسم جديد، ثم قم بإلحاقه كفرع لعقدة المستند الجذر.
 Section section = new Section(doc);
 doc.AppendChild(section);
 
-// تعيين بعض خصائص إعداد الصفحة للقسم.
+// قم بتعيين بعض خصائص إعداد الصفحة للقسم.
 section.PageSetup.SectionStart = SectionStart.NewPage;
 section.PageSetup.PaperSize = PaperSize.Letter;
 
-// يحتاج القسم إلى جسم يحتوي على جميع محتوياته ويعرضها
-// في الصفحة الواقعة بين رأس وتذييل القسم.
+// يحتاج القسم إلى نص يحتوي على جميع محتوياته ويعرضها
+// في الصفحة الواقعة بين رأس القسم وتذييله.
 Body body = new Body(doc);
 section.AppendChild(body);
 
-// قم بإنشاء فقرة ، وقم بتعيين بعض خصائص التنسيق ، ثم قم بإلحاقها كطفل بالجسم.
+// أنشئ فقرة، وعيّن بعض خصائص التنسيق، ثم ألحقها كطفل فرعي بالنص.
 Paragraph para = new Paragraph(doc);
 
 para.ParagraphFormat.StyleName = "Heading 1";
@@ -113,8 +117,8 @@ para.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 body.AppendChild(para);
 
-// أخيرًا ، أضف بعض المحتوى لعمل المستند. إنشاء شوط ،
-// قم بتعيين مظهرها ومحتوياتها ، ثم قم بإلحاقها كطفل بالفقرة.
+// وأخيرًا، أضف بعض المحتوى لإجراء المستند. إنشاء تشغيل،
+// اضبط مظهرها ومحتوياتها، ثم ألحقها كطفل للفقرة.
 Run run = new Run(doc);
 run.Text = "Hello World!";
 run.Font.Color = Color.Red;
@@ -125,31 +129,31 @@ Assert.AreEqual("Hello World!", doc.GetText().Trim());
 doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 ```
 
-يوضح كيفية إضافة وتحديث وحذف العقد الفرعية في مجموعة العناصر الفرعية الخاصة بالعقدة المركبة.
+يوضح كيفية إضافة وتحديث وحذف العقد الفرعية في مجموعة CompositeNode الفرعية.
 
 ```csharp
 Document doc = new Document();
 
-// يحتوي المستند الفارغ ، افتراضيًا ، على فقرة واحدة.
+// يحتوي المستند الفارغ افتراضيًا على فقرة واحدة.
 Assert.AreEqual(1, doc.FirstSection.Body.Paragraphs.Count);
 
-// يمكن أن تحتوي العقد المركبة مثل فقرتنا على عقد مركبة ومضمنة أخرى مثل الأطفال.
+// العقد المركبة مثل فقرتنا يمكن أن تحتوي على عقد مركبة ومضمنة أخرى كأبناء.
 Paragraph paragraph = doc.FirstSection.Body.FirstParagraph;
 Run paragraphText = new Run(doc, "Initial text. ");
 paragraph.AppendChild(paragraphText);
 
-// إنشاء ثلاث عقد تشغيل أخرى.
+// أنشئ ثلاث عقد تشغيل أخرى.
 Run run1 = new Run(doc, "Run 1. ");
 Run run2 = new Run(doc, "Run 2. ");
 Run run3 = new Run(doc, "Run 3. ");
 
-// لن يعرض نص المستند عمليات التشغيل هذه حتى نقوم بإدخالها في عقدة مركبة
-// هذا بحد ذاته جزء من شجرة عقدة المستند ، كما فعلنا مع التشغيل الأول.
-// يمكننا تحديد مكان محتويات نص العقد التي ندرجها
-// في المستند عن طريق تحديد موقع الإدراج المتعلق بعقدة أخرى في الفقرة.
+// لن يعرض نص المستند عمليات التشغيل هذه حتى نقوم بإدراجها في عقدة مركبة
+// الذي يعد في حد ذاته جزءًا من شجرة عقدة المستند، كما فعلنا مع التشغيل الأول.
+// يمكننا تحديد مكان محتويات النص للعقد التي نقوم بإدراجها
+// يظهر في المستند عن طريق تحديد موقع الإدراج بالنسبة لعقدة أخرى في الفقرة.
 Assert.AreEqual("Initial text.", paragraph.GetText().Trim());
 
-// أدخل المدى الثاني في الفقرة أمام التشغيل الأولي.
+// أدخل التشغيل الثاني في الفقرة الموجودة أمام التشغيل الأولي.
 paragraph.InsertBefore(run2, paragraphText);
 
 Assert.AreEqual("Run 2. Initial text.", paragraph.GetText().Trim());

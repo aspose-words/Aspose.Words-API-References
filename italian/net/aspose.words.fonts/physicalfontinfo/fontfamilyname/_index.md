@@ -1,14 +1,14 @@
 ---
 title: PhysicalFontInfo.FontFamilyName
 second_title: Aspose.Words per .NET API Reference
-description: PhysicalFontInfo proprietà. Cognome del font.
+description: PhysicalFontInfo proprietà. Cognome del carattere.
 type: docs
 weight: 20
 url: /it/net/aspose.words.fonts/physicalfontinfo/fontfamilyname/
 ---
 ## PhysicalFontInfo.FontFamilyName property
 
-Cognome del font.
+Cognome del carattere.
 
 ```csharp
 public string FontFamilyName { get; }
@@ -19,7 +19,7 @@ public string FontFamilyName { get; }
 Mostra come elencare i caratteri disponibili.
 
 ```csharp
-// Configura Aspose.Words per generare i font da una cartella personalizzata, quindi stampa tutti i font disponibili.
+// Configura Aspose.Words per ottenere i caratteri da una cartella personalizzata, quindi stampa tutti i caratteri disponibili.
 FontSourceBase[] folderFontSource = { new FolderFontSource(FontsDir, true) };
 
 foreach (PhysicalFontInfo fontInfo in folderFontSource[0].GetAvailableFonts())

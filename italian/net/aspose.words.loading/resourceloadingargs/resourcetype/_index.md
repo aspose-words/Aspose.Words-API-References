@@ -16,17 +16,18 @@ public ResourceType ResourceType { get; }
 
 ### Esempi
 
-Mostra come personalizzare il processo di caricamento di risorse esterne in un documento.
+Mostra come personalizzare il processo di caricamento delle risorse esterne in un documento.
 
 ```csharp
+public void ResourceLoadingCallback()
 {
     Document doc = new Document();
     doc.ResourceLoadingCallback = new ImageNameHandler();
 
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Le immagini di solito vengono inserite utilizzando un URI o un array di byte.
-    // Ogni istanza di un carico di risorse chiamerà il metodo ResourceLoading del nostro callback.
+    // Le immagini solitamente vengono inserite utilizzando un URI o un array di byte.
+    // Ogni istanza di caricamento di una risorsa chiamerà il metodo ResourceLoading del nostro callback.
     builder.InsertImage("Google logo");
     builder.InsertImage("Aspose logo");
     builder.InsertImage("Watermark");
@@ -34,16 +35,17 @@ Mostra come personalizzare il processo di caricamento di risorse esterne in un d
     Assert.AreEqual(3, doc.GetChildNodes(NodeType.Shape, true).Count);
 
     doc.Save(ArtifactsDir + "DocumentBase.ResourceLoadingCallback.docx");
+}
 
 /// <summary>
-/// Ci consente di caricare immagini in un documento utilizzando abbreviazioni predefinite, al contrario degli URI.
-/// Questo separerà la logica di caricamento delle immagini dal resto della costruzione del documento.
+/// Ci consente di caricare immagini in un documento utilizzando abbreviazioni predefinite, anziché URI.
+/// Ciò separerà la logica di caricamento dell'immagine dal resto della costruzione del documento.
 /// </summary>
 private class ImageNameHandler : IResourceLoadingCallback
 {
     public ResourceLoadingAction ResourceLoading(ResourceLoadingArgs args)
     {
-        // Se questa richiamata incontra una delle scorciatoie dell'immagine durante il caricamento di un'immagine,
+        // Se questo callback incontra una delle scorciatoie dell'immagine durante il caricamento di un'immagine,
         // applicherà una logica univoca per ogni abbreviazione definita invece di trattarla come un URI.
         if (args.ResourceType == ResourceType.Image)
             switch (args.OriginalUri)

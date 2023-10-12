@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.FootnoteLayoutLikeWW8
 second_title: Aspose.Words für .NET-API-Referenz
-description: CompatibilityOptions eigendom. Word 6.x/95/97 Fußnotenplatzierung emulieren.
+description: CompatibilityOptions eigendom. Fußnotenplatzierung in Word 6.x/95/97 emulieren.
 type: docs
 weight: 260
 url: /de/net/aspose.words.settings/compatibilityoptions/footnotelayoutlikeww8/
 ---
 ## CompatibilityOptions.FootnoteLayoutLikeWW8 property
 
-Word 6.x/95/97 Fußnotenplatzierung emulieren.
+Fußnotenplatzierung in Word 6.x/95/97 emulieren.
 
 ```csharp
 public bool FootnoteLayoutLikeWW8 { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: Table.StyleOptions
 second_title: Aspose.Words für .NET-API-Referenz
-description: Table eigendom. Ruft BitFlags ab oder setzt diese die angeben wie ein Tabellenstil auf diese Tabelle angewendet wird.
+description: Table eigendom. Ruft Bitflags ab oder setzt diese die angeben wie ein Tabellenstil auf diese Tabelle angewendet wird.
 type: docs
 weight: 300
 url: /de/net/aspose.words.tables/table/styleoptions/
 ---
 ## Table.StyleOptions property
 
-Ruft Bit-Flags ab oder setzt diese, die angeben, wie ein Tabellenstil auf diese Tabelle angewendet wird.
+Ruft Bitflags ab oder setzt diese, die angeben, wie ein Tabellenstil auf diese Tabelle angewendet wird.
 
 ```csharp
 public TableStyleOptions StyleOptions { get; set; }
@@ -16,7 +16,7 @@ public TableStyleOptions StyleOptions { get; set; }
 
 ### Beispiele
 
-Zeigt, wie eine neue Tabelle erstellt wird, während ein Stil angewendet wird.
+Zeigt, wie man eine neue Tabelle erstellt und dabei einen Stil anwendet.
 
 ```csharp
 Document doc = new Document();
@@ -30,7 +30,7 @@ builder.InsertCell();
 // Beachten Sie, dass beim Speichern im .doc-Format nicht alle Tabellenstile verfügbar sind.
 table.StyleIdentifier = StyleIdentifier.MediumShading1Accent1;
 
-// Wenden Sie den Stil teilweise auf Features der Tabelle an, basierend auf Prädikaten, und erstellen Sie dann die Tabelle.
+// Den Stil basierend auf Prädikaten teilweise auf Features der Tabelle anwenden und dann die Tabelle erstellen.
 table.StyleOptions =
     TableStyleOptions.FirstColumn | TableStyleOptions.RowBands | TableStyleOptions.FirstRow;
 table.AutoFit(AutoFitBehavior.AutoFitToContents);

@@ -1,14 +1,14 @@
 ---
 title: RevisionOptions.RevisionBarsPosition
 second_title: Aspose.Words لمراجع .NET API
-description: RevisionOptions ملكية. الحصول على أو تعيين موضع عرض أشرطة المراجعة. القيمة الافتراضية هيOutside .
+description: RevisionOptions ملكية. الحصول على أو تعيين موضع العرض لأشرطة المراجعة. القيمة الافتراضية هيOutside .
 type: docs
 weight: 140
 url: /ar/net/aspose.words.layout/revisionoptions/revisionbarsposition/
 ---
 ## RevisionOptions.RevisionBarsPosition property
 
-الحصول على أو تعيين موضع عرض أشرطة المراجعة. القيمة الافتراضية هيOutside .
+الحصول على أو تعيين موضع العرض لأشرطة المراجعة. القيمة الافتراضية هيOutside .
 
 ```csharp
 public HorizontalAlignment RevisionBarsPosition { get; set; }
@@ -16,7 +16,7 @@ public HorizontalAlignment RevisionBarsPosition { get; set; }
 
 ### ملاحظات
 
-قيمCenter وInside غير مسموح بها وسوف تسببArgumentOutOfRangeException.
+قيمCenter وInside غير مسموح به وسيتسببArgumentOutOfRangeException.
 
 ### أنظر أيضا
 

@@ -1,14 +1,14 @@
 ---
 title: Interface IHyphenationCallback
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.IHyphenationCallback интерфейс. Реализован классами которые могут регистрировать словари переносов.
+description: Aspose.Words.IHyphenationCallback интерфейс. Реализовано классами которые могут регистрировать словари расстановки переносов.
 type: docs
-weight: 2990
+weight: 3190
 url: /ru/net/aspose.words/ihyphenationcallback/
 ---
 ## IHyphenationCallback interface
 
-Реализован классами, которые могут регистрировать словари переносов.
+Реализовано классами, которые могут регистрировать словари расстановки переносов.
 
 ```csharp
 public interface IHyphenationCallback
@@ -18,32 +18,33 @@ public interface IHyphenationCallback
 
 | Имя | Описание |
 | --- | --- |
-| [RequestDictionary](../../aspose.words/ihyphenationcallback/requestdictionary/)(string) | Уведомляет приложение о том, что словарь переносов для указанного языка не найден и, возможно, его необходимо зарегистрировать. |
+| [RequestDictionary](../../aspose.words/ihyphenationcallback/requestdictionary/)(string) | Уведомляет приложение о том, что словарь расстановки переносов для указанного языка не найден и, возможно, его необходимо зарегистрировать. |
 
 ### Примеры
 
 Показывает, как открыть и зарегистрировать словарь из файла.
 
 ```csharp
+public void RegisterDictionary()
 {
-    // Настраиваем обратный вызов, который отслеживает предупреждения, возникающие при регистрации словаря переносов.
+    // Настраиваем обратный вызов, который отслеживает предупреждения, возникающие во время регистрации словаря расстановки переносов.
     WarningInfoCollection warningInfoCollection = new WarningInfoCollection();
     Hyphenation.WarningCallback = warningInfoCollection;
 
-    // Зарегистрировать английский (США) словарь переносов по потоку.
+    // Регистрируем английский (США) словарь расстановки переносов по потоку.
     Stream dictionaryStream = new FileStream(MyDir + "hyph_en_US.dic", FileMode.Open);
     Hyphenation.RegisterDictionary("en-US", dictionaryStream);
 
     Assert.AreEqual(0, warningInfoCollection.Count);
 
-    // Откройте документ с языковым стандартом, в котором Microsoft Word не может использовать дефис на англоязычном компьютере, например немецком.
+    // Откройте документ с языковым стандартом, в котором Microsoft Word не может расставлять переносы на английской машине, например, на немецком.
     Document doc = new Document(MyDir + "German text.docx");
 
-    // Чтобы расставлять переносы в этом документе при сохранении, нам нужен словарь переносов для языкового кода "de-CH".
-    // Этот обратный вызов будет обрабатывать автоматический запрос для этого словаря.
+    // Чтобы расставить переносы в этом документе при сохранении, нам нужен словарь расстановки переносов для кода языка "de-CH".
+    // Этот обратный вызов будет обрабатывать автоматический запрос этого словаря.
     Hyphenation.Callback = new CustomHyphenationDictionaryRegister();
 
-    // Когда мы сохраним документ, немецкие переносы вступят в силу.
+    // Когда мы сохраним документ, вступят в силу немецкие переносы.
     doc.Save(ArtifactsDir + "Hyphenation.RegisterDictionary.pdf");
 
     // Этот словарь содержит два одинаковых шаблона, которые вызовут предупреждение.
@@ -55,7 +56,7 @@ public interface IHyphenationCallback
 }
 
 /// <summary>
-/// Связывает языковые коды ISO с именами файлов локальной системы для файлов словарей расстановки переносов.
+/// Связывает языковые коды ISO с именами локальных системных файлов для файлов словаря расстановки переносов.
 /// </summary>
 private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 {

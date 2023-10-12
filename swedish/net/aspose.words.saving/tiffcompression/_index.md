@@ -3,7 +3,7 @@ title: Enum TiffCompression
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Saving.TiffCompression uppräkning. Anger vilken typ av komprimering som ska tillämpas när sidbilder sparas i en TIFFfil.
 type: docs
-weight: 5350
+weight: 5630
 url: /sv/net/aspose.words.saving/tiffcompression/
 ---
 ## TiffCompression enumeration

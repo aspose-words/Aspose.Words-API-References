@@ -1,14 +1,14 @@
 ---
 title: SignatureLineOptions.Email
 second_title: Aspose.Words för .NET API Referens
-description: SignatureLineOptions fast egendom. Hämtar eller ställer in den föreslagna undertecknarens epostadress. Standardvärdet för den här egenskapen är tom sträng Empty .
+description: SignatureLineOptions fast egendom. Hämtar eller ställer in den föreslagna undertecknarens epostadress. Standardvärdet för den här egenskapen är tom sträng Empty.
 type: docs
 weight: 40
 url: /sv/net/aspose.words/signaturelineoptions/email/
 ---
 ## SignatureLineOptions.Email property
 
-Hämtar eller ställer in den föreslagna undertecknarens e-postadress. Standardvärdet för den här egenskapen är **tom sträng** (Empty ).
+Hämtar eller ställer in den föreslagna undertecknarens e-postadress. Standardvärdet för den här egenskapen är **tom sträng** (Empty).
 
 ```csharp
 public string Email { get; set; }

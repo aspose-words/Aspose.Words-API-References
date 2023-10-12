@@ -3,7 +3,7 @@ title: Enum LegendPosition
 second_title: Aspose.Words für .NET-API-Referenz
 description: Aspose.Words.Drawing.Charts.LegendPosition opsomming. Gibt die möglichen Positionen für eine Diagrammlegende an.
 type: docs
-weight: 780
+weight: 910
 url: /de/net/aspose.words.drawing.charts/legendposition/
 ---
 ## LegendPosition enumeration
@@ -41,11 +41,11 @@ Assert.AreEqual("Series 1", chart.Series[0].Name);
 Assert.AreEqual("Series 2", chart.Series[1].Name);
 Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-// Bewegen Sie die Legende des Diagramms in die obere rechte Ecke.
+// Die Legende des Diagramms in die obere rechte Ecke verschieben.
 ChartLegend legend = chart.Legend;
 legend.Position = LegendPosition.TopRight;
 
-// Geben Sie anderen Diagrammelementen wie dem Diagramm mehr Platz, indem Sie ihnen erlauben, die Legende zu überlappen.
+// Geben Sie anderen Diagrammelementen, z. B. dem Diagramm, mehr Platz, indem Sie ihnen erlauben, die Legende zu überlappen.
 legend.Overlay = true;
 
 doc.Save(ArtifactsDir + "Charts.ChartLegend.docx");

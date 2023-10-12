@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.InsertNode
 second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentBuilder methode. Fügt einen Knoten auf Textebene innerhalb des aktuellen Absatzes vor dem Cursor ein.
+description: DocumentBuilder methode. Fügt einen Knoten vor dem Cursor ein.
 type: docs
-weight: 360
+weight: 390
 url: /de/net/aspose.words/documentbuilder/insertnode/
 ---
 ## DocumentBuilder.InsertNode method
 
-Fügt einen Knoten auf Textebene innerhalb des aktuellen Absatzes vor dem Cursor ein.
+Fügt einen Knoten vor dem Cursor ein.
 
 ```csharp
 public void InsertNode(Node node)
@@ -24,8 +24,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 string imageFileName = ImageDir + "Windows MetaFile.wmf";
 
-// Nachfolgend finden Sie zwei Möglichkeiten, ein Bild auf eine Form anzuwenden, damit es angezeigt werden kann.
-// 1 - Stellen Sie die Form so ein, dass sie das Bild enthält.
+// Im Folgenden finden Sie zwei Möglichkeiten, ein Bild auf eine Form anzuwenden, damit diese angezeigt werden kann.
+// 1 – Legen Sie die Form so fest, dass sie das Bild enthält.
 Shape shape = new Shape(builder.Document, ShapeType.Image);
 shape.WrapType = WrapType.Inline;
 shape.ImageData.SetImage(imageFileName);
@@ -34,12 +34,12 @@ builder.InsertNode(shape);
 
 doc.Save(ArtifactsDir + "Image.CreateLinkedImage.Embedded.docx");
 
-// Jedes Bild, das wir in Form speichern, erhöht die Größe unseres Dokuments.
+// Jedes Bild, das wir in Form speichern, vergrößert unser Dokument.
 Assert.True(70000 < new FileInfo(ArtifactsDir + "Image.CreateLinkedImage.Embedded.docx").Length);
 
 doc.FirstSection.Body.FirstParagraph.RemoveAllChildren();
 
-// 2 - Stellen Sie die Form so ein, dass sie mit einer Bilddatei im lokalen Dateisystem verknüpft wird.
+// 2 – Legen Sie die Form so fest, dass sie mit einer Bilddatei im lokalen Dateisystem verknüpft wird.
 shape = new Shape(builder.Document, ShapeType.Image);
 shape.WrapType = WrapType.Inline;
 shape.ImageData.SourceFullName = imageFileName;
@@ -48,8 +48,8 @@ builder.InsertNode(shape);
 doc.Save(ArtifactsDir + "Image.CreateLinkedImage.Linked.docx");
 
 // Das Verlinken mit Bildern spart Platz und führt zu einem kleineren Dokument.
-// Das Dokument kann das Bild jedoch nur solange korrekt anzeigen
-// Die Bilddatei ist an der Stelle vorhanden, auf die die "SourceFullName"-Eigenschaft der Form zeigt.
+// Allerdings kann das Dokument das Bild nur dann korrekt anzeigen, wenn
+// Die Bilddatei ist an der Stelle vorhanden, auf die die „SourceFullName“-Eigenschaft der Form verweist.
 Assert.True(10000 > new FileInfo(ArtifactsDir + "Image.CreateLinkedImage.Linked.docx").Length);
 ```
 

@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTagRangeStart.Title
 second_title: Référence de l'API Aspose.Words pour .NET
-description: StructuredDocumentTagRangeStart propriété. Spécifie le nom convivial associé à cette balise de document structuré. Ne peut pas être nul.
+description: StructuredDocumentTagRangeStart propriété. Spécifie le nom convivial associé à cette balise de document structuré. Ne peut pas êtrenul .
 type: docs
 weight: 160
 url: /fr/net/aspose.words.markup/structureddocumenttagrangestart/title/
 ---
 ## StructuredDocumentTagRangeStart.Title property
 
-Spécifie le nom convivial associé à cette balise de document structuré. Ne peut pas être nul.
+Spécifie le nom convivial associé à cette balise de document structuré. Ne peut pas être`nul` .
 
 ```csharp
 public string Title { get; set; }
@@ -16,7 +16,7 @@ public string Title { get; set; }
 
 ### Exemples
 
-Montre comment obtenir les propriétés des balises de document structuré à plusieurs sections.
+Montre comment obtenir les propriétés des balises de documents structurés à plusieurs sections.
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");

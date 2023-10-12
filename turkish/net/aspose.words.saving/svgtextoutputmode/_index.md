@@ -1,12 +1,14 @@
 ---
 title: Enum SvgTextOutputMode
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Saving.SvgTextOutputMode Sıralama. 
+description: Aspose.Words.Saving.SvgTextOutputMode Sıralama. SVG biçiminde kaydederken bir belge içindeki metnin nasıl işlenmesi gerektiğini belirlemeye olanak tanır .
 type: docs
-weight: 5330
+weight: 5610
 url: /tr/net/aspose.words.saving/svgtextoutputmode/
 ---
 ## SvgTextOutputMode enumeration
+
+SVG biçiminde kaydederken bir belge içindeki metnin nasıl işlenmesi gerektiğini belirlemeye olanak tanır .
 
 ```csharp
 public enum SvgTextOutputMode
@@ -16,8 +18,8 @@ public enum SvgTextOutputMode
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| UseSvgFonts | `0` | SVG yazı tipleri, metin oluşturmak için kullanılır. Tüm tarayıcıların SVG yazı tiplerini desteklemediğini unutmayın. |
-| UseTargetMachineFonts | `1` | Hedef makineye yüklenen yazı tipleri, metin oluşturmak için kullanılır. Belgede kullanılan yazı tiplerinden bazıları hedef makinede mevcut değilse, belgenin farklı görünebileceğini unutmayın. |
+| UseSvgFonts | `0` | SVG yazı tipleri metin oluşturmak için kullanılır. Tüm tarayıcıların SVG yazı tiplerini desteklemediğini unutmayın. |
+| UseTargetMachineFonts | `1` | Hedef makinede yüklü olan yazı tipleri, metni oluşturmak için kullanılır. Belgede kullanılan bazı yazı tiplerinin hedef makinede mevcut olmaması durumunda belgenin farklı görünebileceğini unutmayın. |
 | UsePlacedGlyphs | `2` | Metin, eğriler kullanılarak oluşturulur. Bu seçeneği kullanırsanız metin seçiminin çalışmayacağını unutmayın. |
 
 ### Örnekler

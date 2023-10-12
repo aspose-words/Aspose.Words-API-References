@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTagRangeStart.WordOpenXML
 second_title: Aspose.Words per .NET API Reference
-description: StructuredDocumentTagRangeStart proprietà. Ottiene una stringa che rappresenta lXML contenuto allinterno del nodo nel fileFlatOpc formato.
+description: StructuredDocumentTagRangeStart proprietà. Ottiene una stringa che rappresenta lXML contenuto nel nodo inFlatOpc formato.
 type: docs
 weight: 170
 url: /it/net/aspose.words.markup/structureddocumenttagrangestart/wordopenxml/
 ---
 ## StructuredDocumentTagRangeStart.WordOpenXML property
 
-Ottiene una stringa che rappresenta l'XML contenuto all'interno del nodo nel fileFlatOpc formato.
+Ottiene una stringa che rappresenta l'XML contenuto nel nodo inFlatOpc formato.
 
 ```csharp
 public string WordOpenXML { get; }

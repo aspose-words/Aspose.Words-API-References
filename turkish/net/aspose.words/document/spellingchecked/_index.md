@@ -1,14 +1,14 @@
 ---
 title: Document.SpellingChecked
 second_title: Aspose.Words for .NET API Referansı
-description: Document mülk. İade doğru belgenin yazım denetimi yapıldıysa.
+description: Document mülk. İadelerdoğru belgenin yazım denetimi yapılmışsa.
 type: docs
-weight: 390
+weight: 410
 url: /tr/net/aspose.words/document/spellingchecked/
 ---
 ## Document.SpellingChecked property
 
-İade **doğru** belgenin yazım denetimi yapıldıysa.
+İadeler`doğru` belgenin yazım denetimi yapılmışsa.
 
 ```csharp
 public bool SpellingChecked { get; set; }
@@ -16,20 +16,20 @@ public bool SpellingChecked { get; set; }
 
 ### Notlar
 
-Belgedeki yazımı yeniden kontrol etmek için bu özelliği **yanlış** .
+Belgedeki yazımı yeniden denetlemek için bu özelliği şu şekilde ayarlayın:`YANLIŞ` .
 
 ### Örnekler
 
-Yazım veya dil bilgisi doğrulamasının nasıl ayarlanacağını gösterir.
+Yazım veya dil bilgisi doğrulamanın nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 
-// Yazım hataları olan dize.
+// Yazım hatası içeren dize.
 doc.FirstSection.Body.FirstParagraph.Runs.Add(new Run(doc, "The speeling in this documentz is all broked."));
 
  // Özellikleri false olarak ayarlarsak Yazım/Dilbilgisi denetimi başlar.
-// Microsoft Word'deki tüm hataları İnceleme -> Yazım & Dilbilgisi.
+// Microsoft Word'deki tüm hataları İnceleme --> aracılığıyla görebiliriz. Yazım ve amp; Dilbilgisi.
 // Microsoft Word'ün DOC ve RTF belge formatı için dilbilgisi/yazım denetimini otomatik olarak başlatmadığını unutmayın.
 doc.SpellingChecked = checkSpellingGrammar;
 doc.GrammarChecked = checkSpellingGrammar;

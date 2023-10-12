@@ -3,7 +3,7 @@ title: Stroke.StartArrowType
 second_title: Aspose.Words för .NET API Referens
 description: Stroke fast egendom. Definierar pilspetsen för starten av ett slag.
 type: docs
-weight: 160
+weight: 180
 url: /sv/net/aspose.words.drawing/stroke/startarrowtype/
 ---
 ## Stroke.StartArrowType property

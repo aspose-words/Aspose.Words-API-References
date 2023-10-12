@@ -3,7 +3,7 @@ title: Enum WrapType
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Drawing.WrapType uppräkning. Anger hur text lindas runt en form eller bild.
 type: docs
-weight: 1250
+weight: 1400
 url: /sv/net/aspose.words.drawing/wraptype/
 ---
 ## WrapType enumeration

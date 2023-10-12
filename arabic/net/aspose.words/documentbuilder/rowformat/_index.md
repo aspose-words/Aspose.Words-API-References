@@ -3,7 +3,7 @@ title: DocumentBuilder.RowFormat
 second_title: Aspose.Words لمراجع .NET API
 description: DocumentBuilder ملكية. إرجاع كائن يمثل خصائص تنسيق صف الجدول الحالي.
 type: docs
-weight: 160
+weight: 180
 url: /ar/net/aspose.words/documentbuilder/rowformat/
 ---
 ## DocumentBuilder.RowFormat property
@@ -16,7 +16,7 @@ public RowFormat RowFormat { get; }
 
 ### أمثلة
 
-يوضح كيفية تنسيق الصفوف باستخدام منشئ المستندات.
+يوضح كيفية تنسيق الصفوف باستخدام أداة إنشاء المستندات.
 
 ```csharp
 Document doc = new Document();
@@ -26,8 +26,8 @@ Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, cell 1.");
 
-// ابدأ الصف الثاني ، ثم قم بتكوين ارتفاعه. سيقوم المنشئ بتطبيق هذه الإعدادات على
-// صفه الحالي ، بالإضافة إلى أي صفوف جديدة يتم إنشاؤها بعد ذلك.
+// ابدأ الصف الثاني، ثم قم بتكوين ارتفاعه. سيقوم المنشئ بتطبيق هذه الإعدادات على
+// الصف الحالي، بالإضافة إلى أي صفوف جديدة يتم إنشاؤها بعد ذلك.
 builder.EndRow();
 
 RowFormat rowFormat = builder.RowFormat;
@@ -48,7 +48,7 @@ Assert.AreEqual(HeightRule.Exactly, table.Rows[1].RowFormat.HeightRule);
 doc.Save(ArtifactsDir + "DocumentBuilder.SetRowFormatting.docx");
 ```
 
-يوضح كيفية إنشاء جدول منسق بحجم 2 × 2.
+يوضح كيفية إنشاء جدول منسق 2x2.
 
 ```csharp
 Document doc = new Document();
@@ -62,8 +62,8 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndRow();
 
-// أثناء بناء الجدول ، سيقوم منشئ الوثيقة بتطبيق قيم خاصية RowFormat / CellFormat الحالية
-// إلى الصف / الخلية الحالية التي يوجد بها المؤشر وأي صفوف / خلايا جديدة أثناء إنشائها.
+// أثناء إنشاء الجدول، سيطبق منشئ المستندات قيم خاصية RowFormat/CellFormat الحالية الخاصة به
+// إلى الصف/الخلية الحالية التي يوجد بها المؤشر وأي صفوف/خلايا جديدة أثناء إنشائها.
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[0].CellFormat.VerticalAlignment);
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[1].CellFormat.VerticalAlignment);
 
@@ -78,7 +78,7 @@ builder.Write("Row 2, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// لا تتأثر الصفوف والخلايا المضافة مسبقًا بأثر رجعي بالتغييرات في تنسيق المنشئ.
+// لا تتأثر الصفوف والخلايا المضافة مسبقًا بأثر رجعي بالتغييرات التي تطرأ على تنسيق المنشئ.
 Assert.AreEqual(0, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 Assert.AreEqual(100, table.Rows[1].RowFormat.Height);
@@ -97,8 +97,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.StartTable();
 
-// تعيين خيارات تنسيق الجدول لمنشئ المستندات
-// سيطبقها على كل صف وخلية نضيفها معها.
+// ضبط خيارات تنسيق الجدول لمنشئ المستندات
+// سيتم تطبيقها على كل صف وخلية نضيفها معها.
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 builder.CellFormat.ClearFormatting();
@@ -121,8 +121,8 @@ builder.InsertCell();
 builder.Write("Row 1, Col 2");
 builder.EndRow();
 
-// سيؤدي تغيير التنسيق إلى تطبيقه على الخلية الحالية ،
-// وأي خلايا جديدة ننشئها باستخدام المنشئ بعد ذلك.
+// سيؤدي تغيير التنسيق إلى تطبيقه على الخلية الحالية،
+// وأي خلايا جديدة نقوم بإنشائها مع المُنشئ بعد ذلك.
 // لن يؤثر هذا على الخلايا التي أضفناها سابقًا.
 builder.CellFormat.Shading.ClearFormatting();
 

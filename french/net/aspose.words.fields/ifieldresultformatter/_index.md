@@ -1,14 +1,14 @@
 ---
 title: Interface IFieldResultFormatter
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Fields.IFieldResultFormatter interface. Implémentez cette interface si vous souhaitez contrôler la mise en forme du résultat du champ.
+description: Aspose.Words.Fields.IFieldResultFormatter interface. Implémentez cette interface si vous souhaitez contrôler la façon dont le résultat du champ est formaté.
 type: docs
-weight: 2530
+weight: 2700
 url: /fr/net/aspose.words.fields/ifieldresultformatter/
 ---
 ## IFieldResultFormatter interface
 
-Implémentez cette interface si vous souhaitez contrôler la mise en forme du résultat du champ.
+Implémentez cette interface si vous souhaitez contrôler la façon dont le résultat du champ est formaté.
 
 ```csharp
 public interface IFieldResultFormatter
@@ -18,26 +18,27 @@ public interface IFieldResultFormatter
 
 | Nom | La description |
 | --- | --- |
-| [Format](../../aspose.words.fields/ifieldresultformatter/format/#format)(double, GeneralFormat) | Appelé lorsque Aspose.Words applique un commutateur de format numérique, c'est-à-dire \* Ordinal. |
-| [Format](../../aspose.words.fields/ifieldresultformatter/format/#format_1)(string, GeneralFormat) | Appelé lorsque Aspose.Words applique un changement de format de capitalisation, c'est-à-dire \* Upper. |
-| [FormatDateTime](../../aspose.words.fields/ifieldresultformatter/formatdatetime/)(DateTime, string, CalendarType) | Appelé lorsque Aspose.Words applique un changement de format date/heure, c'est-à-dire \@ "dd.MM.yyyy". |
-| [FormatNumeric](../../aspose.words.fields/ifieldresultformatter/formatnumeric/)(double, string) | Appelé lorsque Aspose.Words applique un commutateur de format numérique, c'est-à-dire \# "#.##". |
+| [Format](../../aspose.words.fields/ifieldresultformatter/format/#format)(double, GeneralFormat) | Appelé lorsque Aspose.Words applique un changement de format numérique, c'est-à-dire \* Ordinal. |
+| [Format](../../aspose.words.fields/ifieldresultformatter/format/#format_1)(string, GeneralFormat) | Appelé lorsque Aspose.Words applique un changement de format de majuscule, c'est-à-dire \* Upper. |
+| [FormatDateTime](../../aspose.words.fields/ifieldresultformatter/formatdatetime/)(DateTime, string, CalendarType) | Appelé lorsque Aspose.Words applique un changement de format date/heure, c'est-à-dire \@ "jj.MM.aaaa". |
+| [FormatNumeric](../../aspose.words.fields/ifieldresultformatter/formatnumeric/)(double, string) | Appelé lorsque Aspose.Words applique un changement de format numérique, c'est-à-dire \# "#.##". |
 
 ### Exemples
 
-Montre comment appliquer automatiquement un format personnalisé aux résultats de champ lors de la mise à jour des champs.
+Montre comment appliquer automatiquement un format personnalisé aux résultats des champs à mesure que les champs sont mis à jour.
 
 ```csharp
+public void FieldResultFormatting()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
     FieldResultFormatter formatter = new FieldResultFormatter("${0}", "Date: {0}", "Item # {0}:");
     doc.FieldOptions.ResultFormatter = formatter;
 
-    // Notre formateur de résultat de champ applique un format personnalisé aux champs nouvellement créés de trois types de formats.
-    // Les formateurs de résultats de champ appliquent une nouvelle mise en forme aux champs lorsqu'ils sont mis à jour,
-    // qui se produit dès que nous les créons à l'aide de cette surcharge de méthode InsertField.
-    // 1 - Numérique :
+    // Notre formateur de résultats de champ applique un format personnalisé aux champs nouvellement créés de trois types de formats.
+    // Les formateurs de résultats de champs appliquent un nouveau formatage aux champs au fur et à mesure de leur mise à jour,
+    // ce qui se produit dès que nous les créons en utilisant cette surcharge de méthode InsertField.
+    // 1 - Numérique :
     builder.InsertField(" = 2 + 3 \\# $###");
 
     Assert.AreEqual("$5", doc.Range.Fields[0].Result);

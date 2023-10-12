@@ -5,7 +5,7 @@ articleTitle: Equals
 second_title: Aspose.Words for .NET
 description: Style Equals method. Compares with the specified style. Styles Istds are compared for builtin styles only. Styles defaults are not included in comparison. Base style linked style and next paragraph style are recursively compared in C#.
 type: docs
-weight: 180
+weight: 190
 url: /net/aspose.words/style/equals/
 ---
 ## Style.Equals method

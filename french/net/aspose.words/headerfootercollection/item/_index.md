@@ -1,14 +1,14 @@
 ---
 title: HeaderFooterCollection.Item
 second_title: Référence de l'API Aspose.Words pour .NET
-description: HeaderFooterCollection propriété. Récupère un EntêtePied de page à lindex donné.
+description: HeaderFooterCollection propriété. Récupère unHeaderFooter à lindex donné.
 type: docs
 weight: 10
 url: /fr/net/aspose.words/headerfootercollection/item/
 ---
 ## HeaderFooterCollection indexer (1 of 2)
 
-Récupère un **En-têtePied de page** à l'index donné.
+Récupère un[`HeaderFooter`](../../headerfooter/) à l'index donné.
 
 ```csharp
 public HeaderFooter this[int index] { get; }
@@ -24,9 +24,9 @@ L'indice est de base zéro.
 
 Les index négatifs sont autorisés et indiquent un accès depuis l'arrière de la collection. Par exemple -1 signifie le dernier élément, -2 signifie l'avant-dernier et ainsi de suite.
 
-Si index est supérieur ou égal au nombre d'éléments de la liste, cela renvoie une référence nulle.
+Si l'index est supérieur ou égal au nombre d'éléments de la liste, cela renvoie une référence nulle.
 
-Si index est négatif et que sa valeur absolue est supérieure au nombre d'éléments de la liste, cela renvoie une référence nulle.
+Si l'index est négatif et que sa valeur absolue est supérieure au nombre d'éléments de la liste, cela renvoie une référence nulle.
 
 ### Exemples
 
@@ -57,24 +57,24 @@ builder.Write("This is the footer, which will be displayed in sections 1, 2 and 
 doc.Sections[1].HeadersFooters.LinkToPrevious(true);
 
 // Chaque section aura toujours ses propres objets d'en-tête/pied de page. Lorsque nous lions des sections,
-// la section de liaison affichera les en-têtes/pieds de page de la section liée tout en gardant les siens.
+// la section de liaison affichera l'en-tête/pied de page de la section liée tout en conservant les siens.
 Assert.AreNotEqual(doc.Sections[0].HeadersFooters[0], doc.Sections[1].HeadersFooters[0]);
 Assert.AreNotEqual(doc.Sections[0].HeadersFooters[0].ParentSection, doc.Sections[1].HeadersFooters[0].ParentSection);
 
-// Lie les en-têtes/pieds de page de la troisième section aux en-têtes/pieds de page de la deuxième section.
+// Liez les en-têtes/pieds de page de la troisième section aux en-têtes/pieds de page de la deuxième section.
 // La deuxième section est déjà liée aux en-têtes/pieds de page de la première section,
-// donc la liaison à la deuxième section créera une chaîne de liens.
-// La première, la deuxième et maintenant la troisième section afficheront toutes les en-têtes de la première section.
+// donc créer un lien vers la deuxième section créera une chaîne de liens.
+// Les première, deuxième et maintenant troisième sections afficheront toutes les en-têtes de la première section.
 doc.Sections[2].HeadersFooters.LinkToPrevious(true);
 
-// Nous pouvons dissocier les en-têtes/pieds de page d'une section précédente en passant "false" lors de l'appel de la méthode LinkToPrevious.
+// Nous pouvons dissocier l'en-tête/pied de page d'une section précédente en passant "false" lors de l'appel de la méthode LinkToPrevious.
 doc.Sections[2].HeadersFooters.LinkToPrevious(false);
 
-// Nous pouvons également sélectionner uniquement un type spécifique d'en-tête/de pied de page à lier à l'aide de cette méthode.
+// Nous pouvons également sélectionner uniquement un type spécifique d'en-tête/pied de page à lier en utilisant cette méthode.
 // La troisième section aura désormais le même pied de page que les deuxième et première sections, mais pas l'en-tête.
 doc.Sections[2].HeadersFooters.LinkToPrevious(HeaderFooterType.FooterPrimary, true);
 
-// Les en-têtes/pieds de page de la première section ne peuvent pas se lier à quoi que ce soit car il n'y a pas de section précédente.
+// L'en-tête/pied de page de la première section ne peut pas se lier à quoi que ce soit car il n'y a pas de section précédente.
 Assert.AreEqual(2, doc.Sections[0].HeadersFooters.Count);
 Assert.AreEqual(2, doc.Sections[0].HeadersFooters.Count(hf => !((HeaderFooter)hf).IsLinkedToPrevious));
 
@@ -101,7 +101,7 @@ doc.Save(ArtifactsDir + "HeaderFooter.Link.docx");
 
 ## HeaderFooterCollection indexer (2 of 2)
 
-Récupère un **En-têtePied de page** du type spécifié.
+Récupère un[`HeaderFooter`](../../headerfooter/) du type spécifié.
 
 ```csharp
 public HeaderFooter this[HeaderFooterType headerFooterType] { get; }
@@ -113,7 +113,7 @@ public HeaderFooter this[HeaderFooterType headerFooterType] { get; }
 
 ### Remarques
 
-Renvoie null si l'en-tête/le pied de page du type spécifié est introuvable.
+Retours`nul` si l'en-tête/pied de page du type spécifié est introuvable.
 
 ### Exemples
 
@@ -137,7 +137,7 @@ footer.Range.Replace("(C) 2006 Aspose Pty Ltd.", $"Copyright (C) {currentYear} b
 doc.Save(ArtifactsDir + "HeaderFooter.ReplaceText.docx");
 ```
 
-Montre comment supprimer tous les pieds de page d'un document.
+Montre comment supprimer tous les pieds de page d’un document.
 
 ```csharp
 Document doc = new Document(MyDir + "Header and footer types.docx");
@@ -154,7 +154,7 @@ foreach (Section section in doc.OfType<Section>())
     footer = section.HeadersFooters[HeaderFooterType.FooterPrimary];
     footer?.Remove();
 
-     // 3 - L'en-tête/pied de page "Even", qui apparaît sur les pages paires.
+     // 3 - L'en-tête/pied de page "Pair", qui apparaît sur les pages paires.
     footer = section.HeadersFooters[HeaderFooterType.FooterEven];
     footer?.Remove();
 

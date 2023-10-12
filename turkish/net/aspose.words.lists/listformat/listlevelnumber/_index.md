@@ -1,14 +1,14 @@
 ---
 title: ListFormat.ListLevelNumber
 second_title: Aspose.Words for .NET API Referansı
-description: ListFormat mülk. Paragraf için liste düzeyi numarasını 0 ila 8 alır veya ayarlar.
+description: ListFormat mülk. Paragrafın liste düzeyi numarasını 0 ila 8 alır veya ayarlar.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.lists/listformat/listlevelnumber/
 ---
 ## ListFormat.ListLevelNumber property
 
-Paragraf için liste düzeyi numarasını (0 ila 8) alır veya ayarlar.
+Paragrafın liste düzeyi numarasını (0 ila 8) alır veya ayarlar.
 
 ```csharp
 public int ListLevelNumber { get; set; }
@@ -16,13 +16,13 @@ public int ListLevelNumber { get; set; }
 
 ### Notlar
 
-Word belgelerinde, listeler 0'dan 8'e kadar numaralandırılmış 1 veya 9 seviyeden oluşabilir.
+Word belgelerinde listeler 0'dan 8'e kadar numaralandırılmış 1 veya 9 düzeyden oluşabilir.
 
-Yalnızca şu durumlarda etkilidir:[`List`](../list/) özellik, geçerli bir listeye başvuracak şekilde ayarlandı.
+Yalnızca şu durumlarda etkili olur:[`List`](../list/) özellik geçerli bir listeye referans verecek şekilde ayarlandı.
 
 ### Örnekler
 
-Liste seviyeleriyle nasıl çalışılacağını gösterir.
+Liste düzeyleriyle nasıl çalışılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -30,29 +30,29 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Assert.False(builder.ListFormat.IsListItem);
 
-// Liste, önek sembolleri ve girintilerle paragraf kümelerini düzenlememize ve süslememize olanak tanır.
-// Girinti seviyesini artırarak iç içe listeler oluşturabiliriz. 
-// Bir belge oluşturucunun "ListFormat" özelliğini kullanarak bir listeyi başlatabilir ve bitirebiliriz. 
-// Bir listenin başlangıcı ile bitişi arasına eklediğimiz her paragraf listede bir öğe haline gelecektir.
-// Aşağıda, bir belge oluşturucu kullanarak oluşturabileceğimiz iki tür liste bulunmaktadır.
+// Liste, paragraf kümelerini önek sembolleri ve girintilerle düzenlememize ve süslememize olanak tanır.
+ // Girinti seviyesini artırarak iç içe listeler oluşturabiliriz.
+ // Bir listeyi belge oluşturucunun "ListFormat" özelliğini kullanarak başlatabilir ve sonlandırabiliriz.
+// Bir listenin başı ile sonu arasına eklediğimiz her paragraf, listede bir öğe haline gelecektir.
+// Aşağıda belge oluşturucuyu kullanarak oluşturabileceğimiz iki tür liste bulunmaktadır.
 // 1 - Numaralandırılmış bir liste:
-// Numaralandırılmış listeler, her bir öğeyi numaralandırarak paragrafları için mantıksal bir sıra oluşturur.
+// Numaralandırılmış listeler, her öğeyi numaralandırarak paragrafları için mantıksal bir düzen oluşturur.
 builder.ListFormat.List = doc.Lists.Add(ListTemplate.NumberDefault);
 
 Assert.True(builder.ListFormat.IsListItem);
 
-// "ListLevelNumber" özelliğini ayarlayarak liste seviyesini yükseltebiliriz
+// "ListLevelNumber" özelliğini ayarlayarak liste seviyesini arttırabiliriz
 // geçerli liste öğesinde bağımsız bir alt liste başlatmak için.
-// "NumberDefault" adlı Microsoft Word liste şablonu, ilk liste düzeyi için liste düzeyleri oluşturmak için sayıları kullanır.
-// Daha derin liste seviyelerinde harfler ve küçük Romen rakamları kullanılır. 
+// "NumberDefault" adı verilen Microsoft Word liste şablonu, ilk liste düzeyi için liste düzeyleri oluşturmak amacıyla sayıları kullanır.
+ // Daha derin liste seviyelerinde harfler ve küçük harf Romen rakamları kullanılır.
 for (int i = 0; i < 9; i++)
 {
     builder.ListFormat.ListLevelNumber = i;
     builder.Writeln("Level " + i);
 }
 
-// 2 - Madde işaretli bir liste:
-// Bu liste, her paragraftan önce bir girinti ve bir madde işareti ("•") uygular.
+// 2 - Madde işaretli liste:
+// Bu liste, her paragraftan önce bir girinti ve madde işareti simgesi ("•") uygulayacaktır.
 // Bu listenin daha derin seviyelerinde "■" ve "○" gibi farklı semboller kullanılacaktır.
 builder.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
 
@@ -62,7 +62,7 @@ for (int i = 0; i < 9; i++)
     builder.Writeln("Level " + i);
 }
 
-// "Liste" bayrağının ayarını kaldırarak, sonraki paragrafları liste olarak biçimlendirmemek için liste biçimlendirmesini devre dışı bırakabiliriz.
+// "Liste" bayrağının ayarını kaldırarak sonraki paragrafları liste olarak biçimlendirmemek için liste biçimlendirmesini devre dışı bırakabiliriz.
 builder.ListFormat.List = null;
 
 Assert.False(builder.ListFormat.IsListItem);
@@ -78,13 +78,13 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("Aspose.Words main advantages are:");
 
-// Liste, önek sembolleri ve girintilerle paragraf kümelerini düzenlememize ve süslememize olanak tanır.
-// Girinti seviyesini artırarak iç içe listeler oluşturabiliriz. 
-// Bir belge oluşturucunun "ListFormat" özelliğini kullanarak bir listeyi başlatabilir ve bitirebiliriz. 
-// Bir listenin başlangıcı ile bitişi arasına eklediğimiz her paragraf listede bir öğe haline gelecektir.
-// Aşağıda, bir belge oluşturucu ile oluşturabileceğimiz iki tür liste bulunmaktadır.
-// 1 - Madde işaretli bir liste:
-// Bu liste, her paragraftan önce bir girinti ve bir madde işareti ("•") uygular.
+// Liste, paragraf kümelerini önek sembolleri ve girintilerle düzenlememize ve süslememize olanak tanır.
+ // Girinti seviyesini artırarak iç içe listeler oluşturabiliriz.
+ // Bir listeyi belge oluşturucunun "ListFormat" özelliğini kullanarak başlatabilir ve sonlandırabiliriz.
+// Bir listenin başı ile sonu arasına eklediğimiz her paragraf, listede bir öğe haline gelecektir.
+// Aşağıda belge oluşturucuyla oluşturabileceğimiz iki tür liste bulunmaktadır.
+// 1 - Madde işaretli liste:
+// Bu liste, her paragraftan önce bir girinti ve madde işareti simgesi ("•") uygulayacaktır.
 builder.ListFormat.ApplyBulletDefault();
 builder.Writeln("Great performance");
 builder.Writeln("High reliability");
@@ -99,7 +99,7 @@ builder.InsertBreak(BreakType.ParagraphBreak);
 builder.Writeln("Aspose.Words allows:");
 
 // 2 - Numaralandırılmış bir liste:
-// Numaralandırılmış listeler, her bir öğeyi numaralandırarak paragrafları için mantıksal bir sıra oluşturur.
+// Numaralandırılmış listeler, her öğeyi numaralandırarak paragrafları için mantıksal bir düzen oluşturur.
 builder.ListFormat.ApplyNumberDefault();
 
 // Bu paragraf ilk öğedir. Numaralandırılmış bir listenin ilk öğesi "1" olacaktır. liste öğesi sembolü olarak.
@@ -107,32 +107,32 @@ builder.Writeln("Opening documents from different formats:");
 
 Assert.AreEqual(0, builder.ListFormat.ListLevelNumber);
 
-// Mevcut liste seviyesini yükseltmek için "ListIndent" yöntemini çağırın,
-// bu, ilk liste seviyesinin geçerli öğesinde daha derin bir girintiye sahip yeni bir bağımsız liste başlatır.
+// Geçerli liste düzeyini artırmak için "ListIndent" yöntemini çağırın,
+// bu, ilk liste seviyesinin geçerli öğesinde daha derin bir girintiye sahip yeni bir bağımsız liste başlatacaktır.
 builder.ListFormat.ListIndent();
 
 Assert.AreEqual(1, builder.ListFormat.ListLevelNumber);
 
-// Bunlar, ikinci liste seviyesinin ilk üç liste öğesidir ve bir sayımı sürdürür
-// ilk liste seviyesinin sayısından bağımsız. Mevcut liste formatına göre,
-// "a.", "b." ve "c." sembollerine sahip olacaklar.
+// Bunlar ikinci liste düzeyinin ilk üç liste öğesidir ve sayımı sürdürür
+// ilk liste düzeyinin sayısından bağımsız. Mevcut liste formatına göre,
+// "a.", "b." ve "c." simgelerine sahip olacaklar.
 builder.Writeln("DOC");
 builder.Writeln("PDF");
 builder.Writeln("HTML");
 
-// Bir önceki liste düzeyine dönmek için "ListOutdent" yöntemini çağırın.
+// Önceki liste düzeyine dönmek için "ListOutdent" yöntemini çağırın.
 builder.ListFormat.ListOutdent();
 
 Assert.AreEqual(0, builder.ListFormat.ListLevelNumber);
 
-// Bu iki paragraf ilk liste seviyesinin sayımına devam edecek.
+// Bu iki paragraf ilk liste düzeyinin sayımına devam edecek.
 // Bu öğeler "2." ve "3" sembollerine sahip olacaktır.
 builder.Writeln("Processing documents");
 builder.Writeln("Saving documents in different formats:");
 
-// Liste seviyesini daha önce item eklediğimiz bir seviyeye çıkarırsak,
-// iç içe geçmiş liste öncekinden ayrı olacak ve numaralandırması baştan başlayacak. 
-// Bu liste öğeleri "a.", "b.", "c.", "d." ve "e" sembollerine sahip olacaktır.
+// Liste seviyesini daha önce öğe eklediğimiz seviyeye yükseltirsek,
+ // iç içe geçmiş liste öncekinden ayrı olacak ve numaralandırması baştan başlayacak.
+// Bu liste öğelerinde "a.", "b.", "c.", "d." ve "e" simgeleri bulunur.
 builder.ListFormat.ListIndent();
 builder.Writeln("DOC");
 builder.Writeln("PDF");
@@ -140,11 +140,11 @@ builder.Writeln("HTML");
 builder.Writeln("MHTML");
 builder.Writeln("Plain text");
 
-// Liste düzeyini tekrar girin.
+// Liste düzeyinin girintisini yeniden artırın.
 builder.ListFormat.ListOutdent();
 builder.Writeln("Doing many other things!");
 
-// Numaralandırılmış listeyi sonlandır.
+//Numaralandırılmış listeyi sonlandırıyoruz.
 builder.ListFormat.RemoveNumbers();
 
 doc.Save(ArtifactsDir + "Lists.ApplyDefaultBulletsAndNumbers.docx");

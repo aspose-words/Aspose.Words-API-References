@@ -1,14 +1,14 @@
 ---
 title: Class ThumbnailGeneratingOptions
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Rendering.ThumbnailGeneratingOptions فصل. يمكن استخدامها لتحديد خيارات إضافية عند إنشاء صورة مصغرة لمستند.
+description: Aspose.Words.Rendering.ThumbnailGeneratingOptions فصل. يمكن استخدامه لتحديد خيارات إضافية عند إنشاء صورة مصغرة للمستند.
 type: docs
-weight: 4340
+weight: 4600
 url: /ar/net/aspose.words.rendering/thumbnailgeneratingoptions/
 ---
 ## ThumbnailGeneratingOptions class
 
-يمكن استخدامها لتحديد خيارات إضافية عند إنشاء صورة مصغرة لمستند.
+يمكن استخدامه لتحديد خيارات إضافية عند إنشاء صورة مصغرة للمستند.
 
 ```csharp
 public class ThumbnailGeneratingOptions
@@ -24,12 +24,12 @@ public class ThumbnailGeneratingOptions
 
 | اسم | وصف |
 | --- | --- |
-| [GenerateFromFirstPage](../../aspose.words.rendering/thumbnailgeneratingoptions/generatefromfirstpage/) { get; set; } | يحدد ما إذا كان سيتم إنشاء مصغر من الصفحة الأولى من المستند أو الصورة الأولى. |
-| [ThumbnailSize](../../aspose.words.rendering/thumbnailgeneratingoptions/thumbnailsize/) { get; set; } | حجم الصورة المصغرة التي تم إنشاؤها بالبكسل . الافتراضي هو 600x900. |
+| [GenerateFromFirstPage](../../aspose.words.rendering/thumbnailgeneratingoptions/generatefromfirstpage/) { get; set; } | يحدد ما إذا كان سيتم إنشاء صورة مصغرة من الصفحة الأولى للمستند أو الصورة الأولى. |
+| [ThumbnailSize](../../aspose.words.rendering/thumbnailgeneratingoptions/thumbnailsize/) { get; set; } | حجم الصورة المصغرة التي تم إنشاؤها بالبكسل. الافتراضي هو 600x900. |
 
 ### ملاحظات
 
-يمكن للمستخدم استدعاء الطريقة[`UpdateThumbnail`](../../aspose.words/document/updatethumbnail/) لتوليد [`Thumbnail`](../../aspose.words.properties/builtindocumentproperties/thumbnail/) لمستند .
+يمكن للمستخدم الاتصال بالطريقة[`UpdateThumbnail`](../../aspose.words/document/updatethumbnail/) لتوليد [`Thumbnail`](../../aspose.words.properties/builtindocumentproperties/thumbnail/) للمستند.
 
 ### أمثلة
 
@@ -47,7 +47,7 @@ builder.InsertImage(ImageDir + "Logo.jpg");
 doc.UpdateThumbnail();
 doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstPage.epub");
 
-// 2 - استخدم أول صورة موجودة في المستند:
+// 2 - استخدم الصورة الأولى الموجودة في المستند:
 ThumbnailGeneratingOptions options = new ThumbnailGeneratingOptions();
 options.ThumbnailSize = new Size(400, 400);
 options.GenerateFromFirstPage = false;

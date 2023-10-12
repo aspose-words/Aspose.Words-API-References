@@ -20,7 +20,7 @@ A[`FieldIfComparisonResult`](../../fieldifcomparisonresult/) valore che rapprese
 
 ### Esempi
 
-Mostra come inserire un campo SE.
+Mostra come inserire un campo IF.
 
 ```csharp
 Document doc = new Document();
@@ -32,7 +32,7 @@ field.LeftExpression = "0";
 field.ComparisonOperator = "=";
 field.RightExpression = "1";
 
-// Il campo SE visualizzerà una stringa dalla sua proprietà "TrueText",
+// Il campo IF visualizzerà una stringa dalla sua proprietà "TrueText",
 // o la sua proprietà "FalseText", a seconda della verità dell'affermazione che abbiamo costruito.
 field.TrueText = "True";
 field.FalseText = "False";
@@ -52,7 +52,7 @@ field.TrueText = "True";
 field.FalseText = "False";
 field.Update();
 
-// Questa volta l'affermazione è corretta, quindi il risultato visualizzato sarà "True".
+// Questa volta l'affermazione è corretta, quindi il risultato visualizzato sarà "Vero".
 Assert.AreEqual(" IF  5 = \"2 + 3\" True False", field.GetFieldCode());
 Assert.AreEqual(FieldIfComparisonResult.True, field.EvaluateCondition());
 Assert.AreEqual("True", field.Result);

@@ -1,14 +1,16 @@
 ---
 title: Class ViewOptions
 second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Settings.ViewOptions classe. Fornisce varie opzioni che controllano la modalità di visualizzazione di un documento in Microsoft Word.
+description: Aspose.Words.Settings.ViewOptions classe. Fornisce varie opzioni che controllano il modo in cui un documento viene visualizzato in Microsoft Word.
 type: docs
-weight: 5650
+weight: 5950
 url: /it/net/aspose.words.settings/viewoptions/
 ---
 ## ViewOptions class
 
-Fornisce varie opzioni che controllano la modalità di visualizzazione di un documento in Microsoft Word.
+Fornisce varie opzioni che controllano il modo in cui un documento viene visualizzato in Microsoft Word.
+
+Per saperne di più, visita il[Lavora con le opzioni e l'aspetto dei documenti Word](https://docs.aspose.com/words/net/work-with-word-document-options-and-appearance/) articolo di documentazione.
 
 ```csharp
 public class ViewOptions
@@ -18,12 +20,12 @@ public class ViewOptions
 
 | Nome | Descrizione |
 | --- | --- |
-| [DisplayBackgroundShape](../../aspose.words.settings/viewoptions/displaybackgroundshape/) { get; set; } | Controlla la visualizzazione della forma dello sfondo nella vista layout di stampa. |
+| [DisplayBackgroundShape](../../aspose.words.settings/viewoptions/displaybackgroundshape/) { get; set; } | Controlla la visualizzazione della forma dello sfondo nella visualizzazione layout di stampa. |
 | [DoNotDisplayPageBoundaries](../../aspose.words.settings/viewoptions/donotdisplaypageboundaries/) { get; set; } | Disattiva la visualizzazione dello spazio tra la parte superiore del testo e il bordo superiore della pagina. |
 | [FormsDesign](../../aspose.words.settings/viewoptions/formsdesign/) { get; set; } | Specifica se il documento è in modalità progettazione moduli. |
 | [ViewType](../../aspose.words.settings/viewoptions/viewtype/) { get; set; } | Controlla la modalità di visualizzazione in Microsoft Word. |
-| [ZoomPercent](../../aspose.words.settings/viewoptions/zoompercent/) { get; set; } | Ottiene o imposta la percentuale (tra 10 e 500) alla quale si desidera visualizzare il documento. |
-| [ZoomType](../../aspose.words.settings/viewoptions/zoomtype/) { get; set; } | Ottiene o imposta un valore di zoom in base alle dimensioni della finestra. |
+| [ZoomPercent](../../aspose.words.settings/viewoptions/zoompercent/) { get; set; } | Ottiene o imposta la percentuale (tra 10 e 500) alla quale desideri visualizzare il documento. |
+| [ZoomType](../../aspose.words.settings/viewoptions/zoomtype/) { get; set; } | Ottiene o imposta un valore di zoom in base alla dimensione della finestra. |
 
 ### Esempi
 
@@ -55,7 +57,7 @@ builder.Writeln("Hello world!");
 // Imposta la proprietà "ZoomType" su "ZoomType.FullPage" per ottenere Microsoft Word
 // per ingrandire automaticamente il documento per rendere visibile l'intera prima pagina.
 // Imposta la proprietà "ZoomType" su "ZoomType.TextFit" per ottenere Microsoft Word
-// per ingrandire automaticamente il documento per adattarlo ai margini interni del testo della prima pagina.
+// per ingrandire automaticamente il documento per adattarlo ai margini di testo interni della prima pagina.
 doc.ViewOptions.ZoomType = zoomType;
 
 doc.Save(ArtifactsDir + "ViewOptions.SetZoomType.doc");

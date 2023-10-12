@@ -3,12 +3,14 @@ title: Class ChartDataPointCollection
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Drawing.Charts.ChartDataPointCollection klass. Representerar en samling av enChartDataPoint .
 type: docs
-weight: 660
+weight: 700
 url: /sv/net/aspose.words.drawing.charts/chartdatapointcollection/
 ---
 ## ChartDataPointCollection class
 
 Representerar en samling av en[`ChartDataPoint`](../chartdatapoint/) .
+
+För att lära dig mer, besök[Arbeta med diagram](https://docs.aspose.com/words/net/working-with-charts/) dokumentationsartikel.
 
 ```csharp
 public class ChartDataPointCollection : IEnumerable<ChartDataPoint>
@@ -26,14 +28,15 @@ public class ChartDataPointCollection : IEnumerable<ChartDataPoint>
 | namn | Beskrivning |
 | --- | --- |
 | [ClearFormat](../../aspose.words.drawing.charts/chartdatapointcollection/clearformat/)() | Rensar alla format[`ChartDataPoint`](../chartdatapoint/) i den här samlingen. |
+| [CopyFormat](../../aspose.words.drawing.charts/chartdatapointcollection/copyformat/)(int, int) |  |
 | [GetEnumerator](../../aspose.words.drawing.charts/chartdatapointcollection/getenumerator/)() | Returnerar ett uppräkningsobjekt. |
+| [HasDefaultFormat](../../aspose.words.drawing.charts/chartdatapointcollection/hasdefaultformat/)(int) |  |
 
 ### Exempel
 
 Visar hur man arbetar med datapunkter på ett linjediagram.
 
 ```csharp
-[Test]
 public void ChartDataPoint()
 {
     Document doc = new Document();

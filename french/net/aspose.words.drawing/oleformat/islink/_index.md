@@ -1,14 +1,14 @@
 ---
 title: OleFormat.IsLink
 second_title: Référence de l'API Aspose.Words pour .NET
-description: OleFormat propriété. Renvoie true si lobjet OLE est lié lorsqueSourceFullName est spécifié.
+description: OleFormat propriété. Retoursvrai si lobjet OLE est lié quandSourceFullName est spécifié.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.drawing/oleformat/islink/
 ---
 ## OleFormat.IsLink property
 
-Renvoie true si l'objet OLE est lié (lorsque[`SourceFullName`](../sourcefullname/) est spécifié).
+Retours`vrai` si l'objet OLE est lié (quand[`SourceFullName`](../sourcefullname/) est spécifié).
 
 ```csharp
 public bool IsLink { get; }
@@ -53,7 +53,7 @@ Assert.AreEqual("Microsoft Visio drawing.vsd", oleFormat.IconCaption);
 
 doc.Save(ArtifactsDir + "Shape.OleLinks.docx");
 
-// Si l'objet contient des données OLE, nous pouvons y accéder à l'aide d'un flux.
+// Si l'objet contient des données OLE, nous pouvons y accéder via un flux.
 using (MemoryStream stream = oleFormat.GetOleEntry("\x0001CompObj"))
 {
     byte[] oleEntryBytes = stream.ToArray();

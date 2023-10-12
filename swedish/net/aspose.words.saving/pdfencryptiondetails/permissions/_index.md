@@ -24,19 +24,13 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("Hello world!");
 
-PdfEncryptionDetails encryptionDetails =
-    new PdfEncryptionDetails("password", string.Empty);
-
-// Börja med att inte tillåta alla behörigheter.
-encryptionDetails.Permissions = PdfPermissions.DisallowAll;
-
 // Utöka behörigheter för att tillåta redigering av kommentarer.
-encryptionDetails.Permissions = PdfPermissions.ModifyAnnotations | PdfPermissions.DocumentAssembly;
+PdfEncryptionDetails encryptionDetails =
+    new PdfEncryptionDetails("password", string.Empty, PdfPermissions.ModifyAnnotations | PdfPermissions.DocumentAssembly);
 
 // Skapa ett "PdfSaveOptions"-objekt som vi kan skicka till dokumentets "Spara"-metod
 // för att ändra hur den metoden konverterar dokumentet till .PDF.
 PdfSaveOptions saveOptions = new PdfSaveOptions();
-
 // Aktivera kryptering via egenskapen "EncryptionDetails".
 saveOptions.EncryptionDetails = encryptionDetails;
 

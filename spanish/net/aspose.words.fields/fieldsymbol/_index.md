@@ -3,12 +3,14 @@ title: Class FieldSymbol
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.Fields.FieldSymbol clase. Implementa un campo SÍMBOLO.
 type: docs
-weight: 2310
+weight: 2460
 url: /es/net/aspose.words.fields/fieldsymbol/
 ---
 ## FieldSymbol class
 
 Implementa un campo SÍMBOLO.
+
+Para obtener más información, visite el[Trabajar con campos](https://docs.aspose.com/words/net/working-with-fields/) artículo de documentación.
 
 ```csharp
 public class FieldSymbol : Field
@@ -33,12 +35,12 @@ public class FieldSymbol : Field
 | [Format](../../aspose.words.fields/field/format/) { get; } | Obtiene un[`FieldFormat`](../fieldformat/) objeto que proporciona acceso escrito al formato del campo. |
 | [IsAnsi](../../aspose.words.fields/fieldsymbol/isansi/) { get; set; } | Obtiene o establece si el código de carácter se interpreta como el valor de un carácter ANSI. |
 | [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Obtiene o establece si el resultado actual del campo ya no es correcto (obsoleto) debido a otras modificaciones realizadas en el documento. |
-| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Obtiene o establece si el campo está bloqueado (no debe recalcular su resultado). |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Obtiene o establece si el campo está bloqueado (no debe volver a calcular su resultado). |
 | [IsShiftJis](../../aspose.words.fields/fieldsymbol/isshiftjis/) { get; set; } | Obtiene o establece si el código de carácter se interpreta como el valor de un carácter SHIFT-JIS. |
 | [IsUnicode](../../aspose.words.fields/fieldsymbol/isunicode/) { get; set; } | Obtiene o establece si el código de carácter se interpreta como el valor de un carácter Unicode. |
 | [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Obtiene o establece el LCID del campo. |
 | [Result](../../aspose.words.fields/field/result/) { get; set; } | Obtiene o establece el texto que se encuentra entre el separador de campo y el final del campo. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | Obtiene el nodo que representa el separador de campos. Puede ser nulo. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Obtiene el nodo que representa el separador de campos. Puede ser`nulo` . |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Obtiene el nodo que representa el inicio del campo. |
 | virtual [Type](../../aspose.words.fields/field/type/) { get; } | Obtiene el tipo de campo de Microsoft Word. |
 
@@ -46,12 +48,12 @@ public class FieldSymbol : Field
 
 | Nombre | Descripción |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Devuelve el texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). Se incluyen tanto el código de campo como el resultado de campo de los campos secundarios. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Devuelve el texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). |
-| [Remove](../../aspose.words.fields/field/remove/)() | Elimina el campo del documento. Devuelve un nodo justo después del campo. Si el final del campo es el último hijo de su nodo principal, devuelve su párrafo principal. Si el campo ya está eliminado, devuelve **nulo** . |
-| [Unlink](../../aspose.words.fields/field/unlink/)() | Realiza el desvinculado del campo. |
-| [Update](../../aspose.words.fields/field/update/)() | Realiza la actualización del campo. Se lanza si el campo ya se está actualizando. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Realiza una actualización de campo. Se lanza si el campo ya se está actualizando. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Devuelve texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). Se incluyen tanto el código de campo como el resultado del campo de los campos secundarios. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Devuelve texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). |
+| [Remove](../../aspose.words.fields/field/remove/)() | Elimina el campo del documento. Devuelve un nodo justo después del campo. Si el final del campo es el último hijo de su nodo principal, devuelve su párrafo principal. Si el campo ya está eliminado, devuelve`nulo` . |
+| [Unlink](../../aspose.words.fields/field/unlink/)() | Realiza la desvinculación del campo. |
+| [Update](../../aspose.words.fields/field/update/)() | Realiza la actualización del campo. Se produce si el campo ya se está actualizando. |
+| [Update](../../aspose.words.fields/field/update/)(bool) | Realiza una actualización de campo. Se produce si el campo ya se está actualizando. |
 
 ### Observaciones
 
@@ -65,7 +67,7 @@ Muestra cómo utilizar el campo SÍMBOLO.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// A continuación se muestran tres formas de usar un campo SÍMBOLO para mostrar un solo carácter.
+// A continuación se muestran tres formas de utilizar un campo SÍMBOLO para mostrar un solo carácter.
 // 1 - Agregue un campo SÍMBOLO que muestre el símbolo © (Copyright), especificado por un código de carácter ANSI:
 FieldSymbol field = (FieldSymbol)builder.InsertField(FieldType.FieldSymbol, true);
 
@@ -77,15 +79,15 @@ Assert.AreEqual(" SYMBOL  169 \\a", field.GetFieldCode());
 
 builder.Writeln(" Line 1");
 
-// 2 - Agregue un campo SÍMBOLO que muestre el símbolo ∞ (Infinito) y modifique su apariencia:
+// 2 - Agrega un campo SÍMBOLO que muestra el símbolo ∞ (Infinito) y modifica su apariencia:
 field = (FieldSymbol)builder.InsertField(FieldType.FieldSymbol, true);
 
 // En Unicode, el símbolo de infinito ocupa el código "221E".
 field.CharacterCode = 0x221E.ToString();
 field.IsUnicode = true;
 
-// Cambiar la fuente de nuestro símbolo después de usar el Mapa de Caracteres de Windows
-// para asegurarse de que la fuente pueda representar ese símbolo.
+// Cambia la fuente de nuestro símbolo después de usar el Mapa de Caracteres de Windows
+// para garantizar que la fuente pueda representar ese símbolo.
 field.FontName = "Calibri";
 field.FontSize = "24";
 
@@ -96,8 +98,8 @@ Assert.AreEqual(" SYMBOL  8734 \\u \\f Calibri \\s 24 \\h", field.GetFieldCode()
 
 builder.Writeln("Line 2");
 
-// 3 - Agregue un campo SÍMBOLO que muestre el carácter あ,
-// con una fuente compatible con la página de códigos Shift-JIS (Windows-932):
+// 3 - Agrega un campo SÍMBOLO que muestra el carácter あ,
+// con una fuente que admita la página de códigos Shift-JIS (Windows-932):
 field = (FieldSymbol)builder.InsertField(FieldType.FieldSymbol, true);
 field.FontName = "MS Gothic";
 field.CharacterCode = 0x82A0.ToString();

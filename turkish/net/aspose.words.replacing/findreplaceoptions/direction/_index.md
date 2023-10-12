@@ -1,14 +1,14 @@
 ---
 title: FindReplaceOptions.Direction
 second_title: Aspose.Words for .NET API Referansı
-description: FindReplaceOptions mülk. Değiştirilecek yönü seçer. Varsayılan değerForward .
+description: FindReplaceOptions mülk. Değiştirme yönünü seçer. Varsayılan değerForward .
 type: docs
 weight: 40
 url: /tr/net/aspose.words.replacing/findreplaceoptions/direction/
 ---
 ## FindReplaceOptions.Direction property
 
-Değiştirilecek yönü seçer. Varsayılan değerForward .
+Değiştirme yönünü seçer. Varsayılan değer:Forward .
 
 ```csharp
 public FindReplaceDirection Direction { get; set; }
@@ -16,7 +16,7 @@ public FindReplaceDirection Direction { get; set; }
 
 ### Örnekler
 
-Bir bul ve değiştir işleminin belgeyi hangi yönde kat edeceğinin nasıl belirleneceğini gösterir.
+Bul ve değiştir işleminin belgeyi hangi yönde geçeceğinin nasıl belirleneceğini gösterir.
 
 ```csharp
 public void Direction(FindReplaceDirection findReplaceDirection)
@@ -24,8 +24,8 @@ public void Direction(FindReplaceDirection findReplaceDirection)
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Normal ifade kalıbı kullanarak arayabileceğimiz üç çalıştırma ekleyin.
-    // Bu çalıştırmalardan birini bir metin kutusuna yerleştirin.
+    // Bir regex modeli kullanarak arayabileceğimiz üç çalıştırmayı ekleyin.
+    // Bu işlemlerden birini bir metin kutusunun içine yerleştirin.
     builder.Writeln("Match 1.");
     builder.Writeln("Match 2.");
     builder.Writeln("Match 3.");
@@ -34,14 +34,14 @@ public void Direction(FindReplaceDirection findReplaceDirection)
     // Bul ve değiştir işlemini değiştirmek için bir "FindReplaceOptions" nesnesi kullanabiliriz.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // "ReplacecingCallback" özelliğine özel bir geri arama atayın.
+    // "ReplacingCallback" özelliğine özel bir geri arama atayın.
     TextReplacementRecorder callback = new TextReplacementRecorder();
     options.ReplacingCallback = callback;
 
-    // Bul ve değiştir özelliğini almak için "Yön" özelliğini "FindReplaceDirection.Backward" olarak ayarlayın
-    // aralığın sonundan başlayıp başa dönme işlemi.
-    // Bul ve değiştir özelliğini almak için "Yön" özelliğini "FindReplaceDirection.Backward" olarak ayarlayın
-    // aralığın başından başlayıp sonuna doğru hareket etme işlemi.
+    // Bul ve değiştir işlevini elde etmek için "Direction" özelliğini "FindReplaceDirection.Backward" olarak ayarlayın
+    // aralığın sonundan başlayıp başlangıca geri dönme işlemi.
+    // Bul ve değiştir işlevini elde etmek için "Direction" özelliğini "FindReplaceDirection.Backward" olarak ayarlayın
+    // aralığın başından başlayıp sonuna kadar ilerleme işlemi.
     options.Direction = findReplaceDirection;
 
     doc.Range.Replace(new Regex(@"Match \d*"), "Replacement", options);
@@ -63,7 +63,7 @@ public void Direction(FindReplaceDirection findReplaceDirection)
 }
 
 /// <summary>
-/// Bul ve değiştir işlemi sırasında gerçekleşen tüm eşleşmeleri gerçekleştikleri sırayla kaydeder.
+/// Bul ve değiştir işlemi sırasında meydana gelen tüm eşleşmeleri gerçekleşme sırasına göre kaydeder.
 /// </summary>
 private class TextReplacementRecorder : IReplacingCallback
 {

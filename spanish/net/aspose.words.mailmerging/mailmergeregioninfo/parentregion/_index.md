@@ -1,14 +1,14 @@
 ---
 title: MailMergeRegionInfo.ParentRegion
 second_title: Referencia de API de Aspose.Words para .NET
-description: MailMergeRegionInfo propiedad. Devuelve información de la región principal nulo para la región de nivel superior.
+description: MailMergeRegionInfo propiedad. Devuelve información de la región principal nula para la región de nivel superior.
 type: docs
-weight: 50
+weight: 70
 url: /es/net/aspose.words.mailmerging/mailmergeregioninfo/parentregion/
 ---
 ## MailMergeRegionInfo.ParentRegion property
 
-Devuelve información de la región principal (nulo para la región de nivel superior).
+Devuelve información de la región principal (nula para la región de nivel superior).
 
 ```csharp
 public MailMergeRegionInfo ParentRegion { get; }
@@ -22,13 +22,13 @@ Muestra cómo crear, enumerar y leer regiones de combinación de correspondencia
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// etiquetas "TableStart" y "TableEnd", que van dentro de MERGEFIELD,
-// denota las cadenas que significan el comienzo y el final de las regiones de combinación de correspondencia.
+// Etiquetas "TableStart" y "TableEnd", que van dentro de MERGEFIELD,
+// denota las cadenas que indican el inicio y el final de las regiones de combinación de correspondencia.
 Assert.AreEqual("TableStart", doc.MailMerge.RegionStartTag);
 Assert.AreEqual("TableEnd", doc.MailMerge.RegionEndTag);
 
-// Utilice estas etiquetas para iniciar y finalizar una región de combinación de correo denominada "MailMergeRegion1",
-// que contendrá MERGEFIELDs para dos columnas.
+// Utilice estas etiquetas para iniciar y finalizar una región de combinación de correspondencia denominada "MailMergeRegion1",
+// que contendrá MERGEFIELD para dos columnas.
 builder.InsertField(" MERGEFIELD TableStart:MailMergeRegion1");
 builder.InsertField(" MERGEFIELD Column1");
 builder.Write(", ");
@@ -58,7 +58,7 @@ builder.InsertField(" MERGEFIELD TableEnd:MailMergeRegion1");
 regions = doc.MailMerge.GetRegionsByName("MailMergeRegion1");
 
 Assert.AreEqual(2, regions.Count);
-// Compruebe que la segunda región ahora tiene una región principal.
+// Compruebe que la segunda región ahora tenga una región principal.
 Assert.AreEqual("MailMergeRegion1", regions[1].ParentRegion.Name);
 
 mergeFieldNames = doc.MailMerge.GetFieldNamesForRegion("MailMergeRegion1", 1);

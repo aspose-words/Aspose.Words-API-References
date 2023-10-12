@@ -3,7 +3,7 @@ title: Enum CommentDisplayMode
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.Layout.CommentDisplayMode enumeración. Especifica el modo de representación de los comentarios del documento.
 type: docs
-weight: 3090
+weight: 3290
 url: /es/net/aspose.words.layout/commentdisplaymode/
 ---
 ## CommentDisplayMode enumeration
@@ -18,9 +18,9 @@ public enum CommentDisplayMode
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| Hide | `0` | No se muestran los comentarios del documento. |
+| Hide | `0` | No se representan comentarios del documento. |
 | ShowInBalloons | `1` | Representa los comentarios del documento en globos en el margen. Este es el valor predeterminado. |
-| ShowInAnnotations | `2` | Representa los comentarios del documento en anotaciones. Esto solo está disponible para formato Pdf. |
+| ShowInAnnotations | `2` | Representa los comentarios del documento en anotaciones. Esto sólo está disponible para formato PDF. |
 
 ### Ejemplos
 
@@ -36,13 +36,13 @@ Comment comment = new Comment(doc, "John Doe", "J.D.", DateTime.Now);
 comment.SetText("My comment.");
 builder.CurrentParagraph.AppendChild(comment);
 
-// ShowInAnnotations solo está disponible en los formatos Pdf1.7 y Pdf1.5.
-// En otros formatos, funcionará de manera similar a Hide.
+// ShowInAnnotations solo está disponible en formatos Pdf1.7 y Pdf1.5.
+// En otros formatos, funcionará de manera similar a Ocultar.
 doc.LayoutOptions.CommentDisplayMode = CommentDisplayMode.ShowInAnnotations;
 
 doc.Save(ArtifactsDir + "Document.ShowCommentsInAnnotations.pdf");
 
-// Tenga en cuenta que es necesario reconstruir el diseño de la página del documento (a través del método Document.UpdatePageLayout())
+// Tenga en cuenta que es necesario reconstruir el diseño de la página del documento (mediante el método Document.UpdatePageLayout())
 // después de cambiar los valores de Document.LayoutOptions.
 doc.LayoutOptions.CommentDisplayMode = CommentDisplayMode.ShowInBalloons;
 doc.UpdatePageLayout();

@@ -10,7 +10,7 @@ url: /it/net/aspose.words/hyphenation/unregisterdictionary/
 
 Annulla la registrazione di un dizionario di sillabazione per la lingua specificata.
 
-È diverso dalla registrazione del dizionario Null. L'annullamento della registrazione di un dizionario abilita la richiamata per la lingua specificata.
+Questo è diverso dalla registrazione del dizionario Null. L'annullamento della registrazione di un dizionario abilita la richiamata per la lingua specificata.
 
 ```csharp
 public static void UnregisterDictionary(string language)
@@ -18,7 +18,7 @@ public static void UnregisterDictionary(string language)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| language | String | Un nome di lingua, ad esempio "en-US". Vedere la documentazione .NET per "nome cultura" e RFC 4646 per i dettagli. |
+| language | String | Un nome di lingua, ad esempio "en-US". Per i dettagli, vedere la documentazione .NET per il "nome della cultura" e RFC 4646. |
 
 ### Esempi
 
@@ -26,17 +26,17 @@ Mostra come registrare un dizionario di sillabazione.
 
 ```csharp
 // Un dizionario di sillabazione contiene un elenco di stringhe che definiscono le regole di sillabazione per la lingua del dizionario.
-// Quando un documento contiene righe di testo in cui una parola può essere suddivisa e continuata nella riga successiva,
+// Quando un documento contiene righe di testo in cui una parola può essere divisa e continuata nella riga successiva,
 // la sillabazione cercherà nell'elenco di stringhe del dizionario le sottostringhe di quella parola.
 // Se il dizionario contiene una sottostringa, la sillabazione dividerà la parola su due righe
-// dalla sottostringa e aggiungi un trattino alla prima metà.
-// Registra un file dizionario dal file system locale nella locale "de-CH".
+// dalla sottostringa e aggiunge un trattino alla prima metà.
+// Registra un file dizionario dal file system locale alla locale "de-CH".
 Hyphenation.RegisterDictionary("de-CH", MyDir + "hyph_de_CH.dic");
 
 Assert.True(Hyphenation.IsDictionaryRegistered("de-CH"));
 
-// Apri un documento contenente del testo con una localizzazione corrispondente a quella del nostro dizionario,
-// e salvalo in un formato di salvataggio a pagina fissa. Il testo in quel documento sarà sillabato.
+// Apre un documento contenente testo con una lingua corrispondente a quella del nostro dizionario,
+// e salvarlo in un formato di salvataggio a pagina fissa. Il testo in quel documento sarà sillabato.
 Document doc = new Document(MyDir + "German text.docx");
 
 Assert.True(doc.FirstSection.Body.FirstParagraph.Runs.OfType<Run>().All(
@@ -45,7 +45,7 @@ Assert.True(doc.FirstSection.Body.FirstParagraph.Runs.OfType<Run>().All(
 doc.Save(ArtifactsDir + "Hyphenation.Dictionary.Registered.pdf");
 
 // Ricarica il documento dopo aver annullato la registrazione del dizionario,
-// e salvalo in un altro PDF, che non avrà testo con sillabazione.
+// e salvarlo in un altro PDF, che non avrà testo sillabato.
 Hyphenation.UnregisterDictionary("de-CH");
 
 Assert.False(Hyphenation.IsDictionaryRegistered("de-CH"));

@@ -1,14 +1,14 @@
 ---
 title: FieldOptions.FieldDatabaseProvider
 second_title: Aspose.Words per .NET API Reference
-description: FieldOptions proprietà. Ottiene o imposta un provider che restituisce un risultato di query per ilFieldDatabase campo.
+description: FieldOptions proprietà. Ottiene o imposta un provider che restituisce un risultato della query perFieldDatabase campo.
 type: docs
-weight: 70
+weight: 80
 url: /it/net/aspose.words.fields/fieldoptions/fielddatabaseprovider/
 ---
 ## FieldOptions.FieldDatabaseProvider property
 
-Ottiene o imposta un provider che restituisce un risultato di query per il[`FieldDatabase`](../../fielddatabase/) campo.
+Ottiene o imposta un provider che restituisce un risultato della query per[`FieldDatabase`](../../fielddatabase/) campo.
 
 ```csharp
 public IFieldDatabaseProvider FieldDatabaseProvider { get; set; }

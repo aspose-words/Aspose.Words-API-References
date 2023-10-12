@@ -16,7 +16,7 @@ public byte[] Panose { get; set; }
 
 ### Notlar
 
-PANOSE, bir yazı tipinin kritik görsel özelliklerinin, kontrast, ağırlık ve serif stili gibi kompakt 10 baytlık bir açıklamasıdır. Rakamlar Aile Tipi, Serif Stili, Ağırlık, Orantı, Kontrast, Vuruş Varyasyonu, Kol Stili, Harf Biçimi, Orta Çizgi ve X Yüksekliğini temsil eder.
+PANOSE, bir yazı tipinin kontrast, ağırlık ve serif stili gibi gibi kritik görsel özelliklerinin 10 baytlık kompakt bir açıklamasıdır. Rakamlar Aile Türü, Serif Stili, Ağırlık, Oran, Kontrast, Kontur Değişikliği, Kol Stili, Harf Biçimi, Orta Çizgi ve X Yüksekliğini temsil eder.
 
 Olabilir`hükümsüz`.
 
@@ -35,7 +35,7 @@ while (fontCollectionEnumerator.MoveNext())
     {
         Console.WriteLine("Font name: " + fontInfo.Name);
 
-        // Alt adlar genellikle boştur.
+        // Alternatif adlar genellikle boştur.
         Console.WriteLine("Alt name: " + fontInfo.AltName);
         Console.WriteLine("\t- Family: " + fontInfo.Family);
         Console.WriteLine("\t- " + (fontInfo.IsTrueType ? "Is TrueType" : "Is not TrueType"));

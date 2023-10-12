@@ -16,7 +16,7 @@ public Color Color { get; set; }
 
 ### Beispiele
 
-Zeigt, wie eine von einem Rahmen umgebene Zeichenfolge in ein Dokument eingefügt wird.
+Zeigt, wie man eine von einem Rahmen umgebene Zeichenfolge in ein Dokument einfügt.
 
 ```csharp
 Document doc = new Document();

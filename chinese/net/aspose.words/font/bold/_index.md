@@ -1,14 +1,14 @@
 ---
 title: Font.Bold
 second_title: Aspose.Words for .NET API 参考
-description: Font 财产. 如果字体格式为粗体则为真
+description: Font 财产. 如果字体格式为粗体则为 True
 type: docs
 weight: 40
 url: /zh/net/aspose.words/font/bold/
 ---
 ## Font.Bold property
 
-如果字体格式为粗体则为真。
+如果字体格式为粗体，则为 True。
 
 ```csharp
 public bool Bold { get; set; }

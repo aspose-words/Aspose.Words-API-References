@@ -1,14 +1,14 @@
 ---
 title: Comment.Replies
 second_title: Aspose.Words for .NET API Referansı
-description: Comment mülk. Bir koleksiyon döndürürComment belirtilen yorumun hemen alt öğeleri olan nesneler.
+description: Comment mülk. Şunların bir koleksiyonunu döndürürComment belirtilen yorumun doğrudan alt öğeleri olan nesneler.
 type: docs
-weight: 90
+weight: 100
 url: /tr/net/aspose.words/comment/replies/
 ---
 ## Comment.Replies property
 
-Bir koleksiyon döndürür[`Comment`](../) belirtilen yorumun hemen alt öğeleri olan nesneler.
+Şunların bir koleksiyonunu döndürür:[`Comment`](../) belirtilen yorumun doğrudan alt öğeleri olan nesneler.
 
 ```csharp
 public CommentCollection Replies { get; }
@@ -16,14 +16,13 @@ public CommentCollection Replies { get; }
 
 ### Örnekler
 
-Bir belgenin tüm yorumlarının ve yanıtlarının nasıl yazdırılacağını gösterir.
+Bir belgedeki tüm yorumların ve yanıtların nasıl yazdırılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Comments.docx");
 
 NodeCollection comments = doc.GetChildNodes(NodeType.Comment, true);
-
-// Bir yorumun atası yoksa, yanıt türü bir yorumun aksine "üst düzey" bir yorumdur.
+// Bir yorumun atası yoksa bu, yanıt tipi yorumun aksine "üst düzey" bir yorumdur.
 // Tüm üst düzey yorumları, olabilecek yanıtlarla birlikte yazdırın.
 foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == null))
 {

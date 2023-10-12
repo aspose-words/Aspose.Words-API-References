@@ -1,14 +1,14 @@
 ---
 title: ChartLegend.Overlay
 second_title: Referencia de API de Aspose.Words para .NET
-description: ChartLegend propiedad. Determina si se permitirá que otros elementos del gráfico se superpongan a la leyenda. El valor predeterminado es falso.
+description: ChartLegend propiedad. Determina si se permitirá que otros elementos del gráfico se superpongan a la leyenda. El valor predeterminado esFALSO .
 type: docs
 weight: 20
 url: /es/net/aspose.words.drawing.charts/chartlegend/overlay/
 ---
 ## ChartLegend.Overlay property
 
-Determina si se permitirá que otros elementos del gráfico se superpongan a la leyenda. El valor predeterminado es falso.
+Determina si se permitirá que otros elementos del gráfico se superpongan a la leyenda. El valor predeterminado es`FALSO` .
 
 ```csharp
 public bool Overlay { get; set; }

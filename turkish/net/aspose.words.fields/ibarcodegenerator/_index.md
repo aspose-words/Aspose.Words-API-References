@@ -1,14 +1,14 @@
 ---
 title: Interface IBarcodeGenerator
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Fields.IBarcodeGenerator arayüz. Barkod özel oluşturucu için genel arabirim. Uygulama user. tarafından sağlanmalıdır.
+description: Aspose.Words.Fields.IBarcodeGenerator arayüz. Özel barkod oluşturucu için genel arayüz. Uygulama user. tarafından sağlanmalıdır.
 type: docs
-weight: 2500
+weight: 2660
 url: /tr/net/aspose.words.fields/ibarcodegenerator/
 ---
 ## IBarcodeGenerator interface
 
-Barkod özel oluşturucu için genel arabirim. Uygulama user. tarafından sağlanmalıdır.
+Özel barkod oluşturucu için genel arayüz. Uygulama user. tarafından sağlanmalıdır.
 
 ```csharp
 public interface IBarcodeGenerator
@@ -18,12 +18,12 @@ public interface IBarcodeGenerator
 
 | İsim | Tanım |
 | --- | --- |
-| [GetBarcodeImage](../../aspose.words.fields/ibarcodegenerator/getbarcodeimage/)(BarcodeParameters) | Parametre setini kullanarak barkod görüntüsü oluşturun (DisplayBarcode alanı için). |
-| [GetOldBarcodeImage](../../aspose.words.fields/ibarcodegenerator/getoldbarcodeimage/)(BarcodeParameters) | Parametre setini kullanarak barkod görüntüsü oluşturun (eski moda Barkod alanı için). |
+| [GetBarcodeImage](../../aspose.words.fields/ibarcodegenerator/getbarcodeimage/)(BarcodeParameters) | Parametre kümesini kullanarak barkod görüntüsü oluşturun (DisplayBarcode alanı için). |
+| [GetOldBarcodeImage](../../aspose.words.fields/ibarcodegenerator/getoldbarcodeimage/)(BarcodeParameters) | Parametre kümesini kullanarak barkod görüntüsü oluşturun (eski moda Barkod alanı için). |
 
 ### Notlar
 
-Generator örneği,[`BarcodeGenerator`](../fieldoptions/barcodegenerator/) özellik.
+Jeneratör örneği,[`BarcodeGenerator`](../fieldoptions/barcodegenerator/) özellik.
 
 ### Örnekler
 
@@ -32,13 +32,12 @@ Barkod oluşturucunun nasıl kullanılacağını gösterir.
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-
-// Barkod oluşturmak için özel bir IBarcodeGenerator uygulaması kullanabiliriz,
-// ve ardından bunları görüntü olarak belgeye ekleyin.
+// Barkod oluşturmak için özel bir IBarcodeGenerator uygulamasını kullanabiliriz,
+// ve ardından bunları belgeye resim olarak ekleyin.
 doc.FieldOptions.BarcodeGenerator = new CustomBarcodeGenerator();
 
-// Aşağıda, jeneratörümüzü kullanarak oluşturabileceğimiz dört farklı barkod türü örneği bulunmaktadır.
-// Her barkod için yeni bir barkod parametresi seti belirleriz ve ardından görüntüyü oluştururuz.
+// Aşağıda oluşturucumuzu kullanarak oluşturabileceğimiz farklı barkod türlerine ait dört örnek bulunmaktadır.
+// Her barkod için yeni bir barkod parametreleri seti belirliyoruz ve ardından görüntüyü oluşturuyoruz.
 // Daha sonra görüntüyü belgeye ekleyebilir veya yerel dosya sistemine kaydedebiliriz.
 // 1 - QR kodu:
 BarcodeParameters barcodeParameters = new BarcodeParameters
@@ -72,7 +71,7 @@ img = doc.FieldOptions.BarcodeGenerator.GetBarcodeImage(barcodeParameters);
 img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.EAN13.jpg");
 builder.InsertImage(img);
 
-// 3 - KOD39 barkodu:
+// 3 - CODE39 barkodu:
 barcodeParameters = new BarcodeParameters
 {
     BarcodeType = "CODE39",

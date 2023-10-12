@@ -1,14 +1,14 @@
 ---
 title: Table.SetShading
 second_title: Aspose.Words for .NET API Referansı
-description: Table yöntem. Tüm tablo üzerinde belirtilen değerlere gölgeleme ayarlar.
+description: Table yöntem. Gölgelendirmeyi tüm tablo üzerinde belirtilen değerlere ayarlar.
 type: docs
-weight: 430
+weight: 450
 url: /tr/net/aspose.words.tables/table/setshading/
 ---
 ## Table.SetShading method
 
-Tüm tablo üzerinde belirtilen değerlere gölgeleme ayarlar.
+Gölgelendirmeyi tüm tablo üzerinde belirtilen değerlere ayarlar.
 
 ```csharp
 public void SetShading(TextureIndex texture, Color foregroundColor, Color backgroundColor)
@@ -31,7 +31,7 @@ Table table = doc.FirstSection.Body.Tables[0];
 // Tabloyu sayfanın ortasına hizalayın.
 table.Alignment = TableAlignment.Center;
 
-// Tablodaki mevcut kenarlıkları ve gölgelemeleri temizleyin.
+// Tablodaki mevcut sınırları ve gölgeleri temizleyin.
 table.ClearBorders();
 table.ClearShading();
 

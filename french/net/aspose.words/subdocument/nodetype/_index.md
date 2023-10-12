@@ -1,14 +1,14 @@
 ---
 title: SubDocument.NodeType
 second_title: Référence de l'API Aspose.Words pour .NET
-description: SubDocument propriété. Retours NodeType.SubDocumentNodeType.SubDocument
+description: SubDocument propriété. RetoursSubDocument .
 type: docs
 weight: 10
 url: /fr/net/aspose.words/subdocument/nodetype/
 ---
 ## SubDocument.NodeType property
 
-Retours **NodeType.SubDocumentNodeType.SubDocument**
+RetoursSubDocument .
 
 ```csharp
 public override NodeType NodeType { get; }
@@ -16,7 +16,7 @@ public override NodeType NodeType { get; }
 
 ### Exemples
 
-Montre comment accéder au sous-document d'un document maître.
+Montre comment accéder au sous-document d’un document maître.
 
 ```csharp
 Document doc = new Document(MyDir + "Master document.docx");

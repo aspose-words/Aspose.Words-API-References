@@ -20,13 +20,13 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Return_Value
 
-Faux si le visiteur a demandé l'arrêt de l'énumération.
+`FAUX` si le visiteur a demandé l'arrêt de l'énumération.
 
 ### Remarques
 
-Appelle DocumentVisitor.VisitSpecialChar.
+Appels[`VisitSpecialChar`](../../documentvisitor/visitspecialchar/).
 
-Pour plus d'informations, consultez le modèle de conception Visiteur.
+Pour plus d’informations, consultez le modèle de conception Visiteur.
 
 ### Voir également
 

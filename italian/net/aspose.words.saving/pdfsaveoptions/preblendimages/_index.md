@@ -1,14 +1,14 @@
 ---
 title: PdfSaveOptions.PreblendImages
 second_title: Aspose.Words per .NET API Reference
-description: PdfSaveOptions proprietà. Ottiene o imposta un valore che determina se premiscelare le immagini trasparenti con il colore di sfondo nero.
+description: PdfSaveOptions proprietà. Ottiene o imposta un valore che determina se prefondere o meno le immagini trasparenti con il colore di sfondo nero.
 type: docs
-weight: 230
+weight: 260
 url: /it/net/aspose.words.saving/pdfsaveoptions/preblendimages/
 ---
 ## PdfSaveOptions.PreblendImages property
 
-Ottiene o imposta un valore che determina se pre-miscelare le immagini trasparenti con il colore di sfondo nero.
+Ottiene o imposta un valore che determina se prefondere o meno le immagini trasparenti con il colore di sfondo nero.
 
 ```csharp
 public bool PreblendImages { get; set; }
@@ -16,15 +16,15 @@ public bool PreblendImages { get; set; }
 
 ### Osservazioni
 
-La prefusione delle immagini può migliorare l'aspetto visivo del documento PDF in Adobe Reader e rimuovere gli artefatti di anti-aliasing.
+La prefusione delle immagini può migliorare l'aspetto visivo del documento PDF in Adobe Reader e rimuovere gli artefatti anti-aliasing.
 
-Per visualizzare correttamente le immagini premiscelate, l'applicazione di visualizzazione PDF deve supportare la voce /Matte nel dizionario di immagini con maschera morbida. Anche le immagini premiscelate possono ridurre le prestazioni di rendering del PDF.
+Per visualizzare correttamente le immagini pre-miscelate, l'applicazione di visualizzazione PDF deve supportare la voce /Matte nel dizionario immagini soft-mask. Inoltre, la pre-miscelazione delle immagini può ridurre le prestazioni di rendering del PDF.
 
 Il valore predefinito è`falso`.
 
 ### Esempi
 
-Mostra come miscelare immagini con sfondi trasparenti durante il salvataggio di un documento in PDF.
+Mostra come prefondere immagini con sfondi trasparenti durante il salvataggio di un documento in PDF.
 
 ```csharp
 Document doc = new Document();
@@ -34,18 +34,18 @@ Image img = Image.FromFile(ImageDir + "Transparent background logo.png");
 builder.InsertImage(img);
 
 // Crea un oggetto "PdfSaveOptions" che possiamo passare al metodo "Save" del documento
-// per modificare il modo in cui quel metodo converte il documento in .PDF.
+// per modificare il modo in cui il metodo converte il documento in .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// Imposta la proprietà "PreblendImages" su "true" per prefondere immagini trasparenti
-// con uno sfondo, che potrebbe ridurre gli artefatti.
-// Imposta la proprietà "PreblendImages" su "false" per renderizzare normalmente le immagini trasparenti.
+// Imposta la proprietà "PreblendImages" su "true" per prefondere le immagini trasparenti
+// con uno sfondo, che può ridurre gli artefatti.
+// Imposta la proprietà "PreblendImages" su "false" per eseguire normalmente il rendering delle immagini trasparenti.
 options.PreblendImages = preblendImages;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.PreblendImages.pdf", options);
 ```
 
-Mostra come miscelare immagini con sfondi trasparenti (.NetStandard 2.0).
+Mostra come prefondere immagini con sfondi trasparenti (.NetStandard 2.0).
 
 ```csharp
 Document doc = new Document();
@@ -55,12 +55,12 @@ using (Image image = Image.Decode(ImageDir + "Transparent background logo.png"))
     builder.InsertImage(image);
 
 // Crea un oggetto "PdfSaveOptions" che possiamo passare al metodo "Save" del documento
-// per modificare il modo in cui quel metodo converte il documento in .PDF.
+// per modificare il modo in cui il metodo converte il documento in .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// Imposta la proprietà "PreblendImages" su "true" per prefondere immagini trasparenti
-// con uno sfondo, che potrebbe ridurre gli artefatti.
-// Imposta la proprietà "PreblendImages" su "false" per renderizzare normalmente le immagini trasparenti.
+// Imposta la proprietà "PreblendImages" su "true" per prefondere le immagini trasparenti
+// con uno sfondo, che può ridurre gli artefatti.
+// Imposta la proprietà "PreblendImages" su "false" per eseguire normalmente il rendering delle immagini trasparenti.
 options.PreblendImages = preblendImages;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.PreblendImagesNetStandard2.pdf", options);

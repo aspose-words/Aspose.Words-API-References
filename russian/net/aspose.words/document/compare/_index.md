@@ -1,14 +1,14 @@
 ---
 title: Document.Compare
 second_title: Справочник по API Aspose.Words для .NET
-description: Document метод. Сравнивает этот документ с другим документом внося изменения в виде количества редакций и форматирования.Revision .
+description: Document метод. Сравнивает этот документ с другим документом внося изменения в зависимости от количества изменений формата и редактирования.Revision .
 type: docs
-weight: 540
+weight: 580
 url: /ru/net/aspose.words/document/compare/
 ---
 ## Compare(Document, string, DateTime) {#compare}
 
-Сравнивает этот документ с другим документом, внося изменения в виде количества редакций и форматирования.[`Revision`](../../revision/) .
+Сравнивает этот документ с другим документом, внося изменения в зависимости от количества изменений формата и редактирования.[`Revision`](../../revision/) .
 
 ```csharp
 public void Compare(Document document, string author, DateTime dateTime)
@@ -17,15 +17,10 @@ public void Compare(Document document, string author, DateTime dateTime)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | document | Document | Документ для сравнения. |
-| author | String | Инициалы автора использовать для редакций. |
-| dateTime | DateTime | Дата и время для использования для изменений. |
+| author | String | Инициалы автора для исправлений. |
+| dateTime | DateTime | Дата и время, используемые для изменений. |
 
 ### Примечания
-
-На данный момент не сравниваются следующие узлы документа:
-
-* [`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/)
-* Пункт 3
 
 Документы не должны иметь редакций перед сравнением.
 
@@ -42,18 +37,19 @@ Document docEdited = new Document();
 builder = new DocumentBuilder(docEdited);
 builder.Writeln("This is the edited document.");
 
-// Сравнение документов с ревизиями вызовет исключение.
+// Сравнение документов с редакциями вызовет исключение.
 if (docOriginal.Revisions.Count == 0 && docEdited.Revisions.Count == 0)
     docOriginal.Compare(docEdited, "authorName", DateTime.Now);
 
-// После сравнения исходный документ получит новую ревизию
-// для каждого отличающегося элемента в редактируемом документе.
+// После сравнения исходный документ получит новую редакцию
+// для каждого элемента, отличающегося в редактируемом документе.
+foreach (Revision r in docOriginal.Revisions)
 {
     Console.WriteLine($"Revision type: {r.RevisionType}, on a node of type \"{r.ParentNode.NodeType}\"");
     Console.WriteLine($"\tChanged text: \"{r.ParentNode.GetText()}\"");
 }
 
-// Принятие этих изменений преобразует исходный документ в отредактированный документ.
+// Принятие этих изменений приведет к преобразованию исходного документа в отредактированный документ.
 docOriginal.Revisions.AcceptAll();
 
 Assert.AreEqual(docOriginal.GetText(), docEdited.GetText());
@@ -69,7 +65,7 @@ Assert.AreEqual(docOriginal.GetText(), docEdited.GetText());
 
 ## Compare(Document, string, DateTime, CompareOptions) {#compare_1}
 
-Сравнивает этот документ с другим документом, внося изменения в виде количества редакций и форматирования.[`Revision`](../../revision/) . Позволяет указать параметры сравнения, используя[`CompareOptions`](../../../aspose.words.comparing/compareoptions/) .
+Сравнивает этот документ с другим документом, внося изменения в результате ряда изменений редактирования и формата.[`Revision`](../../revision/) . Позволяет указать параметры сравнения, используя[`CompareOptions`](../../../aspose.words.comparing/compareoptions/) .
 
 ```csharp
 public void Compare(Document document, string author, DateTime dateTime, CompareOptions options)
@@ -80,11 +76,11 @@ public void Compare(Document document, string author, DateTime dateTime, Compare
 Показывает, как фильтровать определенные типы элементов документа при сравнении.
 
 ```csharp
-// Создайте исходный документ и заполните его различными элементами.
+// Создаем исходный документ и заполняем его различными элементами.
 Document docOriginal = new Document();
 DocumentBuilder builder = new DocumentBuilder(docOriginal);
 
-// Текст абзаца, на который ссылается концевая сноска:
+// Текст абзаца, на который есть сноска:
 builder.Writeln("Hello world! This is the first paragraph.");
 builder.InsertFootnote(FootnoteType.Endnote, "Original endnote text.");
 
@@ -128,8 +124,8 @@ firstParagraph.ParagraphFormat.Style = docEdited.Styles[StyleIdentifier.Heading1
 docEdited.FirstSection.HeadersFooters[HeaderFooterType.HeaderPrimary].FirstParagraph.Runs[0].Text =
     "Edited header contents.";
 
-// Сравнение документов создает ревизию для каждой правки в редактируемом документе.
-// Объект CompareOptions имеет ряд флагов, которые могут подавлять ревизии
+// При сравнении документов создается редакция для каждого изменения в редактируемом документе.
+// Объект CompareOptions имеет ряд флагов, которые могут подавлять изменения
 // для каждого соответствующего типа элемента, фактически игнорируя их изменение.
 Aspose.Words.Comparing.CompareOptions compareOptions = new Aspose.Words.Comparing.CompareOptions();
 compareOptions.IgnoreFormatting = false;

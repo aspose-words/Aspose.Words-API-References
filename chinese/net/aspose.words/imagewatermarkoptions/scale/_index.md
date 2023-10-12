@@ -1,14 +1,14 @@
 ---
 title: ImageWatermarkOptions.Scale
 second_title: Aspose.Words for .NET API 参考
-description: ImageWatermarkOptions 财产. 获取或设置以图像分数表示的比例因子默认值为 0  auto.
+description: ImageWatermarkOptions 财产. 获取或设置表示为图像分数的比例因子默认值为 0  auto.
 type: docs
 weight: 30
 url: /zh/net/aspose.words/imagewatermarkoptions/scale/
 ---
 ## ImageWatermarkOptions.Scale property
 
-获取或设置以图像分数表示的比例因子。默认值为 0 - auto.
+获取或设置表示为图像分数的比例因子。默认值为 0 - auto.
 
 ```csharp
 public double Scale { get; set; }
@@ -22,9 +22,9 @@ public double Scale { get; set; }
 
 ### 评论
 
-有效值范围从 0 到 65.5（含）。
+有效值范围为 0 到 65.5（含）。
 
-自动缩放意味着水印将缩放到相对于 页边距的最大宽度和最大高度。
+自动缩放意味着水印将缩放至相对于 页边距的最大宽度和最大高度。
 
 ### 例子
 

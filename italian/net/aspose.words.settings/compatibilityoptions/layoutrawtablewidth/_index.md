@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.LayoutRawTableWidth
 second_title: Aspose.Words per .NET API Reference
-description: CompatibilityOptions proprietà. Ignora lo spazio prima della tabella quando decidi se la tabella deve avvolgere loggetto mobile.
+description: CompatibilityOptions proprietà. Ignora lo spazio prima della tabella quando decidi se la tabella deve racchiudere loggetto mobile.
 type: docs
 weight: 290
 url: /it/net/aspose.words.settings/compatibilityoptions/layoutrawtablewidth/
 ---
 ## CompatibilityOptions.LayoutRawTableWidth property
 
-Ignora lo spazio prima della tabella quando decidi se la tabella deve avvolgere l'oggetto mobile.
+Ignora lo spazio prima della tabella quando decidi se la tabella deve racchiudere l'oggetto mobile.
 
 ```csharp
 public bool LayoutRawTableWidth { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.UnderlineTabInNumList
 second_title: Aspose.Words for .NET API 参考
-description: CompatibilityOptions 财产. 下划线跟随字符跟随编号
+description: CompatibilityOptions 财产. 在编号后面的字符下划线
 type: docs
 weight: 590
 url: /zh/net/aspose.words.settings/compatibilityoptions/underlinetabinnumlist/
 ---
 ## CompatibilityOptions.UnderlineTabInNumList property
 
-下划线跟随字符跟随编号。
+在编号后面的字符下划线。
 
 ```csharp
 public bool UnderlineTabInNumList { get; set; }

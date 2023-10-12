@@ -3,7 +3,7 @@ title: Stroke.Visible
 second_title: Aspose.Words för .NET API Referens
 description: Stroke fast egendom. Hämtar eller ställer in en flagga som indikerar om strecket är synligt.
 type: docs
-weight: 190
+weight: 210
 url: /sv/net/aspose.words.drawing/stroke/visible/
 ---
 ## Stroke.Visible property
@@ -16,7 +16,7 @@ public bool Visible { get; set; }
 
 ### Anmärkningar
 
-Standardvärdet för a[`Shape`](../../shape/) är **Sann** .
+Standardvärdet för a[`Shape`](../../shape/) är`Sann` .
 
 ### Exempel
 

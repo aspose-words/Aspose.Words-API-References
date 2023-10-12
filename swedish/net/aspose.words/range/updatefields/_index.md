@@ -3,7 +3,7 @@ title: Range.UpdateFields
 second_title: Aspose.Words för .NET API Referens
 description: Range metod. Uppdaterar värdena för dokumentfält i detta intervall.
 type: docs
-weight: 110
+weight: 120
 url: /sv/net/aspose.words/range/updatefields/
 ---
 ## Range.UpdateFields method
@@ -16,7 +16,7 @@ public void UpdateFields()
 
 ### Anmärkningar
 
-När du öppnar, ändrar och sedan sparar ett dokument uppdaterar Aspose.Words inte fält automatiskt, det håller dem intakta. Därför skulle du vanligtvis vilja anropa den här metoden innan du sparar om du har modifierat document programmatiskt och vill försäkra dig om de korrekta (beräknade) fältvärdena visas i det sparade dokumentet.
+När du öppnar, ändrar och sedan sparar ett dokument uppdaterar Aspose.Words inte fält automatiskt, det behåller dem intakta. Därför skulle du vanligtvis vilja anropa den här metoden innan du sparar om du har modifierat document programmatiskt och vill försäkra dig om de korrekta (beräknade) fältvärdena visas i det sparade dokumentet.
 
 Det finns inget behov av att uppdatera fält efter att ha kört en sammankoppling eftersom brevkoppling är ett slags fält update och uppdaterar automatiskt alla fält i dokumentet.
 

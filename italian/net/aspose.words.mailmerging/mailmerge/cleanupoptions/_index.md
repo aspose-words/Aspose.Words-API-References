@@ -1,14 +1,14 @@
 ---
 title: MailMerge.CleanupOptions
 second_title: Aspose.Words per .NET API Reference
-description: MailMerge proprietà. Ottiene o imposta una serie di flag che specificano quali elementi devono essere rimossi durante la stampa unione.
+description: MailMerge proprietà. Ottiene o imposta un set di flag che specificano quali elementi devono essere rimossi durante la stampa unione.
 type: docs
 weight: 10
 url: /it/net/aspose.words.mailmerging/mailmerge/cleanupoptions/
 ---
 ## MailMerge.CleanupOptions property
 
-Ottiene o imposta una serie di flag che specificano quali elementi devono essere rimossi durante la stampa unione.
+Ottiene o imposta un set di flag che specificano quali elementi devono essere rimossi durante la stampa unione.
 
 ```csharp
 public MailMergeCleanupOptions CleanupOptions { get; set; }
@@ -49,13 +49,13 @@ else
         "Jane Doe", doc.GetText().Trim());
 ```
 
-Mostra come rimuovere automaticamente i MERGEFIELD che restano inutilizzati durante la stampa unione.
+Mostra come rimuovere automaticamente i MERGEFIELD che rimangono inutilizzati durante la stampa unione.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Crea un documento con MERGEFIELD per tre colonne di una tabella di origine dati stampa unione,
+// Crea un documento con MERGEFIELD per tre colonne di una tabella di origini dati di stampa unione,
 // e quindi crea una tabella con solo due colonne i cui nomi corrispondono ai nostri MERGEFIELD.
 builder.InsertField(" MERGEFIELD FirstName ");
 builder.Write(" ");
@@ -70,9 +70,9 @@ dataTable.Rows.Add(new object[] { "John", "Doe" });
 dataTable.Rows.Add(new object[] { "Joe", "Bloggs" });
 
 // Il nostro terzo MERGEFIELD fa riferimento a una colonna "Città", che non esiste nella nostra origine dati.
-// La stampa unione lascerà intatti campi come questo nel loro stato precedente all'unione.
-// L'impostazione della proprietà "CleanupOptions" su "RemoveUnusedFields" rimuoverà tutti i MERGEFIELD
-// che non vengono utilizzati durante una stampa unione per ripulire i documenti di unione.
+// La stampa unione lascerà campi come questo intatti nello stato precedente all'unione.
+// Impostando la proprietà "CleanupOptions" su "RemoveUnusedFields" verranno rimossi tutti i MERGEFIELD
+// che rimangono inutilizzati durante una stampa unione per ripulire i documenti uniti.
 doc.MailMerge.CleanupOptions = mailMergeCleanupOptions;
 doc.MailMerge.Execute(dataTable);
 

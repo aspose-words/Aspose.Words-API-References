@@ -1,14 +1,14 @@
 ---
 title: RevisionOptions.InsertedTextColor
 second_title: Aspose.Words for .NET API Referansı
-description: RevisionOptions mülk. Eklenen içerik için kullanılacak rengi belirlemeye izin verirInsertion . Varsayılan değerByAuthor .
+description: RevisionOptions mülk. Eklenen içerik için kullanılacak rengi belirlemeye olanak tanırInsertion . Varsayılan değerByAuthor .
 type: docs
 weight: 40
 url: /tr/net/aspose.words.layout/revisionoptions/insertedtextcolor/
 ---
 ## RevisionOptions.InsertedTextColor property
 
-Eklenen içerik için kullanılacak rengi belirlemeye izin verirInsertion . Varsayılan değerByAuthor .
+Eklenen içerik için kullanılacak rengi belirlemeye olanak tanırInsertion . Varsayılan değer:ByAuthor .
 
 ```csharp
 public RevisionColor InsertedTextColor { get; set; }
@@ -16,7 +16,7 @@ public RevisionColor InsertedTextColor { get; set; }
 
 ### Örnekler
 
-İşlenmiş bir çıktı belgesindeki revizyonların görünümünün nasıl değiştirileceğini gösterir.
+İşlenmiş bir çıktı belgesindeki düzeltmelerin görünümünün nasıl değiştirileceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -29,7 +29,7 @@ builder.Writeln("This is a revision.");
 doc.StopTrackRevisions();
 builder.Writeln("This is not a revision.");
 
-// Revize edilen her satırın solunda görünen çubuğu kaldırın.
+// Düzenlenen her satırın solunda görünen çubuğu kaldırın.
 doc.LayoutOptions.RevisionOptions.InsertedTextColor = RevisionColor.BrightGreen;
 doc.LayoutOptions.RevisionOptions.ShowRevisionBars = false;
 

@@ -1,14 +1,16 @@
 ---
 title: Class NodeChangingArgs
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.NodeChangingArgs فصل. توفير بيانات لأساليب ملفINodeChangingCallback الواجهة .
+description: Aspose.Words.NodeChangingArgs فصل. يوفر بيانات عن طرقINodeChangingCallback الواجهة.
 type: docs
-weight: 3950
+weight: 4190
 url: /ar/net/aspose.words/nodechangingargs/
 ---
 ## NodeChangingArgs class
 
-توفير بيانات لأساليب ملف[`INodeChangingCallback`](../inodechangingcallback/) الواجهة .
+يوفر بيانات عن طرق[`INodeChangingCallback`](../inodechangingcallback/) الواجهة.
+
+لمعرفة المزيد، قم بزيارة[نموذج كائن مستند Aspose.Words (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) مقالة توثيقية.
 
 ```csharp
 public class NodeChangingArgs
@@ -18,37 +20,39 @@ public class NodeChangingArgs
 
 | اسم | وصف |
 | --- | --- |
-| [Action](../../aspose.words/nodechangingargs/action/) { get; } | يحصل على قيمة تشير إلى نوع حدث تغيير العقدة الذي يحدث . |
-| [NewParent](../../aspose.words/nodechangingargs/newparent/) { get; } | الحصول على أصل العقدة الذي سيتم تعيينه بعد اكتمال العملية. |
-| [Node](../../aspose.words/nodechangingargs/node/) { get; } | يحصل على ملف[`Node`](./node/) التي تتم إضافتها أو إزالتها. |
+| [Action](../../aspose.words/nodechangingargs/action/) { get; } | الحصول على قيمة تشير إلى نوع حدث تغيير العقدة الذي يحدث. |
+| [NewParent](../../aspose.words/nodechangingargs/newparent/) { get; } | يحصل على أصل العقدة الذي سيتم تعيينه بعد اكتمال العملية. |
+| [Node](../../aspose.words/nodechangingargs/node/) { get; } | يحصل على[`Node`](./node/) التي تتم إضافتها أو إزالتها. |
 | [OldParent](../../aspose.words/nodechangingargs/oldparent/) { get; } | الحصول على أصل العقدة قبل بدء العملية. |
 
 ### أمثلة
 
-يوضح كيفية تخصيص تغيير العقدة مع رد الاتصال.
+يوضح كيفية تخصيص تغيير العقدة من خلال رد الاتصال.
 
 ```csharp
+public void FontChangeViaCallback()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // تعيين استدعاء تغيير العقدة إلى التنفيذ المخصص ،
-    // ثم قم بإضافة / إزالة العقد للحصول عليها لإنشاء سجل.
+    // قم بتعيين رد الاتصال المتغير للعقدة على التنفيذ المخصص،
+    // ثم قم بإضافة/إزالة العقد للحصول على سجل.
     HandleNodeChangingFontChanger callback = new HandleNodeChangingFontChanger();
     doc.NodeChangingCallback = callback;
 
     builder.Writeln("Hello world!");
     builder.Writeln("Hello again!");
-    builder.InsertField(" HYPERLINK \"https://www.google.com/ \ "") ;
+    builder.InsertField(" HYPERLINK \"https://www.google.com/\" ");
     builder.InsertShape(ShapeType.Rectangle, 300, 300);
 
     doc.Range.Fields[0].Remove();
 
     Console.WriteLine(callback.GetLog());
+}
 
 /// <summary>
-/// يسجل تاريخ ووقت كل إدخال وإزالة عقدة.
-/// يعين اسم / حجم خط مخصص لمحتويات نص عقد التشغيل.
+/// يسجل تاريخ ووقت كل إدخال وإزالة للعقدة.
+/// يعين اسم/حجم خط مخصص لمحتويات النص في عقد التشغيل.
 /// </summary>
 public class HandleNodeChangingFontChanger : INodeChangingCallback
 {

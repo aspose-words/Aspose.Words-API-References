@@ -1,14 +1,14 @@
 ---
 title: SaveOptions.ExportGeneratorName
 second_title: Aspose.Words für .NET-API-Referenz
-description: SaveOptions eigendom. Wenn wahr bewirkt dies dass der Name und die Version von Aspose.Words in produzierte Dateien eingebettet werden. Der Standardwert ist Stimmt .
+description: SaveOptions eigendom. WannWAHR  bewirkt dass der Name und die Version von Aspose.Words in erzeugte Dateien eingebettet werden. Der Standardwert istWAHR .
 type: docs
 weight: 80
 url: /de/net/aspose.words.saving/saveoptions/exportgeneratorname/
 ---
 ## SaveOptions.ExportGeneratorName property
 
-Wenn wahr, bewirkt dies, dass der Name und die Version von Aspose.Words in produzierte Dateien eingebettet werden. Der Standardwert ist **Stimmt** .
+Wann`WAHR` , bewirkt, dass der Name und die Version von Aspose.Words in erzeugte Dateien eingebettet werden. Der Standardwert ist`WAHR` .
 
 ```csharp
 public bool ExportGeneratorName { get; set; }
@@ -16,7 +16,7 @@ public bool ExportGeneratorName { get; set; }
 
 ### Beispiele
 
-Zeigt, wie das Hinzufügen von Name und Version von Aspose.Words zu produzierten Dateien deaktiviert wird.
+Zeigt, wie das Hinzufügen von Namen und Version von Aspose.Words zu erzeugten Dateien deaktiviert wird.
 
 ```csharp
 Document doc = new Document();

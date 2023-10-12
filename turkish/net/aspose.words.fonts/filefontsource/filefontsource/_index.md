@@ -91,14 +91,13 @@ public FileFontSource(string filePath, int priority, string cacheKey)
 | --- | --- | --- |
 | filePath | String | Yazı tipi dosyasının yolu. |
 | priority | Int32 | Yazı tipi kaynağı önceliği. Bkz.[`Priority`](../../fontsourcebase/priority/) Daha fazla bilgi için özellik açıklaması. |
-| cacheKey | String | Önbellekte bu kaynağın anahtarı. Görmek[`CacheKey`](../cachekey/) Daha fazla bilgi için özellik açıklaması. |
+| cacheKey | String | Bu kaynağın anahtarı önbellektedir. Görmek[`CacheKey`](../cachekey/) Daha fazla bilgi için özellik açıklaması. |
 
 ### Örnekler
 
 Yazı tipi önbelleği başlatma işleminin nasıl hızlandırılacağını gösterir.
 
 ```csharp
-[Test]
 public void LoadFontSearchCache()
 {
     const string cacheKey1 = "Arvo";
@@ -126,8 +125,8 @@ public void LoadFontSearchCache()
 }
 
 /// <summary>
-/// Yazı tipi verilerini bellekte saklamak yerine yalnızca gerektiğinde yükleyin
-/// "FontSettings" nesnesinin tüm kullanım ömrü boyunca.
+/// Yazı tipi verilerini belleğe kaydetmek yerine yalnızca gerektiğinde yükleyin
+/// "FontSettings" nesnesinin tüm ömrü boyunca.
 /// </summary>
 private class SearchCacheStream : StreamFontSource
 {

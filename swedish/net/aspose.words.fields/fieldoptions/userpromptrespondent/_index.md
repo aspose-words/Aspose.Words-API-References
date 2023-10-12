@@ -3,7 +3,7 @@ title: FieldOptions.UserPromptRespondent
 second_title: Aspose.Words för .NET API Referens
 description: FieldOptions fast egendom. Hämtar eller ställer in svaranden till användarmeddelanden under fältuppdatering.
 type: docs
-weight: 200
+weight: 220
 url: /sv/net/aspose.words.fields/fieldoptions/userpromptrespondent/
 ---
 ## FieldOptions.UserPromptRespondent property
@@ -16,16 +16,15 @@ public IFieldUserPromptRespondent UserPromptRespondent { get; set; }
 
 ### Anmärkningar
 
-Om värdet för den här egenskapen är satt till **null** , de fält som kräver användarsvar på prompting (som[`FieldAsk`](../../fieldask/) eller[`FieldFillIn`](../../fieldfillin/)) uppdateras inte.
+Om värdet för den här egenskapen är satt till`null` , de fält som kräver användarsvar på prompting (som[`FieldAsk`](../../fieldask/) eller[`FieldFillIn`](../../fieldfillin/)) uppdateras inte.
 
-Standardvärdet är **null**.
+Standardvärdet är`null`.
 
 ### Exempel
 
 Visar hur man skapar ett ASK-fält och ställer in dess egenskaper.
 
 ```csharp
-[Test]
 public void FieldAsk()
 {
     Document doc = new Document();
@@ -66,6 +65,7 @@ public void FieldAsk()
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.ASK.docx");
+}
 
 /// <summary>
 /// Lägger text framför standardsvaret i ett ASK-fält under en e-postkoppling.

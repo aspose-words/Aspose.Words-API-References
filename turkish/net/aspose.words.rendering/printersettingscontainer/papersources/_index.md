@@ -16,11 +16,11 @@ public PaperSourceCollection PaperSources { get; }
 
 ### Örnekler
 
-Yazıcınızın kağıt kaynaklarına ve boyutlarına nasıl erişileceğini ve bunların listeleneceğini gösterir.
+Yazıcınızın kağıt kaynaklarına ve boyutlarına nasıl erişeceğinizi ve bunları listeleyeceğinizi gösterir.
 
 ```csharp
-// "PrinterSettingsContainer", bir "PrinterSettings" nesnesi içeriyor,
-// farklı yazıcı sürücüleri için benzersiz veriler içeren.
+// "PrinterSettingsContainer" bir "PrinterSettings" nesnesi içerir,
+// farklı yazıcı sürücüleri için benzersiz veriler içerir.
 PrinterSettingsContainer container = new PrinterSettingsContainer(new PrinterSettings());
 
 Console.WriteLine($"This printer contains {container.PaperSources.Count} printer paper sources:");
@@ -31,12 +31,12 @@ foreach (PaperSource paperSource in container.PaperSources)
                       $"RawKind: {paperSource.RawKind} {(isDefault ? "(Default)" : "")}");
 }
 
-// "PaperSizes" özelliği, yazıcıya kullanması talimatını verecek kağıt boyutlarının listesini içerir.
+// "PaperSizes" özelliği, yazıcının kullanması talimatını verecek kağıt boyutlarının listesini içerir.
 // Hem PrinterSource hem de PrinterSize bir "RawKind" özelliği içerir,
-// bu, PaperSourceKind enum'da listelenen bir kağıt türüne eşittir.
-// Yazdırılan sayfa ile aynı "RawKind" değerine sahip bir kağıt kaynağı varsa,
+// bu, PaperSourceKind numaralandırmasında listelenen kağıt türüne eşittir.
+// Yazdırılan sayfayla aynı "RawKind" değerine sahip bir kağıt kaynağı varsa,
 // yazıcı, sağlanan kağıt kaynağını ve boyutunu kullanarak sayfayı yazdıracaktır.
-// Aksi takdirde, yazıcı varsayılan olarak "DefaultPageSettingsPaperSource" özelliği tarafından belirlenen kaynağa geçer.
+// Aksi takdirde, yazıcı varsayılan olarak "DefaultPageSettingsPaperSource" özelliği tarafından belirlenen kaynağı kullanacaktır.
 Console.WriteLine($"{container.PaperSizes.Count} paper sizes:");
 foreach (System.Drawing.Printing.PaperSize paperSize in container.PaperSizes)
 {

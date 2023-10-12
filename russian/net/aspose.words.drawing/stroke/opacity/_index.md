@@ -1,14 +1,14 @@
 ---
 title: Stroke.Opacity
 second_title: Справочник по API Aspose.Words для .NET
-description: Stroke свойство. Определяет степень прозрачности штриха. Допустимый диапазон от 0 до 1.
+description: Stroke свойство. Определяет степень прозрачности обводки. Допустимый диапазон от 0 до 1. .
 type: docs
-weight: 140
+weight: 160
 url: /ru/net/aspose.words.drawing/stroke/opacity/
 ---
 ## Stroke.Opacity property
 
-Определяет степень прозрачности штриха. Допустимый диапазон от 0 до 1.
+Определяет степень прозрачности обводки. Допустимый диапазон: от 0 до 1. .
 
 ```csharp
 public double Opacity { get; set; }
@@ -20,14 +20,14 @@ public double Opacity { get; set; }
 
 ### Примеры
 
-Показывает создание различных фигур.
+Показывает создание разнообразных фигур.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Ниже приведены четыре примера фигур, которые мы можем вставить в наши документы.
-// 1 - Пунктирная, горизонтальная, полупрозрачная красная линия
+// 1 - Пунктирная горизонтальная полупрозрачная красная линия
 // со стрелкой на левом конце и ромбом на правом конце:
 Shape arrow = new Shape(doc, ShapeType.Line);
 arrow.Width = 200;
@@ -65,7 +65,7 @@ filledInArrow.Fill.Visible = true;
 
 builder.InsertNode(filledInArrow);
 
-// 4 - Стрелка с перевернутой ориентацией, заполненная логотипом Aspose:
+// 4 — Стрелка с перевернутой ориентацией, заполненная логотипом Aspose:
 Shape filledInArrowImg = new Shape(doc, ShapeType.Arrow);
 filledInArrowImg.Width = 200;
 filledInArrowImg.Height = 40;
@@ -77,8 +77,8 @@ byte[] imageBytes = File.ReadAllBytes(ImageDir + "Logo.jpg");
 using (MemoryStream stream = new MemoryStream(imageBytes))
 {
     Image image = Image.FromStream(stream);
-    // Когда мы меняем ориентацию нашей стрелки, мы также меняем изображение, которое содержит стрелка.
-    // Переверните изображение другим способом, чтобы отменить это, прежде чем получить форму для его отображения.
+    // Когда мы меняем ориентацию нашей стрелки, мы также переворачиваем изображение, которое содержит стрелка.
+    // Переверните изображение в другую сторону, чтобы отменить это, прежде чем получить форму для его отображения.
     image.RotateFlip(RotateFlipType.RotateNoneFlipXY);
 
     filledInArrowImg.ImageData.SetImage(image);

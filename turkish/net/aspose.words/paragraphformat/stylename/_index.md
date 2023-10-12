@@ -3,7 +3,7 @@ title: ParagraphFormat.StyleName
 second_title: Aspose.Words for .NET API Referansı
 description: ParagraphFormat mülk. Bu biçimlendirmeye uygulanan paragraf stilinin adını alır veya ayarlar.
 type: docs
-weight: 350
+weight: 360
 url: /tr/net/aspose.words/paragraphformat/stylename/
 ---
 ## ParagraphFormat.StyleName property
@@ -16,27 +16,27 @@ public string StyleName { get; set; }
 
 ### Örnekler
 
-Bir Aspose.Words belgesinin elle nasıl oluşturulacağını gösterir.
+Aspose.Words belgesinin elle nasıl oluşturulacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 
-// Boş bir belge bir bölüm, bir gövde ve bir paragraf içerir.
+// Boş bir belge bir bölüm, bir gövde ve bir paragraftan oluşur.
 // Tüm bu düğümleri kaldırmak için "RemoveAllChildren" yöntemini çağırın,
-// ve alt öğesi olmayan bir belge düğümüyle bitirin.
+// ve çocuğu olmayan bir belge düğümü elde ederiz.
 doc.RemoveAllChildren();
 
 // Bu belgede artık içerik ekleyebileceğimiz bileşik alt düğüm yok.
-// Düzenlemek istiyorsak, düğüm koleksiyonunu yeniden doldurmamız gerekecek.
-// Önce yeni bir bölüm oluşturun ve ardından onu kök belge düğümüne alt öğe olarak ekleyin.
+// Eğer onu düzenlemek istiyorsak, düğüm koleksiyonunu yeniden doldurmamız gerekecek.
+// Öncelikle yeni bir bölüm oluşturun ve ardından bunu alt öğe olarak kök belge düğümüne ekleyin.
 Section section = new Section(doc);
 doc.AppendChild(section);
 
-// Bölüm için bazı sayfa kurulum özelliklerini ayarlayın.
+// Bölüm için bazı sayfa yapısı özelliklerini ayarlayın.
 section.PageSetup.SectionStart = SectionStart.NewPage;
 section.PageSetup.PaperSize = PaperSize.Letter;
 
-// Bir bölümün tüm içeriğini içerecek ve görüntüleyecek bir gövdeye ihtiyacı var
+// Bir bölümün tüm içeriğini içerecek ve görüntüleyecek bir gövdeye ihtiyacı vardır
 // bölümün üstbilgisi ve altbilgisi arasındaki sayfada.
 Body body = new Body(doc);
 section.AppendChild(body);
@@ -49,8 +49,8 @@ para.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 body.AppendChild(para);
 
-// Son olarak, belgeyi yapmak için biraz içerik ekleyin. Bir koşu oluşturun,
-// görünümünü ve içeriğini ayarlayın ve ardından paragrafa alt öğe olarak ekleyin.
+// Son olarak belgeyi yapmak için biraz içerik ekleyin. Bir koşu oluşturun,
+// görünüşünü ve içeriğini ayarlayın ve ardından onu alt öğe olarak paragrafa ekleyin.
 Run run = new Run(doc);
 run.Text = "Hello World!";
 run.Font.Color = Color.Red;

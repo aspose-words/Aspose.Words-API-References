@@ -1,14 +1,14 @@
 ---
 title: ChartAxis.NumberFormat
 second_title: Aspose.Words für .NET-API-Referenz
-description: ChartAxis eigendom. Gibt a zurückChartNumberFormat Objekt mit dem Zahlenformate für die Achse definiert werden können.
+description: ChartAxis eigendom. Gibt a zurückChartNumberFormat Objekt das die Definition von Zahlenformaten für die Achse ermöglicht.
 type: docs
-weight: 170
+weight: 190
 url: /de/net/aspose.words.drawing.charts/chartaxis/numberformat/
 ---
 ## ChartAxis.NumberFormat property
 
-Gibt a zurück[`ChartNumberFormat`](../../chartnumberformat/) Objekt, mit dem Zahlenformate für die Achse definiert werden können.
+Gibt a zurück[`ChartNumberFormat`](../../chartnumberformat/) Objekt, das die Definition von Zahlenformaten für die Achse ermöglicht.
 
 ```csharp
 public ChartNumberFormat NumberFormat { get; }
@@ -16,7 +16,7 @@ public ChartNumberFormat NumberFormat { get; }
 
 ### Beispiele
 
-Zeigt, wie Sie die Formatierung für Diagrammwerte festlegen.
+Zeigt, wie die Formatierung für Diagrammwerte festgelegt wird.
 
 ```csharp
 Document doc = new Document();
@@ -28,13 +28,13 @@ Chart chart = shape.Chart;
 // Löschen Sie die Demo-Datenreihe des Diagramms, um mit einem sauberen Diagramm zu beginnen.
 chart.Series.Clear();
 
-// Hinzufügen einer benutzerdefinierten Reihe zum Diagramm mit Kategorien für die X-Achse,
- // und große entsprechende numerische Werte für die Y-Achse.
+// Dem Diagramm eine benutzerdefinierte Reihe mit Kategorien für die X-Achse hinzufügen,
+ // und große jeweilige numerische Werte für die Y-Achse.
 chart.Series.Add("Aspose Test Series",
     new [] { "Word", "PDF", "Excel", "GoogleDocs", "Note" },
     new double[] { 1900000, 850000, 2100000, 600000, 1500000 });
 
- // Stellen Sie das Zahlenformat der Tick-Beschriftungen der Y-Achse so ein, dass Ziffern nicht mit Kommas gruppiert werden.
+ // Stellen Sie das Zahlenformat der Y-Achsen-Teilstrichbeschriftungen so ein, dass Ziffern nicht mit Kommas gruppiert werden.
 chart.AxisY.NumberFormat.FormatCode = "#,##0";
 
 // Dieses Flag kann den obigen Wert überschreiben und das Zahlenformat aus der Quellzelle ziehen.

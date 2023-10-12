@@ -16,11 +16,11 @@ public double LineWidth { get; set; }
 
 ### Osservazioni
 
-Se si imposta una larghezza della linea maggiore di zero quando lo stile della linea è nessuno, lo stile della linea viene automaticamente modificato in linea singola.
+Se imposti una larghezza di linea maggiore di zero quando lo stile di linea è nessuno, lo stile di linea verrà automaticamente modificato in linea singola.
 
 ### Esempi
 
-Mostra come inserire una stringa racchiusa da un bordo in un documento.
+Mostra come inserire una stringa circondata da un bordo in un documento.
 
 ```csharp
 Document doc = new Document();

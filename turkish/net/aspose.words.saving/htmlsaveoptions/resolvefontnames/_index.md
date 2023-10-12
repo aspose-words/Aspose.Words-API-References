@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.ResolveFontNames
 second_title: Aspose.Words for .NET API Referansı
-description: HtmlSaveOptions mülk. Belgede kullanılan yazı tipi ailesi adlarının çözümlenip çözümlenmediğini ve ye göre değiştirilip değiştirilmediğini belirtir.FontSettings HTML tabanlı biçimlerde yazılırken.
+description: HtmlSaveOptions mülk. Belgede kullanılan yazı tipi ailesi adlarının ye göre çözümlenip değiştirilmeyeceğini belirtirFontSettings HTML tabanlı formatlara yazılırken.
 type: docs
 weight: 410
 url: /tr/net/aspose.words.saving/htmlsaveoptions/resolvefontnames/
 ---
 ## HtmlSaveOptions.ResolveFontNames property
 
-Belgede kullanılan yazı tipi ailesi adlarının çözümlenip çözümlenmediğini ve 'ye göre değiştirilip değiştirilmediğini belirtir.[`FontSettings`](../../../aspose.words/document/fontsettings/) HTML tabanlı biçimlerde yazılırken.
+Belgede kullanılan yazı tipi ailesi adlarının 'ye göre çözümlenip değiştirilmeyeceğini belirtir[`FontSettings`](../../../aspose.words/document/fontsettings/) HTML tabanlı formatlara yazılırken.
 
 ```csharp
 public bool ResolveFontNames { get; set; }
@@ -16,22 +16,22 @@ public bool ResolveFontNames { get; set; }
 
 ### Notlar
 
-Varsayılan olarak, bu seçenek şu şekilde ayarlanmıştır:`yanlış`ve yazı tipi ailesi adları, kaynak belgelerde belirtilen olarak HTML'ye yazılır. Yani,[`FontSettings`](../../../aspose.words/document/fontsettings/) yoksayılır ve yazı tipi aile adlarının çözümlenmesi veya değiştirilmesi gerçekleştirilmez.
+Varsayılan olarak bu seçenek şu şekilde ayarlanmıştır:`YANLIŞ` ve yazı tipi ailesi adları, kaynak belgelerde belirtilen olarak HTML'ye yazılır. Yani,[`FontSettings`](../../../aspose.words/document/fontsettings/) göz ardı edilir ve yazı tipi ailesi adlarının çözümlenmesi veya ikame işlemi gerçekleştirilmez.
 
-Bu seçenek olarak ayarlanırsa`doğru` , Aspose.Words kullanır[`FontSettings`](../../../aspose.words/document/fontsettings/) bir kaynak belgede belirtilen her bir yazı tipi ailesi adını uygun bir yazı tipi ailesi adına çözümlemek için, gerektiğinde yazı tipi değiştirme işlemini gerçekleştirir.
+Bu seçenek olarak ayarlanmışsa`doğru` Aspose.Words'ün kullanım alanları[`FontSettings`](../../../aspose.words/document/fontsettings/) bir kaynak belgede belirtilen her yazı tipi ailesi adını mevcut bir yazı tipi ailesinin adına çözümlemek ve gerektiğinde yazı tipi değişimini gerçekleştirmek.
 
 ### Örnekler
 
-Tüm yazı tipi adlarının HTML'ye yazılmadan önce nasıl çözüleceğini gösterir.
+Tüm yazı tipi adlarının HTML'ye yazılmadan önce nasıl çözümleneceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Missing font.docx");
 
-// Bu belge, sahip olmadığımız bir yazı tipini adlandıran metin içeriyor.
+// Bu belge elimizde olmayan bir yazı tipini adlandıran metin içeriyor.
 Assert.NotNull(doc.FontInfos["28 Days Later"]);
 
-// Bu yazı tipini almanın bir yolu yoksa ve tüm metni görüntüleyebilmek istiyorsak
-// bu belgede bir çıktı HTML'sinde, onu başka bir yazı tipiyle değiştirebiliriz.
+// Bu yazı tipini almamızın bir yolu yoksa ve tüm metni görüntüleyebilmek istiyorsak
+// bu belgedeki çıktı HTML'sinde onu başka bir yazı tipiyle değiştirebiliriz.
 FontSettings fontSettings = new FontSettings
 {
     SubstitutionSettings =
@@ -48,7 +48,7 @@ doc.FontSettings = fontSettings;
 
 HtmlSaveOptions saveOptions = new HtmlSaveOptions(SaveFormat.Html)
 {
-    // Varsayılan olarak, bu seçenek 'False' olarak ayarlanmıştır ve Aspose.Words font adlarını kaynak belgede belirtildiği gibi yazar
+    // Varsayılan olarak bu seçenek 'Yanlış' olarak ayarlıdır ve Aspose.Words, kaynak belgede belirtildiği gibi yazı tipi adlarını yazar
     ResolveFontNames = resolveFontNames
 };
 

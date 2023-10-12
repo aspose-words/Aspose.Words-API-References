@@ -1,14 +1,14 @@
 ---
 title: FontInfo.Pitch
 second_title: Aspose.Words für .NET-API-Referenz
-description: FontInfo eigendom. Die Teilung gibt an ob die Schriftart eine feste Teilung proportionale Abstände oder eine Standardeinstellung hat.
+description: FontInfo eigendom. Die Tonhöhe gibt an ob die Schriftart eine feste Tonhöhe einen proportionalen Abstand oder eine Standardeinstellung hat.
 type: docs
 weight: 70
 url: /de/net/aspose.words.fonts/fontinfo/pitch/
 ---
 ## FontInfo.Pitch property
 
-Die Teilung gibt an, ob die Schriftart eine feste Teilung, proportionale Abstände oder eine Standardeinstellung hat.
+Die Tonhöhe gibt an, ob die Schriftart eine feste Tonhöhe, einen proportionalen Abstand oder eine Standardeinstellung hat.
 
 ```csharp
 public FontPitch Pitch { get; set; }
@@ -16,7 +16,7 @@ public FontPitch Pitch { get; set; }
 
 ### Beispiele
 
-Zeigt, wie Sie auf Details jeder Schriftart in einem Dokument zugreifen und diese drucken können.
+Zeigt, wie Sie auf Details zu jeder Schriftart in einem Dokument zugreifen und diese drucken können.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");

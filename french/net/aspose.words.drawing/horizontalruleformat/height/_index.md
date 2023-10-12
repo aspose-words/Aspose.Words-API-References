@@ -18,7 +18,7 @@ public double Height { get; set; }
 
 | exception | condition |
 | --- | --- |
-| ArgumentOutOfRangeException | Lance lorsque l'argument est en dehors de la plage de valeurs valides. |
+| ArgumentOutOfRangeException | Lance lorsque l'argument est hors de la plage des valeurs valides. |
 
 ### Remarques
 

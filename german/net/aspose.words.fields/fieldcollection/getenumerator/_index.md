@@ -1,14 +1,14 @@
 ---
 title: FieldCollection.GetEnumerator
 second_title: Aspose.Words für .NET-API-Referenz
-description: FieldCollection methode. Gibt ein Aufzählungsobjekt zurück.
+description: FieldCollection methode. Gibt ein Enumeratorobjekt zurück.
 type: docs
 weight: 40
 url: /de/net/aspose.words.fields/fieldcollection/getenumerator/
 ---
 ## FieldCollection.GetEnumerator method
 
-Gibt ein Aufzählungsobjekt zurück.
+Gibt ein Enumeratorobjekt zurück.
 
 ```csharp
 public IEnumerator<Field> GetEnumerator()
@@ -19,6 +19,7 @@ public IEnumerator<Field> GetEnumerator()
 Zeigt, wie mit einer Sammlung von Feldern gearbeitet wird.
 
 ```csharp
+public void FieldCollection()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -36,7 +37,7 @@ Zeigt, wie mit einer Sammlung von Feldern gearbeitet wird.
     Assert.AreEqual(6, fields.Count);
 
     // Über die Feldsammlung iterieren und Inhalt und Typ ausgeben
-    // jedes Feldes mit einer benutzerdefinierten Besucherimplementierung.
+    // jedes Feldes mithilfe einer benutzerdefinierten Besucherimplementierung.
     FieldVisitor fieldVisitor = new FieldVisitor();
 
     using (IEnumerator<Field> fieldEnumerator = fields.GetEnumerator())
@@ -57,9 +58,10 @@ Zeigt, wie mit einer Sammlung von Feldern gearbeitet wird.
     }
 
     Console.WriteLine(fieldVisitor.GetText());
+}
 
 /// <summary>
-/// Besucherimplementierung dokumentieren, die Feldinformationen druckt.
+/// Dokumentieren Sie die Besucherimplementierung, die Feldinformationen druckt.
 /// </summary>
 public class FieldVisitor : DocumentVisitor
 {
@@ -69,7 +71,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Ruft den Klartext des Dokuments ab, das vom Besucher angesammelt wurde.
+    /// Ruft den Klartext des vom Besucher gesammelten Dokuments ab.
     /// </summary>
     public string GetText()
     {

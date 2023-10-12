@@ -1,14 +1,14 @@
 ---
 title: ImageData.ToImage
 second_title: Aspose.Words لمراجع .NET API
-description: ImageData طريقة. يحصل على الصورة المخزنة بالشكل كملفImage الكائن .
+description: ImageData طريقة. يحصل على الصورة المخزنة بالشكل aImage الكائن.
 type: docs
-weight: 220
+weight: 230
 url: /ar/net/aspose.words.drawing/imagedata/toimage/
 ---
 ## ImageData.ToImage method
 
-يحصل على الصورة المخزنة بالشكل كملفImage الكائن .
+يحصل على الصورة المخزنة بالشكل aImage الكائن.
 
 ```csharp
 public Image ToImage()
@@ -16,7 +16,7 @@ public Image ToImage()
 
 ### ملاحظات
 
-جديدImage يتم إنشاء الكائن في كل مرة يتم استدعاء هذه الطريقة.
+جديدImage يتم إنشاء الكائن في كل مرة يتم فيها استدعاء هذه الطريقة.
 
 تقع على عاتق المتصل مسؤولية التخلص من كائن الصورة.
 
@@ -27,11 +27,11 @@ public Image ToImage()
 ```csharp
 Document imgSourceDoc = new Document(MyDir + "Images.docx");
 
-// الأشكال مع مخزن مجموعة العلامات "HasImage" وعرض جميع صور المستند.
+// الأشكال ذات مجموعة العلامات "HasImage" تخزن جميع صور المستند وتعرضها.
 IEnumerable<Shape> shapesWithImages = 
     imgSourceDoc.GetChildNodes(NodeType.Shape, true).Cast<Shape>().Where(s => s.HasImage);
 
-// اذهب من خلال كل شكل واحفظ صورته.
+// تصفح كل شكل واحفظ صورته.
 ImageFormatConverter formatConverter = new ImageFormatConverter();
 
 using (IEnumerator<Shape> enumerator = shapesWithImages.GetEnumerator())

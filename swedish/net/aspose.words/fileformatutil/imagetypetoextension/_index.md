@@ -38,7 +38,7 @@ foreach (Shape shape in shapes.OfType<Shape>())
 {
     if (shape.HasImage)
     {
-        // Bilddata för former kan innehålla bilder av många möjliga bildformat. 
+         // Bilddata för former kan innehålla bilder av många möjliga bildformat.
         // Vi kan bestämma en filtillägg för varje bild automatiskt, baserat på dess format.
         string imageFileName =
             $"File.ExtractImages.{imageIndex}{FileFormatUtil.ImageTypeToExtension(shape.ImageData.ImageType)}";

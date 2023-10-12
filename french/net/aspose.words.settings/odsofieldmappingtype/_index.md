@@ -3,7 +3,7 @@ title: Enum OdsoFieldMappingType
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.Settings.OdsoFieldMappingType énumération. Spécifie les types possibles utilisés pour indiquer si un champ de publipostage donné a été mappé à une colonne dans la source de données externe donnée.
 type: docs
-weight: 5620
+weight: 5920
 url: /fr/net/aspose.words.settings/odsofieldmappingtype/
 ---
 ## OdsoFieldMappingType enumeration
@@ -48,15 +48,15 @@ using (IEnumerator<OdsoFieldMapData> enumerator = dataCollection.GetEnumerator()
     }
 }
 
-// Clone les éléments de cette collection.
+// Clonez les éléments de cette collection.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Utilise les éléments de la méthode "RemoveAt" individuellement par index.
+// Utilisez les éléments de la méthode "RemoveAt" individuellement par index.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(29, dataCollection.Count);
 
-// Utilisez la méthode "Clear" pour effacer toute la collection d'un coup.
+// Utilisez la méthode "Clear" pour effacer toute la collection en une seule fois.
 dataCollection.Clear();
 
 Assert.AreEqual(0, dataCollection.Count);

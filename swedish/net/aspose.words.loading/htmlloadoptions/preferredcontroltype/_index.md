@@ -16,7 +16,7 @@ public HtmlControlType PreferredControlType { get; set; }
 
 ### Anmärkningar
 
-Observera att inställning av den här egenskapen inte garanterar att alla importerade kontroller kommer att vara av den angivna typen. Om en HTML-kontroll inte kan representeras med dokumentnoder av den föredragna typen kommer Aspose.Words att använda en kompatibel[`HtmlControlType`](../../htmlcontroltype/) för den kontrollen.
+Observera att inställningen av den här egenskapen inte garanterar att alla importerade kontroller kommer att vara av den angivna typen. Om en HTML-kontroll inte kan representeras med dokumentnoder av den föredragna typen kommer Aspose.Words att använda en kompatibel[`HtmlControlType`](../../htmlcontroltype/) för den kontrollen.
 
 ### Exempel
 

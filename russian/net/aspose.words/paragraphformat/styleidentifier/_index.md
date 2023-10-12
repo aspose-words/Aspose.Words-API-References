@@ -1,14 +1,14 @@
 ---
 title: ParagraphFormat.StyleIdentifier
 second_title: Справочник по API Aspose.Words для .NET
-description: ParagraphFormat свойство. Получает или задает независимый от языкового стандарта идентификатор стиля абзаца применяемого к данному форматированию.
+description: ParagraphFormat свойство. Получает или задает независимый от локали идентификатор стиля абзаца примененного к этому форматированию.
 type: docs
-weight: 340
+weight: 350
 url: /ru/net/aspose.words/paragraphformat/styleidentifier/
 ---
 ## ParagraphFormat.StyleIdentifier property
 
-Получает или задает независимый от языкового стандарта идентификатор стиля абзаца, применяемого к данному форматированию.
+Получает или задает независимый от локали идентификатор стиля абзаца, примененного к этому форматированию.
 
 ```csharp
 public StyleIdentifier StyleIdentifier { get; set; }
@@ -22,15 +22,15 @@ public StyleIdentifier StyleIdentifier { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставляем оглавление для первой страницы документа.
-// Настройте таблицу так, чтобы она выбирала абзацы с заголовками уровней от 1 до 3.
-// Кроме того, установите его записи в качестве гиперссылок, которые приведут нас
+// Вставляем оглавление первой страницы документа.
+// Настройте таблицу так, чтобы она подбирала абзацы с заголовками уровней от 1 до 3.
+// Также сделайте его записи гиперссылками, которые приведут нас
 // к местоположению заголовка при щелчке левой кнопкой мыши в Microsoft Word.
 builder.InsertTableOfContents("\\o \"1-3\" \\h \\z \\u");
 builder.InsertBreak(BreakType.PageBreak);
 
 // Заполняем оглавление, добавляя абзацы со стилями заголовков.
-// Каждый такой заголовок с уровнем от 1 до 3 создаст запись в таблице.
+// Каждый такой заголовок уровня от 1 до 3 создаст запись в таблице.
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 builder.Writeln("Heading 1");
 
@@ -58,7 +58,7 @@ builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
 builder.Writeln("Heading 3.2");
 builder.Writeln("Heading 3.3");
 
-// Оглавление — это поле типа, которое необходимо обновить для отображения актуального результата.
+// Оглавление — это поле типа, которое необходимо обновить, чтобы отобразить актуальный результат.
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertToc.docx");
 ```

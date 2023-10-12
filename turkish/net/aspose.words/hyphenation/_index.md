@@ -1,14 +1,16 @@
 ---
 title: Class Hyphenation
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Hyphenation sınıf. Tireleme sözlükleriyle çalışmak için yöntemler sağlar. Bu sözlükler belirli bir dildeki sözcüklerin nerede tirelenebileceğini belirtir.
+description: Aspose.Words.Hyphenation sınıf. Tireleme sözlükleriyle çalışmaya yönelik yöntemler sağlar. Bu sözlükler belirli bir dildeki kelimelerin nerede tirelenebileceğini belirler.
 type: docs
-weight: 2970
+weight: 3150
 url: /tr/net/aspose.words/hyphenation/
 ---
 ## Hyphenation class
 
-Tireleme sözlükleriyle çalışmak için yöntemler sağlar. Bu sözlükler, belirli bir dildeki sözcüklerin nerede tirelenebileceğini belirtir.
+Tireleme sözlükleriyle çalışmaya yönelik yöntemler sağlar. Bu sözlükler, belirli bir dildeki kelimelerin nerede tirelenebileceğini belirler.
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Tireleme ile Çalışmak](https://docs.aspose.com/words/net/working-with-hyphenation/) dokümantasyon makalesi.
 
 ```csharp
 public static class Hyphenation
@@ -18,23 +20,24 @@ public static class Hyphenation
 
 | İsim | Tanım |
 | --- | --- |
-| static [Callback](../../aspose.words/hyphenation/callback/) { get; set; } | Belgenin sayfa düzeni oluşturulduğunda sözlük istemek için kullanılan geri arama arabirimini alır veya ayarlar. Bu, birçok dilde belgeleri işlerken yararlı olabilecek sözlüklerin gecikmeli yüklenmesine olanak tanır. |
-| static [WarningCallback](../../aspose.words/hyphenation/warningcallback/) { get; set; } | Biçimlendirme aslına uygunluk kaybına neden olabilecek bir sorun algılandığında, yükleme tireleme desenleri sırasında çağrılır. |
+| static [Callback](../../aspose.words/hyphenation/callback/) { get; set; } | Belgenin sayfa düzeni oluşturulduğunda sözlük istemek için kullanılan geri arama arayüzünü alır veya ayarlar. Bu, birçok dilde belgeler işlenirken faydalı olabilecek sözlüklerin gecikmeli yüklenmesine olanak tanır. |
+| static [WarningCallback](../../aspose.words/hyphenation/warningcallback/) { get; set; } | Yük tireleme desenleri sırasında, biçimlendirme aslına uygunluk kaybına yol açabilecek bir sorun algılandığında çağrılır. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| static [IsDictionaryRegistered](../../aspose.words/hyphenation/isdictionaryregistered/)(string) | Belirtilen dil için kayıtlı sözlük yoksa veya kayıtlıysa Null sözlük ise False, aksi takdirde True döndürür. |
-| static [RegisterDictionary](../../aspose.words/hyphenation/registerdictionary/#registerdictionary)(string, Stream) | Bir akıştan belirtilen dil için bir tireleme sözlüğünü kaydeder ve yükler. Sözlük okunamıyorsa veya geçersiz biçime sahipse atar. |
-| static [RegisterDictionary](../../aspose.words/hyphenation/registerdictionary/#registerdictionary_1)(string, string) | Dosyadan belirtilen dil için bir tireleme sözlüğünü kaydeder ve yükler. Sözlük okunamıyorsa veya geçersiz biçime sahipse atar. |
-| static [UnregisterDictionary](../../aspose.words/hyphenation/unregisterdictionary/)(string) | Belirtilen dil için bir tireleme sözlüğünün kaydını siler. |
+| static [IsDictionaryRegistered](../../aspose.words/hyphenation/isdictionaryregistered/)(string) | İadeler`YANLIŞ` belirtilen dil için kayıtlı sözlük yoksa veya kayıtlıysa Boş sözlük ise,`doğru` aksi halde. |
+| static [RegisterDictionary](../../aspose.words/hyphenation/registerdictionary/#registerdictionary)(string, Stream) | Bir akıştan belirtilen dil için bir tireleme sözlüğünü kaydeder ve yükler. Sözlüğün okunamaması veya biçiminin geçersiz olması durumunda hata oluşur. |
+| static [RegisterDictionary](../../aspose.words/hyphenation/registerdictionary/#registerdictionary_1)(string, string) | Dosyadan belirtilen dil için bir tireleme sözlüğünü kaydeder ve yükler. Sözlüğün okunamaması veya biçiminin geçersiz olması durumunda hata oluşur. |
+| static [UnregisterDictionary](../../aspose.words/hyphenation/unregisterdictionary/)(string) | Belirtilen dil için tireleme sözlüğünün kaydını siler. |
 
 ### Örnekler
 
-Bir dosyadan bir sözlüğün nasıl açılacağını ve kaydedileceğini gösterir.
+Bir dosyadan sözlüğün nasıl açılacağını ve kaydedileceğini gösterir.
 
 ```csharp
+public void RegisterDictionary()
 {
     // Tireleme sözlüğü kaydı sırasında oluşan uyarıları izleyen bir geri arama ayarlayın.
     WarningInfoCollection warningInfoCollection = new WarningInfoCollection();
@@ -46,11 +49,11 @@ Bir dosyadan bir sözlüğün nasıl açılacağını ve kaydedileceğini göste
 
     Assert.AreEqual(0, warningInfoCollection.Count);
 
-    // Almanca gibi bir İngilizce makinede Microsoft Word'ün tireleyemeyeceği bir yerel ayara sahip bir belge açın.
+    // Almanca gibi İngilizce bir makinede Microsoft Word'ün tireleme yapamayacağı bir yerel ayara sahip bir belge açın.
     Document doc = new Document(MyDir + "German text.docx");
 
-    // Bu belgeyi kaydettikten sonra tirelemek için "de-CH" dil kodu için bir tireleme sözlüğüne ihtiyacımız var.
-    // Bu geri arama, o sözlük için otomatik isteği işleyecektir.
+    // Bu belgeyi kaydettikten sonra tirelemek için, "de-CH" dil koduna yönelik bir tireleme sözlüğüne ihtiyacımız var.
+    // Bu geri çağırma söz konusu sözlük için otomatik isteği yerine getirecektir.
     Hyphenation.Callback = new CustomHyphenationDictionaryRegister();
 
     // Belgeyi kaydettiğimizde Almanca tireleme geçerli olacaktır.
@@ -65,7 +68,7 @@ Bir dosyadan bir sözlüğün nasıl açılacağını ve kaydedileceğini göste
 }
 
 /// <summary>
-/// Tireleme sözlüğü dosyaları için ISO dil kodlarını yerel sistem dosya adlarıyla ilişkilendirir.
+/// Tireleme sözlük dosyaları için ISO dil kodlarını yerel sistem dosya adlarıyla ilişkilendirir.
 /// </summary>
 private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 {

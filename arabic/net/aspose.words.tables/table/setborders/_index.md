@@ -1,14 +1,14 @@
 ---
 title: Table.SetBorders
 second_title: Aspose.Words لمراجع .NET API
-description: Table طريقة. تعيين كافة حدود الجدول على نمط الخط والعرض واللون المحدد.
+description: Table طريقة. يضبط كل حدود الجدول على نمط الخط والعرض واللون المحدد.
 type: docs
-weight: 420
+weight: 440
 url: /ar/net/aspose.words.tables/table/setborders/
 ---
 ## Table.SetBorders method
 
-تعيين كافة حدود الجدول على نمط الخط والعرض واللون المحدد.
+يضبط كل حدود الجدول على نمط الخط والعرض واللون المحدد.
 
 ```csharp
 public void SetBorders(LineStyle lineStyle, double lineWidth, Color color)
@@ -16,38 +16,38 @@ public void SetBorders(LineStyle lineStyle, double lineWidth, Color color)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| lineStyle | LineStyle | نمط الخط المراد تطبيقه. |
+| lineStyle | LineStyle | نمط الخط المطلوب تطبيقه. |
 | lineWidth | Double | عرض الخط المراد ضبطه (بالنقاط). |
-| color | Color | اللون المراد استخدامه للحد. |
+| color | Color | اللون الذي سيتم استخدامه للحدود. |
 
 ### أمثلة
 
-يوضح كيفية تنسيق كل حدود الجدول مرة واحدة.
+يوضح كيفية تنسيق كافة حدود الجدول مرة واحدة.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
-// مسح كافة الحدود الموجودة من الجدول.
+// امسح جميع الحدود الموجودة في الجدول.
 table.ClearBorders();
 
-// قم بتعيين خط أخضر واحد ليكون بمثابة كل حد خارجي وداخلي لهذا الجدول.
+// قم بتعيين خط أخضر واحد ليكون بمثابة الحدود الخارجية والداخلية لهذا الجدول.
 table.SetBorders(LineStyle.Single, 1.5, Color.Green);
 
 doc.Save(ArtifactsDir + "Table.SetBorders.docx");
 ```
 
-يوضح كيفية تطبيق لون الحدود والتظليل أثناء بناء جدول.
+يوضح كيفية تطبيق لون الحدود والتظليل أثناء إنشاء الجدول.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// بدء جدول وتعيين لون / سمك افتراضي لحدوده.
+// ابدأ الجدول وقم بتعيين اللون/السمك الافتراضي لحدوده.
 Table table = builder.StartTable();
 table.SetBorders(LineStyle.Single, 2.0, Color.Black);
 
-// إنشاء صف به خليتان بألوان خلفية مختلفة.
+// أنشئ صفًا يحتوي على خليتين بألوان خلفية مختلفة.
 builder.InsertCell();
 builder.CellFormat.Shading.BackgroundPatternColor = Color.LightSkyBlue;
 builder.Writeln("Row 1, Cell 1.");
@@ -57,8 +57,8 @@ builder.Writeln("Row 1, Cell 2.");
 builder.EndRow();
 
 // إعادة تعيين تنسيق الخلية لتعطيل ألوان الخلفية
-// قم بتعيين سماكة حد مخصصة لجميع الخلايا الجديدة التي تم إنشاؤها بواسطة المنشئ ،
-// ثم بناء الصف الثاني.
+// قم بتعيين سمك حدود مخصص لجميع الخلايا الجديدة التي أنشأها المنشئ،
+// ثم أنشئ صفًا ثانيًا.
 builder.CellFormat.ClearFormatting();
 builder.CellFormat.Borders.Left.LineWidth = 4.0;
 builder.CellFormat.Borders.Right.LineWidth = 4.0;

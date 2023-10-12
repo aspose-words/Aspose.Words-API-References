@@ -16,29 +16,29 @@ public CompositeNode ParentNode { get; }
 
 ### Osservazioni
 
-Se un nodo è stato appena creato e non è ancora stato aggiunto all'albero, o se è stato rimosso dall'albero, il genitore è nullo.
+Se un nodo è stato appena creato e non ancora aggiunto all'albero, o se è stato rimosso dall'albero, il genitore è`nullo`.
 
 ### Esempi
 
-Mostra come accedere al nodo padre di un nodo.
+Mostra come accedere al nodo genitore di un nodo.
 
 ```csharp
 Document doc = new Document();
 Paragraph para = doc.FirstSection.Body.FirstParagraph;
 
-// Aggiunge un nodo Run figlio al primo paragrafo del documento.
+// Aggiunge un nodo Esegui figlio al primo paragrafo del documento.
 Run run = new Run(doc, "Hello world!");
 para.AppendChild(run);
 
-// Il paragrafo è il nodo padre del nodo di esecuzione. Possiamo tracciare questo lignaggio
-// fino al nodo del documento, che è la radice dell'albero del nodo del documento.
+// Il paragrafo è il nodo genitore del nodo di esecuzione. Possiamo tracciare questo lignaggio
+// fino al nodo del documento, che è la radice dell'albero dei nodi del documento.
 Assert.AreEqual(para, run.ParentNode);
 Assert.AreEqual(doc.FirstSection.Body, para.ParentNode);
 Assert.AreEqual(doc.FirstSection, doc.FirstSection.Body.ParentNode);
 Assert.AreEqual(doc, doc.FirstSection.ParentNode);
 ```
 
-Mostra come creare un nodo e impostare il relativo documento proprietario.
+Mostra come creare un nodo e impostare il documento proprietario.
 
 ```csharp
 Document doc = new Document();
@@ -58,7 +58,7 @@ Assert.AreEqual(string.Empty, doc.GetText().Trim());
 // Poiché il documento possiede questo paragrafo, possiamo applicare uno dei suoi stili al contenuto del paragrafo.
 para.ParagraphFormat.Style = doc.Styles["Heading 1"];
 
-// Aggiungi questo nodo al documento, quindi verifica il suo contenuto.
+// Aggiungi questo nodo al documento, quindi verificane il contenuto.
 doc.FirstSection.Body.AppendChild(para);
 
 Assert.AreEqual(doc.FirstSection.Body, para.ParentNode);

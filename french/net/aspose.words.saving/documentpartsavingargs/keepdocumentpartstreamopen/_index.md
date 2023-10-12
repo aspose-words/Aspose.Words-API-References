@@ -1,14 +1,14 @@
 ---
 title: DocumentPartSavingArgs.KeepDocumentPartStreamOpen
 second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentPartSavingArgs propriété. Spécifie si Aspose.Words doit garder le flux ouvert ou le fermer après avoir enregistré une partie de document.
+description: DocumentPartSavingArgs propriété. Spécifie si Aspose.Words doit garder le flux ouvert ou le fermer après avoir enregistré une partie du document.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.saving/documentpartsavingargs/keepdocumentpartstreamopen/
 ---
 ## DocumentPartSavingArgs.KeepDocumentPartStreamOpen property
 
-Spécifie si Aspose.Words doit garder le flux ouvert ou le fermer après avoir enregistré une partie de document.
+Spécifie si Aspose.Words doit garder le flux ouvert ou le fermer après avoir enregistré une partie du document.
 
 ```csharp
 public bool KeepDocumentPartStreamOpen { get; set; }
@@ -16,11 +16,11 @@ public bool KeepDocumentPartStreamOpen { get; set; }
 
 ### Remarques
 
-La valeur par défaut est`faux` et Aspose.Words fermera le flux que vous avez fourni dans le[`DocumentPartStream`](../documentpartstream/) propriété après y avoir écrit une partie de document. Spécifiez`vrai` pour garder le flux ouvert. Veuillez noter que le flux de sortie principal fourni dans l'appel à[`Save`](../../../aspose.words/document/save/)ou [`Save`](../../../aspose.words/document/save/) ne sera jamais fermé par Aspose.Words même si`KeepDocumentPartStreamOpen` est réglé sur`faux`.
+La valeur par défaut est`FAUX` et Aspose.Words fermera le flux que vous avez fourni dans le[`DocumentPartStream`](../documentpartstream/) propriété après y avoir écrit une partie du document. Spécifiez`vrai` pour garder le flux ouvert. Veuillez noter que le flux de sortie principal fourni dans l'appel à[`Save`](../../../aspose.words/document/save/)ou [`Save`](../../../aspose.words/document/save/) ne sera jamais fermé par Aspose.Words même si`KeepDocumentPartStreamOpen` est réglé sur`FAUX`.
 
 ### Exemples
 
-Montre comment diviser un document en plusieurs parties et les enregistrer.
+Montre comment diviser un document en parties et les enregistrer.
 
 ```csharp
 public void DocumentPartsFileNames()
@@ -28,7 +28,7 @@ public void DocumentPartsFileNames()
     Document doc = new Document(MyDir + "Rendering.docx");
     string outFileName = "SavingCallback.DocumentPartsFileNames.html";
 
-    // Crée un objet "HtmlFixedSaveOptions", que nous pouvons passer à la méthode "Save" du document
+    // Crée un objet "HtmlFixedSaveOptions", que l'on peut passer à la méthode "Save" du document
     // pour modifier la façon dont nous convertissons le document en HTML.
     HtmlSaveOptions options = new HtmlSaveOptions();
 
@@ -38,12 +38,12 @@ public void DocumentPartsFileNames()
     // enregistre notre document dans plusieurs fichiers HTML : un pour chaque section.
     options.DocumentSplitCriteria = DocumentSplitCriteria.SectionBreak;
 
-    // Attribuez un rappel personnalisé à la propriété "DocumentPartSavingCallback" pour modifier la logique d'enregistrement de la partie du document.
+    // Attribuez un rappel personnalisé à la propriété "DocumentPartSavingCallback" pour modifier la logique d'enregistrement des parties du document.
     options.DocumentPartSavingCallback = new SavedDocumentPartRename(outFileName, options.DocumentSplitCriteria);
 
-    // Si nous convertissons un document contenant des images en html, nous nous retrouverons avec un fichier html qui renvoie à plusieurs images.
+    // Si nous convertissons un document contenant des images en HTML, nous nous retrouverons avec un fichier HTML qui renvoie à plusieurs images.
     // Chaque image sera sous la forme d'un fichier dans le système de fichiers local.
-    // Il existe également un rappel qui peut personnaliser le nom et l'emplacement du système de fichiers de chaque image.
+    // Il existe également un rappel qui permet de personnaliser le nom et l'emplacement du système de fichiers de chaque image.
     options.ImageSavingCallback = new SavedImageRename(outFileName);
 
     doc.Save(ArtifactsDir + outFileName, options);
@@ -62,7 +62,7 @@ private class SavedDocumentPartRename : IDocumentPartSavingCallback
 
     void IDocumentPartSavingCallback.DocumentPartSaving(DocumentPartSavingArgs args)
     {
-        // Nous pouvons accéder à l'intégralité du document source via la propriété "Document".
+        // On peut accéder à l'intégralité du document source via la propriété "Document".
         Assert.True(args.Document.OriginalFileName.EndsWith("Rendering.docx"));
 
         string partType = string.Empty;
@@ -86,10 +86,10 @@ private class SavedDocumentPartRename : IDocumentPartSavingCallback
         string partFileName = $"{mOutFileName} part {++mCount}, of type {partType}{Path.GetExtension(args.DocumentPartFileName)}";
 
         // Vous trouverez ci-dessous deux manières de spécifier où Aspose.Words enregistrera chaque partie du document.
-        // 1 - Définissez un nom de fichier pour le fichier partiel de sortie :
+        // 1 - Définissez un nom de fichier pour le fichier pièce de sortie :
         args.DocumentPartFileName = partFileName;
 
-        // 2 - Créez un flux personnalisé pour le fichier partiel de sortie :
+        // 2 - Créez un flux personnalisé pour le fichier pièce de sortie :
         args.DocumentPartStream = new FileStream(ArtifactsDir + partFileName, FileMode.Create);
 
         Assert.True(args.DocumentPartStream.CanWrite);

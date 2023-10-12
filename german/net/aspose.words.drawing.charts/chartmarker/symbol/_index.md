@@ -1,14 +1,14 @@
 ---
 title: ChartMarker.Symbol
 second_title: Aspose.Words für .NET-API-Referenz
-description: ChartMarker eigendom. Holt oder setzt Diagrammmarkierungssymbol.
+description: ChartMarker eigendom. Ruft das Diagrammmarkierungssymbol ab oder legt es fest.
 type: docs
 weight: 30
 url: /de/net/aspose.words.drawing.charts/chartmarker/symbol/
 ---
 ## ChartMarker.Symbol property
 
-Holt oder setzt Diagrammmarkierungssymbol.
+Ruft das Diagrammmarkierungssymbol ab oder legt es fest.
 
 ```csharp
 public MarkerSymbol Symbol { get; set; }
@@ -16,10 +16,9 @@ public MarkerSymbol Symbol { get; set; }
 
 ### Beispiele
 
-Zeigt, wie Sie mit Datenpunkten in einem Liniendiagramm arbeiten.
+Zeigt, wie mit Datenpunkten in einem Liniendiagramm gearbeitet wird.
 
 ```csharp
-[Test]
 public void ChartDataPoint()
 {
     Document doc = new Document();
@@ -33,14 +32,14 @@ public void ChartDataPoint()
     Assert.AreEqual("Series 2", chart.Series[1].Name);
     Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-    // Heben Sie die Datenpunkte des Diagramms hervor, indem Sie sie als Rautenformen erscheinen lassen.
+    // Betonen Sie die Datenpunkte des Diagramms, indem Sie sie als Rautenformen erscheinen lassen.
     foreach (ChartSeries series in chart.Series) 
         ApplyDataPoints(series, 4, MarkerSymbol.Diamond, 15);
 
-    // Die Linie glätten, die die erste Datenreihe darstellt.
+    // Glätten Sie die Linie, die die erste Datenreihe darstellt.
     chart.Series[0].Smooth = true;
 
-    // Sicherstellen, dass Datenpunkte für die erste Serie ihre Farben nicht invertieren, wenn der Wert negativ ist.
+    // Stellen Sie sicher, dass die Farben der Datenpunkte für die erste Serie nicht invertiert werden, wenn der Wert negativ ist.
     using (IEnumerator<ChartDataPoint> enumerator = chart.Series[0].DataPoints.GetEnumerator())
     {
         while (enumerator.MoveNext())
@@ -49,7 +48,7 @@ public void ChartDataPoint()
         }
     }
 
-    // Für ein sauberer aussehendes Diagramm können wir das Format individuell löschen.
+    // Für ein übersichtlicheres Diagramm können wir das Format einzeln löschen.
     chart.Series[1].DataPoints[2].ClearFormat();
 
     // Wir können auch eine ganze Reihe von Datenpunkten auf einmal entfernen.

@@ -24,9 +24,9 @@ StructuredDocumentTagRangeStart tag =
     doc.GetChildNodes(NodeType.StructuredDocumentTagRangeStart, true)[0] as StructuredDocumentTagRangeStart;
 
 Console.WriteLine("StructuredDocumentTagRangeStart values:");
-Console.WriteLine($"\t|Child nodes count: {tag.ChildNodes.Count}\n");
+Console.WriteLine($"\t|Child nodes count: {tag.GetChildNodes(NodeType.Any, false).Count}\n");
 
-foreach (Node node in tag.ChildNodes)
+foreach (Node node in tag.GetChildNodes(NodeType.Any, false))
     Console.WriteLine($"\t|Child node type: {node.NodeType}");
 
 foreach (Node node in tag.GetChildNodes(NodeType.Run, true))

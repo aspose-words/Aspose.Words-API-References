@@ -1,14 +1,14 @@
 ---
 title: FieldCitation.AnotherSourceTag
 second_title: Aspose.Words für .NET-API-Referenz
-description: FieldCitation eigendom. Ruft einen Wert ab oder legt einen Wert fest der die berechnet Schild Elementwert einer anderen Quelle die in das Zitat aufgenommen werden soll.
+description: FieldCitation eigendom. Ruft einen Wert ab der mit dem übereinstimmt oder legt diesen fest Etikett Elementwert einer anderen Quelle der in das Zitat aufgenommen werden soll.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/fieldcitation/anothersourcetag/
 ---
 ## FieldCitation.AnotherSourceTag property
 
-Ruft einen Wert ab oder legt einen Wert fest, der die berechnet **Schild** Elementwert einer anderen Quelle, die in das Zitat aufgenommen werden soll.
+Ruft einen Wert ab, der mit dem übereinstimmt, oder legt diesen fest **Etikett** Elementwert einer anderen Quelle, der in das Zitat aufgenommen werden soll.
 
 ```csharp
 public string AnotherSourceTag { get; set; }
@@ -19,13 +19,13 @@ public string AnotherSourceTag { get; set; }
 Zeigt, wie mit den Feldern CITATION und BIBLIOGRAPHY gearbeitet wird.
 
 ```csharp
-// Öffnen Sie ein Dokument mit bibliografischen Quellen, die wir finden können
+// Öffnen Sie ein Dokument mit bibliografischen Quellen, in denen wir finden können
 // Microsoft Word über Referenzen -> Zitate & Bibliographie -> Quellen verwalten.
 Document doc = new Document(MyDir + "Bibliography.docx");
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Write("Text to be cited with one source.");
 
-// Erstellen Sie ein Zitat nur mit der Seitenzahl und dem Autor des Buches, auf das verwiesen wird.
+// Erstellen Sie ein Zitat nur mit der Seitenzahl und dem Autor des referenzierten Buches.
 FieldCitation fieldCitation = (FieldCitation)builder.InsertField(FieldType.FieldCitation, true);
 
 // Wir verweisen auf Quellen mit ihren Tag-Namen.
@@ -37,7 +37,7 @@ fieldCitation.SuppressYear = true;
 
 Assert.AreEqual(" CITATION  Book1 \\p 85 \\t \\y", fieldCitation.GetFieldCode());
 
-// Erstellen Sie ein ausführlicheres Zitat, das zwei Quellen zitiert.
+// Erstellen Sie ein detaillierteres Zitat, das zwei Quellen zitiert.
 builder.InsertParagraph();
 builder.Write("Text to be cited with two sources.");
 fieldCitation = (FieldCitation)builder.InsertField(FieldType.FieldCitation, true);
@@ -54,12 +54,12 @@ fieldCitation.VolumeNumber = "VII";
 
 Assert.AreEqual(" CITATION  Book1 \\m Book2 \\l en-US \\p 19 \\f \"Prefix \" \\s \" Suffix\" \\v VII", fieldCitation.GetFieldCode());
 
-// Wir können ein BIBLIOGRAPHY-Feld verwenden, um alle Quellen innerhalb des Dokuments anzuzeigen.
+// Wir können ein BIBLIOGRAPHY-Feld verwenden, um alle Quellen im Dokument anzuzeigen.
 builder.InsertBreak(BreakType.PageBreak);
 FieldBibliography fieldBibliography = (FieldBibliography)builder.InsertField(FieldType.FieldBibliography, true);
-fieldBibliography.FormatLanguageId = "1124";
+fieldBibliography.FormatLanguageId = "5129";
 
-Assert.AreEqual(" BIBLIOGRAPHY  \\l 1124", fieldBibliography.GetFieldCode());
+Assert.AreEqual(" BIBLIOGRAPHY  \\l 5129", fieldBibliography.GetFieldCode());
 
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "Field.CITATION.docx");

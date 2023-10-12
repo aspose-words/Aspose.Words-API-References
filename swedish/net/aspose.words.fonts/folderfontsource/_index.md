@@ -3,12 +3,14 @@ title: Class FolderFontSource
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Fonts.FolderFontSource klass. Representerar mappen som innehåller TrueTypeteckensnittsfiler.
 type: docs
-weight: 2700
+weight: 2880
 url: /sv/net/aspose.words.fonts/folderfontsource/
 ---
 ## FolderFontSource class
 
 Representerar mappen som innehåller TrueType-teckensnittsfiler.
+
+För att lära dig mer, besök[Arbeta med teckensnitt](https://docs.aspose.com/words/net/working-with-fonts/) dokumentationsartikel.
 
 ```csharp
 public class FolderFontSource : FontSourceBase

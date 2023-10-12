@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.ImageResolution
 second_title: Referencia de API de Aspose.Words para .NET
-description: HtmlSaveOptions propiedad. Especifica la resolución de salida de las imágenes cuando se exportan a HTML MHTML o EPUB. El valor predeterminado es96 ppp .
+description: HtmlSaveOptions propiedad. Especifica la resolución de salida de las imágenes al exportar a HTML MHTML o EPUB. El valor predeterminado es96 ppp .
 type: docs
-weight: 350
+weight: 340
 url: /es/net/aspose.words.saving/htmlsaveoptions/imageresolution/
 ---
 ## HtmlSaveOptions.ImageResolution property
 
-Especifica la resolución de salida de las imágenes cuando se exportan a HTML, MHTML o EPUB. El valor predeterminado es`96 ppp` .
+Especifica la resolución de salida de las imágenes al exportar a HTML, MHTML o EPUB. El valor predeterminado es`96 ppp` .
 
 ```csharp
 public int ImageResolution { get; set; }
@@ -16,7 +16,7 @@ public int ImageResolution { get; set; }
 
 ### Observaciones
 
-Esta propiedad afecta a las imágenes rasterizadas cuando[`ScaleImageToShapeSize`](../scaleimagetoshapesize/) es`verdadero` y metarchivos de efectos exportados como imágenes rasterizadas. Algunas propiedades de la imagen, como cropping o la rotación, requieren que se guarden las imágenes transformadas y, en este caso, las imágenes transformadas se crean en la resolución dada.
+Esta propiedad afecta a las imágenes rasterizadas cuando[`ScaleImageToShapeSize`](../scaleimagetoshapesize/) es`verdadero` y metarchivos de efectos exportados como imágenes rasterizadas. Algunas propiedades de la imagen, como cropping o rotación, requieren guardar imágenes transformadas y, en este caso, las imágenes transformadas se crean con la resolución dada .
 
 ### Ejemplos
 
@@ -34,7 +34,7 @@ HtmlSaveOptions options = new HtmlSaveOptions
     FontsFolder = ArtifactsDir + "Fonts",
     ImagesFolder = ArtifactsDir + "Images",
     ResourceFolder = ArtifactsDir + "Resources",
-    FontsFolderAlias = "http://ejemplo.com/fuentes",
+    FontsFolderAlias = "http://ejemplo.com/fonts",
     ImagesFolderAlias = "http://ejemplo.com/imagenes",
     ResourceFolderAlias = "http://ejemplo.com/recursos",
     ExportOriginalUrlForLinkedImages = true

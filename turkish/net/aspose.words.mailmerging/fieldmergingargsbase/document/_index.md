@@ -1,14 +1,14 @@
 ---
 title: FieldMergingArgsBase.Document
 second_title: Aspose.Words for .NET API Referansı
-description: FieldMergingArgsBase mülk. Document adres mektup birleştirmenin gerçekleştirildiği nesne.
+description: FieldMergingArgsBase mülk. Şunu döndürürDocument Adresmektup birleştirmenin gerçekleştirildiği nesne.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.mailmerging/fieldmergingargsbase/document/
 ---
 ## FieldMergingArgsBase.Document property
 
-`Document` adres mektup birleştirmenin gerçekleştirildiği nesne.
+Şunu döndürür:`Document` Adres-mektup birleştirmenin gerçekleştirildiği nesne.
 
 ```csharp
 public Document Document { get; }
@@ -16,9 +16,10 @@ public Document Document { get; }
 
 ### Örnekler
 
-Birleştirme verilerini HTML belgeleri biçiminde işleyen özel bir geri aramayla adres mektup birleştirmenin nasıl yürütüleceğini gösterir.
+HTML belgeleri biçimindeki birleştirme verilerini işleyen özel bir geri çağırma ile adres-mektup birleştirmenin nasıl yürütüleceğini gösterir.
 
 ```csharp
+public void MergeHtml()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -48,13 +49,13 @@ Birleştirme verilerini HTML belgeleri biçiminde işleyen özel bir geri aramay
 }
 
 /// <summary>
-/// Adres mektup birleştirme, adı "html_" öneki ile başlayan bir MERGEFIELD ile karşılaşırsa,
-/// bu geri arama, birleştirme verilerini HTML içeriği olarak ayrıştırır ve sonucu MERGEFIELD'in belge konumuna ekler.
+/// Adres-mektup birleştirme, adı "html_" önekiyle başlayan bir MERGEFIELD ile karşılaşırsa,
+/// bu geri çağırma, birleştirme verilerini HTML içeriği olarak ayrıştırır ve sonucu MERGEFIELD'ın belge konumuna ekler.
 /// </summary>
 private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 {
     /// <summary>
-    /// Adres mektup birleştirme verileri bir MERGEFIELD ile birleştirdiğinde çağrılır.
+    /// Adres-mektup birleştirme verileri MERGEFIELD ile birleştirdiğinde çağrılır.
     /// </summary>
     void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)
     {
@@ -66,7 +67,7 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
             builder.InsertHtml((string)args.FieldValue);
 
             // Birleştirilmiş içeriği zaten manuel olarak eklediğimiz için,
-             // "Metin" özelliği aracılığıyla içerik döndürerek bu olaya yanıt vermemiz gerekmeyecek.
+             // bu etkinliğe "Text" özelliği aracılığıyla içerik döndürerek yanıt vermemize gerek kalmayacak.
             args.Text = string.Empty;
         }
     }

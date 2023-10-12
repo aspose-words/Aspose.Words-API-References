@@ -3,12 +3,14 @@ title: Class SpecialChar
 second_title: Aspose.Words for .NET API Referansı
 description: Aspose.Words.SpecialChar sınıf. Belgedeki özel karakterler için temel sınıf.
 type: docs
-weight: 5800
+weight: 6100
 url: /tr/net/aspose.words/specialchar/
 ---
 ## SpecialChar class
 
 Belgedeki özel karakterler için temel sınıf.
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Aspose.Words Belge Nesne Modeli (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) dokümantasyon makalesi.
 
 ```csharp
 public class SpecialChar : Inline
@@ -20,57 +22,57 @@ public class SpecialChar : Inline
 | --- | --- |
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Özel düğüm tanımlayıcısını belirtir. |
 | virtual [Document](../../aspose.words/node/document/) { get; } | Bu düğümün ait olduğu belgeyi alır. |
-| [Font](../../aspose.words/inline/font/) { get; } | Bu nesnenin yazı tipi biçimlendirmesine erişim sağlar. |
-| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Bu düğüm başka düğümler içerebiliyorsa true değerini döndürür. |
-| [IsDeleteRevision](../../aspose.words/inline/isdeleterevision/) { get; } | Bu nesne, değişiklik izleme etkinleştirilirken Microsoft Word'de silindiyse true değerini döndürür. |
-| [IsFormatRevision](../../aspose.words/inline/isformatrevision/) { get; } | Değişiklik izleme etkinken nesnenin biçimlendirmesi Microsoft Word'de değiştirilirse doğru döndürür. |
-| [IsInsertRevision](../../aspose.words/inline/isinsertrevision/) { get; } | Bu nesne, değişiklik izleme etkinken Microsoft Word'e eklendiyse true değerini döndürür. |
-| [IsMoveFromRevision](../../aspose.words/inline/ismovefromrevision/) { get; } | İade **doğru** değişiklik izleme etkinken bu nesne Microsoft Word'de taşındıysa (silindiyse). |
-| [IsMoveToRevision](../../aspose.words/inline/ismovetorevision/) { get; } | İade **doğru** bu nesne, değişiklik izleme etkinken Microsoft Word'de taşındıysa (yerleştirildiyse). |
-| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Bu düğümden hemen sonraki düğümü alır. |
-| override [NodeType](../../aspose.words/specialchar/nodetype/) { get; } | İade **NodeType.SpecialChar** . |
-| [ParentNode](../../aspose.words/node/parentnode/) { get; } | Bu düğümün hemen üst öğesini alır. |
+| [Font](../../aspose.words/inline/font/) { get; } | Bu nesnenin yazı tipi formatlamasına erişim sağlar. |
+| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | İadeler`doğru` bu düğüm başka düğümler içeriyorsa. |
+| [IsDeleteRevision](../../aspose.words/inline/isdeleterevision/) { get; } | Değişiklik izleme etkinken bu nesne Microsoft Word'de silinmişse true değerini döndürür. |
+| [IsFormatRevision](../../aspose.words/inline/isformatrevision/) { get; } | Microsoft Word'de değişiklik izleme etkinken nesnenin biçimlendirmesi değiştirilmişse doğru değerini döndürür. |
+| [IsInsertRevision](../../aspose.words/inline/isinsertrevision/) { get; } | Bu nesne Microsoft Word'e değişiklik izleme etkinken eklenmişse doğru değerini döndürür. |
+| [IsMoveFromRevision](../../aspose.words/inline/ismovefromrevision/) { get; } | İadeler`doğru` değişiklik izleme etkinken bu nesne Microsoft Word'de taşındıysa (silindiyse). |
+| [IsMoveToRevision](../../aspose.words/inline/ismovetorevision/) { get; } | İadeler`doğru` bu nesne Microsoft Word'de değişiklik izleme etkinken taşınmışsa (eklenmişse). |
+| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Bu düğümden hemen sonra gelen düğümü alır. |
+| override [NodeType](../../aspose.words/specialchar/nodetype/) { get; } | İadelerSpecialChar . |
+| [ParentNode](../../aspose.words/node/parentnode/) { get; } | Bu düğümün doğrudan ebeveynini alır. |
 | [ParentParagraph](../../aspose.words/inline/parentparagraph/) { get; } | Üst öğeyi alır[`Paragraph`](../paragraph/) bu düğümün. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Bu düğümden hemen önceki düğümü alır. |
-| [Range](../../aspose.words/node/range/) { get; } | Bir döndürür **Menzil** belgenin bu düğümde bulunan bölümünü temsil eden nesne. |
+| [Range](../../aspose.words/node/range/) { get; } | Bir değeri döndürür[`Range`](../range/) Bu düğümde bulunan bir belgenin bölümünü temsil eden nesne. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| override [Accept](../../aspose.words/specialchar/accept/)(DocumentVisitor) | Bir ziyaretçiyi kabul eder. |
+| override [Accept](../../aspose.words/specialchar/accept/)(DocumentVisitor) | Ziyaretçi kabul eder. |
 | [Clone](../../aspose.words/node/clone/)(bool) | Düğümün bir kopyasını oluşturur. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Belirtilenin ilk atasını alır[`NodeType`](../nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Belirtilen nesne türünün ilk üst öğesini alır. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Belirtilenin ilk atayı alır[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Belirtilen nesne türünün ilk atayı alır. |
 | override [GetText](../../aspose.words/specialchar/gettext/)() | Bu düğümün temsil ettiği özel karakteri alır. |
 | [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Ön sipariş ağaç geçiş algoritmasına göre sonraki düğümü alır. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Ön sipariş ağacı geçiş algoritmasına göre önceki düğümü alır. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Ön sipariş ağaç geçiş algoritmasına göre önceki düğümü alır. |
 | [Remove](../../aspose.words/node/remove/)() | Kendini üst öğeden kaldırır. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Düğümün içeriğini belirtilen biçimde bir dizeye aktarır. |
+| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Düğümün içeriğini belirtilen formatta bir dizeye aktarır. |
 | [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Belirtilen kaydetme seçeneklerini kullanarak düğümün içeriğini bir dizeye aktarır. |
 
 ### Notlar
 
-Bir Microsoft Word belgesi, alanları, form alanlarını, şekilleri, OLE nesnelerini, dipnotları vb. temsil eden bir dizi özel karakter içerebilir. Özel karakterlerin list listesi için bkz.[`ControlChar`](../controlchar/).
+Bir Microsoft Word belgesi, alanları, form alanlarını, şekilleri, OLE nesnelerini, dipnotları vb. temsil eden bir dizi özel karakter (x000d_) içerebilir. Özel karakterlerin listesi için bkz.[`ControlChar`](../controlchar/).
 
-**ÖzelKarakter** bir satır içi düğümdür ve yalnızca alt öğesi olabilir **Paragraf**.
+`SpecialChar`bir satır içi düğümdür ve yalnızca alt öğesi olabilir[`Paragraph`](../paragraph/).
 
-**ÖzelKarakter** char, Aspose.Words'ün programatik erişim sağladığı özel karakterleri temsil eden daha özel sınıflar için temel sınıf olarak kullanılır.  **ÖzelKarakter** sınıfın kendisi ayrıca, Aspose.Words'ün ayrıntılı programlı erişim sağlamadığı özel karakteri temsil etmek için de kullanılır.
+`SpecialChar` char, Aspose.Words'ün programatik erişim sağladığı özel karakterleri temsil eden daha spesifik sınıflar için temel sınıf olarak kullanılır. `SpecialChar` sınıfın kendisi ayrıca hangi Aspose.Words'ün ayrıntılı programatik erişim sağlamadığı özel karakteri temsil etmek için kullanılır.
 
 ### Örnekler
 
-Bir belgeden tüm gizli içeriği kaldırmak için DocumentVisitor uygulamasının nasıl kullanılacağını gösterir.
+Bir belgedeki tüm gizli içeriği kaldırmak için DocumentVisitor uygulamasının nasıl kullanılacağını gösterir.
 
 ```csharp
+public void RemoveHiddenContentFromDocument()
 {
     Document doc = new Document(MyDir + "Hidden content.docx");
-
     RemoveHiddenContentVisitor hiddenContentRemover = new RemoveHiddenContentVisitor();
 
-    // Aşağıda bir belge ziyaretçisini kabul edebilecek üç tür alan bulunmaktadır,
-    // bu, kabul eden düğümü ziyaret etmesine ve ardından alt düğümlerini derinlik öncelikli bir şekilde geçmesine izin verecek.
+    // Aşağıda belge ziyaretçisini kabul edebilecek üç tür alan bulunmaktadır,
+    // bu, kabul eden düğümü ziyaret etmesine ve ardından alt düğümlerini derinlik öncelikli bir şekilde geçmesine olanak tanıyacak.
     // 1 - Paragraf düğümü:
-    Paragraph para = (Paragraph) doc.GetChild(NodeType.Paragraph, 4, true);
+    Paragraph para = (Paragraph)doc.GetChild(NodeType.Paragraph, 4, true);
     para.Accept(hiddenContentRemover);
 
     // 2 - Tablo düğümü:
@@ -81,9 +83,10 @@ Bir belgeden tüm gizli içeriği kaldırmak için DocumentVisitor uygulamasın�
     doc.Accept(hiddenContentRemover);
 
     doc.Save(ArtifactsDir + "Font.RemoveHiddenContentFromDocument.docx");
+}
 
 /// <summary>
-/// "Gizli içerik" olarak işaretlenmiş tüm ziyaret edilen düğümleri kaldırır.
+/// "Gizli içerik" olarak işaretlenen tüm ziyaret edilen düğümleri kaldırır.
 /// </summary>
 public class RemoveHiddenContentVisitor : DocumentVisitor
 {
@@ -99,7 +102,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede bir FieldEnd düğümüyle karşılaşıldığında çağrılır.
+    /// Belgede FieldEnd düğümüyle karşılaşıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitFieldEnd(FieldEnd fieldEnd)
     {
@@ -110,7 +113,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede bir FieldSeparator düğümüyle karşılaşıldığında çağrılır.
+    /// Belgede FieldSeparator düğümüyle karşılaşıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitFieldSeparator(FieldSeparator fieldSeparator)
     {
@@ -143,7 +146,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede bir FormField ile karşılaşıldığında çağrılır.
+    /// Belgede FormField ile karşılaşıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitFormField(FormField formField)
     {
@@ -154,7 +157,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede bir GroupShape ile karşılaşıldığında çağrılır.
+    /// Belgede GroupShape ile karşılaşıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitGroupShapeStart(GroupShape groupShape)
     {
@@ -176,7 +179,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede bir Açıklama ile karşılaşıldığında çağrılır.
+    /// Belgede bir Yorumla karşılaşıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitCommentStart(Comment comment)
     {
@@ -187,7 +190,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede bir Dipnot ile karşılaşıldığında çağrılır.
+    /// Belgede Dipnotla karşılaşıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitFootnoteStart(Footnote footnote)
     {
@@ -198,7 +201,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede bir SpecialCharacter ile karşılaşıldığında çağrılır.
+    /// Belgede bir Özel Karakterle karşılaşıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitSpecialChar(SpecialChar specialChar)
     {
@@ -209,15 +212,15 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede bir Tablo düğümünün ziyareti sona erdiğinde çağrılır.
+    /// Belgede bir Tablo düğümünün ziyareti sonlandırıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitTableEnd(Table table)
     {
-        // Tablo hücrelerinin içindeki içerik, gizli içerik bayrağına sahip olabilir, ancak tabloların kendileri olamaz.
-        // Bu tabloda gizli içerikten başka bir şey olmasaydı, bu ziyaretçi hepsini kaldırırdı,
-        // ve hiçbir alt düğüm kalmayacaktı.
-        // Böylece tablonun kendisini de gizli içerik olarak değerlendirebilir ve kaldırabiliriz.
-        // Boş ama gizli içeriği olmayan tablolarda, içinde boş paragraflar bulunan hücreler olacaktır,
+        // Tablo hücrelerinin içindeki içerik gizli içerik bayrağına sahip olabilir, ancak tabloların kendileri bunu yapamaz.
+        // Bu tabloda gizli içerikten başka bir şey olmasaydı, bu ziyaretçi hepsini kaldırmış olurdu,
+        // ve hiç alt düğüm kalmayacaktı.
+        // Böylece tablonun kendisini de gizli içerik olarak değerlendirip kaldırabiliriz.
+        // Boş olan ancak gizli içeriği olmayan tabloların içinde boş paragrafların bulunduğu hücreler bulunur,
         // bu ziyaretçinin kaldırmayacağı.
         if (!table.HasChildNodes)
             table.Remove();
@@ -226,7 +229,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede bir Hücre düğümünün ziyareti sona erdiğinde çağrılır.
+    /// Belgede bir Hücre düğümünün ziyareti sonlandırıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitCellEnd(Cell cell)
     {
@@ -237,7 +240,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede bir Satır düğümünün ziyareti sona erdiğinde çağrılır.
+    /// Belgede bir Satır düğümünün ziyareti sonlandırıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitRowEnd(Row row)
     {

@@ -1,14 +1,14 @@
 ---
 title: NodeCollection.Item
 second_title: Aspose.Words لمراجع .NET API
-description: NodeCollection ملكية. استرداد عقدة في الفهرس المحدد.
+description: NodeCollection ملكية. يسترد عقدة في الفهرس المحدد.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/nodecollection/item/
 ---
 ## NodeCollection indexer
 
-استرداد عقدة في الفهرس المحدد.
+يسترد عقدة في الفهرس المحدد.
 
 ```csharp
 public Node this[int index] { get; }
@@ -20,40 +20,40 @@ public Node this[int index] { get; }
 
 ### ملاحظات
 
-المؤشر على أساس الصفر.
+المؤشر قائم على الصفر.
 
-يُسمح بالفهارس السلبية وتشير إلى الوصول من الجزء الخلفي من المجموعة. على سبيل المثال -1 تعني العنصر الأخير ، -2 تعني العنصر الثاني قبل الأخير وهكذا.
+الفهارس السالبة مسموح بها وتشير إلى الوصول من الجزء الخلفي للمجموعة. على سبيل المثال -1 يعني العنصر الأخير، -2 يعني الثاني قبل الأخير وهكذا.
 
-إذا كان الفهرس أكبر من أو يساوي عدد العناصر في القائمة ، فسيُرجع هذا مرجعًا فارغًا.
+إذا كان الفهرس أكبر من أو يساوي عدد العناصر الموجودة في القائمة، فسيُرجع هذا مرجعًا فارغًا.
 
-إذا كان الفهرس سالبًا وكانت قيمته المطلقة أكبر من عدد العناصر في القائمة ، فسيُرجع هذا مرجعًا فارغًا.
+إذا كان الفهرس سالبًا وقيمته المطلقة أكبر من عدد العناصر الموجودة في القائمة، فسيُرجع هذا مرجعًا فارغًا.
 
 ### أمثلة
 
-يوضح كيفية اجتياز مجموعة العقد المركبة الخاصة بالعقد الفرعية.
+يوضح كيفية اجتياز مجموعة العقد الفرعية للعقدة المركبة.
 
 ```csharp
 Document doc = new Document();
 
-// أضف شريطين وشكل واحد كعقد فرعية إلى الفقرة الأولى من هذا المستند.
+// أضف مسارين وشكلًا واحدًا كعقد فرعية إلى الفقرة الأولى من هذه الوثيقة.
 Paragraph paragraph = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
 paragraph.AppendChild(new Run(doc, "Hello world! "));
 
 Shape shape = new Shape(doc, ShapeType.Rectangle);
 shape.Width = 200;
 shape.Height = 200;
-// لاحظ أن "CustomNodeId" لا يتم حفظه في ملف الإخراج ولا يوجد إلا أثناء عمر العقدة.
+// لاحظ أن "CustomNodeId" لا يتم حفظه في ملف إخراج وهو موجود فقط أثناء عمر العقدة.
 shape.CustomNodeId = 100;
 shape.WrapType = WrapType.Inline;
 paragraph.AppendChild(shape);
 
 paragraph.AppendChild(new Run(doc, "Hello again!"));
 
-// كرر من خلال مجموعة الفقرة للأطفال المباشرين ،
-// وطباعة أي أشكال أو أشكال نجدها بالداخل.
-NodeCollection children = paragraph.ChildNodes;
+// كرر من خلال مجموعة الفقرة من العناصر الفرعية المباشرة،
+// وطباعة أي مسارات أو أشكال نجدها داخلها.
+NodeCollection children = paragraph.GetChildNodes(NodeType.Any, false);
 
-Assert.AreEqual(3, paragraph.ChildNodes.Count);
+Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, false).Count);
 
 foreach (Node child in children)
     switch (child.NodeType)
@@ -66,6 +66,7 @@ foreach (Node child in children)
             Shape childShape = (Shape)child;
             Console.WriteLine("Shape:");
             Console.WriteLine($"\t{childShape.ShapeType}, {childShape.Width}x{childShape.Height}");
+            break;
     }
 ```
 

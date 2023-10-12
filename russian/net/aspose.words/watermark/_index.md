@@ -1,14 +1,16 @@
 ---
 title: Class Watermark
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Watermark сорт. Представляет класс для работы с водяным знаком документа.
+description: Aspose.Words.Watermark сорт. Представляет класс для работы с водяными знаками документа.
 type: docs
-weight: 6360
+weight: 6670
 url: /ru/net/aspose.words/watermark/
 ---
 ## Watermark class
 
-Представляет класс для работы с водяным знаком документа.
+Представляет класс для работы с водяными знаками документа.
+
+Чтобы узнать больше, посетите[Работа с водяным знаком](https://docs.aspose.com/words/net/working-with-watermark/) статья документации.
 
 ```csharp
 public sealed class Watermark

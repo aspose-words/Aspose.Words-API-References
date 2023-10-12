@@ -3,7 +3,7 @@ title: Enum WarningType
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.WarningType uppräkning. Anger typen av varning som utfärdas av Aspose.Words under dokumentladdning eller sparande.
 type: docs
-weight: 6350
+weight: 6660
 url: /sv/net/aspose.words/warningtype/
 ---
 ## WarningType enumeration
@@ -36,7 +36,6 @@ public enum WarningType
 Visar hur du ställer in egenskapen för att hitta den närmaste matchningen för ett saknat teckensnitt från tillgängliga teckensnittskällor.
 
 ```csharp
-[Test]
 public void EnableFontSubstitution()
 {
     // Öppna ett dokument som innehåller text formaterad med ett teckensnitt som inte finns i någon av våra teckensnittskällor.
@@ -51,6 +50,9 @@ public void EnableFontSubstitution()
     fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
     ;
     fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
+
+    // Original teckensnittsmått bör användas efter teckensnittsersättning.
+    doc.LayoutOptions.KeepOriginalFontMetrics = true;
 
     // Vi kommer att få en varning för ersättning av teckensnitt om vi sparar ett dokument med ett teckensnitt som saknas.
     doc.FontSettings = fontSettings;

@@ -16,11 +16,11 @@ public void LinkToPrevious(bool isLinkToPrevious)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| isLinkToPrevious | Boolean | True per collegare le intestazioni e i piè di pagina alla sezione precedente; false per scollegarli. |
+| isLinkToPrevious | Boolean | `VERO` per collegare intestazioni e piè di pagina alla sezione precedente; `falso` per scollegarli. |
 
 ### Osservazioni
 
-Se una delle intestazioni o dei piè di pagina non esiste, li crea automaticamente.
+Se una qualsiasi delle intestazioni o dei piè di pagina non esiste, li crea automaticamente.
 
 ### Esempi
 
@@ -50,18 +50,18 @@ builder.Write("This is the footer, which will be displayed in sections 1, 2 and 
 // per consentire alla sezione di collegamento di visualizzare le intestazioni/piè di pagina della sezione collegata.
 doc.Sections[1].HeadersFooters.LinkToPrevious(true);
 
-// Ogni sezione avrà ancora i propri oggetti intestazione/piè di pagina. Quando colleghiamo sezioni,
-// la sezione di collegamento visualizzerà l'intestazione/i piè di pagina della sezione collegata mantenendone la propria.
+// Ogni sezione avrà comunque i propri oggetti intestazione/piè di pagina. Quando colleghiamo le sezioni,
+// la sezione di collegamento mostrerà l'intestazione/i piè di pagina della sezione collegata mantenendo i propri.
 Assert.AreNotEqual(doc.Sections[0].HeadersFooters[0], doc.Sections[1].HeadersFooters[0]);
 Assert.AreNotEqual(doc.Sections[0].HeadersFooters[0].ParentSection, doc.Sections[1].HeadersFooters[0].ParentSection);
 
 // Collega le intestazioni/piè di pagina della terza sezione alle intestazioni/piè di pagina della seconda sezione.
-// La seconda sezione si collega già all'intestazione/piè di pagina della prima sezione,
+// La seconda sezione è già collegata all'intestazione/piè di pagina della prima sezione,
 // quindi il collegamento alla seconda sezione creerà una catena di collegamenti.
 // La prima, la seconda e ora la terza sezione mostreranno tutte le intestazioni della prima sezione.
 doc.Sections[2].HeadersFooters.LinkToPrevious(true);
 
-// Possiamo scollegare l'intestazione/piè di pagina di una sezione precedente passando "false" quando si chiama il metodo LinkToPrevious.
+// Possiamo scollegare l'intestazione/piè di pagina di una sezione precedente passando "false" quando chiamiamo il metodo LinkToPrevious.
 doc.Sections[2].HeadersFooters.LinkToPrevious(false);
 
 // Possiamo anche selezionare solo un tipo specifico di intestazione/piè di pagina da collegare utilizzando questo metodo.
@@ -94,7 +94,7 @@ doc.Save(ArtifactsDir + "HeaderFooter.Link.docx");
 
 ## LinkToPrevious(HeaderFooterType, bool) {#linktoprevious}
 
-Collega o scollega l'intestazione o il piè di pagina specificati all'intestazione o al piè di pagina corrispondenti nella sezione precedente.
+Collega o scollega l'intestazione o il piè di pagina specificato all'intestazione o al piè di pagina corrispondente nella sezione precedente.
 
 ```csharp
 public void LinkToPrevious(HeaderFooterType headerFooterType, bool isLinkToPrevious)
@@ -103,7 +103,7 @@ public void LinkToPrevious(HeaderFooterType headerFooterType, bool isLinkToPrevi
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | headerFooterType | HeaderFooterType | UN[`HeaderFooterType`](../../headerfootertype/) value che specifica l'intestazione o il piè di pagina da collegare/scollegare. |
-| isLinkToPrevious | Boolean | True per collegare l'intestazione o il piè di pagina alla sezione precedente; false per scollegare. |
+| isLinkToPrevious | Boolean | `VERO`per collegare l'intestazione o il piè di pagina alla sezione precedente; `falso` per scollegare. |
 
 ### Osservazioni
 
@@ -137,18 +137,18 @@ builder.Write("This is the footer, which will be displayed in sections 1, 2 and 
 // per consentire alla sezione di collegamento di visualizzare le intestazioni/piè di pagina della sezione collegata.
 doc.Sections[1].HeadersFooters.LinkToPrevious(true);
 
-// Ogni sezione avrà ancora i propri oggetti intestazione/piè di pagina. Quando colleghiamo sezioni,
-// la sezione di collegamento visualizzerà l'intestazione/i piè di pagina della sezione collegata mantenendone la propria.
+// Ogni sezione avrà comunque i propri oggetti intestazione/piè di pagina. Quando colleghiamo le sezioni,
+// la sezione di collegamento mostrerà l'intestazione/i piè di pagina della sezione collegata mantenendo i propri.
 Assert.AreNotEqual(doc.Sections[0].HeadersFooters[0], doc.Sections[1].HeadersFooters[0]);
 Assert.AreNotEqual(doc.Sections[0].HeadersFooters[0].ParentSection, doc.Sections[1].HeadersFooters[0].ParentSection);
 
 // Collega le intestazioni/piè di pagina della terza sezione alle intestazioni/piè di pagina della seconda sezione.
-// La seconda sezione si collega già all'intestazione/piè di pagina della prima sezione,
+// La seconda sezione è già collegata all'intestazione/piè di pagina della prima sezione,
 // quindi il collegamento alla seconda sezione creerà una catena di collegamenti.
 // La prima, la seconda e ora la terza sezione mostreranno tutte le intestazioni della prima sezione.
 doc.Sections[2].HeadersFooters.LinkToPrevious(true);
 
-// Possiamo scollegare l'intestazione/piè di pagina di una sezione precedente passando "false" quando si chiama il metodo LinkToPrevious.
+// Possiamo scollegare l'intestazione/piè di pagina di una sezione precedente passando "false" quando chiamiamo il metodo LinkToPrevious.
 doc.Sections[2].HeadersFooters.LinkToPrevious(false);
 
 // Possiamo anche selezionare solo un tipo specifico di intestazione/piè di pagina da collegare utilizzando questo metodo.

@@ -1,14 +1,14 @@
 ---
 title: DocumentPropertyCollection.Contains
 second_title: Aspose.Words for .NET API Referansı
-description: DocumentPropertyCollection yöntem. Koleksiyonda belirtilen ada sahip bir özellik varsa true değerini döndürür.
+description: DocumentPropertyCollection yöntem. İadelerdoğru koleksiyonda belirtilen ada sahip bir özellik mevcutsa.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.properties/documentpropertycollection/contains/
 ---
 ## DocumentPropertyCollection.Contains method
 
-Koleksiyonda belirtilen ada sahip bir özellik varsa true değerini döndürür.
+İadeler`doğru` koleksiyonda belirtilen ada sahip bir özellik mevcutsa.
 
 ```csharp
 public bool Contains(string name)
@@ -16,11 +16,11 @@ public bool Contains(string name)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| name | String | Özelliğin büyük/küçük harfe duyarsız adı. |
+| name | String | Özelliğin büyük/küçük harfe duyarlı olmayan adı. |
 
 ### Geri dönüş değeri
 
-Özellik koleksiyonda varsa doğru; aksi halde yanlış.
+`doğru` mülk koleksiyonda mevcutsa;`YANLIŞ` aksi takdirde.
 
 ### Örnekler
 
@@ -32,7 +32,7 @@ CustomDocumentProperties properties = doc.CustomDocumentProperties;
 
 Assert.AreEqual(0, properties.Count);
 
-// Özel belge özellikleri, belgeye ekleyebileceğimiz anahtar/değer çiftleridir.
+// Özel belge özellikleri, belgeye ekleyebileceğimiz anahtar-değer çiftleridir.
 properties.Add("Authorized", true);
 properties.Add("Authorized By", "John Doe");
 properties.Add("Authorized Date", DateTime.Today);
@@ -57,23 +57,23 @@ field.Update();
 
 Assert.AreEqual("John Doe", field.Result);
 
-// Bu özel özellikleri Microsoft Word'de "Dosya" -> "Özellikler" > "Gelişmiş Özellikler" > "Gelenek".
+// Bu özel özellikleri Microsoft Word'de "Dosya" -> aracılığıyla bulabiliriz. "Özellikler" > "Gelişmiş Özellikler" > "Gelenek".
 doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
 
-// Aşağıda, bir belgeden özel özellikleri kaldırmanın veya kaldırmanın üç yolu vardır.
+// Aşağıda bir belgeden özel özellikleri kaldırmanın üç yolu bulunmaktadır.
 // 1 - Dizine göre kaldır:
 properties.RemoveAt(1);
 
 Assert.False(properties.Contains("Authorized Amount"));
 Assert.AreEqual(4, properties.Count);
 
-// 2 - Ada göre kaldır:
+// 2 - İsme göre kaldır:
 properties.Remove("Authorized Revision");
 
 Assert.False(properties.Contains("Authorized Revision"));
 Assert.AreEqual(3, properties.Count);
 
-// 3 - Tüm koleksiyonu bir kerede boşaltın:
+// 3 - Koleksiyonun tamamını bir kerede boşaltın:
 properties.Clear();
 
 Assert.AreEqual(0, properties.Count);

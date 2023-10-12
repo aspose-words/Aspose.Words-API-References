@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.DoNotAutofitConstrainedTables
 second_title: Aspose.Words für .NET-API-Referenz
-description: CompatibilityOptions eigendom. Tabellen nicht automatisch an umschlossene Objekte anpassen.
+description: CompatibilityOptions eigendom. Tabellen nicht automatisch anpassen damit sie neben umhüllten Objekten passen.
 type: docs
 weight: 120
 url: /de/net/aspose.words.settings/compatibilityoptions/donotautofitconstrainedtables/
 ---
 ## CompatibilityOptions.DoNotAutofitConstrainedTables property
 
-Tabellen nicht automatisch an umschlossene Objekte anpassen.
+Tabellen nicht automatisch anpassen, damit sie neben umhüllten Objekten passen.
 
 ```csharp
 public bool DoNotAutofitConstrainedTables { get; set; }

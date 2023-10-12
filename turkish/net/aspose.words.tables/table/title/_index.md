@@ -1,14 +1,14 @@
 ---
 title: Table.Title
 second_title: Aspose.Words for .NET API Referansı
-description: Table mülk. Bu tablonun başlığını alır veya ayarlar. Tabloda yer alan bilgilerin alternatif bir metin gösterimini sağlar.
+description: Table mülk. Bu tablonun başlığını alır veya ayarlar. Tabloda yer alan bilgilerin alternatif metin gösterimini sağlar.
 type: docs
 weight: 320
 url: /tr/net/aspose.words.tables/table/title/
 ---
 ## Table.Title property
 
-Bu tablonun başlığını alır veya ayarlar. Tabloda yer alan bilgilerin alternatif bir metin gösterimini sağlar.
+Bu tablonun başlığını alır veya ayarlar. Tabloda yer alan bilgilerin alternatif metin gösterimini sağlar.
 
 ```csharp
 public string Title { get; set; }
@@ -18,7 +18,7 @@ public string Title { get; set; }
 
 Varsayılan değer boş bir dizedir.
 
-Bu özellik, ISO/IEC 29500 uyumlu DOCX belgeleri için anlamlıdır ([`OoxmlCompliance`](../../../aspose.words.saving/ooxmlcompliance/)). ISO/IEC 29500 öncesi biçimlere kaydedildiğinde, özellik yok sayılır.
+Bu özellik ISO/IEC 29500 uyumlu DOCX belgeleri ( için anlamlıdır.[`OoxmlCompliance`](../../../aspose.words.saving/ooxmlcompliance/)). ISO/IEC 29500 öncesi formatlara kaydedildiğinde özellik göz ardı edilir.
 
 ### Örnekler
 
@@ -29,11 +29,11 @@ public void CreateNestedTable()
 {
     Document doc = new Document();
 
-    // Üç satır ve dört sütunlu dış tabloyu oluşturun ve ardından belgeye ekleyin.
+    // Üç satır ve dört sütundan oluşan dış tabloyu oluşturup belgeye ekleyin.
     Table outerTable = CreateTable(doc, 3, 4, "Outer Table");
     doc.FirstSection.Body.AppendChild(outerTable);
 
-    // İki satır ve iki sütun içeren başka bir tablo oluşturun ve ardından bunu ilk tablonun ilk hücresine ekleyin.
+    // İki satır ve iki sütundan oluşan başka bir tablo oluşturun ve bunu ilk tablonun ilk hücresine ekleyin.
     Table innerTable = CreateTable(doc, 2, 2, "Inner Table");
     outerTable.FirstRow.FirstCell.AppendChild(innerTable);
 
@@ -41,7 +41,7 @@ public void CreateNestedTable()
 }
 
 /// <summary>
-/// Her hücrede verilen boyutlar ve metin ile belgede yeni bir tablo oluşturur.
+/// Her hücrede verilen boyut ve metinle belgede yeni bir tablo oluşturur.
 /// </summary>
 private static Table CreateTable(Document doc, int rowCount, int cellCount, string cellText)
 {
@@ -62,10 +62,10 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
         }
     }
 
-    // Tablonuza sırasıyla başlık ve açıklama eklemek için "Title" ve "Description" özelliklerini kullanabilirsiniz.
-    // Bu özellikleri kullanabilmemiz için tablonun en az bir satırı olmalıdır.
-    // Bu özellikler, ISO/IEC 29500 uyumlu .docx belgeleri için anlamlıdır (bkz. OoxmlCompliance sınıfı).
-    // Belgeyi ISO/IEC 29500 öncesi formatlarda kaydedersek, Microsoft Word bu özellikleri yok sayar.
+    // Tablonuza sırasıyla başlık ve açıklama eklemek için "Başlık" ve "Açıklama" özelliklerini kullanabilirsiniz.
+    // Bu özellikleri kullanabilmemiz için tablonun en az bir satıra sahip olması gerekir.
+    // Bu özellikler ISO/IEC 29500 uyumlu .docx belgeleri için anlamlıdır (bkz. OoxmlCompliance sınıfı).
+    // Belgeyi ISO/IEC 29500 öncesi formatlarda kaydedersek, Microsoft Word bu özellikleri göz ardı eder.
     table.Title = "Aspose table title";
     table.Description = "Aspose table description";
 

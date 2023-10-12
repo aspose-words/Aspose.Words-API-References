@@ -16,15 +16,15 @@ public string[] GetFieldNames()
 
 ### Observaciones
 
-Devuelve los nombres completos de los campos de combinación, incluido el prefijo opcional. No elimina los nombres de campo duplicados.
+Devuelve nombres completos de campos de combinación, incluido el prefijo opcional. No elimina nombres de campos duplicados.
 
-Se crea una nueva matriz string[] en cada llamada.
+Se crea una nueva matriz de cadenas en cada llamada.
 
-Incluye nombres de campo "bigote" si[`UseNonMergeFields`](../usenonmergefields/) es **verdadero**.
+Incluye nombres de campos "bigote" si[`UseNonMergeFields`](../usenonmergefields/) es`verdadero`.
 
 ### Ejemplos
 
-Muestra cómo obtener los nombres de todos los campos de combinación en un documento.
+Muestra cómo obtener nombres de todos los campos de combinación en un documento.
 
 ```csharp
 Document doc = new Document();
@@ -43,8 +43,8 @@ dataTable.Columns.Add("City");
 dataTable.Rows.Add(new object[] { "John", "Doe", "New York" });
 dataTable.Rows.Add(new object[] { "Joe", "Bloggs", "Washington" });
 
-// Para cada nombre de MERGEFIELD en el documento, asegúrese de que la tabla de datos contenga una columna
-// con el mismo nombre y luego ejecute la combinación de correspondencia. 
+// Para cada nombre MERGEFIELD en el documento, asegúrese de que la tabla de datos contenga una columna
+ // con el mismo nombre y luego ejecutar la combinación de correspondencia.
 string[] fieldNames = doc.MailMerge.GetFieldNames();
 
 Assert.AreEqual(3, fieldNames.Length);

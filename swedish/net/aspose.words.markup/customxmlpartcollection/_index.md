@@ -3,12 +3,14 @@ title: Class CustomXmlPartCollection
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Markup.CustomXmlPartCollection klass. Representerar en samling anpassade XMLdelar. Objekten ärCustomXmlPart objekt.
 type: docs
-weight: 3690
+weight: 3930
 url: /sv/net/aspose.words.markup/customxmlpartcollection/
 ---
 ## CustomXmlPartCollection class
 
 Representerar en samling anpassade XML-delar. Objekten är[`CustomXmlPart`](../customxmlpart/) objekt.
+
+För att lära dig mer, besök[Strukturerade dokumenttaggar eller innehållskontroll](https://docs.aspose.com/words/net/working-with-content-control-sdt/) dokumentationsartikel.
 
 ```csharp
 public class CustomXmlPartCollection : IEnumerable<CustomXmlPart>

@@ -1,14 +1,14 @@
 ---
 title: TxtSaveOptionsBase.ParagraphBreak
 second_title: Aspose.Words لمراجع .NET API
-description: TxtSaveOptionsBase ملكية. يحدد السلسلة التي سيتم استخدامها كفاصل فقرة عند التصدير بتنسيقات نصية.
+description: TxtSaveOptionsBase ملكية. يحدد السلسلة التي سيتم استخدامها كفواصل فقرات عند التصدير بتنسيقات نصية.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.saving/txtsaveoptionsbase/paragraphbreak/
 ---
 ## TxtSaveOptionsBase.ParagraphBreak property
 
-يحدد السلسلة التي سيتم استخدامها كفاصل فقرة عند التصدير بتنسيقات نصية.
+يحدد السلسلة التي سيتم استخدامها كفواصل فقرات عند التصدير بتنسيقات نصية.
 
 ```csharp
 public string ParagraphBreak { get; set; }
@@ -16,11 +16,11 @@ public string ParagraphBreak { get; set; }
 
 ### ملاحظات
 
-النظام الأساسي[`CrLf`](../../../aspose.words/controlchar/crlf/).
+القيمة الافتراضية هي[`CrLf`](../../../aspose.words/controlchar/crlf/).
 
 ### أمثلة
 
-يوضح كيفية حفظ مستند .txt مع فاصل فقرة مخصص.
+يوضح كيفية حفظ مستند .txt مع فاصل فقرات مخصص.
 
 ```csharp
 Document doc = new Document();
@@ -30,13 +30,13 @@ builder.Writeln("Paragraph 1.");
 builder.Writeln("Paragraph 2.");
 builder.Write("Paragraph 3.");
 
-// قم بإنشاء كائن "TxtSaveOptions" ، والذي يمكننا تمريره إلى طريقة "Save" الخاصة بالمستند
-// لتعديل كيفية حفظ المستند على نص عادي.
+// قم بإنشاء كائن "TxtSaveOptions"، والذي يمكننا تمريره إلى طريقة "حفظ" المستند
+// لتعديل كيفية حفظ المستند إلى نص عادي.
 TxtSaveOptions txtSaveOptions = new TxtSaveOptions();
 
 Assert.AreEqual(SaveFormat.Text, txtSaveOptions.SaveFormat);
 
-// اضبط "ParagraphBreak" على قيمة مخصصة نرغب في وضعها في نهاية كل فقرة.
+// قم بتعيين "ParagraphBreak" على قيمة مخصصة نرغب في وضعها في نهاية كل فقرة.
 txtSaveOptions.ParagraphBreak = " End of paragraph.\n\n\t";
 
 doc.Save(ArtifactsDir + "TxtSaveOptions.ParagraphBreak.txt", txtSaveOptions);

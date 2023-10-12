@@ -1,14 +1,14 @@
 ---
 title: PageSetup.TextOrientation
 second_title: Aspose.Words per .NET API Reference
-description: PageSetup proprietà. Consente di specificareTextOrientation per lintera pagina. Il valore predefinito èHorizontal
+description: PageSetup proprietà. Permette di specificareTextOrientation per lintera pagina. Il valore predefinito èHorizontal
 type: docs
-weight: 420
+weight: 430
 url: /it/net/aspose.words/pagesetup/textorientation/
 ---
 ## PageSetup.TextOrientation property
 
-Consente di specificare`TextOrientation` per l'intera pagina. Il valore predefinito èHorizontal
+Permette di specificare`TextOrientation` per l'intera pagina. Il valore predefinito èHorizontal
 
 ```csharp
 public TextOrientation TextOrientation { get; set; }

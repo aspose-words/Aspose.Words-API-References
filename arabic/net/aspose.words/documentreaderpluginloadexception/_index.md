@@ -1,14 +1,14 @@
 ---
 title: Class DocumentReaderPluginLoadException
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.DocumentReaderPluginLoadException فصل. تم إلقاؤه أثناء تحميل المستند  عندما يتعذر تحميل المكون الإضافي المطلوب لقراءة تنسيق المستند.
+description: Aspose.Words.DocumentReaderPluginLoadException فصل. يتم طرحه أثناء تحميل المستند عندما لا يمكن تحميل البرنامج الإضافي المطلوب لقراءة تنسيق المستند.
 type: docs
-weight: 450
+weight: 460
 url: /ar/net/aspose.words/documentreaderpluginloadexception/
 ---
 ## DocumentReaderPluginLoadException class
 
-تم إلقاؤه أثناء تحميل المستند ، عندما يتعذر تحميل المكون الإضافي المطلوب لقراءة تنسيق المستند.
+يتم طرحه أثناء تحميل المستند، عندما لا يمكن تحميل البرنامج الإضافي المطلوب لقراءة تنسيق المستند.
 
 ```csharp
 public class DocumentReaderPluginLoadException : Exception

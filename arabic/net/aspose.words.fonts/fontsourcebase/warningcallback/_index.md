@@ -1,14 +1,14 @@
 ---
 title: FontSourceBase.WarningCallback
 second_title: Aspose.Words لمراجع .NET API
-description: FontSourceBase ملكية. تم الاتصال أثناء معالجة مصدر الخط عند اكتشاف مشكلة قد تؤدي إلى فقدان الدقة في التنسيق.
+description: FontSourceBase ملكية. يتم استدعاؤه أثناء معالجة مصدر الخط عند اكتشاف مشكلة قد تؤدي إلى فقدان دقة التنسيق.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fonts/fontsourcebase/warningcallback/
 ---
 ## FontSourceBase.WarningCallback property
 
-تم الاتصال أثناء معالجة مصدر الخط عند اكتشاف مشكلة قد تؤدي إلى فقدان الدقة في التنسيق.
+يتم استدعاؤه أثناء معالجة مصدر الخط عند اكتشاف مشكلة قد تؤدي إلى فقدان دقة التنسيق.
 
 ```csharp
 public IWarningCallback WarningCallback { get; set; }
@@ -16,10 +16,9 @@ public IWarningCallback WarningCallback { get; set; }
 
 ### أمثلة
 
-يوضح كيفية استدعاء رد الاتصال التحذيري عندما تعمل مصادر الخط مع.
+يوضح كيفية استدعاء رد الاتصال التحذيري عند التعامل مع مصادر الخطوط.
 
 ```csharp
-[Test]
 public void FontSourceWarning()
 {
     FontSettings settings = new FontSettings();
@@ -29,7 +28,7 @@ public void FontSourceWarning()
     FontSourceWarningCollector callback = new FontSourceWarningCollector();
     source.WarningCallback = callback;
 
-    // احصل على قائمة الخطوط لاستدعاء رد الاتصال التحذيري.
+    // احصل على قائمة الخطوط للاتصال بتحذير رد الاتصال.
     IList<PhysicalFontInfo> fontInfos = source.GetAvailableFonts();
 
     Assert.True(callback.FontSubstitutionWarnings[0].Description
@@ -39,7 +38,7 @@ public void FontSourceWarning()
 private class FontSourceWarningCollector : IWarningCallback
 {
     /// <summary>
-    /// يتم الاتصال به في كل مرة يظهر فيها تحذير أثناء معالجة مصدر الخط.
+    /// يتم الاتصال به في كل مرة يحدث فيها تحذير أثناء معالجة مصدر الخط.
     /// </summary>
     public void Warning(WarningInfo info)
     {

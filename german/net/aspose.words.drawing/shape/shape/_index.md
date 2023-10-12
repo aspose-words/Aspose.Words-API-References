@@ -16,7 +16,7 @@ public Shape(DocumentBase doc, ShapeType shapeType)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| doc | DocumentBase | Das Besitzerdokument. |
+| doc | DocumentBase | Das Eigentümerdokument. |
 | shapeType | ShapeType | Der Typ der zu erstellenden Form. |
 
 ### Bemerkungen
@@ -25,13 +25,13 @@ Sie sollten die gewünschten Formeigenschaften angeben, nachdem Sie eine Form er
 
 ### Beispiele
 
-Zeigt, wie Sie eine Form mit einem Bild aus dem lokalen Dateisystem in ein Dokument einfügen.
+Zeigt, wie man eine Form mit einem Bild aus dem lokalen Dateisystem in ein Dokument einfügt.
 
 ```csharp
 Document doc = new Document();
 
 // Der öffentliche Konstruktor der Klasse „Shape“ erstellt eine Form mit dem Markup-Typ „ShapeMarkupLanguage.Vml“.
-// Wenn Sie eine Form eines nicht primitiven Typs erstellen müssen, z. B. SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
+// Wenn Sie eine Form eines nicht-primitiven Typs erstellen müssen, z. B. SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
 // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded oder DiagonalCornersRounded,
 // Bitte verwenden Sie DocumentBuilder.InsertShape.
 Shape shape = new Shape(doc, ShapeType.Image);
@@ -49,17 +49,17 @@ Zeigt, wie ein Textfeld erstellt und formatiert wird.
 ```csharp
 Document doc = new Document();
 
-// Erstellen Sie ein schwebendes Textfeld.
+// Erstelle ein schwebendes Textfeld.
 Shape textBox = new Shape(doc, ShapeType.TextBox);
 textBox.WrapType = WrapType.None;
 textBox.Height = 50;
 textBox.Width = 200;
 
-// Legen Sie die horizontale und vertikale Ausrichtung des Textes innerhalb der Form fest.
+// Legen Sie die horizontale und vertikale Ausrichtung des Texts innerhalb der Form fest.
 textBox.HorizontalAlignment = HorizontalAlignment.Center;
 textBox.VerticalAlignment = VerticalAlignment.Top;
 
-// Füge einen Absatz zum Textfeld hinzu und füge einen Textverlauf hinzu, der im Textfeld angezeigt wird.
+// Fügen Sie dem Textfeld einen Absatz hinzu und fügen Sie eine Textzeile hinzu, die im Textfeld angezeigt wird.
 textBox.AppendChild(new Paragraph(doc));
 Paragraph para = textBox.FirstParagraph;
 para.ParagraphFormat.Alignment = ParagraphAlignment.Center;

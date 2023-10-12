@@ -3,7 +3,7 @@ title: Style.IsQuickStyle
 second_title: Aspose.Words for .NET API 参考
 description: Style 财产. 指定此样式是否显示在 MS Word UI 内的快速样式库中
 type: docs
-weight: 70
+weight: 80
 url: /zh/net/aspose.words/style/isquickstyle/
 ---
 ## Style.IsQuickStyle property
@@ -16,7 +16,7 @@ public bool IsQuickStyle { get; set; }
 
 ### 例子
 
-展示如何访问文档的样式集合。
+演示如何访问文档的样式集合。
 
 ```csharp
 Document doc = new Document();

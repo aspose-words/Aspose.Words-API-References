@@ -1,14 +1,14 @@
 ---
 title: Enum MailMergeDestination
 second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Settings.MailMergeDestination opsomming. Gibt die möglichen Ergebnisse an die generiert werden können wenn ein Seriendruck auf ein Dokument ausgeführt wird.
+description: Aspose.Words.Settings.MailMergeDestination opsomming. Gibt die möglichen Ergebnisse an die generiert werden können wenn ein Serienbrief für ein Dokument ausgeführt wird.
 type: docs
-weight: 5530
+weight: 5830
 url: /de/net/aspose.words.settings/mailmergedestination/
 ---
 ## MailMergeDestination enumeration
 
-Gibt die möglichen Ergebnisse an, die generiert werden können, wenn ein Seriendruck auf ein Dokument ausgeführt wird.
+Gibt die möglichen Ergebnisse an, die generiert werden können, wenn ein Serienbrief für ein Dokument ausgeführt wird.
 
 ```csharp
 public enum MailMergeDestination
@@ -18,15 +18,15 @@ public enum MailMergeDestination
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| NewDocument | `0` | Gibt an, dass konforme Hosting-Anwendungen neue Dokumente generieren sollen, indem sie die Felder innerhalb eines bestimmten Dokuments mit Daten aus der angegebenen externen Datenquelle füllen. |
-| Printer | `1` | Gibt an, dass konforme Hosting-Anwendungen die Dokumente drucken sollen, die sich aus dem Auffüllen der -Felder in einem bestimmten Dokument mit externen Daten aus der angegebenen externen Datenquelle ergeben. |
-| Email | `2` | Gibt an, dass konforme Hosting-Anwendungen E-Mails unter Verwendung der Dokumente generieren sollen, die aus dem Ausfüllen der Felder innerhalb eines bestimmten Dokuments mit Daten aus der angegebenen externen Datenquelle resultieren. |
-| Fax | `4` | Gibt an, dass konforme Hosting-Anwendungen Faxe unter Verwendung der Dokumente generieren sollen, die aus dem Ausfüllen der Felder innerhalb eines bestimmten Dokuments mit Daten aus der angegebenen externen Datenquelle resultieren. |
-| Default | `0` | Entspricht demNewDocument wert. |
+| NewDocument | `0` | Gibt an, dass konforme Hosting-Anwendungen neue Dokumente generieren sollen, indem sie die Felder in einem bestimmten Dokument mit Daten aus der angegebenen externen Datenquelle füllen. |
+| Printer | `1` | Gibt an, dass konforme Hostinganwendungen die Dokumente drucken sollen, die sich aus der Befüllung der Felder in einem bestimmten Dokument mit externen Daten aus der angegebenen externen Datenquelle ergeben. |
+| Email | `2` | Gibt an, dass konforme Hosting-Anwendungen E-Mails mit den Dokumenten generieren sollen, die aus resultieren, indem die Felder in einem bestimmten Dokument mit Daten aus der angegebenen externen Datenquelle gefüllt werden. |
+| Fax | `4` | Gibt an, dass konforme Hosting-Anwendungen Faxe mit den Dokumenten generieren sollen, die aus resultieren, indem die Felder in einem bestimmten Dokument mit Daten aus der angegebenen externen Datenquelle gefüllt werden. |
+| Default | `0` | Entspricht demNewDocument value. |
 
 ### Beispiele
 
-Zeigt, wie ein Seriendruck mit Daten aus einem Office-Datenquellenobjekt ausgeführt wird.
+Zeigt, wie ein Serienbrief mit Daten aus einem Office-Datenquellenobjekt ausgeführt wird.
 
 ```csharp
 Document doc = new Document();
@@ -39,8 +39,8 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Erstellen Sie eine Datenquelle in Form einer ASCII-Datei, mit dem "|" Charakter
-// fungiert als Trennzeichen, das Spalten trennt. Die erste Zeile enthält die Namen der drei Spalten,
+// Erstellen Sie eine Datenquelle in Form einer ASCII-Datei mit dem Zeichen „|“ Charakter
+// fungiert als Trennzeichen, das die Spalten trennt. Die erste Zeile enthält die Namen der drei Spalten,
 // und jede nachfolgende Zeile ist eine Zeile mit ihren jeweiligen Werten.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
@@ -69,7 +69,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
-// Beim Öffnen dieses Dokuments in Microsoft Word wird der Seriendruck ausgeführt, bevor der Inhalt angezeigt wird. 
+ // Beim Öffnen dieses Dokuments in Microsoft Word wird der Serienbrief ausgeführt, bevor der Inhalt angezeigt wird.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

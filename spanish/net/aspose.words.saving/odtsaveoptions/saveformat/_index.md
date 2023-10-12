@@ -23,15 +23,15 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// Cree un nuevo OdtSaveOptions y pase "SaveFormat.Odt",
-// o "SaveFormat.Ott" como formato para guardar el documento. 
+// Crea un nuevo OdtSaveOptions y pasa "SaveFormat.Odt",
+ // o "SaveFormat.Ott" como formato para guardar el documento.
 OdtSaveOptions saveOptions = new OdtSaveOptions(saveFormat);
 saveOptions.Password = "@sposeEncrypted_1145";
 
 string extensionString = FileFormatUtil.SaveFormatToExtension(saveFormat);
 
 // Si abrimos este documento con un editor apropiado,
-// nos pedirá la contraseña que especificamos en el objeto SaveOptions.
+// nos solicitará la contraseña que especificamos en el objeto SaveOptions.
 doc.Save(ArtifactsDir + "OdtSaveOptions.Encrypt" + extensionString, saveOptions);
 
 FileFormatInfo docInfo = FileFormatUtil.DetectFileFormat(ArtifactsDir + "OdtSaveOptions.Encrypt" + extensionString);

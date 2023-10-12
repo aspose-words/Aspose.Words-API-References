@@ -8,7 +8,7 @@ url: /tr/net/aspose.words.drawing.ole/forms2olecontrol/value/
 ---
 ## Forms2OleControl.Value property
 
-Genellikle kontrol durumunu temsil eden temel Değer özelliğini alır. Örneğin, işaretli seçenek düğmesi '1' değerine sahipken, işaretlenmemişse '0' değerine sahiptir. Varsayılan değer boş bir dizedir.
+Genellikle kontrol durumunu temsil eden temel Değer özelliğini alır. Örneğin işaretli seçenek düğmesi '1' değerine sahipken, işaretlenmemişse '0' değerine sahiptir. Varsayılan değer boş bir dizedir.
 
 ```csharp
 public string Value { get; }
@@ -24,7 +24,7 @@ Document doc = new Document(MyDir + "ActiveX controls.docx");
 Shape shape = (Shape) doc.GetChild(NodeType.Shape, 0, true);
 OleControl oleControl = shape.OleFormat.OleControl;
 
-Assert.AreEqual(null, oleControl.Name);
+Assert.AreEqual("CheckBox1", oleControl.Name);
 
 if (oleControl.IsForms2OleControl)
 {
@@ -34,6 +34,10 @@ if (oleControl.IsForms2OleControl)
     Assert.AreEqual(true, checkBox.Enabled);
     Assert.AreEqual(Forms2OleControlType.CheckBox, checkBox.Type);
     Assert.AreEqual(null, checkBox.ChildNodes);
+    Assert.AreEqual(string.Empty, checkBox.GroupName);
+
+    // Bir Çerçeve için GrupAdı'nı ayarlayamayacağınızı unutmayın.
+    checkBox.GroupName = "Aspose group name";
 }
 ```
 

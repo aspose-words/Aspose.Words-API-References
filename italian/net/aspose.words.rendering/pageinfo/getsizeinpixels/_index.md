@@ -3,7 +3,7 @@ title: PageInfo.GetSizeInPixels
 second_title: Aspose.Words per .NET API Reference
 description: PageInfo metodo. Calcola la dimensione della pagina in pixel per un fattore di zoom e una risoluzione specificati.
 type: docs
-weight: 80
+weight: 90
 url: /it/net/aspose.words.rendering/pageinfo/getsizeinpixels/
 ---
 ## GetSizeInPixels(float, float) {#getsizeinpixels}
@@ -17,7 +17,7 @@ public Size GetSizeInPixels(float scale, float dpi)
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | scale | Single | Il fattore di zoom (1,0 è 100%). |
-| dpi | Single | La risoluzione (orizzontale e verticale) da convertire da punti a pixel (punti per pollice). |
+| dpi | Single | La risoluzione (orizzontale e verticale) per convertire da punti a pixel (punti per pollice). |
 
 ### Valore di ritorno
 
@@ -51,13 +51,13 @@ La dimensione della pagina in pixel.
 
 ### Esempi
 
-Mostra come stampare le informazioni sulle dimensioni della pagina e sull'orientamento per ogni pagina di un documento di Word.
+Mostra come stampare le informazioni sulle dimensioni e sull'orientamento della pagina per ogni pagina di un documento Word.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// La prima sezione ha 2 pagine. Assegneremo a ciascuno un vassoio carta per stampante diverso,
-// il cui numero corrisponderà a un tipo di origine carta. Queste fonti e i loro tipi varieranno
+// La prima sezione ha 2 pagine. Assegneremo a ciascuno un vassoio carta diverso per la stampante,
+// il cui numero corrisponderà a un tipo di origine cartacea. Queste fonti e i loro tipi varieranno
 // a seconda del driver della stampante installato.
 PrinterSettings.PaperSourceCollection paperSources = new PrinterSettings().PaperSources;
 

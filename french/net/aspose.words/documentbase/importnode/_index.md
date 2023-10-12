@@ -17,7 +17,7 @@ public Node ImportNode(Node srcNode, bool isImportChildren)
 | Paramètre | Taper | La description |
 | --- | --- | --- |
 | srcNode | Node | Le nœud en cours d'importation. |
-| isImportChildren | Boolean | True pour importer tous les nœuds enfants de manière récursive ; sinon, faux. |
+| isImportChildren | Boolean | `vrai` pour importer tous les nœuds enfants de manière récursive ; sinon,`FAUX`. |
 
 ### Return_Value
 
@@ -25,11 +25,11 @@ Le nœud cloné qui appartient au document actuel.
 
 ### Remarques
 
-Cette méthode utilise laUseDestinationStyles option pour résoudre le formatage.
+Cette méthode utilise leUseDestinationStyles option pour résoudre le formatage.
 
-L'importation d'un nœud crée une copie du nœud source appartenant au document d'importation. Le nœud retourné n'a pas de parent. Le nœud source n'est pas modifié ou supprimé du document d'origine.
+L'importation d'un nœud crée une copie du nœud source appartenant au document importateur. Le nœud renvoyé n'a pas de parent. Le nœud source n'est ni modifié ni supprimé du document d'origine.
 
-Avant qu'un nœud d'un autre document puisse être inséré dans ce document, il doit être importé. Lors de l'importation, les propriétés spécifiques au document telles que les références aux styles et aux listes sont traduites de l'original vers le document d'importation. Une fois le nœud importé, il peut être inséré à l'endroit approprié dans le document à l'aide de[`InsertBefore`](../../compositenode/insertbefore/) ou [`InsertAfter`](../../compositenode/insertafter/).
+Avant qu'un nœud d'un autre document puisse être inséré dans ce document, il doit être importé. Lors de l'importation, les propriétés spécifiques au document telles que les références aux styles et aux listes sont traduites de l'original vers le document d'importation. Une fois le nœud importé, il peut être inséré à l'endroit approprié dans le document en utilisantNode) ou Node).
 
 Si le nœud source appartient déjà au document de destination, alors simplement un clone profond du nœud source est créé.
 
@@ -51,7 +51,7 @@ dstDoc.FirstSection.Body.FirstParagraph.AppendChild(
 Assert.AreNotEqual(dstDoc, srcDoc.FirstSection.Document);
 Assert.Throws<ArgumentException>(() => { dstDoc.AppendChild(srcDoc.FirstSection); });
 
-// Utilisez la méthode ImportNode pour créer une copie d'un nœud, qui aura le document
+// Utilisez la méthode ImportNode pour créer une copie d'un nœud, qui contiendra le document
 // qui a appelé la méthode ImportNode définie comme son nouveau document propriétaire.
 Section importedSection = (Section)dstDoc.ImportNode(srcDoc.FirstSection, true);
 
@@ -75,7 +75,7 @@ Assert.AreEqual("Destination document first paragraph text.\r\nSource document f
 
 ## ImportNode(Node, bool, ImportFormatMode) {#importnode_1}
 
-Importe un nœud d'un autre document vers le document actuel avec une option pour contrôler la mise en forme.
+Importe un nœud d'un autre document vers le document actuel avec une option pour contrôler le formatage.
 
 ```csharp
 public Node ImportNode(Node srcNode, bool isImportChildren, ImportFormatMode importFormatMode)
@@ -84,8 +84,8 @@ public Node ImportNode(Node srcNode, bool isImportChildren, ImportFormatMode imp
 | Paramètre | Taper | La description |
 | --- | --- | --- |
 | srcNode | Node | Le nœud à importer. |
-| isImportChildren | Boolean | True pour importer tous les nœuds enfants de manière récursive ; sinon, faux. |
-| importFormatMode | ImportFormatMode | Spécifie comment fusionner les mises en forme de style qui entrent en conflit. |
+| isImportChildren | Boolean | `vrai` pour importer tous les nœuds enfants de manière récursive ; sinon,`FAUX`. |
+| importFormatMode | ImportFormatMode | Spécifie comment fusionner le formatage de style en conflit. |
 
 ### Return_Value
 
@@ -93,11 +93,11 @@ Le nœud cloné et importé. Le nœud appartient au document de destination, mai
 
 ### Remarques
 
-Cette surcharge est utile pour contrôler la manière dont les styles et la mise en forme des listes sont importés.
+Cette surcharge est utile pour contrôler la façon dont les styles et le formatage des listes sont importés.
 
-L'importation d'un nœud crée une copie du nœud source appartenant au document d'importation. Le nœud retourné n'a pas de parent. Le nœud source n'est pas modifié ou supprimé du document d'origine.
+L'importation d'un nœud crée une copie du nœud source appartenant au document importateur. Le nœud renvoyé n'a pas de parent. Le nœud source n'est ni modifié ni supprimé du document d'origine.
 
-Avant qu'un nœud d'un autre document puisse être inséré dans ce document, il doit être importé. Lors de l'importation, les propriétés spécifiques au document telles que les références aux styles et aux listes sont traduites de l'original vers le document d'importation. Une fois le nœud importé, il peut être inséré à l'endroit approprié dans le document à l'aide de[`InsertBefore`](../../compositenode/insertbefore/) ou [`InsertAfter`](../../compositenode/insertafter/).
+Avant qu'un nœud d'un autre document puisse être inséré dans ce document, il doit être importé. Lors de l'importation, les propriétés spécifiques au document telles que les références aux styles et aux listes sont traduites de l'original vers le document d'importation. Une fois le nœud importé, il peut être inséré à l'endroit approprié dans le document en utilisantNode) ou Node).
 
 Si le nœud source appartient déjà au document de destination, alors simplement un clone profond du nœud source est créé.
 
@@ -106,8 +106,8 @@ Si le nœud source appartient déjà au document de destination, alors simplemen
 Montre comment importer un nœud du document source vers le document de destination avec des options spécifiques.
 
 ```csharp
-// Crée deux documents et ajoute un style de caractère à chaque document.
-// Configurez les styles pour qu'ils aient le même nom, mais une mise en forme de texte différente.
+// Créez deux documents et ajoutez un style de caractère à chaque document.
+// Configurez les styles pour qu'ils aient le même nom, mais un formatage de texte différent.
 Document srcDoc = new Document();
 Style srcStyle = srcDoc.Styles.Add(StyleType.Character, "My style");
 srcStyle.Font.Name = "Courier New";
@@ -124,13 +124,13 @@ dstBuilder.Writeln("Destination document text.");
 
 // Importe la section du document de destination dans le document source, provoquant une collision de noms de style.
 // Si nous utilisons des styles de destination, alors le texte source importé avec le même nom de style
-// comme texte de destination adoptera le style de destination.
+// car le texte de destination adoptera le style de destination.
 Section importedSection = (Section)dstDoc.ImportNode(srcDoc.FirstSection, true, ImportFormatMode.UseDestinationStyles);
 Assert.AreEqual(dstStyle.Font.Name, importedSection.Body.FirstParagraph.Runs[0].Font.Name);
 Assert.AreEqual(dstStyle.Name, importedSection.Body.FirstParagraph.Runs[0].Font.StyleName);
 
-// Si nous utilisons ImportFormatMode.KeepDifferentStyles, le style source est conservé,
-// et le conflit de nommage se résout en ajoutant un suffixe.
+// Si on utilise ImportFormatMode.KeepDifferentStyles, le style source est conservé,
+// et le conflit de noms est résolu en ajoutant un suffixe.
 dstDoc.ImportNode(srcDoc.FirstSection, true, ImportFormatMode.KeepDifferentStyles);
 Assert.AreEqual(dstStyle.Font.Name, dstDoc.Styles["My style"].Font.Name);
 Assert.AreEqual(srcStyle.Font.Name, dstDoc.Styles["My style_0"].Font.Name);

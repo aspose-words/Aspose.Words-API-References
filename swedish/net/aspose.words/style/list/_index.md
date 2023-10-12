@@ -3,7 +3,7 @@ title: Style.List
 second_title: Aspose.Words för .NET API Referens
 description: Style fast egendom. Hämtar listan som definierar formateringen av denna liststil.
 type: docs
-weight: 90
+weight: 100
 url: /sv/net/aspose.words/style/list/
 ---
 ## Style.List property
@@ -16,7 +16,7 @@ public List List { get; }
 
 ### Anmärkningar
 
-Den här egenskapen är endast giltig för liststilar. För andra stiltyper returnerar denna egenskap null.
+Den här egenskapen är endast giltig för liststilar. För andra stiltyper returnerar den här egenskapen`null`.
 
 ### Exempel
 
@@ -26,8 +26,8 @@ Visar hur du skapar en liststil och använder den i ett dokument.
 Document doc = new Document();
 
 // En lista låter oss organisera och dekorera uppsättningar av stycken med prefixsymboler och indrag.
-// Vi kan skapa kapslade listor genom att öka indragsnivån. 
-// Vi kan börja och avsluta en lista genom att använda en dokumentbyggares "ListFormat"-egenskap. 
+ // Vi kan skapa kapslade listor genom att öka indragsnivån.
+ // Vi kan börja och avsluta en lista genom att använda en dokumentbyggares "ListFormat"-egenskap.
 // Varje stycke som vi lägger till mellan en listas början och slutet kommer att bli ett objekt i listan.
 // Vi kan innehålla ett helt List-objekt i en stil.
 Style listStyle = doc.Styles.Add(StyleType.List, "MyListStyle");

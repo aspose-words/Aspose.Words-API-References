@@ -1,14 +1,14 @@
 ---
 title: Enum ShadowType
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Drawing.ShadowType énumération. Spécifie le type dune ombre de forme.
+description: Aspose.Words.Drawing.ShadowType énumération. Spécifie le type dombre de forme.
 type: docs
-weight: 1090
+weight: 1240
 url: /fr/net/aspose.words.drawing/shadowtype/
 ---
 ## ShadowType enumeration
 
-Spécifie le type d'une ombre de forme.
+Spécifie le type d'ombre de forme.
 
 ```csharp
 public enum ShadowType
@@ -33,29 +33,29 @@ public enum ShadowType
 | Shadow2 | `2` | Deuxième type d'ombre. |
 | Shadow20 | `20` | Vingtième type d'ombre. |
 | Shadow21 | `21` | Vingt et unième type d'ombre. |
-| Shadow22 | `22` | Vingt secondes type d'ombre. |
+| Shadow22 | `22` | Type d'ombre de vingt secondes. |
 | Shadow23 | `23` | Vingt-troisième type d'ombre. |
 | Shadow24 | `24` | Vingt-quatrième type d'ombre. |
 | Shadow25 | `25` | Vingt-cinquième type d'ombre. |
-| Shadow26 | `26` | Vingt-sixième type d'ombre. |
+| Shadow26 | `26` | Vingt sixième type d'ombre. |
 | Shadow27 | `27` | Vingt-septième type d'ombre. |
 | Shadow28 | `28` | Vingt-huitième type d'ombre. |
 | Shadow29 | `29` | Vingt-neuvième type d'ombre. |
 | Shadow3 | `3` | Troisième type d'ombre. |
 | Shadow30 | `30` | Trentième type d'ombre. |
 | Shadow31 | `31` | Trente et unième type d'ombre. |
-| Shadow32 | `32` | Trente deuxième type d'ombre. |
-| Shadow33 | `33` | Trente-troisième type d'ombre. |
+| Shadow32 | `32` | Type d'ombre de trente secondes. |
+| Shadow33 | `33` | Trente troisième type d'ombre. |
 | Shadow34 | `34` | Trente-quatrième type d'ombre. |
 | Shadow35 | `35` | Trente-cinquième type d'ombre. |
-| Shadow36 | `36` | Trente-sixième type d'ombre. |
+| Shadow36 | `36` | Trente sixième type d'ombre. |
 | Shadow37 | `37` | Trente-septième type d'ombre. |
-| Shadow38 | `38` | Trente-huitième type d'ombre. |
+| Shadow38 | `38` | Trente huitième type d'ombre. |
 | Shadow39 | `39` | Trente-neuvième type d'ombre. |
 | Shadow4 | `4` | Quatrième type d'ombre. |
 | Shadow40 | `40` | Quarantième type d'ombre. |
 | Shadow41 | `41` | Quarante et unième type d'ombre. |
-| Shadow42 | `42` | Type d'ombre quarante secondes. |
+| Shadow42 | `42` | Quarante secondes de type d'ombre. |
 | Shadow43 | `43` | Quarante troisième type d'ombre. |
 | Shadow5 | `5` | Cinquième type d'ombre. |
 | Shadow6 | `6` | Sixième type d'ombre. |
@@ -65,7 +65,22 @@ public enum ShadowType
 
 ### Remarques
 
-ShadowType n'est pas un simple attribut, mais un préréglage qui définit à la fois plusieurs attributs qui forment l' apparence de l'ombre.
+ShadowType n'est pas un simple attribut, mais un préréglage qui définit simultanément plusieurs attributs qui forment l'apparence de l'ombre .
+
+### Exemples
+
+Montre comment utiliser un formatage d’ombre pour la forme.
+
+```csharp
+Document doc = new Document(MyDir + "Shape stroke pattern border.docx");
+Shape shape = (Shape)doc.GetChildNodes(NodeType.Shape, true)[0];
+
+if (shape.ShadowFormat.Visible && shape.ShadowFormat.Type == ShadowType.Shadow2)                
+    shape.ShadowFormat.Type = ShadowType.Shadow7;
+
+if (shape.ShadowFormat.Type == ShadowType.ShadowMixed)            
+    shape.ShadowFormat.Clear();
+```
 
 ### Voir également
 

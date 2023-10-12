@@ -16,7 +16,7 @@ public override string ToString()
 
 ### Esempi
 
-Mostra come impostare una larghezza preferita per le celle della tabella.
+Mostra come impostare la larghezza preferita per le celle della tabella.
 
 ```csharp
 Document doc = new Document();
@@ -30,7 +30,7 @@ builder.CellFormat.PreferredWidth = PreferredWidth.FromPoints(40);
 builder.CellFormat.Shading.BackgroundPatternColor = Color.LightYellow;
 builder.Writeln($"Cell with a width of {builder.CellFormat.PreferredWidth}.");
 
-// 2 - Imposta una larghezza relativa preferita in base alla percentuale della larghezza della tabella:
+// 2 - Imposta una larghezza preferita relativa in base alla percentuale della larghezza della tabella:
 builder.InsertCell();
 builder.CellFormat.PreferredWidth = PreferredWidth.FromPercent(20);
 builder.CellFormat.Shading.BackgroundPatternColor = Color.LightBlue;
@@ -38,7 +38,7 @@ builder.Writeln($"Cell with a width of {builder.CellFormat.PreferredWidth}.");
 
 builder.InsertCell();
 
-// Una cella senza una larghezza preferita specificata occuperà il resto dello spazio disponibile.
+// Una cella senza larghezza preferita specificata occuperà il resto dello spazio disponibile.
 builder.CellFormat.PreferredWidth = PreferredWidth.Auto;
 
 // Ogni configurazione della proprietà "PreferredWidth" crea un nuovo oggetto.

@@ -16,7 +16,7 @@ public static PageSet Even { get; }
 
 ### Observaciones
 
-Las páginas pares tienen índices impares ya que los índices de página están basados en cero.
+Las páginas pares tienen índices impares ya que los índices de las páginas están basados en cero.
 
 ### Ver también
 

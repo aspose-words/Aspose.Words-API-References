@@ -1,14 +1,14 @@
 ---
 title: NodeRendererBase.GetBoundsInPixels
 second_title: Aspose.Words for .NET API 参考
-description: NodeRendererBase 方法. 计算指定缩放因子和分辨率的形状边界以像素为单位
+description: NodeRendererBase 方法. 计算指定缩放系数和分辨率的形状边界以像素为单位
 type: docs
 weight: 40
 url: /zh/net/aspose.words.rendering/noderendererbase/getboundsinpixels/
 ---
 ## GetBoundsInPixels(float, float) {#getboundsinpixels}
 
-计算指定缩放因子和分辨率的形状边界（以像素为单位）。
+计算指定缩放系数和分辨率的形状边界（以像素为单位）。
 
 ```csharp
 public Rectangle GetBoundsInPixels(float scale, float dpi)
@@ -21,11 +21,11 @@ public Rectangle GetBoundsInPixels(float scale, float dpi)
 
 ### 返回值
 
-形状的实际（在页面上呈现）边界框（以像素为单位）。
+形状的实际（如页面上呈现的）边界框（以像素为单位）。
 
 ### 评论
 
-该方法转换[`BoundsInPoints`](../boundsinpoints/)以像素为单位的矩形。
+这个方法转换[`BoundsInPoints`](../boundsinpoints/)成像素矩形。
 
 ### 例子
 
@@ -48,18 +48,18 @@ Assert.AreEqual(13.0f, renderer.BoundsInPoints.Height, 0.1f);
 Assert.AreEqual(119.0f, renderer.OpaqueBoundsInPoints.Width, 0.2f);
 Assert.AreEqual(14.2f, renderer.OpaqueBoundsInPoints.Height, 0.1f);
 
-// 以像素为单位获取形状大小，线性缩放到特定的 DPI。
+// 获取形状大小（以像素为单位），并线性缩放到特定 DPI。
 Rectangle bounds = renderer.GetBoundsInPixels(1.0f, 96.0f);
 
 Assert.AreEqual(159, bounds.Width);
 Assert.AreEqual(18, bounds.Height);
 
-// 以像素为单位获取形状大小，但水平和垂直尺寸使用不同的 DPI。
+// 获取形状大小（以像素为单位），但水平和垂直尺寸具有不同的 DPI。
 bounds = renderer.GetBoundsInPixels(1.0f, 96.0f, 150.0f);
 Assert.AreEqual(159, bounds.Width);
 Assert.AreEqual(28, bounds.Height);
 
-// 这里的不透明边界也可能不同。
+// 此处的不透明边界也可能有所不同。
 bounds = renderer.GetOpaqueBoundsInPixels(1.0f, 96.0f);
 
 Assert.AreEqual(159, bounds.Width);
@@ -81,7 +81,7 @@ Assert.AreEqual(30, bounds.Height);
 
 ## GetBoundsInPixels(float, float, float) {#getboundsinpixels_1}
 
-计算指定缩放因子和分辨率的形状边界（以像素为单位）。
+计算指定缩放系数和分辨率的形状边界（以像素为单位）。
 
 ```csharp
 public Rectangle GetBoundsInPixels(float scale, float horizontalDpi, float verticalDpi)
@@ -95,11 +95,11 @@ public Rectangle GetBoundsInPixels(float scale, float horizontalDpi, float verti
 
 ### 返回值
 
-形状的实际（在页面上呈现）边界框（以像素为单位）。
+形状的实际（如页面上呈现的）边界框（以像素为单位）。
 
 ### 评论
 
-该方法转换[`BoundsInPoints`](../boundsinpoints/)以像素为单位的矩形。
+这个方法转换[`BoundsInPoints`](../boundsinpoints/)成像素矩形。
 
 ### 例子
 
@@ -122,18 +122,18 @@ Assert.AreEqual(13.0f, renderer.BoundsInPoints.Height, 0.1f);
 Assert.AreEqual(119.0f, renderer.OpaqueBoundsInPoints.Width, 0.2f);
 Assert.AreEqual(14.2f, renderer.OpaqueBoundsInPoints.Height, 0.1f);
 
-// 以像素为单位获取形状大小，线性缩放到特定的 DPI。
+// 获取形状大小（以像素为单位），并线性缩放到特定 DPI。
 Rectangle bounds = renderer.GetBoundsInPixels(1.0f, 96.0f);
 
 Assert.AreEqual(159, bounds.Width);
 Assert.AreEqual(18, bounds.Height);
 
-// 以像素为单位获取形状大小，但水平和垂直尺寸使用不同的 DPI。
+// 获取形状大小（以像素为单位），但水平和垂直尺寸具有不同的 DPI。
 bounds = renderer.GetBoundsInPixels(1.0f, 96.0f, 150.0f);
 Assert.AreEqual(159, bounds.Width);
 Assert.AreEqual(28, bounds.Height);
 
-// 这里的不透明边界也可能不同。
+// 此处的不透明边界也可能有所不同。
 bounds = renderer.GetOpaqueBoundsInPixels(1.0f, 96.0f);
 
 Assert.AreEqual(159, bounds.Width);

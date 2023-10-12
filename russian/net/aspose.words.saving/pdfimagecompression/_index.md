@@ -3,7 +3,7 @@ title: Enum PdfImageCompression
 second_title: Справочник по API Aspose.Words для .NET
 description: Aspose.Words.Saving.PdfImageCompression перечисление. Указывает тип сжатия применяемый к изображениям в файле PDF.
 type: docs
-weight: 5210
+weight: 5490
 url: /ru/net/aspose.words.saving/pdfimagecompression/
 ---
 ## PdfImageCompression enumeration
@@ -19,7 +19,7 @@ public enum PdfImageCompression
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | Auto | `0` | Автоматически выбирает наиболее подходящее сжатие для каждого изображения. |
-| Jpeg | `1` | Сжатие JPEG. Не поддерживает прозрачность. |
+| Jpeg | `1` | Сжатие Jpeg. Не поддерживает прозрачность. |
 
 ### Примеры
 
@@ -35,17 +35,17 @@ builder.InsertParagraph();
 builder.Writeln("Png image:");
 builder.InsertImage(ImageDir + "Transparent background logo.png");
 
-// Создаем объект "PdfSaveOptions", который мы можем передать в метод "Сохранить" документа
-// для изменения того, как этот метод преобразует документ в .PDF.
+// Создаем объект «PdfSaveOptions», который мы можем передать методу «Save» документа.
+// чтобы изменить способ преобразования этого метода в .PDF.
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 
-// Установите для свойства "ImageCompression" значение "PdfImageCompression.Auto", чтобы использовать
+// Установите для свойства ImageCompression значение «PdfImageCompression.Auto», чтобы использовать
 // Свойство «ImageCompression» для управления качеством изображений Jpeg, которые попадают в выходной PDF-файл.
-// Установите для свойства "ImageCompression" значение "PdfImageCompression.Jpeg", чтобы использовать
-// Свойство «ImageCompression» для управления качеством всех изображений, которые попадают в выходной PDF-файл.
+// Установите для свойства «ImageCompression» значение «PdfImageCompression.Jpeg», чтобы использовать
+// Свойство «ImageCompression» для управления качеством всех изображений, попадающих в выходной PDF-файл.
 pdfSaveOptions.ImageCompression = pdfImageCompression;
 
-// Установите для свойства "JpegQuality" значение "10", чтобы усилить сжатие за счет снижения качества изображения.
+// Установите для свойства «JpegQuality» значение «10», чтобы усилить сжатие за счет качества изображения.
 pdfSaveOptions.JpegQuality = 10;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.ImageCompression.pdf", pdfSaveOptions);

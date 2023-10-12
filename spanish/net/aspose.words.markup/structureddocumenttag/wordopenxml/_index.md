@@ -16,7 +16,7 @@ public string WordOpenXML { get; }
 
 ### Ejemplos
 
-Muestra cómo obtener XML contenido dentro del nodo en el formato FlatOpc.
+Muestra cómo obtener XML contenido dentro del nodo en formato FlatOpc.
 
 ```csharp
 Document doc = new Document(MyDir + "Structured document tags.docx");

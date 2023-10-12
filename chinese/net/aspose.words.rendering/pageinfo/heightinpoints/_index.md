@@ -1,14 +1,14 @@
 ---
 title: PageInfo.HeightInPoints
 second_title: Aspose.Words for .NET API 参考
-description: PageInfo 财产. 以磅为单位获取页面高度
+description: PageInfo 财产. 获取页面的高度以磅为单位
 type: docs
-weight: 10
+weight: 20
 url: /zh/net/aspose.words.rendering/pageinfo/heightinpoints/
 ---
 ## PageInfo.HeightInPoints property
 
-以磅为单位获取页面高度。
+获取页面的高度（以磅为单位）。
 
 ```csharp
 public float HeightInPoints { get; }
@@ -16,13 +16,13 @@ public float HeightInPoints { get; }
 
 ### 例子
 
-演示如何打印 Word 文档中每一页的页面大小和方向信息。
+演示如何打印 Word 文档中每个页面的页面大小和方向信息。
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// 第一部分有 2 页。我们将为每个人分配一个不同的打印机纸盘，
-// 其编号将匹配一种纸张来源。这些来源及其种类会有所不同
+// 第一部分有 2 页。我们将为每台打印机分配一个不同的打印机纸盘，
+// 其编号将与一种纸张来源相匹配。这些来源及其种类会有所不同
 // 取决于安装的打印机驱动程序。
 PrinterSettings.PaperSourceCollection paperSources = new PrinterSettings().PaperSources;
 

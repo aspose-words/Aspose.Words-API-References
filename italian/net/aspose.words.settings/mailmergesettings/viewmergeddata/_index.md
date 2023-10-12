@@ -1,14 +1,14 @@
 ---
 title: MailMergeSettings.ViewMergedData
 second_title: Aspose.Words per .NET API Reference
-description: MailMergeSettings proprietà. Specifica che Microsoft Word visualizzerà i dati dallorigine dati esterna specificata in cui sono stati inseriti i campi di unione es. anteprima dei dati uniti. Il valore predefinito èfalso .
+description: MailMergeSettings proprietà. Specifica che Microsoft Word visualizzerà i dati dallorigine dati esterna specificata in cui sono stati inseriti i campi unione ad esempio anteprima dei dati uniti. Il valore predefinito èfalso .
 type: docs
 weight: 170
 url: /it/net/aspose.words.settings/mailmergesettings/viewmergeddata/
 ---
 ## MailMergeSettings.ViewMergedData property
 
-Specifica che Microsoft Word visualizzerà i dati dall'origine dati esterna specificata in cui sono stati inseriti i campi di unione (es. anteprima dei dati uniti). Il valore predefinito è`falso` .
+Specifica che Microsoft Word visualizzerà i dati dall'origine dati esterna specificata in cui sono stati inseriti i campi unione (ad esempio anteprima dei dati uniti). Il valore predefinito è`falso` .
 
 ```csharp
 public bool ViewMergedData { get; set; }
@@ -59,7 +59,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
-// L'apertura di questo documento in Microsoft Word eseguirà la stampa unione prima di visualizzare il contenuto. 
+ // L'apertura di questo documento in Microsoft Word eseguirà la stampa unione prima di visualizzarne il contenuto.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

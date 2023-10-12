@@ -16,7 +16,7 @@ public override FontSourceType Type { get; }
 
 ### Ejemplos
 
-Muestra cómo usar una matriz de bytes con datos de un archivo de fuente como fuente de fuente.
+Muestra cómo utilizar una matriz de bytes con datos de un archivo de fuente como fuente de fuente.
 
 ```csharp
 byte[] fontBytes = File.ReadAllBytes(MyDir + "Alte DIN 1451 Mittelschrift.ttf");

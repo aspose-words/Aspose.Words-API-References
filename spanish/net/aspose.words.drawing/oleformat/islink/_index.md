@@ -1,14 +1,14 @@
 ---
 title: OleFormat.IsLink
 second_title: Referencia de API de Aspose.Words para .NET
-description: OleFormat propiedad. Devuelve verdadero si el objeto OLE está vinculado cuandoSourceFullName se especifica.
+description: OleFormat propiedad. Devolucionesverdadero si el objeto OLE está vinculado cuandoSourceFullName se especifica.
 type: docs
 weight: 40
 url: /es/net/aspose.words.drawing/oleformat/islink/
 ---
 ## OleFormat.IsLink property
 
-Devuelve verdadero si el objeto OLE está vinculado (cuando[`SourceFullName`](../sourcefullname/) se especifica).
+Devoluciones`verdadero` si el objeto OLE está vinculado (cuando[`SourceFullName`](../sourcefullname/) se especifica).
 
 ```csharp
 public bool IsLink { get; }
@@ -22,7 +22,7 @@ Muestra cómo insertar objetos OLE vinculados y no vinculados.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Incruste un dibujo de Microsoft Visio en el documento como un objeto OLE.
+// Incrustar un dibujo de Microsoft Visio en el documento como un objeto OLE.
 builder.InsertOleObject(ImageDir + "Microsoft Visio drawing.vsd", "Package", false, false, null);
 
 // Inserte un enlace al archivo en el sistema de archivos local y muéstrelo como un icono.
@@ -53,7 +53,7 @@ Assert.AreEqual("Microsoft Visio drawing.vsd", oleFormat.IconCaption);
 
 doc.Save(ArtifactsDir + "Shape.OleLinks.docx");
 
-// Si el objeto contiene datos OLE, podemos acceder a él usando una secuencia.
+// Si el objeto contiene datos OLE, podemos acceder a él mediante una secuencia.
 using (MemoryStream stream = oleFormat.GetOleEntry("\x0001CompObj"))
 {
     byte[] oleEntryBytes = stream.ToArray();

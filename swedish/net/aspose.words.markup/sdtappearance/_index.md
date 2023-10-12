@@ -3,7 +3,7 @@ title: Enum SdtAppearance
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Markup.SdtAppearance uppräkning. Anger utseendet på en strukturerad dokumenttagg.
 type: docs
-weight: 3750
+weight: 3990
 url: /sv/net/aspose.words.markup/sdtappearance/
 ---
 ## SdtAppearance enumeration

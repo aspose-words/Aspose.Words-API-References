@@ -1,14 +1,14 @@
 ---
 title: PageSetup.Bidi
 second_title: Aspose.Words for .NET API Referansı
-description: PageSetup mülk. Bu bölümün iki yönlü karmaşık komut dosyaları metin içerdiğini belirtir.
+description: PageSetup mülk. Bu bölümün çift yönlü karmaşık komut dosyaları metin içerdiğini belirtir.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/pagesetup/bidi/
 ---
 ## PageSetup.Bidi property
 
-Bu bölümün iki yönlü (karmaşık komut dosyaları) metin içerdiğini belirtir.
+Bu bölümün çift yönlü (karmaşık komut dosyaları) metin içerdiğini belirtir.
 
 ```csharp
 public bool Bidi { get; set; }
@@ -16,7 +16,7 @@ public bool Bidi { get; set; }
 
 ### Notlar
 
-Doğru olduğunda, bu bölümdeki sütunlar sağdan sola doğru düzenlenir.
+Ne zaman`doğru`bu bölümdeki sütunlar sağdan sola doğru düzenlenmiştir.
 
 ### Örnekler
 
@@ -35,10 +35,10 @@ builder.Write("Column 2.");
 builder.InsertBreak(BreakType.ColumnBreak);
 builder.Write("Column 3.");
 
-// Sayfanın sağ tarafından başlayarak sütunları düzenlemek için "Bidi" özelliğini "true" olarak ayarlayın.
-// Sütunların sırası, sağdan sola metnin yönü ile eşleşecektir.
-// Sayfanın sol tarafından başlayarak sütunları düzenlemek için "Bidi" özelliğini "false" olarak ayarlayın.
-// Sütunların sırası, soldan sağa metnin yönü ile eşleşecektir.
+// Sütunların sayfanın sağ tarafından başlayarak düzenlenmesi için "Bidi" özelliğini "true" olarak ayarlayın.
+// Sütunların sırası sağdan sola metnin yönüyle eşleşecektir.
+// Sütunların sayfanın sol tarafından düzenlenmesi için "Bidi" özelliğini "false" olarak ayarlayın.
+// Sütunların sırası soldan sağa metnin yönüyle eşleşecektir.
 pageSetup.Bidi = reverseColumns;
 
 doc.Save(ArtifactsDir + "PageSetup.Bidi.docx");

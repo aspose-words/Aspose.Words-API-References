@@ -1,14 +1,14 @@
 ---
 title: FrameFormat.HorizontalPosition
 second_title: Aspose.Words per .NET API Reference
-description: FrameFormat proprietà. Ottiene la distanza orizzontale tra il bordo della cornice e lelemento specificato daRelativeHorizontalPosition proprietà.
+description: FrameFormat proprietà. Ottiene la distanza orizzontale tra il bordo del frame e lelemento specificato daRelativeHorizontalPosition proprietà.
 type: docs
 weight: 50
 url: /it/net/aspose.words/frameformat/horizontalposition/
 ---
 ## FrameFormat.HorizontalPosition property
 
-Ottiene la distanza orizzontale tra il bordo della cornice e l'elemento specificato da[`RelativeHorizontalPosition`](../relativehorizontalposition/) proprietà.
+Ottiene la distanza orizzontale tra il bordo del frame e l'elemento specificato da[`RelativeHorizontalPosition`](../relativehorizontalposition/) proprietà.
 
 ```csharp
 public double HorizontalPosition { get; }

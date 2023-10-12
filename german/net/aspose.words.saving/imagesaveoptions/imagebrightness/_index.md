@@ -1,14 +1,14 @@
 ---
 title: ImageSaveOptions.ImageBrightness
 second_title: Aspose.Words für .NET-API-Referenz
-description: ImageSaveOptions eigendom. Ruft die Helligkeit für die generierten Bilder ab oder setzt sie.
+description: ImageSaveOptions eigendom. Ruft die Helligkeit für die generierten Bilder ab oder legt sie fest.
 type: docs
 weight: 40
 url: /de/net/aspose.words.saving/imagesaveoptions/imagebrightness/
 ---
 ## ImageSaveOptions.ImageBrightness property
 
-Ruft die Helligkeit für die generierten Bilder ab oder setzt sie.
+Ruft die Helligkeit für die generierten Bilder ab oder legt sie fest.
 
 ```csharp
 public float ImageBrightness { get; set; }
@@ -16,13 +16,13 @@ public float ImageBrightness { get; set; }
 
 ### Bemerkungen
 
-Diese Eigenschaft wirkt sich nur beim Speichern in Rasterbildformaten aus.
+Diese Eigenschaft ist nur beim Speichern in Rasterbildformaten wirksam.
 
 Der Standardwert ist 0,5. Der Wert muss im Bereich zwischen 0 und 1 liegen.
 
 ### Beispiele
 
-Zeigt, wie das Bild bearbeitet wird, während Aspose.Words ein Dokument in eins konvertiert.
+Zeigt, wie das Bild bearbeitet wird, während Aspose.Words ein Dokument in ein Dokument konvertiert.
 
 ```csharp
 Document doc = new Document();
@@ -33,11 +33,11 @@ builder.Writeln("Hello world!");
 builder.InsertImage(ImageDir + "Logo.jpg");
 
 // Wenn wir das Dokument als Bild speichern, können wir ein SaveOptions-Objekt an übergeben
-// das Bild bearbeiten, während der Speichervorgang es rendert.
+// Bearbeiten Sie das Bild, während der Speichervorgang es rendert.
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Png)
 {
     // Wir können diese Eigenschaften anpassen, um die Helligkeit und den Kontrast des Bildes zu ändern.
-    // Beide liegen auf einer Skala von 0-1 und sind standardmäßig bei 0,5.
+    // Beide liegen auf einer Skala von 0-1 und liegen standardmäßig bei 0,5.
     ImageBrightness = 0.3f,
     ImageContrast = 0.7f,
 

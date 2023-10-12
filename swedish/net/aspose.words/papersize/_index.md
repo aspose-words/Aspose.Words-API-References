@@ -3,7 +3,7 @@ title: Enum PaperSize
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.PaperSize uppräkning. Anger pappersstorlek.
 type: docs
-weight: 4140
+weight: 4380
 url: /sv/net/aspose.words/papersize/
 ---
 ## PaperSize enumeration

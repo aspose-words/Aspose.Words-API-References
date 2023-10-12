@@ -22,7 +22,7 @@ Muestra cómo trabajar con propiedades de documentos personalizados.
 Document doc = new Document(MyDir + "Properties.docx");
 
 // Cada documento contiene una colección de propiedades personalizadas que, al igual que las propiedades integradas, son pares clave-valor.
-// El documento tiene una lista fija de propiedades integradas. El usuario crea todas las propiedades personalizadas. 
+ // El documento tiene una lista fija de propiedades integradas. El usuario crea todas las propiedades personalizadas.
 Assert.AreEqual("Value of custom document property", doc.CustomDocumentProperties["CustomProperty"].ToString());
 
 doc.CustomDocumentProperties.Add("CustomProperty2", "Value of custom document property #2");

@@ -3,7 +3,7 @@ title: ImageSaveOptions.PixelFormat
 second_title: Aspose.Words för .NET API Referens
 description: ImageSaveOptions fast egendom. Hämtar eller ställer in pixelformatet för de genererade bilderna.
 type: docs
-weight: 110
+weight: 120
 url: /sv/net/aspose.words.saving/imagesaveoptions/pixelformat/
 ---
 ## ImageSaveOptions.PixelFormat property

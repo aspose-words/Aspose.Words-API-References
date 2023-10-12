@@ -1,14 +1,14 @@
 ---
 title: HtmlFixedSaveOptions.PageHorizontalAlignment
 second_title: Aspose.Words für .NET-API-Referenz
-description: HtmlFixedSaveOptions eigendom. Gibt die horizontale Ausrichtung von Seiten in einem HTMLDokument an. Standardwert istHtmlFixedHorizontalPageAlignment.Center .
+description: HtmlFixedSaveOptions eigendom. Gibt die horizontale Ausrichtung von Seiten in einem HTMLDokument an. Der Standardwert istCenter .
 type: docs
 weight: 110
 url: /de/net/aspose.words.saving/htmlfixedsaveoptions/pagehorizontalalignment/
 ---
 ## HtmlFixedSaveOptions.PageHorizontalAlignment property
 
-Gibt die horizontale Ausrichtung von Seiten in einem HTML-Dokument an. Standardwert ist`HtmlFixedHorizontalPageAlignment.Center` .
+Gibt die horizontale Ausrichtung von Seiten in einem HTML-Dokument an. Der Standardwert istCenter .
 
 ```csharp
 public HtmlFixedPageHorizontalAlignment PageHorizontalAlignment { get; set; }
@@ -16,7 +16,7 @@ public HtmlFixedPageHorizontalAlignment PageHorizontalAlignment { get; set; }
 
 ### Beispiele
 
-Zeigt, wie die horizontale Ausrichtung von Seiten beim Speichern eines Dokuments in HTML festgelegt wird.
+Zeigt, wie die horizontale Ausrichtung von Seiten beim Speichern eines Dokuments im HTML-Format festgelegt wird.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

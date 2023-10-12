@@ -1,14 +1,16 @@
 ---
 title: Class ConditionalStyle
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.ConditionalStyle classe. Représente une mise en forme spéciale appliquée à une zone dun tableau avec un style de tableau attribué.
+description: Aspose.Words.ConditionalStyle classe. Représente une mise en forme spéciale appliquée à certaines zones dun tableau avec un style de tableau attribué.
 type: docs
-weight: 300
+weight: 310
 url: /fr/net/aspose.words/conditionalstyle/
 ---
 ## ConditionalStyle class
 
-Représente une mise en forme spéciale appliquée à une zone d'un tableau avec un style de tableau attribué.
+Représente une mise en forme spéciale appliquée à certaines zones d'un tableau avec un style de tableau attribué.
+
+Pour en savoir plus, visitez le[Travailler avec des tableaux](https://docs.aspose.com/words/net/working-with-tables/) article documentaire.
 
 ```csharp
 public sealed class ConditionalStyle
@@ -18,13 +20,13 @@ public sealed class ConditionalStyle
 
 | Nom | La description |
 | --- | --- |
-| [Borders](../../aspose.words/conditionalstyle/borders/) { get; } | Obtient la collection de bordures de cellule par défaut pour le style conditionnel. |
+| [Borders](../../aspose.words/conditionalstyle/borders/) { get; } | Obtient la collection de bordures de cellules par défaut pour le style conditionnel. |
 | [BottomPadding](../../aspose.words/conditionalstyle/bottompadding/) { get; set; } | Obtient ou définit la quantité d'espace (en points) à ajouter sous le contenu des cellules du tableau. |
-| [Font](../../aspose.words/conditionalstyle/font/) { get; } | Obtient la mise en forme des caractères du style conditionnel. |
+| [Font](../../aspose.words/conditionalstyle/font/) { get; } | Obtient le formatage des caractères du style conditionnel. |
 | [LeftPadding](../../aspose.words/conditionalstyle/leftpadding/) { get; set; } | Obtient ou définit la quantité d'espace (en points) à ajouter à gauche du contenu des cellules du tableau. |
-| [ParagraphFormat](../../aspose.words/conditionalstyle/paragraphformat/) { get; } | Obtient la mise en forme de paragraphe du style conditionnel. |
+| [ParagraphFormat](../../aspose.words/conditionalstyle/paragraphformat/) { get; } | Obtient la mise en forme du paragraphe du style conditionnel. |
 | [RightPadding](../../aspose.words/conditionalstyle/rightpadding/) { get; set; } | Obtient ou définit la quantité d'espace (en points) à ajouter à droite du contenu des cellules du tableau. |
-| [Shading](../../aspose.words/conditionalstyle/shading/) { get; } | Obtient un[`Shading`](../shading/) objet qui fait référence à la mise en forme d'ombrage pour ce style conditionnel. |
+| [Shading](../../aspose.words/conditionalstyle/shading/) { get; } | Obtient un[`Shading`](../shading/) objet qui fait référence au formatage d'ombrage pour ce style conditionnel. |
 | [TopPadding](../../aspose.words/conditionalstyle/toppadding/) { get; set; } | Obtient ou définit la quantité d'espace (en points) à ajouter au-dessus du contenu des cellules du tableau. |
 | [Type](../../aspose.words/conditionalstyle/type/) { get; } | Obtient la zone de tableau à laquelle ce style conditionnel se rapporte. |
 
@@ -32,13 +34,13 @@ public sealed class ConditionalStyle
 
 | Nom | La description |
 | --- | --- |
-| [ClearFormatting](../../aspose.words/conditionalstyle/clearformatting/)() | Efface la mise en forme de ce style conditionnel. |
-| override [Equals](../../aspose.words/conditionalstyle/equals/)(object) |  |
+| [ClearFormatting](../../aspose.words/conditionalstyle/clearformatting/)() | Efface le formatage de ce style conditionnel. |
+| override [Equals](../../aspose.words/conditionalstyle/equals/)(object) | Compare ce style conditionnel avec l'objet spécifié. |
 | override [GetHashCode](../../aspose.words/conditionalstyle/gethashcode/)() | Calcule le code de hachage pour cet objet. |
 
 ### Exemples
 
-Montre comment travailler avec certains styles de zone d'un tableau.
+Montre comment travailler avec certains styles de zones d'un tableau.
 
 ```csharp
 Document doc = new Document();
@@ -59,10 +61,10 @@ builder.EndTable();
 // Crée un style de tableau personnalisé.
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 
-// Les styles conditionnels sont des changements de mise en forme qui n'affectent que certaines cellules du tableau
-// basé sur un prédicat, tel que les cellules se trouvant dans la dernière ligne.
-// Vous trouverez ci-dessous trois façons d'accéder aux styles conditionnels d'un style de tableau à partir de la collection "ConditionalStyles".
-// 1 - Par type de style :
+// Les styles conditionnels sont des modifications de formatage qui n'affectent que certaines cellules du tableau
+// basé sur un prédicat, tel que les cellules de la dernière ligne.
+// Vous trouverez ci-dessous trois manières d'accéder aux styles conditionnels d'un style de tableau à partir de la collection "ConditionalStyles".
+// 1 - Par type de style :
 tableStyle.ConditionalStyles[ConditionalStyleType.FirstRow].Shading.BackgroundPatternColor = Color.AliceBlue;
 
 // 2 - Par index :
@@ -70,10 +72,10 @@ tableStyle.ConditionalStyles[0].Borders.Color = Color.Black;
 tableStyle.ConditionalStyles[0].Borders.LineStyle = LineStyle.DotDash;
 Assert.AreEqual(ConditionalStyleType.FirstRow, tableStyle.ConditionalStyles[0].Type);
 
-// 3 - En tant que propriété :
+// 3 - En propriété :
 tableStyle.ConditionalStyles.FirstRow.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
-// Appliquez le rembourrage et la mise en forme du texte aux styles conditionnels.
+// Applique un remplissage et un formatage de texte aux styles conditionnels.
 tableStyle.ConditionalStyles.LastRow.BottomPadding = 10;
 tableStyle.ConditionalStyles.LastRow.LeftPadding = 10;
 tableStyle.ConditionalStyles.LastRow.RightPadding = 10;

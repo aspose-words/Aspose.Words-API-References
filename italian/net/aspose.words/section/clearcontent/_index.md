@@ -3,7 +3,7 @@ title: Section.ClearContent
 second_title: Aspose.Words per .NET API Reference
 description: Section metodo. Cancella la sezione.
 type: docs
-weight: 90
+weight: 110
 url: /it/net/aspose.words/section/clearcontent/
 ---
 ## Section.ClearContent method
@@ -16,7 +16,7 @@ public void ClearContent()
 
 ### Osservazioni
 
-Il testo di[`Body`](../body/) è deselezionato, rimane solo un paragrafo vuoto che rappresenta l'interruzione di sezione.
+Il testo di[`Body`](../body/) viene cancellato, rimane solo un paragrafo vuoto che rappresenta l'interruzione di sezione.
 
 Il testo di tutte le intestazioni e piè di pagina viene cancellato, ma[`HeaderFooter`](../../headerfooter/) gli oggetti stessi non vengono rimossi.
 
@@ -33,8 +33,8 @@ builder.Write("Hello world!");
 Assert.AreEqual("Hello world!", doc.GetText().Trim());
 Assert.AreEqual(1, doc.FirstSection.Body.Paragraphs.Count);
 
-// L'esecuzione del metodo "ClearContent" rimuoverà tutti i contenuti della sezione
-// ma lascia un paragrafo vuoto per aggiungere nuovamente il contenuto.
+// L'esecuzione del metodo "ClearContent" rimuoverà tutto il contenuto della sezione
+// ma lascia un paragrafo vuoto per aggiungere nuovamente contenuto.
 doc.FirstSection.ClearContent();
 
 Assert.AreEqual(string.Empty, doc.GetText().Trim());

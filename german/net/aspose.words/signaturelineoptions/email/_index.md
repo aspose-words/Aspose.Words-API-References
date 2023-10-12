@@ -1,14 +1,14 @@
 ---
 title: SignatureLineOptions.Email
 second_title: Aspose.Words für .NET-API-Referenz
-description: SignatureLineOptions eigendom. Ruft die EMailAdresse des vorgeschlagenen Unterzeichners ab oder legt sie fest. Der Standardwert für diese Eigenschaft ist leerer String Empty .
+description: SignatureLineOptions eigendom. Ruft die EMailAdresse des vorgeschlagenen Unterzeichners ab oder legt diese fest. Der Standardwert für diese Eigenschaft ist leerer String Empty.
 type: docs
 weight: 40
 url: /de/net/aspose.words/signaturelineoptions/email/
 ---
 ## SignatureLineOptions.Email property
 
-Ruft die E-Mail-Adresse des vorgeschlagenen Unterzeichners ab oder legt sie fest. Der Standardwert für diese Eigenschaft ist **leerer String** (Empty ).
+Ruft die E-Mail-Adresse des vorgeschlagenen Unterzeichners ab oder legt diese fest. Der Standardwert für diese Eigenschaft ist **leerer String** (Empty).
 
 ```csharp
 public string Email { get; set; }
@@ -16,7 +16,7 @@ public string Email { get; set; }
 
 ### Beispiele
 
-Zeigt, wie ein Dokument mit einem persönlichen Zertifikat und einer Signaturzeile signiert wird.
+Zeigt, wie man ein Dokument mit einem persönlichen Zertifikat und einer Signaturzeile signiert.
 
 ```csharp
 Document doc = new Document();
@@ -54,7 +54,7 @@ CertificateHolder certHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "a
 DigitalSignatureUtil.Sign(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.docx", 
     ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
 
-// Öffnen Sie unser gespeichertes Dokument erneut und überprüfen Sie, ob die Eigenschaften "IsSigned" und "IsValid" beide gleich "true" sind,
+// Öffnen Sie unser gespeichertes Dokument erneut und überprüfen Sie, ob die Eigenschaften „IsSigned“ und „IsValid“ beide den Wert „true“ haben.
 // zeigt an, dass die Signaturzeile eine Signatur enthält.
 doc = new Document(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);

@@ -19,6 +19,7 @@ public string EntrySeparator { get; set; }
 Visar hur man bygger och anpassar en tabell över myndigheter med hjälp av TOA- och TA-fält.
 
 ```csharp
+public void FieldTOA()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -119,6 +120,7 @@ Visar hur man bygger och anpassar en tabell över myndigheter med hjälp av TOA-
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.TOA.TA.docx");
+}
 
 private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCategory, string longCitation)
 {

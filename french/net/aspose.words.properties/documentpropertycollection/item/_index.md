@@ -16,15 +16,15 @@ public virtual DocumentProperty this[string name] { get; }
 
 | Paramètre | La description |
 | --- | --- |
-| name | Nom non sensible à la casse de la propriété à récupérer. |
+| name | Le nom insensible à la casse de la propriété à récupérer. |
 
 ### Remarques
 
-Renvoie null si une propriété portant le nom spécifié est introuvable.
+Retour`nul` si une propriété portant le nom spécifié n'est pas trouvée.
 
 ### Exemples
 
-Montre comment créer une propriété de document personnalisée qui contient une date et une heure.
+Montre comment créer une propriété de document personnalisée contenant une date et une heure.
 
 ```csharp
 Document doc = new Document();
@@ -63,7 +63,7 @@ Montre comment utiliser les propriétés de document personnalisées.
 Document doc = new Document(MyDir + "Properties.docx");
 
 // Chaque document contient une collection de propriétés personnalisées qui, comme les propriétés intégrées, sont des paires clé-valeur.
-// Le document a une liste fixe de propriétés intégrées. L'utilisateur crée toutes les propriétés personnalisées. 
+ // Le document a une liste fixe de propriétés intégrées. L'utilisateur crée toutes les propriétés personnalisées.
 Assert.AreEqual("Value of custom document property", doc.CustomDocumentProperties["CustomProperty"].ToString());
 
 doc.CustomDocumentProperties.Add("CustomProperty2", "Value of custom document property #2");

@@ -3,12 +3,14 @@ title: Class PageLayoutCallbackArgs
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.Layout.PageLayoutCallbackArgs classe. Un argument passé dansNotify
 type: docs
-weight: 3160
+weight: 3360
 url: /fr/net/aspose.words.layout/pagelayoutcallbackargs/
 ---
 ## PageLayoutCallbackArgs class
 
 Un argument passé dans[`Notify`](../ipagelayoutcallback/notify/)
+
+Pour en savoir plus, visitez le[Conversion au format de page fixe](https://docs.aspose.com/words/net/converting-to-fixed-page-format/) article documentaire.
 
 ```csharp
 public class PageLayoutCallbackArgs

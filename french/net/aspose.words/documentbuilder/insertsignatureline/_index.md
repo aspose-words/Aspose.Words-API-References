@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertSignatureLine
 second_title: Référence de l'API Aspose.Words pour .NET
 description: DocumentBuilder méthode. Insère une ligne de signature à la position actuelle.
 type: docs
-weight: 420
+weight: 450
 url: /fr/net/aspose.words/documentbuilder/insertsignatureline/
 ---
 ## InsertSignatureLine(SignatureLineOptions) {#insertsignatureline}
@@ -20,7 +20,7 @@ public Shape InsertSignatureLine(SignatureLineOptions signatureLineOptions)
 
 ### Return_Value
 
-Le nœud de la ligne de signature qui vient d'être inséré.
+Le nœud de ligne de signature qui vient d'être inséré.
 
 ### Exemples
 
@@ -62,7 +62,7 @@ CertificateHolder certHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "a
 DigitalSignatureUtil.Sign(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.docx", 
     ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
 
-// Rouvrez notre document enregistré et vérifiez que les propriétés "IsSigned" et "IsValid" sont toutes les deux égales à "true",
+// Rouvrez notre document enregistré et vérifiez que les propriétés "IsSigned" et "IsValid" sont toutes deux égales à "true",
 // indiquant que la ligne de signature contient une signature.
 doc = new Document(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
@@ -95,15 +95,15 @@ public Shape InsertSignatureLine(SignatureLineOptions signatureLineOptions,
 | Paramètre | Taper | La description |
 | --- | --- | --- |
 | signatureLineOptions | SignatureLineOptions | L'objet qui stocke les paramètres de création de la ligne de signature. |
-| horzPos | RelativeHorizontalPosition | Spécifie l'endroit à partir duquel la distance à la ligne de signature est mesurée. |
-| left | Double | Distance en points entre l'origine et le côté gauche de la ligne de signature. |
-| vertPos | RelativeVerticalPosition | Spécifie d'où est mesurée la distance à la ligne de signature. |
-| top | Double | Distance en points entre l'origine et le côté supérieur de la ligne de signature. |
-| wrapType | WrapType | Spécifie comment habiller le texte autour de la ligne de signature. |
+| horzPos | RelativeHorizontalPosition | Spécifie l'endroit à partir duquel la distance jusqu'à la ligne de signature est mesurée. |
+| left | Double | Distance en points depuis l'origine jusqu'au côté gauche de la ligne de signature. |
+| vertPos | RelativeVerticalPosition | Spécifie l'endroit à partir duquel la distance jusqu'à la ligne de signature est mesurée. |
+| top | Double | Distance en points depuis l'origine jusqu'au côté supérieur de la ligne de signature. |
+| wrapType | WrapType | Spécifie comment enrouler le texte autour de la ligne de signature. |
 
 ### Return_Value
 
-Le nœud de la ligne de signature qui vient d'être inséré.
+Le nœud de ligne de signature qui vient d'être inséré.
 
 ### Remarques
 

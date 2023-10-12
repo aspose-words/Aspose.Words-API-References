@@ -1,14 +1,14 @@
 ---
 title: Font.NameBi
 second_title: Aspose.Words for .NET API Referansı
-description: Font mülk. Sağdan sola yazılan bir dil belgesinde yazı tipinin adını döndürür veya ayarlar.
+description: Font mülk. Sağdan sola yazılan bir dil belgesindeki yazı tipinin adını döndürür veya ayarlar.
 type: docs
 weight: 250
 url: /tr/net/aspose.words/font/namebi/
 ---
 ## Font.NameBi property
 
-Sağdan sola yazılan bir dil belgesinde yazı tipinin adını döndürür veya ayarlar.
+Sağdan sola yazılan bir dil belgesindeki yazı tipinin adını döndürür veya ayarlar.
 
 ```csharp
 public string NameBi { get; set; }
@@ -36,14 +36,14 @@ builder.Font.ItalicBi = true;
 builder.Font.BoldBi = true;
 builder.Font.LocaleIdBi = new CultureInfo("ar-AR", false).LCID;
 
-// Eklemek üzere olduğumuz metnin olup olmadığını belirtmek için Bidi bayrağını kullanabiliriz
-// belge oluşturucu ile sağdan sola. Bu bayrak true olarak ayarlanmış şekilde metin eklediğimizde,
-// sağdan sola yazı tipi ayarları kümesi kullanılarak biçimlendirilecektir.
+// Eklemek üzere olduğumuz metnin olup olmadığını belirtmek için Bidi bayrağını kullanabiliriz.
+// belge oluşturucu ile sağdan soladır. Bu bayrak true olarak ayarlanmış şekilde metin eklediğimizde,
+// sağdan sola yazı tipi ayarları kullanılarak biçimlendirilecektir.
 builder.Font.Bidi = true;
 builder.Write("مرحبًا");
 
-// Bayrağı false olarak ayarlayın ve ardından soldan sağa metin ekleyin.
-// Belge oluşturucu, bunları soldan sağa yazı tipi ayarları kümesini kullanarak biçimlendirir.
+// Bayrağı false olarak ayarlayın ve ardından soldan sağa metni ekleyin.
+// Belge oluşturucu bunları soldan sağa yazı tipi ayarlarını kullanarak biçimlendirecektir.
 builder.Font.Bidi = false;
 builder.Write(" Hello world!");
 

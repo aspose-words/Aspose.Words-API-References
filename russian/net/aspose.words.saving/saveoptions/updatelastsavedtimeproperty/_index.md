@@ -1,14 +1,14 @@
 ---
 title: SaveOptions.UpdateLastSavedTimeProperty
 second_title: Справочник по API Aspose.Words для .NET
-description: SaveOptions свойство. Получает или задает значение определяющееLastSavedTime свойство обновляется перед сохранением.
+description: SaveOptions свойство. Получает или задает значение определяющее будет лиLastSavedTime свойство обновляется перед сохранением.
 type: docs
-weight: 190
+weight: 180
 url: /ru/net/aspose.words.saving/saveoptions/updatelastsavedtimeproperty/
 ---
 ## SaveOptions.UpdateLastSavedTimeProperty property
 
-Получает или задает значение, определяющее,[`LastSavedTime`](../../../aspose.words.properties/builtindocumentproperties/lastsavedtime/) свойство обновляется перед сохранением.
+Получает или задает значение, определяющее, будет ли[`LastSavedTime`](../../../aspose.words.properties/builtindocumentproperties/lastsavedtime/) свойство обновляется перед сохранением.
 
 ```csharp
 public bool UpdateLastSavedTimeProperty { get; set; }
@@ -25,11 +25,11 @@ Assert.AreEqual(new DateTime(2021, 5, 11, 6, 32, 0),
     doc.BuiltInDocumentProperties.LastSavedTime);
 
 // Когда мы сохраняем документ в формате OOXML, мы можем создать объект OoxmlSaveOptions
-// и затем передаем его в метод сохранения документа, чтобы изменить способ сохранения документа.
+// а затем передаем его методу сохранения документа, чтобы изменить способ сохранения документа.
 // Установите для свойства «UpdateLastSavedTimeProperty» значение «true», чтобы
-// установить встроенное свойство выходного документа «Время последнего сохранения» на текущую дату/время.
-// Установите для свойства "UpdateLastSavedTimeProperty" значение "false", чтобы
-// сохранить исходное значение встроенного свойства входного документа "Время последнего сохранения".
+// устанавливаем встроенное свойство выходного документа «Время последнего сохранения» в текущую дату/время.
+// Установите для свойства «UpdateLastSavedTimeProperty» значение «false», чтобы
+// сохраняем исходное значение встроенного свойства входного документа «Время последнего сохранения».
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
 saveOptions.UpdateLastSavedTimeProperty = updateLastSavedTimeProperty;
 

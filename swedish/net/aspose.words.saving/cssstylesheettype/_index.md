@@ -3,7 +3,7 @@ title: Enum CssStyleSheetType
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Saving.CssStyleSheetType uppräkning. Anger hur CSSstilar Cascading Style Sheet exporteras till HTML.
 type: docs
-weight: 4630
+weight: 4890
 url: /sv/net/aspose.words.saving/cssstylesheettype/
 ---
 ## CssStyleSheetType enumeration

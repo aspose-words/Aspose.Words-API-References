@@ -1,14 +1,14 @@
 ---
 title: ImageSavingArgs.ImageStream
 second_title: Aspose.Words per .NET API Reference
-description: ImageSavingArgs proprietà. Consente di specificare lo stream in cui verrà salvata limmagine.
+description: ImageSavingArgs proprietà. Permette di specificare lo stream in cui verrà salvata limmagine.
 type: docs
 weight: 40
 url: /it/net/aspose.words.saving/imagesavingargs/imagestream/
 ---
 ## ImageSavingArgs.ImageStream property
 
-Consente di specificare lo stream in cui verrà salvata l'immagine.
+Permette di specificare lo stream in cui verrà salvata l'immagine.
 
 ```csharp
 public Stream ImageStream { get; set; }
@@ -16,17 +16,18 @@ public Stream ImageStream { get; set; }
 
 ### Osservazioni
 
-Questa proprietà consente di salvare le immagini negli stream anziché nei file durante l'HTML.
+Questa proprietà consente di salvare immagini in flussi anziché in file durante l'HTML.
 
-Il valore predefinito è`nullo` . Quando questa proprietà è`nullo` , l'immagine verrà salvata in un file specificato in[`ImageFileName`](../imagefilename/) proprietà.
+Il valore predefinito è`nullo` . Quando questa proprietà è`nullo` , l'immagine verrà salvata in un file specificato nel file[`ImageFileName`](../imagefilename/) proprietà.
 
-Usando[`IImageSavingCallback`](../../iimagesavingcallback/) non puoi sostituire un'immagine con un'altra. È inteso solo per controllare la posizione in cui salvare le immagini.
+Utilizzando[`IImageSavingCallback`](../../iimagesavingcallback/) non puoi sostituire un'immagine con un'altra. È inteso solo per il controllo sulla posizione in cui salvare le immagini.
 
 ### Esempi
 
-Mostra come coinvolgere un callback per il salvataggio di immagini in un processo di conversione HTML.
+Mostra come coinvolgere un callback per il salvataggio dell'immagine in un processo di conversione HTML.
 
 ```csharp
+public void ImageSavingCallback()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
@@ -39,7 +40,7 @@ Mostra come coinvolgere un callback per il salvataggio di immagini in un process
 }
 
 /// <summary>
-/// Stampa le proprietà di ciascuna immagine mentre il processo di salvataggio la salva in un file immagine nel file system locale
+/// Stampa le proprietà di ciascuna immagine mentre il processo di salvataggio la salva in un file di immagine nel file system locale
 /// durante l'esportazione di un documento in HTML.
 /// </summary>
 private class ImageShapePrinter : IImageSavingCallback

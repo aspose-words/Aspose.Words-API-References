@@ -1,14 +1,14 @@
 ---
 title: HtmlLoadOptions.SupportVml
 second_title: Aspose.Words for .NET API Referansı
-description: HtmlLoadOptions mülk. VML görüntülerinin desteklenip desteklenmediğini belirten bir değer alır veya ayarlar.
+description: HtmlLoadOptions mülk. VML görüntülerinin desteklenip desteklenmeyeceğini belirten bir değer alır veya ayarlar.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.loading/htmlloadoptions/supportvml/
 ---
 ## HtmlLoadOptions.SupportVml property
 
-VML görüntülerinin desteklenip desteklenmediğini belirten bir değer alır veya ayarlar.
+VML görüntülerinin desteklenip desteklenmeyeceğini belirten bir değer alır veya ayarlar.
 
 ```csharp
 public bool SupportVml { get; set; }
@@ -21,13 +21,13 @@ Bir HTML belgesi yüklenirken koşullu yorumların nasıl destekleneceğini gös
 ```csharp
 HtmlLoadOptions loadOptions = new HtmlLoadOptions();
 
-// Değer true ise yüklenen belgeyi ayrıştırırken VML kodunu dikkate alıyoruz.
+// Değer doğruysa yüklenen belgeyi ayrıştırırken VML kodunu dikkate alırız.
 loadOptions.SupportVml = supportVml;
 
-// Bu belge, "<!--[if gte vml 1]>" içinde bir JPEG resmi içeriyor etiketler,
-// ve "<![if !vml]>" içinde farklı bir PNG resmi etiketler.
+// Bu belge "<!--[if gte vml 1]>" içinde bir JPEG resmi içeriyor etiketler,
+// ve "<![if !vml]>" içinde farklı bir PNG resmi Etiketler.
 // "SupportVml" bayrağını "true" olarak ayarlarsak Aspose.Words JPEG'i yükleyecektir.
-// Bu bayrağı "false" olarak ayarlarsak Aspose.Words sadece PNG'yi yükler.
+// Bu bayrağı "false" olarak ayarlarsak Aspose.Words yalnızca PNG'yi yükleyecektir.
 Document doc = new Document(MyDir + "VML conditional.htm", loadOptions);
 
 if (supportVml)

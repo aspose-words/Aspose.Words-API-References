@@ -3,7 +3,7 @@ title: Paragraph.GetEffectiveTabStops
 second_title: Aspose.Words för .NET API Referens
 description: Paragraph metod. Returnerar array av alla tabbstopp som tillämpas på detta stycke inklusive applicerade indirekt av stilar eller listor.
 type: docs
-weight: 250
+weight: 270
 url: /sv/net/aspose.words/paragraph/geteffectivetabstops/
 ---
 ## Paragraph.GetEffectiveTabStops method

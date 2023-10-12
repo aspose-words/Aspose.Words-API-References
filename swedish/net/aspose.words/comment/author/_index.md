@@ -16,7 +16,7 @@ public string Author { get; set; }
 
 ### Anmärkningar
 
-Kan inte vara null.
+Kan inte vara`null`.
 
 Standard är tom sträng.
 
@@ -28,7 +28,6 @@ Visar hur du skriver ut alla kommentarer i ett dokument och deras svar.
 Document doc = new Document(MyDir + "Comments.docx");
 
 NodeCollection comments = doc.GetChildNodes(NodeType.Comment, true);
-
 // Om en kommentar inte har någon förfader är den en kommentar på "toppnivå" i motsats till en kommentar av typen svar.
 // Skriv ut alla kommentarer på toppnivå tillsammans med eventuella svar de kan ha.
 foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == null))

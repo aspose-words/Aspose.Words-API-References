@@ -1,14 +1,14 @@
 ---
 title: Stroke.On
 second_title: Referencia de API de Aspose.Words para .NET
-description: Stroke propiedad. Define si se trazará el trazado.
+description: Stroke propiedad. Define si se trazará el camino.
 type: docs
-weight: 130
+weight: 150
 url: /es/net/aspose.words.drawing/stroke/on/
 ---
 ## Stroke.On property
 
-Define si se trazará el trazado.
+Define si se trazará el camino.
 
 ```csharp
 public bool On { get; set; }
@@ -16,7 +16,7 @@ public bool On { get; set; }
 
 ### Observaciones
 
-El valor predeterminado para un[`Shape`](../../shape/) es **verdadero**.
+El valor predeterminado para un[`Shape`](../../shape/) es`verdadero`.
 
 ### Ejemplos
 
@@ -43,6 +43,7 @@ stroke.DashStyle = DashStyle.ShortDashDotDot;
 stroke.JoinStyle = JoinStyle.Miter;
 stroke.EndCap = EndCap.Square;
 stroke.LineStyle = ShapeLineStyle.Triple;
+stroke.Fill.TwoColorGradient(Color.Red, Color.Blue, GradientStyle.Vertical, GradientVariant.Variant1);
 
 doc.Save(ArtifactsDir + "Shape.Stroke.docx");
 ```

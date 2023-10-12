@@ -1,16 +1,16 @@
 ---
 title: RtfLoadOptions.RecognizeUtf8Text
 second_title: Referencia de API de Aspose.Words para .NET
-description: RtfLoadOptions propiedad. Cuando se establece en verdaderoCharsetDetectorintentará detectar caracteres UTF8 se conservarán durante la importación.
+description: RtfLoadOptions propiedad. Cuando se establece enverdadero CharsetDetector intentará detectar caracteres UTF8 se conservarán durante la importación.
 type: docs
 weight: 20
 url: /es/net/aspose.words.loading/rtfloadoptions/recognizeutf8text/
 ---
 ## RtfLoadOptions.RecognizeUtf8Text property
 
-Cuando se establece en verdadero,CharsetDetectorintentará detectar caracteres UTF8, se conservarán durante la importación.
+Cuando se establece en`verdadero` ,CharsetDetector intentará detectar caracteres UTF8, se conservarán durante la importación.
 
-El valor predeterminado es falso.
+El valor predeterminado es`FALSO` .
 
 ```csharp
 public bool RecognizeUtf8Text { get; set; }
@@ -18,15 +18,15 @@ public bool RecognizeUtf8Text { get; set; }
 
 ### Ejemplos
 
-Muestra cómo detectar caracteres UTF-8 al cargar un documento RTF.
+Muestra cómo detectar caracteres UTF-8 mientras se carga un documento RTF.
 
 ```csharp
-// Crear un objeto "RtfLoadOptions" para modificar cómo cargamos un documento RTF.
+// Crea un objeto "RtfLoadOptions" para modificar cómo cargamos un documento RTF.
 RtfLoadOptions loadOptions = new RtfLoadOptions();
 
-// Establezca la propiedad "RecognizeUtf8Text" en "false" para asumir que el documento usa el juego de caracteres ISO 8859-1
+// Establece la propiedad "RecognizeUtf8Text" en "false" para asumir que el documento utiliza el juego de caracteres ISO 8859-1
 // y carga todos los caracteres del documento.
-// Establezca la propiedad "RecognizeUtf8Text" en "true" para analizar cualquier carácter de longitud variable que pueda aparecer en el texto.
+// Establece la propiedad "RecognizeUtf8Text" en "true" para analizar cualquier carácter de longitud variable que pueda aparecer en el texto.
 loadOptions.RecognizeUtf8Text = recognizeUtf8Text;
 
 Document doc = new Document(MyDir + "UTF-8 characters.rtf", loadOptions);

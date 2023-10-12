@@ -1,14 +1,14 @@
 ---
 title: ChartLegend.Position
 second_title: Aspose.Words for .NET API Referansı
-description: ChartLegend mülk. Göstergenin bir grafikteki konumunu belirtir. Varsayılan değerRight .
+description: ChartLegend mülk. Göstergenin grafikteki konumunu belirtir. Varsayılan değerRight .
 type: docs
 weight: 30
 url: /tr/net/aspose.words.drawing.charts/chartlegend/position/
 ---
 ## ChartLegend.Position property
 
-Göstergenin bir grafikteki konumunu belirtir. Varsayılan değerRight .
+Göstergenin grafikteki konumunu belirtir. Varsayılan değer:Right .
 
 ```csharp
 public LegendPosition Position { get; set; }
@@ -30,11 +30,11 @@ Assert.AreEqual("Series 1", chart.Series[0].Name);
 Assert.AreEqual("Series 2", chart.Series[1].Name);
 Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-// Grafiğin lejandını sağ üst köşeye taşıyın.
+// Grafiğin açıklamasını sağ üst köşeye taşıyın.
 ChartLegend legend = chart.Legend;
 legend.Position = LegendPosition.TopRight;
 
-// Grafik gibi diğer grafik öğelerine lejandla örtüşmelerine izin vererek daha fazla alan verin.
+// Grafik gibi diğer grafik öğelerinin göstergeyle örtüşmesine izin vererek daha fazla alan verin.
 legend.Overlay = true;
 
 doc.Save(ArtifactsDir + "Charts.ChartLegend.docx");

@@ -1,14 +1,14 @@
 ---
 title: Paragraph.Paragraph
 second_title: Aspose.Words لمراجع .NET API
-description: Paragraph البناء. يقوم بتهيئة مثيل جديد لملف فقرة فئة .
+description: Paragraph البناء. تهيئة مثيل جديد لـParagraph فئة.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/paragraph/paragraph/
 ---
 ## Paragraph constructor
 
-يقوم بتهيئة مثيل جديد لملف **فقرة** فئة .
+تهيئة مثيل جديد لـ[`Paragraph`](../) فئة.
 
 ```csharp
 public Paragraph(DocumentBase doc)
@@ -20,9 +20,9 @@ public Paragraph(DocumentBase doc)
 
 ### ملاحظات
 
-متي **فقرة** تم إنشاؤه ، فهو ينتمي إلى المستند المحدد ، ولكنه ليس بعد جزءًا من المستند و **عقدة الأم** باطل.
+متى[`Paragraph`](../) تم إنشاؤه، فهو ينتمي إلى المستند المحدد، ولكنه ليس بعد جزءًا من المستند و[`ParentNode`](../../node/parentnode/) يكون`باطل`.
 
-لإلحاق **فقرة** في المستند ، استخدم InsertAfter أو InsertBefore في المجموعة النصية حيث تريد إدراج الفقرة.
+لإلحاق[`Paragraph`](../) لاستخدام الوثيقةNode) أوNode) في القصة حيث تريد إدراج الفقرة.
 
 ### أمثلة
 
@@ -31,27 +31,27 @@ public Paragraph(DocumentBase doc)
 ```csharp
 Document doc = new Document();
 
-// يحتوي المستند الفارغ على قسم واحد وجسم واحد وفقرة واحدة.
-// اتصل بطريقة "RemoveAllChildren" لإزالة كل هذه العقد ،
-// وتنتهي بعقدة مستند بدون توابع.
+// يحتوي المستند الفارغ على قسم واحد ونص واحد وفقرة واحدة.
+// اتصل بالطريقة "RemoveAllChildren" لإزالة كل تلك العقد،
+// وينتهي الأمر بعقدة مستند بدون أطفال.
 doc.RemoveAllChildren();
 
 // لا يحتوي هذا المستند الآن على عقد فرعية مركبة يمكننا إضافة محتوى إليها.
-// إذا كنا نرغب في تعديله ، فسنحتاج إلى إعادة ملء مجموعة العقد الخاصة به.
-// أولاً ، قم بإنشاء قسم جديد ، ثم قم بإلحاقه كعقدة فرعية بصفته فرعيًا.
+// إذا أردنا تعديله، فسنحتاج إلى إعادة ملء مجموعة العقد الخاصة به.
+// أولاً، قم بإنشاء قسم جديد، ثم قم بإلحاقه كفرع لعقدة المستند الجذر.
 Section section = new Section(doc);
 doc.AppendChild(section);
 
-// تعيين بعض خصائص إعداد الصفحة للقسم.
+// قم بتعيين بعض خصائص إعداد الصفحة للقسم.
 section.PageSetup.SectionStart = SectionStart.NewPage;
 section.PageSetup.PaperSize = PaperSize.Letter;
 
-// يحتاج القسم إلى جسم يحتوي على جميع محتوياته ويعرضها
-// في الصفحة الواقعة بين رأس وتذييل القسم.
+// يحتاج القسم إلى نص يحتوي على جميع محتوياته ويعرضها
+// في الصفحة الواقعة بين رأس القسم وتذييله.
 Body body = new Body(doc);
 section.AppendChild(body);
 
-// قم بإنشاء فقرة ، وقم بتعيين بعض خصائص التنسيق ، ثم قم بإلحاقها كطفل بالجسم.
+// أنشئ فقرة، وعيّن بعض خصائص التنسيق، ثم ألحقها كطفل فرعي بالنص.
 Paragraph para = new Paragraph(doc);
 
 para.ParagraphFormat.StyleName = "Heading 1";
@@ -59,8 +59,8 @@ para.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 body.AppendChild(para);
 
-// أخيرًا ، أضف بعض المحتوى لعمل المستند. إنشاء شوط ،
-// قم بتعيين مظهرها ومحتوياتها ، ثم قم بإلحاقها كطفل بالفقرة.
+// وأخيرًا، أضف بعض المحتوى لإجراء المستند. إنشاء تشغيل،
+// اضبط مظهرها ومحتوياتها، ثم ألحقها كطفل للفقرة.
 Run run = new Run(doc);
 run.Text = "Hello World!";
 run.Font.Color = Color.Red;

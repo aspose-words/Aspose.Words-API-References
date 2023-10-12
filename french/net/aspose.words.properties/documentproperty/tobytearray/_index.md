@@ -20,14 +20,14 @@ Lève une exception si le type de propriété n'est pasByteArray.
 
 ### Exemples
 
-Montre comment ajouter une vignette à un document que nous enregistrons en tant qu'Epub.
+Montre comment ajouter une vignette à un document que nous enregistrons au format Epub.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// Si nous enregistrons un document, dont la propriété "Thumbnail" contient des données d'image que nous avons ajoutées, en tant qu'Epub,
+// Si nous enregistrons un document dont la propriété "Thumbnail" contient des données d'image que nous avons ajoutées, au format Epub,
 // un lecteur qui ouvre ce document peut afficher l'image avant la première page.
 BuiltInDocumentProperties properties = doc.BuiltInDocumentProperties;
 

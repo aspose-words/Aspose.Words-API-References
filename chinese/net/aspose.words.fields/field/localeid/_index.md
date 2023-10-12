@@ -1,14 +1,14 @@
 ---
 title: Field.LocaleId
 second_title: Aspose.Words for .NET API 参考
-description: Field 财产. 获取或设置字段的LCID
+description: Field 财产. 获取或设置字段的 LCID
 type: docs
 weight: 60
 url: /zh/net/aspose.words.fields/field/localeid/
 ---
 ## Field.LocaleId property
 
-获取或设置字段的LCID。
+获取或设置字段的 LCID。
 
 ```csharp
 public int LocaleId { get; set; }
@@ -16,21 +16,21 @@ public int LocaleId { get; set; }
 
 ### 例子
 
-显示如何插入字段并使用其语言环境。
+演示如何插入字段并使用其区域设置。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 插入一个 DATE 字段，然后打印它将显示的日期。
-// 你线程的当前文化决定了日期的格式。
+// 插入一个日期字段，然后打印它将显示的日期。
+// 您线程的当前区域性决定了日期的格式。
 Field field = builder.InsertField(@"DATE");
 Console.WriteLine($"Today's date, as displayed in the \"{CultureInfo.CurrentCulture.EnglishName}\" culture: {field.Result}");
 
 Assert.AreEqual(1033, field.LocaleId);
-// 更改我们线程的文化将影响 DATE 字段的结果。
-// 让 DATE 字段以不同的文化显示日期的另一种方法是使用其 LocaleId 属性。
-// 这种方式可以让我们避免改变线程的文化来获得这种效果。
+// 更改线程的区域性将影响 DATE 字段的结果。
+// 让 DATE 字段以不同区域性显示日期的另一种方法是使用其 LocaleId 属性。
+// 这种方式允许我们避免改变线程的区域性来获得这种效果。
 doc.FieldOptions.FieldUpdateCultureSource = FieldUpdateCultureSource.FieldCode;
 CultureInfo de = new CultureInfo("de-DE");
 field.LocaleId = de.LCID;

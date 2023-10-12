@@ -1,16 +1,16 @@
 ---
 title: StructuredDocumentTagRangeStart.PlaceholderName
 second_title: Referencia de API de Aspose.Words para .NET
-description: StructuredDocumentTagRangeStart propiedad. Obtiene o establece el Nombre delBuildingBlock que contiene texto de marcador de posición.
+description: StructuredDocumentTagRangeStart propiedad. Obtiene o establece el nombre delBuildingBlock que contiene texto de marcador de posición.
 type: docs
 weight: 120
 url: /es/net/aspose.words.markup/structureddocumenttagrangestart/placeholdername/
 ---
 ## StructuredDocumentTagRangeStart.PlaceholderName property
 
-Obtiene o establece el Nombre del[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock/) que contiene texto de marcador de posición.
+Obtiene o establece el nombre del[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock/) que contiene texto de marcador de posición.
 
-BuildingBlock con este nombre[`Name`](../../../aspose.words.buildingblocks/buildingblock/name/) tiene que estar presente en el[`GlossaryDocument`](../../../aspose.words/document/glossarydocument/) de lo contrarioInvalidOperationException ocurrira.
+[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock/) con este nombre[`Name`](../../../aspose.words.buildingblocks/buildingblock/name/) tiene que estar presente en el[`GlossaryDocument`](../../../aspose.words/document/glossarydocument/) en caso contrarioInvalidOperationException ocurrira.
 
 ```csharp
 public string PlaceholderName { get; set; }
@@ -18,7 +18,7 @@ public string PlaceholderName { get; set; }
 
 ### Ejemplos
 
-Muestra cómo obtener las propiedades de las etiquetas de documentos estructurados de varias secciones.
+Muestra cómo obtener las propiedades de etiquetas de documentos estructurados de varias secciones.
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");

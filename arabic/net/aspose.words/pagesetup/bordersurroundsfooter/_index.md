@@ -1,14 +1,14 @@
 ---
 title: PageSetup.BorderSurroundsFooter
 second_title: Aspose.Words لمراجع .NET API
-description: PageSetup ملكية. تحديد ما إذا كان حد الصفحة يتضمن التذييل أو يستبعده.
+description: PageSetup ملكية. يحدد ما إذا كان حد الصفحة يتضمن التذييل أم لا.
 type: docs
 weight: 60
 url: /ar/net/aspose.words/pagesetup/bordersurroundsfooter/
 ---
 ## PageSetup.BorderSurroundsFooter property
 
-تحديد ما إذا كان حد الصفحة يتضمن التذييل أو يستبعده.
+يحدد ما إذا كان حد الصفحة يتضمن التذييل أم لا.
 
 ```csharp
 public bool BorderSurroundsFooter { get; set; }
@@ -16,11 +16,11 @@ public bool BorderSurroundsFooter { get; set; }
 
 ### ملاحظات
 
-ملاحظة ، يؤثر تغيير هذه الخاصية على جميع أقسام المستند.
+لاحظ أن تغيير هذه الخاصية يؤثر على كافة الأقسام في المستند.
 
 ### أمثلة
 
-يوضح كيفية تطبيق حد على الصفحة والرأس / التذييل.
+يوضح كيفية تطبيق حد على الصفحة والرأس/التذييل.
 
 ```csharp
 Document doc = new Document();
@@ -33,14 +33,14 @@ builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
 builder.Write("This is the footer.");
 builder.MoveToDocumentEnd();
 
-// أدخل حد خط مزدوج أزرق.
+// أدخل حدًا أزرقًا مزدوج الخط.
 PageSetup pageSetup = doc.Sections[0].PageSetup;
 pageSetup.Borders.LineStyle = LineStyle.Double;
 pageSetup.Borders.Color = Color.Blue;
 
-// يحتوي كائن PageSetup لقسم على علامتي "BorderSurroundsHeader" و "BorderSurroundsFooter" التي تحدد
-// ما إذا كان حد الصفحة يحيط بالنص الأساسي ، يتضمن أيضًا الرأس أو التذييل ، على التوالي.
-// اضبط علامة "BorderSurroundsHeader" على "true" لإحاطة الرأس بحدودنا ،
+// يحتوي كائن PageSetup الخاص بالقسم على علامتي "BorderSurroundsHeader" و"BorderSurroundsFooter" التي تحدد
+// ما إذا كان حد الصفحة يحيط بالنص الأساسي، أم لا، ويتضمن أيضًا الرأس أو التذييل، على التوالي.
+// اضبط علامة "BorderSurroundsHeader" على "صحيح" لإحاطة الرأس بحدودنا،
 // ثم قم بتعيين علامة "BorderSurroundsFooter" لترك التذييل خارج الحدود.
 pageSetup.BorderSurroundsHeader = true;
 pageSetup.BorderSurroundsFooter = false;

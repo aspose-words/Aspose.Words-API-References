@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertTableOfContents
 second_title: Référence de l'API Aspose.Words pour .NET
 description: DocumentBuilder méthode. Insère un champ TOC table des matières dans le document.
 type: docs
-weight: 440
+weight: 470
 url: /fr/net/aspose.words/documentbuilder/inserttableofcontents/
 ---
 ## DocumentBuilder.InsertTableOfContents method
@@ -22,13 +22,13 @@ public Field InsertTableOfContents(string switches)
 
 Cette méthode insère un champ TOC (table des matières) dans le document à la position actuelle.
 
-Une table des matières dans un document Word peut être construite de plusieurs façons et formatée à l'aide d'une variété d'options. La façon dont la table est construite et affichée par Microsoft Word est contrôlée par les commutateurs de champ.
+Une table des matières dans un document Word peut être créée de plusieurs manières et formatée à l'aide de diverses options. La façon dont le tableau est construit et affiché par Microsoft Word est contrôlée par les commutateurs de champ.
 
-Le moyen le plus simple de spécifier les commutateurs est d'insérer et de configurer une table de contenu dans un document Word à l'aide du menu Insertion-&gt; Référence-&gt; Index et tableaux, puis d'activer l'affichage des codes de champ pour voir les commutateurs. Vous pouvez appuyer sur Alt+F9 dans Microsoft Word pour activer ou désactiver l'affichage des codes de champ.
+Le moyen le plus simple de spécifier les commutateurs est d'insérer et de configurer une table de contenu dans un document Word à l'aide du menu Insertion-&gt;Référence-&gt;Index et tableaux, , puis d'activer l'affichage des codes de champ pour voir les commutateurs. Vous pouvez appuyer sur Alt+F9 dans Microsoft Word pour activer ou désactiver l'affichage des codes de champ.
 
-Par exemple, après avoir créé une table des matières, le champ suivant est inséré dans le document : **{ TOC \o "1-3" \h \z \u }** . Vous pouvez copier **\o "1-3" \h \z \u** et utilisez-le comme paramètre switchs.
+Par exemple, après avoir créé une table des matières, le champ suivant est inséré dans le document : **{ Table des matières \o "1-3" \h \z \u }** . Vous pouvez copier **\o "1-3" \h \z \u** et utilisez-le comme paramètre de commutateurs.
 
-Notez que **InsérerTableDeContenus** n'insérera qu'un champ TOC, but ne construira pas réellement la table des matières. La table des matières est construite par Microsoft Word lorsque le champ est mis à jour.
+Noter que`InsertTableOfContents` insérera uniquement un champ TOC, mais ne construira pas réellement la table des matières. La table des matières est construite par Microsoft Word lorsque le champ est mis à jour.
 
 Si vous insérez une table des matières à l'aide de cette méthode, puis ouvrez le fichier dans Microsoft Word, vous ne verrez pas la table des matières car le champ TOC n'a pas encore été mis à jour.
 
@@ -43,14 +43,14 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Insère une table des matières pour la première page du document.
-// Configurer le tableau pour récupérer les paragraphes avec des titres de niveaux 1 à 3.
-// De plus, définissez ses entrées comme étant des hyperliens qui nous mèneront
-// à l'emplacement de l'en-tête lors d'un clic gauche dans Microsoft Word.
+// Configurez le tableau pour récupérer les paragraphes avec des titres de niveaux 1 à 3.
+// Définissez également ses entrées comme des hyperliens qui nous amèneront
+// à l'emplacement du titre lors d'un clic gauche dans Microsoft Word.
 builder.InsertTableOfContents("\\o \"1-3\" \\h \\z \\u");
 builder.InsertBreak(BreakType.PageBreak);
 
-// Remplir la table des matières en ajoutant des paragraphes avec des styles de titre.
-// Chacun de ces titres avec un niveau compris entre 1 et 3 créera une entrée dans la table.
+// Remplit la table des matières en ajoutant des paragraphes avec des styles de titre.
+// Chacun de ces en-têtes avec un niveau compris entre 1 et 3 créera une entrée dans le tableau.
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 builder.Writeln("Heading 1");
 

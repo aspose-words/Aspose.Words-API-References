@@ -22,8 +22,9 @@ class MetafileRenderingOptions : public System::Object
 | --- | --- |
 | [get_EmfPlusDualRenderingMode](./get_emfplusdualrenderingmode/)() const | Gets or sets a value determining how EMF+ Dual metafiles should be rendered. |
 | [get_EmulateRasterOperations](./get_emulaterasteroperations/)() const | Gets or sets a value determining whether or not the raster operations should be emulated. |
+| [get_EmulateRenderingToSizeOnPage](./get_emulaterenderingtosizeonpage/)() const |  |
+| [get_EmulateRenderingToSizeOnPageResolution](./get_emulaterenderingtosizeonpageresolution/)() const |  |
 | [get_RenderingMode](./get_renderingmode/)() const | Gets or sets a value determining how metafile images should be rendered. |
-| [get_ScaleWmfFontsToMetafileSize](./get_scalewmffontstometafilesize/)() const | Gets or sets a value determining whether or not to scale fonts in WMF metafile according to metafile size on the page. |
 | [get_UseEmfEmbeddedToWmf](./get_useemfembeddedtowmf/)() const | Gets or sets a value determining how WMF metafiles with embedded EMF metafiles should be rendered. |
 | [get_UseGdiRasterOperationsEmulation](./get_usegdirasteroperationsemulation/)() const | Gets or sets a value determining whether or not to use the GDI+ for raster operations emulation. |
 | [GetType](./gettype/)() const override |  |
@@ -31,8 +32,9 @@ class MetafileRenderingOptions : public System::Object
 | [MetafileRenderingOptions](./metafilerenderingoptions/)() |  |
 | [set_EmfPlusDualRenderingMode](./set_emfplusdualrenderingmode/)(Aspose::Words::Saving::EmfPlusDualRenderingMode) | Setter for [Aspose::Words::Saving::MetafileRenderingOptions::get_EmfPlusDualRenderingMode](./get_emfplusdualrenderingmode/). |
 | [set_EmulateRasterOperations](./set_emulaterasteroperations/)(bool) | Setter for [Aspose::Words::Saving::MetafileRenderingOptions::get_EmulateRasterOperations](./get_emulaterasteroperations/). |
+| [set_EmulateRenderingToSizeOnPage](./set_emulaterenderingtosizeonpage/)(bool) |  |
+| [set_EmulateRenderingToSizeOnPageResolution](./set_emulaterenderingtosizeonpageresolution/)(int32_t) |  |
 | [set_RenderingMode](./set_renderingmode/)(Aspose::Words::Saving::MetafileRenderingMode) | Setter for [Aspose::Words::Saving::MetafileRenderingOptions::get_RenderingMode](./get_renderingmode/). |
-| [set_ScaleWmfFontsToMetafileSize](./set_scalewmffontstometafilesize/)(bool) | Setter for [Aspose::Words::Saving::MetafileRenderingOptions::get_ScaleWmfFontsToMetafileSize](./get_scalewmffontstometafilesize/). |
 | [set_UseEmfEmbeddedToWmf](./set_useemfembeddedtowmf/)(bool) | Setter for [Aspose::Words::Saving::MetafileRenderingOptions::get_UseEmfEmbeddedToWmf](./get_useemfembeddedtowmf/). |
 | [set_UseGdiRasterOperationsEmulation](./set_usegdirasteroperationsemulation/)(bool) | Setter for [Aspose::Words::Saving::MetafileRenderingOptions::get_UseGdiRasterOperationsEmulation](./get_usegdirasteroperationsemulation/). |
 | static [Type](./type/)() |  |

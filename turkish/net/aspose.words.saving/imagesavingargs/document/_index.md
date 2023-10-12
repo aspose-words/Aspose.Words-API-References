@@ -16,13 +16,14 @@ public Document Document { get; }
 
 ### Örnekler
 
-Bir HTML dönüştürme işlemine bir resim kaydetme geri aramasının nasıl dahil edileceğini gösterir.
+Görüntü kaydetme geri aramasının HTML dönüştürme sürecine nasıl dahil edileceğini gösterir.
 
 ```csharp
+public void ImageSavingCallback()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
-    // Belgeyi HTML'ye kaydettiğimizde, bir geri arama atamak için bir SaveOptions nesnesi iletebiliriz
+    // Belgeyi HTML'ye kaydettiğimizde, bir geri çağrıyı belirtmek için SaveOptions nesnesini iletebiliriz
     // görüntü kaydetme işlemini özelleştirmek için.
     HtmlSaveOptions options = new HtmlSaveOptions();
     options.ImageSavingCallback = new ImageShapePrinter();

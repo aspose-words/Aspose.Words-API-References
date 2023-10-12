@@ -25,7 +25,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Write("Hello world!");
 builder.InsertFootnote(FootnoteType.Footnote, "Footnote reference text.");
 
-// Configurer toutes les notes de bas de page dans la première section pour recommencer la numérotation à partir de 1
+// Configurez toutes les notes de bas de page de la première section pour redémarrer la numérotation à partir de 1
 // à chaque nouvelle page et s'affichent directement sous le texte sur chaque page.
 FootnoteOptions footnoteOptions = doc.Sections[0].PageSetup.FootnoteOptions;
 footnoteOptions.Position = FootnotePosition.BeneathText;
@@ -36,7 +36,7 @@ builder.Write(" Hello again.");
 builder.InsertFootnote(FootnoteType.Footnote, "Endnote reference text.");
 
 // Configurez toutes les notes de fin de la première section pour maintenir un décompte continu tout au long de la section,
-// à partir de 1. En outre, configurez-les tous pour qu'ils apparaissent rassemblés à la fin du document.
+// à partir de 1. Définissez-les également tous pour qu'ils apparaissent collectés à la fin du document.
 EndnoteOptions endnoteOptions = doc.Sections[0].PageSetup.EndnoteOptions;
 endnoteOptions.Position = EndnotePosition.EndOfDocument;
 endnoteOptions.RestartRule = FootnoteNumberingRule.Continuous;

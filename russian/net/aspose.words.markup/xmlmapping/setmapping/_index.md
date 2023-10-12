@@ -1,14 +1,14 @@
 ---
 title: XmlMapping.SetMapping
 second_title: Справочник по API Aspose.Words для .NET
-description: XmlMapping метод. Задает сопоставление между тегом родительского структурированного документа и узлом XML пользовательской части данных XML.
+description: XmlMapping метод. Устанавливает сопоставление между тегом родительского структурированного документа и узлом XML пользовательской части данных XML.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.markup/xmlmapping/setmapping/
 ---
 ## XmlMapping.SetMapping method
 
-Задает сопоставление между тегом родительского структурированного документа и узлом XML пользовательской части данных XML.
+Устанавливает сопоставление между тегом родительского структурированного документа и узлом XML пользовательской части данных XML.
 
 ```csharp
 public bool SetMapping(CustomXmlPart customXmlPart, string xPath, string prefixMapping)
@@ -16,13 +16,13 @@ public bool SetMapping(CustomXmlPart customXmlPart, string xPath, string prefixM
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| customXmlPart | CustomXmlPart | Настраиваемая часть данных XML для сопоставления. |
+| customXmlPart | CustomXmlPart | Пользовательская часть данных XML для сопоставления. |
 | xPath | String | Выражение XPath для поиска узла XML. |
-| prefixMapping | String | Сопоставления префиксов пространств имен XML для оценки XPath. |
+| prefixMapping | String | Сопоставления префиксов пространства имен XML для оценки XPath. |
 
 ### Возвращаемое значение
 
-Флаг, указывающий, успешно ли сопоставлен родительский тег структурированного документа с узлом XML.
+Флаг, указывающий, успешно ли сопоставлен тег родительского структурированного документа с узлом XML.
 
 ### Примеры
 
@@ -31,7 +31,7 @@ public bool SetMapping(CustomXmlPart customXmlPart, string xPath, string prefixM
 ```csharp
 Document doc = new Document();
 
-// Создайте часть XML, содержащую данные, и добавьте ее в коллекцию документа.
+// Создаем часть XML, содержащую данные, и добавляем ее в коллекцию документа.
 // Если мы включим вкладку «Разработчик» в Microsoft Word,
 // мы можем найти элементы из этой коллекции в «Панели сопоставления XML» вместе с несколькими элементами по умолчанию.
 string xmlPartId = Guid.NewGuid().ToString("B");
@@ -42,16 +42,16 @@ Assert.AreEqual(Encoding.ASCII.GetBytes(xmlPartContent), xmlPart.Data);
 Assert.AreEqual(xmlPartId, xmlPart.Id);
 
 // Ниже приведены два способа обращения к частям XML.
-// 1 - По индексу в пользовательской коллекции XML-частей:
+// 1 - По индексу в пользовательской коллекции частей XML:
 Assert.AreEqual(xmlPart, doc.CustomXmlParts[0]);
 
 // 2 - По GUID:
 Assert.AreEqual(xmlPart, doc.CustomXmlParts.GetById(xmlPartId));
 
-// Добавляем ассоциацию XML-схемы.
+// Добавляем ассоциацию схемы XML.
 xmlPart.Schemas.Add("http://www.w3.org/2001/XMLSchema");
 
-// Клонируем часть, а затем вставляем ее в коллекцию.
+// Клонируем часть и затем вставляем ее в коллекцию.
 CustomXmlPart xmlPartClone = xmlPart.Clone();
 xmlPartClone.Id = Guid.NewGuid().ToString("B");
 doc.CustomXmlParts.Add(xmlPartClone);
@@ -70,16 +70,16 @@ using (IEnumerator<CustomXmlPart> enumerator = doc.CustomXmlParts.GetEnumerator(
     }
 }
 
-// Используйте метод "RemoveAt", чтобы удалить клонированную часть по индексу.
+// Используйте метод «RemoveAt», чтобы удалить клонированную часть по индексу.
 doc.CustomXmlParts.RemoveAt(1);
 
 Assert.AreEqual(1, doc.CustomXmlParts.Count);
 
-// Клонируем коллекцию частей XML, а затем используем метод «Очистить», чтобы сразу удалить все ее элементы.
+// Клонировать коллекцию частей XML, а затем использовать метод «Очистить», чтобы удалить сразу все ее элементы.
 CustomXmlPartCollection customXmlParts = doc.CustomXmlParts.Clone();
 customXmlParts.Clear();
 
-// Создаем тег структурированного документа, который будет отображать содержимое нашей части, и вставляем его в тело документа.
+// Создаем структурированный тег документа, который будет отображать содержимое нашей части, и вставляем его в тело документа.
 StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Block);
 tag.XmlMapping.SetMapping(xmlPart, "/root[1]/text[1]", string.Empty);
 

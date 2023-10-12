@@ -1,14 +1,14 @@
 ---
 title: Section.AppendContent
 second_title: Aspose.Words لمراجع .NET API
-description: Section طريقة. يتم إدراج نسخة من محتوى قسم المصدر في نهاية هذا القسم.
+description: Section طريقة. إدراج نسخة من محتوى القسم المصدر في نهاية هذا القسم.
 type: docs
-weight: 80
+weight: 100
 url: /ar/net/aspose.words/section/appendcontent/
 ---
 ## Section.AppendContent method
 
-يتم إدراج نسخة من محتوى قسم المصدر في نهاية هذا القسم.
+إدراج نسخة من محتوى القسم المصدر في نهاية هذا القسم.
 
 ```csharp
 public void AppendContent(Section sourceSection)
@@ -16,15 +16,15 @@ public void AppendContent(Section sourceSection)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| sourceSection | Section | قسم نسخ المحتوى منه. |
+| sourceSection | Section | القسم المراد نسخ المحتوى منه. |
 
 ### ملاحظات
 
-فقط محتوى[`Body`](../body/) من قسم المصدر ، إعداد الصفحة ، رؤوس وتذييلات لا يتم نسخها.
+محتوى فقط[`Body`](../body/) تم نسخ القسم المصدر، ولم يتم نسخ إعداد الصفحة، الرؤوس والتذييلات.
 
-يتم استيراد العقد تلقائيًا إذا كان قسم المصدر ينتمي إلى مستند مختلف.
+يتم استيراد العقد تلقائيًا إذا كان القسم المصدر ينتمي إلى مستند مختلف.
 
-لم يتم إنشاء قسم جديد في المستند الوجهة.
+لم يتم إنشاء أي قسم جديد في المستند الوجهة.
 
 ### أمثلة
 
@@ -52,7 +52,7 @@ section.PrependContent(sectionToPrepend);
 Section sectionToAppend = doc.Sections[1];
 section.AppendContent(sectionToAppend);
 
-// لم تُنشئ الطرق "PrependContent" و "AppendContent" أية أقسام جديدة.
+// لم تنشئ طريقتا "PrependContent" و"AppendContent" أي أقسام جديدة.
 Assert.AreEqual(3, doc.Sections.Count);
 Assert.AreEqual("Section 1" + ControlChar.ParagraphBreak +
                 "Section 3" + ControlChar.ParagraphBreak +

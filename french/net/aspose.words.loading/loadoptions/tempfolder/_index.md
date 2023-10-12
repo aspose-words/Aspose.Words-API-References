@@ -1,14 +1,14 @@
 ---
 title: LoadOptions.TempFolder
 second_title: Référence de l'API Aspose.Words pour .NET
-description: LoadOptions propriété. Permet dutiliser des fichiers temporaires lors de la lecture du document. Par défaut cette propriété estnul et aucun fichier temporaire nest utilisé.
+description: LoadOptions propriété. Permet dutiliser des fichiers temporaires lors de la lecture dun document. Par défaut cette propriété estnul et aucun fichier temporaire nest utilisé.
 type: docs
 weight: 150
 url: /fr/net/aspose.words.loading/loadoptions/tempfolder/
 ---
 ## LoadOptions.TempFolder property
 
-Permet d'utiliser des fichiers temporaires lors de la lecture du document. Par défaut, cette propriété est`nul` et aucun fichier temporaire n'est utilisé.
+Permet d'utiliser des fichiers temporaires lors de la lecture d'un document. Par défaut cette propriété est`nul` et aucun fichier temporaire n'est utilisé.
 
 ```csharp
 public string TempFolder { get; set; }
@@ -18,7 +18,7 @@ public string TempFolder { get; set; }
 
 Le dossier doit exister et être accessible en écriture, sinon une exception sera levée.
 
-Aspose.Words supprime automatiquement tous les fichiers temporaires lorsque la lecture est terminée.
+Aspose.Words supprime automatiquement tous les fichiers temporaires une fois la lecture terminée.
 
 ### Exemples
 
@@ -29,7 +29,7 @@ Montre comment charger un document à l'aide de fichiers temporaires.
 LoadOptions loadOptions = new LoadOptions();
 loadOptions.TempFolder = @"C:\TempFolder\";
 
-// Assurez-vous que le répertoire existe et chargez
+// S'assure que le répertoire existe et charge
 Directory.CreateDirectory(loadOptions.TempFolder);
 
 Document doc = new Document(MyDir + "Document.docx", loadOptions);
@@ -39,8 +39,8 @@ Montre comment utiliser le disque dur au lieu de la mémoire lors du chargement 
 
 ```csharp
 // Lorsque nous chargeons un document, divers éléments sont temporairement stockés en mémoire au fur et à mesure de l'opération de sauvegarde.
-// Nous pouvons utiliser cette option pour utiliser un dossier temporaire dans le système de fichiers local à la place,
-// ce qui réduira la surcharge de mémoire de notre application.
+// Nous pouvons utiliser cette option pour utiliser à la place un dossier temporaire dans le système de fichiers local,
+// ce qui réduira la surcharge mémoire de notre application.
 LoadOptions options = new LoadOptions();
 options.TempFolder = ArtifactsDir + "TempFiles";
 

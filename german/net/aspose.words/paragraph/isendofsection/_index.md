@@ -1,14 +1,14 @@
 ---
 title: Paragraph.IsEndOfSection
 second_title: Aspose.Words für .NET-API-Referenz
-description: Paragraph eigendom. True wenn dieser Absatz der letzte Absatz in der ist Körper Haupttextgeschichte von a Abschnitt  andernfalls falsch.
+description: Paragraph eigendom. True wenn dieser Absatz der letzte Absatz im istBody Haupttextgeschichte von aSection  sonst falsch.
 type: docs
 weight: 80
 url: /de/net/aspose.words/paragraph/isendofsection/
 ---
 ## Paragraph.IsEndOfSection property
 
-True, wenn dieser Absatz der letzte Absatz in der ist **Körper** (Haupttextgeschichte) von a **Abschnitt** ; andernfalls falsch.
+True, wenn dieser Absatz der letzte Absatz im ist[`Body`](../../body/) (Haupttextgeschichte) von a[`Section`](../../section/) ; sonst falsch.
 
 ```csharp
 public bool IsEndOfSection { get; }
@@ -16,10 +16,9 @@ public bool IsEndOfSection { get; }
 
 ### Beispiele
 
-Zeigt, wie Sie den Inhalt eines Dokuments in ein Lesezeichen in einem anderen Dokument einfügen.
+Zeigt, wie der Inhalt eines Dokuments in ein Lesezeichen in einem anderen Dokument eingefügt wird.
 
 ```csharp
-[Test]
 public void InsertAtBookmark()
 {
     Document doc = new Document();
@@ -55,8 +54,8 @@ static void InsertDocument(Node insertionDestination, Document docToInsert)
         NodeImporter importer =
             new NodeImporter(docToInsert, insertionDestination.Document, ImportFormatMode.KeepSourceFormatting);
 
-        // Alle Knoten auf Blockebene im Körper des Abschnitts durchlaufen,
-        // Dann klonen und fügen Sie jeden Knoten ein, der nicht der letzte leere Absatz eines Abschnitts ist.
+        // Alle Knoten auf Blockebene im Hauptteil des Abschnitts durchlaufen,
+        // dann jeden Knoten klonen und einfügen, der nicht der letzte leere Absatz eines Abschnitts ist.
         foreach (Section srcSection in docToInsert.Sections.OfType<Section>())
             foreach (Node srcNode in srcSection.Body)
             {

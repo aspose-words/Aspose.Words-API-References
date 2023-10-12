@@ -3,12 +3,12 @@ title: Enum ComparisonTargetType
 second_title: Справочник по API Aspose.Words для .NET
 description: Aspose.Words.Comparing.ComparisonTargetType перечисление. Позволяет указать базовый документ который будет использоваться при сравнении. Значение по умолчаниюCurrent .
 type: docs
-weight: 270
+weight: 280
 url: /ru/net/aspose.words.comparing/comparisontargettype/
 ---
 ## ComparisonTargetType enumeration
 
-Позволяет указать базовый документ, который будет использоваться при сравнении. Значение по умолчаниюCurrent .
+Позволяет указать базовый документ, который будет использоваться при сравнении. Значение по умолчанию:Current .
 
 ```csharp
 public enum ComparisonTargetType
@@ -19,22 +19,22 @@ public enum ComparisonTargetType
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | Current | `0` | Этот документ используется в качестве основы при сравнении. |
-| New | `1` | В качестве базы для сравнения используется другой документ. |
+| New | `1` | В качестве основы при сравнении используется другой документ. |
 
 ### Примечания
 
-Относится к параметру Microsoft Word «Показать изменения в» в диалоговом окне «Сравнить документы».
+Относится к параметру Microsoft Word «Показать изменения» в диалоговом окне «Сравнение документов».
 
 ### Примеры
 
 Показывает, как фильтровать определенные типы элементов документа при сравнении.
 
 ```csharp
-// Создайте исходный документ и заполните его различными элементами.
+// Создаем исходный документ и заполняем его различными элементами.
 Document docOriginal = new Document();
 DocumentBuilder builder = new DocumentBuilder(docOriginal);
 
-// Текст абзаца, на который ссылается концевая сноска:
+// Текст абзаца, на который есть сноска:
 builder.Writeln("Hello world! This is the first paragraph.");
 builder.InsertFootnote(FootnoteType.Endnote, "Original endnote text.");
 
@@ -78,8 +78,8 @@ firstParagraph.ParagraphFormat.Style = docEdited.Styles[StyleIdentifier.Heading1
 docEdited.FirstSection.HeadersFooters[HeaderFooterType.HeaderPrimary].FirstParagraph.Runs[0].Text =
     "Edited header contents.";
 
-// Сравнение документов создает ревизию для каждой правки в редактируемом документе.
-// Объект CompareOptions имеет ряд флагов, которые могут подавлять ревизии
+// При сравнении документов создается редакция для каждого изменения в редактируемом документе.
+// Объект CompareOptions имеет ряд флагов, которые могут подавлять изменения
 // для каждого соответствующего типа элемента, фактически игнорируя их изменение.
 Aspose.Words.Comparing.CompareOptions compareOptions = new Aspose.Words.Comparing.CompareOptions();
 compareOptions.IgnoreFormatting = false;

@@ -16,7 +16,7 @@ public string BarcodeValue { get; set; }
 
 ### Esempi
 
-Mostra come inserire un campo DISPLAYBarCODE e impostarne le proprietà.
+Mostra come inserire un campo DISPLAYBARCODE e impostarne le proprietà.
 
 ```csharp
 Document doc = new Document();

@@ -20,7 +20,7 @@ public void SetCount(int newCount)
 
 ### Osservazioni
 
-quando[`EvenlySpaced`](../evenlyspaced/) è **falso** e aumenti il numero di colonne, new[`TextColumn`](../../textcolumn/) gli oggetti vengono creati con larghezza e spaziatura zero. È necessario impostare larghezza e spaziatura per le nuove colonne.
+Quando[`EvenlySpaced`](../evenlyspaced/) È`falso` e aumenti il numero di colonne, new[`TextColumn`](../../textcolumn/) gli oggetti vengono creati con larghezza e spaziatura pari a zero. È necessario impostare larghezza e spaziatura per le nuove colonne.
 
 ### Esempi
 

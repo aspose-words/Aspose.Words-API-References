@@ -16,15 +16,15 @@ public DefaultFontSubstitutionRule DefaultFontSubstitution { get; }
 
 ### أمثلة
 
-يوضح كيفية تعيين قاعدة استبدال الخط الافتراضي.
+يوضح كيفية تعيين قاعدة استبدال الخط الافتراضية.
 
 ```csharp
 Document doc = new Document();
 FontSettings fontSettings = new FontSettings();
 doc.FontSettings = fontSettings;
 
-// احصل على قاعدة الاستبدال الافتراضية داخل FontSettings.
-// ستستبدل هذه القاعدة جميع الخطوط المفقودة بـ "Times New Roman".
+// احصل على قاعدة الاستبدال الافتراضية ضمن FontSettings.
+// ستستبدل هذه القاعدة كافة الخطوط المفقودة بـ "Times New Roman".
 DefaultFontSubstitutionRule defaultFontSubstitutionRule =
     fontSettings.SubstitutionSettings.DefaultFontSubstitution;
 Assert.True(defaultFontSubstitutionRule.Enabled);
@@ -33,8 +33,8 @@ Assert.AreEqual("Times New Roman", defaultFontSubstitutionRule.DefaultFontName);
 // قم بتعيين بديل الخط الافتراضي على "Courier New".
 defaultFontSubstitutionRule.DefaultFontName = "Courier New";
 
-// باستخدام مُنشئ المستندات ، أضف بعض النص بخط لسنا مضطرين لرؤية الاستبدال ،
-// ثم اعرض النتيجة في ملف PDF.
+// باستخدام أداة إنشاء المستندات، أضف بعض النص بخط لا نحتاجه حتى يتم الاستبدال،
+// ثم قم بتقديم النتيجة في ملف PDF.
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Font.Name = "Missing Font";

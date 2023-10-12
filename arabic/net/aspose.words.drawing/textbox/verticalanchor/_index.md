@@ -3,7 +3,7 @@ title: TextBox.VerticalAnchor
 second_title: Aspose.Words لمراجع .NET API
 description: TextBox ملكية. يحدد المحاذاة الرأسية للنص داخل الشكل.
 type: docs
-weight: 110
+weight: 120
 url: /ar/net/aspose.words.drawing/textbox/verticalanchor/
 ---
 ## TextBox.VerticalAnchor property
@@ -16,11 +16,11 @@ public TextBoxAnchor VerticalAnchor { get; set; }
 
 ### ملاحظات
 
-النظام الأساسيTop.
+القيمة الافتراضية هيTop.
 
 ### أمثلة
 
-يوضح كيفية محاذاة محتويات النص لمربع نص عموديًا.
+يوضح كيفية محاذاة محتويات النص في مربع النص عموديًا.
 
 ```csharp
 Document doc = new Document();
@@ -29,17 +29,17 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertShape(ShapeType.TextBox, 200, 200);
 
 // قم بتعيين خاصية "VerticalAnchor" على "TextBoxAnchor.Top" إلى
-// محاذاة النص في مربع النص هذا مع الجانب العلوي للشكل.
-// اضبط خاصية "VerticalAnchor" على "TextBoxAnchor.Middle" على
-// محاذاة النص في مربع النص هذا إلى وسط الشكل.
+// قم بمحاذاة النص الموجود في مربع النص هذا مع الجانب العلوي من الشكل.
+// قم بتعيين خاصية "VerticalAnchor" على "TextBoxAnchor.Middle" إلى
+// قم بمحاذاة النص الموجود في مربع النص هذا إلى منتصف الشكل.
 // قم بتعيين خاصية "VerticalAnchor" على "TextBoxAnchor.Bottom" إلى
-// محاذاة النص في مربع النص هذا إلى أسفل الشكل.
+// قم بمحاذاة النص الموجود في مربع النص هذا إلى أسفل الشكل.
 shape.TextBox.VerticalAnchor = verticalAnchor;
 
 builder.MoveTo(shape.FirstParagraph);
 builder.Write("Hello world!");
 
-// المحاذاة الرأسية للنص داخل مربعات النص متاحة من Microsoft Word 2007 وما بعده.
+// المحاذاة الرأسية للنص داخل مربعات النص متاحة بدءًا من Microsoft Word 2007 وما بعده.
 doc.CompatibilityOptions.OptimizeFor(MsWordVersion.Word2007);
 doc.Save(ArtifactsDir + "Shape.VerticalAnchor.docx");
 ```

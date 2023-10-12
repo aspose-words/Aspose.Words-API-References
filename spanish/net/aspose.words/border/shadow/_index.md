@@ -1,14 +1,14 @@
 ---
 title: Border.Shadow
 second_title: Referencia de API de Aspose.Words para .NET
-description: Border propiedad. Obtiene o establece un valor que indica si el borde tiene sombra.
+description: Border propiedad. Obtiene o establece un valor que indica si el borde tiene una sombra.
 type: docs
 weight: 60
 url: /es/net/aspose.words/border/shadow/
 ---
 ## Border.Shadow property
 
-Obtiene o establece un valor que indica si el borde tiene sombra.
+Obtiene o establece un valor que indica si el borde tiene una sombra.
 
 ```csharp
 public bool Shadow { get; set; }
@@ -16,11 +16,11 @@ public bool Shadow { get; set; }
 
 ### Observaciones
 
-En Microsoft Word, para que un borde tenga sombra, los bordes en los cuatro lados (izquierdo, superior, derecho e inferior) deben ser del mismo tipo, ancho, color y todos deben tener la propiedad Sombra establecida en verdadero.
+En Microsoft Word, para que un borde tenga una sombra, los bordes en los cuatro lados (izquierdo, superior, derecho e inferior) deben ser del mismo tipo, ancho, color y todos deben tener la propiedad Sombra establecida en`verdadero`.
 
 ### Ejemplos
 
-Muestra cómo crear un borde de página verde ondulado con una sombra.
+Muestra cómo crear un borde de página ondulado verde con una sombra.
 
 ```csharp
 Document doc = new Document();

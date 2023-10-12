@@ -1,14 +1,14 @@
 ---
 title: IStructuredDocumentTag.Level
 second_title: Aspose.Words لمراجع .NET API
-description: IStructuredDocumentTag ملكية. يحصل على المستوى الذي عنده هذا المعاملة الخاصة والتفضيلية يحدث في شجرة الوثيقة.
+description: IStructuredDocumentTag ملكية. يحصل على المستوى الذي عنده المعاملة الخاصة والتفضيلية يحدث في شجرة المستندات.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.markup/istructureddocumenttag/level/
 ---
 ## IStructuredDocumentTag.Level property
 
-يحصل على المستوى الذي عنده هذا **المعاملة الخاصة والتفضيلية** يحدث في شجرة الوثيقة.
+يحصل على المستوى الذي عنده **المعاملة الخاصة والتفضيلية** يحدث في شجرة المستندات.
 
 ```csharp
 public MarkupLevel Level { get; }

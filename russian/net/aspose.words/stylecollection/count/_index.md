@@ -20,16 +20,14 @@ public int Count { get; }
 
 ```csharp
 Document doc = new Document();
+
 StyleCollection styles = doc.Styles;
-
-// Задаем параметры по умолчанию для новых стилей, которые позже мы можем добавить в эту коллекцию.
+// Устанавливаем параметры по умолчанию для новых стилей, которые мы можем позже добавить в эту коллекцию.
 styles.DefaultFont.Name = "Courier New";
-
-// Если мы добавим стиль "StyleType.Paragraph", коллекция применит значения
-// его свойство "DefaultParagraphFormat" к свойству "ParagraphFormat" стиля.
+// Если мы добавим стиль StyleType.Paragraph, коллекция применит значения
+// его свойство "DefaultParagraphFormat" к свойству стиля "ParagraphFormat".
 styles.DefaultParagraphFormat.FirstLineIndent = 15.0;
-
-// Добавьте стиль, а затем убедитесь, что он имеет настройки по умолчанию.
+// Добавляем стиль и проверяем, что для него заданы настройки по умолчанию.
 styles.Add(StyleType.Paragraph, "MyStyle");
 
 Assert.AreEqual("Courier New", styles[4].Font.Name);

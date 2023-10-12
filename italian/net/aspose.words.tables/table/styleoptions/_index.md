@@ -26,11 +26,11 @@ Table table = builder.StartTable();
 // Dobbiamo inserire almeno una riga prima di impostare qualsiasi formattazione della tabella.
 builder.InsertCell();
 
-// Imposta lo stile della tabella utilizzato in base all'identificatore di stile.
-// Nota che non tutti gli stili di tabella sono disponibili durante il salvataggio in formato .doc.
+// Imposta lo stile della tabella utilizzato in base all'identificatore dello stile.
+// Tieni presente che non tutti gli stili di tabella sono disponibili quando si salva nel formato .doc.
 table.StyleIdentifier = StyleIdentifier.MediumShading1Accent1;
 
-// Applica parzialmente lo stile alle caratteristiche della tabella in base ai predicati, quindi crea la tabella.
+// Applica parzialmente lo stile alle funzionalità della tabella in base ai predicati, quindi crea la tabella.
 table.StyleOptions =
     TableStyleOptions.FirstColumn | TableStyleOptions.RowBands | TableStyleOptions.FirstRow;
 table.AutoFit(AutoFitBehavior.AutoFitToContents);

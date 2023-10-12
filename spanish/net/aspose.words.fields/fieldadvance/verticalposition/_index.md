@@ -1,14 +1,14 @@
 ---
 title: FieldAdvance.VerticalPosition
 second_title: Referencia de API de Aspose.Words para .NET
-description: FieldAdvance propiedad. Obtiene o establece el número de puntos por los que el texto que sigue al campo debe moverse verticalmente desde el borde superior de la página.
+description: FieldAdvance propiedad. Obtiene o establece el número de puntos en los que el texto que sigue al campo debe moverse verticalmente desde el borde superior de la página.
 type: docs
 weight: 70
 url: /es/net/aspose.words.fields/fieldadvance/verticalposition/
 ---
 ## FieldAdvance.VerticalPosition property
 
-Obtiene o establece el número de puntos por los que el texto que sigue al campo debe moverse verticalmente desde el borde superior de la página.
+Obtiene o establece el número de puntos en los que el texto que sigue al campo debe moverse verticalmente desde el borde superior de la página.
 
 ```csharp
 public string VerticalPosition { get; set; }
@@ -16,7 +16,7 @@ public string VerticalPosition { get; set; }
 
 ### Ejemplos
 
-Muestra cómo insertar un campo ADVANCE y editar sus propiedades.
+Muestra cómo insertar un campo AVANZADO y editar sus propiedades.
 
 ```csharp
 Document doc = new Document();
@@ -24,10 +24,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("This text is in its normal place.");
 
-// A continuación se muestran dos formas de usar el campo ADVANCE para ajustar la posición del texto que lo sigue.
-// Los efectos de un campo ADVANCE continúan aplicándose hasta que finaliza el párrafo,
+// A continuación se muestran dos formas de utilizar el campo AVANCE para ajustar la posición del texto que le sigue.
+// Los efectos de un campo AVANCE continúan aplicándose hasta que finaliza el párrafo,
 // u otro campo ADVANCE actualiza los valores de desplazamiento/coordenada.
-// 1 - Especifique un desplazamiento direccional:
+// 1 - Especifica un desplazamiento direccional:
 FieldAdvance field = (FieldAdvance)builder.InsertField(FieldType.FieldAdvance, true);
 field.RightOffset = "5";
 field.UpOffset = "5";
@@ -44,7 +44,7 @@ Assert.AreEqual(" ADVANCE  \\d 5 \\l 100", field.GetFieldCode());
 
 builder.Writeln("This text is moved down and to the left, overlapping the previous text.");
 
-// 2 - Mover texto a una posición especificada por coordenadas:
+// 2 - Mueve el texto a una posición especificada por coordenadas:
 field = (FieldAdvance)builder.InsertField(FieldType.FieldAdvance, true);
 field.HorizontalPosition = "-100";
 field.VerticalPosition = "200";

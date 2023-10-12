@@ -3,7 +3,7 @@ title: ShapeBase.IsLayoutInCell
 second_title: Aspose.Words für .NET-API-Referenz
 description: ShapeBase eigendom. Ruft ein Flag ab oder setzt es das angibt ob die Form innerhalb oder außerhalb einer Tabelle angezeigt wird.
 type: docs
-weight: 300
+weight: 310
 url: /de/net/aspose.words.drawing/shapebase/islayoutincell/
 ---
 ## ShapeBase.IsLayoutInCell property
@@ -16,13 +16,13 @@ public bool IsLayoutInCell { get; set; }
 
 ### Bemerkungen
 
-Der Standardwert ist **Stimmt**.
+Der Standardwert ist`WAHR`.
 
-Hat nur Auswirkungen auf Formen der obersten Ebene, die Eigenschaft[`WrapType`](../wraptype/) davon auf value außer gesetzt ist[`Inline`](../../../aspose.words/inline/).
+Hat nur Auswirkungen auf Formen der obersten Ebene, die Eigenschaft[`WrapType`](../wraptype/) davon ist auf value anders als gesetzt[`Inline`](../../../aspose.words/inline/).
 
 ### Beispiele
 
-Zeigt, wie Sie bestimmen, wie ein Shape in einer Tabellenzelle angezeigt wird.
+Zeigt, wie Sie bestimmen, wie eine Form in einer Tabellenzelle angezeigt wird.
 
 ```csharp
 Document doc = new Document();
@@ -48,15 +48,15 @@ builder.MoveTo(table.FirstRow.FirstCell.FirstParagraph);
 Shape shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPosition.LeftMargin, 50,
     RelativeVerticalPosition.TopMargin, 100, 100, 100, WrapType.None);
 
-// Setzen Sie die Eigenschaft "IsLayoutInCell" auf "true", um die Form als Inline-Element innerhalb des Absatzes der Zelle anzuzeigen.
+// Setzen Sie die Eigenschaft „IsLayoutInCell“ auf „true“, um die Form als Inline-Element innerhalb des Absatzes der Zelle anzuzeigen.
 // Der Koordinatenursprung, der die Position der Form bestimmt, ist die obere linke Ecke der Zelle der Form.
-// Wenn wir die Größe der Zelle ändern, bewegt sich die Form, um die gleiche Position beizubehalten, beginnend oben links in der Zelle.
-// Setzen Sie die Eigenschaft "IsLayoutInCell" auf "false", um die Form als unabhängige schwebende Form anzuzeigen.
-// Der Koordinatenursprung, der die Position der Form bestimmt, ist die obere linke Ecke der Seite,
+// Wenn wir die Größe der Zelle ändern, wird die Form verschoben, um die gleiche Position beizubehalten, beginnend oben links in der Zelle.
+// Setzen Sie die Eigenschaft „IsLayoutInCell“ auf „false“, um die Form als unabhängige schwebende Form anzuzeigen.
+// Der Koordinatenursprung, der die Position der Form bestimmt, ist die obere linke Ecke der Seite.
 // und die Form reagiert nicht auf eine Größenänderung ihrer Zelle.
 shape.IsLayoutInCell = isLayoutInCell;
 
-// Wir können die Eigenschaft "IsLayoutInCell" nur auf schwebende Formen anwenden.
+// Wir können die Eigenschaft „IsLayoutInCell“ nur auf schwebende Formen anwenden.
 shape.WrapType = WrapType.None;
 
 doc.Save(ArtifactsDir + "Shape.LayoutInTableCell.docx");

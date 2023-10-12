@@ -1,14 +1,16 @@
 ---
 title: Class FormFieldCollection
 second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Fields.FormFieldCollection clase. Una colección de Campo de formulario objetos que representan todos los campos de formulario en un rango.
+description: Aspose.Words.Fields.FormFieldCollection clase. Una colección deFormField objetos que representan todos los campos del formulario en un rango.
 type: docs
-weight: 2470
+weight: 2630
 url: /es/net/aspose.words.fields/formfieldcollection/
 ---
 ## FormFieldCollection class
 
-Una colección de **Campo de formulario** objetos que representan todos los campos de formulario en un rango.
+Una colección de[`FormField`](../formfield/) objetos que representan todos los campos del formulario en un rango.
+
+Para obtener más información, visite el[Trabajar con campos de formulario](https://docs.aspose.com/words/net/working-with-form-fields/) artículo de documentación.
 
 ```csharp
 public class FormFieldCollection : IEnumerable<FormField>
@@ -25,14 +27,14 @@ public class FormFieldCollection : IEnumerable<FormField>
 
 | Nombre | Descripción |
 | --- | --- |
-| [Clear](../../aspose.words.fields/formfieldcollection/clear/)() | Elimina todos los campos de formulario de esta colección y del documento. |
+| [Clear](../../aspose.words.fields/formfieldcollection/clear/)() | Elimina todos los campos del formulario de esta colección y del documento. |
 | [GetEnumerator](../../aspose.words.fields/formfieldcollection/getenumerator/)() | Devuelve un objeto enumerador. |
 | [Remove](../../aspose.words.fields/formfieldcollection/remove/)(string) | Elimina un campo de formulario con el nombre especificado. |
 | [RemoveAt](../../aspose.words.fields/formfieldcollection/removeat/)(int) | Elimina un campo de formulario en el índice especificado. |
 
 ### Ejemplos
 
-Muestra cómo insertar diferentes tipos de campos de formulario en un documento y procesarlos con una implementación de visitante de documentos.
+Muestra cómo insertar diferentes tipos de campos de formulario en un documento y procesarlos mediante una implementación de visitante de documentos.
 
 ```csharp
 public void Visitor()
@@ -40,7 +42,7 @@ public void Visitor()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Use un generador de documentos para insertar un cuadro combinado.
+    // Utilice un generador de documentos para insertar un cuadro combinado.
     builder.Write("Choose a value from this combo box: ");
     FormField comboBox = builder.InsertComboBox("MyComboBox", new[] { "One", "Two", "Three" }, 0);
     comboBox.CalculateOnExit = true;
@@ -50,7 +52,7 @@ public void Visitor()
 
     builder.InsertBreak(BreakType.ParagraphBreak);
 
-    // Use un generador de documentos para insertar una casilla de verificación.
+    // Utilice un generador de documentos para insertar una casilla de verificación.
     builder.Write("Click this check box to tick/untick it: ");
     FormField checkBox = builder.InsertCheckBox("MyCheckBox", false, 50);
     checkBox.IsCheckBoxExactSize = true;
@@ -64,7 +66,7 @@ public void Visitor()
 
     builder.InsertBreak(BreakType.ParagraphBreak);
 
-    // Use un generador de documentos para insertar un campo de formulario de entrada de texto.
+    // Utilice un generador de documentos para insertar un campo de formulario de entrada de texto.
     builder.Write("Enter text here: ");
     FormField textInput = builder.InsertTextInput("MyTextInput", TextFormFieldType.Regular, "", "Placeholder text", 50);
     textInput.EntryMacro = "EntryMacro";
@@ -79,7 +81,7 @@ public void Visitor()
     FormFieldCollection formFields = doc.Range.FormFields;
     Assert.AreEqual(3, formFields.Count);
 
-    // Los campos muestran nuestros campos de formulario. Podemos ver sus códigos de campo abriendo este documento
+    // Los campos muestran nuestros campos de formulario. Podemos ver sus códigos de campo abriendo este documento.
     // en Microsoft y presionando Alt + F9. Estos campos no tienen interruptores,
     // y los miembros del objeto FormField gobiernan completamente el contenido de sus campos de formulario.
     Assert.AreEqual(3, doc.Range.Fields.Count);
@@ -87,7 +89,7 @@ public void Visitor()
     Assert.AreEqual(" FORMCHECKBOX \u0001", doc.Range.Fields[1].GetFieldCode());
     Assert.AreEqual(" FORMTEXT \u0001", doc.Range.Fields[2].GetFieldCode());
 
-    // Permitir que cada campo de formulario acepte un visitante del documento.
+    // Permitir que cada campo del formulario acepte un visitante del documento.
     FormFieldVisitor formFieldVisitor = new FormFieldVisitor();
 
     using (IEnumerator<FormField> fieldEnumerator = formFields.GetEnumerator())
@@ -101,7 +103,7 @@ public void Visitor()
 }
 
 /// <summary>
-/// Implementación de visitante que imprime detalles de los campos de formulario que visita. 
+ /// Implementación del visitante que imprime detalles de los campos del formulario que visita.
 /// </summary>
 public class FormFieldVisitor : DocumentVisitor
 {
@@ -111,7 +113,7 @@ public class FormFieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Llamado cuando se encuentra un nodo FormField en el documento.
+    /// Se llama cuando se encuentra un nodo FormField en el documento.
     /// </summary>
     public override VisitorAction VisitFormField(FormField formField)
     {
@@ -150,7 +152,7 @@ public class FormFieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Obtiene el texto sin formato del documento que fue acumulado por el visitante.
+    /// Obtiene el texto sin formato del documento acumulado por el visitante.
     /// </summary>
     public string GetText()
     {

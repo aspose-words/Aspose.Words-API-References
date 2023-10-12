@@ -1,14 +1,16 @@
 ---
 title: Class SmartTag
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Markup.SmartTag сорт. Этот элемент указывает наличие смарттега вокруг одной или нескольких встроенных структур прогонов изображений полей и т. д. в абзаце.
+description: Aspose.Words.Markup.SmartTag сорт. Этот элемент определяет наличие смарттега вокруг одной или нескольких встроенных структур прогонов изображений полей и т. д. внутри абзаца.
 type: docs
-weight: 3810
+weight: 4050
 url: /ru/net/aspose.words.markup/smarttag/
 ---
 ## SmartTag class
 
-Этот элемент указывает наличие смарт-тега вокруг одной или нескольких встроенных структур (прогонов, изображений, полей и т. д.) в абзаце.
+Этот элемент определяет наличие смарт-тега вокруг одной или нескольких встроенных структур (прогонов, изображений, полей и т. д.) внутри абзаца.
+
+Чтобы узнать больше, посетите[Структурированные теги документа или контроль содержимого](https://docs.aspose.com/words/net/working-with-content-control-sdt/) статья документации.
 
 ```csharp
 public class SmartTag : CompositeNode
@@ -24,21 +26,20 @@ public class SmartTag : CompositeNode
 
 | Имя | Описание |
 | --- | --- |
-| [ChildNodes](../../aspose.words/compositenode/childnodes/) { get; } | Получает все непосредственные дочерние узлы этого узла. |
 | [Count](../../aspose.words/compositenode/count/) { get; } | Получает количество непосредственных дочерних элементов этого узла. |
-| [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Указывает идентификатор пользовательского узла. |
+| [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Указывает пользовательский идентификатор узла. |
 | virtual [Document](../../aspose.words/node/document/) { get; } | Получает документ, которому принадлежит этот узел. |
 | [Element](../../aspose.words.markup/smarttag/element/) { get; set; } | Указывает имя смарт-тега в документе. |
-| [FirstChild](../../aspose.words/compositenode/firstchild/) { get; } | Получает первого потомка узла. |
-| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Возвращает true, если у этого узла есть дочерние узлы. |
-| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Возвращает true, так как этот узел может иметь дочерние узлы. |
-| [LastChild](../../aspose.words/compositenode/lastchild/) { get; } | Получает последний дочерний элемент узла. |
+| [FirstChild](../../aspose.words/compositenode/firstchild/) { get; } | Получает первого дочернего элемента узла. |
+| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Возвращает`истинный` если у этого узла есть дочерние узлы. |
+| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Возвращает`истинный` поскольку этот узел может иметь дочерние узлы. |
+| [LastChild](../../aspose.words/compositenode/lastchild/) { get; } | Получает последнего дочернего узла узла. |
 | [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Получает узел, следующий сразу за этим узлом. |
-| override [NodeType](../../aspose.words.markup/smarttag/nodetype/) { get; } | Возвращает **NodeType.SmartTag** . |
+| override [NodeType](../../aspose.words.markup/smarttag/nodetype/) { get; } | ВозвращаетSmartTag . |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Получает непосредственного родителя этого узла. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Получает узел, непосредственно предшествующий этому узлу. |
-| [Properties](../../aspose.words.markup/smarttag/properties/) { get; } | Набор свойств смарт-тегов. |
-| [Range](../../aspose.words/node/range/) { get; } | Возвращает **Диапазон** объект, представляющий часть документа, содержащегося в этом узле. |
+| [Properties](../../aspose.words.markup/smarttag/properties/) { get; } | Коллекция свойств смарт-тегов. |
+| [Range](../../aspose.words/node/range/) { get; } | Возвращает[`Range`](../../aspose.words/range/) объект, представляющий часть документа, содержащуюся в этом узле. |
 | [Uri](../../aspose.words.markup/smarttag/uri/) { get; set; } | Указывает URI пространства имен смарт-тега. |
 
 ## Методы
@@ -46,37 +47,39 @@ public class SmartTag : CompositeNode
 | Имя | Описание |
 | --- | --- |
 | override [Accept](../../aspose.words.markup/smarttag/accept/)(DocumentVisitor) | Принимает посетителя. |
-| [AppendChild](../../aspose.words/compositenode/appendchild/)(Node) | Добавляет указанный узел в конец списка дочерних узлов для этого узла. |
+| override [AcceptEnd](../../aspose.words.markup/smarttag/acceptend/)(DocumentVisitor) |  |
+| override [AcceptStart](../../aspose.words.markup/smarttag/acceptstart/)(DocumentVisitor) |  |
+| [AppendChild&lt;T&gt;](../../aspose.words/compositenode/appendchild/)(T) |  |
 | [Clone](../../aspose.words/node/clone/)(bool) | Создает дубликат узла. |
-| [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Зарезервировано для системного использования. IXPathNavigable. |
+| [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Создает навигатор, который можно использовать для перемещения и чтения узлов. |
 | [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Получает первого предка указанного[`NodeType`](../../aspose.words/nodetype/) . |
 | [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Получает первого предка указанного типа объекта. |
 | [GetChild](../../aspose.words/compositenode/getchild/)(NodeType, int, bool) | Возвращает N-й дочерний узел, соответствующий указанному типу. |
-| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(NodeType, bool) | Возвращает динамическую коллекцию дочерних узлов, соответствующих указанному типу. |
+| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(NodeType, bool) | Возвращает живую коллекцию дочерних узлов, соответствующих указанному типу. |
 | [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() | Обеспечивает поддержку для каждой итерации стиля над дочерними узлами этого узла. |
 | override [GetText](../../aspose.words/compositenode/gettext/)() | Получает текст этого узла и всех его дочерних элементов. |
 | [IndexOf](../../aspose.words/compositenode/indexof/)(Node) | Возвращает индекс указанного дочернего узла в массиве дочерних узлов. |
-| [InsertAfter](../../aspose.words/compositenode/insertafter/)(Node, Node) | Вставляет указанный узел сразу после указанного ссылочного узла. |
-| [InsertBefore](../../aspose.words/compositenode/insertbefore/)(Node, Node) | Вставляет указанный узел непосредственно перед указанным ссылочным узлом. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Получает следующий узел в соответствии с алгоритмом обхода дерева предварительного порядка. |
-| [PrependChild](../../aspose.words/compositenode/prependchild/)(Node) | Добавляет указанный узел в начало списка дочерних узлов для этого узла. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Получает предыдущий узел в соответствии с алгоритмом обхода дерева предварительного порядка. |
-| [Remove](../../aspose.words/node/remove/)() | Удаляет себя из родителя. |
+| [InsertAfter&lt;T&gt;](../../aspose.words/compositenode/insertafter/)(T, Node) |  |
+| [InsertBefore&lt;T&gt;](../../aspose.words/compositenode/insertbefore/)(T, Node) |  |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Получает следующий узел в соответствии с алгоритмом обхода дерева предварительного заказа. |
+| [PrependChild&lt;T&gt;](../../aspose.words/compositenode/prependchild/)(T) |  |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Получает предыдущий узел в соответствии с алгоритмом обхода дерева предварительного заказа. |
+| [Remove](../../aspose.words/node/remove/)() | Удаляет себя от родителя. |
 | [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | Удаляет все дочерние узлы текущего узла. |
-| [RemoveChild](../../aspose.words/compositenode/removechild/)(Node) | Удаляет указанный дочерний узел. |
-| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Удаляет все`SmartTag` узлы-потомки текущего узла. |
+| [RemoveChild&lt;T&gt;](../../aspose.words/compositenode/removechild/)(T) |  |
+| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Удаляет все`SmartTag`узлы-потомки текущего узла. |
 | [SelectNodes](../../aspose.words/compositenode/selectnodes/)(string) | Выбирает список узлов, соответствующих выражению XPath. |
-| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | Выбирает первый узел, соответствующий выражению XPath. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Экспортирует содержимое узла в строку в указанном формате. |
+| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | Выбирает первый[`Node`](../../aspose.words/node/) которое соответствует выражению XPath. |
+| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Экспортирует содержимое узла в строку указанного формата. |
 | [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Экспортирует содержимое узла в строку, используя указанные параметры сохранения. |
 
 ### Примечания
 
-Смарт-теги — это своего рода пользовательская XML-разметка. Смарт-теги обеспечивают возможность встраивания определяемой пользователем семантики в документ посредством предоставления базового пространства имен/имени для запуска или набора запусков в документе.
+Смарт-теги — это разновидность пользовательской разметки XML. Смарт-теги предоставляют возможность внедрения семантики , определяемой клиентом, в документ посредством возможности предоставления базового пространства имен/имени для запуска или набора запусков в документе.
 
 `SmartTag` может быть ребенком[`Paragraph`](../../aspose.words/paragraph/) или другой`SmartTag` узел.
 
-Полный список дочерних узлов, которые могут встречаться внутри смарт-тега, состоит из [`BookmarkStart`](../../aspose.words/bookmarkstart/) ,[`BookmarkEnd`](../../aspose.words/bookmarkend/) , [`FieldStart`](../../aspose.words.fields/fieldstart/) ,[`FieldSeparator`](../../aspose.words.fields/fieldseparator/) ,[`FieldEnd`](../../aspose.words.fields/fieldend/) ,[`FormField`](../../aspose.words.fields/formfield/) , [`Comment`](../../aspose.words/comment/) ,[`Footnote`](../../aspose.words.notes/footnote/) , [`Run`](../../aspose.words/run/) ,[`SpecialChar`](../../aspose.words/specialchar/) , [`Shape`](../../aspose.words.drawing/shape/) ,[`GroupShape`](../../aspose.words.drawing/groupshape/) , [`CommentRangeStart`](../../aspose.words/commentrangestart/) , [`CommentRangeEnd`](../../aspose.words/commentrangeend/) , `SmartTag`.
+Полный список дочерних узлов, которые могут встречаться внутри смарт-тега, состоит из .[`BookmarkStart`](../../aspose.words/bookmarkstart/) ,[`BookmarkEnd`](../../aspose.words/bookmarkend/) , [`FieldStart`](../../aspose.words.fields/fieldstart/) ,[`FieldSeparator`](../../aspose.words.fields/fieldseparator/) ,[`FieldEnd`](../../aspose.words.fields/fieldend/) ,[`FormField`](../../aspose.words.fields/formfield/) , [`Comment`](../../aspose.words/comment/) ,[`Footnote`](../../aspose.words.notes/footnote/) , [`Run`](../../aspose.words/run/) ,[`SpecialChar`](../../aspose.words/specialchar/) , [`Shape`](../../aspose.words.drawing/shape/) ,[`GroupShape`](../../aspose.words.drawing/groupshape/) , [`CommentRangeStart`](../../aspose.words/commentrangestart/) , [`CommentRangeEnd`](../../aspose.words/commentrangeend/) , `SmartTag`.
 
 ### Примеры
 
@@ -87,15 +90,15 @@ public void Create()
 {
     Document doc = new Document();
 
-    // Смарт-тег появляется в документе, в котором Microsoft Word распознает часть своего текста как некую форму данных,
-    // таких как имя, дата или адрес, и преобразует их в гиперссылку, которая подчеркнута фиолетовой пунктирной линией.
+    // Смарт-тег появляется в документе, когда Microsoft Word распознает часть его текста как некоторую форму данных,
+    // например, имя, дата или адрес, и преобразует его в гиперссылку, подчеркнутую фиолетовым пунктиром.
     SmartTag smartTag = new SmartTag(doc);
 
-    // Смарт-теги — это составные узлы, содержащие полностью распознанный текст.
-    // Добавляем содержимое в этот смарт-тег вручную.
+    // Смарт-теги — это составные узлы, которые полностью содержат распознанный текст.
+    // Добавьте содержимое в этот смарт-тег вручную.
     smartTag.AppendChild(new Run(doc, "May 29, 2019"));
 
-    // Microsoft Word может распознать вышеуказанное содержимое как дату.
+    // Microsoft Word может распознать приведенное выше содержимое как дату.
     // Смарт-теги используют свойство «Элемент», чтобы отразить тип содержащихся в них данных.
     smartTag.Element = "date";
 
@@ -110,7 +113,7 @@ public void Create()
     doc.FirstSection.Body.FirstParagraph.AppendChild(smartTag);
     doc.FirstSection.Body.FirstParagraph.AppendChild(new Run(doc, " is a date. "));
 
-    // Создайте еще один смарт-тег для бегущей строки.
+    // Создайте еще один смарт-тег для биржевого тикера.
     smartTag = new SmartTag(doc);
     smartTag.Element = "stockticker";
     smartTag.Uri = "urn:schemas-microsoft-com:office:smarttags";
@@ -120,7 +123,7 @@ public void Create()
     doc.FirstSection.Body.FirstParagraph.AppendChild(smartTag);
     doc.FirstSection.Body.FirstParagraph.AppendChild(new Run(doc, " is a stock ticker."));
 
-    // Печатаем все смарт-теги в нашем документе с помощью посетителя документа.
+    // Распечатываем все смарт-теги в нашем документе с помощью посетителя документа.
     doc.Accept(new SmartTagPrinter());
 
     // Старые версии Microsoft Word поддерживают смарт-теги.
@@ -135,7 +138,7 @@ public void Create()
 }
 
 /// <summary>
-/// Выводит посещенные смарт-теги и их содержимое.
+/// Распечатывает посещенные смарт-теги и их содержимое.
 /// </summary>
 private class SmartTagPrinter : DocumentVisitor
 {
@@ -149,7 +152,7 @@ private class SmartTagPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается, когда посещение узла SmartTag завершено.
+    /// Вызывается при завершении посещения узла SmartTag.
     /// </summary>
     public override VisitorAction VisitSmartTagEnd(SmartTag smartTag)
     {

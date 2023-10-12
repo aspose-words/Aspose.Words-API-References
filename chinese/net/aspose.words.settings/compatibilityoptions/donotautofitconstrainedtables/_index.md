@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.DoNotAutofitConstrainedTables
 second_title: Aspose.Words for .NET API 参考
-description: CompatibilityOptions 财产. 不自动调整表格以适合包裹的对象
+description: CompatibilityOptions 财产. 不要自动调整表格以适合包裹对象旁边
 type: docs
 weight: 120
 url: /zh/net/aspose.words.settings/compatibilityoptions/donotautofitconstrainedtables/
 ---
 ## CompatibilityOptions.DoNotAutofitConstrainedTables property
 
-不自动调整表格以适合包裹的对象。
+不要自动调整表格以适合包裹对象旁边。
 
 ```csharp
 public bool DoNotAutofitConstrainedTables { get; set; }

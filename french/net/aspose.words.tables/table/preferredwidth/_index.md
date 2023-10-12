@@ -20,7 +20,7 @@ La valeur par défaut est[`Auto`](../../preferredwidth/auto/).
 
 ### Exemples
 
-Montre comment définir un tableau pour qu'il s'adapte automatiquement à 50 % de la largeur de la page.
+Montre comment définir un tableau pour qu'il s'ajuste automatiquement à 50 % de la largeur de la page.
 
 ```csharp
 Document doc = new Document();

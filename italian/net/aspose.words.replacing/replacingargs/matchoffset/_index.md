@@ -19,6 +19,7 @@ public int MatchOffset { get; }
 Mostra come applicare un carattere diverso al nuovo contenuto tramite FindReplaceOptions.
 
 ```csharp
+public void ConvertNumbersToHexadecimal()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -27,10 +28,10 @@ Mostra come applicare un carattere diverso al nuovo contenuto tramite FindReplac
     builder.Writeln("Numbers that the find-and-replace operation will convert to hexadecimal and highlight:\n" +
                     "123, 456, 789 and 17379.");
 
-    // Possiamo usare un oggetto "FindReplaceOptions" per modificare il processo di ricerca e sostituzione.
+    // Possiamo utilizzare un oggetto "FindReplaceOptions" per modificare il processo di ricerca e sostituzione.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // Imposta la proprietà "HighlightColor" su un colore di sfondo che vogliamo applicare al testo risultante dell'operazione.
+    // Imposta la proprietà "HighlightColor" su un colore di sfondo che vogliamo applicare al testo risultante dall'operazione.
     options.ApplyFont.HighlightColor = Color.LightGray;
 
     NumberHexer numberHexer = new NumberHexer();

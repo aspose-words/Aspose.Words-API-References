@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.ExportShapesAsSvg
 second_title: Aspose.Words for .NET API Referansı
-description: HtmlSaveOptions mülk. Shape düğümler HTML MHTML veya EPUBa kaydedilirken SVG görüntülerine dönüştürülür. Varsayılan değeryanlış .
+description: HtmlSaveOptions mülk. olup olmadığını kontrol ederShapedüğümler yi HTML MHTML EPUB veya AZW3e kaydederken SVG görüntülerine dönüştürülür. Varsayılan değerYANLIŞ .
 type: docs
-weight: 260
+weight: 250
 url: /tr/net/aspose.words.saving/htmlsaveoptions/exportshapesassvg/
 ---
 ## HtmlSaveOptions.ExportShapesAsSvg property
 
-[`Shape`](../../../aspose.words.drawing/shape/) düğümler, HTML, MHTML veya EPUB'a kaydedilirken SVG görüntülerine dönüştürülür. Varsayılan değer`yanlış` .
+olup olmadığını kontrol eder[`Shape`](../../../aspose.words.drawing/shape/)düğümler 'yi HTML, MHTML, EPUB veya AZW3'e kaydederken SVG görüntülerine dönüştürülür. Varsayılan değer:`YANLIŞ` .
 
 ```csharp
 public bool ExportShapesAsSvg { get; set; }
@@ -16,9 +16,7 @@ public bool ExportShapesAsSvg { get; set; }
 
 ### Notlar
 
-Bu seçenek olarak ayarlanırsa`doğru` ,[`Shape`](../../../aspose.words.drawing/shape/) düğümler &lt;svg&gt; öğeleri olarak dışa aktarılır. Aksi takdirde, bit eşlemlere dönüştürülür ve &lt;img&gt; öğeleri olarak dışa aktarılır.
-
-Bu seçeneklerin metin kutularını da etkilediğini unutmayın, çünkü bunlar[`Shape`](../../../aspose.words.drawing/shape/) Nodes. Sonuç olarak, bu seçenek olarak ayarlanırsa`doğru` , geçersiz kılarExportTextBoxAsSvgproperty değeri ve metin kutularının SVG'ye dönüştürülmesine neden olur.
+Bu seçenek şu şekilde ayarlanırsa`doğru` ,[`Shape`](../../../aspose.words.drawing/shape/) düğümler &lt;svg&gt; öğeleri olarak dışa aktarılır. Aksi takdirde, bitmaplere dönüştürülür ve &lt;img&gt; öğeleri olarak dışa aktarılır.
 
 ### Örnekler
 
@@ -32,12 +30,12 @@ Shape textBox = builder.InsertShape(ShapeType.TextBox, 100.0, 60.0);
 builder.MoveTo(textBox.FirstParagraph);
 builder.Write("My text box");
 
-// Belgeyi HTML'ye kaydettiğimizde, SaveOptions nesnesini iletebiliriz
+// Belgeyi HTML'ye kaydettiğimizde SaveOptions nesnesini iletebiliriz
 // kaydetme işleminin metin kutusu şekillerini nasıl dışa aktaracağını belirlemek için.
-// "ExportTextBoxAsSvg" bayrağını "true" olarak ayarlarsak,
-// kaydetme işlemi, metin içeren şekilleri SVG nesnelerine dönüştürecektir.
-// "ExportTextBoxAsSvg" bayrağını "false" olarak ayarlarsak,
-// kaydetme işlemi, metin içeren şekilleri resimlere dönüştürecektir.
+// "ExportTextBoxAsSvg" flagını "true" olarak ayarlarsak,
+// kaydetme işlemi metin içeren şekilleri SVG nesnelerine dönüştürecektir.
+// "ExportTextBoxAsSvg" flagını "false" olarak ayarlarsak,
+// kaydetme işlemi metin içeren şekilleri görsellere dönüştürecektir.
 HtmlSaveOptions options = new HtmlSaveOptions { ExportShapesAsSvg = exportShapesAsSvg };
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.ExportTextBox.html", options);

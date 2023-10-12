@@ -1,14 +1,14 @@
 ---
 title: Enum FieldType
 second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Fields.FieldType enumeración. Especifica los tipos de campo de Microsoft Word.
+description: Aspose.Words.Fields.FieldType enumeración. Especifica los tipos de campos de Microsoft Word.
 type: docs
-weight: 2390
+weight: 2540
 url: /es/net/aspose.words.fields/fieldtype/
 ---
 ## FieldType enumeration
 
-Especifica los tipos de campo de Microsoft Word.
+Especifica los tipos de campos de Microsoft Word.
 
 ```csharp
 public enum FieldType
@@ -18,25 +18,25 @@ public enum FieldType
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| FieldNone | `0` | Tipo de campo no especificado o desconocido. |
+| FieldNone | `0` | El tipo de campo no está especificado o es desconocido. |
 | FieldCannotParse | `1` | Especifica que el campo no se pudo analizar. |
 | FieldAddin | `81` | Especifica el campo ADDIN. |
-| FieldAddressBlock | `93` | Especifica el campo DIRECCIÓN BLOQUE. |
-| FieldAdvance | `84` | Especifica el campo ADVANCE. |
-| FieldAsk | `38` | Especifica el campo ASK. |
+| FieldAddressBlock | `93` | Especifica el campo BLOQUE DE DIRECCIONES. |
+| FieldAdvance | `84` | Especifica el campo AVANCE. |
+| FieldAsk | `38` | Especifica el campo PREGUNTAR. |
 | FieldAuthor | `17` | Especifica el campo AUTOR. |
 | FieldAutoNum | `54` | Especifica el campo AUTONUM. |
 | FieldAutoNumLegal | `53` | Especifica el campo AUTONUMLGL. |
 | FieldAutoNumOutline | `52` | Especifica el campo AUTONUMOUT. |
-| FieldAutoText | `79` | Especifica el campo AUTOTEXT. |
+| FieldAutoText | `79` | Especifica el campo AUTOTEXTO. |
 | FieldAutoTextList | `89` | Especifica el campo AUTOTEXTLIST. |
 | FieldBarcode | `63` | Especifica el campo CÓDIGO DE BARRAS. |
 | FieldBibliography | `100500` | Especifica el campo BIBLIOGRAFÍA. |
 | FieldBidiOutline | `92` | Especifica el campo BIDIOUTLINE. |
-| FieldCitation | `1980` | Especifica el campo CITATION. |
+| FieldCitation | `1980` | Especifica el campo CITACIÓN. |
 | FieldComments | `19` | Especifica el campo COMENTARIOS. |
 | FieldCompare | `80` | Especifica el campo COMPARAR. |
-| FieldCreateDate | `21` | Especifica el campo CREATEDATE. |
+| FieldCreateDate | `21` | Especifica el campo CREADOATE. |
 | FieldData | `40` | Especifica el campo DATOS. |
 | FieldDatabase | `78` | Especifica el campo BASE DE DATOS. |
 | FieldDate | `31` | Especifica el campo FECHA. |
@@ -50,31 +50,31 @@ public enum FieldType
 | FieldEmbed | `58` | Especifica el campo EMBED. |
 | FieldEquation | `49` | Especifica el campo EQ. |
 | FieldFileName | `29` | Especifica el campo NOMBRE DE ARCHIVO. |
-| FieldFileSize | `69` | Especifica el campo TAMAÑO DEL ARCHIVO. |
-| FieldFillIn | `39` | Especifica el campo RELLENO. |
+| FieldFileSize | `69` | Especifica el campo FILESIZE. |
+| FieldFillIn | `39` | Especifica el campo FILLIN. |
 | FieldFootnoteRef | `5` | Especifica el campo FOOTNOTEREF. |
 | FieldFormCheckBox | `71` | Especifica el campo FORMCHECKBOX. |
 | FieldFormDropDown | `83` | Especifica el campo FORMDROPDOWN. |
 | FieldFormTextInput | `70` | Especifica el campo FORMTEXT. |
 | FieldFormula | `34` | Especifica el campo = (fórmula). |
-| FieldGreetingLine | `94` | Especifica el campo LÍNEA DE SALUDO. |
+| FieldGreetingLine | `94` | Especifica el campo GREETINGLINE. |
 | FieldGlossary | `47` | Especifica el campo GLOSARIO. |
 | FieldGoToButton | `50` | Especifica el campo GOTOBUTTON. |
 | FieldHtmlActiveX | `91` | Especifica el campo que representa un control HTML. |
-| FieldHyperlink | `88` | Especifica el campo HIPERVINCULO. |
-| FieldIf | `7` | Especifica el campo IF. |
-| FieldInclude | `36` | Especifica el campo INCLUYE. |
+| FieldHyperlink | `88` | Especifica el campo HIPERVÍNCULO. |
+| FieldIf | `7` | Especifica el campo SI. |
+| FieldInclude | `36` | Especifica el campo INCLUDE. |
 | FieldIncludePicture | `67` | Especifica el campo INCLUDEPICTURE. |
-| FieldIncludeText | `68` | Especifica el campo INCLUYETEXTO. |
+| FieldIncludeText | `68` | Especifica el campo INCLUDETEXT. |
 | FieldIndex | `8` | Especifica el campo ÍNDICE. |
 | FieldIndexEntry | `4` | Especifica el campo XE. |
-| FieldInfo | `14` | Especifica el campo INFO. |
+| FieldInfo | `14` | Especifica el campo INFORMACIÓN. |
 | FieldImport | `55` | Especifica el campo IMPORTAR. |
 | FieldKeyword | `18` | Especifica el campo PALABRAS CLAVE. |
 | FieldLastSavedBy | `20` | Especifica el campo LASTSAVEDBY. |
 | FieldLink | `56` | Especifica el campo ENLACE. |
 | FieldListNum | `90` | Especifica el campo LISTNUM. |
-| FieldMacroButton | `51` | Especifica el campo MACROBOTÓN. |
+| FieldMacroButton | `51` | Especifica el campo MACROBUTTON. |
 | FieldMergeField | `59` | Especifica el campo MERGEFIELD. |
 | FieldMergeRec | `44` | Especifica el campo MERGEREC. |
 | FieldMergeSeq | `75` | Especifica el campo MERGESEQ. |
@@ -112,13 +112,13 @@ public enum FieldType
 | FieldTOAEntry | `74` | Especifica el campo TA. |
 | FieldTOC | `13` | Especifica el campo TOC. |
 | FieldTOCEntry | `9` | Especifica el campo TC. |
-| FieldUserAddress | `62` | Especifica el campo DIRECCIÓN DE USUARIO. |
-| FieldUserInitials | `61` | Especifica el campo USERINITIALS. |
+| FieldUserAddress | `62` | Especifica el campo USERADDRESS. |
+| FieldUserInitials | `61` | Especifica el campo USERINITIALES. |
 | FieldUserName | `60` | Especifica el campo NOMBRE DE USUARIO. |
 
 ### Ejemplos
 
-Muestra cómo insertar un campo en un documento utilizando un código de campo.
+Muestra cómo insertar un campo en un documento usando un código de campo.
 
 ```csharp
 Document doc = new Document();
@@ -149,13 +149,13 @@ Assert.AreEqual(FieldType.FieldDate, fieldStart.FieldType);
 Assert.AreEqual(false, fieldStart.IsDirty);
 Assert.AreEqual(false, fieldStart.IsLocked);
 
-// Recuperar el objeto de fachada que representa el campo en el documento.
+// Recupera el objeto de fachada que representa el campo en el documento.
 field = (FieldDate)fieldStart.GetField();
 
 Assert.AreEqual(false, field.IsLocked);
 Assert.AreEqual(" DATE  \\@ \"dddd, MMMM dd, yyyy\"", field.GetFieldCode());
 
-// Actualizar el campo para mostrar la fecha actual.
+// Actualiza el campo para mostrar la fecha actual.
 field.Update();
 ```
 

@@ -23,17 +23,17 @@ Document doc = new Document();
 FontSettings fontSettings = new FontSettings();
 doc.FontSettings = fontSettings;
 
-// FontSettings içinde varsayılan ikame kuralını alın.
-// Bu kural, tüm eksik yazı tiplerini "Times New Roman" ile değiştirecektir.
+// FontSettings'te varsayılan değiştirme kuralını alın.
+// Bu kural, eksik olan tüm yazı tiplerini "Times New Roman" ile değiştirecektir.
 DefaultFontSubstitutionRule defaultFontSubstitutionRule =
     fontSettings.SubstitutionSettings.DefaultFontSubstitution;
 Assert.True(defaultFontSubstitutionRule.Enabled);
 Assert.AreEqual("Times New Roman", defaultFontSubstitutionRule.DefaultFontName);
 
-// Varsayılan yazı tipi yerine "Courier New" olarak ayarlayın.
+// Varsayılan yazı tipi alternatifini "Courier New" olarak ayarlayın.
 defaultFontSubstitutionRule.DefaultFontName = "Courier New";
 
-// Bir belge oluşturucu kullanarak, ikamenin gerçekleştiğini görmemize gerek olmayan bir yazı tipine biraz metin ekleyin,
+// Bir belge oluşturucu kullanarak, yazı tipine, değişikliğin gerçekleştiğini görmek zorunda kalmayacağımız bir miktar metin ekleyin,
 // ve ardından sonucu bir PDF'ye dönüştürün.
 DocumentBuilder builder = new DocumentBuilder(doc);
 

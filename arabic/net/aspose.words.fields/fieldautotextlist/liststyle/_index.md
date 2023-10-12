@@ -1,14 +1,14 @@
 ---
 title: FieldAutoTextList.ListStyle
 second_title: Aspose.Words لمراجع .NET API
-description: FieldAutoTextList ملكية. الحصول على أو تحديد اسم النمط الذي تستند إليه القائمة التي ستحتوي على الإدخالات .
+description: FieldAutoTextList ملكية. الحصول على أو تعيين اسم النمط الذي تعتمد عليه القائمة التي تحتوي على إدخالات.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/fieldautotextlist/liststyle/
 ---
 ## FieldAutoTextList.ListStyle property
 
-الحصول على أو تحديد اسم النمط الذي تستند إليه القائمة التي ستحتوي على الإدخالات .
+الحصول على أو تعيين اسم النمط الذي تعتمد عليه القائمة التي تحتوي على إدخالات.
 
 ```csharp
 public string ListStyle { get; set; }
@@ -19,10 +19,11 @@ public string ListStyle { get; set; }
 يوضح كيفية استخدام حقل AUTOTEXTLIST للاختيار من قائمة إدخالات النص التلقائي.
 
 ```csharp
+public void FieldAutoTextList()
 {
     Document doc = new Document();
 
-    // إنشاء مستند مسرد وتعبئته بإدخالات نصية آلية.
+    // قم بإنشاء مستند معجم وقم بتعبئته بإدخالات نصية تلقائية.
     doc.GlossaryDocument = new GlossaryDocument();
     AppendAutoTextEntry(doc.GlossaryDocument, "AutoText 1", "Contents of AutoText 1");
     AppendAutoTextEntry(doc.GlossaryDocument, "AutoText 2", "Contents of AutoText 2");
@@ -30,8 +31,8 @@ public string ListStyle { get; set; }
 
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // قم بإنشاء حقل AUTOTEXTLIST وعيّن النص الذي سيعرضه الحقل في Microsoft Word.
-    // قم بتعيين النص لمطالبة المستخدم بالنقر بزر الماوس الأيمن فوق هذا الحقل لتحديد كتلة إنشاء نص تلقائي ،
+    // أنشئ حقل قائمة نصوص تلقائية وقم بتعيين النص الذي سيعرضه الحقل في Microsoft Word.
+    // قم بتعيين النص لمطالبة المستخدم بالنقر بزر الماوس الأيمن فوق هذا الحقل لتحديد كتلة إنشاء النص التلقائي،
     // الذي سيتم عرض محتوياته في الحقل.
     FieldAutoTextList field = (FieldAutoTextList)builder.InsertField(FieldType.FieldAutoTextList, true);
     field.EntryName = "Right click here to select an AutoText block";
@@ -43,9 +44,10 @@ public string ListStyle { get; set; }
                     "\\t \"Hover tip text for AutoTextList goes here\"", field.GetFieldCode());
 
     doc.Save(ArtifactsDir + "Field.AUTOTEXTLIST.dotx");
+}
 
 /// <summary>
-/// إنشاء كتلة إنشاء من نوع النص التلقائي وإضافتها إلى مستند مسرد.
+/// قم بإنشاء كتلة إنشاء من نوع النص التلقائي وأضفها إلى مستند المسرد.
 /// </summary>
 private static void AppendAutoTextEntry(GlossaryDocument glossaryDoc, string name, string contents)
 {

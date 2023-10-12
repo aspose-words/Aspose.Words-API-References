@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.ExportLanguageInformation
 second_title: Aspose.Words لمراجع .NET API
-description: HtmlSaveOptions ملكية. يحدد ما إذا كان سيتم تصدير معلومات اللغة إلى HTML أو MHTML أو EPUB. الافتراضي هوخاطئة .
+description: HtmlSaveOptions ملكية. يحدد ما إذا كان سيتم تصدير معلومات اللغة إلى HTML أو MHTML أو EPUB. الإعداد الافتراضي هوخطأ شنيع .
 type: docs
-weight: 190
+weight: 180
 url: /ar/net/aspose.words.saving/htmlsaveoptions/exportlanguageinformation/
 ---
 ## HtmlSaveOptions.ExportLanguageInformation property
 
-يحدد ما إذا كان سيتم تصدير معلومات اللغة إلى HTML أو MHTML أو EPUB. الافتراضي هو`خاطئة` .
+يحدد ما إذا كان سيتم تصدير معلومات اللغة إلى HTML أو MHTML أو EPUB. الإعداد الافتراضي هو`خطأ شنيع` .
 
 ```csharp
 public bool ExportLanguageInformation { get; set; }
@@ -16,17 +16,17 @@ public bool ExportLanguageInformation { get; set; }
 
 ### ملاحظات
 
-عندما يتم تعيين هذه الخاصية على`حقيقي` مخرجات Aspose.Words **لانج** سمة HTML في عناصر document التي تحدد اللغة. يمكن أن يكون هذا ضروريًا للحفاظ على الدلالات اللغوية ذات الصلة.
+عندما يتم تعيين هذه الخاصية إلى`حقيقي` Aspose.Words النواتج **لانج** سمة HTML في عناصر document التي تحدد اللغة. قد يكون هذا ضروريًا للحفاظ على الدلالات المتعلقة باللغة.
 
 ### أمثلة
 
-يوضح كيفية الحفاظ على معلومات اللغة عند الحفظ في .html.
+يوضح كيفية الحفاظ على معلومات اللغة عند الحفظ إلى .html.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// استخدم المنشئ لكتابة نص أثناء تنسيقه بلغات مختلفة.
+// استخدم المنشئ لكتابة النص أثناء تنسيقه في مناطق مختلفة.
 builder.Font.LocaleId = new CultureInfo("en-US").LCID;
 builder.Writeln("Hello world!");
 
@@ -36,12 +36,12 @@ builder.Writeln("Hello again!");
 builder.Font.LocaleId = new CultureInfo("ru-RU").LCID;
 builder.Write("Привет, мир!");
 
-// عند حفظ المستند إلى HTML ، يمكننا تمرير كائن SaveOptions
-// إما للاحتفاظ أو تجاهل الإعدادات المحلية لكل نص منسق.
-// إذا قمنا بتعيين علامة "ExportLanguageInformation" على "true" ،
-// سيحتوي مستند HTML الناتج على اللغات في سمات "lang" لـ < span > العلامات.
-// إذا قمنا بتعيين علامة "ExportLanguageInformation" على "خطأ" ،
-// لن يحتوي النص الموجود في مستند HTML الناتج على أية معلومات محلية.
+// عند حفظ المستند إلى HTML، يمكننا تمرير كائن SaveOptions
+// إما للحفاظ على لغة كل نص منسق أو تجاهلها.
+// إذا قمنا بتعيين علامة "ExportLanguageInformation" على "صحيح"،
+// سيحتوي مستند HTML الناتج على الإعدادات المحلية في سمات "lang" الخاصة بـ <span> العلامات.
+// إذا قمنا بتعيين علامة "ExportLanguageInformation" على "خطأ"،
+// لن يحتوي النص الموجود في مستند HTML الناتج على أي معلومات محلية.
 HtmlSaveOptions options = new HtmlSaveOptions
 {
     ExportLanguageInformation = exportLanguageInformation,

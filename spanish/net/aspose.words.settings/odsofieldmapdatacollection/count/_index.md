@@ -1,14 +1,14 @@
 ---
 title: OdsoFieldMapDataCollection.Count
 second_title: Referencia de API de Aspose.Words para .NET
-description: OdsoFieldMapDataCollection propiedad. Obtiene el número de elementos que contiene la colección.
+description: OdsoFieldMapDataCollection propiedad. Obtiene el número de elementos contenidos en la colección.
 type: docs
 weight: 20
 url: /es/net/aspose.words.settings/odsofieldmapdatacollection/count/
 ---
 ## OdsoFieldMapDataCollection.Count property
 
-Obtiene el número de elementos que contiene la colección.
+Obtiene el número de elementos contenidos en la colección.
 
 ```csharp
 public int Count { get; }
@@ -16,13 +16,13 @@ public int Count { get; }
 
 ### Ejemplos
 
-Muestra cómo acceder a la colección de datos que asigna columnas de fuentes de datos a campos combinados.
+Muestra cómo acceder a la colección de datos que asigna columnas de origen de datos para fusionar campos.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
 
-// Esta colección define cómo una combinación de correo mapeará las columnas de una fuente de datos
-// a los campos MERGEFIELD, ADRESSBLOCK y GREETINGLINE predefinidos.
+// Esta colección define cómo una combinación de correspondencia asignará columnas de una fuente de datos
+// a los campos predefinidos MERGEFIELD, ADDRESSBLOCK y GREETINGLINE.
 OdsoFieldMapDataCollection dataCollection = doc.MailMergeSettings.Odso.FieldMapDatas;
 Assert.AreEqual(30, dataCollection.Count);
 
@@ -43,12 +43,12 @@ using (IEnumerator<OdsoFieldMapData> enumerator = dataCollection.GetEnumerator()
 // Clona los elementos de esta colección.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Usar los elementos del método "RemoveAt" individualmente por índice.
+// Utiliza los elementos del método "RemoveAt" individualmente por índice.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(29, dataCollection.Count);
 
-// Use el método "Borrar" para borrar toda la colección a la vez.
+// Utilice el método "Borrar" para borrar toda la colección a la vez.
 dataCollection.Clear();
 
 Assert.AreEqual(0, dataCollection.Count);

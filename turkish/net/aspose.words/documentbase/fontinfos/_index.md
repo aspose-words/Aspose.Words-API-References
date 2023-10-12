@@ -16,19 +16,19 @@ public FontInfoCollection FontInfos { get; }
 
 ### Notlar
 
-Bu yazı tipi tanımları koleksiyonu, belgeden olduğu gibi yüklenir. Bazı belgelerde yazı tipi tanımları isteğe bağlı, eksik veya eksik olabilir.
+Bu yazı tipi tanımları koleksiyonu belgedeki haliyle yüklenmiştir. Yazı tipi tanımları bazı belgelerde isteğe bağlı, eksik veya eksik olabilir.
 
-Belgede belirli bir yazı tipinin kullanıldığını belirlemek için bu koleksiyona güvenmeyin. Bu koleksiyonu yalnızca belgede kullanılabilecek yazı tipleri hakkında bilgi almak için kullanmalısınız.
+Belgede belirli bir yazı tipinin kullanıldığını tespit etmek için bu koleksiyona güvenmeyin. Bu koleksiyonu yalnızca belgede kullanılabilecek yazı tipleri hakkında bilgi almak için kullanmalısınız.
 
 ### Örnekler
 
-Bir belgede hangi yazı tiplerinin bulunduğunun ayrıntılarının nasıl yazdırılacağını gösterir.
+Bir belgede hangi yazı tiplerinin mevcut olduğuna ilişkin ayrıntıların nasıl yazdırılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Embedded font.docx");
 
 FontInfoCollection allFonts = doc.FontInfos;
-// Belgedeki tüm kullanılmış ve kullanılmayan yazı tiplerini yazdırın.
+// Belgedeki tüm kullanılan ve kullanılmayan yazı tiplerini yazdırın.
 for (int i = 0; i < allFonts.Count; i++)
 {
     Console.WriteLine($"Font index #{i}");
@@ -37,7 +37,7 @@ for (int i = 0; i < allFonts.Count; i++)
 }
 ```
 
-Bir belgenin gömülü TrueType yazı tipleriyle nasıl kaydedileceğini gösterir.
+Gömülü TrueType yazı tiplerine sahip bir belgenin nasıl kaydedileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");

@@ -3,7 +3,7 @@ title: Enum TiffCompression
 second_title: Aspose.Words per .NET API Reference
 description: Aspose.Words.Saving.TiffCompression enum. Specifica il tipo di compressione da applicare quando si salvano le immagini della pagina in un file TIFF.
 type: docs
-weight: 5350
+weight: 5630
 url: /it/net/aspose.words.saving/tiffcompression/
 ---
 ## TiffCompression enumeration
@@ -34,12 +34,12 @@ Document doc = new Document();
 
             builder.InsertImage(ImageDir + "Logo.jpg");
 
-            // Crea un oggetto "ImageSaveOptions" che possiamo passare al metodo "Salva" del documento
-            // per modificare il modo in cui quel metodo esegue il rendering del documento in un'immagine.
+            // Crea un oggetto "ImageSaveOptions" che possiamo passare al metodo "Save" del documento
+            // per modificare il modo in cui il metodo trasforma il documento in un'immagine.
             ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Tiff);
 
             // Imposta la proprietà "TiffCompression" su "TiffCompression.None" per non applicare alcuna compressione durante il salvataggio,
-            // che potrebbe risultare in un file di output molto grande.
+            // il che potrebbe generare un file di output molto grande.
             // Imposta la proprietà "TiffCompression" su "TiffCompression.Rle" per applicare la compressione RLE
             // Imposta la proprietà "TiffCompression" su "TiffCompression.Lzw" per applicare la compressione LZW.
             // Imposta la proprietà "TiffCompression" su "TiffCompression.Ccitt3" per applicare la compressione CCITT3.

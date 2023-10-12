@@ -1,14 +1,14 @@
 ---
 title: PageInfo.PaperSize
 second_title: Aspose.Words لمراجع .NET API
-description: PageInfo ملكية. الحصول على حجم الورق كتعداد .
+description: PageInfo ملكية. الحصول على حجم الورق بالتعداد.
 type: docs
-weight: 30
+weight: 40
 url: /ar/net/aspose.words.rendering/pageinfo/papersize/
 ---
 ## PageInfo.PaperSize property
 
-الحصول على حجم الورق كتعداد .
+الحصول على حجم الورق بالتعداد.
 
 ```csharp
 public PaperSize PaperSize { get; }
@@ -21,8 +21,8 @@ public PaperSize PaperSize { get; }
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// يحتوي القسم الأول على صفحتين. سنقوم بتعيين درج ورق طابعة مختلف لكل واحد ،
-// الذي سيتطابق رقمه مع نوع مصدر الورق. هذه المصادر وأنواعها سوف تختلف
+// القسم الأول يحتوي على صفحتين. سنقوم بتخصيص درج ورق طابعة مختلف لكل واحد،
+// الذي سيتطابق رقمه مع نوع مصدر الورق. وسوف تختلف هذه المصادر وأنواعها
 // اعتمادًا على برنامج تشغيل الطابعة المثبت.
 PrinterSettings.PaperSourceCollection paperSources = new PrinterSettings().PaperSources;
 
@@ -36,7 +36,7 @@ float dpi = 96;
 
 for (int i = 0; i < doc.PageCount; i++)
 {
-    // تحتوي كل صفحة على كائن PageInfo ، والفهرس الخاص به هو رقم الصفحة المعنية.
+    // تحتوي كل صفحة على كائن PageInfo، والفهرس الخاص به هو رقم الصفحة المعنية.
     PageInfo pageInfo = doc.GetPageInfo(i);
 
     // اطبع اتجاه الصفحة وأبعادها.
@@ -46,7 +46,7 @@ for (int i = 0; i < doc.PageCount; i++)
     Console.WriteLine($"\tSize in points:\t{pageInfo.SizeInPoints}");
     Console.WriteLine($"\tSize in pixels:\t{pageInfo.GetSizeInPixels(1.0f, 96)} at {scale * 100}% scale, {dpi} dpi");
 
-    // اطبع معلومات علبة المصدر.
+    // اطبع معلومات الدرج المصدر.
     Console.WriteLine($"\tTray:\t{pageInfo.PaperTray}");
     PaperSource source = pageInfo.GetSpecifiedPrinterPaperSource(paperSources, paperSources[0]);
     Console.WriteLine($"\tSuitable print source:\t{source.SourceName}, kind: {source.Kind}");

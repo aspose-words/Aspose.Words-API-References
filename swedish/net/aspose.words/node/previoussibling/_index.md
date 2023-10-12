@@ -16,7 +16,7 @@ public Node PreviousSibling { get; }
 
 ### Anmärkningar
 
-Om det inte finns någon föregående nod, returneras en noll.
+Om det inte finns någon föregående nod, a`null` returneras.
 
 ### Exempel
 

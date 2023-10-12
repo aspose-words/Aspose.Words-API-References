@@ -16,21 +16,21 @@ public string ProgId { get; set; }
 
 ### Osservazioni
 
-La proprietà ProgID non è sempre presente nei documenti di Microsoft Word e non può essere considerata affidabile.
+La proprietà ProgID non è sempre presente nei documenti di Microsoft Word e non è affidabile.
 
-Non può essere nullo.
+Non può essere`nullo`.
 
 Il valore predefinito è una stringa vuota.
 
 ### Esempi
 
-Mostra come estrarre gli oggetti OLE incorporati nei file.
+Mostra come estrarre oggetti OLE incorporati nei file.
 
 ```csharp
 Document doc = new Document(MyDir + "OLE spreadsheet.docm");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 
-// L'oggetto OLE nella prima forma è un foglio di calcolo di Microsoft Excel.
+// L'oggetto OLE nella prima forma è un foglio di calcolo Microsoft Excel.
 OleFormat oleFormat = shape.OleFormat;
 
 Assert.AreEqual("Excel.Sheet.12", oleFormat.ProgId);
@@ -40,7 +40,7 @@ Assert.False(oleFormat.AutoUpdate);
 Assert.AreEqual(false, oleFormat.IsLocked);
 
 // Se intendiamo salvare l'oggetto OLE in un file nel file system locale,
-// possiamo utilizzare la proprietà "SuggestedExtension" per determinare quale estensione di file applicare al file.
+// possiamo utilizzare la proprietà "SuggestedExtension" per determinare quale estensione applicare al file.
 Assert.AreEqual(".xlsx", oleFormat.SuggestedExtension);
 
 // Di seguito sono riportati due modi per salvare un oggetto OLE in un file nel file system locale.

@@ -20,7 +20,7 @@ public bool HasDmlEffect(TextDmlEffect dmlEffectType)
 
 ### Rückgabewert
 
-True, wenn ein bestimmter DrawingML-Texteffekt angewendet wird.
+`WAHR` wenn ein bestimmter DrawingML-Texteffekt angewendet wird.
 
 ### Beispiele
 

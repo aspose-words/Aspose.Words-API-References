@@ -1,14 +1,14 @@
 ---
 title: HtmlFixedSaveOptions.SaveFontFaceCssSeparately
 second_title: Aspose.Words for .NET API Referansı
-description: HtmlFixedSaveOptions mülk. Bayrak bir belge harici stil sayfasıyla kaydedilirken yaniExportEmbeddedCssyanlış . Varsayılan değeryanlış  tüm CSS kuralları tek bir styles.css dosyasına yazılır.
+description: HtmlFixedSaveOptions mülk. Bayrak bir belge harici stil sayfasıyla kaydedilirken fontface CSS kurallarının ayrı bir fontFaces.css dosyasına yerleştirilmesi gerekip gerekmediğini belirtir yaniExportEmbeddedCss YANLIŞ . Varsayılan değerYANLIŞ  tüm CSS kuralları tek bir styles.css dosyasına yazılır.
 type: docs
 weight: 160
 url: /tr/net/aspose.words.saving/htmlfixedsaveoptions/savefontfacecssseparately/
 ---
 ## HtmlFixedSaveOptions.SaveFontFaceCssSeparately property
 
-Bayrak, bir belge harici stil sayfasıyla kaydedilirken (yani,[`ExportEmbeddedCss`](../exportembeddedcss/)`yanlış` ). Varsayılan değer`yanlış` , tüm CSS kuralları tek bir "styles.css" dosyasına yazılır.
+Bayrak, bir belge harici stil sayfasıyla kaydedilirken "@font-face" CSS kurallarının ayrı bir "fontFaces.css" dosyasına yerleştirilmesi gerekip gerekmediğini belirtir (yani,[`ExportEmbeddedCss`](../exportembeddedcss/) :`YANLIŞ` ). Varsayılan değer:`YANLIŞ` , tüm CSS kuralları tek bir "styles.css" dosyasına yazılır.
 
 ```csharp
 public bool SaveFontFaceCssSeparately { get; set; }
@@ -16,11 +16,11 @@ public bool SaveFontFaceCssSeparately { get; set; }
 
 ### Notlar
 
-Bu özelliğin ayarlanması`doğru` eski kodla uyumluluk için eski davranışı (ayrı dosyalar) geri yükler.
+Bu özelliği şuna ayarlıyoruz:`doğru` eski kodla uyumluluk için eski davranışı (ayrı dosyalar) geri yükler.
 
 ### Örnekler
 
-CSS'nin ayrı bir dosyaya nasıl yerleştirileceğini ve tüm CSS sınıf adlarına bir önek ekleneceğini gösterir.
+CSS'nin ayrı bir dosyaya nasıl yerleştirileceğini ve tüm CSS sınıfı adlarına nasıl önek ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Bookmarks.docx");

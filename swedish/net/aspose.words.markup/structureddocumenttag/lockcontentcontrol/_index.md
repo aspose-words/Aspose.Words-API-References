@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTag.LockContentControl
 second_title: Aspose.Words för .NET API Referens
-description: StructuredDocumentTag fast egendom. När den är satt till true kommer den här egenskapen att förbjuda en användare att ta bort detta SDT .
+description: StructuredDocumentTag fast egendom. När inställd påSann  kommer den här egenskapen att förbjuda en användare att ta bort detta SDT .
 type: docs
 weight: 190
 url: /sv/net/aspose.words.markup/structureddocumenttag/lockcontentcontrol/
 ---
 ## StructuredDocumentTag.LockContentControl property
 
-När den är satt till true kommer den här egenskapen att förbjuda en användare att ta bort detta **SDT** .
+När inställd på`Sann` , kommer den här egenskapen att förbjuda en användare att ta bort detta **SDT** .
 
 ```csharp
 public bool LockContentControl { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.IsAtStartOfParagraph
 second_title: Referencia de API de Aspose.Words para .NET
-description: DocumentBuilder propiedad. Devuelve verdadero si el cursor está al principio del párrafo actual sin texto antes del cursor.
+description: DocumentBuilder propiedad. Devolucionesverdadero si el cursor está al principio del párrafo actual no hay texto antes del cursor.
 type: docs
-weight: 110
+weight: 130
 url: /es/net/aspose.words/documentbuilder/isatstartofparagraph/
 ---
 ## DocumentBuilder.IsAtStartOfParagraph property
 
-Devuelve verdadero si el cursor está al principio del párrafo actual (sin texto antes del cursor).
+Devoluciones`verdadero` si el cursor está al principio del párrafo actual (no hay texto antes del cursor).
 
 ```csharp
 public bool IsAtStartOfParagraph { get; }
@@ -16,36 +16,36 @@ public bool IsAtStartOfParagraph { get; }
 
 ### Ejemplos
 
-Muestra cómo mover el cursor de un generador de documentos a diferentes nodos en un documento.
+Muestra cómo mover el cursor de un generador de documentos a diferentes nodos de un documento.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Crear un marcador válido, una entidad que consta de nodos encerrados por un nodo de inicio de marcador,
-  // y un nodo final de marcador.
+// Crea un marcador válido, una entidad que consta de nodos encerrados por un nodo de inicio del marcador,
+ // y un nodo final de marcador.
 builder.StartBookmark("MyBookmark");
 builder.Write("Bookmark contents.");
 builder.EndBookmark("MyBookmark");
 
-NodeCollection firstParagraphNodes = doc.FirstSection.Body.FirstParagraph.ChildNodes;
+NodeCollection firstParagraphNodes = doc.FirstSection.Body.FirstParagraph.GetChildNodes(NodeType.Any, false);
 
 Assert.AreEqual(NodeType.BookmarkStart, firstParagraphNodes[0].NodeType);
 Assert.AreEqual(NodeType.Run, firstParagraphNodes[1].NodeType);
 Assert.AreEqual("Bookmark contents.", firstParagraphNodes[1].GetText().Trim());
 Assert.AreEqual(NodeType.BookmarkEnd, firstParagraphNodes[2].NodeType);
 
-// El cursor del generador de documentos siempre está delante del último nodo que agregamos con él.
+// El cursor del generador de documentos siempre está delante del nodo que agregamos por última vez.
 // Si el cursor del constructor está al final del documento, su nodo actual será nulo.
 // El nodo anterior es el nodo final del marcador que agregamos por última vez.
 // Agregar nuevos nodos con el constructor los agregará al último nodo.
 Assert.Null(builder.CurrentNode);
 
 // Si deseamos editar una parte diferente del documento con el constructor,
-// necesitaremos llevar su cursor al nodo que deseamos editar.
+// necesitaremos llevar el cursor al nodo que deseamos editar.
 builder.MoveToBookmark("MyBookmark");
 
-// Moverlo a un marcador lo moverá al primer nodo dentro de los nodos de inicio y final del marcador, la ejecución adjunta.
+// Al moverlo a un marcador, se moverá al primer nodo dentro de los nodos de inicio y fin del marcador, la ejecución adjunta.
 Assert.AreEqual(firstParagraphNodes[1], builder.CurrentNode);
 
 // También podemos mover el cursor a un nodo individual como este.

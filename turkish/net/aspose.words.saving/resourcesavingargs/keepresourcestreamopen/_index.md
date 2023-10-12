@@ -1,14 +1,14 @@
 ---
 title: ResourceSavingArgs.KeepResourceStreamOpen
 second_title: Aspose.Words for .NET API Referansı
-description: ResourceSavingArgs mülk. Aspose.Wordsün bir kaynağı kaydettikten sonra akışı açık tutması mı yoksa kapatması mı gerektiğini belirtir.
+description: ResourceSavingArgs mülk. Aspose.Wordsün kaynağı kaydettikten sonra akışı açık mı tutması yoksa kapatması mı gerektiğini belirtir.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.saving/resourcesavingargs/keepresourcestreamopen/
 ---
 ## ResourceSavingArgs.KeepResourceStreamOpen property
 
-Aspose.Words'ün bir kaynağı kaydettikten sonra akışı açık tutması mı yoksa kapatması mı gerektiğini belirtir.
+Aspose.Words'ün kaynağı kaydettikten sonra akışı açık mı tutması yoksa kapatması mı gerektiğini belirtir.
 
 ```csharp
 public bool KeepResourceStreamOpen { get; set; }
@@ -16,11 +16,11 @@ public bool KeepResourceStreamOpen { get; set; }
 
 ### Notlar
 
-Varsayılan`yanlış` ve Aspose.Words, sağladığınız akışı [`ResourceStream`](../resourcestream/) içine bir kaynak yazdıktan sonra özellik. Belirtin`doğru` akışı açık tutmak için.
+Varsayılan:`YANLIŞ` ve Aspose.Words, sağladığınız akışını kapatacaktır.[`ResourceStream`](../resourcestream/) içine bir kaynak yazdıktan sonra özellik. Belirt`doğru` Akışı açık tutmak için.
 
 ### Örnekler
 
-Bir belgeyi HTML'ye dönüştürürken oluşturulan harici kaynakların URI'lerini yazdırmak için bir geri aramanın nasıl kullanılacağını gösterir.
+Bir belgeyi HTML'ye dönüştürürken oluşturulan dış kaynakların URI'lerini yazdırmak için geri aramanın nasıl kullanılacağını gösterir.
 
 ```csharp
 public void HtmlFixedResourceFolder()
@@ -39,8 +39,8 @@ public void HtmlFixedResourceFolder()
         ResourceSavingCallback = callback
     };
 
-    // ResourcesFolderAlias tarafından belirtilen bir klasör, ResourcesFolder yerine kaynakları içerecektir.
-    // Akışlar kaynaklarını içine koymadan önce klasörün var olduğundan emin olmalıyız.
+    // ResourcesFolderAlias tarafından belirtilen bir klasör ResourcesFolder yerine kaynakları içerecektir.
+    // Akışların kaynaklarını klasöre koymadan önce klasörün var olduğundan emin olmalıyız.
     Directory.CreateDirectory(options.ResourcesFolderAlias);
 
     doc.Save(ArtifactsDir + "HtmlFixedSaveOptions.HtmlFixedResourceFolder.html", options);
@@ -54,13 +54,13 @@ public void HtmlFixedResourceFolder()
 }
 
 /// <summary>
-/// Sabit HTML'ye dönüştürüldükçe içerdiği kaynakların URI'lerini sayar ve yazdırır.
+/// Sabit HTML'ye dönüştürülürken içerdiği kaynakların URI'lerini sayar ve yazdırır.
 /// </summary>
 private class ResourceUriPrinter : IResourceSavingCallback
 {
     void IResourceSavingCallback.ResourceSaving(ResourceSavingArgs args)
     {
-        // SaveOptions nesnesinde bir klasör takma adı belirlersek, buradan yazdırabiliriz.
+        // SaveOptions nesnesinde bir klasör takma adı belirlersek, onu buradan yazdırabileceğiz.
         mText.AppendLine($"Resource #{++mSavedResourceCount} \"{args.ResourceFileName}\"");
 
         string extension = Path.GetExtension(args.ResourceFileName);
@@ -69,8 +69,8 @@ private class ResourceUriPrinter : IResourceSavingCallback
             case ".ttf":
             case ".woff":
             {
-                // Varsayılan olarak, 'ResourceFileUri' yazı tipleri için sistem klasörünü kullanır.
-                // Diğer platformlarda sorun yaşamamak için yazı tiplerinin yolunu açıkça belirtmelisiniz.
+                // Varsayılan olarak 'ResourceFileUri' yazı tipleri için sistem klasörünü kullanır.
+                // Diğer platformlardaki sorunları önlemek için yazı tiplerinin yolunu açıkça belirtmelisiniz.
                 args.ResourceFileUri = ArtifactsDir + Path.DirectorySeparatorChar + args.ResourceFileName;
                 break;
             }
@@ -78,8 +78,8 @@ private class ResourceUriPrinter : IResourceSavingCallback
 
         mText.AppendLine("\t" + args.ResourceFileUri);
 
-        // "ResourcesFolderAlias" özelliğinde bir klasör belirlediysek,
-        // Kaynağını o klasöre koymak için her akışı yeniden yönlendirmemiz gerekecek.
+        // "ResourcesFolderAlias" özelliğinde bir klasör belirttiysek,
+        // kaynağını o klasöre koymak için her akışı yeniden yönlendirmemiz gerekecek.
         args.ResourceStream = new FileStream(args.ResourceFileUri, FileMode.Create);
         args.KeepResourceStreamOpen = false;
     }

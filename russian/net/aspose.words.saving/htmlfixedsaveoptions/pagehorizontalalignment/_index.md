@@ -1,14 +1,14 @@
 ---
 title: HtmlFixedSaveOptions.PageHorizontalAlignment
 second_title: Справочник по API Aspose.Words для .NET
-description: HtmlFixedSaveOptions свойство. Определяет горизонтальное выравнивание страниц в HTMLдокументе. Значение по умолчаниюHtmlFixedHorizontalPageAlignment.Center .
+description: HtmlFixedSaveOptions свойство. Определяет горизонтальное выравнивание страниц в документе HTML. Значение по умолчаниюCenter .
 type: docs
 weight: 110
 url: /ru/net/aspose.words.saving/htmlfixedsaveoptions/pagehorizontalalignment/
 ---
 ## HtmlFixedSaveOptions.PageHorizontalAlignment property
 
-Определяет горизонтальное выравнивание страниц в HTML-документе. Значение по умолчанию:`HtmlFixedHorizontalPageAlignment.Center` .
+Определяет горизонтальное выравнивание страниц в документе HTML. Значение по умолчанию:Center .
 
 ```csharp
 public HtmlFixedPageHorizontalAlignment PageHorizontalAlignment { get; set; }
@@ -16,7 +16,7 @@ public HtmlFixedPageHorizontalAlignment PageHorizontalAlignment { get; set; }
 
 ### Примеры
 
-Показывает, как установить горизонтальное выравнивание страниц при сохранении документа в формате HTML.
+Показывает, как настроить горизонтальное выравнивание страниц при сохранении документа в формате HTML.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

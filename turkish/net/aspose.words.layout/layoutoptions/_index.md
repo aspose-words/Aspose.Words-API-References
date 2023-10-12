@@ -1,14 +1,16 @@
 ---
 title: Class LayoutOptions
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Layout.LayoutOptions sınıf. Belge yerleşim sürecini kontrol etmeye izin veren seçenekleri barındırır.
+description: Aspose.Words.Layout.LayoutOptions sınıf. Belge düzeni sürecini kontrol etmeye olanak sağlayan seçenekleri içerir.
 type: docs
-weight: 3150
+weight: 3350
 url: /tr/net/aspose.words.layout/layoutoptions/
 ---
 ## LayoutOptions class
 
-Belge yerleşim sürecini kontrol etmeye izin veren seçenekleri barındırır.
+Belge düzeni sürecini kontrol etmeye olanak sağlayan seçenekleri içerir.
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Sabit Sayfa Formatına Dönüştürme](https://docs.aspose.com/words/net/converting-to-fixed-page-format/) dokümantasyon makalesi.
 
 ```csharp
 public class LayoutOptions
@@ -24,20 +26,21 @@ public class LayoutOptions
 
 | İsim | Tanım |
 | --- | --- |
-| [Callback](../../aspose.words.layout/layoutoptions/callback/) { get; set; } | Alır veya ayarlar[`IPageLayoutCallback`](../ipagelayoutcallback/)sayfa düzeni modeli tarafından kullanılan uygulama. |
-| [CommentDisplayMode](../../aspose.words.layout/layoutoptions/commentdisplaymode/) { get; set; } | Yorumların oluşturulma şeklini alır veya ayarlar. Varsayılan değerShowInBalloons . |
+| [Callback](../../aspose.words.layout/layoutoptions/callback/) { get; set; } | Alır veya ayarlar[`IPageLayoutCallback`](../ipagelayoutcallback/) sayfa düzeni modeli tarafından kullanılan uygulama. |
+| [CommentDisplayMode](../../aspose.words.layout/layoutoptions/commentdisplaymode/) { get; set; } | Yorumların oluşturulma şeklini alır veya ayarlar. Varsayılan değer:ShowInBalloons . |
 | [ContinuousSectionPageNumberingRestart](../../aspose.words.layout/layoutoptions/continuoussectionpagenumberingrestart/) { get; set; } | Sürekli bir bölüm sayfa numaralandırmayı yeniden başlattığında sayfa numaralarını hesaplamak için davranış modunu alır veya ayarlar. |
-| [IgnorePrinterMetrics](../../aspose.words.layout/layoutoptions/ignoreprintermetrics/) { get; set; } | "Belgeyi düzenlemek için yazıcı metriklerini kullan" uyumluluk seçeneğinin yoksayılıp yok sayılmadığının göstergesini alır veya ayarlar. Varsayılan Değer Doğru'dur. |
+| [IgnorePrinterMetrics](../../aspose.words.layout/layoutoptions/ignoreprintermetrics/) { get; set; } | "Belgeyi düzenlemek için yazıcı ölçümlerini kullan" uyumluluk seçeneğinin göz ardı edilip edilmediğine ilişkin göstergeyi alır veya ayarlar. Varsayılan:`doğru` . |
+| [KeepOriginalFontMetrics](../../aspose.words.layout/layoutoptions/keeporiginalfontmetrics/) { get; set; } | Yazı tipi değişiminden sonra orijinal yazı tipi ölçümlerinin kullanılıp kullanılmaması gerektiğine ilişkin bir gösterge alır veya ayarlar. Varsayılan:`doğru` . |
 | [RevisionOptions](../../aspose.words.layout/layoutoptions/revisionoptions/) { get; } | Revizyon seçeneklerini alır. |
-| [ShowHiddenText](../../aspose.words.layout/layoutoptions/showhiddentext/) { get; set; } | Belgedeki gizli metnin işlenip işlenmediğinin göstergesini alır veya ayarlar. Varsayılan Yanlış'tır. |
-| [ShowParagraphMarks](../../aspose.words.layout/layoutoptions/showparagraphmarks/) { get; set; } | Paragraf işaretlerinin oluşturulup oluşturulmadığının göstergesini alır veya ayarlar. Varsayılan, False'dır. |
+| [ShowHiddenText](../../aspose.words.layout/layoutoptions/showhiddentext/) { get; set; } | Belgedeki gizli metnin oluşturulup oluşturulmayacağına ilişkin göstergeyi alır veya ayarlar. Varsayılan:`YANLIŞ` . |
+| [ShowParagraphMarks](../../aspose.words.layout/layoutoptions/showparagraphmarks/) { get; set; } | Paragraf işaretlerinin oluşturulup oluşturulmayacağına ilişkin göstergeyi alır veya ayarlar. Varsayılan:`YANLIŞ` . |
 | [TextShaperFactory](../../aspose.words.layout/layoutoptions/textshaperfactory/) { get; set; } | Alır veya ayarlar[`ITextShaperFactory`](../../aspose.words.shaping/itextshaperfactory/) Gelişmiş Tipografi oluşturma özellikleri için kullanılan uygulama. |
 
 ### Notlar
 
-Bu sınıfın örneklerini doğrudan oluşturmazsınız. Kullan[`LayoutOptions`](../../aspose.words/document/layoutoptions/)bu belge için düzen seçeneklerine erişim özelliği.
+Bu sınıfın örneklerini doğrudan oluşturmazsınız. Kullan[`LayoutOptions`](../../aspose.words/document/layoutoptions/) Bu belgenin düzen seçeneklerine erişim özelliği.
 
-Bu sınıfta bulunan seçeneklerden herhangi birini değiştirdikten sonra,[`UpdatePageLayout`](../../aspose.words/document/updatepagelayout/) Değiştirilen seçeneklerin mizanpaja uygulanabilmesi için method çağrılmalıdır.
+Bu sınıfta mevcut seçeneklerden herhangi birini değiştirdikten sonra,[`UpdatePageLayout`](../../aspose.words/document/updatepagelayout/) Değiştirilen seçeneklerin düzene uygulanabilmesi için method çağrılmalıdır.
 
 ### Örnekler
 
@@ -61,8 +64,8 @@ doc.Save(ArtifactsDir + "Document.LayoutOptionsHiddenText.pdf");
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-// Bazı paragraflar ekleyin, ardından paragrafların sonlarını göstermek için paragraf işaretlerini etkinleştirin
-// belgeyi oluşturduğumuzda bir pilcrow (¶) sembolü ile.
+// Birkaç paragraf ekleyin, ardından paragraf sonlarını göstermek için paragraf işaretlerini etkinleştirin
+// belgeyi oluşturduğumuzda pilcrow (¶) sembolüyle.
 builder.Writeln("Hello world!");
 builder.Writeln("Hello again!");
 
@@ -71,7 +74,7 @@ doc.LayoutOptions.ShowParagraphMarks = showParagraphMarks;
 doc.Save(ArtifactsDir + "Document.LayoutOptionsParagraphMarks.pdf");
 ```
 
-İşlenmiş bir çıktı belgesindeki revizyonların görünümünün nasıl değiştirileceğini gösterir.
+İşlenmiş bir çıktı belgesindeki düzeltmelerin görünümünün nasıl değiştirileceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -84,7 +87,7 @@ builder.Writeln("This is a revision.");
 doc.StopTrackRevisions();
 builder.Writeln("This is not a revision.");
 
-// Revize edilen her satırın solunda görünen çubuğu kaldırın.
+// Düzenlenen her satırın solunda görünen çubuğu kaldırın.
 doc.LayoutOptions.RevisionOptions.InsertedTextColor = RevisionColor.BrightGreen;
 doc.LayoutOptions.RevisionOptions.ShowRevisionBars = false;
 

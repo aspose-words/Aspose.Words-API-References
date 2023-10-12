@@ -1,14 +1,14 @@
 ---
 title: GraphicsQualityOptions.UseTileFlipMode
 second_title: Aspose.Words for .NET API Referansı
-description: GraphicsQualityOptions mülk. WrapModeun TileFlipXY olup olmadığını belirten bir bayrak alır veya ayarlar.
+description: GraphicsQualityOptions mülk. WrapModeun TileFlipXY olup olmadığını belirten bir bayrağı alır veya ayarlar.
 type: docs
 weight: 80
 url: /tr/net/aspose.words.saving/graphicsqualityoptions/usetileflipmode/
 ---
 ## GraphicsQualityOptions.UseTileFlipMode property
 
-WrapMode'un TileFlipXY olup olmadığını belirten bir bayrak alır veya ayarlar.
+WrapMode'un TileFlipXY olup olmadığını belirten bir bayrağı alır veya ayarlar.
 
 ```csharp
 public bool UseTileFlipMode { get; set; }
@@ -16,15 +16,15 @@ public bool UseTileFlipMode { get; set; }
 
 ### Notlar
 
-buWrapMode doldurulan alandan daha küçük olduğunda bir doku veya degradenin nasıl döşeneceğini belirtir.
+WrapMode doldurulan alandan daha küçük olduğunda bir doku veya degradenin nasıl döşeneceğini belirtir.
 
-Varsayılan olarak kullanırTile (çevirmeden döşemeyi belirtir). Bu, ölçeklenen görüntünün (yüksek çözünürlüklü) hatalı oluşturulmasına neden olur.
+Varsayılan olarak kullanımlarTile (çevirmeden döşemeyi belirtir). Bu, ölçeklendirilmiş görüntünün (yüksek çözünürlükte) hatalı oluşturulmasına neden olur.
 
-Bu özellik WrapMode'u şu şekilde değiştirmeye izin verir:TileFlipXY (bir satır boyunca hareket ederken döşemelerin yatay olarak çevrildiğini ve bir sütun boyunca hareket ederken dikey olarak çevrildiğini belirtir).
+Bu özellik WrapMode'un şu şekilde değiştirilmesine izin verir:TileFlipXY (bir satır boyunca hareket ederken döşemelerin yatay olarak çevrildiğini ve bir sütun boyunca hareket ederken dikey olarak çevrildiğini belirtir).
 
 ### Örnekler
 
-Yüksek çözünürlükte render alırken beyaz çizginin nasıl önleneceğini gösterir.
+Yüksek çözünürlükte görüntü oluştururken beyaz çizginin görünmesinin nasıl önleneceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Shape high dpi.docx");

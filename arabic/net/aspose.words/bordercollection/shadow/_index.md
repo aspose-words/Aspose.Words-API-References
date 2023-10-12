@@ -1,14 +1,14 @@
 ---
 title: BorderCollection.Shadow
 second_title: Aspose.Words لمراجع .NET API
-description: BorderCollection ملكية. الحصول على أو تعيين قيمة تشير إلى ما إذا كانت الحدود لها ظل .
+description: BorderCollection ملكية. الحصول على أو تعيين قيمة تشير إلى ما إذا كان الحد يحتوي على ظل.
 type: docs
 weight: 110
 url: /ar/net/aspose.words/bordercollection/shadow/
 ---
 ## BorderCollection.Shadow property
 
-الحصول على أو تعيين قيمة تشير إلى ما إذا كانت الحدود لها ظل .
+الحصول على أو تعيين قيمة تشير إلى ما إذا كان الحد يحتوي على ظل.
 
 ```csharp
 public bool Shadow { get; set; }
@@ -18,11 +18,11 @@ public bool Shadow { get; set; }
 
 الحصول على القيمة من الحد الأول في المجموعة.
 
-يضبط قيمة كل الحدود في المجموعة باستثناء الحدود القطرية.
+يضبط القيمة لجميع الحدود في المجموعة باستثناء الحدود القطرية.
 
 ### أمثلة
 
-يوضح كيفية إنشاء حد صفحة أخضر مموج بظل.
+يوضح كيفية إنشاء حدود صفحة خضراء متموجة مع الظل.
 
 ```csharp
 Document doc = new Document();

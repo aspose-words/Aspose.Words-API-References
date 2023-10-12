@@ -6,12 +6,28 @@ type: docs
 weight: 10
 url: /es/net/aspose.words.saving/pdfencryptiondetails/pdfencryptiondetails/
 ---
-## PdfEncryptionDetails constructor
+## PdfEncryptionDetails(string, string) {#constructor}
 
 Inicializa una instancia de esta clase.
 
 ```csharp
 public PdfEncryptionDetails(string userPassword, string ownerPassword)
+```
+
+### Ver también
+
+* class [PdfEncryptionDetails](../)
+* espacio de nombres [Aspose.Words.Saving](../../pdfencryptiondetails/)
+* asamblea [Aspose.Words](../../../)
+
+---
+
+## PdfEncryptionDetails(string, string, PdfPermissions) {#constructor_1}
+
+Inicializa una instancia de esta clase.
+
+```csharp
+public PdfEncryptionDetails(string userPassword, string ownerPassword, PdfPermissions permissions)
 ```
 
 ### Ejemplos
@@ -24,20 +40,14 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("Hello world!");
 
-PdfEncryptionDetails encryptionDetails =
-    new PdfEncryptionDetails("password", string.Empty);
-
-// Comience por desautorizar todos los permisos.
-encryptionDetails.Permissions = PdfPermissions.DisallowAll;
-
 // Ampliar permisos para permitir la edición de anotaciones.
-encryptionDetails.Permissions = PdfPermissions.ModifyAnnotations | PdfPermissions.DocumentAssembly;
+PdfEncryptionDetails encryptionDetails =
+    new PdfEncryptionDetails("password", string.Empty, PdfPermissions.ModifyAnnotations | PdfPermissions.DocumentAssembly);
 
 // Crea un objeto "PdfSaveOptions" que podemos pasar al método "Guardar" del documento
 // para modificar cómo ese método convierte el documento a .PDF.
 PdfSaveOptions saveOptions = new PdfSaveOptions();
-
-// Habilite el cifrado a través de la propiedad "EncryptionDetails".
+// Habilite el cifrado mediante la propiedad "EncryptionDetails".
 saveOptions.EncryptionDetails = encryptionDetails;
 
 // Cuando abramos este documento, necesitaremos proporcionar la contraseña antes de acceder a su contenido.
@@ -46,6 +56,7 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.EncryptionPermissions.pdf", saveOptions)
 
 ### Ver también
 
+* enum [PdfPermissions](../../pdfpermissions/)
 * class [PdfEncryptionDetails](../)
 * espacio de nombres [Aspose.Words.Saving](../../pdfencryptiondetails/)
 * asamblea [Aspose.Words](../../../)

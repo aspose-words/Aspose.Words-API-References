@@ -16,26 +16,26 @@ public static SaveOptions CreateSaveOptions(SaveFormat saveFormat)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| saveFormat | SaveFormat | Bir kaydetme seçenekleri nesnesinin oluşturulacağı kaydetme biçimi. |
+| saveFormat | SaveFormat | Kaydetme seçenekleri nesnesinin oluşturulacağı kaydetme biçimi. |
 
 ### Geri dönüş değeri
 
-Bir sınıfın nesnesinden türetilen bir nesne[`SaveOptions`](../).
+Türetilen bir sınıfın nesnesi[`SaveOptions`](../).
 
 ### Örnekler
 
-Büyük belgeleri PDF'ye dönüştürürken bellek tüketimini optimize etme seçeneği gösterir.
+Büyük belgeleri PDF'ye dönüştürürken bellek tüketimini optimize etme seçeneğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Belgenin "Kaydet" yöntemine aktarabileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
-// bu yöntemin belgeyi .PDF'ye dönüştürme şeklini değiştirmek için.
+// Belgenin "Save" yöntemine aktarabileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
+// bu yöntemin belgeyi .PDF'ye dönüştürme biçimini değiştirmek için.
 SaveOptions saveOptions = SaveOptions.CreateSaveOptions(SaveFormat.Pdf);
 
-// Büyük belgelerin kaydetme işlemlerinin bellek kapladığı alanı azaltmak için "MemoryOptimization" özelliğini "true" olarak ayarlayın
-// operasyon süresini artırma pahasına.
-// Belgeyi normal olarak PDF olarak kaydetmek için "MemoryOptimization" özelliğini "false" olarak ayarlayın.
+// Büyük belgelerin kaydetme işlemlerinin bellek alanını azaltmak için "MemoryOptimization" özelliğini "true" olarak ayarlayın
+// operasyonun süresini arttırma pahasına.
+// Belgeyi normal şekilde PDF olarak kaydetmek için "MemoryOptimization" özelliğini "false" olarak ayarlayın.
 saveOptions.MemoryOptimization = memoryOptimization;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.MemoryOptimization.pdf", saveOptions);
@@ -64,23 +64,23 @@ public static SaveOptions CreateSaveOptions(string fileName)
 
 ### Geri dönüş değeri
 
-Bir sınıfın nesnesinden türetilen bir nesne[`SaveOptions`](../).
+Türetilen bir sınıfın nesnesi[`SaveOptions`](../).
 
 ### Örnekler
 
-Ekli şablonları olmayan belgeler için varsayılan bir şablonun nasıl ayarlanacağını gösterir.
+Ekli şablonları olmayan belgeler için varsayılan şablonun nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 
-// Otomatik stil güncellemeyi etkinleştir, ancak şablon belgesi ekleme.
+// Otomatik stil güncellemeyi etkinleştirin ancak şablon belgesi eklemeyin.
 doc.AutomaticallyUpdateStyles = true;
 
 Assert.AreEqual(string.Empty, doc.AttachedTemplate);
 
-// Şablon belgesi olmadığından, belgenin stil değişikliklerini izleyecek hiçbir yeri yoktu.
-// Bir şablonu otomatik olarak ayarlamak için SaveOptions nesnesini kullanın
-// kaydettiğimiz bir belge yoksa.
+// Şablon belge olmadığından belgenin stil değişikliklerini izleyecek yeri yoktu.
+// Şablonu otomatik olarak ayarlamak için SaveOptions nesnesini kullanın
+// eğer kaydettiğimiz belgede belge yoksa.
 SaveOptions options = SaveOptions.CreateSaveOptions("Document.DefaultTemplate.docx");
 options.DefaultTemplate = MyDir + "Business brochure.dotx";
 

@@ -1,14 +1,16 @@
 ---
 title: Class PlainTextDocument
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.PlainTextDocument فصل. يسمح باستخراج تمثيل نص عادي لمحتوى المستند.
+description: Aspose.Words.PlainTextDocument فصل. يسمح باستخراج تمثيل النص العادي لمحتوى المستند.
 type: docs
-weight: 4190
+weight: 4440
 url: /ar/net/aspose.words/plaintextdocument/
 ---
 ## PlainTextDocument class
 
-يسمح باستخراج تمثيل نص عادي لمحتوى المستند.
+يسمح باستخراج تمثيل النص العادي لمحتوى المستند.
+
+لمعرفة المزيد، قم بزيارة[العمل مع مستند نصي](https://docs.aspose.com/words/net/working-with-text-document/) مقالة توثيقية.
 
 ```csharp
 public class PlainTextDocument
@@ -18,10 +20,10 @@ public class PlainTextDocument
 
 | اسم | وصف |
 | --- | --- |
-| [PlainTextDocument](plaintextdocument/#constructor)(Stream) | إنشاء مستند نص عادي من دفق. يكتشف تنسيق الملف تلقائيًا. |
-| [PlainTextDocument](plaintextdocument/#constructor_2)(string) | لإنشاء مستند نص عادي من ملف. يكتشف تنسيق الملف تلقائيًا. |
-| [PlainTextDocument](plaintextdocument/#constructor_1)(Stream, LoadOptions) | إنشاء مستند نص عادي من دفق. يسمح بتحديد خيارات إضافية مثل كلمة مرور التشفير. |
-| [PlainTextDocument](plaintextdocument/#constructor_3)(string, LoadOptions) | لإنشاء مستند نص عادي من ملف. يسمح بتحديد خيارات إضافية مثل كلمة مرور التشفير. |
+| [PlainTextDocument](plaintextdocument/#constructor)(Stream) | إنشاء مستند نصي عادي من الدفق. يكتشف تنسيق الملف تلقائيًا. |
+| [PlainTextDocument](plaintextdocument/#constructor_2)(string) | إنشاء مستند نصي عادي من ملف. يكتشف تنسيق الملف تلقائيًا. |
+| [PlainTextDocument](plaintextdocument/#constructor_1)(Stream, LoadOptions) | إنشاء مستند نصي عادي من الدفق. يسمح بتحديد خيارات إضافية مثل كلمة مرور التشفير. |
+| [PlainTextDocument](plaintextdocument/#constructor_3)(string, LoadOptions) | إنشاء مستند نصي عادي من ملف. يسمح بتحديد خيارات إضافية مثل كلمة مرور التشفير. |
 
 ## الخصائص
 
@@ -29,7 +31,7 @@ public class PlainTextDocument
 | --- | --- |
 | [BuiltInDocumentProperties](../../aspose.words/plaintextdocument/builtindocumentproperties/) { get; } | يحصل[`BuiltInDocumentProperties`](./builtindocumentproperties/) من الوثيقة. |
 | [CustomDocumentProperties](../../aspose.words/plaintextdocument/customdocumentproperties/) { get; } | يحصل[`CustomDocumentProperties`](./customdocumentproperties/) من الوثيقة. |
-| [Text](../../aspose.words/plaintextdocument/text/) { get; } | الحصول على المحتوى النصي للمستند متسلسلًا كسلسلة. |
+| [Text](../../aspose.words/plaintextdocument/text/) { get; } | الحصول على المحتوى النصي للمستند متسلسل كسلسلة. |
 
 ### أمثلة
 

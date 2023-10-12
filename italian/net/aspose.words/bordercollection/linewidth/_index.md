@@ -16,13 +16,13 @@ public double LineWidth { get; set; }
 
 ### Osservazioni
 
-Restituisce la larghezza del primo bordo della raccolta.
+Restituisce la larghezza del primo bordo nella raccolta.
 
 Imposta la larghezza di tutti i bordi nella raccolta esclusi i bordi diagonali.
 
 ### Esempi
 
-Mostra come creare un bordo di pagina ondulato verde con un'ombra.
+Mostra come creare un bordo verde ondulato della pagina con un'ombra.
 
 ```csharp
 Document doc = new Document();

@@ -3,12 +3,14 @@ title: Class Chart
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Drawing.Charts.Chart klass. Ger tillgång till diagramformens egenskaper.
 type: docs
-weight: 600
+weight: 620
 url: /sv/net/aspose.words.drawing.charts/chart/
 ---
 ## Chart class
 
 Ger tillgång till diagramformens egenskaper.
+
+För att lära dig mer, besök[Arbeta med diagram](https://docs.aspose.com/words/net/working-with-charts/) dokumentationsartikel.
 
 ```csharp
 public class Chart
@@ -18,6 +20,7 @@ public class Chart
 
 | namn | Beskrivning |
 | --- | --- |
+| [Axes](../../aspose.words.drawing.charts/chart/axes/) { get; } | Får en samling av alla axlar i detta diagram. |
 | [AxisX](../../aspose.words.drawing.charts/chart/axisx/) { get; } | Ger tillgång till egenskaperna för X-axeln i diagrammet. |
 | [AxisY](../../aspose.words.drawing.charts/chart/axisy/) { get; } | Ger tillgång till egenskaperna för Y-axeln i diagrammet. |
 | [AxisZ](../../aspose.words.drawing.charts/chart/axisz/) { get; } | Ger tillgång till egenskaperna för Z-axeln i diagrammet. |
@@ -42,7 +45,7 @@ Chart chart = chartShape.Chart;
 ChartTitle title = chart.Title;
 title.Text = "My Chart";
 
-  // Ställ in egenskapen "Show" till "true" för att göra titeln synlig.
+ // Ställ in egenskapen "Show" till "true" för att göra titeln synlig.
 title.Show = true;
 
 // Ställ in egenskapen "Overlay" på "true" Ge andra diagramelement mer utrymme genom att tillåta dem att överlappa titeln

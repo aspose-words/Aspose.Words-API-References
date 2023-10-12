@@ -3,12 +3,14 @@ title: Class FieldPrivate
 second_title: Aspose.Words für .NET-API-Referenz
 description: Aspose.Words.Fields.FieldPrivate klas. Implementiert das PRIVATEFeld.
 type: docs
-weight: 2150
+weight: 2300
 url: /de/net/aspose.words.fields/fieldprivate/
 ---
 ## FieldPrivate class
 
 Implementiert das PRIVATE-Feld.
+
+Um mehr zu erfahren, besuchen Sie die[Arbeiten mit Feldern](https://docs.aspose.com/words/net/working-with-fields/) Dokumentationsartikel.
 
 ```csharp
 public class FieldPrivate : Field
@@ -26,12 +28,12 @@ public class FieldPrivate : Field
 | --- | --- |
 | [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Ruft den Text ab, der das angezeigte Feldergebnis darstellt. |
 | [End](../../aspose.words.fields/field/end/) { get; } | Ruft den Knoten ab, der das Feldende darstellt. |
-| [Format](../../aspose.words.fields/field/format/) { get; } | erhält a[`FieldFormat`](../fieldformat/) Objekt, das typisierten Zugriff auf die Feldformatierung bereitstellt. |
-| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Ruft ab oder legt fest, ob das aktuelle Ergebnis des Felds aufgrund anderer Änderungen am Dokument nicht mehr korrekt (veraltet) ist. |
+| [Format](../../aspose.words.fields/field/format/) { get; } | Ruft a ab[`FieldFormat`](../fieldformat/) Objekt, das typisierten Zugriff auf die Formatierung des Felds bietet. |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Ruft ab oder legt fest, ob das aktuelle Ergebnis des Felds aufgrund anderer am Dokument vorgenommener Änderungen nicht mehr korrekt (veraltet) ist. |
 | [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Ruft ab oder legt fest, ob das Feld gesperrt ist (sollte sein Ergebnis nicht neu berechnen). |
 | [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Ruft die LCID des Felds ab oder legt sie fest. |
-| [Result](../../aspose.words.fields/field/result/) { get; set; } | Liest oder setzt Text, der zwischen dem Feldtrennzeichen und dem Feldende steht. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | Ruft den Knoten ab, der das Feldtrennzeichen darstellt. Kann null sein. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | Ruft Text ab, der zwischen dem Feldtrennzeichen und dem Feldende liegt, oder legt diesen fest. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Ruft den Knoten ab, der das Feldtrennzeichen darstellt. Kann sein`Null` . |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Ruft den Knoten ab, der den Anfang des Felds darstellt. |
 | virtual [Type](../../aspose.words.fields/field/type/) { get; } | Ruft den Microsoft Word-Feldtyp ab. |
 
@@ -39,28 +41,29 @@ public class FieldPrivate : Field
 
 | Name | Beschreibung |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Gibt Text zwischen Feldanfang und Feldtrennzeichen zurück (oder Feldende, wenn kein Trennzeichen vorhanden ist). Sowohl Feldcode als auch Feldergebnis von untergeordneten Feldern sind enthalten. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Gibt Text zwischen Feldanfang und Feldtrennzeichen (oder Feldende, wenn kein Trennzeichen vorhanden ist) zurück. |
-| [Remove](../../aspose.words.fields/field/remove/)() | Entfernt das Feld aus dem Dokument. Gibt einen Knoten direkt nach dem Feld zurück. Wenn das Ende des Felds das letzte Kind seines Elternknotens ist, wird sein Elternabsatz zurückgegeben. Wenn das Feld bereits entfernt wurde, wird zurückgegeben **Null** . |
-| [Unlink](../../aspose.words.fields/field/unlink/)() | Führt das Feld Unlink aus. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Gibt Text zwischen Feldanfang und Feldtrennzeichen zurück (oder Feldende, wenn kein Trennzeichen vorhanden ist). Sowohl der Feldcode als auch das Feldergebnis der untergeordneten Felder sind enthalten. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Gibt Text zwischen Feldanfang und Feldtrennzeichen zurück (oder Feldende, wenn kein Trennzeichen vorhanden ist). |
+| [Remove](../../aspose.words.fields/field/remove/)() | Entfernt das Feld aus dem Dokument. Gibt einen Knoten direkt nach dem Feld zurück. Wenn das Ende des Felds das letzte child seines übergeordneten Knotens ist, wird dessen übergeordneter Absatz zurückgegeben. Wenn das Feld bereits entfernt wurde, wird zurückgegeben`Null` . |
+| [Unlink](../../aspose.words.fields/field/unlink/)() | Führt das Feld unlink aus. |
 | [Update](../../aspose.words.fields/field/update/)() | Führt die Feldaktualisierung durch. Wird ausgelöst, wenn das Feld bereits aktualisiert wird. |
 | [Update](../../aspose.words.fields/field/update/)(bool) | Führt eine Feldaktualisierung durch. Wird ausgelöst, wenn das Feld bereits aktualisiert wird. |
 
 ### Bemerkungen
 
-Bietet einen privaten Speicherbereich. Dieses Feld wird verwendet, um Daten für Dokumente zu speichern, die aus anderen Dateiformaten konvertiert wurden.
+Bietet einen privaten Speicherbereich. Dieses Feld wird zum Speichern von Daten für Dokumente verwendet, die aus anderen Dateiformaten konvertiert wurden.
 
 ### Beispiele
 
 Zeigt, wie PRIVATE-Felder verarbeitet werden.
 
 ```csharp
+public void FieldPrivate()
 {
     // Öffnen Sie ein Corel WordPerfect-Dokument, das wir in das .docx-Format konvertiert haben.
     Document doc = new Document(MyDir + "Field sample - PRIVATE.docx");
 
     // WordPerfect 5.x/6.x-Dokumente wie das von uns geladene können PRIVATE-Felder enthalten.
-    // Microsoft Word behält PRIVATE-Felder während Lade-/Speicheroperationen bei,
+    // Microsoft Word behält PRIVATE-Felder während Lade-/Speichervorgängen bei,
     // bietet aber keine Funktionalität für sie.
     FieldPrivate field = (FieldPrivate)doc.Range.Fields[0];
 
@@ -71,9 +74,9 @@ Zeigt, wie PRIVATE-Felder verarbeitet werden.
     DocumentBuilder builder = new DocumentBuilder(doc);
     builder.InsertField(FieldType.FieldPrivate, true);
 
-    // Diese Felder sind keine praktikable Methode zum Schutz vertraulicher Informationen.
+    // Diese Felder sind keine praktikable Möglichkeit, vertrauliche Informationen zu schützen.
     // Sofern die Abwärtskompatibilität mit älteren Versionen von WordPerfect nicht unbedingt erforderlich ist,
-    // wir können diese Felder sicher entfernen. Wir können dies mit einer DocumentVisiitor-Implementierung tun.
+    // Wir können diese Felder sicher entfernen. Wir können dies mithilfe einer DocumentVisiitor-Implementierung tun.
     Assert.AreEqual(2, doc.Range.Fields.Count);
 
     FieldPrivateRemover remover = new FieldPrivateRemover();

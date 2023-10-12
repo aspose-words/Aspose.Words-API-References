@@ -3,7 +3,7 @@ title: Enum EndnotePosition
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Notes.EndnotePosition uppräkning. Definierar slutnotens position.
 type: docs
-weight: 4010
+weight: 4250
 url: /sv/net/aspose.words.notes/endnoteposition/
 ---
 ## EndnotePosition enumeration
@@ -30,7 +30,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // En slutnot är ett sätt att bifoga en referens eller en sidokommentar till text
-// som inte stör flödet i huvudtexten. 
+ // som inte stör flödet i huvudtexten.
 // Att infoga en slutnot lägger till en liten upphöjd referenssymbol
 // vid huvudtexten där vi infogar slutnoten.
 // Varje slutnot skapar också en post i slutet av dokumentet, bestående av en symbol

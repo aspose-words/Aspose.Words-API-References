@@ -20,7 +20,7 @@ La propriété n'a d'effet que pour les axes de valeurs. Il n'est pas pris en ch
 
 ### Exemples
 
-Montre comment faire croiser un axe de graphique à un emplacement personnalisé.
+Montre comment faire croiser un axe graphique à un emplacement personnalisé.
 
 ```csharp
 Document doc = new Document();
@@ -35,8 +35,8 @@ Assert.AreEqual("Series 2", chart.Series[1].Name);
 Assert.AreEqual("Series 3", chart.Series[2].Name);
 
 // Pour les histogrammes, l'axe Y passe à zéro par défaut,
-// ce qui signifie que les colonnes pour toutes les valeurs inférieures à zéro pointent vers le bas pour représenter les valeurs négatives.
-// Nous pouvons définir une valeur différente pour le croisement de l'axe Y. Dans ce cas, nous le mettrons à 3.
+// ce qui signifie que les colonnes de toutes les valeurs inférieures à zéro pointent vers le bas pour représenter des valeurs négatives.
+// Nous pouvons définir une valeur différente pour le croisement de l'axe Y. Dans ce cas, nous le fixerons à 3.
 ChartAxis axis = chart.AxisX;
 axis.Crosses = AxisCrosses.Custom;
 axis.CrossesAt = 3;

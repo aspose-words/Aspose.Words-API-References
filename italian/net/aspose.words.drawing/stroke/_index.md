@@ -3,12 +3,14 @@ title: Class Stroke
 second_title: Aspose.Words per .NET API Reference
 description: Aspose.Words.Drawing.Stroke classe. Definisce un tratto per una forma.
 type: docs
-weight: 1160
+weight: 1310
 url: /it/net/aspose.words.drawing/stroke/
 ---
 ## Stroke class
 
 Definisce un tratto per una forma.
+
+Per saperne di più, visita il[Lavorare con le forme](https://docs.aspose.com/words/net/working-with-shapes/) articolo di documentazione.
 
 ```csharp
 public class Stroke
@@ -19,15 +21,17 @@ public class Stroke
 | Nome | Descrizione |
 | --- | --- |
 | [BackColor](../../aspose.words.drawing/stroke/backcolor/) { get; set; } | Ottiene o imposta il colore di sfondo del tratto. |
+| [BaseForeColor](../../aspose.words.drawing/stroke/baseforecolor/) { get; } |  |
 | [Color](../../aspose.words.drawing/stroke/color/) { get; set; } | Definisce il colore di un tratto. |
 | [Color2](../../aspose.words.drawing/stroke/color2/) { get; set; } | Definisce un secondo colore per un tratto. |
-| [DashStyle](../../aspose.words.drawing/stroke/dashstyle/) { get; set; } | Specifica il motivo a punti e trattini per un tratto. |
+| [DashStyle](../../aspose.words.drawing/stroke/dashstyle/) { get; set; } | Specifica il motivo di punti e trattini per un tratto. |
 | [EndArrowLength](../../aspose.words.drawing/stroke/endarrowlength/) { get; set; } | Definisce la lunghezza della punta della freccia per la fine di un tratto. |
 | [EndArrowType](../../aspose.words.drawing/stroke/endarrowtype/) { get; set; } | Definisce la punta della freccia per la fine di un tratto. |
 | [EndArrowWidth](../../aspose.words.drawing/stroke/endarrowwidth/) { get; set; } | Definisce la larghezza della punta della freccia per la fine di un tratto. |
-| [EndCap](../../aspose.words.drawing/stroke/endcap/) { get; set; } | Definisce lo stile del cappuccio per la fine di un tratto. |
+| [EndCap](../../aspose.words.drawing/stroke/endcap/) { get; set; } | Definisce lo stile dell'estremità per la fine di un tratto. |
+| [Fill](../../aspose.words.drawing/stroke/fill/) { get; } | Ottiene la formattazione di riempimento per il file`Stroke` . |
 | [ForeColor](../../aspose.words.drawing/stroke/forecolor/) { get; set; } | Ottiene o imposta il colore di primo piano del tratto. |
-| [ImageBytes](../../aspose.words.drawing/stroke/imagebytes/) { get; } | Definisce l'immagine per un'immagine di tratto o riempimento a motivo. |
+| [ImageBytes](../../aspose.words.drawing/stroke/imagebytes/) { get; } | Definisce l'immagine per un'immagine di tratto o un riempimento a motivo. |
 | [JoinStyle](../../aspose.words.drawing/stroke/joinstyle/) { get; set; } | Definisce lo stile di unione di una polilinea. |
 | [LineStyle](../../aspose.words.drawing/stroke/linestyle/) { get; set; } | Definisce lo stile della linea del tratto. |
 | [On](../../aspose.words.drawing/stroke/on/) { get; set; } | Definisce se il percorso verrà tracciato. |
@@ -41,7 +45,7 @@ public class Stroke
 
 ### Osservazioni
 
-Utilizzare il[`Stroke`](../shape/stroke/)per accedere alle proprietà del tratto di una forma. Non si creano istanze di`Stroke` classe direttamente.
+Usa il[`Stroke`](../shape/stroke/) per accedere alle proprietà del tratto di una forma. Non crei istanze di`Stroke` classe direttamente.
 
 ### Esempi
 
@@ -68,6 +72,7 @@ stroke.DashStyle = DashStyle.ShortDashDotDot;
 stroke.JoinStyle = JoinStyle.Miter;
 stroke.EndCap = EndCap.Square;
 stroke.LineStyle = ShapeLineStyle.Triple;
+stroke.Fill.TwoColorGradient(Color.Red, Color.Blue, GradientStyle.Vertical, GradientVariant.Variant1);
 
 doc.Save(ArtifactsDir + "Shape.Stroke.docx");
 ```

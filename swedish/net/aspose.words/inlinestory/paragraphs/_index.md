@@ -30,7 +30,7 @@ builder.Write("Comment text.");
 
 Assert.AreEqual(DateTime.Today, comment.DateTime);
 
-// I Microsoft Word kan vi högerklicka på den här kommentaren i dokumentets brödtext för att redigera den eller svara på den. 
+ // I Microsoft Word kan vi högerklicka på den här kommentaren i dokumentets brödtext för att redigera den eller svara på den.
 doc.Save(ArtifactsDir + "InlineStory.AddComment.docx");
 ```
 
@@ -52,7 +52,7 @@ Footnote footnote = builder.InsertFootnote(FootnoteType.Footnote, "Footnote text
 // Detta är den första fotnoten, så referensmärket blir "1".
 Assert.True(footnote.IsAuto);
 
-// Vi kan flytta dokumentbyggaren inuti fotnoten för att redigera dess referenstext. 
+ // Vi kan flytta dokumentbyggaren inuti fotnoten för att redigera dess referenstext.
 builder.MoveTo(footnote.FirstParagraph);
 builder.Write(" More text added by a DocumentBuilder.");
 builder.MoveToDocumentEnd();

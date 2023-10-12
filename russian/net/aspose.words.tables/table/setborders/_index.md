@@ -1,14 +1,14 @@
 ---
 title: Table.SetBorders
 second_title: Справочник по API Aspose.Words для .NET
-description: Table метод. Устанавливает для всех границ таблицы заданный стиль линии ширину и цвет.
+description: Table метод. Устанавливает для всех границ таблицы указанный стиль ширину и цвет линий.
 type: docs
-weight: 420
+weight: 440
 url: /ru/net/aspose.words.tables/table/setborders/
 ---
 ## Table.SetBorders method
 
-Устанавливает для всех границ таблицы заданный стиль линии, ширину и цвет.
+Устанавливает для всех границ таблицы указанный стиль, ширину и цвет линий.
 
 ```csharp
 public void SetBorders(LineStyle lineStyle, double lineWidth, Color color)
@@ -17,7 +17,7 @@ public void SetBorders(LineStyle lineStyle, double lineWidth, Color color)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | lineStyle | LineStyle | Применяемый стиль линии. |
-| lineWidth | Double | Задаваемая ширина линии (в пунктах). |
+| lineWidth | Double | Толщина линии, которую необходимо установить (в пунктах). |
 | color | Color | Цвет, используемый для границы. |
 
 ### Примеры
@@ -28,22 +28,22 @@ public void SetBorders(LineStyle lineStyle, double lineWidth, Color color)
 Document doc = new Document(MyDir + "Tables.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
-// Очистить все существующие границы из таблицы.
+// Очистим все существующие границы таблицы.
 table.ClearBorders();
 
-// Установите одну зеленую линию, которая будет служить каждой внешней и внутренней границей этой таблицы.
+// Установите одну зеленую линию, которая будет служить внешней и внутренней границей этой таблицы.
 table.SetBorders(LineStyle.Single, 1.5, Color.Green);
 
 doc.Save(ArtifactsDir + "Table.SetBorders.docx");
 ```
 
-Показывает, как применить цвет рамки и заливки при построении таблицы.
+Показывает, как применять цвет границы и заливки при построении таблицы.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Запускаем таблицу и устанавливаем для ее границ цвет/толщину по умолчанию.
+// Запускаем таблицу и устанавливаем цвет/толщину ее границ по умолчанию.
 Table table = builder.StartTable();
 table.SetBorders(LineStyle.Single, 2.0, Color.Black);
 
@@ -56,9 +56,9 @@ builder.CellFormat.Shading.BackgroundPatternColor = Color.Orange;
 builder.Writeln("Row 1, Cell 2.");
 builder.EndRow();
 
-// Сбросить форматирование ячейки, чтобы отключить цвета фона
-// установить пользовательскую толщину границы для всех новых ячеек, созданных конструктором,
-// затем построить вторую строку.
+// Сбрасываем форматирование ячейки, чтобы отключить цвета фона
+// устанавливаем собственную толщину границы для всех новых ячеек, созданных построителем,
+// затем создаем вторую строку.
 builder.CellFormat.ClearFormatting();
 builder.CellFormat.Borders.Left.LineWidth = 4.0;
 builder.CellFormat.Borders.Right.LineWidth = 4.0;

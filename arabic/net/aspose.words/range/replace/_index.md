@@ -1,14 +1,14 @@
 ---
 title: Range.Replace
 second_title: Aspose.Words لمراجع .NET API
-description: Range طريقة. يستبدل كل تكرارات نمط سلسلة الأحرف المحددة بسلسلة بديلة.
+description: Range طريقة. يستبدل كافة تكرارات نمط سلسلة الأحرف المحددة بسلسلة بديلة.
 type: docs
-weight: 80
+weight: 90
 url: /ar/net/aspose.words/range/replace/
 ---
 ## Replace(string, string) {#replace}
 
-يستبدل كل تكرارات نمط سلسلة الأحرف المحددة بسلسلة بديلة.
+يستبدل كافة تكرارات نمط سلسلة الأحرف المحددة بسلسلة بديلة.
 
 ```csharp
 public int Replace(string pattern, string replacement)
@@ -16,27 +16,27 @@ public int Replace(string pattern, string replacement)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| pattern | String | سلسلة يتم استبدالها. |
-| replacement | String | سلسلة لتحل محل كل تكرارات النمط. |
+| pattern | String | سلسلة ليتم استبدالها. |
+| replacement | String | سلسلة لاستبدال كافة تكرارات النمط. |
 
 ### قيمة الإرجاع
 
-عدد الاستبدالات التي تم إجراؤها.
+عدد البدائل التي تم إجراؤها.
 
 ### ملاحظات
 
-لن يتم استخدام النمط كتعبير عادي . الرجاء استخدام`Replace` إذا كنت بحاجة إلى تعبيرات عادية.
+لن يتم استخدام النمط كتعبير عادي. يرجى استخدامه`Replace`إذا كنت بحاجة إلى تعبيرات عادية.
 
-تم استخدام مقارنة غير حساسة لحالة الأحرف.
+تستخدم مقارنة غير حساسة لحالة الأحرف.
 
-الطريقة قادرة على معالجة الفواصل في كل من النمط والسلاسل البديلة.
+الطريقة قادرة على معالجة الفواصل في كل من سلاسل النمط والاستبدال.
 
-يجب استخدام أحرف وصفية خاصة إذا كنت بحاجة للعمل مع فواصل:
+يجب عليك استخدام أحرف وصفية خاصة إذا كنت بحاجة إلى العمل مع الفواصل:
 
-* **&amp; ص** - فاصل فقرة
+* **&amp; ص** - فاصل الفقرة
 * **&amp;ب** - فاصل المقطع
-* **م** - فاصل صفحة
-* **&amp; ل** - فاصل خط يدوي
+* **&amp; م** - فاصل صفحة
+* **&amp; ل** - فاصل الأسطر اليدوي
 
 طريقة الاستخدام`Replace` للحصول على تخصيص أكثر مرونة.
 
@@ -51,7 +51,7 @@ builder.Writeln("Numbers 1, 2, 3");
 doc.Range.Replace("Numbers", "Numbers&p", new FindReplaceOptions());
 ```
 
-يوضح كيفية إجراء عملية بحث واستبدال نص على محتويات مستند.
+يوضح كيفية إجراء عملية البحث عن النص واستبداله على محتويات المستند.
 
 ```csharp
 Document doc = new Document();
@@ -59,7 +59,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("Greetings, _FullName_!");
 
-// قم بإجراء عملية بحث واستبدال على محتويات وثيقتنا وتحقق من عدد عمليات الاستبدال التي حدثت.
+// إجراء عملية بحث واستبدال على محتويات وثيقتنا والتحقق من عدد عمليات الاستبدال التي تمت.
 int replacementCount = doc.Range.Replace("_FullName_", "John Doe");
 
 Assert.AreEqual(1, replacementCount);
@@ -85,11 +85,11 @@ Assert.AreEqual(ParagraphAlignment.Left, paragraphs[2].ParagraphFormat.Alignment
 // يمكننا استخدام كائن "FindReplaceOptions" لتعديل عملية البحث والاستبدال.
 FindReplaceOptions options = new FindReplaceOptions();
 
-// اضبط خاصية "Alignment" على "ParagraphAlignment.Right" لمحاذاة كل فقرة إلى اليمين
-// الذي يحتوي على تطابق تجده عملية البحث والاستبدال.
+// اضبط خاصية "المحاذاة" على "ParagraphAlignment.Right" لمحاذاة كل فقرة إلى اليمين
+// يحتوي على التطابق الذي وجدته عملية البحث والاستبدال.
 options.ApplyParagraphFormat.Alignment = ParagraphAlignment.Right;
 
-// استبدل كل نقطة توقف مباشرة قبل فاصل الفقرة بعلامة تعجب.
+// استبدل كل نقطة قبل فاصل الفقرة بعلامة تعجب.
 int count = doc.Range.Replace(".&p", "!&p", options);
 
 Assert.AreEqual(2, count);
@@ -111,7 +111,7 @@ Assert.AreEqual("Every paragraph that ends with a full stop like this one will b
 
 ## Replace(Regex, string) {#replace_2}
 
-يستبدل كل تكرارات نمط الحرف المحدد بواسطة تعبير عادي بسلسلة أخرى.
+يستبدل كافة تكرارات نمط الأحرف المحدد بواسطة تعبير عادي بسلسلة أخرى.
 
 ```csharp
 public int Replace(Regex pattern, string replacement)
@@ -119,25 +119,25 @@ public int Replace(Regex pattern, string replacement)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| pattern | Regex | نمط تعبير عادي يستخدم للبحث عن التطابقات. |
-| replacement | String | سلسلة لتحل محل كل تكرارات النمط. |
+| pattern | Regex | نمط تعبير عادي يستخدم للعثور على التطابقات. |
+| replacement | String | سلسلة لاستبدال كافة تكرارات النمط. |
 
 ### قيمة الإرجاع
 
-عدد الاستبدالات التي تم إجراؤها.
+عدد البدائل التي تم إجراؤها.
 
 ### ملاحظات
 
-يستبدل المطابقة الكاملة التي تم التقاطها بالتعبير النمطي.
+يستبدل المطابقة بأكملها التي تم التقاطها بواسطة التعبير العادي.
 
-الطريقة قادرة على معالجة الفواصل في كل من النمط والسلاسل البديلة.
+الطريقة قادرة على معالجة الفواصل في كل من سلاسل النمط والاستبدال.
 
-يجب استخدام أحرف وصفية خاصة إذا كنت بحاجة للعمل مع فواصل:
+يجب عليك استخدام أحرف وصفية خاصة إذا كنت بحاجة إلى العمل مع الفواصل:
 
-* **&amp; ص** - فاصل فقرة
+* **&amp; ص** - فاصل الفقرة
 * **&amp;ب** - فاصل المقطع
-* **م** - فاصل صفحة
-* **&amp; ل** - فاصل خط يدوي
+* **&amp; م** - فاصل صفحة
+* **&amp; ل** - فاصل الأسطر اليدوي
 
 طريقة الاستخدام`Replace` للحصول على تخصيص أكثر مرونة.
 
@@ -148,11 +148,11 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("a1, b2, c3");
 
-// يستبدل كل رقم بفاصل فقرة.
+// يستبدل كل رقم بفاصل الفقرة.
 doc.Range.Replace(new Regex(@"\d+"), "&p");
 ```
 
-يوضح كيفية استبدال كل تكرارات نمط التعبير العادي بنص آخر.
+يوضح كيفية استبدال كافة تكرارات نمط التعبير العادي بنص آخر.
 
 ```csharp
 Document doc = new Document();
@@ -175,7 +175,7 @@ Assert.AreEqual("I decided to get the curtains in lavender, ideal for the lavend
 
 ## Replace(string, string, FindReplaceOptions) {#replace_1}
 
-يستبدل كل تكرارات نمط سلسلة الأحرف المحددة بسلسلة بديلة.
+يستبدل كافة تكرارات نمط سلسلة الأحرف المحددة بسلسلة بديلة.
 
 ```csharp
 public int Replace(string pattern, string replacement, FindReplaceOptions options)
@@ -183,27 +183,27 @@ public int Replace(string pattern, string replacement, FindReplaceOptions option
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| pattern | String | سلسلة يتم استبدالها. |
-| replacement | String | سلسلة لتحل محل كل تكرارات النمط. |
+| pattern | String | سلسلة ليتم استبدالها. |
+| replacement | String | سلسلة لاستبدال كافة تكرارات النمط. |
 | options | FindReplaceOptions | [`FindReplaceOptions`](../../../aspose.words.replacing/findreplaceoptions/) كائن لتحديد خيارات إضافية. |
 
 ### قيمة الإرجاع
 
-عدد الاستبدالات التي تم إجراؤها.
+عدد البدائل التي تم إجراؤها.
 
 ### ملاحظات
 
-لن يتم استخدام النمط كتعبير عادي . الرجاء استخدام`Replace` إذا كنت بحاجة إلى تعبيرات عادية.
+لن يتم استخدام النمط كتعبير عادي. يرجى استخدامه`Replace`إذا كنت بحاجة إلى تعبيرات عادية.
 
-الطريقة قادرة على معالجة الفواصل في كل من النمط والسلاسل البديلة.
+الطريقة قادرة على معالجة الفواصل في كل من سلاسل النمط والاستبدال.
 
-يجب استخدام أحرف وصفية خاصة إذا كنت بحاجة للعمل مع فواصل:
+يجب عليك استخدام أحرف وصفية خاصة إذا كنت بحاجة إلى العمل مع الفواصل:
 
-* **&amp; ص** - فاصل فقرة
+* **&amp; ص** - فاصل الفقرة
 * **&amp;ب** - فاصل المقطع
-* **م** - فاصل صفحة
-* **&amp; ل** - فاصل خط يدوي
-* **&amp;&amp;** - &amp; حرف
+* **&amp; م** - فاصل صفحة
+* **&amp; ل** - فاصل الأسطر اليدوي
+* **&amp;&amp;** - &amp; شخصية
 
 ### أمثلة
 
@@ -247,7 +247,7 @@ builder.Writeln("Ruby bought a ruby necklace.");
 // يمكننا استخدام كائن "FindReplaceOptions" لتعديل عملية البحث والاستبدال.
 FindReplaceOptions options = new FindReplaceOptions();
 
-// اضبط علامة "MatchCase" على "true" لتطبيق حساسية حالة الأحرف أثناء البحث عن سلاسل لاستبدالها.
+// اضبط علامة "MatchCase" على "صحيح" لتطبيق حساسية حالة الأحرف أثناء البحث عن سلاسل لاستبدالها.
 // اضبط علامة "MatchCase" على "خطأ" لتجاهل حالة الأحرف أثناء البحث عن نص لاستبداله.
 options.MatchCase = matchCase;
 
@@ -257,7 +257,7 @@ Assert.AreEqual(matchCase ? "Jade bought a ruby necklace." : "Jade bought a Jade
     doc.GetText().Trim());
 ```
 
-يوضح كيفية التبديل بين عمليات البحث والاستبدال المستقلة عن الكلمات فقط.
+يوضح كيفية تبديل عمليات البحث والاستبدال المستقلة للكلمات فقط.
 
 ```csharp
 Document doc = new Document();
@@ -268,8 +268,8 @@ builder.Writeln("Jackson will meet you in Jacksonville.");
 // يمكننا استخدام كائن "FindReplaceOptions" لتعديل عملية البحث والاستبدال.
 FindReplaceOptions options = new FindReplaceOptions();
 
-// اضبط علامة "FindWholeWordsOnly" على "true" لاستبدال النص الذي تم العثور عليه إذا لم يكن جزءًا من كلمة أخرى.
-// اضبط علامة "FindWholeWordsOnly" على "خطأ" لاستبدال كل النص بغض النظر عن ما يحيط به.
+// اضبط علامة "FindWholeWordsOnly" على "صحيح" لاستبدال النص الذي تم العثور عليه إذا لم يكن جزءًا من كلمة أخرى.
+// اضبط علامة "FindWholeWordsOnly" على "خطأ" لاستبدال النص بالكامل بغض النظر عن البيئة المحيطة به.
 options.FindWholeWordsOnly = findWholeWordsOnly;
 
 doc.Range.Replace("Jackson", "Louis", options);
@@ -279,7 +279,7 @@ Assert.AreEqual(
     doc.GetText().Trim());
 ```
 
-يوضح كيفية استبدال جميع مثيلات سلسلة النص في جدول وخلية.
+يوضح كيفية استبدال كافة مثيلات سلسلة النص في الجدول والخلية.
 
 ```csharp
 Document doc = new Document();
@@ -301,10 +301,10 @@ FindReplaceOptions options = new FindReplaceOptions();
 options.MatchCase = true;
 options.FindWholeWordsOnly = true;
 
-// قم بإجراء عملية بحث واستبدال على جدول بأكمله.
+// إجراء عملية البحث والاستبدال على الجدول بأكمله.
 table.Range.Replace("Carrots", "Eggs", options);
 
-// قم بإجراء عملية بحث واستبدال في الخلية الأخيرة من الصف الأخير من الجدول.
+// إجراء عملية البحث والاستبدال في الخلية الأخيرة من الصف الأخير من الجدول.
 table.LastRow.LastCell.Range.Replace("50", "20", options);
 
 Assert.AreEqual("Eggs\a50\a\a" +
@@ -322,7 +322,7 @@ Assert.AreEqual("Eggs\a50\a\a" +
 
 ## Replace(Regex, string, FindReplaceOptions) {#replace_3}
 
-يستبدل كل تكرارات نمط الحرف المحدد بواسطة تعبير عادي بسلسلة أخرى.
+يستبدل كافة تكرارات نمط الأحرف المحدد بواسطة تعبير عادي بسلسلة أخرى.
 
 ```csharp
 public int Replace(Regex pattern, string replacement, FindReplaceOptions options)
@@ -330,27 +330,27 @@ public int Replace(Regex pattern, string replacement, FindReplaceOptions options
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| pattern | Regex | نمط تعبير عادي يستخدم للبحث عن التطابقات. |
-| replacement | String | سلسلة لتحل محل كل تكرارات النمط. |
+| pattern | Regex | نمط تعبير عادي يستخدم للعثور على التطابقات. |
+| replacement | String | سلسلة لاستبدال كافة تكرارات النمط. |
 | options | FindReplaceOptions | [`FindReplaceOptions`](../../../aspose.words.replacing/findreplaceoptions/) كائن لتحديد خيارات إضافية. |
 
 ### قيمة الإرجاع
 
-عدد الاستبدالات التي تم إجراؤها.
+عدد البدائل التي تم إجراؤها.
 
 ### ملاحظات
 
-يستبدل المطابقة الكاملة التي تم التقاطها بالتعبير النمطي.
+يستبدل المطابقة بأكملها التي تم التقاطها بواسطة التعبير العادي.
 
-الطريقة قادرة على معالجة الفواصل في كل من النمط والسلاسل البديلة.
+الطريقة قادرة على معالجة الفواصل في كل من سلاسل النمط والاستبدال.
 
-يجب استخدام أحرف وصفية خاصة إذا كنت بحاجة للعمل مع فواصل:
+يجب عليك استخدام أحرف وصفية خاصة إذا كنت بحاجة إلى العمل مع الفواصل:
 
-* **&amp; ص** - فاصل فقرة
+* **&amp; ص** - فاصل الفقرة
 * **&amp;ب** - فاصل المقطع
-* **م** - فاصل صفحة
-* **&amp; ل** - فاصل خط يدوي
-* **&amp;&amp;** - &amp; حرف
+* **&amp; م** - فاصل صفحة
+* **&amp; ل** - فاصل الأسطر اليدوي
+* **&amp;&amp;** - &amp; شخصية
 
 ### أمثلة
 
@@ -359,13 +359,14 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("a1, b2, c3");
 
-// يستبدل كل رقم بفاصل فقرة.
+// يستبدل كل رقم بفاصل الفقرة.
 doc.Range.Replace(new Regex(@"\d+"), "&p", new FindReplaceOptions());
 ```
 
-يوضح كيفية استبدال كل تكرارات نمط التعبير العادي بسلسلة أخرى ، أثناء تتبع كل هذه الاستبدالات.
+يوضح كيفية استبدال كافة تكرارات نمط التعبير العادي بسلسلة أخرى، مع تتبع كل هذه الاستبدالات.
 
 ```csharp
+public void ReplaceWithCallback()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -376,7 +377,7 @@ doc.Range.Replace(new Regex(@"\d+"), "&p", new FindReplaceOptions());
     // يمكننا استخدام كائن "FindReplaceOptions" لتعديل عملية البحث والاستبدال.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // تعيين رد اتصال يتتبع أي بدائل تقوم بها طريقة "استبدال".
+    // قم بتعيين رد اتصال يتتبع أي بدائل ستجريها طريقة "الاستبدال".
     TextFindAndReplacementLogger logger = new TextFindAndReplacementLogger();
     options.ReplacingCallback = logger;
 
@@ -391,7 +392,7 @@ doc.Range.Replace(new Regex(@"\d+"), "&p", new FindReplaceOptions());
 
 /// <summary>
 /// يحتفظ بسجل لكل استبدال نص يتم إجراؤه بواسطة عملية البحث والاستبدال
-/// ويلاحظ قيمة النص المتطابق الأصلي.
+/// ويلاحظ قيمة النص المطابق الأصلي.
 /// </summary>
 private class TextFindAndReplacementLogger : IReplacingCallback
 {
@@ -416,6 +417,7 @@ private class TextFindAndReplacementLogger : IReplacingCallback
 يوضح كيفية إدراج محتويات المستند بالكامل كبديل لمطابقة في عملية البحث والاستبدال.
 
 ```csharp
+public void InsertDocumentAtReplace()
 {
     Document mainDoc = new Document(MyDir + "Document insertion destination.docx");
 
@@ -425,6 +427,8 @@ private class TextFindAndReplacementLogger : IReplacingCallback
 
     mainDoc.Range.Replace(new Regex("\\[MY_DOCUMENT\\]"), "", options);
     mainDoc.Save(ArtifactsDir + "InsertDocument.InsertDocumentAtReplace.docx");
+
+}
 
 private class InsertDocumentAtReplaceHandler : IReplacingCallback
 {
@@ -436,7 +440,7 @@ private class InsertDocumentAtReplaceHandler : IReplacingCallback
         Paragraph para = (Paragraph)args.MatchNode.ParentNode;
         InsertDocument(para, subDoc);
 
-        // إزالة الفقرة مع النص المتطابق.
+        // قم بإزالة الفقرة التي تحتوي على النص المطابق.
         para.Remove();
 
         return ReplaceAction.Skip;
@@ -444,7 +448,7 @@ private class InsertDocumentAtReplaceHandler : IReplacingCallback
 }
 
 /// <summary>
-/// يُدرج كل عقد مستند آخر بعد فقرة أو جدول.
+/// إدراج كافة العقد في مستند آخر بعد فقرة أو جدول.
 /// </summary>
 private static void InsertDocument(Node insertionDestination, Document docToInsert)
 {

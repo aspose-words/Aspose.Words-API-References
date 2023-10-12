@@ -1,14 +1,14 @@
 ---
 title: LayoutEnumerator.MoveNextLogical
 second_title: Aspose.Words för .NET API Referens
-description: LayoutEnumerator metod. Flyttar till nästa syskonentitet i en logisk ordning. När man itererar rader i ett stycke uppdelade över sidor kommer denna metod att flyttas till nästa rad även om den finns på en annan sida.
+description: LayoutEnumerator metod. Flyttar till nästa syskonentitet i en logisk ordning. När rader i ett stycke uppdelat över sidorna upprepas kommer denna metod att flyttas till nästa rad även om den finns på en annan sida.
 type: docs
-weight: 120
+weight: 130
 url: /sv/net/aspose.words.layout/layoutenumerator/movenextlogical/
 ---
 ## LayoutEnumerator.MoveNextLogical method
 
-Flyttar till nästa syskonentitet i en logisk ordning. När man itererar rader i ett stycke uppdelade över sidor kommer denna metod att flyttas till nästa rad även om den finns på en annan sida.
+Flyttar till nästa syskonentitet i en logisk ordning. När rader i ett stycke uppdelat över sidorna upprepas kommer denna metod att flyttas till nästa rad även om den finns på en annan sida.
 
 ```csharp
 public bool MoveNextLogical()

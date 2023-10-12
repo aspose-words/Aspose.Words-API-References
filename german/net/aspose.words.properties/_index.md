@@ -1,12 +1,12 @@
 ---
 title: Aspose.Words.Properties
 second_title: Aspose.Words für .NET-API-Referenz
-description: Das Aspose.Words.Properties namespace stellt work Klassen mit benutzerdefinierten und integrierten Dokumenteigenschaften wie Titel Schlüsselwörter Firma usw. zur Verfügung.
+description: Der Aspose.Words.Properties Der Namespace stellt Klassen für work mit benutzerdefinierten und integrierten Dokumenteigenschaften wie Titel Schlüsselwörter Firma usw. bereit.
 type: docs
-weight: 180
+weight: 190
 url: /de/net/aspose.words.properties/
 ---
-Das **Aspose.Words.Properties** namespace stellt work Klassen mit benutzerdefinierten und integrierten Dokumenteigenschaften wie Titel, Schlüsselwörter, Firma usw. zur Verfügung.
+Der **Aspose.Words.Properties** Der Namespace stellt Klassen für work mit benutzerdefinierten und integrierten Dokumenteigenschaften wie Titel, Schlüsselwörter, Firma usw. bereit.
 
 ## Klassen
 
@@ -14,13 +14,13 @@ Das **Aspose.Words.Properties** namespace stellt work Klassen mit benutzerdefini
 | --- | --- |
 | [BuiltInDocumentProperties](./builtindocumentproperties/) | Eine Sammlung integrierter Dokumenteigenschaften. |
 | [CustomDocumentProperties](./customdocumentproperties/) | Eine Sammlung benutzerdefinierter Dokumenteigenschaften. |
-| [DocumentProperty](./documentproperty/) | Repräsentiert eine benutzerdefinierte oder integrierte Dokumenteigenschaft. |
-| [DocumentPropertyCollection](./documentpropertycollection/) | Basisklasse für[`BuiltInDocumentProperties`](../aspose.words.properties/builtindocumentproperties/) und[`CustomDocumentProperties`](../aspose.words.properties/customdocumentproperties/) Sammlungen. |
+| [DocumentProperty](./documentproperty/) | Stellt eine benutzerdefinierte oder integrierte Dokumenteigenschaft dar. |
+| [DocumentPropertyCollection](./documentpropertycollection/) | Basisklasse für[`BuiltInDocumentProperties`](../aspose.words.properties/builtindocumentproperties/) Und[`CustomDocumentProperties`](../aspose.words.properties/customdocumentproperties/) Sammlungen. |
 ## Aufzählung
 
 | Aufzählung | Beschreibung |
 | --- | --- |
-| [DocumentSecurity](./documentsecurity/) | Wird als Wert für die verwendet[`Security`](../aspose.words.properties/builtindocumentproperties/security/) property. Gibt die Sicherheitsstufe eines Dokuments als numerischen Wert an. |
+| [DocumentSecurity](./documentsecurity/) | Wird als Wert für verwendet[`Security`](../aspose.words.properties/builtindocumentproperties/security/) property. Gibt die Sicherheitsstufe eines Dokuments als numerischen Wert an. |
 | [PropertyType](./propertytype/) | Gibt den Datentyp einer Dokumenteigenschaft an. |
 
 

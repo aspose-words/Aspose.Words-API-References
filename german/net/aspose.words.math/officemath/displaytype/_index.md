@@ -1,14 +1,14 @@
 ---
 title: OfficeMath.DisplayType
 second_title: Aspose.Words für .NET-API-Referenz
-description: OfficeMath eigendom. Ruft/legt den Anzeigeformattyp von Office Math ab der angibt ob eine Gleichung inline mit dem Text oder in einer eigenen Zeile angezeigt wird.
+description: OfficeMath eigendom. Ruft den Office MathAnzeigeformattyp ab bzw. legt ihn fest der angibt ob eine Gleichung inline mit dem Text oder in einer eigenen Zeile angezeigt wird.
 type: docs
 weight: 10
 url: /de/net/aspose.words.math/officemath/displaytype/
 ---
 ## OfficeMath.DisplayType property
 
-Ruft/legt den Anzeigeformattyp von Office Math ab, der angibt, ob eine Gleichung inline mit dem Text oder in einer eigenen Zeile angezeigt wird.
+Ruft den Office Math-Anzeigeformattyp ab bzw. legt ihn fest, der angibt, ob eine Gleichung inline mit dem Text oder in einer eigenen Zeile angezeigt wird.
 
 ```csharp
 public OfficeMathDisplayType DisplayType { get; set; }
@@ -16,29 +16,26 @@ public OfficeMathDisplayType DisplayType { get; set; }
 
 ### Bemerkungen
 
-Der Anzeigeformattyp wirkt sich nur auf die oberste Ebene von Office Math aus.
+Der Anzeigeformattyp ist nur für Office Math der obersten Ebene wirksam.
 
-Der zurückgegebene Anzeigeformattyp ist immerInline für verschachteltes Office Math.
+Der zurückgegebene Anzeigeformattyp ist immerInline für verschachtelte Office Math.
 
 ### Beispiele
 
-Zeigt, wie die Anzeigeformatierung für Office-Mathematik eingestellt wird.
+Zeigt, wie die Anzeigeformatierung für Office-Mathematik festgelegt wird.
 
 ```csharp
 Document doc = new Document(MyDir + "Office math.docx");
 
 OfficeMath officeMath = (OfficeMath) doc.GetChild(NodeType.OfficeMath, 0, true);
 
-// OfficeMath-Knoten, die Kinder anderer OfficeMath-Knoten sind, sind immer inline.
-// Der Knoten, mit dem wir arbeiten, ist der Basisknoten, um seine Position und seinen Anzeigetyp zu ändern.
+// OfficeMath-Knoten, die anderen OfficeMath-Knoten untergeordnet sind, sind immer inline.
+// Der Knoten, mit dem wir arbeiten, ist der Basisknoten, um seinen Standort und Anzeigetyp zu ändern.
 Assert.AreEqual(MathObjectType.OMathPara, officeMath.MathObjectType);
 Assert.AreEqual(NodeType.OfficeMath, officeMath.NodeType);
 Assert.AreEqual(officeMath.ParentNode, officeMath.ParentParagraph);
 
-// OOXML- und WML-Formate verwenden die Eigenschaft "EquationXmlEncoding".
-Assert.IsNull(officeMath.EquationXmlEncoding);
-
-// Position und Anzeigetyp des OfficeMath-Knotens ändern.
+// Ändern Sie den Speicherort und den Anzeigetyp des OfficeMath-Knotens.
 officeMath.DisplayType = OfficeMathDisplayType.Display;
 officeMath.Justification = OfficeMathJustification.Left;
 

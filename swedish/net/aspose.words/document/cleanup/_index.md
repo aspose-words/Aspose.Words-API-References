@@ -3,7 +3,7 @@ title: Document.Cleanup
 second_title: Aspose.Words för .NET API Referens
 description: Document metod. Rensar oanvända stilar och listor från dokumentet.
 type: docs
-weight: 520
+weight: 560
 url: /sv/net/aspose.words/document/cleanup/
 ---
 ## Cleanup() {#cleanup}
@@ -107,7 +107,7 @@ doc.Cleanup(cleanupOptions);
 
 Assert.AreEqual(4, doc.Styles.Count);
 
-// Om du tar bort varje nod som en anpassad stil tillämpas på markeras den som "oanvänd" igen. 
+ // Om du tar bort varje nod som en anpassad stil tillämpas på markeras den som "oanvänd" igen.
 // Kör rengöringsmetoden igen för att ta bort dem.
 doc.FirstSection.Body.RemoveAllChildren();
 doc.Cleanup(cleanupOptions);

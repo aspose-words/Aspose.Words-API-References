@@ -16,23 +16,23 @@ public override bool Accept(DocumentVisitor visitor)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| visitor | DocumentVisitor | Посетитель, который будет посещать узлы. |
+| visitor | DocumentVisitor | Посетитель, который посетит узлы. |
 
 ### Возвращаемое значение
 
-Истинно, если все узлы были посещены; false, если DocumentVisitor остановил операцию перед посещением всех узлов.
+Истинно, если были посещены все узлы; ложь, если[`DocumentVisitor`](../../documentvisitor/) остановил операцию перед посещением всех узлов.
 
 ### Примечания
 
-Перечисляет этот узел и все его дочерние элементы. Каждый узел вызывает соответствующий метод в DocumentVisitor.
+Перечисляет этот узел и все его дочерние элементы. Каждый узел вызывает соответствующий метод[`DocumentVisitor`](../../documentvisitor/).
 
 Дополнительные сведения см. в шаблоне проектирования «Посетитель».
 
-Вызывает DocumentVisitor.VisitHeaderFooterStart, затем вызывает Accept для всех дочерних узлов section и вызывает DocumentVisitor.VisitHeaderFooterEnd в конце.
+Звонки[`VisitHeaderFooterStart`](../../documentvisitor/visitheaderfooterstart/) , затем звонит[`Accept`](../../node/accept/) для всех дочерних узловsection и вызовов[`VisitHeaderFooterEnd`](../../documentvisitor/visitheaderfooterend/) в конце.
 
 ### Примеры
 
-Показывает, как напечатать структуру узла каждого верхнего и нижнего колонтитула в документе.
+Показывает, как распечатать структуру узлов каждого верхнего и нижнего колонтитула в документе.
 
 ```csharp
 public void HeaderFooterToText()
@@ -40,20 +40,20 @@ public void HeaderFooterToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     HeaderFooterStructurePrinter visitor = new HeaderFooterStructurePrinter();
 
-    // Когда составной узел принимает посетителя документа, посетитель посещает принимающий узел,
-    // а затем обходит все дочерние элементы узла в порядке глубины.
-    // Посетитель может читать и изменять каждый посещаемый узел.
+    // Когда мы получаем составной узел для приема посетителя документа, посетитель посещает принимающий узел,
+    // а затем обходит все дочерние узлы в глубину.
+    // Посетитель может читать и изменять каждый посещенный узел.
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 
-    // Альтернативный способ доступа к верхнему/нижнему колонтитулу документа по разделам — доступ к коллекции.
+    // Альтернативный способ доступа к верхнему и нижнему колонтитулу документа по разделам — обращение к коллекции.
     HeaderFooter[] headerFooters = doc.FirstSection.HeadersFooters.ToArray();
     Assert.AreEqual(3, headerFooters.Length);
 }
 
 /// <summary>
-/// Обходит небинарное дерево дочерних узлов узла.
+/// Обходит недвоичное дерево дочерних узлов узла.
 /// Создает карту в виде строки всех встреченных узлов HeaderFooter и их дочерних элементов.
 /// </summary>
 public class HeaderFooterStructurePrinter : DocumentVisitor
@@ -104,7 +104,7 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Добавляем строку в StringBuilder и делаем отступ в зависимости от того, насколько глубоко посетитель находится в дереве документа.
+    /// Добавляем строку к StringBuilder и отступаем от нее в зависимости от того, насколько глубоко посетитель находится в дереве документа.
     /// </summary>
     /// <param name="text"></param>
     private void IndentAndAppendLine(string text)

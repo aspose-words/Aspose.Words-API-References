@@ -1,14 +1,16 @@
 ---
 title: Class VbaReferenceCollection
 second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Vba.VbaReferenceCollection klas. Repräsentiert eine Sammlung vonVbaReference Objekte.
+description: Aspose.Words.Vba.VbaReferenceCollection klas. Stellt eine Sammlung von darVbaReference Objekte.
 type: docs
-weight: 6290
+weight: 6600
 url: /de/net/aspose.words.vba/vbareferencecollection/
 ---
 ## VbaReferenceCollection class
 
-Repräsentiert eine Sammlung von[`VbaReference`](../vbareference/) Objekte.
+Stellt eine Sammlung von dar[`VbaReference`](../vbareference/) Objekte.
+
+Um mehr zu erfahren, besuchen Sie die[Arbeiten mit VBA-Makros](https://docs.aspose.com/words/net/working-with-vba-macros/) Dokumentationsartikel.
 
 ```csharp
 public sealed class VbaReferenceCollection : IEnumerable<VbaReference>
@@ -19,21 +21,20 @@ public sealed class VbaReferenceCollection : IEnumerable<VbaReference>
 | Name | Beschreibung |
 | --- | --- |
 | [Count](../../aspose.words.vba/vbareferencecollection/count/) { get; } | Gibt die Anzahl der VBA-Referenzen in der Sammlung zurück. |
-| [Item](../../aspose.words.vba/vbareferencecollection/item/) { get; } | erhält[`VbaReference`](../vbareference/) Objekt am angegebenen Index. |
+| [Item](../../aspose.words.vba/vbareferencecollection/item/) { get; } | Ruft ab[`VbaReference`](../vbareference/) Objekt am angegebenen Index. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [Remove](../../aspose.words.vba/vbareferencecollection/remove/)(VbaReference) | Entfernt das erste Vorkommen eines angegebenen VbaReference-Elements aus der Sammlung. |
-| [RemoveAt](../../aspose.words.vba/vbareferencecollection/removeat/)(int) | Entfernt das VbaReference-Element am angegebenen Index der Sammlung. |
+| [Remove](../../aspose.words.vba/vbareferencecollection/remove/)(VbaReference) | Entfernt das erste Vorkommen eines angegebenen[`VbaReference`](../vbareference/) Artikel aus der Sammlung. |
+| [RemoveAt](../../aspose.words.vba/vbareferencecollection/removeat/)(int) | Entfernt die[`VbaReference`](../vbareference/) Element am angegebenen Index der Sammlung. |
 
 ### Beispiele
 
 Zeigt, wie ein Element aus der VBA-Referenzsammlung abgerufen/entfernt wird.
 
 ```csharp
-[Test]
 public void RemoveVbaReference()
 {
     const string brokenPath = @"X:\broken.dll";
@@ -59,7 +60,7 @@ public void RemoveVbaReference()
 }
 
 /// <summary>
-/// Gibt einen String zurück, der den LibId-Pfad einer angegebenen Referenz darstellt. 
+ /// Gibt einen String zurück, der den LibId-Pfad einer angegebenen Referenz darstellt.
 /// </summary>
 private static string GetLibIdPath(VbaReference reference)
 {

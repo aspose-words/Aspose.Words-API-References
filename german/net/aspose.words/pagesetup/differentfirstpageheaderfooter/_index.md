@@ -1,14 +1,14 @@
 ---
 title: PageSetup.DifferentFirstPageHeaderFooter
 second_title: Aspose.Words für .NET-API-Referenz
-description: PageSetup eigendom. WAHR wenn auf der ersten Seite eine andere Kopf oder Fußzeile verwendet wird.
+description: PageSetup eigendom. True wenn auf der ersten Seite eine andere Kopf oder Fußzeile verwendet wird.
 type: docs
 weight: 110
 url: /de/net/aspose.words/pagesetup/differentfirstpageheaderfooter/
 ---
 ## PageSetup.DifferentFirstPageHeaderFooter property
 
-**WAHR** wenn auf der ersten Seite eine andere Kopf- oder Fußzeile verwendet wird.
+True, wenn auf der ersten Seite eine andere Kopf- oder Fußzeile verwendet wird.
 
 ```csharp
 public bool DifferentFirstPageHeaderFooter { get; set; }
@@ -16,7 +16,7 @@ public bool DifferentFirstPageHeaderFooter { get; set; }
 
 ### Beispiele
 
-Zeigt, wie Kopf- und Fußzeilen in einem Dokument mit DocumentBuilder erstellt werden.
+Zeigt, wie man mit DocumentBuilder Kopf- und Fußzeilen in einem Dokument erstellt.
 
 ```csharp
 Document doc = new Document();
@@ -26,7 +26,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.PageSetup.DifferentFirstPageHeaderFooter = true;
 builder.PageSetup.OddAndEvenPagesHeaderFooter = true;
 
-// Kopfzeilen erstellen, dann drei Seiten zum Dokument hinzufügen, um jeden Kopfzeilentyp anzuzeigen.
+// Erstellen Sie die Kopfzeilen und fügen Sie dann drei Seiten zum Dokument hinzu, um jeden Kopfzeilentyp anzuzeigen.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderFirst);
 builder.Write("Header for the first page");
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderEven);
@@ -50,16 +50,16 @@ Zeigt, wie primäre Kopf-/Fußzeilen aktiviert oder deaktiviert werden.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Unten sind zwei Arten von Kopf-/Fußzeilen.
-// 1 - Die "erste" Kopf-/Fußzeile, die auf der ersten Seite des Abschnitts erscheint.
+// Nachfolgend sind zwei Arten von Kopf-/Fußzeilen aufgeführt.
+// 1 – Die „erste“ Kopf-/Fußzeile, die auf der ersten Seite des Abschnitts erscheint.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderFirst);
 builder.Writeln("First page header.");
 
 builder.MoveToHeaderFooter(HeaderFooterType.FooterFirst);
 builder.Writeln("First page footer.");
 
-// 2 - Die "primäre" Kopf-/Fußzeile, die auf jeder Seite im Abschnitt erscheint.
-// Wir können die primäre Kopf-/Fußzeile durch eine erste und eine gerade Seiten-Kopf-/Fußzeile überschreiben.
+// 2 – Die „primäre“ Kopf-/Fußzeile, die auf jeder Seite im Abschnitt erscheint.
+ // Wir können die primäre Kopf-/Fußzeile durch eine erste und eine gerade Seitenkopf-/-fußzeile überschreiben.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 builder.Writeln("Primary header.");
 
@@ -73,17 +73,17 @@ builder.Writeln("Page 2.");
 builder.InsertBreak(BreakType.PageBreak);
 builder.Writeln("Page 3.");
 
-// Jeder Abschnitt hat ein "PageSetup"-Objekt, das Eigenschaften bezüglich des Aussehens der Seite festlegt
-// wie Ausrichtung, Größe und Rahmen.
-// Setzen Sie die Eigenschaft "DifferentFirstPageHeaderFooter" auf "true", um die erste Kopf-/Fußzeile auf die erste Seite anzuwenden.
-// Setzen Sie die Eigenschaft "DifferentFirstPageHeaderFooter" auf "false"
-// damit die erste Seite die primäre Kopf-/Fußzeile anzeigt.
+// Jeder Abschnitt verfügt über ein „PageSetup“-Objekt, das Eigenschaften im Zusammenhang mit der Darstellung der Seite angibt
+// wie Ausrichtung, Größe und Ränder.
+// Setzen Sie die Eigenschaft „DifferentFirstPageHeaderFooter“ auf „true“, um die erste Kopf-/Fußzeile auf die erste Seite anzuwenden.
+// Die Eigenschaft „DifferentFirstPageHeaderFooter“ auf „false“ setzen
+// Damit auf der ersten Seite die primäre Kopf-/Fußzeile angezeigt wird.
 builder.PageSetup.DifferentFirstPageHeaderFooter = differentFirstPageHeaderFooter;
 
 doc.Save(ArtifactsDir + "PageSetup.DifferentFirstPageHeaderFooter.docx");
 ```
 
-Zeigt, wie die Reihenfolge nachverfolgt wird, in der ein Textersetzungsvorgang Knoten durchläuft.
+Zeigt, wie die Reihenfolge verfolgt wird, in der ein Textersetzungsvorgang Knoten durchläuft.
 
 ```csharp
 public void Order(bool differentFirstPageHeaderFooter)
@@ -115,7 +115,7 @@ public void Order(bool differentFirstPageHeaderFooter)
         }
 
         /// <summary>
-        /// Zeichnet während einer Suchen-und-Ersetzen-Operation den Inhalt jedes Knotens auf, der Text enthält, den die Operation 'findet',
+        /// Zeichnet während einer Such- und Ersetzungsoperation den Inhalt jedes Knotens auf, der Text enthält, den die Operation „findet“.
         /// in dem Zustand, in dem es sich vor der Ersetzung befindet.
         /// Dies zeigt die Reihenfolge an, in der die Textersetzungsoperation Knoten durchläuft.
         /// </summary>

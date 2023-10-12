@@ -1,14 +1,14 @@
 ---
 title: TaskPane.IsVisible
 second_title: Справочник по API Aspose.Words для .NET
-description: TaskPane свойство. Указывает отображается ли область задач как видимая по умолчанию при открытии документа.
+description: TaskPane свойство. Указывает отображается ли панель задач видимой по умолчанию при открытии документа.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.webextensions/taskpane/isvisible/
 ---
 ## TaskPane.IsVisible property
 
-Указывает, отображается ли область задач как видимая по умолчанию при открытии документа.
+Указывает, отображается ли панель задач видимой по умолчанию при открытии документа.
 
 ```csharp
 public bool IsVisible { get; set; }
@@ -21,8 +21,8 @@ public bool IsVisible { get; set; }
 ```csharp
 Document doc = new Document();
 
-// Создаем панель задач с надстройкой "MyScript", которая будет использоваться документом,
-// затем установите его местоположение по умолчанию.
+// Создаём панель задач с надстройкой MyScript, которая будет использоваться документом,
+// затем устанавливаем местоположение по умолчанию.
 TaskPane myScriptTaskPane = new TaskPane();
 doc.WebExtensionTaskPanes.Add(myScriptTaskPane);
 myScriptTaskPane.DockState = TaskPaneDockState.Right;
@@ -30,13 +30,13 @@ myScriptTaskPane.IsVisible = true;
 myScriptTaskPane.Width = 300;
 myScriptTaskPane.IsLocked = true;
 
-// Если в одном и том же месте закрепления есть несколько панелей задач, мы можем установить этот индекс, чтобы упорядочить их.
+// Если в одном месте закрепления находится несколько панелей задач, мы можем установить этот индекс, чтобы упорядочить их.
 myScriptTaskPane.Row = 1;
 
 // Создайте надстройку под названием «MyScript Math Sample», внутри которой будет отображаться панель задач.
 WebExtension webExtension = myScriptTaskPane.WebExtension;
 
-// Задаем эталонные параметры хранилища приложений для нашей надстройки, например идентификатор.
+// Установите ссылочные параметры хранилища приложений для нашей надстройки, например идентификатор.
 webExtension.Reference.Id = "WA104380646";
 webExtension.Reference.Version = "1.0.0.0";
 webExtension.Reference.StoreType = WebExtensionStoreType.OMEX;
@@ -47,10 +47,10 @@ webExtension.Bindings.Add(new WebExtensionBinding("MyScript", WebExtensionBindin
 // Разрешить пользователю взаимодействовать с надстройкой.
 webExtension.IsFrozen = false;
 
-// Мы можем получить доступ к веб-расширению в Microsoft Word через Developer -> Надстройки.
+// Мы можем получить доступ к веб-расширению в Microsoft Word через Developer -> gt; Надстройки.
 doc.Save(ArtifactsDir + "Document.WebExtension.docx");
 
-// Сразу удалить все панели задач веб-расширения, как показано ниже.
+// Удалить все панели задач веб-расширений одновременно, вот так.
 doc.WebExtensionTaskPanes.Clear();
 
 Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);

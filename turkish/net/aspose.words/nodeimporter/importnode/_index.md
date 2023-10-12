@@ -1,14 +1,14 @@
 ---
 title: NodeImporter.ImportNode
 second_title: Aspose.Words for .NET API Referansı
-description: NodeImporter yöntem. Bir düğümü bir belgeden diğerine aktarır.
+description: NodeImporter yöntem. Bir belgedeki düğümü diğerine aktarır.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/nodeimporter/importnode/
 ---
 ## NodeImporter.ImportNode method
 
-Bir düğümü bir belgeden diğerine aktarır.
+Bir belgedeki düğümü diğerine aktarır.
 
 ```csharp
 public Node ImportNode(Node srcNode, bool isImportChildren)
@@ -17,26 +17,25 @@ public Node ImportNode(Node srcNode, bool isImportChildren)
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | srcNode | Node | İçe aktarılacak düğüm. |
-| isImportChildren | Boolean | Tüm alt düğümleri yinelemeli olarak içe aktarmak için doğru; aksi halde yanlış. |
+| isImportChildren | Boolean | `doğru` tüm alt düğümleri yinelemeli olarak içe aktarmak için; aksi takdirde,`YANLIŞ`. |
 
 ### Geri dönüş değeri
 
-Klonlanmış, içe aktarılan düğüm. Düğüm, hedef belgeye aittir, ancak üst öğesi yoktur.
+Klonlanmış, içe aktarılmış düğüm. Düğüm hedef belgeye aittir ancak üst öğesi yoktur.
 
 ### Notlar
 
-Bir düğümü içe aktarmak, içe aktarma belgesine ait kaynak düğümün bir kopyasını oluşturur. Döndürülen düğümün üst öğesi yok. Kaynak düğüm değiştirilmez veya orijinal belgeden kaldırılmaz.
+Bir düğümün içe aktarılması, içe aktarılan belgeye ait kaynak düğümün bir kopyasını oluşturur. Döndürülen düğümün üst öğesi yok. Kaynak düğüm değiştirilmez veya orijinal belgeden kaldırılmaz.
 
-Başka bir belgeden bir düğüm bu belgeye eklenmeden önce içe aktarılmalıdır. İçe aktarma sırasında, stillere ve listelere referanslar gibi belgeye özgü özellikler orijinalden içe aktarılan belgeye çevrilir. Düğüm içe aktarıldıktan sonra, kullanılarak belgedeki uygun yere eklenebilir.[`InsertBefore`](../../compositenode/insertbefore/) veya [`InsertAfter`](../../compositenode/insertafter/).
+Başka bir belgedeki bir düğümün bu belgeye eklenmeden önce içe aktarılması gerekir. İçe aktarma sırasında, stillere ve listelere yapılan referanslar gibi belgeye özgü özellikler orijinalden içe aktarılan belgeye çevrilir . Düğüm içe aktarıldıktan sonra, kullanılarak belgedeki uygun yere eklenebilir.Node) veya Node).
 
-Kaynak düğüm zaten hedef belgeye aitse, kaynak düğümün derin bir klonu oluşturulur.
+Kaynak düğüm zaten hedef belgeye aitse, kaynak düğümün derin clone 'si oluşturulur.
 
 ### Örnekler
 
-Bir belgenin içeriğinin başka bir belgedeki yer işaretine nasıl ekleneceğini gösterir.
+Bir belgenin içeriğinin başka bir belgedeki yer imine nasıl ekleneceğini gösterir.
 
 ```csharp
-[Test]
 public void InsertAtBookmark()
 {
     Document doc = new Document();
@@ -61,7 +60,7 @@ public void InsertAtBookmark()
 }
 
 /// <summary>
-/// Belirtilen düğümden sonra bir belgenin içeriğini ekler.
+/// Belgenin içeriğini belirtilen düğümden sonra ekler.
 /// </summary>
 static void InsertDocument(Node insertionDestination, Document docToInsert)
 {
@@ -72,8 +71,8 @@ static void InsertDocument(Node insertionDestination, Document docToInsert)
         NodeImporter importer =
             new NodeImporter(docToInsert, insertionDestination.Document, ImportFormatMode.KeepSourceFormatting);
 
-        // Bölümün gövdesindeki tüm blok düzeyindeki düğümler arasında dolaşın,
-        // sonra bir bölümün son boş paragrafı olmayan her düğümü klonlayın ve ekleyin.
+        // Bölümün gövdesindeki tüm blok düzeyindeki düğümler arasında döngü yapın,
+        // sonra bir bölümün son boş paragrafı olmayan her düğümü kopyalayıp ekleyin.
         foreach (Section srcSection in docToInsert.Sections.OfType<Section>())
             foreach (Node srcNode in srcSection.Body)
             {

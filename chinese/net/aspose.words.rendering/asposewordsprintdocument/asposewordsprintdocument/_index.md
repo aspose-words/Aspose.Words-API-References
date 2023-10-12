@@ -1,14 +1,14 @@
 ---
 title: AsposeWordsPrintDocument.AsposeWordsPrintDocument
 second_title: Aspose.Words for .NET API 参考
-description: AsposeWordsPrintDocument 构造函数. 初始化这个类的一个新实例
+description: AsposeWordsPrintDocument 构造函数. 初始化此类的新实例
 type: docs
 weight: 10
 url: /zh/net/aspose.words.rendering/asposewordsprintdocument/asposewordsprintdocument/
 ---
 ## AsposeWordsPrintDocument constructor
 
-初始化这个类的一个新实例。
+初始化此类的新实例。
 
 ```csharp
 public AsposeWordsPrintDocument(Document document)
@@ -20,14 +20,14 @@ public AsposeWordsPrintDocument(Document document)
 
 ### 例子
 
-显示如何选择页面范围和打印机来打印文档，然后打开打印预览。
+演示如何选择页面范围和用于打印文档的打印机，然后显示打印预览。
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
 PrintPreviewDialog previewDlg = new PrintPreviewDialog();
 
-// 调用“Show”方法让打印预览表单显示在顶部。
+// 调用“Show”方法使打印预览表单显示在顶部。
 previewDlg.Show();
 
 // 使用文档中的页数初始化打印对话框。
@@ -46,17 +46,22 @@ if (printDlg.ShowDialog() != DialogResult.OK)
 AsposeWordsPrintDocument awPrintDoc = new AsposeWordsPrintDocument(doc);
 awPrintDoc.PrinterSettings = printDlg.PrinterSettings;
 
-// 使用“CachePrinterSettings”方法减少第一次调用“Print”方法的时间。
+// 指定新的彩色打印模式。
+awPrintDoc.ColorMode = ColorPrintMode.GrayscaleAuto;
+
+// 使用“CachePrinterSettings”方法来减少第一次调用“Print”方法的时间。
 awPrintDoc.CachePrinterSettings();
 
-// 调用“Hide”，然后调用“InvalidatePreview”方法让打印预览显示在顶部。
+// 调用“Hide”，然后调用“InvalidatePreview”方法以使打印预览显示在顶部。
 previewDlg.Hide();
 previewDlg.PrintPreviewControl.InvalidatePreview();
 
-// 将“Aspose.Words”打印文档传递给 .NET 打印预览对话框。
+// 将“Aspose.Words”打印文档传递到.NET 打印预览对话框。
 previewDlg.Document = awPrintDoc;
-
 previewDlg.ShowDialog();
+
+awPrintDoc.Print();            
+Console.WriteLine($"The numer of pages printed in color are {awPrintDoc.ColorPagesPrinted}.");
 ```
 
 ### 也可以看看

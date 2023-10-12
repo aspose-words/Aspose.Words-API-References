@@ -16,7 +16,7 @@ public bool IgnoreNoscriptElements { get; set; }
 
 ### Osservazioni
 
-Come MS Word, Aspose.Words non supporta gli script e per impostazione predefinita carica il contenuto di &lt;noscript&gt; elementi nel documento risultante. Nella maggior parte dei browser, tuttavia, gli script sono supportati e il contenuto di &lt;noscript&gt; non è visibile. Impostando questa proprietà su`VERO` forza Aspose.Words a ignorare tutti gli elementi &lt;noscript&gt; e aiuta a produrre documenti che sembrano più vicini a quanto visto nei browser.
+Come MS Word, Aspose.Words non supporta gli script e per impostazione predefinita carica il contenuto di &lt;noscript&gt; elements nel documento risultante. Nella maggior parte dei browser, tuttavia, gli script sono supportati e il contenuto di &lt;noscript&gt; non è visibile. Impostando questa proprietà su`VERO` forza Aspose.Words a ignorare tutti gli elementi &lt;noscript&gt; e aiuta a produrre documenti che sembrano più vicini a ciò che viene visto nei browser.
 
 ### Esempi
 

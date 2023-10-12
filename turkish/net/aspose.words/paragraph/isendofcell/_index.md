@@ -1,14 +1,14 @@
 ---
 title: Paragraph.IsEndOfCell
 second_title: Aspose.Words for .NET API Referansı
-description: Paragraph mülk. Bu paragraf bir metindeki son paragrafsa doğrudurCell  aksi halde yanlış.
+description: Paragraph mülk. Bu paragraf bir paragraftaki son paragrafsa doğrudurCell  aksi halde yanlış.
 type: docs
 weight: 50
 url: /tr/net/aspose.words/paragraph/isendofcell/
 ---
 ## Paragraph.IsEndOfCell property
 
-Bu paragraf bir metindeki son paragrafsa doğrudur[`Cell`](../../../aspose.words.tables/cell/) ; aksi halde yanlış.
+Bu paragraf bir paragraftaki son paragrafsa doğrudur[`Cell`](../../../aspose.words.tables/cell/) ; aksi halde yanlış.
 
 ```csharp
 public bool IsEndOfCell { get; }
@@ -22,8 +22,8 @@ Aynı sayfada bir arada kalacak bir tablonun nasıl ayarlanacağını gösterir.
 Document doc = new Document(MyDir + "Table spanning two pages.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
-// Tablodaki her paragraf için KeepWithNext'i etkinleştirme
-// son satırdaki son olanlar, tablonun birden çok sayfaya bölünmesini engeller.
+// Tablodaki hariç her paragraf için KeepWithNext etkinleştiriliyor
+// son satırdaki sonuncular tablonun birden fazla sayfaya bölünmesini engelleyecektir.
 foreach (Cell cell in table.GetChildNodes(NodeType.Cell, true).OfType<Cell>())
     foreach (Paragraph para in cell.Paragraphs.OfType<Paragraph>())
     {

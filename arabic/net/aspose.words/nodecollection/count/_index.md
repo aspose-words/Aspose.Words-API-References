@@ -16,30 +16,30 @@ public int Count { get; }
 
 ### أمثلة
 
-يوضح كيفية اجتياز مجموعة العقد المركبة الخاصة بالعقد الفرعية.
+يوضح كيفية اجتياز مجموعة العقد الفرعية للعقدة المركبة.
 
 ```csharp
 Document doc = new Document();
 
-// أضف شريطين وشكل واحد كعقد فرعية إلى الفقرة الأولى من هذا المستند.
+// أضف مسارين وشكلًا واحدًا كعقد فرعية إلى الفقرة الأولى من هذه الوثيقة.
 Paragraph paragraph = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
 paragraph.AppendChild(new Run(doc, "Hello world! "));
 
 Shape shape = new Shape(doc, ShapeType.Rectangle);
 shape.Width = 200;
 shape.Height = 200;
-// لاحظ أن "CustomNodeId" لا يتم حفظه في ملف الإخراج ولا يوجد إلا أثناء عمر العقدة.
+// لاحظ أن "CustomNodeId" لا يتم حفظه في ملف إخراج وهو موجود فقط أثناء عمر العقدة.
 shape.CustomNodeId = 100;
 shape.WrapType = WrapType.Inline;
 paragraph.AppendChild(shape);
 
 paragraph.AppendChild(new Run(doc, "Hello again!"));
 
-// كرر من خلال مجموعة الفقرة للأطفال المباشرين ،
-// وطباعة أي أشكال أو أشكال نجدها بالداخل.
-NodeCollection children = paragraph.ChildNodes;
+// كرر من خلال مجموعة الفقرة من العناصر الفرعية المباشرة،
+// وطباعة أي مسارات أو أشكال نجدها داخلها.
+NodeCollection children = paragraph.GetChildNodes(NodeType.Any, false);
 
-Assert.AreEqual(3, paragraph.ChildNodes.Count);
+Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, false).Count);
 
 foreach (Node child in children)
     switch (child.NodeType)
@@ -52,6 +52,7 @@ foreach (Node child in children)
             Shape childShape = (Shape)child;
             Console.WriteLine("Shape:");
             Console.WriteLine($"\t{childShape.ShapeType}, {childShape.Width}x{childShape.Height}");
+            break;
     }
 ```
 
@@ -62,7 +63,6 @@ public void CalculateDepthOfNestedTables()
 {
     Document doc = new Document(MyDir + "Nested tables.docx");
     NodeCollection tables = doc.GetChildNodes(NodeType.Table, true);
-
     for (int i = 0; i < tables.Count; i++)
     {
         Table table = (Table)tables[i];
@@ -71,7 +71,7 @@ public void CalculateDepthOfNestedTables()
         int count = GetChildTableCount(table);
         Console.WriteLine("Table #{0} has {1} tables directly within its cells", i, count);
 
-        // اكتشف ما إذا كان الجدول متداخلًا داخل جدول آخر ، وإذا كان الأمر كذلك ، فبأي عمق.
+        // اكتشف ما إذا كان الجدول متداخلاً داخل جدول آخر، وإذا كان الأمر كذلك، فبأي عمق.
         int tableDepth = GetNestedDepthOfTable(table);
 
         if (tableDepth > 0)
@@ -83,7 +83,7 @@ public void CalculateDepthOfNestedTables()
 }
 
 /// <summary>
-/// لحساب المستوى الذي يتداخل فيه الجدول داخل جداول أخرى.
+/// يحسب مستوى تداخل الجدول داخل الجداول الأخرى.
 /// </summary>
 /// <returns>
 /// عدد صحيح يشير إلى عمق تداخل الجدول (عدد عقد الجدول الأصل).
@@ -103,12 +103,12 @@ private static int GetNestedDepthOfTable(Table table)
 }
 
 /// <summary>
-/// يحدد ما إذا كان الجدول يحتوي على أي جدول تابع مباشر داخل خلاياه.
-/// لا تجتاز هذه الجداول بشكل متكرر للتحقق من وجود المزيد من الجداول.
+/// تحديد ما إذا كان الجدول يحتوي على أي جدول فرعي مباشر داخل خلاياه.
+/// لا تقم بالتنقل عبر تلك الجداول بشكل متكرر للتحقق من وجود جداول أخرى.
 /// </summary>
 /// <returns>
-/// يعود صحيحاً إذا احتوت خلية فرعية واحدة على الأقل على جدول.
-/// ترجع خطأ إذا لم تكن هناك خلايا في الجدول تحتوي على جدول.
+/// يُرجع صحيحًا إذا كانت هناك خلية فرعية واحدة على الأقل تحتوي على جدول.
+/// يُرجع خطأ إذا لم تكن هناك خلايا في الجدول تحتوي على جدول.
 /// </returns>
 private static int GetChildTableCount(Table table)
 {

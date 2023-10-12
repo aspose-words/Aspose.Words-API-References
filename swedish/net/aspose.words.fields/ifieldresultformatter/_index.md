@@ -3,7 +3,7 @@ title: Interface IFieldResultFormatter
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Fields.IFieldResultFormatter gränssnitt. Implementera detta gränssnitt om du vill styra hur fältresultatet formateras.
 type: docs
-weight: 2530
+weight: 2700
 url: /sv/net/aspose.words.fields/ifieldresultformatter/
 ---
 ## IFieldResultFormatter interface
@@ -28,6 +28,7 @@ public interface IFieldResultFormatter
 Visar hur man automatiskt tillämpar ett anpassat format på fältresultat när fälten uppdateras.
 
 ```csharp
+public void FieldResultFormatting()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);

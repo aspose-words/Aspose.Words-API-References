@@ -1,14 +1,14 @@
 ---
 title: Enum TextBoxWrapMode
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Drawing.TextBoxWrapMode énumération. Spécifie comment le texte shabille à lintérieur dune forme.
+description: Aspose.Words.Drawing.TextBoxWrapMode énumération. Spécifie comment le texte senroule à lintérieur dune forme.
 type: docs
-weight: 1190
+weight: 1340
 url: /fr/net/aspose.words.drawing/textboxwrapmode/
 ---
 ## TextBoxWrapMode enumeration
 
-Spécifie comment le texte s'habille à l'intérieur d'une forme.
+Spécifie comment le texte s'enroule à l'intérieur d'une forme.
 
 ```csharp
 public enum TextBoxWrapMode
@@ -18,12 +18,12 @@ public enum TextBoxWrapMode
 
 | Nom | Évaluer | La description |
 | --- | --- | --- |
-| Square | `0` | Le texte rentre dans une forme. |
-| None | `2` | Le texte ne rentre pas dans une forme. |
+| Square | `0` | Le texte s'enroule à l'intérieur d'une forme. |
+| None | `2` | Le texte ne s'enroule pas à l'intérieur d'une forme. |
 
 ### Exemples
 
-Montre comment définir un mode d'habillage pour le contenu d'une zone de texte.
+Montre comment définir un mode d’habillage pour le contenu d’une zone de texte.
 
 ```csharp
 Document doc = new Document();
@@ -33,7 +33,7 @@ Shape textBoxShape = builder.InsertShape(ShapeType.TextBox, 300, 300);
 TextBox textBox = textBoxShape.TextBox;
 
 // Définissez la propriété "TextBoxWrapMode" sur "TextBoxWrapMode.None" pour augmenter la largeur de la zone de texte
-// pour contenir du texte, s'il est assez grand.
+// pour accueillir du texte, s'il est suffisamment grand.
 // Définissez la propriété "TextBoxWrapMode" sur "TextBoxWrapMode.Square" pour
 // enveloppe tout le texte à l'intérieur de la zone de texte, en préservant ses dimensions.
 textBox.TextBoxWrapMode = textBoxWrapMode;

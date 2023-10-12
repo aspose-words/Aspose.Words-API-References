@@ -1,14 +1,14 @@
 ---
 title: Border.IsVisible
 second_title: Aspose.Words för .NET API Referens
-description: Border fast egendom. Returnerar sant om LineStyle inte är LineStyle.None.
+description: Border fast egendom. ReturnerarSann omLineStyle är inteNone .
 type: docs
 weight: 30
 url: /sv/net/aspose.words/border/isvisible/
 ---
 ## Border.IsVisible property
 
-Returnerar sant om LineStyle inte är LineStyle.None.
+Returnerar`Sann` om[`LineStyle`](../linestyle/) är inteNone .
 
 ```csharp
 public bool IsVisible { get; }
@@ -30,7 +30,7 @@ Assert.AreEqual(3.0d, borders[0].LineWidth);
 Assert.AreEqual(LineStyle.Single, borders[0].LineStyle);
 Assert.True(borders[0].IsVisible);
 
-// Vi kan ta bort en kantlinje på en gång genom att köra metoden ClearFormatting. 
+ // Vi kan ta bort en kantlinje på en gång genom att köra metoden ClearFormatting.
 // Att köra den här metoden på varje kant i ett stycke tar bort alla dess kanter.
 foreach (Border border in borders)
     border.ClearFormatting();

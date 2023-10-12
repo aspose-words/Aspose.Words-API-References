@@ -16,7 +16,7 @@ public string Name { get; set; }
 
 ### Notlar
 
-Bir yer iminin adını belgede zaten var olan bir adla değiştirirseniz, hata verilmeyeceğini ve belgeyi kaydettiğinizde yalnızca ilk yer iminin saklanacağını unutmayın.
+Bir yer iminin adını, belgede zaten mevcut olan bir adla değiştirirseniz, herhangi bir hata verilmeyeceğini ve belgeyi kaydettiğinizde yalnızca ilk yer iminin saklanacağını unutmayın.
 
 ### Örnekler
 
@@ -24,11 +24,11 @@ Yer iminin nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
+DocumentBuilder builder = new DocumentBuilder(doc);            
 
-// Geçerli bir yer işaretinin bir adı, bir BookmarkStart ve bir BookmarkEnd düğümü vardır.
-// Kaydedilen belgeyi Microsoft Word ile açarsak, yer imlerinin adlarındaki boşluklar alt çizgiye dönüştürülür. 
-// Yer iminin adını Microsoft Word'de Ekle -> Bağlantılar -> İşaretleyin ve "Git"e basın,
+// Geçerli bir yer iminin bir adı, bir BookmarkStart'ı ve bir BookmarkEnd düğümü vardır.
+// Kaydedilen belgeyi Microsoft Word ile açarsak, yer imlerinin adlarındaki boşluklar alt çizgiye dönüştürülecektir.
+// Yer iminin adını Microsoft Word'de Insert -> ile vurgularsak; Bağlantılar -> Yer imlerinize ekleyin ve "Git"e basın,
 // imleç BookmarkStart ve BookmarkEnd düğümleri arasında yer alan metne atlayacaktır.
 builder.StartBookmark("My Bookmark");
 builder.Write("Contents of MyBookmark.");
@@ -40,27 +40,26 @@ Assert.AreEqual("My Bookmark", doc.Range.Bookmarks[0].Name);
 doc.Save(ArtifactsDir + "Bookmarks.Insert.docx");
 ```
 
-Yer imlerinin nasıl ekleneceğini ve içeriklerinin nasıl güncelleneceğini gösterir.
+Yer işaretlerinin nasıl ekleneceğini ve içeriklerinin nasıl güncelleneceğini gösterir.
 
 ```csharp
 public void CreateUpdateAndPrintBookmarks()
 {
-    // Üç yer imi içeren bir belge oluşturun, ardından içeriklerini yazdırmak için özel bir belge ziyaretçi uygulaması kullanın.
+    // Üç yer imine sahip bir belge oluşturun, ardından içeriklerini yazdırmak için özel bir belge ziyaretçisi uygulaması kullanın.
     Document doc = CreateDocumentWithBookmarks(3);
     BookmarkCollection bookmarks = doc.Range.Bookmarks;
-
     PrintAllBookmarkInfo(bookmarks);
 
-    // Yer imi koleksiyonundaki yer imlerine dizin veya isme göre erişilebilir ve adları güncellenebilir.
+    // Yer imleri koleksiyonundaki yer imlerine dizine veya isme göre erişilebilir ve adları güncellenebilir.
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
-    // Güncellenen değerleri görmek için tüm yer imlerini yeniden yazdırın.
+    // Güncellenen değerleri görmek için tüm yer imlerini tekrar yazdırın.
     PrintAllBookmarkInfo(bookmarks);
 }
 
 /// <summary>
-/// Belirli sayıda yer imi içeren bir belge oluşturun.
+/// Belirli sayıda yer işaretine sahip bir belge oluşturun.
 /// </summary>
 private static Document CreateDocumentWithBookmarks(int numberOfBookmarks)
 {
@@ -88,7 +87,7 @@ private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 {
     BookmarkInfoPrinter bookmarkVisitor = new BookmarkInfoPrinter();
 
-    // İçeriğini yazdıracak bir ziyaretçiyi kabul etmek için koleksiyondaki her yer işaretini alın.
+    // Koleksiyondaki her yer iminin, içeriğini yazdıracak bir ziyaretçiyi kabul etmesini sağlayın.
     using (IEnumerator<Bookmark> enumerator = bookmarks.GetEnumerator())
     {
         while (enumerator.MoveNext())

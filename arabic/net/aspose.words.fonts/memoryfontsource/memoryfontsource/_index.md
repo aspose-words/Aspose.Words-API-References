@@ -1,14 +1,14 @@
 ---
 title: MemoryFontSource.MemoryFontSource
 second_title: Aspose.Words لمراجع .NET API
-description: MemoryFontSource البناء. Ctor.
+description: MemoryFontSource البناء. الممثل.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fonts/memoryfontsource/memoryfontsource/
 ---
 ## MemoryFontSource(byte[]) {#constructor}
 
-Ctor.
+الممثل.
 
 ```csharp
 public MemoryFontSource(byte[] fontData)
@@ -20,7 +20,7 @@ public MemoryFontSource(byte[] fontData)
 
 ### أمثلة
 
-يوضح كيفية استخدام مصفوفة بايت مع بيانات من ملف خط كمصدر خط.
+يوضح كيفية استخدام مصفوفة بايت مع البيانات من ملف خط كمصدر خط.
 
 ```csharp
 byte[] fontBytes = File.ReadAllBytes(MyDir + "Alte DIN 1451 Mittelschrift.ttf");
@@ -44,7 +44,7 @@ Assert.AreEqual(0, memoryFontSource.Priority);
 
 ## MemoryFontSource(byte[], int) {#constructor_1}
 
-Ctor.
+الممثل.
 
 ```csharp
 public MemoryFontSource(byte[] fontData, int priority)
@@ -53,11 +53,11 @@ public MemoryFontSource(byte[] fontData, int priority)
 | معامل | يكتب | وصف |
 | --- | --- | --- |
 | fontData | Byte[] | بيانات الخط الثنائي. |
-| priority | Int32 | أولوية مصدر الخط. انظر[`Priority`](../../fontsourcebase/priority/) وصف الخاصية لمزيد من المعلومات. |
+| priority | Int32 | أولوية مصدر الخط. انظر[`Priority`](../../fontsourcebase/priority/) وصف العقار لمزيد من المعلومات. |
 
 ### أمثلة
 
-يوضح كيفية استخدام مصفوفة بايت مع بيانات من ملف خط كمصدر خط.
+يوضح كيفية استخدام مصفوفة بايت مع البيانات من ملف خط كمصدر خط.
 
 ```csharp
 byte[] fontBytes = File.ReadAllBytes(MyDir + "Alte DIN 1451 Mittelschrift.ttf");
@@ -81,7 +81,7 @@ Assert.AreEqual(0, memoryFontSource.Priority);
 
 ## MemoryFontSource(byte[], int, string) {#constructor_2}
 
-Ctor.
+الممثل.
 
 ```csharp
 public MemoryFontSource(byte[] fontData, int priority, string cacheKey)
@@ -90,15 +90,14 @@ public MemoryFontSource(byte[] fontData, int priority, string cacheKey)
 | معامل | يكتب | وصف |
 | --- | --- | --- |
 | fontData | Byte[] | بيانات الخط الثنائي. |
-| priority | Int32 | أولوية مصدر الخط. انظر[`Priority`](../../fontsourcebase/priority/) وصف الخاصية لمزيد من المعلومات. |
-| cacheKey | String | مفتاح هذا المصدر في ذاكرة التخزين المؤقت. نرى[`CacheKey`](../cachekey/) وصف الخاصية لمزيد من المعلومات. |
+| priority | Int32 | أولوية مصدر الخط. انظر[`Priority`](../../fontsourcebase/priority/) وصف العقار لمزيد من المعلومات. |
+| cacheKey | String | مفتاح هذا المصدر في ذاكرة التخزين المؤقت. يرى[`CacheKey`](../cachekey/) وصف العقار لمزيد من المعلومات. |
 
 ### أمثلة
 
 يوضح كيفية تسريع عملية تهيئة ذاكرة التخزين المؤقت للخط.
 
 ```csharp
-[Test]
 public void LoadFontSearchCache()
 {
     const string cacheKey1 = "Arvo";
@@ -126,8 +125,8 @@ public void LoadFontSearchCache()
 }
 
 /// <summary>
-/// قم بتحميل بيانات الخط عند الحاجة فقط بدلاً من تخزينها في الذاكرة
-/// لكامل عمر الكائن "FontSettings".
+/// قم بتحميل بيانات الخط فقط عند الحاجة إليها بدلاً من تخزينها في الذاكرة
+/// طوال عمر كائن "FontSettings".
 /// </summary>
 private class SearchCacheStream : StreamFontSource
 {

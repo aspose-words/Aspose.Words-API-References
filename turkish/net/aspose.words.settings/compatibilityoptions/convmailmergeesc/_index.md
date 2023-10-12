@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.ConvMailMergeEsc
 second_title: Aspose.Words for .NET API Referansı
-description: CompatibilityOptions mülk. Ters Eğik Çizgi Ayırıcısını İki Tırnak İşareti Olarak Değerlendirin.
+description: CompatibilityOptions mülk. Ters Eğik Çizgi Tırnak Sınırlayıcısını İki Tırnak İşareti Olarak Değerlendirin.
 type: docs
 weight: 90
 url: /tr/net/aspose.words.settings/compatibilityoptions/convmailmergeesc/
 ---
 ## CompatibilityOptions.ConvMailMergeEsc property
 
-Ters Eğik Çizgi Ayırıcısını İki Tırnak İşareti Olarak Değerlendirin.
+Ters Eğik Çizgi Tırnak Sınırlayıcısını İki Tırnak İşareti Olarak Değerlendirin.
 
 ```csharp
 public bool ConvMailMergeEsc { get; set; }

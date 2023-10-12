@@ -3,7 +3,7 @@ title: SaveOptions.ImlRenderingMode
 second_title: Aspose.Words för .NET API Referens
 description: SaveOptions fast egendom. Hämtar eller ställer in ett värde som bestämmer hur bläckobjekt InkML renderas.
 type: docs
-weight: 100
+weight: 90
 url: /sv/net/aspose.words.saving/saveoptions/imlrenderingmode/
 ---
 ## SaveOptions.ImlRenderingMode property

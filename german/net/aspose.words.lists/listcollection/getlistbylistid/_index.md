@@ -16,29 +16,27 @@ public List GetListByListId(int listId)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| listId | Int32 | Die Listenkennung. |
+| listId | Int32 | Der Listenbezeichner. |
 
 ### Rückgabewert
 
-Gibt das Listenobjekt zurück. Gibt null zurück, wenn keine Liste mit dem angegebenen Bezeichner gefunden wurde.
+Gibt das Listenobjekt zurück. Kehrt zurück`Null` wenn keine Liste mit der angegebenen Kennung gefunden wurde.
 
 ### Bemerkungen
 
-Normalerweise müssen Sie diese Methode nicht verwenden. Meistens wenden Sie die Listenformatierung auf Absätze an, indem Sie einfach die Einstellungen vornehmen[`List`](../../listformat/list/) property der[`ListFormat`](../../listformat/) Objekt.
+Normalerweise müssen Sie diese Methode nicht verwenden. Meistens wenden Sie die Listenformatierung auf Absätze an, indem Sie einfach die festlegen[`List`](../../listformat/list/) property des[`ListFormat`](../../listformat/) Objekt.
 
 ### Beispiele
 
-Zeigt, wie Eigentümerdokumenteigenschaften von Listen überprüft werden.
+Zeigt, wie Besitzerdokumenteigenschaften von Listen überprüft werden.
 
 ```csharp
 Document doc = new Document();
 
 ListCollection lists = doc.Lists;
-
 Assert.AreEqual(doc, lists.Document);
 
 List list = lists.Add(ListTemplate.BulletDefault);
-
 Assert.AreEqual(doc, list.Document);
 
 Console.WriteLine("Current list count: " + lists.Count);

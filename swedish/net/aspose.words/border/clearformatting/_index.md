@@ -3,7 +3,7 @@ title: Border.ClearFormatting
 second_title: Aspose.Words för .NET API Referens
 description: Border metod. Återställer gränsegenskaper till standardvärden.
 type: docs
-weight: 70
+weight: 90
 url: /sv/net/aspose.words/border/clearformatting/
 ---
 ## Border.ClearFormatting method
@@ -34,7 +34,7 @@ Assert.AreEqual(3.0d, borders[0].LineWidth);
 Assert.AreEqual(LineStyle.Single, borders[0].LineStyle);
 Assert.True(borders[0].IsVisible);
 
-// Vi kan ta bort en kantlinje på en gång genom att köra metoden ClearFormatting. 
+ // Vi kan ta bort en kantlinje på en gång genom att köra metoden ClearFormatting.
 // Att köra den här metoden på varje kant i ett stycke tar bort alla dess kanter.
 foreach (Border border in borders)
     border.ClearFormatting();

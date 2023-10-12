@@ -16,7 +16,7 @@ public LineStyle LineStyle { get; set; }
 
 ### Remarques
 
-Si vous définissez le style de ligne sur aucun, la largeur de ligne est automatiquement modifiée à zéro.
+Si vous définissez le style de ligne sur aucun, la largeur de ligne est automatiquement remplacée par zéro.
 
 ### Exemples
 

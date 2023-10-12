@@ -3,7 +3,7 @@ title: ParagraphFormat.SpaceAfter
 second_title: Aspose.Words per .NET API Reference
 description: ParagraphFormat proprietà. Ottiene o imposta la quantità di spaziatura in punti dopo il paragrafo.
 type: docs
-weight: 290
+weight: 300
 url: /it/net/aspose.words/paragraphformat/spaceafter/
 ---
 ## ParagraphFormat.SpaceAfter property
@@ -18,11 +18,11 @@ public double SpaceAfter { get; set; }
 
 | eccezione | condizione |
 | --- | --- |
-| ArgumentOutOfRangeException | Viene generato quando l'argomento non rientrava nell'intervallo di valori validi. |
+| ArgumentOutOfRangeException | Viene generato quando l'argomento non rientra nell'intervallo di valori validi. |
 
 ### Osservazioni
 
-Non ha effetto quando[`SpaceAfterAuto`](../spaceafterauto/) è vero.
+Non ha alcun effetto quando[`SpaceAfterAuto`](../spaceafterauto/) È`VERO`.
 
 I valori validi vanno da 0 a 1584 inclusi.
 
@@ -39,19 +39,19 @@ builder.ParagraphFormat.SpaceBefore = 24;
 builder.ParagraphFormat.SpaceAfter = 24;
 
 // Imposta questi flag su "true" per applicare la spaziatura automatica,
-// ignorando efficacemente la spaziatura nelle proprietà che abbiamo impostato sopra.
-// Lasciali come "falsi" applicherà la nostra spaziatura dei paragrafi personalizzata.
+// ignorando di fatto la spaziatura nelle proprietà impostate sopra.
+// Lasciarli come "falsi" applicherà la nostra spaziatura paragrafo personalizzata.
 builder.ParagraphFormat.SpaceAfterAuto = autoSpacing;
 builder.ParagraphFormat.SpaceBeforeAuto = autoSpacing;
 
-// Inserisci due paragrafi che avranno spazi sopra e sotto e salva il documento.
+// Inserisci due paragrafi che avranno uno spazio sopra e sotto e salva il documento.
 builder.Writeln("Paragraph 1.");
 builder.Writeln("Paragraph 2.");
 
 doc.Save(ArtifactsDir + "ParagraphFormat.ParagraphSpacingAuto.docx");
 ```
 
-Mostra come non applicare spazi tra i paragrafi con lo stesso stile.
+Mostra come non applicare alcuna spaziatura tra i paragrafi con lo stesso stile.
 
 ```csharp
 Document doc = new Document();
@@ -63,7 +63,7 @@ builder.ParagraphFormat.SpaceAfter = 24;
 
 // Imposta il flag "NoSpaceBetweenParagraphsOfSameStyle" su "true" per applicare
 // nessuna spaziatura tra i paragrafi con lo stesso stile, che raggrupperà paragrafi simili.
-// Lascia il flag "NoSpaceBetweenParagraphsOfSameStyle" come "falso"
+// Lascia il flag "NoSpaceBetweenParagraphsOfSameStyle" su "false"
 // per applicare uniformemente la spaziatura a ogni paragrafo.
 builder.ParagraphFormat.NoSpaceBetweenParagraphsOfSameStyle = noSpaceBetweenParagraphsOfSameStyle;
 

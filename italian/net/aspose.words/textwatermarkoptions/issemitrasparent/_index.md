@@ -1,14 +1,14 @@
 ---
 title: TextWatermarkOptions.IsSemitrasparent
 second_title: Aspose.Words per .NET API Reference
-description: TextWatermarkOptions proprietà. Ottiene o imposta un valore booleano responsabile dellopacità della filigrana. Il valore predefinito è True.
+description: TextWatermarkOptions proprietà. Ottiene o imposta un valore booleano responsabile dellopacità della filigrana. Il valore predefinito èVERO .
 type: docs
 weight: 50
 url: /it/net/aspose.words/textwatermarkoptions/issemitrasparent/
 ---
 ## TextWatermarkOptions.IsSemitrasparent property
 
-Ottiene o imposta un valore booleano responsabile dell'opacità della filigrana. Il valore predefinito è True.
+Ottiene o imposta un valore booleano responsabile dell'opacità della filigrana. Il valore predefinito è`VERO` .
 
 ```csharp
 public bool IsSemitrasparent { get; set; }
@@ -21,10 +21,10 @@ Mostra come creare una filigrana di testo.
 ```csharp
 Document doc = new Document();
 
-// Aggiungi una filigrana di testo normale.
+// Aggiunge una filigrana di testo semplice.
 doc.Watermark.SetText("Aspose Watermark");
 
-// Se desideriamo modificare la formattazione del testo usandola come filigrana,
+// Se desideriamo modificare la formattazione del testo utilizzandolo come filigrana,
 // possiamo farlo passando un oggetto TextWatermarkOptions durante la creazione della filigrana.
 TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
 textWatermarkOptions.FontFamily = "Arial";

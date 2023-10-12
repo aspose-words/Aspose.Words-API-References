@@ -3,7 +3,7 @@ title: Enum MailMergeDataType
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Settings.MailMergeDataType uppräkning. Anger typen av en extern kopplingsdatakälla.
 type: docs
-weight: 5520
+weight: 5820
 url: /sv/net/aspose.words.settings/mailmergedatatype/
 ---
 ## MailMergeDataType enumeration
@@ -72,7 +72,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
-// Att öppna detta dokument i Microsoft Word kommer att köra sammanslagningen innan innehållet visas. 
+ // Att öppna detta dokument i Microsoft Word kommer att köra sammanslagningen innan innehållet visas.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

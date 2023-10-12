@@ -1,14 +1,14 @@
 ---
 title: FieldMergeBarcode.ErrorCorrectionLevel
 second_title: Aspose.Words for .NET API Referansı
-description: FieldMergeBarcode mülk. QR Kodunun hata düzeltme düzeyini alır veya ayarlar. Geçerli değerler 0 3.
+description: FieldMergeBarcode mülk. QR Kodunun hata düzeltme düzeyini alır veya ayarlar. Geçerli değerler şunlardır 0 3.
 type: docs
 weight: 80
 url: /tr/net/aspose.words.fields/fieldmergebarcode/errorcorrectionlevel/
 ---
 ## FieldMergeBarcode.ErrorCorrectionLevel property
 
-QR Kodunun hata düzeltme düzeyini alır veya ayarlar. Geçerli değerler [0, 3].
+QR Kodunun hata düzeltme düzeyini alır veya ayarlar. Geçerli değerler şunlardır: [0, 3].
 
 ```csharp
 public string ErrorCorrectionLevel { get; set; }
@@ -16,19 +16,19 @@ public string ErrorCorrectionLevel { get; set; }
 
 ### Örnekler
 
-QR barkodlarında adres mektup birleştirmenin nasıl gerçekleştirileceğini gösterir.
+QR barkodlarında adres-mektup birleştirmenin nasıl gerçekleştirileceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Adres mektup birleştirme sırasında bir veri kaynağından değerleri kabul edecek bir MERGEBARCODE alanı ekleyin.
-// Bu alan, bir birleştirme veri kaynağının "MyQRCode" sütunundaki tüm değerleri QR kodlarına dönüştürür.
+// Adres-mektup birleştirme sırasında veri kaynağından gelen değerleri kabul edecek bir MERGEBARCODE alanı ekleyin.
+// Bu alan, birleştirme veri kaynağının "MyQRCode" sütunundaki tüm değerleri QR kodlarına dönüştürecektir.
 FieldMergeBarcode field = (FieldMergeBarcode)builder.InsertField(FieldType.FieldMergeBarcode, true);
 field.BarcodeType = "QR";
 field.BarcodeValue = "MyQRCode";
 
-// Özel renkler ve ölçekleme uygula.
+// Özel renkler ve ölçeklendirme uygulayın.
 field.BackgroundColor = "0xF8BD69";
 field.ForegroundColor = "0xB5413B";
 field.ErrorCorrectionLevel = "3";
@@ -41,9 +41,9 @@ Assert.AreEqual(" MERGEBARCODE  MyQRCode QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 
     field.GetFieldCode());
 builder.Writeln();
 
-// MERGEBARCODE alanımızın BarcodeValue ile aynı ada sahip bir sütunu olan bir DataTable oluşturun.
-// Adres mektup birleştirme, her satır için yeni bir sayfa oluşturacaktır. Her sayfa bir EKRAN BARKOD alanı içerecektir,
-// birleştirilmiş satırdaki değere sahip bir QR kodu gösterecek.
+// MERGEBARCODE alanımızın BarcodeValue değeriyle aynı adı taşıyan bir sütuna sahip bir DataTable oluşturun.
+// Adres-mektup birleştirme her satır için yeni bir sayfa oluşturacaktır. Her sayfada bir DISPLAYBARCODE alanı bulunacaktır.
+// bu, birleştirilmiş satırdaki değeri içeren bir QR kodunu görüntüleyecektir.
 DataTable table = new DataTable("Barcodes");
 table.Columns.Add("MyQRCode");
 table.Rows.Add(new[] { "ABC123" });

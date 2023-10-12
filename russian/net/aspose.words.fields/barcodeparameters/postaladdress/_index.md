@@ -21,9 +21,8 @@ public string PostalAddress { get; set; }
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-
 // Мы можем использовать собственную реализацию IBarcodeGenerator для генерации штрих-кодов,
-// и затем вставляем их в документ как изображения.
+// а затем вставляем их в документ как изображения.
 doc.FieldOptions.BarcodeGenerator = new CustomBarcodeGenerator();
 
 // Ниже приведены четыре примера различных типов штрих-кодов, которые мы можем создать с помощью нашего генератора.

@@ -1,14 +1,14 @@
 ---
 title: ShapeBase.Right
 second_title: Справочник по API Aspose.Words для .NET
-description: ShapeBase свойство. Получает положение правого края содержащего блока фигуры.
+description: ShapeBase свойство. Получает позицию правого края содержащего блока фигуры.
 type: docs
-weight: 420
+weight: 460
 url: /ru/net/aspose.words.drawing/shapebase/right/
 ---
 ## ShapeBase.Right property
 
-Получает положение правого края содержащего блока фигуры.
+Получает позицию правого края содержащего блока фигуры.
 
 ```csharp
 public double Right { get; }
@@ -16,9 +16,9 @@ public double Right { get; }
 
 ### Примечания
 
-Для формы верхнего уровня значение указывается в пунктах и относительно привязки формы.
+Для фигуры верхнего уровня значение указывается в пунктах и относительно привязки формы.
 
-Для фигур в группе значение находится в пространстве координат и единицах родительской группы.
+Для фигур в группе значение находится в координатном пространстве и единицах родительской группы.
 
 ### Примеры
 
@@ -31,14 +31,14 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 shape.WrapType = WrapType.None;
 
-// Настройте свойство "RelativeHorizontalPosition" фигуры для обработки значения свойства "Left"
- // как горизонтальное расстояние фигуры в пунктах от левой стороны страницы.
+// Настраиваем свойство «RelativeHorizontalPosition» фигуры для обработки значения свойства «Left».
+ // как горизонтальное расстояние фигуры в пунктах от левой части страницы.
 shape.RelativeHorizontalPosition = RelativeHorizontalPosition.Page;
 
-// Установить горизонтальное расстояние фигуры от левой стороны страницы до 100.
+// Установите горизонтальное расстояние фигуры от левой части страницы до 100.
 shape.Left = 100;
 
-// Аналогичным образом используйте свойство «RelativeVerticalPosition», чтобы расположить фигуру на 80 пунктов ниже верхнего края страницы.
+// Используйте свойство RelativeVerticalPosition аналогичным образом, чтобы расположить фигуру на 80 пунктов ниже верхнего края страницы.
 shape.RelativeVerticalPosition = RelativeVerticalPosition.Page;
 shape.Top = 80;
 
@@ -47,7 +47,7 @@ shape.Height = 125;
 
 Assert.AreEqual(125.0d, shape.Width);
 
-// Свойства "Нижний" и "Правый" содержат нижний и правый края изображения.
+// Свойства «Низ» и «Правый» содержат нижний и правый края изображения.
 Assert.AreEqual(shape.Top + shape.Height, shape.Bottom);
 Assert.AreEqual(shape.Left + shape.Width, shape.Right);
 

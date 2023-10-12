@@ -1,14 +1,14 @@
 ---
 title: DigitalSignature.IsValid
 second_title: Aspose.Words för .NET API Referens
-description: DigitalSignature fast egendom. Returnerar sant om denna digitala signatur är giltig och dokumentet inte har manipulerats.
+description: DigitalSignature fast egendom. ReturnerarSann om denna digitala signatur är giltig och dokumentet inte har manipulerats.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.digitalsignatures/digitalsignature/isvalid/
 ---
 ## DigitalSignature.IsValid property
 
-Returnerar sant om denna digitala signatur är giltig och dokumentet inte har manipulerats.
+Returnerar`Sann` om denna digitala signatur är giltig och dokumentet inte har manipulerats.
 
 ```csharp
 public bool IsValid { get; }

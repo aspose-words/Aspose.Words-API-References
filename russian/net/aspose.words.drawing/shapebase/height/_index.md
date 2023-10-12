@@ -16,9 +16,9 @@ public double Height { get; set; }
 
 ### Примечания
 
-Для формы верхнего уровня значение указывается в пунктах.
+Для фигуры верхнего уровня значение указывается в пунктах.
 
-Для фигур в группе значение находится в пространстве координат и единицах родительской группы.
+Для фигур в группе значение находится в координатном пространстве и единицах родительской группы.
 
 Значение по умолчанию — 0.
 
@@ -33,14 +33,14 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 shape.WrapType = WrapType.None;
 
-// Настройте свойство "RelativeHorizontalPosition" фигуры для обработки значения свойства "Left"
- // как горизонтальное расстояние фигуры в пунктах от левой стороны страницы.
+// Настраиваем свойство «RelativeHorizontalPosition» фигуры для обработки значения свойства «Left».
+ // как горизонтальное расстояние фигуры в пунктах от левой части страницы.
 shape.RelativeHorizontalPosition = RelativeHorizontalPosition.Page;
 
-// Установить горизонтальное расстояние фигуры от левой стороны страницы до 100.
+// Установите горизонтальное расстояние фигуры от левой части страницы до 100.
 shape.Left = 100;
 
-// Аналогичным образом используйте свойство «RelativeVerticalPosition», чтобы расположить фигуру на 80 пунктов ниже верхнего края страницы.
+// Используйте свойство RelativeVerticalPosition аналогичным образом, чтобы расположить фигуру на 80 пунктов ниже верхнего края страницы.
 shape.RelativeVerticalPosition = RelativeVerticalPosition.Page;
 shape.Top = 80;
 
@@ -49,14 +49,14 @@ shape.Height = 125;
 
 Assert.AreEqual(125.0d, shape.Width);
 
-// Свойства "Нижний" и "Правый" содержат нижний и правый края изображения.
+// Свойства «Низ» и «Правый» содержат нижний и правый края изображения.
 Assert.AreEqual(shape.Top + shape.Height, shape.Bottom);
 Assert.AreEqual(shape.Left + shape.Width, shape.Right);
 
 doc.Save(ArtifactsDir + "Image.CreateFloatingPositionSize.docx");
 ```
 
-Показывает, как изменить размер фигуры с изображением.
+Показывает, как изменить размер фигуры с помощью изображения.
 
 ```csharp
 #if NET48 || JAVA
@@ -71,19 +71,19 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPositionSize.docx");
             Assert.AreEqual(400, image.Height);
 #endif
 
-            // Когда мы вставляем изображение с помощью метода «InsertImage», построитель масштабирует фигуру, отображающую изображение, так что,
-            // когда мы просматриваем документ, используя масштаб 100% в Microsoft Word, фигура отображает изображение в его реальном размере.
+            // Когда мы вставляем изображение с помощью метода «InsertImage», построитель масштабирует фигуру, отображающую изображение, так, чтобы:
+            // когда мы просматриваем документ в Microsoft Word с масштабом 100%, фигура отображает изображение в его фактическом размере.
             Document doc = new Document();
             DocumentBuilder builder = new DocumentBuilder(doc);
             Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 
-            // Изображение 400x400 создаст объект ImageData с размером изображения 300x300pt.
+            // Изображение размером 400x400 создаст объект ImageData с размером изображения 300x300pt.
             ImageSize imageSize = shape.ImageData.ImageSize;
 
             Assert.AreEqual(300.0d, imageSize.WidthPoints);
             Assert.AreEqual(300.0d, imageSize.HeightPoints);
 
-            // Если размеры фигуры совпадают с размерами данных изображения,
+            // Если размеры фигуры соответствуют размерам данных изображения,
             // тогда фигура отображает изображение в исходном размере.
             Assert.AreEqual(300.0d, shape.Width);
             Assert.AreEqual(300.0d, shape.Height);
@@ -91,7 +91,7 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPositionSize.docx");
              // Уменьшаем общий размер фигуры на 50%.
             shape.Width *= 0.5;
 
-             // Коэффициенты масштабирования применяются одновременно и к ширине, и к высоте, чтобы сохранить пропорции фигуры.
+             // Коэффициенты масштабирования применяются как к ширине, так и к высоте одновременно, чтобы сохранить пропорции фигуры.
             Assert.AreEqual(150.0d, shape.Width);
             Assert.AreEqual(150.0d, shape.Height);
 

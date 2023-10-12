@@ -3,7 +3,7 @@ title: Interface IDocumentLoadingCallback
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Loading.IDocumentLoadingCallback gränssnitt. Implementera det här gränssnittet om du vill att din egen anpassade metod ska anropas när ett dokument laddas.
 type: docs
-weight: 3430
+weight: 3630
 url: /sv/net/aspose.words.loading/idocumentloadingcallback/
 ---
 ## IDocumentLoadingCallback interface
@@ -25,7 +25,6 @@ public interface IDocumentLoadingCallback
 Visar hur man meddelar användaren om dokumentladdningen överskrider förväntad laddningstid.
 
 ```csharp
-[Test]
 public void ProgressCallback()
 {
     LoadingProgressCallback progressCallback = new LoadingProgressCallback();

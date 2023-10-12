@@ -19,6 +19,7 @@ is_root: true
 | [Aspose::Words::DigitalSignatures](./aspose.words.digitalsignatures/) | The **Aspose.Words.DigitalSignatures** namespace provides classes to sign documents and verify signatures. |
 | [Aspose::Words::Drawing](./aspose.words.drawing/) | The **Aspose.Words.Drawing** namespace provides classes that allow to create and modify drawing objects. |
 | [Aspose::Words::Drawing::Charts](./aspose.words.drawing.charts/) | The **Aspose.Words.Drawing.Charts** namespace provides classes that allow to access charts in Microsoft Word documents. |
+| [Aspose::Words::Drawing::Core](./aspose.words.drawing.core/) | The **Aspose.Words.Drawing** namespace contains classes that allow to create and modify drawing objects in Microsoft Word documents. |
 | [Aspose::Words::Fields](./aspose.words.fields/) | The **Aspose.Words.Fields** namespace contains classes that represent Microsoft Word fields in a document. |
 | [Aspose::Words::Fonts](./aspose.words.fonts/) | The **Aspose.Words.Fonts** namespace provides classes and enumerations to access information about fonts used in a document. |
 | [Aspose::Words::Framesets](./aspose.words.framesets/) | The **Aspose.Words.Framesets** namespace provides classes and enumerations that represents a frames page or a single frame on a frames page. |

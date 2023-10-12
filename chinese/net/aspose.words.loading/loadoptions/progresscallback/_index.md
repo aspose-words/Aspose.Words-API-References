@@ -20,10 +20,9 @@ Docx,FlatOpc,Docm,Dotm,Dotx,Markdown,Rtf,WordML,Doc,Dot,Odt,Ott支持的格式�
 
 ### 例子
 
-显示如何在文档加载超出预期加载时间时通知用户。
+演示如何在文档加载超出预期加载时间时通知用户。
 
 ```csharp
-[Test]
 public void ProgressCallback()
 {
     LoadingProgressCallback progressCallback = new LoadingProgressCallback();
@@ -48,7 +47,7 @@ public void ProgressCallback()
 public class LoadingProgressCallback : IDocumentLoadingCallback
 {
     /// <summary>
-    /// 中心。
+    /// Ctr。
     /// </summary>
     public LoadingProgressCallback()
     {
@@ -56,7 +55,7 @@ public class LoadingProgressCallback : IDocumentLoadingCallback
     }
 
     /// <summary>
-    /// 文档加载过程中调用的回调方法。
+    /// 文档加载期间调用的回调方法。
     /// </summary>
     /// <param name="args">加载参数。</param>
     public void Notify(DocumentLoadingArgs args)
@@ -69,7 +68,7 @@ public class LoadingProgressCallback : IDocumentLoadingCallback
     }
 
     /// <summary>
-    /// 开始加载文档的日期和时间。
+    /// 文档加载开始的日期和时间。
     /// </summary>
     private readonly DateTime mLoadingStartedAt;
 

@@ -1,14 +1,14 @@
 ---
 title: DocumentSavingArgs.EstimatedProgress
 second_title: Aspose.Words for .NET API 参考
-description: DocumentSavingArgs 财产. 总体估计百分比进度
+description: DocumentSavingArgs 财产. 总体估计进度百分比
 type: docs
 weight: 10
 url: /zh/net/aspose.words.saving/documentsavingargs/estimatedprogress/
 ---
 ## DocumentSavingArgs.EstimatedProgress property
 
-总体估计百分比进度。
+总体估计进度百分比。
 
 ```csharp
 public double EstimatedProgress { get; }
@@ -40,7 +40,7 @@ public void ProgressCallback(SaveFormat saveFormat, string ext)
 public class SavingProgressCallback : IDocumentSavingCallback
 {
     /// <summary>
-    /// 中心。
+    /// Ctr。
     /// </summary>
     public SavingProgressCallback()
     {
@@ -48,7 +48,7 @@ public class SavingProgressCallback : IDocumentSavingCallback
     }
 
     /// <summary>
-    /// 文档保存时调用的回调方法。
+    /// 文档保存过程中调用的回调方法。
     /// </summary>
     /// <param name="args">保存参数。</param>
     public void Notify(DocumentSavingArgs args)
@@ -71,7 +71,7 @@ public class SavingProgressCallback : IDocumentSavingCallback
 }
 ```
 
-展示如何在保存到 docx 的同时管理文档。
+演示如何在保存为 docx 时管理文档。
 
 ```csharp
 public void ProgressCallback(SaveFormat saveFormat, string ext)
@@ -95,7 +95,7 @@ public void ProgressCallback(SaveFormat saveFormat, string ext)
 public class SavingProgressCallback : IDocumentSavingCallback
 {
     /// <summary>
-    /// 中心。
+    /// Ctr。
     /// </summary>
     public SavingProgressCallback()
     {
@@ -103,7 +103,7 @@ public class SavingProgressCallback : IDocumentSavingCallback
     }
 
     /// <summary>
-    /// 文档保存时调用的回调方法。
+    /// 文档保存过程中调用的回调方法。
     /// </summary>
     /// <param name="args">保存参数。</param>
     public void Notify(DocumentSavingArgs args)
@@ -150,7 +150,7 @@ public void ProgressCallback(SaveFormat saveFormat, string ext)
 public class SavingProgressCallback : IDocumentSavingCallback
 {
     /// <summary>
-    /// 中心。
+    /// Ctr。
     /// </summary>
     public SavingProgressCallback()
     {
@@ -158,7 +158,7 @@ public class SavingProgressCallback : IDocumentSavingCallback
     }
 
     /// <summary>
-    /// 文档保存时调用的回调方法。
+    /// 文档保存过程中调用的回调方法。
     /// </summary>
     /// <param name="args">保存参数。</param>
     public void Notify(DocumentSavingArgs args)

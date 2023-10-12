@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.SpaceForUL
 second_title: Aspose.Words for .NET API 参考
-description: CompatibilityOptions 财产. 在基线下方为带下划线的东亚文本添加额外的空间
+description: CompatibilityOptions 财产. 在基线下方为带下划线的东亚文本添加额外的空格
 type: docs
 weight: 440
 url: /zh/net/aspose.words.settings/compatibilityoptions/spaceforul/
 ---
 ## CompatibilityOptions.SpaceForUL property
 
-在基线下方为带下划线的东亚文本添加额外的空间。
+在基线下方为带下划线的东亚文本添加额外的空格。
 
 ```csharp
 public bool SpaceForUL { get; set; }

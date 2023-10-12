@@ -1,14 +1,14 @@
 ---
 title: ImageSaveOptions.GraphicsQualityOptions
 second_title: Aspose.Words لمراجع .NET API
-description: ImageSaveOptions ملكية. يسمح بتحديد وضع العرض والجودة لملفGraphics الكائن .
+description: ImageSaveOptions ملكية. يسمح بتحديد وضع العرض والجودة لـGraphics الكائن.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.saving/imagesaveoptions/graphicsqualityoptions/
 ---
 ## ImageSaveOptions.GraphicsQualityOptions property
 
-يسمح بتحديد وضع العرض والجودة لملفGraphics الكائن .
+يسمح بتحديد وضع العرض والجودة لـGraphics الكائن.
 
 ```csharp
 public GraphicsQualityOptions GraphicsQualityOptions { get; set; }
@@ -16,13 +16,13 @@ public GraphicsQualityOptions GraphicsQualityOptions { get; set; }
 
 ### ملاحظات
 
-استخدم هذه الخاصية لتجاوز إعدادات الرسومات التي يوفرها محرك Aspose.Words بشكل افتراضي.
+استخدم هذه الخاصية لتجاوز إعدادات الرسومات التي يوفرها محرك Aspose.Words افتراضيًا.
 
-لن يسري مفعولها إلا عندما يتم حفظ المستند بتنسيق يشبه الصورة.
+ولن يسري مفعوله إلا عند حفظ المستند بتنسيق يشبه الصورة.
 
 ### أمثلة
 
-يوضح كيفية تعيين خيارات جودة العرض أثناء تحويل المستندات إلى تنسيقات صور.
+يوضح كيفية تعيين خيارات جودة العرض أثناء تحويل المستندات إلى تنسيقات الصور.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

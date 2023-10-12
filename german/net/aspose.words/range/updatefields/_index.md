@@ -1,14 +1,14 @@
 ---
 title: Range.UpdateFields
 second_title: Aspose.Words für .NET-API-Referenz
-description: Range methode. Aktualisiert die Werte der Dokumentfelder in diesem Bereich.
+description: Range methode. Aktualisiert die Werte von Dokumentfeldern in diesem Bereich.
 type: docs
-weight: 110
+weight: 120
 url: /de/net/aspose.words/range/updatefields/
 ---
 ## Range.UpdateFields method
 
-Aktualisiert die Werte der Dokumentfelder in diesem Bereich.
+Aktualisiert die Werte von Dokumentfeldern in diesem Bereich.
 
 ```csharp
 public void UpdateFields()
@@ -16,15 +16,15 @@ public void UpdateFields()
 
 ### Bemerkungen
 
-Wenn Sie ein Dokument öffnen, ändern und dann speichern, aktualisiert Aspose.Words Felder nicht automatisch, sondern behält sie bei. Daher sollten Sie diese Methode normalerweise vor dem Speichern aufrufen, wenn Sie das Dokument programmgesteuert geändert haben und sicherstellen möchten die richtigen (berechneten) Feldwerte erscheinen im gespeicherten Dokument.
+Wenn Sie ein Dokument öffnen, ändern und dann speichern, aktualisiert Aspose.Words die Felder nicht automatisch, sondern behält sie intakt. Daher möchten Sie diese Methode normalerweise vor dem Speichern aufrufen, wenn Sie das Dokument programmgesteuert geändert haben und dies sicherstellen möchten Die richtigen (berechneten) Feldwerte werden im gespeicherten Dokument angezeigt.
 
-Es ist nicht erforderlich, Felder nach dem Ausführen eines Seriendrucks zu aktualisieren, da der Seriendruck eine Art Feldaktualisierung ist und automatisch alle Felder im Dokument aktualisiert.
+Es besteht keine Notwendigkeit, Felder nach der Ausführung eines Serienbriefs zu aktualisieren, da der Serienbrief eine Art Feldaktualisierung ist und automatisch alle Felder im Dokument aktualisiert.
 
 Diese Methode aktualisiert nicht alle Feldtypen. Eine detaillierte Liste der unterstützten Feldtypen finden Sie im Programmierhandbuch.
 
-Diese Methode aktualisiert keine Felder, die sich auf die Seitenlayout-Algorithmen beziehen (z. B. PAGE, PAGES, PAGEREF). Die Seitenlayout-bezogenen Felder werden aktualisiert, wenn Sie ein Dokument rendern oder aufrufen[`UpdatePageLayout`](../../document/updatepagelayout/).
+Diese Methode aktualisiert keine Felder, die sich auf die Seitenlayout-Algorithmen beziehen (z. B. PAGE, PAGES, PAGEREF). Die seitenlayoutbezogenen Felder werden aktualisiert, wenn Sie ein Dokument oder einen Aufruf rendern[`UpdatePageLayout`](../../document/updatepagelayout/).
 
-Verwenden Sie zum Aktualisieren von Feldern im gesamten Dokument[`UpdateFields`](../../document/updatefields/).
+Um Felder im gesamten Dokument zu aktualisieren, verwenden Sie[`UpdateFields`](../../document/updatefields/).
 
 ### Beispiele
 

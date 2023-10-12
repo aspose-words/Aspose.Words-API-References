@@ -1,14 +1,14 @@
 ---
 title: SignOptions.DecryptionPassword
 second_title: Aspose.Words per .NET API Reference
-description: SignOptions proprietà. La password per decrittografare il documento di origine. Il valore predefinito è stringa vuota Empty .
+description: SignOptions proprietà. La password per decrittografare il documento di origine. Il valore predefinito è stringa vuota Empty.
 type: docs
 weight: 30
 url: /it/net/aspose.words.digitalsignatures/signoptions/decryptionpassword/
 ---
 ## SignOptions.DecryptionPassword property
 
-La password per decrittografare il documento di origine. Il valore predefinito è **stringa vuota** (Empty ).
+La password per decrittografare il documento di origine. Il valore predefinito è **stringa vuota** (Empty).
 
 ```csharp
 public string DecryptionPassword { get; set; }
@@ -16,7 +16,7 @@ public string DecryptionPassword { get; set; }
 
 ### Osservazioni
 
-Se il documento OOXML è crittografato, è necessario fornire la password di decrittografia per decrittografare il documento di origine prima che venga firmato. Questo non è richiesto per i documenti in formato DOC binario.
+Se il documento OOXML è crittografato, è necessario fornire la password di decrittografia per decrittografare il documento di origine prima che venga firmato. Questa non è richiesta per i documenti in formato DOC binario.
 
 ### Esempi
 

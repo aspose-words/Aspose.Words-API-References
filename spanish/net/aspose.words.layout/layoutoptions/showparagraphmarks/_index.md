@@ -1,14 +1,14 @@
 ---
 title: LayoutOptions.ShowParagraphMarks
 second_title: Referencia de API de Aspose.Words para .NET
-description: LayoutOptions propiedad. Obtiene o establece la indicación de si se representan las marcas de párrafo. El valor predeterminado es Falso.
+description: LayoutOptions propiedad. Obtiene o establece una indicación de si se representan las marcas de párrafo. El valor predeterminado esFALSO .
 type: docs
-weight: 80
+weight: 90
 url: /es/net/aspose.words.layout/layoutoptions/showparagraphmarks/
 ---
 ## LayoutOptions.ShowParagraphMarks property
 
-Obtiene o establece la indicación de si se representan las marcas de párrafo. El valor predeterminado es Falso.
+Obtiene o establece una indicación de si se representan las marcas de párrafo. El valor predeterminado es`FALSO` .
 
 ```csharp
 public bool ShowParagraphMarks { get; set; }
@@ -21,8 +21,8 @@ Muestra cómo mostrar marcas de párrafo en un documento de salida renderizado.
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-// Agregue algunos párrafos, luego habilite las marcas de párrafo para mostrar los extremos de los párrafos
-// con un símbolo de almohada (¶) cuando renderizamos el documento.
+// Agrega algunos párrafos, luego habilita las marcas de párrafo para mostrar los finales de los párrafos
+// con un símbolo pilcrow (¶) cuando renderizamos el documento.
 builder.Writeln("Hello world!");
 builder.Writeln("Hello again!");
 

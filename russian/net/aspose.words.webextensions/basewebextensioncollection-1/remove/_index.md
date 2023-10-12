@@ -1,14 +1,14 @@
 ---
 title: BaseWebExtensionCollection1.Remove
 second_title: Справочник по API Aspose.Words для .NET
-description: BaseWebExtensionCollection метод. Удаляет элемент с указанным индексом из коллекции.
+description: BaseWebExtensionCollection метод. Удаляет элемент по указанному индексу из коллекции.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.webextensions/basewebextensioncollection-1/remove/
 ---
 ## BaseWebExtensionCollection&lt;T&gt;.Remove method
 
-Удаляет элемент с указанным индексом из коллекции.
+Удаляет элемент по указанному индексу из коллекции.
 
 ```csharp
 public void Remove(int index)
@@ -16,7 +16,7 @@ public void Remove(int index)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Отсчитываемый от нуля индекс элемента коллекции. |
+| index | Int32 | Индекс элемента коллекции, отсчитываемый от нуля. |
 
 ### Примеры
 
@@ -27,7 +27,7 @@ Document doc = new Document(MyDir + "Web extension.docx");
 
 Assert.AreEqual(1, doc.WebExtensionTaskPanes.Count);
 
-// Вывести все свойства веб-расширения документа.
+// Распечатываем все свойства веб-расширения документа.
 WebExtensionPropertyCollection webExtensionPropertyCollection = doc.WebExtensionTaskPanes[0].WebExtension.Properties;
 using (IEnumerator<WebExtensionProperty> enumerator = webExtensionPropertyCollection.GetEnumerator())
 {
@@ -38,7 +38,7 @@ using (IEnumerator<WebExtensionProperty> enumerator = webExtensionPropertyCollec
     }
 }
 
-// Удалить веб-расширение.
+// Удаляем веб-расширение.
 doc.WebExtensionTaskPanes.Remove(0);
 
 Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);

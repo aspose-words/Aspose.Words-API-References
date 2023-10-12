@@ -22,7 +22,7 @@ Muestra cómo trabajar con campos INFO.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Establezca un valor para la propiedad integrada "Comentarios" y luego inserte un campo INFO para mostrar el valor de esa propiedad.
+// Establezca un valor para la propiedad incorporada "Comentarios" y luego inserte un campo INFORMACIÓN para mostrar el valor de esa propiedad.
 doc.BuiltInDocumentProperties.Comments = "My comment";
 FieldInfo field = (FieldInfo)builder.InsertField(FieldType.FieldInfo, true);
 field.InfoType = "Comments";

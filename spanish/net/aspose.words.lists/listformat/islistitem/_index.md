@@ -1,14 +1,14 @@
 ---
 title: ListFormat.IsListItem
 second_title: Referencia de API de Aspose.Words para .NET
-description: ListFormat propiedad. Verdadero cuando el párrafo tiene formato de viñetas o números aplicado.
+description: ListFormat propiedad. Verdadero cuando al párrafo se le ha aplicado formato numerado o con viñetas.
 type: docs
 weight: 10
 url: /es/net/aspose.words.lists/listformat/islistitem/
 ---
 ## ListFormat.IsListItem property
 
-Verdadero cuando el párrafo tiene formato de viñetas o números aplicado.
+Verdadero cuando al párrafo se le ha aplicado formato numerado o con viñetas.
 
 ```csharp
 public bool IsListItem { get; }
@@ -52,10 +52,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Assert.False(builder.ListFormat.IsListItem);
 
 // Una lista nos permite organizar y decorar conjuntos de párrafos con símbolos de prefijo y sangrías.
-// Podemos crear listas anidadas aumentando el nivel de sangría. 
-// Podemos comenzar y finalizar una lista usando la propiedad "ListFormat" del generador de documentos. 
+ // Podemos crear listas anidadas aumentando el nivel de sangría.
+ // Podemos comenzar y finalizar una lista utilizando la propiedad "ListFormat" del generador de documentos.
 // Cada párrafo que agreguemos entre el inicio y el final de una lista se convertirá en un elemento de la lista.
-// A continuación hay dos tipos de listas que podemos crear usando un generador de documentos.
+// A continuación se muestran dos tipos de listas que podemos crear usando un generador de documentos.
 // 1 - Una lista numerada:
 // Las listas numeradas crean un orden lógico para sus párrafos numerando cada elemento.
 builder.ListFormat.List = doc.Lists.Add(ListTemplate.NumberDefault);
@@ -63,9 +63,9 @@ builder.ListFormat.List = doc.Lists.Add(ListTemplate.NumberDefault);
 Assert.True(builder.ListFormat.IsListItem);
 
 // Al establecer la propiedad "ListLevelNumber", podemos aumentar el nivel de la lista
-// para comenzar una sublista independiente en el elemento de la lista actual.
+// para comenzar una sublista autónoma en el elemento de la lista actual.
 // La plantilla de lista de Microsoft Word llamada "NumberDefault" usa números para crear niveles de lista para el primer nivel de lista.
-// Los niveles de lista más profundos usan letras y números romanos en minúsculas. 
+ // Los niveles de lista más profundos utilizan letras y números romanos en minúscula.
 for (int i = 0; i < 9; i++)
 {
     builder.ListFormat.ListLevelNumber = i;
@@ -74,7 +74,7 @@ for (int i = 0; i < 9; i++)
 
 // 2 - Una lista con viñetas:
 // Esta lista aplicará una sangría y un símbolo de viñeta ("•") antes de cada párrafo.
-// Los niveles más profundos de esta lista usarán diferentes símbolos, como "■" y "○".
+// Los niveles más profundos de esta lista utilizarán diferentes símbolos, como "■" y "○".
 builder.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
 
 for (int i = 0; i < 9; i++)
@@ -83,7 +83,7 @@ for (int i = 0; i < 9; i++)
     builder.Writeln("Level " + i);
 }
 
-// Podemos deshabilitar el formato de la lista para no formatear los párrafos posteriores como listas al deshabilitar el indicador "Lista".
+// Podemos deshabilitar el formato de la lista para no formatear ningún párrafo posterior como lista al desactivar el indicador "Lista".
 builder.ListFormat.List = null;
 
 Assert.False(builder.ListFormat.IsListItem);

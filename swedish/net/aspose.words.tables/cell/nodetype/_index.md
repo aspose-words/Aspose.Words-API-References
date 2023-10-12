@@ -1,14 +1,14 @@
 ---
 title: Cell.NodeType
 second_title: Aspose.Words för .NET API Referens
-description: Cell fast egendom. Returnerar NodeType.Cell .
+description: Cell fast egendom. ReturnerarCell .
 type: docs
-weight: 70
+weight: 80
 url: /sv/net/aspose.words.tables/cell/nodetype/
 ---
 ## Cell.NodeType property
 
-Returnerar **NodeType.Cell** .
+ReturnerarCell .
 
 ```csharp
 public override NodeType NodeType { get; }
@@ -19,6 +19,7 @@ public override NodeType NodeType { get; }
 Visar hur man korsar en sammansatt nods träd med undernoder.
 
 ```csharp
+public void RecurseChildren()
 {
     Document doc = new Document(MyDir + "Paragraphs.docx");
 

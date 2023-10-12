@@ -16,7 +16,7 @@ public byte[] Panose { get; set; }
 
 ### Observaciones
 
-PANOSE es una descripción compacta de 10 bytes de las características visuales críticas de una fuente, , como el contraste, el peso y el estilo serif. Los dígitos representan Tipo de familia, Estilo Serif, Peso , Proporción, Contraste, Variación de trazo, Estilo de brazo, Forma de letra, Línea media y Altura X.
+PANOSE es una descripción compacta de 10 bytes de las características visuales críticas de una fuente, como contraste, peso y estilo serif. Los dígitos representan tipo de familia, estilo Serif, peso , proporción, contraste, variación de trazo, estilo de brazo, forma de letra, línea media y altura X.
 
 Puede ser`nulo`.
 

@@ -1,14 +1,14 @@
 ---
 title: GradientStopCollection.GetEnumerator
 second_title: Aspose.Words لمراجع .NET API
-description: GradientStopCollection طريقة. إرجاع عداد يتكرر خلال المجموعة.
+description: GradientStopCollection طريقة. يُرجع عدادًا يتكرر خلال المجموعة.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.drawing/gradientstopcollection/getenumerator/
 ---
 ## GradientStopCollection.GetEnumerator method
 
-إرجاع عداد يتكرر خلال المجموعة.
+يُرجع عدادًا يتكرر خلال المجموعة.
 
 ```csharp
 public IEnumerator<GradientStop> GetEnumerator()

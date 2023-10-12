@@ -1,14 +1,14 @@
 ---
 title: List.ListId
 second_title: Référence de l'API Aspose.Words pour .NET
-description: List propriété. Obtient lidentifiant unique de la liste.
+description: List propriété. Récupère lidentifiant unique de la liste.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.lists/list/listid/
 ---
 ## List.ListId property
 
-Obtient l'identifiant unique de la liste.
+Récupère l'identifiant unique de la liste.
 
 ```csharp
 public int ListId { get; }
@@ -16,7 +16,7 @@ public int ListId { get; }
 
 ### Remarques
 
-Vous n'avez normalement pas besoin d'utiliser cette propriété. Mais si vous l'utilisez, vous le faites normalement conjointement avec le[`GetListByListId`](../../listcollection/getlistbylistid/) méthode pour trouver une liste par son identifiant.
+Vous n'avez normalement pas besoin d'utiliser cette propriété. Mais si vous l'utilisez, vous le faites normalement so en conjonction avec le[`GetListByListId`](../../listcollection/getlistbylistid/) méthode pour trouver une liste a par son identifiant.
 
 ### Exemples
 
@@ -26,11 +26,9 @@ Montre comment vérifier les propriétés du document propriétaire des listes.
 Document doc = new Document();
 
 ListCollection lists = doc.Lists;
-
 Assert.AreEqual(doc, lists.Document);
 
 List list = lists.Add(ListTemplate.BulletDefault);
-
 Assert.AreEqual(doc, list.Document);
 
 Console.WriteLine("Current list count: " + lists.Count);
@@ -39,7 +37,7 @@ Console.WriteLine("ListId: " + list.ListId);
 Console.WriteLine("List is the same by ListId: " + (lists.GetListByListId(1).Equals(list)));
 ```
 
-Montre comment sortir tous les paragraphes d'un document qui sont des éléments de liste.
+Montre comment afficher tous les paragraphes d’un document qui sont des éléments de liste.
 
 ```csharp
 Document doc = new Document();

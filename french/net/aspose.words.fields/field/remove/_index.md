@@ -1,14 +1,14 @@
 ---
 title: Field.Remove
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Field méthode. Supprime le champ du document. Renvoie un nœud juste après le champ. Si la fin du champ est le dernier enfant de son nœud parent renvoie son paragraphe parent. Si le champ est déjà supprimé renvoie nul .
+description: Field méthode. Supprime le champ du document. Renvoie un nœud juste après le champ. Si la fin du champ est le dernier child de son nœud parent renvoie son paragraphe parent. Si le champ est déjà supprimé renvoienul .
 type: docs
 weight: 120
 url: /fr/net/aspose.words.fields/field/remove/
 ---
 ## Field.Remove method
 
-Supprime le champ du document. Renvoie un nœud juste après le champ. Si la fin du champ est le dernier enfant de son nœud parent, renvoie son paragraphe parent. Si le champ est déjà supprimé, renvoie **nul** .
+Supprime le champ du document. Renvoie un nœud juste après le champ. Si la fin du champ est le dernier child de son nœud parent, renvoie son paragraphe parent. Si le champ est déjà supprimé, renvoie`nul` .
 
 ```csharp
 public Node Remove()
@@ -16,7 +16,7 @@ public Node Remove()
 
 ### Exemples
 
-Montre comment supprimer des champs d'une collection de champs.
+Montre comment supprimer des champs d’une collection de champs.
 
 ```csharp
 Document doc = new Document();
@@ -35,16 +35,16 @@ FieldCollection fields = doc.Range.Fields;
 Assert.AreEqual(6, fields.Count);
 
 // Vous trouverez ci-dessous quatre façons de supprimer des champs d'une collection de champs.
-// 1 - Récupère un champ pour se supprimer :
+// 1 - Récupère un champ à supprimer :
 fields[0].Remove();
 Assert.AreEqual(5, fields.Count);
 
-// 2 - Récupérer la collection pour supprimer un champ que nous passons à sa méthode de suppression :
+// 2 - Récupère la collection pour supprimer un champ que l'on passe à sa méthode de suppression :
 Field lastField = fields[3];
 fields.Remove(lastField);
 Assert.AreEqual(4, fields.Count);
 
-// 3 - Supprimer un champ d'une collection à un index :
+// 3 - Supprime un champ d'une collection à un index :
 fields.RemoveAt(2);
 Assert.AreEqual(3, fields.Count);
 
@@ -56,11 +56,12 @@ Assert.AreEqual(0, fields.Count);
 Montre comment traiter les champs PRIVÉS.
 
 ```csharp
+public void FieldPrivate()
 {
-    // Ouvre un document Corel WordPerfect que nous avons converti au format .docx.
+    // Ouvrez un document Corel WordPerfect que nous avons converti au format .docx.
     Document doc = new Document(MyDir + "Field sample - PRIVATE.docx");
 
-    // Les documents WordPerfect 5.x/6.x comme celui que nous avons chargé peuvent contenir des champs PRIVATE.
+    // Les documents WordPerfect 5.x/6.x comme celui que nous avons chargé peuvent contenir des champs PRIVÉS.
     // Microsoft Word préserve les champs PRIVÉS lors des opérations de chargement/sauvegarde,
     // mais ne leur fournit aucune fonctionnalité.
     FieldPrivate field = (FieldPrivate)doc.Range.Fields[0];
@@ -68,13 +69,13 @@ Montre comment traiter les champs PRIVÉS.
     Assert.AreEqual(" PRIVATE \"My value\" ", field.GetFieldCode());
     Assert.AreEqual(FieldType.FieldPrivate, field.Type);
 
-    // Nous pouvons également insérer des champs PRIVÉS à l'aide d'un générateur de documents.
+    // Nous pouvons également insérer des champs PRIVATE à l'aide d'un générateur de documents.
     DocumentBuilder builder = new DocumentBuilder(doc);
     builder.InsertField(FieldType.FieldPrivate, true);
 
     // Ces champs ne constituent pas un moyen viable de protéger les informations sensibles.
     // Sauf si la rétrocompatibilité avec les anciennes versions de WordPerfect est essentielle,
-    // nous pouvons supprimer ces champs en toute sécurité. Nous pouvons le faire en utilisant une implémentation DocumentVisiitor.
+    // nous pouvons supprimer ces champs en toute sécurité. Nous pouvons le faire en utilisant une implémentation de DocumentVisiitor.
     Assert.AreEqual(2, doc.Range.Fields.Count);
 
     FieldPrivateRemover remover = new FieldPrivateRemover();
@@ -85,7 +86,7 @@ Montre comment traiter les champs PRIVÉS.
 }
 
 /// <summary>
-/// Supprime tous les champs PRIVATE rencontrés.
+/// Supprime tous les champs PRIVÉS rencontrés.
 /// </summary>
 public class FieldPrivateRemover : DocumentVisitor
 {
@@ -101,7 +102,7 @@ public class FieldPrivateRemover : DocumentVisitor
 
     /// <summary>
     /// Appelé lorsqu'un nœud FieldEnd est rencontré dans le document.
-    /// Si le nœud appartient à un champ PRIVÉ, tout le champ est supprimé.
+    /// Si le nœud appartient à un champ PRIVATE, l'intégralité du champ est supprimée.
     /// </summary>
     public override VisitorAction VisitFieldEnd(FieldEnd fieldEnd)
     {

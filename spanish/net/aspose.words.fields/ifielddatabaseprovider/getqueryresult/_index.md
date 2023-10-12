@@ -18,13 +18,13 @@ public FieldDatabaseDataTable GetQueryResult(string fileName, string connection,
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
 | fileName | String | La ruta completa y el nombre de archivo de la base de datos especificada en el modificador de campo \d. |
-| connection | String | La conexión a los datos especificados en el conmutador de campo \c. |
-| query | String | El conjunto de instrucciones SQL que consultan la base de datos especificada en el modificador de campo \s. |
+| connection | String | La conexión a los datos especificados en el campo \c cambia. |
+| query | String | El conjunto de instrucciones SQL que consultan la base de datos especificada en el campo \s. |
 | field | FieldDatabase | El campo que se está actualizando. |
 
 ### Valor_devuelto
 
-los[`FieldDatabaseDataTable`](../../fielddatabasedatatable/) instancia que se debe utilizar para la actualización del campo.
+El[`FieldDatabaseDataTable`](../../fielddatabasedatatable/) instancia que debe usarse para la actualización del campo.
 
 ### Ver también
 

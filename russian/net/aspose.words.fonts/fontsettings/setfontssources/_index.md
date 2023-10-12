@@ -1,14 +1,14 @@
 ---
 title: FontSettings.SetFontsSources
 second_title: Справочник по API Aspose.Words для .NET
-description: FontSettings метод. Устанавливает источники в которых Aspose.Words ищет шрифты TrueType при отображении документов или внедрении шрифтов.
+description: FontSettings метод. Устанавливает источники в которых Aspose.Words ищет шрифты TrueType при рендеринге документов или встраивании шрифтов.
 type: docs
 weight: 100
 url: /ru/net/aspose.words.fonts/fontsettings/setfontssources/
 ---
 ## SetFontsSources(FontSourceBase[]) {#setfontssources}
 
-Устанавливает источники, в которых Aspose.Words ищет шрифты TrueType при отображении документов или внедрении шрифтов.
+Устанавливает источники, в которых Aspose.Words ищет шрифты TrueType при рендеринге документов или встраивании шрифтов.
 
 ```csharp
 public void SetFontsSources(FontSourceBase[] sources)
@@ -26,7 +26,7 @@ public void SetFontsSources(FontSourceBase[] sources)
 
 ### Примеры
 
-Показывает, как добавить источник шрифта к нашим существующим источникам шрифтов.
+Показывает, как добавить источник шрифта к существующим источникам шрифтов.
 
 ```csharp
 Document doc = new Document();
@@ -45,15 +45,15 @@ Assert.AreEqual(1, originalFontSources.Length);
 
 Assert.True(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"));
 
-// В источнике шрифта по умолчанию отсутствуют два шрифта, которые мы используем в нашем документе.
+// В источнике шрифтов по умолчанию отсутствуют два шрифта, которые мы используем в нашем документе.
 // Когда мы сохраним этот документ, Aspose.Words применит резервные шрифты ко всему тексту, отформатированному с использованием недоступных шрифтов.
 Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Amethysta"));
 Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Junction Light"));
 
-// Создаем источник шрифта из папки, содержащей шрифты.
+// Создаем источник шрифтов из папки, содержащей шрифты.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, true);
 
-// Применить новый массив источников шрифтов, который содержит исходные источники шрифтов, а также наши пользовательские шрифты.
+// Применяем новый массив источников шрифтов, содержащий исходные источники шрифтов, а также наши пользовательские шрифты.
 FontSourceBase[] updatedFontSources = {originalFontSources[0], folderFontSource};
 FontSettings.DefaultInstance.SetFontsSources(updatedFontSources);
 
@@ -66,7 +66,7 @@ Assert.True(updatedFontSources[1].GetAvailableFonts().Any(f => f.FullFontName ==
 
 doc.Save(ArtifactsDir + "FontSettings.AddFontSource.pdf");
 
-// Восстановить исходные источники шрифтов.
+// Восстанавливаем исходные источники шрифтов.
 FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 ```
 
@@ -81,7 +81,7 @@ FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 
 ## SetFontsSources(FontSourceBase[], Stream) {#setfontssources_1}
 
-Устанавливает источники, в которых Aspose.Words ищет шрифты TrueType и дополнительно загружает ранее сохраненный кэш поиска шрифтов.
+Устанавливает источники, в которых Aspose.Words ищет шрифты TrueType и дополнительно загружает ранее сохраненный кеш поиска шрифтов.
 
 ```csharp
 public void SetFontsSources(FontSourceBase[] sources, Stream cacheInputStream)
@@ -94,18 +94,17 @@ public void SetFontsSources(FontSourceBase[] sources, Stream cacheInputStream)
 
 ### Примечания
 
-Загрузка ранее сохраненного кеша поиска шрифтов ускорит процесс инициализации кеша шрифтов. Это особенно полезно, когда доступ к источникам шрифтов затруднен (например, когда шрифты загружаются по сети).
+Загрузка ранее сохраненного кэша поиска шрифтов ускорит процесс инициализации кэша шрифтов. Это особенно полезно, когда доступ к источникам шрифтов затруднен (например, когда шрифты загружаются через сеть).
 
-При сохранении и загрузке кеша поиска шрифтов шрифты в предоставленных источниках идентифицируются по ключу кеша. Для шрифтов в[`SystemFontSource`](../../systemfontsource/) а также[`FolderFontSource`](../../folderfontsource/) Ключ кеша — это path к файлу шрифта. За[`MemoryFontSource`](../../memoryfontsource/) а также[`StreamFontSource`](../../streamfontsource/) ключ кэша определен в[`CacheKey`](../../memoryfontsource/cachekey/) а также[`CacheKey`](../../streamfontsource/cachekey/) properties соответственно. Для[`FileFontSource`](../../filefontsource/) ключ кэша либо[`CacheKey`](../../filefontsource/cachekey/) или путь к файлу, если[`CacheKey`](../../filefontsource/cachekey/) является **нулевой**.
+При сохранении и загрузке кэша поиска шрифтов шрифты в предоставленных источниках идентифицируются с помощью ключа кэша. Для шрифтов в[`SystemFontSource`](../../systemfontsource/) и[`FolderFontSource`](../../folderfontsource/) ключ кэша — это путь к файлу шрифта. Для[`MemoryFontSource`](../../memoryfontsource/) и[`StreamFontSource`](../../streamfontsource/) ключ кэша определен в[`CacheKey`](../../memoryfontsource/cachekey/) и[`CacheKey`](../../streamfontsource/cachekey/) Properties соответственно. Для[`FileFontSource`](../../filefontsource/) ключ кэша либо[`CacheKey`](../../filefontsource/cachekey/) Свойство или путь к файлу, если[`CacheKey`](../../filefontsource/cachekey/) является`нулевой`.
 
-Настоятельно рекомендуется предоставлять те же источники шрифтов при загрузке кеша, что и на момент сохранения кеша. разрешение с помощью Aspose.Words.
+Настоятельно рекомендуется указывать те же источники шрифтов при загрузке кеша, что и на момент сохранения кеша. Любые изменения в источниках шрифтов (например, добавление новых шрифтов, перемещение файлов шрифтов или изменение ключа кэша) могут привести к тому, что будет неточным шрифтом. разрешение с помощью Aspose.Words.
 
 ### Примеры
 
 Показывает, как ускорить процесс инициализации кэша шрифтов.
 
 ```csharp
-[Test]
 public void LoadFontSearchCache()
 {
     const string cacheKey1 = "Arvo";
@@ -134,7 +133,7 @@ public void LoadFontSearchCache()
 
 /// <summary>
 /// Загружаем данные шрифта только при необходимости, а не сохраняем их в памяти
-/// на все время жизни объекта FontSettings.
+/// на все время существования объекта FontSettings.
 /// </summary>
 private class SearchCacheStream : StreamFontSource
 {

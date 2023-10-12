@@ -1,14 +1,14 @@
 ---
 title: IStructuredDocumentTag.LockContents
 second_title: Справочник по API Aspose.Words для .NET
-description: IStructuredDocumentTag свойство. Если установлено значение true это свойство запрещает пользователю редактировать содержимое этого СДТ .
+description: IStructuredDocumentTag свойство. Если установлено значение true это свойство запрещает пользователю редактировать содержимое этого файла. СДТ .
 type: docs
 weight: 60
 url: /ru/net/aspose.words.markup/istructureddocumenttag/lockcontents/
 ---
 ## IStructuredDocumentTag.LockContents property
 
-Если установлено значение true, это свойство запрещает пользователю редактировать содержимое этого **СДТ** .
+Если установлено значение true, это свойство запрещает пользователю редактировать содержимое этого файла. **СДТ** .
 
 ```csharp
 public bool LockContents { get; set; }

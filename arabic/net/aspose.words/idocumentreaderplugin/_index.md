@@ -1,14 +1,14 @@
 ---
 title: Interface IDocumentReaderPlugin
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.IDocumentReaderPlugin واجهه المستخدم. يحدد واجهة لمكونات القارئ الخارجية التي يمكنها قراءة ملف في مستند.
+description: Aspose.Words.IDocumentReaderPlugin واجهه المستخدم. يحدد واجهة للمكونات الإضافية للقارئ الخارجي التي يمكنها قراءة ملف في مستند.
 type: docs
-weight: 2980
+weight: 3180
 url: /ar/net/aspose.words/idocumentreaderplugin/
 ---
 ## IDocumentReaderPlugin interface
 
-يحدد واجهة لمكونات القارئ الخارجية التي يمكنها قراءة ملف في مستند.
+يحدد واجهة للمكونات الإضافية للقارئ الخارجي التي يمكنها قراءة ملف في مستند.
 
 ```csharp
 public interface IDocumentReaderPlugin

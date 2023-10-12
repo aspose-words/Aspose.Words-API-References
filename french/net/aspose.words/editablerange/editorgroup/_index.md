@@ -30,14 +30,14 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world! Since we have set the document's protection level to read-only, " +
                 "we cannot edit this paragraph without the password.");
 
-// Crée deux plages modifiables imbriquées.
+// Créez deux plages modifiables imbriquées.
 EditableRangeStart outerEditableRangeStart = builder.StartEditableRange();
 builder.Writeln("This paragraph inside the outer editable range and can be edited.");
 
 EditableRangeStart innerEditableRangeStart = builder.StartEditableRange();
 builder.Writeln("This paragraph inside both the outer and inner editable ranges and can be edited.");
 
-// Actuellement, le curseur d'insertion de nœud du générateur de document se trouve dans plusieurs plages modifiables en cours.
+// Actuellement, le curseur d'insertion de nœud du générateur de documents se trouve dans plusieurs plages modifiables en cours.
 // Lorsque nous voulons terminer une plage modifiable dans cette situation,
 // nous devons spécifier laquelle des plages nous souhaitons terminer en passant son nœud EditableRangeStart.
 builder.EndEditableRange(innerEditableRangeStart);
@@ -48,7 +48,7 @@ builder.EndEditableRange(outerEditableRangeStart);
 
 builder.Writeln("This paragraph is outside any editable ranges, and cannot be edited.");
 
-// Si une zone de texte a deux plages modifiables qui se chevauchent avec des groupes spécifiés,
+// Si une zone de texte comporte deux plages modifiables qui se chevauchent avec des groupes spécifiés,
 // le groupe combiné d'utilisateurs exclus par les deux groupes ne peut pas le modifier.
 outerEditableRangeStart.EditableRange.EditorGroup = EditorType.Everyone;
 innerEditableRangeStart.EditableRange.EditorGroup = EditorType.Contributors;
@@ -56,7 +56,7 @@ innerEditableRangeStart.EditableRange.EditorGroup = EditorType.Contributors;
 doc.Save(ArtifactsDir + "EditableRange.Nested.docx");
 ```
 
-Montre comment limiter les droits de modification des plages modifiables à un groupe/utilisateur spécifique.
+Montre comment limiter les droits d'édition des plages modifiables à un groupe/utilisateur spécifique.
 
 ```csharp
 public void Visitor()
@@ -88,7 +88,7 @@ public void Visitor()
 
     builder.Writeln("This paragraph is outside the editable range, and cannot be edited by anybody.");
 
-    // Affiche les détails et le contenu de chaque plage modifiable du document.
+    // Imprimer les détails et le contenu de chaque plage modifiable du document.
     EditableRangePrinter editableRangePrinter = new EditableRangePrinter();
 
     doc.Accept(editableRangePrinter);
@@ -148,7 +148,7 @@ public class EditableRangePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Appelé lorsqu'un noeud Run est rencontré dans le document. Ce visiteur n'enregistre que les exécutions qui se trouvent dans des plages modifiables.
+    /// Appelé lorsqu'un nœud Run est rencontré dans le document. Ce visiteur enregistre uniquement les exécutions situées dans des plages modifiables.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {

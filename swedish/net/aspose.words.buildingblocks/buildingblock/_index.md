@@ -3,12 +3,14 @@ title: Class BuildingBlock
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.BuildingBlocks.BuildingBlock klass. Representerar en dokumentpost i ordlistan såsom en byggsten autotext eller en autokorrigeringspost.
 type: docs
-weight: 120
+weight: 130
 url: /sv/net/aspose.words.buildingblocks/buildingblock/
 ---
 ## BuildingBlock class
 
 Representerar en dokumentpost i ordlistan såsom en byggsten, autotext eller en autokorrigeringspost.
+
+För att lära dig mer, besök[Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) dokumentationsartikel.
 
 ```csharp
 public class BuildingBlock : CompositeNode
@@ -26,7 +28,6 @@ public class BuildingBlock : CompositeNode
 | --- | --- |
 | [Behavior](../../aspose.words.buildingblocks/buildingblock/behavior/) { get; set; } | Anger beteendet som ska tillämpas när innehållet i byggstenen infogas i huvuddokumentet. |
 | [Category](../../aspose.words.buildingblocks/buildingblock/category/) { get; set; } | Anger kategoriseringen på andra nivån för byggblocket. |
-| [ChildNodes](../../aspose.words/compositenode/childnodes/) { get; } | Hämtar alla omedelbara underordnade noder för denna nod. |
 | [Count](../../aspose.words/compositenode/count/) { get; } | Hämtar antalet omedelbara barn till denna nod. |
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Anger anpassad nodidentifierare. |
 | [Description](../../aspose.words.buildingblocks/buildingblock/description/) { get; set; } | Hämtar eller ställer in beskrivningen som är kopplad till detta byggblock. |
@@ -35,8 +36,8 @@ public class BuildingBlock : CompositeNode
 | [FirstSection](../../aspose.words.buildingblocks/buildingblock/firstsection/) { get; } | Hämtar det första avsnittet i byggblocket. |
 | [Gallery](../../aspose.words.buildingblocks/buildingblock/gallery/) { get; set; } | Anger kategoriseringen på första nivån för byggblocket för -klassificering eller sortering av användargränssnitt. |
 | [Guid](../../aspose.words.buildingblocks/buildingblock/guid/) { get; set; } | Hämtar eller ställer in en identifierare (en 128-bitars GUID) som unikt identifierar denna byggsten. |
-| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Returnerar sant om denna nod har några underordnade noder. |
-| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Returnerar sant eftersom denna nod kan ha underordnade noder. |
+| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Returnerar`Sann` om denna nod har några undernoder. |
+| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Returnerar`Sann` eftersom denna nod kan ha underordnade noder. |
 | [LastChild](../../aspose.words/compositenode/lastchild/) { get; } | Hämtar nodens sista underordnade. |
 | [LastSection](../../aspose.words.buildingblocks/buildingblock/lastsection/) { get; } | Hämtar det sista avsnittet i byggblocket. |
 | [Name](../../aspose.words.buildingblocks/buildingblock/name/) { get; set; } | Hämtar eller ställer in namnet på denna byggsten. |
@@ -44,7 +45,7 @@ public class BuildingBlock : CompositeNode
 | override [NodeType](../../aspose.words.buildingblocks/buildingblock/nodetype/) { get; } | ReturnerarBuildingBlock värde. |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Hämtar den omedelbara föräldern till denna nod. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Hämtar noden omedelbart före denna nod. |
-| [Range](../../aspose.words/node/range/) { get; } | Returnerar en **Räckvidd** objekt som representerar den del av ett dokument som finns i denna nod. |
+| [Range](../../aspose.words/node/range/) { get; } | Returnerar en[`Range`](../../aspose.words/range/) objekt som representerar den del av ett dokument som finns i denna nod. |
 | [Sections](../../aspose.words.buildingblocks/buildingblock/sections/) { get; } | Returnerar en samling som representerar alla sektioner i byggblocket. |
 | [Type](../../aspose.words.buildingblocks/buildingblock/type/) { get; set; } | Anger byggblockstyp. |
 
@@ -53,9 +54,11 @@ public class BuildingBlock : CompositeNode
 | namn | Beskrivning |
 | --- | --- |
 | override [Accept](../../aspose.words.buildingblocks/buildingblock/accept/)(DocumentVisitor) | Accepterar en besökare. |
-| [AppendChild](../../aspose.words/compositenode/appendchild/)(Node) | Lägger till den angivna noden i slutet av listan över underordnade noder för denna nod. |
+| override [AcceptEnd](../../aspose.words.buildingblocks/buildingblock/acceptend/)(DocumentVisitor) |  |
+| override [AcceptStart](../../aspose.words.buildingblocks/buildingblock/acceptstart/)(DocumentVisitor) |  |
+| [AppendChild&lt;T&gt;](../../aspose.words/compositenode/appendchild/)(T) |  |
 | [Clone](../../aspose.words/node/clone/)(bool) | Skapar en dubblett av noden. |
-| [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Reserverad för systemanvändning. IXPathNavigable. |
+| [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Skapar navigator som kan användas för att korsa och läsa noder. |
 | [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Hämtar den första förfadern till den angivna[`NodeType`](../../aspose.words/nodetype/) . |
 | [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Hämtar den första förfadern till den angivna objekttypen. |
 | [GetChild](../../aspose.words/compositenode/getchild/)(NodeType, int, bool) | Returnerar en N:te underordnad nod som matchar den angivna typen. |
@@ -63,17 +66,17 @@ public class BuildingBlock : CompositeNode
 | [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() | Tillhandahåller stöd för varje stiliteration över undernoderna för denna nod. |
 | override [GetText](../../aspose.words/compositenode/gettext/)() | Hämtar texten för denna nod och alla dess underordnade. |
 | [IndexOf](../../aspose.words/compositenode/indexof/)(Node) | Returnerar indexet för den angivna undernoden i den underordnade nodmatrisen. |
-| [InsertAfter](../../aspose.words/compositenode/insertafter/)(Node, Node) | Infogar den angivna noden omedelbart efter den angivna referensnoden. |
-| [InsertBefore](../../aspose.words/compositenode/insertbefore/)(Node, Node) | Infogar den angivna noden omedelbart före den angivna referensnoden. |
+| [InsertAfter&lt;T&gt;](../../aspose.words/compositenode/insertafter/)(T, Node) |  |
+| [InsertBefore&lt;T&gt;](../../aspose.words/compositenode/insertbefore/)(T, Node) |  |
 | [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Hämtar nästa nod enligt algoritmen för förbeställningsträdet. |
-| [PrependChild](../../aspose.words/compositenode/prependchild/)(Node) | Lägger till den angivna noden i början av listan över underordnade noder för denna nod. |
+| [PrependChild&lt;T&gt;](../../aspose.words/compositenode/prependchild/)(T) |  |
 | [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Hämtar föregående nod enligt algoritmen för förbeställningsträdet. |
 | [Remove](../../aspose.words/node/remove/)() | Tar bort sig själv från föräldern. |
 | [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | Tar bort alla undernoder för den aktuella noden. |
-| [RemoveChild](../../aspose.words/compositenode/removechild/)(Node) | Tar bort den angivna underordnade noden. |
-| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Tar bort alla[`SmartTag`](../../aspose.words.markup/smarttag/) underliggande noder till den aktuella noden. |
+| [RemoveChild&lt;T&gt;](../../aspose.words/compositenode/removechild/)(T) |  |
+| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Tar bort alla[`SmartTag`](../../aspose.words.markup/smarttag/)underliggande noder till den aktuella noden. |
 | [SelectNodes](../../aspose.words/compositenode/selectnodes/)(string) | Väljer en lista med noder som matchar XPath-uttrycket. |
-| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | Väljer den första noden som matchar XPath-uttrycket. |
+| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | Väljer den första[`Node`](../../aspose.words/node/) som matchar XPath-uttrycket. |
 | [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exporterar innehållet i noden till en sträng i angivet format. |
 | [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exporterar innehållet i noden till en sträng med de angivna sparalternativen. |
 
@@ -85,7 +88,7 @@ public class BuildingBlock : CompositeNode
 
 Du kan skapa nya byggblock och infoga dem i ett ordlistadokument. Du kan ändra eller ta bort befintliga byggblock. Du kan kopiera eller flytta byggstenar mellan dokument. Du kan infoga innehållet i ett byggblock i ett dokument.
 
-Motsvarar **docPart** , **docPartPr** och **docPartBody**element i OOXML.
+Motsvarar **docPart** , **docPartPr** och **docPartBody** element i OOXML.
 
 ### Exempel
 
@@ -131,7 +134,6 @@ public void CreateAndInsert()
     // Själva blocket är ett avsnitt som innehåller texten.
     Assert.AreEqual($"Text inside {customBlock.Name}\f", customBlock.FirstSection.Body.FirstParagraph.GetText());
     Assert.AreEqual(customBlock.FirstSection, customBlock.LastSection);
-
     // Nu kan vi infoga det i dokumentet som ett nytt avsnitt.
     doc.AppendChild(doc.ImportNode(customBlock.FirstSection, true));
 

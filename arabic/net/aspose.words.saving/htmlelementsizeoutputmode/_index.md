@@ -1,14 +1,14 @@
 ---
 title: Enum HtmlElementSizeOutputMode
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Saving.HtmlElementSizeOutputMode تعداد. يحدد كيفية تصدير Aspose.Words عروض وارتفاعات العناصر إلى HTML و MHTML و EPUB.
+description: Aspose.Words.Saving.HtmlElementSizeOutputMode تعداد. يحدد كيفية تصدير Aspose.Words لعروض العناصر وارتفاعاتها إلى HTML وMHTML وEPUB.
 type: docs
-weight: 4800
+weight: 5060
 url: /ar/net/aspose.words.saving/htmlelementsizeoutputmode/
 ---
 ## HtmlElementSizeOutputMode enumeration
 
-يحدد كيفية تصدير Aspose.Words عروض وارتفاعات العناصر إلى HTML و MHTML و EPUB.
+يحدد كيفية تصدير Aspose.Words لعروض العناصر وارتفاعاتها إلى HTML وMHTML وEPUB.
 
 ```csharp
 public enum HtmlElementSizeOutputMode
@@ -18,19 +18,19 @@ public enum HtmlElementSizeOutputMode
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| All | `0` | يتم تصدير جميع أحجام العناصر ، سواء في الوحدات المطلقة أو النسبية المحددة في المستند. |
-| RelativeOnly | `1` | يتم تصدير أحجام العناصر فقط إذا كانت محددة بوحدات نسبية في المستند. لا يتم تصدير الأحجام الثابتة في هذا الوضع. سيحسب الوكلاء المرئيون الأحجام المفقودة لجعل تخطيط المستند أكثر طبيعية . |
+| All | `0` | يتم تصدير جميع أحجام العناصر، سواء بالوحدات المطلقة أو النسبية، المحددة في المستند. |
+| RelativeOnly | `1` | لا يتم تصدير أحجام العناصر إلا إذا تم تحديدها بوحدات نسبية في المستند. لا يتم تصدير الأحجام الثابتة في هذا الوضع. سيقوم الوكلاء المرئيون بحساب الأحجام المفقودة لجعل تخطيط المستند أكثر طبيعية. |
 | None | `2` | لا يتم تصدير أحجام العناصر. سيقوم الوكلاء المرئيون ببناء التخطيط تلقائيًا وفقًا للعلاقة بين العناصر. |
 
 ### أمثلة
 
-يوضح كيفية الاحتفاظ بالمسافات البادئة السالبة في ملف .html الناتج.
+يوضح كيفية الحفاظ على المسافات البادئة السلبية في ملف .html للإخراج.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أدخل جدول بمسافة بادئة سالبة ، مما سيدفعه إلى اليسار بعد حد الصفحة اليسرى.
+// قم بإدراج جدول بمسافة بادئة سالبة، مما سيدفعه إلى اليسار بعد حدود الصفحة اليسرى.
 Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, Cell 1");
@@ -42,7 +42,7 @@ table.PreferredWidth = PreferredWidth.FromPoints(144);
 
 builder.InsertBreak(BreakType.ParagraphBreak);
 
-// أدخل جدولًا بمسافة بادئة موجبة ، مما سيدفع الجدول إلى اليمين.
+// أدخل جدولًا بمسافة بادئة موجبة، مما سيدفع الجدول إلى اليمين.
 table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, Cell 1");
@@ -52,9 +52,9 @@ builder.EndTable();
 table.LeftIndent = 36;
 table.PreferredWidth = PreferredWidth.FromPoints(144);
 
-// عندما نحفظ مستندًا بتنسيق HTML ، سيحتفظ Aspose.Words فقط بمسافات بادئة سالبة
-// مثل الذي طبقناه على الجدول الأول إذا قمنا بتعيين علامة "AllowNegativeIndent"
-// في كائن SaveOptions الذي سنمرره إلى "true".
+// عندما نحفظ مستندًا بتنسيق HTML، سيحتفظ Aspose.Words فقط بالمسافات البادئة السلبية
+// مثل الذي طبقناه على الجدول الأول إذا قمنا بتعيين علامة "AllowNegativeIndent".
+// في كائن SaveOptions الذي سنمرره إلى "صحيح".
 HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html)
 {
     AllowNegativeIndent = allowNegativeIndent,

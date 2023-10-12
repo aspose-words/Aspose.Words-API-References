@@ -3,7 +3,7 @@ title: Enum WatermarkLayout
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.WatermarkLayout uppräkning. Definierar layouten för vattenstämpeln i förhållande till vattenstämpelns centrum.
 type: docs
-weight: 6370
+weight: 6680
 url: /sv/net/aspose.words/watermarklayout/
 ---
 ## WatermarkLayout enumeration

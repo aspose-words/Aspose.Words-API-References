@@ -16,9 +16,9 @@ public string UserPassword { get; set; }
 
 ### Osservazioni
 
-La password utente sarà richiesta per aprire un documento PDF crittografato per la visualizzazione. Le autorizzazioni specificate in [`Permissions`](../permissions/) sarà imposto dal software del lettore.
+La password utente sarà richiesta per aprire un documento PDF crittografato per la visualizzazione. Le autorizzazioni specificate in [`Permissions`](../permissions/) verrà applicato dal software del lettore.
 
-La password utente può essere una stringa nulla o vuota, in questo caso non sarà richiesta alcuna password all'utente quando aprirà il documento PDF. La password dell'utente non può essere la stessa della password del proprietario.
+La password dell'utente può essere`nullo` oppure stringa vuota, in questo caso non verrà richiesta alcuna password all'utente all'apertura del documento PDF. La password dell'utente non può essere uguale alla password del proprietario.
 
 ### Esempi
 
@@ -30,19 +30,13 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("Hello world!");
 
+// Estende i permessi per consentire la modifica delle annotazioni.
 PdfEncryptionDetails encryptionDetails =
-    new PdfEncryptionDetails("password", string.Empty);
-
-// Inizia negando tutte le autorizzazioni.
-encryptionDetails.Permissions = PdfPermissions.DisallowAll;
-
-// Estendi i permessi per consentire la modifica delle annotazioni.
-encryptionDetails.Permissions = PdfPermissions.ModifyAnnotations | PdfPermissions.DocumentAssembly;
+    new PdfEncryptionDetails("password", string.Empty, PdfPermissions.ModifyAnnotations | PdfPermissions.DocumentAssembly);
 
 // Crea un oggetto "PdfSaveOptions" che possiamo passare al metodo "Save" del documento
-// per modificare il modo in cui quel metodo converte il documento in .PDF.
+// per modificare il modo in cui il metodo converte il documento in .PDF.
 PdfSaveOptions saveOptions = new PdfSaveOptions();
-
 // Abilita la crittografia tramite la proprietà "EncryptionDetails".
 saveOptions.EncryptionDetails = encryptionDetails;
 

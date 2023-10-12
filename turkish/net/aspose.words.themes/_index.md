@@ -1,20 +1,20 @@
 ---
 title: Aspose.Words.Themes
 second_title: Aspose.Words for .NET API Referansı
-description: bu Aspose.Words.Themes ad alanı Microsoft Word belgelerindeki tema bilgilerine erişmeye izin veren sınıflar sağlar.
+description: Aspose.Words.Themes ad alanı Microsoft Word belgelerindeki tema bilgilerine erişime izin veren sınıflar sağlar.
 type: docs
-weight: 260
+weight: 270
 url: /tr/net/aspose.words.themes/
 ---
-bu **Aspose.Words.Themes** ad alanı, Microsoft Word belgelerindeki tema bilgilerine erişmeye izin veren sınıflar sağlar.
+**Aspose.Words.Themes** ad alanı, Microsoft Word belgelerindeki tema bilgilerine erişime izin veren sınıflar sağlar.
 
 ## sınıflar
 
 | Sınıf | Tanım |
 | --- | --- |
-| [Theme](./theme/) | Belge Temasını temsil eder ve aşağıdakiler dahil ana tema bölümlerine erişim sağlar:[`MajorFonts`](../aspose.words.themes/theme/majorfonts/) ,[`MinorFonts`](../aspose.words.themes/theme/minorfonts/) ve[`Colors`](../aspose.words.themes/theme/colors/) |
-| [ThemeColors](./themecolors/) | On iki renk içeren belge temasının renk şemasını temsil eder. |
-| [ThemeFonts](./themefonts/) | Farklı diller için farklı yazı tipleri belirtmeye olanak tanıyan yazı tipi şemasındaki bir yazı tipi koleksiyonunu temsil eder[`Latin`](../aspose.words.themes/themefonts/latin/) ,[`EastAsian`](../aspose.words.themes/themefonts/eastasian/) ve[`ComplexScript`](../aspose.words.themes/themefonts/complexscript/) . |
+| [Theme](./theme/) | Belge Temasını temsil eder ve aşağıdakiler dahil ana tema parçalarına erişim sağlar:[`MajorFonts`](../aspose.words.themes/theme/majorfonts/) ,[`MinorFonts`](../aspose.words.themes/theme/minorfonts/) Ve[`Colors`](../aspose.words.themes/theme/colors/) |
+| [ThemeColors](./themecolors/) | On iki renk içeren belge temasının renk düzenini temsil eder. |
+| [ThemeFonts](./themefonts/) | Yazı tipi şemasındaki yazı tiplerinin bir koleksiyonunu temsil eder ve farklı diller için farklı yazı tipleri belirlemeye olanak tanır[`Latin`](../aspose.words.themes/themefonts/latin/) ,[`EastAsian`](../aspose.words.themes/themefonts/eastasian/) Ve[`ComplexScript`](../aspose.words.themes/themefonts/complexscript/) . |
 ## numaralandırma
 
 | numaralandırma | Tanım |

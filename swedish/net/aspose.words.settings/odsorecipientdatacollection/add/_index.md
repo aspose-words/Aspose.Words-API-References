@@ -16,7 +16,7 @@ public int Add(OdsoRecipientData value)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| value | OdsoRecipientData | Objektet att lägga till. Kan inte vara null. |
+| value | OdsoRecipientData | Objektet att lägga till. Kan inte vara`null`. |
 
 ### Exempel
 

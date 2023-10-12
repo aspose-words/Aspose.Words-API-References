@@ -20,7 +20,7 @@ public void Add(GeneralFormat item)
 
 ### Примеры
 
-Показывает, как форматировать результаты поля.
+Показывает, как форматировать результаты полей.
 
 ```csharp
 Document doc = new Document();

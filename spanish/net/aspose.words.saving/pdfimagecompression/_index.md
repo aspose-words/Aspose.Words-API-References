@@ -3,7 +3,7 @@ title: Enum PdfImageCompression
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.Saving.PdfImageCompression enumeración. Especifica el tipo de compresión aplicada a las imágenes en el archivo PDF.
 type: docs
-weight: 5210
+weight: 5490
 url: /es/net/aspose.words.saving/pdfimagecompression/
 ---
 ## PdfImageCompression enumeration
@@ -19,11 +19,11 @@ public enum PdfImageCompression
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
 | Auto | `0` | Selecciona automáticamente la compresión más adecuada para cada imagen. |
-| Jpeg | `1` | Compresión jpeg. No admite transparencia. |
+| Jpeg | `1` | Compresión Jpeg. No admite transparencia. |
 
 ### Ejemplos
 
-Muestra cómo especificar un tipo de compresión para todas las imágenes en un documento que estamos convirtiendo a PDF.
+Muestra cómo especificar un tipo de compresión para todas las imágenes de un documento que estamos convirtiendo a PDF.
 
 ```csharp
 Document doc = new Document();
@@ -39,9 +39,9 @@ builder.InsertImage(ImageDir + "Transparent background logo.png");
 // para modificar cómo ese método convierte el documento a .PDF.
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 
-// Establezca la propiedad "ImageCompression" en "PdfImageCompression.Auto" para usar el
+// Establece la propiedad "ImageCompression" en "PdfImageCompression.Auto" para usar el
 // Propiedad "ImageCompression" para controlar la calidad de las imágenes Jpeg que terminan en el PDF de salida.
-// Establezca la propiedad "ImageCompression" en "PdfImageCompression.Jpeg" para usar el
+// Establece la propiedad "ImageCompression" en "PdfImageCompression.Jpeg" para usar el
 // Propiedad "ImageCompression" para controlar la calidad de todas las imágenes que terminan en el PDF de salida.
 pdfSaveOptions.ImageCompression = pdfImageCompression;
 

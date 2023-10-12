@@ -10,7 +10,7 @@ url: /de/net/aspose.words.settings/compatibilityoptions/optimizefor/
 
 Ermöglicht die Optimierung des Dokumentinhalts sowie des Standardverhaltens von Aspose.Words für bestimmte Versionen von MS Word.
 
-Verwenden Sie diese Methode, um zu verhindern, dass MS Word beim Laden des Dokuments das Menüband „Kompatibilitätsmodus“ anzeigt. (Beachten Sie, dass Sie möglicherweise auch die[`Compliance`](../../../aspose.words.saving/ooxmlsaveoptions/compliance/) Eigentum an Iso29500_2008_Transitional oder höher.)
+Verwenden Sie diese Methode, um zu verhindern, dass MS Word beim Laden des Dokuments das Menüband „Kompatibilitätsmodus“ anzeigt. (Beachten Sie, dass Sie möglicherweise auch festlegen müssen[`Compliance`](../../../aspose.words.saving/ooxmlsaveoptions/compliance/) Eigenschaft zu Iso29500_2008_Transitional oder höher.)
 
 ```csharp
 public void OptimizeFor(MsWordVersion version)
@@ -26,37 +26,37 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Shape shape = builder.InsertShape(ShapeType.TextBox, 200, 200);
 
-// Legen Sie die Eigenschaft "VerticalAnchor" auf "TextBoxAnchor.Top" fest
-// Richten Sie den Text in diesem Textfeld an der oberen Seite der Form aus.
-// Legen Sie die Eigenschaft "VerticalAnchor" auf "TextBoxAnchor.Middle" fest
+// Setzen Sie die Eigenschaft „VerticalAnchor“ auf „TextBoxAnchor.Top“.
+// Richten Sie den Text in diesem Textfeld an der Oberseite der Form aus.
+// Setzen Sie die Eigenschaft „VerticalAnchor“ auf „TextBoxAnchor.Middle“.
 // Richten Sie den Text in diesem Textfeld an der Mitte der Form aus.
-// Legen Sie die Eigenschaft "VerticalAnchor" auf "TextBoxAnchor.Bottom" fest
+// Setzen Sie die Eigenschaft „VerticalAnchor“ auf „TextBoxAnchor.Bottom“.
 // Richten Sie den Text in diesem Textfeld am unteren Rand der Form aus.
 shape.TextBox.VerticalAnchor = verticalAnchor;
 
 builder.MoveTo(shape.FirstParagraph);
 builder.Write("Hello world!");
 
-// Die vertikale Ausrichtung von Text in Textfeldern ist ab Microsoft Word 2007 verfügbar.
+// Die vertikale Ausrichtung von Text innerhalb von Textfeldern ist ab Microsoft Word 2007 verfügbar.
 doc.CompatibilityOptions.OptimizeFor(MsWordVersion.Word2007);
 doc.Save(ArtifactsDir + "Shape.VerticalAnchor.docx");
 ```
 
-Zeigt, wie eine OOXML-Compliance-Spezifikation festgelegt wird, die ein gespeichertes Dokument einhalten soll.
+Zeigt, wie eine OOXML-Konformitätsspezifikation festgelegt wird, die ein gespeichertes Dokument einhalten soll.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Wenn wir Kompatibilitätsoptionen so konfigurieren, dass sie Microsoft Word 2003 entsprechen,
-// Durch das Einfügen eines Bildes wird seine Form mit VML definiert.
+// Wenn wir Kompatibilitätsoptionen so konfigurieren, dass sie mit Microsoft Word 2003 kompatibel sind,
+// Durch das Einfügen eines Bildes wird dessen Form mithilfe von VML definiert.
 doc.CompatibilityOptions.OptimizeFor(MsWordVersion.Word2003);
 builder.InsertImage(ImageDir + "Transparent background logo.png");
 
 Assert.AreEqual(ShapeMarkupLanguage.Vml, ((Shape)doc.GetChild(NodeType.Shape, 0, true)).MarkupLanguage);
 
-// Der OOXML-Standard "ISO/IEC 29500:2008" unterstützt keine VML-Formen.
-// Wenn wir die "Compliance"-Eigenschaft des SaveOptions-Objekts auf "OoxmlCompliance.Iso29500_2008_Strict" setzen,
+// Der OOXML-Standard „ISO/IEC 29500:2008“ unterstützt keine VML-Formen.
+// Wenn wir die Eigenschaft „Compliance“ des SaveOptions-Objekts auf „OoxmlCompliance.Iso29500_2008_Strict“ setzen,
  // Jedes Dokument, das wir speichern, während wir dieses Objekt übergeben, muss diesem Standard folgen.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions
 {
@@ -83,11 +83,11 @@ public void OptimizeFor()
     // die es uns ermöglichen, die Abwärtskompatibilität mit älteren Versionen von Microsoft Word zu erleichtern.
     CompatibilityOptions options = doc.CompatibilityOptions;
 
-    // Drucken Sie die Standardeinstellungen für ein leeres Dokument.
+    // Standardeinstellungen für ein leeres Dokument drucken.
     Console.WriteLine("\nDefault optimization settings:");
     PrintCompatibilityOptions(options);
 
-    // Auf diese Einstellungen können wir in Microsoft Word über "Datei" -> "Optionen" -> "Erweitert" -> "Kompatibilitätsoptionen für...".
+    // Auf diese Einstellungen können wir in Microsoft Word über „Datei“ -> zugreifen. „Optionen“ -> „Erweitert“ –> „Kompatibilitätsoptionen für…“.
     doc.Save(ArtifactsDir + "CompatibilityOptions.OptimizeFor.DefaultSettings.docx");
 
     // Wir können die OptimizeFor-Methode verwenden, um eine optimale Kompatibilität mit einer bestimmten Microsoft Word-Version sicherzustellen.

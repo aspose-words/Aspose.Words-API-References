@@ -16,18 +16,21 @@ public Node MatchNode { get; }
 
 ### Примеры
 
-Показывает, как вставить все содержимое документа в качестве замены совпадения в операции поиска и замены.
+Показывает, как вставить содержимое всего документа в качестве замены совпадения в операции поиска и замены.
 
 ```csharp
+public void InsertDocumentAtReplace()
 {
     Document mainDoc = new Document(MyDir + "Document insertion destination.docx");
 
-    // Мы можем использовать объект «FindReplaceOptions», чтобы изменить процесс поиска и замены.
+    // Мы можем использовать объект «FindReplaceOptions» для изменения процесса поиска и замены.
     FindReplaceOptions options = new FindReplaceOptions();
     options.ReplacingCallback = new InsertDocumentAtReplaceHandler();
 
     mainDoc.Range.Replace(new Regex("\\[MY_DOCUMENT\\]"), "", options);
     mainDoc.Save(ArtifactsDir + "InsertDocument.InsertDocumentAtReplace.docx");
+
+}
 
 private class InsertDocumentAtReplaceHandler : IReplacingCallback
 {
@@ -35,7 +38,7 @@ private class InsertDocumentAtReplaceHandler : IReplacingCallback
     {
         Document subDoc = new Document(MyDir + "Document.docx");
 
-        // Вставить документ после абзаца, содержащего совпадающий текст.
+        // Вставляем документ после абзаца, содержащего совпадающий текст.
         Paragraph para = (Paragraph)args.MatchNode.ParentNode;
         InsertDocument(para, subDoc);
 
@@ -61,7 +64,7 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
         foreach (Section srcSection in docToInsert.Sections.OfType<Section>())
             foreach (Node srcNode in srcSection.Body)
             {
-                // Пропустить узел, если это последний пустой абзац в разделе.
+                // Пропускаем узел, если это последний пустой абзац в разделе.
                 if (srcNode.NodeType == NodeType.Paragraph)
                 {
                     Paragraph para = (Paragraph)srcNode;

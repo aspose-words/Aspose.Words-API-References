@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertHorizontalRule
 second_title: Aspose.Words for .NET API Referansı
 description: DocumentBuilder yöntem. Belgeye yatay bir kural şekli ekler.
 type: docs
-weight: 320
+weight: 350
 url: /tr/net/aspose.words/documentbuilder/inserthorizontalrule/
 ---
 ## DocumentBuilder.InsertHorizontalRule method
@@ -20,7 +20,7 @@ Yatay bir kural olan şekil.
 
 ### Örnekler
 
-Yatay bir kural şeklinin nasıl ekleneceğini ve biçimlendirmesinin nasıl özelleştirileceğini gösterir.
+Yatay kural şeklinin nasıl ekleneceğini ve biçimlendirmesinin nasıl özelleştirileceğini gösterir.
 
 ```csharp
 Document doc = new Document();

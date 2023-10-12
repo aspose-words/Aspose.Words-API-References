@@ -3,7 +3,7 @@ title: Cell.Paragraphs
 second_title: Aspose.Words för .NET API Referens
 description: Cell fast egendom. Får en samling stycken som är omedelbara barn till cellen.
 type: docs
-weight: 80
+weight: 90
 url: /sv/net/aspose.words.tables/cell/paragraphs/
 ---
 ## Cell.Paragraphs property

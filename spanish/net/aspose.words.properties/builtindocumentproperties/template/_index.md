@@ -16,7 +16,7 @@ public string Template { get; set; }
 
 ### Observaciones
 
-En Microsoft Word, esta propiedad solo tiene fines informativos y generalmente contiene solo el nombre de archivo de la plantilla sin la ruta.
+En Microsoft Word, esta propiedad tiene solo fines informativos y generalmente contiene solo el nombre del archivo de la plantilla sin la ruta.
 
 Cadena vacía significa que el documento está adjunto a la plantilla Normal.
 
@@ -27,7 +27,7 @@ Para obtener o establecer el nombre real de la plantilla adjunta, utilice the [`
 Muestra cómo trabajar con propiedades de documentos en la categoría "Origen".
 
 ```csharp
-// Abrir un documento que hayamos creado y editado con Microsoft Word.
+//Abrir un documento que hemos creado y editado usando Microsoft Word.
 Document doc = new Document(MyDir + "Properties.docx");
 BuiltInDocumentProperties properties = doc.BuiltInDocumentProperties;
 

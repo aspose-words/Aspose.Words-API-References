@@ -3,12 +3,14 @@ title: Class PageRange
 second_title: Aspose.Words per .NET API Reference
 description: Aspose.Words.Saving.PageRange classe. Rappresenta un intervallo continuo di pagine.
 type: docs
-weight: 5090
+weight: 5370
 url: /it/net/aspose.words.saving/pagerange/
 ---
 ## PageRange class
 
 Rappresenta un intervallo continuo di pagine.
+
+Per saperne di più, visita il[Programmazione con documenti](https://docs.aspose.com/words/net/programming-with-documents/) articolo di documentazione.
 
 ```csharp
 public sealed class PageRange

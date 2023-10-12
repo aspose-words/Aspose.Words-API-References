@@ -16,11 +16,11 @@ public MailMergeMainDocumentType MainDocumentType { get; set; }
 
 ### Observaciones
 
-El documento principal es el documento que contiene información que es la misma para cada versión del documento fusionado.
+El documento principal es el documento que contiene información que es la misma para cada versión del documento combinado.
 
 ### Ejemplos
 
-Muestra cómo ejecutar una combinación de correo con datos de un objeto de origen de datos de Office.
+Muestra cómo ejecutar una combinación de correspondencia con datos de un objeto de origen de datos de Office.
 
 ```csharp
 Document doc = new Document();
@@ -33,8 +33,8 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Crear una fuente de datos en forma de archivo ASCII, con el "|" personaje
-// actuando como el delimitador que separa las columnas. La primera línea contiene los nombres de las tres columnas,
+// Crea una fuente de datos en forma de archivo ASCII, con el "|" personaje
+// actuando como delimitador que separa las columnas. La primera línea contiene los nombres de las tres columnas,
 // y cada línea subsiguiente es una fila con sus respectivos valores.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
@@ -63,7 +63,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
-// Al abrir este documento en Microsoft Word, se ejecutará la combinación de correspondencia antes de mostrar el contenido. 
+ // Al abrir este documento en Microsoft Word se ejecutará la combinación de correspondencia antes de mostrar el contenido.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

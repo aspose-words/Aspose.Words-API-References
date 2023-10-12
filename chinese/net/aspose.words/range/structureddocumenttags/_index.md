@@ -3,7 +3,7 @@ title: Range.StructuredDocumentTags
 second_title: Aspose.Words for .NET API 参考
 description: Range 财产. 返回一个StructuredDocumentTags表示范围内所有结构化文档标签的集合
 type: docs
-weight: 40
+weight: 50
 url: /zh/net/aspose.words/range/structureddocumenttags/
 ---
 ## Range.StructuredDocumentTags property

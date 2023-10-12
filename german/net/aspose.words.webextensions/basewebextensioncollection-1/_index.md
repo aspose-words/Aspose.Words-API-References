@@ -1,14 +1,16 @@
 ---
 title: Class BaseWebExtensionCollectionT
 second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.WebExtensions.BaseWebExtensionCollection1T klas. Basisklasse fürTaskPaneCollection WebExtensionBindingCollection  WebExtensionPropertyCollection undWebExtensionReferenceCollection Sammlungen.
+description: Aspose.Words.WebExtensions.BaseWebExtensionCollection1T klas. Basisklasse fürTaskPaneCollection WebExtensionBindingCollection  WebExtensionPropertyCollection UndWebExtensionReferenceCollection Sammlungen.
 type: docs
-weight: 6390
+weight: 6700
 url: /de/net/aspose.words.webextensions/basewebextensioncollection-1/
 ---
 ## BaseWebExtensionCollection&lt;T&gt; class
 
-Basisklasse für[`TaskPaneCollection`](../taskpanecollection/) ,[`WebExtensionBindingCollection`](../webextensionbindingcollection/) , [`WebExtensionPropertyCollection`](../webextensionpropertycollection/) und[`WebExtensionReferenceCollection`](../webextensionreferencecollection/) Sammlungen.
+Basisklasse für[`TaskPaneCollection`](../taskpanecollection/) ,[`WebExtensionBindingCollection`](../webextensionbindingcollection/) , [`WebExtensionPropertyCollection`](../webextensionpropertycollection/) Und[`WebExtensionReferenceCollection`](../webextensionreferencecollection/) Sammlungen.
+
+Um mehr zu erfahren, besuchen Sie die[Arbeiten Sie mit Office-Add-Ins](https://docs.aspose.com/words/net/work-with-office-add-ins/) Dokumentationsartikel.
 
 ```csharp
 public abstract class BaseWebExtensionCollection<T> : IEnumerable<T>
@@ -17,7 +19,7 @@ public abstract class BaseWebExtensionCollection<T> : IEnumerable<T>
 
 | Parameter | Beschreibung |
 | --- | --- |
-| T | Art eines Sammelobjekts. |
+| T | Typ eines Sammlungselements. |
 
 ## Eigenschaften
 
@@ -30,14 +32,14 @@ public abstract class BaseWebExtensionCollection<T> : IEnumerable<T>
 
 | Name | Beschreibung |
 | --- | --- |
-| [Add](../../aspose.words.webextensions/basewebextensioncollection-1/add/)(T) | Fügt der Sammlung das angegebene Element hinzu. |
+| [Add](../../aspose.words.webextensions/basewebextensioncollection-1/add/)(T) | Fügt das angegebene Element zur Sammlung hinzu. |
 | [Clear](../../aspose.words.webextensions/basewebextensioncollection-1/clear/)() | Entfernt alle Elemente aus der Sammlung. |
 | [GetEnumerator](../../aspose.words.webextensions/basewebextensioncollection-1/getenumerator/)() | Gibt einen Enumerator zurück, der eine Sammlung durchlaufen kann. |
 | [Remove](../../aspose.words.webextensions/basewebextensioncollection-1/remove/)(int) | Entfernt das Element am angegebenen Index aus der Sammlung. |
 
 ### Beispiele
 
-Zeigt, wie Sie mit der Sammlung von Weberweiterungen eines Dokuments arbeiten.
+Zeigt, wie mit der Sammlung von Weberweiterungen eines Dokuments gearbeitet wird.
 
 ```csharp
 Document doc = new Document(MyDir + "Web extension.docx");
@@ -55,7 +57,7 @@ using (IEnumerator<WebExtensionProperty> enumerator = webExtensionPropertyCollec
     }
 }
 
-// Entfernen Sie die Weberweiterung.
+// Web-Erweiterung entfernen.
 doc.WebExtensionTaskPanes.Remove(0);
 
 Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);

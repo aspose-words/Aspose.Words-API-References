@@ -3,12 +3,14 @@ title: Class PlainTextDocument
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.PlainTextDocument classe. Permet dextraire une représentation en texte brut du contenu du document.
 type: docs
-weight: 4190
+weight: 4440
 url: /fr/net/aspose.words/plaintextdocument/
 ---
 ## PlainTextDocument class
 
 Permet d'extraire une représentation en texte brut du contenu du document.
+
+Pour en savoir plus, visitez le[Travailler avec un document texte](https://docs.aspose.com/words/net/working-with-text-document/) article documentaire.
 
 ```csharp
 public class PlainTextDocument
@@ -20,8 +22,8 @@ public class PlainTextDocument
 | --- | --- |
 | [PlainTextDocument](plaintextdocument/#constructor)(Stream) | Crée un document en texte brut à partir d'un flux. Détecte automatiquement le format de fichier. |
 | [PlainTextDocument](plaintextdocument/#constructor_2)(string) | Crée un document en texte brut à partir d'un fichier. Détecte automatiquement le format de fichier. |
-| [PlainTextDocument](plaintextdocument/#constructor_1)(Stream, LoadOptions) | Crée un document en texte brut à partir d'un flux. Permet de spécifier des options supplémentaires telles qu'un mot de passe de chiffrement. |
-| [PlainTextDocument](plaintextdocument/#constructor_3)(string, LoadOptions) | Crée un document en texte brut à partir d'un fichier. Permet de spécifier des options supplémentaires telles qu'un mot de passe de chiffrement. |
+| [PlainTextDocument](plaintextdocument/#constructor_1)(Stream, LoadOptions) | Crée un document en texte brut à partir d'un flux. Permet de spécifier des options supplémentaires telles qu'un mot de passe de cryptage. |
+| [PlainTextDocument](plaintextdocument/#constructor_3)(string, LoadOptions) | Crée un document en texte brut à partir d'un fichier. Permet de spécifier des options supplémentaires telles qu'un mot de passe de cryptage. |
 
 ## Propriétés
 

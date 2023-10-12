@@ -3,7 +3,7 @@ title: ShapeBase.AdjustWithEffects
 second_title: Aspose.Words för .NET API Referens
 description: ShapeBase metod. Lägger till källrektangelvärdena för effektomfattningen och returnerar den sista rektangeln.
 type: docs
-weight: 560
+weight: 620
 url: /sv/net/aspose.words.drawing/shapebase/adjustwitheffects/
 ---
 ## ShapeBase.AdjustWithEffects method

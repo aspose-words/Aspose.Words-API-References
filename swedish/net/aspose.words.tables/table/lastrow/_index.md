@@ -1,14 +1,14 @@
 ---
 title: Table.LastRow
 second_title: Aspose.Words för .NET API Referens
-description: Table fast egendom. Returnerar den sista Rad nod i tabellen.
+description: Table fast egendom. Returnerar den sistaRow nod i tabellen.
 type: docs
 weight: 180
 url: /sv/net/aspose.words.tables/table/lastrow/
 ---
 ## Table.LastRow property
 
-Returnerar den sista **Rad** nod i tabellen.
+Returnerar den sista[`Row`](../../row/) nod i tabellen.
 
 ```csharp
 public Row LastRow { get; }

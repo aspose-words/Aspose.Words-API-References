@@ -1,14 +1,14 @@
 ---
 title: FieldPrint.PostScriptGroup
 second_title: Aspose.Words für .NET-API-Referenz
-description: FieldPrint eigendom. Ruft das Zeichenrechteck ab oder legt es fest auf dem die PostScriptAnweisungen arbeiten.
+description: FieldPrint eigendom. Ruft das Zeichenrechteck ab auf das die PostScriptAnweisungen angewendet werden oder legt dieses fest.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/fieldprint/postscriptgroup/
 ---
 ## FieldPrint.PostScriptGroup property
 
-Ruft das Zeichenrechteck ab oder legt es fest, auf dem die PostScript-Anweisungen arbeiten.
+Ruft das Zeichenrechteck ab, auf das die PostScript-Anweisungen angewendet werden, oder legt dieses fest.
 
 ```csharp
 public string PostScriptGroup { get; set; }
@@ -16,7 +16,7 @@ public string PostScriptGroup { get; set; }
 
 ### Beispiele
 
-Zeigt das Einfügen eines PRINT-Felds an.
+Zeigt an, wie ein PRINT-Feld eingefügt werden soll.
 
 ```csharp
 Document doc = new Document();
@@ -31,8 +31,8 @@ FieldPrint field = (FieldPrint)builder.InsertField(FieldType.FieldPrint, true);
 // In diesem Fall ist es der Absatz, der unser PRINT-Feld enthält.
 field.PostScriptGroup = "para";
 
-// Wenn wir einen Drucker verwenden, der PostScript unterstützt, um unser Dokument zu drucken,
-// Dieser Befehl wird den gesamten Bereich, den wir in "field.PostScriptGroup" angegeben haben, weiß machen.
+// Wenn wir zum Drucken unseres Dokuments einen Drucker verwenden, der PostScript unterstützt,
+// Dieser Befehl färbt den gesamten Bereich, den wir in „field.PostScriptGroup“ angegeben haben, weiß.
 field.PrinterInstructions = "erasepage";
 
 Assert.AreEqual(" PRINT  erasepage \\p para", field.GetFieldCode());

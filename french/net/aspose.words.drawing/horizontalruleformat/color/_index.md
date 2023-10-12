@@ -16,7 +16,7 @@ public Color Color { get; set; }
 
 ### Remarques
 
-Il s'agit d'un raccourci vers leColor propriété.
+Il s'agit d'un raccourci vers le[`Color`](../../fill/color/) propriété.
 
 La valeur par défaut est Gray.
 

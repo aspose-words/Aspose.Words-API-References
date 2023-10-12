@@ -3,12 +3,14 @@ title: Class LayoutEnumerator
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Layout.LayoutEnumerator klass. Räknar upp sidlayoutenheter för ett dokument. Du kan använda den här klassen för att gå över sidlayoutmodellen. Tillgängliga egenskaper är typ geometri text och sidindex där entitet renderas samt övergripande struktur och relationer. Använd kombination avGetEntity ochCurrent flytta till den enhet som motsvarar en dokumentnod.
 type: docs
-weight: 3140
+weight: 3340
 url: /sv/net/aspose.words.layout/layoutenumerator/
 ---
 ## LayoutEnumerator class
 
 Räknar upp sidlayoutenheter för ett dokument. Du kan använda den här klassen för att gå över sidlayoutmodellen. Tillgängliga egenskaper är typ, geometri, text och sidindex där entitet renderas, samt övergripande struktur och relationer. Använd kombination av[`GetEntity`](../layoutcollector/getentity/) och[`Current`](./current/) flytta till den enhet som motsvarar en dokumentnod.
+
+För att lära dig mer, besök[Konvertera till fastsidesformat](https://docs.aspose.com/words/net/converting-to-fixed-page-format/) dokumentationsartikel.
 
 ```csharp
 public class LayoutEnumerator
@@ -26,7 +28,8 @@ public class LayoutEnumerator
 | --- | --- |
 | [Current](../../aspose.words.layout/layoutenumerator/current/) { get; set; } | Hämtar eller ställer in aktuell position i sidlayoutmodellen. Denna egenskap returnerar ett ogenomskinligt objekt som motsvarar den aktuella layoutentiteten. |
 | [Document](../../aspose.words.layout/layoutenumerator/document/) { get; } | Hämtar dokument som denna instans räknar upp. |
-| [Kind](../../aspose.words.layout/layoutenumerator/kind/) { get; } | Hämtar typen av den aktuella enheten. Detta kan vara en tom sträng men aldrig null. |
+| [Item](../../aspose.words.layout/layoutenumerator/item/) { get; } | Får en namngiven egenskap för entiteten. |
+| [Kind](../../aspose.words.layout/layoutenumerator/kind/) { get; } | Hämtar typen av den aktuella enheten. Detta kan vara en tom sträng men aldrig`null` . |
 | [PageIndex](../../aspose.words.layout/layoutenumerator/pageindex/) { get; } | Hämtar det 1-baserade indexet för en sida som innehåller den aktuella enheten. |
 | [Rectangle](../../aspose.words.layout/layoutenumerator/rectangle/) { get; } | Returnerar den avgränsande rektangeln för den aktuella enheten i förhållande till sidans övre vänstra hörn (i punkter). |
 | [Text](../../aspose.words.layout/layoutenumerator/text/) { get; } | Hämtar text från den aktuella span-entiteten. Kaster för andra entitetstyper. |
@@ -39,7 +42,7 @@ public class LayoutEnumerator
 | [MoveFirstChild](../../aspose.words.layout/layoutenumerator/movefirstchild/)() | Flyttar till den första underordnade enheten. |
 | [MoveLastChild](../../aspose.words.layout/layoutenumerator/movelastchild/)() | Flyttar till den sista underordnade enheten. |
 | [MoveNext](../../aspose.words.layout/layoutenumerator/movenext/)() | Flyttar till nästa syskonenhet i visuell ordning. När rader i ett stycke uppdelade över sidor itereras kommer denna metod inte att flytta till nästa sida utan istället flyttas till nästa enhet på samma sida. |
-| [MoveNextLogical](../../aspose.words.layout/layoutenumerator/movenextlogical/)() | Flyttar till nästa syskonentitet i en logisk ordning. När man itererar rader i ett stycke uppdelade över sidor kommer denna metod att flyttas till nästa rad även om den finns på en annan sida. |
+| [MoveNextLogical](../../aspose.words.layout/layoutenumerator/movenextlogical/)() | Flyttar till nästa syskonentitet i en logisk ordning. När rader i ett stycke uppdelat över sidorna upprepas kommer denna metod att flyttas till nästa rad även om den finns på en annan sida. |
 | [MoveParent](../../aspose.words.layout/layoutenumerator/moveparent/#moveparent)() | Flyttar till den överordnade enheten. |
 | [MoveParent](../../aspose.words.layout/layoutenumerator/moveparent/#moveparent_1)(LayoutEntityType) | Flyttar till den överordnade entiteten av den angivna typen. |
 | [MovePrevious](../../aspose.words.layout/layoutenumerator/moveprevious/)() | Flyttar till föregående syskonenhet. |

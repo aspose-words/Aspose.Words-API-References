@@ -1,14 +1,14 @@
 ---
 title: FormField.Type
 second_title: Referencia de API de Aspose.Words para .NET
-description: FormField propiedad. Devuelve el tipo de campo de formulario.
+description: FormField propiedad. Devuelve el tipo de campo del formulario.
 type: docs
 weight: 220
 url: /es/net/aspose.words.fields/formfield/type/
 ---
 ## FormField.Type property
 
-Devuelve el tipo de campo de formulario.
+Devuelve el tipo de campo del formulario.
 
 ```csharp
 public FieldType Type { get; }
@@ -24,14 +24,14 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("Please select a fruit: ");
 
-// Inserte un cuadro combinado que permitirá al usuario elegir una opción de una colección de cadenas.
+// Inserta un cuadro combinado que permitirá al usuario elegir una opción de una colección de cadenas.
 FormField comboBox = builder.InsertComboBox("MyComboBox", new[] { "Apple", "Banana", "Cherry" }, 0);
 
 Assert.AreEqual("MyComboBox", comboBox.Name);
 Assert.AreEqual(FieldType.FieldFormDropDown, comboBox.Type);
 Assert.AreEqual("Apple", comboBox.Result);
 
-// El campo del formulario aparecerá en forma de una etiqueta html "seleccionar".
+// El campo del formulario aparecerá en forma de etiqueta html "seleccionada".
 doc.Save(ArtifactsDir + "FormFields.Create.html");
 ```
 

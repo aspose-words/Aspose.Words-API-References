@@ -23,8 +23,8 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // OLE 对象允许我们使用另一个已安装的应用程序打开本地文件系统中的其他文件
-// 在我们的操作系统中，通过双击文档正文中包含 OLE 对象的形状。
-// 在这种情况下，我们的外部文件将是一个 ZIP 存档。
+// 在我们的操作系统中，双击文档正文中包含 OLE 对象的形状。
+// 在这种情况下，我们的外部文件将是 ZIP 存档。
 byte[] zipFileBytes = File.ReadAllBytes(DatabaseDir + "cat001.zip");
 
 using (MemoryStream stream = new MemoryStream(zipFileBytes))

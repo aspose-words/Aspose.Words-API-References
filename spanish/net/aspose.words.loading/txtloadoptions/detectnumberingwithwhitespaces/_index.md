@@ -1,14 +1,14 @@
 ---
 title: TxtLoadOptions.DetectNumberingWithWhitespaces
 second_title: Referencia de API de Aspose.Words para .NET
-description: TxtLoadOptions propiedad. Permite especificar cómo se reconocen los elementos de la lista numerada cuando el documento se importa desde formato de texto sin formato. El valor predeterminado es verdadero.
+description: TxtLoadOptions propiedad. Permite especificar cómo se reconocen los elementos de la lista numerados cuando el documento se importa desde formato de texto sin formato. El valor predeterminado esverdadero.
 type: docs
-weight: 20
+weight: 40
 url: /es/net/aspose.words.loading/txtloadoptions/detectnumberingwithwhitespaces/
 ---
 ## TxtLoadOptions.DetectNumberingWithWhitespaces property
 
-Permite especificar cómo se reconocen los elementos de la lista numerada cuando el documento se importa desde formato de texto sin formato. El valor predeterminado es verdadero.
+Permite especificar cómo se reconocen los elementos de la lista numerados cuando el documento se importa desde formato de texto sin formato. El valor predeterminado es`verdadero`.
 
 ```csharp
 public bool DetectNumberingWithWhitespaces { get; set; }
@@ -16,18 +16,18 @@ public bool DetectNumberingWithWhitespaces { get; set; }
 
 ### Observaciones
 
-Si esta opción se establece en falso, el algoritmo de reconocimiento de listas detecta los párrafos de la lista, cuando los números de la lista terminan con , ya sea un punto, un corchete derecho o símbolos de viñetas (como "•", "*", "-" u "o").
+Si esta opción está configurada en`FALSO`, el algoritmo de reconocimiento de listas detecta párrafos de listas, cuando los números de la lista terminan con ya sea un punto, un corchete derecho o un símbolo de viñeta (como "•", "*", "-" u "o").
 
-Si esta opción se establece en verdadero, los espacios en blanco también se utilizan como delimitadores de números de lista: algoritmo de reconocimiento de listas para numeración de estilo árabe (1., 1.1.2.) utiliza espacios en blanco y símbolos de punto (".").
+Si esta opción está configurada en`verdadero`los espacios en blanco también se utilizan como delimitadores de números de lista: el algoritmo de reconocimiento de listas para numeración de estilo árabe (1., 1.1.2.) utiliza espacios en blanco y símbolos de punto (".").
 
 ### Ejemplos
 
 Muestra cómo detectar listas al cargar documentos de texto sin formato.
 
 ```csharp
-// Crea un documento de texto sin formato en una cadena con cuatro partes separadas que podemos interpretar como listas,
+// Crea un documento de texto plano en una cadena con cuatro partes separadas que podemos interpretar como listas,
 // con diferentes delimitadores. Al cargar el documento de texto sin formato en un objeto "Documento",
-// Aspose.Words siempre detectará las primeras tres listas y agregará un objeto "Lista"
+// Aspose.Words siempre detectará las tres primeras listas y agregará un objeto "Lista"
 // para cada uno a la propiedad "Listas" del documento.
 const string textDoc = "Full stop delimiters:\n" +
                        "1. First list item 1\n" +
@@ -46,14 +46,14 @@ const string textDoc = "Full stop delimiters:\n" +
                        "2 Fourth list item 2\n" +
                        "3 Fourth list item 3";
 
-// Crear un objeto "TxtLoadOptions", que podemos pasar al constructor de un documento
-// para modificar cómo cargamos un documento de texto sin formato.
+// Crea un objeto "TxtLoadOptions", que podemos pasar al constructor de un documento.
+// para modificar cómo cargamos un documento de texto plano.
 TxtLoadOptions loadOptions = new TxtLoadOptions();
 
-// Establecer la propiedad "DetectNumberingWithWhitespaces" en "true" para detectar elementos numerados
+// Establece la propiedad "DetectNumberingWithWhitespaces" en "true" para detectar elementos numerados
 // con delimitadores de espacios en blanco, como la cuarta lista de nuestro documento, como listas.
-// Esto también puede detectar falsamente párrafos que comienzan con números como listas.
-// Establecer la propiedad "DetectNumberingWithWhitespaces" en "false"
+// Esto también puede detectar erróneamente párrafos que comienzan con números como listas.
+// Establece la propiedad "DetectNumberingWithWhitespaces" en "falso"
 // para no crear listas a partir de elementos numerados con delimitadores de espacios en blanco.
 loadOptions.DetectNumberingWithWhitespaces = detectNumberingWithWhitespaces;
 

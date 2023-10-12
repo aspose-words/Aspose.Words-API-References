@@ -32,7 +32,7 @@ builder.Write("Footnote referenced main body text.");
 Footnote footnote = builder.InsertFootnote(FootnoteType.Footnote, 
     "Footnote text, will appear at the bottom of the page that contains the referenced text.");
 
-// 2 - Una nota di chiusura, la cui voce apparirà alla fine del documento:
+// 2 - Una nota finale, la cui voce apparirà alla fine del documento:
 builder.Write("Endnote referenced main body text.");
 Footnote endnote = builder.InsertFootnote(FootnoteType.Endnote, 
     "Endnote text, will appear at the very end of the document.");

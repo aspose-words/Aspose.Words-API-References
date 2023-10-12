@@ -3,7 +3,7 @@ title: HtmlSaveOptions.ImageSavingCallback
 second_title: Referencia de API de Aspose.Words para .NET
 description: HtmlSaveOptions propiedad. Permite controlar cómo se guardan las imágenes cuando un documento se guarda en HTML MHTML o EPUB.
 type: docs
-weight: 360
+weight: 350
 url: /es/net/aspose.words.saving/htmlsaveoptions/imagesavingcallback/
 ---
 ## HtmlSaveOptions.ImageSavingCallback property
@@ -24,20 +24,20 @@ public void DocumentPartsFileNames()
     Document doc = new Document(MyDir + "Rendering.docx");
     string outFileName = "SavingCallback.DocumentPartsFileNames.html";
 
-    // Crear un objeto "HtmlFixedSaveOptions", que podemos pasar al método "Guardar" del documento
+    // Crea un objeto "HtmlFixedSaveOptions", que podemos pasar al método "Guardar" del documento
     // para modificar cómo convertimos el documento a HTML.
     HtmlSaveOptions options = new HtmlSaveOptions();
 
     // Si guardamos el documento normalmente, habrá un HTML de salida
     // documento con todo el contenido del documento fuente.
-    // Establecer la propiedad "DocumentSplitCriteria" en "DocumentSplitCriteria.SectionBreak" para
+    // Establece la propiedad "DocumentSplitCriteria" en "DocumentSplitCriteria.SectionBreak" para
     // guarda nuestro documento en varios archivos HTML: uno para cada sección.
     options.DocumentSplitCriteria = DocumentSplitCriteria.SectionBreak;
 
-    // Asigne una devolución de llamada personalizada a la propiedad "DocumentPartSavingCallback" para modificar la lógica de guardado de la parte del documento.
+    // Asigne una devolución de llamada personalizada a la propiedad "DocumentPartSavingCallback" para modificar la lógica de guardado de partes del documento.
     options.DocumentPartSavingCallback = new SavedDocumentPartRename(outFileName, options.DocumentSplitCriteria);
 
-    // Si convertimos un documento que contiene imágenes en html, terminaremos con un archivo html que enlaza con varias imágenes.
+    // Si convertimos un documento que contiene imágenes a html, terminaremos con un archivo html que enlaza con varias imágenes.
     // Cada imagen tendrá la forma de un archivo en el sistema de archivos local.
     // También hay una devolución de llamada que puede personalizar el nombre y la ubicación del sistema de archivos de cada imagen.
     options.ImageSavingCallback = new SavedImageRename(outFileName);
@@ -46,7 +46,7 @@ public void DocumentPartsFileNames()
 }
 
 /// <summary>
-/// Establece nombres de archivo personalizados para los documentos de salida en los que la operación de guardado divide un documento.
+/// Establece nombres de archivos personalizados para los documentos de salida en los que la operación de guardado divide un documento.
 /// </summary>
 private class SavedDocumentPartRename : IDocumentPartSavingCallback
 {
@@ -58,7 +58,7 @@ private class SavedDocumentPartRename : IDocumentPartSavingCallback
 
     void IDocumentPartSavingCallback.DocumentPartSaving(DocumentPartSavingArgs args)
     {
-        // Podemos acceder a todo el documento de origen a través de la propiedad "Documento".
+        // Podemos acceder al documento fuente completo a través de la propiedad "Documento".
         Assert.True(args.Document.OriginalFileName.EndsWith("Rendering.docx"));
 
         string partType = string.Empty;
@@ -81,11 +81,11 @@ private class SavedDocumentPartRename : IDocumentPartSavingCallback
 
         string partFileName = $"{mOutFileName} part {++mCount}, of type {partType}{Path.GetExtension(args.DocumentPartFileName)}";
 
-        // A continuación hay dos formas de especificar dónde Aspose.Words guardará cada parte del documento.
-        // 1 - Establecer un nombre de archivo para el archivo de parte de salida:
+        // A continuación se muestran dos formas de especificar dónde Aspose.Words guardará cada parte del documento.
+        // 1 - Establece un nombre de archivo para el archivo de pieza de salida:
         args.DocumentPartFileName = partFileName;
 
-        // 2 - Cree una secuencia personalizada para el archivo de la parte de salida:
+        // 2 - Crea una secuencia personalizada para el archivo de pieza de salida:
         args.DocumentPartStream = new FileStream(ArtifactsDir + partFileName, FileMode.Create);
 
         Assert.True(args.DocumentPartStream.CanWrite);
@@ -98,7 +98,7 @@ private class SavedDocumentPartRename : IDocumentPartSavingCallback
 }
 
 /// <summary>
-/// Establece nombres de archivo personalizados para los archivos de imagen que crea una conversión HTML.
+/// Establece nombres de archivos personalizados para los archivos de imagen que crea una conversión HTML.
 /// </summary>
 public class SavedImageRename : IImageSavingCallback
 {
@@ -111,11 +111,11 @@ public class SavedImageRename : IImageSavingCallback
     {
         string imageFileName = $"{mOutFileName} shape {++mCount}, of type {args.CurrentShape.ShapeType}{Path.GetExtension(args.ImageFileName)}";
 
-        // A continuación hay dos formas de especificar dónde Aspose.Words guardará cada parte del documento.
-        // 1 - Establecer un nombre de archivo para el archivo de imagen de salida:
+        // A continuación se muestran dos formas de especificar dónde Aspose.Words guardará cada parte del documento.
+        // 1 - Establece un nombre de archivo para el archivo de imagen de salida:
         args.ImageFileName = imageFileName;
 
-        // 2 - Cree una secuencia personalizada para el archivo de imagen de salida:
+        // 2 - Crea una secuencia personalizada para el archivo de imagen de salida:
         args.ImageStream = new FileStream(ArtifactsDir + imageFileName, FileMode.Create);
 
         Assert.True(args.ImageStream.CanWrite);

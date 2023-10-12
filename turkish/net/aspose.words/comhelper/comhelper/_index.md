@@ -19,10 +19,10 @@ public ComHelper()
 ComHelper sınıfını kullanarak belgelerin nasıl açılacağını gösterir.
 
 ```csharp
-// ComHelper sınıfı, COM istemcilerinden belgeleri yüklememize izin verir.
+// ComHelper sınıfı, belgeleri COM istemcilerinden yüklememize olanak tanır.
 ComHelper comHelper = new ComHelper();
 
-// 1 - Yerel bir sistem dosya adı kullanma:
+// 1 - Yerel sistem dosya adını kullanma:
 Document doc = comHelper.Open(MyDir + "Document.docx");
 
 Assert.AreEqual("Hello World!\r\rHello Word!\r\r\rHello World!", doc.GetText().Trim());

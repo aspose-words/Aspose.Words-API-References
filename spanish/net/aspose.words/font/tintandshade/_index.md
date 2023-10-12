@@ -16,13 +16,13 @@ public double TintAndShade { get; set; }
 
 ### Observaciones
 
-Los valores permitidos están en el rango de -1 (más oscuro) a 1 (más claro) para esta propiedad. Cero (0) es neutral. Intentar establecer esta propiedad en un valor inferior a -1 o superior a 1 da como resultado unArgumentOutOfRangeException.
+Los valores permitidos están en el rango de -1 (el más oscuro) a 1 (el más claro) para esta propiedad. Cero (0) es neutral. Intentar establecer esta propiedad en un valor inferior a -1 o superior a 1 da como resultado unArgumentOutOfRangeException.
 
-Establecer esta propiedad para el objeto Fuente con colores no temáticos da como resultado unInvalidOperationException.
+Establecer esta propiedad para[`Font`](../) objeto con colores no temáticos da como resultado unInvalidOperationException.
 
 ### Ejemplos
 
-Muestra cómo crear y utilizar un estilo temático.
+Muestra cómo crear y utilizar estilos temáticos.
 
 ```csharp
 Document doc = new Document();
@@ -30,7 +30,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln();
 
-// Crea un estilo con las propiedades de la fuente del tema.
+// Crea algún estilo con las propiedades de fuente del tema.
 Style style = doc.Styles.Add(StyleType.Paragraph, "ThemedStyle");
 style.Font.ThemeFont = ThemeFont.Major;
 style.Font.ThemeColor = ThemeColor.Accent5;

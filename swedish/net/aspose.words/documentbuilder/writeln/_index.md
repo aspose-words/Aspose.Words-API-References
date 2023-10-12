@@ -3,7 +3,7 @@ title: DocumentBuilder.Writeln
 second_title: Aspose.Words för .NET API Referens
 description: DocumentBuilder metod. Infogar en sträng och en styckebrytning i dokumentet.
 type: docs
-weight: 630
+weight: 670
 url: /sv/net/aspose.words/documentbuilder/writeln/
 ---
 ## Writeln(string) {#writeln_1}

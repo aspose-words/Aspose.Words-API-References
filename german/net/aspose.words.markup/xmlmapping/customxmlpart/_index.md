@@ -1,14 +1,14 @@
 ---
 title: XmlMapping.CustomXmlPart
 second_title: Aspose.Words für .NET-API-Referenz
-description: XmlMapping eigendom. Gibt den benutzerdefinierten XMLDatenteil zurück dem das übergeordnete strukturierte DokumentTag zugeordnet ist.
+description: XmlMapping eigendom. Gibt den benutzerdefinierten XMLDatenteil zurück dem das Tag des übergeordneten strukturierten Dokuments zugeordnet ist.
 type: docs
 weight: 10
 url: /de/net/aspose.words.markup/xmlmapping/customxmlpart/
 ---
 ## XmlMapping.CustomXmlPart property
 
-Gibt den benutzerdefinierten XML-Datenteil zurück, dem das übergeordnete strukturierte Dokument-Tag zugeordnet ist.
+Gibt den benutzerdefinierten XML-Datenteil zurück, dem das Tag des übergeordneten strukturierten Dokuments zugeordnet ist.
 
 ```csharp
 public CustomXmlPart CustomXmlPart { get; }
@@ -32,9 +32,9 @@ Assert.AreEqual("<root><text>Text element #1</text><text>Text element #2</text><
 // Erstellen Sie ein strukturiertes Dokument-Tag, das den Inhalt unseres CustomXmlPart anzeigt.
 StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Block);
 
-// Legen Sie eine Zuordnung für unser strukturiertes Dokument-Tag fest. Diese Zuordnung wird anweisen
-// unser strukturiertes Dokument-Tag, um einen Teil des Textinhalts des XML-Teils anzuzeigen, auf den der XPath zeigt.
-// In diesem Fall ist es der Inhalt des zweiten "<text>" Element des ersten "<root>" element: "Textelement #2".
+// Legen Sie eine Zuordnung für unser strukturiertes Dokument-Tag fest. Diese Zuordnung wird Ihnen Anweisungen geben
+// unser strukturiertes Dokument-Tag, um einen Teil des Textinhalts des XML-Teils anzuzeigen, auf den der XPath verweist.
+// In diesem Fall handelt es sich um den Inhalt des zweiten „<text>“ Element des ersten „<root>“ Element: „Textelement #2“.
 tag.XmlMapping.SetMapping(xmlPart, "/root[1]/text[2]", "xmlns:ns='http://www.w3.org/2001/XMLSchema'");
 
 Assert.True(tag.XmlMapping.IsMapped);

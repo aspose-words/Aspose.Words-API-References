@@ -3,12 +3,14 @@ title: Class TextColumnCollection
 second_title: Aspose.Words for .NET API Referansı
 description: Aspose.Words.TextColumnCollection sınıf. Bir koleksiyonTextColumn bir belgenin bir bölümündeki metnin tüm sütunlarını temsil eden nesneler.
 type: docs
-weight: 6100
+weight: 6400
 url: /tr/net/aspose.words/textcolumncollection/
 ---
 ## TextColumnCollection class
 
 Bir koleksiyon[`TextColumn`](../textcolumn/) bir belgenin bir bölümündeki metnin tüm sütunlarını temsil eden nesneler.
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Bölümlerle Çalışmak](https://docs.aspose.com/words/net/working-with-sections/) dokümantasyon makalesi.
 
 ```csharp
 public class TextColumnCollection
@@ -18,28 +20,28 @@ public class TextColumnCollection
 
 | İsim | Tanım |
 | --- | --- |
-| [Count](../../aspose.words/textcolumncollection/count/) { get; } | Bir belgenin bölümündeki sütun sayısını alır. |
-| [EvenlySpaced](../../aspose.words/textcolumncollection/evenlyspaced/) { get; set; } | **Doğru** metin sütunları eşit genişlikte ve eşit aralıklıysa. |
-| [Item](../../aspose.words/textcolumncollection/item/) { get; } | Belirtilen dizinde bir metin sütunu döndürür. |
-| [LineBetween](../../aspose.words/textcolumncollection/linebetween/) { get; set; } | Ne zaman **doğru** , sütunlar arasına dikey bir çizgi ekler. |
-| [Spacing](../../aspose.words/textcolumncollection/spacing/) { get; set; } | Sütunlar eşit aralıklarla yerleştirildiğinde, her sütun arasındaki boşluk miktarını nokta olarak alır veya ayarlar. |
-| [Width](../../aspose.words/textcolumncollection/width/) { get; } | Sütunlar eşit aralıklarla yerleştirildiğinde, sütunların genişliğini alır. |
+| [Count](../../aspose.words/textcolumncollection/count/) { get; } | Belgenin bölümündeki sütunların sayısını alır. |
+| [EvenlySpaced](../../aspose.words/textcolumncollection/evenlyspaced/) { get; set; } | Metin sütunları eşit genişlikte ve eşit aralıklıysa doğrudur. |
+| [Item](../../aspose.words/textcolumncollection/item/) { get; } | Belirtilen dizindeki bir metin sütununu döndürür. |
+| [LineBetween](../../aspose.words/textcolumncollection/linebetween/) { get; set; } | Ne zaman`doğru` sütunların arasına dikey bir çizgi ekler. |
+| [Spacing](../../aspose.words/textcolumncollection/spacing/) { get; set; } | Sütunlar eşit aralıklarla yerleştirildiğinde, her sütun arasındaki boşluk miktarını nokta cinsinden alır veya ayarlar. |
+| [Width](../../aspose.words/textcolumncollection/width/) { get; } | Sütunlar eşit aralıklarla yerleştirildiğinde sütunların genişliğini alır. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| [SetCount](../../aspose.words/textcolumncollection/setcount/)(int) | Metni belirtilen sayıda metin sütununa göre düzenler. |
+| [SetCount](../../aspose.words/textcolumncollection/setcount/)(int) | Metni belirtilen sayıda metin sütunu halinde düzenler. |
 
 ### Notlar
 
-Kullanmak[`SetCount`](./setcount/) metin sütunlarının sayısını ayarlamak için
+Kullanmak[`SetCount`](./setcount/) Metin sütunlarının sayısını ayarlamak için.
 
-Tüm sütunları eşit genişlikte ve eşit aralıklı yapmak için[`EvenlySpaced`](./evenlyspaced/) ile **doğru** ve içindeki sütunlar arasındaki boşluk miktarını belirtin[`Spacing`](./spacing/). MS Word sütun genişliklerini otomatik olarak hesaplayacaktır.
+Tüm sütunların eşit genişliğe ve eşit aralıklara sahip olmasını sağlamak için[`EvenlySpaced`](./evenlyspaced/) ile`doğru` ve sütunlar arasındaki boşluk miktarını belirtin[`Spacing`](./spacing/). MS Word will sütun genişliklerini otomatik olarak hesaplar.
 
-eğer varsa **Eşit Aralıklı** ayarlanır **yanlış** her bir sütunu için ayrı ayrı genişlik ve boşluk belirtmeniz gerekir. Bireye erişmek için dizin oluşturucuyu kullanın[`TextColumn`](../textcolumn/) nesneler.
+eğer varsa[`EvenlySpaced`](./evenlyspaced/) ayarlanır`YANLIŞ` , her sütunu için genişliği ve aralığı ayrı ayrı belirtmeniz gerekir. Bireye erişmek için dizin oluşturucuyu kullanın[`TextColumn`](../textcolumn/) nesneler.
 
-Özel sütun genişliklerini kullanırken, tüm sütun genişliklerinin ve bunlar arasındaki boşlukların toplamının, sayfa genişliği eksi sol ve sağ sayfa kenar boşluklarına eşit olduğundan emin olun.
+Özel sütun genişlikleri kullanırken, tüm sütun genişliklerinin ve aralarındaki aralıkların (x000d_) toplamının, sayfa genişliği eksi sol ve sağ sayfa kenar boşluklarına eşit olduğundan emin olun.
 
 ### Örnekler
 

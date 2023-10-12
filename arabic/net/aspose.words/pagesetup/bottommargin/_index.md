@@ -1,14 +1,14 @@
 ---
 title: PageSetup.BottomMargin
 second_title: Aspose.Words لمراجع .NET API
-description: PageSetup ملكية. إرجاع أو تحديد المسافة بالنقاط بين الحافة السفلية للصفحة والحد السفلي للنص الأساسي.
+description: PageSetup ملكية. إرجاع أو تعيين المسافة بالنقاط بين الحافة السفلية للصفحة والحد السفلي للنص الأساسي.
 type: docs
 weight: 80
 url: /ar/net/aspose.words/pagesetup/bottommargin/
 ---
 ## PageSetup.BottomMargin property
 
-إرجاع أو تحديد المسافة (بالنقاط) بين الحافة السفلية للصفحة والحد السفلي للنص الأساسي.
+إرجاع أو تعيين المسافة (بالنقاط) بين الحافة السفلية للصفحة والحد السفلي للنص الأساسي.
 
 ```csharp
 public double BottomMargin { get; set; }
@@ -16,7 +16,7 @@ public double BottomMargin { get; set; }
 
 ### أمثلة
 
-يوضح كيفية ضبط حجم الورق ، والاتجاه ، والهوامش ، إلى جانب الإعدادات الأخرى لقسم ما.
+يوضح كيفية ضبط حجم الورق واتجاهه والهوامش بالإضافة إلى الإعدادات الأخرى لقسم ما.
 
 ```csharp
 Document doc = new Document();

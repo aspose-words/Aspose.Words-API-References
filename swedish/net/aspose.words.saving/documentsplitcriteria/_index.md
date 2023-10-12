@@ -1,14 +1,14 @@
 ---
 title: Enum DocumentSplitCriteria
 second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Saving.DocumentSplitCriteria uppräkning. Anger hur dokumentet delas upp i delar när det sparas tillHtml ellerEpub format.
+description: Aspose.Words.Saving.DocumentSplitCriteria uppräkning. Anger hur dokumentet delas upp i delar när det sparas tillHtml  Epub ellerAzw3 format.
 type: docs
-weight: 4700
+weight: 4960
 url: /sv/net/aspose.words.saving/documentsplitcriteria/
 ---
 ## DocumentSplitCriteria enumeration
 
-Anger hur dokumentet delas upp i delar när det sparas tillHtml ellerEpub format.
+Anger hur dokumentet delas upp i delar när det sparas tillHtml , Epub ellerAzw3 format.
 
 ```csharp
 [Flags]

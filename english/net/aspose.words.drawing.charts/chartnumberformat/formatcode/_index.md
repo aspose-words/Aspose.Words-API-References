@@ -57,7 +57,7 @@ chart.Series.Clear();
 // Add a custom series to the chart with categories for the X-axis,
 // and large respective numeric values for the Y-axis. 
 chart.Series.Add("Aspose Test Series",
-    new [] { "Word", "PDF", "Excel", "GoogleDocs", "Note" },
+    new[] { "Word", "PDF", "Excel", "GoogleDocs", "Note" },
     new double[] { 1900000, 850000, 2100000, 600000, 1500000 });
 
 // Set the number format of the Y-axis tick labels to not group digits with commas. 
@@ -84,8 +84,8 @@ chart.Title.Text = "Monthly sales report";
 
 // Insert a custom chart series with months as categories for the X-axis,
 // and respective decimal amounts for the Y-axis.
-ChartSeries series = chart.Series.Add("Revenue", 
-    new[] { "January", "February", "March" }, 
+ChartSeries series = chart.Series.Add("Revenue",
+    new[] { "January", "February", "March" },
     new[] { 25.611d, 21.439d, 33.750d });
 
 // Enable data labels, and then apply a custom number format for values displayed in the data labels.
@@ -94,7 +94,7 @@ series.HasDataLabels = true;
 ChartDataLabelCollection dataLabels = series.DataLabels;
 dataLabels.ShowValue = true;
 dataLabels.NumberFormat.FormatCode = "\"US$\" #,##0.000\"M\"";
-dataLabels.Font.Size = 12;            
+dataLabels.Font.Size = 12;
 
 doc.Save(ArtifactsDir + "Charts.DataLabelNumberFormat.docx");
 ```

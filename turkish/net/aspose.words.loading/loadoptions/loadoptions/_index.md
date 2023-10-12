@@ -1,14 +1,14 @@
 ---
 title: LoadOptions.LoadOptions
 second_title: Aspose.Words for .NET API Referansı
-description: LoadOptions inşaatçı. Varsayılan değerlerle bu sınıfın yeni bir örneğini başlatır.
+description: LoadOptions inşaatçı. Bu sınıfın yeni bir örneğini varsayılan değerlerle başlatır.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.loading/loadoptions/loadoptions/
 ---
 ## LoadOptions() {#constructor}
 
-Varsayılan değerlerle bu sınıfın yeni bir örneğini başlatır.
+Bu sınıfın yeni bir örneğini varsayılan değerlerle başlatır.
 
 ```csharp
 public LoadOptions()
@@ -21,8 +21,8 @@ Temel URI kullanarak bir akıştan görüntüler içeren bir HTML belgesinin nas
 ```csharp
 using (Stream stream = File.OpenRead(MyDir + "Document.html"))
 {
-    // Yüklerken temel klasörün URI'sini iletin
-    // böylece HTML belgesinde göreli URI'leri olan herhangi bir resim bulunabilir.
+    // Temel klasörü yüklerken URI'yi iletin
+    // böylece HTML belgesindeki ilgili URI'lere sahip tüm görseller bulunabilir.
     LoadOptions loadOptions = new LoadOptions();
     loadOptions.BaseUri = ImageDir;
 
@@ -48,7 +48,7 @@ using (Stream stream = File.OpenRead(MyDir + "Document.html"))
 
 ## LoadOptions(string) {#constructor_2}
 
-Şifrelenmiş bir belgeyi yüklemek için belirtilen parolayla bu sınıfın yeni bir örneğini başlatmak için bir kısayol.
+Şifrelenmiş bir belgeyi yüklemek için bu sınıfın yeni bir örneğini belirtilen parolayla başlatmak için kullanılan bir kısayol.
 
 ```csharp
 public LoadOptions(string password)
@@ -56,7 +56,7 @@ public LoadOptions(string password)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| password | String | Şifrelenmiş bir belgeyi açmak için parola. Null veya boş dize olabilir. |
+| password | String | Şifrelenmiş bir belgeyi açmak için kullanılan parola. Olabilir`hükümsüz` veya boş dize. |
 
 ### Örnekler
 
@@ -65,19 +65,20 @@ public LoadOptions(string password)
 ```csharp
 Document doc;
 
-// Aspose.Words şifreli bir belgeyi şifresi olmadan açmaya çalışırsak bir istisna atar.
+// Aspose.Words, şifrelenmiş bir belgeyi şifresi olmadan açmaya çalışırsak bir istisna atar.
 Assert.Throws<IncorrectPasswordException>(() => doc = new Document(MyDir + "Encrypted.docx"));
 
-// Böyle bir belge yüklenirken parola, bir LoadOptions nesnesi kullanılarak belgenin oluşturucusuna iletilir.
+// Böyle bir belge yüklenirken parola, LoadOptions nesnesi kullanılarak belgenin yapıcısına iletilir.
 LoadOptions options = new LoadOptions("docPassword");
 
-// Şifreli bir belgeyi LoadOptions nesnesiyle yüklemenin iki yolu vardır.
+// Şifrelenmiş bir belgeyi LoadOptions nesnesiyle yüklemenin iki yolu vardır.
 // 1 - Belgeyi yerel dosya sisteminden dosya adına göre yükleyin:
 doc = new Document(MyDir + "Encrypted.docx", options);
 // 2 - Belgeyi bir akıştan yükleyin:
 using (Stream stream = File.OpenRead(MyDir + "Encrypted.docx"))
 {
     doc = new Document(stream, options);
+}
 ```
 
 ### Ayrıca bakınız
@@ -90,7 +91,7 @@ using (Stream stream = File.OpenRead(MyDir + "Encrypted.docx"))
 
 ## LoadOptions(LoadFormat, string, string) {#constructor_1}
 
-Belirtilen değerlere ayarlanmış özelliklerle bu sınıfın yeni bir örneğini başlatmak için bir kısayol.
+Özellikleri belirtilen değerlere ayarlanmış olarak bu sınıfın yeni bir örneğini başlatmak için kullanılan bir kısayol.
 
 ```csharp
 public LoadOptions(LoadFormat loadFormat, string password, string baseUri)
@@ -98,22 +99,23 @@ public LoadOptions(LoadFormat loadFormat, string password, string baseUri)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| loadFormat | LoadFormat | Yüklenecek belgenin biçimi. |
-| password | String | Şifrelenmiş bir belgeyi açmak için parola. Null veya boş dize olabilir. |
-| baseUri | String | Göreli URI'leri mutlak olarak çözümlemek için kullanılacak dize. Null veya boş dize olabilir. |
+| loadFormat | LoadFormat | Yüklenecek belgenin formatı. |
+| password | String | Şifrelenmiş bir belgeyi açmak için kullanılan parola. Olabilir`hükümsüz` veya boş dize. |
+| baseUri | String | Göreli URI'leri mutlak olarak çözümlemek için kullanılacak dize. Olabilir`hükümsüz` veya boş dize. |
 
 ### Örnekler
 
 Bir web sayfasının .docx dosyası olarak nasıl kaydedildiğini gösterir.
 
 ```csharp
-const string url = "http://www.aspose.com/";
+const string url = "https://www.aspose.com/";
 
-using (WebClient client = new WebClient()) 
-{ 
-    using (MemoryStream stream = new MemoryStream(client.DownloadData(url)))
+using (HttpClient client = new HttpClient()) 
+{
+    var bytes = await client.GetByteArrayAsync(url);
+    using (MemoryStream stream = new MemoryStream(bytes))
     {
-        // Göreli görüntü yollarının doğru bir şekilde alınmasını sağlamak için URL tekrar baseUri olarak kullanılır.
+        // URL, ilgili görüntü yollarının doğru şekilde alındığından emin olmak için tekrar baseUri olarak kullanılır.
         LoadOptions options = new LoadOptions(LoadFormat.Html, "", url);
 
         // HTML belgesini akıştan yükleyin ve LoadOptions nesnesini iletin.
@@ -125,23 +127,23 @@ using (WebClient client = new WebClient())
 }
 ```
 
-Bir html belgesini açarken bir temel URI'nin nasıl belirtileceğini gösterir.
+Bir html belgesini açarken temel URI'nin nasıl belirtileceğini gösterir.
 
 ```csharp
-// Göreli bir URI ile bağlantılı bir resim içeren bir .html belgesi yüklemek istediğimizi varsayalım.
-// görüntü farklı bir konumdayken. Bu durumda, göreli URI'yi mutlak bir URI'ye çözmemiz gerekecek.
- // Bir HtmlLoadOptions nesnesi kullanarak bir temel URI sağlayabiliriz.
+// Göreli bir URI ile bağlantılı bir resim içeren bir .html belgesi yüklemek istediğimizi varsayalım
+// resim farklı bir konumdayken. Bu durumda, göreceli URI'yi mutlak bir URI'ye dönüştürmemiz gerekecek.
+ // HtmlLoadOptions nesnesini kullanarak bir temel URI sağlayabiliriz.
 HtmlLoadOptions loadOptions = new HtmlLoadOptions(LoadFormat.Html, "", ImageDir);
 
 Assert.AreEqual(LoadFormat.Html, loadOptions.LoadFormat);
 
 Document doc = new Document(MyDir + "Missing image.html", loadOptions);
 
-// .html girişinde görüntü bozukken, özel temel URI'miz bağlantıyı onarmamıza yardımcı oldu.
+// Görüntü .html girişinde bozuk olsa da, özel temel URI'miz bağlantıyı onarmamıza yardımcı oldu.
 Shape imageShape = (Shape)doc.GetChildNodes(NodeType.Shape, true)[0];
 Assert.True(imageShape.IsImage);
 
-// Bu çıktı belgesi, eksik olan resmi gösterecektir.
+// Bu çıktı belgesi eksik olan resmi gösterecektir.
 doc.Save(ArtifactsDir + "HtmlLoadOptions.BaseUri.docx");
 ```
 

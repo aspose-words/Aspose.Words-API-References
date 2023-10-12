@@ -1,14 +1,14 @@
 ---
 title: ReplacingArgs.Replacement
 second_title: Aspose.Words for .NET API Referansı
-description: ReplacingArgs mülk. Değiştirilen dizeyi alır veya ayarlar.
+description: ReplacingArgs mülk. Değiştirme dizesini alır veya ayarlar.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.replacing/replacingargs/replacement/
 ---
 ## ReplacingArgs.Replacement property
 
-Değiştirilen dizeyi alır veya ayarlar.
+Değiştirme dizesini alır veya ayarlar.
 
 ```csharp
 public string Replacement { get; set; }
@@ -16,9 +16,10 @@ public string Replacement { get; set; }
 
 ### Örnekler
 
-Tüm bu değiştirmeleri izlerken, bir normal ifade modelinin tüm oluşumlarının başka bir dizeyle nasıl değiştirileceğini gösterir.
+Tüm bu değiştirmeleri izlerken, düzenli ifade modelinin tüm oluşumlarının başka bir dizeyle nasıl değiştirileceğini gösterir.
 
 ```csharp
+public void ReplaceWithCallback()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -29,7 +30,7 @@ Tüm bu değiştirmeleri izlerken, bir normal ifade modelinin tüm oluşumların
     // Bul ve değiştir işlemini değiştirmek için bir "FindReplaceOptions" nesnesi kullanabiliriz.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // "Değiştir" yönteminin yapacağı değişiklikleri izleyen bir geri arama ayarlayın.
+    // "Değiştir" yönteminin yapacağı değişiklikleri izleyen bir geri çağırma ayarlayın.
     TextFindAndReplacementLogger logger = new TextFindAndReplacementLogger();
     options.ReplacingCallback = logger;
 
@@ -43,7 +44,7 @@ Tüm bu değiştirmeleri izlerken, bir normal ifade modelinin tüm oluşumların
 }
 
 /// <summary>
-/// Bul ve değiştir işlemiyle yapılan her metin değişikliğinin günlüğünü tutar
+/// Bul ve değiştir işlemiyle gerçekleştirilen her metin değişiminin kaydını tutar
 /// ve orijinal eşleşen metnin değerini not eder.
 /// </summary>
 private class TextFindAndReplacementLogger : IReplacingCallback

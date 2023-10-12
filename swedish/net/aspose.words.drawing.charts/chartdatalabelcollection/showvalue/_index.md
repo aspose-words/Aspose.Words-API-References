@@ -1,14 +1,14 @@
 ---
 title: ChartDataLabelCollection.ShowValue
 second_title: Aspose.Words för .NET API Referens
-description: ChartDataLabelCollection fast egendom. Gör det möjligt att ange om värden ska visas i dataetiketterna för hela serien. Standardvärdet är falsk .
+description: ChartDataLabelCollection fast egendom. Gör det möjligt att ange om värden ska visas i dataetiketterna för hela serien. Standardvärdet ärfalsk .
 type: docs
-weight: 120
+weight: 140
 url: /sv/net/aspose.words.drawing.charts/chartdatalabelcollection/showvalue/
 ---
 ## ChartDataLabelCollection.ShowValue property
 
-Gör det möjligt att ange om värden ska visas i dataetiketterna för hela serien. Standardvärdet är **falsk** .
+Gör det möjligt att ange om värden ska visas i dataetiketterna för hela serien. Standardvärdet är`falsk` .
 
 ```csharp
 public bool ShowValue { get; set; }

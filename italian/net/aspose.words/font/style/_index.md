@@ -1,14 +1,14 @@
 ---
 title: Font.Style
 second_title: Aspose.Words per .NET API Reference
-description: Font proprietà. Ottiene o imposta lo stile del carattere applicato a questa formattazione.
+description: Font proprietà. Ottiene o imposta lo stile di carattere applicato a questa formattazione.
 type: docs
 weight: 400
 url: /it/net/aspose.words/font/style/
 ---
 ## Font.Style property
 
-Ottiene o imposta lo stile del carattere applicato a questa formattazione.
+Ottiene o imposta lo stile di carattere applicato a questa formattazione.
 
 ```csharp
 public Style Style { get; set; }
@@ -16,7 +16,7 @@ public Style Style { get; set; }
 
 ### Esempi
 
-Applica una doppia sottolineatura a tutte le esecuzioni in un documento formattato con stili di carattere personalizzati.
+Applica una doppia sottolineatura a tutte le sequenze in un documento formattato con stili di carattere personalizzati.
 
 ```csharp
 Document doc = new Document();
@@ -30,7 +30,7 @@ style.Font.Name = "Courier New";
 builder.Font.StyleName = "MyStyle";
 builder.Write("This text is in a custom style.");
 
-// Itera su ogni corsa e aggiungi una doppia sottolineatura a ogni stile personalizzato.
+// Itera su ogni esecuzione e aggiunge una doppia sottolineatura a ogni stile personalizzato.
 foreach (Run run in doc.GetChildNodes(NodeType.Run, true).OfType<Run>())
 {
     Style charStyle = run.Font.Style;

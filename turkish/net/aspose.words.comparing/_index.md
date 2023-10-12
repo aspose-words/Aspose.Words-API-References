@@ -1,23 +1,23 @@
 ---
 title: Aspose.Words.Comparing
 second_title: Aspose.Words for .NET API Referansı
-description: bu Aspose.Words.Karşılaştırma ad alanı belgeleri karşılaştırırken ek seçenekler belirlemeye olanak tanıyan sınıflar ve numaralandırmalar sağlar.
+description: Aspose.Words.Comparing ad alanı belgeleri karşılaştırırken ek seçeneklerin belirtilmesine olanak tanıyan sınıflar ve numaralandırmalar sağlar.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.comparing/
 ---
-bu **Aspose.Words.Karşılaştırma** ad alanı, belgeleri karşılaştırırken ek seçenekler belirlemeye olanak tanıyan sınıflar ve numaralandırmalar sağlar.
+**Aspose.Words.Comparing** ad alanı, belgeleri karşılaştırırken ek seçeneklerin belirtilmesine olanak tanıyan sınıflar ve numaralandırmalar sağlar.
 
 ## sınıflar
 
 | Sınıf | Tanım |
 | --- | --- |
-| [CompareOptions](./compareoptions/) | Belge karşılaştırma işlemi için gelişmiş seçeneklerin seçilmesini sağlar. |
+| [CompareOptions](./compareoptions/) | Belge karşılaştırma işlemi için gelişmiş seçeneklerin seçilmesine olanak tanır. |
 ## numaralandırma
 
 | numaralandırma | Tanım |
 | --- | --- |
-| [ComparisonTargetType](./comparisontargettype/) | Karşılaştırma sırasında kullanılacak temel belgeyi belirlemeye izin verir. Varsayılan değerCurrent . |
+| [ComparisonTargetType](./comparisontargettype/) | Karşılaştırma sırasında kullanılacak temel belgenin belirtilmesine olanak tanır. Varsayılan değer:Current . |
 | [Granularity](./granularity/) | İki belgeyi karşılaştırırken izlenecek değişikliklerin ayrıntı düzeyini belirtir. |
 
 

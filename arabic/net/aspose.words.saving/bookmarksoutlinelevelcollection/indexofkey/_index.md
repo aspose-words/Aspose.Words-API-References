@@ -16,11 +16,11 @@ public int IndexOfKey(string name)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| name | String | الاسم غير الحساس لحالة الأحرف للإشارة المرجعية. |
+| name | String | اسم الإشارة المرجعية غير حساس لحالة الأحرف. |
 
 ### قيمة الإرجاع
 
-المؤشر الصفري. القيمة السلبية إذا لم يتم العثور عليها.
+المؤشر القائم على الصفر. قيمة سلبية إذا لم يتم العثور عليها.
 
 ### أمثلة
 
@@ -46,8 +46,8 @@ builder.StartBookmark("Bookmark 3");
 builder.Writeln("Text inside Bookmark 3.");
 builder.EndBookmark("Bookmark 3");
 
-// عند الحفظ في .pdf ، يمكن الوصول إلى الإشارات المرجعية من خلال القائمة المنسدلة واستخدامها كإرساء من قبل معظم القراء.
-// يمكن أن تحتوي الإشارات المرجعية أيضًا على قيم رقمية لمستويات المخطط التفصيلي ،
+// عند الحفظ بصيغة pdf.، يمكن الوصول إلى الإشارات المرجعية عبر القائمة المنسدلة واستخدامها كنقاط ارتساء من قبل معظم القراء.
+// يمكن أن تحتوي الإشارات المرجعية أيضًا على قيم رقمية لمستويات المخطط التفصيلي،
 // تمكين إدخالات المخطط التفصيلي ذات المستوى الأدنى لإخفاء الإدخالات الفرعية ذات المستوى الأعلى عند طيها في القارئ.
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 BookmarksOutlineLevelCollection outlineLevels = pdfSaveOptions.OutlineOptions.BookmarksOutlineLevels;
@@ -66,14 +66,14 @@ Assert.AreEqual(2, outlineLevels.IndexOfKey("Bookmark 3"));
 outlineLevels.RemoveAt(2);
 outlineLevels.Remove("Bookmark 2");
 
-// هناك تسعة مستويات للمخطط التفصيلي. سيتم تحسين ترقيمهم أثناء عملية الحفظ.
-// في هذه الحالة ، ستصبح المستويات "5" و "9" هي "2" و "3".
+// هناك تسعة مستويات المخطط التفصيلي. سيتم تحسين ترقيمها أثناء عملية الحفظ.
+// في هذه الحالة، سيصبح المستويان "5" و"9" "2" و"3".
 outlineLevels.Add("Bookmark 2", 5);
 outlineLevels.Add("Bookmark 3", 9);
 
 doc.Save(ArtifactsDir + "BookmarksOutlineLevelCollection.BookmarkLevels.pdf", pdfSaveOptions);
 
-// سيحافظ تفريغ هذه المجموعة على الإشارات المرجعية ويضعها جميعًا في نفس مستوى المخطط التفصيلي.
+// سيؤدي إفراغ هذه المجموعة إلى الحفاظ على الإشارات المرجعية ووضعها كلها على نفس مستوى المخطط التفصيلي.
 outlineLevels.Clear();
 ```
 

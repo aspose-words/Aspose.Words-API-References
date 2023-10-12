@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTagRangeEnd.Id
 second_title: Aspose.Words für .NET-API-Referenz
-description: StructuredDocumentTagRangeEnd eigendom. Gibt eine eindeutige schreibgeschützte persistente numerische ID dafür an StructuredDocumentTagRange node. EntsprechendStructuredDocumentTagRangeStart Knoten hat das gleicheId .
+description: StructuredDocumentTagRangeEnd eigendom. Gibt hierfür eine eindeutige schreibgeschützte persistente numerische ID an StructuredDocumentTagRange node. EntsprechendStructuredDocumentTagRangeStart Knoten hat das gleicheId .
 type: docs
 weight: 20
 url: /de/net/aspose.words.markup/structureddocumenttagrangeend/id/
 ---
 ## StructuredDocumentTagRangeEnd.Id property
 
-Gibt eine eindeutige, schreibgeschützte, persistente numerische ID dafür an **StructuredDocumentTagRange** node. Entsprechend[`StructuredDocumentTagRangeStart`](../../structureddocumenttagrangestart/) Knoten hat das gleiche[`Id`](../../structureddocumenttagrangestart/id/) .
+Gibt hierfür eine eindeutige, schreibgeschützte, persistente numerische ID an **StructuredDocumentTagRange** node. Entsprechend[`StructuredDocumentTagRangeStart`](../../structureddocumenttagrangestart/) Knoten hat das gleiche[`Id`](../../structureddocumenttagrangestart/id/) .
 
 ```csharp
 public int Id { get; }

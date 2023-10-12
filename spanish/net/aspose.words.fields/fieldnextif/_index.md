@@ -3,12 +3,14 @@ title: Class FieldNextIf
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.Fields.FieldNextIf clase. Implementa el campo NEXTIF.
 type: docs
-weight: 2040
+weight: 2190
 url: /es/net/aspose.words.fields/fieldnextif/
 ---
 ## FieldNextIf class
 
 Implementa el campo NEXTIF.
+
+Para obtener más información, visite el[Trabajar con campos](https://docs.aspose.com/words/net/working-with-fields/) artículo de documentación.
 
 ```csharp
 public class FieldNextIf : Field
@@ -29,12 +31,12 @@ public class FieldNextIf : Field
 | [End](../../aspose.words.fields/field/end/) { get; } | Obtiene el nodo que representa el final del campo. |
 | [Format](../../aspose.words.fields/field/format/) { get; } | Obtiene un[`FieldFormat`](../fieldformat/) objeto que proporciona acceso escrito al formato del campo. |
 | [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Obtiene o establece si el resultado actual del campo ya no es correcto (obsoleto) debido a otras modificaciones realizadas en el documento. |
-| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Obtiene o establece si el campo está bloqueado (no debe recalcular su resultado). |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Obtiene o establece si el campo está bloqueado (no debe volver a calcular su resultado). |
 | [LeftExpression](../../aspose.words.fields/fieldnextif/leftexpression/) { get; set; } | Obtiene o establece la parte izquierda de la expresión de comparación. |
 | [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Obtiene o establece el LCID del campo. |
 | [Result](../../aspose.words.fields/field/result/) { get; set; } | Obtiene o establece el texto que se encuentra entre el separador de campo y el final del campo. |
 | [RightExpression](../../aspose.words.fields/fieldnextif/rightexpression/) { get; set; } | Obtiene o establece la parte derecha de la expresión de comparación. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | Obtiene el nodo que representa el separador de campos. Puede ser nulo. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Obtiene el nodo que representa el separador de campos. Puede ser`nulo` . |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Obtiene el nodo que representa el inicio del campo. |
 | virtual [Type](../../aspose.words.fields/field/type/) { get; } | Obtiene el tipo de campo de Microsoft Word. |
 
@@ -42,28 +44,29 @@ public class FieldNextIf : Field
 
 | Nombre | Descripción |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Devuelve el texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). Se incluyen tanto el código de campo como el resultado de campo de los campos secundarios. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Devuelve el texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). |
-| [Remove](../../aspose.words.fields/field/remove/)() | Elimina el campo del documento. Devuelve un nodo justo después del campo. Si el final del campo es el último hijo de su nodo principal, devuelve su párrafo principal. Si el campo ya está eliminado, devuelve **nulo** . |
-| [Unlink](../../aspose.words.fields/field/unlink/)() | Realiza el desvinculado del campo. |
-| [Update](../../aspose.words.fields/field/update/)() | Realiza la actualización del campo. Se lanza si el campo ya se está actualizando. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Realiza una actualización de campo. Se lanza si el campo ya se está actualizando. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Devuelve texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). Se incluyen tanto el código de campo como el resultado del campo de los campos secundarios. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Devuelve texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). |
+| [Remove](../../aspose.words.fields/field/remove/)() | Elimina el campo del documento. Devuelve un nodo justo después del campo. Si el final del campo es el último hijo de su nodo principal, devuelve su párrafo principal. Si el campo ya está eliminado, devuelve`nulo` . |
+| [Unlink](../../aspose.words.fields/field/unlink/)() | Realiza la desvinculación del campo. |
+| [Update](../../aspose.words.fields/field/update/)() | Realiza la actualización del campo. Se produce si el campo ya se está actualizando. |
+| [Update](../../aspose.words.fields/field/update/)(bool) | Realiza una actualización de campo. Se produce si el campo ya se está actualizando. |
 
 ### Observaciones
 
-Compara los valores designados por las expresiones[`LeftExpression`](./leftexpression/) y[`RightExpression`](./rightexpression/) en comparación usando el operador designado por[`ComparisonOperator`](./comparisonoperator/) . Si la comparación es verdadera, el siguiente registro de datos se fusiona con el documento de fusión actual. (Los campos de combinación que siguen a NEXTIF en el documento main se reemplazan por valores del siguiente registro de datos en lugar del registro de datos actual). Si la comparación es falsa, el siguiente registro de datos se combina en un nuevo documento de combinación.
+Compara los valores designados por las expresiones.[`LeftExpression`](./leftexpression/) y[`RightExpression`](./rightexpression/) en comparación utilizando el operador designado por[`ComparisonOperator`](./comparisonoperator/) . Si la comparación es verdadera, el siguiente registro de datos se fusiona con el documento de combinación actual. (Los campos de combinación que siguen a NEXTIF en el documento main se reemplazan por valores del siguiente registro de datos en lugar del registro de datos actual). Si la comparación es falsa, el siguiente registro de datos se combina en un nuevo documento de combinación.
 
 ### Ejemplos
 
-Muestra cómo usar los campos SIGUIENTE/SIGUIENTE para combinar varias filas en una sola página durante una combinación de correspondencia.
+Muestra cómo utilizar los campos SIGUIENTE/SIGUIENTEIF para combinar varias filas en una página durante una combinación de correspondencia.
 
 ```csharp
+public void FieldNext()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     // Crea una fuente de datos para nuestra combinación de correspondencia con 3 filas.
-    // Una combinación de correspondencia que usa esta tabla normalmente crearía un documento de 3 páginas.
+    // Una combinación de correspondencia que utilice esta tabla normalmente crearía un documento de 3 páginas.
     DataTable table = new DataTable("Employees");
     table.Columns.Add("Courtesy Title");
     table.Columns.Add("First Name");
@@ -74,21 +77,21 @@ Muestra cómo usar los campos SIGUIENTE/SIGUIENTE para combinar varias filas en 
 
     InsertMergeFields(builder, "First row: ");
 
-    // Si tenemos varios campos de combinación con el mismo FieldName,
+    // Si tenemos varios campos combinados con el mismo nombre de campo,
     // recibirán datos de la misma fila de la fuente de datos y mostrarán el mismo valor después de la combinación.
-    // Un campo SIGUIENTE le dice a la combinación de correo instantáneamente que se mueva hacia abajo una fila,
-    // lo que significa que cualquier MERGEFIELD que siga al campo NEXT recibirá datos de la siguiente fila.
-    // Asegúrese de nunca intentar saltar a la siguiente fila mientras ya está en la última fila.
+    // Un campo SIGUIENTE le indica a la combinación de correspondencia que baje instantáneamente una fila,
+    // lo que significa que cualquier MERGEFIELD que siga al campo SIGUIENTE recibirá datos de la siguiente fila.
+    // Asegúrate de nunca intentar saltar a la siguiente fila mientras ya estás en la última fila.
     FieldNext fieldNext = (FieldNext)builder.InsertField(FieldType.FieldNext, true);
 
     Assert.AreEqual(" NEXT ", fieldNext.GetFieldCode());
 
-    // Después de la fusión, los valores de origen de datos que aceptan estos MERGEFIELD
+    // Después de la fusión, los valores de la fuente de datos que aceptan estos MERGEFIELD
      // terminará en la misma página que los MERGEFIELD anteriores.
     InsertMergeFields(builder, "Second row: ");
 
     // Un campo NEXTIF tiene la misma función que un campo NEXT,
-    // pero salta a la siguiente fila solo si una declaración construida por las siguientes 3 propiedades es verdadera.
+    // pero salta a la siguiente fila sólo si una declaración construida por las siguientes 3 propiedades es verdadera.
     FieldNextIf fieldNextIf = (FieldNextIf)builder.InsertField(FieldType.FieldNextIf, true);
     fieldNextIf.LeftExpression = "5";
     fieldNextIf.RightExpression = "2 + 3";
@@ -103,9 +106,10 @@ Muestra cómo usar los campos SIGUIENTE/SIGUIENTE para combinar varias filas en 
 
     doc.MailMerge.Execute(table);
 
-      // Nuestra fuente de datos tiene 3 filas y saltamos filas dos veces.
+     // Nuestra fuente de datos tiene 3 filas y nos saltamos filas dos veces.
     // Nuestro documento de salida tendrá 1 página con datos de las 3 filas.
     doc.Save(ArtifactsDir + "Field.NEXT.NEXTIF.docx");
+}
 
 /// <summary>
 /// Utiliza un generador de documentos para insertar MERGEFIELD para una fuente de datos que contiene columnas denominadas "Título de cortesía", "Nombre" y "Apellido".

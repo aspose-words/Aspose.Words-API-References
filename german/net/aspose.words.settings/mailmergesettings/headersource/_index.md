@@ -1,14 +1,14 @@
 ---
 title: MailMergeSettings.HeaderSource
 second_title: Aspose.Words für .NET-API-Referenz
-description: MailMergeSettings eigendom. Gibt den Pfad zur Quelle des SeriendruckHeaders an. Der Standardwert ist eine leere Zeichenfolge.
+description: MailMergeSettings eigendom. Gibt den Pfad zur Quelle des SerienbriefHeaders an. Der Standardwert ist eine leere Zeichenfolge.
 type: docs
 weight: 100
 url: /de/net/aspose.words.settings/mailmergesettings/headersource/
 ---
 ## MailMergeSettings.HeaderSource property
 
-Gibt den Pfad zur Quelle des Seriendruck-Headers an. Der Standardwert ist eine leere Zeichenfolge.
+Gibt den Pfad zur Quelle des Serienbrief-Headers an. Der Standardwert ist eine leere Zeichenfolge.
 
 ```csharp
 public string HeaderSource { get; set; }
@@ -16,10 +16,10 @@ public string HeaderSource { get; set; }
 
 ### Beispiele
 
-Zeigt, wie eine Datenquelle für einen Seriendruck aus einer Kopfzeilenquelle und einer Datenquelle erstellt wird.
+Zeigt, wie eine Datenquelle für einen Serienbrief aus einer Header-Quelle und einer Datenquelle erstellt wird.
 
 ```csharp
-// Erstellen Sie eine Kopfzeilendatei für das Zusammenführen von Adressetiketten, die aus einer Tabelle mit einer Zeile besteht.
+// Erstellen Sie eine Mailing-Etiketten-Merge-Header-Datei, die aus einer Tabelle mit einer Zeile besteht.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
@@ -32,8 +32,8 @@ builder.EndTable();
 
 doc.Save(ArtifactsDir + "MailMerge.MailingLabelMerge.Header.docx");
 
-// Erstellen Sie eine Zusammenführungsdatendatei für Adressetiketten, die aus einer Tabelle mit einer Zeile besteht
-// und die gleiche Anzahl von Spalten wie die Tabelle des Header-Dokuments. 
+// Erstellen Sie eine Mailing-Etiketten-Zusammenführungsdatendatei, die aus einer Tabelle mit einer Zeile besteht
+ // und die gleiche Anzahl von Spalten wie die Tabelle des Header-Dokuments.
 doc = new Document();
 builder = new DocumentBuilder(doc);
 
@@ -46,8 +46,8 @@ builder.EndTable();
 
 doc.Save(ArtifactsDir + "MailMerge.MailingLabelMerge.Data.docx");
 
-// Erstellen Sie ein Zusammenführungszieldokument mit MERGEFIELDS mit Namen, die
-// die Spaltennamen in der Header-Dateitabelle der Zusammenführung abgleichen.
+// Erstellen Sie ein Zusammenführungszieldokument mit MERGEFIELDS mit Namen wie
+// Übereinstimmung mit den Spaltennamen in der Zusammenführungs-Header-Dateitabelle.
 doc = new Document();
 builder = new DocumentBuilder(doc);
 
@@ -62,11 +62,11 @@ MailMergeSettings settings = doc.MailMergeSettings;
 // Die Header-Quelle benennt die Spalten der Datenquellentabelle.
 settings.HeaderSource = ArtifactsDir + "MailMerge.MailingLabelMerge.Header.docx";
 
-// Die Datenquelle stellt Datenzeilen für alle Spalten in der Header-Dokumenttabelle bereit.
+// Die Datenquelle stellt Datenzeilen für alle Spalten in der Kopfdokumenttabelle bereit.
 settings.DataSource = ArtifactsDir + "MailMerge.MailingLabelMerge.Data.docx";
 
-// Konfigurieren Sie einen Seriendruck vom Typ Adressetikett, der von Microsoft Word ausgeführt wird
-// sobald wir damit das Ausgabedokument laden.
+// Konfiguriere einen Serienbrief vom Typ „Versandetikett“, der von Microsoft Word ausgeführt wird
+// sobald wir es zum Laden des Ausgabedokuments verwenden.
 settings.Query = "SELECT * FROM " + settings.DataSource;
 settings.MainDocumentType = MailMergeMainDocumentType.MailingLabels;
 settings.DataType = MailMergeDataType.TextFile;

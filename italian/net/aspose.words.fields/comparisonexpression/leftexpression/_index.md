@@ -16,7 +16,7 @@ public string LeftExpression { get; }
 
 ### Esempi
 
-Mostra come implementare la valutazione personalizzata per i campi SE e CONFRONTA.
+Mostra come implementare la valutazione personalizzata per i campi IF e COMPARE.
 
 ```csharp
 public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparisonResult, string comparisonError,
@@ -28,12 +28,12 @@ public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparison
 
     DocumentBuilder builder = new DocumentBuilder();
 
-    // Codici di campo che utilizziamo in questo esempio:
-    // 1. " IF {0} {1} {2} \"vero argomento\" \"falso argomento\" ".
-    // 2. " CONFRONTA {0} {1} {2} ".
+    // Codici di campo utilizzati in questo esempio:
+    // 1. " IF {0} {1} {2} \"argomento vero\" \"argomento falso\" ".
+    // 2. "CONFRONTA {0} {1} {2} ".
     Field field = builder.InsertField(string.Format(fieldCode, left, @operator, right), null);
 
-    // Se "comparisonResult" non è definito, creiamo "ComparisonEvaluationResult" con string, invece di bool.
+    // Se "comparisonResult" non è definito, creiamo "ComparisonEvaluationResult" con string, anziché bool.
     ComparisonEvaluationResult result = comparisonResult != -1
         ? new ComparisonEvaluationResult(comparisonResult == 1)
         : comparisonError != null ? new ComparisonEvaluationResult(comparisonError) : null;

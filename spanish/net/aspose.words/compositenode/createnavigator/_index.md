@@ -1,14 +1,14 @@
 ---
 title: CompositeNode.CreateNavigator
 second_title: Referencia de API de Aspose.Words para .NET
-description: CompositeNode método. Reservado para uso del sistema. IXPathNavigable.
+description: CompositeNode método. Crea un navegador que se puede utilizar para atravesar y leer nodos.
 type: docs
-weight: 80
+weight: 90
 url: /es/net/aspose.words/compositenode/createnavigator/
 ---
 ## CompositeNode.CreateNavigator method
 
-Reservado para uso del sistema. IXPathNavigable.
+Crea un navegador que se puede utilizar para atravesar y leer nodos.
 
 ```csharp
 [EditorBrowsable(EditorBrowsableState.Never)]
@@ -17,9 +17,10 @@ public XPathNavigator CreateNavigator()
 
 ### Ejemplos
 
-Muestra cómo crear un XPathNavigator y luego usarlo para atravesar y leer nodos.
+Muestra cómo crear un XPathNavigator y luego usarlo para recorrer y leer nodos.
 
 ```csharp
+public void NodeXPathNavigator()
 {
     Document doc = new Document();
     XPathNavigator navigator = doc.CreateNavigator();
@@ -30,9 +31,9 @@ Muestra cómo crear un XPathNavigator y luego usarlo para atravesar y leer nodos
         Assert.AreEqual(false, navigator.MoveToNext());
         Assert.AreEqual(1, navigator.SelectChildren(XPathNodeType.All).Count);
 
-        // El árbol de documentos tiene el documento, primera sección,
+        // El árbol del documento tiene el documento, primera sección,
         // cuerpo y primer párrafo como nodos, siendo cada uno hijo único del anterior.
-        // Podemos agregar algunas más para darle al árbol algunas ramas para que el navegador las atraviese.
+        // Podemos agregar algunas más para darle al árbol algunas ramas para que las recorra el navegador.
         DocumentBuilder docBuilder = new DocumentBuilder(doc);
         docBuilder.Write("Section 1, Paragraph 1. ");
         docBuilder.InsertParagraph();
@@ -41,16 +42,17 @@ Muestra cómo crear un XPathNavigator y luego usarlo para atravesar y leer nodos
         docBuilder.MoveToSection(1);
         docBuilder.Write("Section 2, Paragraph 1. ");
 
-        // Usa nuestro navegador para imprimir un mapa de todos los nodos en el documento a la consola.
+        // Utilice nuestro navegador para imprimir un mapa de todos los nodos del documento en la consola.
         StringBuilder stringBuilder = new StringBuilder();
         MapDocument(navigator, stringBuilder, 0);
         Console.Write(stringBuilder.ToString());
+    }
 }
 
 /// <summary>
-/// Atraviesa todos los elementos secundarios de un nodo compuesto y mapea la estructura al estilo de un árbol de directorios.
+/// Atraviesa todos los hijos de un nodo compuesto y asigna la estructura al estilo de un árbol de directorios.
 /// La cantidad de sangría espacial indica la profundidad relativa al nodo inicial.
-/// Imprime el contenido de texto del nodo actual solo si es Run.
+/// Imprime el contenido del texto del nodo actual solo si es una Ejecución.
 /// </summary>
 private static void MapDocument(XPathNavigator navigator, StringBuilder stringBuilder, int depth)
 {

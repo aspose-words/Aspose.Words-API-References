@@ -1,14 +1,14 @@
 ---
 title: FindReplaceOptions.IgnoreFieldCodes
 second_title: Aspose.Words for .NET API Referansı
-description: FindReplaceOptions mülk. Alan kodları içindeki metnin yoksayılacağını belirten bir boole değeri alır veya ayarlar. Varsayılan değeryanlış .
+description: FindReplaceOptions mülk. Alan kodları içindeki metnin yoksayılacağını belirten bir boole değeri alır veya ayarlar. Varsayılan değerYANLIŞ .
 type: docs
 weight: 70
 url: /tr/net/aspose.words.replacing/findreplaceoptions/ignorefieldcodes/
 ---
 ## FindReplaceOptions.IgnoreFieldCodes property
 
-Alan kodları içindeki metnin yoksayılacağını belirten bir boole değeri alır veya ayarlar. Varsayılan değer`yanlış` .
+Alan kodları içindeki metnin yoksayılacağını belirten bir boole değeri alır veya ayarlar. Varsayılan değer:`YANLIŞ` .
 
 ```csharp
 public bool IgnoreFieldCodes { get; set; }
@@ -16,13 +16,13 @@ public bool IgnoreFieldCodes { get; set; }
 
 ### Notlar
 
-Bu seçenek yalnızca alan kodlarını etkiler ( arasındaki düğümleri yok saymaz)FieldSeparator veFieldEnd).
+Bu seçenek yalnızca alan kodlarını etkiler ( arasındaki düğümleri göz ardı etmez)FieldSeparator VeFieldEnd).
 
-Tüm alanı yok saymak için lütfen ilgili seçeneği kullanın[`IgnoreFields`](../ignorefields/).
+Alanın tamamını yoksaymak için lütfen ilgili seçeneği kullanın[`IgnoreFields`](../ignorefields/).
 
 ### Örnekler
 
-Alan kodlarının içindeki metnin nasıl yok sayılacağını gösterir.
+Alan kodları içindeki metnin nasıl yok sayılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -32,7 +32,7 @@ builder.InsertField("INCLUDETEXT", "Test IT!");
 
 FindReplaceOptions options = new FindReplaceOptions {IgnoreFieldCodes = ignoreFieldCodes};
 
-// Alan kodunun içindeki metni yok sayarak belgede 'T'yi değiştirin.
+// Alan kodu içindeki metni yok sayarak belgedeki 'T'yi değiştirin veya değiştirmeyin.
 doc.Range.Replace(new Regex("T"), "*", options);
 Console.WriteLine(doc.GetText());
 

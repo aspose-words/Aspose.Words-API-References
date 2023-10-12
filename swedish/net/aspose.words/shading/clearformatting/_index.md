@@ -3,7 +3,7 @@ title: Shading.ClearFormatting
 second_title: Aspose.Words för .NET API Referens
 description: Shading metod. Tar bort skuggning från objektet.
 type: docs
-weight: 40
+weight: 80
 url: /sv/net/aspose.words/shading/clearformatting/
 ---
 ## Shading.ClearFormatting method

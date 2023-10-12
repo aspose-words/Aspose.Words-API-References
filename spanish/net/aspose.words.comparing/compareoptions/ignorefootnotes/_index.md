@@ -1,14 +1,14 @@
 ---
 title: CompareOptions.IgnoreFootnotes
 second_title: Referencia de API de Aspose.Words para .NET
-description: CompareOptions propiedad. Especifica si se comparan las diferencias en las notas al pie y al final. Por defecto no se ignoran las notas al pie.
+description: CompareOptions propiedad. Especifica si se comparan las diferencias en las notas al pie y al final. De forma predeterminada las notas al pie no se ignoran.
 type: docs
-weight: 70
+weight: 80
 url: /es/net/aspose.words.comparing/compareoptions/ignorefootnotes/
 ---
 ## CompareOptions.IgnoreFootnotes property
 
-Especifica si se comparan las diferencias en las notas al pie y al final. Por defecto no se ignoran las notas al pie.
+Especifica si se comparan las diferencias en las notas al pie y al final. De forma predeterminada, las notas al pie no se ignoran.
 
 ```csharp
 public bool IgnoreFootnotes { get; set; }
@@ -19,11 +19,11 @@ public bool IgnoreFootnotes { get; set; }
 Muestra cómo filtrar tipos específicos de elementos del documento al realizar una comparación.
 
 ```csharp
-// Cree el documento original y rellénelo con varios tipos de elementos.
+// Crea el documento original y complétalo con varios tipos de elementos.
 Document docOriginal = new Document();
 DocumentBuilder builder = new DocumentBuilder(docOriginal);
 
-// Texto de párrafo referenciado con una nota al final:
+// Texto del párrafo al que se hace referencia con una nota al final:
 builder.Writeln("Hello world! This is the first paragraph.");
 builder.InsertFootnote(FootnoteType.Endnote, "Original endnote text.");
 
@@ -49,7 +49,7 @@ Comment newComment = new Comment(docOriginal, "John Doe", "J.D.", DateTime.Now);
 newComment.SetText("Original comment.");
 builder.CurrentParagraph.AppendChild(newComment);
 
-// Encabezado:
+// encabezado:
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 builder.Writeln("Original header contents.");
 
@@ -68,7 +68,7 @@ docEdited.FirstSection.HeadersFooters[HeaderFooterType.HeaderPrimary].FirstParag
     "Edited header contents.";
 
 // La comparación de documentos crea una revisión para cada edición en el documento editado.
-// Un objeto CompareOptions tiene una serie de banderas que pueden suprimir las revisiones
+// Un objeto CompareOptions tiene una serie de indicadores que pueden suprimir revisiones
 // en cada tipo respectivo de elemento, ignorando efectivamente su cambio.
 Aspose.Words.Comparing.CompareOptions compareOptions = new Aspose.Words.Comparing.CompareOptions();
 compareOptions.IgnoreFormatting = false;

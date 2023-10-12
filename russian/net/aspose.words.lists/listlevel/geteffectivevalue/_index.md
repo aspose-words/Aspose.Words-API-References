@@ -1,14 +1,14 @@
 ---
 title: ListLevel.GetEffectiveValue
 second_title: Справочник по API Aspose.Words для .NET
-description: ListLevel метод. Сообщает строковое представлениеListLevel объект для указанного index элемента списка. Параметры определяютNumberStyle и необязательный формат string  используемый когдаCustom указан.
+description: ListLevel метод. Сообщает строковое представлениеListLevelобъект для указанного index элемента списка. Параметры определяютNumberStyle и необязательный формат string  используемый когдаCustom указано.
 type: docs
 weight: 190
 url: /ru/net/aspose.words.lists/listlevel/geteffectivevalue/
 ---
 ## ListLevel.GetEffectiveValue method
 
-Сообщает строковое представление[`ListLevel`](../) объект для указанного index элемента списка. Параметры определяют[`NumberStyle`](../../../aspose.words/numberstyle/) и необязательный формат string , используемый, когдаCustom указан.
+Сообщает строковое представление[`ListLevel`](../)объект для указанного index элемента списка. Параметры определяют[`NumberStyle`](../../../aspose.words/numberstyle/) и необязательный формат string , используемый, когдаCustom указано.
 
 ```csharp
 public static string GetEffectiveValue(int index, NumberStyle numberStyle, 
@@ -19,22 +19,22 @@ public static string GetEffectiveValue(int index, NumberStyle numberStyle,
 | --- | --- | --- |
 | index | Int32 | Индекс элемента списка (должен быть в диапазоне от 1 до 32767). |
 | numberStyle | NumberStyle | [`NumberStyle`](../../../aspose.words/numberstyle/) принадлежащий[`ListLevel`](../) объект. |
-| customNumberStyleFormat | String | Необязательная строка формата, используемая приCustom указан (например, "a, ç, ĝ, ..."). В других случаях этот параметр должен быть нулевым или пустым. |
+| customNumberStyleFormat | String | Необязательная строка формата, используемая, когдаCustom указан (например, "a, ç, ĝ, ..."). В остальных случаях этот параметр должен быть`нулевой` или пусто. |
 
 ### Возвращаемое значение
 
-Строковое представление[`ListLevel`](../) объект, описанный параметром numberStyle и параметром customNumberStyleFormat, в элементе списка в позиции, определяемой параметром index.
+Строковое представление[`ListLevel`](../) объект, описанный*numberStyle* параметр and *customNumberStyleFormat* параметр, в элементе списка в позиции, определяемой*index* параметр.
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | customNumberStyleFormat имеет значение null или пустое, если numberStyle является пользовательским.-или- customNumberStyleFormat не является нулевым или пустым, если numberStyle не является пользовательским.-или- customNumberStyleFormat является недопустимым. |
-| ArgumentOutOfRangeException | индекс вне допустимого диапазона. |
+| ArgumentException | *customNumberStyleFormat* является`нулевой` или пусто, когда*numberStyle* является пользовательским.-или- *customNumberStyleFormat* не является`нулевой` или пусто, когда*numberStyle* не является пользовательским.-или- *customNumberStyleFormat* неверно. |
+| ArgumentOutOfRangeException | индекс выходит за пределы допустимого диапазона. |
 
 ### Примеры
 
-Показывает, как получить формат для списка с пользовательским стилем чисел.
+Показывает, как получить формат списка с пользовательским числовым стилем.
 
 ```csharp
 Document doc = new Document(MyDir + "List with leading zero.docx");
@@ -48,7 +48,7 @@ if (listLevel.NumberStyle == NumberStyle.Custom)
 
 Assert.AreEqual("001, 002, 003, ...", customNumberStyleFormat);
 
-// Мы можем получить значение для указанного индекса элемента списка.
+// Мы можем получить значение по указанному индексу элемента списка.
 Assert.AreEqual("iv", ListLevel.GetEffectiveValue(4, NumberStyle.LowercaseRoman, null));
 Assert.AreEqual("005", ListLevel.GetEffectiveValue(5, NumberStyle.Custom, customNumberStyleFormat));
 ```

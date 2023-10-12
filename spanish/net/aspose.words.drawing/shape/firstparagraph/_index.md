@@ -27,11 +27,11 @@ textBox.WrapType = WrapType.None;
 textBox.Height = 50;
 textBox.Width = 200;
 
-// Establecer la alineación horizontal y vertical del texto dentro de la forma.
+// Establece la alineación horizontal y vertical del texto dentro de la forma.
 textBox.HorizontalAlignment = HorizontalAlignment.Center;
 textBox.VerticalAlignment = VerticalAlignment.Top;
 
-// Agregue un párrafo al cuadro de texto y agregue una secuencia de texto que se mostrará en el cuadro de texto.
+// Agregue un párrafo al cuadro de texto y agregue una serie de texto que mostrará el cuadro de texto.
 textBox.AppendChild(new Paragraph(doc));
 Paragraph para = textBox.FirstParagraph;
 para.ParagraphFormat.Alignment = ParagraphAlignment.Center;

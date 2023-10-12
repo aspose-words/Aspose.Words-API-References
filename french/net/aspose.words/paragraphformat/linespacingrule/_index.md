@@ -3,7 +3,7 @@ title: ParagraphFormat.LineSpacingRule
 second_title: Référence de l'API Aspose.Words pour .NET
 description: ParagraphFormat propriété. Obtient ou définit linterligne du paragraphe.
 type: docs
-weight: 190
+weight: 200
 url: /fr/net/aspose.words/paragraphformat/linespacingrule/
 ---
 ## ParagraphFormat.LineSpacingRule property
@@ -16,17 +16,17 @@ public LineSpacingRule LineSpacingRule { get; set; }
 
 ### Exemples
 
-Montre comment travailler avec l'interligne.
+Montre comment utiliser l'espacement des lignes.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Vous trouverez ci-dessous trois règles d'interligne que nous pouvons définir à l'aide de la
-// propriété "LineSpacingRule" du paragraphe pour configurer l'espacement entre les paragraphes.
-// 1 - Définir un espacement minimum.
+// Vous trouverez ci-dessous trois règles d'espacement des lignes que nous pouvons définir à l'aide de la
+// Propriété "LineSpacingRule" du paragraphe pour configurer l'espacement entre les paragraphes.
+// 1 - Définit un espacement minimum.
 // Cela donnera un remplissage vertical aux lignes de texte de n'importe quelle taille
-// qui est trop petit pour maintenir la hauteur de ligne minimale.
+// c'est trop petit pour maintenir la hauteur de ligne minimale.
 builder.ParagraphFormat.LineSpacingRule = LineSpacingRule.AtLeast;
 builder.ParagraphFormat.LineSpacing = 20;
 

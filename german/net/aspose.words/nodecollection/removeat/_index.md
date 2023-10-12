@@ -16,7 +16,7 @@ public void RemoveAt(int index)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| index | Int32 | Der nullbasierte Index des Knotens. Negative Indizes sind erlaubt und zeigen den Zugriff vom Ende der Liste an. Beispielsweise bedeutet -1 den letzten Knoten, -2 den vorletzten Knoten und so weiter. |
+| index | Int32 | Der nullbasierte Index des Knotens. Negative Indizes sind zulässig und zeigen den Zugriff vom Ende der Liste an. Beispielsweise bedeutet -1 den letzten Knoten, -2 den vorletzten und so weiter. |
 
 ### Beispiele
 
@@ -37,7 +37,7 @@ doc.Sections.RemoveAt(0);
 
 Assert.AreEqual("Section 2", doc.GetText().Trim());
 
-// Eine Kopie des jetzt ersten Abschnitts an das Ende des Dokuments anhängen.
+// Eine Kopie des nun ersten Abschnitts an das Ende des Dokuments anhängen.
 int lastSectionIdx = doc.Sections.Count - 1;
 Section newSection = doc.Sections[lastSectionIdx].Clone();
 doc.Sections.Add(newSection);

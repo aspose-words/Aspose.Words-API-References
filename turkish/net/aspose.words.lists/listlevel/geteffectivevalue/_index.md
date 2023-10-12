@@ -1,14 +1,14 @@
 ---
 title: ListLevel.GetEffectiveValue
 second_title: Aspose.Words for .NET API Referansı
-description: ListLevel yöntem. ListLevel liste öğesinin belirtilen index nesnesi. Parametreler şunları belirtirNumberStyle ve şu durumlarda kullanılan isteğe bağlı bir string biçimiCustom belirtildi.
+description: ListLevel yöntem. Dizi gösterimini bildirir.ListLevelliste öğesinin belirtilen index nesnesi. Parametreler şunları belirtirNumberStyle ve aşağıdaki durumlarda kullanılan isteğe bağlı bir format string Custom belirtildi.
 type: docs
 weight: 190
 url: /tr/net/aspose.words.lists/listlevel/geteffectivevalue/
 ---
 ## ListLevel.GetEffectiveValue method
 
-[`ListLevel`](../) liste öğesinin belirtilen index nesnesi. Parametreler şunları belirtir:[`NumberStyle`](../../../aspose.words/numberstyle/) ve şu durumlarda kullanılan isteğe bağlı bir string biçimiCustom belirtildi.
+Dizi gösterimini bildirir.[`ListLevel`](../)liste öğesinin belirtilen index nesnesi. Parametreler şunları belirtir:[`NumberStyle`](../../../aspose.words/numberstyle/) ve aşağıdaki durumlarda kullanılan isteğe bağlı bir format string Custom belirtildi.
 
 ```csharp
 public static string GetEffectiveValue(int index, NumberStyle numberStyle, 
@@ -19,22 +19,22 @@ public static string GetEffectiveValue(int index, NumberStyle numberStyle,
 | --- | --- | --- |
 | index | Int32 | Liste öğesinin dizini (1 ile 32767 arasında olmalıdır). |
 | numberStyle | NumberStyle | [`NumberStyle`](../../../aspose.words/numberstyle/) arasında[`ListLevel`](../) nesne. |
-| customNumberStyleFormat | String | Şu durumlarda kullanılan isteğe bağlı biçim dizesi:Custom belirtilir (örn. "a, ç, ĝ, ..."). Diğer durumlarda bu parametre boş veya boş olmalıdır. |
+| customNumberStyleFormat | String | Aşağıdaki durumlarda kullanılan isteğe bağlı biçim dizesi:Custom belirtilir (örneğin "a, ç, ĝ, ..."). Diğer durumlarda bu parametre mutlaka`hükümsüz` veya boş. |
 
 ### Geri dönüş değeri
 
-[`ListLevel`](../) index parametresi tarafından belirlenen konumda liste öğesinde numberStyle parametresi ve customNumberStyleFormat parametresi tarafından açıklanan nesne.
+Dizi gösterimi[`ListLevel`](../) tarafından tanımlanan nesne*numberStyle* parametre ve *customNumberStyleFormat* parametresi, liste öğesi tarafından belirlenen konumda*index* parametre.
 
 ### istisnalar
 
 | istisna | şart |
 | --- | --- |
-| ArgumentException | customNumberStyleFormat, numberStyle özel olduğunda boş veya boş.-veya- customNumberStyleFormat, numberStyle özel olmadığında boş veya boş değil.-veya- customNumberStyleFormat geçersiz. |
-| ArgumentOutOfRangeException | dizin aralık dışında. |
+| ArgumentException | *customNumberStyleFormat* dır-dir`hükümsüz` veya boş olduğunda*numberStyle* özeldir.-veya- *customNumberStyleFormat* değil`hükümsüz` veya boş olduğunda*numberStyle* özel değildir.-or- *customNumberStyleFormat* geçersiz. |
+| ArgumentOutOfRangeException | indeks aralık dışında. |
 
 ### Örnekler
 
-Özel sayı stiline sahip bir liste biçiminin nasıl alınacağını gösterir.
+Özel sayı stiline sahip bir listenin biçiminin nasıl alınacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "List with leading zero.docx");
@@ -48,7 +48,7 @@ if (listLevel.NumberStyle == NumberStyle.Custom)
 
 Assert.AreEqual("001, 002, 003, ...", customNumberStyleFormat);
 
-// Liste öğesinin belirtilen dizini için değer alabiliriz.
+// Liste öğesinin belirtilen indeksi için değer alabiliriz.
 Assert.AreEqual("iv", ListLevel.GetEffectiveValue(4, NumberStyle.LowercaseRoman, null));
 Assert.AreEqual("005", ListLevel.GetEffectiveValue(5, NumberStyle.Custom, customNumberStyleFormat));
 ```

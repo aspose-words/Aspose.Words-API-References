@@ -20,13 +20,13 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Return_Value
 
-Faux si le visiteur a demandé l'arrêt de l'énumération.
+`FAUX` si le visiteur a demandé l'arrêt de l'énumération.
 
 ### Remarques
 
 Appels[`VisitCommentRangeEnd`](../../documentvisitor/visitcommentrangeend/).
 
-Pour plus d'informations, consultez le modèle de conception Visiteur.
+Pour plus d’informations, consultez le modèle de conception Visiteur.
 
 ### Exemples
 
@@ -61,13 +61,13 @@ public void CreateCommentsAndPrintAllInfo()
 }
 
 /// <summary>
-/// Itère sur chaque commentaire de niveau supérieur et imprime sa plage de commentaires, son contenu et ses réponses.
+/// Parcourt chaque commentaire de niveau supérieur et imprime sa plage de commentaires, son contenu et ses réponses.
 /// </summary>
 private static void PrintAllCommentInfo(NodeCollection comments)
 {
     CommentInfoPrinter commentVisitor = new CommentInfoPrinter();
 
-    // Itération sur tous les commentaires de niveau supérieur. Contrairement aux commentaires de type réponse, les commentaires de niveau supérieur n'ont pas d'ancêtre.
+    // Parcourez tous les commentaires de niveau supérieur. Contrairement aux commentaires de type réponse, les commentaires de niveau supérieur n'ont pas d'ancêtre.
     foreach (Comment comment in comments.Where(c => ((Comment)c).Ancestor == null))
     {
         // Tout d'abord, visitez le début de la plage de commentaires.
@@ -100,7 +100,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Obtient le texte brut du document qui a été accumulé par le visiteur.
+    /// Obtient le texte brut du document accumulé par le visiteur.
     /// </summary>
     public string GetText()
     {
@@ -108,7 +108,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Appelé lorsqu'un noeud Run est rencontré dans le document.
+    /// Appelé lorsqu'un nœud Run est rencontré dans le document.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -169,7 +169,7 @@ public class CommentInfoPrinter : DocumentVisitor
     /// <summary>
     /// Ajoutez une ligne au StringBuilder et indentez-la en fonction de la profondeur du visiteur dans l'arborescence du document.
     /// </summary>
-    /// <nom du paramètre="texte"></param>
+    /// <param name="text"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++)

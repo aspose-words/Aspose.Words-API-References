@@ -1,14 +1,14 @@
 ---
 title: ChartDataLabelCollection.GetEnumerator
 second_title: Aspose.Words for .NET API Referansı
-description: ChartDataLabelCollection yöntem. Bir numaralandırıcı nesnesi döndürür.
+description: ChartDataLabelCollection yöntem. Bir numaralandırıcı nesnesini döndürür.
 type: docs
-weight: 140
+weight: 160
 url: /tr/net/aspose.words.drawing.charts/chartdatalabelcollection/getenumerator/
 ---
 ## ChartDataLabelCollection.GetEnumerator method
 
-Bir numaralandırıcı nesnesi döndürür.
+Bir numaralandırıcı nesnesini döndürür.
 
 ```csharp
 public IEnumerator<ChartDataLabel> GetEnumerator()
@@ -16,9 +16,10 @@ public IEnumerator<ChartDataLabel> GetEnumerator()
 
 ### Örnekler
 
-Bir çizgi grafiğindeki veri noktalarına etiketlerin nasıl uygulanacağını gösterir.
+Çizgi grafikteki veri noktalarına etiketlerin nasıl uygulanacağını gösterir.
 
 ```csharp
+public void DataLabels()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -39,7 +40,7 @@ Bir çizgi grafiğindeki veri noktalarına etiketlerin nasıl uygulanacağını 
         Assert.AreEqual(4, series.DataLabels.Count);
     }
 
-    // Bir dizideki her veri etiketi için ayırıcı dizeyi değiştirin.
+    // Bir serideki her veri etiketi için ayırıcı dizeyi değiştirin.
     using (IEnumerator<ChartDataLabel> enumerator = chart.Series[0].DataLabels.GetEnumerator())
     {
         while (enumerator.MoveNext())
@@ -52,14 +53,14 @@ Bir çizgi grafiğindeki veri noktalarına etiketlerin nasıl uygulanacağını 
     // Daha temiz görünen bir grafik için veri etiketlerini tek tek kaldırabiliriz.
     chart.Series[1].DataLabels[2].ClearFormat();
 
-    // Veri etiketlerinin tamamını bir kerede de kaldırabiliriz.
+    // Ayrıca bir dizi veri etiketinin tamamını aynı anda kaldırabiliriz.
     chart.Series[2].DataLabels.ClearFormat();
 
     doc.Save(ArtifactsDir + "Charts.DataLabels.docx");
 }
 
 /// <summary>
-/// Bir dizideki birkaç veri noktasına özel sayı formatı ve ayırıcı ile veri etiketleri uygulayın.
+/// Özel sayı formatına ve ayırıcıya sahip veri etiketlerini bir serideki çeşitli veri noktalarına uygulayın.
 /// </summary>
 private static void ApplyDataLabels(ChartSeries series, int labelsCount, string numberFormat, string separator)
 {

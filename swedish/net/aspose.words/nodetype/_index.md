@@ -3,7 +3,7 @@ title: Enum NodeType
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.NodeType uppräkning. Anger typen av en Worddokumentnod.
 type: docs
-weight: 3990
+weight: 4230
 url: /sv/net/aspose.words/nodetype/
 ---
 ## NodeType enumeration
@@ -53,7 +53,7 @@ public enum NodeType
 | BuildingBlock | `32` | En byggsten i ett ordlistadokument (t.ex. ordlistadokument). |
 | CommentRangeStart | `33` | En markörnod som representerar början av ett kommenterat område. |
 | CommentRangeEnd | `34` | En markörnod som representerar slutet av ett kommenterat område. |
-| OfficeMath | `35` | Ett Office Math-objekt. Kan vara ekvation, funktion, matris eller något av andra matematiska objekt. Kan vara en samling av matematiska objekt och kan även innehålla vissa icke-matematiska objekt såsom textkörningar. |
+| OfficeMath | `35` | Ett Office Math-objekt. Kan vara ekvation, funktion, matris eller något av andra matematiska objekt. Kan vara en samling matematiska objekt och kan även innehålla vissa icke-matematiska objekt som t.ex. |
 | SubDocument | `36` | En underdokumentnod som är en länk till ett annat dokument. |
 | System | `37` | Reserverad för internt bruk av Aspose.Words. |
 | Null | `38` | Reserverad för internt bruk av Aspose.Words. |
@@ -81,9 +81,9 @@ paragraph.AppendChild(new Run(doc, "Hello again!"));
 
 // Iterera genom styckets samling av närmaste barn,
 // och skriv ut alla körningar eller former som vi hittar inom.
-NodeCollection children = paragraph.ChildNodes;
+NodeCollection children = paragraph.GetChildNodes(NodeType.Any, false);
 
-Assert.AreEqual(3, paragraph.ChildNodes.Count);
+Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, false).Count);
 
 foreach (Node child in children)
     switch (child.NodeType)
@@ -96,6 +96,7 @@ foreach (Node child in children)
             Shape childShape = (Shape)child;
             Console.WriteLine("Shape:");
             Console.WriteLine($"\t{childShape.ShapeType}, {childShape.Width}x{childShape.Height}");
+            break;
     }
 ```
 

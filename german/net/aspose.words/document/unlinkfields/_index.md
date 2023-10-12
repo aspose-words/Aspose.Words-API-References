@@ -3,7 +3,7 @@ title: Document.UnlinkFields
 second_title: Aspose.Words für .NET-API-Referenz
 description: Document methode. Hebt die Verknüpfung von Feldern im gesamten Dokument auf.
 type: docs
-weight: 710
+weight: 750
 url: /de/net/aspose.words/document/unlinkfields/
 ---
 ## Document.UnlinkFields method
@@ -16,7 +16,7 @@ public void UnlinkFields()
 
 ### Bemerkungen
 
-Ersetzt alle Felder im gesamten Dokument durch die neuesten Ergebnisse.
+Ersetzt alle Felder im gesamten Dokument durch ihre neuesten Ergebnisse.
 
 Um die Verknüpfung von Feldern in einem bestimmten Teil des Dokuments aufzuheben, verwenden Sie[`UnlinkFields`](../../range/unlinkfields/).
 

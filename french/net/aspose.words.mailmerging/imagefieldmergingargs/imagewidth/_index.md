@@ -16,15 +16,16 @@ public MergeFieldImageDimension ImageWidth { get; set; }
 
 ### Remarques
 
-La valeur de cette propriété provient initialement du code du MERGEFIELD correspondant, contenu dans le document modèle . Pour remplacer la valeur initiale, vous devez attribuer une instance of [`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension/) classe à cette propriété ou définissez les propriétés de l'instance de[`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension/) classe, retournée par cette propriété.
+La valeur de cette propriété provient initialement du code du MERGEFIELD correspondant, contenu dans le document modèle . Pour remplacer la valeur initiale, vous devez attribuer une instance de [`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension/) classe à cette propriété ou définissez les propriétés de l'instance de[`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension/) classe, renvoyée par cette propriété.
 
-Pour indiquer que la valeur d'origine de la largeur de l'image doit être appliquée, vous devez affecter le **nul** à cette propriété ou définissez la[`Value`](../../../aspose.words.fields/mergefieldimagedimension/value/) propriété pour l'instance de[`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension/) classe, retournée par cette propriété, à une valeur négative.
+Pour indiquer que la valeur originale de la largeur de l'image doit être appliquée, vous devez attribuer le`nul` à cette propriété ou définissez la valeur[`Value`](../../../aspose.words.fields/mergefieldimagedimension/value/) propriété pour l'instance de[`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension/) classe, renvoyée par cette propriété, à une valeur négative.
 
 ### Exemples
 
-Montre comment définir les dimensions des images lorsque MERGEFIELDS les accepte lors d'un publipostage.
+Montre comment définir les dimensions des images telles que MERGEFIELDS les accepte lors d'un publipostage.
 
 ```csharp
+public void MergeFieldImageDimension()
 {
     Document doc = new Document();
 
@@ -36,22 +37,23 @@ Montre comment définir les dimensions des images lorsque MERGEFIELDS les accept
     // La source de données doit avoir une telle colonne nommée "ImageColumn".
     Assert.AreEqual("Image:ImageColumn", field.FieldName);
 
-    // Crée une source de données appropriée.
+    // Créez une source de données appropriée.
     DataTable dataTable = new DataTable("Images");
     dataTable.Columns.Add(new DataColumn("ImageColumn"));
     dataTable.Rows.Add(ImageDir + "Logo.jpg");
     dataTable.Rows.Add(ImageDir + "Transparent background logo.png");
     dataTable.Rows.Add(ImageDir + "Enhanced Windows MetaFile.emf");
 
-    // Configurez un rappel pour modifier la taille des images au moment de la fusion, puis exécutez le publipostage.
+    // Configurez un rappel pour modifier les tailles des images au moment de la fusion, puis exécutez le publipostage.
     doc.MailMerge.FieldMergingCallback = new MergedImageResizer(200, 200, MergeFieldImageDimensionUnit.Point);
     doc.MailMerge.Execute(dataTable);
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.MERGEFIELD.ImageDimension.docx");
+}
 
 /// <summary>
-/// Définit la taille de toutes les images fusionnées par courrier à une largeur et une hauteur définies.
+/// Définit la taille de toutes les images fusionnées par courrier sur une largeur et une hauteur définies.
 /// </summary>
 private class MergedImageResizer : IFieldMergingCallback
 {

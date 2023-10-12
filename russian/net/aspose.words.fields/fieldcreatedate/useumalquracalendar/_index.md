@@ -1,14 +1,14 @@
 ---
 title: FieldCreateDate.UseUmAlQuraCalendar
 second_title: Справочник по API Aspose.Words для .NET
-description: FieldCreateDate свойство. Получает или задает следует ли использовать календарь УмальКура.
+description: FieldCreateDate свойство. Получает или задает необходимость использования календаря УмальКура.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.fields/fieldcreatedate/useumalquracalendar/
 ---
 ## FieldCreateDate.UseUmAlQuraCalendar property
 
-Получает или задает, следует ли использовать календарь Ум-аль-Кура.
+Получает или задает необходимость использования календаря Ум-аль-Кура.
 
 ```csharp
 public bool UseUmAlQuraCalendar { get; set; }

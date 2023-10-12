@@ -1,14 +1,14 @@
 ---
 title: ShapeBase.RelativeHorizontalPosition
 second_title: Aspose.Words per .NET API Reference
-description: ShapeBase proprietà. Specifica rispetto a cosa è posizionata orizzontalmente la forma.
+description: ShapeBase proprietà. Specifica in relazione a come è posizionata la forma orizzontalmente.
 type: docs
-weight: 400
+weight: 420
 url: /it/net/aspose.words.drawing/shapebase/relativehorizontalposition/
 ---
 ## ShapeBase.RelativeHorizontalPosition property
 
-Specifica rispetto a cosa è posizionata orizzontalmente la forma.
+Specifica in relazione a come è posizionata la forma orizzontalmente.
 
 ```csharp
 public RelativeHorizontalPosition RelativeHorizontalPosition { get; set; }
@@ -18,7 +18,7 @@ public RelativeHorizontalPosition RelativeHorizontalPosition { get; set; }
 
 Il valore predefinito èColumn.
 
-Ha effetto solo per le forme mobili di livello superiore.
+Ha effetto solo per le forme fluttuanti di livello superiore.
 
 ### Esempi
 

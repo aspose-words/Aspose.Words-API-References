@@ -36,6 +36,7 @@ doc.Save(ArtifactsDir + "Shape.AltText.docx");
 // Spara dokumentet i HTML och ta sedan bort den länkade bilden som tillhör vår form.
 // Webbläsaren som läser vår HTML kommer att visa alt-texten i stället för den saknade bilden.
 doc.Save(ArtifactsDir + "Shape.AltText.html");
+File.Delete(ArtifactsDir + "Shape.AltText.001.png");
 ```
 
 ### Se även

@@ -1,14 +1,14 @@
 ---
 title: Range.Replace
 second_title: Aspose.Words per .NET API Reference
-description: Range metodo. Sostituisce tutte le occorrenze di un modello di stringa di caratteri specificato con una stringa di sostituzione.
+description: Range metodo. Sostituisce tutte le occorrenze di un modello di stringa di caratteri specificato con una stringa sostitutiva.
 type: docs
-weight: 80
+weight: 90
 url: /it/net/aspose.words/range/replace/
 ---
 ## Replace(string, string) {#replace}
 
-Sostituisce tutte le occorrenze di un modello di stringa di caratteri specificato con una stringa di sostituzione.
+Sostituisce tutte le occorrenze di un modello di stringa di caratteri specificato con una stringa sostitutiva.
 
 ```csharp
 public int Replace(string pattern, string replacement)
@@ -25,20 +25,20 @@ Il numero di sostituzioni effettuate.
 
 ### Osservazioni
 
-Il modello non verrà utilizzato come espressione regolare. Utilizzare`Replace` se hai bisogno di espressioni regolari.
+Il modello non verrà utilizzato come espressione regolare. Utilizzalo`Replace`se hai bisogno di espressioni regolari.
 
-Usato confronto senza distinzione tra maiuscole e minuscole.
+Utilizzato il confronto senza distinzione tra maiuscole e minuscole.
 
-Il metodo è in grado di elaborare le interruzioni sia nel pattern che nelle stringhe di sostituzione.
+Il metodo è in grado di elaborare interruzioni sia nelle stringhe di pattern che in quelle di sostituzione.
 
-Dovresti usare meta-caratteri speciali se devi lavorare con le interruzioni:
+Dovresti utilizzare metacaratteri speciali se devi lavorare con le interruzioni:
 
-* **&amp;p** - interruzione di paragrafo
-* **&amp;b** - interruzione di sezione
-* **&amp;m** - interruzione di pagina
-* **&amp;l** - interruzione di riga manuale
+* **&amp;P** - interruzione di paragrafo
+* **&amp;B** -interruzione di sezione
+* **&amp;M** - interruzione di pagina
+* **&amp;l** - interruzione manuale della linea
 
-Usa metodo`Replace` per avere una personalizzazione più flessibile.
+Usa il metodo`Replace` per avere una personalizzazione più flessibile.
 
 ### Esempi
 
@@ -47,7 +47,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Numbers 1, 2, 3");
 
-// Inserisce un'interruzione di paragrafo dopo Numbers.
+// Inserisce un'interruzione di paragrafo dopo i numeri.
 doc.Range.Replace("Numbers", "Numbers&p", new FindReplaceOptions());
 ```
 
@@ -59,14 +59,14 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("Greetings, _FullName_!");
 
-// Esegui un'operazione di ricerca e sostituzione sul contenuto del nostro documento e verifica il numero di sostituzioni avvenute.
+// Esegue un'operazione di ricerca e sostituzione sul contenuto del nostro documento e verifica il numero di sostituzioni avvenute.
 int replacementCount = doc.Range.Replace("_FullName_", "John Doe");
 
 Assert.AreEqual(1, replacementCount);
 Assert.AreEqual("Greetings, John Doe!", doc.GetText().Trim());
 ```
 
-Mostra come aggiungere la formattazione ai paragrafi in cui un'operazione trova e sostituisci ha trovato corrispondenze.
+Mostra come aggiungere formattazione ai paragrafi in cui un'operazione di ricerca e sostituzione ha trovato corrispondenze.
 
 ```csharp
 Document doc = new Document();
@@ -82,14 +82,14 @@ Assert.AreEqual(ParagraphAlignment.Left, paragraphs[0].ParagraphFormat.Alignment
 Assert.AreEqual(ParagraphAlignment.Left, paragraphs[1].ParagraphFormat.Alignment);
 Assert.AreEqual(ParagraphAlignment.Left, paragraphs[2].ParagraphFormat.Alignment);
 
-// Possiamo usare un oggetto "FindReplaceOptions" per modificare il processo di ricerca e sostituzione.
+// Possiamo utilizzare un oggetto "FindReplaceOptions" per modificare il processo di ricerca e sostituzione.
 FindReplaceOptions options = new FindReplaceOptions();
 
 // Imposta la proprietà "Alignment" su "ParagraphAlignment.Right" per allineare a destra ogni paragrafo
-// che contiene una corrispondenza trovata dall'operazione trova e sostituisci.
+// che contiene una corrispondenza trovata dall'operazione di ricerca e sostituzione.
 options.ApplyParagraphFormat.Alignment = ParagraphAlignment.Right;
 
-// Sostituisci ogni punto fermo prima di un'interruzione di paragrafo con un punto esclamativo.
+// Sostituisci ogni punto che precede l'interruzione di paragrafo con un punto esclamativo.
 int count = doc.Range.Replace(".&p", "!&p", options);
 
 Assert.AreEqual(2, count);
@@ -111,7 +111,7 @@ Assert.AreEqual("Every paragraph that ends with a full stop like this one will b
 
 ## Replace(Regex, string) {#replace_2}
 
-Sostituisce tutte le occorrenze di una sequenza di caratteri specificata da un'espressione regolare con un'altra stringa.
+Sostituisce tutte le occorrenze di un modello di carattere specificato da un'espressione regolare con un'altra stringa.
 
 ```csharp
 public int Replace(Regex pattern, string replacement)
@@ -128,18 +128,18 @@ Il numero di sostituzioni effettuate.
 
 ### Osservazioni
 
-Sostituisce l'intera corrispondenza acquisita dall'espressione regolare.
+Sostituisce l'intera corrispondenza catturata dall'espressione regolare.
 
-Il metodo è in grado di elaborare le interruzioni sia nel pattern che nelle stringhe di sostituzione.
+Il metodo è in grado di elaborare interruzioni sia nelle stringhe di pattern che in quelle di sostituzione.
 
-Dovresti usare meta-caratteri speciali se devi lavorare con le interruzioni:
+Dovresti utilizzare metacaratteri speciali se devi lavorare con le interruzioni:
 
-* **&amp;p** - interruzione di paragrafo
-* **&amp;b** - interruzione di sezione
-* **&amp;m** - interruzione di pagina
-* **&amp;l** - interruzione di riga manuale
+* **&amp;P** - interruzione di paragrafo
+* **&amp;B** -interruzione di sezione
+* **&amp;M** - interruzione di pagina
+* **&amp;l** - interruzione manuale della linea
 
-Usa metodo`Replace` per avere una personalizzazione più flessibile.
+Usa il metodo`Replace` per avere una personalizzazione più flessibile.
 
 ### Esempi
 
@@ -175,7 +175,7 @@ Assert.AreEqual("I decided to get the curtains in lavender, ideal for the lavend
 
 ## Replace(string, string, FindReplaceOptions) {#replace_1}
 
-Sostituisce tutte le occorrenze di un modello di stringa di caratteri specificato con una stringa di sostituzione.
+Sostituisce tutte le occorrenze di un modello di stringa di caratteri specificato con una stringa sostitutiva.
 
 ```csharp
 public int Replace(string pattern, string replacement, FindReplaceOptions options)
@@ -193,16 +193,16 @@ Il numero di sostituzioni effettuate.
 
 ### Osservazioni
 
-Il modello non verrà utilizzato come espressione regolare. Utilizzare`Replace` se hai bisogno di espressioni regolari.
+Il modello non verrà utilizzato come espressione regolare. Utilizzalo`Replace`se hai bisogno di espressioni regolari.
 
-Il metodo è in grado di elaborare le interruzioni sia nel pattern che nelle stringhe di sostituzione.
+Il metodo è in grado di elaborare interruzioni sia nelle stringhe di pattern che in quelle di sostituzione.
 
-Dovresti usare meta-caratteri speciali se devi lavorare con le interruzioni:
+Dovresti utilizzare metacaratteri speciali se devi lavorare con le interruzioni:
 
-* **&amp;p** - interruzione di paragrafo
-* **&amp;b** - interruzione di sezione
-* **&amp;m** - interruzione di pagina
-* **&amp;l** - interruzione di riga manuale
+* **&amp;P** - interruzione di paragrafo
+* **&amp;B** -interruzione di sezione
+* **&amp;M** - interruzione di pagina
+* **&amp;l** - interruzione manuale della linea
 * **&amp;&amp;** - &amp; carattere
 
 ### Esempi
@@ -212,7 +212,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Numbers 1, 2, 3");
 
-// Inserisce un'interruzione di paragrafo dopo Numbers.
+// Inserisce un'interruzione di paragrafo dopo i numeri.
 doc.Range.Replace("Numbers", "Numbers&p", new FindReplaceOptions());
 ```
 
@@ -244,11 +244,11 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("Ruby bought a ruby necklace.");
 
-// Possiamo usare un oggetto "FindReplaceOptions" per modificare il processo di ricerca e sostituzione.
+// Possiamo utilizzare un oggetto "FindReplaceOptions" per modificare il processo di ricerca e sostituzione.
 FindReplaceOptions options = new FindReplaceOptions();
 
-// Imposta il flag "MatchCase" su "true" per applicare la distinzione tra maiuscole e minuscole mentre trovi le stringhe da sostituire.
-// Imposta il flag "MatchCase" su "false" per ignorare il carattere maiuscolo durante la ricerca del testo da sostituire.
+// Imposta il flag "MatchCase" su "true" per applicare la distinzione tra maiuscole e minuscole durante la ricerca delle stringhe da sostituire.
+// Imposta il flag "MatchCase" su "false" per ignorare le maiuscole e minuscole durante la ricerca del testo da sostituire.
 options.MatchCase = matchCase;
 
 doc.Range.Replace("Ruby", "Jade", options);
@@ -265,11 +265,11 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("Jackson will meet you in Jacksonville.");
 
-// Possiamo usare un oggetto "FindReplaceOptions" per modificare il processo di ricerca e sostituzione.
+// Possiamo utilizzare un oggetto "FindReplaceOptions" per modificare il processo di ricerca e sostituzione.
 FindReplaceOptions options = new FindReplaceOptions();
 
 // Imposta il flag "FindWholeWordsOnly" su "true" per sostituire il testo trovato se non fa parte di un'altra parola.
-// Imposta il flag "FindWholeWordsOnly" su "false" per sostituire tutto il testo indipendentemente dall'ambiente circostante.
+// Imposta il flag "FindWholeWordsOnly" su "false" per sostituire tutto il testo indipendentemente da ciò che lo circonda.
 options.FindWholeWordsOnly = findWholeWordsOnly;
 
 doc.Range.Replace("Jackson", "Louis", options);
@@ -279,7 +279,7 @@ Assert.AreEqual(
     doc.GetText().Trim());
 ```
 
-Mostra come sostituire tutte le istanze di String of text in una tabella e in una cella.
+Mostra come sostituire tutte le istanze di Stringa di testo in una tabella e in una cella.
 
 ```csharp
 Document doc = new Document();
@@ -322,7 +322,7 @@ Assert.AreEqual("Eggs\a50\a\a" +
 
 ## Replace(Regex, string, FindReplaceOptions) {#replace_3}
 
-Sostituisce tutte le occorrenze di una sequenza di caratteri specificata da un'espressione regolare con un'altra stringa.
+Sostituisce tutte le occorrenze di un modello di carattere specificato da un'espressione regolare con un'altra stringa.
 
 ```csharp
 public int Replace(Regex pattern, string replacement, FindReplaceOptions options)
@@ -340,16 +340,16 @@ Il numero di sostituzioni effettuate.
 
 ### Osservazioni
 
-Sostituisce l'intera corrispondenza acquisita dall'espressione regolare.
+Sostituisce l'intera corrispondenza catturata dall'espressione regolare.
 
-Il metodo è in grado di elaborare le interruzioni sia nel pattern che nelle stringhe di sostituzione.
+Il metodo è in grado di elaborare interruzioni sia nelle stringhe di pattern che in quelle di sostituzione.
 
-Dovresti usare meta-caratteri speciali se devi lavorare con le interruzioni:
+Dovresti utilizzare metacaratteri speciali se devi lavorare con le interruzioni:
 
-* **&amp;p** - interruzione di paragrafo
-* **&amp;b** - interruzione di sezione
-* **&amp;m** - interruzione di pagina
-* **&amp;l** - interruzione di riga manuale
+* **&amp;P** - interruzione di paragrafo
+* **&amp;B** -interruzione di sezione
+* **&amp;M** - interruzione di pagina
+* **&amp;l** - interruzione manuale della linea
 * **&amp;&amp;** - &amp; carattere
 
 ### Esempi
@@ -366,6 +366,7 @@ doc.Range.Replace(new Regex(@"\d+"), "&p", new FindReplaceOptions());
 Mostra come sostituire tutte le occorrenze di un modello di espressione regolare con un'altra stringa, tenendo traccia di tutte queste sostituzioni.
 
 ```csharp
+public void ReplaceWithCallback()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -373,10 +374,10 @@ Mostra come sostituire tutte le occorrenze di un modello di espressione regolare
     builder.Writeln("Our new location in New York City is opening tomorrow. " +
                     "Hope to see all our NYC-based customers at the opening!");
 
-    // Possiamo usare un oggetto "FindReplaceOptions" per modificare il processo di ricerca e sostituzione.
+    // Possiamo utilizzare un oggetto "FindReplaceOptions" per modificare il processo di ricerca e sostituzione.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // Imposta un callback che tenga traccia di tutte le sostituzioni che il metodo "Replace" effettuerà.
+    // Imposta un callback che tenga traccia di eventuali sostituzioni effettuate dal metodo "Replace".
     TextFindAndReplacementLogger logger = new TextFindAndReplacementLogger();
     options.ReplacingCallback = logger;
 
@@ -391,7 +392,7 @@ Mostra come sostituire tutte le occorrenze di un modello di espressione regolare
 
 /// <summary>
 /// Mantiene un registro di ogni sostituzione di testo eseguita da un'operazione di ricerca e sostituzione
-/// e annota il valore del testo corrispondente originale.
+/// e prende nota del valore del testo corrispondente originale.
 /// </summary>
 private class TextFindAndReplacementLogger : IReplacingCallback
 {
@@ -416,15 +417,18 @@ private class TextFindAndReplacementLogger : IReplacingCallback
 Mostra come inserire il contenuto di un intero documento in sostituzione di una corrispondenza in un'operazione di ricerca e sostituzione.
 
 ```csharp
+public void InsertDocumentAtReplace()
 {
     Document mainDoc = new Document(MyDir + "Document insertion destination.docx");
 
-    // Possiamo usare un oggetto "FindReplaceOptions" per modificare il processo di ricerca e sostituzione.
+    // Possiamo utilizzare un oggetto "FindReplaceOptions" per modificare il processo di ricerca e sostituzione.
     FindReplaceOptions options = new FindReplaceOptions();
     options.ReplacingCallback = new InsertDocumentAtReplaceHandler();
 
     mainDoc.Range.Replace(new Regex("\\[MY_DOCUMENT\\]"), "", options);
     mainDoc.Save(ArtifactsDir + "InsertDocument.InsertDocumentAtReplace.docx");
+
+}
 
 private class InsertDocumentAtReplaceHandler : IReplacingCallback
 {
@@ -436,7 +440,7 @@ private class InsertDocumentAtReplaceHandler : IReplacingCallback
         Paragraph para = (Paragraph)args.MatchNode.ParentNode;
         InsertDocument(para, subDoc);
 
-        // Rimuovi il paragrafo con il testo corrispondente.
+        // Rimuove il paragrafo con il testo corrispondente.
         para.Remove();
 
         return ReplaceAction.Skip;

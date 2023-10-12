@@ -16,7 +16,7 @@ public Encoding Encoding { get; set; }
 
 ### Exemples
 
-Montre comment définir l'encodage pour un document de sortie .txt.
+Montre comment définir le codage pour un document de sortie .txt.
 
 ```csharp
 Document doc = new Document();
@@ -25,7 +25,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 // Ajoute du texte avec des caractères extérieurs au jeu de caractères ASCII.
 builder.Write("À È Ì Ò Ù.");
 
-// Crée un objet "TxtSaveOptions", que nous pouvons passer à la méthode "Save" du document
+// Crée un objet "TxtSaveOptions", que l'on peut passer à la méthode "Save" du document
 // pour modifier la façon dont nous enregistrons le document en texte brut.
 TxtSaveOptions txtSaveOptions = new TxtSaveOptions();
 
@@ -38,7 +38,7 @@ string docText = System.Text.Encoding.UTF8.GetString(File.ReadAllBytes(Artifacts
 
 Assert.AreEqual("\uFEFFÀ È Ì Ò Ù.\r\n", docText);
 
-// L'utilisation d'un encodage inadapté peut entraîner une perte du contenu du document.
+// L'utilisation d'un encodage inapproprié peut entraîner une perte du contenu du document.
 txtSaveOptions.Encoding = System.Text.Encoding.ASCII;
 doc.Save(ArtifactsDir + "TxtSaveOptions.Encoding.ASCII.txt", txtSaveOptions);
 docText = System.Text.Encoding.ASCII.GetString(File.ReadAllBytes(ArtifactsDir + "TxtSaveOptions.Encoding.ASCII.txt"));

@@ -3,7 +3,7 @@ title: ChartDataLabel.ClearFormat
 second_title: Aspose.Words för .NET API Referens
 description: ChartDataLabel metod. Rensar formatet för denna dataetikett. Egenskaperna är inställda på standardvärdena som definieras i den överordnade data etikettsamlingen.
 type: docs
-weight: 140
+weight: 160
 url: /sv/net/aspose.words.drawing.charts/chartdatalabel/clearformat/
 ---
 ## ChartDataLabel.ClearFormat method

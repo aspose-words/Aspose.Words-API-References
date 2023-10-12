@@ -1,14 +1,14 @@
 ---
 title: HtmlFixedSaveOptions.OptimizeOutput
 second_title: Aspose.Words für .NET-API-Referenz
-description: HtmlFixedSaveOptions eigendom. Flag gibt an ob es erforderlich ist die Ausgabe zu optimieren. Wenn dieses Flag gesetzt ist werden redundante verschachtelte Leinwände und leere Leinwände entfernt werden auch benachbarte Glyphen mit derselben Formatierung verkettet. Hinweis Die Genauigkeit der Inhaltsanzeige kann beeinträchtigt werden wenn diese Eigenschaft ist auf true gesetzt. Standard ist true.
+description: HtmlFixedSaveOptions eigendom. Flag gibt an ob es zur Optimierung der Ausgabe erforderlich ist. Wenn dieses Flag gesetzt ist werden redundante verschachtelte Leinwände und leere Leinwände entfernt auch benachbarte Glyphen mit derselben Formatierung werden verkettet. Hinweis Die Genauigkeit der Inhaltsanzeige kann beeinträchtigt werden wenn Diese Eigenschaft ist auf festgelegtWAHR . Standard istWAHR .
 type: docs
 weight: 100
 url: /de/net/aspose.words.saving/htmlfixedsaveoptions/optimizeoutput/
 ---
 ## HtmlFixedSaveOptions.OptimizeOutput property
 
-Flag gibt an, ob es erforderlich ist, die Ausgabe zu optimieren. Wenn dieses Flag gesetzt ist, werden redundante verschachtelte Leinwände und leere Leinwände entfernt, werden auch benachbarte Glyphen mit derselben Formatierung verkettet. Hinweis: Die Genauigkeit der Inhaltsanzeige kann beeinträchtigt werden, wenn diese Eigenschaft ist auf true gesetzt. Standard ist true.
+Flag gibt an, ob es zur Optimierung der Ausgabe erforderlich ist. Wenn dieses Flag gesetzt ist, werden redundante verschachtelte Leinwände und leere Leinwände entfernt, auch benachbarte Glyphen mit derselben Formatierung werden verkettet. Hinweis: Die Genauigkeit der Inhaltsanzeige kann beeinträchtigt werden, wenn Diese Eigenschaft ist auf festgelegt`WAHR` . Standard ist`WAHR` .
 
 ```csharp
 public override bool OptimizeOutput { get; set; }
@@ -16,7 +16,7 @@ public override bool OptimizeOutput { get; set; }
 
 ### Beispiele
 
-Zeigt, wie ein Dokument vereinfacht wird, wenn es in HTML gespeichert wird, indem verschiedene redundante Objekte entfernt werden.
+Zeigt, wie man ein Dokument beim Speichern in HTML vereinfacht, indem man verschiedene überflüssige Objekte entfernt.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

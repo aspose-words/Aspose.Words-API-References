@@ -3,7 +3,7 @@ title: ShapeBase.Target
 second_title: Aspose.Words per .NET API Reference
 description: ShapeBase proprietà. Ottiene o imposta il frame di destinazione per il collegamento ipertestuale della forma.
 type: docs
-weight: 480
+weight: 520
 url: /it/net/aspose.words.drawing/shapebase/target/
 ---
 ## ShapeBase.Target property
@@ -31,7 +31,7 @@ shape.HRef = "https://forum.aspose.com/";
 shape.Target = "New Window";
 shape.ScreenTip = "Aspose.Words Support Forums";
 
-// Ctrl + clic sinistro sulla forma in Microsoft Word aprirà una nuova finestra del browser web
+// Ctrl + facendo clic con il pulsante sinistro del mouse sulla forma in Microsoft Word si aprirà una nuova finestra del browser Web
 // e portaci al collegamento ipertestuale nella proprietà "HRef".
 doc.Save(ArtifactsDir + "Image.InsertImageWithHyperlink.docx");
 ```

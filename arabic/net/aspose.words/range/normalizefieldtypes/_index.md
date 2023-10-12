@@ -1,14 +1,14 @@
 ---
 title: Range.NormalizeFieldTypes
 second_title: Aspose.Words لمراجع .NET API
-description: Range طريقة. يغير قيم نوع الحقلFieldType منFieldStart وFieldSeparator وFieldEnd في هذا النطاق بحيث تتوافق مع أنواع الحقول الموجودة في أكواد الحقول.
+description: Range طريقة. تغيير قيم نوع الحقلFieldType لFieldStart FieldSeparator FieldEnd في هذا النطاق بحيث تتوافق مع أنواع الحقول الموجودة في رموز الحقول.
 type: docs
-weight: 70
+weight: 80
 url: /ar/net/aspose.words/range/normalizefieldtypes/
 ---
 ## Range.NormalizeFieldTypes method
 
-يغير قيم نوع الحقل[`FieldType`](../../../aspose.words.fields/fieldchar/fieldtype/) من[`FieldStart`](../../../aspose.words.fields/fieldstart/) و[`FieldSeparator`](../../../aspose.words.fields/fieldseparator/) و[`FieldEnd`](../../../aspose.words.fields/fieldend/) في هذا النطاق بحيث تتوافق مع أنواع الحقول الموجودة في أكواد الحقول.
+تغيير قيم نوع الحقل[`FieldType`](../../../aspose.words.fields/fieldchar/fieldtype/) ل[`FieldStart`](../../../aspose.words.fields/fieldstart/) ,[`FieldSeparator`](../../../aspose.words.fields/fieldseparator/) ,[`FieldEnd`](../../../aspose.words.fields/fieldend/) في هذا النطاق بحيث تتوافق مع أنواع الحقول الموجودة في رموز الحقول.
 
 ```csharp
 public void NormalizeFieldTypes()

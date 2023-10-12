@@ -3,12 +3,14 @@ title: Class FieldStart
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Fields.FieldStart klass. Representerar början på ett Wordfält i ett dokument.
 type: docs
-weight: 2280
+weight: 2430
 url: /sv/net/aspose.words.fields/fieldstart/
 ---
 ## FieldStart class
 
 Representerar början på ett Word-fält i ett dokument.
+
+För att lära dig mer, besök[Arbeta med Fields](https://docs.aspose.com/words/net/working-with-fields/) dokumentationsartikel.
 
 ```csharp
 public class FieldStart : FieldChar
@@ -23,20 +25,20 @@ public class FieldStart : FieldChar
 | [FieldData](../../aspose.words.fields/fieldstart/fielddata/) { get; } | Hämtar anpassade fältdata som är associerade med fältet. |
 | [FieldType](../../aspose.words.fields/fieldchar/fieldtype/) { get; } | Returnerar fältets typ. |
 | [Font](../../aspose.words/inline/font/) { get; } | Ger tillgång till teckensnittsformateringen för detta objekt. |
-| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Returnerar sant om denna nod kan innehålla andra noder. |
+| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Returnerar`Sann` om denna nod kan innehålla andra noder. |
 | [IsDeleteRevision](../../aspose.words/inline/isdeleterevision/) { get; } | Returnerar sant om detta objekt raderades i Microsoft Word medan ändringsspårning var aktiverad. |
 | [IsDirty](../../aspose.words.fields/fieldchar/isdirty/) { get; set; } | Hämtar eller ställer in om det aktuella resultatet av fältet inte längre är korrekt (inaktuellt) på grund av andra modifieringar som gjorts i dokumentet. |
 | [IsFormatRevision](../../aspose.words/inline/isformatrevision/) { get; } | Returnerar sant om formateringen av objektet ändrades i Microsoft Word medan ändringsspårning var aktiverad. |
 | [IsInsertRevision](../../aspose.words/inline/isinsertrevision/) { get; } | Returnerar sant om det här objektet infogades i Microsoft Word medan ändringsspårning var aktiverad. |
 | [IsLocked](../../aspose.words.fields/fieldchar/islocked/) { get; set; } | Hämtar eller ställer in om det överordnade fältet är låst (ska inte räkna om resultatet). |
-| [IsMoveFromRevision](../../aspose.words/inline/ismovefromrevision/) { get; } | Returnerar **Sann** om det här objektet flyttades (borttogs) i Microsoft Word medan ändringsspårning var aktiverad. |
-| [IsMoveToRevision](../../aspose.words/inline/ismovetorevision/) { get; } | Returnerar **Sann** om detta objekt flyttades (infogades) i Microsoft Word medan ändringsspårning var aktiverad. |
+| [IsMoveFromRevision](../../aspose.words/inline/ismovefromrevision/) { get; } | Returnerar`Sann` om det här objektet flyttades (borttogs) i Microsoft Word medan ändringsspårning var aktiverad. |
+| [IsMoveToRevision](../../aspose.words/inline/ismovetorevision/) { get; } | Returnerar`Sann` om detta objekt flyttades (infogades) i Microsoft Word medan ändringsspårning var aktiverad. |
 | [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Hämtar noden omedelbart efter denna nod. |
 | override [NodeType](../../aspose.words.fields/fieldstart/nodetype/) { get; } | ReturnerarFieldStart . |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Hämtar den omedelbara föräldern till denna nod. |
 | [ParentParagraph](../../aspose.words/inline/parentparagraph/) { get; } | Hämtar föräldern[`Paragraph`](../../aspose.words/paragraph/) av denna nod. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Hämtar noden omedelbart före denna nod. |
-| [Range](../../aspose.words/node/range/) { get; } | Returnerar en **Räckvidd** objekt som representerar den del av ett dokument som finns i denna nod. |
+| [Range](../../aspose.words/node/range/) { get; } | Returnerar en[`Range`](../../aspose.words/range/) objekt som representerar den del av ett dokument som finns i denna nod. |
 
 ## Metoder
 
@@ -69,6 +71,7 @@ För att enkelt infoga ett nytt fält i ett dokument, använd[`InsertField`](../
 Visar hur man arbetar med en samling fält.
 
 ```csharp
+public void FieldCollection()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -107,6 +110,7 @@ Visar hur man arbetar med en samling fält.
     }
 
     Console.WriteLine(fieldVisitor.GetText());
+}
 
 /// <summary>
 /// Dokumentbesökarimplementering som skriver ut fältinformation.
@@ -208,21 +212,21 @@ namespace ApiExamples
         private const string NewName = "Aspose - The .NET & Java Component Publisher";
     }
 
-    /// <summary>
-    /// HYPERLINK-fält innehåller och visar hyperlänkar i dokumentets brödtext. Ett fält i Aspose.Words 
-    /// består av flera noder, och det kan vara svårt att arbeta med alla dessa noder direkt. 
-    /// Den här implementeringen fungerar endast om hyperlänkskoden och namnet består av endast en körnod.
+     ///<summary>
+      ///HYPERLINK-fält innehåller och visar hyperlänkar i dokumentets brödtext. Ett fält i Aspose.Words
+      ///består av flera noder, och det kan vara svårt att arbeta med alla dessa noder direkt.
+     ///Den här implementeringen fungerar endast om hyperlänkskoden och namnet består av endast en körnod.
     ///
-    /// Nodstrukturen för fält är som följer:
-    /// 
-    /// [FieldStart][Kör - fältkod][Fältseparator][Kör - fältresultat][FieldEnd]
-    /// 
-    /// Nedan finns två exempel på fältkoder för HYPERLINK-fält:
-    /// HYPERLÄNK "url"
-    /// HYPERLÄNK \l "bokmärkesnamn"
-    /// 
-    /// Ett fälts "Result"-egenskap innehåller text som fältet visar i dokumentets brödtext för användaren.
-    /// </summary>
+     ///Nodstrukturen för fält är som följer:
+     ///
+     ///[FieldStart][Run - field code][FieldSeparator][Run - field result][FieldEnd]
+     ///
+     ///Below are two example field codes of HYPERLINK fields:
+     ///HYPERLINK "url"
+     ///HYPERLINK \l "bookmark name"
+     ///
+     ///A field's "Result" property contains text that the field displays in the document body to the user.
+     ///</summary>
     internal class Hyperlink
     {
         internal Hyperlink(FieldStart fieldStart)
@@ -239,9 +243,9 @@ namespace ApiExamples
             if (mFieldSeparator == null)
                 throw new InvalidOperationException("Cannot find field separator.");
 
-            // Normalt kan vi alltid hitta fältets slutnod, men exempeldokumentet 
-            // innehåller en styckebrytning inuti en hyperlänk, vilket gör att fältet slutar 
-            // i nästa stycke. Det blir mycket mer komplicerat att hantera fält som spänner över flera 
+             // Normalt kan vi alltid hitta fältets slutnod, men exempeldokumentet
+             // innehåller en styckebrytning inuti en hyperlänk, vilket gör att fältet slutar
+            // i nästa stycke. Det blir mycket mer komplicerat att hantera fält som spänner över flera
             // stycken korrekt. I det här fallet räcker det att tillåta fältänden att vara null.
             mFieldEnd = FindNextSibling(mFieldSeparator, NodeType.FieldEnd);
 
@@ -254,15 +258,15 @@ namespace ApiExamples
             mTarget = match.Groups[2].Value;
         }
 
-        /// <summary>
-        /// Hämtar eller ställer in visningsnamnet för hyperlänken.
-        /// </summary>
+         ///<summary>
+         ///Gets or sets the display name of the hyperlink.
+         ///</summary>
         internal string Name
         {
             get => GetTextSameParent(mFieldSeparator, mFieldEnd); 
             set
             {
-                // Hyperlänkens visningsnamn lagras i fältresultatet, vilket är en körning 
+                 // Hyperlänkens visningsnamn lagras i fältresultatet, vilket är en körning
                 // nod mellan fältavgränsare och fältslut.
                 Run fieldResult = (Run) mFieldSeparator.NextSibling;
                 fieldResult.Text = value;
@@ -272,9 +276,9 @@ namespace ApiExamples
             }
         }
 
-        /// <summary>
-        /// Hämtar eller ställer in måladressen eller bokmärkesnamnet för hyperlänken.
-        /// </summary>
+         ///<summary>
+         ///Gets or sets the target URL or bookmark name of the hyperlink.
+         ///</summary>
         internal string Target
         {
             get => mTarget;
@@ -285,9 +289,9 @@ namespace ApiExamples
             }
         }
 
-        /// <summary>
-        /// Sant om hyperlänksmålet är ett bokmärke inuti dokumentet. Falskt om hyperlänken är en URL.
-        /// </summary>
+         ///<summary>
+         ///True if the hyperlinks target is a bookmark inside the document. False if the hyperlink is a URL.
+         ///</summary>
         internal bool IsLocal
         {
             get => mIsLocal; 
@@ -308,9 +312,9 @@ namespace ApiExamples
             RemoveSameParent(fieldCode.NextSibling, mFieldSeparator);
         }
 
-        /// <summary>
-        /// Går igenom syskon med start från startnoden tills den hittar en nod av angiven typ eller noll.
-        /// </summary>
+         ///<summary>
+         ///Goes through siblings starting from the start node until it finds a node of the specified type or null.
+         ///</summary>
         private static Node FindNextSibling(Node startNode, NodeType nodeType)
         {
             for (Node node = startNode; node != null; node = node.NextSibling)
@@ -322,9 +326,9 @@ namespace ApiExamples
             return null;
         }
 
-        /// <summary>
-        /// Hämtar text från start upp till men inte inklusive slutnoden.
-        /// </summary>
+         ///<summary>
+         ///Retrieves text from start up to but not including the end node.
+         ///</summary>
         private static string GetTextSameParent(Node startNode, Node endNode)
         {
             if ((endNode != null) && (startNode.ParentNode != endNode.ParentNode))
@@ -337,10 +341,10 @@ namespace ApiExamples
             return builder.ToString();
         }
 
-        /// <summary>
-        /// Tar bort noder från start till men inte inklusive slutnoden.
-        /// Antar att start- och slutnoderna har samma förälder.
-        /// </summary>
+         ///<summary>
+         ///Removes nodes from start up to but not including the end node.
+         ///Assumes that the start and end nodes have the same parent.
+         ///</summary>
         private static void RemoveSameParent(Node startNode, Node endNode)
         {
             if (endNode != null && startNode.ParentNode != endNode.ParentNode)
@@ -366,7 +370,7 @@ namespace ApiExamples
             "\\s+" + // Ett eller flera mellanslag.
             "(?:\"\"\\s+)?" + // Icke-fångande valfritt "" och ett eller flera mellanslag.
             "(\\\\l\\s+)?" + // Valfri \l flagga följt av ett eller flera mellanslag.
-            "\"" + // En apostrof.    
+            "\"" +  // En apostrof.
             "([^\"]+)" + // Ett eller flera tecken, exklusive apostrof (hyperlänksmål).
             "\"" // En avslutande apostrof.
         );

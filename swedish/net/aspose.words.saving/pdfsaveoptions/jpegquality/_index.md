@@ -3,7 +3,7 @@ title: PdfSaveOptions.JpegQuality
 second_title: Aspose.Words för .NET API Referens
 description: PdfSaveOptions fast egendom. Hämtar eller ställer in ett värde som bestämmer kvaliteten på JPEGbilderna i PDFdokumentet.
 type: docs
-weight: 190
+weight: 220
 url: /sv/net/aspose.words.saving/pdfsaveoptions/jpegquality/
 ---
 ## PdfSaveOptions.JpegQuality property
@@ -22,7 +22,7 @@ Denna egenskap används i samband med[`ImageCompression`](../imagecompression/) 
 
 Har endast effekt när ett dokument innehåller JPEG-bilder.
 
-Använd den här egenskapen för att få eller ställa in kvaliteten på bilderna i ett dokument när du sparar i PDF-format. Värdet kan variera från 0 till 100 där 0 betyder sämsta kvalitet men maximal komprimering och 100 betyder bästa kvalitet men minsta komprimering. Om kvalitet är 100 och källbilden är JPEG, betyder det ingen komprimering - originalbytes kommer att sparas.
+Använd den här egenskapen för att hämta eller ställa in kvaliteten på bilderna i ett dokument när du sparar i PDF-format. Värdet kan variera från 0 till 100 där 0 betyder sämsta kvalitet men maximal komprimering och 100 betyder bästa kvalitet men minsta komprimering. Om kvalitet är 100 och källbilden är JPEG, betyder det ingen komprimering - originalbytes kommer att sparas.
 
 ### Exempel
 

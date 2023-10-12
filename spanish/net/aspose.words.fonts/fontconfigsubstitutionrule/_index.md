@@ -1,14 +1,16 @@
 ---
 title: Class FontConfigSubstitutionRule
 second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Fonts.FontConfigSubstitutionRule clase. Regla de sustitución de configuración de fuentes.
+description: Aspose.Words.Fonts.FontConfigSubstitutionRule clase. Regla de sustitución de configuración de fuente.
 type: docs
-weight: 2710
+weight: 2890
 url: /es/net/aspose.words.fonts/fontconfigsubstitutionrule/
 ---
 ## FontConfigSubstitutionRule class
 
-Regla de sustitución de configuración de fuentes.
+Regla de sustitución de configuración de fuente.
+
+Para obtener más información, visite el[Trabajar con fuentes](https://docs.aspose.com/words/net/working-with-fonts/) artículo de documentación.
 
 ```csharp
 public class FontConfigSubstitutionRule : FontSubstitutionRule
@@ -25,17 +27,17 @@ public class FontConfigSubstitutionRule : FontSubstitutionRule
 | Nombre | Descripción |
 | --- | --- |
 | [IsFontConfigAvailable](../../aspose.words.fonts/fontconfigsubstitutionrule/isfontconfigavailable/)() | Compruebe si la utilidad fontconfig está disponible o no. |
-| [ResetCache](../../aspose.words.fonts/fontconfigsubstitutionrule/resetcache/)() | Restablece el caché de los resultados de llamada de fontconfig. |
+| [ResetCache](../../aspose.words.fonts/fontconfigsubstitutionrule/resetcache/)() | Restablece el caché de los resultados de llamadas de fontconfig. |
 
 ### Observaciones
 
-Esta regla utiliza la utilidad fontconfig en plataformas Linux (y otras similares a Unix) para obtener la sustitución si la fuente original no está disponible.
+Esta regla utiliza la utilidad fontconfig en Linux (y otras plataformas similares a Unix) para obtener la sustitución si la fuente original no está disponible.
 
-Si la utilidad fontconfig no está disponible, se ignorará esta regla.
+Si la utilidad fontconfig no está disponible, esta regla se ignorará.
 
 ### Ejemplos
 
-Muestra la sustitución de configuración de fuente dependiente del sistema operativo.
+Muestra la sustitución de configuración de fuentes dependiente del sistema operativo.
 
 ```csharp
 FontSettings fontSettings = new FontSettings();
@@ -45,7 +47,7 @@ FontConfigSubstitutionRule fontConfigSubstitution =
 bool isWindows = new[] {PlatformID.Win32NT, PlatformID.Win32S, PlatformID.Win32Windows, PlatformID.WinCE}
     .Any(p => Environment.OSVersion.Platform == p);
 
-// El objeto FontConfigSubstitutionRule funciona de manera diferente en plataformas Windows y no Windows.
+// El objeto FontConfigSubstitutionRule funciona de forma diferente en plataformas Windows o no Windows.
 // En Windows, no está disponible.
 if (isWindows)
 {

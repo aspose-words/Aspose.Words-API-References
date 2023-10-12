@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.DoNotBreakWrappedTables
 second_title: Aspose.Words für .NET-API-Referenz
-description: CompatibilityOptions eigendom. Schwebende Tabellen nicht über Seiten umbrechen lassen.
+description: CompatibilityOptions eigendom. Lassen Sie nicht zu dass schwebende Tabellen seitenübergreifend umgebrochen werden.
 type: docs
 weight: 140
 url: /de/net/aspose.words.settings/compatibilityoptions/donotbreakwrappedtables/
 ---
 ## CompatibilityOptions.DoNotBreakWrappedTables property
 
-Schwebende Tabellen nicht über Seiten umbrechen lassen.
+Lassen Sie nicht zu, dass schwebende Tabellen seitenübergreifend umgebrochen werden.
 
 ```csharp
 public bool DoNotBreakWrappedTables { get; set; }

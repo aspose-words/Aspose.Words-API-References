@@ -1,14 +1,14 @@
 ---
 title: HtmlFixedSaveOptions.ExportEmbeddedImages
 second_title: Aspose.Words für .NET-API-Referenz
-description: HtmlFixedSaveOptions eigendom. Gibt an ob Bilder in ein HTMLDokument im Base64Format eingebettet werden sollen. Beachten Sie dass das Setzen dieses Flags die Größe der AusgabeHtmlDatei erheblich erhöhen kann.
+description: HtmlFixedSaveOptions eigendom. Gibt an ob Bilder in ein HTMLDokument im Base64Format eingebettet werden sollen. Hinweis Das Setzen dieses Flags kann die Größe der ausgegebenen HTMLDatei erheblich erhöhen.
 type: docs
 weight: 60
 url: /de/net/aspose.words.saving/htmlfixedsaveoptions/exportembeddedimages/
 ---
 ## HtmlFixedSaveOptions.ExportEmbeddedImages property
 
-Gibt an, ob Bilder in ein HTML-Dokument im Base64-Format eingebettet werden sollen. Beachten Sie, dass das Setzen dieses Flags die Größe der Ausgabe-Html-Datei erheblich erhöhen kann.
+Gibt an, ob Bilder in ein HTML-Dokument im Base64-Format eingebettet werden sollen. Hinweis: Das Setzen dieses Flags kann die Größe der ausgegebenen HTML-Datei erheblich erhöhen.
 
 ```csharp
 public bool ExportEmbeddedImages { get; set; }
@@ -16,17 +16,17 @@ public bool ExportEmbeddedImages { get; set; }
 
 ### Beispiele
 
-Zeigt, wie Sie beim Exportieren eines Dokuments in HTML bestimmen, wo Bilder gespeichert werden sollen.
+Zeigt, wie Sie bestimmen, wo Bilder gespeichert werden sollen, wenn Sie ein Dokument in HTML exportieren.
 
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");
 
-// Wenn wir ein Dokument mit eingebetteten Bildern in .html exportieren,
+// Wenn wir ein Dokument mit eingebetteten Bildern nach .html exportieren,
 // Aspose.Words kann die Bilder an zwei möglichen Orten platzieren.
-// Das Setzen des Flags "ExportEmbeddedImages" auf "true" speichert die Rohdaten
-// für alle Bilder im Ausgabe-HTML-Dokument im "src"-Attribut von <image> Stichworte.
-// Wenn Sie dieses Flag auf "false" setzen, wird für jedes Bild eine Bilddatei im lokalen Dateisystem erstellt,
-// und speichern Sie alle diese Dateien in einem separaten Ordner.
+// Wenn Sie das Flag „ExportEmbeddedImages“ auf „true“ setzen, werden die Rohdaten gespeichert
+// für alle Bilder im ausgegebenen HTML-Dokument im „src“-Attribut von <image> Stichworte.
+// Wenn Sie dieses Flag auf „false“ setzen, wird für jedes Bild eine Bilddatei im lokalen Dateisystem erstellt.
+// und alle diese Dateien in einem separaten Ordner speichern.
 HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions
 {
     ExportEmbeddedImages = exportImages

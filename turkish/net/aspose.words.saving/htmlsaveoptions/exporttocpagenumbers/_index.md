@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.ExportTocPageNumbers
 second_title: Aspose.Words for .NET API Referansı
-description: HtmlSaveOptions mülk. HTML MHTML ve EPUB kaydedilirken içindekiler tablosuna sayfa numaralarının yazıp yazılmayacağını belirtir. Varsayılan değeryanlış .
+description: HtmlSaveOptions mülk. HTML MHTML ve EPUBu kaydederken içindekiler tablosuna sayfa numaralarının yazıp yazmayacağını belirtir. Varsayılan değerYANLIŞ .
 type: docs
-weight: 280
+weight: 270
 url: /tr/net/aspose.words.saving/htmlsaveoptions/exporttocpagenumbers/
 ---
 ## HtmlSaveOptions.ExportTocPageNumbers property
 
-HTML, MHTML ve EPUB kaydedilirken içindekiler tablosuna sayfa numaralarının yazıp yazılmayacağını belirtir. Varsayılan değer`yanlış` .
+HTML, MHTML ve EPUB'u kaydederken içindekiler tablosuna sayfa numaralarının yazıp yazmayacağını belirtir. Varsayılan değer:`YANLIŞ` .
 
 ```csharp
 public bool ExportTocPageNumbers { get; set; }
@@ -23,7 +23,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Bir içindekiler tablosu ekleyin ve ardından belgeyi "Başlık" kullanılarak biçimlendirilmiş paragraflarla doldurun
-// içindekiler tablosunun girdi olarak alacağı stil. Her giriş, solda başlık paragrafını görüntüler,
+// içindekiler tablosunun giriş olarak alacağı stil. Her girişte başlık paragrafı solda görüntülenecektir,
 // ve sağdaki başlığı içeren sayfa numarası.
 FieldToc fieldToc = (FieldToc)builder.InsertField(FieldType.FieldTOC, true);
 
@@ -38,13 +38,13 @@ builder.Writeln("Entry 4");
 fieldToc.UpdatePageNumbers();
 doc.UpdateFields();
 
-// HTML belgelerinin sayfaları yoktur. Bu belgeyi HTML'ye kaydedersek,
-// TOC'mizin gösterdiği sayfa numaralarının hiçbir anlamı olmayacaktır.
-// Belgeyi HTML'ye kaydettiğimizde, bu sayfa numaralarını TOC'den çıkarmak için bir SaveOptions nesnesi iletebiliriz.
+// HTML dokümanlarının sayfaları yoktur. Bu belgeyi HTML'ye kaydedersek,
+// TOC'nin gösterdiği sayfa numaralarının hiçbir anlamı olmayacak.
+// Belgeyi HTML'ye kaydettiğimizde, bu sayfa numaralarını TOC'den çıkarmak için bir SaveOptions nesnesini iletebiliriz.
 // "ExportTocPageNumbers" bayrağını "true" olarak ayarlarsak,
-// her TOC girişi, Microsoft Word'deki görünümünü koruyarak başlığı, ayırıcıyı ve sayfa numarasını görüntüler.
+// her İçindekiler girişi, Microsoft Word'deki görünümünü koruyarak başlığı, ayırıcıyı ve sayfa numarasını görüntüleyecektir.
 // "ExportTocPageNumbers" bayrağını "false" olarak ayarlarsak,
-// kaydetme işlemi hem ayırıcıyı hem de sayfa numarasını atlayacak ve her giriş için başlığı olduğu gibi bırakacaktır.
+// kaydetme işlemi hem ayırıcıyı hem de sayfa numarasını atlayacak ve her girişin başlığını olduğu gibi bırakacaktır.
 HtmlSaveOptions options = new HtmlSaveOptions { ExportTocPageNumbers = exportTocPageNumbers };
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.ExportTocPageNumbers.html", options);
@@ -54,7 +54,6 @@ string outDocContents = File.ReadAllText(ArtifactsDir + "HtmlSaveOptions.ExportT
 if (exportTocPageNumbers)
 {
     Assert.True(outDocContents.Contains(
-        "<p style=\"margin-top:0pt; margin-bottom:0pt\">" +
         "<span>Entry 1</span>" +
         "<span style=\"width:428.14pt; font-family:'Lucida Console'; font-size:10pt; display:inline-block; -aw-font-family:'Times New Roman'; " +
         "-aw-tabstop-align:right; -aw-tabstop-leader:dots; -aw-tabstop-pos:469.8pt\">.......................................................................</span>" +
@@ -65,7 +64,7 @@ else
 {
     Assert.True(outDocContents.Contains(
         "<p style=\"margin-top:0pt; margin-bottom:0pt\">" +
-        "<span>Entry 1</span>" +
+        "<span>Entry 2</span>" +
         "</p>"));
 }
 ```

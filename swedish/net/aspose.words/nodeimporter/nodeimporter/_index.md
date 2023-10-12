@@ -25,7 +25,6 @@ public NodeImporter(DocumentBase srcDoc, DocumentBase dstDoc, ImportFormatMode i
 Visar hur man infogar innehållet i ett dokument till ett bokmärke i ett annat dokument.
 
 ```csharp
-[Test]
 public void InsertAtBookmark()
 {
     Document doc = new Document();
@@ -142,7 +141,7 @@ Document dstDoc = srcDoc.Clone();
 // som vi lägger till originalet kommer att fortsätta numreringen av listan vi lägger till den.
 // Detta kommer effektivt att slå samman de två listorna till en.
 // Om vi ställer in "KeepSourceNumbering"-flaggan till "true", kommer dokumentklonen
-// list kommer att bevara sin ursprungliga numrering, vilket gör att de två listorna visas som separata listor. 
+ // list kommer att bevara sin ursprungliga numrering, vilket gör att de två listorna visas som separata listor.
 ImportFormatOptions importFormatOptions = new ImportFormatOptions();
 importFormatOptions.KeepSourceNumbering = keepSourceNumbering;
 

@@ -3,7 +3,7 @@ title: PageSetup.TextOrientation
 second_title: Aspose.Words لمراجع .NET API
 description: PageSetup ملكية. يسمح بالتحديدTextOrientation للصفحة بأكملها. القيمة الافتراضية هيHorizontal
 type: docs
-weight: 420
+weight: 430
 url: /ar/net/aspose.words/pagesetup/textorientation/
 ---
 ## PageSetup.TextOrientation property
@@ -16,7 +16,7 @@ public TextOrientation TextOrientation { get; set; }
 
 ### ملاحظات
 
-هذه الخاصية مدعومة فقط لتنسيقات MS Word الأصلية DOCX و WML و RTF و DOC.
+هذه الخاصية مدعومة فقط لتنسيقات MS Word الأصلية DOCX وWML وRTF وDOC.
 
 ### أمثلة
 
@@ -28,8 +28,8 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// اضبط خاصية "TextOrientation" على "TextOrientation.Upward" لتدوير كل النص بمقدار 90 درجة
-// إلى اليمين بحيث ينتقل الآن كل النص من اليسار إلى اليمين من أعلى إلى أسفل.
+// اضبط خاصية "TextOrientation" على "TextOrientation.Upward" لتدوير النص بالكامل بمقدار 90 درجة
+// إلى اليمين بحيث ينتقل كل النص من اليسار إلى اليمين من أعلى إلى أسفل.
 PageSetup pageSetup = doc.Sections[0].PageSetup;
 pageSetup.TextOrientation = TextOrientation.Upward;
 

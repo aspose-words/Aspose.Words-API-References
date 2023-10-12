@@ -3,7 +3,7 @@ title: Interface IDocumentLoadingCallback
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.Loading.IDocumentLoadingCallback interface. Implémentez cette interface si vous souhaitez que votre propre méthode personnalisée soit appelée lors du chargement dun document.
 type: docs
-weight: 3430
+weight: 3630
 url: /fr/net/aspose.words.loading/idocumentloadingcallback/
 ---
 ## IDocumentLoadingCallback interface
@@ -18,14 +18,13 @@ public interface IDocumentLoadingCallback
 
 | Nom | La description |
 | --- | --- |
-| [Notify](../../aspose.words.loading/idocumentloadingcallback/notify/)(DocumentLoadingArgs) | Ceci est appelé pour notifier la progression du chargement du document. |
+| [Notify](../../aspose.words.loading/idocumentloadingcallback/notify/)(DocumentLoadingArgs) | Ceci est appelé pour informer de la progression du chargement du document. |
 
 ### Exemples
 
 Montre comment avertir l'utilisateur si le chargement du document a dépassé le temps de chargement prévu.
 
 ```csharp
-[Test]
 public void ProgressCallback()
 {
     LoadingProgressCallback progressCallback = new LoadingProgressCallback();
@@ -50,7 +49,7 @@ public void ProgressCallback()
 public class LoadingProgressCallback : IDocumentLoadingCallback
 {
     /// <summary>
-    /// Ctr.
+    /// Centre.
     /// </summary>
     public LoadingProgressCallback()
     {
@@ -71,7 +70,7 @@ public class LoadingProgressCallback : IDocumentLoadingCallback
     }
 
     /// <summary>
-    /// Date et heure de démarrage du chargement du document.
+    /// Date et heure de début du chargement du document.
     /// </summary>
     private readonly DateTime mLoadingStartedAt;
 

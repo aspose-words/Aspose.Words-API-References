@@ -1,14 +1,14 @@
 ---
 title: TextWatermarkOptions.Color
 second_title: Aspose.Words لمراجع .NET API
-description: TextWatermarkOptions ملكية. الحصول على لون الخط أو تعيينه. القيمة الافتراضية هي Color.Silver.
+description: TextWatermarkOptions ملكية. الحصول على لون الخط أو تحديده. القيمة الافتراضية هيSilver .
 type: docs
 weight: 20
 url: /ar/net/aspose.words/textwatermarkoptions/color/
 ---
 ## TextWatermarkOptions.Color property
 
-الحصول على لون الخط أو تعيينه. القيمة الافتراضية هي Color.Silver.
+الحصول على لون الخط أو تحديده. القيمة الافتراضية هيSilver .
 
 ```csharp
 public Color Color { get; set; }
@@ -21,10 +21,10 @@ public Color Color { get; set; }
 ```csharp
 Document doc = new Document();
 
-// أضف علامة مائية بنص عادي.
+// أضف علامة مائية نصية عادية.
 doc.Watermark.SetText("Aspose Watermark");
 
-// إذا كنا نرغب في تحرير تنسيق النص باستخدامه كعلامة مائية ،
+// إذا أردنا تعديل تنسيق النص باستخدامه كعلامة مائية،
 // يمكننا القيام بذلك عن طريق تمرير كائن TextWatermarkOptions عند إنشاء العلامة المائية.
 TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
 textWatermarkOptions.FontFamily = "Arial";

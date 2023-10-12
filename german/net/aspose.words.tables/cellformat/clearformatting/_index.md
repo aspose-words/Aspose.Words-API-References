@@ -1,14 +1,14 @@
 ---
 title: CellFormat.ClearFormatting
 second_title: Aspose.Words für .NET-API-Referenz
-description: CellFormat methode. Setzt auf Standardzellenformatierung zurück. Ändert nicht die Breite der Zelle.
+description: CellFormat methode. Setzt die Standardzellenformatierung zurück. Ändert die Breite der Zelle nicht.
 type: docs
-weight: 150
+weight: 160
 url: /de/net/aspose.words.tables/cellformat/clearformatting/
 ---
 ## CellFormat.ClearFormatting method
 
-Setzt auf Standardzellenformatierung zurück. Ändert nicht die Breite der Zelle.
+Setzt die Standardzellenformatierung zurück. Ändert die Breite der Zelle nicht.
 
 ```csharp
 public void ClearFormatting()
@@ -21,18 +21,18 @@ Zeigt, wie die Zeilen aus zwei Tabellen zu einer kombiniert werden.
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
 
-// Im Folgenden finden Sie zwei Möglichkeiten, eine Tabelle aus einem Dokument zu erhalten.
-// 1 - Aus der "Tables"-Sammlung eines Body-Knotens:
+// Nachfolgend finden Sie zwei Möglichkeiten, eine Tabelle aus einem Dokument abzurufen.
+// 1 – Aus der „Tables“-Sammlung eines Body-Knotens:
 Table firstTable = doc.FirstSection.Body.Tables[0];
 
-// 2 - Verwendung der "GetChild"-Methode:
+// 2 - Verwendung der Methode „GetChild“:
 Table secondTable = (Table)doc.GetChild(NodeType.Table, 1, true);
 
 // Alle Zeilen der aktuellen Tabelle an die nächste anhängen.
 while (secondTable.HasChildNodes)
     firstTable.Rows.Add(secondTable.FirstRow);
 
-// Entferne den leeren Tabellencontainer.
+// Den leeren Tabellencontainer entfernen.
 secondTable.Remove();
 
 doc.Save(ArtifactsDir + "Table.CombineTables.docx");

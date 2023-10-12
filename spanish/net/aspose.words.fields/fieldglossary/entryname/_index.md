@@ -1,14 +1,14 @@
 ---
 title: FieldGlossary.EntryName
 second_title: Referencia de API de Aspose.Words para .NET
-description: FieldGlossary propiedad. Obtiene o establece el nombre de la entrada del glosario a insertar.
+description: FieldGlossary propiedad. Obtiene o establece el nombre de la entrada del glosario que se va a insertar.
 type: docs
 weight: 20
 url: /es/net/aspose.words.fields/fieldglossary/entryname/
 ---
 ## FieldGlossary.EntryName property
 
-Obtiene o establece el nombre de la entrada del glosario a insertar.
+Obtiene o establece el nombre de la entrada del glosario que se va a insertar.
 
 ```csharp
 public string EntryName { get; set; }
@@ -16,7 +16,7 @@ public string EntryName { get; set; }
 
 ### Ejemplos
 
-Muestra cómo mostrar un bloque de creación con campos de AUTOTEXTO y GLOSARIO.
+Muestra cómo mostrar un bloque de construcción con campos AUTOTEXTO y GLOSARIO.
 
 ```csharp
 Document doc = new Document();
@@ -31,7 +31,7 @@ buildingBlock.Description = "MyBlock description";
 buildingBlock.Behavior = BuildingBlockBehavior.Paragraph;
 doc.GlossaryDocument.AppendChild(buildingBlock);
 
-// Cree una fuente y agréguela como texto a nuestro bloque de construcción.
+// Crea una fuente y agrégala como texto a nuestro bloque de construcción.
 Document buildingBlockSource = new Document();
 DocumentBuilder buildingBlockSourceBuilder = new DocumentBuilder(buildingBlockSource);
 buildingBlockSourceBuilder.Writeln("Hello World!");
@@ -39,13 +39,13 @@ buildingBlockSourceBuilder.Writeln("Hello World!");
 Node buildingBlockContent = doc.GlossaryDocument.ImportNode(buildingBlockSource.FirstSection, true);
 buildingBlock.AppendChild(buildingBlockContent);
 
-// Establecer un archivo que contenga partes que nuestro documento o su plantilla adjunta no puedan contener.
+// Establece un archivo que contiene partes que nuestro documento o su plantilla adjunta pueden no contener.
 doc.FieldOptions.BuiltInTemplatesPaths = new[] { MyDir + "Busniess brochure.dotx" };
 
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// A continuación hay dos formas de usar campos para mostrar el contenido de nuestro bloque de construcción.
-// 1 - Usando un campo de AUTOTEXTO:
+// A continuación se muestran dos formas de utilizar campos para mostrar el contenido de nuestro bloque de construcción.
+// 1 - Usando un campo AUTOTEXTO:
 FieldAutoText fieldAutoText = (FieldAutoText)builder.InsertField(FieldType.FieldAutoText, true);
 fieldAutoText.EntryName = "MyBlock";
 

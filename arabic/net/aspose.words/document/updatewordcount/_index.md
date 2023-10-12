@@ -1,14 +1,14 @@
 ---
 title: Document.UpdateWordCount
 second_title: Aspose.Words لمراجع .NET API
-description: Document طريقة. يقوم بتحديث خصائص عدد الكلمات الخاصة بالمستند.
+description: Document طريقة. لتحديث خصائص عدد الكلمات في المستند.
 type: docs
-weight: 770
+weight: 810
 url: /ar/net/aspose.words/document/updatewordcount/
 ---
 ## UpdateWordCount() {#updatewordcount}
 
-يقوم بتحديث خصائص عدد الكلمات الخاصة بالمستند.
+لتحديث خصائص عدد الكلمات في المستند.
 
 ```csharp
 public void UpdateWordCount()
@@ -16,15 +16,15 @@ public void UpdateWordCount()
 
 ### ملاحظات
 
-**UpdateWordCount** يعيد حساب وتحديث خصائص الأحرف والكلمات والفقرات_ في ملف[`BuiltInDocumentProperties`](../builtindocumentproperties/) جمع **وثيقة**.
+`UpdateWordCount` يعيد حساب وتحديث خصائص الأحرف والكلمات والفقرات في ملف[`BuiltInDocumentProperties`](../builtindocumentproperties/) جمع من[`Document`](../).
 
-لاحظ أن **UpdateWordCount** لا يقوم بتحديث عدد الأسطر وخصائص الصفحات. استخدم ملف`UpdateWordCount` الزائد وتمرير القيمة الحقيقية كمعامل للقيام بذلك.
+لاحظ أن`UpdateWordCount`لا يقوم بتحديث خصائص عدد الأسطر والصفحات. استخدم`UpdateWordCount` الزائد وتمرير`حقيقي` القيمة كمعلمة للقيام بذلك.
 
-عند استخدام إصدار تقييم ، سيتم أيضًا تضمين العلامة المائية للتقييم_ في عدد الكلمات.
+عند استخدام إصدار تقييمي، سيتم أيضًا تضمين العلامة المائية للتقييم في عدد الكلمات.
 
 ### أمثلة
 
-يوضح كيفية تحديث كافة تسميات القائمة في مستند.
+يوضح كيفية تحديث جميع تسميات القائمة في المستند.
 
 ```csharp
 Document doc = new Document();
@@ -35,20 +35,20 @@ builder.Writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, " +
 builder.Write("Ut enim ad minim veniam, " +
                 "quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.");
 
-// Aspose.Words لا تتعقب مقاييس المستندات مثل هذه في الوقت الفعلي.
+// Aspose.Words لا يتتبع مقاييس المستند مثل هذه في الوقت الفعلي.
 Assert.AreEqual(0, doc.BuiltInDocumentProperties.Characters);
 Assert.AreEqual(0, doc.BuiltInDocumentProperties.Words);
 Assert.AreEqual(1, doc.BuiltInDocumentProperties.Paragraphs);
 Assert.AreEqual(1, doc.BuiltInDocumentProperties.Lines);
 
-// للحصول على قيم دقيقة لثلاث من هذه الخصائص ، سنحتاج إلى تحديثها يدويًا.
+// للحصول على قيم دقيقة لثلاث من هذه الخصائص، سنحتاج إلى تحديثها يدويًا.
 doc.UpdateWordCount();
 
 Assert.AreEqual(196, doc.BuiltInDocumentProperties.Characters);
 Assert.AreEqual(36, doc.BuiltInDocumentProperties.Words);
 Assert.AreEqual(2, doc.BuiltInDocumentProperties.Paragraphs);
 
-// بالنسبة لعدد الأسطر ، سنحتاج إلى استدعاء حمل زائد محدد لطريقة التحديث.
+// بالنسبة لعدد الأسطر، سنحتاج إلى استدعاء تحميل زائد محدد لطريقة التحديث.
 Assert.AreEqual(1, doc.BuiltInDocumentProperties.Lines);
 
 doc.UpdateWordCount(true);
@@ -66,7 +66,7 @@ Assert.AreEqual(4, doc.BuiltInDocumentProperties.Lines);
 
 ## UpdateWordCount(bool) {#updatewordcount_1}
 
-يحدّث خصائص عدد الكلمات في المستند ، ويتم تحديثه اختياريًا[`Lines`](../../../aspose.words.properties/builtindocumentproperties/lines/) الملكية .
+يقوم بتحديث خصائص عدد الكلمات في المستند، ويتم تحديثه بشكل اختياري[`Lines`](../../../aspose.words.properties/builtindocumentproperties/lines/) الملكية.
 
 ```csharp
 public void UpdateWordCount(bool updateLinesCount)
@@ -74,15 +74,15 @@ public void UpdateWordCount(bool updateLinesCount)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| updateLinesCount | Boolean | صحيح إذا تم حساب عدد الأسطر في المستند. |
+| updateLinesCount | Boolean | `حقيقي` إذا تم حساب عدد الأسطر في الوثيقة. |
 
 ### ملاحظات
 
-ستعيد هذه الطريقة بناء تخطيط صفحة المستند.
+ستعمل هذه الطريقة على إعادة بناء تخطيط صفحة المستند.
 
 ### أمثلة
 
-يوضح كيفية تحديث كافة تسميات القائمة في مستند.
+يوضح كيفية تحديث جميع تسميات القائمة في المستند.
 
 ```csharp
 Document doc = new Document();
@@ -93,20 +93,20 @@ builder.Writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, " +
 builder.Write("Ut enim ad minim veniam, " +
                 "quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.");
 
-// Aspose.Words لا تتعقب مقاييس المستندات مثل هذه في الوقت الفعلي.
+// Aspose.Words لا يتتبع مقاييس المستند مثل هذه في الوقت الفعلي.
 Assert.AreEqual(0, doc.BuiltInDocumentProperties.Characters);
 Assert.AreEqual(0, doc.BuiltInDocumentProperties.Words);
 Assert.AreEqual(1, doc.BuiltInDocumentProperties.Paragraphs);
 Assert.AreEqual(1, doc.BuiltInDocumentProperties.Lines);
 
-// للحصول على قيم دقيقة لثلاث من هذه الخصائص ، سنحتاج إلى تحديثها يدويًا.
+// للحصول على قيم دقيقة لثلاث من هذه الخصائص، سنحتاج إلى تحديثها يدويًا.
 doc.UpdateWordCount();
 
 Assert.AreEqual(196, doc.BuiltInDocumentProperties.Characters);
 Assert.AreEqual(36, doc.BuiltInDocumentProperties.Words);
 Assert.AreEqual(2, doc.BuiltInDocumentProperties.Paragraphs);
 
-// بالنسبة لعدد الأسطر ، سنحتاج إلى استدعاء حمل زائد محدد لطريقة التحديث.
+// بالنسبة لعدد الأسطر، سنحتاج إلى استدعاء تحميل زائد محدد لطريقة التحديث.
 Assert.AreEqual(1, doc.BuiltInDocumentProperties.Lines);
 
 doc.UpdateWordCount(true);

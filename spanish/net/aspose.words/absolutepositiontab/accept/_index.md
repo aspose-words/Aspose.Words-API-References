@@ -20,11 +20,11 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Valor_devuelto
 
-Falso si el visitante solicitó que se detuviera la enumeración.
+`FALSO` si el visitante solicitó que se detuviera la enumeración.
 
 ### Observaciones
 
-Llama a DocumentVisitor.VisitAbsolutePositionTab.
+llamadas[`VisitAbsolutePositionTab`](../../documentvisitor/visitabsolutepositiontab/).
 
 Para obtener más información, consulte el patrón de diseño Visitante.
 
@@ -37,14 +37,14 @@ public void DocumentToTxt()
 {
     Document doc = new Document(MyDir + "Absolute position tab.docx");
 
-    // Extraiga el contenido de texto de nuestro documento aceptando este visitante de documento personalizado.
+    // Extrae el contenido del texto de nuestro documento aceptando este visitante de documento personalizado.
     DocTextExtractor myDocTextExtractor = new DocTextExtractor();
     doc.FirstSection.Body.Accept(myDocTextExtractor);
 
     // La tabulación de posición absoluta, que no tiene equivalente en forma de cadena, se ha convertido explícitamente en un carácter de tabulación.
     Assert.AreEqual("Before AbsolutePositionTab\tAfter AbsolutePositionTab", myDocTextExtractor.GetText());
 
-    // Una AbsolutePositionTab también puede aceptar un DocumentVisitor por sí misma.
+    // Un AbsolutePositionTab también puede aceptar un DocumentVisitor por sí solo.
     AbsolutePositionTab absPositionTab = (AbsolutePositionTab)doc.FirstSection.Body.FirstParagraph.GetChild(NodeType.SpecialChar, 0, true);
 
     myDocTextExtractor = new DocTextExtractor();
@@ -54,7 +54,7 @@ public void DocumentToTxt()
 }
 
 /// <summary>
-/// Recopila el contenido de texto de todas las ejecuciones en el documento visitado. Reemplaza todos los caracteres de tabulación absolutos con tabulaciones ordinarias.
+/// Recopila el contenido del texto de todas las ejecuciones en el documento visitado. Reemplaza todos los caracteres de tabulación absoluta con tabulaciones normales.
 /// </summary>
 public class DocTextExtractor : DocumentVisitor
 {
@@ -64,7 +64,7 @@ public class DocTextExtractor : DocumentVisitor
     }
 
     /// <summary>
-    /// Llamado cuando se encuentra un nodo Ejecutar en el documento.
+    /// Se llama cuando se encuentra un nodo Ejecutar en el documento.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -73,7 +73,7 @@ public class DocTextExtractor : DocumentVisitor
     }
 
     /// <summary>
-    /// Llamado cuando se encuentra un nodo AbsolutePositionTab en el documento.
+    /// Se llama cuando se encuentra un nodo AbsolutePositionTab en el documento.
     /// </summary>
     public override VisitorAction VisitAbsolutePositionTab(AbsolutePositionTab tab)
     {
@@ -82,7 +82,7 @@ public class DocTextExtractor : DocumentVisitor
     }
 
     /// <summary>
-    /// Agrega texto a la salida actual. Respeta el indicador de salida activado/desactivado.
+    /// Agrega texto a la salida actual. Respeta el indicador de salida habilitado/deshabilitado.
     /// </summary>
     private void AppendText(string text)
     {
@@ -90,7 +90,7 @@ public class DocTextExtractor : DocumentVisitor
     }
 
     /// <summary>
-    /// Texto sin formato del documento que fue acumulado por el visitante.
+    /// Texto sin formato del documento acumulado por el visitante.
     /// </summary>
     public string GetText()
     {

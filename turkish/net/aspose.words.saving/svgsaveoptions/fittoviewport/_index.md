@@ -1,16 +1,16 @@
 ---
 title: SvgSaveOptions.FitToViewPort
 second_title: Aspose.Words for .NET API Referansı
-description: SvgSaveOptions mülk. Çıktı SVGsinin kullanılabilir görünüm alanı alanını tarayıcı penceresi veya kapsayıcı doldurup doldurmayacağını belirtir. Çıktı SVGsinin gerçek genişliği ve yüksekliği 100 olarak ayarlanır.
+description: SvgSaveOptions mülk. Çıkış SVGsinin mevcut görünüm alanını tarayıcı penceresi veya kapsayıcı doldurması gerekip gerekmediğini belirtir. Olarak ayarlandığındadoğru SVG çıkışının genişliği ve yüksekliği 100 olarak ayarlandı.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.saving/svgsaveoptions/fittoviewport/
 ---
 ## SvgSaveOptions.FitToViewPort property
 
-Çıktı SVG'sinin kullanılabilir görünüm alanı alanını (tarayıcı penceresi veya kapsayıcı) doldurup doldurmayacağını belirtir. Çıktı SVG'sinin gerçek genişliği ve yüksekliği %100 olarak ayarlanır.
+Çıkış SVG'sinin mevcut görünüm alanını (tarayıcı penceresi veya kapsayıcı) doldurması gerekip gerekmediğini belirtir. Olarak ayarlandığında`doğru` SVG çıkışının genişliği ve yüksekliği %100 olarak ayarlandı.
 
-Varsayılan değer yanlıştır.
+Varsayılan değer:`YANLIŞ`.
 
 ```csharp
 public bool FitToViewPort { get; set; }

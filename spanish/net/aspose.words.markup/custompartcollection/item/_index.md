@@ -16,7 +16,7 @@ public CustomPart this[int index] { get; set; }
 
 | Parámetro | Descripción |
 | --- | --- |
-| index | Índice de base cero del elemento. |
+| index | Índice de base cero del artículo. |
 
 ### Ejemplos
 
@@ -27,12 +27,12 @@ Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);
 
-// Clona la segunda parte, luego agrega el clon a la colección.
+// Clona la segunda parte y luego agrega el clon a la colección.
 CustomPart clonedPart = doc.PackageCustomParts[1].Clone();
 doc.PackageCustomParts.Add(clonedPart);
 Assert.AreEqual(3, doc.PackageCustomParts.Count);
 
-// Enumerar sobre la colección e imprimir cada parte.
+// Enumerar la colección e imprimir cada parte.
 using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator())
 {
     int index = 0;

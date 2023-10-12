@@ -16,24 +16,26 @@ public FontInfoSubstitutionRule FontInfoSubstitution { get; }
 
 ### Esempi
 
-Mostra come impostare la proprietà per trovare la corrispondenza più vicina per un carattere mancante dalle fonti di carattere disponibili.
+Mostra come impostare la proprietà per trovare la corrispondenza più vicina per un carattere mancante tra le origini dei caratteri disponibili.
 
 ```csharp
-[Test]
 public void EnableFontSubstitution()
 {
-    // Apri un documento che contiene testo formattato con un font che non esiste in nessuna delle nostre fonti di font.
+    // Apre un documento che contiene testo formattato con un carattere che non esiste in nessuna delle nostre fonti di caratteri.
     Document doc = new Document(MyDir + "Missing font.docx");
 
-    // Assegna una richiamata per la gestione degli avvisi di sostituzione dei caratteri.
+    // Assegna una richiamata per gestire gli avvisi di sostituzione dei caratteri.
     HandleDocumentSubstitutionWarnings substitutionWarningHandler = new HandleDocumentSubstitutionWarnings();
     doc.WarningCallback = substitutionWarningHandler;
 
-    // Imposta un nome di carattere predefinito e abilita la sostituzione dei caratteri.
+    // Imposta un nome di carattere predefinito e abilita la sostituzione del carattere.
     FontSettings fontSettings = new FontSettings();
     fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
     ;
     fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
+
+    // Le metriche dei caratteri originali devono essere utilizzate dopo la sostituzione dei caratteri.
+    doc.LayoutOptions.KeepOriginalFontMetrics = true;
 
     // Riceveremo un avviso di sostituzione del carattere se salviamo un documento con un carattere mancante.
     doc.FontSettings = fontSettings;

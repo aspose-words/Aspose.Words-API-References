@@ -3,7 +3,7 @@ title: DocumentBuilder.MoveToParagraph
 second_title: Aspose.Words för .NET API Referens
 description: DocumentBuilder metod. Flyttar markören till ett stycke i det aktuella avsnittet.
 type: docs
-weight: 540
+weight: 570
 url: /sv/net/aspose.words/documentbuilder/movetoparagraph/
 ---
 ## DocumentBuilder.MoveToParagraph method
@@ -21,9 +21,9 @@ public void MoveToParagraph(int paragraphIndex, int characterIndex)
 
 ### Anmärkningar
 
-Navigeringen utförs inuti den aktuella berättelsen i det aktuella avsnittet. Det vill säga om du flyttade markören till den primära rubriken i det första avsnittet, så specificerade paragraphIndex indexet för stycket inuti den header i det avsnittet.
+Navigeringen utförs i den aktuella berättelsen i det aktuella avsnittet. Det vill säga om du flyttade markören till den primära rubriken i den första sektionen, då*paragraphIndex*specificerade indexet för stycket inuti header i det avsnittet.
 
-När paragraphIndex är större än eller lika med 0, anger det ett index från början av avsnittet med 0 som det första stycket. När paragraphIndex är mindre än 0, specificerade det ett index från slutet av avsnittet med -1 som det sista stycket.
+När*paragraphIndex* är större än eller lika med 0, anger det ett index från början av avsnittet med 0 som första stycket. När*paragraphIndex* är mindre än 0, den specificerade ett index från slutet av avsnittet med -1 som det sista stycket.
 
 ### Exempel
 

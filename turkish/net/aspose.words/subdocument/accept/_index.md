@@ -1,14 +1,14 @@
 ---
 title: SubDocument.Accept
 second_title: Aspose.Words for .NET API Referansı
-description: SubDocument yöntem. Bir ziyaretçiyi kabul eder.
+description: SubDocument yöntem. Ziyaretçi kabul eder.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/subdocument/accept/
 ---
 ## SubDocument.Accept method
 
-Bir ziyaretçiyi kabul eder.
+Ziyaretçi kabul eder.
 
 ```csharp
 public override bool Accept(DocumentVisitor visitor)
@@ -20,13 +20,13 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Geri dönüş değeri
 
-Tüm düğümler ziyaret edildiyse doğrudur; DocumentVisitor tüm düğümleri ziyaret etmeden önce işlemi durdurduysa false.
+Tüm düğümler ziyaret edilmişse doğrudur; yanlış ise[`DocumentVisitor`](../../documentvisitor/) tüm düğümleri ziyaret etmeden işlemi durdurdu.
 
 ### Notlar
 
-Bu düğüm ve tüm alt öğeleri üzerinde numaralandırır. Her düğüm, DocumentVisitor'da karşılık gelen bir yöntemi çağırır.
+Bu düğümü ve tüm alt öğelerini numaralandırır. Her düğüm kendisine karşılık gelen bir yöntemi çağırır.[`DocumentVisitor`](../../documentvisitor/).
 
-Daha fazla bilgi için Ziyaretçi tasarım modeline bakın.
+Daha fazla bilgi için Ziyaretçi tasarım desenine bakın.
 
 ### Örnekler
 
@@ -38,17 +38,17 @@ public void DocStructureToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     DocStructurePrinter visitor = new DocStructurePrinter();
 
-    // Bir belge ziyaretçisini kabul etmek için bir bileşik düğüm aldığımızda, ziyaretçi kabul eden düğümü ziyaret eder,
-    // ve ardından tüm düğümün alt öğelerini derinlik öncelikli bir şekilde çaprazlar.
-    // Ziyaretçi, ziyaret edilen her düğümü okuyabilir ve değiştirebilir.
+    // Bir belge ziyaretçisini kabul edecek bileşik bir düğüm aldığımızda, ziyaretçi kabul eden düğümü ziyaret eder,
+    // ve ardından düğümün tüm alt öğelerini derinlik öncelikli bir şekilde geçer.
+    // Ziyaretçi ziyaret edilen her düğümü okuyabilir ve değiştirebilir.
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 }
 
 /// <summary>
-/// Bir düğümün alt düğümler ağacında çapraz geçiş yapar.
-/// Bu ağacın bir dizge biçiminde bir haritasını oluşturur.
+/// Bir düğümün alt düğüm ağacını geçer.
+/// Bu ağacın haritasını dize biçiminde oluşturur.
 /// </summary>
 public class DocStructurePrinter : DocumentVisitor
 {
@@ -77,7 +77,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Belge düğümünün tüm alt düğümleri ziyaret edildikten sonra çağrılır.
+    /// Bir Belge düğümünün tüm alt düğümleri ziyaret edildikten sonra çağrılır.
     /// </summary>
     public override VisitorAction VisitDocumentEnd(Document doc)
     {
@@ -92,7 +92,7 @@ public class DocStructurePrinter : DocumentVisitor
     /// </summary>
     public override VisitorAction VisitSectionStart(Section section)
     {
-        // Belge içindeki bölümümüzün indeksini alın.
+        // Doküman içerisindeki bölümümüzün indeksini alın.
         NodeCollection docSections = section.Document.GetChildNodes(NodeType.Section, false);
         int sectionIndex = docSections.IndexOf(section);
 
@@ -126,7 +126,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Bir Body düğümünün tüm alt düğümleri ziyaret edildikten sonra çağrılır.
+    /// Bir Gövde düğümünün tüm alt düğümleri ziyaret edildikten sonra çağrılır.
     /// </summary>
     public override VisitorAction VisitBodyEnd(Body body)
     {
@@ -148,7 +148,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Paragraf düğümünün tüm alt düğümleri ziyaret edildikten sonra çağrılır.
+    /// Bir Paragraf düğümünün tüm alt düğümleri ziyaret edildikten sonra çağrılır.
     /// </summary>
     public override VisitorAction VisitParagraphEnd(Paragraph paragraph)
     {
@@ -179,9 +179,9 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// StringBuilder'a bir satır ekleyin ve ziyaretçinin belge ağacında ne kadar derin olduğuna bağlı olarak girinti yapın.
+    /// StringBuilder'a bir satır ekleyin ve ziyaretçinin belge ağacında ne kadar derin olduğuna bağlı olarak onu girintileyin.
     /// </summary>
-    /// <param name="metin"></param>
+    /// <param adı="metin"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++) mAcceptingNodeChildTree.Append("|  ");

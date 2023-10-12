@@ -1,14 +1,16 @@
 ---
 title: Class AbsolutePositionTab
 second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.AbsolutePositionTab klas. Ein absoluter Positionstabulator ist ein Zeichen das verwendet wird um die Position in der aktuellen Textzeile vorzurücken wenn dieser WordprocessingMLInhalt angezeigt wird.
+description: Aspose.Words.AbsolutePositionTab klas. Ein absoluter PositionsTabulator ist ein Zeichen das verwendet wird um die Position in der aktuellen Textzeile vorzurücken wenn dieser WordprocessingMLInhalt angezeigt wird.
 type: docs
 weight: 10
 url: /de/net/aspose.words/absolutepositiontab/
 ---
 ## AbsolutePositionTab class
 
-Ein absoluter Positionstabulator ist ein Zeichen, das verwendet wird, um die Position in der aktuellen Textzeile vorzurücken, wenn dieser WordprocessingML-Inhalt angezeigt wird.
+Ein absoluter Positions-Tabulator ist ein Zeichen, das verwendet wird, um die Position in der aktuellen Textzeile vorzurücken, wenn dieser WordprocessingML-Inhalt angezeigt wird.
+
+Um mehr zu erfahren, besuchen Sie die[Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) Dokumentationsartikel.
 
 ```csharp
 public class AbsolutePositionTab : SpecialChar
@@ -20,19 +22,19 @@ public class AbsolutePositionTab : SpecialChar
 | --- | --- |
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Gibt die benutzerdefinierte Knotenkennung an. |
 | virtual [Document](../../aspose.words/node/document/) { get; } | Ruft das Dokument ab, zu dem dieser Knoten gehört. |
-| [Font](../../aspose.words/inline/font/) { get; } | Bietet Zugriff auf die Schriftformatierung dieses Objekts. |
-| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Gibt wahr zurück, wenn dieser Knoten andere Knoten enthalten kann. |
-| [IsDeleteRevision](../../aspose.words/inline/isdeleterevision/) { get; } | Gibt „true“ zurück, wenn dieses Objekt in Microsoft Word gelöscht wurde, während die Änderungsnachverfolgung aktiviert war. |
+| [Font](../../aspose.words/inline/font/) { get; } | Bietet Zugriff auf die Schriftartformatierung dieses Objekts. |
+| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Gibt zurück`WAHR` ob dieser Knoten andere Knoten enthalten kann. |
+| [IsDeleteRevision](../../aspose.words/inline/isdeleterevision/) { get; } | Gibt „true“ zurück, wenn dieses Objekt in Microsoft Word gelöscht wurde, während die Änderungsverfolgung aktiviert war. |
 | [IsFormatRevision](../../aspose.words/inline/isformatrevision/) { get; } | Gibt „true“ zurück, wenn die Formatierung des Objekts in Microsoft Word geändert wurde, während die Änderungsverfolgung aktiviert war. |
 | [IsInsertRevision](../../aspose.words/inline/isinsertrevision/) { get; } | Gibt „true“ zurück, wenn dieses Objekt in Microsoft Word eingefügt wurde, während die Änderungsverfolgung aktiviert war. |
-| [IsMoveFromRevision](../../aspose.words/inline/ismovefromrevision/) { get; } | gibt zurück **Stimmt** wenn dieses Objekt in Microsoft Word verschoben (gelöscht) wurde, während die Änderungsnachverfolgung aktiviert war. |
-| [IsMoveToRevision](../../aspose.words/inline/ismovetorevision/) { get; } | gibt zurück **Stimmt** wenn dieses Objekt in Microsoft Word verschoben (eingefügt) wurde, während die Änderungsnachverfolgung aktiviert war. |
+| [IsMoveFromRevision](../../aspose.words/inline/ismovefromrevision/) { get; } | Gibt zurück`WAHR` wenn dieses Objekt in Microsoft Word verschoben (gelöscht) wurde, während die Änderungsverfolgung aktiviert war. |
+| [IsMoveToRevision](../../aspose.words/inline/ismovetorevision/) { get; } | Gibt zurück`WAHR` wenn dieses Objekt in Microsoft Word verschoben (eingefügt) wurde, während die Änderungsverfolgung aktiviert war. |
 | [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Ruft den Knoten ab, der diesem Knoten unmittelbar folgt. |
-| override [NodeType](../../aspose.words/specialchar/nodetype/) { get; } | gibt zurück **NodeType.SpecialChar** . |
-| [ParentNode](../../aspose.words/node/parentnode/) { get; } | Ruft den unmittelbar übergeordneten Knoten dieses Knotens ab. |
+| override [NodeType](../../aspose.words/specialchar/nodetype/) { get; } | Gibt zurückSpecialChar . |
+| [ParentNode](../../aspose.words/node/parentnode/) { get; } | Ruft das unmittelbare übergeordnete Element dieses Knotens ab. |
 | [ParentParagraph](../../aspose.words/inline/parentparagraph/) { get; } | Ruft das übergeordnete Element ab[`Paragraph`](../paragraph/) dieses Knotens. |
-| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Ruft den Knoten unmittelbar vor diesem Knoten ab. |
-| [Range](../../aspose.words/node/range/) { get; } | Gibt a zurück **Bereich** Objekt, das den Teil eines Dokuments darstellt, das in diesem Knoten enthalten ist. |
+| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Ruft den Knoten ab, der diesem Knoten unmittelbar vorangeht. |
+| [Range](../../aspose.words/node/range/) { get; } | Gibt a zurück[`Range`](../range/) Objekt, das den Teil eines Dokuments darstellt, der in diesem Knoten enthalten ist. |
 
 ## Methoden
 
@@ -40,18 +42,18 @@ public class AbsolutePositionTab : SpecialChar
 | --- | --- |
 | override [Accept](../../aspose.words/absolutepositiontab/accept/)(DocumentVisitor) | Akzeptiert einen Besucher. |
 | [Clone](../../aspose.words/node/clone/)(bool) | Erstellt ein Duplikat des Knotens. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Ruft den ersten Vorfahren der angegebenen ab[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Ruft den ersten Vorfahren des angegebenen ab[`NodeType`](../nodetype/) . |
 | [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Ruft den ersten Vorfahren des angegebenen Objekttyps ab. |
 | override [GetText](../../aspose.words/specialchar/gettext/)() | Ruft das Sonderzeichen ab, das dieser Knoten darstellt. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Ruft den nächsten Knoten gemäß dem Traversalalgorithmus des Vorbestellungsbaums ab. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Ruft den vorherigen Knoten gemäß dem Traversalalgorithmus des Vorbestellungsbaums ab. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Ruft den nächsten Knoten gemäß dem Pre-Order-Tree-Traversal-Algorithmus ab. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Ruft den vorherigen Knoten gemäß dem Pre-Order-Tree-Traversal-Algorithmus ab. |
 | [Remove](../../aspose.words/node/remove/)() | Entfernt sich selbst vom übergeordneten Element. |
 | [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exportiert den Inhalt des Knotens in einen String im angegebenen Format. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exportiert den Inhalt des Knotens unter Verwendung der angegebenen Speicheroptionen in einen String. |
+| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exportiert den Inhalt des Knotens mit den angegebenen Speicheroptionen in einen String. |
 
 ### Beispiele
 
-Zeigt, wie Tabulatorzeichen mit absoluter Position mit einem Dokumentbesucher verarbeitet werden.
+Zeigt, wie Tabulatorzeichen für absolute Positionen mit einem Dokumentbesucher verarbeitet werden.
 
 ```csharp
 public void DocumentToTxt()
@@ -62,10 +64,10 @@ public void DocumentToTxt()
     DocTextExtractor myDocTextExtractor = new DocTextExtractor();
     doc.FirstSection.Body.Accept(myDocTextExtractor);
 
-    // Die absolute Position tab, die kein Äquivalent in Zeichenfolgenform hat, wurde explizit in ein Tabulatorzeichen umgewandelt.
+    // Der Tabulator für die absolute Position, für den es in Stringform keine Entsprechung gibt, wurde explizit in ein Tabulatorzeichen umgewandelt.
     Assert.AreEqual("Before AbsolutePositionTab\tAfter AbsolutePositionTab", myDocTextExtractor.GetText());
 
-    // Ein AbsolutePositionTab kann auch selbst einen DocumentVisitor akzeptieren.
+    // Ein AbsolutePositionTab kann auch einen DocumentVisitor alleine akzeptieren.
     AbsolutePositionTab absPositionTab = (AbsolutePositionTab)doc.FirstSection.Body.FirstParagraph.GetChild(NodeType.SpecialChar, 0, true);
 
     myDocTextExtractor = new DocTextExtractor();
@@ -75,7 +77,7 @@ public void DocumentToTxt()
 }
 
 /// <summary>
-/// Sammelt den Textinhalt aller Läufe im besuchten Dokument. Ersetzt alle absoluten Tabulatorzeichen durch gewöhnliche Tabulatoren.
+/// Sammelt den Textinhalt aller Läufe im besuchten Dokument. Ersetzt alle absoluten Tabulatorzeichen durch normale Tabulatoren.
 /// </summary>
 public class DocTextExtractor : DocumentVisitor
 {
@@ -103,7 +105,7 @@ public class DocTextExtractor : DocumentVisitor
     }
 
     /// <summary>
-    /// Fügt Text zur aktuellen Ausgabe hinzu. Berücksichtigt das aktivierte/deaktivierte Ausgangsflag.
+    /// Fügt Text zur aktuellen Ausgabe hinzu. Berücksichtigt das aktivierte/deaktivierte Ausgabeflag.
     /// </summary>
     private void AppendText(string text)
     {
@@ -111,7 +113,7 @@ public class DocTextExtractor : DocumentVisitor
     }
 
     /// <summary>
-    /// Klartext des Dokuments, das vom Besucher gesammelt wurde.
+    /// Nur-Text des Dokuments, das vom Besucher gesammelt wurde.
     /// </summary>
     public string GetText()
     {

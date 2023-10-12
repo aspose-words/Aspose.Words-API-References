@@ -3,7 +3,7 @@ title: ParagraphFormat.Bidi
 second_title: Aspose.Words لمراجع .NET API
 description: ParagraphFormat ملكية. الحصول على أو تحديد ما إذا كانت هذه فقرة من اليمين إلى اليسار.
 type: docs
-weight: 40
+weight: 50
 url: /ar/net/aspose.words/paragraphformat/bidi/
 ---
 ## ParagraphFormat.Bidi property
@@ -16,20 +16,20 @@ public bool Bidi { get; set; }
 
 ### ملاحظات
 
-عندما يكون صحيحًا ، يتم تخطيط عمليات التشغيل والكائنات المضمنة الأخرى في هذه الفقرة من اليمين إلى اليسار.
+متى`حقيقي`، تم وضع عمليات التشغيل والكائنات المضمنة الأخرى في هذه الفقرة من اليمين إلى اليسار.
 
 ### أمثلة
 
-يوضح كيفية اكتشاف اتجاه نص مستند عادي.
+يوضح كيفية اكتشاف اتجاه نص مستند النص العادي.
 
 ```csharp
-// قم بإنشاء كائن "TxtLoadOptions" ، والذي يمكننا تمريره إلى مُنشئ المستند
+// قم بإنشاء كائن "TxtLoadOptions"، والذي يمكننا تمريره إلى مُنشئ المستند
 // لتعديل كيفية تحميل مستند نص عادي.
 TxtLoadOptions loadOptions = new TxtLoadOptions();
 
-// اضبط خاصية "DocumentDirection" على "DocumentDirection.Auto" بالكشف تلقائيًا
-// اتجاه كل فقرة من النص يتم تحميل كلمات Aspose.Words من نص عادي.
-// ستقوم خاصية "Bidi" الخاصة بكل فقرة بتخزين اتجاهها.
+// قم بتعيين خاصية "DocumentDirection" على "DocumentDirection.Auto" التي يتم اكتشافها تلقائيًا
+// اتجاه كل فقرة من النص يقوم Aspose.Words بتحميلها من النص العادي.
+// خاصية "Bidi" لكل فقرة ستخزن اتجاهها.
 loadOptions.DocumentDirection = DocumentDirection.Auto;
 
 // كشف النص العبري من اليمين إلى اليسار.
@@ -37,27 +37,27 @@ Document doc = new Document(MyDir + "Hebrew text.txt", loadOptions);
 
 Assert.True(doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Bidi);
 
-// كشف النص الإنجليزي من اليمين إلى اليسار.
+// اكتشاف النص الإنجليزي باعتباره من اليمين إلى اليسار.
 doc = new Document(MyDir + "English text.txt", loadOptions);
 
 Assert.False(doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Bidi);
 ```
 
-يوضح كيفية إنشاء قوائم متوافقة مع اللغة ذات الاتجاه من اليمين إلى اليسار باستخدام حقول BIDIOUTLINE.
+يوضح كيفية إنشاء قوائم متوافقة مع اللغة من اليمين إلى اليسار باستخدام حقول BIDIOUTLINE.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// فقرات أرقام الحقول BIDIOUTLINE مثل حقول AUTONUM / LISTNUM ،
-// ولكنه يكون مرئيًا فقط عند تمكين لغة تحرير من اليمين إلى اليسار ، مثل العبرية أو العربية.
-// سيعرض الحقل التالي ".1" ، المكافئ RTL لرقم القائمة "1.".
+// يقوم حقل BIDIOUTLINE بترقيم الفقرات مثل حقول AUTONUM/LISTNUM،
+// ولكنه يكون مرئيًا فقط عند تمكين لغة التحرير من اليمين إلى اليسار، مثل العبرية أو العربية.
+// سيعرض الحقل التالي ".1"، وهو ما يعادل رقم القائمة "1." من اليمين إلى اليسار (RTL).
 FieldBidiOutline field = (FieldBidiOutline)builder.InsertField(FieldType.FieldBidiOutline, true);
 builder.Writeln("שלום");
 
 Assert.AreEqual(" BIDIOUTLINE ", field.GetFieldCode());
 
-// أضف حقلين BIDIOUTLINE آخرين ، والذي سيعرض ".2" و ".3".
+// أضف حقلين آخرين لـ BIDIOUTLINE، حيث سيتم عرض ".2" و".3".
 builder.InsertField(FieldType.FieldBidiOutline, true);
 builder.Writeln("שלום");
 builder.InsertField(FieldType.FieldBidiOutline, true);
@@ -69,8 +69,8 @@ foreach (Paragraph para in doc.GetChildNodes(NodeType.Paragraph, true))
     para.ParagraphFormat.Bidi = true;
 }
 
-// إذا قمنا بتمكين لغة تحرير من اليمين إلى اليسار في Microsoft Word ، فستعرض الحقول الخاصة بنا الأرقام.
-// وإلا فسيتم عرض "###".
+// إذا قمنا بتمكين لغة التحرير من اليمين إلى اليسار في Microsoft Word، فستعرض حقولنا أرقامًا.
+// وإلا فسوف يعرضون "###".
 doc.Save(ArtifactsDir + "Field.BIDIOUTLINE.docx");
 ```
 

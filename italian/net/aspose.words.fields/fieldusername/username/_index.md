@@ -1,14 +1,14 @@
 ---
 title: FieldUserName.UserName
 second_title: Aspose.Words per .NET API Reference
-description: FieldUserName proprietà. Gestisce o imposta il nome dellutente corrente.
+description: FieldUserName proprietà. Gestisci o imposta il nome dellutente corrente.
 type: docs
 weight: 20
 url: /it/net/aspose.words.fields/fieldusername/username/
 ---
 ## FieldUserName.UserName property
 
-Gestisce o imposta il nome dell'utente corrente.
+Gestisci o imposta il nome dell'utente corrente.
 
 ```csharp
 public string UserName { get; set; }
@@ -21,7 +21,7 @@ Mostra come utilizzare il campo USERNAME.
 ```csharp
 Document doc = new Document();
 
-// Crea un oggetto UserInformation e impostalo come fonte di informazioni sull'utente per tutti i campi che creiamo.
+// Crea un oggetto UserInformation e impostalo come origine delle informazioni sull'utente per tutti i campi che creiamo.
 UserInformation userInformation = new UserInformation();
 userInformation.Name = "John Doe";
 doc.FieldOptions.CurrentUser = userInformation;
@@ -29,14 +29,14 @@ doc.FieldOptions.CurrentUser = userInformation;
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Crea un campo USERNAME per visualizzare il nome dell'utente corrente,
-// preso dall'oggetto UserInformation che abbiamo creato sopra.
+// tratto dall'oggetto UserInformation che abbiamo creato sopra.
 FieldUserName fieldUserName = (FieldUserName)builder.InsertField(FieldType.FieldUserName, true);
 Assert.AreEqual(userInformation.Name, fieldUserName.Result);
 
 Assert.AreEqual(" USERNAME ", fieldUserName.GetFieldCode());
 Assert.AreEqual("John Doe", fieldUserName.Result);
 
- // Possiamo impostare questa proprietà per fare in modo che il nostro campo sostituisca il valore attualmente memorizzato nell'oggetto UserInformation.
+ // Possiamo impostare questa proprietà per fare in modo che il nostro campo sovrascriva il valore attualmente memorizzato nell'oggetto UserInformation.
 fieldUserName.UserName = "Jane Doe";
 fieldUserName.Update();
 

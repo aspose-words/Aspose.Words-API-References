@@ -3,7 +3,7 @@ title: HtmlSaveOptions.ExportFontsAsBase64
 second_title: Aspose.Words för .NET API Referens
 description: HtmlSaveOptions fast egendom. Anger om teckensnittsresurser ska bäddas in i HTML i Base64kodning. Standard ärfalsk .
 type: docs
-weight: 160
+weight: 150
 url: /sv/net/aspose.words.saving/htmlsaveoptions/exportfontsasbase64/
 ---
 ## HtmlSaveOptions.ExportFontsAsBase64 property

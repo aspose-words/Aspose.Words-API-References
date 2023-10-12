@@ -3,12 +3,14 @@ title: Class ImportFormatOptions
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.ImportFormatOptions klass. Gör det möjligt att ange olika importalternativ för att formatera utdata.
 type: docs
-weight: 3040
+weight: 3240
 url: /sv/net/aspose.words/importformatoptions/
 ---
 ## ImportFormatOptions class
 
 Gör det möjligt att ange olika importalternativ för att formatera utdata.
+
+För att lära dig mer, besök[Ange laddningsalternativ](https://docs.aspose.com/words/net/specify-load-options/) dokumentationsartikel.
 
 ```csharp
 public class ImportFormatOptions
@@ -24,6 +26,7 @@ public class ImportFormatOptions
 
 | namn | Beskrivning |
 | --- | --- |
+| [AdjustSentenceAndWordSpacing](../../aspose.words/importformatoptions/adjustsentenceandwordspacing/) { get; set; } | Hämtar eller ställer in ett booleskt värde som anger om menings- och ordavstånd ska justeras automatiskt. Standardvärdet är`falsk` . |
 | [ForceCopyStyles](../../aspose.words/importformatoptions/forcecopystyles/) { get; set; } | Hämtar eller ställer in ett booleskt värde som anger antingen att kopiera motstridiga stilar inKeepSourceFormatting mode. Standardvärdet är`falsk` . |
 | [IgnoreHeaderFooter](../../aspose.words/importformatoptions/ignoreheaderfooter/) { get; set; } | Hämtar eller ställer in ett booleskt värde som anger att källformateringen av sidhuvuden/sidfotsinnehåll ignoreras omKeepSourceFormatting läge används. Standardvärdet är`Sann` . |
 | [IgnoreTextBoxes](../../aspose.words/importformatoptions/ignoretextboxes/) { get; set; } | Hämtar eller ställer in ett booleskt värde som anger att källformatering av textrutor innehåll ignored omKeepSourceFormatting läge används. Standardvärdet är`Sann` . |

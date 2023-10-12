@@ -3,7 +3,7 @@ title: DocumentBuilder.MoveToMergeField
 second_title: Aspose.Words för .NET API Referens
 description: DocumentBuilder metod. Flyttar markören till en position strax bortom det angivna kopplingsfältet och tar bort kopplingsfältet.
 type: docs
-weight: 530
+weight: 560
 url: /sv/net/aspose.words/documentbuilder/movetomergefield/
 ---
 ## MoveToMergeField(string) {#movetomergefield}
@@ -20,7 +20,7 @@ public bool MoveToMergeField(string fieldName)
 
 ### Returvärde
 
-Sant om sammanslagningsfältet hittades och markören flyttades; falskt annars.
+`Sann` om sammanslagningsfältet hittades och markören flyttades;`falsk` annat.
 
 ### Anmärkningar
 
@@ -58,6 +58,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.FillMergeFields.docx");
 Visar hur man infogar kryssrutaformulär i MERGEFIELDs som sammanfogningsdata under sammanfogning.
 
 ```csharp
+public void InsertCheckBox()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -79,6 +80,7 @@ Visar hur man infogar kryssrutaformulär i MERGEFIELDs som sammanfogningsdata un
 
     doc.MailMerge.ExecuteWithRegions(dataTable);
     doc.Save(ArtifactsDir + "MailMergeEvent.InsertCheckBox.docx");
+}
 
 /// <summary>
 /// När du stöter på ett MERGEFIELD med ett specifikt namn, infogar ett kryssrutaformulärfält istället för sammanslagningsdatatext.
@@ -153,12 +155,12 @@ public bool MoveToMergeField(string fieldName, bool isAfter, bool isDeleteField)
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | fieldName | String | Det skiftlägesokänsliga namnet på kopplingsfältet. |
-| isAfter | Boolean | När sant, flyttar markören till att vara efter fältets slut. När det är falskt, flyttar markören till att vara före fältets start. |
-| isDeleteField | Boolean | När sant, raderar sammanslagningsfältet. |
+| isAfter | Boolean | När`Sann` , flyttar markören så att den hamnar efter fältets slut. When`falsk` , flyttar markören till att vara före fältstarten. |
+| isDeleteField | Boolean | När`Sann`, tar bort sammanslagningsfältet. |
 
 ### Returvärde
 
-Sant om sammanslagningsfältet hittades och markören flyttades; falskt annars.
+`Sann` om sammanslagningsfältet hittades och markören flyttades;`falsk` annat.
 
 ### Exempel
 

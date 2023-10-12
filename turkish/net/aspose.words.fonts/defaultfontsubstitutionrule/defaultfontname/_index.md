@@ -27,17 +27,17 @@ Document doc = new Document();
 FontSettings fontSettings = new FontSettings();
 doc.FontSettings = fontSettings;
 
-// FontSettings içinde varsayılan ikame kuralını alın.
-// Bu kural, tüm eksik yazı tiplerini "Times New Roman" ile değiştirecektir.
+// FontSettings'te varsayılan değiştirme kuralını alın.
+// Bu kural, eksik olan tüm yazı tiplerini "Times New Roman" ile değiştirecektir.
 DefaultFontSubstitutionRule defaultFontSubstitutionRule =
     fontSettings.SubstitutionSettings.DefaultFontSubstitution;
 Assert.True(defaultFontSubstitutionRule.Enabled);
 Assert.AreEqual("Times New Roman", defaultFontSubstitutionRule.DefaultFontName);
 
-// Varsayılan yazı tipi yerine "Courier New" olarak ayarlayın.
+// Varsayılan yazı tipi alternatifini "Courier New" olarak ayarlayın.
 defaultFontSubstitutionRule.DefaultFontName = "Courier New";
 
-// Bir belge oluşturucu kullanarak, ikamenin gerçekleştiğini görmemize gerek olmayan bir yazı tipine biraz metin ekleyin,
+// Bir belge oluşturucu kullanarak, yazı tipine, değişikliğin gerçekleştiğini görmek zorunda kalmayacağımız bir miktar metin ekleyin,
 // ve ardından sonucu bir PDF'ye dönüştürün.
 DocumentBuilder builder = new DocumentBuilder(doc);
 
@@ -47,7 +47,7 @@ builder.Writeln("Line written in a missing font, which will be substituted with 
 doc.Save(ArtifactsDir + "FontSettings.DefaultFontSubstitutionRule.pdf");
 ```
 
-Varsayılan bir yazı tipinin nasıl belirleneceğini gösterir.
+Varsayılan yazı tipinin nasıl belirleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -60,18 +60,18 @@ builder.Writeln("The quick brown fox jumps over the lazy dog.");
 
 FontSourceBase[] fontSources = FontSettings.DefaultInstance.GetFontsSources();
 
-// Belgenin kullandığı yazı tipi kaynakları "Arial" yazı tipini içerir, ancak "Arvo" içermez.
+// Belgenin kullandığı yazı tipi kaynakları "Arial" yazı tipini içeriyor ancak "Arvo" yazı tipini içermiyor.
 Assert.AreEqual(1, fontSources.Length);
 Assert.True(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"));
 Assert.False(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arvo"));
 
 // "DefaultFontName" özelliğini "Courier New" olarak ayarlayın,
- // belgeyi oluştururken, başka bir yazı tipinin bulunmadığı her durumda o yazı tipini uygulayın.
+ // belgeyi oluştururken, başka bir yazı tipinin mevcut olmadığı her durumda o yazı tipini uygula.
 FontSettings.DefaultInstance.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Courier New";
 
 Assert.True(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Courier New"));
 
-// Aspose.Words artık herhangi bir işleme çağrıları sırasında eksik fontların yerine varsayılan fontu kullanacak.
+// Aspose.Words artık herhangi bir oluşturma çağrısı sırasında eksik yazı tiplerinin yerine varsayılan yazı tipini kullanacak.
 doc.Save(ArtifactsDir + "FontSettings.DefaultFontName.pdf");
 ```
 

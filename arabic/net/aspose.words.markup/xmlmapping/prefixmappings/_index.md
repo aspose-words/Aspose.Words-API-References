@@ -1,14 +1,14 @@
 ---
 title: XmlMapping.PrefixMappings
 second_title: Aspose.Words لمراجع .NET API
-description: XmlMapping ملكية. إرجاع تعيينات بادئة مساحة اسم XML لتقييم ملفXPath .
+description: XmlMapping ملكية. إرجاع تعيينات بادئة مساحة اسم XML لتقييمXPath .
 type: docs
 weight: 30
 url: /ar/net/aspose.words.markup/xmlmapping/prefixmappings/
 ---
 ## XmlMapping.PrefixMappings property
 
-إرجاع تعيينات بادئة مساحة اسم XML لتقييم ملف[`XPath`](../xpath/) .
+إرجاع تعيينات بادئة مساحة اسم XML لتقييم[`XPath`](../xpath/) .
 
 ```csharp
 public string PrefixMappings { get; }
@@ -16,7 +16,7 @@ public string PrefixMappings { get; }
 
 ### ملاحظات
 
-تحدد مجموعة تعيينات البادئة ، والتي يجب استخدامها لتفسير تعبير XPath عند تقييم تعبير XPath مقابل أجزاء بيانات XML المخصصة في المستند.
+يحدد مجموعة تعيينات البادئة، والتي يجب استخدامها لتفسير تعبير XPath عندما يتم تقييم تعبير XPath مقابل أجزاء بيانات XML المخصصة في المستند.
 
 ### أمثلة
 
@@ -25,7 +25,7 @@ public string PrefixMappings { get; }
 ```csharp
 Document doc = new Document();
 
-// إنشاء جزء XML يحتوي على نص وإضافته إلى مجموعة CustomXmlPart الخاصة بالمستند.
+// أنشئ جزءًا XML يحتوي على نص وأضفه إلى مجموعة CustomXmlPart الخاصة بالمستند.
 string xmlPartId = Guid.NewGuid().ToString("B");
 string xmlPartContent = "<root><text>Text element #1</text><text>Text element #2</text></root>";
 CustomXmlPart xmlPart = doc.CustomXmlParts.Add(xmlPartId, xmlPartContent);
@@ -33,20 +33,20 @@ CustomXmlPart xmlPart = doc.CustomXmlParts.Add(xmlPartId, xmlPartContent);
 Assert.AreEqual("<root><text>Text element #1</text><text>Text element #2</text></root>", 
     Encoding.UTF8.GetString(xmlPart.Data));
 
-// قم بإنشاء علامة مستند منظم تعرض محتويات CustomXmlPart الخاصة بنا.
+// أنشئ علامة مستند منظمة تعرض محتويات CustomXmlPart الخاصة بنا.
 StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Block);
 
-// تعيين تعيين لعلامة المستند المنظمة الخاصة بنا. هذا التعيين سوف يوجه
-// علامة المستند المهيكلة الخاصة بنا لعرض جزء من محتويات نص جزء XML الذي يشير إليه XPath.
-// في هذه الحالة ، ستكون محتويات الثانية "< text >" عنصر أول "< root >" العنصر: "عنصر النص رقم 2".
-tag.XmlMapping.SetMapping(xmlPart, "/root[1]/text[2]", "xmlns:ns='http://www.w3.org/2001/XMLSchema ") ;
+// قم بتعيين تعيين لعلامة المستند المنظمة الخاصة بنا. سوف يرشدك هذا التعيين
+// علامة المستند المنظمة الخاصة بنا لعرض جزء من محتويات نص جزء XML الذي يشير إليه XPath.
+// في هذه الحالة، ستكون محتويات "<text>" الثاني عنصر "<root>" الأول العنصر: "عنصر النص رقم 2".
+tag.XmlMapping.SetMapping(xmlPart, "/root[1]/text[2]", "xmlns:ns='http://www.w3.org/2001/XMLSchema'");
 
 Assert.True(tag.XmlMapping.IsMapped);
 Assert.AreEqual(xmlPart, tag.XmlMapping.CustomXmlPart);
 Assert.AreEqual("/root[1]/text[2]", tag.XmlMapping.XPath);
-Assert.AreEqual("xmlns:ns='http://www.w3.org/2001/XMLSchema '"، tag.XmlMapping.PrefixMappings) ;
+Assert.AreEqual("xmlns:ns='http://www.w3.org/2001/XMLSchema'"، tag.XmlMapping.PrefixMappings);
 
-// أضف علامة المستند المهيكلة إلى المستند لعرض المحتوى من الجزء المخصص لدينا.
+// أضف علامة المستند المنظمة إلى المستند لعرض المحتوى من الجزء المخصص لدينا.
 doc.FirstSection.Body.AppendChild(tag);
 doc.Save(ArtifactsDir + "StructuredDocumentTag.XmlMapping.docx");
 ```

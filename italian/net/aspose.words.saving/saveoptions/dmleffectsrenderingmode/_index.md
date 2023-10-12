@@ -28,14 +28,14 @@ Mostra come configurare la qualità di rendering degli effetti DrawingML in un d
 Document doc = new Document(MyDir + "DrawingML shape effects.docx");
 
 // Crea un oggetto "PdfSaveOptions" che possiamo passare al metodo "Save" del documento
-// per modificare il modo in cui quel metodo converte il documento in .PDF.
+// per modificare il modo in cui il metodo converte il documento in .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
 // Imposta la proprietà "DmlEffectsRenderingMode" su "DmlEffectsRenderingMode.None" per eliminare tutti gli effetti DrawingML.
 // Imposta la proprietà "DmlEffectsRenderingMode" su "DmlEffectsRenderingMode.Simplified"
 // per eseguire il rendering di una versione semplificata degli effetti DrawingML.
 // Imposta la proprietà "DmlEffectsRenderingMode" su "DmlEffectsRenderingMode.Fine" su
-// renderizza gli effetti di DrawingML con maggiore precisione e anche con maggiori costi di elaborazione.
+// esegue il rendering degli effetti DrawingML con maggiore precisione e anche con maggiori costi di elaborazione.
 options.DmlEffectsRenderingMode = effectsRenderingMode;
 
 Assert.AreEqual(DmlRenderingMode.DrawingML, options.DmlRenderingMode);

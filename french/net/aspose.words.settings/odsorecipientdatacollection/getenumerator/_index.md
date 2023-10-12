@@ -1,14 +1,14 @@
 ---
 title: OdsoRecipientDataCollection.GetEnumerator
 second_title: Référence de l'API Aspose.Words pour .NET
-description: OdsoRecipientDataCollection méthode. Renvoie un objet énumérateur qui peut être utilisé pour itérer sur tous les éléments de la collection.
+description: OdsoRecipientDataCollection méthode. Renvoie un objet énumérateur qui peut être utilisé pour parcourir tous les éléments de la collection.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.settings/odsorecipientdatacollection/getenumerator/
 ---
 ## OdsoRecipientDataCollection.GetEnumerator method
 
-Renvoie un objet énumérateur qui peut être utilisé pour itérer sur tous les éléments de la collection.
+Renvoie un objet énumérateur qui peut être utilisé pour parcourir tous les éléments de la collection.
 
 ```csharp
 public IEnumerator<OdsoRecipientData> GetEnumerator()
@@ -41,7 +41,7 @@ using (IEnumerator<OdsoRecipientData> enumerator = dataCollection.GetEnumerator(
 // Nous pouvons cloner les éléments de cette collection.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Nous pouvons également supprimer des éléments individuellement ou effacer toute la collection en une seule fois.
+// Nous pouvons également supprimer des éléments individuellement ou effacer toute la collection en même temps.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(69, dataCollection.Count);

@@ -1,14 +1,14 @@
 ---
 title: ImageFieldMergingArgs.ImageHeight
 second_title: Aspose.Words für .NET-API-Referenz
-description: ImageFieldMergingArgs eigendom. Gibt die Bildhöhe für das in das Dokument einzufügende Bild an.
+description: ImageFieldMergingArgs eigendom. Gibt die Bildhöhe für das Bild an das in das Dokument eingefügt werden soll.
 type: docs
 weight: 30
 url: /de/net/aspose.words.mailmerging/imagefieldmergingargs/imageheight/
 ---
 ## ImageFieldMergingArgs.ImageHeight property
 
-Gibt die Bildhöhe für das in das Dokument einzufügende Bild an.
+Gibt die Bildhöhe für das Bild an, das in das Dokument eingefügt werden soll.
 
 ```csharp
 public MergeFieldImageDimension ImageHeight { get; set; }
@@ -16,24 +16,25 @@ public MergeFieldImageDimension ImageHeight { get; set; }
 
 ### Bemerkungen
 
-Der Wert dieser Eigenschaft stammt ursprünglich aus dem entsprechenden MERGEFIELD-Code, der im Vorlagendokument enthalten ist. Um den Anfangswert zu überschreiben, sollten Sie eine Instanz von zuweisen[`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension/) Klasse auf diese Eigenschaft oder legen Sie die Eigenschaften für die Instanz von fest[`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension/) Klasse, zurückgegeben von dieser Eigenschaft.
+Der Wert dieser Eigenschaft stammt zunächst aus dem entsprechenden MERGEFIELD-Code, der im Vorlagendokument enthalten ist. Um den Anfangswert zu überschreiben, sollten Sie eine Instanz von zuweisen.[`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension/) class auf diese Eigenschaft oder legen Sie die Eigenschaften für die Instanz von fest[`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension/) Klasse, zurückgegeben von dieser Eigenschaft.
 
-Um anzuzeigen, dass der ursprüngliche Wert der Bildhöhe angewendet werden soll, sollten Sie die zuweisen **Null** Wert auf diese Eigenschaft oder legen Sie den fest[`Value`](../../../aspose.words.fields/mergefieldimagedimension/value/) Eigenschaft für die Instanz von[`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension/) Klasse, die von dieser Eigenschaft zurückgegeben wird, auf einen negativen Wert.
+Um anzugeben, dass der ursprüngliche Wert der Bildhöhe angewendet werden soll, sollten Sie den zuweisen`Null` -Wert auf diese Eigenschaft setzen oder festlegen[`Value`](../../../aspose.words.fields/mergefieldimagedimension/value/) Eigenschaft für die Instanz von[`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension/) Klasse, die von dieser Eigenschaft zurückgegeben wird, auf einen negativen Wert.
 
 ### Beispiele
 
 Zeigt, wie die Abmessungen von Bildern festgelegt werden, wenn MERGEFIELDS sie während eines Seriendrucks akzeptiert.
 
 ```csharp
+public void MergeFieldImageDimension()
 {
     Document doc = new Document();
 
-    // Fügen Sie ein MERGEFIELD ein, das Bilder von einer Quelle während eines Seriendrucks akzeptiert. Verwenden Sie den Feldcode zum Verweisen
-    // eine Spalte in der Datenquelle, die lokale Systemdateinamen von Bildern enthält, die wir beim Seriendruck verwenden möchten.
+    // Fügen Sie ein MERGEFIELD ein, das während eines Seriendrucks Bilder von einer Quelle akzeptiert. Verwenden Sie den Feldcode als Referenz
+    // eine Spalte in der Datenquelle, die lokale Systemdateinamen von Bildern enthält, die wir im Serienbrief verwenden möchten.
     DocumentBuilder builder = new DocumentBuilder(doc);
     FieldMergeField field = (FieldMergeField)builder.InsertField("MERGEFIELD Image:ImageColumn");
 
-    // Die Datenquelle sollte eine solche Spalte mit dem Namen "ImageColumn" haben.
+    // Die Datenquelle sollte eine solche Spalte mit dem Namen „ImageColumn“ haben.
     Assert.AreEqual("Image:ImageColumn", field.FieldName);
 
     // Erstellen Sie eine geeignete Datenquelle.
@@ -43,15 +44,16 @@ Zeigt, wie die Abmessungen von Bildern festgelegt werden, wenn MERGEFIELDS sie w
     dataTable.Rows.Add(ImageDir + "Transparent background logo.png");
     dataTable.Rows.Add(ImageDir + "Enhanced Windows MetaFile.emf");
 
-    // Konfigurieren Sie einen Rückruf, um die Größen von Bildern beim Zusammenführen zu ändern, und führen Sie dann den Seriendruck aus.
+    // Konfigurieren Sie einen Rückruf, um die Größe der Bilder beim Zusammenführen zu ändern, und führen Sie dann den Serienbrief aus.
     doc.MailMerge.FieldMergingCallback = new MergedImageResizer(200, 200, MergeFieldImageDimensionUnit.Point);
     doc.MailMerge.Execute(dataTable);
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.MERGEFIELD.ImageDimension.docx");
+}
 
 /// <summary>
-/// Setzt die Größe aller Serienbilder auf eine definierte Breite und Höhe.
+/// Setzt die Größe aller Serienbriefbilder auf eine definierte Breite und Höhe.
 /// </summary>
 private class MergedImageResizer : IFieldMergingCallback
 {

@@ -3,7 +3,7 @@ title: AsposeWordsPrintDocument.CachePrinterSettings
 second_title: Aspose.Words لمراجع .NET API
 description: AsposeWordsPrintDocument طريقة. يقرأ ويخزن بعض حقولPrinterSettings لتقليل وقت الطباعة.
 type: docs
-weight: 20
+weight: 40
 url: /ar/net/aspose.words.rendering/asposewordsprintdocument/cacheprintersettings/
 ---
 ## AsposeWordsPrintDocument.CachePrinterSettings method
@@ -20,14 +20,14 @@ public void CachePrinterSettings()
 
 ### أمثلة
 
-يوضح كيفية تحديد نطاق صفحات وطابعة لطباعة المستند باستخدامهما ، ثم إظهار معاينة قبل الطباعة.
+يوضح كيفية تحديد نطاق صفحات وطابعة لطباعة المستند بها، ثم إظهار معاينة الطباعة.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
 PrintPreviewDialog previewDlg = new PrintPreviewDialog();
 
-// اتصل بطريقة "إظهار" لعرض نموذج معاينة الطباعة في الأعلى.
+// اتصل بالطريقة "إظهار" للحصول على نموذج معاينة الطباعة ليظهر في الأعلى.
 previewDlg.Show();
 
 // تهيئة مربع حوار الطباعة بعدد الصفحات في المستند.
@@ -41,22 +41,27 @@ printDlg.PrinterSettings.ToPage = doc.PageCount;
 if (printDlg.ShowDialog() != DialogResult.OK)
     return;
 
-// إنشاء تنفيذ "Aspose.Words" لمستند طباعة .NET ،
+// إنشاء تطبيق "Aspose.Words" لمستند الطباعة .NET،
 // ثم قم بتمرير إعدادات الطابعة من مربع الحوار.
 AsposeWordsPrintDocument awPrintDoc = new AsposeWordsPrintDocument(doc);
 awPrintDoc.PrinterSettings = printDlg.PrinterSettings;
 
-// استخدم طريقة "CachePrinterSettings" لتقليل وقت المكالمة الأولى لطريقة "الطباعة".
+// حدد وضع الطباعة الملونة الجديد.
+awPrintDoc.ColorMode = ColorPrintMode.GrayscaleAuto;
+
+// استخدم طريقة "CachePrinterSettings" لتقليل وقت الاستدعاء الأول لطريقة "الطباعة".
 awPrintDoc.CachePrinterSettings();
 
-// قم باستدعاء "إخفاء" ، ثم "InvalidatePreview" للحصول على معاينة قبل الطباعة لتظهر في الأعلى.
+// اتصل بطرق "Hide"، ثم طرق "InvalidatePreview" للحصول على معاينة الطباعة لتظهر في الأعلى.
 previewDlg.Hide();
 previewDlg.PrintPreviewControl.InvalidatePreview();
 
-// قم بتمرير مستند الطباعة "Aspose.Words" إلى مربع حوار .NET Print Preview.
+// قم بتمرير مستند الطباعة "Aspose.Words" إلى مربع حوار معاينة الطباعة في .NET.
 previewDlg.Document = awPrintDoc;
-
 previewDlg.ShowDialog();
+
+awPrintDoc.Print();            
+Console.WriteLine($"The numer of pages printed in color are {awPrintDoc.ColorPagesPrinted}.");
 ```
 
 ### أنظر أيضا

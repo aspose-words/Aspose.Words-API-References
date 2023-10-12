@@ -1,14 +1,14 @@
 ---
 title: ParagraphFormat.Shading
 second_title: Aspose.Words for .NET API 参考
-description: ParagraphFormat 财产. 返回一个 Shading 对象该对象引用段落的阴影格式
+description: ParagraphFormat 财产. 返回一个Shading引用段落的底纹格式的对象
 type: docs
-weight: 270
+weight: 280
 url: /zh/net/aspose.words/paragraphformat/shading/
 ---
 ## ParagraphFormat.Shading property
 
-返回一个 Shading 对象，该对象引用段落的阴影格式。
+返回一个[`Shading`](../../shading/)引用段落的底纹格式的对象。
 
 ```csharp
 public Shading Shading { get; }

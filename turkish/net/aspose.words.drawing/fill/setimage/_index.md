@@ -3,7 +3,7 @@ title: Fill.SetImage
 second_title: Aspose.Words for .NET API Referansı
 description: Fill yöntem. Doldurma türünü tek görüntü olarak değiştirir.
 type: docs
-weight: 190
+weight: 250
 url: /tr/net/aspose.words.drawing/fill/setimage/
 ---
 ## SetImage(string) {#setimage_2}
@@ -16,7 +16,7 @@ public void SetImage(string fileName)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| fileName | String | Görüntü dosyasının yolu. |
+| fileName | String | Resim dosyasının yolu. |
 
 ### Örnekler
 
@@ -28,7 +28,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Görüntüyü ayarlamanın birkaç yolu vardır.
 Shape shape = builder.InsertShape(ShapeType.Rectangle, 80, 80);
-// 1 - Yerel bir sistem dosya adı kullanma:
+// 1 - Yerel sistem dosya adını kullanma:
 shape.Fill.SetImage(ImageDir + "Logo.jpg");
 doc.Save(ArtifactsDir + "Shape.FillImage.FileName.docx");
 

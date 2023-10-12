@@ -1,14 +1,14 @@
 ---
 title: HtmlFixedSaveOptions.ExportFormFields
 second_title: Référence de l'API Aspose.Words pour .NET
-description: HtmlFixedSaveOptions propriété. Obtient ou définit une indication indiquant si les champs de formulaire sont exportés en tant quéléments interactifs en tant que balise input plutôt que convertis en texte ou en graphiques.
+description: HtmlFixedSaveOptions propriété. Obtient ou définit une indication indiquant si les champs de formulaire sont exportés en tant quéléments interactifs en tant que balise  entrée  plutôt que convertis en texte ou en graphiques.
 type: docs
 weight: 80
 url: /fr/net/aspose.words.saving/htmlfixedsaveoptions/exportformfields/
 ---
 ## HtmlFixedSaveOptions.ExportFormFields property
 
-Obtient ou définit une indication indiquant si les champs de formulaire sont exportés en tant qu'éléments interactifs (en tant que balise 'input') plutôt que convertis en texte ou en graphiques.
+Obtient ou définit une indication indiquant si les champs de formulaire sont exportés en tant qu'éléments interactifs (en tant que balise « entrée ») plutôt que convertis en texte ou en graphiques.
 
 ```csharp
 public bool ExportFormFields { get; set; }
@@ -16,7 +16,7 @@ public bool ExportFormFields { get; set; }
 
 ### Exemples
 
-Montre comment exporter des champs de formulaire vers Html.
+Montre comment exporter les champs de formulaire vers HTML.
 
 ```csharp
 Document doc = new Document();
@@ -24,10 +24,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.InsertCheckBox("CheckBox", false, 15);
 
-// Lorsque nous exportons un document avec des champs de formulaire vers .html,
-// Aspose.Words peut exporter les champs de formulaire de deux manières.
-// Définir le drapeau "ExportFormFields" sur "true" les exportera en tant qu'objets interactifs.
-// Définir cet indicateur sur "false" affichera les champs du formulaire en texte brut.
+// Lorsque nous exportons un document avec des champs de formulaire au format .html,
+// Il existe deux manières pour Aspose.Words d'exporter des champs de formulaire.
+// Définir l'indicateur "ExportFormFields" sur "true" les exportera en tant qu'objets interactifs.
+// Définir cet indicateur sur "false" affichera les champs du formulaire sous forme de texte brut.
 // Cela va les figer à leur valeur actuelle, et empêcher le lecteur de notre document HTML
 // de pouvoir interagir avec eux.
 HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions

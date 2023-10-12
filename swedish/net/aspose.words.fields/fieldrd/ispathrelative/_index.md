@@ -32,12 +32,11 @@ builder.Writeln("TOC entry from within this document");
 // Infoga ett RD-fält, som refererar till ett annat lokalt filsystemdokument i dess FileName-egenskap.
 // TOC kommer nu också att acceptera alla rubriker från det refererade dokumentet som poster för sin tabell.
 FieldRD field = (FieldRD)builder.InsertField(FieldType.FieldRefDoc, true);
-field.FileName = "ReferencedDocument.docx";
-field.IsPathRelative = true;
+field.FileName = ArtifactsDir + "ReferencedDocument.docx";
 
-Assert.AreEqual(" RD  ReferencedDocument.docx \\f", field.GetFieldCode());
+Assert.AreEqual($" RD  {ArtifactsDir.Replace(@"\",@"\\")}ReferencedDocument.docx", field.GetFieldCode());
 
-  // Skapa dokumentet som RD-fältet refererar till och infoga en rubrik.
+ // Skapa dokumentet som RD-fältet refererar till och infoga en rubrik.
 // Den här rubriken kommer att dyka upp som en post i TOC-fältet i vårt första dokument.
 Document referencedDoc = new Document();
 DocumentBuilder refDocBuilder = new DocumentBuilder(referencedDoc);

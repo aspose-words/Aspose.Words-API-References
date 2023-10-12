@@ -1,14 +1,14 @@
 ---
 title: ChartAxis.CrossesAt
 second_title: Aspose.Words für .NET-API-Referenz
-description: ChartAxis eigendom. Gibt an wo sich die Achse auf der senkrechten Achse schneidet.
+description: ChartAxis eigendom. Gibt an wo sich die Achse auf der senkrechten Achse kreuzt.
 type: docs
 weight: 50
 url: /de/net/aspose.words.drawing.charts/chartaxis/crossesat/
 ---
 ## ChartAxis.CrossesAt property
 
-Gibt an, wo sich die Achse auf der senkrechten Achse schneidet.
+Gibt an, wo sich die Achse auf der senkrechten Achse kreuzt.
 
 ```csharp
 public double CrossesAt { get; set; }
@@ -16,9 +16,9 @@ public double CrossesAt { get; set; }
 
 ### Bemerkungen
 
-Die Eigenschaft wird nur wirksam, wenn[`Crosses`](../crosses/) eingestellt sindCustom. Es wird von den neuen Diagrammen von MS Office 2016 nicht unterstützt.
+Die Eigenschaft ist nur wirksam, wenn[`Crosses`](../crosses/) eingestellt sindCustom. Die neuen Diagramme von MS Office 2016 werden nicht unterstützt.
 
-Die Einheiten werden durch den Achstyp bestimmt. Wenn die Achse eine Werteachse ist, ist der Wert von property eine Dezimalzahl auf der Werteachse. Wenn die Achse eine Zeitkategorieachse ist, wird der Wert definiert als eine ganze Zahl von Tagen relativ zum Basisdatum (30.12.1899). Für eine Textkategorieachse ist der Wert eine ganzzahlige Kategorienummer, beginnend mit 1 als erster Kategorie.
+Die Einheiten werden durch den Achsentyp bestimmt. Wenn es sich bei der Achse um eine Werteachse handelt, ist der Wert der Eigenschaft eine Dezimalzahl auf der Werteachse. Wenn es sich bei der Achse um eine Zeitkategorieachse handelt, wird der Wert als definiert, eine ganzzahlige Anzahl von Tagen relativ zum Basisdatum (30.12.1899). Für eine Textkategorieachse ist der Wert eine ganzzahlige Kategorienummer, beginnend mit 1 als erster Kategorie.
 
 ### Beispiele
 
@@ -36,9 +36,9 @@ Assert.AreEqual("Series 1", chart.Series[0].Name);
 Assert.AreEqual("Series 2", chart.Series[1].Name);
 Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-// Bei Säulendiagrammen schneidet die Y-Achse standardmäßig bei Null,
-// was bedeutet, dass Spalten für alle Werte unter Null nach unten zeigen, um negative Werte darzustellen.
-// Wir können einen anderen Wert für die Kreuzung der Y-Achse einstellen. In diesem Fall setzen wir es auf 3.
+// Bei Säulendiagrammen kreuzt die Y-Achse standardmäßig den Nullpunkt.
+// was bedeutet, dass die Spalten für alle Werte unter Null nach unten zeigen, um negative Werte darzustellen.
+// Wir können einen anderen Wert für die Kreuzung der Y-Achse festlegen. In diesem Fall setzen wir den Wert auf 3.
 ChartAxis axis = chart.AxisX;
 axis.Crosses = AxisCrosses.Custom;
 axis.CrossesAt = 3;

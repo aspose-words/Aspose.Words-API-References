@@ -3,7 +3,7 @@ title: OfficeMath.ParentParagraph
 second_title: Referencia de API de Aspose.Words para .NET
 description: OfficeMath propiedad. Recupera el padreParagraph de este nodo.
 type: docs
-weight: 60
+weight: 50
 url: /es/net/aspose.words.math/officemath/parentparagraph/
 ---
 ## OfficeMath.ParentParagraph property
@@ -16,7 +16,7 @@ public Paragraph ParentParagraph { get; }
 
 ### Ejemplos
 
-Muestra cómo configurar el formato de visualización de Office Math.
+Muestra cómo configurar el formato de visualización de matemáticas de Office.
 
 ```csharp
 Document doc = new Document(MyDir + "Office math.docx");
@@ -28,9 +28,6 @@ OfficeMath officeMath = (OfficeMath) doc.GetChild(NodeType.OfficeMath, 0, true);
 Assert.AreEqual(MathObjectType.OMathPara, officeMath.MathObjectType);
 Assert.AreEqual(NodeType.OfficeMath, officeMath.NodeType);
 Assert.AreEqual(officeMath.ParentNode, officeMath.ParentParagraph);
-
-// Los formatos OOXML y WML utilizan la propiedad "EquationXmlEncoding".
-Assert.IsNull(officeMath.EquationXmlEncoding);
 
 // Cambiar la ubicación y el tipo de visualización del nodo OfficeMath.
 officeMath.DisplayType = OfficeMathDisplayType.Display;

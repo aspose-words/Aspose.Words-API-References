@@ -50,7 +50,7 @@ footnote.Font.Color = Color.Green;
 Assert.AreEqual(StoryType.Footnotes, footnote.StoryType);
 
 // A comment is another type of inline story.
-Comment comment = (Comment)builder.CurrentParagraph.AppendChild(new Comment(doc, "John Doe", "J. D.", DateTime.Now));
+Comment comment = builder.CurrentParagraph.AppendChild(new Comment(doc, "John Doe", "J. D.", DateTime.Now));
 
 // The parent paragraph of an inline story node will be the one from the main document body.
 Assert.AreEqual(doc.FirstSection.Body.FirstParagraph, comment.ParentParagraph);

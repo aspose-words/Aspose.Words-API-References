@@ -19,6 +19,7 @@ public IResourceLoadingCallback ResourceLoadingCallback { get; set; }
 Показывает, как настроить процесс загрузки внешних ресурсов в документ.
 
 ```csharp
+public void ResourceLoadingCallback()
 {
     Document doc = new Document();
     doc.ResourceLoadingCallback = new ImageNameHandler();
@@ -26,7 +27,7 @@ public IResourceLoadingCallback ResourceLoadingCallback { get; set; }
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     // Изображения обычно вставляются с использованием URI или массива байтов.
-    // Каждый экземпляр загрузки ресурсов будет вызывать метод ResourceLoading нашего обратного вызова.
+    // Каждый экземпляр загрузки ресурса будет вызывать метод ResourceLoading нашего обратного вызова.
     builder.InsertImage("Google logo");
     builder.InsertImage("Aspose logo");
     builder.InsertImage("Watermark");
@@ -34,10 +35,11 @@ public IResourceLoadingCallback ResourceLoadingCallback { get; set; }
     Assert.AreEqual(3, doc.GetChildNodes(NodeType.Shape, true).Count);
 
     doc.Save(ArtifactsDir + "DocumentBase.ResourceLoadingCallback.docx");
+}
 
 /// <summary>
 /// Позволяет нам загружать изображения в документ, используя предопределенные сокращения, а не URI.
-/// Это отделит логику загрузки изображения от остальной конструкции документа.
+/// Это позволит отделить логику загрузки изображения от остальной части конструкции документа.
 /// </summary>
 private class ImageNameHandler : IResourceLoadingCallback
 {

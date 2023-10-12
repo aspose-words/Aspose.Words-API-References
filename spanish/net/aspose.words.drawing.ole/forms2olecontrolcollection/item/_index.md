@@ -1,14 +1,14 @@
 ---
 title: Forms2OleControlCollection.Item
 second_title: Referencia de API de Aspose.Words para .NET
-description: Forms2OleControlCollection propiedad. ObtieneForms2OleControlobjeto en el índice especificado.
+description: Forms2OleControlCollection propiedad. ObtieneForms2OleControl objeto en un índice especificado.
 type: docs
 weight: 30
 url: /es/net/aspose.words.drawing.ole/forms2olecontrolcollection/item/
 ---
 ## Forms2OleControlCollection indexer
 
-Obtiene[`Forms2OleControl`](../../forms2olecontrol/)objeto en el índice especificado.
+Obtiene[`Forms2OleControl`](../../forms2olecontrol/) objeto en un índice especificado.
 
 ```csharp
 public Forms2OleControl this[int index] { get; }

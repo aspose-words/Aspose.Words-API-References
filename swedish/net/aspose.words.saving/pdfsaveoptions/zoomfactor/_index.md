@@ -3,7 +3,7 @@ title: PdfSaveOptions.ZoomFactor
 second_title: Aspose.Words för .NET API Referens
 description: PdfSaveOptions fast egendom. Hämtar eller ställer in ett värde som bestämmer zoomfaktor i procent för ett dokument.
 type: docs
-weight: 300
+weight: 330
 url: /sv/net/aspose.words.saving/pdfsaveoptions/zoomfactor/
 ---
 ## PdfSaveOptions.ZoomFactor property

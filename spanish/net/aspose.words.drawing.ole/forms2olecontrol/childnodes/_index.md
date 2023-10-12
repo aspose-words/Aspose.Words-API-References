@@ -1,22 +1,22 @@
 ---
 title: Forms2OleControl.ChildNodes
 second_title: Referencia de API de Aspose.Words para .NET
-description: Forms2OleControl propiedad. Obtiene la colección de controles secundarios inmediatos.
+description: Forms2OleControl propiedad. Obtiene una colección de controles secundarios inmediatos.
 type: docs
 weight: 20
 url: /es/net/aspose.words.drawing.ole/forms2olecontrol/childnodes/
 ---
 ## Forms2OleControl.ChildNodes property
 
-Obtiene la colección de controles secundarios inmediatos.
+Obtiene una colección de controles secundarios inmediatos.
 
 ```csharp
-public Forms2OleControlCollection ChildNodes { get; }
+public virtual Forms2OleControlCollection ChildNodes { get; }
 ```
 
 ### Observaciones
 
-Devoluciones **nulo** si este control no puede tener hijos.
+Devoluciones`nulo` si este control no puede tener hijos.
 
 ### Ejemplos
 
@@ -28,7 +28,7 @@ Document doc = new Document(MyDir + "ActiveX controls.docx");
 Shape shape = (Shape) doc.GetChild(NodeType.Shape, 0, true);
 OleControl oleControl = shape.OleFormat.OleControl;
 
-Assert.AreEqual(null, oleControl.Name);
+Assert.AreEqual("CheckBox1", oleControl.Name);
 
 if (oleControl.IsForms2OleControl)
 {
@@ -38,6 +38,10 @@ if (oleControl.IsForms2OleControl)
     Assert.AreEqual(true, checkBox.Enabled);
     Assert.AreEqual(Forms2OleControlType.CheckBox, checkBox.Type);
     Assert.AreEqual(null, checkBox.ChildNodes);
+    Assert.AreEqual(string.Empty, checkBox.GroupName);
+
+    // Tenga en cuenta que no puede configurar GroupName para un marco.
+    checkBox.GroupName = "Aspose group name";
 }
 ```
 

@@ -1,14 +1,14 @@
 ---
 title: ConditionalStyleCollection.OddColumnBanding
 second_title: Aspose.Words per .NET API Reference
-description: ConditionalStyleCollection proprietà. Ottiene lo stile di raggruppamento delle colonne dispari.
+description: ConditionalStyleCollection proprietà. Ottiene lo stile di suddivisione delle colonne dispari.
 type: docs
 weight: 110
 url: /it/net/aspose.words/conditionalstylecollection/oddcolumnbanding/
 ---
 ## ConditionalStyleCollection.OddColumnBanding property
 
-Ottiene lo stile di raggruppamento delle colonne dispari.
+Ottiene lo stile di suddivisione delle colonne dispari.
 
 ```csharp
 public ConditionalStyle OddColumnBanding { get; }
@@ -34,12 +34,12 @@ builder.InsertCell();
 builder.Write("Cell 4");
 builder.EndTable();
 
-// Crea uno stile tabella personalizzato.
+// Crea uno stile di tabella personalizzato.
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 
-// Gli stili condizionali sono modifiche alla formattazione che interessano solo alcune celle della tabella
+// Gli stili condizionali sono modifiche alla formattazione che influiscono solo su alcune celle della tabella
 // basato su un predicato, ad esempio le celle nell'ultima riga.
-// Di seguito sono riportati tre modi per accedere agli stili condizionali di uno stile tabella dalla raccolta "ConditionalStyles".
+// Di seguito sono riportati tre modi per accedere agli stili condizionali di uno stile di tabella dalla raccolta "ConditionalStyles".
 // 1 - Per tipo di stile:
 tableStyle.ConditionalStyles[ConditionalStyleType.FirstRow].Shading.BackgroundPatternColor = Color.AliceBlue;
 
@@ -48,10 +48,10 @@ tableStyle.ConditionalStyles[0].Borders.Color = Color.Black;
 tableStyle.ConditionalStyles[0].Borders.LineStyle = LineStyle.DotDash;
 Assert.AreEqual(ConditionalStyleType.FirstRow, tableStyle.ConditionalStyles[0].Type);
 
-// 3 - Come proprietà:
+// 3 - Come immobile:
 tableStyle.ConditionalStyles.FirstRow.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
-// Applica il riempimento e la formattazione del testo agli stili condizionali.
+// Applica la spaziatura interna e la formattazione del testo agli stili condizionali.
 tableStyle.ConditionalStyles.LastRow.BottomPadding = 10;
 tableStyle.ConditionalStyles.LastRow.LeftPadding = 10;
 tableStyle.ConditionalStyles.LastRow.RightPadding = 10;

@@ -1,14 +1,16 @@
 ---
 title: Class InternableComplexAttr
 second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.InternableComplexAttr klas. Basisklasse für internierbares komplexes Attribut. Internes komplexes Attribut sollte übergeordnete Sammlung benachrichtigen wenn es geändert wird.
+description: Aspose.Words.InternableComplexAttr klas. Basisklasse für internierbares komplexes Attribut. Internierbares komplexes Attribut sollte die übergeordnete Sammlung benachrichtigen wenn Änderungen vorgenommen werden.
 type: docs
-weight: 3080
+weight: 3280
 url: /de/net/aspose.words/internablecomplexattr/
 ---
 ## InternableComplexAttr class
 
-Basisklasse für internierbares komplexes Attribut. Internes komplexes Attribut sollte übergeordnete Sammlung benachrichtigen, wenn es geändert wird.
+Basisklasse für internierbares komplexes Attribut. Internierbares komplexes Attribut sollte die übergeordnete Sammlung benachrichtigen, wenn Änderungen vorgenommen werden.
+
+Um mehr zu erfahren, besuchen Sie die[Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) Dokumentationsartikel.
 
 ```csharp
 public abstract class InternableComplexAttr

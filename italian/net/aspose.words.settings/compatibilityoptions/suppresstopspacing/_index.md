@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.SuppressTopSpacing
 second_title: Aspose.Words per .NET API Reference
-description: CompatibilityOptions proprietà. Ignora altezza riga minima ed esatta per la prima riga nella pagina.
+description: CompatibilityOptions proprietà. Ignora laltezza minima ed esatta della riga per la prima riga nella pagina.
 type: docs
 weight: 510
 url: /it/net/aspose.words.settings/compatibilityoptions/suppresstopspacing/
 ---
 ## CompatibilityOptions.SuppressTopSpacing property
 
-Ignora altezza riga minima ed esatta per la prima riga nella pagina.
+Ignora l'altezza minima ed esatta della riga per la prima riga nella pagina.
 
 ```csharp
 public bool SuppressTopSpacing { get; set; }

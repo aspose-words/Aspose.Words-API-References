@@ -3,7 +3,7 @@ title: ParagraphFormat.SpaceBeforeAuto
 second_title: Aspose.Words för .NET API Referens
 description: ParagraphFormat fast egendom. Sant om mängden avstånd före stycket ställs in automatiskt.
 type: docs
-weight: 320
+weight: 330
 url: /sv/net/aspose.words/paragraphformat/spacebeforeauto/
 ---
 ## ParagraphFormat.SpaceBeforeAuto property
@@ -16,13 +16,13 @@ public bool SpaceBeforeAuto { get; set; }
 
 ### Anmärkningar
 
-När den är inställd på sant åsidosätter effekten av[`SpaceBefore`](../spacebefore/).
+När inställd på`Sann` , åsidosätter effekten av[`SpaceBefore`](../spacebefore/).
 
 När du ställer in styckemellanslag före och mellanslag efter till Auto, lägger Microsoft Word till 14 punkters avstånd mellan stycken automatiskt enligt följande regler:
 
 * Normalt läggs mellanrum efter alla stycken.
 * I en punktlista eller numrerad lista läggs avstånd endast till efter det sista objektet i listan. Avstånd läggs inte till mellan listobjekten.
-* I en kapslad punktlista eller numrerad lista läggs inte avstånd till.
+* en kapslad punktlista eller numrerad lista läggs inte avstånd till.
 * Mellanrum läggs normalt till efter en tabell.
 * Mellanrum läggs inte till efter en tabell om det är det sista blocket i en tabellcell.
 * Mellanrum läggs inte till efter det sista stycket i en tabellcell.

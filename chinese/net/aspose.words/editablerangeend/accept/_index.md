@@ -16,21 +16,21 @@ public override bool Accept(DocumentVisitor visitor)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| visitor | DocumentVisitor | 将访问节点的访问者。 |
+| visitor | DocumentVisitor | 将访问该节点的访问者。 |
 
 ### 返回值
 
-如果访问者请求停止枚举，则为 False。
+`错误的`如果访问者请求停止枚举。
 
 ### 评论
 
-来电[`VisitEditableRangeEnd`](../../documentvisitor/visiteditablerangeend/).
+通话[`VisitEditableRangeEnd`](../../documentvisitor/visiteditablerangeend/)。
 
-有关更多信息，请参阅访问者设计模式。
+有关更多信息，请参阅访客设计模式。
 
 ### 例子
 
-显示如何将可编辑范围的编辑权限限制为特定组/用户。
+展示如何将可编辑范围的编辑权限限制为特定组/用户。
 
 ```csharp
 public void Visitor()
@@ -43,7 +43,7 @@ public void Visitor()
                     " we cannot edit this paragraph without the password.");
 
     // 当我们对文档进行写保护时，可编辑范围允许我们选择用户可以编辑的特定区域。
-    // 有两种相互排斥的方法可以缩小允许的编辑器列表。
+    // 有两种互斥的方法来缩小允许的编辑器列表的范围。
     // 1 - 指定用户：
     EditableRange editableRange = builder.StartEditableRange().EditableRange;
     editableRange.SingleUser = "john.doe@myoffice.com";
@@ -71,7 +71,7 @@ public void Visitor()
 }
 
 /// <summary>
-/// 在字符串中收集访问过的可编辑范围的属性和内容。
+/// 收集字符串中访问过的可编辑范围的属性和内容。
 /// </summary>
 public class EditableRangePrinter : DocumentVisitor
 {
@@ -122,7 +122,7 @@ public class EditableRangePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到 Run 节点时调用。此访问者仅记录可编辑范围内的运行。
+    /// 在文档中遇到 Run 节点时调用。该访问者仅记录可编辑范围内的运行。
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {

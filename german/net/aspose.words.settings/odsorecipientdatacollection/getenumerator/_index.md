@@ -1,14 +1,14 @@
 ---
 title: OdsoRecipientDataCollection.GetEnumerator
 second_title: Aspose.Words für .NET-API-Referenz
-description: OdsoRecipientDataCollection methode. Gibt ein Aufzählungsobjekt zurück das verwendet werden kann um alle Elemente in der Sammlung zu durchlaufen.
+description: OdsoRecipientDataCollection methode. Gibt ein Enumeratorobjekt zurück das zum Durchlaufen aller Elemente in der Sammlung verwendet werden kann.
 type: docs
 weight: 60
 url: /de/net/aspose.words.settings/odsorecipientdatacollection/getenumerator/
 ---
 ## OdsoRecipientDataCollection.GetEnumerator method
 
-Gibt ein Aufzählungsobjekt zurück, das verwendet werden kann, um alle Elemente in der Sammlung zu durchlaufen.
+Gibt ein Enumeratorobjekt zurück, das zum Durchlaufen aller Elemente in der Sammlung verwendet werden kann.
 
 ```csharp
 public IEnumerator<OdsoRecipientData> GetEnumerator()
@@ -16,7 +16,7 @@ public IEnumerator<OdsoRecipientData> GetEnumerator()
 
 ### Beispiele
 
-Zeigt, wie auf die Datensammlung zugegriffen wird, die angibt, welche Zusammenführungsdatenquellen-Datensätze bei einem Seriendruck ausgeschlossen werden.
+Zeigt, wie auf die Datensammlung zugegriffen wird, die angibt, welche Zusammenführungsdatenquellendatensätze von einem Serienbrief ausgeschlossen werden.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
@@ -41,7 +41,7 @@ using (IEnumerator<OdsoRecipientData> enumerator = dataCollection.GetEnumerator(
 // Wir können die Elemente in dieser Sammlung klonen.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Wir können auch einzelne Elemente entfernen oder die gesamte Sammlung auf einmal löschen.
+// Wir können auch Elemente einzeln entfernen oder die gesamte Sammlung auf einmal löschen.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(69, dataCollection.Count);

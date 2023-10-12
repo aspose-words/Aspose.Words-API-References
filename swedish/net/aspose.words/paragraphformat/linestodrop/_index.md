@@ -3,7 +3,7 @@ title: ParagraphFormat.LinesToDrop
 second_title: Aspose.Words för .NET API Referens
 description: ParagraphFormat fast egendom. Hämtar eller ställer in antalet rader i stycketexten som används för att beräkna fallhöjden.
 type: docs
-weight: 200
+weight: 210
 url: /sv/net/aspose.words/paragraphformat/linestodrop/
 ---
 ## ParagraphFormat.LinesToDrop property

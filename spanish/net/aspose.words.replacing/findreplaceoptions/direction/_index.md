@@ -24,23 +24,23 @@ public void Direction(FindReplaceDirection findReplaceDirection)
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Inserte tres ejecuciones que podamos buscar usando un patrón de expresiones regulares.
-    // Coloque una de esas ejecuciones dentro de un cuadro de texto.
+    // Inserta tres ejecuciones que podamos buscar usando un patrón de expresiones regulares.
+    // Coloca una de esas ejecuciones dentro de un cuadro de texto.
     builder.Writeln("Match 1.");
     builder.Writeln("Match 2.");
     builder.Writeln("Match 3.");
     builder.Writeln("Match 4.");
 
-    // Podemos usar un objeto "FindReplaceOptions" para modificar el proceso de buscar y reemplazar.
+    // Podemos utilizar un objeto "FindReplaceOptions" para modificar el proceso de buscar y reemplazar.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // Asigne una devolución de llamada personalizada a la propiedad "ReplaceingCallback".
+    // Asigne una devolución de llamada personalizada a la propiedad "ReplacingCallback".
     TextReplacementRecorder callback = new TextReplacementRecorder();
     options.ReplacingCallback = callback;
 
-    // Establecer la propiedad "Dirección" en "FindReplaceDirection.Backward" para obtener la búsqueda y reemplazo
-    // operación para comenzar desde el final del rango y volver al principio.
-    // Establecer la propiedad "Dirección" en "FindReplaceDirection.Backward" para obtener la búsqueda y reemplazo
+    // Establece la propiedad "Dirección" en "FindReplaceDirection.Backward" para obtener la búsqueda y el reemplazo
+    // operación para comenzar desde el final del rango y regresar al principio.
+    // Establece la propiedad "Dirección" en "FindReplaceDirection.Backward" para obtener la búsqueda y el reemplazo
     // operación para comenzar desde el principio del rango y recorrer hasta el final.
     options.Direction = findReplaceDirection;
 

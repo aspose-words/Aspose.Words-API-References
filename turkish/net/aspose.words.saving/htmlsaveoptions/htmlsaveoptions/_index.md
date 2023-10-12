@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.HtmlSaveOptions
 second_title: Aspose.Words for .NET API Referansı
-description: HtmlSaveOptions inşaatçı. Bu sınıfın bir document dosyasını şuraya kaydetmek için kullanılabilecek yeni bir örneğini başlatır.Html biçim.
+description: HtmlSaveOptions inşaatçı. Bu sınıfın bir document dosyasını kaydetmek için kullanılabilecek yeni bir örneğini başlatır.Html format.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.saving/htmlsaveoptions/htmlsaveoptions/
 ---
 ## HtmlSaveOptions() {#constructor}
 
-Bu sınıfın, bir document dosyasını şuraya kaydetmek için kullanılabilecek yeni bir örneğini başlatır.Html biçim.
+Bu sınıfın, bir document dosyasını kaydetmek için kullanılabilecek yeni bir örneğini başlatır.Html format.
 
 ```csharp
 public HtmlSaveOptions()
@@ -21,15 +21,15 @@ Bir belgeyi .epub'a kaydederken belirli bir kodlamanın nasıl kullanılacağın
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Kaydeteceğimiz bir belgenin kodlamasını belirtmek için SaveOptions nesnesini kullanın.
+// Kaydedeceğimiz belgenin kodlamasını belirtmek için SaveOptions nesnesini kullanın.
 HtmlSaveOptions saveOptions = new HtmlSaveOptions();
 saveOptions.SaveFormat = SaveFormat.Epub;
 saveOptions.Encoding = Encoding.UTF8;
 
-// Varsayılan olarak, bir çıktı .epub belgesinin tüm içeriği tek bir HTML bölümünde olacaktır.
-// Bölme kriteri, belgeyi birkaç HTML parçasına ayırmamızı sağlar.
+// Varsayılan olarak, bir çıktı .epub belgesinin tüm içeriği tek bir HTML bölümünde bulunur.
+// Bölme kriteri, belgeyi birkaç HTML parçasına ayırmamıza olanak tanır.
 // Belgeyi başlık paragraflarına bölmek için kriterleri belirleyeceğiz.
-// Bu, belirli bir boyuttan daha önemli HTML dosyalarını okuyamayan okuyucular için kullanışlıdır.
+// Bu, belirli bir boyuttan daha büyük HTML dosyalarını okuyamayan okuyucular için kullanışlıdır.
 saveOptions.DocumentSplitCriteria = DocumentSplitCriteria.HeadingParagraph;
 
 // Belge özelliklerini dışa aktarmak istediğimizi belirtin.
@@ -48,7 +48,7 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions)
 
 ## HtmlSaveOptions(SaveFormat) {#constructor_1}
 
-Bu sınıfın, bir document dosyasını şuraya kaydetmek için kullanılabilecek yeni bir örneğini başlatır.Html ,Mhtml veyaEpub biçim.
+Bu sınıfın, bir document dosyasını kaydetmek için kullanılabilecek yeni bir örneğini başlatır.Html ,Mhtml ,Epub , Azw3 veyaMobi format.
 
 ```csharp
 public HtmlSaveOptions(SaveFormat saveFormat)
@@ -56,7 +56,7 @@ public HtmlSaveOptions(SaveFormat saveFormat)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| saveFormat | SaveFormat | OlabilirHtml ,Mhtml veyaEpub. |
+| saveFormat | SaveFormat | OlabilirHtml ,Mhtml ,Epub , Azw3 veyaMobi . |
 
 ### Örnekler
 
@@ -73,7 +73,7 @@ HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html)
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.HtmlVersions.html", options);
 
-// HTML belgelerimiz, farklı HTML sürümleriyle uyumlu olması için küçük farklılıklara sahip olacaktır.
+// HTML belgelerimiz farklı HTML sürümleriyle uyumlu olması açısından ufak farklılıklara sahip olacaktır.
 string outDocContents = File.ReadAllText(ArtifactsDir + "HtmlSaveOptions.HtmlVersions.html");
 
 switch (htmlVersion)

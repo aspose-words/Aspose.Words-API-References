@@ -16,7 +16,7 @@ public Node LastChild { get; }
 
 ### Observaciones
 
-Si no hay un último nodo secundario, se devuelve un valor nulo.
+Si no hay un último nodo secundario, se`nulo` se devuelve.
 
 ### Ver también
 

@@ -3,7 +3,7 @@ title: Enum Orientation
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.Orientation énumération. Spécifie lorientation de la page.
 type: docs
-weight: 4080
+weight: 4320
 url: /fr/net/aspose.words/orientation/
 ---
 ## Orientation enumeration
@@ -18,24 +18,24 @@ public enum Orientation
 
 | Nom | Évaluer | La description |
 | --- | --- | --- |
-| Portrait | `1` | Orientation de la page portrait (étroite et haute). |
-| Landscape | `2` | Orientation de la page paysage (large et courte). |
+| Portrait | `1` | Orientation de la page Portrait (étroite et haute). |
+| Landscape | `2` | Orientation de la page Paysage (large et courte). |
 
 ### Exemples
 
-Montre comment appliquer et rétablir les paramètres de mise en page aux sections d'un document.
+Montre comment appliquer et rétablir les paramètres de mise en page aux sections d’un document.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Modifie les propriétés de mise en page pour la section actuelle du générateur et ajoute du texte.
+// Modifie les propriétés de mise en page de la section actuelle du générateur et ajoute du texte.
 builder.PageSetup.Orientation = Orientation.Landscape;
 builder.PageSetup.VerticalAlignment = PageVerticalAlignment.Center;
 builder.Writeln("This is the first section, which landscape oriented with vertically centered text.");
 
-// Si nous commençons une nouvelle section en utilisant un générateur de document,
-// il héritera des propriétés de configuration de page actuelles du générateur.
+// Si on démarre une nouvelle section en utilisant un générateur de documents,
+// il héritera des propriétés de mise en page actuelles du constructeur.
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 
 Assert.AreEqual(Orientation.Landscape, doc.Sections[1].PageSetup.Orientation);

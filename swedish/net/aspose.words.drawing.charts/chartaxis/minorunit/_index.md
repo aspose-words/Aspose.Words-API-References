@@ -3,7 +3,7 @@ title: ChartAxis.MinorUnit
 second_title: Aspose.Words för .NET API Referens
 description: ChartAxis fast egendom. Returnerar eller ställer in avståndet mellan mindre bockmarkeringar.
 type: docs
-weight: 140
+weight: 160
 url: /sv/net/aspose.words.drawing.charts/chartaxis/minorunit/
 ---
 ## ChartAxis.MinorUnit property
@@ -18,7 +18,7 @@ public double MinorUnit { get; set; }
 
 Giltigt intervall för ett värde är större än noll. Egenskapen har effekt för tidskategori och värdeaxlar.
 
-Om du ställer in den här egenskapen ställer du in[`MinorUnitIsAuto`](../minorunitisauto/) egendom till **falsk**.
+Om du ställer in den här egenskapen ställer du in[`MinorUnitIsAuto`](../minorunitisauto/) egendom till`falsk`.
 
 ### Exempel
 

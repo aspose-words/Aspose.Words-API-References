@@ -1,14 +1,14 @@
 ---
 title: ChartDataLabelCollection.Separator
 second_title: Aspose.Words per .NET API Reference
-description: ChartDataLabelCollection proprietà. Ottiene o imposta il separatore di stringa utilizzato per le etichette dati dellintera serie. Limpostazione predefinita è una virgola ad eccezione dei grafici a torta che mostrano solo il nome della categoria e la percentuale quando deve essere utilizzata uninterruzione di riga .
+description: ChartDataLabelCollection proprietà. Ottiene o imposta il separatore di stringa utilizzato per le etichette dati dellintera serie. Il valore predefinito è una virgola ad eccezione dei grafici a torta che mostrano solo il nome della categoria e la percentuale quando invece deve essere utilizzata uninterruzione di riga .
 type: docs
-weight: 40
+weight: 60
 url: /it/net/aspose.words.drawing.charts/chartdatalabelcollection/separator/
 ---
 ## ChartDataLabelCollection.Separator property
 
-Ottiene o imposta il separatore di stringa utilizzato per le etichette dati dell'intera serie. L'impostazione predefinita è una virgola, ad eccezione dei grafici a torta che mostrano solo il nome della categoria e la percentuale, quando deve essere utilizzata un'interruzione di riga .
+Ottiene o imposta il separatore di stringa utilizzato per le etichette dati dell'intera serie. Il valore predefinito è una virgola, ad eccezione dei grafici a torta che mostrano solo il nome della categoria e la percentuale, quando invece deve essere utilizzata un'interruzione di riga .
 
 ```csharp
 public string Separator { get; set; }
@@ -20,7 +20,7 @@ Il valore definito per questa proprietà può essere sovrascritto per una singol
 
 ### Esempi
 
-Mostra come lavorare con le etichette dati di un grafico a bolle.
+Mostra come utilizzare le etichette dati di un grafico a bolle.
 
 ```csharp
 Document doc = new Document();
@@ -28,16 +28,16 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Chart chart = builder.InsertChart(ChartType.Bubble, 500, 300).Chart;
 
-// Cancella la serie di dati demo del grafico per iniziare con un grafico pulito.
+// Cancella le serie di dati dimostrativi del grafico per iniziare con un grafico pulito.
 chart.Series.Clear();
 
- // Aggiungi una serie personalizzata con le coordinate X/Y e il diametro di ciascuna delle bolle.
+// Aggiungi una serie personalizzata con le coordinate X/Y e il diametro di ciascuna bolla.
 ChartSeries series = chart.Series.Add("Aspose Test Series",
     new[] { 2.9, 3.5, 1.1, 4.0, 4.0 },
     new[] { 1.9, 8.5, 2.1, 6.0, 1.5 },
     new[] { 9.0, 4.5, 2.5, 8.0, 5.0 });
 
-// Abilita le etichette dei dati, quindi modifica il loro aspetto.
+// Abilita le etichette dati e quindi modifica il loro aspetto.
 series.HasDataLabels = true;
 ChartDataLabelCollection dataLabels = series.DataLabels;
 dataLabels.ShowBubbleSize = true;
@@ -56,15 +56,15 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Chart chart = builder.InsertChart(ChartType.Pie, 500, 300).Chart;
 
-// Cancella la serie di dati demo del grafico per iniziare con un grafico pulito.
+// Cancella le serie di dati dimostrativi del grafico per iniziare con un grafico pulito.
 chart.Series.Clear();
 
-// Inserisce una serie di grafici personalizzata con un nome di categoria per ciascuno dei settori e la relativa tabella di frequenza.
+// Inserisci una serie di grafici personalizzati con un nome di categoria per ciascuno dei settori e la relativa tabella di frequenza.
 ChartSeries series = chart.Series.Add("Aspose Test Series",
     new[] { "Word", "PDF", "Excel" },
     new[] { 2.7, 3.2, 0.8 });
 
-// Abilita le etichette dei dati che visualizzeranno sia la percentuale che la frequenza di ciascun settore e ne modificheranno l'aspetto.
+// Abilita le etichette dati che visualizzeranno sia la percentuale che la frequenza di ciascun settore e ne modificheranno l'aspetto.
 series.HasDataLabels = true;
 ChartDataLabelCollection dataLabels = series.DataLabels;
 dataLabels.ShowLeaderLines = true;

@@ -1,14 +1,14 @@
 ---
 title: TextBox.InternalMarginRight
 second_title: Справочник по API Aspose.Words для .NET
-description: TextBox свойство. Указывает внутреннее правое поле в пунктах для фигуры.
+description: TextBox свойство. Определяет внутреннее правое поле фигуры в пунктах.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.drawing/textbox/internalmarginright/
 ---
 ## TextBox.InternalMarginRight property
 
-Указывает внутреннее правое поле в пунктах для фигуры.
+Определяет внутреннее правое поле фигуры в пунктах.
 
 ```csharp
 public double InternalMarginRight { get; set; }
@@ -26,7 +26,7 @@ public double InternalMarginRight { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставить другое текстовое поле с определенными полями.
+// Вставляем еще одно текстовое поле с определенными полями.
 Shape textBoxShape = builder.InsertShape(ShapeType.TextBox, 100, 100);
 TextBox textBox = textBoxShape.TextBox;
 textBox.InternalMarginTop = 15;

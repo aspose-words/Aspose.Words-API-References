@@ -1,14 +1,14 @@
 ---
 title: FieldMacroButton.DisplayText
 second_title: Справочник по API Aspose.Words для .NET
-description: FieldMacroButton свойство. Получает или задает текст отображаемый в качестве кнопки выбранной для запуска макроса или команды.
+description: FieldMacroButton свойство. Получает или задает текст который будет отображаться в качестве кнопки выбранной для запуска макроса или команды.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldmacrobutton/displaytext/
 ---
 ## FieldMacroButton.DisplayText property
 
-Получает или задает текст, отображаемый в качестве «кнопки», выбранной для запуска макроса или команды.
+Получает или задает текст, который будет отображаться в качестве «кнопки», выбранной для запуска макроса или команды.
 
 ```csharp
 public string DisplayText { get; set; }
@@ -16,7 +16,7 @@ public string DisplayText { get; set; }
 
 ### Примеры
 
-Показывает, как использовать поля MACROBUTTON, чтобы позволить нам запускать макросы документа, щелкая.
+Показывает, как использовать поля MACROBUTTON, чтобы можно было запускать макросы документа щелчком мыши.
 
 ```csharp
 Document doc = new Document(MyDir + "Macro.docm");
@@ -24,18 +24,18 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Assert.IsTrue(doc.HasMacros);
 
-// Вставьте поле MACROBUTTON и укажите один из макросов документа по имени в свойстве MacroName.
+// Вставляем поле MACROBUTTON и ссылаемся на один из макросов документа по имени в свойстве MacroName.
 FieldMacroButton field = (FieldMacroButton)builder.InsertField(FieldType.FieldMacroButton, true);
 field.MacroName = "MyMacro";
 field.DisplayText = "Double click to run macro: " + field.MacroName;
 
 Assert.AreEqual(" MACROBUTTON  MyMacro Double click to run macro: MyMacro", field.GetFieldCode());
 
-// Используйте это свойство для ссылки на "ViewZoom200", макрос, который поставляется с Microsoft Word.
-// Все остальные макросы мы можем найти через Вид -> Макросы (раскрывающийся список) -> Просмотр макросов.
+// Используйте свойство для ссылки на «ViewZoom200», макрос, который поставляется с Microsoft Word.
+// Все остальные макросы мы можем найти через View -> gt; Макросы (раскрывающийся список) -> Просмотр макросов.
 // В этом меню выберите «Команды Word» в раскрывающемся списке «Макросы в:».
 // Если наш документ содержит пользовательский макрос с тем же именем, что и стандартный макрос,
-// наш макрос будет тот, который запускает поле MACROBUTTON.
+// наш макрос будет тем, который запускается в поле MACROBUTTON.
 builder.InsertParagraph();
 field = (FieldMacroButton)builder.InsertField(FieldType.FieldMacroButton, true);
 field.MacroName = "ViewZoom200";

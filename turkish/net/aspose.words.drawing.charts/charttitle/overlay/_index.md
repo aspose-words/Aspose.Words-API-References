@@ -1,14 +1,14 @@
 ---
 title: ChartTitle.Overlay
 second_title: Aspose.Words for .NET API Referansı
-description: ChartTitle mülk. Diğer grafik öğelerinin başlıkla çakışmasına izin verilip verilmeyeceğini belirler. Varsayılan olarak bindirme falsetur.
+description: ChartTitle mülk. Diğer grafik öğelerinin başlıkla örtüşmesine izin verilip verilmeyeceğini belirler. Varsayılan olarak yer paylaşımıYANLIŞ .
 type: docs
-weight: 10
+weight: 20
 url: /tr/net/aspose.words.drawing.charts/charttitle/overlay/
 ---
 ## ChartTitle.Overlay property
 
-Diğer grafik öğelerinin başlıkla çakışmasına izin verilip verilmeyeceğini belirler. Varsayılan olarak bindirme false'tur.
+Diğer grafik öğelerinin başlıkla örtüşmesine izin verilip verilmeyeceğini belirler. Varsayılan olarak yer paylaşımı`YANLIŞ` .
 
 ```csharp
 public bool Overlay { get; set; }
@@ -16,24 +16,24 @@ public bool Overlay { get; set; }
 
 ### Örnekler
 
-Bir grafiğin nasıl ekleneceğini ve bir başlığın nasıl ayarlanacağını gösterir.
+Grafiğin nasıl ekleneceğini ve başlığın nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Belge oluşturucu ile bir grafik şekli ekleyin ve grafiğini alın.
+// Belge oluşturucuyla bir grafik şekli ekleyin ve grafiğini alın.
 Shape chartShape = builder.InsertChart(ChartType.Bar, 400, 300);
 Chart chart = chartShape.Chart;
 
-// Grafiğimize, grafik alanının üst ortasında görünen bir başlık vermek için "Başlık" özelliğini kullanın.
+// Grafiğimize, grafik alanının üst orta kısmında görünen bir başlık vermek için "Başlık" özelliğini kullanın.
 ChartTitle title = chart.Title;
 title.Text = "My Chart";
 
- // Başlığı görünür kılmak için "Show" özelliğini "true" olarak ayarlayın.
+ // Başlığın görünür olması için "Show" özelliğini "true" olarak ayarlayın.
 title.Show = true;
 
-// "Kaplama" özelliğini "true" olarak ayarlayın Diğer grafik öğelerine, başlıkla çakışmalarına izin vererek daha fazla yer verin
+// "Overlay" özelliğini "true" olarak ayarlayın Diğer grafik öğelerinin başlıkla örtüşmesine izin vererek daha fazla alan sağlayın
 title.Overlay = true;
 
 doc.Save(ArtifactsDir + "Charts.ChartTitle.docx");

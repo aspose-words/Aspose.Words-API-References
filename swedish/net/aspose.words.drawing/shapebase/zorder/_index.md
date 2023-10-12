@@ -3,7 +3,7 @@ title: ShapeBase.ZOrder
 second_title: Aspose.Words för .NET API Referens
 description: ShapeBase fast egendom. Bestämmer visningsordningen för överlappande former.
 type: docs
-weight: 550
+weight: 610
 url: /sv/net/aspose.words.drawing/shapebase/zorder/
 ---
 ## ShapeBase.ZOrder property
@@ -54,7 +54,7 @@ Shape[] shapes = doc.GetChildNodes(NodeType.Shape, true).OfType<Shape>().ToArray
 
 // Egenskapen "ZOrder" för en form bestämmer dess staplingsprioritet bland andra överlappande former.
 // Om två överlappande former har olika "ZOrder"-värden,
-  // Microsoft Word kommer att placera formen med ett högre värde över formen med det lägre värdet.
+// Microsoft Word kommer att placera formen med ett högre värde över formen med det lägre värdet. 
 // Ställ in "ZOrder"-värdena för våra former för att placera den första orangea rektangeln över den andra ljusblå
 // och den andra ljusblå rektangeln över den tredje ljusgröna rektangeln.
 // Detta kommer att vända deras ursprungliga staplingsordning.

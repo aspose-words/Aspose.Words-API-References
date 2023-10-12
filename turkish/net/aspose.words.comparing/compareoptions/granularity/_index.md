@@ -1,14 +1,14 @@
 ---
 title: CompareOptions.Granularity
 second_title: Aspose.Words for .NET API Referansı
-description: CompareOptions mülk. Değişikliklerin karaktere göre mi yoksa kelimeye göre mi izlendiğini belirtir. Varsayılan değerWordLevel .
+description: CompareOptions mülk. Değişikliklerin karaktere göre mi yoksa kelimeye göre mi izleneceğini belirtir. Varsayılan değerWordLevel .
 type: docs
-weight: 20
+weight: 30
 url: /tr/net/aspose.words.comparing/compareoptions/granularity/
 ---
 ## CompareOptions.Granularity property
 
-Değişikliklerin karaktere göre mi yoksa kelimeye göre mi izlendiğini belirtir. Varsayılan değerWordLevel .
+Değişikliklerin karaktere göre mi yoksa kelimeye göre mi izleneceğini belirtir. Varsayılan değer:WordLevel .
 
 ```csharp
 public Granularity Granularity { get; set; }
@@ -16,7 +16,7 @@ public Granularity Granularity { get; set; }
 
 ### Örnekler
 
-Belgeleri karşılaştırırken bir ayrıntı düzeyi belirtmek için gösterir.
+Belgeleri karşılaştırırken ayrıntı düzeyini belirtmeyi gösterir.
 
 ```csharp
 Document docA = new Document();

@@ -3,12 +3,14 @@ title: Class StructuredDocumentTagCollection
 second_title: Aspose.Words for .NET API Referansı
 description: Aspose.Words.Markup.StructuredDocumentTagCollection sınıf. Bir koleksiyonIStructuredDocumentTag belirtilen aralıktaki yapılandırılmış belge etiketlerini temsil eden örnekler.
 type: docs
-weight: 3830
+weight: 4070
 url: /tr/net/aspose.words.markup/structureddocumenttagcollection/
 ---
 ## StructuredDocumentTagCollection class
 
 Bir koleksiyon[`IStructuredDocumentTag`](../istructureddocumenttag/) belirtilen aralıktaki yapılandırılmış belge etiketlerini temsil eden örnekler.
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Yapılandırılmış Belge Etiketleri veya İçerik Kontrolü](https://docs.aspose.com/words/net/working-with-content-control-sdt/) dokümantasyon makalesi.
 
 ```csharp
 public class StructuredDocumentTagCollection : IEnumerable<IStructuredDocumentTag>
@@ -25,12 +27,12 @@ public class StructuredDocumentTagCollection : IEnumerable<IStructuredDocumentTa
 
 | İsim | Tanım |
 | --- | --- |
-| [GetById](../../aspose.words.markup/structureddocumenttagcollection/getbyid/)(int) | Tanımlayıcıya göre yapılandırılmış belge etiketini döndürür. |
-| [GetByTag](../../aspose.words.markup/structureddocumenttagcollection/getbytag/)(string) | Belirtilen etiketle koleksiyonda karşılaşılan ilk yapılandırılmış belge etiketini döndürür. |
-| [GetByTitle](../../aspose.words.markup/structureddocumenttagcollection/getbytitle/)(string) | Belirtilen başlık ile koleksiyonda karşılaşılan ilk yapılandırılmış belge etiketini döndürür. |
-| [GetEnumerator](../../aspose.words.markup/structureddocumenttagcollection/getenumerator/)() | Bir numaralandırıcı nesnesi döndürür. |
+| [GetById](../../aspose.words.markup/structureddocumenttagcollection/getbyid/)(int) | Yapılandırılmış belge etiketini tanımlayıcıya göre döndürür. |
+| [GetByTag](../../aspose.words.markup/structureddocumenttagcollection/getbytag/)(string) | Koleksiyonda karşılaşılan ve belirtilen etikete sahip ilk yapılandırılmış belge etiketini döndürür. |
+| [GetByTitle](../../aspose.words.markup/structureddocumenttagcollection/getbytitle/)(string) | Koleksiyonda karşılaşılan ve belirtilen başlıktaki ilk yapılandırılmış belge etiketini döndürür. |
+| [GetEnumerator](../../aspose.words.markup/structureddocumenttagcollection/getenumerator/)() | Bir numaralandırıcı nesnesini döndürür. |
 | [Remove](../../aspose.words.markup/structureddocumenttagcollection/remove/)(int) | Belirtilen tanımlayıcıya sahip yapılandırılmış belge etiketini kaldırır. |
-| [RemoveAt](../../aspose.words.markup/structureddocumenttagcollection/removeat/)(int) | Belirtilen dizindeki yapılandırılmış bir belge etiketini kaldırır. |
+| [RemoveAt](../../aspose.words.markup/structureddocumenttagcollection/removeat/)(int) | Belirtilen dizindeki yapılandırılmış belge etiketini kaldırır. |
 
 ### Ayrıca bakınız
 

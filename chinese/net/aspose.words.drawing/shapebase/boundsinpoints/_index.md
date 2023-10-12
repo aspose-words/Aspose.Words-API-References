@@ -1,14 +1,14 @@
 ---
 title: ShapeBase.BoundsInPoints
 second_title: Aspose.Words for .NET API 参考
-description: ShapeBase 财产. 获取形状包含块的位置和大小以点为单位相对于最顶部形状的锚点
+description: ShapeBase 财产. 获取形状的包含块相对于最顶部形状的锚点的位置和大小以点为单位
 type: docs
 weight: 80
 url: /zh/net/aspose.words.drawing/shapebase/boundsinpoints/
 ---
 ## ShapeBase.BoundsInPoints property
 
-获取形状包含块的位置和大小，以点为单位，相对于最顶部形状的锚点。
+获取形状的包含块相对于最顶部形状的锚点的位置和大小（以点为单位）。
 
 ```csharp
 public RectangleF BoundsInPoints { get; }
@@ -16,7 +16,7 @@ public RectangleF BoundsInPoints { get; }
 
 ### 例子
 
-显示如何验证包含块边界的形状。
+演示如何验证包含块边界的形状。
 
 ```csharp
 Document doc = new Document();
@@ -26,7 +26,7 @@ Shape shape = builder.InsertShape(ShapeType.Line, RelativeHorizontalPosition.Lef
     RelativeVerticalPosition.TopMargin, 50, 100, 100, WrapType.None);
 shape.StrokeColor = Color.Orange;
 
-// 即使该行本身在文档页面上占用的空间很小，
+// 尽管该行本身在文档页面上占用的空间很小，
 // 它占据一个矩形包含块，我们可以使用“Bounds”属性确定其大小。
 Assert.AreEqual(new RectangleF(50, 50, 100, 100), shape.Bounds);
 Assert.AreEqual(new RectangleF(50, 50, 100, 100), shape.BoundsInPoints);
@@ -51,10 +51,10 @@ Assert.AreEqual(new RectangleF(700, 700, 100, 100), shape.BoundsInPoints);
 group.AppendChild(shape);
 
 // 组形状的坐标平面的原点位于其包含块的左上角，
-// 以及右下角 (1000, 1000) 的 x 和 y 坐标。
-// 我们的组形状大小为 250x250pt，所以在组形状的坐标平面上每 4pt
-// 在文档正文的坐标平面中转换为 1pt。
-// 我们插入的每个形状的大小也会缩小 4 倍。
+// 以及右下角的 (1000, 1000) 的 x 和 y 坐标。
+// 我们的组形状大小为 250x250pt，因此组形状的坐标平面上每 4pt 一个
+// 转换为文档主体坐标平面中的 1pt。
+// 我们插入的每个形状的尺寸也会缩小 4 倍。
 // 形状的“BoundsInPoints”属性的变化将反映这一点。
 Assert.AreEqual(new RectangleF(175, 275, 25, 25), shape.BoundsInPoints);
 
@@ -71,7 +71,7 @@ shape = new Shape(doc, ShapeType.Rectangle)
 
 group.AppendChild(shape);
 
-// 文档正文中组形状的占用空间增加了，但包含块保持不变。
+// 组形状在文档正文中的占用空间已增加，但包含块保持不变。
 Assert.AreEqual(new RectangleF(0, 100, 250, 250), group.BoundsInPoints);
 Assert.AreEqual(new RectangleF(250, 350, 25, 25), shape.BoundsInPoints);
 

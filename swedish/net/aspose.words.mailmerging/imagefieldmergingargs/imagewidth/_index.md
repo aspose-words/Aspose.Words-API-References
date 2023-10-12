@@ -18,13 +18,14 @@ public MergeFieldImageDimension ImageWidth { get; set; }
 
 Värdet på den här egenskapen kommer initialt från motsvarande MERGEFIELDs kod, som finns i malldokumentet . För att åsidosätta det initiala värdet bör du tilldela en instans av [`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension/) klass till den här egenskapen eller ställ in egenskaperna för instans av[`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension/) klass, returneras av den här egenskapen.
 
-För att indikera att det ursprungliga värdet för bildbredden ska tillämpas, bör du tilldela **null** värde till den här egenskapen eller ställ in[`Value`](../../../aspose.words.fields/mergefieldimagedimension/value/) egenskap för instans av[`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension/) klass, som returneras av den här egenskapen, till ett negativt värde.
+För att indikera att det ursprungliga värdet för bildbredden ska tillämpas, bör du tilldela`null` värde till den här egenskapen eller ställ in[`Value`](../../../aspose.words.fields/mergefieldimagedimension/value/) egenskap för instans av[`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension/) klass, som returneras av den här egenskapen, till ett negativt värde.
 
 ### Exempel
 
 Visar hur du ställer in dimensionerna för bilder när MERGEFIELDS accepterar dem under en sammanfogning.
 
 ```csharp
+public void MergeFieldImageDimension()
 {
     Document doc = new Document();
 
@@ -49,6 +50,7 @@ Visar hur du ställer in dimensionerna för bilder när MERGEFIELDS accepterar d
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.MERGEFIELD.ImageDimension.docx");
+}
 
 /// <summary>
 /// Ställer in storleken på alla sammanslagna bilder till en definierad bredd och höjd.

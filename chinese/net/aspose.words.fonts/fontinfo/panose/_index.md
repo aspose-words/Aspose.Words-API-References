@@ -16,13 +16,13 @@ public byte[] Panose { get; set; }
 
 ### 评论
 
-PANOSE 是对字体关键视觉特征、 （例如对比度、粗细和衬线样式）的紧凑型 10 字节描述。数字代表 Family Kind、Serif Style、 Weight、Proportion、Contrast、Stroke Variation、Arm Style、Letterform、Midline 和 X-Height。
+PANOSE 是对字体关键视觉特征 （例如对比度、粗细和衬线样式）的紧凑 10 字节描述。这些数字代表系列种类、衬线样式、 粗细、比例、对比度、笔画变化、臂样式、字母形式、中线和 X 高度。
 
-可`无效的`.
+可`无效的`。
 
 ### 例子
 
-显示如何访问和打印文档中每种字体的详细信息。
+演示如何访问和打印文档中每种字体的详细信息。
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");

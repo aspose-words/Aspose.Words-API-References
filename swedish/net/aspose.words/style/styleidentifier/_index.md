@@ -3,7 +3,7 @@ title: Style.StyleIdentifier
 second_title: Aspose.Words för .NET API Referens
 description: Style fast egendom. Hämtar den lokala stilidentifieraren för en inbyggd stil.
 type: docs
-weight: 140
+weight: 160
 url: /sv/net/aspose.words/style/styleidentifier/
 ---
 ## Style.StyleIdentifier property

@@ -1,14 +1,14 @@
 ---
 title: MailMergeSettings.MailSubject
 second_title: Aspose.Words for .NET API 参考
-description: MailMergeSettings 财产. 指定应出现在邮件合并期间生成的电子邮件或传真的主题行中的文本 默认值为空字符串
+description: MailMergeSettings 财产. 指定在邮件合并期间生成的电子邮件或传真的主题行中应显示的文本 默认值为空字符串
 type: docs
 weight: 130
 url: /zh/net/aspose.words.settings/mailmergesettings/mailsubject/
 ---
 ## MailMergeSettings.MailSubject property
 
-指定应出现在邮件合并期间生成的电子邮件或传真的主题行中的文本。 默认值为空字符串。
+指定在邮件合并期间生成的电子邮件或传真的主题行中应显示的文本。 默认值为空字符串。
 
 ```csharp
 public string MailSubject { get; set; }
@@ -16,7 +16,7 @@ public string MailSubject { get; set; }
 
 ### 例子
 
-显示如何在连接到外部数据源时执行邮件合并。
+演示如何在连接到外部数据源时执行邮件合并。
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
@@ -37,7 +37,7 @@ Console.WriteLine($"Table:\n\t{odso.TableName}");
 Console.WriteLine($"Query:\n\t{doc.MailMergeSettings.Query}");
 
 // 我们可以通过清除它们来重置这些设置。一旦我们这样做并保存文档，
-// 当我们使用它加载文档时，Microsoft Word 将不再执行邮件合并。
+// 当我们使用 Microsoft Word 加载文档时，它将不再执行邮件合并。
 settings.Clear();
 
 doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");

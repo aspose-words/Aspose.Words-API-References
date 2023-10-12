@@ -3,7 +3,7 @@ title: Enum PdfImageColorSpaceExportMode
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.Saving.PdfImageColorSpaceExportMode enumeración. Especifica cómo se seleccionará el espacio de color para las imágenes en el documento PDF.
 type: docs
-weight: 5200
+weight: 5480
 url: /es/net/aspose.words.saving/pdfimagecolorspaceexportmode/
 ---
 ## PdfImageColorSpaceExportMode enumeration
@@ -19,7 +19,7 @@ public enum PdfImageColorSpaceExportMode
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
 | Auto | `0` | Aspose.Words selecciona automáticamente el espacio de color más apropiado para cada imagen. |
-| SimpleCmyk | `1` | Aspose.Words convierte las imágenes RGB al espacio de color CMYK usando una fórmula simple. |
+| SimpleCmyk | `1` | Aspose.Words convierte imágenes RGB al espacio de color CMYK mediante una fórmula simple. |
 
 ### Ejemplos
 
@@ -39,11 +39,11 @@ builder.InsertImage(ImageDir + "Transparent background logo.png");
 // para modificar cómo ese método convierte el documento a .PDF.
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 
-// Establezca la propiedad "ImageColorSpaceExportMode" en "PdfImageColorSpaceExportMode.Auto" para que Aspose.Words
+// Establece la propiedad "ImageColorSpaceExportMode" en "PdfImageColorSpaceExportMode.Auto" para obtener Aspose.Words
 // selecciona automáticamente el espacio de color para las imágenes en el documento que convierte a PDF.
 // En la mayoría de los casos, el espacio de color será RGB.
-// Establecer la propiedad "ImageColorSpaceExportMode" en "PdfImageColorSpaceExportMode.SimpleCmyk"
-// para usar el espacio de color CMYK para todas las imágenes en el PDF guardado.
+// Establece la propiedad "ImageColorSpaceExportMode" en "PdfImageColorSpaceExportMode.SimpleCmyk"
+// para utilizar el espacio de color CMYK para todas las imágenes en el PDF guardado.
 // Aspose.Words también aplicará la compresión Flate a todas las imágenes e ignorará el valor de la propiedad "ImageCompression".
 pdfSaveOptions.ImageColorSpaceExportMode = pdfImageColorSpaceExportMode;
 

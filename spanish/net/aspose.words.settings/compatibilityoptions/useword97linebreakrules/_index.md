@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.UseWord97LineBreakRules
 second_title: Referencia de API de Aspose.Words para .NET
-description: CompatibilityOptions propiedad. Emular Word 97 División de línea de Asia oriental.
+description: CompatibilityOptions propiedad. Emular Word 97 Salto de línea de Asia Oriental.
 type: docs
 weight: 680
 url: /es/net/aspose.words.settings/compatibilityoptions/useword97linebreakrules/
 ---
 ## CompatibilityOptions.UseWord97LineBreakRules property
 
-Emular Word 97 División de línea de Asia oriental.
+Emular Word 97 Salto de línea de Asia Oriental.
 
 ```csharp
 public bool UseWord97LineBreakRules { get; set; }

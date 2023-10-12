@@ -1,14 +1,14 @@
 ---
 title: Cell.Cell
 second_title: Referencia de API de Aspose.Words para .NET
-description: Cell constructor. Inicializa una nueva instancia del Célula clase.
+description: Cell constructor. Inicializa una nueva instancia delCell clase.
 type: docs
 weight: 10
 url: /es/net/aspose.words.tables/cell/cell/
 ---
 ## Cell constructor
 
-Inicializa una nueva instancia del **Célula** clase.
+Inicializa una nueva instancia del[`Cell`](../) clase.
 
 ```csharp
 public Cell(DocumentBase doc)
@@ -20,9 +20,9 @@ public Cell(DocumentBase doc)
 
 ### Observaciones
 
-Cuando **Célula** se crea, pertenece al documento especificado, pero aún no es parte del documento y **Nodo principal** es nulo.
+Cuando[`Cell`](../) se crea, pertenece al documento especificado, pero aún no es parte del documento y[`ParentNode`](../../../aspose.words/node/parentnode/) es`nulo`.
 
-Para anexar **Célula** al documento use InsertAfter o InsertBefore en la fila donde desea insertar la celda.
+Para anexar[`Cell`](../) al uso del documentoNode) oNode) en la fila donde desea insertar la celda.
 
 ### Ejemplos
 
@@ -37,7 +37,7 @@ public void CreateNestedTable()
     Table outerTable = CreateTable(doc, 3, 4, "Outer Table");
     doc.FirstSection.Body.AppendChild(outerTable);
 
-    // Cree otra tabla con dos filas y dos columnas y luego insértela en la primera celda de la primera tabla.
+    // Crea otra tabla con dos filas y dos columnas y luego insértala en la primera celda de la primera tabla.
     Table innerTable = CreateTable(doc, 2, 2, "Inner Table");
     outerTable.FirstRow.FirstCell.AppendChild(innerTable);
 
@@ -66,7 +66,7 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
         }
     }
 
-    // Puede usar las propiedades "Título" y "Descripción" para agregar un título y una descripción respectivamente a su tabla.
+    // Puedes usar las propiedades "Título" y "Descripción" para agregar un título y una descripción respectivamente a tu tabla.
     // La tabla debe tener al menos una fila antes de que podamos usar estas propiedades.
     // Estas propiedades son significativas para documentos .docx compatibles con ISO/IEC 29500 (consulte la clase OoxmlCompliance).
     // Si guardamos el documento en formatos anteriores a ISO/IEC 29500, Microsoft Word ignora estas propiedades.

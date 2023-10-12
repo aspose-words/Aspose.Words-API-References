@@ -3,7 +3,7 @@ title: Fill.GradientStyle
 second_title: Aspose.Words för .NET API Referens
 description: Fill fast egendom. Hämtar gradientstilenGradientStyle för fyllningen.
 type: docs
-weight: 60
+weight: 120
 url: /sv/net/aspose.words.drawing/fill/gradientstyle/
 ---
 ## Fill.GradientStyle property

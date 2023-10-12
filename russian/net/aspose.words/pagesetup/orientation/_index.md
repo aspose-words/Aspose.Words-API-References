@@ -3,7 +3,7 @@ title: PageSetup.Orientation
 second_title: Справочник по API Aspose.Words для .NET
 description: PageSetup свойство. Возвращает или задает ориентацию страницы.
 type: docs
-weight: 280
+weight: 290
 url: /ru/net/aspose.words/pagesetup/orientation/
 ---
 ## PageSetup.Orientation property
@@ -16,11 +16,11 @@ public Orientation Orientation { get; set; }
 
 ### Примечания
 
-изменение **Ориентация** свопы[`PageWidth`](../pagewidth/) а также[`PageHeight`](../pageheight/).
+Изменение`Orientation` свопы[`PageWidth`](../pagewidth/) и[`PageHeight`](../pageheight/).
 
 ### Примеры
 
-Показывает, как настроить размер бумаги, ориентацию, поля, а также другие параметры раздела.
+Показывает, как настроить размер бумаги, ориентацию, поля и другие параметры раздела.
 
 ```csharp
 Document doc = new Document();
@@ -40,7 +40,7 @@ builder.Writeln("Hello world!");
 doc.Save(ArtifactsDir + "PageSetup.PageMargins.docx");
 ```
 
-Показывает, как применять и возвращать параметры настройки страницы к разделам документа.
+Показывает, как применить и вернуть параметры настройки страницы к разделам документа.
 
 ```csharp
 Document doc = new Document();
@@ -51,14 +51,14 @@ builder.PageSetup.Orientation = Orientation.Landscape;
 builder.PageSetup.VerticalAlignment = PageVerticalAlignment.Center;
 builder.Writeln("This is the first section, which landscape oriented with vertically centered text.");
 
-// Если мы начинаем новый раздел с помощью конструктора документов,
-// он унаследует текущие свойства настройки страницы компоновщика.
+// Если мы начнем новый раздел с помощью построителя документов,
+// он унаследует текущие свойства настройки страницы конструктора.
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 
 Assert.AreEqual(Orientation.Landscape, doc.Sections[1].PageSetup.Orientation);
 Assert.AreEqual(PageVerticalAlignment.Center, doc.Sections[1].PageSetup.VerticalAlignment);
 
-// Мы можем вернуть его свойства настройки страницы к их значениям по умолчанию, используя метод «ClearFormatting».
+// Мы можем вернуть свойства настройки страницы к значениям по умолчанию, используя метод «ClearFormatting».
 builder.PageSetup.ClearFormatting();
 
 Assert.AreEqual(Orientation.Portrait, doc.Sections[1].PageSetup.Orientation);

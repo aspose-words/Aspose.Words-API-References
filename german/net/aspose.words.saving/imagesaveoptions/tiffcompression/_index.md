@@ -1,14 +1,14 @@
 ---
 title: ImageSaveOptions.TiffCompression
 second_title: Aspose.Words für .NET-API-Referenz
-description: ImageSaveOptions eigendom. Ruft den Komprimierungstyp ab oder legt ihn fest der angewendet werden soll wenn generierte Bilder im TIFFFormat gespeichert werden.
+description: ImageSaveOptions eigendom. Ruft den Komprimierungstyp ab der beim Speichern generierter Bilder im TIFFFormat angewendet werden soll oder legt diesen fest.
 type: docs
-weight: 170
+weight: 180
 url: /de/net/aspose.words.saving/imagesaveoptions/tiffcompression/
 ---
 ## ImageSaveOptions.TiffCompression property
 
-Ruft den Komprimierungstyp ab oder legt ihn fest, der angewendet werden soll, wenn generierte Bilder im TIFF-Format gespeichert werden.
+Ruft den Komprimierungstyp ab, der beim Speichern generierter Bilder im TIFF-Format angewendet werden soll, oder legt diesen fest.
 
 ```csharp
 public TiffCompression TiffCompression { get; set; }
@@ -16,7 +16,7 @@ public TiffCompression TiffCompression { get; set; }
 
 ### Bemerkungen
 
-Hat nur Auswirkung beim Speichern im TIFF-Format.
+Hat nur Auswirkungen, wenn im TIFF-Format gespeichert wird.
 
 Der Standardwert istLzw.
 
@@ -30,16 +30,16 @@ Document doc = new Document();
 
             builder.InsertImage(ImageDir + "Logo.jpg");
 
-            // Erstellen Sie ein "ImageSaveOptions"-Objekt, das wir an die "Save"-Methode des Dokuments übergeben können
-            // um die Art und Weise zu ändern, in der diese Methode das Dokument in ein Bild rendert.
+            // Erstellen Sie ein „ImageSaveOptions“-Objekt, das wir an die „Save“-Methode des Dokuments übergeben können
+            // um die Art und Weise zu ändern, wie diese Methode das Dokument in ein Bild rendert.
             ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Tiff);
 
-            // Setzen Sie die Eigenschaft "TiffCompression" auf "TiffCompression.None", um beim Speichern keine Komprimierung anzuwenden,
+            // Setzen Sie die Eigenschaft „TiffCompression“ auf „TiffCompression.None“, um beim Speichern keine Komprimierung anzuwenden.
             // was zu einer sehr großen Ausgabedatei führen kann.
-            // Legen Sie die Eigenschaft "TiffCompression" auf "TiffCompression.Rle" fest, um die RLE-Komprimierung anzuwenden
-            // Legen Sie die Eigenschaft "TiffCompression" auf "TiffCompression.Lzw" fest, um die LZW-Komprimierung anzuwenden.
-            // Legen Sie die Eigenschaft "TiffCompression" auf "TiffCompression.Ccitt3" fest, um die CCITT3-Komprimierung anzuwenden.
-            // Legen Sie die Eigenschaft "TiffCompression" auf "TiffCompression.Ccitt4" fest, um die CCITT4-Komprimierung anzuwenden.
+            // Setzen Sie die Eigenschaft „TiffCompression“ auf „TiffCompression.Rle“, um die RLE-Komprimierung anzuwenden
+            // Setzen Sie die Eigenschaft „TiffCompression“ auf „TiffCompression.Lzw“, um die LZW-Komprimierung anzuwenden.
+            // Setzen Sie die Eigenschaft „TiffCompression“ auf „TiffCompression.Ccitt3“, um die CCITT3-Komprimierung anzuwenden.
+            // Setzen Sie die Eigenschaft „TiffCompression“ auf „TiffCompression.Ccitt4“, um die CCITT4-Komprimierung anzuwenden.
             options.TiffCompression = tiffCompression;
 
             doc.Save(ArtifactsDir + "ImageSaveOptions.TiffImageCompression.tiff", options);

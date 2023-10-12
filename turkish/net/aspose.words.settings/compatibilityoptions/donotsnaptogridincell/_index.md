@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.DoNotSnapToGridInCell
 second_title: Aspose.Words for .NET API Referansı
-description: CompatibilityOptions mülk. Nesnelerle Tablo Hücrelerinde Belge Izgarasına Yapışma.
+description: CompatibilityOptions mülk. Nesnelerin Bulunduğu Tablo Hücrelerinde Belge Izgarasına Yaslama.
 type: docs
 weight: 170
 url: /tr/net/aspose.words.settings/compatibilityoptions/donotsnaptogridincell/
 ---
 ## CompatibilityOptions.DoNotSnapToGridInCell property
 
-Nesnelerle Tablo Hücrelerinde Belge Izgarasına Yapışma.
+Nesnelerin Bulunduğu Tablo Hücrelerinde Belge Izgarasına Yaslama.
 
 ```csharp
 public bool DoNotSnapToGridInCell { get; set; }

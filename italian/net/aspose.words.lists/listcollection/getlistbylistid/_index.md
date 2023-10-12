@@ -20,11 +20,11 @@ public List GetListByListId(int listId)
 
 ### Valore di ritorno
 
-Restituisce l'oggetto elenco. Restituisce null se non è stato trovato un elenco con l'identificatore specificato.
+Restituisce l'oggetto elenco. ritorna`nullo` se non è stato trovato un elenco con l'identificatore specificato.
 
 ### Osservazioni
 
-Normalmente non è necessario utilizzare questo metodo. La maggior parte delle volte applichi la formattazione dell'elenco ai paragrafi solo tramite le impostazioni[`List`](../../listformat/list/) proprietà del[`ListFormat`](../../listformat/) oggetto.
+Normalmente non è necessario utilizzare questo metodo. La maggior parte delle volte applichi la formattazione dell'elenco ai paragrafi semplicemente impostando il file[`List`](../../listformat/list/) proprietà del[`ListFormat`](../../listformat/) oggetto.
 
 ### Esempi
 
@@ -34,11 +34,9 @@ Mostra come verificare le proprietà del documento proprietario degli elenchi.
 Document doc = new Document();
 
 ListCollection lists = doc.Lists;
-
 Assert.AreEqual(doc, lists.Document);
 
 List list = lists.Add(ListTemplate.BulletDefault);
-
 Assert.AreEqual(doc, list.Document);
 
 Console.WriteLine("Current list count: " + lists.Count);

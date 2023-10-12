@@ -17,8 +17,8 @@ public static int PixelToNewDpi(double pixels, double oldDpi, double newDpi)
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | pixels | Double | Dönüştürülecek değer. |
-| oldDpi | Double | Geçerli dpi (inç başına nokta) çözünürlüğü. |
-| newDpi | Double | Yeni dpi (inç başına nokta) çözünürlük. |
+| oldDpi | Double | Geçerli dpi (inç başına nokta sayısı) çözünürlüğü. |
+| newDpi | Double | Yeni dpi (inç başına nokta sayısı) çözünürlüğü. |
 
 ### Örnekler
 
@@ -28,7 +28,7 @@ Varsayılan ve özel çözünürlükle piksellere dönüştürme noktalarının 
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Bu bölümün üst kenar boşluğunun boyutunu, özel bir DPI'ye göre piksel cinsinden tanımlayın.
+// Özel DPI'ya göre bu bölümün üst kenar boşluğunun boyutunu piksel cinsinden tanımlayın.
 const double myDpi = 192;
 
 PageSetup pageSetup = builder.PageSetup;
@@ -36,13 +36,13 @@ pageSetup.TopMargin = ConvertUtil.PixelToPoint(100, myDpi);
 
 Assert.AreEqual(37.5d, pageSetup.TopMargin, 0.01d);
 
-// 96'lık varsayılan DPI'da bir piksel 0,75 puandır.
+// Varsayılan 96 DPI'da bir piksel 0,75 puandır.
 Assert.AreEqual(0.75d, ConvertUtil.PixelToPoint(1));
 
 builder.Writeln($"This Text is {pageSetup.TopMargin} points/{ConvertUtil.PointToPixel(pageSetup.TopMargin, myDpi)} " +
                 $"pixels (at a DPI of {myDpi}) from the top of the page.");
 
-// Yeni bir DPI ayarlayın ve üst kenar boşluğu değerini buna göre ayarlayın.
+// Yeni bir DPI belirleyin ve üst kenar boşluğu değerini buna göre ayarlayın.
 const double newDpi = 300;
 pageSetup.TopMargin = ConvertUtil.PixelToNewDpi(pageSetup.TopMargin, myDpi, newDpi);
 Assert.AreEqual(59.0d, pageSetup.TopMargin, 0.01d);

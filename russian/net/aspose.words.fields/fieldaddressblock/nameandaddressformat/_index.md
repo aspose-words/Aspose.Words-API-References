@@ -26,8 +26,8 @@ FieldAddressBlock field = (FieldAddressBlock)builder.InsertField(FieldType.Field
 
 Assert.AreEqual(" ADDRESSBLOCK ", field.GetFieldCode());
 
-// Установка этого параметра на "2" будет включать все страны и регионы,
-// если только он не указан в свойстве ExcludedCountryOrRegionName.
+// Установка значения «2» будет включать все страны и регионы,
+// если только оно не указано в свойстве ExcludedCountryOrRegionName.
 field.IncludeCountryOrRegionName = "2";
 field.FormatAddressOnCountryOrRegion = true;
 field.ExcludedCountryOrRegionName = "United States";

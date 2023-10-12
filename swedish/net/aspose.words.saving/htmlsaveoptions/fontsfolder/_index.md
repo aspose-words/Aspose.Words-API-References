@@ -3,7 +3,7 @@ title: HtmlSaveOptions.FontsFolder
 second_title: Aspose.Words för .NET API Referens
 description: HtmlSaveOptions fast egendom. Anger den fysiska mapp där teckensnitt sparas vid export av ett dokument till HTML. Standard är en tom sträng.
 type: docs
-weight: 320
+weight: 310
 url: /sv/net/aspose.words.saving/htmlsaveoptions/fontsfolder/
 ---
 ## HtmlSaveOptions.FontsFolder property

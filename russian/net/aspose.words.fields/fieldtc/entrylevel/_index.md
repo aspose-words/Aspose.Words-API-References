@@ -1,14 +1,14 @@
 ---
 title: FieldTC.EntryLevel
 second_title: Справочник по API Aspose.Words для .NET
-description: FieldTC свойство. Получает или устанавливает уровень записи.
+description: FieldTC свойство. Получает или задает уровень записи.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldtc/entrylevel/
 ---
 ## FieldTC.EntryLevel property
 
-Получает или устанавливает уровень записи.
+Получает или задает уровень записи.
 
 ```csharp
 public string EntryLevel { get; set; }
@@ -16,9 +16,10 @@ public string EntryLevel { get; set; }
 
 ### Примеры
 
-Показывает, как вставить поле TOC и отфильтровать, какие поля TC становятся записями.
+Показывает, как вставить поле TOC и отфильтровать поля TC, которые в конечном итоге станут записями.
 
 ```csharp
+public void FieldTocEntryIdentifier()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -26,7 +27,7 @@ public string EntryLevel { get; set; }
     // Вставьте поле TOC, которое скомпилирует все поля TC в оглавление.
     FieldToc fieldToc = (FieldToc)builder.InsertField(FieldType.FieldTOC, true);
 
-    // Настройте поле только для получения записей TC типа "A" и начального уровня от 1 до 3.
+    // Настройте поле только для получения записей TC типа «A» и уровня записи от 1 до 3.
     fieldToc.EntryIdentifier = "A";
     fieldToc.EntryLevelRange = "1-3";
 
@@ -39,14 +40,15 @@ public string EntryLevel { get; set; }
 
     Assert.AreEqual(" TC  \"TC field 1\" \\n \\f A \\l 1", doc.Range.Fields[1].GetFieldCode());
 
-    // Эта запись будет исключена из таблицы, потому что она имеет тип, отличный от "A".
+    // Эта запись будет опущена в таблице, поскольку ее тип отличается от «A».
     InsertTocEntry(builder, "TC field 3", "B", "1");
 
-    // Эта запись будет исключена из таблицы, поскольку ее начальный уровень выходит за пределы диапазона 1-3.
+    // Эта запись будет исключена из таблицы, поскольку ее уровень записи находится за пределами диапазона 1-3.
     InsertTocEntry(builder, "TC field 4", "A", "5");
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.TC.docx");
+}
 
 /// <summary>
 /// Используйте конструктор документов, чтобы вставить поле TC.

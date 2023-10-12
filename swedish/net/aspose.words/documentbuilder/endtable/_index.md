@@ -3,7 +3,7 @@ title: DocumentBuilder.EndTable
 second_title: Aspose.Words för .NET API Referens
 description: DocumentBuilder metod. Avslutar en tabell i dokumentet.
 type: docs
-weight: 230
+weight: 250
 url: /sv/net/aspose.words/documentbuilder/endtable/
 ---
 ## DocumentBuilder.EndTable method
@@ -20,7 +20,7 @@ Bordsnoden som precis var klar.
 
 ### Anmärkningar
 
-Denna metod bör endast anropas en gång efter[`EndRow`](../endrow/) kallades. När du ringer,  **Sluttabell** flyttar markören ut från den aktuella cellen för att peka precis efter tabellen.
+Denna metod bör endast anropas en gång efter[`EndRow`](../endrow/) kallades. När du ringer, `EndTable` flyttar markören ut från den aktuella cellen för att peka precis efter tabellen.
 
 ### Exempel
 

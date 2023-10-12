@@ -1,14 +1,14 @@
 ---
 title: Enum EmphasisMark
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.EmphasisMark перечисление. Определяет возможные типы выделения.
+description: Aspose.Words.EmphasisMark перечисление. Указывает возможные типы знаков акцента.
 type: docs
-weight: 1310
+weight: 1460
 url: /ru/net/aspose.words/emphasismark/
 ---
 ## EmphasisMark enumeration
 
-Определяет возможные типы выделения.
+Указывает возможные типы знаков акцента.
 
 ```csharp
 public enum EmphasisMark
@@ -18,20 +18,20 @@ public enum EmphasisMark
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| None | `0` | Без выделения. |
-| OverSolidCircle | `1` | Знак выделения — это сплошной черный кружок, отображаемый над текстом. |
+| None | `0` | Без знака ударения. |
+| OverSolidCircle | `1` | Знак выделения представляет собой сплошной черный круг, отображаемый над текстом. |
 | OverComma | `2` | Знак выделения — это символ запятой, отображаемый над текстом. |
 | OverWhiteCircle | `3` | Знак выделения — это пустой белый кружок, отображаемый над текстом. |
-| UnderSolidCircle | `4` | Знак выделения — это сплошной черный кружок, отображаемый под текстом. |
+| UnderSolidCircle | `4` | Знак выделения представляет собой сплошной черный круг, отображаемый под текстом. |
 
 ### Примеры
 
-Показывает, как добавить дополнительный символ, отображаемый над/под глифом.
+Показывает, как добавить дополнительный символ, отображаемый выше/ниже символа-глифа.
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder();
 
-// Возможные типы знака ударения:
+// Возможные типы знаков ударения:
 // https://apireference.aspose.com/words/net/aspose.words/emphasismark
 builder.Font.EmphasisMark = emphasisMark; 
 

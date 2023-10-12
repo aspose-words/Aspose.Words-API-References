@@ -3,7 +3,7 @@ title: DocumentBuilder.MoveToHeaderFooter
 second_title: Referencia de API de Aspose.Words para .NET
 description: DocumentBuilder método. Mueve el cursor al principio de un encabezado o pie de página en la sección actual.
 type: docs
-weight: 520
+weight: 550
 url: /es/net/aspose.words/documentbuilder/movetoheaderfooter/
 ---
 ## DocumentBuilder.MoveToHeaderFooter method
@@ -20,17 +20,17 @@ public void MoveToHeaderFooter(HeaderFooterType headerFooterType)
 
 ### Observaciones
 
-Después de mover el cursor a un encabezado o pie de página, puede usar el resto de métodos de DocumentBuilder para modificar el contenido del encabezado o pie de página.
+Después de mover el cursor a un encabezado o pie de página, puede usar el resto de[`DocumentBuilder`](../) métodos para modificar el contenido del encabezado o pie de página.
 
-Si desea crear encabezados y pies de página diferentes para la primera página, necesita para establecer[`DifferentFirstPageHeaderFooter`](../../pagesetup/differentfirstpageheaderfooter/).
+Si desea crear encabezados y pies de página diferentes para la primera página, necesita para configurar[`DifferentFirstPageHeaderFooter`](../../pagesetup/differentfirstpageheaderfooter/).
 
-Si desea crear encabezados y pies de página diferentes para páginas pares e impares, necesita para establecer[`OddAndEvenPagesHeaderFooter`](../../pagesetup/oddandevenpagesheaderfooter/).
+Si desea crear encabezados y pies de página diferentes para páginas pares e impares, necesita para configurar[`OddAndEvenPagesHeaderFooter`](../../pagesetup/oddandevenpagesheaderfooter/).
 
 Usar[`MoveToSection`](../movetosection/) para pasar del encabezado al texto principal.
 
 ### Ejemplos
 
-Muestra cómo insertar una imagen y usarla como marca de agua.
+Muestra cómo insertar una imagen y utilizarla como marca de agua.
 
 ```csharp
 Document doc = new Document();
@@ -84,7 +84,7 @@ Muestra cómo crear encabezados y pies de página en un documento usando Documen
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Especificar que queremos encabezados y pies de página diferentes para las primeras páginas, pares e impares.
+// Especifica que queremos encabezados y pies de página diferentes para las primeras páginas, pares e impares.
 builder.PageSetup.DifferentFirstPageHeaderFooter = true;
 builder.PageSetup.OddAndEvenPagesHeaderFooter = true;
 

@@ -1,14 +1,14 @@
 ---
 title: FieldEnd.HasSeparator
 second_title: Aspose.Words for .NET API 参考
-description: FieldEnd 财产. 返回 真的如果此字段有分隔符
+description: FieldEnd 财产. 返回真的如果该字段有分隔符.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/fieldend/hasseparator/
 ---
 ## FieldEnd.HasSeparator property
 
-返回 **真的**如果此字段有分隔符。
+返回`真的`如果该字段有分隔符.
 
 ```csharp
 public bool HasSeparator { get; }
@@ -19,6 +19,7 @@ public bool HasSeparator { get; }
 展示如何使用字段集合。
 
 ```csharp
+public void FieldCollection()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -57,6 +58,7 @@ public bool HasSeparator { get; }
     }
 
     Console.WriteLine(fieldVisitor.GetText());
+}
 
 /// <summary>
 /// 打印字段信息的文档访问者实现。

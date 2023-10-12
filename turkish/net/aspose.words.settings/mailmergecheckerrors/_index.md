@@ -1,14 +1,14 @@
 ---
 title: Enum MailMergeCheckErrors
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Settings.MailMergeCheckErrors Sıralama. Microsoft Wordün adres mektup birleştirme sırasında algılanan hataları nasıl bildireceğini belirtir.
+description: Aspose.Words.Settings.MailMergeCheckErrors Sıralama. Microsoft Wordün adresmektup birleştirme sırasında algılanan hataları nasıl bildireceğini belirtir.
 type: docs
-weight: 5510
+weight: 5810
 url: /tr/net/aspose.words.settings/mailmergecheckerrors/
 ---
 ## MailMergeCheckErrors enumeration
 
-Microsoft Word'ün adres mektup birleştirme sırasında algılanan hataları nasıl bildireceğini belirtir.
+Microsoft Word'ün adres-mektup birleştirme sırasında algılanan hataları nasıl bildireceğini belirtir.
 
 ```csharp
 public enum MailMergeCheckErrors
@@ -20,12 +20,12 @@ public enum MailMergeCheckErrors
 | --- | --- | --- |
 | Simulate | `1` | Birleştirmeyi simüle edin ve hataları yeni bir belgede bildirin. |
 | PauseOnError | `2` | Birleştirmeyi tamamlayın ve hataları bildirmek için duraklatın. |
-| CollectErrors | `3` | Birleştirmeyi tamamlayın ve hataları yeni bir belgede bildirin. |
+| CollectErrors | `3` | Birleştirme işlemini tamamlayın ve hataları yeni bir belgede bildirin. |
 | Default | `2` | Şuna eşittir:PauseOnError değer. |
 
 ### Örnekler
 
-Office Veri Kaynağı Nesnesindeki verilerle adres mektup birleştirmenin nasıl yürütüleceğini gösterir.
+Bir Office Veri Kaynağı Nesnesinden alınan verilerle adres-mektup birleştirmenin nasıl yürütüleceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -38,9 +38,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// "|" ile ASCII dosyası biçiminde bir veri kaynağı oluşturun karakter
-// sütunları ayıran sınırlayıcı görevi görür. İlk satır, üç sütunun adını içerir,
-// ve sonraki her satır, kendi değerlerine sahip bir satırdır.
+// ASCII dosyası biçiminde "|" işaretli bir veri kaynağı oluşturun karakter
+// sütunları ayıran sınırlayıcı görevi görüyor. İlk satır üç sütunun adını içerir,
+// ve sonraki her satır, ilgili değerlerin bulunduğu bir satırdır.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";
@@ -68,7 +68,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
-// Bu belgeyi Microsoft Word'de açmak, içeriği görüntülemeden önce adres mektup birleştirmeyi yürütecektir. 
+ // Bu belgeyi Microsoft Word'de açmak, içerikleri görüntülemeden önce adres-mektup birleştirme işlemini gerçekleştirecektir.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

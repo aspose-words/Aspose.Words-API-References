@@ -16,7 +16,7 @@ public string RelationshipType { get; set; }
 
 ### Osservazioni
 
-Il tipo di relazione per una parte personalizzata deve essere "sconosciuto", ad esempio un tipo di relazione personalizzato, non uno dei tipi di relazione definiti in ISO/IEC 29500.
+Il tipo di relazione per una parte personalizzata deve essere "sconosciuto", ad esempio un tipo di relazione personalizzata, non uno dei tipi di relazione definiti in ISO/IEC 29500.
 
 Il valore predefinito è una stringa vuota. Un valore valido deve essere una stringa non vuota.
 
@@ -51,7 +51,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// Possiamo rimuovere elementi da questa raccolta singolarmente o tutti in una volta.
+// Possiamo rimuovere elementi da questa raccolta individualmente o tutti in una volta.
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);

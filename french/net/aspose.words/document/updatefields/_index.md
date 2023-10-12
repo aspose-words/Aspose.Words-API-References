@@ -3,7 +3,7 @@ title: Document.UpdateFields
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Document méthode. Met à jour les valeurs des champs dans tout le document.
 type: docs
-weight: 730
+weight: 770
 url: /fr/net/aspose.words/document/updatefields/
 ---
 ## Document.UpdateFields method
@@ -16,21 +16,21 @@ public void UpdateFields()
 
 ### Remarques
 
-Lorsque vous ouvrez, modifiez puis enregistrez un document, Aspose.Words ne met pas automatiquement à jour les champs, il les conserve intacts. Par conséquent, vous souhaiterez généralement appeler cette méthode avant d'enregistrer si vous avez modifié le document par programme et que vous voulez vous assurer les valeurs de champ appropriées (calculées) apparaissent dans le document enregistré.
+Lorsque vous ouvrez, modifiez puis enregistrez un document, Aspose.Words ne met pas à jour les champs automatiquement, il les garde intacts. Par conséquent, vous souhaiterez généralement appeler cette méthode avant d'enregistrer si vous avez modifié le document par programme et souhaitez vous assurer les valeurs de champ appropriées (calculées) apparaissent dans le document enregistré.
 
-Il n'est pas nécessaire de mettre à jour les champs après l'exécution d'un publipostage car le publipostage est une sorte de champ update et met automatiquement à jour tous les champs du document.
+Il n'est pas nécessaire de mettre à jour les champs après avoir exécuté un publipostage car le publipostage est une sorte de champ update et met automatiquement à jour tous les champs du document.
 
-Cette méthode ne met pas à jour tous les types de champs. Pour la liste détaillée des types de champs pris en charge, consultez le Guide du programmeur.
+Cette méthode ne met pas à jour tous les types de champs. Pour la liste détaillée des types de champs pris en charge, consultez le Guide des programmeurs.
 
-Cette méthode ne met pas à jour les champs liés aux algorithmes de mise en page (par exemple, PAGE, PAGES, PAGEREF). Les champs liés à la mise en page sont mis à jour lorsque vous affichez un document ou appelez[`UpdatePageLayout`](../updatepagelayout/).
+Cette méthode ne met pas à jour les champs liés aux algorithmes de mise en page (par exemple PAGE, PAGES, PAGEREF). Les champs liés à la mise en page sont mis à jour lorsque vous restituez un document ou appelez[`UpdatePageLayout`](../updatepagelayout/).
 
-Utilisez le[`NormalizeFieldTypes`](../normalizefieldtypes/) méthode avant la mise à jour des champs s'il y avait des modifications de document qui affectaient les types de champs.
+Utilisez le[`NormalizeFieldTypes`](../normalizefieldtypes/) avant la mise à jour des champs si des modifications du document ont affecté les types de champs.
 
-Pour mettre à jour des champs dans une partie spécifique du document, utilisez[`UpdateFields`](../../range/updatefields/).
+Pour mettre à jour les champs dans une partie spécifique du document, utilisez[`UpdateFields`](../../range/updatefields/).
 
 ### Exemples
 
-Indique d'utiliser le champ QUOTE.
+Indique comment utiliser le champ QUOTE.
 
 ```csharp
 Document doc = new Document();
@@ -43,8 +43,8 @@ field.Text = "\"Quoted text\"";
 Assert.AreEqual(" QUOTE  \"\\\"Quoted text\\\"\"", field.GetFieldCode());
 
 // Insère un champ QUOTE et imbrique un champ DATE à l'intérieur.
-// Les champs DATE mettent à jour leur valeur à la date actuelle chaque fois que nous ouvrons le document à l'aide de Microsoft Word.
-// L'imbrication du champ DATE dans le champ QUOTE comme ceci gèlera sa valeur
+// Les champs DATE mettent à jour leur valeur avec la date actuelle chaque fois que nous ouvrons le document à l'aide de Microsoft Word.
+// Imbriquer le champ DATE dans le champ QUOTE comme ceci figera sa valeur
 // à la date à laquelle nous avons créé le document.
 builder.Write("\nDocument creation date: ");
 field = (FieldQuote)builder.InsertField(FieldType.FieldQuote, true);
@@ -53,7 +53,7 @@ builder.InsertField(FieldType.FieldDate, true);
 
 Assert.AreEqual(" QUOTE \u0013 DATE \u0014" + DateTime.Now.Date.ToShortDateString() + "\u0015", field.GetFieldCode());
 
-// Met à jour tous les champs pour afficher leurs résultats corrects.
+// Mettez à jour tous les champs pour afficher leurs résultats corrects.
 doc.UpdateFields();
 
 Assert.AreEqual("\"Quoted text\"", doc.Range.Fields[0].Result);
@@ -67,7 +67,7 @@ Montre comment définir les détails de l'utilisateur et les afficher à l'aide 
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Crée un objet UserInformation et le définit comme source de données pour les champs qui affichent des informations sur l'utilisateur.
+// Créez un objet UserInformation et définissez-le comme source de données pour les champs qui affichent des informations utilisateur.
 UserInformation userInformation = new UserInformation
 {
     Name = "John Doe",
@@ -76,13 +76,13 @@ UserInformation userInformation = new UserInformation
 };
 doc.FieldOptions.CurrentUser = userInformation;
 
-// Insérez les champs USERNAME, USERINITIALS et USERADDRESS, qui affichent les valeurs de
-// les propriétés respectives de l'objet UserInformation que nous avons créé ci-dessus. 
+// Insère les champs USERNAME, USERINITIALS et USERADDRESS, qui affichent les valeurs de
+ // les propriétés respectives de l'objet UserInformation que nous avons créé ci-dessus.
 Assert.AreEqual(userInformation.Name, builder.InsertField(" USERNAME ").Result);
 Assert.AreEqual(userInformation.Initials, builder.InsertField(" USERINITIALS ").Result);
 Assert.AreEqual(userInformation.Address, builder.InsertField(" USERADDRESS ").Result);
 
-// L'objet d'options de champ a également un utilisateur statique par défaut auquel les champs de tous les documents peuvent se référer.
+// L'objet d'options de champ a également un utilisateur statique par défaut auquel les champs de tous les documents peuvent faire référence.
 UserInformation.DefaultUser.Name = "Default User";
 UserInformation.DefaultUser.Initials = "D. U.";
 UserInformation.DefaultUser.Address = "One Microsoft Way";
@@ -103,14 +103,14 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Insère une table des matières pour la première page du document.
-// Configurer le tableau pour récupérer les paragraphes avec des titres de niveaux 1 à 3.
-// De plus, définissez ses entrées comme étant des hyperliens qui nous mèneront
-// à l'emplacement de l'en-tête lors d'un clic gauche dans Microsoft Word.
+// Configurez le tableau pour récupérer les paragraphes avec des titres de niveaux 1 à 3.
+// Définissez également ses entrées comme des hyperliens qui nous amèneront
+// à l'emplacement du titre lors d'un clic gauche dans Microsoft Word.
 builder.InsertTableOfContents("\\o \"1-3\" \\h \\z \\u");
 builder.InsertBreak(BreakType.PageBreak);
 
-// Remplir la table des matières en ajoutant des paragraphes avec des styles de titre.
-// Chacun de ces titres avec un niveau compris entre 1 et 3 créera une entrée dans la table.
+// Remplit la table des matières en ajoutant des paragraphes avec des styles de titre.
+// Chacun de ces en-têtes avec un niveau compris entre 1 et 3 créera une entrée dans le tableau.
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 builder.Writeln("Heading 1");
 

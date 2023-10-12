@@ -1,14 +1,14 @@
 ---
 title: OlePackage.FileName
 second_title: Aspose.Words for .NET API Referansı
-description: OlePackage mülk. OLE Paket dosya adını alır veya ayarlar.
+description: OlePackage mülk. OLE Paketi dosya adını alır veya ayarlar.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.drawing/olepackage/filename/
 ---
 ## OlePackage.FileName property
 
-OLE Paket dosya adını alır veya ayarlar.
+OLE Paketi dosya adını alır veya ayarlar.
 
 ```csharp
 public string FileName { get; set; }
@@ -16,15 +16,15 @@ public string FileName { get; set; }
 
 ### Örnekler
 
-Bir OLE nesnesinin bir belgeye nasıl ekleneceğini gösterir.
+Bir OLE nesnesinin belgeye nasıl eklendiğini gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// OLE nesneleri, başka bir yüklü uygulamayı kullanarak yerel dosya sistemindeki diğer dosyaları açmamıza izin verir
-// işletim sistemimizde, belge gövdesinde OLE nesnesini içeren şekle çift tıklayarak.
-// Bu durumda harici dosyamız bir ZIP arşivi olacaktır.
+// OLE nesneleri, kurulu başka bir uygulamayı kullanarak yerel dosya sistemindeki diğer dosyaları açmamıza olanak tanır
+// işletim sistemimizde belge gövdesinde OLE nesnesini içeren şekle çift tıklayarak.
+// Bu durumda harici dosyamız ZIP arşivi olacaktır.
 byte[] zipFileBytes = File.ReadAllBytes(DatabaseDir + "cat001.zip");
 
 using (MemoryStream stream = new MemoryStream(zipFileBytes))

@@ -1,14 +1,14 @@
 ---
 title: Document.GrammarChecked
 second_title: Referencia de API de Aspose.Words para .NET
-description: Document propiedad. Devoluciones verdadero si se ha comprobado la gramática del documento.
+description: Document propiedad. Devolucionesverdadero si se ha revisado la gramática del documento.
 type: docs
 weight: 180
 url: /es/net/aspose.words/document/grammarchecked/
 ---
 ## Document.GrammarChecked property
 
-Devoluciones **verdadero** si se ha comprobado la gramática del documento.
+Devoluciones`verdadero` si se ha revisado la gramática del documento.
 
 ```csharp
 public bool GrammarChecked { get; set; }
@@ -16,7 +16,7 @@ public bool GrammarChecked { get; set; }
 
 ### Observaciones
 
-Para volver a comprobar la gramática del documento, establezca esta propiedad en **falso** .
+Para volver a verificar la gramática en el documento, establezca esta propiedad en`FALSO` .
 
 ### Ejemplos
 
@@ -28,9 +28,9 @@ Document doc = new Document();
 // La cadena con errores ortográficos.
 doc.FirstSection.Body.FirstParagraph.Runs.Add(new Run(doc, "The speeling in this documentz is all broked."));
 
-  // La verificación de ortografía/gramática comienza si establecemos las propiedades en falso.
-// Podemos ver todos los errores en Microsoft Word a través de Revisar -> ortografía y Gramática.
-// Tenga en cuenta que Microsoft Word no inicia automáticamente la revisión gramatical/ortográfica para los formatos de documento DOC y RTF.
+ // La revisión ortográfica/gramatical comienza si configuramos las propiedades en falso.
+// Podemos ver todos los errores en Microsoft Word mediante Revisar -> Ortografía y Gramática.
+// Tenga en cuenta que Microsoft Word no inicia la revisión gramatical/ortográfica automáticamente para los formatos de documentos DOC y RTF.
 doc.SpellingChecked = checkSpellingGrammar;
 doc.GrammarChecked = checkSpellingGrammar;
 

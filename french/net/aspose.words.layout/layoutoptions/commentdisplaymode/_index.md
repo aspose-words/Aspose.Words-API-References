@@ -1,14 +1,14 @@
 ---
 title: LayoutOptions.CommentDisplayMode
 second_title: Référence de l'API Aspose.Words pour .NET
-description: LayoutOptions propriété. Obtient ou définit la façon dont les commentaires sont rendus. La valeur par défaut estShowInBalloons .
+description: LayoutOptions propriété. Obtient ou définit la manière dont les commentaires sont rendus. La valeur par défaut estShowInBalloons .
 type: docs
 weight: 30
 url: /fr/net/aspose.words.layout/layoutoptions/commentdisplaymode/
 ---
 ## LayoutOptions.CommentDisplayMode property
 
-Obtient ou définit la façon dont les commentaires sont rendus. La valeur par défaut estShowInBalloons .
+Obtient ou définit la manière dont les commentaires sont rendus. La valeur par défaut estShowInBalloons .
 
 ```csharp
 public CommentDisplayMode CommentDisplayMode { get; set; }
@@ -16,7 +16,7 @@ public CommentDisplayMode CommentDisplayMode { get; set; }
 
 ### Remarques
 
-Notez que les révisions ne sont pas affichées dans des bulles pourShowInAnnotations .
+Notez que les révisions ne sont pas affichées dans les bulles pourShowInAnnotations .
 
 ### Exemples
 
@@ -32,7 +32,7 @@ Comment comment = new Comment(doc, "John Doe", "J.D.", DateTime.Now);
 comment.SetText("My comment.");
 builder.CurrentParagraph.AppendChild(comment);
 
-// ShowInAnnotations n'est disponible qu'aux formats Pdf1.7 et Pdf1.5.
+// ShowInAnnotations est uniquement disponible aux formats Pdf1.7 et Pdf1.5.
 // Dans d'autres formats, cela fonctionnera de la même manière que Hide.
 doc.LayoutOptions.CommentDisplayMode = CommentDisplayMode.ShowInAnnotations;
 

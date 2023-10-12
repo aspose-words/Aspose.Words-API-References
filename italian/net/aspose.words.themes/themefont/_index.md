@@ -3,7 +3,7 @@ title: Enum ThemeFont
 second_title: Aspose.Words per .NET API Reference
 description: Aspose.Words.Themes.ThemeFont enum. Specifica i tipi di nomi dei caratteri dei temi per i temi dei documenti.
 type: docs
-weight: 6190
+weight: 6490
 url: /it/net/aspose.words.themes/themefont/
 ---
 ## ThemeFont enumeration
@@ -19,16 +19,16 @@ public enum ThemeFont
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
 | None | `0` | Nessun carattere del tema. |
-| Major | `1` | Carattere tema principale. |
+| Major | `1` | Carattere del tema principale. |
 | Minor | `2` | Carattere tema minore. |
 
 ### Osservazioni
 
-Specifica un tipo di carattere del tema a cui è possibile fare riferimento come carattere del tema all'interno delle proprietà dell'oggetto padre. Questo carattere del tema è un riferimento a uno dei caratteri del tema predefiniti, che si trova nella parte del tema del documento, che consente alle informazioni sul carattere di essere impostato centralmente nel documento.
+Specifica un tipo di carattere del tema a cui è possibile fare riferimento come carattere del tema all'interno delle proprietà dell'oggetto principale. Questo carattere del tema è un riferimento a uno dei caratteri del tema predefiniti, situato nella parte del tema del documento, che consente di inserire informazioni sui caratteri essere impostato centralmente nel documento.
 
 ### Esempi
 
-Mostra come creare e utilizzare uno stile a tema.
+Mostra come creare e utilizzare lo stile a tema.
 
 ```csharp
 Document doc = new Document();
@@ -51,7 +51,7 @@ Mostra come lavorare con i caratteri e i colori del tema.
 ```csharp
 Document doc = new Document();
 
-// Definisci i caratteri per le lingue utilizzate per impostazione predefinita.
+// Definisce i caratteri per le lingue utilizzate per impostazione predefinita.
 doc.Theme.MinorFonts.Latin = "Algerian";
 doc.Theme.MinorFonts.EastAsian = "Aharoni";
 doc.Theme.MinorFonts.ComplexScript = "Andalus";
@@ -81,7 +81,7 @@ Assert.AreEqual("Algerian", font.NameOther);
 Assert.AreEqual(ThemeColor.Accent2, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
-// Esistono diversi modi per reimpostarli font e colore.
+// Esistono diversi modi per reimpostarne il carattere e il colore.
 // 1 - Impostando ThemeFont.None/ThemeColor.None:
 font.ThemeFont = ThemeFont.None;
 font.ThemeColor = ThemeColor.None;
@@ -104,7 +104,7 @@ Assert.AreEqual("Algerian", font.NameOther);
 Assert.AreEqual(ThemeColor.None, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
-// 2 - Impostando nomi di caratteri/colori non tematici:
+// 2 - Impostando nomi di font/colori non legati al tema:
 font.Name = "Arial";
 font.Color = Color.Blue;
 

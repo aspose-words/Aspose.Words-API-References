@@ -3,7 +3,7 @@ title: Document.Cleanup
 second_title: Aspose.Words لمراجع .NET API
 description: Document طريقة. ينظف الأنماط والقوائم غير المستخدمة من المستند.
 type: docs
-weight: 520
+weight: 560
 url: /ar/net/aspose.words/document/cleanup/
 ---
 ## Cleanup() {#cleanup}
@@ -16,7 +16,7 @@ public void Cleanup()
 
 ### أمثلة
 
-يوضح كيفية إزالة الأنماط المخصصة غير المستخدمة من مستند.
+يوضح كيفية إزالة الأنماط المخصصة غير المستخدمة من المستند.
 
 ```csharp
 Document doc = new Document();
@@ -26,12 +26,12 @@ doc.Styles.Add(StyleType.List, "MyListStyle2");
 doc.Styles.Add(StyleType.Character, "MyParagraphStyle1");
 doc.Styles.Add(StyleType.Character, "MyParagraphStyle2");
 
-// بالاقتران مع الأنماط المضمنة ، يحتوي المستند الآن على ثمانية أنماط.
-// يعد النمط المخصص "مستخدمًا" أثناء تطبيقه على جزء من المستند ،
+// بالدمج مع الأنماط المضمنة، أصبح المستند الآن يحتوي على ثمانية أنماط.
+// يتم اعتبار النمط المخصص "مستخدمًا" أثناء تطبيقه على جزء ما من المستند،
 // مما يعني أن الأنماط الأربعة التي أضفناها غير مستخدمة حاليًا.
 Assert.AreEqual(8, doc.Styles.Count);
 
-// تطبيق نمط حرف مخصص ، ثم نمط قائمة مخصص. سيؤدي القيام بذلك إلى وضع علامة على الأنماط على أنها "مستعملة".
+// قم بتطبيق نمط أحرف مخصص، ثم نمط قائمة مخصص. سيؤدي القيام بذلك إلى وضع علامة على الأنماط على أنها "مستخدمة".
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Font.Style = doc.Styles["MyParagraphStyle1"];
 builder.Writeln("Hello world!");
@@ -63,7 +63,7 @@ Assert.AreEqual(4, doc.Styles.Count);
 
 ## Cleanup(CleanupOptions) {#cleanup_1}
 
-ينظف الأنماط والقوائم غير المستخدمة من المستند حسب المعطى[`CleanupOptions`](../../cleanupoptions/) .
+ينظف الأنماط والقوائم غير المستخدمة من المستند اعتمادًا على ما هو محدد[`CleanupOptions`](../../cleanupoptions/) .
 
 ```csharp
 public void Cleanup(CleanupOptions options)
@@ -71,7 +71,7 @@ public void Cleanup(CleanupOptions options)
 
 ### أمثلة
 
-يوضح كيفية إزالة جميع الأنماط المخصصة غير المستخدمة من مستند.
+يوضح كيفية إزالة جميع الأنماط المخصصة غير المستخدمة من المستند.
 
 ```csharp
 Document doc = new Document();
@@ -81,12 +81,12 @@ doc.Styles.Add(StyleType.List, "MyListStyle2");
 doc.Styles.Add(StyleType.Character, "MyParagraphStyle1");
 doc.Styles.Add(StyleType.Character, "MyParagraphStyle2");
 
-// بالاقتران مع الأنماط المضمنة ، يحتوي المستند الآن على ثمانية أنماط.
-// يتم تمييز النمط المخصص على أنه "مستخدم" أثناء وجود أي نص داخل المستند
-// منسق بهذا النمط. هذا يعني أن الأنماط الأربعة التي أضفناها غير مستخدمة حاليًا.
+// بالدمج مع الأنماط المضمنة، أصبح المستند الآن يحتوي على ثمانية أنماط.
+// يتم وضع علامة على النمط المخصص على أنه "مستخدم" أثناء وجود أي نص داخل المستند
+// منسق بهذا النمط. وهذا يعني أن الأنماط الأربعة التي أضفناها غير مستخدمة حاليًا.
 Assert.AreEqual(8, doc.Styles.Count);
 
-// تطبيق نمط حرف مخصص ، ثم نمط قائمة مخصص. سيؤدي القيام بذلك إلى تمييزها على أنها "مستخدمة".
+// قم بتطبيق نمط أحرف مخصص، ثم نمط قائمة مخصص. سيؤدي القيام بذلك إلى وضع علامة "مستخدمة" عليها.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Font.Style = doc.Styles["MyParagraphStyle1"];
 builder.Writeln("Hello world!");
@@ -96,8 +96,8 @@ builder.ListFormat.List = list;
 builder.Writeln("Item 1");
 builder.Writeln("Item 2");
 
-// الآن ، يوجد نمط حرف واحد غير مستخدم ونمط قائمة واحد غير مستخدم.
-// يمكن لطريقة Cleanup () ، عند تكوينها باستخدام كائن CleanupOptions ، استهداف الأنماط غير المستخدمة وإزالتها.
+// الآن، يوجد نمط أحرف واحد غير مستخدم ونمط قائمة واحد غير مستخدم.
+// يمكن لأسلوب Cleanup()، عند تكوينه باستخدام كائن CleanupOptions، استهداف الأنماط غير المستخدمة وإزالتها.
 CleanupOptions cleanupOptions = new CleanupOptions
 {
     UnusedLists = true, UnusedStyles = true, UnusedBuiltinStyles = true
@@ -107,7 +107,7 @@ doc.Cleanup(cleanupOptions);
 
 Assert.AreEqual(4, doc.Styles.Count);
 
-// إزالة كل عقدة يتم تطبيق نمط مخصص عليها لوضع علامة عليها على أنها "غير مستخدمة" مرة أخرى. 
+ // إزالة كل عقدة يتم تطبيق نمط مخصص عليها لوضع علامة عليها على أنها "غير مستخدمة" مرة أخرى.
 // أعد تشغيل طريقة التنظيف لإزالتها.
 doc.FirstSection.Body.RemoveAllChildren();
 doc.Cleanup(cleanupOptions);

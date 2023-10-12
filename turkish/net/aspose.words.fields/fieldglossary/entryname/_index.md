@@ -16,7 +16,7 @@ public string EntryName { get; set; }
 
 ### Örnekler
 
-AUTOTEXT ve SÖZLÜK alanlarıyla bir yapı taşının nasıl görüntüleneceğini gösterir.
+OTOMETİN ve SÖZLÜK alanlarıyla bir yapı taşının nasıl görüntüleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -39,19 +39,19 @@ buildingBlockSourceBuilder.Writeln("Hello World!");
 Node buildingBlockContent = doc.GlossaryDocument.ImportNode(buildingBlockSource.FirstSection, true);
 buildingBlock.AppendChild(buildingBlockContent);
 
-// Belgemizin veya ekli şablonunun içermeyebileceği bölümleri içeren bir dosya ayarlayın.
+// Belgemizin veya ekli şablonunun içermeyebileceği parçaları içeren bir dosya ayarlayın.
 doc.FieldOptions.BuiltInTemplatesPaths = new[] { MyDir + "Busniess brochure.dotx" };
 
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Aşağıda, yapı taşımızın içeriğini görüntülemek için alanları kullanmanın iki yolu bulunmaktadır.
-// 1 - Bir AUTOTEXT alanı kullanma:
+// Aşağıda yapı taşımızın içeriğini görüntülemek için alanları kullanmanın iki yolu verilmiştir.
+// 1 - OTOMETİN alanını kullanma:
 FieldAutoText fieldAutoText = (FieldAutoText)builder.InsertField(FieldType.FieldAutoText, true);
 fieldAutoText.EntryName = "MyBlock";
 
 Assert.AreEqual(" AUTOTEXT  MyBlock", fieldAutoText.GetFieldCode());
 
-// 2 - SÖZLÜK alanı kullanma:
+// 2 - SÖZLÜK alanını kullanma:
 FieldGlossary fieldGlossary = (FieldGlossary)builder.InsertField(FieldType.FieldGlossary, true);
 fieldGlossary.EntryName = "MyBlock";
 

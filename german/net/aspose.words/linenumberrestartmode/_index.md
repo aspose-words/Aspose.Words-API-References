@@ -1,14 +1,14 @@
 ---
 title: Enum LineNumberRestartMode
 second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.LineNumberRestartMode opsomming. Legt fest wann die automatische Zeilennummerierung neu gestartet wird.
+description: Aspose.Words.LineNumberRestartMode opsomming. Legt fest wann die automatische Zeilennummerierung neu startet.
 type: docs
-weight: 3230
+weight: 3430
 url: /de/net/aspose.words/linenumberrestartmode/
 ---
 ## LineNumberRestartMode enumeration
 
-Legt fest, wann die automatische Zeilennummerierung neu gestartet wird.
+Legt fest, wann die automatische Zeilennummerierung neu startet.
 
 ```csharp
 public enum LineNumberRestartMode
@@ -19,7 +19,7 @@ public enum LineNumberRestartMode
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
 | RestartPage | `0` | Die Zeilennummerierung beginnt am Anfang jeder Seite neu. |
-| RestartSection | `1` | Die Zeilennummerierung beginnt am Abschnittsanfang neu. |
+| RestartSection | `1` | Die Zeilennummerierung beginnt wieder am Abschnittsanfang. |
 | Continuous | `2` | Zeilennummerierung fortlaufend vom vorherigen Abschnitt. |
 
 ### Beispiele
@@ -31,10 +31,10 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Wir können das PageSetup-Objekt des Abschnitts verwenden, um Zahlen links von den Textzeilen des Abschnitts anzuzeigen.
-// Dies ist das gleiche Verhalten wie bei einem List-Objekt,
+// Dies ist das gleiche Verhalten wie bei einem Listenobjekt.
 // aber es deckt den gesamten Abschnitt ab und verändert den Text in keiner Weise.
-// Unser Abschnitt beginnt die Nummerierung auf jeder neuen Seite von 1 neu und zeigt die Nummer an,
-// wenn es ein Vielfaches von 3 ist, bei 50 pt links von der Zeile.
+// Unser Abschnitt startet die Nummerierung auf jeder neuen Seite von 1 an und zeigt die Nummer an,
+// wenn es ein Vielfaches von 3 ist, bei 50pt links von der Linie.
 PageSetup pageSetup = builder.PageSetup;
 pageSetup.LineStartingNumber = 1;
 pageSetup.LineNumberCountBy = 3;
@@ -44,9 +44,9 @@ pageSetup.LineNumberDistanceFromText = 50.0d;
 for (int i = 1; i <= 25; i++)
     builder.Writeln($"Line {i}.");
 
-// Der Zeilenzähler überspringt jeden Absatz, bei dem das "SuppressLineNumbers"-Flag auf "true" gesetzt ist.
-// Dieser Absatz befindet sich in der 15. Zeile, die ein Vielfaches von 3 ist, und würde daher normalerweise eine Zeilennummer anzeigen.
-// Der Zeilenzähler des Abschnitts wird diese Zeile ebenfalls ignorieren, die nächste Zeile als die 15. behandeln,
+// Der Zeilenzähler überspringt jeden Absatz, bei dem das Flag „SuppressLineNumbers“ auf „true“ gesetzt ist.
+// Dieser Absatz befindet sich in der 15. Zeile, was ein Vielfaches von 3 ist, und würde daher normalerweise eine Zeilennummer anzeigen.
+// Der Zeilenzähler des Abschnitts ignoriert diese Zeile ebenfalls und behandelt die nächste Zeile als 15.
 // und die Zählung von diesem Punkt an fortsetzen.
 doc.FirstSection.Body.Paragraphs[14].ParagraphFormat.SuppressLineNumbers = true;
 

@@ -1,14 +1,14 @@
 ---
 title: TableStyle.Alignment
 second_title: Aspose.Words لمراجع .NET API
-description: TableStyle ملكية. يحدد محاذاة نمط الجدول .
+description: TableStyle ملكية. يحدد المحاذاة لنمط الجدول.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/tablestyle/alignment/
 ---
 ## TableStyle.Alignment property
 
-يحدد محاذاة نمط الجدول .
+يحدد المحاذاة لنمط الجدول.
 
 ```csharp
 public TableAlignment Alignment { get; set; }
@@ -20,20 +20,20 @@ public TableAlignment Alignment { get; set; }
 
 ### أمثلة
 
-يوضح كيفية تعيين موضع الجدول.
+يوضح كيفية ضبط موضع الجدول.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // فيما يلي طريقتان لمحاذاة الجدول أفقيًا.
-// 1 - استخدم خاصية "Alignment" لمحاذاة الموقع مع موقع على الصفحة ، مثل المركز:
+// 1 - استخدم خاصية "المحاذاة" لمحاذاتها لموقع في الصفحة، مثل المركز:
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 tableStyle.Alignment = TableAlignment.Center;
 tableStyle.Borders.Color = Color.Blue;
 tableStyle.Borders.LineStyle = LineStyle.Single;
 
-// أدخل جدولًا وقم بتطبيق النمط الذي أنشأناه عليه.
+// أدخل جدولاً وقم بتطبيق النمط الذي أنشأناه عليه.
 Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Aligned to the center of the page");

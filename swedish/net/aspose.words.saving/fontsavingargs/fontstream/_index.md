@@ -25,6 +25,7 @@ Standardvärdet är`null` . När denna fastighet är`null` , kommer teckensnitte
 Visar hur man definierar anpassad logik för att exportera teckensnitt när man sparar till HTML.
 
 ```csharp
+public void SaveExportedFonts()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
@@ -43,6 +44,8 @@ Visar hur man definierar anpassad logik för att exportera teckensnitt när man 
     {
         Console.WriteLine(fontFilename);
     }
+
+}
 
 /// <summary>
 /// Skriver ut information om exporterade teckensnitt och sparar dem i samma lokala systemmapp som deras utdata .html.

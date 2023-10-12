@@ -1,14 +1,14 @@
 ---
 title: DocumentPropertyCollection.Count
 second_title: Aspose.Words for .NET API Referansı
-description: DocumentPropertyCollection mülk. Koleksiyondaki öğe sayısını alır.
+description: DocumentPropertyCollection mülk. Koleksiyondaki öğelerin sayısını alır.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.properties/documentpropertycollection/count/
 ---
 ## DocumentPropertyCollection.Count property
 
-Koleksiyondaki öğe sayısını alır.
+Koleksiyondaki öğelerin sayısını alır.
 
 ```csharp
 public int Count { get; }
@@ -21,8 +21,8 @@ public int Count { get; }
 ```csharp
 Document doc = new Document(MyDir + "Properties.docx");
 
-// Her belge, yerleşik özellikler gibi anahtar/değer çiftleri olan bir özel özellikler koleksiyonu içerir.
-// Belgenin yerleşik özelliklerin sabit bir listesi vardır. Kullanıcı, tüm özel özellikleri oluşturur. 
+// Her belge, yerleşik özellikler gibi anahtar/değer çiftleri olan özel özelliklerin bir koleksiyonunu içerir.
+ // Belgenin sabit bir yerleşik özellikler listesi vardır. Kullanıcı tüm özel özellikleri oluşturur.
 Assert.AreEqual("Value of custom document property", doc.CustomDocumentProperties["CustomProperty"].ToString());
 
 doc.CustomDocumentProperties.Add("CustomProperty2", "Value of custom document property #2");

@@ -1,14 +1,14 @@
 ---
 title: BorderCollection.Vertical
 second_title: Aspose.Words لمراجع .NET API
-description: BorderCollection ملكية. الحصول على الحد الرأسي المستخدم بين الخلايا .
+description: BorderCollection ملكية. يحصل على الحد العمودي المستخدم بين الخلايا.
 type: docs
 weight: 130
 url: /ar/net/aspose.words/bordercollection/vertical/
 ---
 ## BorderCollection.Vertical property
 
-الحصول على الحد الرأسي المستخدم بين الخلايا .
+يحصل على الحد العمودي المستخدم بين الخلايا.
 
 ```csharp
 public Border Vertical { get; }
@@ -22,7 +22,7 @@ public Border Vertical { get; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// قم بإنشاء جدول بحدود داخلية باللونين الأحمر والأزرق.
+// أنشئ جدولًا بحدود داخلية حمراء وزرقاء.
 Table table = builder.StartTable();
 
 for (int i = 0; i < 3; i++)
@@ -35,12 +35,12 @@ for (int i = 0; i < 3; i++)
     Row row = builder.EndRow();
     BorderCollection borders = row.RowFormat.Borders;
 
-    // ضبط مظهر الحدود التي ستظهر بين الصفوف.
+    // اضبط مظهر الحدود التي ستظهر بين الصفوف.
     borders.Horizontal.Color = Color.Red;
     borders.Horizontal.LineStyle = LineStyle.Dot;
     borders.Horizontal.LineWidth = 2.0d;
 
-    // ضبط مظهر الحدود التي ستظهر بين الخلايا.
+    // اضبط مظهر الحدود التي ستظهر بين الخلايا.
     borders.Vertical.Color = Color.Blue;
     borders.Vertical.LineStyle = LineStyle.Dot;
     borders.Vertical.LineWidth = 2.0d;

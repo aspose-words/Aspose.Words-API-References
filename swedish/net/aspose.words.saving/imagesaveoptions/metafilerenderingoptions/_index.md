@@ -3,7 +3,7 @@ title: ImageSaveOptions.MetafileRenderingOptions
 second_title: Aspose.Words för .NET API Referens
 description: ImageSaveOptions fast egendom. Tillåter att ange hur metafiler behandlas i den renderade utdata.
 type: docs
-weight: 80
+weight: 90
 url: /sv/net/aspose.words.saving/imagesaveoptions/metafilerenderingoptions/
 ---
 ## ImageSaveOptions.MetafileRenderingOptions property
@@ -41,6 +41,8 @@ builder.InsertImage(Image.FromFile(ImageDir + "Windows MetaFile.wmf"));
 // Om vi ställer in egenskapen "RenderingMode" till "MetafileRenderingMode.Bitmap", renderar vi alla metafiler som bitmappar.
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Png);
 options.MetafileRenderingOptions.RenderingMode = metafileRenderingMode;
+// Aspose.Words använder GDI+ för emulering av rasteroperationer, när värdet är satt till sant.
+options.MetafileRenderingOptions.UseGdiRasterOperationsEmulation = true;
 
 doc.Save(ArtifactsDir + "ImageSaveOptions.WindowsMetaFile.png", options);
 ```

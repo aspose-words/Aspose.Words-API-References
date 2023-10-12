@@ -16,7 +16,7 @@ public void Add(TabStop tabStop)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| tabStop | TabStop | Ein hinzuzufügendes Tabulatorobjekt. |
+| tabStop | TabStop | Ein hinzuzufügendes Tabstoppobjekt. |
 
 ### Bemerkungen
 
@@ -24,29 +24,29 @@ Wenn an der angegebenen Position bereits ein Tabstopp vorhanden ist, wird dieser
 
 ### Beispiele
 
-Zeigt, wie einem Dokument benutzerdefinierte Tabstopps hinzugefügt werden.
+Zeigt, wie man benutzerdefinierte Tabstopps zu einem Dokument hinzufügt.
 
 ```csharp
 Document doc = new Document();
 Paragraph paragraph = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
 
-// Im Folgenden finden Sie zwei Möglichkeiten, Tabstopps über die Eigenschaft "ParagraphFormat" zu der Sammlung von Tabstopps eines Absatzes hinzuzufügen.
-// 1 - Erstellen Sie ein "TabStop"-Objekt und fügen Sie es dann der Sammlung hinzu:
+// Im Folgenden finden Sie zwei Möglichkeiten, Tabstopps über die Eigenschaft „ParagraphFormat“ zur Tabstopp-Sammlung eines Absatzes hinzuzufügen.
+// 1 – Erstellen Sie ein „TabStop“-Objekt und fügen Sie es dann der Sammlung hinzu:
 TabStop tabStop = new TabStop(ConvertUtil.InchToPoint(3), TabAlignment.Left, TabLeader.Dashes);
 paragraph.ParagraphFormat.TabStops.Add(tabStop);
 
-// 2 - Werte für Eigenschaften eines neuen Tabstopps an die "Add"-Methode übergeben:
+// 2 – Übergeben Sie die Werte für Eigenschaften eines neuen Tabstopps an die Methode „Add“:
 paragraph.ParagraphFormat.TabStops.Add(ConvertUtil.MillimeterToPoint(100), TabAlignment.Left,
     TabLeader.Dashes);
 
-// Tabstopps bei 5 cm zu allen Absätzen hinzufügen.
+// Fügen Sie allen Absätzen Tabstopps bei 5 cm hinzu.
 foreach (Paragraph para in doc.GetChildNodes(NodeType.Paragraph, true).OfType<Paragraph>())
 {
     para.ParagraphFormat.TabStops.Add(ConvertUtil.MillimeterToPoint(50), TabAlignment.Left,
         TabLeader.Dashes);
 }
 
-// Jedes "Tab"-Zeichen bringt den Cursor des Builders an die Position des nächsten Tabstopps.
+// Jedes „Tab“-Zeichen bringt den Cursor des Builders an die Position des nächsten Tabstopps.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Start\tTab 1\tTab 2\tTab 3\tTab 4");
 
@@ -72,9 +72,9 @@ public void Add(double position, TabAlignment alignment, TabLeader leader)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| position | Double | Eine Position (in Punkten), an der der Tabstopp hinzugefügt werden soll. |
-| alignment | TabAlignment | EIN[`TabAlignment`](../../tabalignment/)Der Wert that gibt die Textausrichtung am Tabstopp an. |
-| leader | TabLeader | EIN[`TabLeader`](../../tableader/) Der Wert that gibt den Typ der Führungslinie an, die unter dem Tabulatorzeichen angezeigt wird. |
+| position | Double | Eine Position (in Punkt), an der der Tabstopp hinzugefügt werden soll. |
+| alignment | TabAlignment | A[`TabAlignment`](../../tabalignment/) Der Wert that gibt die Ausrichtung des Texts am Tabstopp an. |
+| leader | TabLeader | A[`TabLeader`](../../tableader/) Der Wert that gibt den Typ der Führungslinie an, die unter dem Tabulatorzeichen angezeigt wird. |
 
 ### Bemerkungen
 
@@ -82,29 +82,29 @@ Wenn an der angegebenen Position bereits ein Tabstopp vorhanden ist, wird dieser
 
 ### Beispiele
 
-Zeigt, wie einem Dokument benutzerdefinierte Tabstopps hinzugefügt werden.
+Zeigt, wie man benutzerdefinierte Tabstopps zu einem Dokument hinzufügt.
 
 ```csharp
 Document doc = new Document();
 Paragraph paragraph = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
 
-// Im Folgenden finden Sie zwei Möglichkeiten, Tabstopps über die Eigenschaft "ParagraphFormat" zu der Sammlung von Tabstopps eines Absatzes hinzuzufügen.
-// 1 - Erstellen Sie ein "TabStop"-Objekt und fügen Sie es dann der Sammlung hinzu:
+// Im Folgenden finden Sie zwei Möglichkeiten, Tabstopps über die Eigenschaft „ParagraphFormat“ zur Tabstopp-Sammlung eines Absatzes hinzuzufügen.
+// 1 – Erstellen Sie ein „TabStop“-Objekt und fügen Sie es dann der Sammlung hinzu:
 TabStop tabStop = new TabStop(ConvertUtil.InchToPoint(3), TabAlignment.Left, TabLeader.Dashes);
 paragraph.ParagraphFormat.TabStops.Add(tabStop);
 
-// 2 - Werte für Eigenschaften eines neuen Tabstopps an die "Add"-Methode übergeben:
+// 2 – Übergeben Sie die Werte für Eigenschaften eines neuen Tabstopps an die Methode „Add“:
 paragraph.ParagraphFormat.TabStops.Add(ConvertUtil.MillimeterToPoint(100), TabAlignment.Left,
     TabLeader.Dashes);
 
-// Tabstopps bei 5 cm zu allen Absätzen hinzufügen.
+// Fügen Sie allen Absätzen Tabstopps bei 5 cm hinzu.
 foreach (Paragraph para in doc.GetChildNodes(NodeType.Paragraph, true).OfType<Paragraph>())
 {
     para.ParagraphFormat.TabStops.Add(ConvertUtil.MillimeterToPoint(50), TabAlignment.Left,
         TabLeader.Dashes);
 }
 
-// Jedes "Tab"-Zeichen bringt den Cursor des Builders an die Position des nächsten Tabstopps.
+// Jedes „Tab“-Zeichen bringt den Cursor des Builders an die Position des nächsten Tabstopps.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Start\tTab 1\tTab 2\tTab 3\tTab 4");
 

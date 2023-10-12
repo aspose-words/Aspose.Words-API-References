@@ -1,14 +1,14 @@
 ---
 title: DocumentVisitor.VisitOfficeMathStart
 second_title: Справочник по API Aspose.Words для .NET
-description: DocumentVisitor метод. Вызывается при запуске перечисления объекта Office Math.
+description: DocumentVisitor метод. Вызывается когда начинается перечисление объекта Office Math.
 type: docs
 weight: 310
 url: /ru/net/aspose.words/documentvisitor/visitofficemathstart/
 ---
 ## DocumentVisitor.VisitOfficeMathStart method
 
-Вызывается при запуске перечисления объекта Office Math.
+Вызывается, когда начинается перечисление объекта Office Math.
 
 ```csharp
 public virtual VisitorAction VisitOfficeMathStart(OfficeMath officeMath)
@@ -24,7 +24,7 @@ public virtual VisitorAction VisitOfficeMathStart(OfficeMath officeMath)
 
 ### Примеры
 
-Показывает, как напечатать структуру узла каждого узла офисной математики в документе.
+Показывает, как распечатать структуру каждого узла офисной математики в документе.
 
 ```csharp
 public void OfficeMathToText()
@@ -32,16 +32,16 @@ public void OfficeMathToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     OfficeMathStructurePrinter visitor = new OfficeMathStructurePrinter();
 
-    // Когда составной узел принимает посетителя документа, посетитель посещает принимающий узел,
-    // а затем обходит все дочерние элементы узла в порядке глубины.
-    // Посетитель может читать и изменять каждый посещаемый узел.
+    // Когда мы получаем составной узел для приема посетителя документа, посетитель посещает принимающий узел,
+    // а затем обходит все дочерние узлы в глубину.
+    // Посетитель может читать и изменять каждый посещенный узел.
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 }
 
 /// <summary>
-/// Обходит небинарное дерево дочерних узлов узла.
+/// Обходит недвоичное дерево дочерних узлов узла.
 /// Создает карту в виде строки всех встреченных узлов OfficeMath и их дочерних элементов.
 /// </summary>
 public class OfficeMathStructurePrinter : DocumentVisitor
@@ -53,7 +53,7 @@ public class OfficeMathStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Получает обычный текст документа, который накопил посетитель.
+    /// Получает открытый текст документа, накопленный посетителем.
     /// </summary>
     public string GetText()
     {
@@ -95,7 +95,7 @@ public class OfficeMathStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Добавляем строку в StringBuilder и делаем отступ в зависимости от того, насколько глубоко посетитель находится в дереве документа.
+    /// Добавляем строку к StringBuilder и отступаем от нее в зависимости от того, насколько глубоко посетитель находится в дереве документа.
     /// </summary>
     /// <param name="text"></param>
     private void IndentAndAppendLine(string text)

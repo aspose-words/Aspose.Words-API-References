@@ -3,7 +3,7 @@ title: Fill.SetImage
 second_title: Referencia de API de Aspose.Words para .NET
 description: Fill método. Cambia el tipo de relleno a una sola imagen.
 type: docs
-weight: 190
+weight: 250
 url: /es/net/aspose.words.drawing/fill/setimage/
 ---
 ## SetImage(string) {#setimage_2}
@@ -20,7 +20,7 @@ public void SetImage(string fileName)
 
 ### Ejemplos
 
-Muestra cómo establecer el tipo de relleno de forma como imagen.
+Muestra cómo configurar el tipo de relleno de forma como imagen.
 
 ```csharp
 Document doc = new Document();
@@ -36,7 +36,7 @@ doc.Save(ArtifactsDir + "Shape.FillImage.FileName.docx");
 shape.Fill.SetImage(File.ReadAllBytes(ImageDir + "Logo.jpg"));
 doc.Save(ArtifactsDir + "Shape.FillImage.ByteArray.docx");
 
-// 3 - De un stream:
+// 3 - Desde una secuencia:
 using (FileStream stream = new FileStream(ImageDir + "Logo.jpg", FileMode.Open))
     shape.Fill.SetImage(stream);
 doc.Save(ArtifactsDir + "Shape.FillImage.Stream.docx");
@@ -60,7 +60,7 @@ public void SetImage(Stream stream)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| stream | Stream | El flujo que contiene los bytes de la imagen. |
+| stream | Stream | La secuencia que contiene los bytes de la imagen. |
 
 ### Ver también
 
@@ -80,7 +80,7 @@ public void SetImage(byte[] imageBytes)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| imageBytes | Byte[] | La matriz de bytes de la imagen. |
+| imageBytes | Byte[] | La matriz de bytes de imagen. |
 
 ### Ver también
 

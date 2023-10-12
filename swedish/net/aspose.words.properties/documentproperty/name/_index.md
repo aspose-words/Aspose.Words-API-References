@@ -16,7 +16,7 @@ public string Name { get; }
 
 ### Anmärkningar
 
-Kan inte vara null och kan inte vara en tom sträng.
+Kan inte vara`null` och kan inte vara en tom sträng.
 
 ### Exempel
 

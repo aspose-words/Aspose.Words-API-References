@@ -1,14 +1,14 @@
 ---
 title: ResourceSavingArgs.ResourceFileUri
 second_title: Aspose.Words für .NET-API-Referenz
-description: ResourceSavingArgs eigendom. Ruft den Uniform Resource Identifier URI ab oder legt ihn fest der zum Verweisen auf die Ressourcendatei aus dem Dokument verwendet wird.
+description: ResourceSavingArgs eigendom. Ruft den Uniform Resource Identifier URI ab der zum Verweisen auf die Ressourcendatei aus dem Dokument verwendet wird oder legt diesen fest.
 type: docs
 weight: 40
 url: /de/net/aspose.words.saving/resourcesavingargs/resourcefileuri/
 ---
 ## ResourceSavingArgs.ResourceFileUri property
 
-Ruft den Uniform Resource Identifier (URI) ab oder legt ihn fest, der zum Verweisen auf die Ressourcendatei aus dem Dokument verwendet wird.
+Ruft den Uniform Resource Identifier (URI) ab, der zum Verweisen auf die Ressourcendatei aus dem Dokument verwendet wird, oder legt diesen fest.
 
 ```csharp
 public string ResourceFileUri { get; set; }
@@ -16,9 +16,9 @@ public string ResourceFileUri { get; set; }
 
 ### Bemerkungen
 
-Mit dieser Eigenschaft können Sie URIs von Ressourcendateien ändern, die in HTML- oder SVG-Dokumente mit festen Seiten exportiert wurden.
+Mit dieser Eigenschaft können Sie URIs von Ressourcendateien ändern, die in HTML- oder SVG-Dokumente mit fester Seite exportiert werden.
 
-Aspose.Words generiert automatisch einen URI für jede Ressourcendatei während des Exports in das HTML - oder SVG-Format mit festen Seiten. Die generierten URIs verweisen auf Ressourcendateien, die von Aspose.Words gespeichert wurden. Die URIs können jedoch falsch sein, wenn Ressourcendateien an einen anderen Ort verschoben oder Ressourcendateien in Streams gespeichert werden. Diese Eigenschaft ermöglicht es, URIs in diesen Fällen zu korrigieren.
+Aspose.Words generiert beim Export in das feste Seiten-HTML-Format oder SVG automatisch einen URI für jede Ressourcendatei. Die generierten URIs verweisen auf Ressourcendateien, die von Aspose.Words gespeichert wurden. Allerdings können die URIs falsch sein, wenn Ressourcendateien an einen anderen Speicherort verschoben werden sollen oder wenn Ressourcendateien in Streams gespeichert werden. Mit dieser Eigenschaft können in diesen Fällen URIs korrigiert werden.
 
 Wenn das Ereignis ausgelöst wird, enthält diese Eigenschaft den URI, der von Aspose.Words generiert wurde. Sie können den Wert dieser Eigenschaft ändern, um einen benutzerdefinierten URI für die Ressourcendatei bereitzustellen.
 
@@ -26,7 +26,7 @@ Wenn das Ereignis ausgelöst wird, enthält diese Eigenschaft den URI, der von A
 
 ### Beispiele
 
-Zeigt, wie ein Rückruf verwendet wird, um externe Ressourcen nachzuverfolgen, die beim Konvertieren eines Dokuments in HTML erstellt wurden.
+Zeigt, wie Sie einen Rückruf verwenden, um externe Ressourcen zu verfolgen, die beim Konvertieren eines Dokuments in HTML erstellt wurden.
 
 ```csharp
 public void ResourceSavingCallback()
@@ -48,7 +48,7 @@ public void ResourceSavingCallback()
 private class FontSavingCallback : IResourceSavingCallback
 {
     /// <summary>
-    /// Wird aufgerufen, wenn Aspose.Words eine externe Ressource in HTML oder SVG für feste Seiten speichert.
+    /// Wird aufgerufen, wenn Aspose.Words eine externe Ressource in einer festen HTML- oder SVG-Seite speichert.
     /// </summary>
     public void ResourceSaving(ResourceSavingArgs args)
     {

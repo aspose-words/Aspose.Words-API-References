@@ -1,14 +1,14 @@
 ---
 title: Enum RevisionType
 second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.RevisionType enumeración. Especifica el tipo de cambio que se rastrea enRevision .
+description: Aspose.Words.RevisionType enumeración. Especifica el tipo de cambio del que se realiza el seguimiento.Revision .
 type: docs
-weight: 4540
+weight: 4800
 url: /es/net/aspose.words/revisiontype/
 ---
 ## RevisionType enumeration
 
-Especifica el tipo de cambio que se rastrea en[`Revision`](../revision/) .
+Especifica el tipo de cambio del que se realiza el seguimiento.[`Revision`](../revision/) .
 
 ```csharp
 public enum RevisionType
@@ -18,11 +18,11 @@ public enum RevisionType
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| Insertion | `0` | Se insertó nuevo contenido en el documento. |
-| Deletion | `1` | Se eliminó contenido del documento. |
+| Insertion | `0` | Se insertó contenido nuevo en el documento. |
+| Deletion | `1` | Se eliminó el contenido del documento. |
 | FormatChange | `2` | Se aplicó el cambio de formato al nodo principal. |
 | StyleDefinitionChange | `3` | Se aplicó el cambio de formato al estilo principal. |
-| Moving | `4` | Se movió contenido en el documento. |
+| Moving | `4` | El contenido se movió en el documento. |
 
 ### Ejemplos
 
@@ -45,13 +45,13 @@ builder.Write("This is revision #1. ");
 Assert.IsTrue(doc.HasRevisions);
 Assert.AreEqual(1, doc.Revisions.Count);
 
-// Esta bandera corresponde a la "Revisión" -> "Seguimiento" -> Opción "Control de cambios" en Microsoft Word.
+// Esta bandera corresponde a la "Revisión" -> "Seguimiento" -> Opción "Seguimiento de cambios" en Microsoft Word.
 // El método "StartTrackRevisions" no afecta su valor,
 // y el documento realiza un seguimiento de las revisiones mediante programación a pesar de tener un valor de "falso".
-// Si abrimos este documento usando Microsoft Word, no estará rastreando las revisiones.
+// Si abrimos este documento usando Microsoft Word, no realizará un seguimiento de las revisiones.
 Assert.IsFalse(doc.TrackRevisions);
 
-// Hemos agregado texto utilizando el generador de documentos, por lo que la primera revisión es una revisión de tipo inserción.
+// Hemos agregado texto usando el generador de documentos, por lo que la primera revisión es una revisión de tipo inserción.
 Revision revision = doc.Revisions[0];
 Assert.AreEqual("John Doe", revision.Author);
 Assert.AreEqual("This is revision #1. ", revision.ParentNode.GetText());
@@ -62,17 +62,17 @@ Assert.AreEqual(doc.Revisions.Groups[0], revision.Group);
 // Eliminar una ejecución para crear una revisión de tipo eliminación.
 doc.FirstSection.Body.FirstParagraph.Runs[0].Remove();
 
-// Agregar una nueva revisión la coloca al principio de la colección de revisiones.
+// Agregar una nueva revisión la coloca al comienzo de la colección de revisiones.
 Assert.AreEqual(RevisionType.Deletion, doc.Revisions[0].RevisionType);
 Assert.AreEqual(2, doc.Revisions.Count);
 
 // Las revisiones de inserción aparecen en el cuerpo del documento incluso antes de que aceptemos/rechacemos la revisión.
-// Rechazar la revisión eliminará sus nodos del cuerpo. Por el contrario, los nodos que componen eliminar revisiones
-// también permanecen en el documento hasta que aceptemos la revisión.
+// Rechazar la revisión eliminará sus nodos del cuerpo. Por el contrario, los nodos que componen eliminan revisiones.
+// también permanece en el documento hasta que aceptemos la revisión.
 Assert.AreEqual("This does not count as a revision. This is revision #1.", doc.GetText().Trim());
 
-// Aceptar la revisión de eliminación eliminará su nodo principal del texto del párrafo
-// y luego elimine la revisión de la colección en sí.
+// Al aceptar la revisión eliminada se eliminará su nodo principal del texto del párrafo
+// y luego eliminar la revisión de la colección.
 doc.Revisions[0].Accept();
 
 Assert.AreEqual(1, doc.Revisions.Count);

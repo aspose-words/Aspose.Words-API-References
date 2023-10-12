@@ -3,7 +3,7 @@ title: Enum ArrowWidth
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Drawing.ArrowWidth uppräkning. Bredd på pilen i slutet av en linje.
 type: docs
-weight: 490
+weight: 500
 url: /sv/net/aspose.words.drawing/arrowwidth/
 ---
 ## ArrowWidth enumeration

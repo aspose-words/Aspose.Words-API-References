@@ -1,14 +1,14 @@
 ---
 title: FontInfoCollection.EmbedTrueTypeFonts
 second_title: Aspose.Words för .NET API Referens
-description: FontInfoCollection fast egendom. Anger om TrueTypeteckensnitt ska bäddas in i ett dokument eller inte när det sparas. Standardvärdet för den här egenskapen är falsk .
+description: FontInfoCollection fast egendom. Anger om TrueTypeteckensnitt ska bäddas in i ett dokument eller inte när det sparas. Standardvärdet för den här egenskapen ärfalsk .
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fonts/fontinfocollection/embedtruetypefonts/
 ---
 ## FontInfoCollection.EmbedTrueTypeFonts property
 
-Anger om TrueType-teckensnitt ska bäddas in i ett dokument eller inte när det sparas. Standardvärdet för den här egenskapen är **falsk** .
+Anger om TrueType-teckensnitt ska bäddas in i ett dokument eller inte när det sparas. Standardvärdet för den här egenskapen är`falsk` .
 
 ```csharp
 public bool EmbedTrueTypeFonts { get; set; }

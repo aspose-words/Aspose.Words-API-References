@@ -18,13 +18,13 @@ public float FontSize { get; set; }
 
 | eccezione | condizione |
 | --- | --- |
-| ArgumentOutOfRangeException | Viene generato quando l'argomento non rientrava nell'intervallo di valori validi. |
+| ArgumentOutOfRangeException | Viene generato quando l'argomento non rientra nell'intervallo di valori validi. |
 
 ### Osservazioni
 
-I valori validi sono compresi tra 0 e 65,5 inclusi.
+I valori validi vanno da 0 a 65,5 inclusi.
 
-La dimensione del carattere automatica significa che la filigrana verrà ridimensionata alla sua larghezza massima e altezza massima rispetto a i margini della pagina.
+La dimensione automatica del carattere significa che la filigrana verrà ridimensionata alla larghezza massima e all'altezza massima rispetto a i margini della pagina.
 
 ### Esempi
 
@@ -33,10 +33,10 @@ Mostra come creare una filigrana di testo.
 ```csharp
 Document doc = new Document();
 
-// Aggiungi una filigrana di testo normale.
+// Aggiunge una filigrana di testo semplice.
 doc.Watermark.SetText("Aspose Watermark");
 
-// Se desideriamo modificare la formattazione del testo usandola come filigrana,
+// Se desideriamo modificare la formattazione del testo utilizzandolo come filigrana,
 // possiamo farlo passando un oggetto TextWatermarkOptions durante la creazione della filigrana.
 TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
 textWatermarkOptions.FontFamily = "Arial";

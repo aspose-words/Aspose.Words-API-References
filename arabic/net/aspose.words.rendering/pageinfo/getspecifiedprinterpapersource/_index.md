@@ -1,14 +1,14 @@
 ---
 title: PageInfo.GetSpecifiedPrinterPaperSource
 second_title: Aspose.Words لمراجع .NET API
-description: PageInfo طريقة. يحصل على ملفPaperSource كائن مناسب للطباعة الصفحة التي يمثلها هذاPageInfo .
+description: PageInfo طريقة. يحصل علىPaperSource كائن مناسب لطباعة الصفحة التي يمثلها هذاPageInfo .
 type: docs
-weight: 90
+weight: 100
 url: /ar/net/aspose.words.rendering/pageinfo/getspecifiedprinterpapersource/
 ---
 ## PageInfo.GetSpecifiedPrinterPaperSource method
 
-يحصل على ملفPaperSource كائن مناسب للطباعة الصفحة التي يمثلها هذا[`PageInfo`](../) .
+يحصل علىPaperSource كائن مناسب لطباعة الصفحة التي يمثلها هذا[`PageInfo`](../) .
 
 ```csharp
 public PaperSource GetSpecifiedPrinterPaperSource(PaperSourceCollection paperSources, 
@@ -17,16 +17,16 @@ public PaperSource GetSpecifiedPrinterPaperSource(PaperSourceCollection paperSou
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| paperSources | PaperSourceCollection | مصادر الورق المتوفرة. |
-| defaultPageSettingsPaperSource | PaperSource | تم تحديد مصدر الورق في إعدادات الطابعة الافتراضية. |
+| paperSources | PaperSourceCollection | مصادر الورق المتوفرة |
+| defaultPageSettingsPaperSource | PaperSource | مصدر الورق محدد في إعدادات الطابعة الافتراضية. |
 
 ### قيمة الإرجاع
 
-كائن يمكنك استخدامه في إطار عمل طباعة .NET لتحديد مصدر الورق.
+كائن يمكنك استخدامه في إطار عمل الطباعة .NET لتحديد مصدر الورق.
 
 ### ملاحظات
 
-تتطلب هذه الطريقة .NET Framework 2.0 أو إصدار لاحق.
+تتطلب هذه الطريقة الإصدار .NET Framework 2.0 أو إصدار أحدث.
 
 ### أمثلة
 
@@ -35,8 +35,8 @@ public PaperSource GetSpecifiedPrinterPaperSource(PaperSourceCollection paperSou
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// يحتوي القسم الأول على صفحتين. سنقوم بتعيين درج ورق طابعة مختلف لكل واحد ،
-// الذي سيتطابق رقمه مع نوع مصدر الورق. هذه المصادر وأنواعها سوف تختلف
+// القسم الأول يحتوي على صفحتين. سنقوم بتخصيص درج ورق طابعة مختلف لكل واحد،
+// الذي سيتطابق رقمه مع نوع مصدر الورق. وسوف تختلف هذه المصادر وأنواعها
 // اعتمادًا على برنامج تشغيل الطابعة المثبت.
 PrinterSettings.PaperSourceCollection paperSources = new PrinterSettings().PaperSources;
 
@@ -50,7 +50,7 @@ float dpi = 96;
 
 for (int i = 0; i < doc.PageCount; i++)
 {
-    // تحتوي كل صفحة على كائن PageInfo ، والفهرس الخاص به هو رقم الصفحة المعنية.
+    // تحتوي كل صفحة على كائن PageInfo، والفهرس الخاص به هو رقم الصفحة المعنية.
     PageInfo pageInfo = doc.GetPageInfo(i);
 
     // اطبع اتجاه الصفحة وأبعادها.
@@ -60,7 +60,7 @@ for (int i = 0; i < doc.PageCount; i++)
     Console.WriteLine($"\tSize in points:\t{pageInfo.SizeInPoints}");
     Console.WriteLine($"\tSize in pixels:\t{pageInfo.GetSizeInPixels(1.0f, 96)} at {scale * 100}% scale, {dpi} dpi");
 
-    // اطبع معلومات علبة المصدر.
+    // اطبع معلومات الدرج المصدر.
     Console.WriteLine($"\tTray:\t{pageInfo.PaperTray}");
     PaperSource source = pageInfo.GetSpecifiedPrinterPaperSource(paperSources, paperSources[0]);
     Console.WriteLine($"\tSuitable print source:\t{source.SourceName}, kind: {source.Kind}");

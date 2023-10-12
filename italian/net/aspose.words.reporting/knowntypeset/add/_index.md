@@ -1,24 +1,24 @@
 ---
 title: KnownTypeSet.Add
 second_title: Aspose.Words per .NET API Reference
-description: KnownTypeSet metodo. Aggiunge il specificatoType opporsi allinsieme. TiriArgumentException in i seguenti casi
+description: KnownTypeSet metodo. Aggiunge quanto specificatoType oggetto dellinsieme. LanciaArgumentException in i seguenti casi
 type: docs
 weight: 20
 url: /it/net/aspose.words.reporting/knowntypeset/add/
 ---
 ## KnownTypeSet.Add method
 
-Aggiunge il specificatoType opporsi all'insieme. TiriArgumentException in i seguenti casi:
+Aggiunge quanto specificatoType oggetto dell'insieme. LanciaArgumentException in i seguenti casi:
 
--*type* è zero.
+-*type* È`nullo`.
 
 -*type* rappresenta un tipo vuoto.
 
--*type* rappresenta un tipo invisibile, cioè un tipo non pubblico o un tipo nidificato pubblico che ha un tipo esterno non pubblico.
+-*type* rappresenta un tipo invisibile, ovvero un tipo non pubblico o un tipo annidato pubblico che ha un tipo esterno non pubblico.
 
 -*type* rappresenta un tipo generico.
 
--*type* rappresenta un tipo di matrice.
+-*type* rappresenta un tipo di array.
 
 -*type* è già stato aggiunto al set.
 

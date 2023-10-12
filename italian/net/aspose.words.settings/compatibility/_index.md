@@ -3,7 +3,7 @@ title: Enum Compatibility
 second_title: Aspose.Words per .NET API Reference
 description: Aspose.Words.Settings.Compatibility enum. Specifica i nomi delle opzioni di compatibilità.
 type: docs
-weight: 5480
+weight: 5770
 url: /it/net/aspose.words.settings/compatibility/
 ---
 ## Compatibility enumeration
@@ -99,7 +99,7 @@ public void OptimizeFor()
 {
     Document doc = new Document();
 
-    // Questo oggetto contiene un ampio elenco di flag univoci per ogni documento
+    // Questo oggetto contiene un elenco completo di flag univoci per ciascun documento
     // che ci consentono di facilitare la compatibilità con le versioni precedenti di Microsoft Word.
     CompatibilityOptions options = doc.CompatibilityOptions;
 
@@ -110,7 +110,7 @@ public void OptimizeFor()
     // Possiamo accedere a queste impostazioni in Microsoft Word tramite "File" -> "Opzioni" -> "Avanzate" -> "Opzioni di compatibilità per...".
     doc.Save(ArtifactsDir + "CompatibilityOptions.OptimizeFor.DefaultSettings.docx");
 
-    // Possiamo utilizzare il metodo OptimizeFor per garantire la compatibilità ottimale con una specifica versione di Microsoft Word.
+    // Possiamo utilizzare il metodo OptimizeFor per garantire la compatibilità ottimale con una versione specifica di Microsoft Word.
     doc.CompatibilityOptions.OptimizeFor(MsWordVersion.Word2010);
     Console.WriteLine("\nOptimized for Word 2010:");
     PrintCompatibilityOptions(options);
@@ -121,7 +121,7 @@ public void OptimizeFor()
 }
 
 /// <summary>
-/// Raggruppa tutti i flag nelle opzioni di compatibilità di un documento oggetto per stato, quindi stampa ogni gruppo.
+/// Raggruppa tutti i flag nell'oggetto delle opzioni di compatibilità di un documento in base allo stato, quindi stampa ciascun gruppo.
 /// </summary>
 private static void PrintCompatibilityOptions(CompatibilityOptions options)
 {

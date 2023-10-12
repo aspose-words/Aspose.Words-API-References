@@ -1,14 +1,14 @@
 ---
 title: RevisionGroupCollection.Count
 second_title: Référence de l'API Aspose.Words pour .NET
-description: RevisionGroupCollection propriété. Renvoie le nombre de groupes de révision dans la collection.
+description: RevisionGroupCollection propriété. Renvoie le nombre de groupes de révisions dans la collection.
 type: docs
 weight: 10
 url: /fr/net/aspose.words/revisiongroupcollection/count/
 ---
 ## RevisionGroupCollection.Count property
 
-Renvoie le nombre de groupes de révision dans la collection.
+Renvoie le nombre de groupes de révisions dans la collection.
 
 ```csharp
 public int Count { get; }

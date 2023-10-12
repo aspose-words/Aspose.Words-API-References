@@ -3,7 +3,7 @@ title: ParagraphFormat.RightIndent
 second_title: Aspose.Words för .NET API Referens
 description: ParagraphFormat fast egendom. Hämtar eller ställer in värdet i poäng som representerar höger indrag för stycke.
 type: docs
-weight: 260
+weight: 270
 url: /sv/net/aspose.words/paragraphformat/rightindent/
 ---
 ## ParagraphFormat.RightIndent property

@@ -16,29 +16,29 @@ public EndnotePosition Position { get; set; }
 
 ### Örnekler
 
-Belgenin son notlarını topladığı ve görüntülediği farklı bir yerin nasıl seçileceğini gösterir.
+Belgenin son notlarını toplayıp görüntüleyeceği farklı bir yerin nasıl seçileceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Son not, metne referans veya yan yorum eklemenin bir yoludur
-// ana gövde metninin akışını engellemez. 
-// Bir son not eklemek, küçük bir üst simge referans sembolü ekler
-// son notu eklediğimiz ana gövde metninde.
-// Her son not ayrıca belgenin sonunda bir sembolden oluşan bir giriş oluşturur.
+// Son not, metne bir referans veya yan yorum eklemenin bir yoludur
+ // bu, ana gövde metninin akışına müdahale etmez.
+// Son notun eklenmesi küçük bir üst simge referans sembolü ekler
+// ana gövde metninde son notu eklediğimiz yer.
+// Her son not ayrıca belgenin sonunda bir sembolden oluşan bir giriş oluşturur
 // ana gövde metnindeki referans sembolüyle eşleşen.
-// Belge oluşturucunun "InsertEndnote" yöntemine aktardığımız referans metni.
+// Belge oluşturucunun "InsertEndnote" yöntemine ilettiğimiz referans metni.
 builder.Write("Hello world!");
 builder.InsertFootnote(FootnoteType.Endnote, "Endnote contents.");
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 builder.Write("This is the second section.");
 
-// Belgenin tüm son notlarını nereye yerleştireceğini belirlemek için "Position" özelliğini kullanabiliriz.
+// Belgenin tüm son notlarını nereye yerleştireceğini belirlemek için "Konum" özelliğini kullanabiliriz.
 // "Position" özelliğinin değerini "EndnotePosition.EndOfDocument" olarak ayarlarsak,
-// her dipnot belgenin sonunda bir koleksiyonda görünecek. Bu varsayılan değerdir.
+// her dipnot belgenin sonunda bir koleksiyonda görünecektir. Bu varsayılan değerdir.
 // "Position" özelliğinin değerini "EndnotePosition.EndOfSection" olarak ayarlarsak,
-// her dipnot, metni son notun referans işaretini içeren bölümün sonunda bir koleksiyonda görünecektir.
+// her dipnot, metni sonnotun referans işaretini içeren bölümün sonunda bir koleksiyonda görünecektir.
 doc.EndnoteOptions.Position = endnotePosition;
 
 doc.Save(ArtifactsDir + "InlineStory.PositionEndnote.docx");

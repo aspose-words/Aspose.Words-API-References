@@ -1,14 +1,14 @@
 ---
 title: FieldMergingArgsBase.FieldValue
 second_title: Aspose.Words für .NET-API-Referenz
-description: FieldMergingArgsBase eigendom. Ruft den Wert des Felds aus der Datenquelle ab oder legt ihn fest.
+description: FieldMergingArgsBase eigendom. Ruft den Wert des Felds aus der Datenquelle ab oder legt diesen fest.
 type: docs
 weight: 50
 url: /de/net/aspose.words.mailmerging/fieldmergingargsbase/fieldvalue/
 ---
 ## FieldMergingArgsBase.FieldValue property
 
-Ruft den Wert des Felds aus der Datenquelle ab oder legt ihn fest.
+Ruft den Wert des Felds aus der Datenquelle ab oder legt diesen fest.
 
 ```csharp
 public object FieldValue { get; set; }
@@ -16,18 +16,19 @@ public object FieldValue { get; set; }
 
 ### Bemerkungen
 
-Diese Eigenschaft enthält einen Wert, der gerade aus Ihrer Datenquelle für dieses Feld von der Seriendruck-Engine ausgewählt wurde. Sie können den Wert auch ersetzen, indem Sie die Eigenschaft festlegen.
+Diese Eigenschaft enthält einen Wert, der gerade von der Serienbrief-Engine aus Ihrer Datenquelle für dieses Feld ausgewählt wurde. Sie können den Wert auch ersetzen, indem Sie die Eigenschaft festlegen.
 
 ### Beispiele
 
-Zeigt, wie Werte bearbeitet werden, die MERGEFIELDs erhalten, wenn ein Seriendruck stattfindet.
+Zeigt, wie Werte bearbeitet werden, die MERGEFIELDs erhalten, wenn ein Serienbrief stattfindet.
 
 ```csharp
+public void FieldFormats()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Fügen Sie einige MERGEFIELDs mit Formatschaltern ein, die die Werte bearbeiten, die sie während eines Seriendrucks erhalten.
+    // Einige MERGEFIELDs mit Formatschaltern einfügen, die die Werte bearbeiten, die sie während eines Seriendrucks erhalten.
     builder.InsertField("MERGEFIELD text_Field1 \\* Caps", null);
     builder.Write(", ");
     builder.InsertField("MERGEFIELD text_Field2 \\* Upper", null);
@@ -45,12 +46,12 @@ Zeigt, wie Werte bearbeitet werden, die MERGEFIELDs erhalten, wenn ein Seriendru
 
 /// <summary>
 /// Bearbeitet die Werte, die MERGEFIELDs während eines Seriendrucks erhalten.
-/// Der Name eines MERGEFIELD muss ein Präfix haben, damit dieser Callback auf seinen Wert wirkt.
+/// Der Name eines MERGEFIELD muss ein Präfix haben, damit dieser Rückruf auf seinen Wert wirksam wird.
 /// </summary>
 private class FieldValueMergingCallback : IFieldMergingCallback
 {
     /// <summary>
-    /// Wird aufgerufen, wenn bei einem Seriendruck Daten in einem MERGEFIELD zusammengeführt werden.
+    /// Wird aufgerufen, wenn ein Serienbrief Daten in einem MERGEFIELD zusammenführt.
     /// </summary>
     void IFieldMergingCallback.FieldMerging(FieldMergingArgs e)
     {

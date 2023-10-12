@@ -3,7 +3,7 @@ title: Enum Underline
 second_title: Aspose.Words لمراجع .NET API
 description: Aspose.Words.Underline تعداد. يشير إلى نوع التسطير المطبق على الخط.
 type: docs
-weight: 6210
+weight: 6510
 url: /ar/net/aspose.words/underline/
 ---
 ## Underline enumeration
@@ -39,7 +39,7 @@ public enum Underline
 
 ### أمثلة
 
-يوضح كيفية إدراج حقل ارتباط تشعبي.
+يوضح كيفية إدراج حقل الارتباط التشعبي.
 
 ```csharp
 Document doc = new Document();
@@ -47,15 +47,15 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("For more information, please visit the ");
 
-// أدخل ارتباطًا تشعبيًا وقم بتأكيده بتنسيق مخصص.
-// سيكون الارتباط التشعبي عبارة عن نص قابل للنقر عليه والذي سينقلنا إلى الموقع المحدد في عنوان URL.
+// أدخل ارتباطًا تشعبيًا وقم بإبرازه بتنسيق مخصص.
+// سيكون الارتباط التشعبي عبارة عن جزء من النص قابل للنقر عليه والذي سينقلنا إلى الموقع المحدد في عنوان URL.
 builder.Font.Color = Color.Blue;
 builder.Font.Underline = Underline.Single;
-builder.InsertHyperlink("Google website", "https://www.google.com "، خطأ) ;
+builder.InsertHyperlink("Google website", "https://www.google.com"، خطأ);
 builder.Font.ClearFormatting();
 builder.Writeln(".");
 
-// Ctrl + النقر على الرابط الأيسر في النص في Microsoft Word سينقلنا إلى عنوان URL عبر نافذة متصفح ويب جديدة.
+// Ctrl + النقر بزر الماوس الأيسر على الرابط الموجود في النص في Microsoft Word سينقلنا إلى عنوان URL عبر نافذة متصفح ويب جديدة.
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlink.docx");
 ```
 

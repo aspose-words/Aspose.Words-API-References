@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.StartColumnBookmark
 second_title: Aspose.Words for .NET API Referansı
-description: DocumentBuilder yöntem. Belgedeki geçerli konumu bir sütun yer imi başlangıcı olarak işaretler. Konum bir tablo hücresinde olmalıdır.
+description: DocumentBuilder yöntem. Belgedeki geçerli konumu sütun yer işareti başlangıcı olarak işaretler. Konum bir tablo hücresinde olmalıdır.
 type: docs
-weight: 590
+weight: 630
 url: /tr/net/aspose.words/documentbuilder/startcolumnbookmark/
 ---
 ## DocumentBuilder.StartColumnBookmark method
 
-Belgedeki geçerli konumu bir sütun yer imi başlangıcı olarak işaretler. Konum bir tablo hücresinde olmalıdır.
+Belgedeki geçerli konumu sütun yer işareti başlangıcı olarak işaretler. Konum bir tablo hücresinde olmalıdır.
 
 ```csharp
 public BookmarkStart StartColumnBookmark(string bookmarkName)
@@ -24,15 +24,15 @@ Yeni oluşturulan yer imi başlangıç düğümü.
 
 ### Notlar
 
-Bir sütun yer imi, bir dizi satırdaki bir veya daha fazla sütunu kapsar. Geçerli bir yer imi oluşturmak için you her ikisini de aramanız gerekir`StartColumnBookmark` ve[`EndColumnBookmark`](../endcolumnbookmark/) same ile **yer imiAdı** parametre.
+Sütun yer işareti, bir satır aralığındaki bir veya daha fazla sütunu kapsar. Geçerli bir yer imi oluşturmak için you her ikisini de aramanız gerekir`StartColumnBookmark` Ve[`EndColumnBookmark`](../endcolumnbookmark/) aynı ile*bookmarkName*parametre.
 
-Kötü biçimlendirilmiş yer imleri veya yinelenen adlara sahip yer imleri, belge kaydedildiğinde yok sayılır.
+Kötü biçimlendirilmiş yer imleri veya yinelenen adlara sahip yer imleri, belge kaydedildiğinde göz ardı edilecektir.
 
-Eklenen öğenin gerçek konumu[`BookmarkStart`](../../bookmarkstart/) düğüm, geçerli document oluşturucu konumundan farklı olabilir.
+Takılan öğenin gerçek konumu[`BookmarkStart`](../../bookmarkstart/) düğümü geçerli document oluşturucu konumundan farklı olabilir.
 
 ### Örnekler
 
-Sütun yer iminin nasıl oluşturulacağını gösterir.
+Sütun yer işaretinin nasıl oluşturulacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -41,9 +41,9 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.StartTable();
 
 builder.InsertCell();
-// 1,2,4,5 hücreleri işaretlenecek.
+// 1,2,4,5 numaralı hücreler işaretlenecektir.
 builder.StartColumnBookmark("MyBookmark_1");
-// Kötü biçimli yer imleri veya yinelenen adlara sahip yer imleri, belge kaydedildiğinde yok sayılır.
+// Kötü biçimlendirilmiş yer imleri veya yinelenen adlara sahip yer imleri, belge kaydedildiğinde dikkate alınmayacaktır.
 builder.StartColumnBookmark("MyBookmark_1");
 builder.StartColumnBookmark("BadStartBookmark");
 builder.Write("Cell 1");

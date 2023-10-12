@@ -3,7 +3,7 @@ title: Enum GradientStyle
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.Drawing.GradientStyle enumeración. Especifica el estilo de un relleno degradado.
 type: docs
-weight: 870
+weight: 1000
 url: /es/net/aspose.words.drawing/gradientstyle/
 ---
 ## GradientStyle enumeration
@@ -19,12 +19,12 @@ public enum GradientStyle
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
 | None | `-1` | Sin gradiente. |
-| Horizontal | `1` | Gradiente que corre horizontalmente a través de un objeto. |
-| Vertical | `2` | Gradiente que corre verticalmente hacia abajo de un objeto. |
-| DiagonalUp | `3` | Gradiente diagonal que se mueve desde una esquina inferior hasta la esquina opuesta. |
-| DiagonalDown | `4` | Gradiente diagonal que se mueve desde una esquina superior hacia abajo hasta la esquina opuesta. |
-| FromCorner | `5` | Gradiente que va de una esquina a las otras tres esquinas. |
-| FromCenter | `6` | Gradiente que va desde el centro hacia las esquinas. |
+| Horizontal | `1` | Degradado que se ejecuta horizontalmente a través de un objeto. |
+| Vertical | `2` | Degradado que se ejecuta verticalmente hacia abajo de un objeto. |
+| DiagonalUp | `3` | Degradado diagonal que se mueve desde una esquina inferior hasta la esquina opuesta. |
+| DiagonalDown | `4` | Degradado diagonal que se mueve desde una esquina superior hasta la esquina opuesta. |
+| FromCorner | `5` | Degradado que va desde una esquina hasta las otras tres esquinas. |
+| FromCenter | `6` | Degradado que va desde el centro hacia las esquinas. |
 
 ### Ejemplos
 
@@ -49,7 +49,7 @@ shape.Fill.TwoColorGradient(GradientStyle.FromCorner, GradientVariant.Variant4);
 // Cambia el color de fondo del relleno degradado.
 shape.Fill.BackColor = Color.Yellow;
 // Tenga en cuenta que cambia "GradientAngle" por "GradientStyle.FromCorner/GradientStyle.FromCenter"
-// el relleno de degradado no obtiene ningún efecto, solo funcionará para degradado lineal.
+// el relleno degradado no obtiene ningún efecto, funcionará solo para degradado lineal.
 shape.Fill.GradientAngle = 15;
 
 Assert.AreEqual(Color.Yellow.ToArgb(), shape.Fill.BackColor.ToArgb());
@@ -57,7 +57,7 @@ Assert.AreEqual(GradientStyle.FromCorner, shape.Fill.GradientStyle);
 Assert.AreEqual(GradientVariant.Variant4, shape.Fill.GradientVariant);
 Assert.AreEqual(0, shape.Fill.GradientAngle);
 
-// Use la opción de cumplimiento para definir la forma usando DML si desea obtener "GradientStyle",
+// Utilice la opción de cumplimiento para definir la forma usando DML si desea obtener "GradientStyle",
 // Propiedades "GradientVariant" y "GradientAngle" después de guardar el documento.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions { Compliance = OoxmlCompliance.Iso29500_2008_Strict };
 

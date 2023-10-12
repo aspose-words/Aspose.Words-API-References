@@ -31,9 +31,9 @@ Mostra come inserire una forma con un'immagine dal file system locale in un docu
 Document doc = new Document();
 
 // Il costruttore pubblico della classe "Shape" creerà una forma con il tipo di markup "ShapeMarkupLanguage.Vml".
-// Se devi creare una forma di tipo non primitivo, come SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
-// TopCornersOneRoundedOneSnipped, SingleCornersRounded, TopCornersRounded, or DiagonalCornersRounded,
-// usa DocumentBuilder.InsertShape.
+// Se è necessario creare una forma di tipo non primitivo, come SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
+// TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded o DiagonalCornersRounded,
+// utilizzare DocumentBuilder.InsertShape.
 Shape shape = new Shape(doc, ShapeType.Image);
 shape.ImageData.SetImage(ImageDir + "Windows MetaFile.wmf");
 shape.Width = 100;
@@ -59,7 +59,7 @@ textBox.Width = 200;
 textBox.HorizontalAlignment = HorizontalAlignment.Center;
 textBox.VerticalAlignment = VerticalAlignment.Top;
 
-// Aggiungi un paragrafo alla casella di testo e aggiungi una sequenza di testo che verrà visualizzata nella casella di testo.
+// Aggiunge un paragrafo alla casella di testo e aggiunge una sequenza di testo che verrà visualizzata nella casella di testo.
 textBox.AppendChild(new Paragraph(doc));
 Paragraph para = textBox.FirstParagraph;
 para.ParagraphFormat.Alignment = ParagraphAlignment.Center;

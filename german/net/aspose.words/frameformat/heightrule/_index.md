@@ -1,14 +1,14 @@
 ---
 title: FrameFormat.HeightRule
 second_title: Aspose.Words für .NET-API-Referenz
-description: FrameFormat eigendom. Ruft die Regel zur Bestimmung der Höhe des angegebenen Rahmens ab.
+description: FrameFormat eigendom. Ruft die Regel zur Bestimmung der Höhe des angegebenen Frames ab.
 type: docs
 weight: 20
 url: /de/net/aspose.words/frameformat/heightrule/
 ---
 ## FrameFormat.HeightRule property
 
-Ruft die Regel zur Bestimmung der Höhe des angegebenen Rahmens ab.
+Ruft die Regel zur Bestimmung der Höhe des angegebenen Frames ab.
 
 ```csharp
 public HeightRule HeightRule { get; }
@@ -16,7 +16,7 @@ public HeightRule HeightRule { get; }
 
 ### Beispiele
 
-Zeigt, wie Informationen zu Formatierungseigenschaften von Absätzen abgerufen werden, die Rahmen sind.
+Zeigt, wie Sie Informationen zu Formatierungseigenschaften von Absätzen erhalten, die Rahmen sind.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraph frame.docx");

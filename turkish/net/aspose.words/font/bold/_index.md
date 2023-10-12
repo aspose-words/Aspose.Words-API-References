@@ -22,7 +22,7 @@ DocumentBuilder kullanılarak biçimlendirilmiş metnin nasıl ekleneceğini gö
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Yazı tipi biçimlendirmesini belirtin, ardından metin ekleyin.
+// Yazı tipi formatını belirtin, ardından metin ekleyin.
 Aspose.Words.Font font = builder.Font;
 font.Size = 16;
 font.Bold = true;

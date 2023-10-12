@@ -1,14 +1,14 @@
 ---
 title: ImageSaveOptions.HorizontalResolution
 second_title: Aspose.Words für .NET-API-Referenz
-description: ImageSaveOptions eigendom. Ruft die horizontale Auflösung für die generierten Bilder in Punkten pro Zoll ab oder legt sie fest.
+description: ImageSaveOptions eigendom. Ruft die horizontale Auflösung für die generierten Bilder in Punkten pro Zoll ab oder legt diese fest.
 type: docs
 weight: 30
 url: /de/net/aspose.words.saving/imagesaveoptions/horizontalresolution/
 ---
 ## ImageSaveOptions.HorizontalResolution property
 
-Ruft die horizontale Auflösung für die generierten Bilder in Punkten pro Zoll ab oder legt sie fest.
+Ruft die horizontale Auflösung für die generierten Bilder in Punkten pro Zoll ab oder legt diese fest.
 
 ```csharp
 public float HorizontalResolution { get; set; }
@@ -22,7 +22,7 @@ Der Standardwert ist 96.
 
 ### Beispiele
 
-Zeigt, wie das Bild bearbeitet wird, während Aspose.Words ein Dokument in eins konvertiert.
+Zeigt, wie das Bild bearbeitet wird, während Aspose.Words ein Dokument in ein Dokument konvertiert.
 
 ```csharp
 Document doc = new Document();
@@ -33,11 +33,11 @@ builder.Writeln("Hello world!");
 builder.InsertImage(ImageDir + "Logo.jpg");
 
 // Wenn wir das Dokument als Bild speichern, können wir ein SaveOptions-Objekt an übergeben
-// das Bild bearbeiten, während der Speichervorgang es rendert.
+// Bearbeiten Sie das Bild, während der Speichervorgang es rendert.
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Png)
 {
     // Wir können diese Eigenschaften anpassen, um die Helligkeit und den Kontrast des Bildes zu ändern.
-    // Beide liegen auf einer Skala von 0-1 und sind standardmäßig bei 0,5.
+    // Beide liegen auf einer Skala von 0-1 und liegen standardmäßig bei 0,5.
     ImageBrightness = 0.3f,
     ImageContrast = 0.7f,
 

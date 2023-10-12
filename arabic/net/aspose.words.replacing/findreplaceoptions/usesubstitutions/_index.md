@@ -1,14 +1,14 @@
 ---
 title: FindReplaceOptions.UseSubstitutions
 second_title: Aspose.Words لمراجع .NET API
-description: FindReplaceOptions ملكية. الحصول على أو تعيين قيمة منطقية تشير إلى ما إذا كان سيتم التعرف على البدائل واستخدامها ضمن أنماط الاستبدال.خاطئة .
+description: FindReplaceOptions ملكية. الحصول على قيمة منطقية أو تعيينها تشير إلى ما إذا كان سيتم التعرف على البدائل واستخدامها ضمن أنماط الاستبدال. القيمة الافتراضية هيخطأ شنيع .
 type: docs
-weight: 160
+weight: 180
 url: /ar/net/aspose.words.replacing/findreplaceoptions/usesubstitutions/
 ---
 ## FindReplaceOptions.UseSubstitutions property
 
-الحصول على أو تعيين قيمة منطقية تشير إلى ما إذا كان سيتم التعرف على البدائل واستخدامها ضمن أنماط الاستبدال.`خاطئة` .
+الحصول على قيمة منطقية أو تعيينها تشير إلى ما إذا كان سيتم التعرف على البدائل واستخدامها ضمن أنماط الاستبدال. القيمة الافتراضية هي`خطأ شنيع` .
 
 ```csharp
 public bool UseSubstitutions { get; set; }
@@ -16,11 +16,11 @@ public bool UseSubstitutions { get; set; }
 
 ### ملاحظات
 
-للحصول على تفاصيل حول عناصر الاستبدال ، يرجى الرجوع إلى: https://docs.microsoft.com/en-us/dotnet/standard/base-types/substitutions-in-uate-expressions.
+للحصول على تفاصيل حول العناصر البديلة، يرجى الرجوع إلى: https://docs.microsoft.com/en-us/dotnet/standard/base-types/substitutions-in-regular-expressions.
 
 ### أمثلة
 
-يوضح كيفية التعرف على البدائل واستخدامها في أنماط الاستبدال.
+يوضح كيفية التعرف على البدائل واستخدامها ضمن أنماط الاستبدال.
 
 ```csharp
 Document doc = new Document();
@@ -33,7 +33,7 @@ Regex regex = new Regex(@"([A-z]+) gave money to ([A-z]+)");
 FindReplaceOptions options = new FindReplaceOptions();
 options.UseSubstitutions = true;
 
-// لا يدعم استخدام الوضع القديم العديد من الميزات المتقدمة ، لذلك نحتاج إلى تعيينه على "خطأ".
+// استخدام الوضع القديم لا يدعم العديد من الميزات المتقدمة، لذا نحتاج إلى ضبطه على "خطأ".
 options.LegacyMode = false;
 
 doc.Range.Replace(regex, @"$2 took money from $1", options);
@@ -53,9 +53,9 @@ builder.Writeln("Jane sold a house to Joe.");
 // يمكننا استخدام كائن "FindReplaceOptions" لتعديل عملية البحث والاستبدال.
 FindReplaceOptions options = new FindReplaceOptions();
 
-// اضبط خاصية "UseSubstitutions" على "true" لتحصل عليها
-// عملية البحث والاستبدال للتعرف على عناصر الاستبدال.
-// اضبط خاصية "UseSubstitutions" على "false" لتجاهل عناصر الاستبدال.
+// اضبط خاصية "UseSubstitutions" على "صحيح" للحصول عليها
+// عملية البحث والاستبدال للتعرف على العناصر البديلة.
+// اضبط خاصية "UseSubstitutions" على "خطأ" لتجاهل العناصر البديلة.
 options.UseSubstitutions = useSubstitutions;
 
 Regex regex = new Regex(@"([A-z]+) sold a ([A-z]+) to ([A-z]+)");

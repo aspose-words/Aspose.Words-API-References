@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.MetafileFormat
 second_title: Aspose.Words für .NET-API-Referenz
-description: HtmlSaveOptions eigendom. Gibt an in welchem Format Metadateien gespeichert werden wenn sie in HTML MHTML oder EPUB exportiert werden. Standardwert istPng  was bedeutet dass Metadateien in RasterPNGBilder gerendert werden.
+description: HtmlSaveOptions eigendom. Gibt an in welchem Format Metadateien beim Exportieren nach HTML MHTML oder EPUB gespeichert werden. Der Standardwert istPng  was bedeutet dass Metadateien in RasterPNGBilder gerendert werden.
 type: docs
-weight: 390
+weight: 380
 url: /de/net/aspose.words.saving/htmlsaveoptions/metafileformat/
 ---
 ## HtmlSaveOptions.MetafileFormat property
 
-Gibt an, in welchem Format Metadateien gespeichert werden, wenn sie in HTML, MHTML oder EPUB exportiert werden. Standardwert istPng , was bedeutet, dass Metadateien in Raster-PNG-Bilder gerendert werden.
+Gibt an, in welchem Format Metadateien beim Exportieren nach HTML, MHTML oder EPUB gespeichert werden. Der Standardwert istPng , was bedeutet, dass Metadateien in Raster-PNG-Bilder gerendert werden.
 
 ```csharp
 public HtmlMetafileFormat MetafileFormat { get; set; }
@@ -16,9 +16,9 @@ public HtmlMetafileFormat MetafileFormat { get; set; }
 
 ### Bemerkungen
 
-Metadateien werden von HTML-Browsern nicht nativ angezeigt. Standardmäßig konvertiert Aspose.Words beim Exportieren in HTML WMF- und EMF- -Bilder in PNG-Dateien. Andere Optionen bestehen darin, Metadateien in SVG-Bilder zu konvertieren oder sie unverändert ohne Konvertierung zu exportieren .
+Metadateien werden von HTML-Browsern nicht nativ angezeigt. Standardmäßig konvertiert Aspose.Words WMF- und EMF- -Bilder beim Export in HTML in PNG-Dateien. Andere Optionen bestehen darin, Metadateien in SVG-Bilder zu konvertieren oder sie unverändert ohne Konvertierung zu exportieren.
 
-Einige Bildtransformationen, insbesondere das Zuschneiden von Bildern, werden nicht auf Metafile-Bilder angewendet, wenn sie ohne Konvertierung in HTML exportiert werden.
+Einige Bildtransformationen, insbesondere das Zuschneiden von Bildern, werden nicht auf Metadateibilder angewendet, wenn diese ohne Konvertierung nach HTML exportiert werden.
 
 ### Beispiele
 
@@ -32,7 +32,7 @@ string html =
         </svg>
     </html>";
 
-// Verwenden Sie 'ConvertSvgToEmf', um das Legacy-Verhalten umzukehren
+// „ConvertSvgToEmf“ verwenden, um das alte Verhalten umzukehren
 // wo alle aus einem HTML-Dokument geladenen SVG-Bilder in EMF konvertiert wurden.
 // Jetzt werden SVG-Bilder ohne Konvertierung geladen
 // wenn die in den Ladeoptionen angegebene MS Word-Version SVG-Bilder nativ unterstützt.
@@ -42,10 +42,10 @@ Document doc = new Document(new MemoryStream(Encoding.UTF8.GetBytes(html)), load
 
 // Dieses Dokument enthält ein <svg> Element in Form von Text.
 // Wenn wir das Dokument im HTML-Format speichern, können wir ein SaveOptions-Objekt übergeben
-// um zu bestimmen, wie die Speicheroperation dieses Objekt handhabt.
-// Festlegen der Eigenschaft "MetafileFormat" auf "HtmlMetafileFormat.Png", um es in ein PNG-Bild zu konvertieren.
-// Wenn Sie die Eigenschaft "MetafileFormat" auf "HtmlMetafileFormat.Svg" setzen, bleibt es als SVG-Objekt erhalten.
-// Festlegen der Eigenschaft "MetafileFormat" auf "HtmlMetafileFormat.EmfOrWmf", um sie in eine Metadatei zu konvertieren.
+// um zu bestimmen, wie der Speichervorgang dieses Objekt behandelt.
+// Die Eigenschaft „MetafileFormat“ auf „HtmlMetafileFormat.Png“ setzen, um es in ein PNG-Bild zu konvertieren.
+// Wenn Sie die Eigenschaft „MetafileFormat“ auf „HtmlMetafileFormat.Svg“ setzen, bleibt es als SVG-Objekt erhalten.
+// Die Eigenschaft „MetafileFormat“ auf „HtmlMetafileFormat.EmfOrWmf“ setzen, um sie in eine Metadatei zu konvertieren.
 HtmlSaveOptions options = new HtmlSaveOptions { MetafileFormat = htmlMetafileFormat };
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.MetafileFormat.html", options);

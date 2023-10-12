@@ -16,9 +16,9 @@ public string Id { get; set; }
 
 ### Observaciones
 
-ISO/IEC 29500 especifica que este valor es un GUID, pero las versiones anteriores de Microsoft Word permitían aquí cualquier cadena . Aspose.Words hace lo mismo para el formato ECMA-376. Pero tenga en cuenta que Microsoft Word Online falla al abrir un documento creado con un valor que no es GUID. Por lo tanto, un GUID es el valor preferido para esta propiedad.
+ISO/IEC 29500 especifica que este valor es un GUID, pero las versiones antiguas de Microsoft Word permitían cualquier cadena aquí. Aspose.Words hace lo mismo con el formato ECMA-376. Pero tenga en cuenta que Microsoft Word Online falla al abrir un documento creado con un valor que no es GUID. Por lo tanto, un GUID es el valor preferido para esta propiedad.
 
-Un valor válido debe ser un identificador único entre todas las partes de datos XML personalizados de este documento.
+Un valor válido debe ser un identificador que sea único entre todas las partes de datos XML personalizados en este documento.
 
 El valor predeterminado es una cadena vacía. El valor no puede ser`nulo`.
 
@@ -31,7 +31,7 @@ Document doc = new Document();
 
 // Construya una parte XML que contenga datos y agréguela a la colección del documento.
 // Si habilitamos la pestaña "Desarrollador" en Microsoft Word,
-// podemos encontrar elementos de esta colección en el "Panel de mapeo XML", junto con algunos elementos predeterminados.
+// podemos encontrar elementos de esta colección en el "Panel de asignación XML", junto con algunos elementos predeterminados.
 string xmlPartId = Guid.NewGuid().ToString("B");
 string xmlPartContent = "<root><text>Hello world!</text></root>";
 CustomXmlPart xmlPart = doc.CustomXmlParts.Add(xmlPartId, xmlPartContent);
@@ -39,8 +39,8 @@ CustomXmlPart xmlPart = doc.CustomXmlParts.Add(xmlPartId, xmlPartContent);
 Assert.AreEqual(Encoding.ASCII.GetBytes(xmlPartContent), xmlPart.Data);
 Assert.AreEqual(xmlPartId, xmlPart.Id);
 
-// A continuación hay dos formas de referirse a las partes XML.
-// 1 - Por un índice en la colección de piezas XML personalizadas:
+// A continuación se muestran dos formas de hacer referencia a partes XML.
+// 1 - Por un índice en la colección de piezas XML personalizada:
 Assert.AreEqual(xmlPart, doc.CustomXmlParts[0]);
 
 // 2 - Por GUID:
@@ -49,7 +49,7 @@ Assert.AreEqual(xmlPart, doc.CustomXmlParts.GetById(xmlPartId));
 // Agregar una asociación de esquema XML.
 xmlPart.Schemas.Add("http://www.w3.org/2001/XMLSchema");
 
-// Clonar una parte y luego insertarla en la colección.
+// Clona una parte y luego la inserta en la colección.
 CustomXmlPart xmlPartClone = xmlPart.Clone();
 xmlPartClone.Id = Guid.NewGuid().ToString("B");
 doc.CustomXmlParts.Add(xmlPartClone);
@@ -68,7 +68,7 @@ using (IEnumerator<CustomXmlPart> enumerator = doc.CustomXmlParts.GetEnumerator(
     }
 }
 
-// Use el método "RemoveAt" para eliminar la parte clonada por índice.
+// Utilice el método "RemoveAt" para eliminar la parte clonada por índice.
 doc.CustomXmlParts.RemoveAt(1);
 
 Assert.AreEqual(1, doc.CustomXmlParts.Count);
@@ -77,7 +77,7 @@ Assert.AreEqual(1, doc.CustomXmlParts.Count);
 CustomXmlPartCollection customXmlParts = doc.CustomXmlParts.Clone();
 customXmlParts.Clear();
 
-// Crear una etiqueta de documento estructurado que mostrará el contenido de nuestra parte e insertarlo en el cuerpo del documento.
+// Crea una etiqueta de documento estructurada que mostrará el contenido de nuestra parte y la insertará en el cuerpo del documento.
 StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Block);
 tag.XmlMapping.SetMapping(xmlPart, "/root[1]/text[1]", string.Empty);
 

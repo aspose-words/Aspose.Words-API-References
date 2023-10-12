@@ -20,7 +20,7 @@ public void RemoveByIndex(int index)
 
 ### 例子
 
-显示如何通过索引选择文档中的制表位并将其删除。
+演示如何通过索引选择文档中的制表位并将其删除。
 
 ```csharp
 Document doc = new Document();

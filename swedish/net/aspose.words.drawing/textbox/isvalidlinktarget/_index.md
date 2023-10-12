@@ -1,14 +1,14 @@
 ---
 title: TextBox.IsValidLinkTarget
 second_title: Aspose.Words för .NET API Referens
-description: TextBox metod. Bestämmer om denna textbox kan länkas till måltextrutan.
+description: TextBox metod. Avgör om dettaTextBox kan kopplas till måletTextBox .
 type: docs
-weight: 130
+weight: 140
 url: /sv/net/aspose.words.drawing/textbox/isvalidlinktarget/
 ---
 ## TextBox.IsValidLinkTarget method
 
-Bestämmer om denna textbox kan länkas till måltextrutan.
+Avgör om detta[`TextBox`](../) kan kopplas till målet[`TextBox`](../) .
 
 ```csharp
 public bool IsValidLinkTarget(TextBox target)

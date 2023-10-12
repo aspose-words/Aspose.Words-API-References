@@ -1,14 +1,14 @@
 ---
 title: Style.Font
 second_title: Aspose.Words for .NET API Referansı
-description: Style mülk. Stilin karakter biçimlendirmesini alır.
+description: Style mülk. Stilin karakter formatını alır.
 type: docs
-weight: 50
+weight: 60
 url: /tr/net/aspose.words/style/font/
 ---
 ## Style.Font property
 
-Stilin karakter biçimlendirmesini alır.
+Stilin karakter formatını alır.
 
 ```csharp
 public Font Font { get; }
@@ -16,11 +16,11 @@ public Font Font { get; }
 
 ### Notlar
 
-Liste stilleri için bu özellik null değerini döndürür.
+Liste stilleri için bu özellik şunu döndürür:`hükümsüz`.
 
 ### Örnekler
 
-Liste biçimlendirmeli bir paragraf stilinin nasıl oluşturulacağını ve kullanılacağını gösterir.
+Liste formatıyla paragraf stilinin nasıl oluşturulacağını ve kullanılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -36,11 +36,11 @@ style.ParagraphFormat.SpaceAfter = 12;
 style.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
 style.ListFormat.ListLevelNumber = 0;
 
-// Paragraf stilini belge oluşturucunun geçerli paragrafına uygulayın ve ardından biraz metin ekleyin.
+// Paragraf stilini belge oluşturucunun geçerli paragrafına uygulayın ve ardından bir miktar metin ekleyin.
 builder.ParagraphFormat.Style = style;
 builder.Writeln("Hello World: MyStyle1, bulleted list.");
 
-// Belge oluşturucunun stilini liste biçimlendirmesi olmayan bir stille değiştirin ve başka bir paragraf yazın.
+// Belge oluşturucunun stilini liste formatı olmayan bir stille değiştirin ve başka bir paragraf yazın.
 builder.ParagraphFormat.Style = doc.Styles["Normal"];
 builder.Writeln("Hello World: Normal.");
 
@@ -56,6 +56,8 @@ Style style = doc.Styles.Add(StyleType.Paragraph, "MyStyle");
 style.Font.Name = "Times New Roman";
 style.Font.Size = 16;
 style.Font.Color = Color.Navy;
+// Stili otomatik olarak yeniden tanımlayın.
+style.AutomaticallyUpdate = true;
 
 DocumentBuilder builder = new DocumentBuilder(doc);
 
@@ -67,12 +69,12 @@ Style firstParagraphStyle = doc.FirstSection.Body.FirstParagraph.ParagraphFormat
 
 Assert.AreEqual(style, firstParagraphStyle);
 
-// Özel stilimizi belgenin stiller koleksiyonundan kaldırın.
+// Özel stilimizi belgenin stil koleksiyonundan kaldırın.
 doc.Styles["MyStyle"].Remove();
 
 firstParagraphStyle = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Style;
 
-// Kaldırılan bir stil kullanan herhangi bir metin, varsayılan biçimlendirmeye geri döner.
+// Kaldırılmış bir stil kullanan herhangi bir metin, varsayılan biçimlendirmeye geri döner.
 Assert.False(doc.Styles.Any(s => s.Name == "MyStyle"));
 Assert.AreEqual("Times New Roman", firstParagraphStyle.Font.Name);
 Assert.AreEqual(12.0d, firstParagraphStyle.Font.Size);

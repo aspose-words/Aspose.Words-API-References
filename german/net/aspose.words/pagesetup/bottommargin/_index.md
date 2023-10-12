@@ -1,14 +1,14 @@
 ---
 title: PageSetup.BottomMargin
 second_title: Aspose.Words für .NET-API-Referenz
-description: PageSetup eigendom. Gibt den Abstand in Punkten zwischen dem unteren Rand der Seite und der unteren Grenze des Textkörpers zurück oder legt ihn fest.
+description: PageSetup eigendom. Gibt den Abstand in Punkt zwischen dem unteren Rand der Seite und der unteren Grenze des Textkörpers zurück oder legt ihn fest.
 type: docs
 weight: 80
 url: /de/net/aspose.words/pagesetup/bottommargin/
 ---
 ## PageSetup.BottomMargin property
 
-Gibt den Abstand (in Punkten) zwischen dem unteren Rand der Seite und der unteren Grenze des Textkörpers zurück oder legt ihn fest.
+Gibt den Abstand (in Punkt) zwischen dem unteren Rand der Seite und der unteren Grenze des Textkörpers zurück oder legt ihn fest.
 
 ```csharp
 public double BottomMargin { get; set; }

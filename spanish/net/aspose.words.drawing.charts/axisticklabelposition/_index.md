@@ -1,14 +1,14 @@
 ---
 title: Enum AxisTickLabelPosition
 second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Drawing.Charts.AxisTickLabelPosition enumeración. Especifica las posiciones posibles para las etiquetas de marcas.
+description: Aspose.Words.Drawing.Charts.AxisTickLabelPosition enumeración. Especifica las posibles posiciones para las etiquetas de marca.
 type: docs
-weight: 570
+weight: 580
 url: /es/net/aspose.words.drawing.charts/axisticklabelposition/
 ---
 ## AxisTickLabelPosition enumeration
 
-Especifica las posiciones posibles para las etiquetas de marcas.
+Especifica las posibles posiciones para las etiquetas de marca.
 
 ```csharp
 public enum AxisTickLabelPosition
@@ -35,10 +35,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Line, 500, 300);
 Chart chart = shape.Chart;
 
-// Borre la serie de datos de demostración del gráfico para comenzar con un gráfico limpio.
+// Borra la serie de datos de demostración del gráfico para comenzar con un gráfico limpio.
 chart.Series.Clear();
 
-// Agregue una serie personalizada que contenga valores de fecha/hora para el eje X y valores decimales respectivos para el eje Y.
+// Agregue una serie personalizada que contenga valores de fecha/hora para el eje X y los respectivos valores decimales para el eje Y.
 chart.Series.Add("Aspose Test Series",
     new[]
     {
@@ -47,17 +47,19 @@ chart.Series.Add("Aspose Test Series",
     },
     new[] { 1.2, 0.3, 2.1, 2.9, 4.2, 5.3 });
 
-// Establecer límites inferior y superior para el eje X.
+// Establece límites superior e inferior para el eje X.
 ChartAxis xAxis = chart.AxisX;
 xAxis.Scaling.Minimum = new AxisBound(new DateTime(2017, 11, 05).ToOADate());
 xAxis.Scaling.Maximum = new AxisBound(new DateTime(2017, 12, 03));
 
-// Establecer las unidades principales del eje X en una semana y las unidades secundarias en un día.
+// Establece las unidades mayores del eje X en una semana y las unidades menores en un día.
 xAxis.BaseTimeUnit = AxisTimeUnit.Days;
 xAxis.MajorUnit = 7.0d;
 xAxis.MajorTickMark = AxisTickMark.Cross;
 xAxis.MinorUnit = 1.0d;
 xAxis.MinorTickMark = AxisTickMark.Outside;
+xAxis.HasMajorGridlines = true;
+xAxis.HasMinorGridlines = true;
 
 // Definir propiedades del eje Y para valores decimales.
 ChartAxis yAxis = chart.AxisY;
@@ -67,6 +69,8 @@ yAxis.MinorUnit = 50.0d;
 yAxis.DisplayUnit.Unit = AxisBuiltInUnit.Hundreds;
 yAxis.Scaling.Minimum = new AxisBound(100);
 yAxis.Scaling.Maximum = new AxisBound(700);
+yAxis.HasMajorGridlines = true;
+yAxis.HasMinorGridlines = true;
 
 doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 ```

@@ -1,14 +1,14 @@
 ---
 title: Enum PaperSize
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.PaperSize énumération. Spécifie la taille du papier.
+description: Aspose.Words.PaperSize énumération. Spécifie le format du papier.
 type: docs
-weight: 4140
+weight: 4380
 url: /fr/net/aspose.words/papersize/
 ---
 ## PaperSize enumeration
 
-Spécifie la taille du papier.
+Spécifie le format du papier.
 
 ```csharp
 public enum PaperSize
@@ -39,7 +39,7 @@ public enum PaperSize
 
 ### Exemples
 
-Montre comment ajuster la taille du papier, l'orientation, les marges, ainsi que d'autres paramètres pour une section.
+Montre comment ajuster le format du papier, l’orientation, les marges, ainsi que d’autres paramètres pour une section.
 
 ```csharp
 Document doc = new Document();
@@ -74,7 +74,7 @@ Assert.AreEqual(1224.0d, builder.PageSetup.PageHeight);
 
 builder.Writeln($"This page is {builder.PageSetup.PageWidth}x{builder.PageSetup.PageHeight}.");
 
-// Chaque section a son propre objet PageSetup. Lorsque nous utilisons un générateur de documents pour créer une nouvelle section,
+// Chaque section possède son propre objet PageSetup. Lorsque nous utilisons un générateur de documents pour créer une nouvelle section,
 // l'objet PageSetup de cette section hérite de toutes les valeurs de l'objet PageSetup de la section précédente.
 builder.InsertBreak(BreakType.SectionBreakEvenPage);
 
@@ -88,7 +88,7 @@ Assert.AreEqual(595.30d, builder.PageSetup.PageHeight);
 
 builder.InsertBreak(BreakType.SectionBreakEvenPage);
 
-// Définir une taille personnalisée pour les pages de cette section.
+// Définit une taille personnalisée pour les pages de cette section.
 builder.PageSetup.PageWidth = 620;
 builder.PageSetup.PageHeight = 480;
 
@@ -99,23 +99,23 @@ builder.Writeln($"This page is {builder.PageSetup.PageWidth}x{builder.PageSetup.
 doc.Save(ArtifactsDir + "PageSetup.PaperSizes.docx");
 ```
 
-Montre comment construire un document Aspose.Words à la main.
+Montre comment construire manuellement un document Aspose.Words.
 
 ```csharp
 Document doc = new Document();
 
 // Un document vierge contient une section, un corps et un paragraphe.
 // Appelez la méthode "RemoveAllChildren" pour supprimer tous ces nœuds,
-// et se retrouver avec un nœud de document sans enfants.
+// et on se retrouve avec un nœud de document sans enfants.
 doc.RemoveAllChildren();
 
-// Ce document n'a plus de nœuds enfants composites auxquels nous pouvons ajouter du contenu.
-// Si nous souhaitons l'éditer, nous devrons repeupler sa collection de nœuds.
-// Tout d'abord, créez une nouvelle section, puis ajoutez-la en tant qu'enfant au nœud de document racine.
+// Ce document n'a désormais aucun nœud enfant composite auquel nous pouvons ajouter du contenu.
+// Si nous souhaitons le modifier, nous devrons repeupler sa collection de nœuds.
+// Commencez par créer une nouvelle section, puis ajoutez-la en tant qu'enfant au nœud du document racine.
 Section section = new Section(doc);
 doc.AppendChild(section);
 
-// Définit certaines propriétés de mise en page pour la section.
+// Définissez certaines propriétés de mise en page pour la section.
 section.PageSetup.SectionStart = SectionStart.NewPage;
 section.PageSetup.PaperSize = PaperSize.Letter;
 
@@ -124,7 +124,7 @@ section.PageSetup.PaperSize = PaperSize.Letter;
 Body body = new Body(doc);
 section.AppendChild(body);
 
-// Crée un paragraphe, définit certaines propriétés de formatage, puis l'ajoute en tant qu'enfant au corps.
+// Créez un paragraphe, définissez certaines propriétés de mise en forme, puis ajoutez-le en tant qu'enfant au corps.
 Paragraph para = new Paragraph(doc);
 
 para.ParagraphFormat.StyleName = "Heading 1";
@@ -132,7 +132,7 @@ para.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 body.AppendChild(para);
 
-// Enfin, ajoutez du contenu pour faire le document. Créer une course,
+// Enfin, ajoutez du contenu pour faire le document. Créez une course,
 // définit son apparence et son contenu, puis l'ajoute en tant qu'enfant au paragraphe.
 Run run = new Run(doc);
 run.Text = "Hello World!";

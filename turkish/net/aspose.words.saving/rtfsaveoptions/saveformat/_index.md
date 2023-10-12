@@ -21,19 +21,19 @@ public override SaveFormat SaveFormat { get; set; }
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Bir RTF'ye kaydetme şeklimizi değiştirmek için belgenin "Kaydet" yöntemine geçmek için bir "RtfSaveOptions" nesnesi oluşturun.
+// Belgeyi bir RTF'ye kaydetme şeklimizi değiştirmek için belgenin "Kaydet" yöntemine iletilecek bir "RtfSaveOptions" nesnesi oluşturun.
 RtfSaveOptions options = new RtfSaveOptions();
 
 Assert.AreEqual(SaveFormat.Rtf, options.SaveFormat);
 
 // "ExportCompactSize" özelliğini "true" olarak ayarlayın
-// sağdan sola metin uyumluluğu pahasına kaydedilen belgenin boyutunu küçültün.
+// sağdan sola metin uyumluluğu pahasına kaydedilen belgenin boyutunu azaltın.
 options.ExportCompactSize = true;
 
-// Belgemizin doğru olduğundan emin olmak için fazladan anahtar kelimeler kullanmak için "ExportImagesFotOldReaders" özelliğini "true" olarak ayarlayın.
+// Belgemizin olduğundan emin olmak amacıyla fazladan anahtar kelimeler kullanmak için "ExportImagesFotOldReaders" özelliğini "true" olarak ayarlayın
 // Microsoft Word 97 öncesi okuyucular ve WordPad ile uyumludur.
 // Belgenin boyutunu küçültmek için "ExportImagesFotOldReaders" özelliğini "false" olarak ayarlayın,
-// ancak eski okuyucuların belgenin içerebileceği meta dosyası olmayan veya BMP görüntülerini okumasını önleyin.
+// ancak eski okuyucuların belgenin içerebileceği meta dosyası olmayan veya BMP görüntülerini okuyabilmesini önleyin.
 options.ExportImagesForOldReaders = exportImagesForOldReaders;
 
 doc.Save(ArtifactsDir + "RtfSaveOptions.ExportImages.rtf", options);

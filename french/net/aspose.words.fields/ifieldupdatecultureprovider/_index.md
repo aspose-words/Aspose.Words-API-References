@@ -1,14 +1,14 @@
 ---
 title: Interface IFieldUpdateCultureProvider
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Fields.IFieldUpdateCultureProvider interface. Lorsquil est implémenté fournit unCultureInfo objet qui doit être utilisé lors de la mise à jour dun champ particulier.
+description: Aspose.Words.Fields.IFieldUpdateCultureProvider interface. Une fois implémenté fournit unCultureInfo objet qui doit être utilisé lors de la mise à jour dun champ particulier.
 type: docs
-weight: 2540
+weight: 2710
 url: /fr/net/aspose.words.fields/ifieldupdatecultureprovider/
 ---
 ## IFieldUpdateCultureProvider interface
 
-Lorsqu'il est implémenté, fournit unCultureInfo objet qui doit être utilisé lors de la mise à jour d'un champ particulier.
+Une fois implémenté, fournit unCultureInfo objet qui doit être utilisé lors de la mise à jour d'un champ particulier.
 
 ```csharp
 public interface IFieldUpdateCultureProvider
@@ -18,14 +18,13 @@ public interface IFieldUpdateCultureProvider
 
 | Nom | La description |
 | --- | --- |
-| [GetCulture](../../aspose.words.fields/ifieldupdatecultureprovider/getculture/)(string, Field) | Renvoie unCultureInfo objet à utiliser lors de la mise à jour du champ. |
+| [GetCulture](../../aspose.words.fields/ifieldupdatecultureprovider/getculture/)(string, Field) | Renvoie unCultureInfoobjet à utiliser lors de la mise à jour du champ. |
 
 ### Exemples
 
-Montre comment spécifier une culture qui analyse le formatage de date/heure pour chaque champ.
+Montre comment spécifier une culture qui analyse le formatage date/heure pour chaque champ.
 
 ```csharp
-[Test]
 public void DefineDateTimeFormatting()
 {
     Document doc = new Document();
@@ -35,7 +34,7 @@ public void DefineDateTimeFormatting()
 
     doc.FieldOptions.FieldUpdateCultureSource = FieldUpdateCultureSource.FieldCode;
 
-    // Définissez un fournisseur qui renvoie un objet de culture spécifique à chaque champ.
+    // Définit un fournisseur qui renvoie un objet de culture spécifique à chaque champ.
     doc.FieldOptions.FieldUpdateCultureProvider = new FieldUpdateCultureProvider();
 
     FieldTime fieldDate = (FieldTime)doc.Range.Fields[0];

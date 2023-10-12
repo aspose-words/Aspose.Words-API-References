@@ -1,16 +1,16 @@
 ---
 title: ParagraphFormat.FirstLineIndent
 second_title: Aspose.Words لمراجع .NET API
-description: ParagraphFormat ملكية. الحصول على أو تعيين القيمة بالنقاط للسطر الأول أو المسافة البادئة المعلقة .
+description: ParagraphFormat ملكية. الحصول على القيمة بالنقاط أو تعيينها للسطر الأول أو المسافة البادئة المعلقة.
 type: docs
-weight: 110
+weight: 120
 url: /ar/net/aspose.words/paragraphformat/firstlineindent/
 ---
 ## ParagraphFormat.FirstLineIndent property
 
-الحصول على أو تعيين القيمة (بالنقاط) للسطر الأول أو المسافة البادئة المعلقة .
+الحصول على القيمة (بالنقاط) أو تعيينها للسطر الأول أو المسافة البادئة المعلقة.
 
-استخدم القيم الموجبة لتعيين المسافة البادئة للسطر الأول ، والقيم السالبة لتعيين المسافة البادئة المعلقة.
+استخدم القيم الموجبة لتعيين المسافة البادئة للسطر الأول، والقيم السالبة لتعيين المسافة البادئة المعلقة.
 
 ```csharp
 public double FirstLineIndent { get; set; }
@@ -38,8 +38,8 @@ paragraphFormat.AddSpaceBetweenFarEastAndAlpha = true;
 paragraphFormat.AddSpaceBetweenFarEastAndDigit = true;
 paragraphFormat.KeepTogether = true;
 
-// طريقة "Writeln" تنهي الفقرة بعد إلحاق النص
-// ثم يبدأ سطرًا جديدًا ، مضيفًا فقرة جديدة.
+// تنهي طريقة "Writeln" الفقرة بعد إلحاق النص
+// ثم يبدأ سطرًا جديدًا ويضيف فقرة جديدة.
 builder.Writeln("Hello world!");
 
 Assert.True(builder.CurrentParagraph.IsEndOfDocument);

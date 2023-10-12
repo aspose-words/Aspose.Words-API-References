@@ -1,14 +1,14 @@
 ---
 title: Shading.Equals
 second_title: Aspose.Words per .NET API Reference
-description: Shading metodo. Determina se lombreggiatura specificata è uguale in valore allombreggiatura corrente.
+description: Shading metodo. Determina se specificatoShading ha lo stesso valore della correnteShading .
 type: docs
-weight: 50
+weight: 90
 url: /it/net/aspose.words/shading/equals/
 ---
 ## Equals(Shading) {#equals}
 
-Determina se l'ombreggiatura specificata è uguale in valore all'ombreggiatura corrente.
+Determina se specificato[`Shading`](../) ha lo stesso valore della corrente[`Shading`](../) .
 
 ```csharp
 public bool Equals(Shading rhs)
@@ -24,7 +24,7 @@ public bool Equals(Shading rhs)
 
 ## Equals(object) {#equals_1}
 
-Determina se l'oggetto specificato è uguale in valore all'oggetto corrente.
+Determina se l'oggetto specificato ha un valore uguale all'oggetto corrente.
 
 ```csharp
 public override bool Equals(object obj)

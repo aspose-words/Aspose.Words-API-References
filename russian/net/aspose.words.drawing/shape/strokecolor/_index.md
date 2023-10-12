@@ -16,37 +16,37 @@ public Color StrokeColor { get; set; }
 
 ### Примечания
 
-Это ярлык для[`Color`](../../stroke/color/) имущество.
+Это ярлык для[`Color`](../../stroke/color/) свойство.
 
-Значение по умолчанию: Black.
+Значение по умолчанию: .Black.
 
 ### Примеры
 
-Показывает, как заполнить фигуру сплошным цветом.
+Показывает, как залить фигуру сплошным цветом.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Напишите какой-нибудь текст, а затем накройте его плавающей фигурой.
+// Напишите текст, а затем покройте его плавающей фигурой.
 builder.Font.Size = 32;
 builder.Writeln("Hello world!");
 
 Shape shape = builder.InsertShape(ShapeType.CloudCallout, RelativeHorizontalPosition.LeftMargin, 25,
     RelativeVerticalPosition.TopMargin, 25, 250, 150, WrapType.None);
 
-// Используйте свойство "StrokeColor", чтобы установить цвет контура фигуры.
+// Используйте свойство StrokeColor, чтобы установить цвет контура фигуры.
 shape.StrokeColor = Color.CadetBlue;
 
-// Используйте свойство "FillColor", чтобы задать цвет внутренней области фигуры.
+// Используйте свойство FillColor, чтобы установить цвет внутренней области фигуры.
 shape.FillColor = Color.LightBlue;
 
-// Свойство "Непрозрачность" определяет, насколько прозрачен цвет по шкале от 0 до 1,
-// где 1 полностью непрозрачно, а 0 невидимо.
+// Свойство «Непрозрачность» определяет, насколько прозрачен цвет по шкале от 0 до 1,
+// где 1 означает полную непрозрачность, а 0 — невидимость.
 // Заливка фигуры по умолчанию полностью непрозрачна, поэтому мы не можем видеть текст, поверх которого находится эта фигура.
 Assert.AreEqual(1.0d, shape.Fill.Opacity);
 
-// Установите непрозрачность цвета заливки фигуры на более низкое значение, чтобы мы могли видеть текст под ним.
+// Установите меньшее значение непрозрачности цвета заливки фигуры, чтобы мы могли видеть текст под ним.
 shape.Fill.Opacity = 0.3;
 
 doc.Save(ArtifactsDir + "Shape.Fill.docx");
@@ -55,6 +55,7 @@ doc.Save(ArtifactsDir + "Shape.Fill.docx");
 Показывает, как перебирать все фигуры в документе.
 
 ```csharp
+public void VisitShapes()
 {
     Document doc = new Document(MyDir + "Revision shape.docx");
     ShapeAppearancePrinter visitor = new ShapeAppearancePrinter();
@@ -64,7 +65,7 @@ doc.Save(ArtifactsDir + "Shape.Fill.docx");
 }
 
 /// <summary>
-/// Регистрирует связанную с внешним видом информацию о посещенных фигурах.
+/// Регистрирует информацию о внешнем виде посещенных фигур.
 /// </summary>
 private class ShapeAppearancePrinter : DocumentVisitor
 {
@@ -76,7 +77,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Добавляет строку в StringBuilder с одним предшествующим символом табуляции для каждого уровня отступа.
+    /// Добавляет строку в StringBuilder с одним добавленным символом табуляции для каждого уровня отступа.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -86,7 +87,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Вернуть весь текст, который накопил StringBuilder.
+    /// Возвращаем весь текст, накопленный StringBuilder.
     /// </summary>
     public string GetText()
     {

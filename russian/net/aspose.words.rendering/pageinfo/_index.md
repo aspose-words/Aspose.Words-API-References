@@ -1,14 +1,16 @@
 ---
 title: Class PageInfo
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Rendering.PageInfo сорт. Представляет информацию о конкретной странице документа.
+description: Aspose.Words.Rendering.PageInfo сорт. Представляет информацию об определенной странице документа.
 type: docs
-weight: 4310
+weight: 4570
 url: /ru/net/aspose.words.rendering/pageinfo/
 ---
 ## PageInfo class
 
-Представляет информацию о конкретной странице документа.
+Представляет информацию об определенной странице документа.
+
+Чтобы узнать больше, посетите[Рендеринг](https://docs.aspose.com/words/net/rendering/) статья документации.
 
 ```csharp
 public class PageInfo
@@ -18,10 +20,11 @@ public class PageInfo
 
 | Имя | Описание |
 | --- | --- |
+| [Colored](../../aspose.words.rendering/pageinfo/colored/) { get; } | Возвращает`истинный` если страница содержит цветной контент. |
 | [HeightInPoints](../../aspose.words.rendering/pageinfo/heightinpoints/) { get; } | Получает высоту страницы в пунктах. |
-| [Landscape](../../aspose.words.rendering/pageinfo/landscape/) { get; } | Возвращает значение true, если ориентация страницы, указанная в документе для этой страницы, является альбомной. |
+| [Landscape](../../aspose.words.rendering/pageinfo/landscape/) { get; } | Возвращает`истинный` если в документе для этой страницы указана альбомная ориентация. |
 | [PaperSize](../../aspose.words.rendering/pageinfo/papersize/) { get; } | Получает размер бумаги в виде перечисления. |
-| [PaperTray](../../aspose.words.rendering/pageinfo/papertray/) { get; } | Получает лоток для бумаги (лоток) для этой страницы, как указано в документе. Значение зависит от реализации (принтера). |
+| [PaperTray](../../aspose.words.rendering/pageinfo/papertray/) { get; } | Получает лоток для бумаги (корзину) для этой страницы, как указано в документе. Значение зависит от реализации (принтера). |
 | [SizeInPoints](../../aspose.words.rendering/pageinfo/sizeinpoints/) { get; } | Получает размер страницы в пунктах. |
 | [WidthInPoints](../../aspose.words.rendering/pageinfo/widthinpoints/) { get; } | Получает ширину страницы в пунктах. |
 
@@ -40,13 +43,13 @@ public class PageInfo
 
 ### Примеры
 
-Показывает, как печатать информацию о размере и ориентации каждой страницы в документе Word.
+Показывает, как распечатать информацию о размере и ориентации страницы для каждой страницы документа Word.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// В первом разделе 2 страницы. Каждому из них мы назначим отдельный лоток для бумаги принтера,
-// чей номер будет соответствовать типу источника бумаги. Эти источники и их виды будут различаться
+// Первый раздел состоит из 2 страниц. Каждому из них мы назначим отдельный лоток для бумаги для принтера,
+// номер которого будет соответствовать типу бумажного источника. Эти источники и их виды будут различаться.
 // в зависимости от установленного драйвера принтера.
 PrinterSettings.PaperSourceCollection paperSources = new PrinterSettings().PaperSources;
 
@@ -63,14 +66,14 @@ for (int i = 0; i < doc.PageCount; i++)
     // Каждая страница имеет объект PageInfo, индексом которого является номер соответствующей страницы.
     PageInfo pageInfo = doc.GetPageInfo(i);
 
-    // Печатаем ориентацию и размеры страницы.
+    // Распечатываем ориентацию и размеры страницы.
     Console.WriteLine($"Page {i + 1}:");
     Console.WriteLine($"\tOrientation:\t{(pageInfo.Landscape ? "Landscape" : "Portrait")}");
     Console.WriteLine($"\tPaper size:\t\t{pageInfo.PaperSize} ({pageInfo.WidthInPoints:F0}x{pageInfo.HeightInPoints:F0}pt)");
     Console.WriteLine($"\tSize in points:\t{pageInfo.SizeInPoints}");
     Console.WriteLine($"\tSize in pixels:\t{pageInfo.GetSizeInPixels(1.0f, 96)} at {scale * 100}% scale, {dpi} dpi");
 
-    // Печать информации об исходном лотке.
+    // Распечатываем информацию об исходном лотке.
     Console.WriteLine($"\tTray:\t{pageInfo.PaperTray}");
     PaperSource source = pageInfo.GetSpecifiedPrinterPaperSource(paperSources, paperSources[0]);
     Console.WriteLine($"\tSuitable print source:\t{source.SourceName}, kind: {source.Kind}");

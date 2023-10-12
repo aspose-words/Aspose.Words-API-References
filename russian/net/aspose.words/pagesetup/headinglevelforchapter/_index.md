@@ -1,14 +1,14 @@
 ---
 title: PageSetup.HeadingLevelForChapter
 second_title: Справочник по API Aspose.Words для .NET
-description: PageSetup свойство. Получает или задает стиль уровня заголовков который применяется к заголовкам глав в документе.
+description: PageSetup свойство. Получает или задает стиль уровня заголовка который применяется к заголовкам глав в документе.
 type: docs
 weight: 180
 url: /ru/net/aspose.words/pagesetup/headinglevelforchapter/
 ---
 ## PageSetup.HeadingLevelForChapter property
 
-Получает или задает стиль уровня заголовков, который применяется к заголовкам глав в документе.
+Получает или задает стиль уровня заголовка, который применяется к заголовкам глав в документе.
 
 ```csharp
 public int HeadingLevelForChapter { get; set; }
@@ -16,9 +16,23 @@ public int HeadingLevelForChapter { get; set; }
 
 ### Примечания
 
-Может быть числом от 0 до 9. 0 означает отсутствие номера главы, если применяется к номеру страницы.
+Может быть числом от 0 до 9. 0 означает отсутствие номера главы, если оно применяется к номеру страницы.
 
-Прежде чем вы сможете создавать номера страниц, включающие номера глав, к заголовкам документа должен быть применен нумерованный формат схемы.
+Прежде чем вы сможете создавать номера страниц, включающие номера глав, к заголовкам документов необходимо применить нумерованный структурный формат.
+
+### Примеры
+
+Показывает, как работать с главами страниц.
+
+```csharp
+Document doc = new Document(MyDir + "Big document.docx");
+
+PageSetup pageSetup = doc.FirstSection.PageSetup;
+
+pageSetup.PageNumberStyle = NumberStyle.UppercaseRoman;
+pageSetup.ChapterPageSeparator = Aspose.Words.ChapterPageSeparator.Colon;
+pageSetup.HeadingLevelForChapter = 1;
+```
 
 ### Смотрите также
 

@@ -67,7 +67,7 @@ public void Content()
     // Dessa värden kan också ses i Microsoft Word genom att navigera i Arkiv > Egenskaper > Avancerade egenskaper > Statistik
     // Antal sidor: Egenskapen PageCount visar antalet sidor i realtid och dess värde kan tilldelas egenskapen Sidor
 
-    // Egenskapen "Sidor" lagrar antalet sidor i dokumentet. 
+     // Egenskapen "Sidor" lagrar antalet sidor i dokumentet.
     Assert.AreEqual(6, properties.Pages);
 
     // De inbyggda egenskaperna "Words", "Characters" och "CharactersWithSpaces" visar också olika dokumentstatistik,

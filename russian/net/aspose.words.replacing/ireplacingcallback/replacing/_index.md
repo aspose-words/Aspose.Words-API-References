@@ -16,13 +16,14 @@ public ReplaceAction Replacing(ReplacingArgs args)
 
 ### Возвращаемое значение
 
-А[`ReplaceAction`](../../replaceaction/) значение, указывающее действие, которое необходимо выполнить для текущего совпадения.
+А[`ReplaceAction`](../../replaceaction/) значение, указывающее действие, которое необходимо предпринять для текущего совпадения.
 
 ### Примеры
 
-Показывает, как заменить все вхождения шаблона регулярного выражения другой строкой, отслеживая все такие замены.
+Показывает, как заменить все вхождения шаблона регулярного выражения другой строкой, отслеживая при этом все такие замены.
 
 ```csharp
+public void ReplaceWithCallback()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -30,7 +31,7 @@ public ReplaceAction Replacing(ReplacingArgs args)
     builder.Writeln("Our new location in New York City is opening tomorrow. " +
                     "Hope to see all our NYC-based customers at the opening!");
 
-    // Мы можем использовать объект «FindReplaceOptions», чтобы изменить процесс поиска и замены.
+    // Мы можем использовать объект «FindReplaceOptions» для изменения процесса поиска и замены.
     FindReplaceOptions options = new FindReplaceOptions();
 
     // Установите обратный вызов, который отслеживает любые замены, которые сделает метод "Replace".
@@ -47,7 +48,7 @@ public ReplaceAction Replacing(ReplacingArgs args)
 }
 
 /// <summary>
-/// Ведет журнал каждой замены текста, выполненной операцией поиска и замены
+/// Ведёт журнал каждой замены текста, выполненной операцией поиска и замены
 /// и отмечает значение исходного совпавшего текста.
 /// </summary>
 private class TextFindAndReplacementLogger : IReplacingCallback
@@ -70,18 +71,21 @@ private class TextFindAndReplacementLogger : IReplacingCallback
 }
 ```
 
-Показывает, как вставить все содержимое документа в качестве замены совпадения в операции поиска и замены.
+Показывает, как вставить содержимое всего документа в качестве замены совпадения в операции поиска и замены.
 
 ```csharp
+public void InsertDocumentAtReplace()
 {
     Document mainDoc = new Document(MyDir + "Document insertion destination.docx");
 
-    // Мы можем использовать объект «FindReplaceOptions», чтобы изменить процесс поиска и замены.
+    // Мы можем использовать объект «FindReplaceOptions» для изменения процесса поиска и замены.
     FindReplaceOptions options = new FindReplaceOptions();
     options.ReplacingCallback = new InsertDocumentAtReplaceHandler();
 
     mainDoc.Range.Replace(new Regex("\\[MY_DOCUMENT\\]"), "", options);
     mainDoc.Save(ArtifactsDir + "InsertDocument.InsertDocumentAtReplace.docx");
+
+}
 
 private class InsertDocumentAtReplaceHandler : IReplacingCallback
 {
@@ -89,7 +93,7 @@ private class InsertDocumentAtReplaceHandler : IReplacingCallback
     {
         Document subDoc = new Document(MyDir + "Document.docx");
 
-        // Вставить документ после абзаца, содержащего совпадающий текст.
+        // Вставляем документ после абзаца, содержащего совпадающий текст.
         Paragraph para = (Paragraph)args.MatchNode.ParentNode;
         InsertDocument(para, subDoc);
 
@@ -115,7 +119,7 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
         foreach (Section srcSection in docToInsert.Sections.OfType<Section>())
             foreach (Node srcNode in srcSection.Body)
             {
-                // Пропустить узел, если это последний пустой абзац в разделе.
+                // Пропускаем узел, если это последний пустой абзац в разделе.
                 if (srcNode.NodeType == NodeType.Paragraph)
                 {
                     Paragraph para = (Paragraph)srcNode;

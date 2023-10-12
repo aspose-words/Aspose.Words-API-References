@@ -3,7 +3,7 @@ title: SaveOptions.UseAntiAliasing
 second_title: Aspose.Words för .NET API Referens
 description: SaveOptions fast egendom. Hämtar eller ställer in ett värde som avgör om kantutjämning ska användas eller inte för rendering.
 type: docs
-weight: 210
+weight: 190
 url: /sv/net/aspose.words.saving/saveoptions/useantialiasing/
 ---
 ## SaveOptions.UseAntiAliasing property
@@ -16,9 +16,9 @@ public bool UseAntiAliasing { get; set; }
 
 ### Anmärkningar
 
-Standardvärdet är`falsk` . När detta värde är satt till`Sann` kantutjämning används för rendering.
+Standardvärdet är`falsk` . När detta värde är satt till`Sann` kantutjämning is används för rendering.
 
-Den här egenskapen används när dokumentet exporteras till följande format: Tiff ,Png ,Bmp , Jpeg ,Emf . När dokumentet exporteras till Html ,Mhtml ochEpub formats detta alternativ används för rasterbilder.
+Den här egenskapen används när dokumentet exporteras till följande format: Tiff ,Png ,Bmp , Jpeg ,Emf . När dokumentet exporteras till the Html ,Mhtml , Epub ,Azw3 ellerMobi format detta alternativ används för rasterbilder.
 
 ### Exempel
 
@@ -32,7 +32,6 @@ builder.Font.Size = 60;
 builder.Writeln("Some text.");
 
 SaveOptions options = new ImageSaveOptions(SaveFormat.Jpeg);
-
 doc.Save(ArtifactsDir + "Document.ImageSaveOptions.Default.jpg", options);
 
 options.UseAntiAliasing = true;

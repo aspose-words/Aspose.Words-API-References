@@ -1,14 +1,14 @@
 ---
 title: ParagraphFormat.StyleIdentifier
 second_title: Aspose.Words لمراجع .NET API
-description: ParagraphFormat ملكية. الحصول على أو تعيين معرف النمط المستقل للإعدادات المحلية لنمط الفقرة المطبق على هذا التنسيق.
+description: ParagraphFormat ملكية. الحصول على أو تعيين معرف النمط المحلي المستقل لنمط الفقرة المطبق على هذا التنسيق.
 type: docs
-weight: 340
+weight: 350
 url: /ar/net/aspose.words/paragraphformat/styleidentifier/
 ---
 ## ParagraphFormat.StyleIdentifier property
 
-الحصول على أو تعيين معرف النمط المستقل للإعدادات المحلية لنمط الفقرة المطبق على هذا التنسيق.
+الحصول على أو تعيين معرف النمط المحلي المستقل لنمط الفقرة المطبق على هذا التنسيق.
 
 ```csharp
 public StyleIdentifier StyleIdentifier { get; set; }
@@ -16,21 +16,21 @@ public StyleIdentifier StyleIdentifier { get; set; }
 
 ### أمثلة
 
-يوضح كيفية إدراج جدول محتويات (TOC) في مستند باستخدام أنماط العناوين كمدخلات.
+يوضح كيفية إدراج جدول محتويات (TOC) في مستند باستخدام أنماط العناوين كإدخالات.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // أدخل جدول محتويات للصفحة الأولى من المستند.
-// تكوين الجدول لالتقاط فقرات بعناوين المستويات من 1 إلى 3.
-// أيضًا ، قم بتعيين إدخالاتها لتكون ارتباطات تشعبية ستأخذنا
+// قم بتكوين الجدول لالتقاط الفقرات ذات العناوين من المستويات 1 إلى 3.
+// أيضًا، قم بتعيين إدخالاته لتكون روابط تشعبية ستأخذنا
 // إلى موقع العنوان عند النقر بزر الماوس الأيسر في Microsoft Word.
 builder.InsertTableOfContents("\\o \"1-3\" \\h \\z \\u");
 builder.InsertBreak(BreakType.PageBreak);
 
-// ملء جدول المحتويات بإضافة فقرات بأنماط عناوين.
-// كل عنوان بمستوى بين 1 و 3 سينشئ إدخالاً في الجدول.
+// قم بملء جدول المحتويات عن طريق إضافة فقرات بأنماط العناوين.
+// كل عنوان بمستوى يتراوح بين 1 و 3 سيُنشئ مُدخلاً في الجدول.
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 builder.Writeln("Heading 1");
 
@@ -58,7 +58,7 @@ builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
 builder.Writeln("Heading 3.2");
 builder.Writeln("Heading 3.3");
 
-// جدول المحتويات هو حقل من النوع يحتاج إلى تحديث لإظهار نتيجة محدثة.
+// جدول المحتويات هو حقل من النوع الذي يحتاج إلى التحديث لإظهار نتيجة محدثة.
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertToc.docx");
 ```

@@ -1,14 +1,14 @@
 ---
 title: Enum VerticalAlignment
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Drawing.VerticalAlignment énumération. Spécifie lalignement vertical dune forme flottante dun bloc de texte ou dun tableau flottant.
+description: Aspose.Words.Drawing.VerticalAlignment énumération. Spécifie lalignement vertical dune forme flottante dun cadre de texte ou dun tableau flottant.
 type: docs
-weight: 1230
+weight: 1380
 url: /fr/net/aspose.words.drawing/verticalalignment/
 ---
 ## VerticalAlignment enumeration
 
-Spécifie l'alignement vertical d'une forme flottante, d'un bloc de texte ou d'un tableau flottant.
+Spécifie l'alignement vertical d'une forme flottante, d'un cadre de texte ou d'un tableau flottant.
 
 ```csharp
 public enum VerticalAlignment
@@ -24,18 +24,18 @@ public enum VerticalAlignment
 | Bottom | `3` | Spécifie que l'objet doit être au bas de la base d'alignement vertical. |
 | Inside | `4` | Spécifie que l'objet doit être à l'intérieur de la base d'alignement horizontal. |
 | Outside | `5` | Spécifie que l'objet doit être en dehors de la base d'alignement vertical. |
-| Inline | `-1` | Non documenté. Semble être une valeur possible pour les paragraphes flottants et les tableaux. |
+| Inline | `-1` | Non documenté. Cela semble être une valeur possible pour les paragraphes et les tableaux flottants. |
 | Default | `0` | Identique àNone . |
 
 ### Exemples
 
-Montre comment insérer une image flottante au centre d'une page.
+Montre comment insérer une image flottante au centre d’une page.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Insère une image flottante qui apparaîtra derrière le texte superposé et l'aligne au centre de la page.
+// Insère une image flottante qui apparaîtra derrière le texte superposé et alignez-la au centre de la page.
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 shape.WrapType = WrapType.None;
 shape.BehindText = true;

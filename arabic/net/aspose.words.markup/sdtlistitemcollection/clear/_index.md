@@ -16,22 +16,22 @@ public void Clear()
 
 ### أمثلة
 
-يوضح كيفية العمل مع علامات المستندات المهيكلة للقائمة المنسدلة.
+يوضح كيفية العمل مع علامات المستندات المنظمة ذات القائمة المنسدلة.
 
 ```csharp
 Document doc = new Document();
 StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.DropDownList, MarkupLevel.Block);
 doc.FirstSection.Body.AppendChild(tag);
 
-// علامة المستند المهيكلة القائمة المنسدلة هي نموذج يسمح للمستخدم
-// حدد خيارًا من قائمة بالنقر بزر الماوس الأيسر وفتح النموذج في Microsoft Word.
-// تحتوي الخاصية "ListItems" على كافة عناصر القائمة ، ويكون كل عنصر قائمة "SdtListItem".
+// علامة المستند المنظمة للقائمة المنسدلة هي نموذج يسمح للمستخدم بذلك
+// حدد خيارًا من القائمة بالنقر بزر الماوس الأيسر وفتح النموذج في Microsoft Word.
+// تحتوي الخاصية "ListItems" على كافة عناصر القائمة، وكل عنصر في القائمة هو "SdtListItem".
 SdtListItemCollection listItems = tag.ListItems;
 listItems.Add(new SdtListItem("Value 1"));
 
 Assert.AreEqual(listItems[0].DisplayText, listItems[0].Value);
 
-// أضف 3 عناصر قائمة أخرى. قم بتهيئة هذه العناصر باستخدام مُنشئ مختلف للعنصر الأول
+// أضف 3 عناصر أخرى إلى القائمة. قم بتهيئة هذه العناصر باستخدام مُنشئ مختلف للعنصر الأول
 // لعرض سلاسل مختلفة عن قيمها.
 listItems.Add(new SdtListItem("Item 2", "Value 2"));
 listItems.Add(new SdtListItem("Item 3", "Value 3"));
@@ -57,12 +57,12 @@ listItems.RemoveAt(3);
 
 Assert.AreEqual(3, listItems.Count);
 
-// نظرًا لأن عنصر التحكم في القائمة المنسدلة مضبوط على عرض العنصر الذي تمت إزالته افتراضيًا ، فامنحه عنصرًا للعرض موجودًا.
+// بما أن عنصر التحكم المنسدل الخاص بنا تم ضبطه لعرض العنصر المحذوف افتراضيًا، فامنحه عنصرًا موجودًا لعرضه.
 listItems.SelectedValue = listItems[1];
 
 doc.Save(ArtifactsDir + "StructuredDocumentTag.ListItemCollection.docx");
 
-// استخدم طريقة "المسح" لتفريغ مجموعة العناصر المنسدلة بالكامل مرة واحدة.
+// استخدم طريقة "مسح" لإفراغ مجموعة العناصر المنسدلة بالكامل مرة واحدة.
 listItems.Clear();
 
 Assert.AreEqual(0, listItems.Count);

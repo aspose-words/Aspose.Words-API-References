@@ -3,12 +3,14 @@ title: Class FramesetCollection
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Framesets.FramesetCollection klass. Representerar en samling instanser avFrameset class.
 type: docs
-weight: 2910
+weight: 3090
 url: /sv/net/aspose.words.framesets/framesetcollection/
 ---
 ## FramesetCollection class
 
 Representerar en samling instanser av[`Frameset`](../frameset/) class.
+
+För att lära dig mer, besök[Programmering med dokument](https://docs.aspose.com/words/net/programming-with-documents/) dokumentationsartikel.
 
 ```csharp
 public class FramesetCollection : IEnumerable<Frameset>
@@ -31,7 +33,7 @@ public class FramesetCollection : IEnumerable<Frameset>
 
 | namn | Beskrivning |
 | --- | --- |
-| [GetEnumerator](../../aspose.words.framesets/framesetcollection/getenumerator/)() |  |
+| [GetEnumerator](../../aspose.words.framesets/framesetcollection/getenumerator/)() | Returnerar en uppräkning som itererar genom samlingen. |
 
 ### Se även
 

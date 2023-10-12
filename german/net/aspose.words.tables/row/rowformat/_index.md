@@ -3,7 +3,7 @@ title: Row.RowFormat
 second_title: Aspose.Words für .NET-API-Referenz
 description: Row eigendom. Bietet Zugriff auf die Formatierungseigenschaften der Zeile.
 type: docs
-weight: 90
+weight: 110
 url: /de/net/aspose.words.tables/row/rowformat/
 ---
 ## Row.RowFormat property
@@ -22,7 +22,7 @@ Zeigt, wie die Formatierung einer Tabellenzeile geändert wird.
 Document doc = new Document(MyDir + "Tables.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
-// Verwenden Sie die "RowFormat"-Eigenschaft der ersten Zeile, um eine Formatierung festzulegen, die das Erscheinungsbild dieser gesamten Zeile ändert.
+// Verwenden Sie die Eigenschaft „RowFormat“ der ersten Zeile, um eine Formatierung festzulegen, die das Erscheinungsbild der gesamten Zeile ändert.
 Row firstRow = table.FirstRow;
 firstRow.RowFormat.Borders.LineStyle = LineStyle.None;
 firstRow.RowFormat.HeightRule = HeightRule.Auto;
@@ -49,13 +49,13 @@ builder.InsertCell();
 builder.Write("U.K.");
 builder.EndTable();
 
-// Verwenden Sie die "RowFormat"-Eigenschaft der ersten Zeile, um die Formatierung zu ändern
+// Verwenden Sie die Eigenschaft „RowFormat“ der ersten Zeile, um die Formatierung zu ändern
 // des Inhalts aller Zellen in dieser Zeile.
 RowFormat rowFormat = table.FirstRow.RowFormat;
 rowFormat.Height = 25;
 rowFormat.Borders[BorderType.Bottom].Color = Color.Red;
 
-// Verwenden Sie die Eigenschaft "CellFormat" der ersten Zelle in der letzten Zeile, um die Formatierung des Inhalts dieser Zelle zu ändern.
+// Verwenden Sie die Eigenschaft „CellFormat“ der ersten Zelle in der letzten Zeile, um die Formatierung des Inhalts dieser Zelle zu ändern.
 CellFormat cellFormat = table.LastRow.FirstCell.CellFormat;
 cellFormat.Width = 100;
 cellFormat.Shading.BackgroundPatternColor = Color.Orange;

@@ -3,12 +3,14 @@ title: Class NodeList
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.NodeList klass. Representerar en samling noder som matchar en XPathfråga som körs medSelectNodes metod.
 type: docs
-weight: 3980
+weight: 4220
 url: /sv/net/aspose.words/nodelist/
 ---
 ## NodeList class
 
 Representerar en samling noder som matchar en XPath-fråga som körs med[`SelectNodes`](../compositenode/selectnodes/) metod.
+
+För att lära dig mer, besök[Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) dokumentationsartikel.
 
 ```csharp
 public class NodeList : IEnumerable<Node>
@@ -30,11 +32,11 @@ public class NodeList : IEnumerable<Node>
 
 ### Anmärkningar
 
-**NodeList** returneras av[`SelectNodes`](../compositenode/selectnodes/) och innehåller en samling av noder som matchar XPath-frågan.
+`NodeList` returneras av[`SelectNodes`](../compositenode/selectnodes/) och innehåller en samling av noder som matchar XPath-frågan.
 
-**NodeList** stöder indexerad åtkomst och iteration.
+`NodeList` stöder indexerad åtkomst och iteration.
 
-Behandla **NodeList** samling som en "snapshot"-samling. **NodeList**starts som en "live"-samling eftersom noderna faktiskt inte hämtas när XPath-frågan körs. Noderna hämtas endast vid åtkomst och vid denna tidpunkt cachelagras noden och alla noder som föregår den och bildar en "snapshot"-samling.
+Behandla`NodeList` samling som en "snapshot"-samling.`NodeList`starts som en "live"-samling eftersom noderna faktiskt inte hämtas när XPath-frågan körs. Noderna hämtas först vid åtkomst och vid denna tidpunkt cachelagras noden och alla noder som föregår den och bildar en "snapshot"-samling.
 
 ### Exempel
 
@@ -84,21 +86,21 @@ namespace ApiExamples
         private const string NewName = "Aspose - The .NET & Java Component Publisher";
     }
 
-    /// <summary>
-    /// HYPERLINK-fält innehåller och visar hyperlänkar i dokumentets brödtext. Ett fält i Aspose.Words 
-    /// består av flera noder, och det kan vara svårt att arbeta med alla dessa noder direkt. 
-    /// Den här implementeringen fungerar endast om hyperlänkskoden och namnet består av endast en körnod.
+     ///<summary>
+      ///HYPERLINK-fält innehåller och visar hyperlänkar i dokumentets brödtext. Ett fält i Aspose.Words
+      ///består av flera noder, och det kan vara svårt att arbeta med alla dessa noder direkt.
+     ///Den här implementeringen fungerar endast om hyperlänkskoden och namnet består av endast en körnod.
     ///
-    /// Nodstrukturen för fält är som följer:
-    /// 
-    /// [FieldStart][Kör - fältkod][Fältseparator][Kör - fältresultat][FieldEnd]
-    /// 
-    /// Nedan finns två exempel på fältkoder för HYPERLINK-fält:
-    /// HYPERLÄNK "url"
-    /// HYPERLÄNK \l "bokmärkesnamn"
-    /// 
-    /// Ett fälts "Result"-egenskap innehåller text som fältet visar i dokumentets brödtext för användaren.
-    /// </summary>
+     ///Nodstrukturen för fält är som följer:
+     ///
+     ///[FieldStart][Run - field code][FieldSeparator][Run - field result][FieldEnd]
+     ///
+     ///Below are two example field codes of HYPERLINK fields:
+     ///HYPERLINK "url"
+     ///HYPERLINK \l "bookmark name"
+     ///
+     ///A field's "Result" property contains text that the field displays in the document body to the user.
+     ///</summary>
     internal class Hyperlink
     {
         internal Hyperlink(FieldStart fieldStart)
@@ -115,9 +117,9 @@ namespace ApiExamples
             if (mFieldSeparator == null)
                 throw new InvalidOperationException("Cannot find field separator.");
 
-            // Normalt kan vi alltid hitta fältets slutnod, men exempeldokumentet 
-            // innehåller en styckebrytning inuti en hyperlänk, vilket gör att fältet slutar 
-            // i nästa stycke. Det blir mycket mer komplicerat att hantera fält som spänner över flera 
+             // Normalt kan vi alltid hitta fältets slutnod, men exempeldokumentet
+             // innehåller en styckebrytning inuti en hyperlänk, vilket gör att fältet slutar
+            // i nästa stycke. Det blir mycket mer komplicerat att hantera fält som spänner över flera
             // stycken korrekt. I det här fallet räcker det att tillåta fältänden att vara null.
             mFieldEnd = FindNextSibling(mFieldSeparator, NodeType.FieldEnd);
 
@@ -130,15 +132,15 @@ namespace ApiExamples
             mTarget = match.Groups[2].Value;
         }
 
-        /// <summary>
-        /// Hämtar eller ställer in visningsnamnet för hyperlänken.
-        /// </summary>
+         ///<summary>
+         ///Gets or sets the display name of the hyperlink.
+         ///</summary>
         internal string Name
         {
             get => GetTextSameParent(mFieldSeparator, mFieldEnd); 
             set
             {
-                // Hyperlänkens visningsnamn lagras i fältresultatet, vilket är en körning 
+                 // Hyperlänkens visningsnamn lagras i fältresultatet, vilket är en körning
                 // nod mellan fältavgränsare och fältslut.
                 Run fieldResult = (Run) mFieldSeparator.NextSibling;
                 fieldResult.Text = value;
@@ -148,9 +150,9 @@ namespace ApiExamples
             }
         }
 
-        /// <summary>
-        /// Hämtar eller ställer in måladressen eller bokmärkesnamnet för hyperlänken.
-        /// </summary>
+         ///<summary>
+         ///Gets or sets the target URL or bookmark name of the hyperlink.
+         ///</summary>
         internal string Target
         {
             get => mTarget;
@@ -161,9 +163,9 @@ namespace ApiExamples
             }
         }
 
-        /// <summary>
-        /// Sant om hyperlänksmålet är ett bokmärke inuti dokumentet. Falskt om hyperlänken är en URL.
-        /// </summary>
+         ///<summary>
+         ///True if the hyperlinks target is a bookmark inside the document. False if the hyperlink is a URL.
+         ///</summary>
         internal bool IsLocal
         {
             get => mIsLocal; 
@@ -184,9 +186,9 @@ namespace ApiExamples
             RemoveSameParent(fieldCode.NextSibling, mFieldSeparator);
         }
 
-        /// <summary>
-        /// Går igenom syskon med start från startnoden tills den hittar en nod av angiven typ eller noll.
-        /// </summary>
+         ///<summary>
+         ///Goes through siblings starting from the start node until it finds a node of the specified type or null.
+         ///</summary>
         private static Node FindNextSibling(Node startNode, NodeType nodeType)
         {
             for (Node node = startNode; node != null; node = node.NextSibling)
@@ -198,9 +200,9 @@ namespace ApiExamples
             return null;
         }
 
-        /// <summary>
-        /// Hämtar text från start upp till men inte inklusive slutnoden.
-        /// </summary>
+         ///<summary>
+         ///Retrieves text from start up to but not including the end node.
+         ///</summary>
         private static string GetTextSameParent(Node startNode, Node endNode)
         {
             if ((endNode != null) && (startNode.ParentNode != endNode.ParentNode))
@@ -213,10 +215,10 @@ namespace ApiExamples
             return builder.ToString();
         }
 
-        /// <summary>
-        /// Tar bort noder från start till men inte inklusive slutnoden.
-        /// Antar att start- och slutnoderna har samma förälder.
-        /// </summary>
+         ///<summary>
+         ///Removes nodes from start up to but not including the end node.
+         ///Assumes that the start and end nodes have the same parent.
+         ///</summary>
         private static void RemoveSameParent(Node startNode, Node endNode)
         {
             if (endNode != null && startNode.ParentNode != endNode.ParentNode)
@@ -242,7 +244,7 @@ namespace ApiExamples
             "\\s+" + // Ett eller flera mellanslag.
             "(?:\"\"\\s+)?" + // Icke-fångande valfritt "" och ett eller flera mellanslag.
             "(\\\\l\\s+)?" + // Valfri \l flagga följt av ett eller flera mellanslag.
-            "\"" + // En apostrof.    
+            "\"" +  // En apostrof.
             "([^\"]+)" + // Ett eller flera tecken, exklusive apostrof (hyperlänksmål).
             "\"" // En avslutande apostrof.
         );

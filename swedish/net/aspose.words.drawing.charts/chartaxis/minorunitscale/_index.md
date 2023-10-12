@@ -3,7 +3,7 @@ title: ChartAxis.MinorUnitScale
 second_title: Aspose.Words för .NET API Referens
 description: ChartAxis fast egendom. Returnerar eller ställer in skalvärdet för mindre bockmarkeringar på tidskategoriaxeln.
 type: docs
-weight: 160
+weight: 180
 url: /sv/net/aspose.words.drawing.charts/chartaxis/minorunitscale/
 ---
 ## ChartAxis.MinorUnitScale property
@@ -43,7 +43,7 @@ axis.MajorUnit = 10;
 axis.MinorUnit = 1;
 
 // Ställ in Y-axelns gränser till -10 och 20.
-// Denna Y-axel kommer nu att visa 4 större tick-markeringar och 27 mindre tick-markeringar.
+// Den här Y-axeln kommer nu att visa 4 större tick-markeringar och 27 mindre tick-markeringar.
 axis.Scaling.Minimum = new AxisBound(-10);
 axis.Scaling.Maximum = new AxisBound(20);
 

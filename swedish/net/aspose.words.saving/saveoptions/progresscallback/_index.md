@@ -3,7 +3,7 @@ title: SaveOptions.ProgressCallback
 second_title: Aspose.Words för .NET API Referens
 description: SaveOptions fast egendom. Anropas när ett dokument sparas och accepterar data om lagringsförlopp.
 type: docs
-weight: 130
+weight: 120
 url: /sv/net/aspose.words.saving/saveoptions/progresscallback/
 ---
 ## SaveOptions.ProgressCallback property
@@ -16,7 +16,7 @@ public IDocumentSavingCallback ProgressCallback { get; set; }
 
 ### Anmärkningar
 
-Framsteg rapporteras när du sparar tillDocx ,FlatOpc , Docm ,Dotm ,Dotx , Html ,Mhtml ,Epub , XamlFlow , ellerXamlFlowPack .
+Framsteg rapporteras när du sparar tillDocx ,FlatOpc , Docm ,Dotm ,Dotx , Doc ,Dot , Html ,Mhtml ,Epub , XamlFlow , ellerXamlFlowPack .
 
 ### Exempel
 

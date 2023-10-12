@@ -1,14 +1,14 @@
 ---
 title: IStructuredDocumentTag.SdtType
 second_title: Aspose.Words per .NET API Reference
-description: IStructuredDocumentTag proprietà. Ottiene il tipo di questo Tag del documento strutturato .
+description: IStructuredDocumentTag proprietà. Ottiene il tipo di this Tag documento strutturato .
 type: docs
 weight: 90
 url: /it/net/aspose.words.markup/istructureddocumenttag/sdttype/
 ---
 ## IStructuredDocumentTag.SdtType property
 
-Ottiene il tipo di questo **Tag del documento strutturato** .
+Ottiene il tipo di this **Tag documento strutturato** .
 
 ```csharp
 public SdtType SdtType { get; }

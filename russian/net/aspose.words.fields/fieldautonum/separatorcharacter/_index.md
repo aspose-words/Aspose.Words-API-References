@@ -16,15 +16,15 @@ public string SeparatorCharacter { get; set; }
 
 ### Примеры
 
-Показывает, как нумеровать абзацы с помощью полей autonum.
+Показывает, как нумеровать абзацы с помощью полей автонумерации.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Каждое поле AUTONUM отображает текущее значение счетчика полей AUTONUM,
+// В каждом поле AUTONUM отображается текущее значение счетчика полей AUTONUM,
 // что позволяет нам автоматически нумеровать элементы, как в нумерованном списке.
-// В этом поле будет отображаться число «1.».
+// В этом поле будет отображаться число «1».
 FieldAutoNum field = (FieldAutoNum)builder.InsertField(FieldType.FieldAutoNum, true);
 builder.Writeln("\tParagraph 1.");
 
@@ -33,12 +33,12 @@ Assert.AreEqual(" AUTONUM ", field.GetFieldCode());
 field = (FieldAutoNum)builder.InsertField(FieldType.FieldAutoNum, true);
 builder.Writeln("\tParagraph 2.");
 
-// Знак-разделитель, который появляется в поле результата сразу после числа, по умолчанию является точкой.
-// Если мы оставим это свойство пустым, наше второе поле AUTONUM будет отображать «2». в документе.
+// Символ-разделитель, который появляется в результате поля сразу после числа, по умолчанию является точкой.
+// Если мы оставим это свойство нулевым, наше второе поле AUTONUM отобразит «2». в документе.
 Assert.IsNull(field.SeparatorCharacter);
 
-// Мы можем установить это свойство, чтобы применить первый символ его строки в качестве нового символа-разделителя.
-// В этом случае в нашем поле AUTONUM теперь будет отображаться "2:".
+// Мы можем установить это свойство, чтобы применить первый символ строки в качестве нового символа-разделителя.
+// В этом случае наше поле AUTONUM теперь будет отображать «2:».
 field.SeparatorCharacter = ":";
 
 Assert.AreEqual(" AUTONUM  \\s :", field.GetFieldCode());

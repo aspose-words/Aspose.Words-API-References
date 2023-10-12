@@ -1,14 +1,14 @@
 ---
 title: ImageWatermarkOptions.IsWashout
 second_title: Aspose.Words för .NET API Referens
-description: ImageWatermarkOptions fast egendom. Hämtar eller ställer in ett booleskt värde som är ansvarigt för utspolningseffekten av vattenstämpeln. Standardvärdet är True.
+description: ImageWatermarkOptions fast egendom. Hämtar eller ställer in ett booleskt värde som är ansvarigt för utspolningseffekten av vattenstämpeln. Standardvärdet ärSann .
 type: docs
 weight: 20
 url: /sv/net/aspose.words/imagewatermarkoptions/iswashout/
 ---
 ## ImageWatermarkOptions.IsWashout property
 
-Hämtar eller ställer in ett booleskt värde som är ansvarigt för utspolningseffekten av vattenstämpeln. Standardvärdet är True.
+Hämtar eller ställer in ett booleskt värde som är ansvarigt för utspolningseffekten av vattenstämpeln. Standardvärdet är`Sann` .
 
 ```csharp
 public bool IsWashout { get; set; }

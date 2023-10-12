@@ -16,17 +16,17 @@ public FlipOrientation FlipOrientation { get; set; }
 
 ### Примечания
 
-Значение по умолчаниюNone.
+Значение по умолчанию:None.
 
 ### Примеры
 
-Показывает, как отразить фигуру на оси.
+Показывает, как перевернуть фигуру по оси.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставьте фигуру изображения и оставьте ее ориентацию в состоянии по умолчанию.
+// Вставляем фигуру изображения и оставляем ее ориентацию в состоянии по умолчанию.
 Shape shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPosition.LeftMargin, 100,
     RelativeVerticalPosition.TopMargin, 100, 100, 100, WrapType.None);
 shape.ImageData.SetImage(ImageDir + "Logo.jpg");
@@ -37,24 +37,24 @@ shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPosition.Left
     RelativeVerticalPosition.TopMargin, 100, 100, 100, WrapType.None);
 shape.ImageData.SetImage(ImageDir + "Logo.jpg");
 
-// Установите для свойства "FlipOrientation" значение "FlipOrientation.Horizontal", чтобы отразить вторую фигуру по оси Y,
-// превращаем его в горизонтальное зеркальное отображение первой формы.
+// Установите для свойства «FlipOrientation» значение «FlipOrientation.Horizontal», чтобы перевернуть вторую фигуру по оси Y,
+// превращаем ее в горизонтальное зеркальное отображение первой фигуры.
 shape.FlipOrientation = FlipOrientation.Horizontal;
 
 shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPosition.LeftMargin, 100,
     RelativeVerticalPosition.TopMargin, 250, 100, 100, WrapType.None);
 shape.ImageData.SetImage(ImageDir + "Logo.jpg");
 
-// Установите для свойства "FlipOrientation" значение "FlipOrientation.Horizontal", чтобы перевернуть третью фигуру по оси X,
-// превращаем его в вертикальное зеркальное отображение первой формы.
+// Установите для свойства «FlipOrientation» значение «FlipOrientation.Horizontal», чтобы перевернуть третью фигуру по оси X,
+// превращаем ее в вертикальное зеркальное отображение первой фигуры.
 shape.FlipOrientation = FlipOrientation.Vertical;
 
 shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPosition.LeftMargin, 250,
     RelativeVerticalPosition.TopMargin, 250, 100, 100, WrapType.None);
 shape.ImageData.SetImage(ImageDir + "Logo.jpg");
 
-// Установите для свойства "FlipOrientation" значение "FlipOrientation.Horizontal", чтобы отразить четвертую фигуру по обеим осям x и y,
-// превращаем его в горизонтальное и вертикальное зеркальное отображение первой фигуры.
+// Установите для свойства «FlipOrientation» значение «FlipOrientation.Horizontal», чтобы перевернуть четвертую фигуру по осям X и Y,
+// превращаем ее в горизонтальное и вертикальное зеркальное отображение первой фигуры.
 shape.FlipOrientation = FlipOrientation.Both;
 
 doc.Save(ArtifactsDir + "Shape.FlipShapeOrientation.docx");

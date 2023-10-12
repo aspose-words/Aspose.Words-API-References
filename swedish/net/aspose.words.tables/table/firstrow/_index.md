@@ -1,14 +1,14 @@
 ---
 title: Table.FirstRow
 second_title: Aspose.Words för .NET API Referens
-description: Table fast egendom. Returnerar den första Rad nod i tabellen.
+description: Table fast egendom. Returnerar den förstaRow nod i tabellen.
 type: docs
 weight: 160
 url: /sv/net/aspose.words.tables/table/firstrow/
 ---
 ## Table.FirstRow property
 
-Returnerar den första **Rad** nod i tabellen.
+Returnerar den första[`Row`](../../row/) nod i tabellen.
 
 ```csharp
 public Row FirstRow { get; }

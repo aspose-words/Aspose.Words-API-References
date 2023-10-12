@@ -1,14 +1,14 @@
 ---
 title: ReportingEngine.UseReflectionOptimization
 second_title: Aspose.Words för .NET API Referens
-description: ReportingEngine fast egendom. Hämtar eller ställer in ett värde som indikerar om anrop av anpassade typmedlemmar som utförs via reflektionsAPI är optimerade med dynamisk klassgenerering eller inte. Standardvärdet är sant.
+description: ReportingEngine fast egendom. Hämtar eller ställer in ett värde som indikerar om anrop av anpassade typmedlemmar som utförs via reflektionsAPI är optimerade med dynamisk klassgenerering eller inte. Standardvärdet ärSann .
 type: docs
 weight: 70
 url: /sv/net/aspose.words.reporting/reportingengine/usereflectionoptimization/
 ---
 ## ReportingEngine.UseReflectionOptimization property
 
-Hämtar eller ställer in ett värde som indikerar om anrop av anpassade typmedlemmar som utförs via reflektions-API är optimerade med dynamisk klassgenerering eller inte. Standardvärdet är sant.
+Hämtar eller ställer in ett värde som indikerar om anrop av anpassade typmedlemmar som utförs via reflektions-API är optimerade med dynamisk klassgenerering eller inte. Standardvärdet är`Sann` .
 
 ```csharp
 public static bool UseReflectionOptimization { get; set; }

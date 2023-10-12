@@ -3,7 +3,7 @@ title: Enum ViewType
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Settings.ViewType uppräkning. Möjliga värden för visningsläget i Microsoft Word.
 type: docs
-weight: 5660
+weight: 5960
 url: /sv/net/aspose.words.settings/viewtype/
 ---
 ## ViewType enumeration

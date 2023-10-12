@@ -1,14 +1,14 @@
 ---
 title: ParagraphFormat.RightIndent
 second_title: Référence de l'API Aspose.Words pour .NET
-description: ParagraphFormat propriété. Obtient ou définit la valeur en points qui représente le retrait à droite du paragraphe.
+description: ParagraphFormat propriété. Obtient ou définit la valeur en points qui représente le retrait droit du paragraphe.
 type: docs
-weight: 260
+weight: 270
 url: /fr/net/aspose.words/paragraphformat/rightindent/
 ---
 ## ParagraphFormat.RightIndent property
 
-Obtient ou définit la valeur (en points) qui représente le retrait à droite du paragraphe.
+Obtient ou définit la valeur (en points) qui représente le retrait droit du paragraphe.
 
 ```csharp
 public double RightIndent { get; set; }
@@ -16,14 +16,14 @@ public double RightIndent { get; set; }
 
 ### Exemples
 
-Montre comment configurer la mise en forme des paragraphes pour créer du texte décentré.
+Montre comment configurer la mise en forme des paragraphes pour créer un texte décentré.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Centrez tout le texte écrit par le générateur de document et configurez les retraits.
-// La configuration d'indentation ci-dessous créera un corps de texte qui sera placé de manière asymétrique sur la page.
+// Centre tout le texte écrit par le générateur de documents et configure les retraits.
+// La configuration du retrait ci-dessous créera un corps de texte qui sera placé de manière asymétrique sur la page.
 // Le "centre" sur lequel nous alignons le texte sera le milieu du corps du texte, pas le milieu de la page.
 ParagraphFormat paragraphFormat = builder.ParagraphFormat;
 paragraphFormat.Alignment = ParagraphAlignment.Center;

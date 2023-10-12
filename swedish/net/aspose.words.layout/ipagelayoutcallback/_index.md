@@ -3,7 +3,7 @@ title: Interface IPageLayoutCallback
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Layout.IPageLayoutCallback gränssnitt. Implementera detta gränssnitt om du vill ha din egen anpassade metod anropad under byggandet och renderingen av sidlayoutmodellen.
 type: docs
-weight: 3110
+weight: 3310
 url: /sv/net/aspose.words.layout/ipagelayoutcallback/
 ---
 ## IPageLayoutCallback interface
@@ -35,7 +35,6 @@ Denna teknik kanske inte fungerar för alla dokument eller kan misslyckas helt.
 Visar hur man spårar layoutändringar med en layoutåteruppringning.
 
 ```csharp
-[Test]
 public void PageLayoutCallback()
 {
     Document doc = new Document();

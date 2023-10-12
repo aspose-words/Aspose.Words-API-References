@@ -3,7 +3,7 @@ title: PdfSaveOptions.HeaderFooterBookmarksExportMode
 second_title: Aspose.Words för .NET API Referens
 description: PdfSaveOptions fast egendom. Bestämmer hur bokmärken i sidhuvuden/sidfötter exporteras.
 type: docs
-weight: 150
+weight: 180
 url: /sv/net/aspose.words.saving/pdfsaveoptions/headerfooterbookmarksexportmode/
 ---
 ## PdfSaveOptions.HeaderFooterBookmarksExportMode property

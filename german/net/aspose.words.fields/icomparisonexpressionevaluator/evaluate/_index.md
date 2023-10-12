@@ -16,7 +16,7 @@ public ComparisonEvaluationResult Evaluate(Field field, ComparisonExpression exp
 
 ### Bemerkungen
 
-Die Implementierung sollte zurückkehren **Null** um anzuzeigen, dass die Standardauswertung durchgeführt werden soll.
+Die Implementierung sollte zurückkehren`Null` um anzugeben, dass die Standardauswertung durchgeführt werden soll.
 
 ### Siehe auch
 

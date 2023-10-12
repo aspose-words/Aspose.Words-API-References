@@ -16,13 +16,13 @@ public Paragraph LastParagraph { get; }
 
 ### Beispiele
 
-Zeigt, wie Einstellungen für vertikale Rahmen auf das Format einer Tabellenzeile angewendet werden.
+Zeigt, wie Einstellungen für vertikale Ränder auf das Format einer Tabellenzeile angewendet werden.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Erstellen Sie eine Tabelle mit roten und blauen inneren Rändern.
+// Erstelle eine Tabelle mit roten und blauen Innenrändern.
 Table table = builder.StartTable();
 
 for (int i = 0; i < 3; i++)
@@ -35,12 +35,12 @@ for (int i = 0; i < 3; i++)
     Row row = builder.EndRow();
     BorderCollection borders = row.RowFormat.Borders;
 
-    // Passen Sie das Erscheinungsbild der Grenzen an, die zwischen den Zeilen erscheinen.
+    // Passen Sie das Erscheinungsbild der Ränder an, die zwischen den Zeilen angezeigt werden.
     borders.Horizontal.Color = Color.Red;
     borders.Horizontal.LineStyle = LineStyle.Dot;
     borders.Horizontal.LineWidth = 2.0d;
 
-    // Passen Sie das Aussehen der Grenzen an, die zwischen den Zellen erscheinen.
+    // Passen Sie das Erscheinungsbild der Ränder an, die zwischen den Zellen angezeigt werden.
     borders.Vertical.Color = Color.Blue;
     borders.Vertical.LineStyle = LineStyle.Dot;
     borders.Vertical.LineWidth = 2.0d;

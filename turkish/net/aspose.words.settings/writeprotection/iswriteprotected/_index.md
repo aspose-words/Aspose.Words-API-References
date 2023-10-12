@@ -1,14 +1,14 @@
 ---
 title: WriteProtection.IsWriteProtected
 second_title: Aspose.Words for .NET API Referansı
-description: WriteProtection mülk. Yazma koruması parolası ayarlandığında doğru döndürür.
+description: WriteProtection mülk. İadelerdoğru yazma koruması şifresi ayarlandığında.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.settings/writeprotection/iswriteprotected/
 ---
 ## WriteProtection.IsWriteProtected property
 
-Yazma koruması parolası ayarlandığında doğru döndürür.
+İadeler`doğru` yazma koruması şifresi ayarlandığında.
 
 ```csharp
 public bool IsWriteProtected { get; }
@@ -22,15 +22,14 @@ Bir belgenin parolayla nasıl korunacağını gösterir.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world! This document is protected.");
-
-// En fazla 15 karakter uzunluğunda bir parola girin ve ardından belgenin koruma durumunu doğrulayın.
+// En fazla 15 karakter uzunluğunda bir şifre girin ve ardından belgenin koruma durumunu doğrulayın.
 doc.WriteProtection.SetPassword("MyPassword");
 doc.WriteProtection.ReadOnlyRecommended = true;
 
 Assert.IsTrue(doc.WriteProtection.IsWriteProtected);
 Assert.IsTrue(doc.WriteProtection.ValidatePassword("MyPassword"));
 
-// Koruma, belgenin programlı olarak düzenlenmesini engellemez ve içeriği şifrelemez.
+// Koruma, belgenin programlı olarak düzenlenmesini engellemez veya içeriği şifrelemez.
 doc.Save(ArtifactsDir + "Document.WriteProtection.docx");
 doc = new Document(ArtifactsDir + "Document.WriteProtection.docx");
 

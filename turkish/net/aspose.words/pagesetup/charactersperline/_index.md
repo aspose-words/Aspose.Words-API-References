@@ -1,14 +1,14 @@
 ---
 title: PageSetup.CharactersPerLine
 second_title: Aspose.Words for .NET API Referansı
-description: PageSetup mülk. Belge ızgarasındaki satır başına karakter sayısını alır veya ayarlar.
+description: PageSetup mülk. Belge kılavuzundaki satır başına karakter sayısını alır veya ayarlar.
 type: docs
 weight: 100
 url: /tr/net/aspose.words/pagesetup/charactersperline/
 ---
 ## PageSetup.CharactersPerLine property
 
-Belge ızgarasındaki satır başına karakter sayısını alır veya ayarlar.
+Belge kılavuzundaki satır başına karakter sayısını alır veya ayarlar.
 
 ```csharp
 public int CharactersPerLine { get; set; }
@@ -16,19 +16,19 @@ public int CharactersPerLine { get; set; }
 
 ### Notlar
 
-Özelliğin minimum değeri 1'dir. Maksimum değer, Normal stilinin sayfa genişliğine ve yazı tipi boyutuna bağlıdır. Minimum karakter aralığı, yazı tipi boyutunun yüzde 90'ıdır. Örneğin, bir inç kenar boşluklu bir Letter sayfasının satırı başına maksimum karakter sayısı 43'tür.
+Özelliğin minimum değeri 1'dir. Maksimum değer, Normal stilinin sayfa genişliğine ve yazı tipi boyutuna bağlıdır. Minimum karakter aralığı yazı tipi boyutunun yüzde 90'ıdır. Örneğin, bir inç kenar boşluklarına sahip bir Letter sayfasının satırı başına maksimum karakter sayısı 43'tür.
 
-Varsayılan olarak özelliğin, üzerinde karakter aralığının Normal stilinin yazı tipi boyutuna eşit olduğu bir değeri vardır.
+Varsayılan olarak özellik, karakter aralığının Normal stilinin yazı tipi boyutuna eşit olduğu bir değere sahiptir.
 
 ### Örnekler
 
-Her satırın sahip olabileceği karakter sayısı için nasıl a belirtileceğini gösterir.
+Her satırın sahip olabileceği karakter sayısı için nasıl belirtileceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Adım atmayı etkinleştirin ve ardından bu bölümdeki satır başına karakter sayısını ayarlamak için kullanın.
+// Perdelemeyi etkinleştirin ve ardından bu bölümde satır başına karakter sayısını ayarlamak için bunu kullanın.
 builder.PageSetup.LayoutMode = SectionLayoutMode.Grid;
 builder.PageSetup.CharactersPerLine = 10;
 

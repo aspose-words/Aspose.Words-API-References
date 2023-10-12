@@ -3,7 +3,7 @@ title: Document.Clone
 second_title: Aspose.Words för .NET API Referens
 description: Document metod. Utför en djup kopia avDocument .
 type: docs
-weight: 530
+weight: 570
 url: /sv/net/aspose.words/document/clone/
 ---
 ## Document.Clone method

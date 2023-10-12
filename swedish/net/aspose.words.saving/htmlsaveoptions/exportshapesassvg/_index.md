@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.ExportShapesAsSvg
 second_title: Aspose.Words för .NET API Referens
-description: HtmlSaveOptions fast egendom. Styr omShape noder konverteras till SVGbilder när du sparar till HTML MHTML eller EPUB. Standardvärdet ärfalsk .
+description: HtmlSaveOptions fast egendom. Styr omShapenoder konverteras till SVGbilder när save till HTML MHTML EPUB eller AZW3. Standardvärdet ärfalsk .
 type: docs
-weight: 260
+weight: 250
 url: /sv/net/aspose.words.saving/htmlsaveoptions/exportshapesassvg/
 ---
 ## HtmlSaveOptions.ExportShapesAsSvg property
 
-Styr om[`Shape`](../../../aspose.words.drawing/shape/) noder konverteras till SVG-bilder när du sparar till HTML, MHTML eller EPUB. Standardvärdet är`falsk` .
+Styr om[`Shape`](../../../aspose.words.drawing/shape/)noder konverteras till SVG-bilder när save till HTML, MHTML, EPUB eller AZW3. Standardvärdet är`falsk` .
 
 ```csharp
 public bool ExportShapesAsSvg { get; set; }
@@ -17,8 +17,6 @@ public bool ExportShapesAsSvg { get; set; }
 ### Anmärkningar
 
 Om det här alternativet är inställt på`Sann` ,[`Shape`](../../../aspose.words.drawing/shape/) noder exporteras som &lt;svg&gt;-element. Annars renderas de till bitmappar och exporteras som &lt;img&gt;-element.
-
-Observera att detta alternativ också påverkar textrutor, eftersom de representeras av[`Shape`](../../../aspose.words.drawing/shape/) nodes. Som ett resultat, om detta alternativ är inställt på`Sann` , åsidosätter denExportTextBoxAsSvgproperty värde och gör att textrutor konverteras till SVG.
 
 ### Exempel
 

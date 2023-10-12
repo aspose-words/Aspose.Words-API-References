@@ -1,14 +1,14 @@
 ---
 title: ImageSaveOptions.ImageSaveOptions
 second_title: Referencia de API de Aspose.Words para .NET
-description: ImageSaveOptions constructor. Inicializa una nueva instancia de esta clase que se puede usar para guardar imágenes renderizadas en el Tiff Png Bmp  Emf Jpeg oSvg formato. Png Bmp Jpeg oSvg formato.
+description: ImageSaveOptions constructor. Inicializa una nueva instancia de esta clase que se puede usar para guardar imágenes renderizadas en Tiff Png Bmp  Jpeg Emf Eps oSvg formato.
 type: docs
 weight: 10
 url: /es/net/aspose.words.saving/imagesaveoptions/imagesaveoptions/
 ---
 ## ImageSaveOptions constructor
 
-Inicializa una nueva instancia de esta clase que se puede usar para guardar imágenes renderizadas en el Tiff ,Png ,Bmp , Emf ,Jpeg oSvg formato. Png ,Bmp ,Jpeg oSvg formato.
+Inicializa una nueva instancia de esta clase que se puede usar para guardar imágenes renderizadas en Tiff ,Png ,Bmp , Jpeg ,Emf ,Eps oSvg formato.
 
 ```csharp
 public ImageSaveOptions(SaveFormat saveFormat)
@@ -16,7 +16,7 @@ public ImageSaveOptions(SaveFormat saveFormat)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| saveFormat | SaveFormat | Puede ser Tiff ,Png ,Bmp , Emf ,Jpeg oSvg . Png ,Bmp ,Jpeg oSvg . |
+| saveFormat | SaveFormat | Puede ser Tiff ,Png ,Bmp , Jpeg ,Emf ,Eps oSvg formato. |
 
 ### Ejemplos
 
@@ -31,16 +31,16 @@ builder.InsertImage(ImageDir + "Logo.jpg");
 // para modificar la forma en que ese método convierte el documento en una imagen.
 ImageSaveOptions imageOptions = new ImageSaveOptions(SaveFormat.Jpeg);
 
-// Establezca la propiedad "JpegQuality" en "10" para usar una compresión más fuerte al renderizar el documento.
-// Esto reducirá el tamaño del archivo del documento, pero la imagen mostrará artefactos de compresión más prominentes.
+// Establece la propiedad "JpegQuality" en "10" para utilizar una compresión más fuerte al renderizar el documento.
+// Esto reducirá el tamaño del archivo del documento, pero la imagen mostrará artefactos de compresión más destacados.
 imageOptions.JpegQuality = 10;
 
 doc.Save(ArtifactsDir + "ImageSaveOptions.JpegQuality.HighCompression.jpg", imageOptions);
 
 Assert.That(20000, Is.AtLeast(new FileInfo(ArtifactsDir + "ImageSaveOptions.JpegQuality.HighCompression.jpg").Length));
 
-// Establezca la propiedad "JpegQuality" en "100" para usar una compresión más débil al procesar el documento.
-// Esto mejorará la calidad de la imagen a costa de aumentar el tamaño del archivo.
+// Establece la propiedad "JpegQuality" en "100" para utilizar una compresión más débil al renderizar el documento.
+// Esto mejorará la calidad de la imagen a costa de un mayor tamaño de archivo.
 imageOptions.JpegQuality = 100;
 
 doc.Save(ArtifactsDir + "ImageSaveOptions.JpegQuality.HighQuality.jpg", imageOptions);

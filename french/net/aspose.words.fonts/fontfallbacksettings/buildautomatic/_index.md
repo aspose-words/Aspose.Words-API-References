@@ -20,7 +20,7 @@ Cette méthode peut produire des paramètres de secours non optimaux. Les police
 
 ### Exemples
 
-Montre comment répartir les polices de secours sur les plages de codes de caractères Unicode.
+Montre comment distribuer les polices de secours sur les plages de codes de caractères Unicode.
 
 ```csharp
 Document doc = new Document();
@@ -35,7 +35,7 @@ fontSettings.SetFontsSources(new FontSourceBase[] {folderFontSource});
 
 // L'appel de la méthode "BuildAutomatic" générera un schéma de secours qui
 // distribue les polices accessibles sur autant de codes de caractères Unicode que possible.
-// Dans notre cas, il n'a accès qu'à la poignée de polices à l'intérieur du dossier "MyFonts".
+// Dans notre cas, il n'a accès qu'à la poignée de polices contenues dans le dossier "MyFonts".
 fontFallbackSettings.BuildAutomatic();
 fontFallbackSettings.Save(ArtifactsDir + "FontSettings.FallbackSettingsCustom.BuildAutomatic.xml");
 
@@ -44,12 +44,12 @@ fontFallbackSettings.Save(ArtifactsDir + "FontSettings.FallbackSettingsCustom.Bu
 // et la police "M+ 2m" dans toutes les autres plages que les autres polices du schéma ne couvrent pas.
 fontFallbackSettings.Load(MyDir + "Custom font fallback settings.xml");
 
-// Crée un générateur de document et définit sa police sur une police qui n'existe dans aucune de nos sources.
-// Nos paramètres de police invoqueront le schéma de secours pour les caractères que nous tapons à l'aide de la police non disponible.
+// Créez un générateur de documents et définissez sa police sur une police qui n'existe dans aucune de nos sources.
+// Nos paramètres de police appelleront le schéma de secours pour les caractères que nous tapons en utilisant la police indisponible.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Font.Name = "Missing Font";
 
-// Utilisez le générateur pour imprimer chaque caractère Unicode de 0x0021 à 0x052F,
+// Utilisez le constructeur pour imprimer chaque caractère Unicode de 0x0021 à 0x052F,
 // avec des lignes descriptives divisant les blocs Unicode que nous avons définis dans notre schéma de secours de police personnalisé.
 for (int i = 0x0021; i < 0x0530; i++)
 {

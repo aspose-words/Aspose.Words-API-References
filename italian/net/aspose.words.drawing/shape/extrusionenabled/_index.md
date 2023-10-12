@@ -1,14 +1,14 @@
 ---
 title: Shape.ExtrusionEnabled
 second_title: Aspose.Words per .NET API Reference
-description: Shape proprietà. Restituisce vero se è abilitato un effetto di estrusione.
+description: Shape proprietà. RestituisceVERO se è abilitato un effetto di estrusione.
 type: docs
 weight: 30
 url: /it/net/aspose.words.drawing/shape/extrusionenabled/
 ---
 ## Shape.ExtrusionEnabled property
 
-Restituisce vero se è abilitato un effetto di estrusione.
+Restituisce`VERO` se è abilitato un effetto di estrusione.
 
 ```csharp
 public bool ExtrusionEnabled { get; }
@@ -19,6 +19,7 @@ public bool ExtrusionEnabled { get; }
 Mostra come scorrere tutte le forme in un documento.
 
 ```csharp
+public void VisitShapes()
 {
     Document doc = new Document(MyDir + "Revision shape.docx");
     ShapeAppearancePrinter visitor = new ShapeAppearancePrinter();

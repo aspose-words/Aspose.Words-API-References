@@ -1,14 +1,14 @@
 ---
 title: ChartDataLabel.IsVisible
 second_title: Aspose.Words for .NET API 参考
-description: ChartDataLabel 财产. 如果此数据标签有要显示的内容则返回 true
+description: ChartDataLabel 财产. 返回真的如果此数据标签有要显示的内容
 type: docs
-weight: 30
+weight: 50
 url: /zh/net/aspose.words.drawing.charts/chartdatalabel/isvisible/
 ---
 ## ChartDataLabel.IsVisible property
 
-如果此数据标签有要显示的内容，则返回 true。
+返回`真的`如果此数据标签有要显示的内容。
 
 ```csharp
 public bool IsVisible { get; }
@@ -16,9 +16,10 @@ public bool IsVisible { get; }
 
 ### 例子
 
-显示如何将标签应用于折线图中的数据点。
+展示如何将标签应用到折线图中的数据点。
 
 ```csharp
+public void DataLabels()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -32,7 +33,7 @@ public bool IsVisible { get; }
     Assert.AreEqual("Series 3", chart.Series[2].Name);
 
     // 将数据标签应用于图表中的每个系列。
-    // 这些标签将出现在图表中每个数据点的旁边并显示其值。
+    // 这些标签将出现在图表中每个数据点旁边并显示其值。
     foreach (ChartSeries series in chart.Series)
     {
         ApplyDataLabels(series, 4, "000.0", ", ");
@@ -49,17 +50,17 @@ public bool IsVisible { get; }
         }
     }
 
-    // 为了更清晰的图表，我们可以单独删除数据标签。
+    // 为了使图表看起来更清晰，我们可以单独删除数据标签。
     chart.Series[1].DataLabels[2].ClearFormat();
 
-    // 我们也可以一次剥离整个系列的数据标签。
+    // 我们还可以一次剥离整个系列的数据标签。
     chart.Series[2].DataLabels.ClearFormat();
 
     doc.Save(ArtifactsDir + "Charts.DataLabels.docx");
 }
 
 /// <summary>
-/// 将具有自定义数字格式和分隔符的数据标签应用于系列中的多个数据点。
+/// 将具有自定义数字格式和分隔符的数据标签应用于一系列中的多个数据点。
 /// </summary>
 private static void ApplyDataLabels(ChartSeries series, int labelsCount, string numberFormat, string separator)
 {

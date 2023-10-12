@@ -18,15 +18,14 @@ public abstract string LibId { get; }
 
 В зависимости от типа ссылки значение этого свойства может быть:
 
-* ссылка на LibidReference, указанная в 2.1.1.8.
+* LibidReference, указанный в 2.1.1.8 LibidReference [MS-OVBA]: https://docs.microsoft.com/en-us/openspecs/office_file_formats/ms-ovba/3737ef6e-d819-4186-a5f2-6e258ddf66a5
 * ProjectReference, указанный в 2.1.1.12 ProjectReference [MS-OVBA]: https://docs.microsoft.com/en-us/openspecs/office_file_formats/ms-ovba/9a45ac1a-f1ff-4ebd-958e-537701aa8131
 
 ### Примеры
 
-Показывает, как получить/удалить элемент из коллекции ссылок VBA.
+Показывает, как получить или удалить элемент из коллекции ссылок VBA.
 
 ```csharp
-[Test]
 public void RemoveVbaReference()
 {
     const string brokenPath = @"X:\broken.dll";
@@ -52,7 +51,7 @@ public void RemoveVbaReference()
 }
 
 /// <summary>
-/// Возвращает строку, представляющую путь LibId указанной ссылки. 
+ /// Возвращает строку, представляющую путь LibId указанной ссылки.
 /// </summary>
 private static string GetLibIdPath(VbaReference reference)
 {
@@ -70,7 +69,7 @@ private static string GetLibIdPath(VbaReference reference)
 }
 
 /// <summary>
-/// Возвращает путь из указанного идентификатора библиотеки типов автоматизации.
+/// Возвращает путь от указанного идентификатора библиотеки типов автоматизации.
 /// </summary>
 private static string GetLibIdReferencePath(string libIdReference)
 {
@@ -85,7 +84,7 @@ private static string GetLibIdReferencePath(string libIdReference)
 }
 
 /// <summary>
-/// Возвращает путь из указанного идентификатора библиотеки типов автоматизации.
+/// Возвращает путь от указанного идентификатора библиотеки типов автоматизации.
 /// </summary>
 private static string GetLibIdProjectPath(string libIdProject)
 {

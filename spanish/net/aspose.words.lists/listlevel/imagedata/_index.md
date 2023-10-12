@@ -16,7 +16,7 @@ public ImageData ImageData { get; }
 
 ### Observaciones
 
-Si este nivel no define la viñeta de imagen, devuelve nulo. Antes de configurar una nueva imagen para la forma de viñeta sin imagen, utilice[`CreatePictureBullet`](../createpicturebullet/) método primero.
+Si este nivel no define la viñeta de la imagen, devuelve`nulo` . Antes de configurar una nueva imagen para una forma de viñeta sin imagen, utilice[`CreatePictureBullet`](../createpicturebullet/) método primero.
 
 ### Ver también
 

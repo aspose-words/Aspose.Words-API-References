@@ -3,12 +3,14 @@ title: Class FontConfigSubstitutionRule
 second_title: Aspose.Words per .NET API Reference
 description: Aspose.Words.Fonts.FontConfigSubstitutionRule classe. Regola di sostituzione della configurazione dei caratteri.
 type: docs
-weight: 2710
+weight: 2890
 url: /it/net/aspose.words.fonts/fontconfigsubstitutionrule/
 ---
 ## FontConfigSubstitutionRule class
 
 Regola di sostituzione della configurazione dei caratteri.
+
+Per saperne di più, visita il[Lavorare con i caratteri](https://docs.aspose.com/words/net/working-with-fonts/) articolo di documentazione.
 
 ```csharp
 public class FontConfigSubstitutionRule : FontSubstitutionRule
@@ -24,12 +26,12 @@ public class FontConfigSubstitutionRule : FontSubstitutionRule
 
 | Nome | Descrizione |
 | --- | --- |
-| [IsFontConfigAvailable](../../aspose.words.fonts/fontconfigsubstitutionrule/isfontconfigavailable/)() | Verifica se l'utilità fontconfig è disponibile o meno. |
+| [IsFontConfigAvailable](../../aspose.words.fonts/fontconfigsubstitutionrule/isfontconfigavailable/)() | Controlla se l'utilità fontconfig è disponibile o meno. |
 | [ResetCache](../../aspose.words.fonts/fontconfigsubstitutionrule/resetcache/)() | Reimposta la cache di fontconfig chiamando i risultati. |
 
 ### Osservazioni
 
-Questa regola utilizza l'utilità fontconfig su piattaforme Linux (e altre simili a Unix) per ottenere la sostituzione se il font originale non è disponibile.
+Questa regola utilizza l'utilità fontconfig su piattaforme Linux (e altre piattaforme simili a Unix) per ottenere la sostituzione se il carattere originale non è disponibile.
 
 Se l'utilità fontconfig non è disponibile, questa regola verrà ignorata.
 
@@ -46,7 +48,7 @@ bool isWindows = new[] {PlatformID.Win32NT, PlatformID.Win32S, PlatformID.Win32W
     .Any(p => Environment.OSVersion.Platform == p);
 
 // L'oggetto FontConfigSubstitutionRule funziona in modo diverso su piattaforme Windows/non Windows.
-// Su Windows, non è disponibile.
+// Su Windows non è disponibile.
 if (isWindows)
 {
     Assert.False(fontConfigSubstitution.Enabled);
@@ -56,7 +58,7 @@ if (isWindows)
 bool isLinuxOrMac =
     new[] {PlatformID.Unix, PlatformID.MacOSX}.Any(p => Environment.OSVersion.Platform == p);
 
-// Su Linux/Mac, avremo accesso ad esso e saremo in grado di eseguire operazioni.
+// Su Linux/Mac avremo accesso ad esso e saremo in grado di eseguire operazioni.
 if (isLinuxOrMac)
 {
     Assert.True(fontConfigSubstitution.Enabled);

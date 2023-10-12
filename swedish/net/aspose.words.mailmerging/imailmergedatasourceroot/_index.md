@@ -3,7 +3,7 @@ title: Interface IMailMergeDataSourceRoot
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.MailMerging.IMailMergeDataSourceRoot gränssnitt. Implementera detta gränssnitt för att tillåta sammanslagning av epost från en anpassad datakälla med huvuddetaljdata.
 type: docs
-weight: 3600
+weight: 3820
 url: /sv/net/aspose.words.mailmerging/imailmergedatasourceroot/
 ---
 ## IMailMergeDataSourceRoot interface

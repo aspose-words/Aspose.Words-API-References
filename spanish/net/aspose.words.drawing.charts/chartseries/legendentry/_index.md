@@ -1,14 +1,14 @@
 ---
 title: ChartSeries.LegendEntry
 second_title: Referencia de API de Aspose.Words para .NET
-description: ChartSeries propiedad. Obtiene una entrada de leyenda para esta serie de gráfico.
+description: ChartSeries propiedad. Obtiene una entrada de leyenda para esta serie de gráficos.
 type: docs
-weight: 80
+weight: 90
 url: /es/net/aspose.words.drawing.charts/chartseries/legendentry/
 ---
 ## ChartSeries.LegendEntry property
 
-Obtiene una entrada de leyenda para esta serie de gráfico.
+Obtiene una entrada de leyenda para esta serie de gráficos.
 
 ```csharp
 public ChartLegendEntry LegendEntry { get; }

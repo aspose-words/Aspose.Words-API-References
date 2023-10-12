@@ -29,8 +29,8 @@ field.Text = "\"Quoted text\"";
 Assert.AreEqual(" QUOTE  \"\\\"Quoted text\\\"\"", field.GetFieldCode());
 
 // Bir QUOTE alanı ekleyin ve içine bir DATE alanı yerleştirin.
-// DATE alanları, Microsoft Word kullanarak belgeyi her açtığımızda değerlerini güncel tarihe günceller.
-// DATE alanını QUOTE alanına bu şekilde yerleştirmek değerini dondurur
+// DATE alanları, belgeyi Microsoft Word kullanarak her açtığımızda değerlerini geçerli tarihe günceller.
+// DATE alanını QUOTE alanının içine bu şekilde yerleştirmek, değerini donduracaktır
 // belgeyi oluşturduğumuz tarihe.
 builder.Write("\nDocument creation date: ");
 field = (FieldQuote)builder.InsertField(FieldType.FieldQuote, true);
@@ -39,7 +39,7 @@ builder.InsertField(FieldType.FieldDate, true);
 
 Assert.AreEqual(" QUOTE \u0013 DATE \u0014" + DateTime.Now.Date.ToShortDateString() + "\u0015", field.GetFieldCode());
 
-// Doğru sonuçlarını görüntülemek için tüm alanları güncelleyin.
+// Doğru sonuçları görüntülemek için tüm alanları güncelleyin.
 doc.UpdateFields();
 
 Assert.AreEqual("\"Quoted text\"", doc.Range.Fields[0].Result);

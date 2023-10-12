@@ -1,14 +1,14 @@
 ---
 title: Font.Engrave
 second_title: Referencia de API de Aspose.Words para .NET
-description: Font propiedad. Verdadero si la fuente está formateada como grabada.
+description: Font propiedad. Verdadero si la fuente tiene el formato grabado.
 type: docs
 weight: 120
 url: /es/net/aspose.words/font/engrave/
 ---
 ## Font.Engrave property
 
-Verdadero si la fuente está formateada como grabada.
+Verdadero si la fuente tiene el formato grabado.
 
 ```csharp
 public bool Engrave { get; set; }
@@ -25,13 +25,13 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Font.Size = 36;
 builder.Font.Color = Color.LightBlue;
 
-// A continuación hay dos formas de usar sombras para aplicar un efecto similar al 3D al texto.
+// A continuación se muestran dos formas de utilizar sombras para aplicar un efecto similar a 3D al texto.
 // 1 - Grabe el texto para que parezca que las letras están hundidas en la página:
 builder.Font.Engrave = true;
 
 builder.Writeln("This text is engraved.");
 
-// 2 - Realce el texto para que parezca que las letras salen de la página:
+// 2 - Texto en relieve para que parezca que las letras salen de la página:
 builder.Font.Engrave = false;
 builder.Font.Emboss = true;
 

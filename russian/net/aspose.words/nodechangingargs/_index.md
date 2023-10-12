@@ -3,12 +3,14 @@ title: Class NodeChangingArgs
 second_title: Справочник по API Aspose.Words для .NET
 description: Aspose.Words.NodeChangingArgs сорт. Предоставляет данные для методовINodeChangingCallback интерфейс.
 type: docs
-weight: 3950
+weight: 4190
 url: /ru/net/aspose.words/nodechangingargs/
 ---
 ## NodeChangingArgs class
 
 Предоставляет данные для методов[`INodeChangingCallback`](../inodechangingcallback/) интерфейс.
+
+Чтобы узнать больше, посетите[Объектная модель документа Aspose.Words (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) статья документации.
 
 ```csharp
 public class NodeChangingArgs
@@ -19,21 +21,22 @@ public class NodeChangingArgs
 | Имя | Описание |
 | --- | --- |
 | [Action](../../aspose.words/nodechangingargs/action/) { get; } | Получает значение, указывающее, какой тип события изменения узла происходит. |
-| [NewParent](../../aspose.words/nodechangingargs/newparent/) { get; } | Получает родителя узла, который будет установлен после завершения операции. |
+| [NewParent](../../aspose.words/nodechangingargs/newparent/) { get; } | Получает родительский узел, который будет установлен после завершения операции. |
 | [Node](../../aspose.words/nodechangingargs/node/) { get; } | Получает[`Node`](./node/) который добавляется или удаляется. |
-| [OldParent](../../aspose.words/nodechangingargs/oldparent/) { get; } | Получает родителя узла до начала операции. |
+| [OldParent](../../aspose.words/nodechangingargs/oldparent/) { get; } | Получает родительский узел до начала операции. |
 
 ### Примеры
 
 Показывает, как настроить изменение узла с помощью обратного вызова.
 
 ```csharp
+public void FontChangeViaCallback()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Устанавливаем обратный вызов изменения узла на пользовательскую реализацию,
-    // затем добавьте/удалите узлы, чтобы заставить его генерировать журнал.
+    // Установите обратный вызов изменения узла в пользовательскую реализацию,
+    // затем добавляем/удаляем узлы, чтобы создать журнал.
     HandleNodeChangingFontChanger callback = new HandleNodeChangingFontChanger();
     doc.NodeChangingCallback = callback;
 
@@ -45,10 +48,11 @@ public class NodeChangingArgs
     doc.Range.Fields[0].Remove();
 
     Console.WriteLine(callback.GetLog());
+}
 
 /// <summary>
-/// Регистрирует дату и время каждой вставки и удаления узла.
-/// Устанавливает пользовательское имя/размер шрифта для текстового содержимого узлов Run.
+/// Регистрирует дату и время добавления и удаления каждого узла.
+/// Устанавливает имя/размер пользовательского шрифта для текстового содержимого узлов запуска.
 /// </summary>
 public class HandleNodeChangingFontChanger : INodeChangingCallback
 {

@@ -3,7 +3,7 @@ title: FieldOptions.FieldUpdatingCallback
 second_title: Aspose.Words for .NET API Referansı
 description: FieldOptions mülk. Alır veya ayarlarIFieldUpdatingCallback uygulama
 type: docs
-weight: 110
+weight: 120
 url: /tr/net/aspose.words.fields/fieldoptions/fieldupdatingcallback/
 ---
 ## FieldOptions.FieldUpdatingCallback property

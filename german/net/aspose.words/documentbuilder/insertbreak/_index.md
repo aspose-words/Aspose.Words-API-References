@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertBreak
 second_title: Aspose.Words für .NET-API-Referenz
 description: DocumentBuilder methode. Fügt einen Umbruch des angegebenen Typs in das Dokument ein.
 type: docs
-weight: 240
+weight: 260
 url: /de/net/aspose.words/documentbuilder/insertbreak/
 ---
 ## DocumentBuilder.InsertBreak method
@@ -16,15 +16,15 @@ public void InsertBreak(BreakType breakType)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| breakType | BreakType | Gibt den Typ des einzufügenden Umbruchs an. |
+| breakType | BreakType | Gibt den Typ der einzufügenden Pause an. |
 
 ### Bemerkungen
 
-Verwenden Sie diese Methode, um einen Absatz, eine Seite, eine Spalte, einen Abschnitt oder einen Zeilenumbruch in das Dokument einzufügen.
+Verwenden Sie diese Methode, um Absätze, Seiten, Spalten, Abschnitte oder Zeilenumbrüche in das Dokument einzufügen.
 
 ### Beispiele
 
-Zeigt, wie Kopf- und Fußzeilen in einem Dokument mit DocumentBuilder erstellt werden.
+Zeigt, wie man mit DocumentBuilder Kopf- und Fußzeilen in einem Dokument erstellt.
 
 ```csharp
 Document doc = new Document();
@@ -34,7 +34,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.PageSetup.DifferentFirstPageHeaderFooter = true;
 builder.PageSetup.OddAndEvenPagesHeaderFooter = true;
 
-// Kopfzeilen erstellen, dann drei Seiten zum Dokument hinzufügen, um jeden Kopfzeilentyp anzuzeigen.
+// Erstellen Sie die Kopfzeilen und fügen Sie dann drei Seiten zum Dokument hinzu, um jeden Kopfzeilentyp anzuzeigen.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderFirst);
 builder.Write("Header for the first page");
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderEven);
@@ -52,7 +52,7 @@ builder.Writeln("Page3");
 doc.Save(ArtifactsDir + "DocumentBuilder.HeadersAndFooters.docx");
 ```
 
-Zeigt, wie Seiteneinrichtungseinstellungen auf Abschnitte in einem Dokument angewendet und zurückgesetzt werden.
+Zeigt, wie Seiteneinrichtungseinstellungen auf Abschnitte in einem Dokument angewendet und wiederhergestellt werden.
 
 ```csharp
 Document doc = new Document();
@@ -63,14 +63,14 @@ builder.PageSetup.Orientation = Orientation.Landscape;
 builder.PageSetup.VerticalAlignment = PageVerticalAlignment.Center;
 builder.Writeln("This is the first section, which landscape oriented with vertically centered text.");
 
-// Wenn wir mit einem Document Builder einen neuen Abschnitt beginnen,
-// er erbt die aktuellen Seiteneinrichtungseigenschaften des Builders.
+// Wenn wir einen neuen Abschnitt mit einem Document Builder beginnen,
+// Es erbt die aktuellen Seiteneinrichtungseigenschaften des Builders.
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 
 Assert.AreEqual(Orientation.Landscape, doc.Sections[1].PageSetup.Orientation);
 Assert.AreEqual(PageVerticalAlignment.Center, doc.Sections[1].PageSetup.VerticalAlignment);
 
-// Wir können die Seiteneinrichtungseigenschaften mit der Methode "ClearFormatting" auf ihre Standardwerte zurücksetzen.
+// Mit der Methode „ClearFormatting“ können wir die Seiteneinrichtungseigenschaften auf ihre Standardwerte zurücksetzen.
 builder.PageSetup.ClearFormatting();
 
 Assert.AreEqual(Orientation.Portrait, doc.Sections[1].PageSetup.Orientation);
@@ -81,16 +81,16 @@ builder.Writeln("This is the second section, which is in default Letter paper si
 doc.Save(ArtifactsDir + "PageSetup.ClearFormatting.docx");
 ```
 
-Zeigt, wie Sie ein Inhaltsverzeichnis (TOC) in ein Dokument einfügen, indem Sie Überschriftenstile als Einträge verwenden.
+Zeigt, wie man ein Inhaltsverzeichnis (TOC) in ein Dokument einfügt, indem man Überschriftenstile als Einträge verwendet.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Ein Inhaltsverzeichnis für die erste Seite des Dokuments einfügen.
-// Konfigurieren Sie die Tabelle, um Absätze mit Überschriften der Ebenen 1 bis 3 aufzunehmen.
-// Legen Sie außerdem seine Einträge als Hyperlinks fest, die uns führen
-// an die Position der Überschrift, wenn in Microsoft Word mit der linken Maustaste geklickt wird.
+// Konfigurieren Sie die Tabelle so, dass sie Absätze mit Überschriften der Ebenen 1 bis 3 aufnimmt.
+// Legen Sie außerdem fest, dass seine Einträge Hyperlinks sind, die uns weiterleiten
+// zur Position der Überschrift, wenn in Microsoft Word mit der linken Maustaste darauf geklickt wird.
 builder.InsertTableOfContents("\\o \"1-3\" \\h \\z \\u");
 builder.InsertBreak(BreakType.PageBreak);
 

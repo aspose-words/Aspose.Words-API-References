@@ -1,14 +1,14 @@
 ---
 title: FieldOptions.UserPromptRespondent
 second_title: Aspose.Words per .NET API Reference
-description: FieldOptions proprietà. Ottiene o imposta il rispondente alle richieste dellutente durante laggiornamento del campo.
+description: FieldOptions proprietà. Ottiene o imposta lintervistato per le richieste dellutente durante laggiornamento del campo.
 type: docs
-weight: 200
+weight: 220
 url: /it/net/aspose.words.fields/fieldoptions/userpromptrespondent/
 ---
 ## FieldOptions.UserPromptRespondent property
 
-Ottiene o imposta il rispondente alle richieste dell'utente durante l'aggiornamento del campo.
+Ottiene o imposta l'intervistato per le richieste dell'utente durante l'aggiornamento del campo.
 
 ```csharp
 public IFieldUserPromptRespondent UserPromptRespondent { get; set; }
@@ -16,29 +16,28 @@ public IFieldUserPromptRespondent UserPromptRespondent { get; set; }
 
 ### Osservazioni
 
-Se il valore di questa proprietà è impostato su **nullo** , i campi che richiedono la risposta dell'utente su prompting (come[`FieldAsk`](../../fieldask/) o[`FieldFillIn`](../../fieldfillin/)) non sono aggiornati.
+Se il valore di questa proprietà è impostato su`nullo` , i campi che richiedono la risposta dell'utente al prompting (come[`FieldAsk`](../../fieldask/) O[`FieldFillIn`](../../fieldfillin/)) non sono aggiornati.
 
-Il valore predefinito è **nullo**.
+Il valore predefinito è`nullo`.
 
 ### Esempi
 
 Mostra come creare un campo ASK e impostarne le proprietà.
 
 ```csharp
-[Test]
 public void FieldAsk()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Inserisci un campo in cui verrà inserita la risposta al nostro campo ASK.
+    // Posiziona un campo in cui verrà inserita la risposta al nostro campo ASK.
     FieldRef fieldRef = (FieldRef)builder.InsertField(FieldType.FieldRef, true);
     fieldRef.BookmarkName = "MyAskField";
     builder.Writeln();
 
     Assert.AreEqual(" REF  MyAskField", fieldRef.GetFieldCode());
 
-    // Inserisci il campo ASK e modifica le sue proprietà per fare riferimento al nostro campo REF in base al nome del segnalibro.
+    // Inserisci il campo ASK e modifica le sue proprietà per fare riferimento al nostro campo REF tramite il nome del segnalibro.
     FieldAsk fieldAsk = (FieldAsk)builder.InsertField(FieldType.FieldAsk, true);
     fieldAsk.BookmarkName = "MyAskField";
     fieldAsk.PromptText = "Please provide a response for this ASK field";
@@ -66,6 +65,7 @@ public void FieldAsk()
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.ASK.docx");
+}
 
 /// <summary>
 /// Antepone il testo alla risposta predefinita di un campo ASK durante una stampa unione.

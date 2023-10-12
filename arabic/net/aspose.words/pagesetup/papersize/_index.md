@@ -1,14 +1,14 @@
 ---
 title: PageSetup.PaperSize
 second_title: Aspose.Words لمراجع .NET API
-description: PageSetup ملكية. إرجاع أو تعيين حجم الورق.
+description: PageSetup ملكية. إرجاع حجم الورق أو تعيينه.
 type: docs
-weight: 340
+weight: 350
 url: /ar/net/aspose.words/pagesetup/papersize/
 ---
 ## PageSetup.PaperSize property
 
-إرجاع أو تعيين حجم الورق.
+إرجاع حجم الورق أو تعيينه.
 
 ```csharp
 public PaperSize PaperSize { get; set; }
@@ -16,11 +16,11 @@ public PaperSize PaperSize { get; set; }
 
 ### ملاحظات
 
-تعيين تحديثات هذه الخاصية[`PageWidth`](../pagewidth/) و[`PageHeight`](../pageheight/) القيم . تعيين هذه القيمة علىCustom لا يغير القيم الموجودة.
+تحديد تحديثات هذه الخاصية[`PageWidth`](../pagewidth/) و[`PageHeight`](../pageheight/) value. تحديد هذه القيمة علىCustom لا يغير القيم الموجودة.
 
 ### أمثلة
 
-يوضح كيفية ضبط حجم الورق ، والاتجاه ، والهوامش ، إلى جانب الإعدادات الأخرى لقسم ما.
+يوضح كيفية ضبط حجم الورق واتجاهه والهوامش بالإضافة إلى الإعدادات الأخرى لقسم ما.
 
 ```csharp
 Document doc = new Document();
@@ -40,14 +40,14 @@ builder.Writeln("Hello world!");
 doc.Save(ArtifactsDir + "PageSetup.PageMargins.docx");
 ```
 
-يوضح كيفية تعيين أحجام الصفحة.
+يوضح كيفية ضبط أحجام الصفحات.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // يمكننا تغيير حجم الصفحة الحالية إلى حجم محدد مسبقًا
-// باستخدام خاصية "PaperSize" لكائن PageSetup لهذا القسم.
+// باستخدام خاصية "حجم الورق" لكائن PageSetup لهذا القسم.
 builder.PageSetup.PaperSize = PaperSize.Tabloid;
 
 Assert.AreEqual(792.0d, builder.PageSetup.PageWidth);
@@ -55,8 +55,8 @@ Assert.AreEqual(1224.0d, builder.PageSetup.PageHeight);
 
 builder.Writeln($"This page is {builder.PageSetup.PageWidth}x{builder.PageSetup.PageHeight}.");
 
-// كل قسم له كائن PageSetup الخاص به. عندما نستخدم أداة إنشاء المستندات لإنشاء قسم جديد ،
-// يرث كائن PageSetup الخاص بهذا القسم كافة قيم كائن PageSetup للقسم السابق.
+// يحتوي كل قسم على كائن PageSetup الخاص به. عندما نستخدم أداة إنشاء المستندات لإنشاء قسم جديد،
+// يرث كائن PageSetup الخاص بهذا القسم جميع قيم كائن PageSetup الخاص بالقسم السابق.
 builder.InsertBreak(BreakType.SectionBreakEvenPage);
 
 Assert.AreEqual(PaperSize.Tabloid, builder.PageSetup.PaperSize);
@@ -69,7 +69,7 @@ Assert.AreEqual(595.30d, builder.PageSetup.PageHeight);
 
 builder.InsertBreak(BreakType.SectionBreakEvenPage);
 
-// تعيين حجم مخصص لصفحات هذا القسم.
+// قم بتعيين حجم مخصص لصفحات هذا القسم.
 builder.PageSetup.PageWidth = 620;
 builder.PageSetup.PageHeight = 480;
 
@@ -85,27 +85,27 @@ doc.Save(ArtifactsDir + "PageSetup.PaperSizes.docx");
 ```csharp
 Document doc = new Document();
 
-// يحتوي المستند الفارغ على قسم واحد وجسم واحد وفقرة واحدة.
-// اتصل بطريقة "RemoveAllChildren" لإزالة كل هذه العقد ،
-// وتنتهي بعقدة مستند بدون توابع.
+// يحتوي المستند الفارغ على قسم واحد ونص واحد وفقرة واحدة.
+// اتصل بالطريقة "RemoveAllChildren" لإزالة كل تلك العقد،
+// وينتهي الأمر بعقدة مستند بدون أطفال.
 doc.RemoveAllChildren();
 
 // لا يحتوي هذا المستند الآن على عقد فرعية مركبة يمكننا إضافة محتوى إليها.
-// إذا كنا نرغب في تعديله ، فسنحتاج إلى إعادة ملء مجموعة العقد الخاصة به.
-// أولاً ، قم بإنشاء قسم جديد ، ثم قم بإلحاقه كعقدة فرعية بصفته فرعيًا.
+// إذا أردنا تعديله، فسنحتاج إلى إعادة ملء مجموعة العقد الخاصة به.
+// أولاً، قم بإنشاء قسم جديد، ثم قم بإلحاقه كفرع لعقدة المستند الجذر.
 Section section = new Section(doc);
 doc.AppendChild(section);
 
-// تعيين بعض خصائص إعداد الصفحة للقسم.
+// قم بتعيين بعض خصائص إعداد الصفحة للقسم.
 section.PageSetup.SectionStart = SectionStart.NewPage;
 section.PageSetup.PaperSize = PaperSize.Letter;
 
-// يحتاج القسم إلى جسم يحتوي على جميع محتوياته ويعرضها
-// في الصفحة الواقعة بين رأس وتذييل القسم.
+// يحتاج القسم إلى نص يحتوي على جميع محتوياته ويعرضها
+// في الصفحة الواقعة بين رأس القسم وتذييله.
 Body body = new Body(doc);
 section.AppendChild(body);
 
-// قم بإنشاء فقرة ، وقم بتعيين بعض خصائص التنسيق ، ثم قم بإلحاقها كطفل بالجسم.
+// أنشئ فقرة، وعيّن بعض خصائص التنسيق، ثم ألحقها كطفل فرعي بالنص.
 Paragraph para = new Paragraph(doc);
 
 para.ParagraphFormat.StyleName = "Heading 1";
@@ -113,8 +113,8 @@ para.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 body.AppendChild(para);
 
-// أخيرًا ، أضف بعض المحتوى لعمل المستند. إنشاء شوط ،
-// قم بتعيين مظهرها ومحتوياتها ، ثم قم بإلحاقها كطفل بالفقرة.
+// وأخيرًا، أضف بعض المحتوى لإجراء المستند. إنشاء تشغيل،
+// اضبط مظهرها ومحتوياتها، ثم ألحقها كطفل للفقرة.
 Run run = new Run(doc);
 run.Text = "Hello World!";
 run.Font.Color = Color.Red;

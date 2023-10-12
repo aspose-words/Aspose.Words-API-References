@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.CssClassNamePrefix
 second_title: Referencia de API de Aspose.Words para .NET
-description: HtmlSaveOptions propiedad. Especifica un prefijo que se agrega a todos los nombres de clase CSS. El valor predeterminado es una cadena vacía y los nombres de clase CSS generados no tienen un prefijo común.
+description: HtmlSaveOptions propiedad. Especifica un prefijo que se agrega a todos los nombres de clases CSS. El valor predeterminado es una cadena vacía y los nombres de clases CSS generados no tienen un prefijo común.
 type: docs
 weight: 30
 url: /es/net/aspose.words.saving/htmlsaveoptions/cssclassnameprefix/
 ---
 ## HtmlSaveOptions.CssClassNamePrefix property
 
-Especifica un prefijo que se agrega a todos los nombres de clase CSS. El valor predeterminado es una cadena vacía y los nombres de clase CSS generados no tienen un prefijo común.
+Especifica un prefijo que se agrega a todos los nombres de clases CSS. El valor predeterminado es una cadena vacía y los nombres de clases CSS generados no tienen un prefijo común.
 
 ```csharp
 public string CssClassNamePrefix { get; set; }
@@ -22,13 +22,13 @@ public string CssClassNamePrefix { get; set; }
 
 ### Observaciones
 
-Si este valor no está vacío, todas las clases de CSS generadas por Aspose.Words comenzarán con el prefijo especificado. Esto podría ser útil, por ejemplo, si agrega CSS personalizado a los documentos generados y desea evitar conflictos de nombres class .
+Si este valor no está vacío, todas las clases CSS generadas por Aspose.Words comenzarán con el prefijo especificado. Esto puede ser útil, por ejemplo, si agrega CSS personalizado a los documentos generados y desea evitar conflictos de nombres class .
 
 Si el valor no es`nulo` o vacío, debe ser un identificador CSS válido.
 
 ### Ejemplos
 
-Muestra cómo guardar un documento en HTML y agregar un prefijo a todos sus nombres de clase CSS.
+Muestra cómo guardar un documento en HTML y agregar un prefijo a todos sus nombres de clases CSS.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraphs.docx");

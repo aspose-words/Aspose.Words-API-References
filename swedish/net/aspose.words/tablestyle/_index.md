@@ -3,12 +3,14 @@ title: Class TableStyle
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.TableStyle klass. Representerar en tabellstil.
 type: docs
-weight: 5920
+weight: 6220
 url: /sv/net/aspose.words/tablestyle/
 ---
 ## TableStyle class
 
 Representerar en tabellstil.
+
+För att lära dig mer, besök[Arbeta med tabeller](https://docs.aspose.com/words/net/working-with-tables/) dokumentationsartikel.
 
 ```csharp
 public class TableStyle : Style
@@ -21,6 +23,7 @@ public class TableStyle : Style
 | [Aliases](../../aspose.words/style/aliases/) { get; } | Får alla alias för denna stil. Om stilen inte har några alias returneras tom array av sträng. |
 | [Alignment](../../aspose.words/tablestyle/alignment/) { get; set; } | Anger justeringen för tabellstilen. |
 | [AllowBreakAcrossPages](../../aspose.words/tablestyle/allowbreakacrosspages/) { get; set; } | Hämtar eller ställer in en flagga som anger om text i en tabellrad tillåts delas över en sidbrytning. |
+| [AutomaticallyUpdate](../../aspose.words/style/automaticallyupdate/) { get; set; } | Anger om denna stil automatiskt omdefinieras baserat på lämpligt värde. |
 | [BaseStyleName](../../aspose.words/style/basestylename/) { get; set; } | Hämtar/ställer in namnet på stilen som denna stil är baserad på. |
 | [Bidi](../../aspose.words/tablestyle/bidi/) { get; set; } | Hämtar eller ställer in om detta är en stil för en höger-till-vänster-tabell. |
 | [Borders](../../aspose.words/tablestyle/borders/) { get; } | Hämtar samlingen av standardcellkanter för stilen. |
@@ -35,9 +38,10 @@ public class TableStyle : Style
 | [IsQuickStyle](../../aspose.words/style/isquickstyle/) { get; set; } | Anger om denna stil visas i Quick Style-galleriet i MS Word UI. |
 | [LeftIndent](../../aspose.words/tablestyle/leftindent/) { get; set; } | Hämtar eller ställer in värdet som representerar vänster indrag i en tabell. |
 | [LeftPadding](../../aspose.words/tablestyle/leftpadding/) { get; set; } | Hämtar eller ställer in mängden utrymme (i poäng) som ska läggas till till vänster om innehållet i tabellceller. |
-| [LinkedStyleName](../../aspose.words/style/linkedstylename/) { get; } | Hämtar namnet på stilen som är länkad till denna. Returnerar tom sträng om inga stilar är länkade. |
+| [LinkedStyleName](../../aspose.words/style/linkedstylename/) { get; } | Hämtar namnet på[`Style`](../style/) kopplat till denna. Returnerar tom sträng om inga stilar är länkade. |
 | [List](../../aspose.words/style/list/) { get; } | Hämtar listan som definierar formateringen av denna liststil. |
 | [ListFormat](../../aspose.words/style/listformat/) { get; } | Ger tillgång till listformateringsegenskaperna för en styckestil. |
+| [Locked](../../aspose.words/style/locked/) { get; set; } |  |
 | [Name](../../aspose.words/style/name/) { get; set; } | Hämtar eller ställer in namnet på stilen. |
 | [NextParagraphStyleName](../../aspose.words/style/nextparagraphstylename/) { get; set; } | Hämtar/ställer in namnet på formatet som ska tillämpas automatiskt på ett nytt stycke som infogas efter a stycke formaterat med det angivna formatet. |
 | [ParagraphFormat](../../aspose.words/style/paragraphformat/) { get; } | Hämtar formatets styckeformatering. |
@@ -54,7 +58,7 @@ public class TableStyle : Style
 
 | namn | Beskrivning |
 | --- | --- |
-| [Equals](../../aspose.words/style/equals/)(Style) | Jämförs med den angivna stilen. Stilar Istds jämförs endast för inbyggda stilar. Formatmallars standarder ingår inte i jämförelsen. Basstil, länkad stil och nästa styckestil jämförs rekursivt. |
+| [Equals](../../aspose.words/style/equals/)(Style) | Jämförs med den angivna stilen. Stilar Istds jämförs endast för inbyggda stilar. Standardinställningar för format ingår inte i jämförelsen. Basstil, länkad stil och nästa styckestil jämförs rekursivt. |
 | [Remove](../../aspose.words/style/remove/)() | Tar bort den angivna stilen från dokumentet. |
 
 ### Exempel

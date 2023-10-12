@@ -19,6 +19,7 @@ public bool InsertAsText { get; set; }
 Visar hur man använder olika fälttyper för att länka till andra dokument i det lokala filsystemet och visa deras innehåll.
 
 ```csharp
+public void FieldLinkedObjectsAsText(InsertLinkedObjectAs insertLinkedObjectAs)
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -42,6 +43,7 @@ Visar hur man använder olika fälttyper för att länka till andra dokument i d
     doc.Save(ArtifactsDir + "Field.LINK.DDE.DDEAUTO.docx");
 }
 
+public void FieldLinkedObjectsAsImage(InsertLinkedObjectAs insertLinkedObjectAs)
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);

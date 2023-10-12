@@ -1,14 +1,16 @@
 ---
 title: Class MemoryFontSource
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Fonts.MemoryFontSource classe. Représente le seul fichier de police TrueType stocké en mémoire.
+description: Aspose.Words.Fonts.MemoryFontSource classe. Représente le fichier de police TrueType unique stocké en mémoire.
 type: docs
-weight: 2840
+weight: 3020
 url: /fr/net/aspose.words.fonts/memoryfontsource/
 ---
 ## MemoryFontSource class
 
-Représente le seul fichier de police TrueType stocké en mémoire.
+Représente le fichier de police TrueType unique stocké en mémoire.
+
+Pour en savoir plus, visitez le[Travailler avec des polices](https://docs.aspose.com/words/net/working-with-fonts/) article documentaire.
 
 ```csharp
 public class MemoryFontSource : FontSourceBase
@@ -18,9 +20,9 @@ public class MemoryFontSource : FontSourceBase
 
 | Nom | La description |
 | --- | --- |
-| [MemoryFontSource](memoryfontsource/#constructor)(byte[]) | Ctor. |
-| [MemoryFontSource](memoryfontsource/#constructor_1)(byte[], int) | Ctor. |
-| [MemoryFontSource](memoryfontsource/#constructor_2)(byte[], int, string) | Ctor. |
+| [MemoryFontSource](memoryfontsource/#constructor)(byte[]) | Directeur. |
+| [MemoryFontSource](memoryfontsource/#constructor_1)(byte[], int) | Directeur. |
+| [MemoryFontSource](memoryfontsource/#constructor_2)(byte[], int, string) | Directeur. |
 
 ## Propriétés
 
@@ -28,9 +30,9 @@ public class MemoryFontSource : FontSourceBase
 | --- | --- |
 | [CacheKey](../../aspose.words.fonts/memoryfontsource/cachekey/) { get; } | La clé de cette source dans le cache. |
 | [FontData](../../aspose.words.fonts/memoryfontsource/fontdata/) { get; } | Données de police binaires. |
-| [Priority](../../aspose.words.fonts/fontsourcebase/priority/) { get; } | Renvoie la priorité de la source de la police. |
-| override [Type](../../aspose.words.fonts/memoryfontsource/type/) { get; } | Renvoie le type de la source de la police. |
-| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | Appelé lors du traitement de la source de la police lorsqu'un problème est détecté pouvant entraîner une perte de fidélité de formatage. |
+| [Priority](../../aspose.words.fonts/fontsourcebase/priority/) { get; } | Renvoie la priorité de la source de police. |
+| override [Type](../../aspose.words.fonts/memoryfontsource/type/) { get; } | Renvoie le type de la source de police. |
+| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | Appelé lors du traitement de la source de police lorsqu'un problème susceptible d'entraîner une perte de fidélité du formatage est détecté. |
 
 ## Méthodes
 

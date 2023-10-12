@@ -16,7 +16,7 @@ public string Password { get; set; }
 
 ### Remarques
 
-Afin d'enregistrer le document sans cryptage, cette propriété doit être nulle ou une chaîne vide.
+Afin d'enregistrer le document sans cryptage, cette propriété doit être`nul` ou une chaîne vide.
 
 ### Exemples
 
@@ -37,7 +37,7 @@ doc.Save(ArtifactsDir + "OoxmlSaveOptions.Password.docx", saveOptions);
 Assert.Throws<IncorrectPasswordException>(() =>
     doc = new Document(ArtifactsDir + "OoxmlSaveOptions.Password.docx"));
 
-// Ouvre le document chiffré en passant le mot de passe correct dans un objet LoadOptions.
+// Ouvrez le document chiffré en passant le mot de passe correct dans un objet LoadOptions.
 doc = new Document(ArtifactsDir + "OoxmlSaveOptions.Password.docx", new LoadOptions("MyPassword"));
 
 Assert.AreEqual("Hello world!", doc.GetText().Trim());

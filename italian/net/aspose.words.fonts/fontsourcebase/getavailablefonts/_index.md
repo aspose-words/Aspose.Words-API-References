@@ -1,14 +1,14 @@
 ---
 title: FontSourceBase.GetAvailableFonts
 second_title: Aspose.Words per .NET API Reference
-description: FontSourceBase metodo. Restituisce lelenco dei caratteri disponibili tramite questa fonte.
+description: FontSourceBase metodo. Restituisce lelenco dei caratteri disponibili tramite questa origine.
 type: docs
 weight: 40
 url: /it/net/aspose.words.fonts/fontsourcebase/getavailablefonts/
 ---
 ## FontSourceBase.GetAvailableFonts method
 
-Restituisce l'elenco dei caratteri disponibili tramite questa fonte.
+Restituisce l'elenco dei caratteri disponibili tramite questa origine.
 
 ```csharp
 public IList<PhysicalFontInfo> GetAvailableFonts()
@@ -19,7 +19,7 @@ public IList<PhysicalFontInfo> GetAvailableFonts()
 Mostra come elencare i caratteri disponibili.
 
 ```csharp
-// Configura Aspose.Words per generare i font da una cartella personalizzata, quindi stampa tutti i font disponibili.
+// Configura Aspose.Words per ottenere i caratteri da una cartella personalizzata, quindi stampa tutti i caratteri disponibili.
 FontSourceBase[] folderFontSource = { new FolderFontSource(FontsDir, true) };
 
 foreach (PhysicalFontInfo fontInfo in folderFontSource[0].GetAvailableFonts())

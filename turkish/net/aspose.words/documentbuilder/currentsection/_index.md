@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.CurrentSection
 second_title: Aspose.Words for .NET API Referansı
-description: DocumentBuilder mülk. Bu DocumentBuilderda seçili olan bölümü alır.
+description: DocumentBuilder mülk. Bu bölümde o anda seçili olan bölümü döndürürDocumentBuilder .
 type: docs
 weight: 60
 url: /tr/net/aspose.words/documentbuilder/currentsection/
 ---
 ## DocumentBuilder.CurrentSection property
 
-Bu DocumentBuilder'da seçili olan bölümü alır.
+Bu bölümde o anda seçili olan bölümü döndürür[`DocumentBuilder`](../) .
 
 ```csharp
 public Section CurrentSection { get; }
@@ -16,7 +16,7 @@ public Section CurrentSection { get; }
 
 ### Örnekler
 
-Yüzen bir görüntünün nasıl ekleneceğini ve konumunu ve boyutunun nasıl belirleneceğini gösterir.
+Kayan bir görüntünün nasıl ekleneceğini ve konumunun ve boyutunun nasıl belirleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -26,17 +26,17 @@ Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 shape.WrapType = WrapType.None;
 
 // "Left" özelliğinin değerini işlemek için şeklin "RelativeHorizontalPosition" özelliğini yapılandırın
- // şeklin sayfanın sol tarafından nokta cinsinden yatay mesafesi olarak.
+ // şeklin sayfanın sol tarafına nokta cinsinden yatay uzaklığı olarak.
 shape.RelativeHorizontalPosition = RelativeHorizontalPosition.Page;
 
-// Şeklin sayfanın sol tarafından yatay mesafesini 100 olarak ayarlayın.
+// Şeklin sayfanın sol tarafından yatay uzaklığını 100 olarak ayarlayın.
 shape.Left = 100;
 
-// Şekli 80pt sayfanın üst kısmından aşağıya konumlandırmak için "RelativeVerticalPosition" özelliğini benzer şekilde kullanın.
+// Şekli sayfanın üst kısmının 80pt altına konumlandırmak için "RelativeVerticalPosition" özelliğini benzer şekilde kullanın.
 shape.RelativeVerticalPosition = RelativeVerticalPosition.Page;
 shape.Top = 80;
 
-// Boyutları korumak için genişliği otomatik olarak ölçekleyecek şeklin yüksekliğini ayarlayın.
+// Boyutu korumak için genişliği otomatik olarak ölçeklendirecek şekilde şeklin yüksekliğini ayarlayın.
 shape.Height = 125;
 
 Assert.AreEqual(125.0d, shape.Width);

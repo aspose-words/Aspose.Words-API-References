@@ -23,7 +23,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Vous trouverez ci-dessous deux manières d'utiliser les champs DOCPROPERTY.
-// 1 - Affiche une propriété intégrée :
+// 1 - Afficher une propriété intégrée :
 // Définissez une valeur personnalisée pour la propriété intégrée "Catégorie", puis insérez un champ DOCPROPERTY qui y fait référence.
 doc.BuiltInDocumentProperties.Category = "My category";
 
@@ -35,7 +35,7 @@ Assert.AreEqual("My category", fieldDocProperty.Result);
 
 builder.InsertParagraph();
 
-// 2 - Affichez une variable de document personnalisée :
+// 2 - Afficher une variable de document personnalisée :
 // Définissez une variable personnalisée, puis référencez cette variable avec un champ DOCPROPERTY.
 Assert.That(doc.Variables, Is.Empty);
 doc.Variables.Add("My variable", "My variable's value");

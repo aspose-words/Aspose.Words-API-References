@@ -16,32 +16,32 @@ public string BookmarkName { get; set; }
 
 ### Örnekler
 
-Yer imlerinin göreli konumunu görüntülemek için PAGEREF alanları eklemeyi gösterir.
+Yer imlerinin göreceli konumunu görüntülemek için PAGEREF alanlarının eklenmesini gösterir.
 
 ```csharp
 public void FieldPageRef()
 {
     Document doc = new Document();
-    DocumentBuilder builder = new DocumentBuilder(doc);
+    DocumentBuilder builder = new DocumentBuilder(doc);            
 
     InsertAndNameBookmark(builder, "MyBookmark1");
 
-    // Yer iminin hangi sayfada olduğunu gösteren bir PAGEREF alanı ekleyin.
-    // Alanın aynı zamanda yer işaretine tıklanabilir bir bağlantı olarak işlev görmesini sağlamak için InsertHyperlink bayrağını ayarlayın.
+    // Bir yer iminin hangi sayfada olduğunu gösteren bir PAGEREF alanı ekleyin.
+    // Alanın aynı zamanda yer işaretine tıklanabilir bir bağlantı olarak da işlev görmesini sağlamak için InsertHyperlink bayrağını ayarlayın.
     Assert.AreEqual(" PAGEREF  MyBookmark3 \\h", 
         InsertFieldPageRef(builder, "MyBookmark3", true, false, "Hyperlink to Bookmark3, on page: ").GetFieldCode());
 
-    // PAGEREF alanını görüntülemek için \p bayrağını kullanabiliriz
+    // PAGEREF alanının görüntülenmesini sağlamak için \p bayrağını kullanabiliriz
     // yer iminin alanın konumuna göre konumu.
     // Bookmark1 aynı sayfada ve bu alanın üstünde olduğundan, bu alanın görüntülenen sonucu "yukarıda" olacaktır.
     Assert.AreEqual(" PAGEREF  MyBookmark1 \\h \\p", 
         InsertFieldPageRef(builder, "MyBookmark1", true, true, "Bookmark1 is ").GetFieldCode());
 
-    // Bookmark2 aynı sayfada ve bu alanın altında olacak, bu nedenle bu alanın görüntülenen sonucu "aşağıda" olacaktır.
+    // Bookmark2 aynı sayfada ve bu alanın altında olacağından bu alanın görüntülenen sonucu "aşağıda" olacaktır.
     Assert.AreEqual(" PAGEREF  MyBookmark2 \\h \\p", 
         InsertFieldPageRef(builder, "MyBookmark2", true, true, "Bookmark2 is ").GetFieldCode());
 
-    // Bookmark3 farklı bir sayfada olacak, bu yüzden alan "sayfa 2'de" görüntülenecektir.
+    // Bookmark3 farklı bir sayfada olacak, dolayısıyla alan "2. sayfada" olarak görüntülenecektir.
     Assert.AreEqual(" PAGEREF  MyBookmark3 \\h \\p", 
         InsertFieldPageRef(builder, "MyBookmark3", true, true, "Bookmark3 is ").GetFieldCode());
 
@@ -49,11 +49,13 @@ public void FieldPageRef()
     builder.InsertBreak(BreakType.PageBreak);
     InsertAndNameBookmark(builder, "MyBookmark3");
 
+    doc.UpdatePageLayout();
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.PAGEREF.docx");
+}
 
 /// <summary>
-/// Bir PAGEREF alanı eklemek için bir belge oluşturucu kullanır ve özelliklerini ayarlar.
+/// PAGEREF alanı eklemek ve özelliklerini ayarlamak için bir belge oluşturucu kullanır.
 /// </summary>
 private static FieldPageRef InsertFieldPageRef(DocumentBuilder builder, string bookmarkName, bool insertHyperlink, bool insertRelativePosition, string textBefore)
 {

@@ -1,14 +1,14 @@
 ---
 title: ListLevel.TextPosition
 second_title: Aspose.Words für .NET-API-Referenz
-description: ListLevel eigendom. Gibt die Position in Punkt für die zweite Zeile des Umbruchtexts für die Listenebene zurück oder legt sie fest.
+description: ListLevel eigendom. Gibt die Position in Punkt für die zweite Zeile des Umbruchtextes für die Listenebene zurück oder legt sie fest.
 type: docs
 weight: 130
 url: /de/net/aspose.words.lists/listlevel/textposition/
 ---
 ## ListLevel.TextPosition property
 
-Gibt die Position (in Punkt) für die zweite Zeile des Umbruchtexts für die Listenebene zurück oder legt sie fest.
+Gibt die Position (in Punkt) für die zweite Zeile des Umbruchtextes für die Listenebene zurück oder legt sie fest.
 
 ```csharp
 public double TextPosition { get; set; }
@@ -20,14 +20,14 @@ public double TextPosition { get; set; }
 
 ### Beispiele
 
-Zeigt, wie Sie benutzerdefinierte Listenformatierungen auf Absätze anwenden, wenn Sie DocumentBuilder verwenden.
+Zeigt, wie Sie bei Verwendung von DocumentBuilder eine benutzerdefinierte Listenformatierung auf Absätze anwenden.
 
 ```csharp
 Document doc = new Document();
 
-// Eine Liste ermöglicht es uns, Sätze von Absätzen mit Präfixsymbolen und Einzügen zu organisieren und zu dekorieren.
-// Wir können verschachtelte Listen erstellen, indem wir die Einrückungsebene erhöhen. 
-// Wir können eine Liste beginnen und beenden, indem wir die "ListFormat"-Eigenschaft eines Dokumentenerstellers verwenden. 
+// Eine Liste ermöglicht es uns, Absätze mit Präfixsymbolen und Einzügen zu organisieren und zu dekorieren.
+ // Wir können verschachtelte Listen erstellen, indem wir die Einrückungsebene erhöhen.
+ // Wir können eine Liste beginnen und beenden, indem wir die „ListFormat“-Eigenschaft eines Document Builders verwenden.
 // Jeder Absatz, den wir zwischen dem Anfang und dem Ende einer Liste hinzufügen, wird zu einem Element in der Liste.
 // Erstellen Sie eine Liste aus einer Microsoft Word-Vorlage und passen Sie die ersten beiden Listenebenen an.
 List list = doc.Lists.Add(ListTemplate.NumberDefault);

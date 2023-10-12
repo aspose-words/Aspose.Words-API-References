@@ -1,14 +1,16 @@
 ---
 title: Class FontSourceBase
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Fonts.FontSourceBase sınıf. Bu kullanıcının çeşitli yazı tipi kaynaklarını belirlemesine izin veren sınıflar için soyut bir temel sınıftır.
+description: Aspose.Words.Fonts.FontSourceBase sınıf. Bu kullanıcının çeşitli yazı tipi kaynaklarını belirlemesine olanak tanıyan sınıflar için soyut bir temel sınıftır.
 type: docs
-weight: 2800
+weight: 2980
 url: /tr/net/aspose.words.fonts/fontsourcebase/
 ---
 ## FontSourceBase class
 
-Bu, kullanıcının çeşitli yazı tipi kaynaklarını belirlemesine izin veren sınıflar için soyut bir temel sınıftır.
+Bu, kullanıcının çeşitli yazı tipi kaynaklarını belirlemesine olanak tanıyan, sınıflar için soyut bir temel sınıftır.
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Fontlarla Çalışmak](https://docs.aspose.com/words/net/working-with-fonts/) dokümantasyon makalesi.
 
 ```csharp
 public abstract class FontSourceBase
@@ -20,7 +22,7 @@ public abstract class FontSourceBase
 | --- | --- |
 | [Priority](../../aspose.words.fonts/fontsourcebase/priority/) { get; } | Yazı tipi kaynağı önceliğini döndürür. |
 | abstract [Type](../../aspose.words.fonts/fontsourcebase/type/) { get; } | Yazı tipi kaynağının türünü döndürür. |
-| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | Biçimlendirme aslına uygunluk kaybına neden olabilecek bir sorun algılandığında yazı tipi kaynağının işlenmesi sırasında çağrılır. |
+| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | Yazı tipi kaynağının işlenmesi sırasında, biçimlendirmenin aslına uygunluk kaybına yol açabilecek bir sorun algılandığında çağrılır. |
 
 ## yöntemler
 

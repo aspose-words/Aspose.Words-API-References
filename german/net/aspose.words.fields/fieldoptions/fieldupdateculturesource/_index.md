@@ -1,14 +1,14 @@
 ---
 title: FieldOptions.FieldUpdateCultureSource
 second_title: Aspose.Words für .NET-API-Referenz
-description: FieldOptions eigendom. Gibt an welche Kultur verwendet werden soll um das Feldergebnis zu formatieren.
+description: FieldOptions eigendom. Gibt an welche Kultur zum Formatieren des Feldergebnisses verwendet werden soll.
 type: docs
-weight: 100
+weight: 110
 url: /de/net/aspose.words.fields/fieldoptions/fieldupdateculturesource/
 ---
 ## FieldOptions.FieldUpdateCultureSource property
 
-Gibt an, welche Kultur verwendet werden soll, um das Feldergebnis zu formatieren.
+Gibt an, welche Kultur zum Formatieren des Feldergebnisses verwendet werden soll.
 
 ```csharp
 public FieldUpdateCultureSource FieldUpdateCultureSource { get; set; }
@@ -18,37 +18,37 @@ public FieldUpdateCultureSource FieldUpdateCultureSource { get; set; }
 
 Standardmäßig wird die Kultur des aktuellen Threads verwendet.
 
-Die Einstellung wirkt sich nur auf Datums-/Uhrzeitfelder mit Formatumschaltung \\@ aus.
+Die Einstellung betrifft nur Datums-/Uhrzeitfelder mit dem Formatschalter \\@.
 
 ### Beispiele
 
-Zeigt, wie die Quelle der Kultur angegeben wird, die für die Datumsformatierung während einer Feldaktualisierung oder eines Seriendrucks verwendet wird.
+Zeigt, wie Sie die Quelle der Kultur angeben, die für die Datumsformatierung während einer Feldaktualisierung oder eines Seriendrucks verwendet wird.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Zwei Briefvorlagenfelder mit deutschem Gebietsschema einfügen.
+// Zwei Zusammenführungsfelder mit deutschem Gebietsschema einfügen.
 builder.Font.LocaleId = new CultureInfo("de-DE").LCID;
 builder.InsertField("MERGEFIELD Date1 \\@ \"dddd, d MMMM yyyy\"");
 builder.Write(" - ");
 builder.InsertField("MERGEFIELD Date2 \\@ \"dddd, d MMMM yyyy\"");
 
-// Setzt die aktuelle Kultur auf US-Englisch, nachdem der ursprüngliche Wert in einer Variablen beibehalten wurde.
+// Setze die aktuelle Kultur auf US-Englisch, nachdem der ursprüngliche Wert in einer Variablen beibehalten wurde.
 CultureInfo currentCulture = Thread.CurrentThread.CurrentCulture;
 Thread.CurrentThread.CurrentCulture = new CultureInfo("en-US");
 
-// Diese Zusammenführung verwendet die Kultur des aktuellen Threads, um das Datum zu formatieren, US-Englisch.
+// Bei dieser Zusammenführung wird die Kultur des aktuellen Threads verwendet, um das Datum zu formatieren, US-Englisch.
 doc.MailMerge.Execute(new[] { "Date1" }, new object[] { new DateTime(2020, 1, 01) });
 
-// Konfigurieren Sie die nächste Zusammenführung, um ihren Kulturwert aus dem Feldcode zu beziehen. Der Wert dieser Kultur wird deutsch sein.
+// Konfigurieren Sie die nächste Zusammenführung so, dass ihr Kulturwert aus dem Feldcode stammt. Der Wert dieser Kultur wird deutsch sein.
 doc.FieldOptions.FieldUpdateCultureSource = FieldUpdateCultureSource.FieldCode;
 doc.MailMerge.Execute(new[] { "Date2" }, new object[] { new DateTime(2020, 1, 01) });
 
-// Das erste Merge-Ergebnis enthält ein englisch formatiertes Datum, das zweite ein deutsch formatiertes Datum.
+// Das erste Zusammenführungsergebnis enthält ein in Englisch formatiertes Datum, während das zweite in Deutsch formatiert ist.
 Assert.AreEqual("Wednesday, 1 January 2020 - Mittwoch, 1 Januar 2020", doc.Range.Text.Trim());
 
-// Stellen Sie die ursprüngliche Kultur des Threads wieder her.
+// Die ursprüngliche Kultur des Threads wiederherstellen.
 Thread.CurrentThread.CurrentCulture = currentCulture;
 ```
 

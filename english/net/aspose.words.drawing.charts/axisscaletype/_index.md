@@ -38,8 +38,8 @@ Chart chart = chartShape.Chart;
 chart.Series.Clear();
 
 // Insert a series with X/Y coordinates for five points.
-chart.Series.Add("Series 1", 
-    new[] { 1.0, 2.0, 3.0, 4.0, 5.0 }, 
+chart.Series.Add("Series 1",
+    new[] { 1.0, 2.0, 3.0, 4.0, 5.0 },
     new[] { 1.0, 20.0, 400.0, 8000.0, 160000.0 });
 
 // The scaling of the X-axis is linear by default,

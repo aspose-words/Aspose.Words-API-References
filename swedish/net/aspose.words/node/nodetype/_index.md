@@ -59,6 +59,7 @@ Assert.AreEqual(0, doc.GetChildNodes(NodeType.Table, true).Count);
 Visar hur man korsar en sammansatt nods träd med undernoder.
 
 ```csharp
+public void RecurseChildren()
 {
     Document doc = new Document(MyDir + "Paragraphs.docx");
 

@@ -3,12 +3,14 @@ title: Class FileFontSource
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Fonts.FileFontSource klass. Representerar den enda TrueTypeteckensnittsfilen som är lagrad i filsystemet.
 type: docs
-weight: 2690
+weight: 2870
 url: /sv/net/aspose.words.fonts/filefontsource/
 ---
 ## FileFontSource class
 
 Representerar den enda TrueType-teckensnittsfilen som är lagrad i filsystemet.
+
+För att lära dig mer, besök[Arbeta med teckensnitt](https://docs.aspose.com/words/net/working-with-fonts/) dokumentationsartikel.
 
 ```csharp
 public class FileFontSource : FontSourceBase

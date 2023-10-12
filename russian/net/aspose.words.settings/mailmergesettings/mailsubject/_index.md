@@ -1,14 +1,14 @@
 ---
 title: MailMergeSettings.MailSubject
 second_title: Справочник по API Aspose.Words для .NET
-description: MailMergeSettings свойство. Указывает текст который должен отображаться в строке темы сообщений электронной почты или факсов созданных во время слияния. Значение по умолчанию  пустая строка.
+description: MailMergeSettings свойство. Указывает текст который будет отображаться в строке темы электронных писем или факсов создаваемых во время слияния почты. Значение по умолчанию  пустая строка.
 type: docs
 weight: 130
 url: /ru/net/aspose.words.settings/mailmergesettings/mailsubject/
 ---
 ## MailMergeSettings.MailSubject property
 
-Указывает текст, который должен отображаться в строке темы сообщений электронной почты или факсов, созданных во время слияния. Значение по умолчанию — пустая строка.
+Указывает текст, который будет отображаться в строке темы электронных писем или факсов, создаваемых во время слияния почты. Значение по умолчанию — пустая строка.
 
 ```csharp
 public string MailSubject { get; set; }
@@ -37,7 +37,7 @@ Console.WriteLine($"Table:\n\t{odso.TableName}");
 Console.WriteLine($"Query:\n\t{doc.MailMergeSettings.Query}");
 
 // Мы можем сбросить эти настройки, очистив их. Как только мы это сделаем и сохраним документ,
-// Microsoft Word больше не будет выполнять слияние, когда мы используем его для загрузки документа.
+// Microsoft Word больше не будет выполнять слияние почты, когда мы используем его для загрузки документа.
 settings.Clear();
 
 doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");

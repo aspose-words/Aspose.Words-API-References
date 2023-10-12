@@ -20,7 +20,7 @@ La valeur par défaut est 1/10 de pouce.
 
 ### Exemples
 
-Montre comment définir les marges internes d'une zone de texte.
+Montre comment définir les marges internes d’une zone de texte.
 
 ```csharp
 Document doc = new Document();

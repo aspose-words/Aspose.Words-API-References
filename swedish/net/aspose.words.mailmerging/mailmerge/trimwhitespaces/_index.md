@@ -16,7 +16,7 @@ public bool TrimWhitespaces { get; set; }
 
 ### Anmärkningar
 
-Standardvärdet är **Sann** .
+Standardvärdet är`Sann` .
 
 ### Exempel
 

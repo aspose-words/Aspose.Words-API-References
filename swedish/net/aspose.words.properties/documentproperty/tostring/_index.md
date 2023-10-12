@@ -46,7 +46,7 @@ Visar hur man arbetar med anpassade dokumentegenskaper.
 Document doc = new Document(MyDir + "Properties.docx");
 
 // Varje dokument innehåller en samling anpassade egenskaper, som, liksom de inbyggda egenskaperna, är nyckel-värdepar.
-// Dokumentet har en fast lista med inbyggda egenskaper. Användaren skapar alla anpassade egenskaper. 
+ // Dokumentet har en fast lista med inbyggda egenskaper. Användaren skapar alla anpassade egenskaper.
 Assert.AreEqual("Value of custom document property", doc.CustomDocumentProperties["CustomProperty"].ToString());
 
 doc.CustomDocumentProperties.Add("CustomProperty2", "Value of custom document property #2");

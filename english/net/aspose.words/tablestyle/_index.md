@@ -43,6 +43,7 @@ public class TableStyle : Style
 | [LinkedStyleName](../../aspose.words/style/linkedstylename/) { get; } | Gets the name of the [`Style`](../style/) linked to this one. Returns empty string if no styles are linked. |
 | [List](../../aspose.words/style/list/) { get; } | Gets the list that defines formatting of this list style. |
 | [ListFormat](../../aspose.words/style/listformat/) { get; } | Provides access to the list formatting properties of a paragraph style. |
+| [Locked](../../aspose.words/style/locked/) { get; set; } | Specifies whether this style is locked. |
 | [Name](../../aspose.words/style/name/) { get; set; } | Gets or sets the name of the style. |
 | [NextParagraphStyleName](../../aspose.words/style/nextparagraphstylename/) { get; set; } | Gets/sets the name of the style to be applied automatically to a new paragraph inserted after a paragraph formatted with the specified style. |
 | [ParagraphFormat](../../aspose.words/style/paragraphformat/) { get; } | Gets the paragraph formatting of the style. |

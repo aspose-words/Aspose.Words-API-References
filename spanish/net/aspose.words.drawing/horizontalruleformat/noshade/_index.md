@@ -1,14 +1,14 @@
 ---
 title: HorizontalRuleFormat.NoShade
 second_title: Referencia de API de Aspose.Words para .NET
-description: HorizontalRuleFormat propiedad. Indica la presencia de sombreado 3D para la regla horizontal. Si es verdadero entonces la regla horizontal no tiene sombreado 3D y se utiliza un color sólido.
+description: HorizontalRuleFormat propiedad. Indica la presencia de sombreado 3D para la regla horizontal. Siverdadero entonces la regla horizontal no tiene sombreado 3D y se utiliza un color sólido.
 type: docs
 weight: 40
 url: /es/net/aspose.words.drawing/horizontalruleformat/noshade/
 ---
 ## HorizontalRuleFormat.NoShade property
 
-Indica la presencia de sombreado 3D para la regla horizontal. Si es verdadero, entonces la regla horizontal no tiene sombreado 3D y se utiliza un color sólido.
+Indica la presencia de sombreado 3D para la regla horizontal. Si`verdadero` entonces la regla horizontal no tiene sombreado 3D y se utiliza un color sólido.
 
 ```csharp
 public bool NoShade { get; set; }
@@ -16,7 +16,7 @@ public bool NoShade { get; set; }
 
 ### Observaciones
 
-El valor predeterminado es falso.
+El valor predeterminado es`FALSO`.
 
 ### Ejemplos
 

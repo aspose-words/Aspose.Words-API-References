@@ -1,14 +1,14 @@
 ---
 title: VbaReferenceCollection.Remove
 second_title: Aspose.Words för .NET API Referens
-description: VbaReferenceCollection metod. Tar bort den första förekomsten av ett angivet VbaReferenceobjekt från samlingen.
+description: VbaReferenceCollection metod. Tar bort den första förekomsten av en angivenVbaReference föremål från samlingen.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.vba/vbareferencecollection/remove/
 ---
 ## VbaReferenceCollection.Remove method
 
-Tar bort den första förekomsten av ett angivet VbaReference-objekt från samlingen.
+Tar bort den första förekomsten av en angiven[`VbaReference`](../../vbareference/) föremål från samlingen.
 
 ```csharp
 public void Remove(VbaReference item)
@@ -19,7 +19,6 @@ public void Remove(VbaReference item)
 Visar hur man hämtar/tar bort ett element från VBA-referenssamlingen.
 
 ```csharp
-[Test]
 public void RemoveVbaReference()
 {
     const string brokenPath = @"X:\broken.dll";
@@ -45,7 +44,7 @@ public void RemoveVbaReference()
 }
 
 /// <summary>
-/// Returnerar en sträng som representerar LibId-sökvägen för en angiven referens. 
+ /// Returnerar en sträng som representerar LibId-sökvägen för en angiven referens.
 /// </summary>
 private static string GetLibIdPath(VbaReference reference)
 {

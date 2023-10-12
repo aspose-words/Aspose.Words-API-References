@@ -1,17 +1,34 @@
 ---
 title: IStructuredDocumentTag.Title
 second_title: Aspose.Words لمراجع .NET API
-description: IStructuredDocumentTag ملكية. تحديد الاسم المألوف المرتبط بهذا المعاملة الخاصة والتفضيلية . لا يمكن أن يكون فارغًا .
+description: IStructuredDocumentTag ملكية. يحدد الاسم المألوف المرتبط بهذا المعاملة الخاصة والتفضيلية . لا يمكن أن يكون فارغًا.
 type: docs
 weight: 110
 url: /ar/net/aspose.words.markup/istructureddocumenttag/title/
 ---
 ## IStructuredDocumentTag.Title property
 
-تحديد الاسم المألوف المرتبط بهذا **المعاملة الخاصة والتفضيلية** . لا يمكن أن يكون فارغًا .
+يحدد الاسم المألوف المرتبط بهذا **المعاملة الخاصة والتفضيلية** . لا يمكن أن يكون فارغًا.
 
 ```csharp
 public string Title { get; set; }
+```
+
+### أمثلة
+
+يوضح كيفية الحصول على علامة المستند المنظمة.
+
+```csharp
+Document doc = new Document(MyDir + "Structured document tags by id.docx");
+
+// احصل على علامة المستند المنظمة حسب المعرف.
+IStructuredDocumentTag sdt = doc.Range.StructuredDocumentTags.GetById(1160505028);
+Console.WriteLine(sdt.IsRanged());
+Console.WriteLine(sdt.Title);
+
+// احصل على علامة المستند المنظمة أو علامة النطاق حسب العنوان.
+sdt = doc.Range.StructuredDocumentTags.GetByTitle("Alias4");
+Console.WriteLine(sdt.Id);
 ```
 
 ### أنظر أيضا

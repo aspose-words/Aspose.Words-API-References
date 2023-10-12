@@ -3,7 +3,7 @@ title: Enum CellMerge
 second_title: Aspose.Words لمراجع .NET API
 description: Aspose.Words.Tables.CellMerge تعداد. يحدد كيفية دمج خلية في جدول مع خلايا أخرى.
 type: docs
-weight: 5970
+weight: 6270
 url: /ar/net/aspose.words.tables/cellmerge/
 ---
 ## CellMerge enumeration
@@ -18,31 +18,31 @@ public enum CellMerge
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| None | `0` | لم يتم دمج الخلية . |
-| First | `1` | الخلية هي الخلية الأولى في نطاق الخلايا المدمجة. |
-| Previous | `2` | تم دمج الخلية بالخلية السابقة أفقياً أو رأسياً. |
+| None | `0` | لم يتم دمج الخلية. |
+| First | `1` | الخلية هي الخلية الأولى في نطاق من الخلايا المدمجة. |
+| Previous | `2` | يتم دمج الخلية مع الخلية السابقة أفقيا أو رأسيا. |
 
 ### أمثلة
 
-يوضح كيفية دمج خلايا الجدول أفقيًا.
+يوضح كيفية دمج خلايا الجدول أفقياً.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // أدخل خلية في العمود الأول من الصف الأول.
-// ستكون هذه الخلية الأولى في نطاق الخلايا المدمجة أفقيًا.
+// ستكون هذه الخلية هي الأولى في نطاق من الخلايا المدمجة أفقيًا.
 builder.InsertCell();
 builder.CellFormat.HorizontalMerge = CellMerge.First;
 builder.Write("Text in merged cells.");
 
-// أدخل خلية في العمود الثاني من الصف الأول. بدلاً من إضافة محتويات نصية ،
+// أدخل خلية في العمود الثاني من الصف الأول. بدلاً من إضافة محتويات نصية،
 // سنقوم بدمج هذه الخلية مع الخلية الأولى التي أضفناها مباشرة إلى اليسار.
 builder.InsertCell();
 builder.CellFormat.HorizontalMerge = CellMerge.Previous;
 builder.EndRow();
 
-// أدخل خليتين أخريين غير مدمجين في الصف الثاني.
+// أدخل خليتين غير مدمجتين في الصف الثاني.
 builder.CellFormat.HorizontalMerge = CellMerge.None;
 builder.InsertCell();
 builder.Write("Text in unmerged cell.");
@@ -54,7 +54,7 @@ builder.EndTable();
 doc.Save(ArtifactsDir + "CellFormat.HorizontalMerge.docx");
 ```
 
-يطبع نوع الدمج الأفقي والعمودي لخلية.
+طباعة نوع الدمج الأفقي والرأسي للخلية.
 
 ```csharp
 public void CheckCellsMerged()
@@ -90,20 +90,20 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // أدخل خلية في العمود الأول من الصف الأول.
-// ستكون هذه الخلية الأولى في نطاق الخلايا المدمجة عموديًا.
+// ستكون هذه الخلية هي الأولى في نطاق من الخلايا المدمجة رأسياً.
 builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.First;
 builder.Write("Text in merged cells.");
 
-// أدخل خلية في العمود الثاني من الصف الأول ، ثم قم بإنهاء الصف.
-// أيضًا ، قم بتكوين المنشئ لتعطيل الدمج الرأسي في الخلايا التي تم إنشاؤها.
+// أدخل خلية في العمود الثاني من الصف الأول، ثم قم بإنهاء الصف.
+// أيضًا، قم بتكوين المنشئ لتعطيل الدمج الرأسي في الخلايا التي تم إنشاؤها.
 builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.None;
 builder.Write("Text in unmerged cell.");
 builder.EndRow();
 
-// أدخل خلية في العمود الأول من الصف الثاني. 
-// بدلاً من إضافة محتويات نصية ، سنقوم بدمج هذه الخلية مع الخلية الأولى التي أضفناها أعلاه مباشرةً.
+ // أدخل خلية في العمود الأول من الصف الثاني.
+// بدلاً من إضافة محتويات نصية، سنقوم بدمج هذه الخلية مع الخلية الأولى التي أضفناها أعلاه مباشرة.
 builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.Previous;
 

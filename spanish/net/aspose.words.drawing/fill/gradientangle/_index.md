@@ -3,7 +3,7 @@ title: Fill.GradientAngle
 second_title: Referencia de API de Aspose.Words para .NET
 description: Fill propiedad. Obtiene o establece el ángulo del relleno degradado.
 type: docs
-weight: 40
+weight: 100
 url: /es/net/aspose.words.drawing/fill/gradientangle/
 ---
 ## Fill.GradientAngle property
@@ -37,7 +37,7 @@ shape.Fill.TwoColorGradient(GradientStyle.FromCorner, GradientVariant.Variant4);
 // Cambia el color de fondo del relleno degradado.
 shape.Fill.BackColor = Color.Yellow;
 // Tenga en cuenta que cambia "GradientAngle" por "GradientStyle.FromCorner/GradientStyle.FromCenter"
-// el relleno de degradado no obtiene ningún efecto, solo funcionará para degradado lineal.
+// el relleno degradado no obtiene ningún efecto, funcionará solo para degradado lineal.
 shape.Fill.GradientAngle = 15;
 
 Assert.AreEqual(Color.Yellow.ToArgb(), shape.Fill.BackColor.ToArgb());
@@ -45,7 +45,7 @@ Assert.AreEqual(GradientStyle.FromCorner, shape.Fill.GradientStyle);
 Assert.AreEqual(GradientVariant.Variant4, shape.Fill.GradientVariant);
 Assert.AreEqual(0, shape.Fill.GradientAngle);
 
-// Use la opción de cumplimiento para definir la forma usando DML si desea obtener "GradientStyle",
+// Utilice la opción de cumplimiento para definir la forma usando DML si desea obtener "GradientStyle",
 // Propiedades "GradientVariant" y "GradientAngle" después de guardar el documento.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions { Compliance = OoxmlCompliance.Iso29500_2008_Strict };
 

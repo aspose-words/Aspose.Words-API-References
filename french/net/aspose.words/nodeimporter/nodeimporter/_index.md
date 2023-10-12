@@ -17,15 +17,14 @@ public NodeImporter(DocumentBase srcDoc, DocumentBase dstDoc, ImportFormatMode i
 | Paramètre | Taper | La description |
 | --- | --- | --- |
 | srcDoc | DocumentBase | Le document source. |
-| dstDoc | DocumentBase | Le document de destination qui sera le propriétaire des nœuds importés. |
-| importFormatMode | ImportFormatMode | Spécifie comment fusionner les mises en forme de style qui entrent en conflit. |
+| dstDoc | DocumentBase | Le document de destination qui sera propriétaire des nœuds importés. |
+| importFormatMode | ImportFormatMode | Spécifie comment fusionner le formatage de style en conflit. |
 
 ### Exemples
 
-Montre comment insérer le contenu d'un document dans un signet d'un autre document.
+Montre comment insérer le contenu d’un document dans un signet dans un autre document.
 
 ```csharp
-[Test]
 public void InsertAtBookmark()
 {
     Document doc = new Document();
@@ -61,7 +60,7 @@ static void InsertDocument(Node insertionDestination, Document docToInsert)
         NodeImporter importer =
             new NodeImporter(docToInsert, insertionDestination.Document, ImportFormatMode.KeepSourceFormatting);
 
-        // Boucle sur tous les nœuds de niveau bloc dans le corps de la section,
+        // Parcourez tous les nœuds de niveau bloc dans le corps de la section,
         // puis clonez et insérez chaque nœud qui n'est pas le dernier paragraphe vide d'une section.
         foreach (Section srcSection in docToInsert.Sections.OfType<Section>())
             foreach (Node srcNode in srcSection.Body)
@@ -108,8 +107,8 @@ public NodeImporter(DocumentBase srcDoc, DocumentBase dstDoc, ImportFormatMode i
 | Paramètre | Taper | La description |
 | --- | --- | --- |
 | srcDoc | DocumentBase | Le document source. |
-| dstDoc | DocumentBase | Le document de destination qui sera le propriétaire des nœuds importés. |
-| importFormatMode | ImportFormatMode | Spécifie comment fusionner les mises en forme de style qui entrent en conflit. |
+| dstDoc | DocumentBase | Le document de destination qui sera propriétaire des nœuds importés. |
+| importFormatMode | ImportFormatMode | Spécifie comment fusionner le formatage de style en conflit. |
 | importFormatOptions | ImportFormatOptions | Spécifie diverses options pour formater le nœud importé. |
 
 ### Exemples
@@ -121,7 +120,7 @@ Document srcDoc = new Document(MyDir + "List with the same definition identifier
 Document dstDoc = new Document(MyDir + "List with the same definition identifier - destination.docx");
 
 // Définissez la propriété "KeepSourceNumbering" sur "true" pour appliquer un ID de définition de liste différent
-// aux styles identiques car Aspose.Words les importe dans les documents de destination.
+// vers des styles identiques car Aspose.Words les importe dans les documents de destination.
 ImportFormatOptions importFormatOptions = new ImportFormatOptions { KeepSourceNumbering = true };
 
 dstDoc.AppendDocument(srcDoc, ImportFormatMode.UseDestinationStyles, importFormatOptions);
@@ -131,18 +130,18 @@ dstDoc.UpdateListLabels();
 Montre comment résoudre les conflits de numérotation de liste dans les documents source et de destination.
 
 ```csharp
-// Ouvre un document avec un schéma de numérotation de liste personnalisé, puis le clone.
+// Ouvrez un document avec un schéma de numérotation de liste personnalisé, puis clonez-le.
 // Puisque les deux ont le même format de numérotation, les formats entreront en conflit si nous importons un document dans l'autre.
 Document srcDoc = new Document(MyDir + "Custom list numbering.docx");
 Document dstDoc = srcDoc.Clone();
 
-// Lorsque nous importons le clone du document dans l'original, puis l'ajoutons,
-// alors les deux listes avec le même format de liste se rejoindront.
-// Si nous définissons le drapeau "KeepSourceNumbering" sur "false", alors la liste du document clone
-// que nous ajoutons à l'original portera la numérotation de la liste à laquelle nous l'ajoutons.
-// Cela fusionnera efficacement les deux listes en une seule.
-// Si nous définissons le drapeau "KeepSourceNumbering" sur "true", alors le document clone
-// list conservera sa numérotation d'origine, faisant apparaître les deux listes comme des listes séparées. 
+// Lorsque nous importons le clone du document dans l'original et que nous l'ajoutons,
+// alors les deux listes avec le même format de liste se joindront.
+// Si nous définissons l'indicateur "KeepSourceNumbering" sur "false", alors la liste du clone du document
+// que nous ajoutons à l'original conservera la numérotation de la liste à laquelle nous l'ajoutons.
+// Cela fusionnera effectivement les deux listes en une seule.
+// Si nous définissons le flag "KeepSourceNumbering" sur "true", alors le clone du document
+ // list conservera sa numérotation d'origine, faisant apparaître les deux listes comme des listes distinctes.
 ImportFormatOptions importFormatOptions = new ImportFormatOptions();
 importFormatOptions.KeepSourceNumbering = keepSourceNumbering;
 

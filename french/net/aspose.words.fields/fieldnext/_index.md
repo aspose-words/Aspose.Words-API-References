@@ -3,12 +3,14 @@ title: Class FieldNext
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.Fields.FieldNext classe. Implémente le champ NEXT.
 type: docs
-weight: 2030
+weight: 2180
 url: /fr/net/aspose.words.fields/fieldnext/
 ---
 ## FieldNext class
 
 Implémente le champ NEXT.
+
+Pour en savoir plus, visitez le[Travailler avec des champs](https://docs.aspose.com/words/net/working-with-fields/) article documentaire.
 
 ```csharp
 public class FieldNext : Field
@@ -30,8 +32,8 @@ public class FieldNext : Field
 | [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Obtient ou définit si le résultat actuel du champ n'est plus correct (périmé) en raison d'autres modifications apportées au document. |
 | [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Obtient ou définit si le champ est verrouillé (ne doit pas recalculer son résultat). |
 | [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Obtient ou définit le LCID du champ. |
-| [Result](../../aspose.words.fields/field/result/) { get; set; } | Obtient ou définit le texte qui se trouve entre le séparateur de champ et la fin du champ. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | Obtient le nœud qui représente le séparateur de champs. Peut être null. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | Obtient ou définit le texte situé entre le séparateur de champ et la fin du champ. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Obtient le nœud qui représente le séparateur de champ. Peut être`nul` . |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Obtient le nœud qui représente le début du champ. |
 | virtual [Type](../../aspose.words.fields/field/type/) { get; } | Obtient le type de champ Microsoft Word. |
 
@@ -41,25 +43,26 @@ public class FieldNext : Field
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Renvoie le texte entre le début du champ et le séparateur de champ (ou la fin du champ s'il n'y a pas de séparateur). Le code de champ et le résultat du champ des champs enfants sont inclus. |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Renvoie le texte entre le début du champ et le séparateur de champ (ou la fin du champ s'il n'y a pas de séparateur). |
-| [Remove](../../aspose.words.fields/field/remove/)() | Supprime le champ du document. Renvoie un nœud juste après le champ. Si la fin du champ est le dernier enfant de son nœud parent, renvoie son paragraphe parent. Si le champ est déjà supprimé, renvoie **nul** . |
+| [Remove](../../aspose.words.fields/field/remove/)() | Supprime le champ du document. Renvoie un nœud juste après le champ. Si la fin du champ est le dernier child de son nœud parent, renvoie son paragraphe parent. Si le champ est déjà supprimé, renvoie`nul` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Effectue la dissociation du champ. |
 | [Update](../../aspose.words.fields/field/update/)() | Effectue la mise à jour du champ. Lance si le champ est déjà mis à jour. |
 | [Update](../../aspose.words.fields/field/update/)(bool) | Effectue une mise à jour du champ. Lance si le champ est déjà mis à jour. |
 
 ### Remarques
 
-Fusionne l'enregistrement de données suivant dans le document fusionné actuel, plutôt que de commencer un nouveau document fusionné.
+Fusionne l'enregistrement de données suivant dans le document fusionné résultant actuel, plutôt que de démarrer un nouveau document fusionné.
 
 ### Exemples
 
 Montre comment utiliser les champs NEXT/NEXTIF pour fusionner plusieurs lignes en une seule page lors d'un publipostage.
 
 ```csharp
+public void FieldNext()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Crée une source de données pour notre publipostage avec 3 lignes.
+    // Créez une source de données pour notre publipostage avec 3 lignes.
     // Un publipostage qui utilise ce tableau créerait normalement un document de 3 pages.
     DataTable table = new DataTable("Employees");
     table.Columns.Add("Courtesy Title");
@@ -73,19 +76,19 @@ Montre comment utiliser les champs NEXT/NEXTIF pour fusionner plusieurs lignes e
 
     // Si nous avons plusieurs champs de fusion avec le même FieldName,
     // ils recevront les données de la même ligne de la source de données et afficheront la même valeur après la fusion.
-    // Un champ NEXT indique instantanément au publipostage de descendre d'une ligne,
-    // ce qui signifie que tous les champs MERGEFIELD qui suivent le champ NEXT recevront les données de la ligne suivante.
+    // Un champ NEXT indique au publipostage de descendre instantanément d'une ligne,
+    // ce qui signifie que tous les MERGEFIELD qui suivent le champ NEXT recevront les données de la ligne suivante.
     // Assurez-vous de ne jamais essayer de passer à la ligne suivante alors que vous êtes déjà sur la dernière ligne.
     FieldNext fieldNext = (FieldNext)builder.InsertField(FieldType.FieldNext, true);
 
     Assert.AreEqual(" NEXT ", fieldNext.GetFieldCode());
 
-    // Après la fusion, les valeurs de source de données que ces MERGEFIELD acceptent
-     // se retrouvera sur la même page que les CHAMPS DE FUSION ci-dessus.
+    // Après la fusion, les valeurs de source de données acceptées par ces MERGEFIELD
+     // se retrouvera sur la même page que les MERGEFIELD ci-dessus.
     InsertMergeFields(builder, "Second row: ");
 
     // Un champ NEXTIF a la même fonction qu'un champ NEXT,
-    // mais il passe à la ligne suivante uniquement si une déclaration construite par les 3 propriétés suivantes est vraie.
+    // mais il passe à la ligne suivante uniquement si une instruction construite par les 3 propriétés suivantes est vraie.
     FieldNextIf fieldNextIf = (FieldNextIf)builder.InsertField(FieldType.FieldNextIf, true);
     fieldNextIf.LeftExpression = "5";
     fieldNextIf.RightExpression = "2 + 3";
@@ -100,12 +103,13 @@ Montre comment utiliser les champs NEXT/NEXTIF pour fusionner plusieurs lignes e
 
     doc.MailMerge.Execute(table);
 
-     // Notre source de données a 3 lignes et nous avons sauté des lignes deux fois.
+     // Notre source de données comporte 3 lignes et nous avons sauté des lignes deux fois.
     // Notre document de sortie aura 1 page avec les données des 3 lignes.
     doc.Save(ArtifactsDir + "Field.NEXT.NEXTIF.docx");
+}
 
 /// <summary>
-/// Utilise un générateur de document pour insérer des MERGEFIELD pour une source de données qui contient des colonnes nommées "Courtesy Title", "First Name" et "Last Name".
+/// Utilise un générateur de documents pour insérer des MERGEFIELD pour une source de données contenant des colonnes nommées « Titre de courtoisie », « Prénom » et « Nom de famille ».
 /// </summary>
 public void InsertMergeFields(DocumentBuilder builder, string firstFieldTextBefore)
 {
@@ -116,7 +120,7 @@ public void InsertMergeFields(DocumentBuilder builder, string firstFieldTextBefo
 }
 
 /// <summary>
-/// Utilise un générateur de document pour insérer un MERRGEFIELD avec les propriétés spécifiées.
+/// Utilise un générateur de documents pour insérer un MERRGEFIELD avec les propriétés spécifiées.
 /// </summary>
 public void InsertMergeField(DocumentBuilder builder, string fieldName, string textBefore, string textAfter)
 {

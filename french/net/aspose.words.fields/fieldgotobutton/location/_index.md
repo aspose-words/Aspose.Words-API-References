@@ -16,14 +16,14 @@ public string Location { get; set; }
 
 ### Exemples
 
-Indique d'insérer un champ GOTOBUTTON.
+Montre pour insérer un champ GOTOBUTTON.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Ajoute un champ GOTOBUTTON. Lorsque nous double-cliquons sur ce champ dans Microsoft Word,
-// il amènera le curseur de texte au signet dont le nom fait référence à la propriété Location.
+// Ajout d'un champ GOTOBUTTON. Lorsque nous double-cliquons sur ce champ dans Microsoft Word,
+// il amènera le curseur de texte vers le signet dont le nom fait référence à la propriété Location.
 FieldGoToButton field = (FieldGoToButton)builder.InsertField(FieldType.FieldGoToButton, true);
 field.DisplayText = "My Button";
 field.Location = "MyBookmark";

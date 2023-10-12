@@ -3,7 +3,7 @@ title: Style.ListFormat
 second_title: Aspose.Words for .NET API Referansı
 description: Style mülk. Paragraf stilinin liste biçimlendirme özelliklerine erişim sağlar.
 type: docs
-weight: 100
+weight: 110
 url: /tr/net/aspose.words/style/listformat/
 ---
 ## Style.ListFormat property
@@ -16,11 +16,11 @@ public ListFormat ListFormat { get; }
 
 ### Notlar
 
-Bu özellik yalnızca paragraf stilleri için geçerlidir. Diğer stil türleri için bu özellik null değerini döndürür.
+Bu özellik yalnızca paragraf stilleri için geçerlidir. Diğer stil türleri için bu özellik şunu döndürür:`hükümsüz`.
 
 ### Örnekler
 
-Liste biçimlendirmeli bir paragraf stilinin nasıl oluşturulacağını ve kullanılacağını gösterir.
+Liste formatıyla paragraf stilinin nasıl oluşturulacağını ve kullanılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -36,11 +36,11 @@ style.ParagraphFormat.SpaceAfter = 12;
 style.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
 style.ListFormat.ListLevelNumber = 0;
 
-// Paragraf stilini belge oluşturucunun geçerli paragrafına uygulayın ve ardından biraz metin ekleyin.
+// Paragraf stilini belge oluşturucunun geçerli paragrafına uygulayın ve ardından bir miktar metin ekleyin.
 builder.ParagraphFormat.Style = style;
 builder.Writeln("Hello World: MyStyle1, bulleted list.");
 
-// Belge oluşturucunun stilini liste biçimlendirmesi olmayan bir stille değiştirin ve başka bir paragraf yazın.
+// Belge oluşturucunun stilini liste formatı olmayan bir stille değiştirin ve başka bir paragraf yazın.
 builder.ParagraphFormat.Style = doc.Styles["Normal"];
 builder.Writeln("Hello World: Normal.");
 

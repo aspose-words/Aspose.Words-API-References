@@ -1,14 +1,14 @@
 ---
 title: SignOptions.SignTime
 second_title: Aspose.Words för .NET API Referens
-description: SignOptions fast egendom. Datum för signering. Standardvärdet är aktuell tid Now .
+description: SignOptions fast egendom. Datum för signering. Standardvärdet är aktuell tid Now.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.digitalsignatures/signoptions/signtime/
 ---
 ## SignOptions.SignTime property
 
-Datum för signering. Standardvärdet är **aktuell tid** (Now ).
+Datum för signering. Standardvärdet är **aktuell tid** (Now).
 
 ```csharp
 public DateTime SignTime { get; set; }

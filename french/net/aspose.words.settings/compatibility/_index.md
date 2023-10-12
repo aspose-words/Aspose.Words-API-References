@@ -3,7 +3,7 @@ title: Enum Compatibility
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.Settings.Compatibility énumération. Spécifie les noms des options de compatibilité.
 type: docs
-weight: 5480
+weight: 5770
 url: /fr/net/aspose.words.settings/compatibility/
 ---
 ## Compatibility enumeration
@@ -99,7 +99,7 @@ public void OptimizeFor()
 {
     Document doc = new Document();
 
-    // Cet objet contient une longue liste d'indicateurs uniques à chaque document
+    // Cet objet contient une liste complète d'indicateurs uniques à chaque document
     // qui nous permettent de faciliter la rétrocompatibilité avec les anciennes versions de Microsoft Word.
     CompatibilityOptions options = doc.CompatibilityOptions;
 
@@ -121,7 +121,7 @@ public void OptimizeFor()
 }
 
 /// <summary>
-/// Regroupe tous les drapeaux dans l'objet d'options de compatibilité d'un document par état, puis imprime chaque groupe.
+/// Regroupe tous les indicateurs dans l'objet d'options de compatibilité d'un document par état, puis imprime chaque groupe.
 /// </summary>
 private static void PrintCompatibilityOptions(CompatibilityOptions options)
 {

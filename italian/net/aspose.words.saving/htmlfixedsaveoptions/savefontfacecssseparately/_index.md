@@ -1,14 +1,14 @@
 ---
 title: HtmlFixedSaveOptions.SaveFontFaceCssSeparately
 second_title: Aspose.Words per .NET API Reference
-description: HtmlFixedSaveOptions proprietà. Il flag indica se le regole CSS fontface devono essere inserite in un file separato fontFaces.css quando un documento viene salvato con un foglio di stile esterno ovvero quandoExportEmbeddedCss èfalso . Il valore predefinito èfalso  tutte le regole CSS sono scritte in un unico file styles.css.
+description: HtmlFixedSaveOptions proprietà. Il flag indica se le regole CSS fontface devono essere inserite in un file separato fontFaces.css quando un documento viene salvato con un foglio di stile esterno ovvero quandoExportEmbeddedCss èfalso . Il valore predefinito èfalso  tutte le regole CSS vengono scritte in un unico file styles.css.
 type: docs
 weight: 160
 url: /it/net/aspose.words.saving/htmlfixedsaveoptions/savefontfacecssseparately/
 ---
 ## HtmlFixedSaveOptions.SaveFontFaceCssSeparately property
 
-Il flag indica se le regole CSS "@font-face" devono essere inserite in un file separato "fontFaces.css" quando un documento viene salvato con un foglio di stile esterno (ovvero, quando[`ExportEmbeddedCss`](../exportembeddedcss/) è`falso` ). Il valore predefinito è`falso` , tutte le regole CSS sono scritte in un unico file "styles.css".
+Il flag indica se le regole CSS "@font-face" devono essere inserite in un file separato "fontFaces.css" quando un documento viene salvato con un foglio di stile esterno (ovvero quando[`ExportEmbeddedCss`](../exportembeddedcss/) è`falso` ). Il valore predefinito è`falso` , tutte le regole CSS vengono scritte in un unico file "styles.css".
 
 ```csharp
 public bool SaveFontFaceCssSeparately { get; set; }
@@ -16,11 +16,11 @@ public bool SaveFontFaceCssSeparately { get; set; }
 
 ### Osservazioni
 
-Impostazione di questa proprietà su`VERO` ripristina il vecchio comportamento (file separati) per la compatibilità con il codice legacy.
+Impostazione di questa proprietà su`VERO` ripristina il vecchio comportamento (file separati) per compatibilità con il codice legacy.
 
 ### Esempi
 
-Mostra come inserire CSS in un file separato e aggiungere un prefisso a tutti i suoi nomi di classe CSS.
+Mostra come inserire CSS in un file separato e aggiungere un prefisso a tutti i nomi delle classi CSS.
 
 ```csharp
 Document doc = new Document(MyDir + "Bookmarks.docx");

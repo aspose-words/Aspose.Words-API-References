@@ -3,7 +3,7 @@ title: CompositeNode.LastChild
 second_title: Aspose.Words für .NET-API-Referenz
 description: CompositeNode eigendom. Ruft das letzte untergeordnete Element des Knotens ab.
 type: docs
-weight: 60
+weight: 50
 url: /de/net/aspose.words/compositenode/lastchild/
 ---
 ## CompositeNode.LastChild property
@@ -16,7 +16,7 @@ public Node LastChild { get; }
 
 ### Bemerkungen
 
-Wenn es keinen letzten untergeordneten Knoten gibt, wird eine Null zurückgegeben.
+Wenn es keinen letzten untergeordneten Knoten gibt, a`Null` wird zurückgegeben.
 
 ### Beispiele
 
@@ -38,7 +38,7 @@ Section firstSection = (Section)lastSection.PreviousSibling;
 if (lastSection.PreviousSibling != null)
     doc.RemoveChild(firstSection);
 
-// Der Abschnitt, den wir entfernt haben, war der erste, sodass das Dokument nur den zweiten enthält.
+// Der Abschnitt, den wir entfernt haben, war der erste, so dass nur noch der zweite im Dokument übrig blieb.
 Assert.AreEqual("Section 2 text.", doc.GetText().Trim());
 ```
 

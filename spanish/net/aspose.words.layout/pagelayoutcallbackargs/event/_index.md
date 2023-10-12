@@ -1,14 +1,14 @@
 ---
 title: PageLayoutCallbackArgs.Event
 second_title: Referencia de API de Aspose.Words para .NET
-description: PageLayoutCallbackArgs propiedad. Obtiene evento.
+description: PageLayoutCallbackArgs propiedad. Obtiene el evento.
 type: docs
 weight: 20
 url: /es/net/aspose.words.layout/pagelayoutcallbackargs/event/
 ---
 ## PageLayoutCallbackArgs.Event property
 
-Obtiene evento.
+Obtiene el evento.
 
 ```csharp
 public PageLayoutEvent Event { get; }
@@ -19,7 +19,6 @@ public PageLayoutEvent Event { get; }
 Muestra cómo realizar un seguimiento de los cambios de diseño con una devolución de llamada de diseño.
 
 ```csharp
-[Test]
 public void PageLayoutCallback()
 {
     Document doc = new Document();

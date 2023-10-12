@@ -1,14 +1,14 @@
 ---
 title: Class ThumbnailGeneratingOptions
 second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Rendering.ThumbnailGeneratingOptions classe. Può essere utilizzato per specificare opzioni aggiuntive durante la generazione di miniature per un documento.
+description: Aspose.Words.Rendering.ThumbnailGeneratingOptions classe. Può essere utilizzato per specificare opzioni aggiuntive durante la generazione della miniatura per un documento.
 type: docs
-weight: 4340
+weight: 4600
 url: /it/net/aspose.words.rendering/thumbnailgeneratingoptions/
 ---
 ## ThumbnailGeneratingOptions class
 
-Può essere utilizzato per specificare opzioni aggiuntive durante la generazione di miniature per un documento.
+Può essere utilizzato per specificare opzioni aggiuntive durante la generazione della miniatura per un documento.
 
 ```csharp
 public class ThumbnailGeneratingOptions
@@ -24,12 +24,12 @@ public class ThumbnailGeneratingOptions
 
 | Nome | Descrizione |
 | --- | --- |
-| [GenerateFromFirstPage](../../aspose.words.rendering/thumbnailgeneratingoptions/generatefromfirstpage/) { get; set; } | Specifica se generare una miniatura dalla prima pagina del documento o dalla prima immagine. |
-| [ThumbnailSize](../../aspose.words.rendering/thumbnailgeneratingoptions/thumbnailsize/) { get; set; } | Dimensioni della miniatura generata in pixel. Il valore predefinito è 600x900. |
+| [GenerateFromFirstPage](../../aspose.words.rendering/thumbnailgeneratingoptions/generatefromfirstpage/) { get; set; } | Specifica se generare la miniatura dalla prima pagina del documento o dalla prima immagine. |
+| [ThumbnailSize](../../aspose.words.rendering/thumbnailgeneratingoptions/thumbnailsize/) { get; set; } | Dimensione della miniatura generata in pixel. L'impostazione predefinita è 600x900. |
 
 ### Osservazioni
 
-L'utente può chiamare il metodo[`UpdateThumbnail`](../../aspose.words/document/updatethumbnail/) generare [`Thumbnail`](../../aspose.words.properties/builtindocumentproperties/thumbnail/) per un documento.
+L'utente può chiamare il metodo[`UpdateThumbnail`](../../aspose.words/document/updatethumbnail/) per generare [`Thumbnail`](../../aspose.words.properties/builtindocumentproperties/thumbnail/) per un documento.
 
 ### Esempi
 
@@ -42,12 +42,12 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 builder.InsertImage(ImageDir + "Logo.jpg");
 
-// Ci sono due modi per impostare un'immagine in miniatura quando si salva un documento in .epub.
-// 1 - Usa la prima pagina del documento:
+// Esistono due modi per impostare un'immagine in miniatura quando si salva un documento in .epub.
+// 1 - Utilizza la prima pagina del documento:
 doc.UpdateThumbnail();
 doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstPage.epub");
 
-// 2 - Usa la prima immagine trovata nel documento:
+// 2 - Utilizza la prima immagine trovata nel documento:
 ThumbnailGeneratingOptions options = new ThumbnailGeneratingOptions();
 options.ThumbnailSize = new Size(400, 400);
 options.GenerateFromFirstPage = false;

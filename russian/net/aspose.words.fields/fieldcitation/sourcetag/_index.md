@@ -1,14 +1,14 @@
 ---
 title: FieldCitation.SourceTag
 second_title: Справочник по API Aspose.Words для .NET
-description: FieldCitation свойство. Получает или задает значение соответствующее Ярлыкзначение элемента источника для вставки.
+description: FieldCitation свойство. Получает или задает значение соответствующее Ярлык значение элемента источника для вставки.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.fields/fieldcitation/sourcetag/
 ---
 ## FieldCitation.SourceTag property
 
-Получает или задает значение, соответствующее **Ярлык**значение элемента источника для вставки.
+Получает или задает значение, соответствующее **Ярлык** значение элемента источника для вставки.
 
 ```csharp
 public string SourceTag { get; set; }
@@ -16,19 +16,19 @@ public string SourceTag { get; set; }
 
 ### Примеры
 
-Показывает, как работать с полями ЦИТАЦИЯ и БИБЛИОГРАФИЯ.
+Показывает, как работать с полями ЦИТАТА и БИБЛИОГРАФИЯ.
 
 ```csharp
 // Открываем документ, содержащий библиографические источники, которые мы можем найти в
-// Microsoft Word через ссылки -> Цитаты и ссылки Библиография -> Управление источниками.
+// Microsoft Word через ссылки -> Цитаты и Библиография -> Управление источниками.
 Document doc = new Document(MyDir + "Bibliography.docx");
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Write("Text to be cited with one source.");
 
-// Создать цитату, указав только номер страницы и автора книги, на которую ссылаются.
+// Создайте цитату, указав только номер страницы и автора книги, на которую ссылаетесь.
 FieldCitation fieldCitation = (FieldCitation)builder.InsertField(FieldType.FieldCitation, true);
 
-// Мы ссылаемся на источники, используя имена их тегов.
+// Мы ссылаемся на источники, используя их имена тегов.
 fieldCitation.SourceTag = "Book1";
 fieldCitation.PageNumber = "85";
 fieldCitation.SuppressAuthor = false;
@@ -37,7 +37,7 @@ fieldCitation.SuppressYear = true;
 
 Assert.AreEqual(" CITATION  Book1 \\p 85 \\t \\y", fieldCitation.GetFieldCode());
 
-// Создать более подробную цитату со ссылкой на два источника.
+// Создайте более подробную цитату, в которой цитируются два источника.
 builder.InsertParagraph();
 builder.Write("Text to be cited with two sources.");
 fieldCitation = (FieldCitation)builder.InsertField(FieldType.FieldCitation, true);
@@ -57,9 +57,9 @@ Assert.AreEqual(" CITATION  Book1 \\m Book2 \\l en-US \\p 19 \\f \"Prefix \" \\s
 // Мы можем использовать поле БИБЛИОГРАФИЯ для отображения всех источников в документе.
 builder.InsertBreak(BreakType.PageBreak);
 FieldBibliography fieldBibliography = (FieldBibliography)builder.InsertField(FieldType.FieldBibliography, true);
-fieldBibliography.FormatLanguageId = "1124";
+fieldBibliography.FormatLanguageId = "5129";
 
-Assert.AreEqual(" BIBLIOGRAPHY  \\l 1124", fieldBibliography.GetFieldCode());
+Assert.AreEqual(" BIBLIOGRAPHY  \\l 5129", fieldBibliography.GetFieldCode());
 
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "Field.CITATION.docx");

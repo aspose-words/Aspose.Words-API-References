@@ -1,14 +1,14 @@
 ---
 title: Footnote.FootnoteType
 second_title: Aspose.Words for .NET API Referansı
-description: Footnote mülk. Bunun bir dipnot mu yoksa son not mu olduğunu belirten bir değer döndürür.
+description: Footnote mülk. Bunun dipnot mu yoksa son not mu olduğunu belirten bir değer döndürür.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.notes/footnote/footnotetype/
 ---
 ## Footnote.FootnoteType property
 
-Bunun bir dipnot mu yoksa son not mu olduğunu belirten bir değer döndürür.
+Bunun dipnot mu yoksa son not mu olduğunu belirten bir değer döndürür.
 
 ```csharp
 public FootnoteType FootnoteType { get; }
@@ -16,18 +16,18 @@ public FootnoteType FootnoteType { get; }
 
 ### Örnekler
 
-Dipnotlar ve son notlar arasındaki farkı gösterir.
+Dipnotlarla sonnotlar arasındaki farkı gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Metne numaralandırılmış referanslar eklemenin iki yolu aşağıdadır. Bu referansların her ikisi de bir
-// onları eklediğimiz yerde küçük üst simge referans işareti.
+// Aşağıda metne numaralandırılmış referanslar eklemenin iki yolu verilmiştir. Bu referansların her ikisi de bir ekleyecektir
+// eklediğimiz yerdeki küçük üst simge referans işareti.
 // Referans işareti, varsayılan olarak, belgedeki tüm referanslar arasındaki referansın indeks numarasıdır.
-// Her referans, gövde metnindekiyle aynı referans işaretine sahip olacak bir giriş de yaratacaktır.
+// Her referans aynı zamanda gövde metnindekiyle aynı referans işaretine sahip olacak bir giriş yaratacaktır.
 // ve belge oluşturucunun "InsertFootnote" yöntemine ileteceğimiz referans metni.
-// 1 - Girişi, referans verdiği metinle aynı sayfada görünecek bir dipnot:
+// 1 - Girişi, atıfta bulunduğu metinle aynı sayfada görünecek bir dipnot:
 builder.Write("Footnote referenced main body text.");
 Footnote footnote = builder.InsertFootnote(FootnoteType.Footnote, 
     "Footnote text, will appear at the bottom of the page that contains the referenced text.");

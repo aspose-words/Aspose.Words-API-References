@@ -16,7 +16,7 @@ public Paragraph FirstParagraph { get; }
 
 ### Esempi
 
-Mostra come formattare una sequenza di testo utilizzando la relativa proprietà del carattere.
+Mostra come formattare una sequenza di testo utilizzando la relativa proprietà font.
 
 ```csharp
 Document doc = new Document();
@@ -46,7 +46,7 @@ textBox.Width = 200;
 textBox.HorizontalAlignment = HorizontalAlignment.Center;
 textBox.VerticalAlignment = VerticalAlignment.Top;
 
-// Aggiungi un paragrafo alla casella di testo e aggiungi una sequenza di testo che verrà visualizzata nella casella di testo.
+// Aggiunge un paragrafo alla casella di testo e aggiunge una sequenza di testo che verrà visualizzata nella casella di testo.
 textBox.AppendChild(new Paragraph(doc));
 Paragraph para = textBox.FirstParagraph;
 para.ParagraphFormat.Alignment = ParagraphAlignment.Center;

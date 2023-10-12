@@ -1,14 +1,14 @@
 ---
 title: TableStyle.CellSpacing
 second_title: Aspose.Words لمراجع .NET API
-description: TableStyle ملكية. الحصول على أو تحديد مقدار المسافة بالنقاط بين الخلايا.
+description: TableStyle ملكية. الحصول على أو تعيين مقدار المسافة بالنقاط بين الخلايا.
 type: docs
 weight: 60
 url: /ar/net/aspose.words/tablestyle/cellspacing/
 ---
 ## TableStyle.CellSpacing property
 
-الحصول على أو تحديد مقدار المسافة (بالنقاط) بين الخلايا.
+الحصول على أو تعيين مقدار المسافة (بالنقاط) بين الخلايا.
 
 ```csharp
 public double CellSpacing { get; set; }

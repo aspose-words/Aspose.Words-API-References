@@ -3,7 +3,7 @@ title: Range.Text
 second_title: Справочник по API Aspose.Words для .NET
 description: Range свойство. Получает текст диапазона.
 type: docs
-weight: 50
+weight: 60
 url: /ru/net/aspose.words/range/text/
 ---
 ## Range.Text property
@@ -16,11 +16,11 @@ public string Text { get; }
 
 ### Примечания
 
-Возвращаемая строка включает все управляющие и специальные символы, как описано в[`ControlChar`](../../controlchar/).
+Возвращенная строка включает все управляющие и специальные символы, как описано в разделе[`ControlChar`](../../controlchar/).
 
 ### Примеры
 
-Показывает, как получить текстовое содержимое всех узлов, которые охватывает диапазон.
+Показывает, как получить текстовое содержимое всех узлов, охватываемых диапазоном.
 
 ```csharp
 Document doc = new Document();

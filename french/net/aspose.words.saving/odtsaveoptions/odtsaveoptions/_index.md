@@ -40,7 +40,7 @@ doc.Save(ArtifactsDir + "OdtSaveOptions.Odt11Schema.odt", saveOptions);
 
 ## OdtSaveOptions(string) {#constructor_2}
 
-Initialise une nouvelle instance de cette classe qui peut être utilisée pour enregistrer un document dans leOdt format crypté avec un mot de passe.
+Initialise une nouvelle instance de cette classe qui peut être utilisée pour enregistrer un document dans leOdt format chiffré avec un mot de passe.
 
 ```csharp
 public OdtSaveOptions(string password)
@@ -68,21 +68,21 @@ public OdtSaveOptions(SaveFormat saveFormat)
 
 ### Exemples
 
-Montre comment chiffrer un document ODT/OTT enregistré avec un mot de passe, puis le charger à l'aide de Aspose.Words.
+Montre comment chiffrer un document ODT/OTT enregistré avec un mot de passe, puis le charger à l'aide d'Aspose.Words.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// Crée un nouveau OdtSaveOptions, et passe soit "SaveFormat.Odt",
-// ou "SaveFormat.Ott" comme format d'enregistrement du document. 
+// Créez un nouveau OdtSaveOptions, et transmettez soit "SaveFormat.Odt",
+ // ou "SaveFormat.Ott" comme format dans lequel enregistrer le document.
 OdtSaveOptions saveOptions = new OdtSaveOptions(saveFormat);
 saveOptions.Password = "@sposeEncrypted_1145";
 
 string extensionString = FileFormatUtil.SaveFormatToExtension(saveFormat);
 
-// Si nous ouvrons ce document avec un éditeur approprié,
+// Si on ouvre ce document avec un éditeur approprié,
 // il nous demandera le mot de passe que nous avons spécifié dans l'objet SaveOptions.
 doc.Save(ArtifactsDir + "OdtSaveOptions.Encrypt" + extensionString, saveOptions);
 
@@ -91,7 +91,7 @@ FileFormatInfo docInfo = FileFormatUtil.DetectFileFormat(ArtifactsDir + "OdtSave
 Assert.IsTrue(docInfo.IsEncrypted);
 
 // Si nous souhaitons ouvrir ou modifier à nouveau ce document en utilisant Aspose.Words,
-// nous devrons fournir un objet LoadOptions avec le mot de passe correct au constructeur de chargement.
+// nous devrons fournir un objet LoadOptions avec le bon mot de passe au constructeur de chargement.
 doc = new Document(ArtifactsDir + "OdtSaveOptions.Encrypt" + extensionString,
     new LoadOptions("@sposeEncrypted_1145"));
 

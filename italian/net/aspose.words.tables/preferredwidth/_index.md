@@ -1,14 +1,16 @@
 ---
 title: Class PreferredWidth
 second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Tables.PreferredWidth classe. Rappresenta un valore e la relativa unità di misura utilizzati per specificare la larghezza preferita di una tabella o di una cella.
+description: Aspose.Words.Tables.PreferredWidth classe. Rappresenta un valore e la relativa unità di misura utilizzata per specificare la larghezza preferita di una tabella o di una cella.
 type: docs
-weight: 5990
+weight: 6290
 url: /it/net/aspose.words.tables/preferredwidth/
 ---
 ## PreferredWidth class
 
-Rappresenta un valore e la relativa unità di misura utilizzati per specificare la larghezza preferita di una tabella o di una cella.
+Rappresenta un valore e la relativa unità di misura utilizzata per specificare la larghezza preferita di una tabella o di una cella.
+
+Per saperne di più, visita il[Lavorare con le tabelle](https://docs.aspose.com/words/net/working-with-tables/) articolo di documentazione.
 
 ```csharp
 public sealed class PreferredWidth
@@ -19,7 +21,7 @@ public sealed class PreferredWidth
 | Nome | Descrizione |
 | --- | --- |
 | [Type](../../aspose.words.tables/preferredwidth/type/) { get; } | Ottiene l'unità di misura utilizzata per questo valore di larghezza preferito. |
-| [Value](../../aspose.words.tables/preferredwidth/value/) { get; } | Ottiene il valore di larghezza preferito. L'unità di misura è specificata nella[`Type`](./type/) proprietà. |
+| [Value](../../aspose.words.tables/preferredwidth/value/) { get; } | Ottiene il valore di larghezza preferito. L'unità di misura è specificata nel[`Type`](./type/) proprietà. |
 
 ## Metodi
 
@@ -27,8 +29,8 @@ public sealed class PreferredWidth
 | --- | --- |
 | static [FromPercent](../../aspose.words.tables/preferredwidth/frompercent/)(double) | Un metodo di creazione che restituisce una nuova istanza che rappresenta una larghezza preferita specificata come percentuale. |
 | static [FromPoints](../../aspose.words.tables/preferredwidth/frompoints/)(double) | Un metodo di creazione che restituisce una nuova istanza che rappresenta una larghezza preferita specificata utilizzando un numero di punti. |
-| override [Equals](../../aspose.words.tables/preferredwidth/equals/#equals_1)(object) | Determina se l'oggetto specificato è uguale in valore all'oggetto corrente. |
-| [Equals](../../aspose.words.tables/preferredwidth/equals/#equals)(PreferredWidth) | Determina se il valore PreferredWidth specificato è uguale al valore PreferredWidth corrente. |
+| override [Equals](../../aspose.words.tables/preferredwidth/equals/#equals_1)(object) | Determina se l'oggetto specificato ha un valore uguale all'oggetto corrente. |
+| [Equals](../../aspose.words.tables/preferredwidth/equals/#equals)(PreferredWidth) | Determina se specificato`PreferredWidth` ha lo stesso valore della corrente`PreferredWidth` . |
 | override [GetHashCode](../../aspose.words.tables/preferredwidth/gethashcode/)() | Serve come funzione hash per questo tipo. |
 | override [ToString](../../aspose.words.tables/preferredwidth/tostring/)() | Restituisce una stringa intuitiva che visualizza il valore di questo oggetto. |
 
@@ -36,11 +38,11 @@ public sealed class PreferredWidth
 
 | Nome | Descrizione |
 | --- | --- |
-| static readonly [Auto](../../aspose.words.tables/preferredwidth/auto/) | Restituisce un'istanza che rappresenta il valore "la larghezza preferita non è specificata". |
+| static readonly [Auto](../../aspose.words.tables/preferredwidth/auto/) | Restituisce un'istanza che rappresenta il valore "larghezza preferita non specificata". |
 
 ### Osservazioni
 
-La larghezza preferita può essere specificata come percentuale, numero di punti o un valore speciale "nessuno/auto".
+La larghezza preferita può essere specificata come percentuale, numero di punti o un valore speciale "nessuno/automatico".
 
 Le istanze di questa classe sono immutabili.
 
@@ -65,7 +67,7 @@ table.PreferredWidth = PreferredWidth.FromPercent(50);
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertTableWithPreferredWidth.docx");
 ```
 
-Mostra come impostare una larghezza preferita per le celle della tabella.
+Mostra come impostare la larghezza preferita per le celle della tabella.
 
 ```csharp
 Document doc = new Document();
@@ -79,7 +81,7 @@ builder.CellFormat.PreferredWidth = PreferredWidth.FromPoints(40);
 builder.CellFormat.Shading.BackgroundPatternColor = Color.LightYellow;
 builder.Writeln($"Cell with a width of {builder.CellFormat.PreferredWidth}.");
 
-// 2 - Imposta una larghezza relativa preferita in base alla percentuale della larghezza della tabella:
+// 2 - Imposta una larghezza preferita relativa in base alla percentuale della larghezza della tabella:
 builder.InsertCell();
 builder.CellFormat.PreferredWidth = PreferredWidth.FromPercent(20);
 builder.CellFormat.Shading.BackgroundPatternColor = Color.LightBlue;
@@ -87,7 +89,7 @@ builder.Writeln($"Cell with a width of {builder.CellFormat.PreferredWidth}.");
 
 builder.InsertCell();
 
-// Una cella senza una larghezza preferita specificata occuperà il resto dello spazio disponibile.
+// Una cella senza larghezza preferita specificata occuperà il resto dello spazio disponibile.
 builder.CellFormat.PreferredWidth = PreferredWidth.Auto;
 
 // Ogni configurazione della proprietà "PreferredWidth" crea un nuovo oggetto.

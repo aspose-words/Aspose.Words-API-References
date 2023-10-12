@@ -24,7 +24,7 @@ public static double PointToInch(double points)
 
 ### Ejemplos
 
-Muestra cómo especificar las propiedades de la página en pulgadas.
+Muestra cómo especificar propiedades de página en pulgadas.
 
 ```csharp
 Document doc = new Document();

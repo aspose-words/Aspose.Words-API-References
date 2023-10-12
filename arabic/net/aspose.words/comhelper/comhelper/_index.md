@@ -22,12 +22,12 @@ public ComHelper()
 // تسمح لنا فئة ComHelper بتحميل المستندات من داخل عملاء COM.
 ComHelper comHelper = new ComHelper();
 
-// 1 - استخدام اسم ملف نظام محلي:
+// 1 - استخدام اسم ملف النظام المحلي:
 Document doc = comHelper.Open(MyDir + "Document.docx");
 
 Assert.AreEqual("Hello World!\r\rHello Word!\r\r\rHello World!", doc.GetText().Trim());
 
-// 2 - من تيار:
+// 2 - من الدفق:
 using (FileStream stream = new FileStream(MyDir + "Document.docx", FileMode.Open))
 {
     doc = comHelper.Open(stream);

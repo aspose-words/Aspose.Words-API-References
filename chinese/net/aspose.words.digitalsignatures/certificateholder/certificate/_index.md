@@ -1,14 +1,14 @@
 ---
 title: CertificateHolder.Certificate
 second_title: Aspose.Words for .NET API 参考
-description: CertificateHolder 财产. 返回的实例 X509证书2它拥有私钥公钥和证书链
+description: CertificateHolder 财产. 返回以下实例 X509证书2它保存私钥公钥和证书链
 type: docs
 weight: 20
 url: /zh/net/aspose.words.digitalsignatures/certificateholder/certificate/
 ---
 ## CertificateHolder.Certificate property
 
-返回的实例 **X509证书2**它拥有私钥、公钥和证书链。
+返回以下实例 **X509证书2**它保存私钥、公钥和证书链。
 
 ```csharp
 public X509Certificate2 Certificate { get; }

@@ -1,14 +1,14 @@
 ---
 title: SignatureLine.IsValid
 second_title: Aspose.Words for .NET API Referansı
-description: SignatureLine mülk. İmza satırının dijital imza ile imzalandığını ve bu dijital imzanın geçerli olduğunu gösterir.
+description: SignatureLine mülk. İmza satırının dijital imza ile imzalandığını ve bu dijital imzanın geçerli olduğunu belirtir.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.drawing/signatureline/isvalid/
 ---
 ## SignatureLine.IsValid property
 
-İmza satırının dijital imza ile imzalandığını ve bu dijital imzanın geçerli olduğunu gösterir.
+İmza satırının dijital imza ile imzalandığını ve bu dijital imzanın geçerli olduğunu belirtir.
 
 ```csharp
 public bool IsValid { get; }
@@ -16,7 +16,7 @@ public bool IsValid { get; }
 
 ### Örnekler
 
-Kişisel sertifika ve imza satırı ile bir belgenin nasıl imzalanacağını gösterir.
+Kişisel sertifika ve imza satırı içeren bir belgenin nasıl imzalanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -54,7 +54,7 @@ CertificateHolder certHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "a
 DigitalSignatureUtil.Sign(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.docx", 
     ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
 
-// Kaydedilmiş belgemizi yeniden açın ve "IsSigned" ve "IsValid" özelliklerinin her ikisinin de "true" değerine eşit olduğunu doğrulayın,
+// Kaydedilen belgemizi yeniden açın ve "IsSigned" ve "IsValid" özelliklerinin her ikisinin de "true" değerine eşit olduğunu doğrulayın,
 // imza satırının bir imza içerdiğini belirtir.
 doc = new Document(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);

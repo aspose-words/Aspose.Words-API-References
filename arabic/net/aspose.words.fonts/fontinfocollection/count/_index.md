@@ -16,13 +16,13 @@ public int Count { get; }
 
 ### أمثلة
 
-يظهر معلومات حول الخطوط الموجودة في المستند الفارغ.
+يعرض معلومات حول الخطوط الموجودة في المستند الفارغ.
 
 ```csharp
 Document doc = new Document();
 
 // يحتوي المستند الفارغ على 3 خطوط افتراضية. كل خط في الوثيقة
-// سيكون له كائن FontInfo مطابق يحتوي على تفاصيل حول هذا الخط.
+// سيكون له كائن FontInfo المطابق الذي يحتوي على تفاصيل حول هذا الخط.
 Assert.AreEqual(3, doc.FontInfos.Count);
 
 Assert.True(doc.FontInfos.Contains("Times New Roman"));

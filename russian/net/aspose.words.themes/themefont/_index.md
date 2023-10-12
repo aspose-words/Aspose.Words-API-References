@@ -1,14 +1,14 @@
 ---
 title: Enum ThemeFont
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Themes.ThemeFont перечисление. Определяет типы названий шрифтов тем для тем документов.
+description: Aspose.Words.Themes.ThemeFont перечисление. Указывает типы названий шрифтов темы для тем документов.
 type: docs
-weight: 6190
+weight: 6490
 url: /ru/net/aspose.words.themes/themefont/
 ---
 ## ThemeFont enumeration
 
-Определяет типы названий шрифтов тем для тем документов.
+Указывает типы названий шрифтов темы для тем документов.
 
 ```csharp
 public enum ThemeFont
@@ -24,7 +24,7 @@ public enum ThemeFont
 
 ### Примечания
 
-Определяет тип шрифта темы, на который можно ссылаться как на шрифт темы в свойствах родительского объекта. устанавливаться централизованно в документе.
+Указывает тип шрифта темы, на который можно ссылаться как на шрифт темы в свойствах родительского объекта. Этот шрифт темы является ссылкой на один из предопределенных шрифтов темы, расположенных в части документа Тема, которая позволяет передавать информацию о шрифте. быть установлен централизованно в документе.
 
 ### Примеры
 
@@ -36,7 +36,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln();
 
-// Создадим какой-нибудь стиль со свойствами шрифта темы.
+// Создайте стиль с помощью свойств шрифта темы.
 Style style = doc.Styles.Add(StyleType.Paragraph, "ThemedStyle");
 style.Font.ThemeFont = ThemeFont.Major;
 style.Font.ThemeColor = ThemeColor.Accent5;
@@ -51,7 +51,7 @@ builder.Writeln("Text with themed style");
 ```csharp
 Document doc = new Document();
 
-// Определяем шрифты для языков, используемых по умолчанию.
+// Определить шрифты для языков, используемых по умолчанию.
 doc.Theme.MinorFonts.Latin = "Algerian";
 doc.Theme.MinorFonts.EastAsian = "Aharoni";
 doc.Theme.MinorFonts.ComplexScript = "Andalus";
@@ -81,8 +81,8 @@ Assert.AreEqual("Algerian", font.NameOther);
 Assert.AreEqual(ThemeColor.Accent2, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
-// Есть несколько способов изменить их шрифт и цвет.
-// 1 - Установив ThemeFont.None/ThemeColor.None:
+// Есть несколько способов сбросить шрифт и цвет.
+// 1 — установив ThemeFont.None/ThemeColor.None:
 font.ThemeFont = ThemeFont.None;
 font.ThemeColor = ThemeColor.None;
 
@@ -104,7 +104,7 @@ Assert.AreEqual("Algerian", font.NameOther);
 Assert.AreEqual(ThemeColor.None, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
-// 2 - Установив имена шрифта/цвета, не относящиеся к теме:
+// 2 - путем установки названий шрифтов/цветов, не относящихся к теме:
 font.Name = "Arial";
 font.Color = Color.Blue;
 

@@ -18,7 +18,7 @@ public string AttachedTemplate { get; set; }
 
 | excepción | condición |
 | --- | --- |
-| ArgumentNullException | Se lanza si intenta establecer un valor nulo. |
+| ArgumentNullException | Se lanza si intenta establecer un`nulo` valor. |
 
 ### Observaciones
 
@@ -36,8 +36,8 @@ doc.AutomaticallyUpdateStyles = true;
 
 Assert.AreEqual(string.Empty, doc.AttachedTemplate);
 
-// Dado que no hay un documento de plantilla, el documento no tenía dónde rastrear los cambios de estilo.
-// Usar un objeto SaveOptions para configurar automáticamente una plantilla
+// Como no hay un documento de plantilla, el documento no tenía ningún lugar para realizar un seguimiento de los cambios de estilo.
+// Usa un objeto SaveOptions para configurar automáticamente una plantilla
 // si un documento que estamos guardando no lo tiene.
 SaveOptions options = SaveOptions.CreateSaveOptions("Document.DefaultTemplate.docx");
 options.DefaultTemplate = MyDir + "Business brochure.dotx";

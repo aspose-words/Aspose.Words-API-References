@@ -3,7 +3,7 @@ title: PageSetup.VerticalAlignment
 second_title: Справочник по API Aspose.Words для .NET
 description: PageSetup свойство. Возвращает или задает вертикальное выравнивание текста на каждой странице документа или раздела.
 type: docs
-weight: 440
+weight: 450
 url: /ru/net/aspose.words/pagesetup/verticalalignment/
 ---
 ## PageSetup.VerticalAlignment property
@@ -16,7 +16,7 @@ public PageVerticalAlignment VerticalAlignment { get; set; }
 
 ### Примеры
 
-Показывает, как применять и возвращать параметры настройки страницы к разделам документа.
+Показывает, как применить и вернуть параметры настройки страницы к разделам документа.
 
 ```csharp
 Document doc = new Document();
@@ -27,14 +27,14 @@ builder.PageSetup.Orientation = Orientation.Landscape;
 builder.PageSetup.VerticalAlignment = PageVerticalAlignment.Center;
 builder.Writeln("This is the first section, which landscape oriented with vertically centered text.");
 
-// Если мы начинаем новый раздел с помощью конструктора документов,
-// он унаследует текущие свойства настройки страницы компоновщика.
+// Если мы начнем новый раздел с помощью построителя документов,
+// он унаследует текущие свойства настройки страницы конструктора.
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 
 Assert.AreEqual(Orientation.Landscape, doc.Sections[1].PageSetup.Orientation);
 Assert.AreEqual(PageVerticalAlignment.Center, doc.Sections[1].PageSetup.VerticalAlignment);
 
-// Мы можем вернуть его свойства настройки страницы к их значениям по умолчанию, используя метод «ClearFormatting».
+// Мы можем вернуть свойства настройки страницы к значениям по умолчанию, используя метод «ClearFormatting».
 builder.PageSetup.ClearFormatting();
 
 Assert.AreEqual(Orientation.Portrait, doc.Sections[1].PageSetup.Orientation);

@@ -20,9 +20,9 @@ public SmartTag(DocumentBase doc)
 
 ### Observaciones
 
-Cuando crea un nuevo nodo, debe especificar un documento al que pertenece el nodo. Un nodo no puede existir sin un documento porque depende de las estructuras de todo el documento como listas y estilos. Aunque un nodo siempre pertenece a un documento, un nodo puede o no ser parte del árbol del documento.
+Cuando crea un nuevo nodo, necesita especificar un documento al que pertenece el nodo. Un nodo no puede existir sin un documento porque depende de las estructuras de todo el documento , como listas y estilos. Aunque un nodo siempre pertenece a un documento, un nodo puede o no ser parte del árbol del documento.
 
-Cuando se crea un nodo, pertenece a un documento, pero aún no forma parte del documento tree y[`ParentNode`](../../../aspose.words/node/parentnode/) es nulo. Para insertar un nodo en el documento, use the [`InsertAfter`](../../../aspose.words/compositenode/insertafter/) o[`InsertBefore`](../../../aspose.words/compositenode/insertbefore/) métodos en el nodo principal.
+Cuando se crea un nodo, pertenece a un documento, pero aún no forma parte del documento tree y[`ParentNode`](../../../aspose.words/node/parentnode/) es`nulo` . Para insertar un nodo en el documento, use the Node) oNode) métodos en el nodo principal.
 
 ### Ejemplos
 
@@ -33,11 +33,11 @@ public void Create()
 {
     Document doc = new Document();
 
-    // Aparece una etiqueta inteligente en un documento con Microsoft Word que reconoce una parte de su texto como algún tipo de datos,
-    // como un nombre, fecha o dirección, y lo convierte en un hipervínculo que muestra un subrayado punteado de color púrpura.
+    // Aparece una etiqueta inteligente en un documento y Microsoft Word reconoce una parte de su texto como algún tipo de datos,
+    // como un nombre, fecha o dirección, y lo convierte en un hipervínculo que muestra un subrayado de puntos de color púrpura.
     SmartTag smartTag = new SmartTag(doc);
 
-    // Las etiquetas inteligentes son nodos compuestos que contienen su texto reconocido en su totalidad.
+    // Las etiquetas inteligentes son nodos compuestos que contienen el texto reconocido en su totalidad.
     // Agregue contenido a esta etiqueta inteligente manualmente.
     smartTag.AppendChild(new Run(doc, "May 29, 2019"));
 
@@ -45,18 +45,18 @@ public void Create()
     // Las etiquetas inteligentes utilizan la propiedad "Elemento" para reflejar el tipo de datos que contienen.
     smartTag.Element = "date";
 
-    // Algunos tipos de etiquetas inteligentes procesan aún más su contenido en propiedades XML personalizadas.
+    // Algunos tipos de etiquetas inteligentes procesan su contenido en propiedades XML personalizadas.
     smartTag.Properties.Add(new CustomXmlProperty("Day", string.Empty, "29"));
     smartTag.Properties.Add(new CustomXmlProperty("Month", string.Empty, "5"));
     smartTag.Properties.Add(new CustomXmlProperty("Year", string.Empty, "2019"));
 
-    // Establecer el URI de la etiqueta inteligente en el valor predeterminado.
+    // Establece el URI de la etiqueta inteligente en el valor predeterminado.
     smartTag.Uri = "urn:schemas-microsoft-com:office:smarttags";
 
     doc.FirstSection.Body.FirstParagraph.AppendChild(smartTag);
     doc.FirstSection.Body.FirstParagraph.AppendChild(new Run(doc, " is a date. "));
 
-    // Cree otra etiqueta inteligente para un tablero de cotizaciones.
+    // Crea otra etiqueta inteligente para un ticker bursátil.
     smartTag = new SmartTag(doc);
     smartTag.Element = "stockticker";
     smartTag.Uri = "urn:schemas-microsoft-com:office:smarttags";
@@ -72,7 +72,7 @@ public void Create()
     // Las versiones anteriores de Microsoft Word admiten etiquetas inteligentes.
     doc.Save(ArtifactsDir + "SmartTag.Create.doc");
 
-    // Use el método "RemoveSmartTags" para eliminar todas las etiquetas inteligentes de un documento.
+    // Utilice el método "RemoveSmartTags" para eliminar todas las etiquetas inteligentes de un documento.
     Assert.AreEqual(2, doc.GetChildNodes(NodeType.SmartTag, true).Count);
 
     doc.RemoveSmartTags();
@@ -81,12 +81,12 @@ public void Create()
 }
 
 /// <summary>
-/// Imprime las etiquetas inteligentes visitadas y sus contenidos.
+/// Imprime las etiquetas inteligentes visitadas y su contenido.
 /// </summary>
 private class SmartTagPrinter : DocumentVisitor
 {
     /// <summary>
-    /// Llamado cuando se encuentra un nodo SmartTag en el documento.
+    /// Se llama cuando se encuentra un nodo SmartTag en el documento.
     /// </summary>
     public override VisitorAction VisitSmartTagStart(SmartTag smartTag)
     {
@@ -95,7 +95,7 @@ private class SmartTagPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Llamado cuando finaliza la visita de un nodo SmartTag.
+    /// Se llama cuando finaliza la visita a un nodo SmartTag.
     /// </summary>
     public override VisitorAction VisitSmartTagEnd(SmartTag smartTag)
     {

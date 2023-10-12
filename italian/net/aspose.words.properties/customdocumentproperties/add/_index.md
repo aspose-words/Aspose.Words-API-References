@@ -1,14 +1,14 @@
 ---
 title: CustomDocumentProperties.Add
 second_title: Aspose.Words per .NET API Reference
-description: CustomDocumentProperties metodo. Crea una nuova proprietà del documento personalizzata di PropertyType.String tipo di dati.
+description: CustomDocumentProperties metodo. Crea una nuova proprietà del documento personalizzato delString tipo di dati.
 type: docs
 weight: 10
 url: /it/net/aspose.words.properties/customdocumentproperties/add/
 ---
 ## Add(string, string) {#add_4}
 
-Crea una nuova proprietà del documento personalizzata di **PropertyType.String** tipo di dati.
+Crea una nuova proprietà del documento personalizzato delString tipo di dati.
 
 ```csharp
 public DocumentProperty Add(string name, string value)
@@ -25,7 +25,7 @@ L'oggetto proprietà appena creato.
 
 ### Esempi
 
-Mostra come lavorare con le proprietà personalizzate di un documento.
+Mostra come utilizzare le proprietà personalizzate di un documento.
 
 ```csharp
 Document doc = new Document();
@@ -33,7 +33,7 @@ CustomDocumentProperties properties = doc.CustomDocumentProperties;
 
 Assert.AreEqual(0, properties.Count);
 
-// Le proprietà del documento personalizzate sono coppie chiave-valore che possiamo aggiungere al documento.
+// Le proprietà personalizzate del documento sono coppie chiave-valore che possiamo aggiungere al documento.
 properties.Add("Authorized", true);
 properties.Add("Authorized By", "John Doe");
 properties.Add("Authorized Date", DateTime.Today);
@@ -74,7 +74,7 @@ properties.Remove("Authorized Revision");
 Assert.False(properties.Contains("Authorized Revision"));
 Assert.AreEqual(3, properties.Count);
 
-// 3 - Svuota l'intera collezione in una volta:
+// 3 - Svuota l'intera raccolta in una volta:
 properties.Clear();
 
 Assert.AreEqual(0, properties.Count);
@@ -91,7 +91,7 @@ Assert.AreEqual(0, properties.Count);
 
 ## Add(string, int) {#add_2}
 
-Crea una nuova proprietà del documento personalizzata di **PropertyType.Number** tipo di dati.
+Crea una nuova proprietà del documento personalizzato delNumber tipo di dati.
 
 ```csharp
 public DocumentProperty Add(string name, int value)
@@ -108,7 +108,7 @@ L'oggetto proprietà appena creato.
 
 ### Esempi
 
-Mostra come lavorare con le proprietà personalizzate di un documento.
+Mostra come utilizzare le proprietà personalizzate di un documento.
 
 ```csharp
 Document doc = new Document();
@@ -116,7 +116,7 @@ CustomDocumentProperties properties = doc.CustomDocumentProperties;
 
 Assert.AreEqual(0, properties.Count);
 
-// Le proprietà del documento personalizzate sono coppie chiave-valore che possiamo aggiungere al documento.
+// Le proprietà personalizzate del documento sono coppie chiave-valore che possiamo aggiungere al documento.
 properties.Add("Authorized", true);
 properties.Add("Authorized By", "John Doe");
 properties.Add("Authorized Date", DateTime.Today);
@@ -157,7 +157,7 @@ properties.Remove("Authorized Revision");
 Assert.False(properties.Contains("Authorized Revision"));
 Assert.AreEqual(3, properties.Count);
 
-// 3 - Svuota l'intera collezione in una volta:
+// 3 - Svuota l'intera raccolta in una volta:
 properties.Clear();
 
 Assert.AreEqual(0, properties.Count);
@@ -174,7 +174,7 @@ Assert.AreEqual(0, properties.Count);
 
 ## Add(string, DateTime) {#add_3}
 
-Crea una nuova proprietà del documento personalizzata di **PropertyType.DateTime** tipo di dati.
+Crea una nuova proprietà del documento personalizzato delDateTime tipo di dati.
 
 ```csharp
 public DocumentProperty Add(string name, DateTime value)
@@ -201,7 +201,7 @@ doc.CustomDocumentProperties.Add("AuthorizationDate", DateTime.Now);
 Console.WriteLine($"Document authorized on {doc.CustomDocumentProperties["AuthorizationDate"].ToDateTime()}");
 ```
 
-Mostra come lavorare con le proprietà personalizzate di un documento.
+Mostra come utilizzare le proprietà personalizzate di un documento.
 
 ```csharp
 Document doc = new Document();
@@ -209,7 +209,7 @@ CustomDocumentProperties properties = doc.CustomDocumentProperties;
 
 Assert.AreEqual(0, properties.Count);
 
-// Le proprietà del documento personalizzate sono coppie chiave-valore che possiamo aggiungere al documento.
+// Le proprietà personalizzate del documento sono coppie chiave-valore che possiamo aggiungere al documento.
 properties.Add("Authorized", true);
 properties.Add("Authorized By", "John Doe");
 properties.Add("Authorized Date", DateTime.Today);
@@ -250,7 +250,7 @@ properties.Remove("Authorized Revision");
 Assert.False(properties.Contains("Authorized Revision"));
 Assert.AreEqual(3, properties.Count);
 
-// 3 - Svuota l'intera collezione in una volta:
+// 3 - Svuota l'intera raccolta in una volta:
 properties.Clear();
 
 Assert.AreEqual(0, properties.Count);
@@ -267,7 +267,7 @@ Assert.AreEqual(0, properties.Count);
 
 ## Add(string, bool) {#add}
 
-Crea una nuova proprietà del documento personalizzata di **PropertyType.Boolean** tipo di dati.
+Crea una nuova proprietà del documento personalizzato delBoolean tipo di dati.
 
 ```csharp
 public DocumentProperty Add(string name, bool value)
@@ -284,7 +284,7 @@ L'oggetto proprietà appena creato.
 
 ### Esempi
 
-Mostra come lavorare con le proprietà personalizzate di un documento.
+Mostra come utilizzare le proprietà personalizzate di un documento.
 
 ```csharp
 Document doc = new Document();
@@ -292,7 +292,7 @@ CustomDocumentProperties properties = doc.CustomDocumentProperties;
 
 Assert.AreEqual(0, properties.Count);
 
-// Le proprietà del documento personalizzate sono coppie chiave-valore che possiamo aggiungere al documento.
+// Le proprietà personalizzate del documento sono coppie chiave-valore che possiamo aggiungere al documento.
 properties.Add("Authorized", true);
 properties.Add("Authorized By", "John Doe");
 properties.Add("Authorized Date", DateTime.Today);
@@ -333,7 +333,7 @@ properties.Remove("Authorized Revision");
 Assert.False(properties.Contains("Authorized Revision"));
 Assert.AreEqual(3, properties.Count);
 
-// 3 - Svuota l'intera collezione in una volta:
+// 3 - Svuota l'intera raccolta in una volta:
 properties.Clear();
 
 Assert.AreEqual(0, properties.Count);
@@ -350,7 +350,7 @@ Assert.AreEqual(0, properties.Count);
 
 ## Add(string, double) {#add_1}
 
-Crea una nuova proprietà del documento personalizzata di **PropertyType.Float** tipo di dati.
+Crea una nuova proprietà del documento personalizzato delDouble tipo di dati.
 
 ```csharp
 public DocumentProperty Add(string name, double value)
@@ -367,7 +367,7 @@ L'oggetto proprietà appena creato.
 
 ### Esempi
 
-Mostra come lavorare con le proprietà personalizzate di un documento.
+Mostra come utilizzare le proprietà personalizzate di un documento.
 
 ```csharp
 Document doc = new Document();
@@ -375,7 +375,7 @@ CustomDocumentProperties properties = doc.CustomDocumentProperties;
 
 Assert.AreEqual(0, properties.Count);
 
-// Le proprietà del documento personalizzate sono coppie chiave-valore che possiamo aggiungere al documento.
+// Le proprietà personalizzate del documento sono coppie chiave-valore che possiamo aggiungere al documento.
 properties.Add("Authorized", true);
 properties.Add("Authorized By", "John Doe");
 properties.Add("Authorized Date", DateTime.Today);
@@ -416,7 +416,7 @@ properties.Remove("Authorized Revision");
 Assert.False(properties.Contains("Authorized Revision"));
 Assert.AreEqual(3, properties.Count);
 
-// 3 - Svuota l'intera collezione in una volta:
+// 3 - Svuota l'intera raccolta in una volta:
 properties.Clear();
 
 Assert.AreEqual(0, properties.Count);

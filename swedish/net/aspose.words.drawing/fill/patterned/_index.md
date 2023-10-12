@@ -3,7 +3,7 @@ title: Fill.Patterned
 second_title: Aspose.Words för .NET API Referens
 description: Fill metod. Ställer in den angivna fyllningen till ett mönster.
 type: docs
-weight: 170
+weight: 230
 url: /sv/net/aspose.words.drawing/fill/patterned/
 ---
 ## Patterned(PatternType) {#patterned}

@@ -16,7 +16,7 @@ public void Remove(Node node)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| node | Node | El nodo a eliminar. |
+| node | Node | El nodo que se va a eliminar. |
 
 ### Ejemplos
 
@@ -26,11 +26,11 @@ Muestra cómo trabajar con NodeCollection.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Agregue texto al documento insertando Se ejecuta usando un DocumentBuilder.
+// Agrega texto al documento insertando Ejecuciones usando un DocumentBuilder.
 builder.Write("Run 1. ");
 builder.Write("Run 2. ");
 
-// Cada invocación del método "Write" crea una nueva ejecución,
+// Cada invocación del método "Write" crea una nueva Ejecución,
 // que luego aparece en RunCollection del párrafo principal.
 RunCollection runs = doc.FirstSection.Body.FirstParagraph.Runs;
 

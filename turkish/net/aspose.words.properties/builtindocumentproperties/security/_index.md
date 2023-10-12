@@ -16,11 +16,11 @@ public DocumentSecurity Security { get; set; }
 
 ### Notlar
 
-Microsoft Word bu özelliği her zaman ayarlamadığından, bu özelliği yalnızca bilgi amaçlı kullanın. Bu özellik yalnızca DOC ve OOXML belgelerinde mevcuttur.
+Bu özelliği yalnızca bilgilendirme amacıyla kullanın, çünkü Microsoft Word bu özelliği her zaman ayarlamaz. Bu özellik yalnızca DOC ve OOXML belgelerinde mevcuttur.
 
-Bir belgeyi korumak veya korumasını kaldırmak için the kullanın[`Protect`](../../../aspose.words/document/protect/) ve[`Unprotect`](../../../aspose.words/document/unprotect/)yöntemler.
+Bir belgeyi korumak veya korumayı kaldırmak için the kullanın[`Protect`](../../../aspose.words/document/protect/) Ve[`Unprotect`](../../../aspose.words/document/unprotect/) yöntemler.
 
-Aspose.Words bir belgeyi kaydetmeden önce bu özelliği doğru bir değere günceller.
+Aspose.Words, bir belgeyi kaydetmeden önce bu özelliği doğru bir değere günceller.
 
 ### Örnekler
 
@@ -31,14 +31,14 @@ Document doc = new Document();
 
 Assert.AreEqual(DocumentSecurity.None, doc.BuiltInDocumentProperties.Security);
 
-// Bir belgeyi salt okunur olacak şekilde yapılandırırsak, "Güvenlik" yerleşik özelliğini kullanarak bu durumu görüntüler.
+// Bir belgeyi salt okunur olacak şekilde yapılandırırsak, "Güvenlik" yerleşik özelliğini kullanarak bu durumu gösterecektir.
 doc.WriteProtection.ReadOnlyRecommended = true;
 doc.Save(ArtifactsDir + "DocumentProperties.Security.ReadOnlyRecommended.docx");
 
 Assert.AreEqual(DocumentSecurity.ReadOnlyRecommended, 
     new Document(ArtifactsDir + "DocumentProperties.Security.ReadOnlyRecommended.docx").BuiltInDocumentProperties.Security);
 
-// Bir belgeyi yazmaya karşı koruyun ve ardından güvenlik seviyesini doğrulayın.
+// Bir belgeyi yazmaya karşı koruyun ve ardından güvenlik düzeyini doğrulayın.
 doc = new Document();
 
 Assert.False(doc.WriteProtection.IsWriteProtected);

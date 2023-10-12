@@ -18,7 +18,7 @@ public string SourceItem { get; set; }
 
 Standardvärdet är en tom sträng.
 
-Till exempel, om källfilen är en Microsoft Excel-arbetsbok,`SourceItem` Egenskapen kan returnera "Arbetsbok1!R3C1:R4C2" om OLE-objektet bara innehåller några få celler från kalkylbladet .
+Till exempel, om källfilen är en Microsoft Excel-arbetsbok,`SourceItem` Egenskapen kan returnera "Arbetsbok1!R3C1:R4C2" om OLE-objektet bara innehåller några få celler från kalkylbladet.
 
 ### Exempel
 

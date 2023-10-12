@@ -1,14 +1,14 @@
 ---
 title: Fill.Patterned
 second_title: Aspose.Words for .NET API Referansı
-description: Fill yöntem. Belirtilen dolguyu bir kalıba ayarlar.
+description: Fill yöntem. Belirtilen dolguyu bir desene ayarlar.
 type: docs
-weight: 170
+weight: 230
 url: /tr/net/aspose.words.drawing/fill/patterned/
 ---
 ## Patterned(PatternType) {#patterned}
 
-Belirtilen dolguyu bir kalıba ayarlar.
+Belirtilen dolguyu bir desene ayarlar.
 
 ```csharp
 public void Patterned(PatternType patternType)
@@ -30,11 +30,11 @@ Fill fill = shape.Fill;
 
 Console.WriteLine("Pattern value is: {0}", fill.Pattern);
 
-// Bir kalıba doldurmanın belirtilen birkaç yolu vardır.
-// 1 - Şekil dolgusuna desen uygula:
+// Bir deseni doldurmanın birkaç yolu vardır.
+// 1 - Deseni şekil dolgusuna uygula:
 fill.Patterned(PatternType.DiagonalBrick);
 
-// 2 - Ön plan ve arka plan renkleriyle deseni şekil dolgusuna uygulayın:
+// 2 - Şekil dolgusuna ön plan ve arka plan renkleriyle desen uygulayın:
 fill.Patterned(PatternType.DiagonalBrick, Color.Aqua, Color.Bisque);
 
 doc.Save(ArtifactsDir + "Shape.FillPattern.docx");
@@ -51,7 +51,7 @@ doc.Save(ArtifactsDir + "Shape.FillPattern.docx");
 
 ## Patterned(PatternType, Color, Color) {#patterned_1}
 
-Belirtilen dolguyu bir kalıba ayarlar.
+Belirtilen dolguyu bir desene ayarlar.
 
 ```csharp
 public void Patterned(PatternType patternType, Color foreColor, Color backColor)
@@ -75,11 +75,11 @@ Fill fill = shape.Fill;
 
 Console.WriteLine("Pattern value is: {0}", fill.Pattern);
 
-// Bir kalıba doldurmanın belirtilen birkaç yolu vardır.
-// 1 - Şekil dolgusuna desen uygula:
+// Bir deseni doldurmanın birkaç yolu vardır.
+// 1 - Deseni şekil dolgusuna uygula:
 fill.Patterned(PatternType.DiagonalBrick);
 
-// 2 - Ön plan ve arka plan renkleriyle deseni şekil dolgusuna uygulayın:
+// 2 - Şekil dolgusuna ön plan ve arka plan renkleriyle desen uygulayın:
 fill.Patterned(PatternType.DiagonalBrick, Color.Aqua, Color.Bisque);
 
 doc.Save(ArtifactsDir + "Shape.FillPattern.docx");

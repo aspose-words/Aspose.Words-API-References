@@ -1,14 +1,14 @@
 ---
 title: FontSettings.GetFontsSources
 second_title: Référence de l'API Aspose.Words pour .NET
-description: FontSettings méthode. Obtient une copie du tableau qui contient la liste des sources où Aspose.Words recherche les polices TrueType.
+description: FontSettings méthode. Obtient une copie du tableau qui contient la liste des sources dans lesquelles Aspose.Words recherche les polices TrueType.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.fonts/fontsettings/getfontssources/
 ---
 ## FontSettings.GetFontsSources method
 
-Obtient une copie du tableau qui contient la liste des sources où Aspose.Words recherche les polices TrueType.
+Obtient une copie du tableau qui contient la liste des sources dans lesquelles Aspose.Words recherche les polices TrueType.
 
 ```csharp
 public FontSourceBase[] GetFontsSources()
@@ -20,7 +20,7 @@ Une copie des sources de polices actuelles.
 
 ### Remarques
 
-La valeur renvoyée est une copie des données utilisées par Aspose.Words. Si vous modifiez les entrées dans le tableau renvoyé, cela n'aura aucun effet sur le rendu du document. Pour spécifier de nouvelles sources de police , utilisez le[`SetFontsSources`](../setfontssources/) méthode.
+La valeur renvoyée est une copie des données utilisées par Aspose.Words. Si vous modifiez les entrées dans le tableau renvoyé, cela n'aura aucun effet sur le rendu du document. Pour spécifier une nouvelle police sources , utilisez le[`SetFontsSources`](../setfontssources/) méthode.
 
 ### Exemples
 
@@ -43,7 +43,7 @@ Assert.AreEqual(1, originalFontSources.Length);
 
 Assert.True(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"));
 
-// Il manque à la source de police par défaut deux des polices que nous utilisons dans notre document.
+// Il manque deux des polices que nous utilisons dans notre document dans la source de police par défaut.
 // Lorsque nous enregistrons ce document, Aspose.Words appliquera des polices de secours à tout le texte formaté avec des polices inaccessibles.
 Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Amethysta"));
 Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Junction Light"));
@@ -51,7 +51,7 @@ Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName 
 // Crée une source de polices à partir d'un dossier contenant des polices.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, true);
 
-// Appliquez un nouveau tableau de sources de polices contenant les sources de polices d'origine, ainsi que nos polices personnalisées.
+// Applique un nouveau tableau de sources de polices contenant les sources de polices d'origine, ainsi que nos polices personnalisées.
 FontSourceBase[] updatedFontSources = {originalFontSources[0], folderFontSource};
 FontSettings.DefaultInstance.SetFontsSources(updatedFontSources);
 

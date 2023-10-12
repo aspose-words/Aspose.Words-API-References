@@ -16,7 +16,7 @@ public void CreatePictureBullet()
 
 ### Anmärkningar
 
-Observera att NumberStyle kommer att ställas in på Bullet och NumberFormat till "\xF0B7" för att korrekt visa bildpunkt. Röda korsbild kommer att ställas in som bildpunktbild vid skapande. För att ändra det, använd[`ImageData`](../imagedata/).
+Vänligen notera,[`NumberStyle`](../numberstyle/) kommer att ställas in påBullet och [`NumberFormat`](../numberformat/) till "\xF0B7" för att korrekt visa bildpunkten. Röda korsbilden kommer att ställas in som punktbild vid skapande. För att ändra den, använd[`ImageData`](../imagedata/).
 
 ### Exempel
 

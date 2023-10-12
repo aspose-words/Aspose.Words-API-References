@@ -3,12 +3,14 @@ title: Class FontSubstitutionRule
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Fonts.FontSubstitutionRule klass. Detta är en abstrakt basklass för teckensnittsersättningsregeln.
 type: docs
-weight: 2820
+weight: 3000
 url: /sv/net/aspose.words.fonts/fontsubstitutionrule/
 ---
 ## FontSubstitutionRule class
 
 Detta är en abstrakt basklass för teckensnittsersättningsregeln.
+
+För att lära dig mer, besök[Arbeta med teckensnitt](https://docs.aspose.com/words/net/working-with-fonts/) dokumentationsartikel.
 
 ```csharp
 public abstract class FontSubstitutionRule

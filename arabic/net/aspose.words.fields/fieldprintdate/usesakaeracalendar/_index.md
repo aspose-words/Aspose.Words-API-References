@@ -1,14 +1,14 @@
 ---
 title: FieldPrintDate.UseSakaEraCalendar
 second_title: Aspose.Words لمراجع .NET API
-description: FieldPrintDate ملكية. يحصل أو يحدد ما إذا كان سيتم استخدام تقويم Saka Era .
+description: FieldPrintDate ملكية. الحصول على أو تعيين ما إذا كان سيتم استخدام تقويم Saka Era.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/fieldprintdate/usesakaeracalendar/
 ---
 ## FieldPrintDate.UseSakaEraCalendar property
 
-يحصل أو يحدد ما إذا كان سيتم استخدام تقويم Saka Era .
+الحصول على أو تعيين ما إذا كان سيتم استخدام تقويم Saka Era.
 
 ```csharp
 public bool UseSakaEraCalendar { get; set; }
@@ -21,15 +21,15 @@ public bool UseSakaEraCalendar { get; set; }
 ```csharp
 Document doc = new Document(MyDir + "Field sample - PRINTDATE.docx");
 
-// عند طباعة مستند بواسطة طابعة أو طباعته كملف PDF (لكن لا يتم تصديره إلى PDF) ،
-// ستعرض حقول PRINTDATE تاريخ / وقت عملية الطباعة.
-// في حالة عدم إجراء طباعة ، ستعرض هذه الحقول "0/0/0000".
+// عندما تتم طباعة مستند بواسطة الطابعة أو طباعته كملف PDF (ولكن لا يتم تصديره إلى PDF)،
+// ستعرض حقول PRINTDATE تاريخ/وقت عملية الطباعة.
+// إذا لم تتم الطباعة، فستعرض هذه الحقول "0/0/0000".
 FieldPrintDate field = (FieldPrintDate)doc.Range.Fields[0];
 
 Assert.AreEqual("3/25/2020 12:00:00 AM", field.Result);
 Assert.AreEqual(" PRINTDATE ", field.GetFieldCode());
 
-// فيما يلي ثلاثة أنواع تقويم مختلفة وفقًا لحقل PRINTDATE
+// فيما يلي ثلاثة أنواع تقويم مختلفة يتم وفقًا لها حقل PRINTDATE
 // يمكنه عرض تاريخ ووقت آخر عملية طباعة.
 // 1 - التقويم القمري الإسلامي:
 field = (FieldPrintDate)doc.Range.Fields[1];
@@ -40,7 +40,7 @@ Assert.AreEqual(" PRINTDATE  \\h", field.GetFieldCode());
 
 field = (FieldPrintDate)doc.Range.Fields[2];
 
-// 2 - تقويم أم القرى:
+// 2 - تقويم أم القرى :
 Assert.True(field.UseUmAlQuraCalendar);
 Assert.AreEqual("8/1/1441 12:00:00 AM", field.Result);
 Assert.AreEqual(" PRINTDATE  \\u", field.GetFieldCode());

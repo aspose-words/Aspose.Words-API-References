@@ -33,6 +33,7 @@ if (docOriginal.Revisions.Count == 0 && docEdited.Revisions.Count == 0)
 
 // Efter jämförelsen kommer originaldokumentet att få en ny version
 // för varje element som är olika i det redigerade dokumentet.
+foreach (Revision r in docOriginal.Revisions)
 {
     Console.WriteLine($"Revision type: {r.RevisionType}, on a node of type \"{r.ParentNode.NodeType}\"");
     Console.WriteLine($"\tChanged text: \"{r.ParentNode.GetText()}\"");

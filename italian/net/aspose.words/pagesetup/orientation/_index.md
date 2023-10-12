@@ -3,7 +3,7 @@ title: PageSetup.Orientation
 second_title: Aspose.Words per .NET API Reference
 description: PageSetup proprietà. Restituisce o imposta lorientamento della pagina.
 type: docs
-weight: 280
+weight: 290
 url: /it/net/aspose.words/pagesetup/orientation/
 ---
 ## PageSetup.Orientation property
@@ -16,11 +16,11 @@ public Orientation Orientation { get; set; }
 
 ### Osservazioni
 
-Mutevole **Orientamento** scambi[`PageWidth`](../pagewidth/) e[`PageHeight`](../pageheight/).
+Mutevole`Orientation` scambi[`PageWidth`](../pagewidth/) E[`PageHeight`](../pageheight/).
 
 ### Esempi
 
-Mostra come regolare il formato carta, l'orientamento, i margini e altre impostazioni per una sezione.
+Mostra come regolare il formato della carta, l'orientamento, i margini e altre impostazioni per una sezione.
 
 ```csharp
 Document doc = new Document();
@@ -40,25 +40,25 @@ builder.Writeln("Hello world!");
 doc.Save(ArtifactsDir + "PageSetup.PageMargins.docx");
 ```
 
-Mostra come applicare e ripristinare le impostazioni di configurazione della pagina alle sezioni di un documento.
+Mostra come applicare e ripristinare le impostazioni di impostazione della pagina nelle sezioni di un documento.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Modifica le proprietà di impostazione della pagina per la sezione corrente del builder e aggiungi del testo.
+// Modifica le proprietà di impostazione della pagina per la sezione corrente del builder e aggiunge testo.
 builder.PageSetup.Orientation = Orientation.Landscape;
 builder.PageSetup.VerticalAlignment = PageVerticalAlignment.Center;
 builder.Writeln("This is the first section, which landscape oriented with vertically centered text.");
 
 // Se iniziamo una nuova sezione utilizzando un generatore di documenti,
-// erediterà le attuali proprietà di configurazione della pagina del builder.
+// erediterà le proprietà di impostazione della pagina corrente del builder.
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 
 Assert.AreEqual(Orientation.Landscape, doc.Sections[1].PageSetup.Orientation);
 Assert.AreEqual(PageVerticalAlignment.Center, doc.Sections[1].PageSetup.VerticalAlignment);
 
-// Possiamo ripristinare le sue proprietà di impostazione della pagina ai valori predefiniti utilizzando il metodo "ClearFormatting".
+// Possiamo ripristinare le proprietà di impostazione della pagina ai valori predefiniti utilizzando il metodo "ClearFormatting".
 builder.PageSetup.ClearFormatting();
 
 Assert.AreEqual(Orientation.Portrait, doc.Sections[1].PageSetup.Orientation);

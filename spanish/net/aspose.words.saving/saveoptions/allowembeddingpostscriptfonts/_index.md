@@ -1,14 +1,14 @@
 ---
 title: SaveOptions.AllowEmbeddingPostScriptFonts
 second_title: Referencia de API de Aspose.Words para .NET
-description: SaveOptions propiedad. Obtiene o establece un valor booleano que indica si se permiten incrustar fuentes con contornos PostScript al incrustar fuentes TrueType en un documento que se guarda. El valor predeterminado es falso .
+description: SaveOptions propiedad. Obtiene o establece un valor booleano que indica si se permite incrustar fuentes con contornos PostScript al incrustar fuentes TrueType en un documento una vez guardado. El valor predeterminado esFALSO .
 type: docs
 weight: 20
 url: /es/net/aspose.words.saving/saveoptions/allowembeddingpostscriptfonts/
 ---
 ## SaveOptions.AllowEmbeddingPostScriptFonts property
 
-Obtiene o establece un valor booleano que indica si se permiten incrustar fuentes con contornos PostScript al incrustar fuentes TrueType en un documento que se guarda. El valor predeterminado es **falso** .
+Obtiene o establece un valor booleano que indica si se permite incrustar fuentes con contornos PostScript al incrustar fuentes TrueType en un documento una vez guardado. El valor predeterminado es`FALSO` .
 
 ```csharp
 public bool AllowEmbeddingPostScriptFonts { get; set; }
@@ -16,9 +16,9 @@ public bool AllowEmbeddingPostScriptFonts { get; set; }
 
 ### Observaciones
 
-Tenga en cuenta que Word no incrusta fuentes PostScript, pero puede abrir documentos con fuentes incrustadas de este tipo.
+Tenga en cuenta que Word no incorpora fuentes PostScript, pero puede abrir documentos con fuentes incrustadas de este tipo.
 
-Esta opción solo funciona cuando[`EmbedTrueTypeFonts`](../../../aspose.words.fonts/fontinfocollection/embedtruetypefonts/) de la [`FontInfos`](../../../aspose.words/documentbase/fontinfos/) la propiedad se establece en`verdadero`.
+Esta opción sólo funciona cuando[`EmbedTrueTypeFonts`](../../../aspose.words.fonts/fontinfocollection/embedtruetypefonts/) del [`FontInfos`](../../../aspose.words/documentbase/fontinfos/) la propiedad está establecida en`verdadero`.
 
 ### Ejemplos
 
@@ -31,7 +31,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Font.Name = "PostScriptFont";
 builder.Writeln("Some text with PostScript font.");
 
-// Cargar la fuente con PostScript para usar en el documento.
+// Carga la fuente con PostScript para usar en el documento.
 MemoryFontSource otf = new MemoryFontSource(File.ReadAllBytes(FontsDir + "AllegroOpen.otf"));
 doc.FontSettings = new FontSettings();
 doc.FontSettings.SetFontsSources(new FontSourceBase[] { otf });
@@ -39,8 +39,8 @@ doc.FontSettings.SetFontsSources(new FontSourceBase[] { otf });
 // Incrustar fuentes TrueType.
 doc.FontInfos.EmbedTrueTypeFonts = true;
 
-// Permitir incrustar fuentes PostScript al incrustar fuentes TrueType.
-// Microsoft Word no incrusta fuentes PostScript, pero puede abrir documentos con fuentes incrustadas de este tipo.
+// Permitir incrustar fuentes PostScript mientras se incrustan fuentes TrueType.
+// Microsoft Word no incorpora fuentes PostScript, pero puede abrir documentos con fuentes incrustadas de este tipo.
 SaveOptions saveOptions = SaveOptions.CreateSaveOptions(SaveFormat.Docx);
 saveOptions.AllowEmbeddingPostScriptFonts = true;
 

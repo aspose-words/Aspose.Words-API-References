@@ -3,7 +3,7 @@ title: Enum TextWrapping
 second_title: Справочник по API Aspose.Words для .NET
 description: Aspose.Words.Tables.TextWrapping перечисление. Указывает как текст обтекает таблицу.
 type: docs
-weight: 6080
+weight: 6380
 url: /ru/net/aspose.words.tables/textwrapping/
 ---
 ## TextWrapping enumeration
@@ -24,7 +24,7 @@ public enum TextWrapping
 
 ### Примеры
 
-Показывает, как работать с переносом текста таблицы.
+Показывает, как работать с переносом текста в таблице.
 
 ```csharp
 Document doc = new Document();
@@ -41,8 +41,8 @@ table.PreferredWidth = PreferredWidth.FromPoints(300);
 builder.Font.Size = 16;
 builder.Writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
 
-// Установите для свойства "TextWrapping" значение "TextWrapping.Around", чтобы таблица оборачивала текст вокруг себя,
-// и вставьте его в абзац ниже, установив позицию.
+// Установите для свойства TextWrapping значение TextWrapping.Around, чтобы таблица обтекала его текстом,
+// и переместим его в абзац ниже, установив позицию.
 table.TextWrapping = TextWrapping.Around;
 table.AbsoluteHorizontalDistance = 100;
 table.AbsoluteVerticalDistance = 20;

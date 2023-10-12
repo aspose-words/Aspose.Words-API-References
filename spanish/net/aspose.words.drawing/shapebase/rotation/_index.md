@@ -1,14 +1,14 @@
 ---
 title: ShapeBase.Rotation
 second_title: Referencia de API de Aspose.Words para .NET
-description: ShapeBase propiedad. Define el ángulo en grados con el que se rota una forma. El valor positivo corresponde al ángulo de rotación en el sentido de las agujas del reloj.
+description: ShapeBase propiedad. Define el ángulo en grados en el que se gira una forma. El valor positivo corresponde al ángulo de rotación en el sentido de las agujas del reloj.
 type: docs
-weight: 430
+weight: 470
 url: /es/net/aspose.words.drawing/shapebase/rotation/
 ---
 ## ShapeBase.Rotation property
 
-Define el ángulo (en grados) con el que se rota una forma. El valor positivo corresponde al ángulo de rotación en el sentido de las agujas del reloj.
+Define el ángulo (en grados) en el que se gira una forma. El valor positivo corresponde al ángulo de rotación en el sentido de las agujas del reloj.
 
 ```csharp
 public double Rotation { get; set; }

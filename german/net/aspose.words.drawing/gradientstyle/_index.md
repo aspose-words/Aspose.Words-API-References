@@ -3,7 +3,7 @@ title: Enum GradientStyle
 second_title: Aspose.Words für .NET-API-Referenz
 description: Aspose.Words.Drawing.GradientStyle opsomming. Gibt den Stil für eine Verlaufsfüllung an.
 type: docs
-weight: 870
+weight: 1000
 url: /de/net/aspose.words.drawing/gradientstyle/
 ---
 ## GradientStyle enumeration
@@ -20,11 +20,11 @@ public enum GradientStyle
 | --- | --- | --- |
 | None | `-1` | Kein Farbverlauf. |
 | Horizontal | `1` | Farbverlauf, der horizontal über ein Objekt verläuft. |
-| Vertical | `2` | Farbverlauf, der vertikal an einem Objekt nach unten verläuft. |
+| Vertical | `2` | Farbverlauf, der vertikal an einem Objekt herunterläuft. |
 | DiagonalUp | `3` | Diagonaler Farbverlauf, der sich von einer unteren Ecke nach oben zur gegenüberliegenden Ecke bewegt. |
 | DiagonalDown | `4` | Diagonaler Farbverlauf, der sich von einer oberen Ecke nach unten zur gegenüberliegenden Ecke bewegt. |
-| FromCorner | `5` | Verlauf von einer Ecke zu den anderen drei Ecken. |
-| FromCenter | `6` | Farbverlauf von der Mitte zu den Ecken verlaufend. |
+| FromCorner | `5` | Farbverlauf, der von einer Ecke zu den anderen drei Ecken verläuft. |
+| FromCenter | `6` | Farbverlauf, der von der Mitte zu den Ecken verläuft. |
 
 ### Beispiele
 
@@ -44,12 +44,12 @@ Assert.AreEqual(GradientVariant.Variant2, shape.Fill.GradientVariant);
 Assert.AreEqual(270, shape.Fill.GradientAngle);
 
 shape = builder.InsertShape(ShapeType.Rectangle, 80, 80);
-// Zweifarbige Verlaufsfüllung auf die Form anwenden.
+// Zweifarbige Farbverlaufsfüllung auf die Form anwenden.
 shape.Fill.TwoColorGradient(GradientStyle.FromCorner, GradientVariant.Variant4);
 // BackColor der Farbverlaufsfüllung ändern.
 shape.Fill.BackColor = Color.Yellow;
-// Beachten Sie, dass "GradientAngle" für "GradientStyle.FromCorner/GradientStyle.FromCenter" geändert wird
-// Verlaufsfüllung bekommt keinen Effekt, es funktioniert nur für linearen Verlauf.
+// Beachten Sie, dass sich „GradientAngle“ für „GradientStyle.FromCorner/GradientStyle.FromCenter“ ändert.
+// Farbverlaufsfüllungen haben keinen Effekt, sie funktionieren nur bei linearen Farbverläufen.
 shape.Fill.GradientAngle = 15;
 
 Assert.AreEqual(Color.Yellow.ToArgb(), shape.Fill.BackColor.ToArgb());
@@ -57,8 +57,8 @@ Assert.AreEqual(GradientStyle.FromCorner, shape.Fill.GradientStyle);
 Assert.AreEqual(GradientVariant.Variant4, shape.Fill.GradientVariant);
 Assert.AreEqual(0, shape.Fill.GradientAngle);
 
-// Verwenden Sie die Compliance-Option, um die Form mit DML zu definieren, wenn Sie "GradientStyle" erhalten möchten.
-// Eigenschaften "GradientVariant" und "GradientAngle" nach dem Speichern des Dokuments.
+// Verwenden Sie die Compliance-Option, um die Form mithilfe von DML zu definieren, wenn Sie „GradientStyle“ erhalten möchten.
+// Eigenschaften „GradientVariant“ und „GradientAngle“, nachdem das Dokument gespeichert wurde.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions { Compliance = OoxmlCompliance.Iso29500_2008_Strict };
 
 doc.Save(ArtifactsDir + "Shape.GradientFill.docx", saveOptions);

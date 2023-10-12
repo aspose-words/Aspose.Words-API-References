@@ -3,7 +3,7 @@ title: PageSetup.MultiplePages
 second_title: Aspose.Words för .NET API Referens
 description: PageSetup fast egendom. För flersidiga dokument hämtar eller ställer in hur ett dokument skrivs ut eller återges så att det kan bindas in som ett häfte.
 type: docs
-weight: 260
+weight: 270
 url: /sv/net/aspose.words/pagesetup/multiplepages/
 ---
 ## PageSetup.MultiplePages property
@@ -61,7 +61,7 @@ for (int i = 0; i < 6; i++)
 // som kompenserar för mittvikningen av sidor i en bok som inkräktar på sidans layout.
 PageSetup pageSetup = doc.Sections[0].PageSetup;
 
-  // Bestäm hur mycket utrymme våra sidor har för text inom marginalerna och lägg sedan till ett belopp för att fylla en marginal.
+// Bestäm hur mycket utrymme våra sidor har för text inom marginalerna och lägg sedan till ett belopp för att fylla en marginal.
 Assert.AreEqual(470.30d, pageSetup.PageWidth - pageSetup.LeftMargin - pageSetup.RightMargin, 0.01d);
 
 pageSetup.Gutter = 100.0d;

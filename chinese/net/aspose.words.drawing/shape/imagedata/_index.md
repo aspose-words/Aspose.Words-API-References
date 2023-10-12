@@ -1,14 +1,14 @@
 ---
 title: Shape.ImageData
 second_title: Aspose.Words for .NET API 参考
-description: Shape 财产. 提供对形状图像的访问 如果形状不能有图像则返回 null
+description: Shape 财产. 提供对形状图像的访问 返回无效的如果形状不能有图像.
 type: docs
 weight: 110
 url: /zh/net/aspose.words.drawing/shape/imagedata/
 ---
 ## Shape.ImageData property
 
-提供对形状图像的访问。 如果形状不能有图像，则返回 null。
+提供对形状图像的访问。 返回`无效的`如果形状不能有图像.
 
 ```csharp
 public ImageData ImageData { get; }
@@ -21,8 +21,8 @@ public ImageData ImageData { get; }
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");
 
-// 从文档中获取形状的集合，
-// 并将每个形状的图像数据与图像一起作为文件保存到本地文件系统。
+// 从文档中获取形状集合，
+// 并将每个形状的图像数据以图像的形式保存到本地文件系统。
 NodeCollection shapes = doc.GetChildNodes(NodeType.Shape, true);
 
 Assert.AreEqual(9, shapes.Count(s => ((Shape)s).HasImage));
@@ -32,8 +32,8 @@ foreach (Shape shape in shapes.OfType<Shape>())
 {
     if (shape.HasImage)
     {
-        // 形状的图像数据可能包含多种可能的图像格式的图像。 
-        // 我们可以根据图像的格式自动确定每个图像的文件扩展名。
+         // 形状的图像数据可能包含多种可能的图像格式的图像。
+        // 我们可以根据每个图像的格式自动确定其文件扩展名。
         string imageFileName =
             $"File.ExtractImages.{imageIndex}{FileFormatUtil.ImageTypeToExtension(shape.ImageData.ImageType)}";
         shape.ImageData.Save(ArtifactsDir + imageFileName);
@@ -50,8 +50,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 string imageFileName = ImageDir + "Windows MetaFile.wmf";
 
-// 下面是两种将图像应用到形状以便显示它的方法。
-// 1 - 设置包含图像的形状。
+// 下面是将图像应用到形状以便其显示的两种方法。
+// 1 - 设置形状以包含图像。
 Shape shape = new Shape(builder.Document, ShapeType.Image);
 shape.WrapType = WrapType.Inline;
 shape.ImageData.SetImage(imageFileName);
@@ -60,12 +60,12 @@ builder.InsertNode(shape);
 
 doc.Save(ArtifactsDir + "Image.CreateLinkedImage.Embedded.docx");
 
-// 我们以形状存储的每个图像都会增加文档的大小。
+// 我们存储在 shape 中的每个图像都会增加文档的大小。
 Assert.True(70000 < new FileInfo(ArtifactsDir + "Image.CreateLinkedImage.Embedded.docx").Length);
 
 doc.FirstSection.Body.FirstParagraph.RemoveAllChildren();
 
-// 2 - 将形状设置为链接到本地文件系统中的图像文件。
+// 2 - 设置形状以链接到本地文件系统中的图像文件。
 shape = new Shape(builder.Document, ShapeType.Image);
 shape.WrapType = WrapType.Inline;
 shape.ImageData.SourceFullName = imageFileName;
@@ -74,8 +74,8 @@ builder.InsertNode(shape);
 doc.Save(ArtifactsDir + "Image.CreateLinkedImage.Linked.docx");
 
 // 链接到图像将节省空间并导致文档更小。
-// 但是，文档只能正确显示图像，而
-// 图像文件存在于形状的“SourceFullName”属性指向的位置。
+// 但是，文档只能正确显示图像
+// 图像文件位于形状的“SourceFullName”属性指向的位置。
 Assert.True(10000 > new FileInfo(ArtifactsDir + "Image.CreateLinkedImage.Linked.docx").Length);
 ```
 

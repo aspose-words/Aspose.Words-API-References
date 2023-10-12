@@ -27,7 +27,7 @@ builder.Font.TextEffect = TextEffect.SparkleText;
 
 builder.Writeln("Text with a sparkle effect.");
 
-// Les anciennes versions de Microsoft Word ne prennent en charge que les effets d'animation de police.
+// Les anciennes versions de Microsoft Word ne prennent en charge que les effets d'animation de polices.
 doc.Save(ArtifactsDir + "Font.SparklingText.doc");
 ```
 

@@ -16,24 +16,24 @@ public bool AutomaticallyUpdateStyles { get; set; }
 
 ### 例子
 
-显示如何将模板附加到文档。
+演示如何将模板附加到文档。
 
 ```csharp
 Document doc = new Document();
 
-// 默认情况下，Microsoft Word 文档附带一个名为“Normal.dotm”的附加模板。
+// Microsoft Word 文档默认附带一个名为“Normal.dotm”的附加模板。
 // 空白 Aspose.Words 文档没有默认模板。
 Assert.AreEqual(string.Empty, doc.AttachedTemplate);
 
 // 附加一个模板，然后设置标志以应用样式更改
-// 在模板中到我们文档中的样式。
+// 在模板中设置文档中的样式。
 doc.AttachedTemplate = MyDir + "Business brochure.dotx";
 doc.AutomaticallyUpdateStyles = true;
 
 doc.Save(ArtifactsDir + "Document.AutomaticallyUpdateStyles.docx");
 ```
 
-显示如何为没有附加模板的文档设置默认模板。
+演示如何为没有附加模板的文档设置默认模板。
 
 ```csharp
 Document doc = new Document();
@@ -43,9 +43,9 @@ doc.AutomaticallyUpdateStyles = true;
 
 Assert.AreEqual(string.Empty, doc.AttachedTemplate);
 
-// 由于没有模板文档，因此文档无处跟踪样式更改。
+// 由于没有模板文档，文档无处跟踪样式更改。
 // 使用 SaveOptions 对象自动设置模板
-// 如果我们正在保存的文档没有。
+// 如果我们正在保存的文档没有该文档。
 SaveOptions options = SaveOptions.CreateSaveOptions("Document.DefaultTemplate.docx");
 options.DefaultTemplate = MyDir + "Business brochure.dotx";
 

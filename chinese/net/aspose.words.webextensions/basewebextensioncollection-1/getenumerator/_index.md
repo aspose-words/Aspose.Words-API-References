@@ -1,14 +1,14 @@
 ---
 title: BaseWebExtensionCollection1.GetEnumerator
 second_title: Aspose.Words for .NET API 参考
-description: BaseWebExtensionCollection 方法. 返回一个可以遍历集合的枚举器
+description: BaseWebExtensionCollection 方法. 返回一个可以迭代集合的枚举器
 type: docs
 weight: 50
 url: /zh/net/aspose.words.webextensions/basewebextensioncollection-1/getenumerator/
 ---
 ## BaseWebExtensionCollection&lt;T&gt;.GetEnumerator method
 
-返回一个可以遍历集合的枚举器。
+返回一个可以迭代集合的枚举器。
 
 ```csharp
 public IEnumerator<T> GetEnumerator()
@@ -23,7 +23,7 @@ Document doc = new Document(MyDir + "Web extension.docx");
 
 Assert.AreEqual(1, doc.WebExtensionTaskPanes.Count);
 
-// 打印文档的网络扩展的所有属性。
+// 打印文档 Web 扩展的所有属性。
 WebExtensionPropertyCollection webExtensionPropertyCollection = doc.WebExtensionTaskPanes[0].WebExtension.Properties;
 using (IEnumerator<WebExtensionProperty> enumerator = webExtensionPropertyCollection.GetEnumerator())
 {

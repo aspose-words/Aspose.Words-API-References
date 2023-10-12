@@ -1,14 +1,14 @@
 ---
 title: PageSetup.DifferentFirstPageHeaderFooter
 second_title: Referencia de API de Aspose.Words para .NET
-description: PageSetup propiedad. Verdadero si se usa un encabezado o pie de página diferente en la primera página.
+description: PageSetup propiedad. Verdadero si se utiliza un encabezado o pie de página diferente en la primera página.
 type: docs
 weight: 110
 url: /es/net/aspose.words/pagesetup/differentfirstpageheaderfooter/
 ---
 ## PageSetup.DifferentFirstPageHeaderFooter property
 
-**Verdadero** si se usa un encabezado o pie de página diferente en la primera página.
+Verdadero si se utiliza un encabezado o pie de página diferente en la primera página.
 
 ```csharp
 public bool DifferentFirstPageHeaderFooter { get; set; }
@@ -22,7 +22,7 @@ Muestra cómo crear encabezados y pies de página en un documento usando Documen
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Especificar que queremos encabezados y pies de página diferentes para las primeras páginas, pares e impares.
+// Especifica que queremos encabezados y pies de página diferentes para las primeras páginas, pares e impares.
 builder.PageSetup.DifferentFirstPageHeaderFooter = true;
 builder.PageSetup.OddAndEvenPagesHeaderFooter = true;
 
@@ -51,15 +51,15 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // A continuación se muestran dos tipos de encabezados/pies de página.
-// 1 - El encabezado/pie de página "Primero", que aparece en la primera página de la sección.
+// 1 - El "primer" encabezado/pie de página, que aparece en la primera página de la sección.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderFirst);
 builder.Writeln("First page header.");
 
 builder.MoveToHeaderFooter(HeaderFooterType.FooterFirst);
 builder.Writeln("First page footer.");
 
-// 2 - El encabezado/pie de página "Principal", que aparece en todas las páginas de la sección.
-// Podemos anular el encabezado/pie de página principal por un primer encabezado/pie de página y un encabezado/pie de página par.
+// 2 - El encabezado/pie de página "Principal", que aparece en cada página de la sección.
+ // Podemos anular el encabezado/pie de página principal por un encabezado/pie de página primero y par.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 builder.Writeln("Primary header.");
 
@@ -74,16 +74,16 @@ builder.InsertBreak(BreakType.PageBreak);
 builder.Writeln("Page 3.");
 
 // Cada sección tiene un objeto "PageSetup" que especifica las propiedades relacionadas con la apariencia de la página
-// como la orientación, el tamaño y los bordes.
-// Establezca la propiedad "DifferentFirstPageHeaderFooter" en "true" para aplicar el primer encabezado/pie de página a la primera página.
-// Establecer la propiedad "DifferentFirstPageHeaderFooter" en "falso"
+// como orientación, tamaño y bordes.
+// Establece la propiedad "DifferentFirstPageHeaderFooter" en "true" para aplicar el primer encabezado/pie de página a la primera página.
+// Establece la propiedad "DifferentFirstPageHeaderFooter" en "falso"
 // para hacer que la primera página muestre el encabezado/pie de página principal.
 builder.PageSetup.DifferentFirstPageHeaderFooter = differentFirstPageHeaderFooter;
 
 doc.Save(ArtifactsDir + "PageSetup.DifferentFirstPageHeaderFooter.docx");
 ```
 
-Muestra cómo realizar un seguimiento del orden en que una operación de reemplazo de texto atraviesa los nodos.
+Muestra cómo realizar un seguimiento del orden en el que una operación de reemplazo de texto atraviesa los nodos.
 
 ```csharp
 public void Order(bool differentFirstPageHeaderFooter)
@@ -116,8 +116,8 @@ public void Order(bool differentFirstPageHeaderFooter)
 
         /// <summary>
         /// Durante una operación de buscar y reemplazar, registra el contenido de cada nodo que tiene texto que la operación 'encuentra',
-        /// en el estado en que se encuentra antes de que se produzca el reemplazo.
-        /// Esto mostrará el orden en que la operación de reemplazo de texto atraviesa los nodos.
+        /// en el estado en el que se encontraba antes de que se produjera la sustitución.
+        /// Esto mostrará el orden en el que la operación de reemplazo de texto atraviesa los nodos.
         /// </summary>
         private class ReplaceLog : IReplacingCallback
         {

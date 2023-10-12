@@ -16,7 +16,7 @@ public bool DisplayText { get; set; }
 
 ### Exemples
 
-Montre comment effectuer un publipostage sur les codes-barres EAN13.
+Montre comment effectuer un publipostage sur des codes-barres EAN13.
 
 ```csharp
 Document doc = new Document();
@@ -37,7 +37,7 @@ Assert.AreEqual(FieldType.FieldMergeBarcode, field.Type);
 Assert.AreEqual(" MERGEBARCODE  MyEAN13Barcode EAN13 \\t \\p CASE \\x", field.GetFieldCode());
 builder.Writeln();
 
-// Crée un DataTable avec une colonne portant le même nom que la BarcodeValue de notre champ MERGEBARCODE.
+// Créez un DataTable avec une colonne portant le même nom que la BarcodeValue de notre champ MERGEBARCODE.
 // Le publipostage créera une nouvelle page pour chaque ligne. Chaque page contiendra un champ DISPLAYBARCODE,
 // qui affichera un code-barres EAN13 avec la valeur de la ligne fusionnée.
 DataTable table = new DataTable("Barcodes");

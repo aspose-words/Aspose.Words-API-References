@@ -1,14 +1,14 @@
 ---
 title: Comment.Comment
 second_title: Aspose.Words for .NET API Referansı
-description: Comment inşaatçı. Yeni bir örneğini başlatır Yorum sınıf.
+description: Comment inşaatçı. Yeni bir örneğini başlatırComment class.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/comment/comment/
 ---
 ## Comment(DocumentBase) {#constructor}
 
-Yeni bir örneğini başlatır **Yorum** sınıf.
+Yeni bir örneğini başlatır[`Comment`](../) class.
 
 ```csharp
 public Comment(DocumentBase doc)
@@ -16,15 +16,15 @@ public Comment(DocumentBase doc)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| doc | DocumentBase | Sahip belgesi. |
+| doc | DocumentBase | Sahibi belgesi. |
 
 ### Notlar
 
-Ne zaman **Yorum** oluşturulur, belirtilen belgeye aittir, ancak henüz belgenin bir parçası değil ve **Üst Düğüm** boş.
+Ne zaman[`Comment`](../) oluşturulduysa, belirtilen belgeye aittir ancak henüz değildir ve belgenin bir parçası değildir ve[`ParentNode`](../../node/parentnode/) dır-dir`hükümsüz`.
 
-Eklemek **Yorum** belgeye, yorumun eklenmesini istediğiniz paragrafta InsertAfter veya InsertBefore kullanın.
+Eklemek[`Comment`](../) belge kullanımınaNode) veyaNode) Yorumun eklenmesini istediğiniz paragrafta .
 
-Yorum oluşturduktan sonra, yorumunu ayarlamayı unutmayın.[`Author`](../author/) , [`Initial`](../initial/) ve[`DateTime`](../datetime/) özellikleri.
+Yorum oluşturduktan sonra yorumunu ayarlamayı unutmayın.[`Author`](../author/) , [`Initial`](../initial/) Ve[`DateTime`](../datetime/) özellikler.
 
 ### Örnekler
 
@@ -44,14 +44,14 @@ public void CreateCommentsAndPrintAllInfo()
 
     newComment.SetText("Comment regarding text.");
 
-    // Belgeye metin ekleyin, bir yorum aralığında çarpıtın ve ardından yorumunuzu ekleyin.
+    // Belgeye metin ekleyin, onu bir yorum aralığında çarpıtın ve ardından yorumunuzu ekleyin.
     Paragraph para = doc.FirstSection.Body.FirstParagraph;
     para.AppendChild(new CommentRangeStart(doc, newComment.Id));
     para.AppendChild(new Run(doc, "Commented text."));
     para.AppendChild(new CommentRangeEnd(doc, newComment.Id));
     para.AppendChild(newComment); 
 
-    // Yoruma iki cevap ekleyin.
+    // Yoruma iki yanıt ekleyin.
     newComment.AddReply("John Doe", "JD", DateTime.Now, "New reply.");
     newComment.AddReply("John Doe", "JD", DateTime.Now, "Another reply.");
 
@@ -65,20 +65,20 @@ private static void PrintAllCommentInfo(NodeCollection comments)
 {
     CommentInfoPrinter commentVisitor = new CommentInfoPrinter();
 
-    // Tüm üst düzey yorumları yineleyin. Yanıt türündeki yorumların aksine, üst düzey yorumların atası yoktur.
+    // Tüm üst düzey yorumları yineleyin. Yanıt türü yorumların aksine, üst düzey yorumların kökeni yoktur.
     foreach (Comment comment in comments.Where(c => ((Comment)c).Ancestor == null))
     {
-        // İlk olarak, yorum aralığının başlangıcını ziyaret edin.
+        // İlk olarak yorum aralığının başlangıcını ziyaret edin.
         CommentRangeStart commentRangeStart = (CommentRangeStart)comment.PreviousSibling.PreviousSibling.PreviousSibling;
         commentRangeStart.Accept(commentVisitor);
 
-        // Ardından, yorumu ve sahip olabileceği yanıtları ziyaret edin.
+        // Ardından yorumu ve alabileceği yanıtları ziyaret edin.
         comment.Accept(commentVisitor);
 
         foreach (Comment reply in comment.Replies)
             reply.Accept(commentVisitor);
 
-        // Son olarak, yorum aralığının sonunu ziyaret edin ve ardından ziyaretçinin metin içeriğini yazdırın.
+        // Son olarak yorum aralığının sonunu ziyaret edin ve ardından ziyaretçinin metin içeriğini yazdırın.
         CommentRangeEnd commentRangeEnd = (CommentRangeEnd)comment.PreviousSibling;
         commentRangeEnd.Accept(commentVisitor);
 
@@ -87,7 +87,7 @@ private static void PrintAllCommentInfo(NodeCollection comments)
 }
 
 /// <summary>
-/// Belgede karşılaşılan tüm yorum ve yorum aralıklarının bilgi ve içeriğini yazdırır.
+/// Belgede karşılaşılan tüm yorumların ve yorum aralıklarının bilgilerini ve içeriğini yazdırır.
 /// </summary>
 public class CommentInfoPrinter : DocumentVisitor
 {
@@ -98,7 +98,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Ziyaretçi tarafından toplanan belgenin düz metnini alır.
+    /// Ziyaretçinin biriktirdiği belgenin düz metnini alır.
     /// </summary>
     public string GetText()
     {
@@ -116,7 +116,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede bir CommentRangeStart düğümüyle karşılaşıldığında çağrılır.
+    /// Belgede CommentRangeStart düğümüyle karşılaşıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitCommentRangeStart(CommentRangeStart commentRangeStart)
     {
@@ -128,7 +128,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede bir CommentRangeEnd düğümüyle karşılaşıldığında çağrılır.
+    /// Belgede CommentRangeEnd düğümüyle karşılaşıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitCommentRangeEnd(CommentRangeEnd commentRangeEnd)
     {
@@ -153,7 +153,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede bir Yorum düğümünün ziyareti sona erdiğinde çağrılır.
+    /// Belgede bir Yorum düğümünün ziyareti sonlandırıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitCommentEnd(Comment comment)
     {
@@ -165,9 +165,9 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// StringBuilder'a bir satır ekleyin ve ziyaretçinin belge ağacında ne kadar derin olduğuna bağlı olarak girinti yapın.
+    /// StringBuilder'a bir satır ekleyin ve ziyaretçinin belge ağacında ne kadar derin olduğuna bağlı olarak onu girintileyin.
     /// </summary>
-    /// <param name="metin"></param>
+    /// <param adı="metin"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++)
@@ -195,7 +195,7 @@ public class CommentInfoPrinter : DocumentVisitor
 
 ## Comment(DocumentBase, string, string, DateTime) {#constructor_1}
 
-Yeni bir örneğini başlatır **Yorum** sınıf.
+Yeni bir örneğini başlatır[`Comment`](../) class.
 
 ```csharp
 public Comment(DocumentBase doc, string author, string initial, DateTime dateTime)
@@ -203,10 +203,10 @@ public Comment(DocumentBase doc, string author, string initial, DateTime dateTim
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| doc | DocumentBase | Sahip belgesi. |
-| author | String | Yorum için yazar adı. Boş olamaz. |
-| initial | String | Yazar yorum için baş harfleri. Boş olamaz. |
-| dateTime | DateTime | Yorum için tarih ve saat. |
+| doc | DocumentBase | Sahibi belgesi. |
+| author | String | Yorumun yazarının adı. Olamaz`hükümsüz`. |
+| initial | String | Yorumun yazarının baş harfleri. Olamaz`hükümsüz`. |
+| dateTime | DateTime | Yorumun tarihi ve saati. |
 
 ### Örnekler
 
@@ -224,7 +224,7 @@ builder.Write("Comment text.");
 
 Assert.AreEqual(DateTime.Today, comment.DateTime);
 
-// Microsoft Word'de, düzenlemek veya yanıtlamak için belge gövdesindeki bu yorumu sağ tıklatabiliriz. 
+ // Microsoft Word'de, belge gövdesindeki bu yoruma sağ tıklayarak onu düzenleyebilir veya yanıtlayabiliriz.
 doc.Save(ArtifactsDir + "InlineStory.AddComment.docx");
 ```
 

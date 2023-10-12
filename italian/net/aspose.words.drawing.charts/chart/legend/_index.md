@@ -3,7 +3,7 @@ title: Chart.Legend
 second_title: Aspose.Words per .NET API Reference
 description: Chart proprietà. Fornisce laccesso alle proprietà della legenda del grafico.
 type: docs
-weight: 40
+weight: 50
 url: /it/net/aspose.words.drawing.charts/chart/legend/
 ---
 ## Chart.Legend property
@@ -34,7 +34,7 @@ Assert.AreEqual("Series 3", chart.Series[2].Name);
 ChartLegend legend = chart.Legend;
 legend.Position = LegendPosition.TopRight;
 
-// Concedi più spazio ad altri elementi del grafico, come il grafico, consentendo loro di sovrapporsi alla legenda.
+// Concede più spazio agli altri elementi del grafico, come il grafico, consentendo loro di sovrapporsi alla legenda.
 legend.Overlay = true;
 
 doc.Save(ArtifactsDir + "Charts.ChartLegend.docx");

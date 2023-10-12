@@ -3,12 +3,14 @@ title: Class RevisionGroupCollection
 second_title: Aspose.Words for .NET API Referansı
 description: Aspose.Words.RevisionGroupCollection sınıf. Bir koleksiyonRevisionGroup belgedeki revizyon gruplarını temsil eden nesneler.
 type: docs
-weight: 4530
+weight: 4790
 url: /tr/net/aspose.words/revisiongroupcollection/
 ---
 ## RevisionGroupCollection class
 
 Bir koleksiyon[`RevisionGroup`](../revisiongroup/) belgedeki revizyon gruplarını temsil eden nesneler.
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Belgedeki Değişiklikleri İzleme](https://docs.aspose.com/words/net/track-changes-in-a-document/) dokümantasyon makalesi.
 
 ```csharp
 public sealed class RevisionGroupCollection : IEnumerable<RevisionGroup>
@@ -18,22 +20,22 @@ public sealed class RevisionGroupCollection : IEnumerable<RevisionGroup>
 
 | İsim | Tanım |
 | --- | --- |
-| [Count](../../aspose.words/revisiongroupcollection/count/) { get; } | Koleksiyondaki revizyon gruplarının sayısını verir. |
-| [Item](../../aspose.words/revisiongroupcollection/item/) { get; } | Belirtilen dizinde bir revizyon grubu döndürür. |
+| [Count](../../aspose.words/revisiongroupcollection/count/) { get; } | Koleksiyondaki revizyon gruplarının sayısını döndürür. |
+| [Item](../../aspose.words/revisiongroupcollection/item/) { get; } | Belirtilen dizindeki revizyon grubunu döndürür. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| [GetEnumerator](../../aspose.words/revisiongroupcollection/getenumerator/)() | Bir numaralandırıcı nesnesi döndürür. |
+| [GetEnumerator](../../aspose.words/revisiongroupcollection/getenumerator/)() | Bir numaralandırıcı nesnesini döndürür. |
 
 ### Notlar
 
-Bu sınıfın örneklerini doğrudan oluşturmazsınız. Kullan[`Groups`](../revisioncollection/groups/) Bir belgede bulunan revizyon gruplarını almak için özelliği.
+Bu sınıfın örneklerini doğrudan oluşturmazsınız. Kullan[`Groups`](../revisioncollection/groups/) Bir belgede revizyon gruplarının bulunmasını sağlayan özelliği.
 
 ### Örnekler
 
-Bir belgede bir grup düzeltmenin nasıl alınacağını gösterir.
+Bir belgede bir grup revizyonun nasıl alınacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");
@@ -41,7 +43,7 @@ Document doc = new Document(MyDir + "Revisions.docx");
 RevisionGroup revisionGroup = doc.Revisions.Groups[0];
 ```
 
-Bir belgedeki bir grup düzeltme hakkındaki bilgilerin nasıl yazdırılacağını gösterir.
+Bir belgedeki revizyon grubu hakkındaki bilgilerin nasıl yazdırılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");

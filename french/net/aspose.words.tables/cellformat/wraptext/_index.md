@@ -1,14 +1,14 @@
 ---
 title: CellFormat.WrapText
 second_title: Référence de l'API Aspose.Words pour .NET
-description: CellFormat propriété. Si vrai envelopper le texte pour la cellule.
+description: CellFormat propriété. Sivrai  enveloppe le texte de la cellule.
 type: docs
-weight: 140
+weight: 150
 url: /fr/net/aspose.words.tables/cellformat/wraptext/
 ---
 ## CellFormat.WrapText property
 
-Si vrai, envelopper le texte pour la cellule.
+Si`vrai` , enveloppe le texte de la cellule.
 
 ```csharp
 public bool WrapText { get; set; }
@@ -24,7 +24,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.StartTable();
 
-// Définition des options de formatage de tableau pour un générateur de document
+// Définition des options de formatage de tableau pour un générateur de documents
 // les appliquera à chaque ligne et cellule que nous ajouterons avec.
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
@@ -48,8 +48,8 @@ builder.InsertCell();
 builder.Write("Row 1, Col 2");
 builder.EndRow();
 
-// Changer la mise en forme l'appliquera à la cellule courante,
-// et toutes les nouvelles cellules que nous créons avec le constructeur par la suite.
+// Changer le formatage l'appliquera à la cellule actuelle,
+// et toutes les nouvelles cellules que nous créons ensuite avec le constructeur.
 // Cela n'affectera pas les cellules que nous avons ajoutées précédemment.
 builder.CellFormat.Shading.ClearFormatting();
 
@@ -61,7 +61,7 @@ builder.Write("Row 2, Col 2");
 
 builder.EndRow();
 
-// Augmente la hauteur de ligne pour s'adapter au texte vertical.
+// Augmente la hauteur de la ligne pour l'adapter au texte vertical.
 builder.InsertCell();
 builder.RowFormat.Height = 150;
 builder.CellFormat.Orientation = TextOrientation.Upward;

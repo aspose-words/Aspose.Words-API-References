@@ -16,15 +16,15 @@ public Node this[int index] { get; }
 
 | Parámetro | Descripción |
 | --- | --- |
-| index | Un índice en la colección de nodos. |
+| index | Un índice de la colección de nodos. |
 
 ### Observaciones
 
-El índice está basado en cero.
+El índice tiene base cero.
 
-Los índices negativos están permitidos e indican el acceso desde la parte posterior de la colección. Por ejemplo, -1 significa el último elemento, -2 significa el penúltimo y así sucesivamente.
+Se permiten índices negativos e indican el acceso desde la parte posterior de la colección. Por ejemplo, -1 significa el último elemento, -2 significa el penúltimo y así sucesivamente.
 
-Si el índice es mayor o igual que el número de elementos en la lista, esto devuelve una referencia nula.
+Si el índice es mayor o igual que el número de elementos de la lista, esto devuelve una referencia nula.
 
 Si el índice es negativo y su valor absoluto es mayor que el número de elementos de la lista, esto devuelve una referencia nula.
 
@@ -35,25 +35,25 @@ Muestra cómo recorrer la colección de nodos secundarios de un nodo compuesto.
 ```csharp
 Document doc = new Document();
 
-// Agregue dos carreras y una forma como nodos secundarios al primer párrafo de este documento.
+// Agregue dos ejecuciones y una forma como nodos secundarios al primer párrafo de este documento.
 Paragraph paragraph = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
 paragraph.AppendChild(new Run(doc, "Hello world! "));
 
 Shape shape = new Shape(doc, ShapeType.Rectangle);
 shape.Width = 200;
 shape.Height = 200;
-// Tenga en cuenta que el 'CustomNodeId' no se guarda en un archivo de salida y existe solo durante la vida útil del nodo.
+// Tenga en cuenta que 'CustomNodeId' no se guarda en un archivo de salida y existe solo durante la vida útil del nodo.
 shape.CustomNodeId = 100;
 shape.WrapType = WrapType.Inline;
 paragraph.AppendChild(shape);
 
 paragraph.AppendChild(new Run(doc, "Hello again!"));
 
-// Iterar a través de la colección de elementos secundarios inmediatos del párrafo,
-// e imprima cualquier ejecución o forma que encontremos dentro.
-NodeCollection children = paragraph.ChildNodes;
+// Iterar a través de la colección de hijos inmediatos del párrafo,
+// e imprimir cualquier corrida o forma que encontremos dentro.
+NodeCollection children = paragraph.GetChildNodes(NodeType.Any, false);
 
-Assert.AreEqual(3, paragraph.ChildNodes.Count);
+Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, false).Count);
 
 foreach (Node child in children)
     switch (child.NodeType)
@@ -66,6 +66,7 @@ foreach (Node child in children)
             Shape childShape = (Shape)child;
             Console.WriteLine("Shape:");
             Console.WriteLine($"\t{childShape.ShapeType}, {childShape.Width}x{childShape.Height}");
+            break;
     }
 ```
 

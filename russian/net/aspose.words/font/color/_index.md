@@ -22,7 +22,7 @@ public Color Color { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Задайте форматирование шрифта, затем добавьте текст.
+// Укажите форматирование шрифта, затем добавьте текст.
 Aspose.Words.Font font = builder.Font;
 font.Size = 16;
 font.Bold = true;
@@ -41,8 +41,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("For more information, please visit the ");
 
-// Вставьте гиперссылку и подчеркните ее с помощью пользовательского форматирования.
-// Гиперссылка будет кликабельным фрагментом текста, который приведет нас к месту, указанному в URL-адресе.
+// Вставьте гиперссылку и подчеркните ее с помощью специального форматирования.
+// Гиперссылка будет интерактивным фрагментом текста, который приведет нас к месту, указанному в URL-адресе.
 builder.Font.Color = Color.Blue;
 builder.Font.Underline = Underline.Single;
 builder.InsertHyperlink("Google website", "https://www.google.com", false);

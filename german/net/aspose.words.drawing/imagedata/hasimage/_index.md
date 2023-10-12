@@ -1,14 +1,14 @@
 ---
 title: ImageData.HasImage
 second_title: Aspose.Words für .NET-API-Referenz
-description: ImageData eigendom. Gibt true zurück wenn die Form Bildbytes enthält oder ein Bild verknüpft.
+description: ImageData eigendom. Gibt zurückWAHR wenn die Form Bildbytes hat oder ein Bild verknüpft.
 type: docs
 weight: 110
 url: /de/net/aspose.words.drawing/imagedata/hasimage/
 ---
 ## ImageData.HasImage property
 
-Gibt „true“ zurück, wenn die Form Bildbytes enthält oder ein Bild verknüpft.
+Gibt zurück`WAHR` wenn die Form Bildbytes hat oder ein Bild verknüpft.
 
 ```csharp
 public bool HasImage { get; }
@@ -21,11 +21,11 @@ Zeigt, wie alle Bilder eines Dokuments im Dateisystem gespeichert werden.
 ```csharp
 Document imgSourceDoc = new Document(MyDir + "Images.docx");
 
-// Shapes mit gesetztem "HasImage"-Flag speichern und zeigen alle Bilder des Dokuments an.
+// Formen mit gesetztem „HasImage“-Flag speichern und zeigen alle Bilder des Dokuments an.
 IEnumerable<Shape> shapesWithImages = 
     imgSourceDoc.GetChildNodes(NodeType.Shape, true).Cast<Shape>().Where(s => s.HasImage);
 
-// Gehe durch jede Form und speichere ihr Bild.
+// Jede Form durchgehen und ihr Bild speichern.
 ImageFormatConverter formatConverter = new ImageFormatConverter();
 
 using (IEnumerator<Shape> enumerator = shapesWithImages.GetEnumerator())

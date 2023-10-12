@@ -3,12 +3,14 @@ title: Class RowCollection
 second_title: Aspose.Words for .NET API Referansı
 description: Aspose.Words.Tables.RowCollection sınıf. Bir koleksiyona yazılı erişim sağlarRow düğümler.
 type: docs
-weight: 6020
+weight: 6320
 url: /tr/net/aspose.words.tables/rowcollection/
 ---
 ## RowCollection class
 
 Bir koleksiyona yazılı erişim sağlar[`Row`](../row/) düğümler.
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Tablolarla Çalışmak](https://docs.aspose.com/words/net/working-with-tables/) dokümantasyon makalesi.
 
 ```csharp
 public class RowCollection : NodeCollection
@@ -19,16 +21,16 @@ public class RowCollection : NodeCollection
 | İsim | Tanım |
 | --- | --- |
 | [Count](../../aspose.words/nodecollection/count/) { get; } | Koleksiyondaki düğüm sayısını alır. |
-| [Item](../../aspose.words.tables/rowcollection/item/) { get; } | Bir **Sıra** verilen dizinde. (2 indexers) |
+| [Item](../../aspose.words.tables/rowcollection/item/) { get; } | Bir öğeyi alır[`Row`](../row/) verilen dizinde. (2 indexers) |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
 | [Add](../../aspose.words/nodecollection/add/)(Node) | Koleksiyonun sonuna bir düğüm ekler. |
-| [Clear](../../aspose.words/nodecollection/clear/)() | Bu koleksiyondaki ve belgedeki tüm düğümleri kaldırır. |
-| [Contains](../../aspose.words/nodecollection/contains/)(Node) | Koleksiyonda bir düğüm olup olmadığını belirler. |
-| [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Düğüm koleksiyonu üzerinde basit bir "foreach" stili yineleme sağlar. |
+| [Clear](../../aspose.words/nodecollection/clear/)() | Tüm düğümleri bu koleksiyondan ve belgeden kaldırır. |
+| [Contains](../../aspose.words/nodecollection/contains/)(Node) | Bir düğümün koleksiyonda olup olmadığını belirler. |
+| [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Düğümlerin koleksiyonu üzerinde basit bir "foreach" stili yinelemesi sağlar. |
 | [IndexOf](../../aspose.words/nodecollection/indexof/)(Node) | Belirtilen düğümün sıfır tabanlı dizinini döndürür. |
 | [Insert](../../aspose.words/nodecollection/insert/)(int, Node) | Belirtilen dizindeki koleksiyona bir düğüm ekler. |
 | [Remove](../../aspose.words/nodecollection/remove/)(Node) | Düğümü koleksiyondan ve belgeden kaldırır. |
@@ -51,7 +53,7 @@ for (int i = 0; i < tables.Count; i++)
 
     RowCollection rows = tables[i].Rows;
 
-    // Bir diziye klonlamak için bir satır koleksiyonunda "ToArray" yöntemini kullanabiliriz.
+    // Bir satır koleksiyonunu bir diziye kopyalamak için "ToArray" yöntemini kullanabiliriz.
     Assert.AreEqual(rows, rows.ToArray());
     Assert.AreNotSame(rows, rows.ToArray());
 
@@ -61,7 +63,7 @@ for (int i = 0; i < tables.Count; i++)
 
         CellCollection cells = rows[j].Cells;
 
-        // Bir hücre koleksiyonunu bir diziye klonlamak için "ToArray" yöntemini kullanabiliriz.
+        // Bir hücre koleksiyonunu bir diziye kopyalamak için "ToArray" yöntemini kullanabiliriz.
         Assert.AreEqual(cells, cells.ToArray());
         Assert.AreNotSame(cells, cells.ToArray());
 

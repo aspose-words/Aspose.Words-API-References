@@ -3,7 +3,7 @@ title: LayoutOptions.RevisionOptions
 second_title: Aspose.Words for .NET API Referansı
 description: LayoutOptions mülk. Revizyon seçeneklerini alır.
 type: docs
-weight: 60
+weight: 70
 url: /tr/net/aspose.words.layout/layoutoptions/revisionoptions/
 ---
 ## LayoutOptions.RevisionOptions property
@@ -16,7 +16,7 @@ public RevisionOptions RevisionOptions { get; }
 
 ### Örnekler
 
-İşlenmiş bir çıktı belgesindeki revizyonların görünümünün nasıl değiştirileceğini gösterir.
+İşlenmiş bir çıktı belgesindeki düzeltmelerin görünümünün nasıl değiştirileceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -29,7 +29,7 @@ builder.Writeln("This is a revision.");
 doc.StopTrackRevisions();
 builder.Writeln("This is not a revision.");
 
-// Revize edilen her satırın solunda görünen çubuğu kaldırın.
+// Düzenlenen her satırın solunda görünen çubuğu kaldırın.
 doc.LayoutOptions.RevisionOptions.InsertedTextColor = RevisionColor.BrightGreen;
 doc.LayoutOptions.RevisionOptions.ShowRevisionBars = false;
 

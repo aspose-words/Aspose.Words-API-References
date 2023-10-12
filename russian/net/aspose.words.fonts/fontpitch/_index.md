@@ -1,14 +1,14 @@
 ---
 title: Enum FontPitch
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fonts.FontPitch перечисление. Представляет шаг шрифта.
+description: Aspose.Words.Fonts.FontPitch перечисление. Обозначает шаг шрифта.
 type: docs
-weight: 2780
+weight: 2960
 url: /ru/net/aspose.words.fonts/fontpitch/
 ---
 ## FontPitch enumeration
 
-Представляет шаг шрифта.
+Обозначает шаг шрифта.
 
 ```csharp
 public enum FontPitch
@@ -24,7 +24,7 @@ public enum FontPitch
 
 ### Примечания
 
-Шаг указывает, является ли шрифт фиксированным шагом, пропорционально расположенным или зависит от настройки по умолчанию.
+Шаг указывает, является ли шрифт фиксированным, пропорциональным или основан на настройке по умолчанию.
 
 ### Примеры
 

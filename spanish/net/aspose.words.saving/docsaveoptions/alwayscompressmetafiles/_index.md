@@ -1,14 +1,14 @@
 ---
 title: DocSaveOptions.AlwaysCompressMetafiles
 second_title: Referencia de API de Aspose.Words para .NET
-description: DocSaveOptions propiedad. cuandofalso  los metarchivos pequeños no se comprimen por motivos de rendimiento. El valor predeterminado es verdadero  todos los metarchivos se comprimen independientemente de su tamaño.
+description: DocSaveOptions propiedad. cuandoFALSO  los metarchivos pequeños no se comprimen por motivos de rendimiento. El valor predeterminado esverdadero  todos los metarchivos se comprimen independientemente de su tamaño.
 type: docs
 weight: 20
 url: /es/net/aspose.words.saving/docsaveoptions/alwayscompressmetafiles/
 ---
 ## DocSaveOptions.AlwaysCompressMetafiles property
 
-cuando`falso` , los metarchivos pequeños no se comprimen por motivos de rendimiento. El valor predeterminado es **verdadero** , todos los metarchivos se comprimen independientemente de su tamaño.
+cuando`FALSO` , los metarchivos pequeños no se comprimen por motivos de rendimiento. El valor predeterminado es`verdadero` , todos los metarchivos se comprimen independientemente de su tamaño.
 
 ```csharp
 public bool AlwaysCompressMetafiles { get; set; }

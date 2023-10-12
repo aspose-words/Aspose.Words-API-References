@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.Font
 second_title: Referencia de API de Aspose.Words para .NET
-description: DocumentBuilder propiedad. Devuelve un objeto que representa las propiedades de formato de fuente actual.
+description: DocumentBuilder propiedad. Devuelve un objeto que representa las propiedades de formato de fuente actuales.
 type: docs
-weight: 90
+weight: 100
 url: /es/net/aspose.words/documentbuilder/font/
 ---
 ## DocumentBuilder.Font property
 
-Devuelve un objeto que representa las propiedades de formato de fuente actual.
+Devuelve un objeto que representa las propiedades de formato de fuente actuales.
 
 ```csharp
 public Font Font { get; }
@@ -16,7 +16,7 @@ public Font Font { get; }
 
 ### Observaciones
 
-Usar **Fuente** para acceder y modificar las propiedades de formato de fuente.
+Usar`Font` para acceder y modificar las propiedades de formato de fuente.
 
 Especifique el formato de fuente antes de insertar texto.
 
@@ -37,7 +37,7 @@ builder.Write("Text surrounded by green border.");
 doc.Save(ArtifactsDir + "Border.FontBorder.docx");
 ```
 
-Muestra cómo crear una tabla con formato utilizando DocumentBuilder.
+Muestra cómo crear una tabla formateada usando DocumentBuilder.
 
 ```csharp
 Document doc = new Document();
@@ -47,7 +47,7 @@ Table table = builder.StartTable();
 builder.InsertCell();
 table.LeftIndent = 20;
 
-// Establecer algunas opciones de formato para el texto y la apariencia de la tabla.
+// Establece algunas opciones de formato para el texto y la apariencia de la tabla.
 builder.RowFormat.Height = 40;
 builder.RowFormat.HeightRule = HeightRule.AtLeast;
 builder.CellFormat.Shading.BackgroundPatternColor = Color.FromArgb(198, 217, 241);
@@ -57,9 +57,9 @@ builder.Font.Size = 16;
 builder.Font.Name = "Arial";
 builder.Font.Bold = true;
 
-// La configuración de las opciones de formato en un generador de documentos las aplicará
+// Configurar las opciones de formato en un generador de documentos las aplicará
 // a la celda/fila actual en la que se encuentra el cursor,
-// así como las nuevas celdas y filas creadas con ese constructor.
+// así como cualquier celda y fila nueva creada con ese generador.
 builder.Write("Header Row,\n Cell 1");
 builder.InsertCell();
 builder.Write("Header Row,\n Cell 2");
@@ -67,8 +67,8 @@ builder.InsertCell();
 builder.Write("Header Row,\n Cell 3");
 builder.EndRow();
 
-// Reconfigure los objetos de formato del constructor para nuevas filas y celdas que estamos a punto de crear.
-// El constructor no los aplicará a la primera fila ya creada para que se destaque como una fila de encabezado.
+// Reconfigurar los objetos de formato del constructor para las nuevas filas y celdas que estamos a punto de crear.
+// El constructor no los aplicará a la primera fila ya creada para que se destaque como fila de encabezado.
 builder.CellFormat.Shading.BackgroundPatternColor = Color.White;
 builder.CellFormat.VerticalAlignment = CellVerticalAlignment.Center;
 builder.RowFormat.Height = 30;

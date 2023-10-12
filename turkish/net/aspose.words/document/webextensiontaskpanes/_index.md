@@ -3,7 +3,7 @@ title: Document.WebExtensionTaskPanes
 second_title: Aspose.Words for .NET API Referansı
 description: Document mülk. Görev bölmesi eklentilerinin listesini temsil eden bir koleksiyon döndürür.
 type: docs
-weight: 470
+weight: 490
 url: /tr/net/aspose.words/document/webextensiontaskpanes/
 ---
 ## Document.WebExtensionTaskPanes property

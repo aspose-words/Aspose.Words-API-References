@@ -1,14 +1,14 @@
 ---
 title: Enum HorizontalAlignment
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Drawing.HorizontalAlignment énumération. Spécifie lalignement horizontal dune forme flottante dun bloc de texte ou dun tableau flottant.
+description: Aspose.Words.Drawing.HorizontalAlignment énumération. Spécifie lalignement horizontal dune forme flottante dun cadre de texte ou dun tableau flottant.
 type: docs
-weight: 900
+weight: 1030
 url: /fr/net/aspose.words.drawing/horizontalalignment/
 ---
 ## HorizontalAlignment enumeration
 
-Spécifie l'alignement horizontal d'une forme flottante, d'un bloc de texte ou d'un tableau flottant.
+Spécifie l'alignement horizontal d'une forme flottante, d'un cadre de texte ou d'un tableau flottant.
 
 ```csharp
 public enum HorizontalAlignment
@@ -18,7 +18,7 @@ public enum HorizontalAlignment
 
 | Nom | Évaluer | La description |
 | --- | --- | --- |
-| None | `0` | L'objet est positionné explicitement, généralement à l'aide de son **La gauche** propriété. |
+| None | `0` | L'objet est positionné explicitement, généralement à l'aide de son **Gauche** propriété. |
 | Default | `0` | Identique àNone . |
 | Left | `1` | Spécifie que l'objet doit être aligné à gauche sur la base d'alignement horizontal. |
 | Center | `2` | Spécifie que l'objet doit être centré par rapport à la base d'alignement horizontal. |
@@ -28,13 +28,13 @@ public enum HorizontalAlignment
 
 ### Exemples
 
-Montre comment insérer une image flottante au centre d'une page.
+Montre comment insérer une image flottante au centre d’une page.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Insère une image flottante qui apparaîtra derrière le texte superposé et l'aligne au centre de la page.
+// Insère une image flottante qui apparaîtra derrière le texte superposé et alignez-la au centre de la page.
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 shape.WrapType = WrapType.None;
 shape.BehindText = true;

@@ -16,7 +16,7 @@ public string Name { get; set; }
 
 ### Anmärkningar
 
-Kan inte vara null.
+Kan inte vara`null`.
 
 ### Exempel
 
@@ -28,7 +28,6 @@ public void CreateUpdateAndPrintBookmarks()
     // Skapa ett dokument med tre bokmärken och använd sedan en anpassad dokumentbesökarimplementering för att skriva ut innehållet.
     Document doc = CreateDocumentWithBookmarks(3);
     BookmarkCollection bookmarks = doc.Range.Bookmarks;
-
     PrintAllBookmarkInfo(bookmarks);
 
     // Bokmärken kan nås i bokmärkessamlingen genom index eller namn, och deras namn kan uppdateras.

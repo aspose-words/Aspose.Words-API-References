@@ -3,7 +3,7 @@ title: ShapeBase.Rotation
 second_title: Aspose.Words för .NET API Referens
 description: ShapeBase fast egendom. Definierar vinkeln i grader som en form roteras. Positivt värde motsvarar medurs rotationsvinkel.
 type: docs
-weight: 430
+weight: 470
 url: /sv/net/aspose.words.drawing/shapebase/rotation/
 ---
 ## ShapeBase.Rotation property

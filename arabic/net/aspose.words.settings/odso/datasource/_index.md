@@ -1,14 +1,14 @@
 ---
 title: Odso.DataSource
 second_title: Aspose.Words لمراجع .NET API
-description: Odso ملكية. يحدد موقع مصدر البيانات الخارجي الذي سيتم توصيله بمستند لإجراء دمج البريد. القيمة الافتراضية هي سلسلة فارغة.
+description: Odso ملكية. يحدد موقع مصدر البيانات الخارجي المراد توصيله بمستند لإجراء دمج البريد. القيمة الافتراضية هي سلسلة فارغة.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.settings/odso/datasource/
 ---
 ## Odso.DataSource property
 
-يحدد موقع مصدر البيانات الخارجي الذي سيتم توصيله بمستند لإجراء دمج البريد. القيمة الافتراضية هي سلسلة فارغة.
+يحدد موقع مصدر البيانات الخارجي المراد توصيله بمستند لإجراء دمج البريد. القيمة الافتراضية هي سلسلة فارغة.
 
 ```csharp
 public string DataSource { get; set; }
@@ -29,9 +29,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// إنشاء مصدر بيانات في شكل ملف ASCII ، باستخدام "|" حرف
-// يعمل كمحدد يفصل بين الأعمدة. يحتوي السطر الأول على أسماء الأعمدة الثلاثة ،
-// وكل سطر لاحق هو صف بقيمها الخاصة.
+// قم بإنشاء مصدر بيانات على شكل ملف ASCII، باستخدام "|" شخصية
+// يعمل كمحدد يفصل بين الأعمدة. السطر الأول يحتوي على أسماء الأعمدة الثلاثة،
+// وكل سطر لاحق عبارة عن صف بقيمه الخاصة.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";
@@ -59,7 +59,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
-// سيؤدي فتح هذا المستند في Microsoft Word إلى تنفيذ دمج البريد قبل عرض المحتويات. 
+ // سيؤدي فتح هذا المستند في Microsoft Word إلى تنفيذ دمج البريد قبل عرض المحتويات.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

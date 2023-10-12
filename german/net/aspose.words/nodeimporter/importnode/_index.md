@@ -1,14 +1,14 @@
 ---
 title: NodeImporter.ImportNode
 second_title: Aspose.Words für .NET-API-Referenz
-description: NodeImporter methode. Importiert einen Knoten von einem Dokument in ein anderes.
+description: NodeImporter methode. Importiert einen Knoten aus einem Dokument in ein anderes.
 type: docs
 weight: 20
 url: /de/net/aspose.words/nodeimporter/importnode/
 ---
 ## NodeImporter.ImportNode method
 
-Importiert einen Knoten von einem Dokument in ein anderes.
+Importiert einen Knoten aus einem Dokument in ein anderes.
 
 ```csharp
 public Node ImportNode(Node srcNode, bool isImportChildren)
@@ -17,26 +17,25 @@ public Node ImportNode(Node srcNode, bool isImportChildren)
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | srcNode | Node | Der zu importierende Knoten. |
-| isImportChildren | Boolean | True, um alle untergeordneten Knoten rekursiv zu importieren; andernfalls falsch. |
+| isImportChildren | Boolean | `WAHR` um alle untergeordneten Knoten rekursiv zu importieren; ansonsten,`FALSCH`. |
 
 ### Rückgabewert
 
-Der geklonte, importierte Knoten. Der Knoten gehört zum Zieldokument, hat aber keinen Elternknoten.
+Der geklonte, importierte Knoten. Der Knoten gehört zum Zieldokument, hat aber keinen übergeordneten Knoten.
 
 ### Bemerkungen
 
-Beim Importieren eines Knotens wird eine Kopie des Quellknotens erstellt, der zum importierenden Dokument gehört. Der zurückgegebene Knoten hat keinen Elternknoten. Der Quellknoten wird nicht geändert oder aus dem Originaldokument entfernt.
+Beim Importieren eines Knotens wird eine Kopie des Quellknotens erstellt, der zum importierenden Dokument gehört. Der zurückgegebene Knoten hat keinen übergeordneten Knoten. Der Quellknoten wird nicht geändert oder aus dem Originaldokument entfernt.
 
-Bevor ein Knoten aus einem anderen Dokument in dieses Dokument eingefügt werden kann, muss es importiert werden. Beim Import werden dokumentspezifische Eigenschaften wie Verweise auf Stile und Listen vom Original in das importierende Dokument übersetzt. Nachdem der Knoten importiert wurde, kann er mit an der entsprechenden Stelle im Dokument eingefügt werden[`InsertBefore`](../../compositenode/insertbefore/) oder [`InsertAfter`](../../compositenode/insertafter/).
+Bevor ein Knoten aus einem anderen Dokument in dieses Dokument eingefügt werden kann, muss dieser importiert werden. Beim Import werden dokumentspezifische Eigenschaften wie Verweise auf Stile und Listen vom Original in das importierende Dokument übersetzt . Nachdem der Knoten importiert wurde, kann er mit an der entsprechenden Stelle im Dokument eingefügt werdenNode) oder Node).
 
 Wenn der Quellknoten bereits zum Zieldokument gehört, wird einfach ein tiefer Klon des Quellknotens erstellt.
 
 ### Beispiele
 
-Zeigt, wie Sie den Inhalt eines Dokuments in ein Lesezeichen in einem anderen Dokument einfügen.
+Zeigt, wie der Inhalt eines Dokuments in ein Lesezeichen in einem anderen Dokument eingefügt wird.
 
 ```csharp
-[Test]
 public void InsertAtBookmark()
 {
     Document doc = new Document();
@@ -72,8 +71,8 @@ static void InsertDocument(Node insertionDestination, Document docToInsert)
         NodeImporter importer =
             new NodeImporter(docToInsert, insertionDestination.Document, ImportFormatMode.KeepSourceFormatting);
 
-        // Alle Knoten auf Blockebene im Körper des Abschnitts durchlaufen,
-        // Dann klonen und fügen Sie jeden Knoten ein, der nicht der letzte leere Absatz eines Abschnitts ist.
+        // Alle Knoten auf Blockebene im Hauptteil des Abschnitts durchlaufen,
+        // dann jeden Knoten klonen und einfügen, der nicht der letzte leere Absatz eines Abschnitts ist.
         foreach (Section srcSection in docToInsert.Sections.OfType<Section>())
             foreach (Node srcNode in srcSection.Body)
             {

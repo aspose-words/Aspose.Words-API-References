@@ -10,6 +10,8 @@ url: /sv/net/aspose.words.digitalsignatures/digitalsignatureutil/removeallsignat
 
 Tar bort alla digitala signaturer från källfilen och skriver osignerad fil till målfilen.
 
+Följande format är kompatibla för borttagning av digital signatur: Doc , Dot , Docx , Dotx , Docm , Odt , Ott.
+
 ```csharp
 public static void RemoveAllSignatures(string srcFileName, string dstFileName)
 ```
@@ -52,6 +54,8 @@ Assert.That(DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignature
 Tar bort alla digitala signaturer från dokumentet i källströmmen och skriver osignerat dokument till målströmmen.
 
 **Utdata kommer att skrivas till starten av strömmen och strömstorleken kommer att uppdateras med innehållets längd.**
+
+Följande format är kompatibla för borttagning av digital signatur: Doc , Dot , Docx , Dotx , Docm , Odt , Ott.
 
 ```csharp
 public static void RemoveAllSignatures(Stream srcStream, Stream dstStream)

@@ -1,14 +1,14 @@
 ---
 title: FieldAutoTextList.ListStyle
 second_title: Aspose.Words per .NET API Reference
-description: FieldAutoTextList proprietà. Ottiene o imposta il nome dello stile su cui si basa lelenco per contenere le voci.
+description: FieldAutoTextList proprietà. Ottiene o imposta il nome dello stile su cui si basa lelenco che dovrà contenere le voci.
 type: docs
 weight: 30
 url: /it/net/aspose.words.fields/fieldautotextlist/liststyle/
 ---
 ## FieldAutoTextList.ListStyle property
 
-Ottiene o imposta il nome dello stile su cui si basa l'elenco per contenere le voci.
+Ottiene o imposta il nome dello stile su cui si basa l'elenco che dovrà contenere le voci.
 
 ```csharp
 public string ListStyle { get; set; }
@@ -19,6 +19,7 @@ public string ListStyle { get; set; }
 Mostra come utilizzare un campo AUTOTEXTLIST per selezionare da un elenco di voci di glossario.
 
 ```csharp
+public void FieldAutoTextList()
 {
     Document doc = new Document();
 
@@ -30,7 +31,7 @@ Mostra come utilizzare un campo AUTOTEXTLIST per selezionare da un elenco di voc
 
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Crea un campo AUTOTEXTLIST e imposta il testo che il campo visualizzerà in Microsoft Word.
+    // Crea un campo AUTOTEXTLIST e imposta il testo che verrà visualizzato nel campo in Microsoft Word.
     // Imposta il testo per richiedere all'utente di fare clic con il pulsante destro del mouse su questo campo per selezionare un blocco predefinito di glossario,
     // il cui contenuto verrà visualizzato nel campo.
     FieldAutoTextList field = (FieldAutoTextList)builder.InsertField(FieldType.FieldAutoTextList, true);
@@ -43,9 +44,10 @@ Mostra come utilizzare un campo AUTOTEXTLIST per selezionare da un elenco di voc
                     "\\t \"Hover tip text for AutoTextList goes here\"", field.GetFieldCode());
 
     doc.Save(ArtifactsDir + "Field.AUTOTEXTLIST.dotx");
+}
 
 /// <summary>
-/// Crea un blocco predefinito di tipo glossario e aggiungilo a un documento di glossario.
+/// Crea un blocco predefinito di tipo Glossario e aggiungilo a un documento di glossario.
 /// </summary>
 private static void AppendAutoTextEntry(GlossaryDocument glossaryDoc, string name, string contents)
 {

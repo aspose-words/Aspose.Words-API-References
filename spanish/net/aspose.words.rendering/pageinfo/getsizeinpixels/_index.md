@@ -3,7 +3,7 @@ title: PageInfo.GetSizeInPixels
 second_title: Referencia de API de Aspose.Words para .NET
 description: PageInfo método. Calcula el tamaño de la página en píxeles para un factor de zoom y una resolución específicos.
 type: docs
-weight: 80
+weight: 90
 url: /es/net/aspose.words.rendering/pageinfo/getsizeinpixels/
 ---
 ## GetSizeInPixels(float, float) {#getsizeinpixels}
@@ -16,7 +16,7 @@ public Size GetSizeInPixels(float scale, float dpi)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| scale | Single | El factor de zoom (1.0 es 100%). |
+| scale | Single | El factor de zoom (1,0 es 100%). |
 | dpi | Single | La resolución (horizontal y vertical) para convertir de puntos a píxeles (puntos por pulgada). |
 
 ### Valor_devuelto
@@ -41,7 +41,7 @@ public Size GetSizeInPixels(float scale, float horizontalDpi, float verticalDpi)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| scale | Single | El factor de zoom (1.0 es 100%). |
+| scale | Single | El factor de zoom (1,0 es 100%). |
 | horizontalDpi | Single | La resolución horizontal para convertir de puntos a píxeles (puntos por pulgada). |
 | verticalDpi | Single | La resolución vertical para convertir de puntos a píxeles (puntos por pulgada). |
 
@@ -51,12 +51,12 @@ El tamaño de la página en píxeles.
 
 ### Ejemplos
 
-Muestra cómo imprimir información sobre el tamaño y la orientación de la página para cada página de un documento de Word.
+Muestra cómo imprimir información sobre el tamaño y la orientación de cada página de un documento de Word.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// La primera sección tiene 2 páginas. Asignaremos una bandeja de papel de impresora diferente a cada uno,
+// La primera sección tiene 2 páginas. A cada una le asignaremos una bandeja de papel de impresora diferente,
 // cuyo número coincidirá con un tipo de fuente de papel. Estas fuentes y sus tipos variarán
 // dependiendo del controlador de impresora instalado.
 PrinterSettings.PaperSourceCollection paperSources = new PrinterSettings().PaperSources;
@@ -81,7 +81,7 @@ for (int i = 0; i < doc.PageCount; i++)
     Console.WriteLine($"\tSize in points:\t{pageInfo.SizeInPoints}");
     Console.WriteLine($"\tSize in pixels:\t{pageInfo.GetSizeInPixels(1.0f, 96)} at {scale * 100}% scale, {dpi} dpi");
 
-    // Imprimir la información de la bandeja de origen.
+    // Imprime la información de la bandeja de origen.
     Console.WriteLine($"\tTray:\t{pageInfo.PaperTray}");
     PaperSource source = pageInfo.GetSpecifiedPrinterPaperSource(paperSources, paperSources[0]);
     Console.WriteLine($"\tSuitable print source:\t{source.SourceName}, kind: {source.Kind}");

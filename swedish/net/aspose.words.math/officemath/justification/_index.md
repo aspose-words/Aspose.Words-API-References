@@ -3,7 +3,7 @@ title: OfficeMath.Justification
 second_title: Aspose.Words för .NET API Referens
 description: OfficeMath fast egendom. Får/ställer in Office Math motivering.
 type: docs
-weight: 30
+weight: 20
 url: /sv/net/aspose.words.math/officemath/justification/
 ---
 ## OfficeMath.Justification property
@@ -36,9 +36,6 @@ OfficeMath officeMath = (OfficeMath) doc.GetChild(NodeType.OfficeMath, 0, true);
 Assert.AreEqual(MathObjectType.OMathPara, officeMath.MathObjectType);
 Assert.AreEqual(NodeType.OfficeMath, officeMath.NodeType);
 Assert.AreEqual(officeMath.ParentNode, officeMath.ParentParagraph);
-
-// OOXML- och WML-format använder egenskapen "EquationXmlEncoding".
-Assert.IsNull(officeMath.EquationXmlEncoding);
 
 // Ändra plats och visningstyp för OfficeMath-noden.
 officeMath.DisplayType = OfficeMathDisplayType.Display;

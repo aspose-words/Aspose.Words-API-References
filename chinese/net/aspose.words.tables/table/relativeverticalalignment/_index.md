@@ -28,7 +28,7 @@ builder.Write("Table 1, cell 1");
 builder.EndTable();
 table.PreferredWidth = PreferredWidth.FromPoints(300);
 
-// 将表格的位置设置为页面上的某个位置，例如在本例中为右下角。
+// 将表格的位置设置为页面上的某个位置，例如本例中的右下角。
 table.RelativeVerticalAlignment = VerticalAlignment.Bottom;
 table.RelativeHorizontalAlignment = HorizontalAlignment.Right;
 
@@ -38,7 +38,7 @@ builder.Write("Table 2, cell 1");
 builder.EndTable();
 table.PreferredWidth = PreferredWidth.FromPoints(300);
 
-// 我们还可以设置从插入表格的段落位置开始的水平和垂直偏移量。 
+ // 我们还可以设置距插入表格的段落位置的水平和垂直偏移（以磅为单位）。
 table.AbsoluteVerticalDistance = 50;
 table.AbsoluteHorizontalDistance = 100;
 

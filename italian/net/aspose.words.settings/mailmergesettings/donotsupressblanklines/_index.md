@@ -1,14 +1,14 @@
 ---
 title: MailMergeSettings.DoNotSupressBlankLines
 second_title: Aspose.Words per .NET API Reference
-description: MailMergeSettings proprietà. Specifica come unapplicazione che esegue la stampa unione deve gestire le righe vuote nei documenti uniti risultanti dalla stampa unione. Il valore predefinito èfalso .
+description: MailMergeSettings proprietà. Specifica il modo in cui unapplicazione che esegue la stampa unione dovrà gestire le righe vuote nei documenti uniti risultanti dalla stampa unione. Il valore predefinito èfalso .
 type: docs
 weight: 90
 url: /it/net/aspose.words.settings/mailmergesettings/donotsupressblanklines/
 ---
 ## MailMergeSettings.DoNotSupressBlankLines property
 
-Specifica come un'applicazione che esegue la stampa unione deve gestire le righe vuote nei documenti uniti risultanti dalla stampa unione. Il valore predefinito è`falso` .
+Specifica il modo in cui un'applicazione che esegue la stampa unione dovrà gestire le righe vuote nei documenti uniti risultanti dalla stampa unione. Il valore predefinito è`falso` .
 
 ```csharp
 public bool DoNotSupressBlankLines { get; set; }
@@ -59,7 +59,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
-// L'apertura di questo documento in Microsoft Word eseguirà la stampa unione prima di visualizzare il contenuto. 
+ // L'apertura di questo documento in Microsoft Word eseguirà la stampa unione prima di visualizzarne il contenuto.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

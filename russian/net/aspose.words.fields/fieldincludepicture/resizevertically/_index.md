@@ -1,14 +1,14 @@
 ---
 title: FieldIncludePicture.ResizeVertically
 second_title: Справочник по API Aspose.Words для .NET
-description: FieldIncludePicture свойство. Получает или задает следует ли изменять размер изображения по вертикали из источника.
+description: FieldIncludePicture свойство. Получает или задает необходимость изменения размера изображения по вертикали из источника.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.fields/fieldincludepicture/resizevertically/
 ---
 ## FieldIncludePicture.ResizeVertically property
 
-Получает или задает, следует ли изменять размер изображения по вертикали из источника.
+Получает или задает необходимость изменения размера изображения по вертикали из источника.
 
 ```csharp
 public bool ResizeVertically { get; set; }
@@ -22,7 +22,7 @@ public bool ResizeVertically { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Ниже приведены два похожих типа полей, которые мы можем использовать для отображения изображений, связанных из локальной файловой системы.
+// Ниже приведены два похожих типа полей, которые мы можем использовать для отображения изображений, связанных с локальной файловой системой.
 // 1 - Поле INCLUDEPICTURE:
 FieldIncludePicture fieldIncludePicture = (FieldIncludePicture)builder.InsertField(FieldType.FieldIncludePicture, true);
 fieldIncludePicture.SourceFullName = ImageDir + "Transparent background logo.png";

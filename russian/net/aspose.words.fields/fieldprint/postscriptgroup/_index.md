@@ -1,14 +1,14 @@
 ---
 title: FieldPrint.PostScriptGroup
 second_title: Справочник по API Aspose.Words для .NET
-description: FieldPrint свойство. Получает или задает прямоугольник рисования с которым работают инструкции PostScript.
+description: FieldPrint свойство. Получает или задает прямоугольник рисования над которым работают инструкции PostScript.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldprint/postscriptgroup/
 ---
 ## FieldPrint.PostScriptGroup property
 
-Получает или задает прямоугольник рисования, с которым работают инструкции PostScript.
+Получает или задает прямоугольник рисования, над которым работают инструкции PostScript.
 
 ```csharp
 public string PostScriptGroup { get; set; }
@@ -16,7 +16,7 @@ public string PostScriptGroup { get; set; }
 
 ### Примеры
 
-Показывает, чтобы вставить поле PRINT.
+Показывает, что нужно вставить поле ПЕЧАТЬ.
 
 ```csharp
 Document doc = new Document();
@@ -24,7 +24,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("My paragraph");
 
-// Поле PRINT может отправлять инструкции на принтер.
+// Поле ПЕЧАТЬ может отправлять инструкции на принтер.
 FieldPrint field = (FieldPrint)builder.InsertField(FieldType.FieldPrint, true);
 
 // Установите область, в которой принтер будет выполнять инструкции.
@@ -32,7 +32,7 @@ FieldPrint field = (FieldPrint)builder.InsertField(FieldType.FieldPrint, true);
 field.PostScriptGroup = "para";
 
 // Когда мы используем принтер, поддерживающий PostScript, для печати нашего документа,
-// эта команда сделает всю область, которую мы указали в "field.PostScriptGroup", белой.
+// эта команда превратит всю область, указанную в «field.PostScriptGroup», в белую.
 field.PrinterInstructions = "erasepage";
 
 Assert.AreEqual(" PRINT  erasepage \\p para", field.GetFieldCode());

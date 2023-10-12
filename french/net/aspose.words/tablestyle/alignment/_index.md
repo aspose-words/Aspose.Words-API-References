@@ -1,14 +1,14 @@
 ---
 title: TableStyle.Alignment
 second_title: Référence de l'API Aspose.Words pour .NET
-description: TableStyle propriété. Spécifie lalignement pour le style de tableau.
+description: TableStyle propriété. Spécifie lalignement du style de tableau.
 type: docs
 weight: 10
 url: /fr/net/aspose.words/tablestyle/alignment/
 ---
 ## TableStyle.Alignment property
 
-Spécifie l'alignement pour le style de tableau.
+Spécifie l'alignement du style de tableau.
 
 ```csharp
 public TableAlignment Alignment { get; set; }
@@ -26,8 +26,8 @@ Montre comment définir la position d'un tableau.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Vous trouverez ci-dessous deux manières d'aligner une table horizontalement.
-// 1 - Utilisez la propriété "Alignment" pour l'aligner sur un emplacement de la page, tel que le centre :
+// Vous trouverez ci-dessous deux manières d'aligner un tableau horizontalement.
+// 1 - Utilisez la propriété "Alignement" pour l'aligner à un emplacement de la page, comme le centre :
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 tableStyle.Alignment = TableAlignment.Center;
 tableStyle.Borders.Color = Color.Blue;

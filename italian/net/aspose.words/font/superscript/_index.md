@@ -20,9 +20,9 @@ Mostra come formattare il testo per spostarne la posizione.
 
 ```csharp
 Document doc = new Document();
-Paragraph para = (Paragraph) doc.GetChild(NodeType.Paragraph, 0, true);
+Paragraph para = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
 
-// Alza questa sequenza di testo di 5 punti sopra la linea di base.
+// Alza questa sequenza di testo 5 punti sopra la linea di base.
 Run run = new Run(doc, "Raised text. ");
 run.Font.Position = 5;
 para.AppendChild(run);

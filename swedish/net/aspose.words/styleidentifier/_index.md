@@ -3,7 +3,7 @@ title: Enum StyleIdentifier
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.StyleIdentifier uppräkning. Lokaloberoende stilidentifierare.
 type: docs
-weight: 5850
+weight: 6150
 url: /sv/net/aspose.words/styleidentifier/
 ---
 ## StyleIdentifier enumeration
@@ -401,7 +401,7 @@ public enum StyleIdentifier
 
 Namnen på inbyggda stilar i MS Word är lokaliserade för olika språk. Med hjälp av en stilidentifierare kan du hitta rätt stil oavsett dokumentspråk.
 
-Alla användardefinierade stilar tilldelas StyleIdentifier.User-värdet.
+Alla användardefinierade stilar tilldelasUser värde.
 
 ### Exempel
 

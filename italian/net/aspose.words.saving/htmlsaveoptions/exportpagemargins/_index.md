@@ -3,7 +3,7 @@ title: HtmlSaveOptions.ExportPageMargins
 second_title: Aspose.Words per .NET API Reference
 description: HtmlSaveOptions proprietà. Specifica se i margini della pagina vengono esportati in HTML MHTML o EPUB. Limpostazione predefinita èfalso .
 type: docs
-weight: 220
+weight: 210
 url: /it/net/aspose.words.saving/htmlsaveoptions/exportpagemargins/
 ---
 ## HtmlSaveOptions.ExportPageMargins property
@@ -16,29 +16,29 @@ public bool ExportPageMargins { get; set; }
 
 ### Osservazioni
 
-Aspose.Words non mostra l'area dei margini della pagina per impostazione predefinita. Se alcuni elementi sono completamente o parzialmente tagliati dal bordo del documento, l'area visualizzata può essere estesa con questa opzione.
+Aspose.Words non mostra l'area dei margini della pagina per impostazione predefinita. Se qualche elemento è completamente o parzialmente tagliato dal bordo del documento, l'area visualizzata può essere estesa con questa opzione.
 
 ### Esempi
 
-Mostra come mostrare gli oggetti fuori limite nei documenti HTML di output.
+Mostra come mostrare oggetti fuori limite nei documenti HTML di output.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Usa un builder per inserire una forma senza avvolgimento.
+// Utilizza un generatore per inserire una forma senza avvolgimento.
 Shape shape = builder.InsertShape(ShapeType.Cube, 200, 200);
 
 shape.RelativeHorizontalPosition = RelativeHorizontalPosition.Page;
 shape.RelativeVerticalPosition = RelativeVerticalPosition.Page;
 shape.WrapType = WrapType.None;
 
-// I valori di posizione della forma negativi possono posizionare la forma al di fuori dei limiti della pagina.
-// Se esportiamo questo in HTML, la forma apparirà troncata.
+// Valori di posizione della forma negativi possono posizionare la forma fuori dai limiti della pagina.
+// Se lo esportiamo in HTML, la forma apparirà troncata.
 shape.Left = -150;
 
-// Quando salviamo il documento in HTML, possiamo passare un oggetto SaveOptions
-// per decidere se regolare la pagina per visualizzare completamente gli oggetti fuori limite.
+// Quando si salva il documento in HTML, possiamo passare un oggetto SaveOptions
+// per decidere se modificare la pagina per visualizzare completamente gli oggetti fuori limite.
 // Se impostiamo il flag "ExportPageMargins" su "true", la forma sarà completamente visibile nell'HTML di output.
 // Se impostiamo il flag "ExportPageMargins" su "false",
 // il nostro documento visualizzerà la forma troncata come la vedremmo in Microsoft Word.
@@ -50,13 +50,13 @@ string outDocContents = File.ReadAllText(ArtifactsDir + "HtmlSaveOptions.ExportP
 
 if (exportPageMargins)
 {
-    Assert.True(outDocContents.Contains("<style type=\"text/css\">div.Section1 { margin:70.85pt }</style>"));
-    Assert.True(outDocContents.Contains("<div class=\"Section1\"><p style=\"margin-top:0pt; margin-left:151pt; margin-bottom:0pt\">"));
+    Assert.True(outDocContents.Contains("<style type=\"text/css\">div.Section_1 { margin:70.85pt }</style>"));
+    Assert.True(outDocContents.Contains("<div class=\"Section_1\"><p style=\"margin-top:0pt; margin-left:150pt; margin-bottom:0pt\">"));
 }
 else
 {
     Assert.False(outDocContents.Contains("style type=\"text/css\">"));
-    Assert.True(outDocContents.Contains("<div><p style=\"margin-top:0pt; margin-left:221.85pt; margin-bottom:0pt\">"));
+    Assert.True(outDocContents.Contains("<div><p style=\"margin-top:0pt; margin-left:220.85pt; margin-bottom:0pt\">"));
 }
 ```
 

@@ -20,11 +20,11 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Valor_devuelto
 
-Falso si el visitante solicitó que se detuviera la enumeración.
+`FALSO` si el visitante solicitó que se detuviera la enumeración.
 
 ### Observaciones
 
-Llamadas[`VisitEditableRangeStart`](../../documentvisitor/visiteditablerangestart/).
+llamadas[`VisitEditableRangeStart`](../../documentvisitor/visiteditablerangestart/).
 
 Para obtener más información, consulte el patrón de diseño Visitante.
 
@@ -42,9 +42,9 @@ public void Visitor()
     builder.Writeln("Hello world! Since we have set the document's protection level to read-only," +
                     " we cannot edit this paragraph without the password.");
 
-    // Cuando protegemos documentos contra escritura, los rangos editables nos permiten seleccionar áreas específicas que los usuarios pueden editar.
+    // Cuando protegemos documentos contra escritura, los rangos editables nos permiten elegir áreas específicas que los usuarios pueden editar.
     // Hay dos formas mutuamente excluyentes de reducir la lista de editores permitidos.
-    // 1 - Especifique un usuario:
+    // 1 - Especifica un usuario:
     EditableRange editableRange = builder.StartEditableRange().EditableRange;
     editableRange.SingleUser = "john.doe@myoffice.com";
     builder.Writeln($"This paragraph is inside the first editable range, can only be edited by {editableRange.SingleUser}.");
@@ -52,7 +52,7 @@ public void Visitor()
 
     Assert.AreEqual(EditorType.Unspecified, editableRange.EditorGroup);
 
-    // 2 - Especifique un grupo con el que los usuarios permitidos estén asociados:
+    // 2 - Especifica un grupo al que se le permite asociar a los usuarios:
     editableRange = builder.StartEditableRange().EditableRange;
     editableRange.EditorGroup = EditorType.Administrators;
     builder.Writeln($"This paragraph is inside the first editable range, can only be edited by {editableRange.EditorGroup}.");
@@ -62,7 +62,7 @@ public void Visitor()
 
     builder.Writeln("This paragraph is outside the editable range, and cannot be edited by anybody.");
 
-    // Imprimir detalles y contenidos de cada rango editable en el documento.
+    // Imprime detalles y contenidos de cada rango editable en el documento.
     EditableRangePrinter editableRangePrinter = new EditableRangePrinter();
 
     doc.Accept(editableRangePrinter);
@@ -71,7 +71,7 @@ public void Visitor()
 }
 
 /// <summary>
-/// Recopila las propiedades y el contenido de los rangos editables visitados en una cadena.
+/// Recopila propiedades y contenidos de rangos editables visitados en una cadena.
 /// </summary>
 public class EditableRangePrinter : DocumentVisitor
 {
@@ -92,7 +92,7 @@ public class EditableRangePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Llamado cuando se encuentra un nodo EditableRangeStart en el documento.
+    /// Se llama cuando se encuentra un nodo EditableRangeStart en el documento.
     /// </summary>
     public override VisitorAction VisitEditableRangeStart(EditableRangeStart editableRangeStart)
     {
@@ -110,7 +110,7 @@ public class EditableRangePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Llamado cuando se encuentra un nodo EditableRangeEnd en el documento.
+    /// Se llama cuando se encuentra un nodo EditableRangeEnd en el documento.
     /// </summary>
     public override VisitorAction VisitEditableRangeEnd(EditableRangeEnd editableRangeEnd)
     {
@@ -122,7 +122,7 @@ public class EditableRangePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Llamado cuando se encuentra un nodo Ejecutar en el documento. Este visitante solo registra carreras que están dentro de rangos editables.
+    /// Se llama cuando se encuentra un nodo Ejecutar en el documento. Este visitante solo registra ejecuciones que se encuentran dentro de rangos editables.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {

@@ -1,14 +1,14 @@
 ---
 title: SignatureLine.DefaultInstructions
 second_title: Aspose.Words för .NET API Referens
-description: SignatureLine fast egendom. Hämtar eller ställer in ett värde som indikerar att standardinstruktioner visas i dialogrutan Signera. Standardvärdet för den här egenskapen är Sann .
+description: SignatureLine fast egendom. Hämtar eller ställer in ett värde som indikerar att standardinstruktioner visas i dialogrutan Signera. Standardvärdet för den här egenskapen ärSann .
 type: docs
 weight: 20
 url: /sv/net/aspose.words.drawing/signatureline/defaultinstructions/
 ---
 ## SignatureLine.DefaultInstructions property
 
-Hämtar eller ställer in ett värde som indikerar att standardinstruktioner visas i dialogrutan Signera. Standardvärdet för den här egenskapen är **Sann** .
+Hämtar eller ställer in ett värde som indikerar att standardinstruktioner visas i dialogrutan Signera. Standardvärdet för den här egenskapen är`Sann` .
 
 ```csharp
 public bool DefaultInstructions { get; set; }

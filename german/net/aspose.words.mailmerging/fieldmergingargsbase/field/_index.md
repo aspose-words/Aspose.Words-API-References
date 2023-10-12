@@ -1,14 +1,14 @@
 ---
 title: FieldMergingArgsBase.Field
 second_title: Aspose.Words für .NET-API-Referenz
-description: FieldMergingArgsBase eigendom. Ruft das Objekt ab das das aktuelle Briefvorlagenfeld darstellt.
+description: FieldMergingArgsBase eigendom. Ruft das Objekt ab das das aktuelle Zusammenführungsfeld darstellt.
 type: docs
 weight: 30
 url: /de/net/aspose.words.mailmerging/fieldmergingargsbase/field/
 ---
 ## FieldMergingArgsBase.Field property
 
-Ruft das Objekt ab, das das aktuelle Briefvorlagenfeld darstellt.
+Ruft das Objekt ab, das das aktuelle Zusammenführungsfeld darstellt.
 
 ```csharp
 public FieldMergeField Field { get; }
@@ -16,9 +16,10 @@ public FieldMergeField Field { get; }
 
 ### Beispiele
 
-Zeigt, wie Sie einen Seriendruck mit einem benutzerdefinierten Rückruf ausführen, der Zusammenführungsdaten in Form von HTML-Dokumenten verarbeitet.
+Zeigt, wie ein Serienbrief mit einem benutzerdefinierten Rückruf ausgeführt wird, der Seriendaten in Form von HTML-Dokumenten verarbeitet.
 
 ```csharp
+public void MergeHtml()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -48,13 +49,13 @@ Zeigt, wie Sie einen Seriendruck mit einem benutzerdefinierten Rückruf ausführ
 }
 
 /// <summary>
-/// Wenn der Seriendruck auf ein MERGEFIELD trifft, dessen Name mit dem Präfix "html_" beginnt,
-/// Dieser Callback parst seine Zusammenführungsdaten als HTML-Inhalt und fügt das Ergebnis dem Dokumentspeicherort von MERGEFIELD hinzu.
+/// Wenn der Seriendruck auf ein MERGEFIELD trifft, dessen Name mit dem Präfix „html_“ beginnt,
+/// Dieser Rückruf analysiert seine Zusammenführungsdaten als HTML-Inhalt und fügt das Ergebnis dem Dokumentspeicherort des MERGEFIELD hinzu.
 /// </summary>
 private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 {
     /// <summary>
-    /// Wird aufgerufen, wenn bei einem Seriendruck Daten in einem MERGEFIELD zusammengeführt werden.
+    /// Wird aufgerufen, wenn ein Serienbrief Daten in einem MERGEFIELD zusammenführt.
     /// </summary>
     void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)
     {
@@ -66,7 +67,7 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
             builder.InsertHtml((string)args.FieldValue);
 
             // Da wir den zusammengeführten Inhalt bereits manuell eingefügt haben,
-             // Wir müssen auf dieses Ereignis nicht reagieren, indem wir Inhalte über die Eigenschaft "Text" zurückgeben.
+             // Wir müssen auf dieses Ereignis nicht reagieren, indem wir Inhalte über die Eigenschaft „Text“ zurückgeben.
             args.Text = string.Empty;
         }
     }

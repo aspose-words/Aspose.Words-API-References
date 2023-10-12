@@ -16,34 +16,34 @@ public Node CurrentNode { get; }
 
 ### Osservazioni
 
-**CurrentNode** è un cursore di **Costruttore di documenti** e indica a **Nodo** che è un figlio diretto di a **Paragrafo** . Qualsiasi operazione di inserimento eseguita utilizzando  **Costruttore di documenti** inserirà prima del **CurrentNode**.
+`CurrentNode` è un cursore di[`DocumentBuilder`](../) e indica a[`Node`](../../node/) che è un figlio diretto di a[`Paragraph`](../../paragraph/) . Qualsiasi operazione di inserimento eseguita utilizzando [`DocumentBuilder`](../) inserirà prima del`CurrentNode`.
 
-Quando il paragrafo corrente è vuoto o il cursore è posizionato appena prima della fine del paragrafo, **CurrentNode** restituisce nullo.
+Quando il paragrafo corrente è vuoto o il cursore è posizionato appena prima della fine di un paragrafo o di un tag di documento strutturato,`CurrentNode` ritorna`nullo`.
 
 ### Esempi
 
-Mostra come spostare il cursore di un generatore di documenti su nodi diversi in un documento.
+Mostra come spostare il cursore di un generatore di documenti su diversi nodi in un documento.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Crea un segnalibro valido, un'entità composta da nodi racchiusi da un nodo di inizio segnalibro,
+// Crea un segnalibro valido, un'entità composta da nodi racchiusi da un nodo iniziale del segnalibro,
  // e un nodo finale del segnalibro.
 builder.StartBookmark("MyBookmark");
 builder.Write("Bookmark contents.");
 builder.EndBookmark("MyBookmark");
 
-NodeCollection firstParagraphNodes = doc.FirstSection.Body.FirstParagraph.ChildNodes;
+NodeCollection firstParagraphNodes = doc.FirstSection.Body.FirstParagraph.GetChildNodes(NodeType.Any, false);
 
 Assert.AreEqual(NodeType.BookmarkStart, firstParagraphNodes[0].NodeType);
 Assert.AreEqual(NodeType.Run, firstParagraphNodes[1].NodeType);
 Assert.AreEqual("Bookmark contents.", firstParagraphNodes[1].GetText().Trim());
 Assert.AreEqual(NodeType.BookmarkEnd, firstParagraphNodes[2].NodeType);
 
-// Il cursore del generatore di documenti è sempre davanti al nodo che abbiamo aggiunto per ultimo con esso.
-// Se il cursore del builder si trova alla fine del documento, il suo nodo corrente sarà nullo.
-// Il nodo precedente è il nodo finale del segnalibro che abbiamo aggiunto per ultimo.
+// Il cursore del generatore di documenti è sempre davanti al nodo che abbiamo aggiunto per ultimo.
+// Se il cursore del builder è alla fine del documento, il suo nodo corrente sarà nullo.
+// Il nodo precedente è il nodo finale del segnalibro aggiunto per ultimo.
 // L'aggiunta di nuovi nodi con il builder li aggiungerà all'ultimo nodo.
 Assert.Null(builder.CurrentNode);
 
@@ -51,7 +51,7 @@ Assert.Null(builder.CurrentNode);
 // dovremo portare il cursore sul nodo che desideriamo modificare.
 builder.MoveToBookmark("MyBookmark");
 
-// Lo spostamento in un segnalibro lo sposterà sul primo nodo all'interno dei nodi di inizio e fine del segnalibro, la corsa racchiusa.
+// Lo spostamento su un segnalibro lo sposterà sul primo nodo all'interno dei nodi iniziale e finale del segnalibro, la sequenza racchiusa.
 Assert.AreEqual(firstParagraphNodes[1], builder.CurrentNode);
 
 // Possiamo anche spostare il cursore su un singolo nodo come questo.
@@ -61,7 +61,7 @@ Assert.AreEqual(NodeType.BookmarkStart, builder.CurrentNode.NodeType);
 Assert.AreEqual(doc.FirstSection.Body.FirstParagraph, builder.CurrentParagraph);
 Assert.IsTrue(builder.IsAtStartOfParagraph);
 
-// Possiamo usare metodi specifici per spostarci all'inizio/alla fine di un documento.
+// Possiamo usare metodi specifici per spostarci all'inizio/fine di un documento.
 builder.MoveToDocumentEnd();
 
 Assert.IsTrue(builder.IsAtEndOfParagraph);

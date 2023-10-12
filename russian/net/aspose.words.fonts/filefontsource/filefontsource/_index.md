@@ -1,14 +1,14 @@
 ---
 title: FileFontSource.FileFontSource
 second_title: Справочник по API Aspose.Words для .NET
-description: FileFontSource строитель. Стор.
+description: FileFontSource строитель. Cтор.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fonts/filefontsource/filefontsource/
 ---
 ## FileFontSource(string) {#constructor}
 
-Стор.
+Cтор.
 
 ```csharp
 public FileFontSource(string filePath)
@@ -44,7 +44,7 @@ Assert.AreEqual(0, fileFontSource.Priority);
 
 ## FileFontSource(string, int) {#constructor_1}
 
-Стор.
+Cтор.
 
 ```csharp
 public FileFontSource(string filePath, int priority)
@@ -53,7 +53,7 @@ public FileFontSource(string filePath, int priority)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | filePath | String | Путь к файлу шрифта. |
-| priority | Int32 | Приоритет источника шрифта. См.[`Priority`](../../fontsourcebase/priority/) описание свойства для получения дополнительной информации. |
+| priority | Int32 | Приоритет источника шрифта. См.[`Priority`](../../fontsourcebase/priority/) описание недвижимости для получения дополнительной информации. |
 
 ### Примеры
 
@@ -81,7 +81,7 @@ Assert.AreEqual(0, fileFontSource.Priority);
 
 ## FileFontSource(string, int, string) {#constructor_2}
 
-Стор.
+Cтор.
 
 ```csharp
 public FileFontSource(string filePath, int priority, string cacheKey)
@@ -90,15 +90,14 @@ public FileFontSource(string filePath, int priority, string cacheKey)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | filePath | String | Путь к файлу шрифта. |
-| priority | Int32 | Приоритет источника шрифта. См.[`Priority`](../../fontsourcebase/priority/) описание свойства для получения дополнительной информации. |
-| cacheKey | String | Ключ этого источника в кеше. Видеть[`CacheKey`](../cachekey/) описание свойства для получения дополнительной информации. |
+| priority | Int32 | Приоритет источника шрифта. См.[`Priority`](../../fontsourcebase/priority/) описание недвижимости для получения дополнительной информации. |
+| cacheKey | String | Ключ этого источника в кеше. Видеть[`CacheKey`](../cachekey/) описание недвижимости для получения дополнительной информации. |
 
 ### Примеры
 
 Показывает, как ускорить процесс инициализации кэша шрифтов.
 
 ```csharp
-[Test]
 public void LoadFontSearchCache()
 {
     const string cacheKey1 = "Arvo";
@@ -127,7 +126,7 @@ public void LoadFontSearchCache()
 
 /// <summary>
 /// Загружаем данные шрифта только при необходимости, а не сохраняем их в памяти
-/// на все время жизни объекта FontSettings.
+/// на все время существования объекта FontSettings.
 /// </summary>
 private class SearchCacheStream : StreamFontSource
 {

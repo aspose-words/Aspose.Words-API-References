@@ -1,14 +1,14 @@
 ---
 title: TxtLoadOptions.LeadingSpacesOptions
 second_title: Справочник по API Aspose.Words для .NET
-description: TxtLoadOptions свойство. Получает или задает предпочтительный вариант обработки начального пробела. Значение по умолчаниюConvertToIndent .
+description: TxtLoadOptions свойство. Получает или задает предпочтительный параметр обработки начального пробела. Значение по умолчаниюConvertToIndent .
 type: docs
-weight: 40
+weight: 60
 url: /ru/net/aspose.words.loading/txtloadoptions/leadingspacesoptions/
 ---
 ## TxtLoadOptions.LeadingSpacesOptions property
 
-Получает или задает предпочтительный вариант обработки начального пробела. Значение по умолчанию:ConvertToIndent .
+Получает или задает предпочтительный параметр обработки начального пробела. Значение по умолчанию:ConvertToIndent .
 
 ```csharp
 public TxtLeadingSpacesOptions LeadingSpacesOptions { get; set; }
@@ -16,30 +16,30 @@ public TxtLeadingSpacesOptions LeadingSpacesOptions { get; set; }
 
 ### Примеры
 
-Показывает, как обрезать пробелы при загрузке текстовых документов.
+Показывает, как обрезать пробелы при загрузке документов с открытым текстом.
 
 ```csharp
 string textDoc = "      Line 1 \n" +
                  "    Line 2   \n" +
                  " Line 3       ";
 
-// Создаем объект "TxtLoadOptions", который мы можем передать конструктору документа
-// чтобы изменить способ загрузки документа с открытым текстом.
+// Создаем объект «TxtLoadOptions», который мы можем передать конструктору документа
+// чтобы изменить способ загрузки открытого текстового документа.
 TxtLoadOptions loadOptions = new TxtLoadOptions();
 
 // Установите для свойства "LeadingSpacesOptions" значение "TxtLeadingSpacesOptions.Preserve"
-// для сохранения всех пробелов в начале каждой строки.
+// чтобы сохранить все пробелы в начале каждой строки.
 // Установите для свойства "LeadingSpacesOptions" значение "TxtLeadingSpacesOptions.ConvertToIndent"
-// чтобы удалить все пробельные символы в начале каждой строки,
-// и затем применяем к абзацу отступ первой строки слева, чтобы имитировать эффект пробелов.
+// чтобы удалить все пробелы в начале каждой строки,
+// а затем примените к абзацу отступ первой строки слева, чтобы имитировать эффект пробелов.
 // Установите для свойства "LeadingSpacesOptions" значение "TxtLeadingSpacesOptions.Trim"
-// чтобы удалить все пробельные символы в начале каждой строки.
+// чтобы удалить все пробелы в начале каждой строки.
 loadOptions.LeadingSpacesOptions = txtLeadingSpacesOptions;
 
-// Установите для свойства "TrailingSpacesOptions" значение "TxtTrailingSpacesOptions.Preserve"
-// для сохранения всех пробелов в конце каждой строки. 
-// Установите для свойства "TrailingSpacesOptions" значение "TxtTrailingSpacesOptions.Trim", чтобы 
-// удалить все пробельные символы в конце каждой строки.
+// Установите для свойства «TrailingSpacesOptions» значение «TxtTrailingSpacesOptions.Preserve»
+ // чтобы сохранить все пробелы в конце каждой строки.
+ // Установите для свойства «TrailingSpacesOptions» значение «TxtTrailingSpacesOptions.Trim», чтобы
+// удаляем все пробелы в конце каждой строки.
 loadOptions.TrailingSpacesOptions = txtTrailingSpacesOptions;
 
 Document doc = new Document(new MemoryStream(Encoding.UTF8.GetBytes(textDoc)), loadOptions);

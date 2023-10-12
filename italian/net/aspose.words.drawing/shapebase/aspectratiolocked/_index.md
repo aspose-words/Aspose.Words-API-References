@@ -16,7 +16,7 @@ public bool AspectRatioLocked { get; set; }
 
 ### Osservazioni
 
-Il valore predefinito dipende da[`ShapeType`](../shapetype/) , per ShapeType.Image lo è **VERO** ma per gli altri tipi di forma lo è **falso**.
+Il valore predefinito dipende da[`ShapeType`](../../shapetype/) , per ilImage è`VERO` ma per gli altri tipi di forma lo è`falso`.
 
 Ha effetto solo per le forme di livello superiore.
 
@@ -28,15 +28,15 @@ Mostra come bloccare/sbloccare le proporzioni di una forma.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inserisci una forma. Se apriamo questo documento in Microsoft Word, possiamo fare clic con il pulsante sinistro del mouse sulla forma da rivelare
-// otto maniglie di ridimensionamento attorno al suo perimetro, che possiamo fare clic e trascinare per cambiarne le dimensioni.
+// Inserisci una forma. Se apriamo questo documento in Microsoft Word, possiamo fare clic con il tasto sinistro del mouse sulla forma per rivelarla
+// otto maniglie di ridimensionamento attorno al suo perimetro, su cui possiamo fare clic e trascinare per modificarne le dimensioni.
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 
 // Imposta la proprietà "AspectRatioLocked" su "true" per preservare le proporzioni della forma
 // quando si utilizza una delle quattro maniglie di ridimensionamento diagonale, che modificano sia l'altezza che la larghezza dell'immagine.
-// L'uso di qualsiasi maniglia di ridimensionamento ortogonale che modifica l'altezza o la larghezza cambierà comunque le proporzioni.
-// Imposta la proprietà "AspectRatioLocked" su "false" per consentirci di farlo
-// cambia liberamente le proporzioni dell'immagine con tutte le maniglie di ridimensionamento.
+// L'utilizzo di maniglie di ridimensionamento ortogonali che modificano l'altezza o la larghezza modificherà comunque le proporzioni.
+// Imposta la proprietà "AspectRatioLocked" su "false" per permettercelo
+// modifica liberamente le proporzioni dell'immagine con tutte le maniglie di ridimensionamento.
 shape.AspectRatioLocked = lockAspectRatio;
 
 doc.Save(ArtifactsDir + "Shape.AspectRatio.docx");

@@ -1,14 +1,14 @@
 ---
 title: Range.Fields
 second_title: Referencia de API de Aspose.Words para .NET
-description: Range propiedad. Devuelve unFields colección que representa todos los campos en el rango.
+description: Range propiedad. Devuelve unFields colección que representa todos los campos del rango.
 type: docs
 weight: 20
 url: /es/net/aspose.words/range/fields/
 ---
 ## Range.Fields property
 
-Devuelve un`Fields` colección que representa todos los campos en el rango.
+Devuelve un`Fields` colección que representa todos los campos del rango.
 
 ```csharp
 public FieldCollection Fields { get; }

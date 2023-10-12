@@ -3,7 +3,7 @@ title: Cell.Accept
 second_title: Aspose.Words för .NET API Referens
 description: Cell metod. Accepterar en besökare.
 type: docs
-weight: 110
+weight: 130
 url: /sv/net/aspose.words.tables/cell/accept/
 ---
 ## Cell.Accept method
@@ -20,15 +20,15 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Returvärde
 
-Sant om alla noder besöktes; false om DocumentVisitor stoppade operationen innan alla noder besöktes.
+Sant om alla noder besöktes; falskt om[`DocumentVisitor`](../../../aspose.words/documentvisitor/) stoppade operationen innan du besökte alla noder.
 
 ### Anmärkningar
 
-Räknar upp denna nod och alla dess barn. Varje nod anropar en motsvarande metod på DocumentVisitor.
+Räknar upp denna nod och alla dess barn. Varje nod anropar en motsvarande metod[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
 För mer information se Visitor design mönster.
 
-Anropar DocumentVisitor.VisitCellStart, anropar sedan Acceptera för alla underordnade noder i section och anropar DocumentVisitor.VisitCellEnd i slutet.
+Samtal[`VisitCellStart`](../../../aspose.words/documentvisitor/visitcellstart/) , sedan ringer[`Accept`](../../../aspose.words/node/accept/) för alla underordnade noder i avsnittet och anrop[`VisitCellEnd`](../../../aspose.words/documentvisitor/visitcellend/) i slutet.
 
 ### Exempel
 

@@ -3,7 +3,7 @@ title: Interface IResourceLoadingCallback
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.Loading.IResourceLoadingCallback interfaz. Implemente esta interfaz si desea controlar cómo Aspose.Words carga recursos externos cuando importa un documento e inserta imágenes usandoDocumentBuilder .
 type: docs
-weight: 3440
+weight: 3640
 url: /es/net/aspose.words.loading/iresourceloadingcallback/
 ---
 ## IResourceLoadingCallback interface
@@ -18,20 +18,21 @@ public interface IResourceLoadingCallback
 
 | Nombre | Descripción |
 | --- | --- |
-| [ResourceLoading](../../aspose.words.loading/iresourceloadingcallback/resourceloading/)(ResourceLoadingArgs) | Llamado cuando Aspose.Words carga cualquier recurso externo. |
+| [ResourceLoading](../../aspose.words.loading/iresourceloadingcallback/resourceloading/)(ResourceLoadingArgs) | Se llama cuando Aspose.Words carga cualquier recurso externo. |
 
 ### Ejemplos
 
 Muestra cómo personalizar el proceso de carga de recursos externos en un documento.
 
 ```csharp
+public void ResourceLoadingCallback()
 {
     Document doc = new Document();
     doc.ResourceLoadingCallback = new ImageNameHandler();
 
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Las imágenes generalmente se insertan usando un URI o una matriz de bytes.
+    // Las imágenes normalmente se insertan mediante un URI o una matriz de bytes.
     // Cada instancia de una carga de recursos llamará al método ResourceLoading de nuestra devolución de llamada.
     builder.InsertImage("Google logo");
     builder.InsertImage("Aspose logo");
@@ -40,17 +41,18 @@ Muestra cómo personalizar el proceso de carga de recursos externos en un docume
     Assert.AreEqual(3, doc.GetChildNodes(NodeType.Shape, true).Count);
 
     doc.Save(ArtifactsDir + "DocumentBase.ResourceLoadingCallback.docx");
+}
 
 /// <summary>
-/// Nos permite cargar imágenes en un documento utilizando abreviaturas predefinidas, en lugar de URI.
+/// Nos permite cargar imágenes en un documento usando abreviaturas predefinidas, en lugar de URI.
 /// Esto separará la lógica de carga de imágenes del resto de la construcción del documento.
 /// </summary>
 private class ImageNameHandler : IResourceLoadingCallback
 {
     public ResourceLoadingAction ResourceLoading(ResourceLoadingArgs args)
     {
-        // Si esta devolución de llamada encuentra una de las abreviaturas de imagen al cargar una imagen,
-        // aplicará una lógica única para cada abreviatura definida en lugar de tratarlo como un URI.
+        // Si esta devolución de llamada encuentra una de las taquigrafías de la imagen mientras se carga una imagen,
+        // aplicará una lógica única para cada taquigrafía definida en lugar de tratarla como un URI.
         if (args.ResourceType == ResourceType.Image)
             switch (args.OriginalUri)
             {

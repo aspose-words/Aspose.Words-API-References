@@ -3,12 +3,14 @@ title: Class CellCollection
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Tables.CellCollection klass. Ger maskinskriven åtkomst till en samling avCell noder.
 type: docs
-weight: 5950
+weight: 6250
 url: /sv/net/aspose.words.tables/cellcollection/
 ---
 ## CellCollection class
 
 Ger maskinskriven åtkomst till en samling av[`Cell`](../cell/) noder.
+
+För att lära dig mer, besök[Arbeta med tabeller](https://docs.aspose.com/words/net/working-with-tables/) dokumentationsartikel.
 
 ```csharp
 public class CellCollection : NodeCollection
@@ -19,7 +21,7 @@ public class CellCollection : NodeCollection
 | namn | Beskrivning |
 | --- | --- |
 | [Count](../../aspose.words/nodecollection/count/) { get; } | Hämtar antalet noder i samlingen. |
-| [Item](../../aspose.words.tables/cellcollection/item/) { get; } | Hämtar en **Cell** vid det givna indexet. (2 indexers) |
+| [Item](../../aspose.words.tables/cellcollection/item/) { get; } | Hämtar en[`Cell`](../cell/) vid det givna indexet. (2 indexers) |
 
 ## Metoder
 

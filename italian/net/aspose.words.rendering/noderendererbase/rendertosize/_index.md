@@ -17,28 +17,29 @@ public float RenderToSize(Graphics graphics, float x, float y, float width, floa
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | graphics | Graphics | L'oggetto su cui eseguire il rendering. |
-| x | Single | La coordinata X (in unità mondiali) dell'angolo in alto a sinistra della forma renderizzata. |
-| y | Single | La coordinata Y (in unità mondiali) dell'angolo in alto a sinistra della forma renderizzata. |
-| width | Single | La larghezza massima (in unità mondiali) che può essere occupata dalla forma renderizzata. |
-| height | Single | L'altezza massima (in unità mondiali) che può essere occupata dalla forma renderizzata. |
+| x | Single | La coordinata X (in unità globali) dell'angolo superiore sinistro della forma renderizzata. |
+| y | Single | La coordinata Y (in unità globali) dell'angolo superiore sinistro della forma renderizzata. |
+| width | Single | La larghezza massima (in unità globali) che può essere occupata dalla forma renderizzata. |
+| height | Single | L'altezza massima (in unità globali) che può essere occupata dalla forma renderizzata. |
 
 ### Valore di ritorno
 
-La scala che è stata calcolata automaticamente affinché la forma di rendering si adatti alle dimensioni specificate.
+La scala calcolata automaticamente affinché la forma sottoposta a rendering si adatti alla dimensione specificata.
 
 ### Esempi
 
 Mostra come eseguire il rendering di una forma con un oggetto Graphics e visualizzarla utilizzando un Windows Form.
 
 ```csharp
+public void RenderShapesOnForm()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     ShapeForm shapeForm = new ShapeForm(new Size(1017, 840));
 
-    // Di seguito sono riportati due modi per utilizzare la classe "ShapeRenderer" per eseguire il rendering di una forma in un oggetto Graphics.
-    // 1 - Crea una forma con un grafico e rendila su una scala specifica.
+    // Di seguito sono riportati due modi per utilizzare la classe "ShapeRenderer" per eseguire il rendering di una forma su un oggetto Graphics.
+    // 1 - Crea una forma con un grafico e renderla su una scala specifica.
     Chart chart = builder.InsertChart(ChartType.Pie, 500, 400).Chart;
     chart.Series.Clear();
     chart.Series.Add("Desktop Browser Market Share (Oct. 2020)",
@@ -79,7 +80,7 @@ Mostra come eseguire il rendering di una forma con un oggetto Graphics e visuali
 }
 
 /// <summary>
-/// Rendering e visualizzazione di un elenco di forme.
+/// Renderizza e visualizza un elenco di forme.
 /// </summary>
 private class ShapeForm : Form
 {
@@ -128,6 +129,7 @@ private class ShapeForm : Form
         }
     }
 
+    private readonly List<KeyValuePair<ShapeBase, float[]>> mShapesToRender;
 }
 ```
 

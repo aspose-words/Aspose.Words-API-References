@@ -3,12 +3,14 @@ title: Class SubDocument
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.SubDocument klass. Representerar en Underdokument  som är en referens till ett externt lagrat dokument.
 type: docs
-weight: 5870
+weight: 6170
 url: /sv/net/aspose.words/subdocument/
 ---
 ## SubDocument class
 
 Representerar en **Underdokument** - som är en referens till ett externt lagrat dokument.
+
+För att lära dig mer, besök[Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) dokumentationsartikel.
 
 ```csharp
 public class SubDocument : Node
@@ -20,12 +22,12 @@ public class SubDocument : Node
 | --- | --- |
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Anger anpassad nodidentifierare. |
 | virtual [Document](../../aspose.words/node/document/) { get; } | Hämtar dokumentet som denna nod tillhör. |
-| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Returnerar sant om denna nod kan innehålla andra noder. |
+| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Returnerar`Sann` om denna nod kan innehålla andra noder. |
 | [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Hämtar noden omedelbart efter denna nod. |
-| override [NodeType](../../aspose.words/subdocument/nodetype/) { get; } | Returnerar **NodeType.SubDocument** |
+| override [NodeType](../../aspose.words/subdocument/nodetype/) { get; } | ReturnerarSubDocument . |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Hämtar den omedelbara föräldern till denna nod. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Hämtar noden omedelbart före denna nod. |
-| [Range](../../aspose.words/node/range/) { get; } | Returnerar en **Räckvidd** objekt som representerar den del av ett dokument som finns i denna nod. |
+| [Range](../../aspose.words/node/range/) { get; } | Returnerar en[`Range`](../range/) objekt som representerar den del av ett dokument som finns i denna nod. |
 
 ## Metoder
 
@@ -44,7 +46,7 @@ public class SubDocument : Node
 
 ### Anmärkningar
 
-I den här versionen av Aspose.Words,`SubDocument` noder tillhandahåller inte offentliga metoder och egenskaper för att skapa eller ändra ett underdokument. I den här versionen kan du inte instantiate SubDocument-noder eller modifiera befintliga förutom att ta bort dem.
+I den här versionen av Aspose.Words,`SubDocument` noder tillhandahåller inte offentliga metoder och egenskaper för att skapa eller ändra ett underdokument. I den här versionen kan du inte instansiera `SubDocument` noder eller ändra befintliga förutom att ta bort dem.
 
 `SubDocument` kan bara vara ett barn av[`Paragraph`](../paragraph/).
 

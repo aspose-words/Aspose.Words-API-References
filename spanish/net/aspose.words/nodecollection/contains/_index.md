@@ -20,11 +20,11 @@ public bool Contains(Node node)
 
 ### Valor_devuelto
 
-True si el elemento se encuentra en la colección; en caso contrario, falso.
+`verdadero` si el artículo se encuentra en la colección; de lo contrario,`FALSO`.
 
 ### Observaciones
 
-Este método realiza una búsqueda lineal; por lo tanto, el tiempo medio de ejecución es proporcional a Count.
+Este método realiza una búsqueda lineal; por lo tanto, el tiempo promedio de ejecución es proporcional a[`Count`](../count/).
 
 ### Ejemplos
 
@@ -34,11 +34,11 @@ Muestra cómo trabajar con NodeCollection.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Agregue texto al documento insertando Se ejecuta usando un DocumentBuilder.
+// Agrega texto al documento insertando Ejecuciones usando un DocumentBuilder.
 builder.Write("Run 1. ");
 builder.Write("Run 2. ");
 
-// Cada invocación del método "Write" crea una nueva ejecución,
+// Cada invocación del método "Write" crea una nueva Ejecución,
 // que luego aparece en RunCollection del párrafo principal.
 RunCollection runs = doc.FirstSection.Body.FirstParagraph.Runs;
 

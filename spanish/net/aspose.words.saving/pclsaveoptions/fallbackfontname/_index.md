@@ -1,14 +1,14 @@
 ---
 title: PclSaveOptions.FallbackFontName
 second_title: Referencia de API de Aspose.Words para .NET
-description: PclSaveOptions propiedad. Nombre de la fuente que se usará si no se encuentra ninguna fuente esperada en la impresora y las colecciones de fuentes integradas.
+description: PclSaveOptions propiedad. Nombre de la fuente que se utilizará si no se encuentra ninguna fuente esperada en la impresora y en las colecciones de fuentes integradas.
 type: docs
 weight: 20
 url: /es/net/aspose.words.saving/pclsaveoptions/fallbackfontname/
 ---
 ## PclSaveOptions.FallbackFontName property
 
-Nombre de la fuente que se usará si no se encuentra ninguna fuente esperada en la impresora y las colecciones de fuentes integradas.
+Nombre de la fuente que se utilizará si no se encuentra ninguna fuente esperada en la impresora y en las colecciones de fuentes integradas.
 
 ```csharp
 public string FallbackFontName { get; set; }
@@ -16,7 +16,7 @@ public string FallbackFontName { get; set; }
 
 ### Observaciones
 
-Si no se encuentra un respaldo, se genera una advertencia y se usa la fuente "Arial".
+Si no se encuentra ningún recurso alternativo, se genera una advertencia y se utiliza la fuente "Arial".
 
 ### Ejemplos
 
@@ -32,8 +32,8 @@ builder.Write("Hello world!");
 PclSaveOptions saveOptions = new PclSaveOptions();
 saveOptions.FallbackFontName = "Times New Roman";
 
-// Este documento le indicará a la impresora que aplique "Times New Roman" al texto con la fuente faltante.
-// Si "Times New Roman" tampoco está disponible, la impresora usará la fuente "Arial" de forma predeterminada.
+// Este documento le indicará a la imprenta que aplique "Times New Roman" al texto al que le falta la fuente.
+// Si "Times New Roman" tampoco está disponible, la impresora utilizará de forma predeterminada la fuente "Arial".
 doc.Save(ArtifactsDir + "PclSaveOptions.SetPrinterFont.pcl", saveOptions);
 ```
 

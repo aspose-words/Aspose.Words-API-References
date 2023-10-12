@@ -22,15 +22,15 @@ Bir alanın nasıl ekleneceğini ve yerel ayarıyla nasıl çalışılacağını
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Bir TARİH alanı girin ve görüntüleneceği tarihi yazdırın.
-// Dizinizin mevcut kültürü, tarihin biçimlendirmesini belirler.
+// Bir DATE alanı ekleyin ve görüntüleyeceği tarihi yazdırın.
+// Konunuzun mevcut kültürü tarihin formatını belirler.
 Field field = builder.InsertField(@"DATE");
 Console.WriteLine($"Today's date, as displayed in the \"{CultureInfo.CurrentCulture.EnglishName}\" culture: {field.Result}");
 
 Assert.AreEqual(1033, field.LocaleId);
-// İş parçacığımızın kültürünü değiştirmek, DATE alanının sonucunu etkileyecektir.
-// DATE alanının farklı bir kültürde bir tarihi görüntülemesini sağlamanın bir başka yolu da LocaleId özelliğini kullanmaktır.
-// Bu yol, bu etkiyi elde etmek için iş parçacığının kültürünü değiştirmekten kaçınmamızı sağlar.
+// Konumuzun kültürünü değiştirmek DATE alanının sonucunu etkileyecektir.
+// DATE alanının farklı bir kültürdeki tarihi görüntülemesini sağlamanın başka bir yolu da LocaleId özelliğini kullanmaktır.
+// Bu şekilde, bu etkiyi elde etmek için iş parçacığının kültürünü değiştirmekten kaçınmamızı sağlar.
 doc.FieldOptions.FieldUpdateCultureSource = FieldUpdateCultureSource.FieldCode;
 CultureInfo de = new CultureInfo("de-DE");
 field.LocaleId = de.LCID;

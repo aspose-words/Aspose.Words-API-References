@@ -3,7 +3,7 @@ title: FieldOptions.CurrentUser
 second_title: Referencia de API de Aspose.Words para .NET
 description: FieldOptions propiedad. Obtiene o establece la información del usuario actual.
 type: docs
-weight: 40
+weight: 50
 url: /es/net/aspose.words.fields/fieldoptions/currentuser/
 ---
 ## FieldOptions.CurrentUser property
@@ -32,7 +32,7 @@ UserInformation userInformation = new UserInformation
 doc.FieldOptions.CurrentUser = userInformation;
 
 // Inserte los campos NOMBRE DE USUARIO, INICIALES DE USUARIO y DIRECCIÓN DE USUARIO, que muestran valores de
-// las propiedades respectivas del objeto UserInformation que hemos creado anteriormente. 
+ // las propiedades respectivas del objeto UserInformation que hemos creado anteriormente.
 Assert.AreEqual(userInformation.Name, builder.InsertField(" USERNAME ").Result);
 Assert.AreEqual(userInformation.Initials, builder.InsertField(" USERINITIALS ").Result);
 Assert.AreEqual(userInformation.Address, builder.InsertField(" USERADDRESS ").Result);

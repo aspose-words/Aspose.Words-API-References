@@ -1,14 +1,14 @@
 ---
 title: MailMerge.MergeDuplicateRegions
 second_title: Aspose.Words لمراجع .NET API
-description: MailMerge ملكية. الحصول على أو تعيين قيمة تشير إلى ما إذا كان يجب دمج جميع مناطق دمج بريد المستندات مع اسم مصدر البيانات أثناء تنفيذ دمج البريد مع المناطق مقابل مصدر البيانات أو الأول فقط.
+description: MailMerge ملكية. الحصول على أو تعيين قيمة تشير إلى ما إذا كان يجب دمج كافة مناطق دمج مراسلات المستند التي تحمل اسم مصدر البيانات أثناء تنفيذ دمج البريد مع المناطق مقابل مصدر البيانات أو المصدر الأول فقط.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.mailmerging/mailmerge/mergeduplicateregions/
 ---
 ## MailMerge.MergeDuplicateRegions property
 
-الحصول على أو تعيين قيمة تشير إلى ما إذا كان يجب دمج جميع مناطق دمج بريد المستندات مع اسم مصدر البيانات أثناء تنفيذ دمج البريد مع المناطق مقابل مصدر البيانات أو الأول فقط.
+الحصول على أو تعيين قيمة تشير إلى ما إذا كان يجب دمج كافة مناطق دمج مراسلات المستند التي تحمل اسم مصدر البيانات أثناء تنفيذ دمج البريد مع المناطق مقابل مصدر البيانات أو المصدر الأول فقط.
 
 ```csharp
 public bool MergeDuplicateRegions { get; set; }
@@ -16,11 +16,11 @@ public bool MergeDuplicateRegions { get; set; }
 
 ### ملاحظات
 
-القيمة الافتراضية هي **خاطئة** .
+القيمة الافتراضية هي`خطأ شنيع` .
 
 ### أمثلة
 
-يوضح كيفية العمل مع مناطق دمج المراسلات المكررة.
+يوضح كيفية العمل مع مناطق دمج البريد المكررة.
 
 ```csharp
 public void MergeDuplicateRegions(bool mergeDuplicateRegions)
@@ -28,11 +28,11 @@ public void MergeDuplicateRegions(bool mergeDuplicateRegions)
     Document doc = CreateSourceDocMergeDuplicateRegions();
     DataTable dataTable = CreateSourceTableMergeDuplicateRegions();
 
-    // إذا قمنا بتعيين خاصية "MergeDuplicateRegions" على "خطأ" ، فسيؤثر دمج البريد على المنطقة الأولى ،
-    // بينما سيتم ترك MERGEFIELDs للثاني في حالة ما قبل الدمج.
-    // لدمج كلتا المنطقتين هكذا ،
-    // سيتعين علينا تنفيذ دمج البريد مرتين على جدول يحمل نفس الاسم.
-    // إذا قمنا بتعيين خاصية "MergeDuplicateRegions" على "true" ، فإن دمج البريد سيؤثر على كلا المنطقتين.
+    // إذا قمنا بتعيين خاصية "MergeDuplicateRegions" على "خطأ"، فسيؤثر دمج البريد على المنطقة الأولى،
+    // بينما سيتم ترك حقول MERGEFIELD الخاصة بالثانية في حالة ما قبل الدمج.
+    // لدمج المنطقتين بهذه الطريقة،
+    // سيتعين علينا تنفيذ عملية دمج البريد مرتين على جدول يحمل نفس الاسم.
+    // إذا قمنا بتعيين خاصية "MergeDuplicateRegions" على "صحيح"، فسيؤثر دمج البريد على كلتا المنطقتين.
     doc.MailMerge.MergeDuplicateRegions = mergeDuplicateRegions;
 
     doc.MailMerge.ExecuteWithRegions(dataTable);
@@ -40,7 +40,7 @@ public void MergeDuplicateRegions(bool mergeDuplicateRegions)
 }
 
 /// <summary>
-/// إرجاع مستند يحتوي على منطقتين مكررتين لدمج المراسلات (تشتركان في نفس الاسم في علامتي "TableStart / End").
+/// إرجاع مستند يحتوي على منطقتين مكررتين لدمج البريد (يتشاركان نفس الاسم في علامتي "TableStart/End").
 /// </summary>
 private static Document CreateSourceDocMergeDuplicateRegions()
 {
@@ -60,7 +60,7 @@ private static Document CreateSourceDocMergeDuplicateRegions()
 }
 
 /// <summary>
-/// ينشئ جدول بيانات بصف واحد وعمودين.
+/// إنشاء جدول بيانات يتكون من صف واحد وعمودين.
 /// </summary>
 private static DataTable CreateSourceTableMergeDuplicateRegions()
 {

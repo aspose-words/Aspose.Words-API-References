@@ -16,7 +16,7 @@ public HtmlElementSizeOutputMode TableWidthOutputMode { get; set; }
 
 ### Anmärkningar
 
-I HTML-formatet, tabell-, rad- och cellelement ( **&lt;tabell&gt;** , **&lt;tr&gt;** , **&lt;th&gt;** , **&lt;td&gt;**) kan ha sina bredder specificerade antingen i relativ (procent) eller i absoluta enheter. I ett dokument i Aspose. Words, tabeller, rader och celler kan ha sina bredder specificerade med antingen relativa eller absoluta enheter.
+HTML-formatet, tabell-, rad- och cellelement ( **&lt;tabell&gt;** , **&lt;tr&gt;** , **&lt;th&gt;** , **&lt;td&gt;**) kan ha sina bredder specificerade antingen i relativ (procent) eller i absoluta enheter. I ett dokument i Aspose. Words, tabeller, rader och celler kan ha sina bredder specificerade med antingen relativa eller absoluta enheter.
 
 När du konverterar ett dokument till HTML med Aspose.Words kanske du vill kontrollera hur tabell-, rad- och cellbredder exporteras för att påverka hur det resulterande dokumentet visas i den visuella agenten (t.ex. en webbläsare eller visningsprogram).
 

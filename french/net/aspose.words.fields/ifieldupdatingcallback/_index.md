@@ -3,7 +3,7 @@ title: Interface IFieldUpdatingCallback
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.Fields.IFieldUpdatingCallback interface. Implémentez cette interface si vous souhaitez que vos propres méthodes personnalisées soient appelées lors dune mise à jour de champ.
 type: docs
-weight: 2550
+weight: 2720
 url: /fr/net/aspose.words.fields/ifieldupdatingcallback/
 ---
 ## IFieldUpdatingCallback interface
@@ -23,9 +23,10 @@ public interface IFieldUpdatingCallback
 
 ### Exemples
 
-Montre comment utiliser les méthodes de rappel lors d'une mise à jour de champ.
+Montre comment utiliser les méthodes de rappel lors d’une mise à jour de champ.
 
 ```csharp
+public void FieldUpdatingCallbackTest()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -48,7 +49,7 @@ Montre comment utiliser les méthodes de rappel lors d'une mise à jour de champ
 /// <summary>
 /// Implémentez cette interface si vous souhaitez que vos propres méthodes personnalisées soient appelées lors d'une mise à jour de champ.
 /// </summary>
-public class FieldUpdatingCallback : IFieldUpdatingCallback
+public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgressCallback
 {
     public FieldUpdatingCallback()
     {
@@ -73,6 +74,12 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback
     void IFieldUpdatingCallback.FieldUpdated(Field field)
     {
         FieldUpdatedCalls.Add(field.Result);
+    }
+
+    void IFieldUpdatingProgressCallback.Notify(FieldUpdatingProgressArgs args)
+    {
+        Console.WriteLine($"{args.UpdateCompleted}/{args.TotalFieldsCount}");
+        Console.WriteLine($"{args.UpdatedFieldsCount}");
     }
 
     public IList<string> FieldUpdatedCalls { get; }

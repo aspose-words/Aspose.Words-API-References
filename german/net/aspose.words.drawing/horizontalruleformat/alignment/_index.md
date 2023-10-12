@@ -1,14 +1,14 @@
 ---
 title: HorizontalRuleFormat.Alignment
 second_title: Aspose.Words für .NET-API-Referenz
-description: HorizontalRuleFormat eigendom. Ruft die Ausrichtung der horizontalen Linie ab oder legt sie fest.
+description: HorizontalRuleFormat eigendom. Ruft die Ausrichtung der horizontalen Regel ab oder legt sie fest.
 type: docs
 weight: 10
 url: /de/net/aspose.words.drawing/horizontalruleformat/alignment/
 ---
 ## HorizontalRuleFormat.Alignment property
 
-Ruft die Ausrichtung der horizontalen Linie ab oder legt sie fest.
+Ruft die Ausrichtung der horizontalen Regel ab oder legt sie fest.
 
 ```csharp
 public HorizontalRuleAlignment Alignment { get; set; }
@@ -20,7 +20,7 @@ Der Standardwert istLeft.
 
 ### Beispiele
 
-Zeigt, wie Sie eine horizontale Linienform einfügen und ihre Formatierung anpassen.
+Zeigt, wie man eine horizontale Regelform einfügt und deren Formatierung anpasst.
 
 ```csharp
 Document doc = new Document();

@@ -1,14 +1,14 @@
 ---
 title: SignOptions.SignatureLineId
 second_title: Aspose.Words لمراجع .NET API
-description: SignOptions ملكية. معرف سطر التوقيع. القيمة الافتراضية هي دليل فارغ جميع الأصفار .
+description: SignOptions ملكية. معرف سطر التوقيع. القيمة الافتراضية هي دليل فارغ جميع الأصفار. .
 type: docs
 weight: 50
 url: /ar/net/aspose.words.digitalsignatures/signoptions/signaturelineid/
 ---
 ## SignOptions.SignatureLineId property
 
-معرف سطر التوقيع. القيمة الافتراضية هي **دليل فارغ (جميع الأصفار)** .
+معرف سطر التوقيع. القيمة الافتراضية هي **دليل فارغ (جميع الأصفار).** .
 
 ```csharp
 public Guid SignatureLineId { get; set; }
@@ -16,14 +16,15 @@ public Guid SignatureLineId { get; set; }
 
 ### ملاحظات
 
-عند التعيين ، فإنها تقترن[`SignatureLine`](../../../aspose.words.drawing/signatureline/) مع المقابلة[`DigitalSignature`](../../digitalsignature/) .
+عند التعيين، يتم ربطه[`SignatureLine`](../../../aspose.words.drawing/signatureline/) مع المقابلة[`DigitalSignature`](../../digitalsignature/) .
 
 ### أمثلة
 
-يوضح كيفية إضافة سطر توقيع إلى مستند ، ثم توقيعه باستخدام شهادة رقمية.
+يوضح كيفية إضافة سطر توقيع إلى مستند، ثم التوقيع عليه باستخدام شهادة رقمية.
 
 ```csharp
-public static void Sign()
+[Description("WORDSNET-16868")]
+        public static void Sign()
         {
             string signeeName = "Ron Williams";
             string srcDocumentPath = MyDir + "Document.docx";
@@ -42,7 +43,7 @@ public static void Sign()
         }
 
         /// <summary>
-        /// ينشئ نسخة من مستند مصدر موقع باستخدام معلومات الموقّع المقدمة وشهادة X509.
+        /// ينشئ نسخة من مستند المصدر موقعًا باستخدام معلومات الموقع المقدمة وشهادة X509.
         /// </summary>
         private static void SignDocument(string srcDocumentPath, string dstDocumentPath,
             Signee signeeInfo, string certificatePath, string certificatePassword)
@@ -50,7 +51,7 @@ public static void Sign()
             Document document = new Document(srcDocumentPath);
             DocumentBuilder builder = new DocumentBuilder(document);
 
-            // تكوين وإدراج سطر توقيع ، وهو كائن في المستند سيعرض توقيعًا نوقعه به.
+            // قم بتكوين سطر التوقيع وإدراجه، وهو كائن في المستند سيعرض التوقيع الذي وقعنا به.
             SignatureLineOptions signatureLineOptions = new SignatureLineOptions
             {
                 Signer = signeeInfo.Name, 
@@ -60,7 +61,7 @@ public static void Sign()
             SignatureLine signatureLine = builder.InsertSignatureLine(signatureLineOptions).SignatureLine;
             signatureLine.Id = signeeInfo.PersonId;
 
-            // أولاً ، سنحفظ نسخة غير موقعة من وثيقتنا.
+            // أولاً، سنقوم بحفظ نسخة غير موقعة من وثيقتنا.
             builder.Document.Save(dstDocumentPath);
 
             CertificateHolder certificateHolder = CertificateHolder.Create(certificatePath, certificatePassword);
@@ -71,13 +72,13 @@ public static void Sign()
                 SignatureLineImage = signeeInfo.Image
             };
 
-            // اكتب فوق المستند غير الموقع الذي حفظناه أعلاه بإصدار موقع باستخدام الشهادة.
+            // استبدل المستند غير الموقع الذي حفظناه أعلاه بنسخة موقعة باستخدام الشهادة.
             DigitalSignatureUtil.Sign(dstDocumentPath, dstDocumentPath, certificateHolder, signOptions);
         }
 
 #if NET48 || JAVA
         /// <summary>
-        /// يحول صورة إلى مصفوفة بايت.
+        /// تحويل الصورة إلى مصفوفة بايت.
         /// </summary>
         private static byte[] ImageToByteArray(Image imageIn)
         {

@@ -16,11 +16,11 @@ public FileFontSource(string filePath)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| filePath | String | Pfad zur Schriftdatei. |
+| filePath | String | Pfad zur Schriftartdatei. |
 
 ### Beispiele
 
-Zeigt, wie eine Schriftartdatei im lokalen Dateisystem als Schriftartquelle verwendet wird.
+Zeigt, wie eine Schriftartendatei im lokalen Dateisystem als Schriftartenquelle verwendet wird.
 
 ```csharp
 FileFontSource fileFontSource = new FileFontSource(MyDir + "Alte DIN 1451 Mittelschrift.ttf", 0);
@@ -52,12 +52,12 @@ public FileFontSource(string filePath, int priority)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| filePath | String | Pfad zur Schriftdatei. |
-| priority | Int32 | Priorität der Schriftartquelle. Siehe die[`Priority`](../../fontsourcebase/priority/) Objektbeschreibung für weitere Informationen. |
+| filePath | String | Pfad zur Schriftartdatei. |
+| priority | Int32 | Priorität der Schriftartquelle. Siehe die[`Priority`](../../fontsourcebase/priority/) Weitere Informationen finden Sie in der Objektbeschreibung. |
 
 ### Beispiele
 
-Zeigt, wie eine Schriftartdatei im lokalen Dateisystem als Schriftartquelle verwendet wird.
+Zeigt, wie eine Schriftartendatei im lokalen Dateisystem als Schriftartenquelle verwendet wird.
 
 ```csharp
 FileFontSource fileFontSource = new FileFontSource(MyDir + "Alte DIN 1451 Mittelschrift.ttf", 0);
@@ -89,16 +89,15 @@ public FileFontSource(string filePath, int priority, string cacheKey)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| filePath | String | Pfad zur Schriftdatei. |
-| priority | Int32 | Priorität der Schriftartquelle. Siehe die[`Priority`](../../fontsourcebase/priority/) Objektbeschreibung für weitere Informationen. |
-| cacheKey | String | Der Schlüssel dieser Quelle im Cache. Sehen[`CacheKey`](../cachekey/) Objektbeschreibung für weitere Informationen. |
+| filePath | String | Pfad zur Schriftartdatei. |
+| priority | Int32 | Priorität der Schriftartquelle. Siehe die[`Priority`](../../fontsourcebase/priority/) Weitere Informationen finden Sie in der Objektbeschreibung. |
+| cacheKey | String | Der Schlüssel dieser Quelle im Cache. Sehen[`CacheKey`](../cachekey/) Weitere Informationen finden Sie in der Objektbeschreibung. |
 
 ### Beispiele
 
-Zeigt, wie der Initialisierungsprozess für den Font-Cache beschleunigt wird.
+Zeigt, wie der Initialisierungsprozess für den Schriftcache beschleunigt werden kann.
 
 ```csharp
-[Test]
 public void LoadFontSearchCache()
 {
     const string cacheKey1 = "Arvo";
@@ -126,8 +125,8 @@ public void LoadFontSearchCache()
 }
 
 /// <summary>
-/// Laden Sie die Schriftdaten nur bei Bedarf, anstatt sie im Speicher zu speichern
-/// für die gesamte Lebensdauer des "FontSettings"-Objekts.
+/// Laden Sie die Schriftartdaten nur bei Bedarf, anstatt sie im Speicher zu speichern
+/// für die gesamte Lebensdauer des „FontSettings“-Objekts.
 /// </summary>
 private class SearchCacheStream : StreamFontSource
 {

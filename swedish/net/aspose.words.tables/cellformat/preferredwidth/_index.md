@@ -3,7 +3,7 @@ title: CellFormat.PreferredWidth
 second_title: Aspose.Words för .NET API Referens
 description: CellFormat fast egendom. Returnerar eller ställer in önskad bredd på cellen.
 type: docs
-weight: 70
+weight: 80
 url: /sv/net/aspose.words.tables/cellformat/preferredwidth/
 ---
 ## CellFormat.PreferredWidth property

@@ -8,7 +8,7 @@ url: /de/net/aspose.words/nodecollection/getenumerator/
 ---
 ## NodeCollection.GetEnumerator method
 
-Bietet eine einfache Iteration im "foreach"-Stil über die Sammlung von Knoten.
+Bietet eine einfache Iteration im „foreach“-Stil über die Sammlung von Knoten.
 
 ```csharp
 public IEnumerator<Node> GetEnumerator()

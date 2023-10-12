@@ -1,14 +1,14 @@
 ---
 title: ImageData.HasImage
 second_title: Справочник по API Aspose.Words для .NET
-description: ImageData свойство. Возвращает true если фигура содержит байты изображения или ссылается на изображение.
+description: ImageData свойство. Возвращаетистинный если фигура содержит байты изображения или связывает изображение.
 type: docs
 weight: 110
 url: /ru/net/aspose.words.drawing/imagedata/hasimage/
 ---
 ## ImageData.HasImage property
 
-Возвращает true, если фигура содержит байты изображения или ссылается на изображение.
+Возвращает`истинный` если фигура содержит байты изображения или связывает изображение.
 
 ```csharp
 public bool HasImage { get; }
@@ -21,11 +21,11 @@ public bool HasImage { get; }
 ```csharp
 Document imgSourceDoc = new Document(MyDir + "Images.docx");
 
-// Формы с установленным флагом "HasImage" сохраняют и отображают все изображения документа.
+// Фигуры с установленным флагом HasImage хранят и отображают все изображения документа.
 IEnumerable<Shape> shapesWithImages = 
     imgSourceDoc.GetChildNodes(NodeType.Shape, true).Cast<Shape>().Where(s => s.HasImage);
 
-// Проходим по каждой фигуре и сохраняем ее изображение.
+// Проходим каждую фигуру и сохраняем ее изображение.
 ImageFormatConverter formatConverter = new ImageFormatConverter();
 
 using (IEnumerator<Shape> enumerator = shapesWithImages.GetEnumerator())

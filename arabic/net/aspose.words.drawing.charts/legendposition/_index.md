@@ -1,14 +1,14 @@
 ---
 title: Enum LegendPosition
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.Charts.LegendPosition تعداد. يحدد المواضع المحتملة لوسيلة إيضاح الرسم البياني.
+description: Aspose.Words.Drawing.Charts.LegendPosition تعداد. يحدد المواضع المحتملة لوسيلة إيضاح المخطط.
 type: docs
-weight: 780
+weight: 910
 url: /ar/net/aspose.words.drawing.charts/legendposition/
 ---
 ## LegendPosition enumeration
 
-يحدد المواضع المحتملة لوسيلة إيضاح الرسم البياني.
+يحدد المواضع المحتملة لوسيلة إيضاح المخطط.
 
 ```csharp
 public enum LegendPosition
@@ -18,12 +18,12 @@ public enum LegendPosition
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| None | `0` | لن يتم عرض وسيلة إيضاح للرسم البياني . |
-| Bottom | `1` | يحدد أن وسيلة الإيضاح سيتم رسمها في أسفل الرسم البياني. |
-| Left | `2` | يحدد أن وسيلة الإيضاح سيتم رسمها على يسار الرسم البياني. |
-| Right | `3` | يحدد أن وسيلة الإيضاح سيتم رسمها على يمين الرسم البياني. |
-| Top | `4` | يحدد أن وسيلة الإيضاح سيتم رسمها أعلى المخطط. |
-| TopRight | `5` | يحدد أن وسيلة الإيضاح سيتم رسمها في أعلى يمين الرسم البياني. |
+| None | `0` | لن يتم عرض وسيلة إيضاح للمخطط. |
+| Bottom | `1` | يحدد أنه سيتم رسم وسيلة الإيضاح في أسفل المخطط. |
+| Left | `2` | يحدد أنه سيتم رسم وسيلة الإيضاح على يسار المخطط. |
+| Right | `3` | يحدد أنه سيتم رسم وسيلة الإيضاح على يمين المخطط. |
+| Top | `4` | يحدد أنه يجب رسم وسيلة الإيضاح في أعلى المخطط. |
+| TopRight | `5` | يحدد أنه سيتم رسم وسيلة الإيضاح في أعلى يمين المخطط. |
 
 ### أمثلة
 
@@ -41,11 +41,11 @@ Assert.AreEqual("Series 1", chart.Series[0].Name);
 Assert.AreEqual("Series 2", chart.Series[1].Name);
 Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-// انقل وسيلة إيضاح الرسم البياني إلى الزاوية اليمنى العليا.
+// انقل وسيلة إيضاح المخطط إلى الزاوية اليمنى العليا.
 ChartLegend legend = chart.Legend;
 legend.Position = LegendPosition.TopRight;
 
-// امنح عناصر المخطط الأخرى ، مثل الرسم البياني ، مساحة أكبر من خلال السماح لهم بالتداخل مع وسيلة الإيضاح.
+// امنح عناصر المخطط الأخرى، مثل الرسم البياني، مساحة أكبر من خلال السماح لها بتداخل وسيلة الإيضاح.
 legend.Overlay = true;
 
 doc.Save(ArtifactsDir + "Charts.ChartLegend.docx");

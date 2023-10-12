@@ -3,7 +3,7 @@ title: Section.ClearHeadersFooters
 second_title: Aspose.Words för .NET API Referens
 description: Section metod. Rensar sidhuvuden och sidfötter i det här avsnittet.
 type: docs
-weight: 100
+weight: 120
 url: /sv/net/aspose.words/section/clearheadersfooters/
 ---
 ## Section.ClearHeadersFooters method

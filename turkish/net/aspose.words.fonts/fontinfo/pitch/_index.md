@@ -1,14 +1,14 @@
 ---
 title: FontInfo.Pitch
 second_title: Aspose.Words for .NET API Referansı
-description: FontInfo mülk. Aralık yazı tipinin sabit aralıklı mı orantılı aralıklı mı yoksa varsayılan bir ayara mı dayalı olduğunu gösterir.
+description: FontInfo mülk. Karakter aralığı yazı tipinin sabit aralıklı mı orantılı aralıklı mı olduğunu yoksa varsayılan bir ayara mı bağlı olduğunu gösterir.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.fonts/fontinfo/pitch/
 ---
 ## FontInfo.Pitch property
 
-Aralık, yazı tipinin sabit aralıklı mı, orantılı aralıklı mı yoksa varsayılan bir ayara mı dayalı olduğunu gösterir.
+Karakter aralığı, yazı tipinin sabit aralıklı mı, orantılı aralıklı mı olduğunu yoksa varsayılan bir ayara mı bağlı olduğunu gösterir.
 
 ```csharp
 public FontPitch Pitch { get; set; }
@@ -29,7 +29,7 @@ while (fontCollectionEnumerator.MoveNext())
     {
         Console.WriteLine("Font name: " + fontInfo.Name);
 
-        // Alt adlar genellikle boştur.
+        // Alternatif adlar genellikle boştur.
         Console.WriteLine("Alt name: " + fontInfo.AltName);
         Console.WriteLine("\t- Family: " + fontInfo.Family);
         Console.WriteLine("\t- " + (fontInfo.IsTrueType ? "Is TrueType" : "Is not TrueType"));

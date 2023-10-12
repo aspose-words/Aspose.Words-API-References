@@ -1,14 +1,14 @@
 ---
 title: FieldDisplayBarcode.SymbolHeight
 second_title: Справочник по API Aspose.Words для .NET
-description: FieldDisplayBarcode свойство. Получает или задает высоту символа. Единицы указаны в TWIPS 1/1440 дюйма.
+description: FieldDisplayBarcode свойство. Получает или задает высоту символа. Единицы измерения  TWIPS 1/1440 дюйма.
 type: docs
 weight: 130
 url: /ru/net/aspose.words.fields/fielddisplaybarcode/symbolheight/
 ---
 ## FieldDisplayBarcode.SymbolHeight property
 
-Получает или задает высоту символа. Единицы указаны в TWIPS (1/1440 дюйма).
+Получает или задает высоту символа. Единицы измерения — TWIPS (1/1440 дюйма).
 
 ```csharp
 public string SymbolHeight { get; set; }
@@ -16,7 +16,7 @@ public string SymbolHeight { get; set; }
 
 ### Примеры
 
-Показывает, как вставить поле DISPLAYBARCODE и задать его свойства.
+Показывает, как вставить поле DISPLAYBARCODE и установить его свойства.
 
 ```csharp
 Document doc = new Document();
@@ -24,8 +24,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 FieldDisplayBarcode field = (FieldDisplayBarcode)builder.InsertField(FieldType.FieldDisplayBarcode, true);
 
-// Ниже приведены четыре типа штрих-кодов, оформленных по-разному, которые может отображать поле DISPLAYBARCODE.
-// 1 - QR-код с пользовательскими цветами:
+// Ниже приведены четыре типа штрих-кодов, оформленных по-разному, которые могут отображаться в поле DISPLAYBARCODE.
+// 1 - QR-код с произвольными цветами:
 field.BarcodeType = "QR";
 field.BarcodeValue = "ABC123";
 field.BackgroundColor = "0xF8BD69";
@@ -38,7 +38,7 @@ field.SymbolRotation = "0";
 Assert.AreEqual(" DISPLAYBARCODE  ABC123 QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 250 \\h 1000 \\r 0", field.GetFieldCode());
 builder.Writeln();
 
-// 2 - штрих-код EAN13 с цифрами, отображаемыми под штрихами:
+// 2 - штрих-код EAN13, цифры которого отображаются под полосками:
 field = (FieldDisplayBarcode)builder.InsertField(FieldType.FieldDisplayBarcode, true);
 field.BarcodeType = "EAN13";
 field.BarcodeValue = "501234567890";
@@ -58,7 +58,7 @@ field.AddStartStopChar = true;
 Assert.AreEqual(" DISPLAYBARCODE  12345ABCDE CODE39 \\d", field.GetFieldCode());
 builder.Writeln();
 
-// 4 - штрих-код ITF4, с указанным кодом случая:
+// 4 - штрих-код ITF4, с указанным регистром:
 field = (FieldDisplayBarcode)builder.InsertField(FieldType.FieldDisplayBarcode, true);
 field.BarcodeType = "ITF14";
 field.BarcodeValue = "09312345678907";

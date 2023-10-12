@@ -22,7 +22,7 @@ Mostra come specificare come esportare intestazioni e piè di pagina in formato 
 Document doc = new Document();
 
 // Inserisce intestazioni/piè di pagina pari e primari nel documento.
-// L'intestazione/piè di pagina principale sovrascriverà le intestazioni/piè di pagina pari.
+// L'intestazione/i piè di pagina primari sovrascriveranno le intestazioni/i piè di pagina pari.
 doc.FirstSection.HeadersFooters.Add(new HeaderFooter(doc, HeaderFooterType.HeaderEven));
 doc.FirstSection.HeadersFooters[HeaderFooterType.HeaderEven].AppendParagraph("Even header");
 doc.FirstSection.HeadersFooters.Add(new HeaderFooter(doc, HeaderFooterType.FooterEven));
@@ -41,7 +41,7 @@ builder.InsertBreak(BreakType.PageBreak);
 builder.Write("Page 3");
 
 // Crea un oggetto "TxtSaveOptions", che possiamo passare al metodo "Save" del documento
-// per modificare il modo in cui salviamo il documento come testo normale.
+// per modificare il modo in cui salviamo il documento in testo normale.
 TxtSaveOptions saveOptions = new TxtSaveOptions();
 
 // Imposta la proprietà "ExportHeadersFootersMode" su "TxtExportHeadersFootersMode.None"

@@ -3,7 +3,7 @@ title: Enum WebExtensionBindingType
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.WebExtensions.WebExtensionBindingType uppräkning. Räknar upp tillgängliga typer av bindning mellan ett webbtillägg och data i dokumentet.
 type: docs
-weight: 6460
+weight: 6770
 url: /sv/net/aspose.words.webextensions/webextensionbindingtype/
 ---
 ## WebExtensionBindingType enumeration

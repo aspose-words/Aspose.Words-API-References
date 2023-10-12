@@ -1,14 +1,14 @@
 ---
 title: ImageSize.WidthPoints
 second_title: Aspose.Words für .NET-API-Referenz
-description: ImageSize eigendom. Ruft die Breite des Bildes in Punkten ab. 1 Punkt ist 1/72 Zoll.
+description: ImageSize eigendom. Ermittelt die Breite des Bildes in Punkten. 1 Punkt ist 1/72 Zoll.
 type: docs
 weight: 70
 url: /de/net/aspose.words.drawing/imagesize/widthpoints/
 ---
 ## ImageSize.WidthPoints property
 
-Ruft die Breite des Bildes in Punkten ab. 1 Punkt ist 1/72 Zoll.
+Ermittelt die Breite des Bildes in Punkten. 1 Punkt ist 1/72 Zoll.
 
 ```csharp
 public double WidthPoints { get; }
@@ -16,7 +16,7 @@ public double WidthPoints { get; }
 
 ### Beispiele
 
-Zeigt, wie Sie die Größe einer Form mit einem Bild ändern.
+Zeigt, wie die Größe einer Form mit einem Bild geändert wird.
 
 ```csharp
 #if NET48 || JAVA
@@ -31,8 +31,8 @@ Zeigt, wie Sie die Größe einer Form mit einem Bild ändern.
             Assert.AreEqual(400, image.Height);
 #endif
 
-            // Wenn wir ein Bild mit der Methode "InsertImage" einfügen, skaliert der Builder die Form, die das Bild anzeigt, so, dass
-            // Wenn wir das Dokument mit 100 % Zoom in Microsoft Word anzeigen, zeigt die Form das Bild in seiner tatsächlichen Größe an.
+            // Wenn wir ein Bild mit der Methode „InsertImage“ einfügen, skaliert der Builder die Form, die das Bild anzeigt, so dass
+            // Wenn wir das Dokument mit 100 % Zoom in Microsoft Word betrachten, zeigt die Form das Bild in seiner tatsächlichen Größe an.
             Document doc = new Document();
             DocumentBuilder builder = new DocumentBuilder(doc);
             Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
@@ -44,14 +44,14 @@ Zeigt, wie Sie die Größe einer Form mit einem Bild ändern.
             Assert.AreEqual(300.0d, imageSize.HeightPoints);
 
             // Wenn die Abmessungen einer Form mit den Abmessungen der Bilddaten übereinstimmen,
-            // dann zeigt die Form das Bild in Originalgröße an.
+            // dann zeigt die Form das Bild in seiner Originalgröße an.
             Assert.AreEqual(300.0d, shape.Width);
             Assert.AreEqual(300.0d, shape.Height);
 
-             // Reduzieren Sie die Gesamtgröße der Form um 50 %.
+             // Reduziere die Gesamtgröße der Form um 50 %.
             shape.Width *= 0.5;
 
-             // Skalierungsfaktoren gelten gleichzeitig für Breite und Höhe, um die Proportionen der Form beizubehalten.
+             // Skalierungsfaktoren gelten gleichzeitig für die Breite und Höhe, um die Proportionen der Form beizubehalten.
             Assert.AreEqual(150.0d, shape.Width);
             Assert.AreEqual(150.0d, shape.Height);
 

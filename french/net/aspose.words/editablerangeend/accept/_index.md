@@ -20,17 +20,17 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Return_Value
 
-Faux si le visiteur a demandé l'arrêt de l'énumération.
+`FAUX` si le visiteur a demandé l'arrêt de l'énumération.
 
 ### Remarques
 
 Appels[`VisitEditableRangeEnd`](../../documentvisitor/visiteditablerangeend/).
 
-Pour plus d'informations, consultez le modèle de conception Visiteur.
+Pour plus d’informations, consultez le modèle de conception Visiteur.
 
 ### Exemples
 
-Montre comment limiter les droits de modification des plages modifiables à un groupe/utilisateur spécifique.
+Montre comment limiter les droits d'édition des plages modifiables à un groupe/utilisateur spécifique.
 
 ```csharp
 public void Visitor()
@@ -62,7 +62,7 @@ public void Visitor()
 
     builder.Writeln("This paragraph is outside the editable range, and cannot be edited by anybody.");
 
-    // Affiche les détails et le contenu de chaque plage modifiable du document.
+    // Imprimer les détails et le contenu de chaque plage modifiable du document.
     EditableRangePrinter editableRangePrinter = new EditableRangePrinter();
 
     doc.Accept(editableRangePrinter);
@@ -122,7 +122,7 @@ public class EditableRangePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Appelé lorsqu'un noeud Run est rencontré dans le document. Ce visiteur n'enregistre que les exécutions qui se trouvent dans des plages modifiables.
+    /// Appelé lorsqu'un nœud Run est rencontré dans le document. Ce visiteur enregistre uniquement les exécutions situées dans des plages modifiables.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {

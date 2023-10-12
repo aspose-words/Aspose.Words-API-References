@@ -1,14 +1,16 @@
 ---
 title: Class DigitalSignature
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.DigitalSignatures.DigitalSignature sınıf. Bir belgedeki dijital imzayı ve doğrulamanın sonucunu temsil eder.
+description: Aspose.Words.DigitalSignatures.DigitalSignature sınıf. Bir belgedeki dijital imzayı ve doğrulamasının sonucunu temsil eder.
 type: docs
-weight: 370
+weight: 380
 url: /tr/net/aspose.words.digitalsignatures/digitalsignature/
 ---
 ## DigitalSignature class
 
-Bir belgedeki dijital imzayı ve doğrulamanın sonucunu temsil eder.
+Bir belgedeki dijital imzayı ve doğrulamasının sonucunu temsil eder.
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Dijital İmzalarla Çalışma](https://docs.aspose.com/words/net/working-with-digital-signatures/) dokümantasyon makalesi.
 
 ```csharp
 public class DigitalSignature
@@ -20,10 +22,11 @@ public class DigitalSignature
 | --- | --- |
 | [CertificateHolder](../../aspose.words.digitalsignatures/digitalsignature/certificateholder/) { get; } | Belgeyi imzalamak için kullanılan sertifikayı içeren sertifika sahibi nesnesini döndürür. |
 | [Comments](../../aspose.words.digitalsignatures/digitalsignature/comments/) { get; } | İmzalama amacı yorumunu alır. |
-| [IssuerName](../../aspose.words.digitalsignatures/digitalsignature/issuername/) { get; } | Sertifikanın konu ayırt edici adını verir isuuer. |
-| [IsValid](../../aspose.words.digitalsignatures/digitalsignature/isvalid/) { get; } | Bu dijital imza geçerliyse ve belge üzerinde değişiklik yapılmadıysa doğru döndürür. |
+| [IssuerName](../../aspose.words.digitalsignatures/digitalsignature/issuername/) { get; } | Sertifikanın konu ayırt edici adını döndürür isuuer. |
+| [IsValid](../../aspose.words.digitalsignatures/digitalsignature/isvalid/) { get; } | İadeler`doğru` bu dijital imza geçerliyse ve belgeye müdahale edilmemişse. |
 | [SignatureType](../../aspose.words.digitalsignatures/digitalsignature/signaturetype/) { get; } | Dijital imzanın türünü alır. |
-| [SignTime](../../aspose.words.digitalsignatures/digitalsignature/signtime/) { get; } | Belgenin imzalandığı saati alır. |
+| [SignatureValue](../../aspose.words.digitalsignatures/digitalsignature/signaturevalue/) { get; } | Bir imza değerini temsil eden bayt dizisini alır. |
+| [SignTime](../../aspose.words.digitalsignatures/digitalsignature/signtime/) { get; } | Belgenin imzalandığı zamanı alır. |
 | [SubjectName](../../aspose.words.digitalsignatures/digitalsignature/subjectname/) { get; } | Belgeyi imzalamak için kullanılan sertifikanın konu ayırt edici adını döndürür. |
 
 ## yöntemler
@@ -34,7 +37,7 @@ public class DigitalSignature
 
 ### Örnekler
 
-Bir belgedeki her imzayla ilgili bilgilerin nasıl doğrulanacağını ve görüntüleneceğini gösterir.
+Bir belgedeki her imza hakkındaki bilgilerin nasıl doğrulanacağını ve görüntüleneceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Digitally signed.docx");

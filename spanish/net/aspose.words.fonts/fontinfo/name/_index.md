@@ -20,13 +20,13 @@ No puede ser`nulo`. Puede ser una cadena vacía.
 
 ### Ejemplos
 
-Muestra cómo imprimir los detalles de qué fuentes están presentes en un documento.
+Muestra cómo imprimir los detalles de las fuentes presentes en un documento.
 
 ```csharp
 Document doc = new Document(MyDir + "Embedded font.docx");
 
 FontInfoCollection allFonts = doc.FontInfos;
-// Imprime todas las fuentes usadas y no usadas en el documento.
+// Imprime todas las fuentes usadas y no utilizadas en el documento.
 for (int i = 0; i < allFonts.Count; i++)
 {
     Console.WriteLine($"Font index #{i}");

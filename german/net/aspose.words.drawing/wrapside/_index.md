@@ -1,14 +1,14 @@
 ---
 title: Enum WrapSide
 second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Drawing.WrapSide opsomming. Gibt an um welche Seiten der Form oder des Bildes sich der Text windet.
+description: Aspose.Words.Drawing.WrapSide opsomming. Gibt an welche Seiten der Form oder des Bildes der Text umschließt.
 type: docs
-weight: 1240
+weight: 1390
 url: /de/net/aspose.words.drawing/wrapside/
 ---
 ## WrapSide enumeration
 
-Gibt an, um welche Seite(n) der Form oder des Bildes sich der Text windet.
+Gibt an, welche Seite(n) der Form oder des Bildes der Text umschließt.
 
 ```csharp
 public enum WrapSide
@@ -20,9 +20,9 @@ public enum WrapSide
 | --- | --- | --- |
 | Both | `0` | Der Dokumenttext wird auf beiden Seiten der Form umbrochen. |
 | Left | `1` | Der Dokumenttext wird nur auf der linken Seite der Form umbrochen. Rechts neben der Form befindet sich ein textfreier Bereich. |
-| Right | `2` | Der Dokumententext wird nur auf der rechten Seite der Form umbrochen. Auf der linken Seite der Form befindet sich ein textfreier Bereich. |
-| Largest | `3` | Der Dokumenttext wird auf der Seite der Form umgebrochen, die am weitesten vom Seitenrand entfernt ist, sodass auf der anderen Seite der Form ein freier Textbereich bleibt. |
-| Default | `0` | Standardwert istBoth . |
+| Right | `2` | Der Dokumenttext wird nur auf der rechten Seite der Form umbrochen. Auf der linken Seite der Form befindet sich ein textfreier Bereich. |
+| Largest | `3` | Der Dokumenttext wird auf der Seite der Form umbrochen, die am weitesten vom Seitenrand entfernt ist, sodass auf der anderen Seite der Form textfreier Bereich verbleibt. |
+| Default | `0` | Der Standardwert istBoth . |
 
 ### Beispiele
 

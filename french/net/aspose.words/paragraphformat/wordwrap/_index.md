@@ -1,14 +1,14 @@
 ---
 title: ParagraphFormat.WordWrap
 second_title: Référence de l'API Aspose.Words pour .NET
-description: ParagraphFormat propriété. Si cette propriété est faux le texte latin au milieu dun mot peut être enveloppé for le paragraphe en cours. Sinon le texte latin est entouré de mots entiers.
+description: ParagraphFormat propriété. Si cette propriété estFAUX  le texte latin au milieu dun mot peut être renvoyé à la ligne pour le paragraphe actuel. Sinon le texte latin est entouré de mots entiers.
 type: docs
-weight: 400
+weight: 410
 url: /fr/net/aspose.words/paragraphformat/wordwrap/
 ---
 ## ParagraphFormat.WordWrap property
 
-Si cette propriété est **faux** le texte latin au milieu d'un mot peut être enveloppé for le paragraphe en cours. Sinon, le texte latin est entouré de mots entiers.
+Si cette propriété est`FAUX` , le texte latin au milieu d'un mot peut être renvoyé à la ligne pour le paragraphe actuel. Sinon, le texte latin est entouré de mots entiers.
 
 ```csharp
 public bool WordWrap { get; set; }

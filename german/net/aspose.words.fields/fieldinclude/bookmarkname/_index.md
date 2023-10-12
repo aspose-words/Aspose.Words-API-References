@@ -1,14 +1,14 @@
 ---
 title: FieldInclude.BookmarkName
 second_title: Aspose.Words für .NET-API-Referenz
-description: FieldInclude eigendom. Ruft den Namen des Lesezeichens im einzuschließenden Dokument ab oder legt ihn fest.
+description: FieldInclude eigendom. Ruft den Namen des Lesezeichens im Dokument ab oder legt diesen fest.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/fieldinclude/bookmarkname/
 ---
 ## FieldInclude.BookmarkName property
 
-Ruft den Namen des Lesezeichens im einzuschließenden Dokument ab oder legt ihn fest.
+Ruft den Namen des Lesezeichens im Dokument ab oder legt diesen fest.
 
 ```csharp
 public string BookmarkName { get; set; }

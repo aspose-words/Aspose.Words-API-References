@@ -1,14 +1,14 @@
 ---
 title: BorderCollection.Item
 second_title: Aspose.Words for .NET API Referansı
-description: BorderCollection mülk. Kenarlık türüne göre bir Border nesnesi alır.
+description: BorderCollection mülk. Bir öğeyi alırBorder kenarlık türüne göre nesne.
 type: docs
 weight: 60
 url: /tr/net/aspose.words/bordercollection/item/
 ---
 ## BorderCollection indexer (1 of 2)
 
-Kenarlık türüne göre bir Border nesnesi alır.
+Bir öğeyi alır[`Border`](../../border/) kenarlık türüne göre nesne.
 
 ```csharp
 public Border this[BorderType borderType] { get; }
@@ -16,15 +16,15 @@ public Border this[BorderType borderType] { get; }
 
 | Parametre | Tanım |
 | --- | --- |
-| borderType | A[`BorderType`](../../bordertype/) Alınacak kenarlığın türünü belirten value . |
+| borderType | A[`BorderType`](../../bordertype/) Alınacak kenarlığın türünü belirten değer . |
 
 ### Notlar
 
-Farklı belge öğeleri için tüm sınırların bulunmadığına dikkat edin. Geçerli nesneye uygulanamayan bir kenarlık talep ederseniz, bu yöntem bir istisna atar.
+Farklı belge öğeleri için tüm kenarlıkların mevcut olmadığını unutmayın. Geçerli nesneye uygulanamayan bir kenarlık talep ederseniz bu yöntem bir istisna atar.
 
 ### Örnekler
 
-Metnin kenarlıklar ve gölgeleme ile nasıl süsleneceğini gösterir.
+Metnin kenarlıklar ve gölgelendirmeyle nasıl süsleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -58,7 +58,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.ApplyBordersAndShading.docx");
 
 ## BorderCollection indexer (2 of 2)
 
-İndeks ile bir Border nesnesi alır.
+Bir öğeyi alır[`Border`](../../border/) indekse göre nesne.
 
 ```csharp
 public Border this[int index] { get; }
@@ -70,7 +70,7 @@ public Border this[int index] { get; }
 
 ### Örnekler
 
-Kenarlık koleksiyonlarının öğeleri nasıl paylaşabileceğini gösterir.
+Kenarlık koleksiyonlarının öğeleri nasıl paylaşabildiğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -80,10 +80,9 @@ builder.Writeln("Paragraph 1.");
 builder.Write("Paragraph 2.");
 
 // Oluştururken aynı border konfigürasyonunu kullandığımız için
-// bu paragraflar, onların sınır koleksiyonları aynı öğeleri paylaşır.
+// bu paragraflar, kenar koleksiyonları aynı unsurları paylaşıyor.
 BorderCollection firstParagraphBorders = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Borders;
 BorderCollection secondParagraphBorders = builder.CurrentParagraph.ParagraphFormat.Borders;
-
 for (int i = 0; i < firstParagraphBorders.Count; i++)
 {
     Assert.IsTrue(firstParagraphBorders[i].Equals(secondParagraphBorders[i]));

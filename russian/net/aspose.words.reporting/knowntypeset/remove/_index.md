@@ -1,14 +1,14 @@
 ---
 title: KnownTypeSet.Remove
 second_title: Справочник по API Aspose.Words для .NET
-description: KnownTypeSet метод. Удаляет указанныйTypeобъект из набора. БроскиArgumentException если type равно нулю.
+description: KnownTypeSet метод. Удаляет указанныйTypeпредмет из набора. БроскиArgumentException if type являетсянулевой .
 type: docs
 weight: 50
 url: /ru/net/aspose.words.reporting/knowntypeset/remove/
 ---
 ## KnownTypeSet.Remove method
 
-Удаляет указанныйTypeобъект из набора. БроскиArgumentException если *type* равно нулю.
+Удаляет указанныйTypeпредмет из набора. БроскиArgumentException if *type* является`нулевой` .
 
 ```csharp
 public void Remove(Type type)

@@ -3,7 +3,7 @@ title: PdfSaveOptions.ImageCompression
 second_title: Aspose.Words per .NET API Reference
 description: PdfSaveOptions proprietà. Specifica il tipo di compressione da utilizzare per tutte le immagini nel documento.
 type: docs
-weight: 170
+weight: 200
 url: /it/net/aspose.words.saving/pdfsaveoptions/imagecompression/
 ---
 ## PdfSaveOptions.ImageCompression property
@@ -18,11 +18,11 @@ public PdfImageCompression ImageCompression { get; set; }
 
 L'impostazione predefinita èAuto.
 
-UsandoJpeg consente di controllare la qualità delle immagini nel documento di output tramite il[`JpegQuality`](../jpegquality/) proprietà.
+UtilizzandoJpeg ti consente di controllare la qualità delle immagini nel documento di output tramite[`JpegQuality`](../jpegquality/) proprietà.
 
-UsandoJpeg fornisce la velocità di conversione più elevata rispetto alle prestazioni di altri tipi di compressione, ma in questo caso è presente una compressione JPEG con perdita.
+UtilizzandoJpeg fornisce la velocità di conversione più elevata rispetto alle prestazioni di altri tipi di compressione, ma in questo caso è presente una compressione JPEG con perdita di dati.
 
-UsandoAuto consente di controllare la qualità di Jpeg nel documento di output tramite il[`JpegQuality`](../jpegquality/) proprietà, ma per altri formati, i dati dei pixel grezzi vengono estratti e salvati con la compressione Flate. Questo caso è più lento della conversione Jpeg ma senza perdite.
+UtilizzandoAuto consente di controllare la qualità di Jpeg nel documento di output tramite il file[`JpegQuality`](../jpegquality/)property, ma per altri formati, i dati pixel grezzi vengono estratti e salvati con la compressione Flate. Questo caso è più lento della conversione Jpeg ma senza perdite.
 
 ### Esempi
 
@@ -39,12 +39,12 @@ builder.Writeln("Png image:");
 builder.InsertImage(ImageDir + "Transparent background logo.png");
 
 // Crea un oggetto "PdfSaveOptions" che possiamo passare al metodo "Save" del documento
-// per modificare il modo in cui quel metodo converte il documento in .PDF.
+// per modificare il modo in cui il metodo converte il documento in .PDF.
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 
 // Imposta la proprietà "ImageCompression" su "PdfImageCompression.Auto" per utilizzare il file
 // Proprietà "ImageCompression" per controllare la qualità delle immagini Jpeg che finiscono nel PDF di output.
-// Imposta la proprietà "ImageCompression" su "PdfImageCompression.Jpeg" per usare il file
+// Imposta la proprietà "ImageCompression" su "PdfImageCompression.Jpeg" per utilizzare il file
 // Proprietà "ImageCompression" per controllare la qualità di tutte le immagini che finiscono nel PDF di output.
 pdfSaveOptions.ImageCompression = pdfImageCompression;
 

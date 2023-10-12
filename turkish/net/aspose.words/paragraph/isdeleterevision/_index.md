@@ -1,14 +1,14 @@
 ---
 title: Paragraph.IsDeleteRevision
 second_title: Aspose.Words for .NET API Referansı
-description: Paragraph mülk. Bu nesne değişiklik izleme etkinleştirilirken Microsoft Wordde silindiyse true değerini döndürür.
+description: Paragraph mülk. Değişiklik izleme etkinken bu nesne Microsoft Wordde silinmişse true değerini döndürür.
 type: docs
 weight: 40
 url: /tr/net/aspose.words/paragraph/isdeleterevision/
 ---
 ## Paragraph.IsDeleteRevision property
 
-Bu nesne, değişiklik izleme etkinleştirilirken Microsoft Word'de silindiyse true değerini döndürür.
+Değişiklik izleme etkinken bu nesne Microsoft Word'de silinmişse true değerini döndürür.
 
 ```csharp
 public bool IsDeleteRevision { get; }
@@ -28,7 +28,7 @@ body.AppendParagraph("Paragraph 2. ");
 body.AppendParagraph("Paragraph 3. ");
 
 // Yukarıdaki paragraflar revizyon değildir.
-// Revizyon takibi başladıktan sonra eklediğimiz paragraflar "Ekle" revizyonları olarak kayıt edilecektir.
+// Revizyon takibini başlattıktan sonra eklediğimiz paragraflar "Ekle" revizyonları olarak kaydedilecektir.
 doc.StartTrackRevisions("John Doe", DateTime.Now);
 
 para = body.AppendParagraph("Paragraph 4. ");
@@ -44,12 +44,12 @@ para = paragraphs[2];
 para.Remove();
 
 // Bu tür paragraflar, silme revizyonunu kabul edene veya reddedene kadar kalacaktır.
-// Revizyonu kabul etmek paragrafı tamamen kaldıracak,
+// Düzeltmeyi kabul etmek paragrafı tamamen kaldıracaktır,
 // ve revizyonu reddetmek, onu sanki hiç silmemişiz gibi belgede bırakacaktır.
 Assert.AreEqual(4, paragraphs.Count);
 Assert.True(para.IsDeleteRevision);
 
-// Revizyonu kabul edin ve ardından paragrafın gittiğini doğrulayın.
+// Düzeltmeyi kabul edin ve ardından paragrafın kaybolduğunu doğrulayın.
 doc.AcceptAllRevisions();
 
 Assert.AreEqual(3, paragraphs.Count);

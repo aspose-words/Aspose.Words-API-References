@@ -20,7 +20,7 @@ public static double PointToInch(double points)
 
 ### Notlar
 
-1 inç, 72 noktaya eşittir.
+1 inç 72 noktaya eşittir.
 
 ### Örnekler
 
@@ -30,7 +30,7 @@ Sayfa özelliklerinin inç cinsinden nasıl belirtileceğini gösterir.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Bir bölümün "Sayfa Yapısı", sayfa kenar boşluklarının boyutunu nokta olarak tanımlar.
+// Bir bölümün "Sayfa Yapısı" sayfa kenar boşluklarının boyutunu nokta cinsinden tanımlar.
 // Daha tanıdık bir ölçü birimi kullanmak için "ConvertUtil" sınıfını da kullanabiliriz,
 // sınırları tanımlarken inç gibi.
 PageSetup pageSetup = builder.PageSetup;
@@ -39,11 +39,11 @@ pageSetup.BottomMargin = ConvertUtil.InchToPoint(2.0);
 pageSetup.LeftMargin = ConvertUtil.InchToPoint(2.5);
 pageSetup.RightMargin = ConvertUtil.InchToPoint(1.5);
 
-// Bir inç 72 noktadır.
+// Bir inç 72 puandır.
 Assert.AreEqual(72.0d, ConvertUtil.InchToPoint(1));
 Assert.AreEqual(1.0d, ConvertUtil.PointToInch(72));
 
-// Yeni kenar boşluklarını göstermek için içerik ekleyin.
+// Yeni kenar boşluklarını gösterecek içerik ekleyin.
 builder.Writeln($"This Text is {pageSetup.LeftMargin} points/{ConvertUtil.PointToInch(pageSetup.LeftMargin)} inches from the left, " +
                 $"{pageSetup.RightMargin} points/{ConvertUtil.PointToInch(pageSetup.RightMargin)} inches from the right, " +
                 $"{pageSetup.TopMargin} points/{ConvertUtil.PointToInch(pageSetup.TopMargin)} inches from the top, " +

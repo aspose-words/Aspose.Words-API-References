@@ -3,7 +3,7 @@ title: Enum HtmlElementSizeOutputMode
 second_title: Aspose.Words per .NET API Reference
 description: Aspose.Words.Saving.HtmlElementSizeOutputMode enum. Specifica come Aspose.Words esporta le larghezze e le altezze degli elementi in HTML MHTML ed EPUB.
 type: docs
-weight: 4800
+weight: 5060
 url: /it/net/aspose.words.saving/htmlelementsizeoutputmode/
 ---
 ## HtmlElementSizeOutputMode enumeration
@@ -19,7 +19,7 @@ public enum HtmlElementSizeOutputMode
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
 | All | `0` | Vengono esportate tutte le dimensioni degli elementi, sia in unità assolute che relative, specificate nel documento. |
-| RelativeOnly | `1` | Le dimensioni degli elementi vengono esportate solo se sono specificate in unità relative nel documento. Le dimensioni fisse non vengono esportate in questa modalità. Gli agenti visivi calcoleranno le dimensioni mancanti per rendere più naturale il layout del documento . |
+| RelativeOnly | `1` | Le dimensioni degli elementi vengono esportate solo se specificate in unità relative nel documento. Le dimensioni fisse non vengono esportate in questa modalità. Gli agenti visivi calcoleranno le dimensioni mancanti per rendere il layout del documento più naturale. |
 | None | `2` | Le dimensioni degli elementi non vengono esportate. Gli agenti visivi costruiranno automaticamente il layout in base alla relazione tra gli elementi. |
 
 ### Esempi
@@ -30,7 +30,7 @@ Mostra come preservare i rientri negativi nell'output .html.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inserisce una tabella con un rientro negativo, che la spingerà a sinistra oltre il limite sinistro della pagina.
+// Inserisce una tabella con un rientro negativo, che la spingerà a sinistra oltre il limite della pagina sinistra.
 Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, Cell 1");
@@ -42,7 +42,7 @@ table.PreferredWidth = PreferredWidth.FromPoints(144);
 
 builder.InsertBreak(BreakType.ParagraphBreak);
 
-// Inserisce una tabella con un rientro positivo, che spingerà la tabella a destra.
+// Inserisce una tabella con un rientro positivo, che sposterà la tabella a destra.
 table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, Cell 1");

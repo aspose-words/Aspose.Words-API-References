@@ -1,14 +1,14 @@
 ---
 title: Document.RevisionsView
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Document propriété. Obtient ou définit une valeur indiquant sil faut travailler avec la version originale ou révisée dun document.
+description: Document propriété. Obtient ou définit une valeur indiquant sil faut utiliser la version originale ou révisée dun document.
 type: docs
-weight: 340
+weight: 360
 url: /fr/net/aspose.words/document/revisionsview/
 ---
 ## Document.RevisionsView property
 
-Obtient ou définit une valeur indiquant s'il faut travailler avec la version originale ou révisée d'un document.
+Obtient ou définit une valeur indiquant s'il faut utiliser la version originale ou révisée d'un document.
 
 ```csharp
 public RevisionsView RevisionsView { get; set; }
@@ -20,7 +20,7 @@ La valeur par défaut est .
 
 ### Exemples
 
-Montre comment basculer entre la vue révisée et la vue d'origine d'un document.
+Montre comment basculer entre la vue révisée et la vue originale d'un document.
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions at list levels.docx");

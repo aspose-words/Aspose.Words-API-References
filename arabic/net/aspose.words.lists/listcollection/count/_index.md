@@ -1,14 +1,14 @@
 ---
 title: ListCollection.Count
 second_title: Aspose.Words لمراجع .NET API
-description: ListCollection ملكية. الحصول على عدد القوائم المرقمة والنقطية في المستند.
+description: ListCollection ملكية. الحصول على عدد القوائم المرقمة والتعداد النقطي في المستند.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.lists/listcollection/count/
 ---
 ## ListCollection.Count property
 
-الحصول على عدد القوائم المرقمة والنقطية في المستند.
+الحصول على عدد القوائم المرقمة والتعداد النقطي في المستند.
 
 ```csharp
 public int Count { get; }
@@ -22,11 +22,9 @@ public int Count { get; }
 Document doc = new Document();
 
 ListCollection lists = doc.Lists;
-
 Assert.AreEqual(doc, lists.Document);
 
 List list = lists.Add(ListTemplate.BulletDefault);
-
 Assert.AreEqual(doc, list.Document);
 
 Console.WriteLine("Current list count: " + lists.Count);

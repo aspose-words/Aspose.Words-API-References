@@ -16,18 +16,19 @@ public Section ParentSection { get; }
 
 ### Anmärkningar
 
-**Föräldrasektionen** är ekvivalent med`(Sektion) ParentNode`.
+`ParentSection` är ekvivalent med[`ParentNode`](../../node/parentnode/) gjutna till[`Section`](../../section/).
 
 ### Exempel
 
 Visar hur man lagrar slutnoter i slutet av varje avsnitt och ändrar deras positioner.
 
 ```csharp
+public void SuppressEndnotes()
 {
     Document doc = new Document();
     doc.RemoveAllChildren();
 
-      // Som standard kompilerar ett dokument alla slutnoter i slutet.
+     // Som standard kompilerar ett dokument alla slutnoter i slutet.
     Assert.AreEqual(EndnotePosition.EndOfDocument, doc.EndnoteOptions.Position);
 
     // Vi använder egenskapen "Position" för dokumentets "EndnoteOptions"-objekt
@@ -45,6 +46,7 @@ Visar hur man lagrar slutnoter i slutet av varje avsnitt och ändrar deras posit
     pageSetup.SuppressEndnotes = true;
 
     doc.Save(ArtifactsDir + "PageSetup.SuppressEndnotes.docx");
+}
 
 /// <summary>
 /// Lägg till ett avsnitt med text och en slutnot till ett dokument.

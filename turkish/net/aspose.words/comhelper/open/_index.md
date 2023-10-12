@@ -1,14 +1,14 @@
 ---
 title: ComHelper.Open
 second_title: Aspose.Words for .NET API Referansı
-description: ComHelper yöntem. Bir COM uygulamasının birDocument bir dosyadan.
+description: ComHelper yöntem. COM uygulamasının bir dosya yüklemesine izin verir.Document bir dosyadan.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/comhelper/open/
 ---
 ## Open(string) {#open_1}
 
-Bir COM uygulamasının bir[`Document`](../../document/) bir dosyadan.
+COM uygulamasının bir dosya yüklemesine izin verir.[`Document`](../../document/) bir dosyadan.
 
 ```csharp
 public Document Open(string fileName)
@@ -20,11 +20,11 @@ public Document Open(string fileName)
 
 ### Geri dönüş değeri
 
-A[`Document`](../../document/) Word belgesini temsil eden nesne.
+A[`Document`](../../document/)Bir Word belgesini temsil eden nesne.
 
 ### Notlar
 
-Bu yöntem, arama yapmakla aynıdır.[`Document`](../../document/) dosya adı parametresine sahip yapıcı.
+Bu yöntem çağrı yapmakla aynıdır.[`Document`](../../document/) dosya adı parametresine sahip yapıcı.
 
 ### Örnekler
 
@@ -41,10 +41,10 @@ Set doc = helper.Open(fileName)
 ComHelper sınıfını kullanarak belgelerin nasıl açılacağını gösterir.
 
 ```csharp
-// ComHelper sınıfı, COM istemcilerinden belgeleri yüklememize izin verir.
+// ComHelper sınıfı, belgeleri COM istemcilerinden yüklememize olanak tanır.
 ComHelper comHelper = new ComHelper();
 
-// 1 - Yerel bir sistem dosya adı kullanma:
+// 1 - Yerel sistem dosya adını kullanma:
 Document doc = comHelper.Open(MyDir + "Document.docx");
 
 Assert.AreEqual("Hello World!\r\rHello Word!\r\r\rHello World!", doc.GetText().Trim());
@@ -81,21 +81,21 @@ public Document Open(Stream stream)
 
 ### Geri dönüş değeri
 
-A[`Document`](../../document/) Word belgesini temsil eden nesne.
+A[`Document`](../../document/)Bir Word belgesini temsil eden nesne.
 
 ### Notlar
 
-Bu yöntem, arama yapmakla aynıdır.[`Document`](../../document/) bir akış parametresi ile yapıcı.
+Bu yöntem çağrı yapmakla aynıdır.[`Document`](../../document/) akış parametresine sahip yapıcı.
 
 ### Örnekler
 
 ComHelper sınıfını kullanarak belgelerin nasıl açılacağını gösterir.
 
 ```csharp
-// ComHelper sınıfı, COM istemcilerinden belgeleri yüklememize izin verir.
+// ComHelper sınıfı, belgeleri COM istemcilerinden yüklememize olanak tanır.
 ComHelper comHelper = new ComHelper();
 
-// 1 - Yerel bir sistem dosya adı kullanma:
+// 1 - Yerel sistem dosya adını kullanma:
 Document doc = comHelper.Open(MyDir + "Document.docx");
 
 Assert.AreEqual("Hello World!\r\rHello Word!\r\r\rHello World!", doc.GetText().Trim());

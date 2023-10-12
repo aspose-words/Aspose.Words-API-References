@@ -1,14 +1,14 @@
 ---
 title: ViewOptions.ZoomType
 second_title: Aspose.Words per .NET API Reference
-description: ViewOptions proprietà. Ottiene o imposta un valore di zoom in base alle dimensioni della finestra.
+description: ViewOptions proprietà. Ottiene o imposta un valore di zoom in base alla dimensione della finestra.
 type: docs
 weight: 60
 url: /it/net/aspose.words.settings/viewoptions/zoomtype/
 ---
 ## ViewOptions.ZoomType property
 
-Ottiene o imposta un valore di zoom in base alle dimensioni della finestra.
+Ottiene o imposta un valore di zoom in base alla dimensione della finestra.
 
 ```csharp
 public ZoomType ZoomType { get; set; }
@@ -44,7 +44,7 @@ builder.Writeln("Hello world!");
 // Imposta la proprietà "ZoomType" su "ZoomType.FullPage" per ottenere Microsoft Word
 // per ingrandire automaticamente il documento per rendere visibile l'intera prima pagina.
 // Imposta la proprietà "ZoomType" su "ZoomType.TextFit" per ottenere Microsoft Word
-// per ingrandire automaticamente il documento per adattarlo ai margini interni del testo della prima pagina.
+// per ingrandire automaticamente il documento per adattarlo ai margini di testo interni della prima pagina.
 doc.ViewOptions.ZoomType = zoomType;
 
 doc.Save(ArtifactsDir + "ViewOptions.SetZoomType.doc");

@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertComboBox
 second_title: Référence de l'API Aspose.Words pour .NET
 description: DocumentBuilder méthode. Insère un champ de formulaire combobox à la position actuelle.
 type: docs
-weight: 280
+weight: 300
 url: /fr/net/aspose.words/documentbuilder/insertcombobox/
 ---
 ## DocumentBuilder.InsertComboBox method
@@ -16,17 +16,17 @@ public FormField InsertComboBox(string name, string[] items, int selectedIndex)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| name | String | Nom du champ de formulaire. Peut être une chaîne vide. La valeur supérieure à 20 caractères sera tronquée. |
-| items | String[] | Les éléments du ComboBox. Le maximum est de 25 éléments. |
-| selectedIndex | Int32 | L'index de l'élément sélectionné dans le ComboBox. |
+| name | String | Le nom du champ du formulaire. Peut être une chaîne vide. La valeur de plus de 20 caractères sera tronquée. |
+| items | String[] | Les éléments de la ComboBox. Le maximum est de 25 articles. |
+| selectedIndex | Int32 | L'index de l'élément sélectionné dans la ComboBox. |
 
 ### Return_Value
 
-Le nœud de champ de formulaire qui vient d'être inséré.
+Le nœud du champ de formulaire qui vient d’être inséré.
 
 ### Remarques
 
-Si vous spécifiez un nom pour le champ de formulaire, un signet est automatiquement créé avec le même nom.
+Si vous spécifiez un nom pour le champ du formulaire, un signet est automatiquement créé avec le même nom.
 
 ### Exemples
 
@@ -50,12 +50,12 @@ Montre comment créer des champs de formulaire.
 DocumentBuilder builder = new DocumentBuilder();
 
 // Les champs de formulaire sont des objets du document avec lesquels l'utilisateur peut interagir en étant invité à saisir des valeurs.
-// Nous pouvons les créer à l'aide d'un générateur de documents, et ci-dessous sont deux façons de le faire.
+// Nous pouvons les créer à l'aide d'un générateur de documents, et vous trouverez ci-dessous deux façons de le faire.
 // 1 - Saisie de texte de base :
 builder.InsertTextInput("My text input", TextFormFieldType.Regular, 
     "", "Enter your name here", 30);
 
-// 2 - Zone de liste déroulante avec texte d'invite et une plage de valeurs possibles :
+// 2 - Zone de liste déroulante avec un texte d'invite et une plage de valeurs possibles :
 string[] items =
 {
     "-- Select your favorite footwear --", "Sneakers", "Oxfords", "Flip-flops", "Other"

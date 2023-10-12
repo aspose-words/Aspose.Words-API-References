@@ -21,7 +21,7 @@ public static void Sign(Stream srcStream, Stream dstStream, CertificateHolder ce
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| srcStream | Stream | Strömmen som innehåller dokumentet som ska signeras. |
+| srcStream | Stream | Strömmen som innehåller dokumentet som ska undertecknas. |
 | dstStream | Stream | Streamen som det signerade dokumentet kommer att skrivas till. |
 | certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/) objekt med certifikat som användes för att signera filen. Certifikatet i innehavaren MÅSTE innehålla privata nycklar och ha flaggan X509KeyStorageFlags.Exportable inställd. |
 | signOptions | SignOptions | [`SignOptions`](../../signoptions/) objekt med olika signeringsalternativ. |
@@ -85,7 +85,8 @@ public static void Sign(string srcFileName, string dstFileName, CertificateHolde
 Visar hur man lägger till en signaturrad i ett dokument och sedan signerar den med ett digitalt certifikat.
 
 ```csharp
-public static void Sign()
+[Description("WORDSNET-16868")]
+        public static void Sign()
         {
             string signeeName = "Ron Williams";
             string srcDocumentPath = MyDir + "Document.docx";
@@ -216,7 +217,7 @@ public static void Sign(Stream srcStream, Stream dstStream, CertificateHolder ce
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| srcStream | Stream | Strömmen som innehåller dokumentet som ska signeras. |
+| srcStream | Stream | Strömmen som innehåller dokumentet som ska undertecknas. |
 | dstStream | Stream | Streamen som det signerade dokumentet kommer att skrivas till. |
 | certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/) objekt med certifikat som användes för att signera filen. Certifikatet i innehavaren MÅSTE innehålla privata nycklar och ha flaggan X509KeyStorageFlags.Exportable inställd. |
 

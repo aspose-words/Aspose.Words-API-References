@@ -1,14 +1,14 @@
 ---
 title: FieldRef.InsertParagraphNumber
 second_title: Aspose.Words per .NET API Reference
-description: FieldRef proprietà. Ottiene o imposta se inserire il numero di paragrafo del paragrafo di riferimento esattamente come appare nel documento.
+description: FieldRef proprietà. Ottiene o imposta se inserire il numero del paragrafo di riferimento esattamente come appare nel documento.
 type: docs
 weight: 50
 url: /it/net/aspose.words.fields/fieldref/insertparagraphnumber/
 ---
 ## FieldRef.InsertParagraphNumber property
 
-Ottiene o imposta se inserire il numero di paragrafo del paragrafo di riferimento esattamente come appare nel documento.
+Ottiene o imposta se inserire il numero del paragrafo di riferimento esattamente come appare nel documento.
 
 ```csharp
 public bool InsertParagraphNumber { get; set; }
@@ -31,7 +31,7 @@ public void FieldRef()
     builder.EndBookmark("MyBookmark");
     builder.MoveToDocumentStart();
 
-    // Applicheremo un formato elenco personalizzato, in cui la quantità di parentesi angolari indica il livello di elenco in cui ci troviamo attualmente.
+    // Applicheremo un formato di elenco personalizzato, in cui il numero di parentesi angolari indica il livello di elenco a cui ci troviamo attualmente.
     builder.ListFormat.ApplyNumberDefault();
     builder.ListFormat.ListLevel.NumberFormat = "> \x0000";
 
@@ -42,30 +42,30 @@ public void FieldRef()
 
     Assert.AreEqual(" REF  MyBookmark \\f \\h", field.GetFieldCode());
 
-    // Inserisce un campo REF e mostra se il segnalibro di riferimento è sopra o sotto di esso.
+    // Inserisci un campo REF e visualizza se il segnalibro di riferimento è sopra o sotto di esso.
     field = InsertFieldRef(builder, "MyBookmark", "The referenced paragraph is ", " this field.\n");
     field.InsertRelativePosition = true;
 
     Assert.AreEqual(" REF  MyBookmark \\p", field.GetFieldCode());
 
-    // Visualizza il numero di elenco del segnalibro come appare nel documento.
+    // Visualizza il numero dell'elenco del segnalibro così come appare nel documento.
     field = InsertFieldRef(builder, "MyBookmark", "The bookmark's paragraph number is ", "\n");
     field.InsertParagraphNumber = true;
 
     Assert.AreEqual(" REF  MyBookmark \\n", field.GetFieldCode());
 
-    // Visualizza il numero dell'elenco del segnalibro, ma con i caratteri non delimitatori, come le parentesi angolari, omessi.
+    // Visualizza il numero dell'elenco dei segnalibri, ma omettendo i caratteri non delimitatori, come le parentesi angolari.
     field = InsertFieldRef(builder, "MyBookmark", "The bookmark's paragraph number, non-delimiters suppressed, is ", "\n");
     field.InsertParagraphNumber = true;
     field.SuppressNonDelimiters = true;
 
     Assert.AreEqual(" REF  MyBookmark \\n \\t", field.GetFieldCode());
 
-    // Scende di un livello dell'elenco.
+    // Scende di un livello nell'elenco.
     builder.ListFormat.ListLevelNumber++;
     builder.ListFormat.ListLevel.NumberFormat = ">> \x0001";
 
-    // Visualizza il numero di elenco del segnalibro e i numeri di tutti i livelli di elenco sopra di esso.
+    // Visualizza il numero dell'elenco del segnalibro e i numeri di tutti i livelli dell'elenco sopra di esso.
     field = InsertFieldRef(builder, "MyBookmark", "The bookmark's full context paragraph number is ", "\n");
     field.InsertParagraphNumberInFullContext = true;
 
@@ -73,22 +73,23 @@ public void FieldRef()
 
     builder.InsertBreak(BreakType.PageBreak);
 
-    // Visualizza i numeri a livello di elenco tra questo campo REF e il segnalibro a cui fa riferimento.
+    // Visualizza i numeri del livello di elenco tra questo campo REF e il segnalibro a cui fa riferimento.
     field = InsertFieldRef(builder, "MyBookmark", "The bookmark's relative paragraph number is ", "\n");
     field.InsertParagraphNumberInRelativeContext = true;
 
     Assert.AreEqual(" REF  MyBookmark \\r", field.GetFieldCode());
 
-    // Alla fine del documento, il segnalibro apparirà come una voce di elenco qui.
+    // Alla fine del documento, il segnalibro verrà visualizzato qui come elemento dell'elenco.
     builder.Writeln("List level above bookmark");
     builder.ListFormat.ListLevelNumber++;
     builder.ListFormat.ListLevel.NumberFormat = ">>> \x0002";
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.REF.docx");
+}
 
 /// <summary>
-/// Fai in modo che il generatore di documenti inserisca un campo REF, faccia riferimento a un segnalibro con esso e aggiunga del testo prima e dopo di esso.
+/// Chiedi al generatore di documenti di inserire un campo REF, fare riferimento a un segnalibro con esso e aggiungere testo prima e dopo di esso.
 /// </summary>
 private static FieldRef InsertFieldRef(DocumentBuilder builder, string bookmarkName, string textBefore, string textAfter)
 {

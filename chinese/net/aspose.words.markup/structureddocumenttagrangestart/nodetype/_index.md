@@ -1,12 +1,14 @@
 ---
 title: StructuredDocumentTagRangeStart.NodeType
 second_title: Aspose.Words for .NET API 参考
-description: StructuredDocumentTagRangeStart 财产. 
+description: StructuredDocumentTagRangeStart 财产. 返回StructuredDocumentTagRangeStart.
 type: docs
 weight: 100
 url: /zh/net/aspose.words.markup/structureddocumenttagrangestart/nodetype/
 ---
 ## StructuredDocumentTagRangeStart.NodeType property
+
+返回StructuredDocumentTagRangeStart.
 
 ```csharp
 public override NodeType NodeType { get; }

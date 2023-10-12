@@ -17,11 +17,11 @@ public DocumentProperty AddLinkToContent(string name, string linkSource)
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | name | String | Il nome della proprietà. |
-| linkSource | String | La fonte della proprietà. |
+| linkSource | String | L'origine della proprietà. |
 
 ### Valore di ritorno
 
-L'oggetto della proprietà appena creato o null quando linkSource non è valido.
+L'oggetto proprietà appena creato o`nullo` quando il*linkSource* è invalido.
 
 ### Esempi
 

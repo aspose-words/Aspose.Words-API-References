@@ -1,14 +1,14 @@
 ---
 title: HeaderFooter.Accept
 second_title: Aspose.Words for .NET API Referansı
-description: HeaderFooter yöntem. Bir ziyaretçiyi kabul eder.
+description: HeaderFooter yöntem. Ziyaretçi kabul eder.
 type: docs
 weight: 70
 url: /tr/net/aspose.words/headerfooter/accept/
 ---
 ## HeaderFooter.Accept method
 
-Bir ziyaretçiyi kabul eder.
+Ziyaretçi kabul eder.
 
 ```csharp
 public override bool Accept(DocumentVisitor visitor)
@@ -20,15 +20,15 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Geri dönüş değeri
 
-Tüm düğümler ziyaret edildiyse doğrudur; DocumentVisitor tüm düğümleri ziyaret etmeden önce işlemi durdurduysa false.
+Tüm düğümler ziyaret edilmişse doğrudur; yanlış ise[`DocumentVisitor`](../../documentvisitor/) tüm düğümleri ziyaret etmeden işlemi durdurdu.
 
 ### Notlar
 
-Bu düğüm ve tüm alt öğeleri üzerinde numaralandırır. Her düğüm, DocumentVisitor'da karşılık gelen bir yöntemi çağırır.
+Bu düğümü ve tüm alt öğelerini numaralandırır. Her düğüm kendisine karşılık gelen bir yöntemi çağırır.[`DocumentVisitor`](../../documentvisitor/).
 
-Daha fazla bilgi için Ziyaretçi tasarım modeline bakın.
+Daha fazla bilgi için Ziyaretçi tasarım desenine bakın.
 
-DocumentVisitor.VisitHeaderFooterStart'ı çağırır, ardından bölüm 'nin tüm alt düğümleri için Kabul Et'i çağırır ve sonunda DocumentVisitor.VisitHeaderFooterEnd'i çağırır.
+Çağrılar[`VisitHeaderFooterStart`](../../documentvisitor/visitheaderfooterstart/) , ardından arar[`Accept`](../../node/accept/) bölümün tüm alt düğümleri için ve çağrılar[`VisitHeaderFooterEnd`](../../documentvisitor/visitheaderfooterend/) sonunda.
 
 ### Örnekler
 
@@ -40,21 +40,21 @@ public void HeaderFooterToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     HeaderFooterStructurePrinter visitor = new HeaderFooterStructurePrinter();
 
-    // Bir belge ziyaretçisini kabul etmek için bir bileşik düğüm aldığımızda, ziyaretçi kabul eden düğümü ziyaret eder,
-    // ve ardından tüm düğümün alt öğelerini derinlik öncelikli bir şekilde çaprazlar.
-    // Ziyaretçi, ziyaret edilen her düğümü okuyabilir ve değiştirebilir.
+    // Bir belge ziyaretçisini kabul edecek bileşik bir düğüm aldığımızda, ziyaretçi kabul eden düğümü ziyaret eder,
+    // ve ardından düğümün tüm alt öğelerini derinlik öncelikli bir şekilde geçer.
+    // Ziyaretçi ziyaret edilen her düğümü okuyabilir ve değiştirebilir.
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 
-    // Bir belgenin üstbilgi/altbilgilerine bölüm bölüm erişmenin alternatif bir yolu, koleksiyona erişmektir.
+    // Bir belgenin üstbilgisine/altbilgilerine bölüm bölüm erişmenin alternatif bir yolu da koleksiyona erişmektir.
     HeaderFooter[] headerFooters = doc.FirstSection.HeadersFooters.ToArray();
     Assert.AreEqual(3, headerFooters.Length);
 }
 
 /// <summary>
-/// Bir düğümün ikili olmayan alt düğümler ağacında çapraz geçiş yapar.
-/// Karşılaşılan tüm HeaderFooter düğümlerinin ve bunların alt öğelerinin bir dizesi biçiminde bir harita oluşturur.
+/// Bir düğümün ikili olmayan alt düğüm ağacını geçer.
+/// Karşılaşılan tüm HeaderFooter düğümleri ve bunların alt öğelerinden oluşan bir dize biçiminde bir harita oluşturur.
 /// </summary>
 public class HeaderFooterStructurePrinter : DocumentVisitor
 {
@@ -104,9 +104,9 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// StringBuilder'a bir satır ekleyin ve ziyaretçinin belge ağacında ne kadar derin olduğuna bağlı olarak girinti yapın.
+    /// StringBuilder'a bir satır ekleyin ve ziyaretçinin belge ağacında ne kadar derin olduğuna bağlı olarak onu girintileyin.
     /// </summary>
-    /// <param name="metin"></param>
+    /// <param adı="metin"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++) mBuilder.Append("|  ");

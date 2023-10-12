@@ -3,12 +3,14 @@ title: Class FontSubstitutionRule
 second_title: Aspose.Words for .NET API Referansı
 description: Aspose.Words.Fonts.FontSubstitutionRule sınıf. Bu yazı tipi değiştirme kuralı için soyut bir temel sınıftır.
 type: docs
-weight: 2820
+weight: 3000
 url: /tr/net/aspose.words.fonts/fontsubstitutionrule/
 ---
 ## FontSubstitutionRule class
 
 Bu, yazı tipi değiştirme kuralı için soyut bir temel sınıftır.
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Fontlarla Çalışmak](https://docs.aspose.com/words/net/working-with-fonts/) dokümantasyon makalesi.
 
 ```csharp
 public abstract class FontSubstitutionRule
@@ -32,7 +34,7 @@ FontConfigSubstitutionRule fontConfigSubstitution =
 bool isWindows = new[] {PlatformID.Win32NT, PlatformID.Win32S, PlatformID.Win32Windows, PlatformID.WinCE}
     .Any(p => Environment.OSVersion.Platform == p);
 
-// FontConfigSubstitutionRule nesnesi, Windows/Windows olmayan platformlarda farklı çalışır.
+// FontConfigSubstitutionRule nesnesi Windows/Windows dışı platformlarda farklı çalışır.
 // Windows'ta kullanılamaz.
 if (isWindows)
 {
@@ -43,7 +45,7 @@ if (isWindows)
 bool isLinuxOrMac =
     new[] {PlatformID.Unix, PlatformID.MacOSX}.Any(p => Environment.OSVersion.Platform == p);
 
-// Linux/Mac'te ona erişimimiz olacak ve işlemler yapabileceğiz.
+// Linux/Mac'te buna erişimimiz olacak ve işlemleri gerçekleştirebileceğiz.
 if (isLinuxOrMac)
 {
     Assert.True(fontConfigSubstitution.Enabled);

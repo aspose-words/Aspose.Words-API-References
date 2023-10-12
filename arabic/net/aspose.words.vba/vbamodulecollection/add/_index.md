@@ -1,14 +1,14 @@
 ---
 title: VbaModuleCollection.Add
 second_title: Aspose.Words لمراجع .NET API
-description: VbaModuleCollection طريقة. يضيف وحدة نمطية إلى المجموعة.
+description: VbaModuleCollection طريقة. إضافة وحدة إلى المجموعة.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.vba/vbamodulecollection/add/
 ---
 ## VbaModuleCollection.Add method
 
-يضيف وحدة نمطية إلى المجموعة.
+إضافة وحدة إلى المجموعة.
 
 ```csharp
 public void Add(VbaModule vbaModule)
@@ -26,13 +26,13 @@ VbaProject project = new VbaProject();
 project.Name = "Aspose.Project";
 doc.VbaProject = project;
 
-// إنشاء وحدة نمطية جديدة وتحديد شفرة مصدر الماكرو.
+// أنشئ وحدة نمطية جديدة وحدد كود مصدر الماكرو.
 VbaModule module = new VbaModule();
 module.Name = "Aspose.Module";
 module.Type = VbaModuleType.ProceduralModule;
 module.SourceCode = "New source code";
 
-// أضف الوحدة إلى مشروع VBA.
+// أضف الوحدة النمطية إلى مشروع VBA.
 doc.VbaProject.Modules.Add(module);
 
 doc.Save(ArtifactsDir + "VbaProject.CreateVBAMacros.docm");

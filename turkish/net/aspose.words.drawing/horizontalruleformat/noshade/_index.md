@@ -1,14 +1,14 @@
 ---
 title: HorizontalRuleFormat.NoShade
 second_title: Aspose.Words for .NET API Referansı
-description: HorizontalRuleFormat mülk. Yatay kural için 3B gölgelemenin varlığını gösterir. Doğruysa yatay kuralda 3B gölge yoktur ve düz renk kullanılır.
+description: HorizontalRuleFormat mülk. Yatay cetvel için 3 boyutlu gölgelemenin varlığını belirtir. Ifdoğru bu durumda yatay çizgi 3 boyutlu gölgeleme olmadan düz renk kullanılır.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.drawing/horizontalruleformat/noshade/
 ---
 ## HorizontalRuleFormat.NoShade property
 
-Yatay kural için 3B gölgelemenin varlığını gösterir. Doğruysa, yatay kuralda 3B gölge yoktur ve düz renk kullanılır.
+Yatay cetvel için 3 boyutlu gölgelemenin varlığını belirtir. If`doğru` bu durumda yatay çizgi 3 boyutlu gölgeleme olmadan düz renk kullanılır.
 
 ```csharp
 public bool NoShade { get; set; }
@@ -16,11 +16,11 @@ public bool NoShade { get; set; }
 
 ### Notlar
 
-Varsayılan değer yanlıştır.
+Varsayılan değer:`YANLIŞ`.
 
 ### Örnekler
 
-Yatay bir kural şeklinin nasıl ekleneceğini ve biçimlendirmesinin nasıl özelleştirileceğini gösterir.
+Yatay kural şeklinin nasıl ekleneceğini ve biçimlendirmesinin nasıl özelleştirileceğini gösterir.
 
 ```csharp
 Document doc = new Document();

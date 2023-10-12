@@ -1,14 +1,14 @@
 ---
 title: HtmlLoadOptions.ConvertSvgToEmf
 second_title: Aspose.Words for .NET API Referansı
-description: HtmlLoadOptions mülk. Yüklenen SVG görüntülerinin EMF biçimine dönüştürülüp dönüştürülmeyeceğini belirten bir değer alır veya ayarlar. Varsayılan değeryanlış ve mümkünse yüklenen SVG görüntüleri dönüştürülmeden olduğu gibi saklanır.
+description: HtmlLoadOptions mülk. Yüklenen SVG görüntülerinin EMF formatına dönüştürülüp dönüştürülmeyeceğini belirten bir değer alır veya ayarlar. Varsayılan değerYANLIŞ ve mümkünse yüklenen SVG görüntüleri dönüştürme yapılmadan olduğu gibi depolanır.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.loading/htmlloadoptions/convertsvgtoemf/
 ---
 ## HtmlLoadOptions.ConvertSvgToEmf property
 
-Yüklenen SVG görüntülerinin EMF biçimine dönüştürülüp dönüştürülmeyeceğini belirten bir değer alır veya ayarlar. Varsayılan değer`yanlış` ve mümkünse, yüklenen SVG görüntüleri dönüştürülmeden olduğu gibi saklanır.
+Yüklenen SVG görüntülerinin EMF formatına dönüştürülüp dönüştürülmeyeceğini belirten bir değer alır veya ayarlar. Varsayılan değer:`YANLIŞ` ve mümkünse yüklenen SVG görüntüleri dönüştürme yapılmadan olduğu gibi depolanır.
 
 ```csharp
 public bool ConvertSvgToEmf { get; set; }
@@ -16,13 +16,13 @@ public bool ConvertSvgToEmf { get; set; }
 
 ### Notlar
 
-MS Word'ün daha yeni sürümleri, yerel olarak SVG görüntülerini destekler. Yükleme seçeneklerinde belirtilen MS Word sürümü SVG'yi destekliyorsa, Aspose.Words, SVG görüntülerini dönüştürmeden olduğu gibi depolayacaktır. SVG desteklenmiyorsa, yüklenen SVG görüntüleri EMF biçimine dönüştürülür.
+MS Word'ün daha yeni sürümleri, SVG resimlerini yerel olarak destekler. Yükleme seçeneklerinde belirtilen MS Word sürümü SVG'yi destekliyorsa Aspose.Words, SVG görüntülerini dönüştürme olmadan olduğu gibi saklar. SVG desteklenmiyorsa yüklenen SVG görüntüleri EMF formatına dönüştürülecektir.
 
-Ancak, bu seçenek olarak ayarlanırsa`doğru` , Aspose.Words, SVG görüntüleri MS Word'ün belirtilen sürümü tarafından desteklense bile, yüklenen SVG görüntülerini EMF'ye dönüştürecektir.
+Ancak bu seçenek şu şekilde ayarlanmışsa:`doğru` , Aspose.Words, SVG görselleri MS Word'ün belirtilen sürümü tarafından desteklense bile, yüklenen SVG görsellerini EMF'ye dönüştürecektir.
 
 ### Örnekler
 
-HTML belgelerini kaydederken SVG nesnelerinin nasıl farklı bir biçime dönüştürüleceğini gösterir.
+HTML belgelerini kaydederken SVG nesnelerinin farklı bir formata nasıl dönüştürüleceğini gösterir.
 
 ```csharp
 string html = 
@@ -32,20 +32,20 @@ string html =
         </svg>
     </html>";
 
-// Eski davranışı geri almak için 'ConvertSvgToEmf' kullanın
-// bir HTML belgesinden yüklenen tüm SVG resimlerinin EMF'ye dönüştürüldüğü yer.
-// Artık SVG görüntüleri dönüştürülmeden yükleniyor
-// yükleme seçeneklerinde belirtilen MS Word sürümü yerel olarak SVG görüntülerini destekliyorsa.
+// Eski davranışı geri döndürmek için 'ConvertSvgToEmf'i kullanın
+// burada bir HTML belgesinden yüklenen tüm SVG görüntüleri EMF'ye dönüştürüldü.
+// Artık SVG görselleri dönüştürme yapılmadan yükleniyor
+// yükleme seçeneklerinde belirtilen MS Word sürümü SVG resimlerini yerel olarak destekliyorsa.
 HtmlLoadOptions loadOptions = new HtmlLoadOptions { ConvertSvgToEmf = true };
 
 Document doc = new Document(new MemoryStream(Encoding.UTF8.GetBytes(html)), loadOptions);
 
-// Bu belge bir <svg> öğe metin şeklinde.
-// Belgeyi HTML'ye kaydettiğimizde, SaveOptions nesnesini iletebiliriz
-// kaydetme işleminin bu nesneyi nasıl işlediğini belirlemek için.
-// PNG görüntüsüne dönüştürmek için "MetafileFormat" özelliğinin "HtmlMetafileFormat.Png" olarak ayarlanması.
+// Bu belge bir <svg> metin biçiminde öğe.
+// Belgeyi HTML'ye kaydettiğimizde SaveOptions nesnesini iletebiliriz
+// kaydetme işleminin bu nesneyi nasıl işleyeceğini belirlemek için.
+// PNG görüntüsüne dönüştürmek için "MetafileFormat" özelliğini "HtmlMetafileFormat.Png" olarak ayarlıyoruz.
 // "MetafileFormat" özelliğinin "HtmlMetafileFormat.Svg" olarak ayarlanması onu bir SVG nesnesi olarak korur.
-// Bir meta dosyaya dönüştürmek için "MetafileFormat" özelliğinin "HtmlMetafileFormat.EmfOrWmf" olarak ayarlanması.
+// Bir meta dosyasına dönüştürmek için "MetafileFormat" özelliğini "HtmlMetafileFormat.EmfOrWmf" olarak ayarlıyoruz.
 HtmlSaveOptions options = new HtmlSaveOptions { MetafileFormat = htmlMetafileFormat };
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.MetafileFormat.html", options);

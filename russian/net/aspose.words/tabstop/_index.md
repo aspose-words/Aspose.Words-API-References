@@ -1,14 +1,16 @@
 ---
 title: Class TabStop
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.TabStop сорт. Представляет одну настраиваемую позицию табуляции. TabStop объект является членом the TabStopCollection коллекция.
+description: Aspose.Words.TabStop сорт. Представляет одну настраиваемую позицию табуляции.TabStopобъект является членом the TabStopCollection коллекция.
 type: docs
-weight: 5900
+weight: 6200
 url: /ru/net/aspose.words/tabstop/
 ---
 ## TabStop class
 
-Представляет одну настраиваемую позицию табуляции. **TabStop** объект является членом the [`TabStopCollection`](../tabstopcollection/) коллекция.
+Представляет одну настраиваемую позицию табуляции.`TabStop`объект является членом the [`TabStopCollection`](../tabstopcollection/) коллекция.
+
+Чтобы узнать больше, посетите[Объектная модель документа Aspose.Words (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) статья документации.
 
 ```csharp
 public sealed class TabStop
@@ -26,7 +28,7 @@ public sealed class TabStop
 | Имя | Описание |
 | --- | --- |
 | [Alignment](../../aspose.words/tabstop/alignment/) { get; set; } | Получает или задает выравнивание текста на этой позиции табуляции. |
-| [IsClear](../../aspose.words/tabstop/isclear/) { get; } | Возвращает true, если эта табуляция очищает все существующие позиции табуляции в этой позиции. |
+| [IsClear](../../aspose.words/tabstop/isclear/) { get; } | Возвращает`истинный` если эта позиция табуляции очищает все существующие позиции табуляции в этой позиции. |
 | [Leader](../../aspose.words/tabstop/leader/) { get; set; } | Получает или задает тип линии выноски, отображаемой под символом табуляции. |
 | [Position](../../aspose.words/tabstop/position/) { get; } | Получает позицию табуляции в пунктах. |
 
@@ -34,31 +36,31 @@ public sealed class TabStop
 
 | Имя | Описание |
 | --- | --- |
-| [Equals](../../aspose.words/tabstop/equals/#equals)(TabStop) | Сравнивает с указанным TabStop. |
+| [Equals](../../aspose.words/tabstop/equals/#equals)(TabStop) | Сравнивает с указанным`TabStop` . |
 | override [GetHashCode](../../aspose.words/tabstop/gethashcode/)() | Вычисляет хеш-код для этого объекта. |
 
 ### Примечания
 
-Обычно табуляция определяет позицию, в которой существует табуляция. Но поскольку позиции табуляции могут быть унаследованы от родительских стилей, для дочернего объекта object может потребоваться явное определение отсутствия позиции табуляции в заданной позиции. Чтобы очистить унаследованную позицию табуляции в заданной позиции, создайте **TabStop** объект и set [`Alignment`](./alignment/) к`TabAlignment.Clear`.
+Обычно позиция табуляции указывает позицию, в которой существует позиция табуляции. Но поскольку позиции табуляции могут быть унаследованы от родительских стилей, дочернему объекту object может потребоваться явно определить, что в данной позиции нет позиции табуляции. Чтобы очистить унаследованную позицию табуляции в заданной позиции, создайте`TabStop` объект и set [`Alignment`](./alignment/) кClear.
 
 Для получения дополнительной информации см.[`TabStopCollection`](../tabstopcollection/).
 
 ### Примеры
 
-Показывает, как изменить положение правой позиции табуляции в абзацах, связанных с оглавлением.
+Показывает, как изменить положение правой позиции табуляции в абзацах, связанных с содержанием.
 
 ```csharp
 Document doc = new Document(MyDir + "Table of contents.docx");
 
-// Итерация по всем абзацам со стилями оглавления на основе результатов; это любой стиль между TOC и TOC9.
+// Перебираем все абзацы со стилями на основе результатов оглавления; это любой стиль между TOC и TOC9.
 foreach (Paragraph para in doc.GetChildNodes(NodeType.Paragraph, true).OfType<Paragraph>())
     if (para.ParagraphFormat.Style.StyleIdentifier >= StyleIdentifier.Toc1 &&
         para.ParagraphFormat.Style.StyleIdentifier <= StyleIdentifier.Toc9)
     {
-        // Получите первую вкладку, используемую в этом абзаце, это должна быть вкладка, используемая для выравнивания номеров страниц.
+        // Получаем первую вкладку, используемую в этом абзаце. Это должна быть вкладка, используемая для выравнивания номеров страниц.
         TabStop tab = para.ParagraphFormat.TabStops[0];
 
-        // Замените первую вкладку по умолчанию, остановку пользовательской остановкой табуляции.
+        // Заменяем первую табуляцию по умолчанию, остановку на пользовательскую позицию табуляции.
         para.ParagraphFormat.TabStops.RemoveByPosition(tab.Position);
         para.ParagraphFormat.TabStops.Add(tab.Position - 50, tab.Alignment, tab.Leader);
     }

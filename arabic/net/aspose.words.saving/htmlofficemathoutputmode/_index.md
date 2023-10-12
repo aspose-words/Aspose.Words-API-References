@@ -1,14 +1,14 @@
 ---
 title: Enum HtmlOfficeMathOutputMode
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Saving.HtmlOfficeMathOutputMode تعداد. يحدد كيفية قيام Aspose.Words بتصدير OfficeMath إلى HTML و MHTML و EPUB.
+description: Aspose.Words.Saving.HtmlOfficeMathOutputMode تعداد. يحدد كيفية قيام Aspose.Words بتصدير OfficeMath إلى HTML وMHTML وEPUB.
 type: docs
-weight: 4840
+weight: 5100
 url: /ar/net/aspose.words.saving/htmlofficemathoutputmode/
 ---
 ## HtmlOfficeMathOutputMode enumeration
 
-يحدد كيفية قيام Aspose.Words بتصدير OfficeMath إلى HTML و MHTML و EPUB.
+يحدد كيفية قيام Aspose.Words بتصدير OfficeMath إلى HTML وMHTML وEPUB.
 
 ```csharp
 public enum HtmlOfficeMathOutputMode
@@ -18,9 +18,9 @@ public enum HtmlOfficeMathOutputMode
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| Image | `0` | يتم تحويل OfficeMath إلى HTML كصورة محددة بواسطة علامة &lt;img&gt; . |
+| Image | `0` | يتم تحويل OfficeMath إلى HTML كصورة محددة بواسطة علامة &lt;img&gt;. |
 | MathML | `1` | يتم تحويل OfficeMath إلى HTML باستخدام MathML. |
-| Text | `2` | يتم تحويل OfficeMath إلى HTML كتسلسل عمليات التشغيل المحددة بواسطة علامات &lt;span&gt; . |
+| Text | `2` | يتم تحويل OfficeMath إلى HTML كتسلسل من عمليات التشغيل المحددة بواسطة علامات &lt;span&gt;. |
 
 ### أمثلة
 
@@ -29,13 +29,13 @@ public enum HtmlOfficeMathOutputMode
 ```csharp
 Document doc = new Document(MyDir + "Office math.docx");
 
-// عندما نحفظ المستند بتنسيق HTML ، يمكننا تمرير كائن SaveOptions
-// لتحديد كيفية معالجة عملية الحفظ لكائنات OfficeMath.
-// تعيين خاصية "OfficeMathOutputMode" على "HtmlOfficeMathOutputMode.Image"
-// سيعرض كل كائن OfficeMath في صورة.
-// تعيين خاصية "OfficeMathOutputMode" على "HtmlOfficeMathOutputMode.MathML"
-// سيحول كل كائن OfficeMath إلى MathML.
-// تعيين خاصية "OfficeMathOutputMode" على "HtmlOfficeMathOutputMode.Text"
+// عندما نحفظ المستند إلى HTML، يمكننا تمرير كائن SaveOptions
+// لتحديد كيفية تعامل عملية الحفظ مع كائنات OfficeMath.
+// ضبط خاصية "OfficeMathOutputMode" على "HtmlOfficeMathOutputMode.Image"
+// سوف يعرض كل كائن OfficeMath في صورة.
+// ضبط خاصية "OfficeMathOutputMode" على "HtmlOfficeMathOutputMode.MathML"
+// سيقوم بتحويل كل كائن OfficeMath إلى MathML.
+// ضبط خاصية "OfficeMathOutputMode" على "HtmlOfficeMathOutputMode.Text"
 // سيمثل كل صيغة OfficeMath باستخدام نص HTML عادي.
 HtmlSaveOptions options = new HtmlSaveOptions { OfficeMathOutputMode = htmlOfficeMathOutputMode };
 
@@ -54,7 +54,7 @@ switch (htmlOfficeMathOutputMode)
     case HtmlOfficeMathOutputMode.MathML:
         Assert.True(Regex.Match(outDocContents,
             "<p style=\"margin-top:0pt; margin-bottom:10pt; text-align:center\">" +
-                "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"> " +
+                "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">" +
                     "<mi>i</mi>" +
                     "<mo>[+]</mo>" +
                     "<mi>b</mi>" +

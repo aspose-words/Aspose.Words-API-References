@@ -1,14 +1,14 @@
 ---
 title: INodeChangingCallback.NodeInserted
 second_title: Aspose.Words لمراجع .NET API
-description: INodeChangingCallback طريقة. يتم الاستدعاء عند إدراج عقدة تنتمي إلى هذا المستند في عقدة أخرى.
+description: INodeChangingCallback طريقة. يتم استدعاؤه عند إدراج عقدة تنتمي إلى هذا المستند في عقدة أخرى.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/inodechangingcallback/nodeinserted/
 ---
 ## INodeChangingCallback.NodeInserted method
 
-يتم الاستدعاء عند إدراج عقدة تنتمي إلى هذا المستند في عقدة أخرى.
+يتم استدعاؤه عند إدراج عقدة تنتمي إلى هذا المستند في عقدة أخرى.
 
 ```csharp
 public void NodeInserted(NodeChangingArgs args)
@@ -16,30 +16,32 @@ public void NodeInserted(NodeChangingArgs args)
 
 ### أمثلة
 
-يوضح كيفية تخصيص تغيير العقدة مع رد الاتصال.
+يوضح كيفية تخصيص تغيير العقدة من خلال رد الاتصال.
 
 ```csharp
+public void FontChangeViaCallback()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // تعيين استدعاء تغيير العقدة إلى التنفيذ المخصص ،
-    // ثم قم بإضافة / إزالة العقد للحصول عليها لإنشاء سجل.
+    // قم بتعيين رد الاتصال المتغير للعقدة على التنفيذ المخصص،
+    // ثم قم بإضافة/إزالة العقد للحصول على سجل.
     HandleNodeChangingFontChanger callback = new HandleNodeChangingFontChanger();
     doc.NodeChangingCallback = callback;
 
     builder.Writeln("Hello world!");
     builder.Writeln("Hello again!");
-    builder.InsertField(" HYPERLINK \"https://www.google.com/ \ "") ;
+    builder.InsertField(" HYPERLINK \"https://www.google.com/\" ");
     builder.InsertShape(ShapeType.Rectangle, 300, 300);
 
     doc.Range.Fields[0].Remove();
 
     Console.WriteLine(callback.GetLog());
+}
 
 /// <summary>
-/// يسجل تاريخ ووقت كل إدخال وإزالة عقدة.
-/// يعين اسم / حجم خط مخصص لمحتويات نص عقد التشغيل.
+/// يسجل تاريخ ووقت كل إدخال وإزالة للعقدة.
+/// يعين اسم/حجم خط مخصص لمحتويات النص في عقد التشغيل.
 /// </summary>
 public class HandleNodeChangingFontChanger : INodeChangingCallback
 {

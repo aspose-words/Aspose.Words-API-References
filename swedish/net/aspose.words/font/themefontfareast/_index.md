@@ -1,14 +1,14 @@
 ---
 title: Font.ThemeFontFarEast
 second_title: Aspose.Words för .NET API Referens
-description: Font fast egendom. Hämtar eller ställer in det östasiatiska temafonten i det tillämpade teckensnittsschemat som är associerat med detta Fontobjekt.
+description: Font fast egendom. Hämtar eller ställer in det östasiatiska temafonten i det tillämpade teckensnittsschemat som är associerat med dettaFont objekt.
 type: docs
 weight: 500
 url: /sv/net/aspose.words/font/themefontfareast/
 ---
 ## Font.ThemeFontFarEast property
 
-Hämtar eller ställer in det östasiatiska temafonten i det tillämpade teckensnittsschemat som är associerat med detta Font-objekt.
+Hämtar eller ställer in det östasiatiska temafonten i det tillämpade teckensnittsschemat som är associerat med detta[`Font`](../) objekt.
 
 ```csharp
 public ThemeFont ThemeFontFarEast { get; set; }

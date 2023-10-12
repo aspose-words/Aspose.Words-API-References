@@ -1,14 +1,14 @@
 ---
 title: HtmlFixedSaveOptions.UseTargetMachineFonts
 second_title: Aspose.Words für .NET-API-Referenz
-description: HtmlFixedSaveOptions eigendom. Flag gibt an ob Schriftarten vom Zielcomputer verwendet werden müssen um das Dokument anzuzeigen. Wenn dieses Flag auf true gesetzt istFontFormat undExportEmbeddedFontsEigenschaften haben keine Wirkung auchResourceSavingCallback wird nicht für Schriftarten ausgelöst. Standard ist falsch.
+description: HtmlFixedSaveOptions eigendom. Flag gibt an ob Schriftarten vom Zielcomputer zum Anzeigen des Dokuments verwendet werden müssen. Wenn dieses Flag auf gesetzt istWAHR FontFormat UndExportEmbeddedFonts Eigenschaften haben auch keine Auswirkung ResourceSavingCallback wird für Schriftarten nicht ausgelöst. Standard istFALSCH .
 type: docs
 weight: 190
 url: /de/net/aspose.words.saving/htmlfixedsaveoptions/usetargetmachinefonts/
 ---
 ## HtmlFixedSaveOptions.UseTargetMachineFonts property
 
-Flag gibt an, ob Schriftarten vom Zielcomputer verwendet werden müssen, um das Dokument anzuzeigen. Wenn dieses Flag auf true gesetzt ist,[`FontFormat`](../fontformat/) und[`ExportEmbeddedFonts`](../exportembeddedfonts/)Eigenschaften haben keine Wirkung, auch[`ResourceSavingCallback`](../resourcesavingcallback/) wird nicht für Schriftarten ausgelöst. Standard ist falsch.
+Flag gibt an, ob Schriftarten vom Zielcomputer zum Anzeigen des Dokuments verwendet werden müssen. Wenn dieses Flag auf gesetzt ist`WAHR` ,[`FontFormat`](../fontformat/) Und[`ExportEmbeddedFonts`](../exportembeddedfonts/) Eigenschaften haben auch keine Auswirkung, [`ResourceSavingCallback`](../resourcesavingcallback/) wird für Schriftarten nicht ausgelöst. Standard ist`FALSCH` .
 
 ```csharp
 public bool UseTargetMachineFonts { get; set; }
@@ -16,7 +16,7 @@ public bool UseTargetMachineFonts { get; set; }
 
 ### Beispiele
 
-Zeigt, wie Schriftarten nur vom Zielcomputer verwendet werden, wenn ein Dokument in HTML gespeichert wird.
+Zeigt, wie beim Speichern eines Dokuments im HTML-Format Schriftarten nur vom Zielcomputer verwendet werden.
 
 ```csharp
 Document doc = new Document(MyDir + "Bullet points with alternative font.docx");

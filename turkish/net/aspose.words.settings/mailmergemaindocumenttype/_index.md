@@ -1,14 +1,14 @@
 ---
 title: Enum MailMergeMainDocumentType
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Settings.MailMergeMainDocumentType Sıralama. Adres mektup birleştirme kaynak belgesi için olası türleri belirtir.
+description: Aspose.Words.Settings.MailMergeMainDocumentType Sıralama. Adresmektup birleştirme kaynak belgesinin olası türlerini belirtir.
 type: docs
-weight: 5540
+weight: 5840
 url: /tr/net/aspose.words.settings/mailmergemaindocumenttype/
 ---
 ## MailMergeMainDocumentType enumeration
 
-Adres mektup birleştirme kaynak belgesi için olası türleri belirtir.
+Adres-mektup birleştirme kaynak belgesinin olası türlerini belirtir.
 
 ```csharp
 public enum MailMergeMainDocumentType
@@ -18,18 +18,18 @@ public enum MailMergeMainDocumentType
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| NotAMergeDocument | `0` | Bu belge bir adres mektup birleştirme belgesi değil. |
-| FormLetters | `1` | Adres mektup birleştirme kaynak belgesinin mektup türünde olduğunu belirtir. |
-| MailingLabels | `2` | Adres mektup birleştirme kaynak belgesinin posta etiketi türünde olduğunu belirtir. |
-| Envelopes | `4` | Adres mektup birleştirme kaynak belgesinin zarf türünde olduğunu belirtir. |
-| Catalog | `8` | Adres mektup birleştirme kaynak belgesinin katalog türünde olduğunu belirtir. |
-| Email | `16` | Adres mektup birleştirme kaynak belgesinin e-posta iletisi türünde olduğunu belirtir. |
-| Fax | `32` | Adres mektup birleştirme kaynak belgesinin faks türünde olduğunu belirtir. |
+| NotAMergeDocument | `0` | Bu belge bir adres-mektup birleştirme belgesi değildir. |
+| FormLetters | `1` | Adres-mektup birleştirme kaynak belgesinin form mektubu türünde olduğunu belirtir. |
+| MailingLabels | `2` | Adres-mektup birleştirme kaynak belgesinin posta etiketi türünde olduğunu belirtir. |
+| Envelopes | `4` | Adres-mektup birleştirme kaynak belgesinin zarf türünde olduğunu belirtir. |
+| Catalog | `8` | Adres-mektup birleştirme kaynak belgesinin katalog türünde olduğunu belirtir. |
+| Email | `16` | Adres-mektup birleştirme kaynak belgesinin e-posta iletisi türünde olduğunu belirtir. |
+| Fax | `32` | Adres-mektup birleştirme kaynak belgesinin faks türünde olduğunu belirtir. |
 | Default | `0` | Şuna eşittir:NotAMergeDocument |
 
 ### Örnekler
 
-Office Veri Kaynağı Nesnesindeki verilerle adres mektup birleştirmenin nasıl yürütüleceğini gösterir.
+Bir Office Veri Kaynağı Nesnesinden alınan verilerle adres-mektup birleştirmenin nasıl yürütüleceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -42,9 +42,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// "|" ile ASCII dosyası biçiminde bir veri kaynağı oluşturun karakter
-// sütunları ayıran sınırlayıcı görevi görür. İlk satır, üç sütunun adını içerir,
-// ve sonraki her satır, kendi değerlerine sahip bir satırdır.
+// ASCII dosyası biçiminde "|" işaretli bir veri kaynağı oluşturun karakter
+// sütunları ayıran sınırlayıcı görevi görüyor. İlk satır üç sütunun adını içerir,
+// ve sonraki her satır, ilgili değerlerin bulunduğu bir satırdır.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";
@@ -72,7 +72,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
-// Bu belgeyi Microsoft Word'de açmak, içeriği görüntülemeden önce adres mektup birleştirmeyi yürütecektir. 
+ // Bu belgeyi Microsoft Word'de açmak, içerikleri görüntülemeden önce adres-mektup birleştirme işlemini gerçekleştirecektir.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

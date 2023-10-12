@@ -1,14 +1,14 @@
 ---
 title: NodeCollection.RemoveAt
 second_title: Справочник по API Aspose.Words для .NET
-description: NodeCollection метод. Удаляет узел с указанным индексом из коллекции и из документа.
+description: NodeCollection метод. Удаляет узел по указанному индексу из коллекции и из документа.
 type: docs
 weight: 100
 url: /ru/net/aspose.words/nodecollection/removeat/
 ---
 ## NodeCollection.RemoveAt method
 
-Удаляет узел с указанным индексом из коллекции и из документа.
+Удаляет узел по указанному индексу из коллекции и из документа.
 
 ```csharp
 public void RemoveAt(int index)
@@ -16,7 +16,7 @@ public void RemoveAt(int index)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Отсчитываемый от нуля индекс узла. Отрицательные индексы разрешены и указывают на доступ из конца списка. Например, -1 означает последний узел, -2 означает предпоследний и так далее. |
+| index | Int32 | Индекс узла начинается с нуля. Отрицательные индексы разрешены и указывают на доступ с конца списка. Например, -1 означает последний узел, -2 означает предпоследний узел и так далее. |
 
 ### Примеры
 
@@ -37,7 +37,7 @@ doc.Sections.RemoveAt(0);
 
 Assert.AreEqual("Section 2", doc.GetText().Trim());
 
-// Добавляем копию того, что сейчас является первым разделом, в конец документа.
+// Добавляем копию того, что теперь является первым разделом, в конец документа.
 int lastSectionIdx = doc.Sections.Count - 1;
 Section newSection = doc.Sections[lastSectionIdx].Clone();
 doc.Sections.Add(newSection);

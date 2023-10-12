@@ -1,14 +1,14 @@
 ---
 title: DocumentProperty.ToBool
 second_title: Aspose.Words لمراجع .NET API
-description: DocumentProperty طريقة. إرجاع قيمة الخاصية على هيئة منطقية.
+description: DocumentProperty طريقة. إرجاع قيمة الخاصية كقيمة منطقية.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.properties/documentproperty/tobool/
 ---
 ## DocumentProperty.ToBool method
 
-إرجاع قيمة الخاصية على هيئة منطقية.
+إرجاع قيمة الخاصية كقيمة منطقية.
 
 ```csharp
 public bool ToBool()
@@ -16,11 +16,11 @@ public bool ToBool()
 
 ### ملاحظات
 
-يطرح استثناء إذا لم يكن نوع الخاصيةBoolean.
+يطرح استثناءً إذا لم يكن نوع الخاصية كذلكBoolean.
 
 ### أمثلة
 
-يعرض طرق تحويل الأنواع المختلفة لخصائص المستند المخصصة.
+يعرض طرق تحويل النوع المختلفة لخصائص المستند المخصصة.
 
 ```csharp
 Document doc = new Document();

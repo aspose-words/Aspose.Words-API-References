@@ -1,14 +1,14 @@
 ---
 title: Enum TextureIndex
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.TextureIndex Sıralama. Gölgelendirme dokusunu belirtir.
+description: Aspose.Words.TextureIndex Sıralama. Gölgeleme dokusunu belirtir.
 type: docs
-weight: 6150
+weight: 6450
 url: /tr/net/aspose.words/textureindex/
 ---
 ## TextureIndex enumeration
 
-Gölgelendirme dokusunu belirtir.
+Gölgeleme dokusunu belirtir.
 
 ```csharp
 public enum TextureIndex
@@ -71,11 +71,11 @@ public enum TextureIndex
 | TextureNone | `0` |  |
 | TextureSolid | `1` |  |
 | TextureVertical | `21` |  |
-| TextureNil | `65535` | Geçerli gölgeli bölgesinde hiçbir desen kullanılmayacağını belirtir (yani desen, arka plan rengiyle tam bir dolgu olacaktır). |
+| TextureNil | `65535` | Mevcut gölgeli bölge üzerinde herhangi bir desen kullanılmayacağını belirtir (yani desen, arka plan rengiyle tam bir dolgu olacaktır). |
 
 ### Örnekler
 
-Metnin kenarlıklar ve gölgeleme ile nasıl süsleneceğini gösterir.
+Metnin kenarlıklar ve gölgelendirmeyle nasıl süsleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -106,7 +106,7 @@ Table table = doc.FirstSection.Body.Tables[0];
 // Tabloyu sayfanın ortasına hizalayın.
 table.Alignment = TableAlignment.Center;
 
-// Tablodaki mevcut kenarlıkları ve gölgelemeleri temizleyin.
+// Tablodaki mevcut sınırları ve gölgeleri temizleyin.
 table.ClearBorders();
 table.ClearShading();
 

@@ -1,14 +1,14 @@
 ---
 title: ChartDataLabelCollection.ShowPercentage
 second_title: Aspose.Words per .NET API Reference
-description: ChartDataLabelCollection proprietà. Consente di specificare se il valore percentuale deve essere visualizzato per le etichette dati dellintera serie. Il valore di default è falso . Si applica solo ai grafici a torta.
+description: ChartDataLabelCollection proprietà. Permette di specificare se visualizzare il valore percentuale per le etichette dati dellintera serie. Il valore predefinito èfalso . Si applica solo ai grafici a torta.
 type: docs
-weight: 100
+weight: 120
 url: /it/net/aspose.words.drawing.charts/chartdatalabelcollection/showpercentage/
 ---
 ## ChartDataLabelCollection.ShowPercentage property
 
-Consente di specificare se il valore percentuale deve essere visualizzato per le etichette dati dell'intera serie. Il valore di default è **falso** . Si applica solo ai grafici a torta.
+Permette di specificare se visualizzare il valore percentuale per le etichette dati dell'intera serie. Il valore predefinito è`falso` . Si applica solo ai grafici a torta.
 
 ```csharp
 public bool ShowPercentage { get; set; }
@@ -28,15 +28,15 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Chart chart = builder.InsertChart(ChartType.Pie, 500, 300).Chart;
 
-// Cancella la serie di dati demo del grafico per iniziare con un grafico pulito.
+// Cancella le serie di dati dimostrativi del grafico per iniziare con un grafico pulito.
 chart.Series.Clear();
 
-// Inserisce una serie di grafici personalizzata con un nome di categoria per ciascuno dei settori e la relativa tabella di frequenza.
+// Inserisci una serie di grafici personalizzati con un nome di categoria per ciascuno dei settori e la relativa tabella di frequenza.
 ChartSeries series = chart.Series.Add("Aspose Test Series",
     new[] { "Word", "PDF", "Excel" },
     new[] { 2.7, 3.2, 0.8 });
 
-// Abilita le etichette dei dati che visualizzeranno sia la percentuale che la frequenza di ciascun settore e ne modificheranno l'aspetto.
+// Abilita le etichette dati che visualizzeranno sia la percentuale che la frequenza di ciascun settore e ne modificheranno l'aspetto.
 series.HasDataLabels = true;
 ChartDataLabelCollection dataLabels = series.DataLabels;
 dataLabels.ShowLeaderLines = true;

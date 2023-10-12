@@ -20,7 +20,7 @@ public int FirstColumn { get; }
 
 ### Примеры
 
-Показывает, как получить информацию о закладках столбца таблицы.
+Показывает, как получить информацию о закладках столбцов таблицы.
 
 ```csharp
 Document doc = new Document(MyDir + "Table column bookmarks.doc");
@@ -34,7 +34,7 @@ foreach (Bookmark bookmark in doc.Range.Bookmarks)
         if (bookmark.BookmarkStart.GetAncestor(NodeType.Row) is Row row &&
             bookmark.FirstColumn < row.Cells.Count)
         {
-            // Печатаем содержимое первой и последней колонок, заключенных в закладку.
+            // Распечатываем содержимое первого и последнего столбцов, заключенных в закладку.
             Console.WriteLine(row.Cells[bookmark.FirstColumn].GetText().TrimEnd(ControlChar.CellChar));
             Console.WriteLine(row.Cells[bookmark.LastColumn].GetText().TrimEnd(ControlChar.CellChar));
         }

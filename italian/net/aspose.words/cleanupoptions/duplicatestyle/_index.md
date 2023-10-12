@@ -1,14 +1,14 @@
 ---
 title: CleanupOptions.DuplicateStyle
 second_title: Aspose.Words per .NET API Reference
-description: CleanupOptions proprietà. Ottiene/imposta un flag che indica se gli stili duplicati devono essere rimossi dal documento. Il valore predefinito è falso .
+description: CleanupOptions proprietà. Ottiene/imposta un flag che indica se gli stili duplicati devono essere rimossi dal documento. Il valore predefinito èfalso .
 type: docs
 weight: 20
 url: /it/net/aspose.words/cleanupoptions/duplicatestyle/
 ---
 ## CleanupOptions.DuplicateStyle property
 
-Ottiene/imposta un flag che indica se gli stili duplicati devono essere rimossi dal documento. Il valore predefinito è **falso** .
+Ottiene/imposta un flag che indica se gli stili duplicati devono essere rimossi dal documento. Il valore predefinito è`falso` .
 
 ```csharp
 public bool DuplicateStyle { get; set; }
@@ -21,7 +21,7 @@ Mostra come rimuovere gli stili duplicati dal documento.
 ```csharp
 Document doc = new Document();
 
-// Aggiungi due stili al documento con proprietà identiche,
+// Aggiunge due stili al documento con proprietà identiche,
 // ma nomi diversi. Il secondo stile è considerato un duplicato del primo.
 Style myStyle = doc.Styles.Add(StyleType.Paragraph, "MyStyle1");
 myStyle.Font.Size = 14;
@@ -49,7 +49,7 @@ Assert.AreEqual(myStyle, paragraphs[0].ParagraphFormat.Style);
 Assert.AreEqual(duplicateStyle, paragraphs[1].ParagraphFormat.Style);
 
 // Configura un oggetto CleanOptions, quindi chiama il metodo Cleanup per sostituire tutti gli stili duplicati
-// con l'originale e rimuovi i duplicati dal documento.
+// con l'originale e rimuove i duplicati dal documento.
 CleanupOptions cleanupOptions = new CleanupOptions { DuplicateStyle = true };
 
 doc.Cleanup(cleanupOptions);

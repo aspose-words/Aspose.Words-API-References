@@ -16,13 +16,13 @@ public void SetImage(Image image)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| image | Image | Изображение, которое отображается как водяной знак. |
+| image | Image | Изображение, отображаемое в виде водяного знака. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | Выдает, когда изображение пустое. |
+| ArgumentNullException | Выдает, когда изображение`нулевой` . |
 
 ### Смотрите также
 
@@ -42,18 +42,18 @@ public void SetImage(Image image, ImageWatermarkOptions options)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| image | Image | Изображение, которое отображается как водяной знак. |
-| options | ImageWatermarkOptions | Определяет дополнительные параметры водяного знака изображения. |
+| image | Image | Изображение, отображаемое в виде водяного знака. |
+| options | ImageWatermarkOptions | Определяет дополнительные параметры для водяного знака изображения. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | Выдает, когда изображение пустое. |
+| ArgumentNullException | Выдает, когда изображение`нулевой` . |
 
 ### Примечания
 
-Если[`ImageWatermarkOptions`](../../imagewatermarkoptions/) имеет значение null, водяной знак будет установлен с параметрами по умолчанию.
+Если[`ImageWatermarkOptions`](../../imagewatermarkoptions/) является`нулевой`, для водяного знака будут установлены параметры по умолчанию.
 
 ### Примеры
 
@@ -62,8 +62,8 @@ public void SetImage(Image image, ImageWatermarkOptions options)
 ```csharp
 Document doc = new Document();
 
-            // Изменяем внешний вид водяного знака изображения с помощью объекта ImageWatermarkOptions,
-            // затем передать его при создании водяного знака из файла изображения.
+            // Измените внешний вид водяного знака изображения с помощью объекта ImageWatermarkOptions,
+            // затем передаем его при создании водяного знака из файла изображения.
             ImageWatermarkOptions imageWatermarkOptions = new ImageWatermarkOptions();
             imageWatermarkOptions.Scale = 5;
             imageWatermarkOptions.IsWashout = false;
@@ -99,18 +99,18 @@ public void SetImage(string imagePath, ImageWatermarkOptions options)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| imagePath | String | Путь к файлу изображения, которое отображается в виде водяного знака. |
-| options | ImageWatermarkOptions | Определяет дополнительные параметры водяного знака изображения. |
+| imagePath | String | Путь к файлу изображения, который отображается в виде водяного знака. |
+| options | ImageWatermarkOptions | Определяет дополнительные параметры для водяного знака изображения. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | Выдает, когда путь нулевой. |
+| ArgumentNullException | Выдает, когда путь`нулевой` . |
 
 ### Примечания
 
-Если[`ImageWatermarkOptions`](../../imagewatermarkoptions/) имеет значение null, водяной знак будет установлен с параметрами по умолчанию.
+Если[`ImageWatermarkOptions`](../../imagewatermarkoptions/) является`нулевой`, для водяного знака будут установлены параметры по умолчанию.
 
 ### Смотрите также
 

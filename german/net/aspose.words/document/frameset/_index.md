@@ -1,14 +1,14 @@
 ---
 title: Document.Frameset
 second_title: Aspose.Words für .NET-API-Referenz
-description: Document eigendom. Gibt a zurückFramesetInstanz wenn dieses Dokument eine FramesSeite darstellt.
+description: Document eigendom. Gibt a zurückFramesetBeispiel wenn dieses Dokument eine FramesSeite darstellt.
 type: docs
 weight: 160
 url: /de/net/aspose.words/document/frameset/
 ---
 ## Document.Frameset property
 
-Gibt a zurück`Frameset`Instanz, wenn dieses Dokument eine Frames-Seite darstellt.
+Gibt a zurück`Frameset`Beispiel, wenn dieses Dokument eine Frames-Seite darstellt.
 
 ```csharp
 public Frameset Frameset { get; }
@@ -16,17 +16,17 @@ public Frameset Frameset { get; }
 
 ### Bemerkungen
 
-Wenn das Dokument nicht gerahmt ist, hat die Eigenschaft die **Null** wert.
+Wenn das Dokument nicht gerahmt ist, hat die Eigenschaft das`Null` value.
 
 ### Beispiele
 
-Zeigt, wie auf Frames auf der Seite zugegriffen wird.
+Zeigt, wie man auf Frames auf der Seite zugreift.
 
 ```csharp
 // Dokument enthält mehrere Frames mit Links zu anderen Dokumenten.
 Document doc = new Document(MyDir + "Frameset.docx");
 
-// Wir können die Standard-URL (eine Webseiten-URL oder ein lokales Dokument) prüfen oder ob der Frame eine externe Ressource ist.
+// Wir können die Standard-URL (eine Webseiten-URL oder ein lokales Dokument) überprüfen oder ob der Frame eine externe Ressource ist.
 Assert.AreEqual("https://file-examples-com.github.io/uploads/2017/02/file-sample_100kB.docx",
     doc.Frameset.ChildFramesets[0].ChildFramesets[0].FrameDefaultUrl);
 Assert.True(doc.Frameset.ChildFramesets[0].ChildFramesets[0].IsFrameLinkToFile);

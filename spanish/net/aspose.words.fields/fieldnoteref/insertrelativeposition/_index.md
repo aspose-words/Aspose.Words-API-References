@@ -1,14 +1,14 @@
 ---
 title: FieldNoteRef.InsertRelativePosition
 second_title: Referencia de API de Aspose.Words para .NET
-description: FieldNoteRef propiedad. Obtiene o establece si se inserta una posición relativa del párrafo marcado.
+description: FieldNoteRef propiedad. Obtiene o establece si se debe insertar una posición relativa del párrafo marcado.
 type: docs
 weight: 50
 url: /es/net/aspose.words.fields/fieldnoteref/insertrelativeposition/
 ---
 ## FieldNoteRef.InsertRelativePosition property
 
-Obtiene o establece si se inserta una posición relativa del párrafo marcado.
+Obtiene o establece si se debe insertar una posición relativa del párrafo marcado.
 
 ```csharp
 public bool InsertRelativePosition { get; set; }
@@ -16,7 +16,7 @@ public bool InsertRelativePosition { get; set; }
 
 ### Ejemplos
 
-Muestra para insertar campos NOTEREF y modificar su apariencia.
+Muestra para insertar campos NOTAREF y modificar su apariencia.
 
 ```csharp
 public void FieldNoteRef()
@@ -24,32 +24,34 @@ public void FieldNoteRef()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Cree un marcador con una nota al pie de página a la que hará referencia el campo NOTEREF.
+    // Cree un marcador con una nota a pie de página a la que hará referencia el campo NOTAREF.
     InsertBookmarkWithFootnote(builder, "MyBookmark1", "Contents of MyBookmark1", "Footnote from MyBookmark1");
 
-    // Este campo NOTEREF mostrará el número de la nota al pie dentro del marcador al que se hace referencia.
-    // Establecer la propiedad InsertHyperlink nos permite saltar al marcador presionando Ctrl + haciendo clic en el campo en Microsoft Word.
+    // Este campo NOTAREF mostrará el número de la nota al pie dentro del marcador al que se hace referencia.
+    // Configurar la propiedad InsertHyperlink nos permite saltar al marcador presionando Ctrl + clic en el campo en Microsoft Word.
     Assert.AreEqual(" NOTEREF  MyBookmark2 \\h",
         InsertFieldNoteRef(builder, "MyBookmark2", true, false, false, "Hyperlink to Bookmark2, with footnote number ").GetFieldCode());
 
-    // Al usar el indicador \p, después del número de nota al pie, el campo también muestra la posición del marcador en relación con el campo.
+    // Cuando se utiliza la marca \p, después del número de la nota al pie, el campo también muestra la posición del marcador en relación con el campo.
     // Bookmark1 está encima de este campo y contiene la nota al pie número 1, por lo que el resultado será "1 arriba" en la actualización.
     Assert.AreEqual(" NOTEREF  MyBookmark1 \\h \\p",
         InsertFieldNoteRef(builder, "MyBookmark1", true, true, false, "Bookmark1, with footnote number ").GetFieldCode());
 
     // Bookmark2 está debajo de este campo y contiene la nota al pie número 2, por lo que el campo mostrará "2 debajo".
-    // La bandera \f hace que el número 2 aparezca en el mismo formato que la etiqueta del número de la nota al pie en el texto real.
+    // La bandera \f hace que el número 2 aparezca en el mismo formato que la etiqueta del número de nota al pie en el texto real.
     Assert.AreEqual(" NOTEREF  MyBookmark2 \\h \\p \\f",
         InsertFieldNoteRef(builder, "MyBookmark2", true, true, true, "Bookmark2, with footnote number ").GetFieldCode());
 
     builder.InsertBreak(BreakType.PageBreak);
     InsertBookmarkWithFootnote(builder, "MyBookmark2", "Contents of MyBookmark2", "Footnote from MyBookmark2");
 
+    doc.UpdatePageLayout();
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.NOTEREF.docx");
+}
 
 /// <summary>
-/// Utiliza un generador de documentos para insertar un campo NOTEREF con propiedades específicas.
+/// Utiliza un generador de documentos para insertar un campo NOTAREF con propiedades específicas.
 /// </summary>
 private static FieldNoteRef InsertFieldNoteRef(DocumentBuilder builder, string bookmarkName, bool insertHyperlink, bool insertRelativePosition, bool insertReferenceMark, string textBefore)
 {
@@ -66,7 +68,7 @@ private static FieldNoteRef InsertFieldNoteRef(DocumentBuilder builder, string b
 }
 
 /// <summary>
-/// Utiliza un generador de documentos para insertar un marcador con nombre con una nota al pie al final.
+/// Utiliza un generador de documentos para insertar un marcador con nombre y una nota al pie al final.
 /// </summary>
 private static void InsertBookmarkWithFootnote(DocumentBuilder builder, string bookmarkName, string bookmarkText, string footnoteText)
 {

@@ -16,16 +16,16 @@ public void AddPrinterFont(string fontFullName, string fontPclName)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| fontFullName | String | Nome completo del carattere (es. "Times New Roman Bold Italic"). |
+| fontFullName | String | Nome completo del carattere (ad esempio "Times New Roman Bold Italic"). |
 | fontPclName | String | Nome del carattere utilizzato nel documento Pcl. |
 
 ### Osservazioni
 
-Ci sono 52 font che devono essere costruiti in qualsiasi stampante secondo la specifica Pcl. Tuttavia i produttori possono aggiungere altri font ai loro dispositivi.
+Ci sono 52 caratteri che devono essere integrati in qualsiasi stampante secondo le specifiche Pcl. Tuttavia i produttori possono aggiungere altri caratteri ai propri dispositivi.
 
 ### Esempi
 
-Mostra come fare in modo che una stampante sostituisca tutte le istanze di un font specifico con un font diverso.
+Mostra come fare in modo che una stampante sostituisca tutte le istanze di un carattere specifico con un carattere diverso.
 
 ```csharp
 Document doc = new Document();
@@ -37,8 +37,8 @@ builder.Write("Hello world!");
 PclSaveOptions saveOptions = new PclSaveOptions();
 saveOptions.AddPrinterFont("Courier New", "Courier");
 
-// Durante la stampa di questo documento, la stampante utilizzerà il carattere "Courier New".
-// per accedere ai luoghi in cui il nostro documento utilizzava il carattere "Corriere".
+// Quando si stampa questo documento, la stampante utilizzerà il carattere "Courier New".
+// per accedere ai luoghi in cui il nostro documento utilizzava il carattere "Courier".
 doc.Save(ArtifactsDir + "PclSaveOptions.AddPrinterFont.pcl", saveOptions);
 ```
 

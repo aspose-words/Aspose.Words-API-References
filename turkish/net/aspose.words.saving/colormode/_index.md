@@ -3,7 +3,7 @@ title: Enum ColorMode
 second_title: Aspose.Words for .NET API Referansı
 description: Aspose.Words.Saving.ColorMode Sıralama. Renklerin nasıl oluşturulacağını belirtir.
 type: docs
-weight: 4600
+weight: 4860
 url: /tr/net/aspose.words.saving/colormode/
 ---
 ## ColorMode enumeration
@@ -18,21 +18,21 @@ public enum ColorMode
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| Normal | `0` | Değiştirilmemiş renklerle işleme. |
-| Grayscale | `1` | Beyazdan siyaha çeşitli gri tonlarında renklerle işleme. |
+| Normal | `0` | Değiştirilmemiş renklerle görüntü oluşturma. |
+| Grayscale | `1` | Beyazdan siyaha kadar çeşitli gri tonlarındaki renklerle görüntü oluşturma. |
 
 ### Örnekler
 
-Seçenekleri kaydetme özelliği ile görüntü renginin nasıl değiştirileceğini gösterir.
+Kaydetme seçenekleri özelliğiyle görüntü renginin nasıl değiştirileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");
 
-// Belgenin "Kaydet" yöntemine aktarabileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
-// bu yöntemin belgeyi .PDF'ye dönüştürme şeklini değiştirmek için.
-// Belgedeki tüm görüntüleri siyah beyaz işlemek için "ColorMode" özelliğini "Gri Tonlamalı" olarak ayarlayın.
-// Çıktı belgesinin boyutu bu ayarla daha büyük olabilir.
-// Tüm görüntüleri renkli hale getirmek için "ColorMode" özelliğini "Normal" olarak ayarlayın.
+// Belgenin "Save" yöntemine aktarabileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
+// bu yöntemin belgeyi .PDF'ye dönüştürme biçimini değiştirmek için.
+// Belgedeki tüm görüntüleri siyah beyaz oluşturmak için "ColorMode" özelliğini "Gri Tonlamalı" olarak ayarlayın.
+// Bu ayarla çıktı belgesinin boyutu daha büyük olabilir.
+// Tüm görüntüleri renkli oluşturmak için "ColorMode" özelliğini "Normal" olarak ayarlayın.
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions { ColorMode = colorMode };
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.ColorRendering.pdf", pdfSaveOptions);

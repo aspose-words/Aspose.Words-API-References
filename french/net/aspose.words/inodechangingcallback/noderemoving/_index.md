@@ -1,14 +1,14 @@
 ---
 title: INodeChangingCallback.NodeRemoving
 second_title: Référence de l'API Aspose.Words pour .NET
-description: INodeChangingCallback méthode. Appelé juste avant quun nœud appartenant à ce document ne soit sur le point dêtre supprimé du document.
+description: INodeChangingCallback méthode. Appelé juste avant quun nœud appartenant à ce document soit sur le point dêtre supprimé du document.
 type: docs
 weight: 40
 url: /fr/net/aspose.words/inodechangingcallback/noderemoving/
 ---
 ## INodeChangingCallback.NodeRemoving method
 
-Appelé juste avant qu'un nœud appartenant à ce document ne soit sur le point d'être supprimé du document.
+Appelé juste avant qu'un nœud appartenant à ce document soit sur le point d'être supprimé du document.
 
 ```csharp
 public void NodeRemoving(NodeChangingArgs args)
@@ -19,11 +19,12 @@ public void NodeRemoving(NodeChangingArgs args)
 Montre comment personnaliser le changement de nœud avec un rappel.
 
 ```csharp
+public void FontChangeViaCallback()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Définissez le rappel de changement de nœud sur une implémentation personnalisée,
+    // Définit le rappel de changement de nœud sur une implémentation personnalisée,
     // puis ajoutez/supprimez des nœuds pour qu'il génère un journal.
     HandleNodeChangingFontChanger callback = new HandleNodeChangingFontChanger();
     doc.NodeChangingCallback = callback;
@@ -36,10 +37,11 @@ Montre comment personnaliser le changement de nœud avec un rappel.
     doc.Range.Fields[0].Remove();
 
     Console.WriteLine(callback.GetLog());
+}
 
 /// <summary>
 /// Enregistre la date et l'heure de chaque insertion et suppression de nœud.
-/// Définit un nom/une taille de police personnalisée pour le contenu textuel des nœuds Run.
+/// Définit un nom/une taille de police personnalisée pour le contenu du texte des nœuds Run.
 /// </summary>
 public class HandleNodeChangingFontChanger : INodeChangingCallback
 {

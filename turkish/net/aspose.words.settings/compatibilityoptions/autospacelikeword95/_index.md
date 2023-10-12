@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.AutoSpaceLikeWord95
 second_title: Aspose.Words for .NET API Referansı
-description: CompatibilityOptions mülk. Word 95 Tam Genişlik Karakter Aralığını Öykün.
+description: CompatibilityOptions mülk. Word 95 Tam Genişlikte Karakter Aralığını Taklit Et.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.settings/compatibilityoptions/autospacelikeword95/
 ---
 ## CompatibilityOptions.AutoSpaceLikeWord95 property
 
-Word 95 Tam Genişlik Karakter Aralığını Öykün.
+Word 95 Tam Genişlikte Karakter Aralığını Taklit Et.
 
 ```csharp
 public bool AutoSpaceLikeWord95 { get; set; }

@@ -30,7 +30,6 @@ class Paragraph : public Aspose::Words::CompositeNode,
 | [AppendField](./appendfield/)(const System::String\&, const System::String\&) | Appends a field to this paragraph. |
 | [Clone](../node/clone/)(bool) | Creates a duplicate of the node. |
 | [get_BreakIsStyleSeparator](./get_breakisstyleseparator/)() | True if this paragraph break is a [Style](../style/) Separator. A style separator allows one paragraph to consist of parts that have different paragraph styles. |
-| [get_ChildNodes](../compositenode/get_childnodes/)() | Gets all immediate child nodes of this node. |
 | [get_Count](../compositenode/get_count/)() | Gets the number of immediate children of this node. |
 | [get_CustomNodeId](../node/get_customnodeid/)() const | Specifies custom node identifier. |
 | virtual [get_Document](../node/get_document/)() const | Gets the document to which this node belongs. |

@@ -16,13 +16,13 @@ public bool IsInCell { get; }
 
 ### Exemples
 
-Montre comment définir une table pour rester ensemble sur la même page.
+Montre comment dresser une table pour rester ensemble sur la même page.
 
 ```csharp
 Document doc = new Document(MyDir + "Table spanning two pages.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
-// Activer KeepWithNext pour chaque paragraphe du tableau sauf pour le
+// Activation de KeepWithNext pour chaque paragraphe du tableau à l'exception du
 // les derniers de la dernière ligne empêcheront le tableau de se diviser sur plusieurs pages.
 foreach (Cell cell in table.GetChildNodes(NodeType.Cell, true).OfType<Cell>())
     foreach (Paragraph para in cell.Paragraphs.OfType<Paragraph>())

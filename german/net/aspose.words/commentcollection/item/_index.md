@@ -1,14 +1,14 @@
 ---
 title: CommentCollection.Item
 second_title: Aspose.Words für .NET-API-Referenz
-description: CommentCollection eigendom. Ruft a Kommentar am angegebenen Index.
+description: CommentCollection eigendom. Ruft a abComment am angegebenen Index.
 type: docs
 weight: 10
 url: /de/net/aspose.words/commentcollection/item/
 ---
 ## CommentCollection indexer
 
-Ruft a **Kommentar** am angegebenen Index.
+Ruft a ab[`Comment`](../../comment/) am angegebenen Index.
 
 ```csharp
 public Comment this[int index] { get; }
@@ -22,11 +22,11 @@ public Comment this[int index] { get; }
 
 Der Index ist nullbasiert.
 
-Negative Indizes sind zulässig und zeigen den Zugriff von der Rückseite der Sammlung an. Zum Beispiel bedeutet -1 das letzte Element, -2 bedeutet das vorletzte und so weiter.
+Negative Indizes sind zulässig und zeigen den Zugriff von der Rückseite der Sammlung an. Beispielsweise bedeutet -1 das letzte Element, -2 das vorletzte und so weiter.
 
-Wenn der Index größer oder gleich der Anzahl der Elemente in der Liste ist, wird eine Nullreferenz zurückgegeben.
+Wenn der Index größer oder gleich der Anzahl der Elemente in der Liste ist, wird ein Nullverweis zurückgegeben.
 
-Wenn der Index negativ ist und sein absoluter Wert größer als die Anzahl der Elemente in der Liste ist, wird eine Nullreferenz zurückgegeben.
+Wenn der Index negativ ist und sein absoluter Wert größer als die Anzahl der Elemente in der Liste ist, wird ein Nullverweis zurückgegeben.
 
 ### Beispiele
 
@@ -45,13 +45,13 @@ comment.AddReply("Joe Bloggs", "J.B.", DateTime.Now, "Another reply");
 
 Assert.AreEqual(2, comment.Replies.Count()); 
 
-// Im Folgenden finden Sie zwei Möglichkeiten zum Entfernen von Antworten aus einem Kommentar.
-// 1 - Verwenden Sie die Methode "RemoveReply", um Antworten aus einem Kommentar einzeln zu entfernen:
+// Nachfolgend finden Sie zwei Möglichkeiten, Antworten aus einem Kommentar zu entfernen.
+// 1 – Verwenden Sie die Methode „RemoveReply“, um Antworten einzeln aus einem Kommentar zu entfernen:
 comment.RemoveReply(comment.Replies[0]);
 
 Assert.AreEqual(1, comment.Replies.Count());
 
-// 2 - Verwenden Sie die Methode "RemoveAllReplies", um alle Antworten eines Kommentars auf einmal zu entfernen:
+// 2 – Verwenden Sie die Methode „RemoveAllReplies“, um alle Antworten aus einem Kommentar auf einmal zu entfernen:
 comment.RemoveAllReplies();
 
 Assert.AreEqual(0, comment.Replies.Count());

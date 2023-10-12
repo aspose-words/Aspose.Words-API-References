@@ -3,12 +3,14 @@ title: Class Range
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Range klass. Representerar ett angränsande område i ett dokument.
 type: docs
-weight: 4270
+weight: 4520
 url: /sv/net/aspose.words/range/
 ---
 ## Range class
 
 Representerar ett angränsande område i ett dokument.
+
+För att lära dig mer, besök[Arbeta med Ranges](https://docs.aspose.com/words/net/working-with-ranges/) dokumentationsartikel.
 
 ```csharp
 public class Range
@@ -21,6 +23,7 @@ public class Range
 | [Bookmarks](../../aspose.words/range/bookmarks/) { get; } | Returnerar en[`Bookmarks`](./bookmarks/) samling som representerar alla bokmärken i intervallet. |
 | [Fields](../../aspose.words/range/fields/) { get; } | Returnerar en[`Fields`](./fields/) samling som representerar alla fält i området. |
 | [FormFields](../../aspose.words/range/formfields/) { get; } | Returnerar en[`FormFields`](./formfields/) samling som representerar alla formulärfält i intervallet. |
+| [Revisions](../../aspose.words/range/revisions/) { get; } | Hämtar en samling revisioner (spårade ändringar) som finns i detta intervall. |
 | [StructuredDocumentTags](../../aspose.words/range/structureddocumenttags/) { get; } | Returnerar en[`StructuredDocumentTags`](./structureddocumenttags/) samling som representerar alla strukturerade dokumenttaggar i intervallet. |
 | [Text](../../aspose.words/range/text/) { get; } | Hämtar intervallets text. |
 
@@ -42,9 +45,9 @@ public class Range
 
 Dokumentet representeras av ett träd med noder och noderna tillhandahåller operations för att arbeta med trädet, men vissa operationer är lättare att utföra om dokument behandlas som en sammanhängande textsekvens.
 
-**Räckvidd** är ett "fasad"-gränssnitt som tillhandahåller metoder som behandlar document eller delar av dokumentet som "platt" text oavsett det faktum att noderna document lagras i en trädliknande objektmodell.
+`Range`är ett "fasad"-gränssnitt som tillhandahåller metoder som behandlar document eller delar av dokumentet som "platt" text oavsett det faktum att noderna document lagras i en trädliknande objektmodell.
 
-**Räckvidd** innehåller ingen text eller noder, det är bara en vy eller "fönster" över ett fragment av ett dokument.
+`Range` innehåller ingen text eller noder, det är bara en vy eller "fönster" över ett fragment av ett dokument.
 
 ### Exempel
 

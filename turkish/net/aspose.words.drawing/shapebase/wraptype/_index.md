@@ -3,7 +3,7 @@ title: ShapeBase.WrapType
 second_title: Aspose.Words for .NET API Referansı
 description: ShapeBase mülk. Şeklin satır içi mi yoksa kayan mı olduğunu tanımlar. Kayan şekiller için şeklin etrafındaki metin için kaydırma modunu tanımlar.
 type: docs
-weight: 540
+weight: 600
 url: /tr/net/aspose.words.drawing/shapebase/wraptype/
 ---
 ## ShapeBase.WrapType property
@@ -16,19 +16,19 @@ public WrapType WrapType { get; set; }
 
 ### Notlar
 
-Varsayılan değerNone.
+Varsayılan değer:None.
 
 Yalnızca üst düzey şekiller için etkilidir.
 
 ### Örnekler
 
-Bir sayfanın ortasına kayan bir görüntünün nasıl ekleneceğini gösterir.
+Sayfanın ortasına kayan bir görüntünün nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Üst üste binen metnin arkasında görünecek kayan bir resim ekleyin ve onu sayfanın ortasına hizalayın.
+// Çakışan metnin arkasında görünecek kayan bir resim ekleyin ve onu sayfanın ortasına hizalayın.
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 shape.WrapType = WrapType.None;
 shape.BehindText = true;

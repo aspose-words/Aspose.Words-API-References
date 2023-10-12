@@ -3,7 +3,7 @@ title: Document.LastSection
 second_title: Aspose.Words for .NET API Referansı
 description: Document mülk. Belgedeki son bölümü alır.
 type: docs
-weight: 220
+weight: 240
 url: /tr/net/aspose.words/document/lastsection/
 ---
 ## Document.LastSection property
@@ -16,29 +16,29 @@ public Section LastSection { get; }
 
 ### Notlar
 
-İade`hükümsüz` bölüm yoksa.
+İadeler`hükümsüz` bölüm yoksa.
 
 ### Örnekler
 
-Belge oluşturucu ile yeni bir bölümün nasıl oluşturulacağını gösterir.
+Belge oluşturucuyla yeni bir bölümün nasıl oluşturulacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 
 // Boş bir belge varsayılan olarak bir bölüm içerir,
-// düzenleyebileceğimiz alt düğümleri içeren.
+// düzenleyebileceğimiz alt düğümleri içerir.
 Assert.AreEqual(1, doc.Sections.Count);
 
 // İlk bölüme metin eklemek için bir belge oluşturucu kullanın.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// Bir bölüm sonu ekleyerek ikinci bir bölüm oluşturun.
+// Bölüm sonu ekleyerek ikinci bir bölüm oluşturun.
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 
 Assert.AreEqual(2, doc.Sections.Count);
 
-// Her bölümün kendi sayfa kurulum ayarları vardır.
+// Her bölümün kendi sayfa yapısı ayarları vardır.
 // İkinci bölümdeki metni iki sütuna bölebiliriz.
 // Bu, ilk bölümdeki metni etkilemeyecektir.
 doc.LastSection.PageSetup.TextColumns.SetCount(2);

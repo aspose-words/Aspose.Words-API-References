@@ -1,14 +1,14 @@
 ---
 title: HtmlFixedSaveOptions.UseTargetMachineFonts
 second_title: Aspose.Words لمراجع .NET API
-description: HtmlFixedSaveOptions ملكية. تشير العلامة إلى ما إذا كان يجب استخدام الخطوط من الجهاز الهدف لعرض المستند. إذا تم تعيين هذه العلامة على صواب FontFormat وExportEmbeddedFontsالخصائص ليس لها تأثير  أيضًاResourceSavingCallback لم يتم إطلاقه من أجل الخطوط.
+description: HtmlFixedSaveOptions ملكية. تشير العلامة إلى ما إذا كان يجب استخدام الخطوط من الجهاز المستهدف لعرض المستند. إذا تم تعيين هذه العلامة علىحقيقي FontFormat وExportEmbeddedFonts الخصائص ليس لها تأثير أيضًاResourceSavingCallback لم يتم تشغيله للخطوط. الافتراضي هوخطأ شنيع .
 type: docs
 weight: 190
 url: /ar/net/aspose.words.saving/htmlfixedsaveoptions/usetargetmachinefonts/
 ---
 ## HtmlFixedSaveOptions.UseTargetMachineFonts property
 
-تشير العلامة إلى ما إذا كان يجب استخدام الخطوط من الجهاز الهدف لعرض المستند. إذا تم تعيين هذه العلامة على "صواب" ،[`FontFormat`](../fontformat/) و[`ExportEmbeddedFonts`](../exportembeddedfonts/)الخصائص ليس لها تأثير ، أيضًا[`ResourceSavingCallback`](../resourcesavingcallback/) لم يتم إطلاقه من أجل الخطوط.
+تشير العلامة إلى ما إذا كان يجب استخدام الخطوط من الجهاز المستهدف لعرض المستند. إذا تم تعيين هذه العلامة على`حقيقي` ,[`FontFormat`](../fontformat/) و[`ExportEmbeddedFonts`](../exportembeddedfonts/) الخصائص ليس لها تأثير، أيضًا[`ResourceSavingCallback`](../resourcesavingcallback/) لم يتم تشغيله للخطوط. الافتراضي هو`خطأ شنيع` .
 
 ```csharp
 public bool UseTargetMachineFonts { get; set; }
@@ -16,7 +16,7 @@ public bool UseTargetMachineFonts { get; set; }
 
 ### أمثلة
 
-يوضح كيفية استخدام الخطوط فقط من الجهاز الهدف عند حفظ مستند إلى HTML.
+يوضح كيفية استخدام الخطوط فقط من الجهاز المستهدف عند حفظ مستند بتنسيق HTML.
 
 ```csharp
 Document doc = new Document(MyDir + "Bullet points with alternative font.docx");

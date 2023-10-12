@@ -3,7 +3,7 @@ title: Enum ShapeType
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.Drawing.ShapeType énumération. Spécifie le type de forme dans un document Microsoft Word.
 type: docs
-weight: 1140
+weight: 1290
 url: /fr/net/aspose.words.drawing/shapetype/
 ---
 ## ShapeType enumeration
@@ -19,11 +19,11 @@ public enum ShapeType
 | Nom | Évaluer | La description |
 | --- | --- | --- |
 | Image | `75` | La forme est une image. |
-| TextBox | `202` | La forme est une zone de texte. Notez que les formes de nombreux autres types peuvent également contenir du texte. Une forme n'a pas besoin d'avoir ce type pour contenir du texte. |
+| TextBox | `202` | La forme est une zone de texte. Notez que les formes de nombreux autres types peuvent également contenir du texte. Il n'est pas nécessaire qu'une forme ait ce type pour contenir du texte. |
 | Group | `-1` | La forme est une forme de groupe. |
 | OleObject | `-2` | La forme est un objet OLE. |
 | OleControl | `201` | La forme est un contrôle ActiveX. |
-| NonPrimitive | `0` | Une forme dessinée par l'utilisateur et composée de plusieurs segments et/ou sommets (courbe, forme libre ou gribouillis). |
+| NonPrimitive | `0` | Une forme dessinée par l'utilisateur et composée de plusieurs segments et/ou sommets (courbe, forme libre ou gribouillage). |
 | Rectangle | `1` |  |
 | RoundRectangle | `2` |  |
 | Ellipse | `3` |  |
@@ -223,13 +223,13 @@ public enum ShapeType
 | ActionButtonDocument | `198` |  |
 | ActionButtonSound | `199` |  |
 | ActionButtonMovie | `200` |  |
-| SingleCornerSnipped | `203` | Couper un objet rectangle à coin unique. |
-| TopCornersSnipped | `204` | Couper le rectangle d'angle du même côté. |
-| DiagonalCornersSnipped | `205` | Coupez le rectangle d'angle en diagonale. |
-| TopCornersOneRoundedOneSnipped | `206` | Couper et arrondir un rectangle à un coin. |
+| SingleCornerSnipped | `203` | Couper un objet rectangle à un seul coin. |
+| TopCornersSnipped | `204` | Coupez le rectangle du même coin latéral. |
+| DiagonalCornersSnipped | `205` | Coupez le rectangle d'un coin en diagonale. |
+| TopCornersOneRoundedOneSnipped | `206` | Coupez et arrondissez un rectangle à un seul coin. |
 | SingleCornerRounded | `207` | Rectangle rond à un seul coin. |
-| TopCornersRounded | `208` | Rectangle rond du même côté. |
-| DiagonalCornersRounded | `209` | Rectangle rond en diagonale. |
+| TopCornersRounded | `208` | Rectangle de coin arrondi du même côté. |
+| DiagonalCornersRounded | `209` | Rectangle d'angle diagonal rond. |
 | Heptagon | `210` | Heptagone. |
 | Cloud | `211` | Nuage. |
 | Seal6 | `212` | Étoile à six branches. |
@@ -241,31 +241,31 @@ public enum ShapeType
 | SquareTabs | `218` | Onglets carrés. |
 | PlaqueTabs | `219` | Onglets de plaque. |
 | Pie | `220` | Tarte. |
-| WedgePie | `221` | Tarte en coin. |
+| WedgePie | `221` | Tarte en quartiers. |
 | InverseLine | `222` | Ligne inverse. |
-| MathPlus | `223` | Mathématiques plus. |
+| MathPlus | `223` | Math plus. |
 | MathMinus | `224` | Math moins. |
 | MathMultiply | `225` | Multiplication mathématique. |
 | MathDivide | `226` | Division mathématique. |
 | MathEqual | `227` | Math égal. |
-| MathNotEqual | `228` | Mathématiques non égales. |
+| MathNotEqual | `228` | Les mathématiques ne sont pas égales. |
 | NonIsoscelesTrapezoid | `229` | Trapèze non isocèle. |
 | LeftRightCircularArrow | `230` | Flèche circulaire gauche-droite. |
 | LeftRightRibbon | `231` | Ruban gauche-droite. |
 | LeftCircularArrow | `232` | Flèche circulaire gauche. |
 | Frame | `233` | Cadre. |
-| HalfFrame | `234` | Demi cadre. |
+| HalfFrame | `234` | Demi-cadre. |
 | Funnel | `235` | Entonnoir. |
 | Gear6 | `236` | Engrenage à six dents. |
 | Gear9 | `237` | Engrenage à neuf dents. |
-| Decagon | `238` | décagone. |
+| Decagon | `238` | Décagone. |
 | Dodecagon | `239` | Dodécagone. |
 | DiagonalStripe | `240` | Bande diagonale. |
 | Corner | `241` | Coin. |
 | CornerTabs | `242` | Onglets d'angle. |
 | Chord | `243` | Accord. |
 | ChartPlus | `244` | Graphique plus. |
-| ChartStar | `245` | Carte étoile. |
+| ChartStar | `245` | Étoile du graphique. |
 | ChartX | `246` | Graphique X. |
 | MinValue | `-2` | Réservé à l'utilisation du système. |
 
@@ -305,10 +305,10 @@ builder.InsertShape(ShapeType.Cloud, RelativeHorizontalPosition.RightMargin, 0,
 builder.InsertShape(ShapeType.MathPlus, RelativeHorizontalPosition.RightMargin, 0,
     RelativeVerticalPosition.Page, 0, 0, 0, WrapType.None);
 
-// Pour corriger l'identification des types de formes, vous devez travailler avec des formes en tant que DML.
+// Pour corriger l'identification des types de formes, vous devez travailler avec des formes au format DML.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Docx)
 {
-    // La conformité "Stricte" ou "Transitionnelle" permet d'enregistrer la forme en DML.
+    // La conformité "Stricte" ou "Transitionnelle" permet d'enregistrer la forme au format DML.
     Compliance = OoxmlCompliance.Iso29500_2008_Transitional
 };
 

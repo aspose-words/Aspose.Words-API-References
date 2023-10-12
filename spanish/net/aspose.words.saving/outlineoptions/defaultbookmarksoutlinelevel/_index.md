@@ -24,7 +24,7 @@ El valor predeterminado es 0. El rango válido es de 0 a 9.
 
 ### Ejemplos
 
-Programas para procesar marcadores en encabezados/pies de página en un documento que estamos renderizando a PDF.
+Se muestra cómo procesar marcadores en encabezados/pies de página en un documento que estamos renderizando a PDF.
 
 ```csharp
 Document doc = new Document(MyDir + "Bookmarks in headers and footers.docx");
@@ -36,16 +36,16 @@ PdfSaveOptions saveOptions = new PdfSaveOptions();
 // Establezca la propiedad "PageMode" en "PdfPageMode.UseOutlines" para mostrar el panel de navegación del esquema en el PDF de salida.
 saveOptions.PageMode = PdfPageMode.UseOutlines;
 
-// Establecer la propiedad "DefaultBookmarksOutlineLevel" en "1" para mostrar todo
+// Establece la propiedad "DefaultBookmarksOutlineLevel" en "1" para mostrar todo
 // marcadores en el primer nivel del esquema en el PDF de salida.
 saveOptions.OutlineOptions.DefaultBookmarksOutlineLevel = 1;
 
-// Establecer la propiedad "HeaderFooterBookmarksExportMode" en "HeaderFooterBookmarksExportMode.None" para
-// no exportar ningún marcador que esté dentro de los encabezados/pies de página.
-// Establecer la propiedad "HeaderFooterBookmarksExportMode" en "HeaderFooterBookmarksExportMode.First" para
-// exportar solo marcadores en el encabezado/pie de página de la primera sección.
-// Establecer la propiedad "HeaderFooterBookmarksExportMode" en "HeaderFooterBookmarksExportMode.All" para
-// exportar marcadores que están en todos los encabezados/pies de página.
+// Establece la propiedad "HeaderFooterBookmarksExportMode" en "HeaderFooterBookmarksExportMode.None" para
+// no exportar ningún marcador que esté dentro de encabezados/pies de página.
+// Establece la propiedad "HeaderFooterBookmarksExportMode" en "HeaderFooterBookmarksExportMode.First" para
+// solo exporta marcadores en el encabezado/pie de página de la primera sección.
+// Establece la propiedad "HeaderFooterBookmarksExportMode" en "HeaderFooterBookmarksExportMode.All" para
+// exporta los marcadores que están en todos los encabezados/pies de página.
 saveOptions.HeaderFooterBookmarksExportMode = headerFooterBookmarksExportMode;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.HeaderFooterBookmarksExportMode.pdf", saveOptions);

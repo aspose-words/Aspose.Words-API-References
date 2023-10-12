@@ -3,12 +3,14 @@ title: Class FieldArgumentBuilder
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Fields.FieldArgumentBuilder klass. Bygger ett komplext fältargument som består av fält noder och vanlig text.
 type: docs
-weight: 1400
+weight: 1550
 url: /sv/net/aspose.words.fields/fieldargumentbuilder/
 ---
 ## FieldArgumentBuilder class
 
 Bygger ett komplext fältargument som består av fält, noder och vanlig text.
+
+För att lära dig mer, besök[Arbeta med Fields](https://docs.aspose.com/words/net/working-with-fields/) dokumentationsartikel.
 
 ```csharp
 public class FieldArgumentBuilder
@@ -91,7 +93,7 @@ falseOutput.AddField(leftExpression);
 falseOutput.AddNode(new Run(doc, " does not equal "));
 falseOutput.AddField(rightExpression);
 
-  // Slutligen kommer vi att skapa ytterligare en fältbyggare för IF-fältet och kombinera alla uttryck.
+ // Slutligen kommer vi att skapa ytterligare en fältbyggare för IF-fältet och kombinera alla uttryck.
 builder = new FieldBuilder(FieldType.FieldIf);
 builder.AddArgument(leftExpression);
 builder.AddArgument("=");

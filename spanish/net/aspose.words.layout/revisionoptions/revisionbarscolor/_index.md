@@ -16,7 +16,7 @@ public RevisionColor RevisionBarsColor { get; set; }
 
 ### Observaciones
 
-Estableciendo esta propiedad enByAuthor oNoHighlight valores dará como resultado que se oculten las barras de revisión del diseño.
+Estableciendo esta propiedad enByAuthor oNoHighlight value dará como resultado que se oculten las barras de revisión del diseño.
 
 ### Ejemplos
 
@@ -25,27 +25,27 @@ Muestra cómo modificar la apariencia de las revisiones.
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");
 
-// Obtener el objeto RevisionOptions que controla la apariencia de las revisiones.
+// Obtiene el objeto RevisionOptions que controla la apariencia de las revisiones.
 RevisionOptions revisionOptions = doc.LayoutOptions.RevisionOptions;
 
-// Representar las revisiones de inserción en verde y cursiva.
+// Representar revisiones de inserción en verde y cursiva.
 revisionOptions.InsertedTextColor = RevisionColor.Green;
 revisionOptions.InsertedTextEffect = RevisionTextEffect.Italic;
 
-// Presentar las revisiones de eliminación en rojo y en negrita.
+// Representar las revisiones eliminadas en rojo y negrita.
 revisionOptions.DeletedTextColor = RevisionColor.Red;
 revisionOptions.DeletedTextEffect = RevisionTextEffect.Bold;
 
 // El mismo texto aparecerá dos veces en una revisión de movimiento:
-// una vez en el punto de partida y una vez en el destino de llegada.
-// Representar el texto en amarillo en la revisión desde la que se movió con un doble tachado
-// y doble subrayado azul en la revisión a la que se movió.
+// una vez en el punto de partida y otra en el destino de llegada.
+// Representa el texto en la revisión de origen en amarillo con un doble tachado
+// y azul con doble subrayado en la revisión a la que se trasladó.
 revisionOptions.MovedFromTextColor = RevisionColor.Yellow;
 revisionOptions.MovedFromTextEffect = RevisionTextEffect.DoubleStrikeThrough;
-revisionOptions.MovedToTextColor = RevisionColor.Blue;
+revisionOptions.MovedToTextColor = RevisionColor.ClassicBlue;
 revisionOptions.MovedFromTextEffect = RevisionTextEffect.DoubleUnderline;
 
-// Renderizar las revisiones del formato en rojo oscuro y en negrita.
+// Representar las revisiones de formato en rojo oscuro y negrita.
 revisionOptions.RevisedPropertiesColor = RevisionColor.DarkRed;
 revisionOptions.RevisedPropertiesEffect = RevisionTextEffect.Bold;
 
@@ -57,12 +57,12 @@ revisionOptions.RevisionBarsWidth = 15.0f;
 revisionOptions.ShowOriginalRevision = true;
 revisionOptions.ShowRevisionMarks = true;
 
-// Obtenga movimiento, eliminación, revisiones de formato y comentarios para mostrar en globos verdes
+// Obtener movimientos, eliminaciones, revisiones de formato y comentarios para que aparezcan en globos verdes
 // en el lado derecho de la página.
 revisionOptions.ShowInBalloons = ShowInBalloons.Format;
 revisionOptions.CommentColor = RevisionColor.BrightGreen;
 
-// Estas funciones solo se aplican a formatos como .pdf o .jpg.
+// Estas características sólo son aplicables a formatos como .pdf o .jpg.
 doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 ```
 

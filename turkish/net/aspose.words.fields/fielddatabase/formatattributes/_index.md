@@ -1,14 +1,14 @@
 ---
 title: FieldDatabase.FormatAttributes
 second_title: Aspose.Words for .NET API Referansı
-description: FieldDatabase mülk. Biçimin hangi özniteliklerinin tabloya uygulanacağını alır veya ayarlar.
+description: FieldDatabase mülk. Formatın hangi niteliklerinin tabloya uygulanacağını alır veya ayarlar.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.fields/fielddatabase/formatattributes/
 ---
 ## FieldDatabase.FormatAttributes property
 
-Biçimin hangi özniteliklerinin tabloya uygulanacağını alır veya ayarlar.
+Formatın hangi niteliklerinin tabloya uygulanacağını alır veya ayarlar.
 
 ```csharp
 public string FormatAttributes { get; set; }
@@ -16,25 +16,24 @@ public string FormatAttributes { get; set; }
 
 ### Örnekler
 
-Bir veritabanından nasıl veri alınacağını ve bir belgeye alan olarak nasıl ekleneceğini gösterir.
+Veritabanından verinin nasıl çıkarılacağını ve bunun bir alan olarak belgeye nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Bu DATABASE alanı, bir veritabanı üzerinde bir sorgu çalıştıracak ve sonucu bir tabloda gösterecektir.
+// Bu DATABASE alanı bir veritabanı üzerinde bir sorgu çalıştıracak ve sonucu bir tabloda görüntüleyecektir.
 FieldDatabase field = (FieldDatabase)builder.InsertField(FieldType.FieldDatabase, true);
-field.FileName = MyDir + @"Database\Northwind.mdb";
-field.Connection = "DSN=MS Access Databases";
+field.FileName = DatabaseDir + "Northwind.accdb";
+field.Connection = "Provider=Microsoft.ACE.OLEDB.12.0";
 field.Query = "SELECT * FROM [Products]";
 
-Assert.AreEqual($" DATABASE  \\d \"{DatabaseDir.Replace("\\", "\\\\") + "Northwind.mdb"}\" \\c \"DSN=MS Access Databases\" \\s \"SELECT * FROM [Products]\"", 
-    field.GetFieldCode());
+Assert.AreEqual($" DATABASE  \\d {DatabaseDir.Replace("\\", "\\\\") + "Northwind.accdb"} \\c Provider=Microsoft.ACE.OLEDB.12.0 \\s \"SELECT * FROM [Products]\"", field.GetFieldCode());
 
-// Tüm ürünleri brüt satışlara göre azalan düzende sıralayan daha karmaşık bir sorguya sahip başka bir DATABASE alanı ekleyin.
+// Tüm ürünleri brüt satışlara göre azalan sırada sıralayan daha karmaşık bir sorgu içeren başka bir DATABASE alanı ekleyin.
 field = (FieldDatabase)builder.InsertField(FieldType.FieldDatabase, true);
-field.FileName = MyDir + @"Database\Northwind.mdb";
-field.Connection = "DSN=MS Access Databases";
+field.FileName = DatabaseDir + "Northwind.accdb";
+field.Connection = "Provider=Microsoft.ACE.OLEDB.12.0";
 field.Query =
     "SELECT [Products].ProductName, FORMAT(SUM([Order Details].UnitPrice * (1 - [Order Details].Discount) * [Order Details].Quantity), 'Currency') AS GrossSales " +
     "FROM([Products] " +
@@ -42,24 +41,26 @@ field.Query =
     "GROUP BY[Products].ProductName " +
     "ORDER BY SUM([Order Details].UnitPrice* (1 - [Order Details].Discount) * [Order Details].Quantity) DESC";
 
-// Bu özellikler, LIMIT ve TOP yan tümceleri ile aynı işleve sahiptir.
-// Alan tablosunda sorgu sonucunun yalnızca 1'den 10'a kadar olan satırlarını görüntüleyecek şekilde yapılandırın.
+// Bu özellikler LIMIT ve TOP cümleleriyle aynı işleve sahiptir.
+// Bunları, alanın tablosunda sorgu sonucunun yalnızca 1'den 10'a kadar olan satırlarını görüntüleyecek şekilde yapılandırın.
 field.FirstRecord = "1";
 field.LastRecord = "10";
 
-// Bu özellik, tablomuz için kullanmak istediğimiz formatın indeksidir. Tablo biçimlerinin listesi "Tablo Otomatik Biçimi..." menüsündedir.
-// Microsoft Word'de bir DATABASE alanı oluşturduğumuzda ortaya çıkıyor. Dizin #10, "Renkli 3" biçimine karşılık gelir.
+// Bu özellik tablomuz için kullanmak istediğimiz formatın indeksidir. Tablo formatlarının listesi "Tablo Otomatik Formatı..." menüsündedir
+// Microsoft Word'de bir DATABASE alanı oluşturduğumuzda bu ortaya çıkıyor. Dizin #10 "Renkli 3" formatına karşılık gelir.
 field.TableFormat = "10";
 
-// FormatAttribute özelliği, birden çok bayrağı saklayan bir tamsayının dize temsilidir.
-// TableFormat özelliğinin gösterdiği formatı bu özellikte farklı flaglar ayarlayarak patrially uygulayabiliriz.
+// FormatAttribute özelliği, birden çok bayrağı saklayan bir tam sayının dize temsilidir.
+// Bu özellikte farklı flaglar ayarlayarak TableFormat özelliğinin işaret ettiği formatı patrially uygulayabiliriz.
 // Kullandığımız sayı, tablo stilinin farklı yönlerine karşılık gelen değerlerin birleşiminin toplamıdır.
-// 63, 1 (kenarlıklar) + 2 (gölgeleme) + 4 (yazı tipi) + 8 (renk) + 16 (otomatik sığdırma) + 32'yi (başlık satırları) temsil eder.
+// 63, 1 (kenarlıklar) + 2 (gölgelendirme) + 4 (yazı tipi) + 8 (renk) + 16 (otomatik sığdırma) + 32 (başlık satırları) anlamına gelir.
 field.FormatAttributes = "63";
 field.InsertHeadings = true;
 field.InsertOnceOnMailMerge = true;
 
+doc.FieldOptions.FieldDatabaseProvider = new OleDbFieldDatabaseProvider();
 doc.UpdateFields();
+
 doc.Save(ArtifactsDir + "Field.DATABASE.docx");
 ```
 

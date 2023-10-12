@@ -3,7 +3,7 @@ title: DigitalSignature.SignTime
 second_title: Aspose.Words för .NET API Referens
 description: DigitalSignature fast egendom. Hämtar tiden då dokumentet signerades.
 type: docs
-weight: 60
+weight: 70
 url: /sv/net/aspose.words.digitalsignatures/digitalsignature/signtime/
 ---
 ## DigitalSignature.SignTime property

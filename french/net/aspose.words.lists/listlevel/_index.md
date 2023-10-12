@@ -3,12 +3,14 @@ title: Class ListLevel
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.Lists.ListLevel classe. Définit le formatage pour un niveau de liste.
 type: docs
-weight: 3300
+weight: 3500
 url: /fr/net/aspose.words.lists/listlevel/
 ---
 ## ListLevel class
 
 Définit le formatage pour un niveau de liste.
+
+Pour en savoir plus, visitez le[Travailler avec des listes](https://docs.aspose.com/words/net/working-with-lists/) article documentaire.
 
 ```csharp
 public class ListLevel
@@ -19,14 +21,14 @@ public class ListLevel
 | Nom | La description |
 | --- | --- |
 | [Alignment](../../aspose.words.lists/listlevel/alignment/) { get; set; } | Obtient ou définit la justification du numéro réel de l'élément de liste. |
-| [CustomNumberStyleFormat](../../aspose.words.lists/listlevel/customnumberstyleformat/) { get; } | Obtient le format de style de nombre personnalisé pour ce niveau de liste. Par exemple : "a, ç, ĝ, ...". |
+| [CustomNumberStyleFormat](../../aspose.words.lists/listlevel/customnumberstyleformat/) { get; } | Obtient le format de style de numéro personnalisé pour ce niveau de liste. Par exemple : "a, ç, ĝ, ...". |
 | [Font](../../aspose.words.lists/listlevel/font/) { get; } | Spécifie le formatage des caractères utilisé pour l'étiquette de la liste. |
 | [ImageData](../../aspose.words.lists/listlevel/imagedata/) { get; } | Renvoie les données d'image de la forme de puce d'image pour le niveau de liste actuel. |
-| [IsLegal](../../aspose.words.lists/listlevel/islegal/) { get; set; } | Vrai si le niveau transforme tous les nombres hérités en arabe, faux s'il conserve leur style de nombre. |
+| [IsLegal](../../aspose.words.lists/listlevel/islegal/) { get; set; } | Vrai si le niveau transforme tous les nombres hérités en arabe, faux s'il préserve leur style numérique. |
 | [LinkedStyle](../../aspose.words.lists/listlevel/linkedstyle/) { get; set; } | Obtient ou définit le style de paragraphe lié à ce niveau de liste. |
 | [NumberFormat](../../aspose.words.lists/listlevel/numberformat/) { get; set; } | Renvoie ou définit le format numérique pour le niveau de liste. |
 | [NumberPosition](../../aspose.words.lists/listlevel/numberposition/) { get; set; } | Renvoie ou définit la position (en points) du numéro ou de la puce pour le niveau de liste. |
-| [NumberStyle](../../aspose.words.lists/listlevel/numberstyle/) { get; set; } | Renvoie ou définit le style de numérotation pour ce niveau de liste. |
+| [NumberStyle](../../aspose.words.lists/listlevel/numberstyle/) { get; set; } | Renvoie ou définit le style numérique pour ce niveau de liste. |
 | [RestartAfterLevel](../../aspose.words.lists/listlevel/restartafterlevel/) { get; set; } | Définit ou renvoie le niveau de liste qui doit apparaître avant que le niveau de liste spécifié ne redémarre la numérotation. |
 | [StartAt](../../aspose.words.lists/listlevel/startat/) { get; set; } | Renvoie ou définit le numéro de départ pour ce niveau de liste. |
 | [TabPosition](../../aspose.words.lists/listlevel/tabposition/) { get; set; } | Renvoie ou définit la position de tabulation (en points) pour le niveau de liste. |
@@ -41,26 +43,26 @@ public class ListLevel
 | [DeletePictureBullet](../../aspose.words.lists/listlevel/deletepicturebullet/)() | Supprime la puce d'image pour le niveau de liste actuel. |
 | [Equals](../../aspose.words.lists/listlevel/equals/#equals)(ListLevel) | Compare avec le ListLevel. spécifié |
 | override [GetHashCode](../../aspose.words.lists/listlevel/gethashcode/)() | Calcule le code de hachage pour cet objet. |
-| static [GetEffectiveValue](../../aspose.words.lists/listlevel/geteffectivevalue/)(int, NumberStyle, string) | Indique la représentation sous forme de chaîne du`ListLevel` objet pour l'index spécifié de l'élément de liste. Les paramètres spécifient le[`NumberStyle`](../../aspose.words/numberstyle/) et un format optionnel string utilisé lorsqueCustom est spécifié. |
+| static [GetEffectiveValue](../../aspose.words.lists/listlevel/geteffectivevalue/)(int, NumberStyle, string) | Indique la représentation sous forme de chaîne du`ListLevel`objet pour l'index spécifié de l'élément de liste. Les paramètres spécifient le[`NumberStyle`](../../aspose.words/numberstyle/) et un format facultatif string utilisé lorsqueCustom est spécifié. |
 
 ### Remarques
 
-Vous ne créez pas d'objets de cette classe. Les objets de niveau liste sont créés automatiquement lors de la création d'une liste. Vous accédez`ListLevel` objets via the [`ListLevelCollection`](../listlevelcollection/) le recueil.
+Vous ne créez pas d'objets de cette classe. Les objets au niveau de la liste sont créés automatiquement lorsqu'une liste est créée. Vous accédez`ListLevel` objets via the [`ListLevelCollection`](../listlevelcollection/) collection.
 
-Utilisez les propriétés de`ListLevel` pour spécifier le formatage de liste pour les niveaux de liste individuels.
+Utiliser les propriétés de`ListLevel` pour spécifier list formatting pour les niveaux de liste individuels.
 
 ### Exemples
 
-Montre comment appliquer une mise en forme de liste personnalisée aux paragraphes lors de l'utilisation de DocumentBuilder.
+Montre comment appliquer une mise en forme de liste personnalisée aux paragraphes lors de l’utilisation de DocumentBuilder.
 
 ```csharp
 Document doc = new Document();
 
 // Une liste nous permet d'organiser et de décorer des ensembles de paragraphes avec des symboles de préfixe et des retraits.
-// Nous pouvons créer des listes imbriquées en augmentant le niveau d'indentation. 
-// Nous pouvons commencer et terminer une liste en utilisant la propriété "ListFormat" d'un générateur de document. 
+ // Nous pouvons créer des listes imbriquées en augmentant le niveau d'indentation.
+ // Nous pouvons commencer et terminer une liste en utilisant la propriété "ListFormat" d'un générateur de documents.
 // Chaque paragraphe que nous ajoutons entre le début et la fin d'une liste deviendra un élément de la liste.
-// Crée une liste à partir d'un modèle Microsoft Word et personnalise les deux premiers de ses niveaux de liste.
+// Créez une liste à partir d'un modèle Microsoft Word et personnalisez les deux premiers niveaux de liste.
 List list = doc.Lists.Add(ListTemplate.NumberDefault);
 
 ListLevel listLevel = list.ListLevels[0];

@@ -23,7 +23,7 @@ FileFormatInfo info = FileFormatUtil.DetectFileFormat(MyDir + "Document.html");
 
 Assert.AreEqual(LoadFormat.Html, info.LoadFormat);
 
-// Свойство Encoding используется только при создании объекта FileFormatInfo для html-документа.
+// Свойство Encoding используется только тогда, когда мы создаем объект FileFormatInfo для html-документа.
 Assert.AreEqual("Western European (Windows)", info.Encoding.EncodingName);
 Assert.AreEqual(1252, info.Encoding.CodePage);
 ```

@@ -1,14 +1,14 @@
 ---
 title: RtfSaveOptions.ExportCompactSize
 second_title: Référence de l'API Aspose.Words pour .NET
-description: RtfSaveOptions propriété. Permet de réduire la taille des documents RTF de sortie mais sils contiennent du texte RTL de droite à gauche il ne saffichera pas correctement. La valeur par défaut estfaux .
+description: RtfSaveOptions propriété. Permet de réduire la taille des documents RTF de sortie mais sils contiennent du texte RTL de droite à gauche il ne sera pas affiché correctement. La valeur par défaut estFAUX .
 type: docs
 weight: 20
 url: /fr/net/aspose.words.saving/rtfsaveoptions/exportcompactsize/
 ---
 ## RtfSaveOptions.ExportCompactSize property
 
-Permet de réduire la taille des documents RTF de sortie, mais s'ils contiennent du texte RTL (de droite à gauche), il ne s'affichera pas correctement. La valeur par défaut est`faux` .
+Permet de réduire la taille des documents RTF de sortie, mais s'ils contiennent du texte RTL (de droite à gauche), il ne sera pas affiché correctement. La valeur par défaut est`FAUX` .
 
 ```csharp
 public bool ExportCompactSize { get; set; }
@@ -25,18 +25,18 @@ Montre comment enregistrer un document au format .rtf avec des options personnal
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Créez un objet "RtfSaveOptions" à transmettre à la méthode "Save" du document pour modifier la façon dont nous l'enregistrons au format RTF.
+// Créez un objet "RtfSaveOptions" à transmettre à la méthode "Save" du document pour modifier la façon dont nous l'enregistrons dans un RTF.
 RtfSaveOptions options = new RtfSaveOptions();
 
 Assert.AreEqual(SaveFormat.Rtf, options.SaveFormat);
 
-// Définissez la propriété "ExportCompactSize" sur "true" pour
+// Définit la propriété "ExportCompactSize" sur "true" pour
 // réduit la taille du document enregistré au détriment de la compatibilité du texte de droite à gauche.
 options.ExportCompactSize = true;
 
 // Définissez la propriété "ExportImagesFotOldReaders" sur "true" pour utiliser des mots-clés supplémentaires afin de garantir que notre document est
 // compatible avec les lecteurs pré-Microsoft Word 97 et WordPad.
-// Définissez la propriété "ExportImagesFotOldReaders" à "false" pour réduire la taille du document,
+// Fixe la propriété "ExportImagesFotOldReaders" à "false" pour réduire la taille du document,
 // mais empêche les anciens lecteurs de lire les images non métafichiers ou BMP que le document peut contenir.
 options.ExportImagesForOldReaders = exportImagesForOldReaders;
 

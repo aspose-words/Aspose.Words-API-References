@@ -3,12 +3,14 @@ title: Class OlePackage
 second_title: Aspose.Words für .NET-API-Referenz
 description: Aspose.Words.Drawing.OlePackage klas. Ermöglicht den Zugriff auf OLEPaketeigenschaften.
 type: docs
-weight: 1030
+weight: 1160
 url: /de/net/aspose.words.drawing/olepackage/
 ---
 ## OlePackage class
 
 Ermöglicht den Zugriff auf OLE-Paketeigenschaften.
+
+Um mehr zu erfahren, besuchen Sie die[Arbeiten mit Ole-Objekten](https://docs.aspose.com/words/net/working-with-ole-objects/) Dokumentationsartikel.
 
 ```csharp
 public class OlePackage
@@ -18,12 +20,12 @@ public class OlePackage
 
 | Name | Beschreibung |
 | --- | --- |
-| [DisplayName](../../aspose.words.drawing/olepackage/displayname/) { get; set; } | Ruft den Anzeigenamen des OLE-Pakets ab oder legt ihn fest. |
-| [FileName](../../aspose.words.drawing/olepackage/filename/) { get; set; } | Ruft den Dateinamen des OLE-Pakets ab oder legt ihn fest. |
+| [DisplayName](../../aspose.words.drawing/olepackage/displayname/) { get; set; } | Ruft den Anzeigenamen des OLE-Pakets ab oder legt diesen fest. |
+| [FileName](../../aspose.words.drawing/olepackage/filename/) { get; set; } | Ruft den Namen der OLE-Paketdatei ab oder legt diesen fest. |
 
 ### Bemerkungen
 
-Das OLE-Paket ist eine veraltete und "undokumentierte" Möglichkeit, eingebettete Objekte zu speichern, wenn der OLE-Handler unbekannt ist. Frühe Windows-Versionen wie Windows 3.1, 95 und 98 hatten die Anwendung "Packager.exe", mit der alle Arten von Daten in ein Dokument eingebettet werden konnten . Jetzt ist diese Anwendung von Windows ausgeschlossen, aber MS Word und andere Anwendungen verwenden sie weiterhin zum Einbetten von Daten, wenn der OLE-Handler fehlt oder unbekannt ist.
+OLE-Paket ist eine veraltete und „undokumentierte“ Methode zum Speichern eingebetteter Objekte, wenn der OLE-Handler unbekannt ist. Frühe Windows-Versionen wie Windows 3.1, 95 und 98 verfügten über die Anwendung Packager.exe, mit der beliebige Datentypen in Dokumente eingebettet werden konnten . Jetzt ist diese Anwendung von Windows ausgeschlossen, aber MS Word und andere Anwendungen verwenden sie weiterhin zum Einbetten von Daten, wenn der OLE-Handler fehlt oder unbekannt ist.
 
 ### Beispiele
 

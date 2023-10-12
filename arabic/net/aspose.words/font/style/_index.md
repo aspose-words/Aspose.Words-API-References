@@ -16,13 +16,13 @@ public Style Style { get; set; }
 
 ### أمثلة
 
-يطبق تسطيرًا مزدوجًا على كل عمليات التشغيل في مستند تم تنسيقه باستخدام أنماط أحرف مخصصة.
+يطبق تسطيرًا مزدوجًا على كافة عمليات التشغيل في مستند تم تنسيقه باستخدام أنماط أحرف مخصصة.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أدخل نمطًا مخصصًا وقم بتطبيقه على النص الذي تم إنشاؤه باستخدام منشئ المستندات.
+// أدخل نمطًا مخصصًا وقم بتطبيقه على النص الذي تم إنشاؤه باستخدام أداة إنشاء المستندات.
 Style style = doc.Styles.Add(StyleType.Character, "MyStyle");
 style.Font.Color = Color.Red;
 style.Font.Name = "Courier New";
@@ -30,7 +30,7 @@ style.Font.Name = "Courier New";
 builder.Font.StyleName = "MyStyle";
 builder.Write("This text is in a custom style.");
 
-// كرر على كل شوط وأضف تسطيرًا مزدوجًا لكل نمط مخصص.
+// كرر كل عملية تشغيل وأضف تسطيرًا مزدوجًا إلى كل نمط مخصص.
 foreach (Run run in doc.GetChildNodes(NodeType.Run, true).OfType<Run>())
 {
     Style charStyle = run.Font.Style;

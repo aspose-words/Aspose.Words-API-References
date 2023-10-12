@@ -1,14 +1,14 @@
 ---
 title: CompareOptions.IgnoreDmlUniqueId
 second_title: Aspose.Words for .NET API Referansı
-description: CompareOptions mülk. DrawingML benzersiz kimliğindeki farkın yoksayılıp yoksayılmayacağını belirtir. Varsayılan değer yanlış .
+description: CompareOptions mülk. DrawingML benzersiz kimliğindeki farkın göz ardı edilip edilmeyeceğini belirtir. Varsayılan değerYANLIŞ .
 type: docs
-weight: 50
+weight: 60
 url: /tr/net/aspose.words.comparing/compareoptions/ignoredmluniqueid/
 ---
 ## CompareOptions.IgnoreDmlUniqueId property
 
-DrawingML benzersiz kimliğindeki farkın yoksayılıp yoksayılmayacağını belirtir. Varsayılan değer **yanlış** .
+DrawingML benzersiz kimliğindeki farkın göz ardı edilip edilmeyeceğini belirtir. Varsayılan değer:`YANLIŞ` .
 
 ```csharp
 public bool IgnoreDmlUniqueId { get; set; }
@@ -16,14 +16,14 @@ public bool IgnoreDmlUniqueId { get; set; }
 
 ### Örnekler
 
-DML benzersiz kimliğini yok sayarak belgelerin nasıl karşılaştırılacağını gösterir.
+DML benzersiz kimliğini göz ardı ederek belgelerin nasıl karşılaştırılacağını gösterir.
 
 ```csharp
 Document docA = new Document(MyDir + "DML unique ID original.docx");
 Document docB = new Document(MyDir + "DML unique ID compare.docx");
 
 // Varsayılan olarak Aspose.Words, DML'nin benzersiz kimliğini göz ardı etmez ve revizyon sayısı 2'dir.
-// DML'nin benzersiz kimliğini görmezden geliyorsak ve revizyon sayısı 0 idi.
+// DML'nin benzersiz kimliğini göz ardı ediyorsak ve revizyon sayısı 0 ise.
 Aspose.Words.Comparing.CompareOptions compareOptions = new Aspose.Words.Comparing.CompareOptions();
 compareOptions.IgnoreDmlUniqueId = isIgnoreDmlUniqueId;
 

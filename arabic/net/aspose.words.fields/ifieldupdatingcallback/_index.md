@@ -1,14 +1,14 @@
 ---
 title: Interface IFieldUpdatingCallback
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fields.IFieldUpdatingCallback واجهه المستخدم. قم بتنفيذ هذه الواجهة إذا كنت تريد استدعاء الأساليب المخصصة الخاصة بك أثناء تحديث الحقل.
+description: Aspose.Words.Fields.IFieldUpdatingCallback واجهه المستخدم. قم بتنفيذ هذه الواجهة إذا كنت تريد أن يتم استدعاء الأساليب المخصصة الخاصة بك أثناء التحديث الميداني.
 type: docs
-weight: 2550
+weight: 2720
 url: /ar/net/aspose.words.fields/ifieldupdatingcallback/
 ---
 ## IFieldUpdatingCallback interface
 
-قم بتنفيذ هذه الواجهة إذا كنت تريد استدعاء الأساليب المخصصة الخاصة بك أثناء تحديث الحقل.
+قم بتنفيذ هذه الواجهة إذا كنت تريد أن يتم استدعاء الأساليب المخصصة الخاصة بك أثناء التحديث الميداني.
 
 ```csharp
 public interface IFieldUpdatingCallback
@@ -18,14 +18,15 @@ public interface IFieldUpdatingCallback
 
 | اسم | وصف |
 | --- | --- |
-| [FieldUpdated](../../aspose.words.fields/ifieldupdatingcallback/fieldupdated/)(Field) | طريقة معرّفة من قبل المستخدم يتم استدعاؤها بعد تحديث أحد الحقول مباشرةً. |
-| [FieldUpdating](../../aspose.words.fields/ifieldupdatingcallback/fieldupdating/)(Field) | طريقة معرّفة من قبل المستخدم يتم استدعاؤها قبل تحديث أحد الحقول مباشرةً. |
+| [FieldUpdated](../../aspose.words.fields/ifieldupdatingcallback/fieldupdated/)(Field) | طريقة يحددها المستخدم ويتم استدعاؤها مباشرة بعد تحديث الحقل. |
+| [FieldUpdating](../../aspose.words.fields/ifieldupdatingcallback/fieldupdating/)(Field) | طريقة يحددها المستخدم ويتم استدعاؤها قبل تحديث الحقل مباشرة. |
 
 ### أمثلة
 
 يوضح كيفية استخدام طرق رد الاتصال أثناء التحديث الميداني.
 
 ```csharp
+public void FieldUpdatingCallbackTest()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -48,7 +49,7 @@ public interface IFieldUpdatingCallback
 /// <summary>
 /// قم بتنفيذ هذه الواجهة إذا كنت تريد استدعاء الأساليب المخصصة الخاصة بك أثناء التحديث الميداني.
 /// </summary>
-public class FieldUpdatingCallback : IFieldUpdatingCallback
+public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgressCallback
 {
     public FieldUpdatingCallback()
     {
@@ -56,7 +57,7 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback
     }
 
     /// <summary>
-    /// طريقة معرّفة من قبل المستخدم يتم استدعاؤها قبل تحديث الحقل مباشرةً.
+    /// طريقة يحددها المستخدم يتم استدعاؤها قبل تحديث الحقل مباشرةً.
     /// </summary>
     void IFieldUpdatingCallback.FieldUpdating(Field field)
     {
@@ -68,11 +69,17 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback
     }
 
     /// <summary>
-    /// طريقة معرّفة من قبل المستخدم يتم استدعاؤها بعد تحديث الحقل مباشرةً.
+    /// طريقة يحددها المستخدم يتم استدعاؤها مباشرة بعد تحديث الحقل.
     /// </summary>
     void IFieldUpdatingCallback.FieldUpdated(Field field)
     {
         FieldUpdatedCalls.Add(field.Result);
+    }
+
+    void IFieldUpdatingProgressCallback.Notify(FieldUpdatingProgressArgs args)
+    {
+        Console.WriteLine($"{args.UpdateCompleted}/{args.TotalFieldsCount}");
+        Console.WriteLine($"{args.UpdatedFieldsCount}");
     }
 
     public IList<string> FieldUpdatedCalls { get; }

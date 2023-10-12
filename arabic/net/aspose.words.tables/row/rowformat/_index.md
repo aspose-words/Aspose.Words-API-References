@@ -1,14 +1,14 @@
 ---
 title: Row.RowFormat
 second_title: Aspose.Words لمراجع .NET API
-description: Row ملكية. يوفر الوصول إلى خصائص تنسيق الصف.
+description: Row ملكية. يوفر الوصول إلى خصائص التنسيق للصف.
 type: docs
-weight: 90
+weight: 110
 url: /ar/net/aspose.words.tables/row/rowformat/
 ---
 ## Row.RowFormat property
 
-يوفر الوصول إلى خصائص تنسيق الصف.
+يوفر الوصول إلى خصائص التنسيق للصف.
 
 ```csharp
 public RowFormat RowFormat { get; }
@@ -31,7 +31,7 @@ firstRow.RowFormat.AllowBreakAcrossPages = true;
 doc.Save(ArtifactsDir + "Table.RowFormat.docx");
 ```
 
-يوضح كيفية تعديل تنسيق الصفوف والخلايا في جدول.
+يوضح كيفية تعديل تنسيق الصفوف والخلايا في الجدول.
 
 ```csharp
 Document doc = new Document();
@@ -50,7 +50,7 @@ builder.Write("U.K.");
 builder.EndTable();
 
 // استخدم خاصية "RowFormat" للصف الأول لتعديل التنسيق
-// من محتويات جميع الخلايا في هذا الصف.
+// محتويات جميع الخلايا في هذا الصف.
 RowFormat rowFormat = table.FirstRow.RowFormat;
 rowFormat.Height = 25;
 rowFormat.Borders[BorderType.Bottom].Color = Color.Red;

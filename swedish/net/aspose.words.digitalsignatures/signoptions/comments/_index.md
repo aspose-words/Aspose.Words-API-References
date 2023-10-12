@@ -1,14 +1,14 @@
 ---
 title: SignOptions.Comments
 second_title: Aspose.Words för .NET API Referens
-description: SignOptions fast egendom. Anger kommentarer om den digitala signaturen. Standardvärdet är tom sträng Empty .
+description: SignOptions fast egendom. Anger kommentarer om den digitala signaturen. Standardvärdet är tom sträng Empty.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.digitalsignatures/signoptions/comments/
 ---
 ## SignOptions.Comments property
 
-Anger kommentarer om den digitala signaturen. Standardvärdet är **tom sträng** (Empty ).
+Anger kommentarer om den digitala signaturen. Standardvärdet är **tom sträng** (Empty).
 
 ```csharp
 public string Comments { get; set; }

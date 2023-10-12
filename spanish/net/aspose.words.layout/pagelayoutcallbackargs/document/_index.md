@@ -1,14 +1,14 @@
 ---
 title: PageLayoutCallbackArgs.Document
 second_title: Referencia de API de Aspose.Words para .NET
-description: PageLayoutCallbackArgs propiedad. Obtiene documento.
+description: PageLayoutCallbackArgs propiedad. Obtiene el documento.
 type: docs
 weight: 10
 url: /es/net/aspose.words.layout/pagelayoutcallbackargs/document/
 ---
 ## PageLayoutCallbackArgs.Document property
 
-Obtiene documento.
+Obtiene el documento.
 
 ```csharp
 public Document Document { get; }
@@ -19,7 +19,6 @@ public Document Document { get; }
 Muestra cómo realizar un seguimiento de los cambios de diseño con una devolución de llamada de diseño.
 
 ```csharp
-[Test]
 public void PageLayoutCallback()
 {
     Document doc = new Document();

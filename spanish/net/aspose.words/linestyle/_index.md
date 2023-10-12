@@ -3,7 +3,7 @@ title: Enum LineStyle
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.LineStyle enumeración. Especifica el estilo de línea de unBorder .
 type: docs
-weight: 3250
+weight: 3450
 url: /es/net/aspose.words/linestyle/
 ---
 ## LineStyle enumeration

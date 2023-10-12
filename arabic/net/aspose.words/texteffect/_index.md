@@ -1,14 +1,14 @@
 ---
 title: Enum TextEffect
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.TextEffect تعداد. تأثير الحركة لتشغيل النص.
+description: Aspose.Words.TextEffect تعداد. تأثير الرسوم المتحركة لتشغيل النص.
 type: docs
-weight: 6120
+weight: 6420
 url: /ar/net/aspose.words/texteffect/
 ---
 ## TextEffect enumeration
 
-تأثير الحركة لتشغيل النص.
+تأثير الرسوم المتحركة لتشغيل النص.
 
 ```csharp
 public enum TextEffect

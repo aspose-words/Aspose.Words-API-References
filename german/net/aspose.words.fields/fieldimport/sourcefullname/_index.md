@@ -1,14 +1,14 @@
 ---
 title: FieldImport.SourceFullName
 second_title: Aspose.Words für .NET-API-Referenz
-description: FieldImport eigendom. Ruft den Speicherort des Bildes ab oder legt ihn fest.
+description: FieldImport eigendom. Ruft den Speicherort des Bildes ab oder legt diesen fest.
 type: docs
 weight: 40
 url: /de/net/aspose.words.fields/fieldimport/sourcefullname/
 ---
 ## FieldImport.SourceFullName property
 
-Ruft den Speicherort des Bildes ab oder legt ihn fest.
+Ruft den Speicherort des Bildes ab oder legt diesen fest.
 
 ```csharp
 public string SourceFullName { get; set; }
@@ -16,14 +16,14 @@ public string SourceFullName { get; set; }
 
 ### Beispiele
 
-Zeigt, wie Bilder mit den Feldern IMPORT und INCLUDEPICTURE eingefügt werden.
+Zeigt, wie Bilder mithilfe der Felder IMPORT und INCLUDEPICTURE eingefügt werden.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Unten sind zwei ähnliche Feldtypen, die wir verwenden können, um Bilder anzuzeigen, die vom lokalen Dateisystem verlinkt sind.
-// 1 - Das INCLUDEPICTURE-Feld:
+// Nachfolgend finden Sie zwei ähnliche Feldtypen, mit denen wir Bilder anzeigen können, die aus dem lokalen Dateisystem verknüpft sind.
+// 1 – Das INCLUDEPICTURE-Feld:
 FieldIncludePicture fieldIncludePicture = (FieldIncludePicture)builder.InsertField(FieldType.FieldIncludePicture, true);
 fieldIncludePicture.SourceFullName = ImageDir + "Transparent background logo.png";
 
@@ -35,7 +35,7 @@ fieldIncludePicture.IsLinked = true;
 fieldIncludePicture.ResizeHorizontally = true;
 fieldIncludePicture.ResizeVertically = true;
 
-// 2 - Das IMPORT-Feld:
+// 2 – Das IMPORT-Feld:
 FieldImport fieldImport = (FieldImport)builder.InsertField(FieldType.FieldImport, true);
 fieldImport.SourceFullName = ImageDir + "Transparent background logo.png";
 fieldImport.GraphicFilter = "PNG32";

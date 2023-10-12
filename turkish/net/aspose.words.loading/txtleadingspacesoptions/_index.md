@@ -1,14 +1,14 @@
 ---
 title: Enum TxtLeadingSpacesOptions
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Loading.TxtLeadingSpacesOptions Sıralama. Şuradan içe aktarma sırasında baştaki boşluk işleme için mevcut seçenekleri belirtirText dosya.
+description: Aspose.Words.Loading.TxtLeadingSpacesOptions Sıralama. Şuradan içe aktarma sırasında önde gelen alan işleme için mevcut seçenekleri belirtirText dosya.
 type: docs
-weight: 3520
+weight: 3720
 url: /tr/net/aspose.words.loading/txtleadingspacesoptions/
 ---
 ## TxtLeadingSpacesOptions enumeration
 
-Şuradan içe aktarma sırasında baştaki boşluk işleme için mevcut seçenekleri belirtirText dosya.
+Şuradan içe aktarma sırasında önde gelen alan işleme için mevcut seçenekleri belirtir:Text dosya.
 
 ```csharp
 public enum TxtLeadingSpacesOptions
@@ -24,7 +24,7 @@ public enum TxtLeadingSpacesOptions
 
 ### Örnekler
 
-Düz metin belgeleri yüklenirken boşlukların nasıl kırpılacağını gösterir.
+Düz metin belgeleri yüklerken boşlukların nasıl kırpılacağını gösterir.
 
 ```csharp
 string textDoc = "      Line 1 \n" +
@@ -32,21 +32,21 @@ string textDoc = "      Line 1 \n" +
                  " Line 3       ";
 
 // Bir belgenin yapıcısına iletebileceğimiz bir "TxtLoadOptions" nesnesi oluşturun
-// bir düz metin belgesini nasıl yüklediğimizi değiştirmek için.
+// düz metin belgesini yükleme şeklimizi değiştirmek için.
 TxtLoadOptions loadOptions = new TxtLoadOptions();
 
 // "LeadingSpacesOptions" özelliğini "TxtLeadingSpacesOptions.Preserve" olarak ayarlayın
 // her satırın başındaki tüm boşluk karakterlerini korumak için.
 // "LeadingSpacesOptions" özelliğini "TxtLeadingSpacesOptions.ConvertToIndent" olarak ayarlayın
-// her satırın başından tüm boşluk karakterlerini kaldırmak için,
-// ve ardından boşlukların etkisini simüle etmek için paragrafa bir sol ilk satır girintisi uygulayın.
+// her satırın başlangıcındaki tüm boşluk karakterlerini kaldırmak için,
+// ve ardından boşlukların etkisini simüle etmek için paragrafa sol ilk satır girintisini uygulayın.
 // "LeadingSpacesOptions" özelliğini "TxtLeadingSpacesOptions.Trim" olarak ayarlayın
 // her satırın başlangıcındaki tüm boşluk karakterlerini kaldırmak için.
 loadOptions.LeadingSpacesOptions = txtLeadingSpacesOptions;
 
 // "TrailingSpacesOptions" özelliğini "TxtTrailingSpacesOptions.Preserve" olarak ayarlayın
-// her satırın sonundaki tüm boşluk karakterlerini korumak için. 
-// "TrailingSpacesOptions" özelliğini "TxtTrailingSpacesOptions.Trim" olarak ayarlayın. 
+ // her satırın sonundaki tüm boşluk karakterlerini korumak için.
+ // "TrailingSpacesOptions" özelliğini "TxtTrailingSpacesOptions.Trim" olarak ayarlayarak
 // her satırın sonundaki tüm boşluk karakterlerini kaldırın.
 loadOptions.TrailingSpacesOptions = txtTrailingSpacesOptions;
 

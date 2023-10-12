@@ -1,14 +1,16 @@
 ---
 title: Class OdsoRecipientDataCollection
 second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Settings.OdsoRecipientDataCollection clase. Una colección escrita deOdsoRecipientData
+description: Aspose.Words.Settings.OdsoRecipientDataCollection clase. Una colección mecanografiada deOdsoRecipientData
 type: docs
-weight: 5640
+weight: 5940
 url: /es/net/aspose.words.settings/odsorecipientdatacollection/
 ---
 ## OdsoRecipientDataCollection class
 
-Una colección escrita de[`OdsoRecipientData`](../odsorecipientdata/)
+Una colección mecanografiada de[`OdsoRecipientData`](../odsorecipientdata/)
+
+Para obtener más información, visite el[Combinación de correspondencia e informes](https://docs.aspose.com/words/net/mail-merge-and-reporting/) artículo de documentación.
 
 ```csharp
 public class OdsoRecipientDataCollection : IEnumerable<OdsoRecipientData>
@@ -24,7 +26,7 @@ public class OdsoRecipientDataCollection : IEnumerable<OdsoRecipientData>
 
 | Nombre | Descripción |
 | --- | --- |
-| [Count](../../aspose.words.settings/odsorecipientdatacollection/count/) { get; } | Obtiene el número de elementos que contiene la colección. |
+| [Count](../../aspose.words.settings/odsorecipientdatacollection/count/) { get; } | Obtiene el número de elementos contenidos en la colección. |
 | [Item](../../aspose.words.settings/odsorecipientdatacollection/item/) { get; set; } | Obtiene o establece un elemento de esta colección. |
 
 ## Métodos
@@ -33,12 +35,12 @@ public class OdsoRecipientDataCollection : IEnumerable<OdsoRecipientData>
 | --- | --- |
 | [Add](../../aspose.words.settings/odsorecipientdatacollection/add/)(OdsoRecipientData) | Agrega un objeto al final de esta colección. |
 | [Clear](../../aspose.words.settings/odsorecipientdatacollection/clear/)() | Elimina todos los elementos de esta colección. |
-| [GetEnumerator](../../aspose.words.settings/odsorecipientdatacollection/getenumerator/)() | Devuelve un objeto enumerador que se puede usar para iterar sobre todos los elementos de la colección. |
+| [GetEnumerator](../../aspose.words.settings/odsorecipientdatacollection/getenumerator/)() | Devuelve un objeto enumerador que se puede utilizar para iterar sobre todos los elementos de la colección. |
 | [RemoveAt](../../aspose.words.settings/odsorecipientdatacollection/removeat/)(int) | Elimina el elemento en el índice especificado. |
 
 ### Ejemplos
 
-Muestra cómo acceder a la colección de datos que designa qué registros de origen de datos combinados excluirá una combinación de correspondencia.
+Muestra cómo acceder a la colección de datos que designa qué registros de origen de datos de combinación excluirá una combinación de correspondencia.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");

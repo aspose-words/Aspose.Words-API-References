@@ -1,14 +1,14 @@
 ---
 title: Enum ExportFontFormat
 second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Saving.ExportFontFormat enumeración. Indica el formato que se utiliza para exportar fuentes mientras se renderiza a formato HTML fijo.
+description: Aspose.Words.Saving.ExportFontFormat enumeración. Indica el formato que se utiliza para exportar fuentes mientras se procesa en formato fijo HTML.
 type: docs
-weight: 4730
+weight: 4990
 url: /es/net/aspose.words.saving/exportfontformat/
 ---
 ## ExportFontFormat enumeration
 
-Indica el formato que se utiliza para exportar fuentes mientras se renderiza a formato HTML fijo.
+Indica el formato que se utiliza para exportar fuentes mientras se procesa en formato fijo HTML.
 
 ```csharp
 public enum ExportFontFormat

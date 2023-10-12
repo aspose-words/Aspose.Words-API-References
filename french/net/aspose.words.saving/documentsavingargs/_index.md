@@ -3,12 +3,14 @@ title: Class DocumentSavingArgs
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.Saving.DocumentSavingArgs classe. Un argument passé dansNotify .
 type: docs
-weight: 4690
+weight: 4950
 url: /fr/net/aspose.words.saving/documentsavingargs/
 ---
 ## DocumentSavingArgs class
 
 Un argument passé dans[`Notify`](../idocumentsavingcallback/notify/) .
+
+Pour en savoir plus, visitez le[Enregistrer un document](https://docs.aspose.com/words/net/save-a-document/) article documentaire.
 
 ```csharp
 public sealed class DocumentSavingArgs
@@ -18,7 +20,7 @@ public sealed class DocumentSavingArgs
 
 | Nom | La description |
 | --- | --- |
-| [EstimatedProgress](../../aspose.words.saving/documentsavingargs/estimatedprogress/) { get; } | Pourcentage de progression estimé global. |
+| [EstimatedProgress](../../aspose.words.saving/documentsavingargs/estimatedprogress/) { get; } | Pourcentage de progression global estimé. |
 
 ### Voir également
 

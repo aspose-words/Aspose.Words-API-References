@@ -3,7 +3,7 @@ title: ShapeBase.Top
 second_title: Aspose.Words per .NET API Reference
 description: ShapeBase proprietà. Ottiene o imposta la posizione del bordo superiore del blocco contenitore della forma.
 type: docs
-weight: 500
+weight: 540
 url: /it/net/aspose.words.drawing/shapebase/top/
 ---
 ## ShapeBase.Top property
@@ -16,9 +16,9 @@ public double Top { get; set; }
 
 ### Osservazioni
 
-Per una forma di livello superiore, il valore è in punti e relativo all'ancoraggio della forma.
+Per una forma di livello superiore, il valore è espresso in punti e relativo all'ancoraggio della forma.
 
-Per le forme in un gruppo, il valore è nello spazio delle coordinate e nelle unità del gruppo padre.
+Per le forme in un gruppo, il valore è nello spazio delle coordinate e nelle unità del gruppo principale.
 
 Il valore predefinito è 0.
 
@@ -36,13 +36,13 @@ Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 shape.WrapType = WrapType.None;
 
 // Configura la proprietà "RelativeHorizontalPosition" della forma per trattare il valore della proprietà "Left"
- // come distanza orizzontale della forma, in punti, dal lato sinistro della pagina.
+ // come la distanza orizzontale della forma, in punti, dal lato sinistro della pagina.
 shape.RelativeHorizontalPosition = RelativeHorizontalPosition.Page;
 
 // Imposta la distanza orizzontale della forma dal lato sinistro della pagina su 100.
 shape.Left = 100;
 
-// Usa la proprietà "RelativeVerticalPosition" in modo simile per posizionare la forma 80pt sotto la parte superiore della pagina.
+// Utilizza la proprietà "RelativeVerticalPosition" in modo simile per posizionare la forma 80pt sotto la parte superiore della pagina.
 shape.RelativeVerticalPosition = RelativeVerticalPosition.Page;
 shape.Top = 80;
 

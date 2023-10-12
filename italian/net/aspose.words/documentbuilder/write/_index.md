@@ -3,7 +3,7 @@ title: DocumentBuilder.Write
 second_title: Aspose.Words per .NET API Reference
 description: DocumentBuilder metodo. Inserisce una stringa nel documento nella posizione di inserimento corrente.
 type: docs
-weight: 620
+weight: 660
 url: /it/net/aspose.words/documentbuilder/write/
 ---
 ## DocumentBuilder.Write method
@@ -20,11 +20,11 @@ public void Write(string text)
 
 ### Osservazioni
 
-Formattazione del carattere corrente specificata da[`Font`](../font/)viene utilizzata la proprietà.
+Formattazione corrente del carattere specificata dal[`Font`](../font/) viene utilizzata la proprietà.
 
 ### Esempi
 
-Mostra come inserire una stringa racchiusa da un bordo in un documento.
+Mostra come inserire una stringa circondata da un bordo in un documento.
 
 ```csharp
 Document doc = new Document();
@@ -45,7 +45,7 @@ Mostra come utilizzare un generatore di documenti per creare una tabella.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Avvia la tabella, quindi popola la prima riga con due celle.
+// Inizia la tabella, quindi compila la prima riga con due celle.
 builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, Cell 1.");
@@ -77,8 +77,8 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndRow();
 
-// Durante la creazione della tabella, il generatore di documenti applicherà i suoi valori di proprietà RowFormat/CellFormat correnti
-// alla riga/cella corrente in cui si trova il cursore e a tutte le nuove righe/celle man mano che le crea.
+// Durante la creazione della tabella, il generatore di documenti applicherà i valori correnti della proprietà RowFormat/CellFormat
+// alla riga/cella corrente in cui si trova il cursore e a qualsiasi nuova riga/cella mentre le crea.
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[0].CellFormat.VerticalAlignment);
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[1].CellFormat.VerticalAlignment);
 
@@ -93,7 +93,7 @@ builder.Write("Row 2, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// Le righe e le celle aggiunte in precedenza non sono influenzate retroattivamente dalle modifiche alla formattazione del builder.
+// Le righe e le celle aggiunte in precedenza non vengono influenzate retroattivamente dalle modifiche alla formattazione del builder.
 Assert.AreEqual(0, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 Assert.AreEqual(100, table.Rows[1].RowFormat.Height);
@@ -137,8 +137,8 @@ builder.Write("Row 1, Col 2");
 builder.EndRow();
 
 // La modifica della formattazione la applicherà alla cella corrente,
-// e tutte le nuove celle che creiamo con il builder in seguito.
-// Ciò non influirà sulle celle che abbiamo aggiunto in precedenza.
+// e tutte le nuove celle che creeremo successivamente con il builder.
+// Ciò non influenzerà le celle che abbiamo aggiunto in precedenza.
 builder.CellFormat.Shading.ClearFormatting();
 
 builder.InsertCell();

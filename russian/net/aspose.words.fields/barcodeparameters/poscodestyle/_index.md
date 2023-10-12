@@ -1,14 +1,14 @@
 ---
 title: BarcodeParameters.PosCodeStyle
 second_title: Справочник по API Aspose.Words для .NET
-description: BarcodeParameters свойство. Стиль штрихкода торговой точки типы штрихкода UPCAUPCEEAN13EAN8. Допустимые значения без учета регистра STDSUP2SUP5CASE.
+description: BarcodeParameters свойство. Стиль штрихкода торговой точки типы штрихкодов UPCAUPCEEAN13EAN8. Допустимые значения без учета регистра STDSUP2SUP5CASE.
 type: docs
 weight: 140
 url: /ru/net/aspose.words.fields/barcodeparameters/poscodestyle/
 ---
 ## BarcodeParameters.PosCodeStyle property
 
-Стиль штрих-кода торговой точки (типы штрих-кода UPCA&#x7C;UPCE&#x7C;EAN13&#x7C;EAN8). Допустимые значения (без учета регистра): [STD&#x7C;SUP2&#x7C;SUP5&#x7C;CASE].
+Стиль штрих-кода торговой точки (типы штрих-кодов UPCA&#x7C;UPCE&#x7C;EAN13&#x7C;EAN8). Допустимые значения (без учета регистра): [STD&#x7C;SUP2&#x7C;SUP5&#x7C;CASE].
 
 ```csharp
 public string PosCodeStyle { get; set; }
@@ -21,9 +21,8 @@ public string PosCodeStyle { get; set; }
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-
 // Мы можем использовать собственную реализацию IBarcodeGenerator для генерации штрих-кодов,
-// и затем вставляем их в документ как изображения.
+// а затем вставляем их в документ как изображения.
 doc.FieldOptions.BarcodeGenerator = new CustomBarcodeGenerator();
 
 // Ниже приведены четыре примера различных типов штрих-кодов, которые мы можем создать с помощью нашего генератора.

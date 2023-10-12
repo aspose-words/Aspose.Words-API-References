@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.SwapBordersFacingPgs
 second_title: Aspose.Words per .NET API Reference
-description: CompatibilityOptions proprietà. Scambia i bordi di paragrafo su pagine dispari.
+description: CompatibilityOptions proprietà. Scambia i bordi dei paragrafi sulle pagine con numeri dispari.
 type: docs
 weight: 530
 url: /it/net/aspose.words.settings/compatibilityoptions/swapbordersfacingpgs/
 ---
 ## CompatibilityOptions.SwapBordersFacingPgs property
 
-Scambia i bordi di paragrafo su pagine dispari.
+Scambia i bordi dei paragrafi sulle pagine con numeri dispari.
 
 ```csharp
 public bool SwapBordersFacingPgs { get; set; }

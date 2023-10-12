@@ -3,7 +3,7 @@ title: ParagraphFormat.SuppressLineNumbers
 second_title: Aspose.Words för .NET API Referens
 description: ParagraphFormat fast egendom. Anger om det aktuella styckets rader ska undantas från radnumrering som tillämpas i det överordnade avsnittet.
 type: docs
-weight: 370
+weight: 380
 url: /sv/net/aspose.words/paragraphformat/suppresslinenumbers/
 ---
 ## ParagraphFormat.SuppressLineNumbers property

@@ -1,14 +1,14 @@
 ---
 title: Paragraph.ParentSection
 second_title: Справочник по API Aspose.Words для .NET
-description: Paragraph свойство. Извлекает родителяSection абзаца.
+description: Paragraph свойство. Получает родительский элементSection абзаца.
 type: docs
 weight: 200
 url: /ru/net/aspose.words/paragraph/parentsection/
 ---
 ## Paragraph.ParentSection property
 
-Извлекает родителя[`Section`](../../section/) абзаца.
+Получает родительский элемент[`Section`](../../section/) абзаца.
 
 ```csharp
 public Section ParentSection { get; }
@@ -22,7 +22,7 @@ public Section ParentSection { get; }
 Document doc = new Document();
 
 // Создаем заголовок и добавляем к нему абзац. Текст в этом абзаце
-// появится в верхней части каждой страницы этого раздела над основным текстом.
+// появится вверху каждой страницы этого раздела, над основным текстом.
 HeaderFooter header = new HeaderFooter(doc, HeaderFooterType.HeaderPrimary);
 doc.FirstSection.HeadersFooters.Add(header);
 

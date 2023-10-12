@@ -28,11 +28,11 @@ builder.Write("My paragraph");
 FieldPrint field = (FieldPrint)builder.InsertField(FieldType.FieldPrint, true);
 
 // 设置打印机执行指令的区域。
-// 在这种情况下，它将是包含我们的 PRINT 字段的段落。
+// 在本例中，它将是包含 PRINT 字段的段落。
 field.PostScriptGroup = "para";
 
-// 当我们使用支持 PostScript 的打印机来打印我们的文档时，
-// 此命令会将我们在“field.PostScriptGroup”中指定的整个区域变为白色。
+// 当我们使用支持PostScript的打印机来打印我们的文档时，
+// 该命令会将我们在“field.PostScriptGroup”中指定的整个区域变成白色。
 field.PrinterInstructions = "erasepage";
 
 Assert.AreEqual(" PRINT  erasepage \\p para", field.GetFieldCode());

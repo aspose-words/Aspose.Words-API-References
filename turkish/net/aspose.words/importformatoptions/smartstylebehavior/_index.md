@@ -1,14 +1,14 @@
 ---
 title: ImportFormatOptions.SmartStyleBehavior
 second_title: Aspose.Words for .NET API Referansı
-description: ImportFormatOptions mülk. Kaynak ve hedef belgelerde eşit ada sahip olduklarında stillerin nasıl içe aktarılacağını belirten bir boole değeri alır veya ayarlar . Varsayılan değeryanlış .
+description: ImportFormatOptions mülk. Kaynak ve hedef belgelerde eşit adlara sahip olduklarında stillerin nasıl içe aktarılacağını belirten bir boole değeri alır veya ayarlar . Varsayılan değerYANLIŞ .
 type: docs
-weight: 70
+weight: 80
 url: /tr/net/aspose.words/importformatoptions/smartstylebehavior/
 ---
 ## ImportFormatOptions.SmartStyleBehavior property
 
-Kaynak ve hedef belgelerde eşit ada sahip olduklarında stillerin nasıl içe aktarılacağını belirten bir boole değeri alır veya ayarlar . Varsayılan değer`yanlış` .
+Kaynak ve hedef belgelerde eşit adlara sahip olduklarında stillerin nasıl içe aktarılacağını belirten bir boole değeri alır veya ayarlar . Varsayılan değer:`YANLIŞ` .
 
 ```csharp
 public bool SmartStyleBehavior { get; set; }
@@ -16,9 +16,9 @@ public bool SmartStyleBehavior { get; set; }
 
 ### Notlar
 
-Bu seçenek ne zaman **etkinleştirilmiş** , kaynak stil, aşağıdaki durumlarda a hedef belge içindeki doğrudan niteliklere genişletilecektir:KeepSourceFormatting içe aktarma modu kullanılır.
+Bu seçenek olduğunda **etkinleştirilmiş** kaynak stili a hedef belgesinin içindeki doğrudan niteliklere genişletilecektir, eğerKeepSourceFormatting içe aktarma modu kullanılır.
 
-Bu seçenek ne zaman **engelli**, kaynak stil yalnızca numaralandırılmışsa genişletilecektir. Listeler dahil olmak üzere, mevcut hedef öznitelikleri geçersiz kılınmayacaktır.
+Bu seçenek olduğunda **engelli**kaynak stili yalnızca numaralandırılmışsa genişletilecektir. Listeler dahil, Existing hedef nitelikleri geçersiz kılınmayacak.
 
 ### Örnekler
 
@@ -36,14 +36,14 @@ myStyle.Font.Color = Color.Blue;
 builder.ParagraphFormat.StyleName = myStyle.Name;
 builder.Writeln("Hello world!");
 
-// Belgeyi klonlayın ve klonun "MyStyle" stilini düzenleyin, böylece orijinalden farklı bir renk olur.
-// Klonu orijinal belgeye eklersek, aynı ada sahip iki stil çakışmaya neden olur.
+// Belgeyi kopyalayın ve kopyanın "MyStyle" stilini düzenleyin, böylece orijinalinden farklı bir renk olur.
+// Klonu orijinal belgeye eklersek aynı isimdeki iki stil çakışmaya neden olur.
 Document srcDoc = dstDoc.Clone();
 srcDoc.Styles["MyStyle"].Font.Color = Color.Red;
 
-// SmartStyleBehavior'ı etkinleştirdiğimizde ve KeepSourceFormatting içe aktarma biçimi modunu kullandığımızda,
+// SmartStyleBehavior'ı etkinleştirdiğimizde ve KeepSourceFormatting içe aktarma formatı modunu kullandığımızda,
 // Aspose.Words, kaynak belge stillerini dönüştürerek stil çakışmalarını çözecektir.
-// doğrudan paragraf niteliklerine hedef stiller ile aynı adlarla.
+// hedef stillerle aynı adları doğrudan paragraf niteliklerine dönüştürün.
 ImportFormatOptions options = new ImportFormatOptions();
 options.SmartStyleBehavior = true;
 

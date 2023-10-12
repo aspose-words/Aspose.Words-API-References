@@ -1,14 +1,14 @@
 ---
 title: TextColumnCollection.Item
 second_title: Aspose.Words per .NET API Reference
-description: TextColumnCollection proprietà. Restituisce una colonna di testo in corrispondenza dellindice specificato.
+description: TextColumnCollection proprietà. Restituisce una colonna di testo nellindice specificato.
 type: docs
 weight: 30
 url: /it/net/aspose.words/textcolumncollection/item/
 ---
 ## TextColumnCollection indexer
 
-Restituisce una colonna di testo in corrispondenza dell'indice specificato.
+Restituisce una colonna di testo nell'indice specificato.
 
 ```csharp
 public TextColumn this[int index] { get; }
@@ -37,7 +37,7 @@ TextColumn column = columns[0];
 column.Width = 100;
 column.SpaceAfter = 20;
 
-// Imposta la seconda colonna per occupare il resto dello spazio disponibile all'interno dei margini della pagina.
+// Imposta la seconda colonna per occupare il resto dello spazio disponibile entro i margini della pagina.
 column = columns[1];
 column.Width = contentWidth - column.Width - column.SpaceAfter;
 

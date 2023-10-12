@@ -16,7 +16,7 @@ public IEnumerator<Node> GetEnumerator()
 
 ### قيمة الإرجاع
 
-مبسط IEnumerator.
+العداد.
 
 ### أنظر أيضا
 

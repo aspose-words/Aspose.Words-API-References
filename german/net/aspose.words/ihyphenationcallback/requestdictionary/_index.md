@@ -10,9 +10,9 @@ url: /de/net/aspose.words/ihyphenationcallback/requestdictionary/
 
 Benachrichtigt die Anwendung, dass das Silbentrennungswörterbuch für die angegebene Sprache nicht gefunden wurde und möglicherweise registriert werden muss.
 
-Die Implementierung sollte ein Wörterbuch finden und es mit registrieren[`RegisterDictionary`](../../hyphenation/registerdictionary/)Methoden.
+Die Implementierung sollte ein Wörterbuch finden und es mit registrieren[`RegisterDictionary`](../../hyphenation/registerdictionary/) Methoden.
 
-Wenn das Wörterbuch für die angegebene Sprachimplementierung nicht verfügbar ist, können Sie weitere Aufrufe für die gleiche Sprache verwenden[`RegisterDictionary`](../../hyphenation/registerdictionary/) mit Nullwert.
+Wenn das Wörterbuch für die angegebene Sprachimplementierung nicht verfügbar ist, können Sie sich von weiteren Aufrufen für dieselbe Sprache abmelden[`RegisterDictionary`](../../hyphenation/registerdictionary/) mit`Null` value.
 
 ```csharp
 public void RequestDictionary(string language)
@@ -20,7 +20,7 @@ public void RequestDictionary(string language)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| language | String | Ein Sprachname, zB "en-US". Einzelheiten finden Sie in der .NET-Dokumentation für „Kulturname“ und RFC 4646. |
+| language | String | Ein Sprachname, z. B. „en-US“. Weitere Informationen finden Sie in der .NET-Dokumentation für „Kulturname“ und RFC 4646. |
 
 ### Bemerkungen
 
@@ -28,25 +28,26 @@ Von dieser Methode ausgelöste Ausnahmen brechen die Ausführung des Seitenlayou
 
 ### Beispiele
 
-Zeigt, wie ein Wörterbuch aus einer Datei geöffnet und registriert wird.
+Zeigt, wie man ein Wörterbuch aus einer Datei öffnet und registriert.
 
 ```csharp
+public void RegisterDictionary()
 {
     // Richten Sie einen Rückruf ein, der Warnungen verfolgt, die während der Registrierung des Silbentrennungswörterbuchs auftreten.
     WarningInfoCollection warningInfoCollection = new WarningInfoCollection();
     Hyphenation.WarningCallback = warningInfoCollection;
 
-    // Registrieren Sie ein englisches (US) Silbentrennungswörterbuch nach Stream.
+    // Registrieren Sie ein englisches (US) Silbentrennungswörterbuch per Stream.
     Stream dictionaryStream = new FileStream(MyDir + "hyph_en_US.dic", FileMode.Open);
     Hyphenation.RegisterDictionary("en-US", dictionaryStream);
 
     Assert.AreEqual(0, warningInfoCollection.Count);
 
-    // Öffnen Sie ein Dokument mit einem Gebietsschema, das Microsoft Word auf einem englischen Computer nicht trennen darf, z. B. Deutsch.
+    // Öffnen Sie ein Dokument mit einem Gebietsschema, das Microsoft Word auf einem englischen Computer, z. B. Deutsch, nicht trennen darf.
     Document doc = new Document(MyDir + "German text.docx");
 
-    // Um dieses Dokument beim Speichern zu trennen, benötigen wir ein Silbentrennungswörterbuch für den Sprachcode "de-CH".
-    // Dieser Rückruf behandelt die automatische Anfrage für dieses Wörterbuch.
+    // Um dieses Dokument beim Speichern zu trennen, benötigen wir ein Silbentrennungswörterbuch für den Sprachcode „de-CH“.
+    // Dieser Rückruf verarbeitet die automatische Anfrage für dieses Wörterbuch.
     Hyphenation.Callback = new CustomHyphenationDictionaryRegister();
 
     // Wenn wir das Dokument speichern, wird die deutsche Silbentrennung wirksam.

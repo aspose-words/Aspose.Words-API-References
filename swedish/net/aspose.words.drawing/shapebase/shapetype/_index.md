@@ -3,7 +3,7 @@ title: ShapeBase.ShapeType
 second_title: Aspose.Words för .NET API Referens
 description: ShapeBase fast egendom. Hämtar formtypen.
 type: docs
-weight: 460
+weight: 500
 url: /sv/net/aspose.words.drawing/shapebase/shapetype/
 ---
 ## ShapeBase.ShapeType property

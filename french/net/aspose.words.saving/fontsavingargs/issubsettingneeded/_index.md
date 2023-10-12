@@ -1,14 +1,14 @@
 ---
 title: FontSavingArgs.IsSubsettingNeeded
 second_title: Référence de l'API Aspose.Words pour .NET
-description: FontSavingArgs propriété. Permet de spécifier si la police actuelle sera sousensemble avant dexporter en tant que ressource de police.
+description: FontSavingArgs propriété. Permet de spécifier si la police actuelle sera sousensemble avant de lexporter en tant que ressource de police.
 type: docs
 weight: 70
 url: /fr/net/aspose.words.saving/fontsavingargs/issubsettingneeded/
 ---
 ## FontSavingArgs.IsSubsettingNeeded property
 
-Permet de spécifier si la police actuelle sera sous-ensemble avant d'exporter en tant que ressource de police.
+Permet de spécifier si la police actuelle sera sous-ensemble avant de l'exporter en tant que ressource de police.
 
 ```csharp
 public bool IsSubsettingNeeded { get; set; }
@@ -16,15 +16,16 @@ public bool IsSubsettingNeeded { get; set; }
 
 ### Remarques
 
-Les polices peuvent être exportées sous forme de fichiers de polices d'origine complets ou sous-ensembles pour inclure uniquement les caractères utilisés dans le document. Le sous-ensemble permet de réduire la taille de la ressource de police résultante.
+Les polices peuvent être exportées sous forme de fichiers de polices originaux complets ou sous-ensembles pour inclure uniquement les caractères utilisés dans le document. Le sous-ensemble permet de réduire la taille de la ressource de police résultante.
 
 Par défaut, Aspose.Words décide d'effectuer ou non un sous-ensemble en comparant la taille du fichier de police d'origine avec celle spécifiée dans[`FontResourcesSubsettingSizeThreshold`](../../htmlsaveoptions/fontresourcessubsettingsizethreshold/) . Vous pouvez remplacer ce comportement pour des polices individuelles en définissant le`IsSubsettingNeeded` propriété.
 
 ### Exemples
 
-Montre comment définir une logique personnalisée pour l'exportation des polices lors de l'enregistrement au format HTML.
+Montre comment définir une logique personnalisée pour l’exportation des polices lors de l’enregistrement au format HTML.
 
 ```csharp
+public void SaveExportedFonts()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
@@ -44,8 +45,10 @@ Montre comment définir une logique personnalisée pour l'exportation des police
         Console.WriteLine(fontFilename);
     }
 
+}
+
 /// <summary>
-/// Imprime des informations sur les polices exportées et les enregistre dans le même dossier système local que leur sortie .html.
+/// Imprime les informations sur les polices exportées et les enregistre dans le même dossier système local que leur sortie .html.
 /// </summary>
 public class HandleFontSaving : IFontSavingCallback
 {
@@ -62,7 +65,7 @@ public class HandleFontSaving : IFontSavingCallback
         Assert.True(args.IsExportNeeded);
         Assert.True(args.IsSubsettingNeeded);
 
-        // Il existe deux manières d'enregistrer une police exportée.
+        // Il existe deux manières de sauvegarder une police exportée.
         // 1 - Enregistrez-le dans un emplacement du système de fichiers local :
         args.FontFileName = args.OriginalFileName.Split(Path.DirectorySeparatorChar).Last();
 

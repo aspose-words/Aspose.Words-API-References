@@ -1,16 +1,16 @@
 ---
 title: ResourceLoadingArgs.Uri
 second_title: Справочник по API Aspose.Words для .NET
-description: ResourceLoadingArgs свойство. URI ресурса который используется для скачивания  еслиResourceLoading возвращаетDefault.
+description: ResourceLoadingArgs свойство. URI ресурса который используется для загрузки  еслиResourceLoading возвращаетDefault.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.loading/resourceloadingargs/uri/
 ---
 ## ResourceLoadingArgs.Uri property
 
-URI ресурса, который используется для скачивания , если[`ResourceLoading`](../../iresourceloadingcallback/resourceloading/) возвращаетDefault.
+URI ресурса, который используется для загрузки , если[`ResourceLoading`](../../iresourceloadingcallback/resourceloading/) возвращаетDefault.
 
-Первоначально он установлен на абсолютный URI ресурса, , но пользователь может переопределить его на любое значение.
+Первоначально для него установлен абсолютный URI ресурса , но пользователь может переопределить его на любое значение.
 
 ```csharp
 public string Uri { get; set; }

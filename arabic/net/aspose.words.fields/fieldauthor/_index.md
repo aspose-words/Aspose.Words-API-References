@@ -1,14 +1,16 @@
 ---
 title: Class FieldAuthor
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fields.FieldAuthor فصل. تنفيذ حقل AUTHOR .
+description: Aspose.Words.Fields.FieldAuthor فصل. ينفذ حقل المؤلف.
 type: docs
-weight: 1420
+weight: 1570
 url: /ar/net/aspose.words.fields/fieldauthor/
 ---
 ## FieldAuthor class
 
-تنفيذ حقل AUTHOR .
+ينفذ حقل المؤلف.
+
+لمعرفة المزيد، قم بزيارة[العمل مع الحقول](https://docs.aspose.com/words/net/working-with-fields/) مقالة توثيقية.
 
 ```csharp
 public class FieldAuthor : Field
@@ -24,49 +26,49 @@ public class FieldAuthor : Field
 
 | اسم | وصف |
 | --- | --- |
-| [AuthorName](../../aspose.words.fields/fieldauthor/authorname/) { get; set; } | الحصول على أو تحديد اسم مؤلف المستند. |
-| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | يحصل على النص الذي يمثل نتيجة الحقل المعروض. |
+| [AuthorName](../../aspose.words.fields/fieldauthor/authorname/) { get; set; } | الحصول على اسم مؤلف المستند أو تعيينه. |
+| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | الحصول على النص الذي يمثل نتيجة الحقل المعروض. |
 | [End](../../aspose.words.fields/field/end/) { get; } | يحصل على العقدة التي تمثل نهاية الحقل. |
-| [Format](../../aspose.words.fields/field/format/) { get; } | يحصل على أ[`FieldFormat`](../fieldformat/) كائن يوفر وصولاً مكتوبًا إلى تنسيق الحقل. |
-| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | الحصول على أو تحديد ما إذا كانت النتيجة الحالية للحقل لم تعد صحيحة (قديمة) بسبب التعديلات الأخرى التي تم إجراؤها على المستند. |
-| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | تحديد ما إذا كان الحقل مغلقًا أم لا (يجب عدم إعادة حساب النتيجة). |
-| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | الحصول على أو تحديد LCID للحقل. |
+| [Format](../../aspose.words.fields/field/format/) { get; } | يحصل على[`FieldFormat`](../fieldformat/) الكائن الذي يوفر الوصول المكتوب إلى تنسيق الحقل. |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | الحصول على أو تعيين ما إذا كانت النتيجة الحالية للحقل لم تعد صحيحة (قديمة) بسبب تعديلات أخرى تم إجراؤها على المستند. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | الحصول على أو تعيين ما إذا كان الحقل مقفلاً (لا ينبغي إعادة حساب النتيجة). |
+| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | الحصول على أو تعيين LCID الخاص بالحقل. |
 | [Result](../../aspose.words.fields/field/result/) { get; set; } | الحصول على أو تعيين النص الموجود بين فاصل الحقل ونهاية الحقل. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | يحصل على العقدة التي تمثل فاصل المجال. يمكن أن يكون فارغًا. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | يحصل على العقدة التي تمثل فاصل الحقول. يمكن ان يكون`باطل` . |
 | [Start](../../aspose.words.fields/field/start/) { get; } | يحصل على العقدة التي تمثل بداية الحقل. |
-| virtual [Type](../../aspose.words.fields/field/type/) { get; } | يحصل على نوع حقل Microsoft Word . |
+| virtual [Type](../../aspose.words.fields/field/type/) { get; } | الحصول على نوع حقل Microsoft Word. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل) . يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل) . |
-| [Remove](../../aspose.words.fields/field/remove/)() | يزيل الحقل من المستند. إرجاع عقدة بعد الحقل مباشرة. إذا كانت نهاية الحقل هي آخر child من العقدة الأصلية ، يتم إرجاع فقرته الأصلية. إذا تمت إزالة الحقل بالفعل ، يعود **لا شيء** . |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). |
+| [Remove](../../aspose.words.fields/field/remove/)() | إزالة الحقل من المستند. إرجاع عقدة مباشرة بعد الحقل. إذا كانت نهاية الحقل هي الطفل الأخير للعقدة الأصلية، فسيتم إرجاع الفقرة الأصلية الخاصة به. إذا تمت إزالة الحقل بالفعل، فسيتم إرجاعه`باطل` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | يقوم بإلغاء ربط الحقل. |
-| [Update](../../aspose.words.fields/field/update/)() | يقوم بالتحديث الميداني. يرمي إذا تم تحديث الحقل بالفعل. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | يقوم بإجراء تحديث ميداني. يرمي إذا تم تحديث الحقل بالفعل. |
+| [Update](../../aspose.words.fields/field/update/)() | يقوم بإجراء التحديث الميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
+| [Update](../../aspose.words.fields/field/update/)(bool) | إجراء تحديث ميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
 
 ### ملاحظات
 
-استرداد ، واختيار اسم مؤلف المستند ، كما هو مسجل في ملف **مؤلف**خاصية the خصائص المستند المضمنة .
+استرداد وتعيين اسم مؤلف المستند اختياريًا، كما هو مسجل في **مؤلف** خاصية خصائص المستند المضمنة.
 
 ### أمثلة
 
-يوضح كيفية استخدام حقل AUTHOR لعرض اسم منشئ المستند.
+يوضح كيفية استخدام حقل المؤلف لعرض اسم منشئ المستند.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// مصدر الحقول AUTHOR هو نتائجها من خاصية المستند المضمنة التي تسمى "المؤلف".
-// إذا أنشأنا مستندًا وحفظناه في Microsoft Word ،
-// سيكون لها اسم المستخدم الخاص بنا في تلك الخاصية.
-// ومع ذلك ، إذا أنشأنا مستندًا برمجيًا باستخدام Aspose.Words ،
- // ستكون خاصية "المؤلف" ، افتراضيًا ، سلسلة فارغة.
+// حقول المؤلف مصدر نتائجها من خاصية المستند المضمنة والتي تسمى "المؤلف".
+// إذا قمنا بإنشاء مستند وحفظه في برنامج Microsoft Word،
+// سيكون له اسم المستخدم الخاص بنا في تلك الخاصية.
+// ومع ذلك، إذا قمنا بإنشاء مستند برمجيًا باستخدام Aspose.Words،
+// ستكون خاصية "المؤلف" سلسلة فارغة بشكل افتراضي.
 Assert.AreEqual(string.Empty, doc.BuiltInDocumentProperties.Author);
 
-// تعيين اسم مؤلف احتياطي لحقول AUTHOR المراد استخدامها
+// قم بتعيين اسم مؤلف احتياطي لحقول المؤلف لاستخدامها
 // إذا كانت خاصية "المؤلف" تحتوي على سلسلة فارغة.
 doc.FieldOptions.DefaultDocumentAuthor = "Joe Bloggs";
 
@@ -77,18 +79,18 @@ field.Update();
 Assert.AreEqual(" AUTHOR ", field.GetFieldCode());
 Assert.AreEqual("Joe Bloggs", field.Result);
 
-// تحديث حقل AUTHOR يحتوي على قيمة
-// سيطبق هذه القيمة على خاصية "المؤلف" المضمنة.
+// تحديث حقل المؤلف الذي يحتوي على قيمة
+// سيتم تطبيق هذه القيمة على خاصية "المؤلف" المضمنة.
 Assert.AreEqual("Joe Bloggs", doc.BuiltInDocumentProperties.Author);
 
-// سيؤدي تغيير هذه الخاصية ، ثم تحديث حقل AUTHOR إلى تطبيق هذه القيمة على الحقل.
+// سيؤدي تغيير هذه الخاصية ثم تحديث حقل المؤلف إلى تطبيق هذه القيمة على الحقل.
 doc.BuiltInDocumentProperties.Author = "John Doe";      
 field.Update();
 
 Assert.AreEqual(" AUTHOR ", field.GetFieldCode());
 Assert.AreEqual("John Doe", field.Result);
 
-// إذا قمنا بتحديث حقل AUTHOR بعد تغيير خاصية "الاسم" الخاصة به ،
+// إذا قمنا بتحديث حقل المؤلف بعد تغيير خاصية "الاسم" الخاصة به،
 // ثم سيعرض الحقل الاسم الجديد ويطبق الاسم الجديد على الخاصية المضمنة.
 field.AuthorName = "Jane Doe";
 field.Update();
@@ -96,7 +98,7 @@ field.Update();
 Assert.AreEqual(" AUTHOR  \"Jane Doe\"", field.GetFieldCode());
 Assert.AreEqual("Jane Doe", field.Result);
 
-// لا تؤثر حقول AUTHOR على خاصية DefaultDocumentAuthor.
+// حقول المؤلف لا تؤثر على خاصية DefaultDocumentAuthor.
 Assert.AreEqual("Jane Doe", doc.BuiltInDocumentProperties.Author);
 Assert.AreEqual("Joe Bloggs", doc.FieldOptions.DefaultDocumentAuthor);
 

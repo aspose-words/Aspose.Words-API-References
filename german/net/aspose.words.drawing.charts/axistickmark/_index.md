@@ -3,7 +3,7 @@ title: Enum AxisTickMark
 second_title: Aspose.Words für .NET-API-Referenz
 description: Aspose.Words.Drawing.Charts.AxisTickMark opsomming. Gibt die möglichen Positionen für Teilstriche an.
 type: docs
-weight: 580
+weight: 590
 url: /de/net/aspose.words.drawing.charts/axistickmark/
 ---
 ## AxisTickMark enumeration
@@ -21,7 +21,7 @@ public enum AxisTickMark
 | Cross | `0` | Gibt an, dass die Teilstriche die Achse kreuzen sollen. |
 | Inside | `1` | Gibt an, dass die Teilstriche innerhalb des Plotbereichs liegen sollen. |
 | Outside | `2` | Gibt an, dass die Teilstriche außerhalb des Plotbereichs liegen sollen. |
-| None | `3` | Gibt an, dass keine Teilstriche vorhanden sein sollen. |
+| None | `3` | Gibt an, dass keine Häkchen vorhanden sein sollen. |
 
 ### Beispiele
 
@@ -46,7 +46,7 @@ chart.Series.Add("Aspose Test Series",
     },
     new[] { 1.2, 0.3, 2.1, 2.9, 4.2, 5.3 });
 
-// Untere und obere Grenzen für die X-Achse setzen.
+// Untere und obere Grenze für die X-Achse festlegen.
 ChartAxis xAxis = chart.AxisX;
 xAxis.Scaling.Minimum = new AxisBound(new DateTime(2017, 11, 05).ToOADate());
 xAxis.Scaling.Maximum = new AxisBound(new DateTime(2017, 12, 03));
@@ -57,8 +57,10 @@ xAxis.MajorUnit = 7.0d;
 xAxis.MajorTickMark = AxisTickMark.Cross;
 xAxis.MinorUnit = 1.0d;
 xAxis.MinorTickMark = AxisTickMark.Outside;
+xAxis.HasMajorGridlines = true;
+xAxis.HasMinorGridlines = true;
 
-// Eigenschaften der Y-Achse für Dezimalwerte definieren.
+// Y-Achsen-Eigenschaften für Dezimalwerte definieren.
 ChartAxis yAxis = chart.AxisY;
 yAxis.TickLabelPosition = AxisTickLabelPosition.High;
 yAxis.MajorUnit = 100.0d;
@@ -66,6 +68,8 @@ yAxis.MinorUnit = 50.0d;
 yAxis.DisplayUnit.Unit = AxisBuiltInUnit.Hundreds;
 yAxis.Scaling.Minimum = new AxisBound(100);
 yAxis.Scaling.Maximum = new AxisBound(700);
+yAxis.HasMajorGridlines = true;
+yAxis.HasMinorGridlines = true;
 
 doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 ```

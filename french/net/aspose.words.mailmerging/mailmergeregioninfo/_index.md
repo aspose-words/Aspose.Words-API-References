@@ -1,14 +1,16 @@
 ---
 title: Class MailMergeRegionInfo
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.MailMerging.MailMergeRegionInfo classe. Contient des informations sur une région de fusion et publipostage.
+description: Aspose.Words.MailMerging.MailMergeRegionInfo classe. Contient des informations sur une région de publipostage.
 type: docs
-weight: 3640
+weight: 3860
 url: /fr/net/aspose.words.mailmerging/mailmergeregioninfo/
 ---
 ## MailMergeRegionInfo class
 
-Contient des informations sur une région de fusion et publipostage.
+Contient des informations sur une région de publipostage.
+
+Pour en savoir plus, visitez le[Fusion et publipostage et création de rapports](https://docs.aspose.com/words/net/mail-merge-and-reporting/) article documentaire.
 
 ```csharp
 public class MailMergeRegionInfo
@@ -19,16 +21,19 @@ public class MailMergeRegionInfo
 | Nom | La description |
 | --- | --- |
 | [EndField](../../aspose.words.mailmerging/mailmergeregioninfo/endfield/) { get; } | Renvoie un champ de fin pour la région. |
+| [EndMustacheTag](../../aspose.words.mailmerging/mailmergeregioninfo/endmustachetag/) { get; } | Renvoie une balise de fin "moustache" pour la région. |
 | [Fields](../../aspose.words.mailmerging/mailmergeregioninfo/fields/) { get; } | Renvoie une liste de champs enfants. |
-| [Level](../../aspose.words.mailmerging/mailmergeregioninfo/level/) { get; } | Renvoie le niveau d'imbrication de la région. |
+| [Level](../../aspose.words.mailmerging/mailmergeregioninfo/level/) { get; } | Renvoie le niveau d'imbrication pour la région. |
+| [MustacheTags](../../aspose.words.mailmerging/mailmergeregioninfo/mustachetags/) { get; } | Renvoie une liste de balises enfants "moustache". |
 | [Name](../../aspose.words.mailmerging/mailmergeregioninfo/name/) { get; } | Renvoie le nom de la région. |
-| [ParentRegion](../../aspose.words.mailmerging/mailmergeregioninfo/parentregion/) { get; } | Renvoie les informations sur la région parente (null pour la région de niveau supérieur). |
+| [ParentRegion](../../aspose.words.mailmerging/mailmergeregioninfo/parentregion/) { get; } | Renvoie les informations sur la région parent (null pour la région de niveau supérieur). |
 | [Regions](../../aspose.words.mailmerging/mailmergeregioninfo/regions/) { get; } | Renvoie une liste de régions enfants. |
 | [StartField](../../aspose.words.mailmerging/mailmergeregioninfo/startfield/) { get; } | Renvoie un champ de début pour la région. |
+| [StartMustacheTag](../../aspose.words.mailmerging/mailmergeregioninfo/startmustachetag/) { get; } | Renvoie une balise de début "moustache" pour la région. |
 
 ### Exemples
 
-Montre comment vérifier les régions de fusion et publipostage.
+Montre comment vérifier les régions de publipostage.
 
 ```csharp
 Document doc = new Document(MyDir + "Mail merge regions.docx");
@@ -36,7 +41,7 @@ Document doc = new Document(MyDir + "Mail merge regions.docx");
 // Renvoie une hiérarchie complète des régions de fusion contenant les MERGEFIELD disponibles dans le document.
 MailMergeRegionInfo regionInfo = doc.MailMerge.GetRegionsHierarchy();
 
-// Récupère les régions supérieures dans le document.
+// Récupère les principales régions du document.
 IList<MailMergeRegionInfo> topRegions = regionInfo.Regions;
 
 Assert.AreEqual(2, topRegions.Count);

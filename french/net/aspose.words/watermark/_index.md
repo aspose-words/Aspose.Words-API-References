@@ -1,14 +1,16 @@
 ---
 title: Class Watermark
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Watermark classe. Représente la classe pour travailler avec le filigrane du document.
+description: Aspose.Words.Watermark classe. Représente la classe permettant de travailler avec le filigrane de document.
 type: docs
-weight: 6360
+weight: 6670
 url: /fr/net/aspose.words/watermark/
 ---
 ## Watermark class
 
-Représente la classe pour travailler avec le filigrane du document.
+Représente la classe permettant de travailler avec le filigrane de document.
+
+Pour en savoir plus, visitez le[Travailler avec un filigrane](https://docs.aspose.com/words/net/working-with-watermark/) article documentaire.
 
 ```csharp
 public sealed class Watermark

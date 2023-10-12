@@ -1,14 +1,14 @@
 ---
 title: Enum AutoFitBehavior
 second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Tables.AutoFitBehavior enum. Determina in che modo Aspose.Words ridimensiona la tabella quando si richiama il fileAutoFit metodo.
+description: Aspose.Words.Tables.AutoFitBehavior enum. Determina il modo in cui Aspose.Words ridimensiona la tabella quando si richiama ilAutoFit metodo.
 type: docs
-weight: 5930
+weight: 6230
 url: /it/net/aspose.words.tables/autofitbehavior/
 ---
 ## AutoFitBehavior enumeration
 
-Determina in che modo Aspose.Words ridimensiona la tabella quando si richiama il file[`AutoFit`](../table/autofit/) metodo.
+Determina il modo in cui Aspose.Words ridimensiona la tabella quando si richiama il[`AutoFit`](../table/autofit/) metodo.
 
 ```csharp
 public enum AutoFitBehavior
@@ -18,9 +18,9 @@ public enum AutoFitBehavior
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| AutoFitToContents | `0` | Aspose.Words abilita l'opzione Adatta, rimuove la larghezza preferita dalla tabella e da tutte le celle e quindi aggiorna il layout della tabella. |
-| AutoFitToWindow | `1` | Quando si utilizza questo valore, Aspose.Words abilita l'opzione Adatta automaticamente, imposta la larghezza preferita per la tabella su 100%, rimuove le larghezze preferite da tutte le celle e quindi aggiorna il layout della tabella. |
-| FixedColumnWidths | `2` | Aspose.Words disabilita l'opzione Adatta e rimuove il preferito con dalla tabella. |
+| AutoFitToContents | `0` | Aspose.Words abilita l'opzione Adattamento automatico, rimuove la larghezza preferita dalla tabella e da tutte le celle e quindi aggiorna il layout della tabella. |
+| AutoFitToWindow | `1` | Quando si utilizza questo valore, Aspose.Words abilita l'opzione Adattamento automatico, imposta la larghezza preferita per la tabella al 100%, rimuove le larghezze preferite da tutte le celle e quindi aggiorna il layout della tabella. |
+| FixedColumnWidths | `2` | Aspose.Words disabilita l'opzione AutoFit e rimuove il preferito dalla tabella. |
 
 ### Esempi
 
@@ -34,11 +34,11 @@ Table table = builder.StartTable();
 // Dobbiamo inserire almeno una riga prima di impostare qualsiasi formattazione della tabella.
 builder.InsertCell();
 
-// Imposta lo stile della tabella utilizzato in base all'identificatore di stile.
-// Nota che non tutti gli stili di tabella sono disponibili durante il salvataggio in formato .doc.
+// Imposta lo stile della tabella utilizzato in base all'identificatore dello stile.
+// Tieni presente che non tutti gli stili di tabella sono disponibili quando si salva nel formato .doc.
 table.StyleIdentifier = StyleIdentifier.MediumShading1Accent1;
 
-// Applica parzialmente lo stile alle caratteristiche della tabella in base ai predicati, quindi crea la tabella.
+// Applica parzialmente lo stile alle funzionalità della tabella in base ai predicati, quindi crea la tabella.
 table.StyleOptions =
     TableStyleOptions.FirstColumn | TableStyleOptions.RowBands | TableStyleOptions.FirstRow;
 table.AutoFit(AutoFitBehavior.AutoFitToContents);
@@ -84,8 +84,8 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndRow();
 
-// Durante la creazione della tabella, il generatore di documenti applicherà i suoi valori di proprietà RowFormat/CellFormat correnti
-// alla riga/cella corrente in cui si trova il cursore e a tutte le nuove righe/celle man mano che le crea.
+// Durante la creazione della tabella, il generatore di documenti applicherà i valori correnti della proprietà RowFormat/CellFormat
+// alla riga/cella corrente in cui si trova il cursore e a qualsiasi nuova riga/cella mentre le crea.
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[0].CellFormat.VerticalAlignment);
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[1].CellFormat.VerticalAlignment);
 
@@ -100,7 +100,7 @@ builder.Write("Row 2, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// Le righe e le celle aggiunte in precedenza non sono influenzate retroattivamente dalle modifiche alla formattazione del builder.
+// Le righe e le celle aggiunte in precedenza non vengono influenzate retroattivamente dalle modifiche alla formattazione del builder.
 Assert.AreEqual(0, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 Assert.AreEqual(100, table.Rows[1].RowFormat.Height);

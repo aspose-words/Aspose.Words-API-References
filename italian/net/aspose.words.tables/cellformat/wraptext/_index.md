@@ -1,14 +1,14 @@
 ---
 title: CellFormat.WrapText
 second_title: Aspose.Words per .NET API Reference
-description: CellFormat proprietà. Se vero manda a capo il testo per la cella.
+description: CellFormat proprietà. SeVERO  manda a capo il testo per la cella.
 type: docs
-weight: 140
+weight: 150
 url: /it/net/aspose.words.tables/cellformat/wraptext/
 ---
 ## CellFormat.WrapText property
 
-Se vero, manda a capo il testo per la cella.
+Se`VERO` , manda a capo il testo per la cella.
 
 ```csharp
 public bool WrapText { get; set; }
@@ -49,8 +49,8 @@ builder.Write("Row 1, Col 2");
 builder.EndRow();
 
 // La modifica della formattazione la applicherà alla cella corrente,
-// e tutte le nuove celle che creiamo con il builder in seguito.
-// Ciò non influirà sulle celle che abbiamo aggiunto in precedenza.
+// e tutte le nuove celle che creeremo successivamente con il builder.
+// Ciò non influenzerà le celle che abbiamo aggiunto in precedenza.
 builder.CellFormat.Shading.ClearFormatting();
 
 builder.InsertCell();

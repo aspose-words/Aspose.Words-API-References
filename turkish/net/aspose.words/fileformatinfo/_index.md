@@ -3,12 +3,14 @@ title: Class FileFormatInfo
 second_title: Aspose.Words for .NET API Referansı
 description: Aspose.Words.FileFormatInfo sınıf. Tarafından döndürülen verileri içerirFileFormatUtil belge biçimi algılama yöntemleri.
 type: docs
-weight: 2630
+weight: 2810
 url: /tr/net/aspose.words/fileformatinfo/
 ---
 ## FileFormatInfo class
 
 Tarafından döndürülen verileri içerir[`FileFormatUtil`](../fileformatutil/) belge biçimi algılama yöntemleri.
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Dosya Formatını Algıla ve Format Uyumluluğunu Kontrol Et](https://docs.aspose.com/words/net/detect-file-format-and-check-format-compatibility/) dokümantasyon makalesi.
 
 ```csharp
 public class FileFormatInfo
@@ -18,14 +20,14 @@ public class FileFormatInfo
 
 | İsim | Tanım |
 | --- | --- |
-| [Encoding](../../aspose.words/fileformatinfo/encoding/) { get; } | Geçerli belge biçimi için geçerliyse algılanan kodlamayı alır. Şu anda yalnızca HTML belgeleri için kodlamayı algılar. |
-| [HasDigitalSignature](../../aspose.words/fileformatinfo/hasdigitalsignature/) { get; } | Bu belge bir dijital imza içeriyorsa true değerini döndürür. Bu özellik, yalnızca belgesinde bir dijital imzanın bulunduğunu bildirir, ancak imzanın geçerli olup olmadığını belirtmez. |
-| [IsEncrypted](../../aspose.words/fileformatinfo/isencrypted/) { get; } | Belge şifrelenmişse ve açmak için bir parola gerektiriyorsa true değerini döndürür. |
+| [Encoding](../../aspose.words/fileformatinfo/encoding/) { get; } | Geçerli belge biçimine uygunsa, algılanan kodlamayı alır. Şu anda yalnızca HTML belgeleri için kodlamayı algılar. |
+| [HasDigitalSignature](../../aspose.words/fileformatinfo/hasdigitalsignature/) { get; } | İadeler`doğru`Bu belge dijital imza içeriyorsa. Bu özellik yalnızca bir belgede dijital imzanın bulunduğunu bildirir, ancak imzanın geçerli olup olmadığını belirtmez. |
+| [IsEncrypted](../../aspose.words/fileformatinfo/isencrypted/) { get; } | İadeler`doğru` belge şifrelenmişse ve açmak için şifre gerektiriyorsa. |
 | [LoadFormat](../../aspose.words/fileformatinfo/loadformat/) { get; } | Algılanan belge biçimini alır. |
 
 ### Notlar
 
-Bu sınıfın örneklerini doğrudan oluşturmazsınız. Bu sınıfın nesneleri tarafından döndürülür[`DetectFileFormat`](../fileformatutil/detectfileformat/)yöntemler.
+Bu sınıfın örneklerini doğrudan oluşturmazsınız. Bu sınıfın nesneleri tarafından döndürülür[`DetectFileFormat`](../fileformatutil/detectfileformat/) yöntemler.
 
 ### Örnekler
 
@@ -34,8 +36,8 @@ Belge biçimini ve şifrelemeyi algılamak için FileFormatUtil sınıfının na
 ```csharp
 Document doc = new Document();
 
-// Belgeyi şifrelemek için bir SaveOptions nesnesi yapılandırın
-// kaydettiğimizde bir şifre ile ve ardından belgeyi kaydedin.
+// Belgeyi şifrelemek için SaveOptions nesnesini yapılandırın
+// bir şifre ile kaydettiğimizde ve ardından belgeyi kaydettiğimizde.
 OdtSaveOptions saveOptions = new OdtSaveOptions(SaveFormat.Odt);
 saveOptions.Password = "MyPassword";
 
@@ -51,7 +53,7 @@ Assert.True(info.IsEncrypted);
 Belge biçimini ve dijital imzaların varlığını algılamak için FileFormatUtil sınıfının nasıl kullanılacağını gösterir.
 
 ```csharp
-// Belgenin dijital olarak imzalanmadığını doğrulamak için bir FileFormatInfo örneği kullanın.
+// Bir belgenin dijital olarak imzalanmadığını doğrulamak için FileFormatInfo örneğini kullanın.
 FileFormatInfo info = FileFormatUtil.DetectFileFormat(MyDir + "Document.docx");
 
 Assert.AreEqual(".docx", FileFormatUtil.LoadFormatToExtension(info.LoadFormat));
@@ -61,12 +63,12 @@ CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.p
 DigitalSignatureUtil.Sign(MyDir + "Document.docx", ArtifactsDir + "File.DetectDigitalSignatures.docx",
     certificateHolder, new SignOptions() { SignTime = DateTime.Now });
 
-// İmzalandığını doğrulamak için yeni bir FileFormatInstance kullanın.
+// İmzalandığını onaylamak için yeni bir FileFormatInstance kullanın.
 info = FileFormatUtil.DetectFileFormat(ArtifactsDir + "File.DetectDigitalSignatures.docx");
 
 Assert.True(info.HasDigitalSignature);
 
-// Böyle bir koleksiyonda imzalanmış bir belgenin imzalarını yükleyebilir ve erişebiliriz.
+// Bunun gibi bir koleksiyonda imzalı bir belgenin imzalarına yükleyebilir ve erişebiliriz.
 Assert.AreEqual(1, DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "File.DetectDigitalSignatures.docx").Count);
 ```
 

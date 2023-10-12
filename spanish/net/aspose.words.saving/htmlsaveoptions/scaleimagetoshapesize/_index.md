@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.ScaleImageToShapeSize
 second_title: Referencia de API de Aspose.Words para .NET
-description: HtmlSaveOptions propiedad. Especifica si Aspose.Words escala las imágenes al tamaño de la forma límite cuando se exportan a HTML MHTML o EPUB. El valor predeterminado esverdadero .
+description: HtmlSaveOptions propiedad. Especifica si Aspose.Words escala las imágenes al tamaño de la forma delimitadora al exportar a HTML MHTML o EPUB. El valor predeterminado esverdadero .
 type: docs
 weight: 450
 url: /es/net/aspose.words.saving/htmlsaveoptions/scaleimagetoshapesize/
 ---
 ## HtmlSaveOptions.ScaleImageToShapeSize property
 
-Especifica si Aspose.Words escala las imágenes al tamaño de la forma límite cuando se exportan a HTML, MHTML o EPUB. El valor predeterminado es`verdadero` .
+Especifica si Aspose.Words escala las imágenes al tamaño de la forma delimitadora al exportar a HTML, MHTML o EPUB. El valor predeterminado es`verdadero` .
 
 ```csharp
 public bool ScaleImageToShapeSize { get; set; }
@@ -18,21 +18,23 @@ public bool ScaleImageToShapeSize { get; set; }
 
 Una imagen en un documento de Microsoft Word es una forma. La forma tiene un tamaño y la imagen tiene su propio tamaño. Los tamaños no están directamente relacionados. Por ejemplo, la imagen puede tener 1024x786 píxeles, pero la forma que muestra esta imagen puede tener 400x300 puntos.
 
-Para mostrar una imagen en el navegador, debe escalarse al tamaño de la forma. El`ScaleImageToShapeSize` Controles de propiedad donde tiene lugar el escalado de la imagen : en Aspose.Words durante la exportación a HTML o en el navegador al mostrar el documento.
+Para mostrar una imagen en el navegador, se debe escalar al tamaño de la forma. El`ScaleImageToShapeSize` La propiedad controla dónde se realiza la escala de image : en Aspose.Words durante la exportación a HTML o en el navegador al mostrar el documento.
 
-Cuando`ScaleImageToShapeSize` es`verdadero` , Aspose.Words escala la imagen mediante un escalado de alta calidad durante la exportación a HTML. Cuando`ScaleImageToShapeSize` es`falso`la imagen sale con su tamaño original y el navegador tiene que escalarla.
+Cuando`ScaleImageToShapeSize` es`verdadero` , Aspose.Words escala la imagen utilizando un escalado de alta calidad durante la exportación a HTML. Cuando`ScaleImageToShapeSize` es`FALSO`, la imagen se genera con su tamaño original y el navegador tiene que escalarla.
 
-En general, los navegadores realizan un escalado rápido y de mala calidad. Como resultado, normalmente obtendrá una mejor calidad de visualización en el navegador y un tamaño de archivo más pequeño cuando`ScaleImageToShapeSize` es`verdadero` , pero mejor calidad de impresión y conversión más rápida cuando`ScaleImageToShapeSize` es`falso`.
+En general, los navegadores realizan un escalado rápido y de mala calidad. Como resultado, normalmente obtendrá una mejor calidad de visualización en el navegador y un tamaño de archivo más pequeño cuando`ScaleImageToShapeSize` es`verdadero` , pero mejor calidad de impresión y conversión más rápida cuando`ScaleImageToShapeSize` es`FALSO`.
+
+Además de las formas que contienen imágenes rasterizadas individuales, esta opción también afecta a las formas grupales que consisten de imágenes rasterizadas. Si`ScaleImageToShapeSize` es`FALSO` y una forma de grupo contiene imágenes rasterizadas cuya resolución intrínseca es mayor que el valor especificado en[`ImageResolution`](../imageresolution/), Aspose.Words aumentará la resolución de renderizado para ese grupo. Esto permite preservar mejor la calidad de las imágenes agrupadas de alta resolución al guardarlas en HTML.
 
 ### Ejemplos
 
-Muestra cómo deshabilitar la escala de imágenes a sus dimensiones de forma principal al guardar en .html.
+Muestra cómo deshabilitar la escala de imágenes a sus dimensiones de forma principal al guardarlas en .html.
 
 ```csharp
 Document doc = new Document();
             DocumentBuilder builder = new DocumentBuilder(doc);
 
-            // Inserte una forma que contenga una imagen y luego haga esa forma considerablemente más pequeña que la imagen.
+            // Inserta una forma que contenga una imagen y luego haz esa forma considerablemente más pequeña que la imagen.
 #if NET48 || JAVA
             Image image = Image.FromFile(ImageDir + "Transparent background logo.png");
 
@@ -53,8 +55,8 @@ Document doc = new Document();
             // para cada una de esas formas. El documento HTML de salida utilizará <image> etiquetas para vincular y mostrar estas imágenes.
             // Cuando guardamos el documento en HTML, podemos pasar un objeto SaveOptions para determinar
             // si escalar todas las imágenes que están dentro de las formas al tamaño de sus formas.
-            // Establecer el indicador "ScaleImageToShapeSize" en "true" reducirá todas las imágenes
-            // al tamaño de la forma que lo contiene, de modo que ninguna imagen guardada sea más grande de lo que requiere el documento.
+            // Establecer el indicador "ScaleImageToShapeSize" en "true" reducirá cada imagen
+            // al tamaño de la forma que lo contiene, de modo que ninguna imagen guardada sea más grande de lo que el documento requiere.
             // Establecer el indicador "ScaleImageToShapeSize" en "falso" preservará los tamaños originales de estas imágenes,
             // que ocupará más espacio a cambio de preservar la calidad de la imagen.
             HtmlSaveOptions options = new HtmlSaveOptions { ScaleImageToShapeSize = scaleImageToShapeSize };

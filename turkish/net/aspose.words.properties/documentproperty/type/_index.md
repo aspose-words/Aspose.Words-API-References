@@ -24,7 +24,7 @@ Document doc = new Document(MyDir + "Properties.docx");
 // "Belge" nesnesi, meta verilerinin bir kısmını üyelerinde içerir.
 Console.WriteLine($"Document filename:\n\t \"{doc.OriginalFileName}\"");
 
-// Belge ayrıca meta verileri yerleşik özelliklerinde de saklar.
+// Belge aynı zamanda meta verileri yerleşik özelliklerinde de saklar.
 // Her yerleşik özellik, belgenin "BuiltInDocumentProperties" nesnesinin bir üyesidir.
 Console.WriteLine("Built-in Properties:");
 foreach (DocumentProperty docProperty in doc.BuiltInDocumentProperties)
@@ -32,7 +32,7 @@ foreach (DocumentProperty docProperty in doc.BuiltInDocumentProperties)
     Console.WriteLine(docProperty.Name);
     Console.WriteLine($"\tType:\t{docProperty.Type}");
 
-    // Bazı özellikler birden fazla değer depolayabilir.
+    // Bazı özellikler birden fazla değer saklayabilir.
     if (docProperty.Value is ICollection<object>)
     {
         foreach (object value in docProperty.Value as ICollection<object>)
@@ -53,7 +53,7 @@ CustomDocumentProperties properties = doc.CustomDocumentProperties;
 
 Assert.AreEqual(0, properties.Count);
 
-// Özel belge özellikleri, belgeye ekleyebileceğimiz anahtar/değer çiftleridir.
+// Özel belge özellikleri, belgeye ekleyebileceğimiz anahtar-değer çiftleridir.
 properties.Add("Authorized", true);
 properties.Add("Authorized By", "John Doe");
 properties.Add("Authorized Date", DateTime.Today);
@@ -78,23 +78,23 @@ field.Update();
 
 Assert.AreEqual("John Doe", field.Result);
 
-// Bu özel özellikleri Microsoft Word'de "Dosya" -> "Özellikler" > "Gelişmiş Özellikler" > "Gelenek".
+// Bu özel özellikleri Microsoft Word'de "Dosya" -> aracılığıyla bulabiliriz. "Özellikler" > "Gelişmiş Özellikler" > "Gelenek".
 doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
 
-// Aşağıda, bir belgeden özel özellikleri kaldırmanın veya kaldırmanın üç yolu vardır.
+// Aşağıda bir belgeden özel özellikleri kaldırmanın üç yolu bulunmaktadır.
 // 1 - Dizine göre kaldır:
 properties.RemoveAt(1);
 
 Assert.False(properties.Contains("Authorized Amount"));
 Assert.AreEqual(4, properties.Count);
 
-// 2 - Ada göre kaldır:
+// 2 - İsme göre kaldır:
 properties.Remove("Authorized Revision");
 
 Assert.False(properties.Contains("Authorized Revision"));
 Assert.AreEqual(3, properties.Count);
 
-// 3 - Tüm koleksiyonu bir kerede boşaltın:
+// 3 - Koleksiyonun tamamını bir kerede boşaltın:
 properties.Clear();
 
 Assert.AreEqual(0, properties.Count);

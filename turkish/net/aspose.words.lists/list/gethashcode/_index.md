@@ -1,14 +1,14 @@
 ---
 title: List.GetHashCode
 second_title: Aspose.Words for .NET API Referansı
-description: List yöntem. Bu liste nesnesi için karma kodu hesaplar.
+description: List yöntem. Bu liste nesnesi için karma kodunu hesaplar.
 type: docs
 weight: 110
 url: /tr/net/aspose.words.lists/list/gethashcode/
 ---
 ## List.GetHashCode method
 
-Bu liste nesnesi için karma kodu hesaplar.
+Bu liste nesnesi için karma kodunu hesaplar.
 
 ```csharp
 public override int GetHashCode()

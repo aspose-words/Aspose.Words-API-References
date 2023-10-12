@@ -1,14 +1,14 @@
 ---
 title: DocumentProperty.ToDouble
 second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentProperty methode. Gibt den Eigenschaftswert als Double zurück.
+description: DocumentProperty methode. Gibt den Eigenschaftswert als double. zurück.
 type: docs
 weight: 90
 url: /de/net/aspose.words.properties/documentproperty/todouble/
 ---
 ## DocumentProperty.ToDouble method
 
-Gibt den Eigenschaftswert als Double zurück.
+Gibt den Eigenschaftswert als double. zurück.
 
 ```csharp
 public double ToDouble()
@@ -16,11 +16,11 @@ public double ToDouble()
 
 ### Bemerkungen
 
-Löst eine Ausnahme aus, wenn der Eigenschaftstyp nicht istNumber .
+Löst eine Ausnahme aus, wenn der Eigenschaftstyp nicht vorhanden istNumber .
 
 ### Beispiele
 
-Zeigt verschiedene Typkonvertierungsmethoden von benutzerdefinierten Dokumenteigenschaften.
+Zeigt verschiedene Typkonvertierungsmethoden für benutzerdefinierte Dokumenteigenschaften.
 
 ```csharp
 Document doc = new Document();

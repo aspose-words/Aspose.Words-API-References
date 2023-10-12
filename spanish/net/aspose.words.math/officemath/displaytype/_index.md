@@ -16,13 +16,13 @@ public OfficeMathDisplayType DisplayType { get; set; }
 
 ### Observaciones
 
-El tipo de formato de visualización solo tiene efecto para Office Math de nivel superior.
+El tipo de formato de visualización tiene efecto solo para Office Math de nivel superior.
 
-El tipo de formato de visualización devuelto siempre esInline para Office Math anidado.
+El tipo de formato de visualización devuelto es siempreInline para Office Math anidado.
 
 ### Ejemplos
 
-Muestra cómo configurar el formato de visualización de Office Math.
+Muestra cómo configurar el formato de visualización de matemáticas de Office.
 
 ```csharp
 Document doc = new Document(MyDir + "Office math.docx");
@@ -34,9 +34,6 @@ OfficeMath officeMath = (OfficeMath) doc.GetChild(NodeType.OfficeMath, 0, true);
 Assert.AreEqual(MathObjectType.OMathPara, officeMath.MathObjectType);
 Assert.AreEqual(NodeType.OfficeMath, officeMath.NodeType);
 Assert.AreEqual(officeMath.ParentNode, officeMath.ParentParagraph);
-
-// Los formatos OOXML y WML utilizan la propiedad "EquationXmlEncoding".
-Assert.IsNull(officeMath.EquationXmlEncoding);
 
 // Cambiar la ubicación y el tipo de visualización del nodo OfficeMath.
 officeMath.DisplayType = OfficeMathDisplayType.Display;

@@ -3,7 +3,7 @@ title: Enum TextBoxAnchor
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.Drawing.TextBoxAnchor enumeración. Especifica los valores utilizados para la alineación vertical del texto de forma.
 type: docs
-weight: 1180
+weight: 1330
 url: /es/net/aspose.words.drawing/textboxanchor/
 ---
 ## TextBoxAnchor enumeration
@@ -18,16 +18,16 @@ public enum TextBoxAnchor
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| Top | `0` | El texto se alinea con la parte superior del cuadro de texto. |
-| Middle | `1` | El texto se alinea a la mitad del cuadro de texto. |
-| Bottom | `2` | El texto se alinea con la parte inferior del cuadro de texto. |
-| TopCentered | `3` | El texto se alinea con la parte superior centrada del cuadro de texto. |
-| MiddleCentered | `4` | El texto se alinea en el centro del cuadro de texto. |
-| BottomCentered | `5` | El texto se alinea con la parte inferior centrada del cuadro de texto. |
-| TopBaseline | `6` | El texto se alinea con la línea base superior del cuadro de texto. |
-| BottomBaseline | `7` | El texto se alinea con la línea base inferior del cuadro de texto. |
-| TopCenteredBaseline | `8` | El texto se alinea con la línea base superior centrada del cuadro de texto. |
-| BottomCenteredBaseline | `9` | El texto se alinea con la línea de base centrada en la parte inferior del cuadro de texto. |
+| Top | `0` | El texto está alineado con la parte superior del cuadro de texto. |
+| Middle | `1` | El texto está alineado con el centro del cuadro de texto. |
+| Bottom | `2` | El texto está alineado con la parte inferior del cuadro de texto. |
+| TopCentered | `3` | El texto está alineado con la parte superior centrada del cuadro de texto. |
+| MiddleCentered | `4` | El texto está alineado con el centro del cuadro de texto. |
+| BottomCentered | `5` | El texto está alineado con la parte inferior centrada del cuadro de texto. |
+| TopBaseline | `6` | El texto está alineado con la línea base superior del cuadro de texto. |
+| BottomBaseline | `7` | El texto está alineado con la línea base inferior del cuadro de texto. |
+| TopCenteredBaseline | `8` | El texto está alineado con la línea base centrada superior del cuadro de texto. |
+| BottomCenteredBaseline | `9` | El texto está alineado con la línea base inferior centrada del cuadro de texto. |
 
 ### Ejemplos
 
@@ -39,11 +39,11 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Shape shape = builder.InsertShape(ShapeType.TextBox, 200, 200);
 
-// Establecer la propiedad "VerticalAnchor" en "TextBoxAnchor.Top" para
-// alinear el texto en este cuadro de texto con el lado superior de la forma.
-// Establecer la propiedad "VerticalAnchor" en "TextBoxAnchor.Middle" para
-// alinear el texto en este cuadro de texto al centro de la forma.
-// Establecer la propiedad "VerticalAnchor" en "TextBoxAnchor.Bottom" para
+// Establece la propiedad "VerticalAnchor" en "TextBoxAnchor.Top" para
+// alinea el texto en este cuadro de texto con el lado superior de la forma.
+// Establece la propiedad "VerticalAnchor" en "TextBoxAnchor.Middle" para
+// alinea el texto en este cuadro de texto con el centro de la forma.
+// Establece la propiedad "VerticalAnchor" en "TextBoxAnchor.Bottom" para
 // alinea el texto de este cuadro de texto con la parte inferior de la forma.
 shape.TextBox.VerticalAnchor = verticalAnchor;
 

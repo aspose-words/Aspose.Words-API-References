@@ -1,14 +1,14 @@
 ---
 title: Enum RevisionColor
 second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Layout.RevisionColor enum. Consente di specificare il colore delle revisioni del documento.
+description: Aspose.Words.Layout.RevisionColor enum. Permette di specificare il colore delle revisioni del documento.
 type: docs
-weight: 3180
+weight: 3380
 url: /it/net/aspose.words.layout/revisioncolor/
 ---
 ## RevisionColor enumeration
 
-Consente di specificare il colore delle revisioni del documento.
+Permette di specificare il colore delle revisioni del documento.
 
 ```csharp
 public enum RevisionColor
@@ -27,18 +27,18 @@ public enum RevisionColor
 | DarkBlue | `6` | Rappresenta il colore 376e96. |
 | DarkRed | `7` | Rappresenta 881824 colori. |
 | DarkYellow | `8` | Rappresenta il colore e09a2b. |
-| Gray25 | `9` | Rappresenta un colore a0a3a9. |
+| Gray25 | `9` | Rappresenta il colore a0a3a9. |
 | Gray50 | `10` | Rappresenta il colore 50565e. |
 | Green | `11` | Rappresenta il colore 2c6234. |
 | Pink | `12` | Rappresenta il colore ce338f. |
 | Red | `13` | Rappresenta il colore b5082e. |
-| Teal | `14` | Rappresenta il colore della cabina 1b9. |
+| Teal | `14` | Rappresenta il colore 1b9cab. |
 | Turquoise | `15` | Rappresenta il colore 3eafc2. |
-| Violet | `16` | Rappresenta 633277 colori. |
+| Violet | `16` | Rappresenta il colore 633277. |
 | White | `17` | Rappresenta il colore ffffff. |
 | Yellow | `18` | Rappresenta il colore fad272. |
 | NoHighlight | `19` | Nessun colore viene utilizzato per evidenziare le modifiche alla revisione. |
-| ByAuthor | `20` | Le revisioni di ogni autore ricevono il proprio colore per l'evidenziazione da un set predefinito di colori ad alto contrasto. |
+| ByAuthor | `20` | Le revisioni di ciascun autore ricevono il proprio colore per l'evidenziazione da un set predefinito di colori ad alto contrasto. |
 
 ### Esempi
 

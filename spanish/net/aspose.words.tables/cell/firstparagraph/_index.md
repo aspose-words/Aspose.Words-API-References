@@ -16,7 +16,7 @@ public Paragraph FirstParagraph { get; }
 
 ### Ejemplos
 
-Muestra cómo crear una tabla anidada mediante un generador de documentos.
+Muestra cómo crear una tabla anidada utilizando un generador de documentos.
 
 ```csharp
 Document doc = new Document();
@@ -29,7 +29,7 @@ builder.InsertCell();
 builder.Writeln("Outer Table Cell 2");
 builder.EndTable();
 
-// Mover a la primera celda de la tabla exterior, construir otra tabla dentro de la celda.
+// Pasar a la primera celda de la tabla exterior y crear otra tabla dentro de la celda.
 builder.MoveTo(cell.FirstParagraph);
 builder.InsertCell();
 builder.Writeln("Inner Table Cell 1");
@@ -51,7 +51,7 @@ public void CreateNestedTable()
     Table outerTable = CreateTable(doc, 3, 4, "Outer Table");
     doc.FirstSection.Body.AppendChild(outerTable);
 
-    // Cree otra tabla con dos filas y dos columnas y luego insértela en la primera celda de la primera tabla.
+    // Crea otra tabla con dos filas y dos columnas y luego insértala en la primera celda de la primera tabla.
     Table innerTable = CreateTable(doc, 2, 2, "Inner Table");
     outerTable.FirstRow.FirstCell.AppendChild(innerTable);
 
@@ -80,7 +80,7 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
         }
     }
 
-    // Puede usar las propiedades "Título" y "Descripción" para agregar un título y una descripción respectivamente a su tabla.
+    // Puedes usar las propiedades "Título" y "Descripción" para agregar un título y una descripción respectivamente a tu tabla.
     // La tabla debe tener al menos una fila antes de que podamos usar estas propiedades.
     // Estas propiedades son significativas para documentos .docx compatibles con ISO/IEC 29500 (consulte la clase OoxmlCompliance).
     // Si guardamos el documento en formatos anteriores a ISO/IEC 29500, Microsoft Word ignora estas propiedades.

@@ -1,14 +1,14 @@
 ---
 title: ParagraphFormat.KeepTogether
 second_title: Aspose.Words لمراجع .NET API
-description: ParagraphFormat ملكية. صحيح إذا كانت كل سطور الفقرة ستبقى في نفس الصفحة.
+description: ParagraphFormat ملكية. صحيح إذا كانت جميع الأسطر في الفقرة ستبقى في نفس الصفحة.
 type: docs
-weight: 150
+weight: 160
 url: /ar/net/aspose.words/paragraphformat/keeptogether/
 ---
 ## ParagraphFormat.KeepTogether property
 
-صحيح إذا كانت كل سطور الفقرة ستبقى في نفس الصفحة.
+صحيح إذا كانت جميع الأسطر في الفقرة ستبقى في نفس الصفحة.
 
 ```csharp
 public bool KeepTogether { get; set; }
@@ -36,8 +36,8 @@ paragraphFormat.AddSpaceBetweenFarEastAndAlpha = true;
 paragraphFormat.AddSpaceBetweenFarEastAndDigit = true;
 paragraphFormat.KeepTogether = true;
 
-// طريقة "Writeln" تنهي الفقرة بعد إلحاق النص
-// ثم يبدأ سطرًا جديدًا ، مضيفًا فقرة جديدة.
+// تنهي طريقة "Writeln" الفقرة بعد إلحاق النص
+// ثم يبدأ سطرًا جديدًا ويضيف فقرة جديدة.
 builder.Writeln("Hello world!");
 
 Assert.True(builder.CurrentParagraph.IsEndOfDocument);

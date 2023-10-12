@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.NoLeading
 second_title: Référence de l'API Aspose.Words pour .NET
-description: CompatibilityOptions propriété. Ne pas ajouter dinterlignage entre les lignes de texte.
+description: CompatibilityOptions propriété. Ne pas ajouter dinterligne entre les lignes de texte.
 type: docs
 weight: 350
 url: /fr/net/aspose.words.settings/compatibilityoptions/noleading/
 ---
 ## CompatibilityOptions.NoLeading property
 
-Ne pas ajouter d'interlignage entre les lignes de texte.
+Ne pas ajouter d'interligne entre les lignes de texte.
 
 ```csharp
 public bool NoLeading { get; set; }

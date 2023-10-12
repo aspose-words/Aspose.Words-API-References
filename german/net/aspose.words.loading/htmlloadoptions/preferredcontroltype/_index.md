@@ -1,14 +1,14 @@
 ---
 title: HtmlLoadOptions.PreferredControlType
 second_title: Aspose.Words für .NET-API-Referenz
-description: HtmlLoadOptions eigendom. Ruft den bevorzugten Typ von Dokumentknoten ab oder legt ihn fest der importierte input und selectElemente darstellt. Der Standardwert istFormField .
+description: HtmlLoadOptions eigendom. Ruft den bevorzugten Typ von Dokumentknoten ab die importierte input und selectElemente darstellen oder legt diesen fest. Der Standardwert istFormField .
 type: docs
 weight: 50
 url: /de/net/aspose.words.loading/htmlloadoptions/preferredcontroltype/
 ---
 ## HtmlLoadOptions.PreferredControlType property
 
-Ruft den bevorzugten Typ von Dokumentknoten ab oder legt ihn fest, der importierte &lt;input&gt;- und &lt;select&gt;-Elemente darstellt. Der Standardwert istFormField .
+Ruft den bevorzugten Typ von Dokumentknoten ab, die importierte &lt;input&gt;- und &lt;select&gt;-Elemente darstellen, oder legt diesen fest. Der Standardwert istFormField .
 
 ```csharp
 public HtmlControlType PreferredControlType { get; set; }
@@ -16,11 +16,11 @@ public HtmlControlType PreferredControlType { get; set; }
 
 ### Bemerkungen
 
-Bitte beachten Sie, dass das Setzen dieser Eigenschaft nicht garantiert, dass alle importierten Steuerelemente vom angegebenen Typ sind. Wenn ein HTML-Steuerelement nicht mit Dokumentknoten des bevorzugten Typs darstellbar ist, verwendet Aspose.Words ein kompatibles[`HtmlControlType`](../../htmlcontroltype/) für diese Kontrolle.
+Bitte beachten Sie, dass das Festlegen dieser Eigenschaft nicht garantiert, dass alle importierten Steuerelemente vom angegebenen Typ sind. Wenn ein HTML-Steuerelement nicht mit Dokumentknoten des bevorzugten Typs darstellbar ist, verwendet Aspose.Words ein kompatibles[`HtmlControlType`](../../htmlcontroltype/) für diese Kontrolle.
 
 ### Beispiele
 
-Zeigt, wie Sie den bevorzugten Typ von Dokumentknoten festlegen, die importierte &lt;input&gt;- und &lt;select&gt;-Elemente darstellen.
+Zeigt, wie der bevorzugte Typ von Dokumentknoten festgelegt wird, die importierte &lt;input&gt;- und &lt;select&gt;-Elemente darstellen.
 
 ```csharp
 const string html = @"

@@ -18,15 +18,14 @@ public abstract string LibId { get; }
 
 Abhängig vom Referenztyp kann der Wert dieser Eigenschaft sein:
 
-* eine unter 2.1.1.8 LibidReference angegebene LibidReference von [MS-OVBA]: https://docs.microsoft.com/en-us/openspecs/office_file_formats/ms-ovba/3737ef6e-d819-4186-a5f2-6e258ddf66a5
-* eine ProjectReference, die unter 2.1.1.12 ProjectReference von [MS-OVBA]: https://docs.microsoft.com/en-us/openspecs/office_file_formats/ms-ovba/9a45ac1a-f1ff-4ebd-958e-537701aa8131 angegeben ist
+* eine LibidReference, angegeben unter 2.1.1.8 LibidReference von [MS-OVBA]: https://docs.microsoft.com/en-us/openspecs/office_file_formats/ms-ovba/3737ef6e-d819-4186-a5f2-6e258ddf66a5
+* eine ProjectReference, angegeben unter 2.1.1.12 ProjectReference von [MS-OVBA]: https://docs.microsoft.com/en-us/openspecs/office_file_formats/ms-ovba/9a45ac1a-f1ff-4ebd-958e-537701aa8131
 
 ### Beispiele
 
 Zeigt, wie ein Element aus der VBA-Referenzsammlung abgerufen/entfernt wird.
 
 ```csharp
-[Test]
 public void RemoveVbaReference()
 {
     const string brokenPath = @"X:\broken.dll";
@@ -52,7 +51,7 @@ public void RemoveVbaReference()
 }
 
 /// <summary>
-/// Gibt einen String zurück, der den LibId-Pfad einer angegebenen Referenz darstellt. 
+ /// Gibt einen String zurück, der den LibId-Pfad einer angegebenen Referenz darstellt.
 /// </summary>
 private static string GetLibIdPath(VbaReference reference)
 {

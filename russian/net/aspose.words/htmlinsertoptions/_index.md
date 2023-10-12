@@ -1,14 +1,14 @@
 ---
 title: Enum HtmlInsertOptions
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.HtmlInsertOptions перечисление. Указывает параметры дляInsertHtml метод.
+description: Aspose.Words.HtmlInsertOptions перечисление. Определяет параметры дляInsertHtml метод.
 type: docs
-weight: 2960
+weight: 3140
 url: /ru/net/aspose.words/htmlinsertoptions/
 ---
 ## HtmlInsertOptions enumeration
 
-Указывает параметры для[`InsertHtml`](../documentbuilder/inserthtml/) метод.
+Определяет параметры для[`InsertHtml`](../documentbuilder/inserthtml/) метод.
 
 ```csharp
 [Flags]
@@ -19,10 +19,33 @@ public enum HtmlInsertOptions
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| None | `0` | Использовать параметры по умолчанию при вставке HTML. |
-| UseBuilderFormatting | `1` | Использовать шрифт и форматирование абзаца, указанные в[`DocumentBuilder`](../documentbuilder/) как базовое форматирование для text , вставленного из HTML. |
-| RemoveLastEmptyParagraph | `2` | Удалите пустой абзац, который обычно вставляется после HTML, который заканчивается элементом уровня блока. |
-| PreserveBlocks | `4` | Сохранить свойства блочных элементов. |
+| None | `0` | Используйте параметры по умолчанию при вставке HTML. |
+| UseBuilderFormatting | `1` | Использовать шрифт и форматирование абзацев, указанное в[`DocumentBuilder`](../documentbuilder/) в качестве базового форматирования для text , вставленного из HTML. |
+| RemoveLastEmptyParagraph | `2` | Удалить пустой абзац, который обычно вставляется после HTML-кода, заканчивающегося элементом уровня блока. |
+| PreserveBlocks | `4` | Сохранять свойства элементов уровня блока. |
+
+### Примеры
+
+Показывает, как лучше сохранить видимые границы и поля.
+
+```csharp
+const string html = @"
+    <html>
+        <div style='border:dotted'>
+        <div style='border:solid'>
+            <p>paragraph 1</p>
+            <p>paragraph 2</p>
+        </div>
+        </div>
+    </html>";
+
+// Устанавливаем новый режим импорта блочных элементов HTML.
+HtmlInsertOptions insertOptions = HtmlInsertOptions.PreserveBlocks;
+
+DocumentBuilder builder = new DocumentBuilder();
+builder.InsertHtml(html, insertOptions);
+builder.Document.Save(ArtifactsDir + "DocumentBuilder.PreserveBlocks.docx");
+```
 
 ### Смотрите также
 

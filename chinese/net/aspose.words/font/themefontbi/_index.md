@@ -1,14 +1,14 @@
 ---
 title: Font.ThemeFontBi
 second_title: Aspose.Words for .NET API 参考
-description: Font 财产. 在从右到左的语言文档中获取或设置与此 Font object 关联的应用字体方案中的主题字体
+description: Font 财产. 获取或设置与此关联的应用字体方案中的主题字体Font从右到左语言文档中的 object 
 type: docs
 weight: 490
 url: /zh/net/aspose.words/font/themefontbi/
 ---
 ## Font.ThemeFontBi property
 
-在从右到左的语言文档中获取或设置与此 Font object 关联的应用字体方案中的主题字体。
+获取或设置与此关联的应用字体方案中的主题字体[`Font`](../)从右到左语言文档中的 object 。
 
 ```csharp
 public ThemeFont ThemeFontBi { get; set; }
@@ -21,7 +21,7 @@ public ThemeFont ThemeFontBi { get; set; }
 ```csharp
 Document doc = new Document();
 
-// 默认情况下定义语言使用的字体。
+// 定义默认使用的语言的字体。
 doc.Theme.MinorFonts.Latin = "Algerian";
 doc.Theme.MinorFonts.EastAsian = "Aharoni";
 doc.Theme.MinorFonts.ComplexScript = "Andalus";
@@ -51,7 +51,7 @@ Assert.AreEqual("Algerian", font.NameOther);
 Assert.AreEqual(ThemeColor.Accent2, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
-// 有几种方法可以重置它们的字体和颜色。
+// 有多种方法可以重置它们的字体和颜色。
 // 1 - 通过设置 ThemeFont.None/ThemeColor.None:
 font.ThemeFont = ThemeFont.None;
 font.ThemeColor = ThemeColor.None;

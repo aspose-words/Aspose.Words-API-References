@@ -1,14 +1,14 @@
 ---
 title: ListCollection.Add
 second_title: Aspose.Words for .NET API Referansı
-description: ListCollection yöntem. Önceden tanımlanmış bir şablona dayalı yeni bir liste oluşturur ve bunu belgedeki listeler koleksiyonuna ekler.
+description: ListCollection yöntem. Önceden tanımlanmış bir şablonu temel alarak yeni bir liste oluşturur ve bunu belgedeki liste koleksiyonuna ekler.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.lists/listcollection/add/
 ---
 ## Add(ListTemplate) {#add}
 
-Önceden tanımlanmış bir şablona dayalı yeni bir liste oluşturur ve bunu belgedeki listeler koleksiyonuna ekler.
+Önceden tanımlanmış bir şablonu temel alarak yeni bir liste oluşturur ve bunu belgedeki liste koleksiyonuna ekler.
 
 ```csharp
 public List Add(ListTemplate listTemplate)
@@ -24,13 +24,13 @@ Yeni oluşturulan liste.
 
 ### Notlar
 
-Aspose.Words liste şablonları, Microsoft Word 2003'te Madde İşaretleri ve Numaralandırma iletişim kutusundaki mevcut 21 liste şablonuna karşılık gelir.
+Aspose.Words liste şablonları, Microsoft Word 2003'teki Madde İşaretleri ve Numaralandırma iletişim kutusunda bulunan 21 liste şablonuna karşılık gelir .
 
-Bu yöntem kullanılarak oluşturulan tüm listeler 9 liste düzeyine sahiptir.
+Bu yöntemle oluşturulan tüm listelerin 9 liste düzeyi vardır.
 
 ### Örnekler
 
-Paragraf koleksiyonuna yeni bir liste biçimi uygulayarak bir listenin nasıl oluşturulacağını gösterir.
+Bir paragraf koleksiyonuna yeni bir liste formatı uygulayarak listenin nasıl oluşturulacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -55,21 +55,21 @@ foreach (Paragraph paragraph in paras.OfType<Paragraph>())
 Assert.AreEqual(3, paras.Count(n => (n as Paragraph).ListFormat.IsListItem));
 ```
 
-Bir listeyi kopyalayarak bir listede numaralandırmanın nasıl yeniden başlatılacağını gösterir.
+Bir listeyi kopyalayarak listedeki numaralandırmanın nasıl yeniden başlatılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 
-// Liste, önek sembolleri ve girintilerle paragraf kümelerini düzenlememize ve süslememize olanak tanır.
-// Girinti seviyesini artırarak iç içe listeler oluşturabiliriz. 
-// Bir belge oluşturucunun "ListFormat" özelliğini kullanarak bir listeyi başlatabilir ve bitirebiliriz. 
-// Bir listenin başlangıcı ile bitişi arasına eklediğimiz her paragraf listede bir öğe haline gelecektir.
-// Bir Microsoft Word şablonundan bir liste oluşturun ve ilk liste düzeyini özelleştirin.
+// Liste, paragraf kümelerini önek sembolleri ve girintilerle düzenlememize ve süslememize olanak tanır.
+ // Girinti seviyesini artırarak iç içe listeler oluşturabiliriz.
+ // Bir listeyi belge oluşturucunun "ListFormat" özelliğini kullanarak başlatabilir ve sonlandırabiliriz.
+// Bir listenin başı ile sonu arasına eklediğimiz her paragraf, listede bir öğe haline gelecektir.
+// Microsoft Word şablonundan bir liste oluşturun ve ilk liste düzeyini özelleştirin.
 List list1 = doc.Lists.Add(ListTemplate.NumberArabicParenthesis);
 list1.ListLevels[0].Font.Color = Color.Red;
 list1.ListLevels[0].Alignment = ListLevelAlignment.Right;
 
-// Listemizi bazı paragraflara uygula.
+// Listemizi bazı paragraflara uygulayın.
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("List 1 starts below:");
@@ -94,7 +94,7 @@ builder.ListFormat.RemoveNumbers();
 doc.Save(ArtifactsDir + "Lists.RestartNumberingUsingListCopy.docx");
 ```
 
-Liste seviyeleriyle nasıl çalışılacağını gösterir.
+Liste düzeyleriyle nasıl çalışılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -102,29 +102,29 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Assert.False(builder.ListFormat.IsListItem);
 
-// Liste, önek sembolleri ve girintilerle paragraf kümelerini düzenlememize ve süslememize olanak tanır.
-// Girinti seviyesini artırarak iç içe listeler oluşturabiliriz. 
-// Bir belge oluşturucunun "ListFormat" özelliğini kullanarak bir listeyi başlatabilir ve bitirebiliriz. 
-// Bir listenin başlangıcı ile bitişi arasına eklediğimiz her paragraf listede bir öğe haline gelecektir.
-// Aşağıda, bir belge oluşturucu kullanarak oluşturabileceğimiz iki tür liste bulunmaktadır.
+// Liste, paragraf kümelerini önek sembolleri ve girintilerle düzenlememize ve süslememize olanak tanır.
+ // Girinti seviyesini artırarak iç içe listeler oluşturabiliriz.
+ // Bir listeyi belge oluşturucunun "ListFormat" özelliğini kullanarak başlatabilir ve sonlandırabiliriz.
+// Bir listenin başı ile sonu arasına eklediğimiz her paragraf, listede bir öğe haline gelecektir.
+// Aşağıda belge oluşturucuyu kullanarak oluşturabileceğimiz iki tür liste bulunmaktadır.
 // 1 - Numaralandırılmış bir liste:
-// Numaralandırılmış listeler, her bir öğeyi numaralandırarak paragrafları için mantıksal bir sıra oluşturur.
+// Numaralandırılmış listeler, her öğeyi numaralandırarak paragrafları için mantıksal bir düzen oluşturur.
 builder.ListFormat.List = doc.Lists.Add(ListTemplate.NumberDefault);
 
 Assert.True(builder.ListFormat.IsListItem);
 
-// "ListLevelNumber" özelliğini ayarlayarak liste seviyesini yükseltebiliriz
+// "ListLevelNumber" özelliğini ayarlayarak liste seviyesini arttırabiliriz
 // geçerli liste öğesinde bağımsız bir alt liste başlatmak için.
-// "NumberDefault" adlı Microsoft Word liste şablonu, ilk liste düzeyi için liste düzeyleri oluşturmak için sayıları kullanır.
-// Daha derin liste seviyelerinde harfler ve küçük Romen rakamları kullanılır. 
+// "NumberDefault" adı verilen Microsoft Word liste şablonu, ilk liste düzeyi için liste düzeyleri oluşturmak amacıyla sayıları kullanır.
+ // Daha derin liste seviyelerinde harfler ve küçük harf Romen rakamları kullanılır.
 for (int i = 0; i < 9; i++)
 {
     builder.ListFormat.ListLevelNumber = i;
     builder.Writeln("Level " + i);
 }
 
-// 2 - Madde işaretli bir liste:
-// Bu liste, her paragraftan önce bir girinti ve bir madde işareti ("•") uygular.
+// 2 - Madde işaretli liste:
+// Bu liste, her paragraftan önce bir girinti ve madde işareti simgesi ("•") uygulayacaktır.
 // Bu listenin daha derin seviyelerinde "■" ve "○" gibi farklı semboller kullanılacaktır.
 builder.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
 
@@ -134,7 +134,7 @@ for (int i = 0; i < 9; i++)
     builder.Writeln("Level " + i);
 }
 
-// "Liste" bayrağının ayarını kaldırarak, sonraki paragrafları liste olarak biçimlendirmemek için liste biçimlendirmesini devre dışı bırakabiliriz.
+// "Liste" bayrağının ayarını kaldırarak sonraki paragrafları liste olarak biçimlendirmemek için liste biçimlendirmesini devre dışı bırakabiliriz.
 builder.ListFormat.List = null;
 
 Assert.False(builder.ListFormat.IsListItem);
@@ -154,7 +154,7 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 
 ## Add(Style) {#add_1}
 
-Bir liste stiline başvuran ve onu belgedeki listeler koleksiyonuna ekleyen yeni bir liste oluşturur.
+Bir liste stiline başvuran yeni bir liste oluşturur ve bunu belgedeki liste koleksiyonuna ekler.
 
 ```csharp
 public List Add(Style listStyle)
@@ -170,20 +170,20 @@ Yeni oluşturulan liste.
 
 ### Notlar
 
-Yeni oluşturulan liste, liste stiline başvurur. list stilinin özelliklerini değiştirirseniz, listenin özelliklerine yansıtılır. Tam tersi, listenin özelliklerini değiştirirseniz, liste stilinin özelliklerine yansıtılır.
+Yeni oluşturulan liste, liste stiline referans verir. list stilinin özelliklerini değiştirirseniz bu, listenin özelliklerine yansıtılır. Tam tersi, listenin özellikleri değerini değiştirirseniz, bu liste stilinin özelliklerine yansıtılır.
 
 ### Örnekler
 
-Liste stilinin nasıl oluşturulacağını ve bir belgede nasıl kullanılacağını gösterir.
+Liste stilinin nasıl oluşturulacağını ve belgede nasıl kullanılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 
-// Liste, önek sembolleri ve girintilerle paragraf kümelerini düzenlememize ve süslememize olanak tanır.
-// Girinti seviyesini artırarak iç içe listeler oluşturabiliriz. 
-// Bir belge oluşturucunun "ListFormat" özelliğini kullanarak bir listeyi başlatabilir ve bitirebiliriz. 
-// Bir listenin başlangıcı ile bitişi arasına eklediğimiz her paragraf listede bir öğe haline gelecektir.
-// Bir stil içinde bir List nesnesinin tamamını içerebiliriz.
+// Liste, paragraf kümelerini önek sembolleri ve girintilerle düzenlememize ve süslememize olanak tanır.
+ // Girinti seviyesini artırarak iç içe listeler oluşturabiliriz.
+ // Bir listeyi belge oluşturucunun "ListFormat" özelliğini kullanarak başlatabilir ve sonlandırabiliriz.
+// Bir listenin başı ile sonu arasına eklediğimiz her paragraf, listede bir öğe haline gelecektir.
+// Bir stilin içinde bir List nesnesinin tamamını içerebiliriz.
 Style listStyle = doc.Styles.Add(StyleType.List, "MyListStyle");
 
 List list1 = listStyle.List;
@@ -205,7 +205,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("Using list style first time:");
 
-// Bir stil içindeki bir listeden başka bir liste oluşturun.
+// Stil içindeki listeden başka bir liste oluşturun.
 List list2 = doc.Lists.Add(listStyle);
 
 Assert.False(list2.IsListStyleDefinition);
@@ -220,7 +220,7 @@ builder.ListFormat.RemoveNumbers();
 
 builder.Writeln("Using list style second time:");
 
-// Liste stiline göre başka bir liste oluşturun ve uygulayın.
+// Liste stiline göre başka bir liste oluşturup uygulayın.
 List list3 = doc.Lists.Add(listStyle);
 builder.ListFormat.List = list3;
 builder.Writeln("Item 1");

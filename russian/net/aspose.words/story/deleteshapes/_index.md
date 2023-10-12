@@ -22,7 +22,7 @@ public void DeleteShapes()
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Используйте DocumentBuilder для вставки фигуры. Это встроенная форма,
+// Используйте DocumentBuilder для вставки фигуры. Это встроенная фигура,
 // у которого есть родительский абзац, который является дочерним узлом тела первого раздела.
 builder.InsertShape(ShapeType.Cube, 100.0, 100.0);
 

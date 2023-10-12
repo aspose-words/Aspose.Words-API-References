@@ -18,7 +18,7 @@ public double TintAndShade { get; set; }
 
 De tillåtna värdena ligger inom området -1 (mörkast) till 1 (ljusast) för den här egenskapen. Noll (0) är neutral. Ett försök att ställa in den här egenskapen till ett värde mindre än -1 eller mer än 1 resulterar i enArgumentOutOfRangeException.
 
-Att ställa in den här egenskapen för Font-objekt med icke-tema colors resulterar i enInvalidOperationException.
+Ställer in den här egenskapen för[`Font`](../) objekt med icke-tema colors resulterar i enInvalidOperationException.
 
 ### Exempel
 

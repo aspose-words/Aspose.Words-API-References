@@ -1,14 +1,14 @@
 ---
 title: FieldDatabaseDataTable.Rows
 second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldDatabaseDataTable propriété. Récupère les lignes qui appartiennent à cette table.
+description: FieldDatabaseDataTable propriété. Obtient les lignes appartenant à cette table.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.fields/fielddatabasedatatable/rows/
 ---
 ## FieldDatabaseDataTable.Rows property
 
-Récupère les lignes qui appartiennent à cette table.
+Obtient les lignes appartenant à cette table.
 
 ```csharp
 public IList<FieldDatabaseDataRow> Rows { get; }

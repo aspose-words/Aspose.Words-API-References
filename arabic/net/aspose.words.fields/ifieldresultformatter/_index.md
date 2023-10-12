@@ -3,7 +3,7 @@ title: Interface IFieldResultFormatter
 second_title: Aspose.Words لمراجع .NET API
 description: Aspose.Words.Fields.IFieldResultFormatter واجهه المستخدم. قم بتنفيذ هذه الواجهة إذا كنت تريد التحكم في كيفية تنسيق نتيجة الحقل.
 type: docs
-weight: 2530
+weight: 2700
 url: /ar/net/aspose.words.fields/ifieldresultformatter/
 ---
 ## IFieldResultFormatter interface
@@ -18,32 +18,33 @@ public interface IFieldResultFormatter
 
 | اسم | وصف |
 | --- | --- |
-| [Format](../../aspose.words.fields/ifieldresultformatter/format/#format)(double, GeneralFormat) | يتم الاستدعاء عند تطبيق Aspose.Words مفتاح تنسيق رقم ، مثل \ * Ordinal. |
-| [Format](../../aspose.words.fields/ifieldresultformatter/format/#format_1)(string, GeneralFormat) | يتم الاستدعاء عند قيام Aspose.Words بتطبيق تبديل تنسيق الأحرف الكبيرة ، أي \ * Upper. |
-| [FormatDateTime](../../aspose.words.fields/ifieldresultformatter/formatdatetime/)(DateTime, string, CalendarType) | يتم الاستدعاء عند قيام Aspose.Words بتطبيق تبديل تنسيق التاريخ / الوقت ، على سبيل المثال \ @ "dd.MM.yyyy" . |
-| [FormatNumeric](../../aspose.words.fields/ifieldresultformatter/formatnumeric/)(double, string) | يتم الاستدعاء عند قيام Aspose.Words بتطبيق تبديل تنسيق رقمي ، أي \ # "#. ##" . |
+| [Format](../../aspose.words.fields/ifieldresultformatter/format/#format)(double, GeneralFormat) | يتم استدعاؤه عندما يقوم Aspose.Words بتطبيق تبديل تنسيق الأرقام، على سبيل المثال \* Ordinal. |
+| [Format](../../aspose.words.fields/ifieldresultformatter/format/#format_1)(string, GeneralFormat) | يتم استدعاؤه عندما يقوم Aspose.Words بتطبيق تبديل تنسيق الكتابة بالأحرف الكبيرة، على سبيل المثال \* Upper. |
+| [FormatDateTime](../../aspose.words.fields/ifieldresultformatter/formatdatetime/)(DateTime, string, CalendarType) | يتم استدعاؤه عندما يقوم Aspose.Words بتطبيق تبديل تنسيق التاريخ/الوقت، على سبيل المثال \@ "dd.MM.yyyy". |
+| [FormatNumeric](../../aspose.words.fields/ifieldresultformatter/formatnumeric/)(double, string) | يتم استدعاؤه عندما يقوم Aspose.Words بتطبيق مفتاح تنسيق رقمي، على سبيل المثال \# "#.##". |
 
 ### أمثلة
 
-يوضح كيفية تطبيق تنسيق مخصص تلقائيًا على نتائج الحقول أثناء تحديث الحقول.
+يوضح كيفية تطبيق تنسيق مخصص تلقائيًا على نتائج الحقول عندما يتم تحديث الحقول.
 
 ```csharp
+public void FieldResultFormatting()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
     FieldResultFormatter formatter = new FieldResultFormatter("${0}", "Date: {0}", "Item # {0}:");
     doc.FieldOptions.ResultFormatter = formatter;
 
-    // يطبق مُنسق النتائج الميدانية الخاص بنا تنسيقًا مخصصًا على الحقول المنشأة حديثًا المكونة من ثلاثة أنواع من التنسيقات.
-    // تطبق مُنسِّقات نتائج الحقول تنسيقًا جديدًا للحقول فور تحديثها ،
-    // الذي يحدث بمجرد إنشائها باستخدام طريقة InsertField overload.
-    // 1 - رقم:
+    // يطبق منسق نتيجة الحقل الخاص بنا تنسيقًا مخصصًا على الحقول التي تم إنشاؤها حديثًا والتي تتكون من ثلاثة أنواع من التنسيقات.
+    // يطبق منسقو نتائج الحقول تنسيقًا جديدًا على الحقول عند تحديثها،
+    // والذي يحدث بمجرد إنشائها باستخدام التحميل الزائد لطريقة InsertField.
+    // 1 - رقمي:
     builder.InsertField(" = 2 + 3 \\# $###");
 
     Assert.AreEqual("$5", doc.Range.Fields[0].Result);
     Assert.AreEqual(1, formatter.CountFormatInvocations(FieldResultFormatter.FormatInvocationType.Numeric));
 
-    // 2 - التاريخ / الوقت:
+    // 2 - التاريخ/الوقت:
     builder.InsertField("DATE \\@ \"d MMMM yyyy\"");
 
     Assert.IsTrue(doc.Range.Fields[1].Result.StartsWith("Date: "));
@@ -59,8 +60,8 @@ public interface IFieldResultFormatter
 }
 
 /// <summary>
-/// عندما يتم تحديث الحقول ذات التنسيق ، سيتجاوز هذا المنسق تنسيقها
-/// بتنسيق مخصص ، أثناء تتبع كل استدعاء.
+/// عندما يتم تحديث الحقول ذات التنسيق، سيتجاوز هذا المنسق تنسيقها
+/// بتنسيق مخصص، أثناء تتبع كل استدعاء.
 /// </summary>
 private class FieldResultFormatter : IFieldResultFormatter
 {

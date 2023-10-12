@@ -1,14 +1,14 @@
 ---
 title: PdfSaveOptions.CustomPropertiesExport
 second_title: Aspose.Words لمراجع .NET API
-description: PdfSaveOptions ملكية. الحصول على أو تعيين قيمة تحدد الطريقةCustomDocumentProperties يتم تصديرها إلى ملف PDF .
+description: PdfSaveOptions ملكية. الحصول على أو تحديد قيمة تحدد الطريقCustomDocumentProperties يتم تصديرها إلى ملف PDF.
 type: docs
-weight: 50
+weight: 60
 url: /ar/net/aspose.words.saving/pdfsaveoptions/custompropertiesexport/
 ---
 ## PdfSaveOptions.CustomPropertiesExport property
 
-الحصول على أو تعيين قيمة تحدد الطريقة[`CustomDocumentProperties`](../../../aspose.words/document/customdocumentproperties/) يتم تصديرها إلى ملف PDF .
+الحصول على أو تحديد قيمة تحدد الطريق[`CustomDocumentProperties`](../../../aspose.words/document/customdocumentproperties/) يتم تصديرها إلى ملف PDF.
 
 ```csharp
 public PdfCustomPropertiesExport CustomPropertiesExport { get; set; }
@@ -18,9 +18,9 @@ public PdfCustomPropertiesExport CustomPropertiesExport { get; set; }
 
 القيمة الافتراضية هيNone.
 
-Metadata القيمة غير مدعومة عند الحفظ في PDF / A. Standard سيتم استخدامها بدلاً من ذلك لملفات PDF / A-1 و PDF / A-2 و None لـ PDF / A-4.
+Metadata القيمة غير مدعومة عند الحفظ بتنسيق PDF/A. Standard سيتم استخدامه بدلاً من ذلك لـ PDF/A-1 وPDF/A-2 و None لـ PDF/A-4.
 
-Standard القيمة غير مدعومة عند الحفظ إلى PDF 2.0. Metadata سيتم استخدامها بدلا من ذلك.
+Standard القيمة غير مدعومة عند الحفظ في PDF 2.0. Metadata سيتم استخدامها بدلا من ذلك.
 
 ### أمثلة
 
@@ -31,15 +31,15 @@ Document doc = new Document();
 
 doc.CustomDocumentProperties.Add("Company", "My value");
 
-// قم بإنشاء كائن "PdfSaveOptions" يمكننا تمريره إلى طريقة "Save" الخاصة بالمستند
-// لتعديل كيفية تحويل هذه الطريقة المستند إلى PDF.
+// قم بإنشاء كائن "PdfSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" المستند
+// لتعديل كيفية تحويل هذه الطريقة للمستند إلى .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// اضبط خاصية "CustomPropertiesExport" على "PdfCustomPropertiesExport.None" لتجاهلها
- // خصائص المستند المخصصة لأننا نحفظ المستند إلى .PDF.
-// تعيين خاصية "CustomPropertiesExport" على "PdfCustomPropertiesExport.Standard"
+// قم بتعيين خاصية "CustomPropertiesExport" على "PdfCustomPropertiesExport.None" للتجاهل
+// خصائص الوثيقة المخصصة عندما نحفظ الوثيقة بصيغة PDF.
+// قم بتعيين خاصية "CustomPropertiesExport" على "PdfCustomPropertiesExport.Standard"
 // للحفاظ على الخصائص المخصصة داخل مستند PDF الناتج.
-// تعيين خاصية "CustomPropertiesExport" على "PdfCustomPropertiesExport.Metadata"
+// قم بتعيين خاصية "CustomPropertiesExport" على "PdfCustomPropertiesExport.Metadata"
 // للحفاظ على الخصائص المخصصة في حزمة XMP.
 options.CustomPropertiesExport = pdfCustomPropertiesExportMode;
 

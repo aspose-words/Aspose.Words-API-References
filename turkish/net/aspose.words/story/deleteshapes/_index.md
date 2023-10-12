@@ -1,14 +1,14 @@
 ---
 title: Story.DeleteShapes
 second_title: Aspose.Words for .NET API Referansı
-description: Story yöntem. Bu hikayenin metninden tüm şekilleri siler.
+description: Story yöntem. Bu hikayenin metnindeki tüm şekilleri siler.
 type: docs
 weight: 70
 url: /tr/net/aspose.words/story/deleteshapes/
 ---
 ## Story.DeleteShapes method
 
-Bu hikayenin metninden tüm şekilleri siler.
+Bu hikayenin metnindeki tüm şekilleri siler.
 
 ```csharp
 public void DeleteShapes()
@@ -16,19 +16,19 @@ public void DeleteShapes()
 
 ### Örnekler
 
-Bir düğümden tüm şekillerin nasıl kaldırılacağını gösterir.
+Bir düğümdeki tüm şekillerin nasıl kaldırılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Şekil eklemek için DocumentBuilder kullanın. Bu bir satır içi şekil,
-// birinci bölümün Gövdesinin alt düğümü olan bir üst Paragrafı olan.
+// Şekil eklemek için DocumentBuilder'ı kullanın. Bu satır içi bir şekildir,
+// birinci bölümün Gövdesinin alt düğümü olan bir ana Paragrafa sahiptir.
 builder.InsertShape(ShapeType.Cube, 100.0, 100.0);
 
 Assert.AreEqual(1, doc.GetChildNodes(NodeType.Shape, true).Count);
 
-// Bu Body'nin alt paragraflarından tüm şekilleri silebiliriz.
+// Bu Gövdenin alt paragraflarındaki tüm şekilleri silebiliriz.
 Assert.AreEqual(StoryType.MainText, doc.FirstSection.Body.StoryType);
 doc.FirstSection.Body.DeleteShapes();
 

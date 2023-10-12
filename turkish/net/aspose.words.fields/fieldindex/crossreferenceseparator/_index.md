@@ -1,14 +1,14 @@
 ---
 title: FieldIndex.CrossReferenceSeparator
 second_title: Aspose.Words for .NET API Referansı
-description: FieldIndex mülk. Çapraz referansları ve diğer girdileri ayırmak için kullanılan karakter dizisini alır veya ayarlar.
+description: FieldIndex mülk. Çapraz referansları ve diğer girişleri ayırmak için kullanılan karakter dizisini alır veya ayarlar.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fields/fieldindex/crossreferenceseparator/
 ---
 ## FieldIndex.CrossReferenceSeparator property
 
-Çapraz referansları ve diğer girdileri ayırmak için kullanılan karakter dizisini alır veya ayarlar.
+Çapraz referansları ve diğer girişleri ayırmak için kullanılan karakter dizisini alır veya ayarlar.
 
 ```csharp
 public string CrossReferenceSeparator { get; set; }
@@ -23,13 +23,13 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Belgede bulunan her XE alanı için bir giriş görüntüleyecek bir INDEX alanı oluşturun.
-// Her giriş, sol tarafta XE alanının Text özellik değerini gösterecek,
+// Her girişte XE alanının Text özelliği değeri sol tarafta görüntülenecektir,
 // ve sağdaki XE alanını içeren sayfanın numarası.
-// INDEX girişi, "Metin" özelliğinde eşleşen değerlere sahip tüm XE alanlarını toplayacaktır.
+// INDEX girişi "Text" özelliğinde eşleşen değerlere sahip tüm XE alanlarını toplayacaktır
 // her XE alanı için bir giriş yapmak yerine tek bir girişe.
 FieldIndex index = (FieldIndex)builder.InsertField(FieldType.FieldIndex, true);
 
-// Bir XE alanını, INDEX girişini sayfa numarası yerine bir dize gösterecek şekilde yapılandırabiliriz.
+// Bir XE alanını, INDEX girişinin sayfa numarası yerine bir dize göstermesini sağlayacak şekilde yapılandırabiliriz.
 // İlk olarak, sayfa numarasını bir dizeyle değiştiren girişler için,
 // XE alanının Metin özelliği değeri ile dize arasında özel bir ayırıcı belirtin.
 index.CrossReferenceSeparator = ", see: ";
@@ -38,17 +38,17 @@ Assert.AreEqual(" INDEX  \\k \", see: \"", index.GetFieldCode());
 
 // Bu alanın sayfa numarasını görüntüleyen normal bir INDEX girişi oluşturan bir XE alanı ekleyin,
 // ve CrossReferenceSeparator değerini çağırmaz.
-// Bu XE alanı için giriş "Apple, 2" görüntüleyecektir.
+// Bu XE alanının girişi "Apple, 2" olarak görüntülenecektir.
 builder.InsertBreak(BreakType.PageBreak);
 FieldXE indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "Apple";
 
 Assert.AreEqual(" XE  Apple", indexEntry.GetFieldCode());
 
-// Sayfa 3'e başka bir XE alanı ekleyin ve PageNumberReplacement özelliği için bir değer ayarlayın.
-// Bu alanın bulunduğu sayfa numarası yerine bu değer gelecek,
+// 3. sayfaya başka bir XE alanı ekleyin ve PageNumberReplacement özelliği için bir değer ayarlayın.
+// Bu alanın bulunduğu sayfa numarası yerine bu değer görünecek,
 // ve INDEX alanının CrossReferenceSeparator değeri onun önünde görünecektir.
-// Bu XE alanı için giriş "Muz, bkz: Tropikal meyve" gösterecektir.
+// Bu XE alanının girişinde "Muz, bakınız: Tropikal meyve" görüntülenecektir.
 builder.InsertBreak(BreakType.PageBreak);
 indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "Banana";
@@ -56,6 +56,7 @@ indexEntry.PageNumberReplacement = "Tropical fruit";
 
 Assert.AreEqual(" XE  Banana \\t \"Tropical fruit\"", indexEntry.GetFieldCode());
 
+doc.UpdatePageLayout();
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "Field.INDEX.XE.CrossReferenceSeparator.docx");
 ```

@@ -1,14 +1,14 @@
 ---
 title: CellFormat.LeftPadding
 second_title: Aspose.Words per .NET API Reference
-description: CellFormat proprietà. Restituisce o imposta la quantità di spazio in punti da aggiungere a sinistra del contenuto della cella.
+description: CellFormat proprietà. Restituisce o imposta la quantità di spazio in punti da aggiungere a sinistra del contenuto di cell.
 type: docs
-weight: 50
+weight: 60
 url: /it/net/aspose.words.tables/cellformat/leftpadding/
 ---
 ## CellFormat.LeftPadding property
 
-Restituisce o imposta la quantità di spazio (in punti) da aggiungere a sinistra del contenuto della cella.
+Restituisce o imposta la quantità di spazio (in punti) da aggiungere a sinistra del contenuto di cell.
 
 ```csharp
 public double LeftPadding { get; set; }
@@ -27,7 +27,7 @@ builder.InsertCell();
 builder.Write("Row 1, cell 1.");
 
 // Inserisci una seconda cella, quindi configura le opzioni di riempimento del testo della cella.
-// Il builder applicherà queste impostazioni alla cella corrente e le nuove celle verranno create in seguito.
+// Il builder applicherà queste impostazioni alla cella corrente e successivamente creerà eventuali nuove celle.
 builder.InsertCell();
 
 CellFormat cellFormat = builder.CellFormat;
@@ -41,7 +41,7 @@ builder.Write("Row 1, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// La prima cella non è stata influenzata dalla riconfigurazione del riempimento e mantiene ancora i valori predefiniti.
+// La prima cella non è stata influenzata dalla riconfigurazione del riempimento e conserva ancora i valori predefiniti.
 Assert.AreEqual(0.0d, table.FirstRow.Cells[0].CellFormat.Width);
 Assert.AreEqual(5.4d, table.FirstRow.Cells[0].CellFormat.LeftPadding);
 Assert.AreEqual(5.4d, table.FirstRow.Cells[0].CellFormat.RightPadding);
@@ -54,7 +54,7 @@ Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.RightPadding);
 Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.TopPadding);
 Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.BottomPadding);
 
-// La prima cella crescerà ancora nel documento di output per corrispondere alle dimensioni della cella adiacente.
+// La prima cella continuerà a crescere nel documento di output per corrispondere alla dimensione della cella vicina.
 doc.Save(ArtifactsDir + "DocumentBuilder.SetCellFormatting.docx");
 ```
 

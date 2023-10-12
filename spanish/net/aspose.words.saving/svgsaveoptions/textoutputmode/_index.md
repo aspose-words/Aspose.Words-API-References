@@ -16,7 +16,7 @@ public SvgTextOutputMode TextOutputMode { get; set; }
 
 ### Observaciones
 
-Utilice esta propiedad para obtener o establecer el modo en que se debe representar el texto dentro de un documento al guardar en formato SVG.
+Utilice esta propiedad para obtener o establecer el modo en que se debe representar el texto dentro de un documento al guardarlo en formato SVG.
 
 El valor predeterminado esUseTargetMachineFonts.
 

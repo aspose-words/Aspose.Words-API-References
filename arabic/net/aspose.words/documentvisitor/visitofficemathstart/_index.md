@@ -1,14 +1,14 @@
 ---
 title: DocumentVisitor.VisitOfficeMathStart
 second_title: Aspose.Words لمراجع .NET API
-description: DocumentVisitor طريقة. يتم استدعاؤه عند بدء تعداد كائن Office Math .
+description: DocumentVisitor طريقة. يتم استدعاؤه عند بدء تعداد كائن Office Math.
 type: docs
 weight: 310
 url: /ar/net/aspose.words/documentvisitor/visitofficemathstart/
 ---
 ## DocumentVisitor.VisitOfficeMathStart method
 
-يتم استدعاؤه عند بدء تعداد كائن Office Math .
+يتم استدعاؤه عند بدء تعداد كائن Office Math.
 
 ```csharp
 public virtual VisitorAction VisitOfficeMathStart(OfficeMath officeMath)
@@ -24,7 +24,7 @@ public virtual VisitorAction VisitOfficeMathStart(OfficeMath officeMath)
 
 ### أمثلة
 
-يوضح كيفية طباعة بنية العقدة لكل عقدة رياضية للمكتب في مستند.
+يوضح كيفية طباعة بنية العقدة لكل عقدة رياضية في المكتب في المستند.
 
 ```csharp
 public void OfficeMathToText()
@@ -32,17 +32,17 @@ public void OfficeMathToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     OfficeMathStructurePrinter visitor = new OfficeMathStructurePrinter();
 
-    // عندما نحصل على عقدة مركبة لقبول زائر المستند ، يزور الزائر عقدة القبول ،
-    // ثم يعبر جميع أبناء العقدة بطريقة العمق أولاً.
-    // يمكن للزائر قراءة كل عقدة تمت زيارتها وتعديلها.
+    // عندما نحصل على عقدة مركبة لقبول زائر المستند، يقوم الزائر بزيارة العقدة المقبولة،
+    // ثم يجتاز جميع أبناء العقدة بطريقة العمق الأول.
+    // يمكن للزائر قراءة وتعديل كل عقدة تمت زيارتها.
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 }
 
 /// <summary>
-/// يتجاوز الشجرة غير الثنائية للعقد الفرعية للعقد.
-/// ينشئ خريطة في شكل سلسلة لجميع عقد OfficeMath التي تمت مواجهتها وأطفالها.
+/// يجتاز الشجرة غير الثنائية للعقدة التابعة.
+/// ينشئ خريطة على شكل سلسلة لجميع عقد OfficeMath التي تمت مواجهتها وأبناءها.
 /// </summary>
 public class OfficeMathStructurePrinter : DocumentVisitor
 {
@@ -61,7 +61,7 @@ public class OfficeMathStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاستدعاء عند مواجهة عقدة تشغيل في المستند.
+    /// يتم الاتصال به عند مواجهة عقدة التشغيل في المستند.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -71,7 +71,7 @@ public class OfficeMathStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاستدعاء عند مصادفة عقدة OfficeMath في المستند.
+    /// يتم الاتصال به عند مواجهة عقدة OfficeMath في المستند.
     /// </summary>
     public override VisitorAction VisitOfficeMathStart(OfficeMath officeMath)
     {
@@ -83,7 +83,7 @@ public class OfficeMathStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم استدعاؤها بعد زيارة جميع العقد الفرعية لعقدة OfficeMath.
+    /// يتم الاتصال به بعد زيارة كافة العقد التابعة لعقدة OfficeMath.
     /// </summary>
     public override VisitorAction VisitOfficeMathEnd(OfficeMath officeMath)
     {
@@ -95,9 +95,9 @@ public class OfficeMathStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// قم بإلحاق سطر بـ StringBuilder وقم بعمل مسافة بادئة له اعتمادًا على مدى عمق الزائر في شجرة المستند.
+    /// ألحق سطرًا بـ StringBuilder وقم بوضع مسافة بادئة له اعتمادًا على مدى عمق الزائر في شجرة المستندات.
     /// </summary>
-    /// < param name = "text" > < / param >
+    /// <param name="text"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++) mBuilder.Append("|  ");

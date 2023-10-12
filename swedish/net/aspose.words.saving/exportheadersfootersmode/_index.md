@@ -3,7 +3,7 @@ title: Enum ExportHeadersFootersMode
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Saving.ExportHeadersFootersMode uppräkning. Anger hur sidhuvuden och sidfötter exporteras till HTML MHTML eller EPUB.
 type: docs
-weight: 4740
+weight: 5000
 url: /sv/net/aspose.words.saving/exportheadersfootersmode/
 ---
 ## ExportHeadersFootersMode enumeration

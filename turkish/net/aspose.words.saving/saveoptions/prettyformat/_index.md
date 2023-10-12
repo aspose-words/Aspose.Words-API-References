@@ -1,14 +1,14 @@
 ---
 title: SaveOptions.PrettyFormat
 second_title: Aspose.Words for .NET API Referansı
-description: SaveOptions mülk. Ne zamandoğru  uygun olduğunda güzel biçimler çıktısı. Varsayılan değer yanlış .
+description: SaveOptions mülk. Ne zamandoğru uygulanabilir olduğu yerde güzel formatlarda çıktı. Varsayılan değerYANLIŞ .
 type: docs
-weight: 120
+weight: 110
 url: /tr/net/aspose.words.saving/saveoptions/prettyformat/
 ---
 ## SaveOptions.PrettyFormat property
 
-Ne zaman`doğru` , uygun olduğunda güzel biçimler çıktısı. Varsayılan değer **yanlış** .
+Ne zaman`doğru` uygulanabilir olduğu yerde güzel formatlarda çıktı. Varsayılan değer:`YANLIŞ` .
 
 ```csharp
 public bool PrettyFormat { get; set; }
@@ -16,7 +16,7 @@ public bool PrettyFormat { get; set; }
 
 ### Notlar
 
-Ayarlanır **doğru** HTML, MHTML, EPUB, WordML, RTF, DOCX ve ODT çıktılarını insan tarafından okunabilir hale getirmek. Test veya hata ayıklama için kullanışlıdır.
+Ayarlanır`doğru` HTML, MHTML, EPUB, WordML, RTF, DOCX ve ODT çıktılarını insanlar tarafından okunabilir hale getirmek için. Test etme veya hata ayıklama için kullanışlıdır.
 
 ### Örnekler
 
@@ -31,7 +31,7 @@ HtmlSaveOptions htmlOptions = new HtmlSaveOptions(SaveFormat.Html) { PrettyForma
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.PrettyFormat.html", htmlOptions);
 
-// Güzel formatı etkinleştirmek, sekme durağı ve yeni satır karakterleri ekleyerek ham html kodunu daha okunabilir hale getirir.
+// Güzel formatın etkinleştirilmesi, sekme durağı ve yeni satır karakterleri ekleyerek ham html kodunu daha okunabilir hale getirir.
 string html = File.ReadAllText(ArtifactsDir + "HtmlSaveOptions.PrettyFormat.html");
 
 if (usePrettyFormat)

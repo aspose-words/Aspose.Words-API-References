@@ -1,14 +1,14 @@
 ---
 title: CellFormat.VerticalMerge
 second_title: Aspose.Words für .NET-API-Referenz
-description: CellFormat eigendom. Gibt an wie die Zelle vertikal mit anderen Zellen verbunden wird.
+description: CellFormat eigendom. Gibt an wie die Zelle vertikal mit anderen Zellen zusammengeführt wird.
 type: docs
-weight: 120
+weight: 130
 url: /de/net/aspose.words.tables/cellformat/verticalmerge/
 ---
 ## CellFormat.VerticalMerge property
 
-Gibt an, wie die Zelle vertikal mit anderen Zellen verbunden wird.
+Gibt an, wie die Zelle vertikal mit anderen Zellen zusammengeführt wird.
 
 ```csharp
 public CellMerge VerticalMerge { get; set; }
@@ -16,9 +16,9 @@ public CellMerge VerticalMerge { get; set; }
 
 ### Bemerkungen
 
-Zellen können nur dann vertikal verbunden werden, wenn ihre linken und rechten Grenzen identisch sind.
+Zellen können nur dann vertikal zusammengeführt werden, wenn ihre linken und rechten Grenzen identisch sind.
 
-Wenn Zellen vertikal verbunden werden, werden die Anzeigebereiche der verbundenen Zellen konsolidiert. Der konsolidierte Bereich wird verwendet, um den Inhalt der ersten vertikal verbundenen Zelle anzuzeigen und alle anderen vertikal verbundenen Zellen müssen leer sein.
+Wenn Zellen vertikal zusammengeführt werden, werden die Anzeigebereiche der zusammengeführten Zellen konsolidiert. Der konsolidierte Bereich wird verwendet, um den Inhalt der ersten vertikal zusammengeführten Zelle anzuzeigen und alle anderen vertikal zusammengeführten Zellen müssen leer sein.
 
 ### Beispiele
 
@@ -51,7 +51,7 @@ public string PrintCellMergeType(Cell cell)
 }
 ```
 
-Zeigt, wie Tabellenzellen vertikal verbunden werden.
+Zeigt, wie Tabellenzellen vertikal zusammengeführt werden.
 
 ```csharp
 Document doc = new Document();
@@ -63,19 +63,19 @@ builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.First;
 builder.Write("Text in merged cells.");
 
-// Füge eine Zelle in die zweite Spalte der ersten Zeile ein und beende dann die Zeile.
-// Konfigurieren Sie außerdem den Builder, um das vertikale Zusammenführen in erstellten Zellen zu deaktivieren.
+// Eine Zelle in die zweite Spalte der ersten Zeile einfügen und dann die Zeile beenden.
+// Konfigurieren Sie den Builder außerdem so, dass die vertikale Zusammenführung in erstellten Zellen deaktiviert wird.
 builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.None;
 builder.Write("Text in unmerged cell.");
 builder.EndRow();
 
-// Eine Zelle in die erste Spalte der zweiten Zeile einfügen. 
+ // Eine Zelle in die erste Spalte der zweiten Zeile einfügen.
 // Anstatt Textinhalte hinzuzufügen, werden wir diese Zelle mit der ersten Zelle zusammenführen, die wir direkt darüber hinzugefügt haben.
 builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.Previous;
 
-// Eine weitere unabhängige Zelle in die zweite Spalte der zweiten Zeile einfügen.
+// Fügen Sie eine weitere unabhängige Zelle in die zweite Spalte der zweiten Zeile ein.
 builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.None;
 builder.Write("Text in unmerged cell.");

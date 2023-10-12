@@ -17,7 +17,7 @@ public Node ImportNode(Node srcNode, bool isImportChildren)
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | srcNode | Node | Noden som importeras. |
-| isImportChildren | Boolean | True att importera alla underordnade noder rekursivt; annars falskt. |
+| isImportChildren | Boolean | `Sann` att importera alla underordnade noder rekursivt; annat,`falsk`. |
 
 ### Returvärde
 
@@ -29,7 +29,7 @@ Denna metod använderUseDestinationStyles alternativ för att lösa formatering.
 
 Genom att importera en nod skapas en kopia av källnoden som tillhör det importerande dokumentet. Den returnerade noden har ingen förälder. Källnoden ändras eller tas inte bort från originaldokumentet.
 
-Innan en nod från ett annat dokument kan infogas i det här dokumentet måste den importeras. Under import översätts dokumentspecifika egenskaper såsom referenser till stilar och listor från originalet till det importerande dokumentet. Efter att noden har importerats kan den infogas på lämplig plats i dokumentet med[`InsertBefore`](../../compositenode/insertbefore/) eller [`InsertAfter`](../../compositenode/insertafter/).
+Innan en nod från ett annat dokument kan infogas i detta dokument måste den importeras. Under import översätts dokumentspecifika egenskaper såsom referenser till stilar och listor från originalet till det importerande dokumentet. Efter att noden har importerats kan den infogas på lämplig plats i dokumentet medNode) eller Node).
 
 Om källnoden redan tillhör måldokumentet skapas helt enkelt en djup klon av källnoden.
 
@@ -84,7 +84,7 @@ public Node ImportNode(Node srcNode, bool isImportChildren, ImportFormatMode imp
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | srcNode | Node | Noden som ska importeras. |
-| isImportChildren | Boolean | True att importera alla underordnade noder rekursivt; annars falskt. |
+| isImportChildren | Boolean | `Sann` att importera alla underordnade noder rekursivt; annat,`falsk`. |
 | importFormatMode | ImportFormatMode | Anger hur stilformatering som krockar sammanfogas. |
 
 ### Returvärde
@@ -97,7 +97,7 @@ Denna överbelastning är användbar för att styra hur stilar och listformateri
 
 Genom att importera en nod skapas en kopia av källnoden som tillhör det importerande dokumentet. Den returnerade noden har ingen förälder. Källnoden ändras eller tas inte bort från originaldokumentet.
 
-Innan en nod från ett annat dokument kan infogas i det här dokumentet måste den importeras. Under import översätts dokumentspecifika egenskaper såsom referenser till stilar och listor från originalet till det importerande dokumentet. Efter att noden har importerats kan den infogas på lämplig plats i dokumentet med[`InsertBefore`](../../compositenode/insertbefore/) eller [`InsertAfter`](../../compositenode/insertafter/).
+Innan en nod från ett annat dokument kan infogas i detta dokument måste den importeras. Under import översätts dokumentspecifika egenskaper såsom referenser till stilar och listor från originalet till det importerande dokumentet. Efter att noden har importerats kan den infogas på lämplig plats i dokumentet medNode) eller Node).
 
 Om källnoden redan tillhör måldokumentet skapas helt enkelt en djup klon av källnoden.
 

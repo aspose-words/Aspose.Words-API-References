@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertShape
 second_title: Aspose.Words för .NET API Referens
 description: DocumentBuilder metod. Infogar inline form med angiven typ och storlek.
 type: docs
-weight: 410
+weight: 440
 url: /sv/net/aspose.words/documentbuilder/insertshape/
 ---
 ## InsertShape(ShapeType, double, double) {#insertshape_1}

@@ -1,14 +1,14 @@
 ---
 title: PageSetup.ClearFormatting
 second_title: Aspose.Words für .NET-API-Referenz
-description: PageSetup methode. Setzt die Seiteneinrichtung auf Standardpapiergröße ränder und ausrichtung zurück.
+description: PageSetup methode. Setzt die Seiteneinrichtung auf die Standardpapiergröße ränder und ausrichtung zurück.
 type: docs
-weight: 450
+weight: 460
 url: /de/net/aspose.words/pagesetup/clearformatting/
 ---
 ## PageSetup.ClearFormatting method
 
-Setzt die Seiteneinrichtung auf Standardpapiergröße, -ränder und -ausrichtung zurück.
+Setzt die Seiteneinrichtung auf die Standardpapiergröße, -ränder und -ausrichtung zurück.
 
 ```csharp
 public void ClearFormatting()
@@ -16,7 +16,7 @@ public void ClearFormatting()
 
 ### Beispiele
 
-Zeigt, wie Seiteneinrichtungseinstellungen auf Abschnitte in einem Dokument angewendet und zurückgesetzt werden.
+Zeigt, wie Seiteneinrichtungseinstellungen auf Abschnitte in einem Dokument angewendet und wiederhergestellt werden.
 
 ```csharp
 Document doc = new Document();
@@ -27,14 +27,14 @@ builder.PageSetup.Orientation = Orientation.Landscape;
 builder.PageSetup.VerticalAlignment = PageVerticalAlignment.Center;
 builder.Writeln("This is the first section, which landscape oriented with vertically centered text.");
 
-// Wenn wir mit einem Document Builder einen neuen Abschnitt beginnen,
-// er erbt die aktuellen Seiteneinrichtungseigenschaften des Builders.
+// Wenn wir einen neuen Abschnitt mit einem Document Builder beginnen,
+// Es erbt die aktuellen Seiteneinrichtungseigenschaften des Builders.
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 
 Assert.AreEqual(Orientation.Landscape, doc.Sections[1].PageSetup.Orientation);
 Assert.AreEqual(PageVerticalAlignment.Center, doc.Sections[1].PageSetup.VerticalAlignment);
 
-// Wir können die Seiteneinrichtungseigenschaften mit der Methode "ClearFormatting" auf ihre Standardwerte zurücksetzen.
+// Mit der Methode „ClearFormatting“ können wir die Seiteneinrichtungseigenschaften auf ihre Standardwerte zurücksetzen.
 builder.PageSetup.ClearFormatting();
 
 Assert.AreEqual(Orientation.Portrait, doc.Sections[1].PageSetup.Orientation);

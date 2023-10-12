@@ -16,24 +16,22 @@ public void Insert(int index, Node node)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| index | Int32 | L'indice in base zero del nodo. Gli indici negativi sono consentiti e indicano l'accesso dal fondo dell'elenco. Ad esempio -1 indica l'ultimo nodo, -2 indica il penultimo e così via. |
+| index | Int32 | L'indice in base zero del nodo. Gli indici negativi sono consentiti e indicano l'accesso dal fondo della lista. Ad esempio -1 significa l'ultimo nodo, -2 significa il penultimo e così via. |
 | node | Node | Il nodo da inserire. |
 
 ### Eccezioni
 
 | eccezione | condizione |
 | --- | --- |
-| NotSupportedException | Il **NodeCollection** è una collezione "profonda". |
+| NotSupportedException | IL[`NodeCollection`](../) è una collezione "profonda". |
 
 ### Osservazioni
 
 Il nodo viene inserito come figlio nell'oggetto nodo da cui è stata creata la raccolta.
 
-Se l'indice è uguale o maggiore di Count, il nodo viene aggiunto alla fine della raccolta.
+Se l'indice è uguale o maggiore di[`Count`](../count/), il nodo viene aggiunto alla fine della raccolta.
 
-Se l'indice è negativo e il suo valore assoluto è maggiore di Count, il nodo viene aggiunto alla fine della raccolta.
-
-Se il newChild è già nell'albero, viene prima rimosso.
+Se l'indice è negativo e il suo valore assoluto è maggiore di[`Count`](../count/), il nodo viene aggiunto alla fine della raccolta.
 
 Se il nodo da inserire è stato creato da un altro documento, dovresti usare [`ImportNode`](../../documentbase/importnode/) per importare il nodo nel documento corrente. Il nodo importato può quindi essere inserito nel documento corrente.
 
@@ -45,17 +43,17 @@ Mostra come lavorare con una NodeCollection.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Aggiungi testo al documento inserendo le esecuzioni utilizzando un DocumentBuilder.
+// Aggiungi testo al documento inserendo Runs utilizzando un DocumentBuilder.
 builder.Write("Run 1. ");
 builder.Write("Run 2. ");
 
-// Ogni chiamata del metodo "Write" crea un nuovo Run,
-// che viene quindi visualizzato nella RunCollection del paragrafo padre.
+// Ogni invocazione del metodo "Write" crea una nuova Run,
+// che verrà quindi visualizzato nella RunCollection del paragrafo principale.
 RunCollection runs = doc.FirstSection.Body.FirstParagraph.Runs;
 
 Assert.AreEqual(2, runs.Count);
 
-// Possiamo anche inserire manualmente un nodo in RunCollection.
+// Possiamo anche inserire manualmente un nodo nella RunCollection.
 Run newRun = new Run(doc, "Run 3. ");
 runs.Insert(3, newRun);
 

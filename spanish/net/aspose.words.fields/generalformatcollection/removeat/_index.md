@@ -1,14 +1,14 @@
 ---
 title: GeneralFormatCollection.RemoveAt
 second_title: Referencia de API de Aspose.Words para .NET
-description: GeneralFormatCollection método. Elimina una ocurrencia de formato general en el índice especificado.
+description: GeneralFormatCollection método. Elimina una aparición de formato general en el índice especificado.
 type: docs
 weight: 60
 url: /es/net/aspose.words.fields/generalformatcollection/removeat/
 ---
 ## GeneralFormatCollection.RemoveAt method
 
-Elimina una ocurrencia de formato general en el índice especificado.
+Elimina una aparición de formato general en el índice especificado.
 
 ```csharp
 public void RemoveAt(int index)
@@ -26,7 +26,7 @@ Muestra cómo dar formato a los resultados de los campos.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Use un generador de documentos para insertar un campo que muestre un resultado sin formato aplicado.
+// Utilice un generador de documentos para insertar un campo que muestre un resultado sin formato aplicado.
 Field field = builder.InsertField("= 2 + 3");
 
 Assert.AreEqual("= 2 + 3", field.GetFieldCode());

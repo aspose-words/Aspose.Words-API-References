@@ -1,14 +1,14 @@
 ---
 title: DocumentProperty.LinkSource
 second_title: Справочник по API Aspose.Words для .NET
-description: DocumentProperty свойство. Получает источник связанного пользовательского свойства документа.
+description: DocumentProperty свойство. Получает источник связанного свойства пользовательского документа.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.properties/documentproperty/linksource/
 ---
 ## DocumentProperty.LinkSource property
 
-Получает источник связанного пользовательского свойства документа.
+Получает источник связанного свойства пользовательского документа.
 
 ```csharp
 public string LinkSource { get; }
@@ -16,7 +16,7 @@ public string LinkSource { get; }
 
 ### Примеры
 
-Показывает, как связать пользовательское свойство документа с закладкой.
+Показывает, как связать настраиваемое свойство документа с закладкой.
 
 ```csharp
 Document doc = new Document();
@@ -26,7 +26,7 @@ builder.StartBookmark("MyBookmark");
 builder.Write("Hello world!");
 builder.EndBookmark("MyBookmark");
 
-// Связать новое пользовательское свойство с закладкой. Стоимость этого свойства
+// Связываем новое пользовательское свойство с закладкой. Стоимость этого объекта недвижимости
 // будет содержимым закладки, на которую он ссылается в элементе «LinkSource».
 CustomDocumentProperties customProperties = doc.CustomDocumentProperties;
 DocumentProperty customProperty = customProperties.AddLinkToContent("Bookmark", "MyBookmark");

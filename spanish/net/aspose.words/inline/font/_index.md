@@ -16,23 +16,23 @@ public Font Font { get; }
 
 ### Ejemplos
 
-Muestra cómo construir un documento de Aspose.Words a mano.
+Muestra cómo construir un documento Aspose.Words a mano.
 
 ```csharp
 Document doc = new Document();
 
 // Un documento en blanco contiene una sección, un cuerpo y un párrafo.
-// Llame al método "RemoveAllChildren" para eliminar todos esos nodos,
+// Llama al método "RemoveAllChildren" para eliminar todos esos nodos,
 // y terminar con un nodo de documento sin hijos.
 doc.RemoveAllChildren();
 
 // Este documento ahora no tiene nodos secundarios compuestos a los que podamos agregar contenido.
 // Si deseamos editarlo, necesitaremos volver a llenar su colección de nodos.
-// Primero, cree una nueva sección y luego agréguela como elemento secundario al nodo del documento raíz.
+// Primero, crea una nueva sección y luego agrégala como secundaria al nodo del documento raíz.
 Section section = new Section(doc);
 doc.AppendChild(section);
 
-// Establecer algunas propiedades de configuración de página para la sección.
+// Establece algunas propiedades de configuración de página para la sección.
 section.PageSetup.SectionStart = SectionStart.NewPage;
 section.PageSetup.PaperSize = PaperSize.Letter;
 
@@ -41,7 +41,7 @@ section.PageSetup.PaperSize = PaperSize.Letter;
 Body body = new Body(doc);
 section.AppendChild(body);
 
-// Cree un párrafo, establezca algunas propiedades de formato y luego agréguelo como elemento secundario al cuerpo.
+// Crea un párrafo, establece algunas propiedades de formato y luego añádelo como elemento secundario al cuerpo.
 Paragraph para = new Paragraph(doc);
 
 para.ParagraphFormat.StyleName = "Heading 1";
@@ -49,7 +49,7 @@ para.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 body.AppendChild(para);
 
-// Finalmente, agregue algo de contenido para hacer el documento. Crear una carrera,
+// Finalmente, agrega algo de contenido para hacer el documento. Crea una carrera,
 // establece su apariencia y contenido, y luego lo agrega como elemento secundario al párrafo.
 Run run = new Run(doc);
 run.Text = "Hello World!";

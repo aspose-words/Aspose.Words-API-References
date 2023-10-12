@@ -1,14 +1,14 @@
 ---
 title: Range.Replace
 second_title: Справочник по API Aspose.Words для .NET
-description: Range метод. Заменяет все вхождения указанного шаблона строки символов замещающей строкой.
+description: Range метод. Заменяет все вхождения указанного шаблона строки символов заменяющей строкой.
 type: docs
-weight: 80
+weight: 90
 url: /ru/net/aspose.words/range/replace/
 ---
 ## Replace(string, string) {#replace}
 
-Заменяет все вхождения указанного шаблона строки символов замещающей строкой.
+Заменяет все вхождения указанного шаблона строки символов заменяющей строкой.
 
 ```csharp
 public int Replace(string pattern, string replacement)
@@ -16,7 +16,7 @@ public int Replace(string pattern, string replacement)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| pattern | String | Строка для замены. |
+| pattern | String | Строка, которую необходимо заменить. |
 | replacement | String | Строка для замены всех вхождений шаблона. |
 
 ### Возвращаемое значение
@@ -25,18 +25,18 @@ public int Replace(string pattern, string replacement)
 
 ### Примечания
 
-Шаблон не будет использоваться как регулярное выражение. Пожалуйста, используйте`Replace` если вам нужны регулярные выражения.
+Шаблон не будет использоваться в качестве регулярного выражения. Пожалуйста, используйте`Replace`если вам нужны регулярные выражения.
 
 Используется сравнение без учета регистра.
 
-Метод может обрабатывать разрывы как в шаблоне, так и в заменяющих строках.
+Метод способен обрабатывать разрывы как в шаблонах, так и в строках замены.
 
-Вы должны использовать специальные метасимволы, если вам нужно работать с разрывами:
+Если вам нужно работать с разрывами, следует использовать специальные метасимволы:
 
 * **&amp;п** - разрыв абзаца
-* **&amp;b** - разрыв раздела
+* **&amp;б** - разрыв раздела
 * **&amp;м** - разрыв страницы
-* **&amp;l** - ручной разрыв строки
+* **&amp;л** - ручной разрыв строки
 
 Использовать метод`Replace` чтобы иметь более гибкую настройку.
 
@@ -59,7 +59,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("Greetings, _FullName_!");
 
-// Выполняем операцию поиска и замены содержимого нашего документа и проверяем количество произведенных замен.
+// Выполняем операцию поиска и замены содержимого нашего документа и проверяем количество произошедших замен.
 int replacementCount = doc.Range.Replace("_FullName_", "John Doe");
 
 Assert.AreEqual(1, replacementCount);
@@ -82,10 +82,10 @@ Assert.AreEqual(ParagraphAlignment.Left, paragraphs[0].ParagraphFormat.Alignment
 Assert.AreEqual(ParagraphAlignment.Left, paragraphs[1].ParagraphFormat.Alignment);
 Assert.AreEqual(ParagraphAlignment.Left, paragraphs[2].ParagraphFormat.Alignment);
 
-// Мы можем использовать объект «FindReplaceOptions», чтобы изменить процесс поиска и замены.
+// Мы можем использовать объект «FindReplaceOptions» для изменения процесса поиска и замены.
 FindReplaceOptions options = new FindReplaceOptions();
 
-// Установите для свойства "Выравнивание" значение "ParagraphAlignment.Right", чтобы выровнять каждый абзац по правому краю.
+// Установите для свойства «Alignment» значение «ParagraphAlignment.Right», чтобы выровнять каждый абзац по правому краю.
 // который содержит совпадение, найденное операцией поиска и замены.
 options.ApplyParagraphFormat.Alignment = ParagraphAlignment.Right;
 
@@ -111,7 +111,7 @@ Assert.AreEqual("Every paragraph that ends with a full stop like this one will b
 
 ## Replace(Regex, string) {#replace_2}
 
-Заменяет все вхождения шаблона символов, заданного регулярным выражением, другой строкой.
+Заменяет все вхождения шаблона символов, указанного в регулярном выражении, другой строкой.
 
 ```csharp
 public int Replace(Regex pattern, string replacement)
@@ -128,16 +128,16 @@ public int Replace(Regex pattern, string replacement)
 
 ### Примечания
 
-Заменяет все совпадение, захваченное регулярным выражением.
+Заменяет все совпадение, полученное регулярным выражением.
 
-Метод может обрабатывать разрывы как в шаблоне, так и в заменяющих строках.
+Метод способен обрабатывать разрывы как в шаблонах, так и в строках замены.
 
-Вы должны использовать специальные метасимволы, если вам нужно работать с разрывами:
+Если вам нужно работать с разрывами, следует использовать специальные метасимволы:
 
 * **&amp;п** - разрыв абзаца
-* **&amp;b** - разрыв раздела
+* **&amp;б** - разрыв раздела
 * **&amp;м** - разрыв страницы
-* **&amp;l** - ручной разрыв строки
+* **&amp;л** - ручной разрыв строки
 
 Использовать метод`Replace` чтобы иметь более гибкую настройку.
 
@@ -175,7 +175,7 @@ Assert.AreEqual("I decided to get the curtains in lavender, ideal for the lavend
 
 ## Replace(string, string, FindReplaceOptions) {#replace_1}
 
-Заменяет все вхождения указанного шаблона строки символов замещающей строкой.
+Заменяет все вхождения указанного шаблона строки символов заменяющей строкой.
 
 ```csharp
 public int Replace(string pattern, string replacement, FindReplaceOptions options)
@@ -183,7 +183,7 @@ public int Replace(string pattern, string replacement, FindReplaceOptions option
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| pattern | String | Строка для замены. |
+| pattern | String | Строка, которую необходимо заменить. |
 | replacement | String | Строка для замены всех вхождений шаблона. |
 | options | FindReplaceOptions | [`FindReplaceOptions`](../../../aspose.words.replacing/findreplaceoptions/) объект, чтобы указать дополнительные параметры. |
 
@@ -193,17 +193,17 @@ public int Replace(string pattern, string replacement, FindReplaceOptions option
 
 ### Примечания
 
-Шаблон не будет использоваться как регулярное выражение. Пожалуйста, используйте`Replace` если вам нужны регулярные выражения.
+Шаблон не будет использоваться в качестве регулярного выражения. Пожалуйста, используйте`Replace`если вам нужны регулярные выражения.
 
-Метод может обрабатывать разрывы как в шаблоне, так и в заменяющих строках.
+Метод способен обрабатывать разрывы как в шаблонах, так и в строках замены.
 
-Вы должны использовать специальные метасимволы, если вам нужно работать с разрывами:
+Если вам нужно работать с разрывами, следует использовать специальные метасимволы:
 
 * **&amp;п** - разрыв абзаца
-* **&amp;b** - разрыв раздела
+* **&amp;б** - разрыв раздела
 * **&amp;м** - разрыв страницы
-* **&amp;l** - ручной разрыв строки
-* **&amp;&amp;** - &amp; персонаж
+* **&amp;л** - ручной разрыв строки
+* **&amp;&amp;** - &amp; характер
 
 ### Примеры
 
@@ -244,11 +244,11 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("Ruby bought a ruby necklace.");
 
-// Мы можем использовать объект «FindReplaceOptions», чтобы изменить процесс поиска и замены.
+// Мы можем использовать объект «FindReplaceOptions» для изменения процесса поиска и замены.
 FindReplaceOptions options = new FindReplaceOptions();
 
-// Установите флаг "MatchCase" в "true", чтобы применять учет регистра при поиске строк для замены.
-// Установите для флага «MatchCase» значение «false», чтобы игнорировать регистр символов при поиске текста для замены.
+// Установите для флага «MatchCase» значение «true», чтобы применять чувствительность к регистру при поиске заменяемых строк.
+// Установите флаг «MatchCase» в значение «false», чтобы игнорировать регистр символов при поиске текста для замены.
 options.MatchCase = matchCase;
 
 doc.Range.Replace("Ruby", "Jade", options);
@@ -257,7 +257,7 @@ Assert.AreEqual(matchCase ? "Jade bought a ruby necklace." : "Jade bought a Jade
     doc.GetText().Trim());
 ```
 
-Показывает, как переключать автономные операции поиска и замены только для слов.
+Показывает, как переключать отдельные операции поиска и замены только по словам.
 
 ```csharp
 Document doc = new Document();
@@ -265,11 +265,11 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("Jackson will meet you in Jacksonville.");
 
-// Мы можем использовать объект «FindReplaceOptions», чтобы изменить процесс поиска и замены.
+// Мы можем использовать объект «FindReplaceOptions» для изменения процесса поиска и замены.
 FindReplaceOptions options = new FindReplaceOptions();
 
-// Установите флаг "FindWholeWordsOnly" в "true", чтобы заменить найденный текст, если он не является частью другого слова.
-// Установите флаг «FindWholeWordsOnly» в «false», чтобы заменить весь текст независимо от его окружения.
+// Установите флаг «FindWholeWordsOnly» в значение «true», чтобы заменить найденный текст, если он не является частью другого слова.
+// Установите для флага «FindWholeWordsOnly» значение «false», чтобы заменить весь текст независимо от его окружения.
 options.FindWholeWordsOnly = findWholeWordsOnly;
 
 doc.Range.Replace("Jackson", "Louis", options);
@@ -301,10 +301,10 @@ FindReplaceOptions options = new FindReplaceOptions();
 options.MatchCase = true;
 options.FindWholeWordsOnly = true;
 
-// Выполнить операцию поиска и замены для всей таблицы.
+// Выполняем операцию поиска и замены для всей таблицы.
 table.Range.Replace("Carrots", "Eggs", options);
 
-// Выполнить операцию поиска и замены в последней ячейке последней строки таблицы.
+// Выполняем операцию поиска и замены последней ячейки последней строки таблицы.
 table.LastRow.LastCell.Range.Replace("50", "20", options);
 
 Assert.AreEqual("Eggs\a50\a\a" +
@@ -322,7 +322,7 @@ Assert.AreEqual("Eggs\a50\a\a" +
 
 ## Replace(Regex, string, FindReplaceOptions) {#replace_3}
 
-Заменяет все вхождения шаблона символов, заданного регулярным выражением, другой строкой.
+Заменяет все вхождения шаблона символов, указанного в регулярном выражении, другой строкой.
 
 ```csharp
 public int Replace(Regex pattern, string replacement, FindReplaceOptions options)
@@ -340,17 +340,17 @@ public int Replace(Regex pattern, string replacement, FindReplaceOptions options
 
 ### Примечания
 
-Заменяет все совпадение, захваченное регулярным выражением.
+Заменяет все совпадение, полученное регулярным выражением.
 
-Метод может обрабатывать разрывы как в шаблоне, так и в заменяющих строках.
+Метод способен обрабатывать разрывы как в шаблонах, так и в строках замены.
 
-Вы должны использовать специальные метасимволы, если вам нужно работать с разрывами:
+Если вам нужно работать с разрывами, следует использовать специальные метасимволы:
 
 * **&amp;п** - разрыв абзаца
-* **&amp;b** - разрыв раздела
+* **&amp;б** - разрыв раздела
 * **&amp;м** - разрыв страницы
-* **&amp;l** - ручной разрыв строки
-* **&amp;&amp;** - &amp; персонаж
+* **&amp;л** - ручной разрыв строки
+* **&amp;&amp;** - &amp; характер
 
 ### Примеры
 
@@ -363,9 +363,10 @@ builder.Writeln("a1, b2, c3");
 doc.Range.Replace(new Regex(@"\d+"), "&p", new FindReplaceOptions());
 ```
 
-Показывает, как заменить все вхождения шаблона регулярного выражения другой строкой, отслеживая все такие замены.
+Показывает, как заменить все вхождения шаблона регулярного выражения другой строкой, отслеживая при этом все такие замены.
 
 ```csharp
+public void ReplaceWithCallback()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -373,7 +374,7 @@ doc.Range.Replace(new Regex(@"\d+"), "&p", new FindReplaceOptions());
     builder.Writeln("Our new location in New York City is opening tomorrow. " +
                     "Hope to see all our NYC-based customers at the opening!");
 
-    // Мы можем использовать объект «FindReplaceOptions», чтобы изменить процесс поиска и замены.
+    // Мы можем использовать объект «FindReplaceOptions» для изменения процесса поиска и замены.
     FindReplaceOptions options = new FindReplaceOptions();
 
     // Установите обратный вызов, который отслеживает любые замены, которые сделает метод "Replace".
@@ -390,7 +391,7 @@ doc.Range.Replace(new Regex(@"\d+"), "&p", new FindReplaceOptions());
 }
 
 /// <summary>
-/// Ведет журнал каждой замены текста, выполненной операцией поиска и замены
+/// Ведёт журнал каждой замены текста, выполненной операцией поиска и замены
 /// и отмечает значение исходного совпавшего текста.
 /// </summary>
 private class TextFindAndReplacementLogger : IReplacingCallback
@@ -413,18 +414,21 @@ private class TextFindAndReplacementLogger : IReplacingCallback
 }
 ```
 
-Показывает, как вставить все содержимое документа в качестве замены совпадения в операции поиска и замены.
+Показывает, как вставить содержимое всего документа в качестве замены совпадения в операции поиска и замены.
 
 ```csharp
+public void InsertDocumentAtReplace()
 {
     Document mainDoc = new Document(MyDir + "Document insertion destination.docx");
 
-    // Мы можем использовать объект «FindReplaceOptions», чтобы изменить процесс поиска и замены.
+    // Мы можем использовать объект «FindReplaceOptions» для изменения процесса поиска и замены.
     FindReplaceOptions options = new FindReplaceOptions();
     options.ReplacingCallback = new InsertDocumentAtReplaceHandler();
 
     mainDoc.Range.Replace(new Regex("\\[MY_DOCUMENT\\]"), "", options);
     mainDoc.Save(ArtifactsDir + "InsertDocument.InsertDocumentAtReplace.docx");
+
+}
 
 private class InsertDocumentAtReplaceHandler : IReplacingCallback
 {
@@ -432,7 +436,7 @@ private class InsertDocumentAtReplaceHandler : IReplacingCallback
     {
         Document subDoc = new Document(MyDir + "Document.docx");
 
-        // Вставить документ после абзаца, содержащего совпадающий текст.
+        // Вставляем документ после абзаца, содержащего совпадающий текст.
         Paragraph para = (Paragraph)args.MatchNode.ParentNode;
         InsertDocument(para, subDoc);
 
@@ -458,7 +462,7 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
         foreach (Section srcSection in docToInsert.Sections.OfType<Section>())
             foreach (Node srcNode in srcSection.Body)
             {
-                // Пропустить узел, если это последний пустой абзац в разделе.
+                // Пропускаем узел, если это последний пустой абзац в разделе.
                 if (srcNode.NodeType == NodeType.Paragraph)
                 {
                     Paragraph para = (Paragraph)srcNode;

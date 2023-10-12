@@ -16,7 +16,7 @@ public double Height { get; set; }
 
 ### Exemples
 
-Montre comment formater des lignes avec un générateur de document.
+Montre comment formater les lignes avec un générateur de documents.
 
 ```csharp
 Document doc = new Document();
@@ -26,8 +26,8 @@ Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, cell 1.");
 
-// Commencez une deuxième ligne, puis configurez sa hauteur. Le constructeur appliquera ces paramètres à
-// sa ligne actuelle, ainsi que toutes les nouvelles lignes qu'il crée par la suite.
+// Démarre une deuxième ligne, puis configure sa hauteur. Le constructeur appliquera ces paramètres à
+// sa ligne actuelle, ainsi que toutes les nouvelles lignes créées par la suite.
 builder.EndRow();
 
 RowFormat rowFormat = builder.RowFormat;
@@ -38,7 +38,7 @@ builder.InsertCell();
 builder.Write("Row 2, cell 1.");
 builder.EndTable();
 
-// La première ligne n'a pas été affectée par la reconfiguration du rembourrage et contient toujours les valeurs par défaut.
+// La première ligne n'a pas été affectée par la reconfiguration du remplissage et contient toujours les valeurs par défaut.
 Assert.AreEqual(0.0d, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 
@@ -48,7 +48,7 @@ Assert.AreEqual(HeightRule.Exactly, table.Rows[1].RowFormat.HeightRule);
 doc.Save(ArtifactsDir + "DocumentBuilder.SetRowFormatting.docx");
 ```
 
-Montre comment créer un tableau formaté à l'aide de DocumentBuilder.
+Montre comment créer un tableau formaté à l’aide de DocumentBuilder.
 
 ```csharp
 Document doc = new Document();
@@ -58,7 +58,7 @@ Table table = builder.StartTable();
 builder.InsertCell();
 table.LeftIndent = 20;
 
-// Définir certaines options de formatage pour le texte et l'apparence du tableau.
+// Définit certaines options de formatage pour l'apparence du texte et du tableau.
 builder.RowFormat.Height = 40;
 builder.RowFormat.HeightRule = HeightRule.AtLeast;
 builder.CellFormat.Shading.BackgroundPatternColor = Color.FromArgb(198, 217, 241);
@@ -68,8 +68,8 @@ builder.Font.Size = 16;
 builder.Font.Name = "Arial";
 builder.Font.Bold = true;
 
-// La configuration des options de formatage dans un générateur de document les appliquera
-// à la cellule/ligne actuelle dans laquelle se trouve son curseur,
+// La configuration des options de formatage dans un générateur de documents les appliquera
+// vers la cellule/ligne actuelle dans laquelle se trouve le curseur,
 // ainsi que toutes les nouvelles cellules et lignes créées à l'aide de ce générateur.
 builder.Write("Header Row,\n Cell 1");
 builder.InsertCell();
@@ -78,8 +78,8 @@ builder.InsertCell();
 builder.Write("Header Row,\n Cell 3");
 builder.EndRow();
 
-// Reconfigurez les objets de mise en forme du générateur pour les nouvelles lignes et cellules que nous sommes sur le point de créer.
-// Le constructeur ne les appliquera pas à la première ligne déjà créée afin qu'elle se démarque comme une ligne d'en-tête.
+// Reconfigurez les objets de formatage du générateur pour les nouvelles lignes et cellules que nous sommes sur le point de créer.
+// Le constructeur ne les appliquera pas à la première ligne déjà créée afin qu'elle ressorte comme ligne d'en-tête.
 builder.CellFormat.Shading.BackgroundPatternColor = Color.White;
 builder.CellFormat.VerticalAlignment = CellVerticalAlignment.Center;
 builder.RowFormat.Height = 30;

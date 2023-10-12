@@ -16,11 +16,11 @@ public void Remove(string name)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| name | String | Le nom insensible à la casse du signet. |
+| name | String | Le nom du signet qui ne respecte pas la casse. |
 
 ### Exemples
 
-Montre comment définir des niveaux hiérarchiques pour les signets.
+Montre comment définir les niveaux de plan pour les signets.
 
 ```csharp
 Document doc = new Document();
@@ -37,14 +37,14 @@ builder.EndBookmark("Bookmark 2");
 builder.Writeln("Text inside Bookmark 1.");
 builder.EndBookmark("Bookmark 1");
 
-// Insérer un autre signet.
+// Insère un autre signet.
 builder.StartBookmark("Bookmark 3");
 builder.Writeln("Text inside Bookmark 3.");
 builder.EndBookmark("Bookmark 3");
 
 // Lors de l'enregistrement au format .pdf, les signets sont accessibles via un menu déroulant et utilisés comme ancres par la plupart des lecteurs.
 // Les signets peuvent également avoir des valeurs numériques pour les niveaux hiérarchiques,
-// activation des entrées de plan de niveau inférieur pour masquer les entrées enfants de niveau supérieur lorsqu'elles sont réduites dans le lecteur.
+// permettant aux entrées de plan de niveau inférieur de masquer les entrées enfants de niveau supérieur lorsqu'elles sont réduites dans le lecteur.
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 BookmarksOutlineLevelCollection outlineLevels = pdfSaveOptions.OutlineOptions.BookmarksOutlineLevels;
 
@@ -58,11 +58,11 @@ Assert.AreEqual(1, outlineLevels[0]);
 Assert.AreEqual(2, outlineLevels["Bookmark 2"]);
 Assert.AreEqual(2, outlineLevels.IndexOfKey("Bookmark 3"));
 
-// Nous pouvons supprimer deux éléments afin qu'il ne reste que la désignation de niveau hiérarchique pour "Signet 1".
+// Nous pouvons supprimer deux éléments afin qu'il ne reste que la désignation du niveau hiérarchique pour "Signet 1".
 outlineLevels.RemoveAt(2);
 outlineLevels.Remove("Bookmark 2");
 
-// Il existe neuf niveaux hiérarchiques. Leur numérotation sera optimisée lors de l'opération de sauvegarde.
+// Il existe neuf niveaux de plan. Leur numérotation sera optimisée lors de l'opération de sauvegarde.
 // Dans ce cas, les niveaux "5" et "9" deviendront "2" et "3".
 outlineLevels.Add("Bookmark 2", 5);
 outlineLevels.Add("Bookmark 3", 9);

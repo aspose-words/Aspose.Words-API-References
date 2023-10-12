@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.DocumentSplitCriteria
 second_title: Aspose.Words för .NET API Referens
-description: HtmlSaveOptions fast egendom. Anger hur dokumentet ska delas när du sparar tillHtml ellerEpub formatera. Standard ärNone för HTML och HeadingParagraph för EPUB.
+description: HtmlSaveOptions fast egendom. Anger hur dokumentet ska delas när du sparar tillHtml  Epub ellerAzw3 formatera. Standard ärNone för HTML och HeadingParagraph för EPUB och AZW3.
 type: docs
 weight: 80
 url: /sv/net/aspose.words.saving/htmlsaveoptions/documentsplitcriteria/
 ---
 ## HtmlSaveOptions.DocumentSplitCriteria property
 
-Anger hur dokumentet ska delas när du sparar tillHtml ellerEpub formatera. Standard ärNone för HTML och HeadingParagraph för EPUB.
+Anger hur dokumentet ska delas när du sparar tillHtml , Epub ellerAzw3 formatera. Standard ärNone för HTML och HeadingParagraph för EPUB och AZW3.
 
 ```csharp
 public DocumentSplitCriteria DocumentSplitCriteria { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: ComHelper.Open
 second_title: Aspose.Words لمراجع .NET API
-description: ComHelper طريقة. يسمح لتطبيق COM بتحميل ملفDocument من ملف .
+description: ComHelper طريقة. يسمح لتطبيق COM بتحميل ملفDocument من ملف.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/comhelper/open/
 ---
 ## Open(string) {#open_1}
 
-يسمح لتطبيق COM بتحميل ملف[`Document`](../../document/) من ملف .
+يسمح لتطبيق COM بتحميل ملف[`Document`](../../document/) من ملف.
 
 ```csharp
 public Document Open(string fileName)
@@ -16,15 +16,15 @@ public Document Open(string fileName)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| fileName | String | اسم ملف المستند المراد تحميله. |
+| fileName | String | اسم الملف للمستند المراد تحميله. |
 
 ### قيمة الإرجاع
 
-أ[`Document`](../../document/) الذي يمثل مستند Word.
+أ[`Document`](../../document/)الكائن الذي يمثل مستند Word.
 
 ### ملاحظات
 
-هذه الطريقة مماثلة لاستدعاء[`Document`](../../document/) مُنشئ مع معلمة اسم ملف.
+هذه الطريقة هي نفس طريقة استدعاء[`Document`](../../document/) منشئ مع معلمة اسم الملف.
 
 ### أمثلة
 
@@ -44,12 +44,12 @@ Set doc = helper.Open(fileName)
 // تسمح لنا فئة ComHelper بتحميل المستندات من داخل عملاء COM.
 ComHelper comHelper = new ComHelper();
 
-// 1 - استخدام اسم ملف نظام محلي:
+// 1 - استخدام اسم ملف النظام المحلي:
 Document doc = comHelper.Open(MyDir + "Document.docx");
 
 Assert.AreEqual("Hello World!\r\rHello Word!\r\r\rHello World!", doc.GetText().Trim());
 
-// 2 - من تيار:
+// 2 - من الدفق:
 using (FileStream stream = new FileStream(MyDir + "Document.docx", FileMode.Open))
 {
     doc = comHelper.Open(stream);
@@ -69,7 +69,7 @@ using (FileStream stream = new FileStream(MyDir + "Document.docx", FileMode.Open
 
 ## Open(Stream) {#open}
 
-يسمح بتحميل تطبيق COM[`Document`](../../document/) من تيار .
+يسمح بتحميل تطبيق COM[`Document`](../../document/) من تيار.
 
 ```csharp
 public Document Open(Stream stream)
@@ -77,15 +77,15 @@ public Document Open(Stream stream)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| stream | Stream | كائن دفق .NET يحتوي على المستند المراد تحميله. |
+| stream | Stream | كائن دفق .NET يحتوي على المستند المطلوب تحميله. |
 
 ### قيمة الإرجاع
 
-أ[`Document`](../../document/) الذي يمثل مستند Word.
+أ[`Document`](../../document/)الكائن الذي يمثل مستند Word.
 
 ### ملاحظات
 
-هذه الطريقة مماثلة لاستدعاء[`Document`](../../document/) مُنشئ مع معلمة دفق.
+هذه الطريقة هي نفس طريقة استدعاء[`Document`](../../document/) منشئ مع معلمة الدفق.
 
 ### أمثلة
 
@@ -95,12 +95,12 @@ public Document Open(Stream stream)
 // تسمح لنا فئة ComHelper بتحميل المستندات من داخل عملاء COM.
 ComHelper comHelper = new ComHelper();
 
-// 1 - استخدام اسم ملف نظام محلي:
+// 1 - استخدام اسم ملف النظام المحلي:
 Document doc = comHelper.Open(MyDir + "Document.docx");
 
 Assert.AreEqual("Hello World!\r\rHello Word!\r\r\rHello World!", doc.GetText().Trim());
 
-// 2 - من تيار:
+// 2 - من الدفق:
 using (FileStream stream = new FileStream(MyDir + "Document.docx", FileMode.Open))
 {
     doc = comHelper.Open(stream);

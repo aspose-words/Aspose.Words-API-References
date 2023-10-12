@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.DoNotUseIndentAsNumberingTabStop
 second_title: Справочник по API Aspose.Words для .NET
-description: CompatibilityOptions свойство. Игнорировать висячий отступ при создании позиции табуляции после нумерации.
+description: CompatibilityOptions свойство. Игнорировать выступающий отступ при создании позиции табуляции после нумерации.
 type: docs
 weight: 220
 url: /ru/net/aspose.words.settings/compatibilityoptions/donotuseindentasnumberingtabstop/
 ---
 ## CompatibilityOptions.DoNotUseIndentAsNumberingTabStop property
 
-Игнорировать висячий отступ при создании позиции табуляции после нумерации.
+Игнорировать выступающий отступ при создании позиции табуляции после нумерации.
 
 ```csharp
 public bool DoNotUseIndentAsNumberingTabStop { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: DigitalSignature.Comments
 second_title: Referencia de API de Aspose.Words para .NET
-description: DigitalSignature propiedad. Obtiene el comentario de propósito de firma.
+description: DigitalSignature propiedad. Obtiene el comentario del propósito de la firma.
 type: docs
 weight: 20
 url: /es/net/aspose.words.digitalsignatures/digitalsignature/comments/
 ---
 ## DigitalSignature.Comments property
 
-Obtiene el comentario de propósito de firma.
+Obtiene el comentario del propósito de la firma.
 
 ```csharp
 public string Comments { get; }

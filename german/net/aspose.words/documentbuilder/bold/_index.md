@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.Bold
 second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentBuilder eigendom. Wahr wenn die Schriftart fett formatiert ist.
+description: DocumentBuilder eigendom. True wenn die Schriftart fett formatiert ist.
 type: docs
 weight: 20
 url: /de/net/aspose.words/documentbuilder/bold/
 ---
 ## DocumentBuilder.Bold property
 
-Wahr, wenn die Schriftart fett formatiert ist.
+True, wenn die Schriftart fett formatiert ist.
 
 ```csharp
 public bool Bold { get; set; }
@@ -16,13 +16,13 @@ public bool Bold { get; set; }
 
 ### Beispiele
 
-Zeigt, wie MERGEFIELDs mit Daten mit einem Document Builder anstelle eines Seriendrucks gefüllt werden.
+Zeigt, wie MERGEFIELDs mit einem Dokumentenersteller anstelle eines Seriendrucks mit Daten gefüllt werden.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Einfügen einiger MERGEFIELDS, die Daten aus gleichnamigen Spalten in eine Datenquelle beim Seriendruck übernehmen,
+// Fügen Sie einige MERGEFIELDS ein, die während eines Seriendrucks Daten aus gleichnamigen Spalten in einer Datenquelle akzeptieren.
 // und füllen Sie sie dann manuell aus.
 builder.InsertField(" MERGEFIELD Chairman ");
 builder.InsertField(" MERGEFIELD ChiefFinancialOfficer ");

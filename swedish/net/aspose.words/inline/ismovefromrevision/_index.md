@@ -1,14 +1,14 @@
 ---
 title: Inline.IsMoveFromRevision
 second_title: Aspose.Words för .NET API Referens
-description: Inline fast egendom. Returnerar Sann om det här objektet flyttades borttogs i Microsoft Word medan ändringsspårning var aktiverad.
+description: Inline fast egendom. ReturnerarSann om det här objektet flyttades borttogs i Microsoft Word medan ändringsspårning var aktiverad.
 type: docs
 weight: 50
 url: /sv/net/aspose.words/inline/ismovefromrevision/
 ---
 ## Inline.IsMoveFromRevision property
 
-Returnerar **Sann** om det här objektet flyttades (borttogs) i Microsoft Word medan ändringsspårning var aktiverad.
+Returnerar`Sann` om det här objektet flyttades (borttogs) i Microsoft Word medan ändringsspårning var aktiverad.
 
 ```csharp
 public bool IsMoveFromRevision { get; }

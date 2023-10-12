@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTagRangeStart.Tag
 second_title: Aspose.Words für .NET-API-Referenz
-description: StructuredDocumentTagRangeStart eigendom. Gibt ein Tag an das dem aktuellen strukturierten DokumentTagKnoten zugeordnet ist. Darf nicht null sein.
+description: StructuredDocumentTagRangeStart eigendom. Gibt ein Tag an das mit dem aktuellen TagKnoten des strukturierten Dokuments verknüpft ist. Kann nicht seinNull .
 type: docs
 weight: 150
 url: /de/net/aspose.words.markup/structureddocumenttagrangestart/tag/
 ---
 ## StructuredDocumentTagRangeStart.Tag property
 
-Gibt ein Tag an, das dem aktuellen strukturierten Dokument-Tag-Knoten zugeordnet ist. Darf nicht null sein.
+Gibt ein Tag an, das mit dem aktuellen Tag-Knoten des strukturierten Dokuments verknüpft ist. Kann nicht sein`Null` .
 
 ```csharp
 public string Tag { get; set; }
@@ -16,7 +16,7 @@ public string Tag { get; set; }
 
 ### Bemerkungen
 
-Ein Tag ist eine beliebige Zeichenfolge, die Anwendungen mit einem strukturierten document -Tag verknüpfen können, um es zu identifizieren, ohne einen sichtbaren Anzeigenamen bereitzustellen.
+Ein Tag ist eine beliebige Zeichenfolge, die Anwendungen mit dem strukturierten document -Tag verknüpfen können, um es zu identifizieren, ohne einen sichtbaren Anzeigenamen bereitzustellen.
 
 ### Beispiele
 

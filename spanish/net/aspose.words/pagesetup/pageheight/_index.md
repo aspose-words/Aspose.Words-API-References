@@ -3,7 +3,7 @@ title: PageSetup.PageHeight
 second_title: Referencia de API de Aspose.Words para .NET
 description: PageSetup propiedad. Devuelve o establece la altura de la página en puntos.
 type: docs
-weight: 300
+weight: 310
 url: /es/net/aspose.words/pagesetup/pageheight/
 ---
 ## PageSetup.PageHeight property
@@ -16,7 +16,7 @@ public double PageHeight { get; set; }
 
 ### Ejemplos
 
-Muestra cómo insertar una imagen y usarla como marca de agua.
+Muestra cómo insertar una imagen y utilizarla como marca de agua.
 
 ```csharp
 Document doc = new Document();

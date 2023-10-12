@@ -16,7 +16,7 @@ public string Name { get; set; }
 
 ### Anmärkningar
 
-Om relationsmålet är internt är den här egenskapen det absoluta delnamnet i paketet. Om relationsmålet är externt är den här egenskapen mål-URL.
+Om relationsmålet är internt är denna egenskap det absoluta delnamnet i paketet. Om relationsmålet är externt är den här egenskapen mål-URL.
 
 Standardvärdet är en tom sträng. Ett giltigt värde måste vara en icke-tom sträng.
 

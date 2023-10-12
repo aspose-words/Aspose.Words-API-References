@@ -3,7 +3,7 @@ title: ImageData.ToByteArray
 second_title: Aspose.Words for .NET API 参考
 description: ImageData 方法. 返回任何图像的图像字节无论图像是存储还是链接
 type: docs
-weight: 210
+weight: 220
 url: /zh/net/aspose.words.drawing/imagedata/tobytearray/
 ---
 ## ImageData.ToByteArray method
@@ -16,7 +16,7 @@ public byte[] ToByteArray()
 
 ### 评论
 
-如果图像已链接，则每次调用时都会下载图像。
+如果图像已链接，则每次调用时都会下载该图像。
 
 ### 例子
 
@@ -24,7 +24,6 @@ public byte[] ToByteArray()
 
 ```csharp
 Document imgSourceDoc = new Document(MyDir + "Images.docx");
-
 Shape imgShape = (Shape) imgSourceDoc.GetChild(NodeType.Shape, 0, true);
 
 Assert.True(imgShape.HasImage);

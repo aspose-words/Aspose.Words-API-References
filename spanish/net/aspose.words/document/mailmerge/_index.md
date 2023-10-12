@@ -1,14 +1,14 @@
 ---
 title: Document.MailMerge
 second_title: Referencia de API de Aspose.Words para .NET
-description: Document propiedad. Devuelve un Unificación de correo objeto que representa la funcionalidad de combinación de correspondencia para el documento.
+description: Document propiedad. Devuelve unMailMerge objeto que representa la funcionalidad de combinación de correspondencia para el documento.
 type: docs
-weight: 240
+weight: 260
 url: /es/net/aspose.words/document/mailmerge/
 ---
 ## Document.MailMerge property
 
-Devuelve un **Unificación de correo** objeto que representa la funcionalidad de combinación de correspondencia para el documento.
+Devuelve un[`MailMerge`](../../../aspose.words.mailmerging/mailmerge/) objeto que representa la funcionalidad de combinación de correspondencia para el documento.
 
 ```csharp
 public MailMerge MailMerge { get; }
@@ -27,8 +27,8 @@ public void ExecuteDataTable()
     table.Rows.Add(new object[] { "Thomas Hardy", "120 Hanover Sq., London" });
     table.Rows.Add(new object[] { "Paolo Accorti", "Via Monte Bianco 34, Torino" });
 
-    // A continuación se muestran dos formas de usar un DataTable como fuente de datos para una combinación de correspondencia.
-    // 1: use la tabla completa para la combinación de correspondencia para crear un documento de combinación de correspondencia de salida para cada fila de la tabla:
+    // A continuación se muestran dos formas de utilizar una tabla de datos como fuente de datos para una combinación de correspondencia.
+    // 1 - Utilice toda la tabla para la combinación de correspondencia para crear un documento de combinación de correspondencia de salida para cada fila de la tabla:
     Document doc = CreateSourceDocExecuteDataTable();
 
     doc.MailMerge.Execute(table);
@@ -44,7 +44,7 @@ public void ExecuteDataTable()
 }
 
 /// <summary>
-/// Crea un documento de origen de combinación de correspondencia.
+/// Crea un documento fuente de combinación de correspondencia.
 /// </summary>
 private static Document CreateSourceDocExecuteDataTable()
 {

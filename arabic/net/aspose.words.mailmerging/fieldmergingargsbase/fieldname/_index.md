@@ -16,21 +16,22 @@ public string FieldName { get; }
 
 ### ملاحظات
 
-إذا كان لديك تعيين من اسم حقل مستند إلى اسم حقل مصدر بيانات مختلف ، فهذا هو اسم الحقل المعين.
+إذا كان لديك تعيين من اسم حقل مستند إلى اسم حقل مصدر بيانات مختلف، ، فهذا هو اسم الحقل المعين.
 
-إذا حددت بادئة اسم حقل ، على سبيل المثال "صورة: MyFieldName" في المستند ، ثم **اسم الحقل** إرجاع اسم الحقل بدون البادئة ، وهذا هو "MyFieldName".
+إذا قمت بتحديد بادئة اسم حقل، على سبيل المثال "Image:MyFieldName" في المستند، ، ثم`FieldName` تقوم بإرجاع اسم الحقل بدون البادئة، وهي "MyFieldName".
 
 ### أمثلة
 
-يوضح كيفية إدراج حقول نموذج مربع الاختيار في MERGEFIELDs كبيانات دمج أثناء دمج البريد.
+يوضح كيفية إدراج حقول نموذج خانة الاختيار في MERGEFIELDs كبيانات دمج أثناء دمج البريد.
 
 ```csharp
+public void InsertCheckBox()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // استخدم MERGEFIELDs مع علامات "TableStart" / "TableEnd" لتعريف منطقة دمج المراسلات
-    // الذي ينتمي إلى مصدر بيانات يسمى "StudentCourse" ولديه MERGEFIELD الذي يقبل البيانات من عمود يسمى "CourseName".
+    // استخدم MERGEFIELDs مع علامات "TableStart"/"TableEnd" لتحديد منطقة دمج البريد
+    // الذي ينتمي إلى مصدر بيانات يسمى "StudentCourse" ويحتوي على MERGEFIELD الذي يقبل البيانات من عمود يسمى "CourseName".
     builder.StartTable();
     builder.InsertCell();
     builder.InsertField(" MERGEFIELD  TableStart:StudentCourse ");
@@ -46,14 +47,15 @@ public string FieldName { get; }
 
     doc.MailMerge.ExecuteWithRegions(dataTable);
     doc.Save(ArtifactsDir + "MailMergeEvent.InsertCheckBox.docx");
+}
 
 /// <summary>
-/// عند مواجهة MERGEFIELD باسم معين ، يقوم بإدراج حقل نموذج خانة اختيار بدلاً من دمج نص البيانات.
+/// عند مواجهة MERGEFIELD باسم محدد، يتم إدراج حقل نموذج خانة الاختيار بدلاً من نص دمج البيانات.
 /// </summary>
 private class HandleMergeFieldInsertCheckBox : IFieldMergingCallback
 {
     /// <summary>
-    /// يتم الاستدعاء عندما يقوم دمج المراسلات بدمج البيانات في MERGEFIELD.
+    /// يتم الاتصال به عندما يقوم دمج البريد بدمج البيانات في MERGEFIELD.
     /// </summary>
     void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)
     {
@@ -67,7 +69,7 @@ private class HandleMergeFieldInsertCheckBox : IFieldMergingCallback
 
             string fieldValue = args.FieldValue.ToString();
 
-            // في هذه الحالة ، لكل فهرس سجل 'n' قيمة الحقل المقابلة هي "Course n".
+            // في هذه الحالة، لكل فهرس سجل 'n'، تكون قيمة الحقل المقابل هي "Course n".
             Assert.AreEqual(char.GetNumericValue(fieldValue[7]), args.RecordIndex);
 
             builder.Write(fieldValue);
@@ -84,7 +86,7 @@ private class HandleMergeFieldInsertCheckBox : IFieldMergingCallback
 }
 
 /// <summary>
-/// ينشئ مصدر بيانات لدمج المراسلات.
+/// إنشاء مصدر بيانات لدمج المراسلات.
 /// </summary>
 private static DataTable GetStudentCourseDataTable()
 {

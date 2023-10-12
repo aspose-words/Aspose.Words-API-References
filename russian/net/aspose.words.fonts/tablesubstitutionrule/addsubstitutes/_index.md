@@ -1,14 +1,14 @@
 ---
 title: TableSubstitutionRule.AddSubstitutes
 second_title: Справочник по API Aspose.Words для .NET
-description: TableSubstitutionRule метод. Добавляет замещающие имена шрифтов для заданного исходного имени шрифта.
+description: TableSubstitutionRule метод. Добавляет замещающие имена шрифтов для данного исходного имени шрифта.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fonts/tablesubstitutionrule/addsubstitutes/
 ---
 ## TableSubstitutionRule.AddSubstitutes method
 
-Добавляет замещающие имена шрифтов для заданного исходного имени шрифта.
+Добавляет замещающие имена шрифтов для данного исходного имени шрифта.
 
 ```csharp
 public void AddSubstitutes(string originalFontName, params string[] substituteFontNames)
@@ -21,13 +21,13 @@ public void AddSubstitutes(string originalFontName, params string[] substituteFo
 
 ### Примеры
 
-Показывает, как получить доступ к источнику системного шрифта документа и установить заменители шрифта.
+Показывает, как получить доступ к источнику системных шрифтов документа и установить заменители шрифтов.
 
 ```csharp
 Document doc = new Document();
 doc.FontSettings = new FontSettings();
 
-// По умолчанию пустой документ всегда содержит системный источник шрифта.
+// По умолчанию пустой документ всегда содержит источник системного шрифта.
 Assert.AreEqual(1, doc.FontSettings.GetFontsSources().Length);
 
 SystemFontSource systemFontSource = (SystemFontSource) doc.FontSettings.GetFontsSources()[0];
@@ -49,7 +49,7 @@ foreach (string systemFontFolder in SystemFontSource.GetSystemFontFolders())
     Console.WriteLine(systemFontFolder);
 }
 
-// Установите шрифт, существующий в каталоге шрифтов Windows, в качестве замены несуществующего.
+// Установите шрифт, существующий в каталоге Windows Fonts, вместо несуществующего.
 doc.FontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 doc.FontSettings.SubstitutionSettings.TableSubstitution.AddSubstitutes("Kreon-Regular", new[] {"Calibri"});
 
@@ -58,12 +58,12 @@ Assert.AreEqual(1,
 Assert.Contains("Calibri",
     doc.FontSettings.SubstitutionSettings.TableSubstitution.GetSubstitutes("Kreon-Regular").ToArray());
 
-// В качестве альтернативы мы могли бы добавить папку источника шрифта, в которой соответствующая папка содержит шрифт.
+// В качестве альтернативы мы могли бы добавить папку-источник шрифта, в которой соответствующая папка содержит шрифт.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false);
 doc.FontSettings.SetFontsSources(new FontSourceBase[] {systemFontSource, folderFontSource});
 Assert.AreEqual(2, doc.FontSettings.GetFontsSources().Length);
 
-// Сброс источников шрифта по-прежнему оставляет нам источник системного шрифта, а также наши заменители.
+// Сброс источников шрифтов по-прежнему оставляет нам системный источник шрифтов, а также наши заменители.
 doc.FontSettings.ResetFontSources();
 
 Assert.AreEqual(1, doc.FontSettings.GetFontsSources().Length);
@@ -79,27 +79,27 @@ Document doc = new Document();
 FontSettings fontSettings = new FontSettings();
 doc.FontSettings = fontSettings;
 
-// Создать новое правило подстановки таблиц и загрузить таблицу подстановки шрифтов Windows по умолчанию.
+// Создаем новое правило подстановки таблиц и загружаем таблицу подстановки шрифтов Windows по умолчанию.
 TableSubstitutionRule tableSubstitutionRule = fontSettings.SubstitutionSettings.TableSubstitution;
 
-// Если мы будем выбирать шрифты исключительно из нашей папки, нам понадобится пользовательская таблица подстановки.
+// Если мы выбираем шрифты исключительно из нашей папки, нам понадобится собственная таблица подстановки.
 // У нас больше не будет доступа к шрифтам Microsoft Windows,
-// такие как «Arial» или «Times New Roman», так как их нет в нашей новой папке шрифтов.
+// например, «Arial» или «Times New Roman», поскольку их нет в нашей новой папке шрифтов.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false);
 fontSettings.SetFontsSources(new FontSourceBase[] {folderFontSource});
 
-// Ниже приведены два способа загрузки таблицы замещения из файла в локальной файловой системе.
+// Ниже приведены два способа загрузки таблицы подстановок из файла в локальной файловой системе.
 // 1 - Из потока:
 using (FileStream fileStream = new FileStream(MyDir + "Font substitution rules.xml", FileMode.Open))
 {
     tableSubstitutionRule.Load(fileStream);
 }
 
-// 2 - Напрямую из файла:
+// 2 - Прямо из файла:
 tableSubstitutionRule.Load(MyDir + "Font substitution rules.xml");
 
-// Поскольку у нас больше нет доступа к «Arial», наша таблица шрифтов сначала попытается заменить его на «Nonexistent Font».
-// У нас нет этого шрифта, поэтому он переместится на следующую замену, "Kreon", найденную в папке "MyFonts".
+// Поскольку у нас больше нет доступа к «Arial», наша таблица шрифтов сначала попытается заменить его «Несуществующим шрифтом».
+// У нас нет этого шрифта, поэтому он переместится на следующий заменитель, «Kreon», найденный в папке «MyFonts».
 Assert.AreEqual(new[] {"Missing Font", "Kreon"}, tableSubstitutionRule.GetSubstitutes("Arial").ToArray());
 
 // Мы можем расширить эту таблицу программно. Мы добавим запись, которая заменяет «Times New Roman» на «Arvo».
@@ -107,17 +107,17 @@ Assert.Null(tableSubstitutionRule.GetSubstitutes("Times New Roman"));
 tableSubstitutionRule.AddSubstitutes("Times New Roman", "Arvo");
 Assert.AreEqual(new[] {"Arvo"}, tableSubstitutionRule.GetSubstitutes("Times New Roman").ToArray());
 
-// Мы можем добавить вторичную резервную замену для существующей записи шрифта с помощью AddSubstitutes().
-// Если "Arvo" недоступен, наша таблица будет искать "M+ 2m" в качестве второго варианта замены.
+// Мы можем добавить вторичную замену для существующей записи шрифта с помощью AddSubstitutes().
+// В случае, если «Арво» недоступен, наша таблица будет искать «М+2м» в качестве второго варианта замены.
 tableSubstitutionRule.AddSubstitutes("Times New Roman", "M+ 2m");
 Assert.AreEqual(new[] {"Arvo", "M+ 2m"}, tableSubstitutionRule.GetSubstitutes("Times New Roman").ToArray());
 
-// SetSubstitutes() может установить новый список шрифтов-заменителей для шрифта.
+// SetSubstitutes() может установить новый список замещающих шрифтов для шрифта.
 tableSubstitutionRule.SetSubstitutes("Times New Roman", new[] {"Squarish Sans CT", "M+ 2m"});
 Assert.AreEqual(new[] {"Squarish Sans CT", "M+ 2m"},
     tableSubstitutionRule.GetSubstitutes("Times New Roman").ToArray());
 
-// Написание текста шрифтами, к которым у нас нет доступа, вызовет наши правила подстановки.
+// Написание текста шрифтами, к которым у нас нет доступа, вызовет наши правила замены.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Font.Name = "Arial";
 builder.Writeln("Text written in Arial, to be substituted by Kreon.");

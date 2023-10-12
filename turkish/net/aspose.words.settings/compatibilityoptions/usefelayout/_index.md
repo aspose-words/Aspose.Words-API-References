@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.UseFELayout
 second_title: Aspose.Words for .NET API Referansı
-description: CompatibilityOptions mülk. Doğu Asya/Karmaşık Komut Dosyası Düzen Kodunu Atlamayın.
+description: CompatibilityOptions mülk. Doğu Asya/Karmaşık Komut Dosyası Düzeni Kodunu Atlamayın.
 type: docs
 weight: 620
 url: /tr/net/aspose.words.settings/compatibilityoptions/usefelayout/
 ---
 ## CompatibilityOptions.UseFELayout property
 
-Doğu Asya/Karmaşık Komut Dosyası Düzen Kodunu Atlamayın.
+Doğu Asya/Karmaşık Komut Dosyası Düzeni Kodunu Atlamayın.
 
 ```csharp
 public bool UseFELayout { get; set; }

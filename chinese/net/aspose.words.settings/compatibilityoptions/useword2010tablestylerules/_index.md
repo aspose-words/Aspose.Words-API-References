@@ -1,12 +1,14 @@
 ---
 title: CompatibilityOptions.UseWord2010TableStyleRules
 second_title: Aspose.Words for .NET API 参考
-description: CompatibilityOptions 财产. 
+description: CompatibilityOptions 财产. 指定使用 Word2010 表格样式规则
 type: docs
 weight: 670
 url: /zh/net/aspose.words.settings/compatibilityoptions/useword2010tablestylerules/
 ---
 ## CompatibilityOptions.UseWord2010TableStyleRules property
+
+指定使用 Word2010 表格样式规则。
 
 ```csharp
 public bool UseWord2010TableStyleRules { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: Font.Bold
 second_title: Справочник по API Aspose.Words для .NET
-description: Font свойство. Истинно если шрифт отформатирован как полужирный.
+description: Font свойство. True если шрифт отформатирован как жирный.
 type: docs
 weight: 40
 url: /ru/net/aspose.words/font/bold/
 ---
 ## Font.Bold property
 
-Истинно, если шрифт отформатирован как полужирный.
+True, если шрифт отформатирован как жирный.
 
 ```csharp
 public bool Bold { get; set; }
@@ -22,7 +22,7 @@ public bool Bold { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Задайте форматирование шрифта, затем добавьте текст.
+// Укажите форматирование шрифта, затем добавьте текст.
 Aspose.Words.Font font = builder.Font;
 font.Size = 16;
 font.Bold = true;

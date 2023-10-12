@@ -6,12 +6,28 @@ type: docs
 weight: 10
 url: /sv/net/aspose.words.saving/pdfencryptiondetails/pdfencryptiondetails/
 ---
-## PdfEncryptionDetails constructor
+## PdfEncryptionDetails(string, string) {#constructor}
 
 Initierar en instans av denna klass.
 
 ```csharp
 public PdfEncryptionDetails(string userPassword, string ownerPassword)
+```
+
+### Se även
+
+* class [PdfEncryptionDetails](../)
+* namnutrymme [Aspose.Words.Saving](../../pdfencryptiondetails/)
+* hopsättning [Aspose.Words](../../../)
+
+---
+
+## PdfEncryptionDetails(string, string, PdfPermissions) {#constructor_1}
+
+Initierar en instans av denna klass.
+
+```csharp
+public PdfEncryptionDetails(string userPassword, string ownerPassword, PdfPermissions permissions)
 ```
 
 ### Exempel
@@ -24,19 +40,13 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("Hello world!");
 
-PdfEncryptionDetails encryptionDetails =
-    new PdfEncryptionDetails("password", string.Empty);
-
-// Börja med att inte tillåta alla behörigheter.
-encryptionDetails.Permissions = PdfPermissions.DisallowAll;
-
 // Utöka behörigheter för att tillåta redigering av kommentarer.
-encryptionDetails.Permissions = PdfPermissions.ModifyAnnotations | PdfPermissions.DocumentAssembly;
+PdfEncryptionDetails encryptionDetails =
+    new PdfEncryptionDetails("password", string.Empty, PdfPermissions.ModifyAnnotations | PdfPermissions.DocumentAssembly);
 
 // Skapa ett "PdfSaveOptions"-objekt som vi kan skicka till dokumentets "Spara"-metod
 // för att ändra hur den metoden konverterar dokumentet till .PDF.
 PdfSaveOptions saveOptions = new PdfSaveOptions();
-
 // Aktivera kryptering via egenskapen "EncryptionDetails".
 saveOptions.EncryptionDetails = encryptionDetails;
 
@@ -46,6 +56,7 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.EncryptionPermissions.pdf", saveOptions)
 
 ### Se även
 
+* enum [PdfPermissions](../../pdfpermissions/)
 * class [PdfEncryptionDetails](../)
 * namnutrymme [Aspose.Words.Saving](../../pdfencryptiondetails/)
 * hopsättning [Aspose.Words](../../../)

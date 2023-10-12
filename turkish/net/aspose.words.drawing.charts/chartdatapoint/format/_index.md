@@ -1,14 +1,14 @@
 ---
 title: ChartDataPoint.Format
 second_title: Aspose.Words for .NET API Referansı
-description: ChartDataPoint mülk. Bu veri noktasının doldurma ve satır biçimlendirmesine erişim sağlar.
+description: ChartDataPoint mülk. Bu veri noktasının dolgu ve satır formatlamasına erişim sağlar.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.drawing.charts/chartdatapoint/format/
 ---
 ## ChartDataPoint.Format property
 
-Bu veri noktasının doldurma ve satır biçimlendirmesine erişim sağlar.
+Bu veri noktasının dolgu ve satır formatlamasına erişim sağlar.
 
 ```csharp
 public ChartFormat Format { get; }
@@ -16,7 +16,7 @@ public ChartFormat Format { get; }
 
 ### Örnekler
 
-Sütun grafiğinin kategorileri için bireysel biçimlendirmenin nasıl ayarlanacağını gösterir.
+Sütun grafiğinin kategorileri için ayrı ayrı biçimlendirmenin nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -25,15 +25,15 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
 Chart chart = shape.Chart;
 
-// Varsayılan oluşturulan serileri sil.
+// Varsayılan olarak oluşturulan seriyi silin.
 chart.Series.Clear();
 
-// Yeni seriler ekleniyor.
+//Yeni seriler ekleniyor.
 ChartSeries series = chart.Series.Add("Series 1",
     new[] { "Category 1", "Category 2", "Category 3", "Category 4" },
     new double[] { 1, 2, 3, 4 });
 
-// Sütun biçimlendirmesini ayarla.
+// Sütun biçimlendirmesini ayarlayın.
 ChartDataPointCollection dataPoints = series.DataPoints;
 dataPoints[0].Format.Fill.PresetTextured(PresetTexture.Denim);
 dataPoints[1].Format.Fill.ForeColor = Color.Red;

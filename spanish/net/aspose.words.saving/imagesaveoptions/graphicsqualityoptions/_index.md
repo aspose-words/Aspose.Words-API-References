@@ -1,14 +1,14 @@
 ---
 title: ImageSaveOptions.GraphicsQualityOptions
 second_title: Referencia de API de Aspose.Words para .NET
-description: ImageSaveOptions propiedad. Permite especificar el modo de renderizado y la calidad para elGraphics objeto.
+description: ImageSaveOptions propiedad. Permite especificar el modo de renderizado y la calidad delGraphics objeto.
 type: docs
 weight: 20
 url: /es/net/aspose.words.saving/imagesaveoptions/graphicsqualityoptions/
 ---
 ## ImageSaveOptions.GraphicsQualityOptions property
 
-Permite especificar el modo de renderizado y la calidad para elGraphics objeto.
+Permite especificar el modo de renderizado y la calidad delGraphics objeto.
 
 ```csharp
 public GraphicsQualityOptions GraphicsQualityOptions { get; set; }
@@ -18,11 +18,11 @@ public GraphicsQualityOptions GraphicsQualityOptions { get; set; }
 
 Utilice esta propiedad para anular la configuración de gráficos proporcionada por el motor Aspose.Words de forma predeterminada.
 
-Solo surtirá efecto cuando un documento se guarde en un formato similar a una imagen.
+Sólo tendrá efecto cuando un documento se guarde en un formato similar a una imagen.
 
 ### Ejemplos
 
-Muestra cómo configurar las opciones de calidad de procesamiento al convertir documentos a formatos de imagen.
+Muestra cómo configurar las opciones de calidad de renderizado al convertir documentos a formatos de imagen.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

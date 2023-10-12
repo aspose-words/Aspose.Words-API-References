@@ -16,7 +16,7 @@ public double HeaderDistance { get; set; }
 
 ### Esempi
 
-Mostra come regolare il formato carta, l'orientamento, i margini e altre impostazioni per una sezione.
+Mostra come regolare il formato della carta, l'orientamento, i margini e altre impostazioni per una sezione.
 
 ```csharp
 Document doc = new Document();

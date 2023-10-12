@@ -1,14 +1,14 @@
 ---
 title: ShapeBase.IsGroup
 second_title: Справочник по API Aspose.Words для .NET
-description: ShapeBase свойство. Возвращает true если это форма группы.
+description: ShapeBase свойство. Возвращаетистинный если это фигура группы.
 type: docs
-weight: 250
+weight: 260
 url: /ru/net/aspose.words.drawing/shapebase/isgroup/
 ---
 ## ShapeBase.IsGroup property
 
-Возвращает true, если это форма группы.
+Возвращает`истинный` если это фигура группы.
 
 ```csharp
 public bool IsGroup { get; }
@@ -24,7 +24,7 @@ public void GroupOfShapes()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Если вам нужно создать "непримитивные" фигуры, такие как SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
+    // Если вам нужно создать «NonPrimitive» фигуры, такие как SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
     // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, DiagonalCornersRounded
     // используйте методы DocumentBuilder.InsertShape.
     Shape balloon = new Shape(doc, ShapeType.Balloon)
@@ -56,7 +56,7 @@ public void GroupOfShapes()
 }
 
 /// <summary>
-/// Выводит содержимое посещенной группы форм на консоль.
+/// Выводит на консоль содержимое посещенной группы фигур.
 /// </summary>
 public class ShapeGroupPrinter : DocumentVisitor
 {

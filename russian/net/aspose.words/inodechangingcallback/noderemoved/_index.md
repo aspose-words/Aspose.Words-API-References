@@ -1,14 +1,14 @@
 ---
 title: INodeChangingCallback.NodeRemoved
 second_title: Справочник по API Aspose.Words для .NET
-description: INodeChangingCallback метод. Вызывается когда узел принадлежащий этому документу был удален из своего родителя.
+description: INodeChangingCallback метод. Вызывается когда узел принадлежащий этому документу был удален из его родительского узла.
 type: docs
 weight: 30
 url: /ru/net/aspose.words/inodechangingcallback/noderemoved/
 ---
 ## INodeChangingCallback.NodeRemoved method
 
-Вызывается, когда узел, принадлежащий этому документу, был удален из своего родителя.
+Вызывается, когда узел, принадлежащий этому документу, был удален из его родительского узла.
 
 ```csharp
 public void NodeRemoved(NodeChangingArgs args)
@@ -19,12 +19,13 @@ public void NodeRemoved(NodeChangingArgs args)
 Показывает, как настроить изменение узла с помощью обратного вызова.
 
 ```csharp
+public void FontChangeViaCallback()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Устанавливаем обратный вызов изменения узла на пользовательскую реализацию,
-    // затем добавьте/удалите узлы, чтобы заставить его генерировать журнал.
+    // Установите обратный вызов изменения узла в пользовательскую реализацию,
+    // затем добавляем/удаляем узлы, чтобы создать журнал.
     HandleNodeChangingFontChanger callback = new HandleNodeChangingFontChanger();
     doc.NodeChangingCallback = callback;
 
@@ -36,10 +37,11 @@ public void NodeRemoved(NodeChangingArgs args)
     doc.Range.Fields[0].Remove();
 
     Console.WriteLine(callback.GetLog());
+}
 
 /// <summary>
-/// Регистрирует дату и время каждой вставки и удаления узла.
-/// Устанавливает пользовательское имя/размер шрифта для текстового содержимого узлов Run.
+/// Регистрирует дату и время добавления и удаления каждого узла.
+/// Устанавливает имя/размер пользовательского шрифта для текстового содержимого узлов запуска.
 /// </summary>
 public class HandleNodeChangingFontChanger : INodeChangingCallback
 {

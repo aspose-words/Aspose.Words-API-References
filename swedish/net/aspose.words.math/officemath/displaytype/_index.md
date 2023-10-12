@@ -1,14 +1,14 @@
 ---
 title: OfficeMath.DisplayType
 second_title: Aspose.Words för .NET API Referens
-description: OfficeMath fast egendom. Hämtar/ställer in Office Math visningsformattyp som representerar om en ekvation visas inline med texten eller visas på sin egen rad.
+description: OfficeMath fast egendom. Hämtar/ställer in Office Math visningsformattyp som representerar om en ekvation visas inline med text eller visas på sin egen rad.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.math/officemath/displaytype/
 ---
 ## OfficeMath.DisplayType property
 
-Hämtar/ställer in Office Math visningsformattyp som representerar om en ekvation visas inline med texten eller visas på sin egen rad.
+Hämtar/ställer in Office Math visningsformattyp som representerar om en ekvation visas inline med text eller visas på sin egen rad.
 
 ```csharp
 public OfficeMathDisplayType DisplayType { get; set; }
@@ -34,9 +34,6 @@ OfficeMath officeMath = (OfficeMath) doc.GetChild(NodeType.OfficeMath, 0, true);
 Assert.AreEqual(MathObjectType.OMathPara, officeMath.MathObjectType);
 Assert.AreEqual(NodeType.OfficeMath, officeMath.NodeType);
 Assert.AreEqual(officeMath.ParentNode, officeMath.ParentParagraph);
-
-// OOXML- och WML-format använder egenskapen "EquationXmlEncoding".
-Assert.IsNull(officeMath.EquationXmlEncoding);
 
 // Ändra plats och visningstyp för OfficeMath-noden.
 officeMath.DisplayType = OfficeMathDisplayType.Display;

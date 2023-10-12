@@ -3,7 +3,7 @@ title: Table.ClearBorders
 second_title: Справочник по API Aspose.Words для .NET
 description: Table метод. Удаляет все границы таблиц и ячеек в этой таблице.
 type: docs
-weight: 370
+weight: 390
 url: /ru/net/aspose.words.tables/table/clearborders/
 ---
 ## Table.ClearBorders method
@@ -16,7 +16,7 @@ public void ClearBorders()
 
 ### Примеры
 
-Показывает, как применить границу контура к таблице.
+Показывает, как применить контурную рамку к таблице.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -25,7 +25,7 @@ Table table = doc.FirstSection.Body.Tables[0];
 // Выравниваем таблицу по центру страницы.
 table.Alignment = TableAlignment.Center;
 
-// Очистить все существующие границы и затенение из таблицы.
+// Очистим все существующие границы и затенение таблицы.
 table.ClearBorders();
 table.ClearShading();
 
@@ -35,13 +35,13 @@ table.SetBorder(BorderType.Right, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Top, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Bottom, LineStyle.Single, 1.5, Color.Green, true);
 
-// Заливаем ячейки светло-зеленым сплошным цветом.
+// Заполняем ячейки светло-зеленым сплошным цветом.
 table.SetShading(TextureIndex.TextureSolid, Color.LightGreen, Color.Empty);
 
 doc.Save(ArtifactsDir + "Table.SetOutlineBorders.docx");
 ```
 
-Показывает, как удалить все границы из таблицы.
+Показывает, как удалить все границы таблицы.
 
 ```csharp
 Document doc = new Document();
@@ -60,7 +60,7 @@ Assert.AreEqual(1.5d, topBorder.LineWidth);
 Assert.AreEqual(Color.Red.ToArgb(), topBorder.Color.ToArgb());
 Assert.AreEqual(LineStyle.Double, topBorder.LineStyle);
 
-// Очистить границы всех ячеек в таблице, а затем сохранить документ.
+// Очистим границы всех ячеек таблицы, а затем сохраним документ.
 table.ClearBorders();
 doc.Save(ArtifactsDir + "Table.ClearBorders.docx");
 

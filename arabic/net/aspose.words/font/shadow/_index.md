@@ -1,14 +1,14 @@
 ---
 title: Font.Shadow
 second_title: Aspose.Words لمراجع .NET API
-description: Font ملكية. True إذا تم تنسيق الخط على أنه مظلل .
+description: Font ملكية. صحيح إذا تم تنسيق الخط على أنه مظلل.
 type: docs
 weight: 330
 url: /ar/net/aspose.words/font/shadow/
 ---
 ## Font.Shadow property
 
-True إذا تم تنسيق الخط على أنه مظلل .
+صحيح إذا تم تنسيق الخط على أنه مظلل.
 
 ```csharp
 public bool Shadow { get; set; }
@@ -16,14 +16,14 @@ public bool Shadow { get; set; }
 
 ### أمثلة
 
-يوضح كيفية إنشاء سلسلة من النص المنسق بظل.
+يوضح كيفية إنشاء سلسلة نص منسقة بظل.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// اضبط علامة الظل لتطبيق تأثير ظل الإزاحة ،
-// مما يجعلها تبدو وكأن الأحرف تطفو فوق الصفحة.
+// اضبط علامة الظل لتطبيق تأثير ظل الإزاحة،
+// جعل الحروف تبدو وكأنها تطفو فوق الصفحة.
 builder.Font.Shadow = true;
 builder.Font.Size = 36;
 

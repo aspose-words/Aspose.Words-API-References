@@ -1,14 +1,14 @@
 ---
 title: ChartDataLabel.Separator
 second_title: Aspose.Words per .NET API Reference
-description: ChartDataLabel proprietà. Ottiene o imposta il separatore di stringa utilizzato per le etichette dei dati su un grafico. Limpostazione predefinita è una virgola ad eccezione dei grafici a torta che mostrano solo il nome della categoria e la percentuale quando deve essere utilizzata uninterruzione di riga .
+description: ChartDataLabel proprietà. Ottiene o imposta il separatore di stringa utilizzato per le etichette dei dati su un grafico. Il valore predefinito è una virgola ad eccezione dei grafici a torta che mostrano solo il nome della categoria e la percentuale quando invece deve essere utilizzata uninterruzione di riga .
 type: docs
-weight: 50
+weight: 70
 url: /it/net/aspose.words.drawing.charts/chartdatalabel/separator/
 ---
 ## ChartDataLabel.Separator property
 
-Ottiene o imposta il separatore di stringa utilizzato per le etichette dei dati su un grafico. L'impostazione predefinita è una virgola, ad eccezione dei grafici a torta che mostrano solo il nome della categoria e la percentuale, quando deve essere utilizzata un'interruzione di riga .
+Ottiene o imposta il separatore di stringa utilizzato per le etichette dei dati su un grafico. Il valore predefinito è una virgola, ad eccezione dei grafici a torta che mostrano solo il nome della categoria e la percentuale, quando invece deve essere utilizzata un'interruzione di riga .
 
 ```csharp
 public string Separator { get; set; }
@@ -19,6 +19,7 @@ public string Separator { get; set; }
 Mostra come applicare etichette ai punti dati in un grafico a linee.
 
 ```csharp
+public void DataLabels()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -39,7 +40,7 @@ Mostra come applicare etichette ai punti dati in un grafico a linee.
         Assert.AreEqual(4, series.DataLabels.Count);
     }
 
-    // Modifica la stringa di separazione per ogni etichetta di dati in una serie.
+    // Modifica la stringa di separazione per ogni etichetta dati in una serie.
     using (IEnumerator<ChartDataLabel> enumerator = chart.Series[0].DataLabels.GetEnumerator())
     {
         while (enumerator.MoveNext())
@@ -59,7 +60,7 @@ Mostra come applicare etichette ai punti dati in un grafico a linee.
 }
 
 /// <summary>
-/// Applica etichette dati con formato numerico personalizzato e separatore a più punti dati di una serie.
+/// Applica etichette dati con formato numerico personalizzato e separatore a diversi punti dati in una serie.
 /// </summary>
 private static void ApplyDataLabels(ChartSeries series, int labelsCount, string numberFormat, string separator)
 {

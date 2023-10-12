@@ -1,14 +1,14 @@
 ---
 title: FontInfo.Family
 second_title: Aspose.Words لمراجع .NET API
-description: FontInfo ملكية. الحصول على عائلة الخط التي ينتمي إليها هذا الخط أو تعيينها.
+description: FontInfo ملكية. الحصول على عائلة الخطوط التي ينتمي إليها هذا الخط أو تعيينها.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fonts/fontinfo/family/
 ---
 ## FontInfo.Family property
 
-الحصول على عائلة الخط التي ينتمي إليها هذا الخط أو تعيينها.
+الحصول على عائلة الخطوط التي ينتمي إليها هذا الخط أو تعيينها.
 
 ```csharp
 public FontFamily Family { get; set; }
@@ -29,7 +29,7 @@ while (fontCollectionEnumerator.MoveNext())
     {
         Console.WriteLine("Font name: " + fontInfo.Name);
 
-        // عادةً ما تكون أسماء Alt فارغة.
+        // الأسماء البديلة عادة ما تكون فارغة.
         Console.WriteLine("Alt name: " + fontInfo.AltName);
         Console.WriteLine("\t- Family: " + fontInfo.Family);
         Console.WriteLine("\t- " + (fontInfo.IsTrueType ? "Is TrueType" : "Is not TrueType"));

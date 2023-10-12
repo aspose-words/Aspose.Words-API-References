@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.InsertComboBox
 second_title: Aspose.Words per .NET API Reference
-description: DocumentBuilder metodo. Inserisce un campo modulo casella combinata nella posizione corrente.
+description: DocumentBuilder metodo. Inserisce un campo modulo combobox nella posizione corrente.
 type: docs
-weight: 280
+weight: 300
 url: /it/net/aspose.words/documentbuilder/insertcombobox/
 ---
 ## DocumentBuilder.InsertComboBox method
 
-Inserisce un campo modulo casella combinata nella posizione corrente.
+Inserisce un campo modulo combobox nella posizione corrente.
 
 ```csharp
 public FormField InsertComboBox(string name, string[] items, int selectedIndex)
@@ -16,9 +16,9 @@ public FormField InsertComboBox(string name, string[] items, int selectedIndex)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| name | String | Il nome del campo del modulo. Può essere una stringa vuota. Il valore più lungo di 20 caratteri verrà troncato. |
-| items | String[] | Gli elementi del ComboBox. Il massimo è di 25 elementi. |
-| selectedIndex | Int32 | L'indice dell'elemento selezionato nel ComboBox. |
+| name | String | Il nome del campo modulo. Può essere una stringa vuota. Il valore più lungo di 20 caratteri verrà troncato. |
+| items | String[] | Gli elementi del ComboBox. Il massimo è 25 articoli. |
+| selectedIndex | Int32 | Indice dell'elemento selezionato nel ComboBox. |
 
 ### Valore di ritorno
 
@@ -26,17 +26,17 @@ Il nodo del campo modulo appena inserito.
 
 ### Osservazioni
 
-Se specifichi un nome per il campo modulo, viene creato automaticamente un segnalibro con lo stesso nome.
+Se specifichi un nome per il campo modulo, verrà creato automaticamente un segnalibro con lo stesso nome.
 
 ### Esempi
 
-Mostra come inserire un campo modulo casella combinata in un documento.
+Mostra come inserire un campo modulo di una casella combinata in un documento.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inserisce un modulo che richiede all'utente di selezionare una delle voci dal menu.
+// Inserisci un modulo che richiede all'utente di scegliere una delle voci dal menu.
 builder.Write("Pick a fruit: ");
 string[] items = { "Apple", "Banana", "Cherry" };
 builder.InsertComboBox("DropDown", items, 0);
@@ -49,9 +49,9 @@ Mostra come creare campi modulo.
 ```csharp
 DocumentBuilder builder = new DocumentBuilder();
 
-// I campi modulo sono oggetti nel documento con cui l'utente può interagire quando viene richiesto di immettere valori.
+// I campi del modulo sono oggetti nel documento con cui l'utente può interagire chiedendogli di inserire valori.
 // Possiamo crearli utilizzando un generatore di documenti e di seguito sono riportati due modi per farlo.
-// 1 - Input di testo di base:
+// 1 - Inserimento di testo di base:
 builder.InsertTextInput("My text input", TextFormFieldType.Regular, 
     "", "Enter your name here", 30);
 

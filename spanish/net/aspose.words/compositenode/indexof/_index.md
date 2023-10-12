@@ -3,7 +3,7 @@ title: CompositeNode.IndexOf
 second_title: Referencia de API de Aspose.Words para .NET
 description: CompositeNode método. Devuelve el índice del nodo secundario especificado en la matriz de nodos secundarios.
 type: docs
-weight: 130
+weight: 140
 url: /es/net/aspose.words/compositenode/indexof/
 ---
 ## CompositeNode.IndexOf method
@@ -20,15 +20,15 @@ Devuelve -1 si el nodo no se encuentra en los nodos secundarios.
 
 ### Ejemplos
 
-Muestra cómo obtener el índice de un nodo secundario dado de su padre.
+Muestra cómo obtener el índice de un nodo secundario determinado de su padre.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
 Body body = doc.FirstSection.Body;
 
-// Recuperar el índice del último párrafo en el cuerpo de la primera sección.
-Assert.AreEqual(24, body.ChildNodes.IndexOf(body.LastParagraph));
+// Recupera el índice del último párrafo del cuerpo de la primera sección.
+Assert.AreEqual(24, body.GetChildNodes(NodeType.Any, false).IndexOf(body.LastParagraph));
 ```
 
 ### Ver también

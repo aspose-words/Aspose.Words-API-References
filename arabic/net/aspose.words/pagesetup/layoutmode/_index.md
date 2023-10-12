@@ -1,14 +1,14 @@
 ---
 title: PageSetup.LayoutMode
 second_title: Aspose.Words لمراجع .NET API
-description: PageSetup ملكية. الحصول على أو تحديد وضع التخطيط لهذا القسم.
+description: PageSetup ملكية. الحصول على أو تعيين وضع التخطيط لهذا القسم.
 type: docs
 weight: 190
 url: /ar/net/aspose.words/pagesetup/layoutmode/
 ---
 ## PageSetup.LayoutMode property
 
-الحصول على أو تحديد وضع التخطيط لهذا القسم.
+الحصول على أو تعيين وضع التخطيط لهذا القسم.
 
 ```csharp
 public SectionLayoutMode LayoutMode { get; set; }
@@ -22,7 +22,7 @@ public SectionLayoutMode LayoutMode { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// قم بتمكين التدوير ، ثم استخدمه لتعيين عدد الأحرف في كل سطر في هذا القسم.
+// قم بتمكين العرض، ثم استخدمه لتعيين عدد الأحرف لكل سطر في هذا القسم.
 builder.PageSetup.LayoutMode = SectionLayoutMode.Grid;
 builder.PageSetup.CharactersPerLine = 10;
 
@@ -42,8 +42,8 @@ doc.Save(ArtifactsDir + "PageSetup.CharactersPerLine.docx");
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// تمكين الترويج ، ثم استخدمه لتعيين عدد الأسطر لكل صفحة في هذا القسم.
-// سيؤدي حجم الخط الكبير بدرجة كافية إلى دفع بعض الأسطر لأسفل في الصفحة التالية لتجنب تداخل الأحرف.
+// قم بتمكين العرض، ثم استخدمه لتعيين عدد الأسطر لكل صفحة في هذا القسم.
+// سيؤدي حجم الخط الكبير بدرجة كافية إلى دفع بعض الأسطر لأسفل إلى الصفحة التالية لتجنب تداخل الأحرف.
 builder.PageSetup.LayoutMode = SectionLayoutMode.LineGrid;
 builder.PageSetup.LinesPerPage = 15;
 

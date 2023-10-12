@@ -27,7 +27,6 @@ Undantag när det kastas av implementering avbryter layoutbyggprocessen.
 Visar hur man spårar layoutändringar med en layoutåteruppringning.
 
 ```csharp
-[Test]
 public void PageLayoutCallback()
 {
     Document doc = new Document();

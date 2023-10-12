@@ -1,14 +1,14 @@
 ---
 title: TabStop.Equals
 second_title: Aspose.Words för .NET API Referens
-description: TabStop metod. Jämför med den angivna TabStop.
+description: TabStop metod. Jämför med den angivnaTabStop .
 type: docs
 weight: 60
 url: /sv/net/aspose.words/tabstop/equals/
 ---
 ## TabStop.Equals method
 
-Jämför med den angivna TabStop.
+Jämför med den angivna[`TabStop`](../) .
 
 ```csharp
 public bool Equals(TabStop rhs)

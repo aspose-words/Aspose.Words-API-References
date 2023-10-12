@@ -1,14 +1,14 @@
 ---
 title: FieldIncludePicture.GraphicFilter
 second_title: Aspose.Words per .NET API Reference
-description: FieldIncludePicture proprietà. Ottiene o imposta il nome del filtro per il formato dellelemento grafico da inserire.
+description: FieldIncludePicture proprietà. Ottiene o imposta il nome del filtro per il formato dellimmagine da inserire.
 type: docs
 weight: 20
 url: /it/net/aspose.words.fields/fieldincludepicture/graphicfilter/
 ---
 ## FieldIncludePicture.GraphicFilter property
 
-Ottiene o imposta il nome del filtro per il formato dell'elemento grafico da inserire.
+Ottiene o imposta il nome del filtro per il formato dell'immagine da inserire.
 
 ```csharp
 public string GraphicFilter { get; set; }

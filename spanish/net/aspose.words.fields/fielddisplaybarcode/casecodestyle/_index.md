@@ -1,14 +1,14 @@
 ---
 title: FieldDisplayBarcode.CaseCodeStyle
 second_title: Referencia de API de Aspose.Words para .NET
-description: FieldDisplayBarcode propiedad. Obtiene o establece el estilo de un código de caso para el tipo de código de barras ITF14. Los valores válidos son STDEXTADD
+description: FieldDisplayBarcode propiedad. Obtiene o establece el estilo de un Código de caso para el tipo de código de barras ITF14. Los valores válidos son STDEXTADD
 type: docs
 weight: 60
 url: /es/net/aspose.words.fields/fielddisplaybarcode/casecodestyle/
 ---
 ## FieldDisplayBarcode.CaseCodeStyle property
 
-Obtiene o establece el estilo de un código de caso para el tipo de código de barras ITF14. Los valores válidos son [STD&#x7C;EXT&#x7C;ADD]
+Obtiene o establece el estilo de un Código de caso para el tipo de código de barras ITF14. Los valores válidos son [STD&#x7C;EXT&#x7C;ADD]
 
 ```csharp
 public string CaseCodeStyle { get; set; }
@@ -24,7 +24,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 FieldDisplayBarcode field = (FieldDisplayBarcode)builder.InsertField(FieldType.FieldDisplayBarcode, true);
 
-// A continuación se muestran cuatro tipos de códigos de barras, decorados de varias maneras, que puede mostrar el campo DISPLAYBARCODE.
+// A continuación se muestran cuatro tipos de códigos de barras, decorados de diversas formas, que puede mostrar el campo DISPLAYBARCODE.
 // 1 - Código QR con colores personalizados:
 field.BarcodeType = "QR";
 field.BarcodeValue = "ABC123";
@@ -49,7 +49,7 @@ field.FixCheckDigit = true;
 Assert.AreEqual(" DISPLAYBARCODE  501234567890 EAN13 \\t \\p CASE \\x", field.GetFieldCode());
 builder.Writeln();
 
-// 3 - Código de barras CODE39:
+// 3 - código de barras CODE39:
 field = (FieldDisplayBarcode)builder.InsertField(FieldType.FieldDisplayBarcode, true);
 field.BarcodeType = "CODE39";
 field.BarcodeValue = "12345ABCDE";

@@ -1,14 +1,14 @@
 ---
 title: MailMerge.MergeDuplicateRegions
 second_title: Aspose.Words for .NET API Referansı
-description: MailMerge mülk. Veri kaynağı adına sahip belge adres mektup birleştirme bölgelerinin tümünün veri kaynağına karşı bölgelerle adres mektup birleştirme yürütülürken mi yoksa yalnızca birinci bölgeyle mi birleştirileceğini belirten bir değer alır veya ayarlar.
+description: MailMerge mülk. Veri kaynağına karşı bölgelerle adresmektup birleştirme yürütülürken veri kaynağı adına sahip tüm belge adresmektup birleştirme bölgelerinin mi yoksa yalnızca ilkinin mi birleştirilmesi gerektiğini belirten bir değer alır veya ayarlar.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.mailmerging/mailmerge/mergeduplicateregions/
 ---
 ## MailMerge.MergeDuplicateRegions property
 
-Veri kaynağı adına sahip belge adres mektup birleştirme bölgelerinin tümünün, veri kaynağına karşı bölgelerle adres mektup birleştirme yürütülürken mi yoksa yalnızca birinci bölgeyle mi birleştirileceğini belirten bir değer alır veya ayarlar.
+Veri kaynağına karşı bölgelerle adres-mektup birleştirme yürütülürken, veri kaynağı adına sahip tüm belge adres-mektup birleştirme bölgelerinin mi yoksa yalnızca ilkinin mi birleştirilmesi gerektiğini belirten bir değer alır veya ayarlar.
 
 ```csharp
 public bool MergeDuplicateRegions { get; set; }
@@ -16,11 +16,11 @@ public bool MergeDuplicateRegions { get; set; }
 
 ### Notlar
 
-Varsayılan değer **yanlış** .
+Varsayılan değer:`YANLIŞ` .
 
 ### Örnekler
 
-Yinelenen adres mektup birleştirme bölgeleriyle nasıl çalışılacağını gösterir.
+Yinelenen adres-mektup birleştirme bölgeleriyle nasıl çalışılacağını gösterir.
 
 ```csharp
 public void MergeDuplicateRegions(bool mergeDuplicateRegions)
@@ -28,11 +28,11 @@ public void MergeDuplicateRegions(bool mergeDuplicateRegions)
     Document doc = CreateSourceDocMergeDuplicateRegions();
     DataTable dataTable = CreateSourceTableMergeDuplicateRegions();
 
-    // "MergeDuplicateRegions" özelliğini "false" olarak ayarlarsak adres mektup birleştirme ilk bölgeyi etkiler,
-    // ikincisinin MERGEFIELD'leri birleştirme öncesi durumda kalır.
+    // "MergeDuplicateRegions" özelliğini "false" olarak ayarlarsak adres-mektup birleştirme ilk bölgeyi etkileyecektir,
+    // ikincisinin MERGEFIELD'leri birleştirme öncesi durumda bırakılacak.
     // Her iki bölgeyi bu şekilde birleştirmek için,
-    // Adres mektup birleştirmeyi aynı adlı bir tabloda iki kez yürütmemiz gerekecekti.
-    // "MergeDuplicateRegions" özelliğini "true" olarak ayarlarsak, adres mektup birleştirme her iki bölgeyi de etkiler.
+    // aynı isimdeki bir tabloda adres-mektup birleştirme işlemini iki kez yürütmemiz gerekir.
+    // "MergeDuplicateRegions" özelliğini "true" olarak ayarlarsak, adres-mektup birleştirme her iki bölgeyi de etkileyecektir.
     doc.MailMerge.MergeDuplicateRegions = mergeDuplicateRegions;
 
     doc.MailMerge.ExecuteWithRegions(dataTable);
@@ -40,7 +40,7 @@ public void MergeDuplicateRegions(bool mergeDuplicateRegions)
 }
 
 /// <summary>
-/// İki yinelenen adres mektup birleştirme bölgesi içeren bir belge döndürür ("TableStart/End" etiketlerinde aynı adı paylaşır).
+/// İki yinelenen adres-mektup birleştirme bölgesi içeren bir belge döndürür ("TableStart/End" etiketlerinde aynı adı paylaşır).
 /// </summary>
 private static Document CreateSourceDocMergeDuplicateRegions()
 {
@@ -60,7 +60,7 @@ private static Document CreateSourceDocMergeDuplicateRegions()
 }
 
 /// <summary>
-/// Bir satır ve iki sütun içeren bir veri tablosu oluşturur.
+/// Bir satır ve iki sütundan oluşan bir veri tablosu oluşturur.
 /// </summary>
 private static DataTable CreateSourceTableMergeDuplicateRegions()
 {

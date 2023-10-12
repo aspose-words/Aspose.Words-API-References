@@ -1,14 +1,14 @@
 ---
 title: Enum PageBorderDistanceFrom
 second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.PageBorderDistanceFrom opsomming. Legt die Positionierung des Seitenrandes relativ zum Seitenrand fest.
+description: Aspose.Words.PageBorderDistanceFrom opsomming. Gibt die Positionierung des Seitenrandes relativ zum Seitenrand an.
 type: docs
-weight: 4110
+weight: 4350
 url: /de/net/aspose.words/pageborderdistancefrom/
 ---
 ## PageBorderDistanceFrom enumeration
 
-Legt die Positionierung des Seitenrandes relativ zum Seitenrand fest.
+Gibt die Positionierung des Seitenrandes relativ zum Seitenrand an.
 
 ```csharp
 public enum PageBorderDistanceFrom
@@ -23,7 +23,7 @@ public enum PageBorderDistanceFrom
 
 ### Beispiele
 
-Zeigt, wie Sie oben auf der ersten Seite einen breiten blauen Rahmen erstellen.
+Zeigt, wie man oben auf der ersten Seite einen breiten blauen Bandrand erstellt.
 
 ```csharp
 Document doc = new Document();

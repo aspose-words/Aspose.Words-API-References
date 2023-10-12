@@ -1,14 +1,14 @@
 ---
 title: FieldGoToButton.DisplayText
 second_title: Aspose.Words لمراجع .NET API
-description: FieldGoToButton ملكية. الحصول على أو تحديد نص الزر الذي يظهر في المستند  بحيث يمكن تحديده لتنشيط القفزة .
+description: FieldGoToButton ملكية. الحصول على أو تعيين نص الزر الذي يظهر في المستند بحيث يمكن تحديده لتنشيط الانتقال.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldgotobutton/displaytext/
 ---
 ## FieldGoToButton.DisplayText property
 
-الحصول على أو تحديد نص "الزر" الذي يظهر في المستند ، بحيث يمكن تحديده لتنشيط القفزة .
+الحصول على أو تعيين نص "الزر" الذي يظهر في المستند، بحيث يمكن تحديده لتنشيط الانتقال.
 
 ```csharp
 public string DisplayText { get; set; }
@@ -22,15 +22,15 @@ public string DisplayText { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أضف حقل GOTOBUTTON. عندما ننقر نقرًا مزدوجًا فوق هذا الحقل في Microsoft Word ،
-// سيأخذ مؤشر النص إلى الإشارة المرجعية التي يشير اسمها إلى خاصية الموقع.
+// أضف حقل GOTOBUTTON. عندما ننقر نقرًا مزدوجًا فوق هذا الحقل في Microsoft Word،
+// سوف يأخذ مؤشر النص إلى الإشارة المرجعية التي تشير خاصية الموقع إلى اسمها.
 FieldGoToButton field = (FieldGoToButton)builder.InsertField(FieldType.FieldGoToButton, true);
 field.DisplayText = "My Button";
 field.Location = "MyBookmark";
 
 Assert.AreEqual(" GOTOBUTTON  MyBookmark My Button", field.GetFieldCode());
 
-// أدخل إشارة مرجعية صالحة للحقل للرجوع إليها.
+// أدخل إشارة مرجعية صالحة للحقل المراد الرجوع إليه.
 builder.InsertBreak(BreakType.PageBreak);
 builder.StartBookmark(field.Location);
 builder.Writeln("Bookmark text contents.");

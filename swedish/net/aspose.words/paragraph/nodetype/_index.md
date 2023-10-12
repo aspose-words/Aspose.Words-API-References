@@ -1,14 +1,14 @@
 ---
 title: Paragraph.NodeType
 second_title: Aspose.Words för .NET API Referens
-description: Paragraph fast egendom. Returnerar NodeType.Paragraph .
+description: Paragraph fast egendom. ReturnerarParagraph .
 type: docs
 weight: 170
 url: /sv/net/aspose.words/paragraph/nodetype/
 ---
 ## Paragraph.NodeType property
 
-Returnerar **NodeType.Paragraph** .
+ReturnerarParagraph .
 
 ```csharp
 public override NodeType NodeType { get; }
@@ -19,6 +19,7 @@ public override NodeType NodeType { get; }
 Visar hur man korsar en sammansatt nods träd med undernoder.
 
 ```csharp
+public void RecurseChildren()
 {
     Document doc = new Document(MyDir + "Paragraphs.docx");
 

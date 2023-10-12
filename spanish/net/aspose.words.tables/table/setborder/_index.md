@@ -1,14 +1,14 @@
 ---
 title: Table.SetBorder
 second_title: Referencia de API de Aspose.Words para .NET
-description: Table método. Establece el borde de la tabla especificado en el estilo de línea el ancho y el color especificados.
+description: Table método. Establece el borde de la tabla especificado con el estilo ancho y color de línea especificados.
 type: docs
-weight: 410
+weight: 430
 url: /es/net/aspose.words.tables/table/setborder/
 ---
 ## Table.SetBorder method
 
-Establece el borde de la tabla especificado en el estilo de línea, el ancho y el color especificados.
+Establece el borde de la tabla especificado con el estilo, ancho y color de línea especificados.
 
 ```csharp
 public void SetBorder(BorderType borderType, LineStyle lineStyle, double lineWidth, Color color, 
@@ -18,9 +18,9 @@ public void SetBorder(BorderType borderType, LineStyle lineStyle, double lineWid
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
 | borderType | BorderType | El borde de la tabla para cambiar. |
-| lineStyle | LineStyle | El estilo de línea a aplicar. |
+| lineStyle | LineStyle | El estilo de línea que se aplicará. |
 | lineWidth | Double | El ancho de línea a establecer (en puntos). |
-| color | Color | El color a utilizar para el borde. |
+| color | Color | El color que se utilizará para el borde. |
 | isOverrideCellBorders | Boolean | Cuando`verdadero`, hace que se eliminen todos los bordes de celda explícitos existentes. |
 
 ### Ejemplos
@@ -31,10 +31,10 @@ Muestra cómo aplicar un borde de contorno a una tabla.
 Document doc = new Document(MyDir + "Tables.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
-// Alinea la tabla al centro de la página.
+// Alinea la tabla con el centro de la página.
 table.Alignment = TableAlignment.Center;
 
-// Limpia cualquier borde existente y sombreado de la tabla.
+// Borra los bordes y sombreados existentes de la tabla.
 table.ClearBorders();
 table.ClearShading();
 

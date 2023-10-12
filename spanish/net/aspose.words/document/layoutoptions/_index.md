@@ -1,14 +1,14 @@
 ---
 title: Document.LayoutOptions
 second_title: Referencia de API de Aspose.Words para .NET
-description: Document propiedad. Obtiene un Opciones de diseño objeto que representa opciones para controlar el proceso de maquetación de este documento.
+description: Document propiedad. Obtiene unLayoutOptions objeto que representa opciones para controlar el proceso de diseño de este documento.
 type: docs
-weight: 230
+weight: 250
 url: /es/net/aspose.words/document/layoutoptions/
 ---
 ## Document.LayoutOptions property
 
-Obtiene un **Opciones de diseño** objeto que representa opciones para controlar el proceso de maquetación de este documento.
+Obtiene un[`LayoutOptions`](../../../aspose.words.layout/layoutoptions/) objeto que representa opciones para controlar el proceso de diseño de este documento.
 
 ```csharp
 public LayoutOptions LayoutOptions { get; }
@@ -21,7 +21,7 @@ Muestra cómo ocultar texto en un documento de salida renderizado.
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-// Insertar texto oculto, luego especificar si deseamos omitirlo de un documento renderizado.
+// Inserta texto oculto, luego especifica si deseamos omitirlo en un documento renderizado.
 builder.Writeln("This text is not hidden.");
 builder.Font.Hidden = true;
 builder.Writeln("This text is hidden.");
@@ -36,8 +36,8 @@ Muestra cómo mostrar marcas de párrafo en un documento de salida renderizado.
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-// Agregue algunos párrafos, luego habilite las marcas de párrafo para mostrar los extremos de los párrafos
-// con un símbolo de almohada (¶) cuando renderizamos el documento.
+// Agrega algunos párrafos, luego habilita las marcas de párrafo para mostrar los finales de los párrafos
+// con un símbolo pilcrow (¶) cuando renderizamos el documento.
 builder.Writeln("Hello world!");
 builder.Writeln("Hello again!");
 
@@ -46,13 +46,13 @@ doc.LayoutOptions.ShowParagraphMarks = showParagraphMarks;
 doc.Save(ArtifactsDir + "Document.LayoutOptionsParagraphMarks.pdf");
 ```
 
-Muestra cómo modificar la apariencia de las revisiones en un documento de salida renderizado.
+Muestra cómo alterar la apariencia de las revisiones en un documento de salida renderizado.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inserte una revisión, luego cambie el color de todas las revisiones a verde.
+// Inserta una revisión, luego cambia el color de todas las revisiones a verde.
 builder.Writeln("This is not a revision.");
 doc.StartTrackRevisions("John Doe", DateTime.Now);
 builder.Writeln("This is a revision.");

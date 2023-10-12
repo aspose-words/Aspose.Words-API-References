@@ -16,13 +16,13 @@ public Document()
 
 ### Remarques
 
-Le format de papier du document est Letter par défaut. Si vous souhaitez modifier la configuration de la page, use [`Section.PageSetup`](../../section/pagesetup/).
+Le format de papier du document est Lettre par défaut. Si vous souhaitez modifier la mise en page, use [`PageSetup`](../../section/pagesetup/).
 
-Après la création, vous pouvez utiliser[`DocumentBuilder`](../../documentbuilder/) pour ajouter facilement du contenu au document.
+Après la création, vous pouvez utiliser[`DocumentBuilder`](../../documentbuilder/) pour ajouter facilement du contenu à un document.
 
 ### Exemples
 
-Montre comment formater une suite de texte à l'aide de sa propriété de police.
+Montre comment formater une séquence de texte à l’aide de sa propriété font.
 
 ```csharp
 Document doc = new Document();
@@ -40,7 +40,7 @@ doc.Save(ArtifactsDir + "Font.CreateFormattedRun.docx");
 Montre comment créer et charger des documents.
 
 ```csharp
-// Il existe deux façons de créer un objet Document en utilisant Aspose.Words.
+// Il existe deux manières de créer un objet Document à l'aide d'Aspose.Words.
 // 1 - Créer un document vierge :
 Document doc = new Document();
 
@@ -48,14 +48,14 @@ Document doc = new Document();
 // requis pour commencer à ajouter du contenu tel que du texte et des formes : une section, un corps et un paragraphe.
 doc.FirstSection.Body.FirstParagraph.AppendChild(new Run(doc, "Hello world!"));
 
-// 2 - Chargez un document existant dans le système de fichiers local :
+// 2 - Charge un document qui existe dans le système de fichiers local :
 doc = new Document(MyDir + "Document.docx");
 
 // Les documents chargés auront un contenu auquel nous pourrons accéder et modifier.
 Assert.AreEqual("Hello World!", doc.FirstSection.Body.FirstParagraph.GetText().Trim());
 
-// Certaines opérations qui doivent se produire lors du chargement, telles que l'utilisation d'un mot de passe pour déchiffrer un document,
-// peut être fait en passant un objet LoadOptions lors du chargement du document.
+// Certaines opérations qui doivent avoir lieu lors du chargement, comme l'utilisation d'un mot de passe pour décrypter un document,
+// peut être effectué en passant un objet LoadOptions lors du chargement du document.
 doc = new Document(MyDir + "Encrypted.docx", new LoadOptions("docPassword"));
 
 Assert.AreEqual("Test encrypted document.", doc.FirstSection.Body.FirstParagraph.GetText().Trim());
@@ -86,9 +86,9 @@ public Document(string fileName)
 | exception | condition |
 | --- | --- |
 | [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | Le format du document n'est pas reconnu ou n'est pas pris en charge. |
-| [FileCorruptedException](../../filecorruptedexception/) | Le document semble être corrompu et ne peut pas être chargé. |
-| Exception | Il y a un problème avec le document et il doit être signalé aux développeurs Aspose.Words. |
-| IOException | Il y a une exception d'entrée/sortie. |
+| [FileCorruptedException](../../filecorruptedexception/) | Le document semble corrompu et ne peut pas être chargé. |
+| Exception | Il y a un problème avec le document et il doit être signalé aux développeurs d'Aspose.Words. |
+| IOException | Il existe une exception d’entrée/sortie. |
 | [IncorrectPasswordException](../../incorrectpasswordexception/) | Le document est crypté et nécessite un mot de passe pour s'ouvrir, mais vous avez fourni un mot de passe incorrect. |
 | ArgumentException | Le nom du fichier ne peut pas être nul ou une chaîne vide. |
 
@@ -128,7 +128,7 @@ builder.Write("Hello world!");
 
 doc.Save(ArtifactsDir + "PDF2Word.LoadPdf.pdf");
 
-// Vous trouverez ci-dessous deux manières de charger des documents PDF à l'aide des produits Aspose.
+// Vous trouverez ci-dessous deux façons de charger des documents PDF à l'aide des produits Aspose.
 // 1 - Charger en tant que document Aspose.Words :
 Aspose.Words.Document asposeWordsDoc = new Aspose.Words.Document(ArtifactsDir + "PDF2Word.LoadPdf.pdf");
 
@@ -153,7 +153,7 @@ Assert.AreEqual("Hello world!", textFragmentAbsorber.Text.Trim());
 
 ## Document(string, LoadOptions) {#constructor_4}
 
-Ouvre un document existant à partir d'un fichier. Permet de spécifier des options supplémentaires telles qu'un mot de passe de chiffrement.
+Ouvre un document existant à partir d'un fichier. Permet de spécifier des options supplémentaires telles qu'un mot de passe de cryptage.
 
 ```csharp
 public Document(string fileName, LoadOptions loadOptions)
@@ -162,45 +162,46 @@ public Document(string fileName, LoadOptions loadOptions)
 | Paramètre | Taper | La description |
 | --- | --- | --- |
 | fileName | String | Nom de fichier du document à ouvrir. |
-| loadOptions | LoadOptions | Options supplémentaires à utiliser lors du chargement d'un document. Peut être nul. |
+| loadOptions | LoadOptions | Options supplémentaires à utiliser lors du chargement d'un document. Peut être`nul`. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
 | [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | Le format du document n'est pas reconnu ou n'est pas pris en charge. |
-| [FileCorruptedException](../../filecorruptedexception/) | Le document semble être corrompu et ne peut pas être chargé. |
-| Exception | Il y a un problème avec le document et il doit être signalé aux développeurs Aspose.Words. |
-| IOException | Il y a une exception d'entrée/sortie. |
+| [FileCorruptedException](../../filecorruptedexception/) | Le document semble corrompu et ne peut pas être chargé. |
+| Exception | Il y a un problème avec le document et il doit être signalé aux développeurs d'Aspose.Words. |
+| IOException | Il existe une exception d’entrée/sortie. |
 | [IncorrectPasswordException](../../incorrectpasswordexception/) | Le document est crypté et nécessite un mot de passe pour s'ouvrir, mais vous avez fourni un mot de passe incorrect. |
 | ArgumentException | Le nom du fichier ne peut pas être nul ou une chaîne vide. |
 
 ### Exemples
 
-Montre comment charger un document Microsoft Word crypté.
+Montre comment charger un document Microsoft Word chiffré.
 
 ```csharp
 Document doc;
 
-// Aspose.Words lance une exception si nous essayons d'ouvrir un document chiffré sans son mot de passe.
+// Aspose.Words lève une exception si nous essayons d'ouvrir un document crypté sans son mot de passe.
 Assert.Throws<IncorrectPasswordException>(() => doc = new Document(MyDir + "Encrypted.docx"));
 
 // Lors du chargement d'un tel document, le mot de passe est transmis au constructeur du document à l'aide d'un objet LoadOptions.
 LoadOptions options = new LoadOptions("docPassword");
 
 // Il existe deux manières de charger un document chiffré avec un objet LoadOptions.
-// 1 - Charger le document depuis le système de fichiers local par nom de fichier :
+// 1 - Chargez le document depuis le système de fichiers local par nom de fichier :
 doc = new Document(MyDir + "Encrypted.docx", options);
-// 2 - Charger le document depuis un flux :
+// 2 - Charge le document depuis un flux :
 using (Stream stream = File.OpenRead(MyDir + "Encrypted.docx"))
 {
     doc = new Document(stream, options);
+}
 ```
 
 Montre comment créer et charger des documents.
 
 ```csharp
-// Il existe deux façons de créer un objet Document en utilisant Aspose.Words.
+// Il existe deux manières de créer un objet Document à l'aide d'Aspose.Words.
 // 1 - Créer un document vierge :
 Document doc = new Document();
 
@@ -208,14 +209,14 @@ Document doc = new Document();
 // requis pour commencer à ajouter du contenu tel que du texte et des formes : une section, un corps et un paragraphe.
 doc.FirstSection.Body.FirstParagraph.AppendChild(new Run(doc, "Hello world!"));
 
-// 2 - Chargez un document existant dans le système de fichiers local :
+// 2 - Charge un document qui existe dans le système de fichiers local :
 doc = new Document(MyDir + "Document.docx");
 
 // Les documents chargés auront un contenu auquel nous pourrons accéder et modifier.
 Assert.AreEqual("Hello World!", doc.FirstSection.Body.FirstParagraph.GetText().Trim());
 
-// Certaines opérations qui doivent se produire lors du chargement, telles que l'utilisation d'un mot de passe pour déchiffrer un document,
-// peut être fait en passant un objet LoadOptions lors du chargement du document.
+// Certaines opérations qui doivent avoir lieu lors du chargement, comme l'utilisation d'un mot de passe pour décrypter un document,
+// peut être effectué en passant un objet LoadOptions lors du chargement du document.
 doc = new Document(MyDir + "Encrypted.docx", new LoadOptions("docPassword"));
 
 Assert.AreEqual("Test encrypted document.", doc.FirstSection.Body.FirstParagraph.GetText().Trim());
@@ -240,20 +241,20 @@ public Document(Stream stream)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| stream | Stream | Flux à partir duquel charger le document. |
+| stream | Stream | Diffusez à partir duquel charger le document. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
 | [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | Le format du document n'est pas reconnu ou n'est pas pris en charge. |
-| [FileCorruptedException](../../filecorruptedexception/) | Le document semble être corrompu et ne peut pas être chargé. |
-| Exception | Il y a un problème avec le document et il doit être signalé aux développeurs Aspose.Words. |
-| IOException | Il y a une exception d'entrée/sortie. |
+| [FileCorruptedException](../../filecorruptedexception/) | Le document semble corrompu et ne peut pas être chargé. |
+| Exception | Il y a un problème avec le document et il doit être signalé aux développeurs d'Aspose.Words. |
+| IOException | Il existe une exception d’entrée/sortie. |
 | [IncorrectPasswordException](../../incorrectpasswordexception/) | Le document est crypté et nécessite un mot de passe pour s'ouvrir, mais vous avez fourni un mot de passe incorrect. |
 | ArgumentNullException | Le flux ne peut pas être nul. |
 | NotSupportedException | Le flux ne prend pas en charge la lecture ou la recherche. |
-| ObjectDisposedException | Le flux est un objet disposé. |
+| ObjectDisposedException | Le flux est un objet supprimé. |
 
 ### Remarques
 
@@ -261,7 +262,7 @@ Le document doit être stocké au début du flux. Le flux doit prendre en charge
 
 ### Exemples
 
-Montre comment charger un document à l'aide d'un flux.
+Montre comment charger un document à l’aide d’un flux.
 
 ```csharp
 using (Stream stream = File.OpenRead(MyDir + "Document.docx"))
@@ -276,22 +277,22 @@ Montre comment charger un document à partir d'une URL.
 
 ```csharp
 // Crée une URL qui pointe vers un document Microsoft Word.
-const string url = "https://omextemplates.content.office.net/support/templates/en-us/tf16402488.dotx" ;
+const string url = "https://filesamples.com/samples/document/docx/sample3.docx" ;
 
-// Téléchargez le document dans un tableau d'octets, puis chargez ce tableau dans un document à l'aide d'un flux de mémoire.
-using (WebClient webClient = new WebClient())
+// Téléchargez le document dans un tableau d'octets, puis chargez ce tableau dans un document à l'aide d'un flux mémoire.
+using (HttpClient webClient = new HttpClient())
 {
-    byte[] dataBytes = webClient.DownloadData(url);
+    byte[] dataBytes = await webClient.GetByteArrayAsync(url);
 
     using (MemoryStream byteStream = new MemoryStream(dataBytes))
     {
         Document doc = new Document(byteStream);
 
-        // À ce stade, nous pouvons lire et modifier le contenu du document, puis l'enregistrer dans le système de fichiers local.
-        Assert.AreEqual("Use this section to highlight your relevant passions, activities, and how you like to give back. " +
-                        "It’s good to include Leadership and volunteer experiences here. " +
-                        "Or show off important extras like publications, certifications, languages and more.",
-            doc.FirstSection.Body.Paragraphs[4].GetText().Trim());
+        // A ce stade, nous pouvons lire et modifier le contenu du document, puis l'enregistrer dans le système de fichiers local.
+        Assert.AreEqual("There are eight section headings in this document. At the beginning, \"Sample Document\" is a level 1 heading. " +
+            "The main section headings, such as \"Headings\" and \"Lists\" are level 2 headings. " +
+            "The Tables section contains two sub-headings, \"Simple Table\" and \"Complex Table,\" which are both level 3 headings.",                         
+            doc.FirstSection.Body.Paragraphs[3].GetText().Trim());
 
         doc.Save(ArtifactsDir + "Document.LoadFromWeb.docx");
     }
@@ -308,7 +309,7 @@ using (WebClient webClient = new WebClient())
 
 ## Document(Stream, LoadOptions) {#constructor_2}
 
-Ouvre un document existant à partir d'un flux. Permet de spécifier des options supplémentaires telles qu'un mot de passe de chiffrement.
+Ouvre un document existant à partir d'un flux. Permet de spécifier des options supplémentaires telles qu'un mot de passe de cryptage.
 
 ```csharp
 public Document(Stream stream, LoadOptions loadOptions)
@@ -317,20 +318,20 @@ public Document(Stream stream, LoadOptions loadOptions)
 | Paramètre | Taper | La description |
 | --- | --- | --- |
 | stream | Stream | Le flux à partir duquel charger le document. |
-| loadOptions | LoadOptions | Options supplémentaires à utiliser lors du chargement d'un document. Peut être nul. |
+| loadOptions | LoadOptions | Options supplémentaires à utiliser lors du chargement d'un document. Peut être`nul`. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
 | [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | Le format du document n'est pas reconnu ou n'est pas pris en charge. |
-| [FileCorruptedException](../../filecorruptedexception/) | Le document semble être corrompu et ne peut pas être chargé. |
-| Exception | Il y a un problème avec le document et il doit être signalé aux développeurs Aspose.Words. |
-| IOException | Il y a une exception d'entrée/sortie. |
+| [FileCorruptedException](../../filecorruptedexception/) | Le document semble corrompu et ne peut pas être chargé. |
+| Exception | Il y a un problème avec le document et il doit être signalé aux développeurs d'Aspose.Words. |
+| IOException | Il existe une exception d’entrée/sortie. |
 | [IncorrectPasswordException](../../incorrectpasswordexception/) | Le document est crypté et nécessite un mot de passe pour s'ouvrir, mais vous avez fourni un mot de passe incorrect. |
 | ArgumentNullException | Le flux ne peut pas être nul. |
 | NotSupportedException | Le flux ne prend pas en charge la lecture ou la recherche. |
-| ObjectDisposedException | Le flux est un objet disposé. |
+| ObjectDisposedException | Le flux est un objet supprimé. |
 
 ### Remarques
 
@@ -338,40 +339,19 @@ Le document doit être stocké au début du flux. Le flux doit prendre en charge
 
 ### Exemples
 
-Montre comment enregistrer une page Web en tant que fichier .docx.
-
-```csharp
-const string url = "http://www.aspose.com/" ;
-
-using (WebClient client = new WebClient()) 
-{ 
-    using (MemoryStream stream = new MemoryStream(client.DownloadData(url)))
-    {
-        // L'URL est à nouveau utilisée comme baseUri pour s'assurer que tous les chemins d'image relatifs sont récupérés correctement.
-        LoadOptions options = new LoadOptions(LoadFormat.Html, "", url);
-
-        // Charge le document HTML à partir du flux et transmet l'objet LoadOptions.
-        Document doc = new Document(stream, options);
-
-        // À ce stade, nous pouvons lire et modifier le contenu du document, puis l'enregistrer dans le système de fichiers local.
-        doc.Save(ArtifactsDir + "Document.InsertHtmlFromWebPage.docx");
-    }
-}
-```
-
-Montre comment ouvrir un document HTML avec des images d'un flux à l'aide d'un URI de base.
+Montre comment ouvrir un document HTML avec des images provenant d'un flux à l'aide d'un URI de base.
 
 ```csharp
 using (Stream stream = File.OpenRead(MyDir + "Document.html"))
 {
-    // Passer l'URI du dossier de base lors de son chargement
+    // Passe l'URI du dossier de base lors de son chargement
     // afin que toutes les images avec des URI relatifs dans le document HTML puissent être trouvées.
     LoadOptions loadOptions = new LoadOptions();
     loadOptions.BaseUri = ImageDir;
 
     Document doc = new Document(stream, loadOptions);
 
-    // Vérifie que la première forme du document contient une image valide.
+    // Vérifiez que la première forme du document contient une image valide.
     Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 
     Assert.IsTrue(shape.IsImage);
@@ -381,24 +361,47 @@ using (Stream stream = File.OpenRead(MyDir + "Document.html"))
 }
 ```
 
-Montre comment charger un document Microsoft Word crypté.
+Montre comment enregistrer une page Web sous forme de fichier .docx.
+
+```csharp
+const string url = "https://www.aspose.com/";
+
+using (HttpClient client = new HttpClient()) 
+{
+    var bytes = await client.GetByteArrayAsync(url);
+    using (MemoryStream stream = new MemoryStream(bytes))
+    {
+        // L'URL est à nouveau utilisée comme baseUri pour garantir que tous les chemins d'image relatifs sont récupérés correctement.
+        LoadOptions options = new LoadOptions(LoadFormat.Html, "", url);
+
+        // Charge le document HTML depuis le flux et passe l'objet LoadOptions.
+        Document doc = new Document(stream, options);
+
+        // A ce stade, nous pouvons lire et modifier le contenu du document, puis l'enregistrer dans le système de fichiers local.
+        doc.Save(ArtifactsDir + "Document.InsertHtmlFromWebPage.docx");
+    }
+}
+```
+
+Montre comment charger un document Microsoft Word chiffré.
 
 ```csharp
 Document doc;
 
-// Aspose.Words lance une exception si nous essayons d'ouvrir un document chiffré sans son mot de passe.
+// Aspose.Words lève une exception si nous essayons d'ouvrir un document crypté sans son mot de passe.
 Assert.Throws<IncorrectPasswordException>(() => doc = new Document(MyDir + "Encrypted.docx"));
 
 // Lors du chargement d'un tel document, le mot de passe est transmis au constructeur du document à l'aide d'un objet LoadOptions.
 LoadOptions options = new LoadOptions("docPassword");
 
 // Il existe deux manières de charger un document chiffré avec un objet LoadOptions.
-// 1 - Charger le document depuis le système de fichiers local par nom de fichier :
+// 1 - Chargez le document depuis le système de fichiers local par nom de fichier :
 doc = new Document(MyDir + "Encrypted.docx", options);
-// 2 - Charger le document depuis un flux :
+// 2 - Charge le document depuis un flux :
 using (Stream stream = File.OpenRead(MyDir + "Encrypted.docx"))
 {
     doc = new Document(stream, options);
+}
 ```
 
 ### Voir également

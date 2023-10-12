@@ -3,7 +3,7 @@ title: Enum MeasurementUnits
 second_title: Aspose.Words für .NET-API-Referenz
 description: Aspose.Words.MeasurementUnits opsomming. Gibt die Maßeinheit an.
 type: docs
-weight: 3910
+weight: 4150
 url: /de/net/aspose.words/measurementunits/
 ---
 ## MeasurementUnits enumeration
@@ -22,7 +22,7 @@ public enum MeasurementUnits
 | Centimeters | `1` | Zentimeter. |
 | Millimeters | `2` | Millimeter. |
 | Points | `3` | Punkte. |
-| Picas | `4` | Picas (häufig verwendet für traditionelle Schreibmaschinenschriftabstände). |
+| Picas | `4` | Picas (wird häufig bei herkömmlichen Schreibmaschinen-Schriftabständen verwendet). |
 
 ### Siehe auch
 

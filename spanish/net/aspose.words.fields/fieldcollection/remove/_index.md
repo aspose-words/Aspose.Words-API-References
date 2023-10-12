@@ -39,11 +39,11 @@ FieldCollection fields = doc.Range.Fields;
 Assert.AreEqual(6, fields.Count);
 
 // A continuación se muestran cuatro formas de eliminar campos de una colección de campos.
-// 1 - Obtener un campo para eliminarlo:
+// 1 - Obtener un campo para eliminarse a sí mismo:
 fields[0].Remove();
 Assert.AreEqual(5, fields.Count);
 
-// 2 - Obtener la colección para eliminar un campo que le pasamos a su método de eliminación:
+// 2 - Obtener la colección para eliminar un campo que pasamos a su método de eliminación:
 Field lastField = fields[3];
 fields.Remove(lastField);
 Assert.AreEqual(4, fields.Count);

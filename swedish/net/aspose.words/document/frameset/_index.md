@@ -16,7 +16,7 @@ public Frameset Frameset { get; }
 
 ### Anmärkningar
 
-Om dokumentet inte är inramat har egenskapen **null** värde.
+Om dokumentet inte är inramat har egenskapen`null` värde.
 
 ### Exempel
 

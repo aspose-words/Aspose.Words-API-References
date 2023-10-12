@@ -1,14 +1,14 @@
 ---
 title: HyphenationOptions.AutoHyphenation
 second_title: Aspose.Words för .NET API Referens
-description: HyphenationOptions fast egendom. Hämtar eller ställer in värde som avgör om automatisk avstavning är aktiverad för dokumentet. Standardvärdet för den här egenskapen är falsk .
+description: HyphenationOptions fast egendom. Hämtar eller ställer in värde som avgör om automatisk avstavning är aktiverad för dokumentet. Standardvärdet för den här egenskapen ärfalsk .
 type: docs
 weight: 20
 url: /sv/net/aspose.words.settings/hyphenationoptions/autohyphenation/
 ---
 ## HyphenationOptions.AutoHyphenation property
 
-Hämtar eller ställer in värde som avgör om automatisk avstavning är aktiverad för dokumentet. Standardvärdet för den här egenskapen är **falsk** .
+Hämtar eller ställer in värde som avgör om automatisk avstavning är aktiverad för dokumentet. Standardvärdet för den här egenskapen är`falsk` .
 
 ```csharp
 public bool AutoHyphenation { get; set; }

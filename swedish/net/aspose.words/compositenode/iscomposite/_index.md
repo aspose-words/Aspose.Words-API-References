@@ -1,14 +1,14 @@
 ---
 title: CompositeNode.IsComposite
 second_title: Aspose.Words för .NET API Referens
-description: CompositeNode fast egendom. Returnerar sant eftersom denna nod kan ha underordnade noder.
+description: CompositeNode fast egendom. ReturnerarSann eftersom denna nod kan ha underordnade noder.
 type: docs
-weight: 50
+weight: 40
 url: /sv/net/aspose.words/compositenode/iscomposite/
 ---
 ## CompositeNode.IsComposite property
 
-Returnerar sant eftersom denna nod kan ha underordnade noder.
+Returnerar`Sann` eftersom denna nod kan ha underordnade noder.
 
 ```csharp
 public override bool IsComposite { get; }
@@ -19,6 +19,7 @@ public override bool IsComposite { get; }
 Visar hur man korsar en sammansatt nods träd med undernoder.
 
 ```csharp
+public void RecurseChildren()
 {
     Document doc = new Document(MyDir + "Paragraphs.docx");
 

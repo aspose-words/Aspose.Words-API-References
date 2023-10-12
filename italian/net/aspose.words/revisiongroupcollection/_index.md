@@ -3,12 +3,14 @@ title: Class RevisionGroupCollection
 second_title: Aspose.Words per .NET API Reference
 description: Aspose.Words.RevisionGroupCollection classe. Una raccolta diRevisionGroup oggetti che rappresentano i gruppi di revisione nel documento.
 type: docs
-weight: 4530
+weight: 4790
 url: /it/net/aspose.words/revisiongroupcollection/
 ---
 ## RevisionGroupCollection class
 
 Una raccolta di[`RevisionGroup`](../revisiongroup/) oggetti che rappresentano i gruppi di revisione nel documento.
+
+Per saperne di più, visita il[Tieni traccia delle modifiche in un documento](https://docs.aspose.com/words/net/track-changes-in-a-document/) articolo di documentazione.
 
 ```csharp
 public sealed class RevisionGroupCollection : IEnumerable<RevisionGroup>
@@ -19,7 +21,7 @@ public sealed class RevisionGroupCollection : IEnumerable<RevisionGroup>
 | Nome | Descrizione |
 | --- | --- |
 | [Count](../../aspose.words/revisiongroupcollection/count/) { get; } | Restituisce il numero di gruppi di revisione nella raccolta. |
-| [Item](../../aspose.words/revisiongroupcollection/item/) { get; } | Restituisce un gruppo di revisioni in corrispondenza dell'indice specificato. |
+| [Item](../../aspose.words/revisiongroupcollection/item/) { get; } | Restituisce un gruppo di revisione all'indice specificato. |
 
 ## Metodi
 
@@ -29,7 +31,7 @@ public sealed class RevisionGroupCollection : IEnumerable<RevisionGroup>
 
 ### Osservazioni
 
-Non crei direttamente istanze di questa classe. Utilizzare il[`Groups`](../revisioncollection/groups/) per ottenere i gruppi di revisione presenti in un documento.
+Non crei direttamente istanze di questa classe. Usa il[`Groups`](../revisioncollection/groups/) per ottenere i gruppi di revisione presenti in un documento.
 
 ### Esempi
 
@@ -41,7 +43,7 @@ Document doc = new Document(MyDir + "Revisions.docx");
 RevisionGroup revisionGroup = doc.Revisions.Groups[0];
 ```
 
-Mostra come stampare le informazioni su un gruppo di revisioni in un documento.
+Mostra come stampare informazioni su un gruppo di revisioni in un documento.
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");

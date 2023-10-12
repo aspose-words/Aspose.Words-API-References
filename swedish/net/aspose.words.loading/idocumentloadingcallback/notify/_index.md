@@ -29,7 +29,6 @@ Ett undantag bör kastas från förloppsåteruppringningen för abort och det b�
 Visar hur man meddelar användaren om dokumentladdningen överskrider förväntad laddningstid.
 
 ```csharp
-[Test]
 public void ProgressCallback()
 {
     LoadingProgressCallback progressCallback = new LoadingProgressCallback();

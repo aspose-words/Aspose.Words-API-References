@@ -3,7 +3,7 @@ title: Class ComHelper
 second_title: Aspose.Words per .NET API Reference
 description: Aspose.Words.ComHelper classe. Fornisce metodi per i client COM per caricare un documento in Aspose.Words.
 type: docs
-weight: 210
+weight: 220
 url: /it/net/aspose.words/comhelper/
 ---
 ## ComHelper class
@@ -30,9 +30,9 @@ public class ComHelper
 
 ### Osservazioni
 
-Utilizzare il`ComHelper` classe per caricare un documento da un file o eseguire lo streaming in un [`Document`](../document/) oggetto in un'applicazione COM.
+Usa il`ComHelper` classe per caricare un documento da un file o eseguire uno streaming in un [`Document`](../document/) oggetto in un'applicazione COM.
 
-Il[`Document`](../document/)class fornisce un costruttore predefinito per creare un nuovo documento e fornisce anche costruttori sovraccaricati per caricare un documento da un file o da un flusso. Se si utilizza Aspose.Words da un'applicazione .NET, è possibile utilizzare tutti i[`Document`](../document/) costruttori direttamente, ma se stai usando Aspose.Words da un'applicazione COM, solo l'impostazione predefinita[`Document`](../document/) costruttore è disponibile.
+IL[`Document`](../document/) fornisce un costruttore predefinito per creare un nuovo document e fornisce anche costruttori sovraccarichi per caricare un documento da un file o stream. Se stai utilizzando Aspose.Words da un'applicazione .NET, puoi utilizzare tutti i[`Document`](../document/) costruttori direttamente, ma se stai utilizzando Aspose.Words da un'applicazione COM, solo il valore predefinito[`Document`](../document/) il costruttore è disponibile.
 
 ### Esempi
 
@@ -52,7 +52,7 @@ Mostra come aprire documenti utilizzando la classe ComHelper.
 // La classe ComHelper ci consente di caricare documenti dai client COM.
 ComHelper comHelper = new ComHelper();
 
-// 1 - Utilizzo di un nome file di sistema locale:
+// 1 - Utilizzando un nome file di sistema locale:
 Document doc = comHelper.Open(MyDir + "Document.docx");
 
 Assert.AreEqual("Hello World!\r\rHello Word!\r\r\rHello World!", doc.GetText().Trim());

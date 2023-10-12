@@ -1,14 +1,14 @@
 ---
 title: Interface IWarningCallback
 second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.IWarningCallback interfaccia. Implementa questa interfaccia se vuoi che il tuo metodo personalizzato venga chiamato per catturare gli avvisi di perdita di fedeltà che possono verificarsi durante il caricamento o il salvataggio del documento.
+description: Aspose.Words.IWarningCallback interfaccia. Implementa questa interfaccia se desideri che il tuo metodo personalizzato venga richiamato per acquisire gli avvisi di perdita di fedeltà che possono verificarsi durante il caricamento o il salvataggio del documento.
 type: docs
-weight: 3010
+weight: 3210
 url: /it/net/aspose.words/iwarningcallback/
 ---
 ## IWarningCallback interface
 
-Implementa questa interfaccia se vuoi che il tuo metodo personalizzato venga chiamato per catturare gli avvisi di perdita di fedeltà che possono verificarsi durante il caricamento o il salvataggio del documento.
+Implementa questa interfaccia se desideri che il tuo metodo personalizzato venga richiamato per acquisire gli avvisi di perdita di fedeltà che possono verificarsi durante il caricamento o il salvataggio del documento.
 
 ```csharp
 public interface IWarningCallback
@@ -18,13 +18,14 @@ public interface IWarningCallback
 
 | Nome | Descrizione |
 | --- | --- |
-| [Warning](../../aspose.words/iwarningcallback/warning/)(WarningInfo) | Aspose.Words richiama questo metodo quando incontra qualche problema durante il caricamento del documento o il salvataggio che potrebbe comportare la perdita di formattazione o fedeltà dei dati. |
+| [Warning](../../aspose.words/iwarningcallback/warning/)(WarningInfo) | Aspose.Words richiama questo metodo quando incontra qualche problema durante il caricamento o il salvataggio del documento che potrebbe comportare la perdita di formattazione o fedeltà dei dati. |
 
 ### Esempi
 
 Mostra come utilizzare l'interfaccia IWarningCallback per monitorare gli avvisi di sostituzione dei caratteri.
 
 ```csharp
+public void SubstitutionWarning()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -42,15 +43,16 @@ Mostra come utilizzare l'interfaccia IWarningCallback per monitorare gli avvisi 
     // A scopo di test, imposteremo Aspose.Words per cercare i caratteri solo in una cartella che non esiste.
     FontSettings.DefaultInstance.SetFontsFolder(string.Empty, false);
 
-    // Durante il rendering del documento, non ci sarà spazio per trovare il carattere "Times New Roman".
+    // Durante il rendering del documento, non sarà possibile trovare il carattere "Times New Roman".
     // Ciò causerà un avviso di sostituzione del carattere, che il nostro callback rileverà.
     doc.Save(ArtifactsDir + "FontSettings.SubstitutionWarning.pdf");
 
     FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 
+    Assert.True(callback.FontSubstitutionWarnings[0].WarningType == WarningType.FontSubstitution);
     Assert.True(callback.FontSubstitutionWarnings[0].Description
         .Equals(
-            "Font 'Times New Roman' has not been found. Using 'Fanwood' font instead. Reason: first available font."));
+            "Font 'Times New Roman' has not been found. Using 'Fanwood' font instead. Reason: first available font.", StringComparison.Ordinal));
 }
 
 private class FontSubstitutionWarningCollector : IWarningCallback
@@ -68,9 +70,10 @@ private class FontSubstitutionWarningCollector : IWarningCallback
 }
 ```
 
-Mostra aggiunto un fallback al rendering delle bitmap e alla modifica del tipo di avvisi sui record di metafile non supportati.
+Mostra aggiunto un fallback al rendering bitmap e modificando il tipo di avvisi sui record di metafile non supportati.
 
 ```csharp
+public void HandleBinaryRasterWarnings()
 {
     Document doc = new Document(MyDir + "WMF with image.docx");
 
@@ -84,7 +87,7 @@ Mostra aggiunto un fallback al rendering delle bitmap e alla modifica del tipo d
     metafileRenderingOptions.RenderingMode = MetafileRenderingMode.VectorWithFallback;
 
     // Crea un oggetto "PdfSaveOptions" che possiamo passare al metodo "Save" del documento
-    // per modificare il modo in cui quel metodo converte il documento in .PDF e applica la configurazione
+    // per modificare il modo in cui il metodo converte il documento in .PDF e applica la configurazione
     // nel nostro oggetto MetafileRenderingOptions all'operazione di salvataggio.
     PdfSaveOptions saveOptions = new PdfSaveOptions();
     saveOptions.MetafileRenderingOptions = metafileRenderingOptions;
@@ -95,7 +98,7 @@ Mostra aggiunto un fallback al rendering delle bitmap e alla modifica del tipo d
     doc.Save(ArtifactsDir + "PdfSaveOptions.HandleBinaryRasterWarnings.pdf", saveOptions);
 
     Assert.AreEqual(1, callback.Warnings.Count);
-    Assert.AreEqual("'R2_XORPEN' binary raster operation is partly supported.",
+    Assert.AreEqual("'R2_XORPEN' binary raster operation is not supported.",
         callback.Warnings[0].Description);
 }
 
@@ -117,24 +120,26 @@ public class HandleDocumentWarnings : IWarningCallback
 }
 ```
 
-Mostra come impostare la proprietà per trovare la corrispondenza più vicina per un carattere mancante dalle fonti di carattere disponibili.
+Mostra come impostare la proprietà per trovare la corrispondenza più vicina per un carattere mancante tra le origini dei caratteri disponibili.
 
 ```csharp
-[Test]
 public void EnableFontSubstitution()
 {
-    // Apri un documento che contiene testo formattato con un font che non esiste in nessuna delle nostre fonti di font.
+    // Apre un documento che contiene testo formattato con un carattere che non esiste in nessuna delle nostre fonti di caratteri.
     Document doc = new Document(MyDir + "Missing font.docx");
 
-    // Assegna una richiamata per la gestione degli avvisi di sostituzione dei caratteri.
+    // Assegna una richiamata per gestire gli avvisi di sostituzione dei caratteri.
     HandleDocumentSubstitutionWarnings substitutionWarningHandler = new HandleDocumentSubstitutionWarnings();
     doc.WarningCallback = substitutionWarningHandler;
 
-    // Imposta un nome di carattere predefinito e abilita la sostituzione dei caratteri.
+    // Imposta un nome di carattere predefinito e abilita la sostituzione del carattere.
     FontSettings fontSettings = new FontSettings();
     fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
     ;
     fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
+
+    // Le metriche dei caratteri originali devono essere utilizzate dopo la sostituzione dei caratteri.
+    doc.LayoutOptions.KeepOriginalFontMetrics = true;
 
     // Riceveremo un avviso di sostituzione del carattere se salviamo un documento con un carattere mancante.
     doc.FontSettings = fontSettings;

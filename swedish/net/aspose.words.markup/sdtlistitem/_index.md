@@ -3,12 +3,14 @@ title: Class SdtListItem
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Markup.SdtListItem klass. Detta element specificerar ett enda listobjekt inom en förälderComboBox ellerDropDownList strukturerad dokumenttagg.
 type: docs
-weight: 3780
+weight: 4020
 url: /sv/net/aspose.words.markup/sdtlistitem/
 ---
 ## SdtListItem class
 
 Detta element specificerar ett enda listobjekt inom en förälderComboBox ellerDropDownList strukturerad dokumenttagg.
+
+För att lära dig mer, besök[Strukturerade dokumenttaggar eller innehållskontroll](https://docs.aspose.com/words/net/working-with-content-control-sdt/) dokumentationsartikel.
 
 ```csharp
 public class SdtListItem
@@ -66,7 +68,7 @@ using (IEnumerator<SdtListItem> enumerator = listItems.GetEnumerator())
             Console.WriteLine($"List item: {enumerator.Current.DisplayText}, value: {enumerator.Current.Value}");
 }
 
-  // Ta bort det sista listobjektet.
+ // Ta bort det sista listobjektet.
 listItems.RemoveAt(3);
 
 Assert.AreEqual(3, listItems.Count);

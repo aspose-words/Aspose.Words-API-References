@@ -30,20 +30,20 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Write("Run 1. ");
 builder.Write("Run 2. ");
 
-// "Write" yönteminin her çağrısı yeni bir Run oluşturur,
-// daha sonra üst Paragrafın RunCollection'ında görünür.
+// "Write" yönteminin her çağrılması yeni bir Çalıştırma oluşturur,
+// bu daha sonra ana Paragrafın RunCollection'ında görünür.
 RunCollection runs = doc.FirstSection.Body.FirstParagraph.Runs;
 
 Assert.AreEqual(2, runs.Count);
 
-// RunCollection'a manuel olarak da bir düğüm ekleyebiliriz.
+// RunCollection'a manuel olarak da düğüm ekleyebiliriz.
 Run newRun = new Run(doc, "Run 3. ");
 runs.Insert(3, newRun);
 
 Assert.True(runs.Contains(newRun));
 Assert.AreEqual("Run 1. Run 2. Run 3.", doc.GetText().Trim());
 
-// Tek tek çalıştırmalara erişin ve metinlerini belgeden kaldırmak için bunları kaldırın.
+// Metinlerini belgeden kaldırmak için bireysel çalıştırmalara erişin ve bunları kaldırın.
 Run run = runs[1];
 runs.Remove(run);
 

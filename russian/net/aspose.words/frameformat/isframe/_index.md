@@ -1,14 +1,14 @@
 ---
 title: FrameFormat.IsFrame
 second_title: Справочник по API Aspose.Words для .NET
-description: FrameFormat свойство. Возвращает true если абзац является фреймом.
+description: FrameFormat свойство. Возвращаетистинный если абзац представляет собой фрейм.
 type: docs
 weight: 60
 url: /ru/net/aspose.words/frameformat/isframe/
 ---
 ## FrameFormat.IsFrame property
 
-Возвращает true, если абзац является фреймом.
+Возвращает`истинный` если абзац представляет собой фрейм.
 
 ```csharp
 public bool IsFrame { get; }

@@ -16,7 +16,7 @@ public int Columns { get; set; }
 
 ### Observaciones
 
-Si esta propiedad tiene el valor 0, el área de notas al pie se formatea con un número de columnas basado en el número de columnas en la página mostrada. El valor predeterminado es 0.
+Si esta propiedad tiene el valor de 0, el área de notas al pie tiene formato con una cantidad de columnas basadas en la cantidad de columnas en la página mostrada. El valor predeterminado es 0.
 
 ### Ejemplos
 

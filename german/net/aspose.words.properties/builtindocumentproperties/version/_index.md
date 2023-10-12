@@ -16,11 +16,11 @@ public int Version { get; set; }
 
 ### Bemerkungen
 
-Wenn ein Dokument von Microsoft Word erstellt wurde, stellen hohe 16-Bit die Hauptversion und niedrige 16-Bit die Build-Nummer dar.
+Wenn ein Dokument mit Microsoft Word erstellt wurde, stellen die hohen 16 Bit die Hauptversion und die niedrigen 16 Bit die Build-Nummer dar.
 
 ### Beispiele
 
-Zeigt, wie Sie mit Dokumenteigenschaften in der Kategorie "Ursprung" arbeiten.
+Zeigt, wie mit Dokumenteigenschaften in der Kategorie „Ursprung“ gearbeitet wird.
 
 ```csharp
 // Öffnen Sie ein Dokument, das wir mit Microsoft Word erstellt und bearbeitet haben.
@@ -28,15 +28,15 @@ Document doc = new Document(MyDir + "Properties.docx");
 BuiltInDocumentProperties properties = doc.BuiltInDocumentProperties;
 
 // Die folgenden integrierten Eigenschaften enthalten Informationen zur Erstellung und Bearbeitung dieses Dokuments.
-// Wir können dieses Dokument im Windows Explorer mit der rechten Maustaste anklicken und finden
-// diese Eigenschaften über "Eigenschaften" -> "Details" -> Kategorie "Herkunft".
+// Wir können im Windows Explorer mit der rechten Maustaste auf dieses Dokument klicken und es finden
+// diese Eigenschaften über „Eigenschaften“ -> „Details“ -> Kategorie „Herkunft“.
 // Felder wie PRINTDATE und EDITTIME können diese Werte im Dokumentkörper anzeigen.
 Console.WriteLine($"Created using {properties.NameOfApplication}, on {properties.CreatedTime}");
 Console.WriteLine($"Minutes spent editing: {properties.TotalEditingTime}");
 Console.WriteLine($"Date/time last printed: {properties.LastPrinted}");
 Console.WriteLine($"Template document: {properties.Template}");
 
-// Wir können auch die Werte von eingebauten Eigenschaften ändern.
+// Wir können auch die Werte integrierter Eigenschaften ändern.
 properties.Company = "Doe Ltd.";
 properties.Manager = "Jane Doe";
 properties.Version = 5;
@@ -47,7 +47,7 @@ properties.RevisionNumber++;
 properties.LastSavedBy = "John Doe";
 properties.LastSavedTime = DateTime.Now;
 
-// Wir können dieses Dokument im Windows Explorer mit der rechten Maustaste anklicken und finden these properties in "Properties" -> "Details" -> "Origin".
+// Wir können im Windows Explorer mit der rechten Maustaste auf dieses Dokument klicken und es finden these properties in "Properties" -> "Details" -> "Origin".
 doc.Save(ArtifactsDir + "DocumentProperties.Origin.docx");
 ```
 

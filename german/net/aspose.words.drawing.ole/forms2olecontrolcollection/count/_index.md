@@ -21,14 +21,14 @@ Zeigt, wie auf ein in ein Dokument eingebettetes OLE-Steuerelement und seine unt
 ```csharp
 Document doc = new Document(MyDir + "OLE ActiveX controls.docm");
 
-// Shapes speichern und zeigen OLE-Objekte im Hauptteil des Dokuments an.
+// Formen speichern und zeigen OLE-Objekte im Hauptteil des Dokuments an.
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 
 Assert.AreEqual("6e182020-f460-11ce-9bcd-00aa00608e01", shape.OleFormat.Clsid.ToString());
 
 Forms2OleControl oleControl = (Forms2OleControl)shape.OleFormat.OleControl;
 
-// Einige OLE-Steuerelemente können untergeordnete Steuerelemente enthalten, z. B. das in diesem Dokument mit drei Optionsschaltflächen.
+// Einige OLE-Steuerelemente enthalten möglicherweise untergeordnete Steuerelemente, z. B. das in diesem Dokument mit drei Optionsschaltflächen.
 Forms2OleControlCollection oleControlCollection = oleControl.ChildNodes;
 
 Assert.AreEqual(3, oleControlCollection.Count);

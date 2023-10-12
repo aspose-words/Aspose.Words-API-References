@@ -1,14 +1,14 @@
 ---
 title: FrameFormat.VerticalDistanceFromText
 second_title: Aspose.Words for .NET API Referansı
-description: FrameFormat mülk. Bir çerçeve ile çevresindeki metin arasındaki dikey mesafeyi nokta olarak belirtir.
+description: FrameFormat mülk. Çerçeve ile çevresindeki metin arasındaki dikey mesafeyi nokta cinsinden belirtir.
 type: docs
 weight: 100
 url: /tr/net/aspose.words/frameformat/verticaldistancefromtext/
 ---
 ## FrameFormat.VerticalDistanceFromText property
 
-Bir çerçeve ile çevresindeki metin arasındaki dikey mesafeyi (nokta olarak) belirtir.
+Çerçeve ile çevresindeki metin arasındaki dikey mesafeyi (nokta cinsinden) belirtir.
 
 ```csharp
 public double VerticalDistanceFromText { get; }

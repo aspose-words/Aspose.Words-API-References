@@ -1,14 +1,14 @@
 ---
 title: IDocumentLoadingCallback.Notify
 second_title: Referencia de API de Aspose.Words para .NET
-description: IDocumentLoadingCallback método. Se llama para notificar el progreso de la carga del documento.
+description: IDocumentLoadingCallback método. Esto se llama para notificar el progreso de la carga del documento.
 type: docs
 weight: 10
 url: /es/net/aspose.words.loading/idocumentloadingcallback/notify/
 ---
 ## IDocumentLoadingCallback.Notify method
 
-Se llama para notificar el progreso de la carga del documento.
+Esto se llama para notificar el progreso de la carga del documento.
 
 ```csharp
 public void Notify(DocumentLoadingArgs args)
@@ -20,16 +20,15 @@ public void Notify(DocumentLoadingArgs args)
 
 ### Observaciones
 
-Los usos principales de esta interfaz son permitir que el código de la aplicación obtenga el estado de progreso y anule el proceso de carga.
+El uso principal de esta interfaz es permitir que el código de la aplicación obtenga el estado de progreso y cancele el proceso de carga.
 
-Debe lanzarse una excepción desde la devolución de llamada de progreso para el aborto y debe capturarse en el código del consumidor.
+Se debe generar una excepción desde la devolución de llamada de progreso para el aborto y se debe incluir en el código del consumidor.
 
 ### Ejemplos
 
 Muestra cómo notificar al usuario si la carga del documento excedió el tiempo de carga esperado.
 
 ```csharp
-[Test]
 public void ProgressCallback()
 {
     LoadingProgressCallback progressCallback = new LoadingProgressCallback();
@@ -44,17 +43,17 @@ public void ProgressCallback()
     {
         Console.WriteLine(exception.Message);
 
-        // Manejar el problema de la duración de la carga.
+        // Manejar el problema de duración de la carga.
     }
 }
 
 /// <summary>
-/// Cancelar la carga de un documento después de los segundos "MaxDuration".
+/// Cancelar la carga de un documento después de los segundos de "MaxDuration".
 /// </summary>
 public class LoadingProgressCallback : IDocumentLoadingCallback
 {
     /// <summary>
-    /// Centro
+    /// Centro.
     /// </summary>
     public LoadingProgressCallback()
     {

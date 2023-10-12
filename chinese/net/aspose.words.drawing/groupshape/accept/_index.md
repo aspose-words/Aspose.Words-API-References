@@ -20,15 +20,15 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### 返回值
 
-如果访问了所有节点，则为真；如果 DocumentVisitor 在访问所有节点之前停止操作，则返回 false。
+如果访问了所有节点，则为 True；假如果[`DocumentVisitor`](../../../aspose.words/documentvisitor/)在访问所有节点之前停止操作。
 
 ### 评论
 
-枚举此节点及其所有子节点。每个节点调用 DocumentVisitor 上的相应方法。
+枚举该节点及其所有子节点。每个节点调用相应的方法[`DocumentVisitor`](../../../aspose.words/documentvisitor/)。
 
-有关更多信息，请参阅访问者设计模式。
+有关更多信息，请参阅访客设计模式。
 
-来电[`VisitGroupShapeStart`](../../../aspose.words/documentvisitor/visitgroupshapestart/)，然后调用[`Accept`](../../../aspose.words/node/accept/)对于该组形状的所有 子形状并调用[`VisitGroupShapeEnd`](../../../aspose.words/documentvisitor/visitgroupshapeend/)最后.
+通话[`VisitGroupShapeStart`](../../../aspose.words/documentvisitor/visitgroupshapestart/)，然后调用[`Accept`](../../../aspose.words/node/accept/)对于该组形状的所有 子形状并调用[`VisitGroupShapeEnd`](../../../aspose.words/documentvisitor/visitgroupshapeend/)最后.
 
 ### 例子
 
@@ -41,7 +41,7 @@ public void GroupOfShapes()
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     // 如果需要创建“NonPrimitive”形状，例如 SingleCornerSnipped、TopCornersSnipped、DiagonalCornersSnipped，
-    // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, DiagonalCornersRounded
+    // TopCornersOneRoundedOneSnipped、SingleCornerRounded、TopCornersRounded、DiagonalCornersRounded
     // 请使用 DocumentBuilder.InsertShape 方法。
     Shape balloon = new Shape(doc, ShapeType.Balloon)
     {
@@ -72,7 +72,7 @@ public void GroupOfShapes()
 }
 
 /// <summary>
-/// 将访问的形状组的内容打印到控制台。
+/// 将访问过的形状组的内容打印到控制台。
 /// </summary>
 public class ShapeGroupPrinter : DocumentVisitor
 {

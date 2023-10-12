@@ -1,14 +1,14 @@
 ---
 title: FieldOptions.ComparisonExpressionEvaluator
 second_title: Aspose.Words für .NET-API-Referenz
-description: FieldOptions eigendom. Ruft den Evaluator für Feldvergleichsausdrücke ab oder legt ihn fest.
+description: FieldOptions eigendom. Ruft den FeldvergleichsausdruckEvaluator ab oder legt ihn fest.
 type: docs
-weight: 30
+weight: 40
 url: /de/net/aspose.words.fields/fieldoptions/comparisonexpressionevaluator/
 ---
 ## FieldOptions.ComparisonExpressionEvaluator property
 
-Ruft den Evaluator für Feldvergleichsausdrücke ab oder legt ihn fest.
+Ruft den Feldvergleichsausdruck-Evaluator ab oder legt ihn fest.
 
 ```csharp
 public IComparisonExpressionEvaluator ComparisonExpressionEvaluator { get; set; }
@@ -30,10 +30,10 @@ public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparison
 
     // Feldcodes, die wir in diesem Beispiel verwenden:
     // 1. " IF {0} {1} {2} \"wahres Argument\" \"falsches Argument\" ".
-    // 2. " VERGLEICHEN {0} {1} {2} ".
+    // 2. " COMPARE {0} {1} {2} ".
     Field field = builder.InsertField(string.Format(fieldCode, left, @operator, right), null);
 
-    // Wenn "comparisonResult" nicht definiert ist, erstellen wir "ComparisonEvaluationResult" mit String statt mit bool.
+    // Wenn „comparisonResult“ undefiniert ist, erstellen wir „ComparisonEvaluationResult“ mit einer Zeichenfolge anstelle von bool.
     ComparisonEvaluationResult result = comparisonResult != -1
         ? new ComparisonEvaluationResult(comparisonResult == 1)
         : comparisonError != null ? new ComparisonEvaluationResult(comparisonError) : null;

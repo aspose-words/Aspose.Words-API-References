@@ -1,14 +1,14 @@
 ---
 title: Interface IBarcodeGenerator
 second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Fields.IBarcodeGenerator interfaccia. Interfaccia pubblica per generatore personalizzato di codici a barre. Limplementazione deve essere fornita dallutente.
+description: Aspose.Words.Fields.IBarcodeGenerator interfaccia. Interfaccia pubblica per generatore personalizzato di codici a barre. Limplementazione dovrebbe essere fornita dallutente.
 type: docs
-weight: 2500
+weight: 2660
 url: /it/net/aspose.words.fields/ibarcodegenerator/
 ---
 ## IBarcodeGenerator interface
 
-Interfaccia pubblica per generatore personalizzato di codici a barre. L'implementazione deve essere fornita dall'utente.
+Interfaccia pubblica per generatore personalizzato di codici a barre. L'implementazione dovrebbe essere fornita dall'utente.
 
 ```csharp
 public interface IBarcodeGenerator
@@ -32,14 +32,13 @@ Mostra come utilizzare un generatore di codici a barre.
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-
 // Possiamo utilizzare un'implementazione IBarcodeGenerator personalizzata per generare codici a barre,
-// e quindi inserirli nel documento come immagini.
+// e poi inserirli nel documento come immagini.
 doc.FieldOptions.BarcodeGenerator = new CustomBarcodeGenerator();
 
 // Di seguito sono riportati quattro esempi di diversi tipi di codici a barre che possiamo creare utilizzando il nostro generatore.
-// Per ogni codice a barre, specifichiamo un nuovo set di parametri del codice a barre, quindi generiamo l'immagine.
-// Successivamente, possiamo inserire l'immagine nel documento o salvarla nel file system locale.
+// Per ciascun codice a barre, specifichiamo un nuovo set di parametri del codice a barre, quindi generiamo l'immagine.
+// Successivamente possiamo inserire l'immagine nel documento o salvarla nel file system locale.
 // 1 - Codice QR:
 BarcodeParameters barcodeParameters = new BarcodeParameters
 {

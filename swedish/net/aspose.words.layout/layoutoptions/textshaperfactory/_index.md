@@ -3,7 +3,7 @@ title: LayoutOptions.TextShaperFactory
 second_title: Aspose.Words för .NET API Referens
 description: LayoutOptions fast egendom. Hämtar eller sätterITextShaperFactory implementering som används för avancerade typografirenderingsfunktioner.
 type: docs
-weight: 90
+weight: 100
 url: /sv/net/aspose.words.layout/layoutoptions/textshaperfactory/
 ---
 ## LayoutOptions.TextShaperFactory property

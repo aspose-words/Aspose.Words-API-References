@@ -3,7 +3,7 @@ title: Enum TextBoxAnchor
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Drawing.TextBoxAnchor uppräkning. Anger värden som används för vertikal justering av formtext.
 type: docs
-weight: 1180
+weight: 1330
 url: /sv/net/aspose.words.drawing/textboxanchor/
 ---
 ## TextBoxAnchor enumeration

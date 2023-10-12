@@ -1,14 +1,16 @@
 ---
 title: Class PlainTextDocument
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.PlainTextDocument sınıf. Belge içeriğinin düz metin gösterimini çıkarmaya izin verir.
+description: Aspose.Words.PlainTextDocument sınıf. Belge içeriğinin düz metin gösteriminin çıkarılmasına izin verir.
 type: docs
-weight: 4190
+weight: 4440
 url: /tr/net/aspose.words/plaintextdocument/
 ---
 ## PlainTextDocument class
 
-Belge içeriğinin düz metin gösterimini çıkarmaya izin verir.
+Belge içeriğinin düz metin gösteriminin çıkarılmasına izin verir.
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Metin Belgesiyle Çalışmak](https://docs.aspose.com/words/net/working-with-text-document/) dokümantasyon makalesi.
 
 ```csharp
 public class PlainTextDocument
@@ -20,8 +22,8 @@ public class PlainTextDocument
 | --- | --- |
 | [PlainTextDocument](plaintextdocument/#constructor)(Stream) | Bir akıştan düz metin belgesi oluşturur. Dosya biçimini otomatik olarak algılar. |
 | [PlainTextDocument](plaintextdocument/#constructor_2)(string) | Bir dosyadan düz metin belgesi oluşturur. Dosya biçimini otomatik olarak algılar. |
-| [PlainTextDocument](plaintextdocument/#constructor_1)(Stream, LoadOptions) | Bir akıştan düz metin belgesi oluşturur. Şifreleme parolası gibi ek seçeneklerin belirlenmesine izin verir. |
-| [PlainTextDocument](plaintextdocument/#constructor_3)(string, LoadOptions) | Bir dosyadan düz metin belgesi oluşturur. Şifreleme parolası gibi ek seçeneklerin belirlenmesine izin verir. |
+| [PlainTextDocument](plaintextdocument/#constructor_1)(Stream, LoadOptions) | Bir akıştan düz metin belgesi oluşturur. Şifreleme şifresi gibi ek seçeneklerin belirtilmesine olanak tanır. |
+| [PlainTextDocument](plaintextdocument/#constructor_3)(string, LoadOptions) | Bir dosyadan düz metin belgesi oluşturur. Şifreleme şifresi gibi ek seçeneklerin belirtilmesine olanak tanır. |
 
 ## Özellikleri
 
@@ -29,7 +31,7 @@ public class PlainTextDocument
 | --- | --- |
 | [BuiltInDocumentProperties](../../aspose.words/plaintextdocument/builtindocumentproperties/) { get; } | Alır[`BuiltInDocumentProperties`](./builtindocumentproperties/) belgenin. |
 | [CustomDocumentProperties](../../aspose.words/plaintextdocument/customdocumentproperties/) { get; } | Alır[`CustomDocumentProperties`](./customdocumentproperties/) belgenin. |
-| [Text](../../aspose.words/plaintextdocument/text/) { get; } | Dize olarak birleştirilmiş belgenin metin içeriğini alır. |
+| [Text](../../aspose.words/plaintextdocument/text/) { get; } | Belgenin metin içeriğini bir dize olarak birleştirir. |
 
 ### Örnekler
 

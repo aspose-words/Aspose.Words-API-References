@@ -1,14 +1,16 @@
 ---
 title: Class FieldGreetingLine
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fields.FieldGreetingLine فصل. تنفيذ حقل الخط الأخضر .
+description: Aspose.Words.Fields.FieldGreetingLine فصل. ينفذ حقل GREETINGLINE.
 type: docs
-weight: 1830
+weight: 1980
 url: /ar/net/aspose.words.fields/fieldgreetingline/
 ---
 ## FieldGreetingLine class
 
-تنفيذ حقل الخط الأخضر .
+ينفذ حقل GREETINGLINE.
+
+لمعرفة المزيد، قم بزيارة[العمل مع الحقول](https://docs.aspose.com/words/net/working-with-fields/) مقالة توثيقية.
 
 ```csharp
 public class FieldGreetingLine : Field
@@ -24,35 +26,35 @@ public class FieldGreetingLine : Field
 
 | اسم | وصف |
 | --- | --- |
-| [AlternateText](../../aspose.words.fields/fieldgreetingline/alternatetext/) { get; set; } | الحصول على أو تعيين النص المراد تضمينه في الحقل إذا كان الاسم فارغًا. |
-| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | يحصل على النص الذي يمثل نتيجة الحقل المعروض. |
+| [AlternateText](../../aspose.words.fields/fieldgreetingline/alternatetext/) { get; set; } | الحصول على النص الذي سيتم تضمينه في الحقل أو تعيينه إذا كان الاسم فارغًا. |
+| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | الحصول على النص الذي يمثل نتيجة الحقل المعروض. |
 | [End](../../aspose.words.fields/field/end/) { get; } | يحصل على العقدة التي تمثل نهاية الحقل. |
-| [Format](../../aspose.words.fields/field/format/) { get; } | يحصل على أ[`FieldFormat`](../fieldformat/) كائن يوفر وصولاً مكتوبًا إلى تنسيق الحقل. |
-| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | الحصول على أو تحديد ما إذا كانت النتيجة الحالية للحقل لم تعد صحيحة (قديمة) بسبب التعديلات الأخرى التي تم إجراؤها على المستند. |
-| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | تحديد ما إذا كان الحقل مغلقًا أم لا (يجب عدم إعادة حساب النتيجة). |
-| [LanguageId](../../aspose.words.fields/fieldgreetingline/languageid/) { get; set; } | الحصول على أو تعيين معرّف اللغة المستخدم لتنسيق الاسم. |
-| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | الحصول على أو تحديد LCID للحقل. |
-| [NameFormat](../../aspose.words.fields/fieldgreetingline/nameformat/) { get; set; } | الحصول على تنسيق الاسم المضمن في الحقل أو تعيينه. |
+| [Format](../../aspose.words.fields/field/format/) { get; } | يحصل على[`FieldFormat`](../fieldformat/) الكائن الذي يوفر الوصول المكتوب إلى تنسيق الحقل. |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | الحصول على أو تعيين ما إذا كانت النتيجة الحالية للحقل لم تعد صحيحة (قديمة) بسبب تعديلات أخرى تم إجراؤها على المستند. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | الحصول على أو تعيين ما إذا كان الحقل مقفلاً (لا ينبغي إعادة حساب النتيجة). |
+| [LanguageId](../../aspose.words.fields/fieldgreetingline/languageid/) { get; set; } | الحصول على أو تعيين معرف اللغة المستخدم لتنسيق الاسم. |
+| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | الحصول على أو تعيين LCID الخاص بالحقل. |
+| [NameFormat](../../aspose.words.fields/fieldgreetingline/nameformat/) { get; set; } | الحصول على أو تعيين تنسيق الاسم المدرج في الحقل. |
 | [Result](../../aspose.words.fields/field/result/) { get; set; } | الحصول على أو تعيين النص الموجود بين فاصل الحقل ونهاية الحقل. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | يحصل على العقدة التي تمثل فاصل المجال. يمكن أن يكون فارغًا. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | يحصل على العقدة التي تمثل فاصل الحقول. يمكن ان يكون`باطل` . |
 | [Start](../../aspose.words.fields/field/start/) { get; } | يحصل على العقدة التي تمثل بداية الحقل. |
-| virtual [Type](../../aspose.words.fields/field/type/) { get; } | يحصل على نوع حقل Microsoft Word . |
+| virtual [Type](../../aspose.words.fields/field/type/) { get; } | الحصول على نوع حقل Microsoft Word. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل) . يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل) . |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). |
 | [GetFieldNames](../../aspose.words.fields/fieldgreetingline/getfieldnames/)() | إرجاع مجموعة من أسماء حقول دمج المراسلات المستخدمة بواسطة الحقل. |
-| [Remove](../../aspose.words.fields/field/remove/)() | يزيل الحقل من المستند. إرجاع عقدة بعد الحقل مباشرة. إذا كانت نهاية الحقل هي آخر child من العقدة الأصلية ، يتم إرجاع فقرته الأصلية. إذا تمت إزالة الحقل بالفعل ، يعود **لا شيء** . |
+| [Remove](../../aspose.words.fields/field/remove/)() | إزالة الحقل من المستند. إرجاع عقدة مباشرة بعد الحقل. إذا كانت نهاية الحقل هي الطفل الأخير للعقدة الأصلية، فسيتم إرجاع الفقرة الأصلية الخاصة به. إذا تمت إزالة الحقل بالفعل، فسيتم إرجاعه`باطل` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | يقوم بإلغاء ربط الحقل. |
-| [Update](../../aspose.words.fields/field/update/)() | يقوم بالتحديث الميداني. يرمي إذا تم تحديث الحقل بالفعل. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | يقوم بإجراء تحديث ميداني. يرمي إذا تم تحديث الحقل بالفعل. |
+| [Update](../../aspose.words.fields/field/update/)() | يقوم بإجراء التحديث الميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
+| [Update](../../aspose.words.fields/field/update/)(bool) | إجراء تحديث ميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
 
 ### ملاحظات
 
-إدراج سطر ترحيب دمج المراسلات .
+إدراج سطر ترحيب لدمج المراسلات.
 
 ### أمثلة
 
@@ -62,20 +64,20 @@ public class FieldGreetingLine : Field
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أنشئ تحية عامة باستخدام حقل GREETINGLINE ، وبعض النص بعده.
+// قم بإنشاء تحية عامة باستخدام حقل GREETINGLINE وبعض النص بعده.
 FieldGreetingLine field = (FieldGreetingLine)builder.InsertField(FieldType.FieldGreetingLine, true);
 builder.Writeln("\n\n\tThis is your custom greeting, created programmatically using Aspose Words!");
 
-// يقبل حقل GREETINGLINE القيم من مصدر بيانات أثناء دمج البريد ، مثل MERGEFIELD.
+// يقبل حقل GREETINGLINE القيم من مصدر البيانات أثناء دمج البريد، مثل MERGEFIELD.
 // يمكنه أيضًا تنسيق كيفية كتابة بيانات المصدر في مكانها بمجرد اكتمال دمج البريد.
 // تتوافق مجموعة أسماء الحقول مع الأعمدة من مصدر البيانات
-// التي سيأخذ منها الحقل قيمًا.
+// الذي سيأخذ الحقل القيم منه.
 Assert.AreEqual(0, field.GetFieldNames().Length);
 
-// لتعبئة هذه المصفوفة ، نحتاج إلى تحديد تنسيق لسطر الترحيب الخاص بنا.
+// لملء تلك المصفوفة، نحتاج إلى تحديد تنسيق لسطر الترحيب الخاص بنا.
 field.NameFormat = "<< _BEFORE_ Dear >><< _TITLE0_ >><< _LAST0_ >><< _AFTER_ ,>> ";
 
-// الآن ، سيقبل حقلنا القيم من هذين العمودين في مصدر البيانات.
+// الآن، سيقبل حقلنا القيم من هذين العمودين في مصدر البيانات.
 Assert.AreEqual("Courtesy Title", field.GetFieldNames()[0]);
 Assert.AreEqual("Last Name", field.GetFieldNames()[1]);
 Assert.AreEqual(2, field.GetFieldNames().Length);
@@ -90,8 +92,8 @@ field.LanguageId = new CultureInfo("en-US").LCID.ToString();
 Assert.AreEqual(" GREETINGLINE  \\f \"<< _BEFORE_ Dear >><< _TITLE0_ >><< _LAST0_ >><< _AFTER_ ,>> \" \\e \"Sir or Madam\" \\l 1033", 
     field.GetFieldCode());
 
-// أنشئ جدول بيانات بأعمدة تتطابق أسماؤها مع العناصر
-// من مجموعة أسماء الحقول الخاصة بالحقل ، ثم قم بتنفيذ عملية دمج البريد.
+// أنشئ جدول بيانات يحتوي على أعمدة تتطابق أسماؤها مع العناصر
+// من مجموعة أسماء حقول الحقل، ثم قم بتنفيذ دمج المراسلات.
 DataTable table = new DataTable("Employees");
 table.Columns.Add("Courtesy Title");
 table.Columns.Add("First Name");
@@ -99,7 +101,7 @@ table.Columns.Add("Last Name");
 table.Rows.Add("Mr.", "John", "Doe");
 table.Rows.Add("Mrs.", "Jane", "Cardholder");
 
-// يحتوي هذا الصف على قيمة غير صالحة في عمود عنوان المجاملة ، لذا فإن تحياتنا ستتحول إلى النص البديل افتراضيًا.
+// يحتوي هذا الصف على قيمة غير صالحة في عمود "عنوان المجاملة"، لذلك سيتم تعيين تحيتنا افتراضيًا على النص البديل.
 table.Rows.Add("", "No", "Name");
 
 doc.MailMerge.Execute(table);

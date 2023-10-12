@@ -1,14 +1,14 @@
 ---
 title: ShapeBase.AnchorLocked
 second_title: Aspose.Words per .NET API Reference
-description: ShapeBase proprietà. Specifica se lancora della forma è bloccata.
+description: ShapeBase proprietà. Specifica se lancoraggio della forma è bloccato.
 type: docs
 weight: 30
 url: /it/net/aspose.words.drawing/shapebase/anchorlocked/
 ---
 ## ShapeBase.AnchorLocked property
 
-Specifica se l'ancora della forma è bloccata.
+Specifica se l'ancoraggio della forma è bloccato.
 
 ```csharp
 public bool AnchorLocked { get; set; }
@@ -16,7 +16,7 @@ public bool AnchorLocked { get; set; }
 
 ### Osservazioni
 
-Il valore predefinito è **falso**.
+Il valore predefinito è`falso`.
 
 Ha effetto solo per le forme di livello superiore.
 
@@ -24,7 +24,7 @@ Questa proprietà influisce sul comportamento dell'ancora della forma in Microso
 
 ### Esempi
 
-Mostra come bloccare o sbloccare l'ancora di paragrafo di una forma.
+Mostra come bloccare o sbloccare l'ancoraggio del paragrafo di una forma.
 
 ```csharp
 Document doc = new Document();
@@ -42,11 +42,11 @@ builder.Writeln("Hello again!");
 // Imposta la proprietà "AnchorLocked" su "true" per impedire l'ancoraggio della forma
 // dallo spostamento quando si sposta la forma in Microsoft Word.
 // Imposta la proprietà "AnchorLocked" su "false" per consentire qualsiasi movimento della forma
-// per spostare il suo ancoraggio anche su qualsiasi altro paragrafo a cui la forma finisce vicino.
+// per spostare l'ancoraggio anche su qualsiasi altro paragrafo a cui la forma finisce vicino.
 shape.AnchorLocked = anchorLocked;
 
 // Se la forma non ha un simbolo di ancoraggio visibile alla sua sinistra,
-// dovremo abilitare gli anchor visibili tramite "Opzioni" -> "Visualizza" -> "Ancora oggetto".
+// dovremo abilitare gli ancoraggi visibili tramite "Opzioni" -> "Visualizza" -> "Ancore di oggetti".
 doc.Save(ArtifactsDir + "Shape.AnchorLocked.docx");
 ```
 

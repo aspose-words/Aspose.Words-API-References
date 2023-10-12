@@ -24,6 +24,7 @@ public static void RegisterDictionary(string language, Stream stream)
 Visar hur man öppnar och registrerar en ordbok från en fil.
 
 ```csharp
+public void RegisterDictionary()
 {
     // Ställ in en återuppringning som spårar varningar som inträffar under registrering av avstavningslexikon.
     WarningInfoCollection warningInfoCollection = new WarningInfoCollection();
@@ -151,6 +152,7 @@ doc.Save(ArtifactsDir + "Hyphenation.Dictionary.Unregistered.pdf");
 Visar hur man öppnar och registrerar en ordbok från en fil.
 
 ```csharp
+public void RegisterDictionary()
 {
     // Ställ in en återuppringning som spårar varningar som inträffar under registrering av avstavningslexikon.
     WarningInfoCollection warningInfoCollection = new WarningInfoCollection();

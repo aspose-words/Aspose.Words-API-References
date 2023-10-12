@@ -1,14 +1,14 @@
 ---
 title: CustomDocumentProperties.AddLinkToContent
 second_title: Aspose.Words für .NET-API-Referenz
-description: CustomDocumentProperties methode. Erstellt eine neue mit Inhalt verknüpfte benutzerdefinierte Dokumenteigenschaft.
+description: CustomDocumentProperties methode. Erstellt eine neue mit dem Inhalt verknüpfte benutzerdefinierte Dokumenteigenschaft.
 type: docs
 weight: 20
 url: /de/net/aspose.words.properties/customdocumentproperties/addlinktocontent/
 ---
 ## CustomDocumentProperties.AddLinkToContent method
 
-Erstellt eine neue, mit Inhalt verknüpfte benutzerdefinierte Dokumenteigenschaft.
+Erstellt eine neue mit dem Inhalt verknüpfte benutzerdefinierte Dokumenteigenschaft.
 
 ```csharp
 public DocumentProperty AddLinkToContent(string name, string linkSource)
@@ -21,7 +21,7 @@ public DocumentProperty AddLinkToContent(string name, string linkSource)
 
 ### Rückgabewert
 
-Das neu erstellte Eigenschaftsobjekt oder null, wenn linkSource ungültig ist.
+Das neu erstellte Eigenschaftsobjekt bzw`Null` wenn das*linkSource* ist ungültig.
 
 ### Beispiele
 
@@ -35,8 +35,8 @@ builder.StartBookmark("MyBookmark");
 builder.Write("Hello world!");
 builder.EndBookmark("MyBookmark");
 
-// Eine neue benutzerdefinierte Eigenschaft mit einem Lesezeichen verknüpfen. Der Wert dieser Eigenschaft
-// ist der Inhalt des Lesezeichens, auf das es im "LinkSource"-Member verweist.
+// Eine neue benutzerdefinierte Eigenschaft mit einem Lesezeichen verknüpfen. Der Wert dieser Immobilie
+// ist der Inhalt des Lesezeichens, auf das es im Mitglied „LinkSource“ verweist.
 CustomDocumentProperties customProperties = doc.CustomDocumentProperties;
 DocumentProperty customProperty = customProperties.AddLinkToContent("Bookmark", "MyBookmark");
 

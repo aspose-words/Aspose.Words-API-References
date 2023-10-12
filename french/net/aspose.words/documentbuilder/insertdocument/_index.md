@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertDocument
 second_title: Référence de l'API Aspose.Words pour .NET
 description: DocumentBuilder méthode. Insère un document à la position du curseur.
 type: docs
-weight: 290
+weight: 310
 url: /fr/net/aspose.words/documentbuilder/insertdocument/
 ---
 ## InsertDocument(Document, ImportFormatMode) {#insertdocument}
@@ -17,7 +17,7 @@ public Node InsertDocument(Document srcDoc, ImportFormatMode importFormatMode)
 | Paramètre | Taper | La description |
 | --- | --- | --- |
 | srcDoc | Document | Document source à insérer. |
-| importFormatMode | ImportFormatMode | Spécifie comment fusionner les mises en forme de style qui entrent en conflit. |
+| importFormatMode | ImportFormatMode | Spécifie comment fusionner le formatage de style en conflit. |
 
 ### Return_Value
 
@@ -25,7 +25,7 @@ Premier nœud du contenu inséré.
 
 ### Remarques
 
-Cette méthode imite le comportement de MS Word, comme si CTRL+'A' (sélectionner tout le contenu) était pressé, puis CTRL+'C' (copier la sélection dans le tampon) à l'intérieur d'un document puis CTRL+'V' (insérer le contenu du tampon) dans un autre document.
+Cette méthode imite le comportement de MS Word, comme si CTRL+'A' (sélectionner tout le contenu) était enfoncé, puis CTRL+'C' (copie sélectionnée dans le tampon) à l'intérieur d'un document puis CTRL+'V' (insérer le contenu du tampon) dans un autre document.
 
 ### Exemples
 
@@ -67,8 +67,8 @@ public Node InsertDocument(Document srcDoc, ImportFormatMode importFormatMode,
 | Paramètre | Taper | La description |
 | --- | --- | --- |
 | srcDoc | Document | Document source à insérer. |
-| importFormatMode | ImportFormatMode | Spécifie comment fusionner les mises en forme de style qui entrent en conflit. |
-| importFormatOptions | ImportFormatOptions | Permet de spécifier les options qui affectent le formatage d'un document de résultat. |
+| importFormatMode | ImportFormatMode | Spécifie comment fusionner le formatage de style en conflit. |
+| importFormatOptions | ImportFormatOptions | Permet de spécifier les options qui affectent le formatage d'un document résultat. |
 
 ### Return_Value
 
@@ -76,11 +76,11 @@ Premier nœud du contenu inséré.
 
 ### Remarques
 
-Cette méthode imite le comportement de MS Word, comme si CTRL+'A' (sélectionner tout le contenu) était pressé, puis CTRL+'C' (copier la sélection dans le tampon) à l'intérieur d'un document puis CTRL+'V' (insérer le contenu du tampon) dans un autre document.
+Cette méthode imite le comportement de MS Word, comme si CTRL+'A' (sélectionner tout le contenu) était enfoncé, puis CTRL+'C' (copie sélectionnée dans le tampon) à l'intérieur d'un document puis CTRL+'V' (insérer le contenu du tampon) dans un autre document.
 
 ### Exemples
 
-Montre comment résoudre les styles en double lors de l'insertion de documents.
+Montre comment résoudre les styles en double lors de l’insertion de documents.
 
 ```csharp
 Document dstDoc = new Document();
@@ -94,8 +94,8 @@ myStyle.Font.Color = Color.Blue;
 builder.ParagraphFormat.StyleName = myStyle.Name;
 builder.Writeln("Hello world!");
 
-// Clone le document et édite le style "MyStyle" du clone, de sorte qu'il soit d'une couleur différente de celle de l'original.
-// Si nous insérons le clone dans le document d'origine, les deux styles portant le même nom provoqueront un conflit.
+// Clonez le document et modifiez le style "MonStyle" du clone, afin qu'il soit d'une couleur différente de celle de l'original.
+// Si on insère le clone dans le document original, les deux styles du même nom provoqueront un conflit.
 Document srcDoc = dstDoc.Clone();
 srcDoc.Styles["MyStyle"].Font.Color = Color.Red;
 

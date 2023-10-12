@@ -16,7 +16,7 @@ public Paragraph LastParagraph { get; }
 
 ### 例子
 
-演示如何设置文本框内的文本方向。
+演示如何设置文本框中文本的方向。
 
 ```csharp
 Document doc = new Document();
@@ -25,12 +25,12 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape textBoxShape = builder.InsertShape(ShapeType.TextBox, 150, 100);
 TextBox textBox = textBoxShape.TextBox;
 
-// 将文档构建器移动到 TextBox 内部并添加文本。
+// 将文档生成器移动到文本框内部并添加文本。
 builder.MoveTo(textBoxShape.LastParagraph);
 builder.Writeln("Hello world!");
 builder.Write("Hello again!");
 
-// 设置“LayoutFlow”属性以设置此文本框文本内容的方向。
+// 设置“LayoutFlow”属性来设置此文本框的文本内容的方向。
 textBox.LayoutFlow = layoutFlow;
 
 doc.Save(ArtifactsDir + "Shape.TextBoxLayoutFlow.docx");

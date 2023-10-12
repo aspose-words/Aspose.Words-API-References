@@ -1,14 +1,14 @@
 ---
 title: Paragraph.IsEndOfSection
 second_title: Aspose.Words för .NET API Referens
-description: Paragraph fast egendom. Sant om detta stycke är det sista stycket i Kropp huvudtextberättelse av en Sektion  falskt annars.
+description: Paragraph fast egendom. Sant om detta stycke är det sista stycket iBody huvudtextberättelse av enSection  falskt annars.
 type: docs
 weight: 80
 url: /sv/net/aspose.words/paragraph/isendofsection/
 ---
 ## Paragraph.IsEndOfSection property
 
-Sant om detta stycke är det sista stycket i **Kropp** (huvudtextberättelse) av en **Sektion** ; falskt annars.
+Sant om detta stycke är det sista stycket i[`Body`](../../body/) (huvudtextberättelse) av en[`Section`](../../section/) ; falskt annars.
 
 ```csharp
 public bool IsEndOfSection { get; }
@@ -19,7 +19,6 @@ public bool IsEndOfSection { get; }
 Visar hur man infogar innehållet i ett dokument till ett bokmärke i ett annat dokument.
 
 ```csharp
-[Test]
 public void InsertAtBookmark()
 {
     Document doc = new Document();

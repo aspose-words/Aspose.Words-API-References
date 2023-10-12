@@ -1,14 +1,14 @@
 ---
 title: FrameFormat.HeightRule
 second_title: Aspose.Words لمراجع .NET API
-description: FrameFormat ملكية. يحصل على قاعدة تحديد ارتفاع الإطار المحدد.
+description: FrameFormat ملكية. الحصول على قاعدة تحديد ارتفاع الإطار المحدد.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/frameformat/heightrule/
 ---
 ## FrameFormat.HeightRule property
 
-يحصل على قاعدة تحديد ارتفاع الإطار المحدد.
+الحصول على قاعدة تحديد ارتفاع الإطار المحدد.
 
 ```csharp
 public HeightRule HeightRule { get; }
@@ -16,7 +16,7 @@ public HeightRule HeightRule { get; }
 
 ### أمثلة
 
-يوضح كيفية الحصول على معلومات حول خصائص التنسيق للفقرات التي هي إطارات.
+يوضح كيفية الحصول على معلومات حول خصائص تنسيق الفقرات التي تكون إطارات.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraph frame.docx");

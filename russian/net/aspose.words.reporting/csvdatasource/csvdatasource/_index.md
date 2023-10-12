@@ -16,7 +16,7 @@ public CsvDataSource(string csvPath)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| csvPath | String | Путь к CSV-файлу, который будет использоваться в качестве источника данных. |
+| csvPath | String | Путь к файлу CSV, который будет использоваться в качестве источника данных. |
 
 ### Смотрите также
 
@@ -28,7 +28,7 @@ public CsvDataSource(string csvPath)
 
 ## CsvDataSource(string, CsvDataLoadOptions) {#constructor_3}
 
-Создает новый источник данных с данными из CSV-файла, используя указанные параметры анализа CSV-данных.
+Создает новый источник данных с данными из файла CSV, используя указанные параметры анализа данных CSV.
 
 ```csharp
 public CsvDataSource(string csvPath, CsvDataLoadOptions options)
@@ -36,8 +36,8 @@ public CsvDataSource(string csvPath, CsvDataLoadOptions options)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| csvPath | String | Путь к CSV-файлу, который будет использоваться в качестве источника данных. |
-| options | CsvDataLoadOptions | Параметры для анализа данных CSV. |
+| csvPath | String | Путь к файлу CSV, который будет использоваться в качестве источника данных. |
+| options | CsvDataLoadOptions | Варианты анализа данных CSV. |
 
 ### Смотрите также
 
@@ -79,7 +79,7 @@ public CsvDataSource(Stream csvStream, CsvDataLoadOptions options)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | csvStream | Stream | Поток данных CSV, который будет использоваться в качестве источника данных. |
-| options | CsvDataLoadOptions | Параметры для анализа данных CSV. |
+| options | CsvDataLoadOptions | Варианты анализа данных CSV. |
 
 ### Смотрите также
 

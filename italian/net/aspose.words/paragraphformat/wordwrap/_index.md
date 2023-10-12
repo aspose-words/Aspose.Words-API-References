@@ -1,14 +1,14 @@
 ---
 title: ParagraphFormat.WordWrap
 second_title: Aspose.Words per .NET API Reference
-description: ParagraphFormat proprietà. Se questa proprietà è falso il testo latino nel mezzo di una parola può essere avvolto per il paragrafo corrente. Altrimenti il testo latino è racchiuso da parole intere.
+description: ParagraphFormat proprietà. Se questa proprietà lo èfalso  il testo latino nel mezzo di una parola può essere mandato a capo per il paragrafo corrente. Altrimenti il testo latino viene avvolto da parole intere.
 type: docs
-weight: 400
+weight: 410
 url: /it/net/aspose.words/paragraphformat/wordwrap/
 ---
 ## ParagraphFormat.WordWrap property
 
-Se questa proprietà è **falso** il testo latino nel mezzo di una parola può essere avvolto per il paragrafo corrente. Altrimenti il testo latino è racchiuso da parole intere.
+Se questa proprietà lo è`falso` , il testo latino nel mezzo di una parola può essere mandato a capo per il paragrafo corrente. Altrimenti il testo latino viene avvolto da parole intere.
 
 ```csharp
 public bool WordWrap { get; set; }

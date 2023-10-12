@@ -1,14 +1,16 @@
 ---
 title: Class CommentCollection
 second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.CommentCollection klas. Bietet getippten Zugriff auf eine Sammlung vonComment Knoten.
+description: Aspose.Words.CommentCollection klas. Bietet typisierten Zugriff auf eine Sammlung vonComment Knoten.
 type: docs
-weight: 230
+weight: 240
 url: /de/net/aspose.words/commentcollection/
 ---
 ## CommentCollection class
 
-Bietet getippten Zugriff auf eine Sammlung von[`Comment`](../comment/) Knoten.
+Bietet typisierten Zugriff auf eine Sammlung von[`Comment`](../comment/) Knoten.
+
+Um mehr zu erfahren, besuchen Sie die[Arbeiten mit Kommentaren](https://docs.aspose.com/words/net/working-with-comments/) Dokumentationsartikel.
 
 ```csharp
 public class CommentCollection : NodeCollection
@@ -19,16 +21,16 @@ public class CommentCollection : NodeCollection
 | Name | Beschreibung |
 | --- | --- |
 | [Count](../../aspose.words/nodecollection/count/) { get; } | Ruft die Anzahl der Knoten in der Sammlung ab. |
-| [Item](../../aspose.words/commentcollection/item/) { get; } | Ruft a **Kommentar** am angegebenen Index. (2 indexers) |
+| [Item](../../aspose.words/commentcollection/item/) { get; } | Ruft a ab[`Comment`](../comment/) am angegebenen Index. (2 indexers) |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [Add](../../aspose.words/nodecollection/add/)(Node) | Fügt am Ende der Sammlung einen Knoten hinzu. |
+| [Add](../../aspose.words/nodecollection/add/)(Node) | Fügt einen Knoten am Ende der Sammlung hinzu. |
 | [Clear](../../aspose.words/nodecollection/clear/)() | Entfernt alle Knoten aus dieser Sammlung und aus dem Dokument. |
-| [Contains](../../aspose.words/nodecollection/contains/)(Node) | Bestimmt, ob sich ein Knoten in der Sammlung befindet. |
-| [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Bietet eine einfache Iteration im "foreach"-Stil über die Sammlung von Knoten. |
+| [Contains](../../aspose.words/nodecollection/contains/)(Node) | Bestimmt, ob ein Knoten in der Sammlung ist. |
+| [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Bietet eine einfache Iteration im „foreach“-Stil über die Sammlung von Knoten. |
 | [IndexOf](../../aspose.words/nodecollection/indexof/)(Node) | Gibt den nullbasierten Index des angegebenen Knotens zurück. |
 | [Insert](../../aspose.words/nodecollection/insert/)(int, Node) | Fügt am angegebenen Index einen Knoten in die Sammlung ein. |
 | [Remove](../../aspose.words/nodecollection/remove/)(Node) | Entfernt den Knoten aus der Sammlung und aus dem Dokument. |
@@ -37,28 +39,28 @@ public class CommentCollection : NodeCollection
 
 ### Beispiele
 
-Zeigt, wie Sie einen Kommentar als „erledigt“ markieren.
+Zeigt, wie man einen Kommentar als „erledigt“ markiert.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Helo world!");
 
-// Fügen Sie einen Kommentar ein, um auf einen Fehler hinzuweisen. 
+ // Einen Kommentar einfügen, um auf einen Fehler hinzuweisen.
 Comment comment = new Comment(doc, "John Doe", "J.D.", DateTime.Now);
 comment.SetText("Fix the spelling error!");
 doc.FirstSection.Body.FirstParagraph.AppendChild(comment);
 
-// Kommentare haben ein "Done"-Flag, das standardmäßig auf "false" gesetzt ist. 
-// Wenn ein Kommentar darauf hindeutet, dass wir eine Änderung innerhalb des Dokuments vornehmen,
-// Wir können die Änderung anwenden und anschließend auch das "Fertig"-Flag setzen, um die Korrektur anzuzeigen.
+ // Kommentare haben ein „Fertig“-Flag, das standardmäßig auf „false“ gesetzt ist.
+// Wenn ein Kommentar darauf hindeutet, dass wir eine Änderung im Dokument vornehmen,
+// Wir können die Änderung übernehmen und anschließend auch das Flag „Fertig“ setzen, um die Korrektur anzuzeigen.
 Assert.False(comment.Done);
 
 doc.FirstSection.Body.FirstParagraph.Runs[0].Text = "Hello world!";
 comment.Done = true;
 
-// Kommentare, die "fertig" sind, unterscheiden sich
-// von denen, die mit einer verblassten Textfarbe nicht "fertig" sind.
+// Kommentare, die „erledigt“ sind, differenzieren sich
+// von denen, die mit einer verblassten Textfarbe noch nicht „fertig“ sind.
 comment = new Comment(doc, "John Doe", "J.D.", DateTime.Now);
 comment.SetText("Add text to this paragraph.");
 builder.CurrentParagraph.AppendChild(comment);

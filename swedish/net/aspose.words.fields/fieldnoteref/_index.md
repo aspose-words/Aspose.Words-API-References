@@ -3,12 +3,14 @@ title: Class FieldNoteRef
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Fields.FieldNoteRef klass. Implementerar NOTEREFfältet.
 type: docs
-weight: 2050
+weight: 2200
 url: /sv/net/aspose.words.fields/fieldnoteref/
 ---
 ## FieldNoteRef class
 
 Implementerar NOTEREF-fältet.
+
+För att lära dig mer, besök[Arbeta med Fields](https://docs.aspose.com/words/net/working-with-fields/) dokumentationsartikel.
 
 ```csharp
 public class FieldNoteRef : Field
@@ -35,7 +37,7 @@ public class FieldNoteRef : Field
 | [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Hämtar eller ställer in om fältet är låst (ska inte räkna om resultatet). |
 | [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Hämtar eller ställer in LCID för fältet. |
 | [Result](../../aspose.words.fields/field/result/) { get; set; } | Hämtar eller ställer in text som är mellan fältavgränsaren och fältslutet. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | Hämtar noden som representerar fältseparatorn. Kan vara null. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Hämtar noden som representerar fältseparatorn. Kan vara`null` . |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Hämtar noden som representerar början av fältet. |
 | virtual [Type](../../aspose.words.fields/field/type/) { get; } | Hämtar fälttypen Microsoft Word. |
 
@@ -45,7 +47,7 @@ public class FieldNoteRef : Field
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). Både fältkod och fältresultat för underordnade fält ingår. |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). |
-| [Remove](../../aspose.words.fields/field/remove/)() | Tar bort fältet från dokumentet. Returnerar en nod direkt efter fältet. Om fältets slut är den sista child av dess överordnade nod, returnerar dess överordnade stycke. Om fältet redan är borttaget, returneras **null** . |
+| [Remove](../../aspose.words.fields/field/remove/)() | Tar bort fältet från dokumentet. Returnerar en nod direkt efter fältet. Om fältets slut är den sista child av dess överordnade nod, returnerar dess överordnade stycke. Om fältet redan är borttaget, returneras`null` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Utför fältavlänkningen. |
 | [Update](../../aspose.words.fields/field/update/)() | Utför fältuppdateringen. Kastar om fältet redan uppdateras. |
 | [Update](../../aspose.words.fields/field/update/)(bool) | Utför en fältuppdatering. Kastar om fältet redan uppdateras. |
@@ -55,6 +57,33 @@ public class FieldNoteRef : Field
 Infogar märket för fotnoten eller slutnoten som markeras med det angivna bokmärket.
 
 ### Exempel
+
+Visar hur man korshänvisar till fotnoter med NOTEREF-fältet.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.Write("CrossReference: ");
+
+FieldNoteRef field = (FieldNoteRef)builder.InsertField(FieldType.FieldNoteRef, false); // <--- uppdatera inte fältet
+field.BookmarkName = "CrossRefBookmark";
+field.InsertHyperlink = true;
+field.InsertReferenceMark = true;
+field.InsertRelativePosition = false;
+builder.Writeln();
+
+builder.StartBookmark("CrossRefBookmark");
+builder.Write("Hello world!");
+builder.InsertFootnote(FootnoteType.Footnote, "Cross referenced footnote.");
+builder.EndBookmark("CrossRefBookmark");
+builder.Writeln();            
+
+doc.UpdateFields();           
+
+// Det här fältet fungerar endast i äldre versioner av Microsoft Word.
+doc.Save(ArtifactsDir + "Field.NOTEREF.doc");
+```
 
 Visar för att infoga NOTEREF-fält och ändra deras utseende.
 
@@ -85,8 +114,10 @@ public void FieldNoteRef()
     builder.InsertBreak(BreakType.PageBreak);
     InsertBookmarkWithFootnote(builder, "MyBookmark2", "Contents of MyBookmark2", "Footnote from MyBookmark2");
 
+    doc.UpdatePageLayout();
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.NOTEREF.docx");
+}
 
 /// <summary>
 /// Använder en dokumentbyggare för att infoga ett NOTEREF-fält med specificerade egenskaper.

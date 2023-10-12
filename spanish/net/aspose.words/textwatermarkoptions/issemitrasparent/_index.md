@@ -1,14 +1,14 @@
 ---
 title: TextWatermarkOptions.IsSemitrasparent
 second_title: Referencia de API de Aspose.Words para .NET
-description: TextWatermarkOptions propiedad. Obtiene o establece un valor booleano responsable de la opacidad de la marca de agua. El valor predeterminado es Verdadero.
+description: TextWatermarkOptions propiedad. Obtiene o establece un valor booleano que es responsable de la opacidad de la marca de agua. El valor predeterminado esverdadero .
 type: docs
 weight: 50
 url: /es/net/aspose.words/textwatermarkoptions/issemitrasparent/
 ---
 ## TextWatermarkOptions.IsSemitrasparent property
 
-Obtiene o establece un valor booleano responsable de la opacidad de la marca de agua. El valor predeterminado es Verdadero.
+Obtiene o establece un valor booleano que es responsable de la opacidad de la marca de agua. El valor predeterminado es`verdadero` .
 
 ```csharp
 public bool IsSemitrasparent { get; set; }
@@ -21,7 +21,7 @@ Muestra cómo crear una marca de agua de texto.
 ```csharp
 Document doc = new Document();
 
-// Agregue una marca de agua de texto sin formato.
+// Agrega una marca de agua de texto sin formato.
 doc.Watermark.SetText("Aspose Watermark");
 
 // Si deseamos editar el formato del texto usándolo como marca de agua,

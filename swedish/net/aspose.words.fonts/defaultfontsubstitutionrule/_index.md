@@ -3,12 +3,14 @@ title: Class DefaultFontSubstitutionRule
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Fonts.DefaultFontSubstitutionRule klass. Standardregel för teckensnittsersättning.
 type: docs
-weight: 2660
+weight: 2840
 url: /sv/net/aspose.words.fonts/defaultfontsubstitutionrule/
 ---
 ## DefaultFontSubstitutionRule class
 
 Standardregel för teckensnittsersättning.
+
+För att lära dig mer, besök[Arbeta med teckensnitt](https://docs.aspose.com/words/net/working-with-fonts/) dokumentationsartikel.
 
 ```csharp
 public class DefaultFontSubstitutionRule : FontSubstitutionRule

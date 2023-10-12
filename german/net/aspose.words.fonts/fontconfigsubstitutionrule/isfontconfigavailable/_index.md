@@ -8,7 +8,7 @@ url: /de/net/aspose.words.fonts/fontconfigsubstitutionrule/isfontconfigavailable
 ---
 ## FontConfigSubstitutionRule.IsFontConfigAvailable method
 
-Überprüfen Sie, ob das Dienstprogramm fontconfig verfügbar ist oder nicht.
+Überprüfen Sie, ob das Dienstprogramm „fontconfig“ verfügbar ist oder nicht.
 
 ```csharp
 public bool IsFontConfigAvailable()
@@ -16,7 +16,7 @@ public bool IsFontConfigAvailable()
 
 ### Beispiele
 
-Zeigt die vom Betriebssystem abhängige Ersetzung der Schriftartkonfiguration an.
+Zeigt die betriebssystemabhängige Schriftartkonfigurationsersetzung an.
 
 ```csharp
 FontSettings fontSettings = new FontSettings();
@@ -37,7 +37,7 @@ if (isWindows)
 bool isLinuxOrMac =
     new[] {PlatformID.Unix, PlatformID.MacOSX}.Any(p => Environment.OSVersion.Platform == p);
 
-// Unter Linux/Mac haben wir Zugriff darauf und können Operationen ausführen.
+// Unter Linux/Mac haben wir Zugriff darauf und können Vorgänge ausführen.
 if (isLinuxOrMac)
 {
     Assert.True(fontConfigSubstitution.Enabled);

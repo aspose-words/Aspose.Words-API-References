@@ -16,7 +16,7 @@ public object GetEntity(Node node)
 
 ### Anmärkningar
 
-Denna metod fungerar endast för[`Paragraph`](../../../aspose.words/paragraph/) noder, såväl som odelbara inline-noder, t.ex[`BookmarkStart`](../../../aspose.words/bookmarkstart/) eller[`Shape`](../../../aspose.words.drawing/shape/) Det fungerar inte för[`Run`](../../../aspose.words/run/) ,[`Cell`](../../../aspose.words.tables/cell/)[`Row`](../../../aspose.words.tables/row/) eller[`Table`](../../../aspose.words.tables/table/) noder och noder i sidhuvud/sidfot.
+Denna metod fungerar endast för[`Paragraph`](../../../aspose.words/paragraph/) noder, såväl som odelbara inline-noder, t.ex[`BookmarkStart`](../../../aspose.words/bookmarkstart/) eller[`Shape`](../../../aspose.words.drawing/shape/) . Det fungerar inte för[`Run`](../../../aspose.words/run/) ,[`Cell`](../../../aspose.words.tables/cell/)[`Row`](../../../aspose.words.tables/row/) eller[`Table`](../../../aspose.words.tables/table/) noder och noder i sidhuvud/sidfot.
 
 Observera att enheten returnerade för en[`Paragraph`](../../../aspose.words/paragraph/) nod är ett styckebrytningsspann. Använd lämplig metod för att stiga upp till den överordnade raden
 

@@ -3,12 +3,14 @@ title: Class FieldPrintDate
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.Fields.FieldPrintDate classe. Implémente le champ PRINTDATE.
 type: docs
-weight: 2140
+weight: 2290
 url: /fr/net/aspose.words.fields/fieldprintdate/
 ---
 ## FieldPrintDate class
 
 Implémente le champ PRINTDATE.
+
+Pour en savoir plus, visitez le[Travailler avec des champs](https://docs.aspose.com/words/net/working-with-fields/) article documentaire.
 
 ```csharp
 public class FieldPrintDate : Field
@@ -30,11 +32,11 @@ public class FieldPrintDate : Field
 | [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Obtient ou définit si le résultat actuel du champ n'est plus correct (périmé) en raison d'autres modifications apportées au document. |
 | [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Obtient ou définit si le champ est verrouillé (ne doit pas recalculer son résultat). |
 | [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Obtient ou définit le LCID du champ. |
-| [Result](../../aspose.words.fields/field/result/) { get; set; } | Obtient ou définit le texte qui se trouve entre le séparateur de champ et la fin du champ. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | Obtient le nœud qui représente le séparateur de champs. Peut être null. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | Obtient ou définit le texte situé entre le séparateur de champ et la fin du champ. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Obtient le nœud qui représente le séparateur de champ. Peut être`nul` . |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Obtient le nœud qui représente le début du champ. |
 | virtual [Type](../../aspose.words.fields/field/type/) { get; } | Obtient le type de champ Microsoft Word. |
-| [UseLunarCalendar](../../aspose.words.fields/fieldprintdate/uselunarcalendar/) { get; set; } | Obtient ou définit s'il faut utiliser le calendrier Hijri Lunar ou Hebrew Lunar. |
+| [UseLunarCalendar](../../aspose.words.fields/fieldprintdate/uselunarcalendar/) { get; set; } | Obtient ou définit s'il faut utiliser le calendrier lunaire hégirien ou lunaire hébreu. |
 | [UseSakaEraCalendar](../../aspose.words.fields/fieldprintdate/usesakaeracalendar/) { get; set; } | Obtient ou définit s'il faut utiliser le calendrier Saka Era. |
 | [UseUmAlQuraCalendar](../../aspose.words.fields/fieldprintdate/useumalquracalendar/) { get; set; } | Obtient ou définit s'il faut utiliser le calendrier Um-al-Qura. |
 
@@ -44,7 +46,7 @@ public class FieldPrintDate : Field
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Renvoie le texte entre le début du champ et le séparateur de champ (ou la fin du champ s'il n'y a pas de séparateur). Le code de champ et le résultat du champ des champs enfants sont inclus. |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Renvoie le texte entre le début du champ et le séparateur de champ (ou la fin du champ s'il n'y a pas de séparateur). |
-| [Remove](../../aspose.words.fields/field/remove/)() | Supprime le champ du document. Renvoie un nœud juste après le champ. Si la fin du champ est le dernier enfant de son nœud parent, renvoie son paragraphe parent. Si le champ est déjà supprimé, renvoie **nul** . |
+| [Remove](../../aspose.words.fields/field/remove/)() | Supprime le champ du document. Renvoie un nœud juste après le champ. Si la fin du champ est le dernier child de son nœud parent, renvoie son paragraphe parent. Si le champ est déjà supprimé, renvoie`nul` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Effectue la dissociation du champ. |
 | [Update](../../aspose.words.fields/field/update/)() | Effectue la mise à jour du champ. Lance si le champ est déjà mis à jour. |
 | [Update](../../aspose.words.fields/field/update/)(bool) | Effectue une mise à jour du champ. Lance si le champ est déjà mis à jour. |
@@ -55,12 +57,12 @@ Récupère la date et l'heure de la dernière impression du document. Par défau
 
 ### Exemples
 
-Affiche les champs PRINTDATE lus.
+Affiche les champs de lecture PRINTDATE.
 
 ```csharp
 Document doc = new Document(MyDir + "Field sample - PRINTDATE.docx");
 
-// Lorsqu'un document est imprimé par une imprimante ou imprimé au format PDF (mais pas exporté au format PDF),
+// Lorsqu'un document est imprimé par une imprimante ou imprimé au format PDF (mais non exporté au format PDF),
 // Les champs PRINTDATE afficheront la date/heure de l'opération d'impression.
 // Si aucune impression n'a eu lieu, ces champs afficheront "0/0/0000".
 FieldPrintDate field = (FieldPrintDate)doc.Range.Fields[0];
@@ -70,7 +72,7 @@ Assert.AreEqual(" PRINTDATE ", field.GetFieldCode());
 
 // Vous trouverez ci-dessous trois types de calendrier différents selon lesquels le champ PRINTDATE
 // peut afficher la date et l'heure de la dernière opération d'impression.
-// 1 - Calendrier lunaire islamique :
+// 1 - Calendrier Lunaire Islamique :
 field = (FieldPrintDate)doc.Range.Fields[1];
 
 Assert.True(field.UseLunarCalendar);
@@ -86,7 +88,7 @@ Assert.AreEqual(" PRINTDATE  \\u", field.GetFieldCode());
 
 field = (FieldPrintDate)doc.Range.Fields[3];
 
-// 3 - Calendrier national indien :
+// 3 - Calendrier national indien :
 Assert.True(field.UseSakaEraCalendar);
 Assert.AreEqual("1/5/1942 12:00:00 AM", field.Result);
 Assert.AreEqual(" PRINTDATE  \\s", field.GetFieldCode());

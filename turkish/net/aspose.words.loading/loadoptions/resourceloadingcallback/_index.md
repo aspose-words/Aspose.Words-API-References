@@ -1,14 +1,14 @@
 ---
 title: LoadOptions.ResourceLoadingCallback
 second_title: Aspose.Words for .NET API Referansı
-description: LoadOptions mülk. Bir belge HTML MHTMLden içe aktarıldığında harici kaynakların resimler stil sayfaları nasıl yükleneceğini kontrol etmeyi sağlar.
+description: LoadOptions mülk. HTML MHTMLden bir belge içe aktarıldığında harici kaynakların resimler stil sayfaları nasıl yükleneceğini kontrol etmeye olanak tanır.
 type: docs
 weight: 140
 url: /tr/net/aspose.words.loading/loadoptions/resourceloadingcallback/
 ---
 ## LoadOptions.ResourceLoadingCallback property
 
-Bir belge HTML, MHTML'den içe aktarıldığında harici kaynakların (resimler, stil sayfaları) nasıl yükleneceğini kontrol etmeyi sağlar.
+HTML, MHTML'den bir belge içe aktarıldığında harici kaynakların (resimler, stil sayfaları) nasıl yükleneceğini kontrol etmeye olanak tanır.
 
 ```csharp
 public IResourceLoadingCallback ResourceLoadingCallback { get; set; }
@@ -16,20 +16,21 @@ public IResourceLoadingCallback ResourceLoadingCallback { get; set; }
 
 ### Örnekler
 
-Html belgeleri yüklenirken harici kaynakların nasıl işleneceğini gösterir.
+Html belgeleri yüklenirken harici kaynakların nasıl kullanılacağını gösterir.
 
 ```csharp
+public void LoadOptionsCallback()
 {
     LoadOptions loadOptions = new LoadOptions();
     loadOptions.ResourceLoadingCallback = new HtmlLinkedResourceLoadingCallback();
 
-    // Belgeyi yüklediğimizde, geri aramamız CSS stil sayfaları ve resimler gibi bağlantılı kaynakları işleyecektir.
+    // Belgeyi yüklediğimizde geri çağrımız CSS stil sayfaları ve resimler gibi bağlantılı kaynakları yönetecektir.
     Document doc = new Document(MyDir + "Images.html", loadOptions);
     doc.Save(ArtifactsDir + "LoadOptions.LoadOptionsCallback.pdf");
 }
 
 /// <summary>
-/// Tüm harici stil sayfalarının dosya adlarını yazdırır ve yüklü bir html belgesinin tüm görüntülerini değiştirir.
+/// Tüm harici stil sayfalarının dosya adlarını yazdırır ve yüklenen bir html belgesinin tüm resimlerini değiştirir.
 /// </summary>
 private class HtmlLinkedResourceLoadingCallback : IResourceLoadingCallback
 {

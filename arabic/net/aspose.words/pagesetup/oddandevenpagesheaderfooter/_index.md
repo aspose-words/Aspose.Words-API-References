@@ -1,14 +1,14 @@
 ---
 title: PageSetup.OddAndEvenPagesHeaderFooter
 second_title: Aspose.Words لمراجع .NET API
-description: PageSetup ملكية. حقيقيإذا كان المستند يحتوي على رؤوس وتذييلات مختلفة للصفحات المرقمة بأرقام فردية وزوجية.
+description: PageSetup ملكية. صحيح إذا كان المستند يحتوي على رؤوس وتذييلات مختلفة للصفحات ذات الأرقام الفردية والزوجية.
 type: docs
-weight: 270
+weight: 280
 url: /ar/net/aspose.words/pagesetup/oddandevenpagesheaderfooter/
 ---
 ## PageSetup.OddAndEvenPagesHeaderFooter property
 
-**حقيقي**إذا كان المستند يحتوي على رؤوس وتذييلات مختلفة للصفحات المرقمة بأرقام فردية وزوجية.
+صحيح إذا كان المستند يحتوي على رؤوس وتذييلات مختلفة للصفحات ذات الأرقام الفردية والزوجية.
 
 ```csharp
 public bool OddAndEvenPagesHeaderFooter { get; set; }
@@ -16,7 +16,7 @@ public bool OddAndEvenPagesHeaderFooter { get; set; }
 
 ### ملاحظات
 
-ملاحظة ، يؤثر تغيير هذه الخاصية على جميع أقسام المستند.
+لاحظ أن تغيير هذه الخاصية يؤثر على كافة الأقسام في المستند.
 
 ### أمثلة
 
@@ -26,11 +26,11 @@ public bool OddAndEvenPagesHeaderFooter { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// حدد أننا نريد رؤوس وتذييلات مختلفة للصفحات الأولى والزوجية والفردية.
+// حدد أننا نريد رؤوسًا وتذييلات مختلفة للصفحات الأولى والزوجية والفردية.
 builder.PageSetup.DifferentFirstPageHeaderFooter = true;
 builder.PageSetup.OddAndEvenPagesHeaderFooter = true;
 
-// أنشئ الرؤوس ، ثم أضف ثلاث صفحات إلى المستند لعرض كل نوع رأس.
+// أنشئ الرؤوس، ثم أضف ثلاث صفحات إلى المستند لعرض كل نوع رأس.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderFirst);
 builder.Write("Header for the first page");
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderEven);
@@ -48,22 +48,22 @@ builder.Writeln("Page3");
 doc.Save(ArtifactsDir + "DocumentBuilder.HeadersAndFooters.docx");
 ```
 
-يوضح كيفية تمكين أو تعطيل رؤوس / تذييلات الصفحات الزوجية.
+يوضح كيفية تمكين أو تعطيل رؤوس/تذييلات الصفحات.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// يوجد أدناه نوعان من الرؤوس / التذييلات.
-// 1 - الرأس / التذييل "الأساسي" ، والذي يظهر في كل صفحة في القسم.
-// يمكننا تجاوز الرأس / التذييل الأساسي برأس / تذييل الصفحة الأولى والزوجية.
+// يوجد أدناه نوعان من الرؤوس/التذييلات.
+// 1 - الرأس/التذييل "الأساسي"، الذي يظهر في كل صفحة في القسم.
+ // يمكننا تجاوز الرأس/التذييل الأساسي برأس/تذييل الصفحة الأولى أو الزوجية.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 builder.Writeln("Primary header.");
 
 builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
 builder.Writeln("Primary footer.");
 
-// 2 - الرأس / التذييل "الزوجي" ، والذي يظهر في كل صفحة زوجية من هذا القسم.
+// 2 - الرأس/التذييل "الزوجي"، الذي يظهر في كل صفحة زوجية من هذا القسم.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderEven);
 builder.Writeln("Even page header.");
 
@@ -77,12 +77,12 @@ builder.Writeln("Page 2.");
 builder.InsertBreak(BreakType.PageBreak);
 builder.Writeln("Page 3.");
 
-// يحتوي كل قسم على كائن "PageSetup" يحدد الخصائص المتعلقة بمظهر الصفحة
+// يحتوي كل قسم على كائن "PageSetup" الذي يحدد الخصائص المتعلقة بمظهر الصفحة
 // مثل الاتجاه والحجم والحدود.
-// تعيين خاصية "OddAndEvenPagesHeaderFooter" على "true"
-// لعرض رأس / تذييل الصفحة الزوجية على الصفحات الزوجية.
-// تعيين خاصية "OddAndEvenPagesHeaderFooter" على "false"
-// لعرض الرأس / التذييل الأساسي على الصفحات الزوجية.
+// اضبط الخاصية "OddAndEvenPagesHeaderFooter" على "صحيح"
+// لعرض رأس/تذييل الصفحة الزوجية على الصفحات الزوجية.
+// اضبط الخاصية "OddAndEvenPagesHeaderFooter" على "خطأ"
+// لعرض الرأس/التذييل الأساسي على الصفحات الزوجية.
 builder.PageSetup.OddAndEvenPagesHeaderFooter = oddAndEvenPagesHeaderFooter;
 
 doc.Save(ArtifactsDir + "PageSetup.OddAndEvenPagesHeaderFooter.docx");

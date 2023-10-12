@@ -1,17 +1,17 @@
 ---
 title: OleControl.Name
 second_title: Aspose.Words for .NET API Referansı
-description: OleControl mülk. ActiveX denetiminin adını alır.
+description: OleControl mülk. ActiveX denetiminin adını alır veya ayarlar.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.drawing.ole/olecontrol/name/
 ---
 ## OleControl.Name property
 
-ActiveX denetiminin adını alır.
+ActiveX denetiminin adını alır veya ayarlar.
 
 ```csharp
-public string Name { get; }
+public string Name { get; set; }
 ```
 
 ### Örnekler
@@ -24,7 +24,7 @@ Document doc = new Document(MyDir + "ActiveX controls.docx");
 Shape shape = (Shape) doc.GetChild(NodeType.Shape, 0, true);
 OleControl oleControl = shape.OleFormat.OleControl;
 
-Assert.AreEqual(null, oleControl.Name);
+Assert.AreEqual("CheckBox1", oleControl.Name);
 
 if (oleControl.IsForms2OleControl)
 {
@@ -34,6 +34,10 @@ if (oleControl.IsForms2OleControl)
     Assert.AreEqual(true, checkBox.Enabled);
     Assert.AreEqual(Forms2OleControlType.CheckBox, checkBox.Type);
     Assert.AreEqual(null, checkBox.ChildNodes);
+    Assert.AreEqual(string.Empty, checkBox.GroupName);
+
+    // Bir Çerçeve için GrupAdı'nı ayarlayamayacağınızı unutmayın.
+    checkBox.GroupName = "Aspose group name";
 }
 ```
 

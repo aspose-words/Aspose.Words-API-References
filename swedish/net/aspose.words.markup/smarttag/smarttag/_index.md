@@ -22,7 +22,7 @@ public SmartTag(DocumentBase doc)
 
 När du skapar en ny nod måste du ange ett dokument som noden tillhör. En nod kan inte existera utan ett dokument eftersom det beror på dokumentomfattande strukturer såsom listor och stilar. Även om en nod alltid tillhör ett dokument, kanske en nod inte är en del av dokumentträdet.
 
-När en nod skapas tillhör den ett dokument, men är ännu inte en del av dokumentträdet och[`ParentNode`](../../../aspose.words/node/parentnode/) är inget. För att infoga en nod i dokumentet, använd [`InsertAfter`](../../../aspose.words/compositenode/insertafter/) eller[`InsertBefore`](../../../aspose.words/compositenode/insertbefore/) methods på den överordnade noden.
+När en nod skapas tillhör den ett dokument, men är ännu inte en del av dokumentträdet och[`ParentNode`](../../../aspose.words/node/parentnode/) är`null` . För att infoga en nod i dokumentet, använd Node) ellerNode) methods på den överordnade noden.
 
 ### Exempel
 

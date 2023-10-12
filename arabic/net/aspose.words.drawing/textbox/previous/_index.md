@@ -1,14 +1,14 @@
 ---
 title: TextBox.Previous
 second_title: Aspose.Words لمراجع .NET API
-description: TextBox ملكية. إرجاع مربع نص يمثل مربع نص سابق في تسلسل من الأشكال.
+description: TextBox ملكية. إرجاع أTextBox الذي يمثل السابقTextBox في تسلسل من الأشكال.
 type: docs
-weight: 90
+weight: 100
 url: /ar/net/aspose.words.drawing/textbox/previous/
 ---
 ## TextBox.Previous property
 
-إرجاع مربع نص يمثل مربع نص سابق في تسلسل من الأشكال.
+إرجاع أ[`TextBox`](../) الذي يمثل السابق[`TextBox`](../) في تسلسل من الأشكال.
 
 ```csharp
 public TextBox Previous { get; }
@@ -44,7 +44,7 @@ if (textBox1.IsValidLinkTarget(textBox2))
 if (textBox2.IsValidLinkTarget(textBox3))
     textBox2.Next = textBox3;
 
-// فقط مربع نص فارغ قد يحتوي على ارتباط.
+// قد يحتوي مربع النص الفارغ فقط على رابط.
 Assert.True(textBox3.IsValidLinkTarget(textBox4));
 
 builder.MoveTo(textBoxShape4.LastParagraph);
@@ -62,7 +62,7 @@ if (textBox3.Next == null && textBox3.Previous != null)
 {
     Console.WriteLine("This TextBox is the tail of the sequence");
 
-    // قطع الارتباط الأمامي بين textBox2 و textBox3 ، ثم تحقق من أنهما لم يعودا مرتبطين.
+    // اقطع الارتباط الأمامي بين textBox2 وtextBox3، ثم تحقق من أنهما لم يعودا مرتبطين.
     textBox3.Previous.BreakForwardLink();
 
     Assert.IsTrue(textBox2.Next == null);

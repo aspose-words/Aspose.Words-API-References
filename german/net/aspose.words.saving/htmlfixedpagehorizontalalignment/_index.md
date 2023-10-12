@@ -3,7 +3,7 @@ title: Enum HtmlFixedPageHorizontalAlignment
 second_title: Aspose.Words für .NET-API-Referenz
 description: Aspose.Words.Saving.HtmlFixedPageHorizontalAlignment opsomming. Gibt die horizontale Ausrichtung für Seiten im ausgegebenen HTMLDokument an.
 type: docs
-weight: 4810
+weight: 5070
 url: /de/net/aspose.words.saving/htmlfixedpagehorizontalalignment/
 ---
 ## HtmlFixedPageHorizontalAlignment enumeration
@@ -18,13 +18,13 @@ public enum HtmlFixedPageHorizontalAlignment
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| Left | `0` | Seiten linksbündig ausrichten. |
+| Left | `0` | Seiten links ausrichten. |
 | Center | `1` | Seiten zentrieren. Dies ist der Standardwert. |
 | Right | `2` | Seiten rechts ausrichten. |
 
 ### Beispiele
 
-Zeigt, wie die horizontale Ausrichtung von Seiten beim Speichern eines Dokuments in HTML festgelegt wird.
+Zeigt, wie die horizontale Ausrichtung von Seiten beim Speichern eines Dokuments im HTML-Format festgelegt wird.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

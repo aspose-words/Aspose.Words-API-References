@@ -22,7 +22,7 @@ public double LineSpacing { get; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// تعيين خطوط مختلفة لـ DocumentBuilder وتحقق من تباعد الأسطر.
+// قم بتعيين خطوط مختلفة لـ DocumentBuilder وتحقق من تباعد الأسطر.
 builder.Font.Name = "Calibri";
 Assert.AreEqual(14.6484375d, builder.Font.LineSpacing);
 

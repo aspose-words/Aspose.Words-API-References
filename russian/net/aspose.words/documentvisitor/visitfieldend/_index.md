@@ -1,14 +1,14 @@
 ---
 title: DocumentVisitor.VisitFieldEnd
 second_title: Справочник по API Aspose.Words для .NET
-description: DocumentVisitor метод. Вызывается когда поле заканчивается в документе.
+description: DocumentVisitor метод. Вызывается когда в документе заканчивается поле.
 type: docs
 weight: 180
 url: /ru/net/aspose.words/documentvisitor/visitfieldend/
 ---
 ## DocumentVisitor.VisitFieldEnd method
 
-Вызывается, когда поле заканчивается в документе.
+Вызывается, когда в документе заканчивается поле.
 
 ```csharp
 public virtual VisitorAction VisitFieldEnd(FieldEnd fieldEnd)
@@ -28,7 +28,7 @@ public virtual VisitorAction VisitFieldEnd(FieldEnd fieldEnd)
 
 ### Примеры
 
-Показывает, как напечатать структуру узла каждого поля в документе.
+Показывает, как распечатать структуру узла каждого поля в документе.
 
 ```csharp
 public void FieldToText()
@@ -36,16 +36,16 @@ public void FieldToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     FieldStructurePrinter visitor = new FieldStructurePrinter();
 
-    // Когда составной узел принимает посетителя документа, посетитель посещает принимающий узел,
-    // а затем обходит все дочерние элементы узла в порядке глубины.
-    // Посетитель может читать и изменять каждый посещаемый узел.
+    // Когда мы получаем составной узел для приема посетителя документа, посетитель посещает принимающий узел,
+    // а затем обходит все дочерние узлы в глубину.
+    // Посетитель может читать и изменять каждый посещенный узел.
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 }
 
 /// <summary>
-/// Обходит небинарное дерево дочерних узлов узла.
+/// Обходит недвоичное дерево дочерних узлов узла.
 /// Создает карту в виде строки всех встреченных узлов Field и их дочерних элементов.
 /// </summary>
 public class FieldStructurePrinter : DocumentVisitor
@@ -106,7 +106,7 @@ public class FieldStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Добавляем строку в StringBuilder и делаем отступ в зависимости от того, насколько глубоко находится посетитель
+    /// Добавляем строку в StringBuilder и делаем отступ в зависимости от глубины погружения посетителя
     /// в дерево дочерних узлов поля.
     /// </summary>
     /// <param name="text"></param>

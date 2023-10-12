@@ -1,14 +1,14 @@
 ---
 title: TextBox.Previous
 second_title: Aspose.Words for .NET API Referansı
-description: TextBox mülk. Bir dizi şekil içinde önceki Metin Kutusunu temsil eden bir Metin Kutusu döndürür.
+description: TextBox mülk. Bir değeri döndürürTextBox öncekini temsil edenTextBox bir dizi şekil halinde.
 type: docs
-weight: 90
+weight: 100
 url: /tr/net/aspose.words.drawing/textbox/previous/
 ---
 ## TextBox.Previous property
 
-Bir dizi şekil içinde önceki Metin Kutusunu temsil eden bir Metin Kutusu döndürür.
+Bir değeri döndürür[`TextBox`](../) öncekini temsil eden[`TextBox`](../) bir dizi şekil halinde.
 
 ```csharp
 public TextBox Previous { get; }
@@ -44,7 +44,7 @@ if (textBox1.IsValidLinkTarget(textBox2))
 if (textBox2.IsValidLinkTarget(textBox3))
     textBox2.Next = textBox3;
 
-// Yalnızca boş bir metin kutusunda bir bağlantı olabilir.
+// Yalnızca boş bir metin kutusunun bağlantısı olabilir.
 Assert.True(textBox3.IsValidLinkTarget(textBox4));
 
 builder.MoveTo(textBoxShape4.LastParagraph);
@@ -62,7 +62,7 @@ if (textBox3.Next == null && textBox3.Previous != null)
 {
     Console.WriteLine("This TextBox is the tail of the sequence");
 
-    // textBox2 ve textBox3 arasındaki yönlendirme bağlantısını kesin ve ardından artık bağlantılı olmadıklarını doğrulayın.
+    // textBox2 ile textBox3 arasındaki ileri bağlantıyı kesin ve ardından bunların artık bağlantılı olmadığını doğrulayın.
     textBox3.Previous.BreakForwardLink();
 
     Assert.IsTrue(textBox2.Next == null);

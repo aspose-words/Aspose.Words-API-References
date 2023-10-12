@@ -1,14 +1,14 @@
 ---
 title: FieldShape.Text
 second_title: Справочник по API Aspose.Words для .NET
-description: FieldShape свойство. Получает или задает текст для извлечения.
+description: FieldShape свойство. Получает или задает извлекаемый текст.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldshape/text/
 ---
 ## FieldShape.Text property
 
-Получает или задает текст для извлечения.
+Получает или задает извлекаемый текст.
 
 ```csharp
 public string Text { get; set; }
@@ -16,48 +16,48 @@ public string Text { get; set; }
 
 ### Примеры
 
-Показывает, как создавать совместимые с языком списки с написанием справа налево с полями BIDIOUTLINE.
+Показывает, как создавать совместимые с языками списки с письмом справа налево с полями BIDIOUTLINE.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Поле BIDIOUTLINE нумерует абзацы, как поля AUTONUM/LISTNUM,
-// но отображается только при включенном языке редактирования справа налево, таком как иврит или арабский.
-// Следующее поле будет отображать ".1", RTL-эквивалент номера списка "1.".
+// Поле BIDIOUTLINE нумерует абзацы так же, как поля AUTONUM/LISTNUM,
+// но отображается только в том случае, если включен язык редактирования справа налево, например иврит или арабский.
+// В следующем поле будет отображаться «.1», RTL-эквивалент номера списка «1.».
 FieldBidiOutline field = (FieldBidiOutline)builder.InsertField(FieldType.FieldBidiOutline, true);
 builder.Writeln("שלום");
 
 Assert.AreEqual(" BIDIOUTLINE ", field.GetFieldCode());
 
-// Добавьте еще два поля BIDIOUTLINE, которые будут отображать ".2" и ".3".
+// Добавляем еще два поля BIDIOUTLINE, в которых будут отображаться «.2» и «.3».
 builder.InsertField(FieldType.FieldBidiOutline, true);
 builder.Writeln("שלום");
 builder.InsertField(FieldType.FieldBidiOutline, true);
 builder.Writeln("שלום");
 
-// Установить горизонтальное выравнивание текста для каждого абзаца в документе на RTL.
+// Установите горизонтальное выравнивание текста для каждого абзаца документа на RTL.
 foreach (Paragraph para in doc.GetChildNodes(NodeType.Paragraph, true))
 {
     para.ParagraphFormat.Bidi = true;
 }
 
-// Если мы включим язык редактирования справа налево в Microsoft Word, наши поля будут отображать числа.
-// В противном случае они будут отображать "###".
+// Если мы включим в Microsoft Word язык редактирования справа налево, в наших полях будут отображаться числа.
+// В противном случае они отобразят «###».
 doc.Save(ArtifactsDir + "Field.BIDIOUTLINE.docx");
 ```
 
-Показывает, как некоторые старые поля Microsoft Word, такие как SHAPE и EMBED, обрабатываются во время загрузки.
+Показывает, как обрабатываются во время загрузки некоторые старые поля Microsoft Word, такие как SHAPE и EMBED.
 
 ```csharp
 // Откройте документ, созданный в Microsoft Word 2003.
 Document doc = new Document(MyDir + "Legacy fields.doc");
 
-// Если мы откроем документ Word и нажмем Alt+F9, мы увидим ФОРМУ и поле ВСТАВИТЬ.
-// Поле SHAPE является якорем/холстом для объекта AutoShape с включенным стилем обтекания "В соответствии с текстом".
-// Поле EMBED имеет ту же функцию, но для встроенного объекта
+// Если мы откроем документ Word и нажмем Alt+F9, мы увидим ФОРМУ и поле EMBED.
+// Поле SHAPE — это привязка/холст для объекта AutoShape с включенным стилем переноса «В соответствии с текстом».
+// Поле EMBED имеет ту же функцию, но для встроенного объекта:
 // например, электронная таблица из внешнего документа Excel.
-// Однако эти поля не будут отображаться в коллекции Fields документа.
+// Однако эти поля не появятся в коллекции Fields документа.
 Assert.AreEqual(0, doc.Range.Fields.Count);
 
 // Эти поля поддерживаются только старыми версиями Microsoft Word.
@@ -75,7 +75,7 @@ Assert.AreEqual(ShapeType.Image, shape.ShapeType);
 shape = (Shape)shapes[1];
 Assert.AreEqual(ShapeType.Can, shape.ShapeType);
 
-// Третья форма — это то, что было полем EMBED, содержащим внешнюю электронную таблицу.
+// Третья форма — это поле EMBED, содержащее внешнюю электронную таблицу.
 shape = (Shape)shapes[2];
 Assert.AreEqual(ShapeType.OleObject, shape.ShapeType);
 ```

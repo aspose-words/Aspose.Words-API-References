@@ -1,14 +1,14 @@
 ---
 title: DocSaveOptions.SavePictureBullet
 second_title: Aspose.Words for .NET API Referansı
-description: DocSaveOptions mülk. Ne zamanyanlış  PictureBullet verileri çıktı belgesine kaydedilmez. Varsayılan değer doğru .
+description: DocSaveOptions mülk. Ne zamanYANLIŞ  PictureBullet verileri çıktı belgesine kaydedilmez. Varsayılan değerdoğru .
 type: docs
 weight: 50
 url: /tr/net/aspose.words.saving/docsaveoptions/savepicturebullet/
 ---
 ## DocSaveOptions.SavePictureBullet property
 
-Ne zaman`yanlış` , PictureBullet verileri çıktı belgesine kaydedilmez. Varsayılan değer **doğru** .
+Ne zaman`YANLIŞ` , PictureBullet verileri çıktı belgesine kaydedilmez. Varsayılan değer:`doğru` .
 
 ```csharp
 public bool SavePictureBullet { get; set; }
@@ -24,10 +24,9 @@ Kaydederken PictureBullet verilerinin belgeden nasıl çıkarılacağını göst
 
 ```csharp
 Document doc = new Document(MyDir + "Image bullet points.docx");
-
-// Microsoft Word 97 gibi bazı kelime işlemciler PictureBullet verileriyle uyumlu değil.
-// SaveOptions nesnesinde bir bayrak ayarlayarak,
-// Kaydederken tüm resim madde işaretlerini sıradan madde işaretlerine çevirebiliriz.
+// Microsoft Word 97 gibi bazı kelime işlemciler PictureBullet verileriyle uyumlu değildir.
+// SaveOptions nesnesine bir bayrak ayarlayarak,
+// kaydederken tüm görüntü madde işaret noktalarını sıradan madde işaret noktalarına dönüştürebiliriz.
 DocSaveOptions saveOptions = new DocSaveOptions(SaveFormat.Doc);
 saveOptions.SavePictureBullet = false;
 

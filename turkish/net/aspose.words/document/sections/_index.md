@@ -3,7 +3,7 @@ title: Document.Sections
 second_title: Aspose.Words for .NET API Referansı
 description: Document mülk. Belgedeki tüm bölümleri temsil eden bir koleksiyon döndürür.
 type: docs
-weight: 350
+weight: 370
 url: /tr/net/aspose.words/document/sections/
 ---
 ## Document.Sections property
@@ -16,7 +16,7 @@ public SectionCollection Sections { get; }
 
 ### Örnekler
 
-Bir belgeye bölümlerin nasıl ekleneceğini ve kaldırılacağını gösterir.
+Bir belgede bölümlerin nasıl eklenip kaldırılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -28,7 +28,7 @@ builder.Write("Section 2");
 
 Assert.AreEqual("Section 1\x000cSection 2", doc.GetText().Trim());
 
-// İlk bölümü belgeden silin.
+// Dokümanın ilk bölümünü silin.
 doc.Sections.RemoveAt(0);
 
 Assert.AreEqual("Section 2", doc.GetText().Trim());
@@ -50,31 +50,31 @@ builder.Writeln("This text is in section 1.");
 
 // Bölüm sonu türleri, yeni bir bölümün kendisini önceki bölümden nasıl ayıracağını belirler.
 // Aşağıda beş tür bölüm sonu verilmiştir.
-// 1 - Yeni bir sayfada sonraki bölümü başlatır:
+// 1 - Sonraki bölümü yeni bir sayfada başlatır:
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 builder.Writeln("This text is in section 2.");
 
 Assert.AreEqual(SectionStart.NewPage, doc.Sections[1].PageSetup.SectionStart);
 
-// 2 - Geçerli sayfada bir sonraki bölümü başlatır:
+// 2 - Geçerli sayfada sonraki bölümü başlatır:
 builder.InsertBreak(BreakType.SectionBreakContinuous);
 builder.Writeln("This text is in section 3.");
 
 Assert.AreEqual(SectionStart.Continuous, doc.Sections[2].PageSetup.SectionStart);
 
-// 3 - Yeni bir çift sayfada sonraki bölümü başlatır:
+// 3 - Sonraki bölümü yeni çift sayfada başlatır:
 builder.InsertBreak(BreakType.SectionBreakEvenPage);
 builder.Writeln("This text is in section 4.");
 
 Assert.AreEqual(SectionStart.EvenPage, doc.Sections[3].PageSetup.SectionStart);
 
-// 4 - Yeni bir tek sayfada sonraki bölümü başlatır:
+// 4 - Sonraki bölümü yeni tek sayı sayfasında başlatır:
 builder.InsertBreak(BreakType.SectionBreakOddPage);
 builder.Writeln("This text is in section 5.");
 
 Assert.AreEqual(SectionStart.OddPage, doc.Sections[4].PageSetup.SectionStart);
 
-// 5 - Yeni bir sütunda sonraki bölümü başlatır:
+// 5 - Sonraki bölümü yeni bir sütunda başlatır:
 TextColumnCollection columns = builder.PageSetup.TextColumns;
 columns.SetCount(2);
 

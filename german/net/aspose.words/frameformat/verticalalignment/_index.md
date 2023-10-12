@@ -1,14 +1,14 @@
 ---
 title: FrameFormat.VerticalAlignment
 second_title: Aspose.Words für .NET-API-Referenz
-description: FrameFormat eigendom. Ruft die vertikale Ausrichtung des angegebenen Rahmens ab.
+description: FrameFormat eigendom. Ruft die vertikale Ausrichtung des angegebenen Frames ab.
 type: docs
 weight: 90
 url: /de/net/aspose.words/frameformat/verticalalignment/
 ---
 ## FrameFormat.VerticalAlignment property
 
-Ruft die vertikale Ausrichtung des angegebenen Rahmens ab.
+Ruft die vertikale Ausrichtung des angegebenen Frames ab.
 
 ```csharp
 public VerticalAlignment VerticalAlignment { get; }
@@ -16,7 +16,7 @@ public VerticalAlignment VerticalAlignment { get; }
 
 ### Beispiele
 
-Zeigt, wie Informationen zu Formatierungseigenschaften von Absätzen abgerufen werden, die Rahmen sind.
+Zeigt, wie Sie Informationen zu Formatierungseigenschaften von Absätzen erhalten, die Rahmen sind.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraph frame.docx");

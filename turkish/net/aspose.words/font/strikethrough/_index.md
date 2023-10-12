@@ -8,7 +8,7 @@ url: /tr/net/aspose.words/font/strikethrough/
 ---
 ## Font.StrikeThrough property
 
-Yazı tipi, üstü çizili metin olarak biçimlendirilmişse doğrudur.
+Yazı tipi üstü çizili metin olarak biçimlendirilmişse doğrudur.
 
 ```csharp
 public bool StrikeThrough { get; set; }
@@ -16,7 +16,7 @@ public bool StrikeThrough { get; set; }
 
 ### Örnekler
 
-Metne nasıl üstü çizili çizgi ekleneceğini gösterir.
+Metne üstü çizili çizginin nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();

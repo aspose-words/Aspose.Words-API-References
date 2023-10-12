@@ -1,14 +1,14 @@
 ---
 title: HtmlFixedSaveOptions.ExportEmbeddedCss
 second_title: Referencia de API de Aspose.Words para .NET
-description: HtmlFixedSaveOptions propiedad. Especifica si el CSS hoja de estilo en cascada se debe incrustar en el documento HTML.
+description: HtmlFixedSaveOptions propiedad. Especifica si el CSS hoja de estilos en cascada debe incrustarse en el documento HTML.
 type: docs
 weight: 40
 url: /es/net/aspose.words.saving/htmlfixedsaveoptions/exportembeddedcss/
 ---
 ## HtmlFixedSaveOptions.ExportEmbeddedCss property
 
-Especifica si el CSS (hoja de estilo en cascada) se debe incrustar en el documento HTML.
+Especifica si el CSS (hoja de estilos en cascada) debe incrustarse en el documento HTML.
 
 ```csharp
 public bool ExportEmbeddedCss { get; set; }
@@ -16,16 +16,16 @@ public bool ExportEmbeddedCss { get; set; }
 
 ### Ejemplos
 
-Muestra cómo determinar dónde almacenar las hojas de estilo CSS al exportar un documento a Html.
+Muestra cómo determinar dónde almacenar las hojas de estilo CSS al exportar un documento a HTML.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
 // Cuando exportamos un documento a html, Aspose.Words también creará una hoja de estilo CSS para formatear el documento.
-// Estableciendo el indicador "ExportEmbeddedCss" en "verdadero", guarde la hoja de estilo CSS en un archivo .css,
-// y enlace al archivo desde el documento html usando un <enlace> elemento.
-// Establecer el indicador en "falso" incrustará la hoja de estilo CSS dentro del documento Html,
-// que creará solo un archivo en lugar de dos.
+// Configurando el indicador "ExportEmbeddedCss" en "true" guardamos la hoja de estilos CSS en un archivo .css,
+// y vincular al archivo desde el documento html usando un enlace <link> elemento.
+// Establecer la bandera en "falso" incrustará la hoja de estilo CSS dentro del documento HTML,
+// que creará sólo un archivo en lugar de dos.
 HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions
 {
     ExportEmbeddedCss = exportEmbeddedCss

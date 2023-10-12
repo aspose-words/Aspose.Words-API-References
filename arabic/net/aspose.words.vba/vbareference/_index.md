@@ -1,14 +1,16 @@
 ---
 title: Class VbaReference
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Vba.VbaReference فصل. تنفيذ مرجع إلى مكتبة نوع التنفيذ أو مشروع VBA.
+description: Aspose.Words.Vba.VbaReference فصل. تنفيذ مرجع إلى مكتبة نوع الأتمتة أو مشروع VBA.
 type: docs
-weight: 6280
+weight: 6590
 url: /ar/net/aspose.words.vba/vbareference/
 ---
 ## VbaReference class
 
-تنفيذ مرجع إلى مكتبة نوع التنفيذ أو مشروع VBA.
+تنفيذ مرجع إلى مكتبة نوع الأتمتة أو مشروع VBA.
+
+لمعرفة المزيد، قم بزيارة[العمل مع وحدات ماكرو VBA](https://docs.aspose.com/words/net/working-with-vba-macros/) مقالة توثيقية.
 
 ```csharp
 public abstract class VbaReference
@@ -18,15 +20,14 @@ public abstract class VbaReference
 
 | اسم | وصف |
 | --- | --- |
-| abstract [LibId](../../aspose.words.vba/vbareference/libid/) { get; } | يحصل على قيمة سلسلة تحتوي على معرف مكتبة نوع التنفيذ. |
-| abstract [Type](../../aspose.words.vba/vbareference/type/) { get; } | يحصل[`VbaReferenceType`](../vbareferencetype/)كائن يشير إلى نوع المرجع الذي يمثله كائن VbaReference. |
+| abstract [LibId](../../aspose.words.vba/vbareference/libid/) { get; } | الحصول على قيمة سلسلة تحتوي على معرف مكتبة نوع التنفيذ التلقائي. |
+| abstract [Type](../../aspose.words.vba/vbareference/type/) { get; } | يحصل[`VbaReferenceType`](../vbareferencetype/) كائن يشير إلى نوع المرجع الذي أ`VbaReference` يمثل الكائن. |
 
 ### أمثلة
 
-يوضح كيفية الحصول على / إزالة عنصر من مجموعة مرجع VBA.
+يوضح كيفية الحصول على/إزالة عنصر من المجموعة المرجعية لـ VBA.
 
 ```csharp
-[Test]
 public void RemoveVbaReference()
 {
     const string brokenPath = @"X:\broken.dll";
@@ -52,7 +53,7 @@ public void RemoveVbaReference()
 }
 
 /// <summary>
-/// إرجاع سلسلة تمثل مسار LibId لمرجع محدد. 
+ /// إرجاع سلسلة تمثل مسار LibId لمرجع محدد.
 /// </summary>
 private static string GetLibIdPath(VbaReference reference)
 {
@@ -70,7 +71,7 @@ private static string GetLibIdPath(VbaReference reference)
 }
 
 /// <summary>
-/// إرجاع المسار من معرف محدد لمكتبة نوع التنفيذ التلقائي.
+/// إرجاع المسار من معرف محدد لمكتبة نوع الأتمتة.
 /// </summary>
 private static string GetLibIdReferencePath(string libIdReference)
 {
@@ -85,7 +86,7 @@ private static string GetLibIdReferencePath(string libIdReference)
 }
 
 /// <summary>
-/// إرجاع المسار من معرف محدد لمكتبة نوع التنفيذ التلقائي.
+/// إرجاع المسار من معرف محدد لمكتبة نوع الأتمتة.
 /// </summary>
 private static string GetLibIdProjectPath(string libIdProject)
 {

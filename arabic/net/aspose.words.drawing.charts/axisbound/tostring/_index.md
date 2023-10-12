@@ -1,14 +1,14 @@
 ---
 title: AxisBound.ToString
 second_title: Aspose.Words لمراجع .NET API
-description: AxisBound طريقة. إرجاع سلسلة سهلة الاستخدام تعرض قيمة هذا الكائن.
+description: AxisBound طريقة. تُرجع سلسلة سهلة الاستخدام تعرض قيمة هذا الكائن.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.drawing.charts/axisbound/tostring/
 ---
 ## AxisBound.ToString method
 
-إرجاع سلسلة سهلة الاستخدام تعرض قيمة هذا الكائن.
+تُرجع سلسلة سهلة الاستخدام تعرض قيمة هذا الكائن.
 
 ```csharp
 public override string ToString()

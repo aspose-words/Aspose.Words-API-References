@@ -18,7 +18,7 @@ public Stream CssStream { get; set; }
 
 Den här egenskapen låter dig spara CSS-information i en stream.
 
-Standardvärdet är`null` Den här egenskapen förhindrar inte att CSS-information sparas till en fil eller inbäddning i HTML-dokument. För att undertrycka exporterande CSS använd[`IsExportNeeded`](../isexportneeded/) fast egendom.
+Standardvärdet är`null` . Den här egenskapen förhindrar inte att CSS-information sparas till en fil eller inbäddning i HTML-dokument. För att undertrycka exporterande CSS använd[`IsExportNeeded`](../isexportneeded/) fast egendom.
 
 Använder sig av[`ICssSavingCallback`](../../icsssavingcallback/) du kan inte ersätta CSS med med en annan. Den är endast avsedd för att spara CSS till en stream.
 

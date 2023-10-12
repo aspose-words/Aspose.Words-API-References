@@ -3,7 +3,7 @@ title: ParagraphFormat.FarEastLineBreakControl
 second_title: Référence de l'API Aspose.Words pour .NET
 description: ParagraphFormat propriété. Obtient ou définit un indicateur indiquant si les règles de saut de ligne dAsie de lEst sont appliquées au paragraphe actuel.
 type: docs
-weight: 100
+weight: 110
 url: /fr/net/aspose.words/paragraphformat/fareastlinebreakcontrol/
 ---
 ## ParagraphFormat.FarEastLineBreakControl property

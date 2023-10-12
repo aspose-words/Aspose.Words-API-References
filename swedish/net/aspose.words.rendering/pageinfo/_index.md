@@ -3,12 +3,14 @@ title: Class PageInfo
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Rendering.PageInfo klass. Representerar information om en viss dokumentsida.
 type: docs
-weight: 4310
+weight: 4570
 url: /sv/net/aspose.words.rendering/pageinfo/
 ---
 ## PageInfo class
 
 Representerar information om en viss dokumentsida.
+
+För att lära dig mer, besök[Tolkning](https://docs.aspose.com/words/net/rendering/) dokumentationsartikel.
 
 ```csharp
 public class PageInfo
@@ -18,8 +20,9 @@ public class PageInfo
 
 | namn | Beskrivning |
 | --- | --- |
+| [Colored](../../aspose.words.rendering/pageinfo/colored/) { get; } | Returnerar`Sann` om sidan innehåller färgat innehåll. |
 | [HeightInPoints](../../aspose.words.rendering/pageinfo/heightinpoints/) { get; } | Får sidans höjd i poäng. |
-| [Landscape](../../aspose.words.rendering/pageinfo/landscape/) { get; } | Returnerar sant om sidorienteringen som anges i dokumentet för den här sidan är liggande. |
+| [Landscape](../../aspose.words.rendering/pageinfo/landscape/) { get; } | Returnerar`Sann` om sidorienteringen som anges i dokumentet för den här sidan är liggande. |
 | [PaperSize](../../aspose.words.rendering/pageinfo/papersize/) { get; } | Hämtar pappersstorleken som uppräkning. |
 | [PaperTray](../../aspose.words.rendering/pageinfo/papertray/) { get; } | Hämtar pappersfacket (fack) för den här sidan som specificerats i dokumentet. Värdet är implementerings(skrivar)specifikt. |
 | [SizeInPoints](../../aspose.words.rendering/pageinfo/sizeinpoints/) { get; } | Får sidstorleken i poäng. |

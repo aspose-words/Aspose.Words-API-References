@@ -16,11 +16,11 @@ public Style Style { get; }
 
 ### Anmärkningar
 
-Om denna lista inte är associerad med en liststil kommer egenskapen att returnera null.
+Om den här listan inte är associerad med en liststil kommer egenskapen tillbaka`null`.
 
-En lista kan i detta fall vara en referens till en liststil[`IsListStyleReference`](../isliststylereference/) kommer att vara sant.
+En lista kan i detta fall vara en referens till en liststil[`IsListStyleReference`](../isliststylereference/) kommer att vara`Sann`.
 
-En lista kan vara en definition av en liststil, i det här fallet[`IsListStyleDefinition`](../isliststyledefinition/) kommer att vara sant. En sådan lista kan inte tillämpas på stycken i dokumentet direkt.
+En lista kan vara en definition av en liststil, i det här fallet[`IsListStyleDefinition`](../isliststyledefinition/) kommer att vara`Sann`. En sådan lista kan inte tillämpas på stycken i dokumentet direkt.
 
 ### Exempel
 
@@ -30,8 +30,8 @@ Visar hur du skapar en liststil och använder den i ett dokument.
 Document doc = new Document();
 
 // En lista låter oss organisera och dekorera uppsättningar av stycken med prefixsymboler och indrag.
-// Vi kan skapa kapslade listor genom att öka indragsnivån. 
-// Vi kan börja och avsluta en lista genom att använda en dokumentbyggares "ListFormat"-egenskap. 
+ // Vi kan skapa kapslade listor genom att öka indragsnivån.
+ // Vi kan börja och avsluta en lista genom att använda en dokumentbyggares "ListFormat"-egenskap.
 // Varje stycke som vi lägger till mellan en listas början och slutet kommer att bli ett objekt i listan.
 // Vi kan innehålla ett helt List-objekt i en stil.
 Style listStyle = doc.Styles.Add(StyleType.List, "MyListStyle");

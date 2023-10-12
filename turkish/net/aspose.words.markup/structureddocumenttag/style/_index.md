@@ -16,23 +16,23 @@ public Style Style { get; set; }
 
 ### Notlar
 
-Yalnızca Character stil veyaParagraph bağlantılı karakter stili ile stil ayarlanabilir.
+Yalnızca Character stil veyaParagraph bağlantılı karakter stiline sahip stil ayarlanabilir.
 
 ### Örnekler
 
-İçerik kontrol öğeleri için stiller ile nasıl çalışılacağını gösterir.
+İçerik kontrol öğelerine ilişkin stillerle nasıl çalışılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Aşağıda, belgeden yapılandırılmış bir belge etiketine bir stil uygulamanın iki yolu verilmiştir.
+// Aşağıda belgeden yapılandırılmış belge etiketine stil uygulamanın iki yolu verilmiştir.
 // 1 - Belgenin stil koleksiyonundan bir stil nesnesi uygulayın:
 Style quoteStyle = doc.Styles[StyleIdentifier.Quote];
 StructuredDocumentTag sdtPlainText =
     new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Inline) { Style = quoteStyle };
 
-// 2 - Belgedeki bir stile ada göre başvuru yapın:
+// 2 - Belgedeki bir stile ada göre referans verin:
 StructuredDocumentTag sdtRichText =
     new StructuredDocumentTag(doc, SdtType.RichText, MarkupLevel.Inline) { StyleName = "Quote" };
 
@@ -46,6 +46,8 @@ NodeCollection tags = doc.GetChildNodes(NodeType.StructuredDocumentTag, true);
 foreach (Node node in tags)
 {
     StructuredDocumentTag sdt = (StructuredDocumentTag)node;
+
+    Console.WriteLine(sdt.WordOpenXMLMinimal);
 
     Assert.AreEqual(StyleIdentifier.Quote, sdt.Style.StyleIdentifier);
     Assert.AreEqual("Quote", sdt.StyleName);

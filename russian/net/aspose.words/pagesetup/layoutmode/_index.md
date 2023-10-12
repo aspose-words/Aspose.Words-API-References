@@ -16,13 +16,13 @@ public SectionLayoutMode LayoutMode { get; set; }
 
 ### Примеры
 
-Показывает, как указать число символов, которое может содержаться в каждой строке.
+Показывает, как указать количество символов, которое может иметь каждая строка.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Включите питчинг, а затем используйте его, чтобы установить количество символов в строке в этом разделе.
+// Включите шаг, а затем используйте его, чтобы установить количество символов в строке в этом разделе.
 builder.PageSetup.LayoutMode = SectionLayoutMode.Grid;
 builder.PageSetup.CharactersPerLine = 10;
 
@@ -36,14 +36,14 @@ builder.Writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 doc.Save(ArtifactsDir + "PageSetup.CharactersPerLine.docx");
 ```
 
-Показывает, как указать ограничение на количество строк, которые может иметь каждая страница.
+Показывает, как указать ограничение на количество строк, которое может иметь каждая страница.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Включите питчинг, а затем используйте его, чтобы установить количество строк на странице в этом разделе.
-// Достаточно большой размер шрифта переместит несколько строк на следующую страницу, чтобы избежать перекрытия символов.
+// Включите шаг, а затем используйте его, чтобы установить количество строк на странице в этом разделе.
+// Достаточно большой размер шрифта переместит некоторые строки вниз на следующую страницу, чтобы избежать перекрытия символов.
 builder.PageSetup.LayoutMode = SectionLayoutMode.LineGrid;
 builder.PageSetup.LinesPerPage = 15;
 

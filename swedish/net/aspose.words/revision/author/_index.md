@@ -1,14 +1,14 @@
 ---
 title: Revision.Author
 second_title: Aspose.Words för .NET API Referens
-description: Revision fast egendom. Hämtar eller ställer in författaren till denna version. Kan inte vara tom sträng eller null.
+description: Revision fast egendom. Hämtar eller ställer in författaren till denna version. Kan inte vara tom sträng ellernull .
 type: docs
 weight: 10
 url: /sv/net/aspose.words/revision/author/
 ---
 ## Revision.Author property
 
-Hämtar eller ställer in författaren till denna version. Kan inte vara tom sträng eller null.
+Hämtar eller ställer in författaren till denna version. Kan inte vara tom sträng eller`null` .
 
 ```csharp
 public string Author { get; set; }

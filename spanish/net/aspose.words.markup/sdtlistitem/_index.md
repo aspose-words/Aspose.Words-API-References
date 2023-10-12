@@ -1,14 +1,16 @@
 ---
 title: Class SdtListItem
 second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Markup.SdtListItem clase. Este elemento especifica un solo elemento de lista dentro de un padreComboBox oDropDownList etiqueta de documento estructurado.
+description: Aspose.Words.Markup.SdtListItem clase. Este elemento especifica un único elemento de lista dentro de un elemento principalComboBox oDropDownList etiqueta de documento estructurado.
 type: docs
-weight: 3780
+weight: 4020
 url: /es/net/aspose.words.markup/sdtlistitem/
 ---
 ## SdtListItem class
 
-Este elemento especifica un solo elemento de lista dentro de un padreComboBox oDropDownList etiqueta de documento estructurado.
+Este elemento especifica un único elemento de lista dentro de un elemento principalComboBox oDropDownList etiqueta de documento estructurado.
+
+Para obtener más información, visite el[Etiquetas de documentos estructurados o control de contenido](https://docs.aspose.com/words/net/working-with-content-control-sdt/) artículo de documentación.
 
 ```csharp
 public class SdtListItem
@@ -25,7 +27,7 @@ public class SdtListItem
 
 | Nombre | Descripción |
 | --- | --- |
-| [DisplayText](../../aspose.words.markup/sdtlistitem/displaytext/) { get; } | Obtiene el texto para mostrar en el contenido de ejecución en lugar del[`Value`](./value/) contenido del atributo para este elemento de la lista. |
+| [DisplayText](../../aspose.words.markup/sdtlistitem/displaytext/) { get; } | Obtiene el texto que se mostrará en el contenido de la ejecución en lugar del[`Value`](./value/) Contenido del atributo para este elemento de la lista. |
 | [Value](../../aspose.words.markup/sdtlistitem/value/) { get; } | Obtiene el valor de este elemento de la lista. |
 
 ### Ejemplos
@@ -37,7 +39,7 @@ Document doc = new Document();
 StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.DropDownList, MarkupLevel.Block);
 doc.FirstSection.Body.AppendChild(tag);
 
-// Una etiqueta de documento estructurado de lista desplegable es un formulario que permite al usuario
+// Una etiqueta de documento estructurada con lista desplegable es un formulario que permite al usuario
 // seleccione una opción de una lista haciendo clic izquierdo y abriendo el formulario en Microsoft Word.
 // La propiedad "ListItems" contiene todos los elementos de la lista y cada elemento de la lista es un "SdtListItem".
 SdtListItemCollection listItems = tag.ListItems;
@@ -45,7 +47,7 @@ listItems.Add(new SdtListItem("Value 1"));
 
 Assert.AreEqual(listItems[0].DisplayText, listItems[0].Value);
 
-// Agregue 3 elementos de lista más. Inicialice estos elementos usando un constructor diferente al primer elemento
+// Agrega 3 elementos más a la lista. Inicialice estos elementos utilizando un constructor diferente al del primer elemento
 // para mostrar cadenas que son diferentes de sus valores.
 listItems.Add(new SdtListItem("Item 2", "Value 2"));
 listItems.Add(new SdtListItem("Item 3", "Value 3"));
@@ -53,12 +55,12 @@ listItems.Add(new SdtListItem("Item 4", "Value 4"));
 
 Assert.AreEqual(4, listItems.Count);
 
-// La lista desplegable muestra el primer elemento. Asigne un elemento de lista diferente al "Valor seleccionado" para mostrarlo.
+// La lista desplegable muestra el primer elemento. Asigne un elemento de lista diferente al "SelectedValue" para mostrarlo.
 listItems.SelectedValue = listItems[3];
 
 Assert.AreEqual("Value 4", listItems.SelectedValue.Value);
 
-// Enumerar sobre la colección e imprimir cada elemento.
+// Enumerar la colección e imprimir cada elemento.
 using (IEnumerator<SdtListItem> enumerator = listItems.GetEnumerator())
 {
     while (enumerator.MoveNext())
@@ -66,17 +68,17 @@ using (IEnumerator<SdtListItem> enumerator = listItems.GetEnumerator())
             Console.WriteLine($"List item: {enumerator.Current.DisplayText}, value: {enumerator.Current.Value}");
 }
 
-  // Elimina el último elemento de la lista.
+ // Elimina el último elemento de la lista.
 listItems.RemoveAt(3);
 
 Assert.AreEqual(3, listItems.Count);
 
-// Dado que nuestro control desplegable está configurado para mostrar el elemento eliminado de forma predeterminada, asígnele un elemento para mostrar que existe.
+// Dado que nuestro control desplegable está configurado para mostrar el elemento eliminado de forma predeterminada, proporciónele un elemento para mostrar que exista.
 listItems.SelectedValue = listItems[1];
 
 doc.Save(ArtifactsDir + "StructuredDocumentTag.ListItemCollection.docx");
 
-// Use el método "Borrar" para vaciar toda la colección de elementos desplegables a la vez.
+// Utilice el método "Borrar" para vaciar toda la colección de elementos desplegables de una vez.
 listItems.Clear();
 
 Assert.AreEqual(0, listItems.Count);

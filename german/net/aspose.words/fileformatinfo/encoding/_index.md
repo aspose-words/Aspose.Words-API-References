@@ -1,14 +1,14 @@
 ---
 title: FileFormatInfo.Encoding
 second_title: Aspose.Words für .NET-API-Referenz
-description: FileFormatInfo eigendom. Ruft die erkannte Codierung ab falls für das aktuelle Dokumentformat zutreffend. Erkennt derzeit nur die Codierung für HTMLDokumente.
+description: FileFormatInfo eigendom. Ruft die erkannte Kodierung ab sofern diese auf das aktuelle Dokumentformat zutrifft. Erkennt derzeit nur die Kodierung für HTMLDokumente.
 type: docs
 weight: 10
 url: /de/net/aspose.words/fileformatinfo/encoding/
 ---
 ## FileFormatInfo.Encoding property
 
-Ruft die erkannte Codierung ab, falls für das aktuelle Dokumentformat zutreffend. Erkennt derzeit nur die Codierung für HTML-Dokumente.
+Ruft die erkannte Kodierung ab, sofern diese auf das aktuelle Dokumentformat zutrifft. Erkennt derzeit nur die Kodierung für HTML-Dokumente.
 
 ```csharp
 public Encoding Encoding { get; }
@@ -16,7 +16,7 @@ public Encoding Encoding { get; }
 
 ### Beispiele
 
-Zeigt, wie die Kodierung in einer HTML-Datei erkannt wird.
+Zeigt, wie die Codierung in einer HTML-Datei erkannt wird.
 
 ```csharp
 FileFormatInfo info = FileFormatUtil.DetectFileFormat(MyDir + "Document.html");

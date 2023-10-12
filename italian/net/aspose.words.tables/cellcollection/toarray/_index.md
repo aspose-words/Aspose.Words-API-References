@@ -1,14 +1,14 @@
 ---
 title: CellCollection.ToArray
 second_title: Aspose.Words per .NET API Reference
-description: CellCollection metodo. Copia tutte le celle dalla raccolta in una nuova matrice di celle.
+description: CellCollection metodo. Copia tutte le celle dalla raccolta in un nuovo array di celle.
 type: docs
 weight: 20
 url: /it/net/aspose.words.tables/cellcollection/toarray/
 ---
 ## CellCollection.ToArray method
 
-Copia tutte le celle dalla raccolta in una nuova matrice di celle.
+Copia tutte le celle dalla raccolta in un nuovo array di celle.
 
 ```csharp
 public Cell[] ToArray()
@@ -20,7 +20,7 @@ Una matrice di celle.
 
 ### Esempi
 
-Mostra come scorrere tutte le tabelle nel documento e stampare il contenuto di ogni cella.
+Mostra come scorrere tutte le tabelle del documento e stampare il contenuto di ciascuna cella.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -44,7 +44,7 @@ for (int i = 0; i < tables.Count; i++)
 
         CellCollection cells = rows[j].Cells;
 
-        // Possiamo usare il metodo "ToArray" su una raccolta di celle per clonarla in un array.
+        // Possiamo utilizzare il metodo "ToArray" su una raccolta di celle per clonarla in un array.
         Assert.AreEqual(cells, cells.ToArray());
         Assert.AreNotSame(cells, cells.ToArray());
 

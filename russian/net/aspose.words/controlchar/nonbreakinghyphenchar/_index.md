@@ -1,14 +1,14 @@
 ---
 title: ControlChar.NonBreakingHyphenChar
 second_title: Справочник по API Aspose.Words для .NET
-description: ControlChar поле. Неразрывный дефис в Microsoft Word равен char30.
+description: ControlChar поле. Неразрывный дефис в Microsoft Word  char30.
 type: docs
 weight: 160
 url: /ru/net/aspose.words/controlchar/nonbreakinghyphenchar/
 ---
 ## ControlChar.NonBreakingHyphenChar field
 
-Неразрывный дефис в Microsoft Word равен (char)30.
+Неразрывный дефис в Microsoft Word — (char)30.
 
 ```csharp
 public const char NonBreakingHyphenChar;
@@ -16,7 +16,7 @@ public const char NonBreakingHyphenChar;
 
 ### Примечания
 
-Неразрывный дефис в Microsoft Word не соответствует неразрывному дефису символа Unicode U+2011, а вместо этого представляет внутреннюю информацию , которая указывает Microsoft Word отображать дефис, а не разрывать строку.
+Неразрывный дефис в Microsoft Word не соответствует символу Юникода неразрывному дефису U+2011, а вместо этого представляет внутреннюю информацию , которая сообщает Microsoft Word отображать дефис, а не разрывать строку.
 
 Полезная информация: http://www.cs.tut.fi/~jkorpela/dashes.html#linebreaks.
 
@@ -31,8 +31,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 // Добавляем обычный пробел.
 builder.Write("Before space." + ControlChar.SpaceChar + "After space.");
 
-// Добавляем NBSP, который является неразрывным пробелом.
-// В отличие от обычного пробела, в этом пробеле не может быть автоматического разрыва строки.
+// Добавьте NBSP, который является неразрывным пробелом.
+// В отличие от обычного пробела, в этом пробеле не может быть автоматического переноса строки.
 builder.Write("Before space." + ControlChar.NonBreakingSpace + "After space.");
 
 // Добавляем символ табуляции.
@@ -52,11 +52,11 @@ Assert.AreEqual(ControlChar.LineFeed, ControlChar.Lf);
 // Возврат каретки и перевод строки могут быть представлены вместе одним символом.
 Assert.AreEqual(ControlChar.CrLf, ControlChar.Cr + ControlChar.Lf);
 
-// Добавляем разрыв абзаца, который будет начинать новый абзац.
+// Добавляем разрыв абзаца, который начнет новый абзац.
 builder.Write("Before paragraph break." + ControlChar.ParagraphBreak + "After paragraph break.");
 Assert.AreEqual(3, doc.FirstSection.Body.GetChildNodes(NodeType.Paragraph, true).Count);
 
-// Добавляем разрыв раздела. Это не создает новый раздел или абзац.
+// Добавляем разрыв раздела. При этом не создается новый раздел или абзац.
 Assert.AreEqual(1, doc.Sections.Count);
 builder.Write("Before section break." + ControlChar.SectionBreak + "After section break.");
 Assert.AreEqual(1, doc.Sections.Count);
@@ -67,17 +67,17 @@ builder.Write("Before page break." + ControlChar.PageBreak + "After page break."
 // Разрыв страницы имеет то же значение, что и разрыв раздела.
 Assert.AreEqual(ControlChar.PageBreak, ControlChar.SectionBreak);
 
-// Вставьте новый раздел, а затем установите количество его столбцов равным двум.
+// Вставляем новый раздел, а затем устанавливаем количество столбцов равным двум.
 doc.AppendChild(new Section(doc));
 builder.MoveToSection(1);
 builder.CurrentSection.PageSetup.TextColumns.SetCount(2);
 
-// Мы можем использовать управляющий символ, чтобы отметить точку, в которой текст переходит к следующему столбцу.
+// Мы можем использовать управляющий символ, чтобы отметить точку перехода текста к следующему столбцу.
 builder.Write("Text at end of column 1." + ControlChar.ColumnBreak + "Text at beginning of column 2.");
 
 doc.Save(ArtifactsDir + "ControlChar.InsertControlChars.docx");
 
-// Для большинства символов существуют эквиваленты char и string.
+// Для большинства символов существуют символьные и строковые аналоги.
 Assert.AreEqual(Convert.ToChar(ControlChar.Cell), ControlChar.CellChar);
 Assert.AreEqual(Convert.ToChar(ControlChar.NonBreakingSpace), ControlChar.NonBreakingSpaceChar);
 Assert.AreEqual(Convert.ToChar(ControlChar.Tab), ControlChar.TabChar);

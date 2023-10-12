@@ -3,7 +3,7 @@ title: PdfSaveOptions.PreserveFormFields
 second_title: Aspose.Words för .NET API Referens
 description: PdfSaveOptions fast egendom. Anger om Microsoft Wordformulärfält ska bevaras som formulärfält i PDF eller konvertera dem till text. Standard ärfalsk .
 type: docs
-weight: 240
+weight: 270
 url: /sv/net/aspose.words.saving/pdfsaveoptions/preserveformfields/
 ---
 ## PdfSaveOptions.PreserveFormFields property

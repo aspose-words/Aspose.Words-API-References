@@ -16,7 +16,7 @@ public double Spacing { get; set; }
 
 ### Remarques
 
-N'a d'effet que lorsque[`EvenlySpaced`](../evenlyspaced/) est réglé sur **vrai** .
+N'a d'effet que lorsque[`EvenlySpaced`](../evenlyspaced/) est réglé sur`vrai` .
 
 ### Exemples
 

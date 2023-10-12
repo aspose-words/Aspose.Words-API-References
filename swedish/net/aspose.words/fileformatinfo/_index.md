@@ -3,12 +3,14 @@ title: Class FileFormatInfo
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.FileFormatInfo klass. Innehåller data som returneras avFileFormatUtil metoder för identifiering av dokumentformat.
 type: docs
-weight: 2630
+weight: 2810
 url: /sv/net/aspose.words/fileformatinfo/
 ---
 ## FileFormatInfo class
 
 Innehåller data som returneras av[`FileFormatUtil`](../fileformatutil/) metoder för identifiering av dokumentformat.
+
+För att lära dig mer, besök[Upptäck filformat och kontrollera formatkompatibilitet](https://docs.aspose.com/words/net/detect-file-format-and-check-format-compatibility/) dokumentationsartikel.
 
 ```csharp
 public class FileFormatInfo
@@ -19,13 +21,13 @@ public class FileFormatInfo
 | namn | Beskrivning |
 | --- | --- |
 | [Encoding](../../aspose.words/fileformatinfo/encoding/) { get; } | Hämtar den upptäckta kodningen om det är tillämpligt för det aktuella dokumentformatet. Detekterar för närvarande kodning endast för HTML-dokument. |
-| [HasDigitalSignature](../../aspose.words/fileformatinfo/hasdigitalsignature/) { get; } | Returnerar sant om detta dokument innehåller en digital signatur. Den här egenskapen informerar bara om att en digital signatur finns på ett dokument, men den anger inte om signaturen är giltig eller inte. |
-| [IsEncrypted](../../aspose.words/fileformatinfo/isencrypted/) { get; } | Returnerar sant om dokumentet är krypterat och kräver ett lösenord för att öppnas. |
+| [HasDigitalSignature](../../aspose.words/fileformatinfo/hasdigitalsignature/) { get; } | Returnerar`Sann`om detta dokument innehåller en digital signatur. Den här egenskapen informerar bara om att en digital signatur finns på ett dokument, men den anger inte om signaturen är giltig eller inte. |
+| [IsEncrypted](../../aspose.words/fileformatinfo/isencrypted/) { get; } | Returnerar`Sann` om dokumentet är krypterat och kräver ett lösenord för att öppnas. |
 | [LoadFormat](../../aspose.words/fileformatinfo/loadformat/) { get; } | Hämtar det upptäckta dokumentformatet. |
 
 ### Anmärkningar
 
-Du skapar inte instanser av den här klassen direkt. Objekt av denna klass returneras av [`DetectFileFormat`](../fileformatutil/detectfileformat/)metoder.
+Du skapar inte instanser av den här klassen direkt. Objekt av denna klass returneras av [`DetectFileFormat`](../fileformatutil/detectfileformat/) metoder.
 
 ### Exempel
 

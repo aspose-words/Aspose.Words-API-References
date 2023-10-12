@@ -23,6 +23,7 @@ public Match Match { get; }
 Visar hur du använder ett annat teckensnitt på nytt innehåll via FindReplaceOptions.
 
 ```csharp
+public void ConvertNumbersToHexadecimal()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);

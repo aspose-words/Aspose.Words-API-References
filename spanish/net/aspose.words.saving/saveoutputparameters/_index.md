@@ -1,14 +1,16 @@
 ---
 title: Class SaveOutputParameters
 second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Saving.SaveOutputParameters clase. Este objeto se devuelve a la persona que llama después de guardar un documento y contiene información adicional de que se ha generado o calculado durante la operación de guardado. La persona que llama puede usar o ignorar este objeto.
+description: Aspose.Words.Saving.SaveOutputParameters clase. Este objeto se devuelve a la persona que llama después de guardar un documento y contiene información adicional que se generó o calculó durante la operación de guardar. La persona que llama puede usar o ignorar este objeto.
 type: docs
-weight: 5310
+weight: 5590
 url: /es/net/aspose.words.saving/saveoutputparameters/
 ---
 ## SaveOutputParameters class
 
-Este objeto se devuelve a la persona que llama después de guardar un documento y contiene información adicional de que se ha generado o calculado durante la operación de guardado. La persona que llama puede usar o ignorar este objeto.
+Este objeto se devuelve a la persona que llama después de guardar un documento y contiene información adicional que se generó o calculó durante la operación de guardar. La persona que llama puede usar o ignorar este objeto.
+
+Para obtener más información, visite el[Guardar un documento](https://docs.aspose.com/words/net/save-a-document/) artículo de documentación.
 
 ```csharp
 public class SaveOutputParameters
@@ -18,11 +20,11 @@ public class SaveOutputParameters
 
 | Nombre | Descripción |
 | --- | --- |
-| [ContentType](../../aspose.words.saving/saveoutputparameters/contenttype/) { get; } | Devuelve la cadena de tipo de contenido (Tipo de medio de Internet) que identifica el tipo del documento guardado. |
+| [ContentType](../../aspose.words.saving/saveoutputparameters/contenttype/) { get; } | Devuelve la cadena de tipo de contenido (tipo de medio de Internet) que identifica el tipo del documento guardado. |
 
 ### Ejemplos
 
-Muestra cómo acceder a los parámetros de salida de la operación de guardado de un documento.
+Muestra cómo acceder a los parámetros de salida de la operación de guardar de un documento.
 
 ```csharp
 Document doc = new Document();

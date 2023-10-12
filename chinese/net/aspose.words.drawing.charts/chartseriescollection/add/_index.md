@@ -1,14 +1,14 @@
 ---
 title: ChartSeriesCollection.Add
 second_title: Aspose.Words for .NET API 参考
-description: ChartSeriesCollection 方法. 添加新的ChartSeries到此集合 使用此方法将系列添加到任何类型的条形图柱形图折线图和曲面图
+description: ChartSeriesCollection 方法. 添加新内容ChartSeries到此集合 使用此方法将系列添加到任何类型的条形图柱形图折线图和曲面图
 type: docs
 weight: 30
 url: /zh/net/aspose.words.drawing.charts/chartseriescollection/add/
 ---
 ## Add(string, string[], double[]) {#add_3}
 
-添加新的[`ChartSeries`](../../chartseries/)到此集合。 使用此方法将系列添加到任何类型的条形图、柱形图、折线图和曲面图。
+添加新内容[`ChartSeries`](../../chartseries/)到此集合。 使用此方法将系列添加到任何类型的条形图、柱形图、折线图和曲面图。
 
 ```csharp
 public ChartSeries Add(string seriesName, string[] categories, double[] values)
@@ -20,26 +20,27 @@ public ChartSeries Add(string seriesName, string[] categories, double[] values)
 
 ### 例子
 
-展示如何为图表类型创建适当类型的图表系列。
+展示如何为图形类型创建适当类型的图表系列。
 
 ```csharp
+public void ChartSeriesCollection()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // 有几种方法可以填充图表的系列集合。
+    // 有多种方法可以填充图表的系列集合。
     // 不同的系列模式适用于不同的图表类型。
-    // 1 - 柱形图，柱形图按类别沿 X 轴分组和带状：
+    // 1 - 柱形图，其中的柱按类别沿 X 轴分组和排列：
     Chart chart = AppendChart(builder, ChartType.Column, 500, 300);
 
     string[] categories = { "Category 1", "Category 2", "Category 3" };
 
     // 插入两个系列的十进制值，其中包含每个相应类别的值。
-    // 这个柱形图将有三组，每组有两列。
+    // 此柱形图将包含三组，每组有两列。
     chart.Series.Add("Series 1", categories, new [] { 76.6, 82.1, 91.6 });
     chart.Series.Add("Series 2", categories, new [] { 64.2, 79.5, 94.0 });
 
-    // 类别沿 X 轴分布，值沿 Y 轴分布。
+    // 类别沿X轴分布，值沿Y轴分布。
     Assert.AreEqual(ChartAxisType.Category, chart.AxisX.Type);
     Assert.AreEqual(ChartAxisType.Value, chart.AxisY.Type);
 
@@ -53,9 +54,9 @@ public ChartSeries Add(string seriesName, string[] categories, double[] values)
         new DateTime(2020, 9, 7)
     };
 
-    // 为每个日期插入一个带有十进制值的系列。
+    // 为每个相应日期插入一个带有十进制值的系列。
     // 日期将沿线性 X 轴分布，
-    // 添加到这个系列的值将创建数据点。
+    // 添加到该系列的值将创建数据点。
     chart.Series.Add("Series 1", dates, new [] { 15.8, 21.5, 22.9, 28.7, 33.1 });
 
     Assert.AreEqual(ChartAxisType.Category, chart.AxisX.Type);
@@ -65,8 +66,8 @@ public ChartSeries Add(string seriesName, string[] categories, double[] values)
     chart = AppendChart(builder, ChartType.Scatter, 500, 300);
 
     // 每个系列都需要两个长度相等的十进制数组。
-    // 第一个数组包含 X 值，第二个包含对应的 Y 值
-    // 图表图形上的数据点。
+    // 第一个数组包含 X 值，第二个数组包含相应的 Y 值
+    // 图表上的数据点。
     chart.Series.Add("Series 1", 
         new[] { 3.1, 3.5, 6.3, 4.1, 2.2, 8.3, 1.2, 3.6 }, 
         new[] { 3.1, 6.3, 4.6, 0.9, 8.5, 4.2, 2.3, 9.9 });
@@ -80,9 +81,9 @@ public ChartSeries Add(string seriesName, string[] categories, double[] values)
     // 4 - 气泡图：
     chart = AppendChart(builder, ChartType.Bubble, 500, 300);
 
-    // 每个系列都需要三个等长的十进制数组。
-    // 第一个数组包含 X 值，第二个包含对应的 Y 值，
-    // 第三个包含每个图形数据点的直径。
+    // 每个系列需要三个长度相等的十进制数组。
+    // 第一个数组包含 X 值，第二个数组包含相应的 Y 值，
+    // 第三个包含图表每个数据点的直径。
     chart.Series.Add("Series 1", 
         new [] { 1.1, 5.0, 9.8 }, 
         new [] { 1.2, 4.9, 9.9 }, 
@@ -92,7 +93,7 @@ public ChartSeries Add(string seriesName, string[] categories, double[] values)
 }
 
 /// <summary>
-/// 使用指定 ChartType、宽度和高度的文档构建器插入图表，并删除其演示数据。
+/// 使用指定图表类型、宽度和高度的文档生成器插入图表，并删除其演示数据。
 /// </summary>
 private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, double width, double height)
 {
@@ -114,7 +115,7 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 ## Add(string, double[], double[]) {#add}
 
-添加新的[`ChartSeries`](../../chartseries/)到此集合。 使用此方法将系列添加到任何类型的散点图。
+添加新内容[`ChartSeries`](../../chartseries/)到此集合。 使用此方法将系列添加到任何类型的散点图。
 
 ```csharp
 public ChartSeries Add(string seriesName, double[] xValues, double[] yValues)
@@ -126,26 +127,27 @@ public ChartSeries Add(string seriesName, double[] xValues, double[] yValues)
 
 ### 例子
 
-展示如何为图表类型创建适当类型的图表系列。
+展示如何为图形类型创建适当类型的图表系列。
 
 ```csharp
+public void ChartSeriesCollection()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // 有几种方法可以填充图表的系列集合。
+    // 有多种方法可以填充图表的系列集合。
     // 不同的系列模式适用于不同的图表类型。
-    // 1 - 柱形图，柱形图按类别沿 X 轴分组和带状：
+    // 1 - 柱形图，其中的柱按类别沿 X 轴分组和排列：
     Chart chart = AppendChart(builder, ChartType.Column, 500, 300);
 
     string[] categories = { "Category 1", "Category 2", "Category 3" };
 
     // 插入两个系列的十进制值，其中包含每个相应类别的值。
-    // 这个柱形图将有三组，每组有两列。
+    // 此柱形图将包含三组，每组有两列。
     chart.Series.Add("Series 1", categories, new [] { 76.6, 82.1, 91.6 });
     chart.Series.Add("Series 2", categories, new [] { 64.2, 79.5, 94.0 });
 
-    // 类别沿 X 轴分布，值沿 Y 轴分布。
+    // 类别沿X轴分布，值沿Y轴分布。
     Assert.AreEqual(ChartAxisType.Category, chart.AxisX.Type);
     Assert.AreEqual(ChartAxisType.Value, chart.AxisY.Type);
 
@@ -159,9 +161,9 @@ public ChartSeries Add(string seriesName, double[] xValues, double[] yValues)
         new DateTime(2020, 9, 7)
     };
 
-    // 为每个日期插入一个带有十进制值的系列。
+    // 为每个相应日期插入一个带有十进制值的系列。
     // 日期将沿线性 X 轴分布，
-    // 添加到这个系列的值将创建数据点。
+    // 添加到该系列的值将创建数据点。
     chart.Series.Add("Series 1", dates, new [] { 15.8, 21.5, 22.9, 28.7, 33.1 });
 
     Assert.AreEqual(ChartAxisType.Category, chart.AxisX.Type);
@@ -171,8 +173,8 @@ public ChartSeries Add(string seriesName, double[] xValues, double[] yValues)
     chart = AppendChart(builder, ChartType.Scatter, 500, 300);
 
     // 每个系列都需要两个长度相等的十进制数组。
-    // 第一个数组包含 X 值，第二个包含对应的 Y 值
-    // 图表图形上的数据点。
+    // 第一个数组包含 X 值，第二个数组包含相应的 Y 值
+    // 图表上的数据点。
     chart.Series.Add("Series 1", 
         new[] { 3.1, 3.5, 6.3, 4.1, 2.2, 8.3, 1.2, 3.6 }, 
         new[] { 3.1, 6.3, 4.6, 0.9, 8.5, 4.2, 2.3, 9.9 });
@@ -186,9 +188,9 @@ public ChartSeries Add(string seriesName, double[] xValues, double[] yValues)
     // 4 - 气泡图：
     chart = AppendChart(builder, ChartType.Bubble, 500, 300);
 
-    // 每个系列都需要三个等长的十进制数组。
-    // 第一个数组包含 X 值，第二个包含对应的 Y 值，
-    // 第三个包含每个图形数据点的直径。
+    // 每个系列需要三个长度相等的十进制数组。
+    // 第一个数组包含 X 值，第二个数组包含相应的 Y 值，
+    // 第三个包含图表每个数据点的直径。
     chart.Series.Add("Series 1", 
         new [] { 1.1, 5.0, 9.8 }, 
         new [] { 1.2, 4.9, 9.9 }, 
@@ -198,7 +200,7 @@ public ChartSeries Add(string seriesName, double[] xValues, double[] yValues)
 }
 
 /// <summary>
-/// 使用指定 ChartType、宽度和高度的文档构建器插入图表，并删除其演示数据。
+/// 使用指定图表类型、宽度和高度的文档生成器插入图表，并删除其演示数据。
 /// </summary>
 private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, double width, double height)
 {
@@ -220,7 +222,7 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 ## Add(string, DateTime[], double[]) {#add_2}
 
-添加新的[`ChartSeries`](../../chartseries/)到此集合。 使用此方法将系列添加到任何类型的区域、雷达和股票图表。
+添加新内容[`ChartSeries`](../../chartseries/)到此集合。 使用此方法将系列添加到任何类型的面积图、雷达图和股票图。
 
 ```csharp
 public ChartSeries Add(string seriesName, DateTime[] dates, double[] values)
@@ -228,26 +230,27 @@ public ChartSeries Add(string seriesName, DateTime[] dates, double[] values)
 
 ### 例子
 
-展示如何为图表类型创建适当类型的图表系列。
+展示如何为图形类型创建适当类型的图表系列。
 
 ```csharp
+public void ChartSeriesCollection()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // 有几种方法可以填充图表的系列集合。
+    // 有多种方法可以填充图表的系列集合。
     // 不同的系列模式适用于不同的图表类型。
-    // 1 - 柱形图，柱形图按类别沿 X 轴分组和带状：
+    // 1 - 柱形图，其中的柱按类别沿 X 轴分组和排列：
     Chart chart = AppendChart(builder, ChartType.Column, 500, 300);
 
     string[] categories = { "Category 1", "Category 2", "Category 3" };
 
     // 插入两个系列的十进制值，其中包含每个相应类别的值。
-    // 这个柱形图将有三组，每组有两列。
+    // 此柱形图将包含三组，每组有两列。
     chart.Series.Add("Series 1", categories, new [] { 76.6, 82.1, 91.6 });
     chart.Series.Add("Series 2", categories, new [] { 64.2, 79.5, 94.0 });
 
-    // 类别沿 X 轴分布，值沿 Y 轴分布。
+    // 类别沿X轴分布，值沿Y轴分布。
     Assert.AreEqual(ChartAxisType.Category, chart.AxisX.Type);
     Assert.AreEqual(ChartAxisType.Value, chart.AxisY.Type);
 
@@ -261,9 +264,9 @@ public ChartSeries Add(string seriesName, DateTime[] dates, double[] values)
         new DateTime(2020, 9, 7)
     };
 
-    // 为每个日期插入一个带有十进制值的系列。
+    // 为每个相应日期插入一个带有十进制值的系列。
     // 日期将沿线性 X 轴分布，
-    // 添加到这个系列的值将创建数据点。
+    // 添加到该系列的值将创建数据点。
     chart.Series.Add("Series 1", dates, new [] { 15.8, 21.5, 22.9, 28.7, 33.1 });
 
     Assert.AreEqual(ChartAxisType.Category, chart.AxisX.Type);
@@ -273,8 +276,8 @@ public ChartSeries Add(string seriesName, DateTime[] dates, double[] values)
     chart = AppendChart(builder, ChartType.Scatter, 500, 300);
 
     // 每个系列都需要两个长度相等的十进制数组。
-    // 第一个数组包含 X 值，第二个包含对应的 Y 值
-    // 图表图形上的数据点。
+    // 第一个数组包含 X 值，第二个数组包含相应的 Y 值
+    // 图表上的数据点。
     chart.Series.Add("Series 1", 
         new[] { 3.1, 3.5, 6.3, 4.1, 2.2, 8.3, 1.2, 3.6 }, 
         new[] { 3.1, 6.3, 4.6, 0.9, 8.5, 4.2, 2.3, 9.9 });
@@ -288,9 +291,9 @@ public ChartSeries Add(string seriesName, DateTime[] dates, double[] values)
     // 4 - 气泡图：
     chart = AppendChart(builder, ChartType.Bubble, 500, 300);
 
-    // 每个系列都需要三个等长的十进制数组。
-    // 第一个数组包含 X 值，第二个包含对应的 Y 值，
-    // 第三个包含每个图形数据点的直径。
+    // 每个系列需要三个长度相等的十进制数组。
+    // 第一个数组包含 X 值，第二个数组包含相应的 Y 值，
+    // 第三个包含图表每个数据点的直径。
     chart.Series.Add("Series 1", 
         new [] { 1.1, 5.0, 9.8 }, 
         new [] { 1.2, 4.9, 9.9 }, 
@@ -300,7 +303,7 @@ public ChartSeries Add(string seriesName, DateTime[] dates, double[] values)
 }
 
 /// <summary>
-/// 使用指定 ChartType、宽度和高度的文档构建器插入图表，并删除其演示数据。
+/// 使用指定图表类型、宽度和高度的文档生成器插入图表，并删除其演示数据。
 /// </summary>
 private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, double width, double height)
 {
@@ -322,7 +325,7 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 ## Add(string, double[], double[], double[]) {#add_1}
 
-添加新的[`ChartSeries`](../../chartseries/)到此集合。 使用此方法将系列添加到任何类型的气泡图。
+添加新内容[`ChartSeries`](../../chartseries/)到此集合。 使用此方法将系列添加到任何类型的气泡图。
 
 ```csharp
 public ChartSeries Add(string seriesName, double[] xValues, double[] yValues, double[] bubbleSizes)
@@ -334,26 +337,27 @@ public ChartSeries Add(string seriesName, double[] xValues, double[] yValues, do
 
 ### 例子
 
-展示如何为图表类型创建适当类型的图表系列。
+展示如何为图形类型创建适当类型的图表系列。
 
 ```csharp
+public void ChartSeriesCollection()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // 有几种方法可以填充图表的系列集合。
+    // 有多种方法可以填充图表的系列集合。
     // 不同的系列模式适用于不同的图表类型。
-    // 1 - 柱形图，柱形图按类别沿 X 轴分组和带状：
+    // 1 - 柱形图，其中的柱按类别沿 X 轴分组和排列：
     Chart chart = AppendChart(builder, ChartType.Column, 500, 300);
 
     string[] categories = { "Category 1", "Category 2", "Category 3" };
 
     // 插入两个系列的十进制值，其中包含每个相应类别的值。
-    // 这个柱形图将有三组，每组有两列。
+    // 此柱形图将包含三组，每组有两列。
     chart.Series.Add("Series 1", categories, new [] { 76.6, 82.1, 91.6 });
     chart.Series.Add("Series 2", categories, new [] { 64.2, 79.5, 94.0 });
 
-    // 类别沿 X 轴分布，值沿 Y 轴分布。
+    // 类别沿X轴分布，值沿Y轴分布。
     Assert.AreEqual(ChartAxisType.Category, chart.AxisX.Type);
     Assert.AreEqual(ChartAxisType.Value, chart.AxisY.Type);
 
@@ -367,9 +371,9 @@ public ChartSeries Add(string seriesName, double[] xValues, double[] yValues, do
         new DateTime(2020, 9, 7)
     };
 
-    // 为每个日期插入一个带有十进制值的系列。
+    // 为每个相应日期插入一个带有十进制值的系列。
     // 日期将沿线性 X 轴分布，
-    // 添加到这个系列的值将创建数据点。
+    // 添加到该系列的值将创建数据点。
     chart.Series.Add("Series 1", dates, new [] { 15.8, 21.5, 22.9, 28.7, 33.1 });
 
     Assert.AreEqual(ChartAxisType.Category, chart.AxisX.Type);
@@ -379,8 +383,8 @@ public ChartSeries Add(string seriesName, double[] xValues, double[] yValues, do
     chart = AppendChart(builder, ChartType.Scatter, 500, 300);
 
     // 每个系列都需要两个长度相等的十进制数组。
-    // 第一个数组包含 X 值，第二个包含对应的 Y 值
-    // 图表图形上的数据点。
+    // 第一个数组包含 X 值，第二个数组包含相应的 Y 值
+    // 图表上的数据点。
     chart.Series.Add("Series 1", 
         new[] { 3.1, 3.5, 6.3, 4.1, 2.2, 8.3, 1.2, 3.6 }, 
         new[] { 3.1, 6.3, 4.6, 0.9, 8.5, 4.2, 2.3, 9.9 });
@@ -394,9 +398,9 @@ public ChartSeries Add(string seriesName, double[] xValues, double[] yValues, do
     // 4 - 气泡图：
     chart = AppendChart(builder, ChartType.Bubble, 500, 300);
 
-    // 每个系列都需要三个等长的十进制数组。
-    // 第一个数组包含 X 值，第二个包含对应的 Y 值，
-    // 第三个包含每个图形数据点的直径。
+    // 每个系列需要三个长度相等的十进制数组。
+    // 第一个数组包含 X 值，第二个数组包含相应的 Y 值，
+    // 第三个包含图表每个数据点的直径。
     chart.Series.Add("Series 1", 
         new [] { 1.1, 5.0, 9.8 }, 
         new [] { 1.2, 4.9, 9.9 }, 
@@ -406,7 +410,7 @@ public ChartSeries Add(string seriesName, double[] xValues, double[] yValues, do
 }
 
 /// <summary>
-/// 使用指定 ChartType、宽度和高度的文档构建器插入图表，并删除其演示数据。
+/// 使用指定图表类型、宽度和高度的文档生成器插入图表，并删除其演示数据。
 /// </summary>
 private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, double width, double height)
 {

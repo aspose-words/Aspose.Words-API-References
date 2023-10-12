@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.UlTrailSpace
 second_title: Справочник по API Aspose.Words для .NET
-description: CompatibilityOptions свойство. Подчеркнуть все пробелы в конце.
+description: CompatibilityOptions свойство. Подчеркнуть все конечные пробелы.
 type: docs
 weight: 580
 url: /ru/net/aspose.words.settings/compatibilityoptions/ultrailspace/
 ---
 ## CompatibilityOptions.UlTrailSpace property
 
-Подчеркнуть все пробелы в конце.
+Подчеркнуть все конечные пробелы.
 
 ```csharp
 public bool UlTrailSpace { get; set; }

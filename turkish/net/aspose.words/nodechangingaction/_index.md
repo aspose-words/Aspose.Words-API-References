@@ -3,7 +3,7 @@ title: Enum NodeChangingAction
 second_title: Aspose.Words for .NET API Referansı
 description: Aspose.Words.NodeChangingAction Sıralama. Düğüm değişikliğinin türünü belirtir.
 type: docs
-weight: 3940
+weight: 4180
 url: /tr/net/aspose.words/nodechangingaction/
 ---
 ## NodeChangingAction enumeration
@@ -23,9 +23,10 @@ public enum NodeChangingAction
 
 ### Örnekler
 
-Belge ağacındaki değişiklikleri biz düzenlerken gerçek zamanlı olarak izlemek için NodeChangingCallback'in nasıl kullanılacağını gösterir.
+Belge ağacını düzenlerken gerçek zamanlı olarak yapılan değişiklikleri izlemek için NodeChangingCallback'in nasıl kullanılacağını gösterir.
 
 ```csharp
+public void NodeChangingCallback()
 {
     Document doc = new Document();
     doc.NodeChangingCallback = new NodeChangingPrinter();
@@ -50,7 +51,7 @@ Belge ağacındaki değişiklikleri biz düzenlerken gerçek zamanlı olarak izl
 }
 
 /// <summary>
-/// Her düğüm ekleme/kaldırma işlemini belgede olduğu gibi yazdırır.
+/// Her düğüm ekleme/çıkarma işlemini belgede gerçekleştiği gibi yazdırır.
 /// </summary>
 private class NodeChangingPrinter : INodeChangingCallback
 {

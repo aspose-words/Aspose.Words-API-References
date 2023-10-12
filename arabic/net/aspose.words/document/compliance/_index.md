@@ -1,14 +1,14 @@
 ---
 title: Document.Compliance
 second_title: Aspose.Words لمراجع .NET API
-description: Document ملكية. الحصول على إصدار التوافق OOXML المحدد من محتوى المستند الذي تم تحميله. يكون منطقيًا فقط لمستندات OOXML .
+description: Document ملكية. الحصول على إصدار توافق OOXML المحدد من محتوى المستند الذي تم تحميله. هذا منطقي فقط لمستندات OOXML.
 type: docs
 weight: 60
 url: /ar/net/aspose.words/document/compliance/
 ---
 ## Document.Compliance property
 
-الحصول على إصدار التوافق OOXML المحدد من محتوى المستند الذي تم تحميله. يكون منطقيًا فقط لمستندات OOXML .
+الحصول على إصدار توافق OOXML المحدد من محتوى المستند الذي تم تحميله. هذا منطقي فقط لمستندات OOXML.
 
 ```csharp
 public OoxmlCompliance Compliance { get; }
@@ -16,14 +16,14 @@ public OoxmlCompliance Compliance { get; }
 
 ### ملاحظات
 
-إذا أنشأت مستندًا جديدًا فارغًا أو قمت بتحميل مستند غير OOXML ، فتُرجع document ملفEcma376_2006 القيمة.
+إذا قمت بإنشاء مستند فارغ جديد أو قمت بتحميل مستند غير OOXML، فسيتم إرجاع ملف document Ecma376_2006 قيمة.
 
 ### أمثلة
 
-يوضح كيفية قراءة إصدار التوافق مع Open Office XML للمستند الذي تم تحميله.
+يوضح كيفية قراءة إصدار توافق Open Office XML الخاص بالمستند الذي تم تحميله.
 
 ```csharp
-// يختلف إصدار التوافق بين المستندات التي تم إنشاؤها بواسطة إصدارات مختلفة من Microsoft Word.
+// يختلف إصدار الامتثال بين المستندات التي تم إنشاؤها بواسطة إصدارات مختلفة من Microsoft Word.
 Document doc = new Document(MyDir + "Document.doc");
 
 Assert.AreEqual(doc.Compliance, OoxmlCompliance.Ecma376_2006);

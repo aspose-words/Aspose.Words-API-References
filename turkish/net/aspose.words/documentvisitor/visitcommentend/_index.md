@@ -24,7 +24,7 @@ A[`VisitorAction`](../../visitoraction/) numaralandırmaya nasıl devam edilece�
 
 ### Örnekler
 
-Bir belgedeki her yorum ve yorum aralığının düğüm yapısının nasıl yazdırılacağını gösterir.
+Bir belgedeki her yorumun ve yorum aralığının düğüm yapısının nasıl yazdırılacağını gösterir.
 
 ```csharp
 public void CommentsToText()
@@ -32,17 +32,17 @@ public void CommentsToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     CommentStructurePrinter visitor = new CommentStructurePrinter();
 
-    // Bir belge ziyaretçisini kabul etmek için bir bileşik düğüm aldığımızda, ziyaretçi kabul eden düğümü ziyaret eder,
-    // ve ardından tüm düğümün alt öğelerini derinlik öncelikli bir şekilde çaprazlar.
-    // Ziyaretçi, ziyaret edilen her düğümü okuyabilir ve değiştirebilir.
+    // Bir belge ziyaretçisini kabul edecek bileşik bir düğüm aldığımızda, ziyaretçi kabul eden düğümü ziyaret eder,
+    // ve ardından düğümün tüm alt öğelerini derinlik öncelikli bir şekilde geçer.
+    // Ziyaretçi ziyaret edilen her düğümü okuyabilir ve değiştirebilir.
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 }
 
 /// <summary>
-/// Bir düğümün ikili olmayan alt düğümler ağacında çapraz geçiş yapar.
-/// Karşılaşılan tüm Comment/CommentRange düğümlerinin ve bunların alt öğelerinin bir dizesi biçiminde bir harita oluşturur.
+/// Bir düğümün ikili olmayan alt düğüm ağacını geçer.
+/// Karşılaşılan tüm Comment/CommentRange düğümleri ve bunların alt öğelerinden oluşan bir dize biçiminde bir harita oluşturur.
 /// </summary>
 public class CommentStructurePrinter : DocumentVisitor
 {
@@ -59,7 +59,7 @@ public class CommentStructurePrinter : DocumentVisitor
 
     /// <summary>
     /// Belgede bir Çalıştırma düğümüyle karşılaşıldığında çağrılır.
-    /// Bir Çalıştırma, yalnızca bir Comment veya CommentRange düğümünün alt öğesiyse kaydedilir.
+    /// Bir Çalıştırma yalnızca bir Comment veya CommentRange düğümünün çocuğu ise kaydedilir.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -69,7 +69,7 @@ public class CommentStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede bir CommentRangeStart düğümüyle karşılaşıldığında çağrılır.
+    /// Belgede CommentRangeStart düğümüyle karşılaşıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitCommentRangeStart(CommentRangeStart commentRangeStart)
     {
@@ -81,7 +81,7 @@ public class CommentStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede bir CommentRangeEnd düğümüyle karşılaşıldığında çağrılır.
+    /// Belgede CommentRangeEnd düğümüyle karşılaşıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitCommentRangeEnd(CommentRangeEnd commentRangeEnd)
     {
@@ -106,7 +106,7 @@ public class CommentStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Yorum düğümünün tüm alt düğümleri ziyaret edildikten sonra çağrılır.
+    /// Bir Yorum düğümünün tüm alt düğümleri ziyaret edildikten sonra çağrılır.
     /// </summary>
     public override VisitorAction VisitCommentEnd(Comment comment)
     {
@@ -118,10 +118,10 @@ public class CommentStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// StringBuilder'a bir satır ekleyin ve ziyaretçinin ne kadar derin olduğuna bağlı olarak girinti yapın
+    /// StringBuilder'a bir satır ekleyin ve ziyaretçinin derinliğine bağlı olarak onu girintileyin
     /// bir yorum/yorum aralığının alt düğüm ağacına.
     /// </summary>
-    /// <param name="metin"></param>
+    /// <param adı="metin"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++)

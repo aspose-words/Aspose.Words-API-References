@@ -3,7 +3,7 @@ title: Document.UnlinkFields
 second_title: Aspose.Words for .NET API 参考
 description: Document 方法. 取消链接整个文档中的字段
 type: docs
-weight: 710
+weight: 750
 url: /zh/net/aspose.words/document/unlinkfields/
 ---
 ## Document.UnlinkFields method
@@ -18,7 +18,7 @@ public void UnlinkFields()
 
 将整个文档中的所有字段替换为其最新结果。
 
-要取消链接文档特定部分中的字段，请使用[`UnlinkFields`](../../range/unlinkfields/).
+要取消链接文档特定部分中的字段，请使用[`UnlinkFields`](../../range/unlinkfields/)。
 
 ### 例子
 

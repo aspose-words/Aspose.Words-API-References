@@ -16,7 +16,7 @@ public int Priority { get; }
 
 ### Notlar
 
-Bu değer, farklı font kaynaklarında aynı aile adı ve stile sahip fontlar olduğunda kullanılır. Bu durumda Aspose.Words kaynaktan daha yüksek öncelik değerine sahip fontu seçer.
+Bu değer, farklı font kaynaklarında aynı aile adı ve stiline sahip fontlar bulunduğunda kullanılır. Bu durumda Aspose.Words, kaynaktan öncelik değeri daha yüksek olan fontu seçer.
 
 Varsayılan değer 0'dır.
 

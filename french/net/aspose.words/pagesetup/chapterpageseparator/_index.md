@@ -16,7 +16,21 @@ public ChapterPageSeparator ChapterPageSeparator { get; set; }
 
 ### Remarques
 
-Avant de pouvoir créer des numéros de page qui incluent des numéros de chapitre, les en-têtes de document doivent avoir un format de plan numéroté appliqué.
+Avant de pouvoir créer des numéros de page incluant des numéros de chapitre, les titres du document doivent avoir un format de plan numéroté appliqué.
+
+### Exemples
+
+Montre comment travailler avec les chapitres de page.
+
+```csharp
+Document doc = new Document(MyDir + "Big document.docx");
+
+PageSetup pageSetup = doc.FirstSection.PageSetup;
+
+pageSetup.PageNumberStyle = NumberStyle.UppercaseRoman;
+pageSetup.ChapterPageSeparator = Aspose.Words.ChapterPageSeparator.Colon;
+pageSetup.HeadingLevelForChapter = 1;
+```
 
 ### Voir également
 

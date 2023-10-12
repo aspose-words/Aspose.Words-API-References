@@ -1,14 +1,14 @@
 ---
 title: VariableCollection.Contains
 second_title: Aspose.Words per .NET API Reference
-description: VariableCollection metodo. Determina se la raccolta contiene una variabile del documento con il nome specificato.
+description: VariableCollection metodo. Determina se la raccolta contiene una variabile di documento con il nome specificato.
 type: docs
 weight: 50
 url: /it/net/aspose.words/variablecollection/contains/
 ---
 ## VariableCollection.Contains method
 
-Determina se la raccolta contiene una variabile del documento con il nome specificato.
+Determina se la raccolta contiene una variabile di documento con il nome specificato.
 
 ```csharp
 public bool Contains(string name)
@@ -20,7 +20,7 @@ public bool Contains(string name)
 
 ### Valore di ritorno
 
-Vero se l'articolo viene trovato nella collezione; altrimenti falso.
+`VERO` se l'articolo si trova nella raccolta; Altrimenti,`falso`.
 
 ### Esempi
 
@@ -30,7 +30,7 @@ Mostra come lavorare con la raccolta di variabili di un documento.
 Document doc = new Document();
 VariableCollection variables = doc.Variables;
 
-// Ogni documento ha una raccolta di variabili di coppia chiave/valore, a cui possiamo aggiungere elementi.
+// Ogni documento ha una raccolta di variabili di coppie chiave/valore a cui possiamo aggiungere elementi.
 variables.Add("Home address", "123 Main St.");
 variables.Add("City", "London");
 variables.Add("Bedrooms", "3");
@@ -45,10 +45,10 @@ field.Update();
 
 Assert.AreEqual("123 Main St.", field.Result);
 
-// L'assegnazione di valori alle chiavi esistenti le aggiornerà.
+// L'assegnazione di valori alle chiavi esistenti li aggiornerà.
 variables.Add("Home address", "456 Queen St.");
 
-// Dovremo quindi aggiornare i campi DOCVARIABLE per assicurarci che visualizzino un valore aggiornato.
+// Dovremo quindi aggiornare i campi DOCVARIABLE per garantire che visualizzino un valore aggiornato.
 Assert.AreEqual("123 Main St.", field.Result);
 
 field.Update();
@@ -59,12 +59,12 @@ Assert.AreEqual("456 Queen St.", field.Result);
 Assert.True(variables.Contains("City"));
 Assert.True(variables.Any(v => v.Value == "London"));
 
-// La raccolta di variabili ordina automaticamente le variabili in ordine alfabetico per nome.
+// La raccolta di variabili ordina automaticamente le variabili in ordine alfabetico in base al nome.
 Assert.AreEqual(0, variables.IndexOfKey("Bedrooms"));
 Assert.AreEqual(1, variables.IndexOfKey("City"));
 Assert.AreEqual(2, variables.IndexOfKey("Home address"));
 
-// Enumera sulla raccolta di variabili.
+// Enumera la raccolta di variabili.
 using (IEnumerator<KeyValuePair<string, string>> enumerator = doc.Variables.GetEnumerator())
     while (enumerator.MoveNext())
         Console.WriteLine($"Name: {enumerator.Current.Key}, Value: {enumerator.Current.Value}");

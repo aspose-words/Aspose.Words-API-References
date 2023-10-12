@@ -3,7 +3,7 @@ title: ShapeBase.Name
 second_title: Aspose.Words för .NET API Referens
 description: ShapeBase fast egendom. Hämtar eller ställer in det valfria formnamnet.
 type: docs
-weight: 380
+weight: 400
 url: /sv/net/aspose.words.drawing/shapebase/name/
 ---
 ## ShapeBase.Name property
@@ -18,7 +18,7 @@ public string Name { get; set; }
 
 Standard är tom sträng.
 
-Kan inte vara null, men kan vara en tom sträng.
+Kan inte vara`null`, men kan vara en tom sträng.
 
 ### Exempel
 
@@ -38,6 +38,7 @@ doc.Save(ArtifactsDir + "Shape.AltText.docx");
 // Spara dokumentet i HTML och ta sedan bort den länkade bilden som tillhör vår form.
 // Webbläsaren som läser vår HTML kommer att visa alt-texten i stället för den saknade bilden.
 doc.Save(ArtifactsDir + "Shape.AltText.html");
+File.Delete(ArtifactsDir + "Shape.AltText.001.png");
 ```
 
 ### Se även

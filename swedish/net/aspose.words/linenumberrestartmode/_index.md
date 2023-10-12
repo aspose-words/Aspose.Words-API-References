@@ -3,7 +3,7 @@ title: Enum LineNumberRestartMode
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.LineNumberRestartMode uppräkning. Bestämmer när automatisk radnumrering startar om.
 type: docs
-weight: 3230
+weight: 3430
 url: /sv/net/aspose.words/linenumberrestartmode/
 ---
 ## LineNumberRestartMode enumeration

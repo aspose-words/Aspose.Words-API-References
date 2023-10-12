@@ -1,14 +1,14 @@
 ---
 title: LayoutOptions.ShowHiddenText
 second_title: Aspose.Words for .NET API 参考
-description: LayoutOptions 财产. 获取或设置是否呈现文档中的隐藏文本的指示 默认为 False
+description: LayoutOptions 财产. 获取或设置是否呈现文档中隐藏文本的指示 默认为错误的.
 type: docs
-weight: 70
+weight: 80
 url: /zh/net/aspose.words.layout/layoutoptions/showhiddentext/
 ---
 ## LayoutOptions.ShowHiddenText property
 
-获取或设置是否呈现文档中的隐藏文本的指示。 默认为 False。
+获取或设置是否呈现文档中隐藏文本的指示。 默认为`错误的`.
 
 ```csharp
 public bool ShowHiddenText { get; set; }
@@ -20,12 +20,12 @@ public bool ShowHiddenText { get; set; }
 
 ### 例子
 
-显示如何在呈现的输出文档中隐藏文本。
+演示如何在渲染的输出文档中隐藏文本。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-// 插入隐藏文本，然后指定我们是否希望从呈现的文档中忽略它。
+// 插入隐藏文本，然后指定我们是否希望从呈现的文档中省略它。
 builder.Writeln("This text is not hidden.");
 builder.Font.Hidden = true;
 builder.Writeln("This text is hidden.");

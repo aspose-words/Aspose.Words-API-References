@@ -1,14 +1,14 @@
 ---
 title: RevisionOptions.ShowRevisionBars
 second_title: Référence de l'API Aspose.Words pour .NET
-description: RevisionOptions propriété. Permet de spécifier si les barres de révision doivent être rendues près des lignes contenant du contenu révisé. La valeur par défaut est True.
+description: RevisionOptions propriété. Permet de spécifier si les barres de révision doivent être rendues près des lignes contenant du contenu révisé. La valeur par défaut estvrai .
 type: docs
 weight: 180
 url: /fr/net/aspose.words.layout/revisionoptions/showrevisionbars/
 ---
 ## RevisionOptions.ShowRevisionBars property
 
-Permet de spécifier si les barres de révision doivent être rendues près des lignes contenant du contenu révisé. La valeur par défaut est True.
+Permet de spécifier si les barres de révision doivent être rendues près des lignes contenant du contenu révisé. La valeur par défaut est`vrai` .
 
 ```csharp
 public bool ShowRevisionBars { get; set; }
@@ -16,7 +16,7 @@ public bool ShowRevisionBars { get; set; }
 
 ### Exemples
 
-Montre comment modifier l'apparence des révisions dans un document de sortie rendu.
+Montre comment modifier l’apparence des révisions dans un document de sortie rendu.
 
 ```csharp
 Document doc = new Document();

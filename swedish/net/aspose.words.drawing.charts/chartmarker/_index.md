@@ -3,12 +3,14 @@ title: Class ChartMarker
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Drawing.Charts.ChartMarker klass. Representerar en diagramdatamarkör.
 type: docs
-weight: 710
+weight: 750
 url: /sv/net/aspose.words.drawing.charts/chartmarker/
 ---
 ## ChartMarker class
 
 Representerar en diagramdatamarkör.
+
+För att lära dig mer, besök[Arbeta med diagram](https://docs.aspose.com/words/net/working-with-charts/) dokumentationsartikel.
 
 ```csharp
 public class ChartMarker
@@ -27,7 +29,6 @@ public class ChartMarker
 Visar hur man arbetar med datapunkter på ett linjediagram.
 
 ```csharp
-[Test]
 public void ChartDataPoint()
 {
     Document doc = new Document();

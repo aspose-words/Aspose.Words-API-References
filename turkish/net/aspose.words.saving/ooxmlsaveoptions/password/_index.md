@@ -16,11 +16,11 @@ public string Password { get; set; }
 
 ### Notlar
 
-Belgeyi şifreleme olmadan kaydetmek için bu özellik boş veya boş dize olmalıdır.
+Belgeyi şifrelemeden kaydetmek için bu özelliğin şu şekilde olması gerekir:`hükümsüz` veya boş dize.
 
 ### Örnekler
 
-Parolayla şifrelenmiş Office Open XML belgesinin nasıl oluşturulacağını gösterir.
+Parolayla şifrelenmiş bir Office Açık XML belgesinin nasıl oluşturulacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -32,12 +32,12 @@ saveOptions.Password = "MyPassword";
 
 doc.Save(ArtifactsDir + "OoxmlSaveOptions.Password.docx", saveOptions);
 
-// Bu belgeyi Microsoft Word veya
+// Bu belgeyi Microsoft Word veya ile açamayacağız
 // Aspose.Words doğru şifreyi girmeden.
 Assert.Throws<IncorrectPasswordException>(() =>
     doc = new Document(ArtifactsDir + "OoxmlSaveOptions.Password.docx"));
 
-// Bir LoadOptions nesnesinde doğru parolayı ileterek şifrelenmiş belgeyi açın.
+// LoadOptions nesnesine doğru parolayı ileterek şifrelenmiş belgeyi açın.
 doc = new Document(ArtifactsDir + "OoxmlSaveOptions.Password.docx", new LoadOptions("MyPassword"));
 
 Assert.AreEqual("Hello world!", doc.GetText().Trim());

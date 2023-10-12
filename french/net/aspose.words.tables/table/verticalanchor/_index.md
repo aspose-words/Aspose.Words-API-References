@@ -1,14 +1,14 @@
 ---
 title: Table.VerticalAnchor
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Table propriété. Obtient lobjet de base à partir duquel le positionnement vertical du tableau flottant doit être calculé. La valeur par défaut estMargin .
+description: Table propriété. Obtient lobjet de base à partir duquel le positionnement vertical de la table flottante doit être calculé. La valeur par défaut estMargin .
 type: docs
 weight: 340
 url: /fr/net/aspose.words.tables/table/verticalanchor/
 ---
 ## Table.VerticalAnchor property
 
-Obtient l'objet de base à partir duquel le positionnement vertical du tableau flottant doit être calculé. La valeur par défaut estMargin .
+Obtient l'objet de base à partir duquel le positionnement vertical de la table flottante doit être calculé. La valeur par défaut estMargin .
 
 ```csharp
 public RelativeVerticalPosition VerticalAnchor { get; set; }
@@ -29,11 +29,11 @@ if (table.TextWrapping == TextWrapping.Around)
     Assert.AreEqual(RelativeVerticalPosition.Paragraph, table.VerticalAnchor);
     Assert.AreEqual(false, table.AllowOverlap);
 
-    // Uniquement Margin, Page, Column disponibles dans RelativeHorizontalPosition pour le setter HorizontalAnchor.
+    // Seules les marges, pages et colonnes sont disponibles dans RelativeHorizontalPosition pour le setter HorizontalAnchor.
     // L'ArgumentException sera levée pour toutes les autres valeurs.
     table.HorizontalAnchor = RelativeHorizontalPosition.Column;
 
-    // Uniquement Margin, Page, Paragraph disponible dans RelativeVerticalPosition pour le setter VerticalAnchor.
+    // Seules les marges, pages et paragraphes sont disponibles dans RelativeVerticalPosition pour le setter VerticalAnchor.
     // L'ArgumentException sera levée pour toutes les autres valeurs.
     table.VerticalAnchor = RelativeVerticalPosition.Page;
 }

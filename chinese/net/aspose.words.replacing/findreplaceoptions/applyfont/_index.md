@@ -16,9 +16,10 @@ public Font ApplyFont { get; }
 
 ### 例子
 
-展示如何通过 FindReplaceOptions 将不同的字体应用于新内容。
+演示如何通过 FindReplaceOptions 将不同的字体应用于新内容。
 
 ```csharp
+public void ConvertNumbersToHexadecimal()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);

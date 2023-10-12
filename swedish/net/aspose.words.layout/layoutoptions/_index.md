@@ -3,12 +3,14 @@ title: Class LayoutOptions
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Layout.LayoutOptions klass. Innehåller alternativen som tillåter styrning av dokumentlayoutprocessen.
 type: docs
-weight: 3150
+weight: 3350
 url: /sv/net/aspose.words.layout/layoutoptions/
 ---
 ## LayoutOptions class
 
 Innehåller alternativen som tillåter styrning av dokumentlayoutprocessen.
+
+För att lära dig mer, besök[Konvertera till fastsidesformat](https://docs.aspose.com/words/net/converting-to-fixed-page-format/) dokumentationsartikel.
 
 ```csharp
 public class LayoutOptions
@@ -24,18 +26,19 @@ public class LayoutOptions
 
 | namn | Beskrivning |
 | --- | --- |
-| [Callback](../../aspose.words.layout/layoutoptions/callback/) { get; set; } | Hämtar eller sätter[`IPageLayoutCallback`](../ipagelayoutcallback/)implementering som används av sidlayoutmodellen. |
+| [Callback](../../aspose.words.layout/layoutoptions/callback/) { get; set; } | Hämtar eller sätter[`IPageLayoutCallback`](../ipagelayoutcallback/) implementering som används av sidlayoutmodellen. |
 | [CommentDisplayMode](../../aspose.words.layout/layoutoptions/commentdisplaymode/) { get; set; } | Hämtar eller ställer in hur kommentarer renderas. Standardvärdet ärShowInBalloons . |
 | [ContinuousSectionPageNumberingRestart](../../aspose.words.layout/layoutoptions/continuoussectionpagenumberingrestart/) { get; set; } | Hämtar eller ställer in beteendet för beräkning av sidnummer när ett kontinuerligt avsnitt startar om sidnumreringen. |
-| [IgnorePrinterMetrics](../../aspose.words.layout/layoutoptions/ignoreprintermetrics/) { get; set; } | Hämtar eller ställer in en indikation på om kompatibilitetsalternativet "Använd skrivarmått för att lägga ut dokument" ignoreras. Standard är True. |
+| [IgnorePrinterMetrics](../../aspose.words.layout/layoutoptions/ignoreprintermetrics/) { get; set; } | Hämtar eller ställer in en indikation på om kompatibilitetsalternativet "Använd skrivarmått för att lägga ut dokument" ignoreras. Standard är`Sann` . |
+| [KeepOriginalFontMetrics](../../aspose.words.layout/layoutoptions/keeporiginalfontmetrics/) { get; set; } | Hämtar eller ställer in en indikation på huruvida den ursprungliga teckensnittsmåtten ska användas efter teckensnittsersättning. Standard är`Sann` . |
 | [RevisionOptions](../../aspose.words.layout/layoutoptions/revisionoptions/) { get; } | Får versionsalternativ. |
-| [ShowHiddenText](../../aspose.words.layout/layoutoptions/showhiddentext/) { get; set; } | Hämtar eller ställer in en indikation på om dold text i dokumentet renderas. Standard är False. |
-| [ShowParagraphMarks](../../aspose.words.layout/layoutoptions/showparagraphmarks/) { get; set; } | Hämtar eller ställer in en indikation på om stycketecken renderas. Standard är False. |
+| [ShowHiddenText](../../aspose.words.layout/layoutoptions/showhiddentext/) { get; set; } | Hämtar eller ställer in en indikation på om dold text i dokumentet renderas. Standard är`falsk` . |
+| [ShowParagraphMarks](../../aspose.words.layout/layoutoptions/showparagraphmarks/) { get; set; } | Hämtar eller ställer in en indikation på om stycketecken återges. Standard är`falsk` . |
 | [TextShaperFactory](../../aspose.words.layout/layoutoptions/textshaperfactory/) { get; set; } | Hämtar eller sätter[`ITextShaperFactory`](../../aspose.words.shaping/itextshaperfactory/) implementering som används för avancerade typografirenderingsfunktioner. |
 
 ### Anmärkningar
 
-Du skapar inte instanser av den här klassen direkt. Använd[`LayoutOptions`](../../aspose.words/document/layoutoptions/)egenskap för att komma åt layoutalternativ för detta dokument.
+Du skapar inte instanser av den här klassen direkt. Använd[`LayoutOptions`](../../aspose.words/document/layoutoptions/) egenskap för att komma åt layoutalternativ för detta dokument.
 
 Observera att efter att ha ändrat något av alternativen som finns i den här klassen,[`UpdatePageLayout`](../../aspose.words/document/updatepagelayout/) method ska anropas för att de ändrade alternativen ska tillämpas på layouten.
 

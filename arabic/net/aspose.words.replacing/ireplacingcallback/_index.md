@@ -1,14 +1,14 @@
 ---
 title: Interface IReplacingCallback
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Replacing.IReplacingCallback واجهه المستخدم. قم بتنفيذ هذه الواجهة إذا كنت تريد استدعاء طريقتك المخصصة أثناء عملية البحث والاستبدال.
+description: Aspose.Words.Replacing.IReplacingCallback واجهه المستخدم. قم بتنفيذ هذه الواجهة إذا كنت تريد أن يكون لديك طريقتك المخصصة التي يتم استدعاؤها أثناء عملية البحث والاستبدال.
 type: docs
-weight: 4370
+weight: 4630
 url: /ar/net/aspose.words.replacing/ireplacingcallback/
 ---
 ## IReplacingCallback interface
 
-قم بتنفيذ هذه الواجهة إذا كنت تريد استدعاء طريقتك المخصصة أثناء عملية البحث والاستبدال.
+قم بتنفيذ هذه الواجهة إذا كنت تريد أن يكون لديك طريقتك المخصصة التي يتم استدعاؤها أثناء عملية البحث والاستبدال.
 
 ```csharp
 public interface IReplacingCallback
@@ -18,13 +18,14 @@ public interface IReplacingCallback
 
 | اسم | وصف |
 | --- | --- |
-| [Replacing](../../aspose.words.replacing/ireplacingcallback/replacing/)(ReplacingArgs) | طريقة يحددها المستخدم يتم استدعاؤها أثناء عملية الاستبدال لكل تطابق يتم العثور عليه قبل إجراء الاستبدال. |
+| [Replacing](../../aspose.words.replacing/ireplacingcallback/replacing/)(ReplacingArgs) | طريقة يحددها المستخدم يتم استدعاؤها أثناء عملية الاستبدال لكل تطابق تم العثور عليه قبل إجراء الاستبدال مباشرةً. |
 
 ### أمثلة
 
-يوضح كيفية استبدال كل تكرارات نمط التعبير العادي بسلسلة أخرى ، أثناء تتبع كل هذه الاستبدالات.
+يوضح كيفية استبدال كافة تكرارات نمط التعبير العادي بسلسلة أخرى، مع تتبع كل هذه الاستبدالات.
 
 ```csharp
+public void ReplaceWithCallback()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -35,7 +36,7 @@ public interface IReplacingCallback
     // يمكننا استخدام كائن "FindReplaceOptions" لتعديل عملية البحث والاستبدال.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // تعيين رد اتصال يتتبع أي بدائل تقوم بها طريقة "استبدال".
+    // قم بتعيين رد اتصال يتتبع أي بدائل ستجريها طريقة "الاستبدال".
     TextFindAndReplacementLogger logger = new TextFindAndReplacementLogger();
     options.ReplacingCallback = logger;
 
@@ -50,7 +51,7 @@ public interface IReplacingCallback
 
 /// <summary>
 /// يحتفظ بسجل لكل استبدال نص يتم إجراؤه بواسطة عملية البحث والاستبدال
-/// ويلاحظ قيمة النص المتطابق الأصلي.
+/// ويلاحظ قيمة النص المطابق الأصلي.
 /// </summary>
 private class TextFindAndReplacementLogger : IReplacingCallback
 {
@@ -72,7 +73,7 @@ private class TextFindAndReplacementLogger : IReplacingCallback
 }
 ```
 
-يوضح كيفية تعقب الترتيب الذي تتجاوز به عملية استبدال النص العقد.
+يوضح كيفية تتبع الترتيب الذي تعبر به عملية استبدال النص العقد.
 
 ```csharp
 public void Order(bool differentFirstPageHeaderFooter)
@@ -84,7 +85,7 @@ public void Order(bool differentFirstPageHeaderFooter)
             ReplaceLog logger = new ReplaceLog();
             FindReplaceOptions options = new FindReplaceOptions { ReplacingCallback = logger };
 
-            // سيؤثر استخدام رأس / تذييل مختلف للصفحة الأولى على ترتيب البحث.
+            // سيؤثر استخدام رأس/تذييل مختلف للصفحة الأولى على ترتيب البحث.
             firstPageSection.PageSetup.DifferentFirstPageHeaderFooter = differentFirstPageHeaderFooter;
             doc.Range.Replace(new Regex("(header|footer)"), "", options);
 
@@ -104,9 +105,9 @@ public void Order(bool differentFirstPageHeaderFooter)
         }
 
         /// <summary>
-        /// أثناء عملية البحث والاستبدال ، يسجل محتويات كل عقدة تحتوي على نص "تعثر عليه" العملية ،
-        /// في الحالة التي كانت عليها قبل حدوث الاستبدال.
-        /// سيعرض هذا الترتيب الذي تتجاوز به عملية استبدال النص العقد.
+        /// أثناء عملية البحث والاستبدال، يتم تسجيل محتويات كل عقدة تحتوي على نص "تجده" العملية،
+        /// في الحالة التي كان عليها قبل حدوث الاستبدال.
+        /// سيعرض هذا الترتيب الذي تعبر به عملية استبدال النص العقد.
         /// </summary>
         private class ReplaceLog : IReplacingCallback
         {
@@ -125,6 +126,7 @@ public void Order(bool differentFirstPageHeaderFooter)
 يوضح كيفية إدراج محتويات المستند بالكامل كبديل لمطابقة في عملية البحث والاستبدال.
 
 ```csharp
+public void InsertDocumentAtReplace()
 {
     Document mainDoc = new Document(MyDir + "Document insertion destination.docx");
 
@@ -134,6 +136,8 @@ public void Order(bool differentFirstPageHeaderFooter)
 
     mainDoc.Range.Replace(new Regex("\\[MY_DOCUMENT\\]"), "", options);
     mainDoc.Save(ArtifactsDir + "InsertDocument.InsertDocumentAtReplace.docx");
+
+}
 
 private class InsertDocumentAtReplaceHandler : IReplacingCallback
 {
@@ -145,7 +149,7 @@ private class InsertDocumentAtReplaceHandler : IReplacingCallback
         Paragraph para = (Paragraph)args.MatchNode.ParentNode;
         InsertDocument(para, subDoc);
 
-        // إزالة الفقرة مع النص المتطابق.
+        // قم بإزالة الفقرة التي تحتوي على النص المطابق.
         para.Remove();
 
         return ReplaceAction.Skip;
@@ -153,7 +157,7 @@ private class InsertDocumentAtReplaceHandler : IReplacingCallback
 }
 
 /// <summary>
-/// يُدرج كل عقد مستند آخر بعد فقرة أو جدول.
+/// إدراج كافة العقد في مستند آخر بعد فقرة أو جدول.
 /// </summary>
 private static void InsertDocument(Node insertionDestination, Document docToInsert)
 {

@@ -16,7 +16,7 @@ public int Id { get; }
 
 ### Observaciones
 
-La región debe ser delimitada utilizando el[`EditableRangeStart`](../editablerangestart/) y[`EditableRangeEnd`](../editablerangeend/)
+La región debe ser demarcada utilizando el[`EditableRangeStart`](../editablerangestart/) y[`EditableRangeEnd`](../editablerangeend/)
 
 Se supone que los identificadores de rango editables son únicos en un documento y Aspose.Words automáticamente mantiene identificadores de rango editables al cargar, guardar y combinar documentos.
 
@@ -32,7 +32,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world! Since we have set the document's protection level to read-only," +
                 " we cannot edit this paragraph without the password.");
 
-// Los rangos editables nos permiten dejar partes de documentos protegidos abiertos para su edición.
+// Los rangos editables nos permiten dejar partes de documentos protegidos abiertas para su edición.
 EditableRangeStart editableRangeStart = builder.StartEditableRange();
 builder.Writeln("This paragraph is inside an editable range, and can be edited.");
 EditableRangeEnd editableRangeEnd = builder.EndEditableRange();
@@ -50,8 +50,8 @@ Assert.AreEqual(editableRangeStart.Id, editableRangeEnd.EditableRangeStart.Id);
 Assert.AreEqual(editableRange.Id, editableRangeStart.EditableRange.Id);
 Assert.AreEqual(editableRangeEnd.Id, editableRange.EditableRangeEnd.Id);
 
-// Podemos acceder a los tipos de nodos de cada parte así. El rango editable en sí no es un nodo,
-// sino una entidad que consta de un comienzo, un final y sus contenidos adjuntos.
+// Podemos acceder a los tipos de nodos de cada parte de esta manera. El rango editable en sí no es un nodo,
+// sino una entidad que consta de un inicio, un final y su contenido adjunto.
 Assert.AreEqual(NodeType.EditableRangeStart, editableRangeStart.NodeType);
 Assert.AreEqual(NodeType.EditableRangeEnd, editableRangeEnd.NodeType);
 

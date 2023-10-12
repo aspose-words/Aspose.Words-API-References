@@ -22,7 +22,7 @@ Mostra come aprire documenti utilizzando la classe ComHelper.
 // La classe ComHelper ci consente di caricare documenti dai client COM.
 ComHelper comHelper = new ComHelper();
 
-// 1 - Utilizzo di un nome file di sistema locale:
+// 1 - Utilizzando un nome file di sistema locale:
 Document doc = comHelper.Open(MyDir + "Document.docx");
 
 Assert.AreEqual("Hello World!\r\rHello Word!\r\r\rHello World!", doc.GetText().Trim());

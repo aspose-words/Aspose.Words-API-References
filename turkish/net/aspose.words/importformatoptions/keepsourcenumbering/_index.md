@@ -1,14 +1,14 @@
 ---
 title: ImportFormatOptions.KeepSourceNumbering
 second_title: Aspose.Words for .NET API Referansı
-description: ImportFormatOptions mülk. Kaynak ve hedef belgelerde çakıştığında numaralandırmanın nasıl içe aktarılacağını belirten bir boole değeri alır veya ayarlar. Varsayılan değeryanlış .
+description: ImportFormatOptions mülk. Kaynak ve hedef belgelerde çakıştığında numaralandırmanın nasıl içe aktarılacağını belirten bir boole değeri alır veya ayarlar. Varsayılan değerYANLIŞ .
 type: docs
-weight: 50
+weight: 60
 url: /tr/net/aspose.words/importformatoptions/keepsourcenumbering/
 ---
 ## ImportFormatOptions.KeepSourceNumbering property
 
-Kaynak ve hedef belgelerde çakıştığında numaralandırmanın nasıl içe aktarılacağını belirten bir boole değeri alır veya ayarlar. Varsayılan değer`yanlış` .
+Kaynak ve hedef belgelerde çakıştığında numaralandırmanın nasıl içe aktarılacağını belirten bir boole değeri alır veya ayarlar. Varsayılan değer:`YANLIŞ` .
 
 ```csharp
 public bool KeepSourceNumbering { get; set; }
@@ -16,14 +16,14 @@ public bool KeepSourceNumbering { get; set; }
 
 ### Örnekler
 
-Aynı liste tanımı tanımlayıcısına sahip listeleri olan belgeleri içe aktarırken bir çakışmanın nasıl çözüleceğini gösterir.
+Aynı liste tanımı tanımlayıcısına sahip listeleri içe aktarırken çakışmanın nasıl çözüleceğini gösterir.
 
 ```csharp
 Document srcDoc = new Document(MyDir + "List with the same definition identifier - source.docx");
 Document dstDoc = new Document(MyDir + "List with the same definition identifier - destination.docx");
 
 // Farklı bir liste tanımı kimliği uygulamak için "KeepSourceNumbering" özelliğini "true" olarak ayarlayın
-// Aspose.Words onları hedef belgelere aktarırken aynı stillere.
+// Aspose.Words'ün bunları hedef belgelere aktarmasıyla aynı stillere.
 ImportFormatOptions importFormatOptions = new ImportFormatOptions { KeepSourceNumbering = true };
 
 dstDoc.AppendDocument(srcDoc, ImportFormatMode.UseDestinationStyles, importFormatOptions);
@@ -40,10 +40,10 @@ Assert.AreEqual(4, dstDoc.Lists.Count);
 
 ImportFormatOptions options = new ImportFormatOptions();
 
-// Liste stilleri çakışıyorsa, kaynak belgenin liste biçimini uygulayın.
-// Hedef belgeye herhangi bir liste numarası almamak için "KeepSourceNumbering" özelliğini "false" olarak ayarlayın.
-// "KeepSourceNumbering" özelliğini "true" olarak ayarlayın, tüm çakışmaları içe aktarın
-// kaynak belgedekiyle aynı görünüme sahip stil numaralandırmasını listele.
+// Liste stilleri arasında çakışma varsa kaynak belgenin liste formatını uygulayın.
+// Liste numaralarını hedef belgeye aktarmamak için "KeepSourceNumbering" özelliğini "false" olarak ayarlayın.
+// "KeepSourceNumbering" özelliğini "true" olarak ayarlayarak tüm çakışmaları içe aktarın
+// kaynak belgedekiyle aynı görünüme sahip stil numaralandırmasını listeleyin.
 options.KeepSourceNumbering = isKeepSourceNumbering;
 
 dstDoc.AppendDocument(srcDoc, ImportFormatMode.KeepSourceFormatting, options);
@@ -55,18 +55,18 @@ Assert.AreEqual(isKeepSourceNumbering ? 5 : 4, dstDoc.Lists.Count);
 Kaynak ve hedef belgelerdeki liste numaralandırma çakışmalarının nasıl çözüleceğini gösterir.
 
 ```csharp
-// Özel liste numaralandırma şemasına sahip bir belge açın ve ardından onu klonlayın.
+// Özel liste numaralandırma şemasına sahip bir belge açın ve ardından kopyalayın.
 // Her ikisi de aynı numaralandırma formatına sahip olduğundan, bir belgeyi diğerine aktarırsak formatlar çakışacaktır.
 Document srcDoc = new Document(MyDir + "Custom list numbering.docx");
 Document dstDoc = srcDoc.Clone();
 
-// Belgenin klonunu orijinale aktardığımızda ve ardından onu eklediğimizde,
-// daha sonra aynı liste formatına sahip iki liste birleşecek.
-// "KeepSourceNumbering" bayrağını "false" olarak ayarlarsak, o zaman belge klonundaki liste
-// orijinaline eklediğimiz, onu eklediğimiz listenin numaralandırmasını sürdürecektir.
-// Bu, iki listeyi etkin bir şekilde tek bir listede birleştirir.
-// "KeepSourceNumbering" bayrağını "true" olarak ayarlarsak, belge klonu
-// list, orijinal numaralandırmasını koruyarak iki listenin ayrı listeler olarak görünmesini sağlar. 
+// Belgenin klonunu orijinale aktarıp eklediğimizde,
+// aynı liste formatına sahip iki liste birleşecek.
+// "KeepSourceNumbering" bayrağını "false" olarak ayarlarsak, belge klonundaki liste
+// orijinale eklediğimiz, eklediğimiz listenin numaralandırmasını taşıyacaktır.
+// Bu, iki listeyi etkili bir şekilde tek bir listede birleştirecektir.
+// "KeepSourceNumbering" bayrağını "true" olarak ayarlarsak belge klonu
+ // liste orijinal numaralandırmasını koruyacak ve iki listenin ayrı listeler olarak görünmesini sağlayacaktır.
 ImportFormatOptions importFormatOptions = new ImportFormatOptions();
 importFormatOptions.KeepSourceNumbering = keepSourceNumbering;
 

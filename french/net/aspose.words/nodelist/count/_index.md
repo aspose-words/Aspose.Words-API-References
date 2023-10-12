@@ -16,13 +16,13 @@ public int Count { get; }
 
 ### Exemples
 
-Montre comment utiliser XPaths pour naviguer dans une NodeList.
+Montre comment utiliser XPaths pour parcourir une NodeList.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Insérer des nœuds avec un DocumentBuilder.
+// Insère quelques nœuds avec un DocumentBuilder.
 builder.Writeln("Hello world!");
 
 builder.StartTable();
@@ -47,7 +47,7 @@ Assert.True(nodeList.Any(n => n.GetText().Trim() == "Hello world!"));
 Assert.True(nodeList.Any(n => n.GetText().Trim() == "Cell 1"));
 Assert.True(nodeList.Any(n => n.GetText().Trim() == "Cell 2"));
 
-// Utilisez une double barre oblique pour sélectionner tous les nœuds d'exécution
+// Utilisez une double barre oblique pour sélectionner tous les nœuds Run
 // qui sont des descendants indirects d'un nœud Table, qui seraient les exécutions à l'intérieur des deux cellules que nous avons insérées.
 nodeList = doc.SelectNodes("//Table//Courir");
 
@@ -56,11 +56,11 @@ Assert.True(nodeList.Any(n => n.GetText().Trim() == "Cell 1"));
 Assert.True(nodeList.Any(n => n.GetText().Trim() == "Cell 2"));
 
 // Les barres obliques simples spécifient les relations descendantes directes,
-// que nous avons sauté lorsque nous avons utilisé des doubles barres obliques.
+// que nous avons ignoré lorsque nous avons utilisé des doubles barres obliques.
 Assert.AreEqual(doc.SelectNodes(" //Table//Exécuter"),
-    doc.SelectNodes("//Table/Ligne/Cellule/Paragraphe/Exécuter") );
+    doc.SelectNodes("//Tableau/Ligne/Cellule/Paragraphe/Exécuter"));
 
-// Accéder à la forme qui contient l'image que nous avons insérée.
+// Accédez à la forme qui contient l'image que nous avons insérée.
 nodeList = doc.SelectNodes("//Forme");
 
 Assert.AreEqual(1, nodeList.Count);

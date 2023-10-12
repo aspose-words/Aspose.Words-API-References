@@ -1,14 +1,14 @@
 ---
 title: SaveOptions.UseHighQualityRendering
 second_title: Aspose.Words لمراجع .NET API
-description: SaveOptions ملكية. الحصول على أو تعيين قيمة تحدد ما إذا كان سيتم استخدام خوارزميات عرض عالية الجودة أي بطيئة أم لا.
+description: SaveOptions ملكية. الحصول على قيمة أو تعيينها لتحديد ما إذا كان سيتم استخدام خوارزميات عرض عالية الجودة أي بطيئة أم لا.
 type: docs
-weight: 220
+weight: 200
 url: /ar/net/aspose.words.saving/saveoptions/usehighqualityrendering/
 ---
 ## SaveOptions.UseHighQualityRendering property
 
-الحصول على أو تعيين قيمة تحدد ما إذا كان سيتم استخدام خوارزميات عرض عالية الجودة (أي بطيئة) أم لا.
+الحصول على قيمة أو تعيينها لتحديد ما إذا كان سيتم استخدام خوارزميات عرض عالية الجودة (أي بطيئة) أم لا.
 
 ```csharp
 public bool UseHighQualityRendering { get; set; }
@@ -16,13 +16,13 @@ public bool UseHighQualityRendering { get; set; }
 
 ### ملاحظات
 
-القيمة الافتراضية هي`خاطئة` .
+القيمة الافتراضية هي`خطأ شنيع` .
 
-تُستخدم هذه الخاصية عند تصدير المستند إلى تنسيقات الصور: Tiff وPng وBmp ، Jpeg وEmf.
+يتم استخدام هذه الخاصية عند تصدير المستند إلى تنسيقات الصور: Tiff ,Png ,BmpJpeg ,Emf.
 
 ### أمثلة
 
-يوضح كيفية تحسين جودة المستند الذي تم تقديمه باستخدام SaveOptions.
+يوضح كيفية تحسين جودة المستند المعروض باستخدام SaveOptions.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
@@ -32,7 +32,6 @@ builder.Font.Size = 60;
 builder.Writeln("Some text.");
 
 SaveOptions options = new ImageSaveOptions(SaveFormat.Jpeg);
-
 doc.Save(ArtifactsDir + "Document.ImageSaveOptions.Default.jpg", options);
 
 options.UseAntiAliasing = true;

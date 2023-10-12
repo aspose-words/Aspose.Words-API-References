@@ -1,14 +1,14 @@
 ---
 title: Cell.ParentRow
 second_title: Aspose.Words لمراجع .NET API
-description: Cell ملكية. إرجاع الصف الأصل للخلية.
+description: Cell ملكية. إرجاع الصف الأصلي للخلية.
 type: docs
-weight: 90
+weight: 100
 url: /ar/net/aspose.words.tables/cell/parentrow/
 ---
 ## Cell.ParentRow property
 
-إرجاع الصف الأصل للخلية.
+إرجاع الصف الأصلي للخلية.
 
 ```csharp
 public Row ParentRow { get; }
@@ -16,7 +16,7 @@ public Row ParentRow { get; }
 
 ### ملاحظات
 
-أي ما يعادل`(صف) FirstNonMarkupParentNode`.
+أي ما يعادلFirstNonMarkupParentNode يلقي ل[`Row`](../../row/).
 
 ### أمثلة
 
@@ -26,8 +26,8 @@ public Row ParentRow { get; }
 Document doc = new Document(MyDir + "Table spanning two pages.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
-// تمكين KeepWithNext لكل فقرة في الجدول باستثناء ملف
-// الأخيرة في الصف الأخير ستمنع الجدول من الانقسام عبر صفحات متعددة.
+// تمكين KeepWithNext لكل فقرة في الجدول باستثناء فقرة
+// آخر العناصر الموجودة في الصف الأخير ستمنع تقسيم الجدول عبر صفحات متعددة.
 foreach (Cell cell in table.GetChildNodes(NodeType.Cell, true).OfType<Cell>())
     foreach (Paragraph para in cell.Paragraphs.OfType<Paragraph>())
     {

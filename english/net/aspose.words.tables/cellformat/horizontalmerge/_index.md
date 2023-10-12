@@ -5,7 +5,7 @@ articleTitle: HorizontalMerge
 second_title: Aspose.Words for .NET
 description: CellFormat HorizontalMerge property. Specifies how the cell is merged horizontally with other cells in the row in C#.
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.words.tables/cellformat/horizontalmerge/
 ---
 ## CellFormat.HorizontalMerge property

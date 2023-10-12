@@ -3,7 +3,7 @@ title: Enum DigitalSignatureType
 second_title: Aspose.Words per .NET API Reference
 description: Aspose.Words.DigitalSignatures.DigitalSignatureType enum. Specifica il tipo di firma digitale.
 type: docs
-weight: 390
+weight: 400
 url: /it/net/aspose.words.digitalsignatures/digitalsignaturetype/
 ---
 ## DigitalSignatureType enumeration
@@ -19,7 +19,7 @@ public enum DigitalSignatureType
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
 | Unknown | `0` | Indica un errore, tipo di firma digitale sconosciuto. |
-| CryptoApi | `1` | Il metodo di firma dell'API Crypto utilizzato nei documenti binari di Microsoft Word 97-2003 .DOC. |
+| CryptoApi | `1` | Il metodo di firma API Crypto utilizzato nei documenti binari Microsoft Word 97-2003 .DOC. |
 | XmlDsig | `2` | Il metodo di firma XmlDsig utilizzato nei documenti OOXML e OpenDocument. |
 
 ### Esempi
@@ -30,7 +30,7 @@ Mostra come firmare documenti con certificati X.509.
 // Verifica che un documento non sia firmato.
 Assert.False(FileFormatUtil.DetectFileFormat(MyDir + "Document.docx").HasDigitalSignature);
 
-// Crea un oggetto CertificateHolder da un file PKCS12, che useremo per firmare il documento.
+// Crea un oggetto CertificateHolder da un file PKCS12, che utilizzeremo per firmare il documento.
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 
 // Esistono due modi per salvare una copia firmata di un documento nel file system locale:

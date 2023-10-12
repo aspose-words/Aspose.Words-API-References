@@ -3,7 +3,7 @@ title: CellFormat.PreferredWidth
 second_title: Referencia de API de Aspose.Words para .NET
 description: CellFormat propiedad. Devuelve o establece el ancho preferido de la celda.
 type: docs
-weight: 70
+weight: 80
 url: /es/net/aspose.words.tables/cellformat/preferredwidth/
 ---
 ## CellFormat.PreferredWidth property
@@ -16,7 +16,7 @@ public PreferredWidth PreferredWidth { get; set; }
 
 ### Observaciones
 
-El ancho preferido (junto con la opción Ajuste automático de la tabla) determina cómo el algoritmo de diseño de la tabla calcula el ancho real de la celda. El diseño de la tabla puede ser realizado por Aspose.Words cuando guarda el documento o por Microsoft Word cuando muestra el documento.
+El ancho preferido (junto con la opción Ajuste automático de la tabla) determina cómo el algoritmo de diseño de la tabla calcula el ancho real de la celda. El diseño de la tabla se puede realizar mediante Aspose.Words cuando guarda el documento o mediante Microsoft Word cuando muestra el documento.
 
 El ancho preferido se puede especificar en puntos o en porcentaje. El ancho preferido también se puede especificar como "auto", lo que significa que no se especifica ningún ancho preferido.
 
@@ -32,13 +32,13 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Table table = builder.StartTable();
 
 // Hay dos formas de aplicar la clase "PreferredWidth" a las celdas de la tabla.
-// 1 - Establecer un ancho preferido absoluto basado en puntos:
+// 1 - Establece un ancho preferido absoluto basado en puntos:
 builder.InsertCell();
 builder.CellFormat.PreferredWidth = PreferredWidth.FromPoints(40);
 builder.CellFormat.Shading.BackgroundPatternColor = Color.LightYellow;
 builder.Writeln($"Cell with a width of {builder.CellFormat.PreferredWidth}.");
 
-// 2 - Establecer un ancho preferido relativo basado en el porcentaje del ancho de la tabla:
+// 2 - Establece un ancho relativo preferido basado en el porcentaje del ancho de la tabla:
 builder.InsertCell();
 builder.CellFormat.PreferredWidth = PreferredWidth.FromPercent(20);
 builder.CellFormat.Shading.BackgroundPatternColor = Color.LightBlue;

@@ -22,15 +22,15 @@ Muestra cómo insertar un campo y trabajar con su configuración regional.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inserte un campo de FECHA y luego imprima la fecha que se mostrará.
-// La cultura actual de su hilo determina el formato de la fecha.
+// Inserte un campo FECHA y luego imprima la fecha que se mostrará.
+// La cultura actual de tu hilo determina el formato de la fecha.
 Field field = builder.InsertField(@"DATE");
 Console.WriteLine($"Today's date, as displayed in the \"{CultureInfo.CurrentCulture.EnglishName}\" culture: {field.Result}");
 
 Assert.AreEqual(1033, field.LocaleId);
 // Cambiar la cultura de nuestro hilo afectará el resultado del campo FECHA.
 // Otra forma de hacer que el campo FECHA muestre una fecha en una cultura diferente es usar su propiedad LocaleId.
-// Esta forma nos permite evitar cambiar la cultura del hilo para conseguir este efecto.
+// De esta manera nos permite evitar cambiar la cultura del hilo para lograr este efecto.
 doc.FieldOptions.FieldUpdateCultureSource = FieldUpdateCultureSource.FieldCode;
 CultureInfo de = new CultureInfo("de-DE");
 field.LocaleId = de.LCID;

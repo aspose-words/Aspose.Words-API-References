@@ -3,7 +3,7 @@ title: Document.Watermark
 second_title: Aspose.Words for .NET API 参考
 description: Document 财产. 提供对文档水印的访问
 type: docs
-weight: 460
+weight: 480
 url: /zh/net/aspose.words/document/watermark/
 ---
 ## Document.Watermark property

@@ -1,12 +1,14 @@
 ---
 title: Class Cluster
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Shaping.Cluster сорт. 
+description: Aspose.Words.Shaping.Cluster сорт. Инкапсулирует кодовые точки и глифы составляющие графему.
 type: docs
-weight: 5710
+weight: 6010
 url: /ru/net/aspose.words.shaping/cluster/
 ---
 ## Cluster class
+
+Инкапсулирует кодовые точки и глифы, составляющие графему.
 
 ```csharp
 public class Cluster
@@ -16,24 +18,24 @@ public class Cluster
 
 | Имя | Описание |
 | --- | --- |
-| [Cluster](cluster/)(int[], Glyph[]) |  |
+| [Cluster](cluster/)(int[], Glyph[]) | Инициализирует новый экземпляр этого класса. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Codepoints](../../aspose.words.shaping/cluster/codepoints/) { get; } |  |
-| [CodepointsLength](../../aspose.words.shaping/cluster/codepointslength/) { get; } |  |
-| [Glyphs](../../aspose.words.shaping/cluster/glyphs/) { get; } |  |
+| [Codepoints](../../aspose.words.shaping/cluster/codepoints/) { get; } | Получает коды кластера. |
+| [CodepointsLength](../../aspose.words.shaping/cluster/codepointslength/) { get; } | Получает общее количество кодовых точек в`Cluster` . |
+| [Glyphs](../../aspose.words.shaping/cluster/glyphs/) { get; } | Получает глифы кластера. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [DeepClone](../../aspose.words.shaping/cluster/deepclone/)() |  |
-| [GetString](../../aspose.words.shaping/cluster/getstring/)() |  |
-| [GetWidth](../../aspose.words.shaping/cluster/getwidth/)(int, float) |  |
-| static [GetString](../../aspose.words.shaping/cluster/getstring/)(Cluster[]) |  |
+| [DeepClone](../../aspose.words.shaping/cluster/deepclone/)() | Возвращает глубокий клон этого экземпляра. |
+| [GetString](../../aspose.words.shaping/cluster/getstring/)() | СоздаетString используя кодовые точки из этого кластера. |
+| [GetWidth](../../aspose.words.shaping/cluster/getwidth/)(int, float) | Возвращает ширину кластера. |
+| static [GetString](../../aspose.words.shaping/cluster/getstring/)(Cluster[]) | СоздаетString используя кодовые точки из указанных кластеров. |
 
 ### Смотрите также
 

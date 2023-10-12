@@ -16,7 +16,7 @@ public bool AutofitToFirstFixedWidthCell { get; set; }
 
 ### Observaciones
 
-La opción se llama "Usar reglas de ajuste automático de tablas de Word 2003" en la interfaz de usuario de MS Word 2013. En realidad, también afecta la forma en que se calcula la cuadrícula para las tablas de diseño fijo (en algunos casos).
+La opción se llama "Usar reglas de ajuste automático de tablas de Word 2003" en la interfaz de usuario de MS Word 2013. En realidad, también afecta la forma en que se calcula la cuadrícula para tablas de diseño fijo (en algunos casos).
 
 ### Ver también
 

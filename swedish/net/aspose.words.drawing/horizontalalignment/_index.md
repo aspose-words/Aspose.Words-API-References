@@ -3,7 +3,7 @@ title: Enum HorizontalAlignment
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Drawing.HorizontalAlignment uppräkning. Anger horisontell justering av en flytande form textram eller flytande tabell.
 type: docs
-weight: 900
+weight: 1030
 url: /sv/net/aspose.words.drawing/horizontalalignment/
 ---
 ## HorizontalAlignment enumeration

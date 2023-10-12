@@ -24,7 +24,7 @@ UN[`VisitorAction`](../../visitoraction/) valore che specifica come continuare l
 
 ### Esempi
 
-Mostra come stampare la struttura del nodo di ogni tabella in un documento.
+Mostra come stampare la struttura dei nodi di ogni tabella in un documento.
 
 ```csharp
 public void TableToText()
@@ -32,8 +32,8 @@ public void TableToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     TableStructurePrinter visitor = new TableStructurePrinter();
 
-    // Quando otteniamo un nodo composito per accettare un visitatore del documento, il visitatore visita il nodo di accettazione,
-    // e quindi attraversa tutti i figli del nodo in modo approfondito.
+    // Quando facciamo in modo che un nodo composito accetti un visitatore del documento, il visitatore visita il nodo accettante,
+    // e poi attraversa tutti i figli del nodo in modo approfondito.
     // Il visitatore può leggere e modificare ogni nodo visitato.
     doc.Accept(visitor);
 
@@ -41,8 +41,8 @@ public void TableToText()
 }
 
 /// <summary>
-/// Attraversa l'albero non binario di nodi figlio di un nodo.
-/// Crea una mappa sotto forma di stringa di tutti i nodi Table incontrati e dei loro figli.
+/// Attraversa l'albero non binario dei nodi figlio di un nodo.
+/// Crea una mappa sotto forma di una stringa di tutti i nodi della tabella incontrati e dei loro figli.
 /// </summary>
 public class TableStructurePrinter : DocumentVisitor
 {
@@ -58,8 +58,8 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando viene rilevato un nodo Run nel documento.
-    /// Le esecuzioni che non sono all'interno delle tabelle non vengono registrate.
+    /// Chiamato quando nel documento viene incontrato un nodo Esegui.
+    /// Le esecuzioni che non si trovano all'interno delle tabelle non vengono registrate.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -69,7 +69,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando viene rilevata una tabella nel documento.
+    /// Chiamato quando viene incontrata una tabella nel documento.
     /// </summary>
     public override VisitorAction VisitTableStart(Table table)
     {
@@ -90,7 +90,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato dopo che tutti i nodi figlio di un nodo Tabella sono stati visitati.
+    /// Chiamato dopo che tutti i nodi figli di un nodo Tabella sono stati visitati.
     /// </summary>
     public override VisitorAction VisitTableEnd(Table table)
     {
@@ -102,7 +102,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando viene rilevato un nodo Riga nel documento.
+    /// Chiamato quando viene incontrato un nodo Riga nel documento.
     /// </summary>
     public override VisitorAction VisitRowStart(Row row)
     {
@@ -122,7 +122,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato dopo che tutti i nodi figlio di un nodo Riga sono stati visitati.
+    /// Chiamato dopo che tutti i nodi figli di un nodo Row sono stati visitati.
     /// </summary>
     public override VisitorAction VisitRowEnd(Row row)
     {
@@ -133,7 +133,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando viene rilevato un nodo Cella nel documento.
+    /// Chiamato quando nel documento viene incontrato un nodo Cella.
     /// </summary>
     public override VisitorAction VisitCellStart(Cell cell)
     {
@@ -152,7 +152,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato dopo che tutti i nodi figlio di un nodo Cell sono stati visitati.
+    /// Chiamato dopo che tutti i nodi figli di un nodo Cella sono stati visitati.
     /// </summary>
     public override VisitorAction VisitCellEnd(Cell cell)
     {
@@ -162,10 +162,10 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Aggiunge una riga a StringBuilder e indentala a seconda della profondità del visitatore
-    /// nell'albero dei nodi figlio della tabella corrente.
+    /// Aggiungi una riga a StringBuilder e applica un rientro a seconda della profondità del visitatore
+    /// nell'albero dei nodi secondari della tabella corrente.
     /// </summary>
-    /// <nome parametro="testo"></param>
+    /// <param name="text"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++)

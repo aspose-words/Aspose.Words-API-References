@@ -21,7 +21,7 @@ Id-attribut ska följa dessa regler:
 * Dokumentet ska behålla strukturerade dokumenttaggar-ID endast om hela document klonas[`Clone`](../../../aspose.words/document/clone/).
 * Under[`ImportNode`](../../../aspose.words/documentbase/importnode/) Id ska behållas om importen inte orsakar konflikter med andra strukturerade dokumenttagg Id i måldokumentet.
 * Om flera strukturerade dokumenttaggnoder anger samma decimaltalsvärde för Id-attributet, ska den första strukturerade dokumenttaggen i dokumentet behålla detta ursprungliga Id, och alla efterföljande strukturerade dokumenttaggnoder ska ha nya identifierare tilldelade när de dokumentet laddas.
-* Under fristående strukturerad dokumenttaggINodeCloningListener) operation nytt unikt ID kommer att genereras för den klonade strukturerade dokumenttaggnoden.
+* Under fristående strukturerad dokumenttaggINodeCloningListener)operation nytt unikt ID kommer att genereras för den klonade strukturerade dokumenttaggnoden.
 * Om Id inte anges i källdokumentet, ska noden för strukturerade dokumenttagg ha en ny unik identifierare tilldelad när dokumentet laddas.
 
 ### Exempel

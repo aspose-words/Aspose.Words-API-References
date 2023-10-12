@@ -16,13 +16,13 @@ public LineStyle LineStyle { get; set; }
 
 ### Osservazioni
 
-Restituisce lo stile del primo bordo della collezione.
+Restituisce lo stile del primo bordo della raccolta.
 
-Imposta lo stile di tutti i bordi nella raccolta esclusi i bordi diagonali.
+Imposta lo stile di tutti i bordi della raccolta esclusi i bordi diagonali.
 
 ### Esempi
 
-Mostra come creare un bordo di pagina ondulato verde con un'ombra.
+Mostra come creare un bordo verde ondulato della pagina con un'ombra.
 
 ```csharp
 Document doc = new Document();

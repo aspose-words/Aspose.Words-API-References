@@ -1,14 +1,14 @@
 ---
 title: FieldLink.InsertAsRtf
 second_title: Aspose.Words per .NET API Reference
-description: FieldLink proprietà. Ottiene o imposta se inserire loggetto collegato in formato RTF RTF.
+description: FieldLink proprietà. Ottiene o imposta se inserire loggetto collegato in formato richtext RTF.
 type: docs
 weight: 70
 url: /it/net/aspose.words.fields/fieldlink/insertasrtf/
 ---
 ## FieldLink.InsertAsRtf property
 
-Ottiene o imposta se inserire l'oggetto collegato in formato RTF (RTF).
+Ottiene o imposta se inserire l'oggetto collegato in formato rich-text (RTF).
 
 ```csharp
 public bool InsertAsRtf { get; set; }
@@ -19,6 +19,7 @@ public bool InsertAsRtf { get; set; }
 Mostra come utilizzare vari tipi di campo per collegarsi ad altri documenti nel file system locale e visualizzarne il contenuto.
 
 ```csharp
+public void FieldLinkedObjectsAsText(InsertLinkedObjectAs insertLinkedObjectAs)
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -33,7 +34,7 @@ Mostra come utilizzare vari tipi di campo per collegarsi ad altri documenti nel 
     InsertFieldDde(builder, insertLinkedObjectAs, "Excel.Sheet", MyDir + "Spreadsheet.xlsx",
         "Sheet1!R1C1", true, true);
 
-    // 3 - Un campo DDEAUTO:
+    // 3 - Campo A DDEAUTO:
     builder.Writeln("FieldDdeAuto:\n");
     InsertFieldDdeAuto(builder, insertLinkedObjectAs, "Excel.Sheet", MyDir + "Spreadsheet.xlsx",
         "Sheet1!R1C1", true);
@@ -42,6 +43,7 @@ Mostra come utilizzare vari tipi di campo per collegarsi ad altri documenti nel 
     doc.Save(ArtifactsDir + "Field.LINK.DDE.DDEAUTO.docx");
 }
 
+public void FieldLinkedObjectsAsImage(InsertLinkedObjectAs insertLinkedObjectAs)
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -57,7 +59,7 @@ Mostra come utilizzare vari tipi di campo per collegarsi ad altri documenti nel 
     InsertFieldDde(builder, insertLinkedObjectAs, "Excel.Sheet", MyDir + "Spreadsheet.xlsx",
         "Sheet1!R1C1", true, true);
 
-    // 3 - Un campo DDEAUTO:
+    // 3 - Campo A DDEAUTO:
     builder.Writeln("FieldDdeAuto:\n");
     InsertFieldDdeAuto(builder, insertLinkedObjectAs, "Excel.Sheet", MyDir + "Spreadsheet.xlsx",
         "Sheet1!R1C1", true);
@@ -144,7 +146,7 @@ private static void InsertFieldDde(DocumentBuilder builder, InsertLinkedObjectAs
 }
 
 /// <summary>
-/// Utilizza un generatore di documenti per inserire un campo DDEAUTO e impostarne le proprietà in base ai parametri.
+/// Utilizzare un generatore di documenti per inserire un campo DDEAUTO e impostarne le proprietà in base ai parametri.
 /// </summary>
 private static void InsertFieldDdeAuto(DocumentBuilder builder, InsertLinkedObjectAs insertLinkedObjectAs,
     string progId, string sourceFullName, string sourceItem, bool isLinked)
@@ -181,7 +183,7 @@ private static void InsertFieldDdeAuto(DocumentBuilder builder, InsertLinkedObje
 
 public enum InsertLinkedObjectAs
 {
-    // Oggetto collegato come testo
+    // OggettoLinkedAsText
     Text,
     Unicode,
     Html,

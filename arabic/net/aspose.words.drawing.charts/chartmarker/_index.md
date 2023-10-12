@@ -1,14 +1,16 @@
 ---
 title: Class ChartMarker
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.Charts.ChartMarker فصل. يمثل علامة بيانات الرسم البياني .
+description: Aspose.Words.Drawing.Charts.ChartMarker فصل. يمثل علامة بيانات المخطط.
 type: docs
-weight: 710
+weight: 750
 url: /ar/net/aspose.words.drawing.charts/chartmarker/
 ---
 ## ChartMarker class
 
-يمثل علامة بيانات الرسم البياني .
+يمثل علامة بيانات المخطط.
+
+لمعرفة المزيد، قم بزيارة[العمل مع الرسوم البيانية](https://docs.aspose.com/words/net/working-with-charts/) مقالة توثيقية.
 
 ```csharp
 public class ChartMarker
@@ -18,16 +20,15 @@ public class ChartMarker
 
 | اسم | وصف |
 | --- | --- |
-| [Format](../../aspose.words.drawing.charts/chartmarker/format/) { get; } | يوفر الوصول لتعبئة وتنسيق خط هذه العلامة. |
-| [Size](../../aspose.words.drawing.charts/chartmarker/size/) { get; set; } | الحصول على أو تعيين حجم علامة المخطط . القيمة الافتراضية هي 7. |
-| [Symbol](../../aspose.words.drawing.charts/chartmarker/symbol/) { get; set; } | الحصول على أو تعيين رمز علامة المخطط . |
+| [Format](../../aspose.words.drawing.charts/chartmarker/format/) { get; } | يوفر الوصول إلى التعبئة وتنسيق الخط لهذه العلامة. |
+| [Size](../../aspose.words.drawing.charts/chartmarker/size/) { get; set; } | الحصول على حجم علامة المخطط أو تعيينه. القيمة الافتراضية هي 7. |
+| [Symbol](../../aspose.words.drawing.charts/chartmarker/symbol/) { get; set; } | الحصول على رمز علامة المخطط أو تعيينه. |
 
 ### أمثلة
 
 يوضح كيفية التعامل مع نقاط البيانات على مخطط خطي.
 
 ```csharp
-[Test]
 public void ChartDataPoint()
 {
     Document doc = new Document();
@@ -41,14 +42,14 @@ public void ChartDataPoint()
     Assert.AreEqual("Series 2", chart.Series[1].Name);
     Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-    // قم بتأكيد نقاط بيانات المخطط بجعلها تظهر كأشكال ماسية.
+    // قم بتأكيد نقاط بيانات المخطط من خلال جعلها تظهر كأشكال ماسية.
     foreach (ChartSeries series in chart.Series) 
         ApplyDataPoints(series, 4, MarkerSymbol.Diamond, 15);
 
-    // قم بتمهيد الخط الذي يمثل سلسلة البيانات الأولى.
+    // قم بتسوية الخط الذي يمثل سلسلة البيانات الأولى.
     chart.Series[0].Smooth = true;
 
-    // تحقق من أن نقاط البيانات للسلسلة الأولى لن تعكس ألوانها إذا كانت القيمة سالبة.
+    // تحقق من أن نقاط البيانات الخاصة بالسلسلة الأولى لن تعكس ألوانها إذا كانت القيمة سالبة.
     using (IEnumerator<ChartDataPoint> enumerator = chart.Series[0].DataPoints.GetEnumerator())
     {
         while (enumerator.MoveNext())
@@ -57,7 +58,7 @@ public void ChartDataPoint()
         }
     }
 
-    // للحصول على رسم بياني أكثر وضوحًا ، يمكننا مسح التنسيق بشكل فردي.
+    // للحصول على رسم بياني أكثر وضوحًا، يمكننا مسح التنسيق بشكل فردي.
     chart.Series[1].DataPoints[2].ClearFormat();
 
     // يمكننا أيضًا تجريد سلسلة كاملة من نقاط البيانات مرة واحدة.
@@ -67,7 +68,7 @@ public void ChartDataPoint()
 }
 
 /// <summary>
-/// يطبق عددًا من نقاط البيانات على سلسلة.
+/// يطبق عددًا من نقاط البيانات على السلسلة.
 /// </summary>
 private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, MarkerSymbol markerSymbol, int dataPointSize)
 {

@@ -1,14 +1,14 @@
 ---
 title: WriteProtection.SetPassword
 second_title: Aspose.Words لمراجع .NET API
-description: WriteProtection طريقة. تعيين كلمة مرور الحماية ضد الكتابة للمستند.
+description: WriteProtection طريقة. يضبط كلمة مرور الحماية ضد الكتابة للمستند.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.settings/writeprotection/setpassword/
 ---
 ## WriteProtection.SetPassword method
 
-تعيين كلمة مرور الحماية ضد الكتابة للمستند.
+يضبط كلمة مرور الحماية ضد الكتابة للمستند.
 
 ```csharp
 public void SetPassword(string password)
@@ -16,11 +16,11 @@ public void SetPassword(string password)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| password | String | كلمة المرور المراد تعيينها. لا يمكن أن يكون فارغًا ، لكن يمكن أن يكون سلسلة فارغة. |
+| password | String | كلمة المرور لتعيينها. لا يمكن`باطل`، ولكن يمكن أن تكون سلسلة فارغة. |
 
 ### ملاحظات
 
-إذا تم تعيين كلمة مرور ، سيطلب Microsoft Word من المستخدم إدخالها أو فتح المستند للقراءة فقط.
+إذا تم تعيين كلمة مرور، فسيطلب Microsoft Word من المستخدم إدخالها أو فتح المستند للقراءة فقط.
 
 ### أمثلة
 
@@ -30,15 +30,14 @@ public void SetPassword(string password)
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world! This document is protected.");
-
-// أدخل كلمة مرور يصل طولها إلى 15 حرفًا ، ثم تحقق من حالة حماية المستند.
+// أدخل كلمة مرور يصل طولها إلى 15 حرفًا، ثم تحقق من حالة حماية المستند.
 doc.WriteProtection.SetPassword("MyPassword");
 doc.WriteProtection.ReadOnlyRecommended = true;
 
 Assert.IsTrue(doc.WriteProtection.IsWriteProtected);
 Assert.IsTrue(doc.WriteProtection.ValidatePassword("MyPassword"));
 
-// لا تمنع الحماية تحرير المستند برمجيًا ولا تقوم بتشفير المحتويات.
+// الحماية لا تمنع تحرير المستند برمجيًا، ولا تقوم بتشفير محتوياته.
 doc.Save(ArtifactsDir + "Document.WriteProtection.docx");
 doc = new Document(ArtifactsDir + "Document.WriteProtection.docx");
 

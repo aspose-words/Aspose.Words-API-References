@@ -18,7 +18,7 @@ public DateTime SignatureDate { get; set; }
 
 El valor predeterminado es la hora actual.
 
-Este valor aparecerá en la firma digital como una hora de computadora no verificada.
+Este valor aparecerá en la firma digital como una hora informática no verificada.
 
 ### Ejemplos
 
@@ -35,16 +35,16 @@ CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.p
 // para modificar cómo ese método convierte el documento a .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// Configure el objeto "DigitalSignatureDetails" del objeto "SaveOptions" para
-// firma digitalmente el documento a medida que lo renderizamos con el método "Guardar".
-DateTime signingTime = DateTime.Now;
+// Configurar el objeto "DigitalSignatureDetails" del objeto "SaveOptions" para
+// firmar digitalmente el documento a medida que lo renderizamos con el método "Guardar".
+DateTime signingTime = new DateTime(2015, 7, 20);
 options.DigitalSignatureDetails =
     new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "My Office", signingTime);
-options.DigitalSignatureDetails.HashAlgorithm = PdfDigitalSignatureHashAlgorithm.Sha256;
+options.DigitalSignatureDetails.HashAlgorithm = PdfDigitalSignatureHashAlgorithm.RipeMD160;
 
 Assert.AreEqual("Test Signing", options.DigitalSignatureDetails.Reason);
 Assert.AreEqual("My Office", options.DigitalSignatureDetails.Location);
-Assert.AreEqual(signingTime.ToUniversalTime(), options.DigitalSignatureDetails.SignatureDate.ToUniversalTime());
+Assert.AreEqual(signingTime, options.DigitalSignatureDetails.SignatureDate.ToLocalTime());
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 ```

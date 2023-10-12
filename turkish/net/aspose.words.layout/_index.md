@@ -1,37 +1,37 @@
 ---
 title: Aspose.Words.Layout
 second_title: Aspose.Words for .NET API Referansı
-description: bu Aspose.Words.Layoutad alanı belge sayfalara biçimlendirildiğinde belirli belge öğelerinin hangi sayfada ve sayfada nerede konumlandığı gibi bilgilerine erişmeye izin veren sınıflar sağlar.
+description: Aspose.Words.Layout ad alanı belge sayfalar halinde formatlandığında belirli belge öğelerinin   hangi sayfada ve sayfada nerede konumlandırıldığı gibi bilgilerine erişime izin veren sınıflar sağlar.
 type: docs
 weight: 110
 url: /tr/net/aspose.words.layout/
 ---
-bu **Aspose.Words.Layout**ad alanı, belge sayfalara biçimlendirildiğinde, belirli belge öğelerinin hangi sayfada ve sayfada nerede konumlandığı gibi bilgilerine erişmeye izin veren sınıflar sağlar.
+**Aspose.Words.Layout** ad alanı, belge sayfalar halinde formatlandığında belirli belge öğelerinin ( ) hangi sayfada ve sayfada nerede konumlandırıldığı gibi bilgilerine erişime izin veren sınıflar sağlar.
 
 ## sınıflar
 
 | Sınıf | Tanım |
 | --- | --- |
-| [LayoutCollector](./layoutcollector/) | Bu sınıf, belge düğümlerinin sayfa numaralarını hesaplamaya izin verir. |
-| [LayoutEnumerator](./layoutenumerator/) | Bir belgenin sayfa yerleşimi varlıklarını numaralandırır. Sayfa yerleşimi modelinde gezinmek için bu sınıfı kullanabilirsiniz. Mevcut özellikler, varlığın oluşturulduğu tür, geometri, metin ve sayfa dizinidir, ve ayrıca genel yapı ve ilişkiler. Şunların kombinasyonunu kullanın[`GetEntity`](../aspose.words.layout/layoutcollector/getentity/) ve[`Current`](../aspose.words.layout/layoutenumerator/current/) bir belge düğümüne karşılık gelen varlığa taşıyın. |
-| [LayoutOptions](./layoutoptions/) | Belge yerleşim sürecini kontrol etmeye izin veren seçenekleri barındırır. |
+| [LayoutCollector](./layoutcollector/) | Bu sınıf, belge düğümlerinin sayfa numaralarının hesaplanmasına olanak tanır. |
+| [LayoutEnumerator](./layoutenumerator/) | Bir belgenin sayfa düzeni varlıklarını numaralandırır. Sayfa düzeni modeli üzerinde gezinmek için bu sınıfı kullanabilirsiniz. Kullanılabilir özellikler arasında tür, geometri, metin ve varlığın oluşturulduğu sayfa dizini, ve ayrıca genel yapı ve ilişkiler bulunur. Şunların kombinasyonunu kullanın:[`GetEntity`](../aspose.words.layout/layoutcollector/getentity/) Ve[`Current`](../aspose.words.layout/layoutenumerator/current/) belge düğümüne karşılık gelen varlığa gidin. |
+| [LayoutOptions](./layoutoptions/) | Belge düzeni sürecini kontrol etmeye olanak sağlayan seçenekleri içerir. |
 | [PageLayoutCallbackArgs](./pagelayoutcallbackargs/) | Bir argüman aktarıldı[`Notify`](../aspose.words.layout/ipagelayoutcallback/notify/) |
-| [RevisionOptions](./revisionoptions/) | Düzen işlemi sırasında belge revizyonlarının nasıl işlendiğini kontrol etmeye izin verir. |
+| [RevisionOptions](./revisionoptions/) | Düzenleme işlemi sırasında belge revizyonlarının nasıl ele alınacağını kontrol etmeye olanak tanır. |
 ## Arayüzler
 
 | Arayüz | Tanım |
 | --- | --- |
-| [IPageLayoutCallback](./ipagelayoutcallback/) | Sayfa düzeni modelinin oluşturulması ve oluşturulması sırasında kendi özel yönteminizin çağrılmasını istiyorsanız bu arabirimi uygulayın. |
+| [IPageLayoutCallback](./ipagelayoutcallback/) | Sayfa düzeni modelinin oluşturulması ve oluşturulması sırasında kendi özel yönteminizin çağrılmasını istiyorsanız bu arayüzü uygulayın. |
 ## numaralandırma
 
 | numaralandırma | Tanım |
 | --- | --- |
-| [CommentDisplayMode](./commentdisplaymode/) | Belge yorumları için oluşturma modunu belirtir. |
+| [CommentDisplayMode](./commentdisplaymode/) | Belge yorumları için işleme modunu belirtir. |
 | [ContinuousSectionRestart](./continuoussectionrestart/) | Sayfa numaralandırmayı yeniden başlatan sürekli bir bölümde sayfa numaralarını hesaplarken farklı davranışları temsil eder. |
 | [LayoutEntityType](./layoutentitytype/) | Düzen varlıklarının türleri. |
 | [PageLayoutEvent](./pagelayoutevent/) | Sayfa düzeni modeli oluşturma ve oluşturma sırasında ortaya çıkan bir olay kodu. |
 | [RevisionColor](./revisioncolor/) | Belge revizyonlarının rengini belirlemeye izin verir. |
-| [RevisionTextEffect](./revisiontexteffect/) | Belge metninin revizyonları için dekorasyon efekti belirlemeye izin verir. |
+| [RevisionTextEffect](./revisiontexteffect/) | Belge metninin revizyonları için dekorasyon efektini belirtmeye olanak tanır. |
 | [ShowInBalloons](./showinballoons/) | Balonlarda hangi revizyonların oluşturulacağını belirtir. |
 
 

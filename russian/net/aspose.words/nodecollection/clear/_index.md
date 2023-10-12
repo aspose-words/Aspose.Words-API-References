@@ -26,7 +26,7 @@ Assert.AreEqual(1, doc.Sections.Count);
 Assert.AreEqual(17, doc.Sections[0].GetChildNodes(NodeType.Any, true).Count);
 Assert.AreEqual("Hello World!\r\rHello Word!\r\r\rHello World!", doc.GetText().Trim());
 
-// Очистить набор разделов, что приведет к удалению всех дочерних элементов документа.
+// Очистка коллекции разделов, при этом будут удалены все дочерние элементы документа.
 doc.Sections.Clear();
 
 Assert.AreEqual(0, doc.GetChildNodes(NodeType.Any, true).Count);

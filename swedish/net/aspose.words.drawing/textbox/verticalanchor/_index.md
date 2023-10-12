@@ -3,7 +3,7 @@ title: TextBox.VerticalAnchor
 second_title: Aspose.Words för .NET API Referens
 description: TextBox fast egendom. Anger den vertikala justeringen av texten inom en form.
 type: docs
-weight: 110
+weight: 120
 url: /sv/net/aspose.words.drawing/textbox/verticalanchor/
 ---
 ## TextBox.VerticalAnchor property

@@ -1,14 +1,14 @@
 ---
 title: FieldUserInitials.UserInitials
 second_title: Aspose.Words لمراجع .NET API
-description: FieldUserInitials ملكية. الحصول على أو تعيين الأحرف الأولى للمستخدم الحالي.
+description: FieldUserInitials ملكية. الحصول على الأحرف الأولى من اسم المستخدم الحالي أو تعيينها.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fielduserinitials/userinitials/
 ---
 ## FieldUserInitials.UserInitials property
 
-الحصول على أو تعيين الأحرف الأولى للمستخدم الحالي.
+الحصول على الأحرف الأولى من اسم المستخدم الحالي أو تعيينها.
 
 ```csharp
 public string UserInitials { get; set; }
@@ -21,12 +21,12 @@ public string UserInitials { get; set; }
 ```csharp
 Document doc = new Document();
 
-// إنشاء كائن معلومات المستخدم وتعيينه كمصدر لمعلومات المستخدم لأي حقول نقوم بإنشائها.
+// قم بإنشاء كائن معلومات المستخدم وقم بتعيينه كمصدر لمعلومات المستخدم لأي حقول نقوم بإنشائها.
 UserInformation userInformation = new UserInformation();
 userInformation.Initials = "J. D.";
 doc.FieldOptions.CurrentUser = userInformation;
 
-// إنشاء حقل USERINITIALS لعرض الأحرف الأولى للمستخدم الحالي ،
+// أنشئ حقل USERINITIALS لعرض الأحرف الأولى من اسم المستخدم الحالي،
 // مأخوذ من كائن معلومات المستخدم الذي أنشأناه أعلاه.
 DocumentBuilder builder = new DocumentBuilder(doc);
 FieldUserInitials fieldUserInitials = (FieldUserInitials)builder.InsertField(FieldType.FieldUserInitials, true);
@@ -35,14 +35,14 @@ Assert.AreEqual(userInformation.Initials, fieldUserInitials.Result);
 Assert.AreEqual(" USERINITIALS ", fieldUserInitials.GetFieldCode());
 Assert.AreEqual("J. D.", fieldUserInitials.Result);
 
- // يمكننا تعيين هذه الخاصية لجعل حقلنا يتجاوز القيمة المخزنة حاليًا في كائن معلومات المستخدم.
+ // يمكننا تعيين هذه الخاصية لجعل الحقل الخاص بنا يتجاوز القيمة المخزنة حاليًا في كائن UserInformation.
 fieldUserInitials.UserInitials = "J. C.";
 fieldUserInitials.Update();
 
 Assert.AreEqual(" USERINITIALS  \"J. C.\"", fieldUserInitials.GetFieldCode());
 Assert.AreEqual("J. C.", fieldUserInitials.Result);
 
-// هذا لا يؤثر على القيمة الموجودة في كائن معلومات المستخدم.
+// لا يؤثر هذا على القيمة الموجودة في كائن معلومات المستخدم.
 Assert.AreEqual("J. D.", doc.FieldOptions.CurrentUser.Initials);
 
 doc.UpdateFields();

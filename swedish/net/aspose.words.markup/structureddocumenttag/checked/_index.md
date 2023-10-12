@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTag.Checked
 second_title: Aspose.Words för .NET API Referens
-description: StructuredDocumentTag fast egendom. Hämtar/ställer in aktuell status för kryssrutan SDT . Standardvärdet för den här egenskapen är false.
+description: StructuredDocumentTag fast egendom. Hämtar/ställer in aktuell status för kryssrutan SDT . Standardvärdet för den här egenskapen ärfalsk .
 type: docs
 weight: 60
 url: /sv/net/aspose.words.markup/structureddocumenttag/checked/
 ---
 ## StructuredDocumentTag.Checked property
 
-Hämtar/ställer in aktuell status för kryssrutan **SDT** . Standardvärdet för den här egenskapen är false.
+Hämtar/ställer in aktuell status för kryssrutan **SDT** . Standardvärdet för den här egenskapen är`falsk` .
 
 ```csharp
 public bool Checked { get; set; }

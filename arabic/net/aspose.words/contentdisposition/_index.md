@@ -1,14 +1,14 @@
 ---
 title: Enum ContentDisposition
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.ContentDisposition تعداد. يعدّد طرقًا مختلفة لتقديم المستند في مستعرض العميل.
+description: Aspose.Words.ContentDisposition تعداد. تعداد الطرق المختلفة لعرض المستند في متصفح العميل.
 type: docs
-weight: 330
+weight: 340
 url: /ar/net/aspose.words/contentdisposition/
 ---
 ## ContentDisposition enumeration
 
-يعدّد طرقًا مختلفة لتقديم المستند في مستعرض العميل.
+تعداد الطرق المختلفة لعرض المستند في متصفح العميل.
 
 ```csharp
 public enum ContentDisposition
@@ -18,16 +18,16 @@ public enum ContentDisposition
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| Attachment | `0` | أرسل المستند إلى المستعرض وقدم خيارًا لحفظ المستند على القرص أو فتحه في application المرتبط بامتداد المستند. |
-| Inline | `1` | أرسل المستند إلى المستعرض ويقدم خيارًا لحفظ المستند على القرص أو فتحه داخل المستعرض. |
+| Attachment | `0` | أرسل المستند إلى المتصفح وقدم خيارًا لحفظ المستند على القرص أو فتحه في التطبيق المرتبط بامتداد المستند. |
+| Inline | `1` | أرسل المستند إلى المتصفح ويقدم خيار حفظ المستند على القرص أو فتحه داخل المتصفح. |
 
 ### ملاحظات
 
-لاحظ أن السلوك الفعلي لمتصفح العميل قد يتأثر بتكوين الأمان للمتصفح.
+لاحظ أن السلوك الفعلي في متصفح العميل قد يتأثر بتكوين أمان المتصفح.
 
 ### أمثلة
 
-يوضح كيفية إجراء دمج المراسلات ، ثم حفظ المستند في مستعرض العميل.
+يوضح كيفية إجراء دمج البريد، ثم حفظ المستند في مستعرض العميل.
 
 ```csharp
 Document doc = new Document();
@@ -46,7 +46,7 @@ doc.MailMerge.Execute(new string[] { "FullName", "Company", "Address", "City" },
 
 // أرسل المستند إلى متصفح العميل.
 Assert.That(() => doc.Save(response, "Artifacts/MailMerge.ExecuteArray.docx", ContentDisposition.Inline, null),
-    Throws.TypeOf<ArgumentNullException>()); // تم الإلقاء لأن HttpResponse فارغ في الاختبار.
+    Throws.TypeOf<ArgumentNullException>()); // تم طرحه لأن HttpResponse فارغ في الاختبار.
 
 // سنحتاج إلى إغلاق هذه الاستجابة يدويًا للتأكد من أننا لا نضيف أي محتوى غير ضروري إلى المستند بعد الحفظ.
 Assert.That(() => response.End(), Throws.TypeOf<NullReferenceException>());

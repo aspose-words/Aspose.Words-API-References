@@ -1,14 +1,14 @@
 ---
 title: FieldMergeBarcode.SymbolHeight
 second_title: Справочник по API Aspose.Words для .NET
-description: FieldMergeBarcode свойство. Получает или задает высоту символа. Единицы указаны в TWIPS 1/1440 дюйма.
+description: FieldMergeBarcode свойство. Получает или задает высоту символа. Единицы измерения  TWIPS 1/1440 дюйма.
 type: docs
 weight: 130
 url: /ru/net/aspose.words.fields/fieldmergebarcode/symbolheight/
 ---
 ## FieldMergeBarcode.SymbolHeight property
 
-Получает или задает высоту символа. Единицы указаны в TWIPS (1/1440 дюйма).
+Получает или задает высоту символа. Единицы измерения — TWIPS (1/1440 дюйма).
 
 ```csharp
 public string SymbolHeight { get; set; }
@@ -16,19 +16,19 @@ public string SymbolHeight { get; set; }
 
 ### Примеры
 
-Показывает, как выполнять слияние со штрих-кодами QR.
+Показывает, как выполнить объединение почты по QR-штрих-кодам.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставьте поле MERGEBARCODE, которое будет принимать значения из источника данных во время слияния.
+// Вставляем поле MERGEBARCODE, которое будет принимать значения из источника данных во время слияния почты.
 // Это поле преобразует все значения в столбце «MyQRCode» источника данных слияния в QR-коды.
 FieldMergeBarcode field = (FieldMergeBarcode)builder.InsertField(FieldType.FieldMergeBarcode, true);
 field.BarcodeType = "QR";
 field.BarcodeValue = "MyQRCode";
 
-// Применение пользовательских цветов и масштабирования.
+// Применяем собственные цвета и масштабирование.
 field.BackgroundColor = "0xF8BD69";
 field.ForegroundColor = "0xB5413B";
 field.ErrorCorrectionLevel = "3";

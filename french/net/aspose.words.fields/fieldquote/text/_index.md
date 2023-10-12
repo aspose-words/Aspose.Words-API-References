@@ -16,7 +16,7 @@ public string Text { get; set; }
 
 ### Exemples
 
-Indique d'utiliser le champ QUOTE.
+Indique comment utiliser le champ QUOTE.
 
 ```csharp
 Document doc = new Document();
@@ -29,8 +29,8 @@ field.Text = "\"Quoted text\"";
 Assert.AreEqual(" QUOTE  \"\\\"Quoted text\\\"\"", field.GetFieldCode());
 
 // Insère un champ QUOTE et imbrique un champ DATE à l'intérieur.
-// Les champs DATE mettent à jour leur valeur à la date actuelle chaque fois que nous ouvrons le document à l'aide de Microsoft Word.
-// L'imbrication du champ DATE dans le champ QUOTE comme ceci gèlera sa valeur
+// Les champs DATE mettent à jour leur valeur avec la date actuelle chaque fois que nous ouvrons le document à l'aide de Microsoft Word.
+// Imbriquer le champ DATE dans le champ QUOTE comme ceci figera sa valeur
 // à la date à laquelle nous avons créé le document.
 builder.Write("\nDocument creation date: ");
 field = (FieldQuote)builder.InsertField(FieldType.FieldQuote, true);
@@ -39,7 +39,7 @@ builder.InsertField(FieldType.FieldDate, true);
 
 Assert.AreEqual(" QUOTE \u0013 DATE \u0014" + DateTime.Now.Date.ToShortDateString() + "\u0015", field.GetFieldCode());
 
-// Met à jour tous les champs pour afficher leurs résultats corrects.
+// Mettez à jour tous les champs pour afficher leurs résultats corrects.
 doc.UpdateFields();
 
 Assert.AreEqual("\"Quoted text\"", doc.Range.Fields[0].Result);

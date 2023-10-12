@@ -1,14 +1,14 @@
 ---
 title: FieldSeq.BookmarkName
 second_title: Aspose.Words per .NET API Reference
-description: FieldSeq proprietà. Ottiene o imposta un nome di segnalibro che fa riferimento a un elemento altrove nel documento anziché nella posizione corrente.
+description: FieldSeq proprietà. Ottiene o imposta il nome di un segnalibro che fa riferimento a un elemento altrove nel documento anziché nella posizione corrente.
 type: docs
 weight: 20
 url: /it/net/aspose.words.fields/fieldseq/bookmarkname/
 ---
 ## FieldSeq.BookmarkName property
 
-Ottiene o imposta un nome di segnalibro che fa riferimento a un elemento altrove nel documento anziché nella posizione corrente.
+Ottiene o imposta il nome di un segnalibro che fa riferimento a un elemento altrove nel documento anziché nella posizione corrente.
 
 ```csharp
 public string BookmarkName { get; set; }
@@ -16,7 +16,7 @@ public string BookmarkName { get; set; }
 
 ### Esempi
 
-Mostra come combinare sommario e campi sequenza.
+Mostra come combinare il sommario e i campi sequenza.
 
 ```csharp
 Document doc = new Document();
@@ -27,7 +27,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 // e il numero della pagina in cui appare il campo.
 FieldToc fieldToc = (FieldToc)builder.InsertField(FieldType.FieldTOC, true);
 
-// Configura questo campo TOC per avere una proprietà SequenceIdentifier con un valore di "MySequence".
+// Configura questo campo TOC per avere una proprietà SequenceIdentifier con un valore "MySequence".
 fieldToc.TableOfFiguresLabel = "MySequence";
 
 // Configura questo campo TOC per raccogliere solo i campi SEQ che si trovano entro i limiti di un segnalibro
@@ -37,12 +37,12 @@ builder.InsertBreak(BreakType.PageBreak);
 
 Assert.AreEqual(" TOC  \\c MySequence \\b TOCBookmark", fieldToc.GetFieldCode());
 
-// I campi SEQ mostrano un conteggio che aumenta ad ogni campo SEQ.
-// Questi campi mantengono anche conteggi separati per ciascuna sequenza denominata univoca
+// I campi SEQ visualizzano un conteggio che aumenta in ciascun campo SEQ.
+// Questi campi mantengono inoltre conteggi separati per ciascuna sequenza con nome univoco
 // identificato dalla proprietà "SequenceIdentifier" del campo SEQ.
-// Inserisce un campo SEQ che ha un identificatore di sequenza che corrisponda ai TOC
+// Inserisci un campo SEQ che abbia un identificatore di sequenza che corrisponde al sommario
 // Proprietà TableOfFiguresLabel. Questo campo non creerà una voce nel sommario poiché è esterno
-// i limiti del segnalibro designati da "NomeSegnalibro".
+// i limiti del segnalibro designati da "BookmarkName".
 builder.Write("MySequence #");
 FieldSeq fieldSeq = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true);
 fieldSeq.SequenceIdentifier = "MySequence";
@@ -50,7 +50,7 @@ builder.Writeln(", will not show up in the TOC because it is outside of the book
 
 builder.StartBookmark("TOCBookmark");
 
-// La sequenza di questo campo SEQ corrisponde alla proprietà "TableOfFiguresLabel" del sommario ed è entro i limiti del segnalibro.
+// La sequenza di questo campo SEQ corrisponde alla proprietà "TableOfFiguresLabel" del sommario e rientra nei limiti del segnalibro.
 // Il paragrafo che contiene questo campo verrà visualizzato nel sommario come voce.
 builder.Write("MySequence #");
 fieldSeq = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true);
@@ -64,15 +64,15 @@ fieldSeq = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true);
 fieldSeq.SequenceIdentifier = "OtherSequence";
 builder.Writeln(", will not show up in the TOC because it's from a different sequence identifier.");
 
-// La sequenza di questo campo SEQ corrisponde alla proprietà "TableOfFiguresLabel" del sommario ed è entro i limiti del segnalibro.
-// Questo campo fa riferimento anche a un altro segnalibro. Il contenuto di quel segnalibro apparirà nella voce TOC per questo campo SEQ.
+// La sequenza di questo campo SEQ corrisponde alla proprietà "TableOfFiguresLabel" del sommario e rientra nei limiti del segnalibro.
+// Questo campo fa riferimento anche a un altro segnalibro. Il contenuto di quel segnalibro verrà visualizzato nella voce TOC per questo campo SEQ.
 // Il campo SEQ stesso non visualizzerà il contenuto di quel segnalibro.
 fieldSeq = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true);
 fieldSeq.SequenceIdentifier = "MySequence";
 fieldSeq.BookmarkName = "SEQBookmark";
 Assert.AreEqual(" SEQ  MySequence SEQBookmark", fieldSeq.GetFieldCode());
 
-// Crea un segnalibro con contenuti che verranno visualizzati nella voce TOC a causa del campo SEQ sopra che fa riferimento ad esso.
+// Crea un segnalibro con contenuti che verranno visualizzati nella voce TOC poiché il campo SEQ sopra fa riferimento ad esso.
 builder.InsertBreak(BreakType.PageBreak);
 builder.StartBookmark("SEQBookmark");
 builder.Write("MySequence #");

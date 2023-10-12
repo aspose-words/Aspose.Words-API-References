@@ -44,7 +44,7 @@ fieldMergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField
 fieldMergeField.FieldName = "Name";
 builder.Writeln(", ");
 
-  // Den här tabellen har tre rader, och en av dem uppfyller villkoret för vårt SKIPIF-fält.
+ // Den här tabellen har tre rader, och en av dem uppfyller villkoret för vårt SKIPIF-fält.
 // Brevkopplingen kommer att producera två sidor.
 DataTable table = new DataTable("Employees");
 table.Columns.Add("Name");
@@ -100,7 +100,7 @@ table.Rows.Add(new[] { "Jane Doe" });
 table.Rows.Add(new[] { "John Doe" });
 table.Rows.Add(new[] { "Joe Bloggs" });
 
-doc.MailMerge.Execute(table);
+doc.MailMerge.Execute(table);            
 doc.Save(ArtifactsDir + "Field.MERGEREC.MERGESEQ.docx");
 ```
 

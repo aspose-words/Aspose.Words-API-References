@@ -16,7 +16,7 @@ public FontInfoCollection FontInfos { get; }
 
 ### Anmärkningar
 
-Denna samling av teckensnittsdefinitioner laddas som den är från dokumentet. Teckensnittsdefinitioner kan vara valfria, saknas eller ofullständiga i vissa dokument.
+Denna samling teckensnittsdefinitioner laddas som den är från dokumentet. Teckensnittsdefinitioner kan vara valfria, saknas eller ofullständiga i vissa dokument.
 
 Lita inte på den här samlingen för att försäkra dig om att ett visst teckensnitt används i dokumentet. Du bör endast använda den här samlingen för att få information om teckensnitt som kan användas i dokumentet.
 

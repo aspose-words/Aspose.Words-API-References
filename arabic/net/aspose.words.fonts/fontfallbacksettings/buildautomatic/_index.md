@@ -1,14 +1,14 @@
 ---
 title: FontFallbackSettings.BuildAutomatic
 second_title: Aspose.Words لمراجع .NET API
-description: FontFallbackSettings طريقة. ينشئ الإعدادات الاحتياطية تلقائيًا عن طريق مسح الخطوط المتاحة.
+description: FontFallbackSettings طريقة. إنشاء الإعدادات الاحتياطية تلقائيًا عن طريق فحص الخطوط المتاحة.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fonts/fontfallbacksettings/buildautomatic/
 ---
 ## FontFallbackSettings.BuildAutomatic method
 
-ينشئ الإعدادات الاحتياطية تلقائيًا عن طريق مسح الخطوط المتاحة.
+إنشاء الإعدادات الاحتياطية تلقائيًا عن طريق فحص الخطوط المتاحة.
 
 ```csharp
 public void BuildAutomatic()
@@ -16,7 +16,7 @@ public void BuildAutomatic()
 
 ### ملاحظات
 
-قد ينتج عن هذا الأسلوب إعدادات احتياطية غير مثالية. يتم فحص الخطوط بواسطة[ نطاق أحرف Unicode](https://docs.microsoft.com/en-us/typography/opentype/spec/os2#ur) الحقول وليس من خلال وجود الحروف الرسومية الفعلية. يتم أيضًا فحص نطاقات Unicode بشكل فردي وقد تستخدم نطاقات متعددة متعلقة بلغة واحدة / نص برمجي خطوطًا احتياطية مختلفة.
+قد تنتج هذه الطريقة إعدادات احتياطية غير مثالية. يتم فحص الخطوط من قبل[ نطاق أحرف Unicode](https://docs.microsoft.com/en-us/typography/opentype/spec/os2#ur) الحقول وليس من خلال وجود الحروف الرسومية الفعلي. يتم أيضًا فحص نطاقات Unicode بشكل فردي وقد تستخدم النطاقات المتعددة المرتبطة بلغة/برنامج نصي واحد خطوطًا احتياطية مختلفة.
 
 ### أمثلة
 
@@ -29,28 +29,28 @@ FontSettings fontSettings = new FontSettings();
 doc.FontSettings = fontSettings;
 FontFallbackSettings fontFallbackSettings = fontSettings.FallbackSettings;
 
-// تكوين إعدادات الخطوط لدينا للخطوط المصدر فقط من مجلد "MyFonts".
+// قم بتكوين إعدادات الخطوط الخاصة بنا لمصدر الخطوط فقط من المجلد "MyFonts".
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false);
 fontSettings.SetFontsSources(new FontSourceBase[] {folderFontSource});
 
-// سيؤدي استدعاء طريقة "BuildAutomatic" إلى إنشاء مخطط احتياطي
+// سيؤدي استدعاء الأسلوب "BuildAutomatic" إلى إنشاء مخطط احتياطي
 // يوزع الخطوط التي يمكن الوصول إليها عبر أكبر عدد ممكن من رموز أحرف Unicode.
-// في حالتنا ، يمكنه فقط الوصول إلى عدد قليل من الخطوط داخل مجلد "MyFonts".
+// في حالتنا، يمكنه فقط الوصول إلى عدد قليل من الخطوط الموجودة داخل المجلد "MyFonts".
 fontFallbackSettings.BuildAutomatic();
 fontFallbackSettings.Save(ArtifactsDir + "FontSettings.FallbackSettingsCustom.BuildAutomatic.xml");
 
-// يمكننا أيضًا تحميل مخطط بديل مخصص من ملف مثل هذا.
-// يطبق هذا النظام الخط "AllegroOpen" عبر كتل Unicode "0000-00ff" ، خط "AllegroOpen" عبر "0100-024f" ،
-// والخط "M + 2m" في جميع النطاقات الأخرى التي لا تغطيها الخطوط الأخرى في المخطط.
+// يمكننا أيضًا تحميل نظام استبدال مخصص من ملف مثل هذا.
+// يطبق هذا المخطط الخط "AllegroOpen" عبر كتل Unicode "0000-00ff"، والخط "AllegroOpen" عبر "0100-024f"،
+// والخط "M+ 2m" في جميع النطاقات الأخرى التي لا تغطيها الخطوط الأخرى في المخطط.
 fontFallbackSettings.Load(MyDir + "Custom font fallback settings.xml");
 
-// قم بإنشاء منشئ مستندات وضبط خطه على خط غير موجود في أي من مصادرنا.
-// ستستدعي إعدادات الخط الخاصة بنا مخطط الرجوع للأحرف التي نكتبها باستخدام الخط غير المتاح.
+// قم بإنشاء منشئ المستندات وقم بتعيين الخط الخاص به على خط غير موجود في أي من مصادرنا.
+// ستستدعي إعدادات الخط لدينا النظام الاحتياطي للأحرف التي نكتبها باستخدام الخط غير المتاح.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Font.Name = "Missing Font";
 
-// استخدم المنشئ لطباعة كل حرف Unicode من 0x0021 إلى 0x052F ،
-// مع الخطوط الوصفية التي تقسم كتل Unicode التي حددناها في مخططنا المخصص للرجوع للخطوط.
+// استخدم المنشئ لطباعة كل حرف Unicode من 0x0021 إلى 0x052F،
+// مع خطوط وصفية تقسم كتل Unicode التي حددناها في نظامنا الاحتياطي للخط المخصص.
 for (int i = 0x0021; i < 0x0530; i++)
 {
     switch (i)

@@ -1,14 +1,14 @@
 ---
 title: MailMerge.ExecuteWithRegions
 second_title: Referencia de API de Aspose.Words para .NET
-description: MailMerge método. Realiza una combinación de correspondencia desde un origen de datos personalizado con regiones de combinación de correspondencia.
+description: MailMerge método. Realiza una combinación de correspondencia desde una fuente de datos personalizada con regiones de combinación de correspondencia.
 type: docs
 weight: 200
 url: /es/net/aspose.words.mailmerging/mailmerge/executewithregions/
 ---
 ## ExecuteWithRegions(IMailMergeDataSource) {#executewithregions}
 
-Realiza una combinación de correspondencia desde un origen de datos personalizado con regiones de combinación de correspondencia.
+Realiza una combinación de correspondencia desde una fuente de datos personalizada con regiones de combinación de correspondencia.
 
 ```csharp
 public void ExecuteWithRegions(IMailMergeDataSource dataSource)
@@ -16,17 +16,17 @@ public void ExecuteWithRegions(IMailMergeDataSource dataSource)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| dataSource | IMailMergeDataSource | Un objeto que implementa la interfaz de fuente de datos de combinación de correspondencia personalizada. |
+| dataSource | IMailMergeDataSource | Un objeto que implementa la interfaz de origen de datos de combinación de correspondencia personalizada. |
 
 ### Observaciones
 
-Utilice este método para completar campos de combinación de correspondencia en el documento con valores de cualquier origen de datos personalizado, como un archivo XML o colecciones de objetos comerciales. Necesitas escribir tu propia clase que implementa el[`IMailMergeDataSource`](../../imailmergedatasource/) interfaz.
+Utilice este método para completar campos de combinación de correspondencia en el documento con valores de cualquier fuente de datos personalizada, como un archivo XML o colecciones de objetos comerciales. Necesitas escribir tu propia clase que implemente el[`IMailMergeDataSource`](../../imailmergedatasource/) interfaz.
 
-Puede utilizar este método sólo cuando[`IsBidiTextSupportedOnUpdate`](../../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/)es falso, es decir, no necesita compatibilidad con idiomas de derecha a izquierda (como árabe o hebreo).
+Puede utilizar este método sólo cuando[`IsBidiTextSupportedOnUpdate`](../../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/) es`FALSO`, es decir, no necesita compatibilidad con idiomas de derecha a izquierda (como árabe o hebreo).
 
 ### Ejemplos
 
-Muestra cómo utilizar las regiones de combinación de correspondencia para ejecutar una combinación de correspondencia anidada.
+Muestra cómo utilizar regiones de combinación de correspondencia para ejecutar una combinación de correspondencia anidada.
 
 ```csharp
 public void CustomDataSource()
@@ -47,8 +47,8 @@ public void CustomDataSource()
     builder.InsertField(" MERGEFIELD Address ");
     builder.Write("\nOrders:\n");
 
-    // Cree una segunda región de combinación de correo dentro de la región exterior para una fuente de datos llamada "Pedidos".
-    // Las entradas de datos de "Pedidos" tienen una relación de muchos a uno con la fuente de datos de "Clientes".
+    // Cree una segunda región de combinación de correspondencia dentro de la región exterior para una fuente de datos denominada "Pedidos".
+    // Las entradas de datos "Pedidos" tienen una relación de muchos a uno con la fuente de datos "Clientes".
     builder.InsertField(" MERGEFIELD TableStart:Orders");
 
     builder.Write("\tItem name:\t");
@@ -69,7 +69,7 @@ public void CustomDataSource()
     customers[0].Orders.Add(new Order("Rugby World Cup Ball", 1));
     customers[1].Orders.Add(new Order("Rugby World Cup Guide", 1));
 
-    // Para combinar correspondencia desde su fuente de datos, debemos envolverla en un objeto que implemente la interfaz IMailMergeDataSource.
+    // Para combinar correspondencia desde su fuente de datos, debemos incluirla en un objeto que implemente la interfaz IMailMergeDataSource.
     CustomerMailMergeDataSource customersDataSource = new CustomerMailMergeDataSource(customers);
 
     doc.MailMerge.ExecuteWithRegions(customersDataSource);
@@ -95,7 +95,7 @@ public class Customer
 }
 
 /// <summary>
-/// Un ejemplo de una colección tipada que contiene sus objetos de "datos".
+/// Un ejemplo de una colección escrita que contiene sus objetos de "datos".
 /// </summary>
 public class CustomerList : ArrayList
 {
@@ -122,8 +122,8 @@ public class Order
 }
 
 /// <summary>
-/// Una fuente de datos de combinación de correspondencia personalizada que implementa para permitir Aspose.Words 
-/// para combinar datos de sus objetos de Cliente en documentos de Microsoft Word.
+ /// Una fuente de datos de combinación de correspondencia personalizada que implementas para permitir Aspose.Words
+/// para combinar datos de correspondencia de sus objetos de Cliente en documentos de Microsoft Word.
 /// </summary>
 public class CustomerMailMergeDataSource : IMailMergeDataSource
 {
@@ -136,7 +136,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// El nombre de la fuente de datos. Usado por Aspose.Words solo cuando se ejecuta la combinación de correspondencia con regiones repetibles.
+    /// El nombre de la fuente de datos. Utilizado por Aspose.Words solo cuando se ejecuta combinación de correspondencia con regiones repetibles.
     /// </summary>
     public string TableName
     {
@@ -160,7 +160,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
                 fieldValue = mCustomers[mRecordIndex].Orders;
                 return true;
             default:
-                // Devuelve "falso" al motor de combinación de correspondencia de Aspose.Words para indicar
+                // Devuelve "falso" al motor de combinación de correspondencia Aspose.Words para indicar
                 // que no pudimos encontrar un campo con este nombre.
                 fieldValue = null;
                 return false;
@@ -168,7 +168,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Una implementación estándar para pasar al siguiente registro en una colección.
+    /// Una implementación estándar para pasar al siguiente registro de una colección.
     /// </summary>
     public bool MoveNext()
     {
@@ -182,7 +182,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     {
         switch (tableName)
         {
-            // Obtenga la fuente de datos secundaria, cuyo nombre coincida con la región de combinación de correspondencia que usa sus columnas.
+            // Obtenga la fuente de datos secundaria, cuyo nombre coincide con la región de combinación de correspondencia que utiliza sus columnas.
             case "Orders":
                 return new OrderMailMergeDataSource(mCustomers[mRecordIndex].Orders);
             default:
@@ -210,7 +210,7 @@ public class OrderMailMergeDataSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// El nombre de la fuente de datos. Usado por Aspose.Words solo cuando se ejecuta la combinación de correspondencia con regiones repetibles.
+    /// El nombre de la fuente de datos. Utilizado por Aspose.Words solo cuando se ejecuta combinación de correspondencia con regiones repetibles.
     /// </summary>
     public string TableName
     {
@@ -231,7 +231,7 @@ public class OrderMailMergeDataSource : IMailMergeDataSource
                 fieldValue = mOrders[mRecordIndex].Quantity;
                 return true;
             default:
-                // Devuelve "falso" al motor de combinación de correspondencia de Aspose.Words para indicar
+                // Devuelve "falso" al motor de combinación de correspondencia Aspose.Words para indicar
                 // que no pudimos encontrar un campo con este nombre.
                 fieldValue = null;
                 return false;
@@ -239,7 +239,7 @@ public class OrderMailMergeDataSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Una implementación estándar para pasar al siguiente registro en una colección.
+    /// Una implementación estándar para pasar al siguiente registro de una colección.
     /// </summary>
     public bool MoveNext()
     {
@@ -250,7 +250,7 @@ public class OrderMailMergeDataSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Devuelve nulo porque no tenemos elementos secundarios para este tipo de objeto.
+    /// Devuelve nulo porque no tenemos ningún elemento secundario para este tipo de objeto.
     /// </summary>
     public IMailMergeDataSource GetChildDataSource(string tableName)
     {
@@ -278,7 +278,7 @@ public class OrderMailMergeDataSource : IMailMergeDataSource
 
 ## ExecuteWithRegions(IMailMergeDataSourceRoot) {#executewithregions_1}
 
-Realiza una combinación de correspondencia desde un origen de datos personalizado con regiones de combinación de correspondencia.
+Realiza una combinación de correspondencia desde una fuente de datos personalizada con regiones de combinación de correspondencia.
 
 ```csharp
 public void ExecuteWithRegions(IMailMergeDataSourceRoot dataSourceRoot)
@@ -286,17 +286,17 @@ public void ExecuteWithRegions(IMailMergeDataSourceRoot dataSourceRoot)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| dataSourceRoot | IMailMergeDataSourceRoot | Un objeto que implementa la interfaz raíz de origen de datos de combinación de correspondencia personalizada. |
+| dataSourceRoot | IMailMergeDataSourceRoot | Un objeto que implementa la interfaz raíz del origen de datos de combinación de correspondencia personalizada. |
 
 ### Observaciones
 
-Utilice este método para completar campos de combinación de correspondencia en el documento con valores de cualquier origen de datos personalizado, como un archivo XML o colecciones de objetos comerciales. Necesita escribir sus propias clases que implementen el[`IMailMergeDataSourceRoot`](../../imailmergedatasourceroot/) y[`IMailMergeDataSource`](../../imailmergedatasource/) interfaces
+Utilice este método para completar campos de combinación de correspondencia en el documento con valores de cualquier fuente de datos personalizada, como un archivo XML o colecciones de objetos comerciales. Necesitas escribir tus propias clases que implementen el[`IMailMergeDataSourceRoot`](../../imailmergedatasourceroot/) y[`IMailMergeDataSource`](../../imailmergedatasource/) interfaces.
 
-Puede utilizar este método sólo cuando[`IsBidiTextSupportedOnUpdate`](../../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/)es falso, es decir, no necesita compatibilidad con idiomas de derecha a izquierda (como árabe o hebreo).
+Puede utilizar este método sólo cuando[`IsBidiTextSupportedOnUpdate`](../../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/) es`FALSO`, es decir, no necesita compatibilidad con idiomas de derecha a izquierda (como árabe o hebreo).
 
 ### Ejemplos
 
-Realiza la combinación de correo desde una fuente de datos personalizada con datos maestro-detalle.
+Realiza una combinación de correspondencia desde una fuente de datos personalizada con datos maestros-detalles.
 
 ```csharp
 public void CustomDataSourceRoot()
@@ -305,7 +305,7 @@ public void CustomDataSourceRoot()
     string[] mailMergeRegions = { "Vancouver", "Seattle" };
     Document doc = CreateSourceDocumentWithMailMergeRegions(mailMergeRegions);
 
-    // Crear dos fuentes de datos para la combinación de correspondencia.
+    // Crea dos fuentes de datos para la combinación de correspondencia.
     EmployeeList employeesWashingtonBranch = new EmployeeList();
     employeesWashingtonBranch.Add(new Employee("John Doe", "Sales"));
     employeesWashingtonBranch.Add(new Employee("Jane Doe", "Management"));
@@ -315,15 +315,15 @@ public void CustomDataSourceRoot()
     employeesSeattleBranch.Add(new Employee("Joe Bloggs", "Sales"));
 
     // Registrar nuestras fuentes de datos por nombre en una raíz de fuente de datos.
-    // Si estamos a punto de usar esta fuente de datos raíz en una combinación de correo con regiones,
-    // el nombre registrado de cada origen debe coincidir con el nombre de una región de combinación de correspondencia existente en el documento de origen de combinación de correspondencia.
+    // Si vamos a utilizar esta raíz de origen de datos en una combinación de correspondencia con regiones,
+    // el nombre registrado de cada fuente debe coincidir con el nombre de una región de combinación de correspondencia existente en el documento fuente de combinación de correspondencia.
     DataSourceRoot sourceRoot = new DataSourceRoot();
     sourceRoot.RegisterSource(mailMergeRegions[0], new EmployeeListMailMergeSource(employeesWashingtonBranch));
     sourceRoot.RegisterSource(mailMergeRegions[1], new EmployeeListMailMergeSource(employeesSeattleBranch));
 
     // Dado que tenemos regiones de combinación de correspondencia consecutivas, normalmente tendríamos que realizar dos combinaciones de correspondencia.
-    // Sin embargo, una fuente de combinación de correo con una raíz de datos puede completar varias regiones
-    // si la raíz contiene tablas con los nombres/nombres de columna correspondientes.
+    // Sin embargo, una fuente de combinación de correspondencia con una raíz de datos puede completar varias regiones
+    // si la raíz contiene tablas con nombres/nombres de columnas correspondientes.
     doc.MailMerge.ExecuteWithRegions(sourceRoot);
 
     doc.Save(ArtifactsDir + "MailMergeCustom.CustomDataSourceRoot.docx");
@@ -367,7 +367,7 @@ private class Employee
 }
 
 /// <summary>
-/// Un ejemplo de una colección tipada que contiene sus objetos de "datos".
+/// Un ejemplo de una colección escrita que contiene sus objetos de "datos".
 /// </summary>
 private class EmployeeList : ArrayList
 {
@@ -380,8 +380,8 @@ private class EmployeeList : ArrayList
 
 /// <summary>
 /// Raíz de la fuente de datos que se puede pasar directamente a una combinación de correspondencia que puede registrar y contener muchas fuentes de datos secundarias.
-/// Todas estas fuentes deben implementar IMailMergeDataSource, y están registradas y diferenciadas por un nombre
-/// que corresponde a una región de combinación de correo que leerá los datos respectivos.
+/// Todas estas fuentes deben implementar IMailMergeDataSource y están registradas y diferenciadas por un nombre
+/// que corresponde a una región de combinación de correspondencia que leerá los datos respectivos.
 /// </summary>
 private class DataSourceRoot : IMailMergeDataSourceRoot
 {
@@ -412,7 +412,7 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Una implementación estándar para pasar al siguiente registro en una colección.
+    /// Una implementación estándar para pasar al siguiente registro de una colección.
     /// </summary>
     public bool MoveNext()
     {
@@ -433,7 +433,7 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// El nombre de la fuente de datos. Usado por Aspose.Words solo cuando se ejecuta la combinación de correspondencia con regiones repetibles.
+    /// El nombre de la fuente de datos. Utilizado por Aspose.Words solo cuando se ejecuta combinación de correspondencia con regiones repetibles.
     /// </summary>
     public string TableName
     {
@@ -454,7 +454,7 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
                 fieldValue = mEmployees[mRecordIndex].Department;
                 return true;
             default:
-                // Devuelve "falso" al motor de combinación de correspondencia de Aspose.Words para indicar
+                // Devuelve "falso" al motor de combinación de correspondencia Aspose.Words para indicar
                 // que no pudimos encontrar un campo con este nombre.
                 fieldValue = null;
                 return false;
@@ -485,7 +485,7 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
 
 ## ExecuteWithRegions(DataSet) {#executewithregions_2}
 
-Realiza la combinación de correspondencia de un conjunto de datos en un documento con regiones de combinación de correspondencia.
+Realiza combinación de correspondencia desde un **Conjunto de datos** en un documento con regiones de combinación de correspondencia.
 
 ```csharp
 public void ExecuteWithRegions(DataSet dataSet)
@@ -493,38 +493,37 @@ public void ExecuteWithRegions(DataSet dataSet)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| dataSet | DataSet | DataSet que contiene datos que se insertarán en los campos de combinación de correspondencia. |
+| dataSet | DataSet | **Conjunto de datos** que contiene datos que se insertarán en los campos de combinación de correspondencia. |
 
 ### Observaciones
 
-Utilice este método para realizar la combinación de correspondencia desde una o más tablas en regiones de combinación mail repetibles en el documento. Las regiones de combinación de correspondencia dentro del documento crecerán dinámicamente para acomodar registros en las tablas correspondientes.
+Utilice este método para realizar una combinación de correspondencia de una o más tablas en regiones repetibles de combinación mail del documento. Las regiones de combinación de correspondencia dentro del documento crecerán dinámicamente para acomodar registros en las tablas correspondientes.
 
-Cada tabla en el DataSet debe tener un nombre.
+Cada mesa en el **Conjunto de datos** debe tener un nombre.
 
-El documento debe tener regiones de combinación de correspondencia definidas con nombres que hagan referencia a las tablas en el conjunto de datos.
+El documento debe tener regiones de combinación de correspondencia definidas con nombres que hagan referencia a las tablas en el **Conjunto de datos**.
 
 Para especificar una región de combinación de correspondencia en el documento, debe insertar dos campos de combinación de correspondencia para marcar el comienzo y el final de la región de combinación de correspondencia.
 
-Todo el contenido del documento que se incluye dentro de una región de combinación de correo se repetirá automáticamente para cada registro en DataTable.
+Todo el contenido del documento que se incluye dentro de una región de combinación de correspondencia se repetirá automáticamente para cada registro en el **Tabla de datos**.
 
-Para marcar el comienzo de una región de combinación de correspondencia, inserte un MERGEFIELD con el nombre TableStart:MyTable, donde MyTable corresponde a uno de los nombres de tabla en su DataSet.
+Para marcar el comienzo de una región de combinación de correspondencia, inserte un MERGEFIELD con el nombre TableStart:MyTable, donde MyTable corresponde a uno de los nombres de tabla en su **Conjunto de datos**.
 
 Para marcar el final de la región de combinación de correspondencia, inserte otro MERGEFIELD con el nombre TableEnd:MyTable.
 
 Para insertar un MERGEFIELD en Word, use el comando Insertar/Campo y seleccione MergeField y luego escriba el nombre del campo.
 
-Los campos TableStart y TableEnd deben estar dentro de la misma sección en su documento.
+El **Inicio de tabla** y **Fin de la tabla** Los campos deben estar dentro de la misma sección de su documento.
 
-Si se usa dentro de una tabla, TableStart y TableEnd deben estar dentro de la misma fila en la tabla.
+Si se usa dentro de una mesa, **Inicio de tabla** y **Fin de la tabla** debe estar dentro de la misma fila de la tabla.
 
-Las regiones de combinación de correspondencia en un documento deben estar bien formadas (siempre es necesario que haya un par de campos combinados TableStart y TableEnd coincidentes con el mismo nombre de tabla).
+Las regiones de combinación de correspondencia en un documento deben estar bien formadas (siempre es necesario que haya un par de coincidencias  **Inicio de tabla** y **Fin de la tabla** fusionar campos con el mismo nombre de tabla).
 
 ### Ejemplos
 
 Muestra cómo ejecutar una combinación de correspondencia anidada con dos regiones de combinación y dos tablas de datos.
 
 ```csharp
-[Test]
 public void ExecuteWithRegionsNested()
 {
     Document doc = new Document();
@@ -541,7 +540,7 @@ public void ExecuteWithRegionsNested()
     builder.InsertField(" MERGEFIELD CustomerName");
     builder.Write(":");
 
-    // Crear encabezados de columna para una tabla que contendrá valores de una segunda región interna.
+    // Crea encabezados de columna para una tabla que contendrá valores de una segunda región interior.
     builder.StartTable();
     builder.InsertCell();
     builder.Write("Item");
@@ -549,15 +548,15 @@ public void ExecuteWithRegionsNested()
     builder.Write("Quantity");
     builder.EndRow();
 
-    // Cree una segunda región de combinación de correo dentro de la región exterior para una tabla denominada "Pedidos".
-    // La tabla "Pedidos" tiene una relación de varios a uno con la tabla "Clientes" en la columna "CustomerID".
+    // Cree una segunda región de combinación de correspondencia dentro de la región exterior para una tabla denominada "Pedidos".
+    // La tabla "Pedidos" tiene una relación de muchos a uno con la tabla "Clientes" en la columna "CustomerID".
     builder.InsertCell();
     builder.InsertField(" MERGEFIELD TableStart:Orders");
     builder.InsertField(" MERGEFIELD ItemName");
     builder.InsertCell();
     builder.InsertField(" MERGEFIELD Quantity");
 
-    // Finaliza la región interior y luego finaliza la región exterior. La apertura y cierre de una región de combinación de correspondencia debe
+    // Finaliza la región interior y luego finaliza la región exterior. La apertura y el cierre de una región de combinación de correspondencia deben
     // ocurre en la misma fila de una tabla.
     builder.InsertField(" MERGEFIELD TableEnd:Orders");
     builder.EndTable();
@@ -574,7 +573,7 @@ public void ExecuteWithRegionsNested()
 }
 
 /// <summary>
-/// Genera un conjunto de datos que tiene dos tablas de datos denominadas "Clientes" y "Pedidos", con una relación de uno a varios en la columna "CustomerID".
+/// Genera un conjunto de datos que tiene dos tablas de datos denominadas "Clientes" y "Pedidos", con una relación de uno a muchos en la columna "CustomerID".
 /// </summary>
 private static DataSet CreateDataSet()
 {
@@ -611,7 +610,7 @@ private static DataSet CreateDataSet()
 
 ## ExecuteWithRegions(DataTable) {#executewithregions_3}
 
-Realiza la combinación de correspondencia de un DataTable en el documento con las regiones de combinación de correspondencia.
+Realiza combinación de correspondencia desde un **Tabla de datos** en el documento con regiones de combinación de correspondencia.
 
 ```csharp
 public void ExecuteWithRegions(DataTable dataTable)
@@ -619,19 +618,20 @@ public void ExecuteWithRegions(DataTable dataTable)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| dataTable | DataTable | Fuente de datos para la operación de combinación de correspondencia. La tabla debe tener su **Nombre de la tabla** conjunto de propiedades |
+| dataTable | DataTable | Fuente de datos para la operación de combinación de correspondencia. La tabla must tiene suTableName conjunto de propiedades. |
 
 ### Observaciones
 
-El documento debe tener una región de combinación de correspondencia definida con un nombre que coincida con  **DataTable.TableName**.
+El documento debe tener una región de combinación de correspondencia definida con un nombre que coincida con TableName.
 
 Si hay otras regiones de combinación de correspondencia definidas en el documento, se dejan intactas. Esto permite realizar varias operaciones de combinación de correspondencia.
 
 ### Ejemplos
 
-Muestra cómo formatear celdas durante una combinación de correspondencia.
+Demuestra cómo dar formato a las celdas durante una combinación de correspondencia.
 
 ```csharp
+public void AlternatingRows()
 {
     Document doc = new Document(MyDir + "Mail merge destination - Northwind suppliers.docx");
 
@@ -641,14 +641,15 @@ Muestra cómo formatear celdas durante una combinación de correspondencia.
     doc.MailMerge.ExecuteWithRegions(dataTable);
 
     doc.Save(ArtifactsDir + "MailMergeEvent.AlternatingRows.docx");
+}
 
 /// <summary>
-/// Da formato a las filas de la tabla a medida que se lleva a cabo una combinación de correspondencia para alternar entre dos colores en filas pares/impares.
+/// Da formato a las filas de la tabla a medida que se realiza una combinación de correspondencia para alternar entre dos colores en filas pares o impares.
 /// </summary>
 private class HandleMergeFieldAlternatingRows : IFieldMergingCallback
 {
     /// <summary>
-    /// Llamado cuando una combinación de correo combina datos en un MERGEFIELD.
+    /// Se llama cuando una combinación de correspondencia combina datos en un MERGEFIELD.
     /// </summary>
     void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)
     {
@@ -680,7 +681,7 @@ private class HandleMergeFieldAlternatingRows : IFieldMergingCallback
 }
 
 /// <summary>
-/// Función necesaria para la autoportación de Visual Basic que devuelve la paridad del número pasado.
+/// Función necesaria para el transporte automático de Visual Basic que devuelve la paridad del número pasado.
 /// </summary>
 private static bool IsOdd(int value)
 {
@@ -707,14 +708,14 @@ private static DataTable GetSuppliersDataTable()
 }
 ```
 
-Muestra cómo usar regiones para ejecutar dos combinaciones de correo separadas en un documento.
+Muestra cómo utilizar regiones para ejecutar dos combinaciones de correspondencia independientes en un documento.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Si queremos realizar dos fusiones de correo consecutivas en un documento mientras tomamos datos de dos tablas
-// relacionados entre sí de alguna manera, podemos separar las fusiones de correo con las regiones.
+// Si queremos realizar dos combinaciones de correspondencia consecutivas en un documento mientras tomamos datos de dos tablas
+// relacionados entre sí de alguna manera, podemos separar las combinaciones de correspondencia con regiones.
 // Normalmente, los MERGEFIELD contienen el nombre de una columna de una fuente de datos de combinación de correspondencia.
 // En su lugar, podemos usar los prefijos "TableStart:" y "TableEnd:" para comenzar/finalizar una región de combinación de correspondencia.
 // Cada región pertenecerá a una tabla con un nombre que coincida con la cadena inmediatamente después de los dos puntos del prefijo.
@@ -725,13 +726,13 @@ builder.InsertField(" MERGEFIELD Name");
 builder.InsertField(" MERGEFIELD TableEnd:Cities");
 builder.InsertParagraph();
 
-// Ambos MERGEFIELD se refieren al mismo nombre de columna, pero los valores de cada uno provendrán de diferentes tablas de datos.
+// Ambos MERGEFIELD hacen referencia al mismo nombre de columna, pero los valores de cada uno provendrán de tablas de datos diferentes.
 builder.Writeln("\tFruit: ");
 builder.InsertField(" MERGEFIELD TableStart:Fruit");
 builder.InsertField(" MERGEFIELD Name");
 builder.InsertField(" MERGEFIELD TableEnd:Fruit");
 
-// Crear dos tablas de datos no relacionadas.
+// Crea dos tablas de datos no relacionadas.
 DataTable tableCities = new DataTable("Cities");
 tableCities.Columns.Add("Name");
 tableCities.Rows.Add(new object[] { "Washington" });
@@ -745,12 +746,12 @@ tableFruit.Rows.Add(new object[] { "Apple" });
 tableFruit.Rows.Add(new object[] { "Watermelon" });
 tableFruit.Rows.Add(new object[] { "Banana" });
 
-// Tendremos que ejecutar una combinación de correspondencia por tabla. La primera combinación de correspondencia llenará los MERGEFIELDs
-// en el rango "Ciudades" dejando los campos del rango "Frutas" sin llenar.
+// Necesitaremos ejecutar una combinación de correspondencia por tabla. La primera combinación de correspondencia llenará los MERGEFIELD.
+// en el rango "Ciudades" dejando los campos del rango "Fruta" vacíos.
 doc.MailMerge.ExecuteWithRegions(tableCities);
 
 // Ejecute una segunda combinación para la tabla "Fruit", mientras usa una vista de datos
-// para ordenar las filas en orden ascendente en la columna "Nombre" antes de la fusión.
+// para ordenar las filas en orden ascendente en la columna "Nombre" antes de la combinación.
 DataView dv = new DataView(tableFruit);
 dv.Sort = "Name ASC";
 doc.MailMerge.ExecuteWithRegions(dv);
@@ -768,7 +769,7 @@ doc.Save(ArtifactsDir + "MailMerge.ExecuteWithRegionsConcurrent.docx");
 
 ## ExecuteWithRegions(DataView) {#executewithregions_4}
 
-Realiza la combinación de correspondencia desde un DataView en el documento con regiones de combinación de correspondencia.
+Realiza combinación de correspondencia desde un **Vista de datos** en el documento con regiones de combinación de correspondencia.
 
 ```csharp
 public void ExecuteWithRegions(DataView dataView)
@@ -776,26 +777,26 @@ public void ExecuteWithRegions(DataView dataView)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| dataView | DataView | Fuente de datos para la operación de combinación de correspondencia. La fuente table del **vista de datos** debe tener su **Nombre de la tabla** conjunto de propiedades |
+| dataView | DataView | Fuente de datos para la operación de combinación de correspondencia. La tabla fuente del **Vista de datos** debe tener su **Nombre de la tabla** conjunto de propiedades. |
 
 ### Observaciones
 
-Este método es útil si recupera datos en un **Tabla de datos** pero luego necesita aplicar un filtro u ordenar antes de la combinación de correspondencia.
+Este método es útil si recupera datos en un **Tabla de datos** pero entonces necesita aplicar un filtro u ordenar antes de combinar correspondencia.
 
-El documento debe tener una región de combinación de correspondencia definida con un nombre que coincida con  **DataView.Table.TableName**.
+El documento debe tener una región de combinación de correspondencia definida con un nombre que coincida con  **DataView.Table.NombreTabla**.
 
 Si hay otras regiones de combinación de correspondencia definidas en el documento, se dejan intactas. Esto permite realizar varias operaciones de combinación de correspondencia.
 
 ### Ejemplos
 
-Muestra cómo usar regiones para ejecutar dos combinaciones de correo separadas en un documento.
+Muestra cómo utilizar regiones para ejecutar dos combinaciones de correspondencia independientes en un documento.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Si queremos realizar dos fusiones de correo consecutivas en un documento mientras tomamos datos de dos tablas
-// relacionados entre sí de alguna manera, podemos separar las fusiones de correo con las regiones.
+// Si queremos realizar dos combinaciones de correspondencia consecutivas en un documento mientras tomamos datos de dos tablas
+// relacionados entre sí de alguna manera, podemos separar las combinaciones de correspondencia con regiones.
 // Normalmente, los MERGEFIELD contienen el nombre de una columna de una fuente de datos de combinación de correspondencia.
 // En su lugar, podemos usar los prefijos "TableStart:" y "TableEnd:" para comenzar/finalizar una región de combinación de correspondencia.
 // Cada región pertenecerá a una tabla con un nombre que coincida con la cadena inmediatamente después de los dos puntos del prefijo.
@@ -806,13 +807,13 @@ builder.InsertField(" MERGEFIELD Name");
 builder.InsertField(" MERGEFIELD TableEnd:Cities");
 builder.InsertParagraph();
 
-// Ambos MERGEFIELD se refieren al mismo nombre de columna, pero los valores de cada uno provendrán de diferentes tablas de datos.
+// Ambos MERGEFIELD hacen referencia al mismo nombre de columna, pero los valores de cada uno provendrán de tablas de datos diferentes.
 builder.Writeln("\tFruit: ");
 builder.InsertField(" MERGEFIELD TableStart:Fruit");
 builder.InsertField(" MERGEFIELD Name");
 builder.InsertField(" MERGEFIELD TableEnd:Fruit");
 
-// Crear dos tablas de datos no relacionadas.
+// Crea dos tablas de datos no relacionadas.
 DataTable tableCities = new DataTable("Cities");
 tableCities.Columns.Add("Name");
 tableCities.Rows.Add(new object[] { "Washington" });
@@ -826,12 +827,12 @@ tableFruit.Rows.Add(new object[] { "Apple" });
 tableFruit.Rows.Add(new object[] { "Watermelon" });
 tableFruit.Rows.Add(new object[] { "Banana" });
 
-// Tendremos que ejecutar una combinación de correspondencia por tabla. La primera combinación de correspondencia llenará los MERGEFIELDs
-// en el rango "Ciudades" dejando los campos del rango "Frutas" sin llenar.
+// Necesitaremos ejecutar una combinación de correspondencia por tabla. La primera combinación de correspondencia llenará los MERGEFIELD.
+// en el rango "Ciudades" dejando los campos del rango "Fruta" vacíos.
 doc.MailMerge.ExecuteWithRegions(tableCities);
 
 // Ejecute una segunda combinación para la tabla "Fruit", mientras usa una vista de datos
-// para ordenar las filas en orden ascendente en la columna "Nombre" antes de la fusión.
+// para ordenar las filas en orden ascendente en la columna "Nombre" antes de la combinación.
 DataView dv = new DataView(tableFruit);
 dv.Sort = "Name ASC";
 doc.MailMerge.ExecuteWithRegions(dv);
@@ -849,7 +850,7 @@ doc.Save(ArtifactsDir + "MailMerge.ExecuteWithRegionsConcurrent.docx");
 
 ## ExecuteWithRegions(IDataReader, string) {#executewithregions_5}
 
-Realiza la combinación de correspondencia de IDataReader en el documento con las regiones de combinación de correspondencia.
+Realiza combinación de correspondencia desde **Lector de datos** en el documento con regiones de combinación de correspondencia.
 
 ```csharp
 public void ExecuteWithRegions(IDataReader dataReader, string tableName)
@@ -857,16 +858,16 @@ public void ExecuteWithRegions(IDataReader dataReader, string tableName)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| dataReader | IDataReader | Origen de los registros de datos para la combinación de correspondencia como OleDbDataReader o SqlDataReader. |
-| tableName | String | Nombre de la región de combinación de correspondencia en el documento para completar. |
+| dataReader | IDataReader | Fuente de los registros de datos para la combinación de correspondencia, como **Lector de datos OleDb** o **Lector de datos SQL**. |
+| tableName | String | Nombre de la región de combinación de correspondencia en el documento que se va a completar. |
 
 ### Observaciones
 
-Puedes pasar **SqlDataReader** o **OleDbDataReader** objeto en el método this como parámetro porque ambos implementaron **IDataReader** interfaz.
+Puedes pasar **Lector de datos SQL** o **Lector de datos OleDb**objeto en el método this como parámetro porque ambos implementaron **Lector de datos** interfaz.
 
 ### Ejemplos
 
-Muestra cómo insertar imágenes almacenadas en un campo BLOB de base de datos en un informe.
+Muestra cómo insertar imágenes almacenadas en un campo BLOB de la base de datos en un informe.
 
 ```csharp
 public void ImageFromBlob()
@@ -875,7 +876,7 @@ public void ImageFromBlob()
 
     doc.MailMerge.FieldMergingCallback = new HandleMergeImageFieldFromBlob();
 
-    string connString = $"Provider=Microsoft.Jet.OLEDB.4.0;Data Source={DatabaseDir + "Northwind.mdb"};";
+    string connString = $"Provider=Microsoft.ACE.OLEDB.12.0;Data Source={DatabaseDir + "Northwind.accdb"};";
     string query = "SELECT FirstName, LastName, Title, Address, City, Region, Country, PhotoBLOB FROM Employees";
 
     using (OleDbConnection conn = new OleDbConnection(connString))
@@ -890,6 +891,7 @@ public void ImageFromBlob()
     }
 
     doc.Save(ArtifactsDir + "MailMergeEvent.ImageFromBlob.docx");
+}
 
 private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 {

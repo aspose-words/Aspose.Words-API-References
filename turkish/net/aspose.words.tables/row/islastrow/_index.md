@@ -22,8 +22,8 @@ Aynı sayfada bir arada kalacak bir tablonun nasıl ayarlanacağını gösterir.
 Document doc = new Document(MyDir + "Table spanning two pages.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
-// Tablodaki her paragraf için KeepWithNext'i etkinleştirme
-// son satırdaki son olanlar, tablonun birden çok sayfaya bölünmesini engeller.
+// Tablodaki hariç her paragraf için KeepWithNext etkinleştiriliyor
+// son satırdaki sonuncular tablonun birden fazla sayfaya bölünmesini engelleyecektir.
 foreach (Cell cell in table.GetChildNodes(NodeType.Cell, true).OfType<Cell>())
     foreach (Paragraph para in cell.Paragraphs.OfType<Paragraph>())
     {

@@ -27,6 +27,7 @@ Om du sparar ett dokument i en ström så har Aspose.Words ingen mapp där bilde
 Visar hur man skriver ut filnamnen på länkade bilder som skapats när ett dokument konverteras till flödesformat .xaml.
 
 ```csharp
+public void ImageFolder()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
@@ -56,6 +57,7 @@ Visar hur man skriver ut filnamnen på länkade bilder som skapats när ett doku
 
     foreach (string resource in callback.Resources)
         Console.WriteLine($"{callback.ImagesFolderAlias}/{resource}");
+}
 
 /// <summary>
 /// Räknar och skriver ut filnamn på bilder medan deras överordnade dokument konverteras till flödesformen .xaml.

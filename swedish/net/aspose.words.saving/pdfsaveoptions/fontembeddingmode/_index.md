@@ -3,7 +3,7 @@ title: PdfSaveOptions.FontEmbeddingMode
 second_title: Aspose.Words för .NET API Referens
 description: PdfSaveOptions fast egendom. Anger typsnittets inbäddningsläge.
 type: docs
-weight: 140
+weight: 170
 url: /sv/net/aspose.words.saving/pdfsaveoptions/fontembeddingmode/
 ---
 ## PdfSaveOptions.FontEmbeddingMode property
@@ -59,7 +59,7 @@ switch (pdfFontEmbeddingMode)
         Assert.That(480000, Is.LessThan(new FileInfo(ArtifactsDir + "PdfSaveOptions.EmbedWindowsFonts.pdf").Length));
         break;
     case PdfFontEmbeddingMode.EmbedNone:
-        Assert.That(4217, Is.AtLeast(new FileInfo(ArtifactsDir + "PdfSaveOptions.EmbedWindowsFonts.pdf").Length));
+        Assert.That(4255, Is.AtLeast(new FileInfo(ArtifactsDir + "PdfSaveOptions.EmbedWindowsFonts.pdf").Length));
         break;
 }
 ```

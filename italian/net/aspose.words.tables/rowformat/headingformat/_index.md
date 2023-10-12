@@ -1,14 +1,14 @@
 ---
 title: RowFormat.HeadingFormat
 second_title: Aspose.Words per .NET API Reference
-description: RowFormat proprietà. Vero se la riga viene ripetuta come intestazione di tabella su ogni pagina quando la tabella occupa più di una pagina.
+description: RowFormat proprietà. Vero se la riga viene ripetuta come intestazione di tabella su ogni pagina quando la tabella si estende su più di una pagina.
 type: docs
 weight: 30
 url: /it/net/aspose.words.tables/rowformat/headingformat/
 ---
 ## RowFormat.HeadingFormat property
 
-Vero se la riga viene ripetuta come intestazione di tabella su ogni pagina quando la tabella occupa più di una pagina.
+Vero se la riga viene ripetuta come intestazione di tabella su ogni pagina quando la tabella si estende su più di una pagina.
 
 ```csharp
 public bool HeadingFormat { get; set; }
@@ -25,7 +25,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Table table = builder.StartTable();
 
 // Qualsiasi riga inserita mentre il flag "HeadingFormat" è impostato su "true"
-// apparirà in cima alla tabella in ogni pagina su cui si estende.
+// verrà visualizzato nella parte superiore della tabella su ogni pagina su cui si estende.
 builder.RowFormat.HeadingFormat = true;
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 builder.CellFormat.Width = 100;
@@ -40,7 +40,7 @@ builder.CellFormat.Width = 50;
 builder.ParagraphFormat.ClearFormatting();
 builder.RowFormat.HeadingFormat = false;
 
-// Aggiunge righe sufficienti affinché la tabella si estenda su due pagine.
+// Aggiungi abbastanza righe affinché la tabella si estenda su due pagine.
 for (int i = 0; i < 50; i++)
 {
     builder.InsertCell();

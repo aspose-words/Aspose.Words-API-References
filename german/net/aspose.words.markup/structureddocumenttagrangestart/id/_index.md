@@ -18,11 +18,11 @@ public int Id { get; }
 
 Das ID-Attribut muss diesen Regeln folgen:
 
-* Das Dokument soll die Tag-IDs des strukturierten Dokuments nur dann beibehalten, wenn das gesamte document geklont wird[`Clone`](../../../aspose.words/document/clone/).
-* Während[`ImportNode`](../../../aspose.words/documentbase/importnode/) Die ID soll beibehalten werden, wenn der Import keine Konflikte mit anderen strukturierten Dokument-Tag-IDs im Zieldokument verursacht.
-* Wenn mehrere strukturierte Dokument-Tag-Knoten denselben Dezimalzahlwert für das Id-Attribut angeben, dann soll das erste strukturierte Dokument-Tag im Dokument diese ursprüngliche ID beibehalten, und allen nachfolgenden strukturierten Dokument-Tag-Knoten werden neue Identifikatoren zugewiesen Das Dokument wird geladen.
-* Während eines eigenständigen strukturierten Dokument-TagsINodeCloningListener) operation neue eindeutige ID wird für den geklonten strukturierten Dokument-Tag-Knoten be generiert.
-* Wenn die ID im Quelldokument nicht angegeben ist, wird dem Tag-Knoten des strukturierten Dokuments eine neue eindeutige Kennung zugewiesen , wenn das Dokument geladen wird.
+* Das Dokument behält strukturierte Dokument-Tag-IDs nur dann bei, wenn das gesamte document geklont wird[`Clone`](../../../aspose.words/document/clone/).
+* Während[`ImportNode`](../../../aspose.words/documentbase/importnode/) Die -ID soll beibehalten werden, wenn der Import keine Konflikte mit anderen strukturierten Dokument-Tag-IDs im des Zieldokuments verursacht.
+* Wenn mehrere Tag-Knoten eines strukturierten Dokuments denselben Dezimalzahlenwert für das ID-Attribut angeben, , behält das erste Tag des strukturierten Dokuments im Dokument diese ursprüngliche ID bei, , und allen nachfolgenden Tag-Knoten eines strukturierten Dokuments werden neue Bezeichner zugewiesen, wenn Das Dokument wird geladen.
+* Während eines eigenständigen strukturierten Dokument-TagsINodeCloningListener)Für den geklonten Strukturdokument-Tag-Knoten wird eine neue eindeutige ID generiert.
+* Wenn im Quelldokument keine ID angegeben ist, wird dem Tag-Knoten des strukturierten Dokuments beim Laden des Dokuments eine neue eindeutige Kennung zugewiesen .
 
 ### Beispiele
 

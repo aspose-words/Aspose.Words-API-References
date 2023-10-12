@@ -1,14 +1,14 @@
 ---
 title: ImageData.ToByteArray
 second_title: Aspose.Words for .NET API Referansı
-description: ImageData yöntem. Görüntünün depolanmış veya bağlantılı olmasına bakılmaksızın herhangi bir görüntü için görüntü baytlarını döndürür.
+description: ImageData yöntem. Görüntünün depolanmış veya bağlı olmasına bakılmaksızın herhangi bir görüntü için görüntü baytlarını döndürür.
 type: docs
-weight: 210
+weight: 220
 url: /tr/net/aspose.words.drawing/imagedata/tobytearray/
 ---
 ## ImageData.ToByteArray method
 
-Görüntünün depolanmış veya bağlantılı olmasına bakılmaksızın herhangi bir görüntü için görüntü baytlarını döndürür.
+Görüntünün depolanmış veya bağlı olmasına bakılmaksızın herhangi bir görüntü için görüntü baytlarını döndürür.
 
 ```csharp
 public byte[] ToByteArray()
@@ -16,20 +16,19 @@ public byte[] ToByteArray()
 
 ### Notlar
 
-Görüntü bağlantılıysa, her çağrıldığında görüntüyü indirir.
+Resim bağlantılıysa, her çağrıldığında resmi indirir.
 
 ### Örnekler
 
-Bir şeklin ham görüntü verilerinden bir görüntü dosyasının nasıl oluşturulacağını gösterir.
+Bir şeklin ham görüntü verilerinden nasıl görüntü dosyası oluşturulacağını gösterir.
 
 ```csharp
 Document imgSourceDoc = new Document(MyDir + "Images.docx");
-
 Shape imgShape = (Shape) imgSourceDoc.GetChild(NodeType.Shape, 0, true);
 
 Assert.True(imgShape.HasImage);
 
-// ToByteArray(), ImageBytes özelliğinde depolanan diziyi döndürür.
+// ToByteArray(), ImageBytes özelliğinde saklanan diziyi döndürür.
 Assert.AreEqual(imgShape.ImageData.ImageBytes, imgShape.ImageData.ToByteArray());
 
 // Şeklin görüntü verilerini yerel dosya sistemindeki bir görüntü dosyasına kaydedin.

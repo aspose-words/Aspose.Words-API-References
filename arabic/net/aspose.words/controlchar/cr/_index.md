@@ -1,14 +1,14 @@
 ---
 title: ControlChar.Cr
 second_title: Aspose.Words لمراجع .NET API
-description: ControlChar مجال. حرف إرجاع السطر  x000d أو  r. مثلParagraphBreak .
+description: ControlChar مجال. حرف الإرجاع x000d أو r. مثلParagraphBreak .
 type: docs
 weight: 50
 url: /ar/net/aspose.words/controlchar/cr/
 ---
 ## ControlChar.Cr field
 
-حرف إرجاع السطر: "\ x000d" أو "\ r". مثل[`ParagraphBreak`](../paragraphbreak/) .
+حرف الإرجاع: "\x000d" أو "\r". مثل[`ParagraphBreak`](../paragraphbreak/) .
 
 ```csharp
 public static readonly string Cr;
@@ -22,18 +22,18 @@ public static readonly string Cr;
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أدخل فقرات مع نص باستخدام DocumentBuilder.
+// قم بإدراج فقرات تحتوي على نص باستخدام DocumentBuilder.
 builder.Writeln("Hello world!");
 builder.Writeln("Hello again!");
 
-// تحويل المستند إلى نموذج نصي يكشف عن التحكم في الأحرف
-// تمثل بعض العناصر الهيكلية للمستند ، مثل فواصل الصفحات.
+// يكشف تحويل المستند إلى نموذج نصي عن أحرف التحكم تلك
+// تمثل بعض العناصر الهيكلية للمستند، مثل فواصل الصفحات.
 Assert.AreEqual($"Hello world!{ControlChar.Cr}" +
                 $"Hello again!{ControlChar.Cr}" +
                 ControlChar.PageBreak, doc.GetText());
 
-// عند تحويل مستند إلى شكل سلسلة ،
-// يمكننا حذف بعض أحرف التحكم باستخدام طريقة Trim.
+// عند تحويل مستند إلى نموذج سلسلة،
+// يمكننا حذف بعض أحرف التحكم باستخدام طريقة القطع.
 Assert.AreEqual($"Hello world!{ControlChar.Cr}" +
                 "Hello again!", doc.GetText().Trim());
 ```

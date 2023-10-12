@@ -3,7 +3,7 @@ title: PageInfo.GetSizeInPixels
 second_title: Référence de l'API Aspose.Words pour .NET
 description: PageInfo méthode. Calcule la taille de la page en pixels pour un facteur de zoom et une résolution spécifiés.
 type: docs
-weight: 80
+weight: 90
 url: /fr/net/aspose.words.rendering/pageinfo/getsizeinpixels/
 ---
 ## GetSizeInPixels(float, float) {#getsizeinpixels}
@@ -17,7 +17,7 @@ public Size GetSizeInPixels(float scale, float dpi)
 | Paramètre | Taper | La description |
 | --- | --- | --- |
 | scale | Single | Le facteur de zoom (1,0 correspond à 100 %). |
-| dpi | Single | La résolution (horizontale et verticale) pour convertir des points en pixels (points par pouce). |
+| dpi | Single | La résolution (horizontale et verticale) à convertir des points en pixels (points par pouce). |
 
 ### Return_Value
 
@@ -42,8 +42,8 @@ public Size GetSizeInPixels(float scale, float horizontalDpi, float verticalDpi)
 | Paramètre | Taper | La description |
 | --- | --- | --- |
 | scale | Single | Le facteur de zoom (1,0 correspond à 100 %). |
-| horizontalDpi | Single | La résolution horizontale pour convertir des points en pixels (points par pouce). |
-| verticalDpi | Single | La résolution verticale pour convertir des points en pixels (points par pouce). |
+| horizontalDpi | Single | La résolution horizontale à convertir des points en pixels (points par pouce). |
+| verticalDpi | Single | La résolution verticale à convertir des points en pixels (points par pouce). |
 
 ### Return_Value
 
@@ -51,13 +51,13 @@ La taille de la page en pixels.
 
 ### Exemples
 
-Montre comment imprimer des informations sur la taille et l'orientation de la page pour chaque page d'un document Word.
+Montre comment imprimer les informations sur la taille et l’orientation de chaque page d’un document Word.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// La première section comporte 2 pages. Nous attribuerons un bac à papier d'imprimante différent à chacun,
-// dont le numéro correspondra à un type de source papier. Ces sources et leurs types varieront
+// La première section comporte 2 pages. Nous attribuerons à chacun un bac à papier d'imprimante différent,
+// dont le numéro correspondra à une sorte de source papier. Ces sources et leurs types varient
 // en fonction du pilote d'imprimante installé.
 PrinterSettings.PaperSourceCollection paperSources = new PrinterSettings().PaperSources;
 
@@ -71,10 +71,10 @@ float dpi = 96;
 
 for (int i = 0; i < doc.PageCount; i++)
 {
-    // Chaque page a un objet PageInfo, dont l'index est le numéro de la page respective.
+    // Chaque page possède un objet PageInfo, dont l'index est le numéro de la page respective.
     PageInfo pageInfo = doc.GetPageInfo(i);
 
-    // Affiche l'orientation et les dimensions de la page.
+    // Imprime l'orientation et les dimensions de la page.
     Console.WriteLine($"Page {i + 1}:");
     Console.WriteLine($"\tOrientation:\t{(pageInfo.Landscape ? "Landscape" : "Portrait")}");
     Console.WriteLine($"\tPaper size:\t\t{pageInfo.PaperSize} ({pageInfo.WidthInPoints:F0}x{pageInfo.HeightInPoints:F0}pt)");

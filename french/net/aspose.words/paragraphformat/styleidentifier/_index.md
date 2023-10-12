@@ -1,14 +1,14 @@
 ---
 title: ParagraphFormat.StyleIdentifier
 second_title: Référence de l'API Aspose.Words pour .NET
-description: ParagraphFormat propriété. Obtient ou définit lidentificateur de style indépendant des paramètres régionaux du style de paragraphe appliqué à cette mise en forme.
+description: ParagraphFormat propriété. Obtient ou définit lidentifiant de style indépendant des paramètres régionaux du style de paragraphe appliqué à cette mise en forme.
 type: docs
-weight: 340
+weight: 350
 url: /fr/net/aspose.words/paragraphformat/styleidentifier/
 ---
 ## ParagraphFormat.StyleIdentifier property
 
-Obtient ou définit l'identificateur de style indépendant des paramètres régionaux du style de paragraphe appliqué à cette mise en forme.
+Obtient ou définit l'identifiant de style indépendant des paramètres régionaux du style de paragraphe appliqué à cette mise en forme.
 
 ```csharp
 public StyleIdentifier StyleIdentifier { get; set; }
@@ -23,14 +23,14 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Insère une table des matières pour la première page du document.
-// Configurer le tableau pour récupérer les paragraphes avec des titres de niveaux 1 à 3.
-// De plus, définissez ses entrées comme étant des hyperliens qui nous mèneront
-// à l'emplacement de l'en-tête lors d'un clic gauche dans Microsoft Word.
+// Configurez le tableau pour récupérer les paragraphes avec des titres de niveaux 1 à 3.
+// Définissez également ses entrées comme des hyperliens qui nous amèneront
+// à l'emplacement du titre lors d'un clic gauche dans Microsoft Word.
 builder.InsertTableOfContents("\\o \"1-3\" \\h \\z \\u");
 builder.InsertBreak(BreakType.PageBreak);
 
-// Remplir la table des matières en ajoutant des paragraphes avec des styles de titre.
-// Chacun de ces titres avec un niveau compris entre 1 et 3 créera une entrée dans la table.
+// Remplit la table des matières en ajoutant des paragraphes avec des styles de titre.
+// Chacun de ces en-têtes avec un niveau compris entre 1 et 3 créera une entrée dans le tableau.
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 builder.Writeln("Heading 1");
 

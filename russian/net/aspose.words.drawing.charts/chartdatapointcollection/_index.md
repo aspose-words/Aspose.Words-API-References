@@ -1,14 +1,16 @@
 ---
 title: Class ChartDataPointCollection
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.Charts.ChartDataPointCollection сорт. Представляет наборChartDataPoint .
+description: Aspose.Words.Drawing.Charts.ChartDataPointCollection сорт. Представляет коллекциюChartDataPoint .
 type: docs
-weight: 660
+weight: 700
 url: /ru/net/aspose.words.drawing.charts/chartdatapointcollection/
 ---
 ## ChartDataPointCollection class
 
-Представляет набор[`ChartDataPoint`](../chartdatapoint/) .
+Представляет коллекцию[`ChartDataPoint`](../chartdatapoint/) .
+
+Чтобы узнать больше, посетите[Работа с диаграммами](https://docs.aspose.com/words/net/working-with-charts/) статья документации.
 
 ```csharp
 public class ChartDataPointCollection : IEnumerable<ChartDataPoint>
@@ -26,14 +28,15 @@ public class ChartDataPointCollection : IEnumerable<ChartDataPoint>
 | Имя | Описание |
 | --- | --- |
 | [ClearFormat](../../aspose.words.drawing.charts/chartdatapointcollection/clearformat/)() | Очищает формат всех[`ChartDataPoint`](../chartdatapoint/) в этой коллекции. |
+| [CopyFormat](../../aspose.words.drawing.charts/chartdatapointcollection/copyformat/)(int, int) |  |
 | [GetEnumerator](../../aspose.words.drawing.charts/chartdatapointcollection/getenumerator/)() | Возвращает объект перечислителя. |
+| [HasDefaultFormat](../../aspose.words.drawing.charts/chartdatapointcollection/hasdefaultformat/)(int) |  |
 
 ### Примеры
 
 Показывает, как работать с точками данных на линейной диаграмме.
 
 ```csharp
-[Test]
 public void ChartDataPoint()
 {
     Document doc = new Document();
@@ -47,14 +50,14 @@ public void ChartDataPoint()
     Assert.AreEqual("Series 2", chart.Series[1].Name);
     Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-    // Подчеркните точки данных диаграммы, сделав их ромбовидными.
+    // Выделите точки данных диаграммы, придав им вид ромба.
     foreach (ChartSeries series in chart.Series) 
         ApplyDataPoints(series, 4, MarkerSymbol.Diamond, 15);
 
     // Сглаживаем линию, представляющую первый ряд данных.
     chart.Series[0].Smooth = true;
 
-    // Убедитесь, что точки данных для первого ряда не инвертируют свои цвета, если значение отрицательное.
+    // Убедитесь, что точки данных для первой серии не инвертируют свои цвета, если значение отрицательное.
     using (IEnumerator<ChartDataPoint> enumerator = chart.Series[0].DataPoints.GetEnumerator())
     {
         while (enumerator.MoveNext())
@@ -63,17 +66,17 @@ public void ChartDataPoint()
         }
     }
 
-    // Чтобы график выглядел чище, мы можем очистить формат по отдельности.
+    // Чтобы график выглядел чище, мы можем очистить формат индивидуально.
     chart.Series[1].DataPoints[2].ClearFormat();
 
-    // Мы также можем сразу удалить всю серию точек данных.
+    // Мы также можем удалить сразу всю серию точек данных.
     chart.Series[2].DataPoints.ClearFormat();
 
     doc.Save(ArtifactsDir + "Charts.ChartDataPoint.docx");
 }
 
 /// <summary>
-/// Применяет ряд точек данных к ряду.
+/// Применяет к ряду несколько точек данных.
 /// </summary>
 private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, MarkerSymbol markerSymbol, int dataPointSize)
 {

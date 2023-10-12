@@ -3,7 +3,7 @@ title: Range.Text
 second_title: Aspose.Words per .NET API Reference
 description: Range proprietà. Ottiene il testo dellintervallo.
 type: docs
-weight: 50
+weight: 60
 url: /it/net/aspose.words/range/text/
 ---
 ## Range.Text property
@@ -20,7 +20,7 @@ La stringa restituita include tutti i caratteri di controllo e speciali come des
 
 ### Esempi
 
-Mostra come ottenere il contenuto di testo di tutti i nodi coperti da un intervallo.
+Mostra come ottenere il contenuto del testo di tutti i nodi coperti da un intervallo.
 
 ```csharp
 Document doc = new Document();

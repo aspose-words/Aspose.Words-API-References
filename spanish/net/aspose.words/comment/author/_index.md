@@ -16,7 +16,7 @@ public string Author { get; set; }
 
 ### Observaciones
 
-No puede ser nulo.
+No puede ser`nulo`.
 
 El valor predeterminado es una cadena vacía.
 
@@ -28,8 +28,7 @@ Muestra cómo imprimir todos los comentarios de un documento y sus respuestas.
 Document doc = new Document(MyDir + "Comments.docx");
 
 NodeCollection comments = doc.GetChildNodes(NodeType.Comment, true);
-
-// Si un comentario no tiene un antepasado, es un comentario de "nivel superior" en lugar de un comentario de tipo respuesta.
+// Si un comentario no tiene antepasado, es un comentario de "nivel superior" en lugar de un comentario de tipo respuesta.
 // Imprime todos los comentarios de nivel superior junto con las respuestas que puedan tener.
 foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == null))
 {

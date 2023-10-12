@@ -16,7 +16,7 @@ public ExportFontFormat FontFormat { get; set; }
 
 ### Exemples
 
-Montre comment utiliser uniquement les polices de la machine cible lors de l'enregistrement d'un document au format HTML.
+Montre comment utiliser les polices uniquement de la machine cible lors de l'enregistrement d'un document au format HTML.
 
 ```csharp
 Document doc = new Document(MyDir + "Bullet points with alternative font.docx");

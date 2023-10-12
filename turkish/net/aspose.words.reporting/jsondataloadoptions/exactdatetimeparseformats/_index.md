@@ -1,14 +1,14 @@
 ---
 title: JsonDataLoadOptions.ExactDateTimeParseFormats
 second_title: Aspose.Words for .NET API Referansı
-description: JsonDataLoadOptions mülk. JSON yüklenirken JSON tarihsaat değerlerini ayrıştırmak için tam biçimleri alır veya ayarlar. Varsayılan hükümsüz .
+description: JsonDataLoadOptions mülk. JSON yüklenirken JSON tarihsaat değerlerini ayrıştırmak için tam biçimleri alır veya ayarlar. Varsayılanhükümsüz .
 type: docs
 weight: 30
 url: /tr/net/aspose.words.reporting/jsondataloadoptions/exactdatetimeparseformats/
 ---
 ## JsonDataLoadOptions.ExactDateTimeParseFormats property
 
-JSON yüklenirken JSON tarih-saat değerlerini ayrıştırmak için tam biçimleri alır veya ayarlar. Varsayılan **hükümsüz** .
+JSON yüklenirken JSON tarih-saat değerlerini ayrıştırmak için tam biçimleri alır veya ayarlar. Varsayılan:`hükümsüz` .
 
 ```csharp
 public IEnumerable<string> ExactDateTimeParseFormats { get; set; }
@@ -16,11 +16,11 @@ public IEnumerable<string> ExactDateTimeParseFormats { get; set; }
 
 ### Notlar
 
-Microsoft® JSON tarih-saat biçimi (örneğin, "/Date(1224043200000)/") kullanılarak kodlanan dizeler, bu özelliğin değerinden bağımsız olarak her zaman tarih-saat değerleri olarak tanınır. Özellik, dizelerden tarih-saat değerleri ayrıştırılırken kullanılacak ek biçimlerini şu şekilde tanımlar:
+Microsoft® JSON tarih-saat biçimi (örneğin, "/Date(1224043200000)/") kullanılarak kodlanan dizeler, bu özelliğin değerine bakılmaksızın her zaman tarih-saat değerleri olarak olarak tanınır. Özellik, dizelerden tarih-saat değerleri ayrıştırılırken kullanılacak ek biçimlerini şu şekilde tanımlar:
 
-* Ne zaman`ExactDateTimeParseFormats` dır-dir **hükümsüz** , geçerli, İngilizce ABD ve İngiliz Yeni Zelanda kültürleri için desteklenen ISO-8601 biçimi ve tüm tarih-saat biçimleri ek olarak belirtilen sırada içinde kullanılır.
-* Ne zaman`ExactDateTimeParseFormats` dizeler içerir, geçerli kültürü kullanan ek tarih-saat biçimleri olarak kullanılırlar.
-* Ne zaman`ExactDateTimeParseFormats` boşsa, ek tarih-saat biçimi kullanılmaz.
+* Ne zaman`ExactDateTimeParseFormats` dır-dir`hükümsüz` ISO-8601 formatı ve güncel, İngiliz ABD ve İngiliz Yeni Zelanda kültürleri için desteklenen tüm tarih-saat formatları , belirtilen sıraya göre ek olarak kullanılır.
+* Ne zaman`ExactDateTimeParseFormats` dizeler içerir, bunlar geçerli kültürü kullanan ek tarih-saat biçimleri olarak kullanılır.
+* Ne zaman`ExactDateTimeParseFormats` boş, ek tarih-saat formatı kullanılmıyor.
 
 ### Ayrıca bakınız
 

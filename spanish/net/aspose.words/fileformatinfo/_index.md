@@ -3,12 +3,14 @@ title: Class FileFormatInfo
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.FileFormatInfo clase. Contiene datos devueltos porFileFormatUtil métodos de detección de formato de documento.
 type: docs
-weight: 2630
+weight: 2810
 url: /es/net/aspose.words/fileformatinfo/
 ---
 ## FileFormatInfo class
 
 Contiene datos devueltos por[`FileFormatUtil`](../fileformatutil/) métodos de detección de formato de documento.
+
+Para obtener más información, visite el[Detectar formato de archivo y comprobar la compatibilidad del formato](https://docs.aspose.com/words/net/detect-file-format-and-check-format-compatibility/) artículo de documentación.
 
 ```csharp
 public class FileFormatInfo
@@ -19,17 +21,17 @@ public class FileFormatInfo
 | Nombre | Descripción |
 | --- | --- |
 | [Encoding](../../aspose.words/fileformatinfo/encoding/) { get; } | Obtiene la codificación detectada si corresponde al formato del documento actual. Por el momento detecta la codificación solo para documentos HTML. |
-| [HasDigitalSignature](../../aspose.words/fileformatinfo/hasdigitalsignature/) { get; } | Devuelve verdadero si este documento contiene una firma digital. Esta propiedad simplemente informa que una firma digital está presente en un documento, pero no especifica si la firma es válida o no. |
-| [IsEncrypted](../../aspose.words/fileformatinfo/isencrypted/) { get; } | Devuelve verdadero si el documento está encriptado y requiere una contraseña para abrirlo. |
+| [HasDigitalSignature](../../aspose.words/fileformatinfo/hasdigitalsignature/) { get; } | Devoluciones`verdadero`si este documento contiene firma digital. Esta propiedad simplemente informa que hay una firma digital presente en un documento, pero no especifica si la firma es válida o no. |
+| [IsEncrypted](../../aspose.words/fileformatinfo/isencrypted/) { get; } | Devoluciones`verdadero` si el documento está cifrado y requiere una contraseña para abrirse. |
 | [LoadFormat](../../aspose.words/fileformatinfo/loadformat/) { get; } | Obtiene el formato del documento detectado. |
 
 ### Observaciones
 
-No crea instancias de esta clase directamente. Los objetos de esta clase son devueltos por [`DetectFileFormat`](../fileformatutil/detectfileformat/)métodos.
+No crea instancias de esta clase directamente. Los objetos de esta clase son devueltos por [`DetectFileFormat`](../fileformatutil/detectfileformat/) métodos.
 
 ### Ejemplos
 
-Muestra cómo usar la clase FileFormatUtil para detectar el formato y el cifrado del documento.
+Muestra cómo utilizar la clase FileFormatUtil para detectar el formato y el cifrado del documento.
 
 ```csharp
 Document doc = new Document();
@@ -48,10 +50,10 @@ Assert.AreEqual(".odt", FileFormatUtil.LoadFormatToExtension(info.LoadFormat));
 Assert.True(info.IsEncrypted);
 ```
 
-Muestra cómo usar la clase FileFormatUtil para detectar el formato del documento y la presencia de firmas digitales.
+Muestra cómo utilizar la clase FileFormatUtil para detectar el formato del documento y la presencia de firmas digitales.
 
 ```csharp
-// Use una instancia de FileFormatInfo para verificar que un documento no esté firmado digitalmente.
+// Utilice una instancia de FileFormatInfo para verificar que un documento no esté firmado digitalmente.
 FileFormatInfo info = FileFormatUtil.DetectFileFormat(MyDir + "Document.docx");
 
 Assert.AreEqual(".docx", FileFormatUtil.LoadFormatToExtension(info.LoadFormat));
@@ -61,7 +63,7 @@ CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.p
 DigitalSignatureUtil.Sign(MyDir + "Document.docx", ArtifactsDir + "File.DetectDigitalSignatures.docx",
     certificateHolder, new SignOptions() { SignTime = DateTime.Now });
 
-// Use un nuevo FileFormatInstance para confirmar que está firmado.
+// Utilice un nuevo FileFormatInstance para confirmar que está firmado.
 info = FileFormatUtil.DetectFileFormat(ArtifactsDir + "File.DetectDigitalSignatures.docx");
 
 Assert.True(info.HasDigitalSignature);

@@ -1,14 +1,14 @@
 ---
 title: Enum CommentDisplayMode
 second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Layout.CommentDisplayMode opsomming. Gibt den Wiedergabemodus für Dokumentkommentare an.
+description: Aspose.Words.Layout.CommentDisplayMode opsomming. Gibt den RenderingModus für Dokumentkommentare an.
 type: docs
-weight: 3090
+weight: 3290
 url: /de/net/aspose.words.layout/commentdisplaymode/
 ---
 ## CommentDisplayMode enumeration
 
-Gibt den Wiedergabemodus für Dokumentkommentare an.
+Gibt den Rendering-Modus für Dokumentkommentare an.
 
 ```csharp
 public enum CommentDisplayMode
@@ -18,7 +18,7 @@ public enum CommentDisplayMode
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| Hide | `0` | Es werden keine Dokumentkommentare wiedergegeben. |
+| Hide | `0` | Es werden keine Dokumentkommentare gerendert. |
 | ShowInBalloons | `1` | Rendert Dokumentkommentare in Sprechblasen am Rand. Dies ist der Standardwert. |
 | ShowInAnnotations | `2` | Rendert Dokumentkommentare in Anmerkungen. Dies ist nur für das PDF-Format verfügbar. |
 
@@ -37,13 +37,13 @@ comment.SetText("My comment.");
 builder.CurrentParagraph.AppendChild(comment);
 
 // ShowInAnnotations ist nur in den Formaten Pdf1.7 und Pdf1.5 verfügbar.
-// In anderen Formaten funktioniert es ähnlich wie Hide.
+// In anderen Formaten funktioniert es ähnlich wie „Hide“.
 doc.LayoutOptions.CommentDisplayMode = CommentDisplayMode.ShowInAnnotations;
 
 doc.Save(ArtifactsDir + "Document.ShowCommentsInAnnotations.pdf");
 
 // Beachten Sie, dass das Seitenlayout des Dokuments neu erstellt werden muss (über die Methode Document.UpdatePageLayout())
-// nach Änderung der Document.LayoutOptions-Werte.
+// nach dem Ändern der Document.LayoutOptions-Werte.
 doc.LayoutOptions.CommentDisplayMode = CommentDisplayMode.ShowInBalloons;
 doc.UpdatePageLayout();
 

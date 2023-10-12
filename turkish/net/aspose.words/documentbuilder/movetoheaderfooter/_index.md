@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.MoveToHeaderFooter
 second_title: Aspose.Words for .NET API Referansı
-description: DocumentBuilder yöntem. İmleci geçerli bölümdeki bir üstbilgi veya altbilginin başına taşır.
+description: DocumentBuilder yöntem. İmleci geçerli bölümdeki üstbilgi veya altbilginin başlangıcına taşır.
 type: docs
-weight: 520
+weight: 550
 url: /tr/net/aspose.words/documentbuilder/movetoheaderfooter/
 ---
 ## DocumentBuilder.MoveToHeaderFooter method
 
-İmleci, geçerli bölümdeki bir üstbilgi veya altbilginin başına taşır.
+İmleci geçerli bölümdeki üstbilgi veya altbilginin başlangıcına taşır.
 
 ```csharp
 public void MoveToHeaderFooter(HeaderFooterType headerFooterType)
@@ -20,17 +20,17 @@ public void MoveToHeaderFooter(HeaderFooterType headerFooterType)
 
 ### Notlar
 
-İmleci bir üstbilgi veya altbilgiye taşıdıktan sonra, üstbilgi veya altbilginin içeriğini değiştirmek için DocumentBuilder yöntemlerinin geri kalanını kullanabilirsiniz.
+İmleci bir üstbilgi veya altbilgiye taşıdıktan sonra geri kalanını kullanabilirsiniz.[`DocumentBuilder`](../) Üstbilgi veya altbilginin içeriğini değiştirmek için yöntemleri.
 
-İlk sayfa için farklı üstbilgiler ve altbilgiler oluşturmak istiyorsanız, ayarlamanız gereken [`DifferentFirstPageHeaderFooter`](../../pagesetup/differentfirstpageheaderfooter/).
+İlk sayfa için farklı üstbilgiler ve altbilgiler oluşturmak istiyorsanız, ayarlamak için gerekir[`DifferentFirstPageHeaderFooter`](../../pagesetup/differentfirstpageheaderfooter/).
 
-Çift ve tek sayfalar için farklı üstbilgiler ve altbilgiler oluşturmak istiyorsanız, ayarlamanız gereken [`OddAndEvenPagesHeaderFooter`](../../pagesetup/oddandevenpagesheaderfooter/).
+Çift ve tek sayfalar için farklı üstbilgiler ve altbilgiler oluşturmak istiyorsanız, ayarlamak için gerekir[`OddAndEvenPagesHeaderFooter`](../../pagesetup/oddandevenpagesheaderfooter/).
 
 Kullanmak[`MoveToSection`](../movetosection/) başlıktan ana metne geçmek için.
 
 ### Örnekler
 
-Bir resmin nasıl ekleneceğini ve filigran olarak nasıl kullanılacağını gösterir.
+Bir görüntünün nasıl ekleneceğini ve filigran olarak nasıl kullanılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -78,7 +78,7 @@ using (SKBitmap image = SKBitmap.Decode(ImageDir + "Transparent background logo.
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertWatermarkNetStandard2.docx");
 ```
 
-DocumentBuilder kullanılarak bir belgede nasıl üstbilgi ve altbilgi oluşturulacağını gösterir.
+DocumentBuilder'ı kullanarak bir belgede üstbilgilerin ve altbilgilerin nasıl oluşturulacağını gösterir.
 
 ```csharp
 Document doc = new Document();

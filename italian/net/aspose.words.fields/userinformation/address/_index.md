@@ -16,7 +16,7 @@ public string Address { get; set; }
 
 ### Esempi
 
-Mostra come impostare i dettagli utente e visualizzarli utilizzando i campi.
+Mostra come impostare i dettagli dell'utente e visualizzarli utilizzando i campi.
 
 ```csharp
 Document doc = new Document();
@@ -31,8 +31,8 @@ UserInformation userInformation = new UserInformation
 };
 doc.FieldOptions.CurrentUser = userInformation;
 
-// Inserisce i campi USERNAME, USERINITIALS e USERADDRESS, che mostrano i valori di
-// le rispettive proprietà dell'oggetto UserInformation che abbiamo creato sopra. 
+// Inserisci i campi USERNAME, USERINITIALS e USERADDRESS, che visualizzano i valori di
+ // le rispettive proprietà dell'oggetto UserInformation che abbiamo creato sopra.
 Assert.AreEqual(userInformation.Name, builder.InsertField(" USERNAME ").Result);
 Assert.AreEqual(userInformation.Initials, builder.InsertField(" USERINITIALS ").Result);
 Assert.AreEqual(userInformation.Address, builder.InsertField(" USERADDRESS ").Result);

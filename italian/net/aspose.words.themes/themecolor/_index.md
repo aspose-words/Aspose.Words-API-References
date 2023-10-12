@@ -1,14 +1,16 @@
 ---
 title: Enum ThemeColor
 second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Themes.ThemeColor enum. Specifica i colori del tema per i temi del documento.
+description: Aspose.Words.Themes.ThemeColor enum. Specifica i colori del tema per i temi dei documenti.
 type: docs
-weight: 6170
+weight: 6470
 url: /it/net/aspose.words.themes/themecolor/
 ---
 ## ThemeColor enumeration
 
-Specifica i colori del tema per i temi del documento.
+Specifica i colori del tema per i temi dei documenti.
+
+Per saperne di più, visita il[Lavorare con stili e temi](https://docs.aspose.com/words/net/working-with-styles-and-themes/) articolo di documentazione.
 
 ```csharp
 public enum ThemeColor
@@ -20,29 +22,29 @@ public enum ThemeColor
 | --- | --- | --- |
 | None | `-1` | Nessun colore. |
 | Dark1 | `0` | Colore principale scuro 1. |
-| Light1 | `1` | Colore principale chiaro 1. |
+| Light1 | `1` | Colore principale luce 1. |
 | Dark2 | `2` | Colore principale scuro 2. |
-| Light2 | `3` | Colore principale chiaro 2. |
-| Accent1 | `4` | Colore accento 1. |
-| Accent2 | `5` | Colore accento 2. |
-| Accent3 | `6` | Colore accento 3. |
-| Accent4 | `7` | Colore accento 4. |
-| Accent5 | `8` | Colore accento 5. |
-| Accent6 | `9` | Colore accento 6. |
+| Light2 | `3` | Colore principale luce 2. |
+| Accent1 | `4` | Colore in risalto 1. |
+| Accent2 | `5` | Colore in risalto 2. |
+| Accent3 | `6` | Colore in risalto 3. |
+| Accent4 | `7` | Colore in risalto 4. |
+| Accent5 | `8` | Colore in risalto 5. |
+| Accent6 | `9` | Colore in risalto 6. |
 | Hyperlink | `10` | Colore collegamento ipertestuale. |
 | FollowedHyperlink | `11` | Colore collegamento ipertestuale seguito. |
 | Text1 | `12` | Colore testo 1. |
 | Text2 | `13` | Colore testo 2. |
-| Background1 | `14` | Colore di sfondo 1. |
+| Background1 | `14` | Colore sfondo 1. |
 | Background2 | `15` | Colore di sfondo 2. |
 
 ### Osservazioni
 
-Il colore del tema specificato è un riferimento a uno dei colori del tema predefiniti, situato nella parte del tema del documento , che consente di impostare le informazioni sul colore a livello centrale nel documento.
+Il colore del tema specificato è un riferimento a uno dei colori del tema predefiniti, situato nella parte Tema del documento , che consente di impostare centralmente le informazioni sul colore nel documento.
 
 ### Esempi
 
-Mostra come creare e utilizzare uno stile a tema.
+Mostra come creare e utilizzare lo stile a tema.
 
 ```csharp
 Document doc = new Document();
@@ -65,7 +67,7 @@ Mostra come lavorare con i caratteri e i colori del tema.
 ```csharp
 Document doc = new Document();
 
-// Definisci i caratteri per le lingue utilizzate per impostazione predefinita.
+// Definisce i caratteri per le lingue utilizzate per impostazione predefinita.
 doc.Theme.MinorFonts.Latin = "Algerian";
 doc.Theme.MinorFonts.EastAsian = "Aharoni";
 doc.Theme.MinorFonts.ComplexScript = "Andalus";
@@ -95,7 +97,7 @@ Assert.AreEqual("Algerian", font.NameOther);
 Assert.AreEqual(ThemeColor.Accent2, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
-// Esistono diversi modi per reimpostarli font e colore.
+// Esistono diversi modi per reimpostarne il carattere e il colore.
 // 1 - Impostando ThemeFont.None/ThemeColor.None:
 font.ThemeFont = ThemeFont.None;
 font.ThemeColor = ThemeColor.None;
@@ -118,7 +120,7 @@ Assert.AreEqual("Algerian", font.NameOther);
 Assert.AreEqual(ThemeColor.None, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
-// 2 - Impostando nomi di caratteri/colori non tematici:
+// 2 - Impostando nomi di font/colori non legati al tema:
 font.Name = "Arial";
 font.Color = Color.Blue;
 

@@ -1,14 +1,14 @@
 ---
 title: TxtSaveOptions.ListIndentation
 second_title: Справочник по API Aspose.Words для .NET
-description: TxtSaveOptions свойство. Получает объект ListIndentation который указывает сколько и какой символ использовать для отступа уровней списка. По умолчанию это нулевое количество символов 0 что означает отсутствие отступа.
+description: TxtSaveOptions свойство. ПолучаетTxtListIndentation объект который определяет сколько и какой символ использовать для отступов уровней списка. По умолчанию это нулевое количество символов 0 что означает отсутствие отступов.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.saving/txtsaveoptions/listindentation/
 ---
 ## TxtSaveOptions.ListIndentation property
 
-Получает объект ListIndentation, который указывает, сколько и какой символ использовать для отступа уровней списка. По умолчанию это нулевое количество символов '\0', что означает отсутствие отступа.
+Получает[`TxtListIndentation`](../../txtlistindentation/) объект, который определяет, сколько и какой символ использовать для отступов уровней списка. По умолчанию это нулевое количество символов '\0', что означает отсутствие отступов.
 
 ```csharp
 public TxtListIndentation ListIndentation { get; }
@@ -30,15 +30,15 @@ builder.Writeln("Item 2");
 builder.ListFormat.ListIndent(); 
 builder.Write("Item 3");
 
-// Создаем объект "TxtSaveOptions", который мы можем передать в метод "Сохранить" документа
+// Создаем объект «TxtSaveOptions», который мы можем передать методу «Save» документа.
 // чтобы изменить способ сохранения документа в виде открытого текста.
 TxtSaveOptions txtSaveOptions = new TxtSaveOptions();
 
-// Установите свойство «Персонаж», чтобы назначить символ для использования
+// Установите свойство «Символ», чтобы назначить используемый символ
 // для заполнения, имитирующего отступ списка в открытом тексте.
 txtSaveOptions.ListIndentation.Character = ' ';
 
-// Установите свойство "Count", чтобы указать количество раз
+// Установите свойство «Count», чтобы указать количество раз
 // для размещения символа заполнения для каждого уровня отступа списка.
 txtSaveOptions.ListIndentation.Count = 3;
 

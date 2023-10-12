@@ -1,14 +1,14 @@
 ---
 title: Comment.Replies
 second_title: Aspose.Words für .NET-API-Referenz
-description: Comment eigendom. Gibt eine Sammlung von zurückComment Objekte die unmittelbar untergeordnete Elemente des angegebenen Kommentars sind.
+description: Comment eigendom. Gibt eine Sammlung von zurückComment Objekte die unmittelbare untergeordnete Elemente des angegebenen Kommentars sind.
 type: docs
-weight: 90
+weight: 100
 url: /de/net/aspose.words/comment/replies/
 ---
 ## Comment.Replies property
 
-Gibt eine Sammlung von zurück[`Comment`](../) Objekte, die unmittelbar untergeordnete Elemente des angegebenen Kommentars sind.
+Gibt eine Sammlung von zurück[`Comment`](../) Objekte, die unmittelbare untergeordnete Elemente des angegebenen Kommentars sind.
 
 ```csharp
 public CommentCollection Replies { get; }
@@ -16,15 +16,14 @@ public CommentCollection Replies { get; }
 
 ### Beispiele
 
-Zeigt, wie alle Kommentare eines Dokuments und ihre Antworten gedruckt werden.
+Zeigt, wie alle Kommentare und Antworten eines Dokuments gedruckt werden.
 
 ```csharp
 Document doc = new Document(MyDir + "Comments.docx");
 
 NodeCollection comments = doc.GetChildNodes(NodeType.Comment, true);
-
-// Wenn ein Kommentar keinen Vorfahren hat, handelt es sich um einen "Top-Level"-Kommentar im Gegensatz zu einem Antworttyp-Kommentar.
-// Drucken Sie alle Kommentare der obersten Ebene zusammen mit allen möglichen Antworten.
+// Wenn ein Kommentar keinen Vorfahren hat, handelt es sich um einen „Top-Level“-Kommentar und nicht um einen Antworttyp-Kommentar.
+// Alle Kommentare der obersten Ebene zusammen mit etwaigen Antworten drucken.
 foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == null))
 {
     Console.WriteLine("Top-level comment:");

@@ -1,14 +1,14 @@
 ---
 title: ImageSaveOptions.TiffCompression
 second_title: Referencia de API de Aspose.Words para .NET
-description: ImageSaveOptions propiedad. Obtiene o establece el tipo de compresión que se aplicará al guardar las imágenes generadas en formato TIFF.
+description: ImageSaveOptions propiedad. Obtiene o establece el tipo de compresión que se aplicará al guardar imágenes generadas en formato TIFF.
 type: docs
-weight: 170
+weight: 180
 url: /es/net/aspose.words.saving/imagesaveoptions/tiffcompression/
 ---
 ## ImageSaveOptions.TiffCompression property
 
-Obtiene o establece el tipo de compresión que se aplicará al guardar las imágenes generadas en formato TIFF.
+Obtiene o establece el tipo de compresión que se aplicará al guardar imágenes generadas en formato TIFF.
 
 ```csharp
 public TiffCompression TiffCompression { get; set; }
@@ -16,13 +16,13 @@ public TiffCompression TiffCompression { get; set; }
 
 ### Observaciones
 
-Solo tiene efecto al guardar en TIFF.
+Tiene efecto sólo al guardar en TIFF.
 
 El valor predeterminado esLzw.
 
 ### Ejemplos
 
-Muestra cómo seleccionar el esquema de compresión para aplicar a un documento que convertimos en una imagen TIFF.
+Muestra cómo seleccionar el esquema de compresión a aplicar a un documento que convertimos en una imagen TIFF.
 
 ```csharp
 Document doc = new Document();
@@ -34,12 +34,12 @@ Document doc = new Document();
             // para modificar la forma en que ese método convierte el documento en una imagen.
             ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Tiff);
 
-            // Establezca la propiedad "TiffCompression" en "TiffCompression.None" para no aplicar compresión al guardar,
+            // Establece la propiedad "TiffCompression" en "TiffCompression.None" para no aplicar compresión al guardar,
             // lo que puede resultar en un archivo de salida muy grande.
-            // Establecer la propiedad "TiffCompression" en "TiffCompression.Rle" para aplicar la compresión RLE
-            // Establezca la propiedad "TiffCompression" en "TiffCompression.Lzw" para aplicar la compresión LZW.
-            // Establezca la propiedad "TiffCompression" en "TiffCompression.Ccitt3" para aplicar la compresión CCITT3.
-            // Establezca la propiedad "TiffCompression" en "TiffCompression.Ccitt4" para aplicar la compresión CCITT4.
+            // Establece la propiedad "TiffCompression" en "TiffCompression.Rle" para aplicar compresión RLE
+            // Establece la propiedad "TiffCompression" en "TiffCompression.Lzw" para aplicar compresión LZW.
+            // Establece la propiedad "TiffCompression" en "TiffCompression.Ccitt3" para aplicar compresión CCITT3.
+            // Establece la propiedad "TiffCompression" en "TiffCompression.Ccitt4" para aplicar compresión CCITT4.
             options.TiffCompression = tiffCompression;
 
             doc.Save(ArtifactsDir + "ImageSaveOptions.TiffImageCompression.tiff", options);

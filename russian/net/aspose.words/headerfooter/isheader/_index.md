@@ -1,14 +1,14 @@
 ---
 title: HeaderFooter.IsHeader
 second_title: Справочник по API Aspose.Words для .NET
-description: HeaderFooter свойство. Истинно если это Верхний колонтитул объект является заголовком.
+description: HeaderFooter свойство. Верно если этоHeaderFooter объект является заголовком.
 type: docs
 weight: 30
 url: /ru/net/aspose.words/headerfooter/isheader/
 ---
 ## HeaderFooter.IsHeader property
 
-Истинно, если это **Верхний колонтитул** объект является заголовком.
+Верно, если это[`HeaderFooter`](../) объект является заголовком.
 
 ```csharp
 public bool IsHeader { get; }
@@ -22,7 +22,7 @@ public bool IsHeader { get; }
 Document doc = new Document();
 
 // Создаем заголовок и добавляем к нему абзац. Текст в этом абзаце
-// появится в верхней части каждой страницы этого раздела над основным текстом.
+// появится вверху каждой страницы этого раздела, над основным текстом.
 HeaderFooter header = new HeaderFooter(doc, HeaderFooterType.HeaderPrimary);
 doc.FirstSection.HeadersFooters.Add(header);
 

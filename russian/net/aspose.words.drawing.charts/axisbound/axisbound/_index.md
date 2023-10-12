@@ -1,14 +1,14 @@
 ---
 title: AxisBound.AxisBound
 second_title: Справочник по API Aspose.Words для .NET
-description: AxisBound строитель. Создает новый экземпляр указывающий что привязка оси должна определяться автоматически приложением обработки текста .
+description: AxisBound строитель. Создает новый экземпляр указывающий что граница оси должна определяться автоматически текстовым приложением .
 type: docs
 weight: 10
 url: /ru/net/aspose.words.drawing.charts/axisbound/axisbound/
 ---
 ## AxisBound() {#constructor}
 
-Создает новый экземпляр, указывающий, что привязка оси должна определяться автоматически приложением обработки текста .
+Создает новый экземпляр, указывающий, что граница оси должна определяться автоматически текстовым приложением .
 
 ```csharp
 public AxisBound()
@@ -16,7 +16,7 @@ public AxisBound()
 
 ### Примеры
 
-Показывает, как установить границы пользовательской оси.
+Показывает, как установить пользовательские границы оси.
 
 ```csharp
 Document doc = new Document();
@@ -25,20 +25,20 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape chartShape = builder.InsertChart(ChartType.Scatter, 450, 300);
 Chart chart = chartShape.Chart;
 
-// Очистить серию демонстрационных данных диаграммы, чтобы начать с чистой диаграммы.
+// Очистите ряд демонстрационных данных диаграммы, чтобы начать с чистой диаграммы.
 chart.Series.Clear();
 
 // Добавляем серию с двумя десятичными массивами. Первый массив содержит значения X,
-// а второй содержит соответствующие значения Y для точек на точечной диаграмме.
+// а второй содержит соответствующие значения Y для точек точечной диаграммы.
 chart.Series.Add("Series 1", 
     new[] { 1.1, 5.4, 7.9, 3.5, 2.1, 9.7 }, 
     new[] { 2.1, 0.3, 0.6, 3.3, 1.4, 1.9 });
 
 // По умолчанию масштабирование по умолчанию применяется к осям X и Y графика,
-// чтобы оба их диапазона были достаточно большими, чтобы охватить каждое значение X и Y каждого ряда.
+// так, чтобы оба их диапазона были достаточно большими, чтобы охватить все значения X и Y каждой серии.
 Assert.True(chart.AxisX.Scaling.Minimum.IsAuto);
 
-// Мы можем определить наши собственные границы осей.
+// Мы можем определить границы нашей собственной оси.
 // В этом случае мы заставим линейки осей X и Y показывать диапазон от 0 до 10.
 chart.AxisX.Scaling.Minimum = new AxisBound(0);
 chart.AxisX.Scaling.Maximum = new AxisBound(10);
@@ -48,7 +48,7 @@ chart.AxisY.Scaling.Maximum = new AxisBound(10);
 Assert.False(chart.AxisX.Scaling.Minimum.IsAuto);
 Assert.False(chart.AxisY.Scaling.Minimum.IsAuto);
 
-// Создайте линейную диаграмму с рядом, требующим диапазона дат по оси X и десятичных значений по оси Y.
+// Создайте линейную диаграмму с серией, требующей диапазона дат по оси X и десятичных значений по оси Y.
 chartShape = builder.InsertChart(ChartType.Line, 450, 300);
 chart = chartShape.Chart;
 chart.Series.Clear();
@@ -62,8 +62,8 @@ DateTime[] dates = { new DateTime(1973, 5, 11),
 
 chart.Series.Add("Series 1", dates, new[] { 3.0, 4.7, 5.9, 7.1, 8.9 });
 
-// Мы также можем установить границы осей в виде дат, ограничивая график периодом.
-// Установка диапазона 1980-1990 пропустит два значения ряда
+// Мы также можем установить границы оси в виде дат, ограничивая диаграмму периодом.
+// Установка диапазона 1980-1990 приведет к исключению двух значений ряда
 // которые находятся за пределами диапазона графика.
 chart.AxisX.Scaling.Minimum = new AxisBound(new DateTime(1980, 1, 1));
 chart.AxisX.Scaling.Maximum = new AxisBound(new DateTime(1990, 1, 1));
@@ -89,7 +89,7 @@ public AxisBound(double value)
 
 ### Примеры
 
-Показывает, как вставить диаграмму со значениями даты/времени.
+Показывает, как вставить диаграмму со значениями даты и времени.
 
 ```csharp
 Document doc = new Document();
@@ -98,10 +98,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Line, 500, 300);
 Chart chart = shape.Chart;
 
-// Очистить серию демонстрационных данных диаграммы, чтобы начать с чистой диаграммы.
+// Очистите ряд демонстрационных данных диаграммы, чтобы начать с чистой диаграммы.
 chart.Series.Clear();
 
-// Добавьте пользовательский ряд, содержащий значения даты/времени для оси X и соответствующие десятичные значения для оси Y.
+// Добавляем пользовательскую серию, содержащую значения даты и времени для оси X и соответствующие десятичные значения для оси Y.
 chart.Series.Add("Aspose Test Series",
     new[]
     {
@@ -110,17 +110,19 @@ chart.Series.Add("Aspose Test Series",
     },
     new[] { 1.2, 0.3, 2.1, 2.9, 4.2, 5.3 });
 
-// Установите нижнюю и верхнюю границы для оси X.
+// Устанавливаем нижнюю и верхнюю границы оси X.
 ChartAxis xAxis = chart.AxisX;
 xAxis.Scaling.Minimum = new AxisBound(new DateTime(2017, 11, 05).ToOADate());
 xAxis.Scaling.Maximum = new AxisBound(new DateTime(2017, 12, 03));
 
-// Установите основные единицы оси X на неделю, а второстепенные единицы на день.
+// Установите основные единицы оси X на неделю, а второстепенные — на день.
 xAxis.BaseTimeUnit = AxisTimeUnit.Days;
 xAxis.MajorUnit = 7.0d;
 xAxis.MajorTickMark = AxisTickMark.Cross;
 xAxis.MinorUnit = 1.0d;
 xAxis.MinorTickMark = AxisTickMark.Outside;
+xAxis.HasMajorGridlines = true;
+xAxis.HasMinorGridlines = true;
 
 // Определить свойства оси Y для десятичных значений.
 ChartAxis yAxis = chart.AxisY;
@@ -130,6 +132,8 @@ yAxis.MinorUnit = 50.0d;
 yAxis.DisplayUnit.Unit = AxisBuiltInUnit.Hundreds;
 yAxis.Scaling.Minimum = new AxisBound(100);
 yAxis.Scaling.Maximum = new AxisBound(700);
+yAxis.HasMajorGridlines = true;
+yAxis.HasMinorGridlines = true;
 
 doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 ```
@@ -144,7 +148,7 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 
 ## AxisBound(DateTime) {#constructor_2}
 
-Создает привязку оси, представленную как значение даты и времени.
+Создает границу оси, представленную как значение даты и времени.
 
 ```csharp
 public AxisBound(DateTime datetime)
@@ -152,7 +156,7 @@ public AxisBound(DateTime datetime)
 
 ### Примеры
 
-Показывает, как вставить диаграмму со значениями даты/времени.
+Показывает, как вставить диаграмму со значениями даты и времени.
 
 ```csharp
 Document doc = new Document();
@@ -161,10 +165,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Line, 500, 300);
 Chart chart = shape.Chart;
 
-// Очистить серию демонстрационных данных диаграммы, чтобы начать с чистой диаграммы.
+// Очистите ряд демонстрационных данных диаграммы, чтобы начать с чистой диаграммы.
 chart.Series.Clear();
 
-// Добавьте пользовательский ряд, содержащий значения даты/времени для оси X и соответствующие десятичные значения для оси Y.
+// Добавляем пользовательскую серию, содержащую значения даты и времени для оси X и соответствующие десятичные значения для оси Y.
 chart.Series.Add("Aspose Test Series",
     new[]
     {
@@ -173,17 +177,19 @@ chart.Series.Add("Aspose Test Series",
     },
     new[] { 1.2, 0.3, 2.1, 2.9, 4.2, 5.3 });
 
-// Установите нижнюю и верхнюю границы для оси X.
+// Устанавливаем нижнюю и верхнюю границы оси X.
 ChartAxis xAxis = chart.AxisX;
 xAxis.Scaling.Minimum = new AxisBound(new DateTime(2017, 11, 05).ToOADate());
 xAxis.Scaling.Maximum = new AxisBound(new DateTime(2017, 12, 03));
 
-// Установите основные единицы оси X на неделю, а второстепенные единицы на день.
+// Установите основные единицы оси X на неделю, а второстепенные — на день.
 xAxis.BaseTimeUnit = AxisTimeUnit.Days;
 xAxis.MajorUnit = 7.0d;
 xAxis.MajorTickMark = AxisTickMark.Cross;
 xAxis.MinorUnit = 1.0d;
 xAxis.MinorTickMark = AxisTickMark.Outside;
+xAxis.HasMajorGridlines = true;
+xAxis.HasMinorGridlines = true;
 
 // Определить свойства оси Y для десятичных значений.
 ChartAxis yAxis = chart.AxisY;
@@ -193,6 +199,8 @@ yAxis.MinorUnit = 50.0d;
 yAxis.DisplayUnit.Unit = AxisBuiltInUnit.Hundreds;
 yAxis.Scaling.Minimum = new AxisBound(100);
 yAxis.Scaling.Maximum = new AxisBound(700);
+yAxis.HasMajorGridlines = true;
+yAxis.HasMinorGridlines = true;
 
 doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 ```

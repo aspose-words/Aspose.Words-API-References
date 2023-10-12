@@ -3,7 +3,7 @@ title: PdfSaveOptions.ExportLanguageToSpanTag
 second_title: Aspose.Words for .NET API 参考
 description: PdfSaveOptions 财产. 获取或设置一个值确定是否在文档结构中创建Span标签以导出文本语言
 type: docs
-weight: 130
+weight: 150
 url: /zh/net/aspose.words.saving/pdfsaveoptions/exportlanguagetospantag/
 ---
 ## PdfSaveOptions.ExportLanguageToSpanTag property
@@ -16,15 +16,15 @@ public bool ExportLanguageToSpanTag { get; set; }
 
 ### 评论
 
-默认值为`错误的`“Lang”属性附加到页面内容流中的标记内容序列。
+默认值为`错误的`“Lang”属性被附加到页面内容流中的标记内容序列。
 
-当值为`真的`为具有非默认语言 的文本创建“Span”标签，并将“Lang”属性附加到此标签。
+当值为`真的`为具有非默认 language 的文本创建“Span”标签，并将“Lang”属性附加到该标签。
 
-该值被忽略时[`ExportDocumentStructure`](../exportdocumentstructure/)是`错误的`.
+当以下情况时该值被忽略[`ExportDocumentStructure`](../exportdocumentstructure/)是`错误的` 。
 
 ### 例子
 
-展示如何在文档结构中创建“Span”标签以导出文本语言。
+演示如何在文档结构中创建“Span”标签以导出文本语言。
 
 ```csharp
 Document doc = new Document();
@@ -35,7 +35,7 @@ builder.Writeln("Hola mundo!");
 
 PdfSaveOptions saveOptions = new PdfSaveOptions
 {
-    // 注意，当“ExportDocumentStructure”为假时，“ExportLanguageToSpanTag”被忽略。
+    // 请注意，当“ExportDocumentStructure”为 false 时，“ExportLanguageToSpanTag”将被忽略。
     ExportDocumentStructure = true, ExportLanguageToSpanTag = true
 };
 

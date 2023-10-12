@@ -3,7 +3,7 @@ title: GlossaryDocument.GetBuildingBlock
 second_title: Aspose.Words för .NET API Referens
 description: GlossaryDocument metod. Hittar ett byggblock med det angivna galleriet kategorin och namnet.
 type: docs
-weight: 70
+weight: 90
 url: /sv/net/aspose.words.buildingblocks/glossarydocument/getbuildingblock/
 ---
 ## GlossaryDocument.GetBuildingBlock method
@@ -17,18 +17,18 @@ public BuildingBlock GetBuildingBlock(BuildingBlockGallery gallery, string categ
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | gallery | BuildingBlockGallery | Gallerikriterierna. |
-| category | String | Kategorikriterierna. Kan vara null, i så fall kommer den inte att användas för jämförelse. |
+| category | String | Kategorikriterierna. Kan vara`null`, i så fall kommer den inte att användas för jämförelse. |
 | name | String | Byggstenens namnkriterier. |
 
 ### Returvärde
 
-Den matchande byggstenen eller null om en matchning inte hittades.
+Den matchande byggstenen eller`null` om en matchning inte hittades.
 
 ### Anmärkningar
 
 Detta är en bekvämlighetsmetod som itererar över alla byggblock i den här samlingen och returnerar det första byggblocket som matchar det angivna galleriet, kategorin och namnet.
 
-Microsoft Word organiserar byggstenar i gallerier. Gallerierna är fördefinierade med hjälp av[`BuildingBlockGallery`](../../buildingblockgallery/) enum. Inom varje galleri kan byggstenar organiseras i en eller flera kategorier. Kategorinamnet är en sträng. Varje byggblock har ett namn. Ett building block -namn är inte garanterat unikt.
+Microsoft Word organiserar byggstenar i gallerier. Gallerierna är fördefinierade med hjälp av[`BuildingBlockGallery`](../../buildingblockgallery/) enum. Inom varje galleri kan byggblock organiseras i en eller flera kategorier. Kategorinamnet är en sträng. Varje byggblock har ett namn. Ett building block -namn är inte garanterat unikt.
 
 ### Exempel
 
@@ -67,7 +67,6 @@ public void GlossaryDocument()
     // som kommer att ge varje byggnadsblock i ordlistadokumentet en unik GUID
     GlossaryDocVisitor visitor = new GlossaryDocVisitor();
     glossaryDoc.Accept(visitor);
-
     Console.WriteLine(visitor.GetText());
 
     // I Microsoft Word kan vi komma åt byggstenarna via "Infoga" -> "Snabbdelar" -> "Byggstensarrangör".

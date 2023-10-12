@@ -3,7 +3,7 @@ title: PdfSaveOptions.OpenHyperlinksInNewWindow
 second_title: Aspose.Words för .NET API Referens
 description: PdfSaveOptions fast egendom. Hämtar eller ställer in ett värde som avgör om hyperlänkar i utdata Pdf document tvingas öppnas i ett nytt fönster eller flik i en webbläsare.
 type: docs
-weight: 200
+weight: 230
 url: /sv/net/aspose.words.saving/pdfsaveoptions/openhyperlinksinnewwindow/
 ---
 ## PdfSaveOptions.OpenHyperlinksInNewWindow property
@@ -16,11 +16,11 @@ public bool OpenHyperlinksInNewWindow { get; set; }
 
 ### Anmärkningar
 
-Standardvärdet är`falsk` . När detta värde är satt till`Sann` hyperlänkar sparas med JavaScript-kod. JavaScript-kod är`app.launchURL("URL", true);`, där`URL` är en hyperlänk.
+Standardvärdet är`falsk` . När detta värde är satt till`Sann` hyperlänkar sparas med JavaScript-kod. JavaScript-kod är`app.launchURL("URL", true);` , där`URL` är en hyperlänk.
 
 Observera att om det här alternativet är inställt på`Sann` hyperlänkar kan inte fungera i vissa PDF-läsare, t.ex. Chrome, Firefox.
 
-JavaScript-åtgärder är förbjudna av PDF/A-1 och PDF/A-2-kompatibilitet.`falsk` kommer att användas automatiskt när sparas till PDF/A-1 och PDF/A-2.
+JavaScript-åtgärder är förbjudna av PDF/A-1 och PDF/A-2-kompatibilitet.`falsk`kommer att användas automatiskt när sparas till PDF/A-1 och PDF/A-2.
 
 ### Exempel
 

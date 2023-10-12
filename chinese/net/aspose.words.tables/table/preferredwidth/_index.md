@@ -16,11 +16,11 @@ public PreferredWidth PreferredWidth { get; set; }
 
 ### 评论
 
-默认值为[`Auto`](../../preferredwidth/auto/).
+默认值为[`Auto`](../../preferredwidth/auto/)。
 
 ### 例子
 
-演示如何将表格设置为自动适应页面宽度的 50%。
+演示如何将表格设置为自动适合页面宽度的 50%。
 
 ```csharp
 Document doc = new Document();

@@ -1,14 +1,14 @@
 ---
 title: OdsoFieldMapData.MappedName
 second_title: Référence de l'API Aspose.Words pour .NET
-description: OdsoFieldMapData propriété. Spécifie le nom de champ de fusion prédéfini qui doit être mappé au numéro de colonne spécifié par leColumn propriété dans ce mappage de champ. La valeur par défaut est une chaîne vide.
+description: OdsoFieldMapData propriété. Spécifie le nom du champ de fusion prédéfini qui doit être mappé au numéro de colonne spécifié par leColumn propriété dans ce champ mapping. La valeur par défaut est une chaîne vide.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.settings/odsofieldmapdata/mappedname/
 ---
 ## OdsoFieldMapData.MappedName property
 
-Spécifie le nom de champ de fusion prédéfini qui doit être mappé au numéro de colonne spécifié par le[`Column`](../column/) propriété dans ce mappage de champ. La valeur par défaut est une chaîne vide.
+Spécifie le nom du champ de fusion prédéfini qui doit être mappé au numéro de colonne spécifié par le[`Column`](../column/) propriété dans ce champ mapping. La valeur par défaut est une chaîne vide.
 
 ```csharp
 public string MappedName { get; set; }
@@ -40,15 +40,15 @@ using (IEnumerator<OdsoFieldMapData> enumerator = dataCollection.GetEnumerator()
     }
 }
 
-// Clone les éléments de cette collection.
+// Clonez les éléments de cette collection.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Utilise les éléments de la méthode "RemoveAt" individuellement par index.
+// Utilisez les éléments de la méthode "RemoveAt" individuellement par index.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(29, dataCollection.Count);
 
-// Utilisez la méthode "Clear" pour effacer toute la collection d'un coup.
+// Utilisez la méthode "Clear" pour effacer toute la collection en une seule fois.
 dataCollection.Clear();
 
 Assert.AreEqual(0, dataCollection.Count);

@@ -3,12 +3,14 @@ title: Class FontSavingArgs
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Saving.FontSavingArgs klass. Tillhandahåller data förFontSaving händelse.
 type: docs
-weight: 4770
+weight: 5030
 url: /sv/net/aspose.words.saving/fontsavingargs/
 ---
 ## FontSavingArgs class
 
 Tillhandahåller data för[`FontSaving`](../ifontsavingcallback/fontsaving/) händelse.
+
+För att lära dig mer, besök[Spara ett dokument](https://docs.aspose.com/words/net/save-a-document/) dokumentationsartikel.
 
 ```csharp
 public class FontSavingArgs
@@ -32,7 +34,7 @@ public class FontSavingArgs
 
 ### Anmärkningar
 
-När Aspose.Words sparar ett dokument till HTML eller relaterade format och[`ExportFontResources`](../htmlsaveoptions/exportfontresources/) är inställd på **Sann**, sparar varje teckensnittsämne för export till en separat fil.
+När Aspose.Words sparar ett dokument till HTML eller relaterade format och[`ExportFontResources`](../htmlsaveoptions/exportfontresources/) är inställd på`Sann`, sparar varje teckensnittsämne för export till en separat fil.
 
 `FontSavingArgs` styr om en viss typsnittsresurs ska exporteras och hur.
 
@@ -47,6 +49,7 @@ För att spara teckensnitt i strömmar istället för filer, använd[`FontStream
 Visar hur man definierar anpassad logik för att exportera teckensnitt när man sparar till HTML.
 
 ```csharp
+public void SaveExportedFonts()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
@@ -65,6 +68,8 @@ Visar hur man definierar anpassad logik för att exportera teckensnitt när man 
     {
         Console.WriteLine(fontFilename);
     }
+
+}
 
 /// <summary>
 /// Skriver ut information om exporterade teckensnitt och sparar dem i samma lokala systemmapp som deras utdata .html.

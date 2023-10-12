@@ -36,7 +36,7 @@ properties.Thumbnail = thumbnailBytes;
 
 doc.Save(ArtifactsDir + "DocumentProperties.Thumbnail.epub");
 
-// Podemos extraer la imagen en miniatura de un documento y guardarlo en el sistema de archivos local.
+// Podemos extraer la imagen en miniatura de un documento y guardarla en el sistema de archivos local.
 DocumentProperty thumbnail = doc.BuiltInDocumentProperties["Thumbnail"];
 File.WriteAllBytes(ArtifactsDir + "DocumentProperties.Thumbnail.gif", thumbnail.ToByteArray());
 ```

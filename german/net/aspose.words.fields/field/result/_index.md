@@ -1,14 +1,14 @@
 ---
 title: Field.Result
 second_title: Aspose.Words für .NET-API-Referenz
-description: Field eigendom. Liest oder setzt Text der zwischen dem Feldtrennzeichen und dem Feldende steht.
+description: Field eigendom. Ruft Text ab der zwischen dem Feldtrennzeichen und dem Feldende liegt oder legt diesen fest.
 type: docs
 weight: 70
 url: /de/net/aspose.words.fields/field/result/
 ---
 ## Field.Result property
 
-Liest oder setzt Text, der zwischen dem Feldtrennzeichen und dem Feldende steht.
+Ruft Text ab, der zwischen dem Feldtrennzeichen und dem Feldende liegt, oder legt diesen fest.
 
 ```csharp
 public string Result { get; set; }
@@ -16,7 +16,7 @@ public string Result { get; set; }
 
 ### Beispiele
 
-Zeigt, wie ein Feld mithilfe eines Feldcodes in ein Dokument eingefügt wird.
+Zeigt, wie man mithilfe eines Feldcodes ein Feld in ein Dokument einfügt.
 
 ```csharp
 Document doc = new Document();

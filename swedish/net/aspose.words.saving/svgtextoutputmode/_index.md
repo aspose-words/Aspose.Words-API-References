@@ -1,12 +1,14 @@
 ---
 title: Enum SvgTextOutputMode
 second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Saving.SvgTextOutputMode uppräkning. 
+description: Aspose.Words.Saving.SvgTextOutputMode uppräkning. Gör det möjligt att ange hur text i ett dokument ska renderas när du sparar i SVGformat.
 type: docs
-weight: 5330
+weight: 5610
 url: /sv/net/aspose.words.saving/svgtextoutputmode/
 ---
 ## SvgTextOutputMode enumeration
+
+Gör det möjligt att ange hur text i ett dokument ska renderas när du sparar i SVG-format.
 
 ```csharp
 public enum SvgTextOutputMode

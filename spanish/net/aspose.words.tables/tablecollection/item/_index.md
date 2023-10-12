@@ -1,14 +1,14 @@
 ---
 title: TableCollection.Item
 second_title: Referencia de API de Aspose.Words para .NET
-description: TableCollection propiedad. Recupera un Mesa en el índice dado.
+description: TableCollection propiedad. Recupera unTable en el índice dado.
 type: docs
 weight: 10
 url: /es/net/aspose.words.tables/tablecollection/item/
 ---
 ## TableCollection indexer
 
-Recupera un **Mesa** en el índice dado.
+Recupera un[`Table`](../../table/) en el índice dado.
 
 ```csharp
 public Table this[int index] { get; }
@@ -20,11 +20,11 @@ public Table this[int index] { get; }
 
 ### Observaciones
 
-El índice está basado en cero.
+El índice tiene base cero.
 
-Los índices negativos están permitidos e indican el acceso desde la parte posterior de la colección. Por ejemplo, -1 significa el último elemento, -2 significa el penúltimo y así sucesivamente.
+Se permiten índices negativos e indican el acceso desde la parte posterior de la colección. Por ejemplo, -1 significa el último elemento, -2 significa el penúltimo y así sucesivamente.
 
-Si el índice es mayor o igual que el número de elementos en la lista, esto devuelve una referencia nula.
+Si el índice es mayor o igual que el número de elementos de la lista, esto devuelve una referencia nula.
 
 Si el índice es negativo y su valor absoluto es mayor que el número de elementos de la lista, esto devuelve una referencia nula.
 

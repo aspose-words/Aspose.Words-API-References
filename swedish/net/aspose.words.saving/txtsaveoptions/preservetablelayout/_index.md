@@ -1,14 +1,14 @@
 ---
 title: TxtSaveOptions.PreserveTableLayout
 second_title: Aspose.Words för .NET API Referens
-description: TxtSaveOptions fast egendom. Anger om programmet ska försöka bevara layout av tabeller när det sparas i vanlig textformat. Standardvärdet är falsk .
+description: TxtSaveOptions fast egendom. Anger om programmet ska försöka bevara layout av tabeller när det sparas i vanlig textformat. Standardvärdet ärfalsk .
 type: docs
 weight: 50
 url: /sv/net/aspose.words.saving/txtsaveoptions/preservetablelayout/
 ---
 ## TxtSaveOptions.PreserveTableLayout property
 
-Anger om programmet ska försöka bevara layout av tabeller när det sparas i vanlig textformat. Standardvärdet är **falsk** .
+Anger om programmet ska försöka bevara layout av tabeller när det sparas i vanlig textformat. Standardvärdet är`falsk` .
 
 ```csharp
 public bool PreserveTableLayout { get; set; }

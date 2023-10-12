@@ -1,14 +1,14 @@
 ---
 title: TableSubstitutionRule.Save
 second_title: Référence de l'API Aspose.Words pour .NET
-description: TableSubstitutionRule méthode. Enregistre les paramètres de substitution de table actuels dans le fichier.
+description: TableSubstitutionRule méthode. Enregistre les paramètres de substitution de table actuels dans un fichier.
 type: docs
 weight: 70
 url: /fr/net/aspose.words.fonts/tablesubstitutionrule/save/
 ---
 ## Save(string) {#save_1}
 
-Enregistre les paramètres de substitution de table actuels dans le fichier.
+Enregistre les paramètres de substitution de table actuels dans un fichier.
 
 ```csharp
 public void Save(string fileName)
@@ -27,7 +27,7 @@ Document doc = new Document();
 FontSettings fontSettings = new FontSettings();
 doc.FontSettings = fontSettings;
 
-// Crée une nouvelle règle de substitution de table et charge la table de substitution de police Microsoft Windows par défaut.
+// Créez une nouvelle règle de substitution de table et chargez la table de substitution de polices Microsoft Windows par défaut.
 TableSubstitutionRule tableSubstitutionRule = fontSettings.SubstitutionSettings.TableSubstitution;
 tableSubstitutionRule.LoadWindowsSettings();
 
@@ -35,7 +35,7 @@ tableSubstitutionRule.LoadWindowsSettings();
 Assert.AreEqual(new[] {"Times New Roman"},
     tableSubstitutionRule.GetSubstitutes("Times New Roman CE").ToArray());
 
-// Nous pouvons enregistrer le tableau sous la forme d'un document XML.
+// On peut sauvegarder le tableau sous la forme d'un document XML.
 tableSubstitutionRule.Save(ArtifactsDir + "FontSettings.TableSubstitutionRule.Windows.xml");
 
 // Linux a sa propre table de substitution.
@@ -46,7 +46,7 @@ tableSubstitutionRule.LoadLinuxSettings();
 Assert.AreEqual(new[] {"FreeSerif", "Liberation Serif", "DejaVu Serif"},
     tableSubstitutionRule.GetSubstitutes("Times New Roman CE").ToArray());
 
-// Enregistre la table de substitution Linux sous la forme d'un document XML à l'aide d'un flux.
+// Enregistrez la table de substitution Linux sous la forme d'un document XML à l'aide d'un flux.
 using (FileStream fileStream = new FileStream(ArtifactsDir + "FontSettings.TableSubstitutionRule.Linux.xml",
     FileMode.Create))
 {
@@ -83,7 +83,7 @@ Document doc = new Document();
 FontSettings fontSettings = new FontSettings();
 doc.FontSettings = fontSettings;
 
-// Crée une nouvelle règle de substitution de table et charge la table de substitution de police Microsoft Windows par défaut.
+// Créez une nouvelle règle de substitution de table et chargez la table de substitution de polices Microsoft Windows par défaut.
 TableSubstitutionRule tableSubstitutionRule = fontSettings.SubstitutionSettings.TableSubstitution;
 tableSubstitutionRule.LoadWindowsSettings();
 
@@ -91,7 +91,7 @@ tableSubstitutionRule.LoadWindowsSettings();
 Assert.AreEqual(new[] {"Times New Roman"},
     tableSubstitutionRule.GetSubstitutes("Times New Roman CE").ToArray());
 
-// Nous pouvons enregistrer le tableau sous la forme d'un document XML.
+// On peut sauvegarder le tableau sous la forme d'un document XML.
 tableSubstitutionRule.Save(ArtifactsDir + "FontSettings.TableSubstitutionRule.Windows.xml");
 
 // Linux a sa propre table de substitution.
@@ -102,7 +102,7 @@ tableSubstitutionRule.LoadLinuxSettings();
 Assert.AreEqual(new[] {"FreeSerif", "Liberation Serif", "DejaVu Serif"},
     tableSubstitutionRule.GetSubstitutes("Times New Roman CE").ToArray());
 
-// Enregistre la table de substitution Linux sous la forme d'un document XML à l'aide d'un flux.
+// Enregistrez la table de substitution Linux sous la forme d'un document XML à l'aide d'un flux.
 using (FileStream fileStream = new FileStream(ArtifactsDir + "FontSettings.TableSubstitutionRule.Linux.xml",
     FileMode.Create))
 {

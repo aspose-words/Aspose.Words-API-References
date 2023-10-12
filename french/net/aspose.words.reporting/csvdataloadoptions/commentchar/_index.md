@@ -16,7 +16,7 @@ public char CommentChar { get; set; }
 
 ### Remarques
 
-La valeur par défaut est '#' (dièse).
+La valeur par défaut est '#' (signe dièse).
 
 ### Voir également
 

@@ -20,7 +20,7 @@ Aspose.Words ne met pas à jour cette propriété.
 
 ### Exemples
 
-Montre comment utiliser les champs REVNUM.
+Montre comment travailler avec les champs REVNUM.
 
 ```csharp
 Document doc = new Document();
@@ -28,7 +28,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("Current revision #");
 
-// Insère un champ REVNUM, qui affiche la propriété de numéro de révision actuelle du document.
+// Insère un champ REVNUM, qui affiche la propriété du numéro de révision actuel du document.
 FieldRevNum field = (FieldRevNum)builder.InsertField(FieldType.FieldRevisionNum, true);
 
 Assert.AreEqual(" REVNUM ", field.GetFieldCode());
@@ -36,24 +36,25 @@ Assert.AreEqual("1", field.Result);
 Assert.AreEqual(1, doc.BuiltInDocumentProperties.RevisionNumber);
 
 // Cette propriété compte combien de fois un document a été enregistré dans Microsoft Word,
-// et n'est pas lié aux révisions suivies. Nous pouvons le trouver en cliquant avec le bouton droit sur le document dans l'explorateur Windows
+// et n'est pas lié aux révisions suivies. Nous pouvons le trouver en cliquant avec le bouton droit sur le document dans l'Explorateur Windows
 // via Propriétés -> Détails. Nous pouvons mettre à jour cette propriété manuellement.
 doc.BuiltInDocumentProperties.RevisionNumber++;
+field.Update();
 
 Assert.AreEqual("2", field.Result);
 ```
 
-Montre comment travailler avec les propriétés du document dans la catégorie "Origine".
+Montre comment utiliser les propriétés du document dans la catégorie « Origine ».
 
 ```csharp
-// Ouvre un document que nous avons créé et modifié à l'aide de Microsoft Word.
+// Ouvrez un document que nous avons créé et modifié à l'aide de Microsoft Word.
 Document doc = new Document(MyDir + "Properties.docx");
 BuiltInDocumentProperties properties = doc.BuiltInDocumentProperties;
 
 // Les propriétés intégrées suivantes contiennent des informations concernant la création et la modification de ce document.
 // Nous pouvons cliquer avec le bouton droit sur ce document dans l'Explorateur Windows et trouver
 // ces propriétés via "Propriétés" -> "Détails" -> Catégorie "Origine".
-// Des champs tels que PRINTDATE et EDITTIME peuvent afficher ces valeurs dans le corps du document.
+// Les champs tels que PRINTDATE et EDITTIME peuvent afficher ces valeurs dans le corps du document.
 Console.WriteLine($"Created using {properties.NameOfApplication}, on {properties.CreatedTime}");
 Console.WriteLine($"Minutes spent editing: {properties.TotalEditingTime}");
 Console.WriteLine($"Date/time last printed: {properties.LastPrinted}");

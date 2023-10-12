@@ -16,7 +16,7 @@ public int Count { get; }
 
 ### أمثلة
 
-يوضح كيفية التعامل مع أنماط منطقة معينة في الجدول.
+يوضح كيفية العمل مع أنماط مناطق معينة في الجدول.
 
 ```csharp
 Document doc = new Document();
@@ -37,9 +37,9 @@ builder.EndTable();
 // إنشاء نمط جدول مخصص.
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 
-// الأنماط الشرطية هي تغييرات تنسيق تؤثر فقط على بعض خلايا الجدول
-// استنادًا إلى المسند ، مثل وجود الخلايا في الصف الأخير.
-// فيما يلي ثلاث طرق للوصول إلى الأنماط الشرطية لنمط الجدول من مجموعة "ConditionalStyles".
+// الأنماط الشرطية هي تغييرات التنسيق التي تؤثر فقط على بعض خلايا الجدول
+// استنادًا إلى المسند، مثل وجود الخلايا في الصف الأخير.
+// فيما يلي ثلاث طرق للوصول إلى الأنماط الشرطية لنمط الجدول من مجموعة "الأنماط الشرطية".
 // 1 - حسب نوع النمط:
 tableStyle.ConditionalStyles[ConditionalStyleType.FirstRow].Shading.BackgroundPatternColor = Color.AliceBlue;
 
@@ -48,17 +48,17 @@ tableStyle.ConditionalStyles[0].Borders.Color = Color.Black;
 tableStyle.ConditionalStyles[0].Borders.LineStyle = LineStyle.DotDash;
 Assert.AreEqual(ConditionalStyleType.FirstRow, tableStyle.ConditionalStyles[0].Type);
 
-// 3 - كممتلكات:
+// 3 - كخاصية:
 tableStyle.ConditionalStyles.FirstRow.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
-// تطبيق تنسيق النص والحشو على الأنماط الشرطية.
+// تطبيق الحشو وتنسيق النص على الأنماط الشرطية.
 tableStyle.ConditionalStyles.LastRow.BottomPadding = 10;
 tableStyle.ConditionalStyles.LastRow.LeftPadding = 10;
 tableStyle.ConditionalStyles.LastRow.RightPadding = 10;
 tableStyle.ConditionalStyles.LastRow.TopPadding = 10;
 tableStyle.ConditionalStyles.LastColumn.Font.Bold = true;
 
-// قائمة بجميع شروط النمط الممكنة.
+// قم بإدراج جميع شروط النمط الممكنة.
 using (IEnumerator<ConditionalStyle> enumerator = tableStyle.ConditionalStyles.GetEnumerator())
 {
     while (enumerator.MoveNext())
@@ -68,10 +68,10 @@ using (IEnumerator<ConditionalStyle> enumerator = tableStyle.ConditionalStyles.G
     }
 }
 
-// قم بتطبيق النمط المخصص ، الذي يحتوي على جميع الأنماط الشرطية ، على الجدول.
+// قم بتطبيق النمط المخصص، الذي يحتوي على كافة الأنماط الشرطية، على الجدول.
 table.Style = tableStyle;
 
-// يطبق أسلوبنا بعض الأنماط الشرطية افتراضيًا.
+// يطبق أسلوبنا بعض الأنماط الشرطية بشكل افتراضي.
 Assert.AreEqual(TableStyleOptions.FirstRow | TableStyleOptions.FirstColumn | TableStyleOptions.RowBands, 
     table.StyleOptions);
 

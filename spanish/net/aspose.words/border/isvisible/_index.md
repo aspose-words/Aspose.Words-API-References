@@ -1,14 +1,14 @@
 ---
 title: Border.IsVisible
 second_title: Referencia de API de Aspose.Words para .NET
-description: Border propiedad. Devuelve verdadero si LineStyle no es LineStyle.None.
+description: Border propiedad. Devolucionesverdadero Si elLineStyle no esNone .
 type: docs
 weight: 30
 url: /es/net/aspose.words/border/isvisible/
 ---
 ## Border.IsVisible property
 
-Devuelve verdadero si LineStyle no es LineStyle.None.
+Devoluciones`verdadero` Si el[`LineStyle`](../linestyle/) no esNone .
 
 ```csharp
 public bool IsVisible { get; }
@@ -16,13 +16,13 @@ public bool IsVisible { get; }
 
 ### Ejemplos
 
-Muestra cómo eliminar los bordes de un párrafo.
+Muestra cómo eliminar bordes de un párrafo.
 
 ```csharp
 Document doc = new Document(MyDir + "Borders.docx");
 
 // Cada párrafo tiene un conjunto individual de bordes.
-// Podemos acceder a la configuración de la apariencia de estos bordes a través del objeto de formato de párrafo.
+// Podemos acceder a la configuración para la apariencia de estos bordes a través del objeto de formato de párrafo.
 BorderCollection borders = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Borders;
 
 Assert.AreEqual(Color.Red.ToArgb(), borders[0].Color.ToArgb());
@@ -30,7 +30,7 @@ Assert.AreEqual(3.0d, borders[0].LineWidth);
 Assert.AreEqual(LineStyle.Single, borders[0].LineStyle);
 Assert.True(borders[0].IsVisible);
 
-// Podemos eliminar un borde de una vez ejecutando el método ClearFormatting. 
+ // Podemos eliminar un borde de inmediato ejecutando el método ClearFormatting.
 // Ejecutar este método en cada borde de un párrafo eliminará todos sus bordes.
 foreach (Border border in borders)
     border.ClearFormatting();

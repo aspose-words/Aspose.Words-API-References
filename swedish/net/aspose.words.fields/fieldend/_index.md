@@ -3,12 +3,14 @@ title: Class FieldEnd
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Fields.FieldEnd klass. Representerar slutet av ett Wordfält i ett dokument.
 type: docs
-weight: 1710
+weight: 1860
 url: /sv/net/aspose.words.fields/fieldend/
 ---
 ## FieldEnd class
 
 Representerar slutet av ett Word-fält i ett dokument.
+
+För att lära dig mer, besök[Arbeta med Fields](https://docs.aspose.com/words/net/working-with-fields/) dokumentationsartikel.
 
 ```csharp
 public class FieldEnd : FieldChar
@@ -22,21 +24,21 @@ public class FieldEnd : FieldChar
 | virtual [Document](../../aspose.words/node/document/) { get; } | Hämtar dokumentet som denna nod tillhör. |
 | [FieldType](../../aspose.words.fields/fieldchar/fieldtype/) { get; } | Returnerar fältets typ. |
 | [Font](../../aspose.words/inline/font/) { get; } | Ger tillgång till teckensnittsformateringen för detta objekt. |
-| [HasSeparator](../../aspose.words.fields/fieldend/hasseparator/) { get; } | Returnerar **Sann** om det här fältet har en separator. |
-| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Returnerar sant om denna nod kan innehålla andra noder. |
+| [HasSeparator](../../aspose.words.fields/fieldend/hasseparator/) { get; } | Returnerar`Sann`om det här fältet har en separator. |
+| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Returnerar`Sann` om denna nod kan innehålla andra noder. |
 | [IsDeleteRevision](../../aspose.words/inline/isdeleterevision/) { get; } | Returnerar sant om detta objekt raderades i Microsoft Word medan ändringsspårning var aktiverad. |
 | [IsDirty](../../aspose.words.fields/fieldchar/isdirty/) { get; set; } | Hämtar eller ställer in om det aktuella resultatet av fältet inte längre är korrekt (inaktuellt) på grund av andra modifieringar som gjorts i dokumentet. |
 | [IsFormatRevision](../../aspose.words/inline/isformatrevision/) { get; } | Returnerar sant om formateringen av objektet ändrades i Microsoft Word medan ändringsspårning var aktiverad. |
 | [IsInsertRevision](../../aspose.words/inline/isinsertrevision/) { get; } | Returnerar sant om det här objektet infogades i Microsoft Word medan ändringsspårning var aktiverad. |
 | [IsLocked](../../aspose.words.fields/fieldchar/islocked/) { get; set; } | Hämtar eller ställer in om det överordnade fältet är låst (ska inte räkna om resultatet). |
-| [IsMoveFromRevision](../../aspose.words/inline/ismovefromrevision/) { get; } | Returnerar **Sann** om det här objektet flyttades (borttogs) i Microsoft Word medan ändringsspårning var aktiverad. |
-| [IsMoveToRevision](../../aspose.words/inline/ismovetorevision/) { get; } | Returnerar **Sann** om detta objekt flyttades (infogades) i Microsoft Word medan ändringsspårning var aktiverad. |
+| [IsMoveFromRevision](../../aspose.words/inline/ismovefromrevision/) { get; } | Returnerar`Sann` om det här objektet flyttades (borttogs) i Microsoft Word medan ändringsspårning var aktiverad. |
+| [IsMoveToRevision](../../aspose.words/inline/ismovetorevision/) { get; } | Returnerar`Sann` om detta objekt flyttades (infogades) i Microsoft Word medan ändringsspårning var aktiverad. |
 | [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Hämtar noden omedelbart efter denna nod. |
 | override [NodeType](../../aspose.words.fields/fieldend/nodetype/) { get; } | ReturnerarFieldEnd . |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Hämtar den omedelbara föräldern till denna nod. |
 | [ParentParagraph](../../aspose.words/inline/parentparagraph/) { get; } | Hämtar föräldern[`Paragraph`](../../aspose.words/paragraph/) av denna nod. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Hämtar noden omedelbart före denna nod. |
-| [Range](../../aspose.words/node/range/) { get; } | Returnerar en **Räckvidd** objekt som representerar den del av ett dokument som finns i denna nod. |
+| [Range](../../aspose.words/node/range/) { get; } | Returnerar en[`Range`](../../aspose.words/range/) objekt som representerar den del av ett dokument som finns i denna nod. |
 
 ## Metoder
 
@@ -69,6 +71,7 @@ För att enkelt infoga ett nytt fält i ett dokument, använd[`InsertField`](../
 Visar hur man arbetar med en samling fält.
 
 ```csharp
+public void FieldCollection()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -107,6 +110,7 @@ Visar hur man arbetar med en samling fält.
     }
 
     Console.WriteLine(fieldVisitor.GetText());
+}
 
 /// <summary>
 /// Dokumentbesökarimplementering som skriver ut fältinformation.

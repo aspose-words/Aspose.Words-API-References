@@ -3,7 +3,7 @@ title: Interface IHyphenationCallback
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.IHyphenationCallback gränssnitt. Implementerat av klasser som kan registrera avstavningsordböcker.
 type: docs
-weight: 2990
+weight: 3190
 url: /sv/net/aspose.words/ihyphenationcallback/
 ---
 ## IHyphenationCallback interface
@@ -25,6 +25,7 @@ public interface IHyphenationCallback
 Visar hur man öppnar och registrerar en ordbok från en fil.
 
 ```csharp
+public void RegisterDictionary()
 {
     // Ställ in en återuppringning som spårar varningar som inträffar under registrering av avstavningslexikon.
     WarningInfoCollection warningInfoCollection = new WarningInfoCollection();

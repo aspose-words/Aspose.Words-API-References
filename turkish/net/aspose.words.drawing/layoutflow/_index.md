@@ -3,7 +3,7 @@ title: Enum LayoutFlow
 second_title: Aspose.Words for .NET API Referansı
 description: Aspose.Words.Drawing.LayoutFlow Sıralama. Bir metin kutusundaki metin düzeninin akışını belirler.
 type: docs
-weight: 970
+weight: 1100
 url: /tr/net/aspose.words.drawing/layoutflow/
 ---
 ## LayoutFlow enumeration
@@ -27,7 +27,7 @@ public enum LayoutFlow
 
 ### Örnekler
 
-Bir metin kutusuna nasıl metin ekleneceğini ve yönünün nasıl değiştirileceğini gösterir
+Metin kutusuna nasıl metin ekleneceğini ve yönünün nasıl değiştirileceğini gösterir
 
 ```csharp
 Document doc = new Document();

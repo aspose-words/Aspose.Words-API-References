@@ -20,11 +20,11 @@ public void ExecuteADO(object recordset)
 
 ### Примечания
 
-Этот метод полезен, когда вы собираетесь использовать классы Aspose.Words как COM-объекты из неуправляемого кода, такого как приложение, созданное с помощью ASP или Visual Basic 6.0.
+Этот метод полезен, если вы собираетесь использовать классы Aspose.Words как COM-объекты из неуправляемого кода, например приложения, созданного с использованием ASP или Visual Basic 6.0.
 
 Этот метод игнорируетRemoveUnusedRegions вариант.
 
-Дополнительные сведения см. в описании MailMerge.Execute(DataTable).
+Более подробную информацию смотрите в описании[`Execute`](../execute/).
 
 ### Примеры
 
@@ -50,37 +50,37 @@ Doc.MailMerge.ExecuteADO RS
 Doc.Save "C:\MyPath\CustomerLabels Out VBScript.doc"
 ```
 
-Показывает, как выполнить слияние почты с данными из набора данных ADO.
+Показывает, как запустить слияние почты с данными из набора данных ADO.
 
 ```csharp
 public void ExecuteADO()
 {
     Document doc = CreateSourceDocADOMailMerge();
 
-    // Для работы с наборами данных ADO нам потребуется добавить ссылку на библиотеку Microsoft ActiveX Data Objects,
-    // которая включена в дистрибутив .NET и хранится в "adodb.dll".
+    // Для работы с наборами данных ADO нам нужно будет добавить ссылку на библиотеку объектов данных Microsoft ActiveX,
+    // который включен в дистрибутив .NET и хранится в "adodb.dll".
     ADODB.Connection connection = new ADODB.Connection();
 
     // Создаем строку подключения, указывающую на файл базы данных "Борей"
     // в нашей локальной файловой системе и открываем соединение.
-    string connectionString = @"Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" + DatabaseDir + "Northwind.mdb";
+    string connectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" + DatabaseDir + "Northwind.accdb";
     connection.Open(connectionString);
 
-    // Заполнить наш набор данных, запустив команду SQL в нашей базе данных.
+    // Заполните наш набор данных, выполнив команду SQL в нашей базе данных.
     // Имена столбцов в таблице результатов должны соответствовать
-    // к значениям MERGEFIELDS, которые будут вмещать наши данные.
+    // к значениям MERGEFIELDS, которые будут содержать наши данные.
     const string command = @"SELECT ProductName, QuantityPerUnit, UnitPrice FROM Products";
 
     ADODB.Recordset recordset = new ADODB.Recordset();
     recordset.Open(command, connection);
 
-    // Выполняем слияние и сохраняем документ.
+    // Выполняем слияние почты и сохраняем документ.
     doc.MailMerge.ExecuteADO(recordset);
     doc.Save(ArtifactsDir + "MailMerge.ExecuteADO.docx");
 }
 
 /// <summary>
-/// Создайте пустой документ и заполните его MERGEFIELDS, которые будут принимать данные при выполнении слияния.
+/// Создайте пустой документ и заполните его MERGEFIELDS, который будет принимать данные при выполнении слияния почты.
 /// </summary>
 private static Document CreateSourceDocADOMailMerge()
 {

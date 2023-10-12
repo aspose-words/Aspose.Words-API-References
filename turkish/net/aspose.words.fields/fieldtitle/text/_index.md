@@ -21,7 +21,7 @@ TITLE alanının nasıl kullanılacağını gösterir.
 ```csharp
 Document doc = new Document();
 
- // "Başlık" yerleşik belge özelliği için bir değer ayarlayın.
+ // "Başlık" yerleşik belge özelliği için bir değer belirleyin.
 doc.BuiltInDocumentProperties.Title = "My Title";
 
 // Bu özelliğin değerini belgede görüntülemek için TITLE alanını kullanabiliriz.
@@ -32,8 +32,8 @@ field.Update();
 Assert.AreEqual(" TITLE ", field.GetFieldCode());
 Assert.AreEqual("My Title", field.Result);
 
-// Alanın Text özelliği için bir değer ayarlama,
-// ve ardından alanı güncellemek, ilgili yerleşik özelliğin üzerine yeni değeri yazacaktır.
+// Alanın Text özelliği için bir değer ayarlıyoruz,
+// ve ardından alanın güncellenmesi, yeni değerin karşılık gelen yerleşik özelliğin üzerine yazılmasına neden olacaktır.
 builder.Writeln();
 field = (FieldTitle)builder.InsertField(FieldType.FieldTitle, false);
 field.Text = "My New Title";

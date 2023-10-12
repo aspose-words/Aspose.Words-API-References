@@ -1,14 +1,14 @@
 ---
 title: MetafileRenderingOptions.EmulateRasterOperations
 second_title: Aspose.Words لمراجع .NET API
-description: MetafileRenderingOptions ملكية. الحصول على أو تعيين قيمة تحدد ما إذا كان يجب محاكاة عمليات البيانات النقطية أم لا.
+description: MetafileRenderingOptions ملكية. الحصول على قيمة أو تعيينها لتحديد ما إذا كان يجب محاكاة العمليات النقطية أم لا.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.saving/metafilerenderingoptions/emulaterasteroperations/
 ---
 ## MetafileRenderingOptions.EmulateRasterOperations property
 
-الحصول على أو تعيين قيمة تحدد ما إذا كان يجب محاكاة عمليات البيانات النقطية أم لا.
+الحصول على قيمة أو تعيينها لتحديد ما إذا كان يجب محاكاة العمليات النقطية أم لا.
 
 ```csharp
 public bool EmulateRasterOperations { get; set; }
@@ -16,36 +16,37 @@ public bool EmulateRasterOperations { get; set; }
 
 ### ملاحظات
 
-يمكن استخدام عمليات البيانات النقطية المحددة في ملفات التعريف. لا يمكن تقديمها مباشرة إلى الرسومات المتجهة. تتطلب محاكاة العمليات النقطية تنقيطًا جزئيًا للرسومات المتجهة الناتجة والتي قد تؤثر على أداء عرض ملف التعريف .
+يمكن استخدام عمليات نقطية محددة في ملفات التعريف. ولا يمكن عرضها مباشرة إلى الرسومات المتجهة. تتطلب محاكاة العمليات النقطية تنقيطًا جزئيًا للرسومات المتجهة الناتجة مما قد يؤثر على أداء عرض ملف التعريف .
 
-عندما يتم تعيين هذه القيمة على`حقيقي`، Aspose.Words يحاكي العمليات النقطية. قد يكون الناتج الناتج نقطيًا جزئيًا وقد يكون الأداء أبطأ.
+عندما يتم ضبط هذه القيمة على`حقيقي`، Aspose.Words يحاكي العمليات النقطية. ربما يكون الإخراج الناتج نقطيًا جزئيًا وقد يكون الأداء أبطأ.
 
-عندما يتم تعيين هذه القيمة على`خاطئة`، Aspose.Words لا تحاكي العمليات النقطية. عندما تواجه Aspose.Words عملية نقطية في ملف تعريف ، فإنها ترجع إلى تحويل ملف التعريف إلى صورة نقطية باستخدام نظام التشغيل .
+عندما يتم ضبط هذه القيمة على`خطأ شنيع`، Aspose.Words لا يحاكي العمليات النقطية. عندما يواجه Aspose.Words عملية نقطية في ملف تعريف، فإنه يتراجع إلى عرض ملف التعريف في صورة نقطية باستخدام نظام التشغيل .
 
-يتم استخدام هذا الخيار فقط عندما يتم تقديم ملف التعريف كرسومات متجهة.
+يتم استخدام هذا الخيار فقط عندما يتم عرض ملف التعريف كرسومات متجهة.
 
-النظام الأساسي`حقيقي`.
+القيمة الافتراضية هي`حقيقي`.
 
 ### أمثلة
 
-أضافت العروض رجوعًا إلى عرض الصور النقطية وتغيير نوع التحذيرات حول سجلات ملفات التعريف غير المدعومة.
+تمت إضافة بديل لعرض الصور النقطية وتغيير نوع التحذيرات حول سجلات ملفات التعريف غير المدعومة.
 
 ```csharp
+public void HandleBinaryRasterWarnings()
 {
     Document doc = new Document(MyDir + "WMF with image.docx");
 
     MetafileRenderingOptions metafileRenderingOptions = new MetafileRenderingOptions();
 
-    // قم بتعيين خاصية "EmulateRasterOperations" على "false" للرجوع إلى الصورة النقطية عندما
-    // يواجه ملف تعريف ، والذي سيتطلب عمليات نقطية لتقديمه في ملف PDF الناتج.
+    // قم بتعيين خاصية "EmulateRasterOperations" على "خطأ" للرجوع إلى الصورة النقطية عندما
+    // يواجه ملف تعريف، والذي سيتطلب عمليات نقطية لعرضه في ملف PDF الناتج.
     metafileRenderingOptions.EmulateRasterOperations = false;
 
-    // عيّن خاصية "RenderingMode" على "VectorWithFallback" لمحاولة تقديم كل ملف تعريف باستخدام رسومات متجهة.
+    // قم بتعيين خاصية "RenderingMode" على "VectorWithFallback" لمحاولة عرض كل ملف تعريف باستخدام الرسومات المتجهة.
     metafileRenderingOptions.RenderingMode = MetafileRenderingMode.VectorWithFallback;
 
-    // قم بإنشاء كائن "PdfSaveOptions" يمكننا تمريره إلى طريقة "Save" الخاصة بالمستند
+    // قم بإنشاء كائن "PdfSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" المستند
     // لتعديل كيفية تحويل هذه الطريقة للمستند إلى .PDF وتطبيق التكوين
-    // في كائن MetafileRenderingOptions الخاص بنا إلى عملية الحفظ.
+    // في كائن MetafileRenderingOptions الخاص بنا لعملية الحفظ.
     PdfSaveOptions saveOptions = new PdfSaveOptions();
     saveOptions.MetafileRenderingOptions = metafileRenderingOptions;
 
@@ -55,12 +56,12 @@ public bool EmulateRasterOperations { get; set; }
     doc.Save(ArtifactsDir + "PdfSaveOptions.HandleBinaryRasterWarnings.pdf", saveOptions);
 
     Assert.AreEqual(1, callback.Warnings.Count);
-    Assert.AreEqual("'R2_XORPEN' binary raster operation is partly supported.",
+    Assert.AreEqual("'R2_XORPEN' binary raster operation is not supported.",
         callback.Warnings[0].Description);
 }
 
 /// <summary>
-/// يطبع ويجمع التحذيرات المتعلقة بضياع التنسيق التي تحدث عند حفظ مستند.
+/// يطبع ويجمع التحذيرات المتعلقة بفقدان التنسيق التي تحدث عند حفظ المستند.
 /// </summary>
 public class HandleDocumentWarnings : IWarningCallback
 {

@@ -3,12 +3,14 @@ title: Class EditableRangeEnd
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.EditableRangeEnd klass. Representerar slutet av ett redigerbart område i ett Worddokument.
 type: docs
-weight: 1280
+weight: 1430
 url: /sv/net/aspose.words/editablerangeend/
 ---
 ## EditableRangeEnd class
 
 Representerar slutet av ett redigerbart område i ett Word-dokument.
+
+För att lära dig mer, besök[Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) dokumentationsartikel.
 
 ```csharp
 public sealed class EditableRangeEnd : Node
@@ -20,14 +22,14 @@ public sealed class EditableRangeEnd : Node
 | --- | --- |
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Anger anpassad nodidentifierare. |
 | virtual [Document](../../aspose.words/node/document/) { get; } | Hämtar dokumentet som denna nod tillhör. |
-| [EditableRangeStart](../../aspose.words/editablerangeend/editablerangestart/) { get; } | Motsvarande EditableRangeStart, mottagen av ID. |
+| [EditableRangeStart](../../aspose.words/editablerangeend/editablerangestart/) { get; } | Motsvarande[`EditableRangeStart`](../editablerangestart/) , mottagen av ID. |
 | [Id](../../aspose.words/editablerangeend/id/) { get; set; } | Anger identifieraren för det redigerbara intervallet. |
-| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Returnerar sant om denna nod kan innehålla andra noder. |
+| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Returnerar`Sann` om denna nod kan innehålla andra noder. |
 | [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Hämtar noden omedelbart efter denna nod. |
 | override [NodeType](../../aspose.words/editablerangeend/nodetype/) { get; } | ReturnerarEditableRangeEnd . |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Hämtar den omedelbara föräldern till denna nod. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Hämtar noden omedelbart före denna nod. |
-| [Range](../../aspose.words/node/range/) { get; } | Returnerar en **Räckvidd** objekt som representerar den del av ett dokument som finns i denna nod. |
+| [Range](../../aspose.words/node/range/) { get; } | Returnerar en[`Range`](../range/) objekt som representerar den del av ett dokument som finns i denna nod. |
 
 ## Metoder
 

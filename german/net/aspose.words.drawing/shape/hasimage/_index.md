@@ -1,14 +1,14 @@
 ---
 title: Shape.HasImage
 second_title: Aspose.Words für .NET-API-Referenz
-description: Shape eigendom. Gibt true zurück wenn die Form Bildbytes enthält oder ein Bild verknüpft.
+description: Shape eigendom. Gibt zurückWAHR wenn die Form Bildbytes hat oder ein Bild verknüpft.
 type: docs
 weight: 80
 url: /de/net/aspose.words.drawing/shape/hasimage/
 ---
 ## Shape.HasImage property
 
-Gibt „true“ zurück, wenn die Form Bildbytes enthält oder ein Bild verknüpft.
+Gibt zurück`WAHR` wenn die Form Bildbytes hat oder ein Bild verknüpft.
 
 ```csharp
 public bool HasImage { get; }
@@ -31,12 +31,12 @@ foreach (Shape shape in shapes.OfType<Shape>())
 Assert.AreEqual(0, shapes.OfType<Shape>().Count(s => s.HasImage));
 ```
 
-Zeigt, wie Bilder aus einem Dokument extrahiert und als einzelne Dateien im lokalen Dateisystem gespeichert werden.
+Zeigt, wie man Bilder aus einem Dokument extrahiert und sie als einzelne Dateien im lokalen Dateisystem speichert.
 
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");
 
-// Holen Sie sich die Sammlung von Formen aus dem Dokument,
+// Holen Sie sich die Formensammlung aus dem Dokument,
 // und die Bilddaten jeder Form mit einem Bild als Datei im lokalen Dateisystem speichern.
 NodeCollection shapes = doc.GetChildNodes(NodeType.Shape, true);
 
@@ -47,8 +47,8 @@ foreach (Shape shape in shapes.OfType<Shape>())
 {
     if (shape.HasImage)
     {
-        // Die Bilddaten von Formen können Bilder in vielen möglichen Bildformaten enthalten. 
-        // Wir können für jedes Bild automatisch eine Dateierweiterung basierend auf seinem Format bestimmen.
+         // Die Bilddaten von Formen können Bilder in vielen möglichen Bildformaten enthalten.
+        // Wir können für jedes Bild automatisch eine Dateierweiterung anhand seines Formats ermitteln.
         string imageFileName =
             $"File.ExtractImages.{imageIndex}{FileFormatUtil.ImageTypeToExtension(shape.ImageData.ImageType)}";
         shape.ImageData.Save(ArtifactsDir + imageFileName);

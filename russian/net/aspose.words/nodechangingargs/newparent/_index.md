@@ -1,14 +1,14 @@
 ---
 title: NodeChangingArgs.NewParent
 second_title: Справочник по API Aspose.Words для .NET
-description: NodeChangingArgs свойство. Получает родителя узла который будет установлен после завершения операции.
+description: NodeChangingArgs свойство. Получает родительский узел который будет установлен после завершения операции.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/nodechangingargs/newparent/
 ---
 ## NodeChangingArgs.NewParent property
 
-Получает родителя узла, который будет установлен после завершения операции.
+Получает родительский узел, который будет установлен после завершения операции.
 
 ```csharp
 public Node NewParent { get; }
@@ -19,6 +19,7 @@ public Node NewParent { get; }
 Показывает, как использовать NodeChangingCallback для отслеживания изменений в дереве документа в режиме реального времени по мере его редактирования.
 
 ```csharp
+public void NodeChangingCallback()
 {
     Document doc = new Document();
     doc.NodeChangingCallback = new NodeChangingPrinter();

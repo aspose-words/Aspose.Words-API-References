@@ -1,14 +1,14 @@
 ---
 title: ChartFormat.Stroke
 second_title: Справочник по API Aspose.Words для .NET
-description: ChartFormat свойство. Получает формат строки для родительского элемента диаграммы.
+description: ChartFormat свойство. Получает форматирование строки для родительского элемента диаграммы.
 type: docs
-weight: 20
+weight: 40
 url: /ru/net/aspose.words.drawing.charts/chartformat/stroke/
 ---
 ## ChartFormat.Stroke property
 
-Получает формат строки для родительского элемента диаграммы.
+Получает форматирование строки для родительского элемента диаграммы.
 
 ```csharp
 public Stroke Stroke { get; }
@@ -16,7 +16,7 @@ public Stroke Stroke { get; }
 
 ### Примеры
 
-Покажите, как настроить форматирование маркера.
+Покажите, как установить форматирование маркера.
 
 ```csharp
 Document doc = new Document();
@@ -30,7 +30,7 @@ chart.Series.Clear();
 ChartSeries series = chart.Series.Add("AW Series 1", new[] { 0.7, 1.8, 2.6, 3.9 },
     new[] { 2.7, 3.2, 0.8, 1.7 });
 
-// Установить форматирование маркера.
+// Устанавливаем форматирование маркера.
 series.Marker.Size = 40;
 series.Marker.Symbol = MarkerSymbol.Square;
 ChartDataPointCollection dataPoints = series.DataPoints;

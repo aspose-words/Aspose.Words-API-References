@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTag.Style
 second_title: Aspose.Words لمراجع .NET API
-description: StructuredDocumentTag ملكية. الحصول على أو تحديد نمط علامة المستند المهيكلة.
+description: StructuredDocumentTag ملكية. الحصول على نمط علامة المستند المنظمة أو تعيينه.
 type: docs
 weight: 260
 url: /ar/net/aspose.words.markup/structureddocumenttag/style/
 ---
 ## StructuredDocumentTag.Style property
 
-الحصول على أو تحديد نمط علامة المستند المهيكلة.
+الحصول على نمط علامة المستند المنظمة أو تعيينه.
 
 ```csharp
 public Style Style { get; set; }
@@ -16,23 +16,23 @@ public Style Style { get; set; }
 
 ### ملاحظات
 
-فقطCharacter نمط أوParagraph يمكن ضبط النمط بنمط الحرف المرتبط.
+فقطCharacter أسلوب أوParagraph يمكن ضبط النمط مع نمط الحرف المرتبط.
 
 ### أمثلة
 
-يوضح كيفية العمل باستخدام أنماط عناصر التحكم في المحتوى.
+يوضح كيفية العمل مع أنماط عناصر التحكم في المحتوى.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// فيما يلي طريقتان لتطبيق نمط من المستند إلى علامة مستند منظم.
+// فيما يلي طريقتان لتطبيق نمط من المستند على علامة مستند منظمة.
 // 1 - تطبيق كائن نمط من مجموعة أنماط المستند:
 Style quoteStyle = doc.Styles[StyleIdentifier.Quote];
 StructuredDocumentTag sdtPlainText =
     new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Inline) { Style = quoteStyle };
 
-// 2 - الإشارة إلى نمط في المستند بالاسم:
+// 2 - قم بالإشارة إلى النمط الموجود في المستند بالاسم:
 StructuredDocumentTag sdtRichText =
     new StructuredDocumentTag(doc, SdtType.RichText, MarkupLevel.Inline) { StyleName = "Quote" };
 
@@ -46,6 +46,8 @@ NodeCollection tags = doc.GetChildNodes(NodeType.StructuredDocumentTag, true);
 foreach (Node node in tags)
 {
     StructuredDocumentTag sdt = (StructuredDocumentTag)node;
+
+    Console.WriteLine(sdt.WordOpenXMLMinimal);
 
     Assert.AreEqual(StyleIdentifier.Quote, sdt.Style.StyleIdentifier);
     Assert.AreEqual("Quote", sdt.StyleName);

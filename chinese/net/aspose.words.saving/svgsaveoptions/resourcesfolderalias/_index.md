@@ -1,14 +1,14 @@
 ---
 title: SvgSaveOptions.ResourcesFolderAlias
 second_title: Aspose.Words for .NET API 参考
-description: SvgSaveOptions 财产. 指定用于构造写入 SVG 文档的图像 URI 的文件夹的名称 默认为无效的.
+description: SvgSaveOptions 财产. 指定用于构建写入 SVG 文档的图像 URI 的文件夹名称 默认为无效的.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.saving/svgsaveoptions/resourcesfolderalias/
 ---
 ## SvgSaveOptions.ResourcesFolderAlias property
 
-指定用于构造写入 SVG 文档的图像 URI 的文件夹的名称。 默认为`无效的`.
+指定用于构建写入 SVG 文档的图像 URI 的文件夹名称。 默认为`无效的`.
 
 ```csharp
 public string ResourcesFolderAlias { get; set; }
@@ -16,7 +16,7 @@ public string ResourcesFolderAlias { get; set; }
 
 ### 评论
 
-当你保存一个[`Document`](../../../aspose.words/document/)在 SVG 格式中，Aspose.Words 需要将文档中嵌入的所有 图像保存为独立文件。[`ResourcesFolder`](../resourcesfolder/) 允许您指定图像的保存位置和`ResourcesFolderAlias` 允许指定如何构建图像 URI。
+当您保存一个[`Document`](../../../aspose.words/document/)在 SVG 格式中，Aspose.Words 需要将文档中嵌入的 all 图像保存为独立文件。[`ResourcesFolder`](../resourcesfolder/) 允许您指定图像的保存位置`ResourcesFolderAlias` 允许指定如何构建图像 URI。
 
 ### 例子
 
@@ -44,7 +44,7 @@ public void SvgResourceFolder()
 }
 
 /// <summary>
-/// 在转换为 .svg 时计算并打印包含的资源的 URI。
+/// 计算并打印 包含的资源转换为 .svg 时的 URI。
 /// </summary>
 private class ResourceUriPrinter : IResourceSavingCallback
 {

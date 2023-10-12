@@ -1,14 +1,14 @@
 ---
 title: MailMergeSettings.DataType
 second_title: Справочник по API Aspose.Words для .NET
-description: MailMergeSettings свойство. Указывает тип источника данных для слияния и метод доступа к данным. Значение по умолчаниюDefault .
+description: MailMergeSettings свойство. Указывает тип источника данных слияния почты и метод доступа к данным. Значение по умолчаниюDefault .
 type: docs
 weight: 70
 url: /ru/net/aspose.words.settings/mailmergesettings/datatype/
 ---
 ## MailMergeSettings.DataType property
 
-Указывает тип источника данных для слияния и метод доступа к данным. Значение по умолчанию:Default .
+Указывает тип источника данных слияния почты и метод доступа к данным. Значение по умолчанию:Default .
 
 ```csharp
 public MailMergeDataType DataType { get; set; }
@@ -29,7 +29,7 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Создаем источник данных в виде ASCII-файла с символом "|" персонаж
+// Создаем источник данных в виде ASCII-файла с символом "|" характер
 // действует как разделитель, разделяющий столбцы. Первая строка содержит имена трех столбцов,
 // и каждая последующая строка представляет собой строку с соответствующими значениями.
 string[] lines = { "FirstName|LastName|Message",
@@ -59,7 +59,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
-// Открытие этого документа в Microsoft Word приведет к выполнению слияния перед отображением содержимого. 
+ // Открытие этого документа в Microsoft Word приведет к выполнению слияния почты перед отображением содержимого.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

@@ -16,11 +16,11 @@ public bool EmulateRasterOperations { get; set; }
 
 ### Remarques
 
-Des opérations raster spécifiques peuvent être utilisées dans les métafichiers. Ils ne peuvent pas être restitués directement en graphiques vectoriels. L'émulation d'opérations raster nécessite une rastérisation partielle des graphiques vectoriels résultants, ce qui peut affecter les performances de rendu du métafichier .
+Des opérations raster spécifiques pourraient être utilisées dans les métafichiers. Ils ne peuvent pas être rendus directement en graphiques vectoriels. Les opérations d'émulation raster nécessitent une rastérisation partielle des graphiques vectoriels résultants, ce qui peut affecter les performances de rendu du métafichier .
 
-Lorsque cette valeur est définie sur`vrai`, Aspose.Words émule les opérations raster. La sortie résultante peut être partiellement pixellisée et les performances peuvent être plus lentes.
+Lorsque cette valeur est fixée à`vrai`, Aspose.Words émule les opérations raster. La sortie résultante peut-être partiellement pixellisée et les performances peuvent être plus lentes.
 
-Lorsque cette valeur est définie sur`faux`, Aspose.Words n'émule pas les opérations raster. Lorsque Aspose.Words rencontre une opération raster dans un métafichier, il revient au rendu du métafichier dans un bitmap en utilisant le système d'exploitation .
+Lorsque cette valeur est fixée à`FAUX`, Aspose.Words n'émule pas les opérations raster. Lorsqu'Aspose.Words rencontre une opération raster dans un métafichier, il revient au rendu du métafichier dans un bitmap en utilisant le système d'exploitation .
 
 Cette option est utilisée uniquement lorsque le métafichier est rendu sous forme de graphiques vectoriels.
 
@@ -28,24 +28,25 @@ La valeur par défaut est`vrai`.
 
 ### Exemples
 
-Affiche l'ajout d'un retour au rendu bitmap et la modification du type d'avertissements concernant les enregistrements de métafichiers non pris en charge.
+Affiche l'ajout d'une solution de secours au rendu bitmap et la modification du type d'avertissements concernant les enregistrements de métafichiers non pris en charge.
 
 ```csharp
+public void HandleBinaryRasterWarnings()
 {
     Document doc = new Document(MyDir + "WMF with image.docx");
 
     MetafileRenderingOptions metafileRenderingOptions = new MetafileRenderingOptions();
 
     // Définissez la propriété "EmulateRasterOperations" sur "false" pour revenir au bitmap lorsque
-    // il rencontre un métafichier, qui nécessitera des opérations raster pour s'afficher dans le PDF de sortie.
+    // il rencontre un métafichier, qui nécessitera le rendu des opérations raster dans le PDF de sortie.
     metafileRenderingOptions.EmulateRasterOperations = false;
 
     // Définissez la propriété "RenderingMode" sur "VectorWithFallback" pour essayer de restituer chaque métafichier à l'aide de graphiques vectoriels.
     metafileRenderingOptions.RenderingMode = MetafileRenderingMode.VectorWithFallback;
 
-    // Crée un objet "PdfSaveOptions" que nous pouvons passer à la méthode "Save" du document
+    // Crée un objet "PdfSaveOptions" que l'on peut passer à la méthode "Save" du document
     // pour modifier la façon dont cette méthode convertit le document en .PDF et applique la configuration
-    // dans notre objet MetafileRenderingOptions à l'opération d'enregistrement.
+    // dans notre objet MetafileRenderingOptions à l'opération de sauvegarde.
     PdfSaveOptions saveOptions = new PdfSaveOptions();
     saveOptions.MetafileRenderingOptions = metafileRenderingOptions;
 
@@ -55,12 +56,12 @@ Affiche l'ajout d'un retour au rendu bitmap et la modification du type d'avertis
     doc.Save(ArtifactsDir + "PdfSaveOptions.HandleBinaryRasterWarnings.pdf", saveOptions);
 
     Assert.AreEqual(1, callback.Warnings.Count);
-    Assert.AreEqual("'R2_XORPEN' binary raster operation is partly supported.",
+    Assert.AreEqual("'R2_XORPEN' binary raster operation is not supported.",
         callback.Warnings[0].Description);
 }
 
 /// <summary>
-/// Imprime et collecte les avertissements liés à la perte de mise en forme qui se produisent lors de l'enregistrement d'un document.
+/// Imprime et collecte les avertissements liés à la perte de formatage qui se produisent lors de l'enregistrement d'un document.
 /// </summary>
 public class HandleDocumentWarnings : IWarningCallback
 {

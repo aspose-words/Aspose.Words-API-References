@@ -1,14 +1,14 @@
 ---
 title: Comment.Comment
 second_title: Aspose.Words per .NET API Reference
-description: Comment costruttore. Inizializza una nuova istanza di Commento classe.
+description: Comment costruttore. Inizializza una nuova istanza diComment classe.
 type: docs
 weight: 10
 url: /it/net/aspose.words/comment/comment/
 ---
 ## Comment(DocumentBase) {#constructor}
 
-Inizializza una nuova istanza di **Commento** classe.
+Inizializza una nuova istanza di[`Comment`](../) classe.
 
 ```csharp
 public Comment(DocumentBase doc)
@@ -20,11 +20,11 @@ public Comment(DocumentBase doc)
 
 ### Osservazioni
 
-quando **Commento** viene creato, appartiene al documento specificato, ma non fa ancora parte del documento e **ParentNode** è zero.
+Quando[`Comment`](../) viene creato, appartiene al documento specificato, ma non è ancora parte del documento e[`ParentNode`](../../node/parentnode/) È`nullo`.
 
-Aggiungere **Commento** al documento utilizzare InsertAfter o InsertBefore nel paragrafo in cui si desidera inserire il commento.
+Per aggiungere[`Comment`](../) all'uso del documentoNode) ONode) sul paragrafo in cui vuoi inserire il commento.
 
-Dopo aver creato un commento, non dimenticare di impostarlo[`Author`](../author/) , [`Initial`](../initial/) e[`DateTime`](../datetime/) proprietà.
+Dopo aver creato un commento, non dimenticare di impostarlo[`Author`](../author/) , [`Initial`](../initial/) E[`DateTime`](../datetime/) proprietà.
 
 ### Esempi
 
@@ -51,7 +51,7 @@ public void CreateCommentsAndPrintAllInfo()
     para.AppendChild(new CommentRangeEnd(doc, newComment.Id));
     para.AppendChild(newComment); 
 
-    // Aggiungi due risposte al commento.
+    // Aggiunge due risposte al commento.
     newComment.AddReply("John Doe", "JD", DateTime.Now, "New reply.");
     newComment.AddReply("John Doe", "JD", DateTime.Now, "Another reply.");
 
@@ -59,20 +59,20 @@ public void CreateCommentsAndPrintAllInfo()
 }
 
 /// <summary>
-/// Esegue l'iterazione su ogni commento di primo livello e ne stampa l'intervallo di commenti, i contenuti e le risposte.
+/// Itera su ogni commento di livello superiore e stampa l'intervallo di commenti, i contenuti e le risposte.
 /// </summary>
 private static void PrintAllCommentInfo(NodeCollection comments)
 {
     CommentInfoPrinter commentVisitor = new CommentInfoPrinter();
 
-    // Itera su tutti i commenti di primo livello. A differenza dei commenti di tipo risposta, i commenti di primo livello non hanno predecessori.
+    // Itera su tutti i commenti di livello superiore. A differenza dei commenti di tipo risposta, i commenti di livello superiore non hanno antenati.
     foreach (Comment comment in comments.Where(c => ((Comment)c).Ancestor == null))
     {
-        // Per prima cosa, visita l'inizio dell'intervallo di commenti.
+        // Innanzitutto, visita l'inizio dell'intervallo di commenti.
         CommentRangeStart commentRangeStart = (CommentRangeStart)comment.PreviousSibling.PreviousSibling.PreviousSibling;
         commentRangeStart.Accept(commentVisitor);
 
-        // Quindi, visita il commento e tutte le risposte che potrebbe avere.
+        // Quindi, visita il commento e le eventuali risposte che potrebbe contenere.
         comment.Accept(commentVisitor);
 
         foreach (Comment reply in comment.Replies)
@@ -98,7 +98,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Ottiene il testo normale del documento accumulato dal visitatore.
+    /// Ottiene il testo semplice del documento accumulato dal visitatore.
     /// </summary>
     public string GetText()
     {
@@ -106,7 +106,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando viene rilevato un nodo Run nel documento.
+    /// Chiamato quando nel documento viene incontrato un nodo Esegui.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -116,7 +116,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando viene rilevato un nodo CommentRangeStart nel documento.
+    /// Chiamato quando nel documento viene rilevato un nodo CommentRangeStart.
     /// </summary>
     public override VisitorAction VisitCommentRangeStart(CommentRangeStart commentRangeStart)
     {
@@ -128,7 +128,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando viene rilevato un nodo CommentRangeEnd nel documento.
+    /// Chiamato quando nel documento viene incontrato un nodo CommentRangeEnd.
     /// </summary>
     public override VisitorAction VisitCommentRangeEnd(CommentRangeEnd commentRangeEnd)
     {
@@ -140,7 +140,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando viene rilevato un nodo Commento nel documento.
+    /// Chiamato quando nel documento viene incontrato un nodo Commento.
     /// </summary>
     public override VisitorAction VisitCommentStart(Comment comment)
     {
@@ -165,9 +165,9 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Aggiunge una riga a StringBuilder e la indenta in base alla profondità del visitatore nell'albero del documento.
+    /// Aggiunge una riga allo StringBuilder e la rientra in base alla profondità con cui si trova il visitatore nell'albero del documento.
     /// </summary>
-    /// <nome parametro="testo"></param>
+    /// <param name="text"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++)
@@ -195,7 +195,7 @@ public class CommentInfoPrinter : DocumentVisitor
 
 ## Comment(DocumentBase, string, string, DateTime) {#constructor_1}
 
-Inizializza una nuova istanza di **Commento** classe.
+Inizializza una nuova istanza di[`Comment`](../) classe.
 
 ```csharp
 public Comment(DocumentBase doc, string author, string initial, DateTime dateTime)
@@ -204,8 +204,8 @@ public Comment(DocumentBase doc, string author, string initial, DateTime dateTim
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | doc | DocumentBase | Il documento del proprietario. |
-| author | String | Il nome dell'autore per il commento. Non può essere nullo. |
-| initial | String | L'autore sigla per il commento. Non può essere nullo. |
+| author | String | Il nome dell'autore del commento. Non può essere`nullo`. |
+| initial | String | L'autore sigla il commento. Non può essere`nullo`. |
 | dateTime | DateTime | La data e l'ora del commento. |
 
 ### Esempi
@@ -224,7 +224,7 @@ builder.Write("Comment text.");
 
 Assert.AreEqual(DateTime.Today, comment.DateTime);
 
-// In Microsoft Word, possiamo fare clic con il pulsante destro del mouse su questo commento nel corpo del documento per modificarlo o rispondere. 
+ // In Microsoft Word, possiamo fare clic con il pulsante destro del mouse su questo commento nel corpo del documento per modificarlo o rispondere.
 doc.Save(ArtifactsDir + "InlineStory.AddComment.docx");
 ```
 

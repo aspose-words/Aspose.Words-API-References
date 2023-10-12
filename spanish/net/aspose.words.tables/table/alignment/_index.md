@@ -26,10 +26,10 @@ Muestra cómo aplicar un borde de contorno a una tabla.
 Document doc = new Document(MyDir + "Tables.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
-// Alinea la tabla al centro de la página.
+// Alinea la tabla con el centro de la página.
 table.Alignment = TableAlignment.Center;
 
-// Limpia cualquier borde existente y sombreado de la tabla.
+// Borra los bordes y sombreados existentes de la tabla.
 table.ClearBorders();
 table.ClearShading();
 

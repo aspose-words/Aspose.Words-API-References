@@ -3,12 +3,14 @@ title: Class ImageSize
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Drawing.ImageSize klass. Innehåller information om bildstorlek och upplösning.
 type: docs
-weight: 940
+weight: 1070
 url: /sv/net/aspose.words.drawing/imagesize/
 ---
 ## ImageSize class
 
 Innehåller information om bildstorlek och upplösning.
+
+För att lära dig mer, besök[Arbeta med bilder](https://docs.aspose.com/words/net/working-with-images/) dokumentationsartikel.
 
 ```csharp
 public class ImageSize
@@ -66,10 +68,10 @@ Visar hur man ändrar storlek på en form med en bild.
             Assert.AreEqual(300.0d, shape.Width);
             Assert.AreEqual(300.0d, shape.Height);
 
-              // Minska formens totala storlek med 50 %.
+             // Minska formens totala storlek med 50 %.
             shape.Width *= 0.5;
 
-              // Skalningsfaktorer gäller för både bredden och höjden samtidigt för att bevara formens proportioner.
+             // Skalningsfaktorer gäller för både bredden och höjden samtidigt för att bevara formens proportioner.
             Assert.AreEqual(150.0d, shape.Width);
             Assert.AreEqual(150.0d, shape.Height);
 

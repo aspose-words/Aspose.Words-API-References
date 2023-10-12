@@ -1,14 +1,14 @@
 ---
 title: ReportingEngine.BuildReport
 second_title: Aspose.Words per .NET API Reference
-description: ReportingEngine metodo. Popola il documento modello specificato con i dati dellorigine specificata rendendolo un report pronto.
+description: ReportingEngine metodo. Compila il documento modello specificato con i dati provenienti dallorigine specificata rendendolo un report pronto.
 type: docs
 weight: 40
 url: /it/net/aspose.words.reporting/reportingengine/buildreport/
 ---
 ## BuildReport(Document, object) {#buildreport}
 
-Popola il documento modello specificato con i dati dell'origine specificata rendendolo un report pronto.
+Compila il documento modello specificato con i dati provenienti dall'origine specificata rendendolo un report pronto.
 
 ```csharp
 public bool BuildReport(Document document, object dataSource)
@@ -21,11 +21,11 @@ public bool BuildReport(Document document, object dataSource)
 
 ### Valore di ritorno
 
-Un flag che indica se l'analisi del documento modello è riuscita. Il flag restituito ha senso solo se un valore del[`Options`](../options/)la proprietà include ilInlineErrorMessages opzione.
+Un flag che indica se l'analisi del documento modello ha avuto esito positivo. Il flag restituito ha senso solo se un valore del[`Options`](../options/)la proprietà include ilInlineErrorMessages opzione.
 
 ### Osservazioni
 
-Utilizzando questo overload è possibile fare riferimento ai membri dell'origine dati nel documento modello, ma non è possibile fare riferimento all'oggetto origine dati stesso. Dovresti usare il`BuildReport` sovraccarico per raggiungere questo obiettivo.
+Utilizzando questo sovraccarico è possibile fare riferimento ai membri dell'origine dati nel documento modello, ma non è possibile fare riferimento all'oggetto origine dati stesso. Dovresti usare il`BuildReport` sovraccarico per raggiungere questo obiettivo.
 
 Un oggetto origine dati può essere di uno dei seguenti tipi:
 
@@ -39,9 +39,9 @@ Un oggetto origine dati può essere di uno dei seguenti tipi:
 * IDataRecord
 * DataView
 * DataRowView
-* Qualsiasi altro tipo .NET arbitrario non dinamico e non anonimo
+* Qualsiasi altro tipo .NET arbitrario, non dinamico e non anonimo
 
-Per informazioni su come lavorare con origini dati di tipo diverso nei documenti modello, vedere riferimento alla sintassi del modello (https://docs.aspose.com/display/wordsnet/Template+Syntax).
+Per informazioni su come lavorare con origini dati di diverso tipo nei documenti modello, vedere il riferimento alla sintassi del modello (https://docs.aspose.com/display/wordsnet/Template+Syntax).
 
 ### Guarda anche
 
@@ -54,7 +54,7 @@ Per informazioni su come lavorare con origini dati di tipo diverso nei documenti
 
 ## BuildReport(Document, object, string) {#buildreport_1}
 
-Popola il documento modello specificato con i dati dell'origine specificata rendendolo un report pronto.
+Compila il documento modello specificato con i dati provenienti dall'origine specificata rendendolo un report pronto.
 
 ```csharp
 public bool BuildReport(Document document, object dataSource, string dataSourceName)
@@ -68,11 +68,11 @@ public bool BuildReport(Document document, object dataSource, string dataSourceN
 
 ### Valore di ritorno
 
-Un flag che indica se l'analisi del documento modello è riuscita. Il flag restituito ha senso solo se un valore del[`Options`](../options/)la proprietà include ilInlineErrorMessages opzione.
+Un flag che indica se l'analisi del documento modello ha avuto esito positivo. Il flag restituito ha senso solo se un valore del[`Options`](../options/)la proprietà include ilInlineErrorMessages opzione.
 
 ### Osservazioni
 
-Utilizzando questo overload è possibile fare riferimento ai membri dell'origine dati e all'oggetto origine dati stesso nel modello. Se non hai intenzione di fare riferimento all'oggetto origine dati stesso, puoi ometterlo*dataSourceName* passando null o usa il`BuildReport` sovraccarico.
+Utilizzando questo sovraccarico è possibile fare riferimento ai membri dell'origine dati e all'oggetto origine dati stesso nel modello. Se non intendi fare riferimento all'oggetto origine dati stesso, puoi ometterlo*dataSourceName* passaggio`nullo` oppure usa il`BuildReport` sovraccarico.
 
 Un oggetto origine dati può essere di uno dei seguenti tipi:
 
@@ -86,9 +86,9 @@ Un oggetto origine dati può essere di uno dei seguenti tipi:
 * IDataRecord
 * DataView
 * DataRowView
-* Qualsiasi altro tipo .NET arbitrario non dinamico e non anonimo
+* Qualsiasi altro tipo .NET arbitrario, non dinamico e non anonimo
 
-Per informazioni su come lavorare con origini dati di tipo diverso nei documenti modello, vedere riferimento alla sintassi del modello (https://docs.aspose.com/display/wordsnet/Template+Syntax).
+Per informazioni su come lavorare con origini dati di diverso tipo nei documenti modello, vedere il riferimento alla sintassi del modello (https://docs.aspose.com/display/wordsnet/Template+Syntax).
 
 ### Guarda anche
 
@@ -101,7 +101,7 @@ Per informazioni su come lavorare con origini dati di tipo diverso nei documenti
 
 ## BuildReport(Document, object[], string[]) {#buildreport_2}
 
-Popola il documento modello specificato con i dati delle origini specificate rendendolo un report pronto.
+Compila il documento modello specificato con i dati provenienti dalle origini specificate rendendolo un report pronto.
 
 ```csharp
 public bool BuildReport(Document document, object[] dataSources, string[] dataSourceNames)
@@ -110,18 +110,18 @@ public bool BuildReport(Document document, object[] dataSources, string[] dataSo
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | document | Document | Un documento modello da compilare con i dati. |
-| dataSources | Object[] | Una matrice di oggetti origine dati. |
-| dataSourceNames | String[] | Una matrice di nomi per fare riferimento agli oggetti origine dati all'interno del modello. |
+| dataSources | Object[] | Un array di oggetti origine dati. |
+| dataSourceNames | String[] | Un array di nomi per fare riferimento agli oggetti origine dati all'interno del modello. |
 
 ### Valore di ritorno
 
-Un flag che indica se l'analisi del documento modello è riuscita. Il flag restituito ha senso solo se un valore del[`Options`](../options/)la proprietà include ilInlineErrorMessages opzione.
+Un flag che indica se l'analisi del documento modello ha avuto esito positivo. Il flag restituito ha senso solo se un valore del[`Options`](../options/)la proprietà include ilInlineErrorMessages opzione.
 
 ### Osservazioni
 
-Utilizzando questo overload è possibile fare riferimento a più oggetti origine dati e ai relativi membri nel modello. Il nome della prima origine dati può essere omesso (ovvero essere una stringa vuota o null) se si intende fare riferimento ai membri dell'origine dati ma non all'oggetto origine dati stesso. I nomi delle altre origini dati devono essere specificati e univoci.
+Utilizzando questo sovraccarico è possibile fare riferimento a più oggetti origine dati e ai relativi membri nel modello. Il nome della prima origine dati può essere omesso (cioè essere una stringa vuota oppure`nullo` se intendi fare riferimento ai membri dell'origine dati ma non all'oggetto origine dati stesso. I nomi delle altre origini dati devono essere specificati e univoci.
 
-Se intendi utilizzare una singola origine dati, considera l'utilizzo di`BuildReport` e`BuildReport` sovraccarichi invece.
+Se intendi utilizzare un'unica origine dati, considera l'utilizzo di of`BuildReport` e`BuildReport` invece si sovraccarica.
 
 Un oggetto origine dati può essere di uno dei seguenti tipi:
 
@@ -135,9 +135,9 @@ Un oggetto origine dati può essere di uno dei seguenti tipi:
 * IDataRecord
 * DataView
 * DataRowView
-* Qualsiasi altro tipo .NET arbitrario non dinamico e non anonimo
+* Qualsiasi altro tipo .NET arbitrario, non dinamico e non anonimo
 
-Per informazioni su come lavorare con origini dati di tipo diverso nei documenti modello, vedere riferimento alla sintassi del modello (https://docs.aspose.com/display/wordsnet/Template+Syntax).
+Per informazioni su come lavorare con origini dati di diverso tipo nei documenti modello, vedere il riferimento alla sintassi del modello (https://docs.aspose.com/display/wordsnet/Template+Syntax).
 
 ### Guarda anche
 

@@ -1,14 +1,14 @@
 ---
 title: ChartSeries.HasDataLabels
 second_title: Справочник по API Aspose.Words для .NET
-description: ChartSeries свойство. Получает или задает флаг указывающий отображаются ли метки данных для ряда.
+description: ChartSeries свойство. Получает или задает флаг указывающий отображаются ли метки данных для серии.
 type: docs
-weight: 60
+weight: 70
 url: /ru/net/aspose.words.drawing.charts/chartseries/hasdatalabels/
 ---
 ## ChartSeries.HasDataLabels property
 
-Получает или задает флаг, указывающий, отображаются ли метки данных для ряда.
+Получает или задает флаг, указывающий, отображаются ли метки данных для серии.
 
 ```csharp
 public bool HasDataLabels { get; set; }

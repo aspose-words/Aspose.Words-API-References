@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertCell
 second_title: Aspose.Words für .NET-API-Referenz
 description: DocumentBuilder methode. Fügt eine Tabellenzelle in das Dokument ein.
 type: docs
-weight: 250
+weight: 270
 url: /de/net/aspose.words/documentbuilder/insertcell/
 ---
 ## DocumentBuilder.InsertCell method
@@ -20,13 +20,13 @@ Der gerade eingefügte Zellknoten.
 
 ### Bemerkungen
 
-Um einen Tisch zu eröffnen, rufen Sie einfach an **Zelle einfügen** . Danach werden alle Inhalte, die Sie mit anderen Methoden der hinzufügen[`DocumentBuilder`](../) Klasse wird der aktuellen Zelle hinzugefügt.
+Um einen Tisch zu eröffnen, rufen Sie einfach an`InsertCell` . Danach werden alle Inhalte, die Sie mit anderen Methoden hinzufügen, hinzugefügt[`DocumentBuilder`](../) Die Klasse wird zur aktuellen Zelle hinzugefügt.
 
-Um eine neue Zelle in derselben Zeile zu beginnen, rufen Sie auf **Zelle einfügen** wieder.
+Um eine neue Zelle in derselben Zeile zu beginnen, rufen Sie auf`InsertCell` wieder.
 
 Um einen Tabellenzeilenaufruf zu beenden[`EndRow`](../endrow/).
 
-Verwenden Sie die[`CellFormat`](../cellformat/)-Eigenschaft zum Angeben der Zellenformatierung.
+Benutzen Sie die[`CellFormat`](../cellformat/)Eigenschaft zum Festlegen der Zellenformatierung.
 
 ### Beispiele
 
@@ -36,14 +36,14 @@ Zeigt, wie Sie mit einem Document Builder eine Tabelle erstellen.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Beginne die Tabelle und fülle dann die erste Zeile mit zwei Zellen.
+// Starten Sie die Tabelle und füllen Sie dann die erste Zeile mit zwei Zellen.
 builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, Cell 1.");
 builder.InsertCell();
 builder.Write("Row 1, Cell 2.");
 
-// Die "EndRow"-Methode des Builders aufrufen, um eine neue Zeile zu beginnen.
+// Rufen Sie die „EndRow“-Methode des Builders auf, um eine neue Zeile zu beginnen.
 builder.EndRow();
 builder.InsertCell();
 builder.Write("Row 2, Cell 1.");
@@ -54,7 +54,7 @@ builder.EndTable();
 doc.Save(ArtifactsDir + "DocumentBuilder.CreateTable.docx");
 ```
 
-Zeigt, wie eine Tabelle mit benutzerdefinierten Rahmen erstellt wird.
+Zeigt, wie man eine Tabelle mit benutzerdefinierten Rändern erstellt.
 
 ```csharp
 Document doc = new Document();
@@ -86,9 +86,9 @@ builder.InsertCell();
 builder.Write("Row 1, Col 2");
 builder.EndRow();
 
-// Wenn Sie die Formatierung ändern, wird sie auf die aktuelle Zelle angewendet,
-// und alle neuen Zellen, die wir danach mit dem Builder erstellen.
-// Dies wirkt sich nicht auf die zuvor hinzugefügten Zellen aus.
+// Wenn Sie die Formatierung ändern, wird sie auf die aktuelle Zelle angewendet.
+// und alle neuen Zellen, die wir anschließend mit dem Builder erstellen.
+// Dies hat keine Auswirkungen auf die Zellen, die wir zuvor hinzugefügt haben.
 builder.CellFormat.Shading.ClearFormatting();
 
 builder.InsertCell();
@@ -99,7 +99,7 @@ builder.Write("Row 2, Col 2");
 
 builder.EndRow();
 
-// Erhöhen Sie die Zeilenhöhe, um sie an den vertikalen Text anzupassen.
+// Zeilenhöhe erhöhen, um sie an den vertikalen Text anzupassen.
 builder.InsertCell();
 builder.RowFormat.Height = 150;
 builder.CellFormat.Orientation = TextOrientation.Upward;

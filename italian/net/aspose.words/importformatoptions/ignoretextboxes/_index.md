@@ -1,14 +1,14 @@
 ---
 title: ImportFormatOptions.IgnoreTextBoxes
 second_title: Aspose.Words per .NET API Reference
-description: ImportFormatOptions proprietà. Ottiene o imposta un valore booleano che specifica la formattazione di origine del contenuto delle caselle di testo ignorata seKeepSourceFormatting viene utilizzata la modalità. Il valore predefinito èVERO .
+description: ImportFormatOptions proprietà. Ottiene o imposta un valore booleano che specifica che la formattazione di origine del contenuto delle caselle di testo viene ignorata seKeepSourceFormatting viene utilizzata la modalità. Il valore predefinito èVERO .
 type: docs
-weight: 40
+weight: 50
 url: /it/net/aspose.words/importformatoptions/ignoretextboxes/
 ---
 ## ImportFormatOptions.IgnoreTextBoxes property
 
-Ottiene o imposta un valore booleano che specifica la formattazione di origine del contenuto delle caselle di testo ignorata seKeepSourceFormatting viene utilizzata la modalità. Il valore predefinito è`VERO` .
+Ottiene o imposta un valore booleano che specifica che la formattazione di origine del contenuto delle caselle di testo viene ignorata seKeepSourceFormatting viene utilizzata la modalità. Il valore predefinito è`VERO` .
 
 ```csharp
 public bool IgnoreTextBoxes { get; set; }
@@ -19,7 +19,7 @@ public bool IgnoreTextBoxes { get; set; }
 Mostra come gestire la formattazione della casella di testo durante l'aggiunta di un documento.
 
 ```csharp
-// Crea un documento in cui verranno inseriti i nodi di un altro documento.
+// Crea un documento in cui saranno inseriti i nodi di un altro documento.
 Document dstDoc = new Document();
 DocumentBuilder builder = new DocumentBuilder(dstDoc);
 
@@ -35,13 +35,13 @@ builder.ParagraphFormat.Style.Font.Name = "Courier New";
 builder.ParagraphFormat.Style.Font.Size = 24;
 builder.Write("Textbox contents");
 
-// Imposta un flag per specificare se cancellare o mantenere la formattazione della casella di testo
+// Imposta un flag per specificare se cancellare o preservare la formattazione della casella di testo
 // durante l'importazione in altri documenti.
 ImportFormatOptions importFormatOptions = new ImportFormatOptions();
 importFormatOptions.IgnoreTextBoxes = ignoreTextBoxes;
 
-// Importa la casella di testo dal documento di origine nel documento di destinazione,
-// e quindi verificare se abbiamo conservato lo stile del suo contenuto testuale.
+// Importa la casella di testo dal documento di origine al documento di destinazione,
+// e poi verifichiamo se abbiamo preservato lo stile dei suoi contenuti testuali.
 NodeImporter importer = new NodeImporter(srcDoc, dstDoc, ImportFormatMode.KeepSourceFormatting, importFormatOptions);
 Shape importedTextBox = (Shape)importer.ImportNode(textBox, true);
 dstDoc.FirstSection.Body.Paragraphs[1].AppendChild(importedTextBox);

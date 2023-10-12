@@ -1,14 +1,14 @@
 ---
 title: HyphenationOptions.HyphenateCaps
 second_title: Aspose.Words per .NET API Reference
-description: HyphenationOptions proprietà. Ottiene o imposta il valore che determina se le parole scritte con tutte le lettere maiuscole devono essere tratteggiate. Il valore predefinito per questa proprietà è VERO .
+description: HyphenationOptions proprietà. Ottiene o imposta un valore che determina se le parole scritte in maiuscolo sono sillabate. Il valore predefinito per questa proprietà èVERO .
 type: docs
 weight: 40
 url: /it/net/aspose.words.settings/hyphenationoptions/hyphenatecaps/
 ---
 ## HyphenationOptions.HyphenateCaps property
 
-Ottiene o imposta il valore che determina se le parole scritte con tutte le lettere maiuscole devono essere tratteggiate. Il valore predefinito per questa proprietà è **VERO** .
+Ottiene o imposta un valore che determina se le parole scritte in maiuscolo sono sillabate. Il valore predefinito per questa proprietà è`VERO` .
 
 ```csharp
 public bool HyphenateCaps { get; set; }

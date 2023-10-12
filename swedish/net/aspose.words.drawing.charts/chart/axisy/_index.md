@@ -3,7 +3,7 @@ title: Chart.AxisY
 second_title: Aspose.Words för .NET API Referens
 description: Chart fast egendom. Ger tillgång till egenskaperna för Yaxeln i diagrammet.
 type: docs
-weight: 20
+weight: 30
 url: /sv/net/aspose.words.drawing.charts/chart/axisy/
 ---
 ## Chart.AxisY property

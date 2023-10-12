@@ -3,7 +3,7 @@ title: CellFormat.VerticalAlignment
 second_title: Aspose.Words för .NET API Referens
 description: CellFormat fast egendom. Returnerar eller ställer in den vertikala justeringen av text i cellen.
 type: docs
-weight: 110
+weight: 120
 url: /sv/net/aspose.words.tables/cellformat/verticalalignment/
 ---
 ## CellFormat.VerticalAlignment property

@@ -1,14 +1,14 @@
 ---
 title: FontSubstitutionSettings.FontInfoSubstitution
 second_title: Aspose.Words für .NET-API-Referenz
-description: FontSubstitutionSettings eigendom. Einstellungen im Zusammenhang mit der Ersetzungsregel für Schriftinformationen.
+description: FontSubstitutionSettings eigendom. Einstellungen im Zusammenhang mit der Regel zum Ersetzen von Schriftartinformationen.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fonts/fontsubstitutionsettings/fontinfosubstitution/
 ---
 ## FontSubstitutionSettings.FontInfoSubstitution property
 
-Einstellungen im Zusammenhang mit der Ersetzungsregel für Schriftinformationen.
+Einstellungen im Zusammenhang mit der Regel zum Ersetzen von Schriftartinformationen.
 
 ```csharp
 public FontInfoSubstitutionRule FontInfoSubstitution { get; }
@@ -19,7 +19,6 @@ public FontInfoSubstitutionRule FontInfoSubstitution { get; }
 Zeigt, wie die Eigenschaft festgelegt wird, um die beste Übereinstimmung für eine fehlende Schriftart aus den verfügbaren Schriftartquellen zu finden.
 
 ```csharp
-[Test]
 public void EnableFontSubstitution()
 {
     // Öffnen Sie ein Dokument, das Text enthält, der mit einer Schriftart formatiert ist, die in keiner unserer Schriftartquellen vorhanden ist.
@@ -35,7 +34,10 @@ public void EnableFontSubstitution()
     ;
     fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 
-    // Wir erhalten eine Schriftersetzungswarnung, wenn wir ein Dokument mit einer fehlenden Schrift speichern.
+    // Nach der Schriftartersetzung sollten die ursprünglichen Schriftartmetriken verwendet werden.
+    doc.LayoutOptions.KeepOriginalFontMetrics = true;
+
+    // Wir erhalten eine Warnung zur Schriftartersetzung, wenn wir ein Dokument mit einer fehlenden Schriftart speichern.
     doc.FontSettings = fontSettings;
     doc.Save(ArtifactsDir + "FontSettings.EnableFontSubstitution.pdf");
 
@@ -57,7 +59,7 @@ public void EnableFontSubstitution()
 public class HandleDocumentSubstitutionWarnings : IWarningCallback
 {
     /// <summary>
-    /// Wird jedes Mal aufgerufen, wenn während des Ladens/Speicherns eine Warnung auftritt.
+    /// Wird jedes Mal aufgerufen, wenn beim Laden/Speichern eine Warnung auftritt.
     /// </summary>
     public void Warning(WarningInfo info)
     {

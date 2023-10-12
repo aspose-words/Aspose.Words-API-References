@@ -1,14 +1,14 @@
 ---
 title: MemoryFontSource.MemoryFontSource
 second_title: Aspose.Words per .NET API Reference
-description: MemoryFontSource costruttore. Tor.
+description: MemoryFontSource costruttore. Ctor.
 type: docs
 weight: 10
 url: /it/net/aspose.words.fonts/memoryfontsource/memoryfontsource/
 ---
 ## MemoryFontSource(byte[]) {#constructor}
 
-Tor.
+Ctor.
 
 ```csharp
 public MemoryFontSource(byte[] fontData)
@@ -20,7 +20,7 @@ public MemoryFontSource(byte[] fontData)
 
 ### Esempi
 
-Mostra come utilizzare una matrice di byte con i dati di un file di font come origine di font.
+Mostra come utilizzare una matrice di byte con i dati di un file di caratteri come origine dei caratteri.
 
 ```csharp
 byte[] fontBytes = File.ReadAllBytes(MyDir + "Alte DIN 1451 Mittelschrift.ttf");
@@ -44,7 +44,7 @@ Assert.AreEqual(0, memoryFontSource.Priority);
 
 ## MemoryFontSource(byte[], int) {#constructor_1}
 
-Tor.
+Ctor.
 
 ```csharp
 public MemoryFontSource(byte[] fontData, int priority)
@@ -53,11 +53,11 @@ public MemoryFontSource(byte[] fontData, int priority)
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | fontData | Byte[] | Dati di carattere binario. |
-| priority | Int32 | Priorità origine carattere. Vedi il[`Priority`](../../fontsourcebase/priority/) descrizione della struttura per ulteriori informazioni. |
+| priority | Int32 | Priorità della fonte del carattere. Vedi il[`Priority`](../../fontsourcebase/priority/) descrizione della proprietà per ulteriori informazioni. |
 
 ### Esempi
 
-Mostra come utilizzare una matrice di byte con i dati di un file di font come origine di font.
+Mostra come utilizzare una matrice di byte con i dati di un file di caratteri come origine dei caratteri.
 
 ```csharp
 byte[] fontBytes = File.ReadAllBytes(MyDir + "Alte DIN 1451 Mittelschrift.ttf");
@@ -81,7 +81,7 @@ Assert.AreEqual(0, memoryFontSource.Priority);
 
 ## MemoryFontSource(byte[], int, string) {#constructor_2}
 
-Tor.
+Ctor.
 
 ```csharp
 public MemoryFontSource(byte[] fontData, int priority, string cacheKey)
@@ -90,15 +90,14 @@ public MemoryFontSource(byte[] fontData, int priority, string cacheKey)
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | fontData | Byte[] | Dati di carattere binario. |
-| priority | Int32 | Priorità origine carattere. Vedi il[`Priority`](../../fontsourcebase/priority/) descrizione della struttura per ulteriori informazioni. |
-| cacheKey | String | La chiave di questa fonte nella cache. Vedere[`CacheKey`](../cachekey/) descrizione della struttura per ulteriori informazioni. |
+| priority | Int32 | Priorità della fonte del carattere. Vedi il[`Priority`](../../fontsourcebase/priority/) descrizione della proprietà per ulteriori informazioni. |
+| cacheKey | String | La chiave di questa origine nella cache. Vedere[`CacheKey`](../cachekey/) descrizione della proprietà per ulteriori informazioni. |
 
 ### Esempi
 
-Mostra come accelerare il processo di inizializzazione della cache dei caratteri.
+Mostra come velocizzare il processo di inizializzazione della cache dei caratteri.
 
 ```csharp
-[Test]
 public void LoadFontSearchCache()
 {
     const string cacheKey1 = "Arvo";
@@ -126,7 +125,7 @@ public void LoadFontSearchCache()
 }
 
 /// <summary>
-/// Carica i dati del font solo quando richiesto invece di salvarli in memoria
+/// Carica i dati dei caratteri solo quando richiesto invece di archiviarli nella memoria
 /// per l'intera durata dell'oggetto "FontSettings".
 /// </summary>
 private class SearchCacheStream : StreamFontSource

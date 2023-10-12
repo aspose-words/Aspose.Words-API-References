@@ -16,10 +16,9 @@ public MarkerSymbol Symbol { get; set; }
 
 ### Esempi
 
-Mostra come lavorare con i punti dati su un grafico a linee.
+Mostra come utilizzare i punti dati su un grafico a linee.
 
 ```csharp
-[Test]
 public void ChartDataPoint()
 {
     Document doc = new Document();
@@ -37,10 +36,10 @@ public void ChartDataPoint()
     foreach (ChartSeries series in chart.Series) 
         ApplyDataPoints(series, 4, MarkerSymbol.Diamond, 15);
 
-    // Appiana la linea che rappresenta la prima serie di dati.
+    // Appianare la linea che rappresenta la prima serie di dati.
     chart.Series[0].Smooth = true;
 
-    // Verifica che i punti dati per la prima serie non invertano i loro colori se il valore è negativo.
+    // Verifica che i punti dati per la prima serie non invertano i colori se il valore è negativo.
     using (IEnumerator<ChartDataPoint> enumerator = chart.Series[0].DataPoints.GetEnumerator())
     {
         while (enumerator.MoveNext())
@@ -52,7 +51,7 @@ public void ChartDataPoint()
     // Per un grafico dall'aspetto più pulito, possiamo cancellare il formato individualmente.
     chart.Series[1].DataPoints[2].ClearFormat();
 
-    // Possiamo anche rimuovere un'intera serie di punti dati contemporaneamente.
+    // Possiamo anche eliminare un'intera serie di punti dati contemporaneamente.
     chart.Series[2].DataPoints.ClearFormat();
 
     doc.Save(ArtifactsDir + "Charts.ChartDataPoint.docx");

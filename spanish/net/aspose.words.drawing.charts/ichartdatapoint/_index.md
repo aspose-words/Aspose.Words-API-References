@@ -1,14 +1,14 @@
 ---
 title: Interface IChartDataPoint
 second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Drawing.Charts.IChartDataPoint interfaz. Contiene propiedades de un solo punto de datos en el gráfico.
+description: Aspose.Words.Drawing.Charts.IChartDataPoint interfaz. Contiene propiedades de un único punto de datos en el gráfico.
 type: docs
-weight: 770
+weight: 900
 url: /es/net/aspose.words.drawing.charts/ichartdatapoint/
 ---
 ## IChartDataPoint interface
 
-Contiene propiedades de un solo punto de datos en el gráfico.
+Contiene propiedades de un único punto de datos en el gráfico.
 
 ```csharp
 public interface IChartDataPoint
@@ -18,7 +18,7 @@ public interface IChartDataPoint
 
 | Nombre | Descripción |
 | --- | --- |
-| [Bubble3D](../../aspose.words.drawing.charts/ichartdatapoint/bubble3d/) { get; set; } | Especifica si se debe aplicar un efecto 3D a las burbujas en el gráfico de burbujas. |
+| [Bubble3D](../../aspose.words.drawing.charts/ichartdatapoint/bubble3d/) { get; set; } | Especifica si las burbujas en el gráfico de burbujas deben tener aplicado un efecto 3D. |
 | [Explosion](../../aspose.words.drawing.charts/ichartdatapoint/explosion/) { get; set; } | Especifica la cantidad que se moverá el punto de datos desde el centro del pastel. Puede ser negativo, negativo significa que la propiedad no está establecida y no se debe aplicar ninguna explosión. Se aplica solo a gráficos circulares. |
 | [InvertIfNegative](../../aspose.words.drawing.charts/ichartdatapoint/invertifnegative/) { get; set; } | Especifica si el elemento principal invertirá sus colores si el valor es negativo. |
 | [Marker](../../aspose.words.drawing.charts/ichartdatapoint/marker/) { get; } | Especifica un marcador de datos. El marcador se crea automáticamente cuando se solicita. |
@@ -28,7 +28,6 @@ public interface IChartDataPoint
 Muestra cómo trabajar con puntos de datos en un gráfico de líneas.
 
 ```csharp
-[Test]
 public void ChartDataPoint()
 {
     Document doc = new Document();
@@ -42,11 +41,11 @@ public void ChartDataPoint()
     Assert.AreEqual("Series 2", chart.Series[1].Name);
     Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-    // Enfatice los puntos de datos del gráfico haciéndolos aparecer como formas de diamante.
+    // Enfatiza los puntos de datos del gráfico haciéndolos aparecer como formas de diamantes.
     foreach (ChartSeries series in chart.Series) 
         ApplyDataPoints(series, 4, MarkerSymbol.Diamond, 15);
 
-    // Suavizar la línea que representa la primera serie de datos.
+    // Suaviza la línea que representa la primera serie de datos.
     chart.Series[0].Smooth = true;
 
     // Verifique que los puntos de datos de la primera serie no inviertan sus colores si el valor es negativo.
@@ -58,7 +57,7 @@ public void ChartDataPoint()
         }
     }
 
-    // Para un gráfico de aspecto más limpio, podemos borrar el formato individualmente.
+    // Para obtener un gráfico más limpio, podemos borrar el formato individualmente.
     chart.Series[1].DataPoints[2].ClearFormat();
 
     // También podemos eliminar una serie completa de puntos de datos a la vez.
@@ -68,7 +67,7 @@ public void ChartDataPoint()
 }
 
 /// <summary>
-/// Aplica un número de puntos de datos a una serie.
+/// Aplica una cantidad de puntos de datos a una serie.
 /// </summary>
 private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, MarkerSymbol markerSymbol, int dataPointSize)
 {

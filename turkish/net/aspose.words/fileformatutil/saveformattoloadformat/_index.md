@@ -1,14 +1,14 @@
 ---
 title: FileFormatUtil.SaveFormatToLoadFormat
 second_title: Aspose.Words for .NET API Referansı
-description: FileFormatUtil yöntem. BirSaveFormat değerLoadFormat mümkünse değer.
+description: FileFormatUtil yöntem. Biri dönüştürürSaveFormat bir değerLoadFormat mümkünse değer.
 type: docs
 weight: 90
 url: /tr/net/aspose.words/fileformatutil/saveformattoloadformat/
 ---
 ## FileFormatUtil.SaveFormatToLoadFormat method
 
-Bir[`SaveFormat`](../../saveformat/) değer[`LoadFormat`](../../loadformat/) mümkünse değer.
+Bir'i dönüştürür[`SaveFormat`](../../saveformat/) bir değer[`LoadFormat`](../../loadformat/) mümkünse değer.
 
 ```csharp
 public static LoadFormat SaveFormatToLoadFormat(SaveFormat saveFormat)
@@ -27,8 +27,8 @@ Bir kaydetme biçiminin karşılık gelen yükleme biçimine nasıl dönüştür
 ```csharp
 Assert.AreEqual(LoadFormat.Html, FileFormatUtil.SaveFormatToLoadFormat(SaveFormat.Html));
 
-// Bazı dosya türlerinde, Aspose.Words kullanılarak kaydedilmemiş ancak yüklenmemiş belgeler olabilir.
-// Böyle bir türdeki kaydetme biçimini bir yükleme biçimine dönüştürmeye çalışırsak, bir istisna atılır.
+// Bazı dosya türlerinde belgeler Aspose.Words'e kaydedilebilir ancak Aspose.Words kullanılarak yüklenmeyebilir.
+// Böyle bir kayıt biçimini yükleme biçimine dönüştürmeye çalışırsak bir istisna atılır.
 Assert.Throws<ArgumentException>(() => FileFormatUtil.SaveFormatToLoadFormat(SaveFormat.Jpeg));
 ```
 

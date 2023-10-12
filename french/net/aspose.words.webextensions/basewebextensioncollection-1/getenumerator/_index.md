@@ -16,14 +16,14 @@ public IEnumerator<T> GetEnumerator()
 
 ### Exemples
 
-Montre comment utiliser la collection d'extensions Web d'un document.
+Montre comment utiliser la collection d’extensions Web d’un document.
 
 ```csharp
 Document doc = new Document(MyDir + "Web extension.docx");
 
 Assert.AreEqual(1, doc.WebExtensionTaskPanes.Count);
 
-// Affiche toutes les propriétés de l'extension Web du document.
+// Imprime toutes les propriétés de l'extension Web du document.
 WebExtensionPropertyCollection webExtensionPropertyCollection = doc.WebExtensionTaskPanes[0].WebExtension.Properties;
 using (IEnumerator<WebExtensionProperty> enumerator = webExtensionPropertyCollection.GetEnumerator())
 {
@@ -34,7 +34,7 @@ using (IEnumerator<WebExtensionProperty> enumerator = webExtensionPropertyCollec
     }
 }
 
-// Supprimer l'extension Web.
+// Supprime l'extension Web.
 doc.WebExtensionTaskPanes.Remove(0);
 
 Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);

@@ -3,7 +3,7 @@ title: MailMergeRegionInfo.Regions
 second_title: Aspose.Words for .NET API Referansı
 description: MailMergeRegionInfo mülk. Alt bölgelerin listesini döndürür.
 type: docs
-weight: 60
+weight: 80
 url: /tr/net/aspose.words.mailmerging/mailmergeregioninfo/regions/
 ---
 ## MailMergeRegionInfo.Regions property
@@ -16,7 +16,7 @@ public IList<MailMergeRegionInfo> Regions { get; }
 
 ### Örnekler
 
-Adres mektup birleştirme bölgelerinin nasıl doğrulanacağını gösterir.
+Adres-mektup birleştirme bölgelerinin nasıl doğrulanacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Mail merge regions.docx");
@@ -24,7 +24,7 @@ Document doc = new Document(MyDir + "Mail merge regions.docx");
 // Belgede bulunan MERGEFIELD'leri içeren birleştirme bölgelerinin tam hiyerarşisini döndürür.
 MailMergeRegionInfo regionInfo = doc.MailMerge.GetRegionsHierarchy();
 
-// Belgedeki en iyi bölgeleri alın.
+// Belgedeki en önemli bölgeleri alın.
 IList<MailMergeRegionInfo> topRegions = regionInfo.Regions;
 
 Assert.AreEqual(2, topRegions.Count);
@@ -33,7 +33,7 @@ Assert.AreEqual("Region2", topRegions[1].Name);
 Assert.AreEqual(1, topRegions[0].Level);
 Assert.AreEqual(1, topRegions[1].Level);
 
-// İlk üst bölgede iç içe bölgeyi alın.
+// İlk üst bölgedeki iç içe bölgeyi al.
 IList<MailMergeRegionInfo> nestedRegions = topRegions[0].Regions;
 
 Assert.AreEqual(2, nestedRegions.Count);
@@ -42,7 +42,7 @@ Assert.AreEqual("NestedRegion2", nestedRegions[1].Name);
 Assert.AreEqual(2, nestedRegions[0].Level);
 Assert.AreEqual(2, nestedRegions[1].Level);
 
-// İlk üst bölge içindeki alanların listesini alın.
+// İlk üst bölgedeki alanların listesini alın.
 IList<Field> fieldList = topRegions[0].Fields;
 
 Assert.AreEqual(4, fieldList.Count);

@@ -3,7 +3,7 @@ title: Enum HtmlOfficeMathOutputMode
 second_title: Справочник по API Aspose.Words для .NET
 description: Aspose.Words.Saving.HtmlOfficeMathOutputMode перечисление. Указывает как Aspose.Words экспортирует OfficeMath в HTML MHTML и EPUB.
 type: docs
-weight: 4840
+weight: 5100
 url: /ru/net/aspose.words.saving/htmlofficemathoutputmode/
 ---
 ## HtmlOfficeMathOutputMode enumeration
@@ -20,23 +20,23 @@ public enum HtmlOfficeMathOutputMode
 | --- | --- | --- |
 | Image | `0` | OfficeMath преобразуется в HTML как изображение, указанное тегом &lt;img&gt;. |
 | MathML | `1` | OfficeMath преобразуется в HTML с помощью MathML. |
-| Text | `2` | OfficeMath преобразуется в HTML как последовательность запусков, указанная тегами &lt;span&gt;. |
+| Text | `2` | OfficeMath преобразуется в HTML как последовательность запусков, заданная тегами &lt;span&gt;. |
 
 ### Примеры
 
-Показывает, как указать, как экспортировать объекты Microsoft OfficeMath в HTML.
+Показывает, как указать способ экспорта объектов Microsoft OfficeMath в HTML.
 
 ```csharp
 Document doc = new Document(MyDir + "Office math.docx");
 
 // Когда мы сохраняем документ в HTML, мы можем передать объект SaveOptions
 // чтобы определить, как операция сохранения обрабатывает объекты OfficeMath.
-// Установка свойства "OfficeMathOutputMode" в "HtmlOfficeMathOutputMode.Image"
+// Установка свойства OfficeMathOutputMode в значение «HtmlOfficeMathOutputMode.Image»
 // преобразует каждый объект OfficeMath в изображение.
-// Установка свойства "OfficeMathOutputMode" в "HtmlOfficeMathOutputMode.MathML"
+// Установка свойства OfficeMathOutputMode в значение «HtmlOfficeMathOutputMode.MathML»
 // преобразует каждый объект OfficeMath в MathML.
-// Установка свойства "OfficeMathOutputMode" в "HtmlOfficeMathOutputMode.Text"
-// будет представлять каждую формулу OfficeMath с помощью обычного текста HTML.
+// Установка свойства OfficeMathOutputMode в значение «HtmlOfficeMathOutputMode.Text»
+// будет представлять каждую формулу OfficeMath, используя простой текст HTML.
 HtmlSaveOptions options = new HtmlSaveOptions { OfficeMathOutputMode = htmlOfficeMathOutputMode };
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.OfficeMathOutputMode.html", options);

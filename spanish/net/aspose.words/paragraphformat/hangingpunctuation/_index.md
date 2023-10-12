@@ -1,14 +1,14 @@
 ---
 title: ParagraphFormat.HangingPunctuation
 second_title: Referencia de API de Aspose.Words para .NET
-description: ParagraphFormat propiedad. Obtiene o establece un indicador que indica si la puntuación colgante está habilitada para el párrafo actual.
+description: ParagraphFormat propiedad. Obtiene o establece una marca que indica si la puntuación colgante está habilitada para el párrafo actual.
 type: docs
-weight: 120
+weight: 130
 url: /es/net/aspose.words/paragraphformat/hangingpunctuation/
 ---
 ## ParagraphFormat.HangingPunctuation property
 
-Obtiene o establece un indicador que indica si la puntuación colgante está habilitada para el párrafo actual.
+Obtiene o establece una marca que indica si la puntuación colgante está habilitada para el párrafo actual.
 
 ```csharp
 public bool HangingPunctuation { get; set; }

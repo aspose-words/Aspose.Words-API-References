@@ -1,14 +1,14 @@
 ---
 title: TextColumnCollection.EvenlySpaced
 second_title: Aspose.Words för .NET API Referens
-description: TextColumnCollection fast egendom. Sann om textkolumner är lika breda och jämnt fördelade.
+description: TextColumnCollection fast egendom. Sant om textkolumner är lika breda och jämnt fördelade.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/textcolumncollection/evenlyspaced/
 ---
 ## TextColumnCollection.EvenlySpaced property
 
-**Sann** om textkolumner är lika breda och jämnt fördelade.
+Sant om textkolumner är lika breda och jämnt fördelade.
 
 ```csharp
 public bool EvenlySpaced { get; set; }

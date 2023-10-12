@@ -16,7 +16,7 @@ public InterpolationMode? InterpolationMode { get; set; }
 
 ### Exemples
 
-Montre comment définir les options de qualité de rendu lors de la conversion de documents en formats d'image.
+Montre comment définir les options de qualité de rendu lors de la conversion de documents aux formats d'image.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

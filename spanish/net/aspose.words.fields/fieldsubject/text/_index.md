@@ -21,10 +21,10 @@ Muestra cómo utilizar el campo ASUNTO.
 ```csharp
 Document doc = new Document();
 
-// Establecer un valor para la propiedad integrada "Asunto" del documento.
+// Establece un valor para la propiedad incorporada "Asunto" del documento.
 doc.BuiltInDocumentProperties.Subject = "My subject";
 
-// Cree un campo SUBJECT para mostrar el valor de esa propiedad integrada.
+// Crea un campo ASUNTO para mostrar el valor de esa propiedad incorporada.
 DocumentBuilder builder = new DocumentBuilder(doc);
 FieldSubject field = (FieldSubject)builder.InsertField(FieldType.FieldSubject, true);
 field.Update();
@@ -32,8 +32,8 @@ field.Update();
 Assert.AreEqual(" SUBJECT ", field.GetFieldCode());
 Assert.AreEqual("My subject", field.Result);
 
-// Si asignamos el valor de la propiedad Texto del campo ASUNTO y lo actualizamos, el campo
-// sobrescribe el valor actual de la propiedad integrada "Asunto" con el valor de su propiedad Texto,
+// Si le damos el valor de la propiedad Texto del campo ASUNTO y lo actualizamos, el campo
+// sobrescribe el valor actual de la propiedad incorporada "Asunto" con el valor de su propiedad Texto,
 // y luego mostrar el nuevo valor.
 field.Text = "My new subject";
 field.Update();

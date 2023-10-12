@@ -16,7 +16,7 @@ public double CellSpacing { get; set; }
 
 ### Примеры
 
-Показывает, как включить интервалы между отдельными ячейками в таблице.
+Показывает, как включить интервал между отдельными ячейками в таблице.
 
 ```csharp
 Document doc = new Document();
@@ -36,21 +36,21 @@ builder.EndTable();
 
 table.CellSpacing = 3;
 
-// Установите для свойства "AllowCellSpacing" значение "true", чтобы разрешить интервалы между ячейками
-// с величиной, равной значению свойства "CellSpacing" в пунктах.
+// Установите для свойства «AllowCellSpacing» значение «true», чтобы включить интервал между ячейками
+// с величиной, равной значению свойства CellSpacing, в пунктах.
 // Установите для свойства «AllowCellSpacing» значение «false», чтобы отключить интервал между ячейками
-// и игнорируем значение свойства "CellSpacing".
+// и игнорировать значение свойства CellSpacing.
 table.AllowCellSpacing = allowCellSpacing;
 
 doc.Save(ArtifactsDir + "Table.AllowCellSpacing.html");
 
-// Настройка свойства «CellSpacing» автоматически активирует интервал между ячейками.
+// Настройка свойства CellSpacing автоматически включит интервал между ячейками.
 table.CellSpacing = 5;
 
 Assert.True(table.AllowCellSpacing);
 ```
 
-Показывает, как создавать пользовательские настройки стиля для таблицы.
+Показывает, как создать пользовательские настройки стиля для таблицы.
 
 ```csharp
 Document doc = new Document();

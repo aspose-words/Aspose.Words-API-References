@@ -1,14 +1,14 @@
 ---
 title: NodeImporter.ImportNode
 second_title: Aspose.Words لمراجع .NET API
-description: NodeImporter طريقة. يستورد عقدة من وثيقة إلى أخرى.
+description: NodeImporter طريقة. يستورد عقدة من مستند إلى آخر.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/nodeimporter/importnode/
 ---
 ## NodeImporter.ImportNode method
 
-يستورد عقدة من وثيقة إلى أخرى.
+يستورد عقدة من مستند إلى آخر.
 
 ```csharp
 public Node ImportNode(Node srcNode, bool isImportChildren)
@@ -17,26 +17,25 @@ public Node ImportNode(Node srcNode, bool isImportChildren)
 | معامل | يكتب | وصف |
 | --- | --- | --- |
 | srcNode | Node | العقدة المراد استيرادها. |
-| isImportChildren | Boolean | صحيح لاستيراد جميع العقد الفرعية بشكل متكرر ؛ خلاف ذلك ، خطأ. |
+| isImportChildren | Boolean | `حقيقي` لاستيراد كافة العقد التابعة بشكل متكرر؛ خلاف ذلك،`خطأ شنيع`. |
 
 ### قيمة الإرجاع
 
-العقدة المستنسخة والمستوردة. تنتمي العقدة إلى المستند الوجهة ، ولكن ليس لها أصل.
+العقدة المستنسخة والمستوردة. تنتمي العقدة إلى المستند الوجهة، ولكن ليس لها أصل.
 
 ### ملاحظات
 
-يؤدي استيراد عقدة إلى إنشاء نسخة من العقدة المصدر تنتمي إلى المستند المستورد. العقدة التي تم إرجاعها ليس لها أصل. لم يتم تغيير عقدة المصدر أو إزالتها من المستند الأصلي.
+يؤدي استيراد عقدة إلى إنشاء نسخة من العقدة المصدر التي تنتمي إلى مستند الاستيراد. العقدة التي تم إرجاعها ليس لها أصل. لا يتم تغيير العقدة المصدر أو إزالتها من المستند الأصلي.
 
-قبل أن يتم إدراج عقدة من مستند آخر في هذا المستند ، يجب استيرادها . أثناء الاستيراد ، تتم ترجمة الخصائص الخاصة بالمستند مثل المراجع إلى الأنماط والقوائم_ من المستند الأصلي إلى مستند الاستيراد. بعد استيراد العقدة ، يمكن إدراجها في المكان المناسب في المستند باستخدام[`InsertBefore`](../../compositenode/insertbefore/) أو [`InsertAfter`](../../compositenode/insertafter/).
+قبل أن يتم إدراج عقدة من مستند آخر في هذا المستند، يجب استيرادها. أثناء الاستيراد، تتم ترجمة الخصائص الخاصة بالمستند مثل المراجع إلى الأنماط والقوائم من المستند الأصلي إلى مستند الاستيراد. بعد استيراد العقدة، يمكن إدراجها في المكان المناسب في المستند باستخدامNode) أو Node).
 
-إذا كانت العقدة المصدر تنتمي بالفعل إلى المستند الوجهة ، فسيتم إنشاء نسخة عميقة من العقدة المصدر.
+إذا كانت العقدة المصدر تنتمي بالفعل إلى المستند الوجهة، فسيتم ببساطة إنشاء استنساخ عميق للعقدة المصدر.
 
 ### أمثلة
 
-يوضح كيفية إدراج محتويات أحد المستندات في إشارة مرجعية في مستند آخر.
+يوضح كيفية إدراج محتويات مستند واحد في إشارة مرجعية في مستند آخر.
 
 ```csharp
-[Test]
 public void InsertAtBookmark()
 {
     Document doc = new Document();
@@ -61,7 +60,7 @@ public void InsertAtBookmark()
 }
 
 /// <summary>
-/// يدخل محتويات الوثيقة بعد العقدة المحددة.
+/// إدراج محتويات المستند بعد العقدة المحددة.
 /// </summary>
 static void InsertDocument(Node insertionDestination, Document docToInsert)
 {
@@ -72,8 +71,8 @@ static void InsertDocument(Node insertionDestination, Document docToInsert)
         NodeImporter importer =
             new NodeImporter(docToInsert, insertionDestination.Document, ImportFormatMode.KeepSourceFormatting);
 
-        // حلقة خلال جميع العقد على مستوى الكتلة في جسم القسم ،
-        // ثم استنساخ وأدخل كل عقدة ليست آخر فقرة فارغة من القسم.
+        // قم بالتكرار عبر جميع العقد على مستوى الكتلة في نص القسم،
+        // ثم انسخ وأدخل كل عقدة ليست آخر فقرة فارغة في القسم.
         foreach (Section srcSection in docToInsert.Sections.OfType<Section>())
             foreach (Node srcNode in srcSection.Body)
             {

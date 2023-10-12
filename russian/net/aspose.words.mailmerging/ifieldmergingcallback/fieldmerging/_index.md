@@ -1,14 +1,14 @@
 ---
 title: IFieldMergingCallback.FieldMerging
 second_title: Справочник по API Aspose.Words для .NET
-description: IFieldMergingCallback метод. Вызывается когда механизм слияния Aspose.Words собирается вставить данные в поле слияния в документе.
+description: IFieldMergingCallback метод. Вызывается когда механизм слияния почты Aspose.Words собирается вставить данные в поле слияния в документе.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.mailmerging/ifieldmergingcallback/fieldmerging/
 ---
 ## IFieldMergingCallback.FieldMerging method
 
-Вызывается, когда механизм слияния Aspose.Words собирается вставить данные в поле слияния в документе.
+Вызывается, когда механизм слияния почты Aspose.Words собирается вставить данные в поле слияния в документе.
 
 ```csharp
 public void FieldMerging(FieldMergingArgs args)
@@ -16,7 +16,7 @@ public void FieldMerging(FieldMergingArgs args)
 
 ### Примеры
 
-Показывает, как вставить изображения, хранящиеся в поле BLOB базы данных, в отчет.
+Показывает, как вставлять в отчет изображения, хранящиеся в BLOB-поле базы данных.
 
 ```csharp
 public void ImageFromBlob()
@@ -25,14 +25,14 @@ public void ImageFromBlob()
 
     doc.MailMerge.FieldMergingCallback = new HandleMergeImageFieldFromBlob();
 
-    string connString = $"Provider=Microsoft.Jet.OLEDB.4.0;Data Source={DatabaseDir + "Northwind.mdb"};";
+    string connString = $"Provider=Microsoft.ACE.OLEDB.12.0;Data Source={DatabaseDir + "Northwind.accdb"};";
     string query = "SELECT FirstName, LastName, Title, Address, City, Region, Country, PhotoBLOB FROM Employees";
 
     using (OleDbConnection conn = new OleDbConnection(connString))
     {
         conn.Open();
 
-        // Откройте средство чтения данных, которое должно быть в режиме чтения всех записей одновременно.
+        // Открытие устройства чтения данных, которое должно находиться в режиме одновременного чтения всех записей.
         OleDbCommand cmd = new OleDbCommand(query, conn);
         IDataReader dataReader = cmd.ExecuteReader();
 
@@ -40,6 +40,7 @@ public void ImageFromBlob()
     }
 
     doc.Save(ArtifactsDir + "MailMergeEvent.ImageFromBlob.docx");
+}
 
 private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 {
@@ -49,7 +50,7 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
     }
 
     /// <summary>
-    /// Это вызывается, когда слияние встречает MERGEFIELD в документе с тегом «Image:» в его имени.
+    /// Это вызывается, когда слияние почты обнаруживает в документе MERGEFIELD с тегом «Image:» в его имени.
     /// </summary>
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs e)
     {
@@ -59,9 +60,10 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 }
 ```
 
-Показывает, как выполнить слияние почты с помощью пользовательского обратного вызова, который обрабатывает данные слияния в виде HTML-документов.
+Показывает, как выполнить слияние почты с помощью пользовательского обратного вызова, который обрабатывает данные слияния в форме документов HTML.
 
 ```csharp
+public void MergeHtml()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -91,8 +93,8 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 }
 
 /// <summary>
-/// Если слияние почты встречает MERGEFIELD, имя которого начинается с префикса "html_",
-/// этот обратный вызов анализирует свои данные слияния как содержимое HTML и добавляет результат в расположение документа MERGEFIELD.
+/// Если при слиянии почты встречается MERGEFIELD, имя которого начинается с префикса "html_",
+/// этот обратный вызов анализирует свои данные слияния как содержимое HTML и добавляет результат в местоположение документа MERGEFIELD.
 /// </summary>
 private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 {
@@ -103,13 +105,13 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
     {
         if (args.DocumentFieldName.StartsWith("html_") && args.Field.GetFieldCode().Contains("\\b"))
         {
-            // Добавляем проанализированные HTML-данные в тело документа.
+            // Добавляем проанализированные данные HTML в тело документа.
             DocumentBuilder builder = new DocumentBuilder(args.Document);
             builder.MoveToMergeField(args.DocumentFieldName);
             builder.InsertHtml((string)args.FieldValue);
 
-            // Так как мы уже вставили объединенный контент вручную,
-             // нам не нужно будет реагировать на это событие, возвращая содержимое через свойство «Текст».
+            // Поскольку мы уже вставили объединенный контент вручную,
+             // нам не нужно будет реагировать на это событие, возвращая контент через свойство «Текст».
             args.Text = string.Empty;
         }
     }

@@ -16,7 +16,7 @@ public string Password { get; set; }
 
 ### Osservazioni
 
-Per salvare il documento senza crittografia questa proprietà dovrebbe essere una stringa nulla o vuota.
+Per salvare il documento senza crittografia, questa proprietà dovrebbe essere`nullo` o stringa vuota.
 
 ### Esempi
 
@@ -28,7 +28,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
 // Crea un nuovo OdtSaveOptions e passa "SaveFormat.Odt",
-// o "SaveFormat.Ott" come formato in cui salvare il documento. 
+ // o "SaveFormat.Ott" come formato in cui salvare il documento.
 OdtSaveOptions saveOptions = new OdtSaveOptions(saveFormat);
 saveOptions.Password = "@sposeEncrypted_1145";
 

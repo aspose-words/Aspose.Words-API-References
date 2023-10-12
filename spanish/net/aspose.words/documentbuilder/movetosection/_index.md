@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.MoveToSection
 second_title: Referencia de API de Aspose.Words para .NET
-description: DocumentBuilder método. Mueve el cursor al principio del cuerpo en una sección específica.
+description: DocumentBuilder método. Mueve el cursor al principio del cuerpo en una sección especificada.
 type: docs
-weight: 550
+weight: 580
 url: /es/net/aspose.words/documentbuilder/movetosection/
 ---
 ## DocumentBuilder.MoveToSection method
 
-Mueve el cursor al principio del cuerpo en una sección específica.
+Mueve el cursor al principio del cuerpo en una sección especificada.
 
 ```csharp
 public void MoveToSection(int sectionIndex)
@@ -16,13 +16,13 @@ public void MoveToSection(int sectionIndex)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| sectionIndex | Int32 | El índice de la sección a la que se va a mover. |
+| sectionIndex | Int32 | El índice de la sección a la que pasar. |
 
 ### Observaciones
 
-Cuando sectionIndex es mayor o igual a 0, especifica un índice from el comienzo del documento, siendo 0 la primera sección. Cuando sectionIndex es menor que 0, especificó un índice desde el final del documento, siendo -1 la última sección.
+Cuando*sectionIndex* es mayor o igual a 0, especifica un índice desde el comienzo del documento siendo 0 la primera sección. Cuando*sectionIndex* es menor que 0, , especificó un índice desde el final del documento, siendo -1 la última sección.
 
-El cursor se mueve al primer párrafo en el **Cuerpo** de la sección especificada.
+El cursor se mueve al primer párrafo del[`Body`](../../body/) de la sección especificada.
 
 ### Ejemplos
 
@@ -32,7 +32,7 @@ Muestra cómo crear encabezados y pies de página en un documento usando Documen
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Especificar que queremos encabezados y pies de página diferentes para las primeras páginas, pares e impares.
+// Especifica que queremos encabezados y pies de página diferentes para las primeras páginas, pares e impares.
 builder.PageSetup.DifferentFirstPageHeaderFooter = true;
 builder.PageSetup.OddAndEvenPagesHeaderFooter = true;
 

@@ -1,14 +1,16 @@
 ---
 title: Class PageLayoutCallbackArgs
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Layout.PageLayoutCallbackArgs فصل. تم تمرير وسيطة إلىNotify
+description: Aspose.Words.Layout.PageLayoutCallbackArgs فصل. تم تمرير وسيطةNotify
 type: docs
-weight: 3160
+weight: 3360
 url: /ar/net/aspose.words.layout/pagelayoutcallbackargs/
 ---
 ## PageLayoutCallbackArgs class
 
-تم تمرير وسيطة إلى[`Notify`](../ipagelayoutcallback/notify/)
+تم تمرير وسيطة[`Notify`](../ipagelayoutcallback/notify/)
+
+لمعرفة المزيد، قم بزيارة[التحويل إلى تنسيق الصفحة الثابتة](https://docs.aspose.com/words/net/converting-to-fixed-page-format/) مقالة توثيقية.
 
 ```csharp
 public class PageLayoutCallbackArgs
@@ -18,9 +20,9 @@ public class PageLayoutCallbackArgs
 
 | اسم | وصف |
 | --- | --- |
-| [Document](../../aspose.words.layout/pagelayoutcallbackargs/document/) { get; } | يحصل على المستند. |
-| [Event](../../aspose.words.layout/pagelayoutcallbackargs/event/) { get; } | يحصل على الحدث. |
-| [PageIndex](../../aspose.words.layout/pagelayoutcallbackargs/pageindex/) { get; } | الحصول على فهرس للصفحة على أساس 0 في المستند الذي يتعلق به هذا الحدث . إرجاع قيمة سلبية في حالة عدم وجود صفحة مرتبطة ، أو إذا تمت إزالة الصفحة أثناء إعادة التدفق . |
+| [Document](../../aspose.words.layout/pagelayoutcallbackargs/document/) { get; } | الحصول على المستند. |
+| [Event](../../aspose.words.layout/pagelayoutcallbackargs/event/) { get; } | الحصول على الحدث. |
+| [PageIndex](../../aspose.words.layout/pagelayoutcallbackargs/pageindex/) { get; } | الحصول على فهرس يستند إلى 0 للصفحة في المستند الذي يتعلق به هذا الحدث. إرجاع قيمة سالبة إذا لم تكن هناك صفحة مرتبطة، أو إذا تمت إزالة الصفحة أثناء إعادة التدفق. |
 
 ### أنظر أيضا
 

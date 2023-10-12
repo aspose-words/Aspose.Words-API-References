@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.SuppressSpBfAfterPgBrk
 second_title: Referencia de API de Aspose.Words para .NET
-description: CompatibilityOptions propiedad. No usar espacio antes de la primera línea después de un salto de página.
+description: CompatibilityOptions propiedad. No utilice espacio antes en la primera línea después de un salto de página.
 type: docs
 weight: 500
 url: /es/net/aspose.words.settings/compatibilityoptions/suppressspbfafterpgbrk/
 ---
 ## CompatibilityOptions.SuppressSpBfAfterPgBrk property
 
-No usar espacio antes de la primera línea después de un salto de página.
+No utilice espacio antes en la primera línea después de un salto de página.
 
 ```csharp
 public bool SuppressSpBfAfterPgBrk { get; set; }

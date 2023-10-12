@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.ResourceFolderAlias
 second_title: Aspose.Words für .NET-API-Referenz
-description: HtmlSaveOptions eigendom. Gibt den Namen des Ordners an der verwendet wird um URIs aller Ressourcen zu erstellen die in ein HTMLDokument geschrieben werden. Standard ist eine leere Zeichenfolge.
+description: HtmlSaveOptions eigendom. Gibt den Namen des Ordners an der zum Erstellen der URIs aller in ein HTMLDokument geschriebenen Ressourcen verwendet wird. Der Standardwert ist eine leere Zeichenfolge.
 type: docs
 weight: 430
 url: /de/net/aspose.words.saving/htmlsaveoptions/resourcefolderalias/
 ---
 ## HtmlSaveOptions.ResourceFolderAlias property
 
-Gibt den Namen des Ordners an, der verwendet wird, um URIs aller Ressourcen zu erstellen, die in ein HTML-Dokument geschrieben werden. Standard ist eine leere Zeichenfolge.
+Gibt den Namen des Ordners an, der zum Erstellen der URIs aller in ein HTML-Dokument geschriebenen Ressourcen verwendet wird. Der Standardwert ist eine leere Zeichenfolge.
 
 ```csharp
 public string ResourceFolderAlias { get; set; }
@@ -16,17 +16,17 @@ public string ResourceFolderAlias { get; set; }
 
 ### Bemerkungen
 
-`ResourceFolderAlias` ist der einfachste Weg, um anzugeben, wie URIs für alle Ressourcendateien aufgebaut sein sollen. Dieselben Informationen können für Bilder und Schriftarten getrennt über angegeben werden[`ImagesFolderAlias`](../imagesfolderalias/) und[`FontsFolderAlias`](../fontsfolderalias/) Eigenschaften bzw. Es gibt jedoch keine individuelle Eigenschaft für CSS.
+`ResourceFolderAlias` ist die einfachste Möglichkeit, anzugeben, wie URIs für alle Ressourcendateien erstellt werden sollen. Dieselben Informationen können für Bilder und Schriftarten separat angegeben werden über[`ImagesFolderAlias`](../imagesfolderalias/) und[`FontsFolderAlias`](../fontsfolderalias/) Eigenschaften bzw. Es gibt jedoch keine individuelle Eigenschaft für CSS.
 
-`ResourceFolderAlias` hat eine niedrigere Priorität als[`FontsFolderAlias`](../fontsfolderalias/) und[`ImagesFolderAlias`](../imagesfolderalias/) . Wenn zum Beispiel beide`ResourceFolderAlias` und[`FontsFolderAlias`](../fontsfolderalias/) angegeben sind, werden die URIs der Schriftarten mit erstellt[`FontsFolderAlias`](../fontsfolderalias/) , während URIs von Bildern und CSS mit erstellt werden`ResourceFolderAlias`.
+`ResourceFolderAlias` hat niedrigere Priorität als[`FontsFolderAlias`](../fontsfolderalias/) und[`ImagesFolderAlias`](../imagesfolderalias/) . Wenn zum Beispiel beides`ResourceFolderAlias` und[`FontsFolderAlias`](../fontsfolderalias/) angegeben sind, werden die URIs der Schriftarten mit erstellt.[`FontsFolderAlias`](../fontsfolderalias/) , während URIs von Bildern und CSS mit erstellt werden`ResourceFolderAlias`.
 
-Wenn`ResourceFolderAlias` leer ist, die[`ResourceFolder`](../resourcefolder/)Eigenschaftswert wird used verwendet, um Ressourcen-URIs zu erstellen.
+Wenn`ResourceFolderAlias` ist leer, die[`ResourceFolder`](../resourcefolder/)Der Eigenschaftswert wird verwendet , um Ressourcen-URIs zu erstellen.
 
-Wenn`ResourceFolderAlias` ist eingestellt auf '.' (Punkt), Ressourcen-URIs enthalten nur Dateinamen, ohne irgendeinen Pfad.
+Wenn`ResourceFolderAlias` ist eingestellt auf '.' (Punkt), Ressourcen-URIs enthalten nur Dateinamen, ohne einen Pfad.
 
 ### Beispiele
 
-Zeigt, wie Ordner und Ordneraliase für extern gespeicherte Ressourcen festgelegt werden, die Aspose.Words erstellt, wenn ein Dokument in HTML gespeichert wird.
+Zeigt, wie Ordner und Ordneraliase für extern gespeicherte Ressourcen festgelegt werden, die Aspose.Words beim Speichern eines Dokuments in HTML erstellt.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

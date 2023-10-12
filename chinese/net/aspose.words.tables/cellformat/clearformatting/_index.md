@@ -3,7 +3,7 @@ title: CellFormat.ClearFormatting
 second_title: Aspose.Words for .NET API 参考
 description: CellFormat 方法. 重置为默认单元格格式不改变单元格的宽度
 type: docs
-weight: 150
+weight: 160
 url: /zh/net/aspose.words.tables/cellformat/clearformatting/
 ---
 ## CellFormat.ClearFormatting method
@@ -16,7 +16,7 @@ public void ClearFormatting()
 
 ### 例子
 
-显示如何将两个表中的行合并为一个。
+演示如何将两个表中的行合并为一个表。
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");

@@ -1,14 +1,16 @@
 ---
 title: Class ChartDataLabel
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.Charts.ChartDataLabel сорт. Представляет метку данных в точке диаграммы или на линии тренда.
+description: Aspose.Words.Drawing.Charts.ChartDataLabel сорт. Представляет метку данных на точке диаграммы или линии тренда.
 type: docs
-weight: 630
+weight: 670
 url: /ru/net/aspose.words.drawing.charts/chartdatalabel/
 ---
 ## ChartDataLabel class
 
-Представляет метку данных в точке диаграммы или на линии тренда.
+Представляет метку данных на точке диаграммы или линии тренда.
+
+Чтобы узнать больше, посетите[Работа с диаграммами](https://docs.aspose.com/words/net/working-with-charts/) статья документации.
 
 ```csharp
 public class ChartDataLabel
@@ -18,25 +20,27 @@ public class ChartDataLabel
 
 | Имя | Описание |
 | --- | --- |
-| [Index](../../aspose.words.drawing.charts/chartdatalabel/index/) { get; } | Указывает индекс содержащего элемента. Этот индекс должен определять, к какой из дочерних коллекций родителя относится этот элемент. Значение по умолчанию: 0. |
-| [IsHidden](../../aspose.words.drawing.charts/chartdatalabel/ishidden/) { get; set; } | Получает/устанавливает флаг, указывающий, скрыта ли эта метка. Значение по умолчанию: **ЛОЖЬ** . |
-| [IsVisible](../../aspose.words.drawing.charts/chartdatalabel/isvisible/) { get; } | Возвращает true, если эта метка данных имеет что-то для отображения. |
+| [Font](../../aspose.words.drawing.charts/chartdatalabel/font/) { get; } | Предоставляет доступ к форматированию шрифта этой метки данных. |
+| [Format](../../aspose.words.drawing.charts/chartdatalabel/format/) { get; } | Предоставляет доступ к заполнению и форматированию строк метки данных. |
+| [Index](../../aspose.words.drawing.charts/chartdatalabel/index/) { get; } | Указывает индекс содержащего элемента. Этот индекс определяет, к какой из родительских дочерних коллекций относится этот элемент. Значение по умолчанию — 0. |
+| [IsHidden](../../aspose.words.drawing.charts/chartdatalabel/ishidden/) { get; set; } | Получает/устанавливает флаг, указывающий, скрыта ли эта метка. Значение по умолчанию:`ЛОЖЬ` . |
+| [IsVisible](../../aspose.words.drawing.charts/chartdatalabel/isvisible/) { get; } | Возвращает`истинный` если в этой метке данных есть что отображать. |
 | [NumberFormat](../../aspose.words.drawing.charts/chartdatalabel/numberformat/) { get; } | Возвращает числовой формат родительского элемента. |
-| [Separator](../../aspose.words.drawing.charts/chartdatalabel/separator/) { get; set; } | Получает или задает разделитель строк, используемый для меток данных на диаграмме. По умолчанию используется запятая, за исключением круговых диаграмм, показывающих только название категории и процентное соотношение, когда вместо этого следует использовать разрыв строки . |
-| [ShowBubbleSize](../../aspose.words.drawing.charts/chartdatalabel/showbubblesize/) { get; set; } | Позволяет указать, должен ли размер пузырька отображаться для меток данных на диаграмме. Применяется только к пузырьковым диаграммам. Значение по умолчанию — false. |
-| [ShowCategoryName](../../aspose.words.drawing.charts/chartdatalabel/showcategoryname/) { get; set; } | Позволяет указать, будет ли отображаться название категории для меток данных на диаграмме. Значение по умолчанию — false. |
-| [ShowDataLabelsRange](../../aspose.words.drawing.charts/chartdatalabel/showdatalabelsrange/) { get; set; } | Позволяет указать, будут ли значения из диапазона меток данных отображаться в метках данных. Значение по умолчанию — false. |
-| [ShowLeaderLines](../../aspose.words.drawing.charts/chartdatalabel/showleaderlines/) { get; set; } | Позволяет указать, нужно ли отображать линии выноски меток данных. Значение по умолчанию — false. |
-| [ShowLegendKey](../../aspose.words.drawing.charts/chartdatalabel/showlegendkey/) { get; set; } | Позволяет указать, должен ли отображаться ключ легенды для меток данных на диаграмме. Значение по умолчанию — false. |
-| [ShowPercentage](../../aspose.words.drawing.charts/chartdatalabel/showpercentage/) { get; set; } | Позволяет указать, будет ли отображаться процентное значение для меток данных на диаграмме. Значение по умолчанию — false. |
-| [ShowSeriesName](../../aspose.words.drawing.charts/chartdatalabel/showseriesname/) { get; set; } | Возвращает или задает логическое значение, указывающее поведение отображения имени ряда для меток данных на диаграмме. Истинно, чтобы показать название серии. Ложь скрывать. По умолчанию ложь. |
-| [ShowValue](../../aspose.words.drawing.charts/chartdatalabel/showvalue/) { get; set; } | Позволяет указать, должны ли значения отображаться в метках данных. Значение по умолчанию — false. |
+| [Separator](../../aspose.words.drawing.charts/chartdatalabel/separator/) { get; set; } | Получает или задает разделитель строк, используемый для меток данных на диаграмме. По умолчанию используется запятая, за исключением круговых диаграмм, показывающих только имя категории и процентное соотношение, когда вместо этого должен использоваться разрыв строки . |
+| [ShowBubbleSize](../../aspose.words.drawing.charts/chartdatalabel/showbubblesize/) { get; set; } | Позволяет указать, должен ли отображаться размер пузырьков для меток данных на диаграмме. Применяется только к пузырьковым диаграммам. Значение по умолчанию:`ЛОЖЬ` . |
+| [ShowCategoryName](../../aspose.words.drawing.charts/chartdatalabel/showcategoryname/) { get; set; } | Позволяет указать, должно ли имя категории отображаться для меток данных на диаграмме. Значение по умолчанию:`ЛОЖЬ` . |
+| [ShowDataLabelsRange](../../aspose.words.drawing.charts/chartdatalabel/showdatalabelsrange/) { get; set; } | Позволяет указать, будут ли значения из диапазона меток данных отображаться в метках данных. Значение по умолчанию:`ЛОЖЬ` . |
+| [ShowLeaderLines](../../aspose.words.drawing.charts/chartdatalabel/showleaderlines/) { get; set; } | Позволяет указать, нужно ли отображать выносные линии меток данных. Значение по умолчанию:`ЛОЖЬ` . |
+| [ShowLegendKey](../../aspose.words.drawing.charts/chartdatalabel/showlegendkey/) { get; set; } | Позволяет указать, должен ли отображаться ключ легенды для меток данных на диаграмме. Значение по умолчанию:`ЛОЖЬ` . |
+| [ShowPercentage](../../aspose.words.drawing.charts/chartdatalabel/showpercentage/) { get; set; } | Позволяет указать, будет ли отображаться процентное значение для меток данных на диаграмме. Значение по умолчанию:`ЛОЖЬ` . |
+| [ShowSeriesName](../../aspose.words.drawing.charts/chartdatalabel/showseriesname/) { get; set; } | Возвращает или задает логическое значение, указывающее поведение отображения имени ряда для меток данных на диаграмме. `истинный` показать название серии;`ЛОЖЬ` прятаться. По умолчанию`ЛОЖЬ` . |
+| [ShowValue](../../aspose.words.drawing.charts/chartdatalabel/showvalue/) { get; set; } | Позволяет указать, должны ли значения отображаться в метках данных. Значение по умолчанию:`ЛОЖЬ` . |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [ClearFormat](../../aspose.words.drawing.charts/chartdatalabel/clearformat/)() | Очищает формат этой метки данных. Для свойств установлены значения по умолчанию, определенные в родительской коллекции меток data . |
+| [ClearFormat](../../aspose.words.drawing.charts/chartdatalabel/clearformat/)() | Очищает формат этой метки данных. Для свойств установлены значения по умолчанию, определенные в родительской коллекции меток data . . |
 
 ### Примечания
 
@@ -47,6 +51,7 @@ public class ChartDataLabel
 Показывает, как применять метки к точкам данных на линейной диаграмме.
 
 ```csharp
+public void DataLabels()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -59,15 +64,15 @@ public class ChartDataLabel
     Assert.AreEqual("Series 2", chart.Series[1].Name);
     Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-    // Применяем метки данных к каждому ряду на диаграмме.
-    // Эти метки будут отображаться рядом с каждой точкой данных на графике и отображать ее значение.
+    // Применяем метки данных к каждой серии диаграммы.
+    // Эти метки появятся рядом с каждой точкой данных на графике и отобразят ее значение.
     foreach (ChartSeries series in chart.Series)
     {
         ApplyDataLabels(series, 4, "000.0", ", ");
         Assert.AreEqual(4, series.DataLabels.Count);
     }
 
-    // Изменить строку-разделитель для каждой метки данных в серии.
+    // Измените строку-разделитель для каждой метки данных в серии.
     using (IEnumerator<ChartDataLabel> enumerator = chart.Series[0].DataLabels.GetEnumerator())
     {
         while (enumerator.MoveNext())
@@ -80,14 +85,14 @@ public class ChartDataLabel
     // Чтобы график выглядел чище, мы можем удалить метки данных по отдельности.
     chart.Series[1].DataLabels[2].ClearFormat();
 
-    // Мы также можем сразу удалить целую серию его меток данных.
+    // Мы также можем сразу удалить целую серию меток данных.
     chart.Series[2].DataLabels.ClearFormat();
 
     doc.Save(ArtifactsDir + "Charts.DataLabels.docx");
 }
 
 /// <summary>
-/// Применить метки данных с пользовательским числовым форматом и разделителем к нескольким точкам данных в ряду.
+/// Примените метки данных с произвольным числовым форматом и разделителем к нескольким точкам данных в серии.
 /// </summary>
 private static void ApplyDataLabels(ChartSeries series, int labelsCount, string numberFormat, string separator)
 {

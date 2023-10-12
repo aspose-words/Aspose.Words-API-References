@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.InsertComboBox
 second_title: Aspose.Words for .NET API Referansı
-description: DocumentBuilder yöntem. Geçerli konuma bir birleşik giriş formu alanı ekler.
+description: DocumentBuilder yöntem. Geçerli konuma bir birleşik giriş kutusu form alanı ekler.
 type: docs
-weight: 280
+weight: 300
 url: /tr/net/aspose.words/documentbuilder/insertcombobox/
 ---
 ## DocumentBuilder.InsertComboBox method
 
-Geçerli konuma bir birleşik giriş formu alanı ekler.
+Geçerli konuma bir birleşik giriş kutusu form alanı ekler.
 
 ```csharp
 public FormField InsertComboBox(string name, string[] items, int selectedIndex)
@@ -17,7 +17,7 @@ public FormField InsertComboBox(string name, string[] items, int selectedIndex)
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | name | String | Form alanının adı. Boş bir dize olabilir. 20 karakterden uzun olan değer kesilecektir. |
-| items | String[] | ComboBox'ın öğeleri. Maksimum 25 adettir. |
+| items | String[] | ComboBox'un öğeleri. Maksimum 25 öğedir. |
 | selectedIndex | Int32 | ComboBox'ta seçilen öğenin dizini. |
 
 ### Geri dönüş değeri
@@ -26,7 +26,7 @@ Yeni eklenen form alanı düğümü.
 
 ### Notlar
 
-Form alanı için bir ad belirtirseniz, aynı ada sahip bir yer imi otomatik olarak oluşturulur.
+Form alanı için bir ad belirlerseniz aynı adla otomatik olarak bir yer imi oluşturulur.
 
 ### Örnekler
 
@@ -36,7 +36,7 @@ Bir belgeye birleşik giriş kutusu form alanının nasıl ekleneceğini göster
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Kullanıcının menüden öğelerden birini seçmesini isteyen bir form ekleyin.
+// Kullanıcının menüdeki öğelerden birini seçmesini isteyen bir form ekleyin.
 builder.Write("Pick a fruit: ");
 string[] items = { "Apple", "Banana", "Cherry" };
 builder.InsertComboBox("DropDown", items, 0);
@@ -49,13 +49,13 @@ Form alanlarının nasıl oluşturulacağını gösterir.
 ```csharp
 DocumentBuilder builder = new DocumentBuilder();
 
-// Form alanları, kullanıcıdan değerleri girmesi istenerek etkileşimde bulunabileceği belgedeki nesnelerdir.
+// Form alanları, belgedeki, kullanıcının değer girmesi istenerek etkileşimde bulunabileceği nesnelerdir.
 // Bunları bir belge oluşturucu kullanarak oluşturabiliriz ve aşağıda bunu yapmanın iki yolu vardır.
 // 1 - Temel metin girişi:
 builder.InsertTextInput("My text input", TextFormFieldType.Regular, 
     "", "Enter your name here", 30);
 
-// 2 - Komut istemi metni ve bir dizi olası değer içeren birleşik giriş kutusu:
+// 2 - Bilgi istemi metnini ve bir dizi olası değeri içeren birleşik giriş kutusu:
 string[] items =
 {
     "-- Select your favorite footwear --", "Sneakers", "Oxfords", "Flip-flops", "Other"

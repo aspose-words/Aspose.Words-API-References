@@ -16,7 +16,7 @@ public DocumentBuilder()
 
 ### Anmärkningar
 
-Skapar en ny **DocumentBuilder** objekt och fäster det på ett nytt[`Document`](../document/) objekt.
+Skapar en ny[`DocumentBuilder`](../) objekt och fäster det på ett nytt[`Document`](../../document/) objekt.
 
 ### Exempel
 
@@ -55,11 +55,11 @@ public DocumentBuilder(Document doc)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| doc | Document | Dokumentobjektet som ska bifogas. |
+| doc | Document | De[`Document`](../../document/) föremål att fästa vid. |
 
 ### Anmärkningar
 
-Skapar en ny **DocumentBuilder** objekt, ansluter till det angivna[`Document`](../document/) object. Markören är placerad i början av dokumentet.
+Skapar en ny[`DocumentBuilder`](../) objekt, ansluter till det angivna[`Document`](../../document/)object. Markören är placerad i början av dokumentet.
 
 ### Exempel
 

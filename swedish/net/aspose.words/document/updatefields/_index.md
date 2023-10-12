@@ -3,7 +3,7 @@ title: Document.UpdateFields
 second_title: Aspose.Words för .NET API Referens
 description: Document metod. Uppdaterar värdena för fält i hela dokumentet.
 type: docs
-weight: 730
+weight: 770
 url: /sv/net/aspose.words/document/updatefields/
 ---
 ## Document.UpdateFields method
@@ -16,7 +16,7 @@ public void UpdateFields()
 
 ### Anmärkningar
 
-När du öppnar, ändrar och sedan sparar ett dokument uppdaterar Aspose.Words inte fält automatiskt, det håller dem intakta. Därför skulle du vanligtvis vilja anropa den här metoden innan du sparar om du har modifierat document programmatiskt och vill försäkra dig om de korrekta (beräknade) fältvärdena visas i det sparade dokumentet.
+När du öppnar, ändrar och sedan sparar ett dokument uppdaterar Aspose.Words inte fält automatiskt, det behåller dem intakta. Därför skulle du vanligtvis vilja anropa den här metoden innan du sparar om du har modifierat document programmatiskt och vill försäkra dig om de korrekta (beräknade) fältvärdena visas i det sparade dokumentet.
 
 Det finns inget behov av att uppdatera fält efter att ha kört en sammankoppling eftersom brevkoppling är ett slags fält update och uppdaterar automatiskt alla fält i dokumentet.
 
@@ -77,7 +77,7 @@ UserInformation userInformation = new UserInformation
 doc.FieldOptions.CurrentUser = userInformation;
 
 // Infoga fälten USERNAME, USERINITIALS och USERADDRESS, som visar värden på
-// respektive egenskaper för UserInformation-objektet som vi har skapat ovan. 
+ // respektive egenskaper för UserInformation-objektet som vi har skapat ovan.
 Assert.AreEqual(userInformation.Name, builder.InsertField(" USERNAME ").Result);
 Assert.AreEqual(userInformation.Initials, builder.InsertField(" USERINITIALS ").Result);
 Assert.AreEqual(userInformation.Address, builder.InsertField(" USERADDRESS ").Result);

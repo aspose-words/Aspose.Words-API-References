@@ -3,12 +3,14 @@ title: Class WarningInfo
 second_title: Aspose.Words for .NET API 参考
 description: Aspose.Words.WarningInfo 班级. 包含有关 Aspose.Words 在文档加载或保存期间发出的警告的信息
 type: docs
-weight: 6320
+weight: 6630
 url: /zh/net/aspose.words/warninginfo/
 ---
 ## WarningInfo class
 
 包含有关 Aspose.Words 在文档加载或保存期间发出的警告的信息。
+
+要了解更多信息，请访问[使用文档编程](https://docs.aspose.com/words/net/programming-with-documents/)文档文章。
 
 ```csharp
 public class WarningInfo
@@ -24,17 +26,16 @@ public class WarningInfo
 
 ### 评论
 
-您不创建此类的实例。此类的对象是 created 并由 Aspose.Words 传递给[`Warning`](../iwarningcallback/warning/)方法。
+您不创建此类的实例。此类的对象被创建 并由Aspose.Words传递到[`Warning`](../iwarningcallback/warning/)方法。
 
 ### 例子
 
 演示如何设置属性以从可用字体源中查找缺失字体的最接近匹配项。
 
 ```csharp
-[Test]
 public void EnableFontSubstitution()
 {
-    // 打开一个文档，其中包含使用我们的任何字体源中都不存在的字体格式化的文本。
+    // 打开一个文档，其中包含使用我们任何字体源中不存在的字体格式化的文本。
     Document doc = new Document(MyDir + "Missing font.docx");
 
     // 分配一个回调来处理字体替换警告。
@@ -46,6 +47,9 @@ public void EnableFontSubstitution()
     fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
     ;
     fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
+
+    // 字体替换后应使用原始字体规格。
+    doc.LayoutOptions.KeepOriginalFontMetrics = true;
 
     // 如果我们保存缺少字体的文档，我们将收到字体替换警告。
     doc.FontSettings = fontSettings;
@@ -69,7 +73,7 @@ public void EnableFontSubstitution()
 public class HandleDocumentSubstitutionWarnings : IWarningCallback
 {
     /// <summary>
-    /// 在加载/保存过程中每次出现警告时调用。
+    /// 每次加载/保存期间发生警告时调用。
     /// </summary>
     public void Warning(WarningInfo info)
     {

@@ -1,14 +1,14 @@
 ---
 title: Font.LocaleIdFarEast
 second_title: Aspose.Words لمراجع .NET API
-description: Font ملكية. الحصول على أو تعيين معرف الإعدادات المحلية اللغة للأحرف الآسيوية المنسقة.
+description: Font ملكية. الحصول على أو تعيين المعرف المحلي اللغة للأحرف الآسيوية المنسقة.
 type: docs
 weight: 220
 url: /ar/net/aspose.words/font/localeidfareast/
 ---
 ## Font.LocaleIdFarEast property
 
-الحصول على أو تعيين معرف الإعدادات المحلية (اللغة) للأحرف الآسيوية المنسقة.
+الحصول على أو تعيين المعرف المحلي (اللغة) للأحرف الآسيوية المنسقة.
 
 ```csharp
 public int LocaleIdFarEast { get; set; }
@@ -16,31 +16,31 @@ public int LocaleIdFarEast { get; set; }
 
 ### ملاحظات
 
-للحصول على قائمة معرفات الإعدادات المحلية ، راجع https://msdn.microsoft.com/en-us/library/cc233965.aspx
+للحصول على قائمة المعرفات المحلية، راجع https://msdn.microsoft.com/en-us/library/cc233965.aspx
 
 ### أمثلة
 
-يوضح كيفية إدراج نص وتنسيقه بلغة الشرق الأقصى.
+يوضح كيفية إدراج النص وتنسيقه بلغة الشرق الأقصى.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// حدد إعدادات الخط التي سيطبقها منشئ المستندات على أي نص يتم إدراجه.
+// حدد إعدادات الخط التي سيطبقها منشئ المستندات على أي نص يقوم بإدراجه.
 builder.Font.Name = "Courier New";
 builder.Font.LocaleId = new CultureInfo("en-US", false).LCID;
 
-// اسم مكافئات "FarEast" للخط والإعدادات المحلية.
-// إذا قام المنشئ بإدراج الأحرف الآسيوية مع تكوين الخط هذا ، فحينئذٍ تحتوي كل عملية تشغيل على
-// ستعرض هذه الأحرف لهم باستخدام الخط / اللغة "FarEast" بدلاً من الافتراضي.
-// قد يكون هذا مفيدًا عندما لا يحتوي الخط الغربي على تمثيلات مثالية للأحرف الآسيوية.
+// قم بتسمية "FarEast" المكافئة للخط واللغة الخاصة بنا.
+// إذا قام المنشئ بإدراج أحرف آسيوية بتكوين الخط هذا، فكل تشغيل يحتوي على
+// ستعرض هذه الأحرف باستخدام الخط/اللغة المحلية "FarEast" بدلاً من الإعداد الافتراضي.
+// قد يكون هذا مفيدًا عندما لا يحتوي الخط الغربي على تمثيل مثالي للأحرف الآسيوية.
 builder.Font.NameFarEast = "SimSun";
 builder.Font.LocaleIdFarEast = new CultureInfo("zh-CN", false).LCID;
 
-// سيتم عرض هذا النص بالخط الافتراضي / اللغة المحلية.
+// سيتم عرض هذا النص بالخط/اللغة الافتراضية.
 builder.Writeln("Hello world!");
 
-// نظرًا لأن هذه أحرف آسيوية ، فسيؤدي هذا التشغيل إلى تطبيق مكافئات الخط / الإعدادات المحلية الخاصة بنا "FarEast".
+// نظرًا لأن هذه الأحرف آسيوية، فإن هذا التشغيل سيطبق مرادفات الخط/اللغة المحلية لـ "FarEast".
 builder.Writeln("你好世界");
 
 doc.Save(ArtifactsDir + "Font.FarEast.docx");

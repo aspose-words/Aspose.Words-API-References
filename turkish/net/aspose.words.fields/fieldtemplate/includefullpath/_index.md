@@ -16,14 +16,14 @@ public bool IncludeFullPath { get; set; }
 
 ### Örnekler
 
-Bir belge şablonunun yerel dosya sistemi konumunu görüntülemek için ŞABLON alanının nasıl kullanılacağını gösterir.
+Bir belgenin şablonunun yerel dosya sistemi konumunu görüntülemek için ŞABLON alanının nasıl kullanılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Alanları kullanarak bir şablon adı belirleyebiliriz. Bu özellik, "doc.AttachedTemplate" boş olduğunda kullanılır.
-// Bu özellik boşsa, "Normal.dotm" varsayılan şablon dosya adı kullanılır.
+// Alanları kullanarak bir şablon adı belirleyebiliriz. Bu özellik "doc.AttachedTemplate" boş olduğunda kullanılır.
+// Bu özellik boşsa, varsayılan şablon dosyası adı "Normal.dotm" kullanılır.
 doc.FieldOptions.TemplateName = string.Empty;
 
 FieldTemplate field = (FieldTemplate)builder.InsertField(FieldType.FieldTemplate, false);

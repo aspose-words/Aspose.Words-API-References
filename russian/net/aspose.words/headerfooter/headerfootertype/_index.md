@@ -1,14 +1,14 @@
 ---
 title: HeaderFooter.HeaderFooterType
 second_title: Справочник по API Aspose.Words для .NET
-description: HeaderFooter свойство. Получает тип этого верхнего/нижнего колонтитула.
+description: HeaderFooter свойство. Получает тип верхнего/нижнего колонтитула.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/headerfooter/headerfootertype/
 ---
 ## HeaderFooter.HeaderFooterType property
 
-Получает тип этого верхнего/нижнего колонтитула.
+Получает тип верхнего/нижнего колонтитула.
 
 ```csharp
 public HeaderFooterType HeaderFooterType { get; }
@@ -22,7 +22,7 @@ public HeaderFooterType HeaderFooterType { get; }
 Document doc = new Document();
 
 // Создаем заголовок и добавляем к нему абзац. Текст в этом абзаце
-// появится в верхней части каждой страницы этого раздела над основным текстом.
+// появится вверху каждой страницы этого раздела, над основным текстом.
 HeaderFooter header = new HeaderFooter(doc, HeaderFooterType.HeaderPrimary);
 doc.FirstSection.HeadersFooters.Add(header);
 

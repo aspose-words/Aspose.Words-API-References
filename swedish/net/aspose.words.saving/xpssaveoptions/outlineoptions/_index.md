@@ -16,7 +16,7 @@ public OutlineOptions OutlineOptions { get; }
 
 ### Anmärkningar
 
-Observera att alternativet ExpandedOutlineLevels inte fungerar när du sparar till XPS.
+Anteckna det[`ExpandedOutlineLevels`](../../outlineoptions/expandedoutlinelevels/) alternativet fungerar inte när du sparar till XPS.
 
 ### Exempel
 

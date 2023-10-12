@@ -19,11 +19,12 @@ public string LeftExpression { get; set; }
 Montre comment utiliser les champs NEXT/NEXTIF pour fusionner plusieurs lignes en une seule page lors d'un publipostage.
 
 ```csharp
+public void FieldNext()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Crée une source de données pour notre publipostage avec 3 lignes.
+    // Créez une source de données pour notre publipostage avec 3 lignes.
     // Un publipostage qui utilise ce tableau créerait normalement un document de 3 pages.
     DataTable table = new DataTable("Employees");
     table.Columns.Add("Courtesy Title");
@@ -37,19 +38,19 @@ Montre comment utiliser les champs NEXT/NEXTIF pour fusionner plusieurs lignes e
 
     // Si nous avons plusieurs champs de fusion avec le même FieldName,
     // ils recevront les données de la même ligne de la source de données et afficheront la même valeur après la fusion.
-    // Un champ NEXT indique instantanément au publipostage de descendre d'une ligne,
-    // ce qui signifie que tous les champs MERGEFIELD qui suivent le champ NEXT recevront les données de la ligne suivante.
+    // Un champ NEXT indique au publipostage de descendre instantanément d'une ligne,
+    // ce qui signifie que tous les MERGEFIELD qui suivent le champ NEXT recevront les données de la ligne suivante.
     // Assurez-vous de ne jamais essayer de passer à la ligne suivante alors que vous êtes déjà sur la dernière ligne.
     FieldNext fieldNext = (FieldNext)builder.InsertField(FieldType.FieldNext, true);
 
     Assert.AreEqual(" NEXT ", fieldNext.GetFieldCode());
 
-    // Après la fusion, les valeurs de source de données que ces MERGEFIELD acceptent
-     // se retrouvera sur la même page que les CHAMPS DE FUSION ci-dessus.
+    // Après la fusion, les valeurs de source de données acceptées par ces MERGEFIELD
+     // se retrouvera sur la même page que les MERGEFIELD ci-dessus.
     InsertMergeFields(builder, "Second row: ");
 
     // Un champ NEXTIF a la même fonction qu'un champ NEXT,
-    // mais il passe à la ligne suivante uniquement si une déclaration construite par les 3 propriétés suivantes est vraie.
+    // mais il passe à la ligne suivante uniquement si une instruction construite par les 3 propriétés suivantes est vraie.
     FieldNextIf fieldNextIf = (FieldNextIf)builder.InsertField(FieldType.FieldNextIf, true);
     fieldNextIf.LeftExpression = "5";
     fieldNextIf.RightExpression = "2 + 3";
@@ -64,12 +65,13 @@ Montre comment utiliser les champs NEXT/NEXTIF pour fusionner plusieurs lignes e
 
     doc.MailMerge.Execute(table);
 
-     // Notre source de données a 3 lignes et nous avons sauté des lignes deux fois.
+     // Notre source de données comporte 3 lignes et nous avons sauté des lignes deux fois.
     // Notre document de sortie aura 1 page avec les données des 3 lignes.
     doc.Save(ArtifactsDir + "Field.NEXT.NEXTIF.docx");
+}
 
 /// <summary>
-/// Utilise un générateur de document pour insérer des MERGEFIELD pour une source de données qui contient des colonnes nommées "Courtesy Title", "First Name" et "Last Name".
+/// Utilise un générateur de documents pour insérer des MERGEFIELD pour une source de données contenant des colonnes nommées « Titre de courtoisie », « Prénom » et « Nom de famille ».
 /// </summary>
 public void InsertMergeFields(DocumentBuilder builder, string firstFieldTextBefore)
 {
@@ -80,7 +82,7 @@ public void InsertMergeFields(DocumentBuilder builder, string firstFieldTextBefo
 }
 
 /// <summary>
-/// Utilise un générateur de document pour insérer un MERRGEFIELD avec les propriétés spécifiées.
+/// Utilise un générateur de documents pour insérer un MERRGEFIELD avec les propriétés spécifiées.
 /// </summary>
 public void InsertMergeField(DocumentBuilder builder, string fieldName, string textBefore, string textAfter)
 {

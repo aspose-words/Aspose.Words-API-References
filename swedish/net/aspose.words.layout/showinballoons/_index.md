@@ -3,7 +3,7 @@ title: Enum ShowInBalloons
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Layout.ShowInBalloons uppräkning. Anger vilka revisioner som renderas i ballonger.
 type: docs
-weight: 3210
+weight: 3410
 url: /sv/net/aspose.words.layout/showinballoons/
 ---
 ## ShowInBalloons enumeration
@@ -50,7 +50,7 @@ revisionOptions.DeletedTextEffect = RevisionTextEffect.Bold;
 // och dubbelt understruket blått vid den flyttade till revisionen.
 revisionOptions.MovedFromTextColor = RevisionColor.Yellow;
 revisionOptions.MovedFromTextEffect = RevisionTextEffect.DoubleStrikeThrough;
-revisionOptions.MovedToTextColor = RevisionColor.Blue;
+revisionOptions.MovedToTextColor = RevisionColor.ClassicBlue;
 revisionOptions.MovedFromTextEffect = RevisionTextEffect.DoubleUnderline;
 
 // Gör formatrevisioner i mörkrött och fetstil.

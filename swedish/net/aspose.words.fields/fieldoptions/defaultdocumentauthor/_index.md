@@ -3,7 +3,7 @@ title: FieldOptions.DefaultDocumentAuthor
 second_title: Aspose.Words för .NET API Referens
 description: FieldOptions fast egendom. Hämtar eller ställer in standarddokumentets författares namn. Om författarens namn redan är specificerat i inbyggda dokumentegenskaper övervägs inte detta alternativ.
 type: docs
-weight: 60
+weight: 70
 url: /sv/net/aspose.words.fields/fieldoptions/defaultdocumentauthor/
 ---
 ## FieldOptions.DefaultDocumentAuthor property
@@ -26,7 +26,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 // Om vi skapar och sparar ett dokument i Microsoft Word,
 // det kommer att ha vårt användarnamn i den egenskapen.
 // Men om vi skapar ett dokument programmatiskt med Aspose.Words,
-  // egenskapen "Author" kommer som standard att vara en tom sträng.
+// egenskapen "Author" kommer som standard att vara en tom sträng.
 Assert.AreEqual(string.Empty, doc.BuiltInDocumentProperties.Author);
 
 // Ställ in ett säkerhetskopieringsförfattarnamn för AUTHOR-fält att använda

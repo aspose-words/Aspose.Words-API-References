@@ -1,14 +1,14 @@
 ---
 title: Section.Body
 second_title: Aspose.Words per .NET API Reference
-description: Section proprietà. Restituisce il Corpo nodo figlio della sezione.
+description: Section proprietà. Restituisce ilBody nodo figlio della sezione.
 type: docs
 weight: 20
 url: /it/net/aspose.words/section/body/
 ---
 ## Section.Body property
 
-Restituisce il **Corpo** nodo figlio della sezione.
+Restituisce il[`Body`](../../body/) nodo figlio della sezione.
 
 ```csharp
 public Body Body { get; }
@@ -16,9 +16,9 @@ public Body Body { get; }
 
 ### Osservazioni
 
-**Corpo** contiene il testo principale della sezione.
+[`Body`](../../body/) contiene il testo principale della sezione.
 
-Restituisce null se la sezione non ha a **Corpo** nodo tra i suoi figli.
+ritorna`nullo` se la sezione non ha un file[`Body`](../../body/) nodo tra i suoi figli.
 
 ### Esempi
 
@@ -28,28 +28,28 @@ Cancella il testo principale da tutte le sezioni del documento lasciando le sezi
 Document doc = new Document();
 
 // Un documento vuoto contiene una sezione, un corpo e un paragrafo.
-// Chiama il metodo "RemoveAllChildren" per rimuovere tutti quei nodi,
-// e finisci con un nodo documento senza figli.
+// Chiama il metodo "RemoveAllChildren" per rimuovere tutti questi nodi,
+// e finiamo con un nodo documento senza figli.
 doc.RemoveAllChildren();
 
-// Questo documento ora non ha nodi figlio compositi a cui possiamo aggiungere contenuto.
+// Questo documento ora non ha nodi secondari compositi a cui possiamo aggiungere contenuto.
 // Se desideriamo modificarlo, dovremo ripopolare la sua raccolta di nodi.
-// Innanzitutto, crea una nuova sezione, quindi aggiungila come figlio al nodo del documento radice.
+// Innanzitutto, crea una nuova sezione, quindi aggiungila come figlia al nodo del documento root.
 Section section = new Section(doc);
 doc.AppendChild(section);
 
-// Una sezione ha bisogno di un corpo, che conterrà e visualizzerà tutto il suo contenuto
+// Una sezione necessita di un corpo, che conterrà e visualizzerà tutto il suo contenuto
 // nella pagina tra l'intestazione e il piè di pagina della sezione.
 Body body = new Body(doc);
 section.AppendChild(body);
 
-// Questo corpo non ha figli, quindi non possiamo ancora aggiungere run.
+// Questo corpo non ha figli, quindi non possiamo ancora aggiungergli esecuzioni.
 Assert.AreEqual(0, doc.FirstSection.Body.GetChildNodes(NodeType.Any, true).Count);
 
-// Chiama "EnsureMinimum" per assicurarti che questo corpo contenga almeno un paragrafo vuoto. 
+ // Chiama "EnsureMinimum" per assicurarsi che questo corpo contenga almeno un paragrafo vuoto.
 body.EnsureMinimum();
 
-// Ora possiamo aggiungere esecuzioni al corpo e fare in modo che il documento le visualizzi.
+// Ora possiamo aggiungere sequenze al corpo e fare in modo che il documento le visualizzi.
 body.FirstParagraph.AppendChild(new Run(doc, "Hello world!"));
 
 Assert.AreEqual("Hello world!", doc.GetText().Trim());

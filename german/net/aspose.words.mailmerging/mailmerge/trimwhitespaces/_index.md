@@ -1,14 +1,14 @@
 ---
 title: MailMerge.TrimWhitespaces
 second_title: Aspose.Words für .NET-API-Referenz
-description: MailMerge eigendom. Ruft einen Wert ab oder legt einen Wert fest der angibt ob nachgestellte und führende Leerzeichen aus Serienbriefwerten entfernt werden.
+description: MailMerge eigendom. Ruft einen Wert ab oder legt diesen fest der angibt ob nachgestellte und führende Leerzeichen aus Serienbriefwerten entfernt werden.
 type: docs
 weight: 130
 url: /de/net/aspose.words.mailmerging/mailmerge/trimwhitespaces/
 ---
 ## MailMerge.TrimWhitespaces property
 
-Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob nachgestellte und führende Leerzeichen aus Serienbriefwerten entfernt werden.
+Ruft einen Wert ab oder legt diesen fest, der angibt, ob nachgestellte und führende Leerzeichen aus Serienbriefwerten entfernt werden.
 
 ```csharp
 public bool TrimWhitespaces { get; set; }
@@ -16,11 +16,11 @@ public bool TrimWhitespaces { get; set; }
 
 ### Bemerkungen
 
-Der Standardwert ist **Stimmt** .
+Der Standardwert ist`WAHR` .
 
 ### Beispiele
 
-Zeigt, wie Leerzeichen aus Werten einer Datenquelle entfernt werden, während ein Seriendruck ausgeführt wird.
+Zeigt, wie Leerzeichen aus Werten einer Datenquelle entfernt werden, während ein Serienbrief ausgeführt wird.
 
 ```csharp
 Document doc = new Document();

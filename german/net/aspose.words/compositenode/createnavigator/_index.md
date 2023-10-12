@@ -1,14 +1,14 @@
 ---
 title: CompositeNode.CreateNavigator
 second_title: Aspose.Words für .NET-API-Referenz
-description: CompositeNode methode. Reserviert für Systemnutzung. IXPfadNavigierbar.
+description: CompositeNode methode. Erstellt einen Navigator der zum Durchlaufen und Lesen von Knoten verwendet werden kann.
 type: docs
-weight: 80
+weight: 90
 url: /de/net/aspose.words/compositenode/createnavigator/
 ---
 ## CompositeNode.CreateNavigator method
 
-Reserviert für Systemnutzung. IXPfadNavigierbar.
+Erstellt einen Navigator, der zum Durchlaufen und Lesen von Knoten verwendet werden kann.
 
 ```csharp
 [EditorBrowsable(EditorBrowsableState.Never)]
@@ -20,6 +20,7 @@ public XPathNavigator CreateNavigator()
 Zeigt, wie Sie einen XPathNavigator erstellen und ihn dann zum Durchlaufen und Lesen von Knoten verwenden.
 
 ```csharp
+public void NodeXPathNavigator()
 {
     Document doc = new Document();
     XPathNavigator navigator = doc.CreateNavigator();
@@ -30,9 +31,9 @@ Zeigt, wie Sie einen XPathNavigator erstellen und ihn dann zum Durchlaufen und L
         Assert.AreEqual(false, navigator.MoveToNext());
         Assert.AreEqual(1, navigator.SelectChildren(XPathNodeType.All).Count);
 
-        // Der Dokumentenbaum hat das Dokument, erster Abschnitt,
-        // Hauptteil und erster Absatz als Knoten, wobei jeder ein einziges Kind des vorherigen ist.
-        // Wir können noch ein paar hinzufügen, um dem Baum einige Zweige zu geben, die der Navigator durchqueren kann.
+        // Der Dokumentenbaum enthält das Dokument, den ersten Abschnitt,
+        // Hauptteil und erster Absatz als Knoten, wobei jeder ein einziges untergeordnetes Element des vorherigen ist.
+        // Wir können noch ein paar weitere hinzufügen, um dem Baum einige Zweige zu geben, die der Navigator durchqueren kann.
         DocumentBuilder docBuilder = new DocumentBuilder(doc);
         docBuilder.Write("Section 1, Paragraph 1. ");
         docBuilder.InsertParagraph();
@@ -45,12 +46,13 @@ Zeigt, wie Sie einen XPathNavigator erstellen und ihn dann zum Durchlaufen und L
         StringBuilder stringBuilder = new StringBuilder();
         MapDocument(navigator, stringBuilder, 0);
         Console.Write(stringBuilder.ToString());
+    }
 }
 
 /// <summary>
-/// Durchläuft alle Kinder eines zusammengesetzten Knotens und bildet die Struktur im Stil eines Verzeichnisbaums ab.
-/// Die Größe des Leerzeicheneinzugs gibt die Tiefe relativ zum Anfangsknoten an.
-/// Druckt den Textinhalt des aktuellen Knotens nur, wenn es sich um einen Run handelt.
+/// Durchläuft alle untergeordneten Knoten eines zusammengesetzten Knotens und bildet die Struktur im Stil eines Verzeichnisbaums ab.
+/// Die Größe der Leerzeicheneinrückung gibt die Tiefe relativ zum Anfangsknoten an.
+/// Gibt den Textinhalt des aktuellen Knotens nur aus, wenn es sich um einen Run handelt.
 /// </summary>
 private static void MapDocument(XPathNavigator navigator, StringBuilder stringBuilder, int depth)
 {

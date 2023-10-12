@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTagRangeStart.WordOpenXML
 second_title: Aspose.Words for .NET API 参考
-description: StructuredDocumentTagRangeStart 财产. 获取一个字符串该字符串表示包含在FlatOpc格式.
+description: StructuredDocumentTagRangeStart 财产. 获取表示节点中包含的 XML 的字符串FlatOpc格式.
 type: docs
 weight: 170
 url: /zh/net/aspose.words.markup/structureddocumenttagrangestart/wordopenxml/
 ---
 ## StructuredDocumentTagRangeStart.WordOpenXML property
 
-获取一个字符串，该字符串表示包含在FlatOpc格式.
+获取表示节点中包含的 XML 的字符串FlatOpc格式.
 
 ```csharp
 public string WordOpenXML { get; }
@@ -16,7 +16,7 @@ public string WordOpenXML { get; }
 
 ### 例子
 
-显示如何获取多节结构化文档标签的属性。
+演示如何获取多节结构化文档标签的属性。
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");

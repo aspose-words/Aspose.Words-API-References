@@ -1,14 +1,14 @@
 ---
 title: PdfSaveOptions.UseBookFoldPrintingSettings
 second_title: Aspose.Words for .NET API Referansı
-description: PdfSaveOptions mülk. Belgenin bir kitapçık yazdırma düzeni kullanılarak kaydedilmesi gerekip gerekmediğini belirten bir boole değeri alır veya ayarlar aracılığıyla belirtilirseMultiplePages .
+description: PdfSaveOptions mülk. Belgenin kitapçık yazdırma düzeni kullanılarak kaydedilip kaydedilmeyeceğini belirten bir boole değeri alır veya ayarlar ile belirtilirseMultiplePages .
 type: docs
-weight: 270
+weight: 300
 url: /tr/net/aspose.words.saving/pdfsaveoptions/usebookfoldprintingsettings/
 ---
 ## PdfSaveOptions.UseBookFoldPrintingSettings property
 
-Belgenin bir kitapçık yazdırma düzeni kullanılarak kaydedilmesi gerekip gerekmediğini belirten bir boole değeri alır veya ayarlar, aracılığıyla belirtilirse[`MultiplePages`](../../../aspose.words/pagesetup/multiplepages/) .
+Belgenin kitapçık yazdırma düzeni kullanılarak kaydedilip kaydedilmeyeceğini belirten bir boole değeri alır veya ayarlar, ile belirtilirse[`MultiplePages`](../../../aspose.words/pagesetup/multiplepages/) .
 
 ```csharp
 public bool UseBookFoldPrintingSettings { get; set; }
@@ -16,33 +16,33 @@ public bool UseBookFoldPrintingSettings { get; set; }
 
 ### Notlar
 
-Bu seçenek belirtilirse,[`PageSet`](../../fixedpagesaveoptions/pageset/) kaydederken yok sayılır. Bu davranış MS Word ile eşleşir. Sayfa ayarında kitap katlama yazdırma ayarları belirtilmezse, bu seçeneğin hiçbir etkisi olmaz.
+Bu seçenek belirtilirse,[`PageSet`](../../fixedpagesaveoptions/pageset/) kaydederken göz ardı edilir. Bu davranış MS Word ile eşleşir. Kitap katlama yazdırma ayarları sayfa düzeninde belirtilmezse bu seçeneğin hiçbir etkisi olmayacaktır.
 
 ### Örnekler
 
-Bir belgenin kitap katlama biçiminde PDF biçiminde nasıl kaydedileceğini gösterir.
+Bir belgenin PDF formatında kitap katlama biçiminde nasıl kaydedileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraphs.docx");
 
-// Belgenin "Kaydet" yöntemine aktarabileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
-// bu yöntemin belgeyi .PDF'ye dönüştürme şeklini değiştirmek için.
+// Belgenin "Save" yöntemine aktarabileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
+// bu yöntemin belgeyi .PDF'ye dönüştürme biçimini değiştirmek için.
 PdfSaveOptions options = new PdfSaveOptions();
 
 // İçeriği düzenlemek için "UseBookFoldPrintingSettings" özelliğini "true" olarak ayarlayın
-// çıktı PDF'sinde, onu kitapçık yapmak için kullanmamıza yardımcı olacak şekilde.
-// PDF'yi normal şekilde işlemek için "UseBookFoldPrintingSettings" özelliğini "false" olarak ayarlayın.
+// çıktı PDF'sini kitapçık oluşturmak için kullanmamıza yardımcı olacak şekilde.
+// PDF'yi normal şekilde oluşturmak için "UseBookFoldPrintingSettings" özelliğini "false" olarak ayarlayın.
 options.UseBookFoldPrintingSettings = renderTextAsBookfold;
 
-// Belgeyi kitapçık olarak oluşturuyorsak "MultiplePages" ayarını yapmalıyız.
-// "MultiplePagesType.BookFoldPrinting" için tüm bölümlerin sayfa kurulum nesnelerinin özellikleri.
+// Eğer belgeyi kitapçık olarak işliyorsak "Birden Çok Sayfa" ayarını yapmalıyız
+// tüm bölümlerin sayfa kurulum nesnelerinin özelliklerini "MultiplePagesType.BookFoldPrinting" olarak ayarlayın.
 if (renderTextAsBookfold)
     foreach (Section s in doc.Sections)
     {
         s.PageSetup.MultiplePages = MultiplePagesType.BookFoldPrinting;
     }
 
-// Bu belgeyi sayfaların her iki tarafına da yazdırdığımızda, tüm sayfaları bir kerede ortadan aşağı doğru katlayabiliriz,
+// Bu belgeyi sayfaların her iki tarafına da yazdırdıktan sonra tüm sayfaları aynı anda ortadan katlayabiliriz,
 // ve içerikler kitapçık oluşturacak şekilde sıralanacaktır.
 doc.Save(ArtifactsDir + "PdfSaveOptions.SaveAsPdfBookFold.pdf", options);
 ```

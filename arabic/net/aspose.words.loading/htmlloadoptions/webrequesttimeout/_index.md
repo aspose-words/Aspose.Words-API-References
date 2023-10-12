@@ -1,14 +1,14 @@
 ---
 title: HtmlLoadOptions.WebRequestTimeout
 second_title: Aspose.Words لمراجع .NET API
-description: HtmlLoadOptions ملكية. عدد المللي ثانية المطلوب انتظاره قبل انتهاء مهلة طلب الويب. القيمة الافتراضية هي 100000 مللي ثانية 100 ثانية .
+description: HtmlLoadOptions ملكية. عدد المللي ثانية التي يجب انتظارها قبل انتهاء مهلة طلب الويب. القيمة الافتراضية هي 100000 مللي ثانية 100 ثانية.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.loading/htmlloadoptions/webrequesttimeout/
 ---
 ## HtmlLoadOptions.WebRequestTimeout property
 
-عدد المللي ثانية المطلوب انتظاره قبل انتهاء مهلة طلب الويب. القيمة الافتراضية هي 100000 مللي ثانية (100 ثانية) .
+عدد المللي ثانية التي يجب انتظارها قبل انتهاء مهلة طلب الويب. القيمة الافتراضية هي 100000 مللي ثانية (100 ثانية).
 
 ```csharp
 public int WebRequestTimeout { get; set; }
@@ -16,40 +16,41 @@ public int WebRequestTimeout { get; set; }
 
 ### ملاحظات
 
-عدد المللي ثانية الذي ينتظره Aspose.Words استجابة ، عند تحميل موارد خارجية (صور ، style أوراق) مرتبطة بمستندات HTML و MHTML .
+عدد المللي ثانية التي ينتظرها Aspose.Words للاستجابة، عند تحميل الموارد الخارجية (الصور، style Sheets) المرتبطة في مستندات HTML وMHTML.
 
 ### أمثلة
 
 يوضح كيفية تعيين حد زمني لطلبات الويب عند تحميل مستند بموارد خارجية مرتبطة بعناوين URL.
 
 ```csharp
+public void WebRequestTimeout()
 {
-    // قم بإنشاء كائن HtmlLoadOptions جديد وتحقق من حد انتهاء المهلة لطلب الويب.
+    // قم بإنشاء كائن HtmlLoadOptions جديد وتحقق من حد المهلة الخاص به لطلب الويب.
     HtmlLoadOptions options = new HtmlLoadOptions();
 
-    // عند تحميل مستند Html بموارد مرتبطة خارجيًا بعنوان URL لعنوان الويب ،
-    // Aspose.Words ستجهض طلبات الويب التي تفشل في جلب الموارد خلال هذا الحد الزمني ، بالمللي ثانية.
+    // عند تحميل مستند Html يحتوي على موارد مرتبطة خارجيًا بعنوان URL لعنوان الويب،
+    // Aspose.Words سوف يلغي طلبات الويب التي تفشل في جلب الموارد خلال هذا الحد الزمني، بالمللي ثانية.
     Assert.AreEqual(100000, options.WebRequestTimeout);
 
-    // قم بتعيين WarningCallback يسجل جميع التحذيرات التي تحدث أثناء التحميل.
+    // قم بتعيين WaringCallback الذي سيسجل جميع التحذيرات التي تحدث أثناء التحميل.
     ListDocumentWarnings warningCallback = new ListDocumentWarnings();
     options.WarningCallback = warningCallback;
 
-    // قم بتحميل مثل هذا المستند وتحقق من إنشاء شكل ببيانات الصورة.
-    // ستتطلب هذه الصورة المرتبطة تحميل طلب ويب ، والذي سيتعين إكماله في غضون الوقت المحدد لدينا.
+    // قم بتحميل مثل هذا المستند وتحقق من إنشاء شكل يحتوي على بيانات الصورة.
+    // ستتطلب هذه الصورة المرتبطة طلب ويب للتحميل، والذي يجب إكماله خلال المهلة الزمنية المحددة لدينا.
     string html = $@"
         <html>
             <img src=""{ImageUrl}"" alt=""Aspose logo"" style=""width:400px;height:400px;"">
         </html>
     ";
 
-    // قم بتعيين حد غير معقول للمهلة وحاول تحميل المستند مرة أخرى.
+    // قم بتعيين حد مهلة غير معقول وحاول تحميل المستند مرة أخرى.
     options.WebRequestTimeout = 0;
     Document doc = new Document(new MemoryStream(Encoding.UTF8.GetBytes(html)), options);
     Assert.AreEqual(2, warningCallback.Warnings().Count);
 
-    // طلب الويب الذي يفشل في الحصول على صورة خلال المهلة الزمنية المحددة سيستمر في إنتاج صورة.
-    // ومع ذلك ، ستكون الصورة باللون الأحمر "x" التي تشير عادةً إلى الصور المفقودة.
+    // طلب الويب الذي يفشل في الحصول على صورة خلال المهلة الزمنية سيستمر في إنتاج صورة.
+    // ومع ذلك، ستكون الصورة علامة "x" الحمراء التي تشير عادةً إلى الصور المفقودة.
     Shape imageShape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
     Assert.AreEqual(924, imageShape.ImageData.ImageBytes.Length);
 
@@ -66,7 +67,7 @@ public int WebRequestTimeout { get; set; }
 }
 
 /// <summary>
-/// يخزن جميع التحذيرات التي تحدث أثناء عملية تحميل المستند في قائمة.
+/// يخزن كافة التحذيرات التي تحدث أثناء عملية تحميل المستند في قائمة.
 /// </summary>
 private class ListDocumentWarnings : IWarningCallback
 {

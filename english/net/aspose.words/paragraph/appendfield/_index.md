@@ -5,7 +5,7 @@ articleTitle: AppendField
 second_title: Aspose.Words for .NET
 description: Paragraph AppendField method. Appends a field to this paragraph in C#.
 type: docs
-weight: 240
+weight: 260
 url: /net/aspose.words/paragraph/appendfield/
 ---
 ## AppendField(*[FieldType](../../../aspose.words.fields/fieldtype/), bool*) {#appendfield}

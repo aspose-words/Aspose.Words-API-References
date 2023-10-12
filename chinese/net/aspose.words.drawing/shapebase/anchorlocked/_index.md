@@ -16,15 +16,15 @@ public bool AnchorLocked { get; set; }
 
 ### 评论
 
-默认值为 **错误的**.
+默认值为`错误的`。
 
 仅对顶级形状有效。
 
-此属性会影响 Microsoft Word 中形状锚点的行为。 当锚点未锁定时，在 Microsoft Word 中移动形状也可以移动 形状的锚点。
+此属性会影响 Microsoft Word 中形状锚点的行为。 当锚点未锁定时，在 Microsoft Word 中移动形状也可以移动 形状锚点。
 
 ### 例子
 
-显示如何锁定或解锁形状的段落锚点。
+演示如何锁定或解锁形状的段落锚点。
 
 ```csharp
 Document doc = new Document();
@@ -39,14 +39,14 @@ builder.InsertBreak(BreakType.ParagraphBreak);
 
 builder.Writeln("Hello again!");
 
-// 将“AnchorLocked”属性设置为“true”以防止形状的锚点
-// 在 Microsoft Word 中移动形状时移动。
+// 将“AnchorLocked”属性设置为“true”以防止形状锚定
+// 在 Microsoft Word 中移动形状时避免移动。
 // 将“AnchorLocked”属性设置为“false”以允许形状的任何移动
-// 也将其锚点移动到形状最终接近的任何其他段落。
+// 将其锚点移动到形状最终接近的任何其他段落。
 shape.AnchorLocked = anchorLocked;
 
-// 如果形状左侧没有可见的锚符号，
-// 我们需要通过“选项”启用可见锚点 -> “显示”-> “对象锚”。
+// 如果形状的左侧没有可见的锚符号，
+// 我们需要通过“选项”启用可见锚点 -> 「显示」-> “对象锚”。
 doc.Save(ArtifactsDir + "Shape.AnchorLocked.docx");
 ```
 

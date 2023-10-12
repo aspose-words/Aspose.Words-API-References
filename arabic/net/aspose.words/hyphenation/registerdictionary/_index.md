@@ -1,14 +1,14 @@
 ---
 title: Hyphenation.RegisterDictionary
 second_title: Aspose.Words لمراجع .NET API
-description: Hyphenation طريقة. يقوم بتسجيل وتحميل قاموس الواصلة للغة المحددة من الدفق. يتم رميه في حالة تعذر قراءة القاموس أو إذا كان تنسيقه غير صالح.
+description: Hyphenation طريقة. يقوم بتسجيل وتحميل قاموس الواصلة للغة المحددة من الدفق. يتم الرمي إذا تعذرت قراءة القاموس أو كان تنسيقه غير صالح.
 type: docs
 weight: 40
 url: /ar/net/aspose.words/hyphenation/registerdictionary/
 ---
 ## RegisterDictionary(string, Stream) {#registerdictionary}
 
-يقوم بتسجيل وتحميل قاموس الواصلة للغة المحددة من الدفق. يتم رميه في حالة تعذر قراءة القاموس أو إذا كان تنسيقه غير صالح.
+يقوم بتسجيل وتحميل قاموس الواصلة للغة المحددة من الدفق. يتم الرمي إذا تعذرت قراءة القاموس أو كان تنسيقه غير صالح.
 
 ```csharp
 public static void RegisterDictionary(string language, Stream stream)
@@ -16,7 +16,7 @@ public static void RegisterDictionary(string language, Stream stream)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| language | String | اسم اللغة ، على سبيل المثال "en-US". راجع وثائق .NET للحصول على "اسم الثقافة" و RFC 4646 للحصول على التفاصيل. |
+| language | String | اسم لغة، على سبيل المثال "en-US". راجع وثائق .NET لـ "اسم الثقافة" وRFC 4646 للحصول على التفاصيل. |
 | stream | Stream | دفق لملف القاموس بتنسيق OpenOffice. |
 
 ### أمثلة
@@ -24,28 +24,29 @@ public static void RegisterDictionary(string language, Stream stream)
 يوضح كيفية فتح وتسجيل قاموس من ملف.
 
 ```csharp
+public void RegisterDictionary()
 {
-    // إعداد رد اتصال يتتبع التحذيرات التي تحدث أثناء تسجيل قاموس الواصلة.
+    // قم بإعداد رد اتصال يتتبع التحذيرات التي تحدث أثناء تسجيل قاموس الواصلة.
     WarningInfoCollection warningInfoCollection = new WarningInfoCollection();
     Hyphenation.WarningCallback = warningInfoCollection;
 
-    // تسجيل قاموس الواصلة باللغة الإنجليزية (الولايات المتحدة) عن طريق الدفق.
+    // قم بتسجيل قاموس الواصلة باللغة الإنجليزية (الولايات المتحدة) عن طريق الدفق.
     Stream dictionaryStream = new FileStream(MyDir + "hyph_en_US.dic", FileMode.Open);
     Hyphenation.RegisterDictionary("en-US", dictionaryStream);
 
     Assert.AreEqual(0, warningInfoCollection.Count);
 
-    // افتح مستندًا بإعدادات محلية قد لا يقوم Microsoft Word بربطها على جهاز باللغة الإنجليزية ، مثل الألمانية.
+    // افتح مستندًا باستخدام لغة لا يجوز لـ Microsoft Word تطبيق الواصلة عليها على جهاز إنجليزي، مثل الألمانية.
     Document doc = new Document(MyDir + "German text.docx");
 
-    // لوصل هذا المستند عند الحفظ ، نحتاج إلى قاموس الواصلة لرمز اللغة "de-CH".
-    // سيعالج رد النداء هذا الطلب التلقائي لهذا القاموس.
+    // لوصل هذا المستند عند الحفظ، نحتاج إلى قاموس وصل لرمز اللغة "de-CH".
+    // سيتعامل رد الاتصال هذا مع الطلب التلقائي لهذا القاموس.
     Hyphenation.Callback = new CustomHyphenationDictionaryRegister();
 
-    // عندما نحفظ المستند ، سيتم تفعيل الواصلة الألمانية.
+    // عندما نحفظ المستند، ستصبح الواصلة الألمانية سارية المفعول.
     doc.Save(ArtifactsDir + "Hyphenation.RegisterDictionary.pdf");
 
-    // يحتوي هذا القاموس على نمطين متطابقين ، مما يؤدي إلى إطلاق تحذير.
+    // يحتوي هذا القاموس على نمطين متطابقين، مما يؤدي إلى ظهور تحذير.
     Assert.AreEqual(1, warningInfoCollection.Count);
     Assert.AreEqual(WarningType.MinorFormattingLoss, warningInfoCollection[0].WarningType);
     Assert.AreEqual(WarningSource.Layout, warningInfoCollection[0].Source);
@@ -54,7 +55,7 @@ public static void RegisterDictionary(string language, Stream stream)
 }
 
 /// <summary>
-/// تربط رموز لغة ISO بأسماء ملفات النظام المحلي لملفات قاموس الواصلة.
+/// يربط رموز لغة ISO بأسماء ملفات النظام المحلي لملفات قاموس الواصلة.
 /// </summary>
 private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 {
@@ -101,9 +102,9 @@ private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 
 ## RegisterDictionary(string, string) {#registerdictionary_1}
 
-يقوم بتسجيل وتحميل قاموس الواصلة للغة المحددة من الملف. يُطرح في حالة تعذر قراءة القاموس أو إذا كان تنسيقه غير صالح.
+يقوم بتسجيل وتحميل قاموس الواصلة للغة المحددة من الملف. يتم الرمي إذا تعذرت قراءة القاموس أو كان تنسيقه غير صالح.
 
-يمكن أيضًا استخدام هذه الطريقة لتسجيل قاموس Null لمنع حدوث ذلك[`Callback`](../callback/) من الاستدعاء المتكرر لنفس اللغة .
+يمكن أيضًا استخدام هذه الطريقة لتسجيل القاموس الفارغ لمنعه[`Callback`](../callback/) من أن يتم استدعاؤك بشكل متكرر بنفس اللغة.
 
 ```csharp
 public static void RegisterDictionary(string language, string fileName)
@@ -111,7 +112,7 @@ public static void RegisterDictionary(string language, string fileName)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| language | String | اسم اللغة ، على سبيل المثال "en-US". راجع وثائق .NET للحصول على "اسم الثقافة" و RFC 4646 للحصول على التفاصيل. |
+| language | String | اسم لغة، على سبيل المثال "en-US". راجع وثائق .NET لـ "اسم الثقافة" وRFC 4646 للحصول على التفاصيل. |
 | fileName | String | مسار إلى ملف القاموس بتنسيق Open Office. |
 
 ### أمثلة
@@ -119,18 +120,18 @@ public static void RegisterDictionary(string language, string fileName)
 يوضح كيفية تسجيل قاموس الواصلة.
 
 ```csharp
-// يحتوي قاموس الواصلة على قائمة بالسلاسل التي تحدد قواعد الواصلة للغة القاموس.
-// عندما يحتوي المستند على سطور من النص يمكن فيها تقسيم الكلمة والاستمرار في السطر التالي ،
-// ستبحث الواصلة في قائمة السلاسل في القاموس للسلاسل الفرعية لهذه الكلمة.
-// إذا كان القاموس يحتوي على سلسلة فرعية ، فإن الواصلة ستقسم الكلمة على سطرين
-// بواسطة السلسلة الفرعية وإضافة واصلة إلى النصف الأول.
-// تسجيل ملف قاموس من نظام الملفات المحلي إلى لغة "de-CH".
+// يحتوي قاموس الواصلة على قائمة من السلاسل التي تحدد قواعد الواصلة للغة القاموس.
+// عندما يحتوي المستند على أسطر نصية يمكن فيها تقسيم الكلمة واستمرارها في السطر التالي،
+// ستبحث الواصلة في قائمة سلاسل القاموس عن السلاسل الفرعية لتلك الكلمة.
+// إذا كان القاموس يحتوي على سلسلة فرعية، فستؤدي الواصلة إلى تقسيم الكلمة عبر سطرين
+// بواسطة السلسلة الفرعية وأضف واصلة إلى النصف الأول.
+// سجل ملف قاموس من نظام الملفات المحلي إلى لغة "de-CH".
 Hyphenation.RegisterDictionary("de-CH", MyDir + "hyph_de_CH.dic");
 
 Assert.True(Hyphenation.IsDictionaryRegistered("de-CH"));
 
-// افتح مستندًا يحتوي على نص بلغة تطابق لغة قاموسنا ،
-// واحفظه في تنسيق حفظ بصفحة ثابتة. سيتم وصل النص الموجود في هذا المستند.
+// افتح مستندًا يحتوي على نص ذو لغة تطابق لغة القاموس الخاص بنا،
+// وحفظه بتنسيق حفظ صفحة ثابتة. سيتم تطبيق الواصلة على النص الموجود في هذا المستند.
 Document doc = new Document(MyDir + "German text.docx");
 
 Assert.True(doc.FirstSection.Body.FirstParagraph.Runs.OfType<Run>().All(
@@ -138,8 +139,8 @@ Assert.True(doc.FirstSection.Body.FirstParagraph.Runs.OfType<Run>().All(
 
 doc.Save(ArtifactsDir + "Hyphenation.Dictionary.Registered.pdf");
 
-// أعد تحميل المستند بعد إلغاء تسجيل القاموس ،
-// واحفظه في ملف PDF آخر ، والذي لن يحتوي على نصوص بواصلة.
+// أعد تحميل المستند بعد إلغاء تسجيل القاموس،
+// واحفظه في ملف PDF آخر، والذي لن يحتوي على نص موصول.
 Hyphenation.UnregisterDictionary("de-CH");
 
 Assert.False(Hyphenation.IsDictionaryRegistered("de-CH"));
@@ -151,28 +152,29 @@ doc.Save(ArtifactsDir + "Hyphenation.Dictionary.Unregistered.pdf");
 يوضح كيفية فتح وتسجيل قاموس من ملف.
 
 ```csharp
+public void RegisterDictionary()
 {
-    // إعداد رد اتصال يتتبع التحذيرات التي تحدث أثناء تسجيل قاموس الواصلة.
+    // قم بإعداد رد اتصال يتتبع التحذيرات التي تحدث أثناء تسجيل قاموس الواصلة.
     WarningInfoCollection warningInfoCollection = new WarningInfoCollection();
     Hyphenation.WarningCallback = warningInfoCollection;
 
-    // تسجيل قاموس الواصلة باللغة الإنجليزية (الولايات المتحدة) عن طريق الدفق.
+    // قم بتسجيل قاموس الواصلة باللغة الإنجليزية (الولايات المتحدة) عن طريق الدفق.
     Stream dictionaryStream = new FileStream(MyDir + "hyph_en_US.dic", FileMode.Open);
     Hyphenation.RegisterDictionary("en-US", dictionaryStream);
 
     Assert.AreEqual(0, warningInfoCollection.Count);
 
-    // افتح مستندًا بإعدادات محلية قد لا يقوم Microsoft Word بربطها على جهاز باللغة الإنجليزية ، مثل الألمانية.
+    // افتح مستندًا باستخدام لغة لا يجوز لـ Microsoft Word تطبيق الواصلة عليها على جهاز إنجليزي، مثل الألمانية.
     Document doc = new Document(MyDir + "German text.docx");
 
-    // لوصل هذا المستند عند الحفظ ، نحتاج إلى قاموس الواصلة لرمز اللغة "de-CH".
-    // سيعالج رد النداء هذا الطلب التلقائي لهذا القاموس.
+    // لوصل هذا المستند عند الحفظ، نحتاج إلى قاموس وصل لرمز اللغة "de-CH".
+    // سيتعامل رد الاتصال هذا مع الطلب التلقائي لهذا القاموس.
     Hyphenation.Callback = new CustomHyphenationDictionaryRegister();
 
-    // عندما نحفظ المستند ، سيتم تفعيل الواصلة الألمانية.
+    // عندما نحفظ المستند، ستصبح الواصلة الألمانية سارية المفعول.
     doc.Save(ArtifactsDir + "Hyphenation.RegisterDictionary.pdf");
 
-    // يحتوي هذا القاموس على نمطين متطابقين ، مما يؤدي إلى إطلاق تحذير.
+    // يحتوي هذا القاموس على نمطين متطابقين، مما يؤدي إلى ظهور تحذير.
     Assert.AreEqual(1, warningInfoCollection.Count);
     Assert.AreEqual(WarningType.MinorFormattingLoss, warningInfoCollection[0].WarningType);
     Assert.AreEqual(WarningSource.Layout, warningInfoCollection[0].Source);
@@ -181,7 +183,7 @@ doc.Save(ArtifactsDir + "Hyphenation.Dictionary.Unregistered.pdf");
 }
 
 /// <summary>
-/// تربط رموز لغة ISO بأسماء ملفات النظام المحلي لملفات قاموس الواصلة.
+/// يربط رموز لغة ISO بأسماء ملفات النظام المحلي لملفات قاموس الواصلة.
 /// </summary>
 private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 {

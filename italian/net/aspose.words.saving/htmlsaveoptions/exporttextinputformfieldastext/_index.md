@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.ExportTextInputFormFieldAsText
 second_title: Aspose.Words per .NET API Reference
-description: HtmlSaveOptions proprietà. Controlla come i campi del modulo di immissione del testo vengono salvati in HTML o MHTML. Il valore predefinito èfalso .
+description: HtmlSaveOptions proprietà. Controlla il modo in cui i campi del modulo di input testo vengono salvati in HTML o MHTML. Il valore predefinito èfalso .
 type: docs
-weight: 270
+weight: 260
 url: /it/net/aspose.words.saving/htmlsaveoptions/exporttextinputformfieldastext/
 ---
 ## HtmlSaveOptions.ExportTextInputFormFieldAsText property
 
-Controlla come i campi del modulo di immissione del testo vengono salvati in HTML o MHTML. Il valore predefinito è`falso` .
+Controlla il modo in cui i campi del modulo di input testo vengono salvati in HTML o MHTML. Il valore predefinito è`falso` .
 
 ```csharp
 public bool ExportTextInputFormFieldAsText { get; set; }
@@ -16,9 +16,9 @@ public bool ExportTextInputFormFieldAsText { get; set; }
 
 ### Osservazioni
 
-Quando impostato su`VERO` , esporta i campi del modulo di immissione del testo come testo normale. Quando`falso`, esporta i campi del modulo di immissione del testo di Word come elementi INPUT in HTML.
+Quando impostato su`VERO` , esporta i campi del modulo di input di testo come testo normale. Quando`falso`, esporta i campi del modulo di input del testo di Word come elementi INPUT in HTML.
 
-Quando si esporta in EPUB, i campi del modulo di immissione del testo vengono sempre salvati come testo a causa dei requisiti di questo formato.
+Quando si esporta in EPUB, i campi del modulo di immissione testo vengono sempre salvati come testo a causa dei requisiti di questo formato.
 
 ### Esempi
 

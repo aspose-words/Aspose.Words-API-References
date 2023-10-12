@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTagRangeStart.StructuredDocumentTagRangeStart
 second_title: Référence de l'API Aspose.Words pour .NET
-description: StructuredDocumentTagRangeStart constructeur. Initialise une nouvelle instance du Début de plage de balises de document structuré classe.
+description: StructuredDocumentTagRangeStart constructeur. Initialise une nouvelle instance du Début de la plage de balises de document structuré classe.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.markup/structureddocumenttagrangestart/structureddocumenttagrangestart/
 ---
 ## StructuredDocumentTagRangeStart constructor
 
-Initialise une nouvelle instance du **Début de plage de balises de document structuré** classe.
+Initialise une nouvelle instance du **Début de la plage de balises de document structuré** classe.
 
 ```csharp
 public StructuredDocumentTagRangeStart(DocumentBase doc, SdtType type)
@@ -38,6 +38,7 @@ Les types de SDT suivants peuvent être créés :
 Montre comment créer/supprimer une balise de document structuré et son contenu.
 
 ```csharp
+public void SdtRangeExtendedMethods()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);

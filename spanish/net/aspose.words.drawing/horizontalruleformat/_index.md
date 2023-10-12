@@ -1,14 +1,16 @@
 ---
 title: Class HorizontalRuleFormat
 second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Drawing.HorizontalRuleFormat clase. Representa formato de regla horizontal.
+description: Aspose.Words.Drawing.HorizontalRuleFormat clase. Representa el formato de regla horizontal.
 type: docs
-weight: 920
+weight: 1050
 url: /es/net/aspose.words.drawing/horizontalruleformat/
 ---
 ## HorizontalRuleFormat class
 
-Representa formato de regla horizontal.
+Representa el formato de regla horizontal.
+
+Para obtener más información, visite el[Trabajar con formas](https://docs.aspose.com/words/net/working-with-shapes/) artículo de documentación.
 
 ```csharp
 public class HorizontalRuleFormat
@@ -19,10 +21,10 @@ public class HorizontalRuleFormat
 | Nombre | Descripción |
 | --- | --- |
 | [Alignment](../../aspose.words.drawing/horizontalruleformat/alignment/) { get; set; } | Obtiene o establece la alineación de la regla horizontal. |
-| [Color](../../aspose.words.drawing/horizontalruleformat/color/) { get; set; } | Obtiene o establece el color del pincel que rellena la regla horizontal. |
+| [Color](../../aspose.words.drawing/horizontalruleformat/color/) { get; set; } | Obtiene o establece el color del pincel que llena la regla horizontal. |
 | [Height](../../aspose.words.drawing/horizontalruleformat/height/) { get; set; } | Obtiene o establece la altura de la regla horizontal. |
-| [NoShade](../../aspose.words.drawing/horizontalruleformat/noshade/) { get; set; } | Indica la presencia de sombreado 3D para la regla horizontal. Si es verdadero, entonces la regla horizontal no tiene sombreado 3D y se utiliza un color sólido. |
-| [WidthPercent](../../aspose.words.drawing/horizontalruleformat/widthpercent/) { get; set; } | Obtiene o establece la longitud de la regla horizontal especificada expresada como un porcentaje del ancho de la ventana. |
+| [NoShade](../../aspose.words.drawing/horizontalruleformat/noshade/) { get; set; } | Indica la presencia de sombreado 3D para la regla horizontal. Si`verdadero` entonces la regla horizontal no tiene sombreado 3D y se utiliza un color sólido. |
+| [WidthPercent](../../aspose.words.drawing/horizontalruleformat/widthpercent/) { get; set; } | Obtiene o establece la longitud de la regla horizontal especificada expresada como porcentaje del ancho de la ventana. |
 
 ### Ejemplos
 

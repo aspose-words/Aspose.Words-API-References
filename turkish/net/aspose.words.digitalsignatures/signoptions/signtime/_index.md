@@ -1,14 +1,14 @@
 ---
 title: SignOptions.SignTime
 second_title: Aspose.Words for .NET API Referansı
-description: SignOptions mülk. İmzalama tarihi. Varsayılan değer şimdiki zaman Now .
+description: SignOptions mülk. İmzalama tarihi. Varsayılan değer şimdiki zaman Now.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.digitalsignatures/signoptions/signtime/
 ---
 ## SignOptions.SignTime property
 
-İmzalama tarihi. Varsayılan değer **şimdiki zaman** (Now ).
+İmzalama tarihi. Varsayılan değer: **şimdiki zaman** (Now).
 
 ```csharp
 public DateTime SignTime { get; set; }
@@ -29,8 +29,8 @@ SignOptions signOptions = new SignOptions
     SignTime = DateTime.Now
 };
 
-// Dosya akışı yoluyla yerel dosya sisteminden imzasız bir belge alın,
-// ardından çıktı dosyası akışının dosya adıyla belirlenen imzalı bir kopyasını oluşturun.
+// İmzasız bir belgeyi dosya akışı aracılığıyla yerel dosya sisteminden alın,
+// ardından çıktı dosyası akışının dosya adına göre belirlenen imzalı bir kopyasını oluşturun.
 using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 {
     using (Stream streamOut = new FileStream(ArtifactsDir + "DigitalSignatureUtil.SignDocument.docx", FileMode.OpenOrCreate))

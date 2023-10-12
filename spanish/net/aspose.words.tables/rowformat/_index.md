@@ -3,12 +3,14 @@ title: Class RowFormat
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.Tables.RowFormat clase. Representa todo el formato de una fila de la tabla.
 type: docs
-weight: 6030
+weight: 6330
 url: /es/net/aspose.words.tables/rowformat/
 ---
 ## RowFormat class
 
 Representa todo el formato de una fila de la tabla.
+
+Para obtener más información, visite el[Trabajar con tablas](https://docs.aspose.com/words/net/working-with-tables/) artículo de documentación.
 
 ```csharp
 public class RowFormat
@@ -38,7 +40,7 @@ Muestra cómo modificar el formato de una fila de la tabla.
 Document doc = new Document(MyDir + "Tables.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
-// Use la propiedad "RowFormat" de la primera fila para establecer el formato que modifica la apariencia de toda la fila.
+// Utilice la propiedad "RowFormat" de la primera fila para establecer el formato que modifica la apariencia de toda esa fila.
 Row firstRow = table.FirstRow;
 firstRow.RowFormat.Borders.LineStyle = LineStyle.None;
 firstRow.RowFormat.HeightRule = HeightRule.Auto;
@@ -71,7 +73,7 @@ RowFormat rowFormat = table.FirstRow.RowFormat;
 rowFormat.Height = 25;
 rowFormat.Borders[BorderType.Bottom].Color = Color.Red;
 
-// Use la propiedad "CellFormat" de la primera celda en la última fila para modificar el formato del contenido de esa celda.
+// Utilice la propiedad "CellFormat" de la primera celda de la última fila para modificar el formato del contenido de esa celda.
 CellFormat cellFormat = table.LastRow.FirstCell.CellFormat;
 cellFormat.Width = 100;
 cellFormat.Shading.BackgroundPatternColor = Color.Orange;
@@ -87,8 +89,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.StartTable();
 
-// Establecer opciones de formato de tabla para un generador de documentos
-// los aplicará a cada fila y celda que agreguemos con él.
+// Configurar opciones de formato de tabla para un creador de documentos
+// los aplicará a cada fila y celda que agreguemos con ella.
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 builder.CellFormat.ClearFormatting();
@@ -112,8 +114,8 @@ builder.Write("Row 1, Col 2");
 builder.EndRow();
 
 // Cambiar el formato lo aplicará a la celda actual,
-// y cualquier celda nueva que creemos con el constructor después.
-// Esto no afectará a las celdas que hemos agregado previamente.
+// y cualquier celda nueva que creemos con el constructor posteriormente.
+// Esto no afectará a las celdas que hayamos añadido anteriormente.
 builder.CellFormat.Shading.ClearFormatting();
 
 builder.InsertCell();

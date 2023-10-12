@@ -16,18 +16,18 @@ public string Template { get; set; }
 
 ### Osservazioni
 
-In Microsoft Word, questa proprietà è solo a scopo informativo e in genere contiene solo il nome file del modello senza il percorso.
+In Microsoft Word, questa proprietà ha solo scopo informativo e solitamente contiene solo il nome file del modello senza il percorso.
 
-Stringa vuota significa che il documento è allegato al modello Normale.
+Una stringa vuota significa che il documento è allegato al modello Normal.
 
-Per ottenere o impostare il nome effettivo del modello allegato, utilizzare il [`AttachedTemplate`](../../../aspose.words/document/attachedtemplate/) proprietà.
+Per ottenere o impostare il nome effettivo del modello allegato, utilizzare [`AttachedTemplate`](../../../aspose.words/document/attachedtemplate/) proprietà.
 
 ### Esempi
 
 Mostra come lavorare con le proprietà del documento nella categoria "Origine".
 
 ```csharp
-// Apri un documento che abbiamo creato e modificato utilizzando Microsoft Word.
+// Apre un documento che abbiamo creato e modificato utilizzando Microsoft Word.
 Document doc = new Document(MyDir + "Properties.docx");
 BuiltInDocumentProperties properties = doc.BuiltInDocumentProperties;
 

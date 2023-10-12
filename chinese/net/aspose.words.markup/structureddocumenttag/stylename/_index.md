@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTag.StyleName
 second_title: Aspose.Words for .NET API 参考
-description: StructuredDocumentTag 财产. 获取或设置应用于结构化文档标签的样式名称
+description: StructuredDocumentTag 财产. 获取或设置应用于结构化文档标记的样式名称
 type: docs
 weight: 270
 url: /zh/net/aspose.words.markup/structureddocumenttag/stylename/
 ---
 ## StructuredDocumentTag.StyleName property
 
-获取或设置应用于结构化文档标签的样式名称。
+获取或设置应用于结构化文档标记的样式名称。
 
 ```csharp
 public string StyleName { get; set; }
@@ -22,8 +22,8 @@ public string StyleName { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 以下是将文档中的样式应用到结构化文档标签的两种方法。
-// 1 - 应用文档样式集合中的样式对象：
+// 下面是将文档样式应用到结构化文档标签的两种方法。
+// 1 - 从文档的样式集合中应用样式对象：
 Style quoteStyle = doc.Styles[StyleIdentifier.Quote];
 StructuredDocumentTag sdtPlainText =
     new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Inline) { Style = quoteStyle };
@@ -42,6 +42,8 @@ NodeCollection tags = doc.GetChildNodes(NodeType.StructuredDocumentTag, true);
 foreach (Node node in tags)
 {
     StructuredDocumentTag sdt = (StructuredDocumentTag)node;
+
+    Console.WriteLine(sdt.WordOpenXMLMinimal);
 
     Assert.AreEqual(StyleIdentifier.Quote, sdt.Style.StyleIdentifier);
     Assert.AreEqual("Quote", sdt.StyleName);

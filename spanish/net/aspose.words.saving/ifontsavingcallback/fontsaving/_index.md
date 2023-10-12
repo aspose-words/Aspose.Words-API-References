@@ -1,14 +1,14 @@
 ---
 title: IFontSavingCallback.FontSaving
 second_title: Referencia de API de Aspose.Words para .NET
-description: IFontSavingCallback método. Llamado cuando Aspose.Words está a punto de guardar un recurso de fuente.
+description: IFontSavingCallback método. Se llama cuando Aspose.Words está a punto de guardar un recurso de fuente.
 type: docs
 weight: 10
 url: /es/net/aspose.words.saving/ifontsavingcallback/fontsaving/
 ---
 ## IFontSavingCallback.FontSaving method
 
-Llamado cuando Aspose.Words está a punto de guardar un recurso de fuente.
+Se llama cuando Aspose.Words está a punto de guardar un recurso de fuente.
 
 ```csharp
 public void FontSaving(FontSavingArgs args)
@@ -19,11 +19,12 @@ public void FontSaving(FontSavingArgs args)
 Muestra cómo definir una lógica personalizada para exportar fuentes al guardar en HTML.
 
 ```csharp
+public void SaveExportedFonts()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
-    // Configure un objeto SaveOptions para exportar fuentes a archivos separados.
-    // Establezca una devolución de llamada que manejará el guardado de fuentes de manera personalizada.
+    // Configurar un objeto SaveOptions para exportar fuentes a archivos separados.
+    // Establece una devolución de llamada que manejará el guardado de fuentes de forma personalizada.
     HtmlSaveOptions options = new HtmlSaveOptions
     {
         ExportFontResources = true,
@@ -37,6 +38,8 @@ Muestra cómo definir una lógica personalizada para exportar fuentes al guardar
     {
         Console.WriteLine(fontFilename);
     }
+
+}
 
 /// <summary>
 /// Imprime información sobre las fuentes exportadas y las guarda en la misma carpeta del sistema local que su salida .html.
@@ -60,7 +63,7 @@ public class HandleFontSaving : IFontSavingCallback
         // 1 - Guárdelo en una ubicación del sistema de archivos local:
         args.FontFileName = args.OriginalFileName.Split(Path.DirectorySeparatorChar).Last();
 
-        // 2 - Guardarlo en una secuencia:
+        // 2 - Guárdalo en una secuencia:
         args.FontStream =
             new FileStream(ArtifactsDir + args.OriginalFileName.Split(Path.DirectorySeparatorChar).Last(), FileMode.Create);
         Assert.False(args.KeepFontStreamOpen);

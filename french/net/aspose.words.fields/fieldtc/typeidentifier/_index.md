@@ -1,14 +1,14 @@
 ---
 title: FieldTC.TypeIdentifier
 second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldTC propriété. Obtient ou définit un identificateur de type pour ce champ qui est généralement une lettre.
+description: FieldTC propriété. Obtient ou définit un identifiant de type pour ce champ qui est généralement une lettre.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.fields/fieldtc/typeidentifier/
 ---
 ## FieldTC.TypeIdentifier property
 
-Obtient ou définit un identificateur de type pour ce champ (qui est généralement une lettre).
+Obtient ou définit un identifiant de type pour ce champ (qui est généralement une lettre).
 
 ```csharp
 public string TypeIdentifier { get; set; }
@@ -19,6 +19,7 @@ public string TypeIdentifier { get; set; }
 Montre comment insérer un champ TOC et filtrer les champs TC qui finissent comme entrées.
 
 ```csharp
+public void FieldTocEntryIdentifier()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -26,7 +27,7 @@ Montre comment insérer un champ TOC et filtrer les champs TC qui finissent comm
     // Insère un champ TOC, qui compilera tous les champs TC dans une table des matières.
     FieldToc fieldToc = (FieldToc)builder.InsertField(FieldType.FieldTOC, true);
 
-    // Configurez le champ uniquement pour récupérer les entrées TC de type "A", et un niveau d'entrée compris entre 1 et 3.
+    // Configure le champ uniquement pour récupérer les entrées TC de type "A", et un niveau d'entrée compris entre 1 et 3.
     fieldToc.EntryIdentifier = "A";
     fieldToc.EntryLevelRange = "1-3";
 
@@ -47,9 +48,10 @@ Montre comment insérer un champ TOC et filtrer les champs TC qui finissent comm
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.TC.docx");
+}
 
 /// <summary>
-/// Utilisez un générateur de document pour insérer un champ TC.
+/// Utilisez un générateur de documents pour insérer un champ TC.
 /// </summary>
 public void InsertTocEntry(DocumentBuilder builder, string text, string typeIdentifier, string entryLevel)
 {

@@ -20,9 +20,9 @@ Bir dizi düğüm.
 
 ### Notlar
 
-Yineleyiciyi geçersiz kıldığı ve canlı koleksiyonlar için yenilemeler gerektirdiğinden, düğüm koleksiyonu üzerinde yineleme yaparken düğüm ekleme/çıkarma yapmamalısınız.
+Yineleyiciyi geçersiz kıldığından ve canlı koleksiyonlar için yenilemeler gerektirdiğinden, düğüm koleksiyonu üzerinde yineleme yaparken düğüm eklememeli/kaldırmamalısınız.
 
-Yineleme sırasında düğüm ekleyebilmek/kaldırabilmek için, düğümlerini sabit boyutlu bir diziye kopyalamak için bu yöntemi kullanın ve ardından dizi üzerinde yineleme yapın.
+Yineleme sırasında düğümleri ekleyebilmek/kaldırabilmek için, düğümlerini sabit boyutlu bir diziye kopyalamak ve ardından dizi üzerinde yineleme yapmak için bu yöntemi kullanın.
 
 ### Örnekler
 

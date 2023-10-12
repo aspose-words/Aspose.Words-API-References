@@ -1,14 +1,14 @@
 ---
 title: Font.Subscript
 second_title: Referencia de API de Aspose.Words para .NET
-description: Font propiedad. Verdadero si la fuente está formateada como subíndice.
+description: Font propiedad. Verdadero si la fuente tiene el formato de subíndice.
 type: docs
 weight: 430
 url: /es/net/aspose.words/font/subscript/
 ---
 ## Font.Subscript property
 
-Verdadero si la fuente está formateada como subíndice.
+Verdadero si la fuente tiene el formato de subíndice.
 
 ```csharp
 public bool Subscript { get; set; }
@@ -16,13 +16,13 @@ public bool Subscript { get; set; }
 
 ### Ejemplos
 
-Muestra cómo dar formato al texto para desplazar su posición.
+Muestra cómo dar formato al texto para compensar su posición.
 
 ```csharp
 Document doc = new Document();
-Paragraph para = (Paragraph) doc.GetChild(NodeType.Paragraph, 0, true);
+Paragraph para = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
 
-// Eleve esta ejecución de texto 5 puntos por encima de la línea de base.
+// Eleve esta ejecución de texto 5 puntos por encima de la línea base.
 Run run = new Run(doc, "Raised text. ");
 run.Font.Position = 5;
 para.AppendChild(run);
@@ -36,12 +36,12 @@ para.AppendChild(run);
 run = new Run(doc, "Text in its default position. ");
 para.AppendChild(run);
 
-// Agrega una secuencia de texto que aparece como subíndice.
+// Agrega una serie de texto que aparece como subíndice.
 run = new Run(doc, "Subscript. ");
 run.Font.Subscript = true;
 para.AppendChild(run);
 
-// Agrega una secuencia de texto que aparece como superíndice.
+// Agrega una serie de texto que aparece como superíndice.
 run = new Run(doc, "Superscript.");
 run.Font.Superscript = true;
 para.AppendChild(run);

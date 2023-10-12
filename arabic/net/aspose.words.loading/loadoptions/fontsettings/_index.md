@@ -1,14 +1,14 @@
 ---
 title: LoadOptions.FontSettings
 second_title: Aspose.Words لمراجع .NET API
-description: LoadOptions ملكية. يسمح بتحديد إعدادات خط الوثيقة.
+description: LoadOptions ملكية. يسمح بتحديد إعدادات خط المستند.
 type: docs
-weight: 70
+weight: 60
 url: /ar/net/aspose.words.loading/loadoptions/fontsettings/
 ---
 ## LoadOptions.FontSettings property
 
-يسمح بتحديد إعدادات خط الوثيقة.
+يسمح بتحديد إعدادات خط المستند.
 
 ```csharp
 public FontSettings FontSettings { get; set; }
@@ -16,50 +16,50 @@ public FontSettings FontSettings { get; set; }
 
 ### ملاحظات
 
-عند تحميل بعض التنسيقات ، قد يطلب Aspose.Words حل الخطوط. على سبيل المثال ، عند تحميل مستندات HTML ، قد يقوم Aspose.Words بحل الخطوط لإجراء احتياطي للخط.
+عند تحميل بعض التنسيقات، قد يتطلب Aspose.Words حل الخطوط. على سبيل المثال، عند تحميل مستندات HTML، قد يقوم Aspose.Words بتحليل الخطوط لإجراء عملية احتياطية للخط.
 
-إذا تم التعيين على قيمة خالية ، فسيتم تعيين إعدادات الخط الثابت الافتراضية[`DefaultInstance`](../../../aspose.words.fonts/fontsettings/defaultinstance/) سوف يستخدم.
+إذا تم تعيينه على`باطل` ، إعدادات الخط الثابت الافتراضية[`DefaultInstance`](../../../aspose.words.fonts/fontsettings/defaultinstance/) سوف يستخدم.
 
-القيمه الافتراضيه فارغه.
+القيمة الافتراضية هي`باطل`.
 
 ### أمثلة
 
 يوضح كيفية تطبيق إعدادات استبدال الخط أثناء تحميل مستند.
 
 ```csharp
-// قم بإنشاء كائن FontSettings ليحل محل الخط "Times New Roman"
-// مع الخط "Arvo" من مجلد "MyFonts" الخاص بنا.
+// قم بإنشاء كائن FontSettings الذي سيحل محل الخط "Times New Roman".
+// بالخط "Arvo" من مجلد "MyFonts" الخاص بنا.
 FontSettings fontSettings = new FontSettings();
 fontSettings.SetFontsFolder(FontsDir, false);
 fontSettings.SubstitutionSettings.TableSubstitution.AddSubstitutes("Times New Roman", "Arvo");
 
-// تعيين هذا الكائن FontSettings كخاصية لكائن LoadOptions تم إنشاؤه حديثًا.
+// قم بتعيين كائن FontSettings كخاصية لكائن LoadOptions المنشأ حديثًا.
 LoadOptions loadOptions = new LoadOptions();
 loadOptions.FontSettings = fontSettings;
 
-// قم بتحميل المستند ، ثم عرضه كملف PDF مع استبدال الخط.
+// قم بتحميل المستند، ثم قم بعرضه كملف PDF مع استبدال الخط.
 Document doc = new Document(MyDir + "Document.docx", loadOptions);
 
 doc.Save(ArtifactsDir + "LoadOptions.FontSettings.pdf");
 ```
 
-يوضح كيفية تعيين بدائل الخط أثناء التحميل.
+يوضح كيفية تعيين بدائل الخطوط أثناء التحميل.
 
 ```csharp
 LoadOptions loadOptions = new LoadOptions();
 loadOptions.FontSettings = new FontSettings();
 
-// تعيين قاعدة استبدال الخط لكائن LoadOptions.
-// إذا كان المستند الذي نقوم بتحميله يستخدم خطًا ليس لدينا ،
-// ستستبدل هذه القاعدة الخط غير المتاح بآخر موجود.
-// في هذه الحالة ، ستتحول جميع استخدامات "MissingFont" إلى "Comic Sans MS".
+// قم بتعيين قاعدة استبدال الخط لكائن LoadOptions.
+// إذا كان المستند الذي نقوم بتحميله يستخدم خطًا غير متوفر لدينا،
+// ستستبدل هذه القاعدة الخط غير المتوفر بخط موجود.
+// في هذه الحالة، سيتم تحويل جميع استخدامات "MissingFont" إلى "Comic Sans MS".
 TableSubstitutionRule substitutionRule = loadOptions.FontSettings.SubstitutionSettings.TableSubstitution;
 substitutionRule.AddSubstitutes("MissingFont", new[] {"Comic Sans MS"});
 
 Document doc = new Document(MyDir + "Missing font.html", loadOptions);
 
-// في هذه المرحلة ، سيظل هذا النص موجودًا في "MissingFont".
-// سيحدث استبدال الخط عندما نعرض المستند.
+// عند هذه النقطة، سيظل هذا النص موجودًا في "MissingFont".
+// سيتم استبدال الخط عندما نعرض المستند.
 Assert.AreEqual("MissingFont", doc.FirstSection.Body.FirstParagraph.Runs[0].Font.Name);
 
 doc.Save(ArtifactsDir + "FontSettings.ResolveFontsBeforeLoadingDocument.pdf");

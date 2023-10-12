@@ -18,13 +18,13 @@ public double PageMargins { get; set; }
 
 Hängt vom Wert ab[`PageHorizontalAlignment`](../pagehorizontalalignment/) Eigentum:
 
-* Definiert den oberen, unteren und linken Seitenrand, wenn der Wert istLeft .
-* Definiert die oberen, unteren und rechten Seitenränder, wenn der Wert istRight .
-* Definiert die oberen und unteren Seitenränder, wenn der Wert istCenter .
+* Definiert den oberen, unteren und linken Seitenrand, wenn der Wert lautetLeft .
+* Definiert den oberen, unteren und rechten Seitenrand, wenn der Wert lautetRight .
+* Definiert die oberen und unteren Seitenränder, wenn der Wert lautetCenter .
 
 ### Beispiele
 
-Zeigt, wie Seitenränder angepasst werden, wenn ein Dokument in HTML gespeichert wird.
+Zeigt, wie die Seitenränder beim Speichern eines Dokuments im HTML-Format angepasst werden.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");

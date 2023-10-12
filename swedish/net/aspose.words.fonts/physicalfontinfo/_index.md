@@ -3,12 +3,14 @@ title: Class PhysicalFontInfo
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Fonts.PhysicalFontInfo klass. Anger information om fysiska teckensnitt som är tillgängliga för Aspose.Words teckensnittsmotor.
 type: docs
-weight: 2850
+weight: 3030
 url: /sv/net/aspose.words.fonts/physicalfontinfo/
 ---
 ## PhysicalFontInfo class
 
 Anger information om fysiska teckensnitt som är tillgängliga för Aspose.Words teckensnittsmotor.
+
+För att lära dig mer, besök[Arbeta med teckensnitt](https://docs.aspose.com/words/net/working-with-fonts/) dokumentationsartikel.
 
 ```csharp
 public class PhysicalFontInfo

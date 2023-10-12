@@ -1,14 +1,14 @@
 ---
 title: Table.NodeType
 second_title: Aspose.Words för .NET API Referens
-description: Table fast egendom. Returnerar NodeType.Table .
+description: Table fast egendom. ReturnerarTable .
 type: docs
 weight: 210
 url: /sv/net/aspose.words.tables/table/nodetype/
 ---
 ## Table.NodeType property
 
-Returnerar **NodeType.Table** .
+ReturnerarTable .
 
 ```csharp
 public override NodeType NodeType { get; }
@@ -19,6 +19,7 @@ public override NodeType NodeType { get; }
 Visar hur man korsar en sammansatt nods träd med undernoder.
 
 ```csharp
+public void RecurseChildren()
 {
     Document doc = new Document(MyDir + "Paragraphs.docx");
 
@@ -64,7 +65,6 @@ public void CalculateDepthOfNestedTables()
 {
     Document doc = new Document(MyDir + "Nested tables.docx");
     NodeCollection tables = doc.GetChildNodes(NodeType.Table, true);
-
     for (int i = 0; i < tables.Count; i++)
     {
         Table table = (Table)tables[i];

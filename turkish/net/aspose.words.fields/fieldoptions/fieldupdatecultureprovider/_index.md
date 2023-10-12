@@ -1,14 +1,14 @@
 ---
 title: FieldOptions.FieldUpdateCultureProvider
 second_title: Aspose.Words for .NET API Referansı
-description: FieldOptions mülk. Her belirli alan için özel bir kültür nesnesi döndüren bir sağlayıcı alır veya ayarlar.
+description: FieldOptions mülk. Her belirli alana özel bir kültür nesnesi döndüren bir sağlayıcıyı alır veya ayarlar.
 type: docs
-weight: 90
+weight: 100
 url: /tr/net/aspose.words.fields/fieldoptions/fieldupdatecultureprovider/
 ---
 ## FieldOptions.FieldUpdateCultureProvider property
 
-Her belirli alan için özel bir kültür nesnesi döndüren bir sağlayıcı alır veya ayarlar.
+Her belirli alana özel bir kültür nesnesi döndüren bir sağlayıcıyı alır veya ayarlar.
 
 ```csharp
 public IFieldUpdateCultureProvider FieldUpdateCultureProvider { get; set; }
@@ -16,16 +16,15 @@ public IFieldUpdateCultureProvider FieldUpdateCultureProvider { get; set; }
 
 ### Notlar
 
-Sağlayıcının değeri istendiğinde[`FieldUpdateCultureSource`](../fieldupdateculturesource/) dır-dir **FieldUpdateCultureSource.FieldCode**.
+Sağlayıcının değeri ne zaman istenir?[`FieldUpdateCultureSource`](../fieldupdateculturesource/) dır-dirFieldCode.
 
-Sağlayıcı mevcutsa, alan güncellemesi için döndürdüğü kültür nesnesi kullanılır. Aksi takdirde, bir sistem kültürü kullanılır.
+Sağlayıcı mevcutsa, döndürdüğü kültür nesnesi alan güncellemesi için kullanılır. Aksi halde sistem kültürü kullanılır.
 
 ### Örnekler
 
 Her alan için tarih/saat biçimlendirmesini ayrıştıran bir kültürün nasıl belirtileceğini gösterir.
 
 ```csharp
-[Test]
 public void DefineDateTimeFormatting()
 {
     Document doc = new Document();
@@ -51,7 +50,7 @@ public void DefineDateTimeFormatting()
 private class FieldUpdateCultureProvider : IFieldUpdateCultureProvider
 {
     /// <summary>
-    /// Alanın güncellemesi sırasında kullanılacak bir CultureInfo nesnesi döndürür.
+    /// Alanın güncellenmesi sırasında kullanılacak bir CultureInfo nesnesini döndürür.
     /// </summary>
     public CultureInfo GetCulture(string name, Field field)
     {

@@ -3,7 +3,7 @@ title: Document.ShowSpellingErrors
 second_title: Aspose.Words för .NET API Referens
 description: Document fast egendom. Anger om stavfel ska visas i detta dokument.
 type: docs
-weight: 380
+weight: 400
 url: /sv/net/aspose.words/document/showspellingerrors/
 ---
 ## Document.ShowSpellingErrors property

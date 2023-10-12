@@ -16,15 +16,16 @@ public IImageSavingCallback ImageSavingCallback { get; set; }
 
 ### Ejemplos
 
-Muestra cómo cambiar el nombre de la imagen durante el guardado en el documento Markdown.
+Muestra cómo cambiar el nombre de la imagen al guardarla en un documento Markdown.
 
 ```csharp
+public void RenameImages()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
     MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
 
-    // Si convertimos un documento que contiene imágenes en Markdown, terminaremos con un archivo Markdown que enlaza con varias imágenes.
+    // Si convertimos un documento que contiene imágenes a Markdown, terminaremos con un archivo Markdown que enlaza con varias imágenes.
     // Cada imagen tendrá la forma de un archivo en el sistema de archivos local.
     // También hay una devolución de llamada que puede personalizar el nombre y la ubicación del sistema de archivos de cada imagen.
     saveOptions.ImageSavingCallback = new SavedImageRename("MarkdownSaveOptions.HandleDocument.md");
@@ -43,7 +44,7 @@ Muestra cómo cambiar el nombre de la imagen durante el guardado en el documento
 }
 
 /// <summary>
-/// Cambia el nombre de las imágenes guardadas que se producen cuando se guarda un documento Markdown.
+/// Cambia el nombre de las imágenes guardadas que se producen cuando se guarda un documento de Markdown.
 /// </summary>
 public class SavedImageRename : IImageSavingCallback
 {

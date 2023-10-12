@@ -1,16 +1,16 @@
 ---
 title: SignatureLine.Id
 second_title: Aspose.Words for .NET API Referansı
-description: SignatureLine mülk. Bu imza satırı için tanımlayıcıyı alır veya ayarlar.
+description: SignatureLine mülk. Bu imza satırının tanımlayıcısını alır veya ayarlar.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.drawing/signatureline/id/
 ---
 ## SignatureLine.Id property
 
-Bu imza satırı için tanımlayıcıyı alır veya ayarlar.
+Bu imza satırının tanımlayıcısını alır veya ayarlar.
 
-Bu tanımlayıcı, kullanılarak belge imzalanırken bir dijital imza ile ilişkilendirilebilir.[`DigitalSignatureUtil`](../../../aspose.words.digitalsignatures/digitalsignatureutil/). Bu değer benzersiz olmalı ve varsayılan olarak rastgele oluşturulmuş yeni Guid (NewGuid).
+Bu tanımlayıcı, belgeyi kullanarak imzalarken dijital imzayla ilişkilendirilebilir.[`DigitalSignatureUtil`](../../../aspose.words.digitalsignatures/digitalsignatureutil/). Bu değer benzersiz olmalıdır ve varsayılan olarak rastgele oluşturulmuş yeni Guid (NewGuid).
 
 ```csharp
 public Guid Id { get; set; }
@@ -18,10 +18,11 @@ public Guid Id { get; set; }
 
 ### Örnekler
 
-Belgeye imza satırının nasıl ekleneceğini ve ardından dijital sertifika kullanarak nasıl imzalanacağını gösterir.
+Bir belgeye imza satırının nasıl ekleneceğini ve ardından dijital sertifika kullanarak nasıl imzalanacağını gösterir.
 
 ```csharp
-public static void Sign()
+[Description("WORDSNET-16868")]
+        public static void Sign()
         {
             string signeeName = "Ron Williams";
             string srcDocumentPath = MyDir + "Document.docx";
@@ -40,7 +41,7 @@ public static void Sign()
         }
 
         /// <summary>
-        /// Sağlanan imza sahibi bilgileri ve X509 sertifikası kullanılarak imzalanmış bir kaynak belgenin bir kopyasını oluşturur.
+        /// Sağlanan imza sahibi bilgileri ve X509 sertifikası kullanılarak imzalanan kaynak belgenin bir kopyasını oluşturur.
         /// </summary>
         private static void SignDocument(string srcDocumentPath, string dstDocumentPath,
             Signee signeeInfo, string certificatePath, string certificatePassword)
@@ -48,7 +49,7 @@ public static void Sign()
             Document document = new Document(srcDocumentPath);
             DocumentBuilder builder = new DocumentBuilder(document);
 
-            // Bir imza satırı, belgede imzaladığımız bir imzayı gösterecek bir nesne yapılandırın ve ekleyin.
+            // Belgede, imzaladığımız imzayı görüntüleyecek bir nesne olan bir imza satırı yapılandırın ve ekleyin.
             SignatureLineOptions signatureLineOptions = new SignatureLineOptions
             {
                 Signer = signeeInfo.Name, 
@@ -58,7 +59,7 @@ public static void Sign()
             SignatureLine signatureLine = builder.InsertSignatureLine(signatureLineOptions).SignatureLine;
             signatureLine.Id = signeeInfo.PersonId;
 
-            // İlk olarak belgemizin imzasız bir versiyonunu kaydedeceğiz.
+            // Öncelikle belgemizin imzasız bir versiyonunu kaydedeceğiz.
             builder.Document.Save(dstDocumentPath);
 
             CertificateHolder certificateHolder = CertificateHolder.Create(certificatePath, certificatePassword);
@@ -69,13 +70,13 @@ public static void Sign()
                 SignatureLineImage = signeeInfo.Image
             };
 
-            // Yukarıda kaydettiğimiz imzasız belgenin üzerine sertifika kullanılarak imzalanmış bir sürüm yazın.
+            // Yukarıda kaydettiğimiz imzasız belgenin üzerine, sertifika kullanılarak imzalanmış bir sürüm yazın.
             DigitalSignatureUtil.Sign(dstDocumentPath, dstDocumentPath, certificateHolder, signOptions);
         }
 
 #if NET48 || JAVA
         /// <summary>
-        /// Bir görüntüyü bir bayt dizisine dönüştürür.
+        /// Bir görüntüyü bayt dizisine dönüştürür.
         /// </summary>
         private static byte[] ImageToByteArray(Image imageIn)
         {

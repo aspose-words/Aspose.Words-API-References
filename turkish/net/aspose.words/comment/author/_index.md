@@ -1,14 +1,14 @@
 ---
 title: Comment.Author
 second_title: Aspose.Words for .NET API Referansı
-description: Comment mülk. Bir yorum için yazar adını döndürür veya ayarlar.
+description: Comment mülk. Bir yorumun yazar adını döndürür veya ayarlar.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/comment/author/
 ---
 ## Comment.Author property
 
-Bir yorum için yazar adını döndürür veya ayarlar.
+Bir yorumun yazar adını döndürür veya ayarlar.
 
 ```csharp
 public string Author { get; set; }
@@ -16,20 +16,19 @@ public string Author { get; set; }
 
 ### Notlar
 
-Boş olamaz.
+Olamaz`hükümsüz`.
 
 Varsayılan boş dizedir.
 
 ### Örnekler
 
-Bir belgenin tüm yorumlarının ve yanıtlarının nasıl yazdırılacağını gösterir.
+Bir belgedeki tüm yorumların ve yanıtların nasıl yazdırılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Comments.docx");
 
 NodeCollection comments = doc.GetChildNodes(NodeType.Comment, true);
-
-// Bir yorumun atası yoksa, yanıt türü bir yorumun aksine "üst düzey" bir yorumdur.
+// Bir yorumun atası yoksa bu, yanıt tipi yorumun aksine "üst düzey" bir yorumdur.
 // Tüm üst düzey yorumları, olabilecek yanıtlarla birlikte yazdırın.
 foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == null))
 {

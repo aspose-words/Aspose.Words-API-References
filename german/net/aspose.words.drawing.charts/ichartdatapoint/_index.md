@@ -3,7 +3,7 @@ title: Interface IChartDataPoint
 second_title: Aspose.Words für .NET-API-Referenz
 description: Aspose.Words.Drawing.Charts.IChartDataPoint koppel. Enthält Eigenschaften eines einzelnen Datenpunkts im Diagramm.
 type: docs
-weight: 770
+weight: 900
 url: /de/net/aspose.words.drawing.charts/ichartdatapoint/
 ---
 ## IChartDataPoint interface
@@ -19,16 +19,15 @@ public interface IChartDataPoint
 | Name | Beschreibung |
 | --- | --- |
 | [Bubble3D](../../aspose.words.drawing.charts/ichartdatapoint/bubble3d/) { get; set; } | Gibt an, ob auf die Blasen im Blasendiagramm ein 3D-Effekt angewendet werden soll. |
-| [Explosion](../../aspose.words.drawing.charts/ichartdatapoint/explosion/) { get; set; } | Gibt den Betrag an, um den der Datenpunkt von der Mitte des Kreises verschoben werden soll. Kann negativ sein, negativ bedeutet, dass die Eigenschaft nicht festgelegt ist und keine Explosion angewendet werden soll. Gilt nur für Kreisdiagramme. |
+| [Explosion](../../aspose.words.drawing.charts/ichartdatapoint/explosion/) { get; set; } | Gibt den Betrag an, um den der Datenpunkt von der Mitte des Kreises verschoben werden soll. Kann negativ sein. Negativ bedeutet, dass die Eigenschaft nicht festgelegt ist und keine Explosion angewendet werden soll. Gilt nur für Kreisdiagramme. |
 | [InvertIfNegative](../../aspose.words.drawing.charts/ichartdatapoint/invertifnegative/) { get; set; } | Gibt an, ob das übergeordnete Element seine Farben invertieren soll, wenn der Wert negativ ist. |
-| [Marker](../../aspose.words.drawing.charts/ichartdatapoint/marker/) { get; } | Gibt eine Datenmarkierung an. Marker wird automatisch erstellt, wenn er angefordert wird. |
+| [Marker](../../aspose.words.drawing.charts/ichartdatapoint/marker/) { get; } | Gibt einen Datenmarker an. Marker wird bei Anforderung automatisch erstellt. |
 
 ### Beispiele
 
-Zeigt, wie Sie mit Datenpunkten in einem Liniendiagramm arbeiten.
+Zeigt, wie mit Datenpunkten in einem Liniendiagramm gearbeitet wird.
 
 ```csharp
-[Test]
 public void ChartDataPoint()
 {
     Document doc = new Document();
@@ -42,14 +41,14 @@ public void ChartDataPoint()
     Assert.AreEqual("Series 2", chart.Series[1].Name);
     Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-    // Heben Sie die Datenpunkte des Diagramms hervor, indem Sie sie als Rautenformen erscheinen lassen.
+    // Betonen Sie die Datenpunkte des Diagramms, indem Sie sie als Rautenformen erscheinen lassen.
     foreach (ChartSeries series in chart.Series) 
         ApplyDataPoints(series, 4, MarkerSymbol.Diamond, 15);
 
-    // Die Linie glätten, die die erste Datenreihe darstellt.
+    // Glätten Sie die Linie, die die erste Datenreihe darstellt.
     chart.Series[0].Smooth = true;
 
-    // Sicherstellen, dass Datenpunkte für die erste Serie ihre Farben nicht invertieren, wenn der Wert negativ ist.
+    // Stellen Sie sicher, dass die Farben der Datenpunkte für die erste Serie nicht invertiert werden, wenn der Wert negativ ist.
     using (IEnumerator<ChartDataPoint> enumerator = chart.Series[0].DataPoints.GetEnumerator())
     {
         while (enumerator.MoveNext())
@@ -58,7 +57,7 @@ public void ChartDataPoint()
         }
     }
 
-    // Für ein sauberer aussehendes Diagramm können wir das Format individuell löschen.
+    // Für ein übersichtlicheres Diagramm können wir das Format einzeln löschen.
     chart.Series[1].DataPoints[2].ClearFormat();
 
     // Wir können auch eine ganze Reihe von Datenpunkten auf einmal entfernen.

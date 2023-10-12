@@ -1,14 +1,14 @@
 ---
 title: Style.Font
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Style propriété. Obtient la mise en forme des caractères du style.
+description: Style propriété. Obtient le formatage des caractères du style.
 type: docs
-weight: 50
+weight: 60
 url: /fr/net/aspose.words/style/font/
 ---
 ## Style.Font property
 
-Obtient la mise en forme des caractères du style.
+Obtient le formatage des caractères du style.
 
 ```csharp
 public Font Font { get; }
@@ -16,7 +16,7 @@ public Font Font { get; }
 
 ### Remarques
 
-Pour les styles de liste, cette propriété renvoie null.
+Pour les styles de liste, cette propriété renvoie`nul`.
 
 ### Exemples
 
@@ -36,11 +36,11 @@ style.ParagraphFormat.SpaceAfter = 12;
 style.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
 style.ListFormat.ListLevelNumber = 0;
 
-// Appliquez le style de paragraphe au paragraphe actuel du générateur de document, puis ajoutez du texte.
+// Applique le style de paragraphe au paragraphe actuel du générateur de documents, puis ajoute du texte.
 builder.ParagraphFormat.Style = style;
 builder.Writeln("Hello World: MyStyle1, bulleted list.");
 
-// Modifiez le style du générateur de document en un style qui n'a pas de formatage de liste et écrivez un autre paragraphe.
+// Changez le style du générateur de documents en un style sans formatage de liste et écrivez un autre paragraphe.
 builder.ParagraphFormat.Style = doc.Styles["Normal"];
 builder.Writeln("Hello World: Normal.");
 
@@ -56,10 +56,12 @@ Style style = doc.Styles.Add(StyleType.Paragraph, "MyStyle");
 style.Font.Name = "Times New Roman";
 style.Font.Size = 16;
 style.Font.Color = Color.Navy;
+// Redéfinit automatiquement le style.
+style.AutomaticallyUpdate = true;
 
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Appliquez l'un des styles du document au paragraphe que le générateur de document est en train de créer.
+// Applique l'un des styles du document au paragraphe créé par le générateur de document.
 builder.ParagraphFormat.Style = doc.Styles["MyStyle"];
 builder.Writeln("Hello world!");
 
@@ -67,12 +69,12 @@ Style firstParagraphStyle = doc.FirstSection.Body.FirstParagraph.ParagraphFormat
 
 Assert.AreEqual(style, firstParagraphStyle);
 
-// Supprime notre style personnalisé de la collection de styles du document.
+// Supprimez notre style personnalisé de la collection de styles du document.
 doc.Styles["MyStyle"].Remove();
 
 firstParagraphStyle = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Style;
 
-// Tout texte qui utilisait un style supprimé revient au formatage par défaut.
+// Tout texte utilisant un style supprimé revient au formatage par défaut.
 Assert.False(doc.Styles.Any(s => s.Name == "MyStyle"));
 Assert.AreEqual("Times New Roman", firstParagraphStyle.Font.Name);
 Assert.AreEqual(12.0d, firstParagraphStyle.Font.Size);

@@ -1,14 +1,14 @@
 ---
 title: FixedPageSaveOptions.NumeralFormat
 second_title: Aspose.Words for .NET API Referansı
-description: FixedPageSaveOptions mülk. Alır veya ayarlarNumeralFormat sayıların işlenmesi için kullanılır. Varsayılan olarak Avrupa rakamları kullanılır.
+description: FixedPageSaveOptions mülk. Alır veya ayarlarNumeralFormat rakamların oluşturulması için kullanılır. Avrupa rakamları varsayılan olarak kullanılır.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.saving/fixedpagesaveoptions/numeralformat/
 ---
 ## FixedPageSaveOptions.NumeralFormat property
 
-Alır veya ayarlar[`NumeralFormat`](../../numeralformat/) sayıların işlenmesi için kullanılır. Varsayılan olarak Avrupa rakamları kullanılır.
+Alır veya ayarlar[`NumeralFormat`](../../numeralformat/) rakamların oluşturulması için kullanılır. Avrupa rakamları varsayılan olarak kullanılır.
 
 ```csharp
 public NumeralFormat NumeralFormat { get; set; }
@@ -16,7 +16,7 @@ public NumeralFormat NumeralFormat { get; set; }
 
 ### Notlar
 
-Bu özelliğin değeri değiştirilirse ve sayfa düzeni zaten oluşturulmuşsa, o zaman [`UpdatePageLayout`](../../../aspose.words/document/updatepagelayout/) değişiklikleri güncellemek için otomatik olarak çağrılır.
+Bu özelliğin değeri değiştirilmişse ve sayfa düzeni zaten oluşturulmuşsa Then [`UpdatePageLayout`](../../../aspose.words/document/updatepagelayout/) herhangi bir değişikliği güncellemek için otomatik olarak çağrılır.
 
 ### Örnekler
 
@@ -29,16 +29,16 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Font.LocaleId = new CultureInfo("ar-AR").LCID;
 builder.Writeln("1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 50, 100");
 
-// Belgenin "Kaydet" yöntemine aktarabileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
-// bu yöntemin belgeyi .PDF'ye dönüştürme şeklini değiştirmek için.
+// Belgenin "Save" yöntemine aktarabileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
+// bu yöntemin belgeyi .PDF'ye dönüştürme biçimini değiştirmek için.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// "NumeralFormat" özelliğini "NumeralFormat.ArabicIndic" olarak ayarlayın.
-// U+0660 ila U+0669 aralığındaki glifleri sayı olarak kullanın.
-// "NumeralFormat" özelliğini "NumeralFormat.Context" olarak ayarlayın.
-// kaç glif kullanılacağını belirlemek için yerel ayara bakın.
-// "NumeralFormat" özelliğini "NumeralFormat.EasternArabicIndic" olarak ayarlayın.
-// U+06F0 ila U+06F9 aralığındaki glifleri sayı olarak kullanın.
+// "NumeralFormat" özelliğini "NumeralFormat.ArabicIndic" olarak ayarlayın
+// sayı olarak U+0660 ila U+0669 aralığındaki glifleri kullanın.
+// "NumeralFormat" özelliğini "NumeralFormat.Context" olarak ayarlayın
+// Hangi sayıda glifin kullanılacağını belirlemek için yerel ayarı arayın.
+// "NumeralFormat" özelliğini "NumeralFormat.EasternArabicIndic" olarak ayarlayın
+// sayı olarak U+06F0 ila U+06F9 aralığındaki glifleri kullanın.
 // Avrupa rakamlarını kullanmak için "NumeralFormat" özelliğini "NumeralFormat.European" olarak ayarlayın.
 // Sembol setini bölgesel ayarlardan belirlemek için "NumeralFormat" özelliğini "NumeralFormat.System" olarak ayarlayın.
 options.NumeralFormat = numeralFormat;

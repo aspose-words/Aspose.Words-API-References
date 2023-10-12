@@ -3,7 +3,7 @@ title: Enum ImageType
 second_title: Aspose.Words for .NET API 参考
 description: Aspose.Words.Drawing.ImageType 枚举. 指定 Microsoft Word 文档中图像的类型格式
 type: docs
-weight: 950
+weight: 1080
 url: /zh/net/aspose.words.drawing/imagetype/
 ---
 ## ImageType enumeration
@@ -19,13 +19,14 @@ public enum ImageType
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | NoImage | `0` | 没有图像数据。 |
-| Unknown | `1` | 无法直接存储在 Microsoft Word 文档中的未知图像类型或图像类型。 |
-| Emf | `2` | Windows 增强元文件。 |
-| Wmf | `3` | Windows 元文件。 |
-| Pict | `4` | Macintosh PICT。现有图像将保留在文档中，但不支持将 new PICT 图像插入文档。 |
+| Unknown | `1` | 未知图像类型或无法直接存储在 Microsoft Word 文档中的图像类型。 |
+| Emf | `2` | Windows 增强型图元文件. |
+| Wmf | `3` | Windows 图元文件。 |
+| Pict | `4` | Macintosh PICT。现有图像将保留在文档中，但不支持将新 PICT 图像插入文档中。 |
 | Jpeg | `5` | JPEG JFIF. |
-| Png | `6` | 便携式网络图形。 |
+| Png | `6` | 便携式网络图形. |
 | Bmp | `7` | Windows 位图. |
+| Eps | `8` | 封装的 PostScript. |
 
 ### 例子
 
@@ -41,7 +42,7 @@ using (MemoryStream stream = new MemoryStream(imageBytes))
 {
     Image image = Image.FromStream(stream);
 
-    // URL 中的图片是 .gif。将其插入文档会将其转换为 .png。
+    // URL 中的图像是 .gif。将其插入文档中会将其转换为 .png。
     Shape imgShape = builder.InsertImage(image);
     Assert.AreEqual(ImageType.Jpeg, imgShape.ImageData.ImageType);
 }

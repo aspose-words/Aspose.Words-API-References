@@ -22,16 +22,16 @@ public PlainTextDocument(string fileName)
 
 | исключение | условие |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | Формат документа не распознан или не поддерживается. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | Формат документа не распознается или не поддерживается. |
 | [FileCorruptedException](../../filecorruptedexception/) | Документ поврежден и не может быть загружен. |
-| Exception | Возникла проблема с документом, о ней следует сообщить разработчикам Aspose.Words. |
+| Exception | С документом возникла проблема, о которой следует сообщить разработчикам Aspose.Words. |
 | IOException | Существует исключение ввода/вывода. |
-| [IncorrectPasswordException](../../incorrectpasswordexception/) | Документ зашифрован, и для его открытия требуется пароль, но вы указали неверный пароль. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | Документ зашифрован, и для его открытия требуется пароль, но вы указали неправильный пароль. |
 | ArgumentException | Имя файла не может быть нулевым или пустой строкой. |
 
 ### Примеры
 
-Показывает, как загрузить содержимое документа Microsoft Word в виде обычного текста.
+Показывает, как загрузить содержимое документа Microsoft Word в виде открытого текста.
 
 ```csharp
 Document doc = new Document(); 
@@ -64,17 +64,17 @@ public PlainTextDocument(string fileName, LoadOptions loadOptions)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | fileName | String | Имя файла, из которого нужно извлечь текст. |
-| loadOptions | LoadOptions | Дополнительные параметры для использования при загрузке документа. Может быть нулевым. |
+| loadOptions | LoadOptions | Дополнительные параметры, которые можно использовать при загрузке документа. Возможно`нулевой`. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | Формат документа не распознан или не поддерживается. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | Формат документа не распознается или не поддерживается. |
 | [FileCorruptedException](../../filecorruptedexception/) | Документ поврежден и не может быть загружен. |
-| Exception | Возникла проблема с документом, о ней следует сообщить разработчикам Aspose.Words. |
+| Exception | С документом возникла проблема, о которой следует сообщить разработчикам Aspose.Words. |
 | IOException | Существует исключение ввода/вывода. |
-| [IncorrectPasswordException](../../incorrectpasswordexception/) | Документ зашифрован, и для его открытия требуется пароль, но вы указали неверный пароль. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | Документ зашифрован, и для его открытия требуется пароль, но вы указали неправильный пароль. |
 | ArgumentException | Имя файла не может быть нулевым или пустой строкой. |
 
 ### Примеры
@@ -118,17 +118,17 @@ public PlainTextDocument(Stream stream)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Поток, из которого извлекать текст. |
+| stream | Stream | Поток, из которого извлекается текст. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | Формат документа не распознан или не поддерживается. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | Формат документа не распознается или не поддерживается. |
 | [FileCorruptedException](../../filecorruptedexception/) | Документ поврежден и не может быть загружен. |
-| Exception | Возникла проблема с документом, о ней следует сообщить разработчикам Aspose.Words. |
+| Exception | С документом возникла проблема, о которой следует сообщить разработчикам Aspose.Words. |
 | IOException | Существует исключение ввода/вывода. |
-| [IncorrectPasswordException](../../incorrectpasswordexception/) | Документ зашифрован, и для его открытия требуется пароль, но вы указали неверный пароль. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | Документ зашифрован, и для его открытия требуется пароль, но вы указали неправильный пароль. |
 | ArgumentNullException | Поток не может быть нулевым. |
 | NotSupportedException | Поток не поддерживает чтение или поиск. |
 | ObjectDisposedException | Поток — это удаленный объект. |
@@ -139,7 +139,7 @@ public PlainTextDocument(Stream stream)
 
 ### Примеры
 
-Показывает, как загрузить содержимое документа Microsoft Word в виде обычного текста с помощью потока.
+Показывает, как загрузить содержимое документа Microsoft Word в виде открытого текста с помощью потока.
 
 ```csharp
 Document doc = new Document();
@@ -174,18 +174,18 @@ public PlainTextDocument(Stream stream, LoadOptions loadOptions)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Поток, из которого извлекать текст. |
-| loadOptions | LoadOptions | Дополнительные параметры для использования при загрузке документа. Может быть нулевым. |
+| stream | Stream | Поток, из которого извлекается текст. |
+| loadOptions | LoadOptions | Дополнительные параметры, которые можно использовать при загрузке документа. Возможно`нулевой`. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | Формат документа не распознан или не поддерживается. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | Формат документа не распознается или не поддерживается. |
 | [FileCorruptedException](../../filecorruptedexception/) | Документ поврежден и не может быть загружен. |
-| Exception | Возникла проблема с документом, о ней следует сообщить разработчикам Aspose.Words. |
+| Exception | С документом возникла проблема, о которой следует сообщить разработчикам Aspose.Words. |
 | IOException | Существует исключение ввода/вывода. |
-| [IncorrectPasswordException](../../incorrectpasswordexception/) | Документ зашифрован, и для его открытия требуется пароль, но вы указали неверный пароль. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | Документ зашифрован, и для его открытия требуется пароль, но вы указали неправильный пароль. |
 | ArgumentNullException | Поток не может быть нулевым. |
 | NotSupportedException | Поток не поддерживает чтение или поиск. |
 | ObjectDisposedException | Поток — это удаленный объект. |

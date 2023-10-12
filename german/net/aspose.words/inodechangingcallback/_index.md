@@ -1,14 +1,14 @@
 ---
 title: Interface INodeChangingCallback
 second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.INodeChangingCallback koppel. Implementieren Sie diese Schnittstelle wenn Sie Benachrichtigungen erhalten möchten wenn Knoten im Dokument eingefügt oder entfernt werden.
+description: Aspose.Words.INodeChangingCallback koppel. Implementieren Sie diese Schnittstelle wenn Sie Benachrichtigungen erhalten möchten wenn Knoten in das Dokument eingefügt oder entfernt werden.
 type: docs
-weight: 3000
+weight: 3200
 url: /de/net/aspose.words/inodechangingcallback/
 ---
 ## INodeChangingCallback interface
 
-Implementieren Sie diese Schnittstelle, wenn Sie Benachrichtigungen erhalten möchten, wenn Knoten im Dokument eingefügt oder entfernt werden.
+Implementieren Sie diese Schnittstelle, wenn Sie Benachrichtigungen erhalten möchten, wenn Knoten in das Dokument eingefügt oder entfernt werden.
 
 ```csharp
 public interface INodeChangingCallback
@@ -19,21 +19,22 @@ public interface INodeChangingCallback
 | Name | Beschreibung |
 | --- | --- |
 | [NodeInserted](../../aspose.words/inodechangingcallback/nodeinserted/)(NodeChangingArgs) | Wird aufgerufen, wenn ein zu diesem Dokument gehörender Knoten in einen anderen Knoten eingefügt wurde. |
-| [NodeInserting](../../aspose.words/inodechangingcallback/nodeinserting/)(NodeChangingArgs) | Wird aufgerufen, kurz bevor ein Knoten, der zu diesem Dokument gehört, in einen anderen Knoten eingefügt werden soll. |
+| [NodeInserting](../../aspose.words/inodechangingcallback/nodeinserting/)(NodeChangingArgs) | Wird aufgerufen, kurz bevor ein zu diesem Dokument gehörender Knoten in einen anderen Knoten eingefügt werden soll. |
 | [NodeRemoved](../../aspose.words/inodechangingcallback/noderemoved/)(NodeChangingArgs) | Wird aufgerufen, wenn ein zu diesem Dokument gehörender Knoten von seinem übergeordneten Knoten entfernt wurde. |
 | [NodeRemoving](../../aspose.words/inodechangingcallback/noderemoving/)(NodeChangingArgs) | Wird aufgerufen, kurz bevor ein zu diesem Dokument gehörender Knoten aus dem Dokument entfernt werden soll. |
 
 ### Beispiele
 
-Zeigt, wie Sie Knotenänderungen mit einem Callback anpassen.
+Zeigt, wie Knotenänderungen mit einem Rückruf angepasst werden.
 
 ```csharp
+public void FontChangeViaCallback()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Setzen Sie den Callback für die Knotenänderung auf die benutzerdefinierte Implementierung,
-    // dann Knoten hinzufügen/entfernen, um ein Protokoll zu generieren.
+    // Den Rückruf zum Ändern des Knotens auf eine benutzerdefinierte Implementierung setzen,
+    // dann Knoten hinzufügen/entfernen, damit ein Protokoll generiert wird.
     HandleNodeChangingFontChanger callback = new HandleNodeChangingFontChanger();
     doc.NodeChangingCallback = callback;
 
@@ -45,10 +46,11 @@ Zeigt, wie Sie Knotenänderungen mit einem Callback anpassen.
     doc.Range.Fields[0].Remove();
 
     Console.WriteLine(callback.GetLog());
+}
 
 /// <summary>
-/// Protokolliert Datum und Uhrzeit jedes Einfügens und Entfernens von Knoten.
-/// Legt einen benutzerdefinierten Schriftartnamen/-größe für den Textinhalt von Run-Knoten fest.
+/// Protokolliert Datum und Uhrzeit des Einfügens und Entfernens jedes Knotens.
+/// Legt einen benutzerdefinierten Schriftartnamen/eine benutzerdefinierte Schriftart für den Textinhalt von Run-Knoten fest.
 /// </summary>
 public class HandleNodeChangingFontChanger : INodeChangingCallback
 {

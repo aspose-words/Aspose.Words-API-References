@@ -3,7 +3,7 @@ title: Style.Styles
 second_title: Aspose.Words för .NET API Referens
 description: Style fast egendom. Får samlingen av stilar som denna stil tillhör.
 type: docs
-weight: 150
+weight: 170
 url: /sv/net/aspose.words/style/styles/
 ---
 ## Style.Styles property

@@ -23,12 +23,12 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// بعد أن نحفظ مستندًا ، يمكننا الوصول إلى نوع وسائط الإنترنت (نوع MIME) لمستند الإخراج الذي تم إنشاؤه حديثًا.
+// بعد حفظ المستند، يمكننا الوصول إلى نوع وسائط الإنترنت (نوع MIME) الخاص بمستند الإخراج الذي تم إنشاؤه حديثًا.
 SaveOutputParameters parameters = doc.Save(ArtifactsDir + "Document.SaveOutputParameters.doc");
 
 Assert.AreEqual("application/msword", parameters.ContentType);
 
-// تتغير هذه الخاصية اعتمادًا على تنسيق الحفظ.
+// تتغير هذه الخاصية حسب تنسيق الحفظ.
 parameters = doc.Save(ArtifactsDir + "Document.SaveOutputParameters.pdf");
 
 Assert.AreEqual("application/pdf", parameters.ContentType);

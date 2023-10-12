@@ -3,7 +3,7 @@ title: Document.GetPageInfo
 second_title: Aspose.Words för .NET API Referens
 description: Document metod. Hämtar sidstorlek orientering och annan information om en sida som kan vara användbar för utskrift eller rendering.
 type: docs
-weight: 590
+weight: 630
 url: /sv/net/aspose.words/document/getpageinfo/
 ---
 ## Document.GetPageInfo method

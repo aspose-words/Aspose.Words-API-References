@@ -1,14 +1,14 @@
 ---
 title: ControlChar.NonBreakingHyphenChar
 second_title: Aspose.Words for .NET API Referansı
-description: ControlChar alan. Microsoft Worddeki Bölünmez Kısa Çizgi char30.
+description: ControlChar alan. Microsoft Worddeki Bölünmeyen Kısa Çizgi char30. dir
 type: docs
 weight: 160
 url: /tr/net/aspose.words/controlchar/nonbreakinghyphenchar/
 ---
 ## ControlChar.NonBreakingHyphenChar field
 
-Microsoft Word'deki Bölünmez Kısa Çizgi (char)30.
+Microsoft Word'deki Bölünmeyen Kısa Çizgi (char)30. 'dir
 
 ```csharp
 public const char NonBreakingHyphenChar;
@@ -16,9 +16,9 @@ public const char NonBreakingHyphenChar;
 
 ### Notlar
 
-Microsoft Word'deki Bölünmez Tire, Unicode karakteri U+2011 bölünmez tireye karşılık gelmez, bunun yerine Microsoft Word'e bir tire görüntülemesini ve bir satırı kesmemesini söyleyen dahili bilgilerini temsil eder.
+Microsoft Word'deki Bölünmeyen Kısa Çizgi, Unicode karakteri U+2011 bölünemez kısa çizgiye karşılık gelmez; bunun yerine Microsoft Word'e bir kısa çizgi görüntülemesini ve satırı kesmemesini söyleyen dahili bilgisini temsil eder.
 
-Faydalı bilgi: http://www.cs.tut.fi/~jkorpela/dashes.html#linebreaks.
+Yararlı bilgi: http://www.cs.tut.fi/~jkorpela/dashes.html#linebreaks.
 
 ### Örnekler
 
@@ -31,8 +31,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 // Normal bir boşluk ekleyin.
 builder.Write("Before space." + ControlChar.SpaceChar + "After space.");
 
-// Bölünemez bir alan olan bir NBSP ekleyin.
-// Normal boşluktan farklı olarak, bu boşluk konumunda otomatik satır sonu olamaz.
+// Bölünemeyen bir alan olan bir NBSP ekleyin.
+// Normal alanın aksine, bu alanın konumunda otomatik satır sonu bulunamaz.
 builder.Write("Before space." + ControlChar.NonBreakingSpace + "After space.");
 
 // Bir sekme karakteri ekleyin.
@@ -41,7 +41,7 @@ builder.Write("Before tab." + ControlChar.Tab + "After tab.");
 // Satır sonu ekleyin.
 builder.Write("Before line break." + ControlChar.LineBreak + "After line break.");
 
-// Yeni bir satır ekleyin ve yeni bir paragraf başlatır.
+// Yeni bir satır ekleyin ve yeni bir paragraf başlatın.
 Assert.AreEqual(1, doc.FirstSection.Body.GetChildNodes(NodeType.Paragraph, true).Count);
 builder.Write("Before line feed." + ControlChar.LineFeed + "After line feed.");
 Assert.AreEqual(2, doc.FirstSection.Body.GetChildNodes(NodeType.Paragraph, true).Count);
@@ -49,22 +49,22 @@ Assert.AreEqual(2, doc.FirstSection.Body.GetChildNodes(NodeType.Paragraph, true)
 // Satır besleme karakterinin iki versiyonu vardır.
 Assert.AreEqual(ControlChar.LineFeed, ControlChar.Lf);
 
-// Satır başı ve satır beslemeleri birlikte bir karakterle gösterilebilir.
+// Satırbaşları ve satır beslemeleri bir karakterle birlikte temsil edilebilir.
 Assert.AreEqual(ControlChar.CrLf, ControlChar.Cr + ControlChar.Lf);
 
 // Yeni bir paragraf başlatacak bir paragraf sonu ekleyin.
 builder.Write("Before paragraph break." + ControlChar.ParagraphBreak + "After paragraph break.");
 Assert.AreEqual(3, doc.FirstSection.Body.GetChildNodes(NodeType.Paragraph, true).Count);
 
-// Bir bölüm sonu ekleyin. Bu, yeni bir bölüm veya paragraf oluşturmaz.
+// Bölüm sonu ekleyin. Bu yeni bir bölüm veya paragraf oluşturmaz.
 Assert.AreEqual(1, doc.Sections.Count);
 builder.Write("Before section break." + ControlChar.SectionBreak + "After section break.");
 Assert.AreEqual(1, doc.Sections.Count);
 
-// Bir sayfa sonu ekleyin.
+//Sayfa sonu ekleyin.
 builder.Write("Before page break." + ControlChar.PageBreak + "After page break.");
 
-// Sayfa sonu, bölüm sonu ile aynı değerdir.
+// Sayfa sonu, bölüm sonuyla aynı değerdedir.
 Assert.AreEqual(ControlChar.PageBreak, ControlChar.SectionBreak);
 
 // Yeni bir bölüm ekleyin ve ardından sütun sayısını ikiye ayarlayın.
@@ -72,12 +72,12 @@ doc.AppendChild(new Section(doc));
 builder.MoveToSection(1);
 builder.CurrentSection.PageSetup.TextColumns.SetCount(2);
 
-// Metnin bir sonraki sütuna geçtiği noktayı işaretlemek için bir kontrol karakteri kullanabiliriz.
+// Metnin bir sonraki sütuna geçeceği noktayı işaretlemek için bir kontrol karakteri kullanabiliriz.
 builder.Write("Text at end of column 1." + ControlChar.ColumnBreak + "Text at beginning of column 2.");
 
 doc.Save(ArtifactsDir + "ControlChar.InsertControlChars.docx");
 
-// Çoğu karakterin char ve string karşılığı vardır.
+// Çoğu karakterin char ve string karşılıkları vardır.
 Assert.AreEqual(Convert.ToChar(ControlChar.Cell), ControlChar.CellChar);
 Assert.AreEqual(Convert.ToChar(ControlChar.NonBreakingSpace), ControlChar.NonBreakingSpaceChar);
 Assert.AreEqual(Convert.ToChar(ControlChar.Tab), ControlChar.TabChar);

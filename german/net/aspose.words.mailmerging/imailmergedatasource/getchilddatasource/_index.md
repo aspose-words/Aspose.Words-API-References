@@ -1,14 +1,14 @@
 ---
 title: IMailMergeDataSource.GetChildDataSource
 second_title: Aspose.Words für .NET-API-Referenz
-description: IMailMergeDataSource methode. Die Aspose.WordsSerienbriefEngine ruft diese Methode auf wenn sie auf den Beginn eines verschachtelten Seriendruckbereichs trifft.
+description: IMailMergeDataSource methode. Die MailMergeEngine von Aspose.Words ruft diese Methode auf wenn sie auf den Anfang eines verschachtelten MailMergeBereichs stößt.
 type: docs
 weight: 20
 url: /de/net/aspose.words.mailmerging/imailmergedatasource/getchilddatasource/
 ---
 ## IMailMergeDataSource.GetChildDataSource method
 
-Die Aspose.Words-Serienbrief-Engine ruft diese Methode auf, wenn sie auf den Beginn eines verschachtelten Seriendruckbereichs trifft.
+Die Mail-Merge-Engine von Aspose.Words ruft diese Methode auf, wenn sie auf den Anfang eines verschachtelten Mail-Merge-Bereichs stößt.
 
 ```csharp
 public IMailMergeDataSource GetChildDataSource(string tableName)
@@ -16,27 +16,27 @@ public IMailMergeDataSource GetChildDataSource(string tableName)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| tableName | String | Der Name der Seriendruckregion, wie im Vorlagendokument angegeben. Groß- und Kleinschreibung beachten. |
+| tableName | String | Der Name des Serienbriefbereichs, wie im Vorlagendokument angegeben. Groß- und Kleinschreibung wird nicht beachtet. |
 
 ### Rückgabewert
 
-Ein Datenquellenobjekt, das Zugriff auf die Datensätze der angegebenen Tabelle bereitstellt.
+Ein Datenquellenobjekt, das Zugriff auf die Datensätze der angegebenen Tabelle ermöglicht.
 
 ### Bemerkungen
 
-Wenn die Seriendruck-Engines von Aspose.Words einen Seriendruckbereich mit Daten füllt und auf den Anfang eines verschachtelten -Seriendruckbereichs in Form von MERGEFIELD TableStart:TableName stößt, wird sie aufgerufen`GetChildDataSource` auf dem Datenquellenobjekt current . Ihre Implementierung muss ein neues Datenquellenobjekt zurückgeben, das Zugriff auf die child -Datensätze des aktuellen übergeordneten Datensatzes bereitstellt. Aspose.Words verwendet die zurückgegebene Datenquelle, um den verschachtelten Seriendruckbereich aufzufüllen.
+Wenn die Mail-Merge-Engines von Aspose.Words einen Mail-Merge-Bereich mit Daten füllen und auf den Anfang eines verschachtelten Mail-Merge-Bereichs in der Form MERGEFIELD TableStart:TableName stoßen, wird dieser aufgerufen`GetChildDataSource` auf dem Datenquellenobjekt current . Ihre Implementierung muss ein neues Datenquellenobjekt zurückgeben, das Zugriff auf die child -Datensätze des aktuellen übergeordneten Datensatzes ermöglicht. Aspose.Words verwendet die zurückgegebene Datenquelle, um den verschachtelten Seriendruckbereich zu füllen.
 
-Unten sind die Regeln, die die Umsetzung von`GetChildDataSource` muss folgen.
+Nachfolgend sind die Regeln aufgeführt, die für die Implementierung gelten`GetChildDataSource` muss folgen.
 
-Wenn die Tabelle, die durch dieses Datenquellenobjekt dargestellt wird, eine zugehörige untergeordnete Tabelle (Detailtabelle) mit dem angegebenen Namen hat, muss Ihre Implementierung eine neue zurückgeben[`IMailMergeDataSource`](../) Objekt, das Zugriff auf die untergeordneten Datensätze des aktuellen Datensatzes bereitstellt. Ein Beispiel hierfür ist die Beziehung Orders / OrderDetails. Nehmen wir an, dass der Strom[`IMailMergeDataSource`](../) object stellt die Orders-Tabelle dar und enthält einen aktuellen Order-Datensatz. Als nächstes trifft Aspose.Words auf „MERGEFIELD TableStart:OrderDetails“ im Dokument und ruft auf`GetChildDataSource` . Sie müssen eine erstellen und zurückgeben[`IMailMergeDataSource`](../) -Objekt, das Aspose.Words den Zugriff auf den OrderDetails-Datensatz für die aktuelle Bestellung ermöglicht.
+Wenn die Tabelle, die durch dieses Datenquellenobjekt dargestellt wird, eine zugehörige untergeordnete Tabelle (Detailtabelle) mit dem angegebenen Namen hat, muss Ihre Implementierung eine neue Tabelle zurückgeben[`IMailMergeDataSource`](../)Objekt, das Zugriff auf die untergeordneten Datensätze des aktuellen Datensatzes bereitstellt. Ein Beispiel hierfür ist die Orders/OrderDetails-Beziehung. Nehmen wir an, dass der Strom[`IMailMergeDataSource`](../) object stellt die Orders-Tabelle dar und verfügt über einen aktuellen Bestelldatensatz. Als nächstes trifft Aspose.Words auf „MERGEFIELD TableStart:OrderDetails“ im Dokument und ruft auf`GetChildDataSource` . Sie müssen eine erstellen und zurückgeben[`IMailMergeDataSource`](../) -Objekt, das Aspose.Words den Zugriff auf den OrderDetails-Datensatz für die aktuelle Bestellung ermöglicht.
 
-Wenn dieses Datenquellenobjekt keine Beziehung zu der Tabelle mit dem angegebenen Namen hat, müssen Sie a zurückgeben[`IMailMergeDataSource`](../)Objekt, das Zugriff auf alle Datensätze der angegebenen Tabelle bereitstellt.
+Wenn dieses Datenquellenobjekt keine Beziehung zur Tabelle mit dem angegebenen Namen hat, müssen Sie a zurückgeben[`IMailMergeDataSource`](../) Objekt, das Zugriff auf alle Datensätze der angegebenen Tabelle bietet.
 
-Wenn eine Tabelle mit dem angegebenen Namen nicht vorhanden ist, sollte Ihre Implementierung zurückkehren`Null` .
+Wenn eine Tabelle mit dem angegebenen Namen nicht existiert, sollte Ihre Implementierung zurückkehren`Null` .
 
 ### Beispiele
 
-Zeigt, wie Sie einen Seriendruck mit einer Datenquelle in Form eines benutzerdefinierten Objekts ausführen.
+Zeigt, wie ein Serienbrief mit einer Datenquelle in Form eines benutzerdefinierten Objekts ausgeführt wird.
 
 ```csharp
 public void CustomDataSource()
@@ -47,11 +47,13 @@ public void CustomDataSource()
     builder.InsertParagraph();
     builder.InsertField(" MERGEFIELD Address ");
 
-    List<Customer> customers = new List<Customer>();
-    customers.Add(new Customer("Thomas Hardy", "120 Hanover Sq., London"));
-    customers.Add(new Customer("Paolo Accorti", "Via Monte Bianco 34, Torino"));
+    List<Customer> customers = new List<Customer>
+    {
+        new Customer("Thomas Hardy", "120 Hanover Sq., London"),
+        new Customer("Paolo Accorti", "Via Monte Bianco 34, Torino")
+    };
 
-    // Um ein benutzerdefiniertes Objekt als Datenquelle zu verwenden, muss es die IMailMergeDataSource-Schnittstelle implementieren. 
+     // Um ein benutzerdefiniertes Objekt als Datenquelle zu verwenden, muss es die IMailMergeDataSource-Schnittstelle implementieren.
     CustomerMailMergeDataSource dataSource = new CustomerMailMergeDataSource(customers);
 
     doc.MailMerge.Execute(dataSource);
@@ -60,7 +62,7 @@ public void CustomDataSource()
 }
 
 /// <summary>
-/// Ein Beispiel für eine "Datenentitäts"-Klasse in Ihrer Anwendung.
+/// Ein Beispiel für eine „Datenentität“-Klasse in Ihrer Anwendung.
 /// </summary>
 public class Customer
 {
@@ -75,8 +77,8 @@ public class Customer
 }
 
 /// <summary>
-/// Eine benutzerdefinierte Seriendatenquelle, die Sie implementieren, um Aspose.Words zuzulassen 
-/// zum Seriendruck von Daten aus Ihren Kundenobjekten in Microsoft Word-Dokumente.
+ /// Eine benutzerdefinierte Serienbrief-Datenquelle, die Sie implementieren, um Aspose.Words zu ermöglichen
+/// um Seriendaten aus Ihren Kundenobjekten in Microsoft Word-Dokumente zu übertragen.
 /// </summary>
 public class CustomerMailMergeDataSource : IMailMergeDataSource
 {
@@ -84,12 +86,12 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     {
         mCustomers = customers;
 
-        // Wenn wir die Datenquelle initialisieren, muss ihre Position vor dem ersten Datensatz sein.
+        // Wenn wir die Datenquelle initialisieren, muss ihre Position vor dem ersten Datensatz liegen.
         mRecordIndex = -1;
     }
 
     /// <summary>
-    /// Der Name der Datenquelle. Wird von Aspose.Words nur beim Ausführen von Serienbriefen mit wiederholbaren Bereichen verwendet.
+    /// Der Name der Datenquelle. Wird von Aspose.Words nur verwendet, wenn Serienbriefe mit wiederholbaren Bereichen ausgeführt werden.
     /// </summary>
     public string TableName
     {
@@ -97,7 +99,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Aspose.Words ruft diese Methode auf, um einen Wert für jedes Datenfeld zu erhalten.
+    /// Aspose.Words ruft diese Methode auf, um einen Wert für jedes Datenfeld abzurufen.
     /// </summary>
     public bool GetValue(string fieldName, out object fieldValue)
     {
@@ -110,7 +112,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
                 fieldValue = mCustomers[mRecordIndex].Address;
                 return true;
             default:
-                // "false" an die Aspose.Words-Serienbrief-Engine zurückgeben, um dies zu kennzeichnen
+                // „false“ an die Mail-Merge-Engine von Aspose.Words zurückgeben, um es zu kennzeichnen
                 // dass wir kein Feld mit diesem Namen finden konnten.
                 fieldValue = null;
                 return false;
@@ -118,7 +120,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Eine Standardimplementierung zum Wechseln zum nächsten Datensatz in einer Sammlung.
+    /// Eine Standardimplementierung zum Wechseln zu einem nächsten Datensatz in einer Sammlung.
     /// </summary>
     public bool MoveNext()
     {

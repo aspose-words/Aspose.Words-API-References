@@ -1,14 +1,14 @@
 ---
 title: CompositeNode.HasChildNodes
 second_title: Référence de l'API Aspose.Words pour .NET
-description: CompositeNode propriété. Renvoie vrai si ce nœud a des nœuds enfants.
+description: CompositeNode propriété. Retoursvrai si ce nœud a des nœuds enfants.
 type: docs
-weight: 40
+weight: 30
 url: /fr/net/aspose.words/compositenode/haschildnodes/
 ---
 ## CompositeNode.HasChildNodes property
 
-Renvoie vrai si ce nœud a des nœuds enfants.
+Retours`vrai` si ce nœud a des nœuds enfants.
 
 ```csharp
 public bool HasChildNodes { get; }
@@ -22,7 +22,7 @@ Montre comment combiner les lignes de deux tables en une seule.
 Document doc = new Document(MyDir + "Tables.docx");
 
 // Vous trouverez ci-dessous deux manières d'obtenir un tableau à partir d'un document.
-// 1 - Depuis la collection "Tables" d'un noeud Body :
+// 1 - Depuis la collection "Tables" d'un nœud Body :
 Table firstTable = doc.FirstSection.Body.Tables[0];
 
 // 2 - Utilisation de la méthode "GetChild" :

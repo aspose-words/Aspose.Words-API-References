@@ -1,14 +1,14 @@
 ---
 title: ShapeBase.HorizontalAlignment
 second_title: Справочник по API Aspose.Words для .NET
-description: ShapeBase свойство. Определяет горизонтальное расположение фигуры.
+description: ShapeBase свойство. Указывает как фигура располагается по горизонтали.
 type: docs
-weight: 210
+weight: 220
 url: /ru/net/aspose.words.drawing/shapebase/horizontalalignment/
 ---
 ## ShapeBase.HorizontalAlignment property
 
-Определяет горизонтальное расположение фигуры.
+Указывает, как фигура располагается по горизонтали.
 
 ```csharp
 public HorizontalAlignment HorizontalAlignment { get; set; }
@@ -16,7 +16,7 @@ public HorizontalAlignment HorizontalAlignment { get; set; }
 
 ### Примечания
 
-Значение по умолчаниюNone.
+Значение по умолчанию:None.
 
 Имеет эффект только для плавающих фигур верхнего уровня.
 
@@ -28,7 +28,7 @@ public HorizontalAlignment HorizontalAlignment { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставьте плавающее изображение, которое будет отображаться за перекрывающимся текстом, и выровняйте его по центру страницы.
+// Вставляем плавающее изображение, которое появится за перекрывающимся текстом, и выравниваем его по центру страницы.
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 shape.WrapType = WrapType.None;
 shape.BehindText = true;

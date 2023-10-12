@@ -20,16 +20,14 @@ public int Count { get; }
 
 ```csharp
 Document doc = new Document();
+
 StyleCollection styles = doc.Styles;
-
-// تعيين المعلمات الافتراضية للأنماط الجديدة التي قد نضيفها لاحقًا إلى هذه المجموعة.
+// قم بتعيين المعلمات الافتراضية للأنماط الجديدة التي قد نضيفها لاحقًا إلى هذه المجموعة.
 styles.DefaultFont.Name = "Courier New";
-
-// إذا أضفنا نمطًا من "StyleType.Paragraph" ، فستطبق المجموعة قيم
-// الخاصية "DefaultParagraphFormat" الخاصة بها إلى خاصية "تنسيق ParagraphFormat" الخاصة بالنمط.
+// إذا أضفنا نمطًا من "StyleType.Paragraph"، فستطبق المجموعة قيم
+// الخاصية "DefaultParagraphFormat" الخاصة بها إلى خاصية "ParagraphFormat" الخاصة بالنمط.
 styles.DefaultParagraphFormat.FirstLineIndent = 15.0;
-
-// أضف نمطًا ، ثم تحقق من أنه يحتوي على الإعدادات الافتراضية.
+// أضف نمطًا، ثم تحقق من أنه يحتوي على الإعدادات الافتراضية.
 styles.Add(StyleType.Paragraph, "MyStyle");
 
 Assert.AreEqual("Courier New", styles[4].Font.Name);

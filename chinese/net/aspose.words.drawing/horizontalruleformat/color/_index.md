@@ -16,13 +16,13 @@ public Color Color { get; set; }
 
 ### 评论
 
-这是一个快捷方式Color财产。
+这是一个快捷方式[`Color`](../../fill/color/)财产。
 
-默认值为 Gray.
+默认值为 Gray。
 
 ### 例子
 
-显示如何插入水平线形，并自定义其格式。
+演示如何插入水平标尺形状并自定义其格式。
 
 ```csharp
 Document doc = new Document();

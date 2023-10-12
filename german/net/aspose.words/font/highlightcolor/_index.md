@@ -1,14 +1,14 @@
 ---
 title: Font.HighlightColor
 second_title: Aspose.Words für .NET-API-Referenz
-description: Font eigendom. Ruft die Farbe der Hervorhebung Markierung ab oder legt sie fest.
+description: Font eigendom. Ruft die Hervorhebungsfarbe Markerfarbe ab oder legt diese fest.
 type: docs
 weight: 150
 url: /de/net/aspose.words/font/highlightcolor/
 ---
 ## Font.HighlightColor property
 
-Ruft die Farbe der Hervorhebung (Markierung) ab oder legt sie fest.
+Ruft die Hervorhebungsfarbe (Markerfarbe) ab oder legt diese fest.
 
 ```csharp
 public Color HighlightColor { get; set; }
@@ -16,7 +16,7 @@ public Color HighlightColor { get; set; }
 
 ### Beispiele
 
-Zeigt, wie ein Textverlauf mithilfe seiner Eigenschaft font formatiert wird.
+Zeigt, wie eine Textzeile mithilfe ihrer Schriftarteigenschaft formatiert wird.
 
 ```csharp
 Document doc = new Document();

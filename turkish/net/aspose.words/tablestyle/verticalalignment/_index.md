@@ -1,14 +1,14 @@
 ---
 title: TableStyle.VerticalAlignment
 second_title: Aspose.Words for .NET API Referansı
-description: TableStyle mülk. Hücreler için dikey hizalamayı belirtir.
+description: TableStyle mülk. Hücrelerin dikey hizalamasını belirtir.
 type: docs
 weight: 150
 url: /tr/net/aspose.words/tablestyle/verticalalignment/
 ---
 ## TableStyle.VerticalAlignment property
 
-Hücreler için dikey hizalamayı belirtir.
+Hücrelerin dikey hizalamasını belirtir.
 
 ```csharp
 public CellVerticalAlignment VerticalAlignment { get; set; }
@@ -16,7 +16,7 @@ public CellVerticalAlignment VerticalAlignment { get; set; }
 
 ### Notlar
 
-Varsayılan değerTop .
+Varsayılan değer:Top .
 
 ### Örnekler
 
@@ -51,7 +51,7 @@ tableStyle.VerticalAlignment = CellVerticalAlignment.Center;
 
 table.Style = tableStyle;
 
-// Bir tablonun stil özelliklerini ayarlamak, tablonun özelliklerini etkileyebilir.
+// Bir tablonun stil özelliklerinin ayarlanması, tablonun kendi özelliklerini etkileyebilir.
 Assert.True(table.Bidi);
 Assert.AreEqual(5.0d, table.CellSpacing);
 Assert.AreEqual("MyTableStyle1", table.StyleName);

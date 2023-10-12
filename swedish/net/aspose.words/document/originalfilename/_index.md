@@ -3,7 +3,7 @@ title: Document.OriginalFileName
 second_title: Aspose.Words för .NET API Referens
 description: Document fast egendom. Hämtar originalfilnamnet för dokumentet.
 type: docs
-weight: 270
+weight: 290
 url: /sv/net/aspose.words/document/originalfilename/
 ---
 ## Document.OriginalFileName property
@@ -16,7 +16,7 @@ public string OriginalFileName { get; }
 
 ### Anmärkningar
 
-Returnerar null om dokumentet laddades från en ström eller skapades tomt.
+Returnerar`null` om dokumentet laddades från en ström eller skapades tomt.
 
 ### Exempel
 

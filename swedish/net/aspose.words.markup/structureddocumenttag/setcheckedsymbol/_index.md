@@ -3,7 +3,7 @@ title: StructuredDocumentTag.SetCheckedSymbol
 second_title: Aspose.Words för .NET API Referens
 description: StructuredDocumentTag metod. Ställer in symbolen som används för att representera det kontrollerade tillståndet för en innehållskontroll i kryssrutan.
 type: docs
-weight: 350
+weight: 380
 url: /sv/net/aspose.words.markup/structureddocumenttag/setcheckedsymbol/
 ---
 ## StructuredDocumentTag.SetCheckedSymbol method

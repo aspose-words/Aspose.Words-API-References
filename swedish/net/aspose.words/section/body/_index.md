@@ -1,14 +1,14 @@
 ---
 title: Section.Body
 second_title: Aspose.Words för .NET API Referens
-description: Section fast egendom. Returnerar Kropp barnnod för sektionen.
+description: Section fast egendom. ReturnerarBody barnnod för sektionen.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/section/body/
 ---
 ## Section.Body property
 
-Returnerar **Kropp** barnnod för sektionen.
+Returnerar[`Body`](../../body/) barnnod för sektionen.
 
 ```csharp
 public Body Body { get; }
@@ -16,9 +16,9 @@ public Body Body { get; }
 
 ### Anmärkningar
 
-**Kropp** innehåller huvudtexten i avsnittet.
+[`Body`](../../body/) innehåller huvudtexten i avsnittet.
 
-Returnerar null om avsnittet inte har en **Kropp** nod bland sina barn.
+Returnerar`null` om avsnittet inte har en[`Body`](../../body/) nod bland sina barn.
 
 ### Exempel
 
@@ -46,7 +46,7 @@ section.AppendChild(body);
 // Den här kroppen har inga barn, så vi kan inte lägga till körningar till den ännu.
 Assert.AreEqual(0, doc.FirstSection.Body.GetChildNodes(NodeType.Any, true).Count);
 
-// Ring "EnsureMinimum" för att se till att den här texten innehåller minst ett tomt stycke. 
+ // Ring "EnsureMinimum" för att se till att den här texten innehåller minst ett tomt stycke.
 body.EnsureMinimum();
 
 // Nu kan vi lägga till körningar i brödtexten och få dokumentet att visa dem.

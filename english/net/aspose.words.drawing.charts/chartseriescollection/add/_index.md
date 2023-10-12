@@ -39,8 +39,8 @@ public void ChartSeriesCollection()
 
     // Insert two series of decimal values containing a value for each respective category.
     // This column chart will have three groups, each with two columns.
-    chart.Series.Add("Series 1", categories, new [] { 76.6, 82.1, 91.6 });
-    chart.Series.Add("Series 2", categories, new [] { 64.2, 79.5, 94.0 });
+    chart.Series.Add("Series 1", categories, new[] { 76.6, 82.1, 91.6 });
+    chart.Series.Add("Series 2", categories, new[] { 64.2, 79.5, 94.0 });
 
     // Categories are distributed along the X-axis, and values are distributed along the Y-axis.
     Assert.AreEqual(ChartAxisType.Category, chart.AxisX.Type);
@@ -59,7 +59,7 @@ public void ChartSeriesCollection()
     // Insert a series with a decimal value for each respective date.
     // The dates will be distributed along a linear X-axis,
     // and the values added to this series will create data points.
-    chart.Series.Add("Series 1", dates, new [] { 15.8, 21.5, 22.9, 28.7, 33.1 });
+    chart.Series.Add("Series 1", dates, new[] { 15.8, 21.5, 22.9, 28.7, 33.1 });
 
     Assert.AreEqual(ChartAxisType.Category, chart.AxisX.Type);
     Assert.AreEqual(ChartAxisType.Value, chart.AxisY.Type);
@@ -70,11 +70,11 @@ public void ChartSeriesCollection()
     // Each series will need two decimal arrays of equal length.
     // The first array contains X-values, and the second contains corresponding Y-values
     // of data points on the chart's graph.
-    chart.Series.Add("Series 1", 
-        new[] { 3.1, 3.5, 6.3, 4.1, 2.2, 8.3, 1.2, 3.6 }, 
+    chart.Series.Add("Series 1",
+        new[] { 3.1, 3.5, 6.3, 4.1, 2.2, 8.3, 1.2, 3.6 },
         new[] { 3.1, 6.3, 4.6, 0.9, 8.5, 4.2, 2.3, 9.9 });
-    chart.Series.Add("Series 2", 
-        new[] { 2.6, 7.3, 4.5, 6.6, 2.1, 9.3, 0.7, 3.3 }, 
+    chart.Series.Add("Series 2",
+        new[] { 2.6, 7.3, 4.5, 6.6, 2.1, 9.3, 0.7, 3.3 },
         new[] { 7.1, 6.6, 3.5, 7.8, 7.7, 9.5, 1.3, 4.6 });
 
     Assert.AreEqual(ChartAxisType.Value, chart.AxisX.Type);
@@ -86,10 +86,10 @@ public void ChartSeriesCollection()
     // Each series will need three decimal arrays of equal length.
     // The first array contains X-values, the second contains corresponding Y-values,
     // and the third contains diameters for each of the graph's data points.
-    chart.Series.Add("Series 1", 
-        new [] { 1.1, 5.0, 9.8 }, 
-        new [] { 1.2, 4.9, 9.9 }, 
-        new [] { 2.0, 4.0, 8.0 });
+    chart.Series.Add("Series 1",
+        new[] { 1.1, 5.0, 9.8 },
+        new[] { 1.2, 4.9, 9.9 },
+        new[] { 2.0, 4.0, 8.0 });
 
     doc.Save(ArtifactsDir + "Charts.ChartSeriesCollection.docx");
 }
@@ -146,8 +146,8 @@ public void ChartSeriesCollection()
 
     // Insert two series of decimal values containing a value for each respective category.
     // This column chart will have three groups, each with two columns.
-    chart.Series.Add("Series 1", categories, new [] { 76.6, 82.1, 91.6 });
-    chart.Series.Add("Series 2", categories, new [] { 64.2, 79.5, 94.0 });
+    chart.Series.Add("Series 1", categories, new[] { 76.6, 82.1, 91.6 });
+    chart.Series.Add("Series 2", categories, new[] { 64.2, 79.5, 94.0 });
 
     // Categories are distributed along the X-axis, and values are distributed along the Y-axis.
     Assert.AreEqual(ChartAxisType.Category, chart.AxisX.Type);
@@ -166,7 +166,7 @@ public void ChartSeriesCollection()
     // Insert a series with a decimal value for each respective date.
     // The dates will be distributed along a linear X-axis,
     // and the values added to this series will create data points.
-    chart.Series.Add("Series 1", dates, new [] { 15.8, 21.5, 22.9, 28.7, 33.1 });
+    chart.Series.Add("Series 1", dates, new[] { 15.8, 21.5, 22.9, 28.7, 33.1 });
 
     Assert.AreEqual(ChartAxisType.Category, chart.AxisX.Type);
     Assert.AreEqual(ChartAxisType.Value, chart.AxisY.Type);
@@ -177,11 +177,11 @@ public void ChartSeriesCollection()
     // Each series will need two decimal arrays of equal length.
     // The first array contains X-values, and the second contains corresponding Y-values
     // of data points on the chart's graph.
-    chart.Series.Add("Series 1", 
-        new[] { 3.1, 3.5, 6.3, 4.1, 2.2, 8.3, 1.2, 3.6 }, 
+    chart.Series.Add("Series 1",
+        new[] { 3.1, 3.5, 6.3, 4.1, 2.2, 8.3, 1.2, 3.6 },
         new[] { 3.1, 6.3, 4.6, 0.9, 8.5, 4.2, 2.3, 9.9 });
-    chart.Series.Add("Series 2", 
-        new[] { 2.6, 7.3, 4.5, 6.6, 2.1, 9.3, 0.7, 3.3 }, 
+    chart.Series.Add("Series 2",
+        new[] { 2.6, 7.3, 4.5, 6.6, 2.1, 9.3, 0.7, 3.3 },
         new[] { 7.1, 6.6, 3.5, 7.8, 7.7, 9.5, 1.3, 4.6 });
 
     Assert.AreEqual(ChartAxisType.Value, chart.AxisX.Type);
@@ -193,10 +193,10 @@ public void ChartSeriesCollection()
     // Each series will need three decimal arrays of equal length.
     // The first array contains X-values, the second contains corresponding Y-values,
     // and the third contains diameters for each of the graph's data points.
-    chart.Series.Add("Series 1", 
-        new [] { 1.1, 5.0, 9.8 }, 
-        new [] { 1.2, 4.9, 9.9 }, 
-        new [] { 2.0, 4.0, 8.0 });
+    chart.Series.Add("Series 1",
+        new[] { 1.1, 5.0, 9.8 },
+        new[] { 1.2, 4.9, 9.9 },
+        new[] { 2.0, 4.0, 8.0 });
 
     doc.Save(ArtifactsDir + "Charts.ChartSeriesCollection.docx");
 }
@@ -249,8 +249,8 @@ public void ChartSeriesCollection()
 
     // Insert two series of decimal values containing a value for each respective category.
     // This column chart will have three groups, each with two columns.
-    chart.Series.Add("Series 1", categories, new [] { 76.6, 82.1, 91.6 });
-    chart.Series.Add("Series 2", categories, new [] { 64.2, 79.5, 94.0 });
+    chart.Series.Add("Series 1", categories, new[] { 76.6, 82.1, 91.6 });
+    chart.Series.Add("Series 2", categories, new[] { 64.2, 79.5, 94.0 });
 
     // Categories are distributed along the X-axis, and values are distributed along the Y-axis.
     Assert.AreEqual(ChartAxisType.Category, chart.AxisX.Type);
@@ -269,7 +269,7 @@ public void ChartSeriesCollection()
     // Insert a series with a decimal value for each respective date.
     // The dates will be distributed along a linear X-axis,
     // and the values added to this series will create data points.
-    chart.Series.Add("Series 1", dates, new [] { 15.8, 21.5, 22.9, 28.7, 33.1 });
+    chart.Series.Add("Series 1", dates, new[] { 15.8, 21.5, 22.9, 28.7, 33.1 });
 
     Assert.AreEqual(ChartAxisType.Category, chart.AxisX.Type);
     Assert.AreEqual(ChartAxisType.Value, chart.AxisY.Type);
@@ -280,11 +280,11 @@ public void ChartSeriesCollection()
     // Each series will need two decimal arrays of equal length.
     // The first array contains X-values, and the second contains corresponding Y-values
     // of data points on the chart's graph.
-    chart.Series.Add("Series 1", 
-        new[] { 3.1, 3.5, 6.3, 4.1, 2.2, 8.3, 1.2, 3.6 }, 
+    chart.Series.Add("Series 1",
+        new[] { 3.1, 3.5, 6.3, 4.1, 2.2, 8.3, 1.2, 3.6 },
         new[] { 3.1, 6.3, 4.6, 0.9, 8.5, 4.2, 2.3, 9.9 });
-    chart.Series.Add("Series 2", 
-        new[] { 2.6, 7.3, 4.5, 6.6, 2.1, 9.3, 0.7, 3.3 }, 
+    chart.Series.Add("Series 2",
+        new[] { 2.6, 7.3, 4.5, 6.6, 2.1, 9.3, 0.7, 3.3 },
         new[] { 7.1, 6.6, 3.5, 7.8, 7.7, 9.5, 1.3, 4.6 });
 
     Assert.AreEqual(ChartAxisType.Value, chart.AxisX.Type);
@@ -296,10 +296,10 @@ public void ChartSeriesCollection()
     // Each series will need three decimal arrays of equal length.
     // The first array contains X-values, the second contains corresponding Y-values,
     // and the third contains diameters for each of the graph's data points.
-    chart.Series.Add("Series 1", 
-        new [] { 1.1, 5.0, 9.8 }, 
-        new [] { 1.2, 4.9, 9.9 }, 
-        new [] { 2.0, 4.0, 8.0 });
+    chart.Series.Add("Series 1",
+        new[] { 1.1, 5.0, 9.8 },
+        new[] { 1.2, 4.9, 9.9 },
+        new[] { 2.0, 4.0, 8.0 });
 
     doc.Save(ArtifactsDir + "Charts.ChartSeriesCollection.docx");
 }
@@ -356,8 +356,8 @@ public void ChartSeriesCollection()
 
     // Insert two series of decimal values containing a value for each respective category.
     // This column chart will have three groups, each with two columns.
-    chart.Series.Add("Series 1", categories, new [] { 76.6, 82.1, 91.6 });
-    chart.Series.Add("Series 2", categories, new [] { 64.2, 79.5, 94.0 });
+    chart.Series.Add("Series 1", categories, new[] { 76.6, 82.1, 91.6 });
+    chart.Series.Add("Series 2", categories, new[] { 64.2, 79.5, 94.0 });
 
     // Categories are distributed along the X-axis, and values are distributed along the Y-axis.
     Assert.AreEqual(ChartAxisType.Category, chart.AxisX.Type);
@@ -376,7 +376,7 @@ public void ChartSeriesCollection()
     // Insert a series with a decimal value for each respective date.
     // The dates will be distributed along a linear X-axis,
     // and the values added to this series will create data points.
-    chart.Series.Add("Series 1", dates, new [] { 15.8, 21.5, 22.9, 28.7, 33.1 });
+    chart.Series.Add("Series 1", dates, new[] { 15.8, 21.5, 22.9, 28.7, 33.1 });
 
     Assert.AreEqual(ChartAxisType.Category, chart.AxisX.Type);
     Assert.AreEqual(ChartAxisType.Value, chart.AxisY.Type);
@@ -387,11 +387,11 @@ public void ChartSeriesCollection()
     // Each series will need two decimal arrays of equal length.
     // The first array contains X-values, and the second contains corresponding Y-values
     // of data points on the chart's graph.
-    chart.Series.Add("Series 1", 
-        new[] { 3.1, 3.5, 6.3, 4.1, 2.2, 8.3, 1.2, 3.6 }, 
+    chart.Series.Add("Series 1",
+        new[] { 3.1, 3.5, 6.3, 4.1, 2.2, 8.3, 1.2, 3.6 },
         new[] { 3.1, 6.3, 4.6, 0.9, 8.5, 4.2, 2.3, 9.9 });
-    chart.Series.Add("Series 2", 
-        new[] { 2.6, 7.3, 4.5, 6.6, 2.1, 9.3, 0.7, 3.3 }, 
+    chart.Series.Add("Series 2",
+        new[] { 2.6, 7.3, 4.5, 6.6, 2.1, 9.3, 0.7, 3.3 },
         new[] { 7.1, 6.6, 3.5, 7.8, 7.7, 9.5, 1.3, 4.6 });
 
     Assert.AreEqual(ChartAxisType.Value, chart.AxisX.Type);
@@ -403,10 +403,10 @@ public void ChartSeriesCollection()
     // Each series will need three decimal arrays of equal length.
     // The first array contains X-values, the second contains corresponding Y-values,
     // and the third contains diameters for each of the graph's data points.
-    chart.Series.Add("Series 1", 
-        new [] { 1.1, 5.0, 9.8 }, 
-        new [] { 1.2, 4.9, 9.9 }, 
-        new [] { 2.0, 4.0, 8.0 });
+    chart.Series.Add("Series 1",
+        new[] { 1.1, 5.0, 9.8 },
+        new[] { 1.2, 4.9, 9.9 },
+        new[] { 2.0, 4.0, 8.0 });
 
     doc.Save(ArtifactsDir + "Charts.ChartSeriesCollection.docx");
 }

@@ -1,14 +1,14 @@
 ---
 title: PdfSaveOptions.PdfSaveOptions
 second_title: Referencia de API de Aspose.Words para .NET
-description: PdfSaveOptions constructor. Inicializa una nueva instancia de esta clase que se puede usar para guardar un documento en el Pdf formato.
+description: PdfSaveOptions constructor. Inicializa una nueva instancia de esta clase que se puede usar para guardar un documento en Pdf formato.
 type: docs
 weight: 10
 url: /es/net/aspose.words.saving/pdfsaveoptions/pdfsaveoptions/
 ---
 ## PdfSaveOptions constructor
 
-Inicializa una nueva instancia de esta clase que se puede usar para guardar un documento en el Pdf formato.
+Inicializa una nueva instancia de esta clase que se puede usar para guardar un documento en Pdf formato.
 
 ```csharp
 public PdfSaveOptions()
@@ -16,7 +16,7 @@ public PdfSaveOptions()
 
 ### Ejemplos
 
-Muestra cómo habilitar o deshabilitar subconjuntos al incrustar fuentes mientras se procesa un documento en PDF.
+Muestra cómo habilitar o deshabilitar el subconjunto al incrustar fuentes mientras se procesa un documento en PDF.
 
 ```csharp
 Document doc = new Document();
@@ -27,7 +27,7 @@ builder.Writeln("Hello world!");
 builder.Font.Name = "Arvo";
 builder.Writeln("The quick brown fox jumps over the lazy dog.");
 
-// Configure nuestras fuentes de fuentes para garantizar que tengamos acceso a ambas fuentes en este documento.
+// Configure nuestras fuentes de fuentes para asegurarnos de que tengamos acceso a ambas fuentes en este documento.
 FontSourceBase[] originalFontsSources = FontSettings.DefaultInstance.GetFontsSources();
 Aspose.Words.Fonts.FolderFontSource folderFontSource = new Aspose.Words.Fonts.FolderFontSource(FontsDir, true);
 FontSettings.DefaultInstance.SetFontsSources(new[] { originalFontsSources[0], folderFontSource });
@@ -40,11 +40,11 @@ Assert.True(fontSources[1].GetAvailableFonts().Any(f => f.FullFontName == "Arvo"
 // para modificar cómo ese método convierte el documento a .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// Dado que nuestro documento contiene una fuente personalizada, puede ser deseable incrustarla en el documento de salida.
-// Establezca la propiedad "EmbedFullFonts" en "true" para incrustar cada glifo de cada fuente incrustada en el PDF de salida.
-// El tamaño del documento puede volverse muy grande, pero tendremos un uso completo de todas las fuentes si editamos el PDF.
-// Establezca la propiedad "EmbedFullFonts" en "falso" para aplicar subconjuntos a las fuentes, guardando solo los glifos
-// que el documento está usando. El archivo será considerablemente más pequeño,
+// Dado que nuestro documento contiene una fuente personalizada, puede ser conveniente incrustarla en el documento de salida.
+// Establece la propiedad "EmbedFullFonts" en "true" para incrustar cada glifo de cada fuente incrustada en el PDF de salida.
+// El tamaño del documento puede llegar a ser muy grande, pero podremos utilizar todas las fuentes al máximo si editamos el PDF.
+// Establece la propiedad "EmbedFullFonts" en "false" para aplicar subconjuntos a las fuentes, guardando solo los glifos
+// que el documento está utilizando. El archivo será considerablemente más pequeño,
 // pero es posible que necesitemos acceso a fuentes personalizadas si editamos el documento.
 options.EmbedFullFonts = embedFullFonts;
 

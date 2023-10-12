@@ -3,7 +3,7 @@ title: Enum OutlineLevel
 second_title: Aspose.Words per .NET API Reference
 description: Aspose.Words.OutlineLevel enum. Specifica il livello di struttura di un paragrafo nel documento.
 type: docs
-weight: 4090
+weight: 4330
 url: /it/net/aspose.words/outlinelevel/
 ---
 ## OutlineLevel enumeration
@@ -18,16 +18,16 @@ public enum OutlineLevel
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| Level1 | `0` | Il paragrafo è al livello di struttura 1 (livello più alto). |
-| Level2 | `1` | Il paragrafo è a livello di struttura 2. |
-| Level3 | `2` | Il paragrafo è a livello di struttura 3. |
-| Level4 | `3` | Il paragrafo è a livello di struttura 4. |
-| Level5 | `4` | Il paragrafo è a livello di struttura 5. |
-| Level6 | `5` | Il paragrafo è a livello di struttura 6. |
-| Level7 | `6` | Il paragrafo è a livello di struttura 7. |
-| Level8 | `7` | Il paragrafo è a livello di struttura 8. |
-| Level9 | `8` | Il paragrafo è a livello di struttura 9. |
-| BodyText | `9` | Il paragrafo è a livello del testo principale. |
+| Level1 | `0` | Il paragrafo è al livello 1 della struttura (livello più alto). |
+| Level2 | `1` | Il paragrafo è al livello di struttura 2. |
+| Level3 | `2` | Il paragrafo è al livello di struttura 3. |
+| Level4 | `3` | Il paragrafo è al livello di struttura 4. |
+| Level5 | `4` | Il paragrafo è al livello di struttura 5. |
+| Level6 | `5` | Il paragrafo è al livello di struttura 6. |
+| Level7 | `6` | Il paragrafo è al livello di struttura 7. |
+| Level8 | `7` | Il paragrafo è al livello di struttura 8. |
+| Level9 | `8` | Il paragrafo è al livello di struttura 9. |
+| BodyText | `9` | Il paragrafo è al livello del testo principale. |
 
 ### Guarda anche
 

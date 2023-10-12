@@ -22,7 +22,7 @@ Mostra come inserire testo formattato utilizzando DocumentBuilder.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Specifica la formattazione del carattere, quindi aggiungi il testo.
+// Specifica la formattazione del carattere, quindi aggiunge il testo.
 Aspose.Words.Font font = builder.Font;
 font.Size = 16;
 font.Bold = true;

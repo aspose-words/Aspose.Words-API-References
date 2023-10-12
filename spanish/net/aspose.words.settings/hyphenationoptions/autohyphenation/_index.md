@@ -1,14 +1,14 @@
 ---
 title: HyphenationOptions.AutoHyphenation
 second_title: Referencia de API de Aspose.Words para .NET
-description: HyphenationOptions propiedad. Obtiene o establece el valor que determina si la partición automática está activada para el documento. El valor predeterminado para esta propiedad es falso .
+description: HyphenationOptions propiedad. Obtiene o establece el valor que determina si la separación de palabras automática está activada para el documento. El valor predeterminado para esta propiedad esFALSO .
 type: docs
 weight: 20
 url: /es/net/aspose.words.settings/hyphenationoptions/autohyphenation/
 ---
 ## HyphenationOptions.AutoHyphenation property
 
-Obtiene o establece el valor que determina si la partición automática está activada para el documento. El valor predeterminado para esta propiedad es **falso** .
+Obtiene o establece el valor que determina si la separación de palabras automática está activada para el documento. El valor predeterminado para esta propiedad es`FALSO` .
 
 ```csharp
 public bool AutoHyphenation { get; set; }
@@ -16,7 +16,7 @@ public bool AutoHyphenation { get; set; }
 
 ### Ejemplos
 
-Muestra cómo configurar la partición automática.
+Muestra cómo configurar la separación de palabras automática.
 
 ```csharp
 Document doc = new Document();

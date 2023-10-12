@@ -1,14 +1,14 @@
 ---
 title: DigitalSignatureCollection.IsValid
 second_title: Aspose.Words per .NET API Reference
-description: DigitalSignatureCollection proprietà. RestituisceVERO se tutte le firme digitali di questa raccolta sono valide e il documento non è stato manomesso Restituisce ancheVEROse non ci sono firme digitali. Restituiscefalso se almeno una firma digitale non è valida.
+description: DigitalSignatureCollection proprietà. RestituisceVERO se tutte le firme digitali in questa raccolta sono valide e il documento non è stato manomesso Restituisce ancheVERO se non sono presenti firme digitali. Restituiscefalso se almeno una firma digitale non è valida.
 type: docs
 weight: 30
 url: /it/net/aspose.words.digitalsignatures/digitalsignaturecollection/isvalid/
 ---
 ## DigitalSignatureCollection.IsValid property
 
-Restituisce`VERO` se tutte le firme digitali di questa raccolta sono valide e il documento non è stato manomesso Restituisce anche`VERO`se non ci sono firme digitali. Restituisce`falso` se almeno una firma digitale non è valida.
+Restituisce`VERO` se tutte le firme digitali in questa raccolta sono valide e il documento non è stato manomesso Restituisce anche`VERO` se non sono presenti firme digitali. Restituisce`falso` se almeno una firma digitale non è valida.
 
 ```csharp
 public bool IsValid { get; }
@@ -22,7 +22,7 @@ Mostra come firmare documenti con certificati X.509.
 // Verifica che un documento non sia firmato.
 Assert.False(FileFormatUtil.DetectFileFormat(MyDir + "Document.docx").HasDigitalSignature);
 
-// Crea un oggetto CertificateHolder da un file PKCS12, che useremo per firmare il documento.
+// Crea un oggetto CertificateHolder da un file PKCS12, che utilizzeremo per firmare il documento.
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 
 // Esistono due modi per salvare una copia firmata di un documento nel file system locale:

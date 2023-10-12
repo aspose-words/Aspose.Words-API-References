@@ -20,7 +20,7 @@ public Document Open(string fileName)
 
 ### Returvärde
 
-A[`Document`](../../document/) objekt som representerar ett Word-dokument.
+A[`Document`](../../document/)objekt som representerar ett Word-dokument.
 
 ### Anmärkningar
 
@@ -81,7 +81,7 @@ public Document Open(Stream stream)
 
 ### Returvärde
 
-A[`Document`](../../document/) objekt som representerar ett Word-dokument.
+A[`Document`](../../document/)objekt som representerar ett Word-dokument.
 
 ### Anmärkningar
 

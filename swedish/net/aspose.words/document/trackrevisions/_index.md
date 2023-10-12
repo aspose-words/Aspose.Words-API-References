@@ -1,14 +1,14 @@
 ---
 title: Document.TrackRevisions
 second_title: Aspose.Words för .NET API Referens
-description: Document fast egendom. Sann om ändringar spåras när detta dokument redigeras i Microsoft Word.
+description: Document fast egendom. Sant om ändringar spåras när detta dokument redigeras i Microsoft Word.
 type: docs
-weight: 410
+weight: 430
 url: /sv/net/aspose.words/document/trackrevisions/
 ---
 ## Document.TrackRevisions property
 
-**Sann** om ändringar spåras när detta dokument redigeras i Microsoft Word.
+Sant om ändringar spåras när detta dokument redigeras i Microsoft Word.
 
 ```csharp
 public bool TrackRevisions { get; set; }

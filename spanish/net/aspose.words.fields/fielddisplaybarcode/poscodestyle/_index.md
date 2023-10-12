@@ -1,14 +1,14 @@
 ---
 title: FieldDisplayBarcode.PosCodeStyle
 second_title: Referencia de API de Aspose.Words para .NET
-description: FieldDisplayBarcode propiedad. Obtiene o establece el estilo de un código de barras de Punto de Venta tipos de código de barras UPCAUPCEEAN13EAN8. Los valores válidos sin distinción entre mayúsculas y minúsculas son STDSUP2SUP5CASE.
+description: FieldDisplayBarcode propiedad. Obtiene o establece el estilo de un código de barras de Punto de Venta tipos de códigos de barras UPCAUPCEEAN13EAN8. Los valores válidos sin distinguir entre mayúsculas y minúsculas son STDSUP2SUP5CASE.
 type: docs
 weight: 110
 url: /es/net/aspose.words.fields/fielddisplaybarcode/poscodestyle/
 ---
 ## FieldDisplayBarcode.PosCodeStyle property
 
-Obtiene o establece el estilo de un código de barras de Punto de Venta (tipos de código de barras UPCA&#x7C;UPCE&#x7C;EAN13&#x7C;EAN8). Los valores válidos (sin distinción entre mayúsculas y minúsculas) son [STD&#x7C;SUP2&#x7C;SUP5&#x7C;CASE].
+Obtiene o establece el estilo de un código de barras de Punto de Venta (tipos de códigos de barras UPCA&#x7C;UPCE&#x7C;EAN13&#x7C;EAN8). Los valores válidos (sin distinguir entre mayúsculas y minúsculas) son [STD&#x7C;SUP2&#x7C;SUP5&#x7C;CASE].
 
 ```csharp
 public string PosCodeStyle { get; set; }
@@ -24,7 +24,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 FieldDisplayBarcode field = (FieldDisplayBarcode)builder.InsertField(FieldType.FieldDisplayBarcode, true);
 
-// A continuación se muestran cuatro tipos de códigos de barras, decorados de varias maneras, que puede mostrar el campo DISPLAYBARCODE.
+// A continuación se muestran cuatro tipos de códigos de barras, decorados de diversas formas, que puede mostrar el campo DISPLAYBARCODE.
 // 1 - Código QR con colores personalizados:
 field.BarcodeType = "QR";
 field.BarcodeValue = "ABC123";
@@ -49,7 +49,7 @@ field.FixCheckDigit = true;
 Assert.AreEqual(" DISPLAYBARCODE  501234567890 EAN13 \\t \\p CASE \\x", field.GetFieldCode());
 builder.Writeln();
 
-// 3 - Código de barras CODE39:
+// 3 - código de barras CODE39:
 field = (FieldDisplayBarcode)builder.InsertField(FieldType.FieldDisplayBarcode, true);
 field.BarcodeType = "CODE39";
 field.BarcodeValue = "12345ABCDE";

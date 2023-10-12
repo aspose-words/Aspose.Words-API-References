@@ -3,7 +3,7 @@ title: PageSetup.Orientation
 second_title: Référence de l'API Aspose.Words pour .NET
 description: PageSetup propriété. Renvoie ou définit lorientation de la page.
 type: docs
-weight: 280
+weight: 290
 url: /fr/net/aspose.words/pagesetup/orientation/
 ---
 ## PageSetup.Orientation property
@@ -16,11 +16,11 @@ public Orientation Orientation { get; set; }
 
 ### Remarques
 
-En changeant **Orientation** swaps[`PageWidth`](../pagewidth/) et[`PageHeight`](../pageheight/).
+En changeant`Orientation` échanges[`PageWidth`](../pagewidth/) et[`PageHeight`](../pageheight/).
 
 ### Exemples
 
-Montre comment ajuster la taille du papier, l'orientation, les marges, ainsi que d'autres paramètres pour une section.
+Montre comment ajuster le format du papier, l’orientation, les marges, ainsi que d’autres paramètres pour une section.
 
 ```csharp
 Document doc = new Document();
@@ -40,19 +40,19 @@ builder.Writeln("Hello world!");
 doc.Save(ArtifactsDir + "PageSetup.PageMargins.docx");
 ```
 
-Montre comment appliquer et rétablir les paramètres de mise en page aux sections d'un document.
+Montre comment appliquer et rétablir les paramètres de mise en page aux sections d’un document.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Modifie les propriétés de mise en page pour la section actuelle du générateur et ajoute du texte.
+// Modifie les propriétés de mise en page de la section actuelle du générateur et ajoute du texte.
 builder.PageSetup.Orientation = Orientation.Landscape;
 builder.PageSetup.VerticalAlignment = PageVerticalAlignment.Center;
 builder.Writeln("This is the first section, which landscape oriented with vertically centered text.");
 
-// Si nous commençons une nouvelle section en utilisant un générateur de document,
-// il héritera des propriétés de configuration de page actuelles du générateur.
+// Si on démarre une nouvelle section en utilisant un générateur de documents,
+// il héritera des propriétés de mise en page actuelles du constructeur.
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 
 Assert.AreEqual(Orientation.Landscape, doc.Sections[1].PageSetup.Orientation);

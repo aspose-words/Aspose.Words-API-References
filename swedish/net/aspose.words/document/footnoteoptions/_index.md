@@ -23,7 +23,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // En fotnot är ett sätt att bifoga en referens eller en sidokommentar till text
-// som inte stör flödet i huvudtexten.  
+ // som inte stör flödet i huvudtexten.
 // Att infoga en fotnot lägger till en liten upphöjd referenssymbol
 // vid huvudtexten där vi infogar fotnoten.
 // Varje fotnot skapar också en post längst ner på sidan, bestående av en symbol
@@ -49,7 +49,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Fotnoter och slutnoter är ett sätt att bifoga en referens eller en sidokommentar till text
-// som inte stör flödet i huvudtexten. 
+ // som inte stör flödet i huvudtexten.
 // Att infoga en fotnot/slutnot lägger till en liten upphöjd referenssymbol
 // vid huvudtexten där vi infogar fotnoten/slutnoten.
 // Varje fotnot/slutnot skapar också en post, som består av en symbol
@@ -94,7 +94,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Fotnoter och slutnoter är ett sätt att bifoga en referens eller en sidokommentar till text
-// som inte stör flödet i huvudtexten. 
+ // som inte stör flödet i huvudtexten.
 // Att infoga en fotnot/slutnot lägger till en liten upphöjd referenssymbol
 // vid huvudtexten där vi infogar fotnoten/slutnoten.
 // Varje fotnot/slutnot skapar också en post, som består av en symbol som matchar referensen
@@ -139,7 +139,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Fotnoter och slutnoter är ett sätt att bifoga en referens eller en sidokommentar till text
-// som inte stör flödet i huvudtexten. 
+ // som inte stör flödet i huvudtexten.
 // Att infoga en fotnot/slutnot lägger till en liten upphöjd referenssymbol
 // vid huvudtexten där vi infogar fotnoten/slutnoten.
 // Varje fotnot/slutnot skapar också en post, som består av en symbol som matchar referensen

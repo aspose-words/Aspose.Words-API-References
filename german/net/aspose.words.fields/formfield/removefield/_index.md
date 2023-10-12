@@ -1,14 +1,14 @@
 ---
 title: FormField.RemoveField
 second_title: Aspose.Words für .NET-API-Referenz
-description: FormField methode. Entfernt das komplette Formularfeld nicht nur das Sonderzeichen des Formularfelds.
+description: FormField methode. Entfernt das komplette Formularfeld nicht nur das FormularfeldSonderzeichen.
 type: docs
 weight: 240
 url: /de/net/aspose.words.fields/formfield/removefield/
 ---
 ## FormField.RemoveField method
 
-Entfernt das komplette Formularfeld, nicht nur das Sonderzeichen des Formularfelds.
+Entfernt das komplette Formularfeld, nicht nur das Formularfeld-Sonderzeichen.
 
 ```csharp
 public void RemoveField()

@@ -1,12 +1,14 @@
 ---
 title: Enum SvgTextOutputMode
 second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Saving.SvgTextOutputMode opsomming. 
+description: Aspose.Words.Saving.SvgTextOutputMode opsomming. Ermöglicht die Angabe wie Text in einem Dokument gerendert werden soll beim Speichern im SVGFormat.
 type: docs
-weight: 5330
+weight: 5610
 url: /de/net/aspose.words.saving/svgtextoutputmode/
 ---
 ## SvgTextOutputMode enumeration
+
+Ermöglicht die Angabe, wie Text in einem Dokument gerendert werden soll beim Speichern im SVG-Format.
 
 ```csharp
 public enum SvgTextOutputMode
@@ -17,8 +19,8 @@ public enum SvgTextOutputMode
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
 | UseSvgFonts | `0` | SVG-Schriftarten werden zum Rendern von Text verwendet. Beachten Sie, dass nicht alle Browser SVG-Schriftarten unterstützen. |
-| UseTargetMachineFonts | `1` | Schriftarten, die auf dem Zielcomputer installiert sind, werden zum Rendern von Text verwendet. Hinweis: Wenn einige der im Dokument verwendeten Schriftarten auf dem Zielcomputer nicht verfügbar sind, kann das Dokument anders aussehen. |
-| UsePlacedGlyphs | `2` | Text wird mit Kurven gerendert. Beachten Sie, dass die Textauswahl nicht funktioniert, wenn Sie diese Option verwenden. |
+| UseTargetMachineFonts | `1` | Auf dem Zielcomputer installierte Schriftarten werden zum Rendern von Text verwendet. Hinweis: Wenn einige der im Dokument verwendeten Schriftarten auf dem Zielcomputer nicht verfügbar sind, kann das Dokument anders aussehen. |
+| UsePlacedGlyphs | `2` | Text wird mithilfe von Kurven gerendert. Beachten Sie, dass die Textauswahl nicht funktioniert, wenn Sie diese Option verwenden. |
 
 ### Beispiele
 
@@ -27,7 +29,7 @@ Zeigt, wie die Eigenschaften von Bildern beim Konvertieren eines .docx-Dokuments
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
 
-// Konfigurieren Sie das SvgSaveOptions-Objekt so, dass es ohne Seitenränder oder auswählbaren Text gespeichert wird.
+// Konfigurieren Sie das SVGSaveOptions-Objekt zum Speichern ohne Seitenränder oder auswählbaren Text.
 SvgSaveOptions options = new SvgSaveOptions
 {
     FitToViewPort = true,

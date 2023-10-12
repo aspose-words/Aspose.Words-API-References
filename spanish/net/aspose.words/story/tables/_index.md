@@ -1,14 +1,14 @@
 ---
 title: Story.Tables
 second_title: Referencia de API de Aspose.Words para .NET
-description: Story propiedad. Obtiene una colección de tablas que son elementos secundarios inmediatos de la historia.
+description: Story propiedad. Obtiene una colección de tablas que son hijas inmediatas de la historia.
 type: docs
 weight: 50
 url: /es/net/aspose.words/story/tables/
 ---
 ## Story.Tables property
 
-Obtiene una colección de tablas que son elementos secundarios inmediatos de la historia.
+Obtiene una colección de tablas que son hijas inmediatas de la historia.
 
 ```csharp
 public TableCollection Tables { get; }

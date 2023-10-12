@@ -3,12 +3,14 @@ title: Class EditableRange
 second_title: Aspose.Words per .NET API Reference
 description: Aspose.Words.EditableRange classe. Rappresenta un singolo intervallo modificabile.
 type: docs
-weight: 1270
+weight: 1420
 url: /it/net/aspose.words/editablerange/
 ---
 ## EditableRange class
 
 Rappresenta un singolo intervallo modificabile.
+
+Per saperne di più, visita il[Modello oggetto documento Aspose.Words (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) articolo di documentazione.
 
 ```csharp
 public class EditableRange
@@ -20,19 +22,19 @@ public class EditableRange
 | --- | --- |
 | [EditableRangeEnd](../../aspose.words/editablerange/editablerangeend/) { get; } | Ottiene il nodo che rappresenta la fine dell'intervallo modificabile. |
 | [EditableRangeStart](../../aspose.words/editablerange/editablerangestart/) { get; } | Ottiene il nodo che rappresenta l'inizio dell'intervallo modificabile. |
-| [EditorGroup](../../aspose.words/editablerange/editorgroup/) { get; set; } | Restituisce o imposta un alias (o gruppo di modifica) che deve essere utilizzato per determinare se l'utente corrente può modificare questo intervallo modificabile. |
-| [Id](../../aspose.words/editablerange/id/) { get; } | Ottiene l'identificatore di intervallo modificabile. |
+| [EditorGroup](../../aspose.words/editablerange/editorgroup/) { get; set; } | Restituisce o imposta un alias (o gruppo di modifica) che verrà utilizzato per determinare se l'utente corrente potrà modificare questo intervallo modificabile. |
+| [Id](../../aspose.words/editablerange/id/) { get; } | Ottiene l'identificatore dell'intervallo modificabile. |
 | [SingleUser](../../aspose.words/editablerange/singleuser/) { get; set; } | Restituisce o imposta il singolo utente per l'intervallo modificabile. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [Remove](../../aspose.words/editablerange/remove/)() | Rimuove l'intervallo modificabile dal documento. Non rimuove i contenuti all'interno dell'intervallo modificabile. |
+| [Remove](../../aspose.words/editablerange/remove/)() | Rimuove l'intervallo modificabile dal documento. Non rimuove il contenuto all'interno dell'intervallo modificabile. |
 
 ### Osservazioni
 
-`EditableRange` è un oggetto "facciata" che incapsula due nodi[`EditableRangeStart`](./editablerangestart/) e[`EditableRangeEnd`](./editablerangeend/) in un albero di documenti e permette di lavorare con un intervallo modificabile come un singolo oggetto.
+`EditableRange` è un oggetto "facciata" che incapsula due nodi[`EditableRangeStart`](./editablerangestart/) e[`EditableRangeEnd`](./editablerangeend/) in un albero del documento e consente di lavorare con un intervallo modificabile come un singolo oggetto.
 
 ### Esempi
 
@@ -58,14 +60,14 @@ EditableRange editableRange = editableRangeStart.EditableRange;
 Assert.AreEqual(editableRangeStart.Id, editableRange.Id);
 Assert.AreEqual(editableRangeEnd.Id, editableRange.Id);
 
-// Diverse parti dell'intervallo modificabile si collegano tra loro.
+// Parti diverse dell'intervallo modificabile si collegano tra loro.
 Assert.AreEqual(editableRangeStart.Id, editableRange.EditableRangeStart.Id);
 Assert.AreEqual(editableRangeStart.Id, editableRangeEnd.EditableRangeStart.Id);
 Assert.AreEqual(editableRange.Id, editableRangeStart.EditableRange.Id);
 Assert.AreEqual(editableRangeEnd.Id, editableRange.EditableRangeEnd.Id);
 
-// Possiamo accedere ai tipi di nodo di ciascuna parte in questo modo. L'intervallo modificabile stesso non è un nodo,
-// ma un'entità che consiste in un inizio, una fine e il loro contenuto racchiuso.
+// Possiamo accedere ai tipi di nodo di ciascuna parte in questo modo. L'intervallo modificabile in sé non è un nodo,
+// ma un'entità che consiste in un inizio, una fine e il contenuto racchiuso.
 Assert.AreEqual(NodeType.EditableRangeStart, editableRangeStart.NodeType);
 Assert.AreEqual(NodeType.EditableRangeEnd, editableRangeEnd.NodeType);
 
@@ -89,8 +91,8 @@ public void Visitor()
     builder.Writeln("Hello world! Since we have set the document's protection level to read-only," +
                     " we cannot edit this paragraph without the password.");
 
-    // Quando proteggiamo i documenti in scrittura, gli intervalli modificabili ci consentono di selezionare aree specifiche che gli utenti possono modificare.
-    // Esistono due modi che si escludono a vicenda per restringere l'elenco degli editor consentiti.
+    // Quando proteggiamo i documenti dalla scrittura, gli intervalli modificabili ci consentono di scegliere aree specifiche che gli utenti possono modificare.
+    // Esistono due modi reciprocamente esclusivi per restringere l'elenco degli editor consentiti.
     // 1 - Specifica un utente:
     EditableRange editableRange = builder.StartEditableRange().EditableRange;
     editableRange.SingleUser = "john.doe@myoffice.com";
@@ -99,7 +101,7 @@ public void Visitor()
 
     Assert.AreEqual(EditorType.Unspecified, editableRange.EditorGroup);
 
-    // 2 - Specifica un gruppo a cui sono associati gli utenti autorizzati:
+    // 2 - Specificare un gruppo a cui sono associati gli utenti autorizzati:
     editableRange = builder.StartEditableRange().EditableRange;
     editableRange.EditorGroup = EditorType.Administrators;
     builder.Writeln($"This paragraph is inside the first editable range, can only be edited by {editableRange.EditorGroup}.");
@@ -109,7 +111,7 @@ public void Visitor()
 
     builder.Writeln("This paragraph is outside the editable range, and cannot be edited by anybody.");
 
-    // Stampa dettagli e contenuti di ogni intervallo modificabile nel documento.
+    // Stampa i dettagli e il contenuto di ogni intervallo modificabile nel documento.
     EditableRangePrinter editableRangePrinter = new EditableRangePrinter();
 
     doc.Accept(editableRangePrinter);
@@ -139,7 +141,7 @@ public class EditableRangePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando viene rilevato un nodo EditableRangeStart nel documento.
+    /// Chiamato quando nel documento viene rilevato un nodo EditableRangeStart.
     /// </summary>
     public override VisitorAction VisitEditableRangeStart(EditableRangeStart editableRangeStart)
     {
@@ -157,7 +159,7 @@ public class EditableRangePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando viene rilevato un nodo EditableRangeEnd nel documento.
+    /// Chiamato quando nel documento viene rilevato un nodo EditableRangeEnd.
     /// </summary>
     public override VisitorAction VisitEditableRangeEnd(EditableRangeEnd editableRangeEnd)
     {
@@ -169,7 +171,7 @@ public class EditableRangePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando viene rilevato un nodo Run nel documento. Questo visitatore registra solo le corse che si trovano all'interno di intervalli modificabili.
+    /// Chiamato quando nel documento viene incontrato un nodo Esegui. Questo visitatore registra solo le esecuzioni che rientrano negli intervalli modificabili.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {

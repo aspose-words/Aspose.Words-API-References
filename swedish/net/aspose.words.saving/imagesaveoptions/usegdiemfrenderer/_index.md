@@ -3,7 +3,7 @@ title: ImageSaveOptions.UseGdiEmfRenderer
 second_title: Aspose.Words för .NET API Referens
 description: ImageSaveOptions fast egendom. Hämtar eller ställer in ett värde som avgör om GDI eller Aspose.Wordsmetafilrenderare ska användas när du sparar till EMF.
 type: docs
-weight: 180
+weight: 190
 url: /sv/net/aspose.words.saving/imagesaveoptions/usegdiemfrenderer/
 ---
 ## ImageSaveOptions.UseGdiEmfRenderer property
@@ -16,7 +16,7 @@ public bool UseGdiEmfRenderer { get; set; }
 
 ### Anmärkningar
 
-Om inställt på`Sann`GDI+ metafil-renderare används. Dvs innehåll skrivs till GDI+ graphics objekt och sparas till metafil.
+Om inställt på`Sann` GDI+ metafil-renderare används. Dvs innehåll skrivs till GDI+ graphics objekt och sparas till metafil.
 
 Om inställt på`falsk` Aspose.Words metafil-renderare används. Dvs innehåll skrivs direkt till metafilformatet med Aspose.Words.
 

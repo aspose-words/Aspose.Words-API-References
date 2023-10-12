@@ -1,14 +1,14 @@
 ---
 title: SaveOptions.UpdateCreatedTimeProperty
 second_title: Aspose.Words for .NET API Referansı
-description: SaveOptions mülk. olup olmadığını belirleyen bir değer alır veya ayarlar.CreatedTime özellik kaydedilmeden önce güncellenir. Varsayılan değer false
+description: SaveOptions mülk. Bir değer alır veya ayarlar.CreatedTime özellik kaydedilmeden önce güncellenir. Varsayılan değerYANLIŞ 
 type: docs
-weight: 160
+weight: 150
 url: /tr/net/aspose.words.saving/saveoptions/updatecreatedtimeproperty/
 ---
 ## SaveOptions.UpdateCreatedTimeProperty property
 
-olup olmadığını belirleyen bir değer alır veya ayarlar.[`CreatedTime`](../../../aspose.words.properties/builtindocumentproperties/createdtime/) özellik kaydedilmeden önce güncellenir. Varsayılan değer false;
+Bir değer alır veya ayarlar.[`CreatedTime`](../../../aspose.words.properties/builtindocumentproperties/createdtime/) özellik kaydedilmeden önce güncellenir. Varsayılan değer:`YANLIŞ` ;
 
 ```csharp
 public bool UpdateCreatedTimeProperty { get; set; }

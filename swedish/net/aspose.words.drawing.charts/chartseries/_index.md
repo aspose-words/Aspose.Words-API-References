@@ -3,12 +3,14 @@ title: Class ChartSeries
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Drawing.Charts.ChartSeries klass. Representerar diagramserieegenskaper.
 type: docs
-weight: 730
+weight: 780
 url: /sv/net/aspose.words.drawing.charts/chartseries/
 ---
 ## ChartSeries class
 
 Representerar diagramserieegenskaper.
+
+För att lära dig mer, besök[Arbeta med diagram](https://docs.aspose.com/words/net/working-with-charts/) dokumentationsartikel.
 
 ```csharp
 public class ChartSeries : IChartDataPoint
@@ -18,23 +20,43 @@ public class ChartSeries : IChartDataPoint
 
 | namn | Beskrivning |
 | --- | --- |
-| [Bubble3D](../../aspose.words.drawing.charts/chartseries/bubble3d/) { get; set; } |  |
+| [Bubble3D](../../aspose.words.drawing.charts/chartseries/bubble3d/) { get; set; } | Anger om bubblorna i bubbeldiagrammet ska ha en 3D-effekt på dem. |
+| [BubbleSizes](../../aspose.words.drawing.charts/chartseries/bubblesizes/) { get; } | Får en samling bubbelstorlekar för denna diagramserie. |
 | [DataLabels](../../aspose.words.drawing.charts/chartseries/datalabels/) { get; } | Anger inställningarna för dataetiketterna för hela serien. |
 | [DataPoints](../../aspose.words.drawing.charts/chartseries/datapoints/) { get; } | Returnerar en samling formateringsobjekt för alla datapunkter i denna serie. |
-| [Explosion](../../aspose.words.drawing.charts/chartseries/explosion/) { get; set; } |  |
+| [Explosion](../../aspose.words.drawing.charts/chartseries/explosion/) { get; set; } | Anger hur mycket datapunkten ska flyttas från mitten av cirkeln. Kan vara negativ, negativ betyder att egenskapen inte är inställd och ingen explosion ska tillämpas. Gäller endast cirkeldiagram. |
 | [Format](../../aspose.words.drawing.charts/chartseries/format/) { get; } | Ger tillgång till fyllnings- och radformatering av serien. |
 | [HasDataLabels](../../aspose.words.drawing.charts/chartseries/hasdatalabels/) { get; set; } | Hämtar eller ställer in en flagga som indikerar om dataetiketter visas för serien. |
-| [InvertIfNegative](../../aspose.words.drawing.charts/chartseries/invertifnegative/) { get; set; } |  |
+| [InvertIfNegative](../../aspose.words.drawing.charts/chartseries/invertifnegative/) { get; set; } | Anger om det överordnade elementet ska invertera sina färger om värdet är negativt. |
 | [LegendEntry](../../aspose.words.drawing.charts/chartseries/legendentry/) { get; } | Får en legendpost för denna diagramserie. |
-| [Marker](../../aspose.words.drawing.charts/chartseries/marker/) { get; } |  |
+| [Marker](../../aspose.words.drawing.charts/chartseries/marker/) { get; } | Anger en datamarkör. Markör skapas automatiskt vid begäran. |
 | [Name](../../aspose.words.drawing.charts/chartseries/name/) { get; set; } | Hämtar eller ställer in namnet på serien, om namnet inte anges explicit genereras det med index. Som standard returnerar Series plus ett baserat index. |
+| [SeriesType](../../aspose.words.drawing.charts/chartseries/seriestype/) { get; } | Hämtar typen av denna diagramserie. |
 | [Smooth](../../aspose.words.drawing.charts/chartseries/smooth/) { get; set; } | Gör det möjligt att ange om linjen som förbinder punkterna på diagrammet ska jämnas ut med Catmull-Rom splines. |
+| [XValues](../../aspose.words.drawing.charts/chartseries/xvalues/) { get; } | Får en samling X-värden för denna diagramserie. |
+| [YValues](../../aspose.words.drawing.charts/chartseries/yvalues/) { get; } | Får en samling Y-värden för denna diagramserie. |
+
+## Metoder
+
+| namn | Beskrivning |
+| --- | --- |
+| [Add](../../aspose.words.drawing.charts/chartseries/add/#add)(ChartXValue) | Lägger till det angivna X-värdet till diagramserien. Om serien stöder Y-värden och bubbelstorlekar kommer de att vara tomma för X-värdet. |
+| [Add](../../aspose.words.drawing.charts/chartseries/add/#add_1)(ChartXValue, ChartYValue) | Lägger till de angivna X- och Y-värdena till diagramserien. |
+| [Add](../../aspose.words.drawing.charts/chartseries/add/#add_2)(ChartXValue, ChartYValue, double) | Lägger till det angivna X-värdet, Y-värdet och bubbelstorleken till diagramserien. |
+| [Clear](../../aspose.words.drawing.charts/chartseries/clear/)() | Tar bort alla datavärden från diagramserien. Formatet för alla individuella datapunkter och dataetiketter rensas. |
+| [ClearValues](../../aspose.words.drawing.charts/chartseries/clearvalues/)() | Tar bort alla datavärden från diagramserien med att bevara formatet för datapunkterna och dataetiketterna. |
+| [CopyFormatFrom](../../aspose.words.drawing.charts/chartseries/copyformatfrom/)(int) |  |
+| [Insert](../../aspose.words.drawing.charts/chartseries/insert/#insert)(int, ChartXValue) | Infogar det angivna X-värdet i diagramserien vid det angivna indexet. Om serien stöder Y-värden och bubbelstorlekar kommer de att vara tomma för X-värdet. |
+| [Insert](../../aspose.words.drawing.charts/chartseries/insert/#insert_1)(int, ChartXValue, ChartYValue) | Infogar de angivna X- och Y-värdena i diagramserien vid det angivna indexet. |
+| [Insert](../../aspose.words.drawing.charts/chartseries/insert/#insert_2)(int, ChartXValue, ChartYValue, double) | Infogar det angivna X-värdet, Y-värdet och bubbelstorleken i diagramserien vid det angivna indexet. |
+| [Remove](../../aspose.words.drawing.charts/chartseries/remove/)(int) | Tar bort X-värdet, Y-värdet och bubbelstorleken, om det stöds, från diagramserien vid det angivna indexet. Motsvarande datapunkt och dataetikett tas också bort. |
 
 ### Exempel
 
 Visar hur man applicerar etiketter på datapunkter i ett linjediagram.
 
 ```csharp
+public void DataLabels()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);

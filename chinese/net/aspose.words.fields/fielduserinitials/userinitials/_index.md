@@ -26,8 +26,8 @@ UserInformation userInformation = new UserInformation();
 userInformation.Initials = "J. D.";
 doc.FieldOptions.CurrentUser = userInformation;
 
-// 创建一个 USERINITIALS 字段来显示当前用户的姓名缩写，
-// 取自我们在上面创建的 UserInformation 对象。
+// 创建一个 USERINITIALS 字段来显示当前用户的姓名首字母，
+// 取自我们上面创建的 UserInformation 对象。
 DocumentBuilder builder = new DocumentBuilder(doc);
 FieldUserInitials fieldUserInitials = (FieldUserInitials)builder.InsertField(FieldType.FieldUserInitials, true);
 Assert.AreEqual(userInformation.Initials, fieldUserInitials.Result);
@@ -35,7 +35,7 @@ Assert.AreEqual(userInformation.Initials, fieldUserInitials.Result);
 Assert.AreEqual(" USERINITIALS ", fieldUserInitials.GetFieldCode());
 Assert.AreEqual("J. D.", fieldUserInitials.Result);
 
- // 我们可以设置这个属性来让我们的字段覆盖当前存储在 UserInformation 对象中的值。
+ // 我们可以设置此属性以使我们的字段覆盖当前存储在 UserInformation 对象中的值。
 fieldUserInitials.UserInitials = "J. C.";
 fieldUserInitials.Update();
 

@@ -1,14 +1,14 @@
 ---
 title: PhysicalFontInfo.FilePath
 second_title: Справочник по API Aspose.Words для .NET
-description: PhysicalFontInfo свойство. Путь к файлу шрифта если он есть.
+description: PhysicalFontInfo свойство. Путь к файлу шрифта если есть.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fonts/physicalfontinfo/filepath/
 ---
 ## PhysicalFontInfo.FilePath property
 
-Путь к файлу шрифта, если он есть.
+Путь к файлу шрифта, если есть.
 
 ```csharp
 public string FilePath { get; }

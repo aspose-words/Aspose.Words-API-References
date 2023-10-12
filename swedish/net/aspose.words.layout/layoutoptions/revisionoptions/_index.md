@@ -3,7 +3,7 @@ title: LayoutOptions.RevisionOptions
 second_title: Aspose.Words för .NET API Referens
 description: LayoutOptions fast egendom. Får versionsalternativ.
 type: docs
-weight: 60
+weight: 70
 url: /sv/net/aspose.words.layout/layoutoptions/revisionoptions/
 ---
 ## LayoutOptions.RevisionOptions property

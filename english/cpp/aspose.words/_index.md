@@ -105,6 +105,7 @@ The **Aspose.Words** namespace provides classes for generating, converting, modi
 
 | Enum | Description |
 | --- | --- |
+| [BaselineAlignment](./baselinealignment/) | BaselineAlignment enumeration. |
 | [BorderType](./bordertype/) | Specifies sides of a border. To learn more, visit the [Programming with Documents](https://docs.aspose.com/words/cpp/programming-with-documents/) documentation article. |
 | [BreakType](./breaktype/) | Specifies type of a break inside a document. |
 | [CalendarType](./calendartype/) | Specifies the type of a calendar. |
@@ -138,6 +139,7 @@ The **Aspose.Words** namespace provides classes for generating, converting, modi
 | [ProtectionType](./protectiontype/) | Protection type for a document. |
 | [RevisionsView](./revisionsview/) | Allows to specify whether to work with the original or revised version of a document. |
 | [RevisionType](./revisiontype/) | Specifies the type of change being tracked in [Revision](./revision/). |
+| [RunPrExpandFlags](./runprexpandflags/) | RunPrExpandFlags enumeration. |
 | [SaveFormat](./saveformat/) | Indicates the format in which the document is saved. |
 | [SectionLayoutMode](./sectionlayoutmode/) | Specifies the layout mode for a section allowing to define the document grid behavior. |
 | [SectionStart](./sectionstart/) | The type of break at the beginning of the section. |

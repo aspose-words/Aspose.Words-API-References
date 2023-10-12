@@ -21,7 +21,7 @@ public void SetFontsFolder(string fontFolder, bool recursive)
 
 ### Ejemplos
 
-Muestra cómo configurar un directorio fuente de fuentes.
+Muestra cómo configurar un directorio de origen de fuentes.
 
 ```csharp
 Document doc = new Document();
@@ -32,8 +32,8 @@ builder.Writeln("Hello world!");
 builder.Font.Name = "Amethysta";
 builder.Writeln("The quick brown fox jumps over the lazy dog.");
 
-// Nuestras fuentes de fuentes no contienen la fuente que hemos usado para el texto en este documento.
-// Si usamos esta configuración de fuente mientras renderizamos este documento,
+// Nuestras fuentes de fuentes no contienen la fuente que hemos utilizado para el texto de este documento.
+// Si utilizamos esta configuración de fuente al renderizar este documento,
 // Aspose.Words aplicará una fuente alternativa al texto que tenga una fuente que Aspose.Words no pueda localizar.
 FontSourceBase[] originalFontSources = FontSettings.DefaultInstance.GetFontsSources();
 
@@ -44,10 +44,10 @@ Assert.True(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName =
 Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arvo"));
 Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Amethysta"));
 
-// Use el método "SetFontsFolder" para establecer un directorio que actuará como una nueva fuente de fuente.
-// Pase "falso" como argumento "recursivo" para incluir fuentes de todos los archivos de fuentes que están en el directorio
-// que estamos pasando en el primer argumento, pero sin incluir ninguna fuente en ninguna de las subcarpetas de ese directorio.
-// Pasar "verdadero" como argumento "recursivo" para incluir todos los archivos de fuentes en el directorio que estamos pasando
+// Utilice el método "SetFontsFolder" para establecer un directorio que actuará como una nueva fuente de fuente.
+// Pasa "falso" como argumento "recursivo" para incluir fuentes de todos los archivos de fuentes que están en el directorio
+// que estamos pasando el primer argumento, pero no incluimos ninguna fuente en ninguna de las subcarpetas de ese directorio.
+// Pasa "true" como argumento "recursivo" para incluir todos los archivos de fuentes en el directorio que estamos pasando
 // en el primer argumento, así como todas las fuentes en sus subdirectorios.
 FontSettings.DefaultInstance.SetFontsFolder(FontsDir, recursive);
 

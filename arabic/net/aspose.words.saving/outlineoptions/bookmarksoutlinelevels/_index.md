@@ -1,14 +1,14 @@
 ---
 title: OutlineOptions.BookmarksOutlineLevels
 second_title: Aspose.Words لمراجع .NET API
-description: OutlineOptions ملكية. يسمح بتحديد مستوى مخطط الإشارات المرجعية الفردية.
+description: OutlineOptions ملكية. يسمح بتحديد مستوى المخطط التفصيلي للإشارات المرجعية الفردية.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.saving/outlineoptions/bookmarksoutlinelevels/
 ---
 ## OutlineOptions.BookmarksOutlineLevels property
 
-يسمح بتحديد مستوى مخطط الإشارات المرجعية الفردية.
+يسمح بتحديد مستوى المخطط التفصيلي للإشارات المرجعية الفردية.
 
 ```csharp
 public BookmarksOutlineLevelCollection BookmarksOutlineLevels { get; }
@@ -16,7 +16,7 @@ public BookmarksOutlineLevelCollection BookmarksOutlineLevels { get; }
 
 ### ملاحظات
 
-إذا لم يتم تحديد مستوى الإشارة المرجعية في هذه المجموعة إذن[`DefaultBookmarksOutlineLevel`](../defaultbookmarksoutlinelevel/) القيمة المستخدمة.
+إذا لم يتم تحديد مستوى الإشارة المرجعية في هذه المجموعة[`DefaultBookmarksOutlineLevel`](../defaultbookmarksoutlinelevel/) يتم استخدام القيمة.
 
 ### أمثلة
 
@@ -42,8 +42,8 @@ builder.StartBookmark("Bookmark 3");
 builder.Writeln("Text inside Bookmark 3.");
 builder.EndBookmark("Bookmark 3");
 
-// عند الحفظ في .pdf ، يمكن الوصول إلى الإشارات المرجعية من خلال القائمة المنسدلة واستخدامها كإرساء من قبل معظم القراء.
-// يمكن أن تحتوي الإشارات المرجعية أيضًا على قيم رقمية لمستويات المخطط التفصيلي ،
+// عند الحفظ بصيغة pdf.، يمكن الوصول إلى الإشارات المرجعية عبر القائمة المنسدلة واستخدامها كنقاط ارتساء من قبل معظم القراء.
+// يمكن أن تحتوي الإشارات المرجعية أيضًا على قيم رقمية لمستويات المخطط التفصيلي،
 // تمكين إدخالات المخطط التفصيلي ذات المستوى الأدنى لإخفاء الإدخالات الفرعية ذات المستوى الأعلى عند طيها في القارئ.
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 BookmarksOutlineLevelCollection outlineLevels = pdfSaveOptions.OutlineOptions.BookmarksOutlineLevels;
@@ -62,14 +62,14 @@ Assert.AreEqual(2, outlineLevels.IndexOfKey("Bookmark 3"));
 outlineLevels.RemoveAt(2);
 outlineLevels.Remove("Bookmark 2");
 
-// هناك تسعة مستويات للمخطط التفصيلي. سيتم تحسين ترقيمهم أثناء عملية الحفظ.
-// في هذه الحالة ، ستصبح المستويات "5" و "9" هي "2" و "3".
+// هناك تسعة مستويات المخطط التفصيلي. سيتم تحسين ترقيمها أثناء عملية الحفظ.
+// في هذه الحالة، سيصبح المستويان "5" و"9" "2" و"3".
 outlineLevels.Add("Bookmark 2", 5);
 outlineLevels.Add("Bookmark 3", 9);
 
 doc.Save(ArtifactsDir + "BookmarksOutlineLevelCollection.BookmarkLevels.pdf", pdfSaveOptions);
 
-// سيحافظ تفريغ هذه المجموعة على الإشارات المرجعية ويضعها جميعًا في نفس مستوى المخطط التفصيلي.
+// سيؤدي إفراغ هذه المجموعة إلى الحفاظ على الإشارات المرجعية ووضعها كلها على نفس مستوى المخطط التفصيلي.
 outlineLevels.Clear();
 ```
 

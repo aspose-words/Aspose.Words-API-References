@@ -1,14 +1,14 @@
 ---
 title: DocumentProperty.ToString
 second_title: Aspose.Words per .NET API Reference
-description: DocumentProperty metodo. Restituisce il valore della proprietà come una stringa formattata in base alla locale corrente.
+description: DocumentProperty metodo. Restituisce il valore della proprietà come una stringa formattata in base alle impostazioni internazionali correnti.
 type: docs
 weight: 110
 url: /it/net/aspose.words.properties/documentproperty/tostring/
 ---
 ## DocumentProperty.ToString method
 
-Restituisce il valore della proprietà come una stringa formattata in base alla locale corrente.
+Restituisce il valore della proprietà come una stringa formattata in base alle impostazioni internazionali correnti.
 
 ```csharp
 public override string ToString()
@@ -20,7 +20,7 @@ Converte una proprietà booleana in "Y" o "N". Converte una proprietà di data i
 
 ### Esempi
 
-Mostra vari metodi di conversione del tipo di proprietà del documento personalizzate.
+Mostra vari metodi di conversione del tipo delle proprietà personalizzate del documento.
 
 ```csharp
 Document doc = new Document();
@@ -40,13 +40,13 @@ Assert.AreEqual(1, properties["Authorized Revision"].ToInt());
 Assert.AreEqual(123.45d, properties["Authorized Amount"].ToDouble());
 ```
 
-Mostra come lavorare con le proprietà del documento personalizzate.
+Mostra come lavorare con le proprietà personalizzate del documento.
 
 ```csharp
 Document doc = new Document(MyDir + "Properties.docx");
 
 // Ogni documento contiene una raccolta di proprietà personalizzate che, come le proprietà integrate, sono coppie chiave-valore.
-// Il documento ha un elenco fisso di proprietà integrate. L'utente crea tutte le proprietà personalizzate. 
+ // Il documento ha un elenco fisso di proprietà integrate. L'utente crea tutte le proprietà personalizzate.
 Assert.AreEqual("Value of custom document property", doc.CustomDocumentProperties["CustomProperty"].ToString());
 
 doc.CustomDocumentProperties.Add("CustomProperty2", "Value of custom document property #2");

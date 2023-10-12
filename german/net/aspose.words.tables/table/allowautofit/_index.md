@@ -16,7 +16,7 @@ public bool AllowAutoFit { get; set; }
 
 ### Bemerkungen
 
-Der Standardwert ist`Stimmt`.
+Der Standardwert ist`WAHR`.
 
 ### Beispiele
 
@@ -39,10 +39,10 @@ builder.Write("Lorem ipsum dolor sit amet, consectetur adipiscing elit, " +
 builder.EndRow();
 builder.EndTable();
 
-// Setzen Sie die Eigenschaft "AllowAutoFit" auf "false", damit die Tabelle die Abmessungen beibehält
-// aller seiner Zeilen und Zellen und schneidet den Inhalt ab, wenn er zu groß wird, um hineinzupassen.
-// Setzen Sie die Eigenschaft "AllowAutoFit" auf "true", damit die Tabelle die Breite und Höhe ihrer Zellen ändern kann
-// um ihren Inhalt aufzunehmen.
+// Setzen Sie die Eigenschaft „AllowAutoFit“ auf „false“, damit die Tabelle die Abmessungen beibehält
+// aller Zeilen und Zellen und kürzen Sie den Inhalt, wenn er zu groß wird, um hineinzupassen.
+// Setzen Sie die Eigenschaft „AllowAutoFit“ auf „true“, damit die Tabelle die Breite und Höhe ihrer Zellen ändern kann
+// um ihren Inhalt unterzubringen.
 table.AllowAutoFit = allowAutoFit;
 
 doc.Save(ArtifactsDir + "Table.AllowAutoFitOnTable.html");

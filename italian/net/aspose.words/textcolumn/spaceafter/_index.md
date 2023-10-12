@@ -1,14 +1,14 @@
 ---
 title: TextColumn.SpaceAfter
 second_title: Aspose.Words per .NET API Reference
-description: TextColumn proprietà. Ottiene o imposta lo spazio in punti tra questa colonna e la colonna successiva. Non richiesto per lultima colonna.
+description: TextColumn proprietà. Ottiene o imposta lo spazio tra questa colonna e la colonna successiva in punti. Non richiesto per lultima colonna.
 type: docs
 weight: 10
 url: /it/net/aspose.words/textcolumn/spaceafter/
 ---
 ## TextColumn.SpaceAfter property
 
-Ottiene o imposta lo spazio in punti tra questa colonna e la colonna successiva. Non richiesto per l'ultima colonna.
+Ottiene o imposta lo spazio tra questa colonna e la colonna successiva in punti. Non richiesto per l'ultima colonna.
 
 ```csharp
 public double SpaceAfter { get; set; }
@@ -37,7 +37,7 @@ TextColumn column = columns[0];
 column.Width = 100;
 column.SpaceAfter = 20;
 
-// Imposta la seconda colonna per occupare il resto dello spazio disponibile all'interno dei margini della pagina.
+// Imposta la seconda colonna per occupare il resto dello spazio disponibile entro i margini della pagina.
 column = columns[1];
 column.Width = contentWidth - column.Width - column.SpaceAfter;
 

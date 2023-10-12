@@ -16,7 +16,7 @@ public void ClearFormatting()
 
 ### أمثلة
 
-يوضح كيفية إعادة تعيين أنماط الجدول الشرطية.
+يوضح كيفية إعادة تعيين أنماط الجدول الشرطي.
 
 ```csharp
 Document doc = new Document();
@@ -33,14 +33,14 @@ builder.EndTable();
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 table.Style = tableStyle;
 
-// اضبط نمط الجدول لتلوين حدود الصف الأول من الجدول باللون الأحمر.
+// قم بتعيين نمط الجدول لتلوين حدود الصف الأول من الجدول باللون الأحمر.
 tableStyle.ConditionalStyles.FirstRow.Borders.Color = Color.Red;
 
-// اضبط نمط الجدول لتلوين حدود الصف الأخير من الجدول باللون الأزرق.
+// قم بتعيين نمط الجدول لتلوين حدود الصف الأخير من الجدول باللون الأزرق.
 tableStyle.ConditionalStyles.LastRow.Borders.Color = Color.Blue;
 
 // فيما يلي طريقتان لاستخدام طريقة "ClearFormatting" لمسح الأنماط الشرطية.
-// 1 - امسح الأنماط الشرطية لجزء معين من الجدول:
+// 1 - مسح الأنماط الشرطية لجزء معين من الجدول:
 tableStyle.ConditionalStyles[0].ClearFormatting();
 
 Assert.AreEqual(Color.Empty, tableStyle.ConditionalStyles.FirstRow.Borders.Color);

@@ -20,7 +20,7 @@ public MemoryStream GetOleEntry(string oleEntryName)
 
 ### Valor_devuelto
 
-Un flujo de datos OLE o nulo.
+Un flujo de datos OLE o`nulo`.
 
 ### Ejemplos
 
@@ -30,7 +30,7 @@ Muestra cómo insertar objetos OLE vinculados y no vinculados.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Incruste un dibujo de Microsoft Visio en el documento como un objeto OLE.
+// Incrustar un dibujo de Microsoft Visio en el documento como un objeto OLE.
 builder.InsertOleObject(ImageDir + "Microsoft Visio drawing.vsd", "Package", false, false, null);
 
 // Inserte un enlace al archivo en el sistema de archivos local y muéstrelo como un icono.
@@ -61,7 +61,7 @@ Assert.AreEqual("Microsoft Visio drawing.vsd", oleFormat.IconCaption);
 
 doc.Save(ArtifactsDir + "Shape.OleLinks.docx");
 
-// Si el objeto contiene datos OLE, podemos acceder a él usando una secuencia.
+// Si el objeto contiene datos OLE, podemos acceder a él mediante una secuencia.
 using (MemoryStream stream = oleFormat.GetOleEntry("\x0001CompObj"))
 {
     byte[] oleEntryBytes = stream.ToArray();

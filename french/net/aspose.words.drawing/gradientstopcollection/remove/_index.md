@@ -16,7 +16,7 @@ public bool Remove(GradientStop gradientStop)
 
 ### Return_Value
 
-Vrai si l'arrêt du dégradé a été supprimé avec succès, sinon faux.
+`vrai` si l'arrêt du dégradé a été supprimé avec succès, sinon`FAUX`.
 
 ### Exemples
 
@@ -32,18 +32,18 @@ shape.Fill.TwoColorGradient(Color.Green, Color.Red, GradientStyle.Horizontal, Gr
 // Récupère la collection d'arrêts de dégradé.
 GradientStopCollection gradientStops = shape.Fill.GradientStops;
 
-// Changer le premier arrêt du dégradé.
-gradientStops[0].Color = Color.Aqua;
+// Change le premier arrêt du dégradé.            
+gradientStops[0].Color = Color.Aqua;            
 gradientStops[0].Position = 0.1;
 gradientStops[0].Transparency = 0.25;
 
-// Ajoute un nouvel arrêt de dégradé à la fin de la collection.
+// Ajoute un nouveau point de dégradé à la fin de la collection.
 GradientStop gradientStop = new GradientStop(Color.Brown, 0.5);
 gradientStops.Add(gradientStop);
 
 // Supprime l'arrêt du dégradé à l'index 1.
 gradientStops.RemoveAt(1);
-// Et insère un nouvel arrêt de dégradé au même index 1.
+// Et insérez un nouveau point de dégradé au même index 1.
 gradientStops.Insert(1, new GradientStop(Color.Chocolate, 0.75, 0.3));
 
 // Supprime le dernier arrêt de dégradé de la collection.
@@ -52,6 +52,7 @@ gradientStops.Remove(gradientStop);
 
 Assert.AreEqual(2, gradientStops.Count);
 
+Assert.AreEqual(Color.FromArgb(255, 0, 255, 255), gradientStops[0].BaseColor);
 Assert.AreEqual(Color.Aqua.ToArgb(), gradientStops[0].Color.ToArgb());
 Assert.AreEqual(0.1d, gradientStops[0].Position, 0.01d);
 Assert.AreEqual(0.25d, gradientStops[0].Transparency, 0.01d);

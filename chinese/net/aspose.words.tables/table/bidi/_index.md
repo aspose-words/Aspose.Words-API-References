@@ -1,14 +1,14 @@
 ---
 title: Table.Bidi
 second_title: Aspose.Words for .NET API 参考
-description: Table 财产. 获取或设置这是否是一个从右到左的表
+description: Table 财产. 获取或设置这是否是从右到左的表格
 type: docs
 weight: 80
 url: /zh/net/aspose.words.tables/table/bidi/
 ---
 ## Table.Bidi property
 
-获取或设置这是否是一个从右到左的表。
+获取或设置这是否是从右到左的表格。
 
 ```csharp
 public bool Bidi { get; set; }
@@ -16,13 +16,13 @@ public bool Bidi { get; set; }
 
 ### 评论
 
-什么时候`真的`，此行中的单元格从右到左排列。
+什么时候`真的`，该行中的单元格从右到左排列。
 
-默认值为`错误的`.
+默认值为`错误的`。
 
 ### 例子
 
-显示如何为表格创建自定义样式设置。
+演示如何为表格创建自定义样式设置。
 
 ```csharp
 Document doc = new Document();

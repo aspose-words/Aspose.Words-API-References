@@ -21,7 +21,7 @@ Visar hur man använder fältet TITLE.
 ```csharp
 Document doc = new Document();
 
-  // Ställ in ett värde för den inbyggda dokumentegenskapen "Titel".
+ // Ställ in ett värde för den inbyggda dokumentegenskapen "Titel".
 doc.BuiltInDocumentProperties.Title = "My Title";
 
 // Vi kan använda fältet TITLE för att visa värdet på den här egenskapen i dokumentet.

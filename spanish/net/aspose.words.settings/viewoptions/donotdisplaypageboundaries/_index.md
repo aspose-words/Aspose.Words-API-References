@@ -16,13 +16,13 @@ public bool DoNotDisplayPageBoundaries { get; set; }
 
 ### Ejemplos
 
-Muestra cómo ocultar espacios en blanco verticales y encabezados/pies de página en las opciones de vista.
+Muestra cómo ocultar espacios en blanco verticales y encabezados/pies de página en las opciones de visualización.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Insertar contenido que abarque 3 páginas.
+// Inserta contenido que abarque 3 páginas.
 builder.Writeln("Paragraph 1, Page 1.");
 builder.InsertBreak(BreakType.PageBreak);
 builder.Writeln("Paragraph 2, Page 2.");
@@ -36,9 +36,9 @@ builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
 builder.Writeln("This is the footer.");
 
 // Este documento contiene una pequeña cantidad de contenido que ocupa unas pocas páginas completas de espacio.
-// Establezca el indicador "DoNotDisplayPageBoundaries" en "true" para que las versiones anteriores de Microsoft Word omitan los encabezados,
-// pies de página y gran parte del espacio en blanco vertical al mostrar nuestro documento.
-// Establezca el indicador "DoNotDisplayPageBoundaries" en "falso" para obtener versiones anteriores de Microsoft Word
+// Establece el indicador "DoNotDisplayPageBoundaries" en "true" para que las versiones anteriores de Microsoft Word omitan los encabezados.
+// pies de página y gran parte de los espacios en blanco verticales al mostrar nuestro documento.
+// Establece el indicador "DoNotDisplayPageBoundaries" en "false" para obtener versiones anteriores de Microsoft Word
 // para mostrar normalmente nuestro documento.
 doc.ViewOptions.DoNotDisplayPageBoundaries = doNotDisplayPageBoundaries;
 

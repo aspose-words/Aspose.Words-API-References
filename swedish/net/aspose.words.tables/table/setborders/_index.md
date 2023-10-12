@@ -3,7 +3,7 @@ title: Table.SetBorders
 second_title: Aspose.Words för .NET API Referens
 description: Table metod. Ställer in alla tabellkanter till angiven linjestil bredd och färg.
 type: docs
-weight: 420
+weight: 440
 url: /sv/net/aspose.words.tables/table/setborders/
 ---
 ## Table.SetBorders method

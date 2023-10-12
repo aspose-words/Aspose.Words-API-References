@@ -1,14 +1,14 @@
 ---
 title: PageInfo.WidthInPoints
 second_title: Aspose.Words für .NET-API-Referenz
-description: PageInfo eigendom. Ruft die Breite der Seite in Punkten ab.
+description: PageInfo eigendom. Ermittelt die Breite der Seite in Punkten.
 type: docs
-weight: 60
+weight: 70
 url: /de/net/aspose.words.rendering/pageinfo/widthinpoints/
 ---
 ## PageInfo.WidthInPoints property
 
-Ruft die Breite der Seite in Punkten ab.
+Ermittelt die Breite der Seite in Punkten.
 
 ```csharp
 public float WidthInPoints { get; }
@@ -16,14 +16,14 @@ public float WidthInPoints { get; }
 
 ### Beispiele
 
-Zeigt, wie Informationen zur Seitengröße und Ausrichtung für jede Seite in einem Word-Dokument gedruckt werden.
+Zeigt, wie Seitengrößen- und Ausrichtungsinformationen für jede Seite in einem Word-Dokument gedruckt werden.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Der erste Abschnitt hat 2 Seiten. Wir werden jedem einen anderen Druckerpapierschacht zuweisen,
-// dessen Nummer mit einer Art Papierquelle übereinstimmt. Diese Quellen und ihre Arten variieren
-// je nach installiertem Druckertreiber.
+// Der erste Abschnitt hat 2 Seiten. Wir werden jedem ein anderes Druckerpapierfach zuweisen,
+// dessen Nummer mit einer Art Papierquelle übereinstimmt. Diese Quellen und ihre Arten können variieren
+// abhängig vom installierten Druckertreiber.
 PrinterSettings.PaperSourceCollection paperSources = new PrinterSettings().PaperSources;
 
 doc.FirstSection.PageSetup.FirstPageTray = paperSources[0].RawKind;
@@ -46,7 +46,7 @@ for (int i = 0; i < doc.PageCount; i++)
     Console.WriteLine($"\tSize in points:\t{pageInfo.SizeInPoints}");
     Console.WriteLine($"\tSize in pixels:\t{pageInfo.GetSizeInPixels(1.0f, 96)} at {scale * 100}% scale, {dpi} dpi");
 
-    // Informationen zum Quellfach drucken.
+    // Drucken Sie die Informationen zum Quellfach.
     Console.WriteLine($"\tTray:\t{pageInfo.PaperTray}");
     PaperSource source = pageInfo.GetSpecifiedPrinterPaperSource(paperSources, paperSources[0]);
     Console.WriteLine($"\tSuitable print source:\t{source.SourceName}, kind: {source.Kind}");

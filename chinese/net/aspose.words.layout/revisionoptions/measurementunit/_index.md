@@ -1,14 +1,14 @@
 ---
 title: RevisionOptions.MeasurementUnit
 second_title: Aspose.Words for .NET API 参考
-description: RevisionOptions 财产. 允许为修订注释指定测量单位 默认值为Centimeters
+description: RevisionOptions 财产. 允许指定修订注释的测量单位 默认值为Centimeters
 type: docs
 weight: 60
 url: /zh/net/aspose.words.layout/revisionoptions/measurementunit/
 ---
 ## RevisionOptions.MeasurementUnit property
 
-允许为修订注释指定测量单位。 默认值为Centimeters
+允许指定修订注释的测量单位。 默认值为Centimeters
 
 ```csharp
 public MeasurementUnits MeasurementUnit { get; set; }

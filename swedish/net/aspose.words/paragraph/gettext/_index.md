@@ -3,7 +3,7 @@ title: Paragraph.GetText
 second_title: Aspose.Words för .NET API Referens
 description: Paragraph metod. Hämtar texten i detta stycke inklusive slutet av styckets tecken.
 type: docs
-weight: 260
+weight: 280
 url: /sv/net/aspose.words/paragraph/gettext/
 ---
 ## Paragraph.GetText method
@@ -18,9 +18,9 @@ public override string GetText()
 
 Texten för alla underordnade noder är sammanlänkade och slutet av styckets tecken läggs till enligt följande:
 
-* Om stycket är det sista stycket i[`Body`](../../body/) , sedan [`ControlChar.SectionBreak`](../../controlchar/sectionbreak/) (\x000c) läggs till.
-* Om stycket är det sista stycket i[`Cell`](../../../aspose.words.tables/cell/) , sedan [`ControlChar.Cell`](../../controlchar/cell/) (\x0007) läggs till.
-* För alla andra paragrafer [`ControlChar.ParagraphBreak`](../../controlchar/paragraphbreak/) (\r) läggs till.
+* Om stycket är det sista stycket i[`Body`](../../body/) , sedan [`SectionBreak`](../../controlchar/sectionbreak/) (\x000c) läggs till.
+* Om stycket är det sista stycket i[`Cell`](../../../aspose.words.tables/cell/) , sedan [`Cell`](../../controlchar/cell/) (\x0007) läggs till.
+* För alla andra paragrafer [`ParagraphBreak`](../../controlchar/paragraphbreak/) (\r) läggs till.
 
 Den returnerade strängen innehåller alla kontroll- och specialtecken som beskrivs i[`ControlChar`](../../controlchar/).
 

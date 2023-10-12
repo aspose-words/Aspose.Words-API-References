@@ -16,7 +16,7 @@ public string Author { get; set; }
 
 ### Osservazioni
 
-Non può essere nullo.
+Non può essere`nullo`.
 
 L'impostazione predefinita è una stringa vuota.
 
@@ -28,9 +28,8 @@ Mostra come stampare tutti i commenti di un documento e le relative risposte.
 Document doc = new Document(MyDir + "Comments.docx");
 
 NodeCollection comments = doc.GetChildNodes(NodeType.Comment, true);
-
-// Se un commento non ha predecessori, è un commento di "livello superiore" anziché un commento di tipo risposta.
-// Stampa tutti i commenti di primo livello insieme a tutte le risposte che potrebbero avere.
+// Se un commento non ha un antenato, è un commento di "livello superiore" invece di un commento di tipo risposta.
+// Stampa tutti i commenti di livello superiore insieme alle eventuali risposte.
 foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == null))
 {
     Console.WriteLine("Top-level comment:");

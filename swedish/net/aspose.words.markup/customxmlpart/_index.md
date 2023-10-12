@@ -3,12 +3,14 @@ title: Class CustomXmlPart
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Markup.CustomXmlPart klass. Representerar en anpassad XMLdatalagringsdel anpassad XMLdata i ett paket.
 type: docs
-weight: 3680
+weight: 3920
 url: /sv/net/aspose.words.markup/customxmlpart/
 ---
 ## CustomXmlPart class
 
 Representerar en anpassad XML-datalagringsdel (anpassad XML-data i ett paket).
+
+För att lära dig mer, besök[Strukturerade dokumenttaggar eller innehållskontroll](https://docs.aspose.com/words/net/working-with-content-control-sdt/) dokumentationsartikel.
 
 ```csharp
 public class CustomXmlPart

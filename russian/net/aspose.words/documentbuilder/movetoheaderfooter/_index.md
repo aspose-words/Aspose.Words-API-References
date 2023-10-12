@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.MoveToHeaderFooter
 second_title: Справочник по API Aspose.Words для .NET
-description: DocumentBuilder метод. Перемещает курсор в начало верхнего или нижнего колонтитула в текущем разделе.
+description: DocumentBuilder метод. Перемещает курсор в начало верхнего или нижнего колонтитула текущего раздела.
 type: docs
-weight: 520
+weight: 550
 url: /ru/net/aspose.words/documentbuilder/movetoheaderfooter/
 ---
 ## DocumentBuilder.MoveToHeaderFooter method
 
-Перемещает курсор в начало верхнего или нижнего колонтитула в текущем разделе.
+Перемещает курсор в начало верхнего или нижнего колонтитула текущего раздела.
 
 ```csharp
 public void MoveToHeaderFooter(HeaderFooterType headerFooterType)
@@ -16,17 +16,17 @@ public void MoveToHeaderFooter(HeaderFooterType headerFooterType)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| headerFooterType | HeaderFooterType | Указывает верхний или нижний колонтитул, к которому нужно перейти. |
+| headerFooterType | HeaderFooterType | Указывает верхний или нижний колонтитул для перемещения. |
 
 ### Примечания
 
-После того как вы переместили курсор в верхний или нижний колонтитул, вы можете использовать остальные методы DocumentBuilder для изменения содержимого верхнего или нижнего колонтитула.
+После того как вы переместили курсор в верхний или нижний колонтитул, вы можете использовать остальную часть[`DocumentBuilder`](../) методы для изменения содержимого верхнего или нижнего колонтитула.
 
 Если вы хотите создать разные верхние и нижние колонтитулы для первой страницы, вам нужно установить[`DifferentFirstPageHeaderFooter`](../../pagesetup/differentfirstpageheaderfooter/).
 
-Если вы хотите создать разные верхние и нижние колонтитулы для четных и нечетных страниц, вам нужно установить [`OddAndEvenPagesHeaderFooter`](../../pagesetup/oddandevenpagesheaderfooter/).
+Если вы хотите создать разные верхние и нижние колонтитулы для четных и нечетных страниц, вам нужно установить[`OddAndEvenPagesHeaderFooter`](../../pagesetup/oddandevenpagesheaderfooter/).
 
-Использовать[`MoveToSection`](../movetosection/) чтобы выйти из заголовка в основной текст.
+Использовать[`MoveToSection`](../movetosection/) для перехода из шапки в основной текст.
 
 ### Примеры
 
@@ -36,14 +36,14 @@ public void MoveToHeaderFooter(HeaderFooterType headerFooterType)
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставляем изображение в шапку, чтобы оно было видно на каждой странице.
+// Вставляем изображение в заголовок, чтобы оно было видно на каждой странице.
 Image image = Image.FromFile(ImageDir + "Transparent background logo.png");
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 Shape shape = builder.InsertImage(image);
 shape.WrapType = WrapType.None;
 shape.BehindText = true;
 
-// Поместите изображение в центр страницы.
+// Размещаем изображение в центре страницы.
 shape.RelativeHorizontalPosition = RelativeHorizontalPosition.Page;
 shape.RelativeVerticalPosition = RelativeVerticalPosition.Page;
 shape.Left = (builder.PageSetup.PageWidth - shape.Width) / 2;
@@ -58,7 +58,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertWatermark.docx");
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставляем изображение в шапку, чтобы оно было видно на каждой странице.
+// Вставляем изображение в заголовок, чтобы оно было видно на каждой странице.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 
 using (SKBitmap image = SKBitmap.Decode(ImageDir + "Transparent background logo.png"))
@@ -68,7 +68,7 @@ using (SKBitmap image = SKBitmap.Decode(ImageDir + "Transparent background logo.
     shape.WrapType = WrapType.None;
     shape.BehindText = true;
 
-    // Поместите изображение в центр страницы.
+    // Размещаем изображение в центре страницы.
     shape.RelativeHorizontalPosition = RelativeHorizontalPosition.Page;
     shape.RelativeVerticalPosition = RelativeVerticalPosition.Page;
     shape.Left = (builder.PageSetup.PageWidth - shape.Width) / 2;
@@ -88,7 +88,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.PageSetup.DifferentFirstPageHeaderFooter = true;
 builder.PageSetup.OddAndEvenPagesHeaderFooter = true;
 
-// Создайте заголовки, затем добавьте в документ три страницы для отображения каждого типа заголовков.
+// Создайте заголовки, затем добавьте в документ три страницы для отображения каждого типа заголовка.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderFirst);
 builder.Write("Header for the first page");
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderEven);

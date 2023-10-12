@@ -1,14 +1,14 @@
 ---
 title: Enum PdfImageColorSpaceExportMode
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Saving.PdfImageColorSpaceExportMode تعداد. يحدد كيفية اختيار مساحة اللون للصور في مستند PDF.
+description: Aspose.Words.Saving.PdfImageColorSpaceExportMode تعداد. يحدد كيفية تحديد مساحة اللون للصور في مستند PDF.
 type: docs
-weight: 5200
+weight: 5480
 url: /ar/net/aspose.words.saving/pdfimagecolorspaceexportmode/
 ---
 ## PdfImageColorSpaceExportMode enumeration
 
-يحدد كيفية اختيار مساحة اللون للصور في مستند PDF.
+يحدد كيفية تحديد مساحة اللون للصور في مستند PDF.
 
 ```csharp
 public enum PdfImageColorSpaceExportMode
@@ -18,12 +18,12 @@ public enum PdfImageColorSpaceExportMode
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| Auto | `0` | Aspose.Words يختارون تلقائيًا مساحة اللون الأنسب لكل صورة. |
-| SimpleCmyk | `1` | Aspose.Words يغطي صور RGB إلى فضاء ألوان CMYK باستخدام صيغة بسيطة. |
+| Auto | `0` | يقوم Aspose.Words تلقائيًا بتحديد مساحة الألوان الأكثر ملاءمة لكل صورة. |
+| SimpleCmyk | `1` | Aspose.Words يغطي صور RGB إلى مساحة ألوان CMYK باستخدام صيغة بسيطة. |
 
 ### أمثلة
 
-يوضح كيفية تعيين مساحة ألوان مختلفة للصور في مستند أثناء تصديرها إلى PDF.
+يوضح كيفية تعيين مساحة ألوان مختلفة للصور في مستند أثناء تصديره إلى PDF.
 
 ```csharp
 Document doc = new Document();
@@ -35,16 +35,16 @@ builder.InsertParagraph();
 builder.Writeln("Png image:");
 builder.InsertImage(ImageDir + "Transparent background logo.png");
 
-// قم بإنشاء كائن "PdfSaveOptions" يمكننا تمريره إلى طريقة "Save" الخاصة بالمستند
-// لتعديل كيفية تحويل هذه الطريقة المستند إلى PDF.
+// قم بإنشاء كائن "PdfSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" المستند
+// لتعديل كيفية تحويل هذه الطريقة للمستند إلى .PDF.
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 
-// اضبط خاصية "ImageColorSpaceExportMode" على "PdfImageColorSpaceExportMode.Auto" للحصول على Aspose.Words إلى
-// يحدد تلقائيًا مساحة اللون للصور في المستند الذي يتم تحويله إلى PDF.
-// في معظم الحالات ، ستكون مساحة اللون هي RGB.
-// تعيين خاصية "ImageColorSpaceExportMode" على "PdfImageColorSpaceExportMode.SimpleCmyk"
-// لاستخدام مساحة ألوان CMYK لجميع الصور في PDF المحفوظ.
-// Aspose.Words ستطبق أيضًا ضغط Flate على جميع الصور وتتجاهل قيمة خاصية "ImageCompression".
+// قم بتعيين خاصية "ImageColorSpaceExportMode" على "PdfImageColorSpaceExportMode.Auto" للحصول على Aspose.Words
+// تحديد مساحة اللون تلقائيًا للصور الموجودة في المستند الذي يقوم بتحويله إلى PDF.
+// في معظم الحالات، ستكون مساحة اللون RGB.
+// قم بتعيين خاصية "ImageColorSpaceExportMode" على "PdfImageColorSpaceExportMode.SimpleCmyk"
+// لاستخدام مساحة ألوان CMYK لجميع الصور في ملف PDF المحفوظ.
+// Aspose.Words سيطبق أيضًا ضغط Flate على جميع الصور ويتجاهل قيمة خاصية "ImageCompression".
 pdfSaveOptions.ImageColorSpaceExportMode = pdfImageColorSpaceExportMode;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.ImageColorSpaceExportMode.pdf", pdfSaveOptions);

@@ -3,12 +3,14 @@ title: Class BookmarkStart
 second_title: Aspose.Words for .NET API Referansı
 description: Aspose.Words.BookmarkStart sınıf. Bir Word belgesindeki yer işaretinin başlangıcını temsil eder.
 type: docs
-weight: 60
+weight: 70
 url: /tr/net/aspose.words/bookmarkstart/
 ---
 ## BookmarkStart class
 
 Bir Word belgesindeki yer işaretinin başlangıcını temsil eder.
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Yer İşaretleriyle Çalışmak](https://docs.aspose.com/words/net/working-with-bookmarks/) dokümantasyon makalesi.
 
 ```csharp
 public class BookmarkStart : Node
@@ -18,69 +20,68 @@ public class BookmarkStart : Node
 
 | İsim | Tanım |
 | --- | --- |
-| [BookmarkStart](bookmarkstart/)(DocumentBase, string) | Yeni bir örneğini başlatır`BookmarkStart` sınıf. |
+| [BookmarkStart](bookmarkstart/)(DocumentBase, string) | Yeni bir örneğini başlatır`BookmarkStart` class. |
 
 ## Özellikleri
 
 | İsim | Tanım |
 | --- | --- |
-| [Bookmark](../../aspose.words/bookmarkstart/bookmark/) { get; } | Bu yer iminin başlangıç ve bitişini kapsayan cephe nesnesini alır. |
+| [Bookmark](../../aspose.words/bookmarkstart/bookmark/) { get; } | Bu yer işaretinin başlangıcını ve bitişini kapsülleyen cephe nesnesini alır. |
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Özel düğüm tanımlayıcısını belirtir. |
 | virtual [Document](../../aspose.words/node/document/) { get; } | Bu düğümün ait olduğu belgeyi alır. |
-| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Bu düğüm başka düğümler içerebiliyorsa true değerini döndürür. |
+| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | İadeler`doğru` bu düğüm başka düğümler içeriyorsa. |
 | [Name](../../aspose.words/bookmarkstart/name/) { get; set; } | Yer imi adını alır veya ayarlar. |
-| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Bu düğümden hemen sonraki düğümü alır. |
-| override [NodeType](../../aspose.words/bookmarkstart/nodetype/) { get; } | İadeBookmarkStart . |
-| [ParentNode](../../aspose.words/node/parentnode/) { get; } | Bu düğümün hemen üst öğesini alır. |
+| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Bu düğümden hemen sonra gelen düğümü alır. |
+| override [NodeType](../../aspose.words/bookmarkstart/nodetype/) { get; } | İadelerBookmarkStart . |
+| [ParentNode](../../aspose.words/node/parentnode/) { get; } | Bu düğümün doğrudan ebeveynini alır. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Bu düğümden hemen önceki düğümü alır. |
-| [Range](../../aspose.words/node/range/) { get; } | Bir döndürür **Menzil** belgenin bu düğümde bulunan bölümünü temsil eden nesne. |
+| [Range](../../aspose.words/node/range/) { get; } | Bir değeri döndürür[`Range`](../range/) Bu düğümde bulunan bir belgenin bölümünü temsil eden nesne. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| override [Accept](../../aspose.words/bookmarkstart/accept/)(DocumentVisitor) | Bir ziyaretçiyi kabul eder. |
+| override [Accept](../../aspose.words/bookmarkstart/accept/)(DocumentVisitor) | Ziyaretçi kabul eder. |
 | [Clone](../../aspose.words/node/clone/)(bool) | Düğümün bir kopyasını oluşturur. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Belirtilenin ilk atasını alır[`NodeType`](../nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Belirtilen nesne türünün ilk üst öğesini alır. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Belirtilenin ilk atayı alır[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Belirtilen nesne türünün ilk atayı alır. |
 | override [GetText](../../aspose.words/bookmarkstart/gettext/)() | Boş bir dize döndürür. |
 | [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Ön sipariş ağaç geçiş algoritmasına göre sonraki düğümü alır. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Ön sipariş ağacı geçiş algoritmasına göre önceki düğümü alır. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Ön sipariş ağaç geçiş algoritmasına göre önceki düğümü alır. |
 | [Remove](../../aspose.words/node/remove/)() | Kendini üst öğeden kaldırır. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Düğümün içeriğini belirtilen biçimde bir dizeye aktarır. |
+| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Düğümün içeriğini belirtilen formatta bir dizeye aktarır. |
 | [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Belirtilen kaydetme seçeneklerini kullanarak düğümün içeriğini bir dizeye aktarır. |
 
 ### Notlar
 
-Bir Word belgesindeki eksiksiz bir yer imi, bir`BookmarkStart` ve eşleşen[`BookmarkEnd`](../bookmarkend/) aynı yer imi adıyla.
+Bir Word belgesindeki tam bir yer imi şunlardan oluşur:`BookmarkStart` ve eşleşen bir[`BookmarkEnd`](../bookmarkend/) aynı yer imi adıyla.
 
-`BookmarkStart` ve[`BookmarkEnd`](../bookmarkend/) sadece yer iminin nerede başlayıp nerede bittiğini belirten bir document içindeki işaretlerdir.
+`BookmarkStart` Ve[`BookmarkEnd`](../bookmarkend/) yer işaretinin nerede başlayıp nerede biteceğini belirten, document içindeki işaretçilerdir yalnızca.
 
-Kullan[`Bookmark`](./bookmark/) bookmark ile tek bir nesne olarak çalışmak için "cephe" olarak sınıflandırın.
+Kullan[`Bookmark`](./bookmark/) Bookmark ile tek bir nesne olarak çalışmak için sınıfı bir "cephe" olarak kullanın.
 
 ### Örnekler
 
-Yer imlerinin nasıl ekleneceğini ve içeriklerinin nasıl güncelleneceğini gösterir.
+Yer işaretlerinin nasıl ekleneceğini ve içeriklerinin nasıl güncelleneceğini gösterir.
 
 ```csharp
 public void CreateUpdateAndPrintBookmarks()
 {
-    // Üç yer imi içeren bir belge oluşturun, ardından içeriklerini yazdırmak için özel bir belge ziyaretçi uygulaması kullanın.
+    // Üç yer imine sahip bir belge oluşturun, ardından içeriklerini yazdırmak için özel bir belge ziyaretçisi uygulaması kullanın.
     Document doc = CreateDocumentWithBookmarks(3);
     BookmarkCollection bookmarks = doc.Range.Bookmarks;
-
     PrintAllBookmarkInfo(bookmarks);
 
-    // Yer imi koleksiyonundaki yer imlerine dizin veya isme göre erişilebilir ve adları güncellenebilir.
+    // Yer imleri koleksiyonundaki yer imlerine dizine veya isme göre erişilebilir ve adları güncellenebilir.
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
-    // Güncellenen değerleri görmek için tüm yer imlerini yeniden yazdırın.
+    // Güncellenen değerleri görmek için tüm yer imlerini tekrar yazdırın.
     PrintAllBookmarkInfo(bookmarks);
 }
 
 /// <summary>
-/// Belirli sayıda yer imi içeren bir belge oluşturun.
+/// Belirli sayıda yer işaretine sahip bir belge oluşturun.
 /// </summary>
 private static Document CreateDocumentWithBookmarks(int numberOfBookmarks)
 {
@@ -108,7 +109,7 @@ private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 {
     BookmarkInfoPrinter bookmarkVisitor = new BookmarkInfoPrinter();
 
-    // İçeriğini yazdıracak bir ziyaretçiyi kabul etmek için koleksiyondaki her yer işaretini alın.
+    // Koleksiyondaki her yer iminin, içeriğini yazdıracak bir ziyaretçiyi kabul etmesini sağlayın.
     using (IEnumerator<Bookmark> enumerator = bookmarks.GetEnumerator())
     {
         while (enumerator.MoveNext())

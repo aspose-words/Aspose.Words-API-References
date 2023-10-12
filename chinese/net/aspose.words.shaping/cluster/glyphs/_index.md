@@ -1,12 +1,14 @@
 ---
 title: Cluster.Glyphs
 second_title: Aspose.Words for .NET API 参考
-description: Cluster 财产. 
+description: Cluster 财产. 获取簇的字形
 type: docs
 weight: 40
 url: /zh/net/aspose.words.shaping/cluster/glyphs/
 ---
 ## Cluster.Glyphs property
+
+获取簇的字形。
 
 ```csharp
 public Glyph[] Glyphs { get; }

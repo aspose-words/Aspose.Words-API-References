@@ -1,14 +1,14 @@
 ---
 title: Enum PdfCustomPropertiesExport
 second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Saving.PdfCustomPropertiesExport enumeración. Especifica la formaCustomDocumentProperties se exportan a archivo PDF.
+description: Aspose.Words.Saving.PdfCustomPropertiesExport enumeración. Especifica la formaCustomDocumentProperties se exportan a un archivo PDF.
 type: docs
-weight: 5140
+weight: 5420
 url: /es/net/aspose.words.saving/pdfcustompropertiesexport/
 ---
 ## PdfCustomPropertiesExport enumeration
 
-Especifica la forma[`CustomDocumentProperties`](../../aspose.words/document/customdocumentproperties/) se exportan a archivo PDF.
+Especifica la forma[`CustomDocumentProperties`](../../aspose.words/document/customdocumentproperties/) se exportan a un archivo PDF.
 
 ```csharp
 public enum PdfCustomPropertiesExport
@@ -35,12 +35,12 @@ doc.CustomDocumentProperties.Add("Company", "My value");
 // para modificar cómo ese método convierte el documento a .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// Establecer la propiedad "CustomPropertiesExport" en "PdfCustomPropertiesExport.None" para descartar
- // propiedades personalizadas del documento mientras guardamos el documento en .PDF.
-// Establecer la propiedad "CustomPropertiesExport" en "PdfCustomPropertiesExport.Standard"
-// para conservar las propiedades personalizadas dentro del documento PDF de salida.
-// Establecer la propiedad "CustomPropertiesExport" en "PdfCustomPropertiesExport.Metadata"
-// para conservar las propiedades personalizadas en un paquete XMP.
+// Establece la propiedad "CustomPropertiesExport" en "PdfCustomPropertiesExport.None" para descartar
+// propiedades personalizadas del documento a medida que guardamos el documento en .PDF.
+// Establece la propiedad "CustomPropertiesExport" en "PdfCustomPropertiesExport.Standard"
+// para preservar las propiedades personalizadas dentro del documento PDF de salida.
+// Establece la propiedad "CustomPropertiesExport" en "PdfCustomPropertiesExport.Metadata"
+// para preservar las propiedades personalizadas en un paquete XMP.
 options.CustomPropertiesExport = pdfCustomPropertiesExportMode;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.CustomPropertiesExport.pdf", options);

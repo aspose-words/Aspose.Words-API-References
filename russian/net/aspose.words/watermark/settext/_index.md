@@ -22,12 +22,12 @@ public void SetText(string text)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | Выдает, когда длина текста выходит за пределы диапазона или текст содержит только пробелы. |
-| ArgumentNullException | Выдает, когда текст равен нулю. |
+| ArgumentOutOfRangeException | Выдается, когда длина текста выходит за пределы допустимого диапазона или текст содержит только пробелы. |
+| ArgumentNullException | Выдает, когда текст`нулевой` . |
 
 ### Примечания
 
-Длина текста должна быть в диапазоне от 1 до 200 включительно. Текст не может быть нулевым или содержать только пробелы.
+Длина текста должна быть в диапазоне от 1 до 200 включительно. Текст не может быть`нулевой` или содержать только пробелы.
 
 ### Примеры
 
@@ -39,7 +39,7 @@ Document doc = new Document();
 // Добавляем простой текстовый водяной знак.
 doc.Watermark.SetText("Aspose Watermark");
 
-// Если мы хотим отредактировать форматирование текста, используя его как водяной знак,
+// Если мы хотим отредактировать форматирование текста, используя его в качестве водяного знака,
 // мы можем сделать это, передав объект TextWatermarkOptions при создании водяного знака.
 TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
 textWatermarkOptions.FontFamily = "Arial";
@@ -52,7 +52,7 @@ doc.Watermark.SetText("Aspose Watermark", textWatermarkOptions);
 
 doc.Save(ArtifactsDir + "Document.TextWatermark.docx");
 
-// Мы можем удалить водяной знак из такого документа.
+// Мы можем удалить водяной знак из документа вот так.
 if (doc.Watermark.Type == WatermarkType.Text)
     doc.Watermark.Remove();
 ```
@@ -76,20 +76,20 @@ public void SetText(string text, TextWatermarkOptions options)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | text | String | Текст, отображаемый в виде водяного знака. |
-| options | TextWatermarkOptions | Определяет дополнительные параметры текстового водяного знака. |
+| options | TextWatermarkOptions | Определяет дополнительные параметры для текстового водяного знака. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | Выдает, когда длина текста выходит за пределы диапазона или текст содержит только пробелы. |
-| ArgumentNullException | Выдает, когда текст равен нулю. |
+| ArgumentOutOfRangeException | Выдается, когда длина текста выходит за пределы допустимого диапазона или текст содержит только пробелы. |
+| ArgumentNullException | Выдает, когда текст`нулевой` . |
 
 ### Примечания
 
-Длина текста должна быть в диапазоне от 1 до 200 включительно. Текст не может быть нулевым или содержать только пробелы.
+Длина текста должна быть в диапазоне от 1 до 200 включительно. Текст не может быть`нулевой` или содержать только пробелы.
 
-Если[`TextWatermarkOptions`](../../textwatermarkoptions/) имеет значение null, водяной знак будет установлен с параметрами по умолчанию.
+Если[`TextWatermarkOptions`](../../textwatermarkoptions/) является`нулевой`, для водяного знака будут установлены параметры по умолчанию.
 
 ### Примеры
 
@@ -101,7 +101,7 @@ Document doc = new Document();
 // Добавляем простой текстовый водяной знак.
 doc.Watermark.SetText("Aspose Watermark");
 
-// Если мы хотим отредактировать форматирование текста, используя его как водяной знак,
+// Если мы хотим отредактировать форматирование текста, используя его в качестве водяного знака,
 // мы можем сделать это, передав объект TextWatermarkOptions при создании водяного знака.
 TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
 textWatermarkOptions.FontFamily = "Arial";
@@ -114,7 +114,7 @@ doc.Watermark.SetText("Aspose Watermark", textWatermarkOptions);
 
 doc.Save(ArtifactsDir + "Document.TextWatermark.docx");
 
-// Мы можем удалить водяной знак из такого документа.
+// Мы можем удалить водяной знак из документа вот так.
 if (doc.Watermark.Type == WatermarkType.Text)
     doc.Watermark.Remove();
 ```

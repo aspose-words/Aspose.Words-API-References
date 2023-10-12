@@ -16,7 +16,7 @@ public override FontSourceType Type { get; }
 
 ### Beispiele
 
-Zeigt, wie ein Bytearray mit Daten aus einer Schriftartdatei als Schriftartquelle verwendet wird.
+Zeigt, wie ein Byte-Array mit Daten aus einer Schriftartdatei als Schriftartquelle verwendet wird.
 
 ```csharp
 byte[] fontBytes = File.ReadAllBytes(MyDir + "Alte DIN 1451 Mittelschrift.ttf");

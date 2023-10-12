@@ -3,7 +3,7 @@ title: ShapeBase.ParentParagraph
 second_title: Aspose.Words für .NET-API-Referenz
 description: ShapeBase eigendom. Gibt den unmittelbar übergeordneten Absatz zurück.
 type: docs
-weight: 390
+weight: 410
 url: /de/net/aspose.words.drawing/shapebase/parentparagraph/
 ---
 ## ShapeBase.ParentParagraph property
@@ -16,11 +16,11 @@ public Paragraph ParentParagraph { get; }
 
 ### Bemerkungen
 
-Für untergeordnete Shapes eines Gruppen-Shapes und untergeordnete Shapes eines Office Math-Objekts wird immer null zurückgegeben.
+Für untergeordnete Formen einer Gruppenform und untergeordnete Formen eines Office Math-Objekts wird immer zurückgegeben`Null`.
 
 ### Beispiele
 
-Zeigt, wie ein Textfeld eingefügt und die Schriftart seines Inhalts festgelegt wird.
+Zeigt, wie man ein Textfeld einfügt und die Schriftart seines Inhalts festlegt.
 
 ```csharp
 Document doc = new Document();
@@ -32,12 +32,12 @@ Shape shape = builder.InsertShape(ShapeType.TextBox, 300, 50);
 builder.MoveTo(shape.LastParagraph);
 builder.Write("This text is inside the text box.");
 
-// Setzen Sie die „Hidden“-Eigenschaft des „Font“-Objekts der Form auf „true“, um das Textfeld unsichtbar zu machen
+// Setzen Sie die „Hidden“-Eigenschaft des „Font“-Objekts der Form auf „true“, um das Textfeld vor den Augen zu verbergen
 // und reduzieren Sie den Platz, den es normalerweise einnehmen würde.
-// Setzen Sie die "Hidden"-Eigenschaft des "Font"-Objekts der Form auf "false", um das Textfeld sichtbar zu lassen.
+// Setzen Sie die Eigenschaft „Hidden“ des „Font“-Objekts der Form auf „false“, um das Textfeld sichtbar zu lassen.
 shape.Font.Hidden = hideShape;
 
-// Wenn die Form sichtbar ist, ändern wir ihr Aussehen über das Schriftobjekt.
+// Wenn die Form sichtbar ist, ändern wir ihr Aussehen über das Schriftartobjekt.
 if (!hideShape)
 {
     shape.Font.HighlightColor = Color.LightGray;

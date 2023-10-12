@@ -1,0 +1,43 @@
+---
+title: ImportFormatOptions.AdjustSentenceAndWordSpacing
+second_title: Aspose.Words för .NET API Referens
+description: ImportFormatOptions fast egendom. Hämtar eller ställer in ett booleskt värde som anger om menings och ordavstånd ska justeras automatiskt. Standardvärdet ärfalsk .
+type: docs
+weight: 20
+url: /sv/net/aspose.words/importformatoptions/adjustsentenceandwordspacing/
+---
+## ImportFormatOptions.AdjustSentenceAndWordSpacing property
+
+Hämtar eller ställer in ett booleskt värde som anger om menings- och ordavstånd ska justeras automatiskt. Standardvärdet är`falsk` .
+
+```csharp
+public bool AdjustSentenceAndWordSpacing { get; set; }
+```
+
+### Exempel
+
+Visar hur man justerar menings- och ordavstånd automatiskt.
+
+```csharp
+Document srcDoc = new Document();
+Document dstDoc = new Document();
+
+DocumentBuilder builder = new DocumentBuilder(srcDoc);
+builder.Write("Dolor sit amet.");
+
+builder = new DocumentBuilder(dstDoc);
+builder.Write("Lorem ipsum.");
+
+ImportFormatOptions options = new ImportFormatOptions() { AdjustSentenceAndWordSpacing = true };
+builder.InsertDocument(srcDoc, ImportFormatMode.UseDestinationStyles, options);
+
+Assert.AreEqual("Lorem ipsum. Dolor sit amet.", dstDoc.FirstSection.Body.FirstParagraph.GetText().Trim());
+```
+
+### Se även
+
+* class [ImportFormatOptions](../)
+* namnutrymme [Aspose.Words](../../importformatoptions/)
+* hopsättning [Aspose.Words](../../../)
+
+

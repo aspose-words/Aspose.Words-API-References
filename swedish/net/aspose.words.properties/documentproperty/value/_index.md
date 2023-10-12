@@ -16,7 +16,7 @@ public object Value { get; set; }
 
 ### Anmärkningar
 
-Kan inte vara null.
+Kan inte vara`null`.
 
 ### Exempel
 

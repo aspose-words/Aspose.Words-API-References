@@ -3,12 +3,14 @@ title: Class GeneralFormatCollection
 second_title: Aspose.Words per .NET API Reference
 description: Aspose.Words.Fields.GeneralFormatCollection classe. Rappresenta una raccolta tipizzata di formati generali.
 type: docs
-weight: 2490
+weight: 2650
 url: /it/net/aspose.words.fields/generalformatcollection/
 ---
 ## GeneralFormatCollection class
 
 Rappresenta una raccolta tipizzata di formati generali.
+
+Per saperne di più, visita il[Lavorare con i campi](https://docs.aspose.com/words/net/working-with-fields/) articolo di documentazione.
 
 ```csharp
 public class GeneralFormatCollection : IEnumerable<GeneralFormat>
@@ -18,7 +20,7 @@ public class GeneralFormatCollection : IEnumerable<GeneralFormat>
 
 | Nome | Descrizione |
 | --- | --- |
-| [Count](../../aspose.words.fields/generalformatcollection/count/) { get; } | Ottiene il numero totale degli elementi nella raccolta. |
+| [Count](../../aspose.words.fields/generalformatcollection/count/) { get; } | Ottiene il numero totale di elementi nella raccolta. |
 | [Item](../../aspose.words.fields/generalformatcollection/item/) { get; } | Ottiene un formato generale all'indice specificato. |
 
 ## Metodi
@@ -27,8 +29,8 @@ public class GeneralFormatCollection : IEnumerable<GeneralFormat>
 | --- | --- |
 | [Add](../../aspose.words.fields/generalformatcollection/add/)(GeneralFormat) | Aggiunge un formato generale alla raccolta. |
 | [GetEnumerator](../../aspose.words.fields/generalformatcollection/getenumerator/)() | Restituisce un oggetto enumeratore. |
-| [Remove](../../aspose.words.fields/generalformatcollection/remove/)(GeneralFormat) | Rimuove dalla raccolta tutte le occorrenze del formato generale specificato. |
-| [RemoveAt](../../aspose.words.fields/generalformatcollection/removeat/)(int) | Rimuove un'occorrenza di formato generale in corrispondenza dell'indice specificato. |
+| [Remove](../../aspose.words.fields/generalformatcollection/remove/)(GeneralFormat) | Rimuove tutte le occorrenze del formato generale specificato dalla raccolta. |
+| [RemoveAt](../../aspose.words.fields/generalformatcollection/removeat/)(int) | Rimuove un'occorrenza di formato generale nell'indice specificato. |
 
 ### Esempi
 
@@ -38,13 +40,13 @@ Mostra come formattare i risultati dei campi.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Utilizza un generatore di documenti per inserire un campo che visualizzi un risultato senza formato applicato.
+// Utilizzare un generatore di documenti per inserire un campo che visualizzi un risultato senza formato applicato.
 Field field = builder.InsertField("= 2 + 3");
 
 Assert.AreEqual("= 2 + 3", field.GetFieldCode());
 Assert.AreEqual("5", field.Result);
 
-// Possiamo applicare un formato al risultato di un campo usando le proprietà del campo.
+// Possiamo applicare un formato al risultato di un campo utilizzando le proprietà del campo.
 // Di seguito sono riportati tre tipi di formati che possiamo applicare al risultato di un campo.
 // 1 - Formato numerico:
 FieldFormat format = field.Format;
@@ -80,7 +82,7 @@ Assert.AreEqual("LVIII", field.Result);
 Assert.AreEqual(2, format.GeneralFormats.Count);
 Assert.AreEqual(GeneralFormat.LowercaseRoman, format.GeneralFormats[0]);
 
-// Possiamo rimuovere i nostri formati per riportare il risultato del campo alla sua forma originale.
+// Possiamo rimuovere i nostri formati per ripristinare il risultato del campo nella sua forma originale.
 format.GeneralFormats.Remove(GeneralFormat.LowercaseRoman);
 format.GeneralFormats.RemoveAt(0);
 Assert.AreEqual(0, format.GeneralFormats.Count);

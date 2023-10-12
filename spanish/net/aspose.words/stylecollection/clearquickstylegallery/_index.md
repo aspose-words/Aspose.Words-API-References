@@ -20,8 +20,7 @@ Muestra cómo eliminar estilos del panel Galería de estilos.
 
 ```csharp
 Document doc = new Document();
-
-// Tenga en cuenta que la eliminación de estilos solo funciona con el formato DOCX por ahora.
+// Tenga en cuenta que los estilos de eliminación solo funcionan con el formato DOCX por ahora.
 doc.Styles.ClearQuickStyleGallery();
 
 doc.Save(ArtifactsDir + "Styles.RemoveStylesFromStyleGallery.docx");

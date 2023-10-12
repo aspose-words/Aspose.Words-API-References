@@ -1,14 +1,14 @@
 ---
 title: PageInfo.PaperTray
 second_title: Aspose.Words für .NET-API-Referenz
-description: PageInfo eigendom. Ruft das Papierfach Fach für diese Seite ab wie im Dokument angegeben. Der Wert ist implementierungs druckerspezifisch.
+description: PageInfo eigendom. Ruft das Papierfach Fach für diese Seite ab wie im Dokument angegeben. Der Wert ist ImplementierungsDruckerspezifisch.
 type: docs
-weight: 40
+weight: 50
 url: /de/net/aspose.words.rendering/pageinfo/papertray/
 ---
 ## PageInfo.PaperTray property
 
-Ruft das Papierfach (Fach) für diese Seite ab, wie im Dokument angegeben. Der Wert ist implementierungs- (drucker-)spezifisch.
+Ruft das Papierfach (Fach) für diese Seite ab, wie im Dokument angegeben. Der Wert ist Implementierungs-(Drucker-)spezifisch.
 
 ```csharp
 public int PaperTray { get; }
@@ -16,14 +16,14 @@ public int PaperTray { get; }
 
 ### Beispiele
 
-Zeigt, wie Informationen zur Seitengröße und Ausrichtung für jede Seite in einem Word-Dokument gedruckt werden.
+Zeigt, wie Seitengrößen- und Ausrichtungsinformationen für jede Seite in einem Word-Dokument gedruckt werden.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Der erste Abschnitt hat 2 Seiten. Wir werden jedem einen anderen Druckerpapierschacht zuweisen,
-// dessen Nummer mit einer Art Papierquelle übereinstimmt. Diese Quellen und ihre Arten variieren
-// je nach installiertem Druckertreiber.
+// Der erste Abschnitt hat 2 Seiten. Wir werden jedem ein anderes Druckerpapierfach zuweisen,
+// dessen Nummer mit einer Art Papierquelle übereinstimmt. Diese Quellen und ihre Arten können variieren
+// abhängig vom installierten Druckertreiber.
 PrinterSettings.PaperSourceCollection paperSources = new PrinterSettings().PaperSources;
 
 doc.FirstSection.PageSetup.FirstPageTray = paperSources[0].RawKind;
@@ -46,7 +46,7 @@ for (int i = 0; i < doc.PageCount; i++)
     Console.WriteLine($"\tSize in points:\t{pageInfo.SizeInPoints}");
     Console.WriteLine($"\tSize in pixels:\t{pageInfo.GetSizeInPixels(1.0f, 96)} at {scale * 100}% scale, {dpi} dpi");
 
-    // Informationen zum Quellfach drucken.
+    // Drucken Sie die Informationen zum Quellfach.
     Console.WriteLine($"\tTray:\t{pageInfo.PaperTray}");
     PaperSource source = pageInfo.GetSpecifiedPrinterPaperSource(paperSources, paperSources[0]);
     Console.WriteLine($"\tSuitable print source:\t{source.SourceName}, kind: {source.Kind}");

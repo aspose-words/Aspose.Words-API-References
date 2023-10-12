@@ -3,12 +3,14 @@ title: Class FieldCollection
 second_title: Aspose.Words per .NET API Reference
 description: Aspose.Words.Fields.FieldCollection classe. Una raccolta diField oggetti che rappresentano i campi nellintervallo specificato.
 type: docs
-weight: 1540
+weight: 1690
 url: /it/net/aspose.words.fields/fieldcollection/
 ---
 ## FieldCollection class
 
 Una raccolta di[`Field`](../field/) oggetti che rappresentano i campi nell'intervallo specificato.
+
+Per saperne di più, visita il[Lavorare con i campi](https://docs.aspose.com/words/net/working-with-fields/) articolo di documentazione.
 
 ```csharp
 public class FieldCollection : IEnumerable<Field>
@@ -18,7 +20,7 @@ public class FieldCollection : IEnumerable<Field>
 
 | Nome | Descrizione |
 | --- | --- |
-| [Count](../../aspose.words.fields/fieldcollection/count/) { get; } | Restituisce il numero dei campi nella raccolta. |
+| [Count](../../aspose.words.fields/fieldcollection/count/) { get; } | Restituisce il numero dei campi nella collection. |
 | [Item](../../aspose.words.fields/fieldcollection/item/) { get; } | Restituisce un campo all'indice specificato. |
 
 ## Metodi
@@ -28,15 +30,15 @@ public class FieldCollection : IEnumerable<Field>
 | [Clear](../../aspose.words.fields/fieldcollection/clear/)() | Rimuove tutti i campi di questa raccolta dal documento e da questa raccolta stessa. |
 | [GetEnumerator](../../aspose.words.fields/fieldcollection/getenumerator/)() | Restituisce un oggetto enumeratore. |
 | [Remove](../../aspose.words.fields/fieldcollection/remove/)(Field) | Rimuove il campo specificato da questa raccolta e dal documento. |
-| [RemoveAt](../../aspose.words.fields/fieldcollection/removeat/)(int) | Rimuove un campo in corrispondenza dell'indice specificato da questa raccolta e dal documento. |
+| [RemoveAt](../../aspose.words.fields/fieldcollection/removeat/)(int) | Rimuove un campo all'indice specificato da questa raccolta e dal documento. |
 
 ### Osservazioni
 
-Un'istanza di questa raccolta itera i campi che iniziano all'interno dell'intervallo specificato.
+Un'istanza di questa raccolta ripete i campi che iniziano a rientrare nell'intervallo specificato.
 
-Il`FieldCollection` raccolta non possiede i campi che contiene, piuttosto, è solo una selezione di campi.
+IL`FieldCollection` collection non possiede i campi che contiene, ma è solo una selezione di campi.
 
-Il`FieldCollection` raccolta è "live", cioè le modifiche ai figli del nodo object da cui è stata creata si riflettono immediatamente nei campi restituiti dal`FieldCollection` proprietà e metodi.
+IL`FieldCollection` la raccolta è "live", ovvero le modifiche ai figli del nodo object da cui è stata creata si riflettono immediatamente nei campi restituiti dalla`FieldCollection` Proprietà e metodi .
 
 ### Esempi
 
@@ -59,7 +61,7 @@ FieldCollection fields = doc.Range.Fields;
 Assert.AreEqual(6, fields.Count);
 
 // Di seguito sono riportati quattro modi per rimuovere i campi da una raccolta di campi.
-// 1 - Ottieni un campo da rimuovere:
+// 1 - Ottieni un campo per rimuoversi:
 fields[0].Remove();
 Assert.AreEqual(5, fields.Count);
 
@@ -72,7 +74,7 @@ Assert.AreEqual(4, fields.Count);
 fields.RemoveAt(2);
 Assert.AreEqual(3, fields.Count);
 
-// 4 - Rimuovi tutti i campi dalla raccolta in una volta:
+// 4 - Rimuovi tutti i campi dalla raccolta contemporaneamente:
 fields.Clear();
 Assert.AreEqual(0, fields.Count);
 ```
@@ -80,6 +82,7 @@ Assert.AreEqual(0, fields.Count);
 Mostra come lavorare con una raccolta di campi.
 
 ```csharp
+public void FieldCollection()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -96,7 +99,7 @@ Mostra come lavorare con una raccolta di campi.
 
     Assert.AreEqual(6, fields.Count);
 
-    // Esegui l'iterazione sulla raccolta di campi e stampa il contenuto e il tipo
+    // Itera sulla raccolta di campi e stampa contenuto e tipo
     // di ogni campo utilizzando un'implementazione personalizzata del visitatore.
     FieldVisitor fieldVisitor = new FieldVisitor();
 
@@ -118,6 +121,7 @@ Mostra come lavorare con una raccolta di campi.
     }
 
     Console.WriteLine(fieldVisitor.GetText());
+}
 
 /// <summary>
 /// Documenta l'implementazione del visitatore che stampa le informazioni sul campo.
@@ -130,7 +134,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Ottiene il testo normale del documento accumulato dal visitatore.
+    /// Ottiene il testo semplice del documento accumulato dal visitatore.
     /// </summary>
     public string GetText()
     {
@@ -138,7 +142,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando viene rilevato un nodo FieldStart nel documento.
+    /// Chiamato quando nel documento viene incontrato un nodo FieldStart.
     /// </summary>
     public override VisitorAction VisitFieldStart(FieldStart fieldStart)
     {
@@ -150,7 +154,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando viene rilevato un nodo FieldSeparator nel documento.
+    /// Chiamato quando nel documento viene incontrato un nodo FieldSeparator.
     /// </summary>
     public override VisitorAction VisitFieldSeparator(FieldSeparator fieldSeparator)
     {
@@ -160,7 +164,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando viene rilevato un nodo FieldEnd nel documento.
+    /// Chiamato quando nel documento viene incontrato un nodo FieldEnd.
     /// </summary>
     public override VisitorAction VisitFieldEnd(FieldEnd fieldEnd)
     {

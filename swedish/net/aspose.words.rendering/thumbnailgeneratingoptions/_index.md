@@ -3,7 +3,7 @@ title: Class ThumbnailGeneratingOptions
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Rendering.ThumbnailGeneratingOptions klass. Kan användas för att ange ytterligare alternativ vid generering av miniatyrbilder för ett dokument.
 type: docs
-weight: 4340
+weight: 4600
 url: /sv/net/aspose.words.rendering/thumbnailgeneratingoptions/
 ---
 ## ThumbnailGeneratingOptions class

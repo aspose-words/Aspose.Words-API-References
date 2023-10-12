@@ -20,7 +20,7 @@ C'est pas possible`nul`. Peut être une chaîne vide.
 
 ### Exemples
 
-Montre comment accéder aux détails de chaque police dans un document et les imprimer.
+Montre comment accéder et imprimer les détails de chaque police dans un document.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");

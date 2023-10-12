@@ -1,14 +1,14 @@
 ---
 title: Interface IFontSavingCallback
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Saving.IFontSavingCallback arayüz. Bildirimler almak ve nasıl kontrol etmek istiyorsanız bu arayüzü uygulayın Aspose.Words bir belgeyi HTML formatına aktarırken yazı tiplerini kaydeder.
+description: Aspose.Words.Saving.IFontSavingCallback arayüz. Bildirim almak ve nasıl yapılacağını kontrol etmek istiyorsanız bu arayüzü uygulayın Aspose.Words bir belgeyi HTML formatına dışa aktarırken yazı tiplerini kaydeder.
 type: docs
-weight: 4900
+weight: 5160
 url: /tr/net/aspose.words.saving/ifontsavingcallback/
 ---
 ## IFontSavingCallback interface
 
-Bildirimler almak ve nasıl kontrol etmek istiyorsanız bu arayüzü uygulayın Aspose.Words bir belgeyi HTML formatına aktarırken yazı tiplerini kaydeder.
+Bildirim almak ve nasıl yapılacağını kontrol etmek istiyorsanız bu arayüzü uygulayın Aspose.Words, bir belgeyi HTML formatına dışa aktarırken yazı tiplerini kaydeder.
 
 ```csharp
 public interface IFontSavingCallback
@@ -25,10 +25,11 @@ public interface IFontSavingCallback
 HTML'ye kaydederken yazı tiplerini dışa aktarmak için özel mantığın nasıl tanımlanacağını gösterir.
 
 ```csharp
+public void SaveExportedFonts()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
-    // Fontları ayrı dosyalara aktarmak için bir SaveOptions nesnesi yapılandırın.
+    // Yazı tiplerini ayrı dosyalara aktarmak için bir SaveOptions nesnesi yapılandırın.
     // Yazı tipi kaydetmeyi özel bir şekilde gerçekleştirecek bir geri arama ayarlayın.
     HtmlSaveOptions options = new HtmlSaveOptions
     {
@@ -44,8 +45,10 @@ HTML'ye kaydederken yazı tiplerini dışa aktarmak için özel mantığın nas�
         Console.WriteLine(fontFilename);
     }
 
+}
+
 /// <summary>
-/// Dışa aktarılan yazı tipleriyle ilgili bilgileri yazdırır ve bunları çıktıları .html ile aynı yerel sistem klasörüne kaydeder.
+/// Dışa aktarılan yazı tipleri hakkındaki bilgileri yazdırır ve bunları çıktı .html'leriyle aynı yerel sistem klasörüne kaydeder.
 /// </summary>
 public class HandleFontSaving : IFontSavingCallback
 {
@@ -56,14 +59,14 @@ public class HandleFontSaving : IFontSavingCallback
         if (args.Italic) Console.Write(", italic");
         Console.WriteLine($"\nSource:\t{args.OriginalFileName}, {args.OriginalFileSize} bytes\n");
 
-        // Kaynak belgeye buradan da ulaşabiliriz.
+        // Kaynak dokümana buradan da ulaşabiliriz.
         Assert.True(args.Document.OriginalFileName.EndsWith("Rendering.docx"));
 
         Assert.True(args.IsExportNeeded);
         Assert.True(args.IsSubsettingNeeded);
 
         // Dışa aktarılan bir yazı tipini kaydetmenin iki yolu vardır.
-        // 1 - Yerel bir dosya sistemi konumuna kaydedin:
+        // 1 - Yerel dosya sistemi konumuna kaydedin:
         args.FontFileName = args.OriginalFileName.Split(Path.DirectorySeparatorChar).Last();
 
         // 2 - Bir akışa kaydedin:

@@ -3,7 +3,7 @@ title: DocumentBuilder.MoveToSection
 second_title: Aspose.Words för .NET API Referens
 description: DocumentBuilder metod. Flyttar markören till början av brödtexten i ett angivet avsnitt.
 type: docs
-weight: 550
+weight: 580
 url: /sv/net/aspose.words/documentbuilder/movetosection/
 ---
 ## DocumentBuilder.MoveToSection method
@@ -20,9 +20,9 @@ public void MoveToSection(int sectionIndex)
 
 ### Anmärkningar
 
-När sectionIndex är större än eller lika med 0, anger det ett index from början av dokumentet med 0 som det första avsnittet. När sectionIndex är mindre än 0, specificerade det ett index från slutet av dokumentet med -1 som det sista avsnittet.
+När*sectionIndex* är större än eller lika med 0, anger det ett index från början av dokumentet med 0 som den första delen. När*sectionIndex* är mindre än 0, det specificerade ett index från slutet av dokumentet med -1 som den sista sektionen.
 
-Markören flyttas till första stycket i **Kropp** av det angivna avsnittet.
+Markören flyttas till första stycket i[`Body`](../../body/) av det angivna avsnittet.
 
 ### Exempel
 

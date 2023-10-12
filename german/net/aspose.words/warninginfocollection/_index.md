@@ -1,14 +1,16 @@
 ---
 title: Class WarningInfoCollection
 second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.WarningInfoCollection klas. Repräsentiert eine typisierte Sammlung vonWarningInfo Objekte.
+description: Aspose.Words.WarningInfoCollection klas. Stellt eine typisierte Sammlung von darWarningInfo Objekte.
 type: docs
-weight: 6330
+weight: 6640
 url: /de/net/aspose.words/warninginfocollection/
 ---
 ## WarningInfoCollection class
 
-Repräsentiert eine typisierte Sammlung von[`WarningInfo`](../warninginfo/) Objekte.
+Stellt eine typisierte Sammlung von dar[`WarningInfo`](../warninginfo/) Objekte.
+
+Um mehr zu erfahren, besuchen Sie die[Programmieren mit Dokumenten](https://docs.aspose.com/words/net/programming-with-documents/) Dokumentationsartikel.
 
 ```csharp
 public class WarningInfoCollection : IEnumerable<WarningInfo>, IWarningCallback
@@ -32,19 +34,18 @@ public class WarningInfoCollection : IEnumerable<WarningInfo>, IWarningCallback
 | Name | Beschreibung |
 | --- | --- |
 | [Clear](../../aspose.words/warninginfocollection/clear/)() | Entfernt alle Elemente aus der Sammlung. |
-| [GetEnumerator](../../aspose.words/warninginfocollection/getenumerator/)() | Gibt ein Aufzählungsobjekt zurück, das verwendet werden kann, um alle Elemente in der Sammlung zu durchlaufen. |
+| [GetEnumerator](../../aspose.words/warninginfocollection/getenumerator/)() | Gibt ein Enumeratorobjekt zurück, das zum Durchlaufen aller Elemente in der Sammlung verwendet werden kann. |
 | [Warning](../../aspose.words/warninginfocollection/warning/)(WarningInfo) | Implementiert die[`IWarningCallback`](../iwarningcallback/) Schnittstelle. Fügt dieser Sammlung eine Warnung hinzu. |
 
 ### Bemerkungen
 
-Sie können dieses Sammlungsobjekt als einfachste Form von verwenden[`IWarningCallback`](../iwarningcallback/)Implementierung, um alle Warnungen zu sammeln, die Aspose.Words während eines Lade- oder Speichervorgangs generiert. Erstellen Sie eine Instanz dieser Klasse und weisen Sie ihr zu[`WarningCallback`](../../aspose.words.loading/loadoptions/warningcallback/) oder[`WarningCallback`](../documentbase/warningcallback/) Eigentum.
+Sie können dieses Sammlungsobjekt als einfachste Form von verwenden[`IWarningCallback`](../iwarningcallback/) Implementierung, um alle Warnungen zu sammeln, die Aspose.Words während eines Lade- oder Speichervorgangs generiert. Erstellen Sie eine Instanz dieser Klasse und weisen Sie sie zu[`WarningCallback`](../../aspose.words.loading/loadoptions/warningcallback/) oder[`WarningCallback`](../documentbase/warningcallback/) Eigentum.
 
 ### Beispiele
 
 Zeigt, wie die Eigenschaft festgelegt wird, um die beste Übereinstimmung für eine fehlende Schriftart aus den verfügbaren Schriftartquellen zu finden.
 
 ```csharp
-[Test]
 public void EnableFontSubstitution()
 {
     // Öffnen Sie ein Dokument, das Text enthält, der mit einer Schriftart formatiert ist, die in keiner unserer Schriftartquellen vorhanden ist.
@@ -60,7 +61,10 @@ public void EnableFontSubstitution()
     ;
     fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 
-    // Wir erhalten eine Schriftersetzungswarnung, wenn wir ein Dokument mit einer fehlenden Schrift speichern.
+    // Nach der Schriftartersetzung sollten die ursprünglichen Schriftartmetriken verwendet werden.
+    doc.LayoutOptions.KeepOriginalFontMetrics = true;
+
+    // Wir erhalten eine Warnung zur Schriftartersetzung, wenn wir ein Dokument mit einer fehlenden Schriftart speichern.
     doc.FontSettings = fontSettings;
     doc.Save(ArtifactsDir + "FontSettings.EnableFontSubstitution.pdf");
 
@@ -82,7 +86,7 @@ public void EnableFontSubstitution()
 public class HandleDocumentSubstitutionWarnings : IWarningCallback
 {
     /// <summary>
-    /// Wird jedes Mal aufgerufen, wenn während des Ladens/Speicherns eine Warnung auftritt.
+    /// Wird jedes Mal aufgerufen, wenn beim Laden/Speichern eine Warnung auftritt.
     /// </summary>
     public void Warning(WarningInfo info)
     {

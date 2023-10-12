@@ -16,7 +16,7 @@ public void Remove()
 
 ### Exemples
 
-Montre comment supprimer toutes les formes avec des images d'un document.
+Montre comment supprimer toutes les formes contenant des images d’un document.
 
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");
@@ -31,7 +31,7 @@ foreach (Shape shape in shapes.OfType<Shape>())
 Assert.AreEqual(0, shapes.OfType<Shape>().Count(s => s.HasImage));
 ```
 
-Montre comment supprimer tous les nœuds enfants d'un type spécifique d'un nœud composite.
+Montre comment supprimer tous les nœuds enfants d’un type spécifique d’un nœud composite.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -42,10 +42,10 @@ Node curNode = doc.FirstSection.Body.FirstChild;
 
 while (curNode != null)
 {
-    // Enregistre le nœud frère suivant en tant que variable au cas où nous voudrions y accéder après avoir supprimé ce nœud.
+    // Enregistrez le nœud frère suivant en tant que variable au cas où nous souhaiterions y accéder après avoir supprimé ce nœud.
     Node nextNode = curNode.NextSibling;
 
-    // Un corps de section peut contenir des nœuds Paragraphe et Table.
+    // Un corps de section peut contenir des nœuds Paragraphe et Tableau.
     // Si le nœud est une table, supprimez-le du parent.
     if (curNode.NodeType == NodeType.Table)
         curNode.Remove();

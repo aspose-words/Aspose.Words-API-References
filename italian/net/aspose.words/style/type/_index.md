@@ -3,7 +3,7 @@ title: Style.Type
 second_title: Aspose.Words per .NET API Reference
 description: Style proprietà. Ottiene il tipo di stile paragrafo o carattere.
 type: docs
-weight: 160
+weight: 180
 url: /it/net/aspose.words/style/type/
 ---
 ## Style.Type property

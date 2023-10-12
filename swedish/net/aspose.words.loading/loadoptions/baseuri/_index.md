@@ -1,14 +1,14 @@
 ---
 title: LoadOptions.BaseUri
 second_title: Aspose.Words för .NET API Referens
-description: LoadOptions fast egendom. Hämtar eller ställer in strängen som ska användas för att lösa relativa URIer som finns i dokumentet till absoluta URIer vid behov. Kan vara null eller tom sträng. Standard är null.
+description: LoadOptions fast egendom. Hämtar eller ställer in strängen som kommer att användas för att lösa relativa URIer som finns i dokumentet till absoluta URIer vid behov. Kan varanull eller tom sträng. Standard ärnull .
 type: docs
 weight: 20
 url: /sv/net/aspose.words.loading/loadoptions/baseuri/
 ---
 ## LoadOptions.BaseUri property
 
-Hämtar eller ställer in strängen som ska användas för att lösa relativa URI:er som finns i dokumentet till absoluta URI:er vid behov. Kan vara null eller tom sträng. Standard är null.
+Hämtar eller ställer in strängen som kommer att användas för att lösa relativa URI:er som finns i dokumentet till absoluta URI:er vid behov. Kan vara`null` eller tom sträng. Standard är`null` .
 
 ```csharp
 public string BaseUri { get; set; }

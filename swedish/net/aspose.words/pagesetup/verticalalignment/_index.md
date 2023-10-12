@@ -3,7 +3,7 @@ title: PageSetup.VerticalAlignment
 second_title: Aspose.Words för .NET API Referens
 description: PageSetup fast egendom. Returnerar eller ställer in den vertikala justeringen av text på varje sida i ett dokument eller avsnitt.
 type: docs
-weight: 440
+weight: 450
 url: /sv/net/aspose.words/pagesetup/verticalalignment/
 ---
 ## PageSetup.VerticalAlignment property

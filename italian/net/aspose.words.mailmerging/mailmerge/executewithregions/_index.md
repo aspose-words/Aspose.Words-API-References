@@ -1,14 +1,14 @@
 ---
 title: MailMerge.ExecuteWithRegions
 second_title: Aspose.Words per .NET API Reference
-description: MailMerge metodo. Esegue una stampa unione da unorigine dati personalizzata con regioni di stampa unione.
+description: MailMerge metodo. Esegue una stampa unione da unorigine dati personalizzata con aree di stampa unione.
 type: docs
 weight: 200
 url: /it/net/aspose.words.mailmerging/mailmerge/executewithregions/
 ---
 ## ExecuteWithRegions(IMailMergeDataSource) {#executewithregions}
 
-Esegue una stampa unione da un'origine dati personalizzata con regioni di stampa unione.
+Esegue una stampa unione da un'origine dati personalizzata con aree di stampa unione.
 
 ```csharp
 public void ExecuteWithRegions(IMailMergeDataSource dataSource)
@@ -16,17 +16,17 @@ public void ExecuteWithRegions(IMailMergeDataSource dataSource)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| dataSource | IMailMergeDataSource | Un oggetto che implementa l'interfaccia dell'origine dati della stampa unione personalizzata. |
+| dataSource | IMailMergeDataSource | Un oggetto che implementa l'interfaccia dell'origine dati di stampa unione personalizzata. |
 
 ### Osservazioni
 
-Utilizzare questo metodo per riempire i campi della stampa unione nel documento con i valori di qualsiasi origine dati personalizzata come un file XML o raccolte di oggetti business. Devi scrivere la tua classe che implementi il[`IMailMergeDataSource`](../../imailmergedatasource/) interfaccia.
+Utilizzare questo metodo per compilare i campi della stampa unione nel documento con valori provenienti da qualsiasi origine dati personalizzata come un file XML o raccolte di oggetti business. Devi scrivere la tua classe personale che implementi il file[`IMailMergeDataSource`](../../imailmergedatasource/) interfaccia.
 
-Puoi usare questo metodo solo quando[`IsBidiTextSupportedOnUpdate`](../../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/)è falso, ovvero non è necessaria la compatibilità della lingua da destra a sinistra (come arabo o ebraico).
+Puoi utilizzare questo metodo solo quando[`IsBidiTextSupportedOnUpdate`](../../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/) È`falso`, cioè non è necessaria la compatibilità con le lingue da destra a sinistra (come arabo o ebraico).
 
 ### Esempi
 
-Mostra come utilizzare le regioni di stampa unione per eseguire una stampa unione nidificata.
+Mostra come utilizzare le aree di stampa unione per eseguire una stampa unione nidificata.
 
 ```csharp
 public void CustomDataSource()
@@ -34,9 +34,9 @@ public void CustomDataSource()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Normalmente, i MERGEFIELD contengono il nome di una colonna di un'origine dati di stampa unione.
-    // Invece, possiamo usare i prefissi "TableStart:" e "TableEnd:" per iniziare/terminare una regione di stampa unione.
-    // Ogni regione apparterrà a una tabella con un nome che corrisponde alla stringa subito dopo i due punti del prefisso.
+    // Normalmente, MERGEFIELD contengono il nome di una colonna di un'origine dati di stampa unione.
+    // Invece, possiamo utilizzare i prefissi "TableStart:" e "TableEnd:" per iniziare/terminare un'area di stampa unione.
+    // Ogni regione apparterrà a una tabella con un nome che corrisponde alla stringa immediatamente dopo i due punti del prefisso.
     builder.InsertField(" MERGEFIELD TableStart:Customers");
 
     // Questi MERGEFIELD si trovano all'interno dell'area di stampa unione della tabella "Clienti".
@@ -47,7 +47,7 @@ public void CustomDataSource()
     builder.InsertField(" MERGEFIELD Address ");
     builder.Write("\nOrders:\n");
 
-    // Crea una seconda regione di stampa unione all'interno dell'area esterna per un'origine dati denominata "Ordini".
+    // Crea una seconda regione di stampa unione all'interno della regione esterna per un'origine dati denominata "Ordini".
     // Le voci di dati "Ordini" hanno una relazione molti-a-uno con l'origine dati "Clienti".
     builder.InsertField(" MERGEFIELD TableStart:Orders");
 
@@ -69,7 +69,7 @@ public void CustomDataSource()
     customers[0].Orders.Add(new Order("Rugby World Cup Ball", 1));
     customers[1].Orders.Add(new Order("Rugby World Cup Guide", 1));
 
-    // Per eseguire la stampa unione dall'origine dati, è necessario racchiuderla in un oggetto che implementi l'interfaccia IMailMergeDataSource.
+    // Per eseguire la stampa unione dall'origine dati, è necessario inserirla in un oggetto che implementi l'interfaccia IMailMergeDataSource.
     CustomerMailMergeDataSource customersDataSource = new CustomerMailMergeDataSource(customers);
 
     doc.MailMerge.ExecuteWithRegions(customersDataSource);
@@ -78,7 +78,7 @@ public void CustomDataSource()
 }
 
 /// <summary>
-/// Un esempio di una classe "entità dati" nell'applicazione.
+/// Un esempio di classe "entità dati" nella tua applicazione.
 /// </summary>
 public class Customer
 {
@@ -107,7 +107,7 @@ public class CustomerList : ArrayList
 }
 
 /// <summary>
-/// Un esempio di una classe "data entity" figlio nell'applicazione.
+/// Un esempio di una classe "entità dati" secondaria nella tua applicazione.
 /// </summary>
 public class Order
 {
@@ -122,8 +122,8 @@ public class Order
 }
 
 /// <summary>
-/// Un'origine dati di stampa unione personalizzata che implementi per consentire Aspose.Words 
-/// per inviare i dati dalla stampa unione dagli oggetti Cliente ai documenti di Microsoft Word.
+ /// Un'origine dati di stampa unione personalizzata implementata per consentire Aspose.Words
+/// per inviare tramite posta unione i dati dagli oggetti Cliente ai documenti Microsoft Word.
 /// </summary>
 public class CustomerMailMergeDataSource : IMailMergeDataSource
 {
@@ -131,12 +131,12 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     {
         mCustomers = customers;
 
-        // Quando si inizializza l'origine dati, la sua posizione deve essere prima del primo record.
+        // Quando inizializziamo l'origine dati, la sua posizione deve essere prima del primo record.
         mRecordIndex = -1;
     }
 
     /// <summary>
-    /// Il nome dell'origine dati. Utilizzato da Aspose.Words solo durante l'esecuzione della stampa unione con aree ripetibili.
+    /// Il nome dell'origine dati. Utilizzato da Aspose.Words solo durante l'esecuzione della stampa unione con regioni ripetibili.
     /// </summary>
     public string TableName
     {
@@ -144,7 +144,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Aspose.Words chiama questo metodo per ottenere un valore per ogni campo di dati.
+    /// Aspose.Words chiama questo metodo per ottenere un valore per ogni campo dati.
     /// </summary>
     public bool GetValue(string fieldName, out object fieldValue)
     {
@@ -160,7 +160,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
                 fieldValue = mCustomers[mRecordIndex].Orders;
                 return true;
             default:
-                // Restituisce "false" al motore di stampa unione di Aspose.Words per indicare
+                // Restituisce "false" al motore di stampa unione Aspose.Words per indicare
                 // che non siamo riusciti a trovare un campo con questo nome.
                 fieldValue = null;
                 return false;
@@ -168,7 +168,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Un'implementazione standard per passare a un record successivo in una raccolta.
+    /// Un'implementazione standard per passare al record successivo in una raccolta.
     /// </summary>
     public bool MoveNext()
     {
@@ -182,7 +182,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     {
         switch (tableName)
         {
-            // Ottieni l'origine dati figlio, il cui nome corrisponde alla regione di stampa unione che utilizza le sue colonne.
+            // Ottiene l'origine dati figlio, il cui nome corrisponde all'area di stampa unione che utilizza le relative colonne.
             case "Orders":
                 return new OrderMailMergeDataSource(mCustomers[mRecordIndex].Orders);
             default:
@@ -205,12 +205,12 @@ public class OrderMailMergeDataSource : IMailMergeDataSource
     {
         mOrders = orders;
 
-        // Quando si inizializza l'origine dati, la sua posizione deve essere prima del primo record.
+        // Quando inizializziamo l'origine dati, la sua posizione deve essere prima del primo record.
         mRecordIndex = -1;
     }
 
     /// <summary>
-    /// Il nome dell'origine dati. Utilizzato da Aspose.Words solo durante l'esecuzione della stampa unione con aree ripetibili.
+    /// Il nome dell'origine dati. Utilizzato da Aspose.Words solo durante l'esecuzione della stampa unione con regioni ripetibili.
     /// </summary>
     public string TableName
     {
@@ -218,7 +218,7 @@ public class OrderMailMergeDataSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Aspose.Words chiama questo metodo per ottenere un valore per ogni campo di dati.
+    /// Aspose.Words chiama questo metodo per ottenere un valore per ogni campo dati.
     /// </summary>
     public bool GetValue(string fieldName, out object fieldValue)
     {
@@ -231,7 +231,7 @@ public class OrderMailMergeDataSource : IMailMergeDataSource
                 fieldValue = mOrders[mRecordIndex].Quantity;
                 return true;
             default:
-                // Restituisce "false" al motore di stampa unione di Aspose.Words per indicare
+                // Restituisce "false" al motore di stampa unione Aspose.Words per indicare
                 // che non siamo riusciti a trovare un campo con questo nome.
                 fieldValue = null;
                 return false;
@@ -239,7 +239,7 @@ public class OrderMailMergeDataSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Un'implementazione standard per passare a un record successivo in una raccolta.
+    /// Un'implementazione standard per passare al record successivo in una raccolta.
     /// </summary>
     public bool MoveNext()
     {
@@ -250,7 +250,7 @@ public class OrderMailMergeDataSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Restituisce null perché non abbiamo elementi figlio per questo tipo di oggetto.
+    /// Restituisce null perché non abbiamo elementi figli per questo tipo di oggetto.
     /// </summary>
     public IMailMergeDataSource GetChildDataSource(string tableName)
     {
@@ -278,7 +278,7 @@ public class OrderMailMergeDataSource : IMailMergeDataSource
 
 ## ExecuteWithRegions(IMailMergeDataSourceRoot) {#executewithregions_1}
 
-Esegue una stampa unione da un'origine dati personalizzata con regioni di stampa unione.
+Esegue una stampa unione da un'origine dati personalizzata con aree di stampa unione.
 
 ```csharp
 public void ExecuteWithRegions(IMailMergeDataSourceRoot dataSourceRoot)
@@ -286,13 +286,13 @@ public void ExecuteWithRegions(IMailMergeDataSourceRoot dataSourceRoot)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| dataSourceRoot | IMailMergeDataSourceRoot | Un oggetto che implementa l'interfaccia radice dell'origine dati di stampa unione personalizzata. |
+| dataSourceRoot | IMailMergeDataSourceRoot | Un oggetto che implementa l'interfaccia root dell'origine dati di stampa unione personalizzata. |
 
 ### Osservazioni
 
-Utilizzare questo metodo per riempire i campi della stampa unione nel documento con i valori di qualsiasi origine dati personalizzata come un file XML o raccolte di oggetti business. Devi scrivere le tue classi che implementano il[`IMailMergeDataSourceRoot`](../../imailmergedatasourceroot/) e[`IMailMergeDataSource`](../../imailmergedatasource/) interfacce.
+Utilizzare questo metodo per compilare i campi della stampa unione nel documento con valori provenienti da qualsiasi origine dati personalizzata come un file XML o raccolte di oggetti business. Devi scrivere le tue classi che implementano il file[`IMailMergeDataSourceRoot`](../../imailmergedatasourceroot/) E[`IMailMergeDataSource`](../../imailmergedatasource/) interfacce.
 
-Puoi usare questo metodo solo quando[`IsBidiTextSupportedOnUpdate`](../../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/)è falso, ovvero non è necessaria la compatibilità della lingua da destra a sinistra (come arabo o ebraico).
+Puoi utilizzare questo metodo solo quando[`IsBidiTextSupportedOnUpdate`](../../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/) È`falso`, cioè non è necessaria la compatibilità con le lingue da destra a sinistra (come arabo o ebraico).
 
 ### Esempi
 
@@ -314,23 +314,23 @@ public void CustomDataSourceRoot()
     employeesSeattleBranch.Add(new Employee("John Cardholder", "Management"));
     employeesSeattleBranch.Add(new Employee("Joe Bloggs", "Sales"));
 
-    // Registra le nostre origini dati per nome in una radice di origine dati.
-    // Se stiamo per utilizzare questa radice dell'origine dati in una stampa unione con le regioni,
-    // il nome registrato di ciascuna origine deve corrispondere al nome di una regione di stampa unione esistente nel documento di origine della stampa unione.
+    // Registra le nostre origini dati per nome in una radice dell'origine dati.
+    // Se stiamo per utilizzare questa radice dell'origine dati in una stampa unione con regioni,
+    // il nome registrato di ciascuna origine deve corrispondere al nome di un'area di stampa unione esistente nel documento di origine della stampa unione.
     DataSourceRoot sourceRoot = new DataSourceRoot();
     sourceRoot.RegisterSource(mailMergeRegions[0], new EmployeeListMailMergeSource(employeesWashingtonBranch));
     sourceRoot.RegisterSource(mailMergeRegions[1], new EmployeeListMailMergeSource(employeesSeattleBranch));
 
-    // Dal momento che abbiamo regioni di stampa unione consecutive, normalmente dovremmo eseguire due unioni di posta.
-    // Tuttavia, un'origine di stampa unione con una radice di dati può riempire più aree
-    // se la radice contiene tabelle con nomi/colonne corrispondenti.
+    // Dato che abbiamo regioni di stampa unione consecutive, normalmente dovremmo eseguire due stampe unione.
+    // Tuttavia, un'origine di stampa unione con una radice di dati può riempire più regioni
+    // se la radice contiene tabelle con nomi/nomi di colonna corrispondenti.
     doc.MailMerge.ExecuteWithRegions(sourceRoot);
 
     doc.Save(ArtifactsDir + "MailMergeCustom.CustomDataSourceRoot.docx");
 }
 
 /// <summary>
-/// Crea un documento che contenga regioni di stampa unione consecutive, con i nomi designati dall'array di input,
+/// Crea un documento che contenga regioni di stampa unione consecutive, con nomi designati dall'array di input,
 /// per una tabella dati dei dipendenti.
 /// </summary>
 private static Document CreateSourceDocumentWithMailMergeRegions(string[] regions)
@@ -352,7 +352,7 @@ private static Document CreateSourceDocumentWithMailMergeRegions(string[] region
 }
 
 /// <summary>
-/// Un esempio di una classe "entità dati" nell'applicazione.
+/// Un esempio di classe "entità dati" nella tua applicazione.
 /// </summary>
 private class Employee
 {
@@ -379,8 +379,8 @@ private class EmployeeList : ArrayList
 }
 
 /// <summary>
-/// Radice dell'origine dati che può essere passata direttamente in una stampa unione che può registrare e contenere molte origini dati figlio.
-/// Queste origini devono implementare tutte IMailMergeDataSource e sono registrate e differenziate da un nome
+/// Radice dell'origine dati che può essere passata direttamente a una stampa unione che può registrare e contenere molte origini dati secondarie.
+/// Queste origini devono tutte implementare IMailMergeDataSource e sono registrate e differenziate da un nome
 /// che corrisponde a una regione di stampa unione che leggerà i rispettivi dati.
 /// </summary>
 private class DataSourceRoot : IMailMergeDataSourceRoot
@@ -401,7 +401,7 @@ private class DataSourceRoot : IMailMergeDataSourceRoot
 }
 
 /// <summary>
-/// Origine dati stampa unione personalizzata.
+/// Origine dati di stampa unione personalizzata.
 /// </summary>
 private class EmployeeListMailMergeSource : IMailMergeDataSource
 {
@@ -412,7 +412,7 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Un'implementazione standard per passare a un record successivo in una raccolta.
+    /// Un'implementazione standard per passare al record successivo in una raccolta.
     /// </summary>
     public bool MoveNext()
     {
@@ -433,7 +433,7 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Il nome dell'origine dati. Utilizzato da Aspose.Words solo durante l'esecuzione della stampa unione con aree ripetibili.
+    /// Il nome dell'origine dati. Utilizzato da Aspose.Words solo durante l'esecuzione della stampa unione con regioni ripetibili.
     /// </summary>
     public string TableName
     {
@@ -441,7 +441,7 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Aspose.Words chiama questo metodo per ottenere un valore per ogni campo di dati.
+    /// Aspose.Words chiama questo metodo per ottenere un valore per ogni campo dati.
     /// </summary>
     public bool GetValue(string fieldName, out object fieldValue)
     {
@@ -454,7 +454,7 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
                 fieldValue = mEmployees[mRecordIndex].Department;
                 return true;
             default:
-                // Restituisce "false" al motore di stampa unione di Aspose.Words per indicare
+                // Restituisce "false" al motore di stampa unione Aspose.Words per indicare
                 // che non siamo riusciti a trovare un campo con questo nome.
                 fieldValue = null;
                 return false;
@@ -462,7 +462,7 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Le origini dati figlio sono per la stampa unione nidificata.
+    /// Le origini dati secondarie sono per le stampe unione nidificate.
     /// </summary>
     public IMailMergeDataSource GetChildDataSource(string tableName)
     {
@@ -485,7 +485,7 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
 
 ## ExecuteWithRegions(DataSet) {#executewithregions_2}
 
-Esegue la stampa unione da un DataSet in un documento con aree di stampa unione.
+Esegue la stampa unione da a **Set di dati** in un documento con regioni di stampa unione.
 
 ```csharp
 public void ExecuteWithRegions(DataSet dataSet)
@@ -493,46 +493,45 @@ public void ExecuteWithRegions(DataSet dataSet)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| dataSet | DataSet | DataSet che contiene i dati da inserire nei campi della stampa unione. |
+| dataSet | DataSet | **Set di dati** che contiene i dati da inserire nei campi della stampa unione. |
 
 ### Osservazioni
 
-Utilizzare questo metodo per eseguire la stampa unione da una o più tabelle in aree ripetibili di unione mail nel documento. Le regioni di stampa unione all'interno del documento aumenteranno dinamicamente per accogliere i record nelle tabelle corrispondenti.
+Utilizzare questo metodo per eseguire la stampa unione da una o più tabelle in aree ripetibili mail merge nel documento. Le aree di stampa unione all'interno del documento aumenteranno dinamicamente per accogliere i record nelle tabelle corrispondenti.
 
-Ogni tabella nel DataSet deve avere un nome.
+Ogni tavolo in **Set di dati** deve avere un nome.
 
-Il documento deve avere aree di stampa unione definite con nomi che fanno riferimento alle tabelle nel DataSet.
+Il documento deve avere aree di stampa unione definite con nomi che fanno riferimento a tables nel file **Set di dati**.
 
 Per specificare una regione di stampa unione nel documento è necessario inserire due campi di stampa unione per contrassegnare l'inizio e la fine della regione di stampa unione.
 
-Tutto il contenuto del documento incluso all'interno di un'area di stampa unione verrà automaticamente ripetuto per ogni record nella DataTable.
+Tutto il contenuto del documento incluso in un'area di stampa unione verrà automaticamente ripetuto per ogni record nel file **Tabella dati**.
 
-Per contrassegnare l'inizio di una regione di stampa unione, inserire un MERGEFIELD con il nome TableStart:MyTable, dove MyTable corrisponde a uno dei nomi di tabella nel DataSet.
+Per contrassegnare l'inizio di una regione di stampa unione, inserisci un MERGEFIELD con il nome TableStart:MyTable, dove MyTable corrisponde a uno dei nomi di tabella nella tua **Set di dati**.
 
-Per contrassegnare la fine della regione di stampa unione, inserire un altro MERGEFIELD con nome TableEnd:MyTable.
+Per contrassegnare la fine della regione di stampa unione inserire un altro MERGEFIELD con nome TableEnd:MyTable.
 
-Per inserire un MERGEFIELD in Word usa il comando Inserisci/Campo e seleziona MergeField quindi digita il nome del campo.
+Per inserire un MERGEFIELD in Word utilizzare il comando Inserisci/Campo e selezionare Unisci campo, quindi digitare il nome del campo.
 
-I campi TableStart e TableEnd devono trovarsi all'interno della stessa sezione del documento.
+IL **Inizio tabella** E **Fine tabella** i campi devono trovarsi all'interno della stessa sezione del documento.
 
-Se utilizzati all'interno di una tabella, TableStart e TableEnd devono trovarsi all'interno della stessa riga della tabella.
+Se utilizzato all'interno di un tavolo, **Inizio tabella** E **Fine tabella** deve essere all'interno della stessa riga nella tabella.
 
-Le aree di stampa unione in un documento devono essere ben formate (ci deve sempre essere una coppia di campi di unione TableStart e TableEnd corrispondenti con lo stesso nome di tabella).
+Le regioni di stampa unione in un documento dovrebbero essere ben formate (è sempre necessario che ci sia una coppia di corrispondenti  **Inizio tabella** E **Fine tabella** unire campi con lo stesso nome di tabella).
 
 ### Esempi
 
-Mostra come eseguire una stampa unione nidificata con due aree di unione e due tabelle di dati.
+Mostra come eseguire una stampa unione nidificata con due aree di unione e due tabelle dati.
 
 ```csharp
-[Test]
 public void ExecuteWithRegionsNested()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Normalmente, i MERGEFIELD contengono il nome di una colonna di un'origine dati di stampa unione.
-    // Invece, possiamo usare i prefissi "TableStart:" e "TableEnd:" per iniziare/terminare una regione di stampa unione.
-    // Ogni regione apparterrà a una tabella con un nome che corrisponde alla stringa subito dopo i due punti del prefisso.
+    // Normalmente, MERGEFIELD contengono il nome di una colonna di un'origine dati di stampa unione.
+    // Invece, possiamo utilizzare i prefissi "TableStart:" e "TableEnd:" per iniziare/terminare un'area di stampa unione.
+    // Ogni regione apparterrà a una tabella con un nome che corrisponde alla stringa immediatamente dopo i due punti del prefisso.
     builder.InsertField(" MERGEFIELD TableStart:Customers");
 
     // Questo MERGEFIELD si trova all'interno dell'area di stampa unione della tabella "Clienti".
@@ -550,23 +549,23 @@ public void ExecuteWithRegionsNested()
     builder.EndRow();
 
     // Crea una seconda regione di stampa unione all'interno della regione esterna per una tabella denominata "Ordini".
-    // La tabella "Ordini" ha una relazione molti-a-uno con la tabella "Clienti" nella colonna "ID cliente".
+    // La tabella "Ordini" ha una relazione molti-a-uno con la tabella "Clienti" nella colonna "ClienteID".
     builder.InsertCell();
     builder.InsertField(" MERGEFIELD TableStart:Orders");
     builder.InsertField(" MERGEFIELD ItemName");
     builder.InsertCell();
     builder.InsertField(" MERGEFIELD Quantity");
 
-    // Termina la regione interna, quindi termina la regione esterna. L'apertura e la chiusura di una regione di stampa unione deve
-    // succede sulla stessa riga di una tabella.
+    // Termina la regione interna, quindi termina la regione esterna. L'apertura e la chiusura di una regione di stampa unione devono
+    // si verificano sulla stessa riga di una tabella.
     builder.InsertField(" MERGEFIELD TableEnd:Orders");
     builder.EndTable();
 
     builder.InsertField(" MERGEFIELD TableEnd:Customers");
 
-    // Crea un set di dati che contenga le due tabelle con i nomi e le relazioni richiesti.
-    // Ogni documento di unione per ogni riga della tabella "Clienti" dell'area di unione esterna eseguirà la stampa unione nella tabella "Ordini".
-    // Ciascun documento di unione visualizzerà tutte le righe dell'ultima tabella i cui valori di colonna "CustomerID" corrispondono alla riga corrente della tabella "Customers".
+    // Crea un set di dati che contiene le due tabelle con i nomi e le relazioni richiesti.
+    // Ogni documento di unione per ogni riga della tabella "Clienti" dell'area di unione esterna eseguirà la stampa unione sulla tabella "Ordini".
+    // Ciascun documento di unione visualizzerà tutte le righe dell'ultima tabella i cui valori della colonna "CustomerID" corrispondono alla riga corrente della tabella "Clienti".
     DataSet customersAndOrders = CreateDataSet();
     doc.MailMerge.ExecuteWithRegions(customersAndOrders);
 
@@ -574,7 +573,7 @@ public void ExecuteWithRegionsNested()
 }
 
 /// <summary>
-/// Genera un set di dati con due tabelle di dati denominate "Clienti" e "Ordini", con una relazione uno a molti nella colonna "ID cliente".
+/// Genera un set di dati che dispone di due tabelle dati denominate "Clienti" e "Ordini", con una relazione uno-a-molti nella colonna "CustomerID".
 /// </summary>
 private static DataSet CreateDataSet()
 {
@@ -611,7 +610,7 @@ private static DataSet CreateDataSet()
 
 ## ExecuteWithRegions(DataTable) {#executewithregions_3}
 
-Esegue la stampa unione da una DataTable nel documento con le regioni della stampa unione.
+Esegue la stampa unione da a **Tabella dati** nel documento con regioni di stampa unione.
 
 ```csharp
 public void ExecuteWithRegions(DataTable dataTable)
@@ -619,19 +618,20 @@ public void ExecuteWithRegions(DataTable dataTable)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| dataTable | DataTable | Origine dati per l'operazione di stampa unione. La tabella deve avere il suo **NomeTabella** insieme di proprietà. |
+| dataTable | DataTable | Origine dati per l'operazione di stampa unione. La tabella deve avere il suoTableName insieme di proprietà. |
 
 ### Osservazioni
 
-Il documento deve avere una regione di stampa unione definita con un nome che corrisponda a  **DataTable.TableName**.
+Il documento deve avere una regione di stampa unione definita con un nome corrispondente a TableName.
 
-Se ci sono altre regioni di stampa unione definite nel documento, vengono lasciate intatte. Ciò consente di eseguire diverse operazioni di stampa unione.
+Se nel documento sono definite altre regioni di stampa unione, queste vengono lasciate intatte. Ciò consente di eseguire diverse operazioni di stampa unione.
 
 ### Esempi
 
 Illustra come formattare le celle durante una stampa unione.
 
 ```csharp
+public void AlternatingRows()
 {
     Document doc = new Document(MyDir + "Mail merge destination - Northwind suppliers.docx");
 
@@ -641,9 +641,10 @@ Illustra come formattare le celle durante una stampa unione.
     doc.MailMerge.ExecuteWithRegions(dataTable);
 
     doc.Save(ArtifactsDir + "MailMergeEvent.AlternatingRows.docx");
+}
 
 /// <summary>
-/// Formatta le righe della tabella mentre viene eseguita una stampa unione per alternare tra due colori su righe pari/dispari.
+/// Formatta le righe della tabella durante la stampa unione per alternare due colori sulle righe pari/dispari.
 /// </summary>
 private class HandleMergeFieldAlternatingRows : IFieldMergingCallback
 {
@@ -655,7 +656,7 @@ private class HandleMergeFieldAlternatingRows : IFieldMergingCallback
         if (mBuilder == null)
             mBuilder = new DocumentBuilder(args.Document);
 
-        // Questo è vero se siamo sulla prima colonna, il che significa che ci siamo spostati su una nuova riga.
+        // Questo è vero perché siamo sulla prima colonna, il che significa che ci siamo spostati su una nuova riga.
         if (args.FieldName == "CompanyName")
         {
             Color rowColor = IsOdd(mRowIdx) ? Color.FromArgb(213, 227, 235) : Color.FromArgb(242, 242, 242);
@@ -680,7 +681,7 @@ private class HandleMergeFieldAlternatingRows : IFieldMergingCallback
 }
 
 /// <summary>
-/// Funzione necessaria per l'autoporting di Visual Basic che restituisce la parità del numero passato.
+/// Funzione necessaria per il porting automatico di Visual Basic che restituisce la parità del numero passato.
 /// </summary>
 private static bool IsOdd(int value)
 {
@@ -688,7 +689,7 @@ private static bool IsOdd(int value)
 }
 
 /// <summary>
-/// Crea un'origine dati per la stampa unione.
+/// Crea un'origine dati di stampa unione.
 /// </summary>
 private static DataTable GetSuppliersDataTable()
 {
@@ -707,25 +708,25 @@ private static DataTable GetSuppliersDataTable()
 }
 ```
 
-Mostra come utilizzare le regioni per eseguire due stampa unione separate in un documento.
+Mostra come utilizzare le regioni per eseguire due fusioni di posta separate in un unico documento.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Se vogliamo eseguire due stampa unione consecutive su un documento mentre prendiamo dati da due tabelle
-// correlati tra loro in qualsiasi modo, possiamo separare le unioni di posta con le regioni.
-// Normalmente, i MERGEFIELD contengono il nome di una colonna di un'origine dati di stampa unione.
-// Invece, possiamo usare i prefissi "TableStart:" e "TableEnd:" per iniziare/terminare una regione di stampa unione.
-// Ogni regione apparterrà a una tabella con un nome che corrisponde alla stringa subito dopo i due punti del prefisso.
-// Queste regioni sono separate per i dati non correlati, mentre possono essere nidificate per i dati gerarchici.
+// Se vogliamo eseguire due mail merge consecutive su un documento prendendo i dati da due tabelle
+// correlati tra loro in alcun modo, possiamo separare le fusioni della posta con le regioni.
+// Normalmente, MERGEFIELD contengono il nome di una colonna di un'origine dati di stampa unione.
+// Invece, possiamo utilizzare i prefissi "TableStart:" e "TableEnd:" per iniziare/terminare un'area di stampa unione.
+// Ogni regione apparterrà a una tabella con un nome che corrisponde alla stringa immediatamente dopo i due punti del prefisso.
+// Queste regioni sono separate per i dati non correlati, mentre possono essere annidate per i dati gerarchici.
 builder.Writeln("\tCities: ");
 builder.InsertField(" MERGEFIELD TableStart:Cities");
 builder.InsertField(" MERGEFIELD Name");
 builder.InsertField(" MERGEFIELD TableEnd:Cities");
 builder.InsertParagraph();
 
-// Entrambi i MERGEFIELD fanno riferimento allo stesso nome di colonna, ma i valori per ciascuno proverranno da tabelle di dati differenti.
+// Entrambi i MERGEFIELD fanno riferimento allo stesso nome di colonna, ma i valori per ciascuno proverranno da tabelle dati diverse.
 builder.Writeln("\tFruit: ");
 builder.InsertField(" MERGEFIELD TableStart:Fruit");
 builder.InsertField(" MERGEFIELD Name");
@@ -749,7 +750,7 @@ tableFruit.Rows.Add(new object[] { "Banana" });
 // nell'intervallo "Città" lasciando vuoti i campi dell'intervallo "Frutta".
 doc.MailMerge.ExecuteWithRegions(tableCities);
 
-// Esegui una seconda unione per la tabella "Frutta", utilizzando una visualizzazione dati
+// Esegue una seconda unione per la tabella "Frutta", utilizzando una visualizzazione dati
 // per ordinare le righe in ordine crescente nella colonna "Nome" prima dell'unione.
 DataView dv = new DataView(tableFruit);
 dv.Sort = "Name ASC";
@@ -768,7 +769,7 @@ doc.Save(ArtifactsDir + "MailMerge.ExecuteWithRegionsConcurrent.docx");
 
 ## ExecuteWithRegions(DataView) {#executewithregions_4}
 
-Esegue la stampa unione da un DataView nel documento con le regioni della stampa unione.
+Esegue la stampa unione da a **DataView** nel documento con regioni di stampa unione.
 
 ```csharp
 public void ExecuteWithRegions(DataView dataView)
@@ -776,37 +777,37 @@ public void ExecuteWithRegions(DataView dataView)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| dataView | DataView | Origine dati per l'operazione di stampa unione. La tabella di origine di **Vista dati** deve avere il suo **NomeTabella** insieme di proprietà. |
+| dataView | DataView | Origine dati per l'operazione di stampa unione. La tabella di origine del **DataView** deve avere il suo **NomeTabella** insieme di proprietà. |
 
 ### Osservazioni
 
-Questo metodo è utile se si recuperano i dati in un file **Tabella dati** ma poi è necessario applicare un filtro o ordinare prima della stampa unione.
+Questo metodo è utile se recuperi i dati in un file **Tabella dati** ma poi è necessario applicare un filtro o ordinare prima della stampa unione.
 
-Il documento deve avere una regione di stampa unione definita con un nome che corrisponda a  **DataView.Table.TableName**.
+Il documento deve avere una regione di stampa unione definita con un nome corrispondente a  **DataView.Table.TableName**.
 
-Se ci sono altre regioni di stampa unione definite nel documento, vengono lasciate intatte. Ciò consente di eseguire diverse operazioni di stampa unione.
+Se nel documento sono definite altre regioni di stampa unione, queste vengono lasciate intatte. Ciò consente di eseguire diverse operazioni di stampa unione.
 
 ### Esempi
 
-Mostra come utilizzare le regioni per eseguire due stampa unione separate in un documento.
+Mostra come utilizzare le regioni per eseguire due fusioni di posta separate in un unico documento.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Se vogliamo eseguire due stampa unione consecutive su un documento mentre prendiamo dati da due tabelle
-// correlati tra loro in qualsiasi modo, possiamo separare le unioni di posta con le regioni.
-// Normalmente, i MERGEFIELD contengono il nome di una colonna di un'origine dati di stampa unione.
-// Invece, possiamo usare i prefissi "TableStart:" e "TableEnd:" per iniziare/terminare una regione di stampa unione.
-// Ogni regione apparterrà a una tabella con un nome che corrisponde alla stringa subito dopo i due punti del prefisso.
-// Queste regioni sono separate per i dati non correlati, mentre possono essere nidificate per i dati gerarchici.
+// Se vogliamo eseguire due mail merge consecutive su un documento prendendo i dati da due tabelle
+// correlati tra loro in alcun modo, possiamo separare le fusioni della posta con le regioni.
+// Normalmente, MERGEFIELD contengono il nome di una colonna di un'origine dati di stampa unione.
+// Invece, possiamo utilizzare i prefissi "TableStart:" e "TableEnd:" per iniziare/terminare un'area di stampa unione.
+// Ogni regione apparterrà a una tabella con un nome che corrisponde alla stringa immediatamente dopo i due punti del prefisso.
+// Queste regioni sono separate per i dati non correlati, mentre possono essere annidate per i dati gerarchici.
 builder.Writeln("\tCities: ");
 builder.InsertField(" MERGEFIELD TableStart:Cities");
 builder.InsertField(" MERGEFIELD Name");
 builder.InsertField(" MERGEFIELD TableEnd:Cities");
 builder.InsertParagraph();
 
-// Entrambi i MERGEFIELD fanno riferimento allo stesso nome di colonna, ma i valori per ciascuno proverranno da tabelle di dati differenti.
+// Entrambi i MERGEFIELD fanno riferimento allo stesso nome di colonna, ma i valori per ciascuno proverranno da tabelle dati diverse.
 builder.Writeln("\tFruit: ");
 builder.InsertField(" MERGEFIELD TableStart:Fruit");
 builder.InsertField(" MERGEFIELD Name");
@@ -830,7 +831,7 @@ tableFruit.Rows.Add(new object[] { "Banana" });
 // nell'intervallo "Città" lasciando vuoti i campi dell'intervallo "Frutta".
 doc.MailMerge.ExecuteWithRegions(tableCities);
 
-// Esegui una seconda unione per la tabella "Frutta", utilizzando una visualizzazione dati
+// Esegue una seconda unione per la tabella "Frutta", utilizzando una visualizzazione dati
 // per ordinare le righe in ordine crescente nella colonna "Nome" prima dell'unione.
 DataView dv = new DataView(tableFruit);
 dv.Sort = "Name ASC";
@@ -849,7 +850,7 @@ doc.Save(ArtifactsDir + "MailMerge.ExecuteWithRegionsConcurrent.docx");
 
 ## ExecuteWithRegions(IDataReader, string) {#executewithregions_5}
 
-Esegue la stampa unione da IDataReader nel documento con le regioni della stampa unione.
+Esegue la stampa unione da **IDataReader** nel documento con regioni di stampa unione.
 
 ```csharp
 public void ExecuteWithRegions(IDataReader dataReader, string tableName)
@@ -857,12 +858,12 @@ public void ExecuteWithRegions(IDataReader dataReader, string tableName)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| dataReader | IDataReader | Origine dei record di dati per la stampa unione come OleDbDataReader o SqlDataReader. |
-| tableName | String | Nome della regione di stampa unione nel documento da compilare. |
+| dataReader | IDataReader | Origine dei record di dati per la stampa unione come **Lettore dati OleDb** O **SQLDataReader**. |
+| tableName | String | Nome dell'area di stampa unione nel documento da compilare. |
 
 ### Osservazioni
 
-Puoi passare **SQLDataReader** o **Lettore dati OleDb** oggetto in this metodo come parametro perché entrambi implementati **Lettore di dati** interfaccia.
+Puoi passare **SQLDataReader** O **Lettore dati OleDb**object nel metodo this come parametro perché entrambi sono implementati **IDataReader** interfaccia.
 
 ### Esempi
 
@@ -875,14 +876,14 @@ public void ImageFromBlob()
 
     doc.MailMerge.FieldMergingCallback = new HandleMergeImageFieldFromBlob();
 
-    string connString = $"Provider=Microsoft.Jet.OLEDB.4.0;Data Source={DatabaseDir + "Northwind.mdb"};";
+    string connString = $"Provider=Microsoft.ACE.OLEDB.12.0;Data Source={DatabaseDir + "Northwind.accdb"};";
     string query = "SELECT FirstName, LastName, Title, Address, City, Region, Country, PhotoBLOB FROM Employees";
 
     using (OleDbConnection conn = new OleDbConnection(connString))
     {
         conn.Open();
 
-        // Apre il lettore di dati, che deve essere in una modalità che legga tutti i record contemporaneamente.
+        // Apre il lettore dati, che deve essere in una modalità che legga tutti i record contemporaneamente.
         OleDbCommand cmd = new OleDbCommand(query, conn);
         IDataReader dataReader = cmd.ExecuteReader();
 
@@ -890,6 +891,7 @@ public void ImageFromBlob()
     }
 
     doc.Save(ArtifactsDir + "MailMergeEvent.ImageFromBlob.docx");
+}
 
 private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 {
@@ -899,7 +901,7 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
     }
 
     /// <summary>
-    /// Viene chiamato quando una stampa unione incontra un MERGEFIELD nel documento con un tag "Image:" nel nome.
+    /// Viene chiamato quando una stampa unione incontra un MERGEFIELD nel documento con un tag "Immagine:" nel suo nome.
     /// </summary>
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs e)
     {

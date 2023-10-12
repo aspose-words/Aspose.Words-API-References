@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertParagraph
 second_title: Aspose.Words für .NET-API-Referenz
 description: DocumentBuilder methode. Fügt einen Absatzumbruch in das Dokument ein.
 type: docs
-weight: 400
+weight: 430
 url: /de/net/aspose.words/documentbuilder/insertparagraph/
 ---
 ## DocumentBuilder.InsertParagraph method
@@ -16,17 +16,19 @@ public Paragraph InsertParagraph()
 
 ### Rückgabewert
 
-Der soeben eingefügte Absatzknoten. Es ist derselbe Knoten wie[`CurrentParagraph`](../currentparagraph/).
+Der gerade eingefügte Absatzknoten. Es ist derselbe Knoten wie[`CurrentParagraph`](../currentparagraph/).
 
 ### Bemerkungen
 
-Aktuelle Absatzformatierung durch die vorgegeben[`ParagraphFormat`](../paragraphformat/) Eigentum verwendet wird.
+Aktuelle Absatzformatierung, die durch angegeben wird[`ParagraphFormat`](../paragraphformat/) Eigentum genutzt wird.
 
-Teilt den aktuellen Absatz in zwei Teile. Nach dem Einfügen des Absatzes steht der Cursor am Anfang des neuen Absatzes.
+Teilt den aktuellen Absatz in zwei Teile. Nach dem Einfügen des Absatzes wird der Cursor am Anfang des neuen Absatzes platziert.
+
+Wenn es nicht möglich ist, an der aktuellen Cursorposition einen Absatzumbruch einzufügen, wird eine Ausnahme ausgelöst.
 
 ### Beispiele
 
-Zeigt, wie Sie einen Absatz in das Dokument einfügen.
+Zeigt, wie ein Absatz in das Dokument eingefügt wird.
 
 ```csharp
 Document doc = new Document();
@@ -46,7 +48,7 @@ paragraphFormat.AddSpaceBetweenFarEastAndAlpha = true;
 paragraphFormat.AddSpaceBetweenFarEastAndDigit = true;
 paragraphFormat.KeepTogether = true;
 
-// Die Methode "Writeln" beendet den Absatz nach dem Anhängen von Text
+// Die Methode „Writeln“ beendet den Absatz nach dem Anhängen von Text
 // und beginnt dann eine neue Zeile und fügt einen neuen Absatz hinzu.
 builder.Writeln("Hello world!");
 

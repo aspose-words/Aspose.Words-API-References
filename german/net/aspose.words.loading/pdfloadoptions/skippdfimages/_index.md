@@ -1,14 +1,14 @@
 ---
 title: PdfLoadOptions.SkipPdfImages
 second_title: Aspose.Words für .NET-API-Referenz
-description: PdfLoadOptions eigendom. Ruft oder setzt das Flag das angibt ob Bilder beim Laden eines PDFDokuments übersprungen werden müssen. Standard ist False.
+description: PdfLoadOptions eigendom. Ruft das Flag ab oder setzt es das angibt ob Bilder beim Laden eines PDFDokuments übersprungen werden müssen. Standard istFALSCH .
 type: docs
 weight: 40
 url: /de/net/aspose.words.loading/pdfloadoptions/skippdfimages/
 ---
 ## PdfLoadOptions.SkipPdfImages property
 
-Ruft oder setzt das Flag, das angibt, ob Bilder beim Laden eines PDF-Dokuments übersprungen werden müssen. Standard ist False.
+Ruft das Flag ab oder setzt es, das angibt, ob Bilder beim Laden eines PDF-Dokuments übersprungen werden müssen. Standard ist`FALSCH` .
 
 ```csharp
 public bool SkipPdfImages { get; set; }

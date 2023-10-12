@@ -3,7 +3,7 @@ title: HtmlSaveOptions.FontsFolder
 second_title: Справочник по API Aspose.Words для .NET
 description: HtmlSaveOptions свойство. Указывает физическую папку в которой сохраняются шрифты при экспорте документа в HTML. По умолчанию  пустая строка.
 type: docs
-weight: 320
+weight: 310
 url: /ru/net/aspose.words.saving/htmlsaveoptions/fontsfolder/
 ---
 ## HtmlSaveOptions.FontsFolder property
@@ -16,15 +16,15 @@ public string FontsFolder { get; set; }
 
 ### Примечания
 
-Когда вы сохраняете[`Document`](../../../aspose.words/document/) в формате HTML и[`ExportFontResources`](../exportfontresources/) установлен на`истинный` , Aspose.Words необходимо сохранять шрифты, используемые в документе, как отдельные файлы. `FontsFolder` позволяет указать, где будут сохраняться шрифты и [`FontsFolderAlias`](../fontsfolderalias/) позволяет указать, как будут создаваться URI шрифта.
+Когда вы сохраняете[`Document`](../../../aspose.words/document/) в формате HTML и[`ExportFontResources`](../exportfontresources/) установлено на`истинный` , Aspose.Words необходимо сохранять шрифты, используемые в документе, как отдельные файлы. `FontsFolder` позволяет указать, где будут сохраняться шрифты и [`FontsFolderAlias`](../fontsfolderalias/) позволяет указать, как будут создаваться URI шрифтов.
 
-Если вы сохраняете документ в файл и указываете имя файла, Aspose.Words по умолчанию сохраняет шрифты в той же папке, где сохранен файл документа. Использовать`FontsFolder` , чтобы переопределить это поведение.
+Если вы сохраняете документ в файл и указываете имя файла, Aspose.Words по умолчанию сохраняет шрифты в той же папке, где сохраняется файл документа. Использовать`FontsFolder` , чтобы переопределить это поведение.
 
-Если вы сохраняете документ в поток, Aspose.Words не имеет папки для сохранения шрифтов, , но все равно нужно где-то сохранять шрифты. В этом случае вам необходимо указать доступную папку в`FontsFolder` свойство или предоставить пользовательские потоки через [`FontSavingCallback`](../fontsavingcallback/) обработчик события.
+Если вы сохраняете документ в поток, Aspose.Words не имеет папки для сохранения шрифтов , но шрифты все равно нужно куда-то сохранять. В этом случае вам необходимо указать доступную папку в`FontsFolder` или предоставить собственные потоки через [`FontSavingCallback`](../fontsavingcallback/) обработчик события.
 
 Если папка, указанная`FontsFolder` не существует, он будет создан автоматически.
 
-[`ResourceFolder`](../resourcefolder/) — это еще один способ указать папку, в которой следует сохранять шрифты.
+[`ResourceFolder`](../resourcefolder/) это еще один способ указать папку, в которой следует сохранять шрифты.
 
 ### Примеры
 
@@ -42,7 +42,7 @@ HtmlSaveOptions options = new HtmlSaveOptions
     FontsFolder = ArtifactsDir + "Fonts",
     ImagesFolder = ArtifactsDir + "Images",
     ResourceFolder = ArtifactsDir + "Resources",
-    FontsFolderAlias = "http://example.com/шрифты",
+    FontsFolderAlias = "http://example.com/fonts",
     ImagesFolderAlias = "http://example.com/images",
     ResourceFolderAlias = "http://example.com/resources",
     ExportOriginalUrlForLinkedImages = true

@@ -1,14 +1,14 @@
 ---
 title: FieldOptions.FieldDatabaseProvider
 second_title: Aspose.Words لمراجع .NET API
-description: FieldOptions ملكية. الحصول على أو تعيين موفر يقوم بإرجاع نتيجة استعلام لـFieldDatabase الحقل .
+description: FieldOptions ملكية. الحصول على أو تعيين موفر يقوم بإرجاع نتيجة استعلام لـFieldDatabase الحقل.
 type: docs
-weight: 70
+weight: 80
 url: /ar/net/aspose.words.fields/fieldoptions/fielddatabaseprovider/
 ---
 ## FieldOptions.FieldDatabaseProvider property
 
-الحصول على أو تعيين موفر يقوم بإرجاع نتيجة استعلام لـ[`FieldDatabase`](../../fielddatabase/) الحقل .
+الحصول على أو تعيين موفر يقوم بإرجاع نتيجة استعلام لـ[`FieldDatabase`](../../fielddatabase/) الحقل.
 
 ```csharp
 public IFieldDatabaseProvider FieldDatabaseProvider { get; set; }

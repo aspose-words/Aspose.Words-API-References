@@ -1,14 +1,14 @@
 ---
 title: Font.Bidi
 second_title: Aspose.Words for .NET API Referansı
-description: Font mülk. Bu çalıştırmanın içeriğinin sağdan sola özelliklere sahip olup olmayacağını belirtir.
+description: Font mülk. Bu çalıştırmanın içeriğinin sağdan sola özelliklerine sahip olup olmayacağını belirtir.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/font/bidi/
 ---
 ## Font.Bidi property
 
-Bu çalıştırmanın içeriğinin sağdan sola özelliklere sahip olup olmayacağını belirtir.
+Bu çalıştırmanın içeriğinin sağdan sola özelliklerine sahip olup olmayacağını belirtir.
 
 ```csharp
 public bool Bidi { get; set; }
@@ -16,11 +16,11 @@ public bool Bidi { get; set; }
 
 ### Notlar
 
-Bu özellik, açık olduğunda, soldan sağa güçlü metinlerle kullanılmamalıdır. Bu koşul altındaki herhangi bir davranış belirtilmemiştir. Bu özellik kapalıyken, sağdan sola yazılan güçlü metinlerle kullanılmamalıdır. Bu koşul altındaki herhangi bir davranış belirtilmemiştir.
+Bu özellik açıkken soldan sağa güçlü metinlerle kullanılmayacaktır. Bu koşul altında herhangi bir davranış belirtilmemiştir. Bu özellik kapalıyken sağdan sola güçlü metinlerle kullanılmayacaktır. Bu koşul altındaki herhangi bir davranış belirtilmemiştir.
 
-Bu çalıştırmanın içeriği görüntülendiğinde, tüm karakterler, biçimlendirme amaçları için karmaşık komut dosyası karakterleri olarak ele alınacaktır. Bunun anlamı şudur ki[`BoldBi`](../boldbi/) ,[`ItalicBi`](../italicbi/) ,[`SizeBi`](../sizebi/) ve bu çalıştırmayı oluştururken karşılık gelen bir font name kullanılacaktır.
+Bu çalıştırmanın içeriği görüntülendiğinde, tüm karakterler, biçimlendirme amacıyla karmaşık komut dosyası karakterleri olarak ele alınacaktır. Bu şu demek[`BoldBi`](../boldbi/) ,[`ItalicBi`](../italicbi/) ,[`SizeBi`](../sizebi/) ve bu çalıştırma oluşturulurken buna karşılık gelen name yazı tipi kullanılacaktır.
 
-Ayrıca, bu çalıştırmanın içeriği görüntülendiğinde, bu özellik "zayıf türler" ve "nötr türler" olarak sınıflandırılan karakterler için sağdan sola geçersiz kılma işlevi görür.
+Ayrıca, bu çalıştırmanın içeriği görüntülendiğinde bu özellik, "zayıf türler" ve "nötr türler" olarak sınıflandırılan karakterler için sağdan sola geçersiz kılma işlevi görür.
 
 ### Örnekler
 
@@ -44,14 +44,14 @@ builder.Font.ItalicBi = true;
 builder.Font.BoldBi = true;
 builder.Font.LocaleIdBi = new CultureInfo("ar-AR", false).LCID;
 
-// Eklemek üzere olduğumuz metnin olup olmadığını belirtmek için Bidi bayrağını kullanabiliriz
-// belge oluşturucu ile sağdan sola. Bu bayrak true olarak ayarlanmış şekilde metin eklediğimizde,
-// sağdan sola yazı tipi ayarları kümesi kullanılarak biçimlendirilecektir.
+// Eklemek üzere olduğumuz metnin olup olmadığını belirtmek için Bidi bayrağını kullanabiliriz.
+// belge oluşturucu ile sağdan soladır. Bu bayrak true olarak ayarlanmış şekilde metin eklediğimizde,
+// sağdan sola yazı tipi ayarları kullanılarak biçimlendirilecektir.
 builder.Font.Bidi = true;
 builder.Write("مرحبًا");
 
-// Bayrağı false olarak ayarlayın ve ardından soldan sağa metin ekleyin.
-// Belge oluşturucu, bunları soldan sağa yazı tipi ayarları kümesini kullanarak biçimlendirir.
+// Bayrağı false olarak ayarlayın ve ardından soldan sağa metni ekleyin.
+// Belge oluşturucu bunları soldan sağa yazı tipi ayarlarını kullanarak biçimlendirecektir.
 builder.Font.Bidi = false;
 builder.Write(" Hello world!");
 

@@ -1,14 +1,16 @@
 ---
 title: Class OleControl
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.Ole.OleControl sınıf. OLE ActiveX denetimini temsil eder.
+description: Aspose.Words.Drawing.Ole.OleControl sınıf. OLE ActiveX kontrolünü temsil eder.
 type: docs
-weight: 1010
+weight: 1140
 url: /tr/net/aspose.words.drawing.ole/olecontrol/
 ---
 ## OleControl class
 
-OLE ActiveX denetimini temsil eder.
+OLE ActiveX kontrolünü temsil eder.
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Ole Nesneleriyle Çalışmak](https://docs.aspose.com/words/net/working-with-ole-objects/) dokümantasyon makalesi.
 
 ```csharp
 public class OleControl
@@ -18,8 +20,8 @@ public class OleControl
 
 | İsim | Tanım |
 | --- | --- |
-| virtual [IsForms2OleControl](../../aspose.words.drawing.ole/olecontrol/isforms2olecontrol/) { get; } | Kontrol bir ise true döndürür[`Forms2OleControl`](../forms2olecontrol/) . |
-| [Name](../../aspose.words.drawing.ole/olecontrol/name/) { get; } | ActiveX denetiminin adını alır. |
+| [IsForms2OleControl](../../aspose.words.drawing.ole/olecontrol/isforms2olecontrol/) { get; } | İadeler`doğru` eğer kontrol bir[`Forms2OleControl`](../forms2olecontrol/) . |
+| [Name](../../aspose.words.drawing.ole/olecontrol/name/) { get; set; } | ActiveX denetiminin adını alır veya ayarlar. |
 
 ### Örnekler
 
@@ -31,7 +33,7 @@ Document doc = new Document(MyDir + "ActiveX controls.docx");
 Shape shape = (Shape) doc.GetChild(NodeType.Shape, 0, true);
 OleControl oleControl = shape.OleFormat.OleControl;
 
-Assert.AreEqual(null, oleControl.Name);
+Assert.AreEqual("CheckBox1", oleControl.Name);
 
 if (oleControl.IsForms2OleControl)
 {
@@ -41,6 +43,10 @@ if (oleControl.IsForms2OleControl)
     Assert.AreEqual(true, checkBox.Enabled);
     Assert.AreEqual(Forms2OleControlType.CheckBox, checkBox.Type);
     Assert.AreEqual(null, checkBox.ChildNodes);
+    Assert.AreEqual(string.Empty, checkBox.GroupName);
+
+    // Bir Çerçeve için GrupAdı'nı ayarlayamayacağınızı unutmayın.
+    checkBox.GroupName = "Aspose group name";
 }
 ```
 

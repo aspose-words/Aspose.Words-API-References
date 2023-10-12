@@ -3,7 +3,7 @@ title: Enum EmbeddedFontStyle
 second_title: Справочник по API Aspose.Words для .NET
 description: Aspose.Words.Fonts.EmbeddedFontStyle перечисление. Определяет стиль встроенного шрифта внутриFontInfo объект.
 type: docs
-weight: 2680
+weight: 2860
 url: /ru/net/aspose.words.fonts/embeddedfontstyle/
 ---
 ## EmbeddedFontStyle enumeration
@@ -19,9 +19,9 @@ public enum EmbeddedFontStyle
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| Regular | `0` | Определяет обычный встроенный шрифт. |
-| Bold | `1` | Задает полужирный встроенный шрифт. |
-| Italic | `2` | Определяет встроенный курсивный шрифт. |
+| Regular | `0` | Указывает встроенный шрифт Regular. |
+| Bold | `1` | Определяет встроенный жирный шрифт. |
+| Italic | `2` | Определяет встроенный шрифт «Курсив». |
 | BoldItalic | `3` | Определяет встроенный шрифт Bold-Italic. |
 
 ### Примеры
@@ -42,7 +42,7 @@ doc = new Document(MyDir + "Embedded font.doc");
 Assert.IsNull(doc.FontInfos["Alte DIN 1451 Mittelschrift"].GetEmbeddedFont(EmbeddedFontFormat.OpenType, EmbeddedFontStyle.Regular));
 Assert.IsNotNull(doc.FontInfos["Alte DIN 1451 Mittelschrift"].GetEmbeddedFont(EmbeddedFontFormat.EmbeddedOpenType, EmbeddedFontStyle.Regular));
 
-// Кроме того, мы можем преобразовать встроенный формат OpenType, полученный из документов .doc, в OpenType.
+// Кроме того, мы можем преобразовать встроенный формат OpenType, который поступает из документов .doc, в OpenType.
 embeddedFontBytes = doc.FontInfos["Alte DIN 1451 Mittelschrift"].GetEmbeddedFontAsOpenType(EmbeddedFontStyle.Regular);
 
 File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.otf", embeddedFontBytes);

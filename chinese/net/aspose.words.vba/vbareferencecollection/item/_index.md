@@ -1,14 +1,14 @@
 ---
 title: VbaReferenceCollection.Item
 second_title: Aspose.Words for .NET API 参考
-description: VbaReferenceCollection 财产. 获取VbaReference指定索引处的对象
+description: VbaReferenceCollection 财产. 获取VbaReference指定索引处的对象.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.vba/vbareferencecollection/item/
 ---
 ## VbaReferenceCollection indexer
 
-获取[`VbaReference`](../../vbareference/)指定索引处的对象。
+获取[`VbaReference`](../../vbareference/)指定索引处的对象.
 
 ```csharp
 public VbaReference this[int index] { get; }

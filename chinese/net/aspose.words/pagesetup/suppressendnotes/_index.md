@@ -1,14 +1,14 @@
 ---
 title: PageSetup.SuppressEndnotes
 second_title: Aspose.Words for .NET API 参考
-description: PageSetup 财产. 真的如果尾注打印在下一个不禁止尾注的部分的末尾 禁止的尾注在该部分的尾注之前打印
+description: PageSetup 财产. 如果尾注打印在下一个不抑制尾注的部分的末尾则为 True 抑制的尾注将在该部分中的尾注之前打印
 type: docs
-weight: 400
+weight: 410
 url: /zh/net/aspose.words/pagesetup/suppressendnotes/
 ---
 ## PageSetup.SuppressEndnotes property
 
-**真的**如果尾注打印在下一个不禁止尾注的部分的末尾。 禁止的尾注在该部分的尾注之前打印。
+如果尾注打印在下一个不抑制尾注的部分的末尾，则为 True。 抑制的尾注将在该部分中的尾注之前打印。
 
 ```csharp
 public bool SuppressEndnotes { get; set; }
@@ -16,9 +16,10 @@ public bool SuppressEndnotes { get; set; }
 
 ### 例子
 
-显示如何在每个部分的末尾存储尾注，并修改它们的位置。
+展示如何在每个部分的末尾存储尾注并修改它们的位置。
 
 ```csharp
+public void SuppressEndnotes()
 {
     Document doc = new Document();
     doc.RemoveAllChildren();
@@ -27,23 +28,24 @@ public bool SuppressEndnotes { get; set; }
     Assert.AreEqual(EndnotePosition.EndOfDocument, doc.EndnoteOptions.Position);
 
     // 我们使用文档的“EndnoteOptions”对象的“Position”属性
-    // 改为在每个部分的末尾收集尾注。
+    // 在每个部分的末尾收集尾注。
     doc.EndnoteOptions.Position = EndnotePosition.EndOfSection;
 
     InsertSectionWithEndnote(doc, "Section 1", "Endnote 1, will stay in section 1");
     InsertSectionWithEndnote(doc, "Section 2", "Endnote 2, will be pushed down to section 3");
     InsertSectionWithEndnote(doc, "Section 3", "Endnote 3, will stay in section 3");
 
-    // 当让部分显示它们各自的尾注时，我们可以设置“SuppressEndnotes”标志
-    // 将部分的“PageSetup”对象设置为“true”以恢复默认行为并传递其尾注
+    // 在让节显示各自的尾注时，我们可以设置“SuppressEndnotes”标志
+    // 将某个部分的“PageSetup”对象设置为“true”以恢复默认行为并传递其尾注
     // 进入下一节。
     PageSetup pageSetup = doc.Sections[1].PageSetup;
     pageSetup.SuppressEndnotes = true;
 
     doc.Save(ArtifactsDir + "PageSetup.SuppressEndnotes.docx");
+}
 
 /// <summary>
-/// 将带有文本和尾注的部分附加到文档中。
+/// 将包含文本和尾注的部分附加到文档中。
 /// </summary>
 private static void InsertSectionWithEndnote(Document doc, string sectionBodyText, string endnoteText)
 {

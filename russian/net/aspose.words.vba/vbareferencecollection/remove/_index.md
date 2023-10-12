@@ -1,14 +1,14 @@
 ---
 title: VbaReferenceCollection.Remove
 second_title: Справочник по API Aspose.Words для .NET
-description: VbaReferenceCollection метод. Удаляет первое вхождение указанного элемента VbaReference из коллекции.
+description: VbaReferenceCollection метод. Удаляет первое вхождение указанногоVbaReference предмет из коллекции.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.vba/vbareferencecollection/remove/
 ---
 ## VbaReferenceCollection.Remove method
 
-Удаляет первое вхождение указанного элемента VbaReference из коллекции.
+Удаляет первое вхождение указанного[`VbaReference`](../../vbareference/) предмет из коллекции.
 
 ```csharp
 public void Remove(VbaReference item)
@@ -16,10 +16,9 @@ public void Remove(VbaReference item)
 
 ### Примеры
 
-Показывает, как получить/удалить элемент из коллекции ссылок VBA.
+Показывает, как получить или удалить элемент из коллекции ссылок VBA.
 
 ```csharp
-[Test]
 public void RemoveVbaReference()
 {
     const string brokenPath = @"X:\broken.dll";
@@ -45,7 +44,7 @@ public void RemoveVbaReference()
 }
 
 /// <summary>
-/// Возвращает строку, представляющую путь LibId указанной ссылки. 
+ /// Возвращает строку, представляющую путь LibId указанной ссылки.
 /// </summary>
 private static string GetLibIdPath(VbaReference reference)
 {
@@ -63,7 +62,7 @@ private static string GetLibIdPath(VbaReference reference)
 }
 
 /// <summary>
-/// Возвращает путь из указанного идентификатора библиотеки типов автоматизации.
+/// Возвращает путь от указанного идентификатора библиотеки типов автоматизации.
 /// </summary>
 private static string GetLibIdReferencePath(string libIdReference)
 {
@@ -78,7 +77,7 @@ private static string GetLibIdReferencePath(string libIdReference)
 }
 
 /// <summary>
-/// Возвращает путь из указанного идентификатора библиотеки типов автоматизации.
+/// Возвращает путь от указанного идентификатора библиотеки типов автоматизации.
 /// </summary>
 private static string GetLibIdProjectPath(string libIdProject)
 {

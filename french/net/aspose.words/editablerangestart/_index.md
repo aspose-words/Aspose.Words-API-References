@@ -3,12 +3,14 @@ title: Class EditableRangeStart
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.EditableRangeStart classe. Représente le début dune plage modifiable dans un document Word.
 type: docs
-weight: 1290
+weight: 1440
 url: /fr/net/aspose.words/editablerangestart/
 ---
 ## EditableRangeStart class
 
 Représente le début d'une plage modifiable dans un document Word.
+
+Pour en savoir plus, visitez le[Modèle objet de document (DOM) Aspose.Words](https://docs.aspose.com/words/net/aspose-words-document-object-model/) article documentaire.
 
 ```csharp
 public sealed class EditableRangeStart : Node
@@ -19,44 +21,44 @@ public sealed class EditableRangeStart : Node
 | Nom | La description |
 | --- | --- |
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Spécifie l'identifiant de nœud personnalisé. |
-| virtual [Document](../../aspose.words/node/document/) { get; } | Obtient le document auquel ce nœud appartient. |
-| [EditableRange](../../aspose.words/editablerangestart/editablerange/) { get; } | Obtient l'objet façade qui encapsule le début et la fin de cette plage modifiable. |
+| virtual [Document](../../aspose.words/node/document/) { get; } | Obtient le document auquel appartient ce nœud. |
+| [EditableRange](../../aspose.words/editablerangestart/editablerange/) { get; } | Obtient l'objet de façade qui encapsule le début et la fin de cette plage modifiable. |
 | [Id](../../aspose.words/editablerangestart/id/) { get; set; } | Spécifie l'identifiant de la plage modifiable. |
-| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Renvoie true si ce nœud peut contenir d'autres nœuds. |
+| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Retours`vrai` si ce nœud peut contenir d'autres nœuds. |
 | [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Obtient le nœud suivant immédiatement ce nœud. |
 | override [NodeType](../../aspose.words/editablerangestart/nodetype/) { get; } | RetoursEditableRangeStart . |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Obtient le parent immédiat de ce nœud. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Obtient le nœud précédant immédiatement ce nœud. |
-| [Range](../../aspose.words/node/range/) { get; } | Renvoie un **Intervalle** objet qui représente la partie d'un document contenue dans ce nœud. |
+| [Range](../../aspose.words/node/range/) { get; } | Renvoie un[`Range`](../range/) objet qui représente la partie d'un document contenue dans ce nœud. |
 
 ## Méthodes
 
 | Nom | La description |
 | --- | --- |
 | override [Accept](../../aspose.words/editablerangestart/accept/)(DocumentVisitor) | Accepte un visiteur. |
-| [Clone](../../aspose.words/node/clone/)(bool) | Crée un doublon du nœud. |
+| [Clone](../../aspose.words/node/clone/)(bool) | Crée un duplicata du nœud. |
 | [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Obtient le premier ancêtre du spécifié[`NodeType`](../nodetype/) . |
 | [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Obtient le premier ancêtre du type d'objet spécifié. |
-| virtual [GetText](../../aspose.words/node/gettext/)() | Obtient le texte de ce nœud et de tous ses enfants. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Obtient le nœud suivant selon l'algorithme de traversée de l'arbre de pré-ordre. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Obtient le nœud précédent selon l'algorithme de parcours de l'arbre de pré-ordre. |
+| virtual [GetText](../../aspose.words/node/gettext/)() | Récupère le texte de ce nœud et de tous ses enfants. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Obtient le nœud suivant selon l'algorithme de traversée de l'arbre de pré-commande. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Obtient le nœud précédent selon l'algorithme de traversée d'arbre de pré-commande. |
 | [Remove](../../aspose.words/node/remove/)() | Se supprime du parent. |
 | [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exporte le contenu du nœud dans une chaîne au format spécifié. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exporte le contenu du nœud dans une chaîne à l'aide des options d'enregistrement spécifiées. |
+| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exporte le contenu du nœud dans une chaîne à l'aide des options de sauvegarde spécifiées. |
 
 ### Remarques
 
-Une plage modifiable complète dans un document Word se compose d'un`EditableRangeStart` et une correspondance[`EditableRangeEnd`](../editablerangeend/) avec le même identifiant.
+Une plage modifiable complète dans un document Word se compose d'un`EditableRangeStart` et un correspondant[`EditableRangeEnd`](../editablerangeend/) avec le même identifiant.
 
 `EditableRangeStart` et[`EditableRangeEnd`](../editablerangeend/) ne sont que des marqueurs à l'intérieur d'un document qui spécifient où commence et se termine la plage modifiable.
 
-Utilisez le[`EditableRange`](./editablerange/)classe en tant que "façade" pour travailler avec une plage modifiable en tant qu'objet unique.
+Utilisez le[`EditableRange`](./editablerange/) classe comme "façade" pour travailler avec un range modifiable en tant qu'objet unique.
 
 Actuellement, les plages modifiables ne sont prises en charge qu'au niveau en ligne, c'est-à-dire à l'intérieur[`Paragraph`](../paragraph/), mais le début et la fin de la plage modifiable peuvent se trouver dans des paragraphes différents.
 
 ### Exemples
 
-Montre comment limiter les droits de modification des plages modifiables à un groupe/utilisateur spécifique.
+Montre comment limiter les droits d'édition des plages modifiables à un groupe/utilisateur spécifique.
 
 ```csharp
 public void Visitor()
@@ -88,7 +90,7 @@ public void Visitor()
 
     builder.Writeln("This paragraph is outside the editable range, and cannot be edited by anybody.");
 
-    // Affiche les détails et le contenu de chaque plage modifiable du document.
+    // Imprimer les détails et le contenu de chaque plage modifiable du document.
     EditableRangePrinter editableRangePrinter = new EditableRangePrinter();
 
     doc.Accept(editableRangePrinter);
@@ -148,7 +150,7 @@ public class EditableRangePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Appelé lorsqu'un noeud Run est rencontré dans le document. Ce visiteur n'enregistre que les exécutions qui se trouvent dans des plages modifiables.
+    /// Appelé lorsqu'un nœud Run est rencontré dans le document. Ce visiteur enregistre uniquement les exécutions situées dans des plages modifiables.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {

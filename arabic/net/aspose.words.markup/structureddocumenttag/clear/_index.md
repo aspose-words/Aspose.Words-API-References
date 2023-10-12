@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTag.Clear
 second_title: Aspose.Words لمراجع .NET API
-description: StructuredDocumentTag طريقة. يمسح محتويات علامة المستند المهيكلة هذه ويعرض عنصرًا نائبًا إذا تم تحديده.
+description: StructuredDocumentTag طريقة. يمسح محتويات علامة المستند المنظمة ويعرض عنصرًا نائبًا إذا تم تعريفه.
 type: docs
-weight: 330
+weight: 360
 url: /ar/net/aspose.words.markup/structureddocumenttag/clear/
 ---
 ## StructuredDocumentTag.Clear method
 
-يمسح محتويات علامة المستند المهيكلة هذه ويعرض عنصرًا نائبًا إذا تم تحديده.
+يمسح محتويات علامة المستند المنظمة ويعرض عنصرًا نائبًا إذا تم تعريفه.
 
 ```csharp
 public void Clear()
@@ -16,26 +16,26 @@ public void Clear()
 
 ### ملاحظات
 
-لا يمكن مسح محتويات علامة مستند منظم إذا كانت بها مراجعات.
+ليس من الممكن مسح محتويات علامة المستند المنظمة إذا كانت تحتوي على مراجعات.
 
-إذا تم تعيين علامة المستند المهيكلة هذه إلى XML المخصص (باستخدام امتداد[`XmlMapping`](../xmlmapping/) ) ، تم مسح عقدة XML المشار إليها.
+إذا تم تعيين علامة المستند المنظمة هذه إلى XML مخصص (باستخدام[`XmlMapping`](../xmlmapping/) )، يتم مسح عقدة XML المشار إليها.
 
 ### أمثلة
 
-يوضح كيفية حذف محتويات عناصر علامة المستند المهيكلة.
+يوضح كيفية حذف محتويات عناصر علامة المستند المنظمة.
 
 ```csharp
 Document doc = new Document();
 
-// إنشاء علامة مستند منظم بنص عادي ، ثم إلحاقه بالمستند.
+// أنشئ علامة مستند منظمة بنص عادي، ثم ألحقها بالمستند.
 StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Block);
 doc.FirstSection.Body.AppendChild(tag);
 
-// علامة المستند المهيكلة هذه ، والتي تكون في شكل مربع نص ، تعرض بالفعل نص العنصر النائب.
+// علامة المستند المنظمة هذه، والتي تكون على شكل مربع نص، تعرض بالفعل نص العنصر النائب.
 Assert.AreEqual("Click here to enter text.", tag.GetText().Trim());
 Assert.True(tag.IsShowingPlaceholderText);
 
-// إنشاء كتلة إنشاء بمحتويات نصية.
+// قم بإنشاء كتلة بناء بمحتويات النص.
 GlossaryDocument glossaryDoc = doc.GlossaryDocument;
 BuildingBlock substituteBlock = new BuildingBlock(glossaryDoc);
 substituteBlock.Name = "My placeholder";
@@ -44,21 +44,21 @@ substituteBlock.FirstSection.EnsureMinimum();
 substituteBlock.FirstSection.Body.FirstParagraph.AppendChild(new Run(glossaryDoc, "Custom placeholder text."));
 glossaryDoc.AppendChild(substituteBlock);
 
-// قم بتعيين خاصية "PlaceholderName" الخاصة بعلامة المستند المهيكلة على اسم الكتلة البرمجية الإنشائية للحصول عليها
-// علامة المستند المهيكلة لعرض محتويات الكتلة البرمجية الإنشائية بدلاً من النص الافتراضي الأصلي.
+// قم بتعيين خاصية "PlaceholderName" الخاصة بعلامة المستند المنظمة على اسم الكتلة البرمجية الخاصة بنا للحصول عليها
+// علامة المستند المنظمة لعرض محتويات الكتلة البرمجية الإنشائية بدلاً من النص الافتراضي الأصلي.
 tag.PlaceholderName = "My placeholder";
 
 Assert.AreEqual("Custom placeholder text.", tag.GetText().Trim());
 Assert.True(tag.IsShowingPlaceholderText);
 
-// قم بتحرير نص علامة المستند المهيكلة وإخفاء نص العنصر النائب.
+// قم بتحرير نص علامة المستند المنظمة وإخفاء نص العنصر النائب.
 Run run = (Run)tag.GetChild(NodeType.Run, 0, true);
 run.Text = "New text.";
 tag.IsShowingPlaceholderText = false;
 
 Assert.AreEqual("New text.", tag.GetText().Trim());
 
-// استخدم طريقة "Clear" لمسح محتويات علامة المستند المنظمة هذه وعرض العنصر النائب مرة أخرى.
+// استخدم الطريقة "مسح" لمسح محتويات علامة المستند المنظمة هذه وعرض العنصر النائب مرة أخرى.
 tag.Clear();
 
 Assert.True(tag.IsShowingPlaceholderText);

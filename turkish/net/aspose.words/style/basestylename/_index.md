@@ -1,14 +1,14 @@
 ---
 title: Style.BaseStyleName
 second_title: Aspose.Words for .NET API Referansı
-description: Style mülk. Bu stilin dayandığı stilin adını alır/ayarlar.
+description: Style mülk. Bu stilin temel aldığı stilin adını alır/ayarlar.
 type: docs
-weight: 20
+weight: 30
 url: /tr/net/aspose.words/style/basestylename/
 ---
 ## Style.BaseStyleName property
 
-Bu stilin dayandığı stilin adını alır/ayarlar.
+Bu stilin temel aldığı stilin adını alır/ayarlar.
 
 ```csharp
 public string BaseStyleName { get; set; }
@@ -16,7 +16,7 @@ public string BaseStyleName { get; set; }
 
 ### Notlar
 
-Stil başka bir stile dayanmıyorsa bu boş bir dize olacaktır ve set boş bir dizeye ayarlanabilir.
+Stil başka bir stili temel almıyorsa ve boş bir dizeye set olarak ayarlanabiliyorsa, bu boş bir dize olacaktır.
 
 ### Örnekler
 
@@ -25,14 +25,14 @@ Stil takma adlarının nasıl kullanılacağını gösterir.
 ```csharp
 Document doc = new Document(MyDir + "Style with alias.docx");
 
-// Bu belge, "MyStyle,MyStyle Alias 1,MyStyle Alias 2" adlı bir stil içeriyor.
-// Bir stilin adı virgülle ayrılmış birden çok değere sahipse, her bir yan tümce ayrı bir takma addır.
+// Bu belge "MyStyle,MyStyle Alias 1,MyStyle Alias 2" adında bir stil içeriyor.
+// Bir stilin adı virgülle ayrılmış birden fazla değere sahipse, her cümle ayrı bir takma addır.
 Style style = doc.Styles["MyStyle"];
 Assert.AreEqual(new [] { "MyStyle Alias 1", "MyStyle Alias 2" }, style.Aliases);
 Assert.AreEqual("Title", style.BaseStyleName);
 Assert.AreEqual("MyStyle Char", style.LinkedStyleName);
 
-// Bir stile adının yanı sıra takma adını da kullanarak başvurabiliriz.
+// Bir stile isminin yanı sıra takma adını kullanarak da referans verebiliriz.
 Assert.AreEqual(doc.Styles["MyStyle Alias 1"], doc.Styles["MyStyle Alias 2"]);
 
 DocumentBuilder builder = new DocumentBuilder(doc);

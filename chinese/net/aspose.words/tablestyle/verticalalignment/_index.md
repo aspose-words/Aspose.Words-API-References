@@ -20,7 +20,7 @@ public CellVerticalAlignment VerticalAlignment { get; set; }
 
 ### 例子
 
-显示如何为表格创建自定义样式设置。
+演示如何为表格创建自定义样式设置。
 
 ```csharp
 Document doc = new Document();

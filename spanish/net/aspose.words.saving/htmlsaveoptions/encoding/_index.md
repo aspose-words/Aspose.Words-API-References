@@ -16,23 +16,23 @@ public Encoding Encoding { get; set; }
 
 ### Ejemplos
 
-Muestra cómo usar una codificación específica al guardar un documento en .epub.
+Muestra cómo utilizar una codificación específica al guardar un documento en .epub.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Use un objeto SaveOptions para especificar la codificación de un documento que guardaremos.
+// Utilice un objeto SaveOptions para especificar la codificación de un documento que guardaremos.
 HtmlSaveOptions saveOptions = new HtmlSaveOptions();
 saveOptions.SaveFormat = SaveFormat.Epub;
 saveOptions.Encoding = Encoding.UTF8;
 
-// Por defecto, un documento de salida .epub tendrá todo su contenido en una parte HTML.
+// De forma predeterminada, un documento .epub de salida tendrá todo su contenido en una parte HTML.
 // Un criterio de división nos permite segmentar el documento en varias partes HTML.
 // Estableceremos los criterios para dividir el documento en párrafos de encabezado.
 // Esto es útil para lectores que no pueden leer archivos HTML más grandes que un tamaño específico.
 saveOptions.DocumentSplitCriteria = DocumentSplitCriteria.HeadingParagraph;
 
-// Especificar que queremos exportar las propiedades del documento.
+// Especificamos que queremos exportar las propiedades del documento.
 saveOptions.ExportDocumentProperties = true;
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions);

@@ -3,7 +3,7 @@ title: Enum CommentDisplayMode
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Layout.CommentDisplayMode uppräkning. Anger renderingsläget för dokumentkommentarer.
 type: docs
-weight: 3090
+weight: 3290
 url: /sv/net/aspose.words.layout/commentdisplaymode/
 ---
 ## CommentDisplayMode enumeration

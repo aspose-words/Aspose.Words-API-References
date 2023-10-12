@@ -27,6 +27,7 @@ Document doc = new Document(MyDir + "VBA project.docm");
 
 // Ett VBA-projekt innehåller en samling VBA-moduler.
 VbaProject vbaProject = doc.VbaProject;
+Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 
@@ -56,7 +57,7 @@ vbaModules.Remove(vbaModules[2]);
 
 ## VbaModuleCollection indexer (2 of 2)
 
-Hämtar en[`VbaModule`](../../vbamodule/)objekt med namn, eller noll om det inte hittas.
+Hämtar en[`VbaModule`](../../vbamodule/) objekt med namn, eller noll om det inte hittas.
 
 ```csharp
 public VbaModule this[string name] { get; }
@@ -71,6 +72,7 @@ Document doc = new Document(MyDir + "VBA project.docm");
 
 // Ett VBA-projekt innehåller en samling VBA-moduler.
 VbaProject vbaProject = doc.VbaProject;
+Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 

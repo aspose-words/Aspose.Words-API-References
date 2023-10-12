@@ -1,14 +1,14 @@
 ---
 title: IStructuredDocumentTag.Level
 second_title: Aspose.Words for .NET API 参考
-description: IStructuredDocumentTag 财产. 获取这个级别 SDT出现在文档树中
+description: IStructuredDocumentTag 财产. 获取此级别 特殊测试出现在文档树中
 type: docs
 weight: 40
 url: /zh/net/aspose.words.markup/istructureddocumenttag/level/
 ---
 ## IStructuredDocumentTag.Level property
 
-获取这个级别 **SDT**出现在文档树中。
+获取此级别 **特殊测试**出现在文档树中。
 
 ```csharp
 public MarkupLevel Level { get; }

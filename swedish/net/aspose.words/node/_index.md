@@ -3,12 +3,14 @@ title: Class Node
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Node klass. Basklass för alla noder i ett Worddokument.
 type: docs
-weight: 3930
+weight: 4170
 url: /sv/net/aspose.words/node/
 ---
 ## Node class
 
 Basklass för alla noder i ett Word-dokument.
+
+För att lära dig mer, besök[Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) dokumentationsartikel.
 
 ```csharp
 public abstract class Node
@@ -20,12 +22,12 @@ public abstract class Node
 | --- | --- |
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Anger anpassad nodidentifierare. |
 | virtual [Document](../../aspose.words/node/document/) { get; } | Hämtar dokumentet som denna nod tillhör. |
-| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Returnerar sant om denna nod kan innehålla andra noder. |
+| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Returnerar`Sann` om denna nod kan innehålla andra noder. |
 | [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Hämtar noden omedelbart efter denna nod. |
 | abstract [NodeType](../../aspose.words/node/nodetype/) { get; } | Hämtar typen av denna nod. |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Hämtar den omedelbara föräldern till denna nod. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Hämtar noden omedelbart före denna nod. |
-| [Range](../../aspose.words/node/range/) { get; } | Returnerar en **Räckvidd** objekt som representerar den del av ett dokument som finns i denna nod. |
+| [Range](../../aspose.words/node/range/) { get; } | Returnerar en[`Range`](../range/) objekt som representerar den del av ett dokument som finns i denna nod. |
 
 ## Metoder
 
@@ -49,7 +51,7 @@ Ett dokument representeras som ett träd av noder, liknande DOM eller XmlDocumen
 
 För mer information se Composite design mönster.
 
-De`Node`klass:
+De`Node` klass:
 
 * Definierar gränssnittet för barnnoden.
 * Definierar gränssnittet för besökande noder.
@@ -126,9 +128,9 @@ paragraph.AppendChild(new Run(doc, "Hello again!"));
 
 // Iterera genom styckets samling av närmaste barn,
 // och skriv ut alla körningar eller former som vi hittar inom.
-NodeCollection children = paragraph.ChildNodes;
+NodeCollection children = paragraph.GetChildNodes(NodeType.Any, false);
 
-Assert.AreEqual(3, paragraph.ChildNodes.Count);
+Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, false).Count);
 
 foreach (Node child in children)
     switch (child.NodeType)
@@ -141,6 +143,7 @@ foreach (Node child in children)
             Shape childShape = (Shape)child;
             Console.WriteLine("Shape:");
             Console.WriteLine($"\t{childShape.ShapeType}, {childShape.Width}x{childShape.Height}");
+            break;
     }
 ```
 

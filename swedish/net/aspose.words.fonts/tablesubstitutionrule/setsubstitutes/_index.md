@@ -49,10 +49,10 @@ doc.FontSettings = new FontSettings();
 doc.FontSettings.SubstitutionSettings.TableSubstitution.SetSubstitutes(
     "Amethysta", new[] {"Arvo", "Courier New"});
 
-  // "Amethysta" är inte tillgängligt, och substitutionsregeln säger att det första teckensnittet som används som ersättning är "Arvo".
+ // "Amethysta" är inte tillgängligt, och substitutionsregeln säger att det första teckensnittet som används som ersättning är "Arvo".
 Assert.False(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arvo"));
 
-  // "Arvo" är inte heller tillgänglig, men "Courier New" är det.
+ // "Arvo" är inte heller tillgänglig, men "Courier New" är det.
 Assert.True(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Courier New"));
 
 // Utdatadokumentet kommer att visa texten som använder "Amethysta"-teckensnittet formaterat med "Courier New".

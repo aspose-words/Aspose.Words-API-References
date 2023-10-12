@@ -1,14 +1,14 @@
 ---
 title: Enum HtmlElementSizeOutputMode
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Saving.HtmlElementSizeOutputMode перечисление. Указывает как Aspose.Words экспортирует ширину и высоту элементов в форматы HTML MHTML и EPUB.
+description: Aspose.Words.Saving.HtmlElementSizeOutputMode перечисление. Указывает как Aspose.Words экспортирует ширину и высоту элемента в HTML MHTML и EPUB.
 type: docs
-weight: 4800
+weight: 5060
 url: /ru/net/aspose.words.saving/htmlelementsizeoutputmode/
 ---
 ## HtmlElementSizeOutputMode enumeration
 
-Указывает, как Aspose.Words экспортирует ширину и высоту элементов в форматы HTML, MHTML и EPUB.
+Указывает, как Aspose.Words экспортирует ширину и высоту элемента в HTML, MHTML и EPUB.
 
 ```csharp
 public enum HtmlElementSizeOutputMode
@@ -18,19 +18,19 @@ public enum HtmlElementSizeOutputMode
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| All | `0` | Экспортируются все указанные в документе размеры элементов как в абсолютных, так и в относительных единицах. |
-| RelativeOnly | `1` | Размеры элементов экспортируются только в том случае, если они указаны в документе в относительных единицах. В этом режиме не экспортируются фиксированные размеры. Визуальные агенты вычислят отсутствующие размеры, чтобы сделать макет документа более естественным. |
-| None | `2` | Размеры элементов не экспортируются. Визуальные агенты будут автоматически строить макет в соответствии с отношениями между элементами. |
+| All | `0` | Экспортируются все размеры элементов, как в абсолютных, так и в относительных единицах, указанные в документе. |
+| RelativeOnly | `1` | Размеры элементов экспортируются, только если они указаны в документе в относительных единицах. В этом режиме фиксированные размеры не экспортируются. Визуальные агенты рассчитают недостающие размеры, чтобы сделать макет документа более естественным. |
+| None | `2` | Размеры элементов не экспортируются. Визуальные агенты автоматически построят макет в соответствии с отношениями между элементами. |
 
 ### Примеры
 
-Показывает, как сохранить отрицательные отступы в выходном .html.
+Показывает, как сохранить отрицательные отступы в выходном HTML-файле.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставить таблицу с отрицательным отступом, который сдвинет ее влево за левую границу страницы.
+// Вставляем таблицу с отрицательным отступом, который сдвинет ее влево за левую границу страницы.
 Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, Cell 1");
@@ -42,7 +42,7 @@ table.PreferredWidth = PreferredWidth.FromPoints(144);
 
 builder.InsertBreak(BreakType.ParagraphBreak);
 
-// Вставить таблицу с положительным отступом, который сдвинет таблицу вправо.
+// Вставляем таблицу с положительным отступом, который сдвинет таблицу вправо.
 table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, Cell 1");
@@ -52,8 +52,8 @@ builder.EndTable();
 table.LeftIndent = 36;
 table.PreferredWidth = PreferredWidth.FromPoints(144);
 
-// Когда мы сохраняем документ в HTML, Aspose.Words сохранит только отрицательные отступы
-// такой же, как тот, который мы применили к первой таблице, если мы установили флаг "AllowNegativeIndent"
+// Когда мы сохраняем документ в HTML, Aspose.Words сохраняет только отрицательные отступы
+// например, тот, который мы применили к первой таблице, если установили флаг «AllowNegativeIndent»
 // в объекте SaveOptions, которому мы передадим значение «true».
 HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html)
 {

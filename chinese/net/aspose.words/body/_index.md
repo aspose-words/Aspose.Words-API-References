@@ -1,14 +1,16 @@
 ---
 title: Class Body
 second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Body 班级. 表示一个部分的主要文本的容器
+description: Aspose.Words.Body 班级. 表示节的主要文本的容器
 type: docs
-weight: 20
+weight: 30
 url: /zh/net/aspose.words/body/
 ---
 ## Body class
 
-表示一个部分的主要文本的容器。
+表示节的主要文本的容器。
+
+要了解更多信息，请访问[Aspose.Words 文档对象模型 (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/)文档文章。
 
 ```csharp
 public class Body : Story
@@ -18,71 +20,72 @@ public class Body : Story
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Body](body/)(DocumentBase) | 初始化 **身体**类. |
+| [Body](body/)(DocumentBase) | 初始化一个新实例`Body`类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ChildNodes](../../aspose.words/compositenode/childnodes/) { get; } | 获取该节点的所有直接子节点。 |
-| [Count](../../aspose.words/compositenode/count/) { get; } | 获取此节点的直接子节点数。 |
+| [Count](../../aspose.words/compositenode/count/) { get; } | 获取此节点的直接子节点的数量。 |
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | 指定自定义节点标识符。 |
 | virtual [Document](../../aspose.words/node/document/) { get; } | 获取该节点所属的文档。 |
 | [FirstChild](../../aspose.words/compositenode/firstchild/) { get; } | 获取节点的第一个子节点。 |
-| [FirstParagraph](../../aspose.words/story/firstparagraph/) { get; } | 获取故事的第一段。 |
-| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | 如果此节点有任何子节点，则返回 true。 |
-| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | 返回真，因为该节点可以有子节点。 |
+| [FirstParagraph](../../aspose.words/story/firstparagraph/) { get; } | 获取故事中的第一段。 |
+| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | 返回`真的`如果该节点有任何子节点. |
+| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | 返回`真的`因为该节点可以有子节点。 |
 | [LastChild](../../aspose.words/compositenode/lastchild/) { get; } | 获取节点的最后一个子节点。 |
 | [LastParagraph](../../aspose.words/story/lastparagraph/) { get; } | 获取故事的最后一段。 |
-| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | 获取紧跟此节点的节点。 |
-| override [NodeType](../../aspose.words/body/nodetype/) { get; } | 返回 **节点类型.Body**. |
-| [Paragraphs](../../aspose.words/story/paragraphs/) { get; } | 获取作为故事直接子级的段落集合。 |
+| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | 获取紧随该节点的下一个节点。 |
+| override [NodeType](../../aspose.words/body/nodetype/) { get; } | 返回Body. |
+| [Paragraphs](../../aspose.words/story/paragraphs/) { get; } | 获取故事直接子级的段落集合。 |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | 获取此节点的直接父节点。 |
 | [ParentSection](../../aspose.words/body/parentsection/) { get; } | 获取此故事的父部分。 |
-| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | 获取紧接在此节点之前的节点。 |
-| [Range](../../aspose.words/node/range/) { get; } | 返回一个 **范围**表示此节点中包含的文档部分的对象。 |
-| [StoryType](../../aspose.words/story/storytype/) { get; } | 获取这个故事的类型。 |
-| [Tables](../../aspose.words/story/tables/) { get; } | 获取作为故事直接子级的表的集合。 |
+| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | 获取紧邻此节点之前的节点。 |
+| [Range](../../aspose.words/node/range/) { get; } | 返回一个[`Range`](../range/)表示此节点中包含的文档部分的对象。 |
+| [StoryType](../../aspose.words/story/storytype/) { get; } | 获取此故事的类型。 |
+| [Tables](../../aspose.words/story/tables/) { get; } | 获取作为故事的直接子级的表的集合。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
 | override [Accept](../../aspose.words/body/accept/)(DocumentVisitor) | 接受访客。 |
-| [AppendChild](../../aspose.words/compositenode/appendchild/)(Node) | 将指定节点添加到该节点的子节点列表的末尾。 |
-| [AppendParagraph](../../aspose.words/story/appendparagraph/)(string) | 创建一个快捷方式[`Paragraph`](../paragraph/)带有可选文本的对象并将其附加到此对象的末尾。 |
+| override [AcceptEnd](../../aspose.words/body/acceptend/)(DocumentVisitor) |  |
+| override [AcceptStart](../../aspose.words/body/acceptstart/)(DocumentVisitor) |  |
+| [AppendChild&lt;T&gt;](../../aspose.words/compositenode/appendchild/)(T) |  |
+| [AppendParagraph](../../aspose.words/story/appendparagraph/)(string) | 创建一个快捷方法[`Paragraph`](../paragraph/)具有可选文本的对象并将其附加到该对象的末尾。 |
 | [Clone](../../aspose.words/node/clone/)(bool) | 创建节点的副本。 |
-| [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | 保留供系统使用。 IXPathNavigable. |
-| [DeleteShapes](../../aspose.words/story/deleteshapes/)() | 从这个故事的文本中删除所有形状。 |
-| [EnsureMinimum](../../aspose.words/body/ensureminimum/)() | 如果最后一个孩子不是段落，则创建并附加一个空段落。 |
+| [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | 创建可用于遍历和读取节点的导航器。 |
+| [DeleteShapes](../../aspose.words/story/deleteshapes/)() | 删除此故事文本中的所有形状。 |
+| [EnsureMinimum](../../aspose.words/body/ensureminimum/)() | 如果最后一个子级不是段落，则创建并附加一个空段落。 |
 | [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | 获取指定的第一个祖先[`NodeType`](../nodetype/). |
 | [GetAncestor](../../aspose.words/node/getancestor/)(Type) | 获取指定对象类型的第一个祖先。 |
 | [GetChild](../../aspose.words/compositenode/getchild/)(NodeType, int, bool) | 返回与指定类型匹配的第 N 个子节点。 |
 | [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(NodeType, bool) | 返回与指定类型匹配的子节点的实时集合。 |
-| [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() | 为在该节点的子节点上的每个样式迭代提供支持。 |
-| override [GetText](../../aspose.words/compositenode/gettext/)() | 获取该节点及其所有子节点的文本。 |
+| [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() | 为该节点的子节点上的每个样式迭代提供支持。 |
+| override [GetText](../../aspose.words/compositenode/gettext/)() | 获取此节点及其所有子节点的文本。 |
 | [IndexOf](../../aspose.words/compositenode/indexof/)(Node) | 返回子节点数组中指定子节点的索引。 |
-| [InsertAfter](../../aspose.words/compositenode/insertafter/)(Node, Node) | 在指定参考节点之后立即插入指定节点。 |
-| [InsertBefore](../../aspose.words/compositenode/insertbefore/)(Node, Node) | 在指定的参考节点之前插入指定的节点。 |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | 根据前序树遍历算法获取下一个节点。 |
-| [PrependChild](../../aspose.words/compositenode/prependchild/)(Node) | 将指定节点添加到此节点的子节点列表的开头。 |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | 根据前序树遍历算法获取上一个节点。 |
-| [Remove](../../aspose.words/node/remove/)() | 从父级中移除自身。 |
-| [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | 移除当前节点的所有子节点。 |
-| [RemoveChild](../../aspose.words/compositenode/removechild/)(Node) | 移除指定的子节点。 |
-| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | 删除所有[`SmartTag`](../../aspose.words.markup/smarttag/)当前节点的后代节点。 |
+| [InsertAfter&lt;T&gt;](../../aspose.words/compositenode/insertafter/)(T, Node) |  |
+| [InsertBefore&lt;T&gt;](../../aspose.words/compositenode/insertbefore/)(T, Node) |  |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | 根据先序树遍历算法获取下一个节点。 |
+| [PrependChild&lt;T&gt;](../../aspose.words/compositenode/prependchild/)(T) |  |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | 根据先序树遍历算法获取前一个节点。 |
+| [Remove](../../aspose.words/node/remove/)() | 将自身从父级中删除。 |
+| [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | 删除当前节点的所有子节点。 |
+| [RemoveChild&lt;T&gt;](../../aspose.words/compositenode/removechild/)(T) |  |
+| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | 删除所有[`SmartTag`](../../aspose.words.markup/smarttag/)当前节点的后代节点. |
 | [SelectNodes](../../aspose.words/compositenode/selectnodes/)(string) | 选择与 XPath 表达式匹配的节点列表。 |
-| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | 选择与 XPath 表达式匹配的第一个节点。 |
+| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | 选择第一个[`Node`](../node/)与 XPath 表达式匹配。 |
 | [ToString](../../aspose.words/node/tostring/)(SaveFormat) | 将节点的内容导出为指定格式的字符串。 |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | 使用指定的保存选项将节点的内容导出为字符串。 |
+| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | 使用指定的保存选项将节点的内容导出到字符串中。 |
 
 ### 评论
 
-**身体**可以包含 **段落**和 **桌子**子节点。
+`Body`可以包含[`Paragraph`](../paragraph/)和[`桌子`](../../aspose.words.tables/table/)子节点。
 
-**身体**是节级节点，只能是 **部分** 只能有一个 **身体**在一个 **部分**.
+`Body`是一个节级节点并且只能是[`Section`](../section/)。 只能有一个`Body`在一个[`Section`](../section/)。
 
-最小有效 **身体**至少需要包含一个 **段落**.
+最低有效`Body`需要至少包含一个[`Paragraph`](../paragraph/)。
 
 ### 例子
 
@@ -91,27 +94,27 @@ public class Body : Story
 ```csharp
 Document doc = new Document();
 
-// 一个空白文档包含一个部分、一个正文和一个段落。
-// 调用“RemoveAllChildren”方法来移除所有这些节点，
-// 最后得到一个没有子节点的文档节点。
+// 一份空白文档包含一个部分、一个正文和一个段落。
+// 调用“RemoveAllChildren”方法删除所有这些节点，
+// 最终得到一个没有子节点的文档节点。
 doc.RemoveAllChildren();
 
-// 这个文档现在没有我们可以添加内容的复合子节点。
-// 如果我们想编辑它，我们需要重新填充它的节点集合。
-// 首先，创建一个新部分，然后将其作为子节点附加到根文档节点。
+// 该文档现在没有可以添加内容的复合子节点。
+// 如果我们希望编辑它，我们将需要重新填充它的节点集合。
+// 首先，创建一个新节，然后将其作为子节点附加到根文档节点。
 Section section = new Section(doc);
 doc.AppendChild(section);
 
-// 为该部分设置一些页面设置属性。
+// 设置该部分的一些页面设置属性。
 section.PageSetup.SectionStart = SectionStart.NewPage;
 section.PageSetup.PaperSize = PaperSize.Letter;
 
-// 一个section需要一个body，它将包含并显示它的所有内容
-// 在节的页眉和页脚之间的页面上。
+// 一个部分需要一个主体，它将包含并显示其所有内容
+// 在该部分的页眉和页脚之间的页面上。
 Body body = new Body(doc);
 section.AppendChild(body);
 
-// 创建一个段落，设置一些格式属性，然后将其作为子项附加到正文中。
+// 创建一个段落，设置一些格式属性，然后将其作为子项附加到正文。
 Paragraph para = new Paragraph(doc);
 
 para.ParagraphFormat.StyleName = "Heading 1";
@@ -119,7 +122,7 @@ para.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 body.AppendChild(para);
 
-// 最后，添加一些内容来做文档。创建运行，
+// 最后添加一些做文档的内容。创建一个运行，
 // 设置其外观和内容，然后将其作为子项附加到段落中。
 Run run = new Run(doc);
 run.Text = "Hello World!";

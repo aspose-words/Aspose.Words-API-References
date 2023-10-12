@@ -1,14 +1,14 @@
 ---
 title: BaseWebExtensionCollection1.Count
 second_title: Aspose.Words for .NET API Referansı
-description: BaseWebExtensionCollection mülk. Koleksiyonda bulunan öğelerin sayısını alır.
+description: BaseWebExtensionCollection mülk. Koleksiyonda yer alan öğelerin sayısını alır.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.webextensions/basewebextensioncollection-1/count/
 ---
 ## BaseWebExtensionCollection&lt;T&gt;.Count property
 
-Koleksiyonda bulunan öğelerin sayısını alır.
+Koleksiyonda yer alan öğelerin sayısını alır.
 
 ```csharp
 public int Count { get; }

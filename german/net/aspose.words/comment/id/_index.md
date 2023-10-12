@@ -1,30 +1,30 @@
 ---
 title: Comment.Id
 second_title: Aspose.Words für .NET-API-Referenz
-description: Comment eigendom. Ruft die Kommentarkennung ab.
+description: Comment eigendom. Ruft die KommentarID ab.
 type: docs
 weight: 60
 url: /de/net/aspose.words/comment/id/
 ---
 ## Comment.Id property
 
-Ruft die Kommentarkennung ab.
+Ruft die Kommentar-ID ab.
 
 ```csharp
-public int Id { get; }
+public int Id { get; set; }
 ```
 
 ### Bemerkungen
 
-Die Kommentarkennung ermöglicht es, einen Kommentar in einem Textbereich im Dokument zu verankern. Der Bereich muss mit dem abgegrenzt werden[`CommentRangeStart`](../../commentrangestart/) und[`CommentRangeEnd`](../../commentrangeend/) Objekt, das den gleichen ID-Wert wie das hat[`Comment`](../) Objekt.
+Mit der Kommentarkennung können Sie einen Kommentar in einem Textbereich im Dokument verankern. Der Bereich muss mithilfe von abgegrenzt werden[`CommentRangeStart`](../../commentrangestart/) Und[`CommentRangeEnd`](../../commentrangeend/) -Objekt mit demselben Bezeichnerwert wie das[`Comment`](../) Objekt.
 
-Sie würden diesen Wert bei der Suche nach verwenden[`CommentRangeStart`](../../commentrangestart/) and [`CommentRangeEnd`](../../commentrangeend/) Knoten, die mit diesem Kommentar verknüpft sind.
+Sie würden diesen Wert verwenden, wenn Sie nach dem suchen[`CommentRangeStart`](../../commentrangestart/) and [`CommentRangeEnd`](../../commentrangeend/) Knoten, die mit diesem Kommentar verknüpft sind.
 
-Kommentar-IDs sollen innerhalb eines Dokuments eindeutig sein und Aspose.Words behält automatisch Kommentar-IDs bei, wenn Dokumente geladen, gespeichert und kombiniert werden.
+Kommentar-IDs sollen in einem Dokument eindeutig sein und Aspose.Words verwaltet automatisch Kommentar-IDs beim Laden, Speichern und Kombinieren von Dokumenten.
 
 ### Beispiele
 
-Zeigt, wie der Inhalt aller Kommentare und ihre Kommentarbereiche mithilfe eines Dokumentbesuchers gedruckt werden.
+Zeigt, wie der Inhalt aller Kommentare und deren Kommentarbereiche mithilfe eines Dokumentbesuchers gedruckt wird.
 
 ```csharp
 public void CreateCommentsAndPrintAllInfo()
@@ -40,14 +40,14 @@ public void CreateCommentsAndPrintAllInfo()
 
     newComment.SetText("Comment regarding text.");
 
-    // Fügen Sie dem Dokument Text hinzu, verzerren Sie es in einen Kommentarbereich und fügen Sie dann Ihren Kommentar hinzu.
+    // Fügen Sie dem Dokument Text hinzu, verzerren Sie ihn in einem Kommentarbereich und fügen Sie dann Ihren Kommentar hinzu.
     Paragraph para = doc.FirstSection.Body.FirstParagraph;
     para.AppendChild(new CommentRangeStart(doc, newComment.Id));
     para.AppendChild(new Run(doc, "Commented text."));
     para.AppendChild(new CommentRangeEnd(doc, newComment.Id));
     para.AppendChild(newComment); 
 
-    // Dem Kommentar zwei Antworten hinzufügen.
+    // Zwei Antworten zum Kommentar hinzufügen.
     newComment.AddReply("John Doe", "JD", DateTime.Now, "New reply.");
     newComment.AddReply("John Doe", "JD", DateTime.Now, "Another reply.");
 
@@ -55,26 +55,26 @@ public void CreateCommentsAndPrintAllInfo()
 }
 
 /// <summary>
-/// Iteriert über jeden Kommentar der obersten Ebene und gibt dessen Kommentarbereich, Inhalt und Antworten aus.
+/// Durchläuft jeden Kommentar der obersten Ebene und gibt dessen Kommentarbereich, Inhalte und Antworten aus.
 /// </summary>
 private static void PrintAllCommentInfo(NodeCollection comments)
 {
     CommentInfoPrinter commentVisitor = new CommentInfoPrinter();
 
-    // Über alle Kommentare der obersten Ebene iterieren. Im Gegensatz zu Kommentaren vom Antworttyp haben Kommentare auf oberster Ebene keinen Vorfahren.
+    // Alle Kommentare der obersten Ebene durchlaufen. Im Gegensatz zu Kommentaren vom Typ „Antwort“ haben Kommentare der obersten Ebene keinen Vorfahren.
     foreach (Comment comment in comments.Where(c => ((Comment)c).Ancestor == null))
     {
-        // Besuchen Sie zuerst den Anfang des Kommentarbereichs.
+        // Besuchen Sie zunächst den Anfang des Kommentarbereichs.
         CommentRangeStart commentRangeStart = (CommentRangeStart)comment.PreviousSibling.PreviousSibling.PreviousSibling;
         commentRangeStart.Accept(commentVisitor);
 
-        // Besuchen Sie dann den Kommentar und alle Antworten, die er möglicherweise enthält.
+        // Dann besuchen Sie den Kommentar und eventuelle Antworten.
         comment.Accept(commentVisitor);
 
         foreach (Comment reply in comment.Replies)
             reply.Accept(commentVisitor);
 
-        // Besuchen Sie schließlich das Ende des Kommentarbereichs und drucken Sie dann den Textinhalt des Besuchers aus.
+        // Besuchen Sie abschließend das Ende des Kommentarbereichs und drucken Sie dann den Textinhalt des Besuchers aus.
         CommentRangeEnd commentRangeEnd = (CommentRangeEnd)comment.PreviousSibling;
         commentRangeEnd.Accept(commentVisitor);
 
@@ -83,7 +83,7 @@ private static void PrintAllCommentInfo(NodeCollection comments)
 }
 
 /// <summary>
-/// Gibt Informationen und Inhalte aller Kommentare und Kommentarbereiche aus, die im Dokument vorkommen.
+/// Druckt Informationen und Inhalte aller im Dokument vorkommenden Kommentare und Kommentarbereiche.
 /// </summary>
 public class CommentInfoPrinter : DocumentVisitor
 {
@@ -94,7 +94,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Ruft den Klartext des Dokuments ab, das vom Besucher angesammelt wurde.
+    /// Ruft den Klartext des vom Besucher gesammelten Dokuments ab.
     /// </summary>
     public string GetText()
     {
@@ -161,7 +161,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Eine Zeile an den StringBuilder anhängen und einrücken, je nachdem, wie tief der Besucher in den Dokumentenbaum eindringt.
+    /// Hängen Sie eine Zeile an den StringBuilder an und rücken Sie sie ein, je nachdem, wie tief sich der Besucher im Dokumentbaum befindet.
     /// </summary>
     /// <param name="text"></param>
     private void IndentAndAppendLine(string text)

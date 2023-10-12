@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.ApplyBreakingRules
 second_title: Referencia de API de Aspose.Words para .NET
-description: CompatibilityOptions propiedad. Usar reglas de salto de línea heredadas etíope y amárico.
+description: CompatibilityOptions propiedad. Utilice reglas heredadas de ruptura de líneas etíopes y amáricas.
 type: docs
 weight: 40
 url: /es/net/aspose.words.settings/compatibilityoptions/applybreakingrules/
 ---
 ## CompatibilityOptions.ApplyBreakingRules property
 
-Usar reglas de salto de línea heredadas etíope y amárico.
+Utilice reglas heredadas de ruptura de líneas etíopes y amáricas.
 
 ```csharp
 public bool ApplyBreakingRules { get; set; }

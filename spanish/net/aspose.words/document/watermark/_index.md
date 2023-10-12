@@ -3,7 +3,7 @@ title: Document.Watermark
 second_title: Referencia de API de Aspose.Words para .NET
 description: Document propiedad. Proporciona acceso a la marca de agua del documento.
 type: docs
-weight: 460
+weight: 480
 url: /es/net/aspose.words/document/watermark/
 ---
 ## Document.Watermark property

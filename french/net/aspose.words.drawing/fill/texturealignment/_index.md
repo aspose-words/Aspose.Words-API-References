@@ -1,14 +1,14 @@
 ---
 title: Fill.TextureAlignment
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Fill propriété. Obtient ou définit lalignement pour le remplissage de texture de mosaïque.
+description: Fill propriété. Obtient ou définit lalignement pour le remplissage de la texture des carreaux.
 type: docs
-weight: 130
+weight: 190
 url: /fr/net/aspose.words.drawing/fill/texturealignment/
 ---
 ## Fill.TextureAlignment property
 
-Obtient ou définit l'alignement pour le remplissage de texture de mosaïque.
+Obtient ou définit l'alignement pour le remplissage de la texture des carreaux.
 
 ```csharp
 public TextureAlignment TextureAlignment { get; set; }
@@ -16,7 +16,7 @@ public TextureAlignment TextureAlignment { get; set; }
 
 ### Exemples
 
-Montre comment remplir et recouvrir la texture à l'intérieur de la forme.
+Montre comment remplir et recouvrir la texture à l’intérieur de la forme.
 
 ```csharp
 Document doc = new Document();
@@ -28,7 +28,7 @@ Shape shape = builder.InsertShape(ShapeType.Rectangle, 80, 80);
 shape.Fill.PresetTextured(PresetTexture.Canvas);
 shape.Fill.TextureAlignment = TextureAlignment.TopRight;
 
-// Utilisez l'option de conformité pour définir la forme à l'aide de DML si vous souhaitez obtenir "TextureAlignment"
+// Utilisez l'option de conformité pour définir la forme en utilisant DML si vous souhaitez obtenir "TextureAlignment"
 // propriété après l'enregistrement du document.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions { Compliance = OoxmlCompliance.Iso29500_2008_Strict };
 

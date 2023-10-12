@@ -16,13 +16,13 @@ public DateTime SignatureDate { get; set; }
 
 ### Примечания
 
-Значение по умолчанию — текущее время.
+Значением по умолчанию является текущее время.
 
-Это значение появится в цифровой подписи как непроверенное компьютерное время.
+Это значение будет отображаться в цифровой подписи как непроверенное компьютерное время.
 
 ### Примеры
 
-Показывает, как подписать сгенерированный PDF-документ.
+Показывает, как подписать созданный PDF-документ.
 
 ```csharp
 Document doc = new Document();
@@ -31,20 +31,20 @@ builder.Writeln("Contents of signed PDF.");
 
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
 
-// Создаем объект "PdfSaveOptions", который мы можем передать в метод "Сохранить" документа
-// для изменения того, как этот метод преобразует документ в .PDF.
+// Создаем объект «PdfSaveOptions», который мы можем передать методу «Save» документа.
+// чтобы изменить способ преобразования этого метода в .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// Настройте объект "DigitalSignatureDetails" объекта "SaveOptions" на
-// подписать документ цифровой подписью, когда мы визуализируем его, с помощью метода «Сохранить».
-DateTime signingTime = DateTime.Now;
+// Настройте объект «DigitalSignatureDetails» объекта «SaveOptions» для
+// снабжаем документ цифровой подписью при его рендеринге с помощью метода «Сохранить».
+DateTime signingTime = new DateTime(2015, 7, 20);
 options.DigitalSignatureDetails =
     new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "My Office", signingTime);
-options.DigitalSignatureDetails.HashAlgorithm = PdfDigitalSignatureHashAlgorithm.Sha256;
+options.DigitalSignatureDetails.HashAlgorithm = PdfDigitalSignatureHashAlgorithm.RipeMD160;
 
 Assert.AreEqual("Test Signing", options.DigitalSignatureDetails.Reason);
 Assert.AreEqual("My Office", options.DigitalSignatureDetails.Location);
-Assert.AreEqual(signingTime.ToUniversalTime(), options.DigitalSignatureDetails.SignatureDate.ToUniversalTime());
+Assert.AreEqual(signingTime, options.DigitalSignatureDetails.SignatureDate.ToLocalTime());
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 ```

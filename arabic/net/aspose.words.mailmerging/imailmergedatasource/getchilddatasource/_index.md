@@ -1,14 +1,14 @@
 ---
 title: IMailMergeDataSource.GetChildDataSource
 second_title: Aspose.Words لمراجع .NET API
-description: IMailMergeDataSource طريقة. يستدعي محرك دمج المراسلات Aspose.Words هذه الطريقة عندما يواجه بداية منطقة دمج بريد متداخلة.
+description: IMailMergeDataSource طريقة. يقوم محرك دمج المراسلات Aspose.Words باستدعاء هذه الطريقة عندما يواجه بداية منطقة دمج المراسلات المتداخلة.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.mailmerging/imailmergedatasource/getchilddatasource/
 ---
 ## IMailMergeDataSource.GetChildDataSource method
 
-يستدعي محرك دمج المراسلات Aspose.Words هذه الطريقة عندما يواجه بداية منطقة دمج بريد متداخلة.
+يقوم محرك دمج المراسلات Aspose.Words باستدعاء هذه الطريقة عندما يواجه بداية منطقة دمج المراسلات المتداخلة.
 
 ```csharp
 public IMailMergeDataSource GetChildDataSource(string tableName)
@@ -20,23 +20,23 @@ public IMailMergeDataSource GetChildDataSource(string tableName)
 
 ### قيمة الإرجاع
 
-عنصر مصدر بيانات سيوفر الوصول إلى سجلات البيانات في الجدول المحدد.
+كائن مصدر بيانات يوفر الوصول إلى سجلات البيانات الخاصة بالجدول المحدد.
 
 ### ملاحظات
 
-عندما تملأ محركات دمج المراسلات Aspose.Words منطقة دمج بريد بالبيانات وتواجه بداية منطقة دمج بريد متداخلة في شكل MERGEFIELD TableStart: TableName ، تستدعي`GetChildDataSource` على كائن مصدر البيانات current . يحتاج التنفيذ الخاص بك إلى إرجاع كائن مصدر بيانات جديد يوفر الوصول إلى سجلات child للسجل الأصل الحالي. سوف تستخدم كلمات Aspose.Words مصدر البيانات الذي تم إرجاعه لملء منطقة دمج البريد المتداخلة.
+عندما تقوم محركات دمج المراسلات Aspose.Words بملء منطقة دمج المراسلات بالبيانات وتواجه بداية منطقة دمج المراسلات المتداخلة في شكل MERGEFIELD TableStart:TableName، فإنها تستدعي`GetChildDataSource` على كائن مصدر البيانات current . يحتاج التنفيذ الخاص بك إلى إرجاع كائن مصدر بيانات جديد يوفر الوصول إلى سجلات Child للسجل الأصلي الحالي. سيستخدم Aspose.Words مصدر البيانات الذي تم إرجاعه لملء منطقة دمج المراسلات المتداخلة.
 
-فيما يلي القواعد التي يتم تنفيذها`GetChildDataSource` يجب أن تتبع .
+فيما يلي القواعد التي يتم تنفيذها`GetChildDataSource` يجب أن يتبع.
 
-إذا كان الجدول الذي يمثله كائن مصدر البيانات هذا يحتوي على جدول فرعي (تفصيلي) مرتبط بالاسم المحدد ، فحينئذٍ يحتاج التنفيذ إلى إرجاع عنصر جديد[`IMailMergeDataSource`](../) الذي سيوفر access إلى السجلات التابعة للسجل الحالي. مثال على ذلك هو علاقة الطلبات / تفاصيل الطلب. لنفترض أن التيار[`IMailMergeDataSource`](../) يمثل object جدول الطلبات وله سجل أوامر حالي. بعد ذلك ، يواجه Aspose.Words "MERGEFIELD TableStart: OrderDetails" في المستند ويستدعى`GetChildDataSource` . تحتاج إلى إنشاء وإرجاع ملف[`IMailMergeDataSource`](../) كائن سيسمح لـ Aspose.Words بالوصول إلى سجل OrderDetails للطلب الحالي.
+إذا كان الجدول الذي يمثله كائن مصدر البيانات هذا يحتوي على جدول فرعي (تفاصيل) مرتبط بالاسم المحدد، ، فإن تطبيقك يحتاج إلى إرجاع جدول جديد[`IMailMergeDataSource`](../)الكائن الذي سيوفر إمكانية الوصول إلى السجلات الفرعية للسجل الحالي. مثال على ذلك هو علاقة الطلبات/تفاصيل الطلب. لنفترض أن التيار[`IMailMergeDataSource`](../) يمثل object جدول الطلبات ويحتوي على سجل الطلب الحالي. بعد ذلك، يواجه Aspose.Words "MERGEFIELD TableStart:OrderDetails" في المستند ويستدعيه`GetChildDataSource` . تحتاج إلى إنشاء وإرجاع ملف[`IMailMergeDataSource`](../) كائن الذي سيسمح لـ Aspose.Words بالوصول إلى سجل OrderDetails للطلب الحالي.
 
-إذا لم يكن لكائن مصدر البيانات هذا علاقة بالجدول بالاسم المحدد ، فأنت بحاجة إلى return a[`IMailMergeDataSource`](../)الذي سيوفر الوصول إلى جميع سجلات الجدول المحدد.
+إذا لم يكن لكائن مصدر البيانات هذا علاقة بالجدول بالاسم المحدد، فأنت بحاجة إلى إرجاع a[`IMailMergeDataSource`](../) الكائن الذي سيوفر الوصول إلى كافة سجلات الجدول المحدد.
 
-في حالة عدم وجود جدول بالاسم المحدد ، يجب أن يعود التنفيذ`لا شيء` .
+في حالة عدم وجود جدول بالاسم المحدد، يجب أن يعود التنفيذ الخاص بك`باطل` .
 
 ### أمثلة
 
-يوضح كيفية تنفيذ دمج المراسلات مع مصدر بيانات في شكل كائن مخصص.
+يوضح كيفية تنفيذ دمج البريد مع مصدر بيانات في شكل كائن مخصص.
 
 ```csharp
 public void CustomDataSource()
@@ -47,11 +47,13 @@ public void CustomDataSource()
     builder.InsertParagraph();
     builder.InsertField(" MERGEFIELD Address ");
 
-    List<Customer> customers = new List<Customer>();
-    customers.Add(new Customer("Thomas Hardy", "120 Hanover Sq., London"));
-    customers.Add(new Customer("Paolo Accorti", "Via Monte Bianco 34, Torino"));
+    List<Customer> customers = new List<Customer>
+    {
+        new Customer("Thomas Hardy", "120 Hanover Sq., London"),
+        new Customer("Paolo Accorti", "Via Monte Bianco 34, Torino")
+    };
 
-    // لاستخدام كائن مخصص كمصدر بيانات ، يجب أن يقوم بتنفيذ واجهة IMailMergeDataSource. 
+     // لاستخدام كائن مخصص كمصدر بيانات، يجب عليه تنفيذ واجهة IMailMergeDataSource.
     CustomerMailMergeDataSource dataSource = new CustomerMailMergeDataSource(customers);
 
     doc.MailMerge.Execute(dataSource);
@@ -60,7 +62,7 @@ public void CustomDataSource()
 }
 
 /// <summary>
-/// مثال على فئة "كيان البيانات" في تطبيقك.
+/// مثال لفئة "كيان البيانات" في التطبيق الخاص بك.
 /// </summary>
 public class Customer
 {
@@ -75,8 +77,8 @@ public class Customer
 }
 
 /// <summary>
-/// مصدر بيانات مخصص لدمج البريد تقوم بتنفيذه للسماح لـ Aspose.Words 
-/// لدمج البيانات من كائنات العميل في مستندات Microsoft Word.
+ /// مصدر بيانات مخصص لدمج البريد تقوم بتنفيذه للسماح بـ Aspose.Words
+/// لدمج بيانات البريد من كائنات العميل الخاصة بك في مستندات Microsoft Word.
 /// </summary>
 public class CustomerMailMergeDataSource : IMailMergeDataSource
 {
@@ -84,12 +86,12 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     {
         mCustomers = customers;
 
-        // عندما نقوم بتهيئة مصدر البيانات ، يجب أن يكون موضعه قبل السجل الأول.
+        // عندما نقوم بتهيئة مصدر البيانات، يجب أن يكون موضعه قبل السجل الأول.
         mRecordIndex = -1;
     }
 
     /// <summary>
-    /// اسم مصدر البيانات. تستخدم بواسطة Aspose.Words فقط عند تنفيذ دمج البريد مع المناطق القابلة للتكرار.
+    /// اسم مصدر البيانات. يُستخدم بواسطة Aspose.Words فقط عند تنفيذ دمج البريد مع المناطق القابلة للتكرار.
     /// </summary>
     public string TableName
     {
@@ -97,7 +99,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Aspose.Words تستدعي هذه الطريقة للحصول على قيمة لكل حقل بيانات.
+    /// يستدعي Aspose.Words هذه الطريقة للحصول على قيمة لكل حقل بيانات.
     /// </summary>
     public bool GetValue(string fieldName, out object fieldValue)
     {
@@ -110,7 +112,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
                 fieldValue = mCustomers[mRecordIndex].Address;
                 return true;
             default:
-                // إرجاع "خطأ" إلى محرك دمج المراسلات Aspose.Words للإشارة
+                // قم بإرجاع "خطأ" إلى محرك دمج البريد Aspose.Words للدلالة
                 // لم نتمكن من العثور على حقل بهذا الاسم.
                 fieldValue = null;
                 return false;

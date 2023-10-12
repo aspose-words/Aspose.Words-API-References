@@ -1,14 +1,14 @@
 ---
 title: FieldCreateDate.UseLunarCalendar
 second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldCreateDate propriété. Obtient ou définit sil faut utiliser le calendrier Hijri Lunar ou Hebrew Lunar.
+description: FieldCreateDate propriété. Obtient ou définit sil faut utiliser le calendrier lunaire hégirien ou lunaire hébreu.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fields/fieldcreatedate/uselunarcalendar/
 ---
 ## FieldCreateDate.UseLunarCalendar property
 
-Obtient ou définit s'il faut utiliser le calendrier Hijri Lunar ou Hebrew Lunar.
+Obtient ou définit s'il faut utiliser le calendrier lunaire hégirien ou lunaire hébreu.
 
 ```csharp
 public bool UseLunarCalendar { get; set; }
@@ -24,9 +24,9 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.MoveToDocumentEnd();
 builder.Writeln(" Date this document was created:");
 
-// Nous pouvons utiliser le champ CREATEDATE pour afficher la date et l'heure de création du document.
+// On peut utiliser le champ CREATEDATE pour afficher la date et l'heure de création du document.
 // Vous trouverez ci-dessous trois types de calendrier différents selon lesquels le champ CREATEDATE peut afficher la date/heure.
-// 1 - Calendrier lunaire islamique :
+// 1 - Calendrier Lunaire Islamique :
 builder.Write("According to the Lunar Calendar - ");
 FieldCreateDate field = (FieldCreateDate)builder.InsertField(FieldType.FieldCreateDate, true);
 field.UseLunarCalendar = true;
@@ -40,7 +40,7 @@ field.UseUmAlQuraCalendar = true;
 
 Assert.AreEqual(" CREATEDATE  \\u", field.GetFieldCode());
 
-// 3 - Calendrier national indien :
+// 3 - Calendrier national indien :
 builder.Write("\nAccording to the Indian National Calendar - ");
 field = (FieldCreateDate)builder.InsertField(FieldType.FieldCreateDate, true);
 field.UseSakaEraCalendar = true;

@@ -1,14 +1,14 @@
 ---
 title: Enum ExportHeadersFootersMode
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Saving.ExportHeadersFootersMode énumération. Spécifie comment les entêtes et pieds de page sont exportés vers HTML MHTML ou EPUB.
+description: Aspose.Words.Saving.ExportHeadersFootersMode énumération. Spécifie comment les entêtes et les pieds de page sont exportés au format HTML MHTML ou EPUB.
 type: docs
-weight: 4740
+weight: 5000
 url: /fr/net/aspose.words.saving/exportheadersfootersmode/
 ---
 ## ExportHeadersFootersMode enumeration
 
-Spécifie comment les en-têtes et pieds de page sont exportés vers HTML, MHTML ou EPUB.
+Spécifie comment les en-têtes et les pieds de page sont exportés au format HTML, MHTML ou EPUB.
 
 ```csharp
 public enum ExportHeadersFootersMode
@@ -25,7 +25,7 @@ public enum ExportHeadersFootersMode
 
 ### Exemples
 
-Montre comment omettre les en-têtes/pieds de page lors de l'enregistrement d'un document au format HTML.
+Montre comment omettre les en-têtes/pieds de page lors de l’enregistrement d’un document au format HTML.
 
 ```csharp
 Document doc = new Document(MyDir + "Header and footer types.docx");
@@ -34,15 +34,15 @@ Document doc = new Document(MyDir + "Header and footer types.docx");
 Assert.AreEqual("First header", doc.FirstSection.HeadersFooters[HeaderFooterType.HeaderFirst].GetText().Trim());
 
 // Les formats tels que .html ne divisent pas le document en pages, donc les en-têtes/pieds de page ne fonctionneront pas de la même manière
-// ils le feraient lorsque nous ouvrions le document en tant que .docx à l'aide de Microsoft Word.
-// Si nous convertissons un document avec des en-têtes/pieds de page en html, la conversion assimilera les en-têtes/pieds de page au corps du texte.
-// Nous pouvons utiliser un objet SaveOptions pour omettre les en-têtes/pieds de page lors de la conversion en html.
+// ils le feraient lorsque nous ouvririons le document au format .docx à l'aide de Microsoft Word.
+// Si nous convertissons un document avec des en-têtes/pieds de page en HTML, la conversion assimilera les en-têtes/pieds de page dans le corps du texte.
+// Nous pouvons utiliser un objet SaveOptions pour omettre les en-têtes/pieds de page lors de la conversion en HTML.
 HtmlSaveOptions saveOptions =
     new HtmlSaveOptions(SaveFormat.Html) { ExportHeadersFootersMode = ExportHeadersFootersMode.None };
 
 doc.Save(ArtifactsDir + "HeaderFooter.ExportMode.html", saveOptions);
 
-// Ouvre notre document enregistré et vérifie qu'il ne contient pas le texte de l'en-tête
+// Ouvrez notre document enregistré et vérifiez qu'il ne contient pas le texte de l'en-tête
 doc = new Document(ArtifactsDir + "HeaderFooter.ExportMode.html");
 
 Assert.IsFalse(doc.Range.Text.Contains("First header"));

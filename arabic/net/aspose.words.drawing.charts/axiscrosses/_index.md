@@ -1,14 +1,14 @@
 ---
 title: Enum AxisCrosses
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.Charts.AxisCrosses تعداد. يحدد نقاط التقاطع المحتملة للمحور.
+description: Aspose.Words.Drawing.Charts.AxisCrosses تعداد. تحديد نقاط العبور المحتملة للمحور.
 type: docs
-weight: 530
+weight: 540
 url: /ar/net/aspose.words.drawing.charts/axiscrosses/
 ---
 ## AxisCrosses enumeration
 
-يحدد نقاط التقاطع المحتملة للمحور.
+تحديد نقاط العبور المحتملة للمحور.
 
 ```csharp
 public enum AxisCrosses
@@ -18,9 +18,9 @@ public enum AxisCrosses
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| Automatic | `0` | يتقاطع محور الفئة عند نقطة الصفر لمحور القيمة (إن أمكن) ، أو عند أدنى قيمة إذا كان الحد الأدنى أكبر من الصفر ، أو عند الحد الأقصى إذا كان الحد الأقصى أقل من الصفر. |
-| Maximum | `1` | يتقاطع المحور العمودي مع القيمة القصوى للمحور. |
-| Minimum | `2` | يتقاطع المحور العمودي مع الحد الأدنى لقيمة المحور. |
+| Automatic | `0` | يتقاطع محور الفئة عند نقطة الصفر لمحور القيمة (إن أمكن)، أو عند القيمة الدنيا إذا كان الحد الأدنى أكبر من الصفر، أو عند الحد الأقصى إذا كان الحد الأقصى أقل من الصفر. |
+| Maximum | `1` | يتقاطع المحور المتعامد مع القيمة القصوى للمحور. |
+| Minimum | `2` | يتقاطع المحور المتعامد مع القيمة الدنيا للمحور. |
 | Custom | `3` | يتقاطع المحور العمودي عند القيمة المحددة للمحور. |
 
 ### أمثلة
@@ -34,16 +34,16 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Column, 500, 300);
 Chart chart = shape.Chart;
 
-// امسح سلسلة بيانات العرض التوضيحي للرسم البياني لتبدأ بمخطط نظيف.
+// امسح سلسلة البيانات التجريبية للمخطط للبدء بمخطط نظيف.
 chart.Series.Clear();
 
-// أدخل سلسلة مخطط بفئات للمحور السيني والقيم الرقمية ذات الصلة للمحور ص.
+// قم بإدراج سلسلة مخططات تحتوي على فئات للمحور X والقيم الرقمية المعنية للمحور Y.
 chart.Series.Add("Aspose Test Series",
     new[] { "Word", "PDF", "Excel", "GoogleDocs", "Note" },
     new double[] { 640, 320, 280, 120, 150 });
 
-// محاور المخطط لها خيارات متنوعة يمكن أن تغير مظهرها ،
-// مثل اتجاههم ، وعلامات الوحدة الرئيسية / الثانوية ، وعلامات التجزئة.
+// تحتوي محاور المخطط على خيارات متعددة يمكنها تغيير مظهرها،
+// مثل اتجاهها، وعلامات التجزئة للوحدة الرئيسية/الثانوية، وعلامات التجزئة.
 ChartAxis xAxis = chart.AxisX;
 xAxis.CategoryType = AxisCategoryType.Category;
 xAxis.Crosses = AxisCrosses.Minimum;

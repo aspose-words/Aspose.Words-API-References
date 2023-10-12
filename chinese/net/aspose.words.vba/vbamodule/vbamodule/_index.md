@@ -26,13 +26,13 @@ VbaProject project = new VbaProject();
 project.Name = "Aspose.Project";
 doc.VbaProject = project;
 
-// 创建一个新模块并指定一个宏源代码。
+// 创建一个新模块并指定宏源代码。
 VbaModule module = new VbaModule();
 module.Name = "Aspose.Module";
 module.Type = VbaModuleType.ProceduralModule;
 module.SourceCode = "New source code";
 
-// 将模块添加到 VBA 项目。
+// 将模块添加到 VBA 项目中。
 doc.VbaProject.Modules.Add(module);
 
 doc.Save(ArtifactsDir + "VbaProject.CreateVBAMacros.docm");

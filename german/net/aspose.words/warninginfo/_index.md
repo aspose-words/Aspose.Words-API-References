@@ -3,12 +3,14 @@ title: Class WarningInfo
 second_title: Aspose.Words für .NET-API-Referenz
 description: Aspose.Words.WarningInfo klas. Enthält Informationen zu einer Warnung die Aspose.Words beim Laden oder Speichern von Dokumenten ausgegeben hat.
 type: docs
-weight: 6320
+weight: 6630
 url: /de/net/aspose.words/warninginfo/
 ---
 ## WarningInfo class
 
 Enthält Informationen zu einer Warnung, die Aspose.Words beim Laden oder Speichern von Dokumenten ausgegeben hat.
+
+Um mehr zu erfahren, besuchen Sie die[Programmieren mit Dokumenten](https://docs.aspose.com/words/net/programming-with-documents/) Dokumentationsartikel.
 
 ```csharp
 public class WarningInfo
@@ -24,14 +26,13 @@ public class WarningInfo
 
 ### Bemerkungen
 
-Sie erstellen keine Instanzen dieser Klasse. Objekte dieser Klasse werden created und von Aspose.Words an die übergeben[`Warning`](../iwarningcallback/warning/) Methode.
+Sie erstellen keine Instanzen dieser Klasse. Objekte dieser Klasse werden erstellt und von Aspose.Words an übergeben[`Warning`](../iwarningcallback/warning/) Methode.
 
 ### Beispiele
 
 Zeigt, wie die Eigenschaft festgelegt wird, um die beste Übereinstimmung für eine fehlende Schriftart aus den verfügbaren Schriftartquellen zu finden.
 
 ```csharp
-[Test]
 public void EnableFontSubstitution()
 {
     // Öffnen Sie ein Dokument, das Text enthält, der mit einer Schriftart formatiert ist, die in keiner unserer Schriftartquellen vorhanden ist.
@@ -47,7 +48,10 @@ public void EnableFontSubstitution()
     ;
     fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 
-    // Wir erhalten eine Schriftersetzungswarnung, wenn wir ein Dokument mit einer fehlenden Schrift speichern.
+    // Nach der Schriftartersetzung sollten die ursprünglichen Schriftartmetriken verwendet werden.
+    doc.LayoutOptions.KeepOriginalFontMetrics = true;
+
+    // Wir erhalten eine Warnung zur Schriftartersetzung, wenn wir ein Dokument mit einer fehlenden Schriftart speichern.
     doc.FontSettings = fontSettings;
     doc.Save(ArtifactsDir + "FontSettings.EnableFontSubstitution.pdf");
 
@@ -69,7 +73,7 @@ public void EnableFontSubstitution()
 public class HandleDocumentSubstitutionWarnings : IWarningCallback
 {
     /// <summary>
-    /// Wird jedes Mal aufgerufen, wenn während des Ladens/Speicherns eine Warnung auftritt.
+    /// Wird jedes Mal aufgerufen, wenn beim Laden/Speichern eine Warnung auftritt.
     /// </summary>
     public void Warning(WarningInfo info)
     {

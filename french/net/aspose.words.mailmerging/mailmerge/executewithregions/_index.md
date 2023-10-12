@@ -16,13 +16,13 @@ public void ExecuteWithRegions(IMailMergeDataSource dataSource)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| dataSource | IMailMergeDataSource | Objet qui implémente l'interface de source de données de publipostage personnalisée. |
+| dataSource | IMailMergeDataSource | Objet qui implémente l’interface de source de données de publipostage personnalisée. |
 
 ### Remarques
 
-Utilisez cette méthode pour remplir les champs de fusion et publipostage du document avec des valeurs de n'importe quelle source de données personnalisée telle qu'un fichier XML ou des collections d'objets métier. Vous devez écrire votre propre classe qui implémente le[`IMailMergeDataSource`](../../imailmergedatasource/) interface.
+Utilisez cette méthode pour remplir les champs de publipostage du document avec les valeurs de n'importe quelle source de données personnalisée telle qu'un fichier XML ou des collections d'objets métier. Vous devez écrire votre propre classe qui implémente le[`IMailMergeDataSource`](../../imailmergedatasource/) interface.
 
-Vous ne pouvez utiliser cette méthode que lorsque[`IsBidiTextSupportedOnUpdate`](../../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/)est faux, c'est-à-dire que vous n'avez pas besoin de la compatibilité des langues de droite à gauche (comme l'arabe ou l'hébreu).
+Vous pouvez utiliser cette méthode uniquement lorsque[`IsBidiTextSupportedOnUpdate`](../../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/) est`FAUX`, c'est-à-dire que vous n'avez pas besoin d'une compatibilité linguistique de droite à gauche (comme l'arabe ou l'hébreu).
 
 ### Exemples
 
@@ -34,12 +34,12 @@ public void CustomDataSource()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Normalement, les champs MERGEFIELD contiennent le nom d'une colonne d'une source de données de publipostage.
-    // Au lieu de cela, nous pouvons utiliser les préfixes "TableStart :" et "TableEnd :" pour commencer/terminer une région de publipostage.
+    // Normalement, les MERGEFIELD contiennent le nom d'une colonne d'une source de données de publipostage.
+    // À la place, nous pouvons utiliser les préfixes « TableStart : » et « TableEnd : » pour commencer/terminer une région de fusion et de publipostage.
     // Chaque région appartiendra à une table dont le nom correspond à la chaîne immédiatement après les deux-points du préfixe.
     builder.InsertField(" MERGEFIELD TableStart:Customers");
 
-    // Ces MERGEFIELDs sont à l'intérieur de la région de publipostage de la table "Clients".
+    // Ces MERGEFIELD se trouvent à l'intérieur de la région de publipostage de la table "Clients".
     // Lorsque nous exécutons le publipostage, ce champ recevra les données des lignes d'une source de données nommée "Clients".
     builder.Write("Full name:\t");
     builder.InsertField(" MERGEFIELD FullName ");
@@ -47,7 +47,7 @@ public void CustomDataSource()
     builder.InsertField(" MERGEFIELD Address ");
     builder.Write("\nOrders:\n");
 
-    // Crée une deuxième région de fusion et publipostage à l'intérieur de la région extérieure pour une source de données nommée "Orders".
+    // Créez une deuxième région de publipostage à l'intérieur de la région externe pour une source de données nommée « Commandes ».
     // Les entrées de données "Commandes" ont une relation plusieurs-à-un avec la source de données "Clients".
     builder.InsertField(" MERGEFIELD TableStart:Orders");
 
@@ -69,7 +69,7 @@ public void CustomDataSource()
     customers[0].Orders.Add(new Order("Rugby World Cup Ball", 1));
     customers[1].Orders.Add(new Order("Rugby World Cup Guide", 1));
 
-    // Pour effectuer un publipostage à partir de votre source de données, nous devons l'encapsuler dans un objet qui implémente l'interface IMailMergeDataSource.
+    // Pour effectuer un publipostage à partir de votre source de données, nous devons l'envelopper dans un objet qui implémente l'interface IMailMergeDataSource.
     CustomerMailMergeDataSource customersDataSource = new CustomerMailMergeDataSource(customers);
 
     doc.MailMerge.ExecuteWithRegions(customersDataSource);
@@ -107,7 +107,7 @@ public class CustomerList : ArrayList
 }
 
 /// <summary>
-/// Un exemple de classe "entité de données" enfant dans votre application.
+/// Un exemple de classe enfant "entité de données" dans votre application.
 /// </summary>
 public class Order
 {
@@ -122,8 +122,8 @@ public class Order
 }
 
 /// <summary>
-/// Une source de données de publipostage personnalisée que vous implémentez pour autoriser Aspose.Words 
-/// pour fusionner les données de vos objets Customer dans des documents Microsoft Word.
+ /// Une source de données de publipostage personnalisée que vous implémentez pour autoriser Aspose.Words
+/// pour fusionner les données de vos objets Client dans des documents Microsoft Word.
 /// </summary>
 public class CustomerMailMergeDataSource : IMailMergeDataSource
 {
@@ -136,7 +136,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Le nom de la source de données. Utilisé par Aspose.Words uniquement lors de l'exécution d'un publipostage avec des régions répétables.
+    /// Le nom de la source de données. Utilisé par Aspose.Words uniquement lors de l’exécution d’un publipostage avec des régions répétables.
     /// </summary>
     public string TableName
     {
@@ -182,7 +182,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     {
         switch (tableName)
         {
-            // Obtient la source de données enfant, dont le nom correspond à la région de fusion et publipostage qui utilise ses colonnes.
+            // Récupère la source de données enfant, dont le nom correspond à la région de publipostage qui utilise ses colonnes.
             case "Orders":
                 return new OrderMailMergeDataSource(mCustomers[mRecordIndex].Orders);
             default:
@@ -210,7 +210,7 @@ public class OrderMailMergeDataSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Le nom de la source de données. Utilisé par Aspose.Words uniquement lors de l'exécution d'un publipostage avec des régions répétables.
+    /// Le nom de la source de données. Utilisé par Aspose.Words uniquement lors de l’exécution d’un publipostage avec des régions répétables.
     /// </summary>
     public string TableName
     {
@@ -286,13 +286,13 @@ public void ExecuteWithRegions(IMailMergeDataSourceRoot dataSourceRoot)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| dataSourceRoot | IMailMergeDataSourceRoot | Objet qui implémente l'interface racine de la source de données de fusion et publipostage personnalisée. |
+| dataSourceRoot | IMailMergeDataSourceRoot | Objet qui implémente l’interface racine de la source de données de fusion et publipostage personnalisée. |
 
 ### Remarques
 
-Utilisez cette méthode pour remplir les champs de fusion et publipostage du document avec des valeurs de n'importe quelle source de données personnalisée telle qu'un fichier XML ou des collections d'objets métier. Vous devez écrire vos propres classes qui implémentent le[`IMailMergeDataSourceRoot`](../../imailmergedatasourceroot/) et[`IMailMergeDataSource`](../../imailmergedatasource/) interfaces.
+Utilisez cette méthode pour remplir les champs de publipostage du document avec les valeurs de n'importe quelle source de données personnalisée telle qu'un fichier XML ou des collections d'objets métier. Vous devez écrire vos propres classes qui implémentent le[`IMailMergeDataSourceRoot`](../../imailmergedatasourceroot/) et[`IMailMergeDataSource`](../../imailmergedatasource/) interfaces.
 
-Vous ne pouvez utiliser cette méthode que lorsque[`IsBidiTextSupportedOnUpdate`](../../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/)est faux, c'est-à-dire que vous n'avez pas besoin de la compatibilité des langues de droite à gauche (comme l'arabe ou l'hébreu).
+Vous pouvez utiliser cette méthode uniquement lorsque[`IsBidiTextSupportedOnUpdate`](../../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/) est`FAUX`, c'est-à-dire que vous n'avez pas besoin d'une compatibilité linguistique de droite à gauche (comme l'arabe ou l'hébreu).
 
 ### Exemples
 
@@ -301,11 +301,11 @@ Effectue un publipostage à partir d'une source de données personnalisée avec 
 ```csharp
 public void CustomDataSourceRoot()
 {
-    // Crée un document avec deux régions de publipostage nommées "Washington" et "Seattle".
+    // Créez un document avec deux régions de publipostage nommées "Washington" et "Seattle".
     string[] mailMergeRegions = { "Vancouver", "Seattle" };
     Document doc = CreateSourceDocumentWithMailMergeRegions(mailMergeRegions);
 
-    // Crée deux sources de données pour le publipostage.
+    // Créez deux sources de données pour le publipostage.
     EmployeeList employeesWashingtonBranch = new EmployeeList();
     employeesWashingtonBranch.Add(new Employee("John Doe", "Sales"));
     employeesWashingtonBranch.Add(new Employee("Jane Doe", "Management"));
@@ -314,23 +314,23 @@ public void CustomDataSourceRoot()
     employeesSeattleBranch.Add(new Employee("John Cardholder", "Management"));
     employeesSeattleBranch.Add(new Employee("Joe Bloggs", "Sales"));
 
-    // Enregistrez nos sources de données par leur nom dans une racine de source de données.
+    // Enregistrez nos sources de données par nom dans une racine de source de données.
     // Si nous sommes sur le point d'utiliser cette racine de source de données dans un publipostage avec des régions,
-    // le nom enregistré de chaque source doit correspondre au nom d'une région de fusion et publipostage existante dans le document source de fusion et publipostage.
+    // le nom enregistré de chaque source doit correspondre au nom d'une région de publipostage existante dans le document source du publipostage.
     DataSourceRoot sourceRoot = new DataSourceRoot();
     sourceRoot.RegisterSource(mailMergeRegions[0], new EmployeeListMailMergeSource(employeesWashingtonBranch));
     sourceRoot.RegisterSource(mailMergeRegions[1], new EmployeeListMailMergeSource(employeesSeattleBranch));
 
-    // Étant donné que nous avons des régions de fusion et publipostage consécutives, nous devrions normalement effectuer deux fusions et publipostage.
+    // Puisque nous avons des régions de publipostage consécutives, nous devrions normalement effectuer deux publipostages.
     // Cependant, une source de publipostage avec une racine de données peut remplir plusieurs régions
-    // si la racine contient des tables avec des noms/noms de colonnes correspondants.
+    // si la racine contient des tables avec les noms/noms de colonnes correspondants.
     doc.MailMerge.ExecuteWithRegions(sourceRoot);
 
     doc.Save(ArtifactsDir + "MailMergeCustom.CustomDataSourceRoot.docx");
 }
 
 /// <summary>
-/// Crée un document qui contient des régions de publipostage consécutives, avec des noms désignés par le tableau d'entrée,
+/// Créer un document contenant des régions de publipostage consécutives, avec des noms désignés par le tableau d'entrée,
 /// pour une table de données des employés.
 /// </summary>
 private static Document CreateSourceDocumentWithMailMergeRegions(string[] regions)
@@ -379,7 +379,7 @@ private class EmployeeList : ArrayList
 }
 
 /// <summary>
-/// Racine de la source de données qui peut être transmise directement dans un publipostage qui peut enregistrer et contenir de nombreuses sources de données enfants.
+/// Racine de la source de données qui peut être transmise directement dans un publipostage pouvant enregistrer et contenir de nombreuses sources de données enfants.
 /// Ces sources doivent toutes implémenter IMailMergeDataSource, et sont enregistrées et différenciées par un nom
 /// qui correspond à une région de publipostage qui lira les données respectives.
 /// </summary>
@@ -433,7 +433,7 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Le nom de la source de données. Utilisé par Aspose.Words uniquement lors de l'exécution d'un publipostage avec des régions répétables.
+    /// Le nom de la source de données. Utilisé par Aspose.Words uniquement lors de l’exécution d’un publipostage avec des régions répétables.
     /// </summary>
     public string TableName
     {
@@ -485,7 +485,7 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
 
 ## ExecuteWithRegions(DataSet) {#executewithregions_2}
 
-Effectue un publipostage à partir d'un DataSet dans un document avec des régions de publipostage.
+Effectue un publipostage à partir d'un **Base de données** dans un document avec des régions de publipostage.
 
 ```csharp
 public void ExecuteWithRegions(DataSet dataSet)
@@ -493,45 +493,44 @@ public void ExecuteWithRegions(DataSet dataSet)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| dataSet | DataSet | DataSet qui contient des données à insérer dans les champs de fusion et publipostage. |
+| dataSet | DataSet | **Base de données** qui contient des données à insérer dans les champs de publipostage. |
 
 ### Remarques
 
-Utilisez cette méthode pour effectuer une fusion et publipostage à partir d'une ou plusieurs tables dans des régions de fusion mail répétables dans le document. Les régions de fusion et publipostage à l'intérieur du document augmenteront dynamiquement pour accueillir les enregistrements dans les tables correspondantes.
+Utilisez cette méthode pour effectuer un publipostage à partir d’une ou plusieurs tables vers des régions de fusion mail répétables dans le document. Les régions de publipostage à l'intérieur du document s'agrandiront dynamiquement pour accueillir les enregistrements dans les tables correspondantes.
 
-Chaque table du DataSet doit avoir un nom.
+Chaque table du **Base de données** doit avoir un nom.
 
-Le document doit avoir des régions de fusion et publipostage définies avec des noms faisant référence aux tables dans le DataSet.
+Le document doit avoir des régions de publipostage définies avec des noms faisant référence à tables dans le fichier **Base de données**.
 
 Pour spécifier une région de fusion et publipostage dans le document, vous devez insérer deux champs de fusion et publipostage pour marquer le début et la fin de la région de fusion et publipostage.
 
-Tout le contenu du document qui est inclus dans une région de fusion et publipostage sera automatiquement répété pour chaque enregistrement dans le DataTable.
+Tout le contenu du document inclus dans une région de fusion et publipostage sera automatiquement répété pour chaque enregistrement de la zone de fusion. **Table de données**.
 
-Pour marquer le début d'une région de fusion et publipostage, insérez un MERGEFIELD avec le nom TableStart:MyTable, où MyTable correspond à l'un des noms de table dans votre DataSet.
+Pour marquer le début d'une région de publipostage, insérez un MERGEFIELD avec le nom TableStart:MyTable, où MyTable correspond à l'un des noms de table de votre **Base de données**.
 
-Pour marquer la fin de la région de fusion et publipostage, insérez un autre MERGEFIELD avec le nom TableEnd:MyTable.
+Pour marquer la fin de la région de fusion et de publipostage, insérez un autre MERGEFIELD portant le nom TableEnd:MyTable.
 
 Pour insérer un MERGEFIELD dans Word, utilisez la commande Insert/Field et sélectionnez MergeField puis tapez le nom du champ.
 
-Les champs TableStart et TableEnd doivent se trouver dans la même section de votre document.
+Le **Début de la table** et **Fin de table** les champs doivent se trouver dans la même section de votre document.
 
-S'ils sont utilisés à l'intérieur d'un tableau, TableStart et TableEnd doivent se trouver dans la même ligne du tableau.
+Si utilisé à l'intérieur d'une table, **Début de la table** et **Fin de table** doit être dans la même ligne du tableau.
 
-Les régions de fusion et publipostage d'un document doivent être bien formées (il doit toujours y avoir une paire de champs de fusion matching TableStart et TableEnd avec le même nom de table).
+Les régions de publipostage dans un document doivent être bien formées (il doit toujours y avoir une paire de matching  **Début de la table** et **Fin de table** fusionner les champs portant le même nom de table).
 
 ### Exemples
 
 Montre comment exécuter un publipostage imbriqué avec deux régions de fusion et deux tables de données.
 
 ```csharp
-[Test]
 public void ExecuteWithRegionsNested()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Normalement, les champs MERGEFIELD contiennent le nom d'une colonne d'une source de données de publipostage.
-    // Au lieu de cela, nous pouvons utiliser les préfixes "TableStart :" et "TableEnd :" pour commencer/terminer une région de publipostage.
+    // Normalement, les MERGEFIELD contiennent le nom d'une colonne d'une source de données de publipostage.
+    // À la place, nous pouvons utiliser les préfixes « TableStart : » et « TableEnd : » pour commencer/terminer une région de fusion et de publipostage.
     // Chaque région appartiendra à une table dont le nom correspond à la chaîne immédiatement après les deux-points du préfixe.
     builder.InsertField(" MERGEFIELD TableStart:Customers");
 
@@ -541,7 +540,7 @@ public void ExecuteWithRegionsNested()
     builder.InsertField(" MERGEFIELD CustomerName");
     builder.Write(":");
 
-    // Crée des en-têtes de colonne pour une table qui contiendra des valeurs d'une deuxième région interne.
+    // Crée des en-têtes de colonne pour un tableau qui contiendra les valeurs d'une deuxième région interne.
     builder.StartTable();
     builder.InsertCell();
     builder.Write("Item");
@@ -549,24 +548,24 @@ public void ExecuteWithRegionsNested()
     builder.Write("Quantity");
     builder.EndRow();
 
-    // Crée une deuxième région de fusion et publipostage à l'intérieur de la région externe pour une table nommée "Orders".
-    // La table "Orders" a une relation plusieurs-à-un avec la table "Customers" sur la colonne "CustomerID".
+    // Créez une deuxième région de publipostage à l'intérieur de la région externe pour une table nommée "Commandes".
+    // La table "Commandes" a une relation plusieurs-à-un avec la table "Clients" sur la colonne "IDClient".
     builder.InsertCell();
     builder.InsertField(" MERGEFIELD TableStart:Orders");
     builder.InsertField(" MERGEFIELD ItemName");
     builder.InsertCell();
     builder.InsertField(" MERGEFIELD Quantity");
 
-    // Fin de la région intérieure, puis fin de la région extérieure. L'ouverture et la fermeture d'une région de publipostage doivent
-    // arrive sur la même ligne d'une table.
+    // Termine la région interne, puis termine la région externe. L'ouverture et la fermeture d'une région de publipostage doivent
+    // se produit sur la même ligne d'une table.
     builder.InsertField(" MERGEFIELD TableEnd:Orders");
     builder.EndTable();
 
     builder.InsertField(" MERGEFIELD TableEnd:Customers");
 
-    // Crée un jeu de données qui contient les deux tables avec les noms et relations requis.
+    // Créez un ensemble de données contenant les deux tables avec les noms et relations requis.
     // Chaque document de fusion pour chaque ligne de la table "Clients" de la région de fusion externe effectuera son publipostage sur la table "Commandes".
-    // Chaque document de fusion affichera toutes les lignes de cette dernière table dont les valeurs de la colonne "CustomerID" correspondent à la ligne actuelle de la table "Customers".
+    // Chaque document de fusion affichera toutes les lignes de ce dernier tableau dont les valeurs de la colonne "CustomerID" correspondent à la ligne actuelle du tableau "Clients".
     DataSet customersAndOrders = CreateDataSet();
     doc.MailMerge.ExecuteWithRegions(customersAndOrders);
 
@@ -574,7 +573,7 @@ public void ExecuteWithRegionsNested()
 }
 
 /// <summary>
-/// Génère un ensemble de données contenant deux tables de données nommées "Customers" et "Orders", avec une relation un-à-plusieurs sur la colonne "CustomerID".
+/// Génère un ensemble de données contenant deux tables de données nommées "Clients" et "Commandes", avec une relation un-à-plusieurs sur la colonne "CustomerID".
 /// </summary>
 private static DataSet CreateDataSet()
 {
@@ -611,7 +610,7 @@ private static DataSet CreateDataSet()
 
 ## ExecuteWithRegions(DataTable) {#executewithregions_3}
 
-Effectue une fusion et publipostage à partir d'un DataTable dans le document avec des régions de fusion et publipostage.
+Effectue un publipostage à partir d'un **Table de données** dans le document avec les régions de publipostage.
 
 ```csharp
 public void ExecuteWithRegions(DataTable dataTable)
@@ -619,19 +618,20 @@ public void ExecuteWithRegions(DataTable dataTable)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| dataTable | DataTable | Source de données pour l'opération de fusion et publipostage. La table doit avoir son **Nom de la table** ensemble de propriétés. |
+| dataTable | DataTable | Source de données pour l'opération de publipostage. La table doit avoir sonTableName ensemble de propriétés. |
 
 ### Remarques
 
-Le document doit avoir une région de fusion et publipostage définie avec un nom qui correspond à  **DataTable.TableName**.
+Le document doit avoir une région de publipostage définie avec un nom correspondant à TableName.
 
-S'il existe d'autres régions de fusion et publipostage définies dans le document, elles sont laissées intactes. Cela permet d'effectuer plusieurs opérations de fusion et publipostage.
+S'il existe d'autres régions de publipostage définies dans le document, elles restent intactes. Cela permet d'effectuer plusieurs opérations de publipostage.
 
 ### Exemples
 
-Montre comment formater des cellules lors d'un publipostage.
+Montre comment formater les cellules lors d’un publipostage.
 
 ```csharp
+public void AlternatingRows()
 {
     Document doc = new Document(MyDir + "Mail merge destination - Northwind suppliers.docx");
 
@@ -641,9 +641,10 @@ Montre comment formater des cellules lors d'un publipostage.
     doc.MailMerge.ExecuteWithRegions(dataTable);
 
     doc.Save(ArtifactsDir + "MailMergeEvent.AlternatingRows.docx");
+}
 
 /// <summary>
-/// Formate les lignes du tableau lors d'un publipostage pour alterner entre deux couleurs sur des lignes paires/impaires.
+/// Formate les lignes du tableau lors d'un publipostage pour alterner entre deux couleurs sur les lignes paires/impaires.
 /// </summary>
 private class HandleMergeFieldAlternatingRows : IFieldMergingCallback
 {
@@ -680,7 +681,7 @@ private class HandleMergeFieldAlternatingRows : IFieldMergingCallback
 }
 
 /// <summary>
-/// Fonction nécessaire pour le portage automatique Visual Basic qui renvoie la parité du nombre passé.
+/// Fonction nécessaire pour le portage automatique de Visual Basic qui renvoie la parité du nombre transmis.
 /// </summary>
 private static bool IsOdd(int value)
 {
@@ -707,16 +708,16 @@ private static DataTable GetSuppliersDataTable()
 }
 ```
 
-Montre comment utiliser des régions pour exécuter deux publipostages distincts dans un seul document.
+Montre comment utiliser les régions pour exécuter deux publipostages distincts dans un seul document.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Si nous voulons effectuer deux publipostages consécutifs sur un document tout en prenant des données de deux tables
-// liés les uns aux autres de quelque manière que ce soit, nous pouvons séparer les publipostages avec les régions.
-// Normalement, les champs MERGEFIELD contiennent le nom d'une colonne d'une source de données de publipostage.
-// Au lieu de cela, nous pouvons utiliser les préfixes "TableStart :" et "TableEnd :" pour commencer/terminer une région de publipostage.
+// Si nous voulons effectuer deux publipostages consécutifs sur un document tout en prenant les données de deux tables
+// liés les uns aux autres de quelque manière que ce soit, nous pouvons séparer les publipostages par régions.
+// Normalement, les MERGEFIELD contiennent le nom d'une colonne d'une source de données de publipostage.
+// À la place, nous pouvons utiliser les préfixes « TableStart : » et « TableEnd : » pour commencer/terminer une région de fusion et de publipostage.
 // Chaque région appartiendra à une table dont le nom correspond à la chaîne immédiatement après les deux-points du préfixe.
 // Ces régions sont séparées pour les données non liées, alors qu'elles peuvent être imbriquées pour les données hiérarchiques.
 builder.Writeln("\tCities: ");
@@ -725,13 +726,13 @@ builder.InsertField(" MERGEFIELD Name");
 builder.InsertField(" MERGEFIELD TableEnd:Cities");
 builder.InsertParagraph();
 
-// Les deux champs MERGEFIELD font référence au même nom de colonne, mais les valeurs de chacun proviendront de tables de données différentes.
+// Les deux MERGEFIELD font référence au même nom de colonne, mais les valeurs de chacun proviendront de tables de données différentes.
 builder.Writeln("\tFruit: ");
 builder.InsertField(" MERGEFIELD TableStart:Fruit");
 builder.InsertField(" MERGEFIELD Name");
 builder.InsertField(" MERGEFIELD TableEnd:Fruit");
 
-// Crée deux tables de données non liées.
+// Crée deux tables de données indépendantes.
 DataTable tableCities = new DataTable("Cities");
 tableCities.Columns.Add("Name");
 tableCities.Rows.Add(new object[] { "Washington" });
@@ -745,11 +746,11 @@ tableFruit.Rows.Add(new object[] { "Apple" });
 tableFruit.Rows.Add(new object[] { "Watermelon" });
 tableFruit.Rows.Add(new object[] { "Banana" });
 
-// Nous devrons exécuter un publipostage par table. Le premier publipostage remplira les MERGEFIELDs
-// dans la plage "Villes" en laissant les champs de la plage "Fruit" vides.
+// Nous devrons exécuter un publipostage par table. Le premier publipostage remplira les MERGEFIELD
+// dans la plage "Villes" en laissant les champs la plage "Fruit" vides.
 doc.MailMerge.ExecuteWithRegions(tableCities);
 
-// Exécute une deuxième fusion pour la table "Fruit", tout en utilisant une vue de données
+// Exécuter une seconde fusion pour la table "Fruit", en utilisant une vue données
 // pour trier les lignes par ordre croissant sur la colonne "Nom" avant la fusion.
 DataView dv = new DataView(tableFruit);
 dv.Sort = "Name ASC";
@@ -768,7 +769,7 @@ doc.Save(ArtifactsDir + "MailMerge.ExecuteWithRegionsConcurrent.docx");
 
 ## ExecuteWithRegions(DataView) {#executewithregions_4}
 
-Effectue un publipostage à partir d'un DataView dans le document avec des régions de publipostage.
+Effectue un publipostage à partir d'un **Vue de données** dans le document avec les régions de publipostage.
 
 ```csharp
 public void ExecuteWithRegions(DataView dataView)
@@ -776,28 +777,28 @@ public void ExecuteWithRegions(DataView dataView)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| dataView | DataView | Source de données pour l'opération de fusion et publipostage. La table source du **Affichage des données** doit avoir son **Nom de la table** ensemble de propriétés. |
+| dataView | DataView | Source de données pour l'opération de publipostage. La table source du **Vue de données** doit avoir son **Nom de la table** ensemble de propriétés. |
 
 ### Remarques
 
-Cette méthode est utile si vous récupérez des données dans un **Tableau de données** mais alors besoin d'appliquer un filtre ou un tri avant le publipostage.
+Cette méthode est utile si vous récupérez des données dans un **Table de données** mais then doit appliquer un filtre ou un tri avant le publipostage.
 
-Le document doit avoir une région de fusion et publipostage définie avec un nom qui correspond à  **DataView.Table.TableName**.
+Le document doit avoir une région de publipostage définie avec un nom correspondant à  **DataView.Table.TableName**.
 
-S'il existe d'autres régions de fusion et publipostage définies dans le document, elles sont laissées intactes. Cela permet d'effectuer plusieurs opérations de fusion et publipostage.
+S'il existe d'autres régions de publipostage définies dans le document, elles restent intactes. Cela permet d'effectuer plusieurs opérations de publipostage.
 
 ### Exemples
 
-Montre comment utiliser des régions pour exécuter deux publipostages distincts dans un seul document.
+Montre comment utiliser les régions pour exécuter deux publipostages distincts dans un seul document.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Si nous voulons effectuer deux publipostages consécutifs sur un document tout en prenant des données de deux tables
-// liés les uns aux autres de quelque manière que ce soit, nous pouvons séparer les publipostages avec les régions.
-// Normalement, les champs MERGEFIELD contiennent le nom d'une colonne d'une source de données de publipostage.
-// Au lieu de cela, nous pouvons utiliser les préfixes "TableStart :" et "TableEnd :" pour commencer/terminer une région de publipostage.
+// Si nous voulons effectuer deux publipostages consécutifs sur un document tout en prenant les données de deux tables
+// liés les uns aux autres de quelque manière que ce soit, nous pouvons séparer les publipostages par régions.
+// Normalement, les MERGEFIELD contiennent le nom d'une colonne d'une source de données de publipostage.
+// À la place, nous pouvons utiliser les préfixes « TableStart : » et « TableEnd : » pour commencer/terminer une région de fusion et de publipostage.
 // Chaque région appartiendra à une table dont le nom correspond à la chaîne immédiatement après les deux-points du préfixe.
 // Ces régions sont séparées pour les données non liées, alors qu'elles peuvent être imbriquées pour les données hiérarchiques.
 builder.Writeln("\tCities: ");
@@ -806,13 +807,13 @@ builder.InsertField(" MERGEFIELD Name");
 builder.InsertField(" MERGEFIELD TableEnd:Cities");
 builder.InsertParagraph();
 
-// Les deux champs MERGEFIELD font référence au même nom de colonne, mais les valeurs de chacun proviendront de tables de données différentes.
+// Les deux MERGEFIELD font référence au même nom de colonne, mais les valeurs de chacun proviendront de tables de données différentes.
 builder.Writeln("\tFruit: ");
 builder.InsertField(" MERGEFIELD TableStart:Fruit");
 builder.InsertField(" MERGEFIELD Name");
 builder.InsertField(" MERGEFIELD TableEnd:Fruit");
 
-// Crée deux tables de données non liées.
+// Crée deux tables de données indépendantes.
 DataTable tableCities = new DataTable("Cities");
 tableCities.Columns.Add("Name");
 tableCities.Rows.Add(new object[] { "Washington" });
@@ -826,11 +827,11 @@ tableFruit.Rows.Add(new object[] { "Apple" });
 tableFruit.Rows.Add(new object[] { "Watermelon" });
 tableFruit.Rows.Add(new object[] { "Banana" });
 
-// Nous devrons exécuter un publipostage par table. Le premier publipostage remplira les MERGEFIELDs
-// dans la plage "Villes" en laissant les champs de la plage "Fruit" vides.
+// Nous devrons exécuter un publipostage par table. Le premier publipostage remplira les MERGEFIELD
+// dans la plage "Villes" en laissant les champs la plage "Fruit" vides.
 doc.MailMerge.ExecuteWithRegions(tableCities);
 
-// Exécute une deuxième fusion pour la table "Fruit", tout en utilisant une vue de données
+// Exécuter une seconde fusion pour la table "Fruit", en utilisant une vue données
 // pour trier les lignes par ordre croissant sur la colonne "Nom" avant la fusion.
 DataView dv = new DataView(tableFruit);
 dv.Sort = "Name ASC";
@@ -849,7 +850,7 @@ doc.Save(ArtifactsDir + "MailMerge.ExecuteWithRegionsConcurrent.docx");
 
 ## ExecuteWithRegions(IDataReader, string) {#executewithregions_5}
 
-Effectue un publipostage depuis IDataReader dans le document avec les régions de publipostage.
+Effectue un publipostage à partir de **IDataReader** dans le document avec les régions de publipostage.
 
 ```csharp
 public void ExecuteWithRegions(IDataReader dataReader, string tableName)
@@ -857,12 +858,12 @@ public void ExecuteWithRegions(IDataReader dataReader, string tableName)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| dataReader | IDataReader | Source des enregistrements de données pour le publipostage, tels que OleDbDataReader ou SqlDataReader. |
-| tableName | String | Nom de la région de fusion et publipostage dans le document à remplir. |
+| dataReader | IDataReader | Source des enregistrements de données pour le publipostage, tels que **OleDbDataReader** ou **SQLDataReader**. |
+| tableName | String | Nom de la région de publipostage dans le document à remplir. |
 
 ### Remarques
 
-Tu peux passer **SqlDataReader** ou **OleDbDataReader** objet dans la méthode this en tant que paramètre car ils ont tous deux implémenté **IDataReader** interface.
+Tu peux passer **SQLDataReader** ou **OleDbDataReader**objet dans la méthode this en tant que paramètre car ils ont tous deux implémenté **IDataReader** interface.
 
 ### Exemples
 
@@ -875,14 +876,14 @@ public void ImageFromBlob()
 
     doc.MailMerge.FieldMergingCallback = new HandleMergeImageFieldFromBlob();
 
-    string connString = $"Provider=Microsoft.Jet.OLEDB.4.0;Data Source={DatabaseDir + "Northwind.mdb"};";
+    string connString = $"Provider=Microsoft.ACE.OLEDB.12.0;Data Source={DatabaseDir + "Northwind.accdb"};";
     string query = "SELECT FirstName, LastName, Title, Address, City, Region, Country, PhotoBLOB FROM Employees";
 
     using (OleDbConnection conn = new OleDbConnection(connString))
     {
         conn.Open();
 
-        // Ouvre le lecteur de données, qui doit être dans un mode qui lit tous les enregistrements à la fois.
+        // Ouvrez le lecteur de données, qui doit être dans un mode permettant de lire tous les enregistrements en même temps.
         OleDbCommand cmd = new OleDbCommand(query, conn);
         IDataReader dataReader = cmd.ExecuteReader();
 
@@ -890,6 +891,7 @@ public void ImageFromBlob()
     }
 
     doc.Save(ArtifactsDir + "MailMergeEvent.ImageFromBlob.docx");
+}
 
 private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 {
@@ -899,7 +901,7 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
     }
 
     /// <summary>
-    /// Ceci est appelé lorsqu'un publipostage rencontre un MERGEFIELD dans le document avec une balise "Image :" dans son nom.
+    /// Ceci est appelé lorsqu'un publipostage rencontre un MERGEFIELD dans le document avec une balise "Image:" dans son nom.
     /// </summary>
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs e)
     {

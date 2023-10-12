@@ -1,14 +1,14 @@
 ---
 title: FontSourceBase.WarningCallback
 second_title: Aspose.Words for .NET API Referansı
-description: FontSourceBase mülk. Biçimlendirme aslına uygunluk kaybına neden olabilecek bir sorun algılandığında yazı tipi kaynağının işlenmesi sırasında çağrılır.
+description: FontSourceBase mülk. Yazı tipi kaynağının işlenmesi sırasında biçimlendirmenin aslına uygunluk kaybına yol açabilecek bir sorun algılandığında çağrılır.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fonts/fontsourcebase/warningcallback/
 ---
 ## FontSourceBase.WarningCallback property
 
-Biçimlendirme aslına uygunluk kaybına neden olabilecek bir sorun algılandığında yazı tipi kaynağının işlenmesi sırasında çağrılır.
+Yazı tipi kaynağının işlenmesi sırasında, biçimlendirmenin aslına uygunluk kaybına yol açabilecek bir sorun algılandığında çağrılır.
 
 ```csharp
 public IWarningCallback WarningCallback { get; set; }
@@ -16,10 +16,9 @@ public IWarningCallback WarningCallback { get; set; }
 
 ### Örnekler
 
-Yazı tipi kaynakları ile çalışırken uyarının nasıl geri çağrılacağını gösterir.
+Yazı tipi kaynaklarıyla çalışırken uyarı geri aramasının nasıl çağrılacağını gösterir.
 
 ```csharp
-[Test]
 public void FontSourceWarning()
 {
     FontSettings settings = new FontSettings();
@@ -29,7 +28,7 @@ public void FontSourceWarning()
     FontSourceWarningCollector callback = new FontSourceWarningCollector();
     source.WarningCallback = callback;
 
-    // Uyarıyı geri çağırmak için yazı tiplerinin listesini alın.
+    // Uyarı geri aramasını çağıracak yazı tiplerinin listesini alın.
     IList<PhysicalFontInfo> fontInfos = source.GetAvailableFonts();
 
     Assert.True(callback.FontSubstitutionWarnings[0].Description
@@ -39,7 +38,7 @@ public void FontSourceWarning()
 private class FontSourceWarningCollector : IWarningCallback
 {
     /// <summary>
-    /// Font kaynağının işlenmesi sırasında her uyarı oluştuğunda çağrılır.
+    /// Yazı tipi kaynağının işlenmesi sırasında her uyarı oluştuğunda çağrılır.
     /// </summary>
     public void Warning(WarningInfo info)
     {

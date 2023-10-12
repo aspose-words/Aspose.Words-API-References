@@ -3,12 +3,14 @@ title: Class ChartNumberFormat
 second_title: Справочник по API Aspose.Words для .NET
 description: Aspose.Words.Drawing.Charts.ChartNumberFormat сорт. Представляет числовое форматирование родительского элемента.
 type: docs
-weight: 720
+weight: 770
 url: /ru/net/aspose.words.drawing.charts/chartnumberformat/
 ---
 ## ChartNumberFormat class
 
 Представляет числовое форматирование родительского элемента.
+
+Чтобы узнать больше, посетите[Работа с диаграммами](https://docs.aspose.com/words/net/working-with-charts/) статья документации.
 
 ```csharp
 public class ChartNumberFormat
@@ -32,19 +34,19 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Column, 500, 300);
 Chart chart = shape.Chart;
 
-// Очистить серию демонстрационных данных диаграммы, чтобы начать с чистой диаграммы.
+// Очистите ряд демонстрационных данных диаграммы, чтобы начать с чистой диаграммы.
 chart.Series.Clear();
 
-// Добавляем на диаграмму пользовательский ряд с категориями по оси X,
+// Добавляем на диаграмму пользовательскую серию с категориями по оси X,
  // и большие соответствующие числовые значения для оси Y.
 chart.Series.Add("Aspose Test Series",
     new [] { "Word", "PDF", "Excel", "GoogleDocs", "Note" },
     new double[] { 1900000, 850000, 2100000, 600000, 1500000 });
 
- // Установите числовой формат меток деления оси Y, чтобы не группировать цифры запятыми.
+ // Установите числовой формат меток деления оси Y, чтобы цифры не группировались с запятыми.
 chart.AxisY.NumberFormat.FormatCode = "#,##0";
 
-// Этот флаг может переопределить указанное выше значение и вывести числовой формат из исходной ячейки.
+// Этот флаг может переопределить указанное выше значение и получить числовой формат из исходной ячейки.
 Assert.False(chart.AxisY.NumberFormat.IsLinkedToSource);
 
 doc.Save(ArtifactsDir + "Charts.SetNumberFormatToChartAxis.docx");

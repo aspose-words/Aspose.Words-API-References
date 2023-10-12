@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.InsertTextInput
 second_title: Aspose.Words لمراجع .NET API
-description: DocumentBuilder طريقة. يُدرج حقل نموذج نصي في الموضع الحالي.
+description: DocumentBuilder طريقة. إدراج حقل نموذج نصي في الموضع الحالي.
 type: docs
-weight: 450
+weight: 480
 url: /ar/net/aspose.words/documentbuilder/inserttextinput/
 ---
 ## DocumentBuilder.InsertTextInput method
 
-يُدرج حقل نموذج نصي في الموضع الحالي.
+إدراج حقل نموذج نصي في الموضع الحالي.
 
 ```csharp
 public FormField InsertTextInput(string name, TextFormFieldType type, string format, 
@@ -18,10 +18,10 @@ public FormField InsertTextInput(string name, TextFormFieldType type, string for
 | معامل | يكتب | وصف |
 | --- | --- | --- |
 | name | String | اسم حقل النموذج. يمكن أن تكون سلسلة فارغة. |
-| type | TextFormFieldType | يحدد نوع حقل نموذج النص. |
+| type | TextFormFieldType | يحدد نوع حقل النموذج النصي. |
 | format | String | سلسلة التنسيق المستخدمة لتنسيق قيمة حقل النموذج. |
-| fieldValue | String | النص الذي سيظهر في الحقل. |
-| maxLength | Int32 | أقصى طول يمكن للمستخدم إدخاله في حقل النموذج. اضبط على صفر لطول غير محدود. |
+| fieldValue | String | النص الذي سيتم عرضه في هذا المجال. |
+| maxLength | Int32 | الحد الأقصى للطول الذي يمكن للمستخدم إدخاله في حقل النموذج. اضبط على الصفر لمدة غير محدودة. |
 
 ### قيمة الإرجاع
 
@@ -29,7 +29,7 @@ public FormField InsertTextInput(string name, TextFormFieldType type, string for
 
 ### ملاحظات
 
-إذا قمت بتحديد اسم لحقل النموذج ، فسيتم إنشاء إشارة مرجعية تلقائيًا بنفس الاسم.
+إذا قمت بتحديد اسم لحقل النموذج، فسيتم إنشاء إشارة مرجعية تلقائيًا بنفس الاسم.
 
 ### أمثلة
 
@@ -39,13 +39,13 @@ public FormField InsertTextInput(string name, TextFormFieldType type, string for
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أدخل نموذجًا يطالب المستخدم بإدخال نص.
+// أدخل نموذجًا يطالب المستخدم بإدخال النص.
 builder.InsertTextInput("TextInput", TextFormFieldType.Regular, "", "Enter your text here", 0);
 
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertTextInput.docx");
 ```
 
-يوضح كيفية إدراج حقل نموذج إدخال نص.
+يوضح كيفية إدراج حقل نموذج إدخال النص.
 
 ```csharp
 Document doc = new Document();
@@ -53,12 +53,12 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("Please enter text here: ");
 
-// أدخل حقل إدخال النص ، والذي سيسمح للمستخدم بالنقر فوقه وإدخال النص.
-// تعيين نص عنصر نائب يمكن للمستخدم الكتابة فوقه وتمريره
-// الحد الأقصى لطول النص 0 لعدم تطبيق أي حد على محتويات حقل النموذج.
+// أدخل حقل إدخال النص، والذي سيسمح للمستخدم بالنقر فوقه وإدخال النص.
+// قم بتعيين بعض نص العنصر النائب الذي يمكن للمستخدم الكتابة فوقه وتمريره
+// الحد الأقصى لطول النص هو 0 لتطبيق أي حد على محتويات حقل النموذج.
 builder.InsertTextInput("TextInput1", TextFormFieldType.Regular, "", "Placeholder text", 0);
 
-// سيظهر حقل النموذج في شكل علامة html "إدخال" ، بنوع من "النص".
+// سيظهر حقل النموذج على شكل علامة html "إدخال"، بنوع "نص".
 doc.Save(ArtifactsDir + "FormFields.TextInput.html");
 ```
 
@@ -68,12 +68,12 @@ doc.Save(ArtifactsDir + "FormFields.TextInput.html");
 DocumentBuilder builder = new DocumentBuilder();
 
 // حقول النموذج هي كائنات في المستند يمكن للمستخدم التفاعل معها من خلال مطالبته بإدخال القيم.
-// يمكننا إنشاؤها باستخدام أداة إنشاء المستندات ، وفيما يلي طريقتان للقيام بذلك.
-// 1 - الإدخال الأساسي للنص:
+// يمكننا إنشاؤها باستخدام أداة إنشاء المستندات، وفيما يلي طريقتان للقيام بذلك.
+// 1 - إدخال النص الأساسي:
 builder.InsertTextInput("My text input", TextFormFieldType.Regular, 
     "", "Enter your name here", 30);
 
-// 2 - مربع تحرير وسرد مع نص موجه ومجموعة من القيم الممكنة:
+// 2 - مربع تحرير وسرد يحتوي على نص موجه ونطاق من القيم المحتملة:
 string[] items =
 {
     "-- Select your favorite footwear --", "Sneakers", "Oxfords", "Flip-flops", "Other"

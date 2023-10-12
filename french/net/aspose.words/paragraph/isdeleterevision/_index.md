@@ -1,14 +1,14 @@
 ---
 title: Paragraph.IsDeleteRevision
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Paragraph propriété. Renvoie true si cet objet a été supprimé dans Microsoft Word alors que le suivi des modifications était activé.
+description: Paragraph propriété. Renvoie vrai si cet objet a été supprimé dans Microsoft Word alors que le suivi des modifications était activé.
 type: docs
 weight: 40
 url: /fr/net/aspose.words/paragraph/isdeleterevision/
 ---
 ## Paragraph.IsDeleteRevision property
 
-Renvoie true si cet objet a été supprimé dans Microsoft Word alors que le suivi des modifications était activé.
+Renvoie vrai si cet objet a été supprimé dans Microsoft Word alors que le suivi des modifications était activé.
 
 ```csharp
 public bool IsDeleteRevision { get; }
@@ -28,14 +28,14 @@ body.AppendParagraph("Paragraph 2. ");
 body.AppendParagraph("Paragraph 3. ");
 
 // Les paragraphes ci-dessus ne sont pas des révisions.
-// Les paragraphes que nous ajoutons après le démarrage du suivi des révisions seront enregistrés en tant que révisions "Insérer".
+// Les paragraphes que nous ajoutons après avoir démarré le suivi des révisions seront enregistrés comme révisions "Insérer".
 doc.StartTrackRevisions("John Doe", DateTime.Now);
 
 para = body.AppendParagraph("Paragraph 4. ");
 
 Assert.True(para.IsInsertRevision);
 
-// Les paragraphes que nous supprimons après avoir démarré le suivi des révisions seront enregistrés en tant que révisions "Supprimer".
+// Les paragraphes que nous supprimons après avoir démarré le suivi des révisions seront enregistrés comme révisions "Supprimer".
 ParagraphCollection paragraphs = body.Paragraphs;
 
 Assert.AreEqual(4, paragraphs.Count);
@@ -43,7 +43,7 @@ Assert.AreEqual(4, paragraphs.Count);
 para = paragraphs[2];
 para.Remove();
 
-// Ces paragraphes resteront jusqu'à ce que nous acceptions ou rejetions la révision de suppression.
+// Ces paragraphes resteront jusqu'à ce que nous acceptions ou rejetions la révision supprimée.
 // Accepter la révision supprimera définitivement le paragraphe,
 // et rejeter la révision la laissera dans le document comme si nous ne l'avions jamais supprimée.
 Assert.AreEqual(4, paragraphs.Count);

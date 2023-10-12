@@ -1,14 +1,14 @@
 ---
 title: PageSavingArgs.PageStream
 second_title: Aspose.Words per .NET API Reference
-description: PageSavingArgs proprietà. Consente di specificare lo stream in cui verrà salvata la pagina del documento.
+description: PageSavingArgs proprietà. Permette di specificare lo stream in cui verrà salvata la pagina del documento.
 type: docs
 weight: 50
 url: /it/net/aspose.words.saving/pagesavingargs/pagestream/
 ---
 ## PageSavingArgs.PageStream property
 
-Consente di specificare lo stream in cui verrà salvata la pagina del documento.
+Permette di specificare lo stream in cui verrà salvata la pagina del documento.
 
 ```csharp
 public Stream PageStream { get; set; }
@@ -16,15 +16,15 @@ public Stream PageStream { get; set; }
 
 ### Osservazioni
 
-Questa proprietà consente di salvare le pagine del documento negli stream anziché nei file.
+Questa proprietà consente di salvare le pagine del documento in flussi anziché in file.
 
-Il valore predefinito è`nullo` . Quando questa proprietà è`nullo` la pagina del documento verrà salvata in un file specificato in[`PageFileName`](../pagefilename/) proprietà.
+Il valore predefinito è`nullo` . Quando questa proprietà è`nullo` , la pagina del documento verrà salvata in un file specificato nel file[`PageFileName`](../pagefilename/) proprietà.
 
-Se sono impostati sia PageStream che PageFileName, verrà utilizzato PageStream.
+Se entrambi`PageStream` E[`PageFileName`](../pagefilename/) sono impostati, verrà utilizzato PageStream.
 
 ### Esempi
 
-Mostra come utilizzare una richiamata per salvare un documento in HTML pagina per pagina.
+Mostra come utilizzare un callback per salvare un documento in HTML pagina per pagina.
 
 ```csharp
 public void PageFileNames()
@@ -44,7 +44,7 @@ public void PageFileNames()
     HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions();
 
     // Salveremo ogni pagina di questo documento in un file HTML separato nel file system locale.
-    // Imposta un callback che ci permetta di denominare ogni documento HTML di output.
+    // Imposta un callback che ci permette di nominare ogni documento HTML di output.
     htmlFixedSaveOptions.PageSavingCallback = new CustomFileNamePageSavingCallback();
 
     doc.Save(ArtifactsDir + "SavingCallback.PageFileNames.html", htmlFixedSaveOptions);
@@ -56,7 +56,7 @@ public void PageFileNames()
 }
 
 /// <summary>
-/// Salva tutte le pagine in un file e in una directory specificati all'interno.
+/// Salva tutte le pagine in un file e in una directory specificata all'interno.
 /// </summary>
 private class CustomFileNamePageSavingCallback : IPageSavingCallback
 {
@@ -65,10 +65,10 @@ private class CustomFileNamePageSavingCallback : IPageSavingCallback
         string outFileName = $"{ArtifactsDir}SavingCallback.PageFileNames.Page_{args.PageIndex}.html";
 
         // Di seguito sono riportati due modi per specificare dove Aspose.Words salverà ogni pagina del documento.
-        // 1 - Imposta un nome file per il file di pagina di output:
+        // 1 - Imposta un nome file per il file della pagina di output:
         args.PageFileName = outFileName;
 
-        // 2 - Crea un flusso personalizzato per il file di pagina di output:
+        // 2 - Crea un flusso personalizzato per il file della pagina di output:
         args.PageStream = new FileStream(outFileName, FileMode.Create);
 
         Assert.False(args.KeepPageStreamOpen);

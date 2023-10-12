@@ -1,14 +1,16 @@
 ---
 title: Class VariableCollection
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.VariableCollection فصل. مجموعة من متغيرات المستند.
+description: Aspose.Words.VariableCollection فصل. مجموعة من متغيرات الوثيقة.
 type: docs
-weight: 6230
+weight: 6530
 url: /ar/net/aspose.words/variablecollection/
 ---
 ## VariableCollection class
 
-مجموعة من متغيرات المستند.
+مجموعة من متغيرات الوثيقة.
+
+لمعرفة المزيد، قم بزيارة[العمل مع خصائص الوثيقة](https://docs.aspose.com/words/net/work-with-document-properties/) مقالة توثيقية.
 
 ```csharp
 public class VariableCollection : IEnumerable<KeyValuePair<string, string>>
@@ -19,23 +21,23 @@ public class VariableCollection : IEnumerable<KeyValuePair<string, string>>
 | اسم | وصف |
 | --- | --- |
 | [Count](../../aspose.words/variablecollection/count/) { get; } | الحصول على عدد العناصر الموجودة في المجموعة. |
-| [Item](../../aspose.words/variablecollection/item/) { get; set; } | الحصول على متغير مستند أو تعيينه حسب الاسم غير الحساس لحالة الأحرف. _ القيم الفارغة غير مسموح بها كجانب يمين من المهمة وسيتم استبدالها بسلسلة فارغة. (2 indexers) |
+| [Item](../../aspose.words/variablecollection/item/) { get; set; } | الحصول على متغير مستند أو تعيينه باستخدام اسم غير حساس لحالة الأحرف. `باطل` لا يُسمح بالقيم في الجانب الأيمن من المهمة وسيتم استبدالها بسلسلة فارغة. (2 indexers) |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [Add](../../aspose.words/variablecollection/add/)(string, string) | يضيف متغير مستند إلى المجموعة. |
-| [Clear](../../aspose.words/variablecollection/clear/)() | يزيل كل العناصر من المجموعة. |
-| [Contains](../../aspose.words/variablecollection/contains/)(string) | لتحديد ما إذا كانت المجموعة تحتوي على متغير مستند بالاسم المحدد. |
-| [GetEnumerator](../../aspose.words/variablecollection/getenumerator/)() | إرجاع كائن العداد الذي يمكن استخدامه للتكرار على جميع المتغيرات في المجموعة. |
+| [Add](../../aspose.words/variablecollection/add/)(string, string) | إضافة متغير مستند إلى المجموعة. |
+| [Clear](../../aspose.words/variablecollection/clear/)() | إزالة كافة العناصر من المجموعة. |
+| [Contains](../../aspose.words/variablecollection/contains/)(string) | تحديد ما إذا كانت المجموعة تحتوي على متغير مستند بالاسم المحدد. |
+| [GetEnumerator](../../aspose.words/variablecollection/getenumerator/)() | يُرجع كائن العداد الذي يمكن استخدامه للتكرار على كافة المتغيرات في المجموعة. |
 | [IndexOfKey](../../aspose.words/variablecollection/indexofkey/)(string) | إرجاع الفهرس الصفري لمتغير المستند المحدد في المجموعة. |
-| [Remove](../../aspose.words/variablecollection/remove/)(string) | يزيل متغير مستند بالاسم المحدد من المجموعة. |
-| [RemoveAt](../../aspose.words/variablecollection/removeat/)(int) | يزيل متغير مستند في الفهرس المحدد. |
+| [Remove](../../aspose.words/variablecollection/remove/)(string) | إزالة متغير مستند بالاسم المحدد من المجموعة. |
+| [RemoveAt](../../aspose.words/variablecollection/removeat/)(int) | إزالة متغير مستند في الفهرس المحدد. |
 
 ### ملاحظات
 
-أسماء المتغيرات والقيم هي سلاسل.
+أسماء وقيم المتغيرات هي سلاسل.
 
 أسماء المتغيرات غير حساسة لحالة الأحرف.
 
@@ -47,14 +49,14 @@ public class VariableCollection : IEnumerable<KeyValuePair<string, string>>
 Document doc = new Document();
 VariableCollection variables = doc.Variables;
 
-// يحتوي كل مستند على مجموعة من متغيرات زوج المفتاح / القيمة ، والتي يمكننا إضافة عناصر إليها.
+// يحتوي كل مستند على مجموعة من متغيرات زوج المفتاح/القيمة، والتي يمكننا إضافة عناصر إليها.
 variables.Add("Home address", "123 Main St.");
 variables.Add("City", "London");
 variables.Add("Bedrooms", "3");
 
 Assert.AreEqual(3, variables.Count);
 
-// يمكننا عرض قيم المتغيرات في نص المستند باستخدام حقول DOCVARIABLE.
+// يمكننا عرض قيم المتغيرات في نص الوثيقة باستخدام حقول DOCVARIABLE.
 DocumentBuilder builder = new DocumentBuilder(doc);
 FieldDocVariable field = (FieldDocVariable)builder.InsertField(FieldType.FieldDocVariable, true);
 field.VariableName = "Home address";
@@ -62,7 +64,7 @@ field.Update();
 
 Assert.AreEqual("123 Main St.", field.Result);
 
-// سيؤدي تعيين قيم للمفاتيح الموجودة إلى تحديثها.
+// سيؤدي تعيين القيم للمفاتيح الموجودة إلى تحديثها.
 variables.Add("Home address", "456 Queen St.");
 
 // سيتعين علينا بعد ذلك تحديث حقول DOCVARIABLE للتأكد من أنها تعرض قيمة محدثة.
@@ -72,21 +74,21 @@ field.Update();
 
 Assert.AreEqual("456 Queen St.", field.Result);
 
-// تحقق من وجود متغيرات المستند باسم أو قيمة معينة.
+// التحقق من وجود متغيرات المستند ذات اسم أو قيمة معينة.
 Assert.True(variables.Contains("City"));
 Assert.True(variables.Any(v => v.Value == "London"));
 
-// تقوم مجموعة المتغيرات تلقائيًا بفرز المتغيرات أبجديًا بالاسم.
+// تقوم مجموعة المتغيرات بفرز المتغيرات أبجديًا حسب الاسم تلقائيًا.
 Assert.AreEqual(0, variables.IndexOfKey("Bedrooms"));
 Assert.AreEqual(1, variables.IndexOfKey("City"));
 Assert.AreEqual(2, variables.IndexOfKey("Home address"));
 
-// عد على مجموعة المتغيرات.
+// تعداد مجموعة المتغيرات.
 using (IEnumerator<KeyValuePair<string, string>> enumerator = doc.Variables.GetEnumerator())
     while (enumerator.MoveNext())
         Console.WriteLine($"Name: {enumerator.Current.Key}, Value: {enumerator.Current.Value}");
 
-// فيما يلي ثلاث طرق لإزالة متغيرات المستند من مجموعة.
+// فيما يلي ثلاث طرق لإزالة متغيرات المستند من المجموعة.
 // 1 - بالاسم:
 variables.Remove("City");
 
@@ -97,7 +99,7 @@ variables.RemoveAt(1);
 
 Assert.False(variables.Contains("Home address"));
 
-// 3 - امسح المجموعة بأكملها مرة واحدة:
+// 3 - مسح المجموعة بأكملها مرة واحدة:
 variables.Clear();
 
 Assert.That(variables, Is.Empty);

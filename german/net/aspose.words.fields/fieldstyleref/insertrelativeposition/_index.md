@@ -25,8 +25,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 // Erstellen Sie eine Liste basierend auf einer Microsoft Word-Listenvorlage.
 Aspose.Words.Lists.List list = doc.Lists.Add(Aspose.Words.Lists.ListTemplate.NumberDefault);
 
-// Diese generierte Liste zeigt "1.a )" an.
- // Das Leerzeichen vor der Klammer ist kein Trennzeichen, das wir unterdrücken können.
+// Diese generierte Liste zeigt „1.a)“ an.
+ // Das Leerzeichen vor der Klammer ist ein Zeichen ohne Trennzeichen, das wir unterdrücken können.
 list.ListLevels[0].NumberFormat = "\x0000.";
 list.ListLevels[1].NumberFormat = "\x0001 )";
 
@@ -42,12 +42,12 @@ builder.Writeln("Item 3");
 builder.ListFormat.RemoveNumbers();
 builder.ParagraphFormat.Style = doc.Styles["Normal"];
 
-// Platziere ein STYLEREF-Feld in der Kopfzeile und zeige den ersten Text im "Listenabsatz"-Stil im Dokument an.
+// Platzieren Sie ein STYLEREF-Feld in der Kopfzeile und zeigen Sie den ersten Text im „List Paragraph“-Stil im Dokument an.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 FieldStyleRef field = (FieldStyleRef)builder.InsertField(FieldType.FieldStyleRef, true);
 field.StyleName = "List Paragraph";
 
-// Platziere ein STYLEREF-Feld in der Fußzeile und lasse es den letzten Text anzeigen.
+// Platzieren Sie ein STYLEREF-Feld in der Fußzeile und lassen Sie den letzten Text anzeigen.
 builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
 field = (FieldStyleRef)builder.InsertField(FieldType.FieldStyleRef, true);
 field.StyleName = "List Paragraph";
@@ -55,7 +55,7 @@ field.SearchFromBottom = true;
 
 builder.MoveToDocumentEnd();
 
-// Wir können auch STYLEREF-Felder verwenden, um auf die Listennummern von Listen zu verweisen.
+// Wir können STYLEREF-Felder auch verwenden, um auf die Listennummern von Listen zu verweisen.
 builder.Write("\nParagraph number: ");
 field = (FieldStyleRef)builder.InsertField(FieldType.FieldStyleRef, true);
 field.StyleName = "Quote";
@@ -77,6 +77,7 @@ field.StyleName = "Quote";
 field.InsertParagraphNumberInFullContext = true;
 field.SuppressNonDelimiters = true;
 
+doc.UpdatePageLayout();
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "Field.STYLEREF.docx");
 ```

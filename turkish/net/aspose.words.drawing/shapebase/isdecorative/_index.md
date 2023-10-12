@@ -1,14 +1,14 @@
 ---
 title: ShapeBase.IsDecorative
 second_title: Aspose.Words for .NET API Referansı
-description: ShapeBase mülk. Şeklin belgede dekoratif olup olmadığını belirten bayrağı alır veya ayarlar.
+description: ShapeBase mülk. Belgedeki şeklin dekoratif olup olmadığını belirten bayrağı alır veya ayarlar.
 type: docs
-weight: 230
+weight: 240
 url: /tr/net/aspose.words.drawing/shapebase/isdecorative/
 ---
 ## ShapeBase.IsDecorative property
 
-Şeklin belgede dekoratif olup olmadığını belirten bayrağı alır veya ayarlar.
+Belgedeki şeklin dekoratif olup olmadığını belirten bayrağı alır veya ayarlar.
 
 ```csharp
 public bool IsDecorative { get; set; }

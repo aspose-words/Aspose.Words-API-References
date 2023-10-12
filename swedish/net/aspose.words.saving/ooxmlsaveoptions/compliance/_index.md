@@ -87,7 +87,7 @@ Assert.AreEqual(ShapeMarkupLanguage.Vml, ((Shape)doc.GetChild(NodeType.Shape, 0,
 
 // OOXML-standarden "ISO/IEC 29500:2008" stöder inte VML-former.
 // Om vi ställer in egenskapen "Compliance" för SaveOptions-objektet till "OoxmlCompliance.Iso29500_2008_Strict",
-  // alla dokument vi sparar när vi skickar detta objekt måste följa den standarden.
+ // alla dokument vi sparar när vi skickar detta objekt måste följa den standarden.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions
 {
     Compliance = OoxmlCompliance.Iso29500_2008_Strict,

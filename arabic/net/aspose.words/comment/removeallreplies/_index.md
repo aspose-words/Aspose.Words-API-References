@@ -3,7 +3,7 @@ title: Comment.RemoveAllReplies
 second_title: Aspose.Words لمراجع .NET API
 description: Comment طريقة. يزيل كافة الردود على هذا التعليق.
 type: docs
-weight: 130
+weight: 160
 url: /ar/net/aspose.words/comment/removeallreplies/
 ---
 ## Comment.RemoveAllReplies method
@@ -16,11 +16,11 @@ public void RemoveAllReplies()
 
 ### ملاحظات
 
-سيتم حذف جميع العقد المكونة للردود من المستند.
+سيتم حذف كافة العقد المكونة للردود من المستند.
 
 ### أمثلة
 
-يوضح كيفية إزالة ردود التعليق.
+يوضح كيفية إزالة ردود التعليقات.
 
 ```csharp
 Document doc = new Document();
@@ -35,13 +35,13 @@ comment.AddReply("Joe Bloggs", "J.B.", DateTime.Now, "Another reply");
 
 Assert.AreEqual(2, comment.Replies.Count()); 
 
-// فيما يلي طريقتان لإزالة الردود من تعليق.
-// 1 - استخدم طريقة "RemoveReply" لإزالة الردود من تعليق بشكل فردي:
+// فيما يلي طريقتان لإزالة الردود من التعليق.
+// 1 - استخدم طريقة "RemoveReply" لإزالة الردود من التعليق بشكل فردي:
 comment.RemoveReply(comment.Replies[0]);
 
 Assert.AreEqual(1, comment.Replies.Count());
 
-// 2 - استخدم طريقة "RemoveAllReplies" لإزالة جميع الردود من تعليق مرة واحدة:
+// 2 - استخدم طريقة "RemoveAllReplies" لإزالة كافة الردود من التعليق مرة واحدة:
 comment.RemoveAllReplies();
 
 Assert.AreEqual(0, comment.Replies.Count());

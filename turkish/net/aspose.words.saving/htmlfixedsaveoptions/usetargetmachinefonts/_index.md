@@ -1,14 +1,14 @@
 ---
 title: HtmlFixedSaveOptions.UseTargetMachineFonts
 second_title: Aspose.Words for .NET API Referansı
-description: HtmlFixedSaveOptions mülk. Bayrak belgeyi görüntülemek için hedef makinedeki yazı tiplerinin kullanılması gerekip gerekmediğini gösterir. Bu bayrak true olarak ayarlanırsaFontFormat veExportEmbeddedFontsözelliklerin etkisi yoktur ayrıcaResourceSavingCallback yazı tipleri için tetiklenmedi. Varsayılan yanlıştır.
+description: HtmlFixedSaveOptions mülk. Bayrak belgeyi görüntülemek için hedef makinedeki yazı tiplerinin kullanılması gerekip gerekmediğini belirtir. Bu bayrak olarak ayarlanırsadoğru FontFormat VeExportEmbeddedFonts özelliklerin etkisi yoktur ayrıcaResourceSavingCallback yazı tipleri için tetiklenmez. VarsayılanYANLIŞ .
 type: docs
 weight: 190
 url: /tr/net/aspose.words.saving/htmlfixedsaveoptions/usetargetmachinefonts/
 ---
 ## HtmlFixedSaveOptions.UseTargetMachineFonts property
 
-Bayrak, belgeyi görüntülemek için hedef makinedeki yazı tiplerinin kullanılması gerekip gerekmediğini gösterir. Bu bayrak true olarak ayarlanırsa,[`FontFormat`](../fontformat/) ve[`ExportEmbeddedFonts`](../exportembeddedfonts/)özelliklerin etkisi yoktur, ayrıca[`ResourceSavingCallback`](../resourcesavingcallback/) yazı tipleri için tetiklenmedi. Varsayılan yanlıştır.
+Bayrak, belgeyi görüntülemek için hedef makinedeki yazı tiplerinin kullanılması gerekip gerekmediğini belirtir. Bu bayrak, olarak ayarlanırsa`doğru` ,[`FontFormat`](../fontformat/) Ve[`ExportEmbeddedFonts`](../exportembeddedfonts/) özelliklerin etkisi yoktur, ayrıca[`ResourceSavingCallback`](../resourcesavingcallback/) yazı tipleri için tetiklenmez. Varsayılan:`YANLIŞ` .
 
 ```csharp
 public bool UseTargetMachineFonts { get; set; }
@@ -16,7 +16,7 @@ public bool UseTargetMachineFonts { get; set; }
 
 ### Örnekler
 
-Bir belgeyi HTML'ye kaydederken yazı tiplerinin yalnızca hedef makineden nasıl kullanıldığını gösterir.
+Bir belgeyi HTML'ye kaydederken yazı tiplerinin yalnızca hedef makineden nasıl kullanılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Bullet points with alternative font.docx");

@@ -20,11 +20,11 @@ public List GetListByListId(int listId)
 
 ### Return_Value
 
-Renvoie l'objet liste. Renvoie null si une liste avec l'identifiant spécifié n'a pas été trouvée.
+Renvoie l'objet liste. Retour`nul` si une liste avec l'identifiant spécifié n'a pas été trouvée.
 
 ### Remarques
 
-Vous n'avez normalement pas besoin d'utiliser cette méthode. La plupart du temps, vous appliquez le formatage de liste aux paragraphes simplement en définissant le[`List`](../../listformat/list/) propriété de la[`ListFormat`](../../listformat/) objet.
+Vous n’avez normalement pas besoin d’utiliser cette méthode. La plupart du temps, vous appliquez le formatage de liste aux paragraphes simplement en définissant le[`List`](../../listformat/list/) property du[`ListFormat`](../../listformat/) objet.
 
 ### Exemples
 
@@ -34,11 +34,9 @@ Montre comment vérifier les propriétés du document propriétaire des listes.
 Document doc = new Document();
 
 ListCollection lists = doc.Lists;
-
 Assert.AreEqual(doc, lists.Document);
 
 List list = lists.Add(ListTemplate.BulletDefault);
-
 Assert.AreEqual(doc, list.Document);
 
 Console.WriteLine("Current list count: " + lists.Count);

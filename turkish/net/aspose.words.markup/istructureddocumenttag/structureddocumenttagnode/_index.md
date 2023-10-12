@@ -1,14 +1,14 @@
 ---
 title: IStructuredDocumentTag.StructuredDocumentTagNode
 second_title: Aspose.Words for .NET API Referansı
-description: IStructuredDocumentTag yöntem. Bu arabirimi uygulayan Düğüm nesnesini döndürür.
+description: IStructuredDocumentTag yöntem. Bu arayüzü uygulayan Düğüm nesnesini döndürür.
 type: docs
 weight: 150
 url: /tr/net/aspose.words.markup/istructureddocumenttag/structureddocumenttagnode/
 ---
 ## IStructuredDocumentTag.StructuredDocumentTagNode method
 
-Bu arabirimi uygulayan Düğüm nesnesini döndürür.
+Bu arayüzü uygulayan Düğüm nesnesini döndürür.
 
 ```csharp
 public Node StructuredDocumentTagNode()

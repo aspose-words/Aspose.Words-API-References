@@ -16,30 +16,30 @@ public CssStyleSheetType CssStyleSheetType { get; set; }
 
 ### Bemerkungen
 
-Das Speichern von CSS-Stylesheets in eine externe Datei wird nur beim Speichern in HTML unterstützt. Wenn Sie in eines der Containerformate (EPUB oder MHTML) exportieren und angebenExternal, wird die CSS-Datei in das Ausgabepaket eingekapselt.
+Das Speichern von CSS-Stylesheets in einer externen Datei wird nur beim Speichern in HTML unterstützt. Wenn Sie in eines der Containerformate (EPUB oder MHTML) exportieren und angebenExternal, wird die CSS-Datei in das Ausgabepaket gekapselt.
 
 ### Beispiele
 
-Zeigt, wie Sie mit CSS-Stylesheets arbeiten, die eine HTML-Konvertierung erstellt.
+Zeigt, wie mit CSS-Stylesheets gearbeitet wird, die bei einer HTML-Konvertierung erstellt werden.
 
 ```csharp
 public void ExternalCssFilenames()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
-    // Erstellen Sie ein "HtmlFixedSaveOptions"-Objekt, das wir an die "Save"-Methode des Dokuments übergeben können
+    // Erstellen Sie ein „HtmlFixedSaveOptions“-Objekt, das wir an die „Save“-Methode des Dokuments übergeben können
     // um zu ändern, wie wir das Dokument in HTML konvertieren.
     HtmlSaveOptions options = new HtmlSaveOptions();
 
-    // Legen Sie die Eigenschaft "CssStylesheetType" auf "CssStyleSheetType.External" fest
-    // ein gespeichertes HTML-Dokument mit einer externen CSS-Stylesheet-Datei begleiten.
+    // Setzen Sie die Eigenschaft „CssStylesheetType“ auf „CssStyleSheetType.External“.
+    // ein gespeichertes HTML-Dokument mit einer externen CSS-Stylesheet-Datei ergänzen.
     options.CssStyleSheetType = CssStyleSheetType.External;
 
-    // Im Folgenden finden Sie zwei Möglichkeiten, Verzeichnisse und Dateinamen für Ausgabe-CSS-Stylesheets anzugeben.
-    // 1 - Verwenden Sie die Eigenschaft "CssStyleSheetFileName", um unserem Stylesheet einen Dateinamen zuzuweisen:
+    // Nachfolgend finden Sie zwei Möglichkeiten, Verzeichnisse und Dateinamen für Ausgabe-CSS-Stylesheets anzugeben.
+    // 1 – Verwenden Sie die Eigenschaft „CssStyleSheetFileName“, um unserem Stylesheet einen Dateinamen zuzuweisen:
     options.CssStyleSheetFileName = ArtifactsDir + "SavingCallback.ExternalCssFilenames.css";
 
-    // 2 - Verwenden Sie einen benutzerdefinierten Callback, um unser Stylesheet zu benennen:
+    // 2 – Verwenden Sie einen benutzerdefinierten Rückruf, um unser Stylesheet zu benennen:
     options.CssSavingCallback =
         new CustomCssSavingCallback(ArtifactsDir + "SavingCallback.ExternalCssFilenames.css", true, false);
 
@@ -60,7 +60,7 @@ private class CustomCssSavingCallback : ICssSavingCallback
 
     public void CssSaving(CssSavingArgs args)
     {
-        // Über die Eigenschaft "Document" können wir auf das gesamte Quelldokument zugreifen.
+        // Über die Eigenschaft „Document“ können wir auf das gesamte Quelldokument zugreifen.
         Assert.True(args.Document.OriginalFileName.EndsWith("Rendering.docx"));
 
         args.CssStream = new FileStream(mCssTextFileName, FileMode.Create);

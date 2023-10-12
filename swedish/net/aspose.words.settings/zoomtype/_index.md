@@ -3,7 +3,7 @@ title: Enum ZoomType
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Settings.ZoomType uppräkning. Möjliga värden för hur stort eller litet dokumentet visas på skärmen i Microsoft Word.
 type: docs
-weight: 5680
+weight: 5980
 url: /sv/net/aspose.words.settings/zoomtype/
 ---
 ## ZoomType enumeration

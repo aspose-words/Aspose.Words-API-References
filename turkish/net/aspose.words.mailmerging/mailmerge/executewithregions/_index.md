@@ -1,14 +1,14 @@
 ---
 title: MailMerge.ExecuteWithRegions
 second_title: Aspose.Words for .NET API Referansı
-description: MailMerge yöntem. Adres mektup birleştirme bölgelerine sahip özel bir veri kaynağından adres mektup birleştirme gerçekleştirir.
+description: MailMerge yöntem. Adresmektup birleştirme bölgelerine sahip özel bir veri kaynağından adresmektup birleştirme gerçekleştirir.
 type: docs
 weight: 200
 url: /tr/net/aspose.words.mailmerging/mailmerge/executewithregions/
 ---
 ## ExecuteWithRegions(IMailMergeDataSource) {#executewithregions}
 
-Adres mektup birleştirme bölgelerine sahip özel bir veri kaynağından adres mektup birleştirme gerçekleştirir.
+Adres-mektup birleştirme bölgelerine sahip özel bir veri kaynağından adres-mektup birleştirme gerçekleştirir.
 
 ```csharp
 public void ExecuteWithRegions(IMailMergeDataSource dataSource)
@@ -16,17 +16,17 @@ public void ExecuteWithRegions(IMailMergeDataSource dataSource)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| dataSource | IMailMergeDataSource | Özel adres mektup birleştirme veri kaynağı arabirimini uygulayan bir nesne. |
+| dataSource | IMailMergeDataSource | Özel adres-mektup birleştirme veri kaynağı arayüzünü uygulayan bir nesne. |
 
 ### Notlar
 
-Belgedeki adres mektup birleştirme alanlarını XML dosyası veya iş nesneleri koleksiyonları gibi herhangi bir özel veri kaynağından gelen değerleriyle doldurmak için bu yöntemi kullanın. Şunu uygulayan your kendi sınıfınızı yazmanız gerekir.[`IMailMergeDataSource`](../../imailmergedatasource/) arayüz.
+Belgedeki adres-mektup birleştirme alanlarını XML dosyası veya iş nesneleri koleksiyonları gibi herhangi bir özel veri kaynağından değerleriyle doldurmak için bu yöntemi kullanın. Bunu uygulayan your kendi sınıfını yazmanız gerekir.[`IMailMergeDataSource`](../../imailmergedatasource/) arayüz.
 
-Bu yöntemi yalnızca şu durumlarda kullanabilirsiniz:[`IsBidiTextSupportedOnUpdate`](../../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/)false, yani Sağdan Sola dil (Arapça veya İbranice gibi) uyumluluğuna ihtiyacınız yoktur.
+Bu yöntemi yalnızca şu durumlarda kullanabilirsiniz:[`IsBidiTextSupportedOnUpdate`](../../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/) dır-dir`YANLIŞ`, yani Sağdan Sola dil (Arapça veya İbranice gibi) uyumluluğuna ihtiyacınız yoktur.
 
 ### Örnekler
 
-İç içe adres mektup birleştirme yürütmek için adres mektup birleştirme bölgelerinin nasıl kullanılacağını gösterir.
+İç içe adres-mektup birleştirmeyi yürütmek için adres-mektup birleştirme bölgelerinin nasıl kullanılacağını gösterir.
 
 ```csharp
 public void CustomDataSource()
@@ -34,21 +34,21 @@ public void CustomDataSource()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Normalde, MERGEFIELD'ler adres mektup birleştirme veri kaynağının bir sütununun adını içerir.
-    // Bunun yerine, adres mektup birleştirme bölgesini başlatmak/sonlandırmak için "TableStart:" ve "TableEnd:" öneklerini kullanabiliriz.
-    // Her bölge, önek iki nokta üst üste işaretinden hemen sonraki dizeyle eşleşen bir ada sahip bir tabloya ait olacaktır.
+    // Normalde MERGEFIELD'ler, adres-mektup birleştirme veri kaynağının bir sütununun adını içerir.
+    // Bunun yerine, adres-mektup birleştirme bölgesini başlatmak/sonlandırmak için "TableStart:" ve "TableEnd:" öneklerini kullanabiliriz.
+    // Her bölge, önekin iki nokta üst üste işaretinden hemen sonraki dizeyle eşleşen ada sahip bir tabloya ait olacaktır.
     builder.InsertField(" MERGEFIELD TableStart:Customers");
 
-    // Bu MERGEFIELD'ler, "Müşteriler" tablosunun adres mektup birleştirme bölgesinin içindedir.
-    // Adres mektup birleştirmeyi gerçekleştirdiğimizde, bu alan "Müşteriler" adlı bir veri kaynağındaki satırlardan veri alacaktır.
+    // Bu MERGEFIELD'ler "Müşteriler" tablosunun adres-mektup birleştirme bölgesinin içindedir.
+    // Adres-mektup birleştirme işlemini yaptığımızda bu alan "Müşteriler" adlı bir veri kaynağındaki satırlardan veri alacaktır.
     builder.Write("Full name:\t");
     builder.InsertField(" MERGEFIELD FullName ");
     builder.Write("\nAddress:\t");
     builder.InsertField(" MERGEFIELD Address ");
     builder.Write("\nOrders:\n");
 
-    // "Siparişler" adlı bir veri kaynağı için dış bölge içinde ikinci bir adres mektup birleştirme bölgesi oluşturun.
-    // "Siparişler" veri girişleri, "Müşteriler" veri kaynağı ile çoktan bire bir ilişkiye sahiptir.
+    // "Siparişler" adlı bir veri kaynağı için dış bölge içinde ikinci bir adres-mektup birleştirme bölgesi oluşturun.
+    // "Siparişler" veri girişlerinin "Müşteriler" veri kaynağıyla birebir ilişkisi vardır.
     builder.InsertField(" MERGEFIELD TableStart:Orders");
 
     builder.Write("\tItem name:\t");
@@ -60,7 +60,7 @@ public void CustomDataSource()
     builder.InsertField(" MERGEFIELD TableEnd:Orders");
     builder.InsertField(" MERGEFIELD TableEnd:Customers");
 
-    // Adres mektup birleştirme bölgelerimizle eşleşen adlarla ilgili verileri oluşturun.
+    // Adres-mektup birleştirme bölgelerimizin adlarıyla eşleşen ilgili verileri oluşturun.
     CustomerList customers = new CustomerList();
     customers.Add(new Customer("Thomas Hardy", "120 Hanover Sq., London"));
     customers.Add(new Customer("Paolo Accorti", "Via Monte Bianco 34, Torino"));
@@ -69,7 +69,7 @@ public void CustomDataSource()
     customers[0].Orders.Add(new Order("Rugby World Cup Ball", 1));
     customers[1].Orders.Add(new Order("Rugby World Cup Guide", 1));
 
-    // Veri kaynağınızdan adres mektup birleştirme için, onu IMailMergeDataSource arabirimini uygulayan bir nesneye sarmamız gerekir.
+    // Veri kaynağınızdan adres-mektup birleştirme yapmak için onu IMailMergeDataSource arayüzünü uygulayan bir nesneye sarmalıyız.
     CustomerMailMergeDataSource customersDataSource = new CustomerMailMergeDataSource(customers);
 
     doc.MailMerge.ExecuteWithRegions(customersDataSource);
@@ -78,7 +78,7 @@ public void CustomDataSource()
 }
 
 /// <summary>
-/// Uygulamanızda bir "veri varlığı" sınıfı örneği.
+/// Uygulamanızdaki "veri varlığı" sınıfına bir örnek.
 /// </summary>
 public class Customer
 {
@@ -95,7 +95,7 @@ public class Customer
 }
 
 /// <summary>
-/// "veri" nesnelerinizi içeren bir yazılı koleksiyon örneği.
+/// "Veri" nesnelerinizi içeren yazılı bir koleksiyon örneği.
 /// </summary>
 public class CustomerList : ArrayList
 {
@@ -107,7 +107,7 @@ public class CustomerList : ArrayList
 }
 
 /// <summary>
-/// Uygulamanızdaki bir alt "veri varlığı" sınıfı örneği.
+/// Uygulamanızdaki alt "veri varlığı" sınıfına bir örnek.
 /// </summary>
 public class Order
 {
@@ -122,8 +122,8 @@ public class Order
 }
 
 /// <summary>
-/// Aspose.Words'e izin vermek için uyguladığınız özel bir adres mektup birleştirme veri kaynağı 
-/// Müşteri nesnelerinizden Microsoft Word belgelerine adres mektup birleştirme verileri.
+ /// Aspose.Words'e izin vermek için uyguladığınız özel bir adres-mektup birleştirme veri kaynağı
+/// Müşteri nesnelerinizdeki posta birleştirme verilerini Microsoft Word belgelerine aktarmak için.
 /// </summary>
 public class CustomerMailMergeDataSource : IMailMergeDataSource
 {
@@ -131,12 +131,12 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     {
         mCustomers = customers;
 
-        // Veri kaynağını başlattığımızda, konumu ilk kayıttan önce olmalıdır.
+        // Veri kaynağını başlattığımızda konumu ilk kayıttan önce olmalıdır.
         mRecordIndex = -1;
     }
 
     /// <summary>
-    /// Veri kaynağının adı. Aspose.Words tarafından yalnızca tekrarlanabilir bölgelerle adres mektup birleştirme yürütülürken kullanılır.
+    /// Veri kaynağının adı. Aspose.Words tarafından yalnızca tekrarlanabilir bölgelerle adres-mektup birleştirme yürütülürken kullanılır.
     /// </summary>
     public string TableName
     {
@@ -144,7 +144,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Aspose.Words, her veri alanı için bir değer almak için bu yöntemi çağırır.
+    /// Aspose.Words her veri alanı için bir değer elde etmek amacıyla bu yöntemi çağırır.
     /// </summary>
     public bool GetValue(string fieldName, out object fieldValue)
     {
@@ -160,7 +160,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
                 fieldValue = mCustomers[mRecordIndex].Orders;
                 return true;
             default:
-                // Belirtmek için Aspose.Words adres mektup birleştirme motoruna "false" döndür
+                // Aspose.Words adres-mektup birleştirme motoruna şunu belirtmek için "yanlış" değerini döndürün
                 // bu isimde bir alan bulamadık.
                 fieldValue = null;
                 return false;
@@ -182,7 +182,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     {
         switch (tableName)
         {
-            // Adı sütunlarını kullanan adres mektup birleştirme bölgesiyle eşleşen alt veri kaynağını alın.
+            // Adı, sütunlarını kullanan adres-mektup birleştirme bölgesiyle eşleşen alt veri kaynağını alın.
             case "Orders":
                 return new OrderMailMergeDataSource(mCustomers[mRecordIndex].Orders);
             default:
@@ -205,12 +205,12 @@ public class OrderMailMergeDataSource : IMailMergeDataSource
     {
         mOrders = orders;
 
-        // Veri kaynağını başlattığımızda, konumu ilk kayıttan önce olmalıdır.
+        // Veri kaynağını başlattığımızda konumu ilk kayıttan önce olmalıdır.
         mRecordIndex = -1;
     }
 
     /// <summary>
-    /// Veri kaynağının adı. Aspose.Words tarafından yalnızca tekrarlanabilir bölgelerle adres mektup birleştirme yürütülürken kullanılır.
+    /// Veri kaynağının adı. Aspose.Words tarafından yalnızca tekrarlanabilir bölgelerle adres-mektup birleştirme yürütülürken kullanılır.
     /// </summary>
     public string TableName
     {
@@ -218,7 +218,7 @@ public class OrderMailMergeDataSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Aspose.Words, her veri alanı için bir değer almak için bu yöntemi çağırır.
+    /// Aspose.Words her veri alanı için bir değer elde etmek amacıyla bu yöntemi çağırır.
     /// </summary>
     public bool GetValue(string fieldName, out object fieldValue)
     {
@@ -231,7 +231,7 @@ public class OrderMailMergeDataSource : IMailMergeDataSource
                 fieldValue = mOrders[mRecordIndex].Quantity;
                 return true;
             default:
-                // Belirtmek için Aspose.Words adres mektup birleştirme motoruna "false" döndür
+                // Aspose.Words adres-mektup birleştirme motoruna şunu belirtmek için "yanlış" değerini döndürün
                 // bu isimde bir alan bulamadık.
                 fieldValue = null;
                 return false;
@@ -250,7 +250,7 @@ public class OrderMailMergeDataSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Bu tür nesneler için herhangi bir alt öğemiz olmadığı için null döndürün.
+    /// null değerini döndür çünkü bu tür bir nesne için herhangi bir alt öğemiz yok.
     /// </summary>
     public IMailMergeDataSource GetChildDataSource(string tableName)
     {
@@ -278,7 +278,7 @@ public class OrderMailMergeDataSource : IMailMergeDataSource
 
 ## ExecuteWithRegions(IMailMergeDataSourceRoot) {#executewithregions_1}
 
-Adres mektup birleştirme bölgelerine sahip özel bir veri kaynağından adres mektup birleştirme gerçekleştirir.
+Adres-mektup birleştirme bölgelerine sahip özel bir veri kaynağından adres-mektup birleştirme gerçekleştirir.
 
 ```csharp
 public void ExecuteWithRegions(IMailMergeDataSourceRoot dataSourceRoot)
@@ -286,26 +286,26 @@ public void ExecuteWithRegions(IMailMergeDataSourceRoot dataSourceRoot)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| dataSourceRoot | IMailMergeDataSourceRoot | Özel adres mektup birleştirme veri kaynağı kök arabirimini uygulayan bir nesne. |
+| dataSourceRoot | IMailMergeDataSourceRoot | Özel adres-mektup birleştirme veri kaynağı kök arayüzünü uygulayan bir nesne. |
 
 ### Notlar
 
-Belgedeki adres mektup birleştirme alanlarını XML dosyası veya iş nesneleri koleksiyonları gibi herhangi bir özel veri kaynağından gelen değerleriyle doldurmak için bu yöntemi kullanın. Bunu uygulayan kendi sınıflarınızı yazmanız gerekir.[`IMailMergeDataSourceRoot`](../../imailmergedatasourceroot/) ve[`IMailMergeDataSource`](../../imailmergedatasource/) arayüzler.
+Belgedeki adres-mektup birleştirme alanlarını XML dosyası veya iş nesneleri koleksiyonları gibi herhangi bir özel veri kaynağından değerleriyle doldurmak için bu yöntemi kullanın. Bunu uygulayan kendi class dosyanızı yazmanız gerekir.[`IMailMergeDataSourceRoot`](../../imailmergedatasourceroot/) Ve[`IMailMergeDataSource`](../../imailmergedatasource/) arayüzler.
 
-Bu yöntemi yalnızca şu durumlarda kullanabilirsiniz:[`IsBidiTextSupportedOnUpdate`](../../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/)false, yani Sağdan Sola dil (Arapça veya İbranice gibi) uyumluluğuna ihtiyacınız yoktur.
+Bu yöntemi yalnızca şu durumlarda kullanabilirsiniz:[`IsBidiTextSupportedOnUpdate`](../../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/) dır-dir`YANLIŞ`, yani Sağdan Sola dil (Arapça veya İbranice gibi) uyumluluğuna ihtiyacınız yoktur.
 
 ### Örnekler
 
-Ana ayrıntı verileriyle özel bir veri kaynağından adres mektup birleştirme gerçekleştirir.
+Ana ayrıntı verileriyle özel bir veri kaynağından adres-mektup birleştirme gerçekleştirir.
 
 ```csharp
 public void CustomDataSourceRoot()
 {
-    // "Washington" ve "Seattle" adlı iki adres mektup birleştirme bölgesine sahip bir belge oluşturun.
+    // "Washington" ve "Seattle" adlı iki adres-mektup birleştirme bölgesine sahip bir belge oluşturun.
     string[] mailMergeRegions = { "Vancouver", "Seattle" };
     Document doc = CreateSourceDocumentWithMailMergeRegions(mailMergeRegions);
 
-    // Adres mektup birleştirme için iki veri kaynağı oluşturun.
+    // Adres-mektup birleştirme için iki veri kaynağı oluşturun.
     EmployeeList employeesWashingtonBranch = new EmployeeList();
     employeesWashingtonBranch.Add(new Employee("John Doe", "Sales"));
     employeesWashingtonBranch.Add(new Employee("Jane Doe", "Management"));
@@ -315,22 +315,22 @@ public void CustomDataSourceRoot()
     employeesSeattleBranch.Add(new Employee("Joe Bloggs", "Sales"));
 
     // Veri kaynaklarımızı bir veri kaynağı köküne ada göre kaydedin.
-    // Bu veri kaynağı kökünü bölgelerle adres mektup birleştirmede kullanmak üzereysek,
-    // her kaynağın kayıtlı adı, adres mektup birleştirme kaynak belgesindeki mevcut bir adres mektup birleştirme bölgesinin adıyla eşleşmelidir.
+    // Bu veri kaynağı kökünü bölgelerle adres-mektup birleştirmede kullanmak üzereysek,
+    // her kaynağın kayıtlı adı, adres-mektup birleştirme kaynak belgesindeki mevcut adres-mektup birleştirme bölgesinin adıyla eşleşmelidir.
     DataSourceRoot sourceRoot = new DataSourceRoot();
     sourceRoot.RegisterSource(mailMergeRegions[0], new EmployeeListMailMergeSource(employeesWashingtonBranch));
     sourceRoot.RegisterSource(mailMergeRegions[1], new EmployeeListMailMergeSource(employeesSeattleBranch));
 
-    // Ardışık adres mektup birleştirme bölgelerine sahip olduğumuz için normalde iki adres mektup birleştirme gerçekleştirmemiz gerekir.
-    // Ancak, veri köküne sahip tek bir adres mektup birleştirme kaynağı birden çok bölgeyi doldurabilir
-    // kök, karşılık gelen adlara/sütun adlarına sahip tablolar içeriyorsa.
+    // Ardışık adres-mektup birleştirme bölgelerimiz olduğundan normalde iki adres-mektup birleştirme yapmamız gerekir.
+    // Ancak, veri köküne sahip bir adres-mektup birleştirme kaynağı birden fazla bölgeyi doldurabilir
+    // eğer kök karşılık gelen adlara/sütun adlarına sahip tablolar içeriyorsa.
     doc.MailMerge.ExecuteWithRegions(sourceRoot);
 
     doc.Save(ArtifactsDir + "MailMergeCustom.CustomDataSourceRoot.docx");
 }
 
 /// <summary>
-/// Giriş dizisi tarafından belirlenen adlarla ardışık adres mektup birleştirme bölgelerini içeren bir belge oluşturun,
+/// Giriş dizisi tarafından belirlenen adlarla ardışık adres-mektup birleştirme bölgelerini içeren bir belge oluşturun,
 /// çalışanların veri tablosu için.
 /// </summary>
 private static Document CreateSourceDocumentWithMailMergeRegions(string[] regions)
@@ -352,7 +352,7 @@ private static Document CreateSourceDocumentWithMailMergeRegions(string[] region
 }
 
 /// <summary>
-/// Uygulamanızda bir "veri varlığı" sınıfı örneği.
+/// Uygulamanızdaki "veri varlığı" sınıfına bir örnek.
 /// </summary>
 private class Employee
 {
@@ -367,7 +367,7 @@ private class Employee
 }
 
 /// <summary>
-/// "veri" nesnelerinizi içeren bir yazılı koleksiyon örneği.
+/// "Veri" nesnelerinizi içeren yazılı bir koleksiyon örneği.
 /// </summary>
 private class EmployeeList : ArrayList
 {
@@ -379,9 +379,9 @@ private class EmployeeList : ArrayList
 }
 
 /// <summary>
-/// Birçok alt veri kaynağını kaydedebilen ve içerebilen bir adres mektup birleştirmeye doğrudan aktarılabilen veri kaynağı kökü.
-/// Bu kaynakların tümü IMailMergeDataSource'u uygulamalıdır ve bir adla kaydedilir ve ayırt edilir
-/// ilgili verileri okuyacak bir adres mektup birleştirme bölgesine karşılık gelir.
+/// Birçok alt veri kaynağını kaydedebilen ve içerebilen adres-mektup birleştirmeye doğrudan aktarılabilen veri kaynağı kökü.
+/// Bu kaynakların tümü IMailMergeDataSource'u uygulamalı ve bir adla kaydedilip farklılaştırılmalıdır
+/// ilgili verileri okuyacak adres-mektup birleştirme bölgesine karşılık gelir.
 /// </summary>
 private class DataSourceRoot : IMailMergeDataSourceRoot
 {
@@ -401,7 +401,7 @@ private class DataSourceRoot : IMailMergeDataSourceRoot
 }
 
 /// <summary>
-/// Özel adres mektup birleştirme veri kaynağı.
+/// Özel adres-mektup birleştirme veri kaynağı.
 /// </summary>
 private class EmployeeListMailMergeSource : IMailMergeDataSource
 {
@@ -433,7 +433,7 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Veri kaynağının adı. Aspose.Words tarafından yalnızca tekrarlanabilir bölgelerle adres mektup birleştirme yürütülürken kullanılır.
+    /// Veri kaynağının adı. Aspose.Words tarafından yalnızca tekrarlanabilir bölgelerle adres-mektup birleştirme yürütülürken kullanılır.
     /// </summary>
     public string TableName
     {
@@ -441,7 +441,7 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Aspose.Words, her veri alanı için bir değer almak için bu yöntemi çağırır.
+    /// Aspose.Words her veri alanı için bir değer elde etmek amacıyla bu yöntemi çağırır.
     /// </summary>
     public bool GetValue(string fieldName, out object fieldValue)
     {
@@ -454,7 +454,7 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
                 fieldValue = mEmployees[mRecordIndex].Department;
                 return true;
             default:
-                // Belirtmek için Aspose.Words adres mektup birleştirme motoruna "false" döndür
+                // Aspose.Words adres-mektup birleştirme motoruna şunu belirtmek için "yanlış" değerini döndürün
                 // bu isimde bir alan bulamadık.
                 fieldValue = null;
                 return false;
@@ -462,7 +462,7 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Alt veri kaynakları, iç içe adres mektup birleştirmeleri içindir.
+    /// Alt veri kaynakları iç içe adres-mektup birleştirmeler içindir.
     /// </summary>
     public IMailMergeDataSource GetChildDataSource(string tableName)
     {
@@ -485,7 +485,7 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
 
 ## ExecuteWithRegions(DataSet) {#executewithregions_2}
 
-Bir DataSet'ten adres mektup birleştirme bölgeleri olan bir belgeye adres mektup birleştirme gerçekleştirir.
+Adres-mektup birleştirmeyi bir adresten gerçekleştirir. **Veri Kümesi** adres-mektup birleştirme bölgeleri olan bir belgeye.
 
 ```csharp
 public void ExecuteWithRegions(DataSet dataSet)
@@ -493,55 +493,54 @@ public void ExecuteWithRegions(DataSet dataSet)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| dataSet | DataSet | Adres mektup birleştirme alanlarına eklenecek verileri içeren Veri Kümesi. |
+| dataSet | DataSet | **Veri Kümesi** Adres-mektup birleştirme alanlarına eklenecek verileri içeren. |
 
 ### Notlar
 
-Belgedeki bir veya daha fazla tablodan tekrarlanabilir mail birleştirme bölgelerine adres mektup birleştirme gerçekleştirmek için bu yöntemi kullanın. Belge içindeki adres mektup birleştirme bölgeleri, ilgili tablolardaki kayıtları barındırmak için dinamik olarak büyüyecektir.
+Bir veya daha fazla tablodan belgedeki tekrarlanabilir mail birleştirme bölgelerine adres-mektup birleştirme gerçekleştirmek için bu yöntemi kullanın. Belgenin içindeki adres-mektup birleştirme bölgeleri, karşılık gelen tablolardaki kayıtları barındıracak şekilde dinamik büyüyecektir.
 
-DataSet içindeki her tablonun bir adı olmalıdır.
+Her masada **Veri Kümesi** bir ismi olmalı.
 
-Belgede, Veri Kümesi'ndeki tablolara başvuran adlarla tanımlanmış adres mektup birleştirme bölgeleri olmalıdır.
+Belgenin, tablodaki tablo 'ye başvuran adlarla tanımlanmış adres-mektup birleştirme bölgelerine sahip olması gerekir. **Veri Kümesi**.
 
-Belgede bir adres-mektup birleştirme bölgesi belirtmek için, adres-mektup birleştirme bölgesinin başlangıcını ve sonunu işaretlemek için iki adres-mektup birleştirme alanı eklemeniz gerekir.
+Belgede bir adres-mektup birleştirme bölgesi belirtmek için, adres-mektup birleştirme bölgesinin başlangıcını ve sonunu işaretlemek üzere iki adres-mektup birleştirme alanı eklemeniz gerekir.
 
-Adres mektup birleştirme bölgesinde bulunan tüm belge içeriği, DataTable'daki her kayıt için otomatik olarak yinelenecektir.
+Adres-mektup birleştirme bölgesine dahil edilen tüm belge içeriği, bölgedeki her kayıt için otomatik olarak tekrarlanacaktır. **Veri tablosu**.
 
-Adres mektup birleştirme bölgesinin başlangıcını işaretlemek için TableStart:MyTable, adında bir MERGEFIELD ekleyin; burada MyTable, DataSet'inizdeki tablo adlarından birine karşılık gelir.
+Adres-mektup birleştirme bölgesinin başlangıcını işaretlemek için TableStart:MyTable, adında bir MERGEFIELD ekleyin; burada MyTable, tablonuzdaki tablo adlarından birine karşılık gelir. **Veri Kümesi**.
 
-Adres mektup birleştirme bölgesinin sonunu işaretlemek için TableEnd:MyTable adında başka bir MERGEFIELD ekleyin.
+Adres-mektup birleştirme bölgesinin sonunu işaretlemek için TableEnd:MyTable adında başka bir MERGEFIELD ekleyin.
 
-Word'de bir MERGEFIELD eklemek için Ekle/Alan komutunu kullanın ve MergeField'i seçin, ardından alanın adını yazın.
+Word'e bir MERGEFIELD eklemek için Ekle/Alan komutunu kullanın ve MergeField'ı seçin ve ardından alanın adını yazın.
 
-TableStart ve TableEnd alanları belgenizde aynı bölümün içinde olmalıdır.
+**TabloBaşlangıcı** Ve **Tablo Sonu** alanlar belgenizde aynı bölümün içinde olmalıdır.
 
-Bir tablo içinde kullanılıyorsa, TableStart ve TableEnd tablodaki aynı satırın içinde olmalıdır.
+Bir masanın içinde kullanılıyorsa, **TabloBaşlangıcı** Ve **Tablo Sonu** tabloda aynı satırda olmalıdır.
 
-Bir belgedeki adres mektup birleştirme bölgeleri iyi biçimlendirilmiş olmalıdır (her zaman aynı tablo adına sahip bir çift eşleşen TableStart ve TableEnd birleştirme alanı olması gerekir).
+Bir belgedeki adres-mektup birleştirme bölgeleri iyi biçimlendirilmiş olmalıdır (her zaman bir çift eşleşen olması gerekir) **TabloBaşlangıcı** Ve **Tablo Sonu** aynı tablo adına sahip alanları birleştirin).
 
 ### Örnekler
 
-İki birleştirme bölgesi ve iki veri tablosuyla iç içe adres mektup birleştirmenin nasıl yürütüleceğini gösterir.
+İki birleştirme bölgesi ve iki veri tablosuyla iç içe adres-mektup birleştirmenin nasıl yürütüleceğini gösterir.
 
 ```csharp
-[Test]
 public void ExecuteWithRegionsNested()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Normalde, MERGEFIELD'ler adres mektup birleştirme veri kaynağının bir sütununun adını içerir.
-    // Bunun yerine, adres mektup birleştirme bölgesini başlatmak/sonlandırmak için "TableStart:" ve "TableEnd:" öneklerini kullanabiliriz.
-    // Her bölge, önek iki nokta üst üste işaretinden hemen sonraki dizeyle eşleşen bir ada sahip bir tabloya ait olacaktır.
+    // Normalde MERGEFIELD'ler, adres-mektup birleştirme veri kaynağının bir sütununun adını içerir.
+    // Bunun yerine, adres-mektup birleştirme bölgesini başlatmak/sonlandırmak için "TableStart:" ve "TableEnd:" öneklerini kullanabiliriz.
+    // Her bölge, önekin iki nokta üst üste işaretinden hemen sonraki dizeyle eşleşen ada sahip bir tabloya ait olacaktır.
     builder.InsertField(" MERGEFIELD TableStart:Customers");
 
-    // Bu MERGEFIELD, "Müşteriler" tablosunun adres mektup birleştirme bölgesinin içindedir.
-    // Adres mektup birleştirmeyi gerçekleştirdiğimizde, bu alan "Müşteriler" adlı bir veri kaynağındaki satırlardan veri alacaktır.
+    // Bu MERGEFIELD, "Müşteriler" tablosunun adres-mektup birleştirme bölgesinin içindedir.
+    // Adres-mektup birleştirme işlemini yaptığımızda bu alan "Müşteriler" adlı bir veri kaynağındaki satırlardan veri alacaktır.
     builder.Write("Orders for ");
     builder.InsertField(" MERGEFIELD CustomerName");
     builder.Write(":");
 
-    // İkinci bir iç bölgeden değerler içerecek bir tablo için sütun başlıkları oluşturun.
+    // İkinci bir iç bölgeden değerleri içerecek bir tablo için sütun başlıkları oluşturun.
     builder.StartTable();
     builder.InsertCell();
     builder.Write("Item");
@@ -549,24 +548,24 @@ public void ExecuteWithRegionsNested()
     builder.Write("Quantity");
     builder.EndRow();
 
-    // "Siparişler" adlı bir tablo için dış bölge içinde ikinci bir adres mektup birleştirme bölgesi oluşturun.
-    // "Siparişler" tablosunun "CustomerID" sütunundaki "Customers" tablosuyla çoktan bir ilişkisi vardır.
+    // "Siparişler" adlı tablo için dış bölgenin içinde ikinci bir adres-mektup birleştirme bölgesi oluşturun.
+    // "Siparişler" tablosunun "MüşteriKimliği" sütunundaki "Müşteriler" tablosuyla birebir ilişkisi vardır.
     builder.InsertCell();
     builder.InsertField(" MERGEFIELD TableStart:Orders");
     builder.InsertField(" MERGEFIELD ItemName");
     builder.InsertCell();
     builder.InsertField(" MERGEFIELD Quantity");
 
-    // İç bölgeyi ve ardından dış bölgeyi sonlandırın. Adres mektup birleştirme bölgesinin açılması ve kapanması
-    // bir tablonun aynı satırında gerçekleşir.
+    // İç bölgeyi sonlandırın ve ardından dış bölgeyi sonlandırın. Adres-mektup birleştirme bölgesinin açılması ve kapatılması
+    // tablonun aynı satırında gerçekleşir.
     builder.InsertField(" MERGEFIELD TableEnd:Orders");
     builder.EndTable();
 
     builder.InsertField(" MERGEFIELD TableEnd:Customers");
 
     // Gerekli adlara ve ilişkilere sahip iki tabloyu içeren bir veri kümesi oluşturun.
-    // Dış birleştirme bölgesinin "Müşteriler" tablosunun her satırı için her birleştirme belgesi, adres mektup birleştirmesini "Siparişler" tablosunda gerçekleştirir.
-    // Her bir birleştirme belgesi, "CustomerID" sütun değerleri geçerli "Customers" tablo satırıyla eşleşen ikinci tablonun tüm satırlarını görüntüler.
+    // Dış birleştirme bölgesinin "Müşteriler" tablosunun her satırı için her birleştirme belgesi, adres-mektup birleştirme işlemini "Siparişler" tablosunda gerçekleştirecektir.
+    // Her birleştirme belgesi, "MüşteriKimliği" sütun değerleri geçerli "Müşteriler" tablosu satırıyla eşleşen ikinci tablonun tüm satırlarını görüntüler.
     DataSet customersAndOrders = CreateDataSet();
     doc.MailMerge.ExecuteWithRegions(customersAndOrders);
 
@@ -574,7 +573,7 @@ public void ExecuteWithRegionsNested()
 }
 
 /// <summary>
-/// "Customers" ve "Siparişler" adlı iki veri tablosuna sahip, "CustomerID" sütununda bire çok ilişkisi olan bir veri kümesi oluşturur.
+/// "Müşteriler" ve "Siparişler" adlı iki veri tablosuna sahip, "MüşteriKimliği" sütununda bire-çok ilişkisi olan bir veri seti oluşturur.
 /// </summary>
 private static DataSet CreateDataSet()
 {
@@ -611,7 +610,7 @@ private static DataSet CreateDataSet()
 
 ## ExecuteWithRegions(DataTable) {#executewithregions_3}
 
-Adres mektup birleştirme bölgeleri olan bir DataTable'dan belgeye adres mektup birleştirme gerçekleştirir.
+Adres-mektup birleştirmeyi bir adresten gerçekleştirir. **Veri tablosu** adres-mektup birleştirme bölgelerinin bulunduğu belgeye.
 
 ```csharp
 public void ExecuteWithRegions(DataTable dataTable)
@@ -619,19 +618,20 @@ public void ExecuteWithRegions(DataTable dataTable)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| dataTable | DataTable | Adres mektup birleştirme işlemi için veri kaynağı. Tablo must sahip olmalıdır **Tablo ismi** özellik kümesi. |
+| dataTable | DataTable | Adres-mektup birleştirme işlemi için veri kaynağı. Tablonun olması gerekirTableName özellik seti. |
 
 ### Notlar
 
-Belgenin, ile eşleşen adla tanımlanmış bir adres mektup birleştirme bölgesine sahip olması gerekir. **DataTable.TableName**.
+Belgenin, ile eşleşen adla tanımlanmış bir adres-mektup birleştirme bölgesine sahip olması gerekirTableName.
 
-Belgede tanımlanmış başka adres mektup birleştirme bölgeleri varsa, bunlar olduğu gibi bırakılır. Bu, birkaç adres mektup birleştirme işleminin gerçekleştirilmesine olanak tanır.
+Belgede tanımlanmış başka adres-mektup birleştirme bölgeleri varsa, bunlar olduğu gibi bırakılır. Bu, birden fazla adres-mektup birleştirme işleminin gerçekleştirilmesine olanak sağlar.
 
 ### Örnekler
 
-Adres mektup birleştirme sırasında hücrelerin nasıl biçimlendirileceğini gösterir.
+Adres-mektup birleştirme sırasında hücrelerin nasıl biçimlendirileceğini gösterir.
 
 ```csharp
+public void AlternatingRows()
 {
     Document doc = new Document(MyDir + "Mail merge destination - Northwind suppliers.docx");
 
@@ -641,21 +641,22 @@ Adres mektup birleştirme sırasında hücrelerin nasıl biçimlendirileceğini 
     doc.MailMerge.ExecuteWithRegions(dataTable);
 
     doc.Save(ArtifactsDir + "MailMergeEvent.AlternatingRows.docx");
+}
 
 /// <summary>
-/// Tablo satırlarını, tek/çift satırlarda iki renk arasında geçiş yapmak için adres mektup birleştirme gerçekleştiğinde biçimlendirir.
+/// Tablo satırlarını, tek/çift satırlarda iki renk arasında geçiş yapmak üzere adres-mektup birleştirme gerçekleştiği için biçimlendirir.
 /// </summary>
 private class HandleMergeFieldAlternatingRows : IFieldMergingCallback
 {
     /// <summary>
-    /// Adres mektup birleştirme verileri bir MERGEFIELD ile birleştirdiğinde çağrılır.
+    /// Adres-mektup birleştirme verileri MERGEFIELD ile birleştirdiğinde çağrılır.
     /// </summary>
     void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)
     {
         if (mBuilder == null)
             mBuilder = new DocumentBuilder(args.Document);
 
-        // Bu, ilk sütunda olduğumuz için doğrudur, bu da yeni bir satıra taşındığımız anlamına gelir.
+        // Bu ilk sütunda olduğumuz için geçerlidir, bu da yeni bir satıra geçtiğimiz anlamına gelir.
         if (args.FieldName == "CompanyName")
         {
             Color rowColor = IsOdd(mRowIdx) ? Color.FromArgb(213, 227, 235) : Color.FromArgb(242, 242, 242);
@@ -680,7 +681,7 @@ private class HandleMergeFieldAlternatingRows : IFieldMergingCallback
 }
 
 /// <summary>
-/// Geçirilen sayının paritesini döndüren Visual Basic otomatik taşıma için gerekli işlev.
+/// Geçirilen sayının eşliğini döndüren Visual Basic otomatik taşıması için gereken işlev.
 /// </summary>
 private static bool IsOdd(int value)
 {
@@ -688,7 +689,7 @@ private static bool IsOdd(int value)
 }
 
 /// <summary>
-/// Adres mektup birleştirme veri kaynağı oluşturur.
+/// Adres-mektup birleştirme veri kaynağı oluşturur.
 /// </summary>
 private static DataTable GetSuppliersDataTable()
 {
@@ -707,31 +708,31 @@ private static DataTable GetSuppliersDataTable()
 }
 ```
 
-Tek bir belgede iki ayrı adres mektup birleştirme yürütmek için bölgelerin nasıl kullanılacağını gösterir.
+Tek bir belgede iki ayrı adres-mektup birleştirmeyi yürütmek için bölgelerin nasıl kullanılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// İki tablodan veri alırken tek bir belge üzerinde iki ardışık adres mektup birleştirme yapmak istiyorsak
-// birbiri ile herhangi bir şekilde ilişkili olan adres mektup birleştirmelerini bölgelere ayırabiliriz.
-// Normalde, MERGEFIELD'ler adres mektup birleştirme veri kaynağının bir sütununun adını içerir.
-// Bunun yerine, adres mektup birleştirme bölgesini başlatmak/sonlandırmak için "TableStart:" ve "TableEnd:" öneklerini kullanabiliriz.
-// Her bölge, önek iki nokta üst üste işaretinden hemen sonraki dizeyle eşleşen bir ada sahip bir tabloya ait olacaktır.
-// Bu bölgeler ilgisiz veriler için ayrıdır, hiyerarşik veriler için yuvalanabilirler.
+// İki tablodan veri alırken tek belge üzerinde ardı ardına iki adres-mektup birleştirme yapmak istiyorsak
+// herhangi bir şekilde birbiriyle ilişkili olan adres-mektup birleştirmeleri bölgelere ayırabiliriz.
+// Normalde MERGEFIELD'ler, adres-mektup birleştirme veri kaynağının bir sütununun adını içerir.
+// Bunun yerine, adres-mektup birleştirme bölgesini başlatmak/sonlandırmak için "TableStart:" ve "TableEnd:" öneklerini kullanabiliriz.
+// Her bölge, önekin iki nokta üst üste işaretinden hemen sonraki dizeyle eşleşen ada sahip bir tabloya ait olacaktır.
+// Bu bölgeler ilgisiz veriler için ayrıdır, hiyerarşik veriler için ise iç içe yerleştirilebilir.
 builder.Writeln("\tCities: ");
 builder.InsertField(" MERGEFIELD TableStart:Cities");
 builder.InsertField(" MERGEFIELD Name");
 builder.InsertField(" MERGEFIELD TableEnd:Cities");
 builder.InsertParagraph();
 
-// Her iki MERGEFIELD aynı sütun adına atıfta bulunur, ancak her birinin değerleri farklı veri tablolarından gelecektir.
+// Her iki MERGEFIELD aynı sütun adını ifade eder, ancak her birinin değerleri farklı veri tablolarından gelecektir.
 builder.Writeln("\tFruit: ");
 builder.InsertField(" MERGEFIELD TableStart:Fruit");
 builder.InsertField(" MERGEFIELD Name");
 builder.InsertField(" MERGEFIELD TableEnd:Fruit");
 
-// Birbiriyle alakasız iki veri tablosu oluşturun.
+//İki ilgisiz veri tablosu oluşturun.
 DataTable tableCities = new DataTable("Cities");
 tableCities.Columns.Add("Name");
 tableCities.Rows.Add(new object[] { "Washington" });
@@ -745,12 +746,12 @@ tableFruit.Rows.Add(new object[] { "Apple" });
 tableFruit.Rows.Add(new object[] { "Watermelon" });
 tableFruit.Rows.Add(new object[] { "Banana" });
 
-// Tablo başına bir adres mektup birleştirme çalıştırmamız gerekecek. İlk adres mektup birleştirme MERGEFIELD'leri dolduracak
-// "Şehirler" aralığında, "Meyve" alanını boş bırakırken.
+// Tablo başına bir adres-mektup birleştirme çalıştırmamız gerekecek. İlk adres-mektup birleştirme MERGEFIELD'leri dolduracak
+// "Şehirler" aralığında, "Meyve" aralığını doldurmadan bırakıyoruz.
 doc.MailMerge.ExecuteWithRegions(tableCities);
 
-// Veri görünümü kullanırken "Meyve" tablosu için ikinci bir birleştirme çalıştırın
-// birleştirmeden önce "Ad" sütunundaki satırları artan düzende sıralamak için.
+// Veri görünümünü kullanırken "Meyve" tablosu için ikinci bir birleştirme çalıştırın
+// birleştirme işleminden önce "Ad" sütunundaki satırları artan sırada sıralamak için.
 DataView dv = new DataView(tableFruit);
 dv.Sort = "Name ASC";
 doc.MailMerge.ExecuteWithRegions(dv);
@@ -768,7 +769,7 @@ doc.Save(ArtifactsDir + "MailMerge.ExecuteWithRegionsConcurrent.docx");
 
 ## ExecuteWithRegions(DataView) {#executewithregions_4}
 
-Adres-mektup birleştirme bölgeleri olan bir DataView'den belgeye adres mektup birleştirme gerçekleştirir.
+Adres-mektup birleştirmeyi bir adresten gerçekleştirir. **Veri görünümü** adres-mektup birleştirme bölgelerinin bulunduğu belgeye.
 
 ```csharp
 public void ExecuteWithRegions(DataView dataView)
@@ -776,43 +777,43 @@ public void ExecuteWithRegions(DataView dataView)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| dataView | DataView | Adres mektup birleştirme işlemi için veri kaynağı. kaynak tablosu  **Veri görünümü** sahip olmalı **Tablo ismi** özellik kümesi. |
+| dataView | DataView | Adres-mektup birleştirme işlemi için veri kaynağı. Kaynak table  **Veri görünümü** ona sahip olmalı **Tablo ismi** özellik seti. |
 
 ### Notlar
 
-Bu yöntem, verileri bir **Veri tablosu** ancak then adres mektup birleştirmeden önce bir filtre veya sıralama uygulamanız gerekir.
+Bu yöntem, verileri bir dosyaya alırsanız kullanışlıdır. **Veri tablosu** ancak Then adres-mektup birleştirmeden önce bir filtre uygulamanız veya sıralamanız gerekir.
 
-Belgenin, ile eşleşen adla tanımlanmış bir adres mektup birleştirme bölgesine sahip olması gerekir. **DataView.Table.TableName**.
+Belgenin, ile eşleşen adla tanımlanmış bir adres-mektup birleştirme bölgesine sahip olması gerekir **DataView.Table.TableName**.
 
-Belgede tanımlanmış başka adres mektup birleştirme bölgeleri varsa, bunlar olduğu gibi bırakılır. Bu, birkaç adres mektup birleştirme işleminin gerçekleştirilmesine olanak tanır.
+Belgede tanımlanmış başka adres-mektup birleştirme bölgeleri varsa, bunlar olduğu gibi bırakılır. Bu, birden fazla adres-mektup birleştirme işleminin gerçekleştirilmesine olanak sağlar.
 
 ### Örnekler
 
-Tek bir belgede iki ayrı adres mektup birleştirme yürütmek için bölgelerin nasıl kullanılacağını gösterir.
+Tek bir belgede iki ayrı adres-mektup birleştirmeyi yürütmek için bölgelerin nasıl kullanılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// İki tablodan veri alırken tek bir belge üzerinde iki ardışık adres mektup birleştirme yapmak istiyorsak
-// birbiri ile herhangi bir şekilde ilişkili olan adres mektup birleştirmelerini bölgelere ayırabiliriz.
-// Normalde, MERGEFIELD'ler adres mektup birleştirme veri kaynağının bir sütununun adını içerir.
-// Bunun yerine, adres mektup birleştirme bölgesini başlatmak/sonlandırmak için "TableStart:" ve "TableEnd:" öneklerini kullanabiliriz.
-// Her bölge, önek iki nokta üst üste işaretinden hemen sonraki dizeyle eşleşen bir ada sahip bir tabloya ait olacaktır.
-// Bu bölgeler ilgisiz veriler için ayrıdır, hiyerarşik veriler için yuvalanabilirler.
+// İki tablodan veri alırken tek belge üzerinde ardı ardına iki adres-mektup birleştirme yapmak istiyorsak
+// herhangi bir şekilde birbiriyle ilişkili olan adres-mektup birleştirmeleri bölgelere ayırabiliriz.
+// Normalde MERGEFIELD'ler, adres-mektup birleştirme veri kaynağının bir sütununun adını içerir.
+// Bunun yerine, adres-mektup birleştirme bölgesini başlatmak/sonlandırmak için "TableStart:" ve "TableEnd:" öneklerini kullanabiliriz.
+// Her bölge, önekin iki nokta üst üste işaretinden hemen sonraki dizeyle eşleşen ada sahip bir tabloya ait olacaktır.
+// Bu bölgeler ilgisiz veriler için ayrıdır, hiyerarşik veriler için ise iç içe yerleştirilebilir.
 builder.Writeln("\tCities: ");
 builder.InsertField(" MERGEFIELD TableStart:Cities");
 builder.InsertField(" MERGEFIELD Name");
 builder.InsertField(" MERGEFIELD TableEnd:Cities");
 builder.InsertParagraph();
 
-// Her iki MERGEFIELD aynı sütun adına atıfta bulunur, ancak her birinin değerleri farklı veri tablolarından gelecektir.
+// Her iki MERGEFIELD aynı sütun adını ifade eder, ancak her birinin değerleri farklı veri tablolarından gelecektir.
 builder.Writeln("\tFruit: ");
 builder.InsertField(" MERGEFIELD TableStart:Fruit");
 builder.InsertField(" MERGEFIELD Name");
 builder.InsertField(" MERGEFIELD TableEnd:Fruit");
 
-// Birbiriyle alakasız iki veri tablosu oluşturun.
+//İki ilgisiz veri tablosu oluşturun.
 DataTable tableCities = new DataTable("Cities");
 tableCities.Columns.Add("Name");
 tableCities.Rows.Add(new object[] { "Washington" });
@@ -826,12 +827,12 @@ tableFruit.Rows.Add(new object[] { "Apple" });
 tableFruit.Rows.Add(new object[] { "Watermelon" });
 tableFruit.Rows.Add(new object[] { "Banana" });
 
-// Tablo başına bir adres mektup birleştirme çalıştırmamız gerekecek. İlk adres mektup birleştirme MERGEFIELD'leri dolduracak
-// "Şehirler" aralığında, "Meyve" alanını boş bırakırken.
+// Tablo başına bir adres-mektup birleştirme çalıştırmamız gerekecek. İlk adres-mektup birleştirme MERGEFIELD'leri dolduracak
+// "Şehirler" aralığında, "Meyve" aralığını doldurmadan bırakıyoruz.
 doc.MailMerge.ExecuteWithRegions(tableCities);
 
-// Veri görünümü kullanırken "Meyve" tablosu için ikinci bir birleştirme çalıştırın
-// birleştirmeden önce "Ad" sütunundaki satırları artan düzende sıralamak için.
+// Veri görünümünü kullanırken "Meyve" tablosu için ikinci bir birleştirme çalıştırın
+// birleştirme işleminden önce "Ad" sütunundaki satırları artan sırada sıralamak için.
 DataView dv = new DataView(tableFruit);
 dv.Sort = "Name ASC";
 doc.MailMerge.ExecuteWithRegions(dv);
@@ -849,7 +850,7 @@ doc.Save(ArtifactsDir + "MailMerge.ExecuteWithRegionsConcurrent.docx");
 
 ## ExecuteWithRegions(IDataReader, string) {#executewithregions_5}
 
-Adres mektup birleştirme bölgeleriyle IDataReader'dan belgeye adres mektup birleştirme gerçekleştirir.
+Adres-mektup birleştirmeyi şuradan gerçekleştirir: **IDataReader** adres-mektup birleştirme bölgelerinin bulunduğu belgeye.
 
 ```csharp
 public void ExecuteWithRegions(IDataReader dataReader, string tableName)
@@ -857,12 +858,12 @@ public void ExecuteWithRegions(IDataReader dataReader, string tableName)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| dataReader | IDataReader | OleDbDataReader veya SqlDataReader gibi adres mektup birleştirme için veri kayıtlarının kaynağı. |
-| tableName | String | Belgedeki doldurulacak adres mektup birleştirme bölgesinin adı. |
+| dataReader | IDataReader | Adres-mektup birleştirmeye ilişkin veri kayıtlarının kaynağı, örneğin **OleDbDataReader** veya **SqlDataReader**. |
+| tableName | String | Doldurulacak belgedeki adres-mektup birleştirme bölgesinin adı. |
 
 ### Notlar
 
-Geçebilirsin **SqlDataOkuyucu** veya **OleDbDataOkuyucu** her ikisi de uygulandığı için parametre olarak this yöntemine nesne **IDataOkuyucu** arayüz.
+Geçebilirsin **SqlDataReader** veya **OleDbDataReader**this yöntemine parametre olarak itiraz edin çünkü ikisi de uygulandı **IDataReader** arayüz.
 
 ### Örnekler
 
@@ -875,14 +876,14 @@ public void ImageFromBlob()
 
     doc.MailMerge.FieldMergingCallback = new HandleMergeImageFieldFromBlob();
 
-    string connString = $"Provider=Microsoft.Jet.OLEDB.4.0;Data Source={DatabaseDir + "Northwind.mdb"};";
+    string connString = $"Provider=Microsoft.ACE.OLEDB.12.0;Data Source={DatabaseDir + "Northwind.accdb"};";
     string query = "SELECT FirstName, LastName, Title, Address, City, Region, Country, PhotoBLOB FROM Employees";
 
     using (OleDbConnection conn = new OleDbConnection(connString))
     {
         conn.Open();
 
-        // Tüm kayıtları bir kerede okuyan bir modda olması gereken veri okuyucuyu açın.
+        // Tüm kayıtları aynı anda okuyacak modda olması gereken veri okuyucuyu açın.
         OleDbCommand cmd = new OleDbCommand(query, conn);
         IDataReader dataReader = cmd.ExecuteReader();
 
@@ -890,6 +891,7 @@ public void ImageFromBlob()
     }
 
     doc.Save(ArtifactsDir + "MailMergeEvent.ImageFromBlob.docx");
+}
 
 private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 {
@@ -899,7 +901,7 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
     }
 
     /// <summary>
-    /// Adres mektup birleştirme, belgede adında "Image:" etiketi olan bir MERGEFIELD ile karşılaştığında çağrılır.
+    /// Adres-mektup birleştirme, belgede adında "Image:" etiketi bulunan bir MERGEFIELD ile karşılaştığında çağrılır.
     /// </summary>
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs e)
     {

@@ -3,7 +3,7 @@ title: Cell.EnsureMinimum
 second_title: Aspose.Words für .NET-API-Referenz
 description: Cell methode. Wenn das letzte untergeordnete Element kein Absatz ist wird ein leerer Absatz erstellt und angehängt.
 type: docs
-weight: 120
+weight: 160
 url: /de/net/aspose.words.tables/cell/ensureminimum/
 ---
 ## Cell.EnsureMinimum method
@@ -28,10 +28,10 @@ Cell cell = new Cell(doc);
 row.AppendChild(cell);
 
 // Zellen können Absätze mit typischen Elementen wie Läufen, Formen und sogar anderen Tabellen enthalten.
-// Unsere neue Zelle hat keine Absätze, und wir können ihr keine Inhalte wie Lauf- und Formknoten hinzufügen, bis dies der Fall ist.
+// Unsere neue Zelle hat keine Absätze und wir können ihr erst dann Inhalte wie Lauf- und Formknoten hinzufügen, wenn dies der Fall ist.
 Assert.AreEqual(0, cell.GetChildNodes(NodeType.Any, true).Count);
 
-// Das Aufrufen der "EnsureMinimum"-Methode für eine Zelle stellt dies sicher
+// Durch Aufrufen der Methode „EnsureMinimum“ für eine Zelle wird dies sichergestellt
 // Die Zelle hat mindestens einen leeren Absatz, dem wir dann Inhalte hinzufügen können.
 cell.EnsureMinimum();
 cell.FirstParagraph.AppendChild(new Run(doc, "Hello world!"));

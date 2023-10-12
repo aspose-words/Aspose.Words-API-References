@@ -1,14 +1,14 @@
 ---
 title: SignatureLine.Email
 second_title: Référence de l'API Aspose.Words pour .NET
-description: SignatureLine propriété. Obtient ou définit ladresse email du signataire suggéré. La valeur par défaut pour cette propriété est chaîne vide Empty .
+description: SignatureLine propriété. Obtient ou définit ladresse email du signataire suggéré. La valeur par défaut de cette propriété est chaîne vide Empty.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.drawing/signatureline/email/
 ---
 ## SignatureLine.Email property
 
-Obtient ou définit l'adresse e-mail du signataire suggéré. La valeur par défaut pour cette propriété est **chaîne vide** (Empty ).
+Obtient ou définit l'adresse e-mail du signataire suggéré. La valeur par défaut de cette propriété est **chaîne vide** (Empty).
 
 ```csharp
 public string Email { get; set; }
@@ -33,10 +33,10 @@ SignatureLineOptions options = new SignatureLineOptions
     SignerTitle = "Senior Manager"
 };
 
-// Insère une forme qui contiendra une ligne de signature, dont nous allons voir l'apparence
-// personnaliser en utilisant l'objet "SignatureLineOptions" que nous avons créé ci-dessus.
-// Si nous insérons une forme dont les coordonnées proviennent du coin inférieur droit de la page,
-// nous devrons fournir des coordonnées x et y négatives pour afficher la forme.
+// Insère une forme qui contiendra une ligne de signature, dont nous allons
+// personnalisez à l'aide de l'objet "SignatureLineOptions" que nous avons créé ci-dessus.
+// Si on insère une forme dont les coordonnées proviennent du coin inférieur droit de la page,
+// nous devrons fournir des coordonnées x et y négatives pour faire apparaître la forme.
 Shape shape = builder.InsertSignatureLine(options, RelativeHorizontalPosition.RightMargin, -170.0, 
         RelativeVerticalPosition.BottomMargin, -60.0, WrapType.None);
 

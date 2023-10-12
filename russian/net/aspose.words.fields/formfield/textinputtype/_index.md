@@ -16,7 +16,7 @@ public TextFormFieldType TextInputType { get; set; }
 
 ### Примеры
 
-Показывает, как вставлять различные типы полей формы в документ и обрабатывать их с помощью реализации посетителя документа.
+Показывает, как вставлять в документ различные типы полей формы и обрабатывать их с помощью реализации посетителя документа.
 
 ```csharp
 public void Visitor()
@@ -63,8 +63,8 @@ public void Visitor()
     FormFieldCollection formFields = doc.Range.FormFields;
     Assert.AreEqual(3, formFields.Count);
 
-    // Поля отображают поля нашей формы. Мы можем увидеть их коды полей, открыв этот документ
-    // в Microsoft и нажав Alt+F9. Эти поля не имеют переключателей,
+    // Поля отображают поля нашей формы. Мы можем увидеть их коды полей, открыв этот документ.
+    // в Microsoft и нажав Alt + F9. Эти поля не имеют переключателей,
     // и члены объекта FormField полностью управляют содержимым своих полей формы.
     Assert.AreEqual(3, doc.Range.Fields.Count);
     Assert.AreEqual(" FORMDROPDOWN \u0001", doc.Range.Fields[0].GetFieldCode());
@@ -85,7 +85,7 @@ public void Visitor()
 }
 
 /// <summary>
-/// Реализация посетителя, которая печатает информацию о посещенных полях формы. 
+ /// Реализация посетителя, которая печатает подробную информацию о полях формы, которые он посещает.
 /// </summary>
 public class FormFieldVisitor : DocumentVisitor
 {
@@ -121,12 +121,12 @@ public class FormFieldVisitor : DocumentVisitor
                 break;
         }
 
-        // Разрешить посетителю продолжить посещение других узлов.
+        // Позвольте посетителю продолжить посещение других узлов.
         return VisitorAction.Continue;
     }
 
     /// <summary>
-    /// Добавляет текст, заканчивающийся символом новой строки, к текущему выводу.
+    /// Добавляет текст, заканчивающийся символом новой строки, в текущий вывод.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -134,7 +134,7 @@ public class FormFieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Получает обычный текст документа, который накопил посетитель.
+    /// Получает открытый текст документа, накопленный посетителем.
     /// </summary>
     public string GetText()
     {

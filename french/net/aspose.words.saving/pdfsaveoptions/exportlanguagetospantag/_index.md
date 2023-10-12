@@ -3,7 +3,7 @@ title: PdfSaveOptions.ExportLanguageToSpanTag
 second_title: Référence de l'API Aspose.Words pour .NET
 description: PdfSaveOptions propriété. Obtient ou définit une valeur déterminant sil faut ou non créer une balise Span dans la structure du document pour exporter la langue du texte.
 type: docs
-weight: 130
+weight: 150
 url: /fr/net/aspose.words.saving/pdfsaveoptions/exportlanguagetospantag/
 ---
 ## PdfSaveOptions.ExportLanguageToSpanTag property
@@ -16,15 +16,15 @@ public bool ExportLanguageToSpanTag { get; set; }
 
 ### Remarques
 
-La valeur par défaut est`faux` et l'attribut "Lang" est attaché à une séquence de contenu marqué dans un flux de contenu de page.
+La valeur par défaut est`FAUX`et l'attribut « Lang » est attaché à une séquence de contenu marqué dans un flux de contenu de page.
 
-Lorsque la valeur est`vrai` La balise "Span" est créée pour le texte avec un language autre que celui par défaut et l'attribut "Lang" est attaché à cette balise.
+Lorsque la valeur est`vrai` La balise "Span" est créée pour le texte avec une langue autre que celle par défaut et l'attribut "Lang" est attaché à cette balise.
 
-Cette valeur est ignorée lorsque[`ExportDocumentStructure`](../exportdocumentstructure/) est`faux` .
+Cette valeur est ignorée lorsque[`ExportDocumentStructure`](../exportdocumentstructure/) est`FAUX` .
 
 ### Exemples
 
-Montre comment créer une balise "Span" dans la structure du document pour exporter la langue du texte.
+Montre comment créer une balise « Span » dans la structure du document pour exporter la langue du texte.
 
 ```csharp
 Document doc = new Document();

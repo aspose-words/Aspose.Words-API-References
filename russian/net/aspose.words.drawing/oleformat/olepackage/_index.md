@@ -1,14 +1,14 @@
 ---
 title: OleFormat.OlePackage
 second_title: Справочник по API Aspose.Words для .NET
-description: OleFormat свойство. Предоставить доступ кOlePackage если объект OLE является пакетом OLE. В противном случае возвращает null.
+description: OleFormat свойство. Предоставить доступ кOlePackage если объект OLE является пакетом OLE. Возвращаетнулевой иначе.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.drawing/oleformat/olepackage/
 ---
 ## OleFormat.OlePackage property
 
-Предоставить доступ к[`OlePackage`](../../olepackage/) если объект OLE является пакетом OLE. В противном случае возвращает null.
+Предоставить доступ к[`OlePackage`](../../olepackage/) если объект OLE является пакетом OLE. Возвращает`нулевой` иначе.
 
 ```csharp
 public OlePackage OlePackage { get; }
@@ -16,7 +16,7 @@ public OlePackage OlePackage { get; }
 
 ### Примечания
 
-OLE Package — это устаревшая технология, позволяющая оборачивать любой формат файла, отсутствующий в реестре OLE системы Windows, в универсальный пакет, позволяющий встраивать в документ практически все, что угодно. См.[`OlePackage`](../../olepackage/)введите для получения дополнительной информации.
+Пакет OLE — это устаревшая технология, которая позволяет обернуть любой формат файла, отсутствующий в реестре OLE системы Windows, в общий пакет, позволяющий встраивать в документ практически все, что угодно. См.[`OlePackage`](../../olepackage/) введите для получения дополнительной информации.
 
 ### Примеры
 
@@ -28,7 +28,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Объекты OLE позволяют нам открывать другие файлы в локальной файловой системе с помощью другого установленного приложения
 // в нашей операционной системе, дважды щелкнув фигуру, содержащую объект OLE в теле документа.
-// В этом случае наш внешний файл будет ZIP-архивом.
+// В данном случае наш внешний файл будет ZIP-архивом.
 byte[] zipFileBytes = File.ReadAllBytes(DatabaseDir + "cat001.zip");
 
 using (MemoryStream stream = new MemoryStream(zipFileBytes))

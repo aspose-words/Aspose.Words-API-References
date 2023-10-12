@@ -1,14 +1,14 @@
 ---
 title: Forms2OleControl.Enabled
 second_title: Aspose.Words لمراجع .NET API
-description: Forms2OleControl ملكية. إرجاع صحيح إذا كان التحكم في حالة تمكين.
+description: Forms2OleControl ملكية. إرجاعحقيقي إذا كان التحكم في حالة التمكين.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.drawing.ole/forms2olecontrol/enabled/
 ---
 ## Forms2OleControl.Enabled property
 
-إرجاع صحيح إذا كان التحكم في حالة تمكين.
+إرجاع`حقيقي` إذا كان التحكم في حالة التمكين.
 
 ```csharp
 public bool Enabled { get; }
@@ -24,7 +24,7 @@ Document doc = new Document(MyDir + "ActiveX controls.docx");
 Shape shape = (Shape) doc.GetChild(NodeType.Shape, 0, true);
 OleControl oleControl = shape.OleFormat.OleControl;
 
-Assert.AreEqual(null, oleControl.Name);
+Assert.AreEqual("CheckBox1", oleControl.Name);
 
 if (oleControl.IsForms2OleControl)
 {
@@ -34,6 +34,10 @@ if (oleControl.IsForms2OleControl)
     Assert.AreEqual(true, checkBox.Enabled);
     Assert.AreEqual(Forms2OleControlType.CheckBox, checkBox.Type);
     Assert.AreEqual(null, checkBox.ChildNodes);
+    Assert.AreEqual(string.Empty, checkBox.GroupName);
+
+    // لاحظ أنه لا يمكنك تعيين اسم المجموعة للإطار.
+    checkBox.GroupName = "Aspose group name";
 }
 ```
 

@@ -1,14 +1,14 @@
 ---
 title: NodeCollection.RemoveAt
 second_title: Aspose.Words لمراجع .NET API
-description: NodeCollection طريقة. يزيل العقدة في الفهرس المحدد من المجموعة ومن المستند.
+description: NodeCollection طريقة. إزالة العقدة الموجودة في الفهرس المحدد من المجموعة ومن المستند.
 type: docs
 weight: 100
 url: /ar/net/aspose.words/nodecollection/removeat/
 ---
 ## NodeCollection.RemoveAt method
 
-يزيل العقدة في الفهرس المحدد من المجموعة ومن المستند.
+إزالة العقدة الموجودة في الفهرس المحدد من المجموعة ومن المستند.
 
 ```csharp
 public void RemoveAt(int index)
@@ -16,11 +16,11 @@ public void RemoveAt(int index)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| index | Int32 | الفهرس الصفري للعقدة. الفهارس السالبة مسموح بها وتشير إلى الوصول من الجزء الخلفي من القائمة . على سبيل المثال -1 تعني العقدة الأخيرة ، -2 تعني الثانية قبل الأخيرة وهكذا. |
+| index | Int32 | الفهرس الصفري للعقدة. الفهارس السالبة مسموح بها وتشير إلى الوصول من الجزء الخلفي من القائمة. على سبيل المثال -1 يعني العقدة الأخيرة، -2 يعني الثانية قبل الأخيرة وهكذا. |
 
 ### أمثلة
 
-يوضح كيفية إضافة وإزالة أقسام في مستند.
+يوضح كيفية إضافة وإزالة الأقسام في المستند.
 
 ```csharp
 Document doc = new Document();
@@ -37,7 +37,7 @@ doc.Sections.RemoveAt(0);
 
 Assert.AreEqual("Section 2", doc.GetText().Trim());
 
-// قم بإلحاق نسخة مما هو الآن القسم الأول بنهاية المستند.
+// إلحاق نسخة مما هو الآن القسم الأول بنهاية المستند.
 int lastSectionIdx = doc.Sections.Count - 1;
 Section newSection = doc.Sections[lastSectionIdx].Clone();
 doc.Sections.Add(newSection);

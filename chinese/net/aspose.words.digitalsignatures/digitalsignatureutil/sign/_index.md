@@ -1,18 +1,18 @@
 ---
 title: DigitalSignatureUtil.Sign
 second_title: Aspose.Words for .NET API 参考
-description: DigitalSignatureUtil 方法. 使用给定的符号源文档CertificateHolder和SignOptions 带有数字签名并将签名文档写入目标流
+description: DigitalSignatureUtil 方法. 使用给定的源文档签名CertificateHolder和SignOptions 带有数字签名并将签名文档写入目标流
 type: docs
 weight: 30
 url: /zh/net/aspose.words.digitalsignatures/digitalsignatureutil/sign/
 ---
 ## Sign(Stream, Stream, CertificateHolder, SignOptions) {#sign_1}
 
-使用给定的符号源文档[`CertificateHolder`](../../certificateholder/)和[`SignOptions`](../../signoptions/) 带有数字签名并将签名文档写入目标流。
+使用给定的源文档签名[`CertificateHolder`](../../certificateholder/)和[`SignOptions`](../../signoptions/) 带有数字签名并将签名文档写入目标流。
 
-文件应该是Doc或者Docx.
+文件应该是Doc或者Docx。
 
-**输出将被写入流的开头，流大小将随内容长度更新。**
+**输出将被写入流的开头，并且流大小将根据内容长度进行更新。**
 
 ```csharp
 public static void Sign(Stream srcStream, Stream dstStream, CertificateHolder certHolder, 
@@ -22,8 +22,8 @@ public static void Sign(Stream srcStream, Stream dstStream, CertificateHolder ce
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | srcStream | Stream | 包含要签名的文档的流。 |
-| dstStream | Stream | 将写入已签名文档的流。 |
-| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/)带有用于签署文件的证书的对象。 持有者中的证书必须包含私钥并设置 X509KeyStorageFlags.Exportable 标志。 |
+| dstStream | Stream | 签名文档将被写入的流。 |
+| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/)具有用于签署文件的证书的对象。 持有者中的证书必须包含私钥并设置了 X509KeyStorageFlags.Exportable 标志。 |
 | signOptions | SignOptions | [`SignOptions`](../../signoptions/)具有各种签名选项的对象。 |
 
 ### 例子
@@ -31,18 +31,18 @@ public static void Sign(Stream srcStream, Stream dstStream, CertificateHolder ce
 展示如何对文档进行数字签名。
 
 ```csharp
-// 从 PKCS#12 存储创建 X.509 证书，其中应包含私钥。
+// 从 PKCS#12 存储创建 X.509 证书，该证书应包含私钥。
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
 
-// 创建一个评论和日期，它将与我们的新数字签名一起应用。
+// 创建评论和日期，该评论和日期将与我们的新数字签名一起应用。
 SignOptions signOptions = new SignOptions
 {
     Comments = "My comment", 
     SignTime = DateTime.Now
 };
 
-// 通过文件流从本地文件系统中获取未签名的文档，
-// 然后创建一个由输出文件流的文件名确定的签名副本。
+// 通过文件流从本地文件系统获取未签名的文档，
+// 然后创建由输出文件流的文件名确定的签名副本。
 using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 {
     using (Stream streamOut = new FileStream(ArtifactsDir + "DigitalSignatureUtil.SignDocument.docx", FileMode.OpenOrCreate))
@@ -64,9 +64,9 @@ using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 
 ## Sign(string, string, CertificateHolder, SignOptions) {#sign_3}
 
-使用给定的符号源文档[`CertificateHolder`](../../certificateholder/)和[`SignOptions`](../../signoptions/) 带有数字签名并将签名文档写入目标文件。
+使用给定的源文档签名[`CertificateHolder`](../../certificateholder/)和[`SignOptions`](../../signoptions/) 带有数字签名并将签名文档写入目标文件。
 
-文件应该是Doc或者Docx.
+文件应该是Doc或者Docx。
 
 ```csharp
 public static void Sign(string srcFileName, string dstFileName, CertificateHolder certHolder, 
@@ -77,15 +77,16 @@ public static void Sign(string srcFileName, string dstFileName, CertificateHolde
 | --- | --- | --- |
 | srcFileName | String | 要签名的文档的文件名。 |
 | dstFileName | String | 签名文档输出的文件名。 |
-| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/)带有用于签署文件的证书的对象。 持有者中的证书必须包含私钥并设置 X509KeyStorageFlags.Exportable 标志。 |
+| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/)具有用于签署文件的证书的对象。 持有者中的证书必须包含私钥并设置了 X509KeyStorageFlags.Exportable 标志。 |
 | signOptions | SignOptions | [`SignOptions`](../../signoptions/)具有各种签名选项的对象。 |
 
 ### 例子
 
-演示如何将签名行添加到文档，然后使用数字证书对其进行签名。
+演示如何向文档添加签名行，然后使用数字证书对其进行签名。
 
 ```csharp
-public static void Sign()
+[Description("WORDSNET-16868")]
+        public static void Sign()
         {
             string signeeName = "Ron Williams";
             string srcDocumentPath = MyDir + "Document.docx";
@@ -112,7 +113,7 @@ public static void Sign()
             Document document = new Document(srcDocumentPath);
             DocumentBuilder builder = new DocumentBuilder(document);
 
-            // 配置并插入一个签名行，文档中的一个对象，它将显示我们用来签名的签名。
+            // 配置并插入签名行，这是文档中的一个对象，将显示我们用来签名的签名。
             SignatureLineOptions signatureLineOptions = new SignatureLineOptions
             {
                 Signer = signeeInfo.Name, 
@@ -204,11 +205,11 @@ public static void Sign()
 
 ## Sign(Stream, Stream, CertificateHolder) {#sign}
 
-使用给定的符号源文档[`CertificateHolder`](../../certificateholder/)使用数字签名 并将签名文档写入目标流。
+使用给定的源文档签名[`CertificateHolder`](../../certificateholder/)带有数字签名 并将签名文档写入目标流.
 
-文件应该是Doc或者Docx.
+文件应该是Doc或者Docx。
 
-**输出将被写入流的开头，流大小将随内容长度更新。**
+**输出将被写入流的开头，并且流大小将根据内容长度进行更新。**
 
 ```csharp
 public static void Sign(Stream srcStream, Stream dstStream, CertificateHolder certHolder)
@@ -217,28 +218,28 @@ public static void Sign(Stream srcStream, Stream dstStream, CertificateHolder ce
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | srcStream | Stream | 包含要签名的文档的流。 |
-| dstStream | Stream | 将写入已签名文档的流。 |
-| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/)带有用于签署文件的证书的对象。 持有者中的证书必须包含私钥并设置 X509KeyStorageFlags.Exportable 标志。 |
+| dstStream | Stream | 签名文档将被写入的流。 |
+| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/)具有用于签署文件的证书的对象。 持有者中的证书必须包含私钥并设置了 X509KeyStorageFlags.Exportable 标志。 |
 
 ### 例子
 
-显示如何使用 X.509 证书签署文档。
+演示如何使用 X.509 证书签署文档。
 
 ```csharp
 // 验证文档是否未签名。
 Assert.False(FileFormatUtil.DetectFileFormat(MyDir + "Document.docx").HasDigitalSignature);
 
-// 从 PKCS12 文件创建一个 CertificateHolder 对象，我们将使用它来签署文档。
+// 从 PKCS12 文件创建一个 CertificateHolder 对象，我们将用它来签署文档。
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 
-// 将文档的签名副本保存到本地文件系统有两种方法：
-// 1 - 通过本地系统文件名指定一个文档，并将签名副本保存在另一个文件名指定的位置。
+// 有两种方法将文档的签名副本保存到本地文件系统：
+// 1 - 通过本地系统文件名指定文档，并将签名副本保存在另一个文件名指定的位置。
 DigitalSignatureUtil.Sign(MyDir + "Document.docx", ArtifactsDir + "Document.DigitalSignature.docx", 
     certificateHolder, new SignOptions() { SignTime = DateTime.Now } );
 
 Assert.True(FileFormatUtil.DetectFileFormat(ArtifactsDir + "Document.DigitalSignature.docx").HasDigitalSignature);
 
-// 2 - 从流中获取文档并将签名副本保存到另一个流。
+// 2 - 从流中获取文档并将签名副本保存到另一个流中。
 using (FileStream inDoc = new FileStream(MyDir + "Document.docx", FileMode.Open))
 {
     using (FileStream outDoc = new FileStream(ArtifactsDir + "Document.DigitalSignature.docx", FileMode.Create))
@@ -271,9 +272,9 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 
 ## Sign(string, string, CertificateHolder) {#sign_2}
 
-使用给定的符号源文档[`CertificateHolder`](../../certificateholder/)使用数字签名 并将签名文档写入目标文件。
+使用给定的源文档签名[`CertificateHolder`](../../certificateholder/)带有数字签名 并将签名文档写入目标文件.
 
-文件应该是Doc或者Docx.
+文件应该是Doc或者Docx。
 
 ```csharp
 public static void Sign(string srcFileName, string dstFileName, CertificateHolder certHolder)
@@ -283,27 +284,27 @@ public static void Sign(string srcFileName, string dstFileName, CertificateHolde
 | --- | --- | --- |
 | srcFileName | String | 要签名的文档的文件名。 |
 | dstFileName | String | 签名文档输出的文件名。 |
-| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/)带有用于签署文件的证书的对象。 持有者中的证书必须包含私钥并设置 X509KeyStorageFlags.Exportable 标志。 |
+| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/)具有用于签署文件的证书的对象。 持有者中的证书必须包含私钥并设置了 X509KeyStorageFlags.Exportable 标志。 |
 
 ### 例子
 
-显示如何使用 X.509 证书签署文档。
+演示如何使用 X.509 证书签署文档。
 
 ```csharp
 // 验证文档是否未签名。
 Assert.False(FileFormatUtil.DetectFileFormat(MyDir + "Document.docx").HasDigitalSignature);
 
-// 从 PKCS12 文件创建一个 CertificateHolder 对象，我们将使用它来签署文档。
+// 从 PKCS12 文件创建一个 CertificateHolder 对象，我们将用它来签署文档。
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 
-// 将文档的签名副本保存到本地文件系统有两种方法：
-// 1 - 通过本地系统文件名指定一个文档，并将签名副本保存在另一个文件名指定的位置。
+// 有两种方法将文档的签名副本保存到本地文件系统：
+// 1 - 通过本地系统文件名指定文档，并将签名副本保存在另一个文件名指定的位置。
 DigitalSignatureUtil.Sign(MyDir + "Document.docx", ArtifactsDir + "Document.DigitalSignature.docx", 
     certificateHolder, new SignOptions() { SignTime = DateTime.Now } );
 
 Assert.True(FileFormatUtil.DetectFileFormat(ArtifactsDir + "Document.DigitalSignature.docx").HasDigitalSignature);
 
-// 2 - 从流中获取文档并将签名副本保存到另一个流。
+// 2 - 从流中获取文档并将签名副本保存到另一个流中。
 using (FileStream inDoc = new FileStream(MyDir + "Document.docx", FileMode.Open))
 {
     using (FileStream outDoc = new FileStream(ArtifactsDir + "Document.DigitalSignature.docx", FileMode.Create))

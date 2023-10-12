@@ -3,12 +3,14 @@ title: Class Shading
 second_title: Справочник по API Aspose.Words для .NET
 description: Aspose.Words.Shading сорт. Содержит атрибуты затенения для объекта.
 type: docs
-weight: 5690
+weight: 5990
 url: /ru/net/aspose.words/shading/
 ---
 ## Shading class
 
 Содержит атрибуты затенения для объекта.
+
+Чтобы узнать больше, посетите[Программирование с документами](https://docs.aspose.com/words/net/programming-with-documents/) статья документации.
 
 ```csharp
 public class Shading : InternableComplexAttr
@@ -18,8 +20,12 @@ public class Shading : InternableComplexAttr
 
 | Имя | Описание |
 | --- | --- |
-| [BackgroundPatternColor](../../aspose.words/shading/backgroundpatterncolor/) { get; set; } | Получает или задает цвет фона объекта Shading. |
-| [ForegroundPatternColor](../../aspose.words/shading/foregroundpatterncolor/) { get; set; } | Получает или задает цвет, применяемый к переднему плану объекта Shading. |
+| [BackgroundPatternColor](../../aspose.words/shading/backgroundpatterncolor/) { get; set; } | Получает или задает цвет, применяемый к фону`Shading` объект. |
+| [BackgroundPatternThemeColor](../../aspose.words/shading/backgroundpatternthemecolor/) { get; set; } | Получает или задает цвет темы фонового рисунка в примененной цветовой схеме, связанной с этим`Shading` объект. |
+| [BackgroundTintAndShade](../../aspose.words/shading/backgroundtintandshade/) { get; set; } | Получает или задает двойное значение, которое осветляет или затемняет цвет фоновой темы. |
+| [ForegroundPatternColor](../../aspose.words/shading/foregroundpatterncolor/) { get; set; } | Получает или задает цвет, применяемый к переднему плану`Shading` объект. |
+| [ForegroundPatternThemeColor](../../aspose.words/shading/foregroundpatternthemecolor/) { get; set; } | Получает или задает цвет темы узора переднего плана в применяемой цветовой схеме, связанной с этим`Shading` объект. |
+| [ForegroundTintAndShade](../../aspose.words/shading/foregroundtintandshade/) { get; set; } | Получает или задает двойное значение, которое осветляет или затемняет цвет темы переднего плана. |
 | [Texture](../../aspose.words/shading/texture/) { get; set; } | Получает или задает текстуру затенения. |
 
 ## Методы
@@ -28,12 +34,12 @@ public class Shading : InternableComplexAttr
 | --- | --- |
 | [ClearFormatting](../../aspose.words/shading/clearformatting/)() | Удаляет затенение объекта. |
 | override [Equals](../../aspose.words/shading/equals/#equals_1)(object) | Определяет, равен ли указанный объект по значению текущему объекту. |
-| [Equals](../../aspose.words/shading/equals/#equals)(Shading) | Определяет, равен ли указанный Shading по значению текущему Shading. |
-| override [GetHashCode](../../aspose.words/shading/gethashcode/)() | Служит хэш-функцией для этого типа. |
+| [Equals](../../aspose.words/shading/equals/#equals)(Shading) | Определяет, задано ли указанное`Shading` по значению равен текущему`Shading` . |
+| override [GetHashCode](../../aspose.words/shading/gethashcode/)() | Служит хеш-функцией для этого типа. |
 
 ### Примеры
 
-Показывает, как украсить текст рамками и заливкой.
+Показывает, как украшать текст границами и заливкой.
 
 ```csharp
 Document doc = new Document();
@@ -55,13 +61,13 @@ builder.Write("This paragraph is formatted with a double border and shading.");
 doc.Save(ArtifactsDir + "DocumentBuilder.ApplyBordersAndShading.docx");
 ```
 
-Показывает, как применить цвет рамки и заливки при построении таблицы.
+Показывает, как применять цвет границы и заливки при построении таблицы.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Запускаем таблицу и устанавливаем для ее границ цвет/толщину по умолчанию.
+// Запускаем таблицу и устанавливаем цвет/толщину ее границ по умолчанию.
 Table table = builder.StartTable();
 table.SetBorders(LineStyle.Single, 2.0, Color.Black);
 
@@ -74,9 +80,9 @@ builder.CellFormat.Shading.BackgroundPatternColor = Color.Orange;
 builder.Writeln("Row 1, Cell 2.");
 builder.EndRow();
 
-// Сбросить форматирование ячейки, чтобы отключить цвета фона
-// установить пользовательскую толщину границы для всех новых ячеек, созданных конструктором,
-// затем построить вторую строку.
+// Сбрасываем форматирование ячейки, чтобы отключить цвета фона
+// устанавливаем собственную толщину границы для всех новых ячеек, созданных построителем,
+// затем создаем вторую строку.
 builder.CellFormat.ClearFormatting();
 builder.CellFormat.Borders.Left.LineWidth = 4.0;
 builder.CellFormat.Borders.Right.LineWidth = 4.0;

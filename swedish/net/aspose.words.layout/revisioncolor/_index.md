@@ -3,7 +3,7 @@ title: Enum RevisionColor
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Layout.RevisionColor uppräkning. Gör det möjligt att ange färg på dokumentrevisioner.
 type: docs
-weight: 3180
+weight: 3380
 url: /sv/net/aspose.words.layout/revisioncolor/
 ---
 ## RevisionColor enumeration

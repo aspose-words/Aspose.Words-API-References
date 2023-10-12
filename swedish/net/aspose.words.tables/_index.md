@@ -3,7 +3,7 @@ title: Aspose.Words.Tables
 second_title: Aspose.Words för .NET API Referens
 description: De Aspose.Words.Tables namnutrymmet innehåller klasser som representerar tabeller rader celler och deras formatering.
 type: docs
-weight: 250
+weight: 260
 url: /sv/net/aspose.words.tables/
 ---
 De **Aspose.Words.Tables** namnutrymmet innehåller klasser som representerar tabeller, rader, celler och deras formatering.

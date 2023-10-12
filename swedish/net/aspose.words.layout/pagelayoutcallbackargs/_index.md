@@ -3,12 +3,14 @@ title: Class PageLayoutCallbackArgs
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Layout.PageLayoutCallbackArgs klass. Ett argument passerat inNotify
 type: docs
-weight: 3160
+weight: 3360
 url: /sv/net/aspose.words.layout/pagelayoutcallbackargs/
 ---
 ## PageLayoutCallbackArgs class
 
 Ett argument passerat in[`Notify`](../ipagelayoutcallback/notify/)
+
+För att lära dig mer, besök[Konvertera till fastsidesformat](https://docs.aspose.com/words/net/converting-to-fixed-page-format/) dokumentationsartikel.
 
 ```csharp
 public class PageLayoutCallbackArgs

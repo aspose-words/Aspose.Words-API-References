@@ -1,14 +1,14 @@
 ---
 title: Document.Unprotect
 second_title: Aspose.Words لمراجع .NET API
-description: Document طريقة. يزيل الحماية من المستند بغض النظر عن كلمة المرور.
+description: Document طريقة. إزالة الحماية عن المستند بغض النظر عن كلمة المرور.
 type: docs
-weight: 720
+weight: 760
 url: /ar/net/aspose.words/document/unprotect/
 ---
 ## Unprotect() {#unprotect_1}
 
-يزيل الحماية من المستند بغض النظر عن كلمة المرور.
+إزالة الحماية عن المستند بغض النظر عن كلمة المرور.
 
 ```csharp
 public void Unprotect()
@@ -16,9 +16,9 @@ public void Unprotect()
 
 ### ملاحظات
 
-تقوم هذه الطريقة بإلغاء حماية المستند حتى إذا كان يحتوي على كلمة مرور للحماية.
+تعمل هذه الطريقة على إلغاء حماية المستند حتى لو كان يحتوي على كلمة مرور حماية.
 
-لاحظ أن حماية المستند تختلف عن الحماية ضد الكتابة. يتم تحديد الحماية ضد الكتابة باستخدام امتداد[`WriteProtection`](../writeprotection/).
+لاحظ أن حماية المستند تختلف عن الحماية ضد الكتابة. يتم تحديد الحماية ضد الكتابة باستخدام[`WriteProtection`](../writeprotection/).
 
 ### أمثلة
 
@@ -30,12 +30,12 @@ doc.Protect(ProtectionType.ReadOnly, "password");
 
 Assert.AreEqual(ProtectionType.ReadOnly, doc.ProtectionType);
 
-// إذا فتحنا هذا المستند مع Microsoft Word يعتزم تحريره ،
+// إذا فتحنا هذا المستند باستخدام برنامج Microsoft Word بهدف تعديله،
 // سنحتاج إلى تطبيق كلمة المرور لتجاوز الحماية.
 doc.Save(ArtifactsDir + "Document.Protect.docx");
 
 // لاحظ أن الحماية تنطبق فقط على مستخدمي Microsoft Word الذين يفتحون وثيقتنا.
-// لم نشفر المستند بأي شكل من الأشكال ، ولسنا بحاجة إلى كلمة المرور لفتحه وتعديله برمجيًا.
+// لم نقم بتشفير المستند بأي شكل من الأشكال، ولا نحتاج إلى كلمة المرور لفتحه وتحريره برمجيًا.
 Document protectedDoc = new Document(ArtifactsDir + "Document.Protect.docx");
 
 Assert.AreEqual(ProtectionType.ReadOnly, protectedDoc.ProtectionType);
@@ -72,7 +72,7 @@ Assert.AreEqual(ProtectionType.NoProtection, doc.ProtectionType);
 
 ## Unprotect(string) {#unprotect}
 
-يزيل الحماية من المستند إذا تم تحديد كلمة مرور صحيحة.
+إزالة الحماية عن المستند إذا تم تحديد كلمة مرور صحيحة.
 
 ```csharp
 public bool Unprotect(string password)
@@ -80,17 +80,17 @@ public bool Unprotect(string password)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| password | String | كلمة المرور لإلغاء حماية المستند باستخدام. |
+| password | String | كلمة المرور لإلغاء حماية المستند بها. |
 
 ### قيمة الإرجاع
 
-صواب إذا تم تحديد كلمة مرور صحيحة وكان المستند غير محمي.
+`حقيقي` إذا تم تحديد كلمة مرور صحيحة وكان المستند غير محمي.
 
 ### ملاحظات
 
-تقوم هذه الطريقة بإلغاء حماية المستند فقط إذا تم تحديد كلمة مرور صحيحة.
+تعمل هذه الطريقة على إلغاء حماية المستند فقط في حالة تحديد كلمة مرور صحيحة.
 
-لاحظ أن حماية المستند تختلف عن الحماية ضد الكتابة. يتم تحديد الحماية ضد الكتابة باستخدام امتداد[`WriteProtection`](../writeprotection/).
+لاحظ أن حماية المستند تختلف عن الحماية ضد الكتابة. يتم تحديد الحماية ضد الكتابة باستخدام[`WriteProtection`](../writeprotection/).
 
 ### أمثلة
 
@@ -102,12 +102,12 @@ doc.Protect(ProtectionType.ReadOnly, "password");
 
 Assert.AreEqual(ProtectionType.ReadOnly, doc.ProtectionType);
 
-// إذا فتحنا هذا المستند مع Microsoft Word يعتزم تحريره ،
+// إذا فتحنا هذا المستند باستخدام برنامج Microsoft Word بهدف تعديله،
 // سنحتاج إلى تطبيق كلمة المرور لتجاوز الحماية.
 doc.Save(ArtifactsDir + "Document.Protect.docx");
 
 // لاحظ أن الحماية تنطبق فقط على مستخدمي Microsoft Word الذين يفتحون وثيقتنا.
-// لم نشفر المستند بأي شكل من الأشكال ، ولسنا بحاجة إلى كلمة المرور لفتحه وتعديله برمجيًا.
+// لم نقم بتشفير المستند بأي شكل من الأشكال، ولا نحتاج إلى كلمة المرور لفتحه وتحريره برمجيًا.
 Document protectedDoc = new Document(ArtifactsDir + "Document.Protect.docx");
 
 Assert.AreEqual(ProtectionType.ReadOnly, protectedDoc.ProtectionType);

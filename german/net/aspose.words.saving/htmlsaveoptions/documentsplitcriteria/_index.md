@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.DocumentSplitCriteria
 second_title: Aspose.Words für .NET-API-Referenz
-description: HtmlSaveOptions eigendom. Gibt an wie das Dokument beim Speichern aufgeteilt werden sollHtml oderEpub Format. Standard istNone für HTML und HeadingParagraph für EPUB.
+description: HtmlSaveOptions eigendom. Gibt an wie das Dokument beim Speichern aufgeteilt werden sollHtml  Epub oderAzw3 Format. Standard istNone für HTML und HeadingParagraph für EPUB und AZW3.
 type: docs
 weight: 80
 url: /de/net/aspose.words.saving/htmlsaveoptions/documentsplitcriteria/
 ---
 ## HtmlSaveOptions.DocumentSplitCriteria property
 
-Gibt an, wie das Dokument beim Speichern aufgeteilt werden sollHtml oderEpub Format. Standard istNone für HTML und HeadingParagraph für EPUB.
+Gibt an, wie das Dokument beim Speichern aufgeteilt werden sollHtml , Epub oderAzw3 Format. Standard istNone für HTML und HeadingParagraph für EPUB und AZW3.
 
 ```csharp
 public DocumentSplitCriteria DocumentSplitCriteria { get; set; }
@@ -16,25 +16,25 @@ public DocumentSplitCriteria DocumentSplitCriteria { get; set; }
 
 ### Bemerkungen
 
-Normalerweise möchten Sie, dass ein Dokument als einzelne Datei im HTML-Format gespeichert wird. Aber in einigen Fällen ist es besser, die Ausgabe in mehrere kleinere HTML-Seiten aufzuteilen. Beim Speichern im HTML-Format werden diese Seiten in einzelne Dateien oder Streams ausgegeben. Beim Speichern im EPUB-Format werden sie in entsprechende Pakete eingebunden.
+Normalerweise möchten Sie, dass ein Dokument als einzelne Datei im HTML-Format gespeichert wird. In manchen Fällen ist es jedoch vorzuziehen, die Ausgabe in mehrere kleinere HTML-Seiten aufzuteilen. Beim Speichern im HTML-Format werden diese Seiten in einzelne Dateien oder Streams ausgegeben. Beim Speichern im EPUB-Format werden sie in entsprechende Pakete eingebunden.
 
-Ein Dokument kann beim Speichern im MHTML-Format nicht geteilt werden.
+Beim Speichern im MHTML-Format kann ein Dokument nicht geteilt werden.
 
 ### Beispiele
 
-Zeigt, wie Sie beim Speichern eines Dokuments im .epub-Format eine bestimmte Codierung verwenden.
+Zeigt, wie beim Speichern eines Dokuments im .epub-Format eine bestimmte Kodierung verwendet wird.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Verwenden Sie ein SaveOptions-Objekt, um die Kodierung für ein zu speicherndes Dokument anzugeben.
+// Verwenden Sie ein SaveOptions-Objekt, um die Codierung für ein Dokument anzugeben, das wir speichern möchten.
 HtmlSaveOptions saveOptions = new HtmlSaveOptions();
 saveOptions.SaveFormat = SaveFormat.Epub;
 saveOptions.Encoding = Encoding.UTF8;
 
-// Standardmäßig hat ein ausgegebenes .epub-Dokument seinen gesamten Inhalt in einem HTML-Teil.
+// Standardmäßig enthält ein .epub-Ausgabedokument seinen gesamten Inhalt in einem HTML-Teil.
 // Ein Split-Kriterium ermöglicht es uns, das Dokument in mehrere HTML-Teile zu segmentieren.
-// Wir werden die Kriterien festlegen, um das Dokument in Überschriftenabsätze aufzuteilen.
+// Wir legen die Kriterien fest, um das Dokument in Überschriftenabsätze aufzuteilen.
 // Dies ist nützlich für Leser, die keine HTML-Dateien lesen können, die größer als eine bestimmte Größe sind.
 saveOptions.DocumentSplitCriteria = DocumentSplitCriteria.HeadingParagraph;
 

@@ -1,14 +1,14 @@
 ---
 title: Document.MailMerge
 second_title: Aspose.Words för .NET API Referens
-description: Document fast egendom. Returnerar en MailMerge objekt som representerar kopplingsfunktionen för dokumentet.
+description: Document fast egendom. Returnerar enMailMerge objekt som representerar kopplingsfunktionen för dokumentet.
 type: docs
-weight: 240
+weight: 260
 url: /sv/net/aspose.words/document/mailmerge/
 ---
 ## Document.MailMerge property
 
-Returnerar en **MailMerge** objekt som representerar kopplingsfunktionen för dokumentet.
+Returnerar en[`MailMerge`](../../../aspose.words.mailmerging/mailmerge/) objekt som representerar kopplingsfunktionen för dokumentet.
 
 ```csharp
 public MailMerge MailMerge { get; }

@@ -1,14 +1,14 @@
 ---
 title: OfficeMath.NodeType
 second_title: Aspose.Words för .NET API Referens
-description: OfficeMath fast egendom. Returnerar NodeType.OfficeMath .
+description: OfficeMath fast egendom. ReturnerarOfficeMath .
 type: docs
-weight: 50
+weight: 40
 url: /sv/net/aspose.words.math/officemath/nodetype/
 ---
 ## OfficeMath.NodeType property
 
-Returnerar **NodeType.OfficeMath** .
+ReturnerarOfficeMath .
 
 ```csharp
 public override NodeType NodeType { get; }
@@ -28,9 +28,6 @@ OfficeMath officeMath = (OfficeMath) doc.GetChild(NodeType.OfficeMath, 0, true);
 Assert.AreEqual(MathObjectType.OMathPara, officeMath.MathObjectType);
 Assert.AreEqual(NodeType.OfficeMath, officeMath.NodeType);
 Assert.AreEqual(officeMath.ParentNode, officeMath.ParentParagraph);
-
-// OOXML- och WML-format använder egenskapen "EquationXmlEncoding".
-Assert.IsNull(officeMath.EquationXmlEncoding);
 
 // Ändra plats och visningstyp för OfficeMath-noden.
 officeMath.DisplayType = OfficeMathDisplayType.Display;

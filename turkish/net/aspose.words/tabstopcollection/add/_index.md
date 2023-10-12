@@ -1,14 +1,14 @@
 ---
 title: TabStopCollection.Add
 second_title: Aspose.Words for .NET API Referansı
-description: TabStopCollection yöntem. Koleksiyonda bir sekme durağı ekler veya onun yerini alır.
+description: TabStopCollection yöntem. Koleksiyona bir sekme durağı ekler veya değiştirir.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/tabstopcollection/add/
 ---
 ## Add(TabStop) {#add}
 
-Koleksiyonda bir sekme durağı ekler veya onun yerini alır.
+Koleksiyona bir sekme durağı ekler veya değiştirir.
 
 ```csharp
 public void Add(TabStop tabStop)
@@ -20,7 +20,7 @@ public void Add(TabStop tabStop)
 
 ### Notlar
 
-Belirtilen konumda bir sekme durağı zaten varsa, değiştirilir.
+Belirtilen konumda zaten bir sekme durağı varsa değiştirilir.
 
 ### Örnekler
 
@@ -30,12 +30,12 @@ Bir belgeye özel sekme duraklarının nasıl ekleneceğini gösterir.
 Document doc = new Document();
 Paragraph paragraph = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
 
-// Aşağıda, "ParagraphFormat" özelliği aracılığıyla bir paragrafın sekme durakları koleksiyonuna sekme durakları eklemenin iki yolu vardır.
+// Aşağıda "ParagraphFormat" özelliği aracılığıyla bir paragrafın sekme durakları koleksiyonuna sekme durakları eklemenin iki yolu verilmiştir.
 // 1 - Bir "TabStop" nesnesi oluşturun ve ardından onu koleksiyona ekleyin:
 TabStop tabStop = new TabStop(ConvertUtil.InchToPoint(3), TabAlignment.Left, TabLeader.Dashes);
 paragraph.ParagraphFormat.TabStops.Add(tabStop);
 
-// 2 - Yeni bir sekme durağının özellikleri için değerleri "Ekle" yöntemine iletin:
+// 2 - Yeni bir sekme durağının özelliklerine ilişkin değerleri "Ekle" yöntemine iletin:
 paragraph.ParagraphFormat.TabStops.Add(ConvertUtil.MillimeterToPoint(100), TabAlignment.Left,
     TabLeader.Dashes);
 
@@ -64,7 +64,7 @@ doc.Save(ArtifactsDir + "TabStopCollection.AddTabStops.docx");
 
 ## Add(double, TabAlignment, TabLeader) {#add_1}
 
-Koleksiyonda bir sekme durağı ekler veya onun yerini alır.
+Koleksiyona bir sekme durağı ekler veya değiştirir.
 
 ```csharp
 public void Add(double position, TabAlignment alignment, TabLeader leader)
@@ -72,13 +72,13 @@ public void Add(double position, TabAlignment alignment, TabLeader leader)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| position | Double | Sekme durağının ekleneceği konum (nokta olarak). |
-| alignment | TabAlignment | A[`TabAlignment`](../../tabalignment/)that değeri, sekme durağındaki metnin hizalamasını belirtir. |
-| leader | TabLeader | A[`TabLeader`](../../tableader/) that değeri, sekme karakterinin altında görüntülenen öncü satırın türünü belirtir. |
+| position | Double | Sekme durağının ekleneceği konum (nokta cinsinden). |
+| alignment | TabAlignment | A[`TabAlignment`](../../tabalignment/) that değeri, sekme durağındaki metnin hizalamasını belirtir. |
+| leader | TabLeader | A[`TabLeader`](../../tableader/) değer that sekme karakterinin altında görüntülenen lider çizgisinin türünü belirtir. |
 
 ### Notlar
 
-Belirtilen konumda bir sekme durağı zaten varsa, değiştirilir.
+Belirtilen konumda zaten bir sekme durağı varsa değiştirilir.
 
 ### Örnekler
 
@@ -88,12 +88,12 @@ Bir belgeye özel sekme duraklarının nasıl ekleneceğini gösterir.
 Document doc = new Document();
 Paragraph paragraph = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
 
-// Aşağıda, "ParagraphFormat" özelliği aracılığıyla bir paragrafın sekme durakları koleksiyonuna sekme durakları eklemenin iki yolu vardır.
+// Aşağıda "ParagraphFormat" özelliği aracılığıyla bir paragrafın sekme durakları koleksiyonuna sekme durakları eklemenin iki yolu verilmiştir.
 // 1 - Bir "TabStop" nesnesi oluşturun ve ardından onu koleksiyona ekleyin:
 TabStop tabStop = new TabStop(ConvertUtil.InchToPoint(3), TabAlignment.Left, TabLeader.Dashes);
 paragraph.ParagraphFormat.TabStops.Add(tabStop);
 
-// 2 - Yeni bir sekme durağının özellikleri için değerleri "Ekle" yöntemine iletin:
+// 2 - Yeni bir sekme durağının özelliklerine ilişkin değerleri "Ekle" yöntemine iletin:
 paragraph.ParagraphFormat.TabStops.Add(ConvertUtil.MillimeterToPoint(100), TabAlignment.Left,
     TabLeader.Dashes);
 

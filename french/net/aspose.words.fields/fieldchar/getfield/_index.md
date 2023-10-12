@@ -1,14 +1,14 @@
 ---
 title: FieldChar.GetField
 second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldChar méthode. Renvoie un champ pour le champ car.
+description: FieldChar méthode. Renvoie un champ pour le champ char.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.fields/fieldchar/getfield/
 ---
 ## FieldChar.GetField method
 
-Renvoie un champ pour le champ car.
+Renvoie un champ pour le champ char.
 
 ```csharp
 public Field GetField()
@@ -20,7 +20,7 @@ Un champ pour le champ char.
 
 ### Remarques
 
-Un nouveau[`Field`](../../field/) l'objet est créé chaque fois que la méthode est appelée.
+Un nouveau[`Field`](../../field/) l'objet est créé à chaque fois que la méthode est appelée.
 
 ### Exemples
 
@@ -46,7 +46,7 @@ field = (FieldDate)fieldStart.GetField();
 Assert.AreEqual(false, field.IsLocked);
 Assert.AreEqual(" DATE  \\@ \"dddd, MMMM dd, yyyy\"", field.GetFieldCode());
 
-// Met à jour le champ pour afficher la date actuelle.
+// Mettez à jour le champ pour afficher la date actuelle.
 field.Update();
 ```
 

@@ -1,14 +1,14 @@
 ---
 title: ParagraphFormat.HangingPunctuation
 second_title: Aspose.Words per .NET API Reference
-description: ParagraphFormat proprietà. Ottiene o imposta un flag che indica se la punteggiatura in sospeso è abilitata per il paragrafo corrente.
+description: ParagraphFormat proprietà. Ottiene o imposta un flag che indica se la punteggiatura sporgente è abilitata per il paragrafo corrente.
 type: docs
-weight: 120
+weight: 130
 url: /it/net/aspose.words/paragraphformat/hangingpunctuation/
 ---
 ## ParagraphFormat.HangingPunctuation property
 
-Ottiene o imposta un flag che indica se la punteggiatura in sospeso è abilitata per il paragrafo corrente.
+Ottiene o imposta un flag che indica se la punteggiatura sporgente è abilitata per il paragrafo corrente.
 
 ```csharp
 public bool HangingPunctuation { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: Field.Type
 second_title: Aspose.Words لمراجع .NET API
-description: Field ملكية. يحصل على نوع حقل Microsoft Word .
+description: Field ملكية. الحصول على نوع حقل Microsoft Word.
 type: docs
 weight: 100
 url: /ar/net/aspose.words.fields/field/type/
 ---
 ## Field.Type property
 
-يحصل على نوع حقل Microsoft Word .
+الحصول على نوع حقل Microsoft Word.
 
 ```csharp
 public virtual FieldType Type { get; }
@@ -16,7 +16,7 @@ public virtual FieldType Type { get; }
 
 ### أمثلة
 
-يوضح كيفية إدراج حقل في مستند باستخدام رمز حقل.
+يوضح كيفية إدراج حقل في مستند باستخدام رمز الحقل.
 
 ```csharp
 Document doc = new Document();

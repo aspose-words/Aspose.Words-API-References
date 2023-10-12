@@ -1,14 +1,14 @@
 ---
 title: FieldMergeBarcode.CaseCodeStyle
 second_title: Referencia de API de Aspose.Words para .NET
-description: FieldMergeBarcode propiedad. Obtiene o establece el estilo de un código de caso para el tipo de código de barras ITF14. Los valores válidos son STDEXTADD
+description: FieldMergeBarcode propiedad. Obtiene o establece el estilo de un Código de caso para el tipo de código de barras ITF14. Los valores válidos son STDEXTADD
 type: docs
 weight: 60
 url: /es/net/aspose.words.fields/fieldmergebarcode/casecodestyle/
 ---
 ## FieldMergeBarcode.CaseCodeStyle property
 
-Obtiene o establece el estilo de un código de caso para el tipo de código de barras ITF14. Los valores válidos son [STD&#x7C;EXT&#x7C;ADD]
+Obtiene o establece el estilo de un Código de caso para el tipo de código de barras ITF14. Los valores válidos son [STD&#x7C;EXT&#x7C;ADD]
 
 ```csharp
 public string CaseCodeStyle { get; set; }
@@ -23,7 +23,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Inserte un campo MERGEBARCODE, que aceptará valores de una fuente de datos durante una combinación de correspondencia.
-// Este campo convertirá todos los valores en la columna "MyITF14Barcode" de una fuente de datos combinados en códigos de barras ITF14.
+// Este campo convertirá todos los valores de la columna "MyITF14Barcode" de una fuente de datos combinada en códigos de barras ITF14.
 FieldMergeBarcode field = (FieldMergeBarcode)builder.InsertField(FieldType.FieldMergeBarcode, true);
 field.BarcodeType = "ITF14";
 field.BarcodeValue = "MyITF14Barcode";
@@ -32,7 +32,7 @@ field.CaseCodeStyle = "STD";
 Assert.AreEqual(FieldType.FieldMergeBarcode, field.Type);
 Assert.AreEqual(" MERGEBARCODE  MyITF14Barcode ITF14 \\c STD", field.GetFieldCode());
 
-// Crear un DataTable con una columna con el mismo nombre que el BarcodeValue de nuestro campo MERGEBARCODE.
+// Crea una DataTable con una columna con el mismo nombre que BarcodeValue de nuestro campo MERGEBARCODE.
 // La combinación de correspondencia creará una nueva página para cada fila. Cada página contendrá un campo DISPLAYBARCODE,
 // que mostrará un código de barras ITF14 con el valor de la fila fusionada.
 DataTable table = new DataTable("Barcodes");

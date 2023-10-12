@@ -11,7 +11,7 @@ url: /sv/net/aspose.words/comment/id/
 Hämtar kommentarsidentifieraren.
 
 ```csharp
-public int Id { get; }
+public int Id { get; set; }
 ```
 
 ### Anmärkningar

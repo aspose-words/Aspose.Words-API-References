@@ -1,14 +1,14 @@
 ---
 title: PageInfo.GetDotNetPaperSize
 second_title: Aspose.Words per .NET API Reference
-description: PageInfo metodo. Ottiene ilPaperSize oggetto adatto a stampare la pagina rappresentata da questoPageInfo .
+description: PageInfo metodo. Ottiene il filePaperSize oggetto adatto a stampare la pagina rappresentata da questoPageInfo .
 type: docs
-weight: 70
+weight: 80
 url: /it/net/aspose.words.rendering/pageinfo/getdotnetpapersize/
 ---
 ## PageInfo.GetDotNetPaperSize method
 
-Ottiene ilPaperSize oggetto adatto a stampare la pagina rappresentata da questo[`PageInfo`](../) .
+Ottiene il filePaperSize oggetto adatto a stampare la pagina rappresentata da questo[`PageInfo`](../) .
 
 ```csharp
 public PaperSize GetDotNetPaperSize(PaperSizeCollection paperSizes)
@@ -20,7 +20,7 @@ public PaperSize GetDotNetPaperSize(PaperSizeCollection paperSizes)
 
 ### Valore di ritorno
 
-Un oggetto che è possibile utilizzare nel framework di stampa .NET per specificare il formato carta.
+Oggetto che è possibile utilizzare nel framework di stampa .NET per specificare il formato carta.
 
 ### Esempi
 
@@ -38,7 +38,7 @@ Document doc = new Document(MyDir + "Rendering.docx");
 }
 
 /// <summary>
-/// Seleziona un formato carta, un orientamento e un vassoio carta appropriati durante la stampa.
+/// Seleziona il formato carta, l'orientamento e il vassoio carta appropriati durante la stampa.
 /// </summary>
 public class MyPrintDocument : PrintDocument
 {
@@ -70,33 +70,33 @@ public class MyPrintDocument : PrintDocument
     }
 
     /// <summary>
-    /// Chiamato prima della stampa di ogni pagina. 
+     /// Chiamato prima che ogni pagina venga stampata.
     /// </summary>
     protected override void OnQueryPageSettings(QueryPageSettingsEventArgs e)
     {
         base.OnQueryPageSettings(e);
 
-        // Un singolo documento di Microsoft Word può avere più sezioni che specificano pagine con dimensioni diverse, 
-        // orientamenti e vassoi carta. Il framework di stampa .NET chiama questo codice prima 
-        // viene stampata ogni pagina, il che ci dà la possibilità di specificare come stampare la pagina corrente.
+         // Un singolo documento Microsoft Word può avere più sezioni che specificano pagine con dimensioni diverse,
+         // orientamenti e vassoi della carta. Il framework di stampa .NET chiama questo codice prima
+        // ogni pagina viene stampata, il che ci dà la possibilità di specificare come stampare la pagina corrente.
         PageInfo pageInfo = mDocument.GetPageInfo(mCurrentPage - 1);
         e.PageSettings.PaperSize = pageInfo.GetDotNetPaperSize(PrinterSettings.PaperSizes);
 
-        // Microsoft Word memorizza l'origine carta (vassoio stampante) per ciascuna sezione come valore specifico della stampante.
+        // Microsoft Word memorizza l'origine della carta (vassoio della stampante) per ciascuna sezione come valore specifico della stampante.
         // Per ottenere il valore corretto del vassoio, dovrai utilizzare la proprietà "RawKind", che la tua stampante dovrebbe restituire.
         e.PageSettings.PaperSource.RawKind = pageInfo.PaperTray;
         e.PageSettings.Landscape = pageInfo.Landscape;
     }
 
     /// <summary>
-    /// Chiamato per ogni pagina per renderla per la stampa. 
+     /// Richiesto per ogni pagina di renderizzarla per la stampa.
     /// </summary>
     protected override void OnPrintPage(PrintPageEventArgs e)
     {
         base.OnPrintPage(e);
 
         // Il motore di rendering Aspose.Words crea una pagina disegnata dall'origine (x = 0, y = 0) del foglio.
-        // Ci sarà un margine rigido nella stampante, che eseguirà il rendering di ogni pagina. Dobbiamo compensare con quel margine duro.
+        // Ci sarà un margine fisso nella stampante, che renderà ogni pagina. Dobbiamo compensare con quel margine rigido.
         float hardOffsetX, hardOffsetY;
 
         // Di seguito sono riportati due modi per impostare un margine rigido.

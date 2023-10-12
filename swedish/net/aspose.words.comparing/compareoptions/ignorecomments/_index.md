@@ -3,7 +3,7 @@ title: CompareOptions.IgnoreComments
 second_title: Aspose.Words för .NET API Referens
 description: CompareOptions fast egendom. Anger om skillnader i kommentarer ska jämföras. Som standard ignoreras inte kommentarer.
 type: docs
-weight: 40
+weight: 50
 url: /sv/net/aspose.words.comparing/compareoptions/ignorecomments/
 ---
 ## CompareOptions.IgnoreComments property
@@ -40,7 +40,7 @@ Shape textBox = builder.InsertShape(ShapeType.TextBox, 150, 20);
 builder.MoveTo(textBox.FirstParagraph);
 builder.Write("Original textbox contents");
 
-// DATE-fält:
+// DATUMfält:
 builder.MoveTo(docOriginal.FirstSection.Body.AppendParagraph(""));
 builder.InsertField(" DATE ");
 

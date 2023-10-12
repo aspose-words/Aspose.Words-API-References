@@ -16,15 +16,16 @@ public string GroupName { get; set; }
 
 ### Remarques
 
-Lorsque le nom du groupe est nul,[`GroupIndex`](../groupindex/) sert à identifier le groupe.
+Lorsque le nom du groupe est`nul` ,[`GroupIndex`](../groupindex/) est utilisé pour identifier le groupe.
 
-La valeur par défaut est nulle.
+La valeur par défaut est`nul`.
 
 ### Exemples
 
-Montre comment appliquer une police différente à un nouveau contenu via FindReplaceOptions.
+Montre comment appliquer une police différente au nouveau contenu via FindReplaceOptions.
 
 ```csharp
+public void ConvertNumbersToHexadecimal()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -36,7 +37,7 @@ Montre comment appliquer une police différente à un nouveau contenu via FindRe
     // Nous pouvons utiliser un objet "FindReplaceOptions" pour modifier le processus de recherche et de remplacement.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // Définissez la propriété "HighlightColor" sur une couleur d'arrière-plan que nous voulons appliquer au texte résultant de l'opération.
+    // Définissez la propriété "HighlightColor" sur une couleur d'arrière-plan que nous souhaitons appliquer au texte résultant de l'opération.
     options.ApplyFont.HighlightColor = Color.LightGray;
 
     NumberHexer numberHexer = new NumberHexer();
@@ -55,7 +56,7 @@ Montre comment appliquer une police différente à un nouveau contenu via FindRe
 
 /// <summary>
 /// Remplace les correspondances numériques de recherche et de remplacement par leurs équivalents hexadécimaux.
-/// Maintient un journal de chaque remplacement.
+/// Tient un journal de chaque remplacement.
 /// </summary>
 private class NumberHexer : IReplacingCallback
 {

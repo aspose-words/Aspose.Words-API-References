@@ -3,7 +3,7 @@ title: Enum HeaderFooterType
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.HeaderFooterType uppräkning. Identifierar typen av sidhuvud eller sidfot som finns i en Wordfil.
 type: docs
-weight: 2940
+weight: 3120
 url: /sv/net/aspose.words/headerfootertype/
 ---
 ## HeaderFooterType enumeration

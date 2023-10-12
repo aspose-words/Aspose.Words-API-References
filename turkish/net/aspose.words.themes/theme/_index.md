@@ -1,14 +1,16 @@
 ---
 title: Class Theme
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Themes.Theme sınıf. Belge Temasını temsil eder ve aşağıdakiler dahil ana tema bölümlerine erişim sağlarMajorFonts MinorFonts veColors
+description: Aspose.Words.Themes.Theme sınıf. Belge Temasını temsil eder ve aşağıdakiler dahil ana tema parçalarına erişim sağlarMajorFonts MinorFonts VeColors
 type: docs
-weight: 6160
+weight: 6460
 url: /tr/net/aspose.words.themes/theme/
 ---
 ## Theme class
 
-Belge Temasını temsil eder ve aşağıdakiler dahil ana tema bölümlerine erişim sağlar:[`MajorFonts`](./majorfonts/) ,[`MinorFonts`](./minorfonts/) ve[`Colors`](./colors/)
+Belge Temasını temsil eder ve aşağıdakiler dahil ana tema parçalarına erişim sağlar:[`MajorFonts`](./majorfonts/) ,[`MinorFonts`](./minorfonts/) Ve[`Colors`](./colors/)
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Stiller ve Temalarla Çalışmak](https://docs.aspose.com/words/net/working-with-styles-and-themes/) dokümantasyon makalesi.
 
 ```csharp
 public class Theme
@@ -24,9 +26,9 @@ public class Theme
 
 | İsim | Tanım |
 | --- | --- |
-| [Colors](../../aspose.words.themes/theme/colors/) { get; } | Belge için tema renkleri kümesini belirlemeye izin verir. |
-| [MajorFonts](../../aspose.words.themes/theme/majorfonts/) { get; } | Farklı diller için ana yazı tiplerini belirlemeye izin verir. |
-| [MinorFonts](../../aspose.words.themes/theme/minorfonts/) { get; } | Farklı diller için küçük yazı tiplerini belirlemeye izin verir. |
+| [Colors](../../aspose.words.themes/theme/colors/) { get; } | Belge için tema renkleri kümesini belirlemeye olanak tanır. |
+| [MajorFonts](../../aspose.words.themes/theme/majorfonts/) { get; } | Farklı diller için ana yazı tiplerini belirlemeye olanak tanır. |
+| [MinorFonts](../../aspose.words.themes/theme/minorfonts/) { get; } | Farklı diller için ikincil yazı tipleri kümesini belirlemeye olanak tanır. |
 
 ### Örnekler
 
@@ -35,24 +37,24 @@ Temalar için özel renklerin ve yazı tiplerinin nasıl ayarlanacağını göst
 ```csharp
 Document doc = new Document(MyDir + "Theme colors.docx");
 
-// "Tema" nesnesi, varsayılan yazı tiplerinin ve renklerin kaynağı olan belge temasına erişmemizi sağlar.
+// "Tema" nesnesi, varsayılan yazı tipleri ve renklerin kaynağı olan belge temasına erişmemizi sağlar.
 Theme theme = doc.Theme;
 
-// "Heading 1" ve "Subtitle" gibi bazı stiller bu yazı tiplerini devralır.
+// "Başlık 1" ve "Altyazı" gibi bazı stiller bu yazı tiplerini devralır.
 theme.MajorFonts.Latin = "Courier New";
 theme.MinorFonts.Latin = "Agency FB";
 
-// Diğer diller de bu temada kendi özel yazı tiplerine sahip olabilir.
+// Bu temada diğer dillerin de kendi özel yazı tipleri olabilir.
 Assert.AreEqual(string.Empty, theme.MajorFonts.ComplexScript);
 Assert.AreEqual(string.Empty, theme.MajorFonts.EastAsian);
 Assert.AreEqual(string.Empty, theme.MinorFonts.ComplexScript);
 Assert.AreEqual(string.Empty, theme.MinorFonts.EastAsian);
 
-// "Renkler" özelliği, Microsoft Word'den renk paletini içerir,
-// gölgelendirmeyi veya yazı tipi rengini değiştirirken görünen.
-// Microsoft Word'de kolayca erişebilmemiz için renk paletine özel renkler uygulayın
-// örneğin yazı tipi rengini "Ana Sayfa" ile değiştirdiğimizde -> "Yazı Tipi" -> "Yazı rengi",
-// veya bir şekil ekleyin ve ardından "Şekil Formatı" ile bunun için bir renk ayarlayın -> "Şekil Stilleri".
+// "Renkler" özelliği Microsoft Word'ün renk paletini içerir,
+// gölgeleme veya yazı tipi rengini değiştirirken görünen.
+// Renk paletine özel renkler uygulayın, böylece Microsoft Word'de bunlara kolayca erişebilelim
+// örneğin yazı tipi rengini "Ana Sayfa" aracılığıyla değiştirdiğimizde -> "Yazı Tipi" -> "Yazı rengi",
+// veya bir şekil ekleyin ve ardından "Şekil Formatı" aracılığıyla bunun için bir renk ayarlayın --> "Şekil Stilleri".
 ThemeColors colors = theme.Colors;
 colors.Dark1 = Color.MidnightBlue;
 colors.Light1 = Color.PaleGreen;
@@ -66,7 +68,7 @@ colors.Accent4 = Color.Gold;
 colors.Accent5 = Color.BlueViolet;
 colors.Accent6 = Color.DarkViolet;
 
-// Tıklanan ve tıklanmayan durumlarındaki köprülere özel renkler uygulayın.
+// Köprülere tıklanmış ve tıklanmamış durumlarında özel renkler uygulayın.
 colors.Hyperlink = Color.Black;
 colors.FollowedHyperlink = Color.Gray;
 

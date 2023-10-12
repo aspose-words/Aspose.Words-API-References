@@ -1,14 +1,14 @@
 ---
 title: KnownTypeSet.Remove
 second_title: Aspose.Words لمراجع .NET API
-description: KnownTypeSet طريقة. يزيل المحددTypeكائن من المجموعة. رمياتArgumentException if type فارغ .
+description: KnownTypeSet طريقة. إزالة المحددTypeكائن من المجموعة. رمياتArgumentException إذا type يكونباطل .
 type: docs
 weight: 50
 url: /ar/net/aspose.words.reporting/knowntypeset/remove/
 ---
 ## KnownTypeSet.Remove method
 
-يزيل المحددTypeكائن من المجموعة. رمياتArgumentException if *type* فارغ .
+إزالة المحددTypeكائن من المجموعة. رمياتArgumentException إذا *type* يكون`باطل` .
 
 ```csharp
 public void Remove(Type type)
@@ -16,7 +16,7 @@ public void Remove(Type type)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| type | Type | أType كائن للإزالة. |
+| type | Type | أType كائن لإزالة. |
 
 ### أنظر أيضا
 

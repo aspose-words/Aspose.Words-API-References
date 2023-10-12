@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTag.LockContents
 second_title: Aspose.Words för .NET API Referens
-description: StructuredDocumentTag fast egendom. När den är satt till true kommer den här egenskapen att förbjuda en användare att redigera innehållet i denna SDT .
+description: StructuredDocumentTag fast egendom. När inställd påSann  kommer den här egenskapen att förbjuda en användare från att redigera innehållet i denna SDT .
 type: docs
 weight: 200
 url: /sv/net/aspose.words.markup/structureddocumenttag/lockcontents/
 ---
 ## StructuredDocumentTag.LockContents property
 
-När den är satt till true kommer den här egenskapen att förbjuda en användare att redigera innehållet i denna **SDT** .
+När inställd på`Sann` , kommer den här egenskapen att förbjuda en användare från att redigera innehållet i denna **SDT** .
 
 ```csharp
 public bool LockContents { get; set; }

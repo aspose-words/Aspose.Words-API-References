@@ -3,12 +3,14 @@ title: Class TableCollection
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.Tables.TableCollection clase. Proporciona acceso escrito a una colección deTable nodos.
 type: docs
-weight: 6060
+weight: 6360
 url: /es/net/aspose.words.tables/tablecollection/
 ---
 ## TableCollection class
 
 Proporciona acceso escrito a una colección de[`Table`](../table/) nodos.
+
+Para obtener más información, visite el[Trabajar con tablas](https://docs.aspose.com/words/net/working-with-tables/) artículo de documentación.
 
 ```csharp
 public class TableCollection : NodeCollection
@@ -19,7 +21,7 @@ public class TableCollection : NodeCollection
 | Nombre | Descripción |
 | --- | --- |
 | [Count](../../aspose.words/nodecollection/count/) { get; } | Obtiene el número de nodos de la colección. |
-| [Item](../../aspose.words.tables/tablecollection/item/) { get; } | Recupera un **Mesa** en el índice dado. (2 indexers) |
+| [Item](../../aspose.words.tables/tablecollection/item/) { get; } | Recupera un[`Table`](../table/) en el índice dado. (2 indexers) |
 
 ## Métodos
 
@@ -33,7 +35,7 @@ public class TableCollection : NodeCollection
 | [Insert](../../aspose.words/nodecollection/insert/)(int, Node) | Inserta un nodo en la colección en el índice especificado. |
 | [Remove](../../aspose.words/nodecollection/remove/)(Node) | Elimina el nodo de la colección y del documento. |
 | [RemoveAt](../../aspose.words/nodecollection/removeat/)(int) | Elimina el nodo en el índice especificado de la colección y del documento. |
-| [ToArray](../../aspose.words.tables/tablecollection/toarray/#toarray_1)() | Copia todas las tablas de la colección a una nueva matriz de tablas. (2 methods) |
+| [ToArray](../../aspose.words.tables/tablecollection/toarray/#toarray_1)() | Copia todas las tablas de la colección en una nueva matriz de tablas. (2 methods) |
 
 ### Ejemplos
 
@@ -57,23 +59,22 @@ Assert.AreEqual(3, tables[0].Rows.Count);
 Assert.AreEqual(2, tables[1].Rows.Count);
 ```
 
-Muestra cómo averiguar si las tablas están anidadas.
+Muestra cómo saber si una tabla está anidada.
 
 ```csharp
 public void CalculateDepthOfNestedTables()
 {
     Document doc = new Document(MyDir + "Nested tables.docx");
     NodeCollection tables = doc.GetChildNodes(NodeType.Table, true);
-
     for (int i = 0; i < tables.Count; i++)
     {
         Table table = (Table)tables[i];
 
-        // Averigüe si alguna celda de la tabla tiene otras tablas como hijos.
+        // Descubra si alguna celda de la tabla tiene otras tablas como hijas.
         int count = GetChildTableCount(table);
         Console.WriteLine("Table #{0} has {1} tables directly within its cells", i, count);
 
-        // Averigüe si la tabla está anidada dentro de otra tabla y, de ser así, a qué profundidad.
+        // Descubra si la tabla está anidada dentro de otra tabla y, de ser así, a qué profundidad.
         int tableDepth = GetNestedDepthOfTable(table);
 
         if (tableDepth > 0)
@@ -85,7 +86,7 @@ public void CalculateDepthOfNestedTables()
 }
 
 /// <summary>
-/// Calcula a qué nivel está anidada una tabla dentro de otras tablas.
+/// Calcula en qué nivel está anidada una tabla dentro de otras tablas.
 /// </summary>
 /// <returns>
 /// Un número entero que indica la profundidad de anidamiento de la tabla (número de nodos de la tabla principal).

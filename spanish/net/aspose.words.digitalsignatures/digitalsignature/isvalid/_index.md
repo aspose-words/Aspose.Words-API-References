@@ -1,14 +1,14 @@
 ---
 title: DigitalSignature.IsValid
 second_title: Referencia de API de Aspose.Words para .NET
-description: DigitalSignature propiedad. Devuelve verdadero si esta firma digital es válida y el documento no ha sido manipulado.
+description: DigitalSignature propiedad. Devolucionesverdadero si esta firma digital es válida y el documento no ha sido alterado.
 type: docs
 weight: 40
 url: /es/net/aspose.words.digitalsignatures/digitalsignature/isvalid/
 ---
 ## DigitalSignature.IsValid property
 
-Devuelve verdadero si esta firma digital es válida y el documento no ha sido manipulado.
+Devoluciones`verdadero` si esta firma digital es válida y el documento no ha sido alterado.
 
 ```csharp
 public bool IsValid { get; }

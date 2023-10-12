@@ -16,13 +16,14 @@ public bool UpdatePageNumbers()
 
 ### Returvärde
 
-Sant om operationen lyckas. Om något av de relaterade TOC-bokmärkena togs bort kommer false att returneras.
+`Sann` om operationen lyckas. Om något av de relaterade TOC-bokmärkena togs bort,`falsk` kommer att returneras.
 
 ### Exempel
 
 Visar hur man infogar en innehållsförteckning och fyller den med poster baserat på rubrikstilar.
 
 ```csharp
+public void FieldToc()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -52,7 +53,7 @@ Visar hur man infogar en innehållsförteckning och fyller den med poster basera
     // Innehållsförteckningen visar inte sidnumren för rubriker vars innehållsförteckningsnivåer ligger inom detta intervall.
     field.PageNumberOmittingLevelRange = "2-5";
 
-      // Ställ in en anpassad sträng som skiljer varje rubrik från dess sidnummer.
+     // Ställ in en anpassad sträng som skiljer varje rubrik från dess sidnummer.
     field.EntrySeparator = "-";
     field.InsertHyperlinks = true;
     field.HideInWebLayout = false;
@@ -84,6 +85,7 @@ Visar hur man infogar en innehållsförteckning och fyller den med poster basera
     field.UpdatePageNumbers();
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.TOC.docx");
+}
 
 /// <summary>
 /// Starta en ny sida och infoga ett stycke av en angiven stil.

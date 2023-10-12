@@ -1,14 +1,14 @@
 ---
 title: Interface IResourceLoadingCallback
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Loading.IResourceLoadingCallback интерфейс. Реализуйте этот интерфейс если вы хотите контролировать как Aspose.Words загружает внешний ресурс когда импортирует документ и вставляет изображения с помощьюDocumentBuilder .
+description: Aspose.Words.Loading.IResourceLoadingCallback интерфейс. Реализуйте этот интерфейс если хотите контролировать как Aspose.Words загружает внешний ресурс при импорте документа и вставке изображений с помощьюDocumentBuilder .
 type: docs
-weight: 3440
+weight: 3640
 url: /ru/net/aspose.words.loading/iresourceloadingcallback/
 ---
 ## IResourceLoadingCallback interface
 
-Реализуйте этот интерфейс, если вы хотите контролировать, как Aspose.Words загружает внешний ресурс, когда импортирует документ и вставляет изображения с помощью[`DocumentBuilder`](../../aspose.words/documentbuilder/) .
+Реализуйте этот интерфейс, если хотите контролировать, как Aspose.Words загружает внешний ресурс при импорте документа и вставке изображений с помощью[`DocumentBuilder`](../../aspose.words/documentbuilder/) .
 
 ```csharp
 public interface IResourceLoadingCallback
@@ -25,6 +25,7 @@ public interface IResourceLoadingCallback
 Показывает, как настроить процесс загрузки внешних ресурсов в документ.
 
 ```csharp
+public void ResourceLoadingCallback()
 {
     Document doc = new Document();
     doc.ResourceLoadingCallback = new ImageNameHandler();
@@ -32,7 +33,7 @@ public interface IResourceLoadingCallback
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     // Изображения обычно вставляются с использованием URI или массива байтов.
-    // Каждый экземпляр загрузки ресурсов будет вызывать метод ResourceLoading нашего обратного вызова.
+    // Каждый экземпляр загрузки ресурса будет вызывать метод ResourceLoading нашего обратного вызова.
     builder.InsertImage("Google logo");
     builder.InsertImage("Aspose logo");
     builder.InsertImage("Watermark");
@@ -40,10 +41,11 @@ public interface IResourceLoadingCallback
     Assert.AreEqual(3, doc.GetChildNodes(NodeType.Shape, true).Count);
 
     doc.Save(ArtifactsDir + "DocumentBase.ResourceLoadingCallback.docx");
+}
 
 /// <summary>
 /// Позволяет нам загружать изображения в документ, используя предопределенные сокращения, а не URI.
-/// Это отделит логику загрузки изображения от остальной конструкции документа.
+/// Это позволит отделить логику загрузки изображения от остальной части конструкции документа.
 /// </summary>
 private class ImageNameHandler : IResourceLoadingCallback
 {

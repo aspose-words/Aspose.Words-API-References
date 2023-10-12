@@ -3,7 +3,7 @@ title: Interface IPageSavingCallback
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Saving.IPageSavingCallback gränssnitt. Implementera detta gränssnitt om du vill styra hur Aspose.Words sparar separata sidor när sparar ett dokument i fasta sidformat.
 type: docs
-weight: 4920
+weight: 5180
 url: /sv/net/aspose.words.saving/ipagesavingcallback/
 ---
 ## IPageSavingCallback interface

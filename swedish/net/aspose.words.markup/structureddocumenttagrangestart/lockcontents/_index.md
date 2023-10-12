@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTagRangeStart.LockContents
 second_title: Aspose.Words för .NET API Referens
-description: StructuredDocumentTagRangeStart fast egendom. När den är inställd på true kommer den här egenskapen att förbjuda en användare att redigera innehållet i denna strukturerade dokumenttagg.
+description: StructuredDocumentTagRangeStart fast egendom. När inställd påSann  kommer den här egenskapen att förbjuda en användare från att redigera innehållet i denna strukturerade dokumenttagg.
 type: docs
 weight: 90
 url: /sv/net/aspose.words.markup/structureddocumenttagrangestart/lockcontents/
 ---
 ## StructuredDocumentTagRangeStart.LockContents property
 
-När den är inställd på true kommer den här egenskapen att förbjuda en användare att redigera innehållet i denna strukturerade dokumenttagg.
+När inställd på`Sann` , kommer den här egenskapen att förbjuda en användare från att redigera innehållet i denna strukturerade dokumenttagg.
 
 ```csharp
 public bool LockContents { get; set; }

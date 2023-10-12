@@ -1,14 +1,14 @@
 ---
 title: Table.StyleIdentifier
 second_title: Aspose.Words für .NET-API-Referenz
-description: Table eigendom. Ruft den gebietsschemaunabhängigen Stilbezeichner des auf diese Tabelle angewendeten Tabellenstils ab oder legt ihn fest.
+description: Table eigendom. Ruft die vom Gebietsschema unabhängige Stilkennung des auf diese Tabelle angewendeten Tabellenstils ab oder legt diesen fest.
 type: docs
 weight: 280
 url: /de/net/aspose.words.tables/table/styleidentifier/
 ---
 ## Table.StyleIdentifier property
 
-Ruft den gebietsschemaunabhängigen Stilbezeichner des auf diese Tabelle angewendeten Tabellenstils ab oder legt ihn fest.
+Ruft die vom Gebietsschema unabhängige Stilkennung des auf diese Tabelle angewendeten Tabellenstils ab oder legt diesen fest.
 
 ```csharp
 public StyleIdentifier StyleIdentifier { get; set; }
@@ -16,7 +16,7 @@ public StyleIdentifier StyleIdentifier { get; set; }
 
 ### Beispiele
 
-Zeigt, wie eine neue Tabelle erstellt wird, während ein Stil angewendet wird.
+Zeigt, wie man eine neue Tabelle erstellt und dabei einen Stil anwendet.
 
 ```csharp
 Document doc = new Document();
@@ -30,7 +30,7 @@ builder.InsertCell();
 // Beachten Sie, dass beim Speichern im .doc-Format nicht alle Tabellenstile verfügbar sind.
 table.StyleIdentifier = StyleIdentifier.MediumShading1Accent1;
 
-// Wenden Sie den Stil teilweise auf Features der Tabelle an, basierend auf Prädikaten, und erstellen Sie dann die Tabelle.
+// Den Stil basierend auf Prädikaten teilweise auf Features der Tabelle anwenden und dann die Tabelle erstellen.
 table.StyleOptions =
     TableStyleOptions.FirstColumn | TableStyleOptions.RowBands | TableStyleOptions.FirstRow;
 table.AutoFit(AutoFitBehavior.AutoFitToContents);

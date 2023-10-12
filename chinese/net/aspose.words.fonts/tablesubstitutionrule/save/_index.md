@@ -20,7 +20,7 @@ public void Save(string fileName)
 
 ### 例子
 
-显示如何访问 Windows 和 Linux 的字体替换表。
+演示如何访问 Windows 和 Linux 的字体替换表。
 
 ```csharp
 Document doc = new Document();
@@ -31,17 +31,17 @@ doc.FontSettings = fontSettings;
 TableSubstitutionRule tableSubstitutionRule = fontSettings.SubstitutionSettings.TableSubstitution;
 tableSubstitutionRule.LoadWindowsSettings();
 
-// 在 Windows 中，“Times New Roman CE”字体的默认替代品是“Times New Roman”。
+// 在 Windows 中，“Times New Roman CE”字体的默认替代字体是“Times New Roman”。
 Assert.AreEqual(new[] {"Times New Roman"},
     tableSubstitutionRule.GetSubstitutes("Times New Roman CE").ToArray());
 
-// 我们可以将表格保存为 XML 文档的形式。
+// 我们可以将表保存为XML文档的形式。
 tableSubstitutionRule.Save(ArtifactsDir + "FontSettings.TableSubstitutionRule.Windows.xml");
 
 // Linux 有自己的替换表。
 // “Times New Roman CE”有多种替代字体。
 // 如果第一个替换，“FreeSerif”也不可用，
-// 此规则将循环遍历数组中的其他规则，直到找到可用的规则。
+// 该规则将循环遍历数组中的其他规则，直到找到可用的规则。
 tableSubstitutionRule.LoadLinuxSettings();
 Assert.AreEqual(new[] {"FreeSerif", "Liberation Serif", "DejaVu Serif"},
     tableSubstitutionRule.GetSubstitutes("Times New Roman CE").ToArray());
@@ -76,7 +76,7 @@ public void Save(Stream outputStream)
 
 ### 例子
 
-显示如何访问 Windows 和 Linux 的字体替换表。
+演示如何访问 Windows 和 Linux 的字体替换表。
 
 ```csharp
 Document doc = new Document();
@@ -87,17 +87,17 @@ doc.FontSettings = fontSettings;
 TableSubstitutionRule tableSubstitutionRule = fontSettings.SubstitutionSettings.TableSubstitution;
 tableSubstitutionRule.LoadWindowsSettings();
 
-// 在 Windows 中，“Times New Roman CE”字体的默认替代品是“Times New Roman”。
+// 在 Windows 中，“Times New Roman CE”字体的默认替代字体是“Times New Roman”。
 Assert.AreEqual(new[] {"Times New Roman"},
     tableSubstitutionRule.GetSubstitutes("Times New Roman CE").ToArray());
 
-// 我们可以将表格保存为 XML 文档的形式。
+// 我们可以将表保存为XML文档的形式。
 tableSubstitutionRule.Save(ArtifactsDir + "FontSettings.TableSubstitutionRule.Windows.xml");
 
 // Linux 有自己的替换表。
 // “Times New Roman CE”有多种替代字体。
 // 如果第一个替换，“FreeSerif”也不可用，
-// 此规则将循环遍历数组中的其他规则，直到找到可用的规则。
+// 该规则将循环遍历数组中的其他规则，直到找到可用的规则。
 tableSubstitutionRule.LoadLinuxSettings();
 Assert.AreEqual(new[] {"FreeSerif", "Liberation Serif", "DejaVu Serif"},
     tableSubstitutionRule.GetSubstitutes("Times New Roman CE").ToArray());

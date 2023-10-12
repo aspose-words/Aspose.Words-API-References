@@ -1,14 +1,14 @@
 ---
 title: FieldPageRef.InsertHyperlink
 second_title: Referencia de API de Aspose.Words para .NET
-description: FieldPageRef propiedad. Obtiene o establece si se inserta un hipervínculo al párrafo marcado.
+description: FieldPageRef propiedad. Obtiene o establece si se debe insertar un hipervínculo al párrafo marcado.
 type: docs
 weight: 30
 url: /es/net/aspose.words.fields/fieldpageref/inserthyperlink/
 ---
 ## FieldPageRef.InsertHyperlink property
 
-Obtiene o establece si se inserta un hipervínculo al párrafo marcado.
+Obtiene o establece si se debe insertar un hipervínculo al párrafo marcado.
 
 ```csharp
 public bool InsertHyperlink { get; set; }
@@ -22,18 +22,18 @@ Muestra para insertar campos PAGEREF para mostrar la ubicación relativa de los 
 public void FieldPageRef()
 {
     Document doc = new Document();
-    DocumentBuilder builder = new DocumentBuilder(doc);
+    DocumentBuilder builder = new DocumentBuilder(doc);            
 
     InsertAndNameBookmark(builder, "MyBookmark1");
 
-    // Inserte un campo PAGEREF que muestre en qué página está un marcador.
-    // Configure el indicador InsertHyperlink para que el campo también funcione como un enlace al marcador en el que se puede hacer clic.
+    // Inserta un campo PAGEREF que muestra en qué página se encuentra un marcador.
+    // Establece el indicador InsertHyperlink para que el campo también funcione como un enlace al marcador en el que se puede hacer clic.
     Assert.AreEqual(" PAGEREF  MyBookmark3 \\h", 
         InsertFieldPageRef(builder, "MyBookmark3", true, false, "Hyperlink to Bookmark3, on page: ").GetFieldCode());
 
     // Podemos usar el indicador \p para mostrar el campo PAGEREF
     // la posición del marcador en relación con la posición del campo.
-    // Bookmark1 está en la misma página y encima de este campo, por lo que el resultado mostrado de este campo será "arriba".
+    // Bookmark1 está en la misma página y encima de este campo, por lo que el resultado mostrado de este campo estará "arriba".
     Assert.AreEqual(" PAGEREF  MyBookmark1 \\h \\p", 
         InsertFieldPageRef(builder, "MyBookmark1", true, true, "Bookmark1 is ").GetFieldCode());
 
@@ -49,8 +49,10 @@ public void FieldPageRef()
     builder.InsertBreak(BreakType.PageBreak);
     InsertAndNameBookmark(builder, "MyBookmark3");
 
+    doc.UpdatePageLayout();
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.PAGEREF.docx");
+}
 
 /// <summary>
 /// Utiliza un generador de documentos para insertar un campo PAGEREF y establece sus propiedades.

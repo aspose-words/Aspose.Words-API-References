@@ -3,7 +3,7 @@ title: Run.GetText
 second_title: Aspose.Words for .NET API Referansı
 description: Run yöntem. Çalıştırmanın metnini alır.
 type: docs
-weight: 50
+weight: 70
 url: /tr/net/aspose.words/run/gettext/
 ---
 ## Run.GetText method
@@ -16,7 +16,7 @@ public override string GetText()
 
 ### Geri dönüş değeri
 
-Koşunun metni.
+Çalıştırmanın metni.
 
 ### Örnekler
 
@@ -28,21 +28,21 @@ public void HeaderFooterToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     HeaderFooterStructurePrinter visitor = new HeaderFooterStructurePrinter();
 
-    // Bir belge ziyaretçisini kabul etmek için bir bileşik düğüm aldığımızda, ziyaretçi kabul eden düğümü ziyaret eder,
-    // ve ardından tüm düğümün alt öğelerini derinlik öncelikli bir şekilde çaprazlar.
-    // Ziyaretçi, ziyaret edilen her düğümü okuyabilir ve değiştirebilir.
+    // Bir belge ziyaretçisini kabul edecek bileşik bir düğüm aldığımızda, ziyaretçi kabul eden düğümü ziyaret eder,
+    // ve ardından düğümün tüm alt öğelerini derinlik öncelikli bir şekilde geçer.
+    // Ziyaretçi ziyaret edilen her düğümü okuyabilir ve değiştirebilir.
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 
-    // Bir belgenin üstbilgi/altbilgilerine bölüm bölüm erişmenin alternatif bir yolu, koleksiyona erişmektir.
+    // Bir belgenin üstbilgisine/altbilgilerine bölüm bölüm erişmenin alternatif bir yolu da koleksiyona erişmektir.
     HeaderFooter[] headerFooters = doc.FirstSection.HeadersFooters.ToArray();
     Assert.AreEqual(3, headerFooters.Length);
 }
 
 /// <summary>
-/// Bir düğümün ikili olmayan alt düğümler ağacında çapraz geçiş yapar.
-/// Karşılaşılan tüm HeaderFooter düğümlerinin ve bunların alt öğelerinin bir dizesi biçiminde bir harita oluşturur.
+/// Bir düğümün ikili olmayan alt düğüm ağacını geçer.
+/// Karşılaşılan tüm HeaderFooter düğümleri ve bunların alt öğelerinden oluşan bir dize biçiminde bir harita oluşturur.
 /// </summary>
 public class HeaderFooterStructurePrinter : DocumentVisitor
 {
@@ -92,9 +92,9 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// StringBuilder'a bir satır ekleyin ve ziyaretçinin belge ağacında ne kadar derin olduğuna bağlı olarak girinti yapın.
+    /// StringBuilder'a bir satır ekleyin ve ziyaretçinin belge ağacında ne kadar derin olduğuna bağlı olarak onu girintileyin.
     /// </summary>
-    /// <param name="metin"></param>
+    /// <param adı="metin"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++) mBuilder.Append("|  ");

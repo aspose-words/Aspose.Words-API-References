@@ -16,7 +16,7 @@ public bool Outline { get; set; }
 
 ### Esempi
 
-Mostra come creare una sequenza di testo formattato come struttura.
+Mostra come creare una sequenza di testo formattata come contorno.
 
 ```csharp
 Document doc = new Document();

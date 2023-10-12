@@ -1,14 +1,14 @@
 ---
 title: Table.FirstRow
 second_title: Aspose.Words لمراجع .NET API
-description: Table ملكية. إرجاع أول صف عقدة في الجدول .
+description: Table ملكية. إرجاع الأولRow العقدة في الجدول.
 type: docs
 weight: 160
 url: /ar/net/aspose.words.tables/table/firstrow/
 ---
 ## Table.FirstRow property
 
-إرجاع أول **صف** عقدة في الجدول .
+إرجاع الأول[`Row`](../../row/) العقدة في الجدول.
 
 ```csharp
 public Row FirstRow { get; }
@@ -16,7 +16,7 @@ public Row FirstRow { get; }
 
 ### أمثلة
 
-يوضح كيفية إزالة الصفين الأول والأخير من كل الجداول في المستند.
+يوضح كيفية إزالة الصفين الأول والأخير من كافة الجداول في المستند.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -42,13 +42,13 @@ Assert.AreEqual(2, tables[1].Rows.Count);
 Document doc = new Document(MyDir + "Tables.docx");
 
 // فيما يلي طريقتان للحصول على جدول من مستند.
-// 1 - من مجموعة "الجداول" لعقدة الجسم:
+// 1 - من مجموعة "الجداول" للعقدة الأساسية:
 Table firstTable = doc.FirstSection.Body.Tables[0];
 
 // 2 - استخدام طريقة "GetChild":
 Table secondTable = (Table)doc.GetChild(NodeType.Table, 1, true);
 
-// إلحاق كافة الصفوف من الجدول الحالي بالجدول التالي.
+// إلحاق جميع الصفوف من الجدول الحالي بالجدول التالي.
 while (secondTable.HasChildNodes)
     firstTable.Rows.Add(secondTable.FirstRow);
 

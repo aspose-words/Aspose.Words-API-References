@@ -18,11 +18,11 @@ public Color PageColor { get; set; }
 
 Den här egenskapen ger ett enkelt sätt att ange en helsidig färg för dokumentet. Genom att ställa in den här egenskapen skapas och ställs in en lämplig[`BackgroundShape`](../backgroundshape/).
 
-Om sidfärgen inte är inställd (t.ex. det inte finns någon bakgrundsform i dokumentet) returnerar Empty.
+Om sidfärgen inte är inställd (t.ex. det inte finns någon bakgrundsform i dokumentet) returneras Empty.
 
 ### Exempel
 
-Visar hur man ställer in bakgrundsfärgen för alla sidor i ett dokument.
+Visar hur du ställer in bakgrundsfärgen för alla sidor i ett dokument.
 
 ```csharp
 Document doc = new Document();

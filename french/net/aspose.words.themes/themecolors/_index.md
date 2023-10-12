@@ -1,16 +1,16 @@
 ---
 title: Class ThemeColors
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Themes.ThemeColors classe. Représente le jeu de couleurs du thème du document qui contient douze couleurs.
+description: Aspose.Words.Themes.ThemeColors classe. Représente la palette de couleurs du thème du document qui contient douze couleurs.
 type: docs
-weight: 6180
+weight: 6480
 url: /fr/net/aspose.words.themes/themecolors/
 ---
 ## ThemeColors class
 
-Représente le jeu de couleurs du thème du document qui contient douze couleurs.
+Représente la palette de couleurs du thème du document qui contient douze couleurs.
 
-L'objet ThemeColors contient six couleurs d'accentuation, deux couleurs sombres, deux couleurs claires et une couleur pour chacun des liens hypertexte et des liens hypertexte suivis.
+`ThemeColors` L'objet contient six couleurs d'accent, deux couleurs sombres, deux couleurs claires et une couleur pour chacun d'un lien hypertexte et d'un lien hypertexte suivi.
 
 ```csharp
 public class ThemeColors
@@ -26,8 +26,8 @@ public class ThemeColors
 | [Accent4](../../aspose.words.themes/themecolors/accent4/) { get; set; } | Spécifie la couleur Accent 4. |
 | [Accent5](../../aspose.words.themes/themecolors/accent5/) { get; set; } | Spécifie la couleur Accent 5. |
 | [Accent6](../../aspose.words.themes/themecolors/accent6/) { get; set; } | Spécifie la couleur Accent 6. |
-| [Dark1](../../aspose.words.themes/themecolors/dark1/) { get; set; } | Spécifie la couleur Sombre 1. |
-| [Dark2](../../aspose.words.themes/themecolors/dark2/) { get; set; } | Spécifie la couleur Sombre 2. |
+| [Dark1](../../aspose.words.themes/themecolors/dark1/) { get; set; } | Spécifie la couleur Foncé 1. |
+| [Dark2](../../aspose.words.themes/themecolors/dark2/) { get; set; } | Spécifie la couleur Foncé 2. |
 | [FollowedHyperlink](../../aspose.words.themes/themecolors/followedhyperlink/) { get; set; } | Spécifie la couleur d'un lien hypertexte cliqué. |
 | [Hyperlink](../../aspose.words.themes/themecolors/hyperlink/) { get; set; } | Spécifie la couleur d'un lien hypertexte. |
 | [Light1](../../aspose.words.themes/themecolors/light1/) { get; set; } | Spécifie la couleur Lumière 1. |
@@ -40,7 +40,7 @@ Montre comment définir des couleurs et des polices personnalisées pour les th�
 ```csharp
 Document doc = new Document(MyDir + "Theme colors.docx");
 
-// L'objet "Theme" nous donne accès au thème du document, une source de polices et de couleurs par défaut.
+// L'objet "Theme" nous donne accès au thème du document, source de polices et de couleurs par défaut.
 Theme theme = doc.Theme;
 
 // Certains styles, tels que "Titre 1" et "Sous-titre", hériteront de ces polices.
@@ -53,11 +53,11 @@ Assert.AreEqual(string.Empty, theme.MajorFonts.EastAsian);
 Assert.AreEqual(string.Empty, theme.MinorFonts.ComplexScript);
 Assert.AreEqual(string.Empty, theme.MinorFonts.EastAsian);
 
-// La propriété "Colors" contient la palette de couleurs de Microsoft Word,
+// La propriété "Couleurs" contient la palette de couleurs de Microsoft Word,
 // qui apparaît lors du changement d'ombrage ou de couleur de police.
-// Appliquez des couleurs personnalisées à la palette de couleurs afin de pouvoir y accéder facilement dans Microsoft Word
-// lorsque nous changeons, par exemple, la couleur de la police via "Accueil" -> "Police" -> "Couleur de la police",
-// ou insérez une forme, puis définissez une couleur pour celle-ci via "Format de forme" -> "Styles de forme".
+// Applique des couleurs personnalisées à la palette de couleurs afin d'y accéder facilement dans Microsoft Word
+// quand on change par exemple la couleur de la police via "Accueil" -> "Police" -> "Couleur de la police",
+// ou insérez une forme, puis définissez-lui une couleur via "Format de forme" -> "Styles de forme".
 ThemeColors colors = theme.Colors;
 colors.Dark1 = Color.MidnightBlue;
 colors.Light1 = Color.PaleGreen;
@@ -71,7 +71,7 @@ colors.Accent4 = Color.Gold;
 colors.Accent5 = Color.BlueViolet;
 colors.Accent6 = Color.DarkViolet;
 
-// Appliquez des couleurs personnalisées aux hyperliens dans leurs états cliqués et non cliqués.
+// Applique des couleurs personnalisées aux hyperliens dans leurs états cliqués et non cliqués.
 colors.Hyperlink = Color.Black;
 colors.FollowedHyperlink = Color.Gray;
 

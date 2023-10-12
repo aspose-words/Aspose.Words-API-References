@@ -1,14 +1,14 @@
 ---
 title: Node.GetAncestor
 second_title: Aspose.Words per .NET API Reference
-description: Node metodo. Ottiene il primo predecessore del tipo di oggetto specificato.
+description: Node metodo. Ottiene il primo antenato del tipo di oggetto specificato.
 type: docs
 weight: 110
 url: /it/net/aspose.words/node/getancestor/
 ---
 ## GetAncestor(Type) {#getancestor_1}
 
-Ottiene il primo predecessore del tipo di oggetto specificato.
+Ottiene il primo antenato del tipo di oggetto specificato.
 
 ```csharp
 public CompositeNode GetAncestor(Type ancestorType)
@@ -20,31 +20,30 @@ public CompositeNode GetAncestor(Type ancestorType)
 
 ### Valore di ritorno
 
-L'antenato del tipo specificato o null se non è stato trovato nessun predecessore di questo tipo.
+L'antenato del tipo specificato o`nullo` se non è stato trovato alcun antenato di questo tipo.
 
 ### Osservazioni
 
-Il tipo di predecessore corrisponde se è uguale a ancestorType o derivato da ancestorType.
+Il tipo antenato corrisponde se è uguale a*ancestorType* o derivato da*ancestorType*.
 
 ### Esempi
 
-Mostra come scoprire se una tabella è nidificata.
+Mostra come scoprire se le tabelle sono nidificate.
 
 ```csharp
 public void CalculateDepthOfNestedTables()
 {
     Document doc = new Document(MyDir + "Nested tables.docx");
     NodeCollection tables = doc.GetChildNodes(NodeType.Table, true);
-
     for (int i = 0; i < tables.Count; i++)
     {
         Table table = (Table)tables[i];
 
-        // Scopri se alcune celle nella tabella hanno altre tabelle come figli.
+        // Scopri se qualche cella nella tabella ha altre tabelle come figlie.
         int count = GetChildTableCount(table);
         Console.WriteLine("Table #{0} has {1} tables directly within its cells", i, count);
 
-        // Scopri se la tabella è nidificata all'interno di un'altra tabella e, in tal caso, a quale profondità.
+        // Scopri se la tabella è annidata all'interno di un'altra tabella e, in tal caso, a quale profondità.
         int tableDepth = GetNestedDepthOfTable(table);
 
         if (tableDepth > 0)
@@ -76,11 +75,11 @@ private static int GetNestedDepthOfTable(Table table)
 }
 
 /// <summary>
-/// Determina se una tabella contiene una tabella figlio immediata all'interno delle sue celle.
-/// Non attraversare in modo ricorsivo queste tabelle per cercare altre tabelle.
+/// Determina se una tabella contiene una tabella figlia immediata all'interno delle sue celle.
+/// Non attraversare ricorsivamente quelle tabelle per verificare la presenza di ulteriori tabelle.
 /// </summary>
 /// <returns>
-/// Restituisce true se almeno una cella figlio contiene una tabella.
+/// Restituisce vero se almeno una cella figlia contiene una tabella.
 /// Restituisce false se nessuna cella nella tabella contiene una tabella.
 /// </returns>
 private static int GetChildTableCount(Table table)
@@ -113,7 +112,7 @@ private static int GetChildTableCount(Table table)
 
 ## GetAncestor(NodeType) {#getancestor}
 
-Ottiene il primo predecessore dell'oggetto specificato[`NodeType`](../../nodetype/) .
+Ottiene il primo antenato dell'oggetto specificato[`NodeType`](../../nodetype/) .
 
 ```csharp
 public CompositeNode GetAncestor(NodeType ancestorType)
@@ -125,27 +124,26 @@ public CompositeNode GetAncestor(NodeType ancestorType)
 
 ### Valore di ritorno
 
-L'antenato del tipo specificato o null se non è stato trovato nessun predecessore di questo tipo.
+L'antenato del tipo specificato o`nullo` se non è stato trovato alcun antenato di questo tipo.
 
 ### Esempi
 
-Mostra come scoprire se una tabella è nidificata.
+Mostra come scoprire se le tabelle sono nidificate.
 
 ```csharp
 public void CalculateDepthOfNestedTables()
 {
     Document doc = new Document(MyDir + "Nested tables.docx");
     NodeCollection tables = doc.GetChildNodes(NodeType.Table, true);
-
     for (int i = 0; i < tables.Count; i++)
     {
         Table table = (Table)tables[i];
 
-        // Scopri se alcune celle nella tabella hanno altre tabelle come figli.
+        // Scopri se qualche cella nella tabella ha altre tabelle come figlie.
         int count = GetChildTableCount(table);
         Console.WriteLine("Table #{0} has {1} tables directly within its cells", i, count);
 
-        // Scopri se la tabella è nidificata all'interno di un'altra tabella e, in tal caso, a quale profondità.
+        // Scopri se la tabella è annidata all'interno di un'altra tabella e, in tal caso, a quale profondità.
         int tableDepth = GetNestedDepthOfTable(table);
 
         if (tableDepth > 0)
@@ -177,11 +175,11 @@ private static int GetNestedDepthOfTable(Table table)
 }
 
 /// <summary>
-/// Determina se una tabella contiene una tabella figlio immediata all'interno delle sue celle.
-/// Non attraversare in modo ricorsivo queste tabelle per cercare altre tabelle.
+/// Determina se una tabella contiene una tabella figlia immediata all'interno delle sue celle.
+/// Non attraversare ricorsivamente quelle tabelle per verificare la presenza di ulteriori tabelle.
 /// </summary>
 /// <returns>
-/// Restituisce true se almeno una cella figlio contiene una tabella.
+/// Restituisce vero se almeno una cella figlia contiene una tabella.
 /// Restituisce false se nessuna cella nella tabella contiene una tabella.
 /// </returns>
 private static int GetChildTableCount(Table table)

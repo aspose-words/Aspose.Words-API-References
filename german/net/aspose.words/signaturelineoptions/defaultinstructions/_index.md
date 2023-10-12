@@ -1,14 +1,14 @@
 ---
 title: SignatureLineOptions.DefaultInstructions
 second_title: Aspose.Words für .NET-API-Referenz
-description: SignatureLineOptions eigendom. Ruft einen Wert ab oder legt einen Wert fest der angibt dass Standardanweisungen im Dialogfeld Signieren angezeigt werden. Der Standardwert für diese Eigenschaft ist Stimmt .
+description: SignatureLineOptions eigendom. Ruft einen Wert ab oder legt ihn fest der angibt dass Standardanweisungen im Dialogfeld Signieren angezeigt werden. Der Standardwert für diese Eigenschaft istWAHR .
 type: docs
 weight: 30
 url: /de/net/aspose.words/signaturelineoptions/defaultinstructions/
 ---
 ## SignatureLineOptions.DefaultInstructions property
 
-Ruft einen Wert ab oder legt einen Wert fest, der angibt, dass Standardanweisungen im Dialogfeld „Signieren“ angezeigt werden. Der Standardwert für diese Eigenschaft ist **Stimmt** .
+Ruft einen Wert ab oder legt ihn fest, der angibt, dass Standardanweisungen im Dialogfeld „Signieren“ angezeigt werden. Der Standardwert für diese Eigenschaft ist`WAHR` .
 
 ```csharp
 public bool DefaultInstructions { get; set; }
@@ -16,7 +16,7 @@ public bool DefaultInstructions { get; set; }
 
 ### Beispiele
 
-Zeigt, wie ein Dokument mit einem persönlichen Zertifikat und einer Signaturzeile signiert wird.
+Zeigt, wie man ein Dokument mit einem persönlichen Zertifikat und einer Signaturzeile signiert.
 
 ```csharp
 Document doc = new Document();
@@ -54,7 +54,7 @@ CertificateHolder certHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "a
 DigitalSignatureUtil.Sign(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.docx", 
     ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
 
-// Öffnen Sie unser gespeichertes Dokument erneut und überprüfen Sie, ob die Eigenschaften "IsSigned" und "IsValid" beide gleich "true" sind,
+// Öffnen Sie unser gespeichertes Dokument erneut und überprüfen Sie, ob die Eigenschaften „IsSigned“ und „IsValid“ beide den Wert „true“ haben.
 // zeigt an, dass die Signaturzeile eine Signatur enthält.
 doc = new Document(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);

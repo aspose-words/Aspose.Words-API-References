@@ -16,7 +16,7 @@ public bool Shadow { get; set; }
 
 ### Remarques
 
-Dans Microsoft Word, pour qu'une bordure ait une ombre, les bordures des quatre côtés (gauche, haut, droite et bas) doivent être du même type, largeur, couleur et toutes doivent avoir la propriété Ombre définie sur true.
+Dans Microsoft Word, pour qu'une bordure ait une ombre, les bordures des quatre côtés (gauche, haut, droite et bas) doivent être du même type, largeur, couleur et toutes doivent avoir la propriété Shadow définie sur`vrai`.
 
 ### Exemples
 

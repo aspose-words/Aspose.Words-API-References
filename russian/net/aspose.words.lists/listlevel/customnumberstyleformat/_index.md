@@ -8,7 +8,7 @@ url: /ru/net/aspose.words.lists/listlevel/customnumberstyleformat/
 ---
 ## ListLevel.CustomNumberStyleFormat property
 
-Получает пользовательский формат числового стиля для этого уровня списка. Например: "a, ç, ĝ, ...".
+Получает пользовательский формат числового стиля для этого уровня списка. Например: «a, ç, ĝ, ...».
 
 ```csharp
 public string CustomNumberStyleFormat { get; }
@@ -16,7 +16,7 @@ public string CustomNumberStyleFormat { get; }
 
 ### Примеры
 
-Показывает, как получить формат для списка с пользовательским стилем чисел.
+Показывает, как получить формат списка с пользовательским числовым стилем.
 
 ```csharp
 Document doc = new Document(MyDir + "List with leading zero.docx");
@@ -30,7 +30,7 @@ if (listLevel.NumberStyle == NumberStyle.Custom)
 
 Assert.AreEqual("001, 002, 003, ...", customNumberStyleFormat);
 
-// Мы можем получить значение для указанного индекса элемента списка.
+// Мы можем получить значение по указанному индексу элемента списка.
 Assert.AreEqual("iv", ListLevel.GetEffectiveValue(4, NumberStyle.LowercaseRoman, null));
 Assert.AreEqual("005", ListLevel.GetEffectiveValue(5, NumberStyle.Custom, customNumberStyleFormat));
 ```

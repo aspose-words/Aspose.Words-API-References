@@ -1,14 +1,14 @@
 ---
 title: LoadOptions.LanguagePreferences
 second_title: Aspose.Words لمراجع .NET API
-description: LoadOptions ملكية. الحصول على تفضيلات اللغة التي سيتم استخدامها عند تحميل المستند.
+description: LoadOptions ملكية. يحصل على تفضيلات اللغة التي سيتم استخدامها عند تحميل المستند.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.loading/loadoptions/languagepreferences/
 ---
 ## LoadOptions.LanguagePreferences property
 
-الحصول على تفضيلات اللغة التي سيتم استخدامها عند تحميل المستند.
+يحصل على تفضيلات اللغة التي سيتم استخدامها عند تحميل المستند.
 
 ```csharp
 public LanguagePreferences LanguagePreferences { get; }

@@ -1,14 +1,14 @@
 ---
 title: InlineStory.Paragraphs
 second_title: Aspose.Words لمراجع .NET API
-description: InlineStory ملكية. الحصول على مجموعة من الفقرات التي تمثل الأطفال المباشرين للقصة.
+description: InlineStory ملكية. يحصل على مجموعة من الفقرات التي تعتبر أبناء القصة مباشرة.
 type: docs
 weight: 80
 url: /ar/net/aspose.words/inlinestory/paragraphs/
 ---
 ## InlineStory.Paragraphs property
 
-الحصول على مجموعة من الفقرات التي تمثل الأطفال المباشرين للقصة.
+يحصل على مجموعة من الفقرات التي تعتبر أبناء القصة مباشرة.
 
 ```csharp
 public ParagraphCollection Paragraphs { get; }
@@ -30,7 +30,7 @@ builder.Write("Comment text.");
 
 Assert.AreEqual(DateTime.Today, comment.DateTime);
 
-// في Microsoft Word ، يمكننا النقر بزر الماوس الأيمن فوق هذا التعليق في نص المستند لتحريره أو الرد عليه. 
+ // في Microsoft Word، يمكننا النقر بزر الماوس الأيمن فوق هذا التعليق في نص المستند لتحريره أو الرد عليه.
 doc.Save(ArtifactsDir + "InlineStory.AddComment.docx");
 ```
 
@@ -40,19 +40,19 @@ doc.Save(ArtifactsDir + "InlineStory.AddComment.docx");
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أضف نصًا ، وقم بالإشارة إليه بحاشية سفلية. ستضع هذه الحاشية السفلية مرجعًا صغيرًا مرتفعًا
-// علامة بعد النص الذي يشير إليه وإنشاء إدخال أسفل النص الأساسي الرئيسي في أسفل الصفحة.
-// سيحتوي هذا الإدخال على العلامة المرجعية للحاشية السفلية والنص المرجعي ،
-// التي سنمررها إلى طريقة "InsertFootnote" الخاصة بمنشئ المستندات.
+// أضف نصًا، وأشر إليه بحاشية سفلية. ستضع هذه الحاشية السفلية مرجعًا مرتفعًا صغيرًا
+// ضع علامة بعد النص الذي تشير إليه وقم بإنشاء إدخال أسفل النص الأساسي في أسفل الصفحة.
+// سيحتوي هذا الإدخال على العلامة المرجعية للحاشية السفلية والنص المرجعي،
+// والذي سنمرره إلى طريقة "InsertFootnote" الخاصة بمنشئ المستندات.
 builder.Write("Main body text.");
 Footnote footnote = builder.InsertFootnote(FootnoteType.Footnote, "Footnote text.");
 
-// إذا تم تعيين هذه الخاصية على "true" ، فإن العلامة المرجعية للحاشية السفلية الخاصة بنا
-// سيكون فهرسها بين جميع الحواشي السفلية للقسم.
-// هذه هي الحاشية الأولى ، لذا فإن العلامة المرجعية ستكون "1".
+// إذا تم تعيين هذه الخاصية على "صحيح"، فستكون العلامة المرجعية للحاشية السفلية
+// سيكون فهرسه بين جميع الحواشي السفلية للقسم.
+// هذه هي الحاشية السفلية الأولى، لذا ستكون العلامة المرجعية "1".
 Assert.True(footnote.IsAuto);
 
-// يمكننا نقل منشئ المستند داخل الحاشية السفلية لتحرير نصه المرجعي. 
+ // يمكننا نقل أداة إنشاء المستندات داخل الحاشية السفلية لتحرير النص المرجعي الخاص بها.
 builder.MoveTo(footnote.FirstParagraph);
 builder.Write(" More text added by a DocumentBuilder.");
 builder.MoveToDocumentEnd();
@@ -62,13 +62,13 @@ Assert.AreEqual("\u0002 Footnote text. More text added by a DocumentBuilder.", f
 builder.Write(" More main body text.");
 footnote = builder.InsertFootnote(FootnoteType.Footnote, "Footnote text.");
 
-// يمكننا تعيين علامة مرجعية مخصصة ستستخدمها الحاشية السفلية بدلاً من رقم الفهرس الخاص بها.
+// يمكننا تعيين علامة مرجعية مخصصة تستخدمها الحاشية السفلية بدلاً من رقم الفهرس الخاص بها.
 footnote.ReferenceMark = "RefMark";
 
 Assert.False(footnote.IsAuto);
 
-// ستظل الإشارة المرجعية مع تعيين علامة "IsAuto" على "صواب" تظهر فهرسها الحقيقي
-// حتى إذا كانت الإشارات المرجعية السابقة تعرض علامات مرجعية مخصصة ، فإن العلامة المرجعية لهذه الإشارة المرجعية ستكون "3".
+// الإشارة المرجعية التي تم ضبط علامة "IsAuto" على "صحيح" ستظل تُظهر فهرسها الحقيقي
+// حتى لو كانت الإشارات المرجعية السابقة تعرض علامات مرجعية مخصصة، فستكون العلامة المرجعية لهذه الإشارة المرجعية "3".
 builder.Write(" More main body text.");
 footnote = builder.InsertFootnote(FootnoteType.Footnote, "Footnote text.");
 

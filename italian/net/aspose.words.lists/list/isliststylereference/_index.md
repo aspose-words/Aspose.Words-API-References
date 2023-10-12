@@ -1,14 +1,14 @@
 ---
 title: List.IsListStyleReference
 second_title: Aspose.Words per .NET API Reference
-description: List proprietà. Restituisce vero se questo elenco è un riferimento a uno stile di elenco.
+description: List proprietà. RestituisceVERO se questo elenco è un riferimento a uno stile di elenco.
 type: docs
 weight: 30
 url: /it/net/aspose.words.lists/list/isliststylereference/
 ---
 ## List.IsListStyleReference property
 
-Restituisce vero se questo elenco è un riferimento a uno stile di elenco.
+Restituisce`VERO` se questo elenco è un riferimento a uno stile di elenco.
 
 ```csharp
 public bool IsListStyleReference { get; }
@@ -16,18 +16,18 @@ public bool IsListStyleReference { get; }
 
 ### Osservazioni
 
-Nota, la modifica delle proprietà di un elenco che è un riferimento allo stile elenco non ha effetto. La formattazione dell'elenco specificata nello stile elenco stesso ha sempre la precedenza.
+Tieni presente che la modifica delle proprietà di un elenco che fa riferimento allo stile di elenco non ha alcun effetto. La formattazione dell'elenco specificata nello stile di elenco stesso ha sempre la precedenza.
 
 ### Esempi
 
-Mostra come creare uno stile elenco e utilizzarlo in un documento.
+Mostra come creare uno stile di elenco e utilizzarlo in un documento.
 
 ```csharp
 Document doc = new Document();
 
-// Un elenco ci consente di organizzare e decorare insiemi di paragrafi con simboli e rientri prefissi.
-// Possiamo creare liste nidificate aumentando il livello di rientro. 
-// Possiamo iniziare e terminare un elenco utilizzando la proprietà "ListFormat" di un generatore di documenti. 
+// Un elenco ci consente di organizzare e decorare insiemi di paragrafi con simboli di prefisso e rientri.
+ // Possiamo creare elenchi nidificati aumentando il livello di rientro.
+ // Possiamo iniziare e terminare un elenco utilizzando la proprietà "ListFormat" del generatore di documenti.
 // Ogni paragrafo che aggiungiamo tra l'inizio e la fine di un elenco diventerà un elemento nell'elenco.
 // Possiamo contenere un intero oggetto List all'interno di uno stile.
 Style listStyle = doc.Styles.Add(StyleType.List, "MyListStyle");
@@ -39,7 +39,7 @@ Assert.False(list1.IsListStyleReference);
 Assert.True(list1.IsMultiLevel);
 Assert.AreEqual(listStyle, list1.Style);
 
-// Modifica l'aspetto di tutti i livelli di elenco nel nostro elenco.
+// Modifica l'aspetto di tutti i livelli dell'elenco nel nostro elenco.
 foreach (ListLevel level in list1.ListLevels)
 {
     level.Font.Name = "Verdana";
@@ -58,7 +58,7 @@ Assert.False(list2.IsListStyleDefinition);
 Assert.True(list2.IsListStyleReference);
 Assert.AreEqual(listStyle, list2.Style);
 
-// Aggiungi alcuni elementi dell'elenco che il nostro elenco formatterà.
+// Aggiungi alcuni elementi dell'elenco che verrà formattato dal nostro elenco.
 builder.ListFormat.List = list2;
 builder.Writeln("Item 1");
 builder.Writeln("Item 2");

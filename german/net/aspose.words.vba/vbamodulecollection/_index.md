@@ -1,14 +1,16 @@
 ---
 title: Class VbaModuleCollection
 second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Vba.VbaModuleCollection klas. Repräsentiert eine Sammlung vonVbaModule Objekte.
+description: Aspose.Words.Vba.VbaModuleCollection klas. Stellt eine Sammlung von darVbaModule Objekte.
 type: docs
-weight: 6250
+weight: 6560
 url: /de/net/aspose.words.vba/vbamodulecollection/
 ---
 ## VbaModuleCollection class
 
-Repräsentiert eine Sammlung von[`VbaModule`](../vbamodule/) Objekte.
+Stellt eine Sammlung von dar[`VbaModule`](../vbamodule/) Objekte.
+
+Um mehr zu erfahren, besuchen Sie die[Arbeiten mit VBA-Makros](https://docs.aspose.com/words/net/working-with-vba-macros/) Dokumentationsartikel.
 
 ```csharp
 public sealed class VbaModuleCollection : IEnumerable<VbaModule>
@@ -19,7 +21,7 @@ public sealed class VbaModuleCollection : IEnumerable<VbaModule>
 | Name | Beschreibung |
 | --- | --- |
 | [Count](../../aspose.words.vba/vbamodulecollection/count/) { get; } | Gibt die Anzahl der VBA-Module in der Sammlung zurück. |
-| [Item](../../aspose.words.vba/vbamodulecollection/item/) { get; } | Ruft a[`VbaModule`](../vbamodule/) Objekt nach Index. (2 indexers) |
+| [Item](../../aspose.words.vba/vbamodulecollection/item/) { get; } | Ruft a ab[`VbaModule`](../vbamodule/) Objekt nach index. (2 indexers) |
 
 ## Methoden
 
@@ -37,6 +39,7 @@ Document doc = new Document(MyDir + "VBA project.docm");
 
 // Ein VBA-Projekt enthält eine Sammlung von VBA-Modulen.
 VbaProject vbaProject = doc.VbaProject;
+Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 
@@ -47,7 +50,7 @@ Assert.AreEqual(vbaModules.Count(), 3);
 foreach (VbaModule module in vbaModules)
     Console.WriteLine($"Module name: {module.Name};\nModule code:\n{module.SourceCode}\n");
 
-// Neuen Quellcode für VBA-Modul setzen. Sie können auf VBA-Module in der Sammlung entweder nach Index oder nach Name zugreifen.
+// Neuen Quellcode für VBA-Modul festlegen. Sie können auf VBA-Module in der Sammlung entweder über den Index oder über den Namen zugreifen.
 vbaModules[0].SourceCode = "Your VBA code...";
 vbaModules["Module1"].SourceCode = "Your VBA code...";
 

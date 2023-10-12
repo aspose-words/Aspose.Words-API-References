@@ -3,7 +3,7 @@ title: Chart.AxisZ
 second_title: Referencia de API de Aspose.Words para .NET
 description: Chart propiedad. Proporciona acceso a las propiedades del eje Z del gráfico.
 type: docs
-weight: 30
+weight: 40
 url: /es/net/aspose.words.drawing.charts/chart/axisz/
 ---
 ## Chart.AxisZ property
@@ -25,16 +25,16 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Column, 500, 300);
 Chart chart = shape.Chart;
 
-// Borre la serie de datos de demostración del gráfico para comenzar con un gráfico limpio.
+// Borra la serie de datos de demostración del gráfico para comenzar con un gráfico limpio.
 chart.Series.Clear();
 
-// Inserte una serie de gráficos con categorías para el eje X y valores numéricos respectivos para el eje Y.
+// Inserta una serie de gráficos con categorías para el eje X y los respectivos valores numéricos para el eje Y.
 chart.Series.Add("Aspose Test Series",
     new[] { "Word", "PDF", "Excel", "GoogleDocs", "Note" },
     new double[] { 640, 320, 280, 120, 150 });
 
 // Los ejes del gráfico tienen varias opciones que pueden cambiar su apariencia,
-// como su dirección, marcas de unidad mayor/menor y marcas de graduación.
+// como su dirección, marcas de unidad mayor/menor y marcas de marca.
 ChartAxis xAxis = chart.AxisX;
 xAxis.CategoryType = AxisCategoryType.Category;
 xAxis.Crosses = AxisCrosses.Minimum;
@@ -58,7 +58,7 @@ yAxis.MajorUnit = 100.0d;
 yAxis.MinorUnit = 20.0d;
 yAxis.TickLabelPosition = AxisTickLabelPosition.NextToAxis;
 
-// Los gráficos de columnas no tienen un eje Z.
+// Los gráficos de columnas no tienen eje Z.
 Assert.Null(chart.AxisZ);
 
 doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");

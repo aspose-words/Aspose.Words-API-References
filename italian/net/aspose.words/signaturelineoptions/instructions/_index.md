@@ -1,14 +1,14 @@
 ---
 title: SignatureLineOptions.Instructions
 second_title: Aspose.Words per .NET API Reference
-description: SignatureLineOptions proprietà. Ottiene o imposta le istruzioni per il firmatario che vengono visualizzate alla firma della riga della firma. Il valore predefinito per questa proprietà è stringa vuota Empty .
+description: SignatureLineOptions proprietà. Ottiene o imposta le istruzioni per il firmatario che vengono visualizzate quando si firma la riga della firma. Il valore predefinito per questa proprietà è stringa vuota Empty.
 type: docs
 weight: 50
 url: /it/net/aspose.words/signaturelineoptions/instructions/
 ---
 ## SignatureLineOptions.Instructions property
 
-Ottiene o imposta le istruzioni per il firmatario che vengono visualizzate alla firma della riga della firma. Il valore predefinito per questa proprietà è **stringa vuota** (Empty ).
+Ottiene o imposta le istruzioni per il firmatario che vengono visualizzate quando si firma la riga della firma. Il valore predefinito per questa proprietà è **stringa vuota** (Empty).
 
 ```csharp
 public string Instructions { get; set; }
@@ -16,7 +16,7 @@ public string Instructions { get; set; }
 
 ### Esempi
 
-Mostra come firmare un documento con un certificato personale e una riga di firma.
+Mostra come firmare un documento con un certificato personale e una riga per la firma.
 
 ```csharp
 Document doc = new Document();
@@ -54,8 +54,8 @@ CertificateHolder certHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "a
 DigitalSignatureUtil.Sign(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.docx", 
     ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
 
-// Riapri il nostro documento salvato e verifica che le proprietà "IsSigned" e "IsValid" siano entrambe "true",
-// indicando che la riga della firma contiene una firma.
+// Riapri il nostro documento salvato e verifica che le proprietà "IsSigned" e "IsValid" siano entrambe uguali a "true",
+// indica che la riga della firma contiene una firma.
 doc = new Document(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 signatureLine = shape.SignatureLine;

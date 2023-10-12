@@ -1,14 +1,14 @@
 ---
 title: CellFormat.Orientation
 second_title: Referencia de API de Aspose.Words para .NET
-description: CellFormat propiedad. Devuelve o establece la orientación del texto en una celda de tabla.
+description: CellFormat propiedad. Devuelve o establece la orientación del texto en una celda de la tabla.
 type: docs
-weight: 60
+weight: 70
 url: /es/net/aspose.words.tables/cellformat/orientation/
 ---
 ## CellFormat.Orientation property
 
-Devuelve o establece la orientación del texto en una celda de tabla.
+Devuelve o establece la orientación del texto en una celda de la tabla.
 
 ```csharp
 public TextOrientation Orientation { get; set; }
@@ -16,7 +16,7 @@ public TextOrientation Orientation { get; set; }
 
 ### Ejemplos
 
-Muestra cómo crear una tabla de 2x2 con formato.
+Muestra cómo crear una tabla formateada de 2x2.
 
 ```csharp
 Document doc = new Document();
@@ -30,7 +30,7 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndRow();
 
-// Mientras crea la tabla, el generador de documentos aplicará sus valores de propiedad RowFormat/CellFormat actuales
+// Mientras crea la tabla, el creador de documentos aplicará sus valores actuales de propiedad RowFormat/CellFormat
 // a la fila/celda actual en la que se encuentra el cursor y a cualquier fila/celda nueva a medida que las crea.
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[0].CellFormat.VerticalAlignment);
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[1].CellFormat.VerticalAlignment);
@@ -46,7 +46,7 @@ builder.Write("Row 2, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// Las filas y celdas añadidas previamente no se ven afectadas retroactivamente por los cambios en el formato del constructor.
+// Las filas y celdas agregadas anteriormente no se ven afectadas retroactivamente por los cambios en el formato del constructor.
 Assert.AreEqual(0, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 Assert.AreEqual(100, table.Rows[1].RowFormat.Height);
@@ -65,8 +65,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.StartTable();
 
-// Establecer opciones de formato de tabla para un generador de documentos
-// los aplicará a cada fila y celda que agreguemos con él.
+// Configurar opciones de formato de tabla para un creador de documentos
+// los aplicará a cada fila y celda que agreguemos con ella.
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 builder.CellFormat.ClearFormatting();
@@ -90,8 +90,8 @@ builder.Write("Row 1, Col 2");
 builder.EndRow();
 
 // Cambiar el formato lo aplicará a la celda actual,
-// y cualquier celda nueva que creemos con el constructor después.
-// Esto no afectará a las celdas que hemos agregado previamente.
+// y cualquier celda nueva que creemos con el constructor posteriormente.
+// Esto no afectará a las celdas que hayamos añadido anteriormente.
 builder.CellFormat.Shading.ClearFormatting();
 
 builder.InsertCell();

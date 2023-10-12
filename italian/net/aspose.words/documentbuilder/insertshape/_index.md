@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.InsertShape
 second_title: Aspose.Words per .NET API Reference
-description: DocumentBuilder metodo. Inserisce la forma in linea con il tipo e la dimensione specificati.
+description: DocumentBuilder metodo. Inserisce una forma in linea con tipo e dimensione specificati.
 type: docs
-weight: 410
+weight: 440
 url: /it/net/aspose.words/documentbuilder/insertshape/
 ---
 ## InsertShape(ShapeType, double, double) {#insertshape_1}
 
-Inserisce la forma in linea con il tipo e la dimensione specificati.
+Inserisce una forma in linea con tipo e dimensione specificati.
 
 ```csharp
 public Shape InsertShape(ShapeType shapeType, double width, double height)
@@ -32,17 +32,17 @@ Mostra come inserire forme DML in un documento.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Di seguito sono riportati due tipi di avvolgimento che possono avere le forme.
-// 1 - Fluttuante:
+// Di seguito sono riportati due tipi di avvolgimento che le forme possono avere.
+// 1 - Galleggiante:
 builder.InsertShape(ShapeType.TopCornersRounded, RelativeHorizontalPosition.Page, 100, 
         RelativeVerticalPosition.Page, 100, 50, 50, WrapType.None);
 
 // 2 - In linea:
 builder.InsertShape(ShapeType.DiagonalCornersRounded, 50, 50);
 
-// Se devi creare forme "non primitive", come SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
-// TopCornersOneRoundedOneSnipped, SingleCornersRounded, TopCornersRounded, or DiagonalCornersRounded,
-// quindi salva il documento con la conformità "Strict" o "Transitional", che consente di salvare la forma come DML.
+// Se è necessario creare forme "non primitive", come SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
+// TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded o DiagonalCornersRounded,
+// quindi salva il documento con conformità "Strict" o "Transitional", che consente di salvare la forma come DML.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Docx);
 saveOptions.Compliance = OoxmlCompliance.Iso29500_2008_Transitional;
 
@@ -61,7 +61,7 @@ doc.Save(ArtifactsDir + "Shape.ShapeInsertion.docx", saveOptions);
 
 ## InsertShape(ShapeType, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {#insertshape}
 
-Inserisce una forma fluttuante con posizione, dimensione e tipo di avvolgimento del testo specificati.
+Inserisce una forma mobile con posizione, dimensione e tipo di testo a capo specificati.
 
 ```csharp
 public Shape InsertShape(ShapeType shapeType, RelativeHorizontalPosition horzPos, double left, 
@@ -77,7 +77,7 @@ public Shape InsertShape(ShapeType shapeType, RelativeHorizontalPosition horzPos
 | top | Double | Distanza in punti dall'origine al lato superiore della forma. |
 | width | Double | La larghezza della forma in punti. |
 | height | Double | La larghezza della forma in punti. |
-| wrapType | WrapType | Specifica come avvolgere il testo attorno alla forma. |
+| wrapType | WrapType | Specifica come disporre il testo attorno alla forma. |
 
 ### Valore di ritorno
 
@@ -91,17 +91,17 @@ Mostra come inserire forme DML in un documento.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Di seguito sono riportati due tipi di avvolgimento che possono avere le forme.
-// 1 - Fluttuante:
+// Di seguito sono riportati due tipi di avvolgimento che le forme possono avere.
+// 1 - Galleggiante:
 builder.InsertShape(ShapeType.TopCornersRounded, RelativeHorizontalPosition.Page, 100, 
         RelativeVerticalPosition.Page, 100, 50, 50, WrapType.None);
 
 // 2 - In linea:
 builder.InsertShape(ShapeType.DiagonalCornersRounded, 50, 50);
 
-// Se devi creare forme "non primitive", come SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
-// TopCornersOneRoundedOneSnipped, SingleCornersRounded, TopCornersRounded, or DiagonalCornersRounded,
-// quindi salva il documento con la conformità "Strict" o "Transitional", che consente di salvare la forma come DML.
+// Se è necessario creare forme "non primitive", come SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
+// TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded o DiagonalCornersRounded,
+// quindi salva il documento con conformità "Strict" o "Transitional", che consente di salvare la forma come DML.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Docx);
 saveOptions.Compliance = OoxmlCompliance.Iso29500_2008_Transitional;
 

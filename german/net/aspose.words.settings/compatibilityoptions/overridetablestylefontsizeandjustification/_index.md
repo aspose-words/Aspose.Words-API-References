@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.OverrideTableStyleFontSizeAndJustification
 second_title: Aspose.Words für .NET-API-Referenz
-description: CompatibilityOptions eigendom. Gibt an wie die Stilhierarchie des Dokuments ausgewertet wird.
+description: CompatibilityOptions eigendom. Gibt an wie die Stilhierarchie des Dokuments bewertet wird.
 type: docs
 weight: 380
 url: /de/net/aspose.words.settings/compatibilityoptions/overridetablestylefontsizeandjustification/
 ---
 ## CompatibilityOptions.OverrideTableStyleFontSizeAndJustification property
 
-Gibt an, wie die Stilhierarchie des Dokuments ausgewertet wird.
+Gibt an, wie die Stilhierarchie des Dokuments bewertet wird.
 
 ```csharp
 public bool OverrideTableStyleFontSizeAndJustification { get; set; }

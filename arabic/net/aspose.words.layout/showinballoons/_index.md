@@ -1,14 +1,14 @@
 ---
 title: Enum ShowInBalloons
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Layout.ShowInBalloons تعداد. تحديد المراجعات التي سيتم تقديمها في بالونات.
+description: Aspose.Words.Layout.ShowInBalloons تعداد. يحدد المراجعات التي سيتم عرضها في البالونات.
 type: docs
-weight: 3210
+weight: 3410
 url: /ar/net/aspose.words.layout/showinballoons/
 ---
 ## ShowInBalloons enumeration
 
-تحديد المراجعات التي سيتم تقديمها في بالونات.
+يحدد المراجعات التي سيتم عرضها في البالونات.
 
 ```csharp
 public enum ShowInBalloons
@@ -18,13 +18,13 @@ public enum ShowInBalloons
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| None | `0` | يتم عرض إدراج المراجعات وحذفها وتنسيقها. |
-| Format | `1` | يتم عرض إدراج المراجعات وحذفها في السطر ، وتنسيق المراجعات في البالونات. |
-| FormatAndDelete | `2` | يتم إدراج المراجعات في الصفحة ، وحذف المراجعات وتنسيقها في البالونات. |
+| None | `0` | يعرض إدراج المراجعات وحذفها وتنسيقها في السطر. |
+| Format | `1` | يقوم العرض بإدراج المراجعات وحذفها في السطر، وتنسيق المراجعات في البالونات. |
+| FormatAndDelete | `2` | يقوم العرض بإدراج المراجعات في السطر، وحذف المراجعات وتنسيقها في البالونات. |
 
 ### ملاحظات
 
-لاحظ أنه لا يتم تقديم المراجعات في بالونات لـShowInAnnotations .
+لاحظ أنه لا يتم عرض المراجعات في بالوناتShowInAnnotations .
 
 ### أمثلة
 
@@ -36,28 +36,28 @@ Document doc = new Document(MyDir + "Revisions.docx");
 // احصل على كائن RevisionOptions الذي يتحكم في مظهر المراجعات.
 RevisionOptions revisionOptions = doc.LayoutOptions.RevisionOptions;
 
-// تقديم مراجعات الإدراج باللونين الأخضر والمائل.
+// عرض مراجعات الإدراج باللون الأخضر والمائل.
 revisionOptions.InsertedTextColor = RevisionColor.Green;
 revisionOptions.InsertedTextEffect = RevisionTextEffect.Italic;
 
-// تقديم مراجعات الحذف باللون الأحمر والعريض.
+// عرض مراجعات الحذف باللون الأحمر والغامق.
 revisionOptions.DeletedTextColor = RevisionColor.Red;
 revisionOptions.DeletedTextEffect = RevisionTextEffect.Bold;
 
 // سيظهر النص نفسه مرتين في مراجعة الحركة:
-// مرة في نقطة المغادرة ومرة في وجهة الوصول.
-// جعل النص في النسخة المنقولة أصفر بخط مزدوج من خلاله
-// والأزرق مزدوج تحته خط في المراجعة المنقولة إلى.
+// مرة عند نقطة المغادرة ومرة عند نقطة الوصول.
+// اجعل النص عند النسخة المنقول منها باللون الأصفر بضربة مزدوجة
+// ووضع خط تحته خط مزدوج باللون الأزرق عند المراجعة التي تم نقلها.
 revisionOptions.MovedFromTextColor = RevisionColor.Yellow;
 revisionOptions.MovedFromTextEffect = RevisionTextEffect.DoubleStrikeThrough;
-revisionOptions.MovedToTextColor = RevisionColor.Blue;
+revisionOptions.MovedToTextColor = RevisionColor.ClassicBlue;
 revisionOptions.MovedFromTextEffect = RevisionTextEffect.DoubleUnderline;
 
-// تقديم تنقيحات التنسيق باللون الأحمر الداكن والجريء.
+// عرض مراجعات التنسيق باللون الأحمر الداكن والغامق.
 revisionOptions.RevisedPropertiesColor = RevisionColor.DarkRed;
 revisionOptions.RevisedPropertiesEffect = RevisionTextEffect.Bold;
 
-// ضع شريطًا سميكًا أزرق داكن على الجانب الأيسر من الصفحة بجوار الأسطر المتأثرة بالمراجعات.
+// ضع شريطًا سميكًا باللون الأزرق الداكن على الجانب الأيسر من الصفحة بجوار الأسطر المتأثرة بالمراجعات.
 revisionOptions.RevisionBarsColor = RevisionColor.DarkBlue;
 revisionOptions.RevisionBarsWidth = 15.0f;
 
@@ -65,12 +65,12 @@ revisionOptions.RevisionBarsWidth = 15.0f;
 revisionOptions.ShowOriginalRevision = true;
 revisionOptions.ShowRevisionMarks = true;
 
-// احصل على الحركة والحذف وتنسيق المراجعات والتعليقات لتظهر في بالونات خضراء
+// احصل على الحركة والحذف ومراجعات التنسيق والتعليقات لتظهر في بالونات خضراء
 // على الجانب الأيمن من الصفحة.
 revisionOptions.ShowInBalloons = ShowInBalloons.Format;
 revisionOptions.CommentColor = RevisionColor.BrightGreen;
 
-// هذه الميزات قابلة للتطبيق فقط على تنسيقات مثل .pdf أو .jpg.
+// تنطبق هذه الميزات فقط على تنسيقات مثل ‎.pdf أو ‎.jpg.
 doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 ```
 

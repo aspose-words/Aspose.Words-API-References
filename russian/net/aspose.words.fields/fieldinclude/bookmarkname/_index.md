@@ -1,14 +1,14 @@
 ---
 title: FieldInclude.BookmarkName
 second_title: Справочник по API Aspose.Words для .NET
-description: FieldInclude свойство. Получает или задает имя закладки в документе для включения.
+description: FieldInclude свойство. Получает или задает имя закладки в документе который необходимо включить.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldinclude/bookmarkname/
 ---
 ## FieldInclude.BookmarkName property
 
-Получает или задает имя закладки в документе для включения.
+Получает или задает имя закладки в документе, который необходимо включить.
 
 ```csharp
 public string BookmarkName { get; set; }
@@ -16,7 +16,7 @@ public string BookmarkName { get; set; }
 
 ### Примеры
 
-Показывает, как создать поле INCLUDE и задать его свойства.
+Показывает, как создать поле INCLUDE и установить его свойства.
 
 ```csharp
 Document doc = new Document();

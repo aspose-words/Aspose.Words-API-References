@@ -16,14 +16,14 @@ public string BookmarkName { get; set; }
 
 ### Örnekler
 
-SET alanıyla işaretlenmiş metnin nasıl oluşturulacağını ve ardından bir REF alanı kullanarak belgede nasıl görüntüleneceğini gösterir.
+SET alanıyla yer imli metnin nasıl oluşturulacağını ve ardından REF alanını kullanarak belgede nasıl görüntüleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
- // İşaretlenmiş metni bir SET alanıyla adlandırın.
-// Bu alan, metin içinde görünen bir yer imi yapısına değil, adlandırılmış bir değişkene "yer imi" anlamına gelir.
+ // Yer imlerine eklenen metni SET alanıyla adlandırın.
+// Bu alan, metin içinde görünen bir yer imi yapısını değil, adlandırılmış bir değişkeni "yer işareti" anlamına gelir.
 FieldSet fieldSet = (FieldSet)builder.InsertField(FieldType.FieldSet, false);
 fieldSet.BookmarkName = "MyBookmark";
 fieldSet.BookmarkText = "Hello world!";
@@ -31,7 +31,7 @@ fieldSet.Update();
 
 Assert.AreEqual(" SET  MyBookmark \"Hello world!\"", fieldSet.GetFieldCode());
 
-// Bir REF alanında yer imine ada göre bakın ve içeriğini görüntüleyin.
+// Bir REF alanında yer imine isme göre bakın ve içeriğini görüntüleyin.
 FieldRef fieldRef = (FieldRef)builder.InsertField(FieldType.FieldRef, true);
 fieldRef.BookmarkName = "MyBookmark";
 fieldRef.Update();

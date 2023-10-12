@@ -3,7 +3,7 @@ title: Enum EditorType
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.EditorType uppräkning. Anger uppsättningen av möjliga alias eller redigeringsgrupper som kan användas som alias för att avgöra om den aktuella användaren ska tillåtas redigera ett enstaka intervall definierat av ett redigerbart intervall inom ett dokument.
 type: docs
-weight: 1300
+weight: 1450
 url: /sv/net/aspose.words/editortype/
 ---
 ## EditorType enumeration

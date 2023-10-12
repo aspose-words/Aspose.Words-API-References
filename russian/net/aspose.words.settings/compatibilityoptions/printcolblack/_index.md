@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.PrintColBlack
 second_title: Справочник по API Aspose.Words для .NET
-description: CompatibilityOptions свойство. Печать цветов как чернобелых без сглаживания.
+description: CompatibilityOptions свойство. Печать цветов в чернобелом режиме без размытия.
 type: docs
 weight: 400
 url: /ru/net/aspose.words.settings/compatibilityoptions/printcolblack/
 ---
 ## CompatibilityOptions.PrintColBlack property
 
-Печать цветов как черно-белых без сглаживания.
+Печать цветов в черно-белом режиме без размытия.
 
 ```csharp
 public bool PrintColBlack { get; set; }

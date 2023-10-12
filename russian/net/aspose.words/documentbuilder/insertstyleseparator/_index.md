@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.InsertStyleSeparator
 second_title: Справочник по API Aspose.Words для .NET
-description: DocumentBuilder метод. Вставляет разделитель стилей в документ.
+description: DocumentBuilder метод. Вставляет в документ разделитель стилей.
 type: docs
-weight: 430
+weight: 460
 url: /ru/net/aspose.words/documentbuilder/insertstyleseparator/
 ---
 ## DocumentBuilder.InsertStyleSeparator method
 
-Вставляет разделитель стилей в документ.
+Вставляет в документ разделитель стилей.
 
 ```csharp
 public void InsertStyleSeparator()
@@ -41,7 +41,7 @@ builder.ParagraphFormat.StyleName = paraStyle.Name;
 builder.Write("This text is in a custom style. ");
 
 // Вызов метода InsertStyleSeparator создает еще один абзац,
-// который может иметь стиль, отличный от предыдущего. Между абзацами не будет разрыва.
+// который может иметь стиль, отличный от предыдущего. Разрыва между абзацами не будет.
 // Текст в выходном документе будет выглядеть как один абзац с двумя стилями.
 Assert.AreEqual(2, doc.FirstSection.Body.Paragraphs.Count);
 Assert.AreEqual("Heading 1", doc.FirstSection.Body.Paragraphs[0].ParagraphFormat.Style.Name);

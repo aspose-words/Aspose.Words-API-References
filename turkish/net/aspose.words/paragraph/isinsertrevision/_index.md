@@ -1,14 +1,14 @@
 ---
 title: Paragraph.IsInsertRevision
 second_title: Aspose.Words for .NET API Referansı
-description: Paragraph mülk. Bu nesne değişiklik izleme etkinken Microsoft Worde eklendiyse true değerini döndürür.
+description: Paragraph mülk. Bu nesne Microsoft Worde değişiklik izleme etkinken eklenmişse doğru değerini döndürür.
 type: docs
 weight: 110
 url: /tr/net/aspose.words/paragraph/isinsertrevision/
 ---
 ## Paragraph.IsInsertRevision property
 
-Bu nesne, değişiklik izleme etkinken Microsoft Word'e eklendiyse true değerini döndürür.
+Bu nesne Microsoft Word'e değişiklik izleme etkinken eklenmişse doğru değerini döndürür.
 
 ```csharp
 public bool IsInsertRevision { get; }
@@ -28,7 +28,7 @@ body.AppendParagraph("Paragraph 2. ");
 body.AppendParagraph("Paragraph 3. ");
 
 // Yukarıdaki paragraflar revizyon değildir.
-// Revizyon takibi başladıktan sonra eklediğimiz paragraflar "Ekle" revizyonları olarak kayıt edilecektir.
+// Revizyon takibini başlattıktan sonra eklediğimiz paragraflar "Ekle" revizyonları olarak kaydedilecektir.
 doc.StartTrackRevisions("John Doe", DateTime.Now);
 
 para = body.AppendParagraph("Paragraph 4. ");
@@ -44,12 +44,12 @@ para = paragraphs[2];
 para.Remove();
 
 // Bu tür paragraflar, silme revizyonunu kabul edene veya reddedene kadar kalacaktır.
-// Revizyonu kabul etmek paragrafı tamamen kaldıracak,
+// Düzeltmeyi kabul etmek paragrafı tamamen kaldıracaktır,
 // ve revizyonu reddetmek, onu sanki hiç silmemişiz gibi belgede bırakacaktır.
 Assert.AreEqual(4, paragraphs.Count);
 Assert.True(para.IsDeleteRevision);
 
-// Revizyonu kabul edin ve ardından paragrafın gittiğini doğrulayın.
+// Düzeltmeyi kabul edin ve ardından paragrafın kaybolduğunu doğrulayın.
 doc.AcceptAllRevisions();
 
 Assert.AreEqual(3, paragraphs.Count);

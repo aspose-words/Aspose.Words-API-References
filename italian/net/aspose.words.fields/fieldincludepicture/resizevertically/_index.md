@@ -1,14 +1,14 @@
 ---
 title: FieldIncludePicture.ResizeVertically
 second_title: Aspose.Words per .NET API Reference
-description: FieldIncludePicture proprietà. Ottiene o imposta se ridimensionare limmagine verticalmente dallorigine.
+description: FieldIncludePicture proprietà. Ottiene o imposta se ridimensionare verticalmente limmagine dallorigine.
 type: docs
 weight: 50
 url: /it/net/aspose.words.fields/fieldincludepicture/resizevertically/
 ---
 ## FieldIncludePicture.ResizeVertically property
 
-Ottiene o imposta se ridimensionare l'immagine verticalmente dall'origine.
+Ottiene o imposta se ridimensionare verticalmente l'immagine dall'origine.
 
 ```csharp
 public bool ResizeVertically { get; set; }

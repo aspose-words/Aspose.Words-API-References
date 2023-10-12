@@ -16,7 +16,7 @@ public string Text { get; set; }
 
 ### Exemples
 
-Montre comment utiliser le champ TITLE.
+Montre comment utiliser le champ TITRE.
 
 ```csharp
 Document doc = new Document();
@@ -24,7 +24,7 @@ Document doc = new Document();
  // Définissez une valeur pour la propriété de document intégrée "Titre".
 doc.BuiltInDocumentProperties.Title = "My Title";
 
-// Nous pouvons utiliser le champ TITLE pour afficher la valeur de cette propriété dans le document.
+// On peut utiliser le champ TITRE pour afficher la valeur de cette propriété dans le document.
 DocumentBuilder builder = new DocumentBuilder(doc);
 FieldTitle field = (FieldTitle)builder.InsertField(FieldType.FieldTitle, false);
 field.Update();
@@ -33,7 +33,7 @@ Assert.AreEqual(" TITLE ", field.GetFieldCode());
 Assert.AreEqual("My Title", field.Result);
 
 // Définition d'une valeur pour la propriété Text du champ,
-// puis la mise à jour du champ écrasera également la propriété intégrée correspondante avec la nouvelle valeur.
+// puis la mise à jour du champ écrasera également la propriété intégrée correspondante par la nouvelle valeur.
 builder.Writeln();
 field = (FieldTitle)builder.InsertField(FieldType.FieldTitle, false);
 field.Text = "My New Title";

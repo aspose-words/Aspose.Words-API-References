@@ -1,14 +1,14 @@
 ---
 title: Odso.RecipientDatas
 second_title: Aspose.Words لمراجع .NET API
-description: Odso ملكية. الحصول على أو تعيين مجموعة من الكائنات التي تحدد تضمين / استبعاد السجلات الفردية في دمج المراسلات . هذا الكائن ليس فارغًا أبدًا.
+description: Odso ملكية. الحصول على أو تعيين مجموعة من الكائنات التي تحدد التضمين/الاستبعاد للسجلات الفردية في دمج المراسلات. لا يتم استخدام هذا الكائن أبدًاباطل .
 type: docs
 weight: 70
 url: /ar/net/aspose.words.settings/odso/recipientdatas/
 ---
 ## Odso.RecipientDatas property
 
-الحصول على أو تعيين مجموعة من الكائنات التي تحدد تضمين / استبعاد السجلات الفردية في دمج المراسلات . هذا الكائن ليس فارغًا أبدًا.
+الحصول على أو تعيين مجموعة من الكائنات التي تحدد التضمين/الاستبعاد للسجلات الفردية في دمج المراسلات. لا يتم استخدام هذا الكائن أبدًا`باطل` .
 
 ```csharp
 public OdsoRecipientDataCollection RecipientDatas { get; set; }
@@ -16,7 +16,7 @@ public OdsoRecipientDataCollection RecipientDatas { get; set; }
 
 ### أمثلة
 
-يوضح كيفية الوصول إلى مجموعة البيانات التي تحدد سجلات مصدر بيانات الدمج التي سيستبعدها دمج المراسلات.
+يوضح كيفية الوصول إلى مجموعة البيانات التي تحدد سجلات مصدر بيانات الدمج التي سيتم استبعادها من خلال دمج البريد.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
@@ -38,10 +38,10 @@ using (IEnumerator<OdsoRecipientData> enumerator = dataCollection.GetEnumerator(
     }
 }
 
-// يمكننا استنساخ العناصر في هذه المجموعة.
+// يمكننا استنساخ العناصر الموجودة في هذه المجموعة.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// يمكننا أيضًا إزالة العناصر بشكل فردي ، أو مسح المجموعة بأكملها مرة واحدة.
+// يمكننا أيضًا إزالة العناصر بشكل فردي، أو مسح المجموعة بأكملها مرة واحدة.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(69, dataCollection.Count);

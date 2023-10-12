@@ -1,14 +1,14 @@
 ---
 title: ParagraphFormat.NoSpaceBetweenParagraphsOfSameStyle
 second_title: Aspose.Words for .NET API Referansı
-description: ParagraphFormat mülk. Doğru olduğundaSpaceBefore veSpaceAfter aynı stildeki paragraflar arasında yok sayılır .
+description: ParagraphFormat mülk. Ne zamandoğru SpaceBefore VeSpaceAfter aynı stildeki paragraflar arasında göz ardı edilecek.
 type: docs
-weight: 230
+weight: 240
 url: /tr/net/aspose.words/paragraphformat/nospacebetweenparagraphsofsamestyle/
 ---
 ## ParagraphFormat.NoSpaceBetweenParagraphsOfSameStyle property
 
-Doğru olduğunda,[`SpaceBefore`](../spacebefore/) ve[`SpaceAfter`](../spaceafter/) aynı stildeki paragraflar arasında yok sayılır .
+Ne zaman`doğru` ,[`SpaceBefore`](../spacebefore/) Ve[`SpaceAfter`](../spaceafter/) aynı stildeki paragraflar arasında göz ardı edilecek.
 
 ```csharp
 public bool NoSpaceBetweenParagraphsOfSameStyle { get; set; }
@@ -16,11 +16,11 @@ public bool NoSpaceBetweenParagraphsOfSameStyle { get; set; }
 
 ### Notlar
 
-Bu ayar yalnızca bir paragraf stiline uygulandığında etkili olur. Doğrudan bir paragrafa uygulanırsa, hiçbir etkisi olmaz.
+Bu ayar yalnızca paragraf stiline uygulandığında etkili olur. Doğrudan bir paragrafa uygulanırsa hiçbir etkisi olmaz.
 
 ### Örnekler
 
-Aynı stile sahip paragraflar arasında nasıl boşluk uygulanacağını gösterir.
+Aynı stile sahip paragraflar arasında boşluk bırakmamanın nasıl uygulanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -31,7 +31,7 @@ builder.ParagraphFormat.SpaceBefore = 24;
 builder.ParagraphFormat.SpaceAfter = 24;
 
 // Uygulamak için "NoSpaceBetweenParagraphsOfSameStyle" bayrağını "true" olarak ayarlayın
-// benzer paragrafları gruplayacak aynı stile sahip paragraflar arasında boşluk yok.
+// benzer paragrafları gruplandıracak aynı stildeki paragraflar arasında boşluk yok.
 // "NoSpaceBetweenParagraphsOfSameStyle" bayrağını "false" olarak bırakın
 // her paragrafa eşit aralık uygulamak için.
 builder.ParagraphFormat.NoSpaceBetweenParagraphsOfSameStyle = noSpaceBetweenParagraphsOfSameStyle;

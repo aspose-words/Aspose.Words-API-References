@@ -1,14 +1,14 @@
 ---
 title: FileFontSource.FileFontSource
 second_title: Aspose.Words per .NET API Reference
-description: FileFontSource costruttore. Tor.
+description: FileFontSource costruttore. Ctor.
 type: docs
 weight: 10
 url: /it/net/aspose.words.fonts/filefontsource/filefontsource/
 ---
 ## FileFontSource(string) {#constructor}
 
-Tor.
+Ctor.
 
 ```csharp
 public FileFontSource(string filePath)
@@ -44,7 +44,7 @@ Assert.AreEqual(0, fileFontSource.Priority);
 
 ## FileFontSource(string, int) {#constructor_1}
 
-Tor.
+Ctor.
 
 ```csharp
 public FileFontSource(string filePath, int priority)
@@ -53,7 +53,7 @@ public FileFontSource(string filePath, int priority)
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | filePath | String | Percorso del file del carattere. |
-| priority | Int32 | Priorità origine carattere. Vedi il[`Priority`](../../fontsourcebase/priority/) descrizione della struttura per ulteriori informazioni. |
+| priority | Int32 | Priorità della fonte del carattere. Vedi il[`Priority`](../../fontsourcebase/priority/) descrizione della proprietà per ulteriori informazioni. |
 
 ### Esempi
 
@@ -81,7 +81,7 @@ Assert.AreEqual(0, fileFontSource.Priority);
 
 ## FileFontSource(string, int, string) {#constructor_2}
 
-Tor.
+Ctor.
 
 ```csharp
 public FileFontSource(string filePath, int priority, string cacheKey)
@@ -90,15 +90,14 @@ public FileFontSource(string filePath, int priority, string cacheKey)
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | filePath | String | Percorso del file del carattere. |
-| priority | Int32 | Priorità origine carattere. Vedi il[`Priority`](../../fontsourcebase/priority/) descrizione della struttura per ulteriori informazioni. |
-| cacheKey | String | La chiave di questa fonte nella cache. Vedere[`CacheKey`](../cachekey/) descrizione della struttura per ulteriori informazioni. |
+| priority | Int32 | Priorità della fonte del carattere. Vedi il[`Priority`](../../fontsourcebase/priority/) descrizione della proprietà per ulteriori informazioni. |
+| cacheKey | String | La chiave di questa origine nella cache. Vedere[`CacheKey`](../cachekey/) descrizione della proprietà per ulteriori informazioni. |
 
 ### Esempi
 
-Mostra come accelerare il processo di inizializzazione della cache dei caratteri.
+Mostra come velocizzare il processo di inizializzazione della cache dei caratteri.
 
 ```csharp
-[Test]
 public void LoadFontSearchCache()
 {
     const string cacheKey1 = "Arvo";
@@ -126,7 +125,7 @@ public void LoadFontSearchCache()
 }
 
 /// <summary>
-/// Carica i dati del font solo quando richiesto invece di salvarli in memoria
+/// Carica i dati dei caratteri solo quando richiesto invece di archiviarli nella memoria
 /// per l'intera durata dell'oggetto "FontSettings".
 /// </summary>
 private class SearchCacheStream : StreamFontSource

@@ -1,14 +1,16 @@
 ---
 title: Class MetafileRenderingOptions
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Saving.MetafileRenderingOptions فصل. يسمح بتحديد خيارات عرض ملف تعريف إضافية.
+description: Aspose.Words.Saving.MetafileRenderingOptions فصل. يسمح بتحديد خيارات عرض ملف التعريف الإضافية.
 type: docs
-weight: 5020
+weight: 5300
 url: /ar/net/aspose.words.saving/metafilerenderingoptions/
 ---
 ## MetafileRenderingOptions class
 
-يسمح بتحديد خيارات عرض ملف تعريف إضافية.
+يسمح بتحديد خيارات عرض ملف التعريف الإضافية.
+
+لمعرفة المزيد، قم بزيارة[التعامل مع ملفات تعريف ويندوز](https://docs.aspose.com/words/net/handling-windows-metafiles/) مقالة توثيقية.
 
 ```csharp
 public class MetafileRenderingOptions
@@ -24,32 +26,35 @@ public class MetafileRenderingOptions
 
 | اسم | وصف |
 | --- | --- |
-| [EmfPlusDualRenderingMode](../../aspose.words.saving/metafilerenderingoptions/emfplusdualrenderingmode/) { get; set; } | الحصول على أو تعيين قيمة تحدد كيفية عرض EMF + Dual metafiles . |
-| [EmulateRasterOperations](../../aspose.words.saving/metafilerenderingoptions/emulaterasteroperations/) { get; set; } | الحصول على أو تعيين قيمة تحدد ما إذا كان يجب محاكاة عمليات البيانات النقطية أم لا. |
-| [RenderingMode](../../aspose.words.saving/metafilerenderingoptions/renderingmode/) { get; set; } | الحصول على أو تعيين قيمة تحدد كيفية عرض صور ملف التعريف . |
-| [ScaleWmfFontsToMetafileSize](../../aspose.words.saving/metafilerenderingoptions/scalewmffontstometafilesize/) { get; set; } | الحصول على أو تعيين قيمة تحدد ما إذا كان سيتم قياس الخطوط في ملف تعريف WMF وفقًا لحجم ملف التعريف على الصفحة. |
-| [UseEmfEmbeddedToWmf](../../aspose.words.saving/metafilerenderingoptions/useemfembeddedtowmf/) { get; set; } | الحصول على أو تعيين قيمة تحدد كيفية عرض ملفات تعريف WMF مع ملفات تعريف EMF المضمنة. |
+| [EmfPlusDualRenderingMode](../../aspose.words.saving/metafilerenderingoptions/emfplusdualrenderingmode/) { get; set; } | الحصول على قيمة أو تعيينها لتحديد كيفية عرض ملفات تعريف EMF+ Dual. |
+| [EmulateRasterOperations](../../aspose.words.saving/metafilerenderingoptions/emulaterasteroperations/) { get; set; } | الحصول على قيمة أو تعيينها لتحديد ما إذا كان يجب محاكاة العمليات النقطية أم لا. |
+| [EmulateRenderingToSizeOnPage](../../aspose.words.saving/metafilerenderingoptions/emulaterenderingtosizeonpage/) { get; set; } | الحصول على قيمة أو تعيينها لتحديد ما إذا كان عرض ملف التعريف يحاكي عرض ملف التعريف وفقًا للحجم الموجود على page أو عرض ملف التعريف بحجمه الافتراضي. |
+| [EmulateRenderingToSizeOnPageResolution](../../aspose.words.saving/metafilerenderingoptions/emulaterenderingtosizeonpageresolution/) { get; set; } | الحصول على الدقة بالبكسل في البوصة أو تعيينها لمحاكاة عرض ملف التعريف حسب الحجم الموجود على الصفحة. |
+| [RenderingMode](../../aspose.words.saving/metafilerenderingoptions/renderingmode/) { get; set; } | الحصول على قيمة أو تعيينها لتحديد كيفية عرض صور ملف التعريف. |
+| [UseEmfEmbeddedToWmf](../../aspose.words.saving/metafilerenderingoptions/useemfembeddedtowmf/) { get; set; } | الحصول على قيمة أو تعيينها لتحديد كيفية عرض ملفات تعريف WMF مع ملفات تعريف EMF المضمنة. |
+| [UseGdiRasterOperationsEmulation](../../aspose.words.saving/metafilerenderingoptions/usegdirasteroperationsemulation/) { get; set; } | الحصول على قيمة أو تعيينها لتحديد ما إذا كان سيتم استخدام GDI+ لمحاكاة العمليات النقطية أم لا. |
 
 ### أمثلة
 
-أضافت العروض رجوعًا إلى عرض الصور النقطية وتغيير نوع التحذيرات حول سجلات ملفات التعريف غير المدعومة.
+تمت إضافة بديل لعرض الصور النقطية وتغيير نوع التحذيرات حول سجلات ملفات التعريف غير المدعومة.
 
 ```csharp
+public void HandleBinaryRasterWarnings()
 {
     Document doc = new Document(MyDir + "WMF with image.docx");
 
     MetafileRenderingOptions metafileRenderingOptions = new MetafileRenderingOptions();
 
-    // قم بتعيين خاصية "EmulateRasterOperations" على "false" للرجوع إلى الصورة النقطية عندما
-    // يواجه ملف تعريف ، والذي سيتطلب عمليات نقطية لتقديمه في ملف PDF الناتج.
+    // قم بتعيين خاصية "EmulateRasterOperations" على "خطأ" للرجوع إلى الصورة النقطية عندما
+    // يواجه ملف تعريف، والذي سيتطلب عمليات نقطية لعرضه في ملف PDF الناتج.
     metafileRenderingOptions.EmulateRasterOperations = false;
 
-    // عيّن خاصية "RenderingMode" على "VectorWithFallback" لمحاولة تقديم كل ملف تعريف باستخدام رسومات متجهة.
+    // قم بتعيين خاصية "RenderingMode" على "VectorWithFallback" لمحاولة عرض كل ملف تعريف باستخدام الرسومات المتجهة.
     metafileRenderingOptions.RenderingMode = MetafileRenderingMode.VectorWithFallback;
 
-    // قم بإنشاء كائن "PdfSaveOptions" يمكننا تمريره إلى طريقة "Save" الخاصة بالمستند
+    // قم بإنشاء كائن "PdfSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" المستند
     // لتعديل كيفية تحويل هذه الطريقة للمستند إلى .PDF وتطبيق التكوين
-    // في كائن MetafileRenderingOptions الخاص بنا إلى عملية الحفظ.
+    // في كائن MetafileRenderingOptions الخاص بنا لعملية الحفظ.
     PdfSaveOptions saveOptions = new PdfSaveOptions();
     saveOptions.MetafileRenderingOptions = metafileRenderingOptions;
 
@@ -59,12 +64,12 @@ public class MetafileRenderingOptions
     doc.Save(ArtifactsDir + "PdfSaveOptions.HandleBinaryRasterWarnings.pdf", saveOptions);
 
     Assert.AreEqual(1, callback.Warnings.Count);
-    Assert.AreEqual("'R2_XORPEN' binary raster operation is partly supported.",
+    Assert.AreEqual("'R2_XORPEN' binary raster operation is not supported.",
         callback.Warnings[0].Description);
 }
 
 /// <summary>
-/// يطبع ويجمع التحذيرات المتعلقة بضياع التنسيق التي تحدث عند حفظ مستند.
+/// يطبع ويجمع التحذيرات المتعلقة بفقدان التنسيق التي تحدث عند حفظ المستند.
 /// </summary>
 public class HandleDocumentWarnings : IWarningCallback
 {

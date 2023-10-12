@@ -1,14 +1,14 @@
 ---
 title: Table.EnsureMinimum
 second_title: Referencia de API de Aspose.Words para .NET
-description: Table método. Si la tabla no tiene filas crea y agrega una Fila .
+description: Table método. Si la tabla no tiene filas crea y agrega unaRow .
 type: docs
-weight: 400
+weight: 420
 url: /es/net/aspose.words.tables/table/ensureminimum/
 ---
 ## Table.EnsureMinimum method
 
-Si la tabla no tiene filas, crea y agrega una **Fila** .
+Si la tabla no tiene filas, crea y agrega una[`Row`](../../row/) .
 
 ```csharp
 public void EnsureMinimum()
@@ -24,11 +24,11 @@ Table table = new Table(doc);
 doc.FirstSection.Body.AppendChild(table);
 
 // Las tablas contienen filas, que contienen celdas, que pueden contener párrafos
-// con elementos típicos como carreras, formas e incluso otras tablas.
-// Nuestra nueva tabla no tiene ninguno de estos nodos, y no podemos agregarle contenido hasta que lo tenga.
+// con elementos típicos como corridas, formas e incluso otras tablas.
+// Nuestra nueva tabla no tiene ninguno de estos nodos y no podemos agregarle contenido hasta que los tenga.
 Assert.AreEqual(0, table.GetChildNodes(NodeType.Any, true).Count);
 
-// Llamar al método "EnsureMinimum" en una tabla asegurará que
+// Llamar al método "EnsureMinimum" en una tabla garantizará que
 // la tabla tiene al menos una fila y una celda con un párrafo vacío.
 table.EnsureMinimum();
 table.FirstRow.FirstCell.FirstParagraph.AppendChild(new Run(doc, "Hello world!"));

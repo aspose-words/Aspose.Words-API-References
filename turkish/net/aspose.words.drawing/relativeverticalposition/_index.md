@@ -3,7 +3,7 @@ title: Enum RelativeVerticalPosition
 second_title: Aspose.Words for .NET API Referansı
 description: Aspose.Words.Drawing.RelativeVerticalPosition Sıralama. Bir şeklin veya metin çerçevesinin dikey konumunun göreli olduğunu belirtir.
 type: docs
-weight: 1070
+weight: 1210
 url: /tr/net/aspose.words.drawing/relativeverticalposition/
 ---
 ## RelativeVerticalPosition enumeration
@@ -19,25 +19,25 @@ public enum RelativeVerticalPosition
 | İsim | Değer | Tanım |
 | --- | --- | --- |
 | Margin | `0` | Dikey konumlandırmanın sayfa kenar boşluklarına göre olacağını belirtir. |
-| Page | `1` | Nesne, sayfanın üst kenarına göre konumlandırılmıştır. |
-| Paragraph | `2` | Nesne, bağlantıyı içeren paragrafın üst kısmına göre konumlandırılır. |
+| Page | `1` | Nesne sayfanın üst kenarına göre konumlandırılır. |
+| Paragraph | `2` | Nesne, bağlantının bulunduğu paragrafın üst kısmına göre konumlandırılır. |
 | Line | `3` | Belgelenmemiş. |
 | TopMargin | `4` | Dikey konumlandırmanın geçerli sayfanın üst kenar boşluğuna göre olacağını belirtir. |
 | BottomMargin | `5` | Dikey konumlandırmanın geçerli sayfanın alt kenar boşluğuna göre olacağını belirtir. |
 | InsideMargin | `6` | Dikey konumlandırmanın geçerli sayfanın iç kenar boşluğuna göre olacağını belirtir. |
 | OutsideMargin | `7` | Dikey konumlandırmanın geçerli sayfanın dış kenar boşluğuna göre olacağını belirtir. |
-| TableDefault | `0` | Varsayılan değerMargin . |
-| TextFrameDefault | `2` | Varsayılan değerParagraph . |
+| TableDefault | `0` | Varsayılan değer:Margin . |
+| TextFrameDefault | `2` | Varsayılan değer:Paragraph . |
 
 ### Örnekler
 
-Bir sayfanın ortasına kayan bir görüntünün nasıl ekleneceğini gösterir.
+Sayfanın ortasına kayan bir görüntünün nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Üst üste binen metnin arkasında görünecek kayan bir resim ekleyin ve onu sayfanın ortasına hizalayın.
+// Çakışan metnin arkasında görünecek kayan bir resim ekleyin ve onu sayfanın ortasına hizalayın.
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 shape.WrapType = WrapType.None;
 shape.BehindText = true;
@@ -49,7 +49,7 @@ shape.VerticalAlignment = VerticalAlignment.Center;
 doc.Save(ArtifactsDir + "Image.CreateFloatingPageCenter.docx");
 ```
 
-Bir resmin nasıl ekleneceğini ve filigran olarak nasıl kullanılacağını gösterir.
+Bir görüntünün nasıl ekleneceğini ve filigran olarak nasıl kullanılacağını gösterir.
 
 ```csharp
 Document doc = new Document();

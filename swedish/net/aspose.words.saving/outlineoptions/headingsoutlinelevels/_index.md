@@ -67,10 +67,10 @@ options.OutlineOptions.HeadingsOutlineLevels = 4;
 // Om en konturpost har efterföljande poster på en högre nivå mellan sig och nästa post på samma eller lägre nivå,
 // en pil visas till vänster om posten. Denna post är "ägare" till flera sådana "underposter".
 // I vårt dokument är dispositionsposterna från den 5:e rubriknivån underposter till den andra 4:e nivåns dispositionspost,
-  // posterna på 4:e och 5:e rubriknivån är underposter till den andra 3:e nivåposten, och så vidare.
+// posterna på 4:e och 5:e rubriknivån är underposter till den andra 3:e nivåposten, och så vidare.
 // I dispositionen kan vi klicka på pilen för "ägare"-posten för att komprimera/expandera alla dess underposter.
 // Ställ in egenskapen "ExpandedOutlineLevels" till "2" för att automatiskt utöka alla rubriknivå 2 och lägre dispositionsposter
- // och kollapsa alla nivåer och 3 och högre poster när vi öppnar dokumentet.
+// och kollapsa alla nivåer och 3 och högre poster när vi öppnar dokumentet.
 options.OutlineOptions.ExpandedOutlineLevels = 2;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.ExpandedOutlineLevels.pdf", options);

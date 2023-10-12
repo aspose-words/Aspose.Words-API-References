@@ -99,7 +99,7 @@ public void Visitor()
 }
 
 /// <summary>
-/// Besöksimplementering som skriver ut detaljer om formulärfält som den besöker. 
+ /// Besöksimplementering som skriver ut detaljer om formulärfält som den besöker.
 /// </summary>
 public class FormFieldVisitor : DocumentVisitor
 {
@@ -182,7 +182,7 @@ public FormField this[string bookmarkName] { get; }
 
 ### Anmärkningar
 
-Returnerar null om formulärfältet med det angivna bokmärkesnamnet inte kan hittas.
+Returnerar`null` om formulärfältet med det angivna bokmärkesnamnet inte kan hittas.
 
 ### Exempel
 
@@ -255,7 +255,7 @@ public void Visitor()
 }
 
 /// <summary>
-/// Besöksimplementering som skriver ut detaljer om formulärfält som den besöker. 
+ /// Besöksimplementering som skriver ut detaljer om formulärfält som den besöker.
 /// </summary>
 public class FormFieldVisitor : DocumentVisitor
 {

@@ -1,14 +1,14 @@
 ---
 title: SubDocument.NodeType
 second_title: Aspose.Words per .NET API Reference
-description: SubDocument proprietà. Restituisce NodeType.SubDocument
+description: SubDocument proprietà. RestituisceSubDocument .
 type: docs
 weight: 10
 url: /it/net/aspose.words/subdocument/nodetype/
 ---
 ## SubDocument.NodeType property
 
-Restituisce **NodeType.SubDocument**
+RestituisceSubDocument .
 
 ```csharp
 public override NodeType NodeType { get; }

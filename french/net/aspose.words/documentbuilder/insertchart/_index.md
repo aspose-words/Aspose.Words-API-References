@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.InsertChart
 second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentBuilder méthode. Insère un objet graphique dans le document et le met à léchelle à la taille spécifiée.
+description: DocumentBuilder méthode. Insère un objet graphique dans le document et le redimensionne à la taille spécifiée.
 type: docs
-weight: 260
+weight: 280
 url: /fr/net/aspose.words/documentbuilder/insertchart/
 ---
 ## InsertChart(ChartType, double, double) {#insertchart_1}
 
-Insère un objet graphique dans le document et le met à l'échelle à la taille spécifiée.
+Insère un objet graphique dans le document et le redimensionne à la taille spécifiée.
 
 ```csharp
 public Shape InsertChart(ChartType chartType, double width, double height)
@@ -16,7 +16,7 @@ public Shape InsertChart(ChartType chartType, double width, double height)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| chartType | ChartType | Type de graphique à insérer dans le document. |
+| chartType | ChartType | Le type de graphique à insérer dans le document. |
 | width | Double | La largeur de l'image en points. Peut être une valeur négative ou nulle pour demander une échelle de 100 %. |
 | height | Double | La hauteur de l'image en points. Peut être une valeur négative ou nulle pour demander une échelle de 100 %. |
 
@@ -30,7 +30,7 @@ Vous pouvez modifier la taille de l'image, l'emplacement, la méthode de positio
 
 ### Exemples
 
-Montre comment insérer un graphique à secteurs dans un document.
+Montre comment insérer un diagramme circulaire dans un document.
 
 ```csharp
 Document doc = new Document();
@@ -38,6 +38,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Chart chart = builder.InsertChart(ChartType.Pie, ConvertUtil.PixelToPoint(300), 
     ConvertUtil.PixelToPoint(300)).Chart;
+chart.Series.Clear();
 chart.Series.Add("My fruit",
     new[] { "Apples", "Bananas", "Cherries" },
     new[] { 1.3, 2.2, 1.5 });
@@ -57,7 +58,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertPieChart.docx");
 
 ## InsertChart(ChartType, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {#insertchart}
 
-Insère un objet graphique dans le document et le met à l'échelle à la taille spécifiée.
+Insère un objet graphique dans le document et le redimensionne à la taille spécifiée.
 
 ```csharp
 public Shape InsertChart(ChartType chartType, RelativeHorizontalPosition horzPos, double left, 
@@ -66,14 +67,14 @@ public Shape InsertChart(ChartType chartType, RelativeHorizontalPosition horzPos
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| chartType | ChartType | Type de graphique à insérer dans le document. |
-| horzPos | RelativeHorizontalPosition | Spécifie l'endroit à partir duquel la distance à l'image est mesurée. |
-| left | Double | Distance en points entre l'origine et le côté gauche de l'image. |
-| vertPos | RelativeVerticalPosition | Spécifie d'où la distance à l'image est mesurée. |
-| top | Double | Distance en points entre l'origine et le haut de l'image. |
+| chartType | ChartType | Le type de graphique à insérer dans le document. |
+| horzPos | RelativeHorizontalPosition | Spécifie l'endroit à partir duquel la distance jusqu'à l'image est mesurée. |
+| left | Double | Distance en points depuis l'origine jusqu'au côté gauche de l'image. |
+| vertPos | RelativeVerticalPosition | Spécifie l'endroit à partir duquel la distance jusqu'à l'image est mesurée. |
+| top | Double | Distance en points depuis l'origine jusqu'au haut de l'image. |
 | width | Double | La largeur de l'image en points. Peut être une valeur négative ou nulle pour demander une échelle de 100 %. |
 | height | Double | La hauteur de l'image en points. Peut être une valeur négative ou nulle pour demander une échelle de 100 %. |
-| wrapType | WrapType | Spécifie comment habiller le texte autour de l'image. |
+| wrapType | WrapType | Spécifie comment enrouler le texte autour de l'image. |
 
 ### Return_Value
 
@@ -85,7 +86,7 @@ Vous pouvez modifier la taille de l'image, l'emplacement, la méthode de positio
 
 ### Exemples
 
-Montre comment spécifier la position et l'habillage lors de l'insertion d'un graphique.
+Montre comment spécifier la position et le retour à la ligne lors de l'insertion d'un graphique.
 
 ```csharp
 Document doc = new Document();

@@ -1,22 +1,22 @@
 ---
 title: Aspose.Words.DigitalSignatures
 second_title: Aspose.Words für .NET-API-Referenz
-description: Das Aspose.Words.DigitalSignatures namespace stellt Klassen zum Signieren von Dokumenten und Verifizieren von Signaturen bereit.
+description: Der Aspose.Words.DigitalSignatures Der Namespace stellt Klassen zum Signieren von Dokumenten und zum Überprüfen von Signaturen bereit.
 type: docs
 weight: 40
 url: /de/net/aspose.words.digitalsignatures/
 ---
-Das **Aspose.Words.DigitalSignatures** namespace stellt Klassen zum Signieren von Dokumenten und Verifizieren von Signaturen bereit.
+Der **Aspose.Words.DigitalSignatures** Der Namespace stellt Klassen zum Signieren von Dokumenten und zum Überprüfen von Signaturen bereit.
 
 ## Klassen
 
 | Klasse | Beschreibung |
 | --- | --- |
-| [CertificateHolder](./certificateholder/) | Repräsentiert einen Inhaber von **X509Zertifikat2** Beispiel. |
-| [DigitalSignature](./digitalsignature/) | Stellt eine digitale Signatur auf einem Dokument und das Ergebnis seiner Überprüfung dar. |
+| [CertificateHolder](./certificateholder/) | Stellt einen Inhaber dar **X509Zertifikat2** Instanz. |
+| [DigitalSignature](./digitalsignature/) | Stellt eine digitale Signatur eines Dokuments und das Ergebnis seiner Überprüfung dar. |
 | [DigitalSignatureCollection](./digitalsignaturecollection/) | Stellt eine schreibgeschützte Sammlung digitaler Signaturen bereit, die an ein Dokument angehängt sind. |
 | [DigitalSignatureUtil](./digitalsignatureutil/) | Stellt Methoden zum Signieren von Dokumenten bereit. |
-| [SignOptions](./signoptions/) | Ermöglicht das Festlegen von Optionen zum Signieren von Dokumenten. |
+| [SignOptions](./signoptions/) | Ermöglicht die Angabe von Optionen für das Signieren von Dokumenten. |
 ## Aufzählung
 
 | Aufzählung | Beschreibung |

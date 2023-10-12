@@ -3,7 +3,7 @@ title: Range.Text
 second_title: Aspose.Words für .NET-API-Referenz
 description: Range eigendom. Ruft den Text des Bereichs ab.
 type: docs
-weight: 50
+weight: 60
 url: /de/net/aspose.words/range/text/
 ---
 ## Range.Text property

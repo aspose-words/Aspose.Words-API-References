@@ -1,14 +1,16 @@
 ---
 title: Class Hyphenation
 second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Hyphenation 班级. 提供使用连字字典的方法这些词典规定了特定语言的单词在哪里可以连字
+description: Aspose.Words.Hyphenation 班级. 提供使用连字符字典的方法这些词典规定了特定语言的单词可以用连字符连接的位置
 type: docs
-weight: 2970
+weight: 3150
 url: /zh/net/aspose.words/hyphenation/
 ---
 ## Hyphenation class
 
-提供使用连字字典的方法。这些词典规定了特定语言的单词在哪里可以连字。
+提供使用连字符字典的方法。这些词典规定了特定语言的单词可以用连字符连接的位置。
+
+要了解更多信息，请访问[使用连字符](https://docs.aspose.com/words/net/working-with-hyphenation/)文档文章。
 
 ```csharp
 public static class Hyphenation
@@ -18,45 +20,46 @@ public static class Hyphenation
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [Callback](../../aspose.words/hyphenation/callback/) { get; set; } | 获取或设置用于在构建文档的页面布局时请求字典的回调接口。 这允许延迟加载字典，这在处理多种语言的文档时可能很有用。 |
-| static [WarningCallback](../../aspose.words/hyphenation/warningcallback/) { get; set; } | 在加载断字模式期间调用，当检测到可能导致格式保真度丢失的问题时调用。 |
+| static [Callback](../../aspose.words/hyphenation/callback/) { get; set; } | 获取或设置用于在构建文档页面布局时请求字典的回调接口。 这允许延迟加载字典，这在处理多种语言的文档时可能很有用。 |
+| static [WarningCallback](../../aspose.words/hyphenation/warningcallback/) { get; set; } | 在加载连字模式期间，当检测到可能导致格式保真度损失的问题时调用。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [IsDictionaryRegistered](../../aspose.words/hyphenation/isdictionaryregistered/)(string) | 如果指定的语言没有注册字典或者注册的是空字典，则返回 False，否则返回 True。 |
-| static [RegisterDictionary](../../aspose.words/hyphenation/registerdictionary/#registerdictionary)(string, Stream) | 从流中注册并加载指定语言的断字字典。如果字典无法读取或格式无效，则抛出。 |
-| static [RegisterDictionary](../../aspose.words/hyphenation/registerdictionary/#registerdictionary_1)(string, string) | 从文件中注册并加载指定语言的断字字典。如果字典无法读取或格式无效，则抛出。 |
-| static [UnregisterDictionary](../../aspose.words/hyphenation/unregisterdictionary/)(string) | 取消注册指定语言的断字字典。 |
+| static [IsDictionaryRegistered](../../aspose.words/hyphenation/isdictionaryregistered/)(string) | 返回`错误的`如果对于指定的语言没有注册词典或者如果注册的是空词典，`真的`否则. |
+| static [RegisterDictionary](../../aspose.words/hyphenation/registerdictionary/#registerdictionary)(string, Stream) | 从流中注册并加载指定语言的连字符字典。如果字典无法读取或格式无效，则抛出异常。 |
+| static [RegisterDictionary](../../aspose.words/hyphenation/registerdictionary/#registerdictionary_1)(string, string) | 从文件中注册并加载指定语言的连字符字典。如果字典无法读取或格式无效，则抛出异常。 |
+| static [UnregisterDictionary](../../aspose.words/hyphenation/unregisterdictionary/)(string) | 注销指定语言的连字符字典。 |
 
 ### 例子
 
-显示如何从文件中打开和注册字典。
+演示如何从文件打开和注册字典。
 
 ```csharp
+public void RegisterDictionary()
 {
-    // 设置一个回调来跟踪在连字字典注册期间发生的警告。
+    // 设置一个回调来跟踪连字符字典注册期间发生的警告。
     WarningInfoCollection warningInfoCollection = new WarningInfoCollection();
     Hyphenation.WarningCallback = warningInfoCollection;
 
-    // 通过流注册一个英语（美国）断字字典。
+    // 通过流注册英语（美国）连字符字典。
     Stream dictionaryStream = new FileStream(MyDir + "hyph_en_US.dic", FileMode.Open);
     Hyphenation.RegisterDictionary("en-US", dictionaryStream);
 
     Assert.AreEqual(0, warningInfoCollection.Count);
 
-    // 打开具有 Microsoft Word 可能无法在英语机器上连字的语言环境的文档，例如德语。
+    // 打开 Microsoft Word 可能无法在英语机器上连字符的区域设置的文档，例如德语。
     Document doc = new Document(MyDir + "German text.docx");
 
-    // 要在保存时为该文档断字，我们需要一个用于“de-CH”语言代码的断字字典。
+    // 要在保存时对该文档进行连字符，我们需要一个用于“de-CH”语言代码的连字符字典。
     // 此回调将处理对该字典的自动请求。
     Hyphenation.Callback = new CustomHyphenationDictionaryRegister();
 
     // 当我们保存文档时，德语连字符将生效。
     doc.Save(ArtifactsDir + "Hyphenation.RegisterDictionary.pdf");
 
-    // 这个字典包含两个相同的模式，会触发一个警告。
+    // 该字典包含两个相同的模式，这将触发警告。
     Assert.AreEqual(1, warningInfoCollection.Count);
     Assert.AreEqual(WarningType.MinorFormattingLoss, warningInfoCollection[0].WarningType);
     Assert.AreEqual(WarningSource.Layout, warningInfoCollection[0].Source);

@@ -1,14 +1,14 @@
 ---
 title: Enum RelativeVerticalPosition
 second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Drawing.RelativeVerticalPosition enum. Specifica a quale posizione verticale di una forma o di una cornice di testo è relativa.
+description: Aspose.Words.Drawing.RelativeVerticalPosition enum. Specifica a cosa è relativa la posizione verticale di una forma o di una cornice di testo.
 type: docs
-weight: 1070
+weight: 1210
 url: /it/net/aspose.words.drawing/relativeverticalposition/
 ---
 ## RelativeVerticalPosition enumeration
 
-Specifica a quale posizione verticale di una forma o di una cornice di testo è relativa.
+Specifica a cosa è relativa la posizione verticale di una forma o di una cornice di testo.
 
 ```csharp
 public enum RelativeVerticalPosition
@@ -18,14 +18,14 @@ public enum RelativeVerticalPosition
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| Margin | `0` | Specifica che il posizionamento verticale deve essere relativo ai margini della pagina. |
+| Margin | `0` | Specifica che il posizionamento verticale sarà relativo ai margini della pagina. |
 | Page | `1` | L'oggetto è posizionato rispetto al bordo superiore della pagina. |
 | Paragraph | `2` | L'oggetto è posizionato rispetto alla parte superiore del paragrafo che contiene l'ancora. |
 | Line | `3` | Non documentato. |
-| TopMargin | `4` | Specifica che il posizionamento verticale deve essere relativo al margine superiore della pagina corrente. |
-| BottomMargin | `5` | Specifica che il posizionamento verticale deve essere relativo al margine inferiore della pagina corrente. |
-| InsideMargin | `6` | Specifica che il posizionamento verticale deve essere relativo al margine interno della pagina corrente. |
-| OutsideMargin | `7` | Specifica che il posizionamento verticale deve essere relativo al margine esterno della pagina corrente. |
+| TopMargin | `4` | Specifica che il posizionamento verticale sarà relativo al margine superiore della pagina corrente. |
+| BottomMargin | `5` | Specifica che il posizionamento verticale sarà relativo al margine inferiore della pagina corrente. |
+| InsideMargin | `6` | Specifica che il posizionamento verticale sarà relativo al margine interno della pagina corrente. |
+| OutsideMargin | `7` | Specifica che il posizionamento verticale sarà relativo al margine esterno della pagina corrente. |
 | TableDefault | `0` | Il valore predefinito èMargin . |
 | TextFrameDefault | `2` | Il valore predefinito èParagraph . |
 
@@ -49,7 +49,7 @@ shape.VerticalAlignment = VerticalAlignment.Center;
 doc.Save(ArtifactsDir + "Image.CreateFloatingPageCenter.docx");
 ```
 
-Mostra come inserire un'immagine e usarla come filigrana.
+Mostra come inserire un'immagine e utilizzarla come filigrana.
 
 ```csharp
 Document doc = new Document();
@@ -71,7 +71,7 @@ shape.Top = (builder.PageSetup.PageHeight - shape.Height) / 2;
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertWatermark.docx");
 ```
 
-Mostra come inserire un'immagine e usarla come filigrana (.NetStandard 2.0).
+Mostra come inserire un'immagine e utilizzarla come filigrana (.NetStandard 2.0).
 
 ```csharp
 Document doc = new Document();

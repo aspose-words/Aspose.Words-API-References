@@ -1,14 +1,14 @@
 ---
 title: FormFieldCollection.Item
 second_title: Aspose.Words لمراجع .NET API
-description: FormFieldCollection ملكية. إرجاع حقل نموذج بالفهرس المحدد.
+description: FormFieldCollection ملكية. إرجاع حقل نموذج في الفهرس المحدد.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/formfieldcollection/item/
 ---
 ## FormFieldCollection indexer (1 of 2)
 
-إرجاع حقل نموذج بالفهرس المحدد.
+إرجاع حقل نموذج في الفهرس المحدد.
 
 ```csharp
 public FormField this[int index] { get; }
@@ -20,17 +20,17 @@ public FormField this[int index] { get; }
 
 ### ملاحظات
 
-المؤشر على أساس الصفر.
+المؤشر قائم على الصفر.
 
-يُسمح بالفهارس السلبية وتشير إلى الوصول من الجزء الخلفي من المجموعة. على سبيل المثال -1 تعني العنصر الأخير ، -2 تعني العنصر الثاني قبل الأخير وهكذا.
+الفهارس السالبة مسموح بها وتشير إلى الوصول من الجزء الخلفي للمجموعة. على سبيل المثال -1 يعني العنصر الأخير، -2 يعني الثاني قبل الأخير وهكذا.
 
-إذا كان الفهرس أكبر من أو يساوي عدد العناصر في القائمة ، فسيُرجع هذا مرجعًا فارغًا.
+إذا كان الفهرس أكبر من أو يساوي عدد العناصر الموجودة في القائمة، فسيُرجع هذا مرجعًا فارغًا.
 
-إذا كان الفهرس سالبًا وكانت قيمته المطلقة أكبر من عدد العناصر في القائمة ، فسيُرجع هذا مرجعًا فارغًا.
+إذا كان الفهرس سالبًا وقيمته المطلقة أكبر من عدد العناصر الموجودة في القائمة، فسيُرجع هذا مرجعًا فارغًا.
 
 ### أمثلة
 
-يوضح كيفية إدراج أنواع مختلفة من حقول النموذج في مستند ، ومعالجتها باستخدام تطبيق زائر المستند.
+يوضح كيفية إدراج أنواع مختلفة من حقول النموذج في المستند ومعالجتها باستخدام تطبيق زائر المستند.
 
 ```csharp
 public void Visitor()
@@ -38,7 +38,7 @@ public void Visitor()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // استخدم منشئ المستندات لإدراج مربع تحرير وسرد.
+    // استخدم منشئ المستندات لإدراج مربع التحرير والسرد.
     builder.Write("Choose a value from this combo box: ");
     FormField comboBox = builder.InsertComboBox("MyComboBox", new[] { "One", "Two", "Three" }, 0);
     comboBox.CalculateOnExit = true;
@@ -48,7 +48,7 @@ public void Visitor()
 
     builder.InsertBreak(BreakType.ParagraphBreak);
 
-    // استخدم منشئ المستندات لإدراج خانة اختيار.
+    // استخدم منشئ المستندات لإدراج خانة الاختيار.
     builder.Write("Click this check box to tick/untick it: ");
     FormField checkBox = builder.InsertCheckBox("MyCheckBox", false, 50);
     checkBox.IsCheckBoxExactSize = true;
@@ -73,12 +73,12 @@ public void Visitor()
     Assert.AreEqual(TextFormFieldType.Regular, textInput.TextInputType);
     Assert.AreEqual(50, textInput.MaxLength);
 
-    // تحتوي هذه المجموعة على جميع حقول النموذج الخاصة بنا.
+    // تحتوي هذه المجموعة على جميع حقول النموذج لدينا.
     FormFieldCollection formFields = doc.Range.FormFields;
     Assert.AreEqual(3, formFields.Count);
 
-    // تعرض الحقول حقول النموذج الخاصة بنا. يمكننا رؤية رموز الحقول الخاصة بهم من خلال فتح هذا المستند
-    // في Microsoft والضغط على Alt + F9. هذه الحقول لا تحتوي على مفاتيح ،
+    // تعرض الحقول حقول النموذج الخاصة بنا. يمكننا رؤية رموز الحقول الخاصة بهم عن طريق فتح هذا المستند
+    // في مايكروسوفت والضغط على Alt + F9. هذه الحقول ليس لها مفاتيح،
     // وأعضاء كائن FormField يتحكمون بشكل كامل في محتوى حقول النموذج الخاصة بهم.
     Assert.AreEqual(3, doc.Range.Fields.Count);
     Assert.AreEqual(" FORMDROPDOWN \u0001", doc.Range.Fields[0].GetFieldCode());
@@ -99,7 +99,7 @@ public void Visitor()
 }
 
 /// <summary>
-/// تنفيذ الزائر الذي يطبع تفاصيل حقول النموذج التي يزورها. 
+ /// تنفيذ الزائر الذي يطبع تفاصيل حقول النموذج التي يزورها.
 /// </summary>
 public class FormFieldVisitor : DocumentVisitor
 {
@@ -109,7 +109,7 @@ public class FormFieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاستدعاء عند مواجهة عقدة FormField في المستند.
+    /// يتم الاتصال به عند مواجهة عقدة FormField في المستند.
     /// </summary>
     public override VisitorAction VisitFormField(FormField formField)
     {
@@ -135,12 +135,12 @@ public class FormFieldVisitor : DocumentVisitor
                 break;
         }
 
-        // دع الزائر يواصل زيارة العقد الأخرى.
+        // اسمح للزائر بمواصلة زيارة العقد الأخرى.
         return VisitorAction.Continue;
     }
 
     /// <summary>
-    /// يضيف سطرًا جديدًا محرفًا بنص إلى الإخراج الحالي.
+    /// يضيف سطرًا جديدًا منتهيًا بالحرف إلى الإخراج الحالي.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -170,7 +170,7 @@ public class FormFieldVisitor : DocumentVisitor
 
 ## FormFieldCollection indexer (2 of 2)
 
-إرجاع حقل نموذج باسم إشارة مرجعية.
+إرجاع حقل نموذج حسب اسم الإشارة المرجعية.
 
 ```csharp
 public FormField this[string bookmarkName] { get; }
@@ -178,15 +178,15 @@ public FormField this[string bookmarkName] { get; }
 
 | معامل | وصف |
 | --- | --- |
-| bookmarkName | اسم إشارة مرجعية غير حساس لحالة الأحرف. |
+| bookmarkName | اسم الإشارة المرجعية غير حساس لحالة الأحرف. |
 
 ### ملاحظات
 
-إرجاع فارغ إذا تعذر العثور على حقل النموذج مع اسم الإشارة المرجعية المحدد.
+إرجاع`باطل` إذا تعذر العثور على حقل النموذج الذي يحمل اسم الإشارة المرجعية المحدد.
 
 ### أمثلة
 
-يوضح كيفية إدراج أنواع مختلفة من حقول النموذج في مستند ، ومعالجتها باستخدام تطبيق زائر المستند.
+يوضح كيفية إدراج أنواع مختلفة من حقول النموذج في المستند ومعالجتها باستخدام تطبيق زائر المستند.
 
 ```csharp
 public void Visitor()
@@ -194,7 +194,7 @@ public void Visitor()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // استخدم منشئ المستندات لإدراج مربع تحرير وسرد.
+    // استخدم منشئ المستندات لإدراج مربع التحرير والسرد.
     builder.Write("Choose a value from this combo box: ");
     FormField comboBox = builder.InsertComboBox("MyComboBox", new[] { "One", "Two", "Three" }, 0);
     comboBox.CalculateOnExit = true;
@@ -204,7 +204,7 @@ public void Visitor()
 
     builder.InsertBreak(BreakType.ParagraphBreak);
 
-    // استخدم منشئ المستندات لإدراج خانة اختيار.
+    // استخدم منشئ المستندات لإدراج خانة الاختيار.
     builder.Write("Click this check box to tick/untick it: ");
     FormField checkBox = builder.InsertCheckBox("MyCheckBox", false, 50);
     checkBox.IsCheckBoxExactSize = true;
@@ -229,12 +229,12 @@ public void Visitor()
     Assert.AreEqual(TextFormFieldType.Regular, textInput.TextInputType);
     Assert.AreEqual(50, textInput.MaxLength);
 
-    // تحتوي هذه المجموعة على جميع حقول النموذج الخاصة بنا.
+    // تحتوي هذه المجموعة على جميع حقول النموذج لدينا.
     FormFieldCollection formFields = doc.Range.FormFields;
     Assert.AreEqual(3, formFields.Count);
 
-    // تعرض الحقول حقول النموذج الخاصة بنا. يمكننا رؤية رموز الحقول الخاصة بهم من خلال فتح هذا المستند
-    // في Microsoft والضغط على Alt + F9. هذه الحقول لا تحتوي على مفاتيح ،
+    // تعرض الحقول حقول النموذج الخاصة بنا. يمكننا رؤية رموز الحقول الخاصة بهم عن طريق فتح هذا المستند
+    // في مايكروسوفت والضغط على Alt + F9. هذه الحقول ليس لها مفاتيح،
     // وأعضاء كائن FormField يتحكمون بشكل كامل في محتوى حقول النموذج الخاصة بهم.
     Assert.AreEqual(3, doc.Range.Fields.Count);
     Assert.AreEqual(" FORMDROPDOWN \u0001", doc.Range.Fields[0].GetFieldCode());
@@ -255,7 +255,7 @@ public void Visitor()
 }
 
 /// <summary>
-/// تنفيذ الزائر الذي يطبع تفاصيل حقول النموذج التي يزورها. 
+ /// تنفيذ الزائر الذي يطبع تفاصيل حقول النموذج التي يزورها.
 /// </summary>
 public class FormFieldVisitor : DocumentVisitor
 {
@@ -265,7 +265,7 @@ public class FormFieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاستدعاء عند مواجهة عقدة FormField في المستند.
+    /// يتم الاتصال به عند مواجهة عقدة FormField في المستند.
     /// </summary>
     public override VisitorAction VisitFormField(FormField formField)
     {
@@ -291,12 +291,12 @@ public class FormFieldVisitor : DocumentVisitor
                 break;
         }
 
-        // دع الزائر يواصل زيارة العقد الأخرى.
+        // اسمح للزائر بمواصلة زيارة العقد الأخرى.
         return VisitorAction.Continue;
     }
 
     /// <summary>
-    /// يضيف سطرًا جديدًا محرفًا بنص إلى الإخراج الحالي.
+    /// يضيف سطرًا جديدًا منتهيًا بالحرف إلى الإخراج الحالي.
     /// </summary>
     private void AppendLine(string text)
     {

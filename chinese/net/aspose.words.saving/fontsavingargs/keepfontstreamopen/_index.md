@@ -1,14 +1,14 @@
 ---
 title: FontSavingArgs.KeepFontStreamOpen
 second_title: Aspose.Words for .NET API 参考
-description: FontSavingArgs 财产. 指定 Aspose.Words 是在保存字体后保持流打开还是关闭它
+description: FontSavingArgs 财产. 指定 Aspose.Words 在保存字体后是否应保持流打开或关闭它
 type: docs
 weight: 90
 url: /zh/net/aspose.words.saving/fontsavingargs/keepfontstreamopen/
 ---
 ## FontSavingArgs.KeepFontStreamOpen property
 
-指定 Aspose.Words 是在保存字体后保持流打开还是关闭它。
+指定 Aspose.Words 在保存字体后是否应保持流打开或关闭它。
 
 ```csharp
 public bool KeepFontStreamOpen { get; set; }
@@ -16,18 +16,19 @@ public bool KeepFontStreamOpen { get; set; }
 
 ### 评论
 
-默认为`错误的` Aspose.Words 将关闭您在[`FontStream`](../fontstream/)将字体写入其中后的属性。 指定`真的`保持流打开。
+默认为`错误的` Aspose.Words 将关闭您提供的流 [`FontStream`](../fontstream/)写入字体后的属性。 指定`真的`以保持流打开。
 
 ### 例子
 
-展示如何定义自定义逻辑以在保存为 HTML 时导出字体。
+演示如何定义保存为 HTML 时导出字体的自定义逻辑。
 
 ```csharp
+public void SaveExportedFonts()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
     // 配置 SaveOptions 对象以将字体导出到单独的文件。
-    // 设置一个以自定义方式处理字体保存的回调。
+    // 设置将以自定义方式处理字体保存的回调。
     HtmlSaveOptions options = new HtmlSaveOptions
     {
         ExportFontResources = true,
@@ -42,8 +43,10 @@ public bool KeepFontStreamOpen { get; set; }
         Console.WriteLine(fontFilename);
     }
 
+}
+
 /// <summary>
-/// 打印有关导出字体的信息并将它们保存在与其输出 .html 相同的本地系统文件夹中。
+/// 打印有关导出字体的信息并将其保存在与其输出 .html 相同的本地系统文件夹中。
 /// </summary>
 public class HandleFontSaving : IFontSavingCallback
 {
@@ -60,7 +63,7 @@ public class HandleFontSaving : IFontSavingCallback
         Assert.True(args.IsExportNeeded);
         Assert.True(args.IsSubsettingNeeded);
 
-        // 有两种保存导出字体的方法。
+        // 有两种方法保存导出的字体。
         // 1 - 将其保存到本地文件系统位置：
         args.FontFileName = args.OriginalFileName.Split(Path.DirectorySeparatorChar).Last();
 

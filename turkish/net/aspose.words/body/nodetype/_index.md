@@ -1,14 +1,14 @@
 ---
 title: Body.NodeType
 second_title: Aspose.Words for .NET API Referansı
-description: Body mülk. İade DüğümTürü.Gövde .
+description: Body mülk. İadelerBody .
 type: docs
 weight: 20
 url: /tr/net/aspose.words/body/nodetype/
 ---
 ## Body.NodeType property
 
-İade **DüğümTürü.Gövde** .
+İadelerBody .
 
 ```csharp
 public override NodeType NodeType { get; }
@@ -30,8 +30,8 @@ builder.Write("Primary footer");
 
 Section section = doc.FirstSection;
 
-// Bir Bölüm, bileşik bir düğümdür ve alt düğümler içerebilir,
-// ancak yalnızca bu alt düğümler "Body" veya "HeaderFooter" düğüm türündeyse.
+// Bölüm bileşik bir düğümdür ve alt düğümler içerebilir,
+// ancak yalnızca bu alt düğümler "Body" veya "HeaderFooter" düğüm tipindeyse.
 foreach (Node node in section)
 {
     switch (node.NodeType)

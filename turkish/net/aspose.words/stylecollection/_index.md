@@ -1,14 +1,16 @@
 ---
 title: Class StyleCollection
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.StyleCollection sınıf. Bir belgede hem yerleşik hem de kullanıcı tanımlı stilleri temsil eden Style nesneleri koleksiyonu.
+description: Aspose.Words.StyleCollection sınıf. Bir koleksiyonStyle bir belgedeki hem yerleşik hem de kullanıcı tanımlı stilleri temsil eden nesneler.
 type: docs
-weight: 5840
+weight: 6140
 url: /tr/net/aspose.words/stylecollection/
 ---
 ## StyleCollection class
 
-Bir belgede hem yerleşik hem de kullanıcı tanımlı stilleri temsil eden Style nesneleri koleksiyonu.
+Bir koleksiyon[`Style`](../style/) bir belgedeki hem yerleşik hem de kullanıcı tanımlı stilleri temsil eden nesneler.
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Stiller ve Temalarla Çalışmak](https://docs.aspose.com/words/net/working-with-styles-and-themes/) dokümantasyon makalesi.
 
 ```csharp
 public class StyleCollection : IEnumerable<Style>
@@ -18,11 +20,11 @@ public class StyleCollection : IEnumerable<Style>
 
 | İsim | Tanım |
 | --- | --- |
-| [Count](../../aspose.words/stylecollection/count/) { get; } | Koleksiyondaki stil sayısını alır. |
-| [DefaultFont](../../aspose.words/stylecollection/defaultfont/) { get; } | Belge varsayılan metin biçimlendirmesini alır. |
-| [DefaultParagraphFormat](../../aspose.words/stylecollection/defaultparagraphformat/) { get; } | Belge varsayılan paragraf biçimlendirmesini alır. |
+| [Count](../../aspose.words/stylecollection/count/) { get; } | Koleksiyondaki stillerin sayısını alır. |
+| [DefaultFont](../../aspose.words/stylecollection/defaultfont/) { get; } | Belgenin varsayılan metin formatını alır. |
+| [DefaultParagraphFormat](../../aspose.words/stylecollection/defaultparagraphformat/) { get; } | Belgenin varsayılan paragraf formatını alır. |
 | [Document](../../aspose.words/stylecollection/document/) { get; } | Sahip belgesini alır. |
-| [Item](../../aspose.words/stylecollection/item/) { get; } | Ada veya diğer ada göre bir stil alır. (3 indexers) |
+| [Item](../../aspose.words/stylecollection/item/) { get; } | Ada veya takma ada göre bir stil alır. (3 indexers) |
 
 ## yöntemler
 
@@ -30,12 +32,12 @@ public class StyleCollection : IEnumerable<Style>
 | --- | --- |
 | [Add](../../aspose.words/stylecollection/add/)(StyleType, string) | Kullanıcı tanımlı yeni bir stil oluşturur ve onu koleksiyona ekler. |
 | [AddCopy](../../aspose.words/stylecollection/addcopy/)(Style) | Bu koleksiyona bir stil kopyalar. |
-| [ClearQuickStyleGallery](../../aspose.words/stylecollection/clearquickstylegallery/)() | Hızlı Stil Galerisi panelinden tüm stilleri kaldırır. |
+| [ClearQuickStyleGallery](../../aspose.words/stylecollection/clearquickstylegallery/)() | Hızlı Stil Galerisi panelindeki tüm stilleri kaldırır. |
 | [GetEnumerator](../../aspose.words/stylecollection/getenumerator/)() | Stilleri adlarının alfabetik sırasına göre sıralayacak bir numaralandırıcı nesnesi alır. |
 
 ### Örnekler
 
-Liste biçimlendirmeli bir paragraf stilinin nasıl oluşturulacağını ve kullanılacağını gösterir.
+Liste formatıyla paragraf stilinin nasıl oluşturulacağını ve kullanılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -51,11 +53,11 @@ style.ParagraphFormat.SpaceAfter = 12;
 style.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
 style.ListFormat.ListLevelNumber = 0;
 
-// Paragraf stilini belge oluşturucunun geçerli paragrafına uygulayın ve ardından biraz metin ekleyin.
+// Paragraf stilini belge oluşturucunun geçerli paragrafına uygulayın ve ardından bir miktar metin ekleyin.
 builder.ParagraphFormat.Style = style;
 builder.Writeln("Hello World: MyStyle1, bulleted list.");
 
-// Belge oluşturucunun stilini liste biçimlendirmesi olmayan bir stille değiştirin ve başka bir paragraf yazın.
+// Belge oluşturucunun stilini liste formatı olmayan bir stille değiştirin ve başka bir paragraf yazın.
 builder.ParagraphFormat.Style = doc.Styles["Normal"];
 builder.Writeln("Hello World: Normal.");
 

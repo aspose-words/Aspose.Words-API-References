@@ -1,14 +1,14 @@
 ---
 title: FrameFormat.Width
 second_title: Aspose.Words لمراجع .NET API
-description: FrameFormat ملكية. الحصول على عرض الإطار المحدد بالنقاط .
+description: FrameFormat ملكية. الحصول على عرض الإطار المحدد بالنقاط.
 type: docs
 weight: 120
 url: /ar/net/aspose.words/frameformat/width/
 ---
 ## FrameFormat.Width property
 
-الحصول على عرض الإطار المحدد بالنقاط .
+الحصول على عرض الإطار المحدد بالنقاط.
 
 ```csharp
 public double Width { get; }
@@ -16,7 +16,7 @@ public double Width { get; }
 
 ### أمثلة
 
-يوضح كيفية الحصول على معلومات حول خصائص التنسيق للفقرات التي هي إطارات.
+يوضح كيفية الحصول على معلومات حول خصائص تنسيق الفقرات التي تكون إطارات.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraph frame.docx");

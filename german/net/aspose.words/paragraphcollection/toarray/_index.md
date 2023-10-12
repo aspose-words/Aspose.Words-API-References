@@ -30,7 +30,7 @@ Paragraph[] paras = doc.FirstSection.Body.Paragraphs.ToArray();
 Assert.AreEqual(22, paras.Length);
 ```
 
-Zeigt die Verwendung von "Hot Remove", um einen Knoten während der Aufzählung zu entfernen.
+Zeigt, wie Sie mit „Hot Remove“ einen Knoten während der Aufzählung entfernen.
 
 ```csharp
 Document doc = new Document();
@@ -41,7 +41,7 @@ builder.Writeln("The second paragraph");
 builder.Writeln("The third paragraph");
 builder.Writeln("The fourth paragraph");
 
-// Entfernen Sie einen Knoten aus der Sammlung mitten in einer Aufzählung.
+// Einen Knoten mitten in einer Aufzählung aus der Sammlung entfernen.
 foreach (Paragraph para in doc.FirstSection.Body.Paragraphs.ToArray())
     if (para.Range.Text.Contains("third"))
         para.Remove();

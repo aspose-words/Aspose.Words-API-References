@@ -3,12 +3,14 @@ title: Class TextBox
 second_title: Aspose.Words per .NET API Reference
 description: Aspose.Words.Drawing.TextBox classe. Definisce gli attributi che specificano come viene visualizzato un testo allinterno di una forma.
 type: docs
-weight: 1170
+weight: 1320
 url: /it/net/aspose.words.drawing/textbox/
 ---
 ## TextBox class
 
 Definisce gli attributi che specificano come viene visualizzato un testo all'interno di una forma.
+
+Per saperne di più, visita il[Lavorare con le forme](https://docs.aspose.com/words/net/working-with-shapes/) articolo di documentazione.
 
 ```csharp
 public class TextBox
@@ -18,28 +20,29 @@ public class TextBox
 
 | Nome | Descrizione |
 | --- | --- |
-| [FitShapeToText](../../aspose.words.drawing/textbox/fitshapetotext/) { get; set; } | Determina se Microsoft Word aumenterà la forma per adattarla al testo. |
+| [FitShapeToText](../../aspose.words.drawing/textbox/fitshapetotext/) { get; set; } | Determina se Microsoft Word ingrandirà la forma per adattarla al testo. |
 | [InternalMarginBottom](../../aspose.words.drawing/textbox/internalmarginbottom/) { get; set; } | Specifica il margine inferiore interno in punti per una forma. |
-| [InternalMarginLeft](../../aspose.words.drawing/textbox/internalmarginleft/) { get; set; } | Specifica il margine sinistro interno in punti per una forma. |
+| [InternalMarginLeft](../../aspose.words.drawing/textbox/internalmarginleft/) { get; set; } | Specifica il margine interno sinistro in punti per una forma. |
 | [InternalMarginRight](../../aspose.words.drawing/textbox/internalmarginright/) { get; set; } | Specifica il margine interno destro in punti per una forma. |
 | [InternalMarginTop](../../aspose.words.drawing/textbox/internalmargintop/) { get; set; } | Specifica il margine superiore interno in punti per una forma. |
 | [LayoutFlow](../../aspose.words.drawing/textbox/layoutflow/) { get; set; } | Determina il flusso del layout del testo in una forma. |
-| [Next](../../aspose.words.drawing/textbox/next/) { get; set; } | Restituisce o imposta un TextBox che rappresenta il successivo TextBox in una sequenza di forme. |
-| [Parent](../../aspose.words.drawing/textbox/parent/) { get; } | Ottiene una forma padre per TextBox. |
-| [Previous](../../aspose.words.drawing/textbox/previous/) { get; } | Restituisce un TextBox che rappresenta il TextBox precedente in una sequenza di forme. |
-| [TextBoxWrapMode](../../aspose.words.drawing/textbox/textboxwrapmode/) { get; set; } | Determina come il testo va a capo all'interno di una forma. |
+| [Next](../../aspose.words.drawing/textbox/next/) { get; set; } | Restituisce o imposta a`TextBox` che rappresenta il successivo`TextBox` in una sequenza di forme. |
+| [NoTextRotation](../../aspose.words.drawing/textbox/notextrotation/) { get; set; } | Ottiene o imposta un valore booleano che indica che il testo del TextBox non deve ruotare quando viene ruotata la forma. |
+| [Parent](../../aspose.words.drawing/textbox/parent/) { get; } | Ottiene una forma genitore per il`TextBox` . |
+| [Previous](../../aspose.words.drawing/textbox/previous/) { get; } | Restituisce a`TextBox` che rappresenta il precedente`TextBox` in una sequenza di forme. |
+| [TextBoxWrapMode](../../aspose.words.drawing/textbox/textboxwrapmode/) { get; set; } | Determina il modo in cui il testo va a capo all'interno di una forma. |
 | [VerticalAnchor](../../aspose.words.drawing/textbox/verticalanchor/) { get; set; } | Specifica l'allineamento verticale del testo all'interno di una forma. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [BreakForwardLink](../../aspose.words.drawing/textbox/breakforwardlink/)() | Interrompe il collegamento alla casella di testo successiva. |
-| [IsValidLinkTarget](../../aspose.words.drawing/textbox/isvalidlinktarget/)(TextBox) | Determina se questa casella di testo può essere collegata alla casella di testo di destinazione. |
+| [BreakForwardLink](../../aspose.words.drawing/textbox/breakforwardlink/)() | Interrompe il collegamento al successivo`TextBox` . |
+| [IsValidLinkTarget](../../aspose.words.drawing/textbox/isvalidlinktarget/)(TextBox) | Determina se questo`TextBox` può essere collegato al bersaglio`TextBox` . |
 
 ### Osservazioni
 
-Utilizzare il[`TextBox`](../shape/textbox/) per accedere alle proprietà di testo di una forma. Non si creano istanze di`TextBox` classe direttamente.
+Usa il[`TextBox`](../shape/textbox/) property per accedere alle proprietà del testo di una forma. Non crei istanze di`TextBox` classe direttamente.
 
 ### Esempi
 
@@ -49,7 +52,7 @@ Mostra come impostare i margini interni per una casella di testo.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inserisce un'altra casella di testo con margini specifici.
+// Inserisci un'altra casella di testo con margini specifici.
 Shape textBoxShape = builder.InsertShape(ShapeType.TextBox, 100, 100);
 TextBox textBox = textBoxShape.TextBox;
 textBox.InternalMarginTop = 15;
@@ -72,12 +75,12 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape textBoxShape = builder.InsertShape(ShapeType.TextBox, 150, 100);
 TextBox textBox = textBoxShape.TextBox;
 
-// Sposta il generatore di documenti all'interno del TextBox e aggiungi del testo.
+// Sposta il generatore di documenti all'interno del TextBox e aggiungi testo.
 builder.MoveTo(textBoxShape.LastParagraph);
 builder.Writeln("Hello world!");
 builder.Write("Hello again!");
 
-// Imposta la proprietà "LayoutFlow" per impostare un orientamento per il contenuto del testo di questa casella di testo.
+// Imposta la proprietà "LayoutFlow" per impostare un orientamento per il contenuto di testo di questa casella di testo.
 textBox.LayoutFlow = layoutFlow;
 
 doc.Save(ArtifactsDir + "Shape.TextBoxLayoutFlow.docx");
@@ -92,7 +95,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape textBoxShape = builder.InsertShape(ShapeType.TextBox, 150, 100);
 TextBox textBox = textBoxShape.TextBox;
 
-// Applica questi valori a entrambi questi membri per adattare la forma padre
+// Applica questi valori a entrambi i membri per far sì che la forma principale si adatti
 // strettamente attorno al contenuto del testo, ignorando le dimensioni che abbiamo impostato.
 textBox.FitShapeToText = true;
 textBox.TextBoxWrapMode = TextBoxWrapMode.None;

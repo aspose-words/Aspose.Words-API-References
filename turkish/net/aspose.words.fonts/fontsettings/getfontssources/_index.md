@@ -20,7 +20,7 @@ Geçerli yazı tipi kaynaklarının bir kopyası.
 
 ### Notlar
 
-Döndürülen değer, Aspose.Words'ün kullandığı verilerin bir kopyasıdır. Döndürülen dizideki girişleri değiştirirseniz, belge oluşturma üzerinde hiçbir etkisi olmaz. Yeni yazı tipi source belirtmek için şunu kullanın:[`SetFontsSources`](../setfontssources/) yöntem.
+Döndürülen değer Aspose.Words'ün kullandığı verilerin bir kopyasıdır. Döndürülen dizideki entry değerini değiştirirseniz, bunun belge oluşturma üzerinde hiçbir etkisi olmayacaktır. Yeni yazı tipi kaynakları belirtmek için şunu kullanın:[`SetFontsSources`](../setfontssources/) yöntem.
 
 ### Örnekler
 
@@ -44,14 +44,14 @@ Assert.AreEqual(1, originalFontSources.Length);
 Assert.True(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"));
 
 // Varsayılan yazı tipi kaynağında, belgemizde kullandığımız yazı tiplerinden ikisi eksik.
-// Bu belgeyi kaydettiğimizde, Aspose.Words, erişilemeyen yazı tipleriyle formatlanmış tüm metinlere yedek yazı tipleri uygulayacaktır.
+// Bu belgeyi kaydettiğimizde Aspose.Words, erişilemeyen yazı tipleriyle biçimlendirilmiş tüm metinlere yedek yazı tiplerini uygulayacaktır.
 Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Amethysta"));
 Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Junction Light"));
 
-// Fontları içeren bir klasörden bir font kaynağı oluşturun.
+// Yazı tiplerini içeren bir klasörden yazı tipi kaynağı oluşturun.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, true);
 
-// Özel yazı tiplerimizin yanı sıra orijinal yazı tipi kaynaklarını içeren yeni bir yazı tipi kaynakları dizisi uygulayın.
+// Özel yazı tiplerimizin yanı sıra orijinal yazı tipi kaynaklarını da içeren yeni bir yazı tipi kaynakları dizisi uygulayın.
 FontSourceBase[] updatedFontSources = {originalFontSources[0], folderFontSource};
 FontSettings.DefaultInstance.SetFontsSources(updatedFontSources);
 

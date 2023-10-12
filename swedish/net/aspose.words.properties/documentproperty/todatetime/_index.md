@@ -1,14 +1,14 @@
 ---
 title: DocumentProperty.ToDateTime
 second_title: Aspose.Words för .NET API Referens
-description: DocumentProperty metod. Returnerar egenskapsvärdet som DateTime i UTC.
+description: DocumentProperty metod. Returnerar egenskapsvärdet som Datum Tid i UTC.
 type: docs
 weight: 80
 url: /sv/net/aspose.words.properties/documentproperty/todatetime/
 ---
 ## DocumentProperty.ToDateTime method
 
-Returnerar egenskapsvärdet som DateTime i UTC.
+Returnerar egenskapsvärdet som **Datum Tid** i UTC.
 
 ```csharp
 public DateTime ToDateTime()

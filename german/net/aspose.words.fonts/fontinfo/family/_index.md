@@ -1,14 +1,14 @@
 ---
 title: FontInfo.Family
 second_title: Aspose.Words für .NET-API-Referenz
-description: FontInfo eigendom. Ruft die Schriftfamilie ab oder legt sie fest zu der diese Schrift gehört.
+description: FontInfo eigendom. Ruft die Schriftfamilie ab zu der diese Schriftart gehört oder legt diese fest.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fonts/fontinfo/family/
 ---
 ## FontInfo.Family property
 
-Ruft die Schriftfamilie ab oder legt sie fest, zu der diese Schrift gehört.
+Ruft die Schriftfamilie ab, zu der diese Schriftart gehört, oder legt diese fest.
 
 ```csharp
 public FontFamily Family { get; set; }
@@ -16,7 +16,7 @@ public FontFamily Family { get; set; }
 
 ### Beispiele
 
-Zeigt, wie Sie auf Details jeder Schriftart in einem Dokument zugreifen und diese drucken können.
+Zeigt, wie Sie auf Details zu jeder Schriftart in einem Dokument zugreifen und diese drucken können.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");

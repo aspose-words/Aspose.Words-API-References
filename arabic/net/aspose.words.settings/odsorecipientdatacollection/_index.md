@@ -1,14 +1,16 @@
 ---
 title: Class OdsoRecipientDataCollection
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Settings.OdsoRecipientDataCollection فصل. مجموعة مكتوبة منOdsoRecipientData
+description: Aspose.Words.Settings.OdsoRecipientDataCollection فصل. مجموعة مطبوعة منOdsoRecipientData
 type: docs
-weight: 5640
+weight: 5940
 url: /ar/net/aspose.words.settings/odsorecipientdatacollection/
 ---
 ## OdsoRecipientDataCollection class
 
-مجموعة مكتوبة من[`OdsoRecipientData`](../odsorecipientdata/)
+مجموعة مطبوعة من[`OdsoRecipientData`](../odsorecipientdata/)
+
+لمعرفة المزيد، قم بزيارة[دمج البريد وإعداد التقارير](https://docs.aspose.com/words/net/mail-merge-and-reporting/) مقالة توثيقية.
 
 ```csharp
 public class OdsoRecipientDataCollection : IEnumerable<OdsoRecipientData>
@@ -31,14 +33,14 @@ public class OdsoRecipientDataCollection : IEnumerable<OdsoRecipientData>
 
 | اسم | وصف |
 | --- | --- |
-| [Add](../../aspose.words.settings/odsorecipientdatacollection/add/)(OdsoRecipientData) | إضافة كائن إلى نهاية هذه المجموعة . |
-| [Clear](../../aspose.words.settings/odsorecipientdatacollection/clear/)() | يزيل كل العناصر من هذه المجموعة. |
-| [GetEnumerator](../../aspose.words.settings/odsorecipientdatacollection/getenumerator/)() | إرجاع كائن العداد الذي يمكن استخدامه للتكرار على كافة العناصر في المجموعة. |
-| [RemoveAt](../../aspose.words.settings/odsorecipientdatacollection/removeat/)(int) | يزيل العنصر في الفهرس المحدد . |
+| [Add](../../aspose.words.settings/odsorecipientdatacollection/add/)(OdsoRecipientData) | إضافة كائن إلى نهاية هذه المجموعة. |
+| [Clear](../../aspose.words.settings/odsorecipientdatacollection/clear/)() | إزالة كافة العناصر من هذه المجموعة. |
+| [GetEnumerator](../../aspose.words.settings/odsorecipientdatacollection/getenumerator/)() | إرجاع كائن العداد الذي يمكن استخدامه للتكرار على كافة العناصر الموجودة في المجموعة. |
+| [RemoveAt](../../aspose.words.settings/odsorecipientdatacollection/removeat/)(int) | إزالة العنصر الموجود في الفهرس المحدد. |
 
 ### أمثلة
 
-يوضح كيفية الوصول إلى مجموعة البيانات التي تحدد سجلات مصدر بيانات الدمج التي سيستبعدها دمج المراسلات.
+يوضح كيفية الوصول إلى مجموعة البيانات التي تحدد سجلات مصدر بيانات الدمج التي سيتم استبعادها من خلال دمج البريد.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
@@ -60,10 +62,10 @@ using (IEnumerator<OdsoRecipientData> enumerator = dataCollection.GetEnumerator(
     }
 }
 
-// يمكننا استنساخ العناصر في هذه المجموعة.
+// يمكننا استنساخ العناصر الموجودة في هذه المجموعة.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// يمكننا أيضًا إزالة العناصر بشكل فردي ، أو مسح المجموعة بأكملها مرة واحدة.
+// يمكننا أيضًا إزالة العناصر بشكل فردي، أو مسح المجموعة بأكملها مرة واحدة.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(69, dataCollection.Count);

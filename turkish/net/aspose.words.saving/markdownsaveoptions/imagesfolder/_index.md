@@ -1,14 +1,14 @@
 ---
 title: MarkdownSaveOptions.ImagesFolder
 second_title: Aspose.Words for .NET API Referansı
-description: MarkdownSaveOptions mülk. Bir belgeyi öğesine dışa aktarırken görüntülerin kaydedildiği fiziksel klasörü belirtir.Markdown biçim. Varsayılan boş bir dizedir.
+description: MarkdownSaveOptions mülk. Bir belgeyi ye aktarırken görüntülerin kaydedildiği fiziksel klasörü belirtir.Markdown biçim. Varsayılan boş bir dizedir.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.saving/markdownsaveoptions/imagesfolder/
 ---
 ## MarkdownSaveOptions.ImagesFolder property
 
-Bir belgeyi öğesine dışa aktarırken görüntülerin kaydedildiği fiziksel klasörü belirtir.Markdown biçim. Varsayılan boş bir dizedir.
+Bir belgeyi 'ye aktarırken görüntülerin kaydedildiği fiziksel klasörü belirtir.Markdown biçim. Varsayılan boş bir dizedir.
 
 ```csharp
 public string ImagesFolder { get; set; }
@@ -16,13 +16,55 @@ public string ImagesFolder { get; set; }
 
 ### Notlar
 
-Bir[`Document`](../../../aspose.words/document/) içindeMarkdown format, Aspose.Words'ün belgeye gömülü tüm görüntüleri bağımsız dosyalar olarak kaydetmesi gerekir. `ImagesFolder` resimlerin nereye kaydedileceğini belirlemenize olanak tanır.
+Bir dosyayı kaydettiğinizde[`Document`](../../../aspose.words/document/) içindeMarkdownformat, Aspose.Words'ün belgeye gömülü tüm görselleri bağımsız dosyalar olarak kaydetmesi gerekiyor. `ImagesFolder` görüntülerin nereye kaydedileceğini belirtmenizi sağlar.
 
-Bir belgeyi bir dosyaya kaydeder ve bir dosya adı sağlarsanız, Aspose.Words varsayılan olarak görüntüleri, belge dosyasının kaydedildiği klasörle aynı içine kaydeder. Kullanmak`ImagesFolder` bu davranışı geçersiz kılmak için.
+Bir belgeyi bir dosyaya kaydederseniz ve bir dosya adı sağlarsanız Aspose.Words, varsayılan olarak görüntüleri belge dosyasının kaydedildiği klasöre kaydeder. Kullanmak`ImagesFolder` bu davranışı geçersiz kılmak için.
 
-Bir belgeyi bir akışa kaydederseniz, Aspose.Words'ün görüntüleri kaydedeceği bir folder klasörü yoktur, ancak yine de görüntüleri bir yere kaydetmesi gerekir. Bu durumda, içinde erişilebilir bir klasör belirtmeniz gerekir.`ImagesFolder` özellik.
+Bir belgeyi bir akışa kaydederseniz, Aspose.Words'de görüntülerin kaydedileceği bir klasör yoktur, ancak yine de görüntüleri bir yere kaydetmesi gerekir. Bu durumda, içinde erişilebilir bir klasör belirtmeniz gerekir.`ImagesFolder` özellik.
 
-tarafından belirtilen klasör`ImagesFolder` mevcut değil, otomatik olarak oluşturulacak.
+Eğer belirtilen klasör`ImagesFolder` mevcut değil, otomatik olarak oluşturulacak.
+
+### Örnekler
+
+Görüntü URI'lerini oluşturmak için kullanılan klasörün adının nasıl belirleneceğini gösterir.
+
+```csharp
+DocumentBuilder builder = new DocumentBuilder();
+
+builder.Writeln("Some image below:");
+Image image = Image.FromFile(ImageDir + "Logo.jpg");
+builder.InsertImage(image);
+
+MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
+// Yerel dosya sisteminde içine bir klasör atamak için "ImagesFolder" özelliğini kullanın.
+// Aspose.Words belgenin tüm bağlantılı görsellerini kaydedecektir.
+saveOptions.ImagesFolder = ArtifactsDir + "ImagesDir/";
+// Bu klasörü kullanmak için "ImagesFolderAlias" özelliğini kullanın
+// resimler klasörünün adı yerine resim URI'lerini oluştururken.
+saveOptions.ImagesFolderAlias = "http://example.com/images";
+
+builder.Document.Save(ArtifactsDir + "MarkdownSaveOptions.ImagesFolder.md", saveOptions);
+```
+
+Görüntü URI'lerini (.NetStandard 2.0) oluşturmak için kullanılan klasörün adının nasıl belirtileceğini gösterir.
+
+```csharp
+DocumentBuilder builder = new DocumentBuilder();
+
+builder.Writeln("Some image below:");
+using (SKBitmap bitmap = SKBitmap.Decode(ImageDir + "Logo.jpg"))
+    builder.InsertImage(bitmap);
+
+MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
+// Yerel dosya sisteminde içine bir klasör atamak için "ImagesFolder" özelliğini kullanın.
+// Aspose.Words belgenin tüm bağlantılı görsellerini kaydedecektir.
+saveOptions.ImagesFolder = ArtifactsDir + "ImagesDir/";
+// Bu klasörü kullanmak için "ImagesFolderAlias" özelliğini kullanın
+// resimler klasörünün adı yerine resim URI'lerini oluştururken.
+saveOptions.ImagesFolderAlias = "http://example.com/images";
+
+builder.Document.Save(ArtifactsDir + "MarkdownSaveOptions.ImagesFolder.md", saveOptions);
+```
 
 ### Ayrıca bakınız
 

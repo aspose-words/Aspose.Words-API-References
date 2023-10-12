@@ -1,14 +1,14 @@
 ---
 title: Paragraph.ParentStory
 second_title: Referencia de API de Aspose.Words para .NET
-description: Paragraph propiedad. Recupera la historia principal a nivel de sección que se puedeBody oHeaderFooter .
+description: Paragraph propiedad. Recupera la historia a nivel de sección principal que se puedeBody oHeaderFooter .
 type: docs
 weight: 210
 url: /es/net/aspose.words/paragraph/parentstory/
 ---
 ## Paragraph.ParentStory property
 
-Recupera la historia principal a nivel de sección que se puede[`Body`](../../body/) o[`HeaderFooter`](../../headerfooter/) .
+Recupera la historia a nivel de sección principal que se puede[`Body`](../../body/) o[`HeaderFooter`](../../headerfooter/) .
 
 ```csharp
 public Story ParentStory { get; }
@@ -21,7 +21,7 @@ Muestra cómo crear un encabezado y un pie de página.
 ```csharp
 Document doc = new Document();
 
-// Crear un encabezado y agregarle un párrafo. El texto de ese párrafo
+// Crea un encabezado y añádele un párrafo. El texto de ese párrafo
 // aparecerá en la parte superior de cada página de esta sección, encima del texto del cuerpo principal.
 HeaderFooter header = new HeaderFooter(doc, HeaderFooterType.HeaderPrimary);
 doc.FirstSection.HeadersFooters.Add(header);

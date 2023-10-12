@@ -3,84 +3,16 @@ title: CompositeNode.InsertBefore
 linktitle: InsertBefore
 articleTitle: InsertBefore
 second_title: Aspose.Words for .NET
-description: CompositeNode InsertBefore method. Inserts the specified node immediately before the specified reference node in C#.
+description: CompositeNode InsertBefore method.  in C#.
 type: docs
-weight: 140
+weight: 160
 url: /net/aspose.words/compositenode/insertbefore/
 ---
-## CompositeNode.InsertBefore method
-
-Inserts the specified node immediately before the specified reference node.
+## CompositeNode.InsertBefore&lt;T&gt; method
 
 ```csharp
-public Node InsertBefore(Node newChild, Node refChild)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| newChild | Node | The [`Node`](../../node/) to insert. |
-| refChild | Node | The [`Node`](../../node/) that is the reference node. The *newChild* is placed before this node. |
-
-### Return Value
-
-The inserted node.
-
-## Remarks
-
-If *refChild* is `null`, inserts *newChild* at the end of the list of child nodes.
-
-If the *newChild* is already in the tree, it is first removed.
-
-If the node being inserted was created from another document, you should use [`ImportNode`](../../documentbase/importnode/) to import the node to the current document. The imported node can then be inserted into the current document.
-
-## Examples
-
-Shows how to add, update and delete child nodes in a CompositeNode's collection of children.
-
-```csharp
-Document doc = new Document();
-
-// An empty document, by default, has one paragraph.
-Assert.AreEqual(1, doc.FirstSection.Body.Paragraphs.Count);
-
-// Composite nodes such as our paragraph can contain other composite and inline nodes as children.
-Paragraph paragraph = doc.FirstSection.Body.FirstParagraph;
-Run paragraphText = new Run(doc, "Initial text. ");
-paragraph.AppendChild(paragraphText);
-
-// Create three more run nodes.
-Run run1 = new Run(doc, "Run 1. ");
-Run run2 = new Run(doc, "Run 2. ");
-Run run3 = new Run(doc, "Run 3. ");
-
-// The document body will not display these runs until we insert them into a composite node
-// that itself is a part of the document's node tree, as we did with the first run.
-// We can determine where the text contents of nodes that we insert
-// appears in the document by specifying an insertion location relative to another node in the paragraph.
-Assert.AreEqual("Initial text.", paragraph.GetText().Trim());
-
-// Insert the second run into the paragraph in front of the initial run.
-paragraph.InsertBefore(run2, paragraphText);
-
-Assert.AreEqual("Run 2. Initial text.", paragraph.GetText().Trim());
-
-// Insert the third run after the initial run.
-paragraph.InsertAfter(run3, paragraphText);
-
-Assert.AreEqual("Run 2. Initial text. Run 3.", paragraph.GetText().Trim());
-
-// Insert the first run to the start of the paragraph's child nodes collection.
-paragraph.PrependChild(run1);
-
-Assert.AreEqual("Run 1. Run 2. Initial text. Run 3.", paragraph.GetText().Trim());
-Assert.AreEqual(4, paragraph.GetChildNodes(NodeType.Any, true).Count);
-
-// We can modify the contents of the run by editing and deleting existing child nodes.
-((Run)paragraph.GetChildNodes(NodeType.Run, true)[1]).Text = "Updated run 2. ";
-paragraph.GetChildNodes(NodeType.Run, true).Remove(paragraphText);
-
-Assert.AreEqual("Run 1. Updated run 2. Run 3.", paragraph.GetText().Trim());
-Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, true).Count);
+public T InsertBefore<T>(T newChild, Node refChild)
+    where T : Node
 ```
 
 ### See Also

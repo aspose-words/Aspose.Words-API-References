@@ -3,12 +3,14 @@ title: Class FontSettings
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Fonts.FontSettings klass. Anger teckensnittsinställningar för ett dokument.
 type: docs
-weight: 2790
+weight: 2970
 url: /sv/net/aspose.words.fonts/fontsettings/
 ---
 ## FontSettings class
 
 Anger teckensnittsinställningar för ett dokument.
+
+För att lära dig mer, besök[Arbeta med teckensnitt](https://docs.aspose.com/words/net/working-with-fonts/) dokumentationsartikel.
 
 ```csharp
 public class FontSettings

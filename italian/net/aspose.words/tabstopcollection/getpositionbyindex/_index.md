@@ -20,7 +20,7 @@ public double GetPositionByIndex(int index)
 
 ### Valore di ritorno
 
-La posizione del punto di tabulazione.
+La posizione della tabulazione.
 
 ### Esempi
 

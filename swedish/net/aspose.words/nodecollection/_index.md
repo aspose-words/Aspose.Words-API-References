@@ -3,12 +3,14 @@ title: Class NodeCollection
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.NodeCollection klass. Representerar en samling noder av en specifik typ.
 type: docs
-weight: 3960
+weight: 4200
 url: /sv/net/aspose.words/nodecollection/
 ---
 ## NodeCollection class
 
 Representerar en samling noder av en specifik typ.
+
+För att lära dig mer, besök[Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) dokumentationsartikel.
 
 ```csharp
 public class NodeCollection : IEnumerable<Node>
@@ -37,15 +39,15 @@ public class NodeCollection : IEnumerable<Node>
 
 ### Anmärkningar
 
-**NodeCollection** äger inte noderna den innehåller, snarare är det bara ett urval av nodes av den angivna typen, men noderna lagras i trädet under sina respektive överordnade noder.
+`NodeCollection` äger inte noderna den innehåller, snarare är det bara ett urval av nodes av den angivna typen, men noderna lagras i trädet under sina respektive överordnade noder.
 
-**NodeCollection**stöder indexerad åtkomst, iteration och tillhandahåller metoder för att lägga till och ta bort.
+`NodeCollection`stöder indexerad åtkomst, iteration och tillhandahåller metoder för att lägga till och ta bort.
 
-De **NodeCollection** samlingen är "live", dvs. ändringar av barnen till noden object som den skapades från återspeglas omedelbart i de noder som returneras av **NodeCollection** egenskaper och metoder.
+De`NodeCollection` samlingen är "live", dvs. ändringar av barnen till noden object som den skapades från återspeglas omedelbart i de noder som returneras av`NodeCollection` egenskaper och metoder.
 
-**NodeCollection** returneras av[`GetChildNodes`](../compositenode/getchildnodes/) och fungerar även som en basklass för typade nodsamlingar som t.ex[`SectionCollection`](../sectioncollection/) , [`ParagraphCollection`](../paragraphcollection/) etc.
+`NodeCollection` returneras av[`GetChildNodes`](../compositenode/getchildnodes/) och fungerar även som en basklass för typade nodsamlingar som t.ex[`SectionCollection`](../sectioncollection/) , [`ParagraphCollection`](../paragraphcollection/) etc.
 
-**NodeCollection** kan vara "platt" och endast innehålla omedelbara underordnade av noden den skapades från, eller så kan den vara "djup" och innehålla alla underordnade underordnade.
+`NodeCollection` kan vara "platt" och endast innehålla omedelbara underordnade av noden den skapades från, eller så kan den vara "djup" och innehålla alla underordnade underordnade.
 
 ### Exempel
 

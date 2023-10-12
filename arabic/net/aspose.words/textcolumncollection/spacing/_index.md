@@ -1,14 +1,14 @@
 ---
 title: TextColumnCollection.Spacing
 second_title: Aspose.Words لمراجع .NET API
-description: TextColumnCollection ملكية. عندما تكون الأعمدة متباعدة بشكل متساوٍ  تحصل على مقدار المسافة بين كل عمود أو يحدده بالنقاط .
+description: TextColumnCollection ملكية. عندما تكون الأعمدة متباعدة بالتساوي يتم الحصول على مقدار المسافة بين كل عمود أو تعيينه بالنقاط.
 type: docs
 weight: 50
 url: /ar/net/aspose.words/textcolumncollection/spacing/
 ---
 ## TextColumnCollection.Spacing property
 
-عندما تكون الأعمدة متباعدة بشكل متساوٍ ، تحصل على مقدار المسافة بين كل عمود أو يحدده بالنقاط .
+عندما تكون الأعمدة متباعدة بالتساوي، يتم الحصول على مقدار المسافة بين كل عمود أو تعيينه بالنقاط.
 
 ```csharp
 public double Spacing { get; set; }
@@ -16,11 +16,11 @@ public double Spacing { get; set; }
 
 ### ملاحظات
 
-يكون له تأثير فقط عندما[`EvenlySpaced`](../evenlyspaced/) تم تعيينه على **حقيقي** .
+له تأثير فقط عندما[`EvenlySpaced`](../evenlyspaced/) تم ضبطه على`حقيقي` .
 
 ### أمثلة
 
-يوضح كيفية إنشاء عدة أعمدة متباعدة بشكل متساوٍ في قسم.
+يوضح كيفية إنشاء عدة أعمدة متباعدة بشكل متساوٍ في القسم.
 
 ```csharp
 Document doc = new Document();

@@ -3,7 +3,7 @@ title: LayoutEnumerator.MoveLastChild
 second_title: Aspose.Words för .NET API Referens
 description: LayoutEnumerator metod. Flyttar till den sista underordnade enheten.
 type: docs
-weight: 100
+weight: 110
 url: /sv/net/aspose.words.layout/layoutenumerator/movelastchild/
 ---
 ## LayoutEnumerator.MoveLastChild method

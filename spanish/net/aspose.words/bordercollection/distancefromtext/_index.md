@@ -20,11 +20,11 @@ Obtiene la distancia desde el texto para el primer borde.
 
 Establece la distancia desde el texto para todos los bordes de la colección, excepto los bordes diagonales.
 
-No tiene efecto y se restablecerá automáticamente a cero para los bordes de las celdas de la tabla.
+No tiene ningún efecto y se restablecerá automáticamente a cero para los bordes de las celdas de la tabla.
 
 ### Ejemplos
 
-Muestra cómo crear un borde de página verde ondulado con una sombra.
+Muestra cómo crear un borde de página ondulado verde con una sombra.
 
 ```csharp
 Document doc = new Document();

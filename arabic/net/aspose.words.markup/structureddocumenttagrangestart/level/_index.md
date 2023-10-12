@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTagRangeStart.Level
 second_title: Aspose.Words لمراجع .NET API
-description: StructuredDocumentTagRangeStart ملكية. يحصل على المستوى الذي يبدأ عنده نطاق علامة المستند المهيكلة هذا في شجرة المستند.
+description: StructuredDocumentTagRangeStart ملكية. الحصول على المستوى الذي يبدأ عنده نطاق علامات المستند الهيكلي هذا في شجرة المستندات.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.markup/structureddocumenttagrangestart/level/
 ---
 ## StructuredDocumentTagRangeStart.Level property
 
-يحصل على المستوى الذي يبدأ عنده نطاق علامة المستند المهيكلة هذا في شجرة المستند.
+الحصول على المستوى الذي يبدأ عنده نطاق علامات المستند الهيكلي هذا في شجرة المستندات.
 
 ```csharp
 public MarkupLevel Level { get; }

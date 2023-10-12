@@ -1,14 +1,14 @@
 ---
 title: TextColumnCollection.EvenlySpaced
 second_title: Справочник по API Aspose.Words для .NET
-description: TextColumnCollection свойство. Истинный если текстовые столбцы имеют одинаковую ширину и равномерно распределены.
+description: TextColumnCollection свойство. Истинно если текстовые столбцы имеют одинаковую ширину и расположены на равном расстоянии.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/textcolumncollection/evenlyspaced/
 ---
 ## TextColumnCollection.EvenlySpaced property
 
-**Истинный** если текстовые столбцы имеют одинаковую ширину и равномерно распределены.
+Истинно, если текстовые столбцы имеют одинаковую ширину и расположены на равном расстоянии.
 
 ```csharp
 public bool EvenlySpaced { get; set; }
@@ -16,7 +16,7 @@ public bool EvenlySpaced { get; set; }
 
 ### Примеры
 
-Показывает, как создавать неравномерно расположенные столбцы.
+Показывает, как создавать столбцы с неравномерным расположением друг от друга.
 
 ```csharp
 Document doc = new Document();
@@ -27,17 +27,17 @@ TextColumnCollection columns = pageSetup.TextColumns;
 columns.EvenlySpaced = false;
 columns.SetCount(2);
 
-// Определяем количество места, которое у нас есть для размещения столбцов.
+// Определим количество свободного места для размещения столбцов.
 double contentWidth = pageSetup.PageWidth - pageSetup.LeftMargin - pageSetup.RightMargin;
 
 Assert.AreEqual(470.30d, contentWidth, 0.01d);
 
-// Сделать первый столбец узким.
+// Установите узкий первый столбец.
 TextColumn column = columns[0];
 column.Width = 100;
 column.SpaceAfter = 20;
 
-// Устанавливаем второй столбец так, чтобы он занимал оставшееся пространство, доступное на полях страницы.
+// Установите второй столбец так, чтобы он занял оставшееся пространство, доступное в пределах полей страницы.
 column = columns[1];
 column.Width = contentWidth - column.Width - column.SpaceAfter;
 

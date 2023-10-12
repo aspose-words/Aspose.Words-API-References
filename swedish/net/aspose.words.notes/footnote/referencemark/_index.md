@@ -16,7 +16,7 @@ public string ReferenceMark { get; set; }
 
 ### Anmärkningar
 
-Om den här egenskapen är inställd på **tom sträng** (Empty ) eller null, alltså[`IsAuto`](../isauto/) egenskapen kommer automatiskt att ställas in på true, om den är inställd på något annat då[`IsAuto`](../isauto/) kommer att ställas in på false.
+Om den här egenskapen är inställd på **tom sträng** (Empty ) eller`null` , då[`IsAuto`](../isauto/) egenskap kommer automatiskt att ställas in på`Sann` , om inställd på något annat då[`IsAuto`](../isauto/) kommer att ställas in på`falsk` .
 
 RTF-format kan bara lagra 1 symbol som anpassat referensmärke, så vid export kommer endast den första symbolen att skrivas andra kommer att kasseras.
 
@@ -40,7 +40,7 @@ Footnote footnote = builder.InsertFootnote(FootnoteType.Footnote, "Footnote text
 // Detta är den första fotnoten, så referensmärket blir "1".
 Assert.True(footnote.IsAuto);
 
-// Vi kan flytta dokumentbyggaren inuti fotnoten för att redigera dess referenstext. 
+ // Vi kan flytta dokumentbyggaren inuti fotnoten för att redigera dess referenstext.
 builder.MoveTo(footnote.FirstParagraph);
 builder.Write(" More text added by a DocumentBuilder.");
 builder.MoveToDocumentEnd();

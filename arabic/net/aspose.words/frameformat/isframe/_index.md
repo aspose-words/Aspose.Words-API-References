@@ -1,14 +1,14 @@
 ---
 title: FrameFormat.IsFrame
 second_title: Aspose.Words لمراجع .NET API
-description: FrameFormat ملكية. إرجاع صحيح إذا كانت الفقرة إطار.
+description: FrameFormat ملكية. إرجاعحقيقي إذا كانت الفقرة عبارة عن إطار.
 type: docs
 weight: 60
 url: /ar/net/aspose.words/frameformat/isframe/
 ---
 ## FrameFormat.IsFrame property
 
-إرجاع صحيح إذا كانت الفقرة إطار.
+إرجاع`حقيقي` إذا كانت الفقرة عبارة عن إطار.
 
 ```csharp
 public bool IsFrame { get; }
@@ -16,7 +16,7 @@ public bool IsFrame { get; }
 
 ### أمثلة
 
-يوضح كيفية الحصول على معلومات حول خصائص التنسيق للفقرات التي هي إطارات.
+يوضح كيفية الحصول على معلومات حول خصائص تنسيق الفقرات التي تكون إطارات.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraph frame.docx");

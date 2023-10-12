@@ -20,13 +20,14 @@ public VbaModule this[int index] { get; }
 
 ### Exemples
 
-Montre comment accéder aux informations de projet VBA d'un document.
+Montre comment accéder aux informations de projet VBA d’un document.
 
 ```csharp
 Document doc = new Document(MyDir + "VBA project.docm");
 
 // Un projet VBA contient une collection de modules VBA.
 VbaProject vbaProject = doc.VbaProject;
+Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 
@@ -37,7 +38,7 @@ Assert.AreEqual(vbaModules.Count(), 3);
 foreach (VbaModule module in vbaModules)
     Console.WriteLine($"Module name: {module.Name};\nModule code:\n{module.SourceCode}\n");
 
-// Définit le nouveau code source pour le module VBA. Vous pouvez accéder aux modules VBA de la collection par index ou par nom.
+// Définir un nouveau code source pour le module VBA. Vous pouvez accéder aux modules VBA de la collection soit par index, soit par nom.
 vbaModules[0].SourceCode = "Your VBA code...";
 vbaModules["Module1"].SourceCode = "Your VBA code...";
 
@@ -56,7 +57,7 @@ vbaModules.Remove(vbaModules[2]);
 
 ## VbaModuleCollection indexer (2 of 2)
 
-Récupère un[`VbaModule`](../../vbamodule/)objet par nom, ou Null si introuvable.
+Récupère un[`VbaModule`](../../vbamodule/) objet par nom, ou Null s'il n'est pas trouvé.
 
 ```csharp
 public VbaModule this[string name] { get; }
@@ -64,13 +65,14 @@ public VbaModule this[string name] { get; }
 
 ### Exemples
 
-Montre comment accéder aux informations de projet VBA d'un document.
+Montre comment accéder aux informations de projet VBA d’un document.
 
 ```csharp
 Document doc = new Document(MyDir + "VBA project.docm");
 
 // Un projet VBA contient une collection de modules VBA.
 VbaProject vbaProject = doc.VbaProject;
+Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 
@@ -81,7 +83,7 @@ Assert.AreEqual(vbaModules.Count(), 3);
 foreach (VbaModule module in vbaModules)
     Console.WriteLine($"Module name: {module.Name};\nModule code:\n{module.SourceCode}\n");
 
-// Définit le nouveau code source pour le module VBA. Vous pouvez accéder aux modules VBA de la collection par index ou par nom.
+// Définir un nouveau code source pour le module VBA. Vous pouvez accéder aux modules VBA de la collection soit par index, soit par nom.
 vbaModules[0].SourceCode = "Your VBA code...";
 vbaModules["Module1"].SourceCode = "Your VBA code...";
 

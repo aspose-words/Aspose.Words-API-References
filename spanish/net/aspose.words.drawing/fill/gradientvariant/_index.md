@@ -1,14 +1,14 @@
 ---
 title: Fill.GradientVariant
 second_title: Referencia de API de Aspose.Words para .NET
-description: Fill propiedad. Obtiene la variante de degradadoGradientVariant para el relleno.
+description: Fill propiedad. Obtiene la variante de gradienteGradientVariant para el relleno.
 type: docs
-weight: 70
+weight: 130
 url: /es/net/aspose.words.drawing/fill/gradientvariant/
 ---
 ## Fill.GradientVariant property
 
-Obtiene la variante de degradado[`GradientVariant`](../../gradientvariant/) para el relleno.
+Obtiene la variante de gradiente[`GradientVariant`](../../gradientvariant/) para el relleno.
 
 ```csharp
 public GradientVariant GradientVariant { get; }
@@ -37,7 +37,7 @@ shape.Fill.TwoColorGradient(GradientStyle.FromCorner, GradientVariant.Variant4);
 // Cambia el color de fondo del relleno degradado.
 shape.Fill.BackColor = Color.Yellow;
 // Tenga en cuenta que cambia "GradientAngle" por "GradientStyle.FromCorner/GradientStyle.FromCenter"
-// el relleno de degradado no obtiene ningún efecto, solo funcionará para degradado lineal.
+// el relleno degradado no obtiene ningún efecto, funcionará solo para degradado lineal.
 shape.Fill.GradientAngle = 15;
 
 Assert.AreEqual(Color.Yellow.ToArgb(), shape.Fill.BackColor.ToArgb());
@@ -45,7 +45,7 @@ Assert.AreEqual(GradientStyle.FromCorner, shape.Fill.GradientStyle);
 Assert.AreEqual(GradientVariant.Variant4, shape.Fill.GradientVariant);
 Assert.AreEqual(0, shape.Fill.GradientAngle);
 
-// Use la opción de cumplimiento para definir la forma usando DML si desea obtener "GradientStyle",
+// Utilice la opción de cumplimiento para definir la forma usando DML si desea obtener "GradientStyle",
 // Propiedades "GradientVariant" y "GradientAngle" después de guardar el documento.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions { Compliance = OoxmlCompliance.Iso29500_2008_Strict };
 

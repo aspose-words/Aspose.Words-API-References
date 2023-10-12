@@ -16,15 +16,15 @@ public bool UseTileFlipMode { get; set; }
 
 ### Osservazioni
 
-IlWrapMode specifica come una trama o una sfumatura viene affiancata quando è più piccola dell'area da riempire.
+ILWrapMode specifica come viene affiancata una texture o un gradiente quando è più piccolo dell'area da riempire.
 
-Per impostazione predefinita utilizzaTile (specifica la piastrellatura senza capovolgere). Ciò causa un rendering impreciso dell'immagine in scala (con alta risoluzione).
+Per impostazione predefinita utilizzaTile (specifica l'affiancamento senza capovolgimento). Ciò causa un rendering impreciso dell'immagine in scala (ad alta risoluzione).
 
-Questa proprietà consente di passare da WrapMode aTileFlipXY (specifica che le tessere vengono capovolte orizzontalmente mentre ci si sposta lungo una riga e capovolte verticalmente mentre ci si sposta lungo una colonna).
+Questa proprietà consente di passare a WrapModeTileFlipXY (specifica che le tessere vengono girate orizzontalmente mentre ti muovi lungo una riga e girate verticalmente mentre ti muovi lungo una colonna).
 
 ### Esempi
 
-Mostra come evitare che la linea bianca appaia durante il rendering ad alta risoluzione.
+Mostra come evitare che appaia la linea bianca durante il rendering ad alta risoluzione.
 
 ```csharp
 Document doc = new Document(MyDir + "Shape high dpi.docx");

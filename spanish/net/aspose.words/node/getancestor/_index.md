@@ -1,14 +1,14 @@
 ---
 title: Node.GetAncestor
 second_title: Referencia de API de Aspose.Words para .NET
-description: Node método. Obtiene el primer ancestro del tipo de objeto especificado.
+description: Node método. Obtiene el primer antepasado del tipo de objeto especificado.
 type: docs
 weight: 110
 url: /es/net/aspose.words/node/getancestor/
 ---
 ## GetAncestor(Type) {#getancestor_1}
 
-Obtiene el primer ancestro del tipo de objeto especificado.
+Obtiene el primer antepasado del tipo de objeto especificado.
 
 ```csharp
 public CompositeNode GetAncestor(Type ancestorType)
@@ -16,35 +16,34 @@ public CompositeNode GetAncestor(Type ancestorType)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| ancestorType | Type | El tipo de objeto del ancestro a recuperar. |
+| ancestorType | Type | El tipo de objeto del ancestro que se va a recuperar. |
 
 ### Valor_devuelto
 
-El antepasado del tipo especificado o nulo si no se encontró ningún antepasado de este tipo.
+El antepasado del tipo especificado o`nulo` si no se encontró ningún antepasado de este tipo.
 
 ### Observaciones
 
-El tipo de antepasado coincide si es igual a ancestorType o se deriva de ancestorType.
+El tipo de antepasado coincide si es igual a*ancestorType* o derivado de*ancestorType*.
 
 ### Ejemplos
 
-Muestra cómo averiguar si las tablas están anidadas.
+Muestra cómo saber si una tabla está anidada.
 
 ```csharp
 public void CalculateDepthOfNestedTables()
 {
     Document doc = new Document(MyDir + "Nested tables.docx");
     NodeCollection tables = doc.GetChildNodes(NodeType.Table, true);
-
     for (int i = 0; i < tables.Count; i++)
     {
         Table table = (Table)tables[i];
 
-        // Averigüe si alguna celda de la tabla tiene otras tablas como hijos.
+        // Descubra si alguna celda de la tabla tiene otras tablas como hijas.
         int count = GetChildTableCount(table);
         Console.WriteLine("Table #{0} has {1} tables directly within its cells", i, count);
 
-        // Averigüe si la tabla está anidada dentro de otra tabla y, de ser así, a qué profundidad.
+        // Descubra si la tabla está anidada dentro de otra tabla y, de ser así, a qué profundidad.
         int tableDepth = GetNestedDepthOfTable(table);
 
         if (tableDepth > 0)
@@ -56,7 +55,7 @@ public void CalculateDepthOfNestedTables()
 }
 
 /// <summary>
-/// Calcula a qué nivel está anidada una tabla dentro de otras tablas.
+/// Calcula en qué nivel está anidada una tabla dentro de otras tablas.
 /// </summary>
 /// <returns>
 /// Un número entero que indica la profundidad de anidamiento de la tabla (número de nodos de la tabla principal).
@@ -121,31 +120,30 @@ public CompositeNode GetAncestor(NodeType ancestorType)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| ancestorType | NodeType | El tipo de nodo del ancestro a recuperar. |
+| ancestorType | NodeType | El tipo de nodo del ancestro que se va a recuperar. |
 
 ### Valor_devuelto
 
-El antepasado del tipo especificado o nulo si no se encontró ningún antepasado de este tipo.
+El antepasado del tipo especificado o`nulo` si no se encontró ningún antepasado de este tipo.
 
 ### Ejemplos
 
-Muestra cómo averiguar si las tablas están anidadas.
+Muestra cómo saber si una tabla está anidada.
 
 ```csharp
 public void CalculateDepthOfNestedTables()
 {
     Document doc = new Document(MyDir + "Nested tables.docx");
     NodeCollection tables = doc.GetChildNodes(NodeType.Table, true);
-
     for (int i = 0; i < tables.Count; i++)
     {
         Table table = (Table)tables[i];
 
-        // Averigüe si alguna celda de la tabla tiene otras tablas como hijos.
+        // Descubra si alguna celda de la tabla tiene otras tablas como hijas.
         int count = GetChildTableCount(table);
         Console.WriteLine("Table #{0} has {1} tables directly within its cells", i, count);
 
-        // Averigüe si la tabla está anidada dentro de otra tabla y, de ser así, a qué profundidad.
+        // Descubra si la tabla está anidada dentro de otra tabla y, de ser así, a qué profundidad.
         int tableDepth = GetNestedDepthOfTable(table);
 
         if (tableDepth > 0)
@@ -157,7 +155,7 @@ public void CalculateDepthOfNestedTables()
 }
 
 /// <summary>
-/// Calcula a qué nivel está anidada una tabla dentro de otras tablas.
+/// Calcula en qué nivel está anidada una tabla dentro de otras tablas.
 /// </summary>
 /// <returns>
 /// Un número entero que indica la profundidad de anidamiento de la tabla (número de nodos de la tabla principal).

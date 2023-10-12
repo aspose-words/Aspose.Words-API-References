@@ -1,14 +1,14 @@
 ---
 title: Enum OdsoFieldMappingType
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Settings.OdsoFieldMappingType перечисление. Указывает возможные типы используемые для указания сопоставлено ли данное поле слияния со столбцом в данном внешнем источнике данных.
+description: Aspose.Words.Settings.OdsoFieldMappingType перечисление. Указывает возможные типы используемые для указания того было ли данное поле слияния сопоставлено со столбцом в данном внешнем источнике данных.
 type: docs
-weight: 5620
+weight: 5920
 url: /ru/net/aspose.words.settings/odsofieldmappingtype/
 ---
 ## OdsoFieldMappingType enumeration
 
-Указывает возможные типы, используемые для указания, сопоставлено ли данное поле слияния со столбцом в данном внешнем источнике данных.
+Указывает возможные типы, используемые для указания того, было ли данное поле слияния сопоставлено со столбцом в данном внешнем источнике данных.
 
 ```csharp
 public enum OdsoFieldMappingType
@@ -18,9 +18,9 @@ public enum OdsoFieldMappingType
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| Column | `0` | Указывает, что поле слияния сопоставлено со столбцом в данном внешнем источнике данных. |
-| Null | `1` | Указывает, что поле слияния не сопоставлено со столбцом в данном внешнем источнике данных. |
-| Default | `1` | равноNull . |
+| Column | `0` | Указывает, что поле слияния почты сопоставлено со столбцом в данном внешнем источнике данных. |
+| Null | `1` | Указывает, что поле слияния почты не сопоставлено со столбцом в данном внешнем источнике данных. |
+| Default | `1` | РавноNull . |
 
 ### Примеры
 
@@ -29,8 +29,8 @@ public enum OdsoFieldMappingType
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
 
-// Эта коллекция определяет, как слияние почты будет отображать столбцы из источника данных
-// в предопределенные поля MERGEFIELD, ADDRESSBLOCK и GREETINGLINE.
+// Эта коллекция определяет, как слияние почты будет сопоставлять столбцы из источника данных
+// к предопределенным полям MERGEFIELD, ADDRESSBLOCK и GREETINGLINE.
 OdsoFieldMapDataCollection dataCollection = doc.MailMergeSettings.Odso.FieldMapDatas;
 Assert.AreEqual(30, dataCollection.Count);
 
@@ -51,12 +51,12 @@ using (IEnumerator<OdsoFieldMapData> enumerator = dataCollection.GetEnumerator()
 // Клонируем элементы этой коллекции.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Использовать элементы метода "RemoveAt" по отдельности по индексу.
+// Используйте элементы метода «RemoveAt» индивидуально по индексу.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(29, dataCollection.Count);
 
-// Используйте метод «Очистить», чтобы сразу очистить всю коллекцию.
+// Используйте метод «Очистить», чтобы очистить всю коллекцию сразу.
 dataCollection.Clear();
 
 Assert.AreEqual(0, dataCollection.Count);

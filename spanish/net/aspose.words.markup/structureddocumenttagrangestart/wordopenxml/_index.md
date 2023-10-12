@@ -16,7 +16,7 @@ public string WordOpenXML { get; }
 
 ### Ejemplos
 
-Muestra cómo obtener las propiedades de las etiquetas de documentos estructurados de varias secciones.
+Muestra cómo obtener las propiedades de etiquetas de documentos estructurados de varias secciones.
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");

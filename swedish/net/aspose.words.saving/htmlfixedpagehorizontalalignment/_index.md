@@ -3,7 +3,7 @@ title: Enum HtmlFixedPageHorizontalAlignment
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Saving.HtmlFixedPageHorizontalAlignment uppräkning. Anger den horisontella justeringen för sidor i HTMLdokument.
 type: docs
-weight: 4810
+weight: 5070
 url: /sv/net/aspose.words.saving/htmlfixedpagehorizontalalignment/
 ---
 ## HtmlFixedPageHorizontalAlignment enumeration

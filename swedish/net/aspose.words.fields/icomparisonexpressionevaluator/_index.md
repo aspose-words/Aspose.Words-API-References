@@ -3,7 +3,7 @@ title: Interface IComparisonExpressionEvaluator
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Fields.IComparisonExpressionEvaluator gränssnitt. När det är implementerat tillåter det att åsidosätta standardutvärdering av jämförelseuttryck förFieldIf ochFieldCompare fields.
 type: docs
-weight: 2510
+weight: 2680
 url: /sv/net/aspose.words.fields/icomparisonexpressionevaluator/
 ---
 ## IComparisonExpressionEvaluator interface

@@ -1,14 +1,14 @@
 ---
 title: Table.AutoFit
 second_title: Aspose.Words für .NET-API-Referenz
-description: Table methode. Ändert die Größe der Tabelle und der Zellen gemäß dem angegebenen automatischen Anpassungsverhalten.
+description: Table methode. Ändert die Größe der Tabelle und der Zellen entsprechend dem angegebenen automatischen Anpassungsverhalten.
 type: docs
-weight: 360
+weight: 380
 url: /de/net/aspose.words.tables/table/autofit/
 ---
 ## Table.AutoFit method
 
-Ändert die Größe der Tabelle und der Zellen gemäß dem angegebenen automatischen Anpassungsverhalten.
+Ändert die Größe der Tabelle und der Zellen entsprechend dem angegebenen automatischen Anpassungsverhalten.
 
 ```csharp
 public void AutoFit(AutoFitBehavior behavior)
@@ -20,11 +20,11 @@ public void AutoFit(AutoFitBehavior behavior)
 
 ### Bemerkungen
 
-Diese Methode ahmt die Befehle nach, die im Menü "Automatisch anpassen" für eine Tabelle in Microsoft Word verfügbar sind. Die verfügbaren Befehle sind "Automatisch an Inhalt anpassen", "Automatisch an Fenster anpassen" und "Feste Spaltenbreite". In Microsoft Word legen diese Befehle relevante Tabelleneigenschaften fest und aktualisieren dann das Tabellenlayout, und Aspose.Words erledigt dasselbe für Sie.
+Diese Methode ahmt die Befehle nach, die im Menü „Automatisch anpassen“ für eine Tabelle in Microsoft Word verfügbar sind. Die verfügbaren Befehle sind „Automatisch an Inhalt anpassen“, „Automatisch an Fenster anpassen“ und „Feste Spaltenbreite“. In Microsoft Word legen diese Befehle relevante Tabelleneigenschaften fest und aktualisieren dann das Tabellenlayout und Aspose.Words erledigt das Gleiche für Sie.
 
 ### Beispiele
 
-Zeigt, wie eine neue Tabelle erstellt wird, während ein Stil angewendet wird.
+Zeigt, wie man eine neue Tabelle erstellt und dabei einen Stil anwendet.
 
 ```csharp
 Document doc = new Document();
@@ -38,7 +38,7 @@ builder.InsertCell();
 // Beachten Sie, dass beim Speichern im .doc-Format nicht alle Tabellenstile verfügbar sind.
 table.StyleIdentifier = StyleIdentifier.MediumShading1Accent1;
 
-// Wenden Sie den Stil teilweise auf Features der Tabelle an, basierend auf Prädikaten, und erstellen Sie dann die Tabelle.
+// Den Stil basierend auf Prädikaten teilweise auf Features der Tabelle anwenden und dann die Tabelle erstellen.
 table.StyleOptions =
     TableStyleOptions.FirstColumn | TableStyleOptions.RowBands | TableStyleOptions.FirstRow;
 table.AutoFit(AutoFitBehavior.AutoFitToContents);

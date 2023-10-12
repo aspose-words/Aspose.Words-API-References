@@ -1,14 +1,14 @@
 ---
 title: FindReplaceOptions.ApplyFont
 second_title: Référence de l'API Aspose.Words pour .NET
-description: FindReplaceOptions propriété. Formatage du texte appliqué au nouveau contenu.
+description: FindReplaceOptions propriété. Mise en forme du texte appliquée au nouveau contenu.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.replacing/findreplaceoptions/applyfont/
 ---
 ## FindReplaceOptions.ApplyFont property
 
-Formatage du texte appliqué au nouveau contenu.
+Mise en forme du texte appliquée au nouveau contenu.
 
 ```csharp
 public Font ApplyFont { get; }
@@ -16,9 +16,10 @@ public Font ApplyFont { get; }
 
 ### Exemples
 
-Montre comment appliquer une police différente à un nouveau contenu via FindReplaceOptions.
+Montre comment appliquer une police différente au nouveau contenu via FindReplaceOptions.
 
 ```csharp
+public void ConvertNumbersToHexadecimal()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -30,7 +31,7 @@ Montre comment appliquer une police différente à un nouveau contenu via FindRe
     // Nous pouvons utiliser un objet "FindReplaceOptions" pour modifier le processus de recherche et de remplacement.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // Définissez la propriété "HighlightColor" sur une couleur d'arrière-plan que nous voulons appliquer au texte résultant de l'opération.
+    // Définissez la propriété "HighlightColor" sur une couleur d'arrière-plan que nous souhaitons appliquer au texte résultant de l'opération.
     options.ApplyFont.HighlightColor = Color.LightGray;
 
     NumberHexer numberHexer = new NumberHexer();
@@ -49,7 +50,7 @@ Montre comment appliquer une police différente à un nouveau contenu via FindRe
 
 /// <summary>
 /// Remplace les correspondances numériques de recherche et de remplacement par leurs équivalents hexadécimaux.
-/// Maintient un journal de chaque remplacement.
+/// Tient un journal de chaque remplacement.
 /// </summary>
 private class NumberHexer : IReplacingCallback
 {

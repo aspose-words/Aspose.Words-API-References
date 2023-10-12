@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.PushFont
 second_title: Справочник по API Aspose.Words для .NET
-description: DocumentBuilder метод. Сохраняет текущее форматирование символов в стеке.
+description: DocumentBuilder метод. Сохраняет текущее форматирование символов в стек.
 type: docs
-weight: 570
+weight: 610
 url: /ru/net/aspose.words/documentbuilder/pushfont/
 ---
 ## DocumentBuilder.PushFont method
 
-Сохраняет текущее форматирование символов в стеке.
+Сохраняет текущее форматирование символов в стек.
 
 ```csharp
 public void PushFont()
@@ -16,7 +16,7 @@ public void PushFont()
 
 ### Примеры
 
-Показывает, как использовать стек форматирования конструктора документов.
+Показывает, как использовать стек форматирования построителя документов.
 
 ```csharp
 Document doc = new Document();
@@ -27,10 +27,10 @@ builder.Font.Name = "Arial";
 builder.Font.Size = 24;
 builder.Write("To visit Google, hold Ctrl and click ");
 
-// Сохраняем нашу текущую конфигурацию форматирования в стеке.
+// Сохраняем текущую конфигурацию форматирования в стеке.
 builder.PushFont();
 
-// Изменить текущее форматирование построителя, применив новый стиль.
+// Измените текущее форматирование компоновщика, применив новый стиль.
 builder.Font.StyleIdentifier = StyleIdentifier.Hyperlink;
 builder.InsertHyperlink("here", "http://www.google.com", false);
 

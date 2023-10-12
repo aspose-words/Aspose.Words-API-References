@@ -3,7 +3,7 @@ title: PdfSaveOptions.ExportDocumentStructure
 second_title: Referencia de API de Aspose.Words para .NET
 description: PdfSaveOptions propiedad. Obtiene o establece un valor que determina si se exporta o no la estructura del documento.
 type: docs
-weight: 120
+weight: 140
 url: /es/net/aspose.words.saving/pdfsaveoptions/exportdocumentstructure/
 ---
 ## PdfSaveOptions.ExportDocumentStructure property
@@ -16,13 +16,13 @@ public bool ExportDocumentStructure { get; set; }
 
 ### Observaciones
 
-Este valor se ignora cuando se guarda en PDF/A-1a, PDF/A-2a y PDF/UA-1 porque se requiere la estructura del documento para este cumplimiento.
+Este valor se ignora al guardar en PDF/A-1a, PDF/A-2a y PDF/UA-1 porque se requiere una estructura del documento para este cumplimiento.
 
-Tenga en cuenta que exportar la estructura del documento aumenta significativamente el consumo de memoria, especialmente para los documentos grandes.
+Tenga en cuenta que exportar la estructura del documento aumenta significativamente el consumo de memoria, especialmente para documentos grandes.
 
 ### Ejemplos
 
-Muestra cómo conservar los elementos de la estructura del documento, lo que puede ayudar a interpretar nuestro documento mediante programación.
+Muestra cómo preservar los elementos de la estructura del documento, lo que puede ayudar a interpretar nuestro documento mediante programación.
 
 ```csharp
 Document doc = new Document();
@@ -38,14 +38,14 @@ builder.Write(
 // para modificar cómo ese método convierte el documento a .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// Establezca la propiedad "ExportDocumentStructure" en "true" para que la estructura del documento, tales etiquetas, estén disponibles a través del
-// Panel de navegación "Contenido" de Adobe Acrobat a costa de aumentar el tamaño del archivo.
-// Establezca la propiedad "ExportDocumentStructure" en "false" para no exportar la estructura del documento.
+// Establece la propiedad "ExportDocumentStructure" en "true" para que la estructura del documento, tales etiquetas, estén disponibles a través de
+// Panel de navegación "Contenido" de Adobe Acrobat a costa de un mayor tamaño de archivo.
+// Establece la propiedad "ExportDocumentStructure" en "false" para no exportar la estructura del documento.
 options.ExportDocumentStructure = exportDocumentStructure;
 
 // Supongamos que exportamos la estructura del documento mientras guardamos este documento. En ese caso,
-// podemos abrirlo usando Adobe Acrobat y encontrar etiquetas para elementos como el encabezado
-// y el siguiente párrafo a través de "Ver" -> "Mostrar/Ocultar" -> "Paneles de navegación" -> "Etiquetas".
+// podemos abrirlo usando Adobe Acrobat y buscar etiquetas para elementos como el encabezado
+// y el siguiente párrafo mediante "Ver" -> "Mostrar/Ocultar" -> "Paneles de navegación" -> "Etiquetas".
 doc.Save(ArtifactsDir + "PdfSaveOptions.ExportDocumentStructure.pdf", options);
 ```
 

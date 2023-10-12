@@ -1,14 +1,14 @@
 ---
 title: RevisionGroupCollection.Item
 second_title: Aspose.Words for .NET API Referansı
-description: RevisionGroupCollection mülk. Belirtilen dizinde bir revizyon grubu döndürür.
+description: RevisionGroupCollection mülk. Belirtilen dizindeki revizyon grubunu döndürür.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/revisiongroupcollection/item/
 ---
 ## RevisionGroupCollection indexer
 
-Belirtilen dizinde bir revizyon grubu döndürür.
+Belirtilen dizindeki revizyon grubunu döndürür.
 
 ```csharp
 public RevisionGroup this[int index] { get; }
@@ -16,7 +16,7 @@ public RevisionGroup this[int index] { get; }
 
 ### Örnekler
 
-Bir belgede bir grup düzeltmenin nasıl alınacağını gösterir.
+Bir belgede bir grup revizyonun nasıl alınacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");

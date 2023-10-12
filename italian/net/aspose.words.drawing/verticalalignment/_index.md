@@ -1,14 +1,14 @@
 ---
 title: Enum VerticalAlignment
 second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Drawing.VerticalAlignment enum. Specifica lallineamento verticale di una forma mobile una cornice di testo o una tabella mobile.
+description: Aspose.Words.Drawing.VerticalAlignment enum. Specifica lallineamento verticale di una forma mobile cornice di testo o tabella mobile.
 type: docs
-weight: 1230
+weight: 1380
 url: /it/net/aspose.words.drawing/verticalalignment/
 ---
 ## VerticalAlignment enumeration
 
-Specifica l'allineamento verticale di una forma mobile, una cornice di testo o una tabella mobile.
+Specifica l'allineamento verticale di una forma mobile, cornice di testo o tabella mobile.
 
 ```csharp
 public enum VerticalAlignment
@@ -18,14 +18,14 @@ public enum VerticalAlignment
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| None | `0` | L'oggetto è posizionato in modo esplicito, di solito usando il suo **Superiore** proprietà. |
-| Top | `1` | Specifica che l'oggetto deve trovarsi in cima alla base di allineamento verticale. |
-| Center | `2` | Specifica che l'oggetto deve essere centrato rispetto alla base di allineamento verticale. |
+| None | `0` | L'oggetto viene posizionato esplicitamente, solitamente utilizzando its **Superiore** proprietà. |
+| Top | `1` | Specifica che l'oggetto deve trovarsi nella parte superiore della base di allineamento verticale. |
+| Center | `2` | Specifica che l'oggetto dovrà essere centrato rispetto alla base di allineamento verticale. |
 | Bottom | `3` | Specifica che l'oggetto deve trovarsi nella parte inferiore della base di allineamento verticale. |
 | Inside | `4` | Specifica che l'oggetto deve trovarsi all'interno della base di allineamento orizzontale. |
-| Outside | `5` | Specifica che l'oggetto deve trovarsi al di fuori della base di allineamento verticale. |
-| Inline | `-1` | Non documentato. Sembra essere un possibile valore per paragrafi e tabelle mobili. |
-| Default | `0` | ComeNone . |
+| Outside | `5` | Specifica che l'oggetto deve trovarsi all'esterno della base di allineamento verticale. |
+| Inline | `-1` | Non documentato. Sembra essere un valore possibile per paragrafi e tabelle mobili. |
+| Default | `0` | Uguale aNone . |
 
 ### Esempi
 

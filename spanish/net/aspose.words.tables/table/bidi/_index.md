@@ -16,9 +16,9 @@ public bool Bidi { get; set; }
 
 ### Observaciones
 
-Cuando`verdadero`, las celdas de esta fila se disponen de derecha a izquierda.
+Cuando`verdadero`, las celdas de esta fila están dispuestas de derecha a izquierda.
 
-El valor predeterminado es`falso`.
+El valor predeterminado es`FALSO`.
 
 ### Ejemplos
 
@@ -53,7 +53,7 @@ tableStyle.VerticalAlignment = CellVerticalAlignment.Center;
 
 table.Style = tableStyle;
 
-// Establecer las propiedades de estilo de una tabla puede afectar las propiedades de la propia tabla.
+// Establecer las propiedades de estilo de una tabla puede afectar las propiedades de la tabla misma.
 Assert.True(table.Bidi);
 Assert.AreEqual(5.0d, table.CellSpacing);
 Assert.AreEqual("MyTableStyle1", table.StyleName);

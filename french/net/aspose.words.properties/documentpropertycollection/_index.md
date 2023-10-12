@@ -3,12 +3,14 @@ title: Class DocumentPropertyCollection
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.Properties.DocumentPropertyCollection classe. Classe de base pourBuiltInDocumentProperties etCustomDocumentProperties collections.
 type: docs
-weight: 4230
+weight: 4480
 url: /fr/net/aspose.words.properties/documentpropertycollection/
 ---
 ## DocumentPropertyCollection class
 
 Classe de base pour[`BuiltInDocumentProperties`](../builtindocumentproperties/) et[`CustomDocumentProperties`](../customdocumentproperties/) collections.
+
+Pour en savoir plus, visitez le[Travailler avec les propriétés du document](https://docs.aspose.com/words/net/work-with-document-properties/) article documentaire.
 
 ```csharp
 public abstract class DocumentPropertyCollection : IEnumerable<DocumentProperty>
@@ -27,8 +29,8 @@ public abstract class DocumentPropertyCollection : IEnumerable<DocumentProperty>
 | Nom | La description |
 | --- | --- |
 | [Clear](../../aspose.words.properties/documentpropertycollection/clear/)() | Supprime toutes les propriétés de la collection. |
-| [Contains](../../aspose.words.properties/documentpropertycollection/contains/)(string) | Renvoie vrai si une propriété avec le nom spécifié existe dans la collection. |
-| [GetEnumerator](../../aspose.words.properties/documentpropertycollection/getenumerator/)() | Renvoie un objet énumérateur qui peut être utilisé pour itérer sur tous les éléments de la collection. |
+| [Contains](../../aspose.words.properties/documentpropertycollection/contains/)(string) | Retours`vrai` si une propriété avec le nom spécifié existe dans la collection. |
+| [GetEnumerator](../../aspose.words.properties/documentpropertycollection/getenumerator/)() | Renvoie un objet énumérateur qui peut être utilisé pour parcourir tous les éléments de la collection. |
 | [IndexOf](../../aspose.words.properties/documentpropertycollection/indexof/)(string) | Obtient l'index d'une propriété par nom. |
 | [Remove](../../aspose.words.properties/documentpropertycollection/remove/)(string) | Supprime une propriété portant le nom spécifié de la collection. |
 | [RemoveAt](../../aspose.words.properties/documentpropertycollection/removeat/)(int) | Supprime une propriété à l'index spécifié. |
@@ -49,7 +51,7 @@ CustomDocumentProperties properties = doc.CustomDocumentProperties;
 
 Assert.AreEqual(0, properties.Count);
 
-// Les propriétés de document personnalisées sont des paires clé-valeur que nous pouvons ajouter au document.
+// Les propriétés du document personnalisé sont des paires clé-valeur que nous pouvons ajouter au document.
 properties.Add("Authorized", true);
 properties.Add("Authorized By", "John Doe");
 properties.Add("Authorized Date", DateTime.Today);
@@ -60,7 +62,7 @@ properties.Add("Authorized Amount", 123.45);
 Assert.AreEqual(1, properties.IndexOf("Authorized Amount"));
 Assert.AreEqual(5, properties.Count);
 
-// Imprime chaque propriété personnalisée dans le document.
+// Imprime chaque propriété personnalisée du document.
 using (IEnumerator<DocumentProperty> enumerator = properties.GetEnumerator())
 {
     while (enumerator.MoveNext())
@@ -74,10 +76,10 @@ field.Update();
 
 Assert.AreEqual("John Doe", field.Result);
 
-// Nous pouvons trouver ces propriétés personnalisées dans Microsoft Word via "Fichier" -> "Propriétés" > "Propriétés avancées" > "Personnalisé".
+// Nous pouvons retrouver ces propriétés personnalisées dans Microsoft Word via "Fichier" -> "Propriétés" > "Propriétés avancées" > "Coutume".
 doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
 
-// Vous trouverez ci-dessous trois façons de supprimer les propriétés personnalisées d'un document.
+// Vous trouverez ci-dessous trois manières de supprimer les propriétés personnalisées d'un document.
 // 1 - Supprimer par index :
 properties.RemoveAt(1);
 
@@ -90,7 +92,7 @@ properties.Remove("Authorized Revision");
 Assert.False(properties.Contains("Authorized Revision"));
 Assert.AreEqual(3, properties.Count);
 
-// 3 - Vide toute la collection d'un coup :
+// 3 - Vider toute la collection d'un coup :
 properties.Clear();
 
 Assert.AreEqual(0, properties.Count);

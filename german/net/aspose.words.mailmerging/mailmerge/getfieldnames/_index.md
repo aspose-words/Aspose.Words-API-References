@@ -1,14 +1,14 @@
 ---
 title: MailMerge.GetFieldNames
 second_title: Aspose.Words für .NET-API-Referenz
-description: MailMerge methode. Gibt eine Sammlung von Serienbrieffeldnamen zurück die im Dokument verfügbar sind.
+description: MailMerge methode. Gibt eine Sammlung von im Dokument verfügbaren Serienbrieffeldnamen zurück.
 type: docs
 weight: 220
 url: /de/net/aspose.words.mailmerging/mailmerge/getfieldnames/
 ---
 ## MailMerge.GetFieldNames method
 
-Gibt eine Sammlung von Serienbrieffeldnamen zurück, die im Dokument verfügbar sind.
+Gibt eine Sammlung von im Dokument verfügbaren Serienbrieffeldnamen zurück.
 
 ```csharp
 public string[] GetFieldNames()
@@ -16,15 +16,15 @@ public string[] GetFieldNames()
 
 ### Bemerkungen
 
-Gibt vollständige Seriendruckfeldnamen einschließlich optionalem Präfix zurück. Beseitigt keine doppelten Feldnamen.
+Gibt vollständige Briefvorlagenfeldnamen einschließlich optionalem Präfix zurück. Eliminiert keine doppelten Feldnamen.
 
-Bei jedem Aufruf wird ein neues string[]-Array erstellt.
+Bei jedem Aufruf wird ein neues String-Array erstellt.
 
-Schließt "Schnurrbart"-Feldnamen ein, wenn[`UseNonMergeFields`](../usenonmergefields/) ist **Stimmt**.
+Enthält „Schnurrbart“-Feldnamen, wenn[`UseNonMergeFields`](../usenonmergefields/) Ist`WAHR`.
 
 ### Beispiele
 
-Zeigt, wie die Namen aller Briefvorlagenfelder in einem Dokument abgerufen werden.
+Zeigt, wie man Namen aller Zusammenführungsfelder in einem Dokument erhält.
 
 ```csharp
 Document doc = new Document();
@@ -43,8 +43,8 @@ dataTable.Columns.Add("City");
 dataTable.Rows.Add(new object[] { "John", "Doe", "New York" });
 dataTable.Rows.Add(new object[] { "Joe", "Bloggs", "Washington" });
 
-// Für jeden MERGEFIELD-Namen im Dokument sicherstellen, dass die Datentabelle eine Spalte enthält
-// mit demselben Namen und führen Sie dann den Seriendruck aus. 
+// Stellen Sie für jeden MERGEFIELD-Namen im Dokument sicher, dass die Datentabelle eine Spalte enthält
+ // mit demselben Namen und führen Sie dann den Serienbrief aus.
 string[] fieldNames = doc.MailMerge.GetFieldNames();
 
 Assert.AreEqual(3, fieldNames.Length);

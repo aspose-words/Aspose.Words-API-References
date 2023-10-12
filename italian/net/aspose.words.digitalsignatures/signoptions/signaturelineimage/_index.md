@@ -1,14 +1,14 @@
 ---
 title: SignOptions.SignatureLineImage
 second_title: Aspose.Words per .NET API Reference
-description: SignOptions proprietà. Limmagine che verrà mostrata associataSignatureLine . Il valore predefinito ènullo .
+description: SignOptions proprietà. Limmagine che verrà mostrata in associazioneSignatureLine . Il valore predefinito ènullo .
 type: docs
 weight: 60
 url: /it/net/aspose.words.digitalsignatures/signoptions/signaturelineimage/
 ---
 ## SignOptions.SignatureLineImage property
 
-L'immagine che verrà mostrata associata[`SignatureLine`](../../../aspose.words.drawing/signatureline/) . Il valore predefinito è`nullo` .
+L'immagine che verrà mostrata in associazione[`SignatureLine`](../../../aspose.words.drawing/signatureline/) . Il valore predefinito è`nullo` .
 
 ```csharp
 public byte[] SignatureLineImage { get; set; }
@@ -16,10 +16,11 @@ public byte[] SignatureLineImage { get; set; }
 
 ### Esempi
 
-Mostra come aggiungere una riga di firma a un documento e quindi firmarlo utilizzando un certificato digitale.
+Mostra come aggiungere una riga per la firma a un documento e quindi firmarlo utilizzando un certificato digitale.
 
 ```csharp
-public static void Sign()
+[Description("WORDSNET-16868")]
+        public static void Sign()
         {
             string signeeName = "Ron Williams";
             string srcDocumentPath = MyDir + "Document.docx";
@@ -38,7 +39,7 @@ public static void Sign()
         }
 
         /// <summary>
-        /// Crea una copia di un documento di origine firmato utilizzando le informazioni sul firmatario fornite e il certificato X509.
+        /// Crea una copia di un documento di origine firmato utilizzando le informazioni del firmatario fornite e il certificato X509.
         /// </summary>
         private static void SignDocument(string srcDocumentPath, string dstDocumentPath,
             Signee signeeInfo, string certificatePath, string certificatePassword)
@@ -46,7 +47,7 @@ public static void Sign()
             Document document = new Document(srcDocumentPath);
             DocumentBuilder builder = new DocumentBuilder(document);
 
-            // Configura e inserisci una linea di firma, un oggetto nel documento che visualizzerà una firma con cui lo firmiamo.
+            // Configura e inserisci una riga per la firma, un oggetto nel documento che visualizzerà la firma con cui lo firmeremo.
             SignatureLineOptions signatureLineOptions = new SignatureLineOptions
             {
                 Signer = signeeInfo.Name, 
@@ -67,7 +68,7 @@ public static void Sign()
                 SignatureLineImage = signeeInfo.Image
             };
 
-            // Sovrascrivi il documento non firmato che abbiamo salvato in precedenza con una versione firmata utilizzando il certificato.
+            // Sovrascrivi il documento non firmato che abbiamo salvato sopra con una versione firmata utilizzando il certificato.
             DigitalSignatureUtil.Sign(dstDocumentPath, dstDocumentPath, certificateHolder, signOptions);
         }
 

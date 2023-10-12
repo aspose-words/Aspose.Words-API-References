@@ -1,14 +1,16 @@
 ---
 title: Class PhysicalFontInfo
 second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Fonts.PhysicalFontInfo klas. Gibt Informationen über physische Schriftarten an die für die Aspose.WordsSchriftartEngine verfügbar sind.
+description: Aspose.Words.Fonts.PhysicalFontInfo klas. Gibt Informationen über die physische Schriftart an die für die Aspose.WordsSchriftartEngine verfügbar ist.
 type: docs
-weight: 2850
+weight: 3030
 url: /de/net/aspose.words.fonts/physicalfontinfo/
 ---
 ## PhysicalFontInfo class
 
-Gibt Informationen über physische Schriftarten an, die für die Aspose.Words-Schriftart-Engine verfügbar sind.
+Gibt Informationen über die physische Schriftart an, die für die Aspose.Words-Schriftart-Engine verfügbar ist.
+
+Um mehr zu erfahren, besuchen Sie die[Arbeiten mit Schriftarten](https://docs.aspose.com/words/net/working-with-fonts/) Dokumentationsartikel.
 
 ```csharp
 public class PhysicalFontInfo
@@ -18,17 +20,17 @@ public class PhysicalFontInfo
 
 | Name | Beschreibung |
 | --- | --- |
-| [FilePath](../../aspose.words.fonts/physicalfontinfo/filepath/) { get; } | Pfad zur Schriftdatei, falls vorhanden. |
+| [FilePath](../../aspose.words.fonts/physicalfontinfo/filepath/) { get; } | Pfad zur Schriftartdatei, falls vorhanden. |
 | [FontFamilyName](../../aspose.words.fonts/physicalfontinfo/fontfamilyname/) { get; } | Familienname der Schriftart. |
 | [FullFontName](../../aspose.words.fonts/physicalfontinfo/fullfontname/) { get; } | Vollständiger Name der Schriftart. |
-| [Version](../../aspose.words.fonts/physicalfontinfo/version/) { get; } | Versionsstring der Schriftart. |
+| [Version](../../aspose.words.fonts/physicalfontinfo/version/) { get; } | Versionszeichenfolge der Schriftart. |
 
 ### Beispiele
 
 Zeigt, wie verfügbare Schriftarten aufgelistet werden.
 
 ```csharp
-// Konfigurieren Sie Aspose.Words, um Schriftarten aus einem benutzerdefinierten Ordner zu beziehen, und drucken Sie dann jede verfügbare Schriftart.
+// Aspose.Words so konfigurieren, dass Schriftarten aus einem benutzerdefinierten Ordner stammen, und dann jede verfügbare Schriftart drucken.
 FontSourceBase[] folderFontSource = { new FolderFontSource(FontsDir, true) };
 
 foreach (PhysicalFontInfo fontInfo in folderFontSource[0].GetAvailableFonts())

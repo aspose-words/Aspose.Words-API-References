@@ -3,7 +3,7 @@ title: Enum LayoutFlow
 second_title: Aspose.Words per .NET API Reference
 description: Aspose.Words.Drawing.LayoutFlow enum. Determina il flusso del layout del testo in una casella di testo.
 type: docs
-weight: 970
+weight: 1100
 url: /it/net/aspose.words.drawing/layoutflow/
 ---
 ## LayoutFlow enumeration

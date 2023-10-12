@@ -3,12 +3,14 @@ title: Class VbaReferenceCollection
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.Vba.VbaReferenceCollection classe. Représente une collection deVbaReference objets.
 type: docs
-weight: 6290
+weight: 6600
 url: /fr/net/aspose.words.vba/vbareferencecollection/
 ---
 ## VbaReferenceCollection class
 
 Représente une collection de[`VbaReference`](../vbareference/) objets.
+
+Pour en savoir plus, visitez le[Travailler avec des macros VBA](https://docs.aspose.com/words/net/working-with-vba-macros/) article documentaire.
 
 ```csharp
 public sealed class VbaReferenceCollection : IEnumerable<VbaReference>
@@ -25,15 +27,14 @@ public sealed class VbaReferenceCollection : IEnumerable<VbaReference>
 
 | Nom | La description |
 | --- | --- |
-| [Remove](../../aspose.words.vba/vbareferencecollection/remove/)(VbaReference) | Supprime la première occurrence d'un élément VbaReference spécifié de la collection. |
-| [RemoveAt](../../aspose.words.vba/vbareferencecollection/removeat/)(int) | Supprime l'élément VbaReference à l'index spécifié de la collection. |
+| [Remove](../../aspose.words.vba/vbareferencecollection/remove/)(VbaReference) | Supprime la première occurrence d'un élément spécifié[`VbaReference`](../vbareference/) objet de la collection. |
+| [RemoveAt](../../aspose.words.vba/vbareferencecollection/removeat/)(int) | Supprime le[`VbaReference`](../vbareference/) élément à l'index spécifié de la collection. |
 
 ### Exemples
 
 Montre comment obtenir/supprimer un élément de la collection de référence VBA.
 
 ```csharp
-[Test]
 public void RemoveVbaReference()
 {
     const string brokenPath = @"X:\broken.dll";
@@ -59,7 +60,7 @@ public void RemoveVbaReference()
 }
 
 /// <summary>
-/// Renvoie une chaîne représentant le chemin LibId d'une référence spécifiée. 
+ /// Renvoie une chaîne représentant le chemin LibId d'une référence spécifiée.
 /// </summary>
 private static string GetLibIdPath(VbaReference reference)
 {
@@ -77,7 +78,7 @@ private static string GetLibIdPath(VbaReference reference)
 }
 
 /// <summary>
-/// Renvoie le chemin à partir d'un identifiant spécifié d'une bibliothèque de types Automation.
+/// Renvoie le chemin d'un identifiant spécifié d'une bibliothèque de types Automation.
 /// </summary>
 private static string GetLibIdReferencePath(string libIdReference)
 {
@@ -92,7 +93,7 @@ private static string GetLibIdReferencePath(string libIdReference)
 }
 
 /// <summary>
-/// Renvoie le chemin à partir d'un identifiant spécifié d'une bibliothèque de types Automation.
+/// Renvoie le chemin d'un identifiant spécifié d'une bibliothèque de types Automation.
 /// </summary>
 private static string GetLibIdProjectPath(string libIdProject)
 {

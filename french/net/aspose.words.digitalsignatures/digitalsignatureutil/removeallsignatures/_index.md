@@ -10,16 +10,18 @@ url: /fr/net/aspose.words.digitalsignatures/digitalsignatureutil/removeallsignat
 
 Supprime toutes les signatures numériques du fichier source et écrit le fichier non signé dans le fichier de destination.
 
+Les formats suivants sont compatibles pour la suppression des signatures numériques : Doc , Dot , Docx , Dotx , Docm , Odt , Ott.
+
 ```csharp
 public static void RemoveAllSignatures(string srcFileName, string dstFileName)
 ```
 
 ### Exemples
 
-Montre comment supprimer les signatures numériques d'un document signé numériquement.
+Montre comment supprimer les signatures numériques d’un document signé numériquement.
 
 ```csharp
-// Il existe deux façons d'utiliser la classe DigitalSignatureUtil pour supprimer les signatures numériques
+// Il existe deux manières d'utiliser la classe DigitalSignatureUtil pour supprimer les signatures numériques
 // à partir d'un document signé en enregistrant une copie non signée de celui-ci ailleurs dans le système de fichiers local.
 // 1 - Déterminez les emplacements du document signé et de la copie non signée par les chaînes de nom de fichier :
 DigitalSignatureUtil.RemoveAllSignatures(MyDir + "Digitally signed.docx",
@@ -53,16 +55,18 @@ Supprime toutes les signatures numériques du document dans le flux source et é
 
 **La sortie sera écrite au début du flux et la taille du flux sera mise à jour avec la longueur du contenu.**
 
+Les formats suivants sont compatibles pour la suppression des signatures numériques : Doc , Dot , Docx , Dotx , Docm , Odt , Ott.
+
 ```csharp
 public static void RemoveAllSignatures(Stream srcStream, Stream dstStream)
 ```
 
 ### Exemples
 
-Montre comment supprimer les signatures numériques d'un document signé numériquement.
+Montre comment supprimer les signatures numériques d’un document signé numériquement.
 
 ```csharp
-// Il existe deux façons d'utiliser la classe DigitalSignatureUtil pour supprimer les signatures numériques
+// Il existe deux manières d'utiliser la classe DigitalSignatureUtil pour supprimer les signatures numériques
 // à partir d'un document signé en enregistrant une copie non signée de celui-ci ailleurs dans le système de fichiers local.
 // 1 - Déterminez les emplacements du document signé et de la copie non signée par les chaînes de nom de fichier :
 DigitalSignatureUtil.RemoveAllSignatures(MyDir + "Digitally signed.docx",

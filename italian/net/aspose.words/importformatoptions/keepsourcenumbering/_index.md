@@ -1,14 +1,14 @@
 ---
 title: ImportFormatOptions.KeepSourceNumbering
 second_title: Aspose.Words per .NET API Reference
-description: ImportFormatOptions proprietà. Ottiene o imposta un valore booleano che specifica come verrà importata la numerazione quando si verifica un conflitto nei documenti di origine e di destinazione. Il valore predefinito èfalso .
+description: ImportFormatOptions proprietà. Ottiene o imposta un valore booleano che specifica come verrà importata la numerazione in caso di conflitto nei documenti di origine e di destinazione. Il valore predefinito èfalso .
 type: docs
-weight: 50
+weight: 60
 url: /it/net/aspose.words/importformatoptions/keepsourcenumbering/
 ---
 ## ImportFormatOptions.KeepSourceNumbering property
 
-Ottiene o imposta un valore booleano che specifica come verrà importata la numerazione quando si verifica un conflitto nei documenti di origine e di destinazione. Il valore predefinito è`falso` .
+Ottiene o imposta un valore booleano che specifica come verrà importata la numerazione in caso di conflitto nei documenti di origine e di destinazione. Il valore predefinito è`falso` .
 
 ```csharp
 public bool KeepSourceNumbering { get; set; }
@@ -16,14 +16,14 @@ public bool KeepSourceNumbering { get; set; }
 
 ### Esempi
 
-Mostra come risolvere un conflitto durante l'importazione di documenti che hanno elenchi con lo stesso identificatore di definizione elenco.
+Mostra come risolvere un'interferenza durante l'importazione di documenti che presentano elenchi con lo stesso identificatore di definizione di elenco.
 
 ```csharp
 Document srcDoc = new Document(MyDir + "List with the same definition identifier - source.docx");
 Document dstDoc = new Document(MyDir + "List with the same definition identifier - destination.docx");
 
 // Imposta la proprietà "KeepSourceNumbering" su "true" per applicare un ID di definizione elenco diverso
-// in stili identici a quelli di Aspose.Words li importa nei documenti di destinazione.
+// a stili identici poiché Aspose.Words li importa nei documenti di destinazione.
 ImportFormatOptions importFormatOptions = new ImportFormatOptions { KeepSourceNumbering = true };
 
 dstDoc.AppendDocument(srcDoc, ImportFormatMode.UseDestinationStyles, importFormatOptions);
@@ -40,10 +40,10 @@ Assert.AreEqual(4, dstDoc.Lists.Count);
 
 ImportFormatOptions options = new ImportFormatOptions();
 
-// In caso di conflitto di stili di elenco, applica il formato elenco del documento di origine.
+// Se c'è un conflitto di stili di elenco, applica il formato elenco del documento di origine.
 // Imposta la proprietà "KeepSourceNumbering" su "false" per non importare alcun numero di elenco nel documento di destinazione.
-// Imposta la proprietà "KeepSourceNumbering" su "true" importa tutte le interferenze
-// numerazione degli stili di elenco con lo stesso aspetto che aveva nel documento di origine.
+// Imposta la proprietà "KeepSourceNumbering" su "true" per importare tutti i conflitti
+// numerazione dello stile dell'elenco con lo stesso aspetto che aveva nel documento di origine.
 options.KeepSourceNumbering = isKeepSourceNumbering;
 
 dstDoc.AppendDocument(srcDoc, ImportFormatMode.KeepSourceFormatting, options);
@@ -55,18 +55,18 @@ Assert.AreEqual(isKeepSourceNumbering ? 5 : 4, dstDoc.Lists.Count);
 Mostra come risolvere i conflitti di numerazione degli elenchi nei documenti di origine e di destinazione.
 
 ```csharp
-// Apre un documento con uno schema di numerazione elenco personalizzato, quindi clonalo.
-// Poiché entrambi hanno lo stesso formato di numerazione, i formati si scontreranno se importiamo un documento nell'altro.
+// Apre un documento con uno schema di numerazione dell'elenco personalizzato, quindi clonalo.
+// Poiché entrambi hanno lo stesso formato di numerazione, i formati entreranno in conflitto se importiamo un documento nell'altro.
 Document srcDoc = new Document(MyDir + "Custom list numbering.docx");
 Document dstDoc = srcDoc.Clone();
 
 // Quando importiamo il clone del documento nell'originale e poi lo aggiungiamo,
-// quindi si uniranno i due elenchi con lo stesso formato di elenco.
-// Se impostiamo il flag "KeepSourceNumbering" su "false", l'elenco dal documento clone
-// che aggiungiamo all'originale continuerà la numerazione dell'elenco a cui lo aggiungiamo.
-// Questo unirà efficacemente le due liste in una sola.
-// Se impostiamo il flag "KeepSourceNumbering" su "true", il documento clona
-// list manterrà la sua numerazione originale, facendo apparire le due liste come liste separate. 
+// quindi i due elenchi con lo stesso formato di elenco verranno uniti.
+// Se impostiamo il flag "KeepSourceNumbering" su "false", l'elenco dal clone del documento
+// che aggiungiamo all'originale porterà avanti la numerazione dell'elenco a cui lo aggiungiamo.
+// Ciò unirà effettivamente i due elenchi in uno solo.
+// Se impostiamo il flag "KeepSourceNumbering" su "true", il documento verrà clone
+ // la lista manterrà la sua numerazione originale, facendo apparire le due liste come liste separate.
 ImportFormatOptions importFormatOptions = new ImportFormatOptions();
 importFormatOptions.KeepSourceNumbering = keepSourceNumbering;
 

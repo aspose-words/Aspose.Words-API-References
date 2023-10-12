@@ -20,13 +20,14 @@ public abstract Stream OpenFontDataStream()
 
 ### Примечания
 
-Поток будет закрыт после чтения. Нет необходимости закрывать его явно.
+Поток будет закрыт после прочтения. Нет необходимости закрывать его явно.
 
 ### Примеры
 
 Показывает, как загружать шрифты из потока.
 
 ```csharp
+public void StreamFontSourceFileRendering()
 {
     FontSettings fontSettings = new FontSettings();
     fontSettings.SetFontsSources(new FontSourceBase[] {new StreamFontSourceFile()});
@@ -41,7 +42,7 @@ public abstract Stream OpenFontDataStream()
 
 /// <summary>
 /// Загружаем данные шрифта только при необходимости, а не сохраняем их в памяти
-/// на все время жизни объекта FontSettings.
+/// на все время существования объекта FontSettings.
 /// </summary>
 private class StreamFontSourceFile : StreamFontSource
 {

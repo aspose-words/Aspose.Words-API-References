@@ -11,16 +11,16 @@ url: /fr/net/aspose.words/comment/id/
 Obtient l'identifiant du commentaire.
 
 ```csharp
-public int Id { get; }
+public int Id { get; set; }
 ```
 
 ### Remarques
 
-L'identifiant de commentaire permet d'ancrer un commentaire à une zone de texte dans le document. La zone doit être délimitée à l'aide de la[`CommentRangeStart`](../../commentrangestart/) et[`CommentRangeEnd`](../../commentrangeend/) objet partageant la même valeur d'identifiant que le[`Comment`](../) objet.
+L'identifiant de commentaire permet d'ancrer un commentaire à une zone de texte dans le document. La zone doit être délimitée à l'aide du[`CommentRangeStart`](../../commentrangestart/) et[`CommentRangeEnd`](../../commentrangeend/) Objet partageant la même valeur d'identifiant que le[`Comment`](../) objet.
 
-Vous utiliserez cette valeur lors de la recherche du[`CommentRangeStart`](../../commentrangestart/) et [`CommentRangeEnd`](../../commentrangeend/) nœuds qui sont liés à ce commentaire.
+Vous utiliserez cette valeur lorsque vous recherchez le[`CommentRangeStart`](../../commentrangestart/) et [`CommentRangeEnd`](../../commentrangeend/) nœuds liés à ce commentaire.
 
-Les identifiants de commentaire sont censés être uniques dans un document et Aspose.Words automatiquement conserve les identifiants de commentaire lors du chargement, de l'enregistrement et de la combinaison de documents.
+Les identifiants de commentaires sont censés être uniques dans un document et Aspose.Words conserve automatiquement les identifiants de commentaires lors du chargement, de l'enregistrement et de la combinaison de documents.
 
 ### Exemples
 
@@ -55,13 +55,13 @@ public void CreateCommentsAndPrintAllInfo()
 }
 
 /// <summary>
-/// Itère sur chaque commentaire de niveau supérieur et imprime sa plage de commentaires, son contenu et ses réponses.
+/// Parcourt chaque commentaire de niveau supérieur et imprime sa plage de commentaires, son contenu et ses réponses.
 /// </summary>
 private static void PrintAllCommentInfo(NodeCollection comments)
 {
     CommentInfoPrinter commentVisitor = new CommentInfoPrinter();
 
-    // Itération sur tous les commentaires de niveau supérieur. Contrairement aux commentaires de type réponse, les commentaires de niveau supérieur n'ont pas d'ancêtre.
+    // Parcourez tous les commentaires de niveau supérieur. Contrairement aux commentaires de type réponse, les commentaires de niveau supérieur n'ont pas d'ancêtre.
     foreach (Comment comment in comments.Where(c => ((Comment)c).Ancestor == null))
     {
         // Tout d'abord, visitez le début de la plage de commentaires.
@@ -94,7 +94,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Obtient le texte brut du document qui a été accumulé par le visiteur.
+    /// Obtient le texte brut du document accumulé par le visiteur.
     /// </summary>
     public string GetText()
     {
@@ -102,7 +102,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Appelé lorsqu'un noeud Run est rencontré dans le document.
+    /// Appelé lorsqu'un nœud Run est rencontré dans le document.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -163,7 +163,7 @@ public class CommentInfoPrinter : DocumentVisitor
     /// <summary>
     /// Ajoutez une ligne au StringBuilder et indentez-la en fonction de la profondeur du visiteur dans l'arborescence du document.
     /// </summary>
-    /// <nom du paramètre="texte"></param>
+    /// <param name="text"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++)

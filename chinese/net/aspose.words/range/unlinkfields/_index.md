@@ -3,7 +3,7 @@ title: Range.UnlinkFields
 second_title: Aspose.Words for .NET API 参考
 description: Range 方法. 取消链接此范围内的字段
 type: docs
-weight: 100
+weight: 110
 url: /zh/net/aspose.words/range/unlinkfields/
 ---
 ## Range.UnlinkFields method
@@ -16,13 +16,13 @@ public void UnlinkFields()
 
 ### 评论
 
-将此范围内的所有字段替换为其最近的结果。
+将此范围内的所有字段替换为其最新结果。
 
-要取消链接整个文档中的字段，请使用`UnlinkFields`.
+要取消链接整个文档中的字段，请使用`UnlinkFields`。
 
 ### 例子
 
-显示如何取消链接范围内的所有字段。
+展示如何取消链接范围内的所有字段。
 
 ```csharp
 Document doc = new Document(MyDir + "Linked fields.docx");

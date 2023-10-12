@@ -21,11 +21,11 @@ public bool AutomaticallyUpdateStyles { get; set; }
 ```csharp
 Document doc = new Document();
 
-// Документы Microsoft Word по умолчанию поставляются с прикрепленным шаблоном с именем «Normal.dotm».
-// Для пустых документов Aspose.Words нет шаблона по умолчанию.
+// Документы Microsoft Word по умолчанию поставляются с прикрепленным шаблоном под названием «Normal.dotm».
+// Для пустых документов Aspose.Words не существует шаблона по умолчанию.
 Assert.AreEqual(string.Empty, doc.AttachedTemplate);
 
-// Прикрепите шаблон, затем установите флаг, чтобы применить изменения стиля
+// Прикрепляем шаблон, затем устанавливаем флаг для применения изменений стиля
 // внутри шаблона для стилей в нашем документе.
 doc.AttachedTemplate = MyDir + "Business brochure.dotx";
 doc.AutomaticallyUpdateStyles = true;
@@ -33,19 +33,19 @@ doc.AutomaticallyUpdateStyles = true;
 doc.Save(ArtifactsDir + "Document.AutomaticallyUpdateStyles.docx");
 ```
 
-Показывает, как задать шаблон по умолчанию для документов, к которым нет прикрепленных шаблонов.
+Показывает, как установить шаблон по умолчанию для документов, к которым не прикреплены шаблоны.
 
 ```csharp
 Document doc = new Document();
 
-// Включить автоматическое обновление стиля, но не прикреплять шаблонный документ.
+// Включаем автоматическое обновление стилей, но не прикрепляем документ-шаблон.
 doc.AutomaticallyUpdateStyles = true;
 
 Assert.AreEqual(string.Empty, doc.AttachedTemplate);
 
-// Так как документа-шаблона нет, в документе негде было отслеживать изменения стилей.
+// Поскольку документа-шаблона нет, в документе негде было отслеживать изменения стиля.
 // Используйте объект SaveOptions для автоматической установки шаблона
-// если документа, который мы сохраняем, нет.
+// если в документе, который мы сохраняем, его нет.
 SaveOptions options = SaveOptions.CreateSaveOptions("Document.DefaultTemplate.docx");
 options.DefaultTemplate = MyDir + "Business brochure.dotx";
 

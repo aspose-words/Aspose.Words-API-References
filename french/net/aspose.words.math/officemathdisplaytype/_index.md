@@ -3,7 +3,7 @@ title: Enum OfficeMathDisplayType
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.Math.OfficeMathDisplayType énumération. Spécifie le type de format daffichage de léquation.
 type: docs
-weight: 3890
+weight: 4130
 url: /fr/net/aspose.words.math/officemathdisplaytype/
 ---
 ## OfficeMathDisplayType enumeration
@@ -18,12 +18,12 @@ public enum OfficeMathDisplayType
 
 | Nom | Évaluer | La description |
 | --- | --- | --- |
-| Display | `0` | L'Office Math est affiché sur sa propre ligne. |
+| Display | `0` | Office Math est affiché sur sa propre ligne. |
 | Inline | `1` | Office Math s'affiche en ligne avec le texte. |
 
 ### Exemples
 
-Montre comment définir la mise en forme de l'affichage mathématique de bureau.
+Montre comment définir le formatage de l’affichage des mathématiques de bureau.
 
 ```csharp
 Document doc = new Document(MyDir + "Office math.docx");
@@ -36,10 +36,7 @@ Assert.AreEqual(MathObjectType.OMathPara, officeMath.MathObjectType);
 Assert.AreEqual(NodeType.OfficeMath, officeMath.NodeType);
 Assert.AreEqual(officeMath.ParentNode, officeMath.ParentParagraph);
 
-// Les formats OOXML et WML utilisent la propriété "EquationXmlEncoding".
-Assert.IsNull(officeMath.EquationXmlEncoding);
-
-// Modifier l'emplacement et le type d'affichage du nœud OfficeMath.
+// Modifiez l'emplacement et le type d'affichage du nœud OfficeMath.
 officeMath.DisplayType = OfficeMathDisplayType.Display;
 officeMath.Justification = OfficeMathJustification.Left;
 

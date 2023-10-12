@@ -3,12 +3,14 @@ title: Class VbaReference
 second_title: Aspose.Words per .NET API Reference
 description: Aspose.Words.Vba.VbaReference classe. Implementa un riferimento a una libreria dei tipi di automazione o a un progetto VBA.
 type: docs
-weight: 6280
+weight: 6590
 url: /it/net/aspose.words.vba/vbareference/
 ---
 ## VbaReference class
 
 Implementa un riferimento a una libreria dei tipi di automazione o a un progetto VBA.
+
+Per saperne di più, visita il[Lavorare con le macro VBA](https://docs.aspose.com/words/net/working-with-vba-macros/) articolo di documentazione.
 
 ```csharp
 public abstract class VbaReference
@@ -19,14 +21,13 @@ public abstract class VbaReference
 | Nome | Descrizione |
 | --- | --- |
 | abstract [LibId](../../aspose.words.vba/vbareference/libid/) { get; } | Ottiene un valore stringa contenente l'identificatore di una libreria dei tipi di automazione. |
-| abstract [Type](../../aspose.words.vba/vbareference/type/) { get; } | Ottiene[`VbaReferenceType`](../vbareferencetype/)oggetto che indica il tipo di riferimento rappresentato da un oggetto VbaReference. |
+| abstract [Type](../../aspose.words.vba/vbareference/type/) { get; } | Ottiene[`VbaReferenceType`](../vbareferencetype/) oggetto che indica il tipo di riferimento che a`VbaReference` l'oggetto rappresenta. |
 
 ### Esempi
 
 Mostra come ottenere/rimuovere un elemento dalla raccolta di riferimenti VBA.
 
 ```csharp
-[Test]
 public void RemoveVbaReference()
 {
     const string brokenPath = @"X:\broken.dll";
@@ -52,7 +53,7 @@ public void RemoveVbaReference()
 }
 
 /// <summary>
-/// Restituisce una stringa che rappresenta il percorso LibId di un riferimento specificato. 
+ /// Restituisce la stringa che rappresenta il percorso LibId di un riferimento specificato.
 /// </summary>
 private static string GetLibIdPath(VbaReference reference)
 {

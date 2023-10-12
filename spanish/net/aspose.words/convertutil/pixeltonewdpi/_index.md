@@ -22,7 +22,7 @@ public static int PixelToNewDpi(double pixels, double oldDpi, double newDpi)
 
 ### Ejemplos
 
-Muestra cómo convertir puntos en píxeles con resolución predeterminada y personalizada.
+Muestra cómo utilizar la conversión de puntos a píxeles con resolución predeterminada y personalizada.
 
 ```csharp
 Document doc = new Document();
@@ -36,7 +36,7 @@ pageSetup.TopMargin = ConvertUtil.PixelToPoint(100, myDpi);
 
 Assert.AreEqual(37.5d, pageSetup.TopMargin, 0.01d);
 
-// Con el DPI predeterminado de 96, un píxel tiene 0,75 puntos.
+// Con el DPI predeterminado de 96, un píxel equivale a 0,75 puntos.
 Assert.AreEqual(0.75d, ConvertUtil.PixelToPoint(1));
 
 builder.Writeln($"This Text is {pageSetup.TopMargin} points/{ConvertUtil.PointToPixel(pageSetup.TopMargin, myDpi)} " +

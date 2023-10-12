@@ -16,15 +16,15 @@ public bool AnchorLocked { get; set; }
 
 ### Remarques
 
-La valeur par défaut est **faux**.
+La valeur par défaut est`FAUX`.
 
-N'a d'effet que pour les formes de niveau supérieur.
+N'a d'effet que sur les formes de niveau supérieur.
 
 Cette propriété affecte le comportement de l'ancre de la forme dans Microsoft Word. Lorsque l'ancre n'est pas verrouillée, le déplacement de la forme dans Microsoft Word peut également déplacer l'ancre de la forme.
 
 ### Exemples
 
-Montre comment verrouiller ou déverrouiller l'ancre de paragraphe d'une forme.
+Montre comment verrouiller ou déverrouiller l’ancre de paragraphe d’une forme.
 
 ```csharp
 Document doc = new Document();
@@ -39,9 +39,9 @@ builder.InsertBreak(BreakType.ParagraphBreak);
 
 builder.Writeln("Hello again!");
 
-// Définissez la propriété "AnchorLocked" sur "true" pour empêcher l'ancrage de la forme
-// de se déplacer lors du déplacement de la forme dans Microsoft Word.
-// Définissez la propriété "AnchorLocked" sur "false" pour autoriser tout mouvement de la forme
+// Définit la propriété "AnchorLocked" sur "true" pour empêcher l'ancrage de la forme
+// du déplacement lors du déplacement de la forme dans Microsoft Word.
+// Fixe la propriété "AnchorLocked" à "false" pour autoriser tout mouvement de la forme
 // pour déplacer également son ancre vers tout autre paragraphe dont la forme se termine à proximité.
 shape.AnchorLocked = anchorLocked;
 

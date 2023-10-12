@@ -3,7 +3,7 @@ title: Shading.Texture
 second_title: Aspose.Words for .NET API 参考
 description: Shading 财产. 获取或设置着色纹理
 type: docs
-weight: 30
+weight: 70
 url: /zh/net/aspose.words/shading/texture/
 ---
 ## Shading.Texture property

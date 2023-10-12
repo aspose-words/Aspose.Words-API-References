@@ -1,14 +1,14 @@
 ---
 title: RevisionGroupCollection.Item
 second_title: Aspose.Words لمراجع .NET API
-description: RevisionGroupCollection ملكية. إرجاع مجموعة مراجعة بالفهرس المحدد.
+description: RevisionGroupCollection ملكية. إرجاع مجموعة المراجعة في الفهرس المحدد.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/revisiongroupcollection/item/
 ---
 ## RevisionGroupCollection indexer
 
-إرجاع مجموعة مراجعة بالفهرس المحدد.
+إرجاع مجموعة المراجعة في الفهرس المحدد.
 
 ```csharp
 public RevisionGroup this[int index] { get; }

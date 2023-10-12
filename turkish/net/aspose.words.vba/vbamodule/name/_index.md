@@ -26,7 +26,7 @@ VbaProject project = new VbaProject();
 project.Name = "Aspose.Project";
 doc.VbaProject = project;
 
-// Yeni bir modül oluşturun ve bir makro kaynak kodu belirleyin.
+// Yeni bir modül oluşturun ve bir makro kaynak kodu belirtin.
 VbaModule module = new VbaModule();
 module.Name = "Aspose.Module";
 module.Type = VbaModuleType.ProceduralModule;
@@ -43,8 +43,9 @@ Bir belgenin VBA proje bilgilerine nasıl erişileceğini gösterir.
 ```csharp
 Document doc = new Document(MyDir + "VBA project.docm");
 
-// Bir VBA projesi, bir VBA modülleri koleksiyonu içerir.
+// Bir VBA projesi, VBA modüllerinin bir koleksiyonunu içerir.
 VbaProject vbaProject = doc.VbaProject;
+Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 
@@ -55,7 +56,7 @@ Assert.AreEqual(vbaModules.Count(), 3);
 foreach (VbaModule module in vbaModules)
     Console.WriteLine($"Module name: {module.Name};\nModule code:\n{module.SourceCode}\n");
 
-// VBA modülü için yeni kaynak kodu ayarlayın. Koleksiyondaki VBA modüllerine dizine veya ada göre erişebilirsiniz.
+// VBA modülü için yeni kaynak kodunu ayarlayın. Koleksiyondaki VBA modüllerine dizine veya isme göre erişebilirsiniz.
 vbaModules[0].SourceCode = "Your VBA code...";
 vbaModules["Module1"].SourceCode = "Your VBA code...";
 

@@ -19,6 +19,7 @@ public static IWarningCallback WarningCallback { get; set; }
 Visar hur man öppnar och registrerar en ordbok från en fil.
 
 ```csharp
+public void RegisterDictionary()
 {
     // Ställ in en återuppringning som spårar varningar som inträffar under registrering av avstavningslexikon.
     WarningInfoCollection warningInfoCollection = new WarningInfoCollection();

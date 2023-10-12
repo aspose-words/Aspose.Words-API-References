@@ -16,13 +16,13 @@ public Color PageColor { get; set; }
 
 ### Observaciones
 
-Esta propiedad proporciona una forma sencilla de especificar un color de página sólido para el documento. Al establecer esta propiedad, se crea y establece un color apropiado.[`BackgroundShape`](../backgroundshape/).
+Esta propiedad proporciona una forma sencilla de especificar un color de página sólido para el documento. Al establecer esta propiedad se crea y establece un color apropiado.[`BackgroundShape`](../backgroundshape/).
 
-Si el color de la página no está configurado (por ejemplo, no hay una forma de fondo en el documento) devuelve Empty.
+Si el color de la página no está configurado (por ejemplo, no hay forma de fondo en el documento), devuelve Empty.
 
 ### Ejemplos
 
-Muestra cómo establecer el color de fondo para todas las páginas de un documento.
+Muestra cómo configurar el color de fondo para todas las páginas de un documento.
 
 ```csharp
 Document doc = new Document();

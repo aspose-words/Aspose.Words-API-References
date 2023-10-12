@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.SuppressBottomSpacing
 second_title: Referencia de API de Aspose.Words para .NET
-description: CompatibilityOptions propiedad. Ignorar altura de línea exacta para la última línea en la página.
+description: CompatibilityOptions propiedad. Ignorar la altura exacta de la línea para la última línea en la página.
 type: docs
 weight: 480
 url: /es/net/aspose.words.settings/compatibilityoptions/suppressbottomspacing/
 ---
 ## CompatibilityOptions.SuppressBottomSpacing property
 
-Ignorar altura de línea exacta para la última línea en la página.
+Ignorar la altura exacta de la línea para la última línea en la página.
 
 ```csharp
 public bool SuppressBottomSpacing { get; set; }

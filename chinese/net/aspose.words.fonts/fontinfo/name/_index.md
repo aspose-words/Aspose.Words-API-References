@@ -16,17 +16,17 @@ public string Name { get; }
 
 ### 评论
 
-不可能是`无效的`.可以是空字符串。
+不可能是`无效的`。可以是空字符串。
 
 ### 例子
 
-显示如何打印文档中存在的字体的详细信息。
+演示如何打印文档中存在的字体的详细信息。
 
 ```csharp
 Document doc = new Document(MyDir + "Embedded font.docx");
 
 FontInfoCollection allFonts = doc.FontInfos;
-// 打印文档中所有使用和未使用的字体。
+// 打印文档中所有已使用和未使用的字体。
 for (int i = 0; i < allFonts.Count; i++)
 {
     Console.WriteLine($"Font index #{i}");

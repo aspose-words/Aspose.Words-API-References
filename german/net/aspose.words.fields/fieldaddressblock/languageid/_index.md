@@ -1,14 +1,14 @@
 ---
 title: FieldAddressBlock.LanguageId
 second_title: Aspose.Words für .NET-API-Referenz
-description: FieldAddressBlock eigendom. Ruft die SprachID ab oder legt sie fest die zum Formatieren der Adresse verwendet wird.
+description: FieldAddressBlock eigendom. Ruft die SprachID ab die zum Formatieren der Adresse verwendet wird oder legt diese fest.
 type: docs
 weight: 50
 url: /de/net/aspose.words.fields/fieldaddressblock/languageid/
 ---
 ## FieldAddressBlock.LanguageId property
 
-Ruft die Sprach-ID ab oder legt sie fest, die zum Formatieren der Adresse verwendet wird.
+Ruft die Sprach-ID ab, die zum Formatieren der Adresse verwendet wird, oder legt diese fest.
 
 ```csharp
 public string LanguageId { get; set; }
@@ -16,7 +16,7 @@ public string LanguageId { get; set; }
 
 ### Beispiele
 
-Zeigt, wie ein ADRESSBLOCK-Feld eingefügt wird.
+Zeigt, wie ein ADDRESSBLOCK-Feld eingefügt wird.
 
 ```csharp
 Document doc = new Document();
@@ -26,15 +26,15 @@ FieldAddressBlock field = (FieldAddressBlock)builder.InsertField(FieldType.Field
 
 Assert.AreEqual(" ADDRESSBLOCK ", field.GetFieldCode());
 
-// Wenn Sie dies auf "2" setzen, werden alle Länder und Regionen eingeschlossen,
-// es sei denn, es handelt sich um den in der Eigenschaft ExcludedCountryOrRegionName angegebenen.
+// Wenn Sie dies auf „2“ setzen, werden alle Länder und Regionen einbezogen.
+// es sei denn, es ist das in der ExcludedCountryOrRegionName-Eigenschaft angegebene.
 field.IncludeCountryOrRegionName = "2";
 field.FormatAddressOnCountryOrRegion = true;
 field.ExcludedCountryOrRegionName = "United States";
 field.NameAndAddressFormat = "<Title> <Forename> <Surname> <Address Line 1> <Region> <Postcode> <Country>";
 
 // Standardmäßig enthält diese Eigenschaft die Sprach-ID des ersten Zeichens des Dokuments.
-// Wir können eine andere Kultur für das Feld festlegen, um das Ergebnis so zu formatieren.
+// Wir können eine andere Kultur für das Feld festlegen, um das Ergebnis wie folgt zu formatieren.
 field.LanguageId = new CultureInfo("en-US").LCID.ToString();
 
 Assert.AreEqual(

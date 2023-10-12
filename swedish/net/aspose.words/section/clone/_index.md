@@ -3,7 +3,7 @@ title: Section.Clone
 second_title: Aspose.Words för .NET API Referens
 description: Section metod. Skapar en dubblett av detta avsnitt.
 type: docs
-weight: 110
+weight: 130
 url: /sv/net/aspose.words/section/clone/
 ---
 ## Section.Clone method

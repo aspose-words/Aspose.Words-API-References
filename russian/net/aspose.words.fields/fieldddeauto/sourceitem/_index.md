@@ -1,14 +1,14 @@
 ---
 title: FieldDdeAuto.SourceItem
 second_title: Справочник по API Aspose.Words для .NET
-description: FieldDdeAuto свойство. Получает или задает связываемую часть исходного файла.
+description: FieldDdeAuto свойство. Получает или задает часть исходного файла на которую осуществляется ссылка.
 type: docs
 weight: 110
 url: /ru/net/aspose.words.fields/fieldddeauto/sourceitem/
 ---
 ## FieldDdeAuto.SourceItem property
 
-Получает или задает связываемую часть исходного файла.
+Получает или задает часть исходного файла, на которую осуществляется ссылка.
 
 ```csharp
 public string SourceItem { get; set; }
@@ -19,12 +19,13 @@ public string SourceItem { get; set; }
 Показывает, как использовать различные типы полей для связи с другими документами в локальной файловой системе и отображения их содержимого.
 
 ```csharp
+public void FieldLinkedObjectsAsText(InsertLinkedObjectAs insertLinkedObjectAs)
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     // Ниже приведены три типа полей, которые мы можем использовать для отображения содержимого связанного документа в виде текста.
-    // 1 - Поле ССЫЛКА:
+    // 1 - Поле LINK:
     builder.Writeln("FieldLink:\n");
     InsertFieldLink(builder, insertLinkedObjectAs, "Word.Document.8", MyDir + "Document.docx", null, true);
 
@@ -42,12 +43,13 @@ public string SourceItem { get; set; }
     doc.Save(ArtifactsDir + "Field.LINK.DDE.DDEAUTO.docx");
 }
 
+public void FieldLinkedObjectsAsImage(InsertLinkedObjectAs insertLinkedObjectAs)
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     // Ниже приведены три типа полей, которые мы можем использовать для отображения содержимого связанного документа в виде изображения.
-    // 1 - Поле ССЫЛКА:
+    // 1 - Поле LINK:
     builder.Writeln("FieldLink:\n");
     InsertFieldLink(builder, insertLinkedObjectAs, "Excel.Sheet", MyDir + "MySpreadsheet.xlsx",
         "Sheet1!R2C2", true);
@@ -67,7 +69,7 @@ public string SourceItem { get; set; }
 }
 
 /// <summary>
-/// Используйте конструктор документов, чтобы вставить поле ССЫЛКА и установить его свойства в соответствии с параметрами.
+/// Используйте конструктор документов, чтобы вставить поле LINK и установить его свойства в соответствии с параметрами.
 /// </summary>
 private static void InsertFieldLink(DocumentBuilder builder, InsertLinkedObjectAs insertLinkedObjectAs,
     string progId, string sourceFullName, string sourceItem, bool shouldAutoUpdate)
@@ -144,7 +146,7 @@ private static void InsertFieldDde(DocumentBuilder builder, InsertLinkedObjectAs
 }
 
 /// <summary>
-/// Используйте конструктор документов, чтобы вставить поле DDEAUTO, и установить его свойства в соответствии с параметрами.
+/// Используйте конструктор документов, чтобы вставить поле DDEAUTO и установить его свойства в соответствии с параметрами.
 /// </summary>
 private static void InsertFieldDdeAuto(DocumentBuilder builder, InsertLinkedObjectAs insertLinkedObjectAs,
     string progId, string sourceFullName, string sourceItem, bool isLinked)

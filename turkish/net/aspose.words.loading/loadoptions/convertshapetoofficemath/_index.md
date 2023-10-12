@@ -1,14 +1,14 @@
 ---
 title: LoadOptions.ConvertShapeToOfficeMath
 second_title: Aspose.Words for .NET API Referansı
-description: LoadOptions mülk. EquationXML ile şekillerin Office Math nesnelerine dönüştürülüp dönüştürülmeyeceğini belirler.
+description: LoadOptions mülk. EquationXML ile şekillerin Office Math nesnelerine dönüştürülüp dönüştürülmeyeceğini alır veya ayarlar.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.loading/loadoptions/convertshapetoofficemath/
 ---
 ## LoadOptions.ConvertShapeToOfficeMath property
 
-EquationXML ile şekillerin Office Math nesnelerine dönüştürülüp dönüştürülmeyeceğini belirler.
+EquationXML ile şekillerin Office Math nesnelerine dönüştürülüp dönüştürülmeyeceğini alır veya ayarlar.
 
 ```csharp
 public bool ConvertShapeToOfficeMath { get; set; }
@@ -21,7 +21,7 @@ EquationXML şekillerinin Office Math nesnelerine nasıl dönüştürüleceğini
 ```csharp
 LoadOptions loadOptions = new LoadOptions();
 
-// Şekillerin EquationXML öznitelikleriyle dönüştürülüp dönüştürülmeyeceğini belirtmek için bu bayrağı kullanın
+// Şekillerin EquationXML nitelikleriyle dönüştürülüp dönüştürülmeyeceğini belirtmek için bu bayrağı kullanın
 // Office Math nesnelerine ve ardından belgeyi yükleyin.
 loadOptions.ConvertShapeToOfficeMath = isConvertShapeToOfficeMath;
 

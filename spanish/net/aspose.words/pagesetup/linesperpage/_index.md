@@ -16,7 +16,7 @@ public int LinesPerPage { get; set; }
 
 ### Observaciones
 
-El valor mínimo de la propiedad es 1. El valor máximo depende de la altura de la página y el tamaño de fuente del estilo Normal . El paso de línea mínimo es el 136 por ciento del tamaño de la fuente. Por ejemplo, el número máximo de líneas por página de una página Carta con márgenes de una pulgada es 39.
+El valor mínimo de la propiedad es 1. El valor máximo depende de la altura de la página y el tamaño de fuente del estilo Normal . El paso mínimo de línea es el 136 por ciento del tamaño de fuente. Por ejemplo, el número máximo de líneas por página de una página Carta con márgenes de una pulgada es 39.
 
 De forma predeterminada, la propiedad tiene un valor en el que el paso de línea es 1,5 veces mayor que el tamaño de fuente de el estilo Normal.
 
@@ -29,7 +29,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Habilite el lanzamiento y luego utilícelo para establecer el número de líneas por página en esta sección.
-// Un tamaño de fuente lo suficientemente grande empujará algunas líneas hacia abajo en la página siguiente para evitar la superposición de caracteres.
+// Un tamaño de fuente lo suficientemente grande empujará algunas líneas hacia la página siguiente para evitar la superposición de caracteres.
 builder.PageSetup.LayoutMode = SectionLayoutMode.LineGrid;
 builder.PageSetup.LinesPerPage = 15;
 

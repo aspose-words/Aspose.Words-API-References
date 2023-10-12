@@ -1,14 +1,14 @@
 ---
 title: Enum HorizontalRuleAlignment
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Drawing.HorizontalRuleAlignment énumération. Représente lalignement pour la règle horizontale spécifiée.
+description: Aspose.Words.Drawing.HorizontalRuleAlignment énumération. Représente lalignement de la règle horizontale spécifiée.
 type: docs
-weight: 910
+weight: 1040
 url: /fr/net/aspose.words.drawing/horizontalrulealignment/
 ---
 ## HorizontalRuleAlignment enumeration
 
-Représente l'alignement pour la règle horizontale spécifiée.
+Représente l'alignement de la règle horizontale spécifiée.
 
 ```csharp
 public enum HorizontalRuleAlignment

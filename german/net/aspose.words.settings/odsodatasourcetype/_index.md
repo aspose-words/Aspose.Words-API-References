@@ -1,14 +1,14 @@
 ---
 title: Enum OdsoDataSourceType
 second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Settings.OdsoDataSourceType opsomming. Gibt den Typ der externen Datenquelle an mit der eine Verbindung hergestellt werden soll als Teil der ODSOVerbindungsinformationen.
+description: Aspose.Words.Settings.OdsoDataSourceType opsomming. Gibt den Typ der externen Datenquelle an mit der eine Verbindung als Teil der ODSOVerbindungsinformationen hergestellt werden soll.
 type: docs
-weight: 5590
+weight: 5890
 url: /de/net/aspose.words.settings/odsodatasourcetype/
 ---
 ## OdsoDataSourceType enumeration
 
-Gibt den Typ der externen Datenquelle an, mit der eine Verbindung hergestellt werden soll, als Teil der ODSO-Verbindungsinformationen.
+Gibt den Typ der externen Datenquelle an, mit der eine Verbindung als Teil der ODSO-Verbindungsinformationen hergestellt werden soll.
 
 ```csharp
 public enum OdsoDataSourceType
@@ -23,20 +23,20 @@ public enum OdsoDataSourceType
 | AddressBook | `2` | Gibt an, dass ein bestimmtes Dokument mit einem Adressbuch von Kontakten verbunden wurde. Möglicherweise wdMergeSubTypeOAL. |
 | Document1 | `3` | Gibt an, dass ein bestimmtes Dokument mit einem anderen Dokumentformat verbunden wurde, das von der produzierenden Anwendung unterstützt wird. Möglicherweise wdMergeSubTypeOLEDBWord. |
 | Document2 | `4` | Gibt an, dass ein bestimmtes Dokument mit einem anderen Dokumentformat verbunden wurde, das von der produzierenden Anwendung unterstützt wird. Möglicherweise wdMergeSubTypeWorks. |
-| Native | `5` | Gibt an, dass ein bestimmtes Dokument mit einem anderen nativen Dokumentformat der produzierenden Anwendung verbunden wurde. Möglicherweise wdMergeSubTypeOLEDBText |
+| Native | `5` | Gibt an, dass ein bestimmtes Dokument mit einem anderen Dokumentformat verbunden wurde, das für die produzierende Anwendung nativ ist. Möglicherweise wdMergeSubTypeOLEDBText |
 | Email | `6` | Gibt an, dass ein bestimmtes Dokument mit einer E-Mail-Anwendung verbunden wurde. Möglicherweise wdMergeSubTypeOutlook. |
-| None | `7` | Der Typ der externen Datenquelle ist nicht angegeben. Evtl. wdMergeSubTypeWord. |
-| Legacy | `8` | Gibt an, dass ein bestimmtes Dokument mit einem Legacy-Dokumentformat verbunden wurde, das von der produzierenden Anwendung unterstützt wird Möglicherweise wdMergeSubTypeWord2000. |
+| None | `7` | Der Typ der externen Datenquelle ist nicht angegeben. Möglicherweise wdMergeSubTypeWord. |
+| Legacy | `8` | Gibt an, dass ein bestimmtes Dokument mit einem älteren Dokumentformat verbunden wurde, das von der produzierenden Anwendung unterstützt wird. Möglicherweise wdMergeSubTypeWord2000. |
 | Master | `9` | Gibt an, dass ein bestimmtes Dokument mit einer Datenquelle verbunden wurde, die andere Datenquellen aggregiert. |
 | Default | `7` | EntsprichtNone . |
 
 ### Bemerkungen
 
-Die OOXML-Spezifikation ist für diese Aufzählung sehr vage. Ich denke, es könnte der WdMergeSubType -Enumeration http://msdn.microsoft.com/en-us/library/bb237801.aspx entsprechen.
+Die OOXML-Spezifikation ist für diese Enumeration sehr vage. Ich vermute, dass es der WdMergeSubType -Enumeration http://msdn.microsoft.com/en-us/library/bb237801.aspx entspricht.
 
 ### Beispiele
 
-Zeigt, wie ein Seriendruck mit Daten aus einem Office-Datenquellenobjekt ausgeführt wird.
+Zeigt, wie ein Serienbrief mit Daten aus einem Office-Datenquellenobjekt ausgeführt wird.
 
 ```csharp
 Document doc = new Document();
@@ -49,8 +49,8 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Erstellen Sie eine Datenquelle in Form einer ASCII-Datei, mit dem "|" Charakter
-// fungiert als Trennzeichen, das Spalten trennt. Die erste Zeile enthält die Namen der drei Spalten,
+// Erstellen Sie eine Datenquelle in Form einer ASCII-Datei mit dem Zeichen „|“ Charakter
+// fungiert als Trennzeichen, das die Spalten trennt. Die erste Zeile enthält die Namen der drei Spalten,
 // und jede nachfolgende Zeile ist eine Zeile mit ihren jeweiligen Werten.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
@@ -79,7 +79,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
-// Beim Öffnen dieses Dokuments in Microsoft Word wird der Seriendruck ausgeführt, bevor der Inhalt angezeigt wird. 
+ // Beim Öffnen dieses Dokuments in Microsoft Word wird der Serienbrief ausgeführt, bevor der Inhalt angezeigt wird.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

@@ -1,14 +1,14 @@
 ---
 title: SignatureLine.SignerTitle
 second_title: Aspose.Words لمراجع .NET API
-description: SignatureLine ملكية. الحصول على أو تعيين عنوان الموقّع المقترح على سبيل المثال  المدير . القيمة الافتراضية لهذه الخاصية هي سلسلة فارغة Empty  .
+description: SignatureLine ملكية. الحصول على أو تعيين عنوان المُوقع المقترح على سبيل المثال المدير. القيمة الافتراضية لهذه الخاصية هي سلسلة فارغة Empty.
 type: docs
 weight: 110
 url: /ar/net/aspose.words.drawing/signatureline/signertitle/
 ---
 ## SignatureLine.SignerTitle property
 
-الحصول على أو تعيين عنوان الموقّع المقترح (على سبيل المثال ، المدير) . القيمة الافتراضية لهذه الخاصية هي **سلسلة فارغة** (Empty ) .
+الحصول على أو تعيين عنوان المُوقع المقترح (على سبيل المثال، المدير). القيمة الافتراضية لهذه الخاصية هي **سلسلة فارغة** (Empty).
 
 ```csharp
 public string SignerTitle { get; set; }
@@ -33,16 +33,16 @@ SignatureLineOptions options = new SignatureLineOptions
     SignerTitle = "Senior Manager"
 };
 
-// أدخل شكلًا يحتوي على سطر توقيع ، سنظهر مظهره
-// تخصيص باستخدام كائن "SignatureLineOptions" الذي أنشأناه أعلاه.
-// إذا أدخلنا شكلًا تنشأ إحداثياته في الركن الأيمن السفلي من الصفحة ،
-// سنحتاج إلى توفير إحداثيات سالبة س و ص لإبراز الشكل.
+// قم بإدراج شكل يحتوي على سطر التوقيع، وسنقوم بمظهره
+// التخصيص باستخدام كائن "SignatureLineOptions" الذي أنشأناه أعلاه.
+// إذا قمنا بإدراج شكل تقع إحداثياته في الركن الأيمن السفلي من الصفحة،
+// سنحتاج إلى توفير إحداثيات x وy السالبة لعرض الشكل.
 Shape shape = builder.InsertSignatureLine(options, RelativeHorizontalPosition.RightMargin, -170.0, 
         RelativeVerticalPosition.BottomMargin, -60.0, WrapType.None);
 
 Assert.True(shape.IsSignatureLine);
 
-// تحقق من خصائص خط التوقيع الخاص بنا عبر كائن الشكل الخاص به.
+// التحقق من خصائص خط التوقيع الخاص بنا عبر كائن الشكل الخاص به.
 SignatureLine signatureLine = shape.SignatureLine;
 
 Assert.AreEqual("john.doe@management.com", signatureLine.Email);

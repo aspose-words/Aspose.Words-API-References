@@ -1,14 +1,14 @@
 ---
 title: PageSetup.RestartPageNumbering
 second_title: Référence de l'API Aspose.Words pour .NET
-description: PageSetup propriété. Vrai si la numérotation des pages recommence au début de la section.
+description: PageSetup propriété. Vrai si la numérotation des pages redémarre au début de la section.
 type: docs
-weight: 350
+weight: 360
 url: /fr/net/aspose.words/pagesetup/restartpagenumbering/
 ---
 ## PageSetup.RestartPageNumbering property
 
-**Vrai** si la numérotation des pages recommence au début de la section.
+Vrai si la numérotation des pages redémarre au début de la section.
 
 ```csharp
 public bool RestartPageNumbering { get; set; }
@@ -16,7 +16,7 @@ public bool RestartPageNumbering { get; set; }
 
 ### Remarques
 
-Si défini sur **faux** , la **Redémarrer la numérotation des pages**propriété remplacera the [`PageStartingNumber`](../pagestartingnumber/) propriété afin que la numérotation des pages puisse continuer à partir de la section précédente.
+Si défini sur`FAUX` , le`RestartPageNumbering` la propriété remplacera the [`PageStartingNumber`](../pagestartingnumber/) propriété afin que la numérotation des pages puisse continuer à partir de la section précédente.
 
 ### Exemples
 
@@ -38,7 +38,7 @@ builder.Writeln("Section 2, page 2.");
 builder.InsertBreak(BreakType.PageBreak);
 builder.Writeln("Section 2, page 3.");
 
-// Déplace le générateur de document vers l'en-tête principal de la première section,
+// Déplace le générateur de documents vers l'en-tête principal de la première section,
 // que chaque page de cette section affichera.
 builder.MoveToSection(0);
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
@@ -47,14 +47,14 @@ builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 builder.Write("Page ");
 builder.InsertField("PAGE", "");
 
-// Configurez la section pour que le nombre de pages que les champs PAGE affichent commencent à 5.
-// Configurez également tous les champs PAGE pour afficher leurs numéros de page en chiffres romains majuscules.
+// Configurez la section pour que le nombre de pages affiché par les champs PAGE commence à 5.
+// Configurez également tous les champs PAGE pour afficher leurs numéros de page en utilisant des chiffres romains majuscules.
 PageSetup pageSetup = doc.Sections[0].PageSetup;
 pageSetup.RestartPageNumbering = true;
 pageSetup.PageStartingNumber = 5;
 pageSetup.PageNumberStyle = NumberStyle.UppercaseRoman;
 
-// Crée un autre en-tête principal pour la deuxième section, avec un autre champ PAGE.
+// Créez un autre en-tête principal pour la deuxième section, avec un autre champ PAGE.
 builder.MoveToSection(1);
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
@@ -62,8 +62,8 @@ builder.Write(" - ");
 builder.InsertField("PAGE", "");
 builder.Write(" - ");
 
-// Configurez la section pour que le nombre de pages que les champs PAGE affichent commence à 10.
-// Configurez également tous les champs PAGE pour afficher leurs numéros de page en chiffres arabes.
+// Configurez la section pour que le nombre de pages affiché par les champs PAGE commence à 10.
+// Configurez également tous les champs PAGE pour afficher leurs numéros de page en utilisant des chiffres arabes.
 pageSetup = doc.Sections[1].PageSetup;
 pageSetup.PageStartingNumber = 10;
 pageSetup.RestartPageNumbering = true;

@@ -1,14 +1,14 @@
 ---
 title: CleanupOptions.DuplicateStyle
 second_title: Справочник по API Aspose.Words для .NET
-description: CleanupOptions свойство. Получает/устанавливает флаг указывающий следует ли удалять повторяющиеся стили из документа. Значение по умолчанию ЛОЖЬ .
+description: CleanupOptions свойство. Получает/устанавливает флаг указывающий следует ли удалять повторяющиеся стили из документа. Значение по умолчаниюЛОЖЬ .
 type: docs
 weight: 20
 url: /ru/net/aspose.words/cleanupoptions/duplicatestyle/
 ---
 ## CleanupOptions.DuplicateStyle property
 
-Получает/устанавливает флаг, указывающий, следует ли удалять повторяющиеся стили из документа. Значение по умолчанию: **ЛОЖЬ** .
+Получает/устанавливает флаг, указывающий, следует ли удалять повторяющиеся стили из документа. Значение по умолчанию:`ЛОЖЬ` .
 
 ```csharp
 public bool DuplicateStyle { get; set; }
@@ -16,7 +16,7 @@ public bool DuplicateStyle { get; set; }
 
 ### Примеры
 
-Показывает, как удалить повторяющиеся стили из документа.
+Показывает, как удалить дубликаты стилей из документа.
 
 ```csharp
 Document doc = new Document();
@@ -48,8 +48,8 @@ ParagraphCollection paragraphs = doc.FirstSection.Body.Paragraphs;
 Assert.AreEqual(myStyle, paragraphs[0].ParagraphFormat.Style);
 Assert.AreEqual(duplicateStyle, paragraphs[1].ParagraphFormat.Style);
 
-// Настройте объект CleanOptions, затем вызовите метод Cleanup, чтобы заменить все повторяющиеся стили
-// с оригиналом и удалить дубликаты из документа.
+// Настраиваем объект CleanOptions, затем вызываем метод Cleanup для замены всех повторяющихся стилей
+// с оригиналом и удаляем дубликаты из документа.
 CleanupOptions cleanupOptions = new CleanupOptions { DuplicateStyle = true };
 
 doc.Cleanup(cleanupOptions);

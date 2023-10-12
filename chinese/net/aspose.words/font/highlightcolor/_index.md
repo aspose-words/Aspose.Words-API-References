@@ -1,14 +1,14 @@
 ---
 title: Font.HighlightColor
 second_title: Aspose.Words for .NET API 参考
-description: Font 财产. 获取或设置高亮标记颜色
+description: Font 财产. 获取或设置突出显示标记颜色
 type: docs
 weight: 150
 url: /zh/net/aspose.words/font/highlightcolor/
 ---
 ## Font.HighlightColor property
 
-获取或设置高亮（标记）颜色。
+获取或设置突出显示（标记）颜色。
 
 ```csharp
 public Color HighlightColor { get; set; }
@@ -16,7 +16,7 @@ public Color HighlightColor { get; set; }
 
 ### 例子
 
-显示如何使用其字体属性格式化文本运行。
+演示如何使用其字体属性设置文本串的格式。
 
 ```csharp
 Document doc = new Document();

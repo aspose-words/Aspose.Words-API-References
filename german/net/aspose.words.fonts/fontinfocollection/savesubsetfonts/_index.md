@@ -1,16 +1,16 @@
 ---
 title: FontInfoCollection.SaveSubsetFonts
 second_title: Aspose.Words für .NET-API-Referenz
-description: FontInfoCollection eigendom. Gibt an ob eine Teilmenge der eingebetteten TrueTypeSchriftarten mit dem Dokument gespeichert werden soll oder nicht. Der Standardwert für diese Eigenschaft ist FALSCH.
+description: FontInfoCollection eigendom. Gibt an ob eine Teilmenge der eingebetteten TrueTypeSchriftarten mit document. gespeichert werden soll. Der Standardwert für diese Eigenschaft istFALSCH.
 type: docs
 weight: 50
 url: /de/net/aspose.words.fonts/fontinfocollection/savesubsetfonts/
 ---
 ## FontInfoCollection.SaveSubsetFonts property
 
-Gibt an, ob eine Teilmenge der eingebetteten TrueType-Schriftarten mit dem Dokument gespeichert werden soll oder nicht. Der Standardwert für diese Eigenschaft ist **FALSCH**.
+Gibt an, ob eine Teilmenge der eingebetteten TrueType-Schriftarten mit document. gespeichert werden soll. Der Standardwert für diese Eigenschaft ist`FALSCH`.
 
-Diese Option funktioniert nur, wenn[`EmbedTrueTypeFonts`](../embedtruetypefonts/) Eigenschaft eingestellt ist **Stimmt**.
+Diese Option funktioniert nur, wenn[`EmbedTrueTypeFonts`](../embedtruetypefonts/) Die Eigenschaft ist auf festgelegt`WAHR`.
 
 ```csharp
 public bool SaveSubsetFonts { get; set; }

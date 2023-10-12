@@ -1,14 +1,14 @@
 ---
 title: PageSetup.RtlGutter
 second_title: Aspose.Words for .NET API Referansı
-description: PageSetup mülk. Microsoft Wordün bölüm için sağdan sola mı yoksa soldan sağa bir dile göre mi oluklar kullanacağını alır veya ayarlar.
+description: PageSetup mülk. Microsoft Wordün bölüm için cilt paylarını sağdan sola dile mi yoksa soldan sağa dile mi dayalı olarak kullanacağını alır veya ayarlar.
 type: docs
-weight: 370
+weight: 380
 url: /tr/net/aspose.words/pagesetup/rtlgutter/
 ---
 ## PageSetup.RtlGutter property
 
-Microsoft Word'ün bölüm için sağdan sola mı yoksa soldan sağa bir dile göre mi oluklar kullanacağını alır veya ayarlar.
+Microsoft Word'ün bölüm için cilt paylarını sağdan sola dile mi, yoksa soldan sağa dile mi dayalı olarak kullanacağını alır veya ayarlar.
 
 ```csharp
 public bool RtlGutter { get; set; }
@@ -16,12 +16,12 @@ public bool RtlGutter { get; set; }
 
 ### Örnekler
 
-Oluk kenar boşluklarının nasıl ayarlanacağını gösterir.
+Cilt payı marjlarının nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 
-// Birkaç sayfaya yayılan metin ekleyin.
+// Birkaç sayfaya yayılan metni ekleyin.
 DocumentBuilder builder = new DocumentBuilder(doc);
 for (int i = 0; i < 6; i++)
 {
@@ -30,16 +30,16 @@ for (int i = 0; i < 6; i++)
     builder.InsertBreak(BreakType.PageBreak);
 }
 
-// Bir cilt payı, sayfanın sol veya sağ kenar boşluğuna boşluk ekler,
+// Cilt payı, sayfanın sol veya sağ kenar boşluğuna boşluklar ekler,
 // bu, sayfa düzenini ihlal eden bir kitaptaki sayfaların ortadan katlanmasını telafi eder.
 PageSetup pageSetup = doc.Sections[0].PageSetup;
 
- // Sayfalarımızın kenar boşlukları içinde metin için ne kadar alana sahip olduğunu belirleyin ve ardından bir kenar boşluğunu doldurmak için bir miktar ekleyin.
+// Sayfalarımızın kenar boşluklarında metin için ne kadar alana sahip olduğunu belirleyin ve ardından kenar boşluğunu doldurmak için bir miktar ekleyin.
 Assert.AreEqual(470.30d, pageSetup.PageWidth - pageSetup.LeftMargin - pageSetup.RightMargin, 0.01d);
 
 pageSetup.Gutter = 100.0d;
 
-// Sağdan sola yazılan metin için cilt payını daha uygun bir konuma yerleştirmek için "RtlGutter" özelliğini "true" olarak ayarlayın.
+// Sağdan sola metin için cilt payını daha uygun bir konuma yerleştirmek amacıyla "RtlGutter" özelliğini "true" olarak ayarlayın.
 pageSetup.RtlGutter = true;
 
 // Alternatif olarak "MultiplePages" özelliğini "MultiplePagesType.MirrorMargins" olarak ayarlayın

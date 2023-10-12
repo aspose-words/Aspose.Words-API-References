@@ -3,7 +3,7 @@ title: PageSetup.VerticalAlignment
 second_title: Aspose.Words لمراجع .NET API
 description: PageSetup ملكية. إرجاع أو تعيين المحاذاة الرأسية للنص في كل صفحة في مستند أو قسم.
 type: docs
-weight: 440
+weight: 450
 url: /ar/net/aspose.words/pagesetup/verticalalignment/
 ---
 ## PageSetup.VerticalAlignment property
@@ -16,19 +16,19 @@ public PageVerticalAlignment VerticalAlignment { get; set; }
 
 ### أمثلة
 
-يوضح كيفية تطبيق إعدادات إعداد الصفحة وإعادتها إلى أقسام في مستند.
+يوضح كيفية تطبيق إعدادات إعداد الصفحة وإعادتها إلى الأقسام الموجودة في المستند.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// قم بتعديل خصائص إعداد الصفحة للقسم الحالي للمنشئ وإضافة نص.
+// تعديل خصائص إعداد الصفحة للقسم الحالي للمنشئ وإضافة نص.
 builder.PageSetup.Orientation = Orientation.Landscape;
 builder.PageSetup.VerticalAlignment = PageVerticalAlignment.Center;
 builder.Writeln("This is the first section, which landscape oriented with vertically centered text.");
 
-// إذا بدأنا قسمًا جديدًا باستخدام أداة إنشاء المستندات ،
-// سيرث خصائص إعداد الصفحة الحالية للمنشئ.
+// إذا بدأنا قسمًا جديدًا باستخدام أداة إنشاء المستندات،
+// سوف يرث خصائص إعداد الصفحة الحالية للمنشئ.
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 
 Assert.AreEqual(Orientation.Landscape, doc.Sections[1].PageSetup.Orientation);

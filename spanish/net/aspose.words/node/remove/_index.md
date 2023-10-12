@@ -1,14 +1,14 @@
 ---
 title: Node.Remove
 second_title: Referencia de API de Aspose.Words para .NET
-description: Node método. Se elimina a sí mismo del padre.
+description: Node método. Se elimina del padre.
 type: docs
 weight: 150
 url: /es/net/aspose.words/node/remove/
 ---
 ## Node.Remove method
 
-Se elimina a sí mismo del padre.
+Se elimina del padre.
 
 ```csharp
 public void Remove()
@@ -42,7 +42,7 @@ Node curNode = doc.FirstSection.Body.FirstChild;
 
 while (curNode != null)
 {
-    // Guardar el siguiente nodo hermano como una variable en caso de que queramos pasar a él después de eliminar este nodo.
+    // Guarda el siguiente nodo hermano como una variable en caso de que queramos pasar a él después de eliminar este nodo.
     Node nextNode = curNode.NextSibling;
 
     // El cuerpo de una sección puede contener nodos de párrafo y tabla.

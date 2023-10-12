@@ -3,7 +3,7 @@ title: Section.ClearHeadersFooters
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Section méthode. Efface les entêtes et pieds de page de cette section.
 type: docs
-weight: 100
+weight: 120
 url: /fr/net/aspose.words/section/clearheadersfooters/
 ---
 ## Section.ClearHeadersFooters method
@@ -22,7 +22,7 @@ Cela rend les en-têtes et pieds de page de cette section liés aux en-têtes et
 
 ### Exemples
 
-Montre comment effacer le contenu de tous les en-têtes et pieds de page d'une section.
+Montre comment effacer le contenu de tous les en-têtes et pieds de page d’une section.
 
 ```csharp
 Document doc = new Document();

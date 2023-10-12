@@ -1,14 +1,14 @@
 ---
 title: OfficeMath.DisplayType
 second_title: Aspose.Words لمراجع .NET API
-description: OfficeMath ملكية. الحصول على / تعيين نوع تنسيق عرض Office Math الذي يمثل ما إذا كانت المعادلة تُعرض سطريًا مع النص أو يتم عرضها على السطر الخاص بها.
+description: OfficeMath ملكية. الحصول على/تعيين نوع تنسيق عرض Office Math الذي يمثل ما إذا كانت المعادلة معروضة سطريًا مع text أو معروضة على السطر الخاص بها.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.math/officemath/displaytype/
 ---
 ## OfficeMath.DisplayType property
 
-الحصول على / تعيين نوع تنسيق عرض Office Math الذي يمثل ما إذا كانت المعادلة تُعرض سطريًا مع النص أو يتم عرضها على السطر الخاص بها.
+الحصول على/تعيين نوع تنسيق عرض Office Math الذي يمثل ما إذا كانت المعادلة معروضة سطريًا مع text أو معروضة على السطر الخاص بها.
 
 ```csharp
 public OfficeMathDisplayType DisplayType { get; set; }
@@ -16,27 +16,24 @@ public OfficeMathDisplayType DisplayType { get; set; }
 
 ### ملاحظات
 
-نوع تنسيق العرض له تأثير لرياضيات Office ذات المستوى الأعلى فقط.
+يؤثر نوع تنسيق العرض على المستوى الأعلى من Office Math فقط.
 
-نوع تنسيق العرض الذي تم إرجاعه دائمًاInline لرياضيات Office المتداخلة.
+نوع تنسيق العرض الذي تم إرجاعه هو دائمًاInline لمكتب الرياضيات المتداخلة.
 
 ### أمثلة
 
-يوضح كيفية تعيين تنسيق عرض الرياضيات في المكتب.
+يوضح كيفية ضبط تنسيق عرض الرياضيات المكتبية.
 
 ```csharp
 Document doc = new Document(MyDir + "Office math.docx");
 
 OfficeMath officeMath = (OfficeMath) doc.GetChild(NodeType.OfficeMath, 0, true);
 
-// تكون عُقد OfficeMath التابعة لعقد OfficeMath الأخرى مضمنة دائمًا.
-// العقدة التي نعمل معها هي العقدة الأساسية لتغيير موقعها ونوع عرضها.
+// عقد OfficeMath التابعة لعقد OfficeMath الأخرى تكون دائمًا مضمّنة.
+// العقدة التي نعمل معها هي العقدة الأساسية لتغيير موقعها ونوع العرض.
 Assert.AreEqual(MathObjectType.OMathPara, officeMath.MathObjectType);
 Assert.AreEqual(NodeType.OfficeMath, officeMath.NodeType);
 Assert.AreEqual(officeMath.ParentNode, officeMath.ParentParagraph);
-
-// تستخدم تنسيقات OOXML و WML الخاصية "EquationXmlEncoding".
-Assert.IsNull(officeMath.EquationXmlEncoding);
 
 // تغيير الموقع ونوع العرض لعقدة OfficeMath.
 officeMath.DisplayType = OfficeMathDisplayType.Display;

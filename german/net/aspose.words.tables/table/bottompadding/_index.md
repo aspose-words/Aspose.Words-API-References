@@ -1,14 +1,14 @@
 ---
 title: Table.BottomPadding
 second_title: Aspose.Words für .NET-API-Referenz
-description: Table eigendom. Ruft den Abstand in Punkt ab oder legt ihn fest der unter dem Inhalt von Zellen hinzugefügt werden soll.
+description: Table eigendom. Ruft den Abstand in Punkten ab der unterhalb des Zellinhalts hinzugefügt werden soll oder legt diesen fest.
 type: docs
 weight: 90
 url: /de/net/aspose.words.tables/table/bottompadding/
 ---
 ## Table.BottomPadding property
 
-Ruft den Abstand (in Punkt) ab oder legt ihn fest, der unter dem Inhalt von Zellen hinzugefügt werden soll.
+Ruft den Abstand (in Punkten) ab, der unterhalb des Zellinhalts hinzugefügt werden soll, oder legt diesen fest.
 
 ```csharp
 public double BottomPadding { get; set; }
@@ -29,7 +29,7 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndTable();
 
-// Legen Sie für jede Zelle in der Tabelle den Abstand zwischen ihrem Inhalt und jedem ihrer Ränder fest. 
+ // Für jede Zelle in der Tabelle den Abstand zwischen ihrem Inhalt und jedem ihrer Ränder festlegen.
 // Diese Tabelle behält den minimalen Füllabstand bei, indem Text umbrochen wird.
 table.LeftPadding = 30;
 table.RightPadding = 60;

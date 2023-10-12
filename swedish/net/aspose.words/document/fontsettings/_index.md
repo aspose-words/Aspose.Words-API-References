@@ -16,9 +16,9 @@ public FontSettings FontSettings { get; set; }
 
 ### Anmärkningar
 
-Den här egenskapen gör det möjligt att ange teckensnittsinställningar per dokument. Om inställt på null, standard statiska teckensnitt settings [`DefaultInstance`](../../../aspose.words.fonts/fontsettings/defaultinstance/) kommer att användas.
+Den här egenskapen gör det möjligt att ange teckensnittsinställningar per dokument. Om inställt på`null` , standard statiska teckensnittsinställningar [`DefaultInstance`](../../../aspose.words.fonts/fontsettings/defaultinstance/) kommer att användas.
 
-Standardvärdet är null.
+Standardvärdet är`null`.
 
 ### Exempel
 
@@ -50,10 +50,10 @@ doc.FontSettings = new FontSettings();
 doc.FontSettings.SubstitutionSettings.TableSubstitution.SetSubstitutes(
     "Amethysta", new[] {"Arvo", "Courier New"});
 
-  // "Amethysta" är inte tillgängligt, och substitutionsregeln säger att det första teckensnittet som används som ersättning är "Arvo".
+ // "Amethysta" är inte tillgängligt, och substitutionsregeln säger att det första teckensnittet som används som ersättning är "Arvo".
 Assert.False(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arvo"));
 
-  // "Arvo" är inte heller tillgänglig, men "Courier New" är det.
+ // "Arvo" är inte heller tillgänglig, men "Courier New" är det.
 Assert.True(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Courier New"));
 
 // Utdatadokumentet kommer att visa texten som använder "Amethysta"-teckensnittet formaterat med "Courier New".

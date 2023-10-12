@@ -3,12 +3,14 @@ title: Class TableSubstitutionRule
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Fonts.TableSubstitutionRule klass. Regel för ersättning av tabellteckensnitt.
 type: docs
-weight: 2880
+weight: 3060
 url: /sv/net/aspose.words.fonts/tablesubstitutionrule/
 ---
 ## TableSubstitutionRule class
 
 Regel för ersättning av tabellteckensnitt.
+
+För att lära dig mer, besök[Arbeta med teckensnitt](https://docs.aspose.com/words/net/working-with-fonts/) dokumentationsartikel.
 
 ```csharp
 public class TableSubstitutionRule : FontSubstitutionRule
@@ -28,7 +30,7 @@ public class TableSubstitutionRule : FontSubstitutionRule
 | [GetSubstitutes](../../aspose.words.fonts/tablesubstitutionrule/getsubstitutes/)(string) | Returnerar array som innehåller ersättande teckensnittsnamn för det angivna ursprungliga teckensnittsnamnet. |
 | [Load](../../aspose.words.fonts/tablesubstitutionrule/load/#load)(Stream) | Laddar inställningar för tabellersättning från XML-ström. |
 | [Load](../../aspose.words.fonts/tablesubstitutionrule/load/#load_1)(string) | Laddar tabellersättningsinställningar från XML-fil. |
-| [LoadAndroidSettings](../../aspose.words.fonts/tablesubstitutionrule/loadandroidsettings/)() | Laddar fördefinierade tabellersättningsinställningar för Linux-plattformen. |
+| [LoadAndroidSettings](../../aspose.words.fonts/tablesubstitutionrule/loadandroidsettings/)() | Laddar fördefinierade tabellersättningsinställningar för Android-plattformen. |
 | [LoadLinuxSettings](../../aspose.words.fonts/tablesubstitutionrule/loadlinuxsettings/)() | Laddar fördefinierade tabellersättningsinställningar för Linux-plattformen. |
 | [LoadWindowsSettings](../../aspose.words.fonts/tablesubstitutionrule/loadwindowssettings/)() | Laddar fördefinierade tabellersättningsinställningar för Windows-plattformen. |
 | [Save](../../aspose.words.fonts/tablesubstitutionrule/save/#save)(Stream) | Sparar de aktuella inställningarna för tabellersättning för att streama. |

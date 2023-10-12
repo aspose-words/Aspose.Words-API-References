@@ -1,14 +1,14 @@
 ---
 title: ShapeBase.RelativeHorizontalPosition
 second_title: Aspose.Words for .NET API Referansı
-description: ShapeBase mülk. Şeklin yatay olarak neye göre konumlandırıldığını belirtir.
+description: ShapeBase mülk. Şeklin yatay olarak nasıl konumlandırılacağına göre belirtir.
 type: docs
-weight: 400
+weight: 420
 url: /tr/net/aspose.words.drawing/shapebase/relativehorizontalposition/
 ---
 ## ShapeBase.RelativeHorizontalPosition property
 
-Şeklin yatay olarak neye göre konumlandırıldığını belirtir.
+Şeklin yatay olarak nasıl konumlandırılacağına göre belirtir.
 
 ```csharp
 public RelativeHorizontalPosition RelativeHorizontalPosition { get; set; }
@@ -16,19 +16,19 @@ public RelativeHorizontalPosition RelativeHorizontalPosition { get; set; }
 
 ### Notlar
 
-Varsayılan değerColumn.
+Varsayılan değer:Column.
 
 Yalnızca üst düzey kayan şekiller için etkilidir.
 
 ### Örnekler
 
-Bir sayfanın ortasına kayan bir görüntünün nasıl ekleneceğini gösterir.
+Sayfanın ortasına kayan bir görüntünün nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Üst üste binen metnin arkasında görünecek kayan bir resim ekleyin ve onu sayfanın ortasına hizalayın.
+// Çakışan metnin arkasında görünecek kayan bir resim ekleyin ve onu sayfanın ortasına hizalayın.
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 shape.WrapType = WrapType.None;
 shape.BehindText = true;

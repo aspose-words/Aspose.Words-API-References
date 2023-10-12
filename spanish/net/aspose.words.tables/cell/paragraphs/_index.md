@@ -3,7 +3,7 @@ title: Cell.Paragraphs
 second_title: Referencia de API de Aspose.Words para .NET
 description: Cell propiedad. Obtiene una colección de párrafos que son hijos inmediatos de la celda.
 type: docs
-weight: 80
+weight: 90
 url: /es/net/aspose.words.tables/cell/paragraphs/
 ---
 ## Cell.Paragraphs property
@@ -16,13 +16,13 @@ public ParagraphCollection Paragraphs { get; }
 
 ### Ejemplos
 
-Muestra cómo configurar una mesa para permanecer juntos en la misma página.
+Muestra cómo configurar una mesa para que permanezcan juntas en la misma página.
 
 ```csharp
 Document doc = new Document(MyDir + "Table spanning two pages.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
-// Habilitar KeepWithNext para cada párrafo de la tabla excepto para el
+// Habilitando KeepWithNext para cada párrafo de la tabla excepto el
 // los últimos en la última fila evitarán que la tabla se divida en varias páginas.
 foreach (Cell cell in table.GetChildNodes(NodeType.Cell, true).OfType<Cell>())
     foreach (Paragraph para in cell.Paragraphs.OfType<Paragraph>())

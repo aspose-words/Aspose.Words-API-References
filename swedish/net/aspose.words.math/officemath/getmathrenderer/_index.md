@@ -3,7 +3,7 @@ title: OfficeMath.GetMathRenderer
 second_title: Aspose.Words för .NET API Referens
 description: OfficeMath metod. Skapar och returnerar ett objekt som kan användas för att rendera denna ekvation till en bild.
 type: docs
-weight: 80
+weight: 90
 url: /sv/net/aspose.words.math/officemath/getmathrenderer/
 ---
 ## OfficeMath.GetMathRenderer method
@@ -20,7 +20,7 @@ Renderingsobjektet för denna ekvation.
 
 ### Anmärkningar
 
-Denna metod åberopar bara[`OfficeMathRenderer`](../../../aspose.words.rendering/officemathrenderer/)konstruktor och skickar detta objekt som en parameter.
+Denna metod åberopar bara[`OfficeMathRenderer`](../../../aspose.words.rendering/officemathrenderer/) constructor och passes detta objekt som en parameter.
 
 ### Exempel
 

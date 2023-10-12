@@ -3,12 +3,14 @@ title: Class VariableCollection
 second_title: Aspose.Words for .NET API 参考
 description: Aspose.Words.VariableCollection 班级. 文档变量的集合
 type: docs
-weight: 6230
+weight: 6530
 url: /zh/net/aspose.words/variablecollection/
 ---
 ## VariableCollection class
 
 文档变量的集合。
+
+要了解更多信息，请访问[使用文档属性](https://docs.aspose.com/words/net/work-with-document-properties/)文档文章。
 
 ```csharp
 public class VariableCollection : IEnumerable<KeyValuePair<string, string>>
@@ -18,8 +20,8 @@ public class VariableCollection : IEnumerable<KeyValuePair<string, string>>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../aspose.words/variablecollection/count/) { get; } | 获取集合中包含的元素数。 |
-| [Item](../../aspose.words/variablecollection/item/) { get; set; } | 通过不区分大小写的名称获取或设置文档变量。 不允许将空值作为赋值的右侧，并将替换为空字符串。 (2 indexers) |
+| [Count](../../aspose.words/variablecollection/count/) { get; } | 获取集合中包含的元素数量。 |
+| [Item](../../aspose.words/variablecollection/item/) { get; set; } | 通过不区分大小写的名称获取或设置文档变量。 `无效的`值不允许作为赋值的右侧，并将被空字符串替换。 (2 indexers) |
 
 ## 方法
 
@@ -27,15 +29,15 @@ public class VariableCollection : IEnumerable<KeyValuePair<string, string>>
 | --- | --- |
 | [Add](../../aspose.words/variablecollection/add/)(string, string) | 将文档变量添加到集合中。 |
 | [Clear](../../aspose.words/variablecollection/clear/)() | 从集合中删除所有元素。 |
-| [Contains](../../aspose.words/variablecollection/contains/)(string) | 确定集合是否包含具有给定名称的文档变量。 |
-| [GetEnumerator](../../aspose.words/variablecollection/getenumerator/)() | 返回一个可用于迭代集合中所有变量的枚举器对象。 |
+| [Contains](../../aspose.words/variablecollection/contains/)(string) | 确定集合中是否包含具有给定名称的文档变量。 |
+| [GetEnumerator](../../aspose.words/variablecollection/getenumerator/)() | 返回一个枚举器对象，可用于迭代集合中的所有变量。 |
 | [IndexOfKey](../../aspose.words/variablecollection/indexofkey/)(string) | 返回集合中指定文档变量的从零开始的索引。 |
 | [Remove](../../aspose.words/variablecollection/remove/)(string) | 从集合中删除具有指定名称的文档变量。 |
 | [RemoveAt](../../aspose.words/variablecollection/removeat/)(int) | 删除指定索引处的文档变量。 |
 
 ### 评论
 
-变量名和值是字符串。
+变量名称和值是字符串。
 
 变量名不区分大小写。
 
@@ -62,10 +64,10 @@ field.Update();
 
 Assert.AreEqual("123 Main St.", field.Result);
 
-// 为现有键赋值将更新它们。
+// 为现有键分配值将更新它们。
 variables.Add("Home address", "456 Queen St.");
 
-// 然后我们必须更新 DOCVARIABLE 字段以确保它们显示最新的值。
+// 然后我们必须更新 DOCVARIABLE 字段以确保它们显示最新值。
 Assert.AreEqual("123 Main St.", field.Result);
 
 field.Update();
@@ -76,12 +78,12 @@ Assert.AreEqual("456 Queen St.", field.Result);
 Assert.True(variables.Contains("City"));
 Assert.True(variables.Any(v => v.Value == "London"));
 
-// 变量集合自动按名称的字母顺序对变量进行排序。
+// 变量集合自动按名称字母顺序对变量进行排序。
 Assert.AreEqual(0, variables.IndexOfKey("Bedrooms"));
 Assert.AreEqual(1, variables.IndexOfKey("City"));
 Assert.AreEqual(2, variables.IndexOfKey("Home address"));
 
-// 枚举变量的集合。
+// 枚举变量集合。
 using (IEnumerator<KeyValuePair<string, string>> enumerator = doc.Variables.GetEnumerator())
     while (enumerator.MoveNext())
         Console.WriteLine($"Name: {enumerator.Current.Key}, Value: {enumerator.Current.Value}");
@@ -97,7 +99,7 @@ variables.RemoveAt(1);
 
 Assert.False(variables.Contains("Home address"));
 
-// 3 - 一次清除整个集合：
+// 3 - 立即清除整个集合：
 variables.Clear();
 
 Assert.That(variables, Is.Empty);

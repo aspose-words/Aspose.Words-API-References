@@ -24,10 +24,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("This text is in its normal place.");
 
-// Di seguito sono riportati due modi per utilizzare il campo AVANZAMENTO per regolare la posizione del testo che lo segue.
+// Di seguito sono riportati due modi di utilizzare il campo ADVANCE per regolare la posizione del testo che lo segue.
 // Gli effetti di un campo ADVANCE continuano ad essere applicati fino alla fine del paragrafo,
 // o un altro campo ADVANCE aggiorna i valori di offset/coordinate.
-// 1 - Specificare un offset direzionale:
+// 1 - Specifica un offset direzionale:
 FieldAdvance field = (FieldAdvance)builder.InsertField(FieldType.FieldAdvance, true);
 field.RightOffset = "5";
 field.UpOffset = "5";

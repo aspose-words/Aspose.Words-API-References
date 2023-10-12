@@ -3,7 +3,7 @@ title: Document.Sections
 second_title: Aspose.Words لمراجع .NET API
 description: Document ملكية. إرجاع مجموعة تمثل كافة الأقسام في المستند.
 type: docs
-weight: 350
+weight: 370
 url: /ar/net/aspose.words/document/sections/
 ---
 ## Document.Sections property
@@ -16,7 +16,7 @@ public SectionCollection Sections { get; }
 
 ### أمثلة
 
-يوضح كيفية إضافة وإزالة أقسام في مستند.
+يوضح كيفية إضافة وإزالة الأقسام في المستند.
 
 ```csharp
 Document doc = new Document();
@@ -33,7 +33,7 @@ doc.Sections.RemoveAt(0);
 
 Assert.AreEqual("Section 2", doc.GetText().Trim());
 
-// قم بإلحاق نسخة مما هو الآن القسم الأول بنهاية المستند.
+// إلحاق نسخة مما هو الآن القسم الأول بنهاية المستند.
 int lastSectionIdx = doc.Sections.Count - 1;
 Section newSection = doc.Sections[lastSectionIdx].Clone();
 doc.Sections.Add(newSection);
@@ -41,15 +41,15 @@ doc.Sections.Add(newSection);
 Assert.AreEqual("Section 2\x000cSection 2", doc.GetText().Trim());
 ```
 
-يوضح كيفية تحديد كيفية فصل قسم جديد عن السابق.
+يوضح كيفية تحديد كيفية فصل قسم جديد عن القسم السابق.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("This text is in section 1.");
 
-// تحدد أنواع فواصل المقاطع كيف يفصل قسم جديد نفسه عن القسم السابق.
-// فيما يلي خمسة أنواع من الفواصل المقطعية.
+// تحدد أنواع الفواصل المقطعية كيفية فصل قسم جديد عن القسم السابق.
+// فيما يلي خمسة أنواع من فواصل الأقسام.
 // 1 - يبدأ القسم التالي في صفحة جديدة:
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 builder.Writeln("This text is in section 2.");

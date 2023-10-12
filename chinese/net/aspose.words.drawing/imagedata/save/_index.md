@@ -3,7 +3,7 @@ title: ImageData.Save
 second_title: Aspose.Words for .NET API 参考
 description: ImageData 方法. 将图像保存到指定的流中
 type: docs
-weight: 190
+weight: 200
 url: /zh/net/aspose.words.drawing/imagedata/save/
 ---
 ## Save(Stream) {#save}
@@ -20,20 +20,20 @@ public void Save(Stream stream)
 
 ### 评论
 
-调用者是否有责任处置流对象。
+调用者有责任处置流对象吗？
 
 ### 例子
 
-显示如何将文档中的所有图像保存到文件系统。
+演示如何将文档中的所有图像保存到文件系统。
 
 ```csharp
 Document imgSourceDoc = new Document(MyDir + "Images.docx");
 
-// 设置了“HasImage”标志的形状存储并显示所有文档的图像。
+// 设置了“HasImage”标志的形状存储并显示文档的所有图像。
 IEnumerable<Shape> shapesWithImages = 
     imgSourceDoc.GetChildNodes(NodeType.Shape, true).Cast<Shape>().Where(s => s.HasImage);
 
-//遍历每个形状并保存其图像。
+// 遍历每个形状并保存其图像。
 ImageFormatConverter formatConverter = new ImageFormatConverter();
 
 using (IEnumerator<Shape> enumerator = shapesWithImages.GetEnumerator())
@@ -79,8 +79,8 @@ public void Save(string fileName)
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");
 
-// 从文档中获取形状的集合，
-// 并将每个形状的图像数据与图像一起作为文件保存到本地文件系统。
+// 从文档中获取形状集合，
+// 并将每个形状的图像数据以图像的形式保存到本地文件系统。
 NodeCollection shapes = doc.GetChildNodes(NodeType.Shape, true);
 
 Assert.AreEqual(9, shapes.Count(s => ((Shape)s).HasImage));
@@ -90,8 +90,8 @@ foreach (Shape shape in shapes.OfType<Shape>())
 {
     if (shape.HasImage)
     {
-        // 形状的图像数据可能包含多种可能的图像格式的图像。 
-        // 我们可以根据图像的格式自动确定每个图像的文件扩展名。
+         // 形状的图像数据可能包含多种可能的图像格式的图像。
+        // 我们可以根据每个图像的格式自动确定其文件扩展名。
         string imageFileName =
             $"File.ExtractImages.{imageIndex}{FileFormatUtil.ImageTypeToExtension(shape.ImageData.ImageType)}";
         shape.ImageData.Save(ArtifactsDir + imageFileName);

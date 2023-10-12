@@ -16,21 +16,21 @@ public StyleIdentifier StyleIdentifier { get; set; }
 
 ### Örnekler
 
-Bir stil uygularken yeni bir tablonun nasıl oluşturulacağını gösterir.
+Stil uygularken yeni bir tablonun nasıl oluşturulacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 Table table = builder.StartTable();
 
-// Herhangi bir tablo biçimlendirmesini ayarlamadan önce en az bir satır eklemeliyiz.
+// Herhangi bir tablo formatını ayarlamadan önce en az bir satır eklemeliyiz.
 builder.InsertCell();
 
-// Stil tanımlayıcısına göre kullanılan tablo stilini ayarlayın.
-// .doc biçiminde kaydederken tüm tablo stillerinin kullanılamayacağını unutmayın.
+// Kullanılan tablo stilini stil tanımlayıcıya göre ayarlayın.
+// .doc formatında kaydederken tüm tablo stillerinin kullanılamayacağını unutmayın.
 table.StyleIdentifier = StyleIdentifier.MediumShading1Accent1;
 
-// Tahminlere dayalı olarak stili kısmen tablonun özelliklerine uygulayın, ardından tabloyu oluşturun.
+// Stili, yüklemlere dayalı olarak tablonun özelliklerine kısmen uygulayın, ardından tabloyu oluşturun.
 table.StyleOptions =
     TableStyleOptions.FirstColumn | TableStyleOptions.RowBands | TableStyleOptions.FirstRow;
 table.AutoFit(AutoFitBehavior.AutoFitToContents);

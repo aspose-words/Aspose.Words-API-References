@@ -1,14 +1,14 @@
 ---
 title: FieldMergeBarcode.ForegroundColor
 second_title: Справочник по API Aspose.Words для .NET
-description: FieldMergeBarcode свойство. Получает или задает основной цвет символа штрихкода. Допустимые значения находятся в диапазоне 0 0xFFFFFF
+description: FieldMergeBarcode свойство. Получает или задает цвет переднего плана символа штрихкода. Допустимые значения находятся в диапазоне 0 0xFFFFFF .
 type: docs
 weight: 100
 url: /ru/net/aspose.words.fields/fieldmergebarcode/foregroundcolor/
 ---
 ## FieldMergeBarcode.ForegroundColor property
 
-Получает или задает основной цвет символа штрих-кода. Допустимые значения находятся в диапазоне [0, 0xFFFFFF]
+Получает или задает цвет переднего плана символа штрих-кода. Допустимые значения находятся в диапазоне [0, 0xFFFFFF] .
 
 ```csharp
 public string ForegroundColor { get; set; }
@@ -16,19 +16,19 @@ public string ForegroundColor { get; set; }
 
 ### Примеры
 
-Показывает, как выполнять слияние со штрих-кодами QR.
+Показывает, как выполнить объединение почты по QR-штрих-кодам.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставьте поле MERGEBARCODE, которое будет принимать значения из источника данных во время слияния.
+// Вставляем поле MERGEBARCODE, которое будет принимать значения из источника данных во время слияния почты.
 // Это поле преобразует все значения в столбце «MyQRCode» источника данных слияния в QR-коды.
 FieldMergeBarcode field = (FieldMergeBarcode)builder.InsertField(FieldType.FieldMergeBarcode, true);
 field.BarcodeType = "QR";
 field.BarcodeValue = "MyQRCode";
 
-// Применение пользовательских цветов и масштабирования.
+// Применяем собственные цвета и масштабирование.
 field.BackgroundColor = "0xF8BD69";
 field.ForegroundColor = "0xB5413B";
 field.ErrorCorrectionLevel = "3";

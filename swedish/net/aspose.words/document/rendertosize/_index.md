@@ -3,7 +3,7 @@ title: Document.RenderToSize
 second_title: Aspose.Words för .NET API Referens
 description: Document metod. Gör en dokumentsida till enGraphics objekt till en angiven storlek.
 type: docs
-weight: 670
+weight: 710
 url: /sv/net/aspose.words/document/rendertosize/
 ---
 ## Document.RenderToSize method
@@ -127,7 +127,7 @@ using (Bitmap bmp = new Bitmap(700, 700))
         // Återställ transformationerna som vi använde från föregående rendering.
         gr.ResetTransform();
 
-          // Använd en annan uppsättning transformationer.
+        // Använd en annan uppsättning transformationer.
         gr.TranslateTransform(10, 10);
         gr.ScaleTransform(0.5f, 0.5f);
         gr.PageScale = 2f;

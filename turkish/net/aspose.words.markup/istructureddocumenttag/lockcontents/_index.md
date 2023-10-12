@@ -1,14 +1,14 @@
 ---
 title: IStructuredDocumentTag.LockContents
 second_title: Aspose.Words for .NET API Referansı
-description: IStructuredDocumentTag mülk. true olarak ayarlandığında bu özellik bir kullanıcının bunun içeriğini düzenlemesini engeller. SDT .
+description: IStructuredDocumentTag mülk. Doğru olarak ayarlandığında bu özellik kullanıcının bu içeriği düzenlemesini yasaklar SDT .
 type: docs
 weight: 60
 url: /tr/net/aspose.words.markup/istructureddocumenttag/lockcontents/
 ---
 ## IStructuredDocumentTag.LockContents property
 
-true olarak ayarlandığında, bu özellik bir kullanıcının bunun içeriğini düzenlemesini engeller. **SDT** .
+Doğru olarak ayarlandığında bu özellik, kullanıcının bu içeriği düzenlemesini yasaklar **SDT** .
 
 ```csharp
 public bool LockContents { get; set; }

@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertHyperlink
 second_title: Aspose.Words لمراجع .NET API
 description: DocumentBuilder طريقة. إدراج ارتباط تشعبي في المستند.
 type: docs
-weight: 340
+weight: 370
 url: /ar/net/aspose.words/documentbuilder/inserthyperlink/
 ---
 ## DocumentBuilder.InsertHyperlink method
@@ -16,9 +16,9 @@ public Field InsertHyperlink(string displayText, string urlOrBookmark, bool isBo
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| displayText | String | سيتم عرض نص الارتباط في المستند. |
-| urlOrBookmark | String | وجهة الارتباط. يمكن أن يكون عنوان url أو اسم إشارة مرجعية داخل المستند . تضيف هذه الطريقة دائمًا فاصلة عليا في بداية عنوان url ونهايته. |
-| isBookmark | Boolean | صواب إذا كانت المعلمة السابقة هي اسم إشارة مرجعية داخل المستند ؛ false هي المعلمة السابقة هي عنوان URL. |
+| displayText | String | نص الرابط الذي سيتم عرضه في الوثيقة. |
+| urlOrBookmark | String | وجهة الارتباط. يمكن أن يكون عنوان url أو اسم إشارة مرجعية داخل المستند. تضيف هذه الطريقة دائمًا الفواصل العليا في بداية ونهاية عنوان url. |
+| isBookmark | Boolean | `حقيقي` إذا كانت المعلمة السابقة عبارة عن اسم إشارة مرجعية داخل المستند؛ `خطأ شنيع` المعلمة السابقة هي عنوان URL. |
 
 ### قيمة الإرجاع
 
@@ -26,9 +26,9 @@ public Field InsertHyperlink(string displayText, string urlOrBookmark, bool isBo
 
 ### ملاحظات
 
-لاحظ أنك تحتاج إلى تحديد تنسيق الخط لنص عرض الارتباط التشعبي بشكل صريح_ باستخدام امتداد[`Font`](../font/) منشأه.
+لاحظ أنك تحتاج إلى تحديد تنسيق الخط لنص عرض الارتباط التشعبي صريح باستخدام ملف[`Font`](../font/) ملكية.
 
-تستدعي هذه الطرق داخليًا[`InsertField`](../insertfield/) لإدراج حقل HYPERLINK MS Word في المستند.
+هذه الأساليب تدعو داخليا[`InsertField`](../insertfield/) لإدراج حقل MS Word HYPERLINK field في المستند.
 
 ### أمثلة
 
@@ -43,8 +43,8 @@ builder.Write("Bookmarked text. ");
 builder.EndBookmark("Bookmark1");
 builder.Writeln("Text outside of the bookmark.");
 
-// أدخل حقل HYPERLINK الذي يرتبط بالإشارة المرجعية. يمكننا تمرير مفاتيح المجال
-// إلى طريقة "InsertHyperlink" كجزء من الوسيطة التي تحتوي على اسم الإشارة المرجعية المشار إليها.
+// أدخل حقل الارتباط التشعبي الذي يرتبط بالإشارة المرجعية. يمكننا تمرير مفاتيح المجال
+// إلى أسلوب "InsertHyperlink" كجزء من الوسيطة التي تحتوي على اسم الإشارة المرجعية.
 builder.Font.Color = Color.Blue;
 builder.Font.Underline = Underline.Single;
 builder.InsertHyperlink("Link to Bookmark1", @"Bookmark1"" \o ""Hyperlink Tip", true);
@@ -52,7 +52,7 @@ builder.InsertHyperlink("Link to Bookmark1", @"Bookmark1"" \o ""Hyperlink Tip", 
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlinkToLocalBookmark.docx");
 ```
 
-يوضح كيفية إدراج حقل ارتباط تشعبي.
+يوضح كيفية إدراج حقل الارتباط التشعبي.
 
 ```csharp
 Document doc = new Document();
@@ -60,15 +60,15 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("For more information, please visit the ");
 
-// أدخل ارتباطًا تشعبيًا وقم بتأكيده بتنسيق مخصص.
-// سيكون الارتباط التشعبي عبارة عن نص قابل للنقر عليه والذي سينقلنا إلى الموقع المحدد في عنوان URL.
+// أدخل ارتباطًا تشعبيًا وقم بإبرازه بتنسيق مخصص.
+// سيكون الارتباط التشعبي عبارة عن جزء من النص قابل للنقر عليه والذي سينقلنا إلى الموقع المحدد في عنوان URL.
 builder.Font.Color = Color.Blue;
 builder.Font.Underline = Underline.Single;
-builder.InsertHyperlink("Google website", "https://www.google.com "، خطأ) ;
+builder.InsertHyperlink("Google website", "https://www.google.com"، خطأ);
 builder.Font.ClearFormatting();
 builder.Writeln(".");
 
-// Ctrl + النقر على الرابط الأيسر في النص في Microsoft Word سينقلنا إلى عنوان URL عبر نافذة متصفح ويب جديدة.
+// Ctrl + النقر بزر الماوس الأيسر على الرابط الموجود في النص في Microsoft Word سينقلنا إلى عنوان URL عبر نافذة متصفح ويب جديدة.
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlink.docx");
 ```
 
@@ -78,17 +78,17 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlink.docx");
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// إعداد تنسيق الخط ، ثم اكتب النص الذي يسبق الارتباط التشعبي.
+// قم بإعداد تنسيق الخط، ثم اكتب النص الذي يسبق الارتباط التشعبي.
 builder.Font.Name = "Arial";
 builder.Font.Size = 24;
 builder.Write("To visit Google, hold Ctrl and click ");
 
-// احتفظ بتكوين التنسيق الحالي الخاص بنا على المكدس.
+// الحفاظ على تكوين التنسيق الحالي لدينا على المكدس.
 builder.PushFont();
 
-// قم بتعديل التنسيق الحالي للمنشئ من خلال تطبيق نمط جديد.
+// قم بتغيير التنسيق الحالي للمنشئ من خلال تطبيق نمط جديد.
 builder.Font.StyleIdentifier = StyleIdentifier.Hyperlink;
-builder.InsertHyperlink("here", "http://www.google.com "، خطأ) ;
+builder.InsertHyperlink("here", "http://www.google.com"، خطأ);
 
 Assert.AreEqual(Color.Blue.ToArgb(), builder.Font.Color.ToArgb());
 Assert.AreEqual(Underline.Single, builder.Font.Underline);

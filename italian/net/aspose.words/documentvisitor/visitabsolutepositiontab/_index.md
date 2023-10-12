@@ -1,14 +1,14 @@
 ---
 title: DocumentVisitor.VisitAbsolutePositionTab
 second_title: Aspose.Words per .NET API Reference
-description: DocumentVisitor metodo. Chiamato quando aAbsolutePositionTab viene rilevato un nodo nel documento.
+description: DocumentVisitor metodo. Chiamato quando aAbsolutePositionTab è stato rilevato un nodo nel documento.
 type: docs
 weight: 10
 url: /it/net/aspose.words/documentvisitor/visitabsolutepositiontab/
 ---
 ## DocumentVisitor.VisitAbsolutePositionTab method
 
-Chiamato quando a[`AbsolutePositionTab`](../../absolutepositiontab/) viene rilevato un nodo nel documento.
+Chiamato quando a[`AbsolutePositionTab`](../../absolutepositiontab/) è stato rilevato un nodo nel documento.
 
 ```csharp
 public virtual VisitorAction VisitAbsolutePositionTab(AbsolutePositionTab tab)
@@ -35,10 +35,10 @@ public void DocumentToTxt()
     DocTextExtractor myDocTextExtractor = new DocTextExtractor();
     doc.FirstSection.Body.Accept(myDocTextExtractor);
 
-    // La tabulazione della posizione assoluta, che non ha equivalenti in forma di stringa, è stata convertita in modo esplicito in un carattere di tabulazione.
+    // Il tab della posizione assoluta, che non ha equivalenti sotto forma di stringa, è stato convertito esplicitamente in un carattere di tabulazione.
     Assert.AreEqual("Before AbsolutePositionTab\tAfter AbsolutePositionTab", myDocTextExtractor.GetText());
 
-    // Anche un AbsolutePositionTab può accettare un DocumentVisitor da solo.
+    // Un AbsolutePositionTab può accettare anche un DocumentVisitor da solo.
     AbsolutePositionTab absPositionTab = (AbsolutePositionTab)doc.FirstSection.Body.FirstParagraph.GetChild(NodeType.SpecialChar, 0, true);
 
     myDocTextExtractor = new DocTextExtractor();
@@ -48,7 +48,7 @@ public void DocumentToTxt()
 }
 
 /// <summary>
-/// Raccoglie il contenuto del testo di tutte le esecuzioni nel documento visitato. Sostituisce tutti i caratteri di tabulazione assoluti con tabulazioni ordinarie.
+/// Raccoglie il contenuto testuale di tutte le esecuzioni nel documento visitato. Sostituisce tutti i caratteri di tabulazione assoluti con tabulazioni ordinarie.
 /// </summary>
 public class DocTextExtractor : DocumentVisitor
 {
@@ -58,7 +58,7 @@ public class DocTextExtractor : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando viene rilevato un nodo Run nel documento.
+    /// Chiamato quando nel documento viene incontrato un nodo Esegui.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -67,7 +67,7 @@ public class DocTextExtractor : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando viene rilevato un nodo AbsolutePositionTab nel documento.
+    /// Chiamato quando nel documento viene incontrato un nodo AbsolutePositionTab.
     /// </summary>
     public override VisitorAction VisitAbsolutePositionTab(AbsolutePositionTab tab)
     {
@@ -84,7 +84,7 @@ public class DocTextExtractor : DocumentVisitor
     }
 
     /// <summary>
-    /// Testo normale del documento accumulato dal visitatore.
+    /// Testo semplice del documento accumulato dal visitatore.
     /// </summary>
     public string GetText()
     {

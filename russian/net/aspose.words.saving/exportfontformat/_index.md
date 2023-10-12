@@ -1,14 +1,14 @@
 ---
 title: Enum ExportFontFormat
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Saving.ExportFontFormat перечисление. Указывает формат используемый для экспорта шрифтов при отображении в фиксированный формат HTML.
+description: Aspose.Words.Saving.ExportFontFormat перечисление. Указывает формат который используется для экспорта шрифтов при рендеринге в фиксированный формат HTML.
 type: docs
-weight: 4730
+weight: 4990
 url: /ru/net/aspose.words.saving/exportfontformat/
 ---
 ## ExportFontFormat enumeration
 
-Указывает формат, используемый для экспорта шрифтов при отображении в фиксированный формат HTML.
+Указывает формат, который используется для экспорта шрифтов при рендеринге в фиксированный формат HTML.
 
 ```csharp
 public enum ExportFontFormat
@@ -23,7 +23,7 @@ public enum ExportFontFormat
 
 ### Примеры
 
-Показывает, как использовать шрифты только с целевого компьютера при сохранении документа в формате HTML.
+Показывает, как использовать шрифты только с целевого компьютера при сохранении документа в HTML.
 
 ```csharp
 Document doc = new Document(MyDir + "Bullet points with alternative font.docx");

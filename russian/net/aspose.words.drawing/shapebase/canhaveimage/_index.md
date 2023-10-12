@@ -1,14 +1,14 @@
 ---
 title: ShapeBase.CanHaveImage
 second_title: Справочник по API Aspose.Words для .NET
-description: ShapeBase свойство. Возвращает true если тип фигуры позволяет фигуре иметь изображение.
+description: ShapeBase свойство. Возвращаетистинный если тип фигуры позволяет фигуре иметь изображение.
 type: docs
 weight: 100
 url: /ru/net/aspose.words.drawing/shapebase/canhaveimage/
 ---
 ## ShapeBase.CanHaveImage property
 
-Возвращает true, если тип фигуры позволяет фигуре иметь изображение.
+Возвращает`истинный` если тип фигуры позволяет фигуре иметь изображение.
 
 ```csharp
 public bool CanHaveImage { get; }
@@ -16,11 +16,11 @@ public bool CanHaveImage { get; }
 
 ### Примечания
 
-Хотя Microsoft Word имеет специальный тип фигуры для изображений, кажется, что в документах Microsoft Word любой shape , кроме групповой фигуры, может иметь изображение, поэтому это свойство возвращает значение true для всех фигур, кроме[`GroupShape`](../../groupshape/).
+Хотя Microsoft Word имеет специальный тип фигуры для изображений, похоже, что в документах Microsoft Word любая shape , за исключением групповой фигуры, может иметь изображение, поэтому это свойство возвращает`истинный` для всех фигур, кроме[`GroupShape`](../../groupshape/).
 
 ### Примеры
 
-Показывает, как вставить и повернуть изображение.
+Показывает, как вставлять и поворачивать изображение.
 
 ```csharp
 Document doc = new Document();

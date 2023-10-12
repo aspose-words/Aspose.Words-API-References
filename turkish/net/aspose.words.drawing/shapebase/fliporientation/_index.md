@@ -16,11 +16,11 @@ public FlipOrientation FlipOrientation { get; set; }
 
 ### Notlar
 
-Varsayılan değerNone.
+Varsayılan değer:None.
 
 ### Örnekler
 
-Bir eksende bir şeklin nasıl çevrileceğini gösterir.
+Bir şeklin eksen üzerinde nasıl çevrileceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -37,24 +37,24 @@ shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPosition.Left
     RelativeVerticalPosition.TopMargin, 100, 100, 100, WrapType.None);
 shape.ImageData.SetImage(ImageDir + "Logo.jpg");
 
-// İkinci şekli y ekseninde çevirmek için "FlipOrientation" özelliğini "FlipOrientation.Horizontal" olarak ayarlayın,
-// ilk şeklin yatay ayna görüntüsüne dönüştürüyoruz.
+// Y eksenindeki ikinci şekli çevirmek için "FlipOrientation" özelliğini "FlipOrientation.Horizontal" olarak ayarlayın,
+// onu ilk şeklin yatay ayna görüntüsüne dönüştürüyoruz.
 shape.FlipOrientation = FlipOrientation.Horizontal;
 
 shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPosition.LeftMargin, 100,
     RelativeVerticalPosition.TopMargin, 250, 100, 100, WrapType.None);
 shape.ImageData.SetImage(ImageDir + "Logo.jpg");
 
-// Üçüncü şekli x ekseninde çevirmek için "FlipOrientation" özelliğini "FlipOrientation.Horizontal" olarak ayarlayın,
-// ilk şeklin dikey ayna görüntüsüne dönüştürüyoruz.
+// X eksenindeki üçüncü şekli çevirmek için "FlipOrientation" özelliğini "FlipOrientation.Horizontal" olarak ayarlayın,
+// onu ilk şeklin dikey ayna görüntüsüne dönüştürüyoruz.
 shape.FlipOrientation = FlipOrientation.Vertical;
 
 shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPosition.LeftMargin, 250,
     RelativeVerticalPosition.TopMargin, 250, 100, 100, WrapType.None);
 shape.ImageData.SetImage(ImageDir + "Logo.jpg");
 
-// Dördüncü şekli hem x hem de y eksenlerinde çevirmek için "FlipOrientation" özelliğini "FlipOrientation.Horizontal" olarak ayarlayın,
-// ilk şeklin yatay ve dikey ayna görüntüsüne dönüştürüyoruz.
+// Dördüncü şekli hem x hem de y ekseninde çevirmek için "FlipOrientation" özelliğini "FlipOrientation.Horizontal" olarak ayarlayın,
+// onu ilk şeklin yatay ve dikey ayna görüntüsüne dönüştürüyoruz.
 shape.FlipOrientation = FlipOrientation.Both;
 
 doc.Save(ArtifactsDir + "Shape.FlipShapeOrientation.docx");

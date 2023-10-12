@@ -1,14 +1,14 @@
 ---
 title: FieldToc.EntryLevelRange
 second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldToc propriété. Obtient ou définit une plage de niveaux des entrées de la table des matières à inclure.
+description: FieldToc propriété. Obtient ou définit une plage de niveaux dentrées de table des matières à inclure.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.fields/fieldtoc/entrylevelrange/
 ---
 ## FieldToc.EntryLevelRange property
 
-Obtient ou définit une plage de niveaux des entrées de la table des matières à inclure.
+Obtient ou définit une plage de niveaux d'entrées de table des matières à inclure.
 
 ```csharp
 public string EntryLevelRange { get; set; }
@@ -19,6 +19,7 @@ public string EntryLevelRange { get; set; }
 Montre comment insérer un champ TOC et filtrer les champs TC qui finissent comme entrées.
 
 ```csharp
+public void FieldTocEntryIdentifier()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -26,7 +27,7 @@ Montre comment insérer un champ TOC et filtrer les champs TC qui finissent comm
     // Insère un champ TOC, qui compilera tous les champs TC dans une table des matières.
     FieldToc fieldToc = (FieldToc)builder.InsertField(FieldType.FieldTOC, true);
 
-    // Configurez le champ uniquement pour récupérer les entrées TC de type "A", et un niveau d'entrée compris entre 1 et 3.
+    // Configure le champ uniquement pour récupérer les entrées TC de type "A", et un niveau d'entrée compris entre 1 et 3.
     fieldToc.EntryIdentifier = "A";
     fieldToc.EntryLevelRange = "1-3";
 
@@ -47,9 +48,10 @@ Montre comment insérer un champ TOC et filtrer les champs TC qui finissent comm
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.TC.docx");
+}
 
 /// <summary>
-/// Utilisez un générateur de document pour insérer un champ TC.
+/// Utilisez un générateur de documents pour insérer un champ TC.
 /// </summary>
 public void InsertTocEntry(DocumentBuilder builder, string text, string typeIdentifier, string entryLevel)
 {

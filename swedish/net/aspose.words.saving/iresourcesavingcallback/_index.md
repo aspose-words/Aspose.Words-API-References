@@ -3,7 +3,7 @@ title: Interface IResourceSavingCallback
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Saving.IResourceSavingCallback gränssnitt. Implementera det här gränssnittet om du vill styra hur Aspose.Words sparar externa resurser bilder teckensnitt och css när du sparar ett dokument till HTML eller SVG med fast sida.
 type: docs
-weight: 4930
+weight: 5190
 url: /sv/net/aspose.words.saving/iresourcesavingcallback/
 ---
 ## IResourceSavingCallback interface

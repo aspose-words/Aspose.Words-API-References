@@ -1,14 +1,14 @@
 ---
 title: FieldDisplayBarcode.ErrorCorrectionLevel
 second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldDisplayBarcode propriété. Obtient ou définit un niveau de correction derreur de code QR. Les valeurs valides sont 0 3.
+description: FieldDisplayBarcode propriété. Obtient ou définit un niveau de correction derreur du code QR. Les valeurs valides sont 0 3.
 type: docs
 weight: 80
 url: /fr/net/aspose.words.fields/fielddisplaybarcode/errorcorrectionlevel/
 ---
 ## FieldDisplayBarcode.ErrorCorrectionLevel property
 
-Obtient ou définit un niveau de correction d'erreur de code QR. Les valeurs valides sont [0, 3].
+Obtient ou définit un niveau de correction d'erreur du code QR. Les valeurs valides sont [0, 3].
 
 ```csharp
 public string ErrorCorrectionLevel { get; set; }
@@ -25,7 +25,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 FieldDisplayBarcode field = (FieldDisplayBarcode)builder.InsertField(FieldType.FieldDisplayBarcode, true);
 
 // Vous trouverez ci-dessous quatre types de codes-barres, décorés de différentes manières, que le champ DISPLAYBARCODE peut afficher.
-// 1 - QR code avec des couleurs personnalisées :
+// 1 - QR code avec couleurs personnalisées :
 field.BarcodeType = "QR";
 field.BarcodeValue = "ABC123";
 field.BackgroundColor = "0xF8BD69";
@@ -58,7 +58,7 @@ field.AddStartStopChar = true;
 Assert.AreEqual(" DISPLAYBARCODE  12345ABCDE CODE39 \\d", field.GetFieldCode());
 builder.Writeln();
 
-// 4 - Code-barres ITF4, avec un code de cas spécifié :
+// 4 - Code-barres ITF4, avec un code cas spécifié :
 field = (FieldDisplayBarcode)builder.InsertField(FieldType.FieldDisplayBarcode, true);
 field.BarcodeType = "ITF14";
 field.BarcodeValue = "09312345678907";

@@ -1,20 +1,20 @@
 ---
 title: KnownTypeSet.Add
 second_title: Aspose.Words لمراجع .NET API
-description: KnownTypeSet طريقة. يضيف المحددType تعترض على المجموعة. رمياتArgumentException in الحالات التالية
+description: KnownTypeSet طريقة. يضيف المحددType اعتراض على المجموعة. رمياتArgumentException in الحالات التالية
 type: docs
 weight: 20
 url: /ar/net/aspose.words.reporting/knowntypeset/add/
 ---
 ## KnownTypeSet.Add method
 
-يضيف المحددType تعترض على المجموعة. رمياتArgumentException in الحالات التالية:
+يضيف المحددType اعتراض على المجموعة. رمياتArgumentException in الحالات التالية:
 
--*type* باطل.
+-*type* يكون`باطل`.
 
 -*type* يمثل نوع الفراغ.
 
--*type* يمثل نوعًا غير مرئي ، أي نوع غير عام أو نوع متداخل عام له نوع خارجي غير عام.
+-*type* يمثل نوعًا غير مرئي، أي نوع غير عام أو نوع عام متداخل type له نوع خارجي غير عام.
 
 -*type* يمثل نوعًا عامًا.
 
@@ -28,7 +28,7 @@ public void Add(Type type)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| type | Type | أType كائن للإضافة. |
+| type | Type | أType كائن لإضافته. |
 
 ### أنظر أيضا
 

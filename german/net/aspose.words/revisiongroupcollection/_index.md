@@ -3,12 +3,14 @@ title: Class RevisionGroupCollection
 second_title: Aspose.Words für .NET-API-Referenz
 description: Aspose.Words.RevisionGroupCollection klas. Eine Sammlung vonRevisionGroup Objekte die Revisionsgruppen im Dokument darstellen.
 type: docs
-weight: 4530
+weight: 4790
 url: /de/net/aspose.words/revisiongroupcollection/
 ---
 ## RevisionGroupCollection class
 
 Eine Sammlung von[`RevisionGroup`](../revisiongroup/) Objekte, die Revisionsgruppen im Dokument darstellen.
+
+Um mehr zu erfahren, besuchen Sie die[Verfolgen Sie Änderungen in einem Dokument](https://docs.aspose.com/words/net/track-changes-in-a-document/) Dokumentationsartikel.
 
 ```csharp
 public sealed class RevisionGroupCollection : IEnumerable<RevisionGroup>
@@ -25,15 +27,15 @@ public sealed class RevisionGroupCollection : IEnumerable<RevisionGroup>
 
 | Name | Beschreibung |
 | --- | --- |
-| [GetEnumerator](../../aspose.words/revisiongroupcollection/getenumerator/)() | Gibt ein Aufzählungsobjekt zurück. |
+| [GetEnumerator](../../aspose.words/revisiongroupcollection/getenumerator/)() | Gibt ein Enumeratorobjekt zurück. |
 
 ### Bemerkungen
 
-Sie erstellen keine Instanzen dieser Klasse direkt. Verwenden Sie die[`Groups`](../revisioncollection/groups/) -Eigenschaft, um Revisionsgruppen in einem Dokument zu erhalten.
+Sie erstellen keine Instanzen dieser Klasse direkt. Benutzen Sie die[`Groups`](../revisioncollection/groups/) -Eigenschaft, um in einem Dokument vorhandene Revisionsgruppen abzurufen.
 
 ### Beispiele
 
-Zeigt, wie Sie eine Gruppe von Revisionen in einem Dokument erhalten.
+Zeigt, wie eine Gruppe von Revisionen in einem Dokument abgerufen wird.
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");

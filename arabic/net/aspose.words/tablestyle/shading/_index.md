@@ -1,14 +1,14 @@
 ---
 title: TableStyle.Shading
 second_title: Aspose.Words لمراجع .NET API
-description: TableStyle ملكية. يحصل على أShading كائن يشير إلى تنسيق التظليل لخلايا الجدول.
+description: TableStyle ملكية. يحصل علىShading الكائن الذي يشير إلى تنسيق التظليل لخلايا الجدول.
 type: docs
 weight: 130
 url: /ar/net/aspose.words/tablestyle/shading/
 ---
 ## TableStyle.Shading property
 
-يحصل على أ[`Shading`](../../shading/) كائن يشير إلى تنسيق التظليل لخلايا الجدول.
+يحصل على[`Shading`](../../shading/) الكائن الذي يشير إلى تنسيق التظليل لخلايا الجدول.
 
 ```csharp
 public Shading Shading { get; }

@@ -16,7 +16,7 @@ public SdtType SdtType { get; }
 
 ### Örnekler
 
-Yapılandırılmış bir belge etiketinin türünün nasıl alınacağını gösterir.
+Yapılandırılmış belge etiketi türünün nasıl alınacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Structured document tags.docx");

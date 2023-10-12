@@ -1,12 +1,14 @@
 ---
 title: BookmarksOutlineLevelCollection.GetEnumerator
 second_title: Aspose.Words لمراجع .NET API
-description: BookmarksOutlineLevelCollection طريقة. 
+description: BookmarksOutlineLevelCollection طريقة. إرجاع كائن العداد الذي يمكن استخدامه للتكرار على كافة العناصر الموجودة في المجموعة.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.saving/bookmarksoutlinelevelcollection/getenumerator/
 ---
 ## BookmarksOutlineLevelCollection.GetEnumerator method
+
+إرجاع كائن العداد الذي يمكن استخدامه للتكرار على كافة العناصر الموجودة في المجموعة.
 
 ```csharp
 public IEnumerator<KeyValuePair<string, int>> GetEnumerator()

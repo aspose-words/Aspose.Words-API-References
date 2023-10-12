@@ -3,7 +3,7 @@ title: Fill.Solid
 second_title: Aspose.Words för .NET API Referens
 description: Fill metod. Ställer in fyllningen till en enhetlig färg.
 type: docs
-weight: 200
+weight: 260
 url: /sv/net/aspose.words.drawing/fill/solid/
 ---
 ## Solid() {#solid}

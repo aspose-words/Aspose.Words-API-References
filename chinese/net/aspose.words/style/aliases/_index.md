@@ -21,14 +21,14 @@ public string[] Aliases { get; }
 ```csharp
 Document doc = new Document(MyDir + "Style with alias.docx");
 
-// 此文档包含名为“MyStyle,MyStyle Alias 1,MyStyle Alias 2”的样式。
-// 如果样式名称有多个用逗号分隔的值，则每个子句都是一个单独的别名。
+// 该文档包含名为“MyStyle,MyStyle Alias 1,MyStyle Alias 2”的样式。
+// 如果样式名称具有多个以逗号分隔的值，则每个子句都是一个单独的别名。
 Style style = doc.Styles["MyStyle"];
 Assert.AreEqual(new [] { "MyStyle Alias 1", "MyStyle Alias 2" }, style.Aliases);
 Assert.AreEqual("Title", style.BaseStyleName);
 Assert.AreEqual("MyStyle Char", style.LinkedStyleName);
 
-// 我们可以使用它的别名以及它的名称来引用一个样式。
+// 我们可以使用其别名及其名称来引用样式。
 Assert.AreEqual(doc.Styles["MyStyle Alias 1"], doc.Styles["MyStyle Alias 2"]);
 
 DocumentBuilder builder = new DocumentBuilder(doc);

@@ -1,14 +1,14 @@
 ---
 title: Odso.UdlConnectString
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Odso propriété. Spécifie la chaîne de connexion UDL Universal Data Link utilisée pour se connecter à une source de données externe. La valeur par défaut est une chaîne vide.
+description: Odso propriété. Spécifie la chaîne de connexion Universal Data Link UDL utilisée pour se connecter à une source de données externe. La valeur par défaut est une chaîne vide.
 type: docs
 weight: 90
 url: /fr/net/aspose.words.settings/odso/udlconnectstring/
 ---
 ## Odso.UdlConnectString property
 
-Spécifie la chaîne de connexion UDL (Universal Data Link) utilisée pour se connecter à une source de données externe. La valeur par défaut est une chaîne vide.
+Spécifie la chaîne de connexion Universal Data Link (UDL) utilisée pour se connecter à une source de données externe. La valeur par défaut est une chaîne vide.
 
 ```csharp
 public string UdlConnectString { get; set; }

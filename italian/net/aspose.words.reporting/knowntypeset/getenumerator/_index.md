@@ -16,7 +16,7 @@ public IEnumerator<Type> GetEnumerator()
 
 ### Valore di ritorno
 
-UnIEnumerator oggetto per scorrere gli elementi del set.
+UNIEnumerator oggetto per scorrere gli elementi del set.
 
 ### Guarda anche
 

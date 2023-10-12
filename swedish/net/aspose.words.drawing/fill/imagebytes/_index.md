@@ -3,7 +3,7 @@ title: Fill.ImageBytes
 second_title: Aspose.Words för .NET API Referens
 description: Fill fast egendom. Hämtar råbyte för fyllningstexturen eller mönstret.
 type: docs
-weight: 80
+weight: 140
 url: /sv/net/aspose.words.drawing/fill/imagebytes/
 ---
 ## Fill.ImageBytes property
@@ -16,7 +16,7 @@ public byte[] ImageBytes { get; }
 
 ### Anmärkningar
 
-Standardvärdet är null.
+Standardvärdet är`null`.
 
 ### Exempel
 

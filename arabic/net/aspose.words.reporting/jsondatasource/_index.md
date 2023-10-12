@@ -1,14 +1,16 @@
 ---
 title: Class JsonDataSource
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Reporting.JsonDataSource فصل. يوفر الوصول إلى بيانات ملف JSON أو دفق لاستخدامه في تقرير .
+description: Aspose.Words.Reporting.JsonDataSource فصل. يوفر الوصول إلى بيانات ملف JSON أو التدفق لاستخدامه في التقرير.
 type: docs
-weight: 4430
+weight: 4690
 url: /ar/net/aspose.words.reporting/jsondatasource/
 ---
 ## JsonDataSource class
 
-يوفر الوصول إلى بيانات ملف JSON أو دفق لاستخدامه في تقرير .
+يوفر الوصول إلى بيانات ملف JSON أو التدفق لاستخدامه في التقرير.
+
+لمعرفة المزيد، قم بزيارة[محرك التقارير LINQ](https://docs.aspose.com/words/net/linq-reporting-engine/) مقالة توثيقية.
 
 ```csharp
 public class JsonDataSource
@@ -18,18 +20,18 @@ public class JsonDataSource
 
 | اسم | وصف |
 | --- | --- |
-| [JsonDataSource](jsondatasource/#constructor)(Stream) | إنشاء مصدر بيانات جديد ببيانات من دفق JSON باستخدام الخيارات الافتراضية لتحليل بيانات JSON. |
+| [JsonDataSource](jsondatasource/#constructor)(Stream) | إنشاء مصدر بيانات جديد ببيانات من تدفق JSON باستخدام الخيارات الافتراضية لتحليل بيانات JSON. |
 | [JsonDataSource](jsondatasource/#constructor_2)(string) | إنشاء مصدر بيانات جديد ببيانات من ملف JSON باستخدام الخيارات الافتراضية لتحليل بيانات JSON. |
-| [JsonDataSource](jsondatasource/#constructor_1)(Stream, JsonDataLoadOptions) | إنشاء مصدر بيانات جديد ببيانات من دفق JSON باستخدام الخيارات المحددة لتحليل بيانات JSON. |
+| [JsonDataSource](jsondatasource/#constructor_1)(Stream, JsonDataLoadOptions) | إنشاء مصدر بيانات جديد ببيانات من تدفق JSON باستخدام الخيارات المحددة لتحليل بيانات JSON. |
 | [JsonDataSource](jsondatasource/#constructor_3)(string, JsonDataLoadOptions) | إنشاء مصدر بيانات جديد ببيانات من ملف JSON باستخدام الخيارات المحددة لتحليل بيانات JSON. |
 
 ### ملاحظات
 
-للوصول إلى بيانات الملف أو الدفق المقابل أثناء إنشاء تقرير ، قم بتمرير مثيل من هذه الفئة كـ مصدر بيانات إلى أحد[`ReportingEngine`](../reportingengine/) إنشاء تقرير عن الحمولة الزائدة.
+للوصول إلى بيانات الملف أو الدفق المقابل أثناء إنشاء تقرير، قم بتمرير مثيل من هذه الفئة as مصدر بيانات إلى أحدها[`ReportingEngine`](../reportingengine/) .BuildReport الحمولة الزائدة.
 
-في مستندات النموذج ، إذا كان عنصر JSON ذو المستوى الأعلى عبارة عن مصفوفة ، أ`JsonDataSource` يجب معاملة المثال be بنفس الطريقة كما لو كان ملفDataTable مثيل. إذا كان عنصر JSON عالي المستوى كائنًا ، فإن ملف`JsonDataSource` يجب معاملة المثيل بنفس الطريقة كما لو كان أDataRow مثيل. لمزيد من المعلومات ، راجع مرجع بناء الجملة (https://docs.aspose.com/display/wordsnet/Template+Syntax).
+في مستندات القالب، إذا كان عنصر JSON ذو المستوى الأعلى عبارة عن مصفوفة، فسيتم استخدام أ`JsonDataSource` يجب أن يتم التعامل مع المثيل بنفس الطريقة كما لو كانDataTable مثيل. إذا كان عنصر JSON ذو المستوى الأعلى عبارة عن كائن، أ`JsonDataSource` يجب التعامل مع المثيل بنفس الطريقة كما لو كان aDataRow مثيل. لمزيد من المعلومات، راجع مرجع بناء جملة القالب (https://docs.aspose.com/display/wordsnet/Template+Syntax).
 
-في مستندات النموذج ، يمكنك التعامل مع القيم المكتوبة لعناصر JSON. للراحة ، يستبدل المحرك مجموعة لأنواع JSON البسيطة بالمجموعة التالية:
+في مستندات القالب، يمكنك العمل مع القيم المكتوبة لعناصر JSON. للراحة، يستبدل المحرك المجموعة من أنواع JSON البسيطة بالنوع التالي:
 
 * Nullable
 * Nullable
@@ -37,9 +39,9 @@ public class JsonDataSource
 * Nullable
 * String
 
-يتعرف المحرك تلقائيًا على قيم الأنواع الإضافية بناءً على تمثيلات JSON الخاصة بهم.
+يتعرف المحرك تلقائيًا على قيم الأنواع الإضافية بناءً على تمثيلات JSON الخاصة بها.
 
-لتجاوز السلوك الافتراضي لتحميل بيانات JSON ، قم بتهيئة وتمرير ملف[`JsonDataLoadOptions`](../jsondataloadoptions/)example إلى مُنشئ هذه الفئة.
+لتجاوز السلوك الافتراضي لتحميل بيانات JSON، قم بتهيئة وتمرير ملف[`JsonDataLoadOptions`](../jsondataloadoptions/) example إلى منشئ هذه الفئة.
 
 ### أنظر أيضا
 

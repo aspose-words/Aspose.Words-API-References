@@ -3,12 +3,14 @@ title: Class CustomXmlPropertyCollection
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Markup.CustomXmlPropertyCollection klass. Representerar en samling anpassade XMLattribut eller egenskaper för smarta taggar.
 type: docs
-weight: 3710
+weight: 3950
 url: /sv/net/aspose.words.markup/customxmlpropertycollection/
 ---
 ## CustomXmlPropertyCollection class
 
 Representerar en samling anpassade XML-attribut eller egenskaper för smarta taggar.
+
+För att lära dig mer, besök[Strukturerade dokumenttaggar eller innehållskontroll](https://docs.aspose.com/words/net/working-with-content-control-sdt/) dokumentationsartikel.
 
 ```csharp
 public class CustomXmlPropertyCollection : IEnumerable<CustomXmlProperty>
@@ -35,7 +37,7 @@ public class CustomXmlPropertyCollection : IEnumerable<CustomXmlProperty>
 
 ### Anmärkningar
 
-Objekt är[`CustomXmlProperty`](../customxmlproperty/) objekt.
+Objekt är[`CustomXmlProperty`](../customxmlproperty/) föremål.
 
 ### Exempel
 

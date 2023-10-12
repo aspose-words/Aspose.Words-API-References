@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertParagraph
 second_title: Aspose.Words för .NET API Referens
 description: DocumentBuilder metod. Infogar en styckebrytning i dokumentet.
 type: docs
-weight: 400
+weight: 430
 url: /sv/net/aspose.words/documentbuilder/insertparagraph/
 ---
 ## DocumentBuilder.InsertParagraph method
@@ -23,6 +23,8 @@ Paragrafnoden som precis infogades. Det är samma nod som[`CurrentParagraph`](..
 Aktuell styckeformatering specificerad av[`ParagraphFormat`](../paragraphformat/) egendom används.
 
 Delar det aktuella stycket i två delar. Efter att ha infogat stycket placeras markören i början av det nya stycket.
+
+Ett undantag görs om det inte är möjligt att infoga en styckebrytning vid den aktuella markörpositionen.
 
 ### Exempel
 

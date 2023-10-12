@@ -1,14 +1,14 @@
 ---
 title: ShapeBase.RelativeVerticalPosition
 second_title: Referencia de API de Aspose.Words para .NET
-description: ShapeBase propiedad. Especifica en relación a qué forma se coloca verticalmente.
+description: ShapeBase propiedad. Especifica en relación con la posición vertical de la forma.
 type: docs
-weight: 410
+weight: 440
 url: /es/net/aspose.words.drawing/shapebase/relativeverticalposition/
 ---
 ## ShapeBase.RelativeVerticalPosition property
 
-Especifica en relación a qué forma se coloca verticalmente.
+Especifica en relación con la posición vertical de la forma.
 
 ```csharp
 public RelativeVerticalPosition RelativeVerticalPosition { get; set; }
@@ -18,7 +18,7 @@ public RelativeVerticalPosition RelativeVerticalPosition { get; set; }
 
 El valor predeterminado esParagraph.
 
-Solo tiene efecto para las formas flotantes de nivel superior.
+Tiene efecto sólo para formas flotantes de nivel superior.
 
 ### Ejemplos
 

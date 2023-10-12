@@ -3,7 +3,7 @@ title: Document.Revisions
 second_title: Aspose.Words för .NET API Referens
 description: Document fast egendom. Hämtar en samling revisioner spårade ändringar som finns i detta dokument.
 type: docs
-weight: 330
+weight: 350
 url: /sv/net/aspose.words/document/revisions/
 ---
 ## Document.Revisions property

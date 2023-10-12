@@ -3,12 +3,14 @@ title: Class ComparisonExpression
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.Fields.ComparisonExpression classe. Lexpression de comparaison.
 type: docs
-weight: 1340
+weight: 1490
 url: /fr/net/aspose.words.fields/comparisonexpression/
 ---
 ## ComparisonExpression class
 
 L'expression de comparaison.
+
+Pour en savoir plus, visitez le[Travailler avec des champs](https://docs.aspose.com/words/net/working-with-fields/) article documentaire.
 
 ```csharp
 public sealed class ComparisonExpression
@@ -36,7 +38,7 @@ public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparison
 
     DocumentBuilder builder = new DocumentBuilder();
 
-    // Codes de champ que nous utilisons dans cet exemple :
+    // Codes de champs que nous utilisons dans cet exemple :
     // 1. " SI {0} {1} {2} \"vrai argument\" \"faux argument\" ".
     // 2. " COMPARER {0} {1} {2} ".
     Field field = builder.InsertField(string.Format(fieldCode, left, @operator, right), null);

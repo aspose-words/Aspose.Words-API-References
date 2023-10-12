@@ -1,14 +1,14 @@
 ---
 title: IFieldUserPromptRespondent.Respond
 second_title: Aspose.Words för .NET API Referens
-description: IFieldUserPromptRespondent metod. När den är implementerad returneras ett svar från användaren vid uppmaning. Din implementering bör returneras null för att indikera att användaren inte har svarat på prompten dvs användaren har tryckt på knappen Avbryt i promptfönstret.
+description: IFieldUserPromptRespondent metod. När den är implementerad returneras ett svar från användaren vid uppmaning. Din implementering bör returnerasnull för att indikera att användaren inte har svarat på prompten dvs användaren har tryckt på knappen Avbryt i promptfönstret.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fields/ifielduserpromptrespondent/respond/
 ---
 ## IFieldUserPromptRespondent.Respond method
 
-När den är implementerad returneras ett svar från användaren vid uppmaning. Din implementering bör returneras **null** för att indikera att användaren inte har svarat på prompten (dvs användaren har tryckt på knappen Avbryt i promptfönstret).
+När den är implementerad returneras ett svar från användaren vid uppmaning. Din implementering bör returneras`null` för att indikera att användaren inte har svarat på prompten (dvs användaren har tryckt på knappen Avbryt i promptfönstret).
 
 ```csharp
 public string Respond(string promptText, string defaultResponse)
@@ -28,7 +28,6 @@ Användarsvar (dvs. bekräftat värde som finns i uppmaningsfönstret).
 Visar hur man skapar ett ASK-fält och ställer in dess egenskaper.
 
 ```csharp
-[Test]
 public void FieldAsk()
 {
     Document doc = new Document();
@@ -69,6 +68,7 @@ public void FieldAsk()
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.ASK.docx");
+}
 
 /// <summary>
 /// Lägger text framför standardsvaret i ett ASK-fält under en e-postkoppling.

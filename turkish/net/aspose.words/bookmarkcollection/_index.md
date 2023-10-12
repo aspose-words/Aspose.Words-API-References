@@ -1,14 +1,16 @@
 ---
 title: Class BookmarkCollection
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.BookmarkCollection sınıf. Bir koleksiyonBookmark belirtilen aralıktaki yer işaretlerini temsil eden nesneler.
+description: Aspose.Words.BookmarkCollection sınıf. Bir koleksiyonBookmark belirtilen aralıktaki yer imlerini temsil eden nesneler.
 type: docs
-weight: 40
+weight: 50
 url: /tr/net/aspose.words/bookmarkcollection/
 ---
 ## BookmarkCollection class
 
-Bir koleksiyon[`Bookmark`](../bookmark/) belirtilen aralıktaki yer işaretlerini temsil eden nesneler.
+Bir koleksiyon[`Bookmark`](../bookmark/) belirtilen aralıktaki yer imlerini temsil eden nesneler.
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Yer İşaretleriyle Çalışmak](https://docs.aspose.com/words/net/working-with-bookmarks/) dokümantasyon makalesi.
 
 ```csharp
 public class BookmarkCollection : IEnumerable<Bookmark>
@@ -18,42 +20,41 @@ public class BookmarkCollection : IEnumerable<Bookmark>
 
 | İsim | Tanım |
 | --- | --- |
-| [Count](../../aspose.words/bookmarkcollection/count/) { get; } | Koleksiyondaki yer imlerinin sayısını verir. |
-| [Item](../../aspose.words/bookmarkcollection/item/) { get; } | Belirtilen dizinde bir yer imi döndürür. (2 indexers) |
+| [Count](../../aspose.words/bookmarkcollection/count/) { get; } | Koleksiyondaki yer imlerinin sayısını döndürür. |
+| [Item](../../aspose.words/bookmarkcollection/item/) { get; } | Belirtilen dizindeki yer işaretini döndürür. (2 indexers) |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
 | [Clear](../../aspose.words/bookmarkcollection/clear/)() | Bu koleksiyondaki ve belgedeki tüm yer işaretlerini kaldırır. |
-| [GetEnumerator](../../aspose.words/bookmarkcollection/getenumerator/)() | Bir numaralandırıcı nesnesi döndürür. |
+| [GetEnumerator](../../aspose.words/bookmarkcollection/getenumerator/)() | Bir numaralandırıcı nesnesini döndürür. |
 | [Remove](../../aspose.words/bookmarkcollection/remove/#remove)(Bookmark) | Belirtilen yer imini belgeden kaldırır. |
-| [Remove](../../aspose.words/bookmarkcollection/remove/#remove_1)(string) | Belirtilen ada sahip bir yer işaretini kaldırır. |
-| [RemoveAt](../../aspose.words/bookmarkcollection/removeat/)(int) | Belirtilen dizindeki bir yer işaretini kaldırır. |
+| [Remove](../../aspose.words/bookmarkcollection/remove/#remove_1)(string) | Belirtilen ada sahip bir yer imini kaldırır. |
+| [RemoveAt](../../aspose.words/bookmarkcollection/removeat/)(int) | Belirtilen dizindeki yer imini kaldırır. |
 
 ### Örnekler
 
-Yer imlerinin nasıl ekleneceğini ve içeriklerinin nasıl güncelleneceğini gösterir.
+Yer işaretlerinin nasıl ekleneceğini ve içeriklerinin nasıl güncelleneceğini gösterir.
 
 ```csharp
 public void CreateUpdateAndPrintBookmarks()
 {
-    // Üç yer imi içeren bir belge oluşturun, ardından içeriklerini yazdırmak için özel bir belge ziyaretçi uygulaması kullanın.
+    // Üç yer imine sahip bir belge oluşturun, ardından içeriklerini yazdırmak için özel bir belge ziyaretçisi uygulaması kullanın.
     Document doc = CreateDocumentWithBookmarks(3);
     BookmarkCollection bookmarks = doc.Range.Bookmarks;
-
     PrintAllBookmarkInfo(bookmarks);
 
-    // Yer imi koleksiyonundaki yer imlerine dizin veya isme göre erişilebilir ve adları güncellenebilir.
+    // Yer imleri koleksiyonundaki yer imlerine dizine veya isme göre erişilebilir ve adları güncellenebilir.
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
-    // Güncellenen değerleri görmek için tüm yer imlerini yeniden yazdırın.
+    // Güncellenen değerleri görmek için tüm yer imlerini tekrar yazdırın.
     PrintAllBookmarkInfo(bookmarks);
 }
 
 /// <summary>
-/// Belirli sayıda yer imi içeren bir belge oluşturun.
+/// Belirli sayıda yer işaretine sahip bir belge oluşturun.
 /// </summary>
 private static Document CreateDocumentWithBookmarks(int numberOfBookmarks)
 {
@@ -81,7 +82,7 @@ private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 {
     BookmarkInfoPrinter bookmarkVisitor = new BookmarkInfoPrinter();
 
-    // İçeriğini yazdıracak bir ziyaretçiyi kabul etmek için koleksiyondaki her yer işaretini alın.
+    // Koleksiyondaki her yer iminin, içeriğini yazdıracak bir ziyaretçiyi kabul etmesini sağlayın.
     using (IEnumerator<Bookmark> enumerator = bookmarks.GetEnumerator())
     {
         while (enumerator.MoveNext())

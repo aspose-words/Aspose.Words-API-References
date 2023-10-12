@@ -35,7 +35,7 @@ public static class DigitalSignatureUtil
 
 Since digital signature works with file content rather than Document Object Model these methods are put into a separate class.
 
-Supported formats are Doc and Docx.
+Supported formats are: Doc, Dot, Docx, Dotx, Docm, Odt, Ott.
 
 ## Examples
 

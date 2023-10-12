@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTagCollection.Count
 second_title: Aspose.Words لمراجع .NET API
-description: StructuredDocumentTagCollection ملكية. إرجاع عدد علامات المستند المنظمة في المجموعة.
+description: StructuredDocumentTagCollection ملكية. إرجاع عدد علامات المستندات المنظمة في المجموعة.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.markup/structureddocumenttagcollection/count/
 ---
 ## StructuredDocumentTagCollection.Count property
 
-إرجاع عدد علامات المستند المنظمة في المجموعة.
+إرجاع عدد علامات المستندات المنظمة في المجموعة.
 
 ```csharp
 public int Count { get; }

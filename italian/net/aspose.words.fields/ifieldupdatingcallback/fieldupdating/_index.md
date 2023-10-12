@@ -1,14 +1,14 @@
 ---
 title: IFieldUpdatingCallback.FieldUpdating
 second_title: Aspose.Words per .NET API Reference
-description: IFieldUpdatingCallback metodo. Un metodo definito dallutente che viene chiamato appena prima dellaggiornamento di un campo.
+description: IFieldUpdatingCallback metodo. Un metodo definito dallutente che viene chiamato subito prima dellaggiornamento di un campo.
 type: docs
 weight: 20
 url: /it/net/aspose.words.fields/ifieldupdatingcallback/fieldupdating/
 ---
 ## IFieldUpdatingCallback.FieldUpdating method
 
-Un metodo definito dall'utente che viene chiamato appena prima dell'aggiornamento di un campo.
+Un metodo definito dall'utente che viene chiamato subito prima dell'aggiornamento di un campo.
 
 ```csharp
 public void FieldUpdating(Field field)
@@ -19,6 +19,7 @@ public void FieldUpdating(Field field)
 Mostra come utilizzare i metodi di callback durante un aggiornamento del campo.
 
 ```csharp
+public void FieldUpdatingCallbackTest()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -39,9 +40,9 @@ Mostra come utilizzare i metodi di callback durante un aggiornamento del campo.
 }
 
 /// <summary>
-/// Implementa questa interfaccia se desideri che i tuoi metodi personalizzati vengano chiamati durante un aggiornamento del campo.
+/// Implementa questa interfaccia se desideri che i tuoi metodi personalizzati vengano richiamati durante un aggiornamento del campo.
 /// </summary>
-public class FieldUpdatingCallback : IFieldUpdatingCallback
+public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgressCallback
 {
     public FieldUpdatingCallback()
     {
@@ -66,6 +67,12 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback
     void IFieldUpdatingCallback.FieldUpdated(Field field)
     {
         FieldUpdatedCalls.Add(field.Result);
+    }
+
+    void IFieldUpdatingProgressCallback.Notify(FieldUpdatingProgressArgs args)
+    {
+        Console.WriteLine($"{args.UpdateCompleted}/{args.TotalFieldsCount}");
+        Console.WriteLine($"{args.UpdatedFieldsCount}");
     }
 
     public IList<string> FieldUpdatedCalls { get; }

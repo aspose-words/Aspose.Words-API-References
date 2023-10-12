@@ -1,14 +1,14 @@
 ---
 title: HeaderFooterCollection.ToArray
 second_title: Référence de l'API Aspose.Words pour .NET
-description: HeaderFooterCollection méthode. Copie toutEntêtePied de page s de la collection à un nouveau tableau deEntêtePied de page s.
+description: HeaderFooterCollection méthode. Copie toutEntêteFoorter s de la collection à une nouvelle gamme deEntêteFoorter s.
 type: docs
 weight: 30
 url: /fr/net/aspose.words/headerfootercollection/toarray/
 ---
 ## HeaderFooterCollection.ToArray method
 
-Copie tout`En-têtePied de page` s de la collection à un nouveau tableau de`En-têtePied de page` s.
+Copie tout`En-têteFoorter` s de la collection à une nouvelle gamme de`En-têteFoorter` s.
 
 ```csharp
 public HeaderFooter[] ToArray()
@@ -16,11 +16,11 @@ public HeaderFooter[] ToArray()
 
 ### Return_Value
 
-Un étalage de`En-têtePied de page`s.
+Un étalage de`En-têteFoorter`s.
 
 ### Exemples
 
-Montre comment imprimer la structure de nœud de chaque en-tête et pied de page dans un document.
+Montre comment imprimer la structure des nœuds de chaque en-tête et pied de page d'un document.
 
 ```csharp
 public void HeaderFooterToText()
@@ -28,14 +28,14 @@ public void HeaderFooterToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     HeaderFooterStructurePrinter visitor = new HeaderFooterStructurePrinter();
 
-    // Lorsque nous obtenons un nœud composite pour accepter un visiteur de document, le visiteur visite le nœud acceptant,
-    // puis parcourt tous les enfants du nœud en profondeur d'abord.
+    // Lorsque nous obtenons qu'un nœud composite accepte un visiteur de document, le visiteur visite le nœud accepteur,
+    // puis parcourt tous les enfants du nœud en profondeur.
     // Le visiteur peut lire et modifier chaque nœud visité.
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 
-    // Une autre façon d'accéder section par section à l'en-tête/pied de page d'un document consiste à accéder à la collection.
+    // Une autre manière d'accéder à l'en-tête/pied de page d'un document, section par section, consiste à accéder à la collection.
     HeaderFooter[] headerFooters = doc.FirstSection.HeadersFooters.ToArray();
     Assert.AreEqual(3, headerFooters.Length);
 }
@@ -58,7 +58,7 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Appelé lorsqu'un noeud Run est rencontré dans le document.
+    /// Appelé lorsqu'un nœud Run est rencontré dans le document.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -94,7 +94,7 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
     /// <summary>
     /// Ajoutez une ligne au StringBuilder et indentez-la en fonction de la profondeur du visiteur dans l'arborescence du document.
     /// </summary>
-    /// <nom du paramètre="texte"></param>
+    /// <param name="text"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++) mBuilder.Append("|  ");

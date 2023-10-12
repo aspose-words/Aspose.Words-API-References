@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTag.Placeholder
 second_title: Aspose.Words per .NET API Reference
-description: StructuredDocumentTag proprietà. Ottiene ilBuildingBlock contenente testo segnaposto che dovrebbe essere visualizzato quando il contenuto di questa esecuzione SDT è vuoto lelemento XML mappato associato è vuoto come specificato tramiteXmlMapping element o ilIsShowingPlaceholderText elemento è vero.
+description: StructuredDocumentTag proprietà. Ottiene il fileBuildingBlockcontenente testo segnaposto che dovrebbe essere visualizzato quando i contenuti dellesecuzione di questo SDT sono vuoti lelemento XML mappato associato è vuoto come specificato tramiteXmlMapping element o ilIsShowingPlaceholderText lelemento èVERO .
 type: docs
 weight: 230
 url: /it/net/aspose.words.markup/structureddocumenttag/placeholder/
 ---
 ## StructuredDocumentTag.Placeholder property
 
-Ottiene il[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock/) contenente testo segnaposto che dovrebbe essere visualizzato quando il contenuto di questa esecuzione SDT è vuoto, l'elemento XML mappato associato è vuoto come specificato tramite[`XmlMapping`](../xmlmapping/) element o il[`IsShowingPlaceholderText`](../isshowingplaceholdertext/) elemento è vero.
+Ottiene il file[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock/)contenente testo segnaposto che dovrebbe essere visualizzato quando i contenuti dell'esecuzione di questo SDT sono vuoti, l'elemento XML mappato associato è vuoto come specificato tramite[`XmlMapping`](../xmlmapping/) element o il[`IsShowingPlaceholderText`](../isshowingplaceholdertext/) l'elemento è`VERO` .
 
 ```csharp
 public BuildingBlock Placeholder { get; }
@@ -16,7 +16,7 @@ public BuildingBlock Placeholder { get; }
 
 ### Osservazioni
 
-Può essere nullo, il che significa che il segnaposto non è applicabile a questo Sdt.
+Può essere`nullo`, il che significa che il segnaposto non è applicabile per questo Sdt.
 
 ### Esempi
 
@@ -25,12 +25,12 @@ Mostra come utilizzare il contenuto di un blocco predefinito come testo segnapos
 ```csharp
 Document doc = new Document();
 
-// Inserisce un tag di documento strutturato in testo normale del tipo "Testo semplice", che fungerà da casella di testo.
-// I contenuti che visualizzerà per impostazione predefinita sono "Fai clic qui per inserire il testo". richiesta.
+// Inserisci un tag di documento strutturato in testo semplice del tipo "PlainText", che funzionerà come una casella di testo.
+// Il contenuto che verrà visualizzato per impostazione predefinita è "Fai clic qui per inserire il testo". richiesta.
 StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Inline);
 
-// Possiamo ottenere il tag per visualizzare il contenuto di un blocco predefinito invece del testo predefinito.
-// Innanzitutto, aggiungi un blocco predefinito con contenuti al documento del glossario.
+// Possiamo fare in modo che il tag visualizzi il contenuto di un blocco predefinito invece del testo predefinito.
+// Innanzitutto, aggiungi un elemento costitutivo con i contenuti al documento glossario.
 GlossaryDocument glossaryDoc = doc.GlossaryDocument;
 
 BuildingBlock substituteBlock = new BuildingBlock(glossaryDoc);
@@ -41,19 +41,19 @@ substituteBlock.FirstSection.Body.AppendParagraph("Custom placeholder text.");
 
 glossaryDoc.AppendChild(substituteBlock);
 
-// Quindi, utilizza la proprietà "PlaceholderName" del tag del documento strutturato per fare riferimento a quel blocco predefinito in base al nome.
+// Quindi, utilizza la proprietà "PlaceholderName" del tag del documento strutturato per fare riferimento a quel blocco predefinito per nome.
 tag.PlaceholderName = "Custom Placeholder";
 
-// Se "PlaceholderName" fa riferimento a un blocco esistente nel documento di glossario del documento principale,
-// saremo in grado di verificare il blocco costitutivo tramite la proprietà "Segnaposto".
+// Se "PlaceholderName" si riferisce a un blocco esistente nel documento glossario del documento principale,
+// saremo in grado di verificare il building block tramite la proprietà "Placeholder".
 Assert.AreEqual(substituteBlock, tag.Placeholder);
 
 // Imposta la proprietà "IsShowingPlaceholderText" su "true" per trattare il
-// Contenuti correnti del tag del documento strutturato come testo segnaposto.
-// Ciò significa che facendo clic sulla casella di testo in Microsoft Word si evidenzierà immediatamente tutto il contenuto del tag.
+// contenuto corrente del tag del documento strutturato come testo segnaposto.
+// Ciò significa che facendo clic sulla casella di testo in Microsoft Word verranno immediatamente evidenziati tutti i contenuti del tag.
 // Imposta la proprietà "IsShowingPlaceholderText" su "false" per ottenere il file
-// tag del documento strutturato per trattare il suo contenuto come testo che un utente ha già inserito.
-// Facendo clic su questo testo in Microsoft Word, il cursore lampeggiante verrà posizionato nella posizione in cui si è fatto clic.
+// tag di documento strutturato per trattarne il contenuto come testo già inserito da un utente.
+// Facendo clic su questo testo in Microsoft Word si posizionerà il cursore lampeggiante nella posizione cliccata.
 tag.IsShowingPlaceholderText = isShowingPlaceholderText;
 
 DocumentBuilder builder = new DocumentBuilder(doc);

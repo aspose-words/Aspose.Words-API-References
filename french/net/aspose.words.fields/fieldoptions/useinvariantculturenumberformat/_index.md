@@ -1,14 +1,14 @@
 ---
 title: FieldOptions.UseInvariantCultureNumberFormat
 second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldOptions propriété. Obtient ou définit la valeur indiquant que le format numérique est analysé à laide dune culture invariante ou non
+description: FieldOptions propriété. Obtient ou définit la valeur indiquant que le format numérique est analysé à laide dune culture invariante ou not
 type: docs
-weight: 190
+weight: 210
 url: /fr/net/aspose.words.fields/fieldoptions/useinvariantculturenumberformat/
 ---
 ## FieldOptions.UseInvariantCultureNumberFormat property
 
-Obtient ou définit la valeur indiquant que le format numérique est analysé à l'aide d'une culture invariante ou non
+Obtient ou définit la valeur indiquant que le format numérique est analysé à l'aide d'une culture invariante ou not
 
 ```csharp
 public bool UseInvariantCultureNumberFormat { get; set; }
@@ -16,15 +16,15 @@ public bool UseInvariantCultureNumberFormat { get; set; }
 
 ### Remarques
 
-Lorsque cette propriété est définie sur **vrai** , le format numérique est tiré d'une culture invariante.
+Lorsque cette propriété est définie sur`vrai` , le format numérique est issu d'une culture invariante.
 
-Lorsque cette propriété est définie sur **faux** le format numérique est extrait de la culture du thread actuel.
+Lorsque cette propriété est définie sur`FAUX` , le format numérique est issu de la culture du fil de discussion actuel.
 
-La valeur par défaut est **faux**.
+La valeur par défaut est`FAUX`.
 
 ### Exemples
 
-Montre comment mettre en forme des nombres en fonction de la culture invariante.
+Montre comment formater les nombres en fonction de la culture invariante.
 
 ```csharp
 Document doc = new Document();
@@ -34,14 +34,14 @@ Thread.CurrentThread.CurrentCulture = new CultureInfo("de-DE");
 Field field = builder.InsertField(" = 1234567,89 \\# $#,###,###.##");
 field.Update();
 
-// Parfois, les champs peuvent ne pas formater correctement leurs nombres dans certaines cultures. 
+ // Parfois, les champs peuvent ne pas formater correctement leurs numéros dans certaines cultures.
 Assert.IsFalse(doc.FieldOptions.UseInvariantCultureNumberFormat);
 Assert.AreEqual("$1234567,89 .     ", field.Result);
 
-// Pour résoudre ce problème, nous pourrions changer la culture de l'ensemble du thread.
-// Une autre façon de résoudre ce problème est de définir ce drapeau,
+// Pour résoudre ce problème, nous pourrions changer la culture de l'ensemble du fil de discussion.
+// Une autre façon de résoudre ce problème est de définir cet indicateur,
 // qui permet à tous les champs d'utiliser la culture invariante lors du formatage des nombres.
-// Cette méthode nous permet d'éviter de modifier la culture de l'ensemble du thread.
+// Cette façon nous permet d'éviter de changer la culture pour l'ensemble du fil.
 doc.FieldOptions.UseInvariantCultureNumberFormat = true;
 field.Update();
 Assert.AreEqual("$1.234.567,89", field.Result);

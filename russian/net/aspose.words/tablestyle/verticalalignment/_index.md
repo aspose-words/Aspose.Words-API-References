@@ -1,14 +1,14 @@
 ---
 title: TableStyle.VerticalAlignment
 second_title: Справочник по API Aspose.Words для .NET
-description: TableStyle свойство. Указывает вертикальное выравнивание ячеек.
+description: TableStyle свойство. Определяет вертикальное выравнивание ячеек.
 type: docs
 weight: 150
 url: /ru/net/aspose.words/tablestyle/verticalalignment/
 ---
 ## TableStyle.VerticalAlignment property
 
-Указывает вертикальное выравнивание ячеек.
+Определяет вертикальное выравнивание ячеек.
 
 ```csharp
 public CellVerticalAlignment VerticalAlignment { get; set; }
@@ -20,7 +20,7 @@ public CellVerticalAlignment VerticalAlignment { get; set; }
 
 ### Примеры
 
-Показывает, как создавать пользовательские настройки стиля для таблицы.
+Показывает, как создать пользовательские настройки стиля для таблицы.
 
 ```csharp
 Document doc = new Document();

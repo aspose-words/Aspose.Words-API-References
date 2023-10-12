@@ -21,9 +21,10 @@ public StructuredDocumentTagRangeEnd(DocumentBase doc, int id)
 
 ### Esempi
 
-Mostra come creare/rimuovere tag di documenti strutturati e il relativo contenuto.
+Mostra come creare/rimuovere il tag del documento strutturato e il suo contenuto.
 
 ```csharp
+public void SdtRangeExtendedMethods()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -32,7 +33,7 @@ Mostra come creare/rimuovere tag di documenti strutturati e il relativo contenut
 
     InsertStructuredDocumentTagRanges(doc, out StructuredDocumentTagRangeStart rangeStart);
 
-    // Rimuove il tag del documento strutturato a intervalli, ma mantiene il contenuto all'interno.
+    // Rimuove il tag del documento strutturato con intervalli, ma mantiene il contenuto all'interno.
     rangeStart.RemoveSelfOnly();
 
     rangeStart = (StructuredDocumentTagRangeStart)doc.GetChild(
@@ -50,7 +51,7 @@ Mostra come creare/rimuovere tag di documenti strutturati e il relativo contenut
     Node paragraphNode = rangeStart.LastOrDefault();
     Assert.AreEqual("StructuredDocumentTag element", paragraphNode?.GetText().Trim());
 
-    // Rimuove il tag del documento strutturato a intervalli e il contenuto all'interno.
+    // Rimuove il tag del documento strutturato con intervalli e il contenuto all'interno.
     rangeStart.RemoveAllChildren();
 
     paragraphNode = rangeStart.LastOrDefault();

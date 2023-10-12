@@ -3,12 +3,14 @@ title: Class BookmarksOutlineLevelCollection
 second_title: Aspose.Words per .NET API Reference
 description: Aspose.Words.Saving.BookmarksOutlineLevelCollection classe. Una raccolta di singoli segnalibri a livello di struttura.
 type: docs
-weight: 4590
+weight: 4850
 url: /it/net/aspose.words.saving/bookmarksoutlinelevelcollection/
 ---
 ## BookmarksOutlineLevelCollection class
 
 Una raccolta di singoli segnalibri a livello di struttura.
+
+Per saperne di più, visita il[Lavorare con i segnalibri](https://docs.aspose.com/words/net/working-with-bookmarks/) articolo di documentazione.
 
 ```csharp
 public class BookmarksOutlineLevelCollection : IEnumerable<KeyValuePair<string, int>>
@@ -34,16 +36,16 @@ public class BookmarksOutlineLevelCollection : IEnumerable<KeyValuePair<string, 
 | [Add](../../aspose.words.saving/bookmarksoutlinelevelcollection/add/)(string, int) | Aggiunge un segnalibro alla raccolta. |
 | [Clear](../../aspose.words.saving/bookmarksoutlinelevelcollection/clear/)() | Rimuove tutti gli elementi dalla raccolta. |
 | [Contains](../../aspose.words.saving/bookmarksoutlinelevelcollection/contains/)(string) | Determina se la raccolta contiene un segnalibro con il nome specificato. |
-| [GetEnumerator](../../aspose.words.saving/bookmarksoutlinelevelcollection/getenumerator/)() |  |
+| [GetEnumerator](../../aspose.words.saving/bookmarksoutlinelevelcollection/getenumerator/)() | Restituisce un oggetto enumeratore che può essere utilizzato per scorrere tutti gli elementi della raccolta. |
 | [IndexOfKey](../../aspose.words.saving/bookmarksoutlinelevelcollection/indexofkey/)(string) | Restituisce l'indice in base zero del segnalibro specificato nella raccolta. |
 | [Remove](../../aspose.words.saving/bookmarksoutlinelevelcollection/remove/)(string) | Rimuove un segnalibro con il nome specificato dalla raccolta. |
-| [RemoveAt](../../aspose.words.saving/bookmarksoutlinelevelcollection/removeat/)(int) | Rimuove un segnalibro nell'indice specificato. |
+| [RemoveAt](../../aspose.words.saving/bookmarksoutlinelevelcollection/removeat/)(int) | Rimuove un segnalibro all'indice specificato. |
 
 ### Osservazioni
 
-La chiave è un nome di segnalibro stringa senza distinzione tra maiuscole e minuscole. Il valore è un livello di struttura del segnalibro int.
+Key è un nome di segnalibro stringa senza distinzione tra maiuscole e minuscole. Il valore è un livello di struttura del segnalibro int.
 
-Il livello della struttura del segnalibro può essere un valore compreso tra 0 e 9. Specificare 0 e il segnalibro di Word non verrà visualizzato nella struttura del documento. Specificare 1 e il segnalibro di Word verrà visualizzato nella struttura del documento al livello 1; 2 per il livello 2 e così via.
+Il livello della struttura del segnalibro può essere un valore compreso tra 0 e 9. Specifica 0 e il segnalibro di Word non verrà visualizzato nella struttura del documento. Specifica 1 e il segnalibro di Word verrà visualizzato nella struttura del documento al livello 1; 2 per il livello 2 e così via.
 
 ### Esempi
 
@@ -53,7 +55,7 @@ Mostra come impostare i livelli di struttura per i segnalibri.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inserisce un segnalibro con un altro segnalibro nidificato al suo interno.
+// Inserisci un segnalibro con un altro segnalibro nidificato al suo interno.
 builder.StartBookmark("Bookmark 1");
 builder.Writeln("Text inside Bookmark 1.");
 
@@ -71,7 +73,7 @@ builder.EndBookmark("Bookmark 3");
 
 // Quando si salva in .pdf, è possibile accedere ai segnalibri tramite un menu a discesa e utilizzarli come ancoraggi dalla maggior parte dei lettori.
 // I segnalibri possono anche avere valori numerici per i livelli di struttura,
-// abilita le voci della struttura di livello inferiore per nascondere le voci secondarie di livello superiore quando vengono compresse nel lettore.
+// abilita le voci di struttura di livello inferiore per nascondere le voci secondarie di livello superiore quando vengono compresse nel lettore.
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 BookmarksOutlineLevelCollection outlineLevels = pdfSaveOptions.OutlineOptions.BookmarksOutlineLevels;
 
@@ -89,7 +91,7 @@ Assert.AreEqual(2, outlineLevels.IndexOfKey("Bookmark 3"));
 outlineLevels.RemoveAt(2);
 outlineLevels.Remove("Bookmark 2");
 
-// Ci sono nove livelli di struttura. La loro numerazione sarà ottimizzata durante l'operazione di salvataggio.
+// Ci sono nove livelli di struttura. La loro numerazione verrà ottimizzata durante l'operazione di salvataggio.
 // In questo caso, i livelli "5" e "9" diventeranno "2" e "3".
 outlineLevels.Add("Bookmark 2", 5);
 outlineLevels.Add("Bookmark 3", 9);

@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.DoNotAutofitConstrainedTables
 second_title: Referencia de API de Aspose.Words para .NET
-description: CompatibilityOptions propiedad. No autoajustar las tablas para que encajen junto a los objetos envueltos.
+description: CompatibilityOptions propiedad. No ajuste automáticamente las tablas para que encajen junto a los objetos envueltos.
 type: docs
 weight: 120
 url: /es/net/aspose.words.settings/compatibilityoptions/donotautofitconstrainedtables/
 ---
 ## CompatibilityOptions.DoNotAutofitConstrainedTables property
 
-No autoajustar las tablas para que encajen junto a los objetos envueltos.
+No ajuste automáticamente las tablas para que encajen junto a los objetos envueltos.
 
 ```csharp
 public bool DoNotAutofitConstrainedTables { get; set; }

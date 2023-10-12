@@ -1,14 +1,14 @@
 ---
 title: Enum ShapeLineStyle
 second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Drawing.ShapeLineStyle enum. Specifica lo stile della linea composta di aShape .
+description: Aspose.Words.Drawing.ShapeLineStyle enum. Specifica lo stile di linea composto di aShape .
 type: docs
-weight: 1120
+weight: 1270
 url: /it/net/aspose.words.drawing/shapelinestyle/
 ---
 ## ShapeLineStyle enumeration
 
-Specifica lo stile della linea composta di a[`Shape`](../shape/) .
+Specifica lo stile di linea composto di a[`Shape`](../shape/) .
 
 ```csharp
 public enum ShapeLineStyle
@@ -19,10 +19,10 @@ public enum ShapeLineStyle
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
 | Single | `0` | Riga singola. |
-| Double | `1` | Linee doppie di uguale larghezza. |
-| ThickThin | `2` | Linee doppie, una spessa, una sottile. |
-| ThinThick | `3` | Linee doppie, una sottile, una spessa. |
-| Triple | `4` | Tre linee, sottili, spesse, sottili. |
+| Double | `1` | Doppie linee di uguale larghezza. |
+| ThickThin | `2` | Doppie linee, una spessa, una sottile. |
+| ThinThick | `3` | Doppie linee, una sottile, una spessa. |
+| Triple | `4` | Tre linee, sottile, spessa, sottile. |
 | Default | `0` | Il valore predefinito èSingle . |
 
 ### Esempi
@@ -50,6 +50,7 @@ stroke.DashStyle = DashStyle.ShortDashDotDot;
 stroke.JoinStyle = JoinStyle.Miter;
 stroke.EndCap = EndCap.Square;
 stroke.LineStyle = ShapeLineStyle.Triple;
+stroke.Fill.TwoColorGradient(Color.Red, Color.Blue, GradientStyle.Vertical, GradientVariant.Variant1);
 
 doc.Save(ArtifactsDir + "Shape.Stroke.docx");
 ```

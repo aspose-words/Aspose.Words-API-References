@@ -1,14 +1,14 @@
 ---
 title: LoadOptions.UpdateDirtyFields
 second_title: Aspose.Words for .NET API 参考
-description: LoadOptions 财产. 指定是否使用肮脏的属性.
+description: LoadOptions 财产. 指定是否更新字段肮脏的属性.
 type: docs
 weight: 160
 url: /zh/net/aspose.words.loading/loadoptions/updatedirtyfields/
 ---
 ## LoadOptions.UpdateDirtyFields property
 
-指定是否使用`肮脏的`属性.
+指定是否更新字段`肮脏的`属性.
 
 ```csharp
 public bool UpdateDirtyFields { get; set; }
@@ -22,7 +22,7 @@ public bool UpdateDirtyFields { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 给文档的内置“Author”属性值，然后用字段显示。
+// 给出文档的内置“Author”属性值，然后用字段显示它。
 doc.BuiltInDocumentProperties.Author = "John Doe";
 FieldAuthor field = (FieldAuthor)builder.InsertField(FieldType.FieldAuthor, true);
 
@@ -34,14 +34,14 @@ doc.BuiltInDocumentProperties.Author = "John & Jane Doe";
 
 Assert.AreEqual("John Doe", field.Result);
 
-// 由于该字段的值已过期，我们可以将其标记为“脏”。
-// 在我们使用 Field.Update() 方法手动更新字段之前，该值将保持过期。
+// 由于该字段的值已过时，我们可以将其标记为“脏”。
+// 在我们使用 Field.Update() 方法手动更新字段之前，该值将保持过时状态。
 field.IsDirty = true;
 
 using (MemoryStream docStream = new MemoryStream())
 {
-    // 如果我们在不调用更新方法的情况下保存，
-    // 该字段将继续在输出文档中显示过期值。
+    // 如果我们保存而不调用更新方法，
+    // 该字段将在输出文档中继续显示过期值。
     doc.Save(docStream, SaveFormat.Docx);
 
     // LoadOptions 对象有一个更新所有字段的选项

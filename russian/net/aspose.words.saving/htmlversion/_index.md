@@ -3,7 +3,7 @@ title: Enum HtmlVersion
 second_title: Справочник по API Aspose.Words для .NET
 description: Aspose.Words.Saving.HtmlVersion перечисление. Указывает версию HTML используемую при сохранении документа вHtml и Mhtml форматы.
 type: docs
-weight: 4860
+weight: 5120
 url: /ru/net/aspose.words.saving/htmlversion/
 ---
 ## HtmlVersion enumeration
@@ -40,7 +40,7 @@ HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html)
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.ExportXhtmlTransitional.html", options);
 
-// Наш документ будет содержать заголовок объявления DOCTYPE, только если мы установили флаг "ExportXhtmlTransitional" в значение "true".
+// Наш документ будет содержать заголовок объявления DOCTYPE только в том случае, если мы установили флаг «ExportXhtmlTransitional» в значение «true».
 string outDocContents = File.ReadAllText(ArtifactsDir + "HtmlSaveOptions.ExportXhtmlTransitional.html");
 
 if (showDoctypeDeclaration)
@@ -65,7 +65,7 @@ HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html)
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.HtmlVersions.html", options);
 
-// Наши HTML-документы будут иметь незначительные отличия, чтобы быть совместимыми с разными версиями HTML.
+// Наши HTML-документы будут иметь незначительные различия, чтобы быть совместимыми с разными версиями HTML.
 string outDocContents = File.ReadAllText(ArtifactsDir + "HtmlSaveOptions.HtmlVersions.html");
 
 switch (htmlVersion)

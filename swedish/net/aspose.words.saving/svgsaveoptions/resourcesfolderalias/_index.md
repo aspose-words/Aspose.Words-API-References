@@ -16,7 +16,7 @@ public string ResourcesFolderAlias { get; set; }
 
 ### Anmärkningar
 
-När du sparar en[`Document`](../../../aspose.words/document/) SVG-format måste Aspose.Words spara alla -bilder som är inbäddade i dokumentet som fristående filer.[`ResourcesFolder`](../resourcesfolder/) låter dig ange var bilderna ska sparas och`ResourcesFolderAlias` tillåter att specificera hur bildens URI:er kommer att konstrueras.
+När du sparar en[`Document`](../../../aspose.words/document/) i SVG-format måste Aspose.Words spara all bilder som är inbäddade i dokumentet som fristående filer.[`ResourcesFolder`](../resourcesfolder/) låter dig ange var bilderna ska sparas och`ResourcesFolderAlias` tillåter att specificera hur bildens URI:er kommer att konstrueras.
 
 ### Exempel
 

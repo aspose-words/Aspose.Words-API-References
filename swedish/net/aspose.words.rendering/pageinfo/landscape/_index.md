@@ -1,14 +1,14 @@
 ---
 title: PageInfo.Landscape
 second_title: Aspose.Words för .NET API Referens
-description: PageInfo fast egendom. Returnerar sant om sidorienteringen som anges i dokumentet för den här sidan är liggande.
+description: PageInfo fast egendom. ReturnerarSann om sidorienteringen som anges i dokumentet för den här sidan är liggande.
 type: docs
-weight: 20
+weight: 30
 url: /sv/net/aspose.words.rendering/pageinfo/landscape/
 ---
 ## PageInfo.Landscape property
 
-Returnerar sant om sidorienteringen som anges i dokumentet för den här sidan är liggande.
+Returnerar`Sann` om sidorienteringen som anges i dokumentet för den här sidan är liggande.
 
 ```csharp
 public bool Landscape { get; }
@@ -99,14 +99,14 @@ public class MyPrintDocument : PrintDocument
     }
 
     /// <summary>
-    /// Anropas innan varje sida skrivs ut. 
+     /// Anropas innan varje sida skrivs ut.
     /// </summary>
     protected override void OnQueryPageSettings(QueryPageSettingsEventArgs e)
     {
         base.OnQueryPageSettings(e);
 
-        // Ett enda Microsoft Word-dokument kan ha flera avsnitt som anger sidor med olika storlekar, 
-        // orienteringar och pappersfack. .NET-utskriftsramverket anropar denna kod tidigare 
+         // Ett enda Microsoft Word-dokument kan ha flera avsnitt som anger sidor med olika storlekar,
+         // orienteringar och pappersfack. .NET-utskriftsramverket anropar denna kod tidigare
         // varje sida skrivs ut, vilket ger oss en chans att specificera hur den aktuella sidan ska skrivas ut.
         PageInfo pageInfo = mDocument.GetPageInfo(mCurrentPage - 1);
         e.PageSettings.PaperSize = pageInfo.GetDotNetPaperSize(PrinterSettings.PaperSizes);
@@ -118,7 +118,7 @@ public class MyPrintDocument : PrintDocument
     }
 
     /// <summary>
-    /// Kallas för varje sida för att göra den för utskrift. 
+     /// Kallas för varje sida för att göra den för utskrift.
     /// </summary>
     protected override void OnPrintPage(PrintPageEventArgs e)
     {

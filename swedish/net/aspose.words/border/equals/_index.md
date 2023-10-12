@@ -3,7 +3,7 @@ title: Border.Equals
 second_title: Aspose.Words för .NET API Referens
 description: Border metod. Bestämmer om den angivna gränsen är lika i värde med den aktuella gränsen.
 type: docs
-weight: 80
+weight: 100
 url: /sv/net/aspose.words/border/equals/
 ---
 ## Equals(Border) {#equals}
@@ -29,7 +29,6 @@ builder.Write("Paragraph 2.");
 // dessa stycken, deras gränssamlingar delar samma element.
 BorderCollection firstParagraphBorders = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Borders;
 BorderCollection secondParagraphBorders = builder.CurrentParagraph.ParagraphFormat.Borders;
-
 for (int i = 0; i < firstParagraphBorders.Count; i++)
 {
     Assert.IsTrue(firstParagraphBorders[i].Equals(secondParagraphBorders[i]));
@@ -85,7 +84,6 @@ builder.Write("Paragraph 2.");
 // dessa stycken, deras gränssamlingar delar samma element.
 BorderCollection firstParagraphBorders = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Borders;
 BorderCollection secondParagraphBorders = builder.CurrentParagraph.ParagraphFormat.Borders;
-
 for (int i = 0; i < firstParagraphBorders.Count; i++)
 {
     Assert.IsTrue(firstParagraphBorders[i].Equals(secondParagraphBorders[i]));

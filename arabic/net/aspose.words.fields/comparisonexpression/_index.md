@@ -1,14 +1,16 @@
 ---
 title: Class ComparisonExpression
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fields.ComparisonExpression فصل. تعبير المقارنة .
+description: Aspose.Words.Fields.ComparisonExpression فصل. تعبير المقارنة.
 type: docs
-weight: 1340
+weight: 1490
 url: /ar/net/aspose.words.fields/comparisonexpression/
 ---
 ## ComparisonExpression class
 
-تعبير المقارنة .
+تعبير المقارنة.
+
+لمعرفة المزيد، قم بزيارة[العمل مع الحقول](https://docs.aspose.com/words/net/working-with-fields/) مقالة توثيقية.
 
 ```csharp
 public sealed class ComparisonExpression
@@ -18,13 +20,13 @@ public sealed class ComparisonExpression
 
 | اسم | وصف |
 | --- | --- |
-| [ComparisonOperator](../../aspose.words.fields/comparisonexpression/comparisonoperator/) { get; } | يحصل على عامل المقارنة . |
-| [LeftExpression](../../aspose.words.fields/comparisonexpression/leftexpression/) { get; } | يحصل على التعبير الأيسر . |
-| [RightExpression](../../aspose.words.fields/comparisonexpression/rightexpression/) { get; } | الحصول على التعبير الصحيح . |
+| [ComparisonOperator](../../aspose.words.fields/comparisonexpression/comparisonoperator/) { get; } | الحصول على عامل المقارنة. |
+| [LeftExpression](../../aspose.words.fields/comparisonexpression/leftexpression/) { get; } | يحصل على التعبير الأيسر. |
+| [RightExpression](../../aspose.words.fields/comparisonexpression/rightexpression/) { get; } | الحصول على التعبير الصحيح. |
 
 ### أمثلة
 
-يوضح كيفية تنفيذ التقييم المخصص لحقلي IF و COMPARE.
+يوضح كيفية تنفيذ التقييم المخصص لحقول IF وCOMPARE.
 
 ```csharp
 public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparisonResult, string comparisonError,
@@ -36,12 +38,12 @@ public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparison
 
     DocumentBuilder builder = new DocumentBuilder();
 
-    // أكواد الحقول التي نستخدمها في هذا المثال:
-    // 1. "إذا {0} {1} {2} \" وسيطة صحيحة \ "\" وسيطة خاطئة \ "".
-    // 2. "قارن {0} {1} {2}".
+    // رموز الحقول التي نستخدمها في هذا المثال:
+    // 1. " IF {0} {1} {2} \"الوسيطة الحقيقية\" \"الوسيطة الخاطئة\" ".
+    // 2. " قارن {0} {1} {2}".
     Field field = builder.InsertField(string.Format(fieldCode, left, @operator, right), null);
 
-    // إذا كانت "ComparisonEvaluationResult" غير محددة ، فإننا ننشئ "ComparisonEvaluationResult" بسلسلة بدلاً من منطقي.
+    // إذا كانت "comparisonResult" غير محددة، فإننا ننشئ "ComparisonEvaluationResult" بسلسلة بدلاً من bool.
     ComparisonEvaluationResult result = comparisonResult != -1
         ? new ComparisonEvaluationResult(comparisonResult == 1)
         : comparisonError != null ? new ComparisonEvaluationResult(comparisonError) : null;

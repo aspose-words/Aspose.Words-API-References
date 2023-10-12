@@ -1,14 +1,14 @@
 ---
 title: PageInfo.Landscape
 second_title: Referencia de API de Aspose.Words para .NET
-description: PageInfo propiedad. Devuelve verdadero si la orientación de la página especificada en el documento para esta página es horizontal.
+description: PageInfo propiedad. Devolucionesverdadero si la orientación de la página especificada en el documento para esta página es horizontal.
 type: docs
-weight: 20
+weight: 30
 url: /es/net/aspose.words.rendering/pageinfo/landscape/
 ---
 ## PageInfo.Landscape property
 
-Devuelve verdadero si la orientación de la página especificada en el documento para esta página es horizontal.
+Devoluciones`verdadero` si la orientación de la página especificada en el documento para esta página es horizontal.
 
 ```csharp
 public bool Landscape { get; }
@@ -16,12 +16,12 @@ public bool Landscape { get; }
 
 ### Ejemplos
 
-Muestra cómo imprimir información sobre el tamaño y la orientación de la página para cada página de un documento de Word.
+Muestra cómo imprimir información sobre el tamaño y la orientación de cada página de un documento de Word.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// La primera sección tiene 2 páginas. Asignaremos una bandeja de papel de impresora diferente a cada uno,
+// La primera sección tiene 2 páginas. A cada una le asignaremos una bandeja de papel de impresora diferente,
 // cuyo número coincidirá con un tipo de fuente de papel. Estas fuentes y sus tipos variarán
 // dependiendo del controlador de impresora instalado.
 PrinterSettings.PaperSourceCollection paperSources = new PrinterSettings().PaperSources;
@@ -46,7 +46,7 @@ for (int i = 0; i < doc.PageCount; i++)
     Console.WriteLine($"\tSize in points:\t{pageInfo.SizeInPoints}");
     Console.WriteLine($"\tSize in pixels:\t{pageInfo.GetSizeInPixels(1.0f, 96)} at {scale * 100}% scale, {dpi} dpi");
 
-    // Imprimir la información de la bandeja de origen.
+    // Imprime la información de la bandeja de origen.
     Console.WriteLine($"\tTray:\t{pageInfo.PaperTray}");
     PaperSource source = pageInfo.GetSpecifiedPrinterPaperSource(paperSources, paperSources[0]);
     Console.WriteLine($"\tSuitable print source:\t{source.SourceName}, kind: {source.Kind}");
@@ -67,7 +67,7 @@ Document doc = new Document(MyDir + "Rendering.docx");
 }
 
 /// <summary>
-/// Selecciona un tamaño de papel, una orientación y una bandeja de papel apropiados al imprimir.
+/// Selecciona el tamaño de papel, la orientación y la bandeja de papel adecuados al imprimir.
 /// </summary>
 public class MyPrintDocument : PrintDocument
 {
@@ -99,36 +99,36 @@ public class MyPrintDocument : PrintDocument
     }
 
     /// <summary>
-    /// Se llama antes de que se imprima cada página. 
+     /// Llamado antes de imprimir cada página.
     /// </summary>
     protected override void OnQueryPageSettings(QueryPageSettingsEventArgs e)
     {
         base.OnQueryPageSettings(e);
 
-        // Un solo documento de Microsoft Word puede tener múltiples secciones que especifican páginas con diferentes tamaños, 
-        // orientaciones y bandejas de papel. El framework de impresión .NET llama a este código antes 
+         // Un único documento de Microsoft Word puede tener varias secciones que especifican páginas con diferentes tamaños,
+         // orientaciones y bandejas de papel. El marco de impresión .NET llama a este código antes
         // se imprime cada página, lo que nos da la oportunidad de especificar cómo imprimir la página actual.
         PageInfo pageInfo = mDocument.GetPageInfo(mCurrentPage - 1);
         e.PageSettings.PaperSize = pageInfo.GetDotNetPaperSize(PrinterSettings.PaperSizes);
 
         // Microsoft Word almacena el origen del papel (bandeja de la impresora) para cada sección como un valor específico de la impresora.
-        // Para obtener el valor correcto de la bandeja, deberá utilizar la propiedad "RawKind", que debe devolver su impresora.
+        // Para obtener el valor de bandeja correcto, deberá utilizar la propiedad "RawKind", que debería devolver su impresora.
         e.PageSettings.PaperSource.RawKind = pageInfo.PaperTray;
         e.PageSettings.Landscape = pageInfo.Landscape;
     }
 
     /// <summary>
-    /// Llamado para que cada página la renderice para su impresión. 
+     /// Llamado para que cada página se muestre para su impresión.
     /// </summary>
     protected override void OnPrintPage(PrintPageEventArgs e)
     {
         base.OnPrintPage(e);
 
-        // El motor de renderizado Aspose.Words crea una página dibujada desde el origen (x = 0, y = 0) del papel.
-        // Habrá un margen duro en la impresora, que representará cada página. Necesitamos compensar por ese margen duro.
+        // El motor de renderizado Aspose.Words crea una página extraída del origen (x = 0, y = 0) del documento.
+        // Habrá un margen estricto en la impresora, que representará cada página. Necesitamos compensar con ese duro margen.
         float hardOffsetX, hardOffsetY;
 
-        // A continuación se muestran dos formas de establecer un margen rígido.
+        // A continuación se muestran dos formas de establecer un margen estricto.
         if (e.PageSettings != null && e.PageSettings.HardMarginX != 0 && e.PageSettings.HardMarginY != 0)
         {
             // 1 - A través de la propiedad "PageSettings".

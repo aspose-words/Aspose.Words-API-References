@@ -1,14 +1,14 @@
 ---
 title: DocSaveOptions.AlwaysCompressMetafiles
 second_title: Aspose.Words för .NET API Referens
-description: DocSaveOptions fast egendom. Närfalsk  små metafiler komprimeras inte av prestandaskäl. Standardvärdet är Sann  alla metafiler komprimeras oavsett storlek.
+description: DocSaveOptions fast egendom. Närfalsk  små metafiler komprimeras inte av prestandaskäl. Standardvärdet ärSann  alla metafiler komprimeras oavsett storlek.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.saving/docsaveoptions/alwayscompressmetafiles/
 ---
 ## DocSaveOptions.AlwaysCompressMetafiles property
 
-När`falsk` , små metafiler komprimeras inte av prestandaskäl. Standardvärdet är **Sann** , alla metafiler komprimeras oavsett storlek.
+När`falsk` , små metafiler komprimeras inte av prestandaskäl. Standardvärdet är`Sann` , alla metafiler komprimeras oavsett storlek.
 
 ```csharp
 public bool AlwaysCompressMetafiles { get; set; }

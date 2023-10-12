@@ -1,14 +1,14 @@
 ---
 title: Shape.Chart
 second_title: Aspose.Words per .NET API Reference
-description: Shape proprietà. Fornisce laccesso alle proprietà del grafico se questa forma ha un grafico.
+description: Shape proprietà. Fornisce laccesso alle proprietà del grafico se questa forma ha unChart .
 type: docs
 weight: 20
 url: /it/net/aspose.words.drawing/shape/chart/
 ---
 ## Shape.Chart property
 
-Fornisce l'accesso alle proprietà del grafico se questa forma ha un grafico.
+Fornisce l'accesso alle proprietà del grafico se questa forma ha un[`Chart`](../../../aspose.words.drawing.charts/chart/) .
 
 ```csharp
 public Chart Chart { get; }
@@ -16,13 +16,14 @@ public Chart Chart { get; }
 
 ### Osservazioni
 
-Questa proprietà restituirà il`Chart` oggetto solo se[`HasChart`](../haschart/) La proprietà è vera per questa forma e in caso contrario genererà un'eccezione.
+Questa proprietà restituirà il file[`Chart`](../../../aspose.words.drawing.charts/chart/) oggetto solo se[`HasChart`](../haschart/) La proprietà è`VERO` per questo[`Shape`](../)altrimenti genererà un'eccezione.
 
 ### Esempi
 
 Mostra come scorrere tutte le forme in un documento.
 
 ```csharp
+public void VisitShapes()
 {
     Document doc = new Document(MyDir + "Revision shape.docx");
     ShapeAppearancePrinter visitor = new ShapeAppearancePrinter();

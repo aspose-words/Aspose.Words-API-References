@@ -1,14 +1,14 @@
 ---
 title: Font.ThemeColor
 second_title: Referencia de API de Aspose.Words para .NET
-description: Font propiedad. Obtiene o establece el color del tema en el esquema de color aplicado asociado con este objeto Font.
+description: Font propiedad. Obtiene o establece el color del tema en el esquema de color aplicado asociado con esteFont objeto.
 type: docs
 weight: 460
 url: /es/net/aspose.words/font/themecolor/
 ---
 ## Font.ThemeColor property
 
-Obtiene o establece el color del tema en el esquema de color aplicado asociado con este objeto Font.
+Obtiene o establece el color del tema en el esquema de color aplicado asociado con este[`Font`](../) objeto.
 
 ```csharp
 public ThemeColor ThemeColor { get; set; }
@@ -16,7 +16,7 @@ public ThemeColor ThemeColor { get; set; }
 
 ### Ejemplos
 
-Muestra cómo crear y utilizar un estilo temático.
+Muestra cómo crear y utilizar estilos temáticos.
 
 ```csharp
 Document doc = new Document();
@@ -24,7 +24,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln();
 
-// Crea un estilo con las propiedades de la fuente del tema.
+// Crea algún estilo con las propiedades de fuente del tema.
 Style style = doc.Styles.Add(StyleType.Paragraph, "ThemedStyle");
 style.Font.ThemeFont = ThemeFont.Major;
 style.Font.ThemeColor = ThemeColor.Accent5;
@@ -34,12 +34,12 @@ builder.ParagraphFormat.StyleName = "ThemedStyle";
 builder.Writeln("Text with themed style");
 ```
 
-Muestra cómo trabajar con fuentes y colores temáticos.
+Muestra cómo trabajar con fuentes y colores de temas.
 
 ```csharp
 Document doc = new Document();
 
-// Definir fuentes para usos de idiomas por defecto.
+// Definir fuentes para los idiomas utilizados de forma predeterminada.
 doc.Theme.MinorFonts.Latin = "Algerian";
 doc.Theme.MinorFonts.EastAsian = "Aharoni";
 doc.Theme.MinorFonts.ComplexScript = "Andalus";
@@ -92,7 +92,7 @@ Assert.AreEqual("Algerian", font.NameOther);
 Assert.AreEqual(ThemeColor.None, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
-// 2 - Al establecer nombres de fuentes/colores que no sean del tema:
+// 2 - Configurando nombres de fuentes/colores que no sean temas:
 font.Name = "Arial";
 font.Color = Color.Blue;
 

@@ -16,7 +16,7 @@ public bool InsertHyperlink { get; set; }
 
 ### Esempi
 
-Mostra per inserire i campi NOTEREF e modificarne l'aspetto.
+Mostra per inserire campi NOTEREF e modificarne l'aspetto.
 
 ```csharp
 public void FieldNoteRef()
@@ -28,16 +28,16 @@ public void FieldNoteRef()
     InsertBookmarkWithFootnote(builder, "MyBookmark1", "Contents of MyBookmark1", "Footnote from MyBookmark1");
 
     // Questo campo NOTEREF visualizzerà il numero della nota a piè di pagina all'interno del segnalibro di riferimento.
-    // L'impostazione della proprietà InsertHyperlink ci consente di passare al segnalibro premendo Ctrl + facendo clic sul campo in Microsoft Word.
+    // L'impostazione della proprietà InsertHyperlink ci consente di passare al segnalibro facendo Ctrl + facendo clic sul campo in Microsoft Word.
     Assert.AreEqual(" NOTEREF  MyBookmark2 \\h",
         InsertFieldNoteRef(builder, "MyBookmark2", true, false, false, "Hyperlink to Bookmark2, with footnote number ").GetFieldCode());
 
     // Quando si utilizza il flag \p, dopo il numero della nota a piè di pagina, il campo visualizza anche la posizione del segnalibro rispetto al campo.
-    // Bookmark1 è sopra questo campo e contiene la nota numero 1, quindi il risultato sarà "1 above" durante l'aggiornamento.
+    // Bookmark1 si trova sopra questo campo e contiene la nota a piè di pagina numero 1, quindi il risultato sarà "1 sopra" durante l'aggiornamento.
     Assert.AreEqual(" NOTEREF  MyBookmark1 \\h \\p",
         InsertFieldNoteRef(builder, "MyBookmark1", true, true, false, "Bookmark1, with footnote number ").GetFieldCode());
 
-    // Bookmark2 è sotto questo campo e contiene la nota numero 2, quindi il campo visualizzerà "2 below".
+    // Bookmark2 si trova sotto questo campo e contiene la nota a piè di pagina numero 2, quindi il campo visualizzerà "2 sotto".
     // Il flag \f fa apparire il numero 2 nello stesso formato dell'etichetta del numero della nota a piè di pagina nel testo effettivo.
     Assert.AreEqual(" NOTEREF  MyBookmark2 \\h \\p \\f",
         InsertFieldNoteRef(builder, "MyBookmark2", true, true, true, "Bookmark2, with footnote number ").GetFieldCode());
@@ -45,11 +45,13 @@ public void FieldNoteRef()
     builder.InsertBreak(BreakType.PageBreak);
     InsertBookmarkWithFootnote(builder, "MyBookmark2", "Contents of MyBookmark2", "Footnote from MyBookmark2");
 
+    doc.UpdatePageLayout();
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.NOTEREF.docx");
+}
 
 /// <summary>
-/// Utilizza un generatore di documenti per inserire un campo NOTEREF con proprietà specificate.
+/// Utilizza un generatore di documenti per inserire un campo NOTEREF con le proprietà specificate.
 /// </summary>
 private static FieldNoteRef InsertFieldNoteRef(DocumentBuilder builder, string bookmarkName, bool insertHyperlink, bool insertRelativePosition, bool insertReferenceMark, string textBefore)
 {
@@ -66,7 +68,7 @@ private static FieldNoteRef InsertFieldNoteRef(DocumentBuilder builder, string b
 }
 
 /// <summary>
-/// Utilizza un generatore di documenti per inserire un segnalibro con nome con una nota a piè di pagina alla fine.
+/// Utilizza un generatore di documenti per inserire un segnalibro denominato con una nota a piè di pagina alla fine.
 /// </summary>
 private static void InsertBookmarkWithFootnote(DocumentBuilder builder, string bookmarkName, string bookmarkText, string footnoteText)
 {

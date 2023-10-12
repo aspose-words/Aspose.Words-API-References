@@ -16,7 +16,7 @@ public static UserInformation DefaultUser { get; }
 
 ### Remarques
 
-Utilisez le[`CurrentUser`](../../fieldoptions/currentuser/)propriété pour spécifier les informations utilisateur pour un seul document.
+Utilisez le[`CurrentUser`](../../fieldoptions/currentuser/) propriété pour spécifier les informations utilisateur pour un seul document.
 
 ### Exemples
 
@@ -26,7 +26,7 @@ Montre comment définir les détails de l'utilisateur et les afficher à l'aide 
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Crée un objet UserInformation et le définit comme source de données pour les champs qui affichent des informations sur l'utilisateur.
+// Créez un objet UserInformation et définissez-le comme source de données pour les champs qui affichent des informations utilisateur.
 UserInformation userInformation = new UserInformation
 {
     Name = "John Doe",
@@ -35,13 +35,13 @@ UserInformation userInformation = new UserInformation
 };
 doc.FieldOptions.CurrentUser = userInformation;
 
-// Insérez les champs USERNAME, USERINITIALS et USERADDRESS, qui affichent les valeurs de
-// les propriétés respectives de l'objet UserInformation que nous avons créé ci-dessus. 
+// Insère les champs USERNAME, USERINITIALS et USERADDRESS, qui affichent les valeurs de
+ // les propriétés respectives de l'objet UserInformation que nous avons créé ci-dessus.
 Assert.AreEqual(userInformation.Name, builder.InsertField(" USERNAME ").Result);
 Assert.AreEqual(userInformation.Initials, builder.InsertField(" USERINITIALS ").Result);
 Assert.AreEqual(userInformation.Address, builder.InsertField(" USERADDRESS ").Result);
 
-// L'objet d'options de champ a également un utilisateur statique par défaut auquel les champs de tous les documents peuvent se référer.
+// L'objet d'options de champ a également un utilisateur statique par défaut auquel les champs de tous les documents peuvent faire référence.
 UserInformation.DefaultUser.Name = "Default User";
 UserInformation.DefaultUser.Initials = "D. U.";
 UserInformation.DefaultUser.Address = "One Microsoft Way";

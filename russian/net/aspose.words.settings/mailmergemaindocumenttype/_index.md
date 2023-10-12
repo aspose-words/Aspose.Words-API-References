@@ -1,14 +1,14 @@
 ---
 title: Enum MailMergeMainDocumentType
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Settings.MailMergeMainDocumentType перечисление. Определяет возможные типы исходного документа слияния.
+description: Aspose.Words.Settings.MailMergeMainDocumentType перечисление. Указывает возможные типы исходного документа слияния почты.
 type: docs
-weight: 5540
+weight: 5840
 url: /ru/net/aspose.words.settings/mailmergemaindocumenttype/
 ---
 ## MailMergeMainDocumentType enumeration
 
-Определяет возможные типы исходного документа слияния.
+Указывает возможные типы исходного документа слияния почты.
 
 ```csharp
 public enum MailMergeMainDocumentType
@@ -18,14 +18,14 @@ public enum MailMergeMainDocumentType
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| NotAMergeDocument | `0` | Этот документ не является документом слияния. |
-| FormLetters | `1` | Указывает, что исходный документ слияния имеет форму письма. |
-| MailingLabels | `2` | Указывает, что исходный документ слияния относится к типу почтовой этикетки. |
-| Envelopes | `4` | Указывает, что исходный документ слияния имеет тип конверта. |
-| Catalog | `8` | Указывает, что исходный документ слияния относится к типу каталога. |
-| Email | `16` | Указывает, что исходный документ слияния относится к типу сообщения электронной почты. |
-| Fax | `32` | Указывает, что исходный документ слияния относится к типу факса. |
-| Default | `0` | равноNotAMergeDocument |
+| NotAMergeDocument | `0` | Этот документ не является документом слияния почты. |
+| FormLetters | `1` | Указывает, что исходный документ слияния почты имеет тип письма. |
+| MailingLabels | `2` | Указывает, что исходный документ слияния почты имеет тип почтовой метки. |
+| Envelopes | `4` | Указывает, что исходный документ слияния почты имеет тип конверта. |
+| Catalog | `8` | Указывает, что исходный документ слияния почты имеет тип каталога. |
+| Email | `16` | Указывает, что исходный документ слияния почты имеет тип сообщения электронной почты. |
+| Fax | `32` | Указывает, что исходный документ слияния почты имеет тип факса. |
+| Default | `0` | РавноNotAMergeDocument |
 
 ### Примеры
 
@@ -42,7 +42,7 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Создаем источник данных в виде ASCII-файла с символом "|" персонаж
+// Создаем источник данных в виде ASCII-файла с символом "|" характер
 // действует как разделитель, разделяющий столбцы. Первая строка содержит имена трех столбцов,
 // и каждая последующая строка представляет собой строку с соответствующими значениями.
 string[] lines = { "FirstName|LastName|Message",
@@ -72,7 +72,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
-// Открытие этого документа в Microsoft Word приведет к выполнению слияния перед отображением содержимого. 
+ // Открытие этого документа в Microsoft Word приведет к выполнению слияния почты перед отображением содержимого.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

@@ -20,7 +20,7 @@ Convertit une propriété booléenne en "Y" ou "N". Convertit une propriété de
 
 ### Exemples
 
-Affiche diverses méthodes de conversion de type des propriétés de document personnalisées.
+Affiche différentes méthodes de conversion de type des propriétés de document personnalisées.
 
 ```csharp
 Document doc = new Document();
@@ -46,7 +46,7 @@ Montre comment utiliser les propriétés de document personnalisées.
 Document doc = new Document(MyDir + "Properties.docx");
 
 // Chaque document contient une collection de propriétés personnalisées qui, comme les propriétés intégrées, sont des paires clé-valeur.
-// Le document a une liste fixe de propriétés intégrées. L'utilisateur crée toutes les propriétés personnalisées. 
+ // Le document a une liste fixe de propriétés intégrées. L'utilisateur crée toutes les propriétés personnalisées.
 Assert.AreEqual("Value of custom document property", doc.CustomDocumentProperties["CustomProperty"].ToString());
 
 doc.CustomDocumentProperties.Add("CustomProperty2", "Value of custom document property #2");

@@ -1,14 +1,14 @@
 ---
 title: ChartAxis.TickLabelSpacingIsAuto
 second_title: Справочник по API Aspose.Words для .NET
-description: ChartAxis свойство. Получает или устанавливает флаг указывающий следует ли использовать автоматический интервал отрисовки тиковых меток.
+description: ChartAxis свойство. Получает или задает флаг указывающий следует ли использовать автоматический интервал рисования меток делений.
 type: docs
-weight: 240
+weight: 260
 url: /ru/net/aspose.words.drawing.charts/chartaxis/ticklabelspacingisauto/
 ---
 ## ChartAxis.TickLabelSpacingIsAuto property
 
-Получает или устанавливает флаг, указывающий, следует ли использовать автоматический интервал отрисовки тиковых меток.
+Получает или задает флаг, указывающий, следует ли использовать автоматический интервал рисования меток делений.
 
 ```csharp
 public bool TickLabelSpacingIsAuto { get; set; }
@@ -16,9 +16,9 @@ public bool TickLabelSpacingIsAuto { get; set; }
 
 ### Примечания
 
-Значение по умолчанию **истинный**.
+Значение по умолчанию:`истинный`.
 
-Свойство действует для текстовых категорий и осей серий. Не поддерживается новыми диаграммами MS Office 2016 .
+Свойство действует для осей текстовых категорий и рядов. Он не поддерживается новыми диаграммами MS Office 2016 .
 
 ### Примеры
 
@@ -31,16 +31,16 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Column, 500, 300);
 Chart chart = shape.Chart;
 
-// Очистить серию демонстрационных данных диаграммы, чтобы начать с чистой диаграммы.
+// Очистите ряд демонстрационных данных диаграммы, чтобы начать с чистой диаграммы.
 chart.Series.Clear();
 
-// Вставьте серию диаграммы с категориями для оси X и соответствующими числовыми значениями для оси Y.
+// Вставляем серию диаграмм с категориями для оси X и соответствующими числовыми значениями для оси Y.
 chart.Series.Add("Aspose Test Series",
     new[] { "Word", "PDF", "Excel", "GoogleDocs", "Note" },
     new double[] { 640, 320, 280, 120, 150 });
 
 // Оси диаграммы имеют различные параметры, которые могут изменить их внешний вид,
-// такие как их направление, основные/второстепенные деления единиц и деления.
+// такие как их направление, такты основных/второстепенных единиц и деления.
 ChartAxis xAxis = chart.AxisX;
 xAxis.CategoryType = AxisCategoryType.Category;
 xAxis.Crosses = AxisCrosses.Minimum;

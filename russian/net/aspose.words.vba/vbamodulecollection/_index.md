@@ -1,14 +1,16 @@
 ---
 title: Class VbaModuleCollection
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Vba.VbaModuleCollection сорт. Представляет наборVbaModule объекты.
+description: Aspose.Words.Vba.VbaModuleCollection сорт. Представляет коллекциюVbaModule объекты.
 type: docs
-weight: 6250
+weight: 6560
 url: /ru/net/aspose.words.vba/vbamodulecollection/
 ---
 ## VbaModuleCollection class
 
-Представляет набор[`VbaModule`](../vbamodule/) объекты.
+Представляет коллекцию[`VbaModule`](../vbamodule/) объекты.
+
+Чтобы узнать больше, посетите[Работа с макросами VBA](https://docs.aspose.com/words/net/working-with-vba-macros/) статья документации.
 
 ```csharp
 public sealed class VbaModuleCollection : IEnumerable<VbaModule>
@@ -30,13 +32,14 @@ public sealed class VbaModuleCollection : IEnumerable<VbaModule>
 
 ### Примеры
 
-Показывает, как получить доступ к информации о проекте документа VBA.
+Показывает, как получить доступ к информации о проекте VBA документа.
 
 ```csharp
 Document doc = new Document(MyDir + "VBA project.docm");
 
 // Проект VBA содержит набор модулей VBA.
 VbaProject vbaProject = doc.VbaProject;
+Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 
@@ -47,7 +50,7 @@ Assert.AreEqual(vbaModules.Count(), 3);
 foreach (VbaModule module in vbaModules)
     Console.WriteLine($"Module name: {module.Name};\nModule code:\n{module.SourceCode}\n");
 
-// Установить новый исходный код для модуля VBA. Вы можете получить доступ к модулям VBA в коллекции либо по индексу, либо по имени.
+// Устанавливаем новый исходный код для модуля VBA. Доступ к модулям VBA в коллекции можно получить либо по индексу, либо по имени.
 vbaModules[0].SourceCode = "Your VBA code...";
 vbaModules["Module1"].SourceCode = "Your VBA code...";
 

@@ -21,12 +21,12 @@ Zeigt, wie alle Abschnitte aus einem Dokument entfernt werden.
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
 
-// Dieses Dokument hat einen Abschnitt mit einigen untergeordneten Knoten, die den gesamten Inhalt des Dokuments enthalten und anzeigen.
+// Dieses Dokument verfügt über einen Abschnitt mit einigen untergeordneten Knoten, die den gesamten Inhalt des Dokuments enthalten und anzeigen.
 Assert.AreEqual(1, doc.Sections.Count);
 Assert.AreEqual(17, doc.Sections[0].GetChildNodes(NodeType.Any, true).Count);
 Assert.AreEqual("Hello World!\r\rHello Word!\r\r\rHello World!", doc.GetText().Trim());
 
-// Sammlung von Abschnitten löschen, wodurch alle untergeordneten Elemente des Dokuments entfernt werden.
+// Die Sammlung von Abschnitten löschen, wodurch alle untergeordneten Elemente des Dokuments entfernt werden.
 doc.Sections.Clear();
 
 Assert.AreEqual(0, doc.GetChildNodes(NodeType.Any, true).Count);

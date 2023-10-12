@@ -1,14 +1,14 @@
 ---
 title: Enum RelativeHorizontalPosition
 second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Drawing.RelativeHorizontalPosition opsomming. Gibt an zu welcher horizontalen Position eine Form oder ein Textrahmen relativ ist.
+description: Aspose.Words.Drawing.RelativeHorizontalPosition opsomming. Gibt an wie relativ die horizontale Position einer Form oder eines Textrahmens ist.
 type: docs
-weight: 1060
+weight: 1190
 url: /de/net/aspose.words.drawing/relativehorizontalposition/
 ---
 ## RelativeHorizontalPosition enumeration
 
-Gibt an, zu welcher horizontalen Position eine Form oder ein Textrahmen relativ ist.
+Gibt an, wie relativ die horizontale Position einer Form oder eines Textrahmens ist.
 
 ```csharp
 public enum RelativeHorizontalPosition
@@ -18,25 +18,25 @@ public enum RelativeHorizontalPosition
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| Margin | `0` | Gibt an, dass die horizontale Positionierung relativ zu den Seitenrändern erfolgen soll. |
+| Margin | `0` | Gibt an, dass die horizontale Positionierung relativ zu den Seitenrändern sein soll. |
 | Page | `1` | Das Objekt wird relativ zum linken Rand der Seite positioniert. |
 | Column | `2` | Das Objekt wird relativ zur linken Seite der Spalte positioniert. |
 | Character | `3` | Das Objekt wird relativ zur linken Seite des Absatzes positioniert. |
-| LeftMargin | `4` | Gibt an, dass die horizontale Positionierung relativ zum linken Rand der Seite erfolgen soll. |
-| RightMargin | `5` | Gibt an, dass die horizontale Positionierung relativ zum rechten Rand der Seite erfolgen soll. |
-| InsideMargin | `6` | Gibt an, dass die horizontale Positionierung relativ zum Innenrand der aktuellen Seite sein soll (der linke Rand auf ungeraden Seiten, rechts auf geraden Seiten). |
-| OutsideMargin | `7` | Gibt an, dass die horizontale Positionierung relativ zum Außenrand der aktuellen Seite sein soll (der rechte Rand auf ungeraden Seiten, der linke auf geraden Seiten). |
-| Default | `2` | Standardwert istColumn . |
+| LeftMargin | `4` | Gibt an, dass die horizontale Positionierung relativ zum linken Rand der Seite sein soll. |
+| RightMargin | `5` | Gibt an, dass die horizontale Positionierung relativ zum rechten Rand der Seite sein soll. |
+| InsideMargin | `6` | Gibt an, dass die horizontale Positionierung relativ zum Innenrand der aktuellen Seite sein soll (der linke Rand auf ungeraden Seiten, der rechte auf geraden Seiten). |
+| OutsideMargin | `7` | Gibt an, dass die horizontale Positionierung relativ zum äußeren Rand der aktuellen Seite sein soll (der rechte Rand auf ungeraden Seiten, der linke auf geraden Seiten). |
+| Default | `2` | Der Standardwert istColumn . |
 
 ### Beispiele
 
-Zeigt, wie ein schwebendes Bild in der Mitte einer Seite eingefügt wird.
+Zeigt, wie man ein schwebendes Bild in der Mitte einer Seite einfügt.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Fügen Sie ein schwebendes Bild ein, das hinter dem überlappenden Text angezeigt wird, und richten Sie es an der Mitte der Seite aus.
+// Fügen Sie ein schwebendes Bild ein, das hinter dem überlappenden Text erscheint, und richten Sie es in der Mitte der Seite aus.
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 shape.WrapType = WrapType.None;
 shape.BehindText = true;
@@ -48,7 +48,7 @@ shape.VerticalAlignment = VerticalAlignment.Center;
 doc.Save(ArtifactsDir + "Image.CreateFloatingPageCenter.docx");
 ```
 
-Zeigt, wie ein Bild eingefügt und als Wasserzeichen verwendet wird.
+Zeigt, wie man ein Bild einfügt und es als Wasserzeichen verwendet.
 
 ```csharp
 Document doc = new Document();
@@ -70,7 +70,7 @@ shape.Top = (builder.PageSetup.PageHeight - shape.Height) / 2;
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertWatermark.docx");
 ```
 
-Zeigt, wie ein Bild eingefügt und als Wasserzeichen verwendet wird (.NetStandard 2.0).
+Zeigt, wie man ein Bild einfügt und es als Wasserzeichen verwendet (.NetStandard 2.0).
 
 ```csharp
 Document doc = new Document();

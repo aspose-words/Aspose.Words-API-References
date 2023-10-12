@@ -1,14 +1,14 @@
 ---
 title: IFieldUpdateCultureProvider.GetCulture
 second_title: Référence de l'API Aspose.Words pour .NET
-description: IFieldUpdateCultureProvider méthode. Renvoie unCultureInfo objet à utiliser lors de la mise à jour du champ.
+description: IFieldUpdateCultureProvider méthode. Renvoie unCultureInfoobjet à utiliser lors de la mise à jour du champ.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fields/ifieldupdatecultureprovider/getculture/
 ---
 ## IFieldUpdateCultureProvider.GetCulture method
 
-Renvoie unCultureInfo objet à utiliser lors de la mise à jour du champ.
+Renvoie unCultureInfoobjet à utiliser lors de la mise à jour du champ.
 
 ```csharp
 public CultureInfo GetCulture(string culture, Field field)
@@ -16,7 +16,7 @@ public CultureInfo GetCulture(string culture, Field field)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| culture | String | Le nom de la culture demandée pour le champ mis à jour. |
+| culture | String | Le nom de la culture demandée pour le champ en cours de mise à jour. |
 | field | Field | Le champ en cours de mise à jour. |
 
 ### Return_Value
@@ -25,10 +25,9 @@ L'objet de culture qui doit être utilisé pour la mise à jour du champ.
 
 ### Exemples
 
-Montre comment spécifier une culture qui analyse le formatage de date/heure pour chaque champ.
+Montre comment spécifier une culture qui analyse le formatage date/heure pour chaque champ.
 
 ```csharp
-[Test]
 public void DefineDateTimeFormatting()
 {
     Document doc = new Document();
@@ -38,7 +37,7 @@ public void DefineDateTimeFormatting()
 
     doc.FieldOptions.FieldUpdateCultureSource = FieldUpdateCultureSource.FieldCode;
 
-    // Définissez un fournisseur qui renvoie un objet de culture spécifique à chaque champ.
+    // Définit un fournisseur qui renvoie un objet de culture spécifique à chaque champ.
     doc.FieldOptions.FieldUpdateCultureProvider = new FieldUpdateCultureProvider();
 
     FieldTime fieldDate = (FieldTime)doc.Range.Fields[0];

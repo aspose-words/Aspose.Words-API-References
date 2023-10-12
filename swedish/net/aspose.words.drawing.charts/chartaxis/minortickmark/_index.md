@@ -3,7 +3,7 @@ title: ChartAxis.MinorTickMark
 second_title: Aspose.Words för .NET API Referens
 description: ChartAxis fast egendom. Returnerar eller ställer in de mindre bockmarkeringarna för axeln.
 type: docs
-weight: 130
+weight: 150
 url: /sv/net/aspose.words.drawing.charts/chartaxis/minortickmark/
 ---
 ## ChartAxis.MinorTickMark property

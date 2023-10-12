@@ -3,7 +3,7 @@ title: Stroke.JoinStyle
 second_title: Referencia de API de Aspose.Words para .NET
 description: Stroke propiedad. Define el estilo de unión de una polilínea.
 type: docs
-weight: 110
+weight: 130
 url: /es/net/aspose.words.drawing/stroke/joinstyle/
 ---
 ## Stroke.JoinStyle property
@@ -43,6 +43,7 @@ stroke.DashStyle = DashStyle.ShortDashDotDot;
 stroke.JoinStyle = JoinStyle.Miter;
 stroke.EndCap = EndCap.Square;
 stroke.LineStyle = ShapeLineStyle.Triple;
+stroke.Fill.TwoColorGradient(Color.Red, Color.Blue, GradientStyle.Vertical, GradientVariant.Variant1);
 
 doc.Save(ArtifactsDir + "Shape.Stroke.docx");
 ```

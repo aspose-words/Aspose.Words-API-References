@@ -16,11 +16,11 @@ public Stream CssStream { get; set; }
 
 ### Remarques
 
-Cette propriété vous permet d'enregistrer des informations CSS dans un flux.
+Cette propriété vous permet d'enregistrer les informations CSS dans un flux.
 
-La valeur par défaut est`nul` Cette propriété ne supprime pas l'enregistrement des informations CSS dans un fichier ou l'intégration dans un document HTML. Pour supprimer l'exportation de CSS, utilisez le[`IsExportNeeded`](../isexportneeded/) propriété.
+La valeur par défaut est`nul` . Cette propriété ne supprime pas l'enregistrement des informations CSS dans un fichier ou l'intégration dans un document HTML. Pour supprimer l'exportation de CSS, utilisez le[`IsExportNeeded`](../isexportneeded/) propriété.
 
-Utilisant[`ICssSavingCallback`](../../icsssavingcallback/) vous ne pouvez pas remplacer CSS par un autre. Il est uniquement destiné à enregistrer le CSS dans un flux.
+En utilisant[`ICssSavingCallback`](../../icsssavingcallback/) vous ne pouvez pas remplacer CSS par un autre. Il est uniquement destiné à enregistrer du CSS dans un flux.
 
 ### Exemples
 
@@ -31,16 +31,16 @@ public void ExternalCssFilenames()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
-    // Crée un objet "HtmlFixedSaveOptions", que nous pouvons passer à la méthode "Save" du document
+    // Crée un objet "HtmlFixedSaveOptions", que l'on peut passer à la méthode "Save" du document
     // pour modifier la façon dont nous convertissons le document en HTML.
     HtmlSaveOptions options = new HtmlSaveOptions();
 
     // Définissez la propriété "CssStylesheetType" sur "CssStyleSheetType.External" pour
-    // accompagne un document HTML enregistré d'un fichier de feuille de style CSS externe.
+    // accompagne un document HTML enregistré avec un fichier de feuille de style CSS externe.
     options.CssStyleSheetType = CssStyleSheetType.External;
 
     // Vous trouverez ci-dessous deux manières de spécifier des répertoires et des noms de fichiers pour les feuilles de style CSS de sortie.
-    // 1 - Utilisez la propriété "CssStyleSheetFileName" pour attribuer un nom de fichier à notre feuille de style :
+    // 1 - Utilisez la propriété "CssStyleSheetFileName" pour attribuer un nom de fichier à notre feuille de style :
     options.CssStyleSheetFileName = ArtifactsDir + "SavingCallback.ExternalCssFilenames.css";
 
     // 2 - Utilisez un rappel personnalisé pour nommer notre feuille de style :
@@ -64,7 +64,7 @@ private class CustomCssSavingCallback : ICssSavingCallback
 
     public void CssSaving(CssSavingArgs args)
     {
-        // Nous pouvons accéder à l'intégralité du document source via la propriété "Document".
+        // On peut accéder à l'intégralité du document source via la propriété "Document".
         Assert.True(args.Document.OriginalFileName.EndsWith("Rendering.docx"));
 
         args.CssStream = new FileStream(mCssTextFileName, FileMode.Create);

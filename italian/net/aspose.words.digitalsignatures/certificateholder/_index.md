@@ -1,14 +1,16 @@
 ---
 title: Class CertificateHolder
 second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.DigitalSignatures.CertificateHolder classe. Rappresenta un titolare di Certificato X5092 esempio.
+description: Aspose.Words.DigitalSignatures.CertificateHolder classe. Rappresenta un titolare di Certificato X5092 istanza.
 type: docs
-weight: 360
+weight: 370
 url: /it/net/aspose.words.digitalsignatures/certificateholder/
 ---
 ## CertificateHolder class
 
-Rappresenta un titolare di **Certificato X5092** esempio.
+Rappresenta un titolare di **Certificato X5092** istanza.
+
+Per saperne di più, visita il[Lavora con le firme digitali](https://docs.aspose.com/words/net/working-with-digital-signatures/) articolo di documentazione.
 
 ```csharp
 public class CertificateHolder
@@ -24,14 +26,14 @@ public class CertificateHolder
 
 | Nome | Descrizione |
 | --- | --- |
-| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create)(byte[], SecureString) | Crea oggetto CertificateHolder utilizzando l'array di byte dell'archivio PKCS12 e la relativa password. |
-| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create_1)(byte[], string) | Crea oggetto CertificateHolder utilizzando l'array di byte dell'archivio PKCS12 e la relativa password. |
-| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create_2)(string, string) | Crea oggetto CertificateHolder utilizzando il percorso dell'archivio PKCS12 e la relativa password. |
-| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create_3)(string, string, string) | Crea l'oggetto CertificateHolder utilizzando il percorso dell'archivio PKCS12, la relativa password e l'alias utilizzando quale chiave privata e certificato verranno trovati. |
+| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create)(byte[], SecureString) | Crea`CertificateHolder` oggetto che utilizza l'array di byte dell'archivio PKCS12 e la relativa password. |
+| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create_1)(byte[], string) | Crea`CertificateHolder` oggetto che utilizza l'array di byte dell'archivio PKCS12 e la relativa password. |
+| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create_2)(string, string) | Crea`CertificateHolder` oggetto utilizzando il percorso dell'archivio PKCS12 e la relativa password. |
+| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create_3)(string, string, string) | Crea`CertificateHolder` oggetto utilizzando il percorso dell'archivio PKCS12, la relativa password e l'alias utilizzando la chiave privata e il certificato che verranno trovati. |
 
 ### Osservazioni
 
-**Titolare del certificato** può essere creato solo con metodi di fabbrica statici. Contiene un'istanza di **Certificato X5092** che viene utilizzato per introdurre chiavi private, pubbliche e catene di certificati nel sistema. Questa classe viene applicata in[`DigitalSignatureUtil`](../digitalsignatureutil/) e[`PdfDigitalSignatureDetails`](../../aspose.words.saving/pdfdigitalsignaturedetails/) invece di metodi obsoleti con X509Certificate2 come parametri.
+`CertificateHolder` può essere creato solo con metodi factory statici. Contiene un'istanza di **Certificato X5092** che viene utilizzato per introdurre chiavi private, pubbliche e catene di certificati nel sistema. Questa classe viene applicata in[`DigitalSignatureUtil`](../digitalsignatureutil/) E[`PdfDigitalSignatureDetails`](../../aspose.words.saving/pdfdigitalsignaturedetails/) invece di metodi obsoleti con X509Certificate2 come parametri.
 
 ### Esempi
 
@@ -69,8 +71,8 @@ SignOptions signOptions = new SignOptions
     SignTime = DateTime.Now
 };
 
-// Prendi un documento non firmato dal file system locale tramite un flusso di file,
-// quindi creane una copia firmata determinata dal nome del file del flusso di file di output.
+// Preleva un documento non firmato dal file system locale tramite un flusso di file,
+// quindi crea una copia firmata determinata dal nome file del flusso di file di output.
 using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 {
     using (Stream streamOut = new FileStream(ArtifactsDir + "DigitalSignatureUtil.SignDocument.docx", FileMode.OpenOrCreate))
@@ -80,10 +82,11 @@ using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 }
 ```
 
-Mostra come aggiungere una riga di firma a un documento e quindi firmarlo utilizzando un certificato digitale.
+Mostra come aggiungere una riga per la firma a un documento e quindi firmarlo utilizzando un certificato digitale.
 
 ```csharp
-public static void Sign()
+[Description("WORDSNET-16868")]
+        public static void Sign()
         {
             string signeeName = "Ron Williams";
             string srcDocumentPath = MyDir + "Document.docx";
@@ -102,7 +105,7 @@ public static void Sign()
         }
 
         /// <summary>
-        /// Crea una copia di un documento di origine firmato utilizzando le informazioni sul firmatario fornite e il certificato X509.
+        /// Crea una copia di un documento di origine firmato utilizzando le informazioni del firmatario fornite e il certificato X509.
         /// </summary>
         private static void SignDocument(string srcDocumentPath, string dstDocumentPath,
             Signee signeeInfo, string certificatePath, string certificatePassword)
@@ -110,7 +113,7 @@ public static void Sign()
             Document document = new Document(srcDocumentPath);
             DocumentBuilder builder = new DocumentBuilder(document);
 
-            // Configura e inserisci una linea di firma, un oggetto nel documento che visualizzerà una firma con cui lo firmiamo.
+            // Configura e inserisci una riga per la firma, un oggetto nel documento che visualizzerà la firma con cui lo firmeremo.
             SignatureLineOptions signatureLineOptions = new SignatureLineOptions
             {
                 Signer = signeeInfo.Name, 
@@ -131,7 +134,7 @@ public static void Sign()
                 SignatureLineImage = signeeInfo.Image
             };
 
-            // Sovrascrivi il documento non firmato che abbiamo salvato in precedenza con una versione firmata utilizzando il certificato.
+            // Sovrascrivi il documento non firmato che abbiamo salvato sopra con una versione firmata utilizzando il certificato.
             DigitalSignatureUtil.Sign(dstDocumentPath, dstDocumentPath, certificateHolder, signOptions);
         }
 

@@ -1,14 +1,14 @@
 ---
 title: HtmlFixedSaveOptions.ExportFormFields
 second_title: Aspose.Words for .NET API Referansı
-description: HtmlFixedSaveOptions mülk. Form alanlarının metne veya grafiklere dönüştürülmek yerine interaktif öğeler girdi etiketi olarak olarak dışa aktarılıp aktarılmadığının göstergesini alır veya ayarlar.
+description: HtmlFixedSaveOptions mülk. Form alanlarının metne veya grafiklere dönüştürülmek yerine interaktif öğeleri giriş etiketi olarak olarak dışa aktarılıp aktarılmadığına ilişkin göstergeyi alır veya ayarlar.
 type: docs
 weight: 80
 url: /tr/net/aspose.words.saving/htmlfixedsaveoptions/exportformfields/
 ---
 ## HtmlFixedSaveOptions.ExportFormFields property
 
-Form alanlarının metne veya grafiklere dönüştürülmek yerine interaktif öğeler ('girdi' etiketi olarak) olarak dışa aktarılıp aktarılmadığının göstergesini alır veya ayarlar.
+Form alanlarının metne veya grafiklere dönüştürülmek yerine, interaktif öğeleri ('giriş' etiketi olarak) olarak dışa aktarılıp aktarılmadığına ilişkin göstergeyi alır veya ayarlar.
 
 ```csharp
 public bool ExportFormFields { get; set; }
@@ -16,7 +16,7 @@ public bool ExportFormFields { get; set; }
 
 ### Örnekler
 
-Form alanlarının Html'e nasıl dışa aktarılacağını gösterir.
+Form alanlarının Html'ye nasıl aktarılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -25,10 +25,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.InsertCheckBox("CheckBox", false, 15);
 
 // Form alanları içeren bir belgeyi .html'ye aktardığımızda,
-// Aspose.Words'ün form alanlarını dışa aktarabilmesinin iki yolu vardır.
-// "ExportFormFields" bayrağının "true" olarak ayarlanması, bunları etkileşimli nesneler olarak dışa aktaracaktır.
-// Bu bayrağı "yanlış" olarak ayarlamak, form alanlarını düz metin olarak görüntüler.
-// Bu onları mevcut değerlerinde donduracak ve HTML belgemizin okuyucusunu engelleyecektir.
+// Aspose.Words'ün form alanlarını dışa aktarmasının iki yolu vardır.
+// "ExportFormFields" bayrağını "true" olarak ayarlamak, bunları etkileşimli nesneler olarak dışa aktaracaktır.
+// Bu bayrağın "false" olarak ayarlanması form alanlarını düz metin olarak görüntüleyecektir.
+// Bu onları mevcut değerlerinde donduracak ve HTML belgemizin okuyucusunu engelleyecektir
 // onlarla etkileşime girebilmekten.
 HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions
 {

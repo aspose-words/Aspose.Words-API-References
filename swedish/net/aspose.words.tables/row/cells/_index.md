@@ -1,14 +1,14 @@
 ---
 title: Row.Cells
 second_title: Aspose.Words för .NET API Referens
-description: Row fast egendom. Ger maskinskriven åtkomst till Cell underordnade noder för raden.
+description: Row fast egendom. Ger maskinskriven åtkomst tillCell underordnade noder för raden.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.tables/row/cells/
 ---
 ## Row.Cells property
 
-Ger maskinskriven åtkomst till **Cell** underordnade noder för raden.
+Ger maskinskriven åtkomst till[`Cell`](../../cell/) underordnade noder för raden.
 
 ```csharp
 public CellCollection Cells { get; }

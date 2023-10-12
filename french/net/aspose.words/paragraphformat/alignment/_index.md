@@ -37,29 +37,29 @@ paragraphFormat.AddSpaceBetweenFarEastAndDigit = true;
 paragraphFormat.KeepTogether = true;
 
 // La méthode "Writeln" termine le paragraphe après avoir ajouté du texte
-// puis commence une nouvelle ligne, en ajoutant un nouveau paragraphe.
+// puis commence une nouvelle ligne, ajoutant un nouveau paragraphe.
 builder.Writeln("Hello world!");
 
 Assert.True(builder.CurrentParagraph.IsEndOfDocument);
 ```
 
-Montre comment construire un document Aspose.Words à la main.
+Montre comment construire manuellement un document Aspose.Words.
 
 ```csharp
 Document doc = new Document();
 
 // Un document vierge contient une section, un corps et un paragraphe.
 // Appelez la méthode "RemoveAllChildren" pour supprimer tous ces nœuds,
-// et se retrouver avec un nœud de document sans enfants.
+// et on se retrouve avec un nœud de document sans enfants.
 doc.RemoveAllChildren();
 
-// Ce document n'a plus de nœuds enfants composites auxquels nous pouvons ajouter du contenu.
-// Si nous souhaitons l'éditer, nous devrons repeupler sa collection de nœuds.
-// Tout d'abord, créez une nouvelle section, puis ajoutez-la en tant qu'enfant au nœud de document racine.
+// Ce document n'a désormais aucun nœud enfant composite auquel nous pouvons ajouter du contenu.
+// Si nous souhaitons le modifier, nous devrons repeupler sa collection de nœuds.
+// Commencez par créer une nouvelle section, puis ajoutez-la en tant qu'enfant au nœud du document racine.
 Section section = new Section(doc);
 doc.AppendChild(section);
 
-// Définit certaines propriétés de mise en page pour la section.
+// Définissez certaines propriétés de mise en page pour la section.
 section.PageSetup.SectionStart = SectionStart.NewPage;
 section.PageSetup.PaperSize = PaperSize.Letter;
 
@@ -68,7 +68,7 @@ section.PageSetup.PaperSize = PaperSize.Letter;
 Body body = new Body(doc);
 section.AppendChild(body);
 
-// Crée un paragraphe, définit certaines propriétés de formatage, puis l'ajoute en tant qu'enfant au corps.
+// Créez un paragraphe, définissez certaines propriétés de mise en forme, puis ajoutez-le en tant qu'enfant au corps.
 Paragraph para = new Paragraph(doc);
 
 para.ParagraphFormat.StyleName = "Heading 1";
@@ -76,7 +76,7 @@ para.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 body.AppendChild(para);
 
-// Enfin, ajoutez du contenu pour faire le document. Créer une course,
+// Enfin, ajoutez du contenu pour faire le document. Créez une course,
 // définit son apparence et son contenu, puis l'ajoute en tant qu'enfant au paragraphe.
 Run run = new Run(doc);
 run.Text = "Hello World!";

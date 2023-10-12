@@ -3,7 +3,7 @@ title: Enum WatermarkLayout
 second_title: Aspose.Words per .NET API Reference
 description: Aspose.Words.WatermarkLayout enum. Definisce il layout della filigrana rispetto al centro della filigrana.
 type: docs
-weight: 6370
+weight: 6680
 url: /it/net/aspose.words/watermarklayout/
 ---
 ## WatermarkLayout enumeration
@@ -18,7 +18,7 @@ public enum WatermarkLayout
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| Horizontal | `0` | Layout filigrana orizzontale. Corrisponde a 0 gradi di rotazione. |
+| Horizontal | `0` | Disposizione filigrana orizzontale. Corrisponde a 0 gradi di rotazione. |
 | Diagonal | `315` | Layout filigrana diagonale. Corrisponde a 315 gradi di rotazione. |
 
 ### Esempi
@@ -28,10 +28,10 @@ Mostra come creare una filigrana di testo.
 ```csharp
 Document doc = new Document();
 
-// Aggiungi una filigrana di testo normale.
+// Aggiunge una filigrana di testo semplice.
 doc.Watermark.SetText("Aspose Watermark");
 
-// Se desideriamo modificare la formattazione del testo usandola come filigrana,
+// Se desideriamo modificare la formattazione del testo utilizzandolo come filigrana,
 // possiamo farlo passando un oggetto TextWatermarkOptions durante la creazione della filigrana.
 TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
 textWatermarkOptions.FontFamily = "Arial";

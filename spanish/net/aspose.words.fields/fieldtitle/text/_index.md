@@ -21,10 +21,10 @@ Muestra cómo utilizar el campo TÍTULO.
 ```csharp
 Document doc = new Document();
 
-  // Establecer un valor para la propiedad de documento integrada "Título".
+ // Establece un valor para la propiedad del documento incorporada "Título".
 doc.BuiltInDocumentProperties.Title = "My Title";
 
-// Podemos usar el campo TITLE para mostrar el valor de esta propiedad en el documento.
+// Podemos usar el campo TÍTULO para mostrar el valor de esta propiedad en el documento.
 DocumentBuilder builder = new DocumentBuilder(doc);
 FieldTitle field = (FieldTitle)builder.InsertField(FieldType.FieldTitle, false);
 field.Update();
@@ -32,8 +32,8 @@ field.Update();
 Assert.AreEqual(" TITLE ", field.GetFieldCode());
 Assert.AreEqual("My Title", field.Result);
 
-// Establecer un valor para la propiedad Texto del campo,
-// y luego actualizar el campo también sobrescribirá la propiedad integrada correspondiente con el nuevo valor.
+// Estableciendo un valor para la propiedad Texto del campo,
+// y luego actualizar el campo también sobrescribirá la propiedad incorporada correspondiente con el nuevo valor.
 builder.Writeln();
 field = (FieldTitle)builder.InsertField(FieldType.FieldTitle, false);
 field.Text = "My New Title";

@@ -16,13 +16,13 @@ public Border Horizontal { get; }
 
 ### Примеры
 
-Показывает, как применить настройки горизонтальных границ к формату абзаца.
+Показывает, как применить настройки к горизонтальным границам формата абзаца.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Создаем красную горизонтальную рамку для абзаца. Любые абзацы, созданные впоследствии, наследуют эти настройки границ.
+// Создаем красную горизонтальную рамку для абзаца. Любые абзацы, созданные впоследствии, унаследуют эти настройки границ.
 BorderCollection borders = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Borders;
 borders.Horizontal.Color = Color.Red;
 borders.Horizontal.LineStyle = LineStyle.DashSmallGap;
@@ -39,13 +39,13 @@ builder.Write("Paragraph below horizontal border.");
 doc.Save(ArtifactsDir + "Border.HorizontalBorders.docx");
 ```
 
-Показывает, как применить параметры вертикальных границ к формату строки таблицы.
+Показывает, как применить настройки к вертикальным границам формата строки таблицы.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Создаем таблицу с красными и синими внутренними границами.
+// Создаём таблицу с красной и синей внутренней рамкой.
 Table table = builder.StartTable();
 
 for (int i = 0; i < 3; i++)
@@ -58,12 +58,12 @@ for (int i = 0; i < 3; i++)
     Row row = builder.EndRow();
     BorderCollection borders = row.RowFormat.Borders;
 
-    // Настройка внешнего вида границ, которые будут появляться между строками.
+    // Настраиваем внешний вид границ между строками.
     borders.Horizontal.Color = Color.Red;
     borders.Horizontal.LineStyle = LineStyle.Dot;
     borders.Horizontal.LineWidth = 2.0d;
 
-    // Настройка внешнего вида границ, которые будут появляться между ячейками.
+    // Настраиваем внешний вид границ между ячейками.
     borders.Vertical.Color = Color.Blue;
     borders.Vertical.LineStyle = LineStyle.Dot;
     borders.Vertical.LineWidth = 2.0d;

@@ -1,14 +1,14 @@
 ---
 title: DocumentVisitor.VisitGroupShapeEnd
 second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentVisitor methode. Wird aufgerufen wenn die Aufzählung einer Gruppenform beendet ist.
+description: DocumentVisitor methode. Wird aufgerufen wenn die Aufzählung einer Gruppenform beendet wurde.
 type: docs
 weight: 260
 url: /de/net/aspose.words/documentvisitor/visitgroupshapeend/
 ---
 ## DocumentVisitor.VisitGroupShapeEnd method
 
-Wird aufgerufen, wenn die Aufzählung einer Gruppenform beendet ist.
+Wird aufgerufen, wenn die Aufzählung einer Gruppenform beendet wurde.
 
 ```csharp
 public virtual VisitorAction VisitGroupShapeEnd(GroupShape groupShape)
@@ -20,11 +20,11 @@ public virtual VisitorAction VisitGroupShapeEnd(GroupShape groupShape)
 
 ### Rückgabewert
 
-EIN[`VisitorAction`](../../visitoraction/) Wert, der angibt, wie die Enumeration fortgesetzt werden soll.
+A[`VisitorAction`](../../visitoraction/) Wert, der angibt, wie die Enumeration fortgesetzt werden soll.
 
 ### Beispiele
 
-Zeigt, wie Sie eine Gruppe von Formen erstellen und ihren Inhalt mit einem Dokumentbesucher drucken.
+Zeigt, wie eine Gruppe von Formen erstellt und deren Inhalt mithilfe eines Dokumentbesuchers gedruckt wird.
 
 ```csharp
 public void GroupOfShapes()
@@ -32,7 +32,7 @@ public void GroupOfShapes()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Wenn Sie "NonPrimitive"-Formen erstellen müssen, z. B. SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
+    // Wenn Sie „nicht-primitive“ Formen erstellen müssen, z. B. SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
     // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, DiagonalCornersRounded
     // Bitte verwenden Sie DocumentBuilder.InsertShape-Methoden.
     Shape balloon = new Shape(doc, ShapeType.Balloon)
@@ -64,7 +64,7 @@ public void GroupOfShapes()
 }
 
 /// <summary>
-/// Gibt den Inhalt einer besuchten Shape-Gruppe an die Konsole aus.
+/// Gibt den Inhalt einer besuchten Formgruppe an die Konsole aus.
 /// </summary>
 public class ShapeGroupPrinter : DocumentVisitor
 {

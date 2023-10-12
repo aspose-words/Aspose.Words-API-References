@@ -3,7 +3,7 @@ title: Class FrameFormat
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.FrameFormat klass. Representerar ramrelaterad formatering för ett stycke.
 type: docs
-weight: 2890
+weight: 3070
 url: /sv/net/aspose.words/frameformat/
 ---
 ## FrameFormat class
@@ -23,7 +23,7 @@ public class FrameFormat
 | [HorizontalAlignment](../../aspose.words/frameformat/horizontalalignment/) { get; } | Får horisontell justering av den angivna ramen. |
 | [HorizontalDistanceFromText](../../aspose.words/frameformat/horizontaldistancefromtext/) { get; } | Får horisontellt avstånd mellan en ram och den omgivande texten, i punkter. |
 | [HorizontalPosition](../../aspose.words/frameformat/horizontalposition/) { get; } | Får horisontellt avstånd mellan kanten på ramen och objektet som anges av[`RelativeHorizontalPosition`](./relativehorizontalposition/) egenskap. |
-| [IsFrame](../../aspose.words/frameformat/isframe/) { get; } | Returnerar sant om stycket är en ram. |
+| [IsFrame](../../aspose.words/frameformat/isframe/) { get; } | Returnerar`Sann` om stycket är en ram. |
 | [RelativeHorizontalPosition](../../aspose.words/frameformat/relativehorizontalposition/) { get; } | Får den relativa horisontella positionen för en ram. |
 | [RelativeVerticalPosition](../../aspose.words/frameformat/relativeverticalposition/) { get; } | Får den relativa vertikala positionen för en ram. |
 | [VerticalAlignment](../../aspose.words/frameformat/verticalalignment/) { get; } | Får vertikal justering av den angivna ramen. |

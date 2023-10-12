@@ -1,17 +1,17 @@
 ---
 title: Forms2OleControl.Type
 second_title: Aspose.Words لمراجع .NET API
-description: Forms2OleControl ملكية. الحصول على عنصر تحكم 2.0 من النماذج .
+description: Forms2OleControl ملكية. الحصول على نوع التحكم في Forms 2.0.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.drawing.ole/forms2olecontrol/type/
 ---
 ## Forms2OleControl.Type property
 
-الحصول على عنصر تحكم 2.0 من النماذج .
+الحصول على نوع التحكم في Forms 2.0.
 
 ```csharp
-public Forms2OleControlType Type { get; }
+public abstract Forms2OleControlType Type { get; }
 ```
 
 ### أمثلة
@@ -24,7 +24,7 @@ Document doc = new Document(MyDir + "ActiveX controls.docx");
 Shape shape = (Shape) doc.GetChild(NodeType.Shape, 0, true);
 OleControl oleControl = shape.OleFormat.OleControl;
 
-Assert.AreEqual(null, oleControl.Name);
+Assert.AreEqual("CheckBox1", oleControl.Name);
 
 if (oleControl.IsForms2OleControl)
 {
@@ -34,6 +34,10 @@ if (oleControl.IsForms2OleControl)
     Assert.AreEqual(true, checkBox.Enabled);
     Assert.AreEqual(Forms2OleControlType.CheckBox, checkBox.Type);
     Assert.AreEqual(null, checkBox.ChildNodes);
+    Assert.AreEqual(string.Empty, checkBox.GroupName);
+
+    // لاحظ أنه لا يمكنك تعيين اسم المجموعة للإطار.
+    checkBox.GroupName = "Aspose group name";
 }
 ```
 

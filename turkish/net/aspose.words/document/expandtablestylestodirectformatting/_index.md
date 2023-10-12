@@ -1,14 +1,14 @@
 ---
 title: Document.ExpandTableStylesToDirectFormatting
 second_title: Aspose.Words for .NET API Referansı
-description: Document yöntem. Tablo stillerinde belirtilen biçimlendirmeyi belgedeki tablolarda doğrudan biçimlendirmeye dönüştürür.
+description: Document yöntem. Tablo stillerinde belirtilen biçimlendirmeyi belgedeki tablolardaki doğrudan biçimlendirmeye dönüştürür.
 type: docs
-weight: 570
+weight: 610
 url: /tr/net/aspose.words/document/expandtablestylestodirectformatting/
 ---
 ## Document.ExpandTableStylesToDirectFormatting method
 
-Tablo stillerinde belirtilen biçimlendirmeyi, belgedeki tablolarda doğrudan biçimlendirmeye dönüştürür.
+Tablo stillerinde belirtilen biçimlendirmeyi, belgedeki tablolardaki doğrudan biçimlendirmeye dönüştürür.
 
 ```csharp
 public void ExpandTableStylesToDirectFormatting()
@@ -16,12 +16,12 @@ public void ExpandTableStylesToDirectFormatting()
 
 ### Notlar
 
-Bu yöntem, Aspose.Words'ün bu sürümünün yalnızca tablo stilleri için sınırlı destek sağlaması nedeniyle mevcuttur (aşağıya bakın). Bu yöntem, tablo stilleriyle biçimlendirilmiş tablolar içeren bir DOCX veya WordprocessingML belgesi yüklediğinizde ve tabloların, hücrelerin, paragrafların veya metnin biçimlendirmesini sorgulamanız gerektiğinde yararlı olabilir.
+Bu yöntem, Aspose.Words'ün bu sürümünün tablo stilleri için yalnızca sınırlı destek sağlaması nedeniyle mevcuttur (aşağıya bakın). Bu yöntem, tablo stilleriyle biçimlendirilmiş tablolar içeren bir DOCX veya WordprocessingML belgesi yüklediğinizde ve tabloların, hücrelerin, paragrafların veya metnin biçimlendirmesini sorgulamanız gerektiğinde yararlı olabilir.
 
-Aspose.Words'ün bu sürümü aşağıdaki gibi tablo stilleri için sınırlı destek sağlar:
+Aspose.Words'ün bu sürümü aşağıdaki tablo stilleri için sınırlı destek sağlar:
 
 * DOCX veya WordprocessingML belgelerinde tanımlanan tablo stilleri, belge DOCX veya WordprocessingML olarak kaydedilirken tablo stilleri olarak korunur.
-* DOCX veya WordprocessingML belgelerinde tanımlanan tablo stilleri, belge başka bir formata, işleme veya yazdırmaya kaydedilirken, otomatik olarak tablolardaki doğrudan biçimlendirmeye dönüştürülür.
+* DOCX veya WordprocessingML belgelerinde tanımlanan tablo stilleri, belgeyi başka herhangi bir formatta kaydederken, oluşturma veya yazdırma sırasında otomatik olarak tablolardaki doğrudan formatlamaya dönüştürülür.
 * DOC belgelerinde tanımlanan tablo stilleri, belgeyi yalnızca DOC olarak kaydederken tablo stilleri olarak korunur.
 
 ### Örnekler
@@ -46,7 +46,7 @@ tableStyle.Borders.LineStyle = LineStyle.DotDash;
 
 table.Style = tableStyle;
 
-// Bu yöntem, yukarıda belirlediklerimiz gibi tablo stili özellikleriyle ilgilidir.
+// Bu yöntem yukarıda belirlediğimiz tablo stili özellikleriyle ilgilidir.
 doc.ExpandTableStylesToDirectFormatting();
 
 doc.Save(ArtifactsDir + "Document.TableStyleToDirectFormatting.docx");

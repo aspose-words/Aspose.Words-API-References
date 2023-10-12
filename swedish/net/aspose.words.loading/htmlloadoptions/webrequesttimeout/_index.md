@@ -23,6 +23,7 @@ Antalet millisekunder som Aspose.Words väntar på ett svar vid laddning av exte
 Visar hur du ställer in en tidsgräns för webbförfrågningar när du laddar ett dokument med externa resurser länkade av URL:er.
 
 ```csharp
+public void WebRequestTimeout()
 {
     // Skapa ett nytt HtmlLoadOptions-objekt och verifiera dess timeout-tröskel för en webbförfrågan.
     HtmlLoadOptions options = new HtmlLoadOptions();

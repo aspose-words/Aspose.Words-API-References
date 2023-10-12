@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.ExportFontsAsBase64
 second_title: Aspose.Words لمراجع .NET API
-description: HtmlSaveOptions ملكية. يحدد ما إذا كان يجب تضمين موارد الخطوط في HTML في ترميز Base64 . الافتراضي هوخاطئة .
+description: HtmlSaveOptions ملكية. يحدد ما إذا كان يجب تضمين موارد الخطوط في HTML في ترميز Base64. الافتراضي هوخطأ شنيع .
 type: docs
-weight: 160
+weight: 150
 url: /ar/net/aspose.words.saving/htmlsaveoptions/exportfontsasbase64/
 ---
 ## HtmlSaveOptions.ExportFontsAsBase64 property
 
-يحدد ما إذا كان يجب تضمين موارد الخطوط في HTML في ترميز Base64 . الافتراضي هو`خاطئة` .
+يحدد ما إذا كان يجب تضمين موارد الخطوط في HTML في ترميز Base64. الافتراضي هو`خطأ شنيع` .
 
 ```csharp
 public bool ExportFontsAsBase64 { get; set; }
@@ -16,7 +16,7 @@ public bool ExportFontsAsBase64 { get; set; }
 
 ### ملاحظات
 
-بشكل افتراضي ، تتم كتابة الخطوط لفصل الملفات. إذا تم تعيين هذا الخيار على`حقيقي`، سيتم تضمين الخطوط في CSS للمستند بترميز Base64.
+بشكل افتراضي، تتم كتابة الخطوط لملفات منفصلة. إذا تم ضبط هذا الخيار على`حقيقي`سيتم تضمين الخطوط في ملف CSS الخاص بالمستند بتشفير Base64.
 
 ### أمثلة
 
@@ -35,7 +35,7 @@ HtmlSaveOptions options = new HtmlSaveOptions
 doc.Save(ArtifactsDir + "HtmlSaveOptions.ExportFontsAsBase64.html", options);
 ```
 
-يوضح كيفية حفظ مستند بتنسيق .html مع صور مضمنة بداخله.
+يوضح كيفية حفظ مستند .html مع الصور المضمنة بداخله.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

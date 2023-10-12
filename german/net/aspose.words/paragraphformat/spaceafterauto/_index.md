@@ -1,14 +1,14 @@
 ---
 title: ParagraphFormat.SpaceAfterAuto
 second_title: Aspose.Words für .NET-API-Referenz
-description: ParagraphFormat eigendom. Wahr wenn der Abstand nach dem Absatz automatisch festgelegt wird.
+description: ParagraphFormat eigendom. True wenn der Abstand nach dem Absatz automatisch festgelegt wird.
 type: docs
-weight: 300
+weight: 310
 url: /de/net/aspose.words/paragraphformat/spaceafterauto/
 ---
 ## ParagraphFormat.SpaceAfterAuto property
 
-Wahr, wenn der Abstand nach dem Absatz automatisch festgelegt wird.
+True, wenn der Abstand nach dem Absatz automatisch festgelegt wird.
 
 ```csharp
 public bool SpaceAfterAuto { get; set; }
@@ -16,36 +16,36 @@ public bool SpaceAfterAuto { get; set; }
 
 ### Bemerkungen
 
-Wenn auf „true“ gesetzt, wird der Effekt von überschrieben[`SpaceAfter`](../spaceafter/).
+Wenn eingestellt auf`WAHR` , überschreibt die Wirkung von[`SpaceAfter`](../spaceafter/).
 
-Wenn Sie Absatzabstand davor und Abstand danach auf Automatisch setzen, Microsoft Word fügt automatisch 14 Punkt Abstand zwischen den Absätzen ein gemäß den folgenden Regeln:
+Wenn Sie „Abstand vor“ und „Abstand nach“ für Absätze auf „Automatisch“ setzen, fügt Microsoft Word automatisch einen Abstand von 14 Punkten zwischen den Absätzen hinzu gemäß den folgenden Regeln:
 
-* Normalerweise werden Leerzeichen nach allen Absätzen hinzugefügt.
-* In einer Aufzählungs- oder nummerierten Liste wird der Abstand nur nach dem letzten Element in der Liste hinzugefügt. Zwischen den Listenelementen wird kein Abstand hinzugefügt.
-* In einer verschachtelten Aufzählung oder nummerierten Liste wird kein Abstand hinzugefügt.
-* Abstand wird normalerweise nach einer Tabelle hinzugefügt.
-* Der Abstand wird nach einer Tabelle nicht hinzugefügt, wenn es sich um den letzten Block in einer Tabellenzelle handelt.
+* Normalerweise wird der Abstand nach allen Absätzen hinzugefügt.
+* In einer Liste mit Aufzählungszeichen oder Nummern wird der Abstand erst nach dem letzten Element in der Liste hinzugefügt. Zwischen den Listenelementen wird kein Abstand hinzugefügt.
+* In einer verschachtelten Liste mit Aufzählungszeichen oder Nummern wird kein Abstand hinzugefügt.
+* Der Abstand wird normalerweise nach einer Tabelle hinzugefügt.
+* Nach einer Tabelle wird kein Abstand hinzugefügt, wenn es sich um den letzten Block in einer Tabellenzelle handelt.
 * Nach dem letzten Absatz in einer Tabellenzelle wird kein Abstand hinzugefügt.
 
 ### Beispiele
 
-Zeigt, wie Sie den automatischen Absatzabstand festlegen.
+Zeigt, wie der automatische Absatzabstand eingestellt wird.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Einen großen Abstand vor und nach Absätzen anwenden, die dieser Builder erstellt.
+// Einen großen Abstand vor und nach den Absätzen anwenden, die dieser Builder erstellt.
 builder.ParagraphFormat.SpaceBefore = 24;
 builder.ParagraphFormat.SpaceAfter = 24;
 
-// Setzen Sie diese Flags auf "true", um automatische Abstände anzuwenden,
-// Ignoriert effektiv den Abstand in den Eigenschaften, die wir oben festgelegt haben.
-// Lassen Sie sie auf "false", um unseren benutzerdefinierten Absatzabstand anzuwenden.
+// Setzen Sie diese Flags auf „true“, um den automatischen Abstand anzuwenden.
+// Der Abstand in den oben festgelegten Eigenschaften wird effektiv ignoriert.
+// Wenn Sie sie auf „false“ belassen, wird unser benutzerdefinierter Absatzabstand angewendet.
 builder.ParagraphFormat.SpaceAfterAuto = autoSpacing;
 builder.ParagraphFormat.SpaceBeforeAuto = autoSpacing;
 
-// Fügen Sie zwei Absätze ein, die darüber und darunter einen Abstand haben, und speichern Sie das Dokument.
+// Fügen Sie zwei Absätze mit Abstand darüber und darunter ein und speichern Sie das Dokument.
 builder.Writeln("Paragraph 1.");
 builder.Writeln("Paragraph 2.");
 

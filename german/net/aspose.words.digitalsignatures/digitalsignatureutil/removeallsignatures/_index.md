@@ -1,14 +1,16 @@
 ---
 title: DigitalSignatureUtil.RemoveAllSignatures
 second_title: Aspose.Words für .NET-API-Referenz
-description: DigitalSignatureUtil methode. Entfernt alle digitalen Signaturen aus der Quelldatei und schreibt die unsignierte Datei in die Zieldatei.
+description: DigitalSignatureUtil methode. Entfernt alle digitalen Signaturen aus der Quelldatei und schreibt die nicht signierte Datei in die Zieldatei.
 type: docs
 weight: 20
 url: /de/net/aspose.words.digitalsignatures/digitalsignatureutil/removeallsignatures/
 ---
 ## RemoveAllSignatures(string, string) {#removeallsignatures_1}
 
-Entfernt alle digitalen Signaturen aus der Quelldatei und schreibt die unsignierte Datei in die Zieldatei.
+Entfernt alle digitalen Signaturen aus der Quelldatei und schreibt die nicht signierte Datei in die Zieldatei.
+
+Die folgenden Formate sind für die Entfernung digitaler Signaturen kompatibel: Doc , Dot , Docx , Dotx , Docm , Odt , Ott.
 
 ```csharp
 public static void RemoveAllSignatures(string srcFileName, string dstFileName)
@@ -19,13 +21,13 @@ public static void RemoveAllSignatures(string srcFileName, string dstFileName)
 Zeigt, wie digitale Signaturen aus einem digital signierten Dokument entfernt werden.
 
 ```csharp
-// Es gibt zwei Möglichkeiten, die DigitalSignatureUtil-Klasse zu verwenden, um digitale Signaturen zu entfernen
+// Es gibt zwei Möglichkeiten, die DigitalSignatureUtil-Klasse zum Entfernen digitaler Signaturen zu verwenden
 // aus einem signierten Dokument, indem Sie eine unsignierte Kopie davon irgendwo anders im lokalen Dateisystem speichern.
-// 1 - Ermitteln Sie die Speicherorte sowohl des signierten Dokuments als auch der unsignierten Kopie anhand von Dateinamen-Strings:
+// 1 – Bestimmen Sie die Speicherorte sowohl des signierten Dokuments als auch der nicht signierten Kopie anhand von Dateinamenszeichenfolgen:
 DigitalSignatureUtil.RemoveAllSignatures(MyDir + "Digitally signed.docx",
     ArtifactsDir + "DigitalSignatureUtil.LoadAndRemove.FromString.docx");
 
-// 2 - Ermitteln Sie die Speicherorte sowohl des signierten Dokuments als auch der unsignierten Kopie durch Dateistreams:
+// 2 – Bestimmen Sie die Speicherorte sowohl des signierten Dokuments als auch der nicht signierten Kopie anhand von Dateiströmen:
 using (Stream streamIn = new FileStream(MyDir + "Digitally signed.docx", FileMode.Open))
 {
     using (Stream streamOut = new FileStream(ArtifactsDir + "DigitalSignatureUtil.LoadAndRemove.FromStream.docx", FileMode.Create))
@@ -49,9 +51,11 @@ Assert.That(DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignature
 
 ## RemoveAllSignatures(Stream, Stream) {#removeallsignatures}
 
-Entfernt alle digitalen Signaturen aus dem Dokument im Quellstream und schreibt das unsignierte Dokument in den Zielstream.
+Entfernt alle digitalen Signaturen vom Dokument im Quellstream und schreibt das nicht signierte Dokument in den Zielstream.
 
 **Die Ausgabe wird an den Anfang des Streams geschrieben und die Streamgröße wird mit der Inhaltslänge aktualisiert.**
+
+Die folgenden Formate sind für die Entfernung digitaler Signaturen kompatibel: Doc , Dot , Docx , Dotx , Docm , Odt , Ott.
 
 ```csharp
 public static void RemoveAllSignatures(Stream srcStream, Stream dstStream)
@@ -62,13 +66,13 @@ public static void RemoveAllSignatures(Stream srcStream, Stream dstStream)
 Zeigt, wie digitale Signaturen aus einem digital signierten Dokument entfernt werden.
 
 ```csharp
-// Es gibt zwei Möglichkeiten, die DigitalSignatureUtil-Klasse zu verwenden, um digitale Signaturen zu entfernen
+// Es gibt zwei Möglichkeiten, die DigitalSignatureUtil-Klasse zum Entfernen digitaler Signaturen zu verwenden
 // aus einem signierten Dokument, indem Sie eine unsignierte Kopie davon irgendwo anders im lokalen Dateisystem speichern.
-// 1 - Ermitteln Sie die Speicherorte sowohl des signierten Dokuments als auch der unsignierten Kopie anhand von Dateinamen-Strings:
+// 1 – Bestimmen Sie die Speicherorte sowohl des signierten Dokuments als auch der nicht signierten Kopie anhand von Dateinamenszeichenfolgen:
 DigitalSignatureUtil.RemoveAllSignatures(MyDir + "Digitally signed.docx",
     ArtifactsDir + "DigitalSignatureUtil.LoadAndRemove.FromString.docx");
 
-// 2 - Ermitteln Sie die Speicherorte sowohl des signierten Dokuments als auch der unsignierten Kopie durch Dateistreams:
+// 2 – Bestimmen Sie die Speicherorte sowohl des signierten Dokuments als auch der nicht signierten Kopie anhand von Dateiströmen:
 using (Stream streamIn = new FileStream(MyDir + "Digitally signed.docx", FileMode.Open))
 {
     using (Stream streamOut = new FileStream(ArtifactsDir + "DigitalSignatureUtil.LoadAndRemove.FromStream.docx", FileMode.Create))

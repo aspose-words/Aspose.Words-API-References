@@ -1,14 +1,14 @@
 ---
 title: ImageSaveOptions.GraphicsQualityOptions
 second_title: Aspose.Words per .NET API Reference
-description: ImageSaveOptions proprietà. Consente di specificare la modalità di rendering e la qualità per ilGraphics oggetto.
+description: ImageSaveOptions proprietà. Permette di specificare la modalità di rendering e la qualità per il fileGraphics oggetto.
 type: docs
 weight: 20
 url: /it/net/aspose.words.saving/imagesaveoptions/graphicsqualityoptions/
 ---
 ## ImageSaveOptions.GraphicsQualityOptions property
 
-Consente di specificare la modalità di rendering e la qualità per ilGraphics oggetto.
+Permette di specificare la modalità di rendering e la qualità per il fileGraphics oggetto.
 
 ```csharp
 public GraphicsQualityOptions GraphicsQualityOptions { get; set; }

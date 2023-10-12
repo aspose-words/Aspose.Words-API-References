@@ -10,7 +10,7 @@ url: /fr/net/aspose.words.markup/structureddocumenttag/placeholdername/
 
 Obtient ou définit le nom du[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock/) contenant du texte d'espace réservé.
 
-BuildingBlock avec ce nom[`Name`](../../../aspose.words.buildingblocks/buildingblock/name/) doit être présent dans[`GlossaryDocument`](../../../aspose.words/document/glossarydocument/) sinonInvalidOperationException arrivera.
+[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock/) avec ce nom[`Name`](../../../aspose.words.buildingblocks/buildingblock/name/) doit être présent dans[`GlossaryDocument`](../../../aspose.words/document/glossarydocument/) sinonInvalidOperationException arrivera.
 
 ```csharp
 public string PlaceholderName { get; set; }
@@ -24,11 +24,11 @@ Montre comment utiliser le contenu d'un bloc de construction comme texte d'espac
 Document doc = new Document();
 
 // Insère une balise de document structuré en texte brut de type "PlainText", qui fonctionnera comme une zone de texte.
-// Le contenu qu'il affichera par défaut est un "Cliquez ici pour entrer du texte." rapide.
+// Le contenu qu'il affichera par défaut est un "Cliquez ici pour saisir du texte". rapide.
 StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Inline);
 
 // Nous pouvons faire en sorte que la balise affiche le contenu d'un bloc de construction au lieu du texte par défaut.
-// Tout d'abord, ajoutez un bloc de construction avec un contenu au document de glossaire.
+// Tout d'abord, ajoutez un bloc de construction avec un contenu au document glossaire.
 GlossaryDocument glossaryDoc = doc.GlossaryDocument;
 
 BuildingBlock substituteBlock = new BuildingBlock(glossaryDoc);
@@ -46,9 +46,9 @@ tag.PlaceholderName = "Custom Placeholder";
 // nous pourrons vérifier le building block via la propriété "Placeholder".
 Assert.AreEqual(substituteBlock, tag.Placeholder);
 
-// Définissez la propriété "IsShowingPlaceholderText" sur "true" pour traiter le
-// contenu actuel de la balise de document structuré en tant que texte d'espace réservé.
-// Cela signifie que cliquer sur la zone de texte dans Microsoft Word mettra immédiatement en surbrillance tout le contenu de la balise.
+// Fixe la propriété "IsShhowingPlaceholderText" à "true" pour traiter le
+// contenu actuel de la balise de document structuré sous forme de texte d'espace réservé.
+// Cela signifie que cliquer sur la zone de texte dans Microsoft Word mettra immédiatement en évidence tout le contenu de la balise.
 // Définissez la propriété "IsShowingPlaceholderText" sur "false" pour obtenir le
 // balise de document structuré pour traiter son contenu comme du texte qu'un utilisateur a déjà saisi.
 // Cliquer sur ce texte dans Microsoft Word placera le curseur clignotant à l'emplacement cliqué.

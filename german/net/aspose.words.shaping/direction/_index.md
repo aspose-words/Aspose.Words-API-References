@@ -1,12 +1,14 @@
 ---
 title: Enum Direction
 second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Shaping.Direction opsomming. 
+description: Aspose.Words.Shaping.Direction opsomming. Textrichtung.
 type: docs
-weight: 5720
+weight: 6020
 url: /de/net/aspose.words.shaping/direction/
 ---
 ## Direction enumeration
+
+Textrichtung.
 
 ```csharp
 public enum Direction
@@ -16,11 +18,11 @@ public enum Direction
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| Default | `0` |  |
-| LTR | `0` |  |
-| RTL | `1` |  |
-| TTB | `2` |  |
-| BTT | `3` |  |
+| Default | `0` | Standardwert, identisch mitLTR . |
+| LTR | `0` | Schreibrichtung von links nach rechts. |
+| RTL | `1` | Schreibrichtung von rechts nach links. |
+| TTB | `2` | Schreibrichtung von oben nach unten. |
+| BTT | `3` | Schreibrichtung von unten nach oben. |
 
 ### Siehe auch
 

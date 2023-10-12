@@ -1,14 +1,14 @@
 ---
 title: ImageSaveOptions.TiffBinarizationMethod
 second_title: Справочник по API Aspose.Words для .NET
-description: ImageSaveOptions свойство. Получает или задает метод используемый при преобразовании изображений в формат 1 бит/пиксель  когдаSaveFormat это SaveFormat.Tiff и TiffCompression равно TiffCompression.Ccitt3 или TiffCompression.Ccitt4.
+description: ImageSaveOptions свойство. Получает или задает метод используемый при преобразовании изображений в формат 1 бит/пиксель  когдаSaveFormat являетсяTiff and TiffCompression равноCcitt3 илиCcitt4 .
 type: docs
-weight: 160
+weight: 170
 url: /ru/net/aspose.words.saving/imagesaveoptions/tiffbinarizationmethod/
 ---
 ## ImageSaveOptions.TiffBinarizationMethod property
 
-Получает или задает метод, используемый при преобразовании изображений в формат 1 бит/пиксель , когда[`SaveFormat`](../saveformat/) это SaveFormat.Tiff и [`TiffCompression`](../tiffcompression/) равно TiffCompression.Ccitt3 или TiffCompression.Ccitt4.
+Получает или задает метод, используемый при преобразовании изображений в формат 1 бит/пиксель , когда[`SaveFormat`](../saveformat/) являетсяTiff and [`TiffCompression`](../tiffcompression/) равноCcitt3 илиCcitt4 .
 
 ```csharp
 public ImageBinarizationMethod TiffBinarizationMethod { get; set; }
@@ -16,11 +16,11 @@ public ImageBinarizationMethod TiffBinarizationMethod { get; set; }
 
 ### Примечания
 
-Значение по умолчанию — ImageBinarizationMethod.Threshold.
+Значение по умолчанию:Threshold.
 
 ### Примеры
 
-Показывает, как установить порог ошибки бинаризации TIFF при использовании метода Флойда-Стейнберга для визуализации изображения TIFF.
+Показывает, как установить порог ошибки бинаризации TIFF при использовании метода Флойда-Стейнберга для рендеринга изображения TIFF.
 
 ```csharp
 Document doc = new Document();
@@ -31,9 +31,9 @@ builder.Writeln("Hello world!");
 builder.InsertImage(ImageDir + "Logo.jpg");
 
 // Когда мы сохраняем документ в формате TIFF, мы можем передать объект SaveOptions в
-// настроить сглаживание, которое Aspose.Words будет применять при рендеринге этого изображения.
-// Значение свойства ThresholdForFloydSteinbergDithering по умолчанию равно 128.
-// Чем выше значение, тем темнее изображение.
+// корректируем сглаживание, которое Aspose.Words будет применять при рендеринге этого изображения.
+// Значение по умолчанию свойства ThresholdForFloydSteinbergDithering — 128.
+// Более высокие значения приводят к более темным изображениям.
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Tiff)
 {
     TiffCompression = TiffCompression.Ccitt3,

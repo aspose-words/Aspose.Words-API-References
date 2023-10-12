@@ -28,7 +28,7 @@ Assert.AreEqual("6e182020-f460-11ce-9bcd-00aa00608e01", shape.OleFormat.Clsid.To
 
 Forms2OleControl oleControl = (Forms2OleControl)shape.OleFormat.OleControl;
 
-// Bazı OLE denetimleri, bu belgedeki üç seçenek düğmeli gibi alt denetimler içerebilir.
+// Bazı OLE kontrolleri, bu belgedeki gibi üç seçenek düğmeli alt kontroller içerebilir.
 Forms2OleControlCollection oleControlCollection = oleControl.ChildNodes;
 
 Assert.AreEqual(3, oleControlCollection.Count);

@@ -3,7 +3,7 @@ title: Enum ConditionalStyleType
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.ConditionalStyleType enumeración. Representa posibles áreas de tabla en las que se puede definir formato condicional en un estilo de tabla.
 type: docs
-weight: 320
+weight: 330
 url: /es/net/aspose.words/conditionalstyletype/
 ---
 ## ConditionalStyleType enumeration
@@ -24,8 +24,8 @@ public enum ConditionalStyleType
 | LastColumn | `3` | Especifica el formato de la última columna de una tabla. |
 | OddRowBanding | `4` | Especifica el formato de la franja de fila impar. |
 | OddColumnBanding | `5` | Especifica el formato de la franja de columna impar. |
-| EvenRowBanding | `6` | Especifica el formato de la franja de fila con números pares. |
-| EvenColumnBanding | `7` | Especifica el formato de la franja de columna con números pares. |
+| EvenRowBanding | `6` | Especifica el formato de la franja de fila par. |
+| EvenColumnBanding | `7` | Especifica el formato de la franja de columnas pares. |
 | TopLeftCell | `8` | Especifica el formato de la celda superior izquierda de una tabla. |
 | TopRightCell | `9` | Especifica el formato de la celda superior derecha de una tabla. |
 | BottomLeftCell | `10` | Especifica el formato de la celda inferior izquierda de una tabla. |
@@ -33,7 +33,7 @@ public enum ConditionalStyleType
 
 ### Ejemplos
 
-Muestra cómo trabajar con determinados estilos de área de una tabla.
+Muestra cómo trabajar con ciertos estilos de área de una tabla.
 
 ```csharp
 Document doc = new Document();
@@ -54,7 +54,7 @@ builder.EndTable();
 // Crea un estilo de tabla personalizado.
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 
-// Los estilos condicionales son cambios de formato que afectan solo a algunas de las celdas de la tabla
+// Los estilos condicionales son cambios de formato que afectan sólo a algunas de las celdas de la tabla.
 // basado en un predicado, como que las celdas estén en la última fila.
 // A continuación se muestran tres formas de acceder a los estilos condicionales de un estilo de tabla desde la colección "ConditionalStyles".
 // 1 - Por tipo de estilo:
@@ -75,7 +75,7 @@ tableStyle.ConditionalStyles.LastRow.RightPadding = 10;
 tableStyle.ConditionalStyles.LastRow.TopPadding = 10;
 tableStyle.ConditionalStyles.LastColumn.Font.Bold = true;
 
-// Lista todas las condiciones de estilo posibles.
+// Enumere todas las condiciones de estilo posibles.
 using (IEnumerator<ConditionalStyle> enumerator = tableStyle.ConditionalStyles.GetEnumerator())
 {
     while (enumerator.MoveNext())
@@ -88,11 +88,11 @@ using (IEnumerator<ConditionalStyle> enumerator = tableStyle.ConditionalStyles.G
 // Aplicar el estilo personalizado, que contiene todos los estilos condicionales, a la tabla.
 table.Style = tableStyle;
 
-// Nuestro estilo aplica algunos estilos condicionales por defecto.
+// Nuestro estilo aplica algunos estilos condicionales de forma predeterminada.
 Assert.AreEqual(TableStyleOptions.FirstRow | TableStyleOptions.FirstColumn | TableStyleOptions.RowBands, 
     table.StyleOptions);
 
-// Tendremos que habilitar todos los demás estilos nosotros mismos a través de la propiedad "StyleOptions".
+// Necesitaremos habilitar todos los demás estilos nosotros mismos a través de la propiedad "StyleOptions".
 table.StyleOptions = table.StyleOptions | TableStyleOptions.LastRow | TableStyleOptions.LastColumn;
 
 doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");

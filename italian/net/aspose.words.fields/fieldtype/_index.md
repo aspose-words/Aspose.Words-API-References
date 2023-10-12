@@ -3,7 +3,7 @@ title: Enum FieldType
 second_title: Aspose.Words per .NET API Reference
 description: Aspose.Words.Fields.FieldType enum. Specifica i tipi di campo di Microsoft Word.
 type: docs
-weight: 2390
+weight: 2540
 url: /it/net/aspose.words.fields/fieldtype/
 ---
 ## FieldType enumeration
@@ -18,31 +18,31 @@ public enum FieldType
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| FieldNone | `0` | Il tipo di campo non è specificato o sconosciuto. |
+| FieldNone | `0` | Il tipo di campo non è specificato o è sconosciuto. |
 | FieldCannotParse | `1` | Specifica che non è stato possibile analizzare il campo. |
-| FieldAddin | `81` | Specifica il campo ADDIN. |
+| FieldAddin | `81` | Specifica il campo AGGIUNTA. |
 | FieldAddressBlock | `93` | Specifica il campo ADDRESSBLOCK. |
-| FieldAdvance | `84` | Specifica il campo AVANZATO. |
+| FieldAdvance | `84` | Specifica il campo ADVANCE. |
 | FieldAsk | `38` | Specifica il campo ASK. |
 | FieldAuthor | `17` | Specifica il campo AUTORE. |
 | FieldAutoNum | `54` | Specifica il campo AUTONUM. |
 | FieldAutoNumLegal | `53` | Specifica il campo AUTONUMLGL. |
 | FieldAutoNumOutline | `52` | Specifica il campo AUTONUMOUT. |
-| FieldAutoText | `79` | Specifica il campo AUTOTEXT. |
+| FieldAutoText | `79` | Specifica il campo TESTO AUTOMATICO. |
 | FieldAutoTextList | `89` | Specifica il campo AUTOTEXTLIST. |
-| FieldBarcode | `63` | Specifica il campo CODICE A BARRE. |
+| FieldBarcode | `63` | Specifica il campo BARCODE. |
 | FieldBibliography | `100500` | Specifica il campo BIBLIOGRAFIA. |
 | FieldBidiOutline | `92` | Specifica il campo BIDIOUTLINE. |
 | FieldCitation | `1980` | Specifica il campo CITAZIONE. |
 | FieldComments | `19` | Specifica il campo COMMENTI. |
-| FieldCompare | `80` | Specifica il campo CONFRONTA. |
+| FieldCompare | `80` | Specifica il campo COMPARE. |
 | FieldCreateDate | `21` | Specifica il campo CREATEDATE. |
 | FieldData | `40` | Specifica il campo DATI. |
 | FieldDatabase | `78` | Specifica il campo DATABASE. |
 | FieldDate | `31` | Specifica il campo DATA. |
 | FieldDDE | `45` | Specifica il campo DDE. |
-| FieldDisplayBarcode | `6301` | Specifica il campo DISPLAYBARCCODE. |
-| FieldMergeBarcode | `6302` | Specifica il campo MERGEBARCCODE. |
+| FieldDisplayBarcode | `6301` | Specifica il campo DISPLAYBARCODE. |
+| FieldMergeBarcode | `6302` | Specifica il campo MERGEBARCODE. |
 | FieldDDEAuto | `46` | Specifica il campo DDEAUTO. |
 | FieldDocProperty | `85` | Specifica il campo DOCPROPERTY. |
 | FieldDocVariable | `64` | Specifica il campo DOCVARIABLE. |
@@ -55,18 +55,18 @@ public enum FieldType
 | FieldFootnoteRef | `5` | Specifica il campo FOOTNOTEREF. |
 | FieldFormCheckBox | `71` | Specifica il campo FORMCHECKBOX. |
 | FieldFormDropDown | `83` | Specifica il campo FORMDROPDOWN. |
-| FieldFormTextInput | `70` | Specifica il campo TESTOFORMA. |
+| FieldFormTextInput | `70` | Specifica il campo FORMTEXT. |
 | FieldFormula | `34` | Specifica il campo = (formula). |
-| FieldGreetingLine | `94` | Specifica il campo SALUTO. |
+| FieldGreetingLine | `94` | Specifica il campo GREETINGLINE. |
 | FieldGlossary | `47` | Specifica il campo GLOSSARIO. |
 | FieldGoToButton | `50` | Specifica il campo GOTOBUTTON. |
 | FieldHtmlActiveX | `91` | Specifica il campo che rappresenta un controllo HTML. |
 | FieldHyperlink | `88` | Specifica il campo HYPERLINK. |
-| FieldIf | `7` | Specifica il campo SE. |
+| FieldIf | `7` | Specifica il campo IF. |
 | FieldInclude | `36` | Specifica il campo INCLUDE. |
 | FieldIncludePicture | `67` | Specifica il campo INCLUDEPICTURE. |
 | FieldIncludeText | `68` | Specifica il campo INCLUDETEXT. |
-| FieldIndex | `8` | Specifica il campo INDEX. |
+| FieldIndex | `8` | Specifica il campo INDICE. |
 | FieldIndexEntry | `4` | Specifica il campo XE. |
 | FieldInfo | `14` | Specifica il campo INFO. |
 | FieldImport | `55` | Specifica il campo IMPORT. |
@@ -85,27 +85,27 @@ public enum FieldType
 | FieldNumPages | `26` | Specifica il campo NUMPAGES. |
 | FieldNumWords | `27` | Specifica il campo NUMWORDS. |
 | FieldOcx | `87` | Specifica il campo OCX. |
-| FieldPage | `33` | Specifica il campo PAGE. |
+| FieldPage | `33` | Specifica il campo PAGINA. |
 | FieldPageRef | `37` | Specifica il campo PAGEREF. |
-| FieldPrint | `48` | Specifica il campo STAMPA. |
+| FieldPrint | `48` | Specifica il campo PRINT. |
 | FieldPrintDate | `23` | Specifica il campo PRINTDATE. |
-| FieldPrivate | `77` | Specifica il campo PRIVATO. |
+| FieldPrivate | `77` | Specifica il campo PRIVATE. |
 | FieldQuote | `35` | Specifica il campo QUOTE. |
-| FieldRef | `3` | Specifica il campo REF. |
+| FieldRef | `3` | Specifica il campo RIF. |
 | FieldRefNoKeyword | `2` | Specifica che il campo rappresenta un campo REF in cui la parola chiave è stata omessa. |
 | FieldRefDoc | `11` | Specifica il campo RD. |
 | FieldRevisionNum | `24` | Specifica il campo REVNUM. |
 | FieldSaveDate | `22` | Specifica il campo SAVEDATE. |
-| FieldSection | `65` | Specifica il campo SECTION. |
+| FieldSection | `65` | Specifica il campo SEZIONE. |
 | FieldSectionPages | `66` | Specifica il campo SECTIONPAGES. |
 | FieldSequence | `12` | Specifica il campo SEQ. |
 | FieldSet | `6` | Specifica il campo SET. |
 | FieldShape | `95` | Specifica il campo FORMA. |
 | FieldSkipIf | `43` | Specifica il campo SKIPIF. |
 | FieldStyleRef | `10` | Specifica il campo STYLEREF. |
-| FieldSubject | `16` | Specifica il campo OGGETTO. |
+| FieldSubject | `16` | Specifica il campo SUBJECT. |
 | FieldSymbol | `57` | Specifica il campo SIMBOLO. |
-| FieldTemplate | `30` | Specifica il campo MODELLO. |
+| FieldTemplate | `30` | Specifica il campo TEMPLATE. |
 | FieldTime | `32` | Specifica il campo TIME. |
 | FieldTitle | `15` | Specifica il campo TITOLO. |
 | FieldTOA | `73` | Specifica il campo TOA. |
@@ -118,7 +118,7 @@ public enum FieldType
 
 ### Esempi
 
-Mostra come inserire un campo in un documento utilizzando un codice campo.
+Mostra come inserire un campo in un documento utilizzando un codice di campo.
 
 ```csharp
 Document doc = new Document();

@@ -1,14 +1,14 @@
 ---
 title: Field.Remove
 second_title: Aspose.Words för .NET API Referens
-description: Field metod. Tar bort fältet från dokumentet. Returnerar en nod direkt efter fältet. Om fältets slut är den sista child av dess överordnade nod returnerar dess överordnade stycke. Om fältet redan är borttaget returneras null .
+description: Field metod. Tar bort fältet från dokumentet. Returnerar en nod direkt efter fältet. Om fältets slut är den sista child av dess överordnade nod returnerar dess överordnade stycke. Om fältet redan är borttaget returnerasnull .
 type: docs
 weight: 120
 url: /sv/net/aspose.words.fields/field/remove/
 ---
 ## Field.Remove method
 
-Tar bort fältet från dokumentet. Returnerar en nod direkt efter fältet. Om fältets slut är den sista child av dess överordnade nod, returnerar dess överordnade stycke. Om fältet redan är borttaget, returneras **null** .
+Tar bort fältet från dokumentet. Returnerar en nod direkt efter fältet. Om fältets slut är den sista child av dess överordnade nod, returnerar dess överordnade stycke. Om fältet redan är borttaget, returneras`null` .
 
 ```csharp
 public Node Remove()
@@ -56,6 +56,7 @@ Assert.AreEqual(0, fields.Count);
 Visar hur man bearbetar PRIVATA fält.
 
 ```csharp
+public void FieldPrivate()
 {
     // Öppna ett Corel WordPerfect-dokument som vi har konverterat till .docx-format.
     Document doc = new Document(MyDir + "Field sample - PRIVATE.docx");

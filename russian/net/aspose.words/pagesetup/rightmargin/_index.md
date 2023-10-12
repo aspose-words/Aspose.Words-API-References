@@ -3,7 +3,7 @@ title: PageSetup.RightMargin
 second_title: Справочник по API Aspose.Words для .NET
 description: PageSetup свойство. Возвращает или задает расстояние в пунктах между правым краем страницы и правой границей основного текста.
 type: docs
-weight: 360
+weight: 370
 url: /ru/net/aspose.words/pagesetup/rightmargin/
 ---
 ## PageSetup.RightMargin property
@@ -16,7 +16,7 @@ public double RightMargin { get; set; }
 
 ### Примеры
 
-Показывает, как настроить размер бумаги, ориентацию, поля, а также другие параметры раздела.
+Показывает, как настроить размер бумаги, ориентацию, поля и другие параметры раздела.
 
 ```csharp
 Document doc = new Document();

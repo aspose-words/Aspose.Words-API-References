@@ -1,14 +1,14 @@
 ---
 title: FieldInclude.BookmarkName
 second_title: Aspose.Words for .NET API Referansı
-description: FieldInclude mülk. Dahil edilecek yer iminin adını alır veya ayarlar.
+description: FieldInclude mülk. Belgeye eklenecek yer işaretinin adını alır veya ayarlar.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fieldinclude/bookmarkname/
 ---
 ## FieldInclude.BookmarkName property
 
-Dahil edilecek yer iminin adını alır veya ayarlar.
+Belgeye eklenecek yer işaretinin adını alır veya ayarlar.
 
 ```csharp
 public string BookmarkName { get; set; }
@@ -22,8 +22,8 @@ INCLUDE alanının nasıl oluşturulacağını ve özelliklerinin nasıl ayarlan
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Yerel dosya sisteminde başka bir belgenin bir bölümünü içe aktarmak için bir INCLUDE alanını kullanabiliriz.
-// Bu alanla referans verdiğimiz diğer belgedeki yer imi, içe aktarılan bu kısmı içerir.
+// Yerel dosya sistemine başka bir belgenin bir bölümünü içe aktarmak için INCLUDE alanını kullanabiliriz.
+// Bu alanla referans verdiğimiz diğer belgedeki yer imi bu içe aktarılan kısmı içeriyor.
 FieldInclude field = (FieldInclude)builder.InsertField(FieldType.FieldInclude, true);
 field.SourceFullName = MyDir + "Bookmarks.docx";
 field.BookmarkName = "MyBookmark1";

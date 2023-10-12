@@ -1,14 +1,14 @@
 ---
 title: BarcodeParameters.FixCheckDigit
 second_title: Aspose.Words per .NET API Reference
-description: BarcodeParameters proprietà. Se correggere la cifra di controllo se non è valida.
+description: BarcodeParameters proprietà. Indica se correggere la cifra di controllo se non è valida.
 type: docs
 weight: 100
 url: /it/net/aspose.words.fields/barcodeparameters/fixcheckdigit/
 ---
 ## BarcodeParameters.FixCheckDigit property
 
-Se correggere la cifra di controllo se non è valida.
+Indica se correggere la cifra di controllo se non è valida.
 
 ```csharp
 public bool FixCheckDigit { get; set; }
@@ -21,14 +21,13 @@ Mostra come utilizzare un generatore di codici a barre.
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-
 // Possiamo utilizzare un'implementazione IBarcodeGenerator personalizzata per generare codici a barre,
-// e quindi inserirli nel documento come immagini.
+// e poi inserirli nel documento come immagini.
 doc.FieldOptions.BarcodeGenerator = new CustomBarcodeGenerator();
 
 // Di seguito sono riportati quattro esempi di diversi tipi di codici a barre che possiamo creare utilizzando il nostro generatore.
-// Per ogni codice a barre, specifichiamo un nuovo set di parametri del codice a barre, quindi generiamo l'immagine.
-// Successivamente, possiamo inserire l'immagine nel documento o salvarla nel file system locale.
+// Per ciascun codice a barre, specifichiamo un nuovo set di parametri del codice a barre, quindi generiamo l'immagine.
+// Successivamente possiamo inserire l'immagine nel documento o salvarla nel file system locale.
 // 1 - Codice QR:
 BarcodeParameters barcodeParameters = new BarcodeParameters
 {

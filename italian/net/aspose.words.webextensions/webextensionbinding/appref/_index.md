@@ -1,14 +1,14 @@
 ---
 title: WebExtensionBinding.AppRef
 second_title: Aspose.Words per .NET API Reference
-description: WebExtensionBinding proprietà. Specifica la chiave di rilegatura utilizzata per mappare la voce di rilegatura in questo elenco con i dati rilegati nel documento.
+description: WebExtensionBinding proprietà. Specifica la chiave di associazione utilizzata per associare la voce di associazione in questo elenco con i dati associati nel documento.
 type: docs
 weight: 20
 url: /it/net/aspose.words.webextensions/webextensionbinding/appref/
 ---
 ## WebExtensionBinding.AppRef property
 
-Specifica la chiave di rilegatura utilizzata per mappare la voce di rilegatura in questo elenco con i dati rilegati nel documento.
+Specifica la chiave di associazione utilizzata per associare la voce di associazione in questo elenco con i dati associati nel documento.
 
 ```csharp
 public string AppRef { get; set; }

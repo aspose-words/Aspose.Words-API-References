@@ -22,11 +22,11 @@ public FormField this[int index] { get; }
 
 Der Index ist nullbasiert.
 
-Negative Indizes sind zulässig und zeigen den Zugriff von der Rückseite der Sammlung an. Zum Beispiel bedeutet -1 das letzte Element, -2 bedeutet das vorletzte und so weiter.
+Negative Indizes sind zulässig und zeigen den Zugriff von der Rückseite der Sammlung an. Beispielsweise bedeutet -1 das letzte Element, -2 das vorletzte und so weiter.
 
-Wenn der Index größer oder gleich der Anzahl der Elemente in der Liste ist, wird eine Nullreferenz zurückgegeben.
+Wenn der Index größer oder gleich der Anzahl der Elemente in der Liste ist, wird ein Nullverweis zurückgegeben.
 
-Wenn der Index negativ ist und sein absoluter Wert größer als die Anzahl der Elemente in der Liste ist, wird eine Nullreferenz zurückgegeben.
+Wenn der Index negativ ist und sein absoluter Wert größer als die Anzahl der Elemente in der Liste ist, wird ein Nullverweis zurückgegeben.
 
 ### Beispiele
 
@@ -48,7 +48,7 @@ public void Visitor()
 
     builder.InsertBreak(BreakType.ParagraphBreak);
 
-    // Verwenden Sie einen Dokumentenersteller, um ein Kontrollkästchen einzufügen.
+    // Verwenden Sie einen Dokumentersteller, um ein Kontrollkästchen einzufügen.
     builder.Write("Click this check box to tick/untick it: ");
     FormField checkBox = builder.InsertCheckBox("MyCheckBox", false, 50);
     checkBox.IsCheckBoxExactSize = true;
@@ -62,7 +62,7 @@ public void Visitor()
 
     builder.InsertBreak(BreakType.ParagraphBreak);
 
-    // Verwenden Sie einen Dokumentenersteller, um ein Texteingabeformularfeld einzufügen.
+    // Verwenden Sie einen Dokumentersteller, um ein Texteingabeformularfeld einzufügen.
     builder.Write("Enter text here: ");
     FormField textInput = builder.InsertTextInput("MyTextInput", TextFormFieldType.Regular, "", "Placeholder text", 50);
     textInput.EntryMacro = "EntryMacro";
@@ -78,8 +78,8 @@ public void Visitor()
     Assert.AreEqual(3, formFields.Count);
 
     // Felder zeigen unsere Formularfelder an. Wir können ihre Feldcodes sehen, indem wir dieses Dokument öffnen
-    // in Microsoft und Drücken von Alt + F9. Diese Felder haben keine Schalter,
-    // und Mitglieder des FormField-Objekts bestimmen vollständig den Inhalt ihrer Formularfelder.
+    // in Microsoft und drücken Sie Alt + F9. Diese Felder haben keine Schalter,
+    // und Mitglieder des FormField-Objekts steuern vollständig den Inhalt ihrer Formularfelder.
     Assert.AreEqual(3, doc.Range.Fields.Count);
     Assert.AreEqual(" FORMDROPDOWN \u0001", doc.Range.Fields[0].GetFieldCode());
     Assert.AreEqual(" FORMCHECKBOX \u0001", doc.Range.Fields[1].GetFieldCode());
@@ -99,7 +99,7 @@ public void Visitor()
 }
 
 /// <summary>
-/// Besucherimplementierung, die Details der besuchten Formularfelder ausgibt. 
+ /// Besucherimplementierung, die Details der besuchten Formularfelder ausgibt.
 /// </summary>
 public class FormFieldVisitor : DocumentVisitor
 {
@@ -140,7 +140,7 @@ public class FormFieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Fügt der aktuellen Ausgabe Zeilenumbruchtext hinzu.
+    /// Fügt der aktuellen Ausgabe durch Zeilenumbrüche terminierten Text hinzu.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -148,7 +148,7 @@ public class FormFieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Ruft den Klartext des Dokuments ab, das vom Besucher angesammelt wurde.
+    /// Ruft den Klartext des vom Besucher gesammelten Dokuments ab.
     /// </summary>
     public string GetText()
     {
@@ -170,7 +170,7 @@ public class FormFieldVisitor : DocumentVisitor
 
 ## FormFieldCollection indexer (2 of 2)
 
-Gibt ein Formularfeld nach Lesezeichenname zurück.
+Gibt ein Formularfeld nach Lesezeichennamen zurück.
 
 ```csharp
 public FormField this[string bookmarkName] { get; }
@@ -178,11 +178,11 @@ public FormField this[string bookmarkName] { get; }
 
 | Parameter | Beschreibung |
 | --- | --- |
-| bookmarkName | Lesezeichenname ohne Berücksichtigung der Groß-/Kleinschreibung. |
+| bookmarkName | Groß- und Kleinschreibung des Lesezeichennamens wird nicht beachtet. |
 
 ### Bemerkungen
 
-Gibt null zurück, wenn das Formularfeld mit dem angegebenen Lesezeichennamen nicht gefunden werden kann.
+Gibt zurück`Null` wenn das Formularfeld mit dem angegebenen Lesezeichennamen nicht gefunden werden kann.
 
 ### Beispiele
 
@@ -204,7 +204,7 @@ public void Visitor()
 
     builder.InsertBreak(BreakType.ParagraphBreak);
 
-    // Verwenden Sie einen Dokumentenersteller, um ein Kontrollkästchen einzufügen.
+    // Verwenden Sie einen Dokumentersteller, um ein Kontrollkästchen einzufügen.
     builder.Write("Click this check box to tick/untick it: ");
     FormField checkBox = builder.InsertCheckBox("MyCheckBox", false, 50);
     checkBox.IsCheckBoxExactSize = true;
@@ -218,7 +218,7 @@ public void Visitor()
 
     builder.InsertBreak(BreakType.ParagraphBreak);
 
-    // Verwenden Sie einen Dokumentenersteller, um ein Texteingabeformularfeld einzufügen.
+    // Verwenden Sie einen Dokumentersteller, um ein Texteingabeformularfeld einzufügen.
     builder.Write("Enter text here: ");
     FormField textInput = builder.InsertTextInput("MyTextInput", TextFormFieldType.Regular, "", "Placeholder text", 50);
     textInput.EntryMacro = "EntryMacro";
@@ -234,8 +234,8 @@ public void Visitor()
     Assert.AreEqual(3, formFields.Count);
 
     // Felder zeigen unsere Formularfelder an. Wir können ihre Feldcodes sehen, indem wir dieses Dokument öffnen
-    // in Microsoft und Drücken von Alt + F9. Diese Felder haben keine Schalter,
-    // und Mitglieder des FormField-Objekts bestimmen vollständig den Inhalt ihrer Formularfelder.
+    // in Microsoft und drücken Sie Alt + F9. Diese Felder haben keine Schalter,
+    // und Mitglieder des FormField-Objekts steuern vollständig den Inhalt ihrer Formularfelder.
     Assert.AreEqual(3, doc.Range.Fields.Count);
     Assert.AreEqual(" FORMDROPDOWN \u0001", doc.Range.Fields[0].GetFieldCode());
     Assert.AreEqual(" FORMCHECKBOX \u0001", doc.Range.Fields[1].GetFieldCode());
@@ -255,7 +255,7 @@ public void Visitor()
 }
 
 /// <summary>
-/// Besucherimplementierung, die Details der besuchten Formularfelder ausgibt. 
+ /// Besucherimplementierung, die Details der besuchten Formularfelder ausgibt.
 /// </summary>
 public class FormFieldVisitor : DocumentVisitor
 {
@@ -296,7 +296,7 @@ public class FormFieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Fügt der aktuellen Ausgabe Zeilenumbruchtext hinzu.
+    /// Fügt der aktuellen Ausgabe durch Zeilenumbrüche terminierten Text hinzu.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -304,7 +304,7 @@ public class FormFieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Ruft den Klartext des Dokuments ab, das vom Besucher angesammelt wurde.
+    /// Ruft den Klartext des vom Besucher gesammelten Dokuments ab.
     /// </summary>
     public string GetText()
     {

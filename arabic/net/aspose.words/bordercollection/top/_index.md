@@ -1,14 +1,14 @@
 ---
 title: BorderCollection.Top
 second_title: Aspose.Words لمراجع .NET API
-description: BorderCollection ملكية. الحصول على الحد العلوي .
+description: BorderCollection ملكية. يحصل على الحد العلوي.
 type: docs
 weight: 120
 url: /ar/net/aspose.words/bordercollection/top/
 ---
 ## BorderCollection.Top property
 
-الحصول على الحد العلوي .
+يحصل على الحد العلوي.
 
 ```csharp
 public Border Top { get; }
@@ -16,17 +16,17 @@ public Border Top { get; }
 
 ### أمثلة
 
-يوضح كيفية تطبيق لون الحدود والتظليل أثناء بناء جدول.
+يوضح كيفية تطبيق لون الحدود والتظليل أثناء إنشاء الجدول.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// بدء جدول وتعيين لون / سمك افتراضي لحدوده.
+// ابدأ الجدول وقم بتعيين اللون/السمك الافتراضي لحدوده.
 Table table = builder.StartTable();
 table.SetBorders(LineStyle.Single, 2.0, Color.Black);
 
-// إنشاء صف به خليتان بألوان خلفية مختلفة.
+// أنشئ صفًا يحتوي على خليتين بألوان خلفية مختلفة.
 builder.InsertCell();
 builder.CellFormat.Shading.BackgroundPatternColor = Color.LightSkyBlue;
 builder.Writeln("Row 1, Cell 1.");
@@ -36,8 +36,8 @@ builder.Writeln("Row 1, Cell 2.");
 builder.EndRow();
 
 // إعادة تعيين تنسيق الخلية لتعطيل ألوان الخلفية
-// قم بتعيين سماكة حد مخصصة لجميع الخلايا الجديدة التي تم إنشاؤها بواسطة المنشئ ،
-// ثم بناء الصف الثاني.
+// قم بتعيين سمك حدود مخصص لجميع الخلايا الجديدة التي أنشأها المنشئ،
+// ثم أنشئ صفًا ثانيًا.
 builder.CellFormat.ClearFormatting();
 builder.CellFormat.Borders.Left.LineWidth = 4.0;
 builder.CellFormat.Borders.Right.LineWidth = 4.0;

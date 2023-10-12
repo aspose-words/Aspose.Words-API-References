@@ -3,7 +3,7 @@ title: Fill.TwoColorGradient
 second_title: Aspose.Words för .NET API Referens
 description: Fill metod. Ställer in den angivna fyllningen till en tvåfärgsgradient.
 type: docs
-weight: 210
+weight: 270
 url: /sv/net/aspose.words.drawing/fill/twocolorgradient/
 ---
 ## TwoColorGradient(GradientStyle, GradientVariant) {#twocolorgradient}

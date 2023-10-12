@@ -1,14 +1,14 @@
 ---
 title: HtmlFixedSaveOptions.PageMargins
 second_title: Aspose.Words per .NET API Reference
-description: HtmlFixedSaveOptions proprietà. Specifica i margini intorno alle pagine in un documento HTML. Il valore dei margini è misurato in punti e deve essere uguale o maggiore di 0. Il valore predefinito è 10 punti.
+description: HtmlFixedSaveOptions proprietà. Specifica i margini attorno alle pagine in un documento HTML. Il valore dei margini è misurato in punti e deve essere uguale o maggiore di 0. Il valore predefinito è 10 punti.
 type: docs
 weight: 120
 url: /it/net/aspose.words.saving/htmlfixedsaveoptions/pagemargins/
 ---
 ## HtmlFixedSaveOptions.PageMargins property
 
-Specifica i margini intorno alle pagine in un documento HTML. Il valore dei margini è misurato in punti e deve essere uguale o maggiore di 0. Il valore predefinito è 10 punti.
+Specifica i margini attorno alle pagine in un documento HTML. Il valore dei margini è misurato in punti e deve essere uguale o maggiore di 0. Il valore predefinito è 10 punti.
 
 ```csharp
 public double PageMargins { get; set; }
@@ -18,13 +18,13 @@ public double PageMargins { get; set; }
 
 Dipende dal valore di[`PageHorizontalAlignment`](../pagehorizontalalignment/) proprietà:
 
-* Definisce i margini della pagina superiore, inferiore e sinistro se il valore lo èLeft .
-* Definisce i margini della pagina superiore, inferiore e destro se il valore lo èRight .
-* Definisce i margini della pagina superiore e inferiore se il valore èCenter .
+* Definisce i margini superiore, inferiore e sinistro della pagina, se il valore lo èLeft .
+* Definisce i margini superiore, inferiore e destro della pagina, se il valore lo èRight .
+* Definisce i margini superiore e inferiore della pagina se il valore lo èCenter .
 
 ### Esempi
 
-Mostra come regolare i margini della pagina durante il salvataggio di un documento in HTML.
+Mostra come regolare i margini della pagina quando si salva un documento in HTML.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");

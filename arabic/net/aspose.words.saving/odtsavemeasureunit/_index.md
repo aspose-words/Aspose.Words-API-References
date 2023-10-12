@@ -1,14 +1,14 @@
 ---
 title: Enum OdtSaveMeasureUnit
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Saving.OdtSaveMeasureUnit تعداد. وحدات قياس محددة لتطبيقها على محتوى مستند قابل للقياس مثل الشكل والعرض وغير ذلك أثناء الحفظ.
+description: Aspose.Words.Saving.OdtSaveMeasureUnit تعداد. وحدات قياس محددة لتطبيقها على محتوى المستند القابل للقياس مثل الشكل والعروض وغيرها أثناء الحفظ.
 type: docs
-weight: 5040
+weight: 5320
 url: /ar/net/aspose.words.saving/odtsavemeasureunit/
 ---
 ## OdtSaveMeasureUnit enumeration
 
-وحدات قياس محددة لتطبيقها على محتوى مستند قابل للقياس مثل الشكل والعرض وغير ذلك أثناء الحفظ.
+وحدات قياس محددة لتطبيقها على محتوى المستند القابل للقياس مثل الشكل والعروض وغيرها أثناء الحفظ.
 
 ```csharp
 public enum OdtSaveMeasureUnit
@@ -18,21 +18,21 @@ public enum OdtSaveMeasureUnit
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| Centimeters | `0` | يحدد أن محتوى المستند يتم حفظه باستخدام سنتيمترات. |
-| Inches | `1` | تحديد أن محتوى المستند يتم حفظه باستخدام البوصة . |
+| Centimeters | `0` | يحدد حفظ محتوى المستند باستخدام السنتيمترات. |
+| Inches | `1` | يحدد حفظ محتوى المستند بالبوصة. |
 
 ### أمثلة
 
-يوضح كيفية استخدام وحدات قياس مختلفة لتحديد معلمات النمط لمستند ODT محفوظ.
+يوضح كيفية استخدام وحدات قياس مختلفة لتحديد معلمات النمط لمستند ODT المحفوظ.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// عندما نقوم بتصدير المستند إلى .odt ، يمكننا استخدام كائن OdtSaveOptions لتعديل كيفية حفظ المستند.
-// يمكننا تعيين خاصية "MeasureUnit" على "OdtSaveMeasureUnit.Centimeters"
-// لتعريف محتوى مثل معلمات النمط باستخدام النظام المتري الذي يستخدمه Open Office. 
-// يمكننا تعيين خاصية "MeasureUnit" على "OdtSaveMeasureUnit.Inches"
-// لتعريف محتوى مثل معلمات النمط باستخدام النظام الإمبراطوري الذي يستخدمه Microsoft Word.
+// عندما نقوم بتصدير المستند إلى .odt، يمكننا استخدام كائن OdtSaveOptions لتعديل كيفية حفظ المستند.
+// يمكننا ضبط خاصية "MeasureUnit" على "OdtSaveMeasureUnit.Centimeters"
+ // لتحديد المحتوى مثل معلمات النمط باستخدام النظام المتري الذي يستخدمه Open Office.
+// يمكننا ضبط خاصية "MeasureUnit" على "OdtSaveMeasureUnit.Inches"
+// لتحديد المحتوى مثل معلمات النمط باستخدام النظام الإمبراطوري الذي يستخدمه Microsoft Word.
 OdtSaveOptions saveOptions = new OdtSaveOptions
 {
     MeasureUnit = odtSaveMeasureUnit

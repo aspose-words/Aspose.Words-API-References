@@ -3,7 +3,7 @@ title: ChartAxis.TickLabelPosition
 second_title: Aspose.Words för .NET API Referens
 description: ChartAxis fast egendom. Returnerar eller ställer in ticketiketternas position på axeln.
 type: docs
-weight: 220
+weight: 240
 url: /sv/net/aspose.words.drawing.charts/chartaxis/ticklabelposition/
 ---
 ## ChartAxis.TickLabelPosition property

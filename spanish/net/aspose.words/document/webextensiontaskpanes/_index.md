@@ -3,7 +3,7 @@ title: Document.WebExtensionTaskPanes
 second_title: Referencia de API de Aspose.Words para .NET
 description: Document propiedad. Devuelve una colección que representa una lista de complementos del panel de tareas.
 type: docs
-weight: 470
+weight: 490
 url: /es/net/aspose.words/document/webextensiontaskpanes/
 ---
 ## Document.WebExtensionTaskPanes property

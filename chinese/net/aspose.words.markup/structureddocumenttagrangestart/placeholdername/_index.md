@@ -10,7 +10,7 @@ url: /zh/net/aspose.words.markup/structureddocumenttagrangestart/placeholdername
 
 获取或设置名称[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock/)包含占位符文本。
 
-具有此名称的 BuildingBlock[`Name`](../../../aspose.words.buildingblocks/buildingblock/name/)必须出现在[`GlossaryDocument`](../../../aspose.words/document/glossarydocument/) 否则InvalidOperationException会发生。
+[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock/)用这个名字[`Name`](../../../aspose.words.buildingblocks/buildingblock/name/)必须存在于[`GlossaryDocument`](../../../aspose.words/document/glossarydocument/) 否则InvalidOperationException会发生。
 
 ```csharp
 public string PlaceholderName { get; set; }
@@ -18,7 +18,7 @@ public string PlaceholderName { get; set; }
 
 ### 例子
 
-显示如何获取多节结构化文档标签的属性。
+演示如何获取多节结构化文档标签的属性。
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");

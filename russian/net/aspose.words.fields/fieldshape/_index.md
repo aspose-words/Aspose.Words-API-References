@@ -3,12 +3,14 @@ title: Class FieldShape
 second_title: Справочник по API Aspose.Words для .NET
 description: Aspose.Words.Fields.FieldShape сорт. Реализует поле SHAPE.
 type: docs
-weight: 2260
+weight: 2410
 url: /ru/net/aspose.words.fields/fieldshape/
 ---
 ## FieldShape class
 
 Реализует поле SHAPE.
+
+Чтобы узнать больше, посетите[Работа с полями](https://docs.aspose.com/words/net/working-with-fields/) статья документации.
 
 ```csharp
 public class FieldShape : Field
@@ -26,14 +28,14 @@ public class FieldShape : Field
 | --- | --- |
 | [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Получает текст, представляющий результат отображаемого поля. |
 | [End](../../aspose.words.fields/field/end/) { get; } | Получает узел, представляющий конец поля. |
-| [Format](../../aspose.words.fields/field/format/) { get; } | Получает[`FieldFormat`](../fieldformat/) объект, предоставляющий типизированный доступ к форматированию поля. |
-| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Получает или устанавливает, является ли текущий результат поля более неверным (устаревшим) из-за других изменений, внесенных в документ. |
-| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Получает или задает, заблокировано ли поле (не следует пересчитывать его результат). |
+| [Format](../../aspose.words.fields/field/format/) { get; } | Получает[`FieldFormat`](../fieldformat/) объект, обеспечивающий типизированный доступ к форматированию поля. |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Получает или устанавливает, является ли текущий результат поля более неправильным (устаревшим) из-за других изменений, внесенных в документ. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Получает или задает, заблокировано ли поле (не следует пересчитывать результат). |
 | [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Получает или задает LCID поля. |
-| [Result](../../aspose.words.fields/field/result/) { get; set; } | Получает или задает текст, который находится между разделителем поля и концом поля. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | Получает узел, представляющий разделитель полей. Может быть нулевым. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | Получает или задает текст, расположенный между разделителем полей и концом поля. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Получает узел, представляющий разделитель полей. Возможно`нулевой` . |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Получает узел, представляющий начало поля. |
-| [Text](../../aspose.words.fields/fieldshape/text/) { get; set; } | Получает или задает текст для извлечения. |
+| [Text](../../aspose.words.fields/fieldshape/text/) { get; set; } | Получает или задает извлекаемый текст. |
 | virtual [Type](../../aspose.words.fields/field/type/) { get; } | Получает тип поля Microsoft Word. |
 
 ## Методы
@@ -42,8 +44,8 @@ public class FieldShape : Field
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Возвращает текст между началом поля и разделителем поля (или концом поля, если разделителя нет). Включены как код поля, так и результат поля дочерних полей. |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Возвращает текст между началом поля и разделителем полей (или концом поля, если разделителя нет). |
-| [Remove](../../aspose.words.fields/field/remove/)() | Удаляет поле из документа. Возвращает узел сразу после поля. Если конец поля является последним child его родительского узла, возвращает его родительский абзац. Если поле уже удалено, возвращает **нулевой** . |
-| [Unlink](../../aspose.words.fields/field/unlink/)() | Выполняет развязку поля. |
+| [Remove](../../aspose.words.fields/field/remove/)() | Удаляет поле из документа. Возвращает узел сразу после поля. Если конец поля является последним дочерним его родительского узла, возвращает его родительский абзац. Если поле уже удалено, возвращается`нулевой` . |
+| [Unlink](../../aspose.words.fields/field/unlink/)() | Выполняет отсоединение поля. |
 | [Update](../../aspose.words.fields/field/update/)() | Выполняет обновление поля. Выдает, если поле уже обновляется. |
 | [Update](../../aspose.words.fields/field/update/)(bool) | Выполняет обновление поля. Выдает, если поле уже обновляется. |
 
@@ -53,48 +55,48 @@ public class FieldShape : Field
 
 ### Примеры
 
-Показывает, как создавать совместимые с языком списки с написанием справа налево с полями BIDIOUTLINE.
+Показывает, как создавать совместимые с языками списки с письмом справа налево с полями BIDIOUTLINE.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Поле BIDIOUTLINE нумерует абзацы, как поля AUTONUM/LISTNUM,
-// но отображается только при включенном языке редактирования справа налево, таком как иврит или арабский.
-// Следующее поле будет отображать ".1", RTL-эквивалент номера списка "1.".
+// Поле BIDIOUTLINE нумерует абзацы так же, как поля AUTONUM/LISTNUM,
+// но отображается только в том случае, если включен язык редактирования справа налево, например иврит или арабский.
+// В следующем поле будет отображаться «.1», RTL-эквивалент номера списка «1.».
 FieldBidiOutline field = (FieldBidiOutline)builder.InsertField(FieldType.FieldBidiOutline, true);
 builder.Writeln("שלום");
 
 Assert.AreEqual(" BIDIOUTLINE ", field.GetFieldCode());
 
-// Добавьте еще два поля BIDIOUTLINE, которые будут отображать ".2" и ".3".
+// Добавляем еще два поля BIDIOUTLINE, в которых будут отображаться «.2» и «.3».
 builder.InsertField(FieldType.FieldBidiOutline, true);
 builder.Writeln("שלום");
 builder.InsertField(FieldType.FieldBidiOutline, true);
 builder.Writeln("שלום");
 
-// Установить горизонтальное выравнивание текста для каждого абзаца в документе на RTL.
+// Установите горизонтальное выравнивание текста для каждого абзаца документа на RTL.
 foreach (Paragraph para in doc.GetChildNodes(NodeType.Paragraph, true))
 {
     para.ParagraphFormat.Bidi = true;
 }
 
-// Если мы включим язык редактирования справа налево в Microsoft Word, наши поля будут отображать числа.
-// В противном случае они будут отображать "###".
+// Если мы включим в Microsoft Word язык редактирования справа налево, в наших полях будут отображаться числа.
+// В противном случае они отобразят «###».
 doc.Save(ArtifactsDir + "Field.BIDIOUTLINE.docx");
 ```
 
-Показывает, как некоторые старые поля Microsoft Word, такие как SHAPE и EMBED, обрабатываются во время загрузки.
+Показывает, как обрабатываются во время загрузки некоторые старые поля Microsoft Word, такие как SHAPE и EMBED.
 
 ```csharp
 // Откройте документ, созданный в Microsoft Word 2003.
 Document doc = new Document(MyDir + "Legacy fields.doc");
 
-// Если мы откроем документ Word и нажмем Alt+F9, мы увидим ФОРМУ и поле ВСТАВИТЬ.
-// Поле SHAPE является якорем/холстом для объекта AutoShape с включенным стилем обтекания "В соответствии с текстом".
-// Поле EMBED имеет ту же функцию, но для встроенного объекта
+// Если мы откроем документ Word и нажмем Alt+F9, мы увидим ФОРМУ и поле EMBED.
+// Поле SHAPE — это привязка/холст для объекта AutoShape с включенным стилем переноса «В соответствии с текстом».
+// Поле EMBED имеет ту же функцию, но для встроенного объекта:
 // например, электронная таблица из внешнего документа Excel.
-// Однако эти поля не будут отображаться в коллекции Fields документа.
+// Однако эти поля не появятся в коллекции Fields документа.
 Assert.AreEqual(0, doc.Range.Fields.Count);
 
 // Эти поля поддерживаются только старыми версиями Microsoft Word.
@@ -112,7 +114,7 @@ Assert.AreEqual(ShapeType.Image, shape.ShapeType);
 shape = (Shape)shapes[1];
 Assert.AreEqual(ShapeType.Can, shape.ShapeType);
 
-// Третья форма — это то, что было полем EMBED, содержащим внешнюю электронную таблицу.
+// Третья форма — это поле EMBED, содержащее внешнюю электронную таблицу.
 shape = (Shape)shapes[2];
 Assert.AreEqual(ShapeType.OleObject, shape.ShapeType);
 ```

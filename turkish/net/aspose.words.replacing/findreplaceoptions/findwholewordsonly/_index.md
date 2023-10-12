@@ -8,7 +8,7 @@ url: /tr/net/aspose.words.replacing/findreplaceoptions/findwholewordsonly/
 ---
 ## FindReplaceOptions.FindWholeWordsOnly property
 
-True, eskiDeğerin bağımsız bir sözcük olması gerektiğini belirtir.
+True, eskiDeğer'in bağımsız bir sözcük olması gerektiğini belirtir.
 
 ```csharp
 public bool FindWholeWordsOnly { get; set; }
@@ -16,7 +16,7 @@ public bool FindWholeWordsOnly { get; set; }
 
 ### Örnekler
 
-Yalnızca sözcükten oluşan bağımsız bul ve değiştir işlemlerinin nasıl değiştirileceğini gösterir.
+Bağımsız salt sözcük bul ve değiştir işlemlerinin nasıl değiştirileceğini gösterir.
 
 ```csharp
 Document doc = new Document();

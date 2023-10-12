@@ -16,7 +16,7 @@ public bool BiLevel { get; set; }
 
 ### Anmärkningar
 
-Standardvärdet är **falsk**.
+Standardvärdet är`falsk`.
 
 ### Exempel
 

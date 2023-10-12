@@ -1,14 +1,14 @@
 ---
 title: Shape.Shape
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Shape constructeur. Crée un nouvel objet forme.
+description: Shape constructeur. Crée un nouvel objet de forme.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.drawing/shape/shape/
 ---
 ## Shape constructor
 
-Crée un nouvel objet forme.
+Crée un nouvel objet de forme.
 
 ```csharp
 public Shape(DocumentBase doc, ShapeType shapeType)
@@ -17,7 +17,7 @@ public Shape(DocumentBase doc, ShapeType shapeType)
 | Paramètre | Taper | La description |
 | --- | --- | --- |
 | doc | DocumentBase | Le document du propriétaire. |
-| shapeType | ShapeType | Type de forme à créer. |
+| shapeType | ShapeType | Le type de forme à créer. |
 
 ### Remarques
 
@@ -44,7 +44,7 @@ doc.FirstSection.Body.FirstParagraph.AppendChild(shape);
 doc.Save(ArtifactsDir + "Image.FromFile.docx");
 ```
 
-Montre comment créer et mettre en forme une zone de texte.
+Montre comment créer et formater une zone de texte.
 
 ```csharp
 Document doc = new Document();
@@ -59,7 +59,7 @@ textBox.Width = 200;
 textBox.HorizontalAlignment = HorizontalAlignment.Center;
 textBox.VerticalAlignment = VerticalAlignment.Top;
 
-// Ajoute un paragraphe à la zone de texte et ajoute une suite de texte que la zone de texte affichera.
+// Ajoutez un paragraphe à la zone de texte et ajoutez une séquence de texte que la zone de texte affichera.
 textBox.AppendChild(new Paragraph(doc));
 Paragraph para = textBox.FirstParagraph;
 para.ParagraphFormat.Alignment = ParagraphAlignment.Center;

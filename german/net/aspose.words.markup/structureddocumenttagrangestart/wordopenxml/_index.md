@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTagRangeStart.WordOpenXML
 second_title: Aspose.Words für .NET-API-Referenz
-description: StructuredDocumentTagRangeStart eigendom. Ruft eine Zeichenfolge ab die das XML darstellt das im Knoten in der enthalten istFlatOpc format.
+description: StructuredDocumentTagRangeStart eigendom. Ruft eine Zeichenfolge ab die das im Knoten im enthaltene XML darstelltFlatOpc format.
 type: docs
 weight: 170
 url: /de/net/aspose.words.markup/structureddocumenttagrangestart/wordopenxml/
 ---
 ## StructuredDocumentTagRangeStart.WordOpenXML property
 
-Ruft eine Zeichenfolge ab, die das XML darstellt, das im Knoten in der enthalten istFlatOpc format.
+Ruft eine Zeichenfolge ab, die das im Knoten im enthaltene XML darstelltFlatOpc format.
 
 ```csharp
 public string WordOpenXML { get; }

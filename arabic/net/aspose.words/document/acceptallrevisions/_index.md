@@ -3,7 +3,7 @@ title: Document.AcceptAllRevisions
 second_title: Aspose.Words لمراجع .NET API
 description: Document طريقة. قبول كافة التغييرات المتعقبة في المستند.
 type: docs
-weight: 500
+weight: 520
 url: /ar/net/aspose.words/document/acceptallrevisions/
 ---
 ## Document.AcceptAllRevisions method
@@ -16,17 +16,17 @@ public void AcceptAllRevisions()
 
 ### ملاحظات
 
-هذه الطريقة هي اختصار لـ[`AcceptAll`](../../revisioncollection/acceptall/).
+هذه الطريقة هي اختصار ل[`AcceptAll`](../../revisioncollection/acceptall/).
 
 ### أمثلة
 
-يوضح كيفية قبول كافة تغييرات التعقب في المستند.
+يوضح كيفية قبول جميع تغييرات التتبع في المستند.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// قم بتحرير المستند أثناء تعقب التغييرات لإنشاء بعض المراجعات.
+// قم بتحرير المستند أثناء تتبع التغييرات لإنشاء بعض المراجعات.
 doc.StartTrackRevisions("John Doe");
 builder.Write("Hello world! ");
 builder.Write("Hello again! "); 
@@ -35,8 +35,8 @@ doc.StopTrackRevisions();
 
 Assert.AreEqual(3, doc.Revisions.Count);
 
-// يمكننا تكرار كل مراجعة وقبولها / رفضها كجزء من وثيقتنا.
-// إذا علمنا أننا نرغب في قبول كل مراجعة ، فيمكننا القيام بذلك بشكل أكثر وضوحًا عن طريق استدعاء هذه الطريقة.
+// يمكننا تكرار كل مراجعة وقبولها/رفضها كجزء من وثيقتنا.
+// إذا علمنا أننا نرغب في قبول كل مراجعة، فيمكننا القيام بذلك بشكل أكثر وضوحًا عن طريق استدعاء هذه الطريقة.
 doc.AcceptAllRevisions();
 
 Assert.AreEqual(0, doc.Revisions.Count);

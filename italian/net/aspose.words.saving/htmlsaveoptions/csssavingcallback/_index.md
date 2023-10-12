@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.CssSavingCallback
 second_title: Aspose.Words per .NET API Reference
-description: HtmlSaveOptions proprietà. Consente di controllare come vengono salvati gli stili CSS quando un documento viene salvato in HTML MHTML o EPUB.
+description: HtmlSaveOptions proprietà. Permette di controllare come vengono salvati gli stili CSS quando un documento viene salvato in HTML MHTML o EPUB.
 type: docs
 weight: 40
 url: /it/net/aspose.words.saving/htmlsaveoptions/csssavingcallback/
 ---
 ## HtmlSaveOptions.CssSavingCallback property
 
-Consente di controllare come vengono salvati gli stili CSS quando un documento viene salvato in HTML, MHTML o EPUB.
+Permette di controllare come vengono salvati gli stili CSS quando un documento viene salvato in HTML, MHTML o EPUB.
 
 ```csharp
 public ICssSavingCallback CssSavingCallback { get; set; }
@@ -32,7 +32,7 @@ public void ExternalCssFilenames()
     options.CssStyleSheetType = CssStyleSheetType.External;
 
     // Di seguito sono riportati due modi per specificare directory e nomi di file per i fogli di stile CSS di output.
-    // 1 - Usa la proprietà "CssStyleSheetFileName" per assegnare un nome file al nostro foglio di stile:
+    // 1 - Utilizza la proprietà "CssStyleSheetFileName" per assegnare un nome file al nostro foglio di stile:
     options.CssStyleSheetFileName = ArtifactsDir + "SavingCallback.ExternalCssFilenames.css";
 
     // 2 - Usa un callback personalizzato per nominare il nostro foglio di stile:
@@ -56,7 +56,7 @@ private class CustomCssSavingCallback : ICssSavingCallback
 
     public void CssSaving(CssSavingArgs args)
     {
-        // Possiamo accedere all'intero documento sorgente tramite la proprietà "Documento".
+        // Possiamo accedere all'intero documento sorgente tramite la proprietà "Document".
         Assert.True(args.Document.OriginalFileName.EndsWith("Rendering.docx"));
 
         args.CssStream = new FileStream(mCssTextFileName, FileMode.Create);

@@ -1,14 +1,14 @@
 ---
 title: Enum EmbeddedFontStyle
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fonts.EmbeddedFontStyle تعداد. يحدد نمط الخط المضمن داخل ملفFontInfo الكائن .
+description: Aspose.Words.Fonts.EmbeddedFontStyle تعداد. يحدد نمط الخط المضمن داخل ملفFontInfo الكائن.
 type: docs
-weight: 2680
+weight: 2860
 url: /ar/net/aspose.words.fonts/embeddedfontstyle/
 ---
 ## EmbeddedFontStyle enumeration
 
-يحدد نمط الخط المضمن داخل ملف[`FontInfo`](../fontinfo/) الكائن .
+يحدد نمط الخط المضمن داخل ملف[`FontInfo`](../fontinfo/) الكائن.
 
 ```csharp
 [Flags]
@@ -20,9 +20,9 @@ public enum EmbeddedFontStyle
 | اسم | قيمة | وصف |
 | --- | --- | --- |
 | Regular | `0` | يحدد الخط المضمن العادي. |
-| Bold | `1` | يحدد الخط المضمن الغامق . |
+| Bold | `1` | يحدد الخط المضمن غامق. |
 | Italic | `2` | يحدد الخط المائل المضمن. |
-| BoldItalic | `3` | يحدد الخط المضمن بالخط العريض-المائل . |
+| BoldItalic | `3` | يحدد الخط المضمن الغامق والمائل. |
 
 ### أمثلة
 
@@ -42,7 +42,7 @@ doc = new Document(MyDir + "Embedded font.doc");
 Assert.IsNull(doc.FontInfos["Alte DIN 1451 Mittelschrift"].GetEmbeddedFont(EmbeddedFontFormat.OpenType, EmbeddedFontStyle.Regular));
 Assert.IsNotNull(doc.FontInfos["Alte DIN 1451 Mittelschrift"].GetEmbeddedFont(EmbeddedFontFormat.EmbeddedOpenType, EmbeddedFontStyle.Regular));
 
-// أيضًا ، يمكننا تحويل تنسيق OpenType المضمن ، والذي يأتي من مستندات doc. ، إلى OpenType.
+// أيضًا، يمكننا تحويل تنسيق OpenType المضمن، والذي يأتي من مستندات ‎.doc، إلى OpenType.
 embeddedFontBytes = doc.FontInfos["Alte DIN 1451 Mittelschrift"].GetEmbeddedFontAsOpenType(EmbeddedFontStyle.Regular);
 
 File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.otf", embeddedFontBytes);

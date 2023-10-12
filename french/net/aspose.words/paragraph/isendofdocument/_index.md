@@ -37,7 +37,7 @@ paragraphFormat.AddSpaceBetweenFarEastAndDigit = true;
 paragraphFormat.KeepTogether = true;
 
 // La méthode "Writeln" termine le paragraphe après avoir ajouté du texte
-// puis commence une nouvelle ligne, en ajoutant un nouveau paragraphe.
+// puis commence une nouvelle ligne, ajoutant un nouveau paragraphe.
 builder.Writeln("Hello world!");
 
 Assert.True(builder.CurrentParagraph.IsEndOfDocument);

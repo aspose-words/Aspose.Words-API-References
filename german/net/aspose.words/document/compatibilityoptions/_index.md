@@ -1,14 +1,14 @@
 ---
 title: Document.CompatibilityOptions
 second_title: Aspose.Words für .NET-API-Referenz
-description: Document eigendom. Bietet Zugriff auf Dokumentkompatibilitätsoptionen d. h. die Benutzereinstellungen die auf der Kompatibilität Registerkarte der Optionen Dialog in Word.
+description: Document eigendom. Bietet Zugriff auf Dokumentkompatibilitätsoptionen d. h. die Benutzereinstellungen die im eingegeben wurden. Kompatibilität Registerkarte des Optionen Dialog in Word.
 type: docs
 weight: 50
 url: /de/net/aspose.words/document/compatibilityoptions/
 ---
 ## Document.CompatibilityOptions property
 
-Bietet Zugriff auf Dokumentkompatibilitätsoptionen (d. h. die Benutzereinstellungen, die auf der **Kompatibilität** Registerkarte der **Optionen** Dialog in Word).
+Bietet Zugriff auf Dokumentkompatibilitätsoptionen (d. h. die Benutzereinstellungen, die im eingegeben wurden). **Kompatibilität** Registerkarte des **Optionen** Dialog in Word).
 
 ```csharp
 public CompatibilityOptions CompatibilityOptions { get; }
@@ -27,11 +27,11 @@ public void OptimizeFor()
     // die es uns ermöglichen, die Abwärtskompatibilität mit älteren Versionen von Microsoft Word zu erleichtern.
     CompatibilityOptions options = doc.CompatibilityOptions;
 
-    // Drucken Sie die Standardeinstellungen für ein leeres Dokument.
+    // Standardeinstellungen für ein leeres Dokument drucken.
     Console.WriteLine("\nDefault optimization settings:");
     PrintCompatibilityOptions(options);
 
-    // Auf diese Einstellungen können wir in Microsoft Word über "Datei" -> "Optionen" -> "Erweitert" -> "Kompatibilitätsoptionen für...".
+    // Auf diese Einstellungen können wir in Microsoft Word über „Datei“ -> zugreifen. „Optionen“ -> „Erweitert“ –> „Kompatibilitätsoptionen für…“.
     doc.Save(ArtifactsDir + "CompatibilityOptions.OptimizeFor.DefaultSettings.docx");
 
     // Wir können die OptimizeFor-Methode verwenden, um eine optimale Kompatibilität mit einer bestimmten Microsoft Word-Version sicherzustellen.

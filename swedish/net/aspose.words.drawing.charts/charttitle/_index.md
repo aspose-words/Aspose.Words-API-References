@@ -3,12 +3,14 @@ title: Class ChartTitle
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Drawing.Charts.ChartTitle klass. Ger tillgång till egenskaperna för diagramtiteln.
 type: docs
-weight: 750
+weight: 820
 url: /sv/net/aspose.words.drawing.charts/charttitle/
 ---
 ## ChartTitle class
 
 Ger tillgång till egenskaperna för diagramtiteln.
+
+För att lära dig mer, besök[Arbeta med diagram](https://docs.aspose.com/words/net/working-with-charts/) dokumentationsartikel.
 
 ```csharp
 public class ChartTitle
@@ -18,9 +20,10 @@ public class ChartTitle
 
 | namn | Beskrivning |
 | --- | --- |
-| [Overlay](../../aspose.words.drawing.charts/charttitle/overlay/) { get; set; } | Bestämmer om andra diagramelement ska tillåtas överlappa titeln. Som standard är överlagringen falsk. |
-| [Show](../../aspose.words.drawing.charts/charttitle/show/) { get; set; } | Bestämmer om titeln ska visas för detta diagram. Standardvärdet är sant. |
-| [Text](../../aspose.words.drawing.charts/charttitle/text/) { get; set; } | Hämtar eller ställer in texten i diagramtiteln. Om null eller tomt värde anges, kommer automatiskt genererad titel att visas. |
+| [Font](../../aspose.words.drawing.charts/charttitle/font/) { get; } |  |
+| [Overlay](../../aspose.words.drawing.charts/charttitle/overlay/) { get; set; } | Bestämmer om andra diagramelement ska tillåtas att överlappa titel. Som standard är överlagring`falsk` . |
+| [Show](../../aspose.words.drawing.charts/charttitle/show/) { get; set; } | Bestämmer om titeln ska visas för detta diagram. Standardvärdet är`Sann` . |
+| [Text](../../aspose.words.drawing.charts/charttitle/text/) { get; set; } | Hämtar eller ställer in texten i diagrammets titel. Om`null` eller tomt värde anges, kommer automatiskt genererad titel att visas. |
 
 ### Exempel
 
@@ -38,7 +41,7 @@ Chart chart = chartShape.Chart;
 ChartTitle title = chart.Title;
 title.Text = "My Chart";
 
-  // Ställ in egenskapen "Show" till "true" för att göra titeln synlig.
+ // Ställ in egenskapen "Show" till "true" för att göra titeln synlig.
 title.Show = true;
 
 // Ställ in egenskapen "Overlay" på "true" Ge andra diagramelement mer utrymme genom att tillåta dem att överlappa titeln

@@ -3,7 +3,7 @@ title: Enum ImagePixelFormat
 second_title: Aspose.Words für .NET-API-Referenz
 description: Aspose.Words.Saving.ImagePixelFormat opsomming. Gibt das Pixelformat für die generierten Bilder von Dokumentseiten an.
 type: docs
-weight: 4960
+weight: 5220
 url: /de/net/aspose.words.saving/imagepixelformat/
 ---
 ## ImagePixelFormat enumeration
@@ -32,7 +32,7 @@ public enum ImagePixelFormat
 
 ### Beispiele
 
-Zeigt, wie Sie eine Bit-pro-Pixel-Rate auswählen, mit der ein Dokument in ein Bild gerendert wird.
+Zeigt, wie Sie eine Bit-pro-Pixel-Rate auswählen, mit der ein Dokument in ein Bild gerendert werden soll.
 
 ```csharp
 Document doc = new Document();
@@ -45,7 +45,7 @@ Document doc = new Document();
             Assert.That(20000, Is.LessThan(new FileInfo(ImageDir + "Logo.jpg").Length));
 
             // Wenn wir das Dokument als Bild speichern, können wir ein SaveOptions-Objekt an übergeben
-            // Wählen Sie ein Pixelformat für das Bild aus, das der Speichervorgang generiert.
+            // Wählen Sie ein Pixelformat für das Bild aus, das durch den Speichervorgang generiert wird.
             // Verschiedene Bit-pro-Pixel-Raten wirken sich auf die Qualität und Dateigröße des generierten Bildes aus.
             ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFormat.Png);
             imageSaveOptions.PixelFormat = imagePixelFormat;

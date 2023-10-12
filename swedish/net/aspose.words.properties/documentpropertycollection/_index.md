@@ -3,12 +3,14 @@ title: Class DocumentPropertyCollection
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Properties.DocumentPropertyCollection klass. Basklass förBuiltInDocumentProperties ochCustomDocumentProperties samlingar.
 type: docs
-weight: 4230
+weight: 4480
 url: /sv/net/aspose.words.properties/documentpropertycollection/
 ---
 ## DocumentPropertyCollection class
 
 Basklass för[`BuiltInDocumentProperties`](../builtindocumentproperties/) och[`CustomDocumentProperties`](../customdocumentproperties/) samlingar.
+
+För att lära dig mer, besök[Arbeta med dokumentegenskaper](https://docs.aspose.com/words/net/work-with-document-properties/) dokumentationsartikel.
 
 ```csharp
 public abstract class DocumentPropertyCollection : IEnumerable<DocumentProperty>
@@ -27,7 +29,7 @@ public abstract class DocumentPropertyCollection : IEnumerable<DocumentProperty>
 | namn | Beskrivning |
 | --- | --- |
 | [Clear](../../aspose.words.properties/documentpropertycollection/clear/)() | Tar bort alla egenskaper från samlingen. |
-| [Contains](../../aspose.words.properties/documentpropertycollection/contains/)(string) | Returnerar sant om en egenskap med det angivna namnet finns i samlingen. |
+| [Contains](../../aspose.words.properties/documentpropertycollection/contains/)(string) | Returnerar`Sann` om en egenskap med det angivna namnet finns i samlingen. |
 | [GetEnumerator](../../aspose.words.properties/documentpropertycollection/getenumerator/)() | Returnerar ett uppräkningsobjekt som kan användas för att iterera över alla objekt i samlingen. |
 | [IndexOf](../../aspose.words.properties/documentpropertycollection/indexof/)(string) | Hämtar indexet för en egenskap efter namn. |
 | [Remove](../../aspose.words.properties/documentpropertycollection/remove/)(string) | Tar bort en egenskap med det angivna namnet från samlingen. |

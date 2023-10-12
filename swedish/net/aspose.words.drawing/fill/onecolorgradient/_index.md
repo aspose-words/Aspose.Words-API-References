@@ -3,7 +3,7 @@ title: Fill.OneColorGradient
 second_title: Aspose.Words för .NET API Referens
 description: Fill metod. Ställer in den angivna fyllningen till en enfärgsgradient.
 type: docs
-weight: 160
+weight: 220
 url: /sv/net/aspose.words.drawing/fill/onecolorgradient/
 ---
 ## OneColorGradient(GradientStyle, GradientVariant, double) {#onecolorgradient}

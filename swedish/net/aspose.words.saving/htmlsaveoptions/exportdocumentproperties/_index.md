@@ -3,7 +3,7 @@ title: HtmlSaveOptions.ExportDocumentProperties
 second_title: Aspose.Words för .NET API Referens
 description: HtmlSaveOptions fast egendom. Anger om inbyggda och anpassade dokumentegenskaper ska exporteras till HTML MHTML eller EPUB. Standardvärdet ärfalsk .
 type: docs
-weight: 130
+weight: 120
 url: /sv/net/aspose.words.saving/htmlsaveoptions/exportdocumentproperties/
 ---
 ## HtmlSaveOptions.ExportDocumentProperties property

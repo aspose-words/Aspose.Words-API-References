@@ -1,14 +1,14 @@
 ---
 title: Shape.Chart
 second_title: Aspose.Words لمراجع .NET API
-description: Shape ملكية. يوفر الوصول إلى خصائص المخطط إذا كان هذا الشكل يحتوي على مخطط .
+description: Shape ملكية. يوفر الوصول إلى خصائص المخطط إذا كان هذا الشكل يحتوي علىChart .
 type: docs
 weight: 20
 url: /ar/net/aspose.words.drawing/shape/chart/
 ---
 ## Shape.Chart property
 
-يوفر الوصول إلى خصائص المخطط إذا كان هذا الشكل يحتوي على مخطط .
+يوفر الوصول إلى خصائص المخطط إذا كان هذا الشكل يحتوي على[`Chart`](../../../aspose.words.drawing.charts/chart/) .
 
 ```csharp
 public Chart Chart { get; }
@@ -16,13 +16,14 @@ public Chart Chart { get; }
 
 ### ملاحظات
 
-هذه الخاصية ستعيد ال`Chart` كائن فقط إذا[`HasChart`](../haschart/) الخاصية صحيحة لهذا الشكل ، وستطرح استثناءً بخلاف ذلك.
+سوف تقوم هذه الخاصية بإرجاع[`Chart`](../../../aspose.words.drawing.charts/chart/) كائن فقط إذا[`HasChart`](../haschart/) الخاصية هي`حقيقي` لهذا[`Shape`](../)، وسوف يطرح استثناءً بخلاف ذلك.
 
 ### أمثلة
 
-يوضح كيفية التكرار على كل الأشكال في المستند.
+يوضح كيفية التكرار على كافة الأشكال في المستند.
 
 ```csharp
+public void VisitShapes()
 {
     Document doc = new Document(MyDir + "Revision shape.docx");
     ShapeAppearancePrinter visitor = new ShapeAppearancePrinter();
@@ -44,7 +45,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// تلحق سطرًا بـ StringBuilder بحرف جدولة واحد مضاف مسبقًا لكل مستوى مسافة بادئة.
+    /// يُلحق سطرًا بـ StringBuilder بحرف جدولة مُسبق لكل مستوى مسافة بادئة.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -54,7 +55,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// إرجاع كل النص الذي قام StringBuilder بتجميعه.
+    /// قم بإرجاع كل النص الذي قام StringBuilder بتجميعه.
     /// </summary>
     public string GetText()
     {
@@ -110,7 +111,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاستدعاء عندما يزور هذا الزائر بداية عقدة GroupShape.
+    /// يتم الاتصال به عندما يزور هذا الزائر بداية عقدة GroupShape.
     /// </summary>
     public override VisitorAction VisitGroupShapeStart(GroupShape groupShape)
     {
@@ -121,7 +122,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاستدعاء عندما يزور هذا الزائر نهاية عقدة GroupShape.
+    /// يتم الاتصال به عندما يزور هذا الزائر نهاية عقدة GroupShape.
     /// </summary>
     public override VisitorAction VisitGroupShapeEnd(GroupShape groupShape)
     {

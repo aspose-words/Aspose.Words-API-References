@@ -11,12 +11,12 @@ url: /fr/net/aspose.words.drawing.ole/forms2olecontrol/childnodes/
 Obtient la collection de contrôles enfants immédiats.
 
 ```csharp
-public Forms2OleControlCollection ChildNodes { get; }
+public virtual Forms2OleControlCollection ChildNodes { get; }
 ```
 
 ### Remarques
 
-Retour **nul** si ce contrôle ne peut pas avoir d'enfants.
+Retour`nul` si ce contrôle ne peut pas avoir d'enfants.
 
 ### Exemples
 
@@ -28,7 +28,7 @@ Document doc = new Document(MyDir + "ActiveX controls.docx");
 Shape shape = (Shape) doc.GetChild(NodeType.Shape, 0, true);
 OleControl oleControl = shape.OleFormat.OleControl;
 
-Assert.AreEqual(null, oleControl.Name);
+Assert.AreEqual("CheckBox1", oleControl.Name);
 
 if (oleControl.IsForms2OleControl)
 {
@@ -38,6 +38,10 @@ if (oleControl.IsForms2OleControl)
     Assert.AreEqual(true, checkBox.Enabled);
     Assert.AreEqual(Forms2OleControlType.CheckBox, checkBox.Type);
     Assert.AreEqual(null, checkBox.ChildNodes);
+    Assert.AreEqual(string.Empty, checkBox.GroupName);
+
+    // Notez que vous ne pouvez pas définir GroupName pour un Frame.
+    checkBox.GroupName = "Aspose group name";
 }
 ```
 

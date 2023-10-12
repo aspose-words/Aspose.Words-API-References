@@ -1,14 +1,14 @@
 ---
 title: List.GetHashCode
 second_title: Aspose.Words لمراجع .NET API
-description: List طريقة. حساب كود التجزئة لكائن القائمة هذا.
+description: List طريقة. لحساب رمز التجزئة لكائن القائمة هذا.
 type: docs
 weight: 110
 url: /ar/net/aspose.words.lists/list/gethashcode/
 ---
 ## List.GetHashCode method
 
-حساب كود التجزئة لكائن القائمة هذا.
+لحساب رمز التجزئة لكائن القائمة هذا.
 
 ```csharp
 public override int GetHashCode()

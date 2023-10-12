@@ -27,7 +27,7 @@ bool isWindows = new[] {PlatformID.Win32NT, PlatformID.Win32S, PlatformID.Win32W
     .Any(p => Environment.OSVersion.Platform == p);
 
 // L'oggetto FontConfigSubstitutionRule funziona in modo diverso su piattaforme Windows/non Windows.
-// Su Windows, non è disponibile.
+// Su Windows non è disponibile.
 if (isWindows)
 {
     Assert.False(fontConfigSubstitution.Enabled);
@@ -37,7 +37,7 @@ if (isWindows)
 bool isLinuxOrMac =
     new[] {PlatformID.Unix, PlatformID.MacOSX}.Any(p => Environment.OSVersion.Platform == p);
 
-// Su Linux/Mac, avremo accesso ad esso e saremo in grado di eseguire operazioni.
+// Su Linux/Mac avremo accesso ad esso e saremo in grado di eseguire operazioni.
 if (isLinuxOrMac)
 {
     Assert.True(fontConfigSubstitution.Enabled);

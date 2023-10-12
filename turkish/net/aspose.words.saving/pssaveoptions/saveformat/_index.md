@@ -16,15 +16,15 @@ public override SaveFormat SaveFormat { get; set; }
 
 ### Örnekler
 
-Bir belgenin kitap katlama biçiminde Postscript biçiminde nasıl kaydedileceğini gösterir.
+Bir belgenin Postscript formatında kitap katlama biçiminde nasıl kaydedileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraphs.docx");
 
-// Belgenin "Kaydet" yöntemine aktarabileceğimiz bir "PsSaveOptions" nesnesi oluşturun
-// bu yöntemin belgeyi PostScript'e dönüştürme şeklini değiştirmek için.
+// Belgenin "Save" yöntemine aktarabileceğimiz bir "PsSaveOptions" nesnesi oluşturun
+// bu yöntemin belgeyi PostScript'e dönüştürme biçimini değiştirmek için.
 // İçeriği düzenlemek için "UseBookFoldPrintingSettings" özelliğini "true" olarak ayarlayın
-// Çıktı Postscript belgesinde bir kitapçık yapmamıza yardımcı olacak şekilde.
+// çıktı Postscript belgesinde, bundan bir kitapçık oluşturmamıza yardımcı olacak şekilde.
 // Belgeyi normal şekilde kaydetmek için "UseBookFoldPrintingSettings" özelliğini "false" olarak ayarlayın.
 PsSaveOptions saveOptions = new PsSaveOptions
 {
@@ -32,14 +32,14 @@ PsSaveOptions saveOptions = new PsSaveOptions
     UseBookFoldPrintingSettings = renderTextAsBookFold
 };
 
-// Belgeyi kitapçık olarak oluşturuyorsak "MultiplePages" ayarını yapmalıyız.
-// "MultiplePagesType.BookFoldPrinting" için tüm bölümlerin sayfa kurulum nesnelerinin özellikleri.
+// Eğer belgeyi kitapçık olarak işliyorsak "Birden Çok Sayfa" ayarını yapmalıyız
+// tüm bölümlerin sayfa kurulum nesnelerinin özelliklerini "MultiplePagesType.BookFoldPrinting" olarak ayarlayın.
 foreach (Section s in doc.Sections)
 {
     s.PageSetup.MultiplePages = MultiplePagesType.BookFoldPrinting;
 }
 
-// Bu belgeyi sayfaların her iki tarafına da yazdırdığımızda, tüm sayfaları bir kerede ortadan aşağı doğru katlayabiliriz,
+// Bu belgeyi sayfaların her iki tarafına da yazdırdıktan sonra tüm sayfaları aynı anda ortadan katlayabiliriz,
 // ve içerikler kitapçık oluşturacak şekilde sıralanacaktır.
 doc.Save(ArtifactsDir + "PsSaveOptions.UseBookFoldPrintingSettings.ps", saveOptions);
 ```

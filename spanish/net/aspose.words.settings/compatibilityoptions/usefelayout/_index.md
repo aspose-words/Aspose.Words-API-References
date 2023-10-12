@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.UseFELayout
 second_title: Referencia de API de Aspose.Words para .NET
-description: CompatibilityOptions propiedad. No omitir el código de diseño de secuencia de comandos complejo/de Asia oriental.
+description: CompatibilityOptions propiedad. No omitir el código de diseño de script complejo/de Asia oriental.
 type: docs
 weight: 620
 url: /es/net/aspose.words.settings/compatibilityoptions/usefelayout/
 ---
 ## CompatibilityOptions.UseFELayout property
 
-No omitir el código de diseño de secuencia de comandos complejo/de Asia oriental.
+No omitir el código de diseño de script complejo/de Asia oriental.
 
 ```csharp
 public bool UseFELayout { get; set; }

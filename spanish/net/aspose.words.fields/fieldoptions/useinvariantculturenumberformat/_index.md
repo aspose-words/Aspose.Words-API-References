@@ -1,14 +1,14 @@
 ---
 title: FieldOptions.UseInvariantCultureNumberFormat
 second_title: Referencia de API de Aspose.Words para .NET
-description: FieldOptions propiedad. Obtiene o establece el valor que indica que el formato de número se analiza utilizando la referencia cultural invariable o no
+description: FieldOptions propiedad. Obtiene o establece el valor que indica que el formato del número se analiza utilizando una cultura invariante o no
 type: docs
-weight: 190
+weight: 210
 url: /es/net/aspose.words.fields/fieldoptions/useinvariantculturenumberformat/
 ---
 ## FieldOptions.UseInvariantCultureNumberFormat property
 
-Obtiene o establece el valor que indica que el formato de número se analiza utilizando la referencia cultural invariable o no
+Obtiene o establece el valor que indica que el formato del número se analiza utilizando una cultura invariante o no
 
 ```csharp
 public bool UseInvariantCultureNumberFormat { get; set; }
@@ -16,15 +16,15 @@ public bool UseInvariantCultureNumberFormat { get; set; }
 
 ### Observaciones
 
-Cuando esta propiedad se establece en **verdadero** , el formato de número se toma de una referencia cultural invariable.
+Cuando esta propiedad se establece en`verdadero` , el formato numérico se toma de una cultura invariante.
 
-Cuando esta propiedad se establece en **falso** el formato de número se toma de la referencia cultural del subproceso actual.
+Cuando esta propiedad se establece en`FALSO` , el formato del número se toma de la cultura del hilo actual.
 
-El valor predeterminado es **falso**.
+El valor predeterminado es`FALSO`.
 
 ### Ejemplos
 
-Muestra cómo dar formato a los números de acuerdo con la referencia cultural invariable.
+Muestra cómo formatear números según la cultura invariante.
 
 ```csharp
 Document doc = new Document();
@@ -34,14 +34,14 @@ Thread.CurrentThread.CurrentCulture = new CultureInfo("de-DE");
 Field field = builder.InsertField(" = 1234567,89 \\# $#,###,###.##");
 field.Update();
 
-// A veces, los campos pueden no formatear sus números correctamente bajo ciertas culturas. 
+ // A veces, es posible que los campos no formaten sus números correctamente en determinadas culturas.
 Assert.IsFalse(doc.FieldOptions.UseInvariantCultureNumberFormat);
 Assert.AreEqual("$1234567,89 .     ", field.Result);
 
-// Para solucionar esto, podríamos cambiar la cultura de todo el hilo.
-// Otra forma de arreglar esto es establecer esta bandera,
-// que hace que todos los campos usen la referencia cultural invariable al formatear números.
-// Esta forma nos permite evitar cambiar la cultura de todo el hilo.
+// Para solucionar este problema, podríamos cambiar la cultura de todo el hilo.
+// Otra forma de solucionar este problema es establecer este indicador,
+// que hace que todos los campos utilicen la cultura invariante al formatear números.
+// De esta manera nos permite evitar cambiar la cultura de todo el hilo.
 doc.FieldOptions.UseInvariantCultureNumberFormat = true;
 field.Update();
 Assert.AreEqual("$1.234.567,89", field.Result);

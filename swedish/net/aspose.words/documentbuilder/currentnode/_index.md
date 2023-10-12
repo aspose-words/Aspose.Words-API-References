@@ -16,9 +16,9 @@ public Node CurrentNode { get; }
 
 ### Anmärkningar
 
-**CurrentNode** är en markör för **DocumentBuilder** och pekar på en **Nod** som är en direkt underordnad av en **Paragraf** . Alla infogningsoperationer du utför med  **DocumentBuilder** kommer att infoga före **CurrentNode**.
+`CurrentNode` är en markör för[`DocumentBuilder`](../) och pekar på en[`Node`](../../node/) som är en direkt underordnad av en[`Paragraph`](../../paragraph/) . Alla infogningsoperationer du utför med [`DocumentBuilder`](../) kommer att infoga före`CurrentNode`.
 
-När det aktuella stycket är tomt eller markören är placerad precis före slutet av stycket, **CurrentNode** returnerar null.
+När det aktuella stycket är tomt eller markören är placerad precis före slutet av ett stycke eller en strukturerad dokumenttagg,`CurrentNode` returnerar`null`.
 
 ### Exempel
 
@@ -29,12 +29,12 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Skapa ett giltigt bokmärke, en enhet som består av noder som omges av en bokmärkesstartnod,
-  // och en bokmärkesslutnod.
+ // och en bokmärkesslutnod.
 builder.StartBookmark("MyBookmark");
 builder.Write("Bookmark contents.");
 builder.EndBookmark("MyBookmark");
 
-NodeCollection firstParagraphNodes = doc.FirstSection.Body.FirstParagraph.ChildNodes;
+NodeCollection firstParagraphNodes = doc.FirstSection.Body.FirstParagraph.GetChildNodes(NodeType.Any, false);
 
 Assert.AreEqual(NodeType.BookmarkStart, firstParagraphNodes[0].NodeType);
 Assert.AreEqual(NodeType.Run, firstParagraphNodes[1].NodeType);

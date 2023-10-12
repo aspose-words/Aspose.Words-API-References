@@ -3,7 +3,7 @@ title: Document.NormalizeFieldTypes
 second_title: Aspose.Words för .NET API Referens
 description: Document metod. Ändrar fälttypvärdenFieldType avFieldStart FieldSeparator FieldEnd i hela dokumentet så att de motsvarar fälttyperna som finns i fältkoderna.
 type: docs
-weight: 610
+weight: 650
 url: /sv/net/aspose.words/document/normalizefieldtypes/
 ---
 ## Document.NormalizeFieldTypes method
@@ -35,6 +35,7 @@ Assert.AreEqual(FieldType.FieldDate, field.Type);
 
 // Ändra fältets råtext manuellt, vilket bestämmer fältkoden.
 Run fieldText = (Run)doc.FirstSection.Body.FirstParagraph.GetChildNodes(NodeType.Run, true)[0];
+fieldText.Text = "PAGE";
 
 // Ändring av fältkoden har ändrat detta fält till ett av en annan typ,
 // men fältets typegenskaper visar fortfarande den gamla typen.

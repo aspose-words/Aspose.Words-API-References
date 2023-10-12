@@ -3,7 +3,7 @@ title: ShapeBase.WrapSide
 second_title: Aspose.Words for .NET API 参考
 description: ShapeBase 财产. 指定文本如何环绕形状
 type: docs
-weight: 530
+weight: 590
 url: /zh/net/aspose.words.drawing/shapebase/wrapside/
 ---
 ## ShapeBase.WrapSide property
@@ -16,7 +16,7 @@ public WrapSide WrapSide { get; set; }
 
 ### 评论
 
-默认值为Both.
+默认值为Both。
 
 仅对顶级形状有效。
 

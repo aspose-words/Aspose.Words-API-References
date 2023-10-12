@@ -3,7 +3,7 @@ title: CompositeNode.FirstChild
 second_title: Référence de l'API Aspose.Words pour .NET
 description: CompositeNode propriété. Obtient le premier enfant du nœud.
 type: docs
-weight: 30
+weight: 20
 url: /fr/net/aspose.words/compositenode/firstchild/
 ---
 ## CompositeNode.FirstChild property
@@ -16,11 +16,11 @@ public Node FirstChild { get; }
 
 ### Remarques
 
-S'il n'y a pas de premier nœud enfant, une valeur nulle est renvoyée.
+S'il n'y a pas de premier nœud enfant, un`nul` est renvoyé.
 
 ### Exemples
 
-Montre comment utiliser la propriété NextSibling d'un nœud pour énumérer ses enfants immédiats.
+Montre comment utiliser la propriété NextSibling d’un nœud pour énumérer ses enfants immédiats.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraphs.docx");
@@ -35,9 +35,10 @@ for (Node node = doc.FirstSection.Body.FirstChild; node != null; node = node.Nex
 }
 ```
 
-Montre comment parcourir l'arborescence des nœuds enfants d'un nœud composite.
+Montre comment parcourir l’arborescence des nœuds enfants d’un nœud composite.
 
 ```csharp
+public void RecurseChildren()
 {
     Document doc = new Document(MyDir + "Paragraphs.docx");
 
@@ -49,7 +50,7 @@ Montre comment parcourir l'arborescence des nœuds enfants d'un nœud composite.
 }
 
 /// <summary>
-/// Parcourt récursivement une arborescence de nœuds tout en affichant le type de chaque nœud
+/// Parcourt récursivement une arborescence de nœuds tout en imprimant le type de chaque nœud
 /// avec un retrait en fonction de la profondeur ainsi que du contenu de tous les nœuds en ligne.
 /// </summary>
 public void TraverseAllNodes(CompositeNode parentNode, int depth)
@@ -58,7 +59,7 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
     {
         Console.Write($"{new string('\t', depth)}{Node.NodeTypeToString(childNode.NodeType)}");
 
-        // Recurse dans le nœud s'il s'agit d'un nœud composite. Sinon, imprimez son contenu s'il s'agit d'un nœud en ligne.
+        // Récursion dans le nœud s'il s'agit d'un nœud composite. Sinon, imprimez son contenu s'il s'agit d'un nœud en ligne.
         if (childNode.IsComposite)
         {
             Console.WriteLine();

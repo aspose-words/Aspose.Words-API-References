@@ -1,14 +1,14 @@
 ---
 title: Comment.Comment
 second_title: Aspose.Words for .NET API 参考
-description: Comment 构造函数. 初始化 评论类.
+description: Comment 构造函数. 初始化一个新实例Comment类.
 type: docs
 weight: 10
 url: /zh/net/aspose.words/comment/comment/
 ---
 ## Comment(DocumentBase) {#constructor}
 
-初始化 **评论**类.
+初始化一个新实例[`Comment`](../)类.
 
 ```csharp
 public Comment(DocumentBase doc)
@@ -20,15 +20,15 @@ public Comment(DocumentBase doc)
 
 ### 评论
 
-什么时候 **评论**被创建，它属于指定的文档，但不是 还不是文档的一部分，并且 **父节点**一片空白。
+什么时候[`Comment`](../)创建后，它属于指定文档，但还不是 文档的一部分并且[`ParentNode`](../../node/parentnode/)是`无效的`。
 
-追加 **评论**在要插入注释的段落上使用 InsertAfter 或 InsertBefore 到文档中。
+追加[`Comment`](../)到文档使用Node)或者Node) 在您想要插入评论的段落上。
 
 创建评论后，不要忘记设置它[`Author`](../author/), [`Initial`](../initial/)和[`DateTime`](../datetime/)特性。
 
 ### 例子
 
-显示如何使用文档访问者打印所有评论的内容及其评论范围。
+展示如何使用文档访问者打印所有注释的内容及其注释范围。
 
 ```csharp
 public void CreateCommentsAndPrintAllInfo()
@@ -44,14 +44,14 @@ public void CreateCommentsAndPrintAllInfo()
 
     newComment.SetText("Comment regarding text.");
 
-    // 向文档中添加文本，在评论范围内对其进行变形，然后添加您的评论。
+    // 将文本添加到文档中，将其扭曲到注释范围内，然后添加您的注释。
     Paragraph para = doc.FirstSection.Body.FirstParagraph;
     para.AppendChild(new CommentRangeStart(doc, newComment.Id));
     para.AppendChild(new Run(doc, "Commented text."));
     para.AppendChild(new CommentRangeEnd(doc, newComment.Id));
     para.AppendChild(newComment); 
 
-    // 在评论中添加两个回复。
+    // 添加两条对评论的回复。
     newComment.AddReply("John Doe", "JD", DateTime.Now, "New reply.");
     newComment.AddReply("John Doe", "JD", DateTime.Now, "Another reply.");
 
@@ -59,26 +59,26 @@ public void CreateCommentsAndPrintAllInfo()
 }
 
 /// <summary>
-/// 遍历每个顶级评论并打印其评论范围、内容和回复。
+/// 迭代每个顶级评论并打印其评论范围、内容和回复。
 /// </summary>
 private static void PrintAllCommentInfo(NodeCollection comments)
 {
     CommentInfoPrinter commentVisitor = new CommentInfoPrinter();
 
-    // 遍历所有顶级注释。与回复类型的评论不同，顶级评论没有祖先。
+    // 迭代所有顶级注释。与回复类型评论不同，顶级评论没有祖先。
     foreach (Comment comment in comments.Where(c => ((Comment)c).Ancestor == null))
     {
         // 首先，访问评论范围的开头。
         CommentRangeStart commentRangeStart = (CommentRangeStart)comment.PreviousSibling.PreviousSibling.PreviousSibling;
         commentRangeStart.Accept(commentVisitor);
 
-        // 然后，访问评论，以及它可能有的任何回复。
+        // 然后，访问评论及其可能有的任何回复。
         comment.Accept(commentVisitor);
 
         foreach (Comment reply in comment.Replies)
             reply.Accept(commentVisitor);
 
-        // 最后，访问评论范围的末尾，然后打印访问者的文本内容。
+        // 最后访问评论范围末尾，然后打印访问者的文本内容。
         CommentRangeEnd commentRangeEnd = (CommentRangeEnd)comment.PreviousSibling;
         commentRangeEnd.Accept(commentVisitor);
 
@@ -87,7 +87,7 @@ private static void PrintAllCommentInfo(NodeCollection comments)
 }
 
 /// <summary>
-/// 打印文档中遇到的所有评论和评论范围的信息和内容。
+/// 打印文档中遇到的所有注释和注释范围的信息和内容。
 /// </summary>
 public class CommentInfoPrinter : DocumentVisitor
 {
@@ -140,7 +140,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到评论节点时调用。
+    /// 在文档中遇到 Comment 节点时调用。
     /// </summary>
     public override VisitorAction VisitCommentStart(Comment comment)
     {
@@ -153,7 +153,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中结束对 Comment 节点的访问时调用。
+    /// 当文档中Comment节点的访问结束时调用。
     /// </summary>
     public override VisitorAction VisitCommentEnd(Comment comment)
     {
@@ -165,9 +165,9 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 将一行添加到 StringBuilder 并根据访问者在文档树中的深度缩进。
+    /// 将一行追加到 StringBuilder 并根据访问者在文档树中的深度对其进行缩进。
     /// </summary>
-    /// <param name="text"></param>
+    /// <param name="text"></param>;
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++)
@@ -195,7 +195,7 @@ public class CommentInfoPrinter : DocumentVisitor
 
 ## Comment(DocumentBase, string, string, DateTime) {#constructor_1}
 
-初始化 **评论**类.
+初始化一个新实例[`Comment`](../)类.
 
 ```csharp
 public Comment(DocumentBase doc, string author, string initial, DateTime dateTime)
@@ -204,13 +204,13 @@ public Comment(DocumentBase doc, string author, string initial, DateTime dateTim
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | doc | DocumentBase | 所有者文件。 |
-| author | String | 评论的作者姓名。不能为空。 |
-| initial | String | 评论的作者姓名缩写。不能为空。 |
-| dateTime | DateTime | 评论的日期和时间。 |
+| author | String | 评论的作者姓名。不可能是`无效的`。 |
+| initial | String | 评论的作者姓名缩写。不可能是`无效的`。 |
+| dateTime | DateTime | 发表评论的日期和时间。 |
 
 ### 例子
 
-显示如何向段落添加注释。
+演示如何向段落添加注释。
 
 ```csharp
 Document doc = new Document();
@@ -224,7 +224,7 @@ builder.Write("Comment text.");
 
 Assert.AreEqual(DateTime.Today, comment.DateTime);
 
-// 在 Microsoft Word 中，我们可以在文档正文中右键单击该评论进行编辑或回复。 
+ // 在Microsoft Word中，我们可以在文档正文中右键单击该注释进行编辑，或者回复。
 doc.Save(ArtifactsDir + "InlineStory.AddComment.docx");
 ```
 

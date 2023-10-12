@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.BalanceSingleByteDoubleByteWidth
 second_title: Aspose.Words für .NET-API-Referenz
-description: CompatibilityOptions eigendom. SingleByte und DoubleByteZeichen ausgleichen.
+description: CompatibilityOptions eigendom. Balance zwischen Einzelbyte und DoppelbyteZeichen.
 type: docs
 weight: 70
 url: /de/net/aspose.words.settings/compatibilityoptions/balancesinglebytedoublebytewidth/
 ---
 ## CompatibilityOptions.BalanceSingleByteDoubleByteWidth property
 
-Single-Byte- und Double-Byte-Zeichen ausgleichen.
+Balance zwischen Einzelbyte- und Doppelbyte-Zeichen.
 
 ```csharp
 public bool BalanceSingleByteDoubleByteWidth { get; set; }

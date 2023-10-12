@@ -1,14 +1,14 @@
 ---
 title: Font.NameOther
 second_title: Referencia de API de Aspose.Words para .NET
-description: Font propiedad. Devuelve o establece la fuente utilizada para caracteres con códigos de carácter del 128 al 255.
+description: Font propiedad. Devuelve o establece la fuente utilizada para caracteres con códigos de caracteres del 128 al 255.
 type: docs
 weight: 270
 url: /es/net/aspose.words/font/nameother/
 ---
 ## Font.NameOther property
 
-Devuelve o establece la fuente utilizada para caracteres con códigos de carácter del 128 al 255.
+Devuelve o establece la fuente utilizada para caracteres con códigos de caracteres del 128 al 255.
 
 ```csharp
 public string NameOther { get; set; }
@@ -34,7 +34,7 @@ Assert.AreEqual("Calibri", builder.Font.Name);
 // Idealmente, esta fuente debería tener un glifo para cada código de carácter no ASCII requerido.
 builder.Font.NameOther = "Courier New";
 
-// Inserta una secuencia con una palabra que consta de caracteres ASCII y una palabra con todos los caracteres fuera de ese rango.
+// Inserte una ejecución con una palabra que consta de caracteres ASCII y una palabra con todos los caracteres fuera de ese rango.
 // Cada carácter se mostrará usando cualquiera de las fuentes, dependiendo de.
 builder.Writeln("Hello, Привет");
 

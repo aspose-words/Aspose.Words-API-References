@@ -3,7 +3,7 @@ title: Enum ImageColorMode
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Saving.ImageColorMode uppräkning. Anger färgläget för de genererade bilderna på dokumentsidorna.
 type: docs
-weight: 4950
+weight: 5210
 url: /sv/net/aspose.words.saving/imagecolormode/
 ---
 ## ImageColorMode enumeration
@@ -40,7 +40,7 @@ Document doc = new Document();
             // välj ett färgläge för bilden som sparas.
             // Om vi ställer in egenskapen "ImageColorMode" till "ImageColorMode.BlackAndWhite",
             // sparoperationen kommer att tillämpa gråskalefärgreduktion medan dokumentet renderas.
-              // Om vi ställer in egenskapen "ImageColorMode" till "ImageColorMode.Grayscale",
+            // Om vi ställer in egenskapen "ImageColorMode" till "ImageColorMode.Grayscale",
             // sparoperationen kommer att göra dokumentet till en monokrom bild.
             // Om vi ställer in egenskapen "ImageColorMode" till "None", kommer sparoperationen att tillämpa standardmetoden
             // och bevara alla dokumentets färger i utdatabilden.

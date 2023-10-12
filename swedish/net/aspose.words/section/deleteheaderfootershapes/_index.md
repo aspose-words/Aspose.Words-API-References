@@ -3,7 +3,7 @@ title: Section.DeleteHeaderFooterShapes
 second_title: Aspose.Words för .NET API Referens
 description: Section metod. Tar bort alla former ritobjekt från sidhuvuden och sidfötter i det här avsnittet.
 type: docs
-weight: 120
+weight: 140
 url: /sv/net/aspose.words/section/deleteheaderfootershapes/
 ---
 ## Section.DeleteHeaderFooterShapes method

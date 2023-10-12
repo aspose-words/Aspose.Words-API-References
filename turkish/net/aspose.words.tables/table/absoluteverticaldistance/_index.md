@@ -1,14 +1,14 @@
 ---
 title: Table.AbsoluteVerticalDistance
 second_title: Aspose.Words for .NET API Referansı
-description: Table mülk. Tablo özellikleri tarafından noktalar olarak belirtilen mutlak dikey kayan tablo konumunu alır veya ayarlar. Varsayılan değer 0.
+description: Table mülk. Tablo özellikleri tarafından belirtilen mutlak dikey kayan tablo konumunu puan cinsinden alır veya ayarlar. Varsayılan değer 0.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.tables/table/absoluteverticaldistance/
 ---
 ## Table.AbsoluteVerticalDistance property
 
-Tablo özellikleri tarafından noktalar olarak belirtilen mutlak dikey kayan tablo konumunu alır veya ayarlar. Varsayılan değer 0.
+Tablo özellikleri tarafından belirtilen mutlak dikey kayan tablo konumunu puan cinsinden alır veya ayarlar. Varsayılan değer 0.
 
 ```csharp
 public double AbsoluteVerticalDistance { get; set; }
@@ -16,7 +16,7 @@ public double AbsoluteVerticalDistance { get; set; }
 
 ### Örnekler
 
-Kayan tabloların konumunun nasıl ayarlanacağını gösterir.
+Kayan tabloların konumunun nasıl ayarlandığını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -28,7 +28,7 @@ builder.Write("Table 1, cell 1");
 builder.EndTable();
 table.PreferredWidth = PreferredWidth.FromPoints(300);
 
-// Tablonun konumunu, bu durumda sağ alt köşe gibi sayfada bir yere ayarlayın.
+// Tablonun konumunu sayfada bir yere ayarlayın; bu durumda sağ alt köşe gibi.
 table.RelativeVerticalAlignment = VerticalAlignment.Bottom;
 table.RelativeHorizontalAlignment = HorizontalAlignment.Right;
 
@@ -38,7 +38,7 @@ builder.Write("Table 2, cell 1");
 builder.EndTable();
 table.PreferredWidth = PreferredWidth.FromPoints(300);
 
-// Paragrafın tabloyu eklediğimiz konumundan noktalara yatay ve dikey bir öteleme de ayarlayabiliriz. 
+ // Tabloyu eklediğimiz paragrafın konumundan itibaren noktalarda yatay ve dikey uzaklık da ayarlayabiliriz.
 table.AbsoluteVerticalDistance = 50;
 table.AbsoluteHorizontalDistance = 100;
 

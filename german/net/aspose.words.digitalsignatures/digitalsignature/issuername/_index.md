@@ -1,14 +1,14 @@
 ---
 title: DigitalSignature.IssuerName
 second_title: Aspose.Words für .NET-API-Referenz
-description: DigitalSignature eigendom. Gibt den Distinguished Name des Zertifikatsausstellers zurück.
+description: DigitalSignature eigendom. Gibt den BetreffDistinguished Name des Zertifikats isuuer zurück.
 type: docs
 weight: 30
 url: /de/net/aspose.words.digitalsignatures/digitalsignature/issuername/
 ---
 ## DigitalSignature.IssuerName property
 
-Gibt den Distinguished Name des Zertifikatsausstellers zurück.
+Gibt den Betreff-Distinguished Name des Zertifikats isuuer zurück.
 
 ```csharp
 public string IssuerName { get; }
@@ -19,20 +19,20 @@ public string IssuerName { get; }
 Zeigt, wie Dokumente mit X.509-Zertifikaten signiert werden.
 
 ```csharp
-// Sicherstellen, dass ein Dokument nicht signiert ist.
+// Stellen Sie sicher, dass ein Dokument nicht signiert ist.
 Assert.False(FileFormatUtil.DetectFileFormat(MyDir + "Document.docx").HasDigitalSignature);
 
-// Erstellen Sie ein CertificateHolder-Objekt aus einer PKCS12-Datei, mit der wir das Dokument signieren.
+// Erstellen Sie ein CertificateHolder-Objekt aus einer PKCS12-Datei, das wir zum Signieren des Dokuments verwenden.
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 
 // Es gibt zwei Möglichkeiten, eine signierte Kopie eines Dokuments im lokalen Dateisystem zu speichern:
-// 1 - Kennzeichnen eines Dokuments durch einen lokalen Systemdateinamen und Speichern einer signierten Kopie an einem Ort, der durch einen anderen Dateinamen angegeben ist.
+// 1 – Bestimmen Sie ein Dokument durch einen lokalen Systemdateinamen und speichern Sie eine signierte Kopie an einem durch einen anderen Dateinamen angegebenen Speicherort.
 DigitalSignatureUtil.Sign(MyDir + "Document.docx", ArtifactsDir + "Document.DigitalSignature.docx", 
     certificateHolder, new SignOptions() { SignTime = DateTime.Now } );
 
 Assert.True(FileFormatUtil.DetectFileFormat(ArtifactsDir + "Document.DigitalSignature.docx").HasDigitalSignature);
 
-// 2 - Nehmen Sie ein Dokument aus einem Stream und speichern Sie eine signierte Kopie in einem anderen Stream.
+// 2 – Nehmen Sie ein Dokument aus einem Stream und speichern Sie eine signierte Kopie in einem anderen Stream.
 using (FileStream inDoc = new FileStream(MyDir + "Document.docx", FileMode.Open))
 {
     using (FileStream outDoc = new FileStream(ArtifactsDir + "Document.DigitalSignature.docx", FileMode.Create))

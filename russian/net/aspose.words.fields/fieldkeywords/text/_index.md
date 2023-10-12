@@ -16,7 +16,7 @@ public string Text { get; set; }
 
 ### Примеры
 
-Показывает, чтобы вставить поле KEYWORDS.
+Показывает, что нужно вставить поле КЛЮЧЕВЫЕ СЛОВА.
 
 ```csharp
 Document doc = new Document();
@@ -25,15 +25,15 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 // Добавьте несколько ключевых слов, также называемых «тегами» в проводнике.
 doc.BuiltInDocumentProperties.Keywords = "Keyword1, Keyword2";
 
-// В поле KEYWORDS отображается значение этого свойства.
+// Поле KEYWORDS отображает значение этого свойства.
 FieldKeywords field = (FieldKeywords)builder.InsertField(FieldType.FieldKeyword, true);
 field.Update();
 
 Assert.AreEqual(" KEYWORDS ", field.GetFieldCode());
 Assert.AreEqual("Keyword1, Keyword2", field.Result);
 
-// Установка значения для свойства Text поля,
-// и последующее обновление поля также перезапишет соответствующее встроенное свойство новым значением.
+// Установка значения свойства Text поля,
+// а затем обновление поля также перезапишет соответствующее встроенное свойство новым значением.
 field.Text = "OverridingKeyword";
 field.Update();
 

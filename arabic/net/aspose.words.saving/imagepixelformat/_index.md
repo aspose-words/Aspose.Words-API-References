@@ -3,7 +3,7 @@ title: Enum ImagePixelFormat
 second_title: Aspose.Words لمراجع .NET API
 description: Aspose.Words.Saving.ImagePixelFormat تعداد. يحدد تنسيق البكسل للصور التي تم إنشاؤها لصفحات المستند.
 type: docs
-weight: 4960
+weight: 5220
 url: /ar/net/aspose.words.saving/imagepixelformat/
 ---
 ## ImagePixelFormat enumeration
@@ -18,21 +18,21 @@ public enum ImagePixelFormat
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| Format16BppRgb555 | `0` | 16 بت لكل بكسل ، RGB. |
-| Format16BppRgb565 | `1` | 16 بت لكل بكسل ، RGB. |
-| Format16BppArgb1555 | `2` | 16 بت لكل بكسل ، ARGB. |
-| Format24BppRgb | `3` | 24 بت لكل بكسل ، RGB. |
-| Format32BppRgb | `4` | 32 بت لكل بكسل ، RGB. |
-| Format32BppArgb | `5` | 32 بت لكل بكسل ، ARGB. |
-| Format32BppPArgb | `6` | 32 بت لكل بكسل ، ARGB ، ألفا مضاعف . |
-| Format48BppRgb | `7` | 48 بت لكل بكسل ، RGB. |
-| Format64BppArgb | `8` | 64 بت لكل بكسل ، ARGB. |
-| Format64BppPArgb | `9` | 64 بت لكل بكسل ، ARGB ، ألفا مضاعف . |
-| Format1bppIndexed | `10` | 1 بت لكل بكسل ، مفهرس . |
+| Format16BppRgb555 | `0` | 16 بت لكل بكسل، RGB. |
+| Format16BppRgb565 | `1` | 16 بت لكل بكسل، RGB. |
+| Format16BppArgb1555 | `2` | 16 بت لكل بكسل، ARGB. |
+| Format24BppRgb | `3` | 24 بت لكل بكسل، RGB. |
+| Format32BppRgb | `4` | 32 بت لكل بكسل، RGB. |
+| Format32BppArgb | `5` | 32 بت لكل بكسل، ARGB. |
+| Format32BppPArgb | `6` | 32 بت لكل بكسل، ARGB، ألفا المضاعف مسبقًا. |
+| Format48BppRgb | `7` | 48 بت لكل بكسل، RGB. |
+| Format64BppArgb | `8` | 64 بت لكل بكسل، ARGB. |
+| Format64BppPArgb | `9` | 64 بت لكل بكسل، ARGB، ألفا المضاعف مسبقًا. |
+| Format1bppIndexed | `10` | 1 بت لكل بكسل، مفهرسة. |
 
 ### أمثلة
 
-يوضح كيفية تحديد معدل بت لكل بكسل لتقديم مستند إلى صورة.
+يوضح كيفية تحديد معدل بت لكل بكسل لعرض مستند على صورة.
 
 ```csharp
 Document doc = new Document();
@@ -44,13 +44,13 @@ Document doc = new Document();
 
             Assert.That(20000, Is.LessThan(new FileInfo(ImageDir + "Logo.jpg").Length));
 
-            // عندما نحفظ المستند كصورة ، يمكننا تمرير كائن SaveOptions إليه
-            // حدد تنسيق بكسل للصورة التي ستنشئها عملية الحفظ.
+            // عندما نحفظ المستند كصورة، يمكننا تمرير كائن SaveOptions إليه
+            // حدد تنسيق البكسل للصورة التي ستنشئها عملية الحفظ.
             // ستؤثر معدلات البت المختلفة لكل بكسل على جودة الصورة التي تم إنشاؤها وحجمها.
             ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFormat.Png);
             imageSaveOptions.PixelFormat = imagePixelFormat;
 
-            // يمكننا استنساخ أمثلة ImageSaveOptions.
+            // يمكننا استنساخ مثيلات ImageSaveOptions.
             Assert.AreNotEqual(imageSaveOptions, imageSaveOptions.Clone());
 
             doc.Save(ArtifactsDir + "ImageSaveOptions.PixelFormat.png", imageSaveOptions);

@@ -3,7 +3,7 @@ title: FieldOptions.ToaCategories
 second_title: Aspose.Words för .NET API Referens
 description: FieldOptions fast egendom. Hämtar eller sätter tabellen över auktoritetskategorier.
 type: docs
-weight: 180
+weight: 200
 url: /sv/net/aspose.words.fields/fieldoptions/toacategories/
 ---
 ## FieldOptions.ToaCategories property

@@ -3,7 +3,7 @@ title: Enum HtmlMetafileFormat
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Saving.HtmlMetafileFormat uppräkning. Indikerar formatet som metafiler sparas i i HTMLdokument.
 type: docs
-weight: 4830
+weight: 5090
 url: /sv/net/aspose.words.saving/htmlmetafileformat/
 ---
 ## HtmlMetafileFormat enumeration

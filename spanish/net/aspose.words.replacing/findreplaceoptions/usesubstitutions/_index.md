@@ -1,14 +1,14 @@
 ---
 title: FindReplaceOptions.UseSubstitutions
 second_title: Referencia de API de Aspose.Words para .NET
-description: FindReplaceOptions propiedad. Obtiene o establece un valor booleano que indica si reconocer y usar sustituciones dentro de patrones de reemplazo. El valor predeterminado esfalso .
+description: FindReplaceOptions propiedad. Obtiene o establece un valor booleano que indica si se reconocen y utilizan sustituciones dentro de los patrones de reemplazo. El valor predeterminado esFALSO .
 type: docs
-weight: 160
+weight: 180
 url: /es/net/aspose.words.replacing/findreplaceoptions/usesubstitutions/
 ---
 ## FindReplaceOptions.UseSubstitutions property
 
-Obtiene o establece un valor booleano que indica si reconocer y usar sustituciones dentro de patrones de reemplazo. El valor predeterminado es`falso` .
+Obtiene o establece un valor booleano que indica si se reconocen y utilizan sustituciones dentro de los patrones de reemplazo. El valor predeterminado es`FALSO` .
 
 ```csharp
 public bool UseSubstitutions { get; set; }
@@ -20,7 +20,7 @@ Para obtener detalles sobre los elementos de sustitución, consulte: https://doc
 
 ### Ejemplos
 
-Muestra cómo reconocer y usar sustituciones dentro de los patrones de reemplazo.
+Muestra cómo reconocer y utilizar sustituciones dentro de patrones de reemplazo.
 
 ```csharp
 Document doc = new Document();
@@ -33,7 +33,7 @@ Regex regex = new Regex(@"([A-z]+) gave money to ([A-z]+)");
 FindReplaceOptions options = new FindReplaceOptions();
 options.UseSubstitutions = true;
 
-// El uso del modo heredado no admite muchas funciones avanzadas, por lo que debemos configurarlo en 'falso'.
+// El uso del modo heredado no admite muchas funciones avanzadas, por lo que debemos configurarlo en "falso".
 options.LegacyMode = false;
 
 doc.Range.Replace(regex, @"$2 took money from $1", options);
@@ -50,12 +50,12 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("John sold a car to Paul.");
 builder.Writeln("Jane sold a house to Joe.");
 
-// Podemos usar un objeto "FindReplaceOptions" para modificar el proceso de buscar y reemplazar.
+// Podemos utilizar un objeto "FindReplaceOptions" para modificar el proceso de buscar y reemplazar.
 FindReplaceOptions options = new FindReplaceOptions();
 
-// Establecer la propiedad "UseSubstitutions" en "true" para obtener
+// Establece la propiedad "UseSubstitutions" en "true" para obtener
 // la operación de buscar y reemplazar para reconocer elementos de sustitución.
-// Establezca la propiedad "UseSubstitutions" en "false" para ignorar los elementos de sustitución.
+// Establece la propiedad "UseSubstitutions" en "false" para ignorar los elementos de sustitución.
 options.UseSubstitutions = useSubstitutions;
 
 Regex regex = new Regex(@"([A-z]+) sold a ([A-z]+) to ([A-z]+)");

@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.StartColumnBookmark
 second_title: Справочник по API Aspose.Words для .NET
-description: DocumentBuilder метод. Помечает текущую позицию в документе как начало закладки столбца. Позиция должна быть в ячейке таблицы.
+description: DocumentBuilder метод. Отмечает текущую позицию в документе как начало закладки столбца. Позиция должна находиться в ячейке таблицы.
 type: docs
-weight: 590
+weight: 630
 url: /ru/net/aspose.words/documentbuilder/startcolumnbookmark/
 ---
 ## DocumentBuilder.StartColumnBookmark method
 
-Помечает текущую позицию в документе как начало закладки столбца. Позиция должна быть в ячейке таблицы.
+Отмечает текущую позицию в документе как начало закладки столбца. Позиция должна находиться в ячейке таблицы.
 
 ```csharp
 public BookmarkStart StartColumnBookmark(string bookmarkName)
@@ -24,11 +24,11 @@ public BookmarkStart StartColumnBookmark(string bookmarkName)
 
 ### Примечания
 
-Закладка столбца охватывает один или несколько столбцов в диапазоне строк. Чтобы создать действительную закладку, you нужно вызвать оба`StartColumnBookmark` а также[`EndColumnBookmark`](../endcolumnbookmark/) с тем же  **bookmarkName** параметр.
+Закладка столбца охватывает один или несколько столбцов в диапазоне строк. Чтобы создать действительную закладку, you необходимо вызвать оба`StartColumnBookmark` и[`EndColumnBookmark`](../endcolumnbookmark/) с тем же *bookmarkName*параметр.
 
-Неправильно сформированные закладки или закладки с повторяющимися именами будут игнорироваться при сохранении документа.
+Закладки неправильного формата или закладки с повторяющимися именами будут игнорироваться при сохранении документа.
 
-Фактическое положение вставленного[`BookmarkStart`](../../bookmarkstart/) node может отличаться от текущей позиции построителя document .
+Фактическое положение вставленного[`BookmarkStart`](../../bookmarkstart/) узел может отличаться от текущей позиции компоновщика document .
 
 ### Примеры
 
@@ -43,7 +43,7 @@ builder.StartTable();
 builder.InsertCell();
 // Ячейки 1,2,4,5 будут добавлены в закладки.
 builder.StartColumnBookmark("MyBookmark_1");
-// Неправильно сформированные закладки или закладки с повторяющимися именами будут игнорироваться при сохранении документа.
+// Закладки неправильного формата или закладки с повторяющимися именами будут игнорироваться при сохранении документа.
 builder.StartColumnBookmark("MyBookmark_1");
 builder.StartColumnBookmark("BadStartBookmark");
 builder.Write("Cell 1");

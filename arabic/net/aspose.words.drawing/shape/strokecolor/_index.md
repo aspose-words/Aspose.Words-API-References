@@ -1,14 +1,14 @@
 ---
 title: Shape.StrokeColor
 second_title: Aspose.Words لمراجع .NET API
-description: Shape ملكية. يحدد لون ضربة الفرشاة .
+description: Shape ملكية. يحدد لون الحد.
 type: docs
 weight: 190
 url: /ar/net/aspose.words.drawing/shape/strokecolor/
 ---
 ## Shape.StrokeColor property
 
-يحدد لون ضربة الفرشاة .
+يحدد لون الحد.
 
 ```csharp
 public Color StrokeColor { get; set; }
@@ -16,19 +16,19 @@ public Color StrokeColor { get; set; }
 
 ### ملاحظات
 
-هذا هو اختصار لملف[`Color`](../../stroke/color/) منشأه.
+هذا اختصار لل[`Color`](../../stroke/color/) ملكية.
 
 القيمة الافتراضية هي Black.
 
 ### أمثلة
 
-يوضح كيفية تعبئة شكل بلون خالص.
+يوضح كيفية تعبئة الشكل بلون خالص.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// اكتب بعض النص ، ثم قم بتغطيته بشكل عائم.
+// اكتب بعض النص، ثم قم بتغطيته بشكل عائم.
 builder.Font.Size = 32;
 builder.Writeln("Hello world!");
 
@@ -38,23 +38,24 @@ Shape shape = builder.InsertShape(ShapeType.CloudCallout, RelativeHorizontalPosi
 // استخدم خاصية "StrokeColor" لتعيين لون المخطط التفصيلي للشكل.
 shape.StrokeColor = Color.CadetBlue;
 
-// استخدم خاصية "FillColor" لتعيين لون المنطقة الداخلية للشكل.
+// استخدم خاصية "FillColor" لتعيين لون المنطقة الداخلية من الشكل.
 shape.FillColor = Color.LightBlue;
 
-// تحدد خاصية "العتامة" مدى شفافية اللون على مقياس من 0-1 ،
-// مع كون 1 معتمًا تمامًا ، والصفر غير مرئي.
-// يكون ملء الشكل افتراضيًا معتمًا تمامًا ، لذلك لا يمكننا رؤية النص الموجود في أعلى هذا الشكل.
+// تحدد خاصية "العتامة" مدى شفافية اللون على مقياس من 0 إلى 1،
+// مع كون 1 معتمًا تمامًا، و0 غير مرئي.
+// تكون تعبئة الشكل معتمة تمامًا بشكل افتراضي، لذا لا يمكننا رؤية النص الذي يوجد هذا الشكل فوقه.
 Assert.AreEqual(1.0d, shape.Fill.Opacity);
 
-// اضبط عتامة لون تعبئة الشكل على قيمة أقل حتى نتمكن من رؤية النص تحتها.
+// اضبط عتامة لون تعبئة الشكل على قيمة أقل حتى نتمكن من رؤية النص الموجود أسفله.
 shape.Fill.Opacity = 0.3;
 
 doc.Save(ArtifactsDir + "Shape.Fill.docx");
 ```
 
-يوضح كيفية التكرار على كل الأشكال في المستند.
+يوضح كيفية التكرار على كافة الأشكال في المستند.
 
 ```csharp
+public void VisitShapes()
 {
     Document doc = new Document(MyDir + "Revision shape.docx");
     ShapeAppearancePrinter visitor = new ShapeAppearancePrinter();
@@ -76,7 +77,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// تلحق سطرًا بـ StringBuilder بحرف جدولة واحد مضاف مسبقًا لكل مستوى مسافة بادئة.
+    /// يُلحق سطرًا بـ StringBuilder بحرف جدولة مُسبق لكل مستوى مسافة بادئة.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -86,7 +87,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// إرجاع كل النص الذي قام StringBuilder بتجميعه.
+    /// قم بإرجاع كل النص الذي قام StringBuilder بتجميعه.
     /// </summary>
     public string GetText()
     {
@@ -142,7 +143,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاستدعاء عندما يزور هذا الزائر بداية عقدة GroupShape.
+    /// يتم الاتصال به عندما يزور هذا الزائر بداية عقدة GroupShape.
     /// </summary>
     public override VisitorAction VisitGroupShapeStart(GroupShape groupShape)
     {
@@ -153,7 +154,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاستدعاء عندما يزور هذا الزائر نهاية عقدة GroupShape.
+    /// يتم الاتصال به عندما يزور هذا الزائر نهاية عقدة GroupShape.
     /// </summary>
     public override VisitorAction VisitGroupShapeEnd(GroupShape groupShape)
     {

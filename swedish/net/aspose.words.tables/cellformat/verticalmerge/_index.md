@@ -3,7 +3,7 @@ title: CellFormat.VerticalMerge
 second_title: Aspose.Words för .NET API Referens
 description: CellFormat fast egendom. Anger hur cellen sammanfogas med andra celler vertikalt.
 type: docs
-weight: 120
+weight: 130
 url: /sv/net/aspose.words.tables/cellformat/verticalmerge/
 ---
 ## CellFormat.VerticalMerge property
@@ -70,7 +70,7 @@ builder.CellFormat.VerticalMerge = CellMerge.None;
 builder.Write("Text in unmerged cell.");
 builder.EndRow();
 
-// Infoga en cell i den första kolumnen på den andra raden. 
+ // Infoga en cell i den första kolumnen på den andra raden.
 // Istället för att lägga till textinnehåll kommer vi att slå samman denna cell med den första cellen som vi lade till direkt ovanför.
 builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.Previous;

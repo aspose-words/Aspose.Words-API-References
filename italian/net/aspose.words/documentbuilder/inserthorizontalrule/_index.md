@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.InsertHorizontalRule
 second_title: Aspose.Words per .NET API Reference
-description: DocumentBuilder metodo. Inserisce una forma a righello orizzontale nel documento.
+description: DocumentBuilder metodo. Inserisce una forma di filetto orizzontale nel documento.
 type: docs
-weight: 320
+weight: 350
 url: /it/net/aspose.words/documentbuilder/inserthorizontalrule/
 ---
 ## DocumentBuilder.InsertHorizontalRule method
 
-Inserisce una forma a righello orizzontale nel documento.
+Inserisce una forma di filetto orizzontale nel documento.
 
 ```csharp
 public Shape InsertHorizontalRule()

@@ -1,14 +1,14 @@
 ---
 title: Class ComHelper
 second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.ComHelper 班级. 为 COM 客户端提供将文档加载到 Aspose.Words 的方法
+description: Aspose.Words.ComHelper 班级. 为 COM 客户端提供将文档加载到 Aspose.Words 中的方法
 type: docs
-weight: 210
+weight: 220
 url: /zh/net/aspose.words/comhelper/
 ---
 ## ComHelper class
 
-为 COM 客户端提供将文档加载到 Aspose.Words 的方法。
+为 COM 客户端提供将文档加载到 Aspose.Words 中的方法。
 
 ```csharp
 public class ComHelper
@@ -18,7 +18,7 @@ public class ComHelper
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ComHelper](comhelper/)() | 初始化这个类的一个新实例。 |
+| [ComHelper](comhelper/)() | 初始化此类的新实例。 |
 
 ## 方法
 
@@ -30,9 +30,9 @@ public class ComHelper
 
 ### 评论
 
-使用`ComHelper`类将文档从文件或流加载到 [`Document`](../document/) COM 应用程序中的对象。
+使用`ComHelper`用于将文档从文件或流加载到 的类[`Document`](../document/)COM 应用程序中的对象。
 
-这[`Document`](../document/)类提供了一个默认构造函数来创建一个新的 document 并且还提供了重载的构造函数来从一个文件或流中加载一个文档。 如果你在一个 .NET 应用程序中使用 Aspose.Words，你可以使用所有的[`Document`](../document/) 直接构造函数，但如果您从 COM 应用程序使用 Aspose.Words， 仅是默认值[`Document`](../document/)构造函数可用。
+这[`Document`](../document/)类提供了一个默认构造函数来创建新文档 ，还提供了重载构造函数来从文件或流加载文档。 如果您在 .NET 应用程序中使用 Aspose.Words，则可以使用所有[`Document`](../document/) 直接构造函数，但如果您使用 COM 应用程序中的 Aspose.Words， 仅使用默认值[`Document`](../document/)构造函数可用。
 
 ### 例子
 
@@ -57,7 +57,7 @@ Document doc = comHelper.Open(MyDir + "Document.docx");
 
 Assert.AreEqual("Hello World!\r\rHello Word!\r\r\rHello World!", doc.GetText().Trim());
 
-// 2 - 从流中：
+// 2 - 来自流：
 using (FileStream stream = new FileStream(MyDir + "Document.docx", FileMode.Open))
 {
     doc = comHelper.Open(stream);

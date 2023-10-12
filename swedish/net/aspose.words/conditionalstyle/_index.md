@@ -3,12 +3,14 @@ title: Class ConditionalStyle
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.ConditionalStyle klass. Representerar speciell formatering som tillämpas på någon del av en tabell med tilldelad tabellstil.
 type: docs
-weight: 300
+weight: 310
 url: /sv/net/aspose.words/conditionalstyle/
 ---
 ## ConditionalStyle class
 
 Representerar speciell formatering som tillämpas på någon del av en tabell med tilldelad tabellstil.
+
+För att lära dig mer, besök[Arbeta med tabeller](https://docs.aspose.com/words/net/working-with-tables/) dokumentationsartikel.
 
 ```csharp
 public sealed class ConditionalStyle
@@ -33,7 +35,7 @@ public sealed class ConditionalStyle
 | namn | Beskrivning |
 | --- | --- |
 | [ClearFormatting](../../aspose.words/conditionalstyle/clearformatting/)() | Rensar formateringen av denna villkorliga stil. |
-| override [Equals](../../aspose.words/conditionalstyle/equals/)(object) |  |
+| override [Equals](../../aspose.words/conditionalstyle/equals/)(object) | Jämför denna villkorliga stil med det angivna objektet. |
 | override [GetHashCode](../../aspose.words/conditionalstyle/gethashcode/)() | Beräknar hashkod för detta objekt. |
 
 ### Exempel

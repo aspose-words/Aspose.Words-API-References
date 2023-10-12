@@ -16,9 +16,9 @@ public string Author { get; set; }
 
 ### Примечания
 
-Не может быть нулевым.
+Не может быть`нулевой`.
 
-По умолчанию пустая строка.
+По умолчанию — пустая строка.
 
 ### Примеры
 
@@ -28,9 +28,8 @@ public string Author { get; set; }
 Document doc = new Document(MyDir + "Comments.docx");
 
 NodeCollection comments = doc.GetChildNodes(NodeType.Comment, true);
-
-// Если у комментария нет предка, это комментарий «верхнего уровня», а не комментарий типа ответа.
-// Печатать все комментарии верхнего уровня вместе с любыми ответами, которые они могут иметь.
+// Если комментарий не имеет предка, это комментарий «верхнего уровня», а не комментарий типа ответа.
+// Распечатываем все комментарии верхнего уровня вместе со всеми ответами, которые они могут иметь.
 foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == null))
 {
     Console.WriteLine("Top-level comment:");

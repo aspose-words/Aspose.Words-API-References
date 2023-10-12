@@ -1,14 +1,14 @@
 ---
 title: PdfSaveOptions.AdditionalTextPositioning
 second_title: Справочник по API Aspose.Words для .NET
-description: PdfSaveOptions свойство. Флаг указывающий следует ли писать дополнительные операторы позиционирования текста или нет.
+description: PdfSaveOptions свойство. Флаг определяющий писать ли дополнительные операторы позиционирования текста или нет.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.saving/pdfsaveoptions/additionaltextpositioning/
 ---
 ## PdfSaveOptions.AdditionalTextPositioning property
 
-Флаг, указывающий, следует ли писать дополнительные операторы позиционирования текста или нет.
+Флаг, определяющий, писать ли дополнительные операторы позиционирования текста или нет.
 
 ```csharp
 public bool AdditionalTextPositioning { get; set; }
@@ -16,9 +16,9 @@ public bool AdditionalTextPositioning { get; set; }
 
 ### Примечания
 
-Если`истинный` , дополнительные операторы позиционирования текста записываются в выходной PDF-файл. Это может помочь решить проблемы с неточным позиционированием текста на некоторых принтерах. Недостатком является увеличенный размер документа PDF.
+Если`истинный` , в выходной PDF-файл записываются дополнительные операторы позиционирования текста. Это может помочь решить проблемы с неточным позиционированием текста на некоторых принтерах. Обратной стороной является увеличенный размер PDF-документа.
 
-Значение по умолчанию`ЛОЖЬ`.
+Значение по умолчанию:`ЛОЖЬ`.
 
 ### Примеры
 
@@ -27,15 +27,15 @@ public bool AdditionalTextPositioning { get; set; }
 ```csharp
 Document doc = new Document(MyDir + "Text positioning operators.docx");
 
-// Создаем объект "PdfSaveOptions", который мы можем передать в метод "Сохранить" документа
-// для изменения того, как этот метод преобразует документ в .PDF.
+// Создаем объект «PdfSaveOptions», который мы можем передать методу «Save» документа.
+// чтобы изменить способ преобразования этого метода в .PDF.
 PdfSaveOptions saveOptions = new PdfSaveOptions
 {
     TextCompression = PdfTextCompression.None,
 
-    // Установите для свойства "AdditionalTextPositioning" значение "true", чтобы попытаться исправить неверный
-    // позиционирование элемента в выходном PDF-файле, если таковое имеется, за счет увеличения размера файла.
-    // Установите для свойства "AdditionalTextPositioning" значение "false", чтобы документ отображался как обычно.
+    // Установите для свойства «AdditionalTextPositioning» значение «true», чтобы попытаться исправить неправильные
+    // позиционирование элемента в выходном PDF-файле, если таковой имеется, за счет увеличения размера файла.
+    // Установите для свойства «AdditionalTextPositioning» значение «false», чтобы отобразить документ как обычно.
     AdditionalTextPositioning = applyAdditionalTextPositioning
 };
 

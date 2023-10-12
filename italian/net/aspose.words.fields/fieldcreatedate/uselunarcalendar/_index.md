@@ -1,14 +1,14 @@
 ---
 title: FieldCreateDate.UseLunarCalendar
 second_title: Aspose.Words per .NET API Reference
-description: FieldCreateDate proprietà. Ottiene o imposta se utilizzare il calendario lunare Hijri o il calendario lunare ebraico.
+description: FieldCreateDate proprietà. Ottiene o imposta se utilizzare il calendario lunare Hijri o quello lunare ebraico.
 type: docs
 weight: 20
 url: /it/net/aspose.words.fields/fieldcreatedate/uselunarcalendar/
 ---
 ## FieldCreateDate.UseLunarCalendar property
 
-Ottiene o imposta se utilizzare il calendario lunare Hijri o il calendario lunare ebraico.
+Ottiene o imposta se utilizzare il calendario lunare Hijri o quello lunare ebraico.
 
 ```csharp
 public bool UseLunarCalendar { get; set; }

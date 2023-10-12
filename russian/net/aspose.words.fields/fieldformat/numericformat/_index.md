@@ -1,14 +1,14 @@
 ---
 title: FieldFormat.NumericFormat
 second_title: Справочник по API Aspose.Words для .NET
-description: FieldFormat свойство. Получает или задает форматирование которое применяется к результату числового поля. Соответствует переключателю .
+description: FieldFormat свойство. Получает или задает форматирование применяемое к результату числового поля. Соответствует переключателю .
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/fieldformat/numericformat/
 ---
 ## FieldFormat.NumericFormat property
 
-Получает или задает форматирование, которое применяется к результату числового поля. Соответствует переключателю \#.
+Получает или задает форматирование, применяемое к результату числового поля. Соответствует переключателю \#.
 
 ```csharp
 public string NumericFormat { get; set; }
@@ -16,7 +16,7 @@ public string NumericFormat { get; set; }
 
 ### Примеры
 
-Показывает, как форматировать результаты поля.
+Показывает, как форматировать результаты полей.
 
 ```csharp
 Document doc = new Document();

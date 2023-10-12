@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTagRangeStart.LockContents
 second_title: Referencia de API de Aspose.Words para .NET
-description: StructuredDocumentTagRangeStart propiedad. Cuando se establece en verdadero esta propiedad prohibirá que un usuario edite el contenido de esta etiqueta de documento estructurado.
+description: StructuredDocumentTagRangeStart propiedad. Cuando se establece enverdadero  esta propiedad prohibirá a un usuario editar el contenido de esta etiqueta de documento estructurado.
 type: docs
 weight: 90
 url: /es/net/aspose.words.markup/structureddocumenttagrangestart/lockcontents/
 ---
 ## StructuredDocumentTagRangeStart.LockContents property
 
-Cuando se establece en verdadero, esta propiedad prohibirá que un usuario edite el contenido de esta etiqueta de documento estructurado.
+Cuando se establece en`verdadero` , esta propiedad prohibirá a un usuario editar el contenido de esta etiqueta de documento estructurado.
 
 ```csharp
 public bool LockContents { get; set; }
@@ -16,7 +16,7 @@ public bool LockContents { get; set; }
 
 ### Ejemplos
 
-Muestra cómo obtener las propiedades de las etiquetas de documentos estructurados de varias secciones.
+Muestra cómo obtener las propiedades de etiquetas de documentos estructurados de varias secciones.
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");

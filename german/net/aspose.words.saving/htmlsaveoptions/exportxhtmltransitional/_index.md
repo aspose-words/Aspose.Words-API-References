@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.ExportXhtmlTransitional
 second_title: Aspose.Words für .NET-API-Referenz
-description: HtmlSaveOptions eigendom. Gibt an ob die DOCTYPEDeklaration beim Speichern in HTML oder MHTML geschrieben werden soll. WannStimmt  schreibt eine DOCTYPEDeklaration in das Dokument vor dem Wurzelelement. Standardwert istFALSCH. Beim Speichern in EPUB oder HTML5 Html5  wird immer die Deklaration DOCTYPE geschrieben.
+description: HtmlSaveOptions eigendom. Gibt an ob die DOCTYPEDeklaration beim Speichern in HTML oder MHTML geschrieben werden soll. WannWAHR  schreibt eine DOCTYPEDeklaration in das Dokument vor dem Wurzelelement. Der Standardwert istFALSCH. Beim Speichern in EPUB oder HTML5 Html5  Die DOCTYPE Deklaration wird immer geschrieben.
 type: docs
-weight: 290
+weight: 280
 url: /de/net/aspose.words.saving/htmlsaveoptions/exportxhtmltransitional/
 ---
 ## HtmlSaveOptions.ExportXhtmlTransitional property
 
-Gibt an, ob die DOCTYPE-Deklaration beim Speichern in HTML oder MHTML geschrieben werden soll. Wann`Stimmt` , schreibt eine DOCTYPE-Deklaration in das Dokument vor dem Wurzelelement. Standardwert ist`FALSCH`. Beim Speichern in EPUB oder HTML5 (Html5 ) wird immer die Deklaration DOCTYPE geschrieben.
+Gibt an, ob die DOCTYPE-Deklaration beim Speichern in HTML oder MHTML geschrieben werden soll. Wann`WAHR` , schreibt eine DOCTYPE-Deklaration in das Dokument vor dem Wurzelelement. Der Standardwert ist`FALSCH`. Beim Speichern in EPUB oder HTML5 (Html5 ) Die DOCTYPE -Deklaration wird immer geschrieben.
 
 ```csharp
 public bool ExportXhtmlTransitional { get; set; }
@@ -18,9 +18,9 @@ public bool ExportXhtmlTransitional { get; set; }
 
 Aspose.Words schreibt unabhängig von dieser Einstellung immer wohlgeformtes HTML.
 
-Wann`Stimmt`, sieht der Anfang des HTML-Ausgabedokuments wie folgt aus:
+Wann`WAHR`, der Anfang des HTML-Ausgabedokuments sieht folgendermaßen aus:
 
-Aspose.Words zielt darauf ab, XHTML gemäß der XHTML 1.0 Transitional-Spezifikation auszugeben, aber die Ausgabe wird nicht immer gegen die DTD validiert. Einige Strukturen in einem Microsoft Word -Dokument lassen sich nur schwer oder gar nicht einem Dokument zuordnen, das gegen das XHTML-Schema validiert wird. Zum Beispiel erlaubt XHTML keine verschachtelten Listen (UL kann nicht in ein anderes UL-Element verschachtelt werden), aber in Microsoft Word-Dokumenten kommen mehrstufige Listen ziemlich oft vor.
+Aspose.Words zielt darauf ab, XHTML gemäß der XHTML 1.0 Transitional-Spezifikation auszugeben, aber die Ausgabe wird nicht immer anhand der DTD validiert. Einige Strukturen in einem Microsoft Word -Dokument lassen sich nur schwer oder gar nicht einem Dokument zuordnen, das anhand des XHTML-Schemas validiert werden kann. Beispielsweise erlaubt XHTML keine verschachtelten Listen (UL kann nicht in einem anderen UL-Element verschachtelt werden), , aber in Microsoft Word-Dokumenten kommen mehrstufige Listen recht häufig vor.
 
 ```csharp
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
@@ -49,7 +49,7 @@ HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html)
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.ExportXhtmlTransitional.html", options);
 
-// Unser Dokument enthält nur dann eine DOCTYPE-Deklarationsüberschrift, wenn wir das Flag "ExportXhtmlTransitional" auf "true" gesetzt haben.
+// Unser Dokument enthält nur dann eine DOCTYPE-Deklarationsüberschrift, wenn wir das Flag „ExportXhtmlTransitional“ auf „true“ gesetzt haben.
 string outDocContents = File.ReadAllText(ArtifactsDir + "HtmlSaveOptions.ExportXhtmlTransitional.html");
 
 if (showDoctypeDeclaration)

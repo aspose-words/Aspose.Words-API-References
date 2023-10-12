@@ -1,14 +1,14 @@
 ---
 title: SignatureLine.IsSigned
 second_title: Aspose.Words per .NET API Reference
-description: SignatureLine proprietà. Indica che la riga della firma è firmata dalla firma digitale.
+description: SignatureLine proprietà. Indica che la riga della firma è firmata tramite firma digitale.
 type: docs
 weight: 60
 url: /it/net/aspose.words.drawing/signatureline/issigned/
 ---
 ## SignatureLine.IsSigned property
 
-Indica che la riga della firma è firmata dalla firma digitale.
+Indica che la riga della firma è firmata tramite firma digitale.
 
 ```csharp
 public bool IsSigned { get; }
@@ -16,7 +16,7 @@ public bool IsSigned { get; }
 
 ### Esempi
 
-Mostra come firmare un documento con un certificato personale e una riga di firma.
+Mostra come firmare un documento con un certificato personale e una riga per la firma.
 
 ```csharp
 Document doc = new Document();
@@ -54,8 +54,8 @@ CertificateHolder certHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "a
 DigitalSignatureUtil.Sign(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.docx", 
     ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
 
-// Riapri il nostro documento salvato e verifica che le proprietà "IsSigned" e "IsValid" siano entrambe "true",
-// indicando che la riga della firma contiene una firma.
+// Riapri il nostro documento salvato e verifica che le proprietà "IsSigned" e "IsValid" siano entrambe uguali a "true",
+// indica che la riga della firma contiene una firma.
 doc = new Document(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 signatureLine = shape.SignatureLine;

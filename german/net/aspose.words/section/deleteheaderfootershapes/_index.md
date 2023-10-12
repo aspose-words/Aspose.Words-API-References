@@ -1,14 +1,14 @@
 ---
 title: Section.DeleteHeaderFooterShapes
 second_title: Aspose.Words für .NET-API-Referenz
-description: Section methode. Löscht alle Formen Zeichnungsobjekte aus den Kopf und Fußzeilen dieses Abschnitts.
+description: Section methode. Löscht alle Formen Zeichenobjekte aus den Kopf und Fußzeilen dieses Abschnitts.
 type: docs
-weight: 120
+weight: 140
 url: /de/net/aspose.words/section/deleteheaderfootershapes/
 ---
 ## Section.DeleteHeaderFooterShapes method
 
-Löscht alle Formen (Zeichnungsobjekte) aus den Kopf- und Fußzeilen dieses Abschnitts.
+Löscht alle Formen (Zeichenobjekte) aus den Kopf- und Fußzeilen dieses Abschnitts.
 
 ```csharp
 public void DeleteHeaderFooterShapes()
@@ -16,17 +16,17 @@ public void DeleteHeaderFooterShapes()
 
 ### Beispiele
 
-Zeigt, wie alle Formen aus allen Kopfzeilen und Fußzeilen in einem Abschnitt entfernt werden.
+Zeigt, wie alle Formen aus allen Kopf- und Fußzeilen in einem Abschnitt entfernt werden.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Erstellen Sie einen primären Header mit einer Form.
+// Erstelle einen primären Header mit einer Form.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 builder.InsertShape(ShapeType.Rectangle, 100, 100);
 
-// Erstellen Sie eine primäre Fußzeile mit einem Bild.
+// Erstelle eine primäre Fußzeile mit einem Bild.
 builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
 builder.InsertImage(ImageDir + "Logo Icon.ico");
 

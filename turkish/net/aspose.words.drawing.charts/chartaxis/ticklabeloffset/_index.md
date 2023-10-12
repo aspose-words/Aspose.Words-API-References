@@ -1,14 +1,14 @@
 ---
 title: ChartAxis.TickLabelOffset
 second_title: Aspose.Words for .NET API Referansı
-description: ChartAxis mülk. Etiketlerin eksenden uzaklığını alır veya ayarlar.
+description: ChartAxis mülk. Etiketlerin eksene olan mesafesini alır veya ayarlar.
 type: docs
-weight: 210
+weight: 230
 url: /tr/net/aspose.words.drawing.charts/chartaxis/ticklabeloffset/
 ---
 ## ChartAxis.TickLabelOffset property
 
-Etiketlerin eksenden uzaklığını alır veya ayarlar.
+Etiketlerin eksene olan mesafesini alır veya ayarlar.
 
 ```csharp
 public int TickLabelOffset { get; set; }
@@ -16,15 +16,15 @@ public int TickLabelOffset { get; set; }
 
 ### Notlar
 
-Özellik, varsayılan etiket ofsetinin bir yüzdesini temsil eder.
+Özellik, varsayılan etiket uzaklığının bir yüzdesini temsil eder.
 
-Geçerli aralık, yüzde 0 ile 1000 arasındadır. Varsayılan değer %100'dür.
+Geçerli aralık yüzde 0 ila 1000 arasındadır. Varsayılan değer %100'dür.
 
-Özelliğin yalnızca kategori eksenleri için etkisi vardır. MS Office 2016 yeni çizelgeleri tarafından desteklenmez.
+Özelliğin yalnızca kategori eksenleri için etkisi vardır. MS Office 2016 yeni çizelgeleri tarafından desteklenmemektedir.
 
 ### Örnekler
 
-Bir grafiğin nasıl ekleneceğini ve eksenlerinin görünümünün nasıl değiştirileceğini gösterir.
+Grafiğin nasıl ekleneceğini ve eksenlerinin görünümünün nasıl değiştirileceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -36,13 +36,13 @@ Chart chart = shape.Chart;
 // Temiz bir grafikle başlamak için grafiğin demo veri serisini temizleyin.
 chart.Series.Clear();
 
-// X ekseni için kategoriler ve Y ekseni için ilgili sayısal değerler içeren bir grafik serisi ekleyin.
+// X ekseni için kategorileri ve Y ekseni için ilgili sayısal değerleri içeren bir grafik serisi ekleyin.
 chart.Series.Add("Aspose Test Series",
     new[] { "Word", "PDF", "Excel", "GoogleDocs", "Note" },
     new double[] { 640, 320, 280, 120, 150 });
 
-// Grafik eksenleri, görünümlerini değiştirebilen çeşitli seçeneklere sahiptir,
-// yönleri, majör/alt birim keneleri ve kene işaretleri gibi.
+// Grafik eksenlerinin görünümlerini değiştirebilecek çeşitli seçenekleri vardır,
+// yönleri, büyük/küçük birim işaretleri ve onay işaretleri gibi.
 ChartAxis xAxis = chart.AxisX;
 xAxis.CategoryType = AxisCategoryType.Category;
 xAxis.Crosses = AxisCrosses.Minimum;
@@ -66,7 +66,7 @@ yAxis.MajorUnit = 100.0d;
 yAxis.MinorUnit = 20.0d;
 yAxis.TickLabelPosition = AxisTickLabelPosition.NextToAxis;
 
-// Sütun grafiklerinin Z ekseni yoktur.
+// Sütun grafiklerinde Z ekseni yoktur.
 Assert.Null(chart.AxisZ);
 
 doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");

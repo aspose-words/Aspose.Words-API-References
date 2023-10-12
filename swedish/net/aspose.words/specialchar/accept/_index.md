@@ -20,11 +20,11 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Returvärde
 
-Falskt om besökaren begärde att uppräkningen skulle sluta.
+`falsk` om besökaren begärde att uppräkningen skulle sluta.
 
 ### Anmärkningar
 
-Ringer DocumentVisitor.VisitSpecialChar.
+Samtal[`VisitSpecialChar`](../../documentvisitor/visitspecialchar/).
 
 För mer information se Visitor design mönster.
 

@@ -1,14 +1,14 @@
 ---
 title: HorizontalRuleFormat.WidthPercent
 second_title: Referencia de API de Aspose.Words para .NET
-description: HorizontalRuleFormat propiedad. Obtiene o establece la longitud de la regla horizontal especificada expresada como un porcentaje del ancho de la ventana.
+description: HorizontalRuleFormat propiedad. Obtiene o establece la longitud de la regla horizontal especificada expresada como porcentaje del ancho de la ventana.
 type: docs
 weight: 50
 url: /es/net/aspose.words.drawing/horizontalruleformat/widthpercent/
 ---
 ## HorizontalRuleFormat.WidthPercent property
 
-Obtiene o establece la longitud de la regla horizontal especificada expresada como un porcentaje del ancho de la ventana.
+Obtiene o establece la longitud de la regla horizontal especificada expresada como porcentaje del ancho de la ventana.
 
 ```csharp
 public double WidthPercent { get; set; }

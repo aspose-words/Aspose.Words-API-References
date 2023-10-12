@@ -1,14 +1,14 @@
 ---
 title: FieldChar.IsLocked
 second_title: Referencia de API de Aspose.Words para .NET
-description: FieldChar propiedad. Obtiene o establece si el campo principal está bloqueado no debe recalcular su resultado.
+description: FieldChar propiedad. Obtiene o establece si el campo principal está bloqueado no debe volver a calcular su resultado.
 type: docs
 weight: 30
 url: /es/net/aspose.words.fields/fieldchar/islocked/
 ---
 ## FieldChar.IsLocked property
 
-Obtiene o establece si el campo principal está bloqueado (no debe recalcular su resultado).
+Obtiene o establece si el campo principal está bloqueado (no debe volver a calcular su resultado).
 
 ```csharp
 public bool IsLocked { get; set; }
@@ -32,13 +32,13 @@ Assert.AreEqual(FieldType.FieldDate, fieldStart.FieldType);
 Assert.AreEqual(false, fieldStart.IsDirty);
 Assert.AreEqual(false, fieldStart.IsLocked);
 
-// Recuperar el objeto de fachada que representa el campo en el documento.
+// Recupera el objeto de fachada que representa el campo en el documento.
 field = (FieldDate)fieldStart.GetField();
 
 Assert.AreEqual(false, field.IsLocked);
 Assert.AreEqual(" DATE  \\@ \"dddd, MMMM dd, yyyy\"", field.GetFieldCode());
 
-// Actualizar el campo para mostrar la fecha actual.
+// Actualiza el campo para mostrar la fecha actual.
 field.Update();
 ```
 

@@ -1,14 +1,14 @@
 ---
 title: Enum PageBorderDistanceFrom
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.PageBorderDistanceFrom перечисление. Задает положение границы страницы относительно полей страницы.
+description: Aspose.Words.PageBorderDistanceFrom перечисление. Определяет положение границы страницы относительно поля страницы.
 type: docs
-weight: 4110
+weight: 4350
 url: /ru/net/aspose.words/pageborderdistancefrom/
 ---
 ## PageBorderDistanceFrom enumeration
 
-Задает положение границы страницы относительно полей страницы.
+Определяет положение границы страницы относительно поля страницы.
 
 ```csharp
 public enum PageBorderDistanceFrom
@@ -18,7 +18,7 @@ public enum PageBorderDistanceFrom
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| Text | `0` | Положение границы измеряется от поля страницы. |
+| Text | `0` | Положение границы измеряется от края страницы. |
 | PageEdge | `1` | Положение границы измеряется от края страницы. |
 
 ### Примеры

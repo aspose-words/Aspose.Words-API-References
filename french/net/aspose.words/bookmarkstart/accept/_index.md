@@ -20,13 +20,13 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Return_Value
 
-Faux si le visiteur a demandé l'arrêt de l'énumération.
+`FAUX` si le visiteur a demandé l'arrêt de l'énumération.
 
 ### Remarques
 
 Appels[`VisitBookmarkStart`](../../documentvisitor/visitbookmarkstart/).
 
-Pour plus d'informations, consultez le modèle de conception Visiteur.
+Pour plus d’informations, consultez le modèle de conception Visiteur.
 
 ### Exemples
 
@@ -38,10 +38,9 @@ public void CreateUpdateAndPrintBookmarks()
     // Créez un document avec trois signets, puis utilisez une implémentation de visiteur de document personnalisée pour imprimer leur contenu.
     Document doc = CreateDocumentWithBookmarks(3);
     BookmarkCollection bookmarks = doc.Range.Bookmarks;
-
     PrintAllBookmarkInfo(bookmarks);
 
-    // Les signets sont accessibles dans la collection de signets par index ou nom, et leurs noms peuvent être mis à jour.
+    // Les signets sont accessibles dans la collection de signets par index ou par nom, et leurs noms peuvent être mis à jour.
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
@@ -78,7 +77,7 @@ private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 {
     BookmarkInfoPrinter bookmarkVisitor = new BookmarkInfoPrinter();
 
-    // Obtient chaque signet de la collection pour accepter un visiteur qui imprimera son contenu.
+    // Demande à chaque signet de la collection d'accepter un visiteur qui imprimera son contenu.
     using (IEnumerator<Bookmark> enumerator = bookmarks.GetEnumerator())
     {
         while (enumerator.MoveNext())

@@ -3,7 +3,7 @@ title: ShapeBase.HorizontalAlignment
 second_title: Referencia de API de Aspose.Words para .NET
 description: ShapeBase propiedad. Especifica cómo se coloca la forma horizontalmente.
 type: docs
-weight: 210
+weight: 220
 url: /es/net/aspose.words.drawing/shapebase/horizontalalignment/
 ---
 ## ShapeBase.HorizontalAlignment property
@@ -18,7 +18,7 @@ public HorizontalAlignment HorizontalAlignment { get; set; }
 
 El valor predeterminado esNone.
 
-Solo tiene efecto para las formas flotantes de nivel superior.
+Tiene efecto sólo para formas flotantes de nivel superior.
 
 ### Ejemplos
 

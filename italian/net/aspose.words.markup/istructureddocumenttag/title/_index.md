@@ -14,6 +14,23 @@ Specifica il nome descrittivo associato a questo **SDT** . Non può essere nullo
 public string Title { get; set; }
 ```
 
+### Esempi
+
+Mostra come ottenere il tag del documento strutturato.
+
+```csharp
+Document doc = new Document(MyDir + "Structured document tags by id.docx");
+
+// Ottieni il tag del documento strutturato in base all'ID.
+IStructuredDocumentTag sdt = doc.Range.StructuredDocumentTags.GetById(1160505028);
+Console.WriteLine(sdt.IsRanged());
+Console.WriteLine(sdt.Title);
+
+// Ottieni il tag del documento strutturato o il tag con intervalli in base al titolo.
+sdt = doc.Range.StructuredDocumentTags.GetByTitle("Alias4");
+Console.WriteLine(sdt.Id);
+```
+
 ### Guarda anche
 
 * interface [IStructuredDocumentTag](../)

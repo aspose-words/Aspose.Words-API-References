@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.InsertHorizontalRule
 second_title: Aspose.Words لمراجع .NET API
-description: DocumentBuilder طريقة. إدراج شكل قاعدة أفقية في المستند.
+description: DocumentBuilder طريقة. إدراج شكل مسطرة أفقية في المستند.
 type: docs
-weight: 320
+weight: 350
 url: /ar/net/aspose.words/documentbuilder/inserthorizontalrule/
 ---
 ## DocumentBuilder.InsertHorizontalRule method
 
-إدراج شكل قاعدة أفقية في المستند.
+إدراج شكل مسطرة أفقية في المستند.
 
 ```csharp
 public Shape InsertHorizontalRule()
@@ -16,11 +16,11 @@ public Shape InsertHorizontalRule()
 
 ### قيمة الإرجاع
 
-الشكل الذي يمثل قاعدة أفقية.
+الشكل الذي يمثل القاعدة الأفقية.
 
 ### أمثلة
 
-يوضح كيفية إدراج شكل تسطير أفقي ، وتخصيص تنسيقه.
+يوضح كيفية إدراج شكل قاعدة أفقية، وتخصيص تنسيقه.
 
 ```csharp
 Document doc = new Document();

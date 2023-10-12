@@ -1,14 +1,14 @@
 ---
 title: HorizontalRuleFormat.Color
 second_title: Aspose.Words für .NET-API-Referenz
-description: HorizontalRuleFormat eigendom. Ruft die Pinselfarbe ab oder legt sie fest die die horizontale Linie ausfüllt.
+description: HorizontalRuleFormat eigendom. Ruft die Pinselfarbe ab die die horizontale Regel ausfüllt oder legt diese fest.
 type: docs
 weight: 20
 url: /de/net/aspose.words.drawing/horizontalruleformat/color/
 ---
 ## HorizontalRuleFormat.Color property
 
-Ruft die Pinselfarbe ab oder legt sie fest, die die horizontale Linie ausfüllt.
+Ruft die Pinselfarbe ab, die die horizontale Regel ausfüllt, oder legt diese fest.
 
 ```csharp
 public Color Color { get; set; }
@@ -16,13 +16,13 @@ public Color Color { get; set; }
 
 ### Bemerkungen
 
-Dies ist eine Verknüpfung zumColor Eigentum.
+Dies ist eine Verknüpfung zum[`Color`](../../fill/color/) Eigentum.
 
 Der Standardwert ist Gray.
 
 ### Beispiele
 
-Zeigt, wie Sie eine horizontale Linienform einfügen und ihre Formatierung anpassen.
+Zeigt, wie man eine horizontale Regelform einfügt und deren Formatierung anpasst.
 
 ```csharp
 Document doc = new Document();

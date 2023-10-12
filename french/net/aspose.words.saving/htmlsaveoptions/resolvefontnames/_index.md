@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.ResolveFontNames
 second_title: Référence de l'API Aspose.Words pour .NET
-description: HtmlSaveOptions propriété. Spécifie si les noms de famille de polices utilisés dans le document sont résolus et remplacés selon FontSettings lors de lécriture dans des formats basés sur HTML.
+description: HtmlSaveOptions propriété. Spécifie si les noms de familles de polices utilisés dans le document sont résolus et remplacés conformément à FontSettings lors de lécriture dans des formats HTML.
 type: docs
 weight: 410
 url: /fr/net/aspose.words.saving/htmlsaveoptions/resolvefontnames/
 ---
 ## HtmlSaveOptions.ResolveFontNames property
 
-Spécifie si les noms de famille de polices utilisés dans le document sont résolus et remplacés selon [`FontSettings`](../../../aspose.words/document/fontsettings/) lors de l'écriture dans des formats basés sur HTML.
+Spécifie si les noms de familles de polices utilisés dans le document sont résolus et remplacés conformément à [`FontSettings`](../../../aspose.words/document/fontsettings/) lors de l'écriture dans des formats HTML.
 
 ```csharp
 public bool ResolveFontNames { get; set; }
@@ -16,13 +16,13 @@ public bool ResolveFontNames { get; set; }
 
 ### Remarques
 
-Par défaut, cette option est définie sur`faux`et les noms de famille de polices sont écrits en HTML comme spécifié dans les documents source. C'est-à-dire,[`FontSettings`](../../../aspose.words/document/fontsettings/) sont ignorés et aucune résolution ou substitution des noms de famille de polices n'est effectuée.
+Par défaut, cette option est définie sur`FAUX` et les noms de familles de polices sont écrits au format HTML sous la forme spécifiée dans les documents sources. C'est,[`FontSettings`](../../../aspose.words/document/fontsettings/) sont ignorés et aucune résolution ou substitution des noms de famille de polices n'est effectuée.
 
-Si cette option est définie sur`vrai` , Aspose.Words utilise[`FontSettings`](../../../aspose.words/document/fontsettings/) pour résoudre chaque nom de famille de polices spécifié dans un document source dans le nom d'une famille de polices disponible, en effectuant la substitution de polices si nécessaire.
+Si cette option est définie sur`vrai` , Aspose.Words utilise[`FontSettings`](../../../aspose.words/document/fontsettings/) pour résoudre chaque nom de famille de polices spécifié dans un document source en nom d'une famille de polices disponible, en effectuant la substitution de police selon les besoins.
 
 ### Exemples
 
-Montre comment résoudre tous les noms de police avant de les écrire en HTML.
+Montre comment résoudre tous les noms de polices avant de les écrire au format HTML.
 
 ```csharp
 Document doc = new Document(MyDir + "Missing font.docx");

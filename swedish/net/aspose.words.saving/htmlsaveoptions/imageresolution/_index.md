@@ -3,7 +3,7 @@ title: HtmlSaveOptions.ImageResolution
 second_title: Aspose.Words för .NET API Referens
 description: HtmlSaveOptions fast egendom. Anger utdataupplösningen för bilder vid export till HTML MHTML eller EPUB. Standard är96 dpi .
 type: docs
-weight: 350
+weight: 340
 url: /sv/net/aspose.words.saving/htmlsaveoptions/imageresolution/
 ---
 ## HtmlSaveOptions.ImageResolution property

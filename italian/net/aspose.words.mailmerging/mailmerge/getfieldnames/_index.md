@@ -1,14 +1,14 @@
 ---
 title: MailMerge.GetFieldNames
 second_title: Aspose.Words per .NET API Reference
-description: MailMerge metodo. Restituisce una raccolta di nomi di campi stampa unione disponibili nel documento.
+description: MailMerge metodo. Restituisce una raccolta di nomi di campi di stampa unione disponibili nel documento.
 type: docs
 weight: 220
 url: /it/net/aspose.words.mailmerging/mailmerge/getfieldnames/
 ---
 ## MailMerge.GetFieldNames method
 
-Restituisce una raccolta di nomi di campi stampa unione disponibili nel documento.
+Restituisce una raccolta di nomi di campi di stampa unione disponibili nel documento.
 
 ```csharp
 public string[] GetFieldNames()
@@ -16,15 +16,15 @@ public string[] GetFieldNames()
 
 ### Osservazioni
 
-Restituisce i nomi dei campi di unione completi, incluso il prefisso opzionale. Non elimina i nomi di campo duplicati.
+Restituisce i nomi completi dei campi di unione incluso il prefisso facoltativo. Non elimina i nomi di campo duplicati.
 
-Ad ogni chiamata viene creato un nuovo array string[].
+Ad ogni chiamata viene creato un nuovo array di stringhe.
 
-Include i nomi dei campi "baffi" se[`UseNonMergeFields`](../usenonmergefields/) è **VERO**.
+Include i nomi dei campi "baffi" se[`UseNonMergeFields`](../usenonmergefields/) È`VERO`.
 
 ### Esempi
 
-Mostra come ottenere i nomi di tutti i campi di unione in un documento.
+Mostra come ottenere i nomi di tutti i campi unione in un documento.
 
 ```csharp
 Document doc = new Document();
@@ -43,8 +43,8 @@ dataTable.Columns.Add("City");
 dataTable.Rows.Add(new object[] { "John", "Doe", "New York" });
 dataTable.Rows.Add(new object[] { "Joe", "Bloggs", "Washington" });
 
-// Per ogni nome MERGEFIELD nel documento, assicurati che la tabella dati contenga una colonna
-// con lo stesso nome, quindi eseguire la stampa unione. 
+// Per ogni nome MERGEFIELD nel documento, assicurarsi che la tabella dati contenga una colonna
+ // con lo stesso nome, quindi eseguire la stampa unione.
 string[] fieldNames = doc.MailMerge.GetFieldNames();
 
 Assert.AreEqual(3, fieldNames.Length);

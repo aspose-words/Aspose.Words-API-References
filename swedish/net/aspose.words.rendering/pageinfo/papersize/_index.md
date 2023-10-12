@@ -3,7 +3,7 @@ title: PageInfo.PaperSize
 second_title: Aspose.Words för .NET API Referens
 description: PageInfo fast egendom. Hämtar pappersstorleken som uppräkning.
 type: docs
-weight: 30
+weight: 40
 url: /sv/net/aspose.words.rendering/pageinfo/papersize/
 ---
 ## PageInfo.PaperSize property

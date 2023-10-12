@@ -17,15 +17,14 @@ public NodeImporter(DocumentBase srcDoc, DocumentBase dstDoc, ImportFormatMode i
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | srcDoc | DocumentBase | Das Quelldokument. |
-| dstDoc | DocumentBase | Das Zieldokument, das der Besitzer importierter Knoten sein wird. |
+| dstDoc | DocumentBase | Das Zieldokument, das Eigentümer importierter Knoten sein wird. |
 | importFormatMode | ImportFormatMode | Gibt an, wie kollidierende Stilformatierungen zusammengeführt werden. |
 
 ### Beispiele
 
-Zeigt, wie Sie den Inhalt eines Dokuments in ein Lesezeichen in einem anderen Dokument einfügen.
+Zeigt, wie der Inhalt eines Dokuments in ein Lesezeichen in einem anderen Dokument eingefügt wird.
 
 ```csharp
-[Test]
 public void InsertAtBookmark()
 {
     Document doc = new Document();
@@ -61,8 +60,8 @@ static void InsertDocument(Node insertionDestination, Document docToInsert)
         NodeImporter importer =
             new NodeImporter(docToInsert, insertionDestination.Document, ImportFormatMode.KeepSourceFormatting);
 
-        // Alle Knoten auf Blockebene im Körper des Abschnitts durchlaufen,
-        // Dann klonen und fügen Sie jeden Knoten ein, der nicht der letzte leere Absatz eines Abschnitts ist.
+        // Alle Knoten auf Blockebene im Hauptteil des Abschnitts durchlaufen,
+        // dann jeden Knoten klonen und einfügen, der nicht der letzte leere Absatz eines Abschnitts ist.
         foreach (Section srcSection in docToInsert.Sections.OfType<Section>())
             foreach (Node srcNode in srcSection.Body)
             {
@@ -108,19 +107,19 @@ public NodeImporter(DocumentBase srcDoc, DocumentBase dstDoc, ImportFormatMode i
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | srcDoc | DocumentBase | Das Quelldokument. |
-| dstDoc | DocumentBase | Das Zieldokument, das der Besitzer importierter Knoten sein wird. |
+| dstDoc | DocumentBase | Das Zieldokument, das Eigentümer importierter Knoten sein wird. |
 | importFormatMode | ImportFormatMode | Gibt an, wie kollidierende Stilformatierungen zusammengeführt werden. |
 | importFormatOptions | ImportFormatOptions | Gibt verschiedene Optionen zum Formatieren importierter Knoten an. |
 
 ### Beispiele
 
-Zeigt, wie ein Konflikt beim Importieren von Dokumenten mit Listen mit derselben Listendefinitions-ID behoben wird.
+Zeigt, wie eine Kollision beim Importieren von Dokumenten behoben wird, die Listen mit derselben Listendefinitions-ID enthalten.
 
 ```csharp
 Document srcDoc = new Document(MyDir + "List with the same definition identifier - source.docx");
 Document dstDoc = new Document(MyDir + "List with the same definition identifier - destination.docx");
 
-// Setzen Sie die Eigenschaft "KeepSourceNumbering" auf "true", um eine andere Listendefinitions-ID anzuwenden
+// Setzen Sie die Eigenschaft „KeepSourceNumbering“ auf „true“, um eine andere Listendefinitions-ID anzuwenden
 // zu identischen Stilen, da Aspose.Words sie in Zieldokumente importiert.
 ImportFormatOptions importFormatOptions = new ImportFormatOptions { KeepSourceNumbering = true };
 
@@ -132,17 +131,17 @@ Zeigt, wie Konflikte bei der Listennummerierung in Quell- und Zieldokumenten beh
 
 ```csharp
 // Öffnen Sie ein Dokument mit einem benutzerdefinierten Listennummerierungsschema und klonen Sie es dann.
-// Da beide dasselbe Nummerierungsformat haben, kollidieren die Formate, wenn wir ein Dokument in das andere importieren.
+// Da beide das gleiche Nummerierungsformat haben, kommt es zu Konflikten zwischen den Formaten, wenn wir ein Dokument in das andere importieren.
 Document srcDoc = new Document(MyDir + "Custom list numbering.docx");
 Document dstDoc = srcDoc.Clone();
 
-// Wenn wir den Klon des Dokuments in das Original importieren und dann anhängen,
-// dann werden die beiden Listen mit demselben Listenformat zusammengeführt.
-// Wenn wir das "KeepSourceNumbering"-Flag auf "false" setzen, wird die Liste aus dem Dokument geklont
-// die wir an das Original anhängen, wird die Nummerierung der Liste übernehmen, an die wir sie anhängen.
+// Wenn wir den Klon des Dokuments in das Original importieren und ihn dann anhängen,
+// dann werden die beiden Listen mit demselben Listenformat zusammengefügt.
+// Wenn wir das Flag „KeepSourceNumbering“ auf „false“ setzen, wird die Liste aus dem Dokument geklont
+// das wir an das Original anhängen, führt die Nummerierung der Liste fort, an die wir es anhängen.
 // Dadurch werden die beiden Listen effektiv zu einer zusammengeführt.
-// Wenn wir das Flag "KeepSourceNumbering" auf "true" setzen, wird das Dokument geklont
-// Die Liste behält ihre ursprüngliche Nummerierung bei, sodass die beiden Listen als separate Listen erscheinen. 
+// Wenn wir das Flag „KeepSourceNumbering“ auf „true“ setzen, dann wird das Dokument geklont
+ // list behält seine ursprüngliche Nummerierung bei, sodass die beiden Listen als separate Listen erscheinen.
 ImportFormatOptions importFormatOptions = new ImportFormatOptions();
 importFormatOptions.KeepSourceNumbering = keepSourceNumbering;
 

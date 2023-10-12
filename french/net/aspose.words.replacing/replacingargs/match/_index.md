@@ -1,14 +1,14 @@
 ---
 title: ReplacingArgs.Match
 second_title: Référence de l'API Aspose.Words pour .NET
-description: ReplacingArgs propriété. LeMatch résultant dune seule correspondance dexpression regular lors dune Remplacer .
+description: ReplacingArgs propriété. LeMatch résultant dune seule correspondance dexpression régular au cours dun Remplacer .
 type: docs
 weight: 30
 url: /fr/net/aspose.words.replacing/replacingargs/match/
 ---
 ## ReplacingArgs.Match property
 
-LeMatch résultant d'une seule correspondance d'expression regular lors d'une **Remplacer** .
+LeMatch résultant d'une seule correspondance d'expression régular au cours d'un **Remplacer** .
 
 ```csharp
 public Match Match { get; }
@@ -16,13 +16,14 @@ public Match Match { get; }
 
 ### Remarques
 
-**Match.Index"** obtient la position de départ de base zéro de la correspondance à partir du début de la plage de recherche et de remplacement.
+**Correspondance.Index"** obtient la position Starting de base zéro de la correspondance à partir du début de la plage de recherche et de remplacement.
 
 ### Exemples
 
-Montre comment appliquer une police différente à un nouveau contenu via FindReplaceOptions.
+Montre comment appliquer une police différente au nouveau contenu via FindReplaceOptions.
 
 ```csharp
+public void ConvertNumbersToHexadecimal()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -34,7 +35,7 @@ Montre comment appliquer une police différente à un nouveau contenu via FindRe
     // Nous pouvons utiliser un objet "FindReplaceOptions" pour modifier le processus de recherche et de remplacement.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // Définissez la propriété "HighlightColor" sur une couleur d'arrière-plan que nous voulons appliquer au texte résultant de l'opération.
+    // Définissez la propriété "HighlightColor" sur une couleur d'arrière-plan que nous souhaitons appliquer au texte résultant de l'opération.
     options.ApplyFont.HighlightColor = Color.LightGray;
 
     NumberHexer numberHexer = new NumberHexer();
@@ -53,7 +54,7 @@ Montre comment appliquer une police différente à un nouveau contenu via FindRe
 
 /// <summary>
 /// Remplace les correspondances numériques de recherche et de remplacement par leurs équivalents hexadécimaux.
-/// Maintient un journal de chaque remplacement.
+/// Tient un journal de chaque remplacement.
 /// </summary>
 private class NumberHexer : IReplacingCallback
 {

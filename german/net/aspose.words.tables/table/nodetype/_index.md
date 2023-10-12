@@ -1,14 +1,14 @@
 ---
 title: Table.NodeType
 second_title: Aspose.Words für .NET-API-Referenz
-description: Table eigendom. gibt zurück Knotentyp.Tabelle .
+description: Table eigendom. Gibt zurückTable .
 type: docs
 weight: 210
 url: /de/net/aspose.words.tables/table/nodetype/
 ---
 ## Table.NodeType property
 
-gibt zurück **Knotentyp.Tabelle** .
+Gibt zurückTable .
 
 ```csharp
 public override NodeType NodeType { get; }
@@ -16,13 +16,14 @@ public override NodeType NodeType { get; }
 
 ### Beispiele
 
-Zeigt, wie die Baumstruktur untergeordneter Knoten eines zusammengesetzten Knotens durchlaufen wird.
+Zeigt, wie der Baum der untergeordneten Knoten eines zusammengesetzten Knotens durchlaufen wird.
 
 ```csharp
+public void RecurseChildren()
 {
     Document doc = new Document(MyDir + "Paragraphs.docx");
 
-    // Jeder Knoten, der untergeordnete Knoten enthalten kann, wie z. B. das Dokument selbst, ist zusammengesetzt.
+    // Jeder Knoten, der untergeordnete Knoten enthalten kann, z. B. das Dokument selbst, ist zusammengesetzt.
     Assert.True(doc.IsComposite);
 
     // Rufen Sie die rekursive Funktion auf, die alle untergeordneten Knoten eines zusammengesetzten Knotens durchläuft und ausgibt.
@@ -30,8 +31,8 @@ Zeigt, wie die Baumstruktur untergeordneter Knoten eines zusammengesetzten Knote
 }
 
 /// <summary>
-/// Durchläuft rekursiv einen Knotenbaum, während der Typ jedes Knotens ausgegeben wird
-/// mit einem Einzug in Abhängigkeit von der Tiefe sowie den Inhalten aller Inline-Knoten.
+/// Durchläuft rekursiv einen Knotenbaum und gibt dabei den Typ jedes Knotens aus
+/// mit einem Einzug abhängig von der Tiefe sowie dem Inhalt aller Inline-Knoten.
 /// </summary>
 public void TraverseAllNodes(CompositeNode parentNode, int depth)
 {
@@ -39,7 +40,7 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
     {
         Console.Write($"{new string('\t', depth)}{Node.NodeTypeToString(childNode.NodeType)}");
 
-        // Rekursion in den Knoten, wenn es sich um einen zusammengesetzten Knoten handelt. Geben Sie andernfalls seinen Inhalt aus, wenn es sich um einen Inline-Knoten handelt.
+        // Rekursion in den Knoten, wenn es sich um einen zusammengesetzten Knoten handelt. Andernfalls drucken Sie den Inhalt aus, wenn es sich um einen Inline-Knoten handelt.
         if (childNode.IsComposite)
         {
             Console.WriteLine();
@@ -64,16 +65,15 @@ public void CalculateDepthOfNestedTables()
 {
     Document doc = new Document(MyDir + "Nested tables.docx");
     NodeCollection tables = doc.GetChildNodes(NodeType.Table, true);
-
     for (int i = 0; i < tables.Count; i++)
     {
         Table table = (Table)tables[i];
 
-        // Finden Sie heraus, ob irgendwelche Zellen in der Tabelle andere Tabellen als Kinder haben.
+        // Finden Sie heraus, ob Zellen in der Tabelle andere Tabellen als Kinder haben.
         int count = GetChildTableCount(table);
         Console.WriteLine("Table #{0} has {1} tables directly within its cells", i, count);
 
-        // Finden Sie heraus, ob die Tabelle in einer anderen Tabelle verschachtelt ist, und wenn ja, in welcher Tiefe.
+        // Finden Sie heraus, ob die Tabelle in einer anderen Tabelle verschachtelt ist und wenn ja, in welcher Tiefe.
         int tableDepth = GetNestedDepthOfTable(table);
 
         if (tableDepth > 0)
@@ -105,12 +105,12 @@ private static int GetNestedDepthOfTable(Table table)
 }
 
 /// <summary>
-/// Ermittelt, ob eine Tabelle eine unmittelbar untergeordnete Tabelle in ihren Zellen enthält.
+/// Bestimmt, ob eine Tabelle in ihren Zellen eine unmittelbar untergeordnete Tabelle enthält.
 /// Diese Tabellen nicht rekursiv durchlaufen, um nach weiteren Tabellen zu suchen.
 /// </summary>
 /// <returns>
-/// Gibt wahr zurück, wenn mindestens eine untergeordnete Zelle eine Tabelle enthält.
-/// Gibt false zurück, wenn keine Zelle in der Tabelle eine Tabelle enthält.
+/// Gibt true zurück, wenn mindestens eine untergeordnete Zelle eine Tabelle enthält.
+/// Gibt false zurück, wenn keine Zellen in der Tabelle eine Tabelle enthalten.
 /// </returns>
 private static int GetChildTableCount(Table table)
 {

@@ -3,7 +3,7 @@ title: ImageSaveOptions.Scale
 second_title: Aspose.Words för .NET API Referens
 description: ImageSaveOptions fast egendom. Hämtar eller ställer in zoomfaktorn för de genererade bilderna.
 type: docs
-weight: 140
+weight: 150
 url: /sv/net/aspose.words.saving/imagesaveoptions/scale/
 ---
 ## ImageSaveOptions.Scale property

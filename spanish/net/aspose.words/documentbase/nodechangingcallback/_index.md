@@ -1,14 +1,14 @@
 ---
 title: DocumentBase.NodeChangingCallback
 second_title: Referencia de API de Aspose.Words para .NET
-description: DocumentBase propiedad. Llamado cuando se inserta o elimina un nodo en el documento.
+description: DocumentBase propiedad. Se llama cuando se inserta o elimina un nodo en el documento.
 type: docs
 weight: 50
 url: /es/net/aspose.words/documentbase/nodechangingcallback/
 ---
 ## DocumentBase.NodeChangingCallback property
 
-Llamado cuando se inserta o elimina un nodo en el documento.
+Se llama cuando se inserta o elimina un nodo en el documento.
 
 ```csharp
 public INodeChangingCallback NodeChangingCallback { get; set; }
@@ -19,12 +19,13 @@ public INodeChangingCallback NodeChangingCallback { get; set; }
 Muestra cómo personalizar el cambio de nodo con una devolución de llamada.
 
 ```csharp
+public void FontChangeViaCallback()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Establecer la devolución de llamada de cambio de nodo a la implementación personalizada,
-    // luego agregue/elimine nodos para que genere un registro.
+    // Establece la devolución de llamada de cambio de nodo para una implementación personalizada,
+    // luego agrega/elimina nodos para que genere un registro.
     HandleNodeChangingFontChanger callback = new HandleNodeChangingFontChanger();
     doc.NodeChangingCallback = callback;
 
@@ -36,10 +37,11 @@ Muestra cómo personalizar el cambio de nodo con una devolución de llamada.
     doc.Range.Fields[0].Remove();
 
     Console.WriteLine(callback.GetLog());
+}
 
 /// <summary>
-/// Registra la fecha y la hora de inserción y eliminación de cada nodo.
-/// Establece un nombre/tamaño de fuente personalizado para el contenido de texto de los nodos de ejecución.
+/// Registra la fecha y hora de cada inserción y eliminación de nodos.
+/// Establece un nombre/tamaño de fuente personalizado para el contenido del texto de los nodos Ejecutar.
 /// </summary>
 public class HandleNodeChangingFontChanger : INodeChangingCallback
 {

@@ -16,7 +16,7 @@ public bool Shadow { get; set; }
 
 ### Notlar
 
-Microsoft Word'de, bir kenarlığın gölgeli olması için, dört kenar (sol, üst, sağ ve alt) üzerindeki kenarlıkların aynı tür, genişlik ve renkte olması ve hepsinin Shadow özelliğinin true olarak ayarlanmış olması gerekir.
+Microsoft Word'de, bir kenarlığın gölgeye sahip olması için, dört kenardaki (sol, üst, sağ ve alt) kenarlıkların aynı türde, genişlikte ve renkte olması ve hepsinde Shadow özelliğinin olarak ayarlanması gerekir`doğru`.
 
 ### Örnekler
 

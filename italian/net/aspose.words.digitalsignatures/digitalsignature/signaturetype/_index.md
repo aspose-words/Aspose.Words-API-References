@@ -1,14 +1,14 @@
 ---
 title: DigitalSignature.SignatureType
 second_title: Aspose.Words per .NET API Reference
-description: DigitalSignature proprietà. Ottiene il tipo della firma digitale.
+description: DigitalSignature proprietà. Ottiene il tipo di firma digitale.
 type: docs
 weight: 50
 url: /it/net/aspose.words.digitalsignatures/digitalsignature/signaturetype/
 ---
 ## DigitalSignature.SignatureType property
 
-Ottiene il tipo della firma digitale.
+Ottiene il tipo di firma digitale.
 
 ```csharp
 public DigitalSignatureType SignatureType { get; }
@@ -16,7 +16,7 @@ public DigitalSignatureType SignatureType { get; }
 
 ### Esempi
 
-Mostra come convalidare e visualizzare le informazioni su ciascuna firma in un documento.
+Mostra come convalidare e visualizzare informazioni su ciascuna firma in un documento.
 
 ```csharp
 Document doc = new Document(MyDir + "Digitally signed.docx");

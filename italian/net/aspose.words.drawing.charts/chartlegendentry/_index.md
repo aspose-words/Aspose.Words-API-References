@@ -3,12 +3,14 @@ title: Class ChartLegendEntry
 second_title: Aspose.Words per .NET API Reference
 description: Aspose.Words.Drawing.Charts.ChartLegendEntry classe. Rappresenta una voce della legenda del grafico.
 type: docs
-weight: 690
+weight: 730
 url: /it/net/aspose.words.drawing.charts/chartlegendentry/
 ---
 ## ChartLegendEntry class
 
 Rappresenta una voce della legenda del grafico.
+
+Per saperne di più, visita il[Lavorare con i grafici](https://docs.aspose.com/words/net/working-with-charts/) articolo di documentazione.
 
 ```csharp
 public class ChartLegendEntry
@@ -23,7 +25,7 @@ public class ChartLegendEntry
 
 ### Osservazioni
 
-Una voce della legenda corrisponde a una serie di grafici o a una linea di tendenza specifica.
+Una voce della legenda corrisponde a una serie di grafici o una linea di tendenza specifica.
 
 Il testo della voce è il nome della serie o della linea di tendenza. Il testo non può essere modificato.
 

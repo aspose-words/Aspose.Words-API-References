@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.InsertHtml
 second_title: Справочник по API Aspose.Words для .NET
-description: DocumentBuilder метод. Вставляет строку HTML в документ.
+description: DocumentBuilder метод. Вставляет в документ HTMLстроку.
 type: docs
-weight: 330
+weight: 360
 url: /ru/net/aspose.words/documentbuilder/inserthtml/
 ---
 ## InsertHtml(string) {#inserthtml}
 
-Вставляет строку HTML в документ.
+Вставляет в документ HTML-строку.
 
 ```csharp
 public void InsertHtml(string html)
@@ -20,11 +20,11 @@ public void InsertHtml(string html)
 
 ### Примечания
 
-Этот метод можно использовать для вставки фрагмента HTML или всего документа HTML.
+Вы можете использовать этот метод для вставки фрагмента HTML или всего документа HTML.
 
 ### Примеры
 
-Показывает, как использовать конструктор документов для вставки содержимого HTML в документ.
+Показывает, как использовать построитель документов для вставки HTML-содержимого в документ.
 
 ```csharp
 Document doc = new Document();
@@ -37,7 +37,7 @@ const string html = "<p align='right'>Paragraph right</p>" +
 
 builder.InsertHtml(html);
 
-// При вставке HTML-кода форматирование каждого элемента преобразуется в эквивалентное форматирование текста документа.
+// Вставка HTML-кода анализирует форматирование каждого элемента в эквивалентное форматирование текста документа.
 ParagraphCollection paragraphs = doc.FirstSection.Body.Paragraphs;
 
 Assert.AreEqual("Paragraph right", paragraphs[0].GetText().Trim());
@@ -56,9 +56,10 @@ Assert.AreEqual("Heading 1", paragraphs[3].ParagraphFormat.Style.Name);
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertHtml.docx");
 ```
 
-Показывает, как выполнить слияние почты с помощью пользовательского обратного вызова, который обрабатывает данные слияния в виде HTML-документов.
+Показывает, как выполнить слияние почты с помощью пользовательского обратного вызова, который обрабатывает данные слияния в форме документов HTML.
 
 ```csharp
+public void MergeHtml()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -88,8 +89,8 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertHtml.docx");
 }
 
 /// <summary>
-/// Если слияние почты встречает MERGEFIELD, имя которого начинается с префикса "html_",
-/// этот обратный вызов анализирует свои данные слияния как содержимое HTML и добавляет результат в расположение документа MERGEFIELD.
+/// Если при слиянии почты встречается MERGEFIELD, имя которого начинается с префикса "html_",
+/// этот обратный вызов анализирует свои данные слияния как содержимое HTML и добавляет результат в местоположение документа MERGEFIELD.
 /// </summary>
 private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 {
@@ -100,13 +101,13 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
     {
         if (args.DocumentFieldName.StartsWith("html_") && args.Field.GetFieldCode().Contains("\\b"))
         {
-            // Добавляем проанализированные HTML-данные в тело документа.
+            // Добавляем проанализированные данные HTML в тело документа.
             DocumentBuilder builder = new DocumentBuilder(args.Document);
             builder.MoveToMergeField(args.DocumentFieldName);
             builder.InsertHtml((string)args.FieldValue);
 
-            // Так как мы уже вставили объединенный контент вручную,
-             // нам не нужно будет реагировать на это событие, возвращая содержимое через свойство «Текст».
+            // Поскольку мы уже вставили объединенный контент вручную,
+             // нам не нужно будет реагировать на это событие, возвращая контент через свойство «Текст».
             args.Text = string.Empty;
         }
     }
@@ -128,7 +129,7 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 
 ## InsertHtml(string, bool) {#inserthtml_2}
 
-Вставляет строку HTML в документ.
+Вставляет в документ HTML-строку.
 
 ```csharp
 public void InsertHtml(string html, bool useBuilderFormatting)
@@ -137,25 +138,25 @@ public void InsertHtml(string html, bool useBuilderFormatting)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | html | String | Строка HTML для вставки в документ. |
-| useBuilderFormatting | Boolean | Значение, указывающее, указано ли форматирование в[`DocumentBuilder`](../) используется в качестве базового форматирования для текста, импортированного из HTML. |
+| useBuilderFormatting | Boolean | Значение, указывающее, указано ли форматирование, указанное в[`DocumentBuilder`](../) используется в качестве базового форматирования текста, импортированного из HTML. |
 
 ### Примечания
 
-Этот метод можно использовать для вставки фрагмента HTML или всего документа HTML.
+Вы можете использовать этот метод для вставки фрагмента HTML или всего документа HTML.
 
-Когда*useBuilderFormatting* является`ЛОЖЬ` , [`DocumentBuilder`](../) форматирование игнорируется, а форматирование вставленного text основано на форматировании HTML по умолчанию. В результате текст выглядит так, как он отображается в браузерах.
+Когда*useBuilderFormatting* является`ЛОЖЬ` , [`DocumentBuilder`](../)форматирование игнорируется, а форматирование вставленного text основано на форматировании HTML по умолчанию. В результате текст выглядит так, как он отображается в браузерах.
 
-Когда*useBuilderFormatting* является`истинный` , форматирование вставляемого текста основано на[`DocumentBuilder`](../) форматирование, и текст выглядит так, как будто он был вставлен с[`Write`](../write/) .
+Когда*useBuilderFormatting* является`истинный` , форматирование вставленного текста основано на[`DocumentBuilder`](../) форматирование, и текст выглядит так, как будто он был вставлен с помощью[`Write`](../write/) .
 
 ### Примеры
 
-Показывает, как применять форматирование компоновщика документов при вставке содержимого HTML.
+Показывает, как применить форматирование построителя документов при вставке содержимого HTML.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Установить выравнивание текста для компоновщика, вставить абзац HTML с указанным выравниванием и один без него.
+// Установите выравнивание текста для компоновщика, вставьте абзац HTML с указанным выравниванием и без него.
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Distributed;
 builder.InsertHtml(
     "<p align='right'>Paragraph 1.</p>" +
@@ -163,13 +164,13 @@ builder.InsertHtml(
 
 ParagraphCollection paragraphs = doc.FirstSection.Body.Paragraphs;
 
-// Первый абзац имеет указанное выравнивание. Когда InsertHtml анализирует HTML-код,
-// значение выравнивания абзаца, найденное в коде HTML, всегда заменяет значение построителя документа.
+// Для первого абзаца указано выравнивание. Когда InsertHtml анализирует HTML-код,
+// значение выравнивания абзаца, найденное в HTML-коде, всегда заменяет значение построителя документа.
 Assert.AreEqual("Paragraph 1.", paragraphs[0].GetText().Trim());
 Assert.AreEqual(ParagraphAlignment.Right, paragraphs[0].ParagraphFormat.Alignment);
 
-// Второй абзац не имеет заданного выравнивания. Значение выравнивания может быть заполнено
-// по значению билдера в зависимости от флага, который мы передали методу InsertHtml.
+// Для второго абзаца не указано выравнивание. Он может иметь значение выравнивания, заполненное
+// по значению строителя в зависимости от флага, который мы передали методу InsertHtml.
 Assert.AreEqual("Paragraph 2.", paragraphs[1].GetText().Trim());
 Assert.AreEqual(useBuilderFormatting ? ParagraphAlignment.Distributed : ParagraphAlignment.Left,
     paragraphs[1].ParagraphFormat.Alignment);
@@ -187,7 +188,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertHtmlWithFormatting.docx");
 
 ## InsertHtml(string, HtmlInsertOptions) {#inserthtml_1}
 
-Вставляет строку HTML в документ. Позволяет указать дополнительные параметры.
+Вставляет в документ строку HTML. Позволяет указать дополнительные параметры.
 
 ```csharp
 public void InsertHtml(string html, HtmlInsertOptions options)
@@ -196,15 +197,15 @@ public void InsertHtml(string html, HtmlInsertOptions options)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | html | String | Строка HTML для вставки в документ. |
-| options | HtmlInsertOptions | Параметры, используемые при вставке строки HTML. |
+| options | HtmlInsertOptions | Параметры, которые используются при вставке строки HTML. |
 
 ### Примечания
 
-Этот метод можно использовать для вставки фрагмента HTML или всего документа HTML.
+Вы можете использовать этот метод для вставки фрагмента HTML или всего документа HTML.
 
 ### Примеры
 
-Показывает, как использовать параметры при вставке html.
+Показывает, как использовать параметры при вставке HTML.
 
 ```csharp
 Document doc = new Document();
@@ -215,10 +216,10 @@ builder.InsertParagraph();
 builder.InsertField(" MERGEFIELD EMAIL ");
 builder.InsertParagraph();
 
-// По умолчанию "DocumentBuilder.InsertHtml" вставляет HTML-фрагмент, который заканчивается HTML-элементом блочного уровня,
-// обычно он закрывает этот блочный элемент и вставляет разрыв абзаца.
+// По умолчанию «DocumentBuilder.InsertHtml» вставляет фрагмент HTML, который заканчивается элементом HTML уровня блока,
+// обычно он закрывает этот элемент уровня блока и вставляет разрыв абзаца.
 // В результате после вставленного документа появляется новый пустой абзац.
-// Если мы укажем "HtmlInsertOptions.RemoveLastEmptyParagraph", эти лишние пустые абзацы будут удалены.
+// Если мы укажем «HtmlInsertOptions.RemoveLastEmptyParagraph», эти лишние пустые абзацы будут удалены.
 builder.MoveToMergeField("NAME");
 builder.InsertHtml("<p>John Smith</p>", HtmlInsertOptions.UseBuilderFormatting | HtmlInsertOptions.RemoveLastEmptyParagraph);
 builder.MoveToMergeField("EMAIL");

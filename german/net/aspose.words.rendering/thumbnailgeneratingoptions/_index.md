@@ -1,14 +1,14 @@
 ---
 title: Class ThumbnailGeneratingOptions
 second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Rendering.ThumbnailGeneratingOptions klas. Kann verwendet werden um zusätzliche Optionen beim Generieren von Miniaturansichten für ein Dokument anzugeben.
+description: Aspose.Words.Rendering.ThumbnailGeneratingOptions klas. Kann verwendet werden um beim Generieren einer Miniaturansicht für ein Dokument zusätzliche Optionen anzugeben.
 type: docs
-weight: 4340
+weight: 4600
 url: /de/net/aspose.words.rendering/thumbnailgeneratingoptions/
 ---
 ## ThumbnailGeneratingOptions class
 
-Kann verwendet werden, um zusätzliche Optionen beim Generieren von Miniaturansichten für ein Dokument anzugeben.
+Kann verwendet werden, um beim Generieren einer Miniaturansicht für ein Dokument zusätzliche Optionen anzugeben.
 
 ```csharp
 public class ThumbnailGeneratingOptions
@@ -24,8 +24,8 @@ public class ThumbnailGeneratingOptions
 
 | Name | Beschreibung |
 | --- | --- |
-| [GenerateFromFirstPage](../../aspose.words.rendering/thumbnailgeneratingoptions/generatefromfirstpage/) { get; set; } | Gibt an, ob ein Miniaturbild von der ersten Seite des Dokuments oder dem ersten Bild generiert werden soll. |
-| [ThumbnailSize](../../aspose.words.rendering/thumbnailgeneratingoptions/thumbnailsize/) { get; set; } | Größe des generierten Thumbnails in Pixel. Standard ist 600x900. |
+| [GenerateFromFirstPage](../../aspose.words.rendering/thumbnailgeneratingoptions/generatefromfirstpage/) { get; set; } | Gibt an, ob eine Miniaturansicht von der ersten Seite des Dokuments oder vom ersten Bild generiert werden soll. |
+| [ThumbnailSize](../../aspose.words.rendering/thumbnailgeneratingoptions/thumbnailsize/) { get; set; } | Größe des generierten Miniaturbilds in Pixel. Standard ist 600 x 900. |
 
 ### Bemerkungen
 
@@ -43,11 +43,11 @@ builder.Writeln("Hello world!");
 builder.InsertImage(ImageDir + "Logo.jpg");
 
 // Es gibt zwei Möglichkeiten, ein Miniaturbild festzulegen, wenn ein Dokument im .epub-Format gespeichert wird.
-// 1 - Verwenden Sie die erste Seite des Dokuments:
+// 1 – Die erste Seite des Dokuments verwenden:
 doc.UpdateThumbnail();
 doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstPage.epub");
 
-// 2 - Verwenden Sie das erste im Dokument gefundene Bild:
+// 2 – Das erste im Dokument gefundene Bild verwenden:
 ThumbnailGeneratingOptions options = new ThumbnailGeneratingOptions();
 options.ThumbnailSize = new Size(400, 400);
 options.GenerateFromFirstPage = false;

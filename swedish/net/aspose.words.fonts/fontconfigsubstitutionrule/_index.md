@@ -3,12 +3,14 @@ title: Class FontConfigSubstitutionRule
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Fonts.FontConfigSubstitutionRule klass. Regel för ersättning av teckensnittskonfiguration.
 type: docs
-weight: 2710
+weight: 2890
 url: /sv/net/aspose.words.fonts/fontconfigsubstitutionrule/
 ---
 ## FontConfigSubstitutionRule class
 
 Regel för ersättning av teckensnittskonfiguration.
+
+För att lära dig mer, besök[Arbeta med teckensnitt](https://docs.aspose.com/words/net/working-with-fonts/) dokumentationsartikel.
 
 ```csharp
 public class FontConfigSubstitutionRule : FontSubstitutionRule

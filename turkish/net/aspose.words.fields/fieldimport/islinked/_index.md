@@ -1,14 +1,14 @@
 ---
 title: FieldImport.IsLinked
 second_title: Aspose.Words for .NET API Referansı
-description: FieldImport mülk. Grafik verilerini belgeyle depolamayarak dosya boyutunu küçültüp küçültmemeyi alır veya ayarlar.
+description: FieldImport mülk. Grafik verilerini belgede saklamayarak dosya boyutunun küçültülüp küçültülmeyeceğini alır veya ayarlar.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fields/fieldimport/islinked/
 ---
 ## FieldImport.IsLinked property
 
-Grafik verilerini belgeyle depolamayarak dosya boyutunu küçültüp küçültmemeyi alır veya ayarlar.
+Grafik verilerini belgede saklamayarak dosya boyutunun küçültülüp küçültülmeyeceğini alır veya ayarlar.
 
 ```csharp
 public bool IsLinked { get; set; }
@@ -16,13 +16,13 @@ public bool IsLinked { get; set; }
 
 ### Örnekler
 
-IMPORT ve INCLUDEPICTURE alanlarını kullanarak resimlerin nasıl ekleneceğini gösterir.
+IMPORT ve INCLUDEPICTURE alanlarını kullanarak görüntülerin nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Aşağıda, yerel dosya sisteminden bağlantılı görüntüleri görüntülemek için kullanabileceğimiz iki benzer alan türü bulunmaktadır.
+// Aşağıda yerel dosya sisteminden bağlantılı görselleri görüntülemek için kullanabileceğimiz iki benzer alan türü bulunmaktadır.
 // 1 - INCLUDEPICTURE alanı:
 FieldIncludePicture fieldIncludePicture = (FieldIncludePicture)builder.InsertField(FieldType.FieldIncludePicture, true);
 fieldIncludePicture.SourceFullName = ImageDir + "Transparent background logo.png";

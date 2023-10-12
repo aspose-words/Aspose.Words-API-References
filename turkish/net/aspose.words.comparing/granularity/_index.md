@@ -3,7 +3,7 @@ title: Enum Granularity
 second_title: Aspose.Words for .NET API Referansı
 description: Aspose.Words.Comparing.Granularity Sıralama. İki belgeyi karşılaştırırken izlenecek değişikliklerin ayrıntı düzeyini belirtir.
 type: docs
-weight: 280
+weight: 290
 url: /tr/net/aspose.words.comparing/granularity/
 ---
 ## Granularity enumeration
@@ -23,7 +23,7 @@ public enum Granularity
 
 ### Örnekler
 
-Belgeleri karşılaştırırken bir ayrıntı düzeyi belirtmek için gösterir.
+Belgeleri karşılaştırırken ayrıntı düzeyini belirtmeyi gösterir.
 
 ```csharp
 Document docA = new Document();

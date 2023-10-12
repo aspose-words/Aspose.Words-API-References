@@ -16,15 +16,15 @@ public void Clear()
 
 ### Örnekler
 
-Birleşik giriş kutusu alanının nasıl ekleneceğini ve öğe koleksiyonundaki öğelerin nasıl düzenleneceğini gösterir.
+Açılan kutu alanının nasıl ekleneceğini ve öğe koleksiyonundaki öğelerin nasıl düzenleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Bir birleşik giriş kutusu ekleyin ve ardından açılan öğelerin koleksiyonunu doğrulayın.
-// Microsoft Word'de, kullanıcı birleşik giriş kutusuna tıklayacak,
-// ve sonra görüntülenecek koleksiyondaki metin öğelerinden birini seçin.
+// Bir açılan kutu ekleyin ve ardından açılır öğeler koleksiyonunu doğrulayın.
+// Microsoft Word'de kullanıcı açılan kutuya tıklayacak,
+// ve ardından koleksiyondaki görüntülenecek metin öğelerinden birini seçin.
 string[] items = { "One", "Two", "Three" };
 FormField comboBoxField = builder.InsertComboBox("DropDown", items, 0);
 DropDownItemCollection dropDownItems = comboBoxField.DropDownItems;
@@ -34,11 +34,11 @@ Assert.AreEqual("One", dropDownItems[0]);
 Assert.AreEqual(1, dropDownItems.IndexOf("Two"));
 Assert.IsTrue(dropDownItems.Contains("Three"));
 
-// Mevcut bir açılır kutu öğeleri koleksiyonuna yeni bir öğe eklemenin iki yolu vardır.
+// Mevcut açılır kutu öğeleri koleksiyonuna yeni bir öğe eklemenin iki yolu vardır.
 // 1 - Koleksiyonun sonuna bir öğe ekleyin:
 dropDownItems.Add("Four");
 
-// 2 - Belirtilen dizindeki başka bir öğeden önce bir öğe ekle:
+// 2 - Belirtilen dizindeki başka bir öğenin önüne bir öğe ekleyin:
 dropDownItems.Insert(3, "Three and a half");
 
 Assert.AreEqual(5, dropDownItems.Count);
@@ -48,11 +48,11 @@ using (IEnumerator<string> dropDownCollectionEnumerator = dropDownItems.GetEnume
     while (dropDownCollectionEnumerator.MoveNext())
         Console.WriteLine(dropDownCollectionEnumerator.Current);
 
-// Açılır öğeler koleksiyonundan öğeleri kaldırmanın iki yolu vardır.
+// Açılan öğeler koleksiyonundan öğeleri kaldırmanın iki yolu vardır.
 // 1 - İçeriği iletilen dizeye eşit olan bir öğeyi kaldırın:
 dropDownItems.Remove("Four");
 
-// 2 - Bir dizindeki bir öğeyi kaldırın:
+// 2 - Dizindeki bir öğeyi kaldırın:
 dropDownItems.RemoveAt(3);
 
 Assert.AreEqual(3, dropDownItems.Count);
@@ -61,7 +61,7 @@ Assert.IsFalse(dropDownItems.Contains("Four"));
 
 doc.Save(ArtifactsDir + "FormFields.DropDownItemCollection.html");
 
-// Açılan öğelerin tüm koleksiyonunu boşaltın.
+// Açılan öğeler koleksiyonunun tamamını boşaltın.
 dropDownItems.Clear();
 ```
 

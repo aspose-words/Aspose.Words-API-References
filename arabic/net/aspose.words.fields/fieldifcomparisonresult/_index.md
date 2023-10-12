@@ -1,14 +1,14 @@
 ---
 title: Enum FieldIfComparisonResult
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fields.FieldIfComparisonResult تعداد. تحديد نتيجة تقييم حالة الحقل IF .
+description: Aspose.Words.Fields.FieldIfComparisonResult تعداد. يحدد نتيجة تقييم حالة حقل IF.
 type: docs
-weight: 1860
+weight: 2010
 url: /ar/net/aspose.words.fields/fieldifcomparisonresult/
 ---
 ## FieldIfComparisonResult enumeration
 
-تحديد نتيجة تقييم حالة الحقل IF .
+يحدد نتيجة تقييم حالة حقل IF.
 
 ```csharp
 public enum FieldIfComparisonResult
@@ -20,7 +20,7 @@ public enum FieldIfComparisonResult
 | --- | --- | --- |
 | Error | `0` | يوجد خطأ في الشرط. |
 | True | `1` | الشرط هو`حقيقي` . |
-| False | `2` | الشرط هو`خاطئة` . |
+| False | `2` | الشرط هو`خطأ شنيع` . |
 
 ### أمثلة
 
@@ -36,13 +36,13 @@ field.LeftExpression = "0";
 field.ComparisonOperator = "=";
 field.RightExpression = "1";
 
-// سيعرض الحقل IF سلسلة من خاصية "TrueText" الخاصة به ،
-// أو خاصيته "FalseText" ، اعتمادًا على حقيقة البيان الذي أنشأناه.
+// سيعرض حقل IF سلسلة من خاصية "TrueText" الخاصة به،
+// أو خاصية "FalseText" الخاصة بها، اعتمادًا على صحة العبارة التي قمنا ببنائها.
 field.TrueText = "True";
 field.FalseText = "False";
 field.Update();
 
-// في هذه الحالة ، "0 = 1" غير صحيحة ، لذا ستكون النتيجة المعروضة "False".
+// في هذه الحالة، "0 = 1" غير صحيح، لذا ستكون النتيجة المعروضة "خطأ".
 Assert.AreEqual(" IF  0 = 1 True False", field.GetFieldCode());
 Assert.AreEqual(FieldIfComparisonResult.False, field.EvaluateCondition());
 Assert.AreEqual("False", field.Result);
@@ -56,7 +56,7 @@ field.TrueText = "True";
 field.FalseText = "False";
 field.Update();
 
-// هذه المرة العبارة صحيحة ، لذا ستكون النتيجة المعروضة "صحيحة".
+// هذه المرة العبارة صحيحة، لذا ستكون النتيجة المعروضة "صحيح".
 Assert.AreEqual(" IF  5 = \"2 + 3\" True False", field.GetFieldCode());
 Assert.AreEqual(FieldIfComparisonResult.True, field.EvaluateCondition());
 Assert.AreEqual("True", field.Result);

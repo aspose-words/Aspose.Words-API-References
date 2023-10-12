@@ -1,14 +1,14 @@
 ---
 title: TableStyle.AllowBreakAcrossPages
 second_title: Référence de l'API Aspose.Words pour .NET
-description: TableStyle propriété. Obtient ou définit un indicateur indiquant si le texte dune ligne de tableau est autorisé à être fractionné sur un saut de page.
+description: TableStyle propriété. Obtient ou définit un indicateur indiquant si le texte dune ligne de tableau est autorisé à être divisé sur un saut de page.
 type: docs
 weight: 20
 url: /fr/net/aspose.words/tablestyle/allowbreakacrosspages/
 ---
 ## TableStyle.AllowBreakAcrossPages property
 
-Obtient ou définit un indicateur indiquant si le texte d'une ligne de tableau est autorisé à être fractionné sur un saut de page.
+Obtient ou définit un indicateur indiquant si le texte d'une ligne de tableau est autorisé à être divisé sur un saut de page.
 
 ```csharp
 public bool AllowBreakAcrossPages { get; set; }
@@ -16,7 +16,7 @@ public bool AllowBreakAcrossPages { get; set; }
 
 ### Remarques
 
-La valeur par défaut est **vrai** .
+La valeur par défaut est`vrai` .
 
 ### Exemples
 

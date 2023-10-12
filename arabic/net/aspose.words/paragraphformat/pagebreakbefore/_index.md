@@ -1,14 +1,14 @@
 ---
 title: ParagraphFormat.PageBreakBefore
 second_title: Aspose.Words لمراجع .NET API
-description: ParagraphFormat ملكية. True إذا تم فرض فاصل صفحة قبل الفقرة.
+description: ParagraphFormat ملكية. صحيح إذا تم فرض فاصل الصفحات قبل الفقرة.
 type: docs
-weight: 250
+weight: 260
 url: /ar/net/aspose.words/paragraphformat/pagebreakbefore/
 ---
 ## ParagraphFormat.PageBreakBefore property
 
-True إذا تم فرض فاصل صفحة قبل الفقرة.
+صحيح إذا تم فرض فاصل الصفحات قبل الفقرة.
 
 ```csharp
 public bool PageBreakBefore { get; set; }
@@ -22,11 +22,11 @@ public bool PageBreakBefore { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// اضبط هذه العلامة على "صواب" لتطبيق فاصل صفحة على بداية كل فقرة
-// الذي سيُنشئه مُنشئ المستند ضمن تكوين تنسيق الفقرة هذا.
+// اضبط هذه العلامة على "صحيح" لتطبيق فاصل الصفحات على بداية كل فقرة
+// الذي سيقوم منشئ المستندات بإنشائه ضمن تكوين ParagraphFormat هذا.
 // لن تتلقى الفقرة الأولى فاصل صفحات.
-// اترك هذه العلامة على أنها "خطأ" لبدء كل فقرة جديدة في نفس الصفحة
-// كالسابق ، بشرط وجود مساحة كافية.
+// اترك هذه العلامة كـ "خطأ" لبدء كل فقرة جديدة في نفس الصفحة
+// كالسابق، بشرط وجود مساحة كافية.
 builder.ParagraphFormat.PageBreakBefore = pageBreakBefore;
 
 builder.Writeln("Paragraph 1.");

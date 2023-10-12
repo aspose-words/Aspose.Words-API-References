@@ -1,14 +1,14 @@
 ---
 title: ChartAxis.AxisBetweenCategories
 second_title: Aspose.Words per .NET API Reference
-description: ChartAxis proprietà. Ottiene o imposta un flag che indica se lasse dei valori incrocia lasse delle categorie tra le categorie.
+description: ChartAxis proprietà. Ottiene o imposta un flag che indica se lasse dei valori attraversa lasse delle categorie tra le categorie.
 type: docs
 weight: 10
 url: /it/net/aspose.words.drawing.charts/chartaxis/axisbetweencategories/
 ---
 ## ChartAxis.AxisBetweenCategories property
 
-Ottiene o imposta un flag che indica se l'asse dei valori incrocia l'asse delle categorie tra le categorie.
+Ottiene o imposta un flag che indica se l'asse dei valori attraversa l'asse delle categorie tra le categorie.
 
 ```csharp
 public bool AxisBetweenCategories { get; set; }
@@ -20,7 +20,7 @@ La proprietà ha effetto solo per gli assi dei valori. Non è supportato dai nuo
 
 ### Esempi
 
-Mostra come far incrociare un asse del grafico in una posizione personalizzata.
+Mostra come fare in modo che un asse del grafico si intersechi in una posizione personalizzata.
 
 ```csharp
 Document doc = new Document();
@@ -34,9 +34,9 @@ Assert.AreEqual("Series 1", chart.Series[0].Name);
 Assert.AreEqual("Series 2", chart.Series[1].Name);
 Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-// Per gli istogrammi, l'asse Y incrocia lo zero per impostazione predefinita,
-// il che significa che le colonne per tutti i valori inferiori allo zero puntano verso il basso per rappresentare valori negativi.
-// Possiamo impostare un valore diverso per l'incrocio dell'asse Y. In questo caso, lo imposteremo a 3.
+// Per i grafici a colonne, l'asse Y incrocia lo zero per impostazione predefinita,
+// il che significa che le colonne per tutti i valori inferiori allo zero puntano verso il basso per rappresentare i valori negativi.
+// Possiamo impostare un valore diverso per l'incrocio dell'asse Y. In questo caso lo imposteremo su 3.
 ChartAxis axis = chart.AxisX;
 axis.Crosses = AxisCrosses.Custom;
 axis.CrossesAt = 3;

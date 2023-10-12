@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.EndColumnBookmark
 second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentBuilder methode. Markiert die aktuelle Position im Dokument als SpaltenLesezeichenEnde. Die Position muss sich in einer Tabellenzelle befinden.
+description: DocumentBuilder methode. Markiert die aktuelle Position im Dokument als SpaltenLesezeichenende. Die Position muss in einer Tabellenzelle liegen.
 type: docs
-weight: 200
+weight: 220
 url: /de/net/aspose.words/documentbuilder/endcolumnbookmark/
 ---
 ## DocumentBuilder.EndColumnBookmark method
 
-Markiert die aktuelle Position im Dokument als Spalten-Lesezeichen-Ende. Die Position muss sich in einer Tabellenzelle befinden.
+Markiert die aktuelle Position im Dokument als Spalten-Lesezeichenende. Die Position muss in einer Tabellenzelle liegen.
 
 ```csharp
 public BookmarkEnd EndColumnBookmark(string bookmarkName)
@@ -24,11 +24,11 @@ Der Lesezeichen-Endknoten, der gerade erstellt wurde.
 
 ### Bemerkungen
 
-Ein Spaltenlesezeichen deckt eine oder mehrere Spalten in einem Bereich von Zeilen ab. Um ein gültiges Lesezeichen zu erstellen, müssen Sie beide aufrufen[`StartColumnBookmark`](../startcolumnbookmark/) und`EndColumnBookmark` mit demselben  **LesezeichenName** Parameter.
+Ein Spaltenlesezeichen deckt eine oder mehrere Spalten in einem Zeilenbereich ab. Um ein gültiges Lesezeichen zu erstellen, müssen Sie beide aufrufen[`StartColumnBookmark`](../startcolumnbookmark/) Und`EndColumnBookmark` mit dem gleichen *bookmarkName*Parameter.
 
-Schlecht formatierte Lesezeichen oder Lesezeichen mit doppelten Namen werden beim Speichern des Dokuments ignoriert.
+Falsch formatierte Lesezeichen oder Lesezeichen mit doppelten Namen werden beim Speichern des Dokuments ignoriert.
 
-Die tatsächliche Position des eingefügten[`BookmarkEnd`](../../bookmarkend/) node kann sich von der aktuellen document Builder-Position unterscheiden.
+Die tatsächliche Position des eingefügten[`BookmarkEnd`](../../bookmarkend/) Der Knoten kann von der aktuellen document Builder-Position abweichen.
 
 ### Beispiele
 
@@ -41,9 +41,9 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.StartTable();
 
 builder.InsertCell();
-// Die Zellen 1,2,4,5 werden mit einem Lesezeichen versehen.
+// Zellen 1,2,4,5 werden mit einem Lesezeichen versehen.
 builder.StartColumnBookmark("MyBookmark_1");
-// Schlecht formatierte Lesezeichen oder Lesezeichen mit doppelten Namen werden beim Speichern des Dokuments ignoriert.
+// Falsch formatierte Lesezeichen oder Lesezeichen mit doppelten Namen werden beim Speichern des Dokuments ignoriert.
 builder.StartColumnBookmark("MyBookmark_1");
 builder.StartColumnBookmark("BadStartBookmark");
 builder.Write("Cell 1");

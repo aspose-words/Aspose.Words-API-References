@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTag.Checked
 second_title: Aspose.Words for .NET API 参考
-description: StructuredDocumentTag 财产. 获取/设置复选框的当前状态 SDT. 此属性的默认值为 false
+description: StructuredDocumentTag 财产. 获取/设置复选框的当前状态 特殊测试. 此属性的默认值为错误的.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.markup/structureddocumenttag/checked/
 ---
 ## StructuredDocumentTag.Checked property
 
-获取/设置复选框的当前状态 **SDT**. 此属性的默认值为 false。
+获取/设置复选框的当前状态 **特殊测试**. 此属性的默认值为`错误的`.
 
 ```csharp
 public bool Checked { get; set; }
@@ -16,9 +16,9 @@ public bool Checked { get; set; }
 
 ### 评论
 
-访问此属性仅适用于Checkbox SDT 类型。
+访问该属性仅适用于Checkbox SDT 类型。
 
-对于所有其他 SDT 类型，将发生异常。
+对于所有其他 SDT 类型，都会发生异常。
 
 ### 例子
 

@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.DoNotWrapTextWithPunct
 second_title: Aspose.Words for .NET API 参考
-description: CompatibilityOptions 财产. 不允许使用字符网格悬挂标点
+description: CompatibilityOptions 财产. 不允许使用字符网格悬挂标点符号
 type: docs
 weight: 250
 url: /zh/net/aspose.words.settings/compatibilityoptions/donotwraptextwithpunct/
 ---
 ## CompatibilityOptions.DoNotWrapTextWithPunct property
 
-不允许使用字符网格悬挂标点。
+不允许使用字符网格悬挂标点符号。
 
 ```csharp
 public bool DoNotWrapTextWithPunct { get; set; }

@@ -16,9 +16,9 @@ public Color PageColor { get; set; }
 
 ### Osservazioni
 
-Questa proprietà fornisce un modo semplice per specificare un colore di pagina a tinta unita per il documento. L'impostazione di questa proprietà crea e imposta un[`BackgroundShape`](../backgroundshape/).
+Questa proprietà fornisce un modo semplice per specificare un colore di pagina a tinta unita per il documento. L'impostazione di questa proprietà crea e imposta un colore appropriato[`BackgroundShape`](../backgroundshape/).
 
-Se il colore della pagina non è impostato (es. non c'è una forma di sfondo nel documento) restituisce Empty.
+Se il colore della pagina non è impostato (ad esempio non è presente alcuna forma di sfondo nel documento) restituisce Empty.
 
 ### Esempi
 

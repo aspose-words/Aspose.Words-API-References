@@ -1,14 +1,14 @@
 ---
 title: FieldFileSize.IsInKilobytes
 second_title: Referencia de API de Aspose.Words para .NET
-description: FieldFileSize propiedad. Obtiene o establece si mostrar el tamaño del archivo en kilobytes.
+description: FieldFileSize propiedad. Obtiene o establece si se muestra el tamaño del archivo en kilobytes.
 type: docs
 weight: 20
 url: /es/net/aspose.words.fields/fieldfilesize/isinkilobytes/
 ---
 ## FieldFileSize.IsInKilobytes property
 
-Obtiene o establece si mostrar el tamaño del archivo en kilobytes.
+Obtiene o establece si se muestra el tamaño del archivo en kilobytes.
 
 ```csharp
 public bool IsInKilobytes { get; set; }
@@ -16,7 +16,7 @@ public bool IsInKilobytes { get; set; }
 
 ### Ejemplos
 
-Muestra cómo mostrar el tamaño de archivo de un documento con un campo TAMAÑO DE ARCHIVO.
+Muestra cómo mostrar el tamaño de archivo de un documento con un campo FILESIZE.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -27,9 +27,9 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.MoveToDocumentEnd();
 builder.InsertParagraph();
 
-// Abajo hay tres unidades de medida diferentes
+// A continuación se muestran tres unidades de medida diferentes
 // con qué campos FILESIZE pueden mostrar el tamaño del archivo del documento.
-// 1 - bytes:
+// 1 - Bytes:
 FieldFileSize field = (FieldFileSize)builder.InsertField(FieldType.FieldFileSize, true);
 field.Update();
 
@@ -54,7 +54,7 @@ field.Update();
 Assert.AreEqual(" FILESIZE  \\m", field.GetFieldCode());
 Assert.AreEqual("0", field.Result);
 
-// Para actualizar los valores de estos campos mientras edita en Microsoft Word,
+// Para actualizar los valores de estos campos mientras se editan en Microsoft Word,
 // primero debemos guardar los cambios y luego actualizar manualmente estos campos.
 doc.Save(ArtifactsDir + "Field.FILESIZE.docx");
 ```

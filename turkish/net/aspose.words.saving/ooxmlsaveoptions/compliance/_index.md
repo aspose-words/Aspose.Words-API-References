@@ -1,14 +1,14 @@
 ---
 title: OoxmlSaveOptions.Compliance
 second_title: Aspose.Words for .NET API Referansı
-description: OoxmlSaveOptions mülk. Çıktı belgesi için OOXML sürümünü belirtir. Varsayılan değerEcma376_2006 .
+description: OoxmlSaveOptions mülk. Çıktı belgesinin OOXML sürümünü belirtir. Varsayılan değerEcma376_2006 .
 type: docs
 weight: 20
 url: /tr/net/aspose.words.saving/ooxmlsaveoptions/compliance/
 ---
 ## OoxmlSaveOptions.Compliance property
 
-Çıktı belgesi için OOXML sürümünü belirtir. Varsayılan değerEcma376_2006 .
+Çıktı belgesinin OOXML sürümünü belirtir. Varsayılan değer:Ecma376_2006 .
 
 ```csharp
 public OoxmlCompliance Compliance { get; set; }
@@ -22,7 +22,7 @@ DML şekillerinin bir belgeye nasıl ekleneceğini gösterir.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Aşağıda, şekillerin sahip olabileceği iki sarma türü bulunmaktadır.
+// Aşağıda şekillerin sahip olabileceği iki sarma türü verilmiştir.
 // 1 - Kayan:
 builder.InsertShape(ShapeType.TopCornersRounded, RelativeHorizontalPosition.Page, 100, 
         RelativeVerticalPosition.Page, 100, 50, 50, WrapType.None);
@@ -32,7 +32,7 @@ builder.InsertShape(ShapeType.DiagonalCornersRounded, 50, 50);
 
 // SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped gibi "ilkel olmayan" şekiller oluşturmanız gerekiyorsa,
 // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded veya DiagonalCornersRounded,
-// daha sonra belgeyi, şeklin DML olarak kaydedilmesine izin veren "Strict" veya "Transitional" uyumluluğu ile kaydedin.
+// daha sonra belgeyi, şeklin DML olarak kaydedilmesine olanak tanıyan "Katı" veya "Geçişli" uyumlulukla kaydedin.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Docx);
 saveOptions.Compliance = OoxmlCompliance.Iso29500_2008_Transitional;
 
@@ -50,8 +50,8 @@ doc.Lists.Add(ListTemplate.NumberDefault);
 Aspose.Words.Lists.List list = doc.Lists[0];
 list.IsRestartAtEachSection = restartListAtEachSection;
 
-// "IsRestartAtEachSection" özelliği yalnızca
-// belgenin OOXML uyumluluk düzeyi, "OoxmlComplianceCore.Ecma376"dan daha yeni bir standarttır.
+// "IsRestartAtEachSection" özelliği yalnızca şu durumlarda geçerli olacaktır:
+// belgenin OOXML uyumluluk düzeyi "OoxmlComplianceCore.Ecma376"dan daha yeni bir standarttır.
 OoxmlSaveOptions options = new OoxmlSaveOptions
 {
     Compliance = OoxmlCompliance.Iso29500_2008_Transitional
@@ -72,14 +72,14 @@ doc = new Document(ArtifactsDir + "OoxmlSaveOptions.RestartingDocumentList.docx"
 Assert.AreEqual(restartListAtEachSection, doc.Lists[0].IsRestartAtEachSection);
 ```
 
-Kaydedilmiş bir belgenin uyulması için bir OOXML uyumluluk özelliğinin nasıl ayarlanacağını gösterir.
+Kaydedilen bir belge için uyulması gereken OOXML uyumluluk spesifikasyonunun nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Uyumluluk seçeneklerini Microsoft Word 2003 ile uyumlu olacak şekilde yapılandırırsak,
-// bir resim eklemek, şeklini VML kullanarak tanımlayacaktır.
+// Uyumluluk seçeneklerini Microsoft Word 2003'e uyacak şekilde yapılandırırsak,
+// bir görüntünün eklenmesi, VML kullanılarak şeklinin tanımlanmasını sağlayacaktır.
 doc.CompatibilityOptions.OptimizeFor(MsWordVersion.Word2003);
 builder.InsertImage(ImageDir + "Transparent background logo.png");
 
@@ -96,7 +96,7 @@ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions
 
 doc.Save(ArtifactsDir + "OoxmlSaveOptions.Iso29500Strict.docx", saveOptions);
 
-// Kayıtlı belgemiz, "ISO/IEC 29500:2008" OOXML standardına uymak için DML kullanarak şekli tanımlar.
+// Kaydedilen belgemiz, "ISO/IEC 29500:2008" OOXML standardına uymak için DML kullanarak şekli tanımlar.
 doc = new Document(ArtifactsDir + "OoxmlSaveOptions.Iso29500Strict.docx");
 
 Assert.AreEqual(ShapeMarkupLanguage.Dml, ((Shape)doc.GetChild(NodeType.Shape, 0, true)).MarkupLanguage);

@@ -1,14 +1,14 @@
 ---
 title: ShapeBase.AllowOverlap
 second_title: Aspose.Words لمراجع .NET API
-description: ShapeBase ملكية. الحصول على أو تعيين قيمة تحدد ما إذا كان هذا الشكل يمكن أن يتداخل مع الأشكال الأخرى.
+description: ShapeBase ملكية. الحصول على أو تعيين القيمة التي تحدد ما إذا كان هذا الشكل يمكن أن يتداخل مع الأشكال الأخرى.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.drawing/shapebase/allowoverlap/
 ---
 ## ShapeBase.AllowOverlap property
 
-الحصول على أو تعيين قيمة تحدد ما إذا كان هذا الشكل يمكن أن يتداخل مع الأشكال الأخرى.
+الحصول على أو تعيين القيمة التي تحدد ما إذا كان هذا الشكل يمكن أن يتداخل مع الأشكال الأخرى.
 
 ```csharp
 public bool AllowOverlap { get; set; }
@@ -18,13 +18,13 @@ public bool AllowOverlap { get; set; }
 
 تؤثر هذه الخاصية على سلوك الشكل في Microsoft Word. Aspose.Words يتجاهل قيمة هذه الخاصية.
 
-هذه الخاصية قابلة للتطبيق فقط لأشكال المستوى الأعلى.
+تنطبق هذه الخاصية فقط على الأشكال ذات المستوى الأعلى.
 
-النظام الأساسي **حقيقي**.
+القيمة الافتراضية هي`حقيقي`.
 
 ### أمثلة
 
-يوضح كيفية استخدام خصائص الجداول العائمة.
+يوضح كيفية العمل مع خصائص الجداول العائمة.
 
 ```csharp
 Document doc = new Document(MyDir + "Table wrapped by text.docx");
@@ -37,12 +37,12 @@ if (table.TextWrapping == TextWrapping.Around)
     Assert.AreEqual(RelativeVerticalPosition.Paragraph, table.VerticalAnchor);
     Assert.AreEqual(false, table.AllowOverlap);
 
-    // فقط الهامش والصفحة والعمود متاحان في RelativeHorizontalPosition for HorizontalAnchor setter.
-    // سيتم طرح ArgumentException لأية قيم أخرى.
+    // يتوفر الهامش والصفحة والعمود فقط في RelativeHorizontalPosition لأداة ضبط HorizontalAnchor.
+    // سيتم طرح ArgumentException لأي قيم أخرى.
     table.HorizontalAnchor = RelativeHorizontalPosition.Column;
 
-    // فقط الهامش والصفحة والفقرة المتوفرة في RelativeVerticalPosition لـ VerticalAnchor setter.
-    // سيتم طرح ArgumentException لأية قيم أخرى.
+    // يتوفر فقط الهامش والصفحة والفقرة في RelativeVerticalPosition لأداة إعداد VerticalAnchor.
+    // سيتم طرح ArgumentException لأي قيم أخرى.
     table.VerticalAnchor = RelativeVerticalPosition.Page;
 }
 ```

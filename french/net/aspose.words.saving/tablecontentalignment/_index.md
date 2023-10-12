@@ -1,14 +1,14 @@
 ---
 title: Enum TableContentAlignment
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Saving.TableContentAlignment énumération. Permet de spécifier lalignement du contenu du tableau à utiliser lors de lexport au format Markdown.
+description: Aspose.Words.Saving.TableContentAlignment énumération. Permet de préciser lalignement du contenu du tableau à utiliser lors de lexport au format Markdown.
 type: docs
-weight: 5340
+weight: 5620
 url: /fr/net/aspose.words.saving/tablecontentalignment/
 ---
 ## TableContentAlignment enumeration
 
-Permet de spécifier l'alignement du contenu du tableau à utiliser lors de l'export au format Markdown.
+Permet de préciser l'alignement du contenu du tableau à utiliser lors de l'export au format Markdown.
 
 ```csharp
 public enum TableContentAlignment
@@ -18,9 +18,9 @@ public enum TableContentAlignment
 
 | Nom | Évaluer | La description |
 | --- | --- | --- |
-| Auto | `0` | L'alignement sera pris à partir du premier paragraphe de la colonne de tableau correspondante. |
+| Auto | `0` | L'alignement sera pris à partir du premier paragraphe de la colonne du tableau correspondante. |
 | Left | `1` | Le contenu des tableaux sera aligné à gauche. |
-| Center | `2` | Le contenu des tableaux sera aligné sur le Center. |
+| Center | `2` | Le contenu des tableaux sera aligné sur le Centre. |
 | Right | `3` | Le contenu des tableaux sera aligné à droite. |
 
 ### Voir également

@@ -16,15 +16,15 @@ public virtual VisitorAction VisitCommentEnd(Comment comment)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| comment | Comment | L'objet visité. |
+| comment | Comment | L'objet qui est visité. |
 
 ### Return_Value
 
-UN[`VisitorAction`](../../visitoraction/) valeur qui spécifie comment poursuivre l'énumération.
+UN[`VisitorAction`](../../visitoraction/) valeur qui spécifie comment continuer l’énumération.
 
 ### Exemples
 
-Montre comment imprimer la structure de nœud de chaque commentaire et plage de commentaires dans un document.
+Montre comment imprimer la structure de nœuds de chaque commentaire et plage de commentaires dans un document.
 
 ```csharp
 public void CommentsToText()
@@ -32,8 +32,8 @@ public void CommentsToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     CommentStructurePrinter visitor = new CommentStructurePrinter();
 
-    // Lorsque nous obtenons un nœud composite pour accepter un visiteur de document, le visiteur visite le nœud acceptant,
-    // puis parcourt tous les enfants du nœud en profondeur d'abord.
+    // Lorsque nous obtenons qu'un nœud composite accepte un visiteur de document, le visiteur visite le nœud accepteur,
+    // puis parcourt tous les enfants du nœud en profondeur.
     // Le visiteur peut lire et modifier chaque nœud visité.
     doc.Accept(visitor);
 
@@ -58,8 +58,8 @@ public class CommentStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Appelé lorsqu'un noeud Run est rencontré dans le document.
-    /// Un Run n'est enregistré que s'il est un enfant d'un nœud Comment ou CommentRange.
+    /// Appelé lorsqu'un nœud Run est rencontré dans le document.
+    /// Un Run n'est enregistré que s'il s'agit d'un enfant d'un nœud Comment ou CommentRange.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -106,7 +106,7 @@ public class CommentStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Appelé après que tous les nœuds enfants d'un nœud Comment ont été visités.
+    /// Appelé après que tous les nœuds enfants d'un nœud Commentaire ont été visités.
     /// </summary>
     public override VisitorAction VisitCommentEnd(Comment comment)
     {
@@ -121,7 +121,7 @@ public class CommentStructurePrinter : DocumentVisitor
     /// Ajoutez une ligne au StringBuilder et indentez-la en fonction de la profondeur du visiteur
     /// dans l'arborescence des nœuds enfants d'une plage de commentaires/commentaires.
     /// </summary>
-    /// <nom du paramètre="texte"></param>
+    /// <param name="text"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++)

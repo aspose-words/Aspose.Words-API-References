@@ -1,14 +1,14 @@
 ---
 title: ToaCategories.DefaultCategories
 second_title: Aspose.Words for .NET API 参考
-description: ToaCategories 财产. 获取权限类别的默认表
+description: ToaCategories 财产. 获取默认的权威类别表
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/toacategories/defaultcategories/
 ---
 ## ToaCategories.DefaultCategories property
 
-获取权限类别的默认表。
+获取默认的权威类别表。
 
 ```csharp
 public static ToaCategories DefaultCategories { get; }
@@ -16,11 +16,11 @@ public static ToaCategories DefaultCategories { get; }
 
 ### 评论
 
-使用[`ToaCategories`](../../fieldoptions/toacategories/)为单个文档指定权限类别表的属性。
+使用[`ToaCategories`](../../fieldoptions/toacategories/)属性来指定单个文档的权限类别表。
 
 ### 例子
 
-显示如何为 TOA 字段指定一组类别。
+演示如何为 TOA 字段指定一组类别。
 
 ```csharp
 Document doc = new Document();
@@ -30,7 +30,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 ToaCategories toaCategories = new ToaCategories();
 doc.FieldOptions.ToaCategories = toaCategories;
 
-// 这个类别集合带有默认值，我们可以用自定义值覆盖。
+// 这个类别集合带有默认值，我们可以用自定义值覆盖它。
 Assert.AreEqual("Cases", toaCategories[1]);
 Assert.AreEqual("Statutes", toaCategories[2]);
 
@@ -42,17 +42,17 @@ Assert.AreEqual("Cases", ToaCategories.DefaultCategories[1]);
 Assert.AreEqual("Statutes", ToaCategories.DefaultCategories[2]);
 
 // 插入 2 个 TOA 字段。 TOA 字段为文档中的每个 TA 字段创建一个条目。
-// 使用“\c”开关从我们的集合中选择一个类别的索引。
-// 使用此开关，TOA 字段将仅从 TA 字段中提取条目
-// 还有一个带有匹配类别索引的“\c”开关。每个 TOA 字段也将显示
-// 其 "\c" 开关指向的类别的名称。
+// 使用“\c”开关从我们的集合中选择类别的索引。
+// 使用此开关，TOA 字段将仅从 TA 字段中选取条目
+// 还有一个带有匹配类别索引的“\c”开关。每个 TOA 字段还将显示
+// 其“\c”开关指向的类别的名称。
 builder.InsertField("TOA \\c 1 \\h", null);
 builder.InsertField("TOA \\c 2 \\h", null);
 builder.InsertBreak(BreakType.PageBreak);
 
 // 跨 2 个类别插入 TOA 条目。我们的第一个 TOA 字段将收到一个条目，
-// 从第二个 TA 字段，其 "\c" 开关也指向第一个类别。
-// 第二个 TOA 字段将有来自其他两个 TA 字段的两个条目。
+// 来自第二个 TA 字段，其“\c”开关也指向第一个类别。
+// 第二个 TOA 字段将包含来自其他两个 TA 字段的两个条目。
 builder.InsertField("TA \\c 2 \\l \"entry 1\"");
 builder.InsertBreak(BreakType.PageBreak);
 builder.InsertField("TA \\c 1 \\l \"entry 2\"");

@@ -1,14 +1,14 @@
 ---
 title: ImportFormatOptions.IgnoreHeaderFooter
 second_title: Aspose.Words per .NET API Reference
-description: ImportFormatOptions proprietà. Ottiene o imposta un valore booleano che specifica la formattazione di origine del contenuto di intestazioni/piè di pagina ignorata seKeepSourceFormatting viene utilizzata la modalità. Il valore predefinito èVERO .
+description: ImportFormatOptions proprietà. Ottiene o imposta un valore booleano che specifica che la formattazione di origine del contenuto di intestazioni/piè di pagina viene ignorata seKeepSourceFormatting viene utilizzata la modalità. Il valore predefinito èVERO .
 type: docs
-weight: 30
+weight: 40
 url: /it/net/aspose.words/importformatoptions/ignoreheaderfooter/
 ---
 ## ImportFormatOptions.IgnoreHeaderFooter property
 
-Ottiene o imposta un valore booleano che specifica la formattazione di origine del contenuto di intestazioni/piè di pagina ignorata seKeepSourceFormatting viene utilizzata la modalità. Il valore predefinito è`VERO` .
+Ottiene o imposta un valore booleano che specifica che la formattazione di origine del contenuto di intestazioni/piè di pagina viene ignorata seKeepSourceFormatting viene utilizzata la modalità. Il valore predefinito è`VERO` .
 
 ```csharp
 public bool IgnoreHeaderFooter { get; set; }

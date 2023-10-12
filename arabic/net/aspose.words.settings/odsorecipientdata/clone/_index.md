@@ -1,14 +1,14 @@
 ---
 title: OdsoRecipientData.Clone
 second_title: Aspose.Words لمراجع .NET API
-description: OdsoRecipientData طريقة. إرجاع نسخة عميقة من هذا الكائن.
+description: OdsoRecipientData طريقة. يُرجع نسخة عميقة من هذا الكائن.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.settings/odsorecipientdata/clone/
 ---
 ## OdsoRecipientData.Clone method
 
-إرجاع نسخة عميقة من هذا الكائن.
+يُرجع نسخة عميقة من هذا الكائن.
 
 ```csharp
 public OdsoRecipientData Clone()
@@ -16,7 +16,7 @@ public OdsoRecipientData Clone()
 
 ### أمثلة
 
-يوضح كيفية الوصول إلى مجموعة البيانات التي تحدد سجلات مصدر بيانات الدمج التي سيستبعدها دمج المراسلات.
+يوضح كيفية الوصول إلى مجموعة البيانات التي تحدد سجلات مصدر بيانات الدمج التي سيتم استبعادها من خلال دمج البريد.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
@@ -38,10 +38,10 @@ using (IEnumerator<OdsoRecipientData> enumerator = dataCollection.GetEnumerator(
     }
 }
 
-// يمكننا استنساخ العناصر في هذه المجموعة.
+// يمكننا استنساخ العناصر الموجودة في هذه المجموعة.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// يمكننا أيضًا إزالة العناصر بشكل فردي ، أو مسح المجموعة بأكملها مرة واحدة.
+// يمكننا أيضًا إزالة العناصر بشكل فردي، أو مسح المجموعة بأكملها مرة واحدة.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(69, dataCollection.Count);

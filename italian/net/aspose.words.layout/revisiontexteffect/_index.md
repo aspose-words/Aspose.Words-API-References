@@ -1,14 +1,14 @@
 ---
 title: Enum RevisionTextEffect
 second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Layout.RevisionTextEffect enum. Consente di specificare leffetto decorativo per le revisioni del testo del documento.
+description: Aspose.Words.Layout.RevisionTextEffect enum. Permette di specificare leffetto decorativo per le revisioni del testo del documento.
 type: docs
-weight: 3200
+weight: 3400
 url: /it/net/aspose.words.layout/revisiontexteffect/
 ---
 ## RevisionTextEffect enumeration
 
-Consente di specificare l'effetto decorativo per le revisioni del testo del documento.
+Permette di specificare l'effetto decorativo per le revisioni del testo del documento.
 
 ```csharp
 public enum RevisionTextEffect
@@ -18,14 +18,14 @@ public enum RevisionTextEffect
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| None | `0` | Il contenuto rivisto non ha effetti speciali applicati. Corrisponde aNoHighlight . |
-| Color | `1` | Il contenuto rivisto viene evidenziato solo con il colore. |
-| Bold | `2` | Il contenuto rivisto è reso in grassetto e colorato. |
-| Italic | `3` | Il contenuto rivisto è in corsivo e colorato. |
+| None | `0` | Al contenuto rivisto non sono applicati effetti speciali. Ciò corrisponde aNoHighlight . |
+| Color | `1` | I contenuti revisionati sono evidenziati solo con il colore. |
+| Bold | `2` | I contenuti rivisti sono resi in grassetto e colorati. |
+| Italic | `3` | Il contenuto rivisto è reso in corsivo e colorato. |
 | Underline | `4` | Il contenuto rivisto è sottolineato e colorato. |
-| DoubleUnderline | `5` | Il contenuto rivisto è doppiamente sottolineato e colorato. |
-| StrikeThrough | `6` | Il contenuto rivisto viene accarezzato e colorato. |
-| DoubleStrikeThrough | `7` | Il contenuto rivisto viene tracciato due volte e colorato. |
+| DoubleUnderline | `5` | Il contenuto rivisto è sottolineato due volte e colorato. |
+| StrikeThrough | `6` | Il contenuto rivisto viene cancellato e colorato. |
+| DoubleStrikeThrough | `7` | Il contenuto rivisto viene doppiato e colorato. |
 | Hidden | `8` | Il contenuto rivisto è nascosto. |
 
 ### Esempi
@@ -35,27 +35,27 @@ Mostra come modificare l'aspetto delle revisioni.
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");
 
-// Ottieni l'oggetto RevisionOptions che controlla l'aspetto delle revisioni.
+// Ottiene l'oggetto RevisionOptions che controlla l'aspetto delle revisioni.
 RevisionOptions revisionOptions = doc.LayoutOptions.RevisionOptions;
 
-// Rendi le revisioni dell'inserimento in verde e corsivo.
+// Visualizza le revisioni dell'inserimento in verde e corsivo.
 revisionOptions.InsertedTextColor = RevisionColor.Green;
 revisionOptions.InsertedTextEffect = RevisionTextEffect.Italic;
 
-// Visualizza le revisioni dell'eliminazione in rosso e in grassetto.
+// Visualizza le revisioni di eliminazione in rosso e in grassetto.
 revisionOptions.DeletedTextColor = RevisionColor.Red;
 revisionOptions.DeletedTextEffect = RevisionTextEffect.Bold;
 
 // Lo stesso testo apparirà due volte in una revisione del movimento:
 // una volta al punto di partenza e una volta alla destinazione di arrivo.
-// Rende giallo il testo della revisione da cui è stato spostato con un doppio barrato
-// e doppia sottolineatura blu alla revisione spostata.
+// Rende il testo della revisione spostata in giallo con un doppio barrato
+// e doppia sottolineatura in blu nella revisione spostata.
 revisionOptions.MovedFromTextColor = RevisionColor.Yellow;
 revisionOptions.MovedFromTextEffect = RevisionTextEffect.DoubleStrikeThrough;
-revisionOptions.MovedToTextColor = RevisionColor.Blue;
+revisionOptions.MovedToTextColor = RevisionColor.ClassicBlue;
 revisionOptions.MovedFromTextEffect = RevisionTextEffect.DoubleUnderline;
 
-// Rendering delle revisioni del formato in rosso scuro e grassetto.
+// Rende le revisioni del formato in rosso scuro e grassetto.
 revisionOptions.RevisedPropertiesColor = RevisionColor.DarkRed;
 revisionOptions.RevisedPropertiesEffect = RevisionTextEffect.Bold;
 
@@ -63,11 +63,11 @@ revisionOptions.RevisedPropertiesEffect = RevisionTextEffect.Bold;
 revisionOptions.RevisionBarsColor = RevisionColor.DarkBlue;
 revisionOptions.RevisionBarsWidth = 15.0f;
 
-// Mostra segni di revisione e testo originale.
+// Mostra i segni di revisione e il testo originale.
 revisionOptions.ShowOriginalRevision = true;
 revisionOptions.ShowRevisionMarks = true;
 
-// Ottieni movimenti, eliminazioni, revisioni di formattazione e commenti da visualizzare in fumetti verdi
+// Ottieni movimento, eliminazione, revisioni di formattazione e commenti da visualizzare in fumetti verdi
 // sul lato destro della pagina.
 revisionOptions.ShowInBalloons = ShowInBalloons.Format;
 revisionOptions.CommentColor = RevisionColor.BrightGreen;

@@ -1,14 +1,16 @@
 ---
 title: Class FieldDatabaseDataRow
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fields.FieldDatabaseDataRow فصل. توفير بيانات لملفFieldDatabase نتيجة الحقل .
+description: Aspose.Words.Fields.FieldDatabaseDataRow فصل. يوفر بيانات لـFieldDatabase النتيجة الميدانية. لطفا أنظرDataRow المثال.
 type: docs
-weight: 1600
+weight: 1750
 url: /ar/net/aspose.words.fields/fielddatabasedatarow/
 ---
 ## FieldDatabaseDataRow class
 
-توفير بيانات لملف[`FieldDatabase`](../fielddatabase/) نتيجة الحقل .
+يوفر بيانات لـ[`FieldDatabase`](../fielddatabase/) النتيجة الميدانية. لطفا أنظرDataRow المثال.
+
+لمعرفة المزيد، قم بزيارة[العمل مع الحقول](https://docs.aspose.com/words/net/working-with-fields/) مقالة توثيقية.
 
 ```csharp
 public class FieldDatabaseDataRow
@@ -18,19 +20,19 @@ public class FieldDatabaseDataRow
 
 | اسم | وصف |
 | --- | --- |
-| [FieldDatabaseDataRow](fielddatabasedatarow/)(params string[]) | يقوم بتهيئة مثيل جديد لملف`FieldDatabaseDataRow` فئة . |
+| [FieldDatabaseDataRow](fielddatabasedatarow/)(params string[]) | تهيئة مثيل جديد لـ`FieldDatabaseDataRow` فئة. |
 
 ## الخصائص
 
 | اسم | وصف |
 | --- | --- |
-| [Values](../../aspose.words.fields/fielddatabasedatarow/values/) { get; } | الحصول على القيم التي تنتمي إلى هذا الصف . |
+| [Values](../../aspose.words.fields/fielddatabasedatarow/values/) { get; } | يحصل على القيم التي تنتمي إلى هذا الصف. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| static [CreateFrom](../../aspose.words.fields/fielddatabasedatarow/createfrom/)(DataRow) | يقوم بتهيئة مثيل جديد لملف`FieldDatabaseDataRow` class منDataRow المثال. |
+| static [CreateFrom](../../aspose.words.fields/fielddatabasedatarow/createfrom/)(DataRow) | تهيئة مثيل جديد لـ`FieldDatabaseDataRow` class منDataRow المثال. |
 
 ### أنظر أيضا
 

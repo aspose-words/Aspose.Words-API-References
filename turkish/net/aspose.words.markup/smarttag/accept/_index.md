@@ -1,14 +1,14 @@
 ---
 title: SmartTag.Accept
 second_title: Aspose.Words for .NET API Referansı
-description: SmartTag yöntem. Bir ziyaretçiyi kabul eder.
+description: SmartTag yöntem. Ziyaretçi kabul eder.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.markup/smarttag/accept/
 ---
 ## SmartTag.Accept method
 
-Bir ziyaretçiyi kabul eder.
+Ziyaretçi kabul eder.
 
 ```csharp
 public override bool Accept(DocumentVisitor visitor)
@@ -20,15 +20,15 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Geri dönüş değeri
 
-Tüm düğümler ziyaret edildiyse doğrudur; DocumentVisitor tüm düğümleri ziyaret etmeden önce işlemi durdurduysa false.
+Tüm düğümler ziyaret edilmişse doğrudur; yanlış ise[`DocumentVisitor`](../../../aspose.words/documentvisitor/) tüm düğümleri ziyaret etmeden işlemi durdurdu.
 
 ### Notlar
 
-Bu düğüm ve tüm alt öğeleri üzerinde numaralandırır. Her düğüm, DocumentVisitor'da karşılık gelen bir yöntemi çağırır.
+Bu düğümü ve tüm alt öğelerini numaralandırır. Her düğüm kendisine karşılık gelen bir yöntemi çağırır.[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
-Daha fazla bilgi için Ziyaretçi tasarım modeline bakın.
+Daha fazla bilgi için Ziyaretçi tasarım desenine bakın.
 
-Çağrılar[`VisitSmartTagStart`](../../../aspose.words/documentvisitor/visitsmarttagstart/) , sonra arar[`Accept`](../../../aspose.words/node/accept/)akıllı etiketin ve çağrıların all alt düğümleri için[`VisitSmartTagEnd`](../../../aspose.words/documentvisitor/visitsmarttagend/) sonunda.
+Çağrılar[`VisitSmartTagStart`](../../../aspose.words/documentvisitor/visitsmarttagstart/) , ardından arar[`Accept`](../../../aspose.words/node/accept/) akıllı etiketin ve çağrıların all alt düğümleri için[`VisitSmartTagEnd`](../../../aspose.words/documentvisitor/visitsmarttagend/) sonunda.
 
 ### Örnekler
 
@@ -39,19 +39,19 @@ public void Create()
 {
     Document doc = new Document();
 
-    // Microsoft Word ile bir belgede bir akıllı etiket görünür, metninin bir bölümünü bir tür veri olarak tanır,
+    // Microsoft Word'ün metnin bir bölümünü bir tür veri olarak tanıdığı bir belgede akıllı etiket görünür,
     // ad, tarih veya adres gibi ve onu mor noktalı alt çizgi görüntüleyen bir köprüye dönüştürür.
     SmartTag smartTag = new SmartTag(doc);
 
-    // Akıllı etiketler, tanınan metinlerini bütünüyle içeren bileşik düğümlerdir.
-    // Bu akıllı etikete manuel olarak içerik ekleyin.
+    // Akıllı etiketler, tanınan metnin tamamını içeren bileşik düğümlerdir.
+    // İçeriği bu akıllı etikete manuel olarak ekleyin.
     smartTag.AppendChild(new Run(doc, "May 29, 2019"));
 
-    // Microsoft Word, yukarıdaki içeriği bir tarih olarak tanıyabilir.
-    // Akıllı etiketler, içerdikleri veri türünü yansıtmak için "Element" özelliğini kullanır.
+    // Microsoft Word yukarıdaki içerikleri tarih olarak tanıyabilir.
+    // Akıllı etiketler içerdikleri veri türünü yansıtmak için "Element" özelliğini kullanır.
     smartTag.Element = "date";
 
-    // Bazı akıllı etiket türleri, içeriklerini daha fazla özel XML özelliklerine işler.
+    // Bazı akıllı etiket türleri, içeriklerini özel XML özelliklerine göre işler.
     smartTag.Properties.Add(new CustomXmlProperty("Day", string.Empty, "29"));
     smartTag.Properties.Add(new CustomXmlProperty("Month", string.Empty, "5"));
     smartTag.Properties.Add(new CustomXmlProperty("Year", string.Empty, "2019"));
@@ -62,7 +62,7 @@ public void Create()
     doc.FirstSection.Body.FirstParagraph.AppendChild(smartTag);
     doc.FirstSection.Body.FirstParagraph.AppendChild(new Run(doc, " is a date. "));
 
-    // Bir hisse senedi için başka bir akıllı etiket oluşturun.
+    // Hisse senedi takip cihazı için başka bir akıllı etiket oluşturun.
     smartTag = new SmartTag(doc);
     smartTag.Element = "stockticker";
     smartTag.Uri = "urn:schemas-microsoft-com:office:smarttags";
@@ -78,7 +78,7 @@ public void Create()
     // Microsoft Word'ün eski sürümleri akıllı etiketleri destekler.
     doc.Save(ArtifactsDir + "SmartTag.Create.doc");
 
-    // Bir belgeden tüm akıllı etiketleri kaldırmak için "RemoveSmartTags" yöntemini kullanın.
+    // Bir belgedeki tüm akıllı etiketleri kaldırmak için "RemoveSmartTags" yöntemini kullanın.
     Assert.AreEqual(2, doc.GetChildNodes(NodeType.SmartTag, true).Count);
 
     doc.RemoveSmartTags();
@@ -101,7 +101,7 @@ private class SmartTagPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Bir SmartTag düğümünün ziyareti sona erdiğinde çağrılır.
+    /// SmartTag düğümünün ziyareti sonlandırıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitSmartTagEnd(SmartTag smartTag)
     {

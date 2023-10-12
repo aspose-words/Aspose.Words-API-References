@@ -1,14 +1,14 @@
 ---
 title: TextPath.XScale
 second_title: Aspose.Words per .NET API Reference
-description: TextPath proprietà. Determina se verrà utilizzato un percorso di testo dritto invece del percorso di forma.
+description: TextPath proprietà. Determina se verrà utilizzato un percorso di testo lineare al posto del percorso della forma.
 type: docs
 weight: 200
 url: /it/net/aspose.words.drawing/textpath/xscale/
 ---
 ## TextPath.XScale property
 
-Determina se verrà utilizzato un percorso di testo dritto invece del percorso di forma.
+Determina se verrà utilizzato un percorso di testo lineare al posto del percorso della forma.
 
 ```csharp
 public bool XScale { get; set; }
@@ -16,20 +16,21 @@ public bool XScale { get; set; }
 
 ### Osservazioni
 
-Il valore predefinito è **falso**.
+Il valore predefinito è`falso`.
 
-Se **VERO**, il testo scorre lungo un percorso da sinistra a destra lungo il valore x di il limite inferiore della forma.
+Se`VERO`il testo corre lungo un percorso da sinistra a destra lungo il valore x di il limite inferiore della forma.
 
 ### Esempi
 
 Mostra come lavorare con WordArt.
 
 ```csharp
+public void InsertTextPaths()
 {
     Document doc = new Document();
 
     // Inserisci un oggetto WordArt per visualizzare il testo in una forma che possiamo ridimensionare e spostare utilizzando il mouse in Microsoft Word.
-    // Fornisci un "ShapeType" come argomento per impostare una forma per WordArt.
+    // Fornire un "ShapeType" come argomento per impostare una forma per WordArt.
     Shape shape = AppendWordArt(doc, "Hello World! This text is bold, and italic.", 
         "Arial", 480, 24, Color.White, Color.Black, ShapeType.TextPlainText);
 
@@ -50,29 +51,29 @@ Mostra come lavorare con WordArt.
     Assert.AreEqual("Hello World! This text is bold, and italic.", shape.TextPath.Text);
     Assert.AreEqual(ShapeType.TextPlainText, shape.ShapeType);
 
-    // Usa la proprietà "On" per mostrare/nascondere il testo.
+    // Utilizza la proprietà "On" per mostrare/nascondere il testo.
     shape = AppendWordArt(doc, "On set to \"true\"", "Calibri", 150, 24, Color.Yellow, Color.Red, ShapeType.TextPlainText);
     shape.TextPath.On = true;
 
     shape = AppendWordArt(doc, "On set to \"false\"", "Calibri", 150, 24, Color.Yellow, Color.Purple, ShapeType.TextPlainText);
     shape.TextPath.On = false;
 
-    // Usa la proprietà "Kerning" per abilitare/disabilitare la spaziatura di crenatura tra determinati caratteri.
+    // Utilizza la proprietà "Cernatura" per abilitare/disabilitare la spaziatura della crenatura tra determinati caratteri.
     shape = AppendWordArt(doc, "Kerning: VAV", "Times New Roman", 90, 24, Color.Orange, Color.Red, ShapeType.TextPlainText);
     shape.TextPath.Kerning = true;
 
     shape = AppendWordArt(doc, "No kerning: VAV", "Times New Roman", 100, 24, Color.Orange, Color.Red, ShapeType.TextPlainText);
     shape.TextPath.Kerning = false;
 
-    // Utilizzare la proprietà "Spaziatura" per impostare la spaziatura personalizzata tra i caratteri su una scala da 0,0 (nessuno) a 1,0 (impostazione predefinita).
+    // Utilizza la proprietà "Spaziatura" per impostare la spaziatura personalizzata tra i caratteri su una scala da 0,0 (nessuna) a 1,0 (predefinita).
     shape = AppendWordArt(doc, "Spacing set to 0.1", "Calibri", 120, 24, Color.BlueViolet, Color.Blue, ShapeType.TextCascadeDown);
     shape.TextPath.Spacing = 0.1;
 
-    // Imposta la proprietà "RotateLetters" su "true" per ruotare ogni carattere di 90 gradi in senso antiorario.
+    // Imposta la proprietà "RotateLetters" su "true" per ruotare ciascun carattere di 90 gradi in senso antiorario.
     shape = AppendWordArt(doc, "RotateLetters", "Calibri", 200, 36, Color.GreenYellow, Color.Green, ShapeType.TextWave);
     shape.TextPath.RotateLetters = true;
 
-    // Imposta la proprietà "SameLetterHeights" su "true" per ottenere che l'altezza x di ogni carattere sia uguale all'altezza del cappuccio.
+    // Imposta la proprietà "SameLetterHeights" su "true" per far sì che l'altezza x di ogni carattere sia uguale all'altezza del cappuccio.
     shape = AppendWordArt(doc, "Same character height for lower and UPPER case", "Calibri", 300, 24, Color.DeepSkyBlue, Color.DodgerBlue, ShapeType.TextSlantUp);
     shape.TextPath.SameLetterHeights = true;
 
@@ -82,7 +83,7 @@ Mostra come lavorare con WordArt.
     shape.TextPath.Size = 24.0;
 
     // Se impostiamo la proprietà "FitShape: su "false", il testo manterrà la dimensione
-    // che la proprietà "Size" specifica indipendentemente dalle dimensioni della forma.
+    // che la proprietà "Size" specifica indipendentemente dalla dimensione della forma.
     // Utilizza la proprietà "TextPathAlignment" anche per allineare il testo a un lato della forma.
     shape = AppendWordArt(doc, "FitShape off", "Calibri", 160, 24, Color.LightBlue, Color.Blue, ShapeType.TextPlainText);
     shape.TextPath.FitShape = false;
@@ -90,16 +91,17 @@ Mostra come lavorare con WordArt.
     shape.TextPath.TextPathAlignment = TextPathAlignment.Right;
 
     doc.Save(ArtifactsDir + "Shape.InsertTextPaths.docx");
+}
 
 /// <summary>
-/// Inserisce un nuovo paragrafo con una forma WordArt al suo interno.
+/// Inserisci un nuovo paragrafo con una forma WordArt al suo interno.
 /// </summary>
 private static Shape AppendWordArt(Document doc, string text, string textFontFamily, double shapeWidth, double shapeHeight, Color wordArtFill, Color line, ShapeType wordArtShapeType)
 {
-    // Crea una forma in linea, che fungerà da contenitore per la nostra WordArt.
-    // La forma può essere una forma WordArt valida solo se gli assegniamo uno ShapeType designato da WordArt.
+    // Crea una forma in linea, che servirà da contenitore per la nostra WordArt.
+    // La forma può essere una forma WordArt valida solo se le assegniamo uno ShapeType designato da WordArt.
     // Questi tipi avranno "Oggetto WordArt" nella descrizione,
-    // e i loro nomi costanti di enumeratore inizieranno tutti con "Testo".
+    // e i nomi delle costanti dell'enumeratore inizieranno tutti con "Testo".
     Shape shape = new Shape(doc, wordArtShapeType)
     {
         WrapType = WrapType.Inline,

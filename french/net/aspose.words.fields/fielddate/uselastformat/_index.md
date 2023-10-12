@@ -1,14 +1,14 @@
 ---
 title: FieldDate.UseLastFormat
 second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldDate propriété. Obtient ou définit sil faut utiliser un format utilisé en dernier par lapplication hôte lors de linsertion dun nouveau champ DATE.
+description: FieldDate propriété. Obtient ou définit sil faut utiliser un format utilisé en dernier par lapplication dhébergement lors de linsertion dun nouveau champ DATE.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fields/fielddate/uselastformat/
 ---
 ## FieldDate.UseLastFormat property
 
-Obtient ou définit s'il faut utiliser un format utilisé en dernier par l'application hôte lors de l'insertion d'un nouveau champ DATE.
+Obtient ou définit s'il faut utiliser un format utilisé en dernier par l'application d'hébergement lors de l'insertion d'un nouveau champ DATE.
 
 ```csharp
 public bool UseLastFormat { get; set; }
@@ -24,7 +24,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Si nous voulons que le texte du document affiche toujours la date correcte, nous pouvons utiliser un champ DATE.
 // Vous trouverez ci-dessous trois types de calendriers culturels qu'un champ DATE peut utiliser pour afficher une date.
-// 1 - Calendrier lunaire islamique :
+// 1 - Calendrier Lunaire Islamique :
 FieldDate field = (FieldDate)builder.InsertField(FieldType.FieldDate, true);
 field.UseLunarCalendar = true;
 Assert.AreEqual(" DATE  \\h", field.GetFieldCode());
@@ -36,14 +36,14 @@ field.UseUmAlQuraCalendar = true;
 Assert.AreEqual(" DATE  \\u", field.GetFieldCode());
 builder.Writeln();
 
-// 3 - Calendrier national indien :
+// 3 - Calendrier national indien :
 field = (FieldDate)builder.InsertField(FieldType.FieldDate, true);
 field.UseSakaEraCalendar = true;
 Assert.AreEqual(" DATE  \\s", field.GetFieldCode());
 builder.Writeln();
 
-// Insérez un champ DATE et définissez son type de calendrier sur celui utilisé en dernier par l'application hôte.
-// Dans Microsoft Word, le type sera le dernier utilisé dans Insert -> Texte -> Boîte de dialogue Date et heure.
+// Insère un champ DATE et définit son type de calendrier sur celui utilisé en dernier par l'application hôte.
+// Dans Microsoft Word, le type sera le dernier utilisé dans le champ Insertion -> Texte -> Boîte de dialogue Date et heure.
 field = (FieldDate)builder.InsertField(FieldType.FieldDate, true);
 field.UseLastFormat = true;
 Assert.AreEqual(" DATE  \\l", field.GetFieldCode());

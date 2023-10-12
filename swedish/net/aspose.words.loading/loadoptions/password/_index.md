@@ -1,14 +1,14 @@
 ---
 title: LoadOptions.Password
 second_title: Aspose.Words för .NET API Referens
-description: LoadOptions fast egendom. Hämtar eller ställer in lösenordet för att öppna ett krypterat dokument. Kan vara null eller tom sträng. Standard är null.
+description: LoadOptions fast egendom. Hämtar eller ställer in lösenordet för att öppna ett krypterat dokument. Kan varanull eller tom sträng. Standard ärnull .
 type: docs
 weight: 110
 url: /sv/net/aspose.words.loading/loadoptions/password/
 ---
 ## LoadOptions.Password property
 
-Hämtar eller ställer in lösenordet för att öppna ett krypterat dokument. Kan vara null eller tom sträng. Standard är null.
+Hämtar eller ställer in lösenordet för att öppna ett krypterat dokument. Kan vara`null` eller tom sträng. Standard är`null` .
 
 ```csharp
 public string Password { get; set; }
@@ -16,7 +16,7 @@ public string Password { get; set; }
 
 ### Anmärkningar
 
-Du måste känna till lösenordet för att öppna ett krypterat dokument. Om dokumentet inte är krypterat, ställ in detta på null eller tom sträng.
+Du måste känna till lösenordet för att öppna ett krypterat dokument. Om dokumentet inte är krypterat, ställ in detta på`null` eller tom sträng.
 
 ### Exempel
 

@@ -1,14 +1,14 @@
 ---
 title: ImageData.Save
 second_title: Aspose.Words per .NET API Reference
-description: ImageData metodo. Salva limmagine nel flusso specificato.
+description: ImageData metodo. Salva limmagine nello stream specificato.
 type: docs
-weight: 190
+weight: 200
 url: /it/net/aspose.words.drawing/imagedata/save/
 ---
 ## Save(Stream) {#save}
 
-Salva l'immagine nel flusso specificato.
+Salva l'immagine nello stream specificato.
 
 ```csharp
 public void Save(Stream stream)
@@ -24,16 +24,16 @@ public void Save(Stream stream)
 
 ### Esempi
 
-Mostra come salvare tutte le immagini da un documento nel file system.
+Mostra come salvare tutte le immagini da un documento al file system.
 
 ```csharp
 Document imgSourceDoc = new Document(MyDir + "Images.docx");
 
-// Le forme con il flag "HasImage" memorizzano e visualizzano tutte le immagini del documento.
+// Le forme con il flag impostato "HasImage" memorizzano e visualizzano tutte le immagini del documento.
 IEnumerable<Shape> shapesWithImages = 
     imgSourceDoc.GetChildNodes(NodeType.Shape, true).Cast<Shape>().Where(s => s.HasImage);
 
-// Scorri ogni forma e salva la sua immagine.
+// Passa attraverso ogni forma e salva la sua immagine.
 ImageFormatConverter formatConverter = new ImageFormatConverter();
 
 using (IEnumerator<Shape> enumerator = shapesWithImages.GetEnumerator())
@@ -90,8 +90,8 @@ foreach (Shape shape in shapes.OfType<Shape>())
 {
     if (shape.HasImage)
     {
-        // I dati immagine delle forme possono contenere immagini di molti possibili formati immagine. 
-        // Possiamo determinare automaticamente un'estensione di file per ogni immagine, in base al suo formato.
+         // I dati immagine delle forme possono contenere immagini di molti possibili formati immagine.
+        // Possiamo determinare automaticamente un'estensione di file per ciascuna immagine, in base al suo formato.
         string imageFileName =
             $"File.ExtractImages.{imageIndex}{FileFormatUtil.ImageTypeToExtension(shape.ImageData.ImageType)}";
         shape.ImageData.Save(ArtifactsDir + imageFileName);

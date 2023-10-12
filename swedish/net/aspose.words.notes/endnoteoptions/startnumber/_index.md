@@ -27,7 +27,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Fotnoter och slutnoter är ett sätt att bifoga en referens eller en sidokommentar till text
-// som inte stör flödet i huvudtexten. 
+ // som inte stör flödet i huvudtexten.
 // Att infoga en fotnot/slutnot lägger till en liten upphöjd referenssymbol
 // vid huvudtexten där vi infogar fotnoten/slutnoten.
 // Varje fotnot/slutnot skapar också en post, som består av en symbol

@@ -3,7 +3,7 @@ title: Document.UpdateThumbnail
 second_title: Aspose.Words for .NET API Referansı
 description: Document yöntem. GüncellemelerThumbnail belirtilen seçeneklere göre belgenin.
 type: docs
-weight: 760
+weight: 800
 url: /tr/net/aspose.words/document/updatethumbnail/
 ---
 ## UpdateThumbnail(ThumbnailGeneratingOptions) {#updatethumbnail_1}
@@ -16,11 +16,11 @@ public void UpdateThumbnail(ThumbnailGeneratingOptions options)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| options | ThumbnailGeneratingOptions | Kullanılacak üretici seçenekleri. |
+| options | ThumbnailGeneratingOptions | Kullanılacak oluşturma seçenekleri. |
 
 ### Notlar
 
-[`ThumbnailGeneratingOptions`](../../../aspose.words.rendering/thumbnailgeneratingoptions/) küçük resmin kaynağını, boyutu ve diğer seçenekleri belirlemenize olanak tanır. Küçük resim oluşturma girişimi başarısız olursa, birini değiştirmez.
+[`ThumbnailGeneratingOptions`](../../../aspose.words.rendering/thumbnailgeneratingoptions/) küçük resmin kaynağını, boyutunu ve diğer seçenekleri belirtmenize olanak tanır. Küçük resim oluşturma girişimi başarısız olursa, birini değiştirmez.
 
 ### Örnekler
 
@@ -33,7 +33,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 builder.InsertImage(ImageDir + "Logo.jpg");
 
-// Bir belgeyi .epub'a kaydederken küçük resim ayarlamanın iki yolu vardır.
+// Bir belgeyi .epub'a kaydederken küçük resim görüntüsünü ayarlamanın iki yolu vardır.
 // 1 - Belgenin ilk sayfasını kullanın:
 doc.UpdateThumbnail();
 doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstPage.epub");
@@ -75,7 +75,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 builder.InsertImage(ImageDir + "Logo.jpg");
 
-// Bir belgeyi .epub'a kaydederken küçük resim ayarlamanın iki yolu vardır.
+// Bir belgeyi .epub'a kaydederken küçük resim görüntüsünü ayarlamanın iki yolu vardır.
 // 1 - Belgenin ilk sayfasını kullanın:
 doc.UpdateThumbnail();
 doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstPage.epub");

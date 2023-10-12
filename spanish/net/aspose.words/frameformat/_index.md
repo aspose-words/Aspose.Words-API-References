@@ -3,7 +3,7 @@ title: Class FrameFormat
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.FrameFormat clase. Representa el formato relacionado con el marco para un párrafo.
 type: docs
-weight: 2890
+weight: 3070
 url: /es/net/aspose.words/frameformat/
 ---
 ## FrameFormat class
@@ -21,9 +21,9 @@ public class FrameFormat
 | [Height](../../aspose.words/frameformat/height/) { get; } | Obtiene la altura del marco especificado. |
 | [HeightRule](../../aspose.words/frameformat/heightrule/) { get; } | Obtiene la regla para determinar la altura del marco especificado. |
 | [HorizontalAlignment](../../aspose.words/frameformat/horizontalalignment/) { get; } | Obtiene la alineación horizontal del marco especificado. |
-| [HorizontalDistanceFromText](../../aspose.words/frameformat/horizontaldistancefromtext/) { get; } | Obtiene la distancia horizontal entre un marco y el texto que lo rodea, en puntos. |
+| [HorizontalDistanceFromText](../../aspose.words/frameformat/horizontaldistancefromtext/) { get; } | Obtiene la distancia horizontal entre un marco y el texto circundante, en puntos. |
 | [HorizontalPosition](../../aspose.words/frameformat/horizontalposition/) { get; } | Obtiene la distancia horizontal entre el borde del marco y el elemento especificado por el[`RelativeHorizontalPosition`](./relativehorizontalposition/) propiedad. |
-| [IsFrame](../../aspose.words/frameformat/isframe/) { get; } | Devuelve verdadero si el párrafo es un marco. |
+| [IsFrame](../../aspose.words/frameformat/isframe/) { get; } | Devoluciones`verdadero` si el párrafo es un marco. |
 | [RelativeHorizontalPosition](../../aspose.words/frameformat/relativehorizontalposition/) { get; } | Obtiene la posición horizontal relativa de un marco. |
 | [RelativeVerticalPosition](../../aspose.words/frameformat/relativeverticalposition/) { get; } | Obtiene la posición vertical relativa de un marco. |
 | [VerticalAlignment](../../aspose.words/frameformat/verticalalignment/) { get; } | Obtiene la alineación vertical del marco especificado. |
@@ -39,7 +39,7 @@ Usar[`IsFrame`](./isframe/) para comprobar si el párrafo es un marco.
 
 ### Ejemplos
 
-Muestra cómo obtener información sobre las propiedades de formato de los párrafos que son marcos.
+Muestra cómo obtener información sobre las propiedades de formato de párrafos que son marcos.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraph frame.docx");

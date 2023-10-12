@@ -3,7 +3,7 @@ title: DocumentBuilder.MoveToParagraph
 second_title: Referencia de API de Aspose.Words para .NET
 description: DocumentBuilder método. Mueve el cursor a un párrafo en la sección actual.
 type: docs
-weight: 540
+weight: 570
 url: /es/net/aspose.words/documentbuilder/movetoparagraph/
 ---
 ## DocumentBuilder.MoveToParagraph method
@@ -16,14 +16,14 @@ public void MoveToParagraph(int paragraphIndex, int characterIndex)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| paragraphIndex | Int32 | El índice del párrafo al que se desplazará. |
-| characterIndex | Int32 | El índice del carácter dentro del párrafo. Un valor negativo le permite especificar una posición desde el final del párrafo. Use -1 para moverse al final de el párrafo. |
+| paragraphIndex | Int32 | El índice del párrafo al que pasar. |
+| characterIndex | Int32 | El índice del carácter dentro del párrafo. Un valor negativo le permite especificar una posición desde el final del párrafo. Utilice -1 para desplazarse al final de el párrafo. |
 
 ### Observaciones
 
-La navegación se realiza dentro de la historia actual de la sección actual. Es decir, si movió el cursor al encabezado principal de la primera sección, , entonces párrafoIndex especificó el índice del párrafo dentro de ese encabezado de esa sección.
+La navegación se realiza dentro de la historia actual de la sección actual. Es decir, si movió el cursor al encabezado principal de la primera sección, entonces*paragraphIndex*especificó el índice del párrafo dentro de ese header de esa sección.
 
-Cuando el índice de párrafo es mayor o igual a 0, especifica un índice desde el comienzo de la sección, siendo 0 el primer párrafo. Cuando el índice de párrafo es menor que 0, especifica un índice desde el final de la sección, siendo -1 el último párrafo.
+Cuando*paragraphIndex* es mayor o igual a 0, especifica un índice desde el comienzo de la sección siendo 0 el primer párrafo. Cuando*paragraphIndex* es menor que 0, , especificó un índice desde el final de la sección, siendo -1 el último párrafo.
 
 ### Ejemplos
 
@@ -36,8 +36,8 @@ ParagraphCollection paragraphs = doc.FirstSection.Body.Paragraphs;
 Assert.AreEqual(22, paragraphs.Count);
 
 // Crear generador de documentos para editar el documento. El cursor del constructor,
-// cuál es el punto donde insertará nuevos nodos cuando llamemos a sus métodos de construcción de documentos,
-// se encuentra actualmente al principio del documento.
+// que es el punto donde insertará nuevos nodos cuando llamemos a sus métodos de construcción de documentos,
+// se encuentra actualmente al comienzo del documento.
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 Assert.AreEqual(0, paragraphs.IndexOf(builder.CurrentParagraph));

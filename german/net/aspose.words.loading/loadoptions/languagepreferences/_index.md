@@ -16,7 +16,7 @@ public LanguagePreferences LanguagePreferences { get; }
 
 ### Beispiele
 
-Zeigt, wie Spracheinstellungen beim Laden eines Dokuments angewendet werden.
+Zeigt, wie beim Laden eines Dokuments Spracheinstellungen angewendet werden.
 
 ```csharp
 LoadOptions loadOptions = new LoadOptions();

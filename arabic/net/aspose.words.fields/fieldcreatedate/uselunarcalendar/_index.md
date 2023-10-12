@@ -1,14 +1,14 @@
 ---
 title: FieldCreateDate.UseLunarCalendar
 second_title: Aspose.Words لمراجع .NET API
-description: FieldCreateDate ملكية. يحصل أو يحدد ما إذا كان سيتم استخدام التقويم الهجري القمري أو التقويم القمري العبري.
+description: FieldCreateDate ملكية. الحصول على أو تحديد ما إذا كان سيتم استخدام التقويم القمري الهجري أو القمري العبري.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldcreatedate/uselunarcalendar/
 ---
 ## FieldCreateDate.UseLunarCalendar property
 
-يحصل أو يحدد ما إذا كان سيتم استخدام التقويم الهجري القمري أو التقويم القمري العبري.
+الحصول على أو تحديد ما إذا كان سيتم استخدام التقويم القمري الهجري أو القمري العبري.
 
 ```csharp
 public bool UseLunarCalendar { get; set; }
@@ -16,7 +16,7 @@ public bool UseLunarCalendar { get; set; }
 
 ### أمثلة
 
-يوضح كيفية استخدام حقل الإنشاء لعرض تاريخ / وقت إنشاء المستند.
+يوضح كيفية استخدام حقل "تاريخ الإنشاء" لعرض تاريخ/وقت إنشاء المستند.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -24,8 +24,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.MoveToDocumentEnd();
 builder.Writeln(" Date this document was created:");
 
-// يمكننا استخدام حقل الإنشاء لعرض تاريخ ووقت إنشاء المستند.
-// فيما يلي ثلاثة أنواع مختلفة من التقويمات التي يمكن أن يعرض حقل الإنشاء التاريخ / الوقت وفقًا لها.
+// يمكننا استخدام حقل تاريخ الإنشاء لعرض تاريخ ووقت إنشاء المستند.
+// فيما يلي ثلاثة أنواع تقويم مختلفة يمكن لحقل "التاريخ الإنشاء" من خلالها عرض التاريخ/الوقت.
 // 1 - التقويم القمري الإسلامي:
 builder.Write("According to the Lunar Calendar - ");
 FieldCreateDate field = (FieldCreateDate)builder.InsertField(FieldType.FieldCreateDate, true);
@@ -33,7 +33,7 @@ field.UseLunarCalendar = true;
 
 Assert.AreEqual(" CREATEDATE  \\h", field.GetFieldCode());
 
-// 2 - تقويم أم القرى:
+// 2 - تقويم أم القرى :
 builder.Write("\nAccording to the Umm al-Qura Calendar - ");
 field = (FieldCreateDate)builder.InsertField(FieldType.FieldCreateDate, true);
 field.UseUmAlQuraCalendar = true;

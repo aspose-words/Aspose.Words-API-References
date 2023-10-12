@@ -5,7 +5,7 @@ articleTitle: Width
 second_title: Aspose.Words for .NET
 description: CellFormat Width property. Gets the width of the cell in points in C#.
 type: docs
-weight: 130
+weight: 140
 url: /net/aspose.words.tables/cellformat/width/
 ---
 ## CellFormat.Width property

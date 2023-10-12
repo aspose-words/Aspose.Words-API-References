@@ -1,14 +1,14 @@
 ---
 title: ImageData.HasImage
 second_title: Aspose.Words för .NET API Referens
-description: ImageData fast egendom. Returnerar sant om formen har bildbytes eller länkar en bild.
+description: ImageData fast egendom. ReturnerarSann om formen har bildbytes eller länkar en bild.
 type: docs
 weight: 110
 url: /sv/net/aspose.words.drawing/imagedata/hasimage/
 ---
 ## ImageData.HasImage property
 
-Returnerar sant om formen har bildbytes eller länkar en bild.
+Returnerar`Sann` om formen har bildbytes eller länkar en bild.
 
 ```csharp
 public bool HasImage { get; }

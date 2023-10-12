@@ -1,14 +1,16 @@
 ---
 title: Class ChartDataPoint
 second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Drawing.Charts.ChartDataPoint classe. Consente di specificare la formattazione di un singolo punto dati sul grafico.
+description: Aspose.Words.Drawing.Charts.ChartDataPoint classe. Permette di specificare la formattazione di un singolo punto dati sul grafico.
 type: docs
-weight: 650
+weight: 690
 url: /it/net/aspose.words.drawing.charts/chartdatapoint/
 ---
 ## ChartDataPoint class
 
-Consente di specificare la formattazione di un singolo punto dati sul grafico.
+Permette di specificare la formattazione di un singolo punto dati sul grafico.
+
+Per saperne di più, visita il[Lavorare con i grafici](https://docs.aspose.com/words/net/working-with-charts/) articolo di documentazione.
 
 ```csharp
 public class ChartDataPoint : IChartDataPoint
@@ -18,29 +20,28 @@ public class ChartDataPoint : IChartDataPoint
 
 | Nome | Descrizione |
 | --- | --- |
-| [Bubble3D](../../aspose.words.drawing.charts/chartdatapoint/bubble3d/) { get; set; } |  |
-| [Explosion](../../aspose.words.drawing.charts/chartdatapoint/explosion/) { get; set; } |  |
+| [Bubble3D](../../aspose.words.drawing.charts/chartdatapoint/bubble3d/) { get; set; } | Specifica se alle bolle nel grafico a bolle deve essere applicato un effetto 3D. |
+| [Explosion](../../aspose.words.drawing.charts/chartdatapoint/explosion/) { get; set; } | Specifica di quanto il punto dati deve essere spostato dal centro della torta. Può essere negativo, negativo significa che la proprietà non è impostata e non deve essere applicata alcuna esplosione. Si applica solo ai grafici a torta. |
 | [Format](../../aspose.words.drawing.charts/chartdatapoint/format/) { get; } | Fornisce l'accesso al riempimento e alla formattazione della linea di questo punto dati. |
 | [Index](../../aspose.words.drawing.charts/chartdatapoint/index/) { get; } | Indice del punto dati a cui questo oggetto applica la formattazione. |
-| [InvertIfNegative](../../aspose.words.drawing.charts/chartdatapoint/invertifnegative/) { get; set; } |  |
-| [Marker](../../aspose.words.drawing.charts/chartdatapoint/marker/) { get; } |  |
+| [InvertIfNegative](../../aspose.words.drawing.charts/chartdatapoint/invertifnegative/) { get; set; } | Specifica se l'elemento genitore deve invertire i suoi colori se il valore è negativo. |
+| [Marker](../../aspose.words.drawing.charts/chartdatapoint/marker/) { get; } | Specifica l'indicatore dei dati del grafico. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [ClearFormat](../../aspose.words.drawing.charts/chartdatapoint/clearformat/)() | Cancella il formato di questo punto dati. Le proprietà sono impostate sui valori predefiniti definiti nella serie padre. |
+| [ClearFormat](../../aspose.words.drawing.charts/chartdatapoint/clearformat/)() | Cancella il formato di questo punto dati. Le proprietà vengono impostate sui valori predefiniti definiti nella serie principale. |
 
 ### Osservazioni
 
-Su una serie, il`ChartDataPoint` oggetto è un membro del[`ChartDataPointCollection`](../chartdatapointcollection/) . Il[`ChartDataPointCollection`](../chartdatapointcollection/) contiene un`ChartDataPoint` oggetto per ogni punto.
+In una serie, il`ChartDataPoint` l'oggetto è un membro di[`ChartDataPointCollection`](../chartdatapointcollection/) . Il[`ChartDataPointCollection`](../chartdatapointcollection/) contiene un`ChartDataPoint` oggetto per ogni punto.
 
 ### Esempi
 
-Mostra come lavorare con i punti dati su un grafico a linee.
+Mostra come utilizzare i punti dati su un grafico a linee.
 
 ```csharp
-[Test]
 public void ChartDataPoint()
 {
     Document doc = new Document();
@@ -58,10 +59,10 @@ public void ChartDataPoint()
     foreach (ChartSeries series in chart.Series) 
         ApplyDataPoints(series, 4, MarkerSymbol.Diamond, 15);
 
-    // Appiana la linea che rappresenta la prima serie di dati.
+    // Appianare la linea che rappresenta la prima serie di dati.
     chart.Series[0].Smooth = true;
 
-    // Verifica che i punti dati per la prima serie non invertano i loro colori se il valore è negativo.
+    // Verifica che i punti dati per la prima serie non invertano i colori se il valore è negativo.
     using (IEnumerator<ChartDataPoint> enumerator = chart.Series[0].DataPoints.GetEnumerator())
     {
         while (enumerator.MoveNext())
@@ -73,7 +74,7 @@ public void ChartDataPoint()
     // Per un grafico dall'aspetto più pulito, possiamo cancellare il formato individualmente.
     chart.Series[1].DataPoints[2].ClearFormat();
 
-    // Possiamo anche rimuovere un'intera serie di punti dati contemporaneamente.
+    // Possiamo anche eliminare un'intera serie di punti dati contemporaneamente.
     chart.Series[2].DataPoints.ClearFormat();
 
     doc.Save(ArtifactsDir + "Charts.ChartDataPoint.docx");

@@ -1,14 +1,14 @@
 ---
 title: OoxmlSaveOptions.KeepLegacyControlChars
 second_title: Aspose.Words for .NET API Referansı
-description: OoxmlSaveOptions mülk. Eski kontrol karakterlerinin orijinal temsilini tutar.
+description: OoxmlSaveOptions mülk. Eski kontrol karakterlerinin orijinal temsilini korur.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.saving/ooxmlsaveoptions/keeplegacycontrolchars/
 ---
 ## OoxmlSaveOptions.KeepLegacyControlChars property
 
-Eski kontrol karakterlerinin orijinal temsilini tutar.
+Eski kontrol karakterlerinin orijinal temsilini korur.
 
 ```csharp
 public bool KeepLegacyControlChars { get; set; }
@@ -21,8 +21,8 @@ public bool KeepLegacyControlChars { get; set; }
 ```csharp
 Document doc = new Document(MyDir + "Legacy control character.doc");
 
-// Belgeyi OOXML formatında kaydettiğimizde bir OoxmlSaveOptions nesnesi oluşturabiliriz.
-// ve ardından belgeyi kaydetme şeklimizi değiştirmek için belgenin kaydetme yöntemine iletin.
+// Belgeyi OOXML formatında kaydettiğimizde bir OoxmlSaveOptions nesnesi oluşturabiliriz
+// ve ardından belgeyi kaydetme şeklimizi değiştirmek için bunu belgenin kaydetme yöntemine aktarın.
 // Korumak için "KeepLegacyControlChars" özelliğini "true" olarak ayarlayın
 // kaydederken "ShortDateTime" eski karakteri.
 // Kaldırmak için "KeepLegacyControlChars" özelliğini "false" olarak ayarlayın

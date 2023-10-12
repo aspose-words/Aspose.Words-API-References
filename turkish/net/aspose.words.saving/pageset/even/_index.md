@@ -1,14 +1,14 @@
 ---
 title: PageSet.Even
 second_title: Aspose.Words for .NET API Referansı
-description: PageSet mülk. Belgenin tüm çift sayfalarını orijinal sıralarına göre içeren bir küme alır.
+description: PageSet mülk. Belgenin tüm çift sayfalarını orijinal sıralarında içeren bir set alır.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.saving/pageset/even/
 ---
 ## PageSet.Even property
 
-Belgenin tüm çift sayfalarını orijinal sıralarına göre içeren bir küme alır.
+Belgenin tüm çift sayfalarını orijinal sıralarında içeren bir set alır.
 
 ```csharp
 public static PageSet Even { get; }
@@ -16,7 +16,7 @@ public static PageSet Even { get; }
 
 ### Notlar
 
-Sayfa dizinleri sıfır tabanlı olduğundan çift sayfaların tek dizinleri vardır.
+Sayfa indeksleri sıfır tabanlı olduğundan çift sayfaların indeksleri tektir.
 
 ### Ayrıca bakınız
 

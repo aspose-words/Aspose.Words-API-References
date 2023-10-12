@@ -1,14 +1,14 @@
 ---
 title: Shading.BackgroundPatternColor
 second_title: Aspose.Words لمراجع .NET API
-description: Shading ملكية. الحصول على أو تعيين اللون المطبق على خلفية كائن التظليل.
+description: Shading ملكية. الحصول على أو تعيين اللون المطبق على خلفية الصورةShading الكائن.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/shading/backgroundpatterncolor/
 ---
 ## Shading.BackgroundPatternColor property
 
-الحصول على أو تعيين اللون المطبق على خلفية كائن التظليل.
+الحصول على أو تعيين اللون المطبق على خلفية الصورة[`Shading`](../) الكائن.
 
 ```csharp
 public Color BackgroundPatternColor { get; set; }

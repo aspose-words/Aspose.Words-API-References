@@ -1,14 +1,14 @@
 ---
 title: ParagraphFormat.HangingPunctuation
 second_title: Aspose.Words for .NET API Referansı
-description: ParagraphFormat mülk. Geçerli paragraf için asılı noktalamanın etkinleştirilip etkinleştirilmediğini belirten bir bayrak alır veya ayarlar.
+description: ParagraphFormat mülk. Geçerli paragraf için asılı noktalama işaretlerinin etkinleştirilip etkinleştirilmediğini gösteren bir bayrak alır veya ayarlar.
 type: docs
-weight: 120
+weight: 130
 url: /tr/net/aspose.words/paragraphformat/hangingpunctuation/
 ---
 ## ParagraphFormat.HangingPunctuation property
 
-Geçerli paragraf için asılı noktalamanın etkinleştirilip etkinleştirilmediğini belirten bir bayrak alır veya ayarlar.
+Geçerli paragraf için asılı noktalama işaretlerinin etkinleştirilip etkinleştirilmediğini gösteren bir bayrak alır veya ayarlar.
 
 ```csharp
 public bool HangingPunctuation { get; set; }

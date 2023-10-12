@@ -1,14 +1,14 @@
 ---
 title: HyphenationOptions.ConsecutiveHyphenLimit
 second_title: Aspose.Words für .NET-API-Referenz
-description: HyphenationOptions eigendom. Ermittelt oder setzt die maximale Anzahl aufeinanderfolgender Zeilen die mit Bindestrichen enden können. Der Standardwert für diese Eigenschaft ist 0.
+description: HyphenationOptions eigendom. Ruft die maximale Anzahl aufeinanderfolgender Zeilen ab die mit Bindestrichen enden können oder legt diese fest. Der Standardwert für diese Eigenschaft ist 0.
 type: docs
 weight: 30
 url: /de/net/aspose.words.settings/hyphenationoptions/consecutivehyphenlimit/
 ---
 ## HyphenationOptions.ConsecutiveHyphenLimit property
 
-Ermittelt oder setzt die maximale Anzahl aufeinanderfolgender Zeilen, die mit Bindestrichen enden können. Der Standardwert für diese Eigenschaft ist 0.
+Ruft die maximale Anzahl aufeinanderfolgender Zeilen ab, die mit Bindestrichen enden können, oder legt diese fest. Der Standardwert für diese Eigenschaft ist 0.
 
 ```csharp
 public int ConsecutiveHyphenLimit { get; set; }
@@ -18,7 +18,7 @@ public int ConsecutiveHyphenLimit { get; set; }
 
 Wenn der Wert dieser Eigenschaft auf 0 gesetzt ist, können beliebig viele aufeinanderfolgende Zeilen mit Bindestrichen enden.
 
-Beim Speichern in festen Seitenformaten, zB PDF, hat die Eigenschaft keine Auswirkung.
+Die Eigenschaft hat keine Auswirkung beim Speichern in festen Seitenformaten, z. B. PDF.
 
 ### Beispiele
 

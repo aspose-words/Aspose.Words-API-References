@@ -1,14 +1,14 @@
 ---
 title: Shape.ShadowEnabled
 second_title: Справочник по API Aspose.Words для .NET
-description: Shape свойство. Возвращает true если включен эффект тени.
+description: Shape свойство. Возвращаетистинный если эффект тени включен.
 type: docs
 weight: 150
 url: /ru/net/aspose.words.drawing/shape/shadowenabled/
 ---
 ## Shape.ShadowEnabled property
 
-Возвращает true, если включен эффект тени.
+Возвращает`истинный` если эффект тени включен.
 
 ```csharp
 public bool ShadowEnabled { get; }
@@ -19,6 +19,7 @@ public bool ShadowEnabled { get; }
 Показывает, как перебирать все фигуры в документе.
 
 ```csharp
+public void VisitShapes()
 {
     Document doc = new Document(MyDir + "Revision shape.docx");
     ShapeAppearancePrinter visitor = new ShapeAppearancePrinter();
@@ -28,7 +29,7 @@ public bool ShadowEnabled { get; }
 }
 
 /// <summary>
-/// Регистрирует связанную с внешним видом информацию о посещенных фигурах.
+/// Регистрирует информацию о внешнем виде посещенных фигур.
 /// </summary>
 private class ShapeAppearancePrinter : DocumentVisitor
 {
@@ -40,7 +41,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Добавляет строку в StringBuilder с одним предшествующим символом табуляции для каждого уровня отступа.
+    /// Добавляет строку в StringBuilder с одним добавленным символом табуляции для каждого уровня отступа.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -50,7 +51,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Вернуть весь текст, который накопил StringBuilder.
+    /// Возвращаем весь текст, накопленный StringBuilder.
     /// </summary>
     public string GetText()
     {

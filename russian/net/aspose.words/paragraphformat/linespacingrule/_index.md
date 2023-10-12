@@ -3,7 +3,7 @@ title: ParagraphFormat.LineSpacingRule
 second_title: Справочник по API Aspose.Words для .NET
 description: ParagraphFormat свойство. Получает или задает межстрочный интервал для абзаца.
 type: docs
-weight: 190
+weight: 200
 url: /ru/net/aspose.words/paragraphformat/linespacingrule/
 ---
 ## ParagraphFormat.LineSpacingRule property
@@ -23,10 +23,10 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Ниже приведены три правила межстрочного интервала, которые мы можем определить с помощью
-// свойство абзаца "LineSpacingRule" для настройки интервала между абзацами.
-// 1 - Установить минимальное расстояние.
-// Это даст вертикальный отступ для строк текста любого размера
-// это слишком мало, чтобы поддерживать минимальную высоту строки.
+// Свойство абзаца "LineSpacingRule" для настройки интервала между абзацами.
+// 1 - Установить минимальный интервал.
+// Это обеспечит вертикальное заполнение строк текста любого размера
+// это слишком мало для поддержания минимальной высоты строки.
 builder.ParagraphFormat.LineSpacingRule = LineSpacingRule.AtLeast;
 builder.ParagraphFormat.LineSpacing = 20;
 
@@ -34,15 +34,15 @@ builder.Writeln("Minimum line spacing of 20.");
 builder.Writeln("Minimum line spacing of 20.");
 
 // 2 - Установить точный интервал.
-// Использование размеров шрифта, которые слишком велики для интервала, приведет к обрезанию текста.
+// Использование размеров шрифта, слишком больших для данного интервала, приведет к обрезанию текста.
 builder.ParagraphFormat.LineSpacingRule = LineSpacingRule.Exactly;
 builder.ParagraphFormat.LineSpacing = 5;
 
 builder.Writeln("Line spacing of exactly 5.");
 builder.Writeln("Line spacing of exactly 5.");
 
-// 3 - Установите интервал как кратный межстрочному интервалу по умолчанию, который по умолчанию составляет 12 пунктов.
-// Этот тип интервала будет масштабироваться для разных размеров шрифта.
+// 3 — установить интервал, кратный межстрочному интервалу по умолчанию, который по умолчанию составляет 12 пунктов.
+// Этот тип интервала будет масштабироваться в зависимости от размера шрифта.
 builder.ParagraphFormat.LineSpacingRule = LineSpacingRule.Multiple;
 builder.ParagraphFormat.LineSpacing = 18;
 

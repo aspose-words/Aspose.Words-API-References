@@ -16,13 +16,13 @@ public Document()
 
 ### Примечания
 
-Размер бумаги документа по умолчанию — Letter. Если вы хотите изменить настройки страницы, используйте [`Раздел.PageSetup`](../../section/pagesetup/).
+По умолчанию формат бумаги документа — Letter. Если вы хотите изменить настройку страницы, используйте [`PageSetup`](../../section/pagesetup/).
 
-После создания вы можете использовать[`DocumentBuilder`](../../documentbuilder/) легко добавлять содержимое документа.
+После создания вы можете использовать[`DocumentBuilder`](../../documentbuilder/) чтобы легко добавлять содержимое документа.
 
 ### Примеры
 
-Показывает, как отформатировать набор текста, используя его свойство шрифта.
+Показывает, как форматировать фрагмент текста, используя его свойство шрифта.
 
 ```csharp
 Document doc = new Document();
@@ -40,22 +40,22 @@ doc.Save(ArtifactsDir + "Font.CreateFormattedRun.docx");
 Показывает, как создавать и загружать документы.
 
 ```csharp
-// Существует два способа создания объекта Document с помощью Aspose.Words.
+// Существует два способа создания объекта Document с использованием Aspose.Words.
 // 1 - Создать пустой документ:
 Document doc = new Document();
 
-// Новые объекты Document по умолчанию имеют минимальный набор узлов
-// требуется для начала добавления содержимого, такого как текст и фигуры: раздел, основной текст и абзац.
+// Новые объекты документа по умолчанию имеют минимальный набор узлов
+// требуется, чтобы начать добавлять контент, такой как текст и фигуры: раздел, тело и абзац.
 doc.FirstSection.Body.FirstParagraph.AppendChild(new Run(doc, "Hello world!"));
 
 // 2 - Загрузить документ, существующий в локальной файловой системе:
 doc = new Document(MyDir + "Document.docx");
 
-// Загруженные документы будут иметь содержимое, к которому мы можем получить доступ и редактировать.
+// Загруженные документы будут иметь содержимое, к которому мы сможем получить доступ и редактировать.
 Assert.AreEqual("Hello World!", doc.FirstSection.Body.FirstParagraph.GetText().Trim());
 
-// Некоторые операции, которые должны выполняться во время загрузки, например, использование пароля для расшифровки документа,
-// можно сделать, передав объект LoadOptions при загрузке документа.
+// Некоторые операции, которые необходимо выполнить во время загрузки, например, использование пароля для расшифровки документа,
+// это можно сделать, передав объект LoadOptions при загрузке документа.
 doc = new Document(MyDir + "Encrypted.docx", new LoadOptions("docPassword"));
 
 Assert.AreEqual("Test encrypted document.", doc.FirstSection.Body.FirstParagraph.GetText().Trim());
@@ -79,17 +79,17 @@ public Document(string fileName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fileName | String | Имя файла открываемого документа. |
+| fileName | String | Имя файла документа, который нужно открыть. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | Формат документа не распознан или не поддерживается. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | Формат документа не распознается или не поддерживается. |
 | [FileCorruptedException](../../filecorruptedexception/) | Документ поврежден и не может быть загружен. |
-| Exception | Возникла проблема с документом, о ней следует сообщить разработчикам Aspose.Words. |
+| Exception | С документом возникла проблема, о которой следует сообщить разработчикам Aspose.Words. |
 | IOException | Существует исключение ввода/вывода. |
-| [IncorrectPasswordException](../../incorrectpasswordexception/) | Документ зашифрован, и для его открытия требуется пароль, но вы указали неверный пароль. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | Документ зашифрован, и для его открытия требуется пароль, но вы указали неправильный пароль. |
 | ArgumentException | Имя файла не может быть нулевым или пустой строкой. |
 
 ### Примеры
@@ -112,13 +112,13 @@ builder.Write("Hello world!");
 
 doc.Save(ArtifactsDir + "PDF2Word.ConvertPdfToDocx.pdf");
 
-// Загрузите документ PDF, который мы только что сохранили, и преобразуйте его в .docx.
+// Загрузите PDF-документ, который мы только что сохранили, и преобразуйте его в .docx.
 Document pdfDoc = new Document(ArtifactsDir + "PDF2Word.ConvertPdfToDocx.pdf");
 
 pdfDoc.Save(ArtifactsDir + "PDF2Word.ConvertPdfToDocx.docx");
 ```
 
-Показывает, как загрузить PDF.
+Показывает, как загрузить PDF-файл.
 
 ```csharp
 Aspose.Words.Document doc = new Aspose.Words.Document();
@@ -161,18 +161,18 @@ public Document(string fileName, LoadOptions loadOptions)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fileName | String | Имя файла открываемого документа. |
-| loadOptions | LoadOptions | Дополнительные параметры для использования при загрузке документа. Может быть нулевым. |
+| fileName | String | Имя файла документа, который нужно открыть. |
+| loadOptions | LoadOptions | Дополнительные параметры, которые можно использовать при загрузке документа. Возможно`нулевой`. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | Формат документа не распознан или не поддерживается. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | Формат документа не распознается или не поддерживается. |
 | [FileCorruptedException](../../filecorruptedexception/) | Документ поврежден и не может быть загружен. |
-| Exception | Возникла проблема с документом, о ней следует сообщить разработчикам Aspose.Words. |
+| Exception | С документом возникла проблема, о которой следует сообщить разработчикам Aspose.Words. |
 | IOException | Существует исключение ввода/вывода. |
-| [IncorrectPasswordException](../../incorrectpasswordexception/) | Документ зашифрован, и для его открытия требуется пароль, но вы указали неверный пароль. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | Документ зашифрован, и для его открытия требуется пароль, но вы указали неправильный пароль. |
 | ArgumentException | Имя файла не может быть нулевым или пустой строкой. |
 
 ### Примеры
@@ -188,34 +188,35 @@ Assert.Throws<IncorrectPasswordException>(() => doc = new Document(MyDir + "Encr
 // При загрузке такого документа пароль передается конструктору документа с помощью объекта LoadOptions.
 LoadOptions options = new LoadOptions("docPassword");
 
-// Есть два способа загрузки зашифрованного документа с помощью объекта LoadOptions.
+// Существует два способа загрузки зашифрованного документа с помощью объекта LoadOptions.
 // 1 - Загрузить документ из локальной файловой системы по имени файла:
 doc = new Document(MyDir + "Encrypted.docx", options);
 // 2 - Загрузить документ из потока:
 using (Stream stream = File.OpenRead(MyDir + "Encrypted.docx"))
 {
     doc = new Document(stream, options);
+}
 ```
 
 Показывает, как создавать и загружать документы.
 
 ```csharp
-// Существует два способа создания объекта Document с помощью Aspose.Words.
+// Существует два способа создания объекта Document с использованием Aspose.Words.
 // 1 - Создать пустой документ:
 Document doc = new Document();
 
-// Новые объекты Document по умолчанию имеют минимальный набор узлов
-// требуется для начала добавления содержимого, такого как текст и фигуры: раздел, основной текст и абзац.
+// Новые объекты документа по умолчанию имеют минимальный набор узлов
+// требуется, чтобы начать добавлять контент, такой как текст и фигуры: раздел, тело и абзац.
 doc.FirstSection.Body.FirstParagraph.AppendChild(new Run(doc, "Hello world!"));
 
 // 2 - Загрузить документ, существующий в локальной файловой системе:
 doc = new Document(MyDir + "Document.docx");
 
-// Загруженные документы будут иметь содержимое, к которому мы можем получить доступ и редактировать.
+// Загруженные документы будут иметь содержимое, к которому мы сможем получить доступ и редактировать.
 Assert.AreEqual("Hello World!", doc.FirstSection.Body.FirstParagraph.GetText().Trim());
 
-// Некоторые операции, которые должны выполняться во время загрузки, например, использование пароля для расшифровки документа,
-// можно сделать, передав объект LoadOptions при загрузке документа.
+// Некоторые операции, которые необходимо выполнить во время загрузки, например, использование пароля для расшифровки документа,
+// это можно сделать, передав объект LoadOptions при загрузке документа.
 doc = new Document(MyDir + "Encrypted.docx", new LoadOptions("docPassword"));
 
 Assert.AreEqual("Test encrypted document.", doc.FirstSection.Body.FirstParagraph.GetText().Trim());
@@ -246,11 +247,11 @@ public Document(Stream stream)
 
 | исключение | условие |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | Формат документа не распознан или не поддерживается. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | Формат документа не распознается или не поддерживается. |
 | [FileCorruptedException](../../filecorruptedexception/) | Документ поврежден и не может быть загружен. |
-| Exception | Возникла проблема с документом, о ней следует сообщить разработчикам Aspose.Words. |
+| Exception | С документом возникла проблема, о которой следует сообщить разработчикам Aspose.Words. |
 | IOException | Существует исключение ввода/вывода. |
-| [IncorrectPasswordException](../../incorrectpasswordexception/) | Документ зашифрован, и для его открытия требуется пароль, но вы указали неверный пароль. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | Документ зашифрован, и для его открытия требуется пароль, но вы указали неправильный пароль. |
 | ArgumentNullException | Поток не может быть нулевым. |
 | NotSupportedException | Поток не поддерживает чтение или поиск. |
 | ObjectDisposedException | Поток — это удаленный объект. |
@@ -272,26 +273,26 @@ using (Stream stream = File.OpenRead(MyDir + "Document.docx"))
 }
 ```
 
-Показывает, как загрузить документ из URL-адреса.
+Показывает, как загрузить документ по URL-адресу.
 
 ```csharp
 // Создайте URL-адрес, указывающий на документ Microsoft Word.
-const string url = "https://omextemplates.content.office.net/support/templates/en-us/tf16402488.dotx";
+const string url = "https://filesamples.com/samples/document/docx/sample3.docx";
 
 // Загрузите документ в массив байтов, затем загрузите этот массив в документ, используя поток памяти.
-using (WebClient webClient = new WebClient())
+using (HttpClient webClient = new HttpClient())
 {
-    byte[] dataBytes = webClient.DownloadData(url);
+    byte[] dataBytes = await webClient.GetByteArrayAsync(url);
 
     using (MemoryStream byteStream = new MemoryStream(dataBytes))
     {
         Document doc = new Document(byteStream);
 
         // На этом этапе мы можем прочитать и отредактировать содержимое документа, а затем сохранить его в локальной файловой системе.
-        Assert.AreEqual("Use this section to highlight your relevant passions, activities, and how you like to give back. " +
-                        "It’s good to include Leadership and volunteer experiences here. " +
-                        "Or show off important extras like publications, certifications, languages and more.",
-            doc.FirstSection.Body.Paragraphs[4].GetText().Trim());
+        Assert.AreEqual("There are eight section headings in this document. At the beginning, \"Sample Document\" is a level 1 heading. " +
+            "The main section headings, such as \"Headings\" and \"Lists\" are level 2 headings. " +
+            "The Tables section contains two sub-headings, \"Simple Table\" and \"Complex Table,\" which are both level 3 headings.",                         
+            doc.FirstSection.Body.Paragraphs[3].GetText().Trim());
 
         doc.Save(ArtifactsDir + "Document.LoadFromWeb.docx");
     }
@@ -316,18 +317,18 @@ public Document(Stream stream, LoadOptions loadOptions)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Поток, из которого загружается документ. |
-| loadOptions | LoadOptions | Дополнительные параметры для использования при загрузке документа. Может быть нулевым. |
+| stream | Stream | Поток, из которого загрузить документ. |
+| loadOptions | LoadOptions | Дополнительные параметры, которые можно использовать при загрузке документа. Возможно`нулевой`. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | Формат документа не распознан или не поддерживается. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | Формат документа не распознается или не поддерживается. |
 | [FileCorruptedException](../../filecorruptedexception/) | Документ поврежден и не может быть загружен. |
-| Exception | Возникла проблема с документом, о ней следует сообщить разработчикам Aspose.Words. |
+| Exception | С документом возникла проблема, о которой следует сообщить разработчикам Aspose.Words. |
 | IOException | Существует исключение ввода/вывода. |
-| [IncorrectPasswordException](../../incorrectpasswordexception/) | Документ зашифрован, и для его открытия требуется пароль, но вы указали неверный пароль. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | Документ зашифрован, и для его открытия требуется пароль, но вы указали неправильный пароль. |
 | ArgumentNullException | Поток не может быть нулевым. |
 | NotSupportedException | Поток не поддерживает чтение или поиск. |
 | ObjectDisposedException | Поток — это удаленный объект. |
@@ -338,34 +339,13 @@ public Document(Stream stream, LoadOptions loadOptions)
 
 ### Примеры
 
-Показывает, как сохранить веб-страницу в виде файла .docx.
-
-```csharp
-const string url = "http://www.aspose.com/";
-
-using (WebClient client = new WebClient()) 
-{ 
-    using (MemoryStream stream = new MemoryStream(client.DownloadData(url)))
-    {
-        // URL-адрес снова используется как baseUri, чтобы убедиться, что любые относительные пути к изображениям извлекаются правильно.
-        LoadOptions options = new LoadOptions(LoadFormat.Html, "", url);
-
-        // Загружаем HTML-документ из потока и передаем объект LoadOptions.
-        Document doc = new Document(stream, options);
-
-        // На этом этапе мы можем прочитать и отредактировать содержимое документа, а затем сохранить его в локальной файловой системе.
-        doc.Save(ArtifactsDir + "Document.InsertHtmlFromWebPage.docx");
-    }
-}
-```
-
-Показывает, как открыть HTML-документ с изображениями из потока, используя базовый URI.
+Показывает, как открыть документ HTML с изображениями из потока, используя базовый URI.
 
 ```csharp
 using (Stream stream = File.OpenRead(MyDir + "Document.html"))
 {
     // Передаем URI базовой папки при ее загрузке
-    // чтобы можно было найти любые изображения с относительными URI в HTML-документе.
+    // чтобы можно было найти любые изображения с относительными URI в документе HTML.
     LoadOptions loadOptions = new LoadOptions();
     loadOptions.BaseUri = ImageDir;
 
@@ -381,6 +361,28 @@ using (Stream stream = File.OpenRead(MyDir + "Document.html"))
 }
 ```
 
+Показывает, как сохранить веб-страницу в виде файла .docx.
+
+```csharp
+const string url = "https://www.aspose.com/";
+
+using (HttpClient client = new HttpClient()) 
+{
+    var bytes = await client.GetByteArrayAsync(url);
+    using (MemoryStream stream = new MemoryStream(bytes))
+    {
+        // URL-адрес снова используется в качестве baseUri, чтобы гарантировать правильность получения любых относительных путей к изображениям.
+        LoadOptions options = new LoadOptions(LoadFormat.Html, "", url);
+
+        // Загружаем HTML-документ из потока и передаем объект LoadOptions.
+        Document doc = new Document(stream, options);
+
+        // На этом этапе мы можем прочитать и отредактировать содержимое документа, а затем сохранить его в локальной файловой системе.
+        doc.Save(ArtifactsDir + "Document.InsertHtmlFromWebPage.docx");
+    }
+}
+```
+
 Показывает, как загрузить зашифрованный документ Microsoft Word.
 
 ```csharp
@@ -392,13 +394,14 @@ Assert.Throws<IncorrectPasswordException>(() => doc = new Document(MyDir + "Encr
 // При загрузке такого документа пароль передается конструктору документа с помощью объекта LoadOptions.
 LoadOptions options = new LoadOptions("docPassword");
 
-// Есть два способа загрузки зашифрованного документа с помощью объекта LoadOptions.
+// Существует два способа загрузки зашифрованного документа с помощью объекта LoadOptions.
 // 1 - Загрузить документ из локальной файловой системы по имени файла:
 doc = new Document(MyDir + "Encrypted.docx", options);
 // 2 - Загрузить документ из потока:
 using (Stream stream = File.OpenRead(MyDir + "Encrypted.docx"))
 {
     doc = new Document(stream, options);
+}
 ```
 
 ### Смотрите также

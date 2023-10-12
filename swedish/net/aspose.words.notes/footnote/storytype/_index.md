@@ -1,14 +1,14 @@
 ---
 title: Footnote.StoryType
 second_title: Aspose.Words för .NET API Referens
-description: Footnote fast egendom. Returnerar StoryType.Fotnotes eller StoryType.Slutnotes .
+description: Footnote fast egendom. ReturnerarFootnotes ellerEndnotes .
 type: docs
 weight: 60
 url: /sv/net/aspose.words.notes/footnote/storytype/
 ---
 ## Footnote.StoryType property
 
-Returnerar **StoryType.Fotnotes** eller **StoryType.Slutnotes** .
+ReturnerarFootnotes ellerEndnotes .
 
 ```csharp
 public override StoryType StoryType { get; }

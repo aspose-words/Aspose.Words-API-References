@@ -23,7 +23,6 @@ Docx ,FlatOpc ,Docm ,Dotm ,Dotx ,Markdown ,Rtf ,WordML ,Doc ,Dot ,Odt ,Ott forma
 Montre comment avertir l'utilisateur si le chargement du document a dépassé le temps de chargement prévu.
 
 ```csharp
-[Test]
 public void ProgressCallback()
 {
     LoadingProgressCallback progressCallback = new LoadingProgressCallback();
@@ -48,7 +47,7 @@ public void ProgressCallback()
 public class LoadingProgressCallback : IDocumentLoadingCallback
 {
     /// <summary>
-    /// Ctr.
+    /// Centre.
     /// </summary>
     public LoadingProgressCallback()
     {
@@ -69,7 +68,7 @@ public class LoadingProgressCallback : IDocumentLoadingCallback
     }
 
     /// <summary>
-    /// Date et heure de démarrage du chargement du document.
+    /// Date et heure de début du chargement du document.
     /// </summary>
     private readonly DateTime mLoadingStartedAt;
 

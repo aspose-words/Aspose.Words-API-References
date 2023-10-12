@@ -1,14 +1,14 @@
 ---
 title: Interface IPageSavingCallback
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Saving.IPageSavingCallback interface. Implémentez cette interface si vous souhaitez contrôler la manière dont Aspose.Words enregistre des pages séparées lors de lenregistrement dun document dans des formats de page fixes.
+description: Aspose.Words.Saving.IPageSavingCallback interface. Implémentez cette interface si vous souhaitez contrôler la façon dont Aspose.Words enregistre des pages séparées lorsque enregistre un document dans des formats de page fixes.
 type: docs
-weight: 4920
+weight: 5180
 url: /fr/net/aspose.words.saving/ipagesavingcallback/
 ---
 ## IPageSavingCallback interface
 
-Implémentez cette interface si vous souhaitez contrôler la manière dont Aspose.Words enregistre des pages séparées lors de l'enregistrement d'un document dans des formats de page fixes.
+Implémentez cette interface si vous souhaitez contrôler la façon dont Aspose.Words enregistre des pages séparées lorsque enregistre un document dans des formats de page fixes.
 
 ```csharp
 public interface IPageSavingCallback
@@ -18,7 +18,7 @@ public interface IPageSavingCallback
 
 | Nom | La description |
 | --- | --- |
-| [PageSaving](../../aspose.words.saving/ipagesavingcallback/pagesaving/)(PageSavingArgs) | Appelé lorsque Aspose.Words enregistre une page distincte dans des formats de page fixes. |
+| [PageSaving](../../aspose.words.saving/ipagesavingcallback/pagesaving/)(PageSavingArgs) | Appelé lorsqu'Aspose.Words enregistre une page distincte dans des formats de page fixes. |
 
 ### Exemples
 
@@ -37,12 +37,12 @@ public void PageFileNames()
     builder.InsertBreak(BreakType.PageBreak);
     builder.Writeln("Page 3.");
 
-    // Crée un objet "HtmlFixedSaveOptions", que nous pouvons passer à la méthode "Save" du document
+    // Crée un objet "HtmlFixedSaveOptions", que l'on peut passer à la méthode "Save" du document
     // pour modifier la façon dont nous convertissons le document en HTML.
     HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions();
 
-    // Nous enregistrerons chaque page de ce document dans un fichier HTML séparé dans le système de fichiers local.
-    // Définir un rappel qui nous permet de nommer chaque document HTML de sortie.
+    // Nous enregistrerons chaque page de ce document dans un fichier HTML distinct dans le système de fichiers local.
+    // Définissez un rappel qui nous permet de nommer chaque document HTML de sortie.
     htmlFixedSaveOptions.PageSavingCallback = new CustomFileNamePageSavingCallback();
 
     doc.Save(ArtifactsDir + "SavingCallback.PageFileNames.html", htmlFixedSaveOptions);
@@ -63,10 +63,10 @@ private class CustomFileNamePageSavingCallback : IPageSavingCallback
         string outFileName = $"{ArtifactsDir}SavingCallback.PageFileNames.Page_{args.PageIndex}.html";
 
         // Vous trouverez ci-dessous deux façons de spécifier où Aspose.Words enregistrera chaque page du document.
-        // 1 - Définissez un nom de fichier pour le fichier de page de sortie :
+        // 1 - Définissez un nom de fichier pour le fichier d'échange de sortie :
         args.PageFileName = outFileName;
 
-        // 2 - Créez un flux personnalisé pour le fichier de page de sortie :
+        // 2 - Créez un flux personnalisé pour le fichier d'échange de sortie :
         args.PageStream = new FileStream(outFileName, FileMode.Create);
 
         Assert.False(args.KeepPageStreamOpen);

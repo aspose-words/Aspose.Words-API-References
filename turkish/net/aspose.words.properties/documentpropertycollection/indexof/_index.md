@@ -1,14 +1,14 @@
 ---
 title: DocumentPropertyCollection.IndexOf
 second_title: Aspose.Words for .NET API Referansı
-description: DocumentPropertyCollection yöntem. Ada göre bir özelliğin dizinini alır.
+description: DocumentPropertyCollection yöntem. Bir özelliğin dizinini ada göre alır.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.properties/documentpropertycollection/indexof/
 ---
 ## DocumentPropertyCollection.IndexOf method
 
-Ada göre bir özelliğin dizinini alır.
+Bir özelliğin dizinini ada göre alır.
 
 ```csharp
 public int IndexOf(string name)
@@ -16,11 +16,11 @@ public int IndexOf(string name)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| name | String | Özelliğin büyük/küçük harfe duyarsız adı. |
+| name | String | Özelliğin büyük/küçük harfe duyarlı olmayan adı. |
 
 ### Geri dönüş değeri
 
-Sıfır tabanlı dizin. Bulunamazsa negatif değer.
+Sıfır tabanlı endeks. Bulunamazsa negatif değer.
 
 ### Örnekler
 
@@ -32,7 +32,7 @@ CustomDocumentProperties properties = doc.CustomDocumentProperties;
 
 Assert.AreEqual(0, properties.Count);
 
-// Özel belge özellikleri, belgeye ekleyebileceğimiz anahtar/değer çiftleridir.
+// Özel belge özellikleri, belgeye ekleyebileceğimiz anahtar-değer çiftleridir.
 properties.Add("Authorized", true);
 properties.Add("Authorized By", "John Doe");
 properties.Add("Authorized Date", DateTime.Today);
@@ -57,23 +57,23 @@ field.Update();
 
 Assert.AreEqual("John Doe", field.Result);
 
-// Bu özel özellikleri Microsoft Word'de "Dosya" -> "Özellikler" > "Gelişmiş Özellikler" > "Gelenek".
+// Bu özel özellikleri Microsoft Word'de "Dosya" -> aracılığıyla bulabiliriz. "Özellikler" > "Gelişmiş Özellikler" > "Gelenek".
 doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
 
-// Aşağıda, bir belgeden özel özellikleri kaldırmanın veya kaldırmanın üç yolu vardır.
+// Aşağıda bir belgeden özel özellikleri kaldırmanın üç yolu bulunmaktadır.
 // 1 - Dizine göre kaldır:
 properties.RemoveAt(1);
 
 Assert.False(properties.Contains("Authorized Amount"));
 Assert.AreEqual(4, properties.Count);
 
-// 2 - Ada göre kaldır:
+// 2 - İsme göre kaldır:
 properties.Remove("Authorized Revision");
 
 Assert.False(properties.Contains("Authorized Revision"));
 Assert.AreEqual(3, properties.Count);
 
-// 3 - Tüm koleksiyonu bir kerede boşaltın:
+// 3 - Koleksiyonun tamamını bir kerede boşaltın:
 properties.Clear();
 
 Assert.AreEqual(0, properties.Count);

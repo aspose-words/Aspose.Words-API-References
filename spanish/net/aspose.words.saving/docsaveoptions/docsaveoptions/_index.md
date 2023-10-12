@@ -1,14 +1,14 @@
 ---
 title: DocSaveOptions.DocSaveOptions
 second_title: Referencia de API de Aspose.Words para .NET
-description: DocSaveOptions constructor. Inicializa una nueva instancia de esta clase que se puede usar para guardar un documento en elDoc formato.
+description: DocSaveOptions constructor. Inicializa una nueva instancia de esta clase que se puede utilizar para guardar un documento en elDoc formato.
 type: docs
 weight: 10
 url: /es/net/aspose.words.saving/docsaveoptions/docsaveoptions/
 ---
 ## DocSaveOptions() {#constructor}
 
-Inicializa una nueva instancia de esta clase que se puede usar para guardar un documento en elDoc formato.
+Inicializa una nueva instancia de esta clase que se puede utilizar para guardar un documento en elDoc formato.
 
 ```csharp
 public DocSaveOptions()
@@ -16,7 +16,7 @@ public DocSaveOptions()
 
 ### Ejemplos
 
-Muestra cómo configurar las opciones de guardado para formatos de Microsoft Word más antiguos.
+Muestra cómo configurar opciones de guardado para formatos antiguos de Microsoft Word.
 
 ```csharp
 Document doc = new Document();
@@ -25,11 +25,11 @@ builder.Write("Hello world!");
 
 DocSaveOptions options = new DocSaveOptions(SaveFormat.Doc);
 
-// Establecer una contraseña que protegerá la carga del documento por Microsoft Word o Aspose.Words.
+// Establece una contraseña que protegerá la carga del documento mediante Microsoft Word o Aspose.Words.
 // Tenga en cuenta que esto no cifra el contenido del documento de ninguna manera.
 options.Password = "MyPassword";
 
-// Si el documento contiene una hoja de enrutamiento, podemos conservarlo mientras se guarda configurando este indicador en verdadero.
+// Si el documento contiene una hoja de ruta, podemos conservarlo mientras lo guardamos estableciendo este indicador en verdadero.
 options.SaveRoutingSlip = true;
 
 doc.Save(ArtifactsDir + "DocSaveOptions.SaveAsDoc.doc", options);
@@ -54,7 +54,7 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 
 ## DocSaveOptions(SaveFormat) {#constructor_1}
 
-Inicializa una nueva instancia de esta clase que se puede usar para guardar un documento en elDoc or Dot formato.
+Inicializa una nueva instancia de esta clase que se puede utilizar para guardar un documento en elDoc o Dot formato.
 
 ```csharp
 public DocSaveOptions(SaveFormat saveFormat)
@@ -66,7 +66,7 @@ public DocSaveOptions(SaveFormat saveFormat)
 
 ### Ejemplos
 
-Muestra cómo configurar las opciones de guardado para formatos de Microsoft Word más antiguos.
+Muestra cómo configurar opciones de guardado para formatos antiguos de Microsoft Word.
 
 ```csharp
 Document doc = new Document();
@@ -75,11 +75,11 @@ builder.Write("Hello world!");
 
 DocSaveOptions options = new DocSaveOptions(SaveFormat.Doc);
 
-// Establecer una contraseña que protegerá la carga del documento por Microsoft Word o Aspose.Words.
+// Establece una contraseña que protegerá la carga del documento mediante Microsoft Word o Aspose.Words.
 // Tenga en cuenta que esto no cifra el contenido del documento de ninguna manera.
 options.Password = "MyPassword";
 
-// Si el documento contiene una hoja de enrutamiento, podemos conservarlo mientras se guarda configurando este indicador en verdadero.
+// Si el documento contiene una hoja de ruta, podemos conservarlo mientras lo guardamos estableciendo este indicador en verdadero.
 options.SaveRoutingSlip = true;
 
 doc.Save(ArtifactsDir + "DocSaveOptions.SaveAsDoc.doc", options);

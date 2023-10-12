@@ -16,21 +16,21 @@ public string PageNumberListSeparator { get; set; }
 
 ### Esempi
 
-Mostra come modificare il separatore del numero di pagina in un campo INDEX.
+Mostra come modificare il separatore del numero di pagina in un campo INDICE.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Crea un campo INDEX che visualizzerà una voce per ogni campo XE trovato nel documento.
+// Crea un campo INDICE che visualizzerà una voce per ogni campo XE trovato nel documento.
 // Ogni voce visualizzerà il valore della proprietà Text del campo XE sul lato sinistro,
 // e il numero della pagina che contiene il campo XE a destra.
 // La voce INDEX raggrupperà i campi XE con valori corrispondenti nella proprietà "Testo".
-// in una voce invece di inserire una voce per ogni campo XE.
+// in una voce invece di creare una voce per ciascun campo XE.
 FieldIndex index = (FieldIndex)builder.InsertField(FieldType.FieldIndex, true);
 
 // Se il nostro campo INDEX ha una voce per un gruppo di campi XE,
-// questa voce visualizzerà il numero di ogni pagina che contiene un campo XE che appartiene a questo gruppo.
+// questa voce visualizzerà il numero di ciascuna pagina che contiene un campo XE che appartiene a questo gruppo.
 // Possiamo impostare separatori personalizzati per personalizzare l'aspetto di questi numeri di pagina.
 index.PageNumberSeparator = ", on page(s) ";
 index.PageNumberListSeparator = " & ";
@@ -38,7 +38,7 @@ index.PageNumberListSeparator = " & ";
 Assert.AreEqual(" INDEX  \\e \", on page(s) \" \\l \" & \"", index.GetFieldCode());
 Assert.True(index.HasPageNumberSeparator);
 
-// Dopo aver inserito questi campi XE, il campo INDEX visualizzerà "First entry, on page(s) 2 & 3 & 4".
+// Dopo aver inserito questi campi XE, il campo INDICE visualizzerà "Prima voce, nelle pagine 2 e 3 e 4".
 builder.InsertBreak(BreakType.PageBreak);
 FieldXE indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "First entry";
@@ -53,6 +53,7 @@ builder.InsertBreak(BreakType.PageBreak);
 indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "First entry";
 
+doc.UpdatePageLayout();
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "Field.INDEX.XE.PageNumberList.docx");
 ```

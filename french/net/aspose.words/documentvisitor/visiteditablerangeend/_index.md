@@ -1,14 +1,14 @@
 ---
 title: DocumentVisitor.VisitEditableRangeEnd
 second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentVisitor méthode. Appelé lorsquune fin de plage modifiable est rencontrée dans le document.
+description: DocumentVisitor méthode. Appelé lorsquune fin dune plage modifiable est rencontrée dans le document.
 type: docs
 weight: 160
 url: /fr/net/aspose.words/documentvisitor/visiteditablerangeend/
 ---
 ## DocumentVisitor.VisitEditableRangeEnd method
 
-Appelé lorsqu'une fin de plage modifiable est rencontrée dans le document.
+Appelé lorsqu'une fin d'une plage modifiable est rencontrée dans le document.
 
 ```csharp
 public virtual VisitorAction VisitEditableRangeEnd(EditableRangeEnd editableRangeEnd)
@@ -16,11 +16,11 @@ public virtual VisitorAction VisitEditableRangeEnd(EditableRangeEnd editableRang
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| editableRangeEnd | EditableRangeEnd | L'objet visité. |
+| editableRangeEnd | EditableRangeEnd | L'objet qui est visité. |
 
 ### Return_Value
 
-UN[`VisitorAction`](../../visitoraction/) valeur qui spécifie comment poursuivre l'énumération.
+UN[`VisitorAction`](../../visitoraction/) valeur qui spécifie comment continuer l’énumération.
 
 ### Exemples
 
@@ -32,8 +32,8 @@ public void EditableRangeToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     EditableRangeStructurePrinter visitor = new EditableRangeStructurePrinter();
 
-    // Lorsque nous obtenons un nœud composite pour accepter un visiteur de document, le visiteur visite le nœud acceptant,
-    // puis parcourt tous les enfants du nœud en profondeur d'abord.
+    // Lorsque nous obtenons qu'un nœud composite accepte un visiteur de document, le visiteur visite le nœud accepteur,
+    // puis parcourt tous les enfants du nœud en profondeur.
     // Le visiteur peut lire et modifier chaque nœud visité.
     doc.Accept(visitor);
 
@@ -53,7 +53,7 @@ public class EditableRangeStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Obtient le texte brut du document qui a été accumulé par le visiteur.
+    /// Obtient le texte brut du document accumulé par le visiteur.
     /// </summary>
     public string GetText()
     {
@@ -61,11 +61,11 @@ public class EditableRangeStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Appelé lorsqu'un noeud Run est rencontré dans le document.
+    /// Appelé lorsqu'un nœud Run est rencontré dans le document.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
-        // Nous voulons imprimer le contenu des exécutions, mais seulement s'ils sont à l'intérieur des formes, comme ils le seraient dans le cas des zones de texte
+        // Nous voulons imprimer le contenu des passages, mais seulement s'ils se trouvent à l'intérieur de formes, comme ce serait le cas dans le cas de zones de texte
         if (mVisitorIsInsideEditableRange) IndentAndAppendLine("[Run] \"" + run.GetText() + "\"");
 
         return VisitorAction.Continue;
@@ -99,7 +99,7 @@ public class EditableRangeStructurePrinter : DocumentVisitor
     /// <summary>
     /// Ajoutez une ligne au StringBuilder et indentez-la en fonction de la profondeur du visiteur dans l'arborescence du document.
     /// </summary>
-    /// <nom du paramètre="texte"></param>
+    /// <param name="text"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++) mBuilder.Append("|  ");

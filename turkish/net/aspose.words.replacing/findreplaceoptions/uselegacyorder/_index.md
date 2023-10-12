@@ -1,14 +1,14 @@
 ---
 title: FindReplaceOptions.UseLegacyOrder
 second_title: Aspose.Words for .NET API Referansı
-description: FindReplaceOptions mülk. True bir metin aramasının metin kutuları dikkate alınarak yukarıdan aşağıya sırayla gerçekleştirildiğini belirtir. Varsayılan değer falsedir.
+description: FindReplaceOptions mülk. True metin kutuları dikkate alınarak yukarıdan aşağıya doğru sırayla metin araması yapıldığını belirtir. Varsayılan değerYANLIŞ .
 type: docs
-weight: 150
+weight: 170
 url: /tr/net/aspose.words.replacing/findreplaceoptions/uselegacyorder/
 ---
 ## FindReplaceOptions.UseLegacyOrder property
 
-True, bir metin aramasının metin kutuları dikkate alınarak yukarıdan aşağıya sırayla gerçekleştirildiğini belirtir. Varsayılan değer false'dir.
+True, metin kutuları dikkate alınarak yukarıdan aşağıya doğru sırayla metin araması yapıldığını belirtir. Varsayılan değer:`YANLIŞ` .
 
 ```csharp
 public bool UseLegacyOrder { get; set; }
@@ -16,18 +16,16 @@ public bool UseLegacyOrder { get; set; }
 
 ### Örnekler
 
-Metin bul ve değiştir işlemi gerçekleştirirken düğümlerin arama sırasının nasıl değiştirileceğini gösterir.
+Metin bul ve değiştir işlemi gerçekleştirilirken düğümlerin arama sırasının nasıl değiştirileceğini gösterir.
 
 ```csharp
-[TestCase(true)] // ExAtla
-[TestCase(false)] // ExAtla
 public void UseLegacyOrder(bool useLegacyOrder)
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Normal ifade kalıbı kullanarak arayabileceğimiz üç çalıştırma ekleyin.
-    // Bu çalıştırmalardan birini bir metin kutusuna yerleştirin.
+    // Bir regex modeli kullanarak arayabileceğimiz üç çalıştırmayı ekleyin.
+    // Bu işlemlerden birini bir metin kutusunun içine yerleştirin.
     builder.Writeln("[tag 1]");
     Shape textBox = builder.InsertShape(ShapeType.TextBox, 100, 50);
     builder.Writeln("[tag 2]");
@@ -37,15 +35,15 @@ public void UseLegacyOrder(bool useLegacyOrder)
     // Bul ve değiştir işlemini değiştirmek için bir "FindReplaceOptions" nesnesi kullanabiliriz.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // "ReplacecingCallback" özelliğine özel bir geri arama atayın.
+    // "ReplacingCallback" özelliğine özel bir geri arama atayın.
     TextReplacementTracker callback = new TextReplacementTracker();
     options.ReplacingCallback = callback;
 
     // "UseLegacyOrder" özelliğini "true" olarak ayarlarsak,
-    // bul ve değiştir işlemi, bir metin kutusunun dışındaki tüm çalıştırmalardan geçecek
-    // bir metin kutusu içindekilerden geçmeden önce.
+    // bul ve değiştir işlemi bir metin kutusunun dışındaki tüm işlemleri gerçekleştirecektir
+    // metin kutusunun içindekilere geçmeden önce.
     // "UseLegacyOrder" özelliğini "false" olarak ayarlarsak,
-    // bul ve değiştir işlemi, bir aralıktaki tüm çalıştırmaları sıralı olarak gözden geçirecektir.
+    // bul ve değiştir işlemi, bir aralıktaki tüm işlemleri sıralı bir şekilde gerçekleştirecektir.
     options.UseLegacyOrder = useLegacyOrder;
 
     doc.Range.Replace(new Regex(@"\[tag \d*\]"), "", options);
@@ -56,7 +54,7 @@ public void UseLegacyOrder(bool useLegacyOrder)
 }
 
 /// <summary>
-/// Bul ve değiştir işlemi sırasında oluşan tüm eşleşmelerin sırasını kaydeder.
+/// Bul ve değiştir işlemi sırasında meydana gelen tüm eşleşmelerin sırasını kaydeder.
 /// </summary>
 private class TextReplacementTracker : IReplacingCallback
 {

@@ -3,7 +3,7 @@ title: Interface IFieldUpdateCultureProvider
 second_title: Справочник по API Aspose.Words для .NET
 description: Aspose.Words.Fields.IFieldUpdateCultureProvider интерфейс. При реализации предоставляетCultureInfo объект который следует использовать при обновлении определенного поля.
 type: docs
-weight: 2540
+weight: 2710
 url: /ru/net/aspose.words.fields/ifieldupdatecultureprovider/
 ---
 ## IFieldUpdateCultureProvider interface
@@ -18,14 +18,13 @@ public interface IFieldUpdateCultureProvider
 
 | Имя | Описание |
 | --- | --- |
-| [GetCulture](../../aspose.words.fields/ifieldupdatecultureprovider/getculture/)(string, Field) | ВозвращаетCultureInfo объект, который будет использоваться во время обновления поля. |
+| [GetCulture](../../aspose.words.fields/ifieldupdatecultureprovider/getculture/)(string, Field) | ВозвращаетCultureInfoобъект, который будет использоваться во время обновления поля. |
 
 ### Примеры
 
 Показывает, как указать язык и региональные параметры, которые анализируют форматирование даты и времени для каждого поля.
 
 ```csharp
-[Test]
 public void DefineDateTimeFormatting()
 {
     Document doc = new Document();
@@ -35,7 +34,7 @@ public void DefineDateTimeFormatting()
 
     doc.FieldOptions.FieldUpdateCultureSource = FieldUpdateCultureSource.FieldCode;
 
-    // Установить провайдера, который возвращает объект культуры для каждого поля.
+    // Установите поставщика, который возвращает объект культуры, специфичный для каждого поля.
     doc.FieldOptions.FieldUpdateCultureProvider = new FieldUpdateCultureProvider();
 
     FieldTime fieldDate = (FieldTime)doc.Range.Fields[0];

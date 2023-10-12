@@ -1,14 +1,14 @@
 ---
 title: ChartDataLabel.ShowSeriesName
 second_title: Aspose.Words för .NET API Referens
-description: ChartDataLabel fast egendom. Returnerar eller ställer in en boolesk för att indikera visningsbeteendet för serienamnet för dataetiketterna i ett diagram. Sant för att visa serienamnet. Falskt att dölja. Som standard false.
+description: ChartDataLabel fast egendom. Returnerar eller ställer in en boolesk för att indikera visningsbeteendet för serienamnet för dataetiketterna i ett diagram. Sann för att visa serienamnetfalsk att gömma. Som standardfalsk .
 type: docs
-weight: 120
+weight: 140
 url: /sv/net/aspose.words.drawing.charts/chartdatalabel/showseriesname/
 ---
 ## ChartDataLabel.ShowSeriesName property
 
-Returnerar eller ställer in en boolesk för att indikera visningsbeteendet för serienamnet för dataetiketterna i ett diagram. Sant för att visa serienamnet. Falskt att dölja. Som standard false.
+Returnerar eller ställer in en boolesk för att indikera visningsbeteendet för serienamnet för dataetiketterna i ett diagram. `Sann` för att visa serienamnet;`falsk` att gömma. Som standard`falsk` .
 
 ```csharp
 public bool ShowSeriesName { get; set; }
@@ -19,6 +19,7 @@ public bool ShowSeriesName { get; set; }
 Visar hur man applicerar etiketter på datapunkter i ett linjediagram.
 
 ```csharp
+public void DataLabels()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);

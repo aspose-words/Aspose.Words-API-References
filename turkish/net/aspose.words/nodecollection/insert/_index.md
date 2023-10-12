@@ -16,26 +16,24 @@ public void Insert(int index, Node node)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| index | Int32 | Düğümün sıfır tabanlı dizini. Negatif dizinlere izin verilir ve listenin arkasından erişimi gösterir. Örneğin -1 son düğüm anlamına gelir, -2 sondan önceki ikinci anlamına gelir vb. |
+| index | Int32 | Düğümün sıfır tabanlı dizini. Negatif dizinlere izin verilir ve listenin arkasından erişimi belirtir. Örneğin -1 son düğüm anlamına gelir, -2 sondan önceki ikinci anlamına gelir ve bu şekilde devam eder. |
 | node | Node | Eklenecek düğüm. |
 
 ### istisnalar
 
 | istisna | şart |
 | --- | --- |
-| NotSupportedException | bu **Düğüm Koleksiyonu** "derin" bir koleksiyondur. |
+| NotSupportedException | [`NodeCollection`](../) "derin" bir koleksiyondur. |
 
 ### Notlar
 
 Düğüm, koleksiyonun oluşturulduğu düğüm nesnesine alt öğe olarak eklenir.
 
-Dizin Sayıya eşit veya daha büyükse, düğüm koleksiyonun sonuna eklenir.
+Endeksin eşit veya büyük olması durumunda[`Count`](../count/)düğüm koleksiyonun sonuna eklenir.
 
-İndeks negatifse ve mutlak değeri Count'tan büyükse, düğüm koleksiyonun sonuna eklenir.
+Endeks negatifse ve mutlak değeri şundan büyükse:[`Count`](../count/)düğüm koleksiyonun sonuna eklenir.
 
-newChild zaten ağaçtaysa, önce kaldırılır.
-
-Eklenen düğüm başka bir belgeden oluşturulmuşsa, kullanmanız gerekir.[`ImportNode`](../../documentbase/importnode/) düğümü geçerli belgeye aktarmak için. Alınan düğüm daha sonra geçerli belgeye eklenebilir.
+Eklenen düğüm başka bir belgeden oluşturulmuşsa kullanmalısınız[`ImportNode`](../../documentbase/importnode/) Düğümü geçerli belgeye aktarmak için. İçe aktarılan düğüm daha sonra geçerli belgeye eklenebilir.
 
 ### Örnekler
 
@@ -49,20 +47,20 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Write("Run 1. ");
 builder.Write("Run 2. ");
 
-// "Write" yönteminin her çağrısı yeni bir Run oluşturur,
-// daha sonra üst Paragrafın RunCollection'ında görünür.
+// "Write" yönteminin her çağrılması yeni bir Çalıştırma oluşturur,
+// bu daha sonra ana Paragrafın RunCollection'ında görünür.
 RunCollection runs = doc.FirstSection.Body.FirstParagraph.Runs;
 
 Assert.AreEqual(2, runs.Count);
 
-// RunCollection'a manuel olarak da bir düğüm ekleyebiliriz.
+// RunCollection'a manuel olarak da düğüm ekleyebiliriz.
 Run newRun = new Run(doc, "Run 3. ");
 runs.Insert(3, newRun);
 
 Assert.True(runs.Contains(newRun));
 Assert.AreEqual("Run 1. Run 2. Run 3.", doc.GetText().Trim());
 
-// Tek tek çalıştırmalara erişin ve metinlerini belgeden kaldırmak için bunları kaldırın.
+// Metinlerini belgeden kaldırmak için bireysel çalıştırmalara erişin ve bunları kaldırın.
 Run run = runs[1];
 runs.Remove(run);
 

@@ -1,14 +1,14 @@
 ---
 title: PdfDigitalSignatureDetails.CertificateHolder
 second_title: Справочник по API Aspose.Words для .NET
-description: PdfDigitalSignatureDetails свойство. Возвращает объект держателя сертификата содержащий сертификат который использовался для подписи документа.
+description: PdfDigitalSignatureDetails свойство. Возвращает объект владельца сертификата содержащий сертификат использованный для подписи документа.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.saving/pdfdigitalsignaturedetails/certificateholder/
 ---
 ## PdfDigitalSignatureDetails.CertificateHolder property
 
-Возвращает объект держателя сертификата, содержащий сертификат, который использовался для подписи документа.
+Возвращает объект владельца сертификата, содержащий сертификат, использованный для подписи документа.
 
 ```csharp
 public CertificateHolder CertificateHolder { get; set; }

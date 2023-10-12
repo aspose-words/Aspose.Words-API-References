@@ -1,14 +1,14 @@
 ---
 title: Table.StyleName
 second_title: Aspose.Words for .NET API 参考
-description: Table 财产. 获取或设置应用于此表格的表格样式名称
+description: Table 财产. 获取或设置应用于此表的表格样式的名称
 type: docs
 weight: 290
 url: /zh/net/aspose.words.tables/table/stylename/
 ---
 ## Table.StyleName property
 
-获取或设置应用于此表格的表格样式名称。
+获取或设置应用于此表的表格样式的名称。
 
 ```csharp
 public string StyleName { get; set; }
@@ -16,7 +16,7 @@ public string StyleName { get; set; }
 
 ### 例子
 
-显示如何为表格创建自定义样式设置。
+演示如何为表格创建自定义样式设置。
 
 ```csharp
 Document doc = new Document();

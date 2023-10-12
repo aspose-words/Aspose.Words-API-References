@@ -1,14 +1,16 @@
 ---
 title: Class SdtListItem
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Markup.SdtListItem classe. Cet élément spécifie un seul élément de liste dans un parentComboBox ouDropDownList balise de document structuré.
+description: Aspose.Words.Markup.SdtListItem classe. Cet élément spécifie un seul élément de liste au sein dun parentComboBox ouDropDownList balise de document structuré.
 type: docs
-weight: 3780
+weight: 4020
 url: /fr/net/aspose.words.markup/sdtlistitem/
 ---
 ## SdtListItem class
 
-Cet élément spécifie un seul élément de liste dans un parentComboBox ouDropDownList balise de document structuré.
+Cet élément spécifie un seul élément de liste au sein d'un parentComboBox ouDropDownList balise de document structuré.
+
+Pour en savoir plus, visitez le[Balises de documents structurés ou contrôle de contenu](https://docs.aspose.com/words/net/working-with-content-control-sdt/) article documentaire.
 
 ```csharp
 public class SdtListItem
@@ -25,19 +27,19 @@ public class SdtListItem
 
 | Nom | La description |
 | --- | --- |
-| [DisplayText](../../aspose.words.markup/sdtlistitem/displaytext/) { get; } | Obtient le texte à afficher dans le contenu d'exécution à la place du[`Value`](./value/) contenu d'attribut pour cet élément de liste. |
+| [DisplayText](../../aspose.words.markup/sdtlistitem/displaytext/) { get; } | Obtient le texte à afficher dans le contenu de l'exécution à la place du[`Value`](./value/) contenu de l'attribut pour cet élément de liste. |
 | [Value](../../aspose.words.markup/sdtlistitem/value/) { get; } | Obtient la valeur de cet élément de liste. |
 
 ### Exemples
 
-Montre comment travailler avec des balises de document structurées en liste déroulante.
+Montre comment utiliser les balises de documents structurés à liste déroulante.
 
 ```csharp
 Document doc = new Document();
 StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.DropDownList, MarkupLevel.Block);
 doc.FirstSection.Body.AppendChild(tag);
 
-// Une balise de document structurée par liste déroulante est un formulaire qui permet à l'utilisateur de
+// Une balise de document structuré par liste déroulante est un formulaire qui permet à l'utilisateur de
 // sélectionnez une option dans une liste en cliquant avec le bouton gauche et en ouvrant le formulaire dans Microsoft Word.
 // La propriété "ListItems" contient tous les éléments de la liste, et chaque élément de la liste est un "SdtListItem".
 SdtListItemCollection listItems = tag.ListItems;
@@ -45,8 +47,8 @@ listItems.Add(new SdtListItem("Value 1"));
 
 Assert.AreEqual(listItems[0].DisplayText, listItems[0].Value);
 
-// Ajouter 3 autres éléments de liste. Initialisez ces éléments en utilisant un constructeur différent du premier élément
-// pour afficher les chaînes qui sont différentes de leurs valeurs.
+// Ajoute 3 éléments de liste supplémentaires. Initialisez ces éléments en utilisant un constructeur différent du premier élément
+// pour afficher les chaînes différentes de leurs valeurs.
 listItems.Add(new SdtListItem("Item 2", "Value 2"));
 listItems.Add(new SdtListItem("Item 3", "Value 3"));
 listItems.Add(new SdtListItem("Item 4", "Value 4"));
@@ -71,12 +73,12 @@ listItems.RemoveAt(3);
 
 Assert.AreEqual(3, listItems.Count);
 
-// Étant donné que notre contrôle déroulant est configuré pour afficher l'élément supprimé par défaut, donnez-lui un élément à afficher qui existe.
+// Puisque notre contrôle déroulant est configuré pour afficher l'élément supprimé par défaut, donnez-lui un élément à afficher qui existe.
 listItems.SelectedValue = listItems[1];
 
 doc.Save(ArtifactsDir + "StructuredDocumentTag.ListItemCollection.docx");
 
-// Utilisez la méthode "Clear" pour vider d'un coup toute la collection d'éléments déroulants.
+// Utilisez la méthode "Clear" pour vider toute la collection d'éléments déroulants en une seule fois.
 listItems.Clear();
 
 Assert.AreEqual(0, listItems.Count);

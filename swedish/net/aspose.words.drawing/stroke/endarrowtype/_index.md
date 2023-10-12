@@ -3,7 +3,7 @@ title: Stroke.EndArrowType
 second_title: Aspose.Words för .NET API Referens
 description: Stroke fast egendom. Definierar pilspetsen för slutet av ett streck.
 type: docs
-weight: 60
+weight: 70
 url: /sv/net/aspose.words.drawing/stroke/endarrowtype/
 ---
 ## Stroke.EndArrowType property

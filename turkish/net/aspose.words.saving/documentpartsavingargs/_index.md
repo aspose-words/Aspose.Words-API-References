@@ -1,14 +1,16 @@
 ---
 title: Class DocumentPartSavingArgs
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Saving.DocumentPartSavingArgs sınıf. için veri sağlarDocumentPartSaving geri arama.
+description: Aspose.Words.Saving.DocumentPartSavingArgs sınıf. Şunun için veri sağlarDocumentPartSaving geri arama.
 type: docs
-weight: 4680
+weight: 4940
 url: /tr/net/aspose.words.saving/documentpartsavingargs/
 ---
 ## DocumentPartSavingArgs class
 
-için veri sağlar[`DocumentPartSaving`](../idocumentpartsavingcallback/documentpartsaving/) geri arama.
+Şunun için veri sağlar:[`DocumentPartSaving`](../idocumentpartsavingcallback/documentpartsaving/) geri arama.
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Bir Belgeyi Kaydet](https://docs.aspose.com/words/net/save-a-document/) dokümantasyon makalesi.
 
 ```csharp
 public class DocumentPartSavingArgs
@@ -21,15 +23,15 @@ public class DocumentPartSavingArgs
 | [Document](../../aspose.words.saving/documentpartsavingargs/document/) { get; } | Kaydedilen belge nesnesini alır. |
 | [DocumentPartFileName](../../aspose.words.saving/documentpartsavingargs/documentpartfilename/) { get; set; } | Belge bölümünün kaydedileceği dosya adını (yol olmadan) alır veya ayarlar. |
 | [DocumentPartStream](../../aspose.words.saving/documentpartsavingargs/documentpartstream/) { get; set; } | Belge bölümünün kaydedileceği akışı belirtmeye izin verir. |
-| [KeepDocumentPartStreamOpen](../../aspose.words.saving/documentpartsavingargs/keepdocumentpartstreamopen/) { get; set; } | Aspose.Words'ün bir belge bölümünü kaydettikten sonra akışı açık tutması mı yoksa kapatması mı gerektiğini belirtir. |
+| [KeepDocumentPartStreamOpen](../../aspose.words.saving/documentpartsavingargs/keepdocumentpartstreamopen/) { get; set; } | Aspose.Words'ün belge bölümünü kaydettikten sonra akışı açık mı tutması yoksa kapatması mı gerektiğini belirtir. |
 
 ### Notlar
 
-Aspose.Words bir belgeyi HTML veya ilgili formatlara kaydettiğinde ve[`DocumentSplitCriteria`](../htmlsaveoptions/documentsplitcriteria/) belirtilir, belge parçalara ayrılır ve varsayılan olarak her belge bölümü ayrı bir dosyaya kaydedilir.
+Aspose.Words bir belgeyi HTML'ye veya ilgili formatlara kaydettiğinde ve[`DocumentSplitCriteria`](../htmlsaveoptions/documentsplitcriteria/) belirtilir, belge parçalara bölünür ve varsayılan olarak her belge bölümü ayrı bir dosyaya kaydedilir.
 
-Sınıf`DocumentPartSavingArgs` her belge bölümünün nasıl kaydedileceğini kontrol etmenizi sağlar. Dosya adlarının nasıl oluşturulacağını yeniden tanımlamanıza veya kendi akış nesnelerinizi sağlayarak belge bölümlerinin dosyalarına kaydedilmesini tamamen engellemenize olanak tanır.
+Sınıf`DocumentPartSavingArgs` her belge bölümünün nasıl kaydedileceğini kontrol etmenizi sağlar. Dosya adlarının nasıl oluşturulduğunu yeniden tanımlamanıza veya kendi akış nesnelerinizi sağlayarak belge parçalarının dosyalarına kaydedilmesini tamamen engellemenize olanak tanır.
 
-Belge parçalarını dosyalar yerine akışlara kaydetmek için[`DocumentPartStream`](./documentpartstream/) Emlak.
+Belge bölümlerini dosyalar yerine akışlara kaydetmek için[`DocumentPartStream`](./documentpartstream/) mülk.
 
 ### Örnekler
 
@@ -41,29 +43,29 @@ public void DocumentPartsFileNames()
     Document doc = new Document(MyDir + "Rendering.docx");
     string outFileName = "SavingCallback.DocumentPartsFileNames.html";
 
-    // Belgenin "Kaydet" yöntemine aktarabileceğimiz bir "HtmlFixedSaveOptions" nesnesi oluşturun
+    // Belgenin "Save" yöntemine aktarabileceğimiz bir "HtmlFixedSaveOptions" nesnesi oluşturun
     // belgeyi HTML'ye nasıl dönüştüreceğimizi değiştirmek için.
     HtmlSaveOptions options = new HtmlSaveOptions();
 
-    // Belgeyi normal bir şekilde kaydedersek, bir çıktı HTML olacaktır
-    // tüm kaynak belgenin içeriğini içeren belge.
-    // "DocumentSplitCriteria" özelliğini "DocumentSplitCriteria.SectionBreak" olarak ayarlayın.
-    // belgemizi birden çok HTML dosyasına kaydedin: her bölüm için bir tane.
+    // Belgeyi normal şekilde kaydedersek tek bir çıktı HTML'si olacaktır
+    // kaynak belgenin tüm içeriğini içeren belge.
+    // "DocumentSplitCriteria" özelliğini "DocumentSplitCriteria.SectionBreak" olarak ayarlayın
+    // belgemizi birden fazla HTML dosyasına kaydedin: her bölüm için bir tane.
     options.DocumentSplitCriteria = DocumentSplitCriteria.SectionBreak;
 
-    // Belge parçası kaydetme mantığını değiştirmek için "DocumentPartSavingCallback" özelliğine özel bir geri arama atayın.
+    // Belge bölümü kaydetme mantığını değiştirmek için "DocumentPartSavingCallback" özelliğine özel bir geri çağırma atayın.
     options.DocumentPartSavingCallback = new SavedDocumentPartRename(outFileName, options.DocumentSplitCriteria);
 
-    // Görüntü içeren bir belgeyi html'ye dönüştürürsek, birkaç görüntüye bağlanan bir html dosyası elde ederiz.
+    // Eğer görseller içeren bir belgeyi html'ye dönüştürürsek, birden fazla görsele bağlantı veren bir html dosyası elde ederiz.
     // Her görüntü yerel dosya sisteminde bir dosya biçiminde olacaktır.
-    // Her görüntünün adını ve dosya sistemi konumunu özelleştirebilen bir geri arama da vardır.
+    // Her görüntünün adını ve dosya sistemi konumunu özelleştirebilen bir geri çağırma da vardır.
     options.ImageSavingCallback = new SavedImageRename(outFileName);
 
     doc.Save(ArtifactsDir + outFileName, options);
 }
 
 /// <summary>
-/// Kaydetme işleminin bir belgeyi böldüğü çıktı belgeleri için özel dosya adları ayarlar.
+/// Kaydetme işleminin bir belgeyi böldüğü çıktı belgeleri için özel dosya adlarını ayarlar.
 /// </summary>
 private class SavedDocumentPartRename : IDocumentPartSavingCallback
 {
@@ -75,7 +77,7 @@ private class SavedDocumentPartRename : IDocumentPartSavingCallback
 
     void IDocumentPartSavingCallback.DocumentPartSaving(DocumentPartSavingArgs args)
     {
-        // "Document" özelliği ile kaynak belgenin tamamına erişebiliriz.
+        // Kaynak belgenin tamamına "Belge" özelliği aracılığıyla erişebiliriz.
         Assert.True(args.Document.OriginalFileName.EndsWith("Rendering.docx"));
 
         string partType = string.Empty;
@@ -98,8 +100,8 @@ private class SavedDocumentPartRename : IDocumentPartSavingCallback
 
         string partFileName = $"{mOutFileName} part {++mCount}, of type {partType}{Path.GetExtension(args.DocumentPartFileName)}";
 
-        // Aspose.Words'ün belgenin her bir bölümünü nereye kaydedeceğini belirlemenin iki yolu aşağıdadır.
-        // 1 - Çıktı parça dosyası için bir dosya adı belirleyin:
+        // Aspose.Words'ün belgenin her bölümünü nereye kaydedeceğini belirlemenin iki yolu aşağıda verilmiştir.
+        // 1 - Çıktı parçası dosyası için bir dosya adı belirleyin:
         args.DocumentPartFileName = partFileName;
 
         // 2 - Çıktı parça dosyası için özel bir akış oluşturun:
@@ -115,7 +117,7 @@ private class SavedDocumentPartRename : IDocumentPartSavingCallback
 }
 
 /// <summary>
-/// Bir HTML dönüşümünün oluşturduğu görüntü dosyaları için özel dosya adları ayarlar.
+/// HTML dönüştürmesinin oluşturduğu görüntü dosyaları için özel dosya adlarını ayarlar.
 /// </summary>
 public class SavedImageRename : IImageSavingCallback
 {
@@ -128,7 +130,7 @@ public class SavedImageRename : IImageSavingCallback
     {
         string imageFileName = $"{mOutFileName} shape {++mCount}, of type {args.CurrentShape.ShapeType}{Path.GetExtension(args.ImageFileName)}";
 
-        // Aspose.Words'ün belgenin her bir bölümünü nereye kaydedeceğini belirlemenin iki yolu aşağıdadır.
+        // Aspose.Words'ün belgenin her bölümünü nereye kaydedeceğini belirlemenin iki yolu aşağıda verilmiştir.
         // 1 - Çıktı görüntü dosyası için bir dosya adı belirleyin:
         args.ImageFileName = imageFileName;
 

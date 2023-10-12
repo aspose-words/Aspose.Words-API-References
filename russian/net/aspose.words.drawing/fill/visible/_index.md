@@ -1,14 +1,14 @@
 ---
 title: Fill.Visible
 second_title: Справочник по API Aspose.Words для .NET
-description: Fill свойство. Получает или задает значение котороеистинный если форматирование примененное к этому экземпляру видимо.
+description: Fill свойство. Получает или задает значениеистинный если форматирование примененное к этому экземпляру видимо.
 type: docs
-weight: 150
+weight: 210
 url: /ru/net/aspose.words.drawing/fill/visible/
 ---
 ## Fill.Visible property
 
-Получает или задает значение, которое`истинный` если форматирование, примененное к этому экземпляру, видимо.
+Получает или задает значение,`истинный` если форматирование, примененное к этому экземпляру, видимо.
 
 ```csharp
 public bool Visible { get; set; }
@@ -16,14 +16,14 @@ public bool Visible { get; set; }
 
 ### Примеры
 
-Показывает создание различных фигур.
+Показывает создание разнообразных фигур.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Ниже приведены четыре примера фигур, которые мы можем вставить в наши документы.
-// 1 - Пунктирная, горизонтальная, полупрозрачная красная линия
+// 1 - Пунктирная горизонтальная полупрозрачная красная линия
 // со стрелкой на левом конце и ромбом на правом конце:
 Shape arrow = new Shape(doc, ShapeType.Line);
 arrow.Width = 200;
@@ -61,7 +61,7 @@ filledInArrow.Fill.Visible = true;
 
 builder.InsertNode(filledInArrow);
 
-// 4 - Стрелка с перевернутой ориентацией, заполненная логотипом Aspose:
+// 4 — Стрелка с перевернутой ориентацией, заполненная логотипом Aspose:
 Shape filledInArrowImg = new Shape(doc, ShapeType.Arrow);
 filledInArrowImg.Width = 200;
 filledInArrowImg.Height = 40;
@@ -73,8 +73,8 @@ byte[] imageBytes = File.ReadAllBytes(ImageDir + "Logo.jpg");
 using (MemoryStream stream = new MemoryStream(imageBytes))
 {
     Image image = Image.FromStream(stream);
-    // Когда мы меняем ориентацию нашей стрелки, мы также меняем изображение, которое содержит стрелка.
-    // Переверните изображение другим способом, чтобы отменить это, прежде чем получить форму для его отображения.
+    // Когда мы меняем ориентацию нашей стрелки, мы также переворачиваем изображение, которое содержит стрелка.
+    // Переверните изображение в другую сторону, чтобы отменить это, прежде чем получить форму для его отображения.
     image.RotateFlip(RotateFlipType.RotateNoneFlipXY);
 
     filledInArrowImg.ImageData.SetImage(image);

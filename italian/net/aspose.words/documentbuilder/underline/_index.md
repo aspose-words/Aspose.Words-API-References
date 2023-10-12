@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.Underline
 second_title: Aspose.Words per .NET API Reference
-description: DocumentBuilder proprietà. Ottiene/imposta il tipo di sottolineatura per il font corrente.
+description: DocumentBuilder proprietà. Ottiene/imposta il tipo di sottolineatura per il carattere corrente.
 type: docs
-weight: 170
+weight: 190
 url: /it/net/aspose.words/documentbuilder/underline/
 ---
 ## DocumentBuilder.Underline property
 
-Ottiene/imposta il tipo di sottolineatura per il font corrente.
+Ottiene/imposta il tipo di sottolineatura per il carattere corrente.
 
 ```csharp
 public Underline Underline { get; set; }
@@ -26,7 +26,7 @@ builder.Underline = Underline.Dash;
 builder.Font.Color = Color.Blue;
 builder.Font.Size = 32;
 
-// Il builder applica la formattazione al paragrafo corrente ea qualsiasi nuovo testo da esso aggiunto in seguito.
+// Il builder applica la formattazione al paragrafo corrente e a qualsiasi nuovo testo aggiunto in seguito.
 builder.Writeln("Large, blue, and underlined text.");
 
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertUnderline.docx");

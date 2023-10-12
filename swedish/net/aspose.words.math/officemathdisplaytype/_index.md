@@ -3,7 +3,7 @@ title: Enum OfficeMathDisplayType
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Math.OfficeMathDisplayType uppräkning. Anger visningsformattypen för ekvationen.
 type: docs
-weight: 3890
+weight: 4130
 url: /sv/net/aspose.words.math/officemathdisplaytype/
 ---
 ## OfficeMathDisplayType enumeration
@@ -35,9 +35,6 @@ OfficeMath officeMath = (OfficeMath) doc.GetChild(NodeType.OfficeMath, 0, true);
 Assert.AreEqual(MathObjectType.OMathPara, officeMath.MathObjectType);
 Assert.AreEqual(NodeType.OfficeMath, officeMath.NodeType);
 Assert.AreEqual(officeMath.ParentNode, officeMath.ParentParagraph);
-
-// OOXML- och WML-format använder egenskapen "EquationXmlEncoding".
-Assert.IsNull(officeMath.EquationXmlEncoding);
 
 // Ändra plats och visningstyp för OfficeMath-noden.
 officeMath.DisplayType = OfficeMathDisplayType.Display;

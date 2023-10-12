@@ -1,14 +1,14 @@
 ---
 title: CellFormat.SetPaddings
 second_title: Aspose.Words für .NET-API-Referenz
-description: CellFormat methode. Legt den Abstand in Punkten fest der links/oben/rechts/unten vom Inhalt der Zelle hinzugefügt werden soll.
+description: CellFormat methode. Legt die Menge an Platz in Punkten fest die links/oben/rechts/unten zum Inhalt der Zelle hinzugefügt werden soll.
 type: docs
-weight: 160
+weight: 170
 url: /de/net/aspose.words.tables/cellformat/setpaddings/
 ---
 ## CellFormat.SetPaddings method
 
-Legt den Abstand (in Punkten) fest, der links/oben/rechts/unten vom Inhalt der Zelle hinzugefügt werden soll.
+Legt die Menge an Platz (in Punkten) fest, die links/oben/rechts/unten zum Inhalt der Zelle hinzugefügt werden soll.
 
 ```csharp
 public void SetPaddings(double leftPadding, double topPadding, double rightPadding, 
@@ -23,8 +23,8 @@ Zeigt, wie der Inhalt einer Zelle mit Leerzeichen aufgefüllt wird.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Legen Sie einen Abstand (in Punkten) zwischen dem Rahmen und dem Textinhalt fest
-// jeder Tabellenzelle, die wir mit dem Document Builder erstellen. 
+// Legen Sie einen Füllabstand (in Punkten) zwischen dem Rahmen und dem Textinhalt fest
+ // jeder Tabellenzelle, die wir mit dem Document Builder erstellen.
 builder.CellFormat.SetPaddings(5, 10, 40, 50);
 
 // Erstellen Sie eine Tabelle mit einer Zelle, deren Inhalt mit Leerzeichen aufgefüllt wird.

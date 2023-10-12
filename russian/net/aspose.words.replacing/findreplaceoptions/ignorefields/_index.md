@@ -16,7 +16,7 @@ public bool IgnoreFields { get; set; }
 
 ### Примечания
 
-Эта опция влияет на все поле (все узлы между FieldStart а такжеFieldEnd).
+Эта опция влияет на все поле (все узлы между FieldStart иFieldEnd).
 
 Чтобы игнорировать только коды полей, используйте соответствующую опцию[`IgnoreFieldCodes`](../ignorefieldcodes/).
 
@@ -31,13 +31,13 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 builder.InsertField("QUOTE", "Hello again!");
 
-// Мы можем использовать объект «FindReplaceOptions», чтобы изменить процесс поиска и замены.
+// Мы можем использовать объект «FindReplaceOptions» для изменения процесса поиска и замены.
 FindReplaceOptions options = new FindReplaceOptions();
 
-// Установите для флага «IgnoreFields» значение «true», чтобы получить функцию поиска и замены
-// операция для игнорирования текста внутри полей.
-// Установите флаг «IgnoreFields» в «false», чтобы получить функцию поиска и замены
-// операция также для поиска текста внутри полей.
+// Установите флаг «IgnoreFields» в значение «true», чтобы получить возможность поиска и замены
+// операция игнорирования текста внутри полей.
+// Установите флаг «IgnoreFields» в значение «false», чтобы получить возможность поиска и замены
+// операция для поиска текста внутри полей.
 options.IgnoreFields = ignoreTextInsideFields;
 
 doc.Range.Replace("Hello", "Greetings", options);

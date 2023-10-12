@@ -16,25 +16,25 @@ public string Text { get; set; }
 
 ### أمثلة
 
-يوضح كيفية استخدام حقل "التعليقات".
+يوضح كيفية استخدام حقل التعليقات.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// تعيين قيمة لخاصية "التعليقات" المضمنة في المستند.
+// قم بتعيين قيمة لخاصية "التعليقات" المضمنة في المستند.
 doc.BuiltInDocumentProperties.Comments = "My comment.";
 
-// قم بإنشاء حقل "تعليقات" لعرض قيمة هذه الخاصية المضمنة.
+// قم بإنشاء حقل التعليقات لعرض قيمة تلك الخاصية المضمنة.
 FieldComments field = (FieldComments)builder.InsertField(FieldType.FieldComments, true);
 field.Update();
 
 Assert.AreEqual(" COMMENTS ", field.GetFieldCode());
 Assert.AreEqual("My comment.", field.Result);
 
-// إذا قدمنا قيمة الخاصية Text في حقل "التعليقات" وقمنا بتحديثها ، فسيعمل الحقل على ذلك
-// الكتابة فوق القيمة الحالية لخاصية "التعليقات" المضمنة بقيمة خاصية النص الخاصة بها ،
-// ثم اعرض القيمة الجديدة.
+// إذا أعطينا قيمة خاصية النص لحقل التعليقات وقمنا بتحديثها، فسيقوم الحقل بذلك
+// استبدل القيمة الحالية لخاصية "التعليقات" المضمنة بقيمة خاصية النص الخاصة بها،
+// ثم قم بعرض القيمة الجديدة.
 field.Text = "My overriding comment.";
 field.Update();
 

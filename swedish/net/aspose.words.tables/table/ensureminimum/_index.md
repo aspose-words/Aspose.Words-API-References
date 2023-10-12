@@ -1,14 +1,14 @@
 ---
 title: Table.EnsureMinimum
 second_title: Aspose.Words för .NET API Referens
-description: Table metod. Om tabellen inte har några rader skapar och lägger till en Rad .
+description: Table metod. Om tabellen inte har några rader skapar och lägger till enRow .
 type: docs
-weight: 400
+weight: 420
 url: /sv/net/aspose.words.tables/table/ensureminimum/
 ---
 ## Table.EnsureMinimum method
 
-Om tabellen inte har några rader, skapar och lägger till en **Rad** .
+Om tabellen inte har några rader, skapar och lägger till en[`Row`](../../row/) .
 
 ```csharp
 public void EnsureMinimum()

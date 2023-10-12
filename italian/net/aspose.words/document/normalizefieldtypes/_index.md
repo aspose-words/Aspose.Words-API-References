@@ -1,14 +1,14 @@
 ---
 title: Document.NormalizeFieldTypes
 second_title: Aspose.Words per .NET API Reference
-description: Document metodo. Modifica i valori del tipo di campoFieldType diFieldStart FieldSeparator FieldEnd nellintero documento in modo che corrispondano ai tipi di campo contenuti nei codici di campo.
+description: Document metodo. Modifica i valori del tipo di campoFieldType DiFieldStart FieldSeparator FieldEnd nellintero documento in modo che corrispondano ai tipi di campo contenuti nei codici di campo.
 type: docs
-weight: 610
+weight: 650
 url: /it/net/aspose.words/document/normalizefieldtypes/
 ---
 ## Document.NormalizeFieldTypes method
 
-Modifica i valori del tipo di campo[`FieldType`](../../../aspose.words.fields/fieldchar/fieldtype/) di[`FieldStart`](../../../aspose.words.fields/fieldstart/) ,[`FieldSeparator`](../../../aspose.words.fields/fieldseparator/) ,[`FieldEnd`](../../../aspose.words.fields/fieldend/) nell'intero documento in modo che corrispondano ai tipi di campo contenuti nei codici di campo.
+Modifica i valori del tipo di campo[`FieldType`](../../../aspose.words.fields/fieldchar/fieldtype/) Di[`FieldStart`](../../../aspose.words.fields/fieldstart/) ,[`FieldSeparator`](../../../aspose.words.fields/fieldseparator/) ,[`FieldEnd`](../../../aspose.words.fields/fieldend/) nell'intero documento in modo che corrispondano ai tipi di campo contenuti nei codici di campo.
 
 ```csharp
 public void NormalizeFieldTypes()
@@ -18,11 +18,11 @@ public void NormalizeFieldTypes()
 
 Utilizzare questo metodo dopo le modifiche al documento che influiscono sui tipi di campo.
 
-Per modificare i valori del tipo di campo in una parte specifica del documento, utilizzare[`NormalizeFieldTypes`](../../range/normalizefieldtypes/).
+Per modificare i valori del tipo di campo in una parte specifica del documento utilizzare[`NormalizeFieldTypes`](../../range/normalizefieldtypes/).
 
 ### Esempi
 
-Mostra come mantenere aggiornato il tipo di un campo con il relativo codice di campo.
+Mostra come mantenere aggiornato il tipo di campo con il relativo codice di campo.
 
 ```csharp
 Document doc = new Document();
@@ -33,10 +33,11 @@ Field field = builder.InsertField("DATE", null);
 // Aspose.Words rileva automaticamente i tipi di campo in base ai codici di campo.
 Assert.AreEqual(FieldType.FieldDate, field.Type);
 
-// Modifica manualmente il testo grezzo del campo, che determina il codice del campo.
+// Modifica manualmente il testo non elaborato del campo, che determina il codice del campo.
 Run fieldText = (Run)doc.FirstSection.Body.FirstParagraph.GetChildNodes(NodeType.Run, true)[0];
+fieldText.Text = "PAGE";
 
-// La modifica del codice del campo ha cambiato questo campo in uno di tipo diverso,
+// La modifica del codice di campo ha modificato questo campo in uno di tipo diverso,
 // ma le proprietà del tipo del campo mostrano ancora il vecchio tipo.
 Assert.AreEqual("PAGE", field.GetFieldCode());
 Assert.AreEqual(FieldType.FieldDate, field.Type);

@@ -1,14 +1,14 @@
 ---
 title: ResourceSavingArgs.ResourceFileUri
 second_title: Aspose.Words for .NET API Referansı
-description: ResourceSavingArgs mülk. Belgeden kaynak dosyasına başvurmak için kullanılan tek tip kaynak tanımlayıcısını URI alır veya ayarlar.
+description: ResourceSavingArgs mülk. Belgedeki kaynak dosyasına başvuruda bulunmak için kullanılan tek tip kaynak tanımlayıcıyı URI alır veya ayarlar.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.saving/resourcesavingargs/resourcefileuri/
 ---
 ## ResourceSavingArgs.ResourceFileUri property
 
-Belgeden kaynak dosyasına başvurmak için kullanılan tek tip kaynak tanımlayıcısını (URI) alır veya ayarlar.
+Belgedeki kaynak dosyasına başvuruda bulunmak için kullanılan tek tip kaynak tanımlayıcıyı (URI) alır veya ayarlar.
 
 ```csharp
 public string ResourceFileUri { get; set; }
@@ -16,17 +16,17 @@ public string ResourceFileUri { get; set; }
 
 ### Notlar
 
-Bu özellik, sabit sayfa HTML veya SVG belgelerine dışa aktarılan kaynak dosyalarının URI'lerini değiştirmenize olanak tanır.
+Bu özellik, sabit sayfalı HTML veya SVG belgelerine aktarılan kaynak dosyalarının URI'lerini değiştirmenize olanak tanır.
 
-Aspose.Words, sabit sayfa HTML veya SVG formatına dışa aktarma sırasında her kaynak dosyası için otomatik olarak bir URI oluşturur. Oluşturulan URI'ler, Aspose.Words tarafından kaydedilen kaynak dosyalarına başvurur. Ancak, kaynak dosyaları başka bir konuma taşınacaksa veya kaynak dosyaları akışlara kaydedilecekse URI'ler yanlış olabilir. Bu özellik, bu durumlarda URI'lerin düzeltilmesine izin verir.
+Aspose.Words, sabit sayfa HTML veya SVG formatına aktarım sırasında her kaynak dosyası için otomatik olarak bir URI oluşturur. Oluşturulan URI'ler Aspose.Words tarafından kaydedilen kaynak dosyalarına referans verir. Ancak, kaynak dosyaları başka bir konuma taşınacaksa veya kaynak dosyaları akışlara kaydedilecekse URI'ler yanlış olabilir. Bu özellik, bu durumlarda URI'lerin düzeltilmesine olanak tanır.
 
-Olay tetiklendiğinde, bu özellik Aspose.Words tarafından tarafından oluşturulan URI'yi içerir. Kaynak dosyası için özel bir URI sağlamak üzere bu özelliğin değerini değiştirebilirsiniz.
+Etkinlik tetiklendiğinde bu özellik, Aspose.Words tarafından oluşturulan URI'yi içerir. Kaynak dosyası için özel bir URI sağlamak üzere bu özelliğin değerini değiştirebilirsiniz.
 
 [`ResourcesFolder`](../../htmlfixedsaveoptions/resourcesfolder/)[`ResourcesFolder`](../../svgsaveoptions/resourcesfolder/)[`ResourcesFolderAlias`](../../htmlfixedsaveoptions/resourcesfolderalias/)[`ResourcesFolderAlias`](../../svgsaveoptions/resourcesfolderalias/)
 
 ### Örnekler
 
-Bir belgeyi HTML'ye dönüştürürken oluşturulan harici kaynakları izlemek için bir geri aramanın nasıl kullanılacağını gösterir.
+Bir belgeyi HTML'ye dönüştürürken oluşturulan harici kaynakları izlemek için geri aramanın nasıl kullanılacağını gösterir.
 
 ```csharp
 public void ResourceSavingCallback()
@@ -48,7 +48,7 @@ public void ResourceSavingCallback()
 private class FontSavingCallback : IResourceSavingCallback
 {
     /// <summary>
-    /// Aspose.Words harici bir kaynağı sabit sayfa HTML veya SVG'ye kaydettiğinde çağrılır.
+    /// Aspose.Words harici bir kaynağı sabit sayfa HTML'sine veya SVG'ye kaydettiğinde çağrılır.
     /// </summary>
     public void ResourceSaving(ResourceSavingArgs args)
     {

@@ -35,20 +35,20 @@ FieldCollection fields = doc.Range.Fields;
 Assert.AreEqual(6, fields.Count);
 
 // Im Folgenden finden Sie vier Möglichkeiten zum Entfernen von Feldern aus einer Feldsammlung.
-// 1 - Holen Sie sich ein Feld, um sich selbst zu entfernen:
+// 1 – Ein Feld abrufen, um sich selbst zu entfernen:
 fields[0].Remove();
 Assert.AreEqual(5, fields.Count);
 
-// 2 - Holen Sie sich die Sammlung, um ein Feld zu entfernen, das wir an seine Entfernungsmethode übergeben:
+// 2 – Holen Sie sich die Sammlung, um ein Feld zu entfernen, das wir an seine Entfernungsmethode übergeben:
 Field lastField = fields[3];
 fields.Remove(lastField);
 Assert.AreEqual(4, fields.Count);
 
-// 3 - Entfernen Sie ein Feld aus einer Sammlung an einem Index:
+// 3 – Ein Feld aus einer Sammlung an einem Index entfernen:
 fields.RemoveAt(2);
 Assert.AreEqual(3, fields.Count);
 
-// 4 - Alle Felder auf einmal aus der Sammlung entfernen:
+// 4 – Alle Felder auf einmal aus der Sammlung entfernen:
 fields.Clear();
 Assert.AreEqual(0, fields.Count);
 ```
@@ -56,6 +56,7 @@ Assert.AreEqual(0, fields.Count);
 Zeigt, wie mit einer Sammlung von Feldern gearbeitet wird.
 
 ```csharp
+public void FieldCollection()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -73,7 +74,7 @@ Zeigt, wie mit einer Sammlung von Feldern gearbeitet wird.
     Assert.AreEqual(6, fields.Count);
 
     // Über die Feldsammlung iterieren und Inhalt und Typ ausgeben
-    // jedes Feldes mit einer benutzerdefinierten Besucherimplementierung.
+    // jedes Feldes mithilfe einer benutzerdefinierten Besucherimplementierung.
     FieldVisitor fieldVisitor = new FieldVisitor();
 
     using (IEnumerator<Field> fieldEnumerator = fields.GetEnumerator())
@@ -94,9 +95,10 @@ Zeigt, wie mit einer Sammlung von Feldern gearbeitet wird.
     }
 
     Console.WriteLine(fieldVisitor.GetText());
+}
 
 /// <summary>
-/// Besucherimplementierung dokumentieren, die Feldinformationen druckt.
+/// Dokumentieren Sie die Besucherimplementierung, die Feldinformationen druckt.
 /// </summary>
 public class FieldVisitor : DocumentVisitor
 {
@@ -106,7 +108,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Ruft den Klartext des Dokuments ab, das vom Besucher angesammelt wurde.
+    /// Ruft den Klartext des vom Besucher gesammelten Dokuments ab.
     /// </summary>
     public string GetText()
     {

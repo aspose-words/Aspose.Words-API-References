@@ -19,6 +19,7 @@ public string TypeIdentifier { get; set; }
 Visar hur man infogar ett TOC-fält och filtrerar vilka TC-fält som slutar som poster.
 
 ```csharp
+public void FieldTocEntryIdentifier()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -47,6 +48,7 @@ Visar hur man infogar ett TOC-fält och filtrerar vilka TC-fält som slutar som 
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.TC.docx");
+}
 
 /// <summary>
 /// Använd en dokumentbyggare för att infoga ett TC-fält.

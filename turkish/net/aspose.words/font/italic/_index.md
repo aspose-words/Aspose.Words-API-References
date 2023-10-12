@@ -16,7 +16,7 @@ public bool Italic { get; set; }
 
 ### Örnekler
 
-Belge oluşturucu kullanarak italik metnin nasıl yazılacağını gösterir.
+Bir belge oluşturucu kullanılarak italik metnin nasıl yazılacağını gösterir.
 
 ```csharp
 Document doc = new Document();

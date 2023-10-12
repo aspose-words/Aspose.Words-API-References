@@ -3,7 +3,7 @@ title: Enum ProtectionType
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.ProtectionType enumeración. Tipo de protección para un documento.
 type: docs
-weight: 4260
+weight: 4510
 url: /es/net/aspose.words/protectiontype/
 ---
 ## ProtectionType enumeration
@@ -18,7 +18,7 @@ public enum ProtectionType
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| AllowOnlyComments | `1` | El usuario solo puede modificar comentarios en el documento. |
+| AllowOnlyComments | `1` | El usuario sólo puede modificar comentarios en el documento. |
 | AllowOnlyFormFields | `2` | El usuario solo puede ingresar datos en los campos del formulario en el documento. |
 | AllowOnlyRevisions | `0` | El usuario solo puede agregar marcas de revisión al documento. |
 | ReadOnly | `3` | No se permiten cambios en el documento. Disponible desde Microsoft Word 2003. |

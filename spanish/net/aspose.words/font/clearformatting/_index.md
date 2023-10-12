@@ -16,7 +16,7 @@ public void ClearFormatting()
 
 ### Observaciones
 
-Elimina todo el formato de fuente especificado explícitamente en el objeto desde which  **Fuente** se obtuvo por lo que el formato de fuente se heredará de el padre apropiado.
+Elimina todo el formato de fuente especificado explícitamente en el objeto del cual [`Font`](../) se obtuvo por lo que el formato de fuente se heredará de el padre apropiado.
 
 ### Ejemplos
 
@@ -28,7 +28,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("For more information, please visit the ");
 
-// Inserte un hipervínculo y enfatícelo con un formato personalizado.
+// Inserta un hipervínculo y enfatízalo con un formato personalizado.
 // El hipervínculo será un fragmento de texto en el que se puede hacer clic y que nos llevará a la ubicación especificada en la URL.
 builder.Font.Color = Color.Blue;
 builder.Font.Underline = Underline.Single;

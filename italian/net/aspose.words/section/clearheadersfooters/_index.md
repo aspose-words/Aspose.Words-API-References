@@ -1,14 +1,14 @@
 ---
 title: Section.ClearHeadersFooters
 second_title: Aspose.Words per .NET API Reference
-description: Section metodo. Cancella intestazioni e piè di pagina di questa sezione.
+description: Section metodo. Cancella le intestazioni e i piè di pagina di questa sezione.
 type: docs
-weight: 100
+weight: 120
 url: /it/net/aspose.words/section/clearheadersfooters/
 ---
 ## Section.ClearHeadersFooters method
 
-Cancella intestazioni e piè di pagina di questa sezione.
+Cancella le intestazioni e i piè di pagina di questa sezione.
 
 ```csharp
 public void ClearHeadersFooters()
@@ -41,8 +41,8 @@ Assert.AreEqual(2, doc.FirstSection.HeadersFooters.Count);
 Assert.AreEqual("This is the primary header.", doc.FirstSection.HeadersFooters[HeaderFooterType.HeaderPrimary].GetText().Trim());
 Assert.AreEqual("This is the primary footer.", doc.FirstSection.HeadersFooters[HeaderFooterType.FooterPrimary].GetText().Trim());
 
-// Svuota tutte le intestazioni e i piè di pagina in questa sezione di tutti i loro contenuti.
-// Le intestazioni e i piè di pagina stessi saranno ancora presenti ma non avranno nulla da visualizzare.
+// Svuota tutte le intestazioni e i piè di pagina di questa sezione da tutto il loro contenuto.
+// Le intestazioni e i piè di pagina saranno ancora presenti ma non avranno nulla da visualizzare.
 doc.FirstSection.ClearHeadersFooters();
 
 Assert.AreEqual(2, doc.FirstSection.HeadersFooters.Count);

@@ -1,14 +1,14 @@
 ---
 title: FieldIncludeText.SourceFullName
 second_title: Aspose.Words لمراجع .NET API
-description: FieldIncludeText ملكية. الحصول على أو تحديد موقع المستند باستخدام IRI .
+description: FieldIncludeText ملكية. الحصول على أو تعيين موقع المستند باستخدام IRI.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.fields/fieldincludetext/sourcefullname/
 ---
 ## FieldIncludeText.SourceFullName property
 
-الحصول على أو تحديد موقع المستند باستخدام IRI .
+الحصول على أو تعيين موقع المستند باستخدام IRI.
 
 ```csharp
 public string SourceFullName { get; set; }
@@ -36,10 +36,12 @@ public void FieldIncludeText()
     fieldIncludeText.NamespaceMappings = "xmlns:n='myNamespace'";
     fieldIncludeText.XPath = "/catalog/cd/title";
 
+    doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.INCLUDETEXT.docx");
+}
 
 /// <summary>
-/// استخدم أداة إنشاء المستندات لإدراج حقل INCLUDETEXT بخصائص مخصصة.
+/// استخدم منشئ المستندات لإدراج حقل INCLUDETEXT بخصائص مخصصة.
 /// </summary>
 public FieldIncludeText CreateFieldIncludeText(DocumentBuilder builder, string sourceFullName, bool lockFields, string mimeType, string textConverter, string encoding)
 {

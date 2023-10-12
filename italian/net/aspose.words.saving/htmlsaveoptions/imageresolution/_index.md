@@ -3,7 +3,7 @@ title: HtmlSaveOptions.ImageResolution
 second_title: Aspose.Words per .NET API Reference
 description: HtmlSaveOptions proprietà. Specifica la risoluzione di output per le immagini durante lesportazione in HTML MHTML o EPUB. Limpostazione predefinita è96 dpi .
 type: docs
-weight: 350
+weight: 340
 url: /it/net/aspose.words.saving/htmlsaveoptions/imageresolution/
 ---
 ## HtmlSaveOptions.ImageResolution property
@@ -16,7 +16,7 @@ public int ImageResolution { get; set; }
 
 ### Osservazioni
 
-Questa proprietà ha effetto sulle immagini raster quando[`ScaleImageToShapeSize`](../scaleimagetoshapesize/) è`VERO` ed effetti metafile esportati come immagini raster. Alcune proprietà dell'immagine come il ritaglio o la rotazione richiedono il salvataggio delle immagini trasformate e in questo caso le immagini trasformate vengono create con la risoluzione data .
+Questa proprietà influisce sulle immagini raster quando[`ScaleImageToShapeSize`](../scaleimagetoshapesize/) è`VERO` e metafile degli effetti esportati come immagini raster. Alcune proprietà dell'immagine come ritaglio o rotazione richiedono il salvataggio delle immagini trasformate e in questo caso le immagini trasformate vengono create nella risoluzione specificata.
 
 ### Esempi
 
@@ -34,8 +34,8 @@ HtmlSaveOptions options = new HtmlSaveOptions
     FontsFolder = ArtifactsDir + "Fonts",
     ImagesFolder = ArtifactsDir + "Images",
     ResourceFolder = ArtifactsDir + "Resources",
-    FontsFolderAlias = "http://example.com/fonts",
-    ImagesFolderAlias = "http://example.com/images",
+    FontsFolderAlias = "http://esempio.com/fonts",
+    ImagesFolderAlias = "http://esempio.com/immagini",
     ResourceFolderAlias = "http://esempio.com/risorse",
     ExportOriginalUrlForLinkedImages = true
 };

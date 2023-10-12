@@ -3,7 +3,7 @@ title: ShapeBase.Title
 second_title: Aspose.Words för .NET API Referens
 description: ShapeBase fast egendom. Hämtar eller ställer in titeln bildtexten för det aktuella formobjektet.
 type: docs
-weight: 490
+weight: 530
 url: /sv/net/aspose.words.drawing/shapebase/title/
 ---
 ## ShapeBase.Title property
@@ -18,7 +18,7 @@ public string Title { get; set; }
 
 Standard är tom sträng.
 
-Kan inte vara null, men kan vara en tom sträng.
+Kan inte vara`null`, men kan vara en tom sträng.
 
 ### Exempel
 

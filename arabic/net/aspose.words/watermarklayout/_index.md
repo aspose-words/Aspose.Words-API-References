@@ -3,7 +3,7 @@ title: Enum WatermarkLayout
 second_title: Aspose.Words لمراجع .NET API
 description: Aspose.Words.WatermarkLayout تعداد. يحدد تخطيط العلامة المائية بالنسبة لمركز العلامة المائية.
 type: docs
-weight: 6370
+weight: 6680
 url: /ar/net/aspose.words/watermarklayout/
 ---
 ## WatermarkLayout enumeration
@@ -18,8 +18,8 @@ public enum WatermarkLayout
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| Horizontal | `0` | تخطيط أفقي للعلامة المائية. يتوافق مع 0 درجة دوران . |
-| Diagonal | `315` | تخطيط قطري للعلامة المائية. يتوافق مع 315 درجة دوران . |
+| Horizontal | `0` | تخطيط العلامة المائية الأفقية. يتوافق مع 0 درجة من الدوران. |
+| Diagonal | `315` | تخطيط العلامة المائية القطرية. يتوافق مع 315 درجة دوران. |
 
 ### أمثلة
 
@@ -28,10 +28,10 @@ public enum WatermarkLayout
 ```csharp
 Document doc = new Document();
 
-// أضف علامة مائية بنص عادي.
+// أضف علامة مائية نصية عادية.
 doc.Watermark.SetText("Aspose Watermark");
 
-// إذا كنا نرغب في تحرير تنسيق النص باستخدامه كعلامة مائية ،
+// إذا أردنا تعديل تنسيق النص باستخدامه كعلامة مائية،
 // يمكننا القيام بذلك عن طريق تمرير كائن TextWatermarkOptions عند إنشاء العلامة المائية.
 TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
 textWatermarkOptions.FontFamily = "Arial";

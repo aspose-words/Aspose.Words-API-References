@@ -3,7 +3,7 @@ title: ParagraphFormat.Borders
 second_title: Aspose.Words för .NET API Referens
 description: ParagraphFormat fast egendom. Hämtar samling av kanter för stycket.
 type: docs
-weight: 50
+weight: 60
 url: /sv/net/aspose.words/paragraphformat/borders/
 ---
 ## ParagraphFormat.Borders property
@@ -22,12 +22,14 @@ Visar hur man infogar ett stycke med en övre kant.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-Border topBorder = builder.ParagraphFormat.Borders[BorderType.Top];
-topBorder.Color = Color.Red;
+Border topBorder = builder.ParagraphFormat.Borders.Top;
 topBorder.LineWidth = 4.0d;
 topBorder.LineStyle = LineStyle.DashSmallGap;
+// Ställ in ThemeColor endast när LineWidth eller LineStyle är inställda.
+topBorder.ThemeColor = ThemeColor.Accent1;
+topBorder.TintAndShade = 0.25d;
 
-builder.Writeln("Text with a red top border.");
+builder.Writeln("Text with a top border.");
 
 doc.Save(ArtifactsDir + "Border.ParagraphTopBorder.docx");
 ```

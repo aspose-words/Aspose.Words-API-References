@@ -3,7 +3,7 @@ title: Enum FieldUpdateCultureSource
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Fields.FieldUpdateCultureSource uppräkning. Indikerar vilken kultur som ska användas under fältuppdatering.
 type: docs
-weight: 2410
+weight: 2560
 url: /sv/net/aspose.words.fields/fieldupdateculturesource/
 ---
 ## FieldUpdateCultureSource enumeration

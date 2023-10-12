@@ -1,14 +1,14 @@
 ---
 title: PdfSaveOptions.DisplayDocTitle
 second_title: Aspose.Words لمراجع .NET API
-description: PdfSaveOptions ملكية. علامة تحدد ما إذا كان يجب أن يعرض شريط عنوان النافذة عنوان المستند المأخوذ من إدخال العنوان لقاموس معلومات المستند.
+description: PdfSaveOptions ملكية. علامة تحدد ما إذا كان شريط عنوان النافذة يجب أن يعرض عنوان المستند المأخوذ من مدخل العنوان في قاموس معلومات المستند.
 type: docs
-weight: 70
+weight: 80
 url: /ar/net/aspose.words.saving/pdfsaveoptions/displaydoctitle/
 ---
 ## PdfSaveOptions.DisplayDocTitle property
 
-علامة تحدد ما إذا كان يجب أن يعرض شريط عنوان النافذة عنوان المستند المأخوذ من إدخال العنوان لقاموس معلومات المستند.
+علامة تحدد ما إذا كان شريط عنوان النافذة يجب أن يعرض عنوان المستند المأخوذ من مدخل العنوان في قاموس معلومات المستند.
 
 ```csharp
 public bool DisplayDocTitle { get; set; }
@@ -16,15 +16,15 @@ public bool DisplayDocTitle { get; set; }
 
 ### ملاحظات
 
-إذا`خاطئة`، يجب أن يعرض شريط العنوان بدلاً من ذلك اسم ملف PDF الذي يحتوي على المستند.
+لو`خطأ شنيع`، يجب أن يعرض شريط العنوان بدلاً من ذلك اسم ملف PDF الذي يحتوي على المستند.
 
-هذه العلامة مطلوبة من خلال التوافق مع PDF / UA.`حقيقي` سيتم استخدام القيمة تلقائيًا عند save إلى PDF / UA.
+هذه العلامة مطلوبة بموجب التوافق مع PDF/UA.`حقيقي` سيتم استخدام القيمة تلقائيًا عند حفظ إلى PDF/UA.
 
-النظام الأساسي`خاطئة`.
+القيمة الافتراضية هي`خطأ شنيع`.
 
 ### أمثلة
 
-يوضح كيفية عرض عنوان المستند على هيئة شريط العنوان.
+يوضح كيفية عرض عنوان المستند كشريط العنوان.
 
 ```csharp
 Document doc = new Document();
@@ -33,11 +33,11 @@ builder.Writeln("Hello world!");
 
 doc.BuiltInDocumentProperties.Title = "Windows bar pdf title";
 
-// قم بإنشاء كائن "PdfSaveOptions" يمكننا تمريره إلى طريقة "Save" الخاصة بالمستند
-// لتعديل كيفية تحويل هذه الطريقة المستند إلى PDF.
-// اضبط "DisplayDocTitle" على "true" للحصول على بعض برامج قراءة PDF ، مثل Adobe Acrobat Pro ،
+// قم بإنشاء كائن "PdfSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" المستند
+// لتعديل كيفية تحويل هذه الطريقة للمستند إلى .PDF.
+// اضبط "DisplayDocTitle" على "true" للحصول على بعض برامج قراءة PDF، مثل Adobe Acrobat Pro،
 // لعرض قيمة خاصية "العنوان" المضمنة في المستند في علامة التبويب التي تنتمي إلى هذا المستند.
-// اضبط "DisplayDocTitle" على "false" لجعل هؤلاء القراء يعرضون اسم ملف المستند.
+// اضبط "DisplayDocTitle" على "خطأ" لجعل هؤلاء القراء يعرضون اسم ملف المستند.
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions { DisplayDocTitle = displayDocTitle };
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.DocTitle.pdf", pdfSaveOptions);

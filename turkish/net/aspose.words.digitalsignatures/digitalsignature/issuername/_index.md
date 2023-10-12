@@ -1,14 +1,14 @@
 ---
 title: DigitalSignature.IssuerName
 second_title: Aspose.Words for .NET API Referansı
-description: DigitalSignature mülk. Sertifikanın konu ayırt edici adını verir isuuer.
+description: DigitalSignature mülk. Sertifikanın konu ayırt edici adını döndürür isuuer.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.digitalsignatures/digitalsignature/issuername/
 ---
 ## DigitalSignature.IssuerName property
 
-Sertifikanın konu ayırt edici adını verir isuuer.
+Sertifikanın konu ayırt edici adını döndürür isuuer.
 
 ```csharp
 public string IssuerName { get; }
@@ -16,17 +16,17 @@ public string IssuerName { get; }
 
 ### Örnekler
 
-X.509 sertifikalarıyla belgelerin nasıl imzalanacağını gösterir.
+X.509 sertifikalarına sahip belgelerin nasıl imzalanacağını gösterir.
 
 ```csharp
 // Bir belgenin imzalanmadığını doğrulayın.
 Assert.False(FileFormatUtil.DetectFileFormat(MyDir + "Document.docx").HasDigitalSignature);
 
-// Belgeyi imzalamak için kullanacağımız bir PKCS12 dosyasından bir CertificateHolder nesnesi oluşturun.
+// Belgeyi imzalamak için kullanacağımız PKCS12 dosyasından bir SertifikaHolder nesnesi oluşturun.
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 
-// Belgenin imzalı bir kopyasını yerel dosya sistemine kaydetmenin iki yolu vardır:
-// 1 - Bir belgeyi yerel sistem dosya adıyla atayın ve imzalı bir kopyayı başka bir dosya adıyla belirtilen bir konuma kaydedin.
+// Bir belgenin imzalı bir kopyasını yerel dosya sistemine kaydetmenin iki yolu vardır:
+// 1 - Bir belgeyi yerel sistem dosya adına göre atayın ve imzalı bir kopyasını başka bir dosya adıyla belirtilen konuma kaydedin.
 DigitalSignatureUtil.Sign(MyDir + "Document.docx", ArtifactsDir + "Document.DigitalSignature.docx", 
     certificateHolder, new SignOptions() { SignTime = DateTime.Now } );
 

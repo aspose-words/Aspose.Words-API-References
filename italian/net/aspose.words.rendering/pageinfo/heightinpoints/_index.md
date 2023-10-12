@@ -3,7 +3,7 @@ title: PageInfo.HeightInPoints
 second_title: Aspose.Words per .NET API Reference
 description: PageInfo proprietà. Ottiene laltezza della pagina in punti.
 type: docs
-weight: 10
+weight: 20
 url: /it/net/aspose.words.rendering/pageinfo/heightinpoints/
 ---
 ## PageInfo.HeightInPoints property
@@ -16,13 +16,13 @@ public float HeightInPoints { get; }
 
 ### Esempi
 
-Mostra come stampare le informazioni sulle dimensioni della pagina e sull'orientamento per ogni pagina di un documento di Word.
+Mostra come stampare le informazioni sulle dimensioni e sull'orientamento della pagina per ogni pagina di un documento Word.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// La prima sezione ha 2 pagine. Assegneremo a ciascuno un vassoio carta per stampante diverso,
-// il cui numero corrisponderà a un tipo di origine carta. Queste fonti e i loro tipi varieranno
+// La prima sezione ha 2 pagine. Assegneremo a ciascuno un vassoio carta diverso per la stampante,
+// il cui numero corrisponderà a un tipo di origine cartacea. Queste fonti e i loro tipi varieranno
 // a seconda del driver della stampante installato.
 PrinterSettings.PaperSourceCollection paperSources = new PrinterSettings().PaperSources;
 

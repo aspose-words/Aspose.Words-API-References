@@ -16,11 +16,11 @@ public static UserInformation DefaultUser { get; }
 
 ### Примечания
 
-Используйте[`CurrentUser`](../../fieldoptions/currentuser/)свойство для указания информации о пользователе для одного документа.
+Используйте[`CurrentUser`](../../fieldoptions/currentuser/) свойство для указания информации о пользователе для одного документа.
 
 ### Примеры
 
-Показывает, как установить сведения о пользователе и отобразить их с помощью полей.
+Показывает, как задать сведения о пользователе и отобразить их с помощью полей.
 
 ```csharp
 Document doc = new Document();
@@ -36,7 +36,7 @@ UserInformation userInformation = new UserInformation
 doc.FieldOptions.CurrentUser = userInformation;
 
 // Вставляем поля USERNAME, USERINITIALS и USERADDRESS, которые отображают значения
-// соответствующие свойства объекта UserInformation, который мы создали выше. 
+ // соответствующие свойства объекта UserInformation, который мы создали выше.
 Assert.AreEqual(userInformation.Name, builder.InsertField(" USERNAME ").Result);
 Assert.AreEqual(userInformation.Initials, builder.InsertField(" USERINITIALS ").Result);
 Assert.AreEqual(userInformation.Address, builder.InsertField(" USERADDRESS ").Result);

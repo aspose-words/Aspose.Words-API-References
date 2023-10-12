@@ -3,7 +3,7 @@ title: Enum HtmlFixedPageHorizontalAlignment
 second_title: Aspose.Words per .NET API Reference
 description: Aspose.Words.Saving.HtmlFixedPageHorizontalAlignment enum. Specifica lallineamento orizzontale per le pagine nel documento HTML di output.
 type: docs
-weight: 4810
+weight: 5070
 url: /it/net/aspose.words.saving/htmlfixedpagehorizontalalignment/
 ---
 ## HtmlFixedPageHorizontalAlignment enumeration
@@ -24,7 +24,7 @@ public enum HtmlFixedPageHorizontalAlignment
 
 ### Esempi
 
-Mostra come impostare l'allineamento orizzontale delle pagine durante il salvataggio di un documento in formato HTML.
+Mostra come impostare l'allineamento orizzontale delle pagine durante il salvataggio di un documento in HTML.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

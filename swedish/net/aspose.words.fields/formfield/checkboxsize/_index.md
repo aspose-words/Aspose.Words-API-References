@@ -1,14 +1,14 @@
 ---
 title: FormField.CheckBoxSize
 second_title: Aspose.Words för .NET API Referens
-description: FormField fast egendom. Hämtar eller ställer in storleken på kryssrutan i poäng. Har effekt endast närIsCheckBoxExactSize är sant.
+description: FormField fast egendom. Hämtar eller ställer in storleken på kryssrutan i poäng. Har effekt endast närIsCheckBoxExactSize ärSann .
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/formfield/checkboxsize/
 ---
 ## FormField.CheckBoxSize property
 
-Hämtar eller ställer in storleken på kryssrutan i poäng. Har effekt endast när[`IsCheckBoxExactSize`](../ischeckboxexactsize/) är sant.
+Hämtar eller ställer in storleken på kryssrutan i poäng. Har effekt endast när[`IsCheckBoxExactSize`](../ischeckboxexactsize/) är`Sann` .
 
 ```csharp
 public double CheckBoxSize { get; set; }
@@ -89,7 +89,7 @@ public void Visitor()
 }
 
 /// <summary>
-/// Besöksimplementering som skriver ut detaljer om formulärfält som den besöker. 
+ /// Besöksimplementering som skriver ut detaljer om formulärfält som den besöker.
 /// </summary>
 public class FormFieldVisitor : DocumentVisitor
 {

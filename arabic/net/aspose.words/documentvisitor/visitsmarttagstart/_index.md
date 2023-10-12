@@ -1,14 +1,14 @@
 ---
 title: DocumentVisitor.VisitSmartTagStart
 second_title: Aspose.Words لمراجع .NET API
-description: DocumentVisitor طريقة. يتم الاستدعاء عند بدء تعداد علامة ذكية .
+description: DocumentVisitor طريقة. يتم الاتصال به عند بدء تعداد العلامة الذكية.
 type: docs
 weight: 420
 url: /ar/net/aspose.words/documentvisitor/visitsmarttagstart/
 ---
 ## DocumentVisitor.VisitSmartTagStart method
 
-يتم الاستدعاء عند بدء تعداد علامة ذكية .
+يتم الاتصال به عند بدء تعداد العلامة الذكية.
 
 ```csharp
 public virtual VisitorAction VisitSmartTagStart(SmartTag smartTag)
@@ -24,7 +24,7 @@ public virtual VisitorAction VisitSmartTagStart(SmartTag smartTag)
 
 ### أمثلة
 
-يوضح كيفية طباعة بنية العقدة لكل علامة ذكية في مستند.
+يوضح كيفية طباعة بنية العقدة لكل علامة ذكية في المستند.
 
 ```csharp
 public void SmartTagToText()
@@ -32,17 +32,17 @@ public void SmartTagToText()
     Document doc = new Document(MyDir + "Smart tags.doc");
     SmartTagStructurePrinter visitor = new SmartTagStructurePrinter();
 
-    // عندما نحصل على عقدة مركبة لقبول زائر المستند ، يزور الزائر عقدة القبول ،
-    // ثم يعبر جميع أبناء العقدة بطريقة العمق أولاً.
-    // يمكن للزائر قراءة كل عقدة تمت زيارتها وتعديلها.
+    // عندما نحصل على عقدة مركبة لقبول زائر المستند، يقوم الزائر بزيارة العقدة المقبولة،
+    // ثم يجتاز جميع أبناء العقدة بطريقة العمق الأول.
+    // يمكن للزائر قراءة وتعديل كل عقدة تمت زيارتها.
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 }
 
 /// <summary>
-/// يتجاوز الشجرة غير الثنائية للعقد الفرعية للعقد.
-/// ينشئ خريطة في شكل سلسلة لكل عقد SmartTag التي تمت مواجهتها وأطفالها.
+/// يجتاز الشجرة غير الثنائية للعقدة التابعة.
+/// ينشئ خريطة على شكل سلسلة لجميع عقد SmartTag التي تمت مواجهتها وأبناءها.
 /// </summary>
 public class SmartTagStructurePrinter : DocumentVisitor
 {
@@ -61,7 +61,7 @@ public class SmartTagStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاستدعاء عند مواجهة عقدة تشغيل في المستند.
+    /// يتم الاتصال به عند مواجهة عقدة التشغيل في المستند.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -71,7 +71,7 @@ public class SmartTagStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاستدعاء عند مواجهة عقدة SmartTag في المستند.
+    /// يتم الاتصال به عند مواجهة عقدة SmartTag في المستند.
     /// </summary>
     public override VisitorAction VisitSmartTagStart(SmartTag smartTag)
     {
@@ -83,7 +83,7 @@ public class SmartTagStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم استدعاؤها بعد زيارة جميع العقد الفرعية لعقدة SmartTag.
+    /// يتم الاتصال به بعد زيارة كافة العقد التابعة لعقدة SmartTag.
     /// </summary>
     public override VisitorAction VisitSmartTagEnd(SmartTag smartTag)
     {
@@ -95,9 +95,9 @@ public class SmartTagStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// قم بإلحاق سطر بـ StringBuilder وقم بعمل مسافة بادئة له اعتمادًا على مدى عمق الزائر في شجرة المستند.
+    /// ألحق سطرًا بـ StringBuilder وقم بوضع مسافة بادئة له اعتمادًا على مدى عمق الزائر في شجرة المستندات.
     /// </summary>
-    /// < param name = "text" > < / param >
+    /// <param name="text"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++) mBuilder.Append("|  ");

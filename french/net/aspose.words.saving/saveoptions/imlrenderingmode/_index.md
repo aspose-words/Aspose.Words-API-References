@@ -1,14 +1,14 @@
 ---
 title: SaveOptions.ImlRenderingMode
 second_title: Référence de l'API Aspose.Words pour .NET
-description: SaveOptions propriété. Obtient ou définit une valeur déterminant le rendu des objets dencre InkML.
+description: SaveOptions propriété. Obtient ou définit une valeur déterminant la manière dont les objets Ink InkML sont rendus.
 type: docs
-weight: 100
+weight: 90
 url: /fr/net/aspose.words.saving/saveoptions/imlrenderingmode/
 ---
 ## SaveOptions.ImlRenderingMode property
 
-Obtient ou définit une valeur déterminant le rendu des objets d'encre (InkML).
+Obtient ou définit une valeur déterminant la manière dont les objets Ink (InkML) sont rendus.
 
 ```csharp
 public ImlRenderingMode ImlRenderingMode { get; set; }
@@ -22,12 +22,12 @@ Cette propriété est utilisée lorsque le document est exporté vers des format
 
 ### Exemples
 
-Montre comment rendre l'objet Ink.
+Montre comment restituer un objet Ink.
 
 ```csharp
 Document doc = new Document(MyDir + "Ink object.docx");
 
-// Set 'ImlRenderingMode.InkML' ignore la forme de repli de l'objet d'encre (InkML) et rend InkML lui-même.
+// Définir 'ImlRenderingMode.InkML' ignore la forme de repli de l'objet Ink (InkML) et restitue InkML lui-même.
 // Si le résultat du rendu n'est pas satisfaisant,
 // veuillez utiliser 'ImlRenderingMode.Fallback' pour obtenir un résultat similaire aux versions précédentes.
 ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Jpeg)

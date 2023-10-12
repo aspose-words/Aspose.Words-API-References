@@ -16,7 +16,7 @@ public string Password { get; set; }
 
 ### Anmärkningar
 
-För att spara dokument utan kryptering bör denna egenskap vara null eller tom sträng.
+För att spara dokument utan kryptering bör denna egenskap vara`null` eller tom sträng.
 
 ### Exempel
 
@@ -28,7 +28,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
 // Skapa ett nytt OdtSaveOptions och skicka antingen "SaveFormat.Odt",
-// eller "SaveFormat.Ott" som formatet att spara dokumentet i. 
+ // eller "SaveFormat.Ott" som formatet att spara dokumentet i.
 OdtSaveOptions saveOptions = new OdtSaveOptions(saveFormat);
 saveOptions.Password = "@sposeEncrypted_1145";
 

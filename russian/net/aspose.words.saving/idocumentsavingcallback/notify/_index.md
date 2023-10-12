@@ -20,13 +20,13 @@ public void Notify(DocumentSavingArgs args)
 
 ### Примечания
 
-Основное использование этого интерфейса — разрешить коду приложения получать статус выполнения и прерывать процесс сохранения.
+Основное использование этого интерфейса — позволить коду приложения получать статус выполнения и прерывать процесс сохранения.
 
-Исключение должно быть выброшено из обратного вызова прогресса для аборта и должно быть перехвачено в коде потребителя.
+Должно быть выдано исключение из обратного вызова прогресса для прерывания, и оно должно быть перехвачено в потребительском коде.
 
 ### Примеры
 
-Показывает, как управлять документом при сохранении в формате html.
+Показывает, как управлять документом при сохранении в HTML.
 
 ```csharp
 public void ProgressCallback(SaveFormat saveFormat, string ext)
@@ -45,12 +45,12 @@ public void ProgressCallback(SaveFormat saveFormat, string ext)
 }
 
 /// <summary>
-/// Обратный вызов сохранения прогресса. Отмените сохранение документа после «MaxDuration» секунд.
+/// Сохранение обратного вызова прогресса. Отменить сохранение документа по истечении секунд «MaxDuration».
 /// </summary>
 public class SavingProgressCallback : IDocumentSavingCallback
 {
     /// <summary>
-    /// Контр.
+    /// Центр.
     /// </summary>
     public SavingProgressCallback()
     {
@@ -75,7 +75,7 @@ public class SavingProgressCallback : IDocumentSavingCallback
     private readonly DateTime mSavingStartedAt;
 
     /// <summary>
-    /// Максимально допустимая продолжительность в сек.
+    /// Максимально допустимая продолжительность в секундах.
     /// </summary>
     private const double MaxDuration = 0.1d;
 }
@@ -100,12 +100,12 @@ public void ProgressCallback(SaveFormat saveFormat, string ext)
 }
 
 /// <summary>
-/// Обратный вызов сохранения прогресса. Отмените сохранение документа после «MaxDuration» секунд.
+/// Сохранение обратного вызова прогресса. Отменить сохранение документа по истечении секунд «MaxDuration».
 /// </summary>
 public class SavingProgressCallback : IDocumentSavingCallback
 {
     /// <summary>
-    /// Контр.
+    /// Центр.
     /// </summary>
     public SavingProgressCallback()
     {
@@ -130,7 +130,7 @@ public class SavingProgressCallback : IDocumentSavingCallback
     private readonly DateTime mSavingStartedAt;
 
     /// <summary>
-    /// Максимально допустимая продолжительность в сек.
+    /// Максимально допустимая продолжительность в секундах.
     /// </summary>
     private const double MaxDuration = 0.01d;
 }
@@ -155,12 +155,12 @@ public void ProgressCallback(SaveFormat saveFormat, string ext)
 }
 
 /// <summary>
-/// Обратный вызов сохранения прогресса. Отмените сохранение документа после «MaxDuration» секунд.
+/// Сохранение обратного вызова прогресса. Отменить сохранение документа по истечении секунд «MaxDuration».
 /// </summary>
 public class SavingProgressCallback : IDocumentSavingCallback
 {
     /// <summary>
-    /// Контр.
+    /// Центр.
     /// </summary>
     public SavingProgressCallback()
     {
@@ -185,7 +185,7 @@ public class SavingProgressCallback : IDocumentSavingCallback
     private readonly DateTime mSavingStartedAt;
 
     /// <summary>
-    /// Максимально допустимая продолжительность в сек.
+    /// Максимально допустимая продолжительность в секундах.
     /// </summary>
     private const double MaxDuration = 0.01d;
 }

@@ -1,14 +1,14 @@
 ---
 title: Enum ReplaceAction
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Replacing.ReplaceAction énumération. Permet à lutilisateur de spécifier ce quil advient de la correspondance actuelle lors dune opération de remplacement.
+description: Aspose.Words.Replacing.ReplaceAction énumération. Permet à lutilisateur de spécifier ce qui arrive à la correspondance actuelle lors dune opération de remplacement.
 type: docs
-weight: 4380
+weight: 4640
 url: /fr/net/aspose.words.replacing/replaceaction/
 ---
 ## ReplaceAction enumeration
 
-Permet à l'utilisateur de spécifier ce qu'il advient de la correspondance actuelle lors d'une opération de remplacement.
+Permet à l'utilisateur de spécifier ce qui arrive à la correspondance actuelle lors d'une opération de remplacement.
 
 ```csharp
 public enum ReplaceAction
@@ -19,14 +19,15 @@ public enum ReplaceAction
 | Nom | Évaluer | La description |
 | --- | --- | --- |
 | Replace | `0` | Remplacer la correspondance actuelle. |
-| Skip | `1` | Passer le match en cours. |
-| Stop | `2` | Terminer l'opération de remplacement. |
+| Skip | `1` | Ignorer le match en cours. |
+| Stop | `2` | Terminez l'opération de remplacement. |
 
 ### Exemples
 
-Montre comment insérer le contenu d'un document entier en remplacement d'une correspondance dans une opération de recherche et de remplacement.
+Montre comment insérer le contenu entier d’un document en remplacement d’une correspondance dans une opération de recherche et de remplacement.
 
 ```csharp
+public void InsertDocumentAtReplace()
 {
     Document mainDoc = new Document(MyDir + "Document insertion destination.docx");
 
@@ -36,6 +37,8 @@ Montre comment insérer le contenu d'un document entier en remplacement d'une co
 
     mainDoc.Range.Replace(new Regex("\\[MY_DOCUMENT\\]"), "", options);
     mainDoc.Save(ArtifactsDir + "InsertDocument.InsertDocumentAtReplace.docx");
+
+}
 
 private class InsertDocumentAtReplaceHandler : IReplacingCallback
 {

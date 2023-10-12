@@ -20,7 +20,7 @@ public Document Open(string fileName)
 
 ### Return_Value
 
-UN[`Document`](../../document/) objet qui représente un document Word.
+UN[`Document`](../../document/)objet qui représente un document Word.
 
 ### Remarques
 
@@ -38,7 +38,7 @@ Dim doc
 Set doc = helper.Open(fileName)
 ```
 
-Montre comment ouvrir des documents à l'aide de la classe ComHelper.
+Montre comment ouvrir des documents à l’aide de la classe ComHelper.
 
 ```csharp
 // La classe ComHelper nous permet de charger des documents depuis des clients COM.
@@ -49,7 +49,7 @@ Document doc = comHelper.Open(MyDir + "Document.docx");
 
 Assert.AreEqual("Hello World!\r\rHello Word!\r\r\rHello World!", doc.GetText().Trim());
 
-// 2 - Depuis un flux :
+// 2 - Depuis un flux :
 using (FileStream stream = new FileStream(MyDir + "Document.docx", FileMode.Open))
 {
     doc = comHelper.Open(stream);
@@ -69,7 +69,7 @@ using (FileStream stream = new FileStream(MyDir + "Document.docx", FileMode.Open
 
 ## Open(Stream) {#open}
 
-Autorise le chargement d'une application COM[`Document`](../../document/) à partir d'un flux.
+Permet de charger une application COM[`Document`](../../document/) à partir d'un flux.
 
 ```csharp
 public Document Open(Stream stream)
@@ -81,15 +81,15 @@ public Document Open(Stream stream)
 
 ### Return_Value
 
-UN[`Document`](../../document/) objet qui représente un document Word.
+UN[`Document`](../../document/)objet qui représente un document Word.
 
 ### Remarques
 
-Cette méthode revient à appeler le[`Document`](../../document/) constructeur avec un paramètre de flux.
+Cette méthode revient à appeler le[`Document`](../../document/) constructeur avec un paramètre stream.
 
 ### Exemples
 
-Montre comment ouvrir des documents à l'aide de la classe ComHelper.
+Montre comment ouvrir des documents à l’aide de la classe ComHelper.
 
 ```csharp
 // La classe ComHelper nous permet de charger des documents depuis des clients COM.
@@ -100,7 +100,7 @@ Document doc = comHelper.Open(MyDir + "Document.docx");
 
 Assert.AreEqual("Hello World!\r\rHello Word!\r\r\rHello World!", doc.GetText().Trim());
 
-// 2 - Depuis un flux :
+// 2 - Depuis un flux :
 using (FileStream stream = new FileStream(MyDir + "Document.docx", FileMode.Open))
 {
     doc = comHelper.Open(stream);

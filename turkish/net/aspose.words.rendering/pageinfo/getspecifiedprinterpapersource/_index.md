@@ -1,14 +1,14 @@
 ---
 title: PageInfo.GetSpecifiedPrinterPaperSource
 second_title: Aspose.Words for .NET API Referansı
-description: PageInfo yöntem. PaperSource bununla temsil edilen sayfayı yazdırmak için uygun nesne PageInfo .
+description: PageInfo yöntem. AlırPaperSource yazdırmaya uygun nesne bununla temsil edilen sayfaPageInfo .
 type: docs
-weight: 90
+weight: 100
 url: /tr/net/aspose.words.rendering/pageinfo/getspecifiedprinterpapersource/
 ---
 ## PageInfo.GetSpecifiedPrinterPaperSource method
 
-PaperSource bununla temsil edilen sayfayı yazdırmak için uygun nesne [`PageInfo`](../) .
+AlırPaperSource yazdırmaya uygun nesne bununla temsil edilen sayfa[`PageInfo`](../) .
 
 ```csharp
 public PaperSource GetSpecifiedPrinterPaperSource(PaperSourceCollection paperSources, 
@@ -17,7 +17,7 @@ public PaperSource GetSpecifiedPrinterPaperSource(PaperSourceCollection paperSou
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| paperSources | PaperSourceCollection | Kullanılabilir kağıt kaynakları. |
+| paperSources | PaperSourceCollection | Mevcut kağıt kaynakları. |
 | defaultPageSettingsPaperSource | PaperSource | Varsayılan yazıcı ayarlarında tanımlanan kağıt kaynağı. |
 
 ### Geri dönüş değeri
@@ -26,17 +26,17 @@ Kağıt kaynağını belirtmek için .NET yazdırma çerçevesinde kullanabilece
 
 ### Notlar
 
-Bu yöntem, .NET Framework 2.0 veya sonraki bir sürümünü gerektirir.
+Bu yöntem .NET Framework 2.0 veya üstünü gerektirir.
 
 ### Örnekler
 
-Word belgesindeki her sayfa için sayfa boyutu ve yönlendirme bilgilerinin nasıl yazdırılacağını gösterir.
+Bir Word belgesindeki her sayfa için sayfa boyutu ve yön bilgilerinin nasıl yazdırılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// İlk bölüm 2 sayfadır. Her birine farklı bir yazıcı kağıt tepsisi atayacağız,
-// numarası bir tür kağıt kaynağıyla eşleşecek. Bu kaynaklar ve Çeşitleri değişiklik gösterecektir.
+// İlk bölüm 2 sayfadan oluşuyor. Her birine farklı bir yazıcı kağıt tepsisi atayacağız,
+// numarası bir tür kağıt kaynağıyla eşleşecek. Bu kaynaklar ve çeşitleri farklılık gösterecektir
 // yüklü yazıcı sürücüsüne bağlı olarak.
 PrinterSettings.PaperSourceCollection paperSources = new PrinterSettings().PaperSources;
 
@@ -50,7 +50,7 @@ float dpi = 96;
 
 for (int i = 0; i < doc.PageCount; i++)
 {
-    // Her sayfa, indeksi ilgili sayfanın numarası olan bir PageInfo nesnesine sahiptir.
+    // Her sayfanın, dizini ilgili sayfanın numarası olan bir PageInfo nesnesi vardır.
     PageInfo pageInfo = doc.GetPageInfo(i);
 
     // Sayfanın yönünü ve boyutlarını yazdırın.

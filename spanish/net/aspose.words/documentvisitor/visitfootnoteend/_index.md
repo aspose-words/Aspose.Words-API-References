@@ -1,14 +1,14 @@
 ---
 title: DocumentVisitor.VisitFootnoteEnd
 second_title: Referencia de API de Aspose.Words para .NET
-description: DocumentVisitor método. Se llama cuando finaliza la enumeración del texto de una nota al pie o al final.
+description: DocumentVisitor método. Se llama cuando finaliza la enumeración de una nota al pie o del texto de una nota al final.
 type: docs
 weight: 210
 url: /es/net/aspose.words/documentvisitor/visitfootnoteend/
 ---
 ## DocumentVisitor.VisitFootnoteEnd method
 
-Se llama cuando finaliza la enumeración del texto de una nota al pie o al final.
+Se llama cuando finaliza la enumeración de una nota al pie o del texto de una nota al final.
 
 ```csharp
 public virtual VisitorAction VisitFootnoteEnd(Footnote footnote)
@@ -24,7 +24,7 @@ A[`VisitorAction`](../../visitoraction/) valor que especifica cómo continuar la
 
 ### Ejemplos
 
-Muestra cómo imprimir la estructura de nodos de cada nota al pie de página en un documento.
+Muestra cómo imprimir la estructura de nodos de cada nota al pie de un documento.
 
 ```csharp
 public void FootnoteToText()
@@ -32,8 +32,8 @@ public void FootnoteToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     FootnoteStructurePrinter visitor = new FootnoteStructurePrinter();
 
-    // Cuando conseguimos que un nodo compuesto acepte un documento visitante, el visitante visita el nodo de aceptación,
-    // y luego atraviesa todos los elementos secundarios del nodo en profundidad.
+    // Cuando conseguimos que un nodo compuesto acepte un visitante del documento, el visitante visita el nodo receptor,
+    // y luego atraviesa todos los hijos del nodo en profundidad.
     // El visitante puede leer y modificar cada nodo visitado.
     doc.Accept(visitor);
 
@@ -53,7 +53,7 @@ public class FootnoteStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Obtiene el texto sin formato del documento que fue acumulado por el visitante.
+    /// Obtiene el texto sin formato del documento acumulado por el visitante.
     /// </summary>
     public string GetText()
     {
@@ -61,7 +61,7 @@ public class FootnoteStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Llamado cuando se encuentra un nodo de nota al pie en el documento.
+    /// Se llama cuando se encuentra un nodo de nota al pie en el documento.
     /// </summary>
     public override VisitorAction VisitFootnoteStart(Footnote footnote)
     {
@@ -73,7 +73,7 @@ public class FootnoteStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Llamado después de que se hayan visitado todos los nodos secundarios de un nodo de nota al pie.
+    /// Se llama después de que se hayan visitado todos los nodos secundarios de un nodo de nota al pie.
     /// </summary>
     public override VisitorAction VisitFootnoteEnd(Footnote footnote)
     {
@@ -85,7 +85,7 @@ public class FootnoteStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Llamado cuando se encuentra un nodo Ejecutar en el documento.
+    /// Se llama cuando se encuentra un nodo Ejecutar en el documento.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -95,9 +95,9 @@ public class FootnoteStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Agregue una línea al StringBuilder y sangre dependiendo de qué tan profundo esté el visitante en el árbol del documento.
+    /// Agrega una línea al StringBuilder y sangra dependiendo de qué tan profundo esté el visitante en el árbol del documento.
     /// </summary>
-    /// <parámetro nombre="texto"></parámetro>
+    /// <param nombre="texto"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++) mBuilder.Append("|  ");

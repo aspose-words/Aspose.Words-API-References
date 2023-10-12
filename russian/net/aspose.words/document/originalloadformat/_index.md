@@ -3,7 +3,7 @@ title: Document.OriginalLoadFormat
 second_title: Справочник по API Aspose.Words для .NET
 description: Document свойство. Получает формат исходного документа который был загружен в этот объект.
 type: docs
-weight: 280
+weight: 300
 url: /ru/net/aspose.words/document/originalloadformat/
 ---
 ## Document.OriginalLoadFormat property
@@ -16,7 +16,7 @@ public LoadFormat OriginalLoadFormat { get; }
 
 ### Примечания
 
-Если вы создали новый пустой документ, возвращаетDoc ценность.
+Если вы создали новый пустой документ, возвращаетDoc ценить.
 
 ### Примеры
 

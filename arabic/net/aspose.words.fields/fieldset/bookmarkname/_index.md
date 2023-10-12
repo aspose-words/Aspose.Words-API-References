@@ -16,14 +16,14 @@ public string BookmarkName { get; set; }
 
 ### أمثلة
 
-يوضح كيفية إنشاء نص ذي إشارة مرجعية باستخدام حقل SET ، ثم عرضه في المستند باستخدام حقل REF.
+يوضح كيفية إنشاء نص ذو إشارة مرجعية باستخدام حقل SET، ثم عرضه في المستند باستخدام حقل REF.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
- // اسم النص الذي تم وضع إشارة مرجعية عليه باستخدام حقل SET.
-// يشير هذا الحقل إلى "إشارة مرجعية" وليس بنية إشارة مرجعية تظهر داخل النص ، ولكن إلى متغير مسمى.
+ // قم بتسمية النص الذي تم وضع إشارة مرجعية عليه بحقل SET.
+// يشير هذا الحقل إلى "الإشارة المرجعية" وليس إلى بنية الإشارة المرجعية التي تظهر داخل النص، ولكنه يشير إلى متغير مسمى.
 FieldSet fieldSet = (FieldSet)builder.InsertField(FieldType.FieldSet, false);
 fieldSet.BookmarkName = "MyBookmark";
 fieldSet.BookmarkText = "Hello world!";
@@ -31,7 +31,7 @@ fieldSet.Update();
 
 Assert.AreEqual(" SET  MyBookmark \"Hello world!\"", fieldSet.GetFieldCode());
 
-// الرجوع إلى الإشارة المرجعية بالاسم في حقل REF وعرض محتوياتها.
+// ارجع إلى الإشارة المرجعية بالاسم في حقل REF واعرض محتوياتها.
 FieldRef fieldRef = (FieldRef)builder.InsertField(FieldType.FieldRef, true);
 fieldRef.BookmarkName = "MyBookmark";
 fieldRef.Update();

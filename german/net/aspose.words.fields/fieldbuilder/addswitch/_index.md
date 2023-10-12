@@ -1,14 +1,14 @@
 ---
 title: FieldBuilder.AddSwitch
 second_title: Aspose.Words für .NET-API-Referenz
-description: FieldBuilder methode. Fügt einen Feldschalter hinzu.
+description: FieldBuilder methode. Fügt den Schalter eines Feldes hinzu.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fields/fieldbuilder/addswitch/
 ---
 ## AddSwitch(string) {#addswitch}
 
-Fügt einen Feldschalter hinzu.
+Fügt den Schalter eines Feldes hinzu.
 
 ```csharp
 public FieldBuilder AddSwitch(string switchName)
@@ -24,13 +24,13 @@ Diese Überladung fügt ein Flag hinzu (Schalter ohne Argument).
 
 ### Beispiele
 
-Zeigt, wie Felder mit einem Feldgenerator erstellt und dann in das Dokument eingefügt werden.
+Zeigt, wie Felder mit einem Feld-Builder erstellt und dann in das Dokument eingefügt werden.
 
 ```csharp
 Document doc = new Document();
 
-// Unten sind drei Beispiele für die Feldkonstruktion mit einem Feldgenerator.
-// 1 - Einzelfeld:
+// Nachfolgend finden Sie drei Beispiele für die Feldkonstruktion, die mit einem Feld-Builder durchgeführt wurde.
+// 1 - Einzelnes Feld:
 // Verwenden Sie einen Feldgenerator, um ein SYMBOL-Feld hinzuzufügen, das das Symbol ƒ (Florin) anzeigt.
 FieldBuilder builder = new FieldBuilder(FieldType.FieldSymbol);
 builder.AddArgument(402);
@@ -42,27 +42,27 @@ Field field = builder.BuildAndInsert(doc.FirstSection.Body.FirstParagraph);
 Assert.AreEqual(" SYMBOL 402 \\f Arial \\s 25 \\u ", field.GetFieldCode());
 
 // 2 - Verschachteltes Feld:
-// Verwenden Sie einen Feldgenerator, um ein Formelfeld zu erstellen, das von einem anderen Feldgenerator als inneres Feld verwendet wird.
+// Verwenden Sie einen Feld-Builder, um ein Formelfeld zu erstellen, das von einem anderen Feld-Builder als inneres Feld verwendet wird.
 FieldBuilder innerFormulaBuilder = new FieldBuilder(FieldType.FieldFormula);
 innerFormulaBuilder.AddArgument(100);
 innerFormulaBuilder.AddArgument("+");
 innerFormulaBuilder.AddArgument(74);
 
-// Einen weiteren Builder für ein weiteres SYMBOL-Feld erstellen und das Formelfeld einfügen
- // die wir oben erstellt haben, in das Feld SYMBOL als Argument.
+// Einen weiteren Builder für ein anderes SYMBOL-Feld erstellen und das Formelfeld einfügen
+ // das wir oben erstellt haben, als Argument in das SYMBOL-Feld ein.
 builder = new FieldBuilder(FieldType.FieldSymbol);
 builder.AddArgument(innerFormulaBuilder);
 field = builder.BuildAndInsert(doc.FirstSection.Body.AppendParagraph(string.Empty));
 
-// Das äußere Feld SYMBOL verwendet das Ergebnis des Formelfelds, 174, als Argument,
+// Das äußere SYMBOL-Feld verwendet das Formelfeldergebnis 174 als Argument.
 // wodurch das Feld das Symbol ® (Registered Sign) anzeigt, da seine Zeichennummer 174 ist.
 Assert.AreEqual(" SYMBOL \u0013 = 100 + 74 \u0014\u0015 ", field.GetFieldCode());
 
-// 3 - Mehrere verschachtelte Felder und Argumente:
-// Jetzt verwenden wir einen Builder, um ein IF-Feld zu erstellen, das einen von zwei benutzerdefinierten Zeichenfolgenwerten anzeigt,
-// abhängig vom wahren/falschen Wert seines Ausdrucks. Um einen True/False-Wert zu erhalten
-// die bestimmt, welche Zeichenfolge das IF-Feld anzeigt, testet das IF-Feld zwei numerische Ausdrücke auf Gleichheit.
-// Wir werden die beiden Ausdrücke in Form von Formelfeldern bereitstellen, die wir innerhalb des IF-Felds verschachteln.
+// 3 – Mehrere verschachtelte Felder und Argumente:
+// Jetzt verwenden wir einen Builder, um ein IF-Feld zu erstellen, das einen von zwei benutzerdefinierten Zeichenfolgenwerten anzeigt.
+// abhängig vom wahren/falschen Wert seines Ausdrucks. Um einen wahren/falschen Wert zu erhalten
+// das bestimmt, welche Zeichenfolge das IF-Feld anzeigt. Das IF-Feld prüft zwei numerische Ausdrücke auf Gleichheit.
+// Wir stellen die beiden Ausdrücke in Form von Formelfeldern bereit, die wir im IF-Feld verschachteln.
 FieldBuilder leftExpression = new FieldBuilder(FieldType.FieldFormula);
 leftExpression.AddArgument(2);
 leftExpression.AddArgument("+");
@@ -73,8 +73,8 @@ rightExpression.AddArgument(2.5);
 rightExpression.AddArgument("*");
 rightExpression.AddArgument(5.2);
 
-// Als Nächstes erstellen wir zwei Feldargumente, die als Wahr/Falsch-Ausgabestrings für das IF-Feld dienen.
-// Diese Argumente werden die Ausgabewerte unserer numerischen Ausdrücke wiederverwenden.
+// Als nächstes erstellen wir zwei Feldargumente, die als True/False-Ausgabezeichenfolgen für das IF-Feld dienen.
+// Diese Argumente verwenden die Ausgabewerte unserer numerischen Ausdrücke wieder.
 FieldArgumentBuilder trueOutput = new FieldArgumentBuilder();
 trueOutput.AddText("True, both expressions amount to ");
 trueOutput.AddField(leftExpression);
@@ -85,7 +85,7 @@ falseOutput.AddField(leftExpression);
 falseOutput.AddNode(new Run(doc, " does not equal "));
 falseOutput.AddField(rightExpression);
 
- // Schließlich erstellen wir einen weiteren Feldgenerator für das IF-Feld und kombinieren alle Ausdrücke.
+ // Abschließend erstellen wir einen weiteren Feldgenerator für das IF-Feld und kombinieren alle Ausdrücke.
 builder = new FieldBuilder(FieldType.FieldIf);
 builder.AddArgument(leftExpression);
 builder.AddArgument("=");
@@ -112,7 +112,7 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 
 ## AddSwitch(string, string) {#addswitch_3}
 
-Fügt einen Feldschalter hinzu.
+Fügt den Schalter eines Feldes hinzu.
 
 ```csharp
 public FieldBuilder AddSwitch(string switchName, string switchArgument)
@@ -125,13 +125,13 @@ public FieldBuilder AddSwitch(string switchName, string switchArgument)
 
 ### Beispiele
 
-Zeigt, wie Felder mit einem Feldgenerator erstellt und dann in das Dokument eingefügt werden.
+Zeigt, wie Felder mit einem Feld-Builder erstellt und dann in das Dokument eingefügt werden.
 
 ```csharp
 Document doc = new Document();
 
-// Unten sind drei Beispiele für die Feldkonstruktion mit einem Feldgenerator.
-// 1 - Einzelfeld:
+// Nachfolgend finden Sie drei Beispiele für die Feldkonstruktion, die mit einem Feld-Builder durchgeführt wurde.
+// 1 - Einzelnes Feld:
 // Verwenden Sie einen Feldgenerator, um ein SYMBOL-Feld hinzuzufügen, das das Symbol ƒ (Florin) anzeigt.
 FieldBuilder builder = new FieldBuilder(FieldType.FieldSymbol);
 builder.AddArgument(402);
@@ -143,27 +143,27 @@ Field field = builder.BuildAndInsert(doc.FirstSection.Body.FirstParagraph);
 Assert.AreEqual(" SYMBOL 402 \\f Arial \\s 25 \\u ", field.GetFieldCode());
 
 // 2 - Verschachteltes Feld:
-// Verwenden Sie einen Feldgenerator, um ein Formelfeld zu erstellen, das von einem anderen Feldgenerator als inneres Feld verwendet wird.
+// Verwenden Sie einen Feld-Builder, um ein Formelfeld zu erstellen, das von einem anderen Feld-Builder als inneres Feld verwendet wird.
 FieldBuilder innerFormulaBuilder = new FieldBuilder(FieldType.FieldFormula);
 innerFormulaBuilder.AddArgument(100);
 innerFormulaBuilder.AddArgument("+");
 innerFormulaBuilder.AddArgument(74);
 
-// Einen weiteren Builder für ein weiteres SYMBOL-Feld erstellen und das Formelfeld einfügen
- // die wir oben erstellt haben, in das Feld SYMBOL als Argument.
+// Einen weiteren Builder für ein anderes SYMBOL-Feld erstellen und das Formelfeld einfügen
+ // das wir oben erstellt haben, als Argument in das SYMBOL-Feld ein.
 builder = new FieldBuilder(FieldType.FieldSymbol);
 builder.AddArgument(innerFormulaBuilder);
 field = builder.BuildAndInsert(doc.FirstSection.Body.AppendParagraph(string.Empty));
 
-// Das äußere Feld SYMBOL verwendet das Ergebnis des Formelfelds, 174, als Argument,
+// Das äußere SYMBOL-Feld verwendet das Formelfeldergebnis 174 als Argument.
 // wodurch das Feld das Symbol ® (Registered Sign) anzeigt, da seine Zeichennummer 174 ist.
 Assert.AreEqual(" SYMBOL \u0013 = 100 + 74 \u0014\u0015 ", field.GetFieldCode());
 
-// 3 - Mehrere verschachtelte Felder und Argumente:
-// Jetzt verwenden wir einen Builder, um ein IF-Feld zu erstellen, das einen von zwei benutzerdefinierten Zeichenfolgenwerten anzeigt,
-// abhängig vom wahren/falschen Wert seines Ausdrucks. Um einen True/False-Wert zu erhalten
-// die bestimmt, welche Zeichenfolge das IF-Feld anzeigt, testet das IF-Feld zwei numerische Ausdrücke auf Gleichheit.
-// Wir werden die beiden Ausdrücke in Form von Formelfeldern bereitstellen, die wir innerhalb des IF-Felds verschachteln.
+// 3 – Mehrere verschachtelte Felder und Argumente:
+// Jetzt verwenden wir einen Builder, um ein IF-Feld zu erstellen, das einen von zwei benutzerdefinierten Zeichenfolgenwerten anzeigt.
+// abhängig vom wahren/falschen Wert seines Ausdrucks. Um einen wahren/falschen Wert zu erhalten
+// das bestimmt, welche Zeichenfolge das IF-Feld anzeigt. Das IF-Feld prüft zwei numerische Ausdrücke auf Gleichheit.
+// Wir stellen die beiden Ausdrücke in Form von Formelfeldern bereit, die wir im IF-Feld verschachteln.
 FieldBuilder leftExpression = new FieldBuilder(FieldType.FieldFormula);
 leftExpression.AddArgument(2);
 leftExpression.AddArgument("+");
@@ -174,8 +174,8 @@ rightExpression.AddArgument(2.5);
 rightExpression.AddArgument("*");
 rightExpression.AddArgument(5.2);
 
-// Als Nächstes erstellen wir zwei Feldargumente, die als Wahr/Falsch-Ausgabestrings für das IF-Feld dienen.
-// Diese Argumente werden die Ausgabewerte unserer numerischen Ausdrücke wiederverwenden.
+// Als nächstes erstellen wir zwei Feldargumente, die als True/False-Ausgabezeichenfolgen für das IF-Feld dienen.
+// Diese Argumente verwenden die Ausgabewerte unserer numerischen Ausdrücke wieder.
 FieldArgumentBuilder trueOutput = new FieldArgumentBuilder();
 trueOutput.AddText("True, both expressions amount to ");
 trueOutput.AddField(leftExpression);
@@ -186,7 +186,7 @@ falseOutput.AddField(leftExpression);
 falseOutput.AddNode(new Run(doc, " does not equal "));
 falseOutput.AddField(rightExpression);
 
- // Schließlich erstellen wir einen weiteren Feldgenerator für das IF-Feld und kombinieren alle Ausdrücke.
+ // Abschließend erstellen wir einen weiteren Feldgenerator für das IF-Feld und kombinieren alle Ausdrücke.
 builder = new FieldBuilder(FieldType.FieldIf);
 builder.AddArgument(leftExpression);
 builder.AddArgument("=");
@@ -213,7 +213,7 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 
 ## AddSwitch(string, int) {#addswitch_2}
 
-Fügt einen Feldschalter hinzu.
+Fügt den Schalter eines Feldes hinzu.
 
 ```csharp
 public FieldBuilder AddSwitch(string switchName, int switchArgument)
@@ -226,13 +226,13 @@ public FieldBuilder AddSwitch(string switchName, int switchArgument)
 
 ### Beispiele
 
-Zeigt, wie Felder mit einem Feldgenerator erstellt und dann in das Dokument eingefügt werden.
+Zeigt, wie Felder mit einem Feld-Builder erstellt und dann in das Dokument eingefügt werden.
 
 ```csharp
 Document doc = new Document();
 
-// Unten sind drei Beispiele für die Feldkonstruktion mit einem Feldgenerator.
-// 1 - Einzelfeld:
+// Nachfolgend finden Sie drei Beispiele für die Feldkonstruktion, die mit einem Feld-Builder durchgeführt wurde.
+// 1 - Einzelnes Feld:
 // Verwenden Sie einen Feldgenerator, um ein SYMBOL-Feld hinzuzufügen, das das Symbol ƒ (Florin) anzeigt.
 FieldBuilder builder = new FieldBuilder(FieldType.FieldSymbol);
 builder.AddArgument(402);
@@ -244,27 +244,27 @@ Field field = builder.BuildAndInsert(doc.FirstSection.Body.FirstParagraph);
 Assert.AreEqual(" SYMBOL 402 \\f Arial \\s 25 \\u ", field.GetFieldCode());
 
 // 2 - Verschachteltes Feld:
-// Verwenden Sie einen Feldgenerator, um ein Formelfeld zu erstellen, das von einem anderen Feldgenerator als inneres Feld verwendet wird.
+// Verwenden Sie einen Feld-Builder, um ein Formelfeld zu erstellen, das von einem anderen Feld-Builder als inneres Feld verwendet wird.
 FieldBuilder innerFormulaBuilder = new FieldBuilder(FieldType.FieldFormula);
 innerFormulaBuilder.AddArgument(100);
 innerFormulaBuilder.AddArgument("+");
 innerFormulaBuilder.AddArgument(74);
 
-// Einen weiteren Builder für ein weiteres SYMBOL-Feld erstellen und das Formelfeld einfügen
- // die wir oben erstellt haben, in das Feld SYMBOL als Argument.
+// Einen weiteren Builder für ein anderes SYMBOL-Feld erstellen und das Formelfeld einfügen
+ // das wir oben erstellt haben, als Argument in das SYMBOL-Feld ein.
 builder = new FieldBuilder(FieldType.FieldSymbol);
 builder.AddArgument(innerFormulaBuilder);
 field = builder.BuildAndInsert(doc.FirstSection.Body.AppendParagraph(string.Empty));
 
-// Das äußere Feld SYMBOL verwendet das Ergebnis des Formelfelds, 174, als Argument,
+// Das äußere SYMBOL-Feld verwendet das Formelfeldergebnis 174 als Argument.
 // wodurch das Feld das Symbol ® (Registered Sign) anzeigt, da seine Zeichennummer 174 ist.
 Assert.AreEqual(" SYMBOL \u0013 = 100 + 74 \u0014\u0015 ", field.GetFieldCode());
 
-// 3 - Mehrere verschachtelte Felder und Argumente:
-// Jetzt verwenden wir einen Builder, um ein IF-Feld zu erstellen, das einen von zwei benutzerdefinierten Zeichenfolgenwerten anzeigt,
-// abhängig vom wahren/falschen Wert seines Ausdrucks. Um einen True/False-Wert zu erhalten
-// die bestimmt, welche Zeichenfolge das IF-Feld anzeigt, testet das IF-Feld zwei numerische Ausdrücke auf Gleichheit.
-// Wir werden die beiden Ausdrücke in Form von Formelfeldern bereitstellen, die wir innerhalb des IF-Felds verschachteln.
+// 3 – Mehrere verschachtelte Felder und Argumente:
+// Jetzt verwenden wir einen Builder, um ein IF-Feld zu erstellen, das einen von zwei benutzerdefinierten Zeichenfolgenwerten anzeigt.
+// abhängig vom wahren/falschen Wert seines Ausdrucks. Um einen wahren/falschen Wert zu erhalten
+// das bestimmt, welche Zeichenfolge das IF-Feld anzeigt. Das IF-Feld prüft zwei numerische Ausdrücke auf Gleichheit.
+// Wir stellen die beiden Ausdrücke in Form von Formelfeldern bereit, die wir im IF-Feld verschachteln.
 FieldBuilder leftExpression = new FieldBuilder(FieldType.FieldFormula);
 leftExpression.AddArgument(2);
 leftExpression.AddArgument("+");
@@ -275,8 +275,8 @@ rightExpression.AddArgument(2.5);
 rightExpression.AddArgument("*");
 rightExpression.AddArgument(5.2);
 
-// Als Nächstes erstellen wir zwei Feldargumente, die als Wahr/Falsch-Ausgabestrings für das IF-Feld dienen.
-// Diese Argumente werden die Ausgabewerte unserer numerischen Ausdrücke wiederverwenden.
+// Als nächstes erstellen wir zwei Feldargumente, die als True/False-Ausgabezeichenfolgen für das IF-Feld dienen.
+// Diese Argumente verwenden die Ausgabewerte unserer numerischen Ausdrücke wieder.
 FieldArgumentBuilder trueOutput = new FieldArgumentBuilder();
 trueOutput.AddText("True, both expressions amount to ");
 trueOutput.AddField(leftExpression);
@@ -287,7 +287,7 @@ falseOutput.AddField(leftExpression);
 falseOutput.AddNode(new Run(doc, " does not equal "));
 falseOutput.AddField(rightExpression);
 
- // Schließlich erstellen wir einen weiteren Feldgenerator für das IF-Feld und kombinieren alle Ausdrücke.
+ // Abschließend erstellen wir einen weiteren Feldgenerator für das IF-Feld und kombinieren alle Ausdrücke.
 builder = new FieldBuilder(FieldType.FieldIf);
 builder.AddArgument(leftExpression);
 builder.AddArgument("=");
@@ -314,7 +314,7 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 
 ## AddSwitch(string, double) {#addswitch_1}
 
-Fügt einen Feldschalter hinzu.
+Fügt den Schalter eines Feldes hinzu.
 
 ```csharp
 public FieldBuilder AddSwitch(string switchName, double switchArgument)
@@ -327,13 +327,13 @@ public FieldBuilder AddSwitch(string switchName, double switchArgument)
 
 ### Beispiele
 
-Zeigt, wie Felder mit einem Feldgenerator erstellt und dann in das Dokument eingefügt werden.
+Zeigt, wie Felder mit einem Feld-Builder erstellt und dann in das Dokument eingefügt werden.
 
 ```csharp
 Document doc = new Document();
 
-// Unten sind drei Beispiele für die Feldkonstruktion mit einem Feldgenerator.
-// 1 - Einzelfeld:
+// Nachfolgend finden Sie drei Beispiele für die Feldkonstruktion, die mit einem Feld-Builder durchgeführt wurde.
+// 1 - Einzelnes Feld:
 // Verwenden Sie einen Feldgenerator, um ein SYMBOL-Feld hinzuzufügen, das das Symbol ƒ (Florin) anzeigt.
 FieldBuilder builder = new FieldBuilder(FieldType.FieldSymbol);
 builder.AddArgument(402);
@@ -345,27 +345,27 @@ Field field = builder.BuildAndInsert(doc.FirstSection.Body.FirstParagraph);
 Assert.AreEqual(" SYMBOL 402 \\f Arial \\s 25 \\u ", field.GetFieldCode());
 
 // 2 - Verschachteltes Feld:
-// Verwenden Sie einen Feldgenerator, um ein Formelfeld zu erstellen, das von einem anderen Feldgenerator als inneres Feld verwendet wird.
+// Verwenden Sie einen Feld-Builder, um ein Formelfeld zu erstellen, das von einem anderen Feld-Builder als inneres Feld verwendet wird.
 FieldBuilder innerFormulaBuilder = new FieldBuilder(FieldType.FieldFormula);
 innerFormulaBuilder.AddArgument(100);
 innerFormulaBuilder.AddArgument("+");
 innerFormulaBuilder.AddArgument(74);
 
-// Einen weiteren Builder für ein weiteres SYMBOL-Feld erstellen und das Formelfeld einfügen
- // die wir oben erstellt haben, in das Feld SYMBOL als Argument.
+// Einen weiteren Builder für ein anderes SYMBOL-Feld erstellen und das Formelfeld einfügen
+ // das wir oben erstellt haben, als Argument in das SYMBOL-Feld ein.
 builder = new FieldBuilder(FieldType.FieldSymbol);
 builder.AddArgument(innerFormulaBuilder);
 field = builder.BuildAndInsert(doc.FirstSection.Body.AppendParagraph(string.Empty));
 
-// Das äußere Feld SYMBOL verwendet das Ergebnis des Formelfelds, 174, als Argument,
+// Das äußere SYMBOL-Feld verwendet das Formelfeldergebnis 174 als Argument.
 // wodurch das Feld das Symbol ® (Registered Sign) anzeigt, da seine Zeichennummer 174 ist.
 Assert.AreEqual(" SYMBOL \u0013 = 100 + 74 \u0014\u0015 ", field.GetFieldCode());
 
-// 3 - Mehrere verschachtelte Felder und Argumente:
-// Jetzt verwenden wir einen Builder, um ein IF-Feld zu erstellen, das einen von zwei benutzerdefinierten Zeichenfolgenwerten anzeigt,
-// abhängig vom wahren/falschen Wert seines Ausdrucks. Um einen True/False-Wert zu erhalten
-// die bestimmt, welche Zeichenfolge das IF-Feld anzeigt, testet das IF-Feld zwei numerische Ausdrücke auf Gleichheit.
-// Wir werden die beiden Ausdrücke in Form von Formelfeldern bereitstellen, die wir innerhalb des IF-Felds verschachteln.
+// 3 – Mehrere verschachtelte Felder und Argumente:
+// Jetzt verwenden wir einen Builder, um ein IF-Feld zu erstellen, das einen von zwei benutzerdefinierten Zeichenfolgenwerten anzeigt.
+// abhängig vom wahren/falschen Wert seines Ausdrucks. Um einen wahren/falschen Wert zu erhalten
+// das bestimmt, welche Zeichenfolge das IF-Feld anzeigt. Das IF-Feld prüft zwei numerische Ausdrücke auf Gleichheit.
+// Wir stellen die beiden Ausdrücke in Form von Formelfeldern bereit, die wir im IF-Feld verschachteln.
 FieldBuilder leftExpression = new FieldBuilder(FieldType.FieldFormula);
 leftExpression.AddArgument(2);
 leftExpression.AddArgument("+");
@@ -376,8 +376,8 @@ rightExpression.AddArgument(2.5);
 rightExpression.AddArgument("*");
 rightExpression.AddArgument(5.2);
 
-// Als Nächstes erstellen wir zwei Feldargumente, die als Wahr/Falsch-Ausgabestrings für das IF-Feld dienen.
-// Diese Argumente werden die Ausgabewerte unserer numerischen Ausdrücke wiederverwenden.
+// Als nächstes erstellen wir zwei Feldargumente, die als True/False-Ausgabezeichenfolgen für das IF-Feld dienen.
+// Diese Argumente verwenden die Ausgabewerte unserer numerischen Ausdrücke wieder.
 FieldArgumentBuilder trueOutput = new FieldArgumentBuilder();
 trueOutput.AddText("True, both expressions amount to ");
 trueOutput.AddField(leftExpression);
@@ -388,7 +388,7 @@ falseOutput.AddField(leftExpression);
 falseOutput.AddNode(new Run(doc, " does not equal "));
 falseOutput.AddField(rightExpression);
 
- // Schließlich erstellen wir einen weiteren Feldgenerator für das IF-Feld und kombinieren alle Ausdrücke.
+ // Abschließend erstellen wir einen weiteren Feldgenerator für das IF-Feld und kombinieren alle Ausdrücke.
 builder = new FieldBuilder(FieldType.FieldIf);
 builder.AddArgument(leftExpression);
 builder.AddArgument("=");

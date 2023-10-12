@@ -1,14 +1,14 @@
 ---
 title: PageSetup.PageHeight
 second_title: Aspose.Words for .NET API Referansı
-description: PageSetup mülk. Sayfanın yüksekliğini nokta olarak döndürür veya ayarlar.
+description: PageSetup mülk. Sayfanın yüksekliğini nokta cinsinden döndürür veya ayarlar.
 type: docs
-weight: 300
+weight: 310
 url: /tr/net/aspose.words/pagesetup/pageheight/
 ---
 ## PageSetup.PageHeight property
 
-Sayfanın yüksekliğini nokta olarak döndürür veya ayarlar.
+Sayfanın yüksekliğini nokta cinsinden döndürür veya ayarlar.
 
 ```csharp
 public double PageHeight { get; set; }
@@ -16,7 +16,7 @@ public double PageHeight { get; set; }
 
 ### Örnekler
 
-Bir resmin nasıl ekleneceğini ve filigran olarak nasıl kullanılacağını gösterir.
+Bir görüntünün nasıl ekleneceğini ve filigran olarak nasıl kullanılacağını gösterir.
 
 ```csharp
 Document doc = new Document();

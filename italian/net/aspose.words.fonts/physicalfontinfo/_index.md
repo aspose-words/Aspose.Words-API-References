@@ -1,14 +1,16 @@
 ---
 title: Class PhysicalFontInfo
 second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Fonts.PhysicalFontInfo classe. Specifica le informazioni sul carattere fisico disponibile per il motore di caratteri Aspose.Words.
+description: Aspose.Words.Fonts.PhysicalFontInfo classe. Specifica le informazioni sul carattere fisico disponibile per il motore dei caratteri Aspose.Words.
 type: docs
-weight: 2850
+weight: 3030
 url: /it/net/aspose.words.fonts/physicalfontinfo/
 ---
 ## PhysicalFontInfo class
 
-Specifica le informazioni sul carattere fisico disponibile per il motore di caratteri Aspose.Words.
+Specifica le informazioni sul carattere fisico disponibile per il motore dei caratteri Aspose.Words.
+
+Per saperne di più, visita il[Lavorare con i caratteri](https://docs.aspose.com/words/net/working-with-fonts/) articolo di documentazione.
 
 ```csharp
 public class PhysicalFontInfo
@@ -18,17 +20,17 @@ public class PhysicalFontInfo
 
 | Nome | Descrizione |
 | --- | --- |
-| [FilePath](../../aspose.words.fonts/physicalfontinfo/filepath/) { get; } | Percorso dell'eventuale file del carattere. |
-| [FontFamilyName](../../aspose.words.fonts/physicalfontinfo/fontfamilyname/) { get; } | Cognome del font. |
+| [FilePath](../../aspose.words.fonts/physicalfontinfo/filepath/) { get; } | Percorso del file del carattere, se presente. |
+| [FontFamilyName](../../aspose.words.fonts/physicalfontinfo/fontfamilyname/) { get; } | Cognome del carattere. |
 | [FullFontName](../../aspose.words.fonts/physicalfontinfo/fullfontname/) { get; } | Nome completo del carattere. |
-| [Version](../../aspose.words.fonts/physicalfontinfo/version/) { get; } | Stringa di versione del font. |
+| [Version](../../aspose.words.fonts/physicalfontinfo/version/) { get; } | Stringa della versione del carattere. |
 
 ### Esempi
 
 Mostra come elencare i caratteri disponibili.
 
 ```csharp
-// Configura Aspose.Words per generare i font da una cartella personalizzata, quindi stampa tutti i font disponibili.
+// Configura Aspose.Words per ottenere i caratteri da una cartella personalizzata, quindi stampa tutti i caratteri disponibili.
 FontSourceBase[] folderFontSource = { new FolderFontSource(FontsDir, true) };
 
 foreach (PhysicalFontInfo fontInfo in folderFontSource[0].GetAvailableFonts())

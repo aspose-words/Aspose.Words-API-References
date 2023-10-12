@@ -18,7 +18,7 @@ public DocumentSecurity Security { get; set; }
 
 Använd den här egenskapen endast i informationssyfte eftersom Microsoft Word inte alltid anger den här egenskapen. Den här egenskapen är endast tillgänglig i DOC- och OOXML-dokument.
 
-För att skydda eller avskydda ett dokument använd the [`Protect`](../../../aspose.words/document/protect/) och[`Unprotect`](../../../aspose.words/document/unprotect/)metoder.
+För att skydda eller avskydda ett dokument använd the [`Protect`](../../../aspose.words/document/protect/) och[`Unprotect`](../../../aspose.words/document/unprotect/) metoder.
 
 Aspose.Words uppdaterar den här egenskapen till ett korrekt värde innan ett dokument sparas.
 

@@ -3,12 +3,12 @@ title: ImageData.ToByteArray
 second_title: Referencia de API de Aspose.Words para .NET
 description: ImageData método. Devuelve bytes de imagen para cualquier imagen independientemente de si la imagen está almacenada o vinculada.
 type: docs
-weight: 210
+weight: 220
 url: /es/net/aspose.words.drawing/imagedata/tobytearray/
 ---
 ## ImageData.ToByteArray method
 
-Devuelve bytes de imagen para cualquier imagen, independientemente de si la imagen está almacenada o vinculada.
+Devuelve bytes de imagen para cualquier imagen independientemente de si la imagen está almacenada o vinculada.
 
 ```csharp
 public byte[] ToByteArray()
@@ -16,7 +16,7 @@ public byte[] ToByteArray()
 
 ### Observaciones
 
-Si la imagen está vinculada, descarga la imagen cada vez que se llama.
+Si la imagen está vinculada, la descarga cada vez que se llama.
 
 ### Ejemplos
 
@@ -24,7 +24,6 @@ Muestra cómo crear un archivo de imagen a partir de los datos de imagen sin pro
 
 ```csharp
 Document imgSourceDoc = new Document(MyDir + "Images.docx");
-
 Shape imgShape = (Shape) imgSourceDoc.GetChild(NodeType.Shape, 0, true);
 
 Assert.True(imgShape.HasImage);

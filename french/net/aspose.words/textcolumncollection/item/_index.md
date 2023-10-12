@@ -16,7 +16,7 @@ public TextColumn this[int index] { get; }
 
 ### Exemples
 
-Montre comment créer des colonnes espacées de manière inégale.
+Montre comment créer des colonnes inégalement espacées.
 
 ```csharp
 Document doc = new Document();
@@ -27,17 +27,17 @@ TextColumnCollection columns = pageSetup.TextColumns;
 columns.EvenlySpaced = false;
 columns.SetCount(2);
 
-// Déterminer la quantité d'espace dont nous disposons pour organiser les colonnes.
+// Détermine la quantité d'espace dont nous disposons pour organiser les colonnes.
 double contentWidth = pageSetup.PageWidth - pageSetup.LeftMargin - pageSetup.RightMargin;
 
 Assert.AreEqual(470.30d, contentWidth, 0.01d);
 
-// Définit la première colonne comme étant étroite.
+// Définit la première colonne pour qu'elle soit étroite.
 TextColumn column = columns[0];
 column.Width = 100;
 column.SpaceAfter = 20;
 
-// Définissez la deuxième colonne pour occuper le reste de l'espace disponible dans les marges de la page.
+// Définit la deuxième colonne pour qu'elle occupe le reste de l'espace disponible dans les marges de la page.
 column = columns[1];
 column.Width = contentWidth - column.Width - column.SpaceAfter;
 

@@ -22,7 +22,7 @@ public double Height { get; set; }
 
 ### Observaciones
 
-Este es un atajo a la[`Height`](../../shapebase/height/) propiedad.
+Este es un atajo hacia el[`Height`](../../shapebase/height/) propiedad.
 
 Los valores válidos oscilan entre 0 y 1584 inclusive.
 

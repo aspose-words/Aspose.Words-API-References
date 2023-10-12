@@ -20,7 +20,7 @@ El valor predeterminado es`verdadero`.
 
 ### Ejemplos
 
-Muestra cómo habilitar/deshabilitar el redimensionamiento automático de celdas de tabla.
+Muestra cómo habilitar/deshabilitar el cambio de tamaño automático de celdas de una tabla.
 
 ```csharp
 Document doc = new Document();
@@ -39,9 +39,9 @@ builder.Write("Lorem ipsum dolor sit amet, consectetur adipiscing elit, " +
 builder.EndRow();
 builder.EndTable();
 
-// Establecer la propiedad "AllowAutoFit" en "falso" para que la tabla mantenga las dimensiones
+// Establece la propiedad "AllowAutoFit" en "false" para que la tabla mantenga las dimensiones
 // de todas sus filas y celdas, y trunca el contenido si es demasiado grande para caber.
-// Establezca la propiedad "AllowAutoFit" en "true" para permitir que la tabla cambie el ancho y el alto de sus celdas
+// Establece la propiedad "AllowAutoFit" en "true" para permitir que la tabla cambie el ancho y alto de sus celdas
 // para acomodar su contenido.
 table.AllowAutoFit = allowAutoFit;
 

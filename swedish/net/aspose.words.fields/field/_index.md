@@ -3,12 +3,14 @@ title: Class Field
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Fields.Field klass. Representerar ett Microsoft Worddokumentfält.
 type: docs
-weight: 1360
+weight: 1510
 url: /sv/net/aspose.words.fields/field/
 ---
 ## Field class
 
 Representerar ett Microsoft Word-dokumentfält.
+
+För att lära dig mer, besök[Arbeta med Fields](https://docs.aspose.com/words/net/working-with-fields/) dokumentationsartikel.
 
 ```csharp
 public class Field
@@ -25,7 +27,7 @@ public class Field
 | [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Hämtar eller ställer in om fältet är låst (ska inte räkna om resultatet). |
 | [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Hämtar eller ställer in LCID för fältet. |
 | [Result](../../aspose.words.fields/field/result/) { get; set; } | Hämtar eller ställer in text som är mellan fältavgränsaren och fältslutet. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | Hämtar noden som representerar fältseparatorn. Kan vara null. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Hämtar noden som representerar fältseparatorn. Kan vara`null` . |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Hämtar noden som representerar början av fältet. |
 | virtual [Type](../../aspose.words.fields/field/type/) { get; } | Hämtar fälttypen Microsoft Word. |
 
@@ -35,14 +37,14 @@ public class Field
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/#getfieldcode)() | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). Både fältkod och fältresultat för underordnade fält ingår. |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/#getfieldcode_1)(bool) | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). |
-| [Remove](../../aspose.words.fields/field/remove/)() | Tar bort fältet från dokumentet. Returnerar en nod direkt efter fältet. Om fältets slut är den sista child av dess överordnade nod, returnerar dess överordnade stycke. Om fältet redan är borttaget, returneras **null** . |
+| [Remove](../../aspose.words.fields/field/remove/)() | Tar bort fältet från dokumentet. Returnerar en nod direkt efter fältet. Om fältets slut är den sista child av dess överordnade nod, returnerar dess överordnade stycke. Om fältet redan är borttaget, returneras`null` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Utför fältavlänkningen. |
 | [Update](../../aspose.words.fields/field/update/#update)() | Utför fältuppdateringen. Kastar om fältet redan uppdateras. |
 | [Update](../../aspose.words.fields/field/update/#update_1)(bool) | Utför en fältuppdatering. Kastar om fältet redan uppdateras. |
 
 ### Anmärkningar
 
-Ett fält i ett Word-dokument är en komplex struktur som består av flera noder som inkluderar fältstart, fältkod, fältseparator, fältresultat och fältslut. Fält kan kapslas, innehålla rikt innehåll och span flera stycken eller avsnitt i ett dokument. De`Field`class är ett "fasad"-objekt som ger egenskaper och metoder som gör det möjligt att arbeta med ett fält som ett enda objekt.
+Ett fält i ett Word-dokument är en komplex struktur som består av flera noder som inkluderar fältstart, fältkod, fältseparator, fältresultat och fältslut. Fält kan kapslas, innehålla rikt innehåll och span flera stycken eller avsnitt i ett dokument. De`Field` class är ett "fasad"-objekt som ger egenskaper och metoder som gör det möjligt att arbeta med ett fält som ett enda objekt.
 
 De[`Start`](./start/) ,[`Separator`](./separator/) och[`End`](./end/) egenskaper pekar på fältets start-, separator- och slutnod för fältet.
 

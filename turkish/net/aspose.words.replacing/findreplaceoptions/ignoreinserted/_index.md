@@ -1,14 +1,14 @@
 ---
 title: FindReplaceOptions.IgnoreInserted
 second_title: Aspose.Words for .NET API Referansı
-description: FindReplaceOptions mülk. Ekleme düzeltmeleri içindeki metnin yoksayılacağını belirten bir boole değeri alır veya ayarlar. Varsayılan değeryanlış .
+description: FindReplaceOptions mülk. Ekleme düzeltmeleri içindeki metnin yoksayılacağını belirten bir boole değeri alır veya ayarlar. Varsayılan değerYANLIŞ .
 type: docs
 weight: 100
 url: /tr/net/aspose.words.replacing/findreplaceoptions/ignoreinserted/
 ---
 ## FindReplaceOptions.IgnoreInserted property
 
-Ekleme düzeltmeleri içindeki metnin yoksayılacağını belirten bir boole değeri alır veya ayarlar. Varsayılan değer`yanlış` .
+Ekleme düzeltmeleri içindeki metnin yoksayılacağını belirten bir boole değeri alır veya ayarlar. Varsayılan değer:`YANLIŞ` .
 
 ```csharp
 public bool IgnoreInserted { get; set; }
@@ -16,7 +16,7 @@ public bool IgnoreInserted { get; set; }
 
 ### Örnekler
 
-Bul ve değiştir işlemi sırasında ekleme düzeltmelerinin içine metnin nasıl dahil edileceğini veya yoksayılacağını gösterir.
+Bul ve değiştir işlemi sırasında ekleme düzeltmelerinin içine metnin nasıl dahil edileceğini veya yok sayılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -34,10 +34,10 @@ Assert.True(doc.FirstSection.Body.Paragraphs[1].IsInsertRevision);
 // Bul ve değiştir işlemini değiştirmek için bir "FindReplaceOptions" nesnesi kullanabiliriz.
 FindReplaceOptions options = new FindReplaceOptions();
 
-// Bul ve değiştir özelliğini almak için "IgnoreInserted" bayrağını "true" olarak ayarlayın
+// Bul ve değiştir işlevini elde etmek için "IgnoreInserted" bayrağını "true" olarak ayarlayın
 // düzeltme ekleyen paragrafları yok sayma işlemi.
-// Bul ve değiştir özelliğini almak için "IgnoreInserted" bayrağını "false" olarak ayarlayın
-// ayrıca ekleme revizyonları içinde metin aramak için işlem.
+// Bul ve değiştir işlevini elde etmek için "IgnoreInserted" bayrağını "false" olarak ayarlayın
+// düzeltme eklemelerin içindeki metni de arama işlemi.
 options.IgnoreInserted = ignoreTextInsideInsertRevisions;
 
 doc.Range.Replace("Hello", "Greetings", options);

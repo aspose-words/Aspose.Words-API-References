@@ -1,14 +1,14 @@
 ---
 title: FieldDatabaseDataTable.Rows
 second_title: Aspose.Words for .NET API Referansı
-description: FieldDatabaseDataTable mülk. Bu tabloya ait satırları alır.
+description: FieldDatabaseDataTable mülk. Bu tabloya ait satırları döndürür.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.fields/fielddatabasedatatable/rows/
 ---
 ## FieldDatabaseDataTable.Rows property
 
-Bu tabloya ait satırları alır.
+Bu tabloya ait satırları döndürür.
 
 ```csharp
 public IList<FieldDatabaseDataRow> Rows { get; }

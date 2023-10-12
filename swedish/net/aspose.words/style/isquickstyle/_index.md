@@ -3,7 +3,7 @@ title: Style.IsQuickStyle
 second_title: Aspose.Words för .NET API Referens
 description: Style fast egendom. Anger om denna stil visas i Quick Stylegalleriet i MS Word UI.
 type: docs
-weight: 70
+weight: 80
 url: /sv/net/aspose.words/style/isquickstyle/
 ---
 ## Style.IsQuickStyle property

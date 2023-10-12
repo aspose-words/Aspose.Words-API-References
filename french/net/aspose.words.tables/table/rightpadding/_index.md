@@ -16,7 +16,7 @@ public double RightPadding { get; set; }
 
 ### Exemples
 
-Montre comment configurer le rembourrage de contenu dans un tableau.
+Montre comment configurer le remplissage du contenu dans un tableau.
 
 ```csharp
 Document doc = new Document();
@@ -29,8 +29,8 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndTable();
 
-// Pour chaque cellule du tableau, définissez la distance entre son contenu et chacune de ses bordures. 
-// Ce tableau maintiendra la distance de remplissage minimale en enveloppant le texte.
+ // Pour chaque cellule du tableau, définissez la distance entre son contenu et chacune de ses bordures.
+// Ce tableau conservera la distance de remplissage minimale en enveloppant le texte.
 table.LeftPadding = 30;
 table.RightPadding = 60;
 table.TopPadding = 10;

@@ -1,14 +1,14 @@
 ---
 title: Field.Result
 second_title: Справочник по API Aspose.Words для .NET
-description: Field свойство. Получает или задает текст который находится между разделителем поля и концом поля.
+description: Field свойство. Получает или задает текст расположенный между разделителем полей и концом поля.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.fields/field/result/
 ---
 ## Field.Result property
 
-Получает или задает текст, который находится между разделителем поля и концом поля.
+Получает или задает текст, расположенный между разделителем полей и концом поля.
 
 ```csharp
 public string Result { get; set; }
@@ -16,7 +16,7 @@ public string Result { get; set; }
 
 ### Примеры
 
-Показывает, как вставить поле в документ, используя код поля.
+Показывает, как вставить поле в документ с помощью кода поля.
 
 ```csharp
 Document doc = new Document();

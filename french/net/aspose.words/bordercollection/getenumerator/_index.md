@@ -16,13 +16,13 @@ public IEnumerator<Border> GetEnumerator()
 
 ### Exemples
 
-Montre comment parcourir et modifier toutes les bordures d'un objet au format paragraphe.
+Montre comment parcourir et modifier toutes les bordures d’un objet au format paragraphe.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Configurez les paramètres de format de paragraphe du constructeur pour créer une bordure de vague verte de tous les côtés.
+// Configurez les paramètres de format de paragraphe du générateur pour créer une bordure de vague verte de tous les côtés.
 BorderCollection borders = builder.ParagraphFormat.Borders;
 
 using (IEnumerator<Border> enumerator = borders.GetEnumerator())

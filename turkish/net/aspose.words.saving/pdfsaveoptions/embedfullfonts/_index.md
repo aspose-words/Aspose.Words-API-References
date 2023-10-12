@@ -1,14 +1,14 @@
 ---
 title: PdfSaveOptions.EmbedFullFonts
 second_title: Aspose.Words for .NET API Referansı
-description: PdfSaveOptions mülk. Yazı tiplerinin ortaya çıkan PDF belgelerine nasıl gömüleceğini kontrol eder.
+description: PdfSaveOptions mülk. Fontların elde edilen PDF belgelerine nasıl gömüleceğini kontrol eder.
 type: docs
-weight: 100
+weight: 120
 url: /tr/net/aspose.words.saving/pdfsaveoptions/embedfullfonts/
 ---
 ## PdfSaveOptions.EmbedFullFonts property
 
-Yazı tiplerinin ortaya çıkan PDF belgelerine nasıl gömüleceğini kontrol eder.
+Fontların elde edilen PDF belgelerine nasıl gömüleceğini kontrol eder.
 
 ```csharp
 public bool EmbedFullFonts { get; set; }
@@ -16,11 +16,11 @@ public bool EmbedFullFonts { get; set; }
 
 ### Notlar
 
-Varsayılan değer`yanlış`, bu, yazı tiplerinin gömmeden önce alt kümelere ayrıldığı anlamına gelir. Çıktı dosyasının boyutunu daha küçük tutmak istiyorsanız, alt kümeleme kullanışlıdır. Alt kümeleme, bir fonttan all kullanılmayan glifleri kaldırır.
+Varsayılan değer:`YANLIŞ`bu, yazı tiplerinin yerleştirmeden önce alt kümelere ayrıldığı anlamına gelir. Çıktı dosyasının boyutunu daha küçük tutmak istiyorsanız alt kümeleme kullanışlıdır. Alt kümeleme, all kullanılmayan glifleri bir yazı tipinden kaldırır.
 
-Bu değer olarak ayarlandığında`doğru`tam bir yazı tipi dosyası, alt kümesi olmadan PDF'ye gömülür. Bu, daha büyük çıktı dosyalarıyla sonuçlanacaktır, ancak ortaya çıkan PDF'yi daha sonra düzenlemek (örneğin daha fazla metin eklemek) istediğinizde yararlı bir seçenek olabilir.
+Bu değer şu şekilde ayarlandığında`doğru`, tam bir yazı tipi dosyası, alt kümesi olmadan PDF'ye gömülür. Bu, çıktı dosyalarının daha büyük olmasına neden olur, ancak ortaya çıkan PDF'yi daha sonra düzenlemek (örneğin daha fazla metin eklemek) istediğinizde yararlı bir seçenek olabilir.
 
-Bazı yazı tipleri büyüktür (birkaç megabayt) ve bunları subsetting olmadan yerleştirmek büyük çıktı belgelerine neden olur.
+Bazı yazı tipleri büyüktür (birkaç megabayt) ve bunları subsetting olmadan gömmek, büyük çıktı belgeleriyle sonuçlanacaktır.
 
 ### Örnekler
 
@@ -35,7 +35,7 @@ builder.Writeln("Hello world!");
 builder.Font.Name = "Arvo";
 builder.Writeln("The quick brown fox jumps over the lazy dog.");
 
-// Bu belgedeki her iki yazı tipine de erişimimiz olduğundan emin olmak için yazı tipi kaynaklarımızı yapılandırın.
+// Bu belgedeki her iki yazı tipine de erişebildiğimizden emin olmak için yazı tipi kaynaklarımızı yapılandırın.
 FontSourceBase[] originalFontsSources = FontSettings.DefaultInstance.GetFontsSources();
 Aspose.Words.Fonts.FolderFontSource folderFontSource = new Aspose.Words.Fonts.FolderFontSource(FontsDir, true);
 FontSettings.DefaultInstance.SetFontsSources(new[] { originalFontsSources[0], folderFontSource });
@@ -44,15 +44,15 @@ FontSourceBase[] fontSources = FontSettings.DefaultInstance.GetFontsSources();
 Assert.True(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"));
 Assert.True(fontSources[1].GetAvailableFonts().Any(f => f.FullFontName == "Arvo"));
 
-// Belgenin "Kaydet" yöntemine aktarabileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
-// bu yöntemin belgeyi .PDF'ye dönüştürme şeklini değiştirmek için.
+// Belgenin "Save" yöntemine aktarabileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
+// bu yöntemin belgeyi .PDF'ye dönüştürme biçimini değiştirmek için.
 PdfSaveOptions options = new PdfSaveOptions();
 
 // Belgemiz özel bir yazı tipi içerdiğinden, çıktı belgesine gömmek istenebilir.
 // Çıktı PDF'sine her gömülü yazı tipinin her glifini gömmek için "EmbedFullFonts" özelliğini "true" olarak ayarlayın.
-// Belgenin boyutu çok büyüyebilir, ancak PDF'yi düzenlersek tüm yazı tiplerini tam olarak kullanabiliriz.
-// Fontlara alt küme uygulamak için "EmbedFullFonts" özelliğini "false" olarak ayarlayın, yalnızca glifleri kaydedin
-// belgenin kullandığı. Dosya önemli ölçüde daha küçük olacaktır,
+// Belgenin boyutu çok büyüyebilir ancak PDF'yi düzenlersek tüm yazı tiplerini tam olarak kullanabiliriz.
+// Fontlara alt kümeleme uygulamak ve yalnızca glifleri kaydetmek için "EmbedFullFonts" özelliğini "false" olarak ayarlayın
+// belgenin kullandığı. Dosya oldukça küçük olacak,
 // ancak belgeyi düzenlersek herhangi bir özel yazı tipine erişmemiz gerekebilir.
 options.EmbedFullFonts = embedFullFonts;
 

@@ -1,14 +1,14 @@
 ---
 title: Interface IBarcodeGenerator
 second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Fields.IBarcodeGenerator koppel. Öffentliche Schnittstelle für benutzerdefinierten BarcodeGenerator. Die Implementierung sollte vom Benutzer bereitgestellt werden.
+description: Aspose.Words.Fields.IBarcodeGenerator koppel. Öffentliche Schnittstelle für den benutzerdefinierten BarcodeGenerator. Die Implementierung sollte vom Benutzer bereitgestellt werden.
 type: docs
-weight: 2500
+weight: 2660
 url: /de/net/aspose.words.fields/ibarcodegenerator/
 ---
 ## IBarcodeGenerator interface
 
-Öffentliche Schnittstelle für benutzerdefinierten Barcode-Generator. Die Implementierung sollte vom Benutzer bereitgestellt werden.
+Öffentliche Schnittstelle für den benutzerdefinierten Barcode-Generator. Die Implementierung sollte vom Benutzer bereitgestellt werden.
 
 ```csharp
 public interface IBarcodeGenerator
@@ -18,12 +18,12 @@ public interface IBarcodeGenerator
 
 | Name | Beschreibung |
 | --- | --- |
-| [GetBarcodeImage](../../aspose.words.fields/ibarcodegenerator/getbarcodeimage/)(BarcodeParameters) | Barcodebild mit Parametersatz generieren (für Feld DisplayBarcode). |
-| [GetOldBarcodeImage](../../aspose.words.fields/ibarcodegenerator/getoldbarcodeimage/)(BarcodeParameters) | Barcode-Bild mit dem Parametersatz generieren (für altmodisches Barcode-Feld). |
+| [GetBarcodeImage](../../aspose.words.fields/ibarcodegenerator/getbarcodeimage/)(BarcodeParameters) | Erzeugen Sie ein Barcode-Bild mithilfe des Parametersatzes (für das DisplayBarcode-Feld). |
+| [GetOldBarcodeImage](../../aspose.words.fields/ibarcodegenerator/getoldbarcodeimage/)(BarcodeParameters) | Erzeugen Sie ein Barcode-Bild mithilfe des Parametersatzes (für das altmodische Barcode-Feld). |
 
 ### Bemerkungen
 
-Generatorinstanz sollte durch die geleitet werden[`BarcodeGenerator`](../fieldoptions/barcodegenerator/) Eigentum.
+Generatorinstanz sollte durch die geleitet werden[`BarcodeGenerator`](../fieldoptions/barcodegenerator/) Eigenschaft.
 
 ### Beispiele
 
@@ -32,13 +32,12 @@ Zeigt, wie ein Barcode-Generator verwendet wird.
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-
-// Wir können eine benutzerdefinierte IBarcodeGenerator-Implementierung verwenden, um Barcodes zu generieren,
-// und dann als Bilder in das Dokument einfügen.
+// Wir können eine benutzerdefinierte IBarcodeGenerator-Implementierung verwenden, um Barcodes zu generieren.
+// und fügen Sie sie dann als Bilder in das Dokument ein.
 doc.FieldOptions.BarcodeGenerator = new CustomBarcodeGenerator();
 
 // Nachfolgend finden Sie vier Beispiele für verschiedene Barcode-Typen, die wir mit unserem Generator erstellen können.
-// Für jeden Barcode geben wir einen neuen Satz von Barcode-Parametern an und generieren dann das Bild.
+// Für jeden Barcode geben wir einen neuen Satz Barcode-Parameter an und generieren dann das Bild.
 // Anschließend können wir das Bild in das Dokument einfügen oder im lokalen Dateisystem speichern.
 // 1 - QR-Code:
 BarcodeParameters barcodeParameters = new BarcodeParameters
@@ -72,7 +71,7 @@ img = doc.FieldOptions.BarcodeGenerator.GetBarcodeImage(barcodeParameters);
 img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.EAN13.jpg");
 builder.InsertImage(img);
 
-// 3 - CODE39-Strichcode:
+// 3 - CODE39-Barcode:
 barcodeParameters = new BarcodeParameters
 {
     BarcodeType = "CODE39",

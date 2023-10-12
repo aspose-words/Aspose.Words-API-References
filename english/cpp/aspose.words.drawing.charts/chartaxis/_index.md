@@ -49,6 +49,7 @@ class ChartAxis : public Aspose::Words::Drawing::Charts::Core::IDmlChartTitleHol
 | [get_TickLabelSpacing](./get_ticklabelspacing/)() | Gets or sets the interval, at which tick labels are drawn. |
 | [get_TickLabelSpacingIsAuto](./get_ticklabelspacingisauto/)() | Gets or sets a flag indicating whether automatic interval of drawing tick labels shall be used. |
 | [get_TickMarkSpacing](./get_tickmarkspacing/)() | Gets or sets the interval, at which tick marks are drawn. |
+| [get_Title](./get_title/)() |  |
 | [get_Type](./get_type/)() const | Returns type of the axis. |
 | [GetType](./gettype/)() const override |  |
 | [Is](./is/)(const System::TypeInfo\&) const override |  |

@@ -1,14 +1,16 @@
 ---
 title: Class HeaderFooterCollection
 second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.HeaderFooterCollection klass. Ger maskinskriven åtkomst tillHeaderFooter noder av en Sektion .
+description: Aspose.Words.HeaderFooterCollection klass. Ger maskinskriven åtkomst tillHeaderFooter noder av enSection .
 type: docs
-weight: 2930
+weight: 3110
 url: /sv/net/aspose.words/headerfootercollection/
 ---
 ## HeaderFooterCollection class
 
-Ger maskinskriven åtkomst till[`HeaderFooter`](../headerfooter/) noder av en **Sektion** .
+Ger maskinskriven åtkomst till[`HeaderFooter`](../headerfooter/) noder av en[`Section`](../section/) .
+
+För att lära dig mer, besök[Arbeta med sidhuvuden och sidfötter](https://docs.aspose.com/words/net/working-with-headers-and-footers/) dokumentationsartikel.
 
 ```csharp
 public class HeaderFooterCollection : NodeCollection
@@ -19,7 +21,7 @@ public class HeaderFooterCollection : NodeCollection
 | namn | Beskrivning |
 | --- | --- |
 | [Count](../../aspose.words/nodecollection/count/) { get; } | Hämtar antalet noder i samlingen. |
-| [Item](../../aspose.words/headerfootercollection/item/) { get; } | Hämtar en **Sidhuvud** vid det givna indexet. (3 indexers) |
+| [Item](../../aspose.words/headerfootercollection/item/) { get; } | Hämtar en[`HeaderFooter`](../headerfooter/) vid det givna indexet. (3 indexers) |
 
 ## Metoder
 
@@ -39,11 +41,11 @@ public class HeaderFooterCollection : NodeCollection
 
 ### Anmärkningar
 
-Det kan vara max en **Sidhuvud**
+Det kan vara max en[`HeaderFooter`](../headerfooter/)
 
-av varje[`HeaderFooterType`](../headerfootertype/) per  **Sektion** .
+av varje[`HeaderFooterType`](../headerfootertype/) per [`Section`](../section/) .
 
-**Sidhuvud** föremål kan förekomma i valfri ordning i samlingen.
+[`HeaderFooter`](../headerfooter/) föremål kan förekomma i valfri ordning i samlingen.
 
 ### Exempel
 
@@ -64,7 +66,7 @@ foreach (Section section in doc.OfType<Section>())
     footer = section.HeadersFooters[HeaderFooterType.FooterPrimary];
     footer?.Remove();
 
-      // 3 - "Jämn" sidhuvudet/sidfoten, som visas på jämna sidor.
+     // 3 - "Jämn" sidhuvudet/sidfoten, som visas på jämna sidor.
     footer = section.HeadersFooters[HeaderFooterType.FooterEven];
     footer?.Remove();
 

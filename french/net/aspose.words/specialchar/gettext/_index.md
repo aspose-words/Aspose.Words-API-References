@@ -1,14 +1,14 @@
 ---
 title: SpecialChar.GetText
 second_title: Référence de l'API Aspose.Words pour .NET
-description: SpecialChar méthode. Obtient le caractère spécial que ce nœud représente.
+description: SpecialChar méthode. Obtient le caractère spécial que représente ce nœud.
 type: docs
 weight: 30
 url: /fr/net/aspose.words/specialchar/gettext/
 ---
 ## SpecialChar.GetText method
 
-Obtient le caractère spécial que ce nœud représente.
+Obtient le caractère spécial que représente ce nœud.
 
 ```csharp
 public override string GetText()
@@ -16,7 +16,7 @@ public override string GetText()
 
 ### Return_Value
 
-La chaîne qui contient le caractère représenté par ce nœud.
+Chaîne qui contient le caractère représenté par ce nœud.
 
 ### Voir également
 

@@ -3,12 +3,14 @@ title: Class FieldKeywords
 second_title: Aspose.Words für .NET-API-Referenz
 description: Aspose.Words.Fields.FieldKeywords klas. Implementiert das Feld KEYWORDS.
 type: docs
-weight: 1940
+weight: 2090
 url: /de/net/aspose.words.fields/fieldkeywords/
 ---
 ## FieldKeywords class
 
 Implementiert das Feld KEYWORDS.
+
+Um mehr zu erfahren, besuchen Sie die[Arbeiten mit Feldern](https://docs.aspose.com/words/net/working-with-fields/) Dokumentationsartikel.
 
 ```csharp
 public class FieldKeywords : Field
@@ -26,40 +28,40 @@ public class FieldKeywords : Field
 | --- | --- |
 | [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Ruft den Text ab, der das angezeigte Feldergebnis darstellt. |
 | [End](../../aspose.words.fields/field/end/) { get; } | Ruft den Knoten ab, der das Feldende darstellt. |
-| [Format](../../aspose.words.fields/field/format/) { get; } | erhält a[`FieldFormat`](../fieldformat/) Objekt, das typisierten Zugriff auf die Feldformatierung bereitstellt. |
-| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Ruft ab oder legt fest, ob das aktuelle Ergebnis des Felds aufgrund anderer Änderungen am Dokument nicht mehr korrekt (veraltet) ist. |
+| [Format](../../aspose.words.fields/field/format/) { get; } | Ruft a ab[`FieldFormat`](../fieldformat/) Objekt, das typisierten Zugriff auf die Formatierung des Felds bietet. |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Ruft ab oder legt fest, ob das aktuelle Ergebnis des Felds aufgrund anderer am Dokument vorgenommener Änderungen nicht mehr korrekt (veraltet) ist. |
 | [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Ruft ab oder legt fest, ob das Feld gesperrt ist (sollte sein Ergebnis nicht neu berechnen). |
 | [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Ruft die LCID des Felds ab oder legt sie fest. |
-| [Result](../../aspose.words.fields/field/result/) { get; set; } | Liest oder setzt Text, der zwischen dem Feldtrennzeichen und dem Feldende steht. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | Ruft den Knoten ab, der das Feldtrennzeichen darstellt. Kann null sein. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | Ruft Text ab, der zwischen dem Feldtrennzeichen und dem Feldende liegt, oder legt diesen fest. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Ruft den Knoten ab, der das Feldtrennzeichen darstellt. Kann sein`Null` . |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Ruft den Knoten ab, der den Anfang des Felds darstellt. |
-| [Text](../../aspose.words.fields/fieldkeywords/text/) { get; set; } | Ruft den Text der Schlüsselwörter ab oder setzt ihn. |
+| [Text](../../aspose.words.fields/fieldkeywords/text/) { get; set; } | Ruft den Text der Schlüsselwörter ab oder legt ihn fest. |
 | virtual [Type](../../aspose.words.fields/field/type/) { get; } | Ruft den Microsoft Word-Feldtyp ab. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Gibt Text zwischen Feldanfang und Feldtrennzeichen zurück (oder Feldende, wenn kein Trennzeichen vorhanden ist). Sowohl Feldcode als auch Feldergebnis von untergeordneten Feldern sind enthalten. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Gibt Text zwischen Feldanfang und Feldtrennzeichen (oder Feldende, wenn kein Trennzeichen vorhanden ist) zurück. |
-| [Remove](../../aspose.words.fields/field/remove/)() | Entfernt das Feld aus dem Dokument. Gibt einen Knoten direkt nach dem Feld zurück. Wenn das Ende des Felds das letzte Kind seines Elternknotens ist, wird sein Elternabsatz zurückgegeben. Wenn das Feld bereits entfernt wurde, wird zurückgegeben **Null** . |
-| [Unlink](../../aspose.words.fields/field/unlink/)() | Führt das Feld Unlink aus. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Gibt Text zwischen Feldanfang und Feldtrennzeichen zurück (oder Feldende, wenn kein Trennzeichen vorhanden ist). Sowohl der Feldcode als auch das Feldergebnis der untergeordneten Felder sind enthalten. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Gibt Text zwischen Feldanfang und Feldtrennzeichen zurück (oder Feldende, wenn kein Trennzeichen vorhanden ist). |
+| [Remove](../../aspose.words.fields/field/remove/)() | Entfernt das Feld aus dem Dokument. Gibt einen Knoten direkt nach dem Feld zurück. Wenn das Ende des Felds das letzte child seines übergeordneten Knotens ist, wird dessen übergeordneter Absatz zurückgegeben. Wenn das Feld bereits entfernt wurde, wird zurückgegeben`Null` . |
+| [Unlink](../../aspose.words.fields/field/unlink/)() | Führt das Feld unlink aus. |
 | [Update](../../aspose.words.fields/field/update/)() | Führt die Feldaktualisierung durch. Wird ausgelöst, wenn das Feld bereits aktualisiert wird. |
 | [Update](../../aspose.words.fields/field/update/)(bool) | Führt eine Feldaktualisierung durch. Wird ausgelöst, wenn das Feld bereits aktualisiert wird. |
 
 ### Bemerkungen
 
-Ruft die in der aufgezeichneten Schlüsselwörter des Dokuments ab und legt sie optional fest **Schlüsselwörter**Eigenschaft der in integrierten Dokumenteigenschaften.
+Ruft die Schlüsselwörter des Dokuments ab und legt diese optional fest, wie im aufgezeichnet **Schlüsselwörter** Eigenschaft der integrierten Dokumenteigenschaften.
 
 ### Beispiele
 
-Zeigt an, dass ein KEYWORDS-Feld eingefügt werden soll.
+Zeigt das Einfügen eines KEYWORDS-Felds an.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Fügen Sie einige Schlüsselwörter hinzu, die im Datei-Explorer auch als "Tags" bezeichnet werden.
+// Fügen Sie einige Schlüsselwörter hinzu, die im Datei-Explorer auch als „Tags“ bezeichnet werden.
 doc.BuiltInDocumentProperties.Keywords = "Keyword1, Keyword2";
 
 // Das Feld KEYWORDS zeigt den Wert dieser Eigenschaft an.
@@ -69,8 +71,8 @@ field.Update();
 Assert.AreEqual(" KEYWORDS ", field.GetFieldCode());
 Assert.AreEqual("Keyword1, Keyword2", field.Result);
 
-// Festlegen eines Werts für die Text-Eigenschaft des Felds,
-// und das anschließende Aktualisieren des Felds überschreibt auch die entsprechende integrierte Eigenschaft mit dem neuen Wert.
+// Einen Wert für die Text-Eigenschaft des Feldes festlegen,
+// und dann das Feld aktualisieren, wird auch die entsprechende integrierte Eigenschaft mit dem neuen Wert überschrieben.
 field.Text = "OverridingKeyword";
 field.Update();
 

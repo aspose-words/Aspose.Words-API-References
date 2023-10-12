@@ -1,14 +1,14 @@
 ---
 title: XamlFlowSaveOptions.ImagesFolderAlias
 second_title: Aspose.Words per .NET API Reference
-description: XamlFlowSaveOptions proprietà. Specifica il nome della cartella utilizzata per costruire URI immagine scritti in un documento XAML. Limpostazione predefinita è una stringa vuota.
+description: XamlFlowSaveOptions proprietà. Specifica il nome della cartella utilizzata per costruire URI di immagine scritti in un documento XAML. Il valore predefinito è una stringa vuota.
 type: docs
 weight: 40
 url: /it/net/aspose.words.saving/xamlflowsaveoptions/imagesfolderalias/
 ---
 ## XamlFlowSaveOptions.ImagesFolderAlias property
 
-Specifica il nome della cartella utilizzata per costruire URI immagine scritti in un documento XAML. L'impostazione predefinita è una stringa vuota.
+Specifica il nome della cartella utilizzata per costruire URI di immagine scritti in un documento XAML. Il valore predefinito è una stringa vuota.
 
 ```csharp
 public string ImagesFolderAlias { get; set; }
@@ -16,19 +16,20 @@ public string ImagesFolderAlias { get; set; }
 
 ### Osservazioni
 
-Quando salvi un[`Document`](../../../aspose.words/document/) in formato XAML, Aspose.Words deve salvare tutte le immagini incorporate nel documento come file autonomi.[`ImagesFolder`](../imagesfolder/) consente di specificare dove verranno salvate le immagini e`ImagesFolderAlias` permette di specificare come verranno costruiti gli URI dell'immagine.
+Quando salvi un file[`Document`](../../../aspose.words/document/) nel formato XAML, Aspose.Words deve salvare tutte le immagini incorporate nel documento come file autonomi.[`ImagesFolder`](../imagesfolder/) ti consente di specificare dove verranno salvate le immagini e`ImagesFolderAlias` consente di specificare come verranno costruiti gli URI dell'immagine.
 
 Se`ImagesFolderAlias` non è una stringa vuota, lo sarà l'URI dell'immagine scritto in XAMLImagesFolderAlias + &lt;nome file immagine&gt;.
 
-Se`ImagesFolderAlias` è una stringa vuota, quindi sarà l'URI dell'immagine scritto in XAMLImagesFolder + &lt;nome file immagine&gt;.
+Se`ImagesFolderAlias`è una stringa vuota, l'URI dell'immagine scritto in XAML saràCartella Immagini + &lt;nome file immagine&gt;.
 
 Se`ImagesFolderAlias` è impostato per '.' (punto), il nome del file immagine verrà scritto in XAML senza percorso indipendentemente dalle altre opzioni.
 
 ### Esempi
 
-Mostra come stampare i nomi dei file delle immagini collegate create durante la conversione di un documento in formato .xaml in formato flusso.
+Mostra come stampare i nomi file delle immagini collegate create durante la conversione di un documento in formato flusso .xaml.
 
 ```csharp
+public void ImageFolder()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
@@ -44,23 +45,24 @@ Mostra come stampare i nomi dei file delle immagini collegate create durante la 
     // Aspose.Words salverà tutte le immagini collegate del documento.
     options.ImagesFolder = ArtifactsDir + "XamlFlowImageFolder";
 
-    // Usa la proprietà "ImagesFolderAlias" per usare questa cartella
+    // Utilizzare la proprietà "ImagesFolderAlias" per utilizzare questa cartella
     // quando si costruiscono URI di immagine invece del nome della cartella delle immagini.
     options.ImagesFolderAlias = ArtifactsDir + "XamlFlowImageFolderAlias";
 
     options.ImageSavingCallback = callback;
 
     // Una cartella specificata da "ImagesFolderAlias" dovrà contenere le risorse invece di "ImagesFolder".
-    // Dobbiamo assicurarci che la cartella esista prima che i flussi di callback possano inserirvi le proprie risorse.
+    // Dobbiamo garantire che la cartella esista prima che i flussi di callback possano inserirvi le proprie risorse.
     Directory.CreateDirectory(options.ImagesFolderAlias);
 
     doc.Save(ArtifactsDir + "XamlFlowSaveOptions.ImageFolder.xaml", options);
 
     foreach (string resource in callback.Resources)
         Console.WriteLine($"{callback.ImagesFolderAlias}/{resource}");
+}
 
 /// <summary>
-/// Conta e stampa i nomi dei file delle immagini mentre il loro documento principale viene convertito in formato flusso .xaml.
+/// Conta e stampa i nomi file delle immagini mentre il documento principale viene convertito in formato flusso .xaml.
 /// </summary>
 private class ImageUriPrinter : IImageSavingCallback
 {
@@ -74,8 +76,8 @@ private class ImageUriPrinter : IImageSavingCallback
     {
         Resources.Add(args.ImageFileName);
 
-        // Se avessimo specificato un alias di cartella immagine, avremmo anche bisogno
-        // per reindirizzare ogni flusso per inserire la sua immagine nella cartella alias.
+        // Se specificassimo un alias di cartella immagine, avremmo anche bisogno
+        // per reindirizzare ciascun flusso per inserire la relativa immagine nella cartella alias.
         args.ImageStream = new FileStream($"{ImagesFolderAlias}/{args.ImageFileName}", FileMode.Create);
         args.KeepImageStreamOpen = false;
     }

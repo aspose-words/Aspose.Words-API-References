@@ -16,7 +16,7 @@ public TextWrapping TextWrapping { get; set; }
 
 ### Ejemplos
 
-Muestra cómo trabajar con ajuste de texto de tabla.
+Muestra cómo trabajar con el ajuste de texto de una tabla.
 
 ```csharp
 Document doc = new Document();
@@ -33,8 +33,8 @@ table.PreferredWidth = PreferredWidth.FromPoints(300);
 builder.Font.Size = 16;
 builder.Writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
 
-// Establezca la propiedad "TextWrapping" en "TextWrapping.Around" para que la tabla ajuste el texto a su alrededor,
-// y empújelo hacia abajo en el párrafo a continuación estableciendo la posición.
+// Establece la propiedad "TextWrapping" en "TextWrapping.Around" para que la tabla ajuste el texto a su alrededor,
+// y empújelo hacia abajo en el párrafo siguiente estableciendo la posición.
 table.TextWrapping = TextWrapping.Around;
 table.AbsoluteHorizontalDistance = 100;
 table.AbsoluteVerticalDistance = 20;

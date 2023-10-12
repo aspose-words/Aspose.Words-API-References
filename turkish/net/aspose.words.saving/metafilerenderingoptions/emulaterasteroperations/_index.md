@@ -1,14 +1,14 @@
 ---
 title: MetafileRenderingOptions.EmulateRasterOperations
 second_title: Aspose.Words for .NET API Referansı
-description: MetafileRenderingOptions mülk. Raster işlemlerinin öykünmesi gerekip gerekmediğini belirleyen bir değer alır veya ayarlar.
+description: MetafileRenderingOptions mülk. Tarama işlemlerinin taklit edilip edilmeyeceğini belirleyen bir değer alır veya ayarlar.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.saving/metafilerenderingoptions/emulaterasteroperations/
 ---
 ## MetafileRenderingOptions.EmulateRasterOperations property
 
-Raster işlemlerinin öykünmesi gerekip gerekmediğini belirleyen bir değer alır veya ayarlar.
+Tarama işlemlerinin taklit edilip edilmeyeceğini belirleyen bir değer alır veya ayarlar.
 
 ```csharp
 public bool EmulateRasterOperations { get; set; }
@@ -16,35 +16,36 @@ public bool EmulateRasterOperations { get; set; }
 
 ### Notlar
 
-Meta dosyalarında belirli raster işlemleri kullanılabilir. Doğrudan vektör grafiklerine dönüştürülemezler. Raster işlemlerini taklit etmek, sonuçta ortaya çıkan vektör grafiklerinin kısmi rasterleştirilmesini gerektirir, bu da meta dosyası oluşturma performansını etkileyebilir.
+Meta dosyalarda belirli tarama işlemleri kullanılabilir. Doğrudan vektör grafiklerine dönüştürülemezler. Raster işlemlerinin taklit edilmesi, elde edilen vektör grafiklerinin kısmi rasterleştirilmesini gerektirir; bu, the meta dosyası oluşturma performansını etkileyebilir.
 
-Bu değer olarak ayarlandığında`doğru`, Aspose.Words tarama işlemlerini taklit eder. Ortaya çıkan çıktı kısmen rasterleştirilmiş olabilir ve performans daha yavaş olabilir.
+Bu değer şu şekilde ayarlandığında`doğru`Aspose.Words tarama işlemlerini taklit eder. Ortaya çıkan çıktı belki kısmen rasterleştirildi ve performans daha yavaş olabilir.
 
-Bu değer olarak ayarlandığında`yanlış`, Aspose.Words tarama işlemlerini taklit etmez. Aspose.Words bir meta dosyasında bir raster işlemiyle karşılaştığında, işletim sistemini kullanarak meta dosyasını bir bitmap haline getirmeye geri döner.
+Bu değer şu şekilde ayarlandığında`YANLIŞ`, Aspose.Words raster işlemlerini taklit etmez. Aspose.Words , bir meta dosyada bir raster işlemiyle karşılaştığında, the işletim sistemini kullanarak meta dosyasını bir bitmap'e dönüştürmeye geri döner.
 
 Bu seçenek yalnızca meta dosyası vektör grafikleri olarak işlendiğinde kullanılır.
 
-Varsayılan değer`doğru`.
+Varsayılan değer:`doğru`.
 
 ### Örnekler
 
-Gösteriler, bit eşlem oluşturmaya ve desteklenmeyen meta dosyası kayıtları hakkında uyarı türlerinin değiştirilmesine bir geri dönüş ekledi.
+Gösteriler, bitmap oluşturmaya bir geri dönüş ekledi ve desteklenmeyen meta dosyası kayıtlarıyla ilgili uyarı türlerini değiştirdi.
 
 ```csharp
+public void HandleBinaryRasterWarnings()
 {
     Document doc = new Document(MyDir + "WMF with image.docx");
 
     MetafileRenderingOptions metafileRenderingOptions = new MetafileRenderingOptions();
 
-    // Bitmap'e geri dönmek için "EmulateRasterOperations" özelliğini "false" olarak ayarlayın.
-    // çıktı PDF'sinde tarama işlemleri gerektiren bir meta dosyayla karşılaşır.
+    // Bitmap'e geri dönmek için "EmulateRasterOperations" özelliğini "false" olarak ayarlayın
+    // çıktı PDF'sinde görüntü oluşturmak için tarama işlemleri gerektiren bir meta dosyayla karşılaşır.
     metafileRenderingOptions.EmulateRasterOperations = false;
 
-    // Her meta dosyasını vektör grafikleri kullanarak işlemeyi denemek için "RenderingMode" özelliğini "VectorWithFallback" olarak ayarlayın.
+    // Her meta dosyasını vektör grafikleri kullanarak oluşturmayı denemek için "RenderingMode" özelliğini "VectorWithFallback" olarak ayarlayın.
     metafileRenderingOptions.RenderingMode = MetafileRenderingMode.VectorWithFallback;
 
-    // Belgenin "Kaydet" yöntemine aktarabileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
-    // bu yöntemin belgeyi .PDF'ye nasıl dönüştürdüğünü ve yapılandırmayı nasıl uyguladığını değiştirmek için
+    // Belgenin "Save" yöntemine aktarabileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
+    // bu yöntemin belgeyi .PDF'ye dönüştürme ve yapılandırmayı uygulama biçimini değiştirmek için
     // MetafileRenderingOptions nesnemizde kaydetme işlemine.
     PdfSaveOptions saveOptions = new PdfSaveOptions();
     saveOptions.MetafileRenderingOptions = metafileRenderingOptions;
@@ -55,12 +56,12 @@ Gösteriler, bit eşlem oluşturmaya ve desteklenmeyen meta dosyası kayıtları
     doc.Save(ArtifactsDir + "PdfSaveOptions.HandleBinaryRasterWarnings.pdf", saveOptions);
 
     Assert.AreEqual(1, callback.Warnings.Count);
-    Assert.AreEqual("'R2_XORPEN' binary raster operation is partly supported.",
+    Assert.AreEqual("'R2_XORPEN' binary raster operation is not supported.",
         callback.Warnings[0].Description);
 }
 
 /// <summary>
-/// Bir belgeyi kaydettikten sonra oluşan biçimlendirme kaybıyla ilgili uyarıları yazdırır ve toplar.
+/// Bir belge kaydedildiğinde oluşan biçimlendirme kaybıyla ilgili uyarıları yazdırır ve toplar.
 /// </summary>
 public class HandleDocumentWarnings : IWarningCallback
 {

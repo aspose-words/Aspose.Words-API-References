@@ -3,12 +3,14 @@ title: Class WebExtensionBinding
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.WebExtensions.WebExtensionBinding classe. Spécifie une relation de liaison entre une extension Web et les données du document.
 type: docs
-weight: 6440
+weight: 6750
 url: /fr/net/aspose.words.webextensions/webextensionbinding/
 ---
 ## WebExtensionBinding class
 
 Spécifie une relation de liaison entre une extension Web et les données du document.
+
+Pour en savoir plus, visitez le[Travailler avec les compléments Office](https://docs.aspose.com/words/net/work-with-office-add-ins/) article documentaire.
 
 ```csharp
 public class WebExtensionBinding

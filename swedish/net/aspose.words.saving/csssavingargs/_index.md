@@ -3,12 +3,14 @@ title: Class CssSavingArgs
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Saving.CssSavingArgs klass. Tillhandahåller data förCssSaving händelse.
 type: docs
-weight: 4620
+weight: 4880
 url: /sv/net/aspose.words.saving/csssavingargs/
 ---
 ## CssSavingArgs class
 
 Tillhandahåller data för[`CssSaving`](../icsssavingcallback/csssaving/) händelse.
+
+För att lära dig mer, besök[Spara ett dokument](https://docs.aspose.com/words/net/save-a-document/) dokumentationsartikel.
 
 ```csharp
 public class CssSavingArgs
@@ -27,7 +29,7 @@ public class CssSavingArgs
 
 Som standard, när Aspose.Words sparar ett dokument till HTML, sparas CSS-information inline (som ett värde för **stil** attribut på varje element).
 
-`CssSavingArgs` gör det möjligt att spara CSS-information i en fil genom att tillhandahålla ditt eget strömobjekt.
+`CssSavingArgs`gör det möjligt att spara CSS-information i en fil genom att tillhandahålla ditt eget strömobjekt.
 
 För att spara CSS i stream, använd[`CssStream`](./cssstream/) fast egendom.
 

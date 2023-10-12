@@ -16,13 +16,13 @@ public string Text { get; set; }
 
 ### Örnekler
 
-ANAHTAR KELİMELER alanı eklemeyi gösterir.
+ANAHTAR KELİMELER alanının eklenmesini gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Dosya Gezgini'nde "etiketler" olarak da adlandırılan bazı anahtar kelimeler ekleyin.
+// Dosya Gezgini'nde "etiketler" olarak da adlandırılan bazı anahtar sözcükler ekleyin.
 doc.BuiltInDocumentProperties.Keywords = "Keyword1, Keyword2";
 
 // ANAHTAR KELİMELER alanı bu özelliğin değerini görüntüler.
@@ -32,8 +32,8 @@ field.Update();
 Assert.AreEqual(" KEYWORDS ", field.GetFieldCode());
 Assert.AreEqual("Keyword1, Keyword2", field.Result);
 
-// Alanın Text özelliği için bir değer ayarlama,
-// ve ardından alanı güncellemek, ilgili yerleşik özelliğin üzerine yeni değeri yazacaktır.
+// Alanın Text özelliği için bir değer ayarlıyoruz,
+// ve ardından alanın güncellenmesi, yeni değerin karşılık gelen yerleşik özelliğin üzerine yazılmasına neden olacaktır.
 field.Text = "OverridingKeyword";
 field.Update();
 

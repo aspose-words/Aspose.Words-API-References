@@ -3,12 +3,14 @@ title: Class ComparisonExpression
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Fields.ComparisonExpression klass. Jämförelseuttrycket.
 type: docs
-weight: 1340
+weight: 1490
 url: /sv/net/aspose.words.fields/comparisonexpression/
 ---
 ## ComparisonExpression class
 
 Jämförelseuttrycket.
+
+För att lära dig mer, besök[Arbeta med Fields](https://docs.aspose.com/words/net/working-with-fields/) dokumentationsartikel.
 
 ```csharp
 public sealed class ComparisonExpression

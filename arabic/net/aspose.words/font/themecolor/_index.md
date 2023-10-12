@@ -1,14 +1,14 @@
 ---
 title: Font.ThemeColor
 second_title: Aspose.Words لمراجع .NET API
-description: Font ملكية. الحصول على لون النسق أو تعيينه في نظام الألوان المطبق المرتبط بكائن الخط هذا.
+description: Font ملكية. الحصول على أو تعيين لون السمة في نظام الألوان المطبق المرتبط بهذاFont الكائن.
 type: docs
 weight: 460
 url: /ar/net/aspose.words/font/themecolor/
 ---
 ## Font.ThemeColor property
 
-الحصول على لون النسق أو تعيينه في نظام الألوان المطبق المرتبط بكائن الخط هذا.
+الحصول على أو تعيين لون السمة في نظام الألوان المطبق المرتبط بهذا[`Font`](../) الكائن.
 
 ```csharp
 public ThemeColor ThemeColor { get; set; }
@@ -16,7 +16,7 @@ public ThemeColor ThemeColor { get; set; }
 
 ### أمثلة
 
-يوضح كيفية إنشاء واستخدام نمط ذي موضوع.
+يوضح كيفية إنشاء واستخدام النمط الموضوعي.
 
 ```csharp
 Document doc = new Document();
@@ -24,7 +24,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln();
 
-// إنشاء نمط بخصائص خط النسق.
+// قم بإنشاء نمط ما باستخدام خصائص خط السمة.
 Style style = doc.Styles.Add(StyleType.Paragraph, "ThemedStyle");
 style.Font.ThemeFont = ThemeFont.Major;
 style.Font.ThemeColor = ThemeColor.Accent5;
@@ -34,12 +34,12 @@ builder.ParagraphFormat.StyleName = "ThemedStyle";
 builder.Writeln("Text with themed style");
 ```
 
-يوضح كيفية العمل مع خطوط وألوان النسق.
+يوضح كيفية العمل مع خطوط وألوان السمات.
 
 ```csharp
 Document doc = new Document();
 
-// تحديد الخطوط للغات التي تستخدم بشكل افتراضي.
+// تحديد الخطوط لاستخدامات اللغات بشكل افتراضي.
 doc.Theme.MinorFonts.Latin = "Algerian";
 doc.Theme.MinorFonts.EastAsian = "Aharoni";
 doc.Theme.MinorFonts.ComplexScript = "Andalus";
@@ -47,7 +47,7 @@ doc.Theme.MinorFonts.ComplexScript = "Andalus";
 Font font = doc.Styles["Normal"].Font;
 Console.WriteLine("Originally the Normal style theme color is: {0} and RGB color is: {1}\n", font.ThemeColor, font.Color);
 
-// يمكننا استخدام خط ولون المظهر بدلاً من القيم الافتراضية.
+// يمكننا استخدام خط السمة ولونها بدلاً من القيم الافتراضية.
 font.ThemeFont = ThemeFont.Minor;
 font.ThemeColor = ThemeColor.Accent2;
 
@@ -69,8 +69,8 @@ Assert.AreEqual("Algerian", font.NameOther);
 Assert.AreEqual(ThemeColor.Accent2, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
-// هناك عدة طرق لإعادة تعيين الخط واللون.
-// 1 - عن طريق تعيين ThemeFont.None / ThemeColor.None:
+// هناك عدة طرق لإعادة ضبط الخط واللون.
+// 1 - عن طريق ضبط ThemeFont.None/ThemeColor.None:
 font.ThemeFont = ThemeFont.None;
 font.ThemeColor = ThemeColor.None;
 
@@ -92,7 +92,7 @@ Assert.AreEqual("Algerian", font.NameOther);
 Assert.AreEqual(ThemeColor.None, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
-// 2 - عن طريق تعيين أسماء خطوط / ألوان غير متعلقة بالموضوع:
+// 2 - عن طريق تعيين أسماء الخطوط/الألوان غير الموضوعية:
 font.Name = "Arial";
 font.Color = Color.Blue;
 

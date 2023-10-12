@@ -1,14 +1,14 @@
 ---
 title: SvgSaveOptions.ShowPageBorder
 second_title: Aspose.Words for .NET API Referansı
-description: SvgSaveOptions mülk. Sayfanın ana hattına kenarlık eklenip eklenmediğini kontrol eder. Varsayılandoğru .
+description: SvgSaveOptions mülk. Sayfanın ana hatlarına kenarlık eklenip eklenmeyeceğini kontrol eder. Varsayılandoğru .
 type: docs
 weight: 80
 url: /tr/net/aspose.words.saving/svgsaveoptions/showpageborder/
 ---
 ## SvgSaveOptions.ShowPageBorder property
 
-Sayfanın ana hattına kenarlık eklenip eklenmediğini kontrol eder. Varsayılan`doğru` .
+Sayfanın ana hatlarına kenarlık eklenip eklenmeyeceğini kontrol eder. Varsayılan:`doğru` .
 
 ```csharp
 public bool ShowPageBorder { get; set; }

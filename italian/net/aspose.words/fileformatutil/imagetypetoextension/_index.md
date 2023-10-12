@@ -18,7 +18,7 @@ public static string ImageTypeToExtension(ImageType imageType)
 
 | eccezione | condizione |
 | --- | --- |
-| ArgumentException | Lancia quando non può convertire. |
+| ArgumentException | Lancia quando non è possibile convertire. |
 
 ### Esempi
 
@@ -38,8 +38,8 @@ foreach (Shape shape in shapes.OfType<Shape>())
 {
     if (shape.HasImage)
     {
-        // I dati immagine delle forme possono contenere immagini di molti possibili formati immagine. 
-        // Possiamo determinare automaticamente un'estensione di file per ogni immagine, in base al suo formato.
+         // I dati immagine delle forme possono contenere immagini di molti possibili formati immagine.
+        // Possiamo determinare automaticamente un'estensione di file per ciascuna immagine, in base al suo formato.
         string imageFileName =
             $"File.ExtractImages.{imageIndex}{FileFormatUtil.ImageTypeToExtension(shape.ImageData.ImageType)}";
         shape.ImageData.Save(ArtifactsDir + imageFileName);

@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.ExportOriginalUrlForLinkedImages
 second_title: Aspose.Words for .NET API Referansı
-description: HtmlSaveOptions mülk. Bağlantılı resimlerin URLsi olarak orijinal URLnin kullanılıp kullanılmayacağını belirtir. Varsayılan değeryanlış .
+description: HtmlSaveOptions mülk. Bağlantılı görsellerin URLsi olarak orijinal URLnin kullanılıp kullanılmayacağını belirtir. Varsayılan değerYANLIŞ .
 type: docs
-weight: 210
+weight: 200
 url: /tr/net/aspose.words.saving/htmlsaveoptions/exportoriginalurlforlinkedimages/
 ---
 ## HtmlSaveOptions.ExportOriginalUrlForLinkedImages property
 
-Bağlantılı resimlerin URL'si olarak orijinal URL'nin kullanılıp kullanılmayacağını belirtir. Varsayılan değer`yanlış` .
+Bağlantılı görsellerin URL'si olarak orijinal URL'nin kullanılıp kullanılmayacağını belirtir. Varsayılan değer:`YANLIŞ` .
 
 ```csharp
 public bool ExportOriginalUrlForLinkedImages { get; set; }
@@ -16,13 +16,13 @@ public bool ExportOriginalUrlForLinkedImages { get; set; }
 
 ### Notlar
 
-değer olarak ayarlanırsa`doğru`[`SourceFullName`](../../../aspose.words.drawing/imagedata/sourcefullname/) değer, bağlantılı resimlerin URL'si olarak kullanılır ve bağlantılı resimler belgenin klasörüne yüklenmez veya[`ImagesFolder`](../imagesfolder/).
+Değer olarak ayarlanmışsa`doğru`[`SourceFullName`](../../../aspose.words.drawing/imagedata/sourcefullname/) Bağlantılı görsellerin URL'si ve bağlantılı görseller belgenin klasörüne yüklenmediğinden değer use şeklindedir veya[`ImagesFolder`](../imagesfolder/).
 
-değer olarak ayarlanırsa`yanlış` bağlantılı resimler belgenin klasörüne yüklenir veya[`ImagesFolder`](../imagesfolder/) ve bağlantılı her görüntünün URL'si, belgenin klasörüne bağlı olarak oluşturulur,[`ImagesFolder`](../imagesfolder/) ve[`ImagesFolderAlias`](../imagesfolderalias/) özellikleri.
+Değer olarak ayarlanmışsa`YANLIŞ`bağlantılı resimler belgenin klasörüne veya yüklenir[`ImagesFolder`](../imagesfolder/) ve bağlantılı her görüntünün URL'si, belgenin klasörüne bağlı olarak oluşturulur,[`ImagesFolder`](../imagesfolder/) ve[`ImagesFolderAlias`](../imagesfolderalias/) özellikler.
 
 ### Örnekler
 
-Aspose.Words'ün bir belgeyi HTML'ye kaydederken oluşturacağı harici olarak kaydedilmiş kaynaklar için klasörlerin ve klasör takma adlarının nasıl ayarlanacağını gösterir.
+Aspose.Words'ün bir belgeyi HTML'ye kaydederken oluşturacağı harici olarak kaydedilen kaynaklar için klasörlerin ve klasör takma adlarının nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

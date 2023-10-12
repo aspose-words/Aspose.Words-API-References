@@ -1,14 +1,14 @@
 ---
 title: Enum DocumentDirection
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Loading.DocumentDirection Sıralama. Bir belgedeki metnin akma yönünü belirlemeye izin verir.
+description: Aspose.Words.Loading.DocumentDirection Sıralama. Bir belgedeki metnin akış yönünü belirtmeye izin verir.
 type: docs
-weight: 3380
+weight: 3580
 url: /tr/net/aspose.words.loading/documentdirection/
 ---
 ## DocumentDirection enumeration
 
-Bir belgedeki metnin akma yönünü belirlemeye izin verir.
+Bir belgedeki metnin akış yönünü belirtmeye izin verir.
 
 ```csharp
 public enum DocumentDirection
@@ -20,7 +20,7 @@ public enum DocumentDirection
 | --- | --- | --- |
 | LeftToRight | `0` | Soldan sağa yön. |
 | RightToLeft | `1` | Sağdan sola yön. |
-| Auto | `2` | Yönü otomatik algıla. |
+| Auto | `2` | Yönü otomatik olarak algıla. |
 
 ### Ayrıca bakınız
 

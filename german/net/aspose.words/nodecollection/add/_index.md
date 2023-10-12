@@ -1,14 +1,14 @@
 ---
 title: NodeCollection.Add
 second_title: Aspose.Words für .NET-API-Referenz
-description: NodeCollection methode. Fügt am Ende der Sammlung einen Knoten hinzu.
+description: NodeCollection methode. Fügt einen Knoten am Ende der Sammlung hinzu.
 type: docs
 weight: 30
 url: /de/net/aspose.words/nodecollection/add/
 ---
 ## NodeCollection.Add method
 
-Fügt am Ende der Sammlung einen Knoten hinzu.
+Fügt einen Knoten am Ende der Sammlung hinzu.
 
 ```csharp
 public void Add(Node node)
@@ -22,35 +22,33 @@ public void Add(Node node)
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| NotSupportedException | Das **NodeCollection** ist eine "tiefe" Sammlung. |
+| NotSupportedException | Der[`NodeCollection`](../) ist eine „tiefe“ Sammlung. |
 
 ### Bemerkungen
 
-Der Knoten wird als Kind in das Knotenobjekt eingefügt, aus dem die Sammlung erstellt wurde.
-
-Wenn das newChild bereits im Baum vorhanden ist, wird es zunächst entfernt.
+Der Knoten wird als untergeordnetes Element in das Knotenobjekt eingefügt, aus dem die Sammlung erstellt wurde.
 
 Wenn der einzufügende Knoten aus einem anderen Dokument erstellt wurde, sollten Sie verwenden.[`ImportNode`](../../documentbase/importnode/) um den Knoten in das aktuelle Dokument zu importieren. Der importierte Knoten kann dann in das aktuelle Dokument eingefügt werden.
 
 ### Beispiele
 
-Zeigt, wie Sie einen neuen Abschnittsknoten für die Bearbeitung vorbereiten.
+Zeigt, wie ein neuer Abschnittsknoten für die Bearbeitung vorbereitet wird.
 
 ```csharp
 Document doc = new Document();
 
-// Ein leeres Dokument hat einen Abschnitt, der einen Körper hat, der wiederum einen Absatz hat.
+// Ein leeres Dokument besteht aus einem Abschnitt, der einen Hauptteil hat, der wiederum einen Absatz enthält.
 // Wir können diesem Dokument Inhalte hinzufügen, indem wir diesem Absatz Elemente wie Textläufe, Formen oder Tabellen hinzufügen.
 Assert.AreEqual(NodeType.Section, doc.GetChild(NodeType.Any, 0, true).NodeType);
 Assert.AreEqual(NodeType.Body, doc.Sections[0].GetChild(NodeType.Any, 0, true).NodeType);
 Assert.AreEqual(NodeType.Paragraph, doc.Sections[0].Body.GetChild(NodeType.Any, 0, true).NodeType);
 
-// Wenn wir einen neuen Abschnitt wie diesen hinzufügen, hat er keinen Hauptteil oder andere untergeordnete Knoten.
+// Wenn wir einen neuen Abschnitt wie diesen hinzufügen, hat er weder einen Hauptteil noch andere untergeordnete Knoten.
 doc.Sections.Add(new Section(doc));
 
 Assert.AreEqual(0, doc.Sections[1].GetChildNodes(NodeType.Any, true).Count);
 
-// Führen Sie die "EnsureMinimum"-Methode aus, um diesem Abschnitt einen Hauptteil und einen Absatz hinzuzufügen, um mit der Bearbeitung zu beginnen.
+// Führen Sie die Methode „EnsureMinimum“ aus, um diesem Abschnitt einen Hauptteil und einen Absatz hinzuzufügen und mit der Bearbeitung zu beginnen.
 doc.LastSection.EnsureMinimum();
 
 Assert.AreEqual(NodeType.Body, doc.Sections[1].GetChild(NodeType.Any, 0, true).NodeType);

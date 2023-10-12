@@ -3,7 +3,7 @@ title: FieldOptions.FieldUpdateCultureSource
 second_title: Aspose.Words för .NET API Referens
 description: FieldOptions fast egendom. Anger vilken kultur som ska användas för att formatera fältresultatet.
 type: docs
-weight: 100
+weight: 110
 url: /sv/net/aspose.words.fields/fieldoptions/fieldupdateculturesource/
 ---
 ## FieldOptions.FieldUpdateCultureSource property

@@ -16,7 +16,7 @@ public void ClearFormatting()
 
 ### Anmärkningar
 
-Tar bort all typsnittsformatering som uttryckligen anges på objektet från which  **Font** erhölls så att teckensnittsformateringen kommer att ärvas från lämplig förälder.
+Tar bort all typsnittsformatering som uttryckligen anges på objektet från which [`Font`](../) erhölls så att teckensnittsformateringen kommer att ärvas från lämplig förälder.
 
 ### Exempel
 

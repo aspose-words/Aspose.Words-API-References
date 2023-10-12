@@ -14,25 +14,6 @@ Obtient tous les nœuds entre ce nœud de début de plage et le nœud de fin de 
 public NodeCollection ChildNodes { get; }
 ```
 
-### Exemples
-
-Montre comment obtenir des nœuds enfants de StructuredDocumentTagRangeStart.
-
-```csharp
-Document doc = new Document(MyDir + "Multi-section structured document tags.docx");
-StructuredDocumentTagRangeStart tag =
-    doc.GetChildNodes(NodeType.StructuredDocumentTagRangeStart, true)[0] as StructuredDocumentTagRangeStart;
-
-Console.WriteLine("StructuredDocumentTagRangeStart values:");
-Console.WriteLine($"\t|Child nodes count: {tag.ChildNodes.Count}\n");
-
-foreach (Node node in tag.ChildNodes)
-    Console.WriteLine($"\t|Child node type: {node.NodeType}");
-
-foreach (Node node in tag.GetChildNodes(NodeType.Run, true))
-    Console.WriteLine($"\t|Child node text: {node.GetText()}");
-```
-
 ### Voir également
 
 * class [NodeCollection](../../../aspose.words/nodecollection/)

@@ -16,13 +16,13 @@ public string Name { get; set; }
 
 ### Notlar
 
-Alırken döner[`NameAscii`](../nameascii/).
+Alırken geri döner[`NameAscii`](../nameascii/).
 
-ayarlarken, ayarlar[`NameAscii`](../nameascii/) ,[`NameBi`](../namebi/) ,[`NameFarEast`](../namefareast/) ve[`NameOther`](../nameother/) belirtilen değere
+Ayar yaparken ayarlar[`NameAscii`](../nameascii/) ,[`NameBi`](../namebi/) ,[`NameFarEast`](../namefareast/) ve[`NameOther`](../nameother/) belirtilen değere.
 
 ### Örnekler
 
-Font özelliğini kullanarak bir metin akışının nasıl biçimlendirileceğini gösterir.
+Font özelliğini kullanarak bir metin dizisinin nasıl biçimlendirileceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -43,7 +43,7 @@ DocumentBuilder kullanılarak biçimlendirilmiş metnin nasıl ekleneceğini gö
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Yazı tipi biçimlendirmesini belirtin, ardından metin ekleyin.
+// Yazı tipi formatını belirtin, ardından metin ekleyin.
 Aspose.Words.Font font = builder.Font;
 font.Size = 16;
 font.Bold = true;

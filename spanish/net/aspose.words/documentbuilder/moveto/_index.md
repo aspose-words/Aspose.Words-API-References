@@ -3,7 +3,7 @@ title: DocumentBuilder.MoveTo
 second_title: Referencia de API de Aspose.Words para .NET
 description: DocumentBuilder método. Mueve el cursor a un nodo en línea o al final de un párrafo.
 type: docs
-weight: 460
+weight: 490
 url: /es/net/aspose.words/documentbuilder/moveto/
 ---
 ## DocumentBuilder.MoveTo method
@@ -22,13 +22,13 @@ public void MoveTo(Node node)
 
 Cuandonodo es un nodo de nivel en línea, el cursor se mueve a este nodo y se insertará más contenido antes de ese nodo.
 
-Cuandonodo es un **Párrafo**, el cursor se mueve al final del párrafo y se insertará más contenido justo antes del salto de párrafo.
+Cuandonodo es un[`Paragraph`](../../paragraph/), el cursor se mueve al final del párrafo y se insertará más contenido justo antes del salto de párrafo.
 
-Cuandonodoes un nodo a nivel de bloque pero no un párrafo, el cursor se mueve al final del primer párrafo en node a nivel de bloque y se insertará más contenido justo antes del salto de párrafo.
+Cuandonodo es un nodo a nivel de bloque pero no un[`Paragraph`](../../paragraph/), el cursor se mueve al final del primer párrafo en el nivel de bloque node y se insertará más contenido justo antes del salto de párrafo.
 
 ### Ejemplos
 
-Muestra cómo mover la posición del cursor de un DocumentBuilder a un nodo específico.
+Muestra cómo mover la posición del cursor de DocumentBuilder a un nodo específico.
 
 ```csharp
 Document doc = new Document();
@@ -41,49 +41,50 @@ builder.Writeln("Run 1. ");
 // y también siempre termina inmediatamente después de cualquier nodo que el constructor acaba de insertar.
 // Para agregar contenido a una parte diferente del documento,
 // podemos mover el cursor a un nodo diferente con el método "MoveTo".
+builder.MoveTo(doc.FirstSection.Body.FirstParagraph.Runs[0]);
 // El cursor ahora está frente al nodo al que lo movimos.
 // Agregar una segunda ejecución la insertará delante de la primera ejecución.
 builder.Writeln("Run 2. ");
 
 Assert.AreEqual("Run 2. \rRun 1.", doc.GetText().Trim());
 
-// Mueva el cursor al final del documento para continuar agregando texto al final como antes.
+// Mueva el cursor al final del documento para continuar agregando texto hasta el final como antes.
 builder.MoveTo(doc.LastSection.Body.LastParagraph);
 builder.Writeln("Run 3. ");
 
 Assert.AreEqual("Run 2. \rRun 1. \rRun 3.", doc.GetText().Trim());
 ```
 
-Muestra cómo mover el cursor de un generador de documentos a diferentes nodos en un documento.
+Muestra cómo mover el cursor de un generador de documentos a diferentes nodos de un documento.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Crear un marcador válido, una entidad que consta de nodos encerrados por un nodo de inicio de marcador,
-  // y un nodo final de marcador.
+// Crea un marcador válido, una entidad que consta de nodos encerrados por un nodo de inicio del marcador,
+ // y un nodo final de marcador.
 builder.StartBookmark("MyBookmark");
 builder.Write("Bookmark contents.");
 builder.EndBookmark("MyBookmark");
 
-NodeCollection firstParagraphNodes = doc.FirstSection.Body.FirstParagraph.ChildNodes;
+NodeCollection firstParagraphNodes = doc.FirstSection.Body.FirstParagraph.GetChildNodes(NodeType.Any, false);
 
 Assert.AreEqual(NodeType.BookmarkStart, firstParagraphNodes[0].NodeType);
 Assert.AreEqual(NodeType.Run, firstParagraphNodes[1].NodeType);
 Assert.AreEqual("Bookmark contents.", firstParagraphNodes[1].GetText().Trim());
 Assert.AreEqual(NodeType.BookmarkEnd, firstParagraphNodes[2].NodeType);
 
-// El cursor del generador de documentos siempre está delante del último nodo que agregamos con él.
+// El cursor del generador de documentos siempre está delante del nodo que agregamos por última vez.
 // Si el cursor del constructor está al final del documento, su nodo actual será nulo.
 // El nodo anterior es el nodo final del marcador que agregamos por última vez.
 // Agregar nuevos nodos con el constructor los agregará al último nodo.
 Assert.Null(builder.CurrentNode);
 
 // Si deseamos editar una parte diferente del documento con el constructor,
-// necesitaremos llevar su cursor al nodo que deseamos editar.
+// necesitaremos llevar el cursor al nodo que deseamos editar.
 builder.MoveToBookmark("MyBookmark");
 
-// Moverlo a un marcador lo moverá al primer nodo dentro de los nodos de inicio y final del marcador, la ejecución adjunta.
+// Al moverlo a un marcador, se moverá al primer nodo dentro de los nodos de inicio y fin del marcador, la ejecución adjunta.
 Assert.AreEqual(firstParagraphNodes[1], builder.CurrentNode);
 
 // También podemos mover el cursor a un nodo individual como este.

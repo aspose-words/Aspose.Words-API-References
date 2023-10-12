@@ -1,14 +1,14 @@
 ---
 title: OdtSaveOptions.OdtSaveOptions
 second_title: Aspose.Words for .NET API Referansı
-description: OdtSaveOptions inşaatçı. Dosyaya bir belgeyi kaydetmek için kullanılabilecek bu sınıfın yeni bir örneğini başlatır.Odt biçim.
+description: OdtSaveOptions inşaatçı. Bir belgeyi kaydetmek için kullanılabilecek bu sınıfın yeni bir örneğini başlatır.Odt format.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.saving/odtsaveoptions/odtsaveoptions/
 ---
 ## OdtSaveOptions() {#constructor}
 
-Dosyaya bir belgeyi kaydetmek için kullanılabilecek bu sınıfın yeni bir örneğini başlatır.Odt biçim.
+Bir belgeyi kaydetmek için kullanılabilecek bu sınıfın yeni bir örneğini başlatır.Odt format.
 
 ```csharp
 public OdtSaveOptions()
@@ -16,7 +16,7 @@ public OdtSaveOptions()
 
 ### Örnekler
 
-Kaydedilmiş bir belgenin nasıl daha eski bir ODT şemasına uygun hale getirileceğini gösterir.
+Kaydedilen bir belgenin eski bir ODT şemasına nasıl uygun hale getirileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
@@ -40,7 +40,7 @@ doc.Save(ArtifactsDir + "OdtSaveOptions.Odt11Schema.odt", saveOptions);
 
 ## OdtSaveOptions(string) {#constructor_2}
 
-Dosyaya bir belgeyi kaydetmek için kullanılabilecek bu sınıfın yeni bir örneğini başlatır.Odt format bir parola ile şifrelenir.
+Bir belgeyi kaydetmek için kullanılabilecek bu sınıfın yeni bir örneğini başlatır.Odt format bir şifreyle şifrelendi.
 
 ```csharp
 public OdtSaveOptions(string password)
@@ -56,7 +56,7 @@ public OdtSaveOptions(string password)
 
 ## OdtSaveOptions(SaveFormat) {#constructor_1}
 
-Dosyaya bir belgeyi kaydetmek için kullanılabilecek bu sınıfın yeni bir örneğini başlatır.Odt or Ott biçim.
+Bir belgeyi kaydetmek için kullanılabilecek bu sınıfın yeni bir örneğini başlatır.Odt veya Ott format.
 
 ```csharp
 public OdtSaveOptions(SaveFormat saveFormat)
@@ -68,22 +68,22 @@ public OdtSaveOptions(SaveFormat saveFormat)
 
 ### Örnekler
 
-Kaydedilmiş bir ODT/OTT belgesinin bir parola ile nasıl şifreleneceğini ve ardından Aspose.Words kullanarak nasıl yükleneceğini gösterir.
+Kaydedilmiş bir ODT/OTT belgesinin bir parola ile nasıl şifreleneceğini ve ardından Aspose.Words kullanılarak nasıl yükleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// Yeni bir OdtSaveOptions oluşturun ve "SaveFormat.Odt" iletin,
-// veya belgenin kaydedileceği format olarak "SaveFormat.Ott". 
+// Yeni bir OdtSaveOptions oluşturun ve "SaveFormat.Odt"u iletin,
+ // veya belgenin kaydedileceği format olarak "SaveFormat.Ott".
 OdtSaveOptions saveOptions = new OdtSaveOptions(saveFormat);
 saveOptions.Password = "@sposeEncrypted_1145";
 
 string extensionString = FileFormatUtil.SaveFormatToExtension(saveFormat);
 
-// Bu dökümanı uygun bir editör ile açarsak,
-// SaveOptions nesnesinde belirttiğimiz şifreyi soracaktır.
+// Bu belgeyi uygun bir editörle açarsak,
+// SaveOptions nesnesinde belirttiğimiz şifreyi bizden isteyecek.
 doc.Save(ArtifactsDir + "OdtSaveOptions.Encrypt" + extensionString, saveOptions);
 
 FileFormatInfo docInfo = FileFormatUtil.DetectFileFormat(ArtifactsDir + "OdtSaveOptions.Encrypt" + extensionString);
@@ -91,7 +91,7 @@ FileFormatInfo docInfo = FileFormatUtil.DetectFileFormat(ArtifactsDir + "OdtSave
 Assert.IsTrue(docInfo.IsEncrypted);
 
 // Bu belgeyi Aspose.Words kullanarak tekrar açmak veya düzenlemek istersek,
-// Yükleme yapıcısına doğru parolayı içeren bir LoadOptions nesnesi sağlamamız gerekecek.
+// yükleme yapıcısına doğru parolayı içeren bir LoadOptions nesnesi sağlamamız gerekecek.
 doc = new Document(ArtifactsDir + "OdtSaveOptions.Encrypt" + extensionString,
     new LoadOptions("@sposeEncrypted_1145"));
 

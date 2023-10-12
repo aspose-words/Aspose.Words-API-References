@@ -1,14 +1,14 @@
 ---
 title: OdsoRecipientDataCollection.Add
 second_title: Aspose.Words لمراجع .NET API
-description: OdsoRecipientDataCollection طريقة. إضافة كائن إلى نهاية هذه المجموعة .
+description: OdsoRecipientDataCollection طريقة. إضافة كائن إلى نهاية هذه المجموعة.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.settings/odsorecipientdatacollection/add/
 ---
 ## OdsoRecipientDataCollection.Add method
 
-إضافة كائن إلى نهاية هذه المجموعة .
+إضافة كائن إلى نهاية هذه المجموعة.
 
 ```csharp
 public int Add(OdsoRecipientData value)
@@ -16,11 +16,11 @@ public int Add(OdsoRecipientData value)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| value | OdsoRecipientData | الكائن المراد إضافته. لا يمكن أن تكون لاغية. |
+| value | OdsoRecipientData | الكائن المراد إضافته. لا يمكن`باطل`. |
 
 ### أمثلة
 
-يوضح كيفية الوصول إلى مجموعة البيانات التي تحدد سجلات مصدر بيانات الدمج التي سيستبعدها دمج المراسلات.
+يوضح كيفية الوصول إلى مجموعة البيانات التي تحدد سجلات مصدر بيانات الدمج التي سيتم استبعادها من خلال دمج البريد.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
@@ -42,10 +42,10 @@ using (IEnumerator<OdsoRecipientData> enumerator = dataCollection.GetEnumerator(
     }
 }
 
-// يمكننا استنساخ العناصر في هذه المجموعة.
+// يمكننا استنساخ العناصر الموجودة في هذه المجموعة.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// يمكننا أيضًا إزالة العناصر بشكل فردي ، أو مسح المجموعة بأكملها مرة واحدة.
+// يمكننا أيضًا إزالة العناصر بشكل فردي، أو مسح المجموعة بأكملها مرة واحدة.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(69, dataCollection.Count);

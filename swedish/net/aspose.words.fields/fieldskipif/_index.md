@@ -3,12 +3,14 @@ title: Class FieldSkipIf
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Fields.FieldSkipIf klass. Implementerar SKIPIFfältet.
 type: docs
-weight: 2270
+weight: 2420
 url: /sv/net/aspose.words.fields/fieldskipif/
 ---
 ## FieldSkipIf class
 
 Implementerar SKIPIF-fältet.
+
+För att lära dig mer, besök[Arbeta med Fields](https://docs.aspose.com/words/net/working-with-fields/) dokumentationsartikel.
 
 ```csharp
 public class FieldSkipIf : Field
@@ -34,7 +36,7 @@ public class FieldSkipIf : Field
 | [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Hämtar eller ställer in LCID för fältet. |
 | [Result](../../aspose.words.fields/field/result/) { get; set; } | Hämtar eller ställer in text som är mellan fältavgränsaren och fältslutet. |
 | [RightExpression](../../aspose.words.fields/fieldskipif/rightexpression/) { get; set; } | Hämtar eller ställer in den högra delen av jämförelseuttrycket. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | Hämtar noden som representerar fältseparatorn. Kan vara null. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Hämtar noden som representerar fältseparatorn. Kan vara`null` . |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Hämtar noden som representerar början av fältet. |
 | virtual [Type](../../aspose.words.fields/field/type/) { get; } | Hämtar fälttypen Microsoft Word. |
 
@@ -44,14 +46,14 @@ public class FieldSkipIf : Field
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). Både fältkod och fältresultat för underordnade fält ingår. |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). |
-| [Remove](../../aspose.words.fields/field/remove/)() | Tar bort fältet från dokumentet. Returnerar en nod direkt efter fältet. Om fältets slut är den sista child av dess överordnade nod, returnerar dess överordnade stycke. Om fältet redan är borttaget, returneras **null** . |
+| [Remove](../../aspose.words.fields/field/remove/)() | Tar bort fältet från dokumentet. Returnerar en nod direkt efter fältet. Om fältets slut är den sista child av dess överordnade nod, returnerar dess överordnade stycke. Om fältet redan är borttaget, returneras`null` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Utför fältavlänkningen. |
 | [Update](../../aspose.words.fields/field/update/)() | Utför fältuppdateringen. Kastar om fältet redan uppdateras. |
 | [Update](../../aspose.words.fields/field/update/)(bool) | Utför en fältuppdatering. Kastar om fältet redan uppdateras. |
 
 ### Anmärkningar
 
-Jämför värdena som anges av uttrycken[`LeftExpression`](./leftexpression/) och[`RightExpression`](./rightexpression/) i jämförelse med den operatör som anges av[`ComparisonOperator`](./comparisonoperator/) Om jämförelsen är sann avbryter SKIPIF det aktuella sammanfogningsdokumentet, flyttar till nästa datapost i datakällan och startar ett nytt sammanfogningsdokument. Om jämförelsen är falsk fortsätter det aktuella sammanslagningsdokumentet.
+Jämför värdena som anges av uttrycken[`LeftExpression`](./leftexpression/) och[`RightExpression`](./rightexpression/) i jämförelse med den operatör som anges av[`ComparisonOperator`](./comparisonoperator/) . Om jämförelsen är sann avbryter SKIPIF det aktuella sammanfogningsdokumentet, flyttar till nästa datapost i datakällan och startar ett nytt sammanfogningsdokument. Om jämförelsen är falsk fortsätter det aktuella sammanslagningsdokumentet.
 
 ### Exempel
 
@@ -83,7 +85,7 @@ fieldMergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField
 fieldMergeField.FieldName = "Name";
 builder.Writeln(", ");
 
-  // Den här tabellen har tre rader, och en av dem uppfyller villkoret för vårt SKIPIF-fält.
+ // Den här tabellen har tre rader, och en av dem uppfyller villkoret för vårt SKIPIF-fält.
 // Brevkopplingen kommer att producera två sidor.
 DataTable table = new DataTable("Employees");
 table.Columns.Add("Name");
@@ -139,7 +141,7 @@ table.Rows.Add(new[] { "Jane Doe" });
 table.Rows.Add(new[] { "John Doe" });
 table.Rows.Add(new[] { "Joe Bloggs" });
 
-doc.MailMerge.Execute(table);
+doc.MailMerge.Execute(table);            
 doc.Save(ArtifactsDir + "Field.MERGEREC.MERGESEQ.docx");
 ```
 

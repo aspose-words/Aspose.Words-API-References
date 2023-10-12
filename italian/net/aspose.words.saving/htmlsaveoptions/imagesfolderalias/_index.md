@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.ImagesFolderAlias
 second_title: Aspose.Words per .NET API Reference
-description: HtmlSaveOptions proprietà. Specifica il nome della cartella utilizzata per costruire URI immagine scritti in un documento HTML. Limpostazione predefinita è una stringa vuota.
+description: HtmlSaveOptions proprietà. Specifica il nome della cartella utilizzata per costruire gli URI di immagine scritti in un documento HTML. Il valore predefinito è una stringa vuota.
 type: docs
-weight: 380
+weight: 370
 url: /it/net/aspose.words.saving/htmlsaveoptions/imagesfolderalias/
 ---
 ## HtmlSaveOptions.ImagesFolderAlias property
 
-Specifica il nome della cartella utilizzata per costruire URI immagine scritti in un documento HTML. L'impostazione predefinita è una stringa vuota.
+Specifica il nome della cartella utilizzata per costruire gli URI di immagine scritti in un documento HTML. Il valore predefinito è una stringa vuota.
 
 ```csharp
 public string ImagesFolderAlias { get; set; }
@@ -16,15 +16,15 @@ public string ImagesFolderAlias { get; set; }
 
 ### Osservazioni
 
-Quando salvi un[`Document`](../../../aspose.words/document/) in formato HTML, Aspose.Words deve salvare tutte le immagini incorporate nel documento come file standalone.[`ImagesFolder`](../imagesfolder/) consente di specificare dove verranno salvate le immagini e`ImagesFolderAlias` permette di specificare come verranno costruiti gli URI dell'immagine.
+Quando salvi un file[`Document`](../../../aspose.words/document/) in formato HTML, Aspose.Words deve salvare tutte le immagini incorporate nel documento come file autonomi.[`ImagesFolder`](../imagesfolder/) ti consente di specificare dove verranno salvate le immagini e`ImagesFolderAlias` consente di specificare come verranno costruiti gli URI dell'immagine.
 
-Se`ImagesFolderAlias`non è una stringa vuota, lo sarà l'URI dell'immagine scritto in HTMLImagesFolderAlias + &lt;nome file immagine&gt;.
+Se`ImagesFolderAlias` non è una stringa vuota, lo sarà l'URI dell'immagine scritto in HTMLImagesFolderAlias + &lt;nome file immagine&gt;.
 
-Se`ImagesFolderAlias` è una stringa vuota, quindi sarà l'URI dell'immagine scritto in HTMLImagesFolder + &lt;nome file immagine&gt;.
+Se`ImagesFolderAlias` è una stringa vuota, l'URI dell'immagine scritto in HTML saràCartella Immagini + &lt;nome file immagine&gt;.
 
-Se`ImagesFolderAlias` è impostato per '.' (punto), quindi il nome del file immagine verrà scritto in HTML senza percorso indipendentemente dalle altre opzioni.
+Se`ImagesFolderAlias`è impostato per '.' (punto), il nome del file immagine verrà scritto in HTML senza percorso indipendentemente dalle altre opzioni.
 
-Un modo alternativo per specificare il nome della cartella per costruire l'immagine URIs consiste nell'usare[`ResourceFolderAlias`](../resourcefolderalias/).
+Un modo alternativo per specificare il nome della cartella per costruire gli URI dell'immagine è utilizzare[`ResourceFolderAlias`](../resourcefolderalias/).
 
 ### Esempi
 
@@ -42,8 +42,8 @@ HtmlSaveOptions options = new HtmlSaveOptions
     FontsFolder = ArtifactsDir + "Fonts",
     ImagesFolder = ArtifactsDir + "Images",
     ResourceFolder = ArtifactsDir + "Resources",
-    FontsFolderAlias = "http://example.com/fonts",
-    ImagesFolderAlias = "http://example.com/images",
+    FontsFolderAlias = "http://esempio.com/fonts",
+    ImagesFolderAlias = "http://esempio.com/immagini",
     ResourceFolderAlias = "http://esempio.com/risorse",
     ExportOriginalUrlForLinkedImages = true
 };

@@ -3,7 +3,7 @@ title: ShapeBase.ShadowFormat
 second_title: Aspose.Words for .NET API 参考
 description: ShapeBase 财产. 获取形状的阴影格式
 type: docs
-weight: 450
+weight: 490
 url: /zh/net/aspose.words.drawing/shapebase/shadowformat/
 ---
 ## ShapeBase.ShadowFormat property

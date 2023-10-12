@@ -1,14 +1,14 @@
 ---
 title: CsvDataSource.CsvDataSource
 second_title: Aspose.Words for .NET API Referansı
-description: CsvDataSource inşaatçı. CSV verilerini ayrıştırmak için varsayılan seçenekleri kullanarak bir CSV dosyasındaki verilerle yeni bir veri kaynağı oluşturur.
+description: CsvDataSource inşaatçı. CSV verilerini ayrıştırmak için varsayılan seçenekleri kullanarak CSV dosyasındaki verilerle yeni bir veri kaynağı oluşturur.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.reporting/csvdatasource/csvdatasource/
 ---
 ## CsvDataSource(string) {#constructor_2}
 
-CSV verilerini ayrıştırmak için varsayılan seçenekleri kullanarak bir CSV dosyasındaki verilerle yeni bir veri kaynağı oluşturur.
+CSV verilerini ayrıştırmak için varsayılan seçenekleri kullanarak CSV dosyasındaki verilerle yeni bir veri kaynağı oluşturur.
 
 ```csharp
 public CsvDataSource(string csvPath)
@@ -28,7 +28,7 @@ public CsvDataSource(string csvPath)
 
 ## CsvDataSource(string, CsvDataLoadOptions) {#constructor_3}
 
-CSV verilerini ayrıştırmak için belirtilen seçenekleri kullanarak bir CSV dosyasındaki verilerle yeni bir veri kaynağı oluşturur.
+CSV verilerini ayrıştırmak için belirtilen seçenekleri kullanarak CSV dosyasındaki verilerle yeni bir veri kaynağı oluşturur.
 
 ```csharp
 public CsvDataSource(string csvPath, CsvDataLoadOptions options)
@@ -50,7 +50,7 @@ public CsvDataSource(string csvPath, CsvDataLoadOptions options)
 
 ## CsvDataSource(Stream) {#constructor}
 
-CSV verilerini ayrıştırmak için varsayılan seçenekleri kullanarak bir CSV akışından alınan verilerle yeni bir veri kaynağı oluşturur.
+CSV verilerini ayrıştırmaya yönelik varsayılan seçenekleri kullanarak CSV akışındaki verilerle yeni bir veri kaynağı oluşturur.
 
 ```csharp
 public CsvDataSource(Stream csvStream)
@@ -58,7 +58,7 @@ public CsvDataSource(Stream csvStream)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| csvStream | Stream | Veri kaynağı olarak kullanılacak CSV verilerinin akışı. |
+| csvStream | Stream | Veri kaynağı olarak kullanılacak CSV verileri akışı. |
 
 ### Ayrıca bakınız
 
@@ -70,7 +70,7 @@ public CsvDataSource(Stream csvStream)
 
 ## CsvDataSource(Stream, CsvDataLoadOptions) {#constructor_1}
 
-CSV verilerini ayrıştırmak için belirtilen seçenekleri kullanarak bir CSV akışından alınan verilerle yeni bir veri kaynağı oluşturur.
+CSV verilerini ayrıştırmak için belirtilen seçenekleri kullanarak CSV akışından gelen verilerle yeni bir veri kaynağı oluşturur.
 
 ```csharp
 public CsvDataSource(Stream csvStream, CsvDataLoadOptions options)
@@ -78,7 +78,7 @@ public CsvDataSource(Stream csvStream, CsvDataLoadOptions options)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| csvStream | Stream | Veri kaynağı olarak kullanılacak CSV verilerinin akışı. |
+| csvStream | Stream | Veri kaynağı olarak kullanılacak CSV verileri akışı. |
 | options | CsvDataLoadOptions | CSV verilerini ayrıştırma seçenekleri. |
 
 ### Ayrıca bakınız

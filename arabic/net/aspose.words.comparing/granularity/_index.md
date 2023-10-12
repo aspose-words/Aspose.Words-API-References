@@ -1,14 +1,14 @@
 ---
 title: Enum Granularity
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Comparing.Granularity تعداد. يحدد مدى دقة التغييرات المطلوب تتبعها عند مقارنة مستندين.
+description: Aspose.Words.Comparing.Granularity تعداد. يحدد مدى دقة التغييرات التي يجب تتبعها عند مقارنة مستندين.
 type: docs
-weight: 280
+weight: 290
 url: /ar/net/aspose.words.comparing/granularity/
 ---
 ## Granularity enumeration
 
-يحدد مدى دقة التغييرات المطلوب تتبعها عند مقارنة مستندين.
+يحدد مدى دقة التغييرات التي يجب تتبعها عند مقارنة مستندين.
 
 ```csharp
 public enum Granularity
@@ -23,7 +23,7 @@ public enum Granularity
 
 ### أمثلة
 
-يظهر لتحديد مستوى الدقة أثناء مقارنة المستندات.
+يظهر لتحديد التفاصيل أثناء مقارنة المستندات.
 
 ```csharp
 Document docA = new Document();
@@ -34,14 +34,14 @@ Document docB = new Document();
 DocumentBuilder builderB = new DocumentBuilder(docB);
 builderB.Writeln("Lorems ipsum dolor sit amet consectetur - \"adipiscing\" elit");
 
-// حدد ما إذا كانت التغييرات يتم تعقبها
-// بالحرف ('Granularity.CharLevel') أو بالكلمة ('Granularity.WordLevel').
+// تحديد ما إذا كان سيتم تتبع التغييرات أم لا
+// حسب الحرف ('Granularity.CharLevel')، أو حسب الكلمة ('Granularity.WordLevel').
 Aspose.Words.Comparing.CompareOptions compareOptions = new Aspose.Words.Comparing.CompareOptions();
 compareOptions.Granularity = granularity;
 
 docA.Compare(docB, "author", DateTime.Now, compareOptions);
 
-// تحتوي مجموعة مجموعات المراجعة في المستند الأول على كافة الاختلافات بين المستندات.
+// تحتوي مجموعة مجموعات المراجعة الخاصة بالمستند الأول على جميع الاختلافات بين المستندات.
 RevisionGroupCollection groups = docA.Revisions.Groups;
 Assert.AreEqual(5, groups.Count);
 ```

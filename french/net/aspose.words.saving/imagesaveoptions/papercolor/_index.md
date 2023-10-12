@@ -3,7 +3,7 @@ title: ImageSaveOptions.PaperColor
 second_title: Référence de l'API Aspose.Words pour .NET
 description: ImageSaveOptions propriété. Obtient ou définit la couleur darrièreplan papier des images générées.
 type: docs
-weight: 100
+weight: 110
 url: /fr/net/aspose.words.saving/imagesaveoptions/papercolor/
 ---
 ## ImageSaveOptions.PaperColor property
@@ -22,7 +22,7 @@ Lors du rendu des pages d'un document qui spécifie sa propre couleur d'arrière
 
 ### Exemples
 
-Rend une page d'un document Word en une image avec un arrière-plan transparent ou coloré.
+Rend une page d'un document Word dans une image avec un arrière-plan transparent ou coloré.
 
 ```csharp
 Document doc = new Document();
@@ -34,18 +34,18 @@ builder.Writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 
 builder.InsertImage(ImageDir + "Logo.jpg");
 
-// Crée un objet "ImageSaveOptions" que nous pouvons passer à la méthode "Save" du document
-// pour modifier la façon dont cette méthode rend le document en image.
+// Crée un objet "ImageSaveOptions" que l'on peut passer à la méthode "Save" du document
+// pour modifier la manière dont cette méthode restitue le document en image.
 ImageSaveOptions imgOptions = new ImageSaveOptions(SaveFormat.Png);
 
-// Définissez la propriété "PaperColor" sur une couleur transparente pour appliquer un transparent
-// arrière-plan du document lors de son rendu en image.
+// Définissez la propriété "PaperColor" sur une couleur transparente pour appliquer un
+// l'arrière-plan du document tout en le rendant en image.
 imgOptions.PaperColor = Color.Transparent;
 
 doc.Save(ArtifactsDir + "ImageSaveOptions.PaperColor.Transparent.png", imgOptions);
 
-// Définissez la propriété "PaperColor" sur une couleur opaque pour appliquer cette couleur
-// comme arrière-plan du document tel que nous le rendons en image.
+// Définit la propriété "PaperColor" sur une couleur opaque pour appliquer cette couleur
+// comme arrière-plan du document lorsque nous le rendons en image.
 imgOptions.PaperColor = Color.LightCoral;
 
 doc.Save(ArtifactsDir + "ImageSaveOptions.PaperColor.LightCoral.png", imgOptions);

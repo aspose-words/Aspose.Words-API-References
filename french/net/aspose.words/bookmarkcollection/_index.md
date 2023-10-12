@@ -3,12 +3,14 @@ title: Class BookmarkCollection
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.BookmarkCollection classe. Une collection deBookmark objets qui représentent les signets dans la plage spécifiée.
 type: docs
-weight: 40
+weight: 50
 url: /fr/net/aspose.words/bookmarkcollection/
 ---
 ## BookmarkCollection class
 
 Une collection de[`Bookmark`](../bookmark/) objets qui représentent les signets dans la plage spécifiée.
+
+Pour en savoir plus, visitez le[Travailler avec des signets](https://docs.aspose.com/words/net/working-with-bookmarks/) article documentaire.
 
 ```csharp
 public class BookmarkCollection : IEnumerable<Bookmark>
@@ -41,10 +43,9 @@ public void CreateUpdateAndPrintBookmarks()
     // Créez un document avec trois signets, puis utilisez une implémentation de visiteur de document personnalisée pour imprimer leur contenu.
     Document doc = CreateDocumentWithBookmarks(3);
     BookmarkCollection bookmarks = doc.Range.Bookmarks;
-
     PrintAllBookmarkInfo(bookmarks);
 
-    // Les signets sont accessibles dans la collection de signets par index ou nom, et leurs noms peuvent être mis à jour.
+    // Les signets sont accessibles dans la collection de signets par index ou par nom, et leurs noms peuvent être mis à jour.
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
@@ -81,7 +82,7 @@ private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 {
     BookmarkInfoPrinter bookmarkVisitor = new BookmarkInfoPrinter();
 
-    // Obtient chaque signet de la collection pour accepter un visiteur qui imprimera son contenu.
+    // Demande à chaque signet de la collection d'accepter un visiteur qui imprimera son contenu.
     using (IEnumerator<Bookmark> enumerator = bookmarks.GetEnumerator())
     {
         while (enumerator.MoveNext())

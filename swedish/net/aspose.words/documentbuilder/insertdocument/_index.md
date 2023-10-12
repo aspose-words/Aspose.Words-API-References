@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertDocument
 second_title: Aspose.Words för .NET API Referens
 description: DocumentBuilder metod. Infogar ett dokument vid markörens position.
 type: docs
-weight: 290
+weight: 310
 url: /sv/net/aspose.words/documentbuilder/insertdocument/
 ---
 ## InsertDocument(Document, ImportFormatMode) {#insertdocument}
@@ -25,7 +25,7 @@ Första noden av det infogade innehållet.
 
 ### Anmärkningar
 
-Den här metoden härmar MS Word-beteendet, som om CTRL+'A' (välj allt innehåll) trycktes, sedan CTRL+'C' (kopiera vald i bufferten) inuti ett document och sedan CTRL+'V' (infoga innehåll från buffert) inuti ett annat dokument.
+Den här metoden efterliknar MS Word-beteendet, som om CTRL+'A' (välj allt innehåll) trycktes, sedan CTRL+'C' (kopiera vald i bufferten) i ett document och sedan CTRL+'V' (infoga innehåll från buffert) inuti ett annat dokument.
 
 ### Exempel
 
@@ -76,7 +76,7 @@ Första noden av det infogade innehållet.
 
 ### Anmärkningar
 
-Den här metoden härmar MS Word-beteendet, som om CTRL+'A' (välj allt innehåll) trycktes, sedan CTRL+'C' (kopiera vald i bufferten) inuti ett document och sedan CTRL+'V' (infoga innehåll från buffert) inuti ett annat dokument.
+Den här metoden efterliknar MS Word-beteendet, som om CTRL+'A' (välj allt innehåll) trycktes, sedan CTRL+'C' (kopiera vald i bufferten) i ett document och sedan CTRL+'V' (infoga innehåll från buffert) inuti ett annat dokument.
 
 ### Exempel
 

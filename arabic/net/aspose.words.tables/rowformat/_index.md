@@ -1,14 +1,16 @@
 ---
 title: Class RowFormat
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Tables.RowFormat فصل. يمثل كل التنسيقات لصف الجدول.
+description: Aspose.Words.Tables.RowFormat فصل. يمثل كافة التنسيقات لصف الجدول.
 type: docs
-weight: 6030
+weight: 6330
 url: /ar/net/aspose.words.tables/rowformat/
 ---
 ## RowFormat class
 
-يمثل كل التنسيقات لصف الجدول.
+يمثل كافة التنسيقات لصف الجدول.
+
+لمعرفة المزيد، قم بزيارة[العمل مع الجداول](https://docs.aspose.com/words/net/working-with-tables/) مقالة توثيقية.
 
 ```csharp
 public class RowFormat
@@ -18,10 +20,10 @@ public class RowFormat
 
 | اسم | وصف |
 | --- | --- |
-| [AllowBreakAcrossPages](../../aspose.words.tables/rowformat/allowbreakacrosspages/) { get; set; } | صواب في حالة السماح بتقسيم النص الموجود في صف الجدول عبر فاصل صفحة . |
-| [Borders](../../aspose.words.tables/rowformat/borders/) { get; } | الحصول على مجموعة حدود الخلية الافتراضية للصف. |
-| [HeadingFormat](../../aspose.words.tables/rowformat/headingformat/) { get; set; } | True إذا تكرر الصف كعنوان جدول في كل صفحة عندما يمتد الجدول على أكثر من صفحة واحدة . |
-| [Height](../../aspose.words.tables/rowformat/height/) { get; set; } | الحصول على أو تحديد ارتفاع صف الجدول بالنقاط . |
+| [AllowBreakAcrossPages](../../aspose.words.tables/rowformat/allowbreakacrosspages/) { get; set; } | صحيح إذا تم السماح للنص الموجود في صف الجدول بالانقسام عبر فاصل الصفحات. |
+| [Borders](../../aspose.words.tables/rowformat/borders/) { get; } | الحصول على مجموعة حدود الخلايا الافتراضية للصف. |
+| [HeadingFormat](../../aspose.words.tables/rowformat/headingformat/) { get; set; } | صحيح إذا تم تكرار الصف كعنوان جدول في كل صفحة عندما يمتد الجدول لأكثر من صفحة واحدة. |
+| [Height](../../aspose.words.tables/rowformat/height/) { get; set; } | الحصول على أو تحديد ارتفاع صف الجدول بالنقاط. |
 | [HeightRule](../../aspose.words.tables/rowformat/heightrule/) { get; set; } | الحصول على أو تعيين قاعدة تحديد ارتفاع صف الجدول. |
 
 ## طُرق
@@ -47,7 +49,7 @@ firstRow.RowFormat.AllowBreakAcrossPages = true;
 doc.Save(ArtifactsDir + "Table.RowFormat.docx");
 ```
 
-يوضح كيفية تعديل تنسيق الصفوف والخلايا في جدول.
+يوضح كيفية تعديل تنسيق الصفوف والخلايا في الجدول.
 
 ```csharp
 Document doc = new Document();
@@ -66,7 +68,7 @@ builder.Write("U.K.");
 builder.EndTable();
 
 // استخدم خاصية "RowFormat" للصف الأول لتعديل التنسيق
-// من محتويات جميع الخلايا في هذا الصف.
+// محتويات جميع الخلايا في هذا الصف.
 RowFormat rowFormat = table.FirstRow.RowFormat;
 rowFormat.Height = 25;
 rowFormat.Borders[BorderType.Bottom].Color = Color.Red;
@@ -87,8 +89,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.StartTable();
 
-// تعيين خيارات تنسيق الجدول لمنشئ المستندات
-// سيطبقها على كل صف وخلية نضيفها معها.
+// ضبط خيارات تنسيق الجدول لمنشئ المستندات
+// سيتم تطبيقها على كل صف وخلية نضيفها معها.
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 builder.CellFormat.ClearFormatting();
@@ -111,8 +113,8 @@ builder.InsertCell();
 builder.Write("Row 1, Col 2");
 builder.EndRow();
 
-// سيؤدي تغيير التنسيق إلى تطبيقه على الخلية الحالية ،
-// وأي خلايا جديدة ننشئها باستخدام المنشئ بعد ذلك.
+// سيؤدي تغيير التنسيق إلى تطبيقه على الخلية الحالية،
+// وأي خلايا جديدة نقوم بإنشائها مع المُنشئ بعد ذلك.
 // لن يؤثر هذا على الخلايا التي أضفناها سابقًا.
 builder.CellFormat.Shading.ClearFormatting();
 

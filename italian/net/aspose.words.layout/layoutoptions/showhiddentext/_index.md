@@ -1,14 +1,14 @@
 ---
 title: LayoutOptions.ShowHiddenText
 second_title: Aspose.Words per .NET API Reference
-description: LayoutOptions proprietà. Ottiene o imposta lindicazione se il testo nascosto nel documento viene visualizzato. Limpostazione predefinita è False.
+description: LayoutOptions proprietà. Ottiene o imposta lindicazione se viene eseguito il rendering del testo nascosto nel documento. Limpostazione predefinita èfalso .
 type: docs
-weight: 70
+weight: 80
 url: /it/net/aspose.words.layout/layoutoptions/showhiddentext/
 ---
 ## LayoutOptions.ShowHiddenText property
 
-Ottiene o imposta l'indicazione se il testo nascosto nel documento viene visualizzato. L'impostazione predefinita è False.
+Ottiene o imposta l'indicazione se viene eseguito il rendering del testo nascosto nel documento. L'impostazione predefinita è`falso` .
 
 ```csharp
 public bool ShowHiddenText { get; set; }
@@ -16,7 +16,7 @@ public bool ShowHiddenText { get; set; }
 
 ### Osservazioni
 
-Questa proprietà ha effetto su tutto il contenuto nascosto, non solo sul testo.
+Questa proprietà influisce su tutto il contenuto nascosto, non solo sul testo.
 
 ### Esempi
 

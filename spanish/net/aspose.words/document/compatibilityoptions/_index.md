@@ -1,14 +1,14 @@
 ---
 title: Document.CompatibilityOptions
 second_title: Referencia de API de Aspose.Words para .NET
-description: Document propiedad. Proporciona acceso a las opciones de compatibilidad de documentos es decir las preferencias de usuario ingresadas en el Compatibilidad pestaña de la Opciones diálogo en Word.
+description: Document propiedad. Proporciona acceso a las opciones de compatibilidad de documentos es decir las preferencias de usuario ingresadas en el Compatibilidad pestaña del Opciones cuadro de diálogo en Word.
 type: docs
 weight: 50
 url: /es/net/aspose.words/document/compatibilityoptions/
 ---
 ## Document.CompatibilityOptions property
 
-Proporciona acceso a las opciones de compatibilidad de documentos (es decir, las preferencias de usuario ingresadas en el **Compatibilidad** pestaña de la **Opciones** diálogo en Word).
+Proporciona acceso a las opciones de compatibilidad de documentos (es decir, las preferencias de usuario ingresadas en el **Compatibilidad** pestaña del **Opciones** cuadro de diálogo en Word).
 
 ```csharp
 public CompatibilityOptions CompatibilityOptions { get; }
@@ -23,18 +23,18 @@ public void OptimizeFor()
 {
     Document doc = new Document();
 
-    // Este objeto contiene una extensa lista de banderas únicas para cada documento
-    // que nos permiten facilitar la retrocompatibilidad con versiones anteriores de Microsoft Word.
+    // Este objeto contiene una lista extensa de indicadores únicos para cada documento
+    // que nos permiten facilitar la compatibilidad con versiones anteriores de Microsoft Word.
     CompatibilityOptions options = doc.CompatibilityOptions;
 
     // Imprime la configuración predeterminada para un documento en blanco.
     Console.WriteLine("\nDefault optimization settings:");
     PrintCompatibilityOptions(options);
 
-    // Podemos acceder a esta configuración en Microsoft Word a través de "Archivo" -> "Opciones" -> "Avanzado" -> "Opciones de compatibilidad para...".
+    // Podemos acceder a estas configuraciones en Microsoft Word a través de "Archivo" -> "Opciones" -> "Avanzado" -> "Opciones de compatibilidad para...".
     doc.Save(ArtifactsDir + "CompatibilityOptions.OptimizeFor.DefaultSettings.docx");
 
-    // Podemos usar el método OptimizeFor para garantizar una compatibilidad óptima con una versión específica de Microsoft Word.
+    // Podemos utilizar el método OptimizeFor para garantizar una compatibilidad óptima con una versión específica de Microsoft Word.
     doc.CompatibilityOptions.OptimizeFor(MsWordVersion.Word2010);
     Console.WriteLine("\nOptimized for Word 2010:");
     PrintCompatibilityOptions(options);

@@ -1,14 +1,14 @@
 ---
 title: Enum PropertyType
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Properties.PropertyType перечисление. Определяет тип данных свойства документа.
+description: Aspose.Words.Properties.PropertyType перечисление. Указывает тип данных свойства документа.
 type: docs
-weight: 4250
+weight: 4500
 url: /ru/net/aspose.words.properties/propertytype/
 ---
 ## PropertyType enumeration
 
-Определяет тип данных свойства документа.
+Указывает тип данных свойства документа.
 
 ```csharp
 public enum PropertyType
@@ -18,19 +18,19 @@ public enum PropertyType
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| Boolean | `0` | Свойство является логическим значением. |
+| Boolean | `0` | Свойство представляет собой логическое значение. |
 | DateTime | `1` | Свойство представляет собой значение даты и времени. |
-| Double | `2` | Свойство представляет собой число с плавающей запятой. |
+| Double | `2` | Свойство представляет собой плавающее число. |
 | Number | `3` | Свойство представляет собой целое число. |
-| String | `4` | Свойство является строковым значением. |
+| String | `4` | Свойство представляет собой строковое значение. |
 | StringArray | `5` | Свойство представляет собой массив строк. |
 | ObjectArray | `6` | Свойство представляет собой массив объектов. |
 | ByteArray | `7` | Свойство представляет собой массив байтов. |
-| Other | `8` | Свойство имеет другой тип. |
+| Other | `8` | Свойство другого типа. |
 
 ### Примеры
 
-Показывает, как работать с пользовательскими свойствами документа.
+Показывает, как работать с настраиваемыми свойствами документа.
 
 ```csharp
 Document doc = new Document();
@@ -49,21 +49,21 @@ properties.Add("Authorized Amount", 123.45);
 Assert.AreEqual(1, properties.IndexOf("Authorized Amount"));
 Assert.AreEqual(5, properties.Count);
 
-// Распечатать каждое пользовательское свойство в документе.
+// Распечатываем все пользовательские свойства в документе.
 using (IEnumerator<DocumentProperty> enumerator = properties.GetEnumerator())
 {
     while (enumerator.MoveNext())
         Console.WriteLine($"Name: \"{enumerator.Current.Name}\"\n\tType: \"{enumerator.Current.Type}\"\n\tValue: \"{enumerator.Current.Value}\"");
 }
 
-// Отображение значения пользовательского свойства с использованием поля DOCPROPERTY.
+// Отображение значения пользовательского свойства с помощью поля DOCPROPERTY.
 DocumentBuilder builder = new DocumentBuilder(doc);
 FieldDocProperty field = (FieldDocProperty)builder.InsertField(" DOCPROPERTY \"Authorized By\"");
 field.Update();
 
 Assert.AreEqual("John Doe", field.Result);
 
-// Мы можем найти эти пользовательские свойства в Microsoft Word через «Файл» -> "Свойства" > "Дополнительные свойства" > "Обычай".
+// Мы можем найти эти пользовательские свойства в Microsoft Word через «Файл» -> gt; «Свойства» > «Дополнительные свойства» > "Обычай".
 doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
 
 // Ниже приведены три способа удаления пользовательских свойств из документа.

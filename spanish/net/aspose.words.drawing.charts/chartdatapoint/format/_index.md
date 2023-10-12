@@ -25,10 +25,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
 Chart chart = shape.Chart;
 
-// Elimina la serie generada por defecto.
+// Eliminar la serie generada por defecto.
 chart.Series.Clear();
 
-// Agregando nueva serie.
+// Añadiendo nuevas series.
 ChartSeries series = chart.Series.Add("Series 1",
     new[] { "Category 1", "Category 2", "Category 3", "Category 4" },
     new double[] { 1, 2, 3, 4 });

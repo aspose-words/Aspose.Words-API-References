@@ -1,14 +1,14 @@
 ---
 title: BarcodeParameters.SymbolRotation
 second_title: Aspose.Words for .NET API 参考
-description: BarcodeParameters 财产. 条码符号的旋转有效值为 0 3.
+description: BarcodeParameters 财产. 条形码符号的旋转有效值为 0 3.
 type: docs
 weight: 180
 url: /zh/net/aspose.words.fields/barcodeparameters/symbolrotation/
 ---
 ## BarcodeParameters.SymbolRotation property
 
-条码符号的旋转。有效值为 [0, 3].
+条形码符号的旋转。有效值为 [0, 3].
 
 ```csharp
 public string SymbolRotation { get; set; }
@@ -21,14 +21,13 @@ public string SymbolRotation { get; set; }
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-
 // 我们可以使用自定义的 IBarcodeGenerator 实现来生成条形码，
 // 然后将它们作为图像插入到文档中。
 doc.FieldOptions.BarcodeGenerator = new CustomBarcodeGenerator();
 
 // 下面是我们可以使用生成器创建的不同条形码类型的四个示例。
-// 对于每个条码，我们指定一组新的条码参数，然后生成图像。
-// 之后，我们可以将图片插入到文档中，或者保存到本地文件系统中。
+// 对于每个条形码，我们指定一组新的条形码参数，然后生成图像。
+// 之后，我们可以将图像插入到文档中，或者将其保存到本地文件系统。
 // 1 - 二维码：
 BarcodeParameters barcodeParameters = new BarcodeParameters
 {

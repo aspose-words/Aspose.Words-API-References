@@ -1,14 +1,14 @@
 ---
 title: ThumbnailGeneratingOptions.GenerateFromFirstPage
 second_title: Aspose.Words for .NET API Referansı
-description: ThumbnailGeneratingOptions mülk. Belgenin ilk sayfasından mı yoksa ilk görüntüden mi küçük resim oluşturulacağını belirtir.
+description: ThumbnailGeneratingOptions mülk. Küçük resmin belgenin ilk sayfasından mı yoksa ilk görüntüden mi oluşturulacağını belirtir.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.rendering/thumbnailgeneratingoptions/generatefromfirstpage/
 ---
 ## ThumbnailGeneratingOptions.GenerateFromFirstPage property
 
-Belgenin ilk sayfasından mı yoksa ilk görüntüden mi küçük resim oluşturulacağını belirtir.
+Küçük resmin belgenin ilk sayfasından mı yoksa ilk görüntüden mi oluşturulacağını belirtir.
 
 ```csharp
 public bool GenerateFromFirstPage { get; set; }
@@ -16,7 +16,7 @@ public bool GenerateFromFirstPage { get; set; }
 
 ### Notlar
 
-Varsayılan`doğru` , bu, küçük resmin belgenin ilk sayfasından oluşturulacağı anlamına gelir. Değer`yanlış` ve belgede resim yok, küçük resim belgenin ilk sayfasından oluşturulacak.
+Varsayılan:`doğru` , bu, küçük resmin belgenin ilk sayfasından oluşturulacağı anlamına gelir. Değer ise`YANLIŞ` ve belgede resim yoksa, belgenin ilk sayfasından küçük resim oluşturulacaktır.
 
 ### Örnekler
 
@@ -29,7 +29,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 builder.InsertImage(ImageDir + "Logo.jpg");
 
-// Bir belgeyi .epub'a kaydederken küçük resim ayarlamanın iki yolu vardır.
+// Bir belgeyi .epub'a kaydederken küçük resim görüntüsünü ayarlamanın iki yolu vardır.
 // 1 - Belgenin ilk sayfasını kullanın:
 doc.UpdateThumbnail();
 doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstPage.epub");

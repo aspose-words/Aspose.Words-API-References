@@ -16,13 +16,13 @@ public string ResourcesFolder { get; set; }
 
 ### Anmärkningar
 
-Har effekt endast om[`ExportEmbeddedImages`](../exportembeddedimages/) egendom är falsk.
+Har effekt endast om[`ExportEmbeddedImages`](../exportembeddedimages/) egendom är`falsk`.
 
-När du sparar en[`Document`](../../../aspose.words/document/) SVG-format måste Aspose.Words spara alla -bilder som är inbäddade i dokumentet som fristående filer.`ResourcesFolder` låter dig ange var bilderna ska sparas och[`ResourcesFolderAlias`](../resourcesfolderalias/) tillåter att specificera hur bildens URI:er kommer att konstrueras.
+När du sparar en[`Document`](../../../aspose.words/document/) i SVG-format måste Aspose.Words spara all bilder som är inbäddade i dokumentet som fristående filer.`ResourcesFolder` låter dig ange var bilderna ska sparas och[`ResourcesFolderAlias`](../resourcesfolderalias/) tillåter att specificera hur bildens URI:er kommer att konstrueras.
 
-Om du sparar ett dokument i en fil och anger ett filnamn, sparar Aspose.Words, som standard, -bilderna i samma mapp där dokumentfilen sparas. Använda sig av`ResourcesFolder` för att åsidosätta detta beteende.
+Om du sparar ett dokument i en fil och anger ett filnamn, sparar Aspose.Words, som standard, bilderna i samma mapp där dokumentfilen sparas. Använda sig av`ResourcesFolder` för att åsidosätta detta beteende.
 
-Om du sparar ett dokument i en ström så har Aspose.Words ingen mapp där bilderna ska sparas, men behöver ändå spara bilderna någonstans. I det här fallet måste du ange en tillgänglig mapp i`ResourcesFolder` fast egendom
+Om du sparar ett dokument i en ström, har Aspose.Words ingen mapp där du kan spara bilderna, men behöver fortfarande spara bilderna någonstans. I det här fallet måste du ange en tillgänglig mapp i`ResourcesFolder` fast egendom
 
 ### Exempel
 

@@ -3,12 +3,14 @@ title: Class MergeFieldImageDimension
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.Fields.MergeFieldImageDimension classe. Représente une dimension dimage cestàdire la largeur ou la hauteur utilisée dans un processus de publipostage.
 type: docs
-weight: 2570
+weight: 2750
 url: /fr/net/aspose.words.fields/mergefieldimagedimension/
 ---
 ## MergeFieldImageDimension class
 
 Représente une dimension d'image (c'est-à-dire la largeur ou la hauteur) utilisée dans un processus de publipostage.
+
+Pour en savoir plus, visitez le[Travailler avec des champs](https://docs.aspose.com/words/net/working-with-fields/) article documentaire.
 
 ```csharp
 public class MergeFieldImageDimension
@@ -30,13 +32,14 @@ public class MergeFieldImageDimension
 
 ### Remarques
 
-Pour indiquer que l'image doit être insérée avec sa dimension d'origine lors d'un publipostage, vous devez attribuer une valeur négative à la[`Value`](./value/) propriété.
+Pour indiquer que l'image doit être insérée avec sa dimension d'origine lors d'un publipostage, vous devez attribuer une valeur négative au[`Value`](./value/) propriété.
 
 ### Exemples
 
-Montre comment définir les dimensions des images lorsque MERGEFIELDS les accepte lors d'un publipostage.
+Montre comment définir les dimensions des images telles que MERGEFIELDS les accepte lors d'un publipostage.
 
 ```csharp
+public void MergeFieldImageDimension()
 {
     Document doc = new Document();
 
@@ -48,22 +51,23 @@ Montre comment définir les dimensions des images lorsque MERGEFIELDS les accept
     // La source de données doit avoir une telle colonne nommée "ImageColumn".
     Assert.AreEqual("Image:ImageColumn", field.FieldName);
 
-    // Crée une source de données appropriée.
+    // Créez une source de données appropriée.
     DataTable dataTable = new DataTable("Images");
     dataTable.Columns.Add(new DataColumn("ImageColumn"));
     dataTable.Rows.Add(ImageDir + "Logo.jpg");
     dataTable.Rows.Add(ImageDir + "Transparent background logo.png");
     dataTable.Rows.Add(ImageDir + "Enhanced Windows MetaFile.emf");
 
-    // Configurez un rappel pour modifier la taille des images au moment de la fusion, puis exécutez le publipostage.
+    // Configurez un rappel pour modifier les tailles des images au moment de la fusion, puis exécutez le publipostage.
     doc.MailMerge.FieldMergingCallback = new MergedImageResizer(200, 200, MergeFieldImageDimensionUnit.Point);
     doc.MailMerge.Execute(dataTable);
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.MERGEFIELD.ImageDimension.docx");
+}
 
 /// <summary>
-/// Définit la taille de toutes les images fusionnées par courrier à une largeur et une hauteur définies.
+/// Définit la taille de toutes les images fusionnées par courrier sur une largeur et une hauteur définies.
 /// </summary>
 private class MergedImageResizer : IFieldMergingCallback
 {

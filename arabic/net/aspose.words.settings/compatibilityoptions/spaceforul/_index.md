@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.SpaceForUL
 second_title: Aspose.Words لمراجع .NET API
-description: CompatibilityOptions ملكية. أضف مسافة إضافية أسفل خط الأساس للحصول على نص شرق آسيوي مسطر.
+description: CompatibilityOptions ملكية. أضف مسافة إضافية أسفل الخط الأساسي للنص الشرق آسيوي المسطر.
 type: docs
 weight: 440
 url: /ar/net/aspose.words.settings/compatibilityoptions/spaceforul/
 ---
 ## CompatibilityOptions.SpaceForUL property
 
-أضف مسافة إضافية أسفل خط الأساس للحصول على نص شرق آسيوي مسطر.
+أضف مسافة إضافية أسفل الخط الأساسي للنص الشرق آسيوي المسطر.
 
 ```csharp
 public bool SpaceForUL { get; set; }

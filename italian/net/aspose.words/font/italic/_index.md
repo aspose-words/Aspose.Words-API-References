@@ -1,14 +1,14 @@
 ---
 title: Font.Italic
 second_title: Aspose.Words per .NET API Reference
-description: Font proprietà. Vero se il carattere è formattato in corsivo.
+description: Font proprietà. Vero se il carattere è formattato come corsivo.
 type: docs
 weight: 160
 url: /it/net/aspose.words/font/italic/
 ---
 ## Font.Italic property
 
-Vero se il carattere è formattato in corsivo.
+Vero se il carattere è formattato come corsivo.
 
 ```csharp
 public bool Italic { get; set; }

@@ -3,7 +3,7 @@ title: Enum EmbeddedFontStyle
 second_title: Aspose.Words per .NET API Reference
 description: Aspose.Words.Fonts.EmbeddedFontStyle enum. Specifica lo stile di un carattere incorporato allinterno di aFontInfo oggetto.
 type: docs
-weight: 2680
+weight: 2860
 url: /it/net/aspose.words.fonts/embeddedfontstyle/
 ---
 ## EmbeddedFontStyle enumeration
@@ -20,13 +20,13 @@ public enum EmbeddedFontStyle
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
 | Regular | `0` | Specifica il carattere incorporato regolare. |
-| Bold | `1` | Specifica il carattere incorporato in grassetto. |
-| Italic | `2` | Specifica il carattere incorporato in corsivo. |
-| BoldItalic | `3` | Specifica il carattere incorporato grassetto-corsivo. |
+| Bold | `1` | Specifica il carattere incorporato Grassetto. |
+| Italic | `2` | Specifica il carattere corsivo incorporato. |
+| BoldItalic | `3` | Specifica il carattere incorporato grassetto-italico. |
 
 ### Esempi
 
-Mostra come estrarre un font incorporato da un documento e salvarlo nel file system locale.
+Mostra come estrarre un carattere incorporato da un documento e salvarlo nel file system locale.
 
 ```csharp
 Document doc = new Document(MyDir + "Embedded font.docx");
@@ -35,7 +35,7 @@ FontInfo embeddedFont = doc.FontInfos["Alte DIN 1451 Mittelschrift"];
 byte[] embeddedFontBytes = embeddedFont.GetEmbeddedFont(EmbeddedFontFormat.OpenType, EmbeddedFontStyle.Regular);
 File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.ttf", embeddedFontBytes);
 
-// I formati dei caratteri incorporati possono essere diversi in altri formati come .doc.
+// I formati dei caratteri incorporati potrebbero essere diversi in altri formati come .doc.
 // Dobbiamo conoscere il formato corretto prima di poter estrarre il carattere.
 doc = new Document(MyDir + "Embedded font.doc");
 

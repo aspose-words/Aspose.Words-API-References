@@ -3,15 +3,17 @@ title: Class Forms2OleControlCollection
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Drawing.Ole.Forms2OleControlCollection klass. Representerar samling avForms2OleControl objekt.
 type: docs
-weight: 990
+weight: 1120
 url: /sv/net/aspose.words.drawing.ole/forms2olecontrolcollection/
 ---
 ## Forms2OleControlCollection class
 
 Representerar samling av[`Forms2OleControl`](../forms2olecontrol/) objekt.
 
+För att lära dig mer, besök[Arbeta med Ole Objects](https://docs.aspose.com/words/net/working-with-ole-objects/) dokumentationsartikel.
+
 ```csharp
-public class Forms2OleControlCollection
+public class Forms2OleControlCollection : IEnumerable<Forms2OleControl>
 ```
 
 ## Konstruktörer
@@ -25,7 +27,13 @@ public class Forms2OleControlCollection
 | namn | Beskrivning |
 | --- | --- |
 | [Count](../../aspose.words.drawing.ole/forms2olecontrolcollection/count/) { get; } | Får antalet objekt i samlingen. |
-| [Item](../../aspose.words.drawing.ole/forms2olecontrolcollection/item/) { get; } | Blir[`Forms2OleControl`](../forms2olecontrol/)objekt vid angivet index. |
+| [Item](../../aspose.words.drawing.ole/forms2olecontrolcollection/item/) { get; } | Blir[`Forms2OleControl`](../forms2olecontrol/) objekt vid ett angivet index. |
+
+## Metoder
+
+| namn | Beskrivning |
+| --- | --- |
+| [GetEnumerator](../../aspose.words.drawing.ole/forms2olecontrolcollection/getenumerator/)() | Får enumerator. |
 
 ### Exempel
 
@@ -58,6 +66,7 @@ Assert.AreEqual("0", oleControlCollection[2].Value);
 
 ### Se även
 
+* class [Forms2OleControl](../forms2olecontrol/)
 * namnutrymme [Aspose.Words.Drawing.Ole](../../aspose.words.drawing.ole/)
 * hopsättning [Aspose.Words](../../)
 

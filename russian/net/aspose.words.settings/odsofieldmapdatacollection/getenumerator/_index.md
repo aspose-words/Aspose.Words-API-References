@@ -1,14 +1,14 @@
 ---
 title: OdsoFieldMapDataCollection.GetEnumerator
 second_title: Справочник по API Aspose.Words для .NET
-description: OdsoFieldMapDataCollection метод. Возвращает объект перечислителя который можно использовать для перебора всех элементов в коллекции.
+description: OdsoFieldMapDataCollection метод. Возвращает объект перечислителя который можно использовать для перебора всех элементов коллекции.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.settings/odsofieldmapdatacollection/getenumerator/
 ---
 ## OdsoFieldMapDataCollection.GetEnumerator method
 
-Возвращает объект перечислителя, который можно использовать для перебора всех элементов в коллекции.
+Возвращает объект перечислителя, который можно использовать для перебора всех элементов коллекции.
 
 ```csharp
 public IEnumerator<OdsoFieldMapData> GetEnumerator()
@@ -21,8 +21,8 @@ public IEnumerator<OdsoFieldMapData> GetEnumerator()
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
 
-// Эта коллекция определяет, как слияние почты будет отображать столбцы из источника данных
-// в предопределенные поля MERGEFIELD, ADDRESSBLOCK и GREETINGLINE.
+// Эта коллекция определяет, как слияние почты будет сопоставлять столбцы из источника данных
+// к предопределенным полям MERGEFIELD, ADDRESSBLOCK и GREETINGLINE.
 OdsoFieldMapDataCollection dataCollection = doc.MailMergeSettings.Odso.FieldMapDatas;
 Assert.AreEqual(30, dataCollection.Count);
 
@@ -43,12 +43,12 @@ using (IEnumerator<OdsoFieldMapData> enumerator = dataCollection.GetEnumerator()
 // Клонируем элементы этой коллекции.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Использовать элементы метода "RemoveAt" по отдельности по индексу.
+// Используйте элементы метода «RemoveAt» индивидуально по индексу.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(29, dataCollection.Count);
 
-// Используйте метод «Очистить», чтобы сразу очистить всю коллекцию.
+// Используйте метод «Очистить», чтобы очистить всю коллекцию сразу.
 dataCollection.Clear();
 
 Assert.AreEqual(0, dataCollection.Count);

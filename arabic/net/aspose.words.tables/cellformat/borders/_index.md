@@ -1,14 +1,14 @@
 ---
 title: CellFormat.Borders
 second_title: Aspose.Words لمراجع .NET API
-description: CellFormat ملكية. الحصول على مجموعة من حدود الخلية .
+description: CellFormat ملكية. الحصول على مجموعة حدود الخلية.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.tables/cellformat/borders/
 ---
 ## CellFormat.Borders property
 
-الحصول على مجموعة من حدود الخلية .
+الحصول على مجموعة حدود الخلية.
 
 ```csharp
 public BorderCollection Borders { get; }
@@ -22,13 +22,13 @@ public BorderCollection Borders { get; }
 Document doc = new Document(MyDir + "Tables.docx");
 
 // فيما يلي طريقتان للحصول على جدول من مستند.
-// 1 - من مجموعة "الجداول" لعقدة الجسم:
+// 1 - من مجموعة "الجداول" للعقدة الأساسية:
 Table firstTable = doc.FirstSection.Body.Tables[0];
 
 // 2 - استخدام طريقة "GetChild":
 Table secondTable = (Table)doc.GetChild(NodeType.Table, 1, true);
 
-// إلحاق كافة الصفوف من الجدول الحالي بالجدول التالي.
+// إلحاق جميع الصفوف من الجدول الحالي بالجدول التالي.
 while (secondTable.HasChildNodes)
     firstTable.Rows.Add(secondTable.FirstRow);
 

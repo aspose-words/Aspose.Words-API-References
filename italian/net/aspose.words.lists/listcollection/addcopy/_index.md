@@ -16,7 +16,7 @@ public List AddCopy(List srcList)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| srcList | List | L'elenco di origine da cui copiare. |
+| srcList | List | L'elenco delle origini da cui copiare. |
 
 ### Valore di ritorno
 
@@ -24,7 +24,7 @@ L'elenco appena creato.
 
 ### Osservazioni
 
-L'elenco di origine può provenire da qualsiasi documento. Se l'elenco di origine appartiene a un documento diverso, viene creata una copia dell'elenco e aggiunta al documento corrente.
+L'elenco delle origini può provenire da qualsiasi documento. Se l'elenco di origine appartiene a un documento diverso, viene creata una copia dell'elenco e aggiunta al documento corrente.
 
 Se l'elenco di origine è un riferimento o una definizione di uno stile di elenco, l'elenco appena creato non è correlato allo stile di elenco originale.
 
@@ -69,16 +69,16 @@ Mostra come riavviare la numerazione in un elenco copiando un elenco.
 ```csharp
 Document doc = new Document();
 
-// Un elenco ci consente di organizzare e decorare insiemi di paragrafi con simboli e rientri prefissi.
-// Possiamo creare liste nidificate aumentando il livello di rientro. 
-// Possiamo iniziare e terminare un elenco utilizzando la proprietà "ListFormat" di un generatore di documenti. 
+// Un elenco ci consente di organizzare e decorare insiemi di paragrafi con simboli di prefisso e rientri.
+ // Possiamo creare elenchi nidificati aumentando il livello di rientro.
+ // Possiamo iniziare e terminare un elenco utilizzando la proprietà "ListFormat" del generatore di documenti.
 // Ogni paragrafo che aggiungiamo tra l'inizio e la fine di un elenco diventerà un elemento nell'elenco.
-// Crea un elenco da un modello di Microsoft Word e personalizza il suo primo livello di elenco.
+// Crea un elenco da un modello Microsoft Word e personalizza il primo livello di elenco.
 List list1 = doc.Lists.Add(ListTemplate.NumberArabicParenthesis);
 list1.ListLevels[0].Font.Color = Color.Red;
 list1.ListLevels[0].Alignment = ListLevelAlignment.Right;
 
-// Applica il nostro elenco ad alcuni paragrafi.
+// Applica la nostra lista ad alcuni paragrafi.
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("List 1 starts below:");

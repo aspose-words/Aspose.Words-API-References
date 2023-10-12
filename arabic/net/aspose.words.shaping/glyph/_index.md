@@ -1,12 +1,14 @@
 ---
 title: Class Glyph
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Shaping.Glyph فصل. 
+description: Aspose.Words.Shaping.Glyph فصل. يمثل الصورة الرمزية
 type: docs
-weight: 5740
+weight: 6040
 url: /ar/net/aspose.words.shaping/glyph/
 ---
 ## Glyph class
+
+يمثل الصورة الرمزية
 
 ```csharp
 public class Glyph
@@ -16,23 +18,23 @@ public class Glyph
 
 | اسم | وصف |
 | --- | --- |
-| [Glyph](glyph/)(int, short, short, short) |  |
+| [Glyph](glyph/)(int, short, short, short) | تهيئة المثيل الجديد لهذه الفئة. |
 
 ## الخصائص
 
 | اسم | وصف |
 | --- | --- |
-| [Advance](../../aspose.words.shaping/glyph/advance/) { get; set; } |  |
-| [AdvanceOffset](../../aspose.words.shaping/glyph/advanceoffset/) { get; } |  |
-| [AscenderOffset](../../aspose.words.shaping/glyph/ascenderoffset/) { get; } |  |
-| [GlyphIndex](../../aspose.words.shaping/glyph/glyphindex/) { get; } |  |
+| [Advance](../../aspose.words.shaping/glyph/advance/) { get; set; } | العرض المتقدم يشير إلى موضع الصورة الرمزية اللاحقة. |
+| [AdvanceOffset](../../aspose.words.shaping/glyph/advanceoffset/) { get; } | الإزاحة الأفقية (x) بالنسبة لموضع الحرف الرسومي. تستخدم غالبًا لإرفاق علامات (مثل علامات التشكيل) بالأحرف الأساسية. |
+| [AscenderOffset](../../aspose.words.shaping/glyph/ascenderoffset/) { get; } | الإزاحة الرأسية (y) بالنسبة لموضع الحرف الرسومي. تستخدم غالبًا لإرفاق علامات (مثل علامات التشكيل) بالأحرف الأساسية. |
+| [GlyphIndex](../../aspose.words.shaping/glyph/glyphindex/) { get; } | فهرس الصورة الرمزية (GID) بالخط الفعلي. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [Clone](../../aspose.words.shaping/glyph/clone/)() |  |
-| virtual [GetWidth](../../aspose.words.shaping/glyph/getwidth/)(int, float) |  |
+| virtual [Clone](../../aspose.words.shaping/glyph/clone/)() | إرجاع نسخة من هذا المثيل. |
+| virtual [GetWidth](../../aspose.words.shaping/glyph/getwidth/)(int, float) | إرجاع عرض (مقدمة) الحرف الرسومي بالنقاط. |
 
 ### أنظر أيضا
 

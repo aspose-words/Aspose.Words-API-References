@@ -3,7 +3,7 @@ title: Interface IHyphenationCallback
 second_title: Aspose.Words for .NET API Referansı
 description: Aspose.Words.IHyphenationCallback arayüz. Tireleme sözlüklerini kaydedebilen sınıflar tarafından uygulanır.
 type: docs
-weight: 2990
+weight: 3190
 url: /tr/net/aspose.words/ihyphenationcallback/
 ---
 ## IHyphenationCallback interface
@@ -22,9 +22,10 @@ public interface IHyphenationCallback
 
 ### Örnekler
 
-Bir dosyadan bir sözlüğün nasıl açılacağını ve kaydedileceğini gösterir.
+Bir dosyadan sözlüğün nasıl açılacağını ve kaydedileceğini gösterir.
 
 ```csharp
+public void RegisterDictionary()
 {
     // Tireleme sözlüğü kaydı sırasında oluşan uyarıları izleyen bir geri arama ayarlayın.
     WarningInfoCollection warningInfoCollection = new WarningInfoCollection();
@@ -36,11 +37,11 @@ Bir dosyadan bir sözlüğün nasıl açılacağını ve kaydedileceğini göste
 
     Assert.AreEqual(0, warningInfoCollection.Count);
 
-    // Almanca gibi bir İngilizce makinede Microsoft Word'ün tireleyemeyeceği bir yerel ayara sahip bir belge açın.
+    // Almanca gibi İngilizce bir makinede Microsoft Word'ün tireleme yapamayacağı bir yerel ayara sahip bir belge açın.
     Document doc = new Document(MyDir + "German text.docx");
 
-    // Bu belgeyi kaydettikten sonra tirelemek için "de-CH" dil kodu için bir tireleme sözlüğüne ihtiyacımız var.
-    // Bu geri arama, o sözlük için otomatik isteği işleyecektir.
+    // Bu belgeyi kaydettikten sonra tirelemek için, "de-CH" dil koduna yönelik bir tireleme sözlüğüne ihtiyacımız var.
+    // Bu geri çağırma söz konusu sözlük için otomatik isteği yerine getirecektir.
     Hyphenation.Callback = new CustomHyphenationDictionaryRegister();
 
     // Belgeyi kaydettiğimizde Almanca tireleme geçerli olacaktır.
@@ -55,7 +56,7 @@ Bir dosyadan bir sözlüğün nasıl açılacağını ve kaydedileceğini göste
 }
 
 /// <summary>
-/// Tireleme sözlüğü dosyaları için ISO dil kodlarını yerel sistem dosya adlarıyla ilişkilendirir.
+/// Tireleme sözlük dosyaları için ISO dil kodlarını yerel sistem dosya adlarıyla ilişkilendirir.
 /// </summary>
 private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 {

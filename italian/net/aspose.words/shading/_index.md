@@ -3,12 +3,14 @@ title: Class Shading
 second_title: Aspose.Words per .NET API Reference
 description: Aspose.Words.Shading classe. Contiene gli attributi di ombreggiatura per un oggetto.
 type: docs
-weight: 5690
+weight: 5990
 url: /it/net/aspose.words/shading/
 ---
 ## Shading class
 
 Contiene gli attributi di ombreggiatura per un oggetto.
+
+Per saperne di più, visita il[Programmazione con documenti](https://docs.aspose.com/words/net/programming-with-documents/) articolo di documentazione.
 
 ```csharp
 public class Shading : InternableComplexAttr
@@ -18,17 +20,21 @@ public class Shading : InternableComplexAttr
 
 | Nome | Descrizione |
 | --- | --- |
-| [BackgroundPatternColor](../../aspose.words/shading/backgroundpatterncolor/) { get; set; } | Ottiene o imposta il colore applicato allo sfondo dell'oggetto Shading. |
-| [ForegroundPatternColor](../../aspose.words/shading/foregroundpatterncolor/) { get; set; } | Ottiene o imposta il colore applicato al primo piano dell'oggetto Shading. |
-| [Texture](../../aspose.words/shading/texture/) { get; set; } | Ottiene o imposta la trama dell'ombreggiatura. |
+| [BackgroundPatternColor](../../aspose.words/shading/backgroundpatterncolor/) { get; set; } | Ottiene o imposta il colore applicato allo sfondo del file`Shading` oggetto. |
+| [BackgroundPatternThemeColor](../../aspose.words/shading/backgroundpatternthemecolor/) { get; set; } | Ottiene o imposta il colore del tema del motivo di sfondo nella combinazione di colori applicata associata a questo`Shading` oggetto. |
+| [BackgroundTintAndShade](../../aspose.words/shading/backgroundtintandshade/) { get; set; } | Ottiene o imposta un valore double che schiarisce o scurisce il colore del tema di sfondo. |
+| [ForegroundPatternColor](../../aspose.words/shading/foregroundpatterncolor/) { get; set; } | Ottiene o imposta il colore applicato al primo piano del file`Shading` oggetto. |
+| [ForegroundPatternThemeColor](../../aspose.words/shading/foregroundpatternthemecolor/) { get; set; } | Ottiene o imposta il colore del tema del motivo in primo piano nella combinazione di colori applicata associata a questo`Shading` oggetto. |
+| [ForegroundTintAndShade](../../aspose.words/shading/foregroundtintandshade/) { get; set; } | Ottiene o imposta un valore double che schiarisce o scurisce il colore del tema di primo piano. |
+| [Texture](../../aspose.words/shading/texture/) { get; set; } | Ottiene o imposta la texture dell'ombreggiatura. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
 | [ClearFormatting](../../aspose.words/shading/clearformatting/)() | Rimuove l'ombreggiatura dall'oggetto. |
-| override [Equals](../../aspose.words/shading/equals/#equals_1)(object) | Determina se l'oggetto specificato è uguale in valore all'oggetto corrente. |
-| [Equals](../../aspose.words/shading/equals/#equals)(Shading) | Determina se l'ombreggiatura specificata è uguale in valore all'ombreggiatura corrente. |
+| override [Equals](../../aspose.words/shading/equals/#equals_1)(object) | Determina se l'oggetto specificato ha un valore uguale all'oggetto corrente. |
+| [Equals](../../aspose.words/shading/equals/#equals)(Shading) | Determina se specificato`Shading` ha lo stesso valore della corrente`Shading` . |
 | override [GetHashCode](../../aspose.words/shading/gethashcode/)() | Serve come funzione hash per questo tipo. |
 
 ### Esempi
@@ -65,7 +71,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Table table = builder.StartTable();
 table.SetBorders(LineStyle.Single, 2.0, Color.Black);
 
-// Crea una riga con due celle con diversi colori di sfondo.
+// Crea una riga con due celle con colori di sfondo diversi.
 builder.InsertCell();
 builder.CellFormat.Shading.BackgroundPatternColor = Color.LightSkyBlue;
 builder.Writeln("Row 1, Cell 1.");
@@ -74,9 +80,9 @@ builder.CellFormat.Shading.BackgroundPatternColor = Color.Orange;
 builder.Writeln("Row 1, Cell 2.");
 builder.EndRow();
 
-// Ripristina la formattazione della cella per disabilitare i colori di sfondo
+// Reimposta la formattazione della cella per disabilitare i colori di sfondo
 // imposta uno spessore del bordo personalizzato per tutte le nuove celle create dal builder,
-// quindi costruisci una seconda riga.
+// quindi crea una seconda riga.
 builder.CellFormat.ClearFormatting();
 builder.CellFormat.Borders.Left.LineWidth = 4.0;
 builder.CellFormat.Borders.Right.LineWidth = 4.0;

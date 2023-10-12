@@ -1,14 +1,14 @@
 ---
 title: PageSetup.PageHeight
 second_title: Aspose.Words für .NET-API-Referenz
-description: PageSetup eigendom. Gibt die Höhe der Seite in Punkt zurück oder legt sie fest.
+description: PageSetup eigendom. Gibt die Höhe der Seite in Punkten zurück oder legt sie fest.
 type: docs
-weight: 300
+weight: 310
 url: /de/net/aspose.words/pagesetup/pageheight/
 ---
 ## PageSetup.PageHeight property
 
-Gibt die Höhe der Seite in Punkt zurück oder legt sie fest.
+Gibt die Höhe der Seite in Punkten zurück oder legt sie fest.
 
 ```csharp
 public double PageHeight { get; set; }
@@ -16,7 +16,7 @@ public double PageHeight { get; set; }
 
 ### Beispiele
 
-Zeigt, wie ein Bild eingefügt und als Wasserzeichen verwendet wird.
+Zeigt, wie man ein Bild einfügt und es als Wasserzeichen verwendet.
 
 ```csharp
 Document doc = new Document();
@@ -38,7 +38,7 @@ shape.Top = (builder.PageSetup.PageHeight - shape.Height) / 2;
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertWatermark.docx");
 ```
 
-Zeigt, wie ein Bild eingefügt und als Wasserzeichen verwendet wird (.NetStandard 2.0).
+Zeigt, wie man ein Bild einfügt und es als Wasserzeichen verwendet (.NetStandard 2.0).
 
 ```csharp
 Document doc = new Document();

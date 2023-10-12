@@ -3,7 +3,7 @@ title: FieldOptions.FieldDatabaseProvider
 second_title: Référence de l'API Aspose.Words pour .NET
 description: FieldOptions propriété. Obtient ou définit un fournisseur qui renvoie un résultat de requête pour leFieldDatabase champ.
 type: docs
-weight: 70
+weight: 80
 url: /fr/net/aspose.words.fields/fieldoptions/fielddatabaseprovider/
 ---
 ## FieldOptions.FieldDatabaseProvider property

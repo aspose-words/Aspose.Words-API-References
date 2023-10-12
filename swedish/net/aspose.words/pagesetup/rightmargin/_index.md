@@ -3,7 +3,7 @@ title: PageSetup.RightMargin
 second_title: Aspose.Words för .NET API Referens
 description: PageSetup fast egendom. Returnerar eller ställer in avståndet i punkter mellan sidans högra kant och den högra gränsen för brödtexten.
 type: docs
-weight: 360
+weight: 370
 url: /sv/net/aspose.words/pagesetup/rightmargin/
 ---
 ## PageSetup.RightMargin property

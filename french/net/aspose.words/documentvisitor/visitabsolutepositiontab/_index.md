@@ -1,14 +1,14 @@
 ---
 title: DocumentVisitor.VisitAbsolutePositionTab
 second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentVisitor méthode. Appelé lorsquunAbsolutePositionTab nœud est rencontré dans le document.
+description: DocumentVisitor méthode. Appelé lorsquunAbsolutePositionTab le nœud est rencontré dans le document.
 type: docs
 weight: 10
 url: /fr/net/aspose.words/documentvisitor/visitabsolutepositiontab/
 ---
 ## DocumentVisitor.VisitAbsolutePositionTab method
 
-Appelé lorsqu'un[`AbsolutePositionTab`](../../absolutepositiontab/) nœud est rencontré dans le document.
+Appelé lorsqu'un[`AbsolutePositionTab`](../../absolutepositiontab/) le nœud est rencontré dans le document.
 
 ```csharp
 public virtual VisitorAction VisitAbsolutePositionTab(AbsolutePositionTab tab)
@@ -16,11 +16,11 @@ public virtual VisitorAction VisitAbsolutePositionTab(AbsolutePositionTab tab)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| tab | AbsolutePositionTab | L'objet visité. |
+| tab | AbsolutePositionTab | L'objet qui est visité. |
 
 ### Return_Value
 
-UN[`VisitorAction`](../../visitoraction/) valeur qui spécifie comment poursuivre l'énumération.
+UN[`VisitorAction`](../../visitoraction/) valeur qui spécifie comment continuer l’énumération.
 
 ### Exemples
 
@@ -31,11 +31,11 @@ public void DocumentToTxt()
 {
     Document doc = new Document(MyDir + "Absolute position tab.docx");
 
-    // Extraire le contenu textuel de notre document en acceptant ce visiteur de document personnalisé.
+    // Extrayez le contenu textuel de notre document en acceptant ce visiteur de document personnalisé.
     DocTextExtractor myDocTextExtractor = new DocTextExtractor();
     doc.FirstSection.Body.Accept(myDocTextExtractor);
 
-    // La tabulation de position absolue, qui n'a pas d'équivalent sous forme de chaîne, a été explicitement convertie en un caractère de tabulation.
+    // La tabulation de position absolue, qui n'a pas d'équivalent sous forme de chaîne, a été explicitement convertie en caractère de tabulation.
     Assert.AreEqual("Before AbsolutePositionTab\tAfter AbsolutePositionTab", myDocTextExtractor.GetText());
 
     // Un AbsolutePositionTab peut également accepter un DocumentVisitor par lui-même.
@@ -58,7 +58,7 @@ public class DocTextExtractor : DocumentVisitor
     }
 
     /// <summary>
-    /// Appelé lorsqu'un noeud Run est rencontré dans le document.
+    /// Appelé lorsqu'un nœud Run est rencontré dans le document.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -76,7 +76,7 @@ public class DocTextExtractor : DocumentVisitor
     }
 
     /// <summary>
-    /// Ajoute du texte à la sortie actuelle. Honore le drapeau de sortie activé/désactivé.
+    /// Ajoute du texte à la sortie actuelle. Honore l’indicateur de sortie activé/désactivé.
     /// </summary>
     private void AppendText(string text)
     {

@@ -1,14 +1,14 @@
 ---
 title: Interface IComparisonExpressionEvaluator
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fields.IComparisonExpressionEvaluator واجهه المستخدم. عند التنفيذ  يسمح بتجاوز تقييم تعبيرات المقارنة الافتراضية لـFieldIf وFieldCompare الحقول.
+description: Aspose.Words.Fields.IComparisonExpressionEvaluator واجهه المستخدم. عند التنفيذ يسمح بتجاوز تقييم تعبيرات المقارنة الافتراضية لـFieldIf وFieldCompare الحقول.
 type: docs
-weight: 2510
+weight: 2680
 url: /ar/net/aspose.words.fields/icomparisonexpressionevaluator/
 ---
 ## IComparisonExpressionEvaluator interface
 
-عند التنفيذ ، يسمح بتجاوز تقييم تعبيرات المقارنة الافتراضية لـ[`FieldIf`](../fieldif/) و[`FieldCompare`](../fieldcompare/) الحقول.
+عند التنفيذ، يسمح بتجاوز تقييم تعبيرات المقارنة الافتراضية لـ[`FieldIf`](../fieldif/) و[`FieldCompare`](../fieldcompare/) الحقول.
 
 ```csharp
 public interface IComparisonExpressionEvaluator
@@ -18,7 +18,7 @@ public interface IComparisonExpressionEvaluator
 
 | اسم | وصف |
 | --- | --- |
-| [Evaluate](../../aspose.words.fields/icomparisonexpressionevaluator/evaluate/)(Field, ComparisonExpression) | تقييم تعبير المقارنة . |
+| [Evaluate](../../aspose.words.fields/icomparisonexpressionevaluator/evaluate/)(Field, ComparisonExpression) | تقييم تعبير المقارنة. |
 
 ### أنظر أيضا
 

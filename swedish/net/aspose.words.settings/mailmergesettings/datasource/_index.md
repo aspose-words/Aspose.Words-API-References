@@ -33,7 +33,7 @@ builder.EndTable();
 doc.Save(ArtifactsDir + "MailMerge.MailingLabelMerge.Header.docx");
 
 // Skapa en adressetikettssammanslagningsdatafil som består av en tabell med en rad
-// och samma antal kolumner som rubrikdokumentets tabell. 
+ // och samma antal kolumner som rubrikdokumentets tabell.
 doc = new Document();
 builder = new DocumentBuilder(doc);
 

@@ -16,11 +16,11 @@ public object[] HeadingPairs { get; set; }
 
 ### 评论
 
-每个标题对占用此数组中的两个元素。
+每个标题对占用该数组中的两个元素。
 
-该对的第一个元素是String并指定标题名称。 该对的第二个元素是Int32并在[`TitlesOfParts`](../titlesofparts/)财产。
+该对的第一个元素是String并指定标题名称。 该对的第二个元素是Int32并指定该标题的 document 部分的计数[`TitlesOfParts`](../titlesofparts/)财产。
 
-此属性中所有标题对的总计数必须等于[`TitlesOfParts`](../titlesofparts/)财产。
+此属性中所有标题对的计数总和必须等于 中元素的数量[`TitlesOfParts`](../titlesofparts/)财产。
 
 Aspose.Words 不会更新此属性。
 
@@ -34,7 +34,7 @@ Document doc = new Document(MyDir + "Heading pairs and titles of parts.docx");
 // 我们可以通过以下方式找到这些集合的组合值
 //“文件”-> “属性”-> “高级属性”-> “内容”选项卡。
 // HeadingPairs 属性是 <string, int> 的集合配对
-// 确定一个标题跨越多少个文档部分。
+// 确定标题跨越多少个文档部分。
 object[] headingPairs = doc.BuiltInDocumentProperties.HeadingPairs;
 
 // TitlesOfParts 属性包含属于上述标题的部分的名称。

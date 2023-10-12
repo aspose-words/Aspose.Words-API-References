@@ -1,14 +1,14 @@
 ---
 title: RevisionGroup.RevisionType
 second_title: Aspose.Words for .NET API Referansı
-description: RevisionGroup mülk. Bu gruba dahil olan düzeltmelerin türünü alır.
+description: RevisionGroup mülk. Bu gruba dahil olan revizyonların türünü alır.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/revisiongroup/revisiontype/
 ---
 ## RevisionGroup.RevisionType property
 
-Bu gruba dahil olan düzeltmelerin türünü alır.
+Bu gruba dahil olan revizyonların türünü alır.
 
 ```csharp
 public RevisionType RevisionType { get; }
@@ -16,7 +16,7 @@ public RevisionType RevisionType { get; }
 
 ### Örnekler
 
-Bir belgedeki bir grup düzeltme hakkındaki bilgilerin nasıl yazdırılacağını gösterir.
+Bir belgedeki revizyon grubu hakkındaki bilgilerin nasıl yazdırılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");

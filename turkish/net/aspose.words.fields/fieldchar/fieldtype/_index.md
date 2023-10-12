@@ -38,7 +38,7 @@ field = (FieldDate)fieldStart.GetField();
 Assert.AreEqual(false, field.IsLocked);
 Assert.AreEqual(" DATE  \\@ \"dddd, MMMM dd, yyyy\"", field.GetFieldCode());
 
-// Geçerli tarihi göstermek için alanı güncelleyin.
+// Geçerli tarihi gösterecek şekilde alanı güncelleyin.
 field.Update();
 ```
 

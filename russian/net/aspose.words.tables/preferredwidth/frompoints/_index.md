@@ -1,14 +1,14 @@
 ---
 title: PreferredWidth.FromPoints
 second_title: Справочник по API Aspose.Words для .NET
-description: PreferredWidth метод. Метод создания который возвращает новый экземпляр представляющий предпочтительную ширину указанную с помощью количества точек.
+description: PreferredWidth метод. Метод создания который возвращает новый экземпляр представляющий предпочтительную ширину указанную с использованием количества точек.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.tables/preferredwidth/frompoints/
 ---
 ## PreferredWidth.FromPoints method
 
-Метод создания, который возвращает новый экземпляр, представляющий предпочтительную ширину, указанную с помощью количества точек.
+Метод создания, который возвращает новый экземпляр, представляющий предпочтительную ширину, указанную с использованием количества точек.
 
 ```csharp
 public static PreferredWidth FromPoints(double points)
@@ -16,7 +16,7 @@ public static PreferredWidth FromPoints(double points)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| points | Double | Значение должно быть от 0 до 22 дюймов (22 * 72 точки). |
+| points | Double | Значение должно быть от 0 до 22 дюймов (22 * 72 пункта). |
 
 ### Примеры
 
@@ -33,7 +33,7 @@ builder.InsertCell();
 Assert.AreEqual(216.0d, table.FirstRow.FirstCell.CellFormat.PreferredWidth.Value);
 ```
 
-Показывает, как установить предпочтительную ширину для ячеек таблицы.
+Показывает, как установить предпочтительную ширину ячеек таблицы.
 
 ```csharp
 Document doc = new Document();
@@ -41,13 +41,13 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Table table = builder.StartTable();
 
 // Существует два способа применения класса PreferredWidth к ячейкам таблицы.
-// 1 - Установить абсолютную предпочтительную ширину в пунктах:
+// 1 - Установить абсолютную предпочтительную ширину на основе точек:
 builder.InsertCell();
 builder.CellFormat.PreferredWidth = PreferredWidth.FromPoints(40);
 builder.CellFormat.Shading.BackgroundPatternColor = Color.LightYellow;
 builder.Writeln($"Cell with a width of {builder.CellFormat.PreferredWidth}.");
 
-// 2 - Установите относительную предпочтительную ширину в процентах от ширины таблицы:
+// 2 - Установить относительную предпочтительную ширину в процентах от ширины таблицы:
 builder.InsertCell();
 builder.CellFormat.PreferredWidth = PreferredWidth.FromPercent(20);
 builder.CellFormat.Shading.BackgroundPatternColor = Color.LightBlue;
@@ -55,7 +55,7 @@ builder.Writeln($"Cell with a width of {builder.CellFormat.PreferredWidth}.");
 
 builder.InsertCell();
 
-// Ячейка, для которой не указана предпочтительная ширина, займет оставшееся доступное пространство.
+// Ячейка, для которой не указана предпочтительная ширина, займет оставшуюся часть доступного пространства.
 builder.CellFormat.PreferredWidth = PreferredWidth.Auto;
 
 // Каждая конфигурация свойства PreferredWidth создает новый объект.

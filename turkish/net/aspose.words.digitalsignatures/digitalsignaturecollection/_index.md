@@ -1,14 +1,16 @@
 ---
 title: Class DigitalSignatureCollection
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.DigitalSignatures.DigitalSignatureCollection sınıf. Bir belgeye eklenmiş salt okunur bir dijital imza koleksiyonu sağlar.
+description: Aspose.Words.DigitalSignatures.DigitalSignatureCollection sınıf. Bir belgeye eklenen dijital imzaların salt okunur bir koleksiyonunu sağlar.
 type: docs
-weight: 380
+weight: 390
 url: /tr/net/aspose.words.digitalsignatures/digitalsignaturecollection/
 ---
 ## DigitalSignatureCollection class
 
-Bir belgeye eklenmiş salt okunur bir dijital imza koleksiyonu sağlar.
+Bir belgeye eklenen dijital imzaların salt okunur bir koleksiyonunu sağlar.
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Dijital İmzalarla Çalışma](https://docs.aspose.com/words/net/working-with-digital-signatures/) dokümantasyon makalesi.
 
 ```csharp
 public class DigitalSignatureCollection : IEnumerable<DigitalSignature>
@@ -24,15 +26,15 @@ public class DigitalSignatureCollection : IEnumerable<DigitalSignature>
 
 | İsim | Tanım |
 | --- | --- |
-| [Count](../../aspose.words.digitalsignatures/digitalsignaturecollection/count/) { get; } | Koleksiyonda bulunan öğelerin sayısını alır. |
-| [IsValid](../../aspose.words.digitalsignatures/digitalsignaturecollection/isvalid/) { get; } | İade`doğru` bu koleksiyondaki tüm dijital imzalar geçerliyse ve belge üzerinde değişiklik yapılmadıysa Ayrıca döner`doğru`dijital imza yoksa. Döndürür`yanlış` en az bir dijital imza geçersizse. |
+| [Count](../../aspose.words.digitalsignatures/digitalsignaturecollection/count/) { get; } | Koleksiyonda yer alan öğelerin sayısını alır. |
+| [IsValid](../../aspose.words.digitalsignatures/digitalsignaturecollection/isvalid/) { get; } | İadeler`doğru` bu koleksiyondaki tüm dijital imzalar geçerliyse ve belgede değişiklik yapılmadıysa Ayrıca şunu döndürür:`doğru` dijital imza yoksa. Döndürür`YANLIŞ` en az bir dijital imza geçersizse. |
 | [Item](../../aspose.words.digitalsignatures/digitalsignaturecollection/item/) { get; } | Belirtilen dizinde bir belge imzası alır. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| [GetEnumerator](../../aspose.words.digitalsignatures/digitalsignaturecollection/getenumerator/)() | Koleksiyondaki tüm öğeler üzerinde yineleme yapmak için kullanılabilecek bir sözlük numaralandırıcı nesnesi döndürür. |
+| [GetEnumerator](../../aspose.words.digitalsignatures/digitalsignaturecollection/getenumerator/)() | Koleksiyondaki tüm öğeler üzerinde yineleme yapmak için kullanılabilecek bir sözlük numaralandırıcı nesnesini döndürür. |
 
 ### Notlar
 
@@ -40,7 +42,7 @@ public class DigitalSignatureCollection : IEnumerable<DigitalSignature>
 
 ### Örnekler
 
-Bir belgedeki her imzayla ilgili bilgilerin nasıl doğrulanacağını ve görüntüleneceğini gösterir.
+Bir belgedeki her imza hakkındaki bilgilerin nasıl doğrulanacağını ve görüntüleneceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Digitally signed.docx");
@@ -57,17 +59,17 @@ foreach (DigitalSignature signature in doc.DigitalSignatures)
 }
 ```
 
-X.509 sertifikalarıyla belgelerin nasıl imzalanacağını gösterir.
+X.509 sertifikalarına sahip belgelerin nasıl imzalanacağını gösterir.
 
 ```csharp
 // Bir belgenin imzalanmadığını doğrulayın.
 Assert.False(FileFormatUtil.DetectFileFormat(MyDir + "Document.docx").HasDigitalSignature);
 
-// Belgeyi imzalamak için kullanacağımız bir PKCS12 dosyasından bir CertificateHolder nesnesi oluşturun.
+// Belgeyi imzalamak için kullanacağımız PKCS12 dosyasından bir SertifikaHolder nesnesi oluşturun.
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 
-// Belgenin imzalı bir kopyasını yerel dosya sistemine kaydetmenin iki yolu vardır:
-// 1 - Bir belgeyi yerel sistem dosya adıyla atayın ve imzalı bir kopyayı başka bir dosya adıyla belirtilen bir konuma kaydedin.
+// Bir belgenin imzalı bir kopyasını yerel dosya sistemine kaydetmenin iki yolu vardır:
+// 1 - Bir belgeyi yerel sistem dosya adına göre atayın ve imzalı bir kopyasını başka bir dosya adıyla belirtilen konuma kaydedin.
 DigitalSignatureUtil.Sign(MyDir + "Document.docx", ArtifactsDir + "Document.DigitalSignature.docx", 
     certificateHolder, new SignOptions() { SignTime = DateTime.Now } );
 

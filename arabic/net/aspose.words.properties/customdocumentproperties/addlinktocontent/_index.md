@@ -1,14 +1,14 @@
 ---
 title: CustomDocumentProperties.AddLinkToContent
 second_title: Aspose.Words لمراجع .NET API
-description: CustomDocumentProperties طريقة. إنشاء ارتباط جديد بخاصية مستند مخصص للمحتوى.
+description: CustomDocumentProperties طريقة. إنشاء خاصية وثيقة مخصصة جديدة مرتبطة بالمحتوى.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.properties/customdocumentproperties/addlinktocontent/
 ---
 ## CustomDocumentProperties.AddLinkToContent method
 
-إنشاء ارتباط جديد بخاصية مستند مخصص للمحتوى.
+إنشاء خاصية وثيقة مخصصة جديدة مرتبطة بالمحتوى.
 
 ```csharp
 public DocumentProperty AddLinkToContent(string name, string linkSource)
@@ -21,11 +21,11 @@ public DocumentProperty AddLinkToContent(string name, string linkSource)
 
 ### قيمة الإرجاع
 
-كائن الخاصية الذي تم إنشاؤه حديثًا أو فارغًا عندما يكون مصدر الارتباط غير صالح.
+كائن الخاصية الذي تم إنشاؤه حديثًا أو`باطل` عندما*linkSource* غير صالح.
 
 ### أمثلة
 
-يوضح كيفية ربط خاصية مستند مخصصة بإشارة مرجعية.
+يوضح كيفية ربط خاصية مستند مخصص بإشارة مرجعية.
 
 ```csharp
 Document doc = new Document();
@@ -36,7 +36,7 @@ builder.Write("Hello world!");
 builder.EndBookmark("MyBookmark");
 
 // ربط خاصية مخصصة جديدة بإشارة مرجعية. قيمة هذا العقار
-// ستكون محتويات الإشارة المرجعية التي تشير إليها في عضو "LinkSource".
+// ستكون محتويات الإشارة المرجعية التي تشير إليها في العضو "LinkSource".
 CustomDocumentProperties customProperties = doc.CustomDocumentProperties;
 DocumentProperty customProperty = customProperties.AddLinkToContent("Bookmark", "MyBookmark");
 

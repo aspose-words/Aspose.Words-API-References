@@ -31,7 +31,6 @@ class Comment : public Aspose::Words::InlineStory,
 | [EnsureMinimum](../inlinestory/ensureminimum/)() | If the last child is not a paragraph, creates and appends one empty paragraph. |
 | [get_Ancestor](./get_ancestor/)() | Returns the parent [Comment](./) object. Returns **null** for top-level comments. |
 | [get_Author](./get_author/)() const | Returns or sets the author name for a comment. |
-| [get_ChildNodes](../compositenode/get_childnodes/)() | Gets all immediate child nodes of this node. |
 | [get_Count](../compositenode/get_count/)() | Gets the number of immediate children of this node. |
 | [get_CustomNodeId](../node/get_customnodeid/)() const | Specifies custom node identifier. |
 | [get_DateTime](./get_datetime/)() const | Gets the date and time that the comment was made. |

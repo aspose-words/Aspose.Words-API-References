@@ -16,7 +16,7 @@ public bool IsFontConfigAvailable()
 
 ### Ejemplos
 
-Muestra la sustitución de configuración de fuente dependiente del sistema operativo.
+Muestra la sustitución de configuración de fuentes dependiente del sistema operativo.
 
 ```csharp
 FontSettings fontSettings = new FontSettings();
@@ -26,7 +26,7 @@ FontConfigSubstitutionRule fontConfigSubstitution =
 bool isWindows = new[] {PlatformID.Win32NT, PlatformID.Win32S, PlatformID.Win32Windows, PlatformID.WinCE}
     .Any(p => Environment.OSVersion.Platform == p);
 
-// El objeto FontConfigSubstitutionRule funciona de manera diferente en plataformas Windows y no Windows.
+// El objeto FontConfigSubstitutionRule funciona de forma diferente en plataformas Windows o no Windows.
 // En Windows, no está disponible.
 if (isWindows)
 {

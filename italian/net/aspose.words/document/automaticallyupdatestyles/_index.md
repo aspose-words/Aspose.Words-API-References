@@ -21,19 +21,19 @@ Mostra come allegare un modello a un documento.
 ```csharp
 Document doc = new Document();
 
-// I documenti Microsoft Word vengono forniti per impostazione predefinita con un modello allegato chiamato "Normal.dotm".
+// I documenti Microsoft Word per impostazione predefinita vengono forniti con un modello allegato chiamato "Normal.dotm".
 // Non esiste un modello predefinito per i documenti Aspose.Words vuoti.
 Assert.AreEqual(string.Empty, doc.AttachedTemplate);
 
 // Allega un modello, quindi imposta il flag per applicare le modifiche allo stile
-// all'interno del modello agli stili nel nostro documento.
+// all'interno del modello per gli stili nel nostro documento.
 doc.AttachedTemplate = MyDir + "Business brochure.dotx";
 doc.AutomaticallyUpdateStyles = true;
 
 doc.Save(ArtifactsDir + "Document.AutomaticallyUpdateStyles.docx");
 ```
 
-Mostra come impostare un modello predefinito per i documenti che non hanno modelli allegati.
+Mostra come impostare un modello predefinito per i documenti a cui non sono allegati modelli.
 
 ```csharp
 Document doc = new Document();
@@ -43,8 +43,8 @@ doc.AutomaticallyUpdateStyles = true;
 
 Assert.AreEqual(string.Empty, doc.AttachedTemplate);
 
-// Poiché non esiste un documento modello, il documento non aveva un punto in cui tenere traccia delle modifiche allo stile.
-// Usa un oggetto SaveOptions per impostare automaticamente un modello
+// Poiché non esiste un documento modello, il documento non aveva un posto dove tenere traccia delle modifiche di stile.
+// Utilizza un oggetto SaveOptions per impostare automaticamente un modello
 // se un documento che stiamo salvando non ne ha uno.
 SaveOptions options = SaveOptions.CreateSaveOptions("Document.DefaultTemplate.docx");
 options.DefaultTemplate = MyDir + "Business brochure.dotx";

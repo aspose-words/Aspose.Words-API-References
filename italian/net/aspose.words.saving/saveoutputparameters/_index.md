@@ -1,14 +1,16 @@
 ---
 title: Class SaveOutputParameters
 second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Saving.SaveOutputParameters classe. Questo oggetto viene restituito al chiamante dopo il salvataggio di un documento e contiene informazioni aggiuntive che è stato generato o calcolato durante loperazione di salvataggio. Il chiamante può utilizzare o ignorare questo oggetto.
+description: Aspose.Words.Saving.SaveOutputParameters classe. Questo oggetto viene restituito al chiamante dopo il salvataggio di un documento e contiene informazioni aggiuntive che sono state generate o calcolate durante loperazione di salvataggio. Il chiamante può utilizzare o ignorare questo oggetto.
 type: docs
-weight: 5310
+weight: 5590
 url: /it/net/aspose.words.saving/saveoutputparameters/
 ---
 ## SaveOutputParameters class
 
-Questo oggetto viene restituito al chiamante dopo il salvataggio di un documento e contiene informazioni aggiuntive che è stato generato o calcolato durante l'operazione di salvataggio. Il chiamante può utilizzare o ignorare questo oggetto.
+Questo oggetto viene restituito al chiamante dopo il salvataggio di un documento e contiene informazioni aggiuntive che sono state generate o calcolate durante l'operazione di salvataggio. Il chiamante può utilizzare o ignorare questo oggetto.
+
+Per saperne di più, visita il[Salva un documento](https://docs.aspose.com/words/net/save-a-document/) articolo di documentazione.
 
 ```csharp
 public class SaveOutputParameters
@@ -29,7 +31,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// Dopo aver salvato un documento, possiamo accedere al tipo di supporto Internet (tipo MIME) del documento di output appena creato.
+// Dopo aver salvato un documento, possiamo accedere all'Internet Media Type (tipo MIME) del documento di output appena creato.
 SaveOutputParameters parameters = doc.Save(ArtifactsDir + "Document.SaveOutputParameters.doc");
 
 Assert.AreEqual("application/msword", parameters.ContentType);

@@ -1,14 +1,14 @@
 ---
 title: Shape.Chart
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Shape propriété. Fournit un accès aux propriétés du graphique si cette forme a un graphique.
+description: Shape propriété. Donne accès aux propriétés du graphique si cette forme a unChart .
 type: docs
 weight: 20
 url: /fr/net/aspose.words.drawing/shape/chart/
 ---
 ## Shape.Chart property
 
-Fournit un accès aux propriétés du graphique si cette forme a un graphique.
+Donne accès aux propriétés du graphique si cette forme a un[`Chart`](../../../aspose.words.drawing.charts/chart/) .
 
 ```csharp
 public Chart Chart { get; }
@@ -16,13 +16,14 @@ public Chart Chart { get; }
 
 ### Remarques
 
-Cette propriété renverra le`Chart` objet seulement si[`HasChart`](../haschart/) La propriété est vraie pour cette forme et lèvera une exception dans le cas contraire.
+Cette propriété renverra le[`Chart`](../../../aspose.words.drawing.charts/chart/) objet seulement si[`HasChart`](../haschart/) La propriété est`vrai` pour ça[`Shape`](../)et lèvera une exception sinon.
 
 ### Exemples
 
-Montre comment parcourir toutes les formes d'un document.
+Montre comment parcourir toutes les formes d’un document.
 
 ```csharp
+public void VisitShapes()
 {
     Document doc = new Document(MyDir + "Revision shape.docx");
     ShapeAppearancePrinter visitor = new ShapeAppearancePrinter();
@@ -32,7 +33,7 @@ Montre comment parcourir toutes les formes d'un document.
 }
 
 /// <summary>
-/// Consigne les informations relatives à l'apparence des formes visitées.
+/// Enregistre les informations relatives à l'apparence des formes visitées.
 /// </summary>
 private class ShapeAppearancePrinter : DocumentVisitor
 {
@@ -54,7 +55,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Renvoie tout le texte que le StringBuilder a accumulé.
+    /// Renvoie tout le texte accumulé par StringBuilder.
     /// </summary>
     public string GetText()
     {

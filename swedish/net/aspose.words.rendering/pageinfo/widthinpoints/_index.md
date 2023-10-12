@@ -3,7 +3,7 @@ title: PageInfo.WidthInPoints
 second_title: Aspose.Words för .NET API Referens
 description: PageInfo fast egendom. Hämtar sidans bredd i punkter.
 type: docs
-weight: 60
+weight: 70
 url: /sv/net/aspose.words.rendering/pageinfo/widthinpoints/
 ---
 ## PageInfo.WidthInPoints property

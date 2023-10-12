@@ -16,7 +16,7 @@ public int Count { get; }
 
 ### Примеры
 
-Показывает, как использовать XPath для навигации по NodeList.
+Показывает, как использовать XPaths для навигации по NodeList.
 
 ```csharp
 Document doc = new Document();
@@ -39,28 +39,28 @@ using (SKBitmap image = SKBitmap.Decode(ImageDir + "Logo.jpg"))
     builder.InsertImage(image);
 #endif
 
-// Наш документ содержит три узла Run.
-NodeList nodeList = doc.SelectNodes("//Бежать");
+// Наш документ содержит три узла «Выполнить».
+NodeList nodeList = doc.SelectNodes("//Бегать");
 
 Assert.AreEqual(3, nodeList.Count);
 Assert.True(nodeList.Any(n => n.GetText().Trim() == "Hello world!"));
 Assert.True(nodeList.Any(n => n.GetText().Trim() == "Cell 1"));
 Assert.True(nodeList.Any(n => n.GetText().Trim() == "Cell 2"));
 
-// Используйте двойную косую черту, чтобы выбрать все узлы Run
-// которые являются непрямыми потомками узла Table, которые будут прогонами внутри двух вставленных ячеек.
-nodeList = doc.SelectNodes("//Table//Бежать");
+// Используйте двойную косую черту, чтобы выбрать все узлы выполнения
+// которые являются косвенными потомками узла Таблицы, которые будут проходами внутри двух вставленных нами ячеек.
+nodeList = doc.SelectNodes("//Table//Бегать");
 
 Assert.AreEqual(2, nodeList.Count);
 Assert.True(nodeList.Any(n => n.GetText().Trim() == "Cell 1"));
 Assert.True(nodeList.Any(n => n.GetText().Trim() == "Cell 2"));
 
-// Одиночная косая черта указывает прямые отношения потомков,
-// который мы пропустили, когда использовали двойную косую черту.
+// Одиночные косые черты указывают прямые отношения потомков,
+// который мы пропустили, когда использовали двойные косые черты.
 Assert.AreEqual(doc.SelectNodes(" //Таблица//Выполнить"),
     doc.SelectNodes("//Таблица/Строка/Ячейка/Абзац/Выполнить");
 
-// Доступ к фигуре, содержащей вставленное изображение.
+// Доступ к фигуре, содержащей вставленное нами изображение.
 nodeList = doc.SelectNodes("//Форма");
 
 Assert.AreEqual(1, nodeList.Count);

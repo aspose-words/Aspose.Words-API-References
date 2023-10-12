@@ -3,7 +3,7 @@ title: Document.RenderToScale
 second_title: Справочник по API Aspose.Words для .NET
 description: Document метод. Преобразует страницу документа вGraphics объект в указанном масштабе.
 type: docs
-weight: 660
+weight: 700
 url: /ru/net/aspose.words/document/rendertoscale/
 ---
 ## Document.RenderToScale method
@@ -16,11 +16,11 @@ public SizeF RenderToScale(int pageIndex, Graphics graphics, float x, float y, f
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| pageIndex | Int32 | Индекс страницы, начинающийся с 0. |
-| graphics | Graphics | Объект, на который выполняется рендеринг. |
-| x | Single | Координата X (в мировых единицах) левого верхнего угла отображаемой страницы. |
-| y | Single | Координата Y (в мировых единицах) левого верхнего угла отображаемой страницы. |
-| scale | Single | Масштаб рендеринга страницы (1.0 это 100%). |
+| pageIndex | Int32 | Индекс страницы, отсчитываемый от 0. |
+| graphics | Graphics | Объект, в который выполняется рендеринг. |
+| x | Single | Координата X (в мировых единицах измерения) верхнего левого угла отображаемой страницы. |
+| y | Single | Координата Y (в мировых единицах измерения) верхнего левого угла отображаемой страницы. |
+| scale | Single | Масштаб отрисовки страницы (1.0 — 100%). |
 
 ### Возвращаемое значение
 
@@ -28,12 +28,12 @@ public SizeF RenderToScale(int pageIndex, Graphics graphics, float x, float y, f
 
 ### Примеры
 
-Показывает, как из отдельных страниц документа в графику создать одно изображение с эскизами всех страниц.
+Показывает, как из отдельных страниц документа с графикой создать одно изображение с миниатюрами всех страниц.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Рассчитаем количество строк и столбцов, которые мы заполним миниатюрами.
+// Подсчитаем количество строк и столбцов, которые мы заполним миниатюрами.
 const int thumbColumns = 2;
 int thumbRows = Math.DivRem(doc.PageCount, thumbColumns, out int remainder);
 
@@ -44,7 +44,7 @@ if (remainder > 0)
 const float scale = 0.25f;
 Size thumbSize = doc.GetPageInfo(0).GetSizeInPixels(scale, 96);
 
-// Рассчитаем размер изображения, которое будет содержать все миниатюры.
+// Вычисляем размер изображения, которое будет содержать все миниатюры.
 int imgWidth = thumbSize.Width * thumbColumns;
 int imgHeight = thumbSize.Height * thumbRows;
 
@@ -54,7 +54,7 @@ using (Bitmap img = new Bitmap(imgWidth, imgHeight))
     {
         gr.TextRenderingHint = TextRenderingHint.AntiAliasGridFit;
 
-        // Заливаем фон, который по умолчанию прозрачен, белым цветом.
+        // Заливаем фон, который по умолчанию прозрачный, белым.
         gr.FillRectangle(new SolidBrush(Color.White), 0, 0, imgWidth, imgHeight);
 
         for (int pageIndex = 0; pageIndex < doc.PageCount; pageIndex++)
@@ -65,7 +65,7 @@ using (Bitmap img = new Bitmap(imgWidth, imgHeight))
             float thumbLeft = columnIdx * thumbSize.Width;
             float thumbTop = rowIdx * thumbSize.Height;
 
-            // Визуализируем страницу как миниатюру, а затем обрамляем ее прямоугольником того же размера.
+            // Отрисовываем страницу как миниатюру, а затем обрамляем ее прямоугольником того же размера.
             SizeF size = doc.RenderToScale(pageIndex, gr, thumbLeft, thumbTop, scale);
             gr.DrawRectangle(Pens.Black, thumbLeft, thumbTop, size.Width, size.Height);
         }
@@ -75,12 +75,12 @@ using (Bitmap img = new Bitmap(imgWidth, imgHeight))
 }
 ```
 
-Преобразует отдельные страницы в графику для создания одного изображения с эскизами всех страниц (.NetStandard 2.0).
+Преобразует отдельные страницы в графику для создания одного изображения с миниатюрами всех страниц (.NetStandard 2.0).
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Рассчитаем количество строк и столбцов, которые мы заполним миниатюрами.
+// Подсчитаем количество строк и столбцов, которые мы заполним миниатюрами.
 const int thumbnailColumnsNum = 2;
 int thumbRows = Math.DivRem(doc.PageCount, thumbnailColumnsNum, out int remainder);
 
@@ -91,7 +91,7 @@ if (remainder > 0)
 const float scale = 0.25f;
 Size thumbSize = doc.GetPageInfo(0).GetSizeInPixels(scale, 96);
 
-// Рассчитаем размер изображения, которое будет содержать все миниатюры.
+// Вычисляем размер изображения, которое будет содержать все миниатюры.
 int imgWidth = thumbSize.Width * thumbnailColumnsNum;
 int imgHeight = thumbSize.Height * thumbRows;
 
@@ -99,7 +99,7 @@ using (SKBitmap bitmap = new SKBitmap(imgWidth, imgHeight))
 {
     using (SKCanvas canvas = new SKCanvas(bitmap))
     {
-        // Заливаем фон, который по умолчанию прозрачен, белым цветом.
+        // Заливаем фон, который по умолчанию прозрачный, белым.
         canvas.Clear(SKColors.White);
 
         for (int pageIndex = 0; pageIndex < doc.PageCount; pageIndex++)
@@ -112,7 +112,7 @@ using (SKBitmap bitmap = new SKBitmap(imgWidth, imgHeight))
 
             SizeF size = doc.RenderToScale(pageIndex, canvas, thumbLeft, thumbTop, scale);
 
-            // Визуализируем страницу как миниатюру, а затем обрамляем ее прямоугольником того же размера.
+            // Отрисовываем страницу как миниатюру, а затем обрамляем ее прямоугольником того же размера.
             SKRect rect = new SKRect(0, 0, size.Width, size.Height);
             rect.Offset(thumbLeft, thumbTop);
             canvas.DrawRect(rect, new SKPaint

@@ -1,14 +1,16 @@
 ---
 title: Class FieldFormat
 second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Fields.FieldFormat clase. Proporciona acceso escrito al formato numérico de fecha y hora y general del campo.
+description: Aspose.Words.Fields.FieldFormat clase. Proporciona acceso escrito al formato numérico de fecha y hora y al formato general del campo.
 type: docs
-weight: 1790
+weight: 1940
 url: /es/net/aspose.words.fields/fieldformat/
 ---
 ## FieldFormat class
 
-Proporciona acceso escrito al formato numérico, de fecha y hora y general del campo.
+Proporciona acceso escrito al formato numérico, de fecha y hora y al formato general del campo.
+
+Para obtener más información, visite el[Trabajar con campos](https://docs.aspose.com/words/net/working-with-fields/) artículo de documentación.
 
 ```csharp
 public class FieldFormat
@@ -18,9 +20,9 @@ public class FieldFormat
 
 | Nombre | Descripción |
 | --- | --- |
-| [DateTimeFormat](../../aspose.words.fields/fieldformat/datetimeformat/) { get; set; } | Obtiene o establece un formato que se aplica a un resultado de campo de fecha y hora. Corresponde al \@ switch. |
-| [GeneralFormats](../../aspose.words.fields/fieldformat/generalformats/) { get; } | Obtiene una colección de formatos generales que se aplican a un resultado numérico, de texto o de cualquier campo. Corresponde a los \* modificadores. |
-| [NumericFormat](../../aspose.words.fields/fieldformat/numericformat/) { get; set; } | Obtiene o establece un formato que se aplica a un resultado de campo numérico. Corresponde al \# switch. |
+| [DateTimeFormat](../../aspose.words.fields/fieldformat/datetimeformat/) { get; set; } | Obtiene o establece un formato que se aplica al resultado del campo de fecha y hora. Corresponde al \@ switch. |
+| [GeneralFormats](../../aspose.words.fields/fieldformat/generalformats/) { get; } | Obtiene una colección de formatos generales que se aplican a un resultado numérico, de texto o de cualquier campo. Corresponde a los modificadores \*. |
+| [NumericFormat](../../aspose.words.fields/fieldformat/numericformat/) { get; set; } | Obtiene o establece un formato que se aplica al resultado de un campo numérico. Corresponde al \# switch. |
 
 ### Ejemplos
 
@@ -30,7 +32,7 @@ Muestra cómo dar formato a los resultados de los campos.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Use un generador de documentos para insertar un campo que muestre un resultado sin formato aplicado.
+// Utilice un generador de documentos para insertar un campo que muestre un resultado sin formato aplicado.
 Field field = builder.InsertField("= 2 + 3");
 
 Assert.AreEqual("= 2 + 3", field.GetFieldCode());

@@ -1,14 +1,14 @@
 ---
 title: Table.FirstRow
 second_title: Справочник по API Aspose.Words для .NET
-description: Table свойство. Возвращает первый Строка узел в таблице.
+description: Table свойство. Возвращает первыйRow узел в таблице.
 type: docs
 weight: 160
 url: /ru/net/aspose.words.tables/table/firstrow/
 ---
 ## Table.FirstRow property
 
-Возвращает первый **Строка** узел в таблице.
+Возвращает первый[`Row`](../../row/) узел в таблице.
 
 ```csharp
 public Row FirstRow { get; }
@@ -42,17 +42,17 @@ Assert.AreEqual(2, tables[1].Rows.Count);
 Document doc = new Document(MyDir + "Tables.docx");
 
 // Ниже приведены два способа получения таблицы из документа.
-// 1 - Из коллекции "Таблицы" узла Body:
+// 1 — Из коллекции «Таблицы» узла Body:
 Table firstTable = doc.FirstSection.Body.Tables[0];
 
-// 2 - Используя метод "GetChild":
+// 2 - Использование метода "GetChild":
 Table secondTable = (Table)doc.GetChild(NodeType.Table, 1, true);
 
 // Добавляем все строки из текущей таблицы в следующую.
 while (secondTable.HasChildNodes)
     firstTable.Rows.Add(secondTable.FirstRow);
 
-// Удалить пустой контейнер таблицы.
+// Удаляем пустой контейнер таблицы.
 secondTable.Remove();
 
 doc.Save(ArtifactsDir + "Table.CombineTables.docx");

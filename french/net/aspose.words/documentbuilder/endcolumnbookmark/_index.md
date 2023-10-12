@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.EndColumnBookmark
 second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentBuilder méthode. Marque la position actuelle dans le document en tant que fin de signet de colonne. La position doit être dans une cellule du tableau.
+description: DocumentBuilder méthode. Marque la position actuelle dans le document comme fin de signet de colonne. La position doit être dans une cellule du tableau.
 type: docs
-weight: 200
+weight: 220
 url: /fr/net/aspose.words/documentbuilder/endcolumnbookmark/
 ---
 ## DocumentBuilder.EndColumnBookmark method
 
-Marque la position actuelle dans le document en tant que fin de signet de colonne. La position doit être dans une cellule du tableau.
+Marque la position actuelle dans le document comme fin de signet de colonne. La position doit être dans une cellule du tableau.
 
 ```csharp
 public BookmarkEnd EndColumnBookmark(string bookmarkName)
@@ -20,15 +20,15 @@ public BookmarkEnd EndColumnBookmark(string bookmarkName)
 
 ### Return_Value
 
-Le nœud de fin de signet qui vient d'être créé.
+Le nœud de fin du signet qui vient d'être créé.
 
 ### Remarques
 
-Un signet de colonne couvre une ou plusieurs colonnes dans une plage de lignes. Pour créer un signet valide, vous devez appeler les deux[`StartColumnBookmark`](../startcolumnbookmark/) et`EndColumnBookmark` avec le même  **bookmarkName** paramètre.
+Un signet de colonne couvre une ou plusieurs colonnes dans une plage de lignes. Pour créer un signet valide, vous devez appeler les deux[`StartColumnBookmark`](../startcolumnbookmark/) et`EndColumnBookmark` avec le même *bookmarkName*paramètre.
 
 Les signets mal formés ou les signets avec des noms en double seront ignorés lors de l'enregistrement du document.
 
-La position réelle de l'insertion[`BookmarkEnd`](../../bookmarkend/) node peut différer de la position actuelle du document builder.
+La position réelle de l'inséré[`BookmarkEnd`](../../bookmarkend/) Le nœud peut différer de la position actuelle du constructeur document .
 
 ### Exemples
 

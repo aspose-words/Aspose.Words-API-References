@@ -1,14 +1,14 @@
 ---
 title: FormField.Type
 second_title: Référence de l'API Aspose.Words pour .NET
-description: FormField propriété. Renvoie le type de champ de formulaire.
+description: FormField propriété. Renvoie le type de champ du formulaire.
 type: docs
 weight: 220
 url: /fr/net/aspose.words.fields/formfield/type/
 ---
 ## FormField.Type property
 
-Renvoie le type de champ de formulaire.
+Renvoie le type de champ du formulaire.
 
 ```csharp
 public FieldType Type { get; }

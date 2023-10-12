@@ -1,14 +1,14 @@
 ---
 title: ParagraphFormat.NoSpaceBetweenParagraphsOfSameStyle
 second_title: Aspose.Words per .NET API Reference
-description: ParagraphFormat proprietà. Quando è veroSpaceBefore eSpaceAfter verrà ignorato tra i paragrafi dello stesso stile.
+description: ParagraphFormat proprietà. QuandoVERO SpaceBefore ESpaceAfter verrà ignorato tra i paragrafi dello stesso stile.
 type: docs
-weight: 230
+weight: 240
 url: /it/net/aspose.words/paragraphformat/nospacebetweenparagraphsofsamestyle/
 ---
 ## ParagraphFormat.NoSpaceBetweenParagraphsOfSameStyle property
 
-Quando è vero,[`SpaceBefore`](../spacebefore/) e[`SpaceAfter`](../spaceafter/) verrà ignorato tra i paragrafi dello stesso stile.
+Quando`VERO` ,[`SpaceBefore`](../spacebefore/) E[`SpaceAfter`](../spaceafter/) verrà ignorato tra i paragrafi dello stesso stile.
 
 ```csharp
 public bool NoSpaceBetweenParagraphsOfSameStyle { get; set; }
@@ -16,11 +16,11 @@ public bool NoSpaceBetweenParagraphsOfSameStyle { get; set; }
 
 ### Osservazioni
 
-Questa impostazione ha effetto solo se applicata a uno stile di paragrafo. Se applicato direttamente a un paragrafo, non ha effetto.
+Questa impostazione ha effetto solo se applicata a uno stile di paragrafo. Se applicato direttamente a un paragrafo, non ha alcun effetto.
 
 ### Esempi
 
-Mostra come non applicare spazi tra i paragrafi con lo stesso stile.
+Mostra come non applicare alcuna spaziatura tra i paragrafi con lo stesso stile.
 
 ```csharp
 Document doc = new Document();
@@ -32,7 +32,7 @@ builder.ParagraphFormat.SpaceAfter = 24;
 
 // Imposta il flag "NoSpaceBetweenParagraphsOfSameStyle" su "true" per applicare
 // nessuna spaziatura tra i paragrafi con lo stesso stile, che raggrupperà paragrafi simili.
-// Lascia il flag "NoSpaceBetweenParagraphsOfSameStyle" come "falso"
+// Lascia il flag "NoSpaceBetweenParagraphsOfSameStyle" su "false"
 // per applicare uniformemente la spaziatura a ogni paragrafo.
 builder.ParagraphFormat.NoSpaceBetweenParagraphsOfSameStyle = noSpaceBetweenParagraphsOfSameStyle;
 

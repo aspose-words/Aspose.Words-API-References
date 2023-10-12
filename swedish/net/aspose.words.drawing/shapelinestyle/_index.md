@@ -3,7 +3,7 @@ title: Enum ShapeLineStyle
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Drawing.ShapeLineStyle uppräkning. Anger den sammansatta linjestilen för enShape .
 type: docs
-weight: 1120
+weight: 1270
 url: /sv/net/aspose.words.drawing/shapelinestyle/
 ---
 ## ShapeLineStyle enumeration
@@ -50,6 +50,7 @@ stroke.DashStyle = DashStyle.ShortDashDotDot;
 stroke.JoinStyle = JoinStyle.Miter;
 stroke.EndCap = EndCap.Square;
 stroke.LineStyle = ShapeLineStyle.Triple;
+stroke.Fill.TwoColorGradient(Color.Red, Color.Blue, GradientStyle.Vertical, GradientVariant.Variant1);
 
 doc.Save(ArtifactsDir + "Shape.Stroke.docx");
 ```

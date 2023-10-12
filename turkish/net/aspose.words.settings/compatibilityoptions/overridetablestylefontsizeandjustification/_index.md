@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.OverrideTableStyleFontSizeAndJustification
 second_title: Aspose.Words for .NET API Referansı
-description: CompatibilityOptions mülk. Belgenin stil hiyerarşisinin nasıl değerlendirildiğini belirtir.
+description: CompatibilityOptions mülk. Belgenin stil hiyerarşisinin nasıl değerlendirileceğini belirtir.
 type: docs
 weight: 380
 url: /tr/net/aspose.words.settings/compatibilityoptions/overridetablestylefontsizeandjustification/
 ---
 ## CompatibilityOptions.OverrideTableStyleFontSizeAndJustification property
 
-Belgenin stil hiyerarşisinin nasıl değerlendirildiğini belirtir.
+Belgenin stil hiyerarşisinin nasıl değerlendirileceğini belirtir.
 
 ```csharp
 public bool OverrideTableStyleFontSizeAndJustification { get; set; }

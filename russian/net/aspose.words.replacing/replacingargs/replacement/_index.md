@@ -16,9 +16,10 @@ public string Replacement { get; set; }
 
 ### Примеры
 
-Показывает, как заменить все вхождения шаблона регулярного выражения другой строкой, отслеживая все такие замены.
+Показывает, как заменить все вхождения шаблона регулярного выражения другой строкой, отслеживая при этом все такие замены.
 
 ```csharp
+public void ReplaceWithCallback()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -26,7 +27,7 @@ public string Replacement { get; set; }
     builder.Writeln("Our new location in New York City is opening tomorrow. " +
                     "Hope to see all our NYC-based customers at the opening!");
 
-    // Мы можем использовать объект «FindReplaceOptions», чтобы изменить процесс поиска и замены.
+    // Мы можем использовать объект «FindReplaceOptions» для изменения процесса поиска и замены.
     FindReplaceOptions options = new FindReplaceOptions();
 
     // Установите обратный вызов, который отслеживает любые замены, которые сделает метод "Replace".
@@ -43,7 +44,7 @@ public string Replacement { get; set; }
 }
 
 /// <summary>
-/// Ведет журнал каждой замены текста, выполненной операцией поиска и замены
+/// Ведёт журнал каждой замены текста, выполненной операцией поиска и замены
 /// и отмечает значение исходного совпавшего текста.
 /// </summary>
 private class TextFindAndReplacementLogger : IReplacingCallback

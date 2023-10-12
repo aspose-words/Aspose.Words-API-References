@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTag.NodeType
 second_title: Aspose.Words für .NET-API-Referenz
-description: StructuredDocumentTag eigendom. gibt zurück NodeType.StructuredDocumentTag .
+description: StructuredDocumentTag eigendom. Gibt zurückStructuredDocumentTag .
 type: docs
 weight: 220
 url: /de/net/aspose.words.markup/structureddocumenttag/nodetype/
 ---
 ## StructuredDocumentTag.NodeType property
 
-gibt zurück **NodeType.StructuredDocumentTag** .
+Gibt zurückStructuredDocumentTag .
 
 ```csharp
 public override NodeType NodeType { get; }
@@ -16,19 +16,19 @@ public override NodeType NodeType { get; }
 
 ### Beispiele
 
-Zeigt, wie Sie mit Stilen für Inhaltssteuerelemente arbeiten.
+Zeigt, wie mit Stilen für Inhaltssteuerelemente gearbeitet wird.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Im Folgenden finden Sie zwei Möglichkeiten, einen Stil aus dem Dokument auf ein strukturiertes Dokument-Tag anzuwenden.
-// 1 - Wende ein Stilobjekt aus der Stilsammlung des Dokuments an:
+// Nachfolgend finden Sie zwei Möglichkeiten, einen Stil aus dem Dokument auf ein strukturiertes Dokument-Tag anzuwenden.
+// 1 – Ein Stilobjekt aus der Stilsammlung des Dokuments anwenden:
 Style quoteStyle = doc.Styles[StyleIdentifier.Quote];
 StructuredDocumentTag sdtPlainText =
     new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Inline) { Style = quoteStyle };
 
-// 2 - Einen Stil im Dokument namentlich referenzieren:
+// 2 – Einen Stil im Dokument namentlich referenzieren:
 StructuredDocumentTag sdtRichText =
     new StructuredDocumentTag(doc, SdtType.RichText, MarkupLevel.Inline) { StyleName = "Quote" };
 
@@ -42,6 +42,8 @@ NodeCollection tags = doc.GetChildNodes(NodeType.StructuredDocumentTag, true);
 foreach (Node node in tags)
 {
     StructuredDocumentTag sdt = (StructuredDocumentTag)node;
+
+    Console.WriteLine(sdt.WordOpenXMLMinimal);
 
     Assert.AreEqual(StyleIdentifier.Quote, sdt.Style.StyleIdentifier);
     Assert.AreEqual("Quote", sdt.StyleName);

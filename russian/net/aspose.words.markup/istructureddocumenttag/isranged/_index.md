@@ -1,17 +1,34 @@
 ---
 title: IStructuredDocumentTag.IsRanged
 second_title: Справочник по API Aspose.Words для .NET
-description: IStructuredDocumentTag метод. Возвращает значение true если этот экземпляр является ранжированным тегом структурированного документа.
+description: IStructuredDocumentTag метод. Возвращает true если этот экземпляр является тегом структурированного документа с ранжированием.
 type: docs
 weight: 140
 url: /ru/net/aspose.words.markup/istructureddocumenttag/isranged/
 ---
 ## IStructuredDocumentTag.IsRanged method
 
-Возвращает значение true, если этот экземпляр является ранжированным тегом структурированного документа.
+Возвращает true, если этот экземпляр является тегом структурированного документа с ранжированием.
 
 ```csharp
 public bool IsRanged()
+```
+
+### Примеры
+
+Показывает, как получить структурированный тег документа.
+
+```csharp
+Document doc = new Document(MyDir + "Structured document tags by id.docx");
+
+// Получаем тег структурированного документа по идентификатору.
+IStructuredDocumentTag sdt = doc.Range.StructuredDocumentTags.GetById(1160505028);
+Console.WriteLine(sdt.IsRanged());
+Console.WriteLine(sdt.Title);
+
+// Получаем тег структурированного документа или тег с ранжированием по заголовку.
+sdt = doc.Range.StructuredDocumentTags.GetByTitle("Alias4");
+Console.WriteLine(sdt.Id);
 ```
 
 ### Смотрите также

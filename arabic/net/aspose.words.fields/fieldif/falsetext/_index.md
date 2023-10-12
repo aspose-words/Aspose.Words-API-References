@@ -1,14 +1,14 @@
 ---
 title: FieldIf.FalseText
 second_title: Aspose.Words لمراجع .NET API
-description: FieldIf ملكية. الحصول على النص المعروض أو تحديده إذا كان تعبير المقارنة خاطئًا .
+description: FieldIf ملكية. الحصول على أو تعيين النص المعروض إذا كان تعبير المقارنة كذلكخطأ شنيع .
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/fieldif/falsetext/
 ---
 ## FieldIf.FalseText property
 
-الحصول على النص المعروض أو تحديده إذا كان تعبير المقارنة خاطئًا .
+الحصول على أو تعيين النص المعروض إذا كان تعبير المقارنة كذلك`خطأ شنيع` .
 
 ```csharp
 public string FalseText { get; set; }
@@ -28,13 +28,13 @@ field.LeftExpression = "0";
 field.ComparisonOperator = "=";
 field.RightExpression = "1";
 
-// سيعرض الحقل IF سلسلة من خاصية "TrueText" الخاصة به ،
-// أو خاصيته "FalseText" ، اعتمادًا على حقيقة البيان الذي أنشأناه.
+// سيعرض حقل IF سلسلة من خاصية "TrueText" الخاصة به،
+// أو خاصية "FalseText" الخاصة بها، اعتمادًا على صحة العبارة التي قمنا ببنائها.
 field.TrueText = "True";
 field.FalseText = "False";
 field.Update();
 
-// في هذه الحالة ، "0 = 1" غير صحيحة ، لذا ستكون النتيجة المعروضة "False".
+// في هذه الحالة، "0 = 1" غير صحيح، لذا ستكون النتيجة المعروضة "خطأ".
 Assert.AreEqual(" IF  0 = 1 True False", field.GetFieldCode());
 Assert.AreEqual(FieldIfComparisonResult.False, field.EvaluateCondition());
 Assert.AreEqual("False", field.Result);
@@ -48,7 +48,7 @@ field.TrueText = "True";
 field.FalseText = "False";
 field.Update();
 
-// هذه المرة العبارة صحيحة ، لذا ستكون النتيجة المعروضة "صحيحة".
+// هذه المرة العبارة صحيحة، لذا ستكون النتيجة المعروضة "صحيح".
 Assert.AreEqual(" IF  5 = \"2 + 3\" True False", field.GetFieldCode());
 Assert.AreEqual(FieldIfComparisonResult.True, field.EvaluateCondition());
 Assert.AreEqual("True", field.Result);

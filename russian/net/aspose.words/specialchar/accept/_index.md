@@ -20,11 +20,11 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Возвращаемое значение
 
-False, если посетитель запросил остановку перечисления.
+`ЛОЖЬ` если посетитель запросил остановку перечисления.
 
 ### Примечания
 
-Вызывает DocumentVisitor.VisitSpecialChar.
+Звонки[`VisitSpecialChar`](../../documentvisitor/visitspecialchar/).
 
 Дополнительные сведения см. в шаблоне проектирования «Посетитель».
 

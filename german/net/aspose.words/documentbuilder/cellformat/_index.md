@@ -26,8 +26,8 @@ Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, cell 1.");
 
-// Eine zweite Zelle einfügen und dann Optionen zum Auffüllen des Zelltextes konfigurieren.
-// Der Builder wendet diese Einstellungen auf seine aktuelle Zelle an und erstellt danach alle neuen Zellen.
+// Fügen Sie eine zweite Zelle ein und konfigurieren Sie dann die Optionen zum Auffüllen des Zellentexts.
+// Der Builder wendet diese Einstellungen auf die aktuelle Zelle an und erstellt anschließend alle neuen Zellen.
 builder.InsertCell();
 
 CellFormat cellFormat = builder.CellFormat;
@@ -41,7 +41,7 @@ builder.Write("Row 1, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// Die erste Zelle war von der Padding-Neukonfiguration nicht betroffen und enthält immer noch die Standardwerte.
+// Die erste Zelle war von der Neukonfiguration der Auffüllung nicht betroffen und enthält weiterhin die Standardwerte.
 Assert.AreEqual(0.0d, table.FirstRow.Cells[0].CellFormat.Width);
 Assert.AreEqual(5.4d, table.FirstRow.Cells[0].CellFormat.LeftPadding);
 Assert.AreEqual(5.4d, table.FirstRow.Cells[0].CellFormat.RightPadding);
@@ -54,7 +54,7 @@ Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.RightPadding);
 Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.TopPadding);
 Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.BottomPadding);
 
-// Die erste Zelle wird im Ausgabedokument immer noch größer, um sie an die Größe der benachbarten Zelle anzupassen.
+// Die erste Zelle wird im Ausgabedokument weiterhin vergrößert, um der Größe der benachbarten Zelle zu entsprechen.
 doc.Save(ArtifactsDir + "DocumentBuilder.SetCellFormatting.docx");
 ```
 
@@ -73,7 +73,7 @@ builder.Write("Row 1, cell 2.");
 builder.EndRow();
 
 // Beim Erstellen der Tabelle wendet der Document Builder seine aktuellen RowFormat/CellFormat-Eigenschaftswerte an
-// zur aktuellen Zeile/Zelle, in der sich der Cursor befindet, und zu allen neuen Zeilen/Zellen, wenn sie erstellt werden.
+// zur aktuellen Zeile/Zelle, in der sich der Cursor befindet, und zu allen neuen Zeilen/Zellen, während sie erstellt werden.
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[0].CellFormat.VerticalAlignment);
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[1].CellFormat.VerticalAlignment);
 
@@ -88,7 +88,7 @@ builder.Write("Row 2, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// Zuvor hinzugefügte Zeilen und Zellen sind nicht rückwirkend von Änderungen an der Formatierung des Builders betroffen.
+// Zuvor hinzugefügte Zeilen und Zellen werden von Änderungen an der Formatierung des Builders nicht rückwirkend beeinflusst.
 Assert.AreEqual(0, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 Assert.AreEqual(100, table.Rows[1].RowFormat.Height);
@@ -99,7 +99,7 @@ Assert.AreEqual(TextOrientation.Downward, table.Rows[1].Cells[1].CellFormat.Orie
 doc.Save(ArtifactsDir + "DocumentBuilder.BuildTable.docx");
 ```
 
-Zeigt, wie eine Tabelle mit benutzerdefinierten Rahmen erstellt wird.
+Zeigt, wie man eine Tabelle mit benutzerdefinierten Rändern erstellt.
 
 ```csharp
 Document doc = new Document();
@@ -131,9 +131,9 @@ builder.InsertCell();
 builder.Write("Row 1, Col 2");
 builder.EndRow();
 
-// Wenn Sie die Formatierung ändern, wird sie auf die aktuelle Zelle angewendet,
-// und alle neuen Zellen, die wir danach mit dem Builder erstellen.
-// Dies wirkt sich nicht auf die zuvor hinzugefügten Zellen aus.
+// Wenn Sie die Formatierung ändern, wird sie auf die aktuelle Zelle angewendet.
+// und alle neuen Zellen, die wir anschließend mit dem Builder erstellen.
+// Dies hat keine Auswirkungen auf die Zellen, die wir zuvor hinzugefügt haben.
 builder.CellFormat.Shading.ClearFormatting();
 
 builder.InsertCell();
@@ -144,7 +144,7 @@ builder.Write("Row 2, Col 2");
 
 builder.EndRow();
 
-// Erhöhen Sie die Zeilenhöhe, um sie an den vertikalen Text anzupassen.
+// Zeilenhöhe erhöhen, um sie an den vertikalen Text anzupassen.
 builder.InsertCell();
 builder.RowFormat.Height = 150;
 builder.CellFormat.Orientation = TextOrientation.Upward;

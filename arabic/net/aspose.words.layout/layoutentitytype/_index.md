@@ -1,14 +1,14 @@
 ---
 title: Enum LayoutEntityType
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Layout.LayoutEntityType تعداد. أنواع كيانات التخطيط .
+description: Aspose.Words.Layout.LayoutEntityType تعداد. أنواع كيانات التخطيط.
 type: docs
-weight: 3130
+weight: 3330
 url: /ar/net/aspose.words.layout/layoutentitytype/
 ---
 ## LayoutEntityType enumeration
 
-أنواع كيانات التخطيط .
+أنواع كيانات التخطيط.
 
 ```csharp
 [Flags]
@@ -19,34 +19,34 @@ public enum LayoutEntityType
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| None | `0` | القيمة الافتراضية . |
-| Page | `1` | يمثل صفحة من المستند. قد تحتوي الصفحة علىColumn وHeaderFooter وComment الكيانات الفرعية. |
-| Column | `2` | يمثل عمودًا نصيًا في الصفحة . قد يحتوي العمود على نفس الكيانات الفرعية مثلCell ، زائدFootnote وEndnote وNoteSeparator الكيانات . |
-| Row | `8` | يمثل صف جدول. قد يحتوي الصفCell ككيانات فرعية . |
-| Cell | `10` | يمثل خلية جدول . قد تحتوي الخليةLine وRow الكيانات الفرعية. |
-| Line | `20` | يمثل سطرًا من أحرف النص وكائنات مضمنة. قد يحتوي الخطSpan الكيانات الفرعية. |
-| Span | `40` | يمثل حرفًا واحدًا أو أكثر في سطر . يتضمن هذا أحرفًا خاصة مثل علامات بداية / نهاية الحقل والإشارات المرجعية والتعليقات. قد لا يحتوي النطاق على كيانات فرعية . |
-| Footnote | `100` | يمثل عنصرًا نائبًا لمحتوى الحاشية السفلية. قد تحتوي الحاشية السفليةNote الكيانات الفرعية. |
-| Endnote | `200` | يمثل عنصرًا نائبًا لمحتوى التعليقات الختامية . قد يحتوي التعليق الختاميNote الكيانات الفرعية. |
-| Note | `4000` | يمثل عنصرًا نائبًا لمحتوى الملاحظات. قد تحتوي الملاحظةLine وRow الكيانات الفرعية. |
-| HeaderFooter | `400` | يمثل عنصرًا نائبًا لمحتوى رأس / تذييل الصفحة. قد يحتوي HeaderFooterLine وRow الكيانات الفرعية. |
-| TextBox | `800` | يمثل منطقة النص داخل الشكل. قد يحتوي مربع النصLine وRow الكيانات الفرعية. |
-| Comment | `1000` | يمثل عنصرًا نائبًا لمحتوى التعليق. قد يكون للتعليقLine وRow الكيانات الفرعية. |
-| NoteSeparator | `2000` | يمثل فاصل الحواشي السفلية / التعليقات الختامية. قد يحتوي الفاصلLine وRow الكيانات الفرعية. |
+| None | `0` | القيمة الافتراضية. |
+| Page | `1` | يمثل صفحة من المستند. قد تحتوي الصفحة علىColumn ,HeaderFooter وComment الكيانات الفرعية. |
+| Column | `2` | يمثل عمود نص في الصفحة. قد يحتوي العمود على نفس الكيانات الفرعية مثلCell بالإضافة إلىFootnote ,Endnote وNoteSeparator الكيانات. |
+| Row | `8` | يمثل صف جدول. قد يحتوي الصف علىCell ككيانات فرعية. |
+| Cell | `10` | تمثل خلية جدول. قد تحتوي الخلية علىLine وRow الكيانات الفرعية. |
+| Line | `20` | يمثل سطرًا من أحرف النص والكائنات المضمنة. قد يحتوي السطر علىSpan الكيانات الفرعية. |
+| Span | `40` | يمثل حرفًا واحدًا أو أكثر في السطر. يتضمن ذلك أحرفًا خاصة مثل علامات بداية/نهاية الحقل والإشارات المرجعية والتعليقات. قد لا يحتوي Span على كيانات فرعية. |
+| Footnote | `100` | يمثل العنصر النائب لمحتوى الحواشي السفلية. قد تحتوي الحاشية السفلية علىNote الكيانات الفرعية. |
+| Endnote | `200` | يمثل العنصر النائب لمحتوى التعليق الختامي. قد يكون للتعليق الختاميNote الكيانات الفرعية. |
+| Note | `4000` | يمثل العنصر النائب لمحتوى الملاحظة. قد تحتوي الملاحظة علىLine وRow الكيانات الفرعية. |
+| HeaderFooter | `400` | يمثل العنصر النائب لمحتوى الرأس/التذييل على الصفحة. قد يحتوي رأس التذييل علىLine وRow الكيانات الفرعية. |
+| TextBox | `800` | يمثل منطقة النص داخل الشكل. قد يحتوي مربع النص علىLine وRow الكيانات الفرعية. |
+| Comment | `1000` | يمثل العنصر النائب لمحتوى التعليق. قد يحتوي التعليق علىLine وRow الكيانات الفرعية. |
+| NoteSeparator | `2000` | يمثل فاصل الحواشي السفلية/التعليقات الختامية. قد يحتوي فاصل الملاحظات علىLine وRow الكيانات الفرعية. |
 
 ### أمثلة
 
-يعرض طرق اجتياز كيانات تخطيط المستند.
+يُظهر طرق اجتياز كيانات تخطيط المستند.
 
 ```csharp
 public void LayoutEnumerator()
 {
     // افتح مستندًا يحتوي على مجموعة متنوعة من كيانات التخطيط.
-    // كيانات التخطيط هي الصفحات والخلايا والصفوف والخطوط والكائنات الأخرى المضمنة في تعداد LayoutEntityType.
+    // كيانات التخطيط هي الصفحات والخلايا والصفوف والخطوط والكائنات الأخرى المضمنة في LayoutEntityType enum.
     // يحتوي كل كيان تخطيط على مساحة مستطيلة يشغلها في نص المستند.
     Document doc = new Document(MyDir + "Layout entities.docx");
 
-    // أنشئ عدادًا يمكنه اجتياز هذه الكيانات مثل الشجرة.
+    // قم بإنشاء عداد يمكنه اجتياز هذه الكيانات مثل الشجرة.
     LayoutEnumerator layoutEnumerator = new LayoutEnumerator(doc);
 
     Assert.AreEqual(doc, layoutEnumerator.Document);
@@ -60,20 +60,20 @@ public void LayoutEnumerator()
     layoutEnumerator.Reset();
 
     // هناك أمران يحددان كيفية استمرار عداد التخطيط في اجتياز كيانات التخطيط
-    // عندما تواجه كيانات تمتد عبر صفحات متعددة.
+    // عندما يواجه كيانات تمتد عبر صفحات متعددة.
     // 1 - بالترتيب المرئي:
-    // عند التنقل خلال العناصر الفرعية التابعة لكيان والتي تمتد عبر صفحات متعددة ،
-    // يحظى تخطيط الصفحة بالأولوية ، وننتقل إلى العناصر الفرعية الأخرى في هذه الصفحة ونتجنب العناصر الموجودة في التالية.
+    // عند التنقل بين العناصر التابعة للكيان والتي تمتد على عدة صفحات،
+    // تخطيط الصفحة له الأولوية، وننتقل إلى العناصر الفرعية الأخرى في هذه الصفحة ونتجنب العناصر الموجودة في الصفحة التالية.
     Console.WriteLine("Traversing from first to last, elements between pages separated:");
     TraverseLayoutForward(layoutEnumerator, 1);
 
-    // العداد الآن في نهاية المجموعة. يمكننا اجتياز كيانات التخطيط للخلف للعودة إلى البداية.
+    // أصبح العداد لدينا الآن في نهاية المجموعة. يمكننا اجتياز كيانات التخطيط للخلف للعودة إلى البداية.
     Console.WriteLine("Traversing from last to first, elements between pages separated:");
     TraverseLayoutBackward(layoutEnumerator, 1);
 
     // 2 - بالترتيب المنطقي:
-    // عند التنقل خلال العناصر الفرعية التابعة لكيان والتي تمتد عبر صفحات متعددة ،
-    // سينتقل العداد بين الصفحات لاجتياز جميع الكيانات الفرعية.
+    // عند التنقل بين العناصر التابعة للكيان والتي تمتد على عدة صفحات،
+    // سيتنقل العداد بين الصفحات لاجتياز جميع الكيانات الفرعية.
     Console.WriteLine("Traversing from first to last, elements between pages mixed:");
     TraverseLayoutForwardLogical(layoutEnumerator, 1);
 
@@ -82,8 +82,8 @@ public void LayoutEnumerator()
 }
 
 /// <summary>
-/// تعداد من خلال تخطيط مجموعة كيانات تخطيط البدل من الأمام إلى الخلف ،
-/// بطريقة العمق أولاً وبالترتيب "المرئي".
+/// التعداد من خلال مجموعة كيانات تخطيط LayoutEnumerator من الأمام إلى الخلف،
+/// بطريقة العمق أولاً، وبالترتيب "المرئي".
 /// </summary>
 private static void TraverseLayoutForward(LayoutEnumerator layoutEnumerator, int depth)
 {
@@ -100,8 +100,8 @@ private static void TraverseLayoutForward(LayoutEnumerator layoutEnumerator, int
 }
 
 /// <summary>
-/// تعداد من خلال layoutEnumerator مجموعة كيانات تخطيط back-to-front ،
-/// بطريقة العمق أولاً وبالترتيب "المرئي".
+/// التعداد من خلال مجموعة كيانات تخطيط LayoutEnumerator من الخلف إلى الأمام،
+/// بطريقة العمق أولاً، وبالترتيب "المرئي".
 /// </summary>
 private static void TraverseLayoutBackward(LayoutEnumerator layoutEnumerator, int depth)
 {
@@ -118,8 +118,8 @@ private static void TraverseLayoutBackward(LayoutEnumerator layoutEnumerator, in
 }
 
 /// <summary>
-/// تعداد من خلال تخطيط مجموعة كيانات تخطيط البدل من الأمام إلى الخلف ،
-/// بطريقة العمق أولاً وبالترتيب "المنطقي".
+/// التعداد من خلال مجموعة كيانات تخطيط LayoutEnumerator من الأمام إلى الخلف،
+/// بطريقة العمق أولاً، وبالترتيب "المنطقي".
 /// </summary>
 private static void TraverseLayoutForwardLogical(LayoutEnumerator layoutEnumerator, int depth)
 {
@@ -136,8 +136,8 @@ private static void TraverseLayoutForwardLogical(LayoutEnumerator layoutEnumerat
 }
 
 /// <summary>
-/// تعداد من خلال layoutEnumerator مجموعة كيانات تخطيط back-to-front ،
-/// بطريقة العمق أولاً وبالترتيب "المنطقي".
+/// التعداد من خلال مجموعة كيانات تخطيط LayoutEnumerator من الخلف إلى الأمام،
+/// بطريقة العمق أولاً، وبالترتيب "المنطقي".
 /// </summary>
 private static void TraverseLayoutBackwardLogical(LayoutEnumerator layoutEnumerator, int depth)
 {
@@ -154,9 +154,9 @@ private static void TraverseLayoutBackwardLogical(LayoutEnumerator layoutEnumera
 }
 
 /// <summary>
-/// طباعة معلومات حول الكيان الحالي لـ layoutEnumerator إلى وحدة التحكم ، أثناء وضع مسافة بادئة للنص بأحرف جدولة
-/// استنادًا إلى عمقها بالنسبة إلى عقدة الجذر التي قدمناها في مثيل المُنشئ LayoutEnumerator.
-/// يمثل المستطيل الذي نقوم بمعالجته في النهاية المنطقة والموقع اللذين يشغلهما الكيان في المستند.
+/// اطبع معلومات حول الكيان الحالي لـ LayoutEnumerator إلى وحدة التحكم، مع وضع مسافة بادئة للنص باستخدام أحرف الجدولة
+/// استنادًا إلى عمقها بالنسبة إلى العقدة الجذرية التي قدمناها في مثيل LayoutEnumerator المُنشئ.
+/// يمثل المستطيل الذي نقوم بمعالجته في النهاية المنطقة والموقع الذي يشغله الكيان في المستند.
 /// </summary>
 private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int indent)
 {
@@ -166,7 +166,7 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
         ? $"{tabs}-> Entity type: {layoutEnumerator.Type}"
         : $"{tabs}-> Entity type & kind: {layoutEnumerator.Type}, {layoutEnumerator.Kind}");
 
-    // فقط الامتدادات يمكن أن تحتوي على نص.
+    // الامتدادات فقط هي التي يمكن أن تحتوي على نص.
     if (layoutEnumerator.Type == LayoutEntityType.Span)
         Console.WriteLine($"{tabs}   Span contents: \"{layoutEnumerator.Text}\"");
 

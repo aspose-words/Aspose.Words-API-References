@@ -24,9 +24,9 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.MoveToDocumentEnd();
 builder.Writeln(" Date this document was created:");
 
-// Nous pouvons utiliser le champ CREATEDATE pour afficher la date et l'heure de création du document.
+// On peut utiliser le champ CREATEDATE pour afficher la date et l'heure de création du document.
 // Vous trouverez ci-dessous trois types de calendrier différents selon lesquels le champ CREATEDATE peut afficher la date/heure.
-// 1 - Calendrier lunaire islamique :
+// 1 - Calendrier Lunaire Islamique :
 builder.Write("According to the Lunar Calendar - ");
 FieldCreateDate field = (FieldCreateDate)builder.InsertField(FieldType.FieldCreateDate, true);
 field.UseLunarCalendar = true;
@@ -40,7 +40,7 @@ field.UseUmAlQuraCalendar = true;
 
 Assert.AreEqual(" CREATEDATE  \\u", field.GetFieldCode());
 
-// 3 - Calendrier national indien :
+// 3 - Calendrier national indien :
 builder.Write("\nAccording to the Indian National Calendar - ");
 field = (FieldCreateDate)builder.InsertField(FieldType.FieldCreateDate, true);
 field.UseSakaEraCalendar = true;

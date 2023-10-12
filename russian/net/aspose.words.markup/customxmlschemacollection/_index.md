@@ -1,14 +1,16 @@
 ---
 title: Class CustomXmlSchemaCollection
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Markup.CustomXmlSchemaCollection сорт. Набор строк представляющих схемы XML связанные с пользовательской частью XML.
+description: Aspose.Words.Markup.CustomXmlSchemaCollection сорт. Коллекция строк представляющих схемы XML связанные с пользовательской частью XML.
 type: docs
-weight: 3720
+weight: 3960
 url: /ru/net/aspose.words.markup/customxmlschemacollection/
 ---
 ## CustomXmlSchemaCollection class
 
-Набор строк, представляющих схемы XML, связанные с пользовательской частью XML.
+Коллекция строк, представляющих схемы XML, связанные с пользовательской частью XML.
+
+Чтобы узнать больше, посетите[Структурированные теги документа или контроль содержимого](https://docs.aspose.com/words/net/working-with-content-control-sdt/) статья документации.
 
 ```csharp
 public class CustomXmlSchemaCollection : IEnumerable<string>
@@ -27,15 +29,15 @@ public class CustomXmlSchemaCollection : IEnumerable<string>
 | --- | --- |
 | [Add](../../aspose.words.markup/customxmlschemacollection/add/)(string) | Добавляет элемент в коллекцию. |
 | [Clear](../../aspose.words.markup/customxmlschemacollection/clear/)() | Удаляет все элементы из коллекции. |
-| [Clone](../../aspose.words.markup/customxmlschemacollection/clone/)() | Делает глубокий клон этого объекта. |
-| [GetEnumerator](../../aspose.words.markup/customxmlschemacollection/getenumerator/)() | Возвращает объект перечислителя, который можно использовать для перебора всех элементов в коллекции. |
+| [Clone](../../aspose.words.markup/customxmlschemacollection/clone/)() | Делает глубокую копию этого объекта. |
+| [GetEnumerator](../../aspose.words.markup/customxmlschemacollection/getenumerator/)() | Возвращает объект перечислителя, который можно использовать для перебора всех элементов коллекции. |
 | [IndexOf](../../aspose.words.markup/customxmlschemacollection/indexof/)(string) | Возвращает отсчитываемый от нуля индекс указанного значения в коллекции. |
 | [Remove](../../aspose.words.markup/customxmlschemacollection/remove/)(string) | Удаляет указанное значение из коллекции. |
 | [RemoveAt](../../aspose.words.markup/customxmlschemacollection/removeat/)(int) | Удаляет значение по указанному индексу. |
 
 ### Примечания
 
-Вы не создаете экземпляры этого класса. Вы получаете доступ к набору XML-схем пользовательского XML part через[`Schemas`](../customxmlpart/schemas/) имущество.
+Вы не создаете экземпляры этого класса. Вы получаете доступ к коллекции схем XML пользовательского XML part через[`Schemas`](../customxmlpart/schemas/) свойство.
 
 ### Примеры
 
@@ -48,11 +50,11 @@ string xmlPartId = Guid.NewGuid().ToString("B");
 string xmlPartContent = "<root><text>Hello, World!</text></root>";
 CustomXmlPart xmlPart = doc.CustomXmlParts.Add(xmlPartId, xmlPartContent);
 
-// Добавляем ассоциацию XML-схемы.
+// Добавляем ассоциацию схемы XML.
 xmlPart.Schemas.Add("http://www.w3.org/2001/XMLSchema");
 
-// Клонировать коллекцию ассоциаций схемы XML пользовательской части XML,
-// а затем добавить пару новых схем в клон.
+// Клонируем коллекцию ассоциаций схем XML пользовательской части XML,
+// а затем добавим в клон пару новых схем.
 CustomXmlSchemaCollection schemas = xmlPart.Schemas.Clone();
 schemas.Add("http://www.w3.org/2001/XMLSchema-instance");
 schemas.Add("http://schemas.microsoft.com/office/2006/metadata/contentType");
@@ -74,7 +76,7 @@ schemas.RemoveAt(2);
 // 2 - Удалить схему по значению:
 schemas.Remove("http://www.w3.org/2001/XMLSchema");
 
-// 3 - Используйте метод "Очистить", чтобы сразу очистить коллекцию.
+// 3 - Используйте метод «Очистить», чтобы сразу очистить коллекцию.
 schemas.Clear();
 
 Assert.AreEqual(0, schemas.Count);

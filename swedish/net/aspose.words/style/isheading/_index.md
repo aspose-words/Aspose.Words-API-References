@@ -3,7 +3,7 @@ title: Style.IsHeading
 second_title: Aspose.Words för .NET API Referens
 description: Style fast egendom. Sant när stilen är en av de inbyggda rubrikstilarna.
 type: docs
-weight: 60
+weight: 70
 url: /sv/net/aspose.words/style/isheading/
 ---
 ## Style.IsHeading property

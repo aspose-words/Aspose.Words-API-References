@@ -1,14 +1,14 @@
 ---
 title: IWarningCallback.Warning
 second_title: Referencia de API de Aspose.Words para .NET
-description: IWarningCallback método. Aspose.Words invoca este método cuando encuentra algún problema durante la carga del documento o al guardarlo que podría provocar la pérdida del formato o la fidelidad de los datos.
+description: IWarningCallback método. Aspose.Words invoca este método cuando encuentra algún problema durante la carga del documento o al guardarlo que podría resultar en la pérdida de formato o fidelidad de los datos.
 type: docs
 weight: 10
 url: /es/net/aspose.words/iwarningcallback/warning/
 ---
 ## IWarningCallback.Warning method
 
-Aspose.Words invoca este método cuando encuentra algún problema durante la carga del documento o al guardarlo que podría provocar la pérdida del formato o la fidelidad de los datos.
+Aspose.Words invoca este método cuando encuentra algún problema durante la carga del documento o al guardarlo que podría resultar en la pérdida de formato o fidelidad de los datos.
 
 ```csharp
 public void Warning(WarningInfo info)
@@ -16,26 +16,28 @@ public void Warning(WarningInfo info)
 
 ### Ejemplos
 
-Muestra cómo establecer la propiedad para encontrar la coincidencia más cercana para una fuente faltante de las fuentes de fuentes disponibles.
+Muestra cómo configurar la propiedad para encontrar la coincidencia más cercana para una fuente faltante entre las fuentes de fuentes disponibles.
 
 ```csharp
-[Test]
 public void EnableFontSubstitution()
 {
     // Abra un documento que contenga texto formateado con una fuente que no existe en ninguna de nuestras fuentes de fuentes.
     Document doc = new Document(MyDir + "Missing font.docx");
 
-    // Asigne una devolución de llamada para manejar las advertencias de sustitución de fuentes.
+    // Asigna una devolución de llamada para manejar las advertencias de sustitución de fuentes.
     HandleDocumentSubstitutionWarnings substitutionWarningHandler = new HandleDocumentSubstitutionWarnings();
     doc.WarningCallback = substitutionWarningHandler;
 
-    // Establecer un nombre de fuente predeterminado y habilitar la sustitución de fuentes.
+    // Establece un nombre de fuente predeterminado y habilita la sustitución de fuentes.
     FontSettings fontSettings = new FontSettings();
     fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
     ;
     fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 
-    // Obtendremos una advertencia de sustitución de fuente si guardamos un documento al que le falta una fuente.
+    // Las métricas de fuente originales deben usarse después de la sustitución de fuentes.
+    doc.LayoutOptions.KeepOriginalFontMetrics = true;
+
+    // Recibiremos una advertencia de sustitución de fuente si guardamos un documento al que le falta una fuente.
     doc.FontSettings = fontSettings;
     doc.Save(ArtifactsDir + "FontSettings.EnableFontSubstitution.pdf");
 
@@ -57,7 +59,7 @@ public void EnableFontSubstitution()
 public class HandleDocumentSubstitutionWarnings : IWarningCallback
 {
     /// <summary>
-    /// Llamado cada vez que ocurre una advertencia durante la carga/guardado.
+    /// Se llama cada vez que ocurre una advertencia durante la carga/guardado.
     /// </summary>
     public void Warning(WarningInfo info)
     {

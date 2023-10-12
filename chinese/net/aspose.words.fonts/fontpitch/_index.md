@@ -3,7 +3,7 @@ title: Enum FontPitch
 second_title: Aspose.Words for .NET API 参考
 description: Aspose.Words.Fonts.FontPitch 枚举. 表示字体间距
 type: docs
-weight: 2780
+weight: 2960
 url: /zh/net/aspose.words.fonts/fontpitch/
 ---
 ## FontPitch enumeration
@@ -18,8 +18,8 @@ public enum FontPitch
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Default | `0` | 指定没有关于字体间距的信息。 |
-| Fixed | `1` | 指定这是一个固定宽度的字体。 |
+| Default | `0` | 指定没有有关字体间距的信息。 |
+| Fixed | `1` | 指定这是固定宽度字体。 |
 | Variable | `2` | 指定这是比例宽度字体。 |
 
 ### 评论
@@ -28,7 +28,7 @@ public enum FontPitch
 
 ### 例子
 
-显示如何访问和打印文档中每种字体的详细信息。
+演示如何访问和打印文档中每种字体的详细信息。
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");

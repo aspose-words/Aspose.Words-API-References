@@ -3,7 +3,7 @@ title: CellFormat.SetPaddings
 second_title: Aspose.Words per .NET API Reference
 description: CellFormat metodo. Imposta la quantità di spazio in punti da aggiungere a sinistra/in alto/a destra/in basso del contenuto della cella.
 type: docs
-weight: 160
+weight: 170
 url: /it/net/aspose.words.tables/cellformat/setpaddings/
 ---
 ## CellFormat.SetPaddings method
@@ -24,7 +24,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Imposta una distanza di riempimento (in punti) tra il bordo e il contenuto del testo
-// di ogni cella di tabella che creiamo con il generatore di documenti. 
+ // di ogni cella della tabella creata con il generatore di documenti.
 builder.CellFormat.SetPaddings(5, 10, 40, 50);
 
 // Crea una tabella con una cella il cui contenuto avrà spazi vuoti.

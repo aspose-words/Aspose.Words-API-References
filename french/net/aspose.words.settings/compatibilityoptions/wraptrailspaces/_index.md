@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.WrapTrailSpaces
 second_title: Référence de l'API Aspose.Words pour .NET
-description: CompatibilityOptions propriété. Retour à la ligne Espaces de fin.
+description: CompatibilityOptions propriété. Espaces de fin de retour à la ligne.
 type: docs
 weight: 710
 url: /fr/net/aspose.words.settings/compatibilityoptions/wraptrailspaces/
 ---
 ## CompatibilityOptions.WrapTrailSpaces property
 
-Retour à la ligne Espaces de fin.
+Espaces de fin de retour à la ligne.
 
 ```csharp
 public bool WrapTrailSpaces { get; set; }

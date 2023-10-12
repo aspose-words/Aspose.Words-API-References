@@ -1,14 +1,14 @@
 ---
 title: Enum StoryType
 second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.StoryType uppräkning. Text i ett Worddokument lagras i berättelser. StoryType identifierar en berättelse.
+description: Aspose.Words.StoryType uppräkning. Text i ett Worddokument lagras i berättelser.StoryType identifierar en berättelse.
 type: docs
-weight: 5820
+weight: 6120
 url: /sv/net/aspose.words/storytype/
 ---
 ## StoryType enumeration
 
-Text i ett Word-dokument lagras i berättelser. **StoryType** identifierar en berättelse.
+Text i ett Word-dokument lagras i berättelser.`StoryType` identifierar en berättelse.
 
 ```csharp
 public enum StoryType

@@ -1,14 +1,14 @@
 ---
 title: DocumentVisitor.VisitGlossaryDocumentEnd
 second_title: Aspose.Words per .NET API Reference
-description: DocumentVisitor metodo. Chiamato quando lenumerazione di un documento del glossario è terminata.
+description: DocumentVisitor metodo. Chiamato al termine dellenumerazione di un documento di glossario.
 type: docs
 weight: 240
 url: /it/net/aspose.words/documentvisitor/visitglossarydocumentend/
 ---
 ## DocumentVisitor.VisitGlossaryDocumentEnd method
 
-Chiamato quando l'enumerazione di un documento del glossario è terminata.
+Chiamato al termine dell'enumerazione di un documento di glossario.
 
 ```csharp
 public virtual VisitorAction VisitGlossaryDocumentEnd(GlossaryDocument glossary)
@@ -24,11 +24,11 @@ UN[`VisitorAction`](../../visitoraction/) valore che specifica come continuare l
 
 ### Osservazioni
 
-Nota: un nodo del documento del glossario e i suoi figli non vengono visitati quando si esegue a Visitor su un[`Document`](../../document/) . Se vuoi eseguire un Visitor su un documento di glossario , devi chiamare[`Accept`](../../../aspose.words.buildingblocks/glossarydocument/accept/) .
+Nota: un nodo del documento glossario e i suoi figli non vengono visitati quando si esegue un Visitor su un[`Document`](../../document/) . Se vuoi eseguire un Visitatore su un documento di glossario , devi chiamare[`Accept`](../../../aspose.words.buildingblocks/glossarydocument/accept/) .
 
 ### Esempi
 
-Mostra le modalità di accesso ai blocchi predefiniti in un documento di glossario.
+Mostra le modalità di accesso agli elementi costitutivi in un documento di glossario.
 
 ```csharp
 public void GlossaryDocument()
@@ -47,32 +47,31 @@ public void GlossaryDocument()
     doc.GlossaryDocument = glossaryDoc;
 
     // Esistono vari modi per accedere ai blocchi predefiniti.
-    // 1 - Ottieni i primi/ultimi blocchi di costruzione della collezione:
+    // 1 - Ottieni il primo/ultimo elemento costitutivo della raccolta:
     Assert.AreEqual("Block 1", glossaryDoc.FirstBuildingBlock.Name);
     Assert.AreEqual("Block 5", glossaryDoc.LastBuildingBlock.Name);
 
-    // 2 - Ottieni un building block per indice:
+    // 2 - Ottieni un elemento costitutivo per indice:
     Assert.AreEqual("Block 2", glossaryDoc.BuildingBlocks[1].Name);
     Assert.AreEqual("Block 3", glossaryDoc.BuildingBlocks.ToArray()[2].Name);
 
-    // 3 - Ottieni il primo building block che corrisponde a una galleria, un nome e una categoria:
+    // 3 - Ottieni il primo elemento costitutivo che corrisponde a una galleria, un nome e una categoria:
     Assert.AreEqual("Block 4", 
         glossaryDoc.GetBuildingBlock(BuildingBlockGallery.All, "(Empty Category)", "Block 4").Name);
 
     // Lo faremo utilizzando un visitatore personalizzato,
-    // che darà a ogni BuildingBlock nel GlossaryDocument un GUID univoco
+    // che assegnerà a ogni BuildingBlock nel GlossaryDocument un GUID univoco
     GlossaryDocVisitor visitor = new GlossaryDocVisitor();
     glossaryDoc.Accept(visitor);
-
     Console.WriteLine(visitor.GetText());
 
-    // In Microsoft Word, possiamo accedere ai blocchi predefiniti tramite "Inserisci" -> "Parti rapide" -> "Organizzatore di blocchi di costruzione".
+    // In Microsoft Word possiamo accedere agli elementi costitutivi tramite "Inserisci" -> "Parti rapide" -> "Organizzatore di blocchi di costruzione" .
     doc.Save(ArtifactsDir + "BuildingBlocks.GlossaryDocument.dotx"); 
 }
 
 /// <summary>
-/// Fornisce a ciascun elemento costitutivo in un documento del glossario visitato un GUID univoco.
-/// Memorizza le coppie di blocchi GUID in un dizionario.
+/// Assegna a ogni elemento costitutivo in un documento di glossario visitato un GUID univoco.
+/// Memorizza le coppie di blocchi predefiniti GUID in un dizionario.
 /// </summary>
 public class GlossaryDocVisitor : DocumentVisitor
 {

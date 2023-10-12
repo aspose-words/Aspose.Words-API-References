@@ -1,14 +1,14 @@
 ---
 title: VbaReferenceCollection.Remove
 second_title: Aspose.Words per .NET API Reference
-description: VbaReferenceCollection metodo. Rimuove la prima occorrenza di un elemento VbaReference specificato dalla raccolta.
+description: VbaReferenceCollection metodo. Rimuove la prima occorrenza di un valore specificatoVbaReference elemento della collezione.
 type: docs
 weight: 30
 url: /it/net/aspose.words.vba/vbareferencecollection/remove/
 ---
 ## VbaReferenceCollection.Remove method
 
-Rimuove la prima occorrenza di un elemento VbaReference specificato dalla raccolta.
+Rimuove la prima occorrenza di un valore specificato[`VbaReference`](../../vbareference/) elemento della collezione.
 
 ```csharp
 public void Remove(VbaReference item)
@@ -19,7 +19,6 @@ public void Remove(VbaReference item)
 Mostra come ottenere/rimuovere un elemento dalla raccolta di riferimenti VBA.
 
 ```csharp
-[Test]
 public void RemoveVbaReference()
 {
     const string brokenPath = @"X:\broken.dll";
@@ -45,7 +44,7 @@ public void RemoveVbaReference()
 }
 
 /// <summary>
-/// Restituisce una stringa che rappresenta il percorso LibId di un riferimento specificato. 
+ /// Restituisce la stringa che rappresenta il percorso LibId di un riferimento specificato.
 /// </summary>
 private static string GetLibIdPath(VbaReference reference)
 {

@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.ExportTextInputFormFieldAsText
 second_title: Aspose.Words لمراجع .NET API
-description: HtmlSaveOptions ملكية. يتحكم في كيفية حفظ حقول نموذج إدخال النص في HTML أو MHTML. القيمة الافتراضية هيخاطئة .
+description: HtmlSaveOptions ملكية. يتحكم في كيفية حفظ حقول نموذج إدخال النص في HTML أو MHTML. القيمة الافتراضية هيخطأ شنيع .
 type: docs
-weight: 270
+weight: 260
 url: /ar/net/aspose.words.saving/htmlsaveoptions/exporttextinputformfieldastext/
 ---
 ## HtmlSaveOptions.ExportTextInputFormFieldAsText property
 
-يتحكم في كيفية حفظ حقول نموذج إدخال النص في HTML أو MHTML. القيمة الافتراضية هي`خاطئة` .
+يتحكم في كيفية حفظ حقول نموذج إدخال النص في HTML أو MHTML. القيمة الافتراضية هي`خطأ شنيع` .
 
 ```csharp
 public bool ExportTextInputFormFieldAsText { get; set; }
@@ -16,13 +16,13 @@ public bool ExportTextInputFormFieldAsText { get; set; }
 
 ### ملاحظات
 
-عند الضبط على`حقيقي` ، تصدير حقول نموذج إدخال النص كنص عادي. متى`خاطئة`، يقوم بتصدير حقول نموذج إدخال نص Word كعناصر INPUT في HTML.
+عند التعيين على`حقيقي` ، يصدر حقول نموذج إدخال النص كنص عادي. متى`خطأ شنيع`، يقوم بتصدير حقول نموذج إدخال نص Word كعناصر INPUT في HTML.
 
-عند التصدير إلى EPUB ، يتم دائمًا حفظ حقول نموذج إدخال النص كنص بسبب لمتطلبات هذا التنسيق.
+عند التصدير إلى EPUB، يتم دائمًا حفظ حقول نموذج إدخال النص كنص بسبب لمتطلبات هذا التنسيق.
 
 ### أمثلة
 
-يوضح كيفية تحديد مجلد لتخزين الصور المرتبطة بعد الحفظ في .html.
+يوضح كيفية تحديد المجلد لتخزين الصور المرتبطة بعد حفظها في .html.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
@@ -34,7 +34,7 @@ if (Directory.Exists(imagesDir))
 
 Directory.CreateDirectory(imagesDir);
 
-// تعيين خيار لتصدير حقول النموذج كنص عادي بدلاً من عناصر إدخال HTML.
+// قم بتعيين خيار لتصدير حقول النموذج كنص عادي بدلاً من عناصر إدخال HTML.
 HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html)
 {
     ExportTextInputFormFieldAsText = true, 

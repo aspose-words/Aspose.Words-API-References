@@ -1,14 +1,14 @@
 ---
 title: Table.Style
 second_title: Aspose.Words لمراجع .NET API
-description: Table ملكية. الحصول على أو تحديد نمط الجدول المطبق على هذا الجدول.
+description: Table ملكية. الحصول على أو تعيين نمط الجدول المطبق على هذا الجدول.
 type: docs
 weight: 270
 url: /ar/net/aspose.words.tables/table/style/
 ---
 ## Table.Style property
 
-الحصول على أو تحديد نمط الجدول المطبق على هذا الجدول.
+الحصول على أو تعيين نمط الجدول المطبق على هذا الجدول.
 
 ```csharp
 public Style Style { get; set; }

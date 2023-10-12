@@ -3,7 +3,7 @@ title: Enum ListLevelAlignment
 second_title: Aspose.Words for .NET API Referansı
 description: Aspose.Words.Lists.ListLevelAlignment Sıralama. Liste numarası veya madde işareti için hizalamayı belirtir.
 type: docs
-weight: 3310
+weight: 3510
 url: /tr/net/aspose.words.lists/listlevelalignment/
 ---
 ## ListLevelAlignment enumeration
@@ -18,26 +18,26 @@ public enum ListLevelAlignment
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| Left | `0` | Liste etiketi, sayı konumunun soluna hizalanır. |
+| Left | `0` | Liste etiketi sayı konumunun soluna hizalanır. |
 | Center | `1` | Liste etiketi sayı konumunda ortalanır. |
-| Right | `2` | Bu liste etiketi, sayı konumunun sağına hizalanır. |
+| Right | `2` | Bu liste etiketi sayı konumunun sağına hizalanır. |
 
 ### Notlar
 
-için bir değer olarak kullanılır.[`Alignment`](../listlevel/alignment/) Emlak.
+Bir değer olarak kullanılır[`Alignment`](../listlevel/alignment/) mülk.
 
 ### Örnekler
 
-DocumentBuilder kullanılırken paragraflara özel liste biçimlendirmesinin nasıl uygulanacağını gösterir.
+DocumentBuilder kullanılırken özel liste formatının paragraflara nasıl uygulanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 
-// Liste, önek sembolleri ve girintilerle paragraf kümelerini düzenlememize ve süslememize olanak tanır.
-// Girinti seviyesini artırarak iç içe listeler oluşturabiliriz. 
-// Bir belge oluşturucunun "ListFormat" özelliğini kullanarak bir listeyi başlatabilir ve bitirebiliriz. 
-// Bir listenin başlangıcı ile bitişi arasına eklediğimiz her paragraf listede bir öğe haline gelecektir.
-// Bir Microsoft Word şablonundan bir liste oluşturun ve liste düzeylerinin ilk ikisini özelleştirin.
+// Liste, paragraf kümelerini önek sembolleri ve girintilerle düzenlememize ve süslememize olanak tanır.
+ // Girinti seviyesini artırarak iç içe listeler oluşturabiliriz.
+ // Bir listeyi belge oluşturucunun "ListFormat" özelliğini kullanarak başlatabilir ve sonlandırabiliriz.
+// Bir listenin başı ile sonu arasına eklediğimiz her paragraf, listede bir öğe haline gelecektir.
+// Microsoft Word şablonundan bir liste oluşturun ve liste seviyelerinin ilk ikisini özelleştirin.
 List list = doc.Lists.Add(ListTemplate.NumberDefault);
 
 ListLevel listLevel = list.ListLevels[0];
@@ -58,7 +58,7 @@ listLevel.Font.Name = "Wingdings";
 listLevel.Font.Color = Color.Blue;
 listLevel.Font.Size = 24;
 
-// Bu NumberFormat değeri, yıldız şeklinde madde işareti listesi sembolleri oluşturacaktır.
+// Bu NumberFormat değeri yıldız şekilli madde işareti listesi sembolleri oluşturacaktır.
 listLevel.NumberFormat = "\xf0af";
 listLevel.TrailingCharacter = ListTrailingCharacter.Space;
 listLevel.NumberPosition = 144;

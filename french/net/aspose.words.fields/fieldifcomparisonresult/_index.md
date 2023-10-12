@@ -3,7 +3,7 @@ title: Enum FieldIfComparisonResult
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.Fields.FieldIfComparisonResult énumération. Spécifie le résultat de lévaluation de la condition du champ IF.
 type: docs
-weight: 1860
+weight: 2010
 url: /fr/net/aspose.words.fields/fieldifcomparisonresult/
 ---
 ## FieldIfComparisonResult enumeration
@@ -20,7 +20,7 @@ public enum FieldIfComparisonResult
 | --- | --- | --- |
 | Error | `0` | Il y a une erreur dans la condition. |
 | True | `1` | La condition est`vrai` . |
-| False | `2` | La condition est`faux` . |
+| False | `2` | La condition est`FAUX` . |
 
 ### Exemples
 
@@ -42,7 +42,7 @@ field.TrueText = "True";
 field.FalseText = "False";
 field.Update();
 
-// Dans ce cas, "0 = 1" est incorrect, donc le résultat affiché sera "False".
+// Dans ce cas, "0 = 1" est incorrect, le résultat affiché sera donc "False".
 Assert.AreEqual(" IF  0 = 1 True False", field.GetFieldCode());
 Assert.AreEqual(FieldIfComparisonResult.False, field.EvaluateCondition());
 Assert.AreEqual("False", field.Result);
@@ -56,7 +56,7 @@ field.TrueText = "True";
 field.FalseText = "False";
 field.Update();
 
-// Cette fois, la déclaration est correcte, donc le résultat affiché sera "True".
+// Cette fois, l'instruction est correcte, donc le résultat affiché sera "True".
 Assert.AreEqual(" IF  5 = \"2 + 3\" True False", field.GetFieldCode());
 Assert.AreEqual(FieldIfComparisonResult.True, field.EvaluateCondition());
 Assert.AreEqual("True", field.Result);

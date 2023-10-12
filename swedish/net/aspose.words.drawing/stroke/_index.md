@@ -3,12 +3,14 @@ title: Class Stroke
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Drawing.Stroke klass. Definierar ett streck för en form.
 type: docs
-weight: 1160
+weight: 1310
 url: /sv/net/aspose.words.drawing/stroke/
 ---
 ## Stroke class
 
 Definierar ett streck för en form.
+
+För att lära dig mer, besök[Arbeta med former](https://docs.aspose.com/words/net/working-with-shapes/) dokumentationsartikel.
 
 ```csharp
 public class Stroke
@@ -19,6 +21,7 @@ public class Stroke
 | namn | Beskrivning |
 | --- | --- |
 | [BackColor](../../aspose.words.drawing/stroke/backcolor/) { get; set; } | Hämtar eller ställer in bakgrundsfärgen för strecket. |
+| [BaseForeColor](../../aspose.words.drawing/stroke/baseforecolor/) { get; } |  |
 | [Color](../../aspose.words.drawing/stroke/color/) { get; set; } | Definierar färgen på ett streck. |
 | [Color2](../../aspose.words.drawing/stroke/color2/) { get; set; } | Definierar en andra färg för en linje. |
 | [DashStyle](../../aspose.words.drawing/stroke/dashstyle/) { get; set; } | Anger punkt- och streckmönstret för ett streck. |
@@ -26,6 +29,7 @@ public class Stroke
 | [EndArrowType](../../aspose.words.drawing/stroke/endarrowtype/) { get; set; } | Definierar pilspetsen för slutet av ett streck. |
 | [EndArrowWidth](../../aspose.words.drawing/stroke/endarrowwidth/) { get; set; } | Definierar pilspetsens bredd för slutet av ett streck. |
 | [EndCap](../../aspose.words.drawing/stroke/endcap/) { get; set; } | Definierar cap-stilen för slutet av ett streck. |
+| [Fill](../../aspose.words.drawing/stroke/fill/) { get; } | Får fyllningsformatering för`Stroke` . |
 | [ForeColor](../../aspose.words.drawing/stroke/forecolor/) { get; set; } | Hämtar eller ställer in linjens förgrundsfärg. |
 | [ImageBytes](../../aspose.words.drawing/stroke/imagebytes/) { get; } | Definierar bilden för en linjebild eller mönsterfyllning. |
 | [JoinStyle](../../aspose.words.drawing/stroke/joinstyle/) { get; set; } | Definierar kopplingsstilen för en polylinje. |
@@ -41,7 +45,7 @@ public class Stroke
 
 ### Anmärkningar
 
-Använd[`Stroke`](../shape/stroke/)egenskap för att komma åt strokeegenskaper för en shape. Du skapar inte instanser av`Stroke` klass direkt.
+Använd[`Stroke`](../shape/stroke/) egenskap för att komma åt strokeegenskaper för en shape. Du skapar inte instanser av`Stroke` klass direkt.
 
 ### Exempel
 
@@ -68,6 +72,7 @@ stroke.DashStyle = DashStyle.ShortDashDotDot;
 stroke.JoinStyle = JoinStyle.Miter;
 stroke.EndCap = EndCap.Square;
 stroke.LineStyle = ShapeLineStyle.Triple;
+stroke.Fill.TwoColorGradient(Color.Red, Color.Blue, GradientStyle.Vertical, GradientVariant.Variant1);
 
 doc.Save(ArtifactsDir + "Shape.Stroke.docx");
 ```

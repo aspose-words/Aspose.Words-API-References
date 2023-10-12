@@ -1,14 +1,14 @@
 ---
 title: WriteProtection.IsWriteProtected
 second_title: Aspose.Words för .NET API Referens
-description: WriteProtection fast egendom. Returnerar sant när ett skrivskyddslösenord är inställt.
+description: WriteProtection fast egendom. ReturnerarSann när ett skrivskyddslösenord är inställt.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.settings/writeprotection/iswriteprotected/
 ---
 ## WriteProtection.IsWriteProtected property
 
-Returnerar sant när ett skrivskyddslösenord är inställt.
+Returnerar`Sann` när ett skrivskyddslösenord är inställt.
 
 ```csharp
 public bool IsWriteProtected { get; }
@@ -22,7 +22,6 @@ Visar hur man skyddar ett dokument med ett lösenord.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world! This document is protected.");
-
 // Ange ett lösenord på upp till 15 tecken och verifiera sedan dokumentets skyddsstatus.
 doc.WriteProtection.SetPassword("MyPassword");
 doc.WriteProtection.ReadOnlyRecommended = true;

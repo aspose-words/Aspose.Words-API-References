@@ -1,14 +1,14 @@
 ---
 title: PlainTextDocument.Text
 second_title: Aspose.Words لمراجع .NET API
-description: PlainTextDocument ملكية. الحصول على المحتوى النصي للمستند متسلسلًا كسلسلة.
+description: PlainTextDocument ملكية. الحصول على المحتوى النصي للمستند متسلسل كسلسلة.
 type: docs
 weight: 40
 url: /ar/net/aspose.words/plaintextdocument/text/
 ---
 ## PlainTextDocument.Text property
 
-الحصول على المحتوى النصي للمستند متسلسلًا كسلسلة.
+الحصول على المحتوى النصي للمستند متسلسل كسلسلة.
 
 ```csharp
 public string Text { get; }

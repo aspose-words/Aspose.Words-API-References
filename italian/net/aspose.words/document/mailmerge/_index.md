@@ -1,14 +1,14 @@
 ---
 title: Document.MailMerge
 second_title: Aspose.Words per .NET API Reference
-description: Document proprietà. Restituisce a Stampa unione oggetto che rappresenta la funzionalità di stampa unione per il documento.
+description: Document proprietà. Restituisce aMailMerge oggetto che rappresenta la funzionalità di stampa unione per il documento.
 type: docs
-weight: 240
+weight: 260
 url: /it/net/aspose.words/document/mailmerge/
 ---
 ## Document.MailMerge property
 
-Restituisce a **Stampa unione** oggetto che rappresenta la funzionalità di stampa unione per il documento.
+Restituisce a[`MailMerge`](../../../aspose.words.mailmerging/mailmerge/) oggetto che rappresenta la funzionalità di stampa unione per il documento.
 
 ```csharp
 public MailMerge MailMerge { get; }
@@ -27,15 +27,15 @@ public void ExecuteDataTable()
     table.Rows.Add(new object[] { "Thomas Hardy", "120 Hanover Sq., London" });
     table.Rows.Add(new object[] { "Paolo Accorti", "Via Monte Bianco 34, Torino" });
 
-    // Di seguito sono riportati due modi per utilizzare una DataTable come origine dati per una stampa unione.
-    // 1 - Utilizza l'intera tabella per la stampa unione per creare un documento di stampa unione di output per ogni riga della tabella:
+    // Di seguito sono riportati due modi per utilizzare DataTable come origine dati per una stampa unione.
+    // 1 - Utilizza l'intera tabella per la stampa unione per creare un documento di stampa unione di output per ogni riga nella tabella:
     Document doc = CreateSourceDocExecuteDataTable();
 
     doc.MailMerge.Execute(table);
 
     doc.Save(ArtifactsDir + "MailMerge.ExecuteDataTable.WholeTable.docx");
 
-    // 2 - Usa una riga della tabella per creare un documento di stampa unione di output:
+    // 2 - Utilizza una riga della tabella per creare un documento di stampa unione di output:
     doc = CreateSourceDocExecuteDataTable();
 
     doc.MailMerge.Execute(table.Rows[1]);
@@ -44,7 +44,7 @@ public void ExecuteDataTable()
 }
 
 /// <summary>
-/// Crea un documento sorgente di stampa unione.
+/// Crea un documento di origine per la stampa unione.
 /// </summary>
 private static Document CreateSourceDocExecuteDataTable()
 {

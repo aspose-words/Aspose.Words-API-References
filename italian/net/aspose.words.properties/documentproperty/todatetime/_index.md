@@ -1,14 +1,14 @@
 ---
 title: DocumentProperty.ToDateTime
 second_title: Aspose.Words per .NET API Reference
-description: DocumentProperty metodo. Restituisce il valore della proprietà come DateTime in UTC.
+description: DocumentProperty metodo. Restituisce il valore della proprietà come Appuntamento tra UTC.
 type: docs
 weight: 80
 url: /it/net/aspose.words.properties/documentproperty/todatetime/
 ---
 ## DocumentProperty.ToDateTime method
 
-Restituisce il valore della proprietà come DateTime in UTC.
+Restituisce il valore della proprietà come **Appuntamento** tra UTC.
 
 ```csharp
 public DateTime ToDateTime()
@@ -18,7 +18,7 @@ public DateTime ToDateTime()
 
 Genera un'eccezione se il tipo di proprietà non lo èDateTime.
 
-Microsoft Word archivia solo la parte della data (senza ora) per le proprietà della data personalizzate.
+Microsoft Word memorizza solo la parte della data (nessuna ora) per le proprietà della data personalizzate.
 
 ### Esempi
 
@@ -32,7 +32,7 @@ doc.CustomDocumentProperties.Add("AuthorizationDate", DateTime.Now);
 Console.WriteLine($"Document authorized on {doc.CustomDocumentProperties["AuthorizationDate"].ToDateTime()}");
 ```
 
-Mostra vari metodi di conversione del tipo di proprietà del documento personalizzate.
+Mostra vari metodi di conversione del tipo delle proprietà personalizzate del documento.
 
 ```csharp
 Document doc = new Document();

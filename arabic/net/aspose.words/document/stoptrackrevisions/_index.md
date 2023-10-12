@@ -3,7 +3,7 @@ title: Document.StopTrackRevisions
 second_title: Aspose.Words لمراجع .NET API
 description: Document طريقة. إيقاف وضع العلامات التلقائية على تغييرات المستند كمراجعات.
 type: docs
-weight: 700
+weight: 740
 url: /ar/net/aspose.words/document/stoptrackrevisions/
 ---
 ## Document.StopTrackRevisions method
@@ -16,13 +16,13 @@ public void StopTrackRevisions()
 
 ### أمثلة
 
-يوضح كيفية تعقب المراجعات أثناء تحرير مستند.
+يوضح كيفية تتبع المراجعات أثناء تحرير مستند.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// تحرير المستند عادة لا يعتبر مراجعة حتى نبدأ في تعقبها.
+// تحرير المستند عادةً لا يُحتسب كمراجعة حتى نبدأ في تتبعه.
 builder.Write("Hello world! ");
 
 Assert.AreEqual(0, doc.Revisions.Count);
@@ -37,7 +37,7 @@ Assert.True(doc.FirstSection.Body.Paragraphs[0].Runs[1].IsInsertRevision);
 Assert.AreEqual("John Doe", doc.Revisions[0].Author);
 Assert.That(doc.Revisions[0].DateTime, Is.EqualTo(DateTime.Now).Within(10).Milliseconds);
 
-// إيقاف تتبع المراجعات لعدم احتساب أي تعديلات مستقبلية كمراجعات.
+// إيقاف تتبع المراجعات حتى لا يتم احتساب أي تعديلات مستقبلية على أنها مراجعات.
 doc.StopTrackRevisions();
 builder.Write("Hello again! ");
 
@@ -53,9 +53,9 @@ Assert.AreEqual(2, doc.Revisions.Count);
 Assert.AreEqual("John Doe", doc.Revisions[1].Author);
 Assert.AreEqual(DateTime.MinValue, doc.Revisions[1].DateTime);
 
-// يمكننا قبول / رفض هذه المراجعات برمجيًا
-// عن طريق استدعاء طرق مثل Document.AcceptAllRevisions ، أو طريقة قبول كل مراجعة.
-// في Microsoft Word ، يمكننا معالجتها يدويًا عبر "مراجعة" - >; "التغييرات".
+// يمكننا قبول/رفض هذه المراجعات برمجيًا
+// عن طريق استدعاء أساليب مثل Document.AcceptAllRevisions، أو أسلوب قبول كل مراجعة.
+// في Microsoft Word، يمكننا معالجتها يدويًا عبر "المراجعة" -> "التغييرات".
 doc.Save(ArtifactsDir + "Document.StartTrackRevisions.docx");
 ```
 

@@ -1,14 +1,14 @@
 ---
 title: ShapeBase.IsLayoutInCell
 second_title: Aspose.Words لمراجع .NET API
-description: ShapeBase ملكية. الحصول على أو تعيين علامة تشير إلى ما إذا كان الشكل معروضًا داخل جدول أو خارجه.
+description: ShapeBase ملكية. الحصول على أو تعيين علامة تشير إلى ما إذا كان الشكل معروضًا داخل الجدول أم خارجه.
 type: docs
-weight: 300
+weight: 310
 url: /ar/net/aspose.words.drawing/shapebase/islayoutincell/
 ---
 ## ShapeBase.IsLayoutInCell property
 
-الحصول على أو تعيين علامة تشير إلى ما إذا كان الشكل معروضًا داخل جدول أو خارجه.
+الحصول على أو تعيين علامة تشير إلى ما إذا كان الشكل معروضًا داخل الجدول أم خارجه.
 
 ```csharp
 public bool IsLayoutInCell { get; set; }
@@ -16,9 +16,9 @@ public bool IsLayoutInCell { get; set; }
 
 ### ملاحظات
 
-النظام الأساسي **حقيقي**.
+القيمة الافتراضية هي`حقيقي`.
 
-له تأثير فقط لأشكال المستوى الأعلى ، الخاصية[`WrapType`](../wraptype/) منها مضبوطة على value بخلاف[`Inline`](../../../aspose.words/inline/).
+له تأثير فقط على الأشكال ذات المستوى الأعلى، الخاصية[`WrapType`](../wraptype/) والتي تم ضبطها على value بخلاف[`Inline`](../../../aspose.words/inline/).
 
 ### أمثلة
 
@@ -48,12 +48,12 @@ builder.MoveTo(table.FirstRow.FirstCell.FirstParagraph);
 Shape shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPosition.LeftMargin, 50,
     RelativeVerticalPosition.TopMargin, 100, 100, 100, WrapType.None);
 
-// اضبط خاصية "IsLayoutInCell" على "true" لعرض الشكل كعنصر مضمن داخل فقرة الخلية.
-// سيكون أصل الإحداثيات الذي سيحدد موقع الشكل هو الزاوية اليسرى العلوية لخلية الشكل.
-// إذا قمنا بتغيير حجم الخلية ، فسينتقل الشكل للحفاظ على نفس الموضع بدءًا من أعلى يسار الخلية.
-// قم بتعيين خاصية "IsLayoutInCell" على "false" لعرض الشكل كشكل عائم مستقل.
-// سيكون أصل الإحداثيات الذي سيحدد موقع الشكل هو الركن الأيسر العلوي من الصفحة ،
-// ولن يستجيب الشكل لأي تغيير حجم خليته.
+// اضبط الخاصية "IsLayoutInCell" على "true" لعرض الشكل كعنصر سطري داخل فقرة الخلية.
+// الأصل الإحداثي الذي سيحدد موقع الشكل سيكون في الزاوية العلوية اليسرى من خلية الشكل.
+// إذا قمنا بإعادة حجم الخلية، فسيتحرك الشكل ليحافظ على نفس الموضع بدءًا من أعلى يسار الخلية.
+// اضبط خاصية "IsLayoutInCell" على "خطأ" لعرض الشكل كشكل عائم مستقل.
+// الأصل الإحداثي الذي سيحدد موقع الشكل سيكون في الزاوية العلوية اليسرى من الصفحة،
+// ولن يستجيب الشكل لأي تغيير في حجم خليته.
 shape.IsLayoutInCell = isLayoutInCell;
 
 // يمكننا فقط تطبيق خاصية "IsLayoutInCell" على الأشكال العائمة.

@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTag.Id
 second_title: Référence de l'API Aspose.Words pour .NET
-description: StructuredDocumentTag propriété. Spécifie un identifiant numérique persistant unique en lecture seule pour ce TDS.
+description: StructuredDocumentTag propriété. Spécifie un identifiant numérique persistant unique en lecture seule pour cet objet. TSD.
 type: docs
 weight: 140
 url: /fr/net/aspose.words.markup/structureddocumenttag/id/
 ---
 ## StructuredDocumentTag.Id property
 
-Spécifie un identifiant numérique persistant unique en lecture seule pour ce **TDS**.
+Spécifie un identifiant numérique persistant unique en lecture seule pour cet objet. **TSD**.
 
 ```csharp
 public int Id { get; }
@@ -16,52 +16,52 @@ public int Id { get; }
 
 ### Remarques
 
-L'attribut d'identifiant doit suivre ces règles :
+L'attribut Id doit suivre ces règles :
 
-* Le document ne conservera les identifiants SDT que si l'intégralité du document est clonée[`Clone`](../../../aspose.words/document/clone/).
-* Durant[`ImportNode`](../../../aspose.words/documentbase/importnode/) L'identifiant doit être conservé si l'importation ne provoque pas de conflits avec d'autres identifiants SDT dans le document cible.
-* Si plusieurs nœuds SDT spécifient la même valeur décimale pour l'attribut Id, , le premier SDT du document doit conserver cet identifiant d'origine, et tous les nœuds SDT suivants doivent se voir attribuer de nouveaux identifiants lors du chargement du document.
-* Pendant SDT autonomeINodeCloningListener) opération un nouvel ID unique sera généré pour le nœud SDT cloné.
-* Si Id n'est pas spécifié dans le document source, le nœud SDT doit se voir attribuer un nouvel identifiant unique lors du chargement du document.
+* Le document ne doit conserver les identifiants SDT que si l'intégralité du document est cloné.[`Clone`](../../../aspose.words/document/clone/).
+* Pendant[`ImportNode`](../../../aspose.words/documentbase/importnode/) L'identifiant doit être conservé si l'importation ne provoque pas de conflits avec d'autres identifiants SDT dans le document cible.
+* Si plusieurs nœuds SDT spécifient la même valeur numérique décimale pour l'attribut Id, alors le premier SDT du document doit conserver cet identifiant d'origine, et tous les nœuds SDT suivants se verront attribuer de nouveaux identifiants lorsque le document est chargé.
+* Pendant le SDT autonomeINodeCloningListener) opération, un nouvel ID unique sera généré pour le nœud SDT cloné.
+* Si l'ID n'est pas spécifié dans le document source, alors le nœud SDT se verra attribuer un nouvel identifiant unique lorsque le document est chargé.
 
 ### Exemples
 
-Montre comment créer une balise de document structurée dans une zone de texte brut et modifier son apparence.
+Montre comment créer une balise de document structuré dans une zone de texte brut et modifier son apparence.
 
 ```csharp
 Document doc = new Document();
 
-// Crée une balise de document structurée qui contiendra du texte brut.
+// Créez une balise de document structuré qui contiendra du texte brut.
 StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Inline);
 
-// Définissez le titre et la couleur du cadre qui apparaît lorsque vous passez la souris sur la balise de document structuré dans Microsoft Word.
+// Définissez le titre et la couleur du cadre qui apparaît lorsque vous passez la souris sur la balise du document structuré dans Microsoft Word.
 tag.Title = "My plain text";
 tag.Color = Color.Magenta;
 
-// Définissez une balise pour cette balise de document structuré, qui peut être obtenue
-// sous la forme d'un élément XML nommé "tag", avec la chaîne ci-dessous dans son attribut "@val".
+// Définit une balise pour cette balise de document structuré, qui peut être obtenue
+// en tant qu'élément XML nommé "tag", avec la chaîne ci-dessous dans son attribut "@val".
 tag.Tag = "MyPlainTextSDT";
 
-// Chaque balise de document structuré a un ID unique aléatoire.
+// Chaque balise de document structuré a un identifiant unique aléatoire.
 Assert.That(tag.Id, Is.Positive);
 
-// Définit la police du texte à l'intérieur de la balise de document structuré.
+// Définit la police du texte à l'intérieur de la balise du document structuré.
 tag.ContentsFont.Name = "Arial";
 
-// Définit la police du texte à la fin de la balise de document structuré.
-// Tout texte que nous tapons dans le corps du document après être sorti de la balise avec les touches fléchées utilisera cette police.
+// Définit la police du texte à la fin de la balise du document structuré.
+// Tout texte que nous tapons dans le corps du document après avoir quitté la balise avec les touches fléchées utilisera cette police.
 tag.EndCharacterFont.Name = "Arial Black";
 
 // Par défaut, c'est faux et appuyer sur Entrée à l'intérieur d'une balise de document structuré ne fait rien.
-// Lorsqu'il est défini sur true, notre balise de document structuré peut avoir plusieurs lignes.
+// Lorsqu'elle est définie sur true, notre balise de document structuré peut avoir plusieurs lignes.
 
-// Définissez la propriété "Multiline" sur "false" pour n'autoriser que le contenu
+// Définit la propriété "Multiline" sur "false" pour autoriser uniquement le contenu
 // de cette balise de document structuré pour s'étendre sur une seule ligne.
 // Définissez la propriété "Multiline" sur "true" pour permettre à la balise de contenir plusieurs lignes de contenu.
 tag.Multiline = true;
 
-// Définissez la propriété "Apparence" sur "SdtAppearance.Tags" pour afficher les balises autour du contenu.
- // Par défaut, la balise de document structuré s'affiche en tant que BoundingBox.
+// Définissez la propriété "Appearance" sur "SdtAppearance.Tags" pour afficher les balises autour du contenu.
+ // Par défaut, la balise du document structuré s'affiche sous la forme BoundingBox.
 tag.Appearance = SdtAppearance.Tags;
 
 DocumentBuilder builder = new DocumentBuilder(doc);

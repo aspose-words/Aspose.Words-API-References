@@ -20,13 +20,13 @@ public void Remove(Node node)
 
 ### Exemples
 
-Montre comment travailler avec une NodeCollection.
+Montre comment travailler avec un NodeCollection.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Ajoutez du texte au document en insérant Runs using a DocumentBuilder.
+// Ajoutez du texte au document en insérant des Runs à l'aide d'un DocumentBuilder.
 builder.Write("Run 1. ");
 builder.Write("Run 2. ");
 
@@ -36,7 +36,7 @@ RunCollection runs = doc.FirstSection.Body.FirstParagraph.Runs;
 
 Assert.AreEqual(2, runs.Count);
 
-// Nous pouvons également insérer manuellement un nœud dans la RunCollection.
+// Nous pouvons également insérer manuellement un nœud dans RunCollection.
 Run newRun = new Run(doc, "Run 3. ");
 runs.Insert(3, newRun);
 

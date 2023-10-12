@@ -16,7 +16,7 @@ public SizeF SizeInPoints { get; }
 
 ### Observaciones
 
-Esta propiedad devuelve el tamaño del cuadro delimitador real (como se representa en la página) de la forma. El tamaño tiene en cuenta la rotación de la forma (si la hay).
+Esta propiedad devuelve el tamaño del cuadro delimitador real (como se muestra en la página) de la forma. El tamaño tiene en cuenta la rotación de la forma (si corresponde).
 
 ### Ejemplos
 
@@ -28,7 +28,7 @@ Document doc = new Document(MyDir + "Office math.docx");
 OfficeMath officeMath = (OfficeMath)doc.GetChild(NodeType.OfficeMath, 0, true);
 OfficeMathRenderer renderer = new OfficeMathRenderer(officeMath);
 
-// Verificar el tamaño de la imagen que creará el objeto OfficeMath cuando lo representemos.
+// Verificar el tamaño de la imagen que creará el objeto OfficeMath cuando lo rendericemos.
 Assert.AreEqual(119.0f, renderer.SizeInPoints.Width, 0.2f);
 Assert.AreEqual(13.0f, renderer.SizeInPoints.Height, 0.1f);
 
@@ -39,7 +39,7 @@ Assert.AreEqual(13.0f, renderer.BoundsInPoints.Height, 0.1f);
 Assert.AreEqual(119.0f, renderer.OpaqueBoundsInPoints.Width, 0.2f);
 Assert.AreEqual(14.2f, renderer.OpaqueBoundsInPoints.Height, 0.1f);
 
-// Obtener el tamaño de la forma en píxeles, con escalado lineal a un DPI específico.
+// Obtenga el tamaño de la forma en píxeles, con escala lineal a un DPI específico.
 Rectangle bounds = renderer.GetBoundsInPixels(1.0f, 96.0f);
 
 Assert.AreEqual(159, bounds.Width);

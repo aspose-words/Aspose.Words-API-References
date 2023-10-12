@@ -8,7 +8,7 @@ url: /tr/net/aspose.words/textcolumncollection/width/
 ---
 ## TextColumnCollection.Width property
 
-Sütunlar eşit aralıklarla yerleştirildiğinde, sütunların genişliğini alır.
+Sütunlar eşit aralıklarla yerleştirildiğinde sütunların genişliğini alır.
 
 ```csharp
 public double Width { get; }
@@ -16,7 +16,7 @@ public double Width { get; }
 
 ### Notlar
 
-Sadece ne zaman etkilidir[`EvenlySpaced`](../evenlyspaced/) ayarlandı **doğru**.
+Yalnızca şu durumlarda etkili olur:[`EvenlySpaced`](../evenlyspaced/) ayarlandı`doğru`.
 
 ### Ayrıca bakınız
 

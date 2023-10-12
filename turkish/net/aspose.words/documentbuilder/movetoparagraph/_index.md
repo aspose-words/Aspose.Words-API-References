@@ -3,7 +3,7 @@ title: DocumentBuilder.MoveToParagraph
 second_title: Aspose.Words for .NET API Referansı
 description: DocumentBuilder yöntem. İmleci geçerli bölümdeki bir paragrafa taşır.
 type: docs
-weight: 540
+weight: 570
 url: /tr/net/aspose.words/documentbuilder/movetoparagraph/
 ---
 ## DocumentBuilder.MoveToParagraph method
@@ -21,13 +21,13 @@ public void MoveToParagraph(int paragraphIndex, int characterIndex)
 
 ### Notlar
 
-Gezinme, geçerli bölümün geçerli öyküsü içinde gerçekleştirilir. Yani, imleci ilk bölümün birincil başlığına taşıdıysanız, o zaman paragrafIndex, o bölümün o header içindeki paragrafın dizinini belirtir.
+Gezinme, geçerli bölümün geçerli öyküsü içinde gerçekleştirilir. Yani, imleci ilk bölümün birincil başlığına, götürdüyseniz, ardından*paragraphIndex* bölümün başlık içindeki paragrafın dizinini belirtti.
 
-paragrafIndex 0'dan büyük veya 0'a eşit olduğunda, ilk paragraf 0 olacak şekilde bölümün başlangıcından 'den bir dizin belirtir. paragrafIndex 0, 'den küçük olduğunda, son paragraf -1 olacak şekilde bölümün sonundan bir dizin belirledi.
+Ne zaman*paragraphIndex* 0'dan büyük veya ona eşitse, 0'ın ilk paragraf olduğu bölümün başlangıcındaki dizinini belirtir. Ne zaman*paragraphIndex* 0, 'den küçükse, son paragraf -1 olmak üzere bölümün sonundan itibaren bir dizin belirtir.
 
 ### Örnekler
 
-Oluşturucunun imleç konumunun belirtilen bir paragrafa nasıl taşınacağını gösterir.
+Oluşturucunun imleç konumunun belirli bir paragrafa nasıl taşınacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraphs.docx");
@@ -36,15 +36,15 @@ ParagraphCollection paragraphs = doc.FirstSection.Body.Paragraphs;
 Assert.AreEqual(22, paragraphs.Count);
 
 // Belgeyi düzenlemek için belge oluşturucu oluşturun. İnşaatçının imleci,
-// belge oluşturma yöntemlerini çağırdığımızda yeni düğümler ekleyeceği nokta,
-// şu anda belgenin başında.
+// belge oluşturma yöntemlerini çağırdığımızda yeni düğümlerin ekleneceği nokta,
+// şu anda belgenin başındadır.
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 Assert.AreEqual(0, paragraphs.IndexOf(builder.CurrentParagraph));
 
-// İmleci farklı bir paragrafa taşı, imleci o paragrafın önüne yerleştirir.
+// İmleci farklı bir paragrafa taşıdığınızda, imleç o paragrafın önüne yerleştirilecektir.
 builder.MoveToParagraph(2, 0);
-// Eklediğimiz her yeni içerik bu noktada eklenecektir.
+// Eklediğimiz yeni içerik bu noktada eklenecektir.
 builder.Writeln("This is a new third paragraph. ");
 ```
 

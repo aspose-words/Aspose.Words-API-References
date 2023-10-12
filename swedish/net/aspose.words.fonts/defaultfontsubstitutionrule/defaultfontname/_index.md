@@ -66,7 +66,7 @@ Assert.True(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial
 Assert.False(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arvo"));
 
 // Ställ in egenskapen "DefaultFontName" till "Courier New" till,
-  // medan du renderar dokumentet, använd det teckensnittet i alla fall när ett annat teckensnitt inte är tillgängligt.
+ // medan du renderar dokumentet, använd det teckensnittet i alla fall när ett annat teckensnitt inte är tillgängligt.
 FontSettings.DefaultInstance.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Courier New";
 
 Assert.True(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Courier New"));

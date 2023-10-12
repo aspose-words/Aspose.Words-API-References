@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.DoNotUseEastAsianBreakRules
 second_title: Aspose.Words لمراجع .NET API
-description: CompatibilityOptions ملكية. لا تقم بضغط الأحرف القابلة للضغط عند استخدام شبكة المستند.
+description: CompatibilityOptions ملكية. لا تقم بضغط الأحرف القابلة للضغط عند استخدام شبكة المستندات.
 type: docs
 weight: 200
 url: /ar/net/aspose.words.settings/compatibilityoptions/donotuseeastasianbreakrules/
 ---
 ## CompatibilityOptions.DoNotUseEastAsianBreakRules property
 
-لا تقم بضغط الأحرف القابلة للضغط عند استخدام شبكة المستند.
+لا تقم بضغط الأحرف القابلة للضغط عند استخدام شبكة المستندات.
 
 ```csharp
 public bool DoNotUseEastAsianBreakRules { get; set; }

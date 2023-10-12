@@ -1,14 +1,14 @@
 ---
 title: WebExtensionBinding.BindingType
 second_title: Aspose.Words per .NET API Reference
-description: WebExtensionBinding proprietà. Specifica il tipo di rilegatura.
+description: WebExtensionBinding proprietà. Specifica il tipo di associazione.
 type: docs
 weight: 30
 url: /it/net/aspose.words.webextensions/webextensionbinding/bindingtype/
 ---
 ## WebExtensionBinding.BindingType property
 
-Specifica il tipo di rilegatura.
+Specifica il tipo di associazione.
 
 ```csharp
 public WebExtensionBindingType BindingType { get; set; }

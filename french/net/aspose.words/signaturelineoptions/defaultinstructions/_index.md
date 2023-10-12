@@ -1,14 +1,14 @@
 ---
 title: SignatureLineOptions.DefaultInstructions
 second_title: Référence de l'API Aspose.Words pour .NET
-description: SignatureLineOptions propriété. Obtient ou définit une valeur indiquant que les instructions par défaut sont affichées dans la boîte de dialogue Signer. La valeur par défaut de cette propriété est vrai .
+description: SignatureLineOptions propriété. Obtient ou définit une valeur indiquant que les instructions par défaut sont affichées dans la boîte de dialogue de signature. La valeur par défaut de cette propriété estvrai .
 type: docs
 weight: 30
 url: /fr/net/aspose.words/signaturelineoptions/defaultinstructions/
 ---
 ## SignatureLineOptions.DefaultInstructions property
 
-Obtient ou définit une valeur indiquant que les instructions par défaut sont affichées dans la boîte de dialogue Signer. La valeur par défaut de cette propriété est **vrai** .
+Obtient ou définit une valeur indiquant que les instructions par défaut sont affichées dans la boîte de dialogue de signature. La valeur par défaut de cette propriété est`vrai` .
 
 ```csharp
 public bool DefaultInstructions { get; set; }
@@ -54,7 +54,7 @@ CertificateHolder certHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "a
 DigitalSignatureUtil.Sign(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.docx", 
     ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
 
-// Rouvrez notre document enregistré et vérifiez que les propriétés "IsSigned" et "IsValid" sont toutes les deux égales à "true",
+// Rouvrez notre document enregistré et vérifiez que les propriétés "IsSigned" et "IsValid" sont toutes deux égales à "true",
 // indiquant que la ligne de signature contient une signature.
 doc = new Document(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);

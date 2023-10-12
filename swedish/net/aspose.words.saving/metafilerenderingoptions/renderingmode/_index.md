@@ -3,7 +3,7 @@ title: MetafileRenderingOptions.RenderingMode
 second_title: Aspose.Words för .NET API Referens
 description: MetafileRenderingOptions fast egendom. Hämtar eller ställer in ett värde som bestämmer hur metafilbilder ska renderas.
 type: docs
-weight: 40
+weight: 60
 url: /sv/net/aspose.words.saving/metafilerenderingoptions/renderingmode/
 ---
 ## MetafileRenderingOptions.RenderingMode property
@@ -23,6 +23,7 @@ Standardvärdet beror på sparformatet. För bilder är detBitmap . För andra f
 Visar lade till en reserv till bitmappsrendering och ändrade typ av varningar om metafilposter som inte stöds.
 
 ```csharp
+public void HandleBinaryRasterWarnings()
 {
     Document doc = new Document(MyDir + "WMF with image.docx");
 
@@ -47,7 +48,7 @@ Visar lade till en reserv till bitmappsrendering och ändrade typ av varningar o
     doc.Save(ArtifactsDir + "PdfSaveOptions.HandleBinaryRasterWarnings.pdf", saveOptions);
 
     Assert.AreEqual(1, callback.Warnings.Count);
-    Assert.AreEqual("'R2_XORPEN' binary raster operation is partly supported.",
+    Assert.AreEqual("'R2_XORPEN' binary raster operation is not supported.",
         callback.Warnings[0].Description);
 }
 

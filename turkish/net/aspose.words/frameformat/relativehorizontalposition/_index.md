@@ -1,14 +1,14 @@
 ---
 title: FrameFormat.RelativeHorizontalPosition
 second_title: Aspose.Words for .NET API Referansı
-description: FrameFormat mülk. Bir çerçevenin göreli yatay konumunu alır.
+description: FrameFormat mülk. Bir çerçevenin göreceli yatay konumunu alır.
 type: docs
 weight: 70
 url: /tr/net/aspose.words/frameformat/relativehorizontalposition/
 ---
 ## FrameFormat.RelativeHorizontalPosition property
 
-Bir çerçevenin göreli yatay konumunu alır.
+Bir çerçevenin göreceli yatay konumunu alır.
 
 ```csharp
 public RelativeHorizontalPosition RelativeHorizontalPosition { get; }

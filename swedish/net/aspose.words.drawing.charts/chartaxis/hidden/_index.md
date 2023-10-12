@@ -3,7 +3,7 @@ title: ChartAxis.Hidden
 second_title: Aspose.Words för .NET API Referens
 description: ChartAxis fast egendom. Hämtar eller sätter en flagga som indikerar om denna axel är dold eller inte.
 type: docs
-weight: 80
+weight: 100
 url: /sv/net/aspose.words.drawing.charts/chartaxis/hidden/
 ---
 ## ChartAxis.Hidden property
@@ -16,7 +16,7 @@ public bool Hidden { get; set; }
 
 ### Anmärkningar
 
-Standardvärdet är **falsk** .
+Standardvärdet är`falsk` .
 
 ### Exempel
 
@@ -37,7 +37,7 @@ chart.Series.Add("AW Series 1",
     new[] { "Item 1", "Item 2", "Item 3", "Item 4", "Item 5" },
     new[] { 1.2, 0.3, 2.1, 2.9, 4.2 });
 
-  // Dölj diagramaxlarna för att förenkla diagrammets utseende.
+ // Dölj diagramaxlarna för att förenkla diagrammets utseende.
 chart.AxisX.Hidden = true;
 chart.AxisY.Hidden = true;
 

@@ -20,25 +20,23 @@ public List GetListByListId(int listId)
 
 ### Возвращаемое значение
 
-Возвращает объект списка. Возвращает null, если список с указанным идентификатором не найден.
+Возвращает объект списка. Возврат`нулевой` если список с указанным идентификатором не найден.
 
 ### Примечания
 
-Обычно вам не нужно использовать этот метод. В большинстве случаев вы применяете форматирование списка к абзацам, просто устанавливая[`List`](../../listformat/list/) property объекта[`ListFormat`](../../listformat/) объект.
+Обычно вам не нужно использовать этот метод. В большинстве случаев вы применяете форматирование списка к абзацам, просто устанавливая[`List`](../../listformat/list/) property из[`ListFormat`](../../listformat/) объект.
 
 ### Примеры
 
-Показывает, как проверить свойства документа владельца списков.
+Показывает, как проверить свойства документов владельцев списков.
 
 ```csharp
 Document doc = new Document();
 
 ListCollection lists = doc.Lists;
-
 Assert.AreEqual(doc, lists.Document);
 
 List list = lists.Add(ListTemplate.BulletDefault);
-
 Assert.AreEqual(doc, list.Document);
 
 Console.WriteLine("Current list count: " + lists.Count);

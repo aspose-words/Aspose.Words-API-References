@@ -1,14 +1,14 @@
 ---
 title: BorderCollection.DistanceFromText
 second_title: Aspose.Words for .NET API 参考
-description: BorderCollection 财产. 获取或设置边框与文本的距离以点为单位
+description: BorderCollection 财产. 获取或设置文本边框的距离以磅为单位
 type: docs
 weight: 40
 url: /zh/net/aspose.words/bordercollection/distancefromtext/
 ---
 ## BorderCollection.DistanceFromText property
 
-获取或设置边框与文本的距离，以点为单位。
+获取或设置文本边框的距离（以磅为单位）。
 
 ```csharp
 public double DistanceFromText { get; set; }
@@ -16,15 +16,15 @@ public double DistanceFromText { get; set; }
 
 ### 评论
 
-获取第一个边框与文本的距离。
+获取第一个边框距文本的距离。
 
-为集合中的所有边框设置与文本的距离，不包括对角线边框。
+设置集合中除对角线边框之外的所有边框与文本的距离。
 
-没有效果，表格单元格的边框将自动重置为零。
+没有任何效果，并且表格单元格的边框将自动重置为零。
 
 ### 例子
 
-演示如何创建带有阴影的绿色波浪页面边框。
+演示如何创建带阴影的绿色波浪页面边框。
 
 ```csharp
 Document doc = new Document();

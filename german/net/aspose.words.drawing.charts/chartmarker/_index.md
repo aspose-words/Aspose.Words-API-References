@@ -3,12 +3,14 @@ title: Class ChartMarker
 second_title: Aspose.Words für .NET-API-Referenz
 description: Aspose.Words.Drawing.Charts.ChartMarker klas. Stellt eine Diagrammdatenmarkierung dar.
 type: docs
-weight: 710
+weight: 750
 url: /de/net/aspose.words.drawing.charts/chartmarker/
 ---
 ## ChartMarker class
 
 Stellt eine Diagrammdatenmarkierung dar.
+
+Um mehr zu erfahren, besuchen Sie die[Arbeiten mit Diagrammen](https://docs.aspose.com/words/net/working-with-charts/) Dokumentationsartikel.
 
 ```csharp
 public class ChartMarker
@@ -18,16 +20,15 @@ public class ChartMarker
 
 | Name | Beschreibung |
 | --- | --- |
-| [Format](../../aspose.words.drawing.charts/chartmarker/format/) { get; } | Bietet Zugriff auf die Füll- und Linienformatierung dieser Markierung. |
+| [Format](../../aspose.words.drawing.charts/chartmarker/format/) { get; } | Bietet Zugriff auf die Füll- und Zeilenformatierung dieser Markierung. |
 | [Size](../../aspose.words.drawing.charts/chartmarker/size/) { get; set; } | Ruft die Größe der Diagrammmarkierung ab oder legt sie fest. Der Standardwert ist 7. |
-| [Symbol](../../aspose.words.drawing.charts/chartmarker/symbol/) { get; set; } | Holt oder setzt Diagrammmarkierungssymbol. |
+| [Symbol](../../aspose.words.drawing.charts/chartmarker/symbol/) { get; set; } | Ruft das Diagrammmarkierungssymbol ab oder legt es fest. |
 
 ### Beispiele
 
-Zeigt, wie Sie mit Datenpunkten in einem Liniendiagramm arbeiten.
+Zeigt, wie mit Datenpunkten in einem Liniendiagramm gearbeitet wird.
 
 ```csharp
-[Test]
 public void ChartDataPoint()
 {
     Document doc = new Document();
@@ -41,14 +42,14 @@ public void ChartDataPoint()
     Assert.AreEqual("Series 2", chart.Series[1].Name);
     Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-    // Heben Sie die Datenpunkte des Diagramms hervor, indem Sie sie als Rautenformen erscheinen lassen.
+    // Betonen Sie die Datenpunkte des Diagramms, indem Sie sie als Rautenformen erscheinen lassen.
     foreach (ChartSeries series in chart.Series) 
         ApplyDataPoints(series, 4, MarkerSymbol.Diamond, 15);
 
-    // Die Linie glätten, die die erste Datenreihe darstellt.
+    // Glätten Sie die Linie, die die erste Datenreihe darstellt.
     chart.Series[0].Smooth = true;
 
-    // Sicherstellen, dass Datenpunkte für die erste Serie ihre Farben nicht invertieren, wenn der Wert negativ ist.
+    // Stellen Sie sicher, dass die Farben der Datenpunkte für die erste Serie nicht invertiert werden, wenn der Wert negativ ist.
     using (IEnumerator<ChartDataPoint> enumerator = chart.Series[0].DataPoints.GetEnumerator())
     {
         while (enumerator.MoveNext())
@@ -57,7 +58,7 @@ public void ChartDataPoint()
         }
     }
 
-    // Für ein sauberer aussehendes Diagramm können wir das Format individuell löschen.
+    // Für ein übersichtlicheres Diagramm können wir das Format einzeln löschen.
     chart.Series[1].DataPoints[2].ClearFormat();
 
     // Wir können auch eine ganze Reihe von Datenpunkten auf einmal entfernen.

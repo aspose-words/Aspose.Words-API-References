@@ -3,7 +3,7 @@ title: Enum RevisionType
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.RevisionType uppräkning. Anger vilken typ av ändring som spåras inRevision .
 type: docs
-weight: 4540
+weight: 4800
 url: /sv/net/aspose.words/revisiontype/
 ---
 ## RevisionType enumeration

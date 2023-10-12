@@ -8,7 +8,7 @@ url: /tr/net/aspose.words.tables/table/horizontalanchor/
 ---
 ## Table.HorizontalAnchor property
 
-Kayan tablonun yatay konumunun hesaplanması gereken temel nesneyi alır. Varsayılan değerColumn .
+Kayan tablonun yatay konumunun hesaplanması gereken temel nesneyi alır. Varsayılan değer:Column .
 
 ```csharp
 public RelativeHorizontalPosition HorizontalAnchor { get; set; }
@@ -29,12 +29,12 @@ if (table.TextWrapping == TextWrapping.Around)
     Assert.AreEqual(RelativeVerticalPosition.Paragraph, table.VerticalAnchor);
     Assert.AreEqual(false, table.AllowOverlap);
 
-    // HorizontalAnchor ayarlayıcı için RelativeHorizontalPosition'da yalnızca Margin, Page, Column kullanılabilir.
-    // Diğer değerler için ArgumentException oluşturulacak.
+    // HorizontalAnchor ayarlayıcı için RelativeHorizontalPosition'da yalnızca Kenar Boşluğu, Sayfa, Sütun mevcuttur.
+    // ArgumentException diğer değerler için atılacak.
     table.HorizontalAnchor = RelativeHorizontalPosition.Column;
 
-    // VerticalAnchor ayarlayıcı için RelativeVerticalPosition'da yalnızca Kenar Boşluğu, Sayfa, Paragraf kullanılabilir.
-    // Diğer değerler için ArgumentException oluşturulacak.
+    // VerticalAnchor ayarlayıcı için RelativeVerticalPosition'da yalnızca Kenar Boşluğu, Sayfa, Paragraf mevcuttur.
+    // ArgumentException diğer değerler için atılacak.
     table.VerticalAnchor = RelativeVerticalPosition.Page;
 }
 ```

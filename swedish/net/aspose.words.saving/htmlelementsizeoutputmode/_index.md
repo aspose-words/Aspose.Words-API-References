@@ -3,7 +3,7 @@ title: Enum HtmlElementSizeOutputMode
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Saving.HtmlElementSizeOutputMode uppräkning. Anger hur Aspose.Words exporterar elementbredder och höjder till HTML MHTML och EPUB.
 type: docs
-weight: 4800
+weight: 5060
 url: /sv/net/aspose.words.saving/htmlelementsizeoutputmode/
 ---
 ## HtmlElementSizeOutputMode enumeration

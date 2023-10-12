@@ -1,14 +1,14 @@
 ---
 title: MailMerge.RetainFirstSectionStart
 second_title: Справочник по API Aspose.Words для .NET
-description: MailMerge свойство. Получает или задает значение указывающееSectionStart первого раздела документа и его копии для последующих строк источника данных rows сохраняются во время слияния или обновляются в соответствии с поведением MS Word.
+description: MailMerge свойство. Получает или задает значение указывающее является лиSectionStart первого раздела документа и его копии для последующих источников данных rows сохраняются во время слияния почты или обновляются в соответствии с поведением MS Word.
 type: docs
 weight: 120
 url: /ru/net/aspose.words.mailmerging/mailmerge/retainfirstsectionstart/
 ---
 ## MailMerge.RetainFirstSectionStart property
 
-Получает или задает значение, указывающее,[`SectionStart`](../../../aspose.words/pagesetup/sectionstart/) первого раздела документа и его копии для последующих строк источника данных rows сохраняются во время слияния или обновляются в соответствии с поведением MS Word.
+Получает или задает значение, указывающее, является ли[`SectionStart`](../../../aspose.words/pagesetup/sectionstart/) первого раздела документа и его копии для последующих источников данных rows сохраняются во время слияния почты или обновляются в соответствии с поведением MS Word.
 
 ```csharp
 public bool RetainFirstSectionStart { get; set; }
@@ -16,7 +16,7 @@ public bool RetainFirstSectionStart { get; set; }
 
 ### Примечания
 
-Значение по умолчанию: **истинный** .
+Значение по умолчанию:`истинный` .
 
 ### Смотрите также
 

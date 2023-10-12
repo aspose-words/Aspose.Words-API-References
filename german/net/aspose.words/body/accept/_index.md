@@ -20,19 +20,19 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Rückgabewert
 
-True, wenn alle Knoten besucht wurden; false, wenn DocumentVisitor den Vorgang beendet hat, bevor alle Knoten besucht wurden.
+True, wenn alle Knoten besucht wurden; falsch wenn[`DocumentVisitor`](../../documentvisitor/) stoppte den Vorgang, bevor alle Knoten besucht wurden.
 
 ### Bemerkungen
 
-Listet diesen Knoten und alle seine untergeordneten Elemente auf. Jeder Knoten ruft eine entsprechende Methode auf DocumentVisitor auf.
+Listet diesen Knoten und alle seine untergeordneten Knoten auf. Jeder Knoten ruft eine entsprechende Methode auf[`DocumentVisitor`](../../documentvisitor/).
 
-Weitere Informationen finden Sie im Besucher-Entwurfsmuster.
+Weitere Informationen finden Sie im Visitor-Entwurfsmuster.
 
-Ruft DocumentVisitor.VisitBodyStart auf, ruft dann Accept für alle untergeordneten Knoten des Abschnitts auf und ruft am Ende DocumentVisitor.VisitBodyEnd auf.
+Anrufe[`VisitBodyStart`](../../documentvisitor/visitbodystart/) , dann ruft[`Accept`](../../node/accept/) für alle untergeordneten Knoten der section und Aufrufe[`VisitBodyEnd`](../../documentvisitor/visitbodyend/) am Ende.
 
 ### Beispiele
 
-Zeigt, wie ein Dokument-Besucher verwendet wird, um die Knotenstruktur eines Dokuments zu drucken.
+Zeigt, wie ein Dokumentbesucher zum Drucken der Knotenstruktur eines Dokuments verwendet wird.
 
 ```csharp
 public void DocStructureToText()
@@ -40,8 +40,8 @@ public void DocStructureToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     DocStructurePrinter visitor = new DocStructurePrinter();
 
-    // Wenn wir einen zusammengesetzten Knoten dazu bringen, einen Dokumentbesucher zu akzeptieren, besucht der Besucher den akzeptierenden Knoten,
-    // und durchläuft dann alle untergeordneten Elemente des Knotens mit der Tiefe zuerst.
+    // Wenn wir einen zusammengesetzten Knoten erhalten, der einen Dokumentbesucher akzeptiert, besucht der Besucher den akzeptierenden Knoten.
+    // und durchläuft dann alle untergeordneten Knoten des Knotens in einer Tiefe-zuerst-Methode.
     // Der Besucher kann jeden besuchten Knoten lesen und ändern.
     doc.Accept(visitor);
 
@@ -65,7 +65,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Wird aufgerufen, wenn ein Dokumentknoten gefunden wird.
+    /// Wird aufgerufen, wenn ein Document-Knoten gefunden wird.
     /// </summary>
     public override VisitorAction VisitDocumentStart(Document doc)
     {
@@ -181,7 +181,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Eine Zeile an den StringBuilder anhängen und einrücken, je nachdem, wie tief der Besucher in den Dokumentenbaum eindringt.
+    /// Hängen Sie eine Zeile an den StringBuilder an und rücken Sie sie ein, je nachdem, wie tief sich der Besucher im Dokumentbaum befindet.
     /// </summary>
     /// <param name="text"></param>
     private void IndentAndAppendLine(string text)

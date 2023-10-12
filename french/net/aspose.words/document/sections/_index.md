@@ -3,7 +3,7 @@ title: Document.Sections
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Document propriété. Renvoie une collection qui représente toutes les sections du document.
 type: docs
-weight: 350
+weight: 370
 url: /fr/net/aspose.words/document/sections/
 ---
 ## Document.Sections property
@@ -50,13 +50,13 @@ builder.Writeln("This text is in section 1.");
 
 // Les types de saut de section déterminent comment une nouvelle section se sépare de la section précédente.
 // Vous trouverez ci-dessous cinq types de sauts de section.
-// 1 - Commence la section suivante sur une nouvelle page :
+// 1 - Démarre la section suivante sur une nouvelle page :
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 builder.Writeln("This text is in section 2.");
 
 Assert.AreEqual(SectionStart.NewPage, doc.Sections[1].PageSetup.SectionStart);
 
-// 2 - Démarre la section suivante sur la page en cours :
+// 2 - Démarre la section suivante sur la page actuelle :
 builder.InsertBreak(BreakType.SectionBreakContinuous);
 builder.Writeln("This text is in section 3.");
 
@@ -74,7 +74,7 @@ builder.Writeln("This text is in section 5.");
 
 Assert.AreEqual(SectionStart.OddPage, doc.Sections[4].PageSetup.SectionStart);
 
-// 5 - Commence la section suivante sur une nouvelle colonne :
+// 5 - Démarre la section suivante sur une nouvelle colonne :
 TextColumnCollection columns = builder.PageSetup.TextColumns;
 columns.SetCount(2);
 

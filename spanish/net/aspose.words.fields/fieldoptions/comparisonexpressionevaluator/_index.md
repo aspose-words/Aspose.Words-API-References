@@ -3,7 +3,7 @@ title: FieldOptions.ComparisonExpressionEvaluator
 second_title: Referencia de API de Aspose.Words para .NET
 description: FieldOptions propiedad. Obtiene o establece el evaluador de expresiones de comparación de campos.
 type: docs
-weight: 30
+weight: 40
 url: /es/net/aspose.words.fields/fieldoptions/comparisonexpressionevaluator/
 ---
 ## FieldOptions.ComparisonExpressionEvaluator property
@@ -16,7 +16,7 @@ public IComparisonExpressionEvaluator ComparisonExpressionEvaluator { get; set; 
 
 ### Ejemplos
 
-Muestra cómo implementar una evaluación personalizada para los campos IF y COMPARE.
+Muestra cómo implementar una evaluación personalizada para los campos SI y COMPARAR.
 
 ```csharp
 public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparisonResult, string comparisonError,
@@ -33,7 +33,7 @@ public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparison
     // 2. " COMPARAR {0} {1} {2} ".
     Field field = builder.InsertField(string.Format(fieldCode, left, @operator, right), null);
 
-    // Si el "Resultado de comparación" no está definido, creamos "Resultado de evaluación de comparación" con una cadena, en lugar de bool.
+    // Si el "resultado de comparación" no está definido, creamos "Resultado de evaluación de comparación" con una cadena, en lugar de bool.
     ComparisonEvaluationResult result = comparisonResult != -1
         ? new ComparisonEvaluationResult(comparisonResult == 1)
         : comparisonError != null ? new ComparisonEvaluationResult(comparisonError) : null;

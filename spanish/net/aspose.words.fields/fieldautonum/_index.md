@@ -3,12 +3,14 @@ title: Class FieldAutoNum
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.Fields.FieldAutoNum clase. Implementa el campo AUTONUM.
 type: docs
-weight: 1430
+weight: 1580
 url: /es/net/aspose.words.fields/fieldautonum/
 ---
 ## FieldAutoNum class
 
 Implementa el campo AUTONUM.
+
+Para obtener más información, visite el[Trabajar con campos](https://docs.aspose.com/words/net/working-with-fields/) artículo de documentación.
 
 ```csharp
 public class FieldAutoNum : Field
@@ -28,10 +30,10 @@ public class FieldAutoNum : Field
 | [End](../../aspose.words.fields/field/end/) { get; } | Obtiene el nodo que representa el final del campo. |
 | [Format](../../aspose.words.fields/field/format/) { get; } | Obtiene un[`FieldFormat`](../fieldformat/) objeto que proporciona acceso escrito al formato del campo. |
 | [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Obtiene o establece si el resultado actual del campo ya no es correcto (obsoleto) debido a otras modificaciones realizadas en el documento. |
-| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Obtiene o establece si el campo está bloqueado (no debe recalcular su resultado). |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Obtiene o establece si el campo está bloqueado (no debe volver a calcular su resultado). |
 | [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Obtiene o establece el LCID del campo. |
 | [Result](../../aspose.words.fields/field/result/) { get; set; } | Obtiene o establece el texto que se encuentra entre el separador de campo y el final del campo. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | Obtiene el nodo que representa el separador de campos. Puede ser nulo. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Obtiene el nodo que representa el separador de campos. Puede ser`nulo` . |
 | [SeparatorCharacter](../../aspose.words.fields/fieldautonum/separatorcharacter/) { get; set; } | Obtiene o establece el carácter separador que se utilizará. |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Obtiene el nodo que representa el inicio del campo. |
 | virtual [Type](../../aspose.words.fields/field/type/) { get; } | Obtiene el tipo de campo de Microsoft Word. |
@@ -40,12 +42,12 @@ public class FieldAutoNum : Field
 
 | Nombre | Descripción |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Devuelve el texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). Se incluyen tanto el código de campo como el resultado de campo de los campos secundarios. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Devuelve el texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). |
-| [Remove](../../aspose.words.fields/field/remove/)() | Elimina el campo del documento. Devuelve un nodo justo después del campo. Si el final del campo es el último hijo de su nodo principal, devuelve su párrafo principal. Si el campo ya está eliminado, devuelve **nulo** . |
-| [Unlink](../../aspose.words.fields/field/unlink/)() | Realiza el desvinculado del campo. |
-| [Update](../../aspose.words.fields/field/update/)() | Realiza la actualización del campo. Se lanza si el campo ya se está actualizando. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Realiza una actualización de campo. Se lanza si el campo ya se está actualizando. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Devuelve texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). Se incluyen tanto el código de campo como el resultado del campo de los campos secundarios. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Devuelve texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). |
+| [Remove](../../aspose.words.fields/field/remove/)() | Elimina el campo del documento. Devuelve un nodo justo después del campo. Si el final del campo es el último hijo de su nodo principal, devuelve su párrafo principal. Si el campo ya está eliminado, devuelve`nulo` . |
+| [Unlink](../../aspose.words.fields/field/unlink/)() | Realiza la desvinculación del campo. |
+| [Update](../../aspose.words.fields/field/update/)() | Realiza la actualización del campo. Se produce si el campo ya se está actualizando. |
+| [Update](../../aspose.words.fields/field/update/)(bool) | Realiza una actualización de campo. Se produce si el campo ya se está actualizando. |
 
 ### Observaciones
 
@@ -53,15 +55,15 @@ Inserta un número automático.
 
 ### Ejemplos
 
-Muestra cómo numerar párrafos usando campos de numeración automática.
+Muestra cómo numerar párrafos utilizando campos autónomos.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Cada campo AUTONUM muestra el valor actual de un conteo continuo de campos AUTONUM,
+// Cada campo AUTONUM muestra el valor actual de un recuento continuo de campos AUTONUM,
 // permitiéndonos numerar elementos automáticamente como una lista numerada.
-// Este campo mostrará un número "1.".
+// Este campo mostrará un número "1".
 FieldAutoNum field = (FieldAutoNum)builder.InsertField(FieldType.FieldAutoNum, true);
 builder.Writeln("\tParagraph 1.");
 
@@ -71,10 +73,10 @@ field = (FieldAutoNum)builder.InsertField(FieldType.FieldAutoNum, true);
 builder.Writeln("\tParagraph 2.");
 
 // El carácter separador, que aparece en el resultado del campo inmediatamente después del número, es un punto por defecto.
-// Si dejamos esta propiedad nula, nuestro segundo campo AUTONUM mostrará "2". en el documento
+// Si dejamos esta propiedad nula, nuestro segundo campo AUTONUM mostrará "2". en el documento.
 Assert.IsNull(field.SeparatorCharacter);
 
-// Podemos establecer esta propiedad para aplicar el primer carácter de su cadena como el nuevo carácter separador.
+// Podemos configurar esta propiedad para aplicar el primer carácter de su cadena como nuevo carácter separador.
 // En este caso, nuestro campo AUTONUM ahora mostrará "2:".
 field.SeparatorCharacter = ":";
 

@@ -16,7 +16,7 @@ public bool IncludeFullPath { get; set; }
 
 ### Örnekler
 
-FILENAME alanı için varsayılan değeri geçersiz kılmak için FieldOptions'ın nasıl kullanılacağını gösterir.
+FILENAME alanının varsayılan değerini geçersiz kılmak için FieldOptions'ın nasıl kullanılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -25,7 +25,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.MoveToDocumentEnd();
 builder.Writeln();
 
-// Bu FILENAME alanı yüklediğimiz belgenin yerel sistem dosya adını gösterecek.
+// Bu FILENAME alanı yüklediğimiz belgenin yerel sistem dosya adını gösterecektir.
 FieldFileName field = (FieldFileName)builder.InsertField(FieldType.FieldFileName, true);
 field.Update();
 
@@ -34,7 +34,7 @@ Assert.AreEqual("Document.docx", field.Result);
 
 builder.Writeln();
 
-// Varsayılan olarak, FILENAME alanı dosyanın adını gösterir, ancak tam yerel dosya sistemi yolunu göstermez.
+// Varsayılan olarak, DOSYA ADI alanı dosyanın adını gösterir, ancak tam yerel dosya sistemi yolunu göstermez.
 // Tam dosya yolunu göstermesi için bir bayrak ayarlayabiliriz.
 field = (FieldFileName)builder.InsertField(FieldType.FieldFileName, true);
 field.IncludeFullPath = true;
@@ -42,8 +42,8 @@ field.Update();
 
 Assert.AreEqual(MyDir + "Document.docx", field.Result);
 
-// Bu özellik için de bir değer ayarlayabiliriz.
-// DOSYAADI alanının görüntülediği değeri geçersiz kıl.
+// Bu özelliğe ayrıca bir değer de atayabiliriz.
+// DOSYA ADI alanında görüntülenen değeri geçersiz kılın.
 doc.FieldOptions.FileName = "FieldOptions.FILENAME.docx";
 field.Update();
 

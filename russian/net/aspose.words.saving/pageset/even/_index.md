@@ -1,14 +1,14 @@
 ---
 title: PageSet.Even
 second_title: Справочник по API Aspose.Words для .NET
-description: PageSet свойство. Получает набор со всеми четными страницами документа в их исходном порядке.
+description: PageSet свойство. Получает набор со всеми четными страницами документа в исходном порядке.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.saving/pageset/even/
 ---
 ## PageSet.Even property
 
-Получает набор со всеми четными страницами документа в их исходном порядке.
+Получает набор со всеми четными страницами документа в исходном порядке.
 
 ```csharp
 public static PageSet Even { get; }

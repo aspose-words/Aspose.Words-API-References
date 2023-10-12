@@ -3,7 +3,7 @@ title: Enum PdfZoomBehavior
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Saving.PdfZoomBehavior uppräkning. Anger typen av zoom som tillämpas på ett PDFdokument när det öppnas i en PDFvisare.
 type: docs
-weight: 5260
+weight: 5540
 url: /sv/net/aspose.words.saving/pdfzoombehavior/
 ---
 ## PdfZoomBehavior enumeration

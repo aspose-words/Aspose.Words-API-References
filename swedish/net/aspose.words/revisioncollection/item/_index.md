@@ -1,14 +1,14 @@
 ---
 title: RevisionCollection.Item
 second_title: Aspose.Words för .NET API Referens
-description: RevisionCollection fast egendom. Returnerar en revision vid det angivna indexet.
+description: RevisionCollection fast egendom. Returnerar enRevision vid angivet index.
 type: docs
 weight: 30
 url: /sv/net/aspose.words/revisioncollection/item/
 ---
 ## RevisionCollection indexer
 
-Returnerar en revision vid det angivna indexet.
+Returnerar en[`Revision`](../../revision/) vid angivet index.
 
 ```csharp
 public Revision this[int index] { get; }

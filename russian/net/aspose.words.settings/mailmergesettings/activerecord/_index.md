@@ -1,14 +1,14 @@
 ---
 title: MailMergeSettings.ActiveRecord
 second_title: Справочник по API Aspose.Words для .NET
-description: MailMergeSettings свойство. Задает индекс записи из источника данных отсчитываемый от единицы который должен отображаться в Microsoft Word. Значение по умолчанию 1. .
+description: MailMergeSettings свойство. Указывает индекс записи из источника данных отсчитываемый от единицы который будет отображаться в Microsoft Word. Значение по умолчанию  1. .
 type: docs
 weight: 20
 url: /ru/net/aspose.words.settings/mailmergesettings/activerecord/
 ---
 ## MailMergeSettings.ActiveRecord property
 
-Задает индекс записи из источника данных, отсчитываемый от единицы, который должен отображаться в Microsoft Word. Значение по умолчанию: 1. .
+Указывает индекс записи из источника данных, отсчитываемый от единицы, который будет отображаться в Microsoft Word. Значение по умолчанию — 1. .
 
 ```csharp
 public int ActiveRecord { get; set; }
@@ -37,7 +37,7 @@ Console.WriteLine($"Table:\n\t{odso.TableName}");
 Console.WriteLine($"Query:\n\t{doc.MailMergeSettings.Query}");
 
 // Мы можем сбросить эти настройки, очистив их. Как только мы это сделаем и сохраним документ,
-// Microsoft Word больше не будет выполнять слияние, когда мы используем его для загрузки документа.
+// Microsoft Word больше не будет выполнять слияние почты, когда мы используем его для загрузки документа.
 settings.Clear();
 
 doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");

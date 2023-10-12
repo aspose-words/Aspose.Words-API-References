@@ -16,18 +16,19 @@ public bool KeepImageStreamOpen { get; set; }
 
 ### Remarques
 
-La valeur par défaut est`faux` et Aspose.Words fermera le flux que vous avez fourni dans le[`ImageStream`](../imagestream/) propriété après y avoir écrit une image. Spécifiez`vrai` pour garder le flux ouvert.
+La valeur par défaut est`FAUX` et Aspose.Words fermera le flux que vous avez fourni dans le[`ImageStream`](../imagestream/) propriété après y avoir écrit une image. Spécifiez`vrai` pour garder le flux ouvert.
 
 ### Exemples
 
-Montre comment impliquer un rappel d'enregistrement d'image dans un processus de conversion HTML.
+Montre comment impliquer un rappel d’enregistrement d’image dans un processus de conversion HTML.
 
 ```csharp
+public void ImageSavingCallback()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
     // Lorsque nous enregistrons le document au format HTML, nous pouvons passer un objet SaveOptions pour désigner un rappel
-    // pour personnaliser le processus d'enregistrement de l'image.
+    // pour personnaliser le processus de sauvegarde de l'image.
     HtmlSaveOptions options = new HtmlSaveOptions();
     options.ImageSavingCallback = new ImageShapePrinter();
 
@@ -36,7 +37,7 @@ Montre comment impliquer un rappel d'enregistrement d'image dans un processus de
 
 /// <summary>
 /// Imprime les propriétés de chaque image au fur et à mesure que le processus d'enregistrement l'enregistre dans un fichier image dans le système de fichiers local
-/// lors de l'export d'un document en HTML.
+/// lors de l'export d'un document au format HTML.
 /// </summary>
 private class ImageShapePrinter : IImageSavingCallback
 {

@@ -3,7 +3,7 @@ title: ChartSeries.Format
 second_title: Aspose.Words für .NET-API-Referenz
 description: ChartSeries eigendom. Bietet Zugriff auf die Füll und Zeilenformatierung der Serie.
 type: docs
-weight: 50
+weight: 60
 url: /de/net/aspose.words.drawing.charts/chartseries/format/
 ---
 ## ChartSeries.Format property
@@ -16,7 +16,7 @@ public ChartFormat Format { get; }
 
 ### Beispiele
 
-Sauen, wie man Serienfarbe einstellt.
+Hier erfahren Sie, wie Sie die Serienfarbe festlegen.
 
 ```csharp
 Document doc = new Document();
@@ -27,7 +27,7 @@ Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
 Chart chart = shape.Chart;
 ChartSeriesCollection seriesColl = chart.Series;
 
-// Standardmäßig generierte Serie löschen.
+// Standardmäßig generierte Serien löschen.
 seriesColl.Clear();
 
 // Kategorienamen-Array erstellen.
@@ -38,7 +38,7 @@ ChartSeries series1 = seriesColl.Add("Series 1", categories, new double[] { 1, 2
 ChartSeries series2 = seriesColl.Add("Series 2", categories, new double[] { 3, 4 });
 ChartSeries series3 = seriesColl.Add("Series 3", categories, new double[] { 5, 6 });
 
-// Serienfarbe setzen.
+// Serienfarbe festlegen.
 series1.Format.Fill.ForeColor = Color.Red;
 series2.Format.Fill.ForeColor = Color.Yellow;
 series3.Format.Fill.ForeColor = Color.Blue;

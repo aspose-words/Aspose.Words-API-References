@@ -3,7 +3,7 @@ title: Document.RemoveMacros
 second_title: Aspose.Words for .NET API 参考
 description: Document 方法. 从文档中删除所有宏VBA 项目以及工具栏和命令自定义
 type: docs
-weight: 650
+weight: 690
 url: /zh/net/aspose.words/document/removemacros/
 ---
 ## Document.RemoveMacros method

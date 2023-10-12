@@ -16,7 +16,7 @@ public Encoding Encoding { get; set; }
 
 ### Esempi
 
-Mostra come impostare quale codifica utilizzare durante l'esportazione di un documento in HTML.
+Mostra come impostare la codifica da utilizzare durante l'esportazione di un documento in HTML.
 
 ```csharp
 Document doc = new Document();
@@ -25,7 +25,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello World!");
 
 // La codifica predefinita è UTF-8. Se vogliamo rappresentare il nostro documento utilizzando una codifica diversa,
-// possiamo usare un oggetto SaveOptions per impostare una codifica specifica.
+// possiamo utilizzare un oggetto SaveOptions per impostare una codifica specifica.
 HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions
 {
     Encoding = Encoding.GetEncoding("ASCII")

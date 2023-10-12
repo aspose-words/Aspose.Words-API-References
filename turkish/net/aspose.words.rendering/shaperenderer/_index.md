@@ -1,14 +1,16 @@
 ---
 title: Class ShapeRenderer
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Rendering.ShapeRenderer sınıf. Bir bireyi işlemek için yöntemler sağlarShape veyaGroupShape bir raster veya vektör görüntüsüne veya bir Graphics nesnesine.
+description: Aspose.Words.Rendering.ShapeRenderer sınıf. Bir kişiyi işlemek için yöntemler sağlarShape veyaGroupShape bir raster veya vektör görüntüsüne veya bir Graphics nesnesine.
 type: docs
-weight: 4330
+weight: 4590
 url: /tr/net/aspose.words.rendering/shaperenderer/
 ---
 ## ShapeRenderer class
 
-Bir bireyi işlemek için yöntemler sağlar[`Shape`](../../aspose.words.drawing/shape/) veya[`GroupShape`](../../aspose.words.drawing/groupshape/) bir raster veya vektör görüntüsüne veya bir Graphics nesnesine.
+Bir kişiyi işlemek için yöntemler sağlar[`Shape`](../../aspose.words.drawing/shape/) veya[`GroupShape`](../../aspose.words.drawing/groupshape/) bir raster veya vektör görüntüsüne veya bir Graphics nesnesine.
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Şekillerle Çalışmak](https://docs.aspose.com/words/net/working-with-shapes/) dokümantasyon makalesi.
 
 ```csharp
 public class ShapeRenderer : NodeRendererBase
@@ -24,9 +26,9 @@ public class ShapeRenderer : NodeRendererBase
 
 | İsim | Tanım |
 | --- | --- |
-| [BoundsInPoints](../../aspose.words.rendering/noderendererbase/boundsinpoints/) { get; } | Şeklin gerçek sınırlarını nokta olarak alır. |
-| [OpaqueBoundsInPoints](../../aspose.words.rendering/noderendererbase/opaqueboundsinpoints/) { get; } | Şeklin opak sınırlarını nokta olarak alır. |
-| [SizeInPoints](../../aspose.words.rendering/noderendererbase/sizeinpoints/) { get; } | Şeklin gerçek boyutunu nokta olarak alır. |
+| [BoundsInPoints](../../aspose.words.rendering/noderendererbase/boundsinpoints/) { get; } | Şeklin gerçek sınırlarını nokta cinsinden alır. |
+| [OpaqueBoundsInPoints](../../aspose.words.rendering/noderendererbase/opaqueboundsinpoints/) { get; } | Şeklin opak sınırlarını nokta cinsinden alır. |
+| [SizeInPoints](../../aspose.words.rendering/noderendererbase/sizeinpoints/) { get; } | Şeklin gerçek boyutunu nokta cinsinden alır. |
 
 ## yöntemler
 
@@ -38,24 +40,25 @@ public class ShapeRenderer : NodeRendererBase
 | [GetOpaqueBoundsInPixels](../../aspose.words.rendering/noderendererbase/getopaqueboundsinpixels/)(float, float, float) | Belirtilen yakınlaştırma faktörü ve çözünürlük için şeklin opak sınırlarını piksel cinsinden hesaplar. |
 | [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels/)(float, float) | Belirtilen yakınlaştırma faktörü ve çözünürlük için şeklin boyutunu piksel cinsinden hesaplar. |
 | [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels/)(float, float, float) | Belirtilen yakınlaştırma faktörü ve çözünürlük için şeklin boyutunu piksel cinsinden hesaplar. |
-| [RenderToScale](../../aspose.words.rendering/noderendererbase/rendertoscale/)(Graphics, float, float, float) | Şekli birGraphics belirli bir ölçeğe nesne. |
-| [RenderToSize](../../aspose.words.rendering/noderendererbase/rendertosize/)(Graphics, float, float, float, float) | Şekli birGraphics belirli bir boyuta nesne. |
+| [RenderToScale](../../aspose.words.rendering/noderendererbase/rendertoscale/)(Graphics, float, float, float) | Şekli bir hale getirirGraphics belirtilen ölçeğe kadar nesne. |
+| [RenderToSize](../../aspose.words.rendering/noderendererbase/rendertosize/)(Graphics, float, float, float, float) | Şekli bir hale getirirGraphics nesneyi belirtilen boyuta getirin. |
 | [Save](../../aspose.words.rendering/noderendererbase/save/)(Stream, ImageSaveOptions) | Şekli bir görüntüye dönüştürür ve bir akışa kaydeder. |
 | [Save](../../aspose.words.rendering/noderendererbase/save/)(string, ImageSaveOptions) | Şekli bir görüntüye dönüştürür ve bir dosyaya kaydeder. |
 
 ### Örnekler
 
-Bir şeklin Graphics nesnesiyle nasıl oluşturulacağını ve bir Windows Formu kullanılarak nasıl görüntüleneceğini gösterir.
+Bir şeklin Graphics nesnesiyle nasıl oluşturulacağını ve Windows Formu kullanılarak nasıl görüntüleneceğini gösterir.
 
 ```csharp
+public void RenderShapesOnForm()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     ShapeForm shapeForm = new ShapeForm(new Size(1017, 840));
 
-    // Aşağıda, bir Graphics nesnesine bir şekil oluşturmak için "ShapeRenderer" sınıfını kullanmanın iki yolu verilmiştir.
-    // 1 - Bir grafikle bir şekil oluşturun ve onu belirli bir ölçeğe dönüştürün.
+    // Aşağıda, bir Graphics nesnesine şekil oluşturmak için "ShapeRenderer" sınıfını kullanmanın iki yolu verilmiştir.
+    // 1 - Grafikle bir şekil oluşturun ve onu belirli bir ölçeğe göre işleyin.
     Chart chart = builder.InsertChart(ChartType.Pie, 500, 400).Chart;
     chart.Series.Clear();
     chart.Series.Add("Desktop Browser Market Share (Oct. 2020)",
@@ -66,7 +69,7 @@ Bir şeklin Graphics nesnesiyle nasıl oluşturulacağını ve bir Windows Formu
 
     shapeForm.AddShapeToRenderToScale(chartShape, 0, 0, 1.5f);
 
-    // 2 - Bir şekil grubu oluşturun ve belirli bir boyuta getirin.
+    // 2 - Bir şekil grubu oluşturun ve onu belirli bir boyuta dönüştürün.
     GroupShape group = new GroupShape(doc);
     group.Bounds = new RectangleF(0, 0, 100, 100);
     group.CoordSize = new Size(500, 500);
@@ -145,6 +148,7 @@ private class ShapeForm : Form
         }
     }
 
+    private readonly List<KeyValuePair<ShapeBase, float[]>> mShapesToRender;
 }
 ```
 

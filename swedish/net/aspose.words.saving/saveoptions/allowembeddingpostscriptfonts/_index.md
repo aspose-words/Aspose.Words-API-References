@@ -1,14 +1,14 @@
 ---
 title: SaveOptions.AllowEmbeddingPostScriptFonts
 second_title: Aspose.Words för .NET API Referens
-description: SaveOptions fast egendom. Hämtar eller ställer in ett booleskt värde som indikerar om man ska tillåta inbäddning av teckensnitt med PostScript outlines när inbäddning av TrueTypeteckensnitt i ett dokument på det sparas. Standardvärdet är falsk .
+description: SaveOptions fast egendom. Hämtar eller ställer in ett booleskt värde som indikerar om man ska tillåta inbäddning av teckensnitt med PostScript outlines när inbäddning av TrueTypeteckensnitt i ett dokument på det sparas. Standardvärdet ärfalsk .
 type: docs
 weight: 20
 url: /sv/net/aspose.words.saving/saveoptions/allowembeddingpostscriptfonts/
 ---
 ## SaveOptions.AllowEmbeddingPostScriptFonts property
 
-Hämtar eller ställer in ett booleskt värde som indikerar om man ska tillåta inbäddning av teckensnitt med PostScript outlines när inbäddning av TrueType-teckensnitt i ett dokument på det sparas. Standardvärdet är **falsk** .
+Hämtar eller ställer in ett booleskt värde som indikerar om man ska tillåta inbäddning av teckensnitt med PostScript outlines när inbäddning av TrueType-teckensnitt i ett dokument på det sparas. Standardvärdet är`falsk` .
 
 ```csharp
 public bool AllowEmbeddingPostScriptFonts { get; set; }

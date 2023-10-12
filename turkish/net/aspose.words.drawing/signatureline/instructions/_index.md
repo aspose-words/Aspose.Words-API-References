@@ -1,14 +1,14 @@
 ---
 title: SignatureLine.Instructions
 second_title: Aspose.Words for .NET API Referansı
-description: SignatureLine mülk. İmza satırını imzalarken görüntülenen talimatları imzalayana alır veya ayarlar. Bu özellik aşağıdaki durumlarda yoksayılır.DefaultInstructions is set. Bu özellik için varsayılan değer boş dize Empty .
+description: SignatureLine mülk. İmza satırını imzalarken görüntülenen imzalayana yönelik talimatları alır veya ayarlar. Aşağıdaki durumlarda bu özellik yoksayılırDefaultInstructionsayarlandı. Bu özelliğin varsayılan değeri boş dize Empty.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.drawing/signatureline/instructions/
 ---
 ## SignatureLine.Instructions property
 
-İmza satırını imzalarken görüntülenen talimatları imzalayana alır veya ayarlar. Bu özellik, aşağıdaki durumlarda yoksayılır.[`DefaultInstructions`](../defaultinstructions/) is set. Bu özellik için varsayılan değer **boş dize** (Empty ).
+İmza satırını imzalarken görüntülenen imzalayana yönelik talimatları alır veya ayarlar. Aşağıdaki durumlarda bu özellik yoksayılır:[`DefaultInstructions`](../defaultinstructions/)ayarlandı. Bu özelliğin varsayılan değeri: **boş dize** (Empty).
 
 ```csharp
 public string Instructions { get; set; }
@@ -16,7 +16,7 @@ public string Instructions { get; set; }
 
 ### Örnekler
 
-İmza için bir satırın nasıl oluşturulacağını ve belgeye nasıl ekleneceğini gösterir.
+İmza için nasıl satır oluşturulacağını ve bunun belgeye nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -33,10 +33,10 @@ SignatureLineOptions options = new SignatureLineOptions
     SignerTitle = "Senior Manager"
 };
 
-// Görünüşünü değiştireceğimiz bir imza satırı içerecek bir şekil ekleyin
-// yukarıda oluşturduğumuz "SignatureLineOptions" nesnesini kullanarak özelleştirelim.
+// Görünümünü belirleyeceğimiz, imza çizgisi içeren bir şekil ekleyin
+// yukarıda oluşturduğumuz "SignatureLineOptions" nesnesini kullanarak özelleştirin.
 // Koordinatları sayfanın sağ alt köşesinden başlayan bir şekil eklersek,
-// şekli görüntüye getirmek için negatif x ve y koordinatlarını sağlamamız gerekecek.
+// şekli görünür hale getirmek için negatif x ve y koordinatlarını sağlamamız gerekecek.
 Shape shape = builder.InsertSignatureLine(options, RelativeHorizontalPosition.RightMargin, -170.0, 
         RelativeVerticalPosition.BottomMargin, -60.0, WrapType.None);
 

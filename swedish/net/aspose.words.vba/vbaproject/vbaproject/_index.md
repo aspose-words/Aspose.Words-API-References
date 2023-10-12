@@ -1,14 +1,14 @@
 ---
 title: VbaProject.VbaProject
 second_title: Aspose.Words för .NET API Referens
-description: VbaProject byggare. Skapar ett tomt VbaProject.
+description: VbaProject byggare. Skapar en tomVbaProject .
 type: docs
 weight: 10
 url: /sv/net/aspose.words.vba/vbaproject/vbaproject/
 ---
 ## VbaProject constructor
 
-Skapar ett tomt VbaProject.
+Skapar en tom[`VbaProject`](../) .
 
 ```csharp
 public VbaProject()

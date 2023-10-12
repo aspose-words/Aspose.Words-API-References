@@ -1,14 +1,14 @@
 ---
 title: ChartAxis.TickMarkSpacing
 second_title: Aspose.Words for .NET API 参考
-description: ChartAxis 财产. 获取或设置绘制刻度线的时间间隔
+description: ChartAxis 财产. 获取或设置绘制刻度线的间隔
 type: docs
-weight: 250
+weight: 270
 url: /zh/net/aspose.words.drawing.charts/chartaxis/tickmarkspacing/
 ---
 ## ChartAxis.TickMarkSpacing property
 
-获取或设置绘制刻度线的时间间隔。
+获取或设置绘制刻度线的间隔。
 
 ```csharp
 public int TickMarkSpacing { get; set; }
@@ -22,7 +22,7 @@ public int TickMarkSpacing { get; set; }
 
 ### 例子
 
-显示如何插入图表并修改其轴的外观。
+演示如何插入图表并修改其轴的外观。
 
 ```csharp
 Document doc = new Document();
@@ -34,7 +34,7 @@ Chart chart = shape.Chart;
 // 清除图表的演示数据系列以从干净的图表开始。
 chart.Series.Clear();
 
-// 插入一个图表系列，其中 X 轴为类别，Y 轴为相应的数值。
+// 插入一个图表系列，其中 X 轴为类别，Y 轴为相应数值。
 chart.Series.Add("Aspose Test Series",
     new[] { "Word", "PDF", "Excel", "GoogleDocs", "Note" },
     new double[] { 640, 320, 280, 120, 150 });

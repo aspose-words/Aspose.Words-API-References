@@ -3,7 +3,7 @@ title: ChartDataLabel.Index
 second_title: Aspose.Words för .NET API Referens
 description: ChartDataLabel fast egendom. Anger indexet för det innehållande elementet. Detta index ska avgöra vilken av förälderns barnsamling detta element gäller. Standardvärdet är 0.
 type: docs
-weight: 10
+weight: 30
 url: /sv/net/aspose.words.drawing.charts/chartdatalabel/index/
 ---
 ## ChartDataLabel.Index property
@@ -19,6 +19,7 @@ public int Index { get; }
 Visar hur man applicerar etiketter på datapunkter i ett linjediagram.
 
 ```csharp
+public void DataLabels()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);

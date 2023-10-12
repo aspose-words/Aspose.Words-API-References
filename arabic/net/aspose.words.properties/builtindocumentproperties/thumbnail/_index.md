@@ -1,14 +1,14 @@
 ---
 title: BuiltInDocumentProperties.Thumbnail
 second_title: Aspose.Words لمراجع .NET API
-description: BuiltInDocumentProperties ملكية. الحصول على أو تحديد مصغر المستند.
+description: BuiltInDocumentProperties ملكية. الحصول على الصورة المصغرة للمستند أو تعيينها.
 type: docs
 weight: 280
 url: /ar/net/aspose.words.properties/builtindocumentproperties/thumbnail/
 ---
 ## BuiltInDocumentProperties.Thumbnail property
 
-الحصول على أو تحديد مصغر المستند.
+الحصول على الصورة المصغرة للمستند أو تعيينها.
 
 ```csharp
 public byte[] Thumbnail { get; set; }
@@ -16,22 +16,22 @@ public byte[] Thumbnail { get; set; }
 
 ### ملاحظات
 
-في الوقت الحالي ، يتم استخدام هذه الخاصية فقط عندما يتم تصدير مستند إلى ePub ، لا تتم قراءته وكتابته إلى تنسيقات مستندات أخرى.
+في الوقت الحالي، يتم استخدام هذه الخاصية فقط عندما يتم تصدير مستند إلى ePub، ولا تتم قراءته منه أو كتابته إلى تنسيقات المستندات الأخرى.
 
-يمكن تعيين صورة بتنسيق عشوائي على هذه الخاصية ، ولكن يتم فحص التنسيق أثناء التصدير.InvalidOperationException يتم طرحها إذا كانت الصورة غير صالحة أو كان تنسيقها غير مدعوم لتنسيق معين من المستند.
+يمكن تعيين صورة ذات تنسيق عشوائي على هذه الخاصية، ولكن يتم التحقق من التنسيق أثناء التصدير. InvalidOperationException يتم طرحها إذا كانت الصورة غير صالحة أو كان تنسيقها غير مدعوم لتنسيق معين للمستند.
 
-يمكن استخدام صور gif و jpeg و png فقط لنشر ePub.
+يمكن استخدام صور gif وjpeg وpng فقط لنشر ePub.
 
 ### أمثلة
 
-يوضح كيفية إضافة صورة مصغرة إلى مستند نقوم بحفظه على هيئة Epub.
+يوضح كيفية إضافة صورة مصغرة إلى مستند نحفظه كملف Epub.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// إذا قمنا بحفظ مستند ، تحتوي خاصية "Thumbnail" الخاصة به على بيانات الصورة التي أضفناها ، مثل Epub ،
+// إذا قمنا بحفظ مستند، تحتوي خاصية "الصورة المصغرة" الخاصة به على بيانات الصورة التي أضفناها، كملف Epub،
 // القارئ الذي يفتح هذا المستند قد يعرض الصورة قبل الصفحة الأولى.
 BuiltInDocumentProperties properties = doc.BuiltInDocumentProperties;
 

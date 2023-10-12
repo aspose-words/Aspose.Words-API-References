@@ -3,7 +3,7 @@ title: Enum BreakType
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.BreakType énumération. Spécifie le type de saut à lintérieur dun document.
 type: docs
-weight: 100
+weight: 110
 url: /fr/net/aspose.words/breaktype/
 ---
 ## BreakType enumeration
@@ -21,8 +21,8 @@ public enum BreakType
 | ParagraphBreak | `0` | Pause entre les paragraphes. |
 | PageBreak | `1` | Saut de page explicite. |
 | ColumnBreak | `2` | Saut de colonne explicite. |
-| SectionBreakContinuous | `3` | Spécifie le début de la nouvelle section sur la même page que la section précédente. |
-| SectionBreakNewColumn | `4` | Spécifie le début de la nouvelle section dans la nouvelle colonne. |
+| SectionBreakContinuous | `3` | Spécifie le début d'une nouvelle section sur la même page que la section précédente. |
+| SectionBreakNewColumn | `4` | Spécifie le début d'une nouvelle section dans la nouvelle colonne. |
 | SectionBreakNewPage | `5` | Spécifie le début d'une nouvelle section sur une nouvelle page. |
 | SectionBreakEvenPage | `6` | Spécifie le début d'une nouvelle section sur une nouvelle page paire. |
 | SectionBreakOddPage | `7` | Spécifie le début d'une nouvelle section sur une page impaire. |
@@ -36,11 +36,11 @@ Montre comment créer des en-têtes et des pieds de page dans un document à l'a
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Spécifiez que nous voulons des en-têtes et des pieds de page différents pour les premières pages, paires et impaires.
+// Spécifie que nous voulons des en-têtes et pieds de page différents pour les premières pages, paires et impaires.
 builder.PageSetup.DifferentFirstPageHeaderFooter = true;
 builder.PageSetup.OddAndEvenPagesHeaderFooter = true;
 
-// Crée les en-têtes, puis ajoute trois pages au document pour afficher chaque type d'en-tête.
+// Créez les en-têtes, puis ajoutez trois pages au document pour afficher chaque type d'en-tête.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderFirst);
 builder.Write("Header for the first page");
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderEven);
@@ -58,19 +58,19 @@ builder.Writeln("Page3");
 doc.Save(ArtifactsDir + "DocumentBuilder.HeadersAndFooters.docx");
 ```
 
-Montre comment appliquer et rétablir les paramètres de mise en page aux sections d'un document.
+Montre comment appliquer et rétablir les paramètres de mise en page aux sections d’un document.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Modifie les propriétés de mise en page pour la section actuelle du générateur et ajoute du texte.
+// Modifie les propriétés de mise en page de la section actuelle du générateur et ajoute du texte.
 builder.PageSetup.Orientation = Orientation.Landscape;
 builder.PageSetup.VerticalAlignment = PageVerticalAlignment.Center;
 builder.Writeln("This is the first section, which landscape oriented with vertically centered text.");
 
-// Si nous commençons une nouvelle section en utilisant un générateur de document,
-// il héritera des propriétés de configuration de page actuelles du générateur.
+// Si on démarre une nouvelle section en utilisant un générateur de documents,
+// il héritera des propriétés de mise en page actuelles du constructeur.
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 
 Assert.AreEqual(Orientation.Landscape, doc.Sections[1].PageSetup.Orientation);
@@ -94,14 +94,14 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Insère une table des matières pour la première page du document.
-// Configurer le tableau pour récupérer les paragraphes avec des titres de niveaux 1 à 3.
-// De plus, définissez ses entrées comme étant des hyperliens qui nous mèneront
-// à l'emplacement de l'en-tête lors d'un clic gauche dans Microsoft Word.
+// Configurez le tableau pour récupérer les paragraphes avec des titres de niveaux 1 à 3.
+// Définissez également ses entrées comme des hyperliens qui nous amèneront
+// à l'emplacement du titre lors d'un clic gauche dans Microsoft Word.
 builder.InsertTableOfContents("\\o \"1-3\" \\h \\z \\u");
 builder.InsertBreak(BreakType.PageBreak);
 
-// Remplir la table des matières en ajoutant des paragraphes avec des styles de titre.
-// Chacun de ces titres avec un niveau compris entre 1 et 3 créera une entrée dans la table.
+// Remplit la table des matières en ajoutant des paragraphes avec des styles de titre.
+// Chacun de ces en-têtes avec un niveau compris entre 1 et 3 créera une entrée dans le tableau.
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 builder.Writeln("Heading 1");
 

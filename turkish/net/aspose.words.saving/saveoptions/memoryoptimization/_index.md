@@ -1,14 +1,14 @@
 ---
 title: SaveOptions.MemoryOptimization
 second_title: Aspose.Words for .NET API Referansı
-description: SaveOptions mülk. Belgeyi kaydetmeden önce bellek optimizasyonunun yapılıp yapılmayacağını belirleyen değeri alır veya ayarlar. Bu özellik için varsayılan değer yanlış .
+description: SaveOptions mülk. Belgeyi kaydetmeden önce bellek optimizasyonunun gerçekleştirilip gerçekleştirilmeyeceğini belirleyen değeri alır veya ayarlar. Bu özellik için varsayılan değerYANLIŞ .
 type: docs
-weight: 110
+weight: 100
 url: /tr/net/aspose.words.saving/saveoptions/memoryoptimization/
 ---
 ## SaveOptions.MemoryOptimization property
 
-Belgeyi kaydetmeden önce bellek optimizasyonunun yapılıp yapılmayacağını belirleyen değeri alır veya ayarlar. Bu özellik için varsayılan değer **yanlış** .
+Belgeyi kaydetmeden önce bellek optimizasyonunun gerçekleştirilip gerçekleştirilmeyeceğini belirleyen değeri alır veya ayarlar. Bu özellik için varsayılan değer:`YANLIŞ` .
 
 ```csharp
 public bool MemoryOptimization { get; set; }
@@ -16,22 +16,22 @@ public bool MemoryOptimization { get; set; }
 
 ### Notlar
 
-Bu seçeneği true olarak ayarlamak bellek tüketimini önemli ölçüde azaltırken, büyük belgeleri daha yavaş tasarruf süresi pahasına kaydeder.
+Bu seçeneği şu şekilde ayarlıyoruz:`doğru` büyük belgeleri kaydederken, daha yavaş kaydetme süresi pahasına bellek tüketimini önemli ölçüde azaltabilir.
 
 ### Örnekler
 
-Büyük belgeleri PDF'ye dönüştürürken bellek tüketimini optimize etme seçeneği gösterir.
+Büyük belgeleri PDF'ye dönüştürürken bellek tüketimini optimize etme seçeneğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Belgenin "Kaydet" yöntemine aktarabileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
-// bu yöntemin belgeyi .PDF'ye dönüştürme şeklini değiştirmek için.
+// Belgenin "Save" yöntemine aktarabileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
+// bu yöntemin belgeyi .PDF'ye dönüştürme biçimini değiştirmek için.
 SaveOptions saveOptions = SaveOptions.CreateSaveOptions(SaveFormat.Pdf);
 
-// Büyük belgelerin kaydetme işlemlerinin bellek kapladığı alanı azaltmak için "MemoryOptimization" özelliğini "true" olarak ayarlayın
-// operasyon süresini artırma pahasına.
-// Belgeyi normal olarak PDF olarak kaydetmek için "MemoryOptimization" özelliğini "false" olarak ayarlayın.
+// Büyük belgelerin kaydetme işlemlerinin bellek alanını azaltmak için "MemoryOptimization" özelliğini "true" olarak ayarlayın
+// operasyonun süresini arttırma pahasına.
+// Belgeyi normal şekilde PDF olarak kaydetmek için "MemoryOptimization" özelliğini "false" olarak ayarlayın.
 saveOptions.MemoryOptimization = memoryOptimization;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.MemoryOptimization.pdf", saveOptions);

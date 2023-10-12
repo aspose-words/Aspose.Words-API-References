@@ -1,14 +1,16 @@
 ---
 title: Class OdsoRecipientDataCollection
 second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Settings.OdsoRecipientDataCollection classe. Una raccolta tipizzata diOdsoRecipientData
+description: Aspose.Words.Settings.OdsoRecipientDataCollection classe. Una raccolta digitata diOdsoRecipientData
 type: docs
-weight: 5640
+weight: 5940
 url: /it/net/aspose.words.settings/odsorecipientdatacollection/
 ---
 ## OdsoRecipientDataCollection class
 
-Una raccolta tipizzata di[`OdsoRecipientData`](../odsorecipientdata/)
+Una raccolta digitata di[`OdsoRecipientData`](../odsorecipientdata/)
+
+Per saperne di più, visita il[Stampa unione e reporting](https://docs.aspose.com/words/net/mail-merge-and-reporting/) articolo di documentazione.
 
 ```csharp
 public class OdsoRecipientDataCollection : IEnumerable<OdsoRecipientData>
@@ -34,11 +36,11 @@ public class OdsoRecipientDataCollection : IEnumerable<OdsoRecipientData>
 | [Add](../../aspose.words.settings/odsorecipientdatacollection/add/)(OdsoRecipientData) | Aggiunge un oggetto alla fine di questa raccolta. |
 | [Clear](../../aspose.words.settings/odsorecipientdatacollection/clear/)() | Rimuove tutti gli elementi da questa raccolta. |
 | [GetEnumerator](../../aspose.words.settings/odsorecipientdatacollection/getenumerator/)() | Restituisce un oggetto enumeratore che può essere utilizzato per scorrere tutti gli elementi della raccolta. |
-| [RemoveAt](../../aspose.words.settings/odsorecipientdatacollection/removeat/)(int) | Rimuove l'elemento in corrispondenza dell'indice specificato. |
+| [RemoveAt](../../aspose.words.settings/odsorecipientdatacollection/removeat/)(int) | Rimuove l'elemento all'indice specificato. |
 
 ### Esempi
 
-Mostra come accedere alla raccolta di dati che designa quali record di origine dati unire verranno esclusi da un'unione di posta.
+Mostra come accedere alla raccolta di dati che indica quali record dell'origine dati di unione verranno esclusi da una stampa unione.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
@@ -63,7 +65,7 @@ using (IEnumerator<OdsoRecipientData> enumerator = dataCollection.GetEnumerator(
 // Possiamo clonare gli elementi in questa raccolta.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Possiamo anche rimuovere elementi singolarmente o cancellare l'intera raccolta in una volta.
+// Possiamo anche rimuovere elementi individualmente o cancellare l'intera raccolta in una volta.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(69, dataCollection.Count);

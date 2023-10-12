@@ -1,14 +1,14 @@
 ---
 title: BuildingBlock.Type
 second_title: Aspose.Words for .NET API Referansı
-description: BuildingBlock mülk. Yapı taşı türünü belirtir.
+description: BuildingBlock mülk. Yapı bloğu türünü belirtir.
 type: docs
 weight: 120
 url: /tr/net/aspose.words.buildingblocks/buildingblock/type/
 ---
 ## BuildingBlock.Type property
 
-Yapı taşı türünü belirtir.
+Yapı bloğu türünü belirtir.
 
 ```csharp
 public BuildingBlockType Type { get; set; }
@@ -16,18 +16,18 @@ public BuildingBlockType Type { get; set; }
 
 ### Notlar
 
-Yapı taşı türü, Microsoft Word'deki yapı taşının görünürlüğünü ve davranışını etkileyebilir.
+Yapı taşı türü, Microsoft Word'deki yapı bloğunun görünürlüğünü ve davranışını etkileyebilir.
 
-karşılık gelir **docPartPr.types** OOXML'deki eleman.
+karşılık gelir **docPartPr.types** OOXML'deki öğe.
 
 ### Örnekler
 
-Bir belgeye özel bir yapı taşının nasıl ekleneceğini gösterir.
+Bir belgeye özel yapı taşının nasıl ekleneceğini gösterir.
 
 ```csharp
 public void CreateAndInsert()
 {
-    // Bir belgenin sözlük belgesi, yapı taşlarını saklar.
+    // Bir belgenin sözlük belgesi yapı taşlarını saklar.
     Document doc = new Document();
     GlossaryDocument glossaryDoc = new GlossaryDocument();
     doc.GlossaryDocument = glossaryDoc;
@@ -46,34 +46,33 @@ public void CreateAndInsert()
     block.Guid = Guid.NewGuid();
 
     // Aşağıdaki özellikler yapı taşlarını sınıflandırır
-    // menüde Microsoft Word'de "Ekle" -> "Hızlı Parçalar" -> "Yapı Taşları Organizatör".
+    // Microsoft Word'de "Ekle" yoluyla erişebileceğimiz menüde -> "Hızlı Parçalar" -> "Yapı Taşları Organizatörü".
     Assert.AreEqual("(Empty Category)", block.Category);
     Assert.AreEqual(BuildingBlockType.None, block.Type);
     Assert.AreEqual(BuildingBlockGallery.All, block.Gallery);
     Assert.AreEqual(BuildingBlockBehavior.Content, block.Behavior);
 
-    // Bu yapı taşını belgemize eklemeden önce, ona bazı içerikler vermemiz gerekecek,
+    // Bu yapı taşını belgemize eklemeden önce ona bazı içerikler vermemiz gerekecek,
     // bunu bir belge ziyaretçisi kullanarak yapacağız. Bu ziyaretçi ayrıca bir kategori, galeri ve davranış belirleyecektir.
     BuildingBlockVisitor visitor = new BuildingBlockVisitor(glossaryDoc);
     block.Accept(visitor);
 
-    // Az önce oluşturduğumuz bloğa sözlük belgesinden erişebiliriz.
+    // Az önce oluşturduğumuz bloğa sözlük belgesinden ulaşabiliyoruz.
     BuildingBlock customBlock = glossaryDoc.GetBuildingBlock(BuildingBlockGallery.QuickParts,
         "My custom building blocks", "Custom Block");
 
     // Bloğun kendisi metni içeren bir bölümdür.
     Assert.AreEqual($"Text inside {customBlock.Name}\f", customBlock.FirstSection.Body.FirstParagraph.GetText());
     Assert.AreEqual(customBlock.FirstSection, customBlock.LastSection);
-
     // Artık belgeye yeni bir bölüm olarak ekleyebiliriz.
     doc.AppendChild(doc.ImportNode(customBlock.FirstSection, true));
 
-    // Microsoft Word'ün Building Blocks Organizer'ında da bulabilir ve manuel olarak yerleştirebiliriz.
+    // Bunu Microsoft Word'ün Yapı Taşları Düzenleyicisinde de bulabilir ve manuel olarak yerleştirebiliriz.
     doc.Save(ArtifactsDir + "BuildingBlocks.CreateAndInsert.dotx");
 }
 
 /// <summary>
-/// Belgeye hızlı bir parça olarak eklenecek ziyaret edilmiş bir yapı taşı kurar ve içeriğine metin ekler.
+/// Belgeye hızlı bir parça olarak eklenecek ziyaret edilen bir yapı taşını ayarlar ve içeriğine metin ekler.
 /// </summary>
 public class BuildingBlockVisitor : DocumentVisitor
 {
@@ -85,7 +84,7 @@ public class BuildingBlockVisitor : DocumentVisitor
 
     public override VisitorAction VisitBuildingBlockStart(BuildingBlock block)
     {
-        // Yapı taşını hızlı bir parça olarak yapılandırın ve Yapı Taşları Düzenleyicisi tarafından kullanılan özellikleri ekleyin.
+        // Yapı taşını hızlı parça olarak yapılandırın ve Yapı Taşları Düzenleyicisi tarafından kullanılan özellikleri ekleyin.
         block.Behavior = BuildingBlockBehavior.Paragraph;
         block.Category = "My custom building blocks";
         block.Description =
@@ -93,7 +92,7 @@ public class BuildingBlockVisitor : DocumentVisitor
         block.Gallery = BuildingBlockGallery.QuickParts;
 
         // Metin içeren bir bölüm ekleyin.
-        // Bloğun belgeye eklenmesi, bu bölümü konumdaki alt düğümleriyle birlikte ekler.
+        // Bloğun belgeye eklenmesi, bu bölümü alt düğümleriyle birlikte konuma ekleyecektir.
         Section section = new Section(mGlossaryDoc);
         block.AppendChild(section);
         block.FirstSection.EnsureMinimum();

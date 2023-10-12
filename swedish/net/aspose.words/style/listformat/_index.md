@@ -3,7 +3,7 @@ title: Style.ListFormat
 second_title: Aspose.Words för .NET API Referens
 description: Style fast egendom. Ger tillgång till listformateringsegenskaperna för en styckestil.
 type: docs
-weight: 100
+weight: 110
 url: /sv/net/aspose.words/style/listformat/
 ---
 ## Style.ListFormat property
@@ -16,7 +16,7 @@ public ListFormat ListFormat { get; }
 
 ### Anmärkningar
 
-Den här egenskapen är endast giltig för styckestilar. För andra stiltyper returnerar den här egenskapen null.
+Den här egenskapen är endast giltig för styckestilar. För andra stiltyper returnerar den här egenskapen`null`.
 
 ### Exempel
 

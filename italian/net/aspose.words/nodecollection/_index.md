@@ -3,12 +3,14 @@ title: Class NodeCollection
 second_title: Aspose.Words per .NET API Reference
 description: Aspose.Words.NodeCollection classe. Rappresenta una raccolta di nodi di un tipo specifico.
 type: docs
-weight: 3960
+weight: 4200
 url: /it/net/aspose.words/nodecollection/
 ---
 ## NodeCollection class
 
 Rappresenta una raccolta di nodi di un tipo specifico.
+
+Per saperne di più, visita il[Modello oggetto documento Aspose.Words (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) articolo di documentazione.
 
 ```csharp
 public class NodeCollection : IEnumerable<Node>
@@ -19,7 +21,7 @@ public class NodeCollection : IEnumerable<Node>
 | Nome | Descrizione |
 | --- | --- |
 | [Count](../../aspose.words/nodecollection/count/) { get; } | Ottiene il numero di nodi nella raccolta. |
-| [Item](../../aspose.words/nodecollection/item/) { get; } | Recupera un nodo in corrispondenza dell'indice specificato. |
+| [Item](../../aspose.words/nodecollection/item/) { get; } | Recupera un nodo all'indice specificato. |
 
 ## Metodi
 
@@ -32,24 +34,24 @@ public class NodeCollection : IEnumerable<Node>
 | [IndexOf](../../aspose.words/nodecollection/indexof/)(Node) | Restituisce l'indice in base zero del nodo specificato. |
 | [Insert](../../aspose.words/nodecollection/insert/)(int, Node) | Inserisce un nodo nella raccolta in corrispondenza dell'indice specificato. |
 | [Remove](../../aspose.words/nodecollection/remove/)(Node) | Rimuove il nodo dalla raccolta e dal documento. |
-| [RemoveAt](../../aspose.words/nodecollection/removeat/)(int) | Rimuove il nodo in corrispondenza dell'indice specificato dalla raccolta e dal documento. |
+| [RemoveAt](../../aspose.words/nodecollection/removeat/)(int) | Rimuove il nodo all'indice specificato dalla raccolta e dal documento. |
 | [ToArray](../../aspose.words/nodecollection/toarray/)() | Copia tutti i nodi dalla raccolta in un nuovo array di nodi. |
 
 ### Osservazioni
 
-**NodeCollection** non possiede i nodi che contiene, piuttosto, è solo una selezione di nodes del tipo specificato, ma i nodi sono memorizzati nell'albero sotto i rispettivi nodi principali.
+`NodeCollection` non possiede i nodi che contiene, piuttosto, è solo una selezione di nodes del tipo specificato, ma i nodi sono memorizzati nell'albero sotto i rispettivi nodi principali.
 
-**NodeCollection**supporta l'accesso indicizzato, l'iterazione e fornisce metodi di aggiunta e rimozione.
+`NodeCollection`supporta l'accesso indicizzato, l'iterazione e fornisce metodi di aggiunta e rimozione.
 
-Il **NodeCollection** raccolta è "live", cioè le modifiche ai figli del nodo oggetto da cui è stato creato vengono immediatamente riflesse nei nodi restituiti dal **NodeCollection** proprietà e metodi.
+IL`NodeCollection` la raccolta è "live", ovvero le modifiche ai figli del nodo object da cui è stata creata si riflettono immediatamente nei nodi restituiti dal`NodeCollection` Proprietà e metodi .
 
-**NodeCollection** viene restituito da[`GetChildNodes`](../compositenode/getchildnodes/) e funge anche da classe base per raccolte di nodi tipizzati come[`SectionCollection`](../sectioncollection/) , [`ParagraphCollection`](../paragraphcollection/) eccetera.
+`NodeCollection` viene restituito da[`GetChildNodes`](../compositenode/getchildnodes/) e funge anche da classe base per raccolte di nodi tipizzati come[`SectionCollection`](../sectioncollection/) , [`ParagraphCollection`](../paragraphcollection/) eccetera.
 
-**NodeCollection** può essere "flat" e contenere solo figli immediati del nodo da cui è stato creato , oppure può essere "deep" e contenere tutti i figli discendenti.
+`NodeCollection` può essere "piatto" e contenere solo i figli immediati del nodo da cui è stato creato , oppure può essere "profondo" e contenere tutti i figli discendenti.
 
 ### Esempi
 
-Mostra come sostituire tutte le forme casella di testo con forme immagine.
+Mostra come sostituire tutte le forme delle caselle di testo con forme di immagine.
 
 ```csharp
 Document doc = new Document(MyDir + "Textboxes in drawing canvas.docx");

@@ -1,14 +1,14 @@
 ---
 title: FieldDisplayBarcode.AddStartStopChar
 second_title: Aspose.Words für .NET-API-Referenz
-description: FieldDisplayBarcode eigendom. Ruft ab oder legt fest ob Start/Stoppzeichen für Barcodetypen NW7 und CODE39 hinzugefügt werden sollen.
+description: FieldDisplayBarcode eigendom. Ruft ab oder legt fest ob Start/Stoppzeichen für die Barcodetypen NW7 und CODE39 hinzugefügt werden sollen.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/fielddisplaybarcode/addstartstopchar/
 ---
 ## FieldDisplayBarcode.AddStartStopChar property
 
-Ruft ab oder legt fest, ob Start-/Stoppzeichen für Barcodetypen NW7 und CODE39 hinzugefügt werden sollen.
+Ruft ab oder legt fest, ob Start-/Stoppzeichen für die Barcodetypen NW7 und CODE39 hinzugefügt werden sollen.
 
 ```csharp
 public bool AddStartStopChar { get; set; }
@@ -24,7 +24,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 FieldDisplayBarcode field = (FieldDisplayBarcode)builder.InsertField(FieldType.FieldDisplayBarcode, true);
 
-// Unten sind vier Arten von Strichcodes, die auf verschiedene Arten dekoriert sind und die das DISPLAYBARCODE-Feld anzeigen kann.
+// Unten sind vier Arten von Barcodes aufgeführt, die auf unterschiedliche Weise dekoriert sind und die im Feld DISPLAYBARCODE angezeigt werden können.
 // 1 - QR-Code mit benutzerdefinierten Farben:
 field.BarcodeType = "QR";
 field.BarcodeValue = "ABC123";
@@ -38,7 +38,7 @@ field.SymbolRotation = "0";
 Assert.AreEqual(" DISPLAYBARCODE  ABC123 QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 250 \\h 1000 \\r 0", field.GetFieldCode());
 builder.Writeln();
 
-// 2 - EAN13-Barcode, wobei die Ziffern unter den Balken angezeigt werden:
+// 2 – EAN13-Barcode, mit den unter den Balken angezeigten Ziffern:
 field = (FieldDisplayBarcode)builder.InsertField(FieldType.FieldDisplayBarcode, true);
 field.BarcodeType = "EAN13";
 field.BarcodeValue = "501234567890";
@@ -49,7 +49,7 @@ field.FixCheckDigit = true;
 Assert.AreEqual(" DISPLAYBARCODE  501234567890 EAN13 \\t \\p CASE \\x", field.GetFieldCode());
 builder.Writeln();
 
-// 3 - CODE39-Strichcode:
+// 3 - CODE39-Barcode:
 field = (FieldDisplayBarcode)builder.InsertField(FieldType.FieldDisplayBarcode, true);
 field.BarcodeType = "CODE39";
 field.BarcodeValue = "12345ABCDE";
@@ -58,7 +58,7 @@ field.AddStartStopChar = true;
 Assert.AreEqual(" DISPLAYBARCODE  12345ABCDE CODE39 \\d", field.GetFieldCode());
 builder.Writeln();
 
-// 4 - ITF4-Barcode mit einem bestimmten Fallcode:
+// 4 – ITF4-Barcode, mit einem angegebenen Fallcode:
 field = (FieldDisplayBarcode)builder.InsertField(FieldType.FieldDisplayBarcode, true);
 field.BarcodeType = "ITF14";
 field.BarcodeValue = "09312345678907";

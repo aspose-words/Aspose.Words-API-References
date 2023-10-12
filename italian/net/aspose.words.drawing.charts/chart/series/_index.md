@@ -1,14 +1,14 @@
 ---
 title: Chart.Series
 second_title: Aspose.Words per .NET API Reference
-description: Chart proprietà. Fornisce laccesso alla raccolta di serie.
+description: Chart proprietà. Fornisce laccesso alla raccolta delle serie.
 type: docs
-weight: 50
+weight: 60
 url: /it/net/aspose.words.drawing.charts/chart/series/
 ---
 ## Chart.Series property
 
-Fornisce l'accesso alla raccolta di serie.
+Fornisce l'accesso alla raccolta delle serie.
 
 ```csharp
 public ChartSeriesCollection Series { get; }
@@ -19,18 +19,19 @@ public ChartSeriesCollection Series { get; }
 Mostra come creare un tipo appropriato di serie di grafici per un tipo di grafico.
 
 ```csharp
+public void ChartSeriesCollection()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     // Esistono diversi modi per popolare la raccolta di serie di un grafico.
-    // Schemi di serie differenti sono destinati a tipi di grafici differenti.
-    // 1 - Grafico a colonne con colonne raggruppate e raggruppate lungo l'asse X per categoria:
+    // Schemi di serie diversi sono destinati a tipi di grafici diversi.
+    // 1 - Istogramma con colonne raggruppate e fasciate lungo l'asse X per categoria:
     Chart chart = AppendChart(builder, ChartType.Column, 500, 300);
 
     string[] categories = { "Category 1", "Category 2", "Category 3" };
 
-    // Inserisce due serie di valori decimali contenenti un valore per ciascuna rispettiva categoria.
+    // Inserisci due serie di valori decimali contenenti un valore per ciascuna rispettiva categoria.
     // Questo istogramma avrà tre gruppi, ciascuno con due colonne.
     chart.Series.Add("Series 1", categories, new [] { 76.6, 82.1, 91.6 });
     chart.Series.Add("Series 2", categories, new [] { 64.2, 79.5, 94.0 });
@@ -49,8 +50,8 @@ Mostra come creare un tipo appropriato di serie di grafici per un tipo di grafic
         new DateTime(2020, 9, 7)
     };
 
-    // Inserisce una serie con un valore decimale per ogni rispettiva data.
-    // Le date saranno distribuite lungo un asse X lineare,
+    // Inserisce una serie con un valore decimale per ciascuna data rispettiva.
+    // Le date verranno distribuite lungo un asse X lineare,
     // e i valori aggiunti a questa serie creeranno punti dati.
     chart.Series.Add("Series 1", dates, new [] { 15.8, 21.5, 22.9, 28.7, 33.1 });
 
@@ -61,7 +62,7 @@ Mostra come creare un tipo appropriato di serie di grafici per un tipo di grafic
     chart = AppendChart(builder, ChartType.Scatter, 500, 300);
 
     // Ogni serie avrà bisogno di due array decimali di uguale lunghezza.
-    // Il primo array contiene i valori X e il secondo i valori Y corrispondenti
+    // Il primo array contiene valori X e il secondo contiene valori Y corrispondenti
     // di punti dati sul grafico del grafico.
     chart.Series.Add("Series 1", 
         new[] { 3.1, 3.5, 6.3, 4.1, 2.2, 8.3, 1.2, 3.6 }, 
@@ -88,7 +89,7 @@ Mostra come creare un tipo appropriato di serie di grafici per un tipo di grafic
 }
 
 /// <summary>
-/// Inserisci un grafico utilizzando un generatore di documenti di un ChartType, larghezza e altezza specificati e rimuovi i suoi dati demo.
+/// Inserisci un grafico utilizzando un generatore di documenti con un ChartType, una larghezza e un'altezza specificati e rimuovi i relativi dati demo.
 /// </summary>
 private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, double width, double height)
 {

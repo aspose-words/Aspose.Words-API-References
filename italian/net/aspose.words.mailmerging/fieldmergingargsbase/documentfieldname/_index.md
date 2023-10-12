@@ -16,15 +16,16 @@ public string DocumentFieldName { get; }
 
 ### Osservazioni
 
-Se si dispone di una mappatura da un nome di campo del documento a un nome di campo di origine dati diverso, , questo è il nome del campo originale come specificato nel documento.
+Se disponi di una mappatura da un nome di campo di un documento a un nome di campo di origine dati diverso, , questo è il nome di campo originale come specificato nel documento.
 
-Se hai specificato un prefisso per il nome del campo, ad esempio "Image:MyFieldName" nel documento, allora **NomeCampo Documento** restituisce il nome del campo senza il prefisso, ovvero "MyFieldName".
+Se hai specificato un prefisso per il nome del campo, ad esempio "Immagine:MyFieldName" nel documento, allora`DocumentFieldName` restituisce il nome del campo senza prefisso, ovvero "MyFieldName".
 
 ### Esempi
 
-Mostra come eseguire una stampa unione con una richiamata personalizzata che gestisce i dati di unione sotto forma di documenti HTML.
+Mostra come eseguire una stampa unione con un callback personalizzato che gestisce i dati di unione sotto forma di documenti HTML.
 
 ```csharp
+public void MergeHtml()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -72,7 +73,7 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
             builder.InsertHtml((string)args.FieldValue);
 
             // Poiché abbiamo già inserito manualmente il contenuto unito,
-             // non avremo bisogno di rispondere a questo evento restituendo il contenuto tramite la proprietà "Testo".
+             // non avremo bisogno di rispondere a questo evento restituendo il contenuto tramite la proprietà "Text".
             args.Text = string.Empty;
         }
     }

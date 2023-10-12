@@ -36,7 +36,7 @@ public void InsertTextPaths()
     Shape shape = AppendWordArt(doc, "Hello World! This text is bold, and italic.", 
         "Arial", 480, 24, Color.White, Color.Black, ShapeType.TextPlainText);
 
-    // Apply the "Bold' and "Italic" formatting settings to the text using the respective properties.
+    // Apply the "Bold" and "Italic" formatting settings to the text using the respective properties.
     shape.TextPath.Bold = true;
     shape.TextPath.Italic = true;
 

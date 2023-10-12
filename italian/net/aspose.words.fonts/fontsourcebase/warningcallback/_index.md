@@ -1,14 +1,14 @@
 ---
 title: FontSourceBase.WarningCallback
 second_title: Aspose.Words per .NET API Reference
-description: FontSourceBase proprietà. Chiamato durante lelaborazione dellorigine del carattere quando viene rilevato un problema che potrebbe causare una perdita di fedeltà di formattazione.
+description: FontSourceBase proprietà. Chiamato durante lelaborazione dellorigine del carattere quando viene rilevato un problema che potrebbe comportare una perdita di fedeltà della formattazione.
 type: docs
 weight: 30
 url: /it/net/aspose.words.fonts/fontsourcebase/warningcallback/
 ---
 ## FontSourceBase.WarningCallback property
 
-Chiamato durante l'elaborazione dell'origine del carattere quando viene rilevato un problema che potrebbe causare una perdita di fedeltà di formattazione.
+Chiamato durante l'elaborazione dell'origine del carattere quando viene rilevato un problema che potrebbe comportare una perdita di fedeltà della formattazione.
 
 ```csharp
 public IWarningCallback WarningCallback { get; set; }
@@ -16,10 +16,9 @@ public IWarningCallback WarningCallback { get; set; }
 
 ### Esempi
 
-Mostra come chiamare la richiamata di avviso quando funzionano le origini dei caratteri.
+Mostra come richiamare la richiamata di avviso quando funzionano le origini dei caratteri.
 
 ```csharp
-[Test]
 public void FontSourceWarning()
 {
     FontSettings settings = new FontSettings();
@@ -29,7 +28,7 @@ public void FontSourceWarning()
     FontSourceWarningCollector callback = new FontSourceWarningCollector();
     source.WarningCallback = callback;
 
-    // Ottieni l'elenco dei caratteri per richiamare la richiamata di avviso.
+    // Ottiene l'elenco dei caratteri per richiamare la richiamata di avviso.
     IList<PhysicalFontInfo> fontInfos = source.GetAvailableFonts();
 
     Assert.True(callback.FontSubstitutionWarnings[0].Description
@@ -39,7 +38,7 @@ public void FontSourceWarning()
 private class FontSourceWarningCollector : IWarningCallback
 {
     /// <summary>
-    /// Chiamato ogni volta che si verifica un avviso durante l'elaborazione della fonte del carattere.
+    /// Chiamato ogni volta che si verifica un avviso durante l'elaborazione dell'origine del carattere.
     /// </summary>
     public void Warning(WarningInfo info)
     {

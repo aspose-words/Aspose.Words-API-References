@@ -16,16 +16,16 @@ public bool AllowBreakAcrossPages { get; set; }
 
 ### Esempi
 
-Mostra come disabilitare l'interruzione delle righe tra le pagine per ogni riga di una tabella.
+Mostra come disabilitare la suddivisione delle righe tra le pagine per ogni riga di una tabella.
 
 ```csharp
 Document doc = new Document(MyDir + "Table spanning two pages.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
 // Imposta la proprietà "AllowBreakAcrossPages" su "false" per mantenere la riga
-// in un unico pezzo se una tabella si estende su due pagine, che si interrompono lungo quella riga.
+// tutto intero se una tabella si estende su due pagine, che si suddividono lungo quella riga.
 // Se la riga è troppo grande per stare in una pagina, Microsoft Word la spingerà alla pagina successiva.
-// Imposta la proprietà "AllowBreakAcrossPages" su "true" per consentire alla riga di suddividere su due pagine.
+// Imposta la proprietà "AllowBreakAcrossPages" su "true" per consentire la suddivisione della riga su due pagine.
 foreach (Row row in table.OfType<Row>())
     row.RowFormat.AllowBreakAcrossPages = allowBreakAcrossPages;
 

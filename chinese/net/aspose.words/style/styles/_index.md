@@ -3,7 +3,7 @@ title: Style.Styles
 second_title: Aspose.Words for .NET API 参考
 description: Style 财产. 获取该样式所属的样式集合
 type: docs
-weight: 150
+weight: 170
 url: /zh/net/aspose.words/style/styles/
 ---
 ## Style.Styles property
@@ -16,7 +16,7 @@ public StyleCollection Styles { get; }
 
 ### 例子
 
-展示如何访问文档的样式集合。
+演示如何访问文档的样式集合。
 
 ```csharp
 Document doc = new Document();

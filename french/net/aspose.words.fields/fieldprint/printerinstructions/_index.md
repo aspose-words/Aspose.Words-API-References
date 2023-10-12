@@ -1,14 +1,14 @@
 ---
 title: FieldPrint.PrinterInstructions
 second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldPrint propriété. Obtient ou définit les caractères de code de contrôle spécifiques à limprimante ou les instructions PostScript.
+description: FieldPrint propriété. Obtient ou définit les caractères du code de contrôle ou les instructions PostScript spécifiques à limprimante.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.fields/fieldprint/printerinstructions/
 ---
 ## FieldPrint.PrinterInstructions property
 
-Obtient ou définit les caractères de code de contrôle spécifiques à l'imprimante ou les instructions PostScript.
+Obtient ou définit les caractères du code de contrôle ou les instructions PostScript spécifiques à l'imprimante.
 
 ```csharp
 public string PrinterInstructions { get; set; }
@@ -16,7 +16,7 @@ public string PrinterInstructions { get; set; }
 
 ### Exemples
 
-Indique d'insérer un champ PRINT.
+Montre pour insérer un champ PRINT.
 
 ```csharp
 Document doc = new Document();
@@ -27,7 +27,7 @@ builder.Write("My paragraph");
 // Le champ PRINT peut envoyer des instructions à l'imprimante.
 FieldPrint field = (FieldPrint)builder.InsertField(FieldType.FieldPrint, true);
 
-// Définit la zone sur laquelle l'imprimante exécutera les instructions.
+// Définit la zone sur laquelle l'imprimante doit exécuter les instructions.
 // Dans ce cas, ce sera le paragraphe qui contient notre champ PRINT.
 field.PostScriptGroup = "para";
 

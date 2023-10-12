@@ -3,7 +3,7 @@ title: CompareOptions.Granularity
 second_title: Référence de l'API Aspose.Words pour .NET
 description: CompareOptions propriété. Spécifie si les modifications sont suivies par caractère ou par mot. La valeur par défaut estWordLevel .
 type: docs
-weight: 20
+weight: 30
 url: /fr/net/aspose.words.comparing/compareoptions/granularity/
 ---
 ## CompareOptions.Granularity property
@@ -16,7 +16,7 @@ public Granularity Granularity { get; set; }
 
 ### Exemples
 
-Affiche pour spécifier une granularité lors de la comparaison de documents.
+Montre pour spécifier une granularité lors de la comparaison de documents.
 
 ```csharp
 Document docA = new Document();
@@ -27,7 +27,7 @@ Document docB = new Document();
 DocumentBuilder builderB = new DocumentBuilder(docB);
 builderB.Writeln("Lorems ipsum dolor sit amet consectetur - \"adipiscing\" elit");
 
-// Spécifiez si les modifications sont suivies
+// Spécifie si les modifications sont suivies
 // par caractère ('Granularity.CharLevel'), ou par mot ('Granularity.WordLevel').
 Aspose.Words.Comparing.CompareOptions compareOptions = new Aspose.Words.Comparing.CompareOptions();
 compareOptions.Granularity = granularity;

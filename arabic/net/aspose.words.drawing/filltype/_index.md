@@ -1,14 +1,14 @@
 ---
 title: Enum FillType
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.FillType تعداد. يحدد نوع التعبئة لكائن قابل للتعبئة.
+description: Aspose.Words.Drawing.FillType تعداد. يحدد نوع التعبئة للكائن القابل للتعبئة.
 type: docs
-weight: 830
+weight: 960
 url: /ar/net/aspose.words.drawing/filltype/
 ---
 ## FillType enumeration
 
-يحدد نوع التعبئة لكائن قابل للتعبئة.
+يحدد نوع التعبئة للكائن القابل للتعبئة.
 
 ```csharp
 public enum FillType
@@ -18,12 +18,12 @@ public enum FillType
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| Solid | `1` | ملء خالص . |
-| Patterned | `2` | تعبئة منقوشة . |
-| Gradient | `3` | تعبئة متدرجة . |
-| Textured | `4` | تعبئة محكم . |
-| Background | `5` | التعبئة هي نفسها الخلفية . |
-| Picture | `6` | تعبئة الصورة . |
+| Solid | `1` | تعبئة صلبة. |
+| Patterned | `2` | تعبئة منقوشة. |
+| Gradient | `3` | تعبئة متدرجة. |
+| Textured | `4` | تعبئة مزخرفة. |
+| Background | `5` | التعبئة هي نفس الخلفية. |
+| Picture | `6` | تعبئة الصورة. |
 
 ### أنظر أيضا
 

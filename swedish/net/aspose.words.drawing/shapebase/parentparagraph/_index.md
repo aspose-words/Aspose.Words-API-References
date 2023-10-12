@@ -3,7 +3,7 @@ title: ShapeBase.ParentParagraph
 second_title: Aspose.Words för .NET API Referens
 description: ShapeBase fast egendom. Returnerar det omedelbara överordnade stycket.
 type: docs
-weight: 390
+weight: 410
 url: /sv/net/aspose.words.drawing/shapebase/parentparagraph/
 ---
 ## ShapeBase.ParentParagraph property
@@ -16,7 +16,7 @@ public Paragraph ParentParagraph { get; }
 
 ### Anmärkningar
 
-För underordnade former av en gruppform och underordnade former av ett Office Math-objekt returnerar alltid null.
+För underordnade former av en gruppform och underordnade former av ett Office Math-objekt returneras alltid`null`.
 
 ### Exempel
 

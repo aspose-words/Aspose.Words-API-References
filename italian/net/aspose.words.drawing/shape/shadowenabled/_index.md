@@ -1,14 +1,14 @@
 ---
 title: Shape.ShadowEnabled
 second_title: Aspose.Words per .NET API Reference
-description: Shape proprietà. Restituisce vero se è abilitato un effetto ombra.
+description: Shape proprietà. RestituisceVERO se è abilitato un effetto ombra.
 type: docs
 weight: 150
 url: /it/net/aspose.words.drawing/shape/shadowenabled/
 ---
 ## Shape.ShadowEnabled property
 
-Restituisce vero se è abilitato un effetto ombra.
+Restituisce`VERO` se è abilitato un effetto ombra.
 
 ```csharp
 public bool ShadowEnabled { get; }
@@ -19,6 +19,7 @@ public bool ShadowEnabled { get; }
 Mostra come scorrere tutte le forme in un documento.
 
 ```csharp
+public void VisitShapes()
 {
     Document doc = new Document(MyDir + "Revision shape.docx");
     ShapeAppearancePrinter visitor = new ShapeAppearancePrinter();

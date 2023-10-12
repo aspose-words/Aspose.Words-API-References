@@ -5,7 +5,7 @@ articleTitle: DashStyle
 second_title: Aspose.Words for .NET
 description: Stroke DashStyle property. Specifies the dot and dash pattern for a stroke in C#.
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.words.drawing/stroke/dashstyle/
 ---
 ## Stroke.DashStyle property

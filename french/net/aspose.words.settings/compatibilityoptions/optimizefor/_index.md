@@ -18,7 +18,7 @@ public void OptimizeFor(MsWordVersion version)
 
 ### Exemples
 
-Montre comment aligner verticalement le contenu du texte d'une zone de texte.
+Montre comment aligner verticalement le contenu du texte d’une zone de texte.
 
 ```csharp
 Document doc = new Document();
@@ -29,9 +29,9 @@ Shape shape = builder.InsertShape(ShapeType.TextBox, 200, 200);
 // Définissez la propriété "VerticalAnchor" sur "TextBoxAnchor.Top" pour
 // aligne le texte de cette zone de texte avec le côté supérieur de la forme.
 // Définissez la propriété "VerticalAnchor" sur "TextBoxAnchor.Middle" pour
-// aligne le texte de cette zone de texte sur le centre de la forme.
+// aligne le texte de cette zone de texte au centre de la forme.
 // Définissez la propriété "VerticalAnchor" sur "TextBoxAnchor.Bottom" pour
-// aligne le texte de cette zone de texte sur le bas de la forme.
+// aligne le texte de cette zone de texte au bas de la forme.
 shape.TextBox.VerticalAnchor = verticalAnchor;
 
 builder.MoveTo(shape.FirstParagraph);
@@ -42,22 +42,22 @@ doc.CompatibilityOptions.OptimizeFor(MsWordVersion.Word2007);
 doc.Save(ArtifactsDir + "Shape.VerticalAnchor.docx");
 ```
 
-Montre comment définir une spécification de conformité OOXML pour un document enregistré à respecter.
+Montre comment définir une spécification de conformité OOXML à laquelle un document enregistré doit adhérer.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Si nous configurons les options de compatibilité pour se conformer à Microsoft Word 2003,
-// l'insertion d'une image définira sa forme à l'aide de VML.
+// l'insertion d'une image définira sa forme en utilisant VML.
 doc.CompatibilityOptions.OptimizeFor(MsWordVersion.Word2003);
 builder.InsertImage(ImageDir + "Transparent background logo.png");
 
 Assert.AreEqual(ShapeMarkupLanguage.Vml, ((Shape)doc.GetChild(NodeType.Shape, 0, true)).MarkupLanguage);
 
 // La norme OOXML "ISO/IEC 29500:2008" ne prend pas en charge les formes VML.
-// Si nous définissons la propriété "Compliance" de l'objet SaveOptions sur "OoxmlCompliance.Iso29500_2008_Strict",
- // tout document que nous enregistrons en passant cet objet devra suivre cette norme.
+// Si on fixe la propriété "Compliance" de l'objet SaveOptions à "OoxmlCompliance.Iso29500_2008_Strict",
+ // tout document que nous enregistrons en transmettant cet objet devra suivre cette norme.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions
 {
     Compliance = OoxmlCompliance.Iso29500_2008_Strict,
@@ -66,7 +66,7 @@ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions
 
 doc.Save(ArtifactsDir + "OoxmlSaveOptions.Iso29500Strict.docx", saveOptions);
 
-// Notre document enregistré définit la forme à l'aide de DML pour respecter la norme OOXML "ISO/IEC 29500:2008".
+// Notre document enregistré définit la forme à l'aide de DML pour adhérer à la norme OOXML "ISO/IEC 29500:2008".
 doc = new Document(ArtifactsDir + "OoxmlSaveOptions.Iso29500Strict.docx");
 
 Assert.AreEqual(ShapeMarkupLanguage.Dml, ((Shape)doc.GetChild(NodeType.Shape, 0, true)).MarkupLanguage);
@@ -79,7 +79,7 @@ public void OptimizeFor()
 {
     Document doc = new Document();
 
-    // Cet objet contient une longue liste d'indicateurs uniques à chaque document
+    // Cet objet contient une liste complète d'indicateurs uniques à chaque document
     // qui nous permettent de faciliter la rétrocompatibilité avec les anciennes versions de Microsoft Word.
     CompatibilityOptions options = doc.CompatibilityOptions;
 
@@ -101,7 +101,7 @@ public void OptimizeFor()
 }
 
 /// <summary>
-/// Regroupe tous les drapeaux dans l'objet d'options de compatibilité d'un document par état, puis imprime chaque groupe.
+/// Regroupe tous les indicateurs dans l'objet d'options de compatibilité d'un document par état, puis imprime chaque groupe.
 /// </summary>
 private static void PrintCompatibilityOptions(CompatibilityOptions options)
 {

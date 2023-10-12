@@ -16,12 +16,12 @@ public string Text { get; set; }
 
 ### Beispiele
 
-Zeigt, wie das Feld BETREFF verwendet wird.
+Zeigt, wie das Feld SUBJECT verwendet wird.
 
 ```csharp
 Document doc = new Document();
 
-// Legen Sie einen Wert für die integrierte Eigenschaft "Betreff" des Dokuments fest.
+// Legen Sie einen Wert für die integrierte Eigenschaft „Subject“ des Dokuments fest.
 doc.BuiltInDocumentProperties.Subject = "My subject";
 
 // Erstellen Sie ein SUBJECT-Feld, um den Wert dieser integrierten Eigenschaft anzuzeigen.
@@ -32,8 +32,8 @@ field.Update();
 Assert.AreEqual(" SUBJECT ", field.GetFieldCode());
 Assert.AreEqual("My subject", field.Result);
 
-// Wenn wir den Text-Eigenschaftswert des SUBJECT-Felds angeben und ihn aktualisieren, wird das Feld
-// den aktuellen Wert der eingebauten Eigenschaft "Subject" mit dem Wert seiner Text-Eigenschaft überschreiben,
+// Wenn wir den Text-Eigenschaftswert des SUBJECT-Felds angeben und ihn aktualisieren, wird das Feld dies tun
+// den aktuellen Wert der integrierten Eigenschaft „Subject“ mit dem Wert ihrer Text-Eigenschaft überschreiben,
 // und dann den neuen Wert anzeigen.
 field.Text = "My new subject";
 field.Update();

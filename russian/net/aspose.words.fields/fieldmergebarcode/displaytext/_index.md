@@ -16,13 +16,13 @@ public bool DisplayText { get; set; }
 
 ### Примеры
 
-Показывает, как выполнять слияние со штрих-кодами EAN13.
+Показывает, как выполнить объединение писем со штрих-кодами EAN13.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставьте поле MERGEBARCODE, которое будет принимать значения из источника данных во время слияния.
+// Вставляем поле MERGEBARCODE, которое будет принимать значения из источника данных во время слияния почты.
 // Это поле преобразует все значения в столбце «MyEAN13Barcode» источника данных слияния в штрих-коды EAN13.
 FieldMergeBarcode field = (FieldMergeBarcode)builder.InsertField(FieldType.FieldMergeBarcode, true);
 field.BarcodeType = "EAN13";

@@ -1,14 +1,14 @@
 ---
 title: VbaProject.Clone
 second_title: Aspose.Words per .NET API Reference
-description: VbaProject metodo. Esegue una copia diVbaProject .
+description: VbaProject metodo. Esegue una copia del fileVbaProject .
 type: docs
 weight: 70
 url: /it/net/aspose.words.vba/vbaproject/clone/
 ---
 ## VbaProject.Clone method
 
-Esegue una copia di[`VbaProject`](../) .
+Esegue una copia del file[`VbaProject`](../) .
 
 ```csharp
 public VbaProject Clone()
@@ -16,7 +16,7 @@ public VbaProject Clone()
 
 ### Valore di ritorno
 
-Il clonato VbaProject.
+Il clonato[`VbaProject`](../).
 
 ### Esempi
 
@@ -30,7 +30,7 @@ VbaProject copyVbaProject = doc.VbaProject.Clone();
 destDoc.VbaProject = copyVbaProject;
 
 // Nel documento di destinazione abbiamo già un modulo chiamato "Module1"
-// perché l'abbiamo clonato insieme al progetto. Dovremo rimuovere il modulo.
+// perché lo abbiamo clonato insieme al progetto. Dovremo rimuovere il modulo.
 VbaModule oldVbaModule = destDoc.VbaProject.Modules["Module1"];
 VbaModule copyVbaModule = doc.VbaProject.Modules["Module1"].Clone();
 destDoc.VbaProject.Modules.Remove(oldVbaModule);

@@ -18,11 +18,11 @@ public void DeleteFields()
 
 Cette méthode supprime les champs MERGEFIELD et NEXT du document.
 
-Cette méthode peut être utile si votre opération de publipostage n'a pas toujours besoin de pour remplir tous les champs du document. Utilisez cette méthode pour supprimer tous les champs de fusion et publipostage restants .
+Cette méthode peut être utile si votre opération de publipostage n'a pas toujours besoin de pour remplir tous les champs du document. Utilisez cette méthode pour supprimer tous les champs de publipostage restant .
 
 ### Exemples
 
-Montre comment supprimer tous les MERGEFIELD d'un document.
+Montre comment supprimer tous les MERGEFIELD d’un document.
 
 ```csharp
 Document doc = new Document();

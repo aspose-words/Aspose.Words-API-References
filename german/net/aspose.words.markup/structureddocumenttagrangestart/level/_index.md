@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTagRangeStart.Level
 second_title: Aspose.Words für .NET-API-Referenz
-description: StructuredDocumentTagRangeStart eigendom. Ruft die Ebene ab auf der dieser strukturierte DokumentTagBereich in der Dokumentstruktur beginnt.
+description: StructuredDocumentTagRangeStart eigendom. Ruft die Ebene ab auf der dieser Tagbereich des strukturierten Dokuments im Dokumentbaum beginnt.
 type: docs
 weight: 70
 url: /de/net/aspose.words.markup/structureddocumenttagrangestart/level/
 ---
 ## StructuredDocumentTagRangeStart.Level property
 
-Ruft die Ebene ab, auf der dieser strukturierte Dokument-Tag-Bereich in der Dokumentstruktur beginnt.
+Ruft die Ebene ab, auf der dieser Tagbereich des strukturierten Dokuments im Dokumentbaum beginnt.
 
 ```csharp
 public MarkupLevel Level { get; }

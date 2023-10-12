@@ -3,7 +3,7 @@ title: TextBox.VerticalAnchor
 second_title: Référence de l'API Aspose.Words pour .NET
 description: TextBox propriété. Spécifie lalignement vertical du texte dans une forme.
 type: docs
-weight: 110
+weight: 120
 url: /fr/net/aspose.words.drawing/textbox/verticalanchor/
 ---
 ## TextBox.VerticalAnchor property
@@ -20,7 +20,7 @@ La valeur par défaut estTop.
 
 ### Exemples
 
-Montre comment aligner verticalement le contenu du texte d'une zone de texte.
+Montre comment aligner verticalement le contenu du texte d’une zone de texte.
 
 ```csharp
 Document doc = new Document();
@@ -31,9 +31,9 @@ Shape shape = builder.InsertShape(ShapeType.TextBox, 200, 200);
 // Définissez la propriété "VerticalAnchor" sur "TextBoxAnchor.Top" pour
 // aligne le texte de cette zone de texte avec le côté supérieur de la forme.
 // Définissez la propriété "VerticalAnchor" sur "TextBoxAnchor.Middle" pour
-// aligne le texte de cette zone de texte sur le centre de la forme.
+// aligne le texte de cette zone de texte au centre de la forme.
 // Définissez la propriété "VerticalAnchor" sur "TextBoxAnchor.Bottom" pour
-// aligne le texte de cette zone de texte sur le bas de la forme.
+// aligne le texte de cette zone de texte au bas de la forme.
 shape.TextBox.VerticalAnchor = verticalAnchor;
 
 builder.MoveTo(shape.FirstParagraph);

@@ -20,28 +20,28 @@ public abstract bool Accept(DocumentVisitor visitor)
 
 ### Valor_devuelto
 
-True si se visitaron todos los nodos; false si DocumentVisitor detuvo la operación antes de visitar todos los nodos.
+Verdadero si se visitaron todos los nodos; falso si[`DocumentVisitor`](../../documentvisitor/) detuvo la operación antes de visitar todos los nodos.
 
 ### Observaciones
 
-Enumera sobre este nodo y todos sus hijos. Cada nodo llama a un método correspondiente en DocumentVisitor.
+Enumera este nodo y todos sus hijos. Cada nodo llama a un método correspondiente en[`DocumentVisitor`](../../documentvisitor/).
 
 Para obtener más información, consulte el patrón de diseño Visitante.
 
 ### Ejemplos
 
-Muestra cómo usar una implementación de DocumentVisitor para eliminar todo el contenido oculto de un documento.
+Muestra cómo utilizar una implementación de DocumentVisitor para eliminar todo el contenido oculto de un documento.
 
 ```csharp
+public void RemoveHiddenContentFromDocument()
 {
     Document doc = new Document(MyDir + "Hidden content.docx");
-
     RemoveHiddenContentVisitor hiddenContentRemover = new RemoveHiddenContentVisitor();
 
-    // A continuación hay tres tipos de campos que pueden aceptar un visitante del documento,
+    // A continuación se muestran tres tipos de campos que pueden aceptar un visitante de documentos,
     // lo que le permitirá visitar el nodo de aceptación y luego atravesar sus nodos secundarios en profundidad.
     // 1 - Nodo de párrafo:
-    Paragraph para = (Paragraph) doc.GetChild(NodeType.Paragraph, 4, true);
+    Paragraph para = (Paragraph)doc.GetChild(NodeType.Paragraph, 4, true);
     para.Accept(hiddenContentRemover);
 
     // 2 - Nodo de tabla:
@@ -52,6 +52,7 @@ Muestra cómo usar una implementación de DocumentVisitor para eliminar todo el 
     doc.Accept(hiddenContentRemover);
 
     doc.Save(ArtifactsDir + "Font.RemoveHiddenContentFromDocument.docx");
+}
 
 /// <summary>
 /// Elimina todos los nodos visitados marcados como "contenido oculto".
@@ -59,7 +60,7 @@ Muestra cómo usar una implementación de DocumentVisitor para eliminar todo el 
 public class RemoveHiddenContentVisitor : DocumentVisitor
 {
     /// <summary>
-    /// Llamado cuando se encuentra un nodo FieldStart en el documento.
+    /// Se llama cuando se encuentra un nodo FieldStart en el documento.
     /// </summary>
     public override VisitorAction VisitFieldStart(FieldStart fieldStart)
     {
@@ -70,7 +71,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Llamado cuando se encuentra un nodo FieldEnd en el documento.
+    /// Se llama cuando se encuentra un nodo FieldEnd en el documento.
     /// </summary>
     public override VisitorAction VisitFieldEnd(FieldEnd fieldEnd)
     {
@@ -81,7 +82,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Llamado cuando se encuentra un nodo FieldSeparator en el documento.
+    /// Se llama cuando se encuentra un nodo FieldSeparator en el documento.
     /// </summary>
     public override VisitorAction VisitFieldSeparator(FieldSeparator fieldSeparator)
     {
@@ -92,7 +93,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Llamado cuando se encuentra un nodo Ejecutar en el documento.
+    /// Se llama cuando se encuentra un nodo Ejecutar en el documento.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -103,7 +104,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Llamado cuando se encuentra un nodo de párrafo en el documento.
+    /// Se llama cuando se encuentra un nodo Párrafo en el documento.
     /// </summary>
     public override VisitorAction VisitParagraphStart(Paragraph paragraph)
     {
@@ -114,7 +115,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Llamado cuando se encuentra un FormField en el documento.
+    /// Se llama cuando se encuentra un FormField en el documento.
     /// </summary>
     public override VisitorAction VisitFormField(FormField formField)
     {
@@ -125,7 +126,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Llamado cuando se encuentra un GroupShape en el documento.
+    /// Se llama cuando se encuentra un GroupShape en el documento.
     /// </summary>
     public override VisitorAction VisitGroupShapeStart(GroupShape groupShape)
     {
@@ -136,7 +137,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Llamado cuando se encuentra una Forma en el documento.
+    /// Se llama cuando se encuentra una forma en el documento.
     /// </summary>
     public override VisitorAction VisitShapeStart(Shape shape)
     {
@@ -158,7 +159,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Llamado cuando se encuentra una nota al pie en el documento.
+    /// Se llama cuando se encuentra una nota al pie en el documento.
     /// </summary>
     public override VisitorAction VisitFootnoteStart(Footnote footnote)
     {
@@ -180,15 +181,15 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Se llama cuando se finaliza la visita de un nodo Tabla en el documento.
+    /// Se llama cuando finaliza la visita a un nodo de tabla en el documento.
     /// </summary>
     public override VisitorAction VisitTableEnd(Table table)
     {
-        // El contenido dentro de las celdas de la tabla puede tener el indicador de contenido oculto, pero las tablas en sí no pueden.
-        // Si esta tabla no tuviera nada más que contenido oculto, este visitante lo habría eliminado todo,
-        // y no quedarían nodos secundarios.
-        // Por lo tanto, también podemos tratar la tabla en sí misma como contenido oculto y eliminarla.
-        // Las tablas que están vacías pero no tienen contenido oculto tendrán celdas con párrafos vacíos dentro,
+        // El contenido dentro de las celdas de la tabla puede tener la marca de contenido oculto, pero las tablas mismas no.
+        // Si esta tabla no tuviera nada más que contenido oculto, este visitante lo habría eliminado todo.
+        // y no quedarán nodos secundarios.
+        // Por lo tanto, también podemos tratar la tabla como contenido oculto y eliminarla.
+        // Las tablas que están vacías pero que no tienen contenido oculto tendrán celdas con párrafos vacíos en su interior.
         // que este visitante no eliminará.
         if (!table.HasChildNodes)
             table.Remove();
@@ -197,7 +198,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Se llama cuando se finaliza la visita de un nodo Cell en el documento.
+    /// Se llama cuando finaliza la visita a un nodo celular en el documento.
     /// </summary>
     public override VisitorAction VisitCellEnd(Cell cell)
     {
@@ -208,7 +209,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Se llama cuando finaliza la visita de un nodo Fila en el documento.
+    /// Se llama cuando finaliza la visita a un nodo de fila en el documento.
     /// </summary>
     public override VisitorAction VisitRowEnd(Row row)
     {

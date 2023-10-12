@@ -1,14 +1,14 @@
 ---
 title: BuiltInDocumentProperties.LastSavedTime
 second_title: Aspose.Words لمراجع .NET API
-description: BuiltInDocumentProperties ملكية. الحصول على أو تحديد وقت آخر حفظ بالتوقيت العالمي المنسق .
+description: BuiltInDocumentProperties ملكية. الحصول على أو تعيين وقت آخر حفظ بالتوقيت العالمي المنسق UTC.
 type: docs
 weight: 170
 url: /ar/net/aspose.words.properties/builtindocumentproperties/lastsavedtime/
 ---
 ## BuiltInDocumentProperties.LastSavedTime property
 
-الحصول على أو تحديد وقت آخر حفظ بالتوقيت العالمي المنسق .
+الحصول على أو تعيين وقت آخر حفظ بالتوقيت العالمي المنسق (UTC).
 
 ```csharp
 public DateTime LastSavedTime { get; set; }
@@ -16,23 +16,23 @@ public DateTime LastSavedTime { get; set; }
 
 ### ملاحظات
 
-بالنسبة للمستندات التي تم إنشاؤها من تنسيق RTF ، تقوم هذه الخاصية بإرجاع التوقيت المحلي لآخر عملية حفظ.
+بالنسبة للمستندات التي تم إنشاؤها من تنسيق RTF، تقوم هذه الخاصية بإرجاع التوقيت المحلي لآخر عملية حفظ.
 
-Aspose.Words لا تقوم بتحديث هذه الخاصية.
+لا يقوم Aspose.Words بتحديث هذه الخاصية.
 
 ### أمثلة
 
 يوضح كيفية العمل مع خصائص المستند في فئة "الأصل".
 
 ```csharp
-// افتح مستندًا أنشأناه وحررناه باستخدام Microsoft Word.
+// افتح مستندًا قمنا بإنشائه وتحريره باستخدام Microsoft Word.
 Document doc = new Document(MyDir + "Properties.docx");
 BuiltInDocumentProperties properties = doc.BuiltInDocumentProperties;
 
 // تحتوي الخصائص المضمنة التالية على معلومات تتعلق بإنشاء هذا المستند وتحريره.
 // يمكننا النقر بزر الماوس الأيمن فوق هذا المستند في مستكشف Windows والعثور عليه
-// هذه الخصائص عبر "خصائص" - >; "التفاصيل" - >. فئة "الأصل".
-// يمكن للحقول مثل PRINTDATE و EDITTIME عرض هذه القيم في نص المستند.
+// هذه الخصائص عبر "الخصائص" -> "التفاصيل" -> فئة "الأصل".
+// يمكن لحقول مثل PRINTDATE وEDITTIME عرض هذه القيم في نص المستند.
 Console.WriteLine($"Created using {properties.NameOfApplication}, on {properties.CreatedTime}");
 Console.WriteLine($"Minutes spent editing: {properties.TotalEditingTime}");
 Console.WriteLine($"Date/time last printed: {properties.LastPrinted}");
@@ -45,7 +45,7 @@ properties.Version = 5;
 properties.RevisionNumber++;
 
 // يقوم Microsoft Word بتحديث الخصائص التالية تلقائيًا عندما نحفظ المستند.
-// لاستخدام هذه الخصائص مع Aspose.Words ، سنحتاج إلى تعيين قيم لها يدويًا.
+// لاستخدام هذه الخصائص مع Aspose.Words، سنحتاج إلى تعيين قيم لها يدويًا.
 properties.LastSavedBy = "John Doe";
 properties.LastSavedTime = DateTime.Now;
 
@@ -53,7 +53,7 @@ properties.LastSavedTime = DateTime.Now;
 doc.Save(ArtifactsDir + "DocumentProperties.Origin.docx");
 ```
 
-يوضح كيفية استخدام حقل الحفظ لعرض تاريخ / وقت أحدث عملية حفظ للمستند تم إجراؤها باستخدام Microsoft Word.
+يوضح كيفية استخدام الحقل "حفظ" لعرض تاريخ/وقت آخر عملية حفظ للمستند تم تنفيذها باستخدام Microsoft Word.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -61,10 +61,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.MoveToDocumentEnd();
 builder.Writeln(" Date this document was last saved:");
 
-// يمكننا استخدام حقل الحفظ لعرض تاريخ ووقت آخر عملية حفظ على المستند.
-// عملية الحفظ التي تشير إليها هذه الحقول هي الحفظ اليدوي في تطبيق مثل Microsoft Word ،
+// يمكننا استخدام حقل الحفظ لعرض تاريخ ووقت عملية الحفظ الأخيرة على المستند.
+// عملية الحفظ التي تشير إليها هذه الحقول هي عملية الحفظ اليدوي في تطبيق مثل Microsoft Word،
 // ليست طريقة حفظ المستند.
-// فيما يلي ثلاثة أنواع مختلفة من التقويمات والتي وفقًا لحقل "حفظ" يمكن أن يعرض التاريخ / الوقت.
+// فيما يلي ثلاثة أنواع تقويم مختلفة يمكن لحقل الحفظ وفقًا لها عرض التاريخ/الوقت.
 // 1 - التقويم القمري الإسلامي:
 builder.Write("According to the Lunar Calendar - ");
 FieldSaveDate field = (FieldSaveDate)builder.InsertField(FieldType.FieldSaveDate, true);
@@ -72,7 +72,7 @@ field.UseLunarCalendar = true;
 
 Assert.AreEqual(" SAVEDATE  \\h", field.GetFieldCode());
 
-// 2 - تقويم أم القرى:
+// 2 - تقويم أم القرى :
 builder.Write("\nAccording to the Umm al-Qura calendar - ");
 field = (FieldSaveDate)builder.InsertField(FieldType.FieldSaveDate, true);
 field.UseUmAlQuraCalendar = true;
@@ -86,8 +86,8 @@ field.UseSakaEraCalendar = true;
 
 Assert.AreEqual(" SAVEDATE  \\s", field.GetFieldCode());
 
-// ترسم حقول الحفظ قيم التاريخ / الوقت من خاصية LastSavedTime المضمنة.
-// لن تقوم طريقة حفظ المستند بتحديث هذه القيمة ، ولكن لا يزال بإمكاننا تحديثها يدويًا.
+// ترسم حقول SAVEDATE قيم التاريخ/الوقت الخاصة بها من خاصية LastSavedTime المضمنة.
+// لن تقوم طريقة حفظ المستند بتحديث هذه القيمة، ولكن لا يزال بإمكاننا تحديثها يدويًا.
 doc.BuiltInDocumentProperties.LastSavedTime = DateTime.Now;
 
 doc.UpdateFields();

@@ -3,12 +3,14 @@ title: Class DocumentPropertyCollection
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.Properties.DocumentPropertyCollection clase. Clase base paraBuiltInDocumentProperties yCustomDocumentProperties colecciones.
 type: docs
-weight: 4230
+weight: 4480
 url: /es/net/aspose.words.properties/documentpropertycollection/
 ---
 ## DocumentPropertyCollection class
 
 Clase base para[`BuiltInDocumentProperties`](../builtindocumentproperties/) y[`CustomDocumentProperties`](../customdocumentproperties/) colecciones.
+
+Para obtener más información, visite el[Trabajar con propiedades de documento](https://docs.aspose.com/words/net/work-with-document-properties/) artículo de documentación.
 
 ```csharp
 public abstract class DocumentPropertyCollection : IEnumerable<DocumentProperty>
@@ -27,8 +29,8 @@ public abstract class DocumentPropertyCollection : IEnumerable<DocumentProperty>
 | Nombre | Descripción |
 | --- | --- |
 | [Clear](../../aspose.words.properties/documentpropertycollection/clear/)() | Elimina todas las propiedades de la colección. |
-| [Contains](../../aspose.words.properties/documentpropertycollection/contains/)(string) | Devuelve verdadero si existe una propiedad con el nombre especificado en la colección. |
-| [GetEnumerator](../../aspose.words.properties/documentpropertycollection/getenumerator/)() | Devuelve un objeto enumerador que se puede usar para iterar sobre todos los elementos de la colección. |
+| [Contains](../../aspose.words.properties/documentpropertycollection/contains/)(string) | Devoluciones`verdadero` si existe una propiedad con el nombre especificado en la colección. |
+| [GetEnumerator](../../aspose.words.properties/documentpropertycollection/getenumerator/)() | Devuelve un objeto enumerador que se puede utilizar para iterar sobre todos los elementos de la colección. |
 | [IndexOf](../../aspose.words.properties/documentpropertycollection/indexof/)(string) | Obtiene el índice de una propiedad por nombre. |
 | [Remove](../../aspose.words.properties/documentpropertycollection/remove/)(string) | Elimina una propiedad con el nombre especificado de la colección. |
 | [RemoveAt](../../aspose.words.properties/documentpropertycollection/removeat/)(int) | Elimina una propiedad en el índice especificado. |
@@ -60,7 +62,7 @@ properties.Add("Authorized Amount", 123.45);
 Assert.AreEqual(1, properties.IndexOf("Authorized Amount"));
 Assert.AreEqual(5, properties.Count);
 
-// Imprime cada propiedad personalizada en el documento.
+// Imprime todas las propiedades personalizadas del documento.
 using (IEnumerator<DocumentProperty> enumerator = properties.GetEnumerator())
 {
     while (enumerator.MoveNext())
@@ -74,7 +76,7 @@ field.Update();
 
 Assert.AreEqual("John Doe", field.Result);
 
-// Podemos encontrar estas propiedades personalizadas en Microsoft Word a través de "Archivo" -> "Propiedades" > "Propiedades avanzadas" > "Disfraz".
+// Podemos encontrar estas propiedades personalizadas en Microsoft Word a través de "Archivo" -> "Propiedades" > "Propiedades avanzadas" > "Costumbre".
 doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
 
 // A continuación se muestran tres formas de eliminar propiedades personalizadas de un documento.
@@ -90,7 +92,7 @@ properties.Remove("Authorized Revision");
 Assert.False(properties.Contains("Authorized Revision"));
 Assert.AreEqual(3, properties.Count);
 
-// 3 - Vaciar toda la colección a la vez:
+// 3 - Vaciar toda la colección de una vez:
 properties.Clear();
 
 Assert.AreEqual(0, properties.Count);

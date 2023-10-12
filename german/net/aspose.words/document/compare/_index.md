@@ -1,14 +1,14 @@
 ---
 title: Document.Compare
 second_title: Aspose.Words für .NET-API-Referenz
-description: Document methode. Vergleicht dieses Dokument mit einem anderen Dokument das Änderungen als Anzahl der Bearbeitungs und Formatrevisionen erzeugtRevision .
+description: Document methode. Vergleicht dieses Dokument mit einem anderen Dokument und erzeugt Änderungen als Anzahl der Bearbeitungs und FormatrevisionenRevision .
 type: docs
-weight: 540
+weight: 580
 url: /de/net/aspose.words/document/compare/
 ---
 ## Compare(Document, string, DateTime) {#compare}
 
-Vergleicht dieses Dokument mit einem anderen Dokument, das Änderungen als Anzahl der Bearbeitungs- und Formatrevisionen erzeugt[`Revision`](../../revision/) .
+Vergleicht dieses Dokument mit einem anderen Dokument und erzeugt Änderungen als Anzahl der Bearbeitungs- und Formatrevisionen[`Revision`](../../revision/) .
 
 ```csharp
 public void Compare(Document document, string author, DateTime dateTime)
@@ -16,18 +16,13 @@ public void Compare(Document document, string author, DateTime dateTime)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| document | Document | Dokument zu vergleichen. |
-| author | String | Initialen des Autors für Überarbeitungen. |
-| dateTime | DateTime | Datum und Uhrzeit für Überarbeitungen. |
+| document | Document | Dokument zum Vergleichen. |
+| author | String | Initialen des Autors zur Verwendung bei Überarbeitungen. |
+| dateTime | DateTime | Das für Überarbeitungen zu verwendende Datum und die Uhrzeit. |
 
 ### Bemerkungen
 
-Die folgenden Dokumentknoten werden derzeit nicht verglichen:
-
-* [`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/)
-* Artikel3
-
-Dokumente dürfen vor dem Vergleich keine Revisionen aufweisen.
+Dokumente dürfen vor dem Vergleich nicht überarbeitet werden.
 
 ### Beispiele
 
@@ -42,18 +37,19 @@ Document docEdited = new Document();
 builder = new DocumentBuilder(docEdited);
 builder.Writeln("This is the edited document.");
 
-// Der Vergleich von Dokumenten mit Revisionen löst eine Ausnahme aus.
+// Beim Vergleich von Dokumenten mit Revisionen wird eine Ausnahme ausgelöst.
 if (docOriginal.Revisions.Count == 0 && docEdited.Revisions.Count == 0)
     docOriginal.Compare(docEdited, "authorName", DateTime.Now);
 
 // Nach dem Vergleich erhält das Originaldokument eine neue Revision
 // für jedes Element, das im bearbeiteten Dokument anders ist.
+foreach (Revision r in docOriginal.Revisions)
 {
     Console.WriteLine($"Revision type: {r.RevisionType}, on a node of type \"{r.ParentNode.NodeType}\"");
     Console.WriteLine($"\tChanged text: \"{r.ParentNode.GetText()}\"");
 }
 
-// Wenn Sie diese Überarbeitungen akzeptieren, wird das Originaldokument in das bearbeitete Dokument umgewandelt.
+// Durch das Akzeptieren dieser Überarbeitungen wird das Originaldokument in das bearbeitete Dokument umgewandelt.
 docOriginal.Revisions.AcceptAll();
 
 Assert.AreEqual(docOriginal.GetText(), docEdited.GetText());
@@ -69,7 +65,7 @@ Assert.AreEqual(docOriginal.GetText(), docEdited.GetText());
 
 ## Compare(Document, string, DateTime, CompareOptions) {#compare_1}
 
-Vergleicht dieses Dokument mit einem anderen Dokument, das Änderungen als eine Reihe von Bearbeitungs- und Formatrevisionen hervorbringt[`Revision`](../../revision/) . Ermöglicht die Angabe von Vergleichsoptionen mit[`CompareOptions`](../../../aspose.words.comparing/compareoptions/) .
+Vergleicht dieses Dokument mit einem anderen Dokument und führt zu Änderungen in Form einer Reihe von Bearbeitungs- und Formatrevisionen[`Revision`](../../revision/) . Ermöglicht die Angabe von Vergleichsoptionen mit[`CompareOptions`](../../../aspose.words.comparing/compareoptions/) .
 
 ```csharp
 public void Compare(Document document, string author, DateTime dateTime, CompareOptions options)
@@ -77,10 +73,10 @@ public void Compare(Document document, string author, DateTime dateTime, Compare
 
 ### Beispiele
 
-Zeigt, wie bestimmte Arten von Dokumentelementen beim Vergleichen gefiltert werden.
+Zeigt, wie bei einem Vergleich bestimmte Arten von Dokumentelementen gefiltert werden.
 
 ```csharp
-// Erstellen Sie das Originaldokument und füllen Sie es mit verschiedenen Arten von Elementen.
+// Das Originaldokument erstellen und es mit verschiedenen Arten von Elementen füllen.
 Document docOriginal = new Document();
 DocumentBuilder builder = new DocumentBuilder(docOriginal);
 
@@ -128,8 +124,8 @@ firstParagraph.ParagraphFormat.Style = docEdited.Styles[StyleIdentifier.Heading1
 docEdited.FirstSection.HeadersFooters[HeaderFooterType.HeaderPrimary].FirstParagraph.Runs[0].Text =
     "Edited header contents.";
 
-// Beim Vergleichen von Dokumenten wird für jede Änderung im bearbeiteten Dokument eine Revision erstellt.
-// Ein CompareOptions-Objekt hat eine Reihe von Flags, die Revisionen unterdrücken können
+// Beim Vergleichen von Dokumenten wird für jede Bearbeitung im bearbeiteten Dokument eine Revision erstellt.
+// Ein CompareOptions-Objekt verfügt über eine Reihe von Flags, die Revisionen unterdrücken können
 // für jeden jeweiligen Elementtyp, wobei deren Änderung effektiv ignoriert wird.
 Aspose.Words.Comparing.CompareOptions compareOptions = new Aspose.Words.Comparing.CompareOptions();
 compareOptions.IgnoreFormatting = false;

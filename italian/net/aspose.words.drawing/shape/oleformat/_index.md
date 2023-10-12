@@ -1,14 +1,14 @@
 ---
 title: Shape.OleFormat
 second_title: Aspose.Words per .NET API Reference
-description: Shape proprietà. Fornisce laccesso ai dati OLE di una forma. Per una forma che non è un oggetto OLE o un controllo ActiveX restituisce null.
+description: Shape proprietà. Fornisce laccesso ai dati OLE di una forma. Per una forma che non è un oggetto OLE o un controllo ActiveX restituiscenullo .
 type: docs
 weight: 140
 url: /it/net/aspose.words.drawing/shape/oleformat/
 ---
 ## Shape.OleFormat property
 
-Fornisce l'accesso ai dati OLE di una forma. Per una forma che non è un oggetto OLE o un controllo ActiveX, restituisce null.
+Fornisce l'accesso ai dati OLE di una forma. Per una forma che non è un oggetto OLE o un controllo ActiveX, restituisce`nullo` .
 
 ```csharp
 public OleFormat OleFormat { get; }
@@ -19,6 +19,7 @@ public OleFormat OleFormat { get; }
 Mostra come scorrere tutte le forme in un documento.
 
 ```csharp
+public void VisitShapes()
 {
     Document doc = new Document(MyDir + "Revision shape.docx");
     ShapeAppearancePrinter visitor = new ShapeAppearancePrinter();

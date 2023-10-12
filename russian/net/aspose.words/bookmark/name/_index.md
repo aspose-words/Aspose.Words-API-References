@@ -16,7 +16,7 @@ public string Name { get; set; }
 
 ### Примечания
 
-Обратите внимание, что если вы измените имя закладки на имя, которое уже существует в документе, не будет выдано никакой ошибки, и при сохранении документа будет сохранена только первая закладка.
+Обратите внимание: если вы измените имя закладки на имя, которое уже существует в документе, ошибка не возникнет, и при сохранении документа будет сохранена только первая закладка.
 
 ### Примеры
 
@@ -24,11 +24,11 @@ public string Name { get; set; }
 
 ```csharp
 Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
+DocumentBuilder builder = new DocumentBuilder(doc);            
 
-// Действительная закладка имеет имя, узлы BookmarkStart и BookmarkEnd.
-// Любые пробелы в именах закладок будут преобразованы в символы подчеркивания, если мы откроем сохраненный документ в Microsoft Word. 
-// Если выделить имя закладки в Microsoft Word через Insert -> Ссылки -> Добавьте в закладки и нажмите «Перейти»,
+// Действительная закладка имеет имя, узел BookmarkStart и BookmarkEnd.
+// Любые пробелы в именах закладок будут преобразованы в символы подчеркивания, если мы откроем сохраненный документ в Microsoft Word.
+// Если мы выделим имя закладки в Microsoft Word с помощью Insert -> gt; Ссылки -> Добавьте в закладки и нажмите «Перейти»,
 // курсор перейдет к тексту, заключенному между узлами BookmarkStart и BookmarkEnd.
 builder.StartBookmark("My Bookmark");
 builder.Write("Contents of MyBookmark.");
@@ -45,22 +45,21 @@ doc.Save(ArtifactsDir + "Bookmarks.Insert.docx");
 ```csharp
 public void CreateUpdateAndPrintBookmarks()
 {
-    // Создайте документ с тремя закладками, затем используйте пользовательскую реализацию посетителя документа для печати их содержимого.
+    // Создайте документ с тремя закладками, затем используйте специальную реализацию посетителя документа для печати его содержимого.
     Document doc = CreateDocumentWithBookmarks(3);
     BookmarkCollection bookmarks = doc.Range.Bookmarks;
-
     PrintAllBookmarkInfo(bookmarks);
 
-    // Доступ к закладкам в коллекции закладок можно получить по индексу или имени, и их имена можно обновить.
+    // Доступ к закладкам в коллекции закладок можно получить по индексу или имени, а их имена можно обновить.
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
-    // Печатаем все закладки еще раз, чтобы увидеть обновленные значения.
+    // Распечатываем все закладки еще раз, чтобы увидеть обновленные значения.
     PrintAllBookmarkInfo(bookmarks);
 }
 
 /// <summary>
-/// Создать документ с заданным количеством закладок.
+/// Создаем документ с заданным количеством закладок.
 /// </summary>
 private static Document CreateDocumentWithBookmarks(int numberOfBookmarks)
 {
@@ -107,7 +106,7 @@ private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 }
 
 /// <summary>
-/// Выводит содержимое каждой посещенной закладки на консоль.
+/// Выводит на консоль содержимое каждой посещенной закладки.
 /// </summary>
 public class BookmarkInfoPrinter : DocumentVisitor
 {

@@ -16,13 +16,13 @@ public OfficeMathDisplayType DisplayType { get; set; }
 
 ### Remarques
 
-Le type de format d'affichage n'a d'effet que pour Office Math de niveau supérieur.
+Le type de format d’affichage n’a d’effet que pour Office Math de niveau supérieur.
 
 Le type de format d'affichage renvoyé est toujoursInline pour Office Math imbriqué.
 
 ### Exemples
 
-Montre comment définir la mise en forme de l'affichage mathématique de bureau.
+Montre comment définir le formatage de l’affichage des mathématiques de bureau.
 
 ```csharp
 Document doc = new Document(MyDir + "Office math.docx");
@@ -35,10 +35,7 @@ Assert.AreEqual(MathObjectType.OMathPara, officeMath.MathObjectType);
 Assert.AreEqual(NodeType.OfficeMath, officeMath.NodeType);
 Assert.AreEqual(officeMath.ParentNode, officeMath.ParentParagraph);
 
-// Les formats OOXML et WML utilisent la propriété "EquationXmlEncoding".
-Assert.IsNull(officeMath.EquationXmlEncoding);
-
-// Modifier l'emplacement et le type d'affichage du nœud OfficeMath.
+// Modifiez l'emplacement et le type d'affichage du nœud OfficeMath.
 officeMath.DisplayType = OfficeMathDisplayType.Display;
 officeMath.Justification = OfficeMathJustification.Left;
 

@@ -3,7 +3,7 @@ title: Style.IsHeading
 second_title: Aspose.Words لمراجع .NET API
 description: Style ملكية. صحيح عندما يكون النمط أحد أنماط العناوين المضمنة.
 type: docs
-weight: 60
+weight: 70
 url: /ar/net/aspose.words/style/isheading/
 ---
 ## Style.IsHeading property
@@ -23,7 +23,7 @@ Document doc = new Document();
 
 Assert.AreEqual(4, doc.Styles.Count);
 
-// تعداد وإدراج جميع الأنماط التي تم إنشاؤها باستخدام Aspose.Words تحتوي على كل الأنماط التي تم إنشاؤها باستخدام Aspose.Words بشكل افتراضي.
+// تعداد وسرد جميع الأنماط التي يحتوي عليها المستند الذي تم إنشاؤه باستخدام Aspose.Words بشكل افتراضي.
 using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 {
     while (stylesEnum.MoveNext())

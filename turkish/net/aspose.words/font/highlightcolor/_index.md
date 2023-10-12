@@ -16,7 +16,7 @@ public Color HighlightColor { get; set; }
 
 ### Örnekler
 
-Font özelliğini kullanarak bir metin akışının nasıl biçimlendirileceğini gösterir.
+Font özelliğini kullanarak bir metin dizisinin nasıl biçimlendirileceğini gösterir.
 
 ```csharp
 Document doc = new Document();

@@ -1,14 +1,16 @@
 ---
 title: Class ShadowFormat
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.ShadowFormat сорт. Представляет форматирование тени для объекта.
+description: Aspose.Words.Drawing.ShadowFormat сорт. Представляет теневое форматирование объекта.
 type: docs
-weight: 1080
+weight: 1230
 url: /ru/net/aspose.words.drawing/shadowformat/
 ---
 ## ShadowFormat class
 
-Представляет форматирование тени для объекта.
+Представляет теневое форматирование объекта.
+
+Чтобы узнать больше, посетите[Работа с графическими элементами](https://docs.aspose.com/words/net/working-with-graphic-elements/) статья документации.
 
 ```csharp
 public class ShadowFormat
@@ -25,7 +27,7 @@ public class ShadowFormat
 
 | Имя | Описание |
 | --- | --- |
-| [Clear](../../aspose.words.drawing/shadowformat/clear/)() | Очищает теневой формат. |
+| [Clear](../../aspose.words.drawing/shadowformat/clear/)() | Очищает формат тени. |
 
 ### Смотрите также
 

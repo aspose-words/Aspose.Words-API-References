@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.UseNormalStyleForList
 second_title: Aspose.Words لمراجع .NET API
-description: CompatibilityOptions ملكية. عدم تطبيق نمط فقرة القائمة تلقائيًا على نص تعداد رقمي / تعداد نقطي.
+description: CompatibilityOptions ملكية. لا تطبق نمط فقرة القائمة تلقائيًا على نص نقطي/مرقم.
 type: docs
 weight: 630
 url: /ar/net/aspose.words.settings/compatibilityoptions/usenormalstyleforlist/
 ---
 ## CompatibilityOptions.UseNormalStyleForList property
 
-عدم تطبيق نمط فقرة القائمة تلقائيًا على نص تعداد رقمي / تعداد نقطي.
+لا تطبق نمط فقرة القائمة تلقائيًا على نص نقطي/مرقم.
 
 ```csharp
 public bool UseNormalStyleForList { get; set; }

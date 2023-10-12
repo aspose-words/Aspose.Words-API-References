@@ -16,23 +16,23 @@ public override bool Accept(DocumentVisitor visitor)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| visitor | DocumentVisitor | Посетитель, который будет посещать узлы. |
+| visitor | DocumentVisitor | Посетитель, который посетит узлы. |
 
 ### Возвращаемое значение
 
-Истинно, если все узлы были посещены; false, если DocumentVisitor остановил операцию перед посещением всех узлов.
+Истинно, если были посещены все узлы; ложь, если[`DocumentVisitor`](../../../aspose.words/documentvisitor/) остановил операцию перед посещением всех узлов.
 
 ### Примечания
 
-Перечисляет этот узел и все его дочерние элементы. Каждый узел вызывает соответствующий метод в DocumentVisitor.
+Перечисляет этот узел и все его дочерние элементы. Каждый узел вызывает соответствующий метод[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
 Дополнительные сведения см. в шаблоне проектирования «Посетитель».
 
-Вызывает DocumentVisitor.VisitFootnoteStart, затем вызывает Accept для всех дочерних узлов сноски и вызывает DocumentVisitor.VisitFootnoteEnd в конце.
+Вызывает DocumentVisitor.VisitFootnoteStart, затем вызывает Accept для всех дочерних узлов footnote и вызывает DocumentVisitor.VisitFootnoteEnd в конце.
 
 ### Примеры
 
-Показывает, как напечатать структуру узла каждой сноски в документе.
+Показывает, как распечатать структуру узлов каждой сноски в документе.
 
 ```csharp
 public void FootnoteToText()
@@ -40,16 +40,16 @@ public void FootnoteToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     FootnoteStructurePrinter visitor = new FootnoteStructurePrinter();
 
-    // Когда составной узел принимает посетителя документа, посетитель посещает принимающий узел,
-    // а затем обходит все дочерние элементы узла в порядке глубины.
-    // Посетитель может читать и изменять каждый посещаемый узел.
+    // Когда мы получаем составной узел для приема посетителя документа, посетитель посещает принимающий узел,
+    // а затем обходит все дочерние узлы в глубину.
+    // Посетитель может читать и изменять каждый посещенный узел.
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 }
 
 /// <summary>
-/// Обходит небинарное дерево дочерних узлов узла.
+/// Обходит недвоичное дерево дочерних узлов узла.
 /// Создает карту в виде строки всех встреченных узлов Footnote и их дочерних элементов.
 /// </summary>
 public class FootnoteStructurePrinter : DocumentVisitor
@@ -61,7 +61,7 @@ public class FootnoteStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Получает обычный текст документа, который накопил посетитель.
+    /// Получает открытый текст документа, накопленный посетителем.
     /// </summary>
     public string GetText()
     {
@@ -69,7 +69,7 @@ public class FootnoteStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается, когда в документе встречается узел Footnote.
+    /// Вызывается, когда в документе встречается узел сноски.
     /// </summary>
     public override VisitorAction VisitFootnoteStart(Footnote footnote)
     {
@@ -81,7 +81,7 @@ public class FootnoteStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается после посещения всех дочерних узлов узла Footnote.
+    /// Вызывается после посещения всех дочерних узлов узла сноски.
     /// </summary>
     public override VisitorAction VisitFootnoteEnd(Footnote footnote)
     {
@@ -103,7 +103,7 @@ public class FootnoteStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Добавляем строку в StringBuilder и делаем отступ в зависимости от того, насколько глубоко посетитель находится в дереве документа.
+    /// Добавляем строку к StringBuilder и отступаем от нее в зависимости от того, насколько глубоко посетитель находится в дереве документа.
     /// </summary>
     /// <param name="text"></param>
     private void IndentAndAppendLine(string text)

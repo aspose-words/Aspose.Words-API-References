@@ -1,14 +1,14 @@
 ---
 title: HtmlFixedSaveOptions.ExportFormFields
 second_title: Aspose.Words für .NET-API-Referenz
-description: HtmlFixedSaveOptions eigendom. Ruft ab oder legt fest ob Formularfelder als interaktive Elemente als EingabeTag exportiert und nicht in Text oder Grafiken konvertiert werden.
+description: HtmlFixedSaveOptions eigendom. Ruft die Angabe ab ob Formularfelder als interaktive Elemente als EingabeTag exportiert und nicht in Text oder Grafiken konvertiert werden oder legt diese fest.
 type: docs
 weight: 80
 url: /de/net/aspose.words.saving/htmlfixedsaveoptions/exportformfields/
 ---
 ## HtmlFixedSaveOptions.ExportFormFields property
 
-Ruft ab oder legt fest, ob Formularfelder als interaktive Elemente (als „Eingabe“-Tag) exportiert und nicht in Text oder Grafiken konvertiert werden.
+Ruft die Angabe ab, ob Formularfelder als interaktive Elemente (als „Eingabe“-Tag) exportiert und nicht in Text oder Grafiken konvertiert werden, oder legt diese fest.
 
 ```csharp
 public bool ExportFormFields { get; set; }
@@ -16,7 +16,7 @@ public bool ExportFormFields { get; set; }
 
 ### Beispiele
 
-Zeigt, wie Formularfelder in HTML exportiert werden.
+Zeigt, wie Formularfelder nach HTML exportiert werden.
 
 ```csharp
 Document doc = new Document();
@@ -26,10 +26,10 @@ builder.InsertCheckBox("CheckBox", false, 15);
 
 // Wenn wir ein Dokument mit Formularfeldern nach .html exportieren,
 // Es gibt zwei Möglichkeiten, wie Aspose.Words Formularfelder exportieren kann.
-// Wenn Sie das Flag "ExportFormFields" auf "true" setzen, werden sie als interaktive Objekte exportiert.
-// Wenn Sie dieses Flag auf "false" setzen, werden Formularfelder als reiner Text angezeigt.
-// Dies wird sie auf ihrem aktuellen Wert einfrieren und den Leser unseres HTML-Dokuments verhindern
-// davon abhalten, mit ihnen interagieren zu können.
+// Wenn Sie das Flag „ExportFormFields“ auf „true“ setzen, werden sie als interaktive Objekte exportiert.
+// Wenn Sie dieses Flag auf „false“ setzen, werden Formularfelder als einfacher Text angezeigt.
+// Dadurch werden sie auf ihrem aktuellen Wert eingefroren und der Leser unseres HTML-Dokuments wird daran gehindert
+// von der Möglichkeit, mit ihnen zu interagieren.
 HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions
 {
     ExportFormFields = exportFormFields

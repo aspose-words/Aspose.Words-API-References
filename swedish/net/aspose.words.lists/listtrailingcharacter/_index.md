@@ -3,7 +3,7 @@ title: Enum ListTrailingCharacter
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Lists.ListTrailingCharacter uppräkning. Anger tecknet som skiljer listetiketten från texten i stycket.
 type: docs
-weight: 3340
+weight: 3540
 url: /sv/net/aspose.words.lists/listtrailingcharacter/
 ---
 ## ListTrailingCharacter enumeration
@@ -34,8 +34,8 @@ Visar hur du använder anpassad listformatering på stycken när du använder Do
 Document doc = new Document();
 
 // En lista låter oss organisera och dekorera uppsättningar av stycken med prefixsymboler och indrag.
-// Vi kan skapa kapslade listor genom att öka indragsnivån. 
-// Vi kan börja och avsluta en lista genom att använda en dokumentbyggares "ListFormat"-egenskap. 
+ // Vi kan skapa kapslade listor genom att öka indragsnivån.
+ // Vi kan börja och avsluta en lista genom att använda en dokumentbyggares "ListFormat"-egenskap.
 // Varje stycke som vi lägger till mellan en listas början och slutet kommer att bli ett objekt i listan.
 // Skapa en lista från en Microsoft Word-mall och anpassa de två första av listnivåerna.
 List list = doc.Lists.Add(ListTemplate.NumberDefault);

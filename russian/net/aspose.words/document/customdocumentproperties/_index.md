@@ -1,14 +1,14 @@
 ---
 title: Document.CustomDocumentProperties
 second_title: Справочник по API Aspose.Words для .NET
-description: Document свойство. Возвращает коллекцию которая представляет все настраиваемые свойства документа.
+description: Document свойство. Возвращает коллекцию которая представляет все пользовательские свойства документа.
 type: docs
 weight: 70
 url: /ru/net/aspose.words/document/customdocumentproperties/
 ---
 ## Document.CustomDocumentProperties property
 
-Возвращает коллекцию, которая представляет все настраиваемые свойства документа.
+Возвращает коллекцию, которая представляет все пользовательские свойства документа.
 
 ```csharp
 public CustomDocumentProperties CustomDocumentProperties { get; }
@@ -21,7 +21,7 @@ public CustomDocumentProperties CustomDocumentProperties { get; }
 ```csharp
 Document doc = new Document(MyDir + "Properties.docx");
 
-// Объект «Документ» содержит некоторые метаданные в своих членах.
+// Объект «Документ» содержит в своих членах некоторые метаданные.
 Console.WriteLine($"Document filename:\n\t \"{doc.OriginalFileName}\"");
 
 // Документ также хранит метаданные в своих встроенных свойствах.

@@ -3,7 +3,7 @@ title: ImportFormatOptions.SmartStyleBehavior
 second_title: Aspose.Words för .NET API Referens
 description: ImportFormatOptions fast egendom. Hämtar eller ställer in ett booleskt värde som anger hur stilar kommer att importeras när de har samma namn i käll och måldokument. Standardvärdet ärfalsk .
 type: docs
-weight: 70
+weight: 80
 url: /sv/net/aspose.words/importformatoptions/smartstylebehavior/
 ---
 ## ImportFormatOptions.SmartStyleBehavior property

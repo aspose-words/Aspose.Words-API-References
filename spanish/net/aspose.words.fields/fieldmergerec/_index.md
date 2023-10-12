@@ -3,12 +3,14 @@ title: Class FieldMergeRec
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.Fields.FieldMergeRec clase. Implementa el campo MERGEREC.
 type: docs
-weight: 2010
+weight: 2160
 url: /es/net/aspose.words.fields/fieldmergerec/
 ---
 ## FieldMergeRec class
 
 Implementa el campo MERGEREC.
+
+Para obtener más información, visite el[Trabajar con campos](https://docs.aspose.com/words/net/working-with-fields/) artículo de documentación.
 
 ```csharp
 public class FieldMergeRec : Field
@@ -28,10 +30,10 @@ public class FieldMergeRec : Field
 | [End](../../aspose.words.fields/field/end/) { get; } | Obtiene el nodo que representa el final del campo. |
 | [Format](../../aspose.words.fields/field/format/) { get; } | Obtiene un[`FieldFormat`](../fieldformat/) objeto que proporciona acceso escrito al formato del campo. |
 | [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Obtiene o establece si el resultado actual del campo ya no es correcto (obsoleto) debido a otras modificaciones realizadas en el documento. |
-| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Obtiene o establece si el campo está bloqueado (no debe recalcular su resultado). |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Obtiene o establece si el campo está bloqueado (no debe volver a calcular su resultado). |
 | [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Obtiene o establece el LCID del campo. |
 | [Result](../../aspose.words.fields/field/result/) { get; set; } | Obtiene o establece el texto que se encuentra entre el separador de campo y el final del campo. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | Obtiene el nodo que representa el separador de campos. Puede ser nulo. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Obtiene el nodo que representa el separador de campos. Puede ser`nulo` . |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Obtiene el nodo que representa el inicio del campo. |
 | virtual [Type](../../aspose.words.fields/field/type/) { get; } | Obtiene el tipo de campo de Microsoft Word. |
 
@@ -39,20 +41,20 @@ public class FieldMergeRec : Field
 
 | Nombre | Descripción |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Devuelve el texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). Se incluyen tanto el código de campo como el resultado de campo de los campos secundarios. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Devuelve el texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). |
-| [Remove](../../aspose.words.fields/field/remove/)() | Elimina el campo del documento. Devuelve un nodo justo después del campo. Si el final del campo es el último hijo de su nodo principal, devuelve su párrafo principal. Si el campo ya está eliminado, devuelve **nulo** . |
-| [Unlink](../../aspose.words.fields/field/unlink/)() | Realiza el desvinculado del campo. |
-| [Update](../../aspose.words.fields/field/update/)() | Realiza la actualización del campo. Se lanza si el campo ya se está actualizando. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Realiza una actualización de campo. Se lanza si el campo ya se está actualizando. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Devuelve texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). Se incluyen tanto el código de campo como el resultado del campo de los campos secundarios. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Devuelve texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). |
+| [Remove](../../aspose.words.fields/field/remove/)() | Elimina el campo del documento. Devuelve un nodo justo después del campo. Si el final del campo es el último hijo de su nodo principal, devuelve su párrafo principal. Si el campo ya está eliminado, devuelve`nulo` . |
+| [Unlink](../../aspose.words.fields/field/unlink/)() | Realiza la desvinculación del campo. |
+| [Update](../../aspose.words.fields/field/update/)() | Realiza la actualización del campo. Se produce si el campo ya se está actualizando. |
+| [Update](../../aspose.words.fields/field/update/)(bool) | Realiza una actualización de campo. Se produce si el campo ya se está actualizando. |
 
 ### Observaciones
 
-Por el momento los campos MERGEREC y MERGESEQ implementan la misma funcionalidad porque no sabemos a ciencia cierta cómo omitir registros en Aspose.Words mail merge.
+Por el momento los campos MERGEREC y MERGESEQ implementan la misma funcionalidad porque no sabemos con certeza cómo omitir registros en la combinación de correspondencia de Aspose.Words.
 
 ### Ejemplos
 
-Muestra cómo usar los campos MERGEREC y MERGESEQ para el número y contar los registros de combinación de correspondencia en los documentos de salida de una combinación de correspondencia.
+Muestra cómo utilizar los campos MERGEREC y MERGESEQ para numerar y contar registros de combinación de correspondencia en los documentos de salida de una combinación de correspondencia.
 
 ```csharp
 Document doc = new Document();
@@ -63,21 +65,21 @@ FieldMergeField fieldMergeField = (FieldMergeField)builder.InsertField(FieldType
 fieldMergeField.FieldName = "Name";
 builder.Writeln(",");
 
-// Un campo MERGEREC imprimirá el número de fila de los datos que se fusionan en cada documento de salida de fusión.
+// Un campo MERGEREC imprimirá el número de fila de los datos que se fusionan en cada documento de salida de la combinación.
 builder.Write("\nRow number of record in data source: ");
 FieldMergeRec fieldMergeRec = (FieldMergeRec)builder.InsertField(FieldType.FieldMergeRec, true);
 
 Assert.AreEqual(" MERGEREC ", fieldMergeRec.GetFieldCode());
 
 // Un campo MERGESEQ contará el número de fusiones exitosas e imprimirá el valor actual en cada página respectiva.
-// Si una combinación de correspondencia no omite filas y no invoca campos SKIP/SKIPIF/NEXT/NEXTIF, entonces todas las combinaciones son exitosas.
-// Los campos MERGESEQ y MERGEREC mostrarán los mismos resultados de su combinación de correo exitosa.
+// Si una combinación de correspondencia no omite ninguna fila y no invoca ningún campo SKIP/SKIPIF/NEXT/NEXTIF, todas las combinaciones se realizan correctamente.
+// Los campos MERGESEQ y MERGEREC mostrarán los mismos resultados si la combinación de correspondencia fue exitosa.
 builder.Write("\nSuccessful merge number: ");
 FieldMergeSeq fieldMergeSeq = (FieldMergeSeq)builder.InsertField(FieldType.FieldMergeSeq, true);
 
 Assert.AreEqual(" MERGESEQ ", fieldMergeSeq.GetFieldCode());
 
-// Inserte un campo SKIPIF, que omitirá una combinación si el nombre es "John Doe".
+// Inserta un campo SKIPIF, que omitirá una combinación si el nombre es "John Doe".
 FieldSkipIf fieldSkipIf = (FieldSkipIf)builder.InsertField(FieldType.FieldSkipIf, true);
 builder.MoveTo(fieldSkipIf.Separator);
 fieldMergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);
@@ -85,8 +87,8 @@ fieldMergeField.FieldName = "Name";
 fieldSkipIf.LeftExpression = "=";
 fieldSkipIf.RightExpression = "John Doe";
 
-// Cree una fuente de datos con 3 filas, una de ellas con "John Doe" como valor para la columna "Nombre".
-// Dado que un campo SKIPIF se activará una vez por ese valor, la salida de nuestra combinación de correspondencia tendrá 2 páginas en lugar de 3.
+// Crea una fuente de datos con 3 filas, una de ellas con "John Doe" como valor para la columna "Nombre".
+// Dado que un campo SKIPIF se activará una vez con ese valor, el resultado de nuestra combinación de correspondencia tendrá 2 páginas en lugar de 3.
 // En la página 1, los campos MERGESEQ y MERGEREC mostrarán "1".
 // En la página 2, el campo MERGEREC mostrará "3" y el campo MERGESEQ mostrará "2".
 DataTable table = new DataTable("Employees");
@@ -95,7 +97,7 @@ table.Rows.Add(new[] { "Jane Doe" });
 table.Rows.Add(new[] { "John Doe" });
 table.Rows.Add(new[] { "Joe Bloggs" });
 
-doc.MailMerge.Execute(table);
+doc.MailMerge.Execute(table);            
 doc.Save(ArtifactsDir + "Field.MERGEREC.MERGESEQ.docx");
 ```
 

@@ -1,14 +1,14 @@
 ---
 title: Document.PackageCustomParts
 second_title: Aspose.Words for .NET API Referansı
-description: Document mülk. Bilinmeyen ilişkiler kullanarak OOXML paketine bağlanan özel parçaların keyfi içerik koleksiyonunu alır veya ayarlar.
+description: Document mülk. Bilinmeyen ilişkiler kullanılarak OOXML paketine bağlanan özel parçaların rastgele içerik koleksiyonunu alır veya ayarlar.
 type: docs
-weight: 290
+weight: 310
 url: /tr/net/aspose.words/document/packagecustomparts/
 ---
 ## Document.PackageCustomParts property
 
-"Bilinmeyen ilişkiler" kullanarak OOXML paketine bağlanan özel parçaların (keyfi içerik) koleksiyonunu alır veya ayarlar.
+"Bilinmeyen ilişkiler" kullanılarak OOXML paketine bağlanan özel parçaların (rastgele içerik) koleksiyonunu alır veya ayarlar.
 
 ```csharp
 public CustomPartCollection PackageCustomParts { get; set; }
@@ -16,29 +16,29 @@ public CustomPartCollection PackageCustomParts { get; set; }
 
 ### Notlar
 
-Bu özel parçaları Özel XML Verileri ile karıştırmayın. Özel XML bölümlerine erişmeniz gerekiyorsa, [`CustomXmlParts`](../customxmlparts/) Emlak.
+Bu özel parçaları Özel XML Verileriyle karıştırmayın. Özel XML bölümlerine erişmeniz gerekiyorsa, şunu kullanın:[`CustomXmlParts`](../customxmlparts/) mülk.
 
-Bu koleksiyon, ebeveyni OOXML paketi olan ve hedefleri "bilinmeyen bir ilişki" olan OOXML parçalarını içerir. Daha fazla bilgi için bkz.[`CustomPart`](../../../aspose.words.markup/custompart/).
+Bu koleksiyon, üst öğesi OOXML paketi olan ve hedefleri "bilinmeyen bir ilişkiye" sahip olan OOXML parçalarını içerir. Daha fazla bilgi için bkz.[`CustomPart`](../../../aspose.words.markup/custompart/).
 
-Aspose.Words, özel parçaları yalnızca OOXML belgelerine yükler ve kaydeder.
+Aspose.Words özel parçaları yalnızca OOXML belgelerine yükler ve kaydeder.
 
 Bu özellik olamaz`hükümsüz`.
 
 ### Örnekler
 
-Bir belgenin isteğe bağlı özel parça koleksiyonuna nasıl erişileceğini gösterir.
+Bir belgenin rastgele özel parça koleksiyonuna nasıl erişileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);
 
-// İkinci bölümü klonlayın, ardından klonu koleksiyona ekleyin.
+// İkinci kısmı klonlayın, ardından klonu koleksiyona ekleyin.
 CustomPart clonedPart = doc.PackageCustomParts[1].Clone();
 doc.PackageCustomParts.Add(clonedPart);
 Assert.AreEqual(3, doc.PackageCustomParts.Count);
 
-// Koleksiyon üzerinde numaralandırın ve her parçayı yazdırın.
+// Koleksiyonun üzerinde numaralandırın ve her parçayı yazdırın.
 using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator())
 {
     int index = 0;
@@ -55,7 +55,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// Bu koleksiyondaki öğeleri tek tek veya bir kerede kaldırabiliriz.
+// Bu koleksiyondaki öğeleri tek tek veya hepsini birden kaldırabiliriz.
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);

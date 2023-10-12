@@ -3,7 +3,7 @@ title: ChartDataPointCollection.GetEnumerator
 second_title: Aspose.Words för .NET API Referens
 description: ChartDataPointCollection metod. Returnerar ett uppräkningsobjekt.
 type: docs
-weight: 40
+weight: 50
 url: /sv/net/aspose.words.drawing.charts/chartdatapointcollection/getenumerator/
 ---
 ## ChartDataPointCollection.GetEnumerator method
@@ -19,7 +19,6 @@ public IEnumerator<ChartDataPoint> GetEnumerator()
 Visar hur man arbetar med datapunkter på ett linjediagram.
 
 ```csharp
-[Test]
 public void ChartDataPoint()
 {
     Document doc = new Document();

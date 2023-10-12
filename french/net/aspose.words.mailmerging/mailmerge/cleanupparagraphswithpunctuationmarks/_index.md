@@ -31,7 +31,7 @@ Voici la liste complète des signes de ponctuation nettoyables :
 
 ### Exemples
 
-Montre comment supprimer des paragraphes avec des signes de ponctuation après une opération de fusion et publipostage.
+Montre comment supprimer des paragraphes contenant des signes de ponctuation après une opération de publipostage.
 
 ```csharp
 Document doc = new Document();
@@ -49,10 +49,10 @@ mergeFieldOption2.FieldName = "Option_2";
 doc.MailMerge.CleanupOptions = MailMergeCleanupOptions.RemoveEmptyParagraphs;
 
 // Définir la propriété "CleanupParagraphsWithPunctuationMarks" sur "true" comptera également les paragraphes
-// avec des signes de ponctuation vides et obtiendra l'opération de fusion et publipostage pour les supprimer également.
+// avec les signes de ponctuation vides et l'opération de publipostage les supprimera également.
 // Définition de la propriété "CleanupParagraphsWithPunctuationMarks" sur "false"
-// supprimera les paragraphes vides, mais pas ceux avec des signes de ponctuation.
-// Voici une liste des signes de ponctuation concernés par cette propriété : "!", ",", ".", ":", ";", "?", "¡", "¿".
+// supprimera les paragraphes vides, mais pas ceux comportant des signes de ponctuation.
+// Il s'agit d'une liste de signes de ponctuation concernés par cette propriété : "!", ",", ".", ":", ";", "?", "¡", "¿".
 doc.MailMerge.CleanupParagraphsWithPunctuationMarks = cleanupParagraphsWithPunctuationMarks;
 
 doc.MailMerge.Execute(new[] { "Option_1", "Option_2" }, new object[] { null, null });

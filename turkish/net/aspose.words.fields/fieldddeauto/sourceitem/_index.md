@@ -1,14 +1,14 @@
 ---
 title: FieldDdeAuto.SourceItem
 second_title: Aspose.Words for .NET API Referansı
-description: FieldDdeAuto mülk. Kaynak dosyanın bağlanmakta olan bölümünü alır veya ayarlar.
+description: FieldDdeAuto mülk. Kaynak dosyanın bağlanılan kısmını alır veya ayarlar.
 type: docs
 weight: 110
 url: /tr/net/aspose.words.fields/fieldddeauto/sourceitem/
 ---
 ## FieldDdeAuto.SourceItem property
 
-Kaynak dosyanın bağlanmakta olan bölümünü alır veya ayarlar.
+Kaynak dosyanın bağlanılan kısmını alır veya ayarlar.
 
 ```csharp
 public string SourceItem { get; set; }
@@ -19,12 +19,13 @@ public string SourceItem { get; set; }
 Yerel dosya sistemindeki diğer belgelere bağlanmak ve içeriklerini görüntülemek için çeşitli alan türlerinin nasıl kullanılacağını gösterir.
 
 ```csharp
+public void FieldLinkedObjectsAsText(InsertLinkedObjectAs insertLinkedObjectAs)
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Aşağıda, bağlantılı bir belgenin içeriğini metin biçiminde görüntülemek için kullanabileceğimiz üç tür alan bulunmaktadır.
-    // 1 - Bir BAĞLANTI alanı:
+    // Aşağıda bağlantılı bir belgenin içeriğini metin biçiminde görüntülemek için kullanabileceğimiz üç alan türü bulunmaktadır.
+    // 1 - BİR BAĞLANTI alanı:
     builder.Writeln("FieldLink:\n");
     InsertFieldLink(builder, insertLinkedObjectAs, "Word.Document.8", MyDir + "Document.docx", null, true);
 
@@ -42,12 +43,13 @@ Yerel dosya sistemindeki diğer belgelere bağlanmak ve içeriklerini görüntü
     doc.Save(ArtifactsDir + "Field.LINK.DDE.DDEAUTO.docx");
 }
 
+public void FieldLinkedObjectsAsImage(InsertLinkedObjectAs insertLinkedObjectAs)
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Aşağıda, bağlantılı bir belgenin içeriğini bir resim biçiminde görüntülemek için kullanabileceğimiz üç tür alan bulunmaktadır.
-    // 1 - Bir BAĞLANTI alanı:
+    // Aşağıda bağlantılı bir belgenin içeriğini resim biçiminde görüntülemek için kullanabileceğimiz üç alan türü bulunmaktadır.
+    // 1 - BİR BAĞLANTI alanı:
     builder.Writeln("FieldLink:\n");
     InsertFieldLink(builder, insertLinkedObjectAs, "Excel.Sheet", MyDir + "MySpreadsheet.xlsx",
         "Sheet1!R2C2", true);
@@ -67,7 +69,7 @@ Yerel dosya sistemindeki diğer belgelere bağlanmak ve içeriklerini görüntü
 }
 
 /// <summary>
-/// Bir BAĞLANTI alanı eklemek ve özelliklerini parametrelere göre ayarlamak için bir belge oluşturucu kullanın.
+/// Bir LINK alanı eklemek ve özelliklerini parametrelere göre ayarlamak için bir belge oluşturucu kullanın.
 /// </summary>
 private static void InsertFieldLink(DocumentBuilder builder, InsertLinkedObjectAs insertLinkedObjectAs,
     string progId, string sourceFullName, string sourceItem, bool shouldAutoUpdate)
@@ -105,7 +107,7 @@ private static void InsertFieldLink(DocumentBuilder builder, InsertLinkedObjectA
 }
 
 /// <summary>
-/// Bir DDE alanı eklemek için bir belge oluşturucu kullanın ve özelliklerini parametrelere göre ayarlayın.
+/// Bir DDE alanı eklemek ve özelliklerini parametrelere göre ayarlamak için bir belge oluşturucu kullanın.
 /// </summary>
 private static void InsertFieldDde(DocumentBuilder builder, InsertLinkedObjectAs insertLinkedObjectAs, string progId,
     string sourceFullName, string sourceItem, bool isLinked, bool shouldAutoUpdate)
@@ -144,7 +146,7 @@ private static void InsertFieldDde(DocumentBuilder builder, InsertLinkedObjectAs
 }
 
 /// <summary>
-/// Bir DDEAUTO, alan eklemek ve özelliklerini parametrelere göre ayarlamak için bir belge oluşturucu kullanın.
+/// Bir DDEAUTO alanı eklemek ve özelliklerini parametrelere göre ayarlamak için bir belge oluşturucu kullanın.
 /// </summary>
 private static void InsertFieldDdeAuto(DocumentBuilder builder, InsertLinkedObjectAs insertLinkedObjectAs,
     string progId, string sourceFullName, string sourceItem, bool isLinked)

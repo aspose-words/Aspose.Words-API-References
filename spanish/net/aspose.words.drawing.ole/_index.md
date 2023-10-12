@@ -19,6 +19,6 @@ Contiene clases para trabajar con controles y formularios OLE/ActiveX en documen
 
 | Enumeración | Descripción |
 | --- | --- |
-| [Forms2OleControlType](./forms2olecontroltype/) |  |
+| [Forms2OleControlType](./forms2olecontroltype/) | Enumera los tipos de controles de Forms 2.0. |
 
 

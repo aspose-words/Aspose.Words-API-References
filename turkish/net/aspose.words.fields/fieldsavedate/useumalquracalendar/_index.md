@@ -16,7 +16,7 @@ public bool UseUmAlQuraCalendar { get; set; }
 
 ### Örnekler
 
-Belgenin Microsoft Word kullanılarak gerçekleştirilen en son kaydetme işleminin tarihini/saatini görüntülemek için KAYDET alanının nasıl kullanılacağını gösterir.
+Belgenin Microsoft Word kullanılarak gerçekleştirilen en son kaydetme işleminin tarihini/saatini görüntülemek için KAYIT TARİHİ alanının nasıl kullanılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -24,10 +24,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.MoveToDocumentEnd();
 builder.Writeln(" Date this document was last saved:");
 
-// KAYDET alanını belge üzerinde son kaydetme işleminin tarih ve saatini görüntülemek için kullanabiliriz.
-// Bu alanların atıfta bulunduğu kaydetme işlemi, Microsoft Word gibi bir uygulamada manuel kaydetme işlemidir,
-// belgenin Kaydet yöntemi değil.
-// KAYDET alanının tarih/saati gösterebileceği üç farklı takvim türü aşağıdadır.
+// Son kaydetme işleminin tarih ve saatini belge üzerinde görüntülemek için KAYIT TARİHİ alanını kullanabiliriz.
+// Bu alanların atıfta bulunduğu kaydetme işlemi, Microsoft Word gibi bir uygulamada manuel kaydetmedir,
+// belgenin Kaydetme yöntemi değil.
+// Aşağıda KAYIT TARİHİ alanının tarih/saati görüntüleyebileceği üç farklı takvim türü bulunmaktadır.
 // 1 - İslami Ay Takvimi:
 builder.Write("According to the Lunar Calendar - ");
 FieldSaveDate field = (FieldSaveDate)builder.InsertField(FieldType.FieldSaveDate, true);
@@ -49,8 +49,8 @@ field.UseSakaEraCalendar = true;
 
 Assert.AreEqual(" SAVEDATE  \\s", field.GetFieldCode());
 
-// SAVEDATE alanları, tarih/saat değerlerini yerleşik LastSavedTime özelliğinden alır.
-// Belgenin Kaydetme yöntemi bu değeri güncellemeyecek, ancak yine de manuel olarak güncelleyebiliriz.
+// SAVEDATE alanları tarih/saat değerlerini LastSavedTime yerleşik özelliğinden alır.
+// Belgenin Kaydetme yöntemi bu değeri güncellemeyecektir ancak yine de manuel olarak güncelleyebiliriz.
 doc.BuiltInDocumentProperties.LastSavedTime = DateTime.Now;
 
 doc.UpdateFields();

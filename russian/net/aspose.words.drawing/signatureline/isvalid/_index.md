@@ -16,7 +16,7 @@ public bool IsValid { get; }
 
 ### Примеры
 
-Показывает, как подписать документ личным сертификатом и строкой подписи.
+Показывает, как подписать документ личным удостоверением и строкой подписи.
 
 ```csharp
 Document doc = new Document();
@@ -54,8 +54,8 @@ CertificateHolder certHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "a
 DigitalSignatureUtil.Sign(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.docx", 
     ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
 
-// Снова открываем наш сохраненный документ и проверяем, что свойства «IsSigned» и «IsValid» равны «true»,
-// указание на то, что строка подписи содержит подпись.
+// Снова открываем сохраненный документ и проверяем, что свойства «IsSigned» и «IsValid» равны «true»,
+// указываем, что строка подписи содержит подпись.
 doc = new Document(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 signatureLine = shape.SignatureLine;

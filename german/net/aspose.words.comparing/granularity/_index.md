@@ -1,14 +1,14 @@
 ---
 title: Enum Granularity
 second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Comparing.Granularity opsomming. Gibt die Granularität der zu verfolgenden Änderungen an wenn zwei Dokumente verglichen werden.
+description: Aspose.Words.Comparing.Granularity opsomming. Gibt die Granularität der zu verfolgenden Änderungen beim Vergleich zweier Dokumente an.
 type: docs
-weight: 280
+weight: 290
 url: /de/net/aspose.words.comparing/granularity/
 ---
 ## Granularity enumeration
 
-Gibt die Granularität der zu verfolgenden Änderungen an, wenn zwei Dokumente verglichen werden.
+Gibt die Granularität der zu verfolgenden Änderungen beim Vergleich zweier Dokumente an.
 
 ```csharp
 public enum Granularity
@@ -23,7 +23,7 @@ public enum Granularity
 
 ### Beispiele
 
-Zeigt an, um beim Vergleichen von Dokumenten eine Granularität anzugeben.
+Wird angezeigt, um beim Vergleichen von Dokumenten eine Granularität anzugeben.
 
 ```csharp
 Document docA = new Document();
@@ -34,14 +34,14 @@ Document docB = new Document();
 DocumentBuilder builderB = new DocumentBuilder(docB);
 builderB.Writeln("Lorems ipsum dolor sit amet consectetur - \"adipiscing\" elit");
 
-// Geben Sie an, ob Änderungen nachverfolgt werden
+// Geben Sie an, ob Änderungen nachverfolgt werden sollen
 // nach Zeichen ('Granularity.CharLevel') oder nach Wort ('Granularity.WordLevel').
 Aspose.Words.Comparing.CompareOptions compareOptions = new Aspose.Words.Comparing.CompareOptions();
 compareOptions.Granularity = granularity;
 
 docA.Compare(docB, "author", DateTime.Now, compareOptions);
 
-// Die Sammlung der Überarbeitungsgruppen des ersten Dokuments enthält alle Unterschiede zwischen Dokumenten.
+// Die Revisionsgruppensammlung des ersten Dokuments enthält alle Unterschiede zwischen Dokumenten.
 RevisionGroupCollection groups = docA.Revisions.Groups;
 Assert.AreEqual(5, groups.Count);
 ```

@@ -1,14 +1,14 @@
 ---
 title: Enum MailMergeCheckErrors
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Settings.MailMergeCheckErrors перечисление. Указывает как Microsoft Word будет сообщать об ошибках обнаруженных во время слияния.
+description: Aspose.Words.Settings.MailMergeCheckErrors перечисление. Указывает как Microsoft Word будет сообщать об ошибках обнаруженных во время слияния почты.
 type: docs
-weight: 5510
+weight: 5810
 url: /ru/net/aspose.words.settings/mailmergecheckerrors/
 ---
 ## MailMergeCheckErrors enumeration
 
-Указывает, как Microsoft Word будет сообщать об ошибках, обнаруженных во время слияния.
+Указывает, как Microsoft Word будет сообщать об ошибках, обнаруженных во время слияния почты.
 
 ```csharp
 public enum MailMergeCheckErrors
@@ -18,10 +18,10 @@ public enum MailMergeCheckErrors
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| Simulate | `1` | Имитация слияния и сообщения об ошибках в новом документе. |
-| PauseOnError | `2` | Завершите слияние и сделайте паузу, чтобы сообщить об ошибках. |
-| CollectErrors | `3` | Завершите слияние и сообщите об ошибках в новом документе. |
-| Default | `2` | равноPauseOnError значение. |
+| Simulate | `1` | Имитировать слияние и сообщать об ошибках в новом документе. |
+| PauseOnError | `2` | Завершите объединение и приостановите его, чтобы сообщить об ошибках. |
+| CollectErrors | `3` | Завершите объединение и сообщите об ошибках в новом документе. |
+| Default | `2` | РавноPauseOnError значение. |
 
 ### Примеры
 
@@ -38,7 +38,7 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Создаем источник данных в виде ASCII-файла с символом "|" персонаж
+// Создаем источник данных в виде ASCII-файла с символом "|" характер
 // действует как разделитель, разделяющий столбцы. Первая строка содержит имена трех столбцов,
 // и каждая последующая строка представляет собой строку с соответствующими значениями.
 string[] lines = { "FirstName|LastName|Message",
@@ -68,7 +68,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
-// Открытие этого документа в Microsoft Word приведет к выполнению слияния перед отображением содержимого. 
+ // Открытие этого документа в Microsoft Word приведет к выполнению слияния почты перед отображением содержимого.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

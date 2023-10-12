@@ -1,14 +1,14 @@
 ---
 title: LoadOptions.ConvertMetafilesToPng
 second_title: Aspose.Words for .NET API Referansı
-description: LoadOptions mülk. Meta dosyasının Wmf veyaEmf  resimler içinPng resim formatı.
+description: LoadOptions mülk. Meta dosyasının dönüştürülüp dönüştürülmeyeceğini alır veya ayarlar Wmf veyaEmf  görüntüleriPng resim formatı.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.loading/loadoptions/convertmetafilestopng/
 ---
 ## LoadOptions.ConvertMetafilesToPng property
 
-Meta dosyasının (Wmf veyaEmf ) resimler içinPng resim formatı.
+Meta dosyasının dönüştürülüp dönüştürülmeyeceğini alır veya ayarlar (Wmf veyaEmf ) görüntüleriPng resim formatı.
 
 ```csharp
 public bool ConvertMetafilesToPng { get; set; }
@@ -16,11 +16,11 @@ public bool ConvertMetafilesToPng { get; set; }
 
 ### Notlar
 
-Meta dosyaları (Wmf veyaEmf ) sıkıştırılmamış bir görüntü biçimidir ve bazen belgeyi tutmak ve işlemek için çok fazla RAM gerektirir. Bu seçenek, tüm meta dosyası görüntülerininPng belge yüklemede. Lütfen dikkat - vektör grafiklerinin raster'e dönüştürülmesi görüntülerin kalitesini düşürür.
+Meta Dosyaları (Wmf veyaEmf ) sıkıştırılmamış bir görüntü formatıdır ve bazen belgeyi tutmak ve işlemek için çok fazla RAM gerektirir. Bu seçenek, tüm meta dosya görüntüleriniPng belge yüklenirken. Lütfen unutmayın - vektör grafiklerini taramaya dönüştürme, görüntülerin kalitesini düşürür.
 
 ### Örnekler
 
-Belge yükleme sırasında WMF/EMF'nin PNG'ye nasıl dönüştürüleceğini gösterir.
+Belge yüklenirken WMF/EMF'nin PNG'ye nasıl dönüştürüleceğini gösterir.
 
 ```csharp
 Document doc = new Document();

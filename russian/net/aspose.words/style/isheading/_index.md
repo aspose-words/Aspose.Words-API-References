@@ -3,7 +3,7 @@ title: Style.IsHeading
 second_title: Справочник по API Aspose.Words для .NET
 description: Style свойство. Истинно если стиль является одним из встроенных стилей заголовков.
 type: docs
-weight: 60
+weight: 70
 url: /ru/net/aspose.words/style/isheading/
 ---
 ## Style.IsHeading property
@@ -23,7 +23,7 @@ Document doc = new Document();
 
 Assert.AreEqual(4, doc.Styles.Count);
 
-// Перечислить и перечислить все стили, которые документ, созданный с помощью Aspose.Words, содержит по умолчанию.
+// Перечисляем и перечисляем все стили, которые по умолчанию содержит документ, созданный с помощью Aspose.Words.
 using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 {
     while (stylesEnum.MoveNext())

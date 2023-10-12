@@ -1,14 +1,14 @@
 ---
 title: WarningInfoCollection.Count
 second_title: Referencia de API de Aspose.Words para .NET
-description: WarningInfoCollection propiedad. Obtiene el número de elementos que contiene la colección.
+description: WarningInfoCollection propiedad. Obtiene el número de elementos contenidos en la colección.
 type: docs
 weight: 20
 url: /es/net/aspose.words/warninginfocollection/count/
 ---
 ## WarningInfoCollection.Count property
 
-Obtiene el número de elementos que contiene la colección.
+Obtiene el número de elementos contenidos en la colección.
 
 ```csharp
 public int Count { get; }

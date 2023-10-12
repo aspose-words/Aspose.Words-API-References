@@ -8,7 +8,7 @@ url: /tr/net/aspose.words.drawing.charts/chartdatapoint/clearformat/
 ---
 ## ChartDataPoint.ClearFormat method
 
-Bu veri noktasının biçimini temizler. Özellikler, üst seride tanımlanan varsayılan değerlere ayarlanır.
+Bu veri noktasının biçimini temizler. Özellikler üst seride tanımlanan varsayılan değerlere ayarlanır.
 
 ```csharp
 public void ClearFormat()

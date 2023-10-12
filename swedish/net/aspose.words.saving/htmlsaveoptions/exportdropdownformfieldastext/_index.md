@@ -3,7 +3,7 @@ title: HtmlSaveOptions.ExportDropDownFormFieldAsText
 second_title: Aspose.Words för .NET API Referens
 description: HtmlSaveOptions fast egendom. Styr hur formulärfält i rullgardinsmenyn sparas i HTML eller MHTML. Standardvärdet ärfalsk .
 type: docs
-weight: 140
+weight: 130
 url: /sv/net/aspose.words.saving/htmlsaveoptions/exportdropdownformfieldastext/
 ---
 ## HtmlSaveOptions.ExportDropDownFormFieldAsText property

@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTagRangeStart.RemoveSelfOnly
 second_title: Справочник по API Aspose.Words для .NET
-description: StructuredDocumentTagRangeStart метод. Удаляет это начало диапазона и соответствующие конечные узлы диапазона тега структурированного документа  но сохраняет его содержимое в дереве документа.
+description: StructuredDocumentTagRangeStart метод. Удаляет этот начальный и конечный узлы диапазона из тега структурированного документа  но сохраняет его содержимое внутри дерева документа.
 type: docs
 weight: 240
 url: /ru/net/aspose.words.markup/structureddocumenttagrangestart/removeselfonly/
 ---
 ## StructuredDocumentTagRangeStart.RemoveSelfOnly method
 
-Удаляет это начало диапазона и соответствующие конечные узлы диапазона тега структурированного документа, , но сохраняет его содержимое в дереве документа.
+Удаляет этот начальный и конечный узлы диапазона из тега структурированного документа, , но сохраняет его содержимое внутри дерева документа.
 
 ```csharp
 public void RemoveSelfOnly()
@@ -16,9 +16,10 @@ public void RemoveSelfOnly()
 
 ### Примеры
 
-Показывает, как создать/удалить структурированный тег документа и его содержимое.
+Показывает, как создать/удалить тег структурированного документа и его содержимое.
 
 ```csharp
+public void SdtRangeExtendedMethods()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -27,7 +28,7 @@ public void RemoveSelfOnly()
 
     InsertStructuredDocumentTagRanges(doc, out StructuredDocumentTagRangeStart rangeStart);
 
-    // Удаляет ранжированный структурированный тег документа, но сохраняет содержимое внутри.
+    // Удаляет тег структурированного документа, но сохраняет содержимое внутри.
     rangeStart.RemoveSelfOnly();
 
     rangeStart = (StructuredDocumentTagRangeStart)doc.GetChild(
@@ -45,7 +46,7 @@ public void RemoveSelfOnly()
     Node paragraphNode = rangeStart.LastOrDefault();
     Assert.AreEqual("StructuredDocumentTag element", paragraphNode?.GetText().Trim());
 
-    // Удаляет ранжированный структурированный тег документа и содержимое внутри.
+    // Удаляет тег структурированного документа и содержимое внутри него.
     rangeStart.RemoveAllChildren();
 
     paragraphNode = rangeStart.LastOrDefault();

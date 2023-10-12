@@ -20,9 +20,9 @@ Le nom de la source de données. Chaîne vide si la source de données n'a pas d
 
 ### Remarques
 
-Si vous mettez en œuvre[`IMailMergeDataSource`](../), renvoie le nom de la source data à partir de cette propriété.
+Si vous mettez en œuvre[`IMailMergeDataSource`](../), renvoie le nom de la source data de cette propriété.
 
-Aspose.Words utilise ce nom pour correspondre au nom de région de fusion et publipostage spécifié dans le modèle de document. La comparaison entre le nom de la source de données et le nom de la région de fusion et publipostage n'est pas sensible à la casse.
+Aspose.Words utilise ce nom pour correspondre au nom de région de publipostage spécifié dans le document modèle. La comparaison entre le nom de la source de données et le nom de la région de publipostage n'est pas sensible à la casse.
 
 ### Exemples
 
@@ -37,11 +37,13 @@ public void CustomDataSource()
     builder.InsertParagraph();
     builder.InsertField(" MERGEFIELD Address ");
 
-    List<Customer> customers = new List<Customer>();
-    customers.Add(new Customer("Thomas Hardy", "120 Hanover Sq., London"));
-    customers.Add(new Customer("Paolo Accorti", "Via Monte Bianco 34, Torino"));
+    List<Customer> customers = new List<Customer>
+    {
+        new Customer("Thomas Hardy", "120 Hanover Sq., London"),
+        new Customer("Paolo Accorti", "Via Monte Bianco 34, Torino")
+    };
 
-    // Pour utiliser un objet personnalisé comme source de données, il doit implémenter l'interface IMailMergeDataSource. 
+     // Pour utiliser un objet personnalisé comme source de données, il doit implémenter l'interface IMailMergeDataSource.
     CustomerMailMergeDataSource dataSource = new CustomerMailMergeDataSource(customers);
 
     doc.MailMerge.Execute(dataSource);
@@ -65,8 +67,8 @@ public class Customer
 }
 
 /// <summary>
-/// Une source de données de publipostage personnalisée que vous implémentez pour autoriser Aspose.Words 
-/// pour fusionner les données de vos objets Customer dans des documents Microsoft Word.
+ /// Une source de données de publipostage personnalisée que vous implémentez pour autoriser Aspose.Words
+/// pour fusionner les données de vos objets Client dans des documents Microsoft Word.
 /// </summary>
 public class CustomerMailMergeDataSource : IMailMergeDataSource
 {
@@ -79,7 +81,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Le nom de la source de données. Utilisé par Aspose.Words uniquement lors de l'exécution d'un publipostage avec des régions répétables.
+    /// Le nom de la source de données. Utilisé par Aspose.Words uniquement lors de l’exécution d’un publipostage avec des régions répétables.
     /// </summary>
     public string TableName
     {

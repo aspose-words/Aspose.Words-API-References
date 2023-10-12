@@ -3,7 +3,7 @@ title: Fill.SetImage
 second_title: Aspose.Words för .NET API Referens
 description: Fill metod. Ändrar fyllningstypen till en bild.
 type: docs
-weight: 190
+weight: 250
 url: /sv/net/aspose.words.drawing/fill/setimage/
 ---
 ## SetImage(string) {#setimage_2}

@@ -1,14 +1,14 @@
 ---
 title: Document.DigitalSignatures
 second_title: Aspose.Words per .NET API Reference
-description: Document proprietà. Ottiene la raccolta delle firme digitali per questo documento e i relativi risultati di convalida.
+description: Document proprietà. Ottiene la raccolta di firme digitali per questo documento e i relativi risultati di convalida.
 type: docs
 weight: 100
 url: /it/net/aspose.words/document/digitalsignatures/
 ---
 ## Document.DigitalSignatures property
 
-Ottiene la raccolta delle firme digitali per questo documento e i relativi risultati di convalida.
+Ottiene la raccolta di firme digitali per questo documento e i relativi risultati di convalida.
 
 ```csharp
 public DigitalSignatureCollection DigitalSignatures { get; }
@@ -16,13 +16,13 @@ public DigitalSignatureCollection DigitalSignatures { get; }
 
 ### Osservazioni
 
-Questa raccolta contiene firme digitali caricate dal documento originale. Queste firme digitali non verranno salvate quando lo salvi[`Document`](../) oggetto in un file o flusso perché il salvataggio o la conversione produrrà un documento diverso dall'originale e le firme digitali originali non saranno più valide.
+Questa raccolta contiene firme digitali caricate dal documento originale. Queste firme digitali non verranno salvate quando salvi questo[`Document`](../) object in un file o flusso perché il salvataggio o la conversione produrrà un documento diverso dall'originale e le firme digitali originali non saranno più valide.
 
-Questa raccolta non è mai nulla. Se il documento non è firmato, conterrà zero elementi.
+Questa collezione non lo è mai`nullo`. Se il documento non è firmato, conterrà zero elementi.
 
 ### Esempi
 
-Mostra come convalidare e visualizzare le informazioni su ciascuna firma in un documento.
+Mostra come convalidare e visualizzare informazioni su ciascuna firma in un documento.
 
 ```csharp
 Document doc = new Document(MyDir + "Digitally signed.docx");
@@ -45,7 +45,7 @@ Mostra come firmare documenti con certificati X.509.
 // Verifica che un documento non sia firmato.
 Assert.False(FileFormatUtil.DetectFileFormat(MyDir + "Document.docx").HasDigitalSignature);
 
-// Crea un oggetto CertificateHolder da un file PKCS12, che useremo per firmare il documento.
+// Crea un oggetto CertificateHolder da un file PKCS12, che utilizzeremo per firmare il documento.
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 
 // Esistono due modi per salvare una copia firmata di un documento nel file system locale:

@@ -1,18 +1,18 @@
 ---
 title: Aspose.Words.Math
 second_title: Aspose.Words for .NET API Referansı
-description: bu Aspose.Words.Math ad alanı Office Math öğelerini temsil eden sınıfları içerir.
+description: Aspose.Words.Math Ad alanı Office Math öğelerini temsil eden sınıfları içerir.
 type: docs
-weight: 160
+weight: 170
 url: /tr/net/aspose.words.math/
 ---
-bu **Aspose.Words.Math** ad alanı, Office Math öğelerini temsil eden sınıfları içerir.
+**Aspose.Words.Math** Ad alanı, Office Math öğelerini temsil eden sınıfları içerir.
 
 ## sınıflar
 
 | Sınıf | Tanım |
 | --- | --- |
-| [OfficeMath](./officemath/) | İşlev, denklem, matris veya benzeri gibi bir Office Math nesnesini temsil eder. Matematiksel metin, yer imleri, yorumlar ve diğer diziler dahil olmak üzere alt elementler içerebilir[`OfficeMath`](../aspose.words.math/officemath/) örnekler ve diğer bazı düğümler. |
+| [OfficeMath](./officemath/) | Fonksiyon, denklem, matris veya benzeri bir Office Math nesnesini temsil eder. Matematiksel metinler, yer imleri, yorumlar ve diğer öğeler de dahil olmak üzere alt öğeler içerebilir[`OfficeMath`](../aspose.words.math/officemath/)örnekler ve diğer bazı düğümler. |
 ## numaralandırma
 
 | numaralandırma | Tanım |

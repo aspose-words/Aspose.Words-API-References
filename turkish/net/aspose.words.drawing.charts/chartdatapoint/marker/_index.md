@@ -1,12 +1,14 @@
 ---
 title: ChartDataPoint.Marker
 second_title: Aspose.Words for .NET API Referansı
-description: ChartDataPoint mülk. 
+description: ChartDataPoint mülk. Grafik veri işaretçisini belirtir.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.drawing.charts/chartdatapoint/marker/
 ---
 ## ChartDataPoint.Marker property
+
+Grafik veri işaretçisini belirtir.
 
 ```csharp
 public ChartMarker Marker { get; }

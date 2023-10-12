@@ -1,14 +1,14 @@
 ---
 title: FieldAutoNumLgl.RemoveTrailingPeriod
 second_title: Справочник по API Aspose.Words для .NET
-description: FieldAutoNumLgl свойство. Получает или задает отображать ли число без точки в конце.
+description: FieldAutoNumLgl свойство. Получает или задает следует ли отображать число без конечной точки.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldautonumlgl/removetrailingperiod/
 ---
 ## FieldAutoNumLgl.RemoveTrailingPeriod property
 
-Получает или задает, отображать ли число без точки в конце.
+Получает или задает, следует ли отображать число без конечной точки.
 
 ```csharp
 public bool RemoveTrailingPeriod { get; set; }
@@ -19,6 +19,7 @@ public bool RemoveTrailingPeriod { get; set; }
 Показывает, как организовать документ с помощью полей AUTONUMLGL.
 
 ```csharp
+public void FieldAutoNumLgl()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -26,41 +27,41 @@ public bool RemoveTrailingPeriod { get; set; }
     const string fillerText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. " +
                               "\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ";
 
-    // В полях AUTONUMLGL отображается число, которое увеличивается в каждом поле AUTONUMLGL в пределах его текущего уровня заголовка.
-    // Эти поля ведут отдельный счет для каждого уровня заголовка,
+    // Поля AUTONUMLGL отображают число, которое увеличивается в каждом поле AUTONUMLGL в пределах текущего уровня заголовка.
+    // Эти поля поддерживают отдельный счетчик для каждого уровня заголовка,
      // и каждое поле также отображает количество полей AUTONUMLGL для всех уровней заголовков ниже его собственного.
-    // Изменение счетчика для любого уровня заголовка сбрасывает счетчики для всех уровней выше этого уровня до 1.
-    // Это позволяет нам организовать наш документ в виде списка структуры.
+    // Изменение счетчика для любого уровня заголовка сбрасывает счетчики для всех уровней выше этого уровня на 1.
+    // Это позволяет нам организовать наш документ в виде структурного списка.
     // Это первое поле AUTONUMLGL на уровне заголовка 1, отображающее «1». в документе.
     InsertNumberedClause(builder, "\tHeading 1", fillerText, StyleIdentifier.Heading1);
 
-    // Это второе поле AUTONUMLGL на уровне заголовка 1, поэтому оно будет отображать «2.».
+    // Это второе поле AUTONUMLGL на уровне заголовка 1, поэтому в нем будет отображаться «2.».
     InsertNumberedClause(builder, "\tHeading 2", fillerText, StyleIdentifier.Heading1);
 
     // Это первое поле AUTONUMLGL на уровне заголовка 2,
-    // и счетчик AUTONUMLGL для уровня заголовка ниже него равен "2", поэтому он будет отображать "2.1.".
+    // и счетчик AUTONUMLGL для уровня заголовка ниже равен «2», поэтому будет отображаться «2.1.».
     InsertNumberedClause(builder, "\tHeading 3", fillerText, StyleIdentifier.Heading2);
 
-     // Это первое поле AUTONUMLGL с уровнем заголовка 3.
-    // Работая так же, как поле выше, оно будет отображать «2.1.1.».
+     // Это первое поле AUTONUMLGL на уровне заголовка 3.
+    // Работая так же, как и поле выше, оно отобразит «2.1.1.».
     InsertNumberedClause(builder, "\tHeading 4", fillerText, StyleIdentifier.Heading3);
 
-    // Это поле находится на уровне заголовка 2, и его соответствующий счетчик AUTONUMLGL равен 2, поэтому в поле будет отображаться «2.2.».
+    // Уровень заголовка этого поля равен 2, а соответствующий счетчик AUTONUMLGL равен 2, поэтому в поле будет отображаться «2.2.».
     InsertNumberedClause(builder, "\tHeading 5", fillerText, StyleIdentifier.Heading2);
 
     // Увеличение счетчика AUTONUMLGL для уровня заголовка ниже этого
-    // сбросил счётчик для этого уровня, так что в этом поле будет отображаться «2.2.1.».
+    // сбросил счетчик для этого уровня, чтобы в этом поле отображалось «2.2.1.».
     InsertNumberedClause(builder, "\tHeading 6", fillerText, StyleIdentifier.Heading3);
 
     foreach (FieldAutoNumLgl field in doc.Range.Fields.Where(f => f.Type == FieldType.FieldAutoNumLegal))
     {
-        // Символ-разделитель, который появляется в поле результата сразу после числа,
+        // Символ-разделитель, который появляется в результате поля сразу после числа,
         // по умолчанию является точкой. Если мы оставим это свойство нулевым,
         // наше последнее поле AUTONUMLGL будет отображать «2.2.1». в документе.
         Assert.IsNull(field.SeparatorCharacter);
 
-        // Установка пользовательского символа-разделителя и удаление завершающей точки
-        // изменит внешний вид этого поля с «2.2.1». до "2:2:1".
+        // Установка пользовательского символа-разделителя и удаление конечной точки
+        // изменит внешний вид этого поля с «2.2.1». на «2:2:1».
         // Мы применим это ко всем полям, которые мы создали.
         field.SeparatorCharacter = ":";
         field.RemoveTrailingPeriod = true;
@@ -68,9 +69,10 @@ public bool RemoveTrailingPeriod { get; set; }
     }
 
     doc.Save(ArtifactsDir + "Field.AUTONUMLGL.docx");
+}
 
 /// <summary>
-/// Использует конструктор документов для вставки предложения, пронумерованного полем AUTONUMLGL.
+/// Использует построитель документов для вставки предложения, пронумерованного полем AUTONUMLGL.
 /// </summary>
 private static void InsertNumberedClause(DocumentBuilder builder, string heading, string contents, StyleIdentifier headingStyle)
 {
@@ -78,7 +80,7 @@ private static void InsertNumberedClause(DocumentBuilder builder, string heading
     builder.CurrentParagraph.ParagraphFormat.StyleIdentifier = headingStyle;
     builder.Writeln(heading);
 
-    // Этот текст будет принадлежать правовому полю auto num над ним.
+    // Этот текст будет принадлежать допустимому полю auto num над ним.
     // Он свернется, когда мы щелкнем стрелку рядом с соответствующим полем AUTONUMLGL в Microsoft Word.
     builder.CurrentParagraph.ParagraphFormat.StyleIdentifier = StyleIdentifier.BodyText;
     builder.Writeln(contents);

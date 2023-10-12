@@ -1,14 +1,14 @@
 ---
 title: Paragraph.ParagraphBreakFont
 second_title: Aspose.Words for .NET API 参考
-description: Paragraph 财产. 提供对分段符的字体格式的访问
+description: Paragraph 财产. 提供对段落分隔符的字体格式的访问
 type: docs
 weight: 180
 url: /zh/net/aspose.words/paragraph/paragraphbreakfont/
 ---
 ## Paragraph.ParagraphBreakFont property
 
-提供对分段符的字体格式的访问。
+提供对段落分隔符的字体格式的访问。
 
 ```csharp
 public Font ParagraphBreakFont { get; }
@@ -19,15 +19,15 @@ public Font ParagraphBreakFont { get; }
 演示如何使用 DocumentVisitor 实现从文档中删除所有隐藏内容。
 
 ```csharp
+public void RemoveHiddenContentFromDocument()
 {
     Document doc = new Document(MyDir + "Hidden content.docx");
-
     RemoveHiddenContentVisitor hiddenContentRemover = new RemoveHiddenContentVisitor();
 
-    // 下面是可以接受文档访问者的三种类型的字段，
+    // 以下是可以接受文档访问者的三种类型的字段，
     // 这将允许它访问接受节点，然后以深度优先的方式遍历其子节点。
     // 1 - 段落节点：
-    Paragraph para = (Paragraph) doc.GetChild(NodeType.Paragraph, 4, true);
+    Paragraph para = (Paragraph)doc.GetChild(NodeType.Paragraph, 4, true);
     para.Accept(hiddenContentRemover);
 
     // 2 - 表节点：
@@ -38,9 +38,10 @@ public Font ParagraphBreakFont { get; }
     doc.Accept(hiddenContentRemover);
 
     doc.Save(ArtifactsDir + "Font.RemoveHiddenContentFromDocument.docx");
+}
 
 /// <summary>
-/// 删除所有标记为“隐藏内容”的访问节点。
+/// 删除所有标记为“隐藏内容”的已访问节点。
 /// </summary>
 public class RemoveHiddenContentVisitor : DocumentVisitor
 {
@@ -133,7 +134,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到评论时调用。
+    /// 在文档中遇到注释时调用。
     /// </summary>
     public override VisitorAction VisitCommentStart(Comment comment)
     {
@@ -155,7 +156,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到 SpecialCharacter 时调用。
+    /// 在文档中遇到特殊字符时调用。
     /// </summary>
     public override VisitorAction VisitSpecialChar(SpecialChar specialChar)
     {
@@ -166,16 +167,16 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中结束访问 Table 节点时调用。
+    /// 文档中Table节点访问结束时调用。
     /// </summary>
     public override VisitorAction VisitTableEnd(Table table)
     {
-        // 表格单元格内的内容可能有隐藏内容标志，但表格本身没有。
-        // 如果这个表只有隐藏的内容，这个访问者会删除所有的，
-        // 这样就没有子节点了。
+        // 表格单元格内的内容可能具有隐藏内容标志，但表格本身不能。
+        // 如果该表只有隐藏内容，则该访问者将删除所有内容，
+        // 这样就不会剩下任何子节点了。
         // 因此，我们也可以将表格本身视为隐藏内容并将其删除。
-        // 为空但没有隐藏内容的表格将包含带有空段落的单元格，
-        // 此访问者不会删除。
+        // 为空但没有隐藏内容的表格将具有内部带有空段落的单元格，
+        // 该访问者不会删除它。
         if (!table.HasChildNodes)
             table.Remove();
 
@@ -194,7 +195,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中对 Row 节点的访问结束时调用。
+    /// 文档中Row节点访问结束时调用。
     /// </summary>
     public override VisitorAction VisitRowEnd(Row row)
     {

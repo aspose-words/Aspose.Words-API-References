@@ -1,14 +1,14 @@
 ---
 title: FontSavingArgs.FontFileName
 second_title: Referencia de API de Aspose.Words para .NET
-description: FontSavingArgs propiedad. Obtiene o establece el nombre del archivo sin la ruta donde se guardará la fuente.
+description: FontSavingArgs propiedad. Obtiene o establece el nombre del archivo sin ruta donde se guardará la fuente.
 type: docs
 weight: 40
 url: /es/net/aspose.words.saving/fontsavingargs/fontfilename/
 ---
 ## FontSavingArgs.FontFileName property
 
-Obtiene o establece el nombre del archivo (sin la ruta) donde se guardará la fuente.
+Obtiene o establece el nombre del archivo (sin ruta) donde se guardará la fuente.
 
 ```csharp
 public string FontFileName { get; set; }
@@ -18,13 +18,13 @@ public string FontFileName { get; set; }
 
 Esta propiedad le permite redefinir cómo se generan los nombres de los archivos de fuentes durante la exportación a HTML.
 
-Cuando se activa el evento, esta propiedad contiene el nombre de archivo que Aspose.Words generó . Puede cambiar el valor de esta propiedad para guardar la fuente en un archivo diferente. Tenga en cuenta que los nombres de los archivos deben ser únicos.
+Cuando se activa el evento, esta propiedad contiene el nombre del archivo generado por Aspose.Words. Puede cambiar el valor de esta propiedad para guardar la fuente en un archivo diferente. Tenga en cuenta que los nombres de los archivos deben ser únicos.
 
-Aspose.Words genera automáticamente un nombre de archivo único para cada fuente incrustada al exportar a formato HTML. La forma en que se genera el nombre del archivo de fuente depende de si guarda el documento en un archivo o en una secuencia.
+Aspose.Words genera automáticamente un nombre de archivo único para cada fuente incrustada cuando exporta a formato HTML. La forma en que se genera el nombre del archivo de fuente depende de si guarda el documento en un archivo o en una secuencia.
 
-Al guardar un documento en un archivo, el nombre del archivo de fuente generado se ve como &lt;nombre del archivo base del documento&gt;.&lt;nombre del archivo original&gt;&lt;sufijo opcional&gt;.&lt;extensión&gt;.
+Al guardar un documento en un archivo, el nombre del archivo de fuente generado se parece a &lt;nombre de archivo base del documento&gt;.&lt;nombre de archivo original&gt;&lt;sufijo opcional&gt;.&lt;extensión&gt;.
 
-Al guardar un documento en una secuencia, el nombre del archivo de fuente generado se parece a Aspose.Words.&lt;GUID del documento&gt;.&lt;nombre del archivo original&gt;&lt;sufijo opcional&gt;.&lt;extensión&gt;.
+Al guardar un documento en una secuencia, el nombre del archivo de fuente generado se parece a Aspose.Words.&lt;guid del documento&gt;.&lt;nombre del archivo original&gt;&lt;sufijo opcional&gt;.&lt;extensión&gt;.
 
 `FontFileName` debe contener solo el nombre del archivo sin la ruta. Aspose.Words determina la ruta para guardar usando el nombre del archivo del documento, el[`FontsFolder`](../../htmlsaveoptions/fontsfolder/) y [`FontsFolderAlias`](../../htmlsaveoptions/fontsfolderalias/) propiedades.
 
@@ -33,11 +33,12 @@ Al guardar un documento en una secuencia, el nombre del archivo de fuente genera
 Muestra cómo definir una lógica personalizada para exportar fuentes al guardar en HTML.
 
 ```csharp
+public void SaveExportedFonts()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
-    // Configure un objeto SaveOptions para exportar fuentes a archivos separados.
-    // Establezca una devolución de llamada que manejará el guardado de fuentes de manera personalizada.
+    // Configurar un objeto SaveOptions para exportar fuentes a archivos separados.
+    // Establece una devolución de llamada que manejará el guardado de fuentes de forma personalizada.
     HtmlSaveOptions options = new HtmlSaveOptions
     {
         ExportFontResources = true,
@@ -51,6 +52,8 @@ Muestra cómo definir una lógica personalizada para exportar fuentes al guardar
     {
         Console.WriteLine(fontFilename);
     }
+
+}
 
 /// <summary>
 /// Imprime información sobre las fuentes exportadas y las guarda en la misma carpeta del sistema local que su salida .html.
@@ -74,7 +77,7 @@ public class HandleFontSaving : IFontSavingCallback
         // 1 - Guárdelo en una ubicación del sistema de archivos local:
         args.FontFileName = args.OriginalFileName.Split(Path.DirectorySeparatorChar).Last();
 
-        // 2 - Guardarlo en una secuencia:
+        // 2 - Guárdalo en una secuencia:
         args.FontStream =
             new FileStream(ArtifactsDir + args.OriginalFileName.Split(Path.DirectorySeparatorChar).Last(), FileMode.Create);
         Assert.False(args.KeepFontStreamOpen);

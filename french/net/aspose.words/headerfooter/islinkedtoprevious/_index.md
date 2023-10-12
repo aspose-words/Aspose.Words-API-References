@@ -1,14 +1,14 @@
 ---
 title: HeaderFooter.IsLinkedToPrevious
 second_title: Référence de l'API Aspose.Words pour .NET
-description: HeaderFooter propriété. Vrai si cet entête ou ce pied de page est lié à lentête ou au pied de page correspondant dans la section précédente.
+description: HeaderFooter propriété. Vrai si cet entête ou pied de page est lié à lentête ou au pied de page correspondant dans la section précédente.
 type: docs
 weight: 40
 url: /fr/net/aspose.words/headerfooter/islinkedtoprevious/
 ---
 ## HeaderFooter.IsLinkedToPrevious property
 
-Vrai si cet en-tête ou ce pied de page est lié à l'en-tête ou au pied de page correspondant dans la section précédente.
+Vrai si cet en-tête ou pied de page est lié à l'en-tête ou au pied de page correspondant dans la section précédente.
 
 ```csharp
 public bool IsLinkedToPrevious { get; set; }
@@ -16,9 +16,9 @@ public bool IsLinkedToPrevious { get; set; }
 
 ### Remarques
 
-La valeur par défaut est true.
+La valeur par défaut est`vrai`.
 
-Notez que lorsque votre lien est un en-tête ou un pied de page, son contenu est effacé.
+Notez que lorsque vous créez un lien vers un en-tête ou un pied de page, son contenu est effacé.
 
 ### Exemples
 
@@ -49,24 +49,24 @@ builder.Write("This is the footer, which will be displayed in sections 1, 2 and 
 doc.Sections[1].HeadersFooters.LinkToPrevious(true);
 
 // Chaque section aura toujours ses propres objets d'en-tête/pied de page. Lorsque nous lions des sections,
-// la section de liaison affichera les en-têtes/pieds de page de la section liée tout en gardant les siens.
+// la section de liaison affichera l'en-tête/pied de page de la section liée tout en conservant les siens.
 Assert.AreNotEqual(doc.Sections[0].HeadersFooters[0], doc.Sections[1].HeadersFooters[0]);
 Assert.AreNotEqual(doc.Sections[0].HeadersFooters[0].ParentSection, doc.Sections[1].HeadersFooters[0].ParentSection);
 
-// Lie les en-têtes/pieds de page de la troisième section aux en-têtes/pieds de page de la deuxième section.
+// Liez les en-têtes/pieds de page de la troisième section aux en-têtes/pieds de page de la deuxième section.
 // La deuxième section est déjà liée aux en-têtes/pieds de page de la première section,
-// donc la liaison à la deuxième section créera une chaîne de liens.
-// La première, la deuxième et maintenant la troisième section afficheront toutes les en-têtes de la première section.
+// donc créer un lien vers la deuxième section créera une chaîne de liens.
+// Les première, deuxième et maintenant troisième sections afficheront toutes les en-têtes de la première section.
 doc.Sections[2].HeadersFooters.LinkToPrevious(true);
 
-// Nous pouvons dissocier les en-têtes/pieds de page d'une section précédente en passant "false" lors de l'appel de la méthode LinkToPrevious.
+// Nous pouvons dissocier l'en-tête/pied de page d'une section précédente en passant "false" lors de l'appel de la méthode LinkToPrevious.
 doc.Sections[2].HeadersFooters.LinkToPrevious(false);
 
-// Nous pouvons également sélectionner uniquement un type spécifique d'en-tête/de pied de page à lier à l'aide de cette méthode.
+// Nous pouvons également sélectionner uniquement un type spécifique d'en-tête/pied de page à lier en utilisant cette méthode.
 // La troisième section aura désormais le même pied de page que les deuxième et première sections, mais pas l'en-tête.
 doc.Sections[2].HeadersFooters.LinkToPrevious(HeaderFooterType.FooterPrimary, true);
 
-// Les en-têtes/pieds de page de la première section ne peuvent pas se lier à quoi que ce soit car il n'y a pas de section précédente.
+// L'en-tête/pied de page de la première section ne peut pas se lier à quoi que ce soit car il n'y a pas de section précédente.
 Assert.AreEqual(2, doc.Sections[0].HeadersFooters.Count);
 Assert.AreEqual(2, doc.Sections[0].HeadersFooters.Count(hf => !((HeaderFooter)hf).IsLinkedToPrevious));
 

@@ -3,7 +3,7 @@ title: Style.IsHeading
 second_title: Aspose.Words for .NET API 参考
 description: Style 财产. 当样式是内置标题样式之一时为真
 type: docs
-weight: 60
+weight: 70
 url: /zh/net/aspose.words/style/isheading/
 ---
 ## Style.IsHeading property
@@ -16,7 +16,7 @@ public bool IsHeading { get; }
 
 ### 例子
 
-展示如何访问文档的样式集合。
+演示如何访问文档的样式集合。
 
 ```csharp
 Document doc = new Document();

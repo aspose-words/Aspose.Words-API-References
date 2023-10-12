@@ -1,14 +1,14 @@
 ---
 title: CompositeNode.GetText
 second_title: Aspose.Words لمراجع .NET API
-description: CompositeNode طريقة. يحصل على نص هذه العقدة وجميع توابعها.
+description: CompositeNode طريقة. الحصول على نص هذه العقدة وجميع أبنائها.
 type: docs
-weight: 120
+weight: 130
 url: /ar/net/aspose.words/compositenode/gettext/
 ---
 ## CompositeNode.GetText method
 
-يحصل على نص هذه العقدة وجميع توابعها.
+الحصول على نص هذه العقدة وجميع أبنائها.
 
 ```csharp
 public override string GetText()
@@ -16,11 +16,11 @@ public override string GetText()
 
 ### ملاحظات
 
-تتضمن السلسلة التي تم إرجاعها كل عناصر التحكم والأحرف الخاصة كما هو موضح في[`ControlChar`](../../controlchar/).
+تتضمن السلسلة التي تم إرجاعها جميع عناصر التحكم والأحرف الخاصة كما هو موضح في[`ControlChar`](../../controlchar/).
 
 ### أمثلة
 
-يظهر الفرق بين استدعاء الأسلوبين GetText و ToString على العقدة.
+يُظهر الفرق بين استدعاء طريقتي GetText وToString على العقدة.
 
 ```csharp
 Document doc = new Document();
@@ -28,14 +28,14 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.InsertField("MERGEFIELD Field");
 
-// سوف يقوم GetText باسترداد النص المرئي بالإضافة إلى رموز الحقول والأحرف الخاصة.
+// سيقوم GetText باسترداد النص المرئي بالإضافة إلى رموز الحقول والأحرف الخاصة.
 Assert.AreEqual("\u0013MERGEFIELD Field\u0014«Field»\u0015\u000c", doc.GetText());
 
-// سيعطينا ToString مظهر المستند إذا تم حفظه بتنسيق حفظ تم تمريره.
+// ToString سيعطينا مظهر المستند إذا تم حفظه بتنسيق حفظ تم تمريره.
 Assert.AreEqual("«Field»\r\n", doc.ToString(SaveFormat.Text));
 ```
 
-يوضح كيفية إخراج كل الفقرات في مستند تكون من عناصر القائمة.
+يوضح كيفية إخراج كافة الفقرات في مستند عبارة عن عناصر قائمة.
 
 ```csharp
 Document doc = new Document();

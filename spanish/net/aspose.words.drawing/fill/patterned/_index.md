@@ -3,7 +3,7 @@ title: Fill.Patterned
 second_title: Referencia de API de Aspose.Words para .NET
 description: Fill método. Establece el relleno especificado en un patrón.
 type: docs
-weight: 170
+weight: 230
 url: /es/net/aspose.words.drawing/fill/patterned/
 ---
 ## Patterned(PatternType) {#patterned}
@@ -30,7 +30,7 @@ Fill fill = shape.Fill;
 
 Console.WriteLine("Pattern value is: {0}", fill.Pattern);
 
-// Hay varias formas de especificar el relleno de un patrón.
+// Hay varias formas de rellenar un patrón.
 // 1 - Aplicar patrón al relleno de forma:
 fill.Patterned(PatternType.DiagonalBrick);
 
@@ -75,7 +75,7 @@ Fill fill = shape.Fill;
 
 Console.WriteLine("Pattern value is: {0}", fill.Pattern);
 
-// Hay varias formas de especificar el relleno de un patrón.
+// Hay varias formas de rellenar un patrón.
 // 1 - Aplicar patrón al relleno de forma:
 fill.Patterned(PatternType.DiagonalBrick);
 

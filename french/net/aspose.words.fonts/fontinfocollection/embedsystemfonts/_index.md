@@ -1,16 +1,16 @@
 ---
 title: FontInfoCollection.EmbedSystemFonts
 second_title: Référence de l'API Aspose.Words pour .NET
-description: FontInfoCollection propriété. Spécifie sil faut ou non incorporer les polices système dans le document. La valeur par défaut de cette propriété est faux.
+description: FontInfoCollection propriété. Spécifie sil faut ou non intégrer les polices système dans le document. La valeur par défaut de cette propriété estFAUX.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fonts/fontinfocollection/embedsystemfonts/
 ---
 ## FontInfoCollection.EmbedSystemFonts property
 
-Spécifie s'il faut ou non incorporer les polices système dans le document. La valeur par défaut de cette propriété est **faux**.
+Spécifie s'il faut ou non intégrer les polices système dans le document. La valeur par défaut de cette propriété est`FAUX`.
 
-Cette option ne fonctionne que lorsque[`EmbedTrueTypeFonts`](../embedtruetypefonts/) l'option est définie sur **vrai**.
+Cette option ne fonctionne que lorsque[`EmbedTrueTypeFonts`](../embedtruetypefonts/) l'option est définie sur`vrai`.
 
 ```csharp
 public bool EmbedSystemFonts { get; set; }
@@ -18,7 +18,7 @@ public bool EmbedSystemFonts { get; set; }
 
 ### Remarques
 
-Définir cette propriété sur`Vrai`est utile si l'utilisateur se trouve sur un système d'Asie de l'Est et souhaite créer un document lisible par d'autres qui n'ont pas de polices pour cette langue sur leur système. Par exemple, un utilisateur sur un système japonais pourrait choisir d'incorporer les polices dans un document afin que le document japonais soit lisible sur tous les systèmes.
+Définir cette propriété sur`vrai`est utile si l'utilisateur se trouve sur un système d'Asie de l'Est et souhaite créer un document lisible par d'autres personnes qui n'ont pas de polices pour cette langue sur leur système. Par exemple, un utilisateur sur un système japonais pourrait choisir d'incorporer les polices dans un document afin que le document japonais soit lisible sur tous les systèmes.
 
 Cette option fonctionne uniquement pour les formats DOC, DOCX et RTF.
 

@@ -22,14 +22,14 @@ La valeur par défaut est une chaîne vide. Une valeur valide doit être une cha
 
 ### Exemples
 
-Montre comment accéder à la collection de parties personnalisées arbitraires d'un document.
+Montre comment accéder à la collection de pièces personnalisées arbitraires d’un document.
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);
 
-// Clone la deuxième partie, puis ajoute le clone à la collection.
+// Clonez la deuxième partie, puis ajoutez le clone à la collection.
 CustomPart clonedPart = doc.PackageCustomParts[1].Clone();
 doc.PackageCustomParts.Add(clonedPart);
 Assert.AreEqual(3, doc.PackageCustomParts.Count);
@@ -51,7 +51,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// Nous pouvons supprimer des éléments de cette collection individuellement ou tous à la fois.
+// Nous pouvons supprimer des éléments de cette collection individuellement ou tous en même temps.
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);

@@ -3,7 +3,7 @@ title: PageSetup.TextColumns
 second_title: Aspose.Words for .NET API Referansı
 description: PageSetup mülk. Metin sütunları kümesini temsil eden bir koleksiyon döndürür.
 type: docs
-weight: 410
+weight: 420
 url: /tr/net/aspose.words/pagesetup/textcolumns/
 ---
 ## PageSetup.TextColumns property

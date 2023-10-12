@@ -3,12 +3,14 @@ title: Class AxisBound
 second_title: Aspose.Words für .NET-API-Referenz
 description: Aspose.Words.Drawing.Charts.AxisBound klas. Stellt die minimale oder maximale Grenze der Achsenwerte dar.
 type: docs
-weight: 500
+weight: 510
 url: /de/net/aspose.words.drawing.charts/axisbound/
 ---
 ## AxisBound class
 
 Stellt die minimale oder maximale Grenze der Achsenwerte dar.
+
+Um mehr zu erfahren, besuchen Sie die[Arbeiten mit Diagrammen](https://docs.aspose.com/words/net/working-with-charts/) Dokumentationsartikel.
 
 ```csharp
 public sealed class AxisBound
@@ -18,29 +20,29 @@ public sealed class AxisBound
 
 | Name | Beschreibung |
 | --- | --- |
-| [AxisBound](axisbound/#constructor)() | Erstellt eine neue Instanz, die angibt, dass die Achsenbegrenzung automatisch von einer Textverarbeitungsanwendung bestimmt werden soll. |
-| [AxisBound](axisbound/#constructor_2)(DateTime) | Erstellt eine Achsengrenze, die als datetime-Wert dargestellt wird. |
+| [AxisBound](axisbound/#constructor)() | Erstellt eine neue Instanz, die angibt, dass die Achsengrenze automatisch von einer Textverarbeitungsanwendung bestimmt werden soll. |
+| [AxisBound](axisbound/#constructor_2)(DateTime) | Erstellt eine Achsengrenze, die als Datum/Uhrzeit-Wert dargestellt wird. |
 | [AxisBound](axisbound/#constructor_1)(double) | Erstellt eine als Zahl dargestellte Achsengrenze. |
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| [IsAuto](../../aspose.words.drawing.charts/axisbound/isauto/) { get; } | Gibt ein Flag zurück, das angibt, dass die Achsenbegrenzung automatisch bestimmt werden soll. |
-| [Value](../../aspose.words.drawing.charts/axisbound/value/) { get; } | Gibt den numerischen Wert der Achsenbegrenzung zurück. |
-| [ValueAsDate](../../aspose.words.drawing.charts/axisbound/valueasdate/) { get; } | Gibt den Wert der Achsengrenze zurück, dargestellt als datetime. |
+| [IsAuto](../../aspose.words.drawing.charts/axisbound/isauto/) { get; } | Gibt ein Flag zurück, das angibt, dass die Achsengrenze automatisch bestimmt werden soll. |
+| [Value](../../aspose.words.drawing.charts/axisbound/value/) { get; } | Gibt den numerischen Wert der Achsengrenze zurück. |
+| [ValueAsDate](../../aspose.words.drawing.charts/axisbound/valueasdate/) { get; } | Gibt den Wert der Achsengrenze zurück, dargestellt als Datum/Uhrzeit. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| override [Equals](../../aspose.words.drawing.charts/axisbound/equals/)(object) | Bestimmt, ob das angegebene Objekt im Wert dem aktuellen Objekt entspricht. |
+| override [Equals](../../aspose.words.drawing.charts/axisbound/equals/)(object) | Bestimmt, ob das angegebene Objekt den gleichen Wert wie das aktuelle Objekt hat. |
 | override [GetHashCode](../../aspose.words.drawing.charts/axisbound/gethashcode/)() | Dient als Hash-Funktion für diesen Typ. |
 | override [ToString](../../aspose.words.drawing.charts/axisbound/tostring/)() | Gibt eine benutzerfreundliche Zeichenfolge zurück, die den Wert dieses Objekts anzeigt. |
 
 ### Bemerkungen
 
-Bound kann als numerischer, datetime- oder spezieller "auto"-Wert angegeben werden.
+Bound kann als numerischer Wert, Datum/Uhrzeit-Wert oder spezieller „Auto“-Wert angegeben werden.
 
 Die Instanzen dieser Klasse sind unveränderlich.
 
@@ -67,7 +69,7 @@ chart.Series.Add("Aspose Test Series",
     },
     new[] { 1.2, 0.3, 2.1, 2.9, 4.2, 5.3 });
 
-// Untere und obere Grenzen für die X-Achse setzen.
+// Untere und obere Grenze für die X-Achse festlegen.
 ChartAxis xAxis = chart.AxisX;
 xAxis.Scaling.Minimum = new AxisBound(new DateTime(2017, 11, 05).ToOADate());
 xAxis.Scaling.Maximum = new AxisBound(new DateTime(2017, 12, 03));
@@ -78,8 +80,10 @@ xAxis.MajorUnit = 7.0d;
 xAxis.MajorTickMark = AxisTickMark.Cross;
 xAxis.MinorUnit = 1.0d;
 xAxis.MinorTickMark = AxisTickMark.Outside;
+xAxis.HasMajorGridlines = true;
+xAxis.HasMinorGridlines = true;
 
-// Eigenschaften der Y-Achse für Dezimalwerte definieren.
+// Y-Achsen-Eigenschaften für Dezimalwerte definieren.
 ChartAxis yAxis = chart.AxisY;
 yAxis.TickLabelPosition = AxisTickLabelPosition.High;
 yAxis.MajorUnit = 100.0d;
@@ -87,6 +91,8 @@ yAxis.MinorUnit = 50.0d;
 yAxis.DisplayUnit.Unit = AxisBuiltInUnit.Hundreds;
 yAxis.Scaling.Minimum = new AxisBound(100);
 yAxis.Scaling.Maximum = new AxisBound(700);
+yAxis.HasMajorGridlines = true;
+yAxis.HasMinorGridlines = true;
 
 doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 ```

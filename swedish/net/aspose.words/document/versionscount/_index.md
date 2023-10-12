@@ -3,7 +3,7 @@ title: Document.VersionsCount
 second_title: Aspose.Words för .NET API Referens
 description: Document fast egendom. Hämtar antalet dokumentversioner som lagrades i DOCdokumentet.
 type: docs
-weight: 440
+weight: 460
 url: /sv/net/aspose.words/document/versionscount/
 ---
 ## Document.VersionsCount property

@@ -1,14 +1,14 @@
 ---
 title: FileFormatInfo.HasDigitalSignature
 second_title: Référence de l'API Aspose.Words pour .NET
-description: FileFormatInfo propriété. Renvoie vrai si ce document contient une signature numérique. Cette propriété informe simplement quune signature numérique est présente sur un document mais elle ne précise pas si la signature est valide ou non.
+description: FileFormatInfo propriété. Retoursvraisi ce document contient une signature numérique. Cette propriété informe simplement quune signature numérique est présente sur un document mais elle ne précise pas si la signature est valide ou non.
 type: docs
 weight: 20
 url: /fr/net/aspose.words/fileformatinfo/hasdigitalsignature/
 ---
 ## FileFormatInfo.HasDigitalSignature property
 
-Renvoie vrai si ce document contient une signature numérique. Cette propriété informe simplement qu'une signature numérique est présente sur un document, mais elle ne précise pas si la signature est valide ou non.
+Retours`vrai`si ce document contient une signature numérique. Cette propriété informe simplement qu'une signature numérique est présente sur un document, mais elle ne précise pas si la signature est valide ou non.
 
 ```csharp
 public bool HasDigitalSignature { get; }
@@ -16,7 +16,7 @@ public bool HasDigitalSignature { get; }
 
 ### Remarques
 
-Cette propriété existe pour vous aider à trier les documents signés numériquement de ceux qui ne le sont pas. Si vous utilisez Aspose.Words pour modifier et enregistrer un document signé numériquement, la signature numérique sera perdue. C'est voulu, car une signature numérique existe pour protéger l'authenticité d'un document. En utilisant cette propriété, vous pouvez détecter les documents signés numériquement avant de les traiter de la même manière que les documents normaux et prendre des mesures pour éviter de perdre la signature numérique, par exemple avertir l'utilisateur.
+Cette propriété existe pour vous aider à trier les documents signés numériquement de ceux qui ne le sont pas. Si vous utilisez Aspose.Words pour modifier et enregistrer un document signé numériquement, la signature numérique sera perdue. C'est intentionnel car une signature numérique existe pour protéger l'authenticité d'un document. En utilisant cette propriété, vous pouvez détecter les documents signés numériquement avant de les traiter de la même manière que les documents normaux et prendre certaines mesures pour éviter de perdre la signature numérique, par exemple en informer l'utilisateur.
 
 ### Exemples
 

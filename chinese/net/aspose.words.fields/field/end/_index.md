@@ -1,14 +1,14 @@
 ---
 title: Field.End
 second_title: Aspose.Words for .NET API 参考
-description: Field 财产. 获取代表字段end的节点
+description: Field 财产. 获取表示字段结束的节点
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/field/end/
 ---
 ## Field.End property
 
-获取代表字段end的节点。
+获取表示字段结束的节点。
 
 ```csharp
 public FieldEnd End { get; }
@@ -19,6 +19,7 @@ public FieldEnd End { get; }
 展示如何使用字段集合。
 
 ```csharp
+public void FieldCollection()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -57,6 +58,7 @@ public FieldEnd End { get; }
     }
 
     Console.WriteLine(fieldVisitor.GetText());
+}
 
 /// <summary>
 /// 打印字段信息的文档访问者实现。

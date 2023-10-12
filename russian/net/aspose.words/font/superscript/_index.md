@@ -1,14 +1,14 @@
 ---
 title: Font.Superscript
 second_title: Справочник по API Aspose.Words для .NET
-description: Font свойство. Истинно если шрифт отформатирован как надстрочный.
+description: Font свойство. True если шрифт отформатирован как надстрочный.
 type: docs
 weight: 440
 url: /ru/net/aspose.words/font/superscript/
 ---
 ## Font.Superscript property
 
-Истинно, если шрифт отформатирован как надстрочный.
+True, если шрифт отформатирован как надстрочный.
 
 ```csharp
 public bool Superscript { get; set; }
@@ -20,7 +20,7 @@ public bool Superscript { get; set; }
 
 ```csharp
 Document doc = new Document();
-Paragraph para = (Paragraph) doc.GetChild(NodeType.Paragraph, 0, true);
+Paragraph para = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
 
 // Поднимите этот фрагмент текста на 5 пунктов выше базовой линии.
 Run run = new Run(doc, "Raised text. ");
@@ -36,12 +36,12 @@ para.AppendChild(run);
 run = new Run(doc, "Text in its default position. ");
 para.AppendChild(run);
 
-// Добавляем фрагмент текста, который отображается как нижний индекс.
+// Добавляем фрагмент текста, который отображается в виде нижнего индекса.
 run = new Run(doc, "Subscript. ");
 run.Font.Subscript = true;
 para.AppendChild(run);
 
-// Добавляем фрагмент текста, который отображается как верхний индекс.
+// Добавляем фрагмент текста, который отображается как надстрочный индекс.
 run = new Run(doc, "Superscript.");
 run.Font.Superscript = true;
 para.AppendChild(run);

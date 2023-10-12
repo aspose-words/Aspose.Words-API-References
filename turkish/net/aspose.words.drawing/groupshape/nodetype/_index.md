@@ -1,14 +1,14 @@
 ---
 title: GroupShape.NodeType
 second_title: Aspose.Words for .NET API Referansı
-description: GroupShape mülk. İadeGroupShape .
+description: GroupShape mülk. İadelerGroupShape .
 type: docs
 weight: 20
 url: /tr/net/aspose.words.drawing/groupshape/nodetype/
 ---
 ## GroupShape.NodeType property
 
-İadeGroupShape .
+İadelerGroupShape .
 
 ```csharp
 public override NodeType NodeType { get; }
@@ -16,22 +16,23 @@ public override NodeType NodeType { get; }
 
 ### Örnekler
 
-Bir bileşik düğümün alt düğümler ağacında nasıl geçileceğini gösterir.
+Bileşik bir düğümün alt düğüm ağacında nasıl gezinileceğini gösterir.
 
 ```csharp
+public void RecurseChildren()
 {
     Document doc = new Document(MyDir + "Paragraphs.docx");
 
-    // Belgenin kendisi gibi alt düğümler içerebilen herhangi bir düğüm bileşiktir.
+    // Belgenin kendisi gibi alt düğümleri içerebilen herhangi bir düğüm bileşiktir.
     Assert.True(doc.IsComposite);
 
-    // Bir bileşik düğümün tüm alt düğümlerini geçecek ve yazdıracak özyinelemeli işlevi çağırın.
+    // Bileşik bir düğümün tüm alt düğümlerini tarayacak ve yazdıracak özyinelemeli işlevi çağırın.
     TraverseAllNodes(doc, 0);
 }
 
 /// <summary>
-/// Her bir düğümün türünü yazdırırken bir düğüm ağacında yinelemeli olarak geçer
-/// tüm satır içi düğümlerin içeriğinin yanı sıra derinliğe bağlı bir girinti ile.
+/// Her düğümün türünü yazdırırken yinelemeli olarak bir düğüm ağacını geçer
+/// tüm satır içi düğümlerin içeriğinin yanı sıra derinliğe bağlı olarak bir girinti ile.
 /// </summary>
 public void TraverseAllNodes(CompositeNode parentNode, int depth)
 {
@@ -39,7 +40,7 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
     {
         Console.Write($"{new string('\t', depth)}{Node.NodeTypeToString(childNode.NodeType)}");
 
-        // Bileşik bir düğümse, düğüme tekrar gir. Aksi takdirde, bir satır içi düğüm ise içeriğini yazdırın.
+        // Eğer düğüm bir bileşik düğümse, düğüme yineleme yapın. Aksi takdirde, satır içi düğüm ise içeriğini yazdırın.
         if (childNode.IsComposite)
         {
             Console.WriteLine();

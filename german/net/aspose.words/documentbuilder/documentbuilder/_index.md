@@ -16,7 +16,7 @@ public DocumentBuilder()
 
 ### Bemerkungen
 
-Erstellt eine neue **DocumentBuilder** Objekt und hängt es an ein neues[`Document`](../document/) Objekt.
+Erstellt ein neues[`DocumentBuilder`](../) Objekt und hängt es an ein neues an[`Document`](../../document/) Objekt.
 
 ### Beispiele
 
@@ -26,7 +26,7 @@ Zeigt, wie formatierter Text mit DocumentBuilder eingefügt wird.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Schriftartformatierung angeben, dann Text hinzufügen.
+// Geben Sie die Schriftartformatierung an und fügen Sie dann Text hinzu.
 Aspose.Words.Font font = builder.Font;
 font.Size = 16;
 font.Bold = true;
@@ -55,15 +55,15 @@ public DocumentBuilder(Document doc)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| doc | Document | Das Document-Objekt, an das angefügt werden soll. |
+| doc | Document | Der[`Document`](../../document/) Objekt zum Anhängen. |
 
 ### Bemerkungen
 
-Erstellt eine neue **DocumentBuilder** Objekt, hängt an der angegebenen[`Document`](../document/) Objekt. Der Cursor steht am Anfang des Dokuments.
+Erstellt ein neues[`DocumentBuilder`](../) Objekt, wird an das angegebene Objekt angehängt[`Document`](../../document/)object. Der Cursor wird am Anfang des Dokuments positioniert.
 
 ### Beispiele
 
-Zeigt, wie Kopf- und Fußzeilen in einem Dokument mit DocumentBuilder erstellt werden.
+Zeigt, wie man mit DocumentBuilder Kopf- und Fußzeilen in einem Dokument erstellt.
 
 ```csharp
 Document doc = new Document();
@@ -73,7 +73,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.PageSetup.DifferentFirstPageHeaderFooter = true;
 builder.PageSetup.OddAndEvenPagesHeaderFooter = true;
 
-// Kopfzeilen erstellen, dann drei Seiten zum Dokument hinzufügen, um jeden Kopfzeilentyp anzuzeigen.
+// Erstellen Sie die Kopfzeilen und fügen Sie dann drei Seiten zum Dokument hinzu, um jeden Kopfzeilentyp anzuzeigen.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderFirst);
 builder.Write("Header for the first page");
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderEven);
@@ -91,16 +91,16 @@ builder.Writeln("Page3");
 doc.Save(ArtifactsDir + "DocumentBuilder.HeadersAndFooters.docx");
 ```
 
-Zeigt, wie Sie ein Inhaltsverzeichnis (TOC) in ein Dokument einfügen, indem Sie Überschriftenstile als Einträge verwenden.
+Zeigt, wie man ein Inhaltsverzeichnis (TOC) in ein Dokument einfügt, indem man Überschriftenstile als Einträge verwendet.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Ein Inhaltsverzeichnis für die erste Seite des Dokuments einfügen.
-// Konfigurieren Sie die Tabelle, um Absätze mit Überschriften der Ebenen 1 bis 3 aufzunehmen.
-// Legen Sie außerdem seine Einträge als Hyperlinks fest, die uns führen
-// an die Position der Überschrift, wenn in Microsoft Word mit der linken Maustaste geklickt wird.
+// Konfigurieren Sie die Tabelle so, dass sie Absätze mit Überschriften der Ebenen 1 bis 3 aufnimmt.
+// Legen Sie außerdem fest, dass seine Einträge Hyperlinks sind, die uns weiterleiten
+// zur Position der Überschrift, wenn in Microsoft Word mit der linken Maustaste darauf geklickt wird.
 builder.InsertTableOfContents("\\o \"1-3\" \\h \\z \\u");
 builder.InsertBreak(BreakType.PageBreak);
 

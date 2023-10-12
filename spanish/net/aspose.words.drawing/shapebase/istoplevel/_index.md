@@ -1,14 +1,14 @@
 ---
 title: ShapeBase.IsTopLevel
 second_title: Referencia de API de Aspose.Words para .NET
-description: ShapeBase propiedad. Devuelve verdadero si esta forma no es hija de una forma de grupo.
+description: ShapeBase propiedad. Devolucionesverdaderosi esta forma no es hija de una forma de grupo.
 type: docs
-weight: 340
+weight: 350
 url: /es/net/aspose.words.drawing/shapebase/istoplevel/
 ---
 ## ShapeBase.IsTopLevel property
 
-Devuelve verdadero si esta forma no es hija de una forma de grupo.
+Devoluciones`verdadero`si esta forma no es hija de una forma de grupo.
 
 ```csharp
 public bool IsTopLevel { get; }
@@ -26,13 +26,13 @@ shape.Width = 200;
 shape.Height = 200;
 shape.WrapType = WrapType.None;
 
-// Por defecto, una forma no forma parte de ninguna forma de grupo y, por lo tanto, tiene la propiedad "IsTopLevel" establecida en "true".
+// Una forma por defecto no forma parte de ninguna forma de grupo y, por lo tanto, tiene la propiedad "IsTopLevel" establecida en "true".
 Assert.True(shape.IsTopLevel);
 
 GroupShape group = new GroupShape(doc);
 group.AppendChild(shape);
 
-// Una vez que asimilamos una forma a una forma de grupo, la propiedad "IsTopLevel" cambia a "falso".
+// Una vez que asimilamos una forma a una forma de grupo, la propiedad "IsTopLevel" cambia a "false".
 Assert.False(shape.IsTopLevel);
 ```
 

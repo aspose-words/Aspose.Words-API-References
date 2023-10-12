@@ -1,14 +1,14 @@
 ---
 title: CompositeNode.GetEnumerator
 second_title: Aspose.Words per .NET API Reference
-description: CompositeNode metodo. Fornisce supporto per ogni iterazione di stile sui nodi figlio di questo nodo.
+description: CompositeNode metodo. Fornisce il supporto per literazione di ogni stile sui nodi figlio di questo nodo.
 type: docs
-weight: 110
+weight: 120
 url: /it/net/aspose.words/compositenode/getenumerator/
 ---
 ## CompositeNode.GetEnumerator method
 
-Fornisce supporto per ogni iterazione di stile sui nodi figlio di questo nodo.
+Fornisce il supporto per l'iterazione di ogni stile sui nodi figlio di questo nodo.
 
 ```csharp
 public IEnumerator<Node> GetEnumerator()
@@ -21,25 +21,25 @@ Mostra come attraversare la raccolta di nodi figlio di un nodo composito.
 ```csharp
 Document doc = new Document();
 
-// Aggiungi due esecuzioni e una forma come nodi figlio al primo paragrafo di questo documento.
+// Aggiungi due sequenze e una forma come nodi secondari al primo paragrafo di questo documento.
 Paragraph paragraph = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
 paragraph.AppendChild(new Run(doc, "Hello world! "));
 
 Shape shape = new Shape(doc, ShapeType.Rectangle);
 shape.Width = 200;
 shape.Height = 200;
-// Nota che 'CustomNodeId' non viene salvato in un file di output ed esiste solo durante la vita del nodo.
+// Tieni presente che "CustomNodeId" non viene salvato in un file di output ed esiste solo durante la durata del nodo.
 shape.CustomNodeId = 100;
 shape.WrapType = WrapType.Inline;
 paragraph.AppendChild(shape);
 
 paragraph.AppendChild(new Run(doc, "Hello again!"));
 
-// Scorri la raccolta del paragrafo dei figli immediati,
-// e stampa qualsiasi traccia o forma che troviamo all'interno.
-NodeCollection children = paragraph.ChildNodes;
+// Scorrere la raccolta dei figli immediati del paragrafo,
+// e stampa tutte le sequenze o le forme che troviamo all'interno.
+NodeCollection children = paragraph.GetChildNodes(NodeType.Any, false);
 
-Assert.AreEqual(3, paragraph.ChildNodes.Count);
+Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, false).Count);
 
 foreach (Node child in children)
     switch (child.NodeType)
@@ -52,6 +52,7 @@ foreach (Node child in children)
             Shape childShape = (Shape)child;
             Console.WriteLine("Shape:");
             Console.WriteLine($"\t{childShape.ShapeType}, {childShape.Width}x{childShape.Height}");
+            break;
     }
 ```
 

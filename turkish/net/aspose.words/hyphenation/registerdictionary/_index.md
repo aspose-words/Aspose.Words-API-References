@@ -1,14 +1,14 @@
 ---
 title: Hyphenation.RegisterDictionary
 second_title: Aspose.Words for .NET API Referansı
-description: Hyphenation yöntem. Bir akıştan belirtilen dil için bir tireleme sözlüğünü kaydeder ve yükler. Sözlük okunamıyorsa veya geçersiz biçime sahipse atar.
+description: Hyphenation yöntem. Bir akıştan belirtilen dil için bir tireleme sözlüğünü kaydeder ve yükler. Sözlüğün okunamaması veya biçiminin geçersiz olması durumunda hata oluşur.
 type: docs
 weight: 40
 url: /tr/net/aspose.words/hyphenation/registerdictionary/
 ---
 ## RegisterDictionary(string, Stream) {#registerdictionary}
 
-Bir akıştan belirtilen dil için bir tireleme sözlüğünü kaydeder ve yükler. Sözlük okunamıyorsa veya geçersiz biçime sahipse atar.
+Bir akıştan belirtilen dil için bir tireleme sözlüğünü kaydeder ve yükler. Sözlüğün okunamaması veya biçiminin geçersiz olması durumunda hata oluşur.
 
 ```csharp
 public static void RegisterDictionary(string language, Stream stream)
@@ -17,13 +17,14 @@ public static void RegisterDictionary(string language, Stream stream)
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | language | String | Bir dil adı, örneğin "en-US". "Kültür adı" için .NET belgelerine ve ayrıntılar için RFC 4646'ya bakın. |
-| stream | Stream | OpenOffice formatında sözlük dosyası için bir akış. |
+| stream | Stream | OpenOffice biçimindeki sözlük dosyası için bir akış. |
 
 ### Örnekler
 
-Bir dosyadan bir sözlüğün nasıl açılacağını ve kaydedileceğini gösterir.
+Bir dosyadan sözlüğün nasıl açılacağını ve kaydedileceğini gösterir.
 
 ```csharp
+public void RegisterDictionary()
 {
     // Tireleme sözlüğü kaydı sırasında oluşan uyarıları izleyen bir geri arama ayarlayın.
     WarningInfoCollection warningInfoCollection = new WarningInfoCollection();
@@ -35,11 +36,11 @@ Bir dosyadan bir sözlüğün nasıl açılacağını ve kaydedileceğini göste
 
     Assert.AreEqual(0, warningInfoCollection.Count);
 
-    // Almanca gibi bir İngilizce makinede Microsoft Word'ün tireleyemeyeceği bir yerel ayara sahip bir belge açın.
+    // Almanca gibi İngilizce bir makinede Microsoft Word'ün tireleme yapamayacağı bir yerel ayara sahip bir belge açın.
     Document doc = new Document(MyDir + "German text.docx");
 
-    // Bu belgeyi kaydettikten sonra tirelemek için "de-CH" dil kodu için bir tireleme sözlüğüne ihtiyacımız var.
-    // Bu geri arama, o sözlük için otomatik isteği işleyecektir.
+    // Bu belgeyi kaydettikten sonra tirelemek için, "de-CH" dil koduna yönelik bir tireleme sözlüğüne ihtiyacımız var.
+    // Bu geri çağırma söz konusu sözlük için otomatik isteği yerine getirecektir.
     Hyphenation.Callback = new CustomHyphenationDictionaryRegister();
 
     // Belgeyi kaydettiğimizde Almanca tireleme geçerli olacaktır.
@@ -54,7 +55,7 @@ Bir dosyadan bir sözlüğün nasıl açılacağını ve kaydedileceğini göste
 }
 
 /// <summary>
-/// Tireleme sözlüğü dosyaları için ISO dil kodlarını yerel sistem dosya adlarıyla ilişkilendirir.
+/// Tireleme sözlük dosyaları için ISO dil kodlarını yerel sistem dosya adlarıyla ilişkilendirir.
 /// </summary>
 private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 {
@@ -101,9 +102,9 @@ private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 
 ## RegisterDictionary(string, string) {#registerdictionary_1}
 
-Dosyadan belirtilen dil için bir tireleme sözlüğünü kaydeder ve yükler. Sözlük okunamıyorsa veya geçersiz biçime sahipse atar.
+Dosyadan belirtilen dil için bir tireleme sözlüğünü kaydeder ve yükler. Sözlüğün okunamaması veya biçiminin geçersiz olması durumunda hata oluşur.
 
-Bu yöntem aynı zamanda önlemek için Null sözlüğü kaydetmek için de kullanılabilir.[`Callback`](../callback/) aynı dil için tekrar tekrar aranmaktan.
+Bu yöntem aynı zamanda Boş sözlüğü kaydetmek için de kullanılabilir.[`Callback`](../callback/) aynı dil için tekrar tekrar çağrılmayı önler.
 
 ```csharp
 public static void RegisterDictionary(string language, string fileName)
@@ -116,21 +117,21 @@ public static void RegisterDictionary(string language, string fileName)
 
 ### Örnekler
 
-Tireleme sözlüğünün nasıl kaydedileceğini gösterir.
+Bir tireleme sözlüğünün nasıl kaydedileceğini gösterir.
 
 ```csharp
-// Tireleme sözlüğü, sözlüğün dili için tireleme kurallarını tanımlayan dizelerin bir listesini içerir.
-// Bir belge, bir kelimenin bölünebileceği ve bir sonraki satırda devam edebileceği metin satırları içerdiğinde,
+// Bir tireleme sözlüğü, sözlüğün dili için tireleme kurallarını tanımlayan dizelerin bir listesini içerir.
+// Bir belge, bir kelimenin bölünüp sonraki satırda devam edebileceği metin satırları içerdiğinde,
 // tireleme, o kelimenin alt dizeleri için sözlüğün dize listesine bakacaktır.
 // Sözlük bir alt dize içeriyorsa, tireleme sözcüğü iki satıra böler
-// alt dizeye göre ve ilk yarıya kısa çizgi ekleyin.
+// alt dizenin yanında ve ilk yarıya bir kısa çizgi ekleyin.
 // Yerel dosya sisteminden bir sözlük dosyasını "de-CH" yerel ayarına kaydedin.
 Hyphenation.RegisterDictionary("de-CH", MyDir + "hyph_de_CH.dic");
 
 Assert.True(Hyphenation.IsDictionaryRegistered("de-CH"));
 
-// Sözlüğümüzün yerel ayarıyla eşleşen metin içeren bir belge açın,
-// ve sabit sayfa kaydetme biçiminde kaydedin. Bu belgedeki metin tirelenir.
+// Sözlüğümüzün yerel ayarıyla eşleşen metni içeren bir belge açın,
+// ve onu sabit sayfa kaydetme formatında kaydedin. Bu belgedeki metin tirelenecektir.
 Document doc = new Document(MyDir + "German text.docx");
 
 Assert.True(doc.FirstSection.Body.FirstParagraph.Runs.OfType<Run>().All(
@@ -138,8 +139,8 @@ Assert.True(doc.FirstSection.Body.FirstParagraph.Runs.OfType<Run>().All(
 
 doc.Save(ArtifactsDir + "Hyphenation.Dictionary.Registered.pdf");
 
-// Sözlüğün kaydını sildikten sonra belgeyi yeniden yükleyin,
-// ve onu tireli metne sahip olmayacak başka bir PDF'ye kaydedin.
+// Sözlüğün kaydını kaldırdıktan sonra belgeyi yeniden yükleyin,
+// ve onu tireli metin içermeyecek başka bir PDF'ye kaydedin.
 Hyphenation.UnregisterDictionary("de-CH");
 
 Assert.False(Hyphenation.IsDictionaryRegistered("de-CH"));
@@ -148,9 +149,10 @@ doc = new Document(MyDir + "German text.docx");
 doc.Save(ArtifactsDir + "Hyphenation.Dictionary.Unregistered.pdf");
 ```
 
-Bir dosyadan bir sözlüğün nasıl açılacağını ve kaydedileceğini gösterir.
+Bir dosyadan sözlüğün nasıl açılacağını ve kaydedileceğini gösterir.
 
 ```csharp
+public void RegisterDictionary()
 {
     // Tireleme sözlüğü kaydı sırasında oluşan uyarıları izleyen bir geri arama ayarlayın.
     WarningInfoCollection warningInfoCollection = new WarningInfoCollection();
@@ -162,11 +164,11 @@ Bir dosyadan bir sözlüğün nasıl açılacağını ve kaydedileceğini göste
 
     Assert.AreEqual(0, warningInfoCollection.Count);
 
-    // Almanca gibi bir İngilizce makinede Microsoft Word'ün tireleyemeyeceği bir yerel ayara sahip bir belge açın.
+    // Almanca gibi İngilizce bir makinede Microsoft Word'ün tireleme yapamayacağı bir yerel ayara sahip bir belge açın.
     Document doc = new Document(MyDir + "German text.docx");
 
-    // Bu belgeyi kaydettikten sonra tirelemek için "de-CH" dil kodu için bir tireleme sözlüğüne ihtiyacımız var.
-    // Bu geri arama, o sözlük için otomatik isteği işleyecektir.
+    // Bu belgeyi kaydettikten sonra tirelemek için, "de-CH" dil koduna yönelik bir tireleme sözlüğüne ihtiyacımız var.
+    // Bu geri çağırma söz konusu sözlük için otomatik isteği yerine getirecektir.
     Hyphenation.Callback = new CustomHyphenationDictionaryRegister();
 
     // Belgeyi kaydettiğimizde Almanca tireleme geçerli olacaktır.
@@ -181,7 +183,7 @@ Bir dosyadan bir sözlüğün nasıl açılacağını ve kaydedileceğini göste
 }
 
 /// <summary>
-/// Tireleme sözlüğü dosyaları için ISO dil kodlarını yerel sistem dosya adlarıyla ilişkilendirir.
+/// Tireleme sözlük dosyaları için ISO dil kodlarını yerel sistem dosya adlarıyla ilişkilendirir.
 /// </summary>
 private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 {

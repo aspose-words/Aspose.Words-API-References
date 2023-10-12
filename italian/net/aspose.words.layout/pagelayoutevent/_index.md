@@ -3,16 +3,16 @@ title: Enum PageLayoutEvent
 second_title: Aspose.Words per .NET API Reference
 description: Aspose.Words.Layout.PageLayoutEvent enum. Un codice di evento generato durante la creazione e il rendering del modello di layout di pagina.
 type: docs
-weight: 3170
+weight: 3370
 url: /it/net/aspose.words.layout/pagelayoutevent/
 ---
 ## PageLayoutEvent enumeration
 
 Un codice di evento generato durante la creazione e il rendering del modello di layout di pagina.
 
-Il modello di layout di pagina è costruito in due passaggi. Primo, "passo di conversione", questo è quando il layout di pagina estrae il contenuto del documento e crea un grafico oggetto. Secondo, "passo di ridisposizione", questo è quando le strutture vengono divise, unite e disposte nelle pagine.
+Il modello di layout della pagina è costruito in due passaggi. Il primo, "passaggio di conversione", avviene quando il layout della pagina estrae il contenuto del documento e crea il grafico dell'oggetto. Il secondo, "passaggio di ridisposizione", avviene quando le strutture vengono divise, unite e disposte in pagine.
 
-A seconda dell'operazione che ha attivato la creazione, il modello di layout di pagina può essere ulteriormente renderizzato o meno in un formato di pagina fisso. Ad esempio, il calcolo del numero di pagine nel documento o l'aggiornamento dei campi non richiede il rendering, mentre l'esportazione in Pdf lo fa.
+A seconda dell'operazione che ha attivato la creazione, il modello di layout della pagina può o meno essere ulteriormente renderizzato in un formato di pagina fisso. Ad esempio, il calcolo del numero di pagine nel documento o l'aggiornamento dei campi non richiede il rendering, mentre l'esportazione in Pdf sì.
 
 ```csharp
 public enum PageLayoutEvent
@@ -23,24 +23,23 @@ public enum PageLayoutEvent
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
 | None | `0` | Valore predefinito |
-| WatchDog | `1` | Corrisponde a un checkpoint nel codice che viene spesso visitato e che è adatto per interrompere il processo. |
-| BuildStarted | `2` | La costruzione del layout di pagina è iniziata. Lanciato una volta. Questo è il primo evento che si verifica quando[`UpdatePageLayout`](../../aspose.words/document/updatepagelayout/) viene chiamato. |
-| BuildFinished | `3` | La creazione del layout di pagina è terminata. Lanciato una volta. Questo è l'ultimo evento che si verifica quando[`UpdatePageLayout`](../../aspose.words/document/updatepagelayout/) viene chiamato. |
-| ConversionStarted | `4` | È iniziata la conversione del modello di documento in layout di pagina. Attivato una volta. Ciò si verifica quando il modello di layout inizia a estrarre il contenuto del documento. |
-| ConversionFinished | `5` | La conversione del modello di documento in layout di pagina è terminata. Attivato una volta. Ciò si verifica quando il modello di layout smette di estrarre il contenuto del documento. |
-| ReflowStarted | `6` | È iniziata la ridisposizione del layout di pagina. Attivato una volta. Ciò si verifica quando il modello di layout inizia a ridisporre il contenuto del documento. |
-| ReflowFinished | `7` | Il ridisposizione del layout di pagina è terminato. Attivato una volta. Ciò si verifica quando il modello di layout interrompe la ridisposizione del contenuto del documento. |
-| PartReflowStarted | `8` | La ridisposizione della pagina è iniziata. Si noti che la pagina potrebbe ridisporre più volte e che la ridisposizione potrebbe ricominciare prima che sia terminata. |
-| PartReflowFinished | `9` | La ridisposizione della pagina è terminata. Si noti che la pagina potrebbe ridisporre più volte e che la ridisposizione potrebbe ricominciare prima che sia terminata. |
+| WatchDog | `1` | Corrisponde a un checkpoint nel codice che viene visitato spesso e che è adatto per interrompere il processo. |
+| BuildStarted | `2` | La creazione del layout della pagina è iniziata. Attivato una volta. Questo è il primo evento che si verifica quando[`UpdatePageLayout`](../../aspose.words/document/updatepagelayout/) si chiama. |
+| BuildFinished | `3` | La creazione del layout della pagina è terminata. Attivato una volta. Questo è l'ultimo evento che si verifica quando[`UpdatePageLayout`](../../aspose.words/document/updatepagelayout/) si chiama. |
+| ConversionStarted | `4` | La conversione del modello di documento nel layout di pagina è iniziata. Attivato una volta. Ciò si verifica quando il modello di layout inizia a estrarre il contenuto del documento. |
+| ConversionFinished | `5` | La conversione del modello di documento nel layout di pagina è terminata. Attivato una volta. Ciò si verifica quando il modello di layout smette di estrarre il contenuto del documento. |
+| ReflowStarted | `6` | Il riflusso del layout della pagina è iniziato. Attivato una volta. Si verifica quando il modello di layout inizia a ridisporre il contenuto del documento. |
+| ReflowFinished | `7` | La ridisposizione del layout della pagina è terminata. Attivato una volta. Ciò si verifica quando il modello di layout smette di ridisporre il contenuto del documento. |
+| PartReflowStarted | `8` | La ridisposizione della pagina è iniziata. Tieni presente che la pagina potrebbe scorrere più volte e che la ridisposizione potrebbe riavviarsi prima del termine. |
+| PartReflowFinished | `9` | La ridisposizione della pagina è terminata. Tieni presente che la pagina potrebbe scorrere più volte e che la ridisposizione potrebbe riavviarsi prima del termine. |
 | PartRenderingStarted | `10` | Il rendering della pagina è iniziato. Viene attivato una volta per pagina. |
 | PartRenderingFinished | `11` | Il rendering della pagina è terminato. Viene attivato una volta per pagina. |
 
 ### Esempi
 
-Mostra come tenere traccia delle modifiche al layout con una richiamata del layout.
+Mostra come tenere traccia delle modifiche al layout con un callback del layout.
 
 ```csharp
-[Test]
 public void PageLayoutCallback()
 {
     Document doc = new Document();
@@ -56,8 +55,8 @@ public void PageLayoutCallback()
 }
 
 /// <summary>
-/// Avvisa quando salviamo il documento in un formato pagina fisso
-/// ed esegue il rendering di una pagina su cui eseguiamo un riflusso della pagina in un'immagine nel file system locale.
+/// Ci avvisa quando salviamo il documento in un formato di pagina fisso
+/// ed esegue il rendering di una pagina su cui eseguiamo il reflow della pagina su un'immagine nel file system locale.
 /// </summary>
 private class RenderPageLayoutCallback : IPageLayoutCallback
 {

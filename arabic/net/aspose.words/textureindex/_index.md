@@ -1,14 +1,14 @@
 ---
 title: Enum TextureIndex
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.TextureIndex تعداد. يحدد نسيج التظليل .
+description: Aspose.Words.TextureIndex تعداد. يحدد نسيج التظليل.
 type: docs
-weight: 6150
+weight: 6450
 url: /ar/net/aspose.words/textureindex/
 ---
 ## TextureIndex enumeration
 
-يحدد نسيج التظليل .
+يحدد نسيج التظليل.
 
 ```csharp
 public enum TextureIndex
@@ -71,7 +71,7 @@ public enum TextureIndex
 | TextureNone | `0` |  |
 | TextureSolid | `1` |  |
 | TextureVertical | `21` |  |
-| TextureNil | `65535` | يحدد أنه لن يكون هناك نمط مستخدم في المنطقة المظللة الحالية (أي يجب أن يكون النموذج تعبئة كاملة بلون الخلفية) . |
+| TextureNil | `65535` | يحدد عدم استخدام أي نمط في المنطقة المظللة الحالية (أي يجب أن يكون النمط مملوءًا بالكامل بلون الخلفية). |
 
 ### أمثلة
 
@@ -97,13 +97,13 @@ builder.Write("This paragraph is formatted with a double border and shading.");
 doc.Save(ArtifactsDir + "DocumentBuilder.ApplyBordersAndShading.docx");
 ```
 
-يوضح كيفية تطبيق حد مخطط تفصيلي على جدول.
+يوضح كيفية تطبيق حدود المخطط التفصيلي على جدول.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
-// محاذاة الجدول إلى وسط الصفحة.
+// قم بمحاذاة الجدول إلى منتصف الصفحة.
 table.Alignment = TableAlignment.Center;
 
 // امسح أي حدود وتظليل موجود من الجدول.
@@ -116,7 +116,7 @@ table.SetBorder(BorderType.Right, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Top, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Bottom, LineStyle.Single, 1.5, Color.Green, true);
 
-// املأ الخلايا بلون أخضر فاتح.
+// املأ الخلايا بلون أخضر فاتح خالص.
 table.SetShading(TextureIndex.TextureSolid, Color.LightGreen, Color.Empty);
 
 doc.Save(ArtifactsDir + "Table.SetOutlineBorders.docx");

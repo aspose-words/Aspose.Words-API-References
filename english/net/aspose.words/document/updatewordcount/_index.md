@@ -5,7 +5,7 @@ articleTitle: UpdateWordCount
 second_title: Aspose.Words for .NET
 description: Document UpdateWordCount method. Updates word count properties of the document in C#.
 type: docs
-weight: 790
+weight: 810
 url: /net/aspose.words/document/updatewordcount/
 ---
 ## UpdateWordCount() {#updatewordcount}

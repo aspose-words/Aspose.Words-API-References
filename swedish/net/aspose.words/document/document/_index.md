@@ -16,7 +16,7 @@ public Document()
 
 ### Anmärkningar
 
-Dokumentets pappersstorlek är Letter som standard. Om du vill ändra sidinställningar, använd [`Section.PageSetup`](../../section/pagesetup/).
+Dokumentets pappersstorlek är Letter som standard. Om du vill ändra sidinställningar, använd [`PageSetup`](../../section/pagesetup/).
 
 Efter skapandet kan du använda[`DocumentBuilder`](../../documentbuilder/) för att enkelt lägga till dokumentinnehåll.
 
@@ -162,7 +162,7 @@ public Document(string fileName, LoadOptions loadOptions)
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | fileName | String | Filnamnet på dokumentet som ska öppnas. |
-| loadOptions | LoadOptions | Ytterligare alternativ att använda när du laddar ett dokument. Kan vara null. |
+| loadOptions | LoadOptions | Ytterligare alternativ att använda när du laddar ett dokument. Kan vara`null`. |
 
 ### Undantag
 
@@ -195,6 +195,7 @@ doc = new Document(MyDir + "Encrypted.docx", options);
 using (Stream stream = File.OpenRead(MyDir + "Encrypted.docx"))
 {
     doc = new Document(stream, options);
+}
 ```
 
 Visar hur man skapar och laddar dokument.
@@ -276,22 +277,22 @@ Visar hur man laddar ett dokument från en URL.
 
 ```csharp
 // Skapa en URL som pekar på ett Microsoft Word-dokument.
-const string url = "https://omextemplates.content.office.net/support/templates/en-us/tf16402488.dotx";
+const string url = "https://filesamples.com/samples/document/docx/sample3.docx";
 
 // Ladda ner dokumentet till en byte-array och ladda sedan den arrayen i ett dokument med hjälp av en minnesström.
-using (WebClient webClient = new WebClient())
+using (HttpClient webClient = new HttpClient())
 {
-    byte[] dataBytes = webClient.DownloadData(url);
+    byte[] dataBytes = await webClient.GetByteArrayAsync(url);
 
     using (MemoryStream byteStream = new MemoryStream(dataBytes))
     {
         Document doc = new Document(byteStream);
 
         // I detta skede kan vi läsa och redigera dokumentets innehåll och sedan spara det i det lokala filsystemet.
-        Assert.AreEqual("Use this section to highlight your relevant passions, activities, and how you like to give back. " +
-                        "It’s good to include Leadership and volunteer experiences here. " +
-                        "Or show off important extras like publications, certifications, languages and more.",
-            doc.FirstSection.Body.Paragraphs[4].GetText().Trim());
+        Assert.AreEqual("There are eight section headings in this document. At the beginning, \"Sample Document\" is a level 1 heading. " +
+            "The main section headings, such as \"Headings\" and \"Lists\" are level 2 headings. " +
+            "The Tables section contains two sub-headings, \"Simple Table\" and \"Complex Table,\" which are both level 3 headings.",                         
+            doc.FirstSection.Body.Paragraphs[3].GetText().Trim());
 
         doc.Save(ArtifactsDir + "Document.LoadFromWeb.docx");
     }
@@ -317,7 +318,7 @@ public Document(Stream stream, LoadOptions loadOptions)
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | stream | Stream | Flödet varifrån dokumentet ska laddas. |
-| loadOptions | LoadOptions | Ytterligare alternativ att använda när du laddar ett dokument. Kan vara null. |
+| loadOptions | LoadOptions | Ytterligare alternativ att använda när du laddar ett dokument. Kan vara`null`. |
 
 ### Undantag
 
@@ -337,27 +338,6 @@ public Document(Stream stream, LoadOptions loadOptions)
 Dokumentet måste lagras i början av streamen. Strömmen måste stödja slumpmässig positionering.
 
 ### Exempel
-
-Visar hur du sparar en webbsida som en .docx-fil.
-
-```csharp
-const string url = "http://www.aspose.com/";
-
-using (WebClient client = new WebClient()) 
-{ 
-    using (MemoryStream stream = new MemoryStream(client.DownloadData(url)))
-    {
-        // URL:en används igen som en baseUri för att säkerställa att eventuella relativa bildsökvägar hämtas korrekt.
-        LoadOptions options = new LoadOptions(LoadFormat.Html, "", url);
-
-        // Ladda HTML-dokumentet från stream och skicka LoadOptions-objektet.
-        Document doc = new Document(stream, options);
-
-        // I detta skede kan vi läsa och redigera dokumentets innehåll och sedan spara det i det lokala filsystemet.
-        doc.Save(ArtifactsDir + "Document.InsertHtmlFromWebPage.docx");
-    }
-}
-```
 
 Visar hur man öppnar ett HTML-dokument med bilder från en ström med en bas-URI.
 
@@ -381,6 +361,28 @@ using (Stream stream = File.OpenRead(MyDir + "Document.html"))
 }
 ```
 
+Visar hur du sparar en webbsida som en .docx-fil.
+
+```csharp
+const string url = "https://www.aspose.com/";
+
+using (HttpClient client = new HttpClient()) 
+{
+    var bytes = await client.GetByteArrayAsync(url);
+    using (MemoryStream stream = new MemoryStream(bytes))
+    {
+        // URL:en används igen som en baseUri för att säkerställa att eventuella relativa bildsökvägar hämtas korrekt.
+        LoadOptions options = new LoadOptions(LoadFormat.Html, "", url);
+
+        // Ladda HTML-dokumentet från stream och skicka LoadOptions-objektet.
+        Document doc = new Document(stream, options);
+
+        // I detta skede kan vi läsa och redigera dokumentets innehåll och sedan spara det i det lokala filsystemet.
+        doc.Save(ArtifactsDir + "Document.InsertHtmlFromWebPage.docx");
+    }
+}
+```
+
 Visar hur man laddar ett krypterat Microsoft Word-dokument.
 
 ```csharp
@@ -399,6 +401,7 @@ doc = new Document(MyDir + "Encrypted.docx", options);
 using (Stream stream = File.OpenRead(MyDir + "Encrypted.docx"))
 {
     doc = new Document(stream, options);
+}
 ```
 
 ### Se även

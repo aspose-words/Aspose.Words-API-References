@@ -1,14 +1,14 @@
 ---
 title: FieldSeq.ResetHeadingLevel
 second_title: Aspose.Words für .NET-API-Referenz
-description: FieldSeq eigendom. Ruft eine ganze Zahl ab oder legt sie fest die eine Überschriftenebene darstellt auf die die Sequenznummer zurückgesetzt werden soll. Gibt 1 zurück wenn die Zahl fehlt.
+description: FieldSeq eigendom. Ruft eine Ganzzahl ab oder legt diese fest die eine Überschriftenebene darstellt um die Sequenznummer auf zurückzusetzen. Gibt 1 zurück wenn die Nummer fehlt.
 type: docs
 weight: 40
 url: /de/net/aspose.words.fields/fieldseq/resetheadinglevel/
 ---
 ## FieldSeq.ResetHeadingLevel property
 
-Ruft eine ganze Zahl ab oder legt sie fest, die eine Überschriftenebene darstellt, auf die die Sequenznummer zurückgesetzt werden soll. Gibt -1 zurück, wenn die Zahl fehlt.
+Ruft eine Ganzzahl ab oder legt diese fest, die eine Überschriftenebene darstellt, um die Sequenznummer auf zurückzusetzen. Gibt -1 zurück, wenn die Nummer fehlt.
 
 ```csharp
 public string ResetHeadingLevel { get; set; }
@@ -16,17 +16,17 @@ public string ResetHeadingLevel { get; set; }
 
 ### Beispiele
 
-Zeigt die Erstellungsnummerierung mithilfe von SEQ-Feldern an.
+Zeigt die Erstellung einer Nummerierung mithilfe von SEQ-Feldern an.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// SEQ-Felder zeigen einen Zähler an, der sich bei jedem SEQ-Feld erhöht.
+// SEQ-Felder zeigen einen Zähler an, der bei jedem SEQ-Feld erhöht wird.
 // Diese Felder verwalten auch separate Zählwerte für jede eindeutig benannte Sequenz
-// identifiziert durch die "SequenceIdentifier"-Eigenschaft des SEQ-Felds.
-// Fügen Sie ein SEQ-Feld ein, das den aktuellen Zählwert von "MySequence" anzeigt,
-// nachdem die Eigenschaft "ResetNumber" verwendet wurde, um sie auf 100 zu setzen.
+// identifiziert durch die Eigenschaft „SequenceIdentifier“ des SEQ-Felds.
+// Fügen Sie ein SEQ-Feld ein, das den aktuellen Zählwert von „MySequence“ anzeigt.
+// nachdem die Eigenschaft „ResetNumber“ verwendet wurde, um sie auf 100 zu setzen.
 builder.Write("#");
 FieldSeq fieldSeq = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true);
 fieldSeq.SequenceIdentifier = "MySequence";
@@ -36,7 +36,7 @@ fieldSeq.Update();
 Assert.AreEqual(" SEQ  MySequence \\r 100", fieldSeq.GetFieldCode());
 Assert.AreEqual("100", fieldSeq.Result);
 
-// Zeigt die nächste Nummer in dieser Sequenz mit einem anderen SEQ-Feld an.
+// Zeigt die nächste Zahl in dieser Sequenz mit einem anderen SEQ-Feld an.
 builder.Write(", #");
 fieldSeq = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true);
 fieldSeq.SequenceIdentifier = "MySequence";
@@ -44,13 +44,13 @@ fieldSeq.Update();
 
 Assert.AreEqual("101", fieldSeq.Result);
 
-// Füge eine Überschrift der Ebene 1 ein.
+// Eine Überschrift der Ebene 1 einfügen.
 builder.InsertBreak(BreakType.ParagraphBreak);
 builder.ParagraphFormat.Style = doc.Styles["Heading 1"];
 builder.Writeln("This level 1 heading will reset MySequence to 1");
 builder.ParagraphFormat.Style = doc.Styles["Normal"];
 
-// Fügen Sie ein weiteres SEQ-Feld aus derselben Sequenz ein und konfigurieren Sie es so, dass der Zähler bei jeder Überschrift auf 1 zurückgesetzt wird.
+// Ein weiteres SEQ-Feld aus derselben Sequenz einfügen und so konfigurieren, dass die Zählung bei jeder Überschrift auf 1 zurückgesetzt wird.
 builder.Write("\n#");
 fieldSeq = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true);
 fieldSeq.SequenceIdentifier = "MySequence";
@@ -61,7 +61,7 @@ fieldSeq.Update();
 Assert.AreEqual(" SEQ  MySequence \\s 1", fieldSeq.GetFieldCode());
 Assert.AreEqual("1", fieldSeq.Result);
 
-// Gehe zur nächsten Nummer dieser Sequenz.
+// Zur nächsten Nummer dieser Sequenz wechseln.
 builder.Write(", #");
 fieldSeq = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true);
 fieldSeq.SequenceIdentifier = "MySequence";

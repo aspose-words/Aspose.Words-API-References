@@ -1,14 +1,16 @@
 ---
 title: Class SectionCollection
 second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.SectionCollection klas. Eine Sammlung von Abschnitt Objekte im Dokument.
+description: Aspose.Words.SectionCollection klas. Eine Sammlung vonSection Objekte im Dokument.
 type: docs
-weight: 5450
+weight: 5740
 url: /de/net/aspose.words/sectioncollection/
 ---
 ## SectionCollection class
 
-Eine Sammlung von **Abschnitt** Objekte im Dokument.
+Eine Sammlung von[`Section`](../section/) Objekte im Dokument.
+
+Um mehr zu erfahren, besuchen Sie die[Arbeiten mit Abschnitten](https://docs.aspose.com/words/net/working-with-sections/) Dokumentationsartikel.
 
 ```csharp
 public class SectionCollection : NodeCollection
@@ -25,10 +27,10 @@ public class SectionCollection : NodeCollection
 
 | Name | Beschreibung |
 | --- | --- |
-| [Add](../../aspose.words/nodecollection/add/)(Node) | Fügt am Ende der Sammlung einen Knoten hinzu. |
+| [Add](../../aspose.words/nodecollection/add/)(Node) | Fügt einen Knoten am Ende der Sammlung hinzu. |
 | [Clear](../../aspose.words/nodecollection/clear/)() | Entfernt alle Knoten aus dieser Sammlung und aus dem Dokument. |
-| [Contains](../../aspose.words/nodecollection/contains/)(Node) | Bestimmt, ob sich ein Knoten in der Sammlung befindet. |
-| [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Bietet eine einfache Iteration im "foreach"-Stil über die Sammlung von Knoten. |
+| [Contains](../../aspose.words/nodecollection/contains/)(Node) | Bestimmt, ob ein Knoten in der Sammlung ist. |
+| [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Bietet eine einfache Iteration im „foreach“-Stil über die Sammlung von Knoten. |
 | [IndexOf](../../aspose.words/nodecollection/indexof/)(Node) | Gibt den nullbasierten Index des angegebenen Knotens zurück. |
 | [Insert](../../aspose.words/nodecollection/insert/)(int, Node) | Fügt am angegebenen Index einen Knoten in die Sammlung ein. |
 | [Remove](../../aspose.words/nodecollection/remove/)(Node) | Entfernt den Knoten aus der Sammlung und aus dem Dokument. |
@@ -37,9 +39,9 @@ public class SectionCollection : NodeCollection
 
 ### Bemerkungen
 
-Ein Microsoft Word-Dokument kann mehrere Abschnitte enthalten. Um einen Abschnitt in Microsoft Word zu erstellen, wählen Sie den Befehl Einfügen/Umbruch und wählen Sie einen Umbruchtyp aus. Der Umbruch gibt an, ob section auf einer neuen Seite oder auf derselben Seite beginnt.
+Ein Microsoft Word-Dokument kann mehrere Abschnitte enthalten. Um einen Abschnitt in einem Microsoft Word zu erstellen, wählen Sie den Befehl „Einfügen/Umbruch“ und wählen Sie einen Umbruchtyp aus. Der Bruch gibt an, ob der Abschnitt auf einer neuen Seite oder auf derselben Seite beginnt.
 
-Das programmgesteuerte Einfügen und Entfernen von Abschnitten kann verwendet werden, um während des Seriendrucks produzierte Dokumente anzupassen. Wenn ein Dokument je nach bestimmten Kriterien einen anderen Inhalt oder Teile des -Inhalts haben muss, können Sie ein „Master“-Dokument erstellen, das mehrere Abschnitte enthält, und einige der Abschnitte vor oder nach dem Seriendruck löschen.
+Das programmgesteuerte Einfügen und Entfernen von Abschnitten kann verwendet werden, um während des Seriendrucks erstellte Dokumente anzupassen . Wenn ein Dokument abhängig von bestimmten Kriterien unterschiedliche Inhalte oder Teile davon haben muss, können Sie ein „Master“-Dokument erstellen, das mehrere Abschnitte enthält, und einige der Abschnitte vor oder nach dem Seriendruck löschen.
 
 ### Beispiele
 
@@ -60,7 +62,7 @@ doc.Sections.RemoveAt(0);
 
 Assert.AreEqual("Section 2", doc.GetText().Trim());
 
-// Eine Kopie des jetzt ersten Abschnitts an das Ende des Dokuments anhängen.
+// Eine Kopie des nun ersten Abschnitts an das Ende des Dokuments anhängen.
 int lastSectionIdx = doc.Sections.Count - 1;
 Section newSection = doc.Sections[lastSectionIdx].Clone();
 doc.Sections.Add(newSection);

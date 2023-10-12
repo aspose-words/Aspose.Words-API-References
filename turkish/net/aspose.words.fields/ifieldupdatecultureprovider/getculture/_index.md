@@ -1,14 +1,14 @@
 ---
 title: IFieldUpdateCultureProvider.GetCulture
 second_title: Aspose.Words for .NET API Referansı
-description: IFieldUpdateCultureProvider yöntem. Bir döndürürCultureInfo alanın güncellemesi sırasında kullanılacak nesne.
+description: IFieldUpdateCultureProvider yöntem. Bir değeri döndürürCultureInfoalanın güncellenmesi sırasında kullanılacak nesne.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/ifieldupdatecultureprovider/getculture/
 ---
 ## IFieldUpdateCultureProvider.GetCulture method
 
-Bir döndürürCultureInfo alanın güncellemesi sırasında kullanılacak nesne.
+Bir değeri döndürürCultureInfoalanın güncellenmesi sırasında kullanılacak nesne.
 
 ```csharp
 public CultureInfo GetCulture(string culture, Field field)
@@ -21,14 +21,13 @@ public CultureInfo GetCulture(string culture, Field field)
 
 ### Geri dönüş değeri
 
-Alanın güncellemesi için kullanılması gereken kültür nesnesi.
+Alanın güncellenmesi için kullanılması gereken kültür nesnesi.
 
 ### Örnekler
 
 Her alan için tarih/saat biçimlendirmesini ayrıştıran bir kültürün nasıl belirtileceğini gösterir.
 
 ```csharp
-[Test]
 public void DefineDateTimeFormatting()
 {
     Document doc = new Document();
@@ -54,7 +53,7 @@ public void DefineDateTimeFormatting()
 private class FieldUpdateCultureProvider : IFieldUpdateCultureProvider
 {
     /// <summary>
-    /// Alanın güncellemesi sırasında kullanılacak bir CultureInfo nesnesi döndürür.
+    /// Alanın güncellenmesi sırasında kullanılacak bir CultureInfo nesnesini döndürür.
     /// </summary>
     public CultureInfo GetCulture(string name, Field field)
     {

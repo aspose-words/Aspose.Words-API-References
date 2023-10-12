@@ -16,7 +16,7 @@ public PreferredWidthType Type { get; }
 
 ### Exemples
 
-Montre comment vérifier le type de largeur préféré et la valeur d'une cellule de tableau.
+Montre comment vérifier le type de largeur préféré et la valeur d’une cellule de tableau.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");

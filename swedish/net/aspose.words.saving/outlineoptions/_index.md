@@ -3,12 +3,14 @@ title: Class OutlineOptions
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Saving.OutlineOptions klass. Gör det möjligt att ange konturalternativ.
 type: docs
-weight: 5080
+weight: 5360
 url: /sv/net/aspose.words.saving/outlineoptions/
 ---
 ## OutlineOptions class
 
 Gör det möjligt att ange konturalternativ.
+
+För att lära dig mer, besök[Spara ett dokument](https://docs.aspose.com/words/net/save-a-document/) dokumentationsartikel.
 
 ```csharp
 public class OutlineOptions

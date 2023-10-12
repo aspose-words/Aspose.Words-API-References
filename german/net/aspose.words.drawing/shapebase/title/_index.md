@@ -1,14 +1,14 @@
 ---
 title: ShapeBase.Title
 second_title: Aspose.Words für .NET-API-Referenz
-description: ShapeBase eigendom. Ruft den Titel Beschriftung des aktuellen Formobjekts ab oder legt ihn fest.
+description: ShapeBase eigendom. Ruft den Titel Beschriftung des aktuellen Formobjekts ab oder legt diesen fest.
 type: docs
-weight: 490
+weight: 530
 url: /de/net/aspose.words.drawing/shapebase/title/
 ---
 ## ShapeBase.Title property
 
-Ruft den Titel (Beschriftung) des aktuellen Formobjekts ab oder legt ihn fest.
+Ruft den Titel (Beschriftung) des aktuellen Formobjekts ab oder legt diesen fest.
 
 ```csharp
 public string Title { get; set; }
@@ -16,9 +16,9 @@ public string Title { get; set; }
 
 ### Bemerkungen
 
-Standard ist eine leere Zeichenfolge.
+Der Standardwert ist eine leere Zeichenfolge.
 
-Kann nicht null sein, kann aber eine leere Zeichenfolge sein.
+Kann nicht sein`Null`, kann aber eine leere Zeichenfolge sein.
 
 ### Beispiele
 
@@ -28,7 +28,7 @@ Zeigt, wie der Titel einer Form festgelegt wird.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Erstellen Sie eine Form, geben Sie ihr einen Titel und fügen Sie sie dann dem Dokument hinzu.
+// Eine Form erstellen, ihr einen Titel geben und sie dann dem Dokument hinzufügen.
 Shape shape = new Shape(doc, ShapeType.Cube);
 shape.Width = 200;
 shape.Height = 200;

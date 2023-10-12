@@ -21,7 +21,7 @@ public Shape(DocumentBase doc, ShapeType shapeType)
 
 ### 评论
 
-您应该在创建形状后指定所需的形状属性。
+创建形状后，您应该指定所需的形状属性。
 
 ### 例子
 
@@ -30,9 +30,9 @@ public Shape(DocumentBase doc, ShapeType shapeType)
 ```csharp
 Document doc = new Document();
 
-// “Shape”类的公共构造函数将创建一个带有“ShapeMarkupLanguage.Vml”标记类型的形状。
-// 如果需要创建非原始类型的形状，如 SingleCornerSnipped、TopCornersSnipped、DiagonalCornersSnipped、
-// TopCornersOneRoundedOneSnipped、SingleCornerRounded、TopCornersRounded 或 DiagonalCornersRounded,
+// “Shape”类的公共构造函数将创建一个具有“ShapeMarkupLanguage.Vml”标记类型的形状。
+// 如果需要创建非原始类型的形状，例如SingleCornerSnipped、TopCornersSnipped、DiagonalCornersSnipped，
+// TopCornersOneRoundedOneSnipped、SingleCornerRounded、TopCornersRounded 或 DiagonalCornersRounded，
 // 请使用 DocumentBuilder.InsertShape。
 Shape shape = new Shape(doc, ShapeType.Image);
 shape.ImageData.SetImage(ImageDir + "Windows MetaFile.wmf");
@@ -44,7 +44,7 @@ doc.FirstSection.Body.FirstParagraph.AppendChild(shape);
 doc.Save(ArtifactsDir + "Image.FromFile.docx");
 ```
 
-演示如何创建和格式化文本框。
+演示如何创建文本框并设置其格式。
 
 ```csharp
 Document doc = new Document();
@@ -59,7 +59,7 @@ textBox.Width = 200;
 textBox.HorizontalAlignment = HorizontalAlignment.Center;
 textBox.VerticalAlignment = VerticalAlignment.Top;
 
-// 向文本框中添加一个段落，并添加文本框将显示的一连串文本。
+// 将一个段落添加到文本框并添加文本框将显示的一系列文本。
 textBox.AppendChild(new Paragraph(doc));
 Paragraph para = textBox.FirstParagraph;
 para.ParagraphFormat.Alignment = ParagraphAlignment.Center;

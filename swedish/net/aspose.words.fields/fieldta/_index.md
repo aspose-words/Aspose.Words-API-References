@@ -3,12 +3,14 @@ title: Class FieldTA
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Fields.FieldTA klass. Implementerar TAfältet.
 type: docs
-weight: 2320
+weight: 2470
 url: /sv/net/aspose.words.fields/fieldta/
 ---
 ## FieldTA class
 
 Implementerar TA-fältet.
+
+För att lära dig mer, besök[Arbeta med Fields](https://docs.aspose.com/words/net/working-with-fields/) dokumentationsartikel.
 
 ```csharp
 public class FieldTA : Field
@@ -36,7 +38,7 @@ public class FieldTA : Field
 | [LongCitation](../../aspose.words.fields/fieldta/longcitation/) { get; set; } | Hämtar eller ställer in den långa hänvisningen för posten. |
 | [PageRangeBookmarkName](../../aspose.words.fields/fieldta/pagerangebookmarkname/) { get; set; } | Hämtar eller ställer in namnet på bokmärket som markerar ett intervall av sidor som infogas som postens sidnummer. |
 | [Result](../../aspose.words.fields/field/result/) { get; set; } | Hämtar eller ställer in text som är mellan fältavgränsaren och fältslutet. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | Hämtar noden som representerar fältseparatorn. Kan vara null. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Hämtar noden som representerar fältseparatorn. Kan vara`null` . |
 | [ShortCitation](../../aspose.words.fields/fieldta/shortcitation/) { get; set; } | Hämtar eller ställer in det korta citatet för posten. |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Hämtar noden som representerar början av fältet. |
 | virtual [Type](../../aspose.words.fields/field/type/) { get; } | Hämtar fälttypen Microsoft Word. |
@@ -47,7 +49,7 @@ public class FieldTA : Field
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). Både fältkod och fältresultat för underordnade fält ingår. |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). |
-| [Remove](../../aspose.words.fields/field/remove/)() | Tar bort fältet från dokumentet. Returnerar en nod direkt efter fältet. Om fältets slut är den sista child av dess överordnade nod, returnerar dess överordnade stycke. Om fältet redan är borttaget, returneras **null** . |
+| [Remove](../../aspose.words.fields/field/remove/)() | Tar bort fältet från dokumentet. Returnerar en nod direkt efter fältet. Om fältets slut är den sista child av dess överordnade nod, returnerar dess överordnade stycke. Om fältet redan är borttaget, returneras`null` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Utför fältavlänkningen. |
 | [Update](../../aspose.words.fields/field/update/)() | Utför fältuppdateringen. Kastar om fältet redan uppdateras. |
 | [Update](../../aspose.words.fields/field/update/)(bool) | Utför en fältuppdatering. Kastar om fältet redan uppdateras. |
@@ -61,6 +63,7 @@ Definierar texten och sidnumret för en tabell över behörighetsposter, som anv
 Visar hur man bygger och anpassar en tabell över myndigheter med hjälp av TOA- och TA-fält.
 
 ```csharp
+public void FieldTOA()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -161,6 +164,7 @@ Visar hur man bygger och anpassar en tabell över myndigheter med hjälp av TOA-
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.TOA.TA.docx");
+}
 
 private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCategory, string longCitation)
 {

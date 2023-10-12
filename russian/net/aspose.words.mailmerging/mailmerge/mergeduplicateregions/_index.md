@@ -1,14 +1,14 @@
 ---
 title: MailMerge.MergeDuplicateRegions
 second_title: Справочник по API Aspose.Words для .NET
-description: MailMerge свойство. Получает или задает значение указывающее следует ли объединять все области слияния документов с именем источника данных при выполнении слияния с областями для источника данных или только первую.
+description: MailMerge свойство. Получает или задает значение указывающее должны ли быть объединены все регионы слияния почты документа с именем источника данных при выполнении слияния почты с регионами с источником данных или только первый.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.mailmerging/mailmerge/mergeduplicateregions/
 ---
 ## MailMerge.MergeDuplicateRegions property
 
-Получает или задает значение, указывающее, следует ли объединять все области слияния документов с именем источника данных при выполнении слияния с областями для источника данных или только первую.
+Получает или задает значение, указывающее, должны ли быть объединены все регионы слияния почты документа с именем источника данных при выполнении слияния почты с регионами с источником данных или только первый.
 
 ```csharp
 public bool MergeDuplicateRegions { get; set; }
@@ -16,11 +16,11 @@ public bool MergeDuplicateRegions { get; set; }
 
 ### Примечания
 
-Значение по умолчанию: **ЛОЖЬ** .
+Значение по умолчанию:`ЛОЖЬ` .
 
 ### Примеры
 
-Показывает, как работать с повторяющимися областями слияния.
+Показывает, как работать с повторяющимися регионами слияния почты.
 
 ```csharp
 public void MergeDuplicateRegions(bool mergeDuplicateRegions)
@@ -28,11 +28,11 @@ public void MergeDuplicateRegions(bool mergeDuplicateRegions)
     Document doc = CreateSourceDocMergeDuplicateRegions();
     DataTable dataTable = CreateSourceTableMergeDuplicateRegions();
 
-    // Если мы установим для свойства "MergeDuplicateRegions" значение "false", слияние затронет первый регион,
-    // в то время как поля MERGEFIELD второго останутся в состоянии до слияния.
-    // Чтобы объединить обе области таким образом,
-    // нам пришлось бы дважды выполнить слияние для таблицы с тем же именем.
-    // Если мы установим для свойства "MergeDuplicateRegions" значение "true", слияние затронет оба региона.
+    // Если мы установим для свойства «MergeDuplateRegions» значение «false», слияние почты затронет первый регион,
+    // в то время как поля MERGEFIELD второго останутся в состоянии перед слиянием.
+    // Чтобы объединить оба региона таким образом,
+    // нам пришлось бы дважды выполнить слияние почты для таблицы с тем же именем.
+    // Если мы установим для свойства «MergeDuplateRegions» значение «true», слияние почты затронет оба региона.
     doc.MailMerge.MergeDuplicateRegions = mergeDuplicateRegions;
 
     doc.MailMerge.ExecuteWithRegions(dataTable);
@@ -40,7 +40,7 @@ public void MergeDuplicateRegions(bool mergeDuplicateRegions)
 }
 
 /// <summary>
-/// Возвращает документ, который содержит две повторяющиеся области слияния (имеющие одно и то же имя в тегах TableStart/End).
+/// Возвращает документ, содержащий две повторяющиеся области слияния почты (с одинаковыми именами в тегах "TableStart/End").
 /// </summary>
 private static Document CreateSourceDocMergeDuplicateRegions()
 {

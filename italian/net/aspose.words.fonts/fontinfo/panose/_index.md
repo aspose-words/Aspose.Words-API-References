@@ -16,13 +16,13 @@ public byte[] Panose { get; set; }
 
 ### Osservazioni
 
-PANOSE è una descrizione compatta di 10 byte di caratteristiche visive critiche dei caratteri, come contrasto, peso e stile serif. Le cifre rappresentano Tipo famiglia, Stile Serif, Peso , Proporzione, Contrasto, Variazione tratto, Stile braccio, Forma lettera, Linea mediana e Altezza X.
+PANOSE è una descrizione compatta di 10 byte delle caratteristiche visive critiche di un font, come contrasto, peso e stile serif. Le cifre rappresentano il tipo di famiglia, lo stile serif, il peso , la proporzione, il contrasto, la variazione del tratto, lo stile del braccio, la forma delle lettere, la linea mediana e l'altezza X.
 
 Può essere`nullo`.
 
 ### Esempi
 
-Mostra come accedere e stampare i dettagli di ogni font in un documento.
+Mostra come accedere e stampare i dettagli di ciascun carattere in un documento.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -35,7 +35,7 @@ while (fontCollectionEnumerator.MoveNext())
     {
         Console.WriteLine("Font name: " + fontInfo.Name);
 
-        // I nomi alternativi di solito sono vuoti.
+        // I nomi alternativi sono generalmente vuoti.
         Console.WriteLine("Alt name: " + fontInfo.AltName);
         Console.WriteLine("\t- Family: " + fontInfo.Family);
         Console.WriteLine("\t- " + (fontInfo.IsTrueType ? "Is TrueType" : "Is not TrueType"));

@@ -1,14 +1,14 @@
 ---
 title: ChartLegendEntryCollection.GetEnumerator
 second_title: Aspose.Words لمراجع .NET API
-description: ChartLegendEntryCollection طريقة. إرجاع كائن العداد .
+description: ChartLegendEntryCollection طريقة. يُرجع كائن العداد.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.drawing.charts/chartlegendentrycollection/getenumerator/
 ---
 ## ChartLegendEntryCollection.GetEnumerator method
 
-إرجاع كائن العداد .
+يُرجع كائن العداد.
 
 ```csharp
 public IEnumerator<ChartLegendEntry> GetEnumerator()

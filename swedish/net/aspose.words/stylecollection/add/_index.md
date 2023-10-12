@@ -33,15 +33,13 @@ Visar hur man lägger till en stil till ett dokuments stilsamling.
 
 ```csharp
 Document doc = new Document();
-StyleCollection styles = doc.Styles;
 
+StyleCollection styles = doc.Styles;
 // Ställ in standardparametrar för nya stilar som vi senare kan lägga till i den här samlingen.
 styles.DefaultFont.Name = "Courier New";
-
 // Om vi lägger till en stil av "StyleType.Paragraph", kommer samlingen att tillämpa värdena för
 // dess "DefaultParagraphFormat"-egenskap till stilens "ParagraphFormat"-egenskap.
 styles.DefaultParagraphFormat.FirstLineIndent = 15.0;
-
 // Lägg till en stil och kontrollera sedan att den har standardinställningarna.
 styles.Add(StyleType.Paragraph, "MyStyle");
 
@@ -55,8 +53,8 @@ Visar hur du skapar en liststil och använder den i ett dokument.
 Document doc = new Document();
 
 // En lista låter oss organisera och dekorera uppsättningar av stycken med prefixsymboler och indrag.
-// Vi kan skapa kapslade listor genom att öka indragsnivån. 
-// Vi kan börja och avsluta en lista genom att använda en dokumentbyggares "ListFormat"-egenskap. 
+ // Vi kan skapa kapslade listor genom att öka indragsnivån.
+ // Vi kan börja och avsluta en lista genom att använda en dokumentbyggares "ListFormat"-egenskap.
 // Varje stycke som vi lägger till mellan en listas början och slutet kommer att bli ett objekt i listan.
 // Vi kan innehålla ett helt List-objekt i en stil.
 Style listStyle = doc.Styles.Add(StyleType.List, "MyListStyle");

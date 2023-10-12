@@ -1,14 +1,14 @@
 ---
 title: ChartSeriesCollection.Add
 second_title: Aspose.Words لمراجع .NET API
-description: ChartSeriesCollection طريقة. إضافة جديدChartSeriesإلى هذه المجموعة . استخدم هذه الطريقة لإضافة سلسلة إلى أي نوع من المخططات الشريطية والعمودية والخطية والسطحية.
+description: ChartSeriesCollection طريقة. يضيف الجديدChartSeries إلى هذه المجموعة. استخدم هذه الطريقة لإضافة سلسلة إلى أي نوع من المخططات الشريطية والعمودية والخطية والسطحية.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.drawing.charts/chartseriescollection/add/
 ---
 ## Add(string, string[], double[]) {#add_3}
 
-إضافة جديد[`ChartSeries`](../../chartseries/)إلى هذه المجموعة . استخدم هذه الطريقة لإضافة سلسلة إلى أي نوع من المخططات الشريطية والعمودية والخطية والسطحية.
+يضيف الجديد[`ChartSeries`](../../chartseries/) إلى هذه المجموعة. استخدم هذه الطريقة لإضافة سلسلة إلى أي نوع من المخططات الشريطية والعمودية والخطية والسطحية.
 
 ```csharp
 public ChartSeries Add(string seriesName, string[] categories, double[] values)
@@ -20,30 +20,31 @@ public ChartSeries Add(string seriesName, string[] categories, double[] values)
 
 ### أمثلة
 
-يوضح كيفية إنشاء نوع مناسب من سلاسل المخططات لنوع رسم بياني.
+يوضح كيفية إنشاء نوع مناسب من سلسلة المخططات لنوع الرسم البياني.
 
 ```csharp
+public void ChartSeriesCollection()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // هناك عدة طرق لملء مجموعة سلاسل الرسم البياني.
-    // مخططات السلاسل المختلفة مخصصة لأنواع المخططات المختلفة.
-    // 1 - مخطط عمودي مع أعمدة مجمعة ومجمعة على طول المحور X حسب الفئة:
+    // هناك عدة طرق لملء مجموعة سلاسل المخطط.
+    // مخططات السلاسل المختلفة مخصصة لأنواع مختلفة من المخططات.
+    // 1 - مخطط عمودي يحتوي على أعمدة مجمعة ومحددة على طول المحور السيني حسب الفئة:
     Chart chart = AppendChart(builder, ChartType.Column, 500, 300);
 
     string[] categories = { "Category 1", "Category 2", "Category 3" };
 
-    // أدخل سلسلتين من القيم العشرية تحتوي على قيمة لكل فئة على حدة.
-    // سيحتوي مخطط العمود هذا على ثلاث مجموعات ، كل منها بعمودين.
+    // أدخل سلسلتين من القيم العشرية التي تحتوي على قيمة لكل فئة.
+    // سيحتوي هذا المخطط العمودي على ثلاث مجموعات، تحتوي كل منها على عمودين.
     chart.Series.Add("Series 1", categories, new [] { 76.6, 82.1, 91.6 });
     chart.Series.Add("Series 2", categories, new [] { 64.2, 79.5, 94.0 });
 
-    // يتم توزيع الفئات على طول المحور السيني ، ويتم توزيع القيم على طول المحور ص.
+    // يتم توزيع الفئات على طول المحور X، ويتم توزيع القيم على طول المحور Y.
     Assert.AreEqual(ChartAxisType.Category, chart.AxisX.Type);
     Assert.AreEqual(ChartAxisType.Value, chart.AxisY.Type);
 
-    // 2 - مخطط مساحي بتواريخ موزعة على طول المحور السيني:
+    // 2 - مخطط مساحي مع تواريخ موزعة على طول المحور السيني:
     chart = AppendChart(builder, ChartType.Area, 500, 300);
 
     DateTime[] dates = { new DateTime(2014, 3, 31),
@@ -53,8 +54,8 @@ public ChartSeries Add(string seriesName, string[] categories, double[] values)
         new DateTime(2020, 9, 7)
     };
 
-    // أدخل سلسلة بقيمة عشرية لكل تاريخ على حدة.
-    // سيتم توزيع التواريخ على طول محور X خطي ،
+    // أدخل سلسلة ذات قيمة عشرية لكل تاريخ.
+    // سيتم توزيع التواريخ على طول المحور السيني الخطي،
     // والقيم المضافة إلى هذه السلسلة ستنشئ نقاط بيانات.
     chart.Series.Add("Series 1", dates, new [] { 15.8, 21.5, 22.9, 28.7, 33.1 });
 
@@ -64,9 +65,9 @@ public ChartSeries Add(string seriesName, string[] categories, double[] values)
     // 3 - مخطط مبعثر ثنائي الأبعاد:
     chart = AppendChart(builder, ChartType.Scatter, 500, 300);
 
-    // ستحتاج كل سلسلة مصفوفتين عشريتين متساويتين في الطول.
-    // تحتوي المصفوفة الأولى على قيم X ، وتحتوي الثانية على قيم Y المقابلة
-    // نقاط البيانات على الرسم البياني للرسم البياني.
+    // ستحتاج كل سلسلة إلى صفيفين عشريين متساويين في الطول.
+    // يحتوي المصفوفة الأولى على قيم X، والثانية تحتوي على قيم Y المقابلة
+    // نقاط البيانات على الرسم البياني للمخطط.
     chart.Series.Add("Series 1", 
         new[] { 3.1, 3.5, 6.3, 4.1, 2.2, 8.3, 1.2, 3.6 }, 
         new[] { 3.1, 6.3, 4.6, 0.9, 8.5, 4.2, 2.3, 9.9 });
@@ -77,11 +78,11 @@ public ChartSeries Add(string seriesName, string[] categories, double[] values)
     Assert.AreEqual(ChartAxisType.Value, chart.AxisX.Type);
     Assert.AreEqual(ChartAxisType.Value, chart.AxisY.Type);
 
-    // 4 - مخطط فقاعي:
+    // 4 - المخطط الفقاعي:
     chart = AppendChart(builder, ChartType.Bubble, 500, 300);
 
-    // ستحتاج كل سلسلة إلى ثلاث مصفوفات عشرية متساوية الطول.
-    // تحتوي المصفوفة الأولى على قيم X ، والثانية تحتوي على قيم Y المقابلة ،
+    // ستحتاج كل سلسلة إلى ثلاث صفائف عشرية متساوية الطول.
+    // يحتوي المصفوفة الأولى على قيم X، والثانية تحتوي على قيم Y المقابلة،
     // والثالث يحتوي على أقطار لكل نقطة من نقاط بيانات الرسم البياني.
     chart.Series.Add("Series 1", 
         new [] { 1.1, 5.0, 9.8 }, 
@@ -92,7 +93,7 @@ public ChartSeries Add(string seriesName, string[] categories, double[] values)
 }
 
 /// <summary>
-/// قم بإدراج مخطط باستخدام منشئ المستندات من نوع ChartType المحدد والعرض والارتفاع ، وقم بإزالة بيانات العرض التوضيحي الخاصة به.
+/// قم بإدراج مخطط باستخدام أداة إنشاء المستندات ذات نوع المخطط المحدد وعرضه وارتفاعه، ثم قم بإزالة بيانات العرض التوضيحي الخاصة به.
 /// </summary>
 private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, double width, double height)
 {
@@ -114,7 +115,7 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 ## Add(string, double[], double[]) {#add}
 
-إضافة جديد[`ChartSeries`](../../chartseries/) إلى هذه المجموعة . استخدم هذه الطريقة لإضافة سلسلة إلى أي نوع من المخططات المبعثرة.
+يضيف الجديد[`ChartSeries`](../../chartseries/) إلى هذه المجموعة. استخدم هذه الطريقة لإضافة سلسلة إلى أي نوع من المخططات المبعثرة.
 
 ```csharp
 public ChartSeries Add(string seriesName, double[] xValues, double[] yValues)
@@ -126,30 +127,31 @@ public ChartSeries Add(string seriesName, double[] xValues, double[] yValues)
 
 ### أمثلة
 
-يوضح كيفية إنشاء نوع مناسب من سلاسل المخططات لنوع رسم بياني.
+يوضح كيفية إنشاء نوع مناسب من سلسلة المخططات لنوع الرسم البياني.
 
 ```csharp
+public void ChartSeriesCollection()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // هناك عدة طرق لملء مجموعة سلاسل الرسم البياني.
-    // مخططات السلاسل المختلفة مخصصة لأنواع المخططات المختلفة.
-    // 1 - مخطط عمودي مع أعمدة مجمعة ومجمعة على طول المحور X حسب الفئة:
+    // هناك عدة طرق لملء مجموعة سلاسل المخطط.
+    // مخططات السلاسل المختلفة مخصصة لأنواع مختلفة من المخططات.
+    // 1 - مخطط عمودي يحتوي على أعمدة مجمعة ومحددة على طول المحور السيني حسب الفئة:
     Chart chart = AppendChart(builder, ChartType.Column, 500, 300);
 
     string[] categories = { "Category 1", "Category 2", "Category 3" };
 
-    // أدخل سلسلتين من القيم العشرية تحتوي على قيمة لكل فئة على حدة.
-    // سيحتوي مخطط العمود هذا على ثلاث مجموعات ، كل منها بعمودين.
+    // أدخل سلسلتين من القيم العشرية التي تحتوي على قيمة لكل فئة.
+    // سيحتوي هذا المخطط العمودي على ثلاث مجموعات، تحتوي كل منها على عمودين.
     chart.Series.Add("Series 1", categories, new [] { 76.6, 82.1, 91.6 });
     chart.Series.Add("Series 2", categories, new [] { 64.2, 79.5, 94.0 });
 
-    // يتم توزيع الفئات على طول المحور السيني ، ويتم توزيع القيم على طول المحور ص.
+    // يتم توزيع الفئات على طول المحور X، ويتم توزيع القيم على طول المحور Y.
     Assert.AreEqual(ChartAxisType.Category, chart.AxisX.Type);
     Assert.AreEqual(ChartAxisType.Value, chart.AxisY.Type);
 
-    // 2 - مخطط مساحي بتواريخ موزعة على طول المحور السيني:
+    // 2 - مخطط مساحي مع تواريخ موزعة على طول المحور السيني:
     chart = AppendChart(builder, ChartType.Area, 500, 300);
 
     DateTime[] dates = { new DateTime(2014, 3, 31),
@@ -159,8 +161,8 @@ public ChartSeries Add(string seriesName, double[] xValues, double[] yValues)
         new DateTime(2020, 9, 7)
     };
 
-    // أدخل سلسلة بقيمة عشرية لكل تاريخ على حدة.
-    // سيتم توزيع التواريخ على طول محور X خطي ،
+    // أدخل سلسلة ذات قيمة عشرية لكل تاريخ.
+    // سيتم توزيع التواريخ على طول المحور السيني الخطي،
     // والقيم المضافة إلى هذه السلسلة ستنشئ نقاط بيانات.
     chart.Series.Add("Series 1", dates, new [] { 15.8, 21.5, 22.9, 28.7, 33.1 });
 
@@ -170,9 +172,9 @@ public ChartSeries Add(string seriesName, double[] xValues, double[] yValues)
     // 3 - مخطط مبعثر ثنائي الأبعاد:
     chart = AppendChart(builder, ChartType.Scatter, 500, 300);
 
-    // ستحتاج كل سلسلة مصفوفتين عشريتين متساويتين في الطول.
-    // تحتوي المصفوفة الأولى على قيم X ، وتحتوي الثانية على قيم Y المقابلة
-    // نقاط البيانات على الرسم البياني للرسم البياني.
+    // ستحتاج كل سلسلة إلى صفيفين عشريين متساويين في الطول.
+    // يحتوي المصفوفة الأولى على قيم X، والثانية تحتوي على قيم Y المقابلة
+    // نقاط البيانات على الرسم البياني للمخطط.
     chart.Series.Add("Series 1", 
         new[] { 3.1, 3.5, 6.3, 4.1, 2.2, 8.3, 1.2, 3.6 }, 
         new[] { 3.1, 6.3, 4.6, 0.9, 8.5, 4.2, 2.3, 9.9 });
@@ -183,11 +185,11 @@ public ChartSeries Add(string seriesName, double[] xValues, double[] yValues)
     Assert.AreEqual(ChartAxisType.Value, chart.AxisX.Type);
     Assert.AreEqual(ChartAxisType.Value, chart.AxisY.Type);
 
-    // 4 - مخطط فقاعي:
+    // 4 - المخطط الفقاعي:
     chart = AppendChart(builder, ChartType.Bubble, 500, 300);
 
-    // ستحتاج كل سلسلة إلى ثلاث مصفوفات عشرية متساوية الطول.
-    // تحتوي المصفوفة الأولى على قيم X ، والثانية تحتوي على قيم Y المقابلة ،
+    // ستحتاج كل سلسلة إلى ثلاث صفائف عشرية متساوية الطول.
+    // يحتوي المصفوفة الأولى على قيم X، والثانية تحتوي على قيم Y المقابلة،
     // والثالث يحتوي على أقطار لكل نقطة من نقاط بيانات الرسم البياني.
     chart.Series.Add("Series 1", 
         new [] { 1.1, 5.0, 9.8 }, 
@@ -198,7 +200,7 @@ public ChartSeries Add(string seriesName, double[] xValues, double[] yValues)
 }
 
 /// <summary>
-/// قم بإدراج مخطط باستخدام منشئ المستندات من نوع ChartType المحدد والعرض والارتفاع ، وقم بإزالة بيانات العرض التوضيحي الخاصة به.
+/// قم بإدراج مخطط باستخدام أداة إنشاء المستندات ذات نوع المخطط المحدد وعرضه وارتفاعه، ثم قم بإزالة بيانات العرض التوضيحي الخاصة به.
 /// </summary>
 private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, double width, double height)
 {
@@ -220,7 +222,7 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 ## Add(string, DateTime[], double[]) {#add_2}
 
-إضافة جديد[`ChartSeries`](../../chartseries/) إلى هذه المجموعة. استخدم هذه الطريقة لإضافة سلسلة إلى أي نوع من المخططات المساحية والرادار والأسهم.
+يضيف الجديد[`ChartSeries`](../../chartseries/) إلى هذه المجموعة. استخدم هذه الطريقة لإضافة سلسلة إلى أي نوع من المخططات المساحية والرادارية والأسهم.
 
 ```csharp
 public ChartSeries Add(string seriesName, DateTime[] dates, double[] values)
@@ -228,30 +230,31 @@ public ChartSeries Add(string seriesName, DateTime[] dates, double[] values)
 
 ### أمثلة
 
-يوضح كيفية إنشاء نوع مناسب من سلاسل المخططات لنوع رسم بياني.
+يوضح كيفية إنشاء نوع مناسب من سلسلة المخططات لنوع الرسم البياني.
 
 ```csharp
+public void ChartSeriesCollection()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // هناك عدة طرق لملء مجموعة سلاسل الرسم البياني.
-    // مخططات السلاسل المختلفة مخصصة لأنواع المخططات المختلفة.
-    // 1 - مخطط عمودي مع أعمدة مجمعة ومجمعة على طول المحور X حسب الفئة:
+    // هناك عدة طرق لملء مجموعة سلاسل المخطط.
+    // مخططات السلاسل المختلفة مخصصة لأنواع مختلفة من المخططات.
+    // 1 - مخطط عمودي يحتوي على أعمدة مجمعة ومحددة على طول المحور السيني حسب الفئة:
     Chart chart = AppendChart(builder, ChartType.Column, 500, 300);
 
     string[] categories = { "Category 1", "Category 2", "Category 3" };
 
-    // أدخل سلسلتين من القيم العشرية تحتوي على قيمة لكل فئة على حدة.
-    // سيحتوي مخطط العمود هذا على ثلاث مجموعات ، كل منها بعمودين.
+    // أدخل سلسلتين من القيم العشرية التي تحتوي على قيمة لكل فئة.
+    // سيحتوي هذا المخطط العمودي على ثلاث مجموعات، تحتوي كل منها على عمودين.
     chart.Series.Add("Series 1", categories, new [] { 76.6, 82.1, 91.6 });
     chart.Series.Add("Series 2", categories, new [] { 64.2, 79.5, 94.0 });
 
-    // يتم توزيع الفئات على طول المحور السيني ، ويتم توزيع القيم على طول المحور ص.
+    // يتم توزيع الفئات على طول المحور X، ويتم توزيع القيم على طول المحور Y.
     Assert.AreEqual(ChartAxisType.Category, chart.AxisX.Type);
     Assert.AreEqual(ChartAxisType.Value, chart.AxisY.Type);
 
-    // 2 - مخطط مساحي بتواريخ موزعة على طول المحور السيني:
+    // 2 - مخطط مساحي مع تواريخ موزعة على طول المحور السيني:
     chart = AppendChart(builder, ChartType.Area, 500, 300);
 
     DateTime[] dates = { new DateTime(2014, 3, 31),
@@ -261,8 +264,8 @@ public ChartSeries Add(string seriesName, DateTime[] dates, double[] values)
         new DateTime(2020, 9, 7)
     };
 
-    // أدخل سلسلة بقيمة عشرية لكل تاريخ على حدة.
-    // سيتم توزيع التواريخ على طول محور X خطي ،
+    // أدخل سلسلة ذات قيمة عشرية لكل تاريخ.
+    // سيتم توزيع التواريخ على طول المحور السيني الخطي،
     // والقيم المضافة إلى هذه السلسلة ستنشئ نقاط بيانات.
     chart.Series.Add("Series 1", dates, new [] { 15.8, 21.5, 22.9, 28.7, 33.1 });
 
@@ -272,9 +275,9 @@ public ChartSeries Add(string seriesName, DateTime[] dates, double[] values)
     // 3 - مخطط مبعثر ثنائي الأبعاد:
     chart = AppendChart(builder, ChartType.Scatter, 500, 300);
 
-    // ستحتاج كل سلسلة مصفوفتين عشريتين متساويتين في الطول.
-    // تحتوي المصفوفة الأولى على قيم X ، وتحتوي الثانية على قيم Y المقابلة
-    // نقاط البيانات على الرسم البياني للرسم البياني.
+    // ستحتاج كل سلسلة إلى صفيفين عشريين متساويين في الطول.
+    // يحتوي المصفوفة الأولى على قيم X، والثانية تحتوي على قيم Y المقابلة
+    // نقاط البيانات على الرسم البياني للمخطط.
     chart.Series.Add("Series 1", 
         new[] { 3.1, 3.5, 6.3, 4.1, 2.2, 8.3, 1.2, 3.6 }, 
         new[] { 3.1, 6.3, 4.6, 0.9, 8.5, 4.2, 2.3, 9.9 });
@@ -285,11 +288,11 @@ public ChartSeries Add(string seriesName, DateTime[] dates, double[] values)
     Assert.AreEqual(ChartAxisType.Value, chart.AxisX.Type);
     Assert.AreEqual(ChartAxisType.Value, chart.AxisY.Type);
 
-    // 4 - مخطط فقاعي:
+    // 4 - المخطط الفقاعي:
     chart = AppendChart(builder, ChartType.Bubble, 500, 300);
 
-    // ستحتاج كل سلسلة إلى ثلاث مصفوفات عشرية متساوية الطول.
-    // تحتوي المصفوفة الأولى على قيم X ، والثانية تحتوي على قيم Y المقابلة ،
+    // ستحتاج كل سلسلة إلى ثلاث صفائف عشرية متساوية الطول.
+    // يحتوي المصفوفة الأولى على قيم X، والثانية تحتوي على قيم Y المقابلة،
     // والثالث يحتوي على أقطار لكل نقطة من نقاط بيانات الرسم البياني.
     chart.Series.Add("Series 1", 
         new [] { 1.1, 5.0, 9.8 }, 
@@ -300,7 +303,7 @@ public ChartSeries Add(string seriesName, DateTime[] dates, double[] values)
 }
 
 /// <summary>
-/// قم بإدراج مخطط باستخدام منشئ المستندات من نوع ChartType المحدد والعرض والارتفاع ، وقم بإزالة بيانات العرض التوضيحي الخاصة به.
+/// قم بإدراج مخطط باستخدام أداة إنشاء المستندات ذات نوع المخطط المحدد وعرضه وارتفاعه، ثم قم بإزالة بيانات العرض التوضيحي الخاصة به.
 /// </summary>
 private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, double width, double height)
 {
@@ -322,7 +325,7 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 ## Add(string, double[], double[], double[]) {#add_1}
 
-إضافة جديد[`ChartSeries`](../../chartseries/) إلى هذه المجموعة. استخدم هذه الطريقة لإضافة سلسلة إلى أي نوع من المخططات الفقاعية.
+يضيف الجديد[`ChartSeries`](../../chartseries/)إلى هذه المجموعة. استخدم هذه الطريقة لإضافة سلسلة إلى أي نوع من المخططات الفقاعية.
 
 ```csharp
 public ChartSeries Add(string seriesName, double[] xValues, double[] yValues, double[] bubbleSizes)
@@ -334,30 +337,31 @@ public ChartSeries Add(string seriesName, double[] xValues, double[] yValues, do
 
 ### أمثلة
 
-يوضح كيفية إنشاء نوع مناسب من سلاسل المخططات لنوع رسم بياني.
+يوضح كيفية إنشاء نوع مناسب من سلسلة المخططات لنوع الرسم البياني.
 
 ```csharp
+public void ChartSeriesCollection()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // هناك عدة طرق لملء مجموعة سلاسل الرسم البياني.
-    // مخططات السلاسل المختلفة مخصصة لأنواع المخططات المختلفة.
-    // 1 - مخطط عمودي مع أعمدة مجمعة ومجمعة على طول المحور X حسب الفئة:
+    // هناك عدة طرق لملء مجموعة سلاسل المخطط.
+    // مخططات السلاسل المختلفة مخصصة لأنواع مختلفة من المخططات.
+    // 1 - مخطط عمودي يحتوي على أعمدة مجمعة ومحددة على طول المحور السيني حسب الفئة:
     Chart chart = AppendChart(builder, ChartType.Column, 500, 300);
 
     string[] categories = { "Category 1", "Category 2", "Category 3" };
 
-    // أدخل سلسلتين من القيم العشرية تحتوي على قيمة لكل فئة على حدة.
-    // سيحتوي مخطط العمود هذا على ثلاث مجموعات ، كل منها بعمودين.
+    // أدخل سلسلتين من القيم العشرية التي تحتوي على قيمة لكل فئة.
+    // سيحتوي هذا المخطط العمودي على ثلاث مجموعات، تحتوي كل منها على عمودين.
     chart.Series.Add("Series 1", categories, new [] { 76.6, 82.1, 91.6 });
     chart.Series.Add("Series 2", categories, new [] { 64.2, 79.5, 94.0 });
 
-    // يتم توزيع الفئات على طول المحور السيني ، ويتم توزيع القيم على طول المحور ص.
+    // يتم توزيع الفئات على طول المحور X، ويتم توزيع القيم على طول المحور Y.
     Assert.AreEqual(ChartAxisType.Category, chart.AxisX.Type);
     Assert.AreEqual(ChartAxisType.Value, chart.AxisY.Type);
 
-    // 2 - مخطط مساحي بتواريخ موزعة على طول المحور السيني:
+    // 2 - مخطط مساحي مع تواريخ موزعة على طول المحور السيني:
     chart = AppendChart(builder, ChartType.Area, 500, 300);
 
     DateTime[] dates = { new DateTime(2014, 3, 31),
@@ -367,8 +371,8 @@ public ChartSeries Add(string seriesName, double[] xValues, double[] yValues, do
         new DateTime(2020, 9, 7)
     };
 
-    // أدخل سلسلة بقيمة عشرية لكل تاريخ على حدة.
-    // سيتم توزيع التواريخ على طول محور X خطي ،
+    // أدخل سلسلة ذات قيمة عشرية لكل تاريخ.
+    // سيتم توزيع التواريخ على طول المحور السيني الخطي،
     // والقيم المضافة إلى هذه السلسلة ستنشئ نقاط بيانات.
     chart.Series.Add("Series 1", dates, new [] { 15.8, 21.5, 22.9, 28.7, 33.1 });
 
@@ -378,9 +382,9 @@ public ChartSeries Add(string seriesName, double[] xValues, double[] yValues, do
     // 3 - مخطط مبعثر ثنائي الأبعاد:
     chart = AppendChart(builder, ChartType.Scatter, 500, 300);
 
-    // ستحتاج كل سلسلة مصفوفتين عشريتين متساويتين في الطول.
-    // تحتوي المصفوفة الأولى على قيم X ، وتحتوي الثانية على قيم Y المقابلة
-    // نقاط البيانات على الرسم البياني للرسم البياني.
+    // ستحتاج كل سلسلة إلى صفيفين عشريين متساويين في الطول.
+    // يحتوي المصفوفة الأولى على قيم X، والثانية تحتوي على قيم Y المقابلة
+    // نقاط البيانات على الرسم البياني للمخطط.
     chart.Series.Add("Series 1", 
         new[] { 3.1, 3.5, 6.3, 4.1, 2.2, 8.3, 1.2, 3.6 }, 
         new[] { 3.1, 6.3, 4.6, 0.9, 8.5, 4.2, 2.3, 9.9 });
@@ -391,11 +395,11 @@ public ChartSeries Add(string seriesName, double[] xValues, double[] yValues, do
     Assert.AreEqual(ChartAxisType.Value, chart.AxisX.Type);
     Assert.AreEqual(ChartAxisType.Value, chart.AxisY.Type);
 
-    // 4 - مخطط فقاعي:
+    // 4 - المخطط الفقاعي:
     chart = AppendChart(builder, ChartType.Bubble, 500, 300);
 
-    // ستحتاج كل سلسلة إلى ثلاث مصفوفات عشرية متساوية الطول.
-    // تحتوي المصفوفة الأولى على قيم X ، والثانية تحتوي على قيم Y المقابلة ،
+    // ستحتاج كل سلسلة إلى ثلاث صفائف عشرية متساوية الطول.
+    // يحتوي المصفوفة الأولى على قيم X، والثانية تحتوي على قيم Y المقابلة،
     // والثالث يحتوي على أقطار لكل نقطة من نقاط بيانات الرسم البياني.
     chart.Series.Add("Series 1", 
         new [] { 1.1, 5.0, 9.8 }, 
@@ -406,7 +410,7 @@ public ChartSeries Add(string seriesName, double[] xValues, double[] yValues, do
 }
 
 /// <summary>
-/// قم بإدراج مخطط باستخدام منشئ المستندات من نوع ChartType المحدد والعرض والارتفاع ، وقم بإزالة بيانات العرض التوضيحي الخاصة به.
+/// قم بإدراج مخطط باستخدام أداة إنشاء المستندات ذات نوع المخطط المحدد وعرضه وارتفاعه، ثم قم بإزالة بيانات العرض التوضيحي الخاصة به.
 /// </summary>
 private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, double width, double height)
 {

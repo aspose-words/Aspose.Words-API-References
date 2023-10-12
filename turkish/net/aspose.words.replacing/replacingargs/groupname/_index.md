@@ -1,14 +1,14 @@
 ---
 title: ReplacingArgs.GroupName
 second_title: Aspose.Words for .NET API Referansı
-description: ReplacingArgs mülk. Listede yakalanan bir grubu adıyla tanımlar.Match ile değiştirilecek olanReplacement string.
+description: ReplacingArgs mülk. Yakalanan bir grubu adıyla tanımlar.Match ile değiştirilecekReplacement dize.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.replacing/replacingargs/groupname/
 ---
 ## ReplacingArgs.GroupName property
 
-Listede yakalanan bir grubu adıyla tanımlar.[`Match`](../match/) ile değiştirilecek olan[`Replacement`](../replacement/) string.
+Yakalanan bir grubu adıyla tanımlar.[`Match`](../match/) ile değiştirilecek[`Replacement`](../replacement/) dize.
 
 ```csharp
 public string GroupName { get; set; }
@@ -16,15 +16,16 @@ public string GroupName { get; set; }
 
 ### Notlar
 
-Grup adı boş olduğunda,[`GroupIndex`](../groupindex/) grubu tanımlamak için kullanılır.
+Grup adı ne zaman`hükümsüz` ,[`GroupIndex`](../groupindex/) Grubu tanımlamak için kullanılır.
 
-Varsayılan boştur.
+Varsayılan:`hükümsüz`.
 
 ### Örnekler
 
 FindReplaceOptions aracılığıyla yeni içeriğe farklı bir yazı tipinin nasıl uygulanacağını gösterir.
 
 ```csharp
+public void ConvertNumbersToHexadecimal()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -36,7 +37,7 @@ FindReplaceOptions aracılığıyla yeni içeriğe farklı bir yazı tipinin nas
     // Bul ve değiştir işlemini değiştirmek için bir "FindReplaceOptions" nesnesi kullanabiliriz.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // "HighlightColor" özelliğini, işlemin sonuç metnine uygulamak istediğimiz bir arka plan rengine ayarlayın.
+    // "HighlightColor" özelliğini, işlemin sonuç metnine uygulamak istediğimiz arka plan rengine ayarlayın.
     options.ApplyFont.HighlightColor = Color.LightGray;
 
     NumberHexer numberHexer = new NumberHexer();
@@ -54,8 +55,8 @@ FindReplaceOptions aracılığıyla yeni içeriğe farklı bir yazı tipinin nas
 }
 
 /// <summary>
-/// Sayısal bul ve değiştir eşleşmelerini onaltılık eşdeğerleriyle değiştirir.
-/// Her değiştirmenin bir günlüğünü tutar.
+/// Sayısal bulma ve değiştirme eşleşmelerini onaltılık eşdeğerleriyle değiştirir.
+/// Her değişimin kaydını tutar.
 /// </summary>
 private class NumberHexer : IReplacingCallback
 {

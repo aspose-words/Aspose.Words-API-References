@@ -1,14 +1,14 @@
 ---
 title: TextBox.Previous
 second_title: Aspose.Words för .NET API Referens
-description: TextBox fast egendom. Returnerar en TextBox som representerar den föregående TextBoxen i en sekvens av former.
+description: TextBox fast egendom. Returnerar enTextBox som representerar det föregåendeTextBox i en sekvens av former.
 type: docs
-weight: 90
+weight: 100
 url: /sv/net/aspose.words.drawing/textbox/previous/
 ---
 ## TextBox.Previous property
 
-Returnerar en TextBox som representerar den föregående TextBoxen i en sekvens av former.
+Returnerar en[`TextBox`](../) som representerar det föregående[`TextBox`](../) i en sekvens av former.
 
 ```csharp
 public TextBox Previous { get; }

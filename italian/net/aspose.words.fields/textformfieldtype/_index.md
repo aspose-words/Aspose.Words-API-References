@@ -3,7 +3,7 @@ title: Enum TextFormFieldType
 second_title: Aspose.Words per .NET API Reference
 description: Aspose.Words.Fields.TextFormFieldType enum. Specifica il tipo di un campo modulo di testo.
 type: docs
-weight: 2590
+weight: 2770
 url: /it/net/aspose.words.fields/textformfieldtype/
 ---
 ## TextFormFieldType enumeration
@@ -21,7 +21,7 @@ public enum TextFormFieldType
 | Regular | `0` | Il campo del modulo di testo può contenere qualsiasi testo. |
 | Number | `1` | Il campo del modulo di testo può contenere solo numeri. |
 | Date | `2` | Il campo del modulo di testo può contenere solo un valore di data valido. |
-| CurrentDate | `3` | Il valore del campo del modulo di testo è la data corrente in cui il campo viene aggiornato. |
+| CurrentDate | `3` | Il valore del campo modulo di testo è la data corrente in cui il campo viene aggiornato. |
 | CurrentTime | `4` | Il valore del campo del modulo di testo è l'ora corrente in cui il campo viene aggiornato. |
 | Calculated | `5` | Il valore del campo del modulo di testo viene calcolato dall'espressione specificata in il[`TextInputDefault`](../formfield/textinputdefault/) proprietà. |
 
@@ -32,9 +32,9 @@ Mostra come creare campi modulo.
 ```csharp
 DocumentBuilder builder = new DocumentBuilder();
 
-// I campi modulo sono oggetti nel documento con cui l'utente può interagire quando viene richiesto di immettere valori.
+// I campi del modulo sono oggetti nel documento con cui l'utente può interagire chiedendogli di inserire valori.
 // Possiamo crearli utilizzando un generatore di documenti e di seguito sono riportati due modi per farlo.
-// 1 - Input di testo di base:
+// 1 - Inserimento di testo di base:
 builder.InsertTextInput("My text input", TextFormFieldType.Regular, 
     "", "Enter your name here", 30);
 

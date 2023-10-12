@@ -1,14 +1,14 @@
 ---
 title: CertificateHolder.Certificate
 second_title: Référence de l'API Aspose.Words pour .NET
-description: CertificateHolder propriété. Renvoie linstance de X509Certificat2 qui contient les clés privées publiques et la chaîne de certificats.
+description: CertificateHolder propriété. Renvoie linstance de X509Certificat2 qui contient les clés privées et publiques et la chaîne de certificats.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.digitalsignatures/certificateholder/certificate/
 ---
 ## CertificateHolder.Certificate property
 
-Renvoie l'instance de **X509Certificat2** qui contient les clés privées, publiques et la chaîne de certificats.
+Renvoie l'instance de **X509Certificat2** qui contient les clés privées et publiques et la chaîne de certificats.
 
 ```csharp
 public X509Certificate2 Certificate { get; }

@@ -1,14 +1,14 @@
 ---
 title: Document.Document
 second_title: Aspose.Words لمراجع .NET API
-description: Document البناء. إنشاء مستند Word فارغ .
+description: Document البناء. إنشاء مستند Word فارغ.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/document/document/
 ---
 ## Document() {#constructor}
 
-إنشاء مستند Word فارغ .
+إنشاء مستند Word فارغ.
 
 ```csharp
 public Document()
@@ -16,9 +16,9 @@ public Document()
 
 ### ملاحظات
 
-حجم ورق المستند هو Letter افتراضيًا. إذا كنت تريد تغيير إعداد الصفحة ، فاستخدم [`القسم. إعداد الصفحة`](../../section/pagesetup/).
+حجم ورق المستند هو Letter بشكل افتراضي. إذا كنت تريد تغيير إعداد الصفحة، فاستخدم [`PageSetup`](../../section/pagesetup/).
 
-بعد الإنشاء ، يمكنك استخدام ملفات[`DocumentBuilder`](../../documentbuilder/) لإضافة محتوى الوثيقة بسهولة.
+بعد الإنشاء، يمكنك استخدام[`DocumentBuilder`](../../documentbuilder/) لإضافة محتوى المستند بسهولة.
 
 ### أمثلة
 
@@ -44,8 +44,8 @@ doc.Save(ArtifactsDir + "Font.CreateFormattedRun.docx");
 // 1 - إنشاء مستند فارغ:
 Document doc = new Document();
 
-// كائنات المستند الجديد بشكل افتراضي تأتي مع الحد الأدنى من مجموعة العقد
-// مطلوب لبدء إضافة محتوى مثل النص والأشكال: قسم ، ونص ، وفقرة.
+// تأتي كائنات المستند الجديدة بشكل افتراضي مع الحد الأدنى من العقد
+// مطلوب لبدء إضافة محتوى مثل النص والأشكال: قسم، ونص، وفقرة.
 doc.FirstSection.Body.FirstParagraph.AppendChild(new Run(doc, "Hello world!"));
 
 // 2 - تحميل مستند موجود في نظام الملفات المحلي:
@@ -54,8 +54,8 @@ doc = new Document(MyDir + "Document.docx");
 // ستحتوي المستندات المحملة على محتويات يمكننا الوصول إليها وتحريرها.
 Assert.AreEqual("Hello World!", doc.FirstSection.Body.FirstParagraph.GetText().Trim());
 
-// بعض العمليات التي يجب أن تحدث أثناء التحميل ، مثل استخدام كلمة مرور لفك تشفير مستند ،
-// يمكن أن يتم عن طريق تمرير كائن LoadOptions عند تحميل المستند.
+// بعض العمليات التي يجب إجراؤها أثناء التحميل، مثل استخدام كلمة مرور لفك تشفير مستند،
+// يمكن القيام بذلك عن طريق تمرير كائن LoadOptions عند تحميل المستند.
 doc = new Document(MyDir + "Encrypted.docx", new LoadOptions("docPassword"));
 
 Assert.AreEqual("Test encrypted document.", doc.FirstSection.Body.FirstParagraph.GetText().Trim());
@@ -71,7 +71,7 @@ Assert.AreEqual("Test encrypted document.", doc.FirstSection.Body.FirstParagraph
 
 ## Document(string) {#constructor_3}
 
-يفتح وثيقة موجودة من ملف. يكتشف تنسيق الملف تلقائيًا.
+فتح مستند موجود من ملف. يكتشف تنسيق الملف تلقائيًا.
 
 ```csharp
 public Document(string fileName)
@@ -79,22 +79,22 @@ public Document(string fileName)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| fileName | String | اسم ملف المستند المراد فتحه. |
+| fileName | String | اسم الملف للمستند الذي سيتم فتحه. |
 
 ### استثناءات
 
 | استثناء | حالة |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | تنسيق المستند غير معروف أو غير مدعوم. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | لم يتم التعرف على تنسيق المستند أو أنه غير مدعوم. |
 | [FileCorruptedException](../../filecorruptedexception/) | يبدو أن المستند تالف ولا يمكن تحميله. |
 | Exception | توجد مشكلة في المستند ويجب إبلاغ مطوري Aspose.Words بها. |
-| IOException | هناك استثناء الإدخال / الإخراج. |
-| [IncorrectPasswordException](../../incorrectpasswordexception/) | المستند مشفر ويتطلب كلمة مرور لفتحه ، لكنك أدخلت كلمة مرور غير صحيحة. |
+| IOException | هناك استثناء الإدخال/الإخراج. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | المستند مشفر ويتطلب كلمة مرور لفتحه، ولكنك أدخلت كلمة مرور غير صحيحة. |
 | ArgumentException | لا يمكن أن يكون اسم الملف سلسلة فارغة أو فارغة. |
 
 ### أمثلة
 
-يوضح كيفية فتح مستند وتحويله إلى PDF.
+يوضح كيفية فتح مستند وتحويله إلى .PDF.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -102,7 +102,7 @@ Document doc = new Document(MyDir + "Document.docx");
 doc.Save(ArtifactsDir + "Document.ConvertToPdf.pdf");
 ```
 
-يوضح كيفية تحويل ملف PDF إلى ملف docx.
+يوضح كيفية تحويل ملف PDF إلى ملف .docx.
 
 ```csharp
 Document doc = new Document();
@@ -112,7 +112,7 @@ builder.Write("Hello world!");
 
 doc.Save(ArtifactsDir + "PDF2Word.ConvertPdfToDocx.pdf");
 
-// قم بتحميل مستند PDF الذي حفظناه للتو ، وقم بتحويله إلى .docx.
+// قم بتحميل مستند PDF الذي حفظناه للتو، وقم بتحويله إلى .docx.
 Document pdfDoc = new Document(ArtifactsDir + "PDF2Word.ConvertPdfToDocx.pdf");
 
 pdfDoc.Save(ArtifactsDir + "PDF2Word.ConvertPdfToDocx.docx");
@@ -129,7 +129,7 @@ builder.Write("Hello world!");
 doc.Save(ArtifactsDir + "PDF2Word.LoadPdf.pdf");
 
 // فيما يلي طريقتان لتحميل مستندات PDF باستخدام منتجات Aspose.
-// 1 - التحميل كوثيقة Aspose.Words:
+// 1 - تحميل كمستند Aspose.Words:
 Aspose.Words.Document asposeWordsDoc = new Aspose.Words.Document(ArtifactsDir + "PDF2Word.LoadPdf.pdf");
 
 Assert.AreEqual("Hello world!", asposeWordsDoc.GetText().Trim());
@@ -153,7 +153,7 @@ Assert.AreEqual("Hello world!", textFragmentAbsorber.Text.Trim());
 
 ## Document(string, LoadOptions) {#constructor_4}
 
-يفتح وثيقة موجودة من ملف. يسمح بتحديد خيارات إضافية مثل كلمة مرور التشفير.
+فتح مستند موجود من ملف. يسمح بتحديد خيارات إضافية مثل كلمة مرور التشفير.
 
 ```csharp
 public Document(string fileName, LoadOptions loadOptions)
@@ -161,40 +161,41 @@ public Document(string fileName, LoadOptions loadOptions)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| fileName | String | اسم ملف المستند المراد فتحه. |
-| loadOptions | LoadOptions | خيارات إضافية لاستخدامها عند تحميل مستند. يمكن أن تكون خالية. |
+| fileName | String | اسم الملف للمستند الذي سيتم فتحه. |
+| loadOptions | LoadOptions | خيارات إضافية لاستخدامها عند تحميل مستند. يمكن ان يكون`باطل`. |
 
 ### استثناءات
 
 | استثناء | حالة |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | تنسيق المستند غير معروف أو غير مدعوم. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | لم يتم التعرف على تنسيق المستند أو أنه غير مدعوم. |
 | [FileCorruptedException](../../filecorruptedexception/) | يبدو أن المستند تالف ولا يمكن تحميله. |
 | Exception | توجد مشكلة في المستند ويجب إبلاغ مطوري Aspose.Words بها. |
-| IOException | هناك استثناء الإدخال / الإخراج. |
-| [IncorrectPasswordException](../../incorrectpasswordexception/) | المستند مشفر ويتطلب كلمة مرور لفتحه ، لكنك أدخلت كلمة مرور غير صحيحة. |
+| IOException | هناك استثناء الإدخال/الإخراج. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | المستند مشفر ويتطلب كلمة مرور لفتحه، ولكنك أدخلت كلمة مرور غير صحيحة. |
 | ArgumentException | لا يمكن أن يكون اسم الملف سلسلة فارغة أو فارغة. |
 
 ### أمثلة
 
-يوضح كيفية تحميل مستند Microsoft Word مشفر.
+يوضح كيفية تحميل مستند Microsoft Word المشفر.
 
 ```csharp
 Document doc;
 
-// Aspose.Words استثناء إذا حاولنا فتح مستند مشفر بدون كلمة المرور الخاصة به.
+// Aspose.Words يطرح استثناءً إذا حاولنا فتح مستند مشفر بدون كلمة المرور الخاصة به.
 Assert.Throws<IncorrectPasswordException>(() => doc = new Document(MyDir + "Encrypted.docx"));
 
-// عند تحميل مثل هذا المستند ، يتم تمرير كلمة المرور إلى مُنشئ المستند باستخدام كائن LoadOptions.
+// عند تحميل مثل هذا المستند، يتم تمرير كلمة المرور إلى مُنشئ المستند باستخدام كائن LoadOptions.
 LoadOptions options = new LoadOptions("docPassword");
 
 // هناك طريقتان لتحميل مستند مشفر باستخدام كائن LoadOptions.
 // 1 - قم بتحميل المستند من نظام الملفات المحلي حسب اسم الملف:
 doc = new Document(MyDir + "Encrypted.docx", options);
-// 2 - تحميل المستند من دفق:
+// 2 - تحميل المستند من الدفق:
 using (Stream stream = File.OpenRead(MyDir + "Encrypted.docx"))
 {
     doc = new Document(stream, options);
+}
 ```
 
 يوضح كيفية إنشاء المستندات وتحميلها.
@@ -204,8 +205,8 @@ using (Stream stream = File.OpenRead(MyDir + "Encrypted.docx"))
 // 1 - إنشاء مستند فارغ:
 Document doc = new Document();
 
-// كائنات المستند الجديد بشكل افتراضي تأتي مع الحد الأدنى من مجموعة العقد
-// مطلوب لبدء إضافة محتوى مثل النص والأشكال: قسم ، ونص ، وفقرة.
+// تأتي كائنات المستند الجديدة بشكل افتراضي مع الحد الأدنى من العقد
+// مطلوب لبدء إضافة محتوى مثل النص والأشكال: قسم، ونص، وفقرة.
 doc.FirstSection.Body.FirstParagraph.AppendChild(new Run(doc, "Hello world!"));
 
 // 2 - تحميل مستند موجود في نظام الملفات المحلي:
@@ -214,8 +215,8 @@ doc = new Document(MyDir + "Document.docx");
 // ستحتوي المستندات المحملة على محتويات يمكننا الوصول إليها وتحريرها.
 Assert.AreEqual("Hello World!", doc.FirstSection.Body.FirstParagraph.GetText().Trim());
 
-// بعض العمليات التي يجب أن تحدث أثناء التحميل ، مثل استخدام كلمة مرور لفك تشفير مستند ،
-// يمكن أن يتم عن طريق تمرير كائن LoadOptions عند تحميل المستند.
+// بعض العمليات التي يجب إجراؤها أثناء التحميل، مثل استخدام كلمة مرور لفك تشفير مستند،
+// يمكن القيام بذلك عن طريق تمرير كائن LoadOptions عند تحميل المستند.
 doc = new Document(MyDir + "Encrypted.docx", new LoadOptions("docPassword"));
 
 Assert.AreEqual("Test encrypted document.", doc.FirstSection.Body.FirstParagraph.GetText().Trim());
@@ -232,7 +233,7 @@ Assert.AreEqual("Test encrypted document.", doc.FirstSection.Body.FirstParagraph
 
 ## Document(Stream) {#constructor_1}
 
-يفتح مستندًا موجودًا من دفق. يكتشف تنسيق الملف تلقائيًا.
+فتح مستند موجود من الدفق. يكتشف تنسيق الملف تلقائيًا.
 
 ```csharp
 public Document(Stream stream)
@@ -240,17 +241,17 @@ public Document(Stream stream)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| stream | Stream | دفق مكان تحميل المستند منه. |
+| stream | Stream | دفق من أين سيتم تحميل المستند. |
 
 ### استثناءات
 
 | استثناء | حالة |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | تنسيق المستند غير معروف أو غير مدعوم. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | لم يتم التعرف على تنسيق المستند أو أنه غير مدعوم. |
 | [FileCorruptedException](../../filecorruptedexception/) | يبدو أن المستند تالف ولا يمكن تحميله. |
 | Exception | توجد مشكلة في المستند ويجب إبلاغ مطوري Aspose.Words بها. |
-| IOException | هناك استثناء الإدخال / الإخراج. |
-| [IncorrectPasswordException](../../incorrectpasswordexception/) | المستند مشفر ويتطلب كلمة مرور لفتحه ، لكنك أدخلت كلمة مرور غير صحيحة. |
+| IOException | هناك استثناء الإدخال/الإخراج. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | المستند مشفر ويتطلب كلمة مرور لفتحه، ولكنك أدخلت كلمة مرور غير صحيحة. |
 | ArgumentNullException | لا يمكن أن يكون الدفق فارغًا. |
 | NotSupportedException | الدفق لا يدعم القراءة أو البحث. |
 | ObjectDisposedException | الدفق هو كائن تم التخلص منه. |
@@ -261,7 +262,7 @@ public Document(Stream stream)
 
 ### أمثلة
 
-يوضح كيفية تحميل مستند باستخدام دفق.
+يوضح كيفية تحميل مستند باستخدام الدفق.
 
 ```csharp
 using (Stream stream = File.OpenRead(MyDir + "Document.docx"))
@@ -275,23 +276,23 @@ using (Stream stream = File.OpenRead(MyDir + "Document.docx"))
 يوضح كيفية تحميل مستند من عنوان URL.
 
 ```csharp
-// أنشئ عنوان URL يشير إلى مستند Microsoft Word.
-const string url = "https://omextemplates.content.office.net/support/templates/en-us/tf16402488.dotx ";
+// قم بإنشاء عنوان URL الذي يشير إلى مستند Microsoft Word.
+const string url = "https://filesamples.com/samples/document/docx/sample3.docx";
 
-// قم بتنزيل المستند في مصفوفة بايت ، ثم قم بتحميل هذه المجموعة في مستند باستخدام تدفق الذاكرة.
-using (WebClient webClient = new WebClient())
+// قم بتنزيل المستند إلى مصفوفة بايت، ثم قم بتحميل هذا المصفوفة إلى مستند باستخدام دفق الذاكرة.
+using (HttpClient webClient = new HttpClient())
 {
-    byte[] dataBytes = webClient.DownloadData(url);
+    byte[] dataBytes = await webClient.GetByteArrayAsync(url);
 
     using (MemoryStream byteStream = new MemoryStream(dataBytes))
     {
         Document doc = new Document(byteStream);
 
-        // في هذه المرحلة ، يمكننا قراءة محتويات المستند وتحريرها ثم حفظها في نظام الملفات المحلي.
-        Assert.AreEqual("Use this section to highlight your relevant passions, activities, and how you like to give back. " +
-                        "It’s good to include Leadership and volunteer experiences here. " +
-                        "Or show off important extras like publications, certifications, languages and more.",
-            doc.FirstSection.Body.Paragraphs[4].GetText().Trim());
+        // في هذه المرحلة، يمكننا قراءة محتويات المستند وتحريرها ثم حفظها في نظام الملفات المحلي.
+        Assert.AreEqual("There are eight section headings in this document. At the beginning, \"Sample Document\" is a level 1 heading. " +
+            "The main section headings, such as \"Headings\" and \"Lists\" are level 2 headings. " +
+            "The Tables section contains two sub-headings, \"Simple Table\" and \"Complex Table,\" which are both level 3 headings.",                         
+            doc.FirstSection.Body.Paragraphs[3].GetText().Trim());
 
         doc.Save(ArtifactsDir + "Document.LoadFromWeb.docx");
     }
@@ -308,7 +309,7 @@ using (WebClient webClient = new WebClient())
 
 ## Document(Stream, LoadOptions) {#constructor_2}
 
-يفتح مستندًا موجودًا من دفق. يسمح بتحديد خيارات إضافية مثل كلمة مرور التشفير.
+فتح مستند موجود من الدفق. يسمح بتحديد خيارات إضافية مثل كلمة مرور التشفير.
 
 ```csharp
 public Document(Stream stream, LoadOptions loadOptions)
@@ -317,17 +318,17 @@ public Document(Stream stream, LoadOptions loadOptions)
 | معامل | يكتب | وصف |
 | --- | --- | --- |
 | stream | Stream | الدفق الذي سيتم تحميل المستند منه. |
-| loadOptions | LoadOptions | خيارات إضافية لاستخدامها عند تحميل مستند. يمكن أن تكون خالية. |
+| loadOptions | LoadOptions | خيارات إضافية لاستخدامها عند تحميل مستند. يمكن ان يكون`باطل`. |
 
 ### استثناءات
 
 | استثناء | حالة |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | تنسيق المستند غير معروف أو غير مدعوم. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | لم يتم التعرف على تنسيق المستند أو أنه غير مدعوم. |
 | [FileCorruptedException](../../filecorruptedexception/) | يبدو أن المستند تالف ولا يمكن تحميله. |
 | Exception | توجد مشكلة في المستند ويجب إبلاغ مطوري Aspose.Words بها. |
-| IOException | هناك استثناء الإدخال / الإخراج. |
-| [IncorrectPasswordException](../../incorrectpasswordexception/) | المستند مشفر ويتطلب كلمة مرور لفتحه ، لكنك أدخلت كلمة مرور غير صحيحة. |
+| IOException | هناك استثناء الإدخال/الإخراج. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | المستند مشفر ويتطلب كلمة مرور لفتحه، ولكنك أدخلت كلمة مرور غير صحيحة. |
 | ArgumentNullException | لا يمكن أن يكون الدفق فارغًا. |
 | NotSupportedException | الدفق لا يدعم القراءة أو البحث. |
 | ObjectDisposedException | الدفق هو كائن تم التخلص منه. |
@@ -338,34 +339,13 @@ public Document(Stream stream, LoadOptions loadOptions)
 
 ### أمثلة
 
-يوضح كيفية حفظ صفحة ويب كملف docx.
-
-```csharp
-const string url = "http://www.aspose.com/ ";
-
-using (WebClient client = new WebClient()) 
-{ 
-    using (MemoryStream stream = new MemoryStream(client.DownloadData(url)))
-    {
-        // يتم استخدام عنوان URL مرة أخرى باعتباره baseUri لضمان استرداد أي مسارات صور ذات صلة بشكل صحيح.
-        LoadOptions options = new LoadOptions(LoadFormat.Html, "", url);
-
-        // قم بتحميل مستند HTML من الدفق وتمرير كائن LoadOptions.
-        Document doc = new Document(stream, options);
-
-        // في هذه المرحلة ، يمكننا قراءة محتويات المستند وتحريرها ثم حفظها في نظام الملفات المحلي.
-        doc.Save(ArtifactsDir + "Document.InsertHtmlFromWebPage.docx");
-    }
-}
-```
-
-يوضح كيفية فتح مستند HTML بصور من دفق باستخدام URI أساسي.
+يوضح كيفية فتح مستند HTML يحتوي على صور من دفق باستخدام عنوان URI أساسي.
 
 ```csharp
 using (Stream stream = File.OpenRead(MyDir + "Document.html"))
 {
     // قم بتمرير URI للمجلد الأساسي أثناء تحميله
-    // بحيث يمكن العثور على أي صور ذات URIs ذات صلة في مستند HTML.
+    // بحيث يمكن العثور على أي صور ذات عناوين URI نسبية في مستند HTML.
     LoadOptions loadOptions = new LoadOptions();
     loadOptions.BaseUri = ImageDir;
 
@@ -381,24 +361,47 @@ using (Stream stream = File.OpenRead(MyDir + "Document.html"))
 }
 ```
 
-يوضح كيفية تحميل مستند Microsoft Word مشفر.
+يوضح كيفية حفظ صفحة ويب كملف .docx.
+
+```csharp
+const string url = "https://www.aspose.com/";
+
+using (HttpClient client = new HttpClient()) 
+{
+    var bytes = await client.GetByteArrayAsync(url);
+    using (MemoryStream stream = new MemoryStream(bytes))
+    {
+        // يتم استخدام عنوان URL مرة أخرى باعتباره BaseUri لضمان استرداد أي مسارات صور نسبية بشكل صحيح.
+        LoadOptions options = new LoadOptions(LoadFormat.Html, "", url);
+
+        // قم بتحميل مستند HTML من الدفق وتمرير كائن LoadOptions.
+        Document doc = new Document(stream, options);
+
+        // في هذه المرحلة، يمكننا قراءة محتويات المستند وتحريرها ثم حفظها في نظام الملفات المحلي.
+        doc.Save(ArtifactsDir + "Document.InsertHtmlFromWebPage.docx");
+    }
+}
+```
+
+يوضح كيفية تحميل مستند Microsoft Word المشفر.
 
 ```csharp
 Document doc;
 
-// Aspose.Words استثناء إذا حاولنا فتح مستند مشفر بدون كلمة المرور الخاصة به.
+// Aspose.Words يطرح استثناءً إذا حاولنا فتح مستند مشفر بدون كلمة المرور الخاصة به.
 Assert.Throws<IncorrectPasswordException>(() => doc = new Document(MyDir + "Encrypted.docx"));
 
-// عند تحميل مثل هذا المستند ، يتم تمرير كلمة المرور إلى مُنشئ المستند باستخدام كائن LoadOptions.
+// عند تحميل مثل هذا المستند، يتم تمرير كلمة المرور إلى مُنشئ المستند باستخدام كائن LoadOptions.
 LoadOptions options = new LoadOptions("docPassword");
 
 // هناك طريقتان لتحميل مستند مشفر باستخدام كائن LoadOptions.
 // 1 - قم بتحميل المستند من نظام الملفات المحلي حسب اسم الملف:
 doc = new Document(MyDir + "Encrypted.docx", options);
-// 2 - تحميل المستند من دفق:
+// 2 - تحميل المستند من الدفق:
 using (Stream stream = File.OpenRead(MyDir + "Encrypted.docx"))
 {
     doc = new Document(stream, options);
+}
 ```
 
 ### أنظر أيضا

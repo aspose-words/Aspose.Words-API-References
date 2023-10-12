@@ -1,14 +1,14 @@
 ---
 title: MailMerge.CleanupOptions
 second_title: Aspose.Words لمراجع .NET API
-description: MailMerge ملكية. الحصول على أو تعيين مجموعة من العلامات التي تحدد العناصر التي يجب إزالتها أثناء دمج المراسلات.
+description: MailMerge ملكية. الحصول على أو تعيين مجموعة من العلامات التي تحدد العناصر التي يجب إزالتها أثناء دمج البريد.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.mailmerging/mailmerge/cleanupoptions/
 ---
 ## MailMerge.CleanupOptions property
 
-الحصول على أو تعيين مجموعة من العلامات التي تحدد العناصر التي يجب إزالتها أثناء دمج المراسلات.
+الحصول على أو تعيين مجموعة من العلامات التي تحدد العناصر التي يجب إزالتها أثناء دمج البريد.
 
 ```csharp
 public MailMergeCleanupOptions CleanupOptions { get; set; }
@@ -16,7 +16,7 @@ public MailMergeCleanupOptions CleanupOptions { get; set; }
 
 ### أمثلة
 
-يوضح كيفية إزالة الفقرات الفارغة التي قد ينشئها دمج المراسلات من مستند إخراج الدمج.
+يوضح كيفية إزالة الفقرات الفارغة التي قد تنشئها عملية دمج البريد من مستند إخراج الدمج.
 
 ```csharp
 Document doc = new Document();
@@ -49,14 +49,14 @@ else
         "Jane Doe", doc.GetText().Trim());
 ```
 
-يوضح كيفية إزالة MERGEFIELDs التي لا يتم استخدامها أثناء دمج البريد تلقائيًا.
+يوضح كيفية إزالة MERGEFIELD التي لا يتم استخدامها أثناء دمج البريد تلقائيًا.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// إنشاء مستند باستخدام MERGEFIELDs لثلاثة أعمدة من جدول مصدر بيانات دمج المراسلات ،
-// ثم قم بإنشاء جدول مكون من عمودين فقط تتطابق أسماؤهما مع MERGEFIELDs.
+// إنشاء مستند باستخدام MERGEFIELDs لثلاثة أعمدة من جدول مصدر بيانات دمج المراسلات،
+// ثم قم بإنشاء جدول يحتوي على عمودين فقط تتطابق أسماؤهما مع MERGEFIELDs الخاصة بنا.
 builder.InsertField(" MERGEFIELD FirstName ");
 builder.Write(" ");
 builder.InsertField(" MERGEFIELD LastName ");
@@ -69,10 +69,10 @@ dataTable.Columns.Add("LastName");
 dataTable.Rows.Add(new object[] { "John", "Doe" });
 dataTable.Rows.Add(new object[] { "Joe", "Bloggs" });
 
-// يشير MERGEFIELD الثالث لدينا إلى عمود "المدينة" ، والذي لا يوجد في مصدر البيانات لدينا.
-// سيترك دمج المراسلات حقولًا مثل هذه كما هي في حالة الدمج المسبق الخاصة بها.
-// سيؤدي تعيين خاصية "CleanupOptions" على "RemoveUnusedFields" إلى إزالة أية عناصر MERGEFIELD
-// التي لا يتم استخدامها أثناء دمج المراسلات لتنظيف مستندات الدمج.
+// يشير MERGEFIELD الثالث إلى عمود "المدينة"، وهو غير موجود في مصدر البيانات لدينا.
+// سوف يترك دمج البريد الحقول مثل هذه سليمة في حالتها السابقة للدمج.
+// سيؤدي تعيين خاصية "CleanupOptions" على "RemoveUnusedFields" إلى إزالة أي MERGEFIELDs
+// التي لا يتم استخدامها أثناء عملية دمج البريد لتنظيف مستندات الدمج.
 doc.MailMerge.CleanupOptions = mailMergeCleanupOptions;
 doc.MailMerge.Execute(dataTable);
 

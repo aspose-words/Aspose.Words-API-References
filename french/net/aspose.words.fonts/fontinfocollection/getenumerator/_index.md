@@ -1,14 +1,14 @@
 ---
 title: FontInfoCollection.GetEnumerator
 second_title: Référence de l'API Aspose.Words pour .NET
-description: FontInfoCollection méthode. Renvoie un objet énumérateur qui peut être utilisé pour itérer sur tous les éléments de la collection.
+description: FontInfoCollection méthode. Renvoie un objet énumérateur qui peut être utilisé pour parcourir tous les éléments de la collection.
 type: docs
 weight: 70
 url: /fr/net/aspose.words.fonts/fontinfocollection/getenumerator/
 ---
 ## FontInfoCollection.GetEnumerator method
 
-Renvoie un objet énumérateur qui peut être utilisé pour itérer sur tous les éléments de la collection.
+Renvoie un objet énumérateur qui peut être utilisé pour parcourir tous les éléments de la collection.
 
 ```csharp
 public IEnumerator<FontInfo> GetEnumerator()
@@ -16,7 +16,7 @@ public IEnumerator<FontInfo> GetEnumerator()
 
 ### Exemples
 
-Montre comment accéder aux détails de chaque police dans un document et les imprimer.
+Montre comment accéder et imprimer les détails de chaque police dans un document.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");

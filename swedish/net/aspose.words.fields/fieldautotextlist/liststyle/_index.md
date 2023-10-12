@@ -19,6 +19,7 @@ public string ListStyle { get; set; }
 Visar hur man använder ett AUTOTEXTLIST-fält för att välja från en lista med AutoText-poster.
 
 ```csharp
+public void FieldAutoTextList()
 {
     Document doc = new Document();
 
@@ -43,6 +44,7 @@ Visar hur man använder ett AUTOTEXTLIST-fält för att välja från en lista me
                     "\\t \"Hover tip text for AutoTextList goes here\"", field.GetFieldCode());
 
     doc.Save(ArtifactsDir + "Field.AUTOTEXTLIST.dotx");
+}
 
 /// <summary>
 /// Skapa ett byggblock av AutoText-typ och lägg till det i ett ordlistadokument.

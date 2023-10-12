@@ -16,13 +16,13 @@ public string PageRangeSeparator { get; set; }
 
 ### Exemples
 
-Montre comment spécifier les pages étendues d'un signet en tant que plage de pages pour une entrée de champ INDEX.
+Montre comment spécifier les pages étendues d’un signet comme plage de pages pour une entrée de champ INDEX.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Crée un champ INDEX qui affichera une entrée pour chaque champ XE trouvé dans le document.
+// Créez un champ INDEX qui affichera une entrée pour chaque champ XE trouvé dans le document.
 // Chaque entrée affichera la valeur de la propriété Text du champ XE sur le côté gauche,
 // et le numéro de la page qui contient le champ XE à droite.
 // L'entrée INDEX collectera tous les champs XE avec des valeurs correspondantes dans la propriété "Texte"
@@ -41,7 +41,7 @@ FieldXE indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, tru
 indexEntry.Text = "My entry";
 
 // Si un champ XE nomme un signet à l'aide de la propriété PageRangeBookmarkName,
-// son entrée INDEX affichera la plage de pages couvertes par le signet
+// son entrée INDEX affichera la plage de pages couverte par le signet
 // au lieu du numéro de la page qui contient le champ XE.
 indexEntry.PageRangeBookmarkName = "MyBookmark";
 
@@ -50,7 +50,7 @@ Assert.AreEqual("MyBookmark", indexEntry.PageRangeBookmarkName);
 
 // Insère un signet qui commence à la page 3 et se termine à la page 5.
 // L'entrée INDEX pour le champ XE qui fait référence à ce signet affichera cette plage de pages.
-// Dans notre tableau, l'entrée INDEX affichera "Mon entrée, page(s) 3 à 5".
+// Dans notre tableau, l'entrée INDEX affichera "Mon entrée, sur la(les) page(s) 3 à 5".
 builder.InsertBreak(BreakType.PageBreak);
 builder.StartBookmark("MyBookmark");
 builder.Write("Start of MyBookmark");
@@ -59,6 +59,7 @@ builder.InsertBreak(BreakType.PageBreak);
 builder.Write("End of MyBookmark");
 builder.EndBookmark("MyBookmark");
 
+doc.UpdatePageLayout();
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "Field.INDEX.XE.PageRangeBookmark.docx");
 ```

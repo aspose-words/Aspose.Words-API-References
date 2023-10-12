@@ -1,14 +1,14 @@
 ---
 title: DocumentBase.NodeChangingCallback
 second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentBase eigendom. Wird aufgerufen wenn ein Knoten im Dokument eingefügt oder entfernt wird.
+description: DocumentBase eigendom. Wird aufgerufen wenn ein Knoten in das Dokument eingefügt oder entfernt wird.
 type: docs
 weight: 50
 url: /de/net/aspose.words/documentbase/nodechangingcallback/
 ---
 ## DocumentBase.NodeChangingCallback property
 
-Wird aufgerufen, wenn ein Knoten im Dokument eingefügt oder entfernt wird.
+Wird aufgerufen, wenn ein Knoten in das Dokument eingefügt oder entfernt wird.
 
 ```csharp
 public INodeChangingCallback NodeChangingCallback { get; set; }
@@ -16,15 +16,16 @@ public INodeChangingCallback NodeChangingCallback { get; set; }
 
 ### Beispiele
 
-Zeigt, wie Sie Knotenänderungen mit einem Callback anpassen.
+Zeigt, wie Knotenänderungen mit einem Rückruf angepasst werden.
 
 ```csharp
+public void FontChangeViaCallback()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Setzen Sie den Callback für die Knotenänderung auf die benutzerdefinierte Implementierung,
-    // dann Knoten hinzufügen/entfernen, um ein Protokoll zu generieren.
+    // Den Rückruf zum Ändern des Knotens auf eine benutzerdefinierte Implementierung setzen,
+    // dann Knoten hinzufügen/entfernen, damit ein Protokoll generiert wird.
     HandleNodeChangingFontChanger callback = new HandleNodeChangingFontChanger();
     doc.NodeChangingCallback = callback;
 
@@ -36,10 +37,11 @@ Zeigt, wie Sie Knotenänderungen mit einem Callback anpassen.
     doc.Range.Fields[0].Remove();
 
     Console.WriteLine(callback.GetLog());
+}
 
 /// <summary>
-/// Protokolliert Datum und Uhrzeit jedes Einfügens und Entfernens von Knoten.
-/// Legt einen benutzerdefinierten Schriftartnamen/-größe für den Textinhalt von Run-Knoten fest.
+/// Protokolliert Datum und Uhrzeit des Einfügens und Entfernens jedes Knotens.
+/// Legt einen benutzerdefinierten Schriftartnamen/eine benutzerdefinierte Schriftart für den Textinhalt von Run-Knoten fest.
 /// </summary>
 public class HandleNodeChangingFontChanger : INodeChangingCallback
 {

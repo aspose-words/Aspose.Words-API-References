@@ -1,14 +1,14 @@
 ---
 title: TableStyle.Borders
 second_title: Référence de l'API Aspose.Words pour .NET
-description: TableStyle propriété. Obtient la collection de bordures de cellule par défaut pour le style.
+description: TableStyle propriété. Obtient la collection de bordures de cellules par défaut pour le style.
 type: docs
 weight: 40
 url: /fr/net/aspose.words/tablestyle/borders/
 ---
 ## TableStyle.Borders property
 
-Obtient la collection de bordures de cellule par défaut pour le style.
+Obtient la collection de bordures de cellules par défaut pour le style.
 
 ```csharp
 public BorderCollection Borders { get; }

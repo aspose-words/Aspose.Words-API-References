@@ -16,13 +16,14 @@ public double Value { get; set; }
 
 ### Remarques
 
-Vous devez utiliser une valeur négative pour indiquer que la valeur d'origine de la dimension d'image correspondante doit être appliquée.
+Vous devez utiliser une valeur négative pour indiquer que la valeur d'origine de la dimension de l'image correspondante doit être appliquée.
 
 ### Exemples
 
-Montre comment définir les dimensions des images lorsque MERGEFIELDS les accepte lors d'un publipostage.
+Montre comment définir les dimensions des images telles que MERGEFIELDS les accepte lors d'un publipostage.
 
 ```csharp
+public void MergeFieldImageDimension()
 {
     Document doc = new Document();
 
@@ -34,22 +35,23 @@ Montre comment définir les dimensions des images lorsque MERGEFIELDS les accept
     // La source de données doit avoir une telle colonne nommée "ImageColumn".
     Assert.AreEqual("Image:ImageColumn", field.FieldName);
 
-    // Crée une source de données appropriée.
+    // Créez une source de données appropriée.
     DataTable dataTable = new DataTable("Images");
     dataTable.Columns.Add(new DataColumn("ImageColumn"));
     dataTable.Rows.Add(ImageDir + "Logo.jpg");
     dataTable.Rows.Add(ImageDir + "Transparent background logo.png");
     dataTable.Rows.Add(ImageDir + "Enhanced Windows MetaFile.emf");
 
-    // Configurez un rappel pour modifier la taille des images au moment de la fusion, puis exécutez le publipostage.
+    // Configurez un rappel pour modifier les tailles des images au moment de la fusion, puis exécutez le publipostage.
     doc.MailMerge.FieldMergingCallback = new MergedImageResizer(200, 200, MergeFieldImageDimensionUnit.Point);
     doc.MailMerge.Execute(dataTable);
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.MERGEFIELD.ImageDimension.docx");
+}
 
 /// <summary>
-/// Définit la taille de toutes les images fusionnées par courrier à une largeur et une hauteur définies.
+/// Définit la taille de toutes les images fusionnées par courrier sur une largeur et une hauteur définies.
 /// </summary>
 private class MergedImageResizer : IFieldMergingCallback
 {

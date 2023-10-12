@@ -1,14 +1,14 @@
 ---
 title: Node.GetText
 second_title: Aspose.Words لمراجع .NET API
-description: Node طريقة. يحصل على نص هذه العقدة وجميع توابعها.
+description: Node طريقة. الحصول على نص هذه العقدة وجميع أبنائها.
 type: docs
 weight: 120
 url: /ar/net/aspose.words/node/gettext/
 ---
 ## Node.GetText method
 
-يحصل على نص هذه العقدة وجميع توابعها.
+الحصول على نص هذه العقدة وجميع أبنائها.
 
 ```csharp
 public virtual string GetText()
@@ -16,7 +16,7 @@ public virtual string GetText()
 
 ### ملاحظات
 
-تتضمن السلسلة التي تم إرجاعها كل عناصر التحكم والأحرف الخاصة كما هو موضح في[`ControlChar`](../../controlchar/).
+تتضمن السلسلة التي تم إرجاعها جميع عناصر التحكم والأحرف الخاصة كما هو موضح في[`ControlChar`](../../controlchar/).
 
 ### أمثلة
 
@@ -26,18 +26,18 @@ public virtual string GetText()
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أدخل فقرات مع نص باستخدام DocumentBuilder.
+// قم بإدراج فقرات تحتوي على نص باستخدام DocumentBuilder.
 builder.Writeln("Hello world!");
 builder.Writeln("Hello again!");
 
-// تحويل المستند إلى نموذج نصي يكشف عن التحكم في الأحرف
-// تمثل بعض العناصر الهيكلية للمستند ، مثل فواصل الصفحات.
+// يكشف تحويل المستند إلى نموذج نصي عن أحرف التحكم تلك
+// تمثل بعض العناصر الهيكلية للمستند، مثل فواصل الصفحات.
 Assert.AreEqual($"Hello world!{ControlChar.Cr}" +
                 $"Hello again!{ControlChar.Cr}" +
                 ControlChar.PageBreak, doc.GetText());
 
-// عند تحويل مستند إلى شكل سلسلة ،
-// يمكننا حذف بعض أحرف التحكم باستخدام طريقة Trim.
+// عند تحويل مستند إلى نموذج سلسلة،
+// يمكننا حذف بعض أحرف التحكم باستخدام طريقة القطع.
 Assert.AreEqual($"Hello world!{ControlChar.Cr}" +
                 "Hello again!", doc.GetText().Trim());
 ```
@@ -47,27 +47,27 @@ Assert.AreEqual($"Hello world!{ControlChar.Cr}" +
 ```csharp
 Document doc = new Document();
 
-// يحتوي المستند الفارغ على قسم واحد وجسم واحد وفقرة واحدة.
-// اتصل بطريقة "RemoveAllChildren" لإزالة كل هذه العقد ،
-// وتنتهي بعقدة مستند بدون توابع.
+// يحتوي المستند الفارغ على قسم واحد ونص واحد وفقرة واحدة.
+// اتصل بالطريقة "RemoveAllChildren" لإزالة كل تلك العقد،
+// وينتهي الأمر بعقدة مستند بدون أطفال.
 doc.RemoveAllChildren();
 
 // لا يحتوي هذا المستند الآن على عقد فرعية مركبة يمكننا إضافة محتوى إليها.
-// إذا كنا نرغب في تعديله ، فسنحتاج إلى إعادة ملء مجموعة العقد الخاصة به.
-// أولاً ، قم بإنشاء قسم جديد ، ثم قم بإلحاقه كعقدة فرعية بصفته فرعيًا.
+// إذا أردنا تعديله، فسنحتاج إلى إعادة ملء مجموعة العقد الخاصة به.
+// أولاً، قم بإنشاء قسم جديد، ثم قم بإلحاقه كفرع لعقدة المستند الجذر.
 Section section = new Section(doc);
 doc.AppendChild(section);
 
-// تعيين بعض خصائص إعداد الصفحة للقسم.
+// قم بتعيين بعض خصائص إعداد الصفحة للقسم.
 section.PageSetup.SectionStart = SectionStart.NewPage;
 section.PageSetup.PaperSize = PaperSize.Letter;
 
-// يحتاج القسم إلى جسم يحتوي على جميع محتوياته ويعرضها
-// في الصفحة الواقعة بين رأس وتذييل القسم.
+// يحتاج القسم إلى نص يحتوي على جميع محتوياته ويعرضها
+// في الصفحة الواقعة بين رأس القسم وتذييله.
 Body body = new Body(doc);
 section.AppendChild(body);
 
-// قم بإنشاء فقرة ، وقم بتعيين بعض خصائص التنسيق ، ثم قم بإلحاقها كطفل بالجسم.
+// أنشئ فقرة، وعيّن بعض خصائص التنسيق، ثم ألحقها كطفل فرعي بالنص.
 Paragraph para = new Paragraph(doc);
 
 para.ParagraphFormat.StyleName = "Heading 1";
@@ -75,8 +75,8 @@ para.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 body.AppendChild(para);
 
-// أخيرًا ، أضف بعض المحتوى لعمل المستند. إنشاء شوط ،
-// قم بتعيين مظهرها ومحتوياتها ، ثم قم بإلحاقها كطفل بالفقرة.
+// وأخيرًا، أضف بعض المحتوى لإجراء المستند. إنشاء تشغيل،
+// اضبط مظهرها ومحتوياتها، ثم ألحقها كطفل للفقرة.
 Run run = new Run(doc);
 run.Text = "Hello World!";
 run.Font.Color = Color.Red;

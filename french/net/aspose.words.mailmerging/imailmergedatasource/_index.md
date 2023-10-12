@@ -1,14 +1,14 @@
 ---
 title: Interface IMailMergeDataSource
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.MailMerging.IMailMergeDataSource interface. Implémentez cette interface pour permettre le publipostage à partir dune source de données personnalisée telle quune liste dobjets. Les données maîtredétail sont également prises en charge.
+description: Aspose.Words.MailMerging.IMailMergeDataSource interface. Implémentez cette interface pour autoriser le publipostage à partir dune source de données personnalisée telle quune liste dobjets. Les données maîtredétails sont également prises en charge.
 type: docs
-weight: 3590
+weight: 3810
 url: /fr/net/aspose.words.mailmerging/imailmergedatasource/
 ---
 ## IMailMergeDataSource interface
 
-Implémentez cette interface pour permettre le publipostage à partir d'une source de données personnalisée, telle qu'une liste d'objets. Les données maître-détail sont également prises en charge.
+Implémentez cette interface pour autoriser le publipostage à partir d'une source de données personnalisée, telle qu'une liste d'objets. Les données maître-détails sont également prises en charge.
 
 ```csharp
 public interface IMailMergeDataSource
@@ -25,12 +25,12 @@ public interface IMailMergeDataSource
 | Nom | La description |
 | --- | --- |
 | [GetChildDataSource](../../aspose.words.mailmerging/imailmergedatasource/getchilddatasource/)(string) | Le moteur de publipostage Aspose.Words appelle cette méthode lorsqu'il rencontre le début d'une région de publipostage imbriquée. |
-| [GetValue](../../aspose.words.mailmerging/imailmergedatasource/getvalue/)(string, out object) | Renvoie une valeur pour le nom de champ spécifié ou false si le champ n'est pas trouvé. |
+| [GetValue](../../aspose.words.mailmerging/imailmergedatasource/getvalue/)(string, out object) | Renvoie une valeur pour le nom de champ spécifié ou`FAUX` si le champ n'est pas trouvé. |
 | [MoveNext](../../aspose.words.mailmerging/imailmergedatasource/movenext/)() | Passe à l'enregistrement suivant dans la source de données. |
 
 ### Remarques
 
-Lorsqu'une source de données est créée, elle doit être initialisée pour pointer vers BOF (avant le premier enregistrement). Le moteur de publipostage Aspose.Words invoquera[`MoveNext`](./movenext/) pour passer à l'enregistrement suivant et puis invoquer[`GetValue`](./getvalue/) pour chaque champ de fusion qu'il rencontre dans le document ou la région de fusion et publipostage actuelle.
+Lorsqu'une source de données est créée, elle doit être initialisée pour pointer vers BOF (avant le premier enregistrement). Le moteur de publipostage Aspose.Words invoquera[`MoveNext`](./movenext/) pour passer à l'enregistrement suivant and puis invoquer[`GetValue`](./getvalue/) pour chaque champ de fusion rencontré dans le document ou dans la région de publipostage actuelle.
 
 ### Exemples
 
@@ -45,11 +45,13 @@ public void CustomDataSource()
     builder.InsertParagraph();
     builder.InsertField(" MERGEFIELD Address ");
 
-    List<Customer> customers = new List<Customer>();
-    customers.Add(new Customer("Thomas Hardy", "120 Hanover Sq., London"));
-    customers.Add(new Customer("Paolo Accorti", "Via Monte Bianco 34, Torino"));
+    List<Customer> customers = new List<Customer>
+    {
+        new Customer("Thomas Hardy", "120 Hanover Sq., London"),
+        new Customer("Paolo Accorti", "Via Monte Bianco 34, Torino")
+    };
 
-    // Pour utiliser un objet personnalisé comme source de données, il doit implémenter l'interface IMailMergeDataSource. 
+     // Pour utiliser un objet personnalisé comme source de données, il doit implémenter l'interface IMailMergeDataSource.
     CustomerMailMergeDataSource dataSource = new CustomerMailMergeDataSource(customers);
 
     doc.MailMerge.Execute(dataSource);
@@ -73,8 +75,8 @@ public class Customer
 }
 
 /// <summary>
-/// Une source de données de publipostage personnalisée que vous implémentez pour autoriser Aspose.Words 
-/// pour fusionner les données de vos objets Customer dans des documents Microsoft Word.
+ /// Une source de données de publipostage personnalisée que vous implémentez pour autoriser Aspose.Words
+/// pour fusionner les données de vos objets Client dans des documents Microsoft Word.
 /// </summary>
 public class CustomerMailMergeDataSource : IMailMergeDataSource
 {
@@ -87,7 +89,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Le nom de la source de données. Utilisé par Aspose.Words uniquement lors de l'exécution d'un publipostage avec des régions répétables.
+    /// Le nom de la source de données. Utilisé par Aspose.Words uniquement lors de l’exécution d’un publipostage avec des régions répétables.
     /// </summary>
     public string TableName
     {

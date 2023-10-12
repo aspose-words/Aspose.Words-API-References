@@ -1,14 +1,16 @@
 ---
 title: Class ChartLegendEntry
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.Charts.ChartLegendEntry sınıf. Bir grafik gösterge girişini temsil eder.
+description: Aspose.Words.Drawing.Charts.ChartLegendEntry sınıf. Bir grafik açıklaması girişini temsil eder.
 type: docs
-weight: 690
+weight: 730
 url: /tr/net/aspose.words.drawing.charts/chartlegendentry/
 ---
 ## ChartLegendEntry class
 
-Bir grafik gösterge girişini temsil eder.
+Bir grafik açıklaması girişini temsil eder.
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Grafiklerle Çalışmak](https://docs.aspose.com/words/net/working-with-charts/) dokümantasyon makalesi.
 
 ```csharp
 public class ChartLegendEntry
@@ -18,14 +20,14 @@ public class ChartLegendEntry
 
 | İsim | Tanım |
 | --- | --- |
-| [Font](../../aspose.words.drawing.charts/chartlegendentry/font/) { get; } | Bu gösterge girişinin yazı tipi biçimlendirmesine erişim sağlar. |
-| [IsHidden](../../aspose.words.drawing.charts/chartlegendentry/ishidden/) { get; set; } | Bu girdinin grafik göstergesinde gizlenip gizlenmediğini gösteren bir değer alır veya ayarlar. Varsayılan değer **yanlış** . |
+| [Font](../../aspose.words.drawing.charts/chartlegendentry/font/) { get; } | Bu açıklama girişinin yazı tipi formatına erişim sağlar. |
+| [IsHidden](../../aspose.words.drawing.charts/chartlegendentry/ishidden/) { get; set; } | Bu girişin grafik açıklamasında gizli olup olmadığını belirten bir değer alır veya ayarlar. Varsayılan değer: **YANLIŞ** . |
 
 ### Notlar
 
-Bir gösterge girişi, belirli bir grafik serisine veya eğilim çizgisine karşılık gelir.
+Bir açıklama girişi belirli bir grafik serisine veya trend çizgisine karşılık gelir.
 
-Girişin metni, serinin veya trend çizgisinin adıdır. Metin değiştirilemez.
+Girişin metni serinin veya trend çizgisinin adıdır. Metin değiştirilemez.
 
 ### Ayrıca bakınız
 

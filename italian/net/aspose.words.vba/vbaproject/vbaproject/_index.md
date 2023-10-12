@@ -1,14 +1,14 @@
 ---
 title: VbaProject.VbaProject
 second_title: Aspose.Words per .NET API Reference
-description: VbaProject costruttore. Crea un VbaProject vuoto.
+description: VbaProject costruttore. Crea uno spazio vuotoVbaProject .
 type: docs
 weight: 10
 url: /it/net/aspose.words.vba/vbaproject/vbaproject/
 ---
 ## VbaProject constructor
 
-Crea un VbaProject vuoto.
+Crea uno spazio vuoto[`VbaProject`](../) .
 
 ```csharp
 public VbaProject()
@@ -26,7 +26,7 @@ VbaProject project = new VbaProject();
 project.Name = "Aspose.Project";
 doc.VbaProject = project;
 
-// Crea un nuovo modulo e specifica un codice sorgente della macro.
+// Crea un nuovo modulo e specifica un codice sorgente macro.
 VbaModule module = new VbaModule();
 module.Name = "Aspose.Module";
 module.Type = VbaModuleType.ProceduralModule;

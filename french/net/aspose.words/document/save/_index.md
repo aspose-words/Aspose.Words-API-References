@@ -3,7 +3,7 @@ title: Document.Save
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Document méthode. Enregistre le document dans un fichier. Détermine automatiquement le format de sauvegarde à partir de lextension.
 type: docs
-weight: 680
+weight: 720
 url: /fr/net/aspose.words/document/save/
 ---
 ## Save(string) {#save_2}
@@ -16,7 +16,7 @@ public SaveOutputParameters Save(string fileName)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| fileName | String | Nom du document. Si un document avec le nom de fichier spécifié existe déjà, le document existant est écrasé. |
+| fileName | String | Le nom du document. Si un document portant le nom de fichier spécifié existe déjà, le document existant est écrasé. |
 
 ### Return_Value
 
@@ -67,7 +67,7 @@ public SaveOutputParameters Save(string fileName, SaveFormat saveFormat)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| fileName | String | Nom du document. Si un document avec le nom de fichier spécifié existe déjà, le document existant est écrasé. |
+| fileName | String | Le nom du document. Si un document portant le nom de fichier spécifié existe déjà, le document existant est écrasé. |
 | saveFormat | SaveFormat | Le format dans lequel enregistrer le document. |
 
 ### Return_Value
@@ -96,7 +96,7 @@ doc.Save(ArtifactsDir + "Document.ConvertToHtml.html", SaveFormat.Html);
 
 ## Save(string, SaveOptions) {#save_4}
 
-Enregistre le document dans un fichier à l'aide des options d'enregistrement spécifiées.
+Enregistre le document dans un fichier en utilisant les options d'enregistrement spécifiées.
 
 ```csharp
 public SaveOutputParameters Save(string fileName, SaveOptions saveOptions)
@@ -104,8 +104,8 @@ public SaveOutputParameters Save(string fileName, SaveOptions saveOptions)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| fileName | String | Nom du document. Si un document avec le nom de fichier spécifié existe déjà, le document existant est écrasé. |
-| saveOptions | SaveOptions | Spécifie les options qui contrôlent la manière dont le document est enregistré. Peut être nul. |
+| fileName | String | Le nom du document. Si un document portant le nom de fichier spécifié existe déjà, le document existant est écrasé. |
+| saveOptions | SaveOptions | Spécifie les options qui contrôlent la manière dont le document est enregistré. Peut être`nul`. |
 
 ### Return_Value
 
@@ -113,7 +113,7 @@ Informations supplémentaires que vous pouvez éventuellement utiliser.
 
 ### Exemples
 
-Montre comment améliorer la qualité d'un document rendu avec SaveOptions.
+Montre comment améliorer la qualité d’un document rendu avec SaveOptions.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
@@ -123,7 +123,6 @@ builder.Font.Size = 60;
 builder.Writeln("Some text.");
 
 SaveOptions options = new ImageSaveOptions(SaveFormat.Jpeg);
-
 doc.Save(ArtifactsDir + "Document.ImageSaveOptions.Default.jpg", options);
 
 options.UseAntiAliasing = true;
@@ -147,13 +146,13 @@ Document pdfDoc = new Document(ArtifactsDir + "PDF2Word.ConvertPdfToDocxCustom.p
 
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Docx);
 
-// Définissez la propriété "Mot de passe" pour chiffrer le document enregistré avec un mot de passe.
+// Définissez la propriété "Mot de passe" pour crypter le document enregistré avec un mot de passe.
 saveOptions.Password = "MyPassword";
 
 pdfDoc.Save(ArtifactsDir + "PDF2Word.ConvertPdfToDocxCustom.docx", saveOptions);
 ```
 
-Montre comment rendre chaque page d'un document dans une image TIFF distincte.
+Montre comment restituer chaque page d’un document dans une image TIFF distincte.
 
 ```csharp
 Document doc = new Document();
@@ -166,21 +165,24 @@ builder.InsertImage(ImageDir + "Logo.jpg");
 builder.InsertBreak(BreakType.PageBreak);
 builder.Writeln("Page 3.");
 
-// Crée un objet "ImageSaveOptions" que nous pouvons passer à la méthode "Save" du document
-// pour modifier la façon dont cette méthode rend le document en image.
+// Crée un objet "ImageSaveOptions" que l'on peut passer à la méthode "Save" du document
+// pour modifier la manière dont cette méthode restitue le document en image.
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Tiff);
 
 for (int i = 0; i < doc.PageCount; i++)
 {
-    // Définissez la propriété "PageSet" sur le numéro de la première page à partir de
+    // Fixe la propriété "PageSet" au numéro de la première page de
     // à partir duquel commencer le rendu du document.
     options.PageSet = new PageSet(i);
+    // Exporter la page à 2325x5325 pixels et 600 dpi.
+    options.Resolution = 600;
+    options.ImageSize = new Size(2325, 5325);
 
     doc.Save(ArtifactsDir + $"ImageSaveOptions.PageByPage.{i + 1}.tiff", options);
 }
 ```
 
-Montre comment rendre une page d'un document en une image JPEG.
+Montre comment restituer une page d’un document vers une image JPEG.
 
 ```csharp
 Document doc = new Document();
@@ -193,29 +195,29 @@ builder.InsertImage(ImageDir + "Logo.jpg");
 builder.InsertBreak(BreakType.PageBreak);
 builder.Writeln("Page 3.");
 
-// Crée un objet "ImageSaveOptions" que nous pouvons passer à la méthode "Save" du document
-// pour modifier la façon dont cette méthode rend le document en image.
+// Crée un objet "ImageSaveOptions" que l'on peut passer à la méthode "Save" du document
+// pour modifier la manière dont cette méthode restitue le document en image.
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Jpeg);
 
 // Définissez le "PageSet" sur "1" pour sélectionner la deuxième page via
-// l'index de base zéro à partir duquel démarrer le rendu du document.
+// l'index de base zéro à partir duquel commencer le rendu du document.
 options.PageSet = new PageSet(1);
 
-// Lorsque nous enregistrons le document au format JPEG, Aspose.Words n'affiche qu'une seule page.
+// Lorsque nous enregistrons le document au format JPEG, Aspose.Words ne restitue qu'une seule page.
 // Cette image contiendra une page à partir de la page deux,
-// qui ne sera que la deuxième page du document original.
+// qui sera juste la deuxième page du document original.
 doc.Save(ArtifactsDir + "ImageSaveOptions.OnePage.jpg", options);
 ```
 
-Montre comment configurer la compression lors de l'enregistrement d'un document au format JPEG.
+Montre comment configurer la compression lors de l’enregistrement d’un document au format JPEG.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.InsertImage(ImageDir + "Logo.jpg");
 
-// Crée un objet "ImageSaveOptions" que nous pouvons passer à la méthode "Save" du document
-// pour modifier la façon dont cette méthode rend le document en image.
+// Crée un objet "ImageSaveOptions" que l'on peut passer à la méthode "Save" du document
+// pour modifier la manière dont cette méthode restitue le document en image.
 ImageSaveOptions imageOptions = new ImageSaveOptions(SaveFormat.Jpeg);
 
 // Définissez la propriété "JpegQuality" sur "10" pour utiliser une compression plus forte lors du rendu du document.
@@ -268,22 +270,22 @@ builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading5;
 builder.Writeln("Heading 1.2.2.2.1");
 builder.Writeln("Heading 1.2.2.2.2");
 
-// Crée un objet "PdfSaveOptions" que nous pouvons passer à la méthode "Save" du document
+// Crée un objet "PdfSaveOptions" que l'on peut passer à la méthode "Save" du document
 // pour modifier la façon dont cette méthode convertit le document en .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// Le document PDF de sortie contiendra un plan, qui est une table des matières qui répertorie les en-têtes dans le corps du document.
-// Cliquer sur une entrée dans ce plan nous amènera à l'emplacement de son en-tête respectif.
-// Définissez la propriété "HeadingsOutlineLevels" sur "4" pour exclure tous les titres dont les niveaux sont supérieurs à 4 du plan.
+// Le document PDF de sortie contiendra un plan, qui est une table des matières répertoriant les titres dans le corps du document.
+// Cliquer sur une entrée de ce plan nous amènera à l'emplacement de son en-tête respectif.
+// Définissez la propriété "HeadingsOutlineLevels" sur "4" pour exclure du plan tous les titres dont les niveaux sont supérieurs à 4.
 options.OutlineOptions.HeadingsOutlineLevels = 4;
 
-// Si une entrée de plan comporte des entrées ultérieures d'un niveau supérieur entre elle-même et l'entrée suivante du même niveau ou d'un niveau inférieur,
-// une flèche apparaîtra à gauche de l'entrée. Cette entrée est le "propriétaire" de plusieurs de ces "sous-entrées".
+// Si une entrée de plan a des entrées ultérieures d'un niveau supérieur entre elle et l'entrée suivante du même niveau ou d'un niveau inférieur,
+// une flèche apparaîtra à gauche de l'entrée. Cette entrée est le « propriétaire » de plusieurs de ces « sous-entrées ».
 // Dans notre document, les entrées de plan du 5ème niveau de titre sont des sous-entrées de la deuxième entrée de plan de 4ème niveau,
- // les entrées de niveau 4 et 5 sont des sous-entrées de la deuxième entrée de niveau 3, et ainsi de suite.
-// Dans l'outline, on peut cliquer sur la flèche de l'entrée "propriétaire" pour réduire/développer toutes ses sous-entrées.
-// Définissez la propriété "ExpandedOutlineLevels" sur "2" pour développer automatiquement toutes les entrées de plan de niveau 2 et inférieur
- // et réduire toutes les entrées de niveau et 3 et plus lorsque nous ouvrons le document.
+// les entrées de 4ème et 5ème niveau de titre sont des sous-entrées de la deuxième entrée de 3ème niveau, et ainsi de suite.
+// Dans le plan, on peut cliquer sur la flèche de l'entrée "propriétaire" pour réduire/développer toutes ses sous-entrées.
+// Définissez la propriété "ExpandedOutlineLevels" sur "2" pour développer automatiquement toutes les entrées de titre de niveau 2 et inférieur.
+// et réduit toutes les entrées de niveau 3 et supérieur lorsque nous ouvrons le document.
 options.OutlineOptions.ExpandedOutlineLevels = 2;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.ExpandedOutlineLevels.pdf", options);
@@ -309,7 +311,7 @@ public SaveOutputParameters Save(Stream stream, SaveFormat saveFormat)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| stream | Stream | Flux où enregistrer le document. |
+| stream | Stream | Diffusez où enregistrer le document. |
 | saveFormat | SaveFormat | Le format dans lequel enregistrer le document. |
 
 ### Return_Value
@@ -351,7 +353,7 @@ Document doc = new Document();
 
                 stream.Position = 0;
 
-                // Lit le flux dans une image.
+                // Relis le flux dans une image.
                 using (Image image = Image.FromStream(stream))
                 {
                     Assert.AreEqual(ImageFormat.Bmp, image.RawFormat);
@@ -401,8 +403,8 @@ public SaveOutputParameters Save(Stream stream, SaveOptions saveOptions)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| stream | Stream | Flux où enregistrer le document. |
-| saveOptions | SaveOptions | Spécifie les options qui contrôlent la manière dont le document est enregistré. Peut être nul. S'il est nul, le document sera enregistré au format binaire DOC. |
+| stream | Stream | Diffusez où enregistrer le document. |
+| saveOptions | SaveOptions | Spécifie les options qui contrôlent la manière dont le document est enregistré. Peut être`nul` . Si c'est le cas`nul`, le document sera enregistré au format binaire DOC. |
 
 ### Return_Value
 
@@ -410,7 +412,7 @@ Informations supplémentaires que vous pouvez éventuellement utiliser.
 
 ### Exemples
 
-Montre comment convertir seulement certaines pages d'un document au format PDF.
+Montre comment convertir uniquement certaines pages d'un document en PDF.
 
 ```csharp
 Document doc = new Document();
@@ -424,11 +426,11 @@ builder.Writeln("Page 3.");
 
 using (Stream stream = File.Create(ArtifactsDir + "PdfSaveOptions.OnePage.pdf"))
 {
-    // Crée un objet "PdfSaveOptions" que nous pouvons passer à la méthode "Save" du document
+    // Crée un objet "PdfSaveOptions" que l'on peut passer à la méthode "Save" du document
     // pour modifier la façon dont cette méthode convertit le document en .PDF.
     PdfSaveOptions options = new PdfSaveOptions();
 
-    // Définissez "PageIndex" sur "1" pour restituer une partie du document à partir de la deuxième page.
+    // Définissez "PageIndex" sur "1" pour afficher une partie du document à partir de la deuxième page.
     options.PageSet = new PageSet(1);
 
     // Ce document contiendra une page à partir de la page deux, qui ne contiendra que la deuxième page.
@@ -458,9 +460,9 @@ public SaveOutputParameters Save(HttpResponse response, string fileName,
 | Paramètre | Taper | La description |
 | --- | --- | --- |
 | response | HttpResponse | Objet de réponse où enregistrer le document. |
-| fileName | String | Le nom du document qui apparaîtra dans le navigateur client. Le nom ne doit pas contenir de chemin. |
-| contentDisposition | ContentDisposition | UN[`ContentDisposition`](../../contentdisposition/) valeur that spécifie comment le document est présenté au navigateur client. |
-| saveOptions | SaveOptions | Spécifie les options qui contrôlent la manière dont le document est enregistré. Peut être nul. |
+| fileName | String | Le nom du document qui apparaîtra sur le navigateur client. Le nom ne doit pas contenir de chemin. |
+| contentDisposition | ContentDisposition | UN[`ContentDisposition`](../../contentdisposition/)la valeur that spécifie la manière dont le document est présenté dans le navigateur client. |
+| saveOptions | SaveOptions | Spécifie les options qui contrôlent la manière dont le document est enregistré. Peut être`nul`. |
 
 ### Return_Value
 
@@ -468,7 +470,7 @@ Informations supplémentaires que vous pouvez éventuellement utiliser.
 
 ### Remarques
 
-En interne, cette méthode enregistre d'abord dans un flux de mémoire, puis copie dans le flux de réponse car le flux de réponse ne prend pas en charge la recherche.
+En interne, cette méthode enregistre d'abord dans un flux mémoire, puis copie dans le flux de réponse car le flux de réponse ne prend pas en charge la recherche.
 
 ### Exemples
 

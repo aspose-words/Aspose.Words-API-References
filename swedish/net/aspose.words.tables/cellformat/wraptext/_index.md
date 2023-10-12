@@ -1,14 +1,14 @@
 ---
 title: CellFormat.WrapText
 second_title: Aspose.Words för .NET API Referens
-description: CellFormat fast egendom. Om sant radbryt text för cellen.
+description: CellFormat fast egendom. OmSann  radbryt text för cellen.
 type: docs
-weight: 140
+weight: 150
 url: /sv/net/aspose.words.tables/cellformat/wraptext/
 ---
 ## CellFormat.WrapText property
 
-Om sant, radbryt text för cellen.
+Om`Sann` , radbryt text för cellen.
 
 ```csharp
 public bool WrapText { get; set; }

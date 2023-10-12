@@ -1,14 +1,14 @@
 ---
 title: EndnoteOptions.StartNumber
 second_title: Aspose.Words für .NET-API-Referenz
-description: EndnoteOptions eigendom. Gibt die Anfangsnummer oder das Anfangszeichen für die ersten automatisch nummerierten Endnoten an.
+description: EndnoteOptions eigendom. Gibt die Startnummer oder das Anfangszeichen für die ersten automatisch nummerierten Endnoten an.
 type: docs
 weight: 40
 url: /de/net/aspose.words.notes/endnoteoptions/startnumber/
 ---
 ## EndnoteOptions.StartNumber property
 
-Gibt die Anfangsnummer oder das Anfangszeichen für die ersten automatisch nummerierten Endnoten an.
+Gibt die Startnummer oder das Anfangszeichen für die ersten automatisch nummerierten Endnoten an.
 
 ```csharp
 public int StartNumber { get; set; }
@@ -16,25 +16,25 @@ public int StartNumber { get; set; }
 
 ### Bemerkungen
 
-Diese Eigenschaft ist nur wirksam, wenn[`RestartRule`](../restartrule/) ist auf eingestelltContinuous.
+Diese Eigenschaft ist nur wirksam, wenn[`RestartRule`](../restartrule/) ist auf gesetztContinuous.
 
 ### Beispiele
 
-Zeigt, wie Sie eine Zahl festlegen, bei der das Dokument mit der Fußnoten-/Endnotenzählung beginnt.
+Zeigt, wie man eine Zahl festlegt, bei der das Dokument mit der Fußnoten-/Endnotenzählung beginnt.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Fußnoten und Endnoten sind eine Möglichkeit, eine Referenz oder einen Nebenkommentar an Text anzuhängen
-// das den Fluss des Haupttextes nicht stört. 
-// Das Einfügen einer Fußnote/Endnote fügt ein kleines hochgestelltes Referenzsymbol hinzu
+// Fußnoten und Endnoten sind eine Möglichkeit, dem Text eine Referenz oder einen Randkommentar hinzuzufügen
+ // das den Fluss des Haupttextes nicht beeinträchtigt.
+// Beim Einfügen einer Fußnote/Endnote wird ein kleines hochgestelltes Referenzsymbol hinzugefügt
 // am Haupttext, wo wir die Fußnote/Endnote einfügen.
 // Jede Fußnote/Endnote erzeugt auch einen Eintrag, der aus einem Symbol besteht
 // das mit dem Referenzsymbol im Haupttext übereinstimmt.
-// Der Referenztext, den wir an die "InsertEndnote"-Methode des Dokumenterstellers übergeben.
-// Fußnoteneinträge werden standardmäßig unten auf jeder Seite angezeigt, die enthält
-// ihre Referenzsymbole und Endnoten erscheinen am Ende des Dokuments.
+// Der Referenztext, den wir an die „InsertEndnote“-Methode des Document Builders übergeben.
+// Fußnoteneinträge werden standardmäßig unten auf jeder Seite angezeigt, die Folgendes enthält
+// Ihre Referenzsymbole und Endnoten werden am Ende des Dokuments angezeigt.
 builder.Write("Text 1. ");
 builder.InsertFootnote(FootnoteType.Footnote, "Footnote 1.");
 builder.Write("Text 2. ");
@@ -52,13 +52,13 @@ builder.Write("Text 3. ");
 builder.InsertFootnote(FootnoteType.Endnote, "Endnote 3.");
 
 // Standardmäßig ist das Referenzsymbol für jede Fußnote und Endnote ihr Index
-// unter allen Fußnoten/Endnoten des Dokuments. Jedes Dokument behält separate Zählungen bei
+// unter allen Fußnoten/Endnoten des Dokuments. Jedes Dokument verwaltet separate Zählungen
 // für Fußnoten und für Endnoten, die beide bei 1 beginnen.
 Assert.AreEqual(1, doc.FootnoteOptions.StartNumber);
 Assert.AreEqual(1, doc.EndnoteOptions.StartNumber);
 
-// Wir können die Eigenschaft "StartNumber" verwenden, um das Dokument zu bekommen
-// beginnt eine Fußnoten- oder Endnotenzählung bei einer anderen Nummer.
+// Wir können die Eigenschaft „StartNumber“ verwenden, um das Dokument abzurufen
+// Beginnen Sie eine Fußnoten- oder Endnotenzählung mit einer anderen Zahl.
 doc.EndnoteOptions.NumberStyle = NumberStyle.Arabic;
 doc.EndnoteOptions.StartNumber = 50;
 

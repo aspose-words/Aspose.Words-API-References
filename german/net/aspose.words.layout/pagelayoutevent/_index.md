@@ -1,18 +1,18 @@
 ---
 title: Enum PageLayoutEvent
 second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Layout.PageLayoutEvent opsomming. Ein Ereigniscode der während des Erstellens und Renderns des Seitenlayoutmodells ausgelöst wird.
+description: Aspose.Words.Layout.PageLayoutEvent opsomming. Ein Ereigniscode der während der Erstellung und Darstellung des Seitenlayoutmodells ausgelöst wird.
 type: docs
-weight: 3170
+weight: 3370
 url: /de/net/aspose.words.layout/pagelayoutevent/
 ---
 ## PageLayoutEvent enumeration
 
-Ein Ereigniscode, der während des Erstellens und Renderns des Seitenlayoutmodells ausgelöst wird.
+Ein Ereigniscode, der während der Erstellung und Darstellung des Seitenlayoutmodells ausgelöst wird.
 
-Das Seitenlayoutmodell wird in zwei Schritten erstellt. Erstens, "Konvertierungsschritt", in diesem Fall zieht das Seitenlayout Dokumentinhalte und erstellt Objektdiagramme. Zweitens, "Reflow-Schritt", in dem Strukturen geteilt, zusammengeführt und angeordnet werden in Seiten.
+Das Seitenlayoutmodell wird in zwei Schritten erstellt. Erstens, „Konvertierungsschritt“, dabei ruft das Seitenlayout Dokumentinhalte ab und erstellt ein Objektdiagramm. Zweitens, „Reflow-Schritt“, dabei werden Strukturen geteilt, zusammengeführt und angeordnet in Seiten.
 
-Abhängig von der Operation, die das Erstellen ausgelöst hat, kann das Seitenlayoutmodell weiter in ein festes Seitenformat gerendert werden oder nicht. Zum Beispiel erfordert das Berechnen der Seitenzahl im Dokument oder das Aktualisieren von Feldern kein Rendering, während der Export nach PDF dies erfordert.
+Abhängig von der Operation, die den Build ausgelöst hat, kann das Seitenlayoutmodell möglicherweise weiter in ein festes Seitenformat gerendert werden. Beispielsweise erfordert die Berechnung der Anzahl der Seiten im Dokument oder das Aktualisieren von Feldern kein Rendern, während dies beim Export in PDF der Fall ist.
 
 ```csharp
 public enum PageLayoutEvent
@@ -23,24 +23,23 @@ public enum PageLayoutEvent
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
 | None | `0` | Standardwert |
-| WatchDog | `1` | Entspricht einem häufig besuchten Checkpoint im Code, der zum Abbruch des Prozesses geeignet ist. |
+| WatchDog | `1` | Entspricht einem Prüfpunkt im Code, der häufig besucht wird und zum Abbrechen des Prozesses geeignet ist. |
 | BuildStarted | `2` | Der Aufbau des Seitenlayouts hat begonnen. Einmal ausgelöst. Dies ist das erste Ereignis, das auftritt, wenn[`UpdatePageLayout`](../../aspose.words/document/updatepagelayout/) heißt. |
-| BuildFinished | `3` | Der Aufbau des Seitenlayouts ist abgeschlossen. Einmal ausgelöst. Dies ist das letzte Ereignis, das wann auftritt[`UpdatePageLayout`](../../aspose.words/document/updatepagelayout/) heißt. |
-| ConversionStarted | `4` | Die Konvertierung des Dokumentenmodells in das Seitenlayout hat begonnen. Einmal ausgelöst. Dies tritt auf, wenn das Layoutmodell beginnt, Dokumentinhalte abzurufen. |
-| ConversionFinished | `5` | Die Konvertierung des Dokumentmodells in das Seitenlayout ist abgeschlossen. Einmal ausgelöst. Dies tritt auf, wenn das Layoutmodell aufhört, Dokumentinhalte abzurufen. |
-| ReflowStarted | `6` | Reflow des Seitenlayouts hat begonnen. Einmal ausgelöst. Dies tritt auf, wenn das Layoutmodell beginnt, den Dokumentinhalt umzufließen. |
-| ReflowFinished | `7` | Reflow des Seitenlayouts ist abgeschlossen. Einmal ausgelöst. Dies tritt auf, wenn das Layoutmodell das Umfließen des Dokumentinhalts beendet. |
-| PartReflowStarted | `8` | Der Neufluss der Seite hat begonnen. Beachten Sie, dass die Seite möglicherweise mehrmals neu umflossen wird und dass der Neufluss möglicherweise neu gestartet wird, bevor er abgeschlossen ist. |
-| PartReflowFinished | `9` | Der Seitenumbruch ist abgeschlossen. Beachten Sie, dass die Seite möglicherweise mehrmals umflossen wird und dass der Umbruch möglicherweise neu gestartet wird, bevor sie abgeschlossen ist. |
-| PartRenderingStarted | `10` | Das Rendern der Seite hat begonnen. Dies wird einmal pro Seite ausgelöst. |
-| PartRenderingFinished | `11` | Das Rendern der Seite ist beendet. Dies wird einmal pro Seite ausgelöst. |
+| BuildFinished | `3` | Die Erstellung des Seitenlayouts ist abgeschlossen. Einmal ausgelöst. Dies ist das letzte Ereignis, das auftritt, wenn[`UpdatePageLayout`](../../aspose.words/document/updatepagelayout/) heißt. |
+| ConversionStarted | `4` | Die Konvertierung des Dokumentmodells in das Seitenlayout hat begonnen. Wird einmal ausgelöst. Dies tritt auf, wenn das Layoutmodell mit dem Abrufen von Dokumentinhalten beginnt. |
+| ConversionFinished | `5` | Die Konvertierung des Dokumentmodells in das Seitenlayout ist abgeschlossen. Wird einmal ausgelöst. Dies tritt auf, wenn das Layoutmodell aufhört, Dokumentinhalte abzurufen. |
+| ReflowStarted | `6` | Der Reflow des Seitenlayouts hat begonnen. Wird einmal ausgelöst. Dies tritt auf, wenn das Layoutmodell mit dem Umfließen von Dokumentinhalten beginnt. |
+| ReflowFinished | `7` | Der Reflow des Seitenlayouts ist abgeschlossen. Wird einmal ausgelöst. Dies tritt auf, wenn das Layoutmodell den Dokumentinhalt nicht mehr umfließt. |
+| PartReflowStarted | `8` | Der Neufluss der Seite hat begonnen. Beachten Sie, dass die Seite möglicherweise mehrmals umgebrochen wird und dass der Neufluss möglicherweise erneut beginnt, bevor sie abgeschlossen ist. |
+| PartReflowFinished | `9` | Der Seitenumbruch ist abgeschlossen. Beachten Sie, dass die Seite möglicherweise mehrere Male umgebrochen wird und dass der Seitenumbruch erneut erfolgen kann, bevor er abgeschlossen ist. |
+| PartRenderingStarted | `10` | Das Rendern der Seite wurde gestartet. Dies wird einmal pro Seite ausgelöst. |
+| PartRenderingFinished | `11` | Das Rendern der Seite ist abgeschlossen. Dies wird einmal pro Seite ausgelöst. |
 
 ### Beispiele
 
-Zeigt, wie Layoutänderungen mit einem Layout-Callback nachverfolgt werden.
+Zeigt, wie Layoutänderungen mit einem Layout-Callback verfolgt werden.
 
 ```csharp
-[Test]
 public void PageLayoutCallback()
 {
     Document doc = new Document();
@@ -57,7 +56,7 @@ public void PageLayoutCallback()
 
 /// <summary>
 /// Benachrichtigt uns, wenn wir das Dokument in einem festen Seitenformat speichern
-/// und rendert eine Seite, auf der wir einen Seitenumbruch zu einem Bild im lokalen Dateisystem durchführen.
+/// und rendert eine Seite, auf der wir einen Seiten-Reflow durchführen, in ein Bild im lokalen Dateisystem.
 /// </summary>
 private class RenderPageLayoutCallback : IPageLayoutCallback
 {

@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTagRangeStart.Tag
 second_title: Aspose.Words لمراجع .NET API
-description: StructuredDocumentTagRangeStart ملكية. يحدد علامة مرتبطة بعقدة علامة المستند المهيكلة الحالية. لا يمكن أن يكون فارغًا.
+description: StructuredDocumentTagRangeStart ملكية. يحدد علامة مرتبطة بعقدة علامة المستند المنظمة الحالية. لا يمكن أن يكونباطل .
 type: docs
 weight: 150
 url: /ar/net/aspose.words.markup/structureddocumenttagrangestart/tag/
 ---
 ## StructuredDocumentTagRangeStart.Tag property
 
-يحدد علامة مرتبطة بعقدة علامة المستند المهيكلة الحالية. لا يمكن أن يكون فارغًا.
+يحدد علامة مرتبطة بعقدة علامة المستند المنظمة الحالية. لا يمكن أن يكون`باطل` .
 
 ```csharp
 public string Tag { get; set; }
@@ -16,7 +16,7 @@ public string Tag { get; set; }
 
 ### ملاحظات
 
-العلامة عبارة عن سلسلة عشوائية يمكن للتطبيقات ربطها بعلامة document المهيكلة من أجل التعرف عليها دون تقديم اسم مألوف مرئي.
+العلامة عبارة عن سلسلة عشوائية يمكن للتطبيقات ربطها بعلامة document المنظمة للتعرف عليها دون توفير اسم مألوف مرئي.
 
 ### أمثلة
 

@@ -18,11 +18,11 @@ public double Height { get; set; }
 
 | استثناء | حالة |
 | --- | --- |
-| ArgumentOutOfRangeException | يظهر عندما تكون الوسيطة خارج نطاق القيم الصالحة. |
+| ArgumentOutOfRangeException | يتم طرحه عندما تكون الوسيطة خارج نطاق القيم الصالحة. |
 
 ### ملاحظات
 
-هذا هو اختصار لملف[`Height`](../../shapebase/height/) منشأه.
+هذا اختصار لل[`Height`](../../shapebase/height/) ملكية.
 
 تتراوح القيم الصالحة من 0 إلى 1584 ضمناً.
 
@@ -30,7 +30,7 @@ public double Height { get; set; }
 
 ### أمثلة
 
-يوضح كيفية إدراج شكل تسطير أفقي ، وتخصيص تنسيقه.
+يوضح كيفية إدراج شكل قاعدة أفقية، وتخصيص تنسيقه.
 
 ```csharp
 Document doc = new Document();

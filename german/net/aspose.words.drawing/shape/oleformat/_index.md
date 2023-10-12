@@ -1,14 +1,14 @@
 ---
 title: Shape.OleFormat
 second_title: Aspose.Words für .NET-API-Referenz
-description: Shape eigendom. Bietet Zugriff auf die OLEDaten einer Form. Gibt für eine Form die kein OLEObjekt oder ActiveXSteuerelement ist null zurück.
+description: Shape eigendom. Bietet Zugriff auf die OLEDaten einer Form. Für eine Form die kein OLEObjekt oder ActiveXSteuerelement ist wird zurückgegebenNull .
 type: docs
 weight: 140
 url: /de/net/aspose.words.drawing/shape/oleformat/
 ---
 ## Shape.OleFormat property
 
-Bietet Zugriff auf die OLE-Daten einer Form. Gibt für eine Form, die kein OLE-Objekt oder ActiveX-Steuerelement ist, null zurück.
+Bietet Zugriff auf die OLE-Daten einer Form. Für eine Form, die kein OLE-Objekt oder ActiveX-Steuerelement ist, wird zurückgegeben`Null` .
 
 ```csharp
 public OleFormat OleFormat { get; }
@@ -19,6 +19,7 @@ public OleFormat OleFormat { get; }
 Zeigt, wie alle Formen in einem Dokument durchlaufen werden.
 
 ```csharp
+public void VisitShapes()
 {
     Document doc = new Document(MyDir + "Revision shape.docx");
     ShapeAppearancePrinter visitor = new ShapeAppearancePrinter();
@@ -28,7 +29,7 @@ Zeigt, wie alle Formen in einem Dokument durchlaufen werden.
 }
 
 /// <summary>
-/// Protokolliert erscheinungsbezogene Informationen über besuchte Shapes.
+/// Protokolliert darstellungsbezogene Informationen zu besuchten Formen.
 /// </summary>
 private class ShapeAppearancePrinter : DocumentVisitor
 {
@@ -40,7 +41,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Hängt eine Zeile mit einem vorangestellten Tabulatorzeichen für jede Einzugsebene an den StringBuilder an.
+    /// Hängt eine Zeile an den StringBuilder an, wobei für jede Einrückungsebene ein Tabulatorzeichen vorangestellt wird.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -50,7 +51,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Den gesamten Text zurückgeben, den der StringBuilder angesammelt hat.
+    /// Den gesamten Text zurückgeben, den der StringBuilder gesammelt hat.
     /// </summary>
     public string GetText()
     {

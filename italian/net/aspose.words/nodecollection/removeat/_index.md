@@ -1,14 +1,14 @@
 ---
 title: NodeCollection.RemoveAt
 second_title: Aspose.Words per .NET API Reference
-description: NodeCollection metodo. Rimuove il nodo in corrispondenza dellindice specificato dalla raccolta e dal documento.
+description: NodeCollection metodo. Rimuove il nodo allindice specificato dalla raccolta e dal documento.
 type: docs
 weight: 100
 url: /it/net/aspose.words/nodecollection/removeat/
 ---
 ## NodeCollection.RemoveAt method
 
-Rimuove il nodo in corrispondenza dell'indice specificato dalla raccolta e dal documento.
+Rimuove il nodo all'indice specificato dalla raccolta e dal documento.
 
 ```csharp
 public void RemoveAt(int index)
@@ -16,7 +16,7 @@ public void RemoveAt(int index)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| index | Int32 | L'indice in base zero del nodo. Gli indici negativi sono consentiti e indicano l'accesso dal fondo dell'elenco. Ad esempio -1 indica l'ultimo nodo, -2 indica il penultimo e così via. |
+| index | Int32 | L'indice in base zero del nodo. Gli indici negativi sono consentiti e indicano l'accesso dal fondo della lista. Ad esempio -1 significa l'ultimo nodo, -2 significa il penultimo e così via. |
 
 ### Esempi
 
@@ -37,7 +37,7 @@ doc.Sections.RemoveAt(0);
 
 Assert.AreEqual("Section 2", doc.GetText().Trim());
 
-// Aggiungi una copia di quella che ora è la prima sezione alla fine del documento.
+// Aggiunge una copia di quella che ora è la prima sezione alla fine del documento.
 int lastSectionIdx = doc.Sections.Count - 1;
 Section newSection = doc.Sections[lastSectionIdx].Clone();
 doc.Sections.Add(newSection);

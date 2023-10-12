@@ -1,12 +1,12 @@
 ---
 title: Aspose.Words.WebExtensions
 second_title: Aspose.Words för .NET API Referens
-description: De Aspose.Words.WebExtensions namespace tillhandahåller klasser som gör det möjligt att anpassa element och attribut som utökar XMLvokabulären för att representera Officetillägg.
+description: De Aspose.Words.WebExtensionsnamespace tillhandahåller klasser som gör det möjligt att anpassa element och attribut som utökar XMLvokabulären för att representera Officetillägg.
 type: docs
-weight: 280
+weight: 290
 url: /sv/net/aspose.words.webextensions/
 ---
-De **Aspose.Words.WebExtensions** namespace tillhandahåller klasser som gör det möjligt att anpassa element och attribut som utökar XML-vokabulären för att representera Office-tillägg.
+De **Aspose.Words.WebExtensions**namespace tillhandahåller klasser som gör det möjligt att anpassa element och attribut som utökar XML-vokabulären för att representera Office-tillägg.
 
 ## Klasser
 

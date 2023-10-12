@@ -3,12 +3,14 @@ title: Class TableCollection
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.Tables.TableCollection classe. Fournit un accès typé à une collection deTable nœuds.
 type: docs
-weight: 6060
+weight: 6360
 url: /fr/net/aspose.words.tables/tablecollection/
 ---
 ## TableCollection class
 
 Fournit un accès typé à une collection de[`Table`](../table/) nœuds.
+
+Pour en savoir plus, visitez le[Travailler avec des tableaux](https://docs.aspose.com/words/net/working-with-tables/) article documentaire.
 
 ```csharp
 public class TableCollection : NodeCollection
@@ -19,7 +21,7 @@ public class TableCollection : NodeCollection
 | Nom | La description |
 | --- | --- |
 | [Count](../../aspose.words/nodecollection/count/) { get; } | Obtient le nombre de nœuds dans la collection. |
-| [Item](../../aspose.words.tables/tablecollection/item/) { get; } | Récupère un **Table** à l'index donné. (2 indexers) |
+| [Item](../../aspose.words.tables/tablecollection/item/) { get; } | Récupère un[`Table`](../table/) à l'index donné. (2 indexers) |
 
 ## Méthodes
 
@@ -27,17 +29,17 @@ public class TableCollection : NodeCollection
 | --- | --- |
 | [Add](../../aspose.words/nodecollection/add/)(Node) | Ajoute un nœud à la fin de la collection. |
 | [Clear](../../aspose.words/nodecollection/clear/)() | Supprime tous les nœuds de cette collection et du document. |
-| [Contains](../../aspose.words/nodecollection/contains/)(Node) | Détermine si un nœud est dans la collection. |
+| [Contains](../../aspose.words/nodecollection/contains/)(Node) | Détermine si un nœud fait partie de la collection. |
 | [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Fournit une simple itération de style "foreach" sur la collection de nœuds. |
 | [IndexOf](../../aspose.words/nodecollection/indexof/)(Node) | Renvoie l'index de base zéro du nœud spécifié. |
 | [Insert](../../aspose.words/nodecollection/insert/)(int, Node) | Insère un nœud dans la collection à l'index spécifié. |
 | [Remove](../../aspose.words/nodecollection/remove/)(Node) | Supprime le nœud de la collection et du document. |
 | [RemoveAt](../../aspose.words/nodecollection/removeat/)(int) | Supprime le nœud à l'index spécifié de la collection et du document. |
-| [ToArray](../../aspose.words.tables/tablecollection/toarray/#toarray_1)() | Copie toutes les tables de la collection dans un nouveau tableau de tables. (2 methods) |
+| [ToArray](../../aspose.words.tables/tablecollection/toarray/#toarray_1)() | Copie toutes les tables de la collection vers un nouveau tableau de tables. (2 methods) |
 
 ### Exemples
 
-Montre comment supprimer les première et dernière lignes de tous les tableaux d'un document.
+Montre comment supprimer les première et dernière lignes de tous les tableaux d’un document.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -57,19 +59,18 @@ Assert.AreEqual(3, tables[0].Rows.Count);
 Assert.AreEqual(2, tables[1].Rows.Count);
 ```
 
-Montre comment savoir si une table est imbriquée.
+Montre comment savoir si des tables sont imbriquées.
 
 ```csharp
 public void CalculateDepthOfNestedTables()
 {
     Document doc = new Document(MyDir + "Nested tables.docx");
     NodeCollection tables = doc.GetChildNodes(NodeType.Table, true);
-
     for (int i = 0; i < tables.Count; i++)
     {
         Table table = (Table)tables[i];
 
-        // Détermine si des cellules du tableau ont d'autres tableaux comme enfants.
+        // Découvrez si des cellules du tableau ont d'autres tableaux comme enfants.
         int count = GetChildTableCount(table);
         Console.WriteLine("Table #{0} has {1} tables directly within its cells", i, count);
 
@@ -106,11 +107,11 @@ private static int GetNestedDepthOfTable(Table table)
 
 /// <summary>
 /// Détermine si une table contient une table enfant immédiate dans ses cellules.
-/// Ne parcourez pas ces tables de manière récursive pour rechercher d'autres tables.
+/// Ne parcourez pas de manière récursive ces tables pour rechercher d'autres tables.
 /// </summary>
 /// <returns>
-/// Renvoie true si au moins une cellule enfant contient un tableau.
-/// Renvoie faux si aucune cellule du tableau ne contient de tableau.
+/// Renvoie vrai si au moins une cellule enfant contient un tableau.
+/// Renvoie false si aucune cellule du tableau ne contient de tableau.
 /// </returns>
 private static int GetChildTableCount(Table table)
 {

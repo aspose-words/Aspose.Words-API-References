@@ -1,14 +1,14 @@
 ---
 title: Revision.ParentStyle
 second_title: Aspose.Words لمراجع .NET API
-description: Revision ملكية. الحصول على النمط الأصل المباشر المالك لهذه المراجعة . ستعمل هذه الخاصية فقط معStyleDefinitionChange نوع المراجعة .
+description: Revision ملكية. يحصل على النمط الأصلي المباشر المالك لهذه المراجعة. ستعمل هذه الخاصية فقط معStyleDefinitionChange نوع المراجعة.
 type: docs
 weight: 50
 url: /ar/net/aspose.words/revision/parentstyle/
 ---
 ## Revision.ParentStyle property
 
-الحصول على النمط الأصل المباشر (المالك) لهذه المراجعة . ستعمل هذه الخاصية فقط معStyleDefinitionChange نوع المراجعة .
+يحصل على النمط الأصلي المباشر (المالك) لهذه المراجعة. ستعمل هذه الخاصية فقط معStyleDefinitionChange نوع المراجعة.
 
 ```csharp
 public Style ParentStyle { get; }
@@ -16,11 +16,11 @@ public Style ParentStyle { get; }
 
 ### ملاحظات
 
-إذا كانت هذه المراجعة تتعلق بالتغييرات في عقد المستند ، فاستخدم[`ParentNode`](../parentnode/) بدلاً من ذلك .
+إذا كانت هذه المراجعة تتعلق بالتغييرات في عقد المستند، فاستخدم[`ParentNode`](../parentnode/) بدلا من ذلك.
 
 ### أمثلة
 
-يوضح كيفية العمل مع مجموعة المراجعات الخاصة بمستند.
+يوضح كيفية التعامل مع مجموعة مراجعات المستند.
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");
@@ -30,7 +30,7 @@ RevisionCollection revisions = doc.Revisions;
 // كل مجموعة عبارة عن سلسلة من المراجعات المتجاورة.
 Console.WriteLine($"{revisions.Groups.Count} revision groups:");
 
-// كرر عبر مجموعة المجموعات واطبع النص الذي تهم المراجعة.
+// قم بالتكرار على مجموعة المجموعات وطباعة النص الذي يتعلق بالمراجعة.
 using (IEnumerator<RevisionGroup> e = revisions.Groups.GetEnumerator())
 {
     while (e.MoveNext())
@@ -40,18 +40,18 @@ using (IEnumerator<RevisionGroup> e = revisions.Groups.GetEnumerator())
     }
 }
 
-// كل عملية تشغيل تؤثر عليها مراجعة تحصل على كائن مراجعة مطابق.
-// مجموعة المراجعات أكبر بكثير من النموذج المكثف الذي قمنا بطباعته أعلاه ،
-// اعتمادًا على عدد عمليات التشغيل التي قمنا بتقسيم المستند إليها أثناء تحرير Microsoft Word.
+// كل عملية تشغيل تؤثر عليها المراجعة تحصل على كائن مراجعة مطابق.
+// مجموعة المراجعات أكبر بكثير من النموذج الموجز الذي طبعناه أعلاه،
+// اعتمادًا على عدد مرات التشغيل التي قمنا بتقسيم المستند إليها أثناء تحرير Microsoft Word.
 Console.WriteLine($"\n{revisions.Count} revisions:");
 
 using (IEnumerator<Revision> e = revisions.GetEnumerator())
 {
     while (e.MoveNext())
     {
-        // A StyleDefinitionChange يؤثر بشكل صارم على الأنماط وليس عقد المستند. هذا يعني "ParentStyle"
-        // ستظل الخاصية قيد الاستخدام دائمًا ، بينما ستكون ParentNode خالية دائمًا.
-        // نظرًا لأن جميع التغييرات الأخرى تؤثر على العقد ، فسيكون ParentNode قيد الاستخدام ، وسيكون ParentStyle فارغًا.
+        // يؤثر StyleDefinitionChange بشكل صارم على الأنماط وليس على عقد المستند. وهذا يعني "ParentStyle"
+        ستكون الخاصية // قيد الاستخدام دائمًا، بينما ستكون ParentNode فارغة دائمًا.
+        // نظرًا لأن جميع التغييرات الأخرى تؤثر على العقد، فسيتم استخدام ParentNode على العكس من ذلك، وسيكون ParentStyle خاليًا.
         if (e.Current.RevisionType == RevisionType.StyleDefinitionChange)
         {
             Console.WriteLine($"\tRevision type \"{e.Current.RevisionType}\", " +
@@ -65,7 +65,7 @@ using (IEnumerator<Revision> e = revisions.GetEnumerator())
     }
 }
 
-// رفض جميع المراجعات عبر المجموعة ، مع إعادة المستند إلى شكله الأصلي.
+// رفض جميع المراجعات عبر المجموعة، مما يعيد المستند إلى شكله الأصلي.
 revisions.RejectAll();
 
 Assert.AreEqual(0, revisions.Count);

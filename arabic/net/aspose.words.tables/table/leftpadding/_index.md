@@ -1,14 +1,14 @@
 ---
 title: Table.LeftPadding
 second_title: Aspose.Words لمراجع .NET API
-description: Table ملكية. الحصول على أو تعيين مقدار المساحة بالنقاط لإضافتها إلى يسار محتويات الخلايا.
+description: Table ملكية. الحصول على أو تعيين مقدار المسافة بالنقاط المراد إضافتها إلى يسار محتويات الخلايا.
 type: docs
 weight: 200
 url: /ar/net/aspose.words.tables/table/leftpadding/
 ---
 ## Table.LeftPadding property
 
-الحصول على أو تعيين مقدار المساحة (بالنقاط) لإضافتها إلى يسار محتويات الخلايا.
+الحصول على أو تعيين مقدار المسافة (بالنقاط) المراد إضافتها إلى يسار محتويات الخلايا.
 
 ```csharp
 public double LeftPadding { get; set; }
@@ -16,7 +16,7 @@ public double LeftPadding { get; set; }
 
 ### أمثلة
 
-يوضح كيفية تكوين المحتوى المتراكم في جدول.
+يوضح كيفية تكوين حشوة المحتوى في الجدول.
 
 ```csharp
 Document doc = new Document();
@@ -29,8 +29,8 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndTable();
 
-// لكل خلية في الجدول ، عيّن المسافة بين محتوياتها وكل من حدودها. 
-// سيحافظ هذا الجدول على الحد الأدنى لمسافة المساحة المتروكة عن طريق التفاف النص.
+ // لكل خلية في الجدول، قم بتعيين المسافة بين محتوياتها وكل حدودها.
+// سيحافظ هذا الجدول على الحد الأدنى من مسافة الحشو عن طريق التفاف النص.
 table.LeftPadding = 30;
 table.RightPadding = 60;
 table.TopPadding = 10;

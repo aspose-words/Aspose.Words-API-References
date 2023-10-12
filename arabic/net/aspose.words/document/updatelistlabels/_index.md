@@ -1,14 +1,14 @@
 ---
 title: Document.UpdateListLabels
 second_title: Aspose.Words لمراجع .NET API
-description: Document طريقة. تحديث تسميات القائمة لكافة عناصر القائمة في المستند.
+description: Document طريقة. تحديث تسميات القائمة لجميع عناصر القائمة في المستند.
 type: docs
-weight: 740
+weight: 780
 url: /ar/net/aspose.words/document/updatelistlabels/
 ---
 ## Document.UpdateListLabels method
 
-تحديث تسميات القائمة لكافة عناصر القائمة في المستند.
+تحديث تسميات القائمة لجميع عناصر القائمة في المستند.
 
 ```csharp
 public void UpdateListLabels()
@@ -16,13 +16,13 @@ public void UpdateListLabels()
 
 ### ملاحظات
 
-تقوم هذه الطريقة بتحديث خصائص تسمية القائمة مثل[`LabelValue`](../../../aspose.words.lists/listlabel/labelvalue/) و_ [`LabelString`](../../../aspose.words.lists/listlabel/labelstring/)لكل[`ListLabel`](../../paragraph/listlabel/) كائن في المستند.
+تقوم هذه الطريقة بتحديث خصائص تسمية القائمة مثل[`LabelValue`](../../../aspose.words.lists/listlabel/labelvalue/) و [`LabelString`](../../../aspose.words.lists/listlabel/labelstring/) لكل[`ListLabel`](../../paragraph/listlabel/)الكائن في المستند.
 
-أيضًا ، يتم أحيانًا استدعاء هذه الطريقة ضمنيًا عند تحديث الحقول في المستند. هذا required لأن بعض الحقول التي قد تشير إلى أرقام القائمة (مثل TOC أو REF) تحتاج إلى أن تكون محدثة.
+كما يتم أحيانًا استدعاء هذه الطريقة ضمنيًا عند تحديث الحقول في المستند. هذا مطلوب لأن بعض الحقول التي قد تشير إلى أرقام القائمة (مثل جدول المحتويات أو REF) تحتاج إلى تحديثها.
 
 ### أمثلة
 
-يوضح كيفية استخراج تسميات القائمة لكل الفقرات التي تمثل عناصر قائمة.
+يوضح كيفية استخراج تسميات القائمة لجميع الفقرات التي تمثل عناصر قائمة.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
@@ -30,24 +30,24 @@ doc.UpdateListLabels();
 
 NodeCollection paras = doc.GetChildNodes(NodeType.Paragraph, true);
 
-// ابحث عما إذا كان لدينا قائمة الفقرات. في وثيقتنا ، تستخدم قائمتنا أرقامًا عربية بسيطة ،
-// التي تبدأ عند الثالثة وتنتهي عند السادسة.
+// اكتشف ما إذا كان لدينا قائمة الفقرات. في وثيقتنا، تستخدم قائمتنا أرقامًا عربية بسيطة،
+// والتي تبدأ عند الثالثة وتنتهي عند السادسة.
 foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsListItem))
 {
     Console.WriteLine($"List item paragraph #{paras.IndexOf(paragraph)}");
 
-    // هذا هو النص الذي نحصل عليه عند إخراج هذه العقدة إلى تنسيق نصي.
-    // سيحذف إخراج النص هذا تسميات القائمة. تقليم أي أحرف تنسيق الفقرة. 
+    // هذا هو النص الذي نحصل عليه عند إخراج هذه العقدة إلى تنسيق النص.
+     // سيؤدي إخراج النص هذا إلى حذف تسميات القائمة. قم بقص أي أحرف بتنسيق الفقرة.
     string paragraphText = paragraph.ToString(SaveFormat.Text).Trim();
     Console.WriteLine($"\tExported Text: {paragraphText}");
 
     ListLabel label = paragraph.ListLabel;
 
-    // هذا يحصل على موضع الفقرة في المستوى الحالي من القائمة. إذا كانت لدينا قائمة بمستويات متعددة ،
-    // سيخبرنا هذا بالموقع الذي وصلت إليه على هذا المستوى.
+    // يؤدي هذا إلى الحصول على موضع الفقرة في المستوى الحالي من القائمة. إذا كان لدينا قائمة ذات مستويات متعددة،
+    // هذا سيخبرنا عن موقعه على هذا المستوى.
     Console.WriteLine($"\tNumerical Id: {label.LabelValue}");
 
-    // اجمعها معًا لتضمين تسمية القائمة مع النص في الإخراج.
+    // اجمعها معًا لتضمين تسمية القائمة مع النص الموجود في الإخراج.
     Console.WriteLine($"\tList label combined with text: {label.LabelString} {paragraphText}");
 }
 ```

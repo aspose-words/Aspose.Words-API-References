@@ -1,14 +1,14 @@
 ---
 title: DocumentVisitor.VisitCommentRangeStart
 second_title: Справочник по API Aspose.Words для .NET
-description: DocumentVisitor метод. Вызывается когда встречается начало комментируемого диапазона текста.
+description: DocumentVisitor метод. Вызывается когда встречается начало закомментированного диапазона текста.
 type: docs
 weight: 120
 url: /ru/net/aspose.words/documentvisitor/visitcommentrangestart/
 ---
 ## DocumentVisitor.VisitCommentRangeStart method
 
-Вызывается, когда встречается начало комментируемого диапазона текста.
+Вызывается, когда встречается начало закомментированного диапазона текста.
 
 ```csharp
 public virtual VisitorAction VisitCommentRangeStart(CommentRangeStart commentRangeStart)
@@ -24,7 +24,7 @@ public virtual VisitorAction VisitCommentRangeStart(CommentRangeStart commentRan
 
 ### Примеры
 
-Показывает, как распечатать структуру узла каждого комментария и диапазона комментариев в документе.
+Показывает, как распечатать структуру узлов каждого комментария и диапазона комментариев в документе.
 
 ```csharp
 public void CommentsToText()
@@ -32,16 +32,16 @@ public void CommentsToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     CommentStructurePrinter visitor = new CommentStructurePrinter();
 
-    // Когда составной узел принимает посетителя документа, посетитель посещает принимающий узел,
-    // а затем обходит все дочерние элементы узла в порядке глубины.
-    // Посетитель может читать и изменять каждый посещаемый узел.
+    // Когда мы получаем составной узел для приема посетителя документа, посетитель посещает принимающий узел,
+    // а затем обходит все дочерние узлы в глубину.
+    // Посетитель может читать и изменять каждый посещенный узел.
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 }
 
 /// <summary>
-/// Обходит небинарное дерево дочерних узлов узла.
+/// Обходит недвоичное дерево дочерних узлов узла.
 /// Создает карту в виде строки всех встреченных узлов Comment/CommentRange и их дочерних элементов.
 /// </summary>
 public class CommentStructurePrinter : DocumentVisitor
@@ -93,7 +93,7 @@ public class CommentStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается, когда в документе встречается узел комментариев.
+    /// Вызывается, когда в документе встречается узел комментария.
     /// </summary>
     public override VisitorAction VisitCommentStart(Comment comment)
     {
@@ -106,7 +106,7 @@ public class CommentStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается после посещения всех дочерних узлов узла Comment.
+    /// Вызывается после посещения всех дочерних узлов узла комментариев.
     /// </summary>
     public override VisitorAction VisitCommentEnd(Comment comment)
     {
@@ -118,7 +118,7 @@ public class CommentStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Добавляем строку в StringBuilder и делаем отступ в зависимости от того, насколько глубоко находится посетитель
+    /// Добавляем строку в StringBuilder и делаем отступ в зависимости от глубины погружения посетителя
     /// в дерево дочерних узлов комментария/диапазона комментариев.
     /// </summary>
     /// <param name="text"></param>

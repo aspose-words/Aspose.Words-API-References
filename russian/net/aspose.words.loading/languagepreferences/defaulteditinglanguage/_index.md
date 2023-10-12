@@ -10,7 +10,7 @@ url: /ru/net/aspose.words.loading/languagepreferences/defaulteditinglanguage/
 
 Получает или задает язык редактирования по умолчанию.
 
-Значение по умолчаниюEnglishUS.
+Значение по умолчанию:EnglishUS.
 
 ```csharp
 public EditingLanguage DefaultEditingLanguage { get; set; }

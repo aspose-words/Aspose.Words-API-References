@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.ExportOriginalUrlForLinkedImages
 second_title: Référence de l'API Aspose.Words pour .NET
-description: HtmlSaveOptions propriété. Spécifie si lURL dorigine doit être utilisée comme URL des images liées. La valeur par défaut estfaux .
+description: HtmlSaveOptions propriété. Spécifie si lURL dorigine doit être utilisée comme URL des images liées. La valeur par défaut estFAUX .
 type: docs
-weight: 210
+weight: 200
 url: /fr/net/aspose.words.saving/htmlsaveoptions/exportoriginalurlforlinkedimages/
 ---
 ## HtmlSaveOptions.ExportOriginalUrlForLinkedImages property
 
-Spécifie si l'URL d'origine doit être utilisée comme URL des images liées. La valeur par défaut est`faux` .
+Spécifie si l'URL d'origine doit être utilisée comme URL des images liées. La valeur par défaut est`FAUX` .
 
 ```csharp
 public bool ExportOriginalUrlForLinkedImages { get; set; }
@@ -16,9 +16,9 @@ public bool ExportOriginalUrlForLinkedImages { get; set; }
 
 ### Remarques
 
-Si la valeur est définie sur`vrai`[`SourceFullName`](../../../aspose.words.drawing/imagedata/sourcefullname/) la valeur est used car l'URL des images liées et les images liées ne sont pas chargées dans le dossier du document ou[`ImagesFolder`](../imagesfolder/).
+Si la valeur est définie sur`vrai`[`SourceFullName`](../../../aspose.words.drawing/imagedata/sourcefullname/) la valeur est utilisée car l'URL des images liées et les images liées ne sont pas chargées dans le dossier du document ou[`ImagesFolder`](../imagesfolder/).
 
-Si la valeur est définie sur`faux` les images liées sont chargées dans le dossier du document ou[`ImagesFolder`](../imagesfolder/) et l'URL de chaque image liée est construite en fonction du dossier du document,[`ImagesFolder`](../imagesfolder/) et[`ImagesFolderAlias`](../imagesfolderalias/) Propriétés.
+Si la valeur est définie sur`FAUX`les images liées sont chargées dans le dossier du document ou[`ImagesFolder`](../imagesfolder/) et l'URL de chaque image liée est construite en fonction du dossier du document,[`ImagesFolder`](../imagesfolder/) et[`ImagesFolderAlias`](../imagesfolderalias/) propriétés.
 
 ### Exemples
 

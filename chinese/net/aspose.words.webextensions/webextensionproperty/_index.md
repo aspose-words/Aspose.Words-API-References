@@ -3,12 +3,14 @@ title: Class WebExtensionProperty
 second_title: Aspose.Words for .NET API 参考
 description: Aspose.Words.WebExtensions.WebExtensionProperty 班级. 指定 Web 扩展自定义属性
 type: docs
-weight: 6470
+weight: 6780
 url: /zh/net/aspose.words.webextensions/webextensionproperty/
 ---
 ## WebExtensionProperty class
 
 指定 Web 扩展自定义属性。
+
+要了解更多信息，请访问[使用 Office 加载项](https://docs.aspose.com/words/net/work-with-office-add-ins/)文档文章。
 
 ```csharp
 public class WebExtensionProperty

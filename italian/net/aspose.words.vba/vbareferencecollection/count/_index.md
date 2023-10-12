@@ -19,7 +19,6 @@ public int Count { get; }
 Mostra come ottenere/rimuovere un elemento dalla raccolta di riferimenti VBA.
 
 ```csharp
-[Test]
 public void RemoveVbaReference()
 {
     const string brokenPath = @"X:\broken.dll";
@@ -45,7 +44,7 @@ public void RemoveVbaReference()
 }
 
 /// <summary>
-/// Restituisce una stringa che rappresenta il percorso LibId di un riferimento specificato. 
+ /// Restituisce la stringa che rappresenta il percorso LibId di un riferimento specificato.
 /// </summary>
 private static string GetLibIdPath(VbaReference reference)
 {

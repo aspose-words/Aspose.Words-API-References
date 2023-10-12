@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.DoNotSuppressParagraphBorders
 second_title: Aspose.Words لمراجع .NET API
-description: CompatibilityOptions ملكية. لا تلغي حدود الفقرة بجوار الإطارات .
+description: CompatibilityOptions ملكية. لا تقم بقمع حدود الفقرة الموجودة بجوار الإطارات.
 type: docs
 weight: 190
 url: /ar/net/aspose.words.settings/compatibilityoptions/donotsuppressparagraphborders/
 ---
 ## CompatibilityOptions.DoNotSuppressParagraphBorders property
 
-لا تلغي حدود الفقرة بجوار الإطارات .
+لا تقم بقمع حدود الفقرة الموجودة بجوار الإطارات.
 
 ```csharp
 public bool DoNotSuppressParagraphBorders { get; set; }

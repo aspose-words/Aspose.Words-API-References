@@ -1,14 +1,14 @@
 ---
 title: PdfSaveOptions.CreateNoteHyperlinks
 second_title: Referencia de API de Aspose.Words para .NET
-description: PdfSaveOptions propiedad. Especifica si convertir las referencias a notas al pie/notas al final en la historia del texto principal en hipervínculos activos. Al hacer clic en el hipervínculo se llevará a la nota al pie/nota al final correspondiente. El valor predeterminado esfalso .
+description: PdfSaveOptions propiedad. Especifica si se deben convertir las referencias de notas al pie/notas al final en la historia del texto principal en hipervínculos activos. Cuando se hace clic en el hipervínculo se dirigirá a la nota al pie/nota al final correspondiente. El valor predeterminado esFALSO .
 type: docs
-weight: 40
+weight: 50
 url: /es/net/aspose.words.saving/pdfsaveoptions/createnotehyperlinks/
 ---
 ## PdfSaveOptions.CreateNoteHyperlinks property
 
-Especifica si convertir las referencias a notas al pie/notas al final en la historia del texto principal en hipervínculos activos. Al hacer clic en el hipervínculo, se llevará a la nota al pie/nota al final correspondiente. El valor predeterminado es`falso` .
+Especifica si se deben convertir las referencias de notas al pie/notas al final en la historia del texto principal en hipervínculos activos. Cuando se hace clic en el hipervínculo, se dirigirá a la nota al pie/nota al final correspondiente. El valor predeterminado es`FALSO` .
 
 ```csharp
 public bool CreateNoteHyperlinks { get; set; }
@@ -25,8 +25,8 @@ Document doc = new Document(MyDir + "Footnotes and endnotes.docx");
 // para modificar cómo ese método convierte el documento a .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// Establezca la propiedad "CreateNoteHyperlinks" en "true" para convertir todos los símbolos de notas al pie/notas al final
-// en el texto actúan como enlaces que, al hacer clic, nos llevan a sus respectivas notas al pie/notas al final.
+// Establece la propiedad "CreateNoteHyperlinks" en "true" para convertir todos los símbolos de notas al pie/notas al final
+// en el texto actúan como enlaces que al hacer clic nos llevan a sus respectivas notas al pie/notas al final.
 // Establezca la propiedad "CreateNoteHyperlinks" en "false" para que los símbolos de notas al pie/notas al final no se vinculen a nada.
 options.CreateNoteHyperlinks = createNoteHyperlinks;
 

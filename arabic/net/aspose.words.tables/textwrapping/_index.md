@@ -3,7 +3,7 @@ title: Enum TextWrapping
 second_title: Aspose.Words لمراجع .NET API
 description: Aspose.Words.Tables.TextWrapping تعداد. يحدد كيفية التفاف النص حول الجدول.
 type: docs
-weight: 6080
+weight: 6380
 url: /ar/net/aspose.words.tables/textwrapping/
 ---
 ## TextWrapping enumeration
@@ -18,9 +18,9 @@ public enum TextWrapping
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| None | `0` | يتم عرض النص والجدول بترتيب ظهورهما في المستند. |
-| Around | `1` | يتم لف النص حول الجدول ويشغل المساحة الجانبية المتاحة. |
-| Default | `0` | القيمة الافتراضية . |
+| None | `0` | يتم عرض النص والجدول حسب ترتيب ظهورهما في المستند. |
+| Around | `1` | النص ملتف حول الجدول ويشغل المساحة الجانبية المتوفرة. |
+| Default | `0` | القيمة الافتراضية. |
 
 ### أمثلة
 
@@ -41,8 +41,8 @@ table.PreferredWidth = PreferredWidth.FromPoints(300);
 builder.Font.Size = 16;
 builder.Writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
 
-// اضبط خاصية "TextWrapping" على "TextWrapping.Around" لجعل الجدول يلتف حول النص ،
-// وادفعها لأسفل في الفقرة أدناه عن طريق تحديد الموضع.
+// قم بتعيين خاصية "TextWrapping" على "TextWrapping.Around" لجعل الجدول يلتف النص حوله،
+// وادفعه للأسفل إلى الفقرة أدناه عن طريق تحديد الموضع.
 table.TextWrapping = TextWrapping.Around;
 table.AbsoluteHorizontalDistance = 100;
 table.AbsoluteVerticalDistance = 20;

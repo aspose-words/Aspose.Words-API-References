@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTag.Placeholder
 second_title: Aspose.Words för .NET API Referens
-description: StructuredDocumentTag fast egendom. FårBuildingBlock som innehåller platshållartext som ska visas när innehållet i denna SDTkörning är tomt det associerade mappade XMLelementet är tomt som specificerats viaXmlMapping element ellerIsShowingPlaceholderText element är sant.
+description: StructuredDocumentTag fast egendom. FårBuildingBlocksom innehåller platshållartext som ska visas när detta SDTkörningsinnehåll är tomt det associerade mappade XMLelementet är tomt som specificerats viaXmlMapping element ellerIsShowingPlaceholderText element ärSann .
 type: docs
 weight: 230
 url: /sv/net/aspose.words.markup/structureddocumenttag/placeholder/
 ---
 ## StructuredDocumentTag.Placeholder property
 
-Får[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock/) som innehåller platshållartext som ska visas när innehållet i denna SDT-körning är tomt, det associerade mappade XML-elementet är tomt som specificerats via[`XmlMapping`](../xmlmapping/) element eller[`IsShowingPlaceholderText`](../isshowingplaceholdertext/) element är sant.
+Får[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock/)som innehåller platshållartext som ska visas när detta SDT-körningsinnehåll är tomt, det associerade mappade XML-elementet är tomt som specificerats via[`XmlMapping`](../xmlmapping/) element eller[`IsShowingPlaceholderText`](../isshowingplaceholdertext/) element är`Sann` .
 
 ```csharp
 public BuildingBlock Placeholder { get; }
@@ -16,7 +16,7 @@ public BuildingBlock Placeholder { get; }
 
 ### Anmärkningar
 
-Kan vara null, vilket innebär att platshållaren inte är tillämplig för denna Sdt.
+Kan vara`null`, vilket innebär att platshållaren inte är tillämplig för denna Sdt.
 
 ### Exempel
 

@@ -1,14 +1,14 @@
 ---
 title: CommentCollection.Item
 second_title: Référence de l'API Aspose.Words pour .NET
-description: CommentCollection propriété. Récupère un Commentaire à lindex donné.
+description: CommentCollection propriété. Récupère unComment à lindex donné.
 type: docs
 weight: 10
 url: /fr/net/aspose.words/commentcollection/item/
 ---
 ## CommentCollection indexer
 
-Récupère un **Commentaire** à l'index donné.
+Récupère un[`Comment`](../../comment/) à l'index donné.
 
 ```csharp
 public Comment this[int index] { get; }
@@ -24,9 +24,9 @@ L'indice est de base zéro.
 
 Les index négatifs sont autorisés et indiquent un accès depuis l'arrière de la collection. Par exemple -1 signifie le dernier élément, -2 signifie l'avant-dernier et ainsi de suite.
 
-Si index est supérieur ou égal au nombre d'éléments de la liste, cela renvoie une référence nulle.
+Si l'index est supérieur ou égal au nombre d'éléments de la liste, cela renvoie une référence nulle.
 
-Si index est négatif et que sa valeur absolue est supérieure au nombre d'éléments de la liste, cela renvoie une référence nulle.
+Si l'index est négatif et que sa valeur absolue est supérieure au nombre d'éléments de la liste, cela renvoie une référence nulle.
 
 ### Exemples
 
@@ -46,12 +46,12 @@ comment.AddReply("Joe Bloggs", "J.B.", DateTime.Now, "Another reply");
 Assert.AreEqual(2, comment.Replies.Count()); 
 
 // Vous trouverez ci-dessous deux manières de supprimer les réponses d'un commentaire.
-// 1 - Utilisez la méthode "RemoveReply" pour supprimer individuellement les réponses d'un commentaire :
+// 1 - Utilisez la méthode "RemoveReply" pour supprimer individuellement les réponses d'un commentaire :
 comment.RemoveReply(comment.Replies[0]);
 
 Assert.AreEqual(1, comment.Replies.Count());
 
-// 2 - Utilisez la méthode "RemoveAllReplies" pour supprimer d'un coup toutes les réponses d'un commentaire :
+// 2 - Utilisez la méthode "RemoveAllReplies" pour supprimer toutes les réponses d'un commentaire d'un coup :
 comment.RemoveAllReplies();
 
 Assert.AreEqual(0, comment.Replies.Count());

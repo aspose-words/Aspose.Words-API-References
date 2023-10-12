@@ -16,7 +16,7 @@ public string ToString(SaveFormat saveFormat)
 
 ### Return_Value
 
-Le contenu du nœud dans le format spécifié.
+Le contenu du nœud au format spécifié.
 
 ### Exemples
 
@@ -28,10 +28,10 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.InsertField("MERGEFIELD Field");
 
-// GetText va récupérer le texte visible ainsi que les codes de champs et les caractères spéciaux.
+// GetText récupérera le texte visible ainsi que les codes de champs et les caractères spéciaux.
 Assert.AreEqual("\u0013MERGEFIELD Field\u0014«Field»\u0015\u000c", doc.GetText());
 
-// ToString nous donnera l'apparence du document s'il est enregistré dans un format d'enregistrement passé.
+// ToString nous donnera l'apparence du document s'il est enregistré dans un format de sauvegarde transmis.
 Assert.AreEqual("«Field»\r\n", doc.ToString(SaveFormat.Text));
 ```
 
@@ -42,13 +42,13 @@ Document doc = new Document(MyDir + "Document.docx");
 
 Node node = doc.LastSection.Body.LastParagraph;
 
-// Lorsque nous appelons la méthode ToString à l'aide de la surcharge html SaveFormat,
-// il convertit le contenu du nœud en sa représentation html brute.
+// Lorsque nous appelons la méthode ToString en utilisant la surcharge html SaveFormat,
+// il convertit le contenu du nœud en sa représentation HTML brute.
 Assert.AreEqual("<p style=\"margin-top:0pt; margin-bottom:8pt; line-height:108%; font-size:12pt\">" +
                 "<span style=\"font-family:'Times New Roman'\">Hello World!</span>" +
                 "</p>", node.ToString(SaveFormat.Html));
 
-// Nous pouvons également modifier le résultat de cette conversion à l'aide d'un objet SaveOptions.
+// On peut également modifier le résultat de cette conversion à l'aide d'un objet SaveOptions.
 HtmlSaveOptions saveOptions = new HtmlSaveOptions();
 saveOptions.ExportRelativeFontSize = true;
 
@@ -65,24 +65,24 @@ doc.UpdateListLabels();
 
 NodeCollection paras = doc.GetChildNodes(NodeType.Paragraph, true);
 
-// Recherche si nous avons la liste des paragraphes. Dans notre document, notre liste utilise des chiffres arabes simples,
-// qui commence à trois et se termine à six.
+// Trouve si nous avons la liste des paragraphes. Dans notre document, notre liste utilise des chiffres arabes simples,
+// qui commence à trois heures et se termine à six heures.
 foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsListItem))
 {
     Console.WriteLine($"List item paragraph #{paras.IndexOf(paragraph)}");
 
-    // C'est le texte que nous obtenons lorsque nous obtenons ce nœud au format texte.
-    // Cette sortie de texte omettra les étiquettes de liste. Coupez tous les caractères de formatage de paragraphe. 
+    // Il s'agit du texte que nous obtenons lorsque nous extrayons ce nœud au format texte.
+     // Cette sortie texte omettra les étiquettes de liste. Coupez tous les caractères de formatage de paragraphe.
     string paragraphText = paragraph.ToString(SaveFormat.Text).Trim();
     Console.WriteLine($"\tExported Text: {paragraphText}");
 
     ListLabel label = paragraph.ListLabel;
 
-    // Cela obtient la position du paragraphe dans le niveau actuel de la liste. Si nous avons une liste à plusieurs niveaux,
-    // cela nous dira quelle position il est à ce niveau.
+    // Ceci obtient la position du paragraphe dans le niveau actuel de la liste. Si nous avons une liste à plusieurs niveaux,
+    // cela nous dira quelle est sa position à ce niveau.
     Console.WriteLine($"\tNumerical Id: {label.LabelValue}");
 
-    // Combinez-les pour inclure l'étiquette de la liste avec le texte dans la sortie.
+    // Combinez-les ensemble pour inclure l'étiquette de liste avec le texte dans la sortie.
     Console.WriteLine($"\tList label combined with text: {label.LabelString} {paragraphText}");
 }
 ```
@@ -98,7 +98,7 @@ foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListForma
 
 ## ToString(SaveOptions) {#tostring_2}
 
-Exporte le contenu du nœud dans une chaîne à l'aide des options d'enregistrement spécifiées.
+Exporte le contenu du nœud dans une chaîne à l'aide des options de sauvegarde spécifiées.
 
 ```csharp
 public string ToString(SaveOptions saveOptions)
@@ -106,11 +106,11 @@ public string ToString(SaveOptions saveOptions)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| saveOptions | SaveOptions | Spécifie les options qui contrôlent la façon dont le nœud est enregistré. |
+| saveOptions | SaveOptions | Spécifie les options qui contrôlent la manière dont le nœud est enregistré. |
 
 ### Return_Value
 
-Le contenu du nœud dans le format spécifié.
+Le contenu du nœud au format spécifié.
 
 ### Exemples
 
@@ -121,13 +121,13 @@ Document doc = new Document(MyDir + "Document.docx");
 
 Node node = doc.LastSection.Body.LastParagraph;
 
-// Lorsque nous appelons la méthode ToString à l'aide de la surcharge html SaveFormat,
-// il convertit le contenu du nœud en sa représentation html brute.
+// Lorsque nous appelons la méthode ToString en utilisant la surcharge html SaveFormat,
+// il convertit le contenu du nœud en sa représentation HTML brute.
 Assert.AreEqual("<p style=\"margin-top:0pt; margin-bottom:8pt; line-height:108%; font-size:12pt\">" +
                 "<span style=\"font-family:'Times New Roman'\">Hello World!</span>" +
                 "</p>", node.ToString(SaveFormat.Html));
 
-// Nous pouvons également modifier le résultat de cette conversion à l'aide d'un objet SaveOptions.
+// On peut également modifier le résultat de cette conversion à l'aide d'un objet SaveOptions.
 HtmlSaveOptions saveOptions = new HtmlSaveOptions();
 saveOptions.ExportRelativeFontSize = true;
 

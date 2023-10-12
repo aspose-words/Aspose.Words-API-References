@@ -1,14 +1,14 @@
 ---
 title: BuildVersionInfo.Product
 second_title: Aspose.Words لمراجع .NET API
-description: BuildVersionInfo ملكية. الحصول على الاسم الكامل للمنتج .
+description: BuildVersionInfo ملكية. الحصول على الاسم الكامل للمنتج.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/buildversioninfo/product/
 ---
 ## BuildVersionInfo.Product property
 
-الحصول على الاسم الكامل للمنتج .
+الحصول على الاسم الكامل للمنتج.
 
 ```csharp
 public static string Product { get; }

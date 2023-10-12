@@ -26,7 +26,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Table table = builder.StartTable();
 table.SetBorders(LineStyle.Single, 2.0, Color.Black);
 
-// Crea una riga con due celle con diversi colori di sfondo.
+// Crea una riga con due celle con colori di sfondo diversi.
 builder.InsertCell();
 builder.CellFormat.Shading.BackgroundPatternColor = Color.LightSkyBlue;
 builder.Writeln("Row 1, Cell 1.");
@@ -35,9 +35,9 @@ builder.CellFormat.Shading.BackgroundPatternColor = Color.Orange;
 builder.Writeln("Row 1, Cell 2.");
 builder.EndRow();
 
-// Ripristina la formattazione della cella per disabilitare i colori di sfondo
+// Reimposta la formattazione della cella per disabilitare i colori di sfondo
 // imposta uno spessore del bordo personalizzato per tutte le nuove celle create dal builder,
-// quindi costruisci una seconda riga.
+// quindi crea una seconda riga.
 builder.CellFormat.ClearFormatting();
 builder.CellFormat.Borders.Left.LineWidth = 4.0;
 builder.CellFormat.Borders.Right.LineWidth = 4.0;

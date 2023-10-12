@@ -1,14 +1,14 @@
 ---
 title: OdsoRecipientDataCollection.Count
 second_title: Referencia de API de Aspose.Words para .NET
-description: OdsoRecipientDataCollection propiedad. Obtiene el número de elementos que contiene la colección.
+description: OdsoRecipientDataCollection propiedad. Obtiene el número de elementos contenidos en la colección.
 type: docs
 weight: 20
 url: /es/net/aspose.words.settings/odsorecipientdatacollection/count/
 ---
 ## OdsoRecipientDataCollection.Count property
 
-Obtiene el número de elementos que contiene la colección.
+Obtiene el número de elementos contenidos en la colección.
 
 ```csharp
 public int Count { get; }
@@ -16,7 +16,7 @@ public int Count { get; }
 
 ### Ejemplos
 
-Muestra cómo acceder a la colección de datos que designa qué registros de origen de datos combinados excluirá una combinación de correspondencia.
+Muestra cómo acceder a la colección de datos que designa qué registros de origen de datos de combinación excluirá una combinación de correspondencia.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");

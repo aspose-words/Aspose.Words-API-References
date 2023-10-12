@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.NoLeading
 second_title: Aspose.Words per .NET API Reference
-description: CompatibilityOptions proprietà. Non aggiungere interlinea tra le righe di testo.
+description: CompatibilityOptions proprietà. Non aggiungere linterlinea tra le righe di testo.
 type: docs
 weight: 350
 url: /it/net/aspose.words.settings/compatibilityoptions/noleading/
 ---
 ## CompatibilityOptions.NoLeading property
 
-Non aggiungere interlinea tra le righe di testo.
+Non aggiungere l'interlinea tra le righe di testo.
 
 ```csharp
 public bool NoLeading { get; set; }

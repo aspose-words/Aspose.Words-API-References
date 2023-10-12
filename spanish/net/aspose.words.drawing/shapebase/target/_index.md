@@ -3,7 +3,7 @@ title: ShapeBase.Target
 second_title: Referencia de API de Aspose.Words para .NET
 description: ShapeBase propiedad. Obtiene o establece el marco de destino para el hipervínculo de forma.
 type: docs
-weight: 480
+weight: 520
 url: /es/net/aspose.words.drawing/shapebase/target/
 ---
 ## ShapeBase.Target property
@@ -27,7 +27,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
-shape.HRef = "https://foro.aspose.com/";
+shape.HRef = "https://forum.aspose.com/";
 shape.Target = "New Window";
 shape.ScreenTip = "Aspose.Words Support Forums";
 

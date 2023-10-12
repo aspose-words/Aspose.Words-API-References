@@ -1,14 +1,16 @@
 ---
 title: Class CompareOptions
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Comparing.CompareOptions sınıf. Belge karşılaştırma işlemi için gelişmiş seçeneklerin seçilmesini sağlar.
+description: Aspose.Words.Comparing.CompareOptions sınıf. Belge karşılaştırma işlemi için gelişmiş seçeneklerin seçilmesine olanak tanır.
 type: docs
-weight: 260
+weight: 270
 url: /tr/net/aspose.words.comparing/compareoptions/
 ---
 ## CompareOptions class
 
-Belge karşılaştırma işlemi için gelişmiş seçeneklerin seçilmesini sağlar.
+Belge karşılaştırma işlemi için gelişmiş seçeneklerin seçilmesine olanak tanır.
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Belgeleri Karşılaştır](https://docs.aspose.com/words/net/compare-documents/) dokümantasyon makalesi.
 
 ```csharp
 public class CompareOptions
@@ -24,28 +26,29 @@ public class CompareOptions
 
 | İsim | Tanım |
 | --- | --- |
-| [Granularity](../../aspose.words.comparing/compareoptions/granularity/) { get; set; } | Değişikliklerin karaktere göre mi yoksa kelimeye göre mi izlendiğini belirtir. Varsayılan değerWordLevel . |
-| [IgnoreCaseChanges](../../aspose.words.comparing/compareoptions/ignorecasechanges/) { get; set; } | True, belge karşılaştırmasının büyük/küçük harfe duyarlı olmadığını gösterir. Varsayılan olarak karşılaştırma büyük/küçük harf duyarlıdır. |
-| [IgnoreComments](../../aspose.words.comparing/compareoptions/ignorecomments/) { get; set; } | Yorumlardaki farklılıkların karşılaştırılıp karşılaştırılmayacağını belirtir. Varsayılan olarak yorumlar göz ardı edilmez. |
-| [IgnoreDmlUniqueId](../../aspose.words.comparing/compareoptions/ignoredmluniqueid/) { get; set; } | DrawingML benzersiz kimliğindeki farkın yoksayılıp yoksayılmayacağını belirtir. Varsayılan değer **yanlış** . |
+| [CompareMoves](../../aspose.words.comparing/compareoptions/comparemoves/) { get; set; } | Farklılıkların karşılaştırılıp karşılaştırılmayacağını belirtir.MoveRevision iki belge arasında. Varsayılan olarak taşıma revizyonları üretilmez. |
+| [Granularity](../../aspose.words.comparing/compareoptions/granularity/) { get; set; } | Değişikliklerin karaktere göre mi yoksa kelimeye göre mi izleneceğini belirtir. Varsayılan değer:WordLevel . |
+| [IgnoreCaseChanges](../../aspose.words.comparing/compareoptions/ignorecasechanges/) { get; set; } | True, belge karşılaştırmasının büyük/küçük harfe duyarlı olmadığını belirtir. Karşılaştırma varsayılan olarak büyük/küçük harfe duyarlıdır. |
+| [IgnoreComments](../../aspose.words.comparing/compareoptions/ignorecomments/) { get; set; } | Yorumlardaki farklılıkların karşılaştırılıp karşılaştırılmayacağını belirtir. Varsayılan olarak yorumlar dikkate alınmaz. |
+| [IgnoreDmlUniqueId](../../aspose.words.comparing/compareoptions/ignoredmluniqueid/) { get; set; } | DrawingML benzersiz kimliğindeki farkın göz ardı edilip edilmeyeceğini belirtir. Varsayılan değer:`YANLIŞ` . |
 | [IgnoreFields](../../aspose.words.comparing/compareoptions/ignorefields/) { get; set; } | Alanlardaki farklılıkların karşılaştırılıp karşılaştırılmayacağını belirtir. Varsayılan olarak alanlar göz ardı edilmez. |
-| [IgnoreFootnotes](../../aspose.words.comparing/compareoptions/ignorefootnotes/) { get; set; } | Dipnotlardaki ve son notlardaki farklılıkların karşılaştırılıp karşılaştırılmayacağını belirtir. Varsayılan olarak dipnotlar göz ardı edilmez. |
-| [IgnoreFormatting](../../aspose.words.comparing/compareoptions/ignoreformatting/) { get; set; } | True, biçimlendirmenin yoksayıldığını gösterir. Varsayılan olarak belge biçimlendirmesi göz ardı edilmez. |
-| [IgnoreHeadersAndFooters](../../aspose.words.comparing/compareoptions/ignoreheadersandfooters/) { get; set; } | True, üstbilgi ve altbilgi içeriğinin yok sayıldığını belirtir. Varsayılan olarak üstbilgiler ve altbilgiler yoksayılmaz. |
+| [IgnoreFootnotes](../../aspose.words.comparing/compareoptions/ignorefootnotes/) { get; set; } | Dipnot ve sonnotlardaki farklılıkların karşılaştırılıp karşılaştırılmayacağını belirtir. Varsayılan olarak dipnotlar göz ardı edilmez. |
+| [IgnoreFormatting](../../aspose.words.comparing/compareoptions/ignoreformatting/) { get; set; } | Doğru, biçimlendirmenin göz ardı edildiğini gösterir. Varsayılan olarak belge biçimlendirmesi göz ardı edilmez. |
+| [IgnoreHeadersAndFooters](../../aspose.words.comparing/compareoptions/ignoreheadersandfooters/) { get; set; } | Doğru, üstbilgi ve altbilgi içeriğinin göz ardı edildiğini belirtir. Varsayılan olarak üstbilgi ve altbilgiler göz ardı edilmez. |
 | [IgnoreTables](../../aspose.words.comparing/compareoptions/ignoretables/) { get; set; } | Tablolarda bulunan verilerdeki farklılıkların karşılaştırılıp karşılaştırılmayacağını belirtir. Varsayılan olarak tablolar göz ardı edilmez. |
-| [IgnoreTextboxes](../../aspose.words.comparing/compareoptions/ignoretextboxes/) { get; set; } | Metin kutularında bulunan verilerdeki farklılıkların karşılaştırılıp karşılaştırılmayacağını belirtir. Varsayılan olarak metin kutuları göz ardı edilmez. |
-| [Target](../../aspose.words.comparing/compareoptions/target/) { get; set; } | Karşılaştırma sırasında hedef olarak hangi belgenin kullanılacağını belirtir. |
+| [IgnoreTextboxes](../../aspose.words.comparing/compareoptions/ignoretextboxes/) { get; set; } | Metin kutularının içerdiği verilerdeki farklılıkların karşılaştırılıp karşılaştırılmayacağını belirtir. Varsayılan olarak metin kutuları göz ardı edilmez. |
+| [Target](../../aspose.words.comparing/compareoptions/target/) { get; set; } | Karşılaştırma sırasında hangi belgenin hedef olarak kullanılacağını belirtir. |
 
 ### Örnekler
 
-Karşılaştırma yaparken belirli türdeki belge öğelerinin nasıl filtreleneceğini gösterir.
+Karşılaştırma yaparken belirli belge öğesi türlerinin nasıl filtreleneceğini gösterir.
 
 ```csharp
-// Orijinal belgeyi oluşturun ve onu çeşitli öğelerle doldurun.
+// Orijinal belgeyi oluşturun ve onu çeşitli türde öğelerle doldurun.
 Document docOriginal = new Document();
 DocumentBuilder builder = new DocumentBuilder(docOriginal);
 
-// Son notla başvurulan paragraf metni:
+// Son notla referans verilen paragraf metni:
 builder.Writeln("Hello world! This is the first paragraph.");
 builder.InsertFootnote(FootnoteType.Endnote, "Original endnote text.");
 
@@ -75,7 +78,7 @@ builder.CurrentParagraph.AppendChild(newComment);
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 builder.Writeln("Original header contents.");
 
-// Belgemizin bir klonunu oluşturun ve klonlanan belgenin öğelerinin her biri üzerinde hızlı bir düzenleme yapın.
+// Belgemizin bir kopyasını oluşturun ve kopyalanan belgenin her bir öğesi üzerinde hızlı bir düzenleme yapın.
 Document docEdited = (Document)docOriginal.Clone(true);
 Paragraph firstParagraph = docEdited.FirstSection.Body.FirstParagraph;
 
@@ -89,9 +92,9 @@ firstParagraph.ParagraphFormat.Style = docEdited.Styles[StyleIdentifier.Heading1
 docEdited.FirstSection.HeadersFooters[HeaderFooterType.HeaderPrimary].FirstParagraph.Runs[0].Text =
     "Edited header contents.";
 
-// Belgeleri karşılaştırmak, düzenlenen belgedeki her düzenleme için bir revizyon oluşturur.
-// Bir CompareOptions nesnesi, revizyonları bastırabilen bir dizi işarete sahiptir.
-// her ilgili öğe türünde, değişikliklerini etkin bir şekilde yok sayar.
+// Belgelerin karşılaştırılması, düzenlenen belgedeki her düzenleme için bir revizyon oluşturur.
+// CompareOptions nesnesinde revizyonları bastırabilecek bir dizi bayrak bulunur
+// ilgili her öğe türü üzerinde, değişikliklerini etkili bir şekilde göz ardı ederek.
 Aspose.Words.Comparing.CompareOptions compareOptions = new Aspose.Words.Comparing.CompareOptions();
 compareOptions.IgnoreFormatting = false;
 compareOptions.IgnoreCaseChanges = false;

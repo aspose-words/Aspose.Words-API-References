@@ -3,12 +3,14 @@ title: Class CsvDataLoadOptions
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.Reporting.CsvDataLoadOptions clase. Representa opciones para analizar datos CSV.
 type: docs
-weight: 4400
+weight: 4660
 url: /es/net/aspose.words.reporting/csvdataloadoptions/
 ---
 ## CsvDataLoadOptions class
 
 Representa opciones para analizar datos CSV.
+
+Para obtener más información, visite el[Motor de informes LINQ](https://docs.aspose.com/words/net/linq-reporting-engine/) artículo de documentación.
 
 ```csharp
 public class CsvDataLoadOptions
@@ -27,8 +29,8 @@ public class CsvDataLoadOptions
 | --- | --- |
 | [CommentChar](../../aspose.words.reporting/csvdataloadoptions/commentchar/) { get; set; } | Obtiene o establece el carácter que se utiliza para comentar líneas de datos CSV. |
 | [Delimiter](../../aspose.words.reporting/csvdataloadoptions/delimiter/) { get; set; } | Obtiene o establece el carácter que se utilizará como delimitador de columna. |
-| [HasHeaders](../../aspose.words.reporting/csvdataloadoptions/hasheaders/) { get; set; } | Obtiene o establece un valor que indica si el primer registro de datos CSV contiene nombres de columna. |
-| [QuoteChar](../../aspose.words.reporting/csvdataloadoptions/quotechar/) { get; set; } | Obtiene o establece el carácter que se utiliza para citar valores de campo. |
+| [HasHeaders](../../aspose.words.reporting/csvdataloadoptions/hasheaders/) { get; set; } | Obtiene o establece un valor que indica si el primer registro de datos CSV contiene nombres de columnas. |
+| [QuoteChar](../../aspose.words.reporting/csvdataloadoptions/quotechar/) { get; set; } | Obtiene o establece el carácter que se utiliza para citar los valores de los campos. |
 
 ### Observaciones
 

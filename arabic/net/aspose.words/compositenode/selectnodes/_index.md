@@ -1,14 +1,14 @@
 ---
 title: CompositeNode.SelectNodes
 second_title: Aspose.Words لمراجع .NET API
-description: CompositeNode طريقة. تحديد قائمة بالعقد المطابقة لتعبير XPath.
+description: CompositeNode طريقة. تحديد قائمة العقد المطابقة لتعبير XPath.
 type: docs
-weight: 200
+weight: 210
 url: /ar/net/aspose.words/compositenode/selectnodes/
 ---
 ## CompositeNode.SelectNodes method
 
-تحديد قائمة بالعقد المطابقة لتعبير XPath.
+تحديد قائمة العقد المطابقة لتعبير XPath.
 
 ```csharp
 public NodeList SelectNodes(string xpath)
@@ -16,30 +16,30 @@ public NodeList SelectNodes(string xpath)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| xpath | String | تعبير XPath. |
+| xpath | String | تعبير XPath |
 
 ### قيمة الإرجاع
 
-قائمة بالعقد المطابقة لاستعلام XPath.
+قائمة العقد المطابقة لاستعلام XPath.
 
 ### ملاحظات
 
-يتم دعم التعبيرات التي تحتوي على أسماء العناصر فقط في الوقت الحالي. لا يتم دعم Expressions التي تستخدم أسماء السمات.
+يتم دعم التعبيرات التي تحتوي على أسماء العناصر فقط في الوقت الحالي. Expressions التي تستخدم أسماء السمات غير مدعومة.
 
 ### أمثلة
 
-يوضح كيفية استخدام تعبير XPath لاختبار ما إذا كانت العقدة موجودة داخل حقل.
+يوضح كيفية استخدام تعبير XPath لاختبار ما إذا كانت العقدة موجودة داخل الحقل.
 
 ```csharp
 Document doc = new Document(MyDir + "Mail merge destination - Northwind employees.docx");
 
 // ستحتوي NodeList الناتجة عن تعبير XPath هذا على جميع العقد التي نجدها داخل الحقل.
-// ومع ذلك ، يمكن أن تكون عقدتي FieldStart و FieldEnd في القائمة إذا كانت هناك حقول متداخلة في المسار.
-// لا يعثر حاليًا على الحقول النادرة التي يمتد فيها FieldCode أو FieldResult عبر فقرات متعددة.
+// ومع ذلك، يمكن أن تكون عقدتي FieldStart وFieldEnd موجودة في القائمة إذا كانت هناك حقول متداخلة في المسار.
+// لم يتم العثور حاليًا على حقول نادرة يمتد فيها FieldCode أو FieldResult عبر فقرات متعددة.
 NodeList resultList =
-    doc.SelectNodes("// FieldStart / following-sibling :: node () [following-sibling :: FieldEnd] ");
+    doc.SelectNodes("//FieldStart/following-sibling::node()[following-sibling::FieldEnd]");
 
-// تحقق مما إذا كان التشغيل المحدد أحد العقد الموجودة داخل الحقل.
+// تحقق مما إذا كان التشغيل المحدد هو إحدى العقد الموجودة داخل الحقل.
 Console.WriteLine($"Contents of the first Run node that's part of a field: {resultList.First(n => n.NodeType == NodeType.Run).GetText().Trim()}");
 ```
 
@@ -48,25 +48,25 @@ Console.WriteLine($"Contents of the first Run node that's part of a field: {resu
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
 
-// هذا التعبير سوف يستخرج جميع عقد الفقرة ،
-// التي تنحدر من أي عقدة جدول في المستند.
-NodeList nodeList = doc.SelectNodes("// جدول // فقرة ") ;
+// هذا التعبير سوف يستخرج جميع عقد الفقرة،
+// وهي من نسل أي عقدة جدول في المستند.
+NodeList nodeList = doc.SelectNodes("//الجدول//الفقرة");
 
-// كرر من خلال القائمة باستخدام العداد واطبع محتويات كل فقرة في كل خلية من خلايا الجدول.
+// كرر القائمة باستخدام العداد واطبع محتويات كل فقرة في كل خلية في الجدول.
 int index = 0;
 
 using (IEnumerator<Node> e = nodeList.GetEnumerator())
     while (e.MoveNext())
         Console.WriteLine($"Table paragraph index {index++}, contents: \"{e.Current.GetText().Trim()}\"");
 
-// سيحدد هذا التعبير أي فقرات تكون فرعية مباشرة لأي عقدة أساسية في المستند.
-nodeList = doc.SelectNodes("// نص / فقرة ") ;
+// سيحدد هذا التعبير أي فقرات تعتبر فرعية مباشرة لأي عقدة نص في المستند.
+nodeList = doc.SelectNodes("//النص/الفقرة");
 
 // يمكننا التعامل مع القائمة كمصفوفة.
 Assert.AreEqual(4, nodeList.ToArray().Length);
 
-// استخدم SelectSingleNode لتحديد النتيجة الأولى لنفس التعبير على النحو الوارد أعلاه.
-Node node = doc.SelectSingleNode("// نص / فقرة ") ;
+// استخدم SelectSingleNode لتحديد النتيجة الأولى لنفس التعبير المذكور أعلاه.
+Node node = doc.SelectSingleNode("//النص/الفقرة");
 
 Assert.AreEqual(typeof(Paragraph), node.GetType());
 ```

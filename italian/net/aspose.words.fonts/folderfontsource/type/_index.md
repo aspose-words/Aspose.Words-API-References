@@ -1,14 +1,14 @@
 ---
 title: FolderFontSource.Type
 second_title: Aspose.Words per .NET API Reference
-description: FolderFontSource proprietà. Restituisce il tipo di origine del carattere.
+description: FolderFontSource proprietà. Restituisce il tipo di fonte del carattere.
 type: docs
 weight: 40
 url: /it/net/aspose.words.fonts/folderfontsource/type/
 ---
 ## FolderFontSource.Type property
 
-Restituisce il tipo di origine del carattere.
+Restituisce il tipo di fonte del carattere.
 
 ```csharp
 public override FontSourceType Type { get; }
@@ -19,7 +19,7 @@ public override FontSourceType Type { get; }
 Mostra come utilizzare una cartella di sistema locale che contiene i caratteri come origine dei caratteri.
 
 ```csharp
-// Crea una fonte di font da una cartella che contiene file di font.
+// Crea un'origine carattere da una cartella che contiene file di caratteri.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false, 1);
 
 Document doc = new Document();

@@ -1,14 +1,14 @@
 ---
 title: CellCollection.Item
 second_title: Referencia de API de Aspose.Words para .NET
-description: CellCollection propiedad. Recupera un Célula en el índice dado.
+description: CellCollection propiedad. Recupera unCell en el índice dado.
 type: docs
 weight: 10
 url: /es/net/aspose.words.tables/cellcollection/item/
 ---
 ## CellCollection indexer
 
-Recupera un **Célula** en el índice dado.
+Recupera un[`Cell`](../../cell/) en el índice dado.
 
 ```csharp
 public Cell this[int index] { get; }
@@ -20,11 +20,11 @@ public Cell this[int index] { get; }
 
 ### Observaciones
 
-El índice está basado en cero.
+El índice tiene base cero.
 
-Los índices negativos están permitidos e indican el acceso desde la parte posterior de la colección. Por ejemplo, -1 significa el último elemento, -2 significa el penúltimo y así sucesivamente.
+Se permiten índices negativos e indican el acceso desde la parte posterior de la colección. Por ejemplo, -1 significa el último elemento, -2 significa el penúltimo y así sucesivamente.
 
-Si el índice es mayor o igual que el número de elementos en la lista, esto devuelve una referencia nula.
+Si el índice es mayor o igual que el número de elementos de la lista, esto devuelve una referencia nula.
 
 Si el índice es negativo y su valor absoluto es mayor que el número de elementos de la lista, esto devuelve una referencia nula.
 

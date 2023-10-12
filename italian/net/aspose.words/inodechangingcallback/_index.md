@@ -3,7 +3,7 @@ title: Interface INodeChangingCallback
 second_title: Aspose.Words per .NET API Reference
 description: Aspose.Words.INodeChangingCallback interfaccia. Implementa questa interfaccia se vuoi ricevere notifiche quando i nodi vengono inseriti o rimossi nel documento.
 type: docs
-weight: 3000
+weight: 3200
 url: /it/net/aspose.words/inodechangingcallback/
 ---
 ## INodeChangingCallback interface
@@ -19,21 +19,22 @@ public interface INodeChangingCallback
 | Nome | Descrizione |
 | --- | --- |
 | [NodeInserted](../../aspose.words/inodechangingcallback/nodeinserted/)(NodeChangingArgs) | Chiamato quando un nodo appartenente a questo documento è stato inserito in un altro nodo. |
-| [NodeInserting](../../aspose.words/inodechangingcallback/nodeinserting/)(NodeChangingArgs) | Chiamato appena prima che un nodo appartenente a questo documento stia per essere inserito in un altro nodo. |
+| [NodeInserting](../../aspose.words/inodechangingcallback/nodeinserting/)(NodeChangingArgs) | Chiamato subito prima che un nodo appartenente a questo documento stia per essere inserito in un altro nodo. |
 | [NodeRemoved](../../aspose.words/inodechangingcallback/noderemoved/)(NodeChangingArgs) | Chiamato quando un nodo appartenente a questo documento è stato rimosso dal suo genitore. |
-| [NodeRemoving](../../aspose.words/inodechangingcallback/noderemoving/)(NodeChangingArgs) | Chiamato appena prima che un nodo appartenente a questo documento stia per essere rimosso dal documento. |
+| [NodeRemoving](../../aspose.words/inodechangingcallback/noderemoving/)(NodeChangingArgs) | Chiamato subito prima che un nodo appartenente a questo documento stia per essere rimosso dal documento. |
 
 ### Esempi
 
-Mostra come personalizzare la modifica del nodo con una richiamata.
+Mostra come personalizzare la modifica del nodo con un callback.
 
 ```csharp
+public void FontChangeViaCallback()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Imposta il callback di modifica del nodo sull'implementazione personalizzata,
-    // quindi aggiungi/rimuovi nodi per far sì che generi un log.
+    // Imposta il callback che modifica il nodo sull'implementazione personalizzata,
+    // quindi aggiungi/rimuovi nodi per far sì che generi un registro.
     HandleNodeChangingFontChanger callback = new HandleNodeChangingFontChanger();
     doc.NodeChangingCallback = callback;
 
@@ -45,10 +46,11 @@ Mostra come personalizzare la modifica del nodo con una richiamata.
     doc.Range.Fields[0].Remove();
 
     Console.WriteLine(callback.GetLog());
+}
 
 /// <summary>
-/// Registra la data e l'ora di inserimento e rimozione di ciascun nodo.
-/// Imposta un nome/dimensione del carattere personalizzato per il contenuto del testo dei nodi Run.
+/// Registra la data e l'ora di ogni inserimento e rimozione di nodo.
+/// Imposta un nome/dimensione del carattere personalizzato per il contenuto del testo dei nodi Esegui.
 /// </summary>
 public class HandleNodeChangingFontChanger : INodeChangingCallback
 {

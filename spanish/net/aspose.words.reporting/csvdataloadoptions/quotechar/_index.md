@@ -1,14 +1,14 @@
 ---
 title: CsvDataLoadOptions.QuoteChar
 second_title: Referencia de API de Aspose.Words para .NET
-description: CsvDataLoadOptions propiedad. Obtiene o establece el carácter que se utiliza para citar valores de campo.
+description: CsvDataLoadOptions propiedad. Obtiene o establece el carácter que se utiliza para citar los valores de los campos.
 type: docs
 weight: 50
 url: /es/net/aspose.words.reporting/csvdataloadoptions/quotechar/
 ---
 ## CsvDataLoadOptions.QuoteChar property
 
-Obtiene o establece el carácter que se utiliza para citar valores de campo.
+Obtiene o establece el carácter que se utiliza para citar los valores de los campos.
 
 ```csharp
 public char QuoteChar { get; set; }

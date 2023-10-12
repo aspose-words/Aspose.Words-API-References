@@ -3,7 +3,7 @@ title: PageInfo.HeightInPoints
 second_title: Référence de l'API Aspose.Words pour .NET
 description: PageInfo propriété. Obtient la hauteur de la page en points.
 type: docs
-weight: 10
+weight: 20
 url: /fr/net/aspose.words.rendering/pageinfo/heightinpoints/
 ---
 ## PageInfo.HeightInPoints property
@@ -16,13 +16,13 @@ public float HeightInPoints { get; }
 
 ### Exemples
 
-Montre comment imprimer des informations sur la taille et l'orientation de la page pour chaque page d'un document Word.
+Montre comment imprimer les informations sur la taille et l’orientation de chaque page d’un document Word.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// La première section comporte 2 pages. Nous attribuerons un bac à papier d'imprimante différent à chacun,
-// dont le numéro correspondra à un type de source papier. Ces sources et leurs types varieront
+// La première section comporte 2 pages. Nous attribuerons à chacun un bac à papier d'imprimante différent,
+// dont le numéro correspondra à une sorte de source papier. Ces sources et leurs types varient
 // en fonction du pilote d'imprimante installé.
 PrinterSettings.PaperSourceCollection paperSources = new PrinterSettings().PaperSources;
 
@@ -36,10 +36,10 @@ float dpi = 96;
 
 for (int i = 0; i < doc.PageCount; i++)
 {
-    // Chaque page a un objet PageInfo, dont l'index est le numéro de la page respective.
+    // Chaque page possède un objet PageInfo, dont l'index est le numéro de la page respective.
     PageInfo pageInfo = doc.GetPageInfo(i);
 
-    // Affiche l'orientation et les dimensions de la page.
+    // Imprime l'orientation et les dimensions de la page.
     Console.WriteLine($"Page {i + 1}:");
     Console.WriteLine($"\tOrientation:\t{(pageInfo.Landscape ? "Landscape" : "Portrait")}");
     Console.WriteLine($"\tPaper size:\t\t{pageInfo.PaperSize} ({pageInfo.WidthInPoints:F0}x{pageInfo.HeightInPoints:F0}pt)");

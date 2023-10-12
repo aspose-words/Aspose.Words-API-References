@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTagRangeEnd.StructuredDocumentTagRangeEnd
 second_title: Aspose.Words für .NET-API-Referenz
-description: StructuredDocumentTagRangeEnd constructeur. Initialisiert eine neue Instanz von Ende des TagBereichs für strukturierte Dokumente Klasse.
+description: StructuredDocumentTagRangeEnd constructeur. Initialisiert eine neue Instanz von Ende des TagBereichs des strukturierten Dokuments Klasse.
 type: docs
 weight: 10
 url: /de/net/aspose.words.markup/structureddocumenttagrangeend/structureddocumenttagrangeend/
 ---
 ## StructuredDocumentTagRangeEnd constructor
 
-Initialisiert eine neue Instanz von **Ende des Tag-Bereichs für strukturierte Dokumente** Klasse.
+Initialisiert eine neue Instanz von **Ende des Tag-Bereichs des strukturierten Dokuments** Klasse.
 
 ```csharp
 public StructuredDocumentTagRangeEnd(DocumentBase doc, int id)
@@ -16,14 +16,15 @@ public StructuredDocumentTagRangeEnd(DocumentBase doc, int id)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| doc | DocumentBase | Das Besitzerdokument. |
-| id | Int32 | Identifikator des entsprechenden strukturierten Dokument-Tag-Bereichsanfangs. |
+| doc | DocumentBase | Das Eigentümerdokument. |
+| id | Int32 | Bezeichner des entsprechenden Tagbereichsanfangs des strukturierten Dokuments. |
 
 ### Beispiele
 
 Zeigt, wie strukturierte Dokument-Tags und deren Inhalt erstellt/entfernt werden.
 
 ```csharp
+public void SdtRangeExtendedMethods()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -32,7 +33,7 @@ Zeigt, wie strukturierte Dokument-Tags und deren Inhalt erstellt/entfernt werden
 
     InsertStructuredDocumentTagRanges(doc, out StructuredDocumentTagRangeStart rangeStart);
 
-    // Entfernt bereichsbezogenes strukturiertes Dokument-Tag, behält aber Inhalt darin.
+    // Entfernt das strukturierte Dokument-Tag, behält aber den Inhalt bei.
     rangeStart.RemoveSelfOnly();
 
     rangeStart = (StructuredDocumentTagRangeStart)doc.GetChild(
@@ -50,7 +51,7 @@ Zeigt, wie strukturierte Dokument-Tags und deren Inhalt erstellt/entfernt werden
     Node paragraphNode = rangeStart.LastOrDefault();
     Assert.AreEqual("StructuredDocumentTag element", paragraphNode?.GetText().Trim());
 
-    // Entfernt bereichsbezogenes strukturiertes Dokument-Tag und Inhalt darin.
+    // Entfernt strukturierte Dokument-Tags und Inhalte darin.
     rangeStart.RemoveAllChildren();
 
     paragraphNode = rangeStart.LastOrDefault();

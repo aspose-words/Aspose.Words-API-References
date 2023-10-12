@@ -1,14 +1,14 @@
 ---
 title: Shape.HasChart
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Shape propriété. Renvoie vrai si cette forme a unChart .
+description: Shape propriété. Retoursvrai si ceShape a unChart .
 type: docs
 weight: 70
 url: /fr/net/aspose.words.drawing/shape/haschart/
 ---
 ## Shape.HasChart property
 
-Renvoie vrai si cette forme a un[`Chart`](../chart/) .
+Retours`vrai` si ce[`Shape`](../) a un[`Chart`](../../../aspose.words.drawing.charts/chart/) .
 
 ```csharp
 public bool HasChart { get; }
@@ -16,9 +16,10 @@ public bool HasChart { get; }
 
 ### Exemples
 
-Montre comment parcourir toutes les formes d'un document.
+Montre comment parcourir toutes les formes d’un document.
 
 ```csharp
+public void VisitShapes()
 {
     Document doc = new Document(MyDir + "Revision shape.docx");
     ShapeAppearancePrinter visitor = new ShapeAppearancePrinter();
@@ -28,7 +29,7 @@ Montre comment parcourir toutes les formes d'un document.
 }
 
 /// <summary>
-/// Consigne les informations relatives à l'apparence des formes visitées.
+/// Enregistre les informations relatives à l'apparence des formes visitées.
 /// </summary>
 private class ShapeAppearancePrinter : DocumentVisitor
 {
@@ -50,7 +51,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Renvoie tout le texte que le StringBuilder a accumulé.
+    /// Renvoie tout le texte accumulé par StringBuilder.
     /// </summary>
     public string GetText()
     {

@@ -3,7 +3,7 @@ title: FindReplaceOptions.LegacyMode
 second_title: Referencia de API de Aspose.Words para .NET
 description: FindReplaceOptions propiedad. Obtiene o establece un valor booleano que indica que se utiliza el antiguo algoritmo de búsqueda/reemplazo.
 type: docs
-weight: 110
+weight: 130
 url: /es/net/aspose.words.replacing/findreplaceoptions/legacymode/
 ---
 ## FindReplaceOptions.LegacyMode property
@@ -16,11 +16,11 @@ public bool LegacyMode { get; set; }
 
 ### Observaciones
 
-Use este indicador si necesita exactamente el mismo comportamiento que antes de que se introdujera la función avanzada de búsqueda/reemplazo. Tenga en cuenta que el algoritmo antiguo no admite funciones avanzadas como reemplazar con pausas, aplicar formato, etc.
+Utilice esta marca si necesita exactamente el mismo comportamiento que antes de que se introdujera la función avanzada de búsqueda/reemplazo. Tenga en cuenta que el algoritmo anterior no admite funciones avanzadas como reemplazar con pausas, aplicar formato, etc.
 
 ### Ejemplos
 
-Muestra cómo reconocer y usar sustituciones dentro de los patrones de reemplazo.
+Muestra cómo reconocer y utilizar sustituciones dentro de patrones de reemplazo.
 
 ```csharp
 Document doc = new Document();
@@ -33,7 +33,7 @@ Regex regex = new Regex(@"([A-z]+) gave money to ([A-z]+)");
 FindReplaceOptions options = new FindReplaceOptions();
 options.UseSubstitutions = true;
 
-// El uso del modo heredado no admite muchas funciones avanzadas, por lo que debemos configurarlo en 'falso'.
+// El uso del modo heredado no admite muchas funciones avanzadas, por lo que debemos configurarlo en "falso".
 options.LegacyMode = false;
 
 doc.Range.Replace(regex, @"$2 took money from $1", options);

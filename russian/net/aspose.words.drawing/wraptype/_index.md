@@ -3,7 +3,7 @@ title: Enum WrapType
 second_title: Справочник по API Aspose.Words для .NET
 description: Aspose.Words.Drawing.WrapType перечисление. Указывает как текст обтекает фигуру или изображение.
 type: docs
-weight: 1250
+weight: 1400
 url: /ru/net/aspose.words.drawing/wraptype/
 ---
 ## WrapType enumeration
@@ -18,12 +18,12 @@ public enum WrapType
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| None | `3` | Текст не обтекает фигуру. Фигура помещается позади или перед текстом. |
+| None | `3` | Текст не обтекает фигуру. Фигура размещается позади или перед текстом. |
 | Inline | `0` | Фигура остается на том же слое, что и текст, и обрабатывается как символ. |
 | TopBottom | `1` | Текст останавливается в верхней части фигуры и возобновляется на строке под фигурой. |
-| Square | `2` | Обтекает текст вокруг всех сторон квадратной ограничивающей рамки фигуры. |
-| Tight | `4` | Плотно обтекает края фигуры, а не обтекает ограничивающую рамку. |
-| Through | `5` | То же, что и Tight, но охватывает все открытые части фигуры. |
+| Square | `2` | Обтекает текст со всех сторон квадратной ограничивающей рамки фигуры. |
+| Tight | `4` | Плотно обтекает края фигуры, а не ограничивающую рамку. |
+| Through | `5` | То же, что и Tight, но обтекает любые открытые части фигуры. |
 
 ### Примеры
 
@@ -33,7 +33,7 @@ public enum WrapType
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставьте плавающее изображение, которое будет отображаться за перекрывающимся текстом, и выровняйте его по центру страницы.
+// Вставляем плавающее изображение, которое появится за перекрывающимся текстом, и выравниваем его по центру страницы.
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 shape.WrapType = WrapType.None;
 shape.BehindText = true;
@@ -51,14 +51,14 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPageCenter.docx");
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставляем изображение в шапку, чтобы оно было видно на каждой странице.
+// Вставляем изображение в заголовок, чтобы оно было видно на каждой странице.
 Image image = Image.FromFile(ImageDir + "Transparent background logo.png");
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 Shape shape = builder.InsertImage(image);
 shape.WrapType = WrapType.None;
 shape.BehindText = true;
 
-// Поместите изображение в центр страницы.
+// Размещаем изображение в центре страницы.
 shape.RelativeHorizontalPosition = RelativeHorizontalPosition.Page;
 shape.RelativeVerticalPosition = RelativeVerticalPosition.Page;
 shape.Left = (builder.PageSetup.PageWidth - shape.Width) / 2;
@@ -73,7 +73,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertWatermark.docx");
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставляем изображение в шапку, чтобы оно было видно на каждой странице.
+// Вставляем изображение в заголовок, чтобы оно было видно на каждой странице.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 
 using (SKBitmap image = SKBitmap.Decode(ImageDir + "Transparent background logo.png"))
@@ -83,7 +83,7 @@ using (SKBitmap image = SKBitmap.Decode(ImageDir + "Transparent background logo.
     shape.WrapType = WrapType.None;
     shape.BehindText = true;
 
-    // Поместите изображение в центр страницы.
+    // Размещаем изображение в центре страницы.
     shape.RelativeHorizontalPosition = RelativeHorizontalPosition.Page;
     shape.RelativeVerticalPosition = RelativeVerticalPosition.Page;
     shape.Left = (builder.PageSetup.PageWidth - shape.Width) / 2;

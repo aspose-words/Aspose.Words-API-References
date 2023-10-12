@@ -1,14 +1,16 @@
 ---
 title: Class BuildingBlockCollection
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.BuildingBlocks.BuildingBlockCollection sınıf. Bir koleksiyonBuildingBlock belgedeki nesneler.
+description: Aspose.Words.BuildingBlocks.BuildingBlockCollection sınıf. Bir koleksiyonBuildingBlockbelgedeki nesneler.
 type: docs
-weight: 140
+weight: 150
 url: /tr/net/aspose.words.buildingblocks/buildingblockcollection/
 ---
 ## BuildingBlockCollection class
 
-Bir koleksiyon[`BuildingBlock`](../buildingblock/) belgedeki nesneler.
+Bir koleksiyon[`BuildingBlock`](../buildingblock/)belgedeki nesneler.
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Aspose.Words Belge Nesne Modeli (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) dokümantasyon makalesi.
 
 ```csharp
 public class BuildingBlockCollection : NodeCollection
@@ -19,16 +21,16 @@ public class BuildingBlockCollection : NodeCollection
 | İsim | Tanım |
 | --- | --- |
 | [Count](../../aspose.words/nodecollection/count/) { get; } | Koleksiyondaki düğüm sayısını alır. |
-| [Item](../../aspose.words.buildingblocks/buildingblockcollection/item/) { get; } | Verilen dizinde bir yapı taşı alır. (2 indexers) |
+| [Item](../../aspose.words.buildingblocks/buildingblockcollection/item/) { get; } | Verilen dizindeki yapı taşını alır. (2 indexers) |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
 | [Add](../../aspose.words/nodecollection/add/)(Node) | Koleksiyonun sonuna bir düğüm ekler. |
-| [Clear](../../aspose.words/nodecollection/clear/)() | Bu koleksiyondaki ve belgedeki tüm düğümleri kaldırır. |
-| [Contains](../../aspose.words/nodecollection/contains/)(Node) | Koleksiyonda bir düğüm olup olmadığını belirler. |
-| [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Düğüm koleksiyonu üzerinde basit bir "foreach" stili yineleme sağlar. |
+| [Clear](../../aspose.words/nodecollection/clear/)() | Tüm düğümleri bu koleksiyondan ve belgeden kaldırır. |
+| [Contains](../../aspose.words/nodecollection/contains/)(Node) | Bir düğümün koleksiyonda olup olmadığını belirler. |
+| [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Düğümlerin koleksiyonu üzerinde basit bir "foreach" stili yinelemesi sağlar. |
 | [IndexOf](../../aspose.words/nodecollection/indexof/)(Node) | Belirtilen düğümün sıfır tabanlı dizinini döndürür. |
 | [Insert](../../aspose.words/nodecollection/insert/)(int, Node) | Belirtilen dizindeki koleksiyona bir düğüm ekler. |
 | [Remove](../../aspose.words/nodecollection/remove/)(Node) | Düğümü koleksiyondan ve belgeden kaldırır. |
@@ -37,11 +39,11 @@ public class BuildingBlockCollection : NodeCollection
 
 ### Notlar
 
-Bu sınıfın örneklerini doğrudan oluşturmazsınız. yapı taşı koleksiyonuna erişmek için[`BuildingBlocks`](../glossarydocument/buildingblocks/) Emlak.
+Bu sınıfın örneklerini doğrudan oluşturmazsınız. yapı taşı koleksiyonuna erişmek için şunu kullanın:[`BuildingBlocks`](../glossarydocument/buildingblocks/) mülk.
 
 ### Örnekler
 
-Sözlük belgesindeki yapı taşlarına erişmenin yollarını gösterir.
+Bir sözlük belgesinde yapı taşlarına erişmenin yollarını gösterir.
 
 ```csharp
 public void GlossaryDocument()
@@ -68,24 +70,23 @@ public void GlossaryDocument()
     Assert.AreEqual("Block 2", glossaryDoc.BuildingBlocks[1].Name);
     Assert.AreEqual("Block 3", glossaryDoc.BuildingBlocks.ToArray()[2].Name);
 
-    // 3 - Bir galeri, ad ve kategoriyle eşleşen ilk yapı taşını alın:
+    // 3 - Galeri, ad ve kategoriyle eşleşen ilk yapı taşını alın:
     Assert.AreEqual("Block 4", 
         glossaryDoc.GetBuildingBlock(BuildingBlockGallery.All, "(Empty Category)", "Block 4").Name);
 
     // Bunu özel bir ziyaretçi kullanarak yapacağız,
-    // GlossaryDocument'taki her BuildingBlock'a benzersiz bir GUID verecek
+    // bu, GlossaryDocument'teki her BuildingBlock'a benzersiz bir GUID verecektir
     GlossaryDocVisitor visitor = new GlossaryDocVisitor();
     glossaryDoc.Accept(visitor);
-
     Console.WriteLine(visitor.GetText());
 
-    // Microsoft Word'de yapı taşlarına "Ekle" -> "Hızlı Parçalar" -> "Yapı Taşları Organizatör".
+    // Microsoft Word'de yapı taşlarına "Ekle" --> aracılığıyla erişebiliriz. "Hızlı Parçalar" -> "Yapı Taşları Organizatörü".
     doc.Save(ArtifactsDir + "BuildingBlocks.GlossaryDocument.dotx"); 
 }
 
 /// <summary>
 /// Ziyaret edilen bir sözlük belgesindeki her yapı taşına benzersiz bir GUID verir.
-/// GUID yapı taşı çiftlerini bir sözlükte saklar.
+/// GUID yapı bloğu çiftlerini bir sözlükte saklar.
 /// </summary>
 public class GlossaryDocVisitor : DocumentVisitor
 {

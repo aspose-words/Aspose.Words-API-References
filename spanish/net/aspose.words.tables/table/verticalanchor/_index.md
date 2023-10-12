@@ -29,11 +29,11 @@ if (table.TextWrapping == TextWrapping.Around)
     Assert.AreEqual(RelativeVerticalPosition.Paragraph, table.VerticalAnchor);
     Assert.AreEqual(false, table.AllowOverlap);
 
-    // Solo Margen, Página, Columna disponibles en RelativeHorizontalPosition para el setter HorizontalAnchor.
+    // Solo Margen, Página y Columna están disponibles en RelativeHorizontalPosition para el configurador HorizontalAnchor.
     // Se lanzará ArgumentException para cualquier otro valor.
     table.HorizontalAnchor = RelativeHorizontalPosition.Column;
 
-    // Solo Margen, Página, Párrafo disponible en RelativeVerticalPosition para el setter VerticalAnchor.
+    // Solo Margen, Página y Párrafo están disponibles en RelativeVerticalPosition para el configurador VerticalAnchor.
     // Se lanzará ArgumentException para cualquier otro valor.
     table.VerticalAnchor = RelativeVerticalPosition.Page;
 }

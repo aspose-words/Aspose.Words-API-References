@@ -16,7 +16,7 @@ public PreferredWidthType Type { get; }
 
 ### 例子
 
-显示如何验证表格单元格的首选宽度类型和值。
+演示如何验证表格单元格的首选宽度类型和值。
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");

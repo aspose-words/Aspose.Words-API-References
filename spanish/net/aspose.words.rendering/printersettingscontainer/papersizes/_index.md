@@ -16,7 +16,7 @@ public PaperSizeCollection PaperSizes { get; }
 
 ### Ejemplos
 
-Muestra cómo acceder y enumerar las fuentes y tamaños de papel de su impresora.
+Muestra cómo acceder y enumerar los orígenes y tamaños del papel de su impresora.
 
 ```csharp
 // El "PrinterSettingsContainer" contiene un objeto "PrinterSettings",
@@ -31,12 +31,12 @@ foreach (PaperSource paperSource in container.PaperSources)
                       $"RawKind: {paperSource.RawKind} {(isDefault ? "(Default)" : "")}");
 }
 
-// La propiedad "PaperSizes" contiene la lista de tamaños de papel para indicarle a la impresora que los use.
+// La propiedad "PaperSizes" contiene la lista de tamaños de papel que se deben indicar a la impresora.
 // Tanto PrinterSource como PrinterSize contienen una propiedad "RawKind",
-// lo que equivale a un tipo de papel que figura en la enumeración PaperSourceKind.
+// que equivale a un tipo de papel que figura en la enumeración PaperSourceKind.
 // Si hay una fuente de papel con el mismo valor "RawKind" que el de la página de impresión,
-// la impresora imprimirá la página utilizando la fuente y el tamaño de papel proporcionados.
-// De lo contrario, la impresora utilizará de forma predeterminada el origen designado por la propiedad "DefaultPageSettingsPaperSource".
+// la impresora imprimirá la página utilizando la fuente y el tamaño del papel proporcionados.
+// De lo contrario, la impresora utilizará de forma predeterminada la fuente designada por la propiedad "DefaultPageSettingsPaperSource".
 Console.WriteLine($"{container.PaperSizes.Count} paper sizes:");
 foreach (System.Drawing.Printing.PaperSize paperSize in container.PaperSizes)
 {

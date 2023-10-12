@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.FootnoteLayoutLikeWW8
 second_title: Aspose.Words لمراجع .NET API
-description: CompatibilityOptions ملكية. محاكاة وضع الحاشية السفلية في Word 6.x / 95/97.
+description: CompatibilityOptions ملكية. محاكاة موضع الحاشية السفلية في Word 6.x/95/97.
 type: docs
 weight: 260
 url: /ar/net/aspose.words.settings/compatibilityoptions/footnotelayoutlikeww8/
 ---
 ## CompatibilityOptions.FootnoteLayoutLikeWW8 property
 
-محاكاة وضع الحاشية السفلية في Word 6.x / 95/97.
+محاكاة موضع الحاشية السفلية في Word 6.x/95/97.
 
 ```csharp
 public bool FootnoteLayoutLikeWW8 { get; set; }

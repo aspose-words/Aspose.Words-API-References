@@ -1,14 +1,14 @@
 ---
 title: PreferredWidth.Equals
 second_title: Aspose.Words för .NET API Referens
-description: PreferredWidth metod. Bestämmer om den angivna PreferredWidth är lika i värde med den aktuella PreferredWidth.
+description: PreferredWidth metod. Bestämmer om den angivnaPreferredWidth är lika i värde med strömmenPreferredWidth .
 type: docs
 weight: 60
 url: /sv/net/aspose.words.tables/preferredwidth/equals/
 ---
 ## Equals(PreferredWidth) {#equals}
 
-Bestämmer om den angivna PreferredWidth är lika i värde med den aktuella PreferredWidth.
+Bestämmer om den angivna[`PreferredWidth`](../) är lika i värde med strömmen[`PreferredWidth`](../) .
 
 ```csharp
 public bool Equals(PreferredWidth other)

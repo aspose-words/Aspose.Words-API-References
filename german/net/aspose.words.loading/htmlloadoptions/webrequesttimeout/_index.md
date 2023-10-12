@@ -1,14 +1,14 @@
 ---
 title: HtmlLoadOptions.WebRequestTimeout
 second_title: Aspose.Words für .NET-API-Referenz
-description: HtmlLoadOptions eigendom. Die Anzahl der zu wartenden Millisekunden bevor die Webanforderung abläuft. Der Standardwert ist 100000 Millisekunden 100 Sekunden.
+description: HtmlLoadOptions eigendom. Die Anzahl der Millisekunden die gewartet werden muss bevor die Webanforderung abläuft. Der Standardwert ist 100000 Millisekunden 100 Sekunden.
 type: docs
 weight: 70
 url: /de/net/aspose.words.loading/htmlloadoptions/webrequesttimeout/
 ---
 ## HtmlLoadOptions.WebRequestTimeout property
 
-Die Anzahl der zu wartenden Millisekunden, bevor die Webanforderung abläuft. Der Standardwert ist 100000 Millisekunden (100 Sekunden).
+Die Anzahl der Millisekunden, die gewartet werden muss, bevor die Webanforderung abläuft. Der Standardwert ist 100000 Millisekunden (100 Sekunden).
 
 ```csharp
 public int WebRequestTimeout { get; set; }
@@ -16,44 +16,45 @@ public int WebRequestTimeout { get; set; }
 
 ### Bemerkungen
 
-Die Anzahl der Millisekunden, die Aspose.Words auf eine Antwort wartet, wenn externe Ressourcen (Bilder, style Sheets) geladen werden, die in HTML- und MHTML-Dokumenten verlinkt sind.
+Die Anzahl der Millisekunden, die Aspose.Words auf eine Antwort wartet, wenn externe Ressourcen (Bilder, Stilblätter) geladen werden, die in HTML- und MHTML-Dokumenten verknüpft sind.
 
 ### Beispiele
 
-Zeigt, wie Sie ein Zeitlimit für Webanfragen festlegen, wenn Sie ein Dokument mit externen Ressourcen laden, die über URLs verknüpft sind.
+Zeigt, wie man beim Laden eines Dokuments mit externen Ressourcen, die über URLs verknüpft sind, ein Zeitlimit für Webanfragen festlegt.
 
 ```csharp
+public void WebRequestTimeout()
 {
     // Erstellen Sie ein neues HtmlLoadOptions-Objekt und überprüfen Sie seinen Timeout-Schwellenwert für eine Webanforderung.
     HtmlLoadOptions options = new HtmlLoadOptions();
 
     // Beim Laden eines HTML-Dokuments mit Ressourcen, die extern durch eine Webadressen-URL verknüpft sind,
-    // Aspose.Words bricht Webanfragen ab, die die Ressourcen nicht innerhalb dieses Zeitlimits in Millisekunden abrufen können.
+    // Aspose.Words bricht Webanfragen ab, die die Ressourcen nicht innerhalb dieses Zeitlimits (in Millisekunden) abrufen können.
     Assert.AreEqual(100000, options.WebRequestTimeout);
 
-    // Setzen Sie einen WarningCallback, der alle Warnungen aufzeichnet, die während des Ladens auftreten.
+    // Legen Sie einen WarningCallback fest, der alle Warnungen aufzeichnet, die während des Ladevorgangs auftreten.
     ListDocumentWarnings warningCallback = new ListDocumentWarnings();
     options.WarningCallback = warningCallback;
 
     // Laden Sie ein solches Dokument und überprüfen Sie, ob eine Form mit Bilddaten erstellt wurde.
-    // Zum Laden dieses verlinkten Bildes ist eine Webanfrage erforderlich, die innerhalb unseres Zeitlimits abgeschlossen sein muss.
+    // Für das Laden dieses verlinkten Bildes ist eine Webanforderung erforderlich, die innerhalb unseres Zeitlimits abgeschlossen werden muss.
     string html = $@"
         <html>
             <img src=""{ImageUrl}"" alt=""Aspose logo"" style=""width:400px;height:400px;"">
         </html>
     ";
 
-    // Legen Sie ein unangemessenes Timeout-Limit fest und versuchen Sie, das Dokument erneut zu laden.
+    // Legen Sie ein unangemessenes Zeitlimit fest und versuchen Sie erneut, das Dokument zu laden.
     options.WebRequestTimeout = 0;
     Document doc = new Document(new MemoryStream(Encoding.UTF8.GetBytes(html)), options);
     Assert.AreEqual(2, warningCallback.Warnings().Count);
 
-    // Eine Webanforderung, die innerhalb des Zeitlimits kein Bild erhält, erzeugt dennoch ein Bild.
-    // Das Bild wird jedoch das rote 'x' sein, das üblicherweise fehlende Bilder anzeigt.
+    // Eine Webanfrage, die innerhalb des Zeitlimits kein Bild erhält, erzeugt trotzdem ein Bild.
+    // Das Bild wird jedoch das rote „x“ sein, das üblicherweise auf fehlende Bilder hinweist.
     Shape imageShape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
     Assert.AreEqual(924, imageShape.ImageData.ImageBytes.Length);
 
-    // Wir können auch einen benutzerdefinierten Rückruf konfigurieren, um alle Warnungen von Webanfragen mit Zeitüberschreitung abzufangen.
+    // Wir können auch einen benutzerdefinierten Rückruf konfigurieren, um Warnungen von Webanfragen mit Zeitüberschreitung abzurufen.
     Assert.AreEqual(WarningSource.Html, warningCallback.Warnings()[0].Source);
     Assert.AreEqual(WarningType.DataLoss, warningCallback.Warnings()[0].WarningType);
     Assert.AreEqual($"Couldn't load a resource from \'{ImageUrl}\'.", warningCallback.Warnings()[0].Description);

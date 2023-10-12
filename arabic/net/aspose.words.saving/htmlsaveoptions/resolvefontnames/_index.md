@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.ResolveFontNames
 second_title: Aspose.Words لمراجع .NET API
-description: HtmlSaveOptions ملكية. يحدد ما إذا كانت أسماء عائلة الخط المستخدمة في المستند سيتم حلها واستبدالها وفقًا لـ FontSettings عند كتابتها في تنسيقات تستند إلى HTML.
+description: HtmlSaveOptions ملكية. يحدد ما إذا كان سيتم حل أسماء مجموعة الخطوط المستخدمة في المستند واستبدالها وفقًا لـ FontSettings عند كتابتها بتنسيقات مستندة إلى HTML.
 type: docs
 weight: 410
 url: /ar/net/aspose.words.saving/htmlsaveoptions/resolvefontnames/
 ---
 ## HtmlSaveOptions.ResolveFontNames property
 
-يحدد ما إذا كانت أسماء عائلة الخط المستخدمة في المستند سيتم حلها واستبدالها وفقًا لـ [`FontSettings`](../../../aspose.words/document/fontsettings/) عند كتابتها في تنسيقات تستند إلى HTML.
+يحدد ما إذا كان سيتم حل أسماء مجموعة الخطوط المستخدمة في المستند واستبدالها وفقًا لـ [`FontSettings`](../../../aspose.words/document/fontsettings/) عند كتابتها بتنسيقات مستندة إلى HTML.
 
 ```csharp
 public bool ResolveFontNames { get; set; }
@@ -16,9 +16,9 @@ public bool ResolveFontNames { get; set; }
 
 ### ملاحظات
 
-بشكل افتراضي ، يتم تعيين هذا الخيار على`خاطئة`وأسماء عائلة الخطوط مكتوبة إلى HTML كما هو محدد في المستندات المصدر. هذا هو،[`FontSettings`](../../../aspose.words/document/fontsettings/) يتم تجاهلها ولا يتم إجراء تحليل أو استبدال لأسماء عائلة الخطوط.
+افتراضيًا، يتم تعيين هذا الخيار على`خطأ شنيع` وتتم كتابة أسماء عائلة الخطوط إلى HTML كما هو محدد في المستندات المصدر. إنه،[`FontSettings`](../../../aspose.words/document/fontsettings/) يتم تجاهلها ولا يتم تنفيذ أي تحليل أو استبدال لأسماء عائلة الخطوط.
 
-إذا تم تعيين هذا الخيار على`حقيقي` يستخدم Aspose.Words[`FontSettings`](../../../aspose.words/document/fontsettings/) لحل كل اسم عائلة خط محدد في مستند مصدر في اسم عائلة خطوط متوفرة ، يتم استبدال الخط على النحو المطلوب.
+إذا تم ضبط هذا الخيار على`حقيقي` ، يستخدم Aspose.Words[`FontSettings`](../../../aspose.words/document/fontsettings/) لتحويل كل اسم عائلة خطوط محدد في مستند مصدر إلى اسم عائلة خطوط متاحة، وإجراء استبدال الخط كما هو مطلوب.
 
 ### أمثلة
 
@@ -27,11 +27,11 @@ public bool ResolveFontNames { get; set; }
 ```csharp
 Document doc = new Document(MyDir + "Missing font.docx");
 
-// يحتوي هذا المستند على نص يسمي خطًا ليس لدينا.
+// يحتوي هذا المستند على نص يُسمي خطًا ليس لدينا.
 Assert.NotNull(doc.FontInfos["28 Days Later"]);
 
-// إذا لم يكن لدينا طريقة للحصول على هذا الخط ، ونريد أن نكون قادرين على عرض كل النص
-// في هذا المستند بإخراج HTML ، يمكننا استبداله بخط آخر.
+// إذا لم يكن لدينا طريقة للحصول على هذا الخط، ونريد أن نكون قادرين على عرض النص بأكمله
+// في هذا المستند في ملف HTML الناتج، يمكننا استبداله بخط آخر.
 FontSettings fontSettings = new FontSettings
 {
     SubstitutionSettings =
@@ -48,7 +48,7 @@ doc.FontSettings = fontSettings;
 
 HtmlSaveOptions saveOptions = new HtmlSaveOptions(SaveFormat.Html)
 {
-    // افتراضيًا ، يتم تعيين هذا الخيار على "False" و Aspose.Words يكتب أسماء الخطوط كما هو محدد في المستند المصدر
+    // افتراضيًا، يتم تعيين هذا الخيار على "False" ويقوم Aspose.Words بكتابة أسماء الخطوط كما هو محدد في المستند المصدر
     ResolveFontNames = resolveFontNames
 };
 

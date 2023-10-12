@@ -1,14 +1,14 @@
 ---
 title: Font.ComplexScript
 second_title: Referencia de API de Aspose.Words para .NET
-description: Font propiedad. Especifica si el contenido de esta ejecución se tratará como texto de secuencia de comandos complejo independientemente de de sus valores de caracteres Unicode al determinar el formato para esta ejecución.
+description: Font propiedad. Especifica si el contenido de esta ejecución se tratará como texto de script complejo independientemente de sus valores de caracteres Unicode al determinar el formato para esta ejecución.
 type: docs
 weight: 80
 url: /es/net/aspose.words/font/complexscript/
 ---
 ## Font.ComplexScript property
 
-Especifica si el contenido de esta ejecución se tratará como texto de secuencia de comandos complejo independientemente de de sus valores de caracteres Unicode al determinar el formato para esta ejecución.
+Especifica si el contenido de esta ejecución se tratará como texto de script complejo independientemente de sus valores de caracteres Unicode al determinar el formato para esta ejecución.
 
 ```csharp
 public bool ComplexScript { get; set; }

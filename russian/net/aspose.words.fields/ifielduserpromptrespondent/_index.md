@@ -1,14 +1,14 @@
 ---
 title: Interface IFieldUserPromptRespondent
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fields.IFieldUserPromptRespondent интерфейс. Представляет ответчика на запросы пользователя во время обновления поля.
+description: Aspose.Words.Fields.IFieldUserPromptRespondent интерфейс. Представляет респондента на запросы пользователя во время обновления поля.
 type: docs
-weight: 2560
+weight: 2740
 url: /ru/net/aspose.words.fields/ifielduserpromptrespondent/
 ---
 ## IFieldUserPromptRespondent interface
 
-Представляет ответчика на запросы пользователя во время обновления поля.
+Представляет респондента на запросы пользователя во время обновления поля.
 
 ```csharp
 public interface IFieldUserPromptRespondent
@@ -18,24 +18,23 @@ public interface IFieldUserPromptRespondent
 
 | Имя | Описание |
 | --- | --- |
-| [Respond](../../aspose.words.fields/ifielduserpromptrespondent/respond/)(string, string) | При реализации возвращает ответ пользователя при запросе. Ваша реализация должна возвращать **нулевой** чтобы указать, что пользователь не ответил на приглашение (т. е. пользователь нажал кнопку «Отмена» в окне приглашения). |
+| [Respond](../../aspose.words.fields/ifielduserpromptrespondent/respond/)(string, string) | При реализации возвращает ответ пользователя на запрос. Ваша реализация должна возвращать`нулевой` чтобы указать, что пользователь не ответил на приглашение (т. е. пользователь нажал кнопку «Отмена» в окне приглашения). |
 
 ### Примечания
 
-Поля ASK и FILLIN являются примерами полей, которые запрашивают у пользователя некоторый ответ. Реализуйте этот интерфейс и назначьте его[`UserPromptRespondent`](../fieldoptions/userpromptrespondent/) свойство для установления взаимодействия между полем update и пользователем.
+Поля ASK и FILLIN являются примерами полей, которые запрашивают у пользователя какой-либо ответ. Реализуйте этот интерфейс и назначьте его[`UserPromptRespondent`](../fieldoptions/userpromptrespondent/) свойство для установления взаимодействия между полем update и пользователем.
 
 ### Примеры
 
-Показывает, как создать поле ASK и задать его свойства.
+Показывает, как создать поле ASK и настроить его свойства.
 
 ```csharp
-[Test]
 public void FieldAsk()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Разместите поле, где будет размещен ответ на наше поле ASK.
+    // Размещаем поле, в котором будет размещен ответ на наше поле ASK.
     FieldRef fieldRef = (FieldRef)builder.InsertField(FieldType.FieldRef, true);
     fieldRef.BookmarkName = "MyAskField";
     builder.Writeln();
@@ -54,7 +53,7 @@ public void FieldAsk()
         " ASK  MyAskField \"Please provide a response for this ASK field\" \\d \"Response from within the field.\" \\o",
         fieldAsk.GetFieldCode());
 
-    // Поля ASK применяют ответ по умолчанию к соответствующим полям REF во время слияния.
+    // Поля ASK применяют ответ по умолчанию к соответствующим полям REF во время слияния почты.
     DataTable table = new DataTable("My Table");
     table.Columns.Add("Column 1");
     table.Rows.Add("Row 1");
@@ -63,16 +62,17 @@ public void FieldAsk()
     FieldMergeField fieldMergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);
     fieldMergeField.FieldName = "Column 1";
 
-    // Мы можем изменить или переопределить ответ по умолчанию в наших полях ASK с помощью пользовательского ответчика на подсказку,
+    // Мы можем изменить или переопределить ответ по умолчанию в наших полях ASK с помощью специального ответчика на приглашение,
     // что произойдет во время слияния почты.
     doc.FieldOptions.UserPromptRespondent = new MyPromptRespondent();
     doc.MailMerge.Execute(table);
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.ASK.docx");
+}
 
 /// <summary>
-/// Добавляет текст к ответу по умолчанию в поле ASK во время слияния.
+/// Добавляет текст к ответу по умолчанию в поле ASK во время слияния почты.
 /// </summary>
 private class MyPromptRespondent : IFieldUserPromptRespondent
 {

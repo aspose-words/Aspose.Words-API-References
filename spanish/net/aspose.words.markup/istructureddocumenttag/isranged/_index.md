@@ -14,6 +14,23 @@ Devuelve verdadero si esta instancia es una etiqueta de documento estructurado p
 public bool IsRanged()
 ```
 
+### Ejemplos
+
+Muestra cómo obtener una etiqueta de documento estructurado.
+
+```csharp
+Document doc = new Document(MyDir + "Structured document tags by id.docx");
+
+// Obtener la etiqueta del documento estructurado por Id.
+IStructuredDocumentTag sdt = doc.Range.StructuredDocumentTags.GetById(1160505028);
+Console.WriteLine(sdt.IsRanged());
+Console.WriteLine(sdt.Title);
+
+// Obtenga la etiqueta del documento estructurado o la etiqueta de rango por Título.
+sdt = doc.Range.StructuredDocumentTags.GetByTitle("Alias4");
+Console.WriteLine(sdt.Id);
+```
+
 ### Ver también
 
 * interface [IStructuredDocumentTag](../)

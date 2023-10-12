@@ -3,7 +3,7 @@ title: Enum ImageType
 second_title: Aspose.Words لمراجع .NET API
 description: Aspose.Words.Drawing.ImageType تعداد. يحدد نوع تنسيق الصورة في مستند Microsoft Word.
 type: docs
-weight: 950
+weight: 1080
 url: /ar/net/aspose.words.drawing/imagetype/
 ---
 ## ImageType enumeration
@@ -18,18 +18,19 @@ public enum ImageType
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| NoImage | `0` | ليست بيانات الصورة . |
+| NoImage | `0` | لا توجد بيانات صورة. |
 | Unknown | `1` | نوع صورة غير معروف أو نوع صورة لا يمكن تخزينه مباشرة داخل مستند Microsoft Word. |
-| Emf | `2` | ملف تعريف محسن لـ Windows . |
+| Emf | `2` | ملف تعريف Windows المحسن. |
 | Wmf | `3` | ملف تعريف Windows. |
-| Pict | `4` | Macintosh PICT. سيتم الاحتفاظ بالصورة الموجودة في المستند ، ولكن لا يتم دعم إدراج صور new PICT في المستند. |
+| Pict | `4` | ماكنتوش PICT. سيتم الاحتفاظ بالصورة الموجودة في المستند، ولكن إدراج صور new PICT في المستند غير مدعوم. |
 | Jpeg | `5` | JPEG JFIF. |
 | Png | `6` | رسومات الشبكة المحمولة. |
-| Bmp | `7` | صورة نقطية لـ Windows . |
+| Bmp | `7` | الصورة النقطية لنظام Windows. |
+| Eps | `8` | بوستسكريبت مغلف. |
 
 ### أمثلة
 
-يوضح كيفية إضافة صورة إلى شكل والتحقق من نوعه.
+يوضح كيفية إضافة صورة إلى شكل والتحقق من نوعها.
 
 ```csharp
 Document doc = new Document();
@@ -41,7 +42,7 @@ using (MemoryStream stream = new MemoryStream(imageBytes))
 {
     Image image = Image.FromStream(stream);
 
-    // الصورة في عنوان URL هي ملف gif. يؤدي إدراجه في مستند إلى تحويله إلى ملف png.
+    // الصورة الموجودة في عنوان URL هي .gif. يؤدي إدراجه في مستند إلى تحويله إلى ملف .png.
     Shape imgShape = builder.InsertImage(image);
     Assert.AreEqual(ImageType.Jpeg, imgShape.ImageData.ImageType);
 }

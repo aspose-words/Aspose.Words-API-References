@@ -1,14 +1,14 @@
 ---
 title: Enum ImageBinarizationMethod
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Saving.ImageBinarizationMethod перечисление. Определяет метод используемый для бинаризации изображения.
+description: Aspose.Words.Saving.ImageBinarizationMethod перечисление. Указывает метод используемый для бинаризации изображения.
 type: docs
-weight: 4940
+weight: 5200
 url: /ru/net/aspose.words.saving/imagebinarizationmethod/
 ---
 ## ImageBinarizationMethod enumeration
 
-Определяет метод, используемый для бинаризации изображения.
+Указывает метод, используемый для бинаризации изображения.
 
 ```csharp
 public enum ImageBinarizationMethod
@@ -18,12 +18,12 @@ public enum ImageBinarizationMethod
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| Threshold | `0` | Задает пороговый метод. |
-| FloydSteinbergDithering | `1` | Задает сглаживание с использованием метода распространения ошибок Флойда-Стейнберга. |
+| Threshold | `0` | Определяет пороговый метод. |
+| FloydSteinbergDithering | `1` | Определяет сглаживание с использованием метода диффузии ошибок Флойда-Стейнберга. |
 
 ### Примеры
 
-Показывает, как установить порог ошибки бинаризации TIFF при использовании метода Флойда-Стейнберга для визуализации изображения TIFF.
+Показывает, как установить порог ошибки бинаризации TIFF при использовании метода Флойда-Стейнберга для рендеринга изображения TIFF.
 
 ```csharp
 Document doc = new Document();
@@ -34,9 +34,9 @@ builder.Writeln("Hello world!");
 builder.InsertImage(ImageDir + "Logo.jpg");
 
 // Когда мы сохраняем документ в формате TIFF, мы можем передать объект SaveOptions в
-// настроить сглаживание, которое Aspose.Words будет применять при рендеринге этого изображения.
-// Значение свойства ThresholdForFloydSteinbergDithering по умолчанию равно 128.
-// Чем выше значение, тем темнее изображение.
+// корректируем сглаживание, которое Aspose.Words будет применять при рендеринге этого изображения.
+// Значение по умолчанию свойства ThresholdForFloydSteinbergDithering — 128.
+// Более высокие значения приводят к более темным изображениям.
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Tiff)
 {
     TiffCompression = TiffCompression.Ccitt3,

@@ -16,7 +16,7 @@ public string Reason { get; set; }
 
 ### Anmärkningar
 
-Standardvärdet är null.
+Standardvärdet är`null` .
 
 ### Exempel
 
@@ -35,14 +35,14 @@ PdfSaveOptions options = new PdfSaveOptions();
 
 // Konfigurera "DigitalSignatureDetails"-objektet för "SaveOptions"-objektet till
 // signera dokumentet digitalt när vi renderar det med "Spara"-metoden.
-DateTime signingTime = DateTime.Now;
+DateTime signingTime = new DateTime(2015, 7, 20);
 options.DigitalSignatureDetails =
     new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "My Office", signingTime);
-options.DigitalSignatureDetails.HashAlgorithm = PdfDigitalSignatureHashAlgorithm.Sha256;
+options.DigitalSignatureDetails.HashAlgorithm = PdfDigitalSignatureHashAlgorithm.RipeMD160;
 
 Assert.AreEqual("Test Signing", options.DigitalSignatureDetails.Reason);
 Assert.AreEqual("My Office", options.DigitalSignatureDetails.Location);
-Assert.AreEqual(signingTime.ToUniversalTime(), options.DigitalSignatureDetails.SignatureDate.ToUniversalTime());
+Assert.AreEqual(signingTime, options.DigitalSignatureDetails.SignatureDate.ToLocalTime());
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 ```

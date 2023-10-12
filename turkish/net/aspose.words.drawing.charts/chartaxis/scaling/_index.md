@@ -1,14 +1,14 @@
 ---
 title: ChartAxis.Scaling
 second_title: Aspose.Words for .NET API Referansı
-description: ChartAxis mülk. Eksenin ölçekleme seçeneklerine erişim sağlar.
+description: ChartAxis mülk. Eksenin ölçeklendirme seçeneklerine erişim sağlar.
 type: docs
-weight: 190
+weight: 210
 url: /tr/net/aspose.words.drawing.charts/chartaxis/scaling/
 ---
 ## ChartAxis.Scaling property
 
-Eksenin ölçekleme seçeneklerine erişim sağlar.
+Eksenin ölçeklendirme seçeneklerine erişim sağlar.
 
 ```csharp
 public AxisScaling Scaling { get; }
@@ -37,17 +37,19 @@ chart.Series.Add("Aspose Test Series",
     },
     new[] { 1.2, 0.3, 2.1, 2.9, 4.2, 5.3 });
 
-// X ekseni için alt ve üst sınırları ayarlayın.
+// X ekseninin alt ve üst sınırlarını ayarlayın.
 ChartAxis xAxis = chart.AxisX;
 xAxis.Scaling.Minimum = new AxisBound(new DateTime(2017, 11, 05).ToOADate());
 xAxis.Scaling.Maximum = new AxisBound(new DateTime(2017, 12, 03));
 
-// X ekseninin ana birimlerini bir haftaya ve küçük birimleri bir güne ayarlayın.
+// X ekseninin ana birimlerini bir haftaya, küçük birimlerini ise bir güne ayarlayın.
 xAxis.BaseTimeUnit = AxisTimeUnit.Days;
 xAxis.MajorUnit = 7.0d;
 xAxis.MajorTickMark = AxisTickMark.Cross;
 xAxis.MinorUnit = 1.0d;
 xAxis.MinorTickMark = AxisTickMark.Outside;
+xAxis.HasMajorGridlines = true;
+xAxis.HasMinorGridlines = true;
 
 // Ondalık değerler için Y ekseni özelliklerini tanımlayın.
 ChartAxis yAxis = chart.AxisY;
@@ -57,6 +59,8 @@ yAxis.MinorUnit = 50.0d;
 yAxis.DisplayUnit.Unit = AxisBuiltInUnit.Hundreds;
 yAxis.Scaling.Minimum = new AxisBound(100);
 yAxis.Scaling.Maximum = new AxisBound(700);
+yAxis.HasMajorGridlines = true;
+yAxis.HasMinorGridlines = true;
 
 doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 ```

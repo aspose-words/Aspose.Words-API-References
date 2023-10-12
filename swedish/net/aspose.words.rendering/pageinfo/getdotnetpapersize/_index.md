@@ -3,7 +3,7 @@ title: PageInfo.GetDotNetPaperSize
 second_title: Aspose.Words för .NET API Referens
 description: PageInfo metod. FårPaperSize objekt som är lämpligt för utskrift sidan som representeras av dettaPageInfo .
 type: docs
-weight: 70
+weight: 80
 url: /sv/net/aspose.words.rendering/pageinfo/getdotnetpapersize/
 ---
 ## PageInfo.GetDotNetPaperSize method
@@ -70,14 +70,14 @@ public class MyPrintDocument : PrintDocument
     }
 
     /// <summary>
-    /// Anropas innan varje sida skrivs ut. 
+     /// Anropas innan varje sida skrivs ut.
     /// </summary>
     protected override void OnQueryPageSettings(QueryPageSettingsEventArgs e)
     {
         base.OnQueryPageSettings(e);
 
-        // Ett enda Microsoft Word-dokument kan ha flera avsnitt som anger sidor med olika storlekar, 
-        // orienteringar och pappersfack. .NET-utskriftsramverket anropar denna kod tidigare 
+         // Ett enda Microsoft Word-dokument kan ha flera avsnitt som anger sidor med olika storlekar,
+         // orienteringar och pappersfack. .NET-utskriftsramverket anropar denna kod tidigare
         // varje sida skrivs ut, vilket ger oss en chans att specificera hur den aktuella sidan ska skrivas ut.
         PageInfo pageInfo = mDocument.GetPageInfo(mCurrentPage - 1);
         e.PageSettings.PaperSize = pageInfo.GetDotNetPaperSize(PrinterSettings.PaperSizes);
@@ -89,7 +89,7 @@ public class MyPrintDocument : PrintDocument
     }
 
     /// <summary>
-    /// Kallas för varje sida för att göra den för utskrift. 
+     /// Kallas för varje sida för att göra den för utskrift.
     /// </summary>
     protected override void OnPrintPage(PrintPageEventArgs e)
     {

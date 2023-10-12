@@ -22,10 +22,10 @@ Mostra come leggere le proprietà di un'immagine in una forma.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inserisce una forma nel documento che contiene un'immagine presa dal nostro file system locale.
+// Inserisci una forma nel documento che contiene un'immagine presa dal nostro file system locale.
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 
-// Se la forma contiene un'immagine, la relativa proprietà ImageData sarà valida,
+// Se la forma contiene un'immagine, la sua proprietà ImageData sarà valida,
 // e conterrà un oggetto ImageSize.
 ImageSize imageSize = shape.ImageData.ImageSize; 
 

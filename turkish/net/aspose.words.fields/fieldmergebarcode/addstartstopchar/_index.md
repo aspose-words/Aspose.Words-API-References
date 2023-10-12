@@ -1,14 +1,14 @@
 ---
 title: FieldMergeBarcode.AddStartStopChar
 second_title: Aspose.Words for .NET API Referansı
-description: FieldMergeBarcode mülk. Barkod türleri NW7 ve CODE39 için Başlat/Durdur karakterlerinin eklenip eklenmeyeceğini alır veya ayarlar.
+description: FieldMergeBarcode mülk. NW7 ve CODE39 barkod türleri için Başlat/Durdur karakterlerinin eklenip eklenmeyeceğini alır veya ayarlar.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fieldmergebarcode/addstartstopchar/
 ---
 ## FieldMergeBarcode.AddStartStopChar property
 
-Barkod türleri NW7 ve CODE39 için Başlat/Durdur karakterlerinin eklenip eklenmeyeceğini alır veya ayarlar.
+NW7 ve CODE39 barkod türleri için Başlat/Durdur karakterlerinin eklenip eklenmeyeceğini alır veya ayarlar.
 
 ```csharp
 public bool AddStartStopChar { get; set; }
@@ -16,28 +16,28 @@ public bool AddStartStopChar { get; set; }
 
 ### Örnekler
 
-CODE39 barkodlarında adres mektup birleştirmenin nasıl gerçekleştirileceğini gösterir.
+CODE39 barkodlarında adres-mektup birleştirmenin nasıl gerçekleştirileceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Adres mektup birleştirme sırasında bir veri kaynağından değerleri kabul edecek bir MERGEBARCODE alanı ekleyin.
-// Bu alan, bir birleştirme veri kaynağının "MyCODE39Barcode" sütunundaki tüm değerleri CODE39 barkodlarına dönüştürür.
+// Adres-mektup birleştirme sırasında veri kaynağından gelen değerleri kabul edecek bir MERGEBARCODE alanı ekleyin.
+// Bu alan, birleştirme veri kaynağının "MyCODE39Barcode" sütunundaki tüm değerleri CODE39 barkodlarına dönüştürecektir.
 FieldMergeBarcode field = (FieldMergeBarcode)builder.InsertField(FieldType.FieldMergeBarcode, true);
 field.BarcodeType = "CODE39";
 field.BarcodeValue = "MyCODE39Barcode";
 
-// Başlat/durdur karakterlerini görüntülemek için görünümünü düzenleyin.
+// Başlangıç/durdurma karakterlerini görüntülemek için görünümünü düzenleyin.
 field.AddStartStopChar = true;
 
 Assert.AreEqual(FieldType.FieldMergeBarcode, field.Type);
 Assert.AreEqual(" MERGEBARCODE  MyCODE39Barcode CODE39 \\d", field.GetFieldCode());
 builder.Writeln();
 
-// MERGEBARCODE alanımızın BarcodeValue ile aynı ada sahip bir sütunu olan bir DataTable oluşturun.
-// Adres mektup birleştirme, her satır için yeni bir sayfa oluşturacaktır. Her sayfa bir EKRAN BARKOD alanı içerecektir,
-// birleştirilmiş satırdaki değerle birlikte bir CODE39 barkodu görüntüleyecektir.
+// MERGEBARCODE alanımızın BarcodeValue değeriyle aynı adı taşıyan bir sütuna sahip bir DataTable oluşturun.
+// Adres-mektup birleştirme her satır için yeni bir sayfa oluşturacaktır. Her sayfada bir DISPLAYBARCODE alanı bulunacaktır.
+// birleştirilmiş satırdaki değerle birlikte CODE39 barkodunu görüntüleyecektir.
 DataTable table = new DataTable("Barcodes");
 table.Columns.Add("MyCODE39Barcode");
 table.Rows.Add(new[] { "12345ABCDE" });

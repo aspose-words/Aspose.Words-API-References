@@ -1,14 +1,14 @@
 ---
 title: Enum MailMergeDataType
 second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Settings.MailMergeDataType enum. Specifica il tipo di unorigine dati per la stampa unione esterna.
+description: Aspose.Words.Settings.MailMergeDataType enum. Specifica il tipo di unorigine dati di stampa unione esterna.
 type: docs
-weight: 5520
+weight: 5820
 url: /it/net/aspose.words.settings/mailmergedatatype/
 ---
 ## MailMergeDataType enumeration
 
-Specifica il tipo di un'origine dati per la stampa unione esterna.
+Specifica il tipo di un'origine dati di stampa unione esterna.
 
 ```csharp
 public enum MailMergeDataType
@@ -18,10 +18,10 @@ public enum MailMergeDataType
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| None | `-1` | Nessuna origine dati per la stampa unione specificata. |
-| TextFile | `0` | Specifica che un determinato documento è stato connesso a un file di testo tramite il sistema DDE (Dynamic Data Exchange). |
-| Database | `1` | Specifica che un determinato documento è stato connesso a un database di Access tramite il sistema DDE (Dynamic Data Exchange). |
-| Spreadsheet | `2` | Specifica che un determinato documento è stato collegato a un foglio di calcolo Excel tramite il sistema DDE (Dynamic Data Exchange). |
+| None | `-1` | Nessuna origine dati di stampa unione specificata. |
+| TextFile | `0` | Specifica che un determinato documento è stato collegato a un file di testo tramite il sistema Dynamic Data Exchange (DDE). |
+| Database | `1` | Specifica che un determinato documento è stato connesso a un database Access tramite il sistema Dynamic Data Exchange (DDE). |
+| Spreadsheet | `2` | Specifica che un determinato documento è stato collegato a un foglio di calcolo Excel tramite il sistema Dynamic Data Exchange (DDE). |
 | Query | `3` | Specifica che un determinato documento è stato connesso a un'origine dati esterna utilizzando uno strumento di query esterno. |
 | Odbc | `4` | Specifica che un determinato documento è stato connesso a un'origine dati esterna tramite l'interfaccia Open Database Connectivity. |
 | Native | `5` | Specifica che un determinato documento è stato connesso a un'origine dati esterna tramite l'interfaccia ODSO (Office Data Source Object). |
@@ -72,7 +72,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
-// L'apertura di questo documento in Microsoft Word eseguirà la stampa unione prima di visualizzare il contenuto. 
+ // L'apertura di questo documento in Microsoft Word eseguirà la stampa unione prima di visualizzarne il contenuto.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

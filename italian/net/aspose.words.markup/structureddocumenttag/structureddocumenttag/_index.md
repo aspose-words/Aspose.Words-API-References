@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTag.StructuredDocumentTag
 second_title: Aspose.Words per .NET API Reference
-description: StructuredDocumentTag costruttore. Inizializza una nuova istanza di Tag del documento strutturato classe.
+description: StructuredDocumentTag costruttore. Inizializza una nuova istanza di Tag documento strutturato classe.
 type: docs
 weight: 10
 url: /it/net/aspose.words.markup/structureddocumenttag/structureddocumenttag/
 ---
 ## StructuredDocumentTag constructor
 
-Inizializza una nuova istanza di **Tag del documento strutturato** classe.
+Inizializza una nuova istanza di **Tag documento strutturato** classe.
 
 ```csharp
 public StructuredDocumentTag(DocumentBase doc, SdtType type, MarkupLevel level)
@@ -45,7 +45,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 StructuredDocumentTag sdtCheckBox =
     new StructuredDocumentTag(doc, SdtType.Checkbox, MarkupLevel.Inline) {Checked = true};
 
-// Possiamo impostare i simboli utilizzati per rappresentare lo stato selezionato/deselezionato di un controllo del contenuto di una casella di controllo.
+// Possiamo impostare i simboli utilizzati per rappresentare lo stato selezionato/non selezionato di un controllo del contenuto di una casella di controllo.
 sdtCheckBox.SetCheckedSymbol(0x00A9, "Times New Roman");
 sdtCheckBox.SetUncheckedSymbol(0x00AE, "Times New Roman");
 

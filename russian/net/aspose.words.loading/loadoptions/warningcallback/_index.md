@@ -1,14 +1,14 @@
 ---
 title: LoadOptions.WarningCallback
 second_title: Справочник по API Aspose.Words для .NET
-description: LoadOptions свойство. Вызывается во время операции загрузки при обнаружении проблемы которая может привести к потере точности данных или форматирования.
+description: LoadOptions свойство. Вызывается во время операции загрузки когда обнаруживается проблема которая может привести к потере точности данных или форматирования.
 type: docs
 weight: 170
 url: /ru/net/aspose.words.loading/loadoptions/warningcallback/
 ---
 ## LoadOptions.WarningCallback property
 
-Вызывается во время операции загрузки при обнаружении проблемы, которая может привести к потере точности данных или форматирования.
+Вызывается во время операции загрузки, когда обнаруживается проблема, которая может привести к потере точности данных или форматирования.
 
 ```csharp
 public IWarningCallback WarningCallback { get; set; }
@@ -16,23 +16,25 @@ public IWarningCallback WarningCallback { get; set; }
 
 ### Примеры
 
-Показывает, как распечатать и сохранить предупреждения, возникающие при загрузке документа.
+Показывает, как печатать и сохранять предупреждения, возникающие во время загрузки документа.
 
 ```csharp
+public void LoadOptionsWarningCallback()
 {
     // Создаем новый объект LoadOptions и устанавливаем его атрибут WarningCallback
     // как экземпляр нашей реализации IWarningCallback.
     LoadOptions loadOptions = new LoadOptions();
     loadOptions.WarningCallback = new DocumentLoadingWarningCallback();
 
-    // Наш обратный вызов напечатает все предупреждения, которые появляются во время операции загрузки.
+    // Наш обратный вызов будет печатать все предупреждения, возникающие во время операции загрузки.
     Document doc = new Document(MyDir + "Document.docx", loadOptions);
 
     List<WarningInfo> warnings = ((DocumentLoadingWarningCallback)loadOptions.WarningCallback).GetWarnings();
     Assert.AreEqual(3, warnings.Count);
+}
 
 /// <summary>
-/// IWarningCallback, который выводит предупреждения и их детали по мере их возникновения во время загрузки документа.
+/// IWarningCallback, который печатает предупреждения и их подробную информацию по мере их возникновения во время загрузки документа.
 /// </summary>
 private class DocumentLoadingWarningCallback : IWarningCallback
 {

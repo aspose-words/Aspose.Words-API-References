@@ -1,14 +1,14 @@
 ---
 title: FieldChar.FieldType
 second_title: Aspose.Words für .NET-API-Referenz
-description: FieldChar eigendom. Gibt den Feldtyp zurück.
+description: FieldChar eigendom. Gibt den Typ des Feldes zurück.
 type: docs
 weight: 10
 url: /de/net/aspose.words.fields/fieldchar/fieldtype/
 ---
 ## FieldChar.FieldType property
 
-Gibt den Feldtyp zurück.
+Gibt den Typ des Feldes zurück.
 
 ```csharp
 public FieldType FieldType { get; }
@@ -38,7 +38,7 @@ field = (FieldDate)fieldStart.GetField();
 Assert.AreEqual(false, field.IsLocked);
 Assert.AreEqual(" DATE  \\@ \"dddd, MMMM dd, yyyy\"", field.GetFieldCode());
 
-// Aktualisieren Sie das Feld, um das aktuelle Datum anzuzeigen.
+// Feld aktualisieren, um das aktuelle Datum anzuzeigen.
 field.Update();
 ```
 

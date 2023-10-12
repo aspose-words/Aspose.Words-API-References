@@ -1,14 +1,14 @@
 ---
 title: Font.ThemeColor
 second_title: Aspose.Words för .NET API Referens
-description: Font fast egendom. Hämtar eller ställer in temafärgen i det tillämpade färgschemat som är associerat med detta Fontobjekt.
+description: Font fast egendom. Hämtar eller ställer in temafärgen i det tillämpade färgschemat som är associerat med dettaFont objekt.
 type: docs
 weight: 460
 url: /sv/net/aspose.words/font/themecolor/
 ---
 ## Font.ThemeColor property
 
-Hämtar eller ställer in temafärgen i det tillämpade färgschemat som är associerat med detta Font-objekt.
+Hämtar eller ställer in temafärgen i det tillämpade färgschemat som är associerat med detta[`Font`](../) objekt.
 
 ```csharp
 public ThemeColor ThemeColor { get; set; }

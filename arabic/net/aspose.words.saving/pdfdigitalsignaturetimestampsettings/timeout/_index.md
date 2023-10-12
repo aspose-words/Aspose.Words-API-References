@@ -16,42 +16,42 @@ public TimeSpan Timeout { get; set; }
 
 ### ملاحظات
 
-القيمة الافتراضية هي 100 ثانية .
+القيمة الافتراضية هي 100 ثانية.
 
 ### أمثلة
 
-يوضح كيفية توقيع مستند PDF محفوظ رقميًا وطابعه الزمني.
+يوضح كيفية توقيع مستند PDF محفوظ رقميًا ووضع طابع زمني عليه.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Signed PDF contents.");
 
-// قم بإنشاء كائن "PdfSaveOptions" يمكننا تمريره إلى طريقة "Save" الخاصة بالمستند
-// لتعديل كيفية تحويل هذه الطريقة المستند إلى PDF.
+// قم بإنشاء كائن "PdfSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" المستند
+// لتعديل كيفية تحويل هذه الطريقة للمستند إلى .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
- // أنشئ توقيعًا رقميًا وقم بتعيينه إلى كائن SaveOptions الخاص بنا لتوقيع المستند عندما نحفظه في PDF.
+// أنشئ توقيعًا رقميًا وقم بتعيينه لكائن SaveOptions الخاص بنا لتوقيع المستند عندما نحفظه في ملف PDF.
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
 options.DigitalSignatureDetails = new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "Aspose Office", DateTime.Now);
 
-// إنشاء طابع زمني تم التحقق منه من قِبل السلطة.
+// قم بإنشاء طابع زمني تم التحقق منه بواسطة سلطة الطابع الزمني.
 options.DigitalSignatureDetails.TimestampSettings =
-    new PdfDigitalSignatureTimestampSettings("https://freetsa.org/tsr "،" JohnDoe "،" MyPassword ");
+    new PdfDigitalSignatureTimestampSettings("https://freetsa.org/tsr"، "JohnDoe"، "MyPassword");
 
 // العمر الافتراضي للطابع الزمني هو 100 ثانية.
 Assert.AreEqual(100.0d, options.DigitalSignatureDetails.TimestampSettings.Timeout.TotalSeconds);
 
-// يمكننا ضبط فترة المهلة عبر المُنشئ.
+// يمكننا ضبط فترة المهلة الخاصة بنا عبر المنشئ.
 options.DigitalSignatureDetails.TimestampSettings =
-    new PdfDigitalSignatureTimestampSettings("https://freetsa.org/tsr "،" JohnDoe "،" MyPassword "، TimeSpan.FromMinutes (30)) ;
+    new PdfDigitalSignatureTimestampSettings("https://freetsa.org/tsr"، "JohnDoe"، "MyPassword"، TimeSpan.FromMinutes(30));
 
 Assert.AreEqual(1800.0d, options.DigitalSignatureDetails.TimestampSettings.Timeout.TotalSeconds);
-Assert.AreEqual("https://freetsa.org/tsr "، options.DigitalSignatureDetails.TimestampSettings.ServerUrl) ;
+Assert.AreEqual("https://freetsa.org/tsr"، options.DigitalSignatureDetails.TimestampSettings.ServerUrl);
 Assert.AreEqual("JohnDoe", options.DigitalSignatureDetails.TimestampSettings.UserName);
 Assert.AreEqual("MyPassword", options.DigitalSignatureDetails.TimestampSettings.Password);
 
-// ستطبق طريقة "Save" توقيعنا على المستند الناتج في هذا الوقت.
+// ستطبق طريقة "الحفظ" توقيعنا على مستند الإخراج في هذا الوقت.
 doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", options);
 ```
 

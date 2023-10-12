@@ -1,14 +1,14 @@
 ---
 title: AxisBound.Value
 second_title: Référence de l'API Aspose.Words pour .NET
-description: AxisBound propriété. Renvoie la valeur numérique de laxe lié.
+description: AxisBound propriété. Renvoie la valeur numérique de la limite de laxe.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.drawing.charts/axisbound/value/
 ---
 ## AxisBound.Value property
 
-Renvoie la valeur numérique de l'axe lié.
+Renvoie la valeur numérique de la limite de l'axe.
 
 ```csharp
 public double Value { get; }
@@ -16,7 +16,7 @@ public double Value { get; }
 
 ### Exemples
 
-Montre comment définir des limites d'axe personnalisées.
+Montre comment définir les limites des axes personnalisés.
 
 ```csharp
 Document doc = new Document();
@@ -25,11 +25,11 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape chartShape = builder.InsertChart(ChartType.Scatter, 450, 300);
 Chart chart = chartShape.Chart;
 
-// Effacez la série de données de démonstration du graphique pour commencer avec un graphique propre.
+// Efface la série de données de démonstration du graphique pour commencer avec un graphique propre.
 chart.Series.Clear();
 
 // Ajoute une série avec deux tableaux décimaux. Le premier tableau contient les valeurs X,
-// et le second contient les valeurs Y correspondantes pour les points du graphique en nuage de points.
+// et le second contient les valeurs Y correspondantes pour les points du nuage de points.
 chart.Series.Add("Series 1", 
     new[] { 1.1, 5.4, 7.9, 3.5, 2.1, 9.7 }, 
     new[] { 2.1, 0.3, 0.6, 3.3, 1.4, 1.9 });
@@ -48,7 +48,7 @@ chart.AxisY.Scaling.Maximum = new AxisBound(10);
 Assert.False(chart.AxisX.Scaling.Minimum.IsAuto);
 Assert.False(chart.AxisY.Scaling.Minimum.IsAuto);
 
-// Crée un graphique en courbes avec une série nécessitant une plage de dates sur l'axe X et des valeurs décimales pour l'axe Y.
+// Créez un graphique linéaire avec une série nécessitant une plage de dates sur l'axe X et des valeurs décimales pour l'axe Y.
 chartShape = builder.InsertChart(ChartType.Line, 450, 300);
 chart = chartShape.Chart;
 chart.Series.Clear();
@@ -62,7 +62,7 @@ DateTime[] dates = { new DateTime(1973, 5, 11),
 
 chart.Series.Add("Series 1", dates, new[] { 3.0, 4.7, 5.9, 7.1, 8.9 });
 
-// Nous pouvons également définir des limites d'axe sous forme de dates, en limitant le graphique à une période.
+// Nous pouvons également définir les limites des axes sous forme de dates, limitant le graphique à une période.
 // Définir la plage sur 1980-1990 omettra les deux valeurs de la série
 // qui sont en dehors de la plage du graphique.
 chart.AxisX.Scaling.Minimum = new AxisBound(new DateTime(1980, 1, 1));

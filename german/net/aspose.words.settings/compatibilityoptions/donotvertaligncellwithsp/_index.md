@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.DoNotVertAlignCellWithSp
 second_title: Aspose.Words für .NET-API-Referenz
-description: CompatibilityOptions eigendom. Richten Sie Zellen mit schwebenden Objekten nicht vertikal aus.
+description: CompatibilityOptions eigendom. Zellen mit schwebenden Objekten nicht vertikal ausrichten.
 type: docs
 weight: 230
 url: /de/net/aspose.words.settings/compatibilityoptions/donotvertaligncellwithsp/
 ---
 ## CompatibilityOptions.DoNotVertAlignCellWithSp property
 
-Richten Sie Zellen mit schwebenden Objekten nicht vertikal aus.
+Zellen mit schwebenden Objekten nicht vertikal ausrichten.
 
 ```csharp
 public bool DoNotVertAlignCellWithSp { get; set; }

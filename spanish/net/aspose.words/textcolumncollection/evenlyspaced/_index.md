@@ -8,7 +8,7 @@ url: /es/net/aspose.words/textcolumncollection/evenlyspaced/
 ---
 ## TextColumnCollection.EvenlySpaced property
 
-**Verdadero** si las columnas de texto tienen el mismo ancho y están espaciadas uniformemente.
+Verdadero si las columnas de texto tienen el mismo ancho y están espaciadas uniformemente.
 
 ```csharp
 public bool EvenlySpaced { get; set; }
@@ -16,7 +16,7 @@ public bool EvenlySpaced { get; set; }
 
 ### Ejemplos
 
-Muestra cómo crear columnas espaciadas irregularmente.
+Muestra cómo crear columnas espaciadas de manera desigual.
 
 ```csharp
 Document doc = new Document();
@@ -27,17 +27,17 @@ TextColumnCollection columns = pageSetup.TextColumns;
 columns.EvenlySpaced = false;
 columns.SetCount(2);
 
-// Determinar la cantidad de espacio que tenemos disponible para organizar columnas.
+// Determinar la cantidad de espacio que tenemos disponible para organizar las columnas.
 double contentWidth = pageSetup.PageWidth - pageSetup.LeftMargin - pageSetup.RightMargin;
 
 Assert.AreEqual(470.30d, contentWidth, 0.01d);
 
-// Establecer la primera columna para que sea estrecha.
+// Establece la primera columna para que sea estrecha.
 TextColumn column = columns[0];
 column.Width = 100;
 column.SpaceAfter = 20;
 
-// Establecer la segunda columna para ocupar el resto del espacio disponible dentro de los márgenes de la página.
+// Establece la segunda columna para que ocupe el resto del espacio disponible dentro de los márgenes de la página.
 column = columns[1];
 column.Width = contentWidth - column.Width - column.SpaceAfter;
 

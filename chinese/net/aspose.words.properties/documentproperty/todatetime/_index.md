@@ -1,14 +1,14 @@
 ---
 title: DocumentProperty.ToDateTime
 second_title: Aspose.Words for .NET API 参考
-description: DocumentProperty 方法. 以 UTC 格式将属性值返回为 DateTime
+description: DocumentProperty 方法. 将属性值返回为 约会时间以 UTC 时间表示
 type: docs
 weight: 80
 url: /zh/net/aspose.words.properties/documentproperty/todatetime/
 ---
 ## DocumentProperty.ToDateTime method
 
-以 UTC 格式将属性值返回为 DateTime。
+将属性值返回为 **约会时间**以 UTC 时间表示。
 
 ```csharp
 public DateTime ToDateTime()
@@ -16,7 +16,7 @@ public DateTime ToDateTime()
 
 ### 评论
 
-如果属性类型不是，则引发异常DateTime.
+如果属性类型不是，则抛出异常DateTime。
 
 Microsoft Word 仅存储自定义日期属性的日期部分（无时间）。
 

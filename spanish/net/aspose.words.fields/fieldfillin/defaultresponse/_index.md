@@ -24,8 +24,8 @@ public void FieldFillIn()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Insertar un campo de LLENADO. Cuando actualizamos manualmente este campo en Microsoft Word,
-    // nos pedirá que ingresemos una respuesta. El campo mostrará la respuesta como texto.
+    // Insertar un campo FILLIN. Cuando actualizamos manualmente este campo en Microsoft Word,
+    // nos pedirá que ingresemos una respuesta. El campo luego mostrará la respuesta como texto.
     FieldFillIn field = (FieldFillIn)builder.InsertField(FieldType.FieldFillIn, true);
     field.PromptText = "Please enter a response:";
     field.DefaultResponse = "A default response.";
@@ -39,13 +39,14 @@ public void FieldFillIn()
     FieldMergeField mergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);
     mergeField.FieldName = "MergeField";
 
-    // Si realizamos una combinación de correo programáticamente, podemos usar un encuestado personalizado
+    // Si realizamos una combinación de correspondencia mediante programación, podemos utilizar un encuestado personalizado
     // para editar automáticamente las respuestas de los campos FILLIN que encuentra la combinación de correspondencia.
     doc.FieldOptions.UserPromptRespondent = new PromptRespondent();
     doc.MailMerge.Execute(new [] { "MergeField" }, new object[] { "" });
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.FILLIN.docx");
+}
 
 /// <summary>
 /// Antepone una línea a la respuesta predeterminada de cada campo FILLIN durante una combinación de correspondencia.

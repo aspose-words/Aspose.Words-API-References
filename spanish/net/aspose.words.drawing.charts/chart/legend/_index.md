@@ -3,7 +3,7 @@ title: Chart.Legend
 second_title: Referencia de API de Aspose.Words para .NET
 description: Chart propiedad. Proporciona acceso a las propiedades de la leyenda del gráfico.
 type: docs
-weight: 40
+weight: 50
 url: /es/net/aspose.words.drawing.charts/chart/legend/
 ---
 ## Chart.Legend property

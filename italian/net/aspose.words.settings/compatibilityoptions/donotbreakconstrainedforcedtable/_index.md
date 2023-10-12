@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.DoNotBreakConstrainedForcedTable
 second_title: Aspose.Words per .NET API Reference
-description: CompatibilityOptions proprietà. Non rompere le righe della tabella attorno a tabelle mobili.
+description: CompatibilityOptions proprietà. Non interrompere le righe della tabella attorno alle tabelle mobili.
 type: docs
 weight: 130
 url: /it/net/aspose.words.settings/compatibilityoptions/donotbreakconstrainedforcedtable/
 ---
 ## CompatibilityOptions.DoNotBreakConstrainedForcedTable property
 
-Non rompere le righe della tabella attorno a tabelle mobili.
+Non interrompere le righe della tabella attorno alle tabelle mobili.
 
 ```csharp
 public bool DoNotBreakConstrainedForcedTable { get; set; }

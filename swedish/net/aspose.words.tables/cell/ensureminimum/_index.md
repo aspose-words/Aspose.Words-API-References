@@ -3,7 +3,7 @@ title: Cell.EnsureMinimum
 second_title: Aspose.Words för .NET API Referens
 description: Cell metod. Om det sista underordnade inte är ett stycke skapar och lägger till ett tomt stycke.
 type: docs
-weight: 120
+weight: 160
 url: /sv/net/aspose.words.tables/cell/ensureminimum/
 ---
 ## Cell.EnsureMinimum method

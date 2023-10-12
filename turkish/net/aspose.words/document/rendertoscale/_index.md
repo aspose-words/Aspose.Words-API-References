@@ -1,14 +1,14 @@
 ---
 title: Document.RenderToScale
 second_title: Aspose.Words for .NET API Referansı
-description: Document yöntem. Bir belge sayfasını birGraphics belirli bir ölçeğe nesne.
+description: Document yöntem. Bir belge sayfasını birGraphics belirtilen ölçeğe itiraz.
 type: docs
-weight: 660
+weight: 700
 url: /tr/net/aspose.words/document/rendertoscale/
 ---
 ## Document.RenderToScale method
 
-Bir belge sayfasını birGraphics belirli bir ölçeğe nesne.
+Bir belge sayfasını birGraphics belirtilen ölçeğe itiraz.
 
 ```csharp
 public SizeF RenderToScale(int pageIndex, Graphics graphics, float x, float y, float scale)
@@ -18,17 +18,17 @@ public SizeF RenderToScale(int pageIndex, Graphics graphics, float x, float y, f
 | --- | --- | --- |
 | pageIndex | Int32 | 0 tabanlı sayfa dizini. |
 | graphics | Graphics | Oluşturulacak nesne. |
-| x | Single | Oluşturulan sayfanın sol üst köşesinin X koordinatı (dünya birimleri cinsinden). |
-| y | Single | Oluşturulan sayfanın sol üst köşesinin Y koordinatı (dünya birimleri cinsinden). |
-| scale | Single | Sayfayı oluşturma ölçeği (1.0, %100'dür). |
+| x | Single | İşlenen sayfanın sol üst köşesinin X koordinatı (dünya birimleri cinsinden). |
+| y | Single | İşlenen sayfanın sol üst köşesinin Y koordinatı (dünya birimleri cinsinden). |
+| scale | Single | Sayfayı oluşturma ölçeği (1,0, %100'dür). |
 
 ### Geri dönüş değeri
 
-Oluşturulan sayfanın genişliği ve yüksekliği (dünya birimlerinde).
+İşlenen sayfanın genişliği ve yüksekliği (dünya birimleri cinsinden).
 
 ### Örnekler
 
-Tüm sayfaların küçük resimleriyle tek bir görüntü oluşturmak için bir belgenin tek tek sayfalarının grafiklere nasıl dönüştürüleceğini gösterir.
+Tüm sayfaların küçük resimleriyle tek bir görüntü oluşturmak için bir belgenin ayrı ayrı sayfalarının grafiklere nasıl dönüştürüleceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
@@ -44,7 +44,7 @@ if (remainder > 0)
 const float scale = 0.25f;
 Size thumbSize = doc.GetPageInfo(0).GetSizeInPixels(scale, 96);
 
-// Tüm küçük resimleri içerecek görüntünün boyutunu hesaplayın.
+// Tüm küçük resimleri içerecek görselin boyutunu hesaplayın.
 int imgWidth = thumbSize.Width * thumbColumns;
 int imgHeight = thumbSize.Height * thumbRows;
 
@@ -65,7 +65,7 @@ using (Bitmap img = new Bitmap(imgWidth, imgHeight))
             float thumbLeft = columnIdx * thumbSize.Width;
             float thumbTop = rowIdx * thumbSize.Height;
 
-            // Bir sayfayı küçük resim olarak işleyin ve ardından aynı boyutta bir dikdörtgende çerçeveleyin.
+            // Bir sayfayı küçük resim olarak işleyin ve ardından onu aynı boyutta bir dikdörtgenin içine çerçeveleyin.
             SizeF size = doc.RenderToScale(pageIndex, gr, thumbLeft, thumbTop, scale);
             gr.DrawRectangle(Pens.Black, thumbLeft, thumbTop, size.Width, size.Height);
         }
@@ -75,7 +75,7 @@ using (Bitmap img = new Bitmap(imgWidth, imgHeight))
 }
 ```
 
-Tüm sayfaların küçük resimleriyle (.NetStandard 2.0) tek bir görüntü oluşturmak için tek tek sayfaları grafiklere dönüştürür.
+Tüm sayfaların küçük resimlerini içeren tek bir görüntü oluşturmak için ayrı ayrı sayfaları grafiklere dönüştürür (.NetStandard 2.0).
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
@@ -91,7 +91,7 @@ if (remainder > 0)
 const float scale = 0.25f;
 Size thumbSize = doc.GetPageInfo(0).GetSizeInPixels(scale, 96);
 
-// Tüm küçük resimleri içerecek görüntünün boyutunu hesaplayın.
+// Tüm küçük resimleri içerecek görselin boyutunu hesaplayın.
 int imgWidth = thumbSize.Width * thumbnailColumnsNum;
 int imgHeight = thumbSize.Height * thumbRows;
 
@@ -112,7 +112,7 @@ using (SKBitmap bitmap = new SKBitmap(imgWidth, imgHeight))
 
             SizeF size = doc.RenderToScale(pageIndex, canvas, thumbLeft, thumbTop, scale);
 
-            // Bir sayfayı küçük resim olarak işleyin ve ardından aynı boyutta bir dikdörtgende çerçeveleyin.
+            // Bir sayfayı küçük resim olarak işleyin ve ardından onu aynı boyutta bir dikdörtgenin içine çerçeveleyin.
             SKRect rect = new SKRect(0, 0, size.Width, size.Height);
             rect.Offset(thumbLeft, thumbTop);
             canvas.DrawRect(rect, new SKPaint

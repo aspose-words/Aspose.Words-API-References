@@ -16,7 +16,7 @@ public static readonly string Cr;
 
 ### Ejemplos
 
-Muestra cómo usar los caracteres de control.
+Muestra cómo utilizar los personajes de control.
 
 ```csharp
 Document doc = new Document();
@@ -27,7 +27,7 @@ builder.Writeln("Hello world!");
 builder.Writeln("Hello again!");
 
 // Convertir el documento a formato de texto revela que los caracteres de control
-// representar algunos de los elementos estructurales del documento, como los saltos de página.
+// representa algunos de los elementos estructurales del documento, como los saltos de página.
 Assert.AreEqual($"Hello world!{ControlChar.Cr}" +
                 $"Hello again!{ControlChar.Cr}" +
                 ControlChar.PageBreak, doc.GetText());

@@ -1,14 +1,14 @@
 ---
 title: Enum SdtDateStorageFormat
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Markup.SdtDateStorageFormat تعداد. يحدد كيفية تخزين / استرداد تاريخ تاريخ SDT عندما تكون SDT مرتبطة بعقدة XML في مخزن بيانات المستند.
+description: Aspose.Words.Markup.SdtDateStorageFormat تعداد. يحدد كيفية تخزين/استرداد تاريخ SDT عندما تكون SDT مرتبطة بعقدة XML في مخزن بيانات المستند.
 type: docs
-weight: 3770
+weight: 4010
 url: /ar/net/aspose.words.markup/sdtdatestorageformat/
 ---
 ## SdtDateStorageFormat enumeration
 
-يحدد كيفية تخزين / استرداد تاريخ تاريخ SDT عندما تكون SDT مرتبطة بعقدة XML في مخزن بيانات المستند.
+يحدد كيفية تخزين/استرداد تاريخ SDT عندما تكون SDT مرتبطة بعقدة XML في مخزن بيانات المستند.
 
 ```csharp
 public enum SdtDateStorageFormat
@@ -18,10 +18,10 @@ public enum SdtDateStorageFormat
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| Date | `0` | يتم تخزين قيمة التاريخ لتاريخ SDT كتاريخ بتنسيق تاريخ مخطط XML القياسي. |
-| DateTime | `1` | يتم تخزين قيمة التاريخ لتاريخ SDT كتاريخ بتنسيق XML Schema DateTime القياسي. |
-| Text | `2` | يتم تخزين قيمة التاريخ لتاريخ SDT كنص. |
-| Default | `1` | افتراضيات لـDateTime |
+| Date | `0` | قيمة التاريخ للتاريخ الذي يتم فيه تخزين SDT كتاريخ بتنسيق تاريخ مخطط XML القياسي. |
+| DateTime | `1` | قيمة التاريخ للتاريخ الذي يتم فيه تخزين SDT كتاريخ بتنسيق XML Schema DateTime القياسي. |
+| Text | `2` | قيمة التاريخ لتاريخ تخزين SDT كنص. |
+| Default | `1` | الافتراضي هوDateTime |
 
 ### أنظر أيضا
 

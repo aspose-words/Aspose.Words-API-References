@@ -16,9 +16,10 @@ public FieldMergeField Field { get; }
 
 ### 例子
 
-演示如何使用处理 HTML 文档形式的合并数据的自定义回调执行邮件合并。
+演示如何使用自定义回调执行邮件合并，该回调处理 HTML 文档形式的合并数据。
 
 ```csharp
+public void MergeHtml()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -60,13 +61,13 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
     {
         if (args.DocumentFieldName.StartsWith("html_") && args.Field.GetFieldCode().Contains("\\b"))
         {
-            // 将解析的 HTML 数据添加到文档的正文中。
+            // 将解析后的 HTML 数据添加到文档正文中。
             DocumentBuilder builder = new DocumentBuilder(args.Document);
             builder.MoveToMergeField(args.DocumentFieldName);
             builder.InsertHtml((string)args.FieldValue);
 
-            // 因为我们已经手动插入了合并的内容，
-             // 我们不需要通过“Text”属性返回内容来响应这个事件。
+            // 由于我们已经手动插入了合并的内容，
+             // 我们不需要通过“Text”属性返回内容来响应此事件。
             args.Text = string.Empty;
         }
     }

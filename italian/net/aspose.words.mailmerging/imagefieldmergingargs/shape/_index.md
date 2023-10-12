@@ -16,9 +16,9 @@ public Shape Shape { get; set; }
 
 ### Osservazioni
 
-Quando viene specificata questa proprietà, il motore di stampa unione ignora tutte le altre proprietà come[`ImageFileName`](../imagefilename/) o[`ImageStream`](../imagestream/) e inserisce semplicemente la forma nel documento.
+Quando questa proprietà è specificata, il motore di stampa unione ignora tutte le altre proprietà come[`ImageFileName`](../imagefilename/) O[`ImageStream`](../imagestream/) e inserisce semplicemente la forma nel documento.
 
-Usa questa proprietà per controllare completamente il processo di unione di un campo di unione di immagini. Ad esempio, puoi specificare[`WrapType`](../../../aspose.words.drawing/shapebase/wraptype/) qualsiasi altra proprietà di forma per ottimizzare il nodo risultante. Tuttavia, tieni presente che sei responsabile della fornitura del contenuto della forma.
+Utilizza questa proprietà per controllare completamente il processo di unione di un campo di unione immagine. Ad esempio, puoi specificare[`WrapType`](../../../aspose.words.drawing/shapebase/wraptype/) o qualsiasi altra proprietà della forma per mettere a punto il nodo risultante. Tuttavia, tieni presente che sei responsabile di fornire il contenuto della forma.
 
 ### Guarda anche
 

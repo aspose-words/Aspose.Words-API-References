@@ -1,14 +1,14 @@
 ---
 title: NodeList.GetEnumerator
 second_title: Справочник по API Aspose.Words для .NET
-description: NodeList метод. Обеспечивает простую итерацию в стиле foreach по набору узлов.
+description: NodeList метод. Обеспечивает простую итерацию стиля foreach по коллекции узлов.
 type: docs
 weight: 30
 url: /ru/net/aspose.words/nodelist/getenumerator/
 ---
 ## NodeList.GetEnumerator method
 
-Обеспечивает простую итерацию в стиле foreach по набору узлов.
+Обеспечивает простую итерацию стиля foreach по коллекции узлов.
 
 ```csharp
 public IEnumerator<Node> GetEnumerator()
@@ -29,7 +29,7 @@ Document doc = new Document(MyDir + "Tables.docx");
 // которые являются потомками любого узла таблицы в документе.
 NodeList nodeList = doc.SelectNodes("//Таблица//Абзац");
 
-// Проходим по списку с помощью перечислителя и печатаем содержимое каждого абзаца в каждой ячейке таблицы.
+// Перебираем список с помощью перечислителя и печатаем содержимое каждого абзаца в каждой ячейке таблицы.
 int index = 0;
 
 using (IEnumerator<Node> e = nodeList.GetEnumerator())

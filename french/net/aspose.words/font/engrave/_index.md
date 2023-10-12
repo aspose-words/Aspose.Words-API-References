@@ -25,7 +25,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Font.Size = 36;
 builder.Font.Color = Color.LightBlue;
 
-// Vous trouverez ci-dessous deux manières d'utiliser les ombres pour appliquer un effet de type 3D au texte.
+// Vous trouverez ci-dessous deux façons d'utiliser les ombres pour appliquer un effet 3D au texte.
 // 1 - Gravez le texte pour donner l'impression que les lettres sont enfoncées dans la page :
 builder.Font.Engrave = true;
 

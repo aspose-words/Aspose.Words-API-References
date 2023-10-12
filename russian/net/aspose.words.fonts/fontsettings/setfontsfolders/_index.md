@@ -1,14 +1,14 @@
 ---
 title: FontSettings.SetFontsFolders
 second_title: Справочник по API Aspose.Words для .NET
-description: FontSettings метод. Устанавливает папки в которых Aspose.Words ищет шрифты TrueType при рендеринге документов или внедрении шрифтов.
+description: FontSettings метод. Устанавливает папки в которых Aspose.Words ищет шрифты TrueType при рендеринге документов или встраивании шрифтов.
 type: docs
 weight: 90
 url: /ru/net/aspose.words.fonts/fontsettings/setfontsfolders/
 ---
 ## FontSettings.SetFontsFolders method
 
-Устанавливает папки, в которых Aspose.Words ищет шрифты TrueType при рендеринге документов или внедрении шрифтов.
+Устанавливает папки, в которых Aspose.Words ищет шрифты TrueType при рендеринге документов или встраивании шрифтов.
 
 ```csharp
 public void SetFontsFolders(string[] fontsFolders, bool recursive)
@@ -40,7 +40,7 @@ builder.Writeln("The quick brown fox jumps over the lazy dog.");
 
 // Наши источники шрифтов не содержат шрифт, который мы использовали для текста в этом документе.
 // Если мы используем эти настройки шрифта при рендеринге этого документа,
-// Aspose.Words применит резервный шрифт к тексту, шрифт которого Aspose.Words не может найти.
+// Aspose.Words применит резервный шрифт к тексту, который имеет шрифт, который Aspose.Words не может найти.
 FontSourceBase[] originalFontSources = FontSettings.DefaultInstance.GetFontsSources();
 
 Assert.AreEqual(1, originalFontSources.Length);
@@ -50,10 +50,10 @@ Assert.True(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName =
 Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Amethysta"));
 Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Junction Light"));
 
-// Используйте метод "SetFontsFolders" для создания источника шрифта из каждого каталога шрифтов, который мы передаем в качестве первого аргумента.
-// Передайте «false» в качестве «рекурсивного» аргумента, чтобы включить шрифты из всех файлов шрифтов, которые находятся в каталогах
-// который мы передаем в первом аргументе, но не включаем никаких шрифтов ни в одной из подпапок каталогов.
-// Передаем «true» в качестве «рекурсивного» аргумента, чтобы включить все файлы шрифтов в каталогах, которые мы передаем
+// Используйте метод SetFontsFolders для создания источника шрифта из каждого каталога шрифтов, который мы передаем в качестве первого аргумента.
+// Передаем «false» в качестве «рекурсивного» аргумента, чтобы включить шрифты из всех файлов шрифтов, находящихся в каталогах
+// что мы передаем первый аргумент, но не включаем шрифты из каких-либо подпапок каталогов.
+// Передаем «true» в качестве «рекурсивного» аргумента, чтобы включить все файлы шрифтов в передаваемые каталоги
 // в первом аргументе, а также все шрифты в их подкаталогах.
 FontSettings.DefaultInstance.SetFontsFolders(new[] {FontsDir + "/Amethysta", FontsDir + "/Junction"},
     recursive);
@@ -65,7 +65,7 @@ Assert.False(newFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "A
 Assert.AreEqual(1, newFontSources[0].GetAvailableFonts().Count);
 Assert.True(newFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Amethysta"));
 
-// Сама папка "Junction" не содержит файлов шрифтов, но содержит вложенные папки.
+// Сама папка «Junction» не содержит файлов шрифтов, но имеет подпапки, которые содержат.
 if (recursive)
 {
     Assert.AreEqual(6, newFontSources[1].GetAvailableFonts().Count);
@@ -78,7 +78,7 @@ else
 
 doc.Save(ArtifactsDir + "FontSettings.SetFontsFolders.pdf");
 
-// Восстановить исходные источники шрифтов.
+// Восстанавливаем исходные источники шрифтов.
 FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 ```
 

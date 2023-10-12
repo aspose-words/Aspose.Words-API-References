@@ -1,14 +1,16 @@
 ---
 title: Class FontSavingArgs
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Saving.FontSavingArgs sınıf. için veri sağlarFontSaving olay.
+description: Aspose.Words.Saving.FontSavingArgs sınıf. Şunun için veri sağlarFontSaving olay.
 type: docs
-weight: 4770
+weight: 5030
 url: /tr/net/aspose.words.saving/fontsavingargs/
 ---
 ## FontSavingArgs class
 
-için veri sağlar[`FontSaving`](../ifontsavingcallback/fontsaving/) olay.
+Şunun için veri sağlar:[`FontSaving`](../ifontsavingcallback/fontsaving/) olay.
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Bir Belgeyi Kaydet](https://docs.aspose.com/words/net/save-a-document/) dokümantasyon makalesi.
 
 ```csharp
 public class FontSavingArgs
@@ -18,39 +20,40 @@ public class FontSavingArgs
 
 | İsim | Tanım |
 | --- | --- |
-| [Bold](../../aspose.words.saving/fontsavingargs/bold/) { get; } | Geçerli yazı tipinin kalın olup olmadığını gösterir. |
+| [Bold](../../aspose.words.saving/fontsavingargs/bold/) { get; } | Geçerli yazı tipinin kalın olup olmadığını belirtir. |
 | [Document](../../aspose.words.saving/fontsavingargs/document/) { get; } | Kaydedilen belge nesnesini alır. |
-| [FontFamilyName](../../aspose.words.saving/fontsavingargs/fontfamilyname/) { get; } | Geçerli yazı tipi aile adını gösterir. |
+| [FontFamilyName](../../aspose.words.saving/fontsavingargs/fontfamilyname/) { get; } | Geçerli yazı tipi ailesinin adını belirtir. |
 | [FontFileName](../../aspose.words.saving/fontsavingargs/fontfilename/) { get; set; } | Yazı tipinin kaydedileceği dosya adını (yol olmadan) alır veya ayarlar. |
 | [FontStream](../../aspose.words.saving/fontsavingargs/fontstream/) { get; set; } | Yazı tipinin kaydedileceği akışı belirtmeye izin verir. |
-| [IsExportNeeded](../../aspose.words.saving/fontsavingargs/isexportneeded/) { get; set; } | Geçerli yazı tipinin bir yazı tipi kaynağı olarak dışa aktarılıp aktarılmayacağını belirlemeye izin verir. Varsayılan`doğru` . |
-| [IsSubsettingNeeded](../../aspose.words.saving/fontsavingargs/issubsettingneeded/) { get; set; } | Bir yazı tipi kaynağı olarak dışa aktarmadan önce mevcut yazı tipinin alt kümelenip alt küme oluşturulmayacağını belirlemeye izin verir. |
-| [Italic](../../aspose.words.saving/fontsavingargs/italic/) { get; } | Geçerli yazı tipinin italik olup olmadığını gösterir. |
-| [KeepFontStreamOpen](../../aspose.words.saving/fontsavingargs/keepfontstreamopen/) { get; set; } | Aspose.Words'ün bir fontu kaydettikten sonra akışı açık tutması mı yoksa kapatması mı gerektiğini belirtir. |
-| [OriginalFileName](../../aspose.words.saving/fontsavingargs/originalfilename/) { get; } | Bir uzantıyla orijinal yazı tipi dosya adını alır. |
-| [OriginalFileSize](../../aspose.words.saving/fontsavingargs/originalfilesize/) { get; } | Orijinal yazı tipi dosya boyutunu alır. |
+| [IsExportNeeded](../../aspose.words.saving/fontsavingargs/isexportneeded/) { get; set; } | Geçerli yazı tipinin yazı tipi kaynağı olarak dışa aktarılıp aktarılmayacağını belirlemeye olanak tanır. Varsayılan:`doğru` . |
+| [IsSubsettingNeeded](../../aspose.words.saving/fontsavingargs/issubsettingneeded/) { get; set; } | Geçerli yazı tipinin, bir yazı tipi kaynağı olarak dışa aktarılmadan önce alt kümeye alınıp alınmayacağını belirlemeye izin verir. |
+| [Italic](../../aspose.words.saving/fontsavingargs/italic/) { get; } | Geçerli yazı tipinin italik olup olmadığını belirtir. |
+| [KeepFontStreamOpen](../../aspose.words.saving/fontsavingargs/keepfontstreamopen/) { get; set; } | Aspose.Words'ün bir yazı tipini kaydettikten sonra akışı açık mı tutması yoksa kapatması mı gerektiğini belirtir. |
+| [OriginalFileName](../../aspose.words.saving/fontsavingargs/originalfilename/) { get; } | Uzantısıyla orijinal yazı tipi dosyasının adını alır. |
+| [OriginalFileSize](../../aspose.words.saving/fontsavingargs/originalfilesize/) { get; } | Orijinal yazı tipi dosyasının boyutunu alır. |
 
 ### Notlar
 
-Aspose.Words bir belgeyi HTML veya ilgili formatlara kaydettiğinde ve[`ExportFontResources`](../htmlsaveoptions/exportfontresources/) olarak ayarlandı **doğru**, her yazı tipi konusunu ayrı bir dosyaya dışa aktarmak için kaydeder.
+Aspose.Words bir belgeyi HTML'ye veya ilgili formatlara kaydettiğinde ve[`ExportFontResources`](../htmlsaveoptions/exportfontresources/) şu şekilde ayarlandı`doğru`, her yazı tipi konusunu dışa aktarılmak üzere ayrı bir dosyaya kaydeder.
 
-`FontSavingArgs` belirli bir yazı tipi kaynağının dışa aktarılıp aktarılmayacağını ve nasıl yapılacağını kontrol eder.
+`FontSavingArgs` belirli yazı tipi kaynağının dışa aktarılıp aktarılmayacağını ve nasıl dışa aktarılacağını kontrol eder.
 
-`FontSavingArgs`ayrıca yazı tipi dosya adlarının nasıl oluşturulduğunu yeniden tanımlamanıza veya kendi akış nesnelerinizi sağlayarak yazı tiplerinin dosyalara kaydedilmesini tamamen engellemenize olanak tanır.
+`FontSavingArgs`ayrıca yazı tipi dosyası adlarının nasıl oluşturulduğunu yeniden tanımlamanıza veya kendi akış nesnelerinizi sağlayarak yazı tiplerinin dosyalara kaydedilmesini tamamen engellemenize olanak tanır.
 
-Belirli bir yazı tipi kaynağını kaydedip kaydetmemeye karar vermek için[`IsExportNeeded`](./isexportneeded/) Emlak.
+Belirli bir yazı tipi kaynağının kaydedilip kaydedilmeyeceğine karar vermek için[`IsExportNeeded`](./isexportneeded/) mülk.
 
-Yazı tiplerini dosyalar yerine akışlara kaydetmek için[`FontStream`](./fontstream/) Emlak.
+Yazı tiplerini dosyalar yerine akışlara kaydetmek için[`FontStream`](./fontstream/) mülk.
 
 ### Örnekler
 
 HTML'ye kaydederken yazı tiplerini dışa aktarmak için özel mantığın nasıl tanımlanacağını gösterir.
 
 ```csharp
+public void SaveExportedFonts()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
-    // Fontları ayrı dosyalara aktarmak için bir SaveOptions nesnesi yapılandırın.
+    // Yazı tiplerini ayrı dosyalara aktarmak için bir SaveOptions nesnesi yapılandırın.
     // Yazı tipi kaydetmeyi özel bir şekilde gerçekleştirecek bir geri arama ayarlayın.
     HtmlSaveOptions options = new HtmlSaveOptions
     {
@@ -66,8 +69,10 @@ HTML'ye kaydederken yazı tiplerini dışa aktarmak için özel mantığın nas�
         Console.WriteLine(fontFilename);
     }
 
+}
+
 /// <summary>
-/// Dışa aktarılan yazı tipleriyle ilgili bilgileri yazdırır ve bunları çıktıları .html ile aynı yerel sistem klasörüne kaydeder.
+/// Dışa aktarılan yazı tipleri hakkındaki bilgileri yazdırır ve bunları çıktı .html'leriyle aynı yerel sistem klasörüne kaydeder.
 /// </summary>
 public class HandleFontSaving : IFontSavingCallback
 {
@@ -78,14 +83,14 @@ public class HandleFontSaving : IFontSavingCallback
         if (args.Italic) Console.Write(", italic");
         Console.WriteLine($"\nSource:\t{args.OriginalFileName}, {args.OriginalFileSize} bytes\n");
 
-        // Kaynak belgeye buradan da ulaşabiliriz.
+        // Kaynak dokümana buradan da ulaşabiliriz.
         Assert.True(args.Document.OriginalFileName.EndsWith("Rendering.docx"));
 
         Assert.True(args.IsExportNeeded);
         Assert.True(args.IsSubsettingNeeded);
 
         // Dışa aktarılan bir yazı tipini kaydetmenin iki yolu vardır.
-        // 1 - Yerel bir dosya sistemi konumuna kaydedin:
+        // 1 - Yerel dosya sistemi konumuna kaydedin:
         args.FontFileName = args.OriginalFileName.Split(Path.DirectorySeparatorChar).Last();
 
         // 2 - Bir akışa kaydedin:

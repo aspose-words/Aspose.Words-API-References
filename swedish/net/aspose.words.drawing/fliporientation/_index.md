@@ -3,7 +3,7 @@ title: Enum FlipOrientation
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Drawing.FlipOrientation uppräkning. Möjliga värden för orienteringen av en form.
 type: docs
-weight: 840
+weight: 970
 url: /sv/net/aspose.words.drawing/fliporientation/
 ---
 ## FlipOrientation enumeration

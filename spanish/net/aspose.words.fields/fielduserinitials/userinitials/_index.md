@@ -16,18 +16,18 @@ public string UserInitials { get; set; }
 
 ### Ejemplos
 
-Muestra cómo utilizar el campo USERINITIALS.
+Muestra cómo utilizar el campo USERINITIIALS.
 
 ```csharp
 Document doc = new Document();
 
-// Cree un objeto UserInformation y configúrelo como la fuente de información del usuario para cualquier campo que creemos.
+// Crea un objeto UserInformation y configúralo como fuente de información del usuario para cualquier campo que creemos.
 UserInformation userInformation = new UserInformation();
 userInformation.Initials = "J. D.";
 doc.FieldOptions.CurrentUser = userInformation;
 
-// Crear un campo USERINITIALS para mostrar las iniciales del usuario actual,
-// tomado del objeto UserInformation que creamos arriba.
+// Crea un campo USERINITIALES para mostrar las iniciales del usuario actual,
+// tomado del objeto UserInformation que creamos anteriormente.
 DocumentBuilder builder = new DocumentBuilder(doc);
 FieldUserInitials fieldUserInitials = (FieldUserInitials)builder.InsertField(FieldType.FieldUserInitials, true);
 Assert.AreEqual(userInformation.Initials, fieldUserInitials.Result);
@@ -35,7 +35,7 @@ Assert.AreEqual(userInformation.Initials, fieldUserInitials.Result);
 Assert.AreEqual(" USERINITIALS ", fieldUserInitials.GetFieldCode());
 Assert.AreEqual("J. D.", fieldUserInitials.Result);
 
-  // Podemos establecer esta propiedad para que nuestro campo anule el valor actualmente almacenado en el objeto UserInformation.
+ // Podemos configurar esta propiedad para que nuestro campo anule el valor actualmente almacenado en el objeto UserInformation.
 fieldUserInitials.UserInitials = "J. C.";
 fieldUserInitials.Update();
 

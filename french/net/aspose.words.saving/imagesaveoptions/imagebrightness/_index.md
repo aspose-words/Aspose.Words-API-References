@@ -16,7 +16,7 @@ public float ImageBrightness { get; set; }
 
 ### Remarques
 
-Cette propriété n'a d'effet que lors de l'enregistrement dans des formats d'image raster.
+Cette propriété n'a d'effet que lors de l'enregistrement au format d'image raster.
 
 La valeur par défaut est 0,5. La valeur doit être comprise entre 0 et 1.
 
@@ -32,8 +32,8 @@ builder.ParagraphFormat.Style = doc.Styles["Heading 1"];
 builder.Writeln("Hello world!");
 builder.InsertImage(ImageDir + "Logo.jpg");
 
-// Lorsque nous enregistrons le document en tant qu'image, nous pouvons passer un objet SaveOptions à
-// édite l'image pendant que l'opération de sauvegarde la rend.
+// Lorsque nous enregistrons le document sous forme d'image, nous pouvons passer un objet SaveOptions à
+// édite l'image pendant que l'opération de sauvegarde la restitue.
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Png)
 {
     // Nous pouvons ajuster ces propriétés pour modifier la luminosité et le contraste de l'image.
@@ -43,12 +43,12 @@ ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Png)
 
     // Nous pouvons ajuster la résolution horizontale et verticale avec ces propriétés.
     // Cela affectera les dimensions de l'image.
-    // La valeur par défaut de ces propriétés est 96.0, pour une résolution de 96dpi.
+    // La valeur par défaut de ces propriétés est 96,0, pour une résolution de 96 dpi.
     HorizontalResolution = 72f,
     VerticalResolution = 72f,
 
     // Nous pouvons redimensionner l'image en utilisant cette propriété. La valeur par défaut est 1,0, pour une mise à l'échelle de 100 %.
-    // Nous pouvons utiliser cette propriété pour annuler tout changement dans les dimensions de l'image que le changement de résolution entraînerait.
+    // Nous pouvons utiliser cette propriété pour annuler toute modification des dimensions de l'image que la modification de la résolution entraînerait.
     Scale = 96f / 72f
 };
 

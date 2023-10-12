@@ -1,14 +1,14 @@
 ---
 title: LayoutOptions.Callback
 second_title: Aspose.Words für .NET-API-Referenz
-description: LayoutOptions eigendom. Holt oder setztIPageLayoutCallbackImplementierung die vom Seitenlayoutmodell verwendet wird.
+description: LayoutOptions eigendom. Ruft ab oder legt festIPageLayoutCallback Vom Seitenlayoutmodell verwendete Implementierung.
 type: docs
 weight: 20
 url: /de/net/aspose.words.layout/layoutoptions/callback/
 ---
 ## LayoutOptions.Callback property
 
-Holt oder setzt[`IPageLayoutCallback`](../../ipagelayoutcallback/)Implementierung, die vom Seitenlayoutmodell verwendet wird.
+Ruft ab oder legt fest[`IPageLayoutCallback`](../../ipagelayoutcallback/) Vom Seitenlayoutmodell verwendete Implementierung.
 
 ```csharp
 public IPageLayoutCallback Callback { get; set; }

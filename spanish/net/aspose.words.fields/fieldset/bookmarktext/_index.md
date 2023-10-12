@@ -22,7 +22,7 @@ Muestra cómo crear texto marcado con un campo SET y luego mostrarlo en el docum
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-  // Nombre el texto marcado con un campo SET.
+ // Nombra el texto marcado como favorito con un campo SET.
 // Este campo se refiere al "marcador", no a una estructura de marcador que aparece dentro del texto, sino a una variable con nombre.
 FieldSet fieldSet = (FieldSet)builder.InsertField(FieldType.FieldSet, false);
 fieldSet.BookmarkName = "MyBookmark";
@@ -31,7 +31,7 @@ fieldSet.Update();
 
 Assert.AreEqual(" SET  MyBookmark \"Hello world!\"", fieldSet.GetFieldCode());
 
-// Hacer referencia al marcador por su nombre en un campo REF y mostrar su contenido.
+// Consulte el marcador por nombre en un campo REF y muestre su contenido.
 FieldRef fieldRef = (FieldRef)builder.InsertField(FieldType.FieldRef, true);
 fieldRef.BookmarkName = "MyBookmark";
 fieldRef.Update();

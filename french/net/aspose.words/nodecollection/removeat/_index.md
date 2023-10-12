@@ -16,7 +16,7 @@ public void RemoveAt(int index)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| index | Int32 | L'index de base zéro du nœud. Les index négatifs sont autorisés et indiquent l'accès depuis le fond de la liste. Par exemple -1 signifie le dernier nœud, -2 signifie l'avant-dernier et ainsi de suite. |
+| index | Int32 | L'index de base zéro du nœud. Les index négatifs sont autorisés et indiquent l'accès depuis l'arrière de la liste. Par exemple -1 signifie le dernier nœud, -2 signifie l'avant-dernier et ainsi de suite. |
 
 ### Exemples
 

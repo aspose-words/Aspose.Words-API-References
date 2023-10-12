@@ -1,14 +1,14 @@
 ---
 title: TabStop.IsClear
 second_title: Справочник по API Aspose.Words для .NET
-description: TabStop свойство. Возвращает true если эта табуляция очищает все существующие позиции табуляции в этой позиции.
+description: TabStop свойство. Возвращаетистинный если эта позиция табуляции очищает все существующие позиции табуляции в этой позиции.
 type: docs
 weight: 30
 url: /ru/net/aspose.words/tabstop/isclear/
 ---
 ## TabStop.IsClear property
 
-Возвращает true, если эта табуляция очищает все существующие позиции табуляции в этой позиции.
+Возвращает`истинный` если эта позиция табуляции очищает все существующие позиции табуляции в этой позиции.
 
 ```csharp
 public bool IsClear { get; }
@@ -16,7 +16,7 @@ public bool IsClear { get; }
 
 ### Примеры
 
-Показывает, как работать с набором позиций табуляции в документе.
+Показывает, как работать с коллекцией табуляции документа.
 
 ```csharp
 Document doc = new Document();
@@ -24,7 +24,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 TabStopCollection tabStops = builder.ParagraphFormat.TabStops;
 
-// 72 точки — это один «дюйм» на линейке табуляции Microsoft Word.
+// 72 пункта — это один «дюйм» на линейке табуляции Microsoft Word.
 tabStops.Add(new TabStop(72.0));
 tabStops.Add(new TabStop(432.0, TabAlignment.Right, TabLeader.Dashes));
 
@@ -32,18 +32,18 @@ Assert.AreEqual(2, tabStops.Count);
 Assert.IsFalse(tabStops[0].IsClear);
 Assert.IsFalse(tabStops[0].Equals(tabStops[1]));
 
-// Каждый символ табуляции переводит курсор конструктора в положение следующей позиции табуляции.
+// Каждый символ табуляции переносит курсор компоновщика в место следующей позиции табуляции.
 builder.Writeln("Start\tTab 1\tTab 2");
 
 ParagraphCollection paragraphs = doc.FirstSection.Body.Paragraphs;
 
 Assert.AreEqual(2, paragraphs.Count);
 
-// Каждый абзац получает свою коллекцию табуляции, которая клонирует свои значения из коллекции табуляции конструктора документов.
+// Каждый абзац получает свою коллекцию позиций табуляции, которая клонирует свои значения из коллекции позиций табуляции конструктора документов.
 Assert.AreEqual(paragraphs[0].ParagraphFormat.TabStops, paragraphs[1].ParagraphFormat.TabStops);
 Assert.AreNotSame(paragraphs[0].ParagraphFormat.TabStops, paragraphs[1].ParagraphFormat.TabStops);
 
-// Набор позиций табуляции может указывать нам на позиции TabStop до и после определенных позиций.
+// Коллекция табуляции может указывать нам на TabStops до и после определенных позиций.
 Assert.AreEqual(72.0, tabStops.Before(100.0).Position);
 Assert.AreEqual(432.0, tabStops.After(100.0).Position);
 

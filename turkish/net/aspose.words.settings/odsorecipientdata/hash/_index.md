@@ -1,14 +1,14 @@
 ---
 title: OdsoRecipientData.Hash
 second_title: Aspose.Words for .NET API Referansı
-description: OdsoRecipientData mülk. Bu kaydın karma kodunu temsil eder. Bazen Microsoft WordHash yerine bütün bir kaydınUniqueTag value. Varsayılan değer 0. dir
+description: OdsoRecipientData mülk. Bu kaydın karma kodunu temsil eder. Bazen Microsoft Word kullanırHash bir kayıt yerine tüm bir kaydınUniqueTag değer. Varsayılan değer 0. dir
 type: docs
 weight: 40
 url: /tr/net/aspose.words.settings/odsorecipientdata/hash/
 ---
 ## OdsoRecipientData.Hash property
 
-Bu kaydın karma kodunu temsil eder. Bazen Microsoft Word`Hash` yerine bütün bir kaydın[`UniqueTag`](../uniquetag/) value. Varsayılan değer 0. 'dir
+Bu kaydın karma kodunu temsil eder. Bazen Microsoft Word kullanır`Hash` bir kayıt yerine tüm bir kaydın[`UniqueTag`](../uniquetag/) değer. Varsayılan değer 0. 'dir
 
 ```csharp
 public int Hash { get; set; }
@@ -16,7 +16,7 @@ public int Hash { get; set; }
 
 ### Örnekler
 
-Adres mektup birleştirmenin hangi birleştirme veri kaynağı kayıtlarını dışlayacağını belirleyen veri koleksiyonuna nasıl erişileceğini gösterir.
+Adres-mektup birleştirmenin hangi birleştirme veri kaynağı kayıtlarını hariç tutacağını belirleyen veri koleksiyonuna nasıl erişileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
@@ -41,7 +41,7 @@ using (IEnumerator<OdsoRecipientData> enumerator = dataCollection.GetEnumerator(
 // Bu koleksiyondaki elemanları klonlayabiliriz.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Elemanları tek tek kaldırabilir veya tüm koleksiyonu bir kerede temizleyebiliriz.
+// Ayrıca öğeleri tek tek kaldırabiliriz veya koleksiyonun tamamını bir kerede temizleyebiliriz.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(69, dataCollection.Count);

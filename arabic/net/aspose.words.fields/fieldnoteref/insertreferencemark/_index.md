@@ -1,14 +1,14 @@
 ---
 title: FieldNoteRef.InsertReferenceMark
 second_title: Aspose.Words لمراجع .NET API
-description: FieldNoteRef ملكية. إدراج العلامة المرجعية بنفس تنسيق الأحرف كنمط مرجع الحاشية السفلية أو نمط مرجع التعليق الختامي.
+description: FieldNoteRef ملكية. إدراج العلامة المرجعية بنفس تنسيق الأحرف مثل مرجع الحاشية السفلية أو نمط مرجع التعليقات الختامية.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fields/fieldnoteref/insertreferencemark/
 ---
 ## FieldNoteRef.InsertReferenceMark property
 
-إدراج العلامة المرجعية بنفس تنسيق الأحرف كنمط مرجع الحاشية السفلية أو نمط مرجع التعليق الختامي.
+إدراج العلامة المرجعية بنفس تنسيق الأحرف مثل مرجع الحاشية السفلية أو نمط مرجع التعليقات الختامية.
 
 ```csharp
 public bool InsertReferenceMark { get; set; }
@@ -16,7 +16,7 @@ public bool InsertReferenceMark { get; set; }
 
 ### أمثلة
 
-يظهر لإدراج حقول NOTEREF وتعديل مظهرها.
+يظهر لإدراج حقول NOTREF، وتعديل مظهرها.
 
 ```csharp
 public void FieldNoteRef()
@@ -24,32 +24,34 @@ public void FieldNoteRef()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // قم بإنشاء إشارة مرجعية مع حاشية سفلية سيرجع إليها حقل NOTEREF.
+    // قم بإنشاء إشارة مرجعية مع حاشية سفلية سيشير إليها حقل NOTREF.
     InsertBookmarkWithFootnote(builder, "MyBookmark1", "Contents of MyBookmark1", "Footnote from MyBookmark1");
 
-    // سيعرض حقل NOTEREF هذا رقم الحاشية السفلية داخل الإشارة المرجعية المرجعية.
-    // يتيح لنا تعيين خاصية InsertHyperlink الانتقال إلى الإشارة المرجعية عن طريق Ctrl + النقر فوق الحقل في Microsoft Word.
+    // سيعرض حقل NOTREF هذا رقم الحاشية السفلية داخل الإشارة المرجعية المشار إليها.
+    // يتيح لنا تعيين خاصية InsertHyperlink الانتقال إلى الإشارة المرجعية عن طريق الضغط على Ctrl + النقر فوق الحقل في Microsoft Word.
     Assert.AreEqual(" NOTEREF  MyBookmark2 \\h",
         InsertFieldNoteRef(builder, "MyBookmark2", true, false, false, "Hyperlink to Bookmark2, with footnote number ").GetFieldCode());
 
-    // عند استخدام علامة \ p ، بعد رقم الحاشية السفلية ، يعرض الحقل أيضًا موضع الإشارة المرجعية بالنسبة للحقل.
-    // Bookmark1 أعلى هذا الحقل وتحتوي على رقم 1 في الحاشية السفلية ، وبالتالي ستكون النتيجة "1 أعلاه" عند التحديث.
+    // عند استخدام العلامة \p، بعد رقم الحاشية السفلية، يعرض الحقل أيضًا موضع الإشارة المرجعية بالنسبة للحقل.
+    // الإشارة المرجعية 1 أعلى هذا الحقل وتحتوي على الحاشية السفلية رقم 1، لذا ستكون النتيجة "1 أعلاه" عند التحديث.
     Assert.AreEqual(" NOTEREF  MyBookmark1 \\h \\p",
         InsertFieldNoteRef(builder, "MyBookmark1", true, true, false, "Bookmark1, with footnote number ").GetFieldCode());
 
-    // Bookmark2 أسفل هذا الحقل وتحتوي على رقم 2 في الحاشية السفلية ، لذلك سيعرض الحقل "2 أدناه".
-    // تجعل العلامة \ f يظهر الرقم 2 بنفس تنسيق تسمية رقم الحاشية السفلية في النص الفعلي.
+    // الإشارة المرجعية 2 موجودة أسفل هذا الحقل وتحتوي على الحاشية السفلية رقم 2، لذا سيعرض الحقل "2 أدناه".
+    // العلامة \f تجعل الرقم 2 يظهر بنفس تنسيق تسمية رقم الحاشية السفلية في النص الفعلي.
     Assert.AreEqual(" NOTEREF  MyBookmark2 \\h \\p \\f",
         InsertFieldNoteRef(builder, "MyBookmark2", true, true, true, "Bookmark2, with footnote number ").GetFieldCode());
 
     builder.InsertBreak(BreakType.PageBreak);
     InsertBookmarkWithFootnote(builder, "MyBookmark2", "Contents of MyBookmark2", "Footnote from MyBookmark2");
 
+    doc.UpdatePageLayout();
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.NOTEREF.docx");
+}
 
 /// <summary>
-/// يستخدم أداة إنشاء المستندات لإدراج حقل NOTEREF بخصائص محددة.
+/// يستخدم منشئ المستندات لإدراج حقل NOTREF بخصائص محددة.
 /// </summary>
 private static FieldNoteRef InsertFieldNoteRef(DocumentBuilder builder, string bookmarkName, bool insertHyperlink, bool insertRelativePosition, bool insertReferenceMark, string textBefore)
 {
@@ -66,7 +68,7 @@ private static FieldNoteRef InsertFieldNoteRef(DocumentBuilder builder, string b
 }
 
 /// <summary>
-/// يستخدم منشئ المستندات لإدراج إشارة مرجعية مسماة مع حاشية سفلية في النهاية.
+/// يستخدم أداة إنشاء المستندات لإدراج إشارة مرجعية مسماة مع حاشية سفلية في النهاية.
 /// </summary>
 private static void InsertBookmarkWithFootnote(DocumentBuilder builder, string bookmarkName, string bookmarkText, string footnoteText)
 {

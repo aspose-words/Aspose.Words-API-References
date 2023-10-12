@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTagRangeStart.RemoveSelfOnly
 second_title: Référence de l'API Aspose.Words pour .NET
-description: StructuredDocumentTagRangeStart méthode. Supprime ce début de plage et les nœuds de fin de plage appropriés de la balise de document structuré mais conserve son contenu dans larborescence du document.
+description: StructuredDocumentTagRangeStart méthode. Supprime les nœuds de début de plage et de fin de plage appropriés de la balise de document structuré mais conserve son contenu dans larborescence du document.
 type: docs
 weight: 240
 url: /fr/net/aspose.words.markup/structureddocumenttagrangestart/removeselfonly/
 ---
 ## StructuredDocumentTagRangeStart.RemoveSelfOnly method
 
-Supprime ce début de plage et les nœuds de fin de plage appropriés de la balise de document structuré, mais conserve son contenu dans l'arborescence du document.
+Supprime les nœuds de début de plage et de fin de plage appropriés de la balise de document structuré, mais conserve son contenu dans l'arborescence du document.
 
 ```csharp
 public void RemoveSelfOnly()
@@ -19,6 +19,7 @@ public void RemoveSelfOnly()
 Montre comment créer/supprimer une balise de document structuré et son contenu.
 
 ```csharp
+public void SdtRangeExtendedMethods()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);

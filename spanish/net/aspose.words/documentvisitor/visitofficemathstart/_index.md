@@ -1,14 +1,14 @@
 ---
 title: DocumentVisitor.VisitOfficeMathStart
 second_title: Referencia de API de Aspose.Words para .NET
-description: DocumentVisitor método. Llamado cuando se ha iniciado la enumeración de un objeto Office Math.
+description: DocumentVisitor método. Se llama cuando ha comenzado la enumeración de un objeto de Office Math.
 type: docs
 weight: 310
 url: /es/net/aspose.words/documentvisitor/visitofficemathstart/
 ---
 ## DocumentVisitor.VisitOfficeMathStart method
 
-Llamado cuando se ha iniciado la enumeración de un objeto Office Math.
+Se llama cuando ha comenzado la enumeración de un objeto de Office Math.
 
 ```csharp
 public virtual VisitorAction VisitOfficeMathStart(OfficeMath officeMath)
@@ -24,7 +24,7 @@ A[`VisitorAction`](../../visitoraction/) valor que especifica cómo continuar la
 
 ### Ejemplos
 
-Muestra cómo imprimir la estructura de nodos de cada nodo matemático de oficina en un documento.
+Muestra cómo imprimir la estructura de nodos de cada nodo matemático de Office en un documento.
 
 ```csharp
 public void OfficeMathToText()
@@ -32,8 +32,8 @@ public void OfficeMathToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     OfficeMathStructurePrinter visitor = new OfficeMathStructurePrinter();
 
-    // Cuando conseguimos que un nodo compuesto acepte un documento visitante, el visitante visita el nodo de aceptación,
-    // y luego atraviesa todos los elementos secundarios del nodo en profundidad.
+    // Cuando conseguimos que un nodo compuesto acepte un visitante del documento, el visitante visita el nodo receptor,
+    // y luego atraviesa todos los hijos del nodo en profundidad.
     // El visitante puede leer y modificar cada nodo visitado.
     doc.Accept(visitor);
 
@@ -53,7 +53,7 @@ public class OfficeMathStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Obtiene el texto sin formato del documento que fue acumulado por el visitante.
+    /// Obtiene el texto sin formato del documento acumulado por el visitante.
     /// </summary>
     public string GetText()
     {
@@ -61,7 +61,7 @@ public class OfficeMathStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Llamado cuando se encuentra un nodo Ejecutar en el documento.
+    /// Se llama cuando se encuentra un nodo Ejecutar en el documento.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -71,7 +71,7 @@ public class OfficeMathStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Llamado cuando se encuentra un nodo OfficeMath en el documento.
+    /// Se llama cuando se encuentra un nodo OfficeMath en el documento.
     /// </summary>
     public override VisitorAction VisitOfficeMathStart(OfficeMath officeMath)
     {
@@ -83,7 +83,7 @@ public class OfficeMathStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Llamado después de que se hayan visitado todos los nodos secundarios de un nodo OfficeMath.
+    /// Se llama después de que se hayan visitado todos los nodos secundarios de un nodo de OfficeMath.
     /// </summary>
     public override VisitorAction VisitOfficeMathEnd(OfficeMath officeMath)
     {
@@ -95,9 +95,9 @@ public class OfficeMathStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Agregue una línea al StringBuilder y sangre dependiendo de qué tan profundo esté el visitante en el árbol del documento.
+    /// Agrega una línea al StringBuilder y sangra dependiendo de qué tan profundo esté el visitante en el árbol del documento.
     /// </summary>
-    /// <parámetro nombre="texto"></parámetro>
+    /// <param nombre="texto"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++) mBuilder.Append("|  ");

@@ -1,14 +1,14 @@
 ---
 title: TextBox.Parent
 second_title: Référence de l'API Aspose.Words pour .NET
-description: TextBox propriété. Obtient une forme parent pour le TextBox.
+description: TextBox propriété. Obtient une forme parent pour leTextBox .
 type: docs
-weight: 80
+weight: 90
 url: /fr/net/aspose.words.drawing/textbox/parent/
 ---
 ## TextBox.Parent property
 
-Obtient une forme parent pour le TextBox.
+Obtient une forme parent pour le[`TextBox`](../) .
 
 ```csharp
 public Shape Parent { get; }

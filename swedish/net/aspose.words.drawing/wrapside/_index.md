@@ -3,7 +3,7 @@ title: Enum WrapSide
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Drawing.WrapSide uppräkning. Anger vilka sidor av formen eller bilden som texten lindas runt.
 type: docs
-weight: 1240
+weight: 1390
 url: /sv/net/aspose.words.drawing/wrapside/
 ---
 ## WrapSide enumeration

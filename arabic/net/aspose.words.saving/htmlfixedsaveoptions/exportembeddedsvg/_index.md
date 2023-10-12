@@ -21,12 +21,12 @@ public bool ExportEmbeddedSvg { get; set; }
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");
 
-// عندما نقوم بتصدير مستند به كائنات SVG إلى .html ،
-// Aspose. Words يمكن أن تضع هذه الأشياء في موقعين محتملين.
-// سيؤدي تعيين علامة "ExportEmbeddedSvg" على "true" إلى تضمين جميع بيانات كائن SVG الأولية
-// داخل HTML الناتج ، داخل < صورة > ; العلامات.
+// عندما نقوم بتصدير مستند يحتوي على كائنات SVG إلى ‎.html،
+// يمكن لـ Aspose.Words وضع هذه الكائنات في موقعين محتملين.
+// سيؤدي تعيين علامة "ExportEmbeddedSvg" على "true" إلى تضمين كافة البيانات الأولية لكائن SVG
+// داخل HTML الناتج، داخل <image> العلامات.
 // سيؤدي تعيين هذه العلامة إلى "خطأ" إلى إنشاء ملف في نظام الملفات المحلي لكل كائن SVG.
-// سيرتبط HTML بكل ملف باستخدام السمة "data" الخاصة بـ < object > بطاقة شعار.
+// سوف يرتبط HTML بكل ملف باستخدام سمة "البيانات" الخاصة بالكائن <object> بطاقة شعار.
 HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions
 {
     ExportEmbeddedSvg = exportSvgs

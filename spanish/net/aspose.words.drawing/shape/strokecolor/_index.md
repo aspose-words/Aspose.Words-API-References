@@ -16,7 +16,7 @@ public Color StrokeColor { get; set; }
 
 ### Observaciones
 
-Este es un atajo a la[`Color`](../../stroke/color/) propiedad.
+Este es un atajo hacia el[`Color`](../../stroke/color/) propiedad.
 
 El valor predeterminado es Black.
 
@@ -28,33 +28,34 @@ Muestra cómo rellenar una forma con un color sólido.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Escribe algo de texto y luego cúbrelo con una forma flotante.
+// Escribe un texto y luego cúbrelo con una forma flotante.
 builder.Font.Size = 32;
 builder.Writeln("Hello world!");
 
 Shape shape = builder.InsertShape(ShapeType.CloudCallout, RelativeHorizontalPosition.LeftMargin, 25,
     RelativeVerticalPosition.TopMargin, 25, 250, 150, WrapType.None);
 
-// Usa la propiedad "StrokeColor" para establecer el color del contorno de la forma.
+// Utilice la propiedad "StrokeColor" para establecer el color del contorno de la forma.
 shape.StrokeColor = Color.CadetBlue;
 
-// Use la propiedad "FillColor" para establecer el color del área interior de la forma.
+// Utilice la propiedad "FillColor" para establecer el color del área interior de la forma.
 shape.FillColor = Color.LightBlue;
 
 // La propiedad "Opacidad" determina qué tan transparente es el color en una escala de 0-1,
-// siendo 1 totalmente opaco y 0 invisible.
-// El relleno de forma predeterminado es totalmente opaco, por lo que no podemos ver el texto sobre el que se encuentra esta forma.
+// siendo 1 completamente opaco y 0 invisible.
+// El relleno de forma por defecto es completamente opaco, por lo que no podemos ver el texto sobre el que se encuentra esta forma.
 Assert.AreEqual(1.0d, shape.Fill.Opacity);
 
-// Establezca la opacidad del color de relleno de la forma en un valor más bajo para que podamos ver el texto debajo.
+// Establece la opacidad del color de relleno de la forma en un valor más bajo para que podamos ver el texto debajo.
 shape.Fill.Opacity = 0.3;
 
 doc.Save(ArtifactsDir + "Shape.Fill.docx");
 ```
 
-Muestra cómo iterar sobre todas las formas en un documento.
+Muestra cómo iterar sobre todas las formas de un documento.
 
 ```csharp
+public void VisitShapes()
 {
     Document doc = new Document(MyDir + "Revision shape.docx");
     ShapeAppearancePrinter visitor = new ShapeAppearancePrinter();
@@ -76,7 +77,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Agrega una línea a StringBuilder con un carácter de tabulación antepuesto para cada nivel de sangría.
+    /// Agrega una línea al StringBuilder con un carácter de tabulación antepuesto para cada nivel de sangría.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -86,7 +87,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Devolver todo el texto que ha acumulado el StringBuilder.
+    /// Devuelve todo el texto que ha acumulado StringBuilder.
     /// </summary>
     public string GetText()
     {
@@ -94,7 +95,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Llamado cuando este visitante visita el inicio de un nodo Shape.
+    /// Se llama cuando este visitante visita el inicio de un nodo Shape.
     /// </summary>
     public override VisitorAction VisitShapeStart(Shape shape)
     {
@@ -130,7 +131,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Llamado cuando este visitante visita el final de un nodo Shape.
+    /// Se llama cuando este visitante visita el final de un nodo Shape.
     /// </summary>
     public override VisitorAction VisitShapeEnd(Shape shape)
     {
@@ -142,7 +143,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Llamado cuando este visitante visita el inicio de un nodo GroupShape.
+    /// Se llama cuando este visitante visita el inicio de un nodo GroupShape.
     /// </summary>
     public override VisitorAction VisitGroupShapeStart(GroupShape groupShape)
     {
@@ -153,7 +154,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Llamado cuando este visitante visita el final de un nodo GroupShape.
+    /// Se llama cuando este visitante visita el final de un nodo GroupShape.
     /// </summary>
     public override VisitorAction VisitGroupShapeEnd(GroupShape groupShape)
     {

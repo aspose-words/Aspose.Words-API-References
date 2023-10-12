@@ -1,14 +1,14 @@
 ---
 title: IFieldMergingCallback.ImageFieldMerging
 second_title: Aspose.Words for .NET API Referansı
-description: IFieldMergingCallback yöntem. Aspose.Words adres mektup birleştirme motoru bir birleştirme alanına bir resim eklemek üzereyken çağrılır.
+description: IFieldMergingCallback yöntem. Aspose.Words adresmektup birleştirme motoru birleştirme alanına bir resim eklemek üzereyken çağrılır.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.mailmerging/ifieldmergingcallback/imagefieldmerging/
 ---
 ## IFieldMergingCallback.ImageFieldMerging method
 
-Aspose.Words adres mektup birleştirme motoru bir birleştirme alanına bir resim eklemek üzereyken çağrılır.
+Aspose.Words adres-mektup birleştirme motoru birleştirme alanına bir resim eklemek üzereyken çağrılır.
 
 ```csharp
 public void ImageFieldMerging(ImageFieldMergingArgs args)
@@ -25,14 +25,14 @@ public void ImageFromBlob()
 
     doc.MailMerge.FieldMergingCallback = new HandleMergeImageFieldFromBlob();
 
-    string connString = $"Provider=Microsoft.Jet.OLEDB.4.0;Data Source={DatabaseDir + "Northwind.mdb"};";
+    string connString = $"Provider=Microsoft.ACE.OLEDB.12.0;Data Source={DatabaseDir + "Northwind.accdb"};";
     string query = "SELECT FirstName, LastName, Title, Address, City, Region, Country, PhotoBLOB FROM Employees";
 
     using (OleDbConnection conn = new OleDbConnection(connString))
     {
         conn.Open();
 
-        // Tüm kayıtları bir kerede okuyan bir modda olması gereken veri okuyucuyu açın.
+        // Tüm kayıtları aynı anda okuyacak modda olması gereken veri okuyucuyu açın.
         OleDbCommand cmd = new OleDbCommand(query, conn);
         IDataReader dataReader = cmd.ExecuteReader();
 
@@ -40,6 +40,7 @@ public void ImageFromBlob()
     }
 
     doc.Save(ArtifactsDir + "MailMergeEvent.ImageFromBlob.docx");
+}
 
 private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 {
@@ -49,7 +50,7 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
     }
 
     /// <summary>
-    /// Adres mektup birleştirme, belgede adında "Image:" etiketi olan bir MERGEFIELD ile karşılaştığında çağrılır.
+    /// Adres-mektup birleştirme, belgede adında "Image:" etiketi bulunan bir MERGEFIELD ile karşılaştığında çağrılır.
     /// </summary>
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs e)
     {

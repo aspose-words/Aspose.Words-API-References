@@ -1,14 +1,14 @@
 ---
 title: FieldChar.GetField
 second_title: Aspose.Words لمراجع .NET API
-description: FieldChar طريقة. إرجاع حقل للحقل char .
+description: FieldChar طريقة. إرجاع حقل للحقل char.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fields/fieldchar/getfield/
 ---
 ## FieldChar.GetField method
 
-إرجاع حقل للحقل char .
+إرجاع حقل للحقل char.
 
 ```csharp
 public Field GetField()
@@ -16,11 +16,11 @@ public Field GetField()
 
 ### قيمة الإرجاع
 
-حقل لشار الحقل.
+حقل لحرف الحقل.
 
 ### ملاحظات
 
-جديد[`Field`](../../field/) يتم إنشاء الكائن في كل مرة يتم استدعاء الطريقة.
+جديد[`Field`](../../field/) يتم إنشاء الكائن في كل مرة يتم فيها استدعاء الطريقة.
 
 ### أمثلة
 
@@ -40,13 +40,13 @@ Assert.AreEqual(FieldType.FieldDate, fieldStart.FieldType);
 Assert.AreEqual(false, fieldStart.IsDirty);
 Assert.AreEqual(false, fieldStart.IsLocked);
 
-// استرجع كائن الواجهة الذي يمثل الحقل في المستند.
+// استرداد كائن الواجهة الذي يمثل الحقل الموجود في المستند.
 field = (FieldDate)fieldStart.GetField();
 
 Assert.AreEqual(false, field.IsLocked);
 Assert.AreEqual(" DATE  \\@ \"dddd, MMMM dd, yyyy\"", field.GetFieldCode());
 
-// تحديث الحقل لإظهار التاريخ الحالي.
+// قم بتحديث الحقل لإظهار التاريخ الحالي.
 field.Update();
 ```
 

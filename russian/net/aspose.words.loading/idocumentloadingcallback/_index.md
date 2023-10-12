@@ -1,14 +1,14 @@
 ---
 title: Interface IDocumentLoadingCallback
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Loading.IDocumentLoadingCallback интерфейс. Реализуйте этот интерфейс если вы хотите чтобы ваш собственный метод вызывался во время загрузки документа.
+description: Aspose.Words.Loading.IDocumentLoadingCallback интерфейс. Реализуйте этот интерфейс если вы хотите чтобы во время загрузки документа вызывался собственный метод.
 type: docs
-weight: 3430
+weight: 3630
 url: /ru/net/aspose.words.loading/idocumentloadingcallback/
 ---
 ## IDocumentLoadingCallback interface
 
-Реализуйте этот интерфейс, если вы хотите, чтобы ваш собственный метод вызывался во время загрузки документа.
+Реализуйте этот интерфейс, если вы хотите, чтобы во время загрузки документа вызывался собственный метод.
 
 ```csharp
 public interface IDocumentLoadingCallback
@@ -25,7 +25,6 @@ public interface IDocumentLoadingCallback
 Показывает, как уведомить пользователя, если загрузка документа превысила ожидаемое время загрузки.
 
 ```csharp
-[Test]
 public void ProgressCallback()
 {
     LoadingProgressCallback progressCallback = new LoadingProgressCallback();
@@ -40,17 +39,17 @@ public void ProgressCallback()
     {
         Console.WriteLine(exception.Message);
 
-        // Обработка проблемы продолжительности загрузки.
+        // Обработка проблемы с продолжительностью загрузки.
     }
 }
 
 /// <summary>
-/// Отменить загрузку документа по истечении "MaxDuration" секунд.
+/// Отменить загрузку документа по истечении секунд "MaxDuration".
 /// </summary>
 public class LoadingProgressCallback : IDocumentLoadingCallback
 {
     /// <summary>
-    /// Контр.
+    /// Центр.
     /// </summary>
     public LoadingProgressCallback()
     {
@@ -58,7 +57,7 @@ public class LoadingProgressCallback : IDocumentLoadingCallback
     }
 
     /// <summary>
-    /// Метод обратного вызова, который вызывается при загрузке документа.
+    /// Метод обратного вызова, который вызывается во время загрузки документа.
     /// </summary>
     /// <param name="args">Загрузка аргументов.</param>
     public void Notify(DocumentLoadingArgs args)
@@ -76,7 +75,7 @@ public class LoadingProgressCallback : IDocumentLoadingCallback
     private readonly DateTime mLoadingStartedAt;
 
     /// <summary>
-    /// Максимально допустимая продолжительность в сек.
+    /// Максимально допустимая продолжительность в секундах.
     /// </summary>
     private const double MaxDuration = 0.5;
 }

@@ -1,14 +1,14 @@
 ---
 title: OfficeMath.Justification
 second_title: Aspose.Words for .NET API Referansı
-description: OfficeMath mülk. Office Math gerekçesini alır/ayarlar.
+description: OfficeMath mülk. Office Matematik gerekçesini alır/ayarlar.
 type: docs
-weight: 30
+weight: 20
 url: /tr/net/aspose.words.math/officemath/justification/
 ---
 ## OfficeMath.Justification property
 
-Office Math gerekçesini alır/ayarlar.
+Office Matematik gerekçesini alır/ayarlar.
 
 ```csharp
 public OfficeMathJustification Justification { get; set; }
@@ -20,11 +20,11 @@ Gerekçe, görüntüleme biçimi türüyle Office Math'a ayarlanamazInline.
 
 Satır içi yaslama, görüntüleme biçimi türüyle Office Math'a ayarlanamazDisplay.
 
-karşılık gelen[`DisplayType`](../displaytype/) Office Math gerekçesini ayarlamadan önce ayarlanmalıdır.
+karşılık gelen[`DisplayType`](../displaytype/) Office Math gerekçesini ayarlamadan önce ayarlanması gerekir.
 
 ### Örnekler
 
-Office matematik ekranı biçimlendirmesinin nasıl ayarlanacağını gösterir.
+Ofis matematik ekranı formatının nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Office math.docx");
@@ -32,13 +32,10 @@ Document doc = new Document(MyDir + "Office math.docx");
 OfficeMath officeMath = (OfficeMath) doc.GetChild(NodeType.OfficeMath, 0, true);
 
 // Diğer OfficeMath düğümlerinin çocukları olan OfficeMath düğümleri her zaman satır içidir.
-// Çalıştığımız düğüm, konumunu ve görüntüleme türünü değiştirmek için temel düğümdür.
+// Çalıştığımız düğüm, konumunu ve görüntüleme türünü değiştirecek temel düğümdür.
 Assert.AreEqual(MathObjectType.OMathPara, officeMath.MathObjectType);
 Assert.AreEqual(NodeType.OfficeMath, officeMath.NodeType);
 Assert.AreEqual(officeMath.ParentNode, officeMath.ParentParagraph);
-
-// OOXML ve WML biçimleri "EquationXmlEncoding" özelliğini kullanır.
-Assert.IsNull(officeMath.EquationXmlEncoding);
 
 // OfficeMath düğümünün konumunu ve görüntüleme türünü değiştirin.
 officeMath.DisplayType = OfficeMathDisplayType.Display;

@@ -3,12 +3,14 @@ title: Class WebExtensionBinding
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.WebExtensions.WebExtensionBinding klass. Anger ett bindande förhållande mellan ett webbtillägg och data i dokumentet.
 type: docs
-weight: 6440
+weight: 6750
 url: /sv/net/aspose.words.webextensions/webextensionbinding/
 ---
 ## WebExtensionBinding class
 
 Anger ett bindande förhållande mellan ett webbtillägg och data i dokumentet.
+
+För att lära dig mer, besök[Arbeta med Office-tillägg](https://docs.aspose.com/words/net/work-with-office-add-ins/) dokumentationsartikel.
 
 ```csharp
 public class WebExtensionBinding

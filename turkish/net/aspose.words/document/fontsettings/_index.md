@@ -16,9 +16,9 @@ public FontSettings FontSettings { get; set; }
 
 ### Notlar
 
-Bu özellik, belge başına yazı tipi ayarlarını belirlemeye izin verir. Null olarak ayarlanırsa, varsayılan statik yazı tipi settings [`DefaultInstance`](../../../aspose.words.fonts/fontsettings/defaultinstance/) kullanılacak.
+Bu özellik, belge başına yazı tipi ayarlarının belirlenmesine olanak tanır. Eğer ayarlanmışsa`hükümsüz` , varsayılan statik yazı tipi ayarları [`DefaultInstance`](../../../aspose.words.fonts/fontsettings/defaultinstance/) kullanılacak.
 
-Varsayılan değer null'dur.
+Varsayılan değer:`hükümsüz`.
 
 ### Örnekler
 
@@ -42,21 +42,21 @@ Assert.True(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial
 // İkinci yazı tipi olan "Amethysta" kullanılamıyor.
 Assert.False(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Amethysta"));
 
-// Bir yazı tipi değiştirme tablosu yapılandırabiliriz.
+// Belirleyen bir yazı tipi değiştirme tablosu yapılandırabiliriz
 // Aspose.Words'ün mevcut olmayan yazı tiplerinin yerine hangi yazı tiplerini kullanacağı.
 // "Amethysta" için iki ikame yazı tipi ayarlayın: "Arvo" ve "Courier New".
-// İlk ikame mevcut değilse, Aspose.Words ikinci ikameyi kullanmaya çalışır ve bu şekilde devam eder.
+// İlk ikame kullanılamıyorsa Aspose.Words ikinci ikameyi kullanmayı dener ve bu şekilde devam eder.
 doc.FontSettings = new FontSettings();
 doc.FontSettings.SubstitutionSettings.TableSubstitution.SetSubstitutes(
     "Amethysta", new[] {"Arvo", "Courier New"});
 
- // "Amethysta" kullanılamaz ve ikame kuralı, ikame olarak kullanılacak ilk yazı tipinin "Arvo" olduğunu belirtir.
+ // "Amethysta" kullanılamıyor ve değiştirme kuralı, yerine kullanılacak ilk yazı tipinin "Arvo" olduğunu belirtir.
 Assert.False(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arvo"));
 
  // "Arvo" da mevcut değil, ancak "Courier New" mevcut.
 Assert.True(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Courier New"));
 
-// Çıktı belgesi, "Courier New" ile biçimlendirilmiş "Amethysta" yazı tipini kullanan metni görüntüleyecektir.
+// Çıktı belgesi "Courier New" ile biçimlendirilmiş "Amethysta" yazı tipini kullanan metni görüntüleyecektir.
 doc.Save(ArtifactsDir + "FontSettings.TableSubstitution.pdf");
 ```
 

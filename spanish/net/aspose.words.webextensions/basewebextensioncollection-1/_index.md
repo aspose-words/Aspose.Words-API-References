@@ -3,12 +3,14 @@ title: Class BaseWebExtensionCollectionT
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.WebExtensions.BaseWebExtensionCollection1T clase. Clase base paraTaskPaneCollection WebExtensionBindingCollection  WebExtensionPropertyCollection yWebExtensionReferenceCollection colecciones.
 type: docs
-weight: 6390
+weight: 6700
 url: /es/net/aspose.words.webextensions/basewebextensioncollection-1/
 ---
 ## BaseWebExtensionCollection&lt;T&gt; class
 
 Clase base para[`TaskPaneCollection`](../taskpanecollection/) ,[`WebExtensionBindingCollection`](../webextensionbindingcollection/) , [`WebExtensionPropertyCollection`](../webextensionpropertycollection/) y[`WebExtensionReferenceCollection`](../webextensionreferencecollection/) colecciones.
+
+Para obtener más información, visite el[Trabajar con complementos de Office](https://docs.aspose.com/words/net/work-with-office-add-ins/) artículo de documentación.
 
 ```csharp
 public abstract class BaseWebExtensionCollection<T> : IEnumerable<T>
@@ -17,13 +19,13 @@ public abstract class BaseWebExtensionCollection<T> : IEnumerable<T>
 
 | Parámetro | Descripción |
 | --- | --- |
-| T | Tipo de un elemento de colección. |
+| T | Tipo de artículo de colección. |
 
 ## Propiedades
 
 | Nombre | Descripción |
 | --- | --- |
-| [Count](../../aspose.words.webextensions/basewebextensioncollection-1/count/) { get; } | Obtiene el número de elementos que contiene la colección. |
+| [Count](../../aspose.words.webextensions/basewebextensioncollection-1/count/) { get; } | Obtiene el número de elementos contenidos en la colección. |
 | [Item](../../aspose.words.webextensions/basewebextensioncollection-1/item/) { get; set; } | Obtiene o establece un elemento en el índice especificado. |
 
 ## Métodos
@@ -55,7 +57,7 @@ using (IEnumerator<WebExtensionProperty> enumerator = webExtensionPropertyCollec
     }
 }
 
-// Eliminar la extensión web.
+// Elimina la extensión web.
 doc.WebExtensionTaskPanes.Remove(0);
 
 Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);

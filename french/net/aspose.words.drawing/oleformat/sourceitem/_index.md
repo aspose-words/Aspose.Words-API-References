@@ -18,7 +18,7 @@ public string SourceItem { get; set; }
 
 La valeur par défaut est une chaîne vide.
 
-Par exemple, si le fichier source est un classeur Microsoft Excel, le`SourceItem` La propriété peut renvoyer "Workbook1!R3C1:R4C2" si l'objet OLE ne contient que quelques cellules de la feuille de calcul.
+Par exemple, si le fichier source est un classeur Microsoft Excel, le`SourceItem` La propriété peut renvoyer « Workbook1!R3C1:R4C2 » si l'objet OLE ne contient que quelques cellules de la feuille de calcul.
 
 ### Exemples
 
@@ -59,7 +59,7 @@ Assert.AreEqual("Microsoft Visio drawing.vsd", oleFormat.IconCaption);
 
 doc.Save(ArtifactsDir + "Shape.OleLinks.docx");
 
-// Si l'objet contient des données OLE, nous pouvons y accéder à l'aide d'un flux.
+// Si l'objet contient des données OLE, nous pouvons y accéder via un flux.
 using (MemoryStream stream = oleFormat.GetOleEntry("\x0001CompObj"))
 {
     byte[] oleEntryBytes = stream.ToArray();

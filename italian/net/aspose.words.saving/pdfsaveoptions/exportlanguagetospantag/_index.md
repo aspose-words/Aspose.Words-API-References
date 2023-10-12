@@ -3,7 +3,7 @@ title: PdfSaveOptions.ExportLanguageToSpanTag
 second_title: Aspose.Words per .NET API Reference
 description: PdfSaveOptions proprietà. Ottiene o imposta un valore che determina se creare o meno un tag Span nella struttura del documento per esportare la lingua del testo.
 type: docs
-weight: 130
+weight: 150
 url: /it/net/aspose.words.saving/pdfsaveoptions/exportlanguagetospantag/
 ---
 ## PdfSaveOptions.ExportLanguageToSpanTag property
@@ -16,11 +16,11 @@ public bool ExportLanguageToSpanTag { get; set; }
 
 ### Osservazioni
 
-Il valore predefinito è`falso` e l'attributo "Lang" è allegato a una sequenza di contenuto contrassegnato in un flusso di contenuto di una pagina.
+Il valore predefinito è`falso` l'attributo "Lang" è allegato a una sequenza di contenuto contrassegnato nel flusso di contenuto della pagina.
 
-Quando il valore è`VERO` Il tag "Span" viene creato per il testo con language non predefinito e l'attributo "Lang" è allegato a questo tag.
+Quando il valore è`VERO` Il tag "Span" viene creato per il testo con lingua non predefinita e l'attributo "Lang" è allegato a questo tag.
 
-Questo valore viene ignorato quando[`ExportDocumentStructure`](../exportdocumentstructure/) è`falso` .
+Questo valore viene ignorato quando[`ExportDocumentStructure`](../exportdocumentstructure/) È`falso` .
 
 ### Esempi
 
@@ -35,7 +35,7 @@ builder.Writeln("Hola mundo!");
 
 PdfSaveOptions saveOptions = new PdfSaveOptions
 {
-    // Nota, quando "ExportDocumentStructure" è false, "ExportLanguageToSpanTag" viene ignorato.
+    // Nota, quando "ExportDocumentStructure" è falso, "ExportLanguageToSpanTag" viene ignorato.
     ExportDocumentStructure = true, ExportLanguageToSpanTag = true
 };
 

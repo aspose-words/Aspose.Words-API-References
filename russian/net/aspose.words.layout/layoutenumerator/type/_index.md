@@ -3,7 +3,7 @@ title: LayoutEnumerator.Type
 second_title: Справочник по API Aspose.Words для .NET
 description: LayoutEnumerator свойство. Получает тип текущего объекта.
 type: docs
-weight: 80
+weight: 90
 url: /ru/net/aspose.words.layout/layoutenumerator/type/
 ---
 ## LayoutEnumerator.Type property
@@ -16,17 +16,17 @@ public LayoutEntityType Type { get; }
 
 ### Примеры
 
-Показывает способы обхода объектов макета документа.
+Показывает способы перемещения по объектам макета документа.
 
 ```csharp
 public void LayoutEnumerator()
 {
-    // Откройте документ, содержащий множество объектов макета.
-    // Сущности макета — это страницы, ячейки, строки, строки и другие объекты, включенные в перечисление LayoutEntityType.
+    // Открытие документа, содержащего различные объекты макета.
+    // Сущностями макета являются страницы, ячейки, строки, строки и другие объекты, включенные в перечисление LayoutEntityType.
     // Каждый объект макета имеет прямоугольное пространство, которое он занимает в теле документа.
     Document doc = new Document(MyDir + "Layout entities.docx");
 
-    // Создайте перечислитель, который может проходить по этим объектам, как по дереву.
+    // Создаем перечислитель, который может перемещаться по этим объектам, как по дереву.
     LayoutEnumerator layoutEnumerator = new LayoutEnumerator(doc);
 
     Assert.AreEqual(doc, layoutEnumerator.Document);
@@ -36,14 +36,14 @@ public void LayoutEnumerator()
     Assert.AreEqual(LayoutEntityType.Page, layoutEnumerator.Type);
     Assert.Throws<InvalidOperationException>(() => Console.WriteLine(layoutEnumerator.Text));
 
-    // Мы можем вызвать этот метод, чтобы убедиться, что перечислитель будет в первом объекте макета.
+    // Мы можем вызвать этот метод, чтобы убедиться, что перечислитель находится в первом объекте макета.
     layoutEnumerator.Reset();
 
-    // Есть два порядка, которые определяют, как перечислитель компоновки продолжает обход объектов компоновки
-    // когда он сталкивается с объектами, которые охватывают несколько страниц.
+    // Есть два порядка, которые определяют, как перечислитель макета продолжает обходить объекты макета
+    // когда он сталкивается с объектами, охватывающими несколько страниц.
     // 1 - В визуальном порядке:
-    // При перемещении между дочерними объектами, занимающими несколько страниц,
-    // макет страницы имеет приоритет, и мы переходим к другим дочерним элементам на этой странице и избегаем элементов на следующей.
+    // При перемещении по дочерним элементам сущности, занимающим несколько страниц,
+    // Макет страницы имеет приоритет, и мы переходим к другим дочерним элементам на этой странице и избегаем элементов на следующей.
     Console.WriteLine("Traversing from first to last, elements between pages separated:");
     TraverseLayoutForward(layoutEnumerator, 1);
 
@@ -52,8 +52,8 @@ public void LayoutEnumerator()
     TraverseLayoutBackward(layoutEnumerator, 1);
 
     // 2 - В логическом порядке:
-    // При перемещении между дочерними объектами, занимающими несколько страниц,
-    // перечислитель будет перемещаться между страницами для обхода всех дочерних объектов.
+    // При перемещении по дочерним элементам сущности, занимающим несколько страниц,
+    // перечислитель будет перемещаться между страницами, чтобы пройти по всем дочерним объектам.
     Console.WriteLine("Traversing from first to last, elements between pages mixed:");
     TraverseLayoutForwardLogical(layoutEnumerator, 1);
 
@@ -62,8 +62,8 @@ public void LayoutEnumerator()
 }
 
 /// <summary>
-/// Перебор коллекции сущностей макета layoutEnumerator от начала до конца,
-/// в глубину и в "визуальном" порядке.
+/// Перечисляем коллекцию сущностей макета LayoutEnumerator от начала до конца,
+/// в порядке глубины и в «визуальном» порядке.
 /// </summary>
 private static void TraverseLayoutForward(LayoutEnumerator layoutEnumerator, int depth)
 {
@@ -80,8 +80,8 @@ private static void TraverseLayoutForward(LayoutEnumerator layoutEnumerator, int
 }
 
 /// <summary>
-/// Перебор коллекции сущностей макета layoutEnumerator в обратном порядке,
-/// в глубину и в "визуальном" порядке.
+/// Перечисляем коллекцию объектов макета LayoutEnumerator задом наперед,
+/// в порядке глубины и в «визуальном» порядке.
 /// </summary>
 private static void TraverseLayoutBackward(LayoutEnumerator layoutEnumerator, int depth)
 {
@@ -98,8 +98,8 @@ private static void TraverseLayoutBackward(LayoutEnumerator layoutEnumerator, in
 }
 
 /// <summary>
-/// Перебор коллекции сущностей макета layoutEnumerator от начала до конца,
-/// в глубину и в "логическом" порядке.
+/// Перечисляем коллекцию сущностей макета LayoutEnumerator от начала до конца,
+/// в глубину и в «логическом» порядке.
 /// </summary>
 private static void TraverseLayoutForwardLogical(LayoutEnumerator layoutEnumerator, int depth)
 {
@@ -116,8 +116,8 @@ private static void TraverseLayoutForwardLogical(LayoutEnumerator layoutEnumerat
 }
 
 /// <summary>
-/// Перебор коллекции сущностей макета layoutEnumerator в обратном порядке,
-/// в глубину и в "логическом" порядке.
+/// Перечисляем коллекцию объектов макета LayoutEnumerator задом наперед,
+/// в глубину и в «логическом» порядке.
 /// </summary>
 private static void TraverseLayoutBackwardLogical(LayoutEnumerator layoutEnumerator, int depth)
 {
@@ -134,9 +134,9 @@ private static void TraverseLayoutBackwardLogical(LayoutEnumerator layoutEnumera
 }
 
 /// <summary>
-/// Вывести информацию о текущем объекте layoutEnumerator в консоль, при этом отступив текст с помощью символов табуляции
-/// на основе его глубины относительно корневого узла, который мы указали в экземпляре конструктора LayoutEnumerator.
-/// Прямоугольник, который мы обрабатываем в конце, представляет собой область и положение, которое объект занимает в документе.
+/// Выводим информацию о текущей сущности LayoutEnumerator на консоль, делая отступы для текста с помощью символов табуляции
+/// на основе его глубины относительно корневого узла, который мы предоставили в экземпляре конструктора LayoutEnumerator.
+/// Прямоугольник, который мы обрабатываем в конце, представляет область и местоположение, которое объект занимает в документе.
 /// </summary>
 private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int indent)
 {
@@ -146,7 +146,7 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
         ? $"{tabs}-> Entity type: {layoutEnumerator.Type}"
         : $"{tabs}-> Entity type & kind: {layoutEnumerator.Type}, {layoutEnumerator.Kind}");
 
-    // Только диапазоны могут содержать текст.
+    // Только промежутки могут содержать текст.
     if (layoutEnumerator.Type == LayoutEntityType.Span)
         Console.WriteLine($"{tabs}   Span contents: \"{layoutEnumerator.Text}\"");
 

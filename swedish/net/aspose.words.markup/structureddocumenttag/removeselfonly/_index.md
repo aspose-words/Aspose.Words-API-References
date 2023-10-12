@@ -3,7 +3,7 @@ title: StructuredDocumentTag.RemoveSelfOnly
 second_title: Aspose.Words för .NET API Referens
 description: StructuredDocumentTag metod. Tar bara bort denna SDTnod själv men behåller innehållet i den i dokumentträdet.
 type: docs
-weight: 340
+weight: 370
 url: /sv/net/aspose.words.markup/structureddocumenttag/removeselfonly/
 ---
 ## StructuredDocumentTag.RemoveSelfOnly method
@@ -51,7 +51,7 @@ tag.EndCharacterFont.Name = "Arial Black";
 tag.Multiline = true;
 
 // Ställ in egenskapen "Appearance" till "SdtAppearance.Tags" för att visa taggar runt innehåll.
-  // Som standard visas strukturerad dokumenttagg som BoundingBox.
+ // Som standard visas strukturerad dokumenttagg som BoundingBox.
 tag.Appearance = SdtAppearance.Tags;
 
 DocumentBuilder builder = new DocumentBuilder(doc);

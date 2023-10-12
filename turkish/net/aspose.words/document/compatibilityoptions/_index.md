@@ -1,14 +1,14 @@
 ---
 title: Document.CompatibilityOptions
 second_title: Aspose.Words for .NET API Referansı
-description: Document mülk. Belge uyumluluğu seçeneklerine erişim sağlar yani ekranda girilen kullanıcı tercihleri. uyumluluk sekmesi Seçenekler Wordde iletişim kutusu.
+description: Document mülk. Belge uyumluluk seçeneklerine yani Uyumluluk sekmesi Seçenekler Worddeki iletişim kutusu.
 type: docs
 weight: 50
 url: /tr/net/aspose.words/document/compatibilityoptions/
 ---
 ## Document.CompatibilityOptions property
 
-Belge uyumluluğu seçeneklerine erişim sağlar (yani, ekranda girilen kullanıcı tercihleri). **uyumluluk** sekmesi **Seçenekler** Word'de iletişim kutusu).
+Belge uyumluluk seçeneklerine (yani, **Uyumluluk** sekmesi **Seçenekler** Word'deki iletişim kutusu).
 
 ```csharp
 public CompatibilityOptions CompatibilityOptions { get; }
@@ -16,22 +16,22 @@ public CompatibilityOptions CompatibilityOptions { get; }
 
 ### Örnekler
 
-Belgenin farklı Microsoft Word sürümleri için nasıl optimize edileceğini gösterir.
+Belgenin Microsoft Word'ün farklı sürümleri için nasıl optimize edileceğini gösterir.
 
 ```csharp
 public void OptimizeFor()
 {
     Document doc = new Document();
 
-    // Bu nesne, her belgeye özgü geniş bir bayrak listesi içerir
-    // Microsoft Word'ün eski sürümleriyle geriye dönük uyumluluğu kolaylaştırmamızı sağlar.
+    // Bu nesne, her belgeye özgü kapsamlı bir bayrak listesi içerir
+    // bu, Microsoft Word'ün eski sürümleriyle geriye dönük uyumluluğu kolaylaştırmamızı sağlar.
     CompatibilityOptions options = doc.CompatibilityOptions;
 
     // Boş bir belge için varsayılan ayarları yazdırın.
     Console.WriteLine("\nDefault optimization settings:");
     PrintCompatibilityOptions(options);
 
-    // Bu ayarlara Microsoft Word'de "Dosya" -> "Seçenekler" -> "Gelişmiş" -> "Uyumluluk seçenekleri...".
+    // Bu ayarlara Microsoft Word'de "Dosya" -> aracılığıyla erişebiliriz. "Seçenekler" --> "Gelişmiş" -> "Uyumluluk seçenekleri...".
     doc.Save(ArtifactsDir + "CompatibilityOptions.OptimizeFor.DefaultSettings.docx");
 
     // Belirli bir Microsoft Word sürümüyle optimum uyumluluğu sağlamak için OptimizeFor yöntemini kullanabiliriz.
@@ -45,7 +45,7 @@ public void OptimizeFor()
 }
 
 /// <summary>
-/// Bir belgenin uyumluluk seçenekleri nesnesindeki tüm bayrakları duruma göre gruplandırır, ardından her grubu yazdırır.
+/// Bir belgenin uyumluluk seçeneklerindeki tüm bayrakları duruma göre gruplandırır ve ardından her grubu yazdırır.
 /// </summary>
 private static void PrintCompatibilityOptions(CompatibilityOptions options)
 {

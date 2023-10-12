@@ -191,15 +191,15 @@ public class DocStructurePrinter : DocumentVisitor
 Visar hur man använder en DocumentVisitor-implementering för att ta bort allt dolt innehåll från ett dokument.
 
 ```csharp
+public void RemoveHiddenContentFromDocument()
 {
     Document doc = new Document(MyDir + "Hidden content.docx");
-
     RemoveHiddenContentVisitor hiddenContentRemover = new RemoveHiddenContentVisitor();
 
     // Nedan finns tre typer av fält som kan acceptera en dokumentbesökare,
     // som gör det möjligt för den att besöka den accepterande noden och sedan korsa dess underordnade noder på ett djupt-först sätt.
     // 1 - Styckenod:
-    Paragraph para = (Paragraph) doc.GetChild(NodeType.Paragraph, 4, true);
+    Paragraph para = (Paragraph)doc.GetChild(NodeType.Paragraph, 4, true);
     para.Accept(hiddenContentRemover);
 
     // 2 - Tabellnod:
@@ -210,6 +210,7 @@ Visar hur man använder en DocumentVisitor-implementering för att ta bort allt 
     doc.Accept(hiddenContentRemover);
 
     doc.Save(ArtifactsDir + "Font.RemoveHiddenContentFromDocument.docx");
+}
 
 /// <summary>
 /// Tar bort alla besökta noder markerade som "dolt innehåll".

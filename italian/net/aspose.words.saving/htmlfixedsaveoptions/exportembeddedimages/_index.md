@@ -1,14 +1,14 @@
 ---
 title: HtmlFixedSaveOptions.ExportEmbeddedImages
 second_title: Aspose.Words per .NET API Reference
-description: HtmlFixedSaveOptions proprietà. Specifica se le immagini devono essere incorporate nel documento HTML in formato Base64. Nota limpostazione di questo flag può aumentare notevolmente le dimensioni del file HTML di output.
+description: HtmlFixedSaveOptions proprietà. Specifica se le immagini devono essere incorporate nel documento Html in formato Base64. Nota che limpostazione di questo flag può aumentare significativamente la dimensione del file Html di output.
 type: docs
 weight: 60
 url: /it/net/aspose.words.saving/htmlfixedsaveoptions/exportembeddedimages/
 ---
 ## HtmlFixedSaveOptions.ExportEmbeddedImages property
 
-Specifica se le immagini devono essere incorporate nel documento HTML in formato Base64. Nota l'impostazione di questo flag può aumentare notevolmente le dimensioni del file HTML di output.
+Specifica se le immagini devono essere incorporate nel documento Html in formato Base64. Nota che l'impostazione di questo flag può aumentare significativamente la dimensione del file Html di output.
 
 ```csharp
 public bool ExportEmbeddedImages { get; set; }
@@ -23,10 +23,10 @@ Document doc = new Document(MyDir + "Images.docx");
 
 // Quando esportiamo un documento con immagini incorporate in .html,
 // Aspose.Words può posizionare le immagini in due possibili posizioni.
-// L'impostazione del flag "ExportEmbeddedImages" su "true" memorizzerà i dati grezzi
+// Impostando il flag "ExportEmbeddedImages" su "true" verranno memorizzati i dati grezzi
 // per tutte le immagini all'interno del documento HTML di output, nell'attributo "src" di <image> tag.
-// L'impostazione di questo flag su "false" creerà un file immagine nel file system locale per ogni immagine,
-// e archivia tutti questi file in una cartella separata.
+// Impostando questo flag su "false" verrà creato un file immagine nel file system locale per ogni immagine,
+// e memorizza tutti questi file in una cartella separata.
 HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions
 {
     ExportEmbeddedImages = exportImages

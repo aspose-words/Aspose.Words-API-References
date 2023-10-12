@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertChart
 second_title: Справочник по API Aspose.Words для .NET
 description: DocumentBuilder метод. Вставляет объект диаграммы в документ и масштабирует его до указанного размера.
 type: docs
-weight: 260
+weight: 280
 url: /ru/net/aspose.words/documentbuilder/insertchart/
 ---
 ## InsertChart(ChartType, double, double) {#insertchart_1}
@@ -17,12 +17,12 @@ public Shape InsertChart(ChartType chartType, double width, double height)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | chartType | ChartType | Тип диаграммы для вставки в документ. |
-| width | Double | Ширина изображения в точках. Может быть отрицательным или нулевым значением для запроса масштаба 100%. |
+| width | Double | Ширина изображения в пунктах. Может быть отрицательным или нулевым значением для запроса масштаба 100%. |
 | height | Double | Высота изображения в пунктах. Может быть отрицательным или нулевым значением для запроса масштаба 100%. |
 
 ### Возвращаемое значение
 
-Только что вставленный узел изображения.
+Узел изображения, который был только что вставлен.
 
 ### Примечания
 
@@ -38,6 +38,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Chart chart = builder.InsertChart(ChartType.Pie, ConvertUtil.PixelToPoint(300), 
     ConvertUtil.PixelToPoint(300)).Chart;
+chart.Series.Clear();
 chart.Series.Add("My fruit",
     new[] { "Apples", "Bananas", "Cherries" },
     new[] { 1.3, 2.2, 1.5 });
@@ -68,16 +69,16 @@ public Shape InsertChart(ChartType chartType, RelativeHorizontalPosition horzPos
 | --- | --- | --- |
 | chartType | ChartType | Тип диаграммы для вставки в документ. |
 | horzPos | RelativeHorizontalPosition | Указывает, откуда измеряется расстояние до изображения. |
-| left | Double | Расстояние в пунктах от начала координат до левого края изображения. |
+| left | Double | Расстояние в точках от начала координат до левой части изображения. |
 | vertPos | RelativeVerticalPosition | Указывает, откуда измеряется расстояние до изображения. |
-| top | Double | Расстояние в пунктах от начала координат до верхней стороны изображения. |
-| width | Double | Ширина изображения в точках. Может быть отрицательным или нулевым значением для запроса масштаба 100%. |
+| top | Double | Расстояние в точках от начала координат до верхней части изображения. |
+| width | Double | Ширина изображения в пунктах. Может быть отрицательным или нулевым значением для запроса масштаба 100%. |
 | height | Double | Высота изображения в пунктах. Может быть отрицательным или нулевым значением для запроса масштаба 100%. |
 | wrapType | WrapType | Указывает, как обтекать изображение текстом. |
 
 ### Возвращаемое значение
 
-Только что вставленный узел изображения.
+Узел изображения, который был только что вставлен.
 
 ### Примечания
 
@@ -85,7 +86,7 @@ public Shape InsertChart(ChartType chartType, RelativeHorizontalPosition horzPos
 
 ### Примеры
 
-Показывает, как указать положение и обтекание при вставке диаграммы.
+Показывает, как указать положение и перенос при вставке диаграммы.
 
 ```csharp
 Document doc = new Document();

@@ -1,14 +1,14 @@
 ---
 title: ListCollection.Item
 second_title: Aspose.Words لمراجع .NET API
-description: ListCollection ملكية. يحصل على قائمة بالفهرس .
+description: ListCollection ملكية. الحصول على قائمة حسب الفهرس.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.lists/listcollection/item/
 ---
 ## ListCollection indexer
 
-يحصل على قائمة بالفهرس .
+الحصول على قائمة حسب الفهرس.
 
 ```csharp
 public List this[int index] { get; }
@@ -22,11 +22,9 @@ public List this[int index] { get; }
 Document doc = new Document();
 
 ListCollection lists = doc.Lists;
-
 Assert.AreEqual(doc, lists.Document);
 
 List list = lists.Add(ListTemplate.BulletDefault);
-
 Assert.AreEqual(doc, list.Document);
 
 Console.WriteLine("Current list count: " + lists.Count);
@@ -35,7 +33,7 @@ Console.WriteLine("ListId: " + list.ListId);
 Console.WriteLine("List is the same by ListId: " + (lists.GetListByListId(1).Equals(list)));
 ```
 
-يوضح كيفية تطبيق تنسيق قائمة لقائمة موجودة على مجموعة فقرات.
+يوضح كيفية تطبيق تنسيق القائمة لقائمة موجودة على مجموعة من الفقرات.
 
 ```csharp
 Document doc = new Document();

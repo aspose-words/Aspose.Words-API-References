@@ -3,7 +3,7 @@ title: PageSetup.PageNumberStyle
 second_title: Referencia de API de Aspose.Words para .NET
 description: PageSetup propiedad. Obtiene o establece el formato del número de página.
 type: docs
-weight: 310
+weight: 320
 url: /es/net/aspose.words/pagesetup/pagenumberstyle/
 ---
 ## PageSetup.PageNumberStyle property
@@ -34,12 +34,12 @@ builder.Writeln("Section 2, page 2.");
 builder.InsertBreak(BreakType.PageBreak);
 builder.Writeln("Section 2, page 3.");
 
-// Mover el generador de documentos al encabezado principal de la primera sección,
-// que se mostrará en todas las páginas de esa sección.
+// Mueve el generador de documentos al encabezado principal de la primera sección,
+// que se mostrará en cada página de esa sección.
 builder.MoveToSection(0);
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 
-// Inserta un campo de PÁGINA, que mostrará el número de la página actual.
+// Inserta un campo PÁGINA, que mostrará el número de la página actual.
 builder.Write("Page ");
 builder.InsertField("PAGE", "");
 
@@ -50,7 +50,7 @@ pageSetup.RestartPageNumbering = true;
 pageSetup.PageStartingNumber = 5;
 pageSetup.PageNumberStyle = NumberStyle.UppercaseRoman;
 
-// Cree otro encabezado principal para la segunda sección, con otro campo de PÁGINA.
+// Crea otro encabezado principal para la segunda sección, con otro campo PÁGINA.
 builder.MoveToSection(1);
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;

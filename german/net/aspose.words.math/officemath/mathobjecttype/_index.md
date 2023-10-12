@@ -3,7 +3,7 @@ title: OfficeMath.MathObjectType
 second_title: Aspose.Words für .NET-API-Referenz
 description: OfficeMath eigendom. Ruft den Typ abMathObjectType dieses Office MathObjekts.
 type: docs
-weight: 40
+weight: 30
 url: /de/net/aspose.words.math/officemath/mathobjecttype/
 ---
 ## OfficeMath.MathObjectType property
@@ -16,7 +16,7 @@ public MathObjectType MathObjectType { get; }
 
 ### Beispiele
 
-Zeigt, wie die Knotenstruktur jedes Office-Mathematikknotens in einem Dokument gedruckt wird.
+Zeigt, wie die Knotenstruktur jedes Office-Mathe-Knotens in einem Dokument gedruckt wird.
 
 ```csharp
 public void OfficeMathToText()
@@ -24,8 +24,8 @@ public void OfficeMathToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     OfficeMathStructurePrinter visitor = new OfficeMathStructurePrinter();
 
-    // Wenn wir einen zusammengesetzten Knoten dazu bringen, einen Dokumentbesucher zu akzeptieren, besucht der Besucher den akzeptierenden Knoten,
-    // und durchläuft dann alle untergeordneten Elemente des Knotens mit der Tiefe zuerst.
+    // Wenn wir einen zusammengesetzten Knoten erhalten, der einen Dokumentbesucher akzeptiert, besucht der Besucher den akzeptierenden Knoten.
+    // und durchläuft dann alle untergeordneten Knoten des Knotens in einer Tiefe-zuerst-Methode.
     // Der Besucher kann jeden besuchten Knoten lesen und ändern.
     doc.Accept(visitor);
 
@@ -34,7 +34,7 @@ public void OfficeMathToText()
 
 /// <summary>
 /// Durchläuft den nicht-binären Baum der untergeordneten Knoten eines Knotens.
-/// Erstellt eine Karte in Form einer Zeichenfolge aller gefundenen OfficeMath-Knoten und ihrer Kinder.
+/// Erstellt eine Karte in Form einer Zeichenfolge aller gefundenen OfficeMath-Knoten und ihrer untergeordneten Knoten.
 /// </summary>
 public class OfficeMathStructurePrinter : DocumentVisitor
 {
@@ -45,7 +45,7 @@ public class OfficeMathStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Ruft den Klartext des Dokuments ab, das vom Besucher angesammelt wurde.
+    /// Ruft den Klartext des vom Besucher gesammelten Dokuments ab.
     /// </summary>
     public string GetText()
     {
@@ -87,7 +87,7 @@ public class OfficeMathStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Eine Zeile an den StringBuilder anhängen und einrücken, je nachdem, wie tief der Besucher in den Dokumentenbaum eindringt.
+    /// Hängen Sie eine Zeile an den StringBuilder an und rücken Sie sie ein, je nachdem, wie tief sich der Besucher im Dokumentbaum befindet.
     /// </summary>
     /// <param name="text"></param>
     private void IndentAndAppendLine(string text)

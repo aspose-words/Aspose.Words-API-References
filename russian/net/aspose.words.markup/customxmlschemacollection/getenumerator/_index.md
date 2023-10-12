@@ -1,14 +1,14 @@
 ---
 title: CustomXmlSchemaCollection.GetEnumerator
 second_title: Справочник по API Aspose.Words для .NET
-description: CustomXmlSchemaCollection метод. Возвращает объект перечислителя который можно использовать для перебора всех элементов в коллекции.
+description: CustomXmlSchemaCollection метод. Возвращает объект перечислителя который можно использовать для перебора всех элементов коллекции.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.markup/customxmlschemacollection/getenumerator/
 ---
 ## CustomXmlSchemaCollection.GetEnumerator method
 
-Возвращает объект перечислителя, который можно использовать для перебора всех элементов в коллекции.
+Возвращает объект перечислителя, который можно использовать для перебора всех элементов коллекции.
 
 ```csharp
 public IEnumerator<string> GetEnumerator()
@@ -25,11 +25,11 @@ string xmlPartId = Guid.NewGuid().ToString("B");
 string xmlPartContent = "<root><text>Hello, World!</text></root>";
 CustomXmlPart xmlPart = doc.CustomXmlParts.Add(xmlPartId, xmlPartContent);
 
-// Добавляем ассоциацию XML-схемы.
+// Добавляем ассоциацию схемы XML.
 xmlPart.Schemas.Add("http://www.w3.org/2001/XMLSchema");
 
-// Клонировать коллекцию ассоциаций схемы XML пользовательской части XML,
-// а затем добавить пару новых схем в клон.
+// Клонируем коллекцию ассоциаций схем XML пользовательской части XML,
+// а затем добавим в клон пару новых схем.
 CustomXmlSchemaCollection schemas = xmlPart.Schemas.Clone();
 schemas.Add("http://www.w3.org/2001/XMLSchema-instance");
 schemas.Add("http://schemas.microsoft.com/office/2006/metadata/contentType");
@@ -51,7 +51,7 @@ schemas.RemoveAt(2);
 // 2 - Удалить схему по значению:
 schemas.Remove("http://www.w3.org/2001/XMLSchema");
 
-// 3 - Используйте метод "Очистить", чтобы сразу очистить коллекцию.
+// 3 - Используйте метод «Очистить», чтобы сразу очистить коллекцию.
 schemas.Clear();
 
 Assert.AreEqual(0, schemas.Count);

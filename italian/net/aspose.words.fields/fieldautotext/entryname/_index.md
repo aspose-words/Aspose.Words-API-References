@@ -16,12 +16,12 @@ public string EntryName { get; set; }
 
 ### Esempi
 
-Mostra come visualizzare un building block con i campi AUTOTEXT e GLOSSARY.
+Mostra come visualizzare un blocco predefinito con campi TESTO AUTOMATICO e GLOSSARIO.
 
 ```csharp
 Document doc = new Document();
 
-// Crea un documento di glossario e aggiungi un blocco predefinito di glossario.
+// Crea un documento di glossario e vi aggiunge un blocco predefinito di glossario.
 doc.GlossaryDocument = new GlossaryDocument();
 BuildingBlock buildingBlock = new BuildingBlock(doc.GlossaryDocument);
 buildingBlock.Name = "MyBlock";
@@ -31,7 +31,7 @@ buildingBlock.Description = "MyBlock description";
 buildingBlock.Behavior = BuildingBlockBehavior.Paragraph;
 doc.GlossaryDocument.AppendChild(buildingBlock);
 
-// Crea una fonte e aggiungila come testo al nostro blocco di costruzione.
+// Crea una fonte e aggiungila come testo al nostro elemento costitutivo.
 Document buildingBlockSource = new Document();
 DocumentBuilder buildingBlockSourceBuilder = new DocumentBuilder(buildingBlockSource);
 buildingBlockSourceBuilder.Writeln("Hello World!");
@@ -39,19 +39,19 @@ buildingBlockSourceBuilder.Writeln("Hello World!");
 Node buildingBlockContent = doc.GlossaryDocument.ImportNode(buildingBlockSource.FirstSection, true);
 buildingBlock.AppendChild(buildingBlockContent);
 
-// Imposta un file che contenga parti che il nostro documento o il modello allegato potrebbero non contenere.
+// Imposta un file che contiene parti che il nostro documento o il modello allegato potrebbero non contenere.
 doc.FieldOptions.BuiltInTemplatesPaths = new[] { MyDir + "Busniess brochure.dotx" };
 
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Di seguito sono riportati due modi per utilizzare i campi per visualizzare il contenuto del nostro blocco predefinito.
-// 1 - Utilizzo di un campo AUTOTEXT:
+// 1 - Utilizzando un campo TESTO AUTOMATICO:
 FieldAutoText fieldAutoText = (FieldAutoText)builder.InsertField(FieldType.FieldAutoText, true);
 fieldAutoText.EntryName = "MyBlock";
 
 Assert.AreEqual(" AUTOTEXT  MyBlock", fieldAutoText.GetFieldCode());
 
-// 2 - Utilizzo di un campo GLOSSARIO:
+// 2 - Utilizzando un campo GLOSSARIO:
 FieldGlossary fieldGlossary = (FieldGlossary)builder.InsertField(FieldType.FieldGlossary, true);
 fieldGlossary.EntryName = "MyBlock";
 

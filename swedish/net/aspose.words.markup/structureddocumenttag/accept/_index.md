@@ -3,7 +3,7 @@ title: StructuredDocumentTag.Accept
 second_title: Aspose.Words för .NET API Referens
 description: StructuredDocumentTag metod. Accepterar en besökare.
 type: docs
-weight: 320
+weight: 330
 url: /sv/net/aspose.words.markup/structureddocumenttag/accept/
 ---
 ## StructuredDocumentTag.Accept method
@@ -20,15 +20,15 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Returvärde
 
-Sant om alla noder besöktes; false om DocumentVisitor stoppade operationen innan alla noder besöktes.
+Sant om alla noder besöktes; falskt om[`DocumentVisitor`](../../../aspose.words/documentvisitor/) stoppade operationen innan du besökte alla noder.
 
 ### Anmärkningar
 
-Räknar upp denna nod och alla dess barn. Varje nod anropar en motsvarande metod på DocumentVisitor.
+Räknar upp denna nod och alla dess barn. Varje nod anropar en motsvarande metod[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
 För mer information se Visitor design mönster.
 
-Samtal[`VisitStructuredDocumentTagStart`](../../../aspose.words/documentvisitor/visitstructureddocumenttagstart/) , sedan ringer[`Accept`](../../../aspose.words/node/accept/)för all underordnade noder för smarttaggen och anrop[`VisitStructuredDocumentTagEnd`](../../../aspose.words/documentvisitor/visitstructureddocumenttagend/) i slutet.
+Samtal[`VisitStructuredDocumentTagStart`](../../../aspose.words/documentvisitor/visitstructureddocumenttagstart/) , sedan ringer[`Accept`](../../../aspose.words/node/accept/) för all underordnade noder för smarttaggen och anrop[`VisitStructuredDocumentTagEnd`](../../../aspose.words/documentvisitor/visitstructureddocumenttagend/) i slutet.
 
 ### Exempel
 

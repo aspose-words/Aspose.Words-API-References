@@ -16,7 +16,7 @@ public double LineSpacing { get; }
 
 ### Beispiele
 
-Zeigt, wie man den Zeilenabstand einer Schriftart in Punkten erhält.
+Zeigt, wie der Zeilenabstand einer Schriftart in Punkt ermittelt wird.
 
 ```csharp
 Document doc = new Document();

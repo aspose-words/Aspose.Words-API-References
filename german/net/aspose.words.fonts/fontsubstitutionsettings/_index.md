@@ -1,14 +1,16 @@
 ---
 title: Class FontSubstitutionSettings
 second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Fonts.FontSubstitutionSettings klas. Gibt die Einstellungen des Schriftartersetzungsmechanismus an.
+description: Aspose.Words.Fonts.FontSubstitutionSettings klas. Gibt die Einstellungen für den Schriftartersetzungsmechanismus an.
 type: docs
-weight: 2830
+weight: 3010
 url: /de/net/aspose.words.fonts/fontsubstitutionsettings/
 ---
 ## FontSubstitutionSettings class
 
-Gibt die Einstellungen des Schriftartersetzungsmechanismus an.
+Gibt die Einstellungen für den Schriftartersetzungsmechanismus an.
+
+Um mehr zu erfahren, besuchen Sie die[Arbeiten mit Schriftarten](https://docs.aspose.com/words/net/working-with-fonts/) Dokumentationsartikel.
 
 ```csharp
 public class FontSubstitutionSettings
@@ -18,21 +20,21 @@ public class FontSubstitutionSettings
 
 | Name | Beschreibung |
 | --- | --- |
-| [DefaultFontSubstitution](../../aspose.words.fonts/fontsubstitutionsettings/defaultfontsubstitution/) { get; } | Einstellungen im Zusammenhang mit der Standardschriftersetzungsregel. |
-| [FontConfigSubstitution](../../aspose.words.fonts/fontsubstitutionsettings/fontconfigsubstitution/) { get; } | Einstellungen im Zusammenhang mit der Schriftkonfigurations-Ersetzungsregel. |
-| [FontInfoSubstitution](../../aspose.words.fonts/fontsubstitutionsettings/fontinfosubstitution/) { get; } | Einstellungen im Zusammenhang mit der Ersetzungsregel für Schriftinformationen. |
-| [FontNameSubstitution](../../aspose.words.fonts/fontsubstitutionsettings/fontnamesubstitution/) { get; } | Einstellungen im Zusammenhang mit der Ersetzungsregel für Schriftnamen. |
-| [TableSubstitution](../../aspose.words.fonts/fontsubstitutionsettings/tablesubstitution/) { get; } | Einstellungen in Bezug auf die Tabellenersetzungsregel. |
+| [DefaultFontSubstitution](../../aspose.words.fonts/fontsubstitutionsettings/defaultfontsubstitution/) { get; } | Einstellungen im Zusammenhang mit der Standardregel zum Ersetzen von Schriftarten. |
+| [FontConfigSubstitution](../../aspose.words.fonts/fontsubstitutionsettings/fontconfigsubstitution/) { get; } | Einstellungen im Zusammenhang mit der Ersetzungsregel für die Schriftartkonfiguration. |
+| [FontInfoSubstitution](../../aspose.words.fonts/fontsubstitutionsettings/fontinfosubstitution/) { get; } | Einstellungen im Zusammenhang mit der Regel zum Ersetzen von Schriftartinformationen. |
+| [FontNameSubstitution](../../aspose.words.fonts/fontsubstitutionsettings/fontnamesubstitution/) { get; } | Einstellungen im Zusammenhang mit der Regel zum Ersetzen von Schriftartnamen. |
+| [TableSubstitution](../../aspose.words.fonts/fontsubstitutionsettings/tablesubstitution/) { get; } | Einstellungen im Zusammenhang mit der Tabellenersetzungsregel. |
 
 ### Bemerkungen
 
-Der Font-Ersetzungsprozess besteht aus mehreren Regeln, die nacheinander in einer bestimmten Reihenfolge überprüft werden. Wenn die erste Regel den Font nicht auflösen kann, wird die zweite Regel überprüft und so weiter.
+Der Schriftersetzungsprozess besteht aus mehreren Regeln, die nacheinander in einer bestimmten Reihenfolge überprüft werden. Wenn die erste Regel die Schriftart nicht auflösen kann, wird die zweite Regel überprüft und so weiter.
 
-Die Reihenfolge der Regeln ist wie folgt: 1. Schriftnamen-Ersetzungsregel (standardmäßig aktiviert) 2. Schriftkonfigurations-Ersetzungsregel (standardmäßig deaktiviert) 3. Tabellenersetzungsregel (standardmäßig aktiviert) 4. Schriftinformationen-Ersetzungsregel (standardmäßig aktiviert) 5. Standardschriftregel (standardmäßig aktiviert)
+Die Reihenfolge der Regeln ist wie folgt: 1. Regel zum Ersetzen von Schriftartnamen (standardmäßig aktiviert) 2. Regel zum Ersetzen von Schriftartenkonfiguration (standardmäßig deaktiviert) 3. Regel zum Ersetzen von Tabellen (standardmäßig aktiviert) 4. Regel zum Ersetzen von Schriftartinformationen (standardmäßig aktiviert) 5. Standardschriftartregel (standardmäßig aktiviert)
 
-Beachten Sie, dass die Font-Info-Ersetzungsregel immer den Font auflöst, wenn[`FontInfo`](../fontinfo/) ist available und überschreibt die Standardschriftregel. Wenn Sie die Standard-Schriftartregel verwenden möchten, sollten Sie die Regel zum Ersetzen der Schriftinformationen deaktivieren.
+Beachten Sie, dass die Schriftart-Info-Ersetzungsregel die Schriftart immer auflöst, wenn[`FontInfo`](../fontinfo/) ist verfügbar und überschreibt die Standardschriftartregel. Wenn Sie die Standard-Schriftartenregel verwenden möchten, sollten Sie die Schriftinformations-Ersetzungsregel deaktivieren.
 
-Beachten Sie, dass die Schriftkonfigurations-Ersetzungsregel die Schrift in den meisten Fällen auflöst und somit alle anderen Regeln außer Kraft setzt.
+Beachten Sie, dass die Schriftart-Konfigurationsersetzungsregel in den meisten Fällen die Schriftart auflöst und somit alle anderen Regeln außer Kraft setzt.
 
 ### Beispiele
 
@@ -64,7 +66,7 @@ foreach (string systemFontFolder in SystemFontSource.GetSystemFontFolders())
     Console.WriteLine(systemFontFolder);
 }
 
-// Festlegen einer im Windows Fonts-Verzeichnis vorhandenen Schriftart als Ersatz für eine nicht vorhandene Schriftart.
+// Legen Sie eine Schriftart fest, die im Windows-Schriftartenverzeichnis vorhanden ist, als Ersatz für eine Schriftart, die nicht vorhanden ist.
 doc.FontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 doc.FontSettings.SubstitutionSettings.TableSubstitution.AddSubstitutes("Kreon-Regular", new[] {"Calibri"});
 
@@ -73,12 +75,12 @@ Assert.AreEqual(1,
 Assert.Contains("Calibri",
     doc.FontSettings.SubstitutionSettings.TableSubstitution.GetSubstitutes("Kreon-Regular").ToArray());
 
-// Alternativ könnten wir einen Ordner font source hinzufügen, in dem der entsprechende Ordner die Schriftart enthält.
+// Alternativ könnten wir einen Ordner „Font Source“ hinzufügen, in dem der entsprechende Ordner die Schriftart enthält.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false);
 doc.FontSettings.SetFontsSources(new FontSourceBase[] {systemFontSource, folderFontSource});
 Assert.AreEqual(2, doc.FontSettings.GetFontsSources().Length);
 
-// Das Zurücksetzen der Schriftartquellen lässt uns immer noch die Systemschriftquelle sowie unsere Ersatzquellen.
+// Durch das Zurücksetzen der Schriftartenquellen verbleiben weiterhin die Systemschriftquelle sowie unsere Ersatzschriftarten.
 doc.FontSettings.ResetFontSources();
 
 Assert.AreEqual(1, doc.FontSettings.GetFontsSources().Length);

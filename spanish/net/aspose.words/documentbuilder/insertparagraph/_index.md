@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertParagraph
 second_title: Referencia de API de Aspose.Words para .NET
 description: DocumentBuilder método. Inserta un salto de párrafo en el documento.
 type: docs
-weight: 400
+weight: 430
 url: /es/net/aspose.words/documentbuilder/insertparagraph/
 ---
 ## DocumentBuilder.InsertParagraph method
@@ -20,9 +20,11 @@ El nodo de párrafo que se acaba de insertar. Es el mismo nodo que[`CurrentParag
 
 ### Observaciones
 
-Formato de párrafo actual especificado por el[`ParagraphFormat`](../paragraphformat/) se utiliza la propiedad.
+Formato de párrafo actual especificado por el[`ParagraphFormat`](../paragraphformat/) Se utiliza la propiedad.
 
 Divide el párrafo actual en dos. Después de insertar el párrafo, el cursor se coloca al principio del nuevo párrafo.
+
+Se produce una excepción si no es posible insertar un salto de párrafo en la posición actual del cursor.
 
 ### Ejemplos
 

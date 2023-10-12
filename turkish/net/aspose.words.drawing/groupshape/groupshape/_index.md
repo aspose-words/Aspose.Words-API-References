@@ -16,17 +16,17 @@ public GroupShape(DocumentBase doc)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| doc | DocumentBase | Sahip belgesi. |
+| doc | DocumentBase | Sahibi belgesi. |
 
 ### Notlar
 
-Varsayılan olarak, şekil yüzer ve varsayılan konuma ve boyuta sahiptir.
+Varsayılan olarak şekil kayandır ve varsayılan konuma ve boyuta sahiptir.
 
-Bir şekil oluşturduktan sonra istediğiniz şekil özelliklerini belirtmelisiniz.
+Şekil oluşturduktan sonra istediğiniz şekil özelliklerini belirtmelisiniz.
 
 ### Örnekler
 
-Bir grup şeklin nasıl oluşturulacağını ve içeriğini bir belge ziyaretçisi kullanarak nasıl yazdırılacağını gösterir.
+Bir şekil grubunun nasıl oluşturulacağını ve bir belge ziyaretçisi kullanılarak içeriğinin nasıl yazdırılacağını gösterir.
 
 ```csharp
 public void GroupOfShapes()
@@ -34,8 +34,8 @@ public void GroupOfShapes()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped gibi "NonPrimitive" şekiller oluşturmanız gerekiyorsa,
-    // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, DiagonalCornersRounded
+    // SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped gibi "Primitive Olmayan" şekiller oluşturmanız gerekiyorsa,
+    // ÜstKöşelerBirYuvarlakBirKesilmiş, TekKöşeYuvarlak, ÜstKöşelerYuvarlak, ÇaprazKöşelerYuvarlak
     // lütfen DocumentBuilder.InsertShape yöntemlerini kullanın.
     Shape balloon = new Shape(doc, ShapeType.Balloon)
     {
@@ -66,7 +66,7 @@ public void GroupOfShapes()
 }
 
 /// <summary>
-/// Ziyaret edilen bir şekil grubunun içeriğini konsola yazdırır.
+/// Ziyaret edilen şekil grubunun içeriğini konsola yazdırır.
 /// </summary>
 public class ShapeGroupPrinter : DocumentVisitor
 {

@@ -16,7 +16,7 @@ public LanguagePreferences LanguagePreferences { get; }
 
 ### Örnekler
 
-Belge yüklerken dil tercihlerinin nasıl uygulanacağını gösterir.
+Bir belgeyi yüklerken dil tercihlerinin nasıl uygulanacağını gösterir.
 
 ```csharp
 LoadOptions loadOptions = new LoadOptions();

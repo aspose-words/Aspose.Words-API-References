@@ -1,14 +1,14 @@
 ---
 title: Node.Range
 second_title: Aspose.Words for .NET API Referansı
-description: Node mülk. Bir döndürür Menzil belgenin bu düğümde bulunan bölümünü temsil eden nesne.
+description: Node mülk. Bir değeri döndürürRange Bu düğümde bulunan bir belgenin bölümünü temsil eden nesne.
 type: docs
 weight: 80
 url: /tr/net/aspose.words/node/range/
 ---
 ## Node.Range property
 
-Bir döndürür **Menzil** belgenin bu düğümde bulunan bölümünü temsil eden nesne.
+Bir değeri döndürür[`Range`](../../range/) Bu düğümde bulunan bir belgenin bölümünü temsil eden nesne.
 
 ```csharp
 public Range Range { get; }

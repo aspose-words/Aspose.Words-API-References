@@ -1,14 +1,14 @@
 ---
 title: ShapeRenderer.ShapeRenderer
 second_title: Aspose.Words for .NET API 参考
-description: ShapeRenderer 构造函数. 初始化这个类的一个新实例
+description: ShapeRenderer 构造函数. 初始化此类的新实例
 type: docs
 weight: 10
 url: /zh/net/aspose.words.rendering/shaperenderer/shaperenderer/
 ---
 ## ShapeRenderer constructor
 
-初始化这个类的一个新实例。
+初始化此类的新实例。
 
 ```csharp
 public ShapeRenderer(ShapeBase shape)
@@ -16,13 +16,14 @@ public ShapeRenderer(ShapeBase shape)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| shape | ShapeBase | 您要呈现的 DrawinML 形状对象。 |
+| shape | ShapeBase | 您要渲染的 DrawinML 形状对象。 |
 
 ### 例子
 
-演示如何使用 Graphics 对象呈现形状并使用 Windows 窗体显示它。
+演示如何使用 Graphics 对象渲染形状并使用 Windows 窗体显示它。
 
 ```csharp
+public void RenderShapesOnForm()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -120,6 +121,7 @@ private class ShapeForm : Form
         }
     }
 
+    private readonly List<KeyValuePair<ShapeBase, float[]>> mShapesToRender;
 }
 ```
 

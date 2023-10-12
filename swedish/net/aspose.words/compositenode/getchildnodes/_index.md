@@ -3,7 +3,7 @@ title: CompositeNode.GetChildNodes
 second_title: Aspose.Words för .NET API Referens
 description: CompositeNode metod. Returnerar en aktiv samling av underordnade noder som matchar den angivna typen.
 type: docs
-weight: 100
+weight: 110
 url: /sv/net/aspose.words/compositenode/getchildnodes/
 ---
 ## CompositeNode.GetChildNodes method
@@ -17,7 +17,7 @@ public NodeCollection GetChildNodes(NodeType nodeType, bool isDeep)
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | nodeType | NodeType | Anger vilken typ av noder som ska väljas. |
-| isDeep | Boolean | Sant att välja från alla underordnade noder rekursivt. Falskt för att välja endast bland omedelbara barn. |
+| isDeep | Boolean | `Sann` för att välja från alla underordnade noder rekursivt; `falsk`att endast välja bland närmaste barn. |
 
 ### Returvärde
 
@@ -37,7 +37,6 @@ Visar hur du skriver ut alla kommentarer i ett dokument och deras svar.
 Document doc = new Document(MyDir + "Comments.docx");
 
 NodeCollection comments = doc.GetChildNodes(NodeType.Comment, true);
-
 // Om en kommentar inte har någon förfader är den en kommentar på "toppnivå" i motsats till en kommentar av typen svar.
 // Skriv ut alla kommentarer på toppnivå tillsammans med eventuella svar de kan ha.
 foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == null))
@@ -69,7 +68,7 @@ foreach (Shape shape in shapes.OfType<Shape>())
 {
     if (shape.HasImage)
     {
-        // Bilddata för former kan innehålla bilder av många möjliga bildformat. 
+         // Bilddata för former kan innehålla bilder av många möjliga bildformat.
         // Vi kan bestämma en filtillägg för varje bild automatiskt, baserat på dess format.
         string imageFileName =
             $"File.ExtractImages.{imageIndex}{FileFormatUtil.ImageTypeToExtension(shape.ImageData.ImageType)}";
@@ -77,6 +76,46 @@ foreach (Shape shape in shapes.OfType<Shape>())
         imageIndex++;
     }
 }
+```
+
+Visar hur man går igenom en sammansatt nods samling av undernoder.
+
+```csharp
+Document doc = new Document();
+
+// Lägg till två körningar och en form som underordnade noder i det första stycket i detta dokument.
+Paragraph paragraph = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
+paragraph.AppendChild(new Run(doc, "Hello world! "));
+
+Shape shape = new Shape(doc, ShapeType.Rectangle);
+shape.Width = 200;
+shape.Height = 200;
+// Observera att 'CustomNodeId' inte sparas i en utdatafil och endast existerar under nodens livstid.
+shape.CustomNodeId = 100;
+shape.WrapType = WrapType.Inline;
+paragraph.AppendChild(shape);
+
+paragraph.AppendChild(new Run(doc, "Hello again!"));
+
+// Iterera genom styckets samling av närmaste barn,
+// och skriv ut alla körningar eller former som vi hittar inom.
+NodeCollection children = paragraph.GetChildNodes(NodeType.Any, false);
+
+Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, false).Count);
+
+foreach (Node child in children)
+    switch (child.NodeType)
+    {
+        case NodeType.Run:
+            Console.WriteLine("Run contents:");
+            Console.WriteLine($"\t\"{child.GetText().Trim()}\"");
+            break;
+        case NodeType.Shape:
+            Shape childShape = (Shape)child;
+            Console.WriteLine("Shape:");
+            Console.WriteLine($"\t{childShape.ShapeType}, {childShape.Width}x{childShape.Height}");
+            break;
+    }
 ```
 
 Visar hur man lägger till, uppdaterar och tar bort underordnade noder i en CompositeNodes samling av barn.

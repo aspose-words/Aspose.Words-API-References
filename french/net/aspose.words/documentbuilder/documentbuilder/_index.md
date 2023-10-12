@@ -16,17 +16,17 @@ public DocumentBuilder()
 
 ### Remarques
 
-Crée un nouveau **Générateur de documents** objet et l'attache à un nouveau[`Document`](../document/) objet.
+Crée un nouveau[`DocumentBuilder`](../) objet et l'attache à un nouveau[`Document`](../../document/) objet.
 
 ### Exemples
 
-Montre comment insérer du texte formaté à l'aide de DocumentBuilder.
+Montre comment insérer du texte formaté à l’aide de DocumentBuilder.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Spécifiez la mise en forme de la police, puis ajoutez du texte.
+// Spécifiez le formatage de la police, puis ajoutez du texte.
 Aspose.Words.Font font = builder.Font;
 font.Size = 16;
 font.Bold = true;
@@ -55,11 +55,11 @@ public DocumentBuilder(Document doc)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| doc | Document | L'objet Document auquel attacher. |
+| doc | Document | Le[`Document`](../../document/) objet auquel s’attacher. |
 
 ### Remarques
 
-Crée un nouveau **Générateur de documents** objet, s'attache à l'objet spécifié[`Document`](../document/) objet. Le curseur est positionné au début du document.
+Crée un nouveau[`DocumentBuilder`](../) objet, s'attache à l'objet spécifié[`Document`](../../document/)object. Le curseur est positionné au début du document.
 
 ### Exemples
 
@@ -69,11 +69,11 @@ Montre comment créer des en-têtes et des pieds de page dans un document à l'a
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Spécifiez que nous voulons des en-têtes et des pieds de page différents pour les premières pages, paires et impaires.
+// Spécifie que nous voulons des en-têtes et pieds de page différents pour les premières pages, paires et impaires.
 builder.PageSetup.DifferentFirstPageHeaderFooter = true;
 builder.PageSetup.OddAndEvenPagesHeaderFooter = true;
 
-// Crée les en-têtes, puis ajoute trois pages au document pour afficher chaque type d'en-tête.
+// Créez les en-têtes, puis ajoutez trois pages au document pour afficher chaque type d'en-tête.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderFirst);
 builder.Write("Header for the first page");
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderEven);
@@ -98,14 +98,14 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Insère une table des matières pour la première page du document.
-// Configurer le tableau pour récupérer les paragraphes avec des titres de niveaux 1 à 3.
-// De plus, définissez ses entrées comme étant des hyperliens qui nous mèneront
-// à l'emplacement de l'en-tête lors d'un clic gauche dans Microsoft Word.
+// Configurez le tableau pour récupérer les paragraphes avec des titres de niveaux 1 à 3.
+// Définissez également ses entrées comme des hyperliens qui nous amèneront
+// à l'emplacement du titre lors d'un clic gauche dans Microsoft Word.
 builder.InsertTableOfContents("\\o \"1-3\" \\h \\z \\u");
 builder.InsertBreak(BreakType.PageBreak);
 
-// Remplir la table des matières en ajoutant des paragraphes avec des styles de titre.
-// Chacun de ces titres avec un niveau compris entre 1 et 3 créera une entrée dans la table.
+// Remplit la table des matières en ajoutant des paragraphes avec des styles de titre.
+// Chacun de ces en-têtes avec un niveau compris entre 1 et 3 créera une entrée dans le tableau.
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 builder.Writeln("Heading 1");
 

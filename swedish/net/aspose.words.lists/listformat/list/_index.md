@@ -20,7 +20,7 @@ Listan som tilldelas den här egenskapen måste tillhöra det aktuella dokumente
 
 Listan som tilldelas den här egenskapen får inte vara en liststilsdefinition.
 
-Om du ställer in den här egenskapen till null tar du bort punktpunkter och numrering från paragraf och ställer in listnivånumret till noll. Att ställa in den här egenskapen till null motsvarar att anropa[`RemoveNumbers`](../removenumbers/).
+Ställer in den här egenskapen till`null` tar bort punktpunkter och numrering från paragraf och ställer in listnivånumret till noll. Ställer in den här egenskapen till`null` motsvarar att ringa[`RemoveNumbers`](../removenumbers/).
 
 ### Exempel
 
@@ -31,8 +31,8 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // En lista låter oss organisera och dekorera uppsättningar av stycken med prefixsymboler och indrag.
-// Vi kan skapa kapslade listor genom att öka indragsnivån. 
-// Vi kan börja och avsluta en lista genom att använda en dokumentbyggares "ListFormat"-egenskap. 
+ // Vi kan skapa kapslade listor genom att öka indragsnivån.
+ // Vi kan börja och avsluta en lista genom att använda en dokumentbyggares "ListFormat"-egenskap.
 // Varje stycke som vi lägger till mellan en listas början och slutet kommer att bli ett objekt i listan.
 // Skapa en dispositionslista för rubrikerna.
 List outlineList = doc.Lists.Add(ListTemplate.OutlineNumbers);
@@ -82,8 +82,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Assert.False(builder.ListFormat.IsListItem);
 
 // En lista låter oss organisera och dekorera uppsättningar av stycken med prefixsymboler och indrag.
-// Vi kan skapa kapslade listor genom att öka indragsnivån. 
-// Vi kan börja och avsluta en lista genom att använda en dokumentbyggares "ListFormat"-egenskap. 
+ // Vi kan skapa kapslade listor genom att öka indragsnivån.
+ // Vi kan börja och avsluta en lista genom att använda en dokumentbyggares "ListFormat"-egenskap.
 // Varje stycke som vi lägger till mellan en listas början och slutet kommer att bli ett objekt i listan.
 // Nedan finns två typer av listor som vi kan skapa med hjälp av en dokumentbyggare.
 // 1 - En numrerad lista:
@@ -95,7 +95,7 @@ Assert.True(builder.ListFormat.IsListItem);
 // Genom att ställa in egenskapen "ListLevelNumber" kan vi öka listnivån
 // för att starta en fristående underlista vid det aktuella listobjektet.
 // Microsoft Word-listmallen som heter "NumberDefault" använder siffror för att skapa listnivåer för den första listnivån.
-// Djupare listnivåer använder bokstäver och gemener romerska siffror. 
+ // Djupare listnivåer använder bokstäver och gemener romerska siffror.
 for (int i = 0; i < 9; i++)
 {
     builder.ListFormat.ListLevelNumber = i;

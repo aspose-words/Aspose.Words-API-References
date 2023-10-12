@@ -3,7 +3,7 @@ title: FieldOptions.IsBidiTextSupportedOnUpdate
 second_title: Aspose.Words för .NET API Referens
 description: FieldOptions fast egendom. Hämtar eller ställer in värdet som anger om dubbelriktad text stöds fullt ut under fältuppdatering eller inte.
 type: docs
-weight: 130
+weight: 150
 url: /sv/net/aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/
 ---
 ## FieldOptions.IsBidiTextSupportedOnUpdate property
@@ -16,11 +16,11 @@ public bool IsBidiTextSupportedOnUpdate { get; set; }
 
 ### Anmärkningar
 
-När den här egenskapen är inställd på **Sann**, utförs ytterligare steg för att producera Right-To-Left language (dvs. arabiska eller hebreiska) kompatibla fältresultat under dess uppdatering.
+När den här egenskapen är inställd på`Sann`, utförs ytterligare steg för att producera Right-To-Left language (dvs. arabiska eller hebreiska) kompatibla fältresultat under dess uppdatering.
 
-När den här egenskapen är inställd på **falsk** och höger-till-vänster-språket används, korrektheten av fältresultat efter dess uppdatering garanteras inte.
+När den här egenskapen är inställd på`falsk` och höger-till-vänster-språket används, korrektheten av fältresultat efter dess uppdatering garanteras inte.
 
-Standardvärdet är **falsk**.
+Standardvärdet är`falsk`.
 
 ### Exempel
 
@@ -30,7 +30,7 @@ Visar hur man använder FieldOptions för att säkerställa att fältuppdatering
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Se till att alla fältoperationer som involverar text från höger till vänster fungerar som förväntat. 
+ // Se till att alla fältoperationer som involverar text från höger till vänster fungerar som förväntat.
 doc.FieldOptions.IsBidiTextSupportedOnUpdate = true;
 
 // Använd en dokumentbyggare för att infoga ett fält som innehåller texten från höger till vänster.

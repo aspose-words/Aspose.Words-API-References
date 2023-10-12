@@ -1,14 +1,14 @@
 ---
 title: ShapeBase.SizeInPoints
 second_title: Aspose.Words لمراجع .NET API
-description: ShapeBase ملكية. الحصول على حجم الشكل بالنقاط .
+description: ShapeBase ملكية. الحصول على حجم الشكل بالنقاط.
 type: docs
-weight: 470
+weight: 510
 url: /ar/net/aspose.words.drawing/shapebase/sizeinpoints/
 ---
 ## ShapeBase.SizeInPoints property
 
-الحصول على حجم الشكل بالنقاط .
+الحصول على حجم الشكل بالنقاط.
 
 ```csharp
 public SizeF SizeInPoints { get; }

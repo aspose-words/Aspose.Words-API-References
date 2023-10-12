@@ -1,12 +1,14 @@
 ---
 title: Cluster.CodepointsLength
 second_title: Aspose.Words لمراجع .NET API
-description: Cluster ملكية. 
+description: Cluster ملكية. يحصل على العدد الإجمالي لنقاط الكود فيCluster .
 type: docs
 weight: 30
 url: /ar/net/aspose.words.shaping/cluster/codepointslength/
 ---
 ## Cluster.CodepointsLength property
+
+يحصل على العدد الإجمالي لنقاط الكود في[`Cluster`](../) .
 
 ```csharp
 public int CodepointsLength { get; }

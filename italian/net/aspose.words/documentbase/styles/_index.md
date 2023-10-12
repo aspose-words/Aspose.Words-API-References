@@ -16,7 +16,7 @@ public StyleCollection Styles { get; }
 
 ### Osservazioni
 
-Per maggiori informazioni vedere la descrizione del[`StyleCollection`](../../stylecollection/) classe.
+Per maggiori informazioni consultare la descrizione del[`StyleCollection`](../../stylecollection/) classe.
 
 ### Esempi
 
@@ -43,7 +43,7 @@ using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 }
 ```
 
-Mostra come creare e utilizzare uno stile di paragrafo con la formattazione dell'elenco.
+Mostra come creare e utilizzare uno stile di paragrafo con formattazione elenco.
 
 ```csharp
 Document doc = new Document();
@@ -55,15 +55,15 @@ style.Font.Size = 24;
 style.Font.Name = "Verdana";
 style.ParagraphFormat.SpaceAfter = 12;
 
-// Crea un elenco e assicurati che i paragrafi che utilizzano questo stile utilizzeranno questo elenco.
+// Crea un elenco e assicurati che i paragrafi che utilizzano questo stile utilizzino questo elenco.
 style.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
 style.ListFormat.ListLevelNumber = 0;
 
-// Applica lo stile di paragrafo al paragrafo corrente del generatore di documenti, quindi aggiungi del testo.
+// Applica lo stile di paragrafo al paragrafo corrente del generatore di documenti, quindi aggiunge del testo.
 builder.ParagraphFormat.Style = style;
 builder.Writeln("Hello World: MyStyle1, bulleted list.");
 
-// Cambia lo stile del generatore di documenti in uno che non ha formattazione dell'elenco e scrivi un altro paragrafo.
+// Cambia lo stile del generatore di documenti in uno che non abbia formattazione di elenco e scrivi un altro paragrafo.
 builder.ParagraphFormat.Style = doc.Styles["Normal"];
 builder.Writeln("Hello World: Normal.");
 
