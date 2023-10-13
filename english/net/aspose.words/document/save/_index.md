@@ -451,53 +451,9 @@ using (Stream stream = File.Create(ArtifactsDir + "PdfSaveOptions.OnePage.pdf"))
 
 ## Save(*HttpResponse, string, [ContentDisposition](../../contentdisposition/), [SaveOptions](../../../aspose.words.saving/saveoptions/)*) {#save_5}
 
-Sends the document to the client browser.
-
 ```csharp
 public SaveOutputParameters Save(HttpResponse response, string fileName, 
     ContentDisposition contentDisposition, SaveOptions saveOptions)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| response | HttpResponse | Response object where to save the document. |
-| fileName | String | The name for the document that will appear at the client browser. The name should not contain path. |
-| contentDisposition | ContentDisposition | A [`ContentDisposition`](../../contentdisposition/) value that specifies how the document is presented at the client browser. |
-| saveOptions | SaveOptions | Specifies the options that control how the document is saved. Can be `null`. |
-
-### Return Value
-
-Additional information that you can optionally use.
-
-## Remarks
-
-Internally, this method saves to a memory stream first and then copies to the response stream because the response stream does not support seek.
-
-## Examples
-
-Shows how to perform a mail merge, and then save the document to the client browser.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-builder.InsertField(" MERGEFIELD FullName ");
-builder.InsertParagraph();
-builder.InsertField(" MERGEFIELD Company ");
-builder.InsertParagraph();
-builder.InsertField(" MERGEFIELD Address ");
-builder.InsertParagraph();
-builder.InsertField(" MERGEFIELD City ");
-
-doc.MailMerge.Execute(new string[] { "FullName", "Company", "Address", "City" },
-    new object[] { "James Bond", "MI5 Headquarters", "Milbank", "London" });
-
-// Send the document to the client browser.
-Assert.That(() => doc.Save(response, "Artifacts/MailMerge.ExecuteArray.docx", ContentDisposition.Inline, null),
-    Throws.TypeOf<ArgumentNullException>()); //Thrown because HttpResponse is null in the test.
-
-// We will need to close this response manually to ensure that we do not add any superfluous content to the document after saving.
-Assert.That(() => response.End(), Throws.TypeOf<NullReferenceException>());
 ```
 
 ### See Also
