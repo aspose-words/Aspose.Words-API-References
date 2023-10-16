@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: ImageFieldMergingArgs class
 linktitle: ImageFieldMergingArgs class
 articleTitle: ImageFieldMergingArgs class

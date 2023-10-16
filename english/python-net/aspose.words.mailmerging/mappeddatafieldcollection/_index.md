@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: MappedDataFieldCollection class
 linktitle: MappedDataFieldCollection class
 articleTitle: MappedDataFieldCollection class

@@ -14,6 +14,7 @@ url: /python-net/aspose.words.markup/structureddocumenttag/date_storage_format/
 Gets/sets format in which the date for a date SDT is stored when the **SDT** is bound to an XML node in the document's data store.
 Default value is [SdtDateStorageFormat.DATE_TIME](../../sdtdatestorageformat/#DATE_TIME)
 
+
 Accessing this property will only work for [SdtType.DATE](../../sdttype/#DATE) SDT type.
 
 

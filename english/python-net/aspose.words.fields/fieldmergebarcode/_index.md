@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: FieldMergeBarcode class
 linktitle: FieldMergeBarcode class
 articleTitle: FieldMergeBarcode class

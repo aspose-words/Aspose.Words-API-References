@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: JsonDataLoadOptions class
 linktitle: JsonDataLoadOptions class
 articleTitle: JsonDataLoadOptions class

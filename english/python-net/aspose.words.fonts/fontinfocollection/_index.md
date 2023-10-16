@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: FontInfoCollection class
 linktitle: FontInfoCollection class
 articleTitle: FontInfoCollection class

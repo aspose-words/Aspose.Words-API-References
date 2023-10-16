@@ -14,6 +14,7 @@ url: /python-net/aspose.words/controlchar/PARAGRAPH_BREAK/
 End of paragraph character: "\\x000d" or "\\r". Same as [ControlChar.CR](../CR/)
 
 
+
 ### Examples
 
 Shows how to add various control characters to a document.

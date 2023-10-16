@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: FontSourceBase class
 linktitle: FontSourceBase class
 articleTitle: FontSourceBase class

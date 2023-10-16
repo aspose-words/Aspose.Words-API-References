@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: FieldShape class
 linktitle: FieldShape class
 articleTitle: FieldShape class

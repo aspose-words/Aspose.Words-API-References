@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: PlainTextDocument class
 linktitle: PlainTextDocument class
 articleTitle: PlainTextDocument class

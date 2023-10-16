@@ -5,7 +5,7 @@ articleTitle: horizontal_merge property
 second_title: Aspose.Words for Python
 description: "CellFormat.horizontal_merge property. Specifies how the cell is merged horizontally with other cells in the row."
 type: docs
-weight: 40
+weight: 50
 url: /python-net/aspose.words.tables/cellformat/horizontal_merge/
 ---
 

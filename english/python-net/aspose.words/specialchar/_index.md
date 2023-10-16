@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: SpecialChar class
 linktitle: SpecialChar class
 articleTitle: SpecialChar class

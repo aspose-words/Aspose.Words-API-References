@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: ChartMarker class
 linktitle: ChartMarker class
 articleTitle: ChartMarker class

@@ -5,7 +5,7 @@ articleTitle: set_image method
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.ImageData.set_image method"
 type: docs
-weight: 200
+weight: 210
 url: /python-net/aspose.words.drawing/imagedata/set_image/
 ---
 

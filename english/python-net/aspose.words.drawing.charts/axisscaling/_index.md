@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: AxisScaling class
 linktitle: AxisScaling class
 articleTitle: AxisScaling class

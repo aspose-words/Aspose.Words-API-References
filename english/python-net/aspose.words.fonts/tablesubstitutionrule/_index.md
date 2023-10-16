@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: TableSubstitutionRule class
 linktitle: TableSubstitutionRule class
 articleTitle: TableSubstitutionRule class

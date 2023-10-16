@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: FieldDate class
 linktitle: FieldDate class
 articleTitle: FieldDate class

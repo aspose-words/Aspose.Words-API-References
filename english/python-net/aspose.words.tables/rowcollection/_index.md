@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: RowCollection class
 linktitle: RowCollection class
 articleTitle: RowCollection class

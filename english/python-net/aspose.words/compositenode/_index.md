@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: CompositeNode class
 linktitle: CompositeNode class
 articleTitle: CompositeNode class
@@ -57,6 +57,8 @@ The [CompositeNode](./) class:
 | Name | Description |
 | --- | --- |
 |[ accept(visitor)](../node/accept/#documentvisitor) | Accepts a visitor.<br>(Inherited from [Node](../node/)) |
+|[ accept_end(visitor)](./accept_end/#documentvisitor) | When implemented in a derived class, calls the VisitXXXEnd method of the specified document visitor. |
+|[ accept_start(visitor)](./accept_start/#documentvisitor) | When implemented in a derived class, calls the VisitXXXStart method of the specified document visitor. |
 |[ append_child(new_child)](./append_child/#node) | Adds the specified node to the end of the list of child nodes for this node. |
 |[ clone(is_clone_children)](../node/clone/#bool) | Creates a duplicate of the node.<br>(Inherited from [Node](../node/)) |
 |[ get_ancestor(ancestor_type)](../node/get_ancestor/#unknown) | Gets the first ancestor of the specified object type.<br>(Inherited from [Node](../node/)) |

@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: OleFormat class
 linktitle: OleFormat class
 articleTitle: OleFormat class

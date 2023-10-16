@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: OleControl class
 linktitle: OleControl class
 articleTitle: OleControl class

@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: ChartNumberFormat class
 linktitle: ChartNumberFormat class
 articleTitle: ChartNumberFormat class

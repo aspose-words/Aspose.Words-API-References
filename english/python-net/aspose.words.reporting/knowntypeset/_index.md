@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: KnownTypeSet class
 linktitle: KnownTypeSet class
 articleTitle: KnownTypeSet class

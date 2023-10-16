@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: FootnoteOptions class
 linktitle: FootnoteOptions class
 articleTitle: FootnoteOptions class

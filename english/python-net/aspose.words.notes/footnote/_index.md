@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: Footnote class
 linktitle: Footnote class
 articleTitle: Footnote class
@@ -69,6 +69,8 @@ The [Footnote](./) class is used to represent both footnotes and endnotes in a W
 | Name | Description |
 | --- | --- |
 |[ accept(visitor)](./accept/#documentvisitor) | Accepts a visitor. |
+|[ accept_end(visitor)](../../aspose.words/compositenode/accept_end/#documentvisitor) | When implemented in a derived class, calls the VisitXXXEnd method of the specified document visitor.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
+|[ accept_start(visitor)](../../aspose.words/compositenode/accept_start/#documentvisitor) | When implemented in a derived class, calls the VisitXXXStart method of the specified document visitor.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 |[ append_child(new_child)](../../aspose.words/compositenode/append_child/#node) | Adds the specified node to the end of the list of child nodes for this node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 |[ clone(is_clone_children)](../../aspose.words/node/clone/#bool) | Creates a duplicate of the node.<br>(Inherited from [Node](../../aspose.words/node/)) |
 |[ ensure_minimum()](../../aspose.words/inlinestory/ensure_minimum/#default) | If the last child is not a paragraph, creates and appends one empty paragraph.<br>(Inherited from [InlineStory](../../aspose.words/inlinestory/)) |

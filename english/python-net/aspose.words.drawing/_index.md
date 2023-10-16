@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: aspose.words.drawing module
 linktitle: aspose.words.drawing module
 articleTitle: aspose.words.drawing module

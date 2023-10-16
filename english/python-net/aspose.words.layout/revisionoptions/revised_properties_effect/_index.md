@@ -14,6 +14,7 @@ url: /python-net/aspose.words.layout/revisionoptions/revised_properties_effect/
 Allows to specify the effect for content areas with changes of formatting properties [RevisionType.FORMAT_CHANGE](../../../aspose.words/revisiontype/#FORMAT_CHANGE)
 Default value is [RevisionTextEffect.NONE](../../revisiontexteffect/#NONE)
 
+
 [RevisionTextEffect.HIDDEN](../../revisiontexteffect/#HIDDEN) is not allowed and will cause System.ArgumentOutOfRangeException.
 
 

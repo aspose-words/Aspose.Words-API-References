@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: TxtSaveOptions class
 linktitle: TxtSaveOptions class
 articleTitle: TxtSaveOptions class

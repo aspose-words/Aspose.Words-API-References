@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: FieldAdvance class
 linktitle: FieldAdvance class
 articleTitle: FieldAdvance class

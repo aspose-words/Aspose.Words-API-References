@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: ImageSaveOptions class
 linktitle: ImageSaveOptions class
 articleTitle: ImageSaveOptions class

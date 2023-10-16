@@ -5,7 +5,7 @@ articleTitle: insert_after method
 second_title: Aspose.Words for Python
 description: "CompositeNode.insert_after method. Inserts the specified node immediately after the specified reference node."
 type: docs
-weight: 110
+weight: 130
 url: /python-net/aspose.words/compositenode/insert_after/
 ---
 

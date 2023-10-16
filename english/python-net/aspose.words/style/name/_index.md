@@ -5,7 +5,7 @@ articleTitle: name property
 second_title: Aspose.Words for Python
 description: "Style.name property. Gets or sets the name of the style."
 type: docs
-weight: 120
+weight: 130
 url: /python-net/aspose.words/style/name/
 ---
 

@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: MetafileRenderingOptions class
 linktitle: MetafileRenderingOptions class
 articleTitle: MetafileRenderingOptions class

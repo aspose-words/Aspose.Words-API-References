@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: Stroke class
 linktitle: Stroke class
 articleTitle: Stroke class
@@ -28,6 +28,7 @@ You do not create instances of the [Stroke](./) class directly.
 | Name | Description |
 | --- | --- |
 | [back_color](./back_color/) | Gets or sets the background color of the stroke. |
+| [base_fore_color](./base_fore_color/) | Gets the base foreground color of the stroke without any modifiers. |
 | [color](./color/) | Defines the color of a stroke. |
 | [color2](./color2/) | Defines a second color for a stroke. |
 | [dash_style](./dash_style/) | Specifies the dot and dash pattern for a stroke. |

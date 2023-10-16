@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: FieldChar class
 linktitle: FieldChar class
 articleTitle: FieldChar class

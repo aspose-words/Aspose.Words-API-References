@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: ControlChar class
 linktitle: ControlChar class
 articleTitle: ControlChar class

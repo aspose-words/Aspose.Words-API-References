@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: aspose.words.buildingblocks module
 linktitle: aspose.words.buildingblocks module
 articleTitle: aspose.words.buildingblocks module

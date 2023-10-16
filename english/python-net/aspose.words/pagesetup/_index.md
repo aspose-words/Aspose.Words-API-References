@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: PageSetup class
 linktitle: PageSetup class
 articleTitle: PageSetup class

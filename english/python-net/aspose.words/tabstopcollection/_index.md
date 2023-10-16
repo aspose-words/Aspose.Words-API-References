@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: TabStopCollection class
 linktitle: TabStopCollection class
 articleTitle: TabStopCollection class

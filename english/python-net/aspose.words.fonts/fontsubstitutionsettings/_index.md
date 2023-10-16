@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: FontSubstitutionSettings class
 linktitle: FontSubstitutionSettings class
 articleTitle: FontSubstitutionSettings class

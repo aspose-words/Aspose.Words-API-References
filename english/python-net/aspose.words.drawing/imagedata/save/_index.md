@@ -5,7 +5,7 @@ articleTitle: save method
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.ImageData.save method"
 type: docs
-weight: 190
+weight: 200
 url: /python-net/aspose.words.drawing/imagedata/save/
 ---
 

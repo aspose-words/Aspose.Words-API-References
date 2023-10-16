@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: BuildingBlockCollection class
 linktitle: BuildingBlockCollection class
 articleTitle: BuildingBlockCollection class

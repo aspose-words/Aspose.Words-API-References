@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: CommentCollection class
 linktitle: CommentCollection class
 articleTitle: CommentCollection class

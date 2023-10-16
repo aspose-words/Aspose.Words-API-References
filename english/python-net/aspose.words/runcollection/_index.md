@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: RunCollection class
 linktitle: RunCollection class
 articleTitle: RunCollection class

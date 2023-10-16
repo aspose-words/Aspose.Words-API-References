@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: License class
 linktitle: License class
 articleTitle: License class

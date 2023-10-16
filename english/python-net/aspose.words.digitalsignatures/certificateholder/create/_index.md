@@ -30,6 +30,7 @@ def create(self, cert_bytes: bytes, password: str):
 An instance of [CertificateHolder](../)
 
 
+
 ### Exceptions
 
 | exception | condition |
@@ -58,6 +59,7 @@ def create(self, file_name: str, password: str):
 ### Returns
 
 An instance of [CertificateHolder](../)
+
 
 
 ### Exceptions
@@ -89,6 +91,7 @@ def create(self, file_name: str, password: str, alias: str):
 ### Returns
 
 An instance of [CertificateHolder](../)
+
 
 
 ### Exceptions

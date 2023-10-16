@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: DocumentVisitor class
 linktitle: DocumentVisitor class
 articleTitle: DocumentVisitor class

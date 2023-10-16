@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: StructuredDocumentTagRangeEnd class
 linktitle: StructuredDocumentTagRangeEnd class
 articleTitle: StructuredDocumentTagRangeEnd class

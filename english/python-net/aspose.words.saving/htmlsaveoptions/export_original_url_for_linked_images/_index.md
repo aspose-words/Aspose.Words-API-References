@@ -15,7 +15,8 @@ Specifies whether original URL should be used as the URL of the linked images.
 Default value is ``False``.
 
 
-If value is set to ``True``[ImageData.source_full_name](../../../aspose.words.drawing/imagedata/source_full_name/) value is used
+If value is set to ``True``
+[ImageData.source_full_name](../../../aspose.words.drawing/imagedata/source_full_name/) value is used
 as the URL of linked images and linked images are not loaded into document's folder
 or [HtmlSaveOptions.images_folder](../images_folder/).
 

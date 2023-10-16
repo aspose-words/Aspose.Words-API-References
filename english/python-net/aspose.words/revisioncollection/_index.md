@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: RevisionCollection class
 linktitle: RevisionCollection class
 articleTitle: RevisionCollection class

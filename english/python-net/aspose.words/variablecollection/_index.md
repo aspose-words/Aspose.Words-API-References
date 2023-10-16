@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: VariableCollection class
 linktitle: VariableCollection class
 articleTitle: VariableCollection class

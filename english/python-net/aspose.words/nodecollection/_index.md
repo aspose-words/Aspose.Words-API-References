@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: NodeCollection class
 linktitle: NodeCollection class
 articleTitle: NodeCollection class

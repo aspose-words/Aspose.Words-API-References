@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: DocumentPropertyCollection class
 linktitle: DocumentPropertyCollection class
 articleTitle: DocumentPropertyCollection class

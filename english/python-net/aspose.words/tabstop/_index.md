@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: TabStop class
 linktitle: TabStop class
 articleTitle: TabStop class

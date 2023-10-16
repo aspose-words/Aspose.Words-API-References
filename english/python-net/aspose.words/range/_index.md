@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: Range class
 linktitle: Range class
 articleTitle: Range class

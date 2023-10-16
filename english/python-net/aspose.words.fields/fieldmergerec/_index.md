@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: FieldMergeRec class
 linktitle: FieldMergeRec class
 articleTitle: FieldMergeRec class

@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: XmlMapping class
 linktitle: XmlMapping class
 articleTitle: XmlMapping class

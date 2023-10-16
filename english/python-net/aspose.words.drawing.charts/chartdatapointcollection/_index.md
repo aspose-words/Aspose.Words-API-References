@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: ChartDataPointCollection class
 linktitle: ChartDataPointCollection class
 articleTitle: ChartDataPointCollection class
@@ -34,6 +34,8 @@ To learn more, visit the [Working with Charts](https://docs.aspose.com/words/pyt
 | Name | Description |
 | --- | --- |
 |[ clear_format()](./clear_format/#default) | Clears format of all [ChartDataPoint](../chartdatapoint/) in this collection. |
+|[ copy_format(source_index, destination_index)](./copy_format/#int_int) | Copies format from the source data point to the destination data point. |
+|[ has_default_format(data_point_index)](./has_default_format/#int) | Gets a flag indicating whether the data point at the specified index has default format. |
 
 ### Examples
 

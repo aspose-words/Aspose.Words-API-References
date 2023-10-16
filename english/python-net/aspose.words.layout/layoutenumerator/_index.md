@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: LayoutEnumerator class
 linktitle: LayoutEnumerator class
 articleTitle: LayoutEnumerator class

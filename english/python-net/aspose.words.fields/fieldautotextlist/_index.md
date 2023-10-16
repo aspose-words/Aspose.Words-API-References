@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: FieldAutoTextList class
 linktitle: FieldAutoTextList class
 articleTitle: FieldAutoTextList class

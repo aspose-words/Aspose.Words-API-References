@@ -39,6 +39,7 @@ def remove_all_signatures(self, src_file_name: str, dst_file_name: str):
 Removes all digital signatures from document in source stream and writes unsigned document to destination stream.
 **Output will be written to the start of stream and stream size will be updated with content length.**
 
+
 The following formats are compatible for digital signature removal:
 [LoadFormat.DOC](../../../aspose.words/loadformat/#DOC),
 [LoadFormat.DOT](../../../aspose.words/loadformat/#DOT),

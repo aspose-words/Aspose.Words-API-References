@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: PhysicalFontInfo class
 linktitle: PhysicalFontInfo class
 articleTitle: PhysicalFontInfo class

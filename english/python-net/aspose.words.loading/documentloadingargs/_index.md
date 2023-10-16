@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: DocumentLoadingArgs class
 linktitle: DocumentLoadingArgs class
 articleTitle: DocumentLoadingArgs class

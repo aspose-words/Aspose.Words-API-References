@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: ConvertUtil class
 linktitle: ConvertUtil class
 articleTitle: ConvertUtil class

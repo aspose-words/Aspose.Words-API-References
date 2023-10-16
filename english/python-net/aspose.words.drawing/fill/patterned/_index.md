@@ -5,7 +5,7 @@ articleTitle: patterned method
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.Fill.patterned method"
 type: docs
-weight: 220
+weight: 230
 url: /python-net/aspose.words.drawing/fill/patterned/
 ---
 

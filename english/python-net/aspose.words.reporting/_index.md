@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: aspose.words.reporting module
 linktitle: aspose.words.reporting module
 articleTitle: aspose.words.reporting module

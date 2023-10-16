@@ -5,7 +5,7 @@ articleTitle: orientation property
 second_title: Aspose.Words for Python
 description: "CellFormat.orientation property. Returns or sets the orientation of text in a table cell."
 type: docs
-weight: 60
+weight: 70
 url: /python-net/aspose.words.tables/cellformat/orientation/
 ---
 

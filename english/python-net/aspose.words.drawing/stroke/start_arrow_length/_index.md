@@ -5,7 +5,7 @@ articleTitle: start_arrow_length property
 second_title: Aspose.Words for Python
 description: "Stroke.start_arrow_length property. Defines the arrowhead length for the start of a stroke."
 type: docs
-weight: 160
+weight: 170
 url: /python-net/aspose.words.drawing/stroke/start_arrow_length/
 ---
 

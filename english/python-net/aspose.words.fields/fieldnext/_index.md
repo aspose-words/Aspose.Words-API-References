@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: FieldNext class
 linktitle: FieldNext class
 articleTitle: FieldNext class

@@ -5,7 +5,7 @@ articleTitle: show property
 second_title: Aspose.Words for Python
 description: "ChartTitle.show property. Determines whether the title shall be shown for this chart"
 type: docs
-weight: 20
+weight: 30
 url: /python-net/aspose.words.drawing.charts/charttitle/show/
 ---
 
@@ -31,6 +31,8 @@ chart = chart_shape.chart
 # Use the "title" property to give our chart a title, which appears at the top center of the chart area.
 title = chart.title
 title.text = "My Chart"
+title.font.size = 15
+title.font.color = drawing.Color.blue
 
 # Set the "show" property to "True" to make the title visible.
 title.show = True

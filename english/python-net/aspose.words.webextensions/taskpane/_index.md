@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: TaskPane class
 linktitle: TaskPane class
 articleTitle: TaskPane class

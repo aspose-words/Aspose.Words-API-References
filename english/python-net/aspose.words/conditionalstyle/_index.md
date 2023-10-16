@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: ConditionalStyle class
 linktitle: ConditionalStyle class
 articleTitle: ConditionalStyle class

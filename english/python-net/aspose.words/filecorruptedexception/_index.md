@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: FileCorruptedException class
 linktitle: FileCorruptedException class
 articleTitle: FileCorruptedException class

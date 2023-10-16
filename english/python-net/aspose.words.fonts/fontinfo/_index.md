@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: FontInfo class
 linktitle: FontInfo class
 articleTitle: FontInfo class

@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: StyleCollection class
 linktitle: StyleCollection class
 articleTitle: StyleCollection class

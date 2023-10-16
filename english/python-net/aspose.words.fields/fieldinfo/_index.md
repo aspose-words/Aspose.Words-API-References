@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: FieldInfo class
 linktitle: FieldInfo class
 articleTitle: FieldInfo class

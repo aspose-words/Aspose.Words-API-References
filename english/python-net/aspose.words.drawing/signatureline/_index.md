@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: SignatureLine class
 linktitle: SignatureLine class
 articleTitle: SignatureLine class

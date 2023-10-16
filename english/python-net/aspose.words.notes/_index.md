@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: aspose.words.notes module
 linktitle: aspose.words.notes module
 articleTitle: aspose.words.notes module

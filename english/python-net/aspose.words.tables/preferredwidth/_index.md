@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: PreferredWidth class
 linktitle: PreferredWidth class
 articleTitle: PreferredWidth class

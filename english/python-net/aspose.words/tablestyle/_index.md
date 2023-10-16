@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: TableStyle class
 linktitle: TableStyle class
 articleTitle: TableStyle class
@@ -44,6 +44,7 @@ To learn more, visit the [Working with Tables](https://docs.aspose.com/words/pyt
 | [linked_style_name](../style/linked_style_name/) | Gets the name of the [Style](../style/) linked to this one. Returns empty string if no styles are linked.<br>(Inherited from [Style](../style/)) |
 | [list](../style/list/) | Gets the list that defines formatting of this list style.<br>(Inherited from [Style](../style/)) |
 | [list_format](../style/list_format/) | Provides access to the list formatting properties of a paragraph style.<br>(Inherited from [Style](../style/)) |
+| [locked](../style/locked/) | Specifies whether this style is locked.<br>(Inherited from [Style](../style/)) |
 | [name](../style/name/) | Gets or sets the name of the style.<br>(Inherited from [Style](../style/)) |
 | [next_paragraph_style_name](../style/next_paragraph_style_name/) | Gets/sets the name of the style to be applied automatically to a new paragraph inserted after a paragraph formatted with the specified style.<br>(Inherited from [Style](../style/)) |
 | [paragraph_format](../style/paragraph_format/) | Gets the paragraph formatting of the style.<br>(Inherited from [Style](../style/)) |

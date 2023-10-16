@@ -5,7 +5,7 @@ articleTitle: insert_style_separator method
 second_title: Aspose.Words for Python
 description: "DocumentBuilder.insert_style_separator method. Inserts style separator into the document."
 type: docs
-weight: 450
+weight: 460
 url: /python-net/aspose.words/documentbuilder/insert_style_separator/
 ---
 

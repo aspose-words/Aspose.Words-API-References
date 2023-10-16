@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: MailMerge class
 linktitle: MailMerge class
 articleTitle: MailMerge class

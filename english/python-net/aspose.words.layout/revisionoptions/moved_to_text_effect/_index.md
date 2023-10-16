@@ -14,6 +14,7 @@ url: /python-net/aspose.words.layout/revisionoptions/moved_to_text_effect/
 Allows to specify the effect to be applied to the areas where content was moved to [RevisionType.MOVING](../../../aspose.words/revisiontype/#MOVING).
 Default value is [RevisionTextEffect.DOUBLE_UNDERLINE](../../revisiontexteffect/#DOUBLE_UNDERLINE)
 
+
 Values of [RevisionTextEffect.HIDDEN](../../revisiontexteffect/#HIDDEN) and [RevisionTextEffect.DOUBLE_STRIKE_THROUGH](../../revisiontexteffect/#DOUBLE_STRIKE_THROUGH) 
 are not allowed and will cause System.ArgumentOutOfRangeException.
 

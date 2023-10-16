@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: aspose.words.replacing module
 linktitle: aspose.words.replacing module
 articleTitle: aspose.words.replacing module

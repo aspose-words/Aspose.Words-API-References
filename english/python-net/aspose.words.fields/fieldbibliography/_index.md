@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: FieldBibliography class
 linktitle: FieldBibliography class
 articleTitle: FieldBibliography class

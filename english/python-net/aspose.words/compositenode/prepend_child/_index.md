@@ -5,7 +5,7 @@ articleTitle: prepend_child method
 second_title: Aspose.Words for Python
 description: "CompositeNode.prepend_child method. Adds the specified node to the beginning of the list of child nodes for this node."
 type: docs
-weight: 130
+weight: 150
 url: /python-net/aspose.words/compositenode/prepend_child/
 ---
 

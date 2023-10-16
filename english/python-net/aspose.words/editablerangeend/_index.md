@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: EditableRangeEnd class
 linktitle: EditableRangeEnd class
 articleTitle: EditableRangeEnd class

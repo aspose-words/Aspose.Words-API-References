@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: ChartDataPoint class
 linktitle: ChartDataPoint class
 articleTitle: ChartDataPoint class

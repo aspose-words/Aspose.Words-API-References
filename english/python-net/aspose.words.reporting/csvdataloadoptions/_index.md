@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: CsvDataLoadOptions class
 linktitle: CsvDataLoadOptions class
 articleTitle: CsvDataLoadOptions class

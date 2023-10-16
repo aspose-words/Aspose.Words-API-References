@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: FieldPrivate class
 linktitle: FieldPrivate class
 articleTitle: FieldPrivate class

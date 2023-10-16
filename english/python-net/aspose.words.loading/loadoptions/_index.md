@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: LoadOptions class
 linktitle: LoadOptions class
 articleTitle: LoadOptions class

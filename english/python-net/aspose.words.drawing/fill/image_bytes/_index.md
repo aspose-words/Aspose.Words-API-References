@@ -5,7 +5,7 @@ articleTitle: image_bytes property
 second_title: Aspose.Words for Python
 description: "Fill.image_bytes property. Gets the raw bytes of the fill texture or pattern."
 type: docs
-weight: 130
+weight: 140
 url: /python-net/aspose.words.drawing/fill/image_bytes/
 ---
 

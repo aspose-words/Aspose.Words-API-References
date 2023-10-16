@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: aspose.words.settings module
 linktitle: aspose.words.settings module
 articleTitle: aspose.words.settings module
@@ -28,7 +28,7 @@ These are mail merge, write protection, compatibility and other settings.
 | [OdsoFieldMapData](./odsofieldmapdata/) | Specifies how a column in the external data source shall be mapped to the predefined merge fields within the document. To learn more, visit the [Mail Merge and Reporting](https://docs.aspose.com/words/python-net/mail-merge-and-reporting/) documentation article. |
 | [OdsoFieldMapDataCollection](./odsofieldmapdatacollection/) | A typed collection of the [OdsoFieldMapData](./odsofieldmapdata/) objects. To learn more, visit the [Mail Merge and Reporting](https://docs.aspose.com/words/python-net/mail-merge-and-reporting/) documentation article. |
 | [OdsoRecipientData](./odsorecipientdata/) | Represents information about a single record within an external data source that is to be excluded from the mail merge. To learn more, visit the [Mail Merge and Reporting](https://docs.aspose.com/words/python-net/mail-merge-and-reporting/) documentation article. |
-| [OdsoRecipientDataCollection](./odsorecipientdatacollection/) | A typed collection of [OdsoRecipientData](./odsorecipientdata/)To learn more, visit the [Mail Merge and Reporting](https://docs.aspose.com/words/python-net/mail-merge-and-reporting/) documentation article. |
+| [OdsoRecipientDataCollection](./odsorecipientdatacollection/) | A typed collection of [OdsoRecipientData](./odsorecipientdata/) To learn more, visit the [Mail Merge and Reporting](https://docs.aspose.com/words/python-net/mail-merge-and-reporting/) documentation article. |
 | [ViewOptions](./viewoptions/) | Provides various options that control how a document is shown in Microsoft Word. To learn more, visit the [Work with Options and Appearance of Word Documents](https://docs.aspose.com/words/python-net/work-with-word-document-options-and-appearance/) documentation article. |
 | [WriteProtection](./writeprotection/) | Specifies write protection settings for a document. To learn more, visit the [Protect or Encrypt a Document](https://docs.aspose.com/words/python-net/protect-or-encrypt-a-document/) documentation article. |
 

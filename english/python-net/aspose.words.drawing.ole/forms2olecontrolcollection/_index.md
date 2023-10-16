@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: Forms2OleControlCollection class
 linktitle: Forms2OleControlCollection class
 articleTitle: Forms2OleControlCollection class

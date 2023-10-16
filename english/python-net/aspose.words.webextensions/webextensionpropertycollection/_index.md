@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: WebExtensionPropertyCollection class
 linktitle: WebExtensionPropertyCollection class
 articleTitle: WebExtensionPropertyCollection class

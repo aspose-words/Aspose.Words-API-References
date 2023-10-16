@@ -5,7 +5,7 @@ articleTitle: trailing_spaces_options property
 second_title: Aspose.Words for Python
 description: "TxtLoadOptions.trailing_spaces_options property. Gets or sets preferred option of a trailing space handling"
 type: docs
-weight: 60
+weight: 70
 url: /python-net/aspose.words.loading/txtloadoptions/trailing_spaces_options/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: start_bookmark method
 second_title: Aspose.Words for Python
 description: "DocumentBuilder.start_bookmark method. Marks the current position in the document as a bookmark start."
 type: docs
-weight: 610
+weight: 620
 url: /python-net/aspose.words/documentbuilder/start_bookmark/
 ---
 

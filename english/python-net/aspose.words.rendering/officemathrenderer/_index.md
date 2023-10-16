@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: OfficeMathRenderer class
 linktitle: OfficeMathRenderer class
 articleTitle: OfficeMathRenderer class

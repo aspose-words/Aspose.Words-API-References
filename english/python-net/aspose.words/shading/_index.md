@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: Shading class
 linktitle: Shading class
 articleTitle: Shading class

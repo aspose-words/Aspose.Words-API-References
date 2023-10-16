@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: BorderCollection class
 linktitle: BorderCollection class
 articleTitle: BorderCollection class

@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: FieldDatabase class
 linktitle: FieldDatabase class
 articleTitle: FieldDatabase class

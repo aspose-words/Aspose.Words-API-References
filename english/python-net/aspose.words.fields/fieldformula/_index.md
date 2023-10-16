@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: FieldFormula class
 linktitle: FieldFormula class
 articleTitle: FieldFormula class

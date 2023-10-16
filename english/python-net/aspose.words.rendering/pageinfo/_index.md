@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: PageInfo class
 linktitle: PageInfo class
 articleTitle: PageInfo class

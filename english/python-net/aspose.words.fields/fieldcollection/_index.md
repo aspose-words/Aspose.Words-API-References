@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: FieldCollection class
 linktitle: FieldCollection class
 articleTitle: FieldCollection class

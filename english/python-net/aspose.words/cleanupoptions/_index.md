@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: CleanupOptions class
 linktitle: CleanupOptions class
 articleTitle: CleanupOptions class

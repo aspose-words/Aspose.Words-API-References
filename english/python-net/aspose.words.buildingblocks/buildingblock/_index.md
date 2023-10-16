@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: BuildingBlock class
 linktitle: BuildingBlock class
 articleTitle: BuildingBlock class
@@ -69,6 +69,8 @@ Corresponds to the **docPart**, **docPartPr** and **docPartBody** elements in OO
 | Name | Description |
 | --- | --- |
 |[ accept(visitor)](./accept/#documentvisitor) | Accepts a visitor. |
+|[ accept_end(visitor)](../../aspose.words/compositenode/accept_end/#documentvisitor) | When implemented in a derived class, calls the VisitXXXEnd method of the specified document visitor.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
+|[ accept_start(visitor)](../../aspose.words/compositenode/accept_start/#documentvisitor) | When implemented in a derived class, calls the VisitXXXStart method of the specified document visitor.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 |[ append_child(new_child)](../../aspose.words/compositenode/append_child/#node) | Adds the specified node to the end of the list of child nodes for this node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 |[ clone(is_clone_children)](../../aspose.words/node/clone/#bool) | Creates a duplicate of the node.<br>(Inherited from [Node](../../aspose.words/node/)) |
 |[ get_ancestor(ancestor_type)](../../aspose.words/node/get_ancestor/#unknown) | Gets the first ancestor of the specified object type.<br>(Inherited from [Node](../../aspose.words/node/)) |

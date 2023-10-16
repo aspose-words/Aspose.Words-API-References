@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: ThemeColor enumeration
 linktitle: ThemeColor enumeration
 articleTitle: ThemeColor enumeration

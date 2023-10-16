@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: LayoutCollector class
 linktitle: LayoutCollector class
 articleTitle: LayoutCollector class

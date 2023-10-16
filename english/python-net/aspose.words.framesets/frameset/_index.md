@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: Frameset class
 linktitle: Frameset class
 articleTitle: Frameset class

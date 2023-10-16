@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: ChmLoadOptions class
 linktitle: ChmLoadOptions class
 articleTitle: ChmLoadOptions class

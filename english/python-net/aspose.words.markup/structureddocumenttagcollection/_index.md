@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: StructuredDocumentTagCollection class
 linktitle: StructuredDocumentTagCollection class
 articleTitle: StructuredDocumentTagCollection class

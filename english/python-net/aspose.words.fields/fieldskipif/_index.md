@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: FieldSkipIf class
 linktitle: FieldSkipIf class
 articleTitle: FieldSkipIf class

@@ -14,6 +14,7 @@ url: /python-net/aspose.words.loading/loadoptions/msw_version/
 Allows to specify that the document loading process should match a specific MS Word version.
 Default value is [MsWordVersion.WORD2019](../../../aspose.words.settings/mswordversion/#WORD2019)
 
+
 Different Word versions may handle certain aspects of document content and formatting slightly differently
 during the loading process, which may result in minor differences in Document Object Model.
 

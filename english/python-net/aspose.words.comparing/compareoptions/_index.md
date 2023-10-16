@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: CompareOptions class
 linktitle: CompareOptions class
 articleTitle: CompareOptions class

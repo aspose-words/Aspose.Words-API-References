@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: DownsampleOptions class
 linktitle: DownsampleOptions class
 articleTitle: DownsampleOptions class

@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: ChartSeries class
 linktitle: ChartSeries class
 articleTitle: ChartSeries class
@@ -48,6 +48,7 @@ To learn more, visit the [Working with Charts](https://docs.aspose.com/words/pyt
 |[ add(x_value, y_value, bubble_size)](./add/#chartxvalue_chartyvalue_float) | Adds the specified X value, Y value and bubble size to the chart series. |
 |[ clear()](./clear/#default) | Removes all data values from the chart series. Format of all individual data points and data labels is cleared. |
 |[ clear_values()](./clear_values/#default) | Removes all data values from the chart series with preserving the format of the data points and data labels. |
+|[ copy_format_from(data_point_index)](./copy_format_from/#int) | Copies default data point format from the data point with the specified index. |
 |[ insert(index, x_value)](./insert/#int_chartxvalue) | Inserts the specified X value into the chart series at the specified index. If the series supports Y values and bubble sizes, they will be empty for the X value. |
 |[ insert(index, x_value, y_value)](./insert/#int_chartxvalue_chartyvalue) | Inserts the specified X and Y values into the chart series at the specified index. |
 |[ insert(index, x_value, y_value, bubble_size)](./insert/#int_chartxvalue_chartyvalue_float) | Inserts the specified X value, Y value and bubble size into the chart series at the specified index. |

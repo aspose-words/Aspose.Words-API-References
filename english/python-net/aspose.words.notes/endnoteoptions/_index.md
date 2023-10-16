@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: EndnoteOptions class
 linktitle: EndnoteOptions class
 articleTitle: EndnoteOptions class

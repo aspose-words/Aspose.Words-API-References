@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: FieldRD class
 linktitle: FieldRD class
 articleTitle: FieldRD class

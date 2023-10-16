@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: ParagraphCollection class
 linktitle: ParagraphCollection class
 articleTitle: ParagraphCollection class

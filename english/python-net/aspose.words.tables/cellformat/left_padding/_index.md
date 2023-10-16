@@ -5,7 +5,7 @@ articleTitle: left_padding property
 second_title: Aspose.Words for Python
 description: "CellFormat.left_padding property. Returns or sets the amount of space (in points) to add to the left of the contents of cell."
 type: docs
-weight: 50
+weight: 60
 url: /python-net/aspose.words.tables/cellformat/left_padding/
 ---
 

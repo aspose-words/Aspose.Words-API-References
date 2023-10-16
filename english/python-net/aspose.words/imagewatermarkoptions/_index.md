@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: ImageWatermarkOptions class
 linktitle: ImageWatermarkOptions class
 articleTitle: ImageWatermarkOptions class

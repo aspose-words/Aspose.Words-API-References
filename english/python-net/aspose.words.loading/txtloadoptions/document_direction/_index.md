@@ -5,7 +5,7 @@ articleTitle: document_direction property
 second_title: Aspose.Words for Python
 description: "TxtLoadOptions.document_direction property. Gets or sets a document direction"
 type: docs
-weight: 40
+weight: 50
 url: /python-net/aspose.words.loading/txtloadoptions/document_direction/
 ---
 

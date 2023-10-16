@@ -33,6 +33,7 @@ recorded as revisions.
 Automatic tracking of changes is supported both when modifying this document through node manipulations
 as well as when using [DocumentBuilder](../../documentbuilder/)
 
+
 This method does not change the [Document.track_revisions](../track_revisions/) option and does not use its value
 for the purposes of revision tracking.
 
@@ -61,6 +62,7 @@ recorded as revisions.
 
 Automatic tracking of changes is supported both when modifying this document through node manipulations
 as well as when using [DocumentBuilder](../../documentbuilder/)
+
 
 This method does not change the [Document.track_revisions](../track_revisions/) option and does not use its value
 for the purposes of revision tracking.

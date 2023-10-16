@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: VbaProject class
 linktitle: VbaProject class
 articleTitle: VbaProject class

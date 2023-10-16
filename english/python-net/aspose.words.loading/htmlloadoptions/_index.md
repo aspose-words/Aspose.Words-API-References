@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: HtmlLoadOptions class
 linktitle: HtmlLoadOptions class
 articleTitle: HtmlLoadOptions class

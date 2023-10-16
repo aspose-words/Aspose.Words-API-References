@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: SignatureLineOptions class
 linktitle: SignatureLineOptions class
 articleTitle: SignatureLineOptions class
