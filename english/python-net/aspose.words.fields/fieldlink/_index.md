@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: FieldLink class
 linktitle: FieldLink class
 articleTitle: FieldLink class

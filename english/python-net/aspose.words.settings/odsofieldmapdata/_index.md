@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: OdsoFieldMapData class
 linktitle: OdsoFieldMapData class
 articleTitle: OdsoFieldMapData class

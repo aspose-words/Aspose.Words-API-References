@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: aspose.words.fonts module
 linktitle: aspose.words.fonts module
 articleTitle: aspose.words.fonts module

@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: WebExtensionBinding class
 linktitle: WebExtensionBinding class
 articleTitle: WebExtensionBinding class

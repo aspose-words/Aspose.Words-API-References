@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: DigitalSignature class
 linktitle: DigitalSignature class
 articleTitle: DigitalSignature class

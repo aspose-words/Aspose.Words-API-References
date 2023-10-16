@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: FontConfigSubstitutionRule class
 linktitle: FontConfigSubstitutionRule class
 articleTitle: FontConfigSubstitutionRule class

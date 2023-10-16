@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: GeneralFormatCollection class
 linktitle: GeneralFormatCollection class
 articleTitle: GeneralFormatCollection class

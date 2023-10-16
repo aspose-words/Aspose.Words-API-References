@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: HtmlSaveOptions class
 linktitle: HtmlSaveOptions class
 articleTitle: HtmlSaveOptions class

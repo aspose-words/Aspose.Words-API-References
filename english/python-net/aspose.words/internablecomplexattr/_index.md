@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: InternableComplexAttr class
 linktitle: InternableComplexAttr class
 articleTitle: InternableComplexAttr class

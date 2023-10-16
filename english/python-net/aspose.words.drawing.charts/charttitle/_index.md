@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: ChartTitle class
 linktitle: ChartTitle class
 articleTitle: ChartTitle class
@@ -22,6 +22,7 @@ To learn more, visit the [Working with
 
 | Name | Description |
 | --- | --- |
+| [font](./font/) | Provides access to the font formatting of the chart title. |
 | [overlay](./overlay/) | Determines whether other chart elements shall be allowed to overlap title. By default overlay is ``False``. |
 | [show](./show/) | Determines whether the title shall be shown for this chart. Default value is ``True``. |
 | [text](./text/) | Gets or sets the text of the chart title. If ``None`` or empty value is specified, auto generated title will be shown. |
@@ -41,6 +42,8 @@ chart = chart_shape.chart
 # Use the "title" property to give our chart a title, which appears at the top center of the chart area.
 title = chart.title
 title.text = "My Chart"
+title.font.size = 15
+title.font.color = drawing.Color.blue
 
 # Set the "show" property to "True" to make the title visible.
 title.show = True

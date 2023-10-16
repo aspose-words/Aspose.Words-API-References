@@ -5,7 +5,7 @@ articleTitle: width property
 second_title: Aspose.Words for Python
 description: "CellFormat.width property. Gets the width of the cell in points."
 type: docs
-weight: 130
+weight: 140
 url: /python-net/aspose.words.tables/cellformat/width/
 ---
 

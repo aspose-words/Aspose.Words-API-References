@@ -5,7 +5,7 @@ articleTitle: overlay property
 second_title: Aspose.Words for Python
 description: "ChartAxisTitle.overlay property. Determines whether other chart elements shall be allowed to overlap the title"
 type: docs
-weight: 10
+weight: 20
 url: /python-net/aspose.words.drawing.charts/chartaxistitle/overlay/
 ---
 
@@ -40,6 +40,8 @@ chart.axis_x.title.show = True
 chart.axis_y.title.text = "Values"
 chart.axis_y.title.show = True
 chart.axis_y.title.overlay = True
+chart.axis_y.title.font.size = 12
+chart.axis_y.title.font.color = drawing.Color.blue
 
 doc.save(ARTIFACTS_DIR + "Charts.ChartAxisTitle.docx")
 ```

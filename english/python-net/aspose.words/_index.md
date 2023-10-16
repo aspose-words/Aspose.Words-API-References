@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: aspose.words module
 linktitle: aspose.words module
 articleTitle: aspose.words module

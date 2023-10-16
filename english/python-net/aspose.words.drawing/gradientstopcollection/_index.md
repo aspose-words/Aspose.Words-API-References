@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: GradientStopCollection class
 linktitle: GradientStopCollection class
 articleTitle: GradientStopCollection class

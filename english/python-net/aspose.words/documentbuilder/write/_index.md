@@ -5,7 +5,7 @@ articleTitle: write method
 second_title: Aspose.Words for Python
 description: "DocumentBuilder.write method. Inserts a string into the document at the current insert position."
 type: docs
-weight: 650
+weight: 660
 url: /python-net/aspose.words/documentbuilder/write/
 ---
 

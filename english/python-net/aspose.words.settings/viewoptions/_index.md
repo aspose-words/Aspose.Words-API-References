@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: ViewOptions class
 linktitle: ViewOptions class
 articleTitle: ViewOptions class

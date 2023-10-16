@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: aspose.words.webextensions module
 linktitle: aspose.words.webextensions module
 articleTitle: aspose.words.webextensions module

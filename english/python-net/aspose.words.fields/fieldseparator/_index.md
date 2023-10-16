@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: FieldSeparator class
 linktitle: FieldSeparator class
 articleTitle: FieldSeparator class

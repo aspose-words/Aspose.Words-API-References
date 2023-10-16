@@ -5,7 +5,7 @@ articleTitle: insert_field method
 second_title: Aspose.Words for Python
 description: "aspose.words.DocumentBuilder.insert_field method"
 type: docs
-weight: 320
+weight: 330
 url: /python-net/aspose.words/documentbuilder/insert_field/
 ---
 

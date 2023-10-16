@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: FieldMergingArgsBase class
 linktitle: FieldMergingArgsBase class
 articleTitle: FieldMergingArgsBase class

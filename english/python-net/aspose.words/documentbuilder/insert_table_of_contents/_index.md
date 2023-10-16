@@ -5,7 +5,7 @@ articleTitle: insert_table_of_contents method
 second_title: Aspose.Words for Python
 description: "DocumentBuilder.insert_table_of_contents method. Inserts a TOC (table of contents) field into the document."
 type: docs
-weight: 460
+weight: 470
 url: /python-net/aspose.words/documentbuilder/insert_table_of_contents/
 ---
 

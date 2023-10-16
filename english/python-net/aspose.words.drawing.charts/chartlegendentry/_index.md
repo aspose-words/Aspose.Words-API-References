@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: ChartLegendEntry class
 linktitle: ChartLegendEntry class
 articleTitle: ChartLegendEntry class

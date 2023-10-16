@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: FindReplaceOptions class
 linktitle: FindReplaceOptions class
 articleTitle: FindReplaceOptions class

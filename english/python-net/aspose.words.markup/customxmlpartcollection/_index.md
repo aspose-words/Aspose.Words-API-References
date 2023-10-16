@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: CustomXmlPartCollection class
 linktitle: CustomXmlPartCollection class
 articleTitle: CustomXmlPartCollection class

@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: UserInformation class
 linktitle: UserInformation class
 articleTitle: UserInformation class

@@ -5,7 +5,7 @@ articleTitle: move_to_bookmark method
 second_title: Aspose.Words for Python
 description: "aspose.words.DocumentBuilder.move_to_bookmark method"
 type: docs
-weight: 490
+weight: 500
 url: /python-net/aspose.words/documentbuilder/move_to_bookmark/
 ---
 

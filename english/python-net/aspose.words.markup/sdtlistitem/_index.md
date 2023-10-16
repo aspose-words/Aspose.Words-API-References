@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: SdtListItem class
 linktitle: SdtListItem class
 articleTitle: SdtListItem class

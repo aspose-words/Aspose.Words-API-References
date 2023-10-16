@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: ImportFormatOptions class
 linktitle: ImportFormatOptions class
 articleTitle: ImportFormatOptions class

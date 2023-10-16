@@ -5,7 +5,7 @@ articleTitle: show property
 second_title: Aspose.Words for Python
 description: "ChartAxisTitle.show property. Determines whether the title shall be shown for the axis"
 type: docs
-weight: 20
+weight: 30
 url: /python-net/aspose.words.drawing.charts/chartaxistitle/show/
 ---
 
@@ -40,6 +40,8 @@ chart.axis_x.title.show = True
 chart.axis_y.title.text = "Values"
 chart.axis_y.title.show = True
 chart.axis_y.title.overlay = True
+chart.axis_y.title.font.size = 12
+chart.axis_y.title.font.color = drawing.Color.blue
 
 doc.save(ARTIFACTS_DIR + "Charts.ChartAxisTitle.docx")
 ```

@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: HorizontalRuleFormat class
 linktitle: HorizontalRuleFormat class
 articleTitle: HorizontalRuleFormat class

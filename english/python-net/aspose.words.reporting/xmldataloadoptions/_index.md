@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: XmlDataLoadOptions class
 linktitle: XmlDataLoadOptions class
 articleTitle: XmlDataLoadOptions class

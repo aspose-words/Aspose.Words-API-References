@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: FieldTemplate class
 linktitle: FieldTemplate class
 articleTitle: FieldTemplate class

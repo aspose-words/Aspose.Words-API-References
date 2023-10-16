@@ -5,7 +5,7 @@ articleTitle: rotate_with_object property
 second_title: Aspose.Words for Python
 description: "Fill.rotate_with_object property. Gets or sets whether the fill rotates with the specified object."
 type: docs
-weight: 170
+weight: 180
 url: /python-net/aspose.words.drawing/fill/rotate_with_object/
 ---
 

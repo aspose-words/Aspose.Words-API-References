@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: BookmarkCollection class
 linktitle: BookmarkCollection class
 articleTitle: BookmarkCollection class

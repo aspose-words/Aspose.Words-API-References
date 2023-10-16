@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: JsonDataSource class
 linktitle: JsonDataSource class
 articleTitle: JsonDataSource class

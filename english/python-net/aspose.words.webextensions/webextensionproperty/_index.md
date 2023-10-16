@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: WebExtensionProperty class
 linktitle: WebExtensionProperty class
 articleTitle: WebExtensionProperty class

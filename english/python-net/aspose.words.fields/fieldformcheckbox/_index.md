@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: FieldFormCheckBox class
 linktitle: FieldFormCheckBox class
 articleTitle: FieldFormCheckBox class

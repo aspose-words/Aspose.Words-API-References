@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: TextBox class
 linktitle: TextBox class
 articleTitle: TextBox class

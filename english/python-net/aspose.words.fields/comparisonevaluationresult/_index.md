@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: ComparisonEvaluationResult class
 linktitle: ComparisonEvaluationResult class
 articleTitle: ComparisonEvaluationResult class

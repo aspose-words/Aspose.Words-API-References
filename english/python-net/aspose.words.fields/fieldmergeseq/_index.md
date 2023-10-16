@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: FieldMergeSeq class
 linktitle: FieldMergeSeq class
 articleTitle: FieldMergeSeq class

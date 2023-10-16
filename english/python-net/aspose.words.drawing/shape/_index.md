@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: Shape class
 linktitle: Shape class
 articleTitle: Shape class
@@ -140,6 +140,8 @@ Shapes that can have text, can contain [Paragraph](../../aspose.words/paragraph/
 | Name | Description |
 | --- | --- |
 |[ accept(visitor)](./accept/#documentvisitor) | Accepts a visitor. |
+|[ accept_end(visitor)](../../aspose.words/compositenode/accept_end/#documentvisitor) | When implemented in a derived class, calls the VisitXXXEnd method of the specified document visitor.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
+|[ accept_start(visitor)](../../aspose.words/compositenode/accept_start/#documentvisitor) | When implemented in a derived class, calls the VisitXXXStart method of the specified document visitor.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 |[ adjust_with_effects(source)](../shapebase/adjust_with_effects/#rectanglef) | Adds to the source rectangle values of the effect extent and returns the final rectangle.<br>(Inherited from [ShapeBase](../shapebase/)) |
 |[ append_child(new_child)](../../aspose.words/compositenode/append_child/#node) | Adds the specified node to the end of the list of child nodes for this node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 |[ clone(is_clone_children)](../../aspose.words/node/clone/#bool) | Creates a duplicate of the node.<br>(Inherited from [Node](../../aspose.words/node/)) |

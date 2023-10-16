@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: Chart class
 linktitle: Chart class
 articleTitle: Chart class
@@ -45,6 +45,8 @@ chart = chart_shape.chart
 # Use the "title" property to give our chart a title, which appears at the top center of the chart area.
 title = chart.title
 title.text = "My Chart"
+title.font.size = 15
+title.font.color = drawing.Color.blue
 
 # Set the "show" property to "True" to make the title visible.
 title.show = True

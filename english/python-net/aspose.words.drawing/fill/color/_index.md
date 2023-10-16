@@ -5,7 +5,7 @@ articleTitle: color property
 second_title: Aspose.Words for Python
 description: "Fill.color property. Gets or sets a Color object that represents the foreground color for the fill."
 type: docs
-weight: 40
+weight: 50
 url: /python-net/aspose.words.drawing/fill/color/
 ---
 

@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: TxtListIndentation class
 linktitle: TxtListIndentation class
 articleTitle: TxtListIndentation class

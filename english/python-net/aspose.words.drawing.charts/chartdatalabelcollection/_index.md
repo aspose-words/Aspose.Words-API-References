@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: ChartDataLabelCollection class
 linktitle: ChartDataLabelCollection class
 articleTitle: ChartDataLabelCollection class

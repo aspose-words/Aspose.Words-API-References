@@ -5,7 +5,7 @@ articleTitle: vertical_alignment property
 second_title: Aspose.Words for Python
 description: "CellFormat.vertical_alignment property. Returns or sets the vertical alignment of text in the cell."
 type: docs
-weight: 110
+weight: 120
 url: /python-net/aspose.words.tables/cellformat/vertical_alignment/
 ---
 

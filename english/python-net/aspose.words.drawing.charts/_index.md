@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: aspose.words.drawing.charts module
 linktitle: aspose.words.drawing.charts module
 articleTitle: aspose.words.drawing.charts module

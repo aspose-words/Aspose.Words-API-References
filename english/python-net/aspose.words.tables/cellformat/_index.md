@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: CellFormat class
 linktitle: CellFormat class
 articleTitle: CellFormat class
@@ -24,6 +24,7 @@ To learn more, visit the [Working with Tables](https://docs.aspose.com/words/pyt
 | [borders](./borders/) | Gets collection of borders of the cell. |
 | [bottom_padding](./bottom_padding/) | Returns or sets the amount of space (in points) to add below the contents of cell. |
 | [fit_text](./fit_text/) | If ``True``, fits text in the cell, compressing each paragraph to the width of the cell. |
+| [hide_mark](./hide_mark/) | Returns or sets visibility of cell mark. |
 | [horizontal_merge](./horizontal_merge/) | Specifies how the cell is merged horizontally with other cells in the row. |
 | [left_padding](./left_padding/) | Returns or sets the amount of space (in points) to add to the left of the contents of cell. |
 | [orientation](./orientation/) | Returns or sets the orientation of text in a table cell. |

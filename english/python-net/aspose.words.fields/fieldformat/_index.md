@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: FieldFormat class
 linktitle: FieldFormat class
 articleTitle: FieldFormat class

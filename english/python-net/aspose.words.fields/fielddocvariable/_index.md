@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: FieldDocVariable class
 linktitle: FieldDocVariable class
 articleTitle: FieldDocVariable class

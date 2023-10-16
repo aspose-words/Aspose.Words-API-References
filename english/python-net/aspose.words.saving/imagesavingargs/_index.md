@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: ImageSavingArgs class
 linktitle: ImageSavingArgs class
 articleTitle: ImageSavingArgs class

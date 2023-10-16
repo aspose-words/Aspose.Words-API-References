@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: LanguagePreferences class
 linktitle: LanguagePreferences class
 articleTitle: LanguagePreferences class

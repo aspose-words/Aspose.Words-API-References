@@ -80,13 +80,13 @@ self.assertEqual(167, rectangle_f_out.y)
 
 # The effects have also affected the visible dimensions of the shape.
 self.assertEqual(1045, rectangle_f_out.width)
-self.assertEqual(1132, rectangle_f_out.height)
+self.assertEqual(1133.5, rectangle_f_out.height)
 
 # The effects have also affected the visible bounds of the shape.
 self.assertEqual(-28.5, shape.bounds_with_effects.x)
 self.assertEqual(-33, shape.bounds_with_effects.y)
 self.assertEqual(192, shape.bounds_with_effects.width)
-self.assertEqual(279, shape.bounds_with_effects.height)
+self.assertEqual(280.5, shape.bounds_with_effects.height)
 ```
 
 ### See Also

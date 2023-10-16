@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: PdfSaveOptions class
 linktitle: PdfSaveOptions class
 articleTitle: PdfSaveOptions class

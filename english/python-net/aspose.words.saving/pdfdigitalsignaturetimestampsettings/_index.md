@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: PdfDigitalSignatureTimestampSettings class
 linktitle: PdfDigitalSignatureTimestampSettings class
 articleTitle: PdfDigitalSignatureTimestampSettings class

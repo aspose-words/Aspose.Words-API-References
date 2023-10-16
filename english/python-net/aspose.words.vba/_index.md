@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: aspose.words.vba module
 linktitle: aspose.words.vba module
 articleTitle: aspose.words.vba module

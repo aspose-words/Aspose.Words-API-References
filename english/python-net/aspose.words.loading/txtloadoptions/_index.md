@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: TxtLoadOptions class
 linktitle: TxtLoadOptions class
 articleTitle: TxtLoadOptions class
@@ -32,6 +32,7 @@ To learn more, visit the [Specify Load Options](https://docs.aspose.com/words/py
 | [base_uri](../loadoptions/base_uri/) | Gets or sets the string that will be used to resolve relative URIs found in the document into absolute URIs when required. Can be ``None`` or empty string. Default is ``None``.<br>(Inherited from [LoadOptions](../loadoptions/)) |
 | [convert_metafiles_to_png](../loadoptions/convert_metafiles_to_png/) | Gets or sets whether to convert metafile (Aspose.FileFormat.Wmf or Aspose.FileFormat.Emf) images to Aspose.FileFormat.Png image format.<br>(Inherited from [LoadOptions](../loadoptions/)) |
 | [convert_shape_to_office_math](../loadoptions/convert_shape_to_office_math/) | Gets or sets whether to convert shapes with EquationXML to Office Math objects.<br>(Inherited from [LoadOptions](../loadoptions/)) |
+| [detect_hyperlinks](./detect_hyperlinks/) | Specifies either to detect hyperlinks in text. The default value is ``False``. |
 | [detect_numbering_with_whitespaces](./detect_numbering_with_whitespaces/) | Allows to specify how numbered list items are recognized when document is imported from plain text format. The default value is ``True``. |
 | [document_direction](./document_direction/) | Gets or sets a document direction. The default value is [DocumentDirection.LEFT_TO_RIGHT](../documentdirection/#LEFT_TO_RIGHT). |
 | [encoding](../loadoptions/encoding/) | Gets or sets the encoding that will be used to load an HTML, TXT, or CHM document if the encoding is not specified inside the document. Can be ``None``. Default is ``None``.<br>(Inherited from [LoadOptions](../loadoptions/)) |

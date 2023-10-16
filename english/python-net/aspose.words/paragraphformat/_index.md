@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: ParagraphFormat class
 linktitle: ParagraphFormat class
 articleTitle: ParagraphFormat class

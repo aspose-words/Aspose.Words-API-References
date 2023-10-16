@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: PdfEncryptionDetails class
 linktitle: PdfEncryptionDetails class
 articleTitle: PdfEncryptionDetails class

@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: TableCollection class
 linktitle: TableCollection class
 articleTitle: TableCollection class

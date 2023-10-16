@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: Revision class
 linktitle: Revision class
 articleTitle: Revision class

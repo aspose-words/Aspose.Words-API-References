@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: FieldSection class
 linktitle: FieldSection class
 articleTitle: FieldSection class

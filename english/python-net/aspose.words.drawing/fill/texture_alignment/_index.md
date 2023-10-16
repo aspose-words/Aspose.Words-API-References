@@ -5,7 +5,7 @@ articleTitle: texture_alignment property
 second_title: Aspose.Words for Python
 description: "Fill.texture_alignment property. Gets or sets the alignment for tile texture fill."
 type: docs
-weight: 180
+weight: 190
 url: /python-net/aspose.words.drawing/fill/texture_alignment/
 ---
 

@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: NodeChangingArgs class
 linktitle: NodeChangingArgs class
 articleTitle: NodeChangingArgs class

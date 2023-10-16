@@ -23,9 +23,11 @@ Full file name: ``C:\\\\My Documents\\\\SalesReport.doc``.
 
 Relative URI: ``../../../resource.txt``
 
+
 Relative file name: ``..\\\\My Documents\\\\SalesReport.doc``.
 
 Bookmark within another document: ``https://www.aspose.com/Products/Default.aspx#Suites``
+
 
 Bookmark within this document: ``#BookmakName``.
 

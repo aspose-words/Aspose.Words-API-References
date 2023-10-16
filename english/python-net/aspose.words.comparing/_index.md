@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: aspose.words.comparing module
 linktitle: aspose.words.comparing module
 articleTitle: aspose.words.comparing module

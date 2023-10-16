@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: WriteProtection class
 linktitle: WriteProtection class
 articleTitle: WriteProtection class

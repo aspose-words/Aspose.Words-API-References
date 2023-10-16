@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: TextColumnCollection class
 linktitle: TextColumnCollection class
 articleTitle: TextColumnCollection class

@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: Border class
 linktitle: Border class
 articleTitle: Border class

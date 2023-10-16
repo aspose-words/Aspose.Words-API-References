@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: RtfLoadOptions class
 linktitle: RtfLoadOptions class
 articleTitle: RtfLoadOptions class

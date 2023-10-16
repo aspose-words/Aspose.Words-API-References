@@ -24,205 +24,205 @@ Specifies the type of shape in a Microsoft Word document.
 | OLE_OBJECT | The shape is an OLE object. You cannot create shapes of this type in the document. |
 | OLE_CONTROL | The shape is an ActiveX control. You cannot create shapes of this type in the document. |
 | NON_PRIMITIVE | A shape drawn by user and consisting of multiple segments and/or vertices (curve, freeform or scribble). You cannot create shapes of this type in the document. |
-| RECTANGLE |  |
-| ROUND_RECTANGLE |  |
-| ELLIPSE |  |
-| DIAMOND |  |
-| TRIANGLE |  |
-| RIGHT_TRIANGLE |  |
-| PARALLELOGRAM |  |
-| TRAPEZOID |  |
-| HEXAGON |  |
-| OCTAGON |  |
-| PLUS |  |
-| STAR |  |
-| ARROW |  |
-| THICK_ARROW |  |
-| HOME_PLATE |  |
-| CUBE |  |
-| BALLOON |  |
-| SEAL |  |
-| ARC |  |
-| LINE |  |
-| PLAQUE |  |
-| CAN |  |
-| DONUT |  |
-| TEXT_SIMPLE |  |
-| TEXT_OCTAGON |  |
-| TEXT_HEXAGON |  |
-| TEXT_CURVE |  |
-| TEXT_WAVE |  |
-| TEXT_RING |  |
-| TEXT_ON_CURVE |  |
-| TEXT_ON_RING |  |
-| STRAIGHT_CONNECTOR1 |  |
-| BENT_CONNECTOR2 |  |
-| BENT_CONNECTOR3 |  |
-| BENT_CONNECTOR4 |  |
-| BENT_CONNECTOR5 |  |
-| CURVED_CONNECTOR2 |  |
-| CURVED_CONNECTOR3 |  |
-| CURVED_CONNECTOR4 |  |
-| CURVED_CONNECTOR5 |  |
-| CALLOUT1 |  |
-| CALLOUT2 |  |
-| CALLOUT3 |  |
-| ACCENT_CALLOUT1 |  |
-| ACCENT_CALLOUT2 |  |
-| ACCENT_CALLOUT3 |  |
-| BORDER_CALLOUT1 |  |
-| BORDER_CALLOUT2 |  |
-| BORDER_CALLOUT3 |  |
-| ACCENT_BORDER_CALLOUT1 |  |
-| ACCENT_BORDER_CALLOUT2 |  |
-| ACCENT_BORDER_CALLOUT3 |  |
-| RIBBON |  |
-| RIBBON2 |  |
-| CHEVRON |  |
-| PENTAGON |  |
-| NO_SMOKING |  |
-| SEAL8 |  |
-| SEAL16 |  |
-| SEAL32 |  |
-| WEDGE_RECT_CALLOUT |  |
-| WEDGE_R_RECT_CALLOUT |  |
-| WEDGE_ELLIPSE_CALLOUT |  |
-| WAVE |  |
-| FOLDED_CORNER |  |
-| LEFT_ARROW |  |
-| DOWN_ARROW |  |
-| UP_ARROW |  |
-| LEFT_RIGHT_ARROW |  |
-| UP_DOWN_ARROW |  |
-| IRREGULAR_SEAL1 |  |
-| IRREGULAR_SEAL2 |  |
-| LIGHTNING_BOLT |  |
-| HEART |  |
-| QUAD_ARROW |  |
-| LEFT_ARROW_CALLOUT |  |
-| RIGHT_ARROW_CALLOUT |  |
-| UP_ARROW_CALLOUT |  |
-| DOWN_ARROW_CALLOUT |  |
-| LEFT_RIGHT_ARROW_CALLOUT |  |
-| UP_DOWN_ARROW_CALLOUT |  |
-| QUAD_ARROW_CALLOUT |  |
-| BEVEL |  |
-| LEFT_BRACKET |  |
-| RIGHT_BRACKET |  |
-| LEFT_BRACE |  |
-| RIGHT_BRACE |  |
-| LEFT_UP_ARROW |  |
-| BENT_UP_ARROW |  |
-| BENT_ARROW |  |
-| SEAL24 |  |
-| STRIPED_RIGHT_ARROW |  |
-| NOTCHED_RIGHT_ARROW |  |
-| BLOCK_ARC |  |
-| SMILEY_FACE |  |
-| VERTICAL_SCROLL |  |
-| HORIZONTAL_SCROLL |  |
-| CIRCULAR_ARROW |  |
+| RECTANGLE | Rectangle. |
+| ROUND_RECTANGLE | Round rectangle. |
+| ELLIPSE | Ellipse. |
+| DIAMOND | Diamond. |
+| TRIANGLE | Triangle. |
+| RIGHT_TRIANGLE | Right triangle. |
+| PARALLELOGRAM | Parallelogram. |
+| TRAPEZOID | Trapezoid. |
+| HEXAGON | Hexagon. |
+| OCTAGON | Octagon. |
+| PLUS | Plus. |
+| STAR | Star. |
+| ARROW | Arrow. |
+| THICK_ARROW | Thick arrow. |
+| HOME_PLATE | Home plate. |
+| CUBE | Cube. |
+| BALLOON | Balloon. |
+| SEAL | Seal. |
+| ARC | Arc. |
+| LINE | Line. |
+| PLAQUE | Plaque. |
+| CAN | Can. |
+| DONUT | Donut. |
+| TEXT_SIMPLE | Text simple. |
+| TEXT_OCTAGON | Text octagon. |
+| TEXT_HEXAGON | Text hexagon. |
+| TEXT_CURVE | Text curve. |
+| TEXT_WAVE | Text wave. |
+| TEXT_RING | Text ring. |
+| TEXT_ON_CURVE | Text on curve. |
+| TEXT_ON_RING | Text on ring. |
+| STRAIGHT_CONNECTOR1 | A straight connector shape. |
+| BENT_CONNECTOR2 | A bent connector shape with two segments. |
+| BENT_CONNECTOR3 | A bent connector shape with three segments. |
+| BENT_CONNECTOR4 | A bent connector shape with four segments. |
+| BENT_CONNECTOR5 | A bent connector shape with five segments. |
+| CURVED_CONNECTOR2 | A curved connector shape with two segments. |
+| CURVED_CONNECTOR3 | A curved connector shape with three segments. |
+| CURVED_CONNECTOR4 | A curved connector shape with four segments. |
+| CURVED_CONNECTOR5 | A curved connector shape with five segments. |
+| CALLOUT1 | A callout shape with one arrow. |
+| CALLOUT2 | A callout shape with two arrows. |
+| CALLOUT3 | A callout shape with three arrows. |
+| ACCENT_CALLOUT1 | An accent callout shape with one arrow. |
+| ACCENT_CALLOUT2 | An accent callout shape with two arrows. |
+| ACCENT_CALLOUT3 | An accent callout shape with three arrows. |
+| BORDER_CALLOUT1 | Border callout 1. |
+| BORDER_CALLOUT2 | Border callout 2. |
+| BORDER_CALLOUT3 | Border callout 3. |
+| ACCENT_BORDER_CALLOUT1 | Accent border callout 1. |
+| ACCENT_BORDER_CALLOUT2 | Accent border callout 2. |
+| ACCENT_BORDER_CALLOUT3 | Accent border callout 3. |
+| RIBBON | Ribbon. |
+| RIBBON2 | Ribbon 2. |
+| CHEVRON | Chevron. |
+| PENTAGON | Pentagon. |
+| NO_SMOKING | NoSmoking. |
+| SEAL8 | Eight-pointed star. |
+| SEAL16 | 16-pointed star. |
+| SEAL32 | 32-pointed star. |
+| WEDGE_RECT_CALLOUT | Wedge rect callout. |
+| WEDGE_R_RECT_CALLOUT | Wedge R rect callout. |
+| WEDGE_ELLIPSE_CALLOUT | Wedge ellipse callout. |
+| WAVE | Wave. |
+| FOLDED_CORNER | Folded corner. |
+| LEFT_ARROW | Left arrow. |
+| DOWN_ARROW | Down arrow. |
+| UP_ARROW | Up arrow. |
+| LEFT_RIGHT_ARROW | Left right arrow. |
+| UP_DOWN_ARROW | Up down arrow. |
+| IRREGULAR_SEAL1 | Irregular seal 1. |
+| IRREGULAR_SEAL2 | Irregular seal 2. |
+| LIGHTNING_BOLT | Lightning bolt. |
+| HEART | Heart. |
+| QUAD_ARROW | Quad arrow. |
+| LEFT_ARROW_CALLOUT | Left arrow callout. |
+| RIGHT_ARROW_CALLOUT | Right arrow callout |
+| UP_ARROW_CALLOUT | Up arrow callout. |
+| DOWN_ARROW_CALLOUT | Down arrow callout. |
+| LEFT_RIGHT_ARROW_CALLOUT | Left right arrow callout. |
+| UP_DOWN_ARROW_CALLOUT | Up down arrow callout. |
+| QUAD_ARROW_CALLOUT | Quad arrow callout. |
+| BEVEL | Bevel. |
+| LEFT_BRACKET | Left bracket. |
+| RIGHT_BRACKET | Right bracket. |
+| LEFT_BRACE | Left brace. |
+| RIGHT_BRACE | Right brace. |
+| LEFT_UP_ARROW | Left up arrow. |
+| BENT_UP_ARROW | Bent up arrow. |
+| BENT_ARROW | Bent arrow. |
+| SEAL24 | 24-pointed star. |
+| STRIPED_RIGHT_ARROW | Striped right arrow. |
+| NOTCHED_RIGHT_ARROW | Notched right arrow. |
+| BLOCK_ARC | Block arc. |
+| SMILEY_FACE | Smiley face. |
+| VERTICAL_SCROLL | Vertical scroll. |
+| HORIZONTAL_SCROLL | Horizontal scroll. |
+| CIRCULAR_ARROW | Circular arrow. |
 | CUSTOM_SHAPE | This shape type seems to be set for shapes that are not part of the standard set of the auto shapes in Microsoft Word. For example, if you insert a new auto shape from ClipArt. You cannot create shapes of this type in the document. |
-| UTURN_ARROW |  |
-| CURVED_RIGHT_ARROW |  |
-| CURVED_LEFT_ARROW |  |
-| CURVED_UP_ARROW |  |
-| CURVED_DOWN_ARROW |  |
-| CLOUD_CALLOUT |  |
-| ELLIPSE_RIBBON |  |
-| ELLIPSE_RIBBON2 |  |
-| FLOW_CHART_PROCESS |  |
-| FLOW_CHART_DECISION |  |
-| FLOW_CHART_INPUT_OUTPUT |  |
-| FLOW_CHART_PREDEFINED_PROCESS |  |
-| FLOW_CHART_INTERNAL_STORAGE |  |
-| FLOW_CHART_DOCUMENT |  |
-| FLOW_CHART_MULTIDOCUMENT |  |
-| FLOW_CHART_TERMINATOR |  |
-| FLOW_CHART_PREPARATION |  |
-| FLOW_CHART_MANUAL_INPUT |  |
-| FLOW_CHART_MANUAL_OPERATION |  |
-| FLOW_CHART_CONNECTOR |  |
-| FLOW_CHART_PUNCHED_CARD |  |
-| FLOW_CHART_PUNCHED_TAPE |  |
-| FLOW_CHART_SUMMING_JUNCTION |  |
-| FLOW_CHART_OR |  |
-| FLOW_CHART_COLLATE |  |
-| FLOW_CHART_SORT |  |
-| FLOW_CHART_EXTRACT |  |
-| FLOW_CHART_MERGE |  |
-| FLOW_CHART_OFFLINE_STORAGE |  |
-| FLOW_CHART_ONLINE_STORAGE |  |
-| FLOW_CHART_MAGNETIC_TAPE |  |
-| FLOW_CHART_MAGNETIC_DISK |  |
-| FLOW_CHART_MAGNETIC_DRUM |  |
-| FLOW_CHART_DISPLAY |  |
-| FLOW_CHART_DELAY |  |
-| TEXT_PLAIN_TEXT | WordArt object. |
-| TEXT_STOP | WordArt object. |
-| TEXT_TRIANGLE | WordArt object. |
-| TEXT_TRIANGLE_INVERTED | WordArt object. |
-| TEXT_CHEVRON | WordArt object. |
-| TEXT_CHEVRON_INVERTED | WordArt object. |
-| TEXT_RING_INSIDE | WordArt object. |
-| TEXT_RING_OUTSIDE | WordArt object. |
-| TEXT_ARCH_UP_CURVE | WordArt object. |
-| TEXT_ARCH_DOWN_CURVE | WordArt object. |
-| TEXT_CIRCLE_CURVE | WordArt object. |
-| TEXT_BUTTON_CURVE | WordArt object. |
-| TEXT_ARCH_UP_POUR | WordArt object. |
-| TEXT_ARCH_DOWN_POUR | WordArt object. |
-| TEXT_CIRCLE_POUR | WordArt object. |
-| TEXT_BUTTON_POUR | WordArt object. |
-| TEXT_CURVE_UP | WordArt object. |
-| TEXT_CURVE_DOWN | WordArt object. |
-| TEXT_CASCADE_UP | WordArt object. |
-| TEXT_CASCADE_DOWN | WordArt object. |
-| TEXT_WAVE1 | WordArt object. |
-| TEXT_WAVE2 | WordArt object. |
-| TEXT_WAVE3 | WordArt object. |
-| TEXT_WAVE4 | WordArt object. |
-| TEXT_INFLATE | WordArt object. |
-| TEXT_DEFLATE | WordArt object. |
-| TEXT_INFLATE_BOTTOM | WordArt object. |
-| TEXT_DEFLATE_BOTTOM | WordArt object. |
-| TEXT_INFLATE_TOP | WordArt object. |
-| TEXT_DEFLATE_TOP | WordArt object. |
-| TEXT_DEFLATE_INFLATE | WordArt object. |
-| TEXT_DEFLATE_INFLATE_DEFLATE | WordArt object. |
-| TEXT_FADE_RIGHT | WordArt object. |
-| TEXT_FADE_LEFT | WordArt object. |
-| TEXT_FADE_UP | WordArt object. |
-| TEXT_FADE_DOWN | WordArt object. |
-| TEXT_SLANT_UP | WordArt object. |
-| TEXT_SLANT_DOWN | WordArt object. |
-| TEXT_CAN_UP | WordArt object. |
-| TEXT_CAN_DOWN | WordArt object. |
-| FLOW_CHART_ALTERNATE_PROCESS |  |
-| FLOW_CHART_OFFPAGE_CONNECTOR |  |
-| CALLOUT90 |  |
-| ACCENT_CALLOUT90 |  |
-| BORDER_CALLOUT90 |  |
-| ACCENT_BORDER_CALLOUT90 |  |
-| LEFT_RIGHT_UP_ARROW |  |
-| SUN |  |
-| MOON |  |
-| BRACKET_PAIR |  |
-| BRACE_PAIR |  |
-| SEAL4 |  |
-| DOUBLE_WAVE |  |
-| ACTION_BUTTON_BLANK |  |
-| ACTION_BUTTON_HOME |  |
-| ACTION_BUTTON_HELP |  |
-| ACTION_BUTTON_INFORMATION |  |
-| ACTION_BUTTON_FORWARD_NEXT |  |
-| ACTION_BUTTON_BACK_PREVIOUS |  |
-| ACTION_BUTTON_END |  |
-| ACTION_BUTTON_BEGINNING |  |
-| ACTION_BUTTON_RETURN |  |
-| ACTION_BUTTON_DOCUMENT |  |
-| ACTION_BUTTON_SOUND |  |
-| ACTION_BUTTON_MOVIE |  |
+| UTURN_ARROW | Uturn arrow. |
+| CURVED_RIGHT_ARROW | Curved right arrow. |
+| CURVED_LEFT_ARROW | Curved left arrow. |
+| CURVED_UP_ARROW | Curved up arrow |
+| CURVED_DOWN_ARROW | Curved down arrow. |
+| CLOUD_CALLOUT | Cloud callout. |
+| ELLIPSE_RIBBON | Ellipse ribbon. |
+| ELLIPSE_RIBBON2 | Ellipse ribbon 2. |
+| FLOW_CHART_PROCESS | Flow chart process. |
+| FLOW_CHART_DECISION | Flow chart decision. |
+| FLOW_CHART_INPUT_OUTPUT | Flow chart input output. |
+| FLOW_CHART_PREDEFINED_PROCESS | Flow chart predefined process |
+| FLOW_CHART_INTERNAL_STORAGE | Flow chart internal storage. |
+| FLOW_CHART_DOCUMENT | Flow chart document. |
+| FLOW_CHART_MULTIDOCUMENT | Flow chart multi document. |
+| FLOW_CHART_TERMINATOR | Flow chart terminator. |
+| FLOW_CHART_PREPARATION | Flow chart preparation. |
+| FLOW_CHART_MANUAL_INPUT | Flow chart manual input. |
+| FLOW_CHART_MANUAL_OPERATION | Flow chart manual operation. |
+| FLOW_CHART_CONNECTOR | Flow chart connector. |
+| FLOW_CHART_PUNCHED_CARD | Flow chart punched card. |
+| FLOW_CHART_PUNCHED_TAPE | Flow chart punched tape. |
+| FLOW_CHART_SUMMING_JUNCTION | Flow chart summing junction. |
+| FLOW_CHART_OR | Flow chart or. |
+| FLOW_CHART_COLLATE | Flow chart collate. |
+| FLOW_CHART_SORT | Flow chart sort. |
+| FLOW_CHART_EXTRACT | Flow chart extract. |
+| FLOW_CHART_MERGE | Flow chart merge. |
+| FLOW_CHART_OFFLINE_STORAGE | Flow chart off-line storage. |
+| FLOW_CHART_ONLINE_STORAGE | Flow chart on-line storage. |
+| FLOW_CHART_MAGNETIC_TAPE | Flow char magnetic tape. |
+| FLOW_CHART_MAGNETIC_DISK | Flow chart magnetic disk. |
+| FLOW_CHART_MAGNETIC_DRUM | Flow chart magnetic drum. |
+| FLOW_CHART_DISPLAY | Flow chart display. |
+| FLOW_CHART_DELAY | Flow chart delay. |
+| TEXT_PLAIN_TEXT | Plain-text, WordArt object. |
+| TEXT_STOP | Stop, WordArt object. |
+| TEXT_TRIANGLE | Triangle, WordArt object. |
+| TEXT_TRIANGLE_INVERTED | Triangle inverted, WordArt object. |
+| TEXT_CHEVRON | Chevron, WordArt object. |
+| TEXT_CHEVRON_INVERTED | Chevron inverted, WordArt object. |
+| TEXT_RING_INSIDE | Ring inside, WordArt object. |
+| TEXT_RING_OUTSIDE | Ring outside, WordArt object. |
+| TEXT_ARCH_UP_CURVE | Arch up curve, WordArt object. |
+| TEXT_ARCH_DOWN_CURVE | Arch down curve, WordArt object. |
+| TEXT_CIRCLE_CURVE | Circle curve, WordArt object. |
+| TEXT_BUTTON_CURVE | Button curve, WordArt object. |
+| TEXT_ARCH_UP_POUR | Arch up pour, WordArt object. |
+| TEXT_ARCH_DOWN_POUR | Arch down pour, WordArt object. |
+| TEXT_CIRCLE_POUR | Circle pour, WordArt object. |
+| TEXT_BUTTON_POUR | Button pour, WordArt object. |
+| TEXT_CURVE_UP | Curve up, WordArt object. |
+| TEXT_CURVE_DOWN | Curve down, WordArt object. |
+| TEXT_CASCADE_UP | Cascade up, WordArt object. |
+| TEXT_CASCADE_DOWN | Cascade down, WordArt object. |
+| TEXT_WAVE1 | Wave 1, WordArt object. |
+| TEXT_WAVE2 | Wave 2, WordArt object. |
+| TEXT_WAVE3 | Wave 3, WordArt object. |
+| TEXT_WAVE4 | Wave 4, WordArt object. |
+| TEXT_INFLATE | Inflate, WordArt object. |
+| TEXT_DEFLATE | Deflate, WordArt object. |
+| TEXT_INFLATE_BOTTOM | Inflate bottom, WordArt object. |
+| TEXT_DEFLATE_BOTTOM | Deflate bottom, WordArt object. |
+| TEXT_INFLATE_TOP | Inflate top, WordArt object. |
+| TEXT_DEFLATE_TOP | Deflate top, WordArt object. |
+| TEXT_DEFLATE_INFLATE | Deflate inflate, WordArt object. |
+| TEXT_DEFLATE_INFLATE_DEFLATE | Deflate inflate deflate, WordArt object. |
+| TEXT_FADE_RIGHT | Fade right, WordArt object. |
+| TEXT_FADE_LEFT | Fade left, WordArt object. |
+| TEXT_FADE_UP | Fade up, WordArt object. |
+| TEXT_FADE_DOWN | Fade down, WordArt object. |
+| TEXT_SLANT_UP | Slant up, WordArt object. |
+| TEXT_SLANT_DOWN | Slant down, WordArt object. |
+| TEXT_CAN_UP | Can up, WordArt object. |
+| TEXT_CAN_DOWN | Can down, WordArt object. |
+| FLOW_CHART_ALTERNATE_PROCESS | Flow chart alternate process. |
+| FLOW_CHART_OFFPAGE_CONNECTOR | Flow chart off page connector. |
+| CALLOUT90 | Callout 90. |
+| ACCENT_CALLOUT90 | Accent callout 90. |
+| BORDER_CALLOUT90 | Border callout 90. |
+| ACCENT_BORDER_CALLOUT90 | Accent border callout 90. |
+| LEFT_RIGHT_UP_ARROW | Left right up arrow. |
+| SUN | Sun. |
+| MOON | Moon. |
+| BRACKET_PAIR | Bracket pair. |
+| BRACE_PAIR | Brace pair |
+| SEAL4 | Four-pointed star. |
+| DOUBLE_WAVE | Double wave. |
+| ACTION_BUTTON_BLANK | Action button blank. |
+| ACTION_BUTTON_HOME | Action button home. |
+| ACTION_BUTTON_HELP | Action button help. |
+| ACTION_BUTTON_INFORMATION | Action button information. |
+| ACTION_BUTTON_FORWARD_NEXT | Action button forward next. |
+| ACTION_BUTTON_BACK_PREVIOUS | Action button back previous. |
+| ACTION_BUTTON_END | Action button end. |
+| ACTION_BUTTON_BEGINNING | Action button beginning. |
+| ACTION_BUTTON_RETURN | Action button return. |
+| ACTION_BUTTON_DOCUMENT | Action button document. |
+| ACTION_BUTTON_SOUND | Action button sound. |
+| ACTION_BUTTON_MOVIE | Action button movie. |
 | SINGLE_CORNER_SNIPPED | Snip single corner rectangle object. |
 | TOP_CORNERS_SNIPPED | Snip same side corner rectangle. |
 | DIAGONAL_CORNERS_SNIPPED | Snip diagonal corner rectangle. |

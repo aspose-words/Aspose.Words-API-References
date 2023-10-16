@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: BuildVersionInfo class
 linktitle: BuildVersionInfo class
 articleTitle: BuildVersionInfo class

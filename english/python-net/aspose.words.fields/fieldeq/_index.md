@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: FieldEQ class
 linktitle: FieldEQ class
 articleTitle: FieldEQ class

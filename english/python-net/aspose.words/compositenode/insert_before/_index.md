@@ -5,7 +5,7 @@ articleTitle: insert_before method
 second_title: Aspose.Words for Python
 description: "CompositeNode.insert_before method. Inserts the specified node immediately before the specified reference node."
 type: docs
-weight: 120
+weight: 140
 url: /python-net/aspose.words/compositenode/insert_before/
 ---
 

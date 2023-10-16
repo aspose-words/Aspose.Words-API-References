@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: XmlDataSource class
 linktitle: XmlDataSource class
 articleTitle: XmlDataSource class

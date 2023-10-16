@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: Watermark class
 linktitle: Watermark class
 articleTitle: Watermark class

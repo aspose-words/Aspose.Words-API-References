@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: DefaultFontSubstitutionRule class
 linktitle: DefaultFontSubstitutionRule class
 articleTitle: DefaultFontSubstitutionRule class

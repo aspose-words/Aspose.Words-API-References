@@ -5,7 +5,7 @@ articleTitle: insert_shape method
 second_title: Aspose.Words for Python
 description: "aspose.words.DocumentBuilder.insert_shape method"
 type: docs
-weight: 430
+weight: 440
 url: /python-net/aspose.words/documentbuilder/insert_shape/
 ---
 

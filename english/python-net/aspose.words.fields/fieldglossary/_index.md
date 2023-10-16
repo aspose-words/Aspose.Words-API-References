@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: FieldGlossary class
 linktitle: FieldGlossary class
 articleTitle: FieldGlossary class

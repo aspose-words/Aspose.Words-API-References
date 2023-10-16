@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: FieldPrint class
 linktitle: FieldPrint class
 articleTitle: FieldPrint class

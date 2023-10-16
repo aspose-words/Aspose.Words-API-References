@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: FieldUserInitials class
 linktitle: FieldUserInitials class
 articleTitle: FieldUserInitials class

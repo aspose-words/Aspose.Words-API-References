@@ -5,7 +5,7 @@ articleTitle: remove_all_children method
 second_title: Aspose.Words for Python
 description: "CompositeNode.remove_all_children method. Removes all the child nodes of the current node."
 type: docs
-weight: 140
+weight: 160
 url: /python-net/aspose.words/compositenode/remove_all_children/
 ---
 

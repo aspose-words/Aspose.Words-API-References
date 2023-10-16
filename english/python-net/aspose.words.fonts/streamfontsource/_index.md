@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: StreamFontSource class
 linktitle: StreamFontSource class
 articleTitle: StreamFontSource class

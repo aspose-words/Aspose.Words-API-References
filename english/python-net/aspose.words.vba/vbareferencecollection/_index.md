@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: VbaReferenceCollection class
 linktitle: VbaReferenceCollection class
 articleTitle: VbaReferenceCollection class

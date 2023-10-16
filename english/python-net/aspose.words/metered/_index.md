@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: Metered class
 linktitle: Metered class
 articleTitle: Metered class

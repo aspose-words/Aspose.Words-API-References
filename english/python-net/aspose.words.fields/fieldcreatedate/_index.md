@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: FieldCreateDate class
 linktitle: FieldCreateDate class
 articleTitle: FieldCreateDate class

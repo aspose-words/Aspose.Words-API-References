@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: XlsxSaveOptions class
 linktitle: XlsxSaveOptions class
 articleTitle: XlsxSaveOptions class

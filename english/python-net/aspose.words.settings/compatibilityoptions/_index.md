@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: CompatibilityOptions class
 linktitle: CompatibilityOptions class
 articleTitle: CompatibilityOptions class

@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: FieldSeq class
 linktitle: FieldSeq class
 articleTitle: FieldSeq class

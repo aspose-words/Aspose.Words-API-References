@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: EditableRangeStart class
 linktitle: EditableRangeStart class
 articleTitle: EditableRangeStart class

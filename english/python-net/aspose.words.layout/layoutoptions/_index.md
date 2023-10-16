@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: LayoutOptions class
 linktitle: LayoutOptions class
 articleTitle: LayoutOptions class

@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: PageRange class
 linktitle: PageRange class
 articleTitle: PageRange class

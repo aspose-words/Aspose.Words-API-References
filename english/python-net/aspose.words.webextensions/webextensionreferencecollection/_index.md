@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: WebExtensionReferenceCollection class
 linktitle: WebExtensionReferenceCollection class
 articleTitle: WebExtensionReferenceCollection class

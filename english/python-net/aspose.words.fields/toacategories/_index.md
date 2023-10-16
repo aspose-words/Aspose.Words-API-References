@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: ToaCategories class
 linktitle: ToaCategories class
 articleTitle: ToaCategories class

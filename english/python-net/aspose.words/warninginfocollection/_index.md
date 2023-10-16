@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: WarningInfoCollection class
 linktitle: WarningInfoCollection class
 articleTitle: WarningInfoCollection class

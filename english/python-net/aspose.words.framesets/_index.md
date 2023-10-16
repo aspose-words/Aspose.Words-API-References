@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: aspose.words.framesets module
 linktitle: aspose.words.framesets module
 articleTitle: aspose.words.framesets module

@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: FieldAsk class
 linktitle: FieldAsk class
 articleTitle: FieldAsk class

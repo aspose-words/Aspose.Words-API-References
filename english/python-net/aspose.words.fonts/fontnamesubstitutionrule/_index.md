@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: FontNameSubstitutionRule class
 linktitle: FontNameSubstitutionRule class
 articleTitle: FontNameSubstitutionRule class

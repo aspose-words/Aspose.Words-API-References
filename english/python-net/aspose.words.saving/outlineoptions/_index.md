@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: OutlineOptions class
 linktitle: OutlineOptions class
 articleTitle: OutlineOptions class

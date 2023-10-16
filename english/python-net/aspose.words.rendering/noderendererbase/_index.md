@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: NodeRendererBase class
 linktitle: NodeRendererBase class
 articleTitle: NodeRendererBase class

@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: SubDocument class
 linktitle: SubDocument class
 articleTitle: SubDocument class

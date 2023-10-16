@@ -14,6 +14,7 @@ url: /python-net/aspose.words.markup/structureddocumenttag/calendar_type/
 Specifies the type of calendar for this **SDT**.
 Default is [SdtCalendarType.DEFAULT](../../sdtcalendartype/#DEFAULT)
 
+
 Accessing this property will only work for [SdtType.DATE](../../sdttype/#DATE) SDT type.
 
 

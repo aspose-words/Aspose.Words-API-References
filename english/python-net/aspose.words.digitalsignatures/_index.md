@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: aspose.words.digitalsignatures module
 linktitle: aspose.words.digitalsignatures module
 articleTitle: aspose.words.digitalsignatures module

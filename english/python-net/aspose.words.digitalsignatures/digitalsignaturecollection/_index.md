@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: DigitalSignatureCollection class
 linktitle: DigitalSignatureCollection class
 articleTitle: DigitalSignatureCollection class

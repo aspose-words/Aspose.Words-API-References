@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: MemoryFontSource class
 linktitle: MemoryFontSource class
 articleTitle: MemoryFontSource class

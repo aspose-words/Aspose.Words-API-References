@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: BorderType enumeration
 linktitle: BorderType enumeration
 articleTitle: BorderType enumeration

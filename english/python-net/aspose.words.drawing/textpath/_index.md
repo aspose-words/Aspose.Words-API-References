@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: TextPath class
 linktitle: TextPath class
 articleTitle: TextPath class
