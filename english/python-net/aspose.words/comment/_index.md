@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: Comment class
 linktitle: Comment class
 articleTitle: Comment class
@@ -57,7 +57,7 @@ To anchor a comment to a region of text three objects are required: [Comment](./
 | [first_paragraph](../inlinestory/first_paragraph/) | Gets the first paragraph in the story.<br>(Inherited from [InlineStory](../inlinestory/)) |
 | [font](../inlinestory/font/) | Provides access to the font formatting of the anchor character of this object.<br>(Inherited from [InlineStory](../inlinestory/)) |
 | [has_child_nodes](../compositenode/has_child_nodes/) | Returns ``True`` if this node has any child nodes.<br>(Inherited from [CompositeNode](../compositenode/)) |
-| [id](./id/) | Gets the comment identifier. |
+| [id](./id/) | Gets or sets the comment identifier. |
 | [initial](./initial/) | Returns or sets the initials of the user associated with a specific comment. |
 | [is_composite](../node/is_composite/) | Returns ``True`` if this node can contain other nodes.<br>(Inherited from [Node](../node/)) |
 | [is_delete_revision](../inlinestory/is_delete_revision/) | Returns true if this object was deleted in Microsoft Word while change tracking was enabled.<br>(Inherited from [InlineStory](../inlinestory/)) |
@@ -69,6 +69,7 @@ To anchor a comment to a region of text three objects are required: [Comment](./
 | [next_sibling](../node/next_sibling/) | Gets the node immediately following this node.<br>(Inherited from [Node](../node/)) |
 | [node_type](./node_type/) | Returns [NodeType.COMMENT](../nodetype/#COMMENT). |
 | [paragraphs](../inlinestory/paragraphs/) | Gets a collection of paragraphs that are immediate children of the story.<br>(Inherited from [InlineStory](../inlinestory/)) |
+| [parent_id](./parent_id/) | Gets or sets the parent comment ID. A value of ``-1`` means the comment has no parent. |
 | [parent_node](../node/parent_node/) | Gets the immediate parent of this node.<br>(Inherited from [Node](../node/)) |
 | [parent_paragraph](../inlinestory/parent_paragraph/) | Retrieves the parent [Paragraph](../paragraph/) of this node.<br>(Inherited from [InlineStory](../inlinestory/)) |
 | [previous_sibling](../node/previous_sibling/) | Gets the node immediately preceding this node.<br>(Inherited from [Node](../node/)) |
@@ -82,6 +83,8 @@ To anchor a comment to a region of text three objects are required: [Comment](./
 | Name | Description |
 | --- | --- |
 |[ accept(visitor)](./accept/#documentvisitor) | Accepts a visitor. |
+|[ accept_end(visitor)](../compositenode/accept_end/#documentvisitor) | When implemented in a derived class, calls the VisitXXXEnd method of the specified document visitor.<br>(Inherited from [CompositeNode](../compositenode/)) |
+|[ accept_start(visitor)](../compositenode/accept_start/#documentvisitor) | When implemented in a derived class, calls the VisitXXXStart method of the specified document visitor.<br>(Inherited from [CompositeNode](../compositenode/)) |
 |[ add_reply(author, initial, date_time, text)](./add_reply/#str_str_datetime_str) | Adds a reply to this comment. |
 |[ append_child(new_child)](../compositenode/append_child/#node) | Adds the specified node to the end of the list of child nodes for this node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 |[ clone(is_clone_children)](../node/clone/#bool) | Creates a duplicate of the node.<br>(Inherited from [Node](../node/)) |

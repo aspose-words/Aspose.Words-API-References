@@ -5,7 +5,7 @@ articleTitle: leading_spaces_options property
 second_title: Aspose.Words for Python
 description: "TxtLoadOptions.leading_spaces_options property. Gets or sets preferred option of a leading space handling"
 type: docs
-weight: 50
+weight: 60
 url: /python-net/aspose.words.loading/txtloadoptions/leading_spaces_options/
 ---
 

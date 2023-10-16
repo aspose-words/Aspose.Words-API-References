@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: FieldDocProperty class
 linktitle: FieldDocProperty class
 articleTitle: FieldDocProperty class

@@ -5,7 +5,7 @@ articleTitle: top_padding property
 second_title: Aspose.Words for Python
 description: "CellFormat.top_padding property. Returns or sets the amount of space (in points) to add above the contents of cell."
 type: docs
-weight: 100
+weight: 110
 url: /python-net/aspose.words.tables/cellformat/top_padding/
 ---
 

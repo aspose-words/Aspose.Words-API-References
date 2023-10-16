@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: aspose.words.properties module
 linktitle: aspose.words.properties module
 articleTitle: aspose.words.properties module

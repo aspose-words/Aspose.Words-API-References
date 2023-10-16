@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: SectionCollection class
 linktitle: SectionCollection class
 articleTitle: SectionCollection class

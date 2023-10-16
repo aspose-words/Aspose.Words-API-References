@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: ListLevelCollection class
 linktitle: ListLevelCollection class
 articleTitle: ListLevelCollection class

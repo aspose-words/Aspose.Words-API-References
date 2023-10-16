@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: FieldTime class
 linktitle: FieldTime class
 articleTitle: FieldTime class

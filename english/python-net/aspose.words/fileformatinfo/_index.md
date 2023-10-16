@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: FileFormatInfo class
 linktitle: FileFormatInfo class
 articleTitle: FileFormatInfo class

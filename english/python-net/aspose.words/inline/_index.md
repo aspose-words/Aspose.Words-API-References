@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: Inline class
 linktitle: Inline class
 articleTitle: Inline class

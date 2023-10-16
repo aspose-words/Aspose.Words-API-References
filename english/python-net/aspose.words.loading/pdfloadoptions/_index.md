@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: PdfLoadOptions class
 linktitle: PdfLoadOptions class
 articleTitle: PdfLoadOptions class

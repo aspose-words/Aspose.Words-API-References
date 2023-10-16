@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: FieldStart class
 linktitle: FieldStart class
 articleTitle: FieldStart class

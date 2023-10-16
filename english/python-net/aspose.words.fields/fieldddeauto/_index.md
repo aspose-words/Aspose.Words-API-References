@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: FieldDdeAuto class
 linktitle: FieldDdeAuto class
 articleTitle: FieldDdeAuto class

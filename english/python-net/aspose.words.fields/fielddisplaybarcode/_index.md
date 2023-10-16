@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: FieldDisplayBarcode class
 linktitle: FieldDisplayBarcode class
 articleTitle: FieldDisplayBarcode class

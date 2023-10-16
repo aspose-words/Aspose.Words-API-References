@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: MailMergeRegionInfo class
 linktitle: MailMergeRegionInfo class
 articleTitle: MailMergeRegionInfo class

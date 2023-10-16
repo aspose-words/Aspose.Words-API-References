@@ -18,6 +18,7 @@ The default value is ``False``
 
 
 
+
 ### Examples
 
 Shows how to disable text rotation when the shape is rotate.

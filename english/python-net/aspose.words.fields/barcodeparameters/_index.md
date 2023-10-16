@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: BarcodeParameters class
 linktitle: BarcodeParameters class
 articleTitle: BarcodeParameters class
@@ -19,6 +19,7 @@ To learn more, visit the [Working with Fields](https://docs.aspose.com/words/pyt
 
 The set of parameters are according to DISPLAYBARCODE field options.
 See the exact list at https://msdn.microsoft.com/en-us/library/hh745901(v=office.12).aspx
+
 
 
 ### Constructors

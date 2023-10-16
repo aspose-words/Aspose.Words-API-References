@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: FieldAutoNum class
 linktitle: FieldAutoNum class
 articleTitle: FieldAutoNum class

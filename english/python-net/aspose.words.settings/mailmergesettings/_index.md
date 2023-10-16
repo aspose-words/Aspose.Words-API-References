@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: MailMergeSettings class
 linktitle: MailMergeSettings class
 articleTitle: MailMergeSettings class

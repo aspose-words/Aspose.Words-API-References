@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: ListLabel class
 linktitle: ListLabel class
 articleTitle: ListLabel class

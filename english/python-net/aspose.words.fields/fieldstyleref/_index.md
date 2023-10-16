@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: FieldStyleRef class
 linktitle: FieldStyleRef class
 articleTitle: FieldStyleRef class

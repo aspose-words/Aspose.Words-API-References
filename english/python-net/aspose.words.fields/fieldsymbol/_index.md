@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: FieldSymbol class
 linktitle: FieldSymbol class
 articleTitle: FieldSymbol class

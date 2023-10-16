@@ -5,7 +5,7 @@ articleTitle: join_style property
 second_title: Aspose.Words for Python
 description: "Stroke.join_style property. Defines the join style of a polyline."
 type: docs
-weight: 120
+weight: 130
 url: /python-net/aspose.words.drawing/stroke/join_style/
 ---
 

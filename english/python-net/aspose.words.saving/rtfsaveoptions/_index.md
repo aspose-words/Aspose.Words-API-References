@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: RtfSaveOptions class
 linktitle: RtfSaveOptions class
 articleTitle: RtfSaveOptions class

@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: FieldCompare class
 linktitle: FieldCompare class
 articleTitle: FieldCompare class

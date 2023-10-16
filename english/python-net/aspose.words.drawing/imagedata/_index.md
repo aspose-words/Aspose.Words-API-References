@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: ImageData class
 linktitle: ImageData class
 articleTitle: ImageData class
@@ -58,6 +58,7 @@ To store an image inside a shape use the [ImageData.set_image()](./set_image/#st
 
 | Name | Description |
 | --- | --- |
+|[ fit_image_to_shape()](./fit_image_to_shape/#default) | Fits the image data to Shape frame so that the aspect ratio of the image data matches the aspect ratio of Shape frame. |
 |[ save(stream)](./save/#bytesio) | Saves the image into the specified stream. |
 |[ save(file_name)](./save/#str) | Saves the image into a file. |
 |[ set_image(stream)](./set_image/#bytesio) | Sets the image that the shape displays. |

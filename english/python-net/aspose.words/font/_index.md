@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: Font class
 linktitle: Font class
 articleTitle: Font class

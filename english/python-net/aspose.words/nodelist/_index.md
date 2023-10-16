@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: NodeList class
 linktitle: NodeList class
 articleTitle: NodeList class

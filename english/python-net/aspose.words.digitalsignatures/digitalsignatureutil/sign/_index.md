@@ -13,9 +13,17 @@ url: /python-net/aspose.words.digitalsignatures/digitalsignatureutil/sign/
 
 Signs source document using given [CertificateHolder](../../certificateholder/) and [SignOptions](../../signoptions/)
 with digital signature and writes signed document to destination stream.
-Document should be either [LoadFormat.DOC](../../../aspose.words/loadformat/#DOC) or [LoadFormat.DOCX](../../../aspose.words/loadformat/#DOCX).
+Supported formats are:
+[LoadFormat.DOC](../../../aspose.words/loadformat/#DOC),
+[LoadFormat.DOT](../../../aspose.words/loadformat/#DOT),
+[LoadFormat.DOCX](../../../aspose.words/loadformat/#DOCX),
+[LoadFormat.DOTX](../../../aspose.words/loadformat/#DOTX),
+[LoadFormat.DOCM](../../../aspose.words/loadformat/#DOCM),
+[LoadFormat.ODT](../../../aspose.words/loadformat/#ODT),
+[LoadFormat.OTT](../../../aspose.words/loadformat/#OTT).
 
 **Output will be written to the start of stream and stream size will be updated with content length.**
+
 
 
 
@@ -36,7 +44,14 @@ def sign(self, src_stream: BytesIO, dst_stream: BytesIO, cert_holder: aspose.wor
 
 Signs source document using given [CertificateHolder](../../certificateholder/) and [SignOptions](../../signoptions/)
 with digital signature and writes signed document to destination file.
-Document should be either [LoadFormat.DOC](../../../aspose.words/loadformat/#DOC) or [LoadFormat.DOCX](../../../aspose.words/loadformat/#DOCX).
+Supported formats are:
+[LoadFormat.DOC](../../../aspose.words/loadformat/#DOC),
+[LoadFormat.DOT](../../../aspose.words/loadformat/#DOT),
+[LoadFormat.DOCX](../../../aspose.words/loadformat/#DOCX),
+[LoadFormat.DOTX](../../../aspose.words/loadformat/#DOTX),
+[LoadFormat.DOCM](../../../aspose.words/loadformat/#DOCM),
+[LoadFormat.ODT](../../../aspose.words/loadformat/#ODT),
+[LoadFormat.OTT](../../../aspose.words/loadformat/#OTT).
 
 
 
@@ -57,9 +72,17 @@ def sign(self, src_file_name: str, dst_file_name: str, cert_holder: aspose.words
 
 Signs source document using given [CertificateHolder](../../certificateholder/) with digital signature
 and writes signed document to destination stream.
-Document should be either [LoadFormat.DOC](../../../aspose.words/loadformat/#DOC) or [LoadFormat.DOCX](../../../aspose.words/loadformat/#DOCX).
+Supported formats are:
+[LoadFormat.DOC](../../../aspose.words/loadformat/#DOC),
+[LoadFormat.DOT](../../../aspose.words/loadformat/#DOT),
+[LoadFormat.DOCX](../../../aspose.words/loadformat/#DOCX),
+[LoadFormat.DOTX](../../../aspose.words/loadformat/#DOTX),
+[LoadFormat.DOCM](../../../aspose.words/loadformat/#DOCM),
+[LoadFormat.ODT](../../../aspose.words/loadformat/#ODT),
+[LoadFormat.OTT](../../../aspose.words/loadformat/#OTT).
 
 **Output will be written to the start of stream and stream size will be updated with content length.**
+
 
 
 
@@ -79,7 +102,14 @@ def sign(self, src_stream: BytesIO, dst_stream: BytesIO, cert_holder: aspose.wor
 
 Signs source document using given [CertificateHolder](../../certificateholder/) with digital signature
 and writes signed document to destination file.
-Document should be either [LoadFormat.DOC](../../../aspose.words/loadformat/#DOC) or [LoadFormat.DOCX](../../../aspose.words/loadformat/#DOCX).
+Supported formats are:
+[LoadFormat.DOC](../../../aspose.words/loadformat/#DOC),
+[LoadFormat.DOT](../../../aspose.words/loadformat/#DOT),
+[LoadFormat.DOCX](../../../aspose.words/loadformat/#DOCX),
+[LoadFormat.DOTX](../../../aspose.words/loadformat/#DOTX),
+[LoadFormat.DOCM](../../../aspose.words/loadformat/#DOCM),
+[LoadFormat.ODT](../../../aspose.words/loadformat/#ODT),
+[LoadFormat.OTT](../../../aspose.words/loadformat/#OTT).
 
 
 

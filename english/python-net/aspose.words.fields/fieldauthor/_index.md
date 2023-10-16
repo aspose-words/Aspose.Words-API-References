@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: FieldAuthor class
 linktitle: FieldAuthor class
 articleTitle: FieldAuthor class

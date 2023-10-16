@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: OlePackage class
 linktitle: OlePackage class
 articleTitle: OlePackage class

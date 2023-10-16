@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: CustomXmlProperty class
 linktitle: CustomXmlProperty class
 articleTitle: CustomXmlProperty class

@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: FieldGoToButton class
 linktitle: FieldGoToButton class
 articleTitle: FieldGoToButton class

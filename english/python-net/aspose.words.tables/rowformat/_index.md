@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: RowFormat class
 linktitle: RowFormat class
 articleTitle: RowFormat class

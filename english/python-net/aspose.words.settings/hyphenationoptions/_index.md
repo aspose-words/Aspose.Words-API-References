@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: HyphenationOptions class
 linktitle: HyphenationOptions class
 articleTitle: HyphenationOptions class

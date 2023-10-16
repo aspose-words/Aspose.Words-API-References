@@ -5,7 +5,7 @@ articleTitle: on property
 second_title: Aspose.Words for Python
 description: "Stroke.on property. Defines whether the path will be stroked."
 type: docs
-weight: 140
+weight: 150
 url: /python-net/aspose.words.drawing/stroke/on/
 ---
 

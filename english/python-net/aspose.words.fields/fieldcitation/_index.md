@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: FieldCitation class
 linktitle: FieldCitation class
 articleTitle: FieldCitation class

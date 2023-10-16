@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: FolderFontSource class
 linktitle: FolderFontSource class
 articleTitle: FolderFontSource class

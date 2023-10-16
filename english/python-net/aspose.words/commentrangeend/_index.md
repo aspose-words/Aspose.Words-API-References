@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: CommentRangeEnd class
 linktitle: CommentRangeEnd class
 articleTitle: CommentRangeEnd class

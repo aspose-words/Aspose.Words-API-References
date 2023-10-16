@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: CellCollection class
 linktitle: CellCollection class
 articleTitle: CellCollection class

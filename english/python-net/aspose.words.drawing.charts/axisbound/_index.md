@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: AxisBound class
 linktitle: AxisBound class
 articleTitle: AxisBound class

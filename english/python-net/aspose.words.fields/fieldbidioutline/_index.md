@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: FieldBidiOutline class
 linktitle: FieldBidiOutline class
 articleTitle: FieldBidiOutline class

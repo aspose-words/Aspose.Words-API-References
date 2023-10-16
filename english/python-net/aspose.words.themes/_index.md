@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: aspose.words.themes module
 linktitle: aspose.words.themes module
 articleTitle: aspose.words.themes module
@@ -21,7 +21,7 @@ A document theme can specify fonts and colors to be used in a document. Themes a
 
 | Class | Description |
 | --- | --- |
-| [Theme](./theme/) | Represents document Theme, and provides access to main theme parts including [Theme.major_fonts](./theme/major_fonts/), [Theme.minor_fonts](./theme/minor_fonts/) and [Theme.colors](./theme/colors/)To learn more, visit the [Working with Styles and Themes](https://docs.aspose.com/words/python-net/working-with-styles-and-themes/) documentation article. |
+| [Theme](./theme/) | Represents document Theme, and provides access to main theme parts including [Theme.major_fonts](./theme/major_fonts/), [Theme.minor_fonts](./theme/minor_fonts/) and [Theme.colors](./theme/colors/) To learn more, visit the [Working with Styles and Themes](https://docs.aspose.com/words/python-net/working-with-styles-and-themes/) documentation article. |
 | [ThemeColors](./themecolors/) | Represents the color scheme of the document theme which contains twelve colors. |
 | [ThemeFonts](./themefonts/) | Represents a collection of fonts in the font scheme, allowing to specify different fonts for different languages [ThemeFonts.latin](./themefonts/latin/), [ThemeFonts.east_asian](./themefonts/east_asian/) and [ThemeFonts.complex_script](./themefonts/complex_script/). To learn more, visit the [Working with Styles and Themes](https://docs.aspose.com/words/python-net/working-with-styles-and-themes/) documentation article. |
 

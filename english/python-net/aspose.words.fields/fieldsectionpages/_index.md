@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: FieldSectionPages class
 linktitle: FieldSectionPages class
 articleTitle: FieldSectionPages class

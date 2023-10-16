@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: FieldOptions class
 linktitle: FieldOptions class
 articleTitle: FieldOptions class

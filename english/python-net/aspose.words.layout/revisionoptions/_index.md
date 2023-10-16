@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: RevisionOptions class
 linktitle: RevisionOptions class
 articleTitle: RevisionOptions class

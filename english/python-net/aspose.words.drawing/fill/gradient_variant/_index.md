@@ -5,7 +5,7 @@ articleTitle: gradient_variant property
 second_title: Aspose.Words for Python
 description: "Fill.gradient_variant property. Gets the gradient variant [GradientVariant](../../gradientvariant/) for the fill."
 type: docs
-weight: 120
+weight: 130
 url: /python-net/aspose.words.drawing/fill/gradient_variant/
 ---
 

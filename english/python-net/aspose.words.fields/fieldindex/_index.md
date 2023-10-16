@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: FieldIndex class
 linktitle: FieldIndex class
 articleTitle: FieldIndex class

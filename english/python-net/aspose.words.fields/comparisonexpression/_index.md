@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: ComparisonExpression class
 linktitle: ComparisonExpression class
 articleTitle: ComparisonExpression class

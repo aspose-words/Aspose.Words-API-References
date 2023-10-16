@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: OdsoRecipientData class
 linktitle: OdsoRecipientData class
 articleTitle: OdsoRecipientData class

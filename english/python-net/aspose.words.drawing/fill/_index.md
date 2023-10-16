@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: Fill class
 linktitle: Fill class
 articleTitle: Fill class
@@ -30,6 +30,7 @@ You do not create instances of the [Fill](./) class directly.
 | [back_color](./back_color/) | Gets or sets a Color object that represents the background color for the fill. |
 | [back_theme_color](./back_theme_color/) | Gets or sets a ThemeColor object that represents the background color for the fill. |
 | [back_tint_and_shade](./back_tint_and_shade/) | Gets or sets a double value that lightens or darkens the background color. |
+| [base_fore_color](./base_fore_color/) | Gets a Color object that represents the base foreground color for the fill without any modifiers. |
 | [color](./color/) | Gets or sets a Color object that represents the foreground color for the fill. |
 | [fill_type](./fill_type/) | Gets a fill type. |
 | [fore_color](./fore_color/) | Gets or sets a Color object that represents the foreground color for the fill. |

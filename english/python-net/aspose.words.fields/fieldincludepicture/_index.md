@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: FieldIncludePicture class
 linktitle: FieldIncludePicture class
 articleTitle: FieldIncludePicture class

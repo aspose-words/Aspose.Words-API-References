@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: Odso class
 linktitle: Odso class
 articleTitle: Odso class

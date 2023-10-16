@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: FieldMergeField class
 linktitle: FieldMergeField class
 articleTitle: FieldMergeField class

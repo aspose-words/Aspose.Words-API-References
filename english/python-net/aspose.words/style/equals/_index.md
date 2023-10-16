@@ -5,7 +5,7 @@ articleTitle: equals method
 second_title: Aspose.Words for Python
 description: "Style.equals method. Compares with the specified style"
 type: docs
-weight: 190
+weight: 200
 url: /python-net/aspose.words/style/equals/
 ---
 

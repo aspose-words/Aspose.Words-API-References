@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: FieldNextIf class
 linktitle: FieldNextIf class
 articleTitle: FieldNextIf class

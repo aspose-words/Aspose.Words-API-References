@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: ImageSize class
 linktitle: ImageSize class
 articleTitle: ImageSize class

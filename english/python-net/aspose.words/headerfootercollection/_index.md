@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: HeaderFooterCollection class
 linktitle: HeaderFooterCollection class
 articleTitle: HeaderFooterCollection class
@@ -18,6 +18,7 @@ To learn more, visit the [Working with Headers and Footers](https://docs.aspose.
 
 
 There can be maximum of one [HeaderFooter](../headerfooter/)
+
 
  of each[HeaderFooterType](../headerfootertype/) per
 [Section](../section/).

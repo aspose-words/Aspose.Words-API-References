@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: ChartAxis class
 linktitle: ChartAxis class
 articleTitle: ChartAxis class

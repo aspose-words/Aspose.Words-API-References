@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: ShadowFormat class
 linktitle: ShadowFormat class
 articleTitle: ShadowFormat class

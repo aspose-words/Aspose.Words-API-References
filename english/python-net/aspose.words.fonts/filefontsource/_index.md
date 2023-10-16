@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: FileFontSource class
 linktitle: FileFontSource class
 articleTitle: FileFontSource class

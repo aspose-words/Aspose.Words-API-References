@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: DigitalSignatureUtil class
 linktitle: DigitalSignatureUtil class
 articleTitle: DigitalSignatureUtil class
@@ -19,7 +19,14 @@ To learn more, visit the [Work with Digital Signatures](https://docs.aspose.com/
 
 Since digital signature works with file content rather than Document Object Model these methods are put into a separate class.
 
-Supported formats are [LoadFormat.DOC](../../aspose.words/loadformat/#DOC) and [LoadFormat.DOCX](../../aspose.words/loadformat/#DOCX).
+Supported formats are:
+[LoadFormat.DOC](../../aspose.words/loadformat/#DOC),
+[LoadFormat.DOT](../../aspose.words/loadformat/#DOT),
+[LoadFormat.DOCX](../../aspose.words/loadformat/#DOCX),
+[LoadFormat.DOTX](../../aspose.words/loadformat/#DOTX),
+[LoadFormat.DOCM](../../aspose.words/loadformat/#DOCM),
+[LoadFormat.ODT](../../aspose.words/loadformat/#ODT),
+[LoadFormat.OTT](../../aspose.words/loadformat/#OTT).
 
 
 
@@ -32,10 +39,10 @@ Supported formats are [LoadFormat.DOC](../../aspose.words/loadformat/#DOC) and [
 |[ load_signatures(stream)](./load_signatures/#bytesio) | Loads digital signatures from document using stream. |
 |[ remove_all_signatures(src_file_name, dst_file_name)](./remove_all_signatures/#str_str) | Removes all digital signatures from source file and writes unsigned file to destination file. The following formats are compatible for digital signature removal: [LoadFormat.DOC](../../aspose.words/loadformat/#DOC), [LoadFormat.DOT](../../aspose.words/loadformat/#DOT), [LoadFormat.DOCX](../../aspose.words/loadformat/#DOCX), [LoadFormat.DOTX](../../aspose.words/loadformat/#DOTX), [LoadFormat.DOCM](../../aspose.words/loadformat/#DOCM), [LoadFormat.ODT](../../aspose.words/loadformat/#ODT), [LoadFormat.OTT](../../aspose.words/loadformat/#OTT). |
 |[ remove_all_signatures(src_stream, dst_stream)](./remove_all_signatures/#bytesio_bytesio) | Removes all digital signatures from document in source stream and writes unsigned document to destination stream. **Output will be written to the start of stream and stream size will be updated with content length.** |
-|[ sign(src_stream, dst_stream, cert_holder, sign_options)](./sign/#bytesio_bytesio_certificateholder_signoptions) | Signs source document using given [CertificateHolder](../certificateholder/) and [SignOptions](../signoptions/) with digital signature and writes signed document to destination stream. Document should be either [LoadFormat.DOC](../../aspose.words/loadformat/#DOC) or [LoadFormat.DOCX](../../aspose.words/loadformat/#DOCX). |
-|[ sign(src_file_name, dst_file_name, cert_holder, sign_options)](./sign/#str_str_certificateholder_signoptions) | Signs source document using given [CertificateHolder](../certificateholder/) and [SignOptions](../signoptions/) with digital signature and writes signed document to destination file. Document should be either [LoadFormat.DOC](../../aspose.words/loadformat/#DOC) or [LoadFormat.DOCX](../../aspose.words/loadformat/#DOCX). |
-|[ sign(src_stream, dst_stream, cert_holder)](./sign/#bytesio_bytesio_certificateholder) | Signs source document using given [CertificateHolder](../certificateholder/) with digital signature and writes signed document to destination stream. Document should be either [LoadFormat.DOC](../../aspose.words/loadformat/#DOC) or [LoadFormat.DOCX](../../aspose.words/loadformat/#DOCX). |
-|[ sign(src_file_name, dst_file_name, cert_holder)](./sign/#str_str_certificateholder) | Signs source document using given [CertificateHolder](../certificateholder/) with digital signature and writes signed document to destination file. Document should be either [LoadFormat.DOC](../../aspose.words/loadformat/#DOC) or [LoadFormat.DOCX](../../aspose.words/loadformat/#DOCX). |
+|[ sign(src_stream, dst_stream, cert_holder, sign_options)](./sign/#bytesio_bytesio_certificateholder_signoptions) | Signs source document using given [CertificateHolder](../certificateholder/) and [SignOptions](../signoptions/) with digital signature and writes signed document to destination stream. Supported formats are: [LoadFormat.DOC](../../aspose.words/loadformat/#DOC), [LoadFormat.DOT](../../aspose.words/loadformat/#DOT), [LoadFormat.DOCX](../../aspose.words/loadformat/#DOCX), [LoadFormat.DOTX](../../aspose.words/loadformat/#DOTX), [LoadFormat.DOCM](../../aspose.words/loadformat/#DOCM), [LoadFormat.ODT](../../aspose.words/loadformat/#ODT), [LoadFormat.OTT](../../aspose.words/loadformat/#OTT). |
+|[ sign(src_file_name, dst_file_name, cert_holder, sign_options)](./sign/#str_str_certificateholder_signoptions) | Signs source document using given [CertificateHolder](../certificateholder/) and [SignOptions](../signoptions/) with digital signature and writes signed document to destination file. Supported formats are: [LoadFormat.DOC](../../aspose.words/loadformat/#DOC), [LoadFormat.DOT](../../aspose.words/loadformat/#DOT), [LoadFormat.DOCX](../../aspose.words/loadformat/#DOCX), [LoadFormat.DOTX](../../aspose.words/loadformat/#DOTX), [LoadFormat.DOCM](../../aspose.words/loadformat/#DOCM), [LoadFormat.ODT](../../aspose.words/loadformat/#ODT), [LoadFormat.OTT](../../aspose.words/loadformat/#OTT). |
+|[ sign(src_stream, dst_stream, cert_holder)](./sign/#bytesio_bytesio_certificateholder) | Signs source document using given [CertificateHolder](../certificateholder/) with digital signature and writes signed document to destination stream. Supported formats are: [LoadFormat.DOC](../../aspose.words/loadformat/#DOC), [LoadFormat.DOT](../../aspose.words/loadformat/#DOT), [LoadFormat.DOCX](../../aspose.words/loadformat/#DOCX), [LoadFormat.DOTX](../../aspose.words/loadformat/#DOTX), [LoadFormat.DOCM](../../aspose.words/loadformat/#DOCM), [LoadFormat.ODT](../../aspose.words/loadformat/#ODT), [LoadFormat.OTT](../../aspose.words/loadformat/#OTT). |
+|[ sign(src_file_name, dst_file_name, cert_holder)](./sign/#str_str_certificateholder) | Signs source document using given [CertificateHolder](../certificateholder/) with digital signature and writes signed document to destination file. Supported formats are: [LoadFormat.DOC](../../aspose.words/loadformat/#DOC), [LoadFormat.DOT](../../aspose.words/loadformat/#DOT), [LoadFormat.DOCX](../../aspose.words/loadformat/#DOCX), [LoadFormat.DOTX](../../aspose.words/loadformat/#DOTX), [LoadFormat.DOCM](../../aspose.words/loadformat/#DOCM), [LoadFormat.ODT](../../aspose.words/loadformat/#ODT), [LoadFormat.OTT](../../aspose.words/loadformat/#OTT). |
 
 ### Examples
 

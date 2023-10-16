@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: VbaModuleCollection class
 linktitle: VbaModuleCollection class
 articleTitle: VbaModuleCollection class

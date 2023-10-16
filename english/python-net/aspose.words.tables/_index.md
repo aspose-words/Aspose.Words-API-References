@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: aspose.words.tables module
 linktitle: aspose.words.tables module
 articleTitle: aspose.words.tables module

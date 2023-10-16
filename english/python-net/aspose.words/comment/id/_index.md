@@ -3,7 +3,7 @@ title: Comment.id property
 linktitle: id property
 articleTitle: id property
 second_title: Aspose.Words for Python
-description: "Comment.id property. Gets the comment identifier."
+description: "Comment.id property. Gets or sets the comment identifier."
 type: docs
 weight: 60
 url: /python-net/aspose.words/comment/id/
@@ -11,7 +11,7 @@ url: /python-net/aspose.words/comment/id/
 
 ## Comment.id property
 
-Gets the comment identifier.
+Gets or sets the comment identifier.
 
 The comment identifier allows to anchor a comment to a region of text in the document.
 The region must be demarcated using the [CommentRangeStart](../../commentrangestart/) and [CommentRangeEnd](../../commentrangeend/)

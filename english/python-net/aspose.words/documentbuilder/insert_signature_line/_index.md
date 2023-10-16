@@ -5,7 +5,7 @@ articleTitle: insert_signature_line method
 second_title: Aspose.Words for Python
 description: "aspose.words.DocumentBuilder.insert_signature_line method"
 type: docs
-weight: 440
+weight: 450
 url: /python-net/aspose.words/documentbuilder/insert_signature_line/
 ---
 

@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: ReportingEngine class
 linktitle: ReportingEngine class
 articleTitle: ReportingEngine class

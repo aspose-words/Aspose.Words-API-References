@@ -5,7 +5,7 @@ articleTitle: end_cap property
 second_title: Aspose.Words for Python
 description: "Stroke.end_cap property. Defines the cap style for the end of a stroke."
 type: docs
-weight: 80
+weight: 90
 url: /python-net/aspose.words.drawing/stroke/end_cap/
 ---
 

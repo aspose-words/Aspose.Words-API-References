@@ -14,6 +14,7 @@ url: /python-net/aspose.words/pagesetup/text_orientation/
 Allows to specify [PageSetup.text_orientation](./) for the whole page.
 Default value is [TextOrientation.HORIZONTAL](../../textorientation/#HORIZONTAL)
 
+
 This property is only supported for MS Word native formats DOCX, WML, RTF and DOC.
 
 

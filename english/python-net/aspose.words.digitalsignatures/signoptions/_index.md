@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: SignOptions class
 linktitle: SignOptions class
 articleTitle: SignOptions class

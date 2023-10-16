@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: aspose.words.math module
 linktitle: aspose.words.math module
 articleTitle: aspose.words.math module

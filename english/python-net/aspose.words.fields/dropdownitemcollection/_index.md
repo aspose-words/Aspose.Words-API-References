@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: DropDownItemCollection class
 linktitle: DropDownItemCollection class
 articleTitle: DropDownItemCollection class

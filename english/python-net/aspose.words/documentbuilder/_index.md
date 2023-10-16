@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: DocumentBuilder class
 linktitle: DocumentBuilder class
 articleTitle: DocumentBuilder class
@@ -98,6 +98,7 @@ you navigate to a different place in the document to reflect formatting properti
 |[ insert_combo_box(name, items, selected_index)](./insert_combo_box/#str_strlist_int) | Inserts a combobox form field at the current position. |
 |[ insert_document(src_doc, import_format_mode)](./insert_document/#document_importformatmode) | Inserts a document at the cursor position. |
 |[ insert_document(src_doc, import_format_mode, import_format_options)](./insert_document/#document_importformatmode_importformatoptions) | Inserts a document at the cursor position. |
+|[ insert_document_inline(src_doc, import_format_mode, import_format_options)](./insert_document_inline/#document_importformatmode_importformatoptions) | Inserts a document inline at the cursor position. |
 |[ insert_field(field_type, update_field)](./insert_field/#fieldtype_bool) | Inserts a Word field into a document and optionally updates the field result. |
 |[ insert_field(field_code)](./insert_field/#str) | Inserts a Word field into a document and updates the field result. |
 |[ insert_field(field_code, field_value)](./insert_field/#str_str) | Inserts a Word field into a document without updating the field result. |

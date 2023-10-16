@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: BuiltInDocumentProperties class
 linktitle: BuiltInDocumentProperties class
 articleTitle: BuiltInDocumentProperties class

@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: Style class
 linktitle: Style class
 articleTitle: Style class
@@ -32,6 +32,7 @@ To learn more, visit the [Working with Styles and Themes](https://docs.aspose.co
 | [linked_style_name](./linked_style_name/) | Gets the name of the [Style](./) linked to this one. Returns empty string if no styles are linked. |
 | [list](./list/) | Gets the list that defines formatting of this list style. |
 | [list_format](./list_format/) | Provides access to the list formatting properties of a paragraph style. |
+| [locked](./locked/) | Specifies whether this style is locked. |
 | [name](./name/) | Gets or sets the name of the style. |
 | [next_paragraph_style_name](./next_paragraph_style_name/) | Gets/sets the name of the style to be applied automatically to a new paragraph inserted after a paragraph formatted with the specified style. |
 | [paragraph_format](./paragraph_format/) | Gets the paragraph formatting of the style. |

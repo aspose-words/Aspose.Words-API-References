@@ -5,7 +5,7 @@ articleTitle: preferred_width property
 second_title: Aspose.Words for Python
 description: "CellFormat.preferred_width property. Returns or sets the preferred width of the cell."
 type: docs
-weight: 70
+weight: 80
 url: /python-net/aspose.words.tables/cellformat/preferred_width/
 ---
 
@@ -13,8 +13,8 @@ url: /python-net/aspose.words.tables/cellformat/preferred_width/
 
 Returns or sets the preferred width of the cell.
 
-The preferred width (along with the table's Auto Fit option) determines how the actual 
-width of the cell is calculated by the table layout algorithm. Table layout can be performed by 
+The preferred width (along with the table's Auto Fit option) determines how the actual
+width of the cell is calculated by the table layout algorithm. Table layout can be performed by
 Aspose.Words when it saves the document or by Microsoft Word when it displays the document.
 
 The preferred width can be specified in points or in percent. The preferred width

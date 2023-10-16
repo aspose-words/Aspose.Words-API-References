@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: Story class
 linktitle: Story class
 articleTitle: Story class
@@ -53,6 +53,8 @@ each header and footer is stored in a separate story represented by [HeaderFoote
 | Name | Description |
 | --- | --- |
 |[ accept(visitor)](../node/accept/#documentvisitor) | Accepts a visitor.<br>(Inherited from [Node](../node/)) |
+|[ accept_end(visitor)](../compositenode/accept_end/#documentvisitor) | When implemented in a derived class, calls the VisitXXXEnd method of the specified document visitor.<br>(Inherited from [CompositeNode](../compositenode/)) |
+|[ accept_start(visitor)](../compositenode/accept_start/#documentvisitor) | When implemented in a derived class, calls the VisitXXXStart method of the specified document visitor.<br>(Inherited from [CompositeNode](../compositenode/)) |
 |[ append_child(new_child)](../compositenode/append_child/#node) | Adds the specified node to the end of the list of child nodes for this node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 |[ append_paragraph(text)](./append_paragraph/#str) | A shortcut method that creates a [Paragraph](../paragraph/) object with optional text and appends it to the end of this object. |
 |[ clone(is_clone_children)](../node/clone/#bool) | Creates a duplicate of the node.<br>(Inherited from [Node](../node/)) |

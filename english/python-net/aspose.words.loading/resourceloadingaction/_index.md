@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: ResourceLoadingAction enumeration
 linktitle: ResourceLoadingAction enumeration
 articleTitle: ResourceLoadingAction enumeration

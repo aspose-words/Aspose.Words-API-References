@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: SvgSaveOptions class
 linktitle: SvgSaveOptions class
 articleTitle: SvgSaveOptions class

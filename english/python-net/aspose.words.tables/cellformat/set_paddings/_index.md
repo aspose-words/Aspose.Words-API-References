@@ -5,7 +5,7 @@ articleTitle: set_paddings method
 second_title: Aspose.Words for Python
 description: "CellFormat.set_paddings method. Sets the amount of space (in points) to add to the left/top/right/bottom of the contents of cell."
 type: docs
-weight: 160
+weight: 170
 url: /python-net/aspose.words.tables/cellformat/set_paddings/
 ---
 

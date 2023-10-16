@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: ChartSeriesCollection class
 linktitle: ChartSeriesCollection class
 articleTitle: ChartSeriesCollection class

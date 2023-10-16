@@ -15,6 +15,7 @@ Allows to specify the effect to be applied to the areas where content was moved 
 Default value is [RevisionTextEffect.DOUBLE_STRIKE_THROUGH](../../revisiontexteffect/#DOUBLE_STRIKE_THROUGH)
 
 
+
 ### Examples
 
 Shows how to modify the appearance of revisions.

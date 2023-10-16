@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: Hyphenation class
 linktitle: Hyphenation class
 articleTitle: Hyphenation class

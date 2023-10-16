@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: FieldNoteRef class
 linktitle: FieldNoteRef class
 articleTitle: FieldNoteRef class

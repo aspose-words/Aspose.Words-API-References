@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: MergeFieldImageDimension class
 linktitle: MergeFieldImageDimension class
 articleTitle: MergeFieldImageDimension class

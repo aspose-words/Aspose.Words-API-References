@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: FieldNumWords class
 linktitle: FieldNumWords class
 articleTitle: FieldNumWords class

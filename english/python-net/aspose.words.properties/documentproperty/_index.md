@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: DocumentProperty class
 linktitle: DocumentProperty class
 articleTitle: DocumentProperty class

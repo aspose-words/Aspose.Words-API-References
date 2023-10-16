@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: CertificateHolder class
 linktitle: CertificateHolder class
 articleTitle: CertificateHolder class

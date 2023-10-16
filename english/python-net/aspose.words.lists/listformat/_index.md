@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: ListFormat class
 linktitle: ListFormat class
 articleTitle: ListFormat class

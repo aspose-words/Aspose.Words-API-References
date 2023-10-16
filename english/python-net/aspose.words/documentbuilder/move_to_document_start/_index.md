@@ -5,7 +5,7 @@ articleTitle: move_to_document_start method
 second_title: Aspose.Words for Python
 description: "DocumentBuilder.move_to_document_start method. Moves the cursor to the beginning of the document."
 type: docs
-weight: 520
+weight: 530
 url: /python-net/aspose.words/documentbuilder/move_to_document_start/
 ---
 

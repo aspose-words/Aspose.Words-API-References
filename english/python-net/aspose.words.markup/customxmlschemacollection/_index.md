@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: CustomXmlSchemaCollection class
 linktitle: CustomXmlSchemaCollection class
 articleTitle: CustomXmlSchemaCollection class

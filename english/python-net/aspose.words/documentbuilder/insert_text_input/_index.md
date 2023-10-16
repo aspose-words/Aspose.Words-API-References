@@ -5,7 +5,7 @@ articleTitle: insert_text_input method
 second_title: Aspose.Words for Python
 description: "DocumentBuilder.insert_text_input method. Inserts a text form field at the current position."
 type: docs
-weight: 470
+weight: 480
 url: /python-net/aspose.words/documentbuilder/insert_text_input/
 ---
 

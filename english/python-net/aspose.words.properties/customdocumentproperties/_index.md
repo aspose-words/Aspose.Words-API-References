@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: CustomDocumentProperties class
 linktitle: CustomDocumentProperties class
 articleTitle: CustomDocumentProperties class

@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: CustomPart class
 linktitle: CustomPart class
 articleTitle: CustomPart class

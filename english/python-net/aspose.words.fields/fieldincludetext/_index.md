@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 title: FieldIncludeText class
 linktitle: FieldIncludeText class
 articleTitle: FieldIncludeText class

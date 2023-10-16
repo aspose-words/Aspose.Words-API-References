@@ -5,7 +5,7 @@ articleTitle: overlay property
 second_title: Aspose.Words for Python
 description: "ChartTitle.overlay property. Determines whether other chart elements shall be allowed to overlap title"
 type: docs
-weight: 10
+weight: 20
 url: /python-net/aspose.words.drawing.charts/charttitle/overlay/
 ---
 
@@ -31,6 +31,8 @@ chart = chart_shape.chart
 # Use the "title" property to give our chart a title, which appears at the top center of the chart area.
 title = chart.title
 title.text = "My Chart"
+title.font.size = 15
+title.font.color = drawing.Color.blue
 
 # Set the "show" property to "True" to make the title visible.
 title.show = True
