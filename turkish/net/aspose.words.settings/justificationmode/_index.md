@@ -1,7 +1,9 @@
 ---
-title: Enum JustificationMode
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Settings.JustificationMode Sıralama. Bir belge için karakter aralığı ayarını belirtir. Varsayılan değerGenişletmek .
+title: JustificationMode Enum
+linktitle: JustificationMode
+articleTitle: JustificationMode
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Settings.JustificationMode Sıralama. Bir belge için karakter aralığı ayarını belirtir. Varsayılan değerGenişletmek  C#'da.
 type: docs
 weight: 5800
 url: /tr/net/aspose.words.settings/justificationmode/
@@ -22,7 +24,7 @@ public enum JustificationMode
 | Compress | `1` |  |
 | CompressKana | `2` |  |
 
-### Örnekler
+## Örnekler
 
 Karakter aralığı kontrolünün nasıl yönetileceğini gösterir.
 
@@ -40,5 +42,3 @@ doc.Save(ArtifactsDir + "Document.SetJustificationMode.docx");
 
 * ad alanı [Aspose.Words.Settings](../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../)
-
-

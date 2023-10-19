@@ -1,7 +1,9 @@
 ---
 title: TabStop.GetHashCode
-second_title: Aspose.Words for .NET API Referansı
-description: TabStop yöntem. Bu nesnenin karma kodunu hesaplar.
+linktitle: GetHashCode
+articleTitle: GetHashCode
+second_title: Aspose.Words for .NET
+description: TabStop GetHashCode yöntem. Bu nesnenin karma kodunu hesaplar C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words/tabstop/gethashcode/
@@ -17,7 +19,5 @@ public override int GetHashCode()
 ### Ayrıca bakınız
 
 * class [TabStop](../)
-* ad alanı [Aspose.Words](../../tabstop/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

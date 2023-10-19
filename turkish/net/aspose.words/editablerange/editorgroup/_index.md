@@ -1,7 +1,9 @@
 ---
 title: EditableRange.EditorGroup
-second_title: Aspose.Words for .NET API Referansı
-description: EditableRange mülk. Geçerli user kullanıcısının bu düzenlenebilir aralığı düzenlemesine izin verilip verilmeyeceğini belirlemek için kullanılacak bir takma adı veya düzenleme grubunu döndürür veya ayarlar.
+linktitle: EditorGroup
+articleTitle: EditorGroup
+second_title: Aspose.Words for .NET
+description: EditableRange EditorGroup mülk. Geçerli user kullanıcısının bu düzenlenebilir aralığı düzenlemesine izin verilip verilmeyeceğini belirlemek için kullanılacak bir takma adı veya düzenleme grubunu döndürür veya ayarlar C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/editablerange/editorgroup/
@@ -14,11 +16,11 @@ Geçerli user kullanıcısının bu düzenlenebilir aralığı düzenlemesine iz
 public EditorType EditorGroup { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Belirli düzenlenebilir aralık için tek kullanıcı ve editör grubu aynı anda ayarlanamaz, biri ayarlanmışsa diğeri net olacaktır.
 
-### Örnekler
+## Örnekler
 
 İç içe düzenlenebilir aralıkların nasıl oluşturulacağını gösterir.
 
@@ -166,7 +168,5 @@ public class EditableRangePrinter : DocumentVisitor
 
 * enum [EditorType](../../editortype/)
 * class [EditableRange](../)
-* ad alanı [Aspose.Words](../../editablerange/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

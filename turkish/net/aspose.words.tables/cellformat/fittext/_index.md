@@ -1,7 +1,9 @@
 ---
 title: CellFormat.FitText
-second_title: Aspose.Words for .NET API Referansı
-description: CellFormat mülk. Eğerdoğru  her paragrafı hücrenin genişliğine sıkıştırarak metni hücreye sığdırır.
+linktitle: FitText
+articleTitle: FitText
+second_title: Aspose.Words for .NET
+description: CellFormat FitText mülk. Eğerdoğru  her paragrafı hücrenin genişliğine sıkıştırarak metni hücreye sığdırır C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.tables/cellformat/fittext/
@@ -14,7 +16,7 @@ Eğer`doğru` , her paragrafı hücrenin genişliğine sıkıştırarak metni h�
 public bool FitText { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Özel kenarlıklara sahip bir tablonun nasıl oluşturulacağını gösterir.
 
@@ -80,7 +82,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 ### Ayrıca bakınız
 
 * class [CellFormat](../)
-* ad alanı [Aspose.Words.Tables](../../cellformat/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

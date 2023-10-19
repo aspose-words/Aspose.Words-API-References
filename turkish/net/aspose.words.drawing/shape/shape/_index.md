@@ -1,7 +1,9 @@
 ---
-title: Shape.Shape
-second_title: Aspose.Words for .NET API Referansı
-description: Shape inşaatçı. Yeni bir şekil nesnesi oluşturur.
+title: Shape
+linktitle: Shape
+articleTitle: Shape
+second_title: Aspose.Words for .NET
+description: Shape inşaatçı. Yeni bir şekil nesnesi oluşturur C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.drawing/shape/shape/
@@ -19,11 +21,11 @@ public Shape(DocumentBase doc, ShapeType shapeType)
 | doc | DocumentBase | Sahibi belgesi. |
 | shapeType | ShapeType | Oluşturulacak şeklin türü. |
 
-### Notlar
+## Notlar
 
 Şekil oluşturduktan sonra istediğiniz şekil özelliklerini belirtmelisiniz.
 
-### Örnekler
+## Örnekler
 
 Yerel dosya sisteminden bir görüntü içeren şeklin belgeye nasıl ekleneceğini gösterir.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "Shape.CreateTextBox.docx");
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * enum [ShapeType](../../shapetype/)
 * class [Shape](../)
-* ad alanı [Aspose.Words.Drawing](../../shape/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

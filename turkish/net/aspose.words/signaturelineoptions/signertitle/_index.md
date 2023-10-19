@@ -1,20 +1,22 @@
 ---
 title: SignatureLineOptions.SignerTitle
-second_title: Aspose.Words for .NET API Referansı
-description: SignatureLineOptions mülk. Önerilen imzalayanın unvanını alır veya ayarlar. Bu özelliğin varsayılan değeri boş dize Empty.
+linktitle: SignerTitle
+articleTitle: SignerTitle
+second_title: Aspose.Words for .NET
+description: SignatureLineOptions SignerTitle mülk. Önerilen imzalayanın unvanını alır veya ayarlar. Bu özelliğin varsayılan değeriboş dize Empty C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words/signaturelineoptions/signertitle/
 ---
 ## SignatureLineOptions.SignerTitle property
 
-Önerilen imzalayanın unvanını alır veya ayarlar. Bu özelliğin varsayılan değeri: **boş dize** (Empty).
+Önerilen imzalayanın unvanını alır veya ayarlar. Bu özelliğin varsayılan değeri:**boş dize** (Empty).
 
 ```csharp
 public string SignerTitle { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgeye imza satırının nasıl ekleneceğini ve ardından dijital sertifika kullanarak nasıl imzalanacağını gösterir.
 
@@ -130,7 +132,5 @@ Bir belgeye imza satırının nasıl ekleneceğini ve ardından dijital sertifik
 ### Ayrıca bakınız
 
 * class [SignatureLineOptions](../)
-* ad alanı [Aspose.Words](../../signaturelineoptions/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

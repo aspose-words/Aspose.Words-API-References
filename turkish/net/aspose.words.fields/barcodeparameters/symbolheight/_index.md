@@ -1,7 +1,9 @@
 ---
 title: BarcodeParameters.SymbolHeight
-second_title: Aspose.Words for .NET API Referansı
-description: BarcodeParameters mülk. Barkod görüntü yüksekliği twips cinsinden  1/1440 inç
+linktitle: SymbolHeight
+articleTitle: SymbolHeight
+second_title: Aspose.Words for .NET
+description: BarcodeParameters SymbolHeight mülk. Barkod görüntü yüksekliği twips cinsinden  1/1440 inç C#'da.
 type: docs
 weight: 170
 url: /tr/net/aspose.words.fields/barcodeparameters/symbolheight/
@@ -14,7 +16,7 @@ Barkod görüntü yüksekliği (twips cinsinden - 1/1440 inç)
 public string SymbolHeight { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Barkod oluşturucunun nasıl kullanılacağını gösterir.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 ### Ayrıca bakınız
 
 * class [BarcodeParameters](../)
-* ad alanı [Aspose.Words.Fields](../../barcodeparameters/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class EndnoteOptions
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Notes.EndnoteOptions sınıf. Bir belge veya bölüme ilişkin son not numaralandırma seçeneklerini temsil eder.
+title: EndnoteOptions Class
+linktitle: EndnoteOptions
+articleTitle: EndnoteOptions
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Notes.EndnoteOptions sınıf. Bir belge veya bölüme ilişkin son not numaralandırma seçeneklerini temsil eder C#'da.
 type: docs
 weight: 4240
 url: /tr/net/aspose.words.notes/endnoteoptions/
@@ -25,7 +27,7 @@ public sealed class EndnoteOptions
 | [RestartRule](../../aspose.words.notes/endnoteoptions/restartrule/) { get; set; } | Otomatik numaralandırmanın ne zaman yeniden başlayacağını belirler. |
 | [StartNumber](../../aspose.words.notes/endnoteoptions/startnumber/) { get; set; } | Otomatik olarak numaralandırılan ilk son notların başlangıç numarasını veya karakterini belirtir. |
 
-### Örnekler
+## Örnekler
 
 Belgenin son notlarını toplayıp görüntüleyeceği farklı bir yerin nasıl seçileceğini gösterir.
 
@@ -201,5 +203,3 @@ doc.Save(ArtifactsDir + "InlineStory.NumberingRule.docx");
 * property [EndnoteOptions](../../aspose.words/pagesetup/endnoteoptions/)
 * ad alanı [Aspose.Words.Notes](../../aspose.words.notes/)
 * toplantı [Aspose.Words](../../)
-
-

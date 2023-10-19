@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.DisplayUnit
-second_title: Aspose.Words for .NET API Referansı
-description: ChartAxis mülk. Değer ekseni için görüntüleme birimlerinin ölçeklendirme değerini belirtir.
+linktitle: DisplayUnit
+articleTitle: DisplayUnit
+second_title: Aspose.Words for .NET
+description: ChartAxis DisplayUnit mülk. Değer ekseni için görüntüleme birimlerinin ölçeklendirme değerini belirtir C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.drawing.charts/chartaxis/displayunit/
@@ -14,11 +16,11 @@ Değer ekseni için görüntüleme birimlerinin ölçeklendirme değerini belirt
 public AxisDisplayUnit DisplayUnit { get; }
 ```
 
-### Notlar
+## Notlar
 
 Özelliğin yalnızca değer eksenleri için etkisi vardır.
 
-### Örnekler
+## Örnekler
 
 Bir grafik ekseninin onay işaretlerinin ve görüntülenen değerlerinin nasıl değiştirileceğini gösterir.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 
 * class [AxisDisplayUnit](../../axisdisplayunit/)
 * class [ChartAxis](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

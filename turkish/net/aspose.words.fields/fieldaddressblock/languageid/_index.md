@@ -1,7 +1,9 @@
 ---
 title: FieldAddressBlock.LanguageId
-second_title: Aspose.Words for .NET API Referansı
-description: FieldAddressBlock mülk. Adresi biçimlendirmek için kullanılan dil kimliğini alır veya ayarlar.
+linktitle: LanguageId
+articleTitle: LanguageId
+second_title: Aspose.Words for .NET
+description: FieldAddressBlock LanguageId mülk. Adresi biçimlendirmek için kullanılan dil kimliğini alır veya ayarlar C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.fields/fieldaddressblock/languageid/
@@ -14,7 +16,7 @@ Adresi biçimlendirmek için kullanılan dil kimliğini alır veya ayarlar.
 public string LanguageId { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 ADRESSBLOCK alanının nasıl ekleneceğini gösterir.
 
@@ -45,7 +47,5 @@ Assert.AreEqual(
 ### Ayrıca bakınız
 
 * class [FieldAddressBlock](../)
-* ad alanı [Aspose.Words.Fields](../../fieldaddressblock/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

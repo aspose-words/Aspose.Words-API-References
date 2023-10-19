@@ -1,7 +1,9 @@
 ---
 title: DigitalSignature.SignTime
-second_title: Aspose.Words for .NET API Referansı
-description: DigitalSignature mülk. Belgenin imzalandığı zamanı alır.
+linktitle: SignTime
+articleTitle: SignTime
+second_title: Aspose.Words for .NET
+description: DigitalSignature SignTime mülk. Belgenin imzalandığı zamanı alır C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.digitalsignatures/digitalsignature/signtime/
@@ -14,7 +16,7 @@ Belgenin imzalandığı zamanı alır.
 public DateTime SignTime { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki her imza hakkındaki bilgilerin nasıl doğrulanacağını ve görüntüleneceğini gösterir.
 
@@ -36,7 +38,5 @@ foreach (DigitalSignature signature in doc.DigitalSignatures)
 ### Ayrıca bakınız
 
 * class [DigitalSignature](../)
-* ad alanı [Aspose.Words.DigitalSignatures](../../digitalsignature/)
+* ad alanı [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * toplantı [Aspose.Words](../../../)
-
-

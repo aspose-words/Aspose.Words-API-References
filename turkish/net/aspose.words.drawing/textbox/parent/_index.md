@@ -1,7 +1,9 @@
 ---
 title: TextBox.Parent
-second_title: Aspose.Words for .NET API Referansı
-description: TextBox mülk. Bir ana şekil alırTextBox .
+linktitle: Parent
+articleTitle: Parent
+second_title: Aspose.Words for .NET
+description: TextBox Parent mülk. Bir ana şekil alırTextBox  C#'da.
 type: docs
 weight: 90
 url: /tr/net/aspose.words.drawing/textbox/parent/
@@ -18,7 +20,5 @@ public Shape Parent { get; }
 
 * class [Shape](../../shape/)
 * class [TextBox](../)
-* ad alanı [Aspose.Words.Drawing](../../textbox/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

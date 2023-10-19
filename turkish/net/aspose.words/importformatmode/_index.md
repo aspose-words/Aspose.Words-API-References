@@ -1,7 +1,9 @@
 ---
-title: Enum ImportFormatMode
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.ImportFormatMode Sıralama. Başka bir belgeden içerik içe aktarılırken biçimlendirmenin nasıl birleştirileceğini belirtir.
+title: ImportFormatMode Enum
+linktitle: ImportFormatMode
+articleTitle: ImportFormatMode
+second_title: Aspose.Words for .NET
+description: Aspose.Words.ImportFormatMode Sıralama. Başka bir belgeden içerik içe aktarılırken biçimlendirmenin nasıl birleştirileceğini belirtir C#'da.
 type: docs
 weight: 3230
 url: /tr/net/aspose.words/importformatmode/
@@ -22,7 +24,7 @@ public enum ImportFormatMode
 | KeepSourceFormatting | `1` | Gerekli tüm stilleri hedef belgeye kopyalayın, gerekirse benzersiz stil adları oluşturun. |
 | KeepDifferentStyles | `2` | Yalnızca kaynak belgedekilerden farklı stilleri kopyalayın. |
 
-### Notlar
+## Notlar
 
 Düğümleri bir belgeden diğerine kopyaladığınızda bu seçenek, her iki belge de aynı ada ancak farklı biçimlendirmeye sahip bir stile sahip olduğunda formatting 'nin nasıl çözümleneceğini belirtir.
 
@@ -42,7 +44,7 @@ Kullanmanın sakıncasıKeepSourceFormattingbirkaç içe aktarma işlemi gerçek
 
 KullanmaKeepDifferentStyles seçeneği, sağladıkları biçimlendirme kaynak belgedeki stillerle aynıysa hedef stilleri yeniden kullanılmasına izin verir. Hedef belgedeki stil kaynaktan farklıysa o zaman içe aktarılır.
 
-### Örnekler
+## Örnekler
 
 Bir belgenin başka bir belgeye nasıl ekleneceğini gösterir.
 
@@ -63,5 +65,3 @@ builder.Document.Save(ArtifactsDir + "DocumentBuilder.InsertDocument.docx");
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

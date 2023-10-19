@@ -1,7 +1,9 @@
 ---
 title: LoadOptions.FontSettings
-second_title: Aspose.Words for .NET API Referansı
-description: LoadOptions mülk. Belge yazı tipi ayarlarını belirlemeye izin verir.
+linktitle: FontSettings
+articleTitle: FontSettings
+second_title: Aspose.Words for .NET
+description: LoadOptions FontSettings mülk. Belge yazı tipi ayarlarını belirlemeye izin verir C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.loading/loadoptions/fontsettings/
@@ -14,7 +16,7 @@ Belge yazı tipi ayarlarını belirlemeye izin verir.
 public FontSettings FontSettings { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bazı formatları yüklerken Aspose.Words'ün yazı tiplerini çözmesi gerekebilir. Örneğin, HTML belgeleri yüklenirken Aspose.Words , yazı tipi geri dönüşünü gerçekleştirmek için yazı tiplerini çözebilir.
 
@@ -22,7 +24,7 @@ Eğer ayarlanmışsa`hükümsüz` , varsayılan statik yazı tipi ayarları[`Def
 
 Varsayılan değer:`hükümsüz`.
 
-### Örnekler
+## Örnekler
 
 Bir belge yüklenirken yazı tipi değiştirme ayarlarının nasıl uygulanacağını gösterir.
 
@@ -69,7 +71,5 @@ doc.Save(ArtifactsDir + "FontSettings.ResolveFontsBeforeLoadingDocument.pdf");
 
 * class [FontSettings](../../../aspose.words.fonts/fontsettings/)
 * class [LoadOptions](../)
-* ad alanı [Aspose.Words.Loading](../../loadoptions/)
+* ad alanı [Aspose.Words.Loading](../../../aspose.words.loading/)
 * toplantı [Aspose.Words](../../../)
-
-

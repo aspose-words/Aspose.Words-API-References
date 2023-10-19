@@ -1,7 +1,9 @@
 ---
-title: Class Chart
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.Charts.Chart sınıf. Grafik şekli özelliklerine erişim sağlar.
+title: Chart Class
+linktitle: Chart
+articleTitle: Chart
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.Charts.Chart sınıf. Grafik şekli özelliklerine erişim sağlar C#'da.
 type: docs
 weight: 620
 url: /tr/net/aspose.words.drawing.charts/chart/
@@ -29,7 +31,7 @@ public class Chart
 | [SourceFullName](../../aspose.words.drawing.charts/chart/sourcefullname/) { get; set; } | Bu grafiğin bağlı olduğu xls/xlsx dosyasının yolunu ve adını alır. |
 | [Title](../../aspose.words.drawing.charts/chart/title/) { get; } | Grafik başlığı özelliklerine erişim sağlar. |
 
-### Örnekler
+## Örnekler
 
 Grafiğin nasıl ekleneceğini ve başlığın nasıl ayarlanacağını gösterir.
 
@@ -58,5 +60,3 @@ doc.Save(ArtifactsDir + "Charts.ChartTitle.docx");
 
 * ad alanı [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../)
-
-

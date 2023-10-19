@@ -1,7 +1,9 @@
 ---
 title: VbaModule.SourceCode
-second_title: Aspose.Words for .NET API Referansı
-description: VbaModule mülk. VBA proje modülü kaynak kodunu alır veya ayarlar.
+linktitle: SourceCode
+articleTitle: SourceCode
+second_title: Aspose.Words for .NET
+description: VbaModule SourceCode mülk. VBA proje modülü kaynak kodunu alır veya ayarlar C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.vba/vbamodule/sourcecode/
@@ -14,7 +16,7 @@ VBA proje modülü kaynak kodunu alır veya ayarlar.
 public string SourceCode { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Makroları kullanarak bir VBA projesinin nasıl oluşturulacağını gösterir.
 
@@ -67,7 +69,5 @@ vbaModules.Remove(vbaModules[2]);
 ### Ayrıca bakınız
 
 * class [VbaModule](../)
-* ad alanı [Aspose.Words.Vba](../../vbamodule/)
+* ad alanı [Aspose.Words.Vba](../../../aspose.words.vba/)
 * toplantı [Aspose.Words](../../../)
-
-

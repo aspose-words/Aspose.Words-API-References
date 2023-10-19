@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.LeftIndent
-second_title: Aspose.Words for .NET API Referansı
-description: ParagraphFormat mülk. Paragrafın sol girintisini temsil eden değeri puan cinsinden alır veya ayarlar.
+linktitle: LeftIndent
+articleTitle: LeftIndent
+second_title: Aspose.Words for .NET
+description: ParagraphFormat LeftIndent mülk. Paragrafın sol girintisini temsil eden değeri puan cinsinden alır veya ayarlar C#'da.
 type: docs
 weight: 180
 url: /tr/net/aspose.words/paragraphformat/leftindent/
@@ -14,7 +16,7 @@ Paragrafın sol girintisini temsil eden değeri (puan cinsinden) alır veya ayar
 public double LeftIndent { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Merkezin dışında metin oluşturmak için paragraf formatının nasıl yapılandırılacağını gösterir.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.SetParagraphFormatting.docx");
 ### Ayrıca bakınız
 
 * class [ParagraphFormat](../)
-* ad alanı [Aspose.Words](../../paragraphformat/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

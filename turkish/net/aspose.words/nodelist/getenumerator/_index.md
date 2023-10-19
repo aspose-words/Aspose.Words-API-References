@@ -1,7 +1,9 @@
 ---
 title: NodeList.GetEnumerator
-second_title: Aspose.Words for .NET API Referansı
-description: NodeList yöntem. Düğümlerin koleksiyonu üzerinde basit bir foreach stili yinelemesi sağlar.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words for .NET
+description: NodeList GetEnumerator yöntem. Düğümlerin koleksiyonu üzerinde basit bir foreach stili yinelemesi sağlar C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/nodelist/getenumerator/
@@ -18,7 +20,7 @@ public IEnumerator<Node> GetEnumerator()
 
 Bir IEnumerator.
 
-### Örnekler
+## Örnekler
 
 XPath ifadesini kullanarak belirli düğümlerin nasıl seçileceğini gösterir.
 
@@ -52,7 +54,5 @@ Assert.AreEqual(typeof(Paragraph), node.GetType());
 
 * class [Node](../../node/)
 * class [NodeList](../)
-* ad alanı [Aspose.Words](../../nodelist/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FileFontSource.FilePath
-second_title: Aspose.Words for .NET API Referansı
-description: FileFontSource mülk. Yazı tipi dosyasının yolu.
+linktitle: FilePath
+articleTitle: FilePath
+second_title: Aspose.Words for .NET
+description: FileFontSource FilePath mülk. Yazı tipi dosyasının yolu C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fonts/filefontsource/filepath/
@@ -14,7 +16,7 @@ Yazı tipi dosyasının yolu.
 public string FilePath { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Yerel dosya sistemindeki bir yazı tipi dosyasının yazı tipi kaynağı olarak nasıl kullanılacağını gösterir.
 
@@ -33,7 +35,5 @@ Assert.AreEqual(0, fileFontSource.Priority);
 ### Ayrıca bakınız
 
 * class [FileFontSource](../)
-* ad alanı [Aspose.Words.Fonts](../../filefontsource/)
+* ad alanı [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../../)
-
-

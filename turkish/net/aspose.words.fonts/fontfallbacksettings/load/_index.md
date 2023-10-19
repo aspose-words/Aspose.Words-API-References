@@ -1,12 +1,14 @@
 ---
 title: FontFallbackSettings.Load
-second_title: Aspose.Words for .NET API Referansı
-description: FontFallbackSettings yöntem. XML dosyasından yazı tipi yedek ayarlarını yükler.
+linktitle: Load
+articleTitle: Load
+second_title: Aspose.Words for .NET
+description: FontFallbackSettings Load yöntem. XML dosyasından yazı tipi yedek ayarlarını yükler C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fonts/fontfallbacksettings/load/
 ---
-## Load(string) {#load_1}
+## Load(*string*) {#load_1}
 
 XML dosyasından yazı tipi yedek ayarlarını yükler.
 
@@ -18,7 +20,7 @@ public void Load(string fileName)
 | --- | --- | --- |
 | fileName | String | Dosya adını girin. |
 
-### Örnekler
+## Örnekler
 
 Yazı tipi geri dönüş ayarlarının yerel dosya sistemindeki bir XML belgesine/bir XML belgesinden nasıl yükleneceğini ve kaydedileceğini gösterir.
 
@@ -39,12 +41,12 @@ doc.FontSettings.FallbackSettings.Save(ArtifactsDir + "FallbackSettings.xml");
 ### Ayrıca bakınız
 
 * class [FontFallbackSettings](../)
-* ad alanı [Aspose.Words.Fonts](../../fontfallbacksettings/)
+* ad alanı [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## Load(Stream) {#load}
+## Load(*Stream*) {#load}
 
 XML akışından geri dönüş ayarlarını yükler.
 
@@ -56,7 +58,7 @@ public void Load(Stream stream)
 | --- | --- | --- |
 | stream | Stream | Giriş akışı. |
 
-### Örnekler
+## Örnekler
 
 Yazı tipi geri dönüş ayarlarının bir akışa nasıl yüklenip kaydedileceğini gösterir.
 
@@ -85,7 +87,5 @@ using (FileStream fontFallbackStream =
 ### Ayrıca bakınız
 
 * class [FontFallbackSettings](../)
-* ad alanı [Aspose.Words.Fonts](../../fontfallbacksettings/)
+* ad alanı [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../../)
-
-

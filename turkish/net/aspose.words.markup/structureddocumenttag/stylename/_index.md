@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTag.StyleName
-second_title: Aspose.Words for .NET API Referansı
-description: StructuredDocumentTag mülk. Yapılandırılmış belge etiketine uygulanan stilin adını alır veya ayarlar.
+linktitle: StyleName
+articleTitle: StyleName
+second_title: Aspose.Words for .NET
+description: StructuredDocumentTag StyleName mülk. Yapılandırılmış belge etiketine uygulanan stilin adını alır veya ayarlar C#'da.
 type: docs
 weight: 270
 url: /tr/net/aspose.words.markup/structureddocumenttag/stylename/
@@ -14,7 +16,7 @@ Yapılandırılmış belge etiketine uygulanan stilin adını alır veya ayarlar
 public string StyleName { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 İçerik kontrol öğelerine ilişkin stillerle nasıl çalışılacağını gösterir.
 
@@ -53,7 +55,5 @@ foreach (Node node in tags)
 ### Ayrıca bakınız
 
 * class [StructuredDocumentTag](../)
-* ad alanı [Aspose.Words.Markup](../../structureddocumenttag/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

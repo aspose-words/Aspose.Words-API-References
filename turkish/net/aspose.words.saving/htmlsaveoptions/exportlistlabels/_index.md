@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportListLabels
-second_title: Aspose.Words for .NET API Referansı
-description: HtmlSaveOptions mülk. Liste etiketlerinin HTML MHTML veya EPUBa nasıl aktarılacağını kontrol eder. Varsayılan değerAuto .
+linktitle: ExportListLabels
+articleTitle: ExportListLabels
+second_title: Aspose.Words for .NET
+description: HtmlSaveOptions ExportListLabels mülk. Liste etiketlerinin HTML MHTML veya EPUBa nasıl aktarılacağını kontrol eder. Varsayılan değerAuto  C#'da.
 type: docs
 weight: 190
 url: /tr/net/aspose.words.saving/htmlsaveoptions/exportlistlabels/
@@ -14,7 +16,7 @@ Liste etiketlerinin HTML, MHTML veya EPUB'a nasıl aktarılacağını kontrol ed
 public ExportListLabels ExportListLabels { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Listeyi HTML'ye aktarmanın nasıl yapılandırılacağını gösterir.
 
@@ -101,7 +103,5 @@ switch (exportListLabels)
 
 * enum [ExportListLabels](../../exportlistlabels/)
 * class [HtmlSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../htmlsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

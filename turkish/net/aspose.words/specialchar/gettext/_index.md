@@ -1,7 +1,9 @@
 ---
 title: SpecialChar.GetText
-second_title: Aspose.Words for .NET API Referansı
-description: SpecialChar yöntem. Bu düğümün temsil ettiği özel karakteri alır.
+linktitle: GetText
+articleTitle: GetText
+second_title: Aspose.Words for .NET
+description: SpecialChar GetText yöntem. Bu düğümün temsil ettiği özel karakteri alır C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/specialchar/gettext/
@@ -21,7 +23,5 @@ Bu düğümün temsil ettiği karakteri içeren dize.
 ### Ayrıca bakınız
 
 * class [SpecialChar](../)
-* ad alanı [Aspose.Words](../../specialchar/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Comment.Done
-second_title: Aspose.Words for .NET API Referansı
-description: Comment mülk. Yorumun tamamlandı olarak işaretlendiğini belirten bayrağı alır veya ayarlar.
+linktitle: Done
+articleTitle: Done
+second_title: Aspose.Words for .NET
+description: Comment Done mülk. Yorumun tamamlandı olarak işaretlendiğini belirten bayrağı alır veya ayarlar C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words/comment/done/
@@ -14,7 +16,7 @@ Yorumun tamamlandı olarak işaretlendiğini belirten bayrağı alır veya ayarl
 public bool Done { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir yorumun nasıl "tamamlandı" olarak işaretleneceğini gösterir.
 
@@ -204,7 +206,5 @@ public class CommentInfoPrinter : DocumentVisitor
 ### Ayrıca bakınız
 
 * class [Comment](../)
-* ad alanı [Aspose.Words](../../comment/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

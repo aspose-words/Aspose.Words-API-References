@@ -1,7 +1,9 @@
 ---
 title: Theme.Colors
-second_title: Aspose.Words for .NET API Referansı
-description: Theme mülk. Belge için tema renkleri kümesini belirlemeye olanak tanır.
+linktitle: Colors
+articleTitle: Colors
+second_title: Aspose.Words for .NET
+description: Theme Colors mülk. Belge için tema renkleri kümesini belirlemeye olanak tanır C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.themes/theme/colors/
@@ -14,7 +16,7 @@ Belge için tema renkleri kümesini belirlemeye olanak tanır.
 public ThemeColors Colors { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Temalar için özel renklerin ve yazı tiplerinin nasıl ayarlanacağını gösterir.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 
 * class [ThemeColors](../../themecolors/)
 * class [Theme](../)
-* ad alanı [Aspose.Words.Themes](../../theme/)
+* ad alanı [Aspose.Words.Themes](../../../aspose.words.themes/)
 * toplantı [Aspose.Words](../../../)
-
-

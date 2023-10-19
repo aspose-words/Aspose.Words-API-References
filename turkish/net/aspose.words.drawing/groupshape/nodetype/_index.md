@@ -1,7 +1,9 @@
 ---
 title: GroupShape.NodeType
-second_title: Aspose.Words for .NET API Referansı
-description: GroupShape mülk. İadelerGroupShape .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words for .NET
+description: GroupShape NodeType mülk. İadelerGroupShape  C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.drawing/groupshape/nodetype/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.drawing/groupshape/nodetype/
 public override NodeType NodeType { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bileşik bir düğümün alt düğüm ağacında nasıl gezinileceğini gösterir.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [GroupShape](../)
-* ad alanı [Aspose.Words.Drawing](../../groupshape/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

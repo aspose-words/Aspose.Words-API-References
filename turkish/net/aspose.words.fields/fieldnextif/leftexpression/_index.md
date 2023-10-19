@@ -1,7 +1,9 @@
 ---
 title: FieldNextIf.LeftExpression
-second_title: Aspose.Words for .NET API Referansı
-description: FieldNextIf mülk. Karşılaştırma ifadesinin sol kısmını alır veya ayarlar.
+linktitle: LeftExpression
+articleTitle: LeftExpression
+second_title: Aspose.Words for .NET
+description: FieldNextIf LeftExpression mülk. Karşılaştırma ifadesinin sol kısmını alır veya ayarlar C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fields/fieldnextif/leftexpression/
@@ -14,7 +16,7 @@ Karşılaştırma ifadesinin sol kısmını alır veya ayarlar.
 public string LeftExpression { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Adres-mektup birleştirme sırasında birden çok satırı tek sayfada birleştirmek için NEXT/NEXTIF alanlarının nasıl kullanılacağını gösterir.
 
@@ -96,7 +98,5 @@ public void InsertMergeField(DocumentBuilder builder, string fieldName, string t
 ### Ayrıca bakınız
 
 * class [FieldNextIf](../)
-* ad alanı [Aspose.Words.Fields](../../fieldnextif/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class ListCollection
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Lists.ListCollection sınıf. Bir belgede kullanılan madde işaretli ve numaralı listelerin biçimlendirmesini saklar ve yönetir.
+title: ListCollection Class
+linktitle: ListCollection
+articleTitle: ListCollection
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Lists.ListCollection sınıf. Bir belgede kullanılan madde işaretli ve numaralı listelerin biçimlendirmesini saklar ve yönetir C#'da.
 type: docs
 weight: 3470
 url: /tr/net/aspose.words.lists/listcollection/
@@ -28,13 +30,13 @@ public class ListCollection : IEnumerable<List>
 
 | İsim | Tanım |
 | --- | --- |
-| [Add](../../aspose.words.lists/listcollection/add/#add)(ListTemplate) | Önceden tanımlanmış bir şablonu temel alarak yeni bir liste oluşturur ve bunu belgedeki liste koleksiyonuna ekler. |
-| [Add](../../aspose.words.lists/listcollection/add/#add_1)(Style) | Bir liste stiline başvuran yeni bir liste oluşturur ve bunu belgedeki liste koleksiyonuna ekler. |
-| [AddCopy](../../aspose.words.lists/listcollection/addcopy/)(List) | Belirtilen listeyi kopyalayıp belgedeki listeler koleksiyonuna ekleyerek yeni bir liste oluşturur. |
+| [Add](../../aspose.words.lists/listcollection/add/#add)(*[ListTemplate](../listtemplate/)*) | Önceden tanımlanmış bir şablonu temel alarak yeni bir liste oluşturur ve bunu belgedeki liste koleksiyonuna ekler. |
+| [Add](../../aspose.words.lists/listcollection/add/#add_1)(*[Style](../../aspose.words/style/)*) | Bir liste stiline başvuran yeni bir liste oluşturur ve bunu belgedeki liste koleksiyonuna ekler. |
+| [AddCopy](../../aspose.words.lists/listcollection/addcopy/)(*[List](../list/)*) | Belirtilen listeyi kopyalayıp belgedeki listeler koleksiyonuna ekleyerek yeni bir liste oluşturur. |
 | [GetEnumerator](../../aspose.words.lists/listcollection/getenumerator/)() | Belgedeki listeleri numaralandıracak numaralandırıcı nesnesini alır. |
-| [GetListByListId](../../aspose.words.lists/listcollection/getlistbylistid/)(int) | Liste tanımlayıcısına göre bir liste alır. |
+| [GetListByListId](../../aspose.words.lists/listcollection/getlistbylistid/)(*int*) | Liste tanımlayıcısına göre bir liste alır. |
 
-### Notlar
+## Notlar
 
 Microsoft Word belgesindeki liste, bir dizi liste biçimlendirme özelliğidir. Listelerin biçimlendirmesi,`ListCollection` metin paragraflarından ayrı olarak koleksiyonu.
 
@@ -54,7 +56,7 @@ Programlama modelini basitleştirmek için Aspose.Words, list ve list tanımı a
 
 Aspose.Words'ün mevcut sürümünde listeler oluşturulduktan sonra listeleri silmek mümkün değildir. Bu, kullanıcının liste tanımları üzerinde açık bir kontrole sahip olmadığı Microsoft Word'e benzer.
 
-### Örnekler
+## Örnekler
 
 Başka bir belgedeki tüm listelerin bir örneğini içeren bir belgenin nasıl oluşturulacağını gösterir.
 
@@ -182,5 +184,3 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 * class [List](../list/)
 * ad alanı [Aspose.Words.Lists](../../aspose.words.lists/)
 * toplantı [Aspose.Words](../../)
-
-

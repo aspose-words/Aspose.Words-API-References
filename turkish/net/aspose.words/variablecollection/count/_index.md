@@ -1,7 +1,9 @@
 ---
 title: VariableCollection.Count
-second_title: Aspose.Words for .NET API Referansı
-description: VariableCollection mülk. Koleksiyonda yer alan öğelerin sayısını alır.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words for .NET
+description: VariableCollection Count mülk. Koleksiyonda yer alan öğelerin sayısını alır C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/variablecollection/count/
@@ -14,7 +16,7 @@ Koleksiyonda yer alan öğelerin sayısını alır.
 public int Count { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgenin değişken koleksiyonuyla nasıl çalışılacağını gösterir.
 
@@ -81,7 +83,5 @@ Assert.That(variables, Is.Empty);
 ### Ayrıca bakınız
 
 * class [VariableCollection](../)
-* ad alanı [Aspose.Words](../../variablecollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

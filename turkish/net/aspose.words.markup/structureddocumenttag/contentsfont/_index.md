@@ -1,20 +1,22 @@
 ---
 title: StructuredDocumentTag.ContentsFont
-second_title: Aspose.Words for .NET API Referansı
-description: StructuredDocumentTag mülk. Girilen metne uygulanacak yazı tipi formatı SDT .
+linktitle: ContentsFont
+articleTitle: ContentsFont
+second_title: Aspose.Words for .NET
+description: StructuredDocumentTag ContentsFont mülk. Girilen metne uygulanacak yazı tipi formatıSDT  C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words.markup/structureddocumenttag/contentsfont/
 ---
 ## StructuredDocumentTag.ContentsFont property
 
-Girilen metne uygulanacak yazı tipi formatı **SDT** .
+Girilen metne uygulanacak yazı tipi formatı**SDT** .
 
 ```csharp
 public Font ContentsFont { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Düz metin kutusunda yapılandırılmış belge etiketinin nasıl oluşturulacağını ve görünümünün nasıl değiştirileceğini gösterir.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");
 
 * class [Font](../../../aspose.words/font/)
 * class [StructuredDocumentTag](../)
-* ad alanı [Aspose.Words.Markup](../../structureddocumenttag/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

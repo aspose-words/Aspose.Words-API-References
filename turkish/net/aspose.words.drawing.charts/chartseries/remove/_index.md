@@ -1,9 +1,11 @@
 ---
 title: ChartSeries.Remove
-second_title: Aspose.Words for .NET API Referansı
-description: ChartSeries yöntem. Belirtilen dizindeki grafik serisinden X değerini Y değerini ve kabarcık boyutunu destekleniyorsa kaldırır. İlgili veri noktası ve veri etiketi de kaldırılır.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words for .NET
+description: ChartSeries Remove yöntem. Belirtilen dizindeki grafik serisinden X değerini Y değerini ve kabarcık boyutunu destekleniyorsa kaldırır. İlgili veri noktası ve veri etiketi de kaldırılır C#'da.
 type: docs
-weight: 210
+weight: 200
 url: /tr/net/aspose.words.drawing.charts/chartseries/remove/
 ---
 ## ChartSeries.Remove method
@@ -14,7 +16,7 @@ Belirtilen dizindeki grafik serisinden X değerini, Y değerini ve kabarcık boy
 public void Remove(int index)
 ```
 
-### Örnekler
+## Örnekler
 
 Grafik veri değerlerinin nasıl ekleneceğini/kaldırılacağını gösterir.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "Charts.ChartDataValues.docx");
 ### Ayrıca bakınız
 
 * class [ChartSeries](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartseries/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

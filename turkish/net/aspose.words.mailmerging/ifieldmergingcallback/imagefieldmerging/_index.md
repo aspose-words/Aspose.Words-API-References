@@ -1,7 +1,9 @@
 ---
 title: IFieldMergingCallback.ImageFieldMerging
-second_title: Aspose.Words for .NET API Referansı
-description: IFieldMergingCallback yöntem. Aspose.Words adresmektup birleştirme motoru birleştirme alanına bir resim eklemek üzereyken çağrılır.
+linktitle: ImageFieldMerging
+articleTitle: ImageFieldMerging
+second_title: Aspose.Words for .NET
+description: IFieldMergingCallback ImageFieldMerging yöntem. Aspose.Words adresmektup birleştirme motoru birleştirme alanına bir resim eklemek üzereyken çağrılır C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.mailmerging/ifieldmergingcallback/imagefieldmerging/
@@ -14,7 +16,7 @@ Aspose.Words adres-mektup birleştirme motoru birleştirme alanına bir resim ek
 public void ImageFieldMerging(ImageFieldMergingArgs args)
 ```
 
-### Örnekler
+## Örnekler
 
 Veritabanı BLOB alanında saklanan görüntülerin bir rapora nasıl ekleneceğini gösterir.
 
@@ -64,7 +66,5 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 
 * class [ImageFieldMergingArgs](../../imagefieldmergingargs/)
 * interface [IFieldMergingCallback](../)
-* ad alanı [Aspose.Words.MailMerging](../../ifieldmergingcallback/)
+* ad alanı [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.PushFont
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentBuilder yöntem. Geçerli karakter formatını yığına kaydeder.
+linktitle: PushFont
+articleTitle: PushFont
+second_title: Aspose.Words for .NET
+description: DocumentBuilder PushFont yöntem. Geçerli karakter formatını yığına kaydeder C#'da.
 type: docs
-weight: 610
+weight: 600
 url: /tr/net/aspose.words/documentbuilder/pushfont/
 ---
 ## DocumentBuilder.PushFont method
@@ -14,7 +16,7 @@ Geçerli karakter formatını yığına kaydeder.
 public void PushFont()
 ```
 
-### Örnekler
+## Örnekler
 
 Belge oluşturucunun biçimlendirme yığınının nasıl kullanılacağını gösterir.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.PushPopFont.docx");
 * property [Font](../font/)
 * method [PopFont](../popfont/)
 * class [DocumentBuilder](../)
-* ad alanı [Aspose.Words](../../documentbuilder/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

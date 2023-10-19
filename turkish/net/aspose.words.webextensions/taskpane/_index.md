@@ -1,7 +1,9 @@
 ---
-title: Class TaskPane
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.WebExtensions.TaskPane sınıf. Eklenti görev bölmesi nesnesini temsil eder.
+title: TaskPane Class
+linktitle: TaskPane
+articleTitle: TaskPane
+second_title: Aspose.Words for .NET
+description: Aspose.Words.WebExtensions.TaskPane sınıf. Eklenti görev bölmesi nesnesini temsil eder C#'da.
 type: docs
 weight: 6710
 url: /tr/net/aspose.words.webextensions/taskpane/
@@ -33,7 +35,7 @@ public class TaskPane
 | [WebExtension](../../aspose.words.webextensions/taskpane/webextension/) { get; } | Bir web uzantısı nesnesini temsil eder. |
 | [Width](../../aspose.words.webextensions/taskpane/width/) { get; set; } | Bu görev bölmesi örneği için varsayılan genişlik değerini belirtir. |
 
-### Örnekler
+## Örnekler
 
 Bir belgeye nasıl web uzantısı ekleneceğini gösterir.
 
@@ -79,5 +81,3 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * ad alanı [Aspose.Words.WebExtensions](../../aspose.words.webextensions/)
 * toplantı [Aspose.Words](../../)
-
-

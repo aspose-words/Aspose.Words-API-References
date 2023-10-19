@@ -1,7 +1,9 @@
 ---
-title: Footnote.Footnote
-second_title: Aspose.Words for .NET API Referansı
-description: Footnote inşaatçı. Bir örneğini başlatırFootnote class.
+title: Footnote
+linktitle: Footnote
+articleTitle: Footnote
+second_title: Aspose.Words for .NET
+description: Footnote inşaatçı. Bir örneğini başlatırFootnote class C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.notes/footnote/footnote/
@@ -19,13 +21,13 @@ public Footnote(DocumentBase doc, FootnoteType footnoteType)
 | doc | DocumentBase | Sahibi belgesi. |
 | footnoteType | FootnoteType | A[`FootnoteType`](../footnotetype/) value bunun dipnot mu yoksa son not mu olduğunu belirtir. |
 
-### Notlar
+## Notlar
 
 Ne zaman[`Footnote`](../) oluşturulduysa, belirtilen belgeye aittir ancak henüz değildir ve belgenin bir parçası değildir ve[`ParentNode`](../../../aspose.words/node/parentnode/) dır-dir`hükümsüz`.
 
-Eklemek[`Footnote`](../) belge kullanımınaNode) veyaNode) Dipnotun eklenmesini istediğiniz paragrafta .
+Eklemek[`Footnote`](../) belge kullanımına[`InsertAfter`](../../../aspose.words/compositenode/insertafter/) veya[`InsertBefore`](../../../aspose.words/compositenode/insertbefore/) Dipnotun eklenmesini istediğiniz paragrafta .
 
-### Örnekler
+## Örnekler
 
 Dipnotların nasıl ekleneceğini ve özelleştirileceğini gösterir.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "InlineStory.AddFootnote.docx");
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * enum [FootnoteType](../../footnotetype/)
 * class [Footnote](../)
-* ad alanı [Aspose.Words.Notes](../../footnote/)
+* ad alanı [Aspose.Words.Notes](../../../aspose.words.notes/)
 * toplantı [Aspose.Words](../../../)
-
-

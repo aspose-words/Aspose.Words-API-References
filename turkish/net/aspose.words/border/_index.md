@@ -1,7 +1,9 @@
 ---
-title: Class Border
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Border sınıf. Bir nesnenin kenarlığını temsil eder.
+title: Border Class
+linktitle: Border
+articleTitle: Border
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Border sınıf. Bir nesnenin kenarlığını temsil eder C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words/border/
@@ -34,15 +36,15 @@ public class Border : InternableComplexAttr
 | İsim | Tanım |
 | --- | --- |
 | [ClearFormatting](../../aspose.words/border/clearformatting/)() | Kenarlık özelliklerini varsayılan değerlere sıfırlar. |
-| [Equals](../../aspose.words/border/equals/#equals)(Border) | Belirtilen kenarlığın değer olarak geçerli kenarlığa eşit olup olmadığını belirler. |
-| override [Equals](../../aspose.words/border/equals/#equals_1)(object) | Belirtilen nesnenin değer olarak geçerli nesneye eşit olup olmadığını belirler. |
+| [Equals](../../aspose.words/border/equals/#equals)(*Border*) | Belirtilen kenarlığın değer olarak geçerli kenarlığa eşit olup olmadığını belirler. |
+| override [Equals](../../aspose.words/border/equals/#equals_1)(*object*) | Belirtilen nesnenin değer olarak geçerli nesneye eşit olup olmadığını belirler. |
 | override [GetHashCode](../../aspose.words/border/gethashcode/)() | Bu tür için karma işlevi görevi görür. |
 
-### Notlar
+## Notlar
 
 Kenarlıklar, paragraf, paragraf veya tablo hücresi içindeki metin dizisi dahil olmak üzere çeşitli belge öğelerine uygulanabilir.
 
-### Örnekler
+## Örnekler
 
 Kenarlıkla çevrelenmiş bir dizenin belgeye nasıl ekleneceğini gösterir.
 
@@ -82,5 +84,3 @@ doc.Save(ArtifactsDir + "Border.ParagraphTopBorder.docx");
 * class [InternableComplexAttr](../internablecomplexattr/)
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

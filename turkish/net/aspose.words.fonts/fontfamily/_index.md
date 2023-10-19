@@ -1,7 +1,9 @@
 ---
-title: Enum FontFamily
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Fonts.FontFamily Sıralama. Yazı tipi ailesini temsil eder.
+title: FontFamily Enum
+linktitle: FontFamily
+articleTitle: FontFamily
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Fonts.FontFamily Sıralama. Yazı tipi ailesini temsil eder C#'da.
 type: docs
 weight: 2910
 url: /tr/net/aspose.words.fonts/fontfamily/
@@ -25,11 +27,11 @@ public enum FontFamily
 | Script | `4` | El yazısına benzeyecek şekilde tasarlanmış bir yazı tipini belirtir; örnekler arasında Komut Dosyası ve El Yazısı bulunur. |
 | Decorative | `5` | Yenilikçi bir yazı tipini belirtir. Bir örnek Eski İngilizcedir. |
 
-### Notlar
+## Notlar
 
 Yazı tipi ailesi, ortak çizgi genişliğine ve serif özelliklerine sahip bir yazı tipi kümesidir.
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki her yazı tipinin ayrıntılarına nasıl erişileceğini ve yazdırılacağını gösterir.
 
@@ -69,5 +71,3 @@ while (fontCollectionEnumerator.MoveNext())
 
 * ad alanı [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../)
-
-

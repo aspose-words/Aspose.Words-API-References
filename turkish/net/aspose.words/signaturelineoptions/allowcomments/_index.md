@@ -1,7 +1,9 @@
 ---
 title: SignatureLineOptions.AllowComments
-second_title: Aspose.Words for .NET API Referansı
-description: SignatureLineOptions mülk. İmzalayanın İmza iletişim kutusuna yorum ekleyebileceğini belirten bir değer alır veya ayarlar. Bu özelliğin varsayılan değeriYANLIŞ .
+linktitle: AllowComments
+articleTitle: AllowComments
+second_title: Aspose.Words for .NET
+description: SignatureLineOptions AllowComments mülk. İmzalayanın İmza iletişim kutusuna yorum ekleyebileceğini belirten bir değer alır veya ayarlar. Bu özelliğin varsayılan değeriYANLIŞ  C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/signaturelineoptions/allowcomments/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words/signaturelineoptions/allowcomments/
 public bool AllowComments { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Kişisel sertifika ve imza satırı içeren bir belgenin nasıl imzalanacağını gösterir.
 
@@ -67,7 +69,5 @@ Assert.True(signatureLine.IsValid);
 ### Ayrıca bakınız
 
 * class [SignatureLineOptions](../)
-* ad alanı [Aspose.Words](../../signaturelineoptions/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

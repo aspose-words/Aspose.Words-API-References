@@ -1,9 +1,11 @@
 ---
 title: Document.Unprotect
-second_title: Aspose.Words for .NET API Referansı
-description: Document yöntem. Paroladan bağımsız olarak belgedeki korumayı kaldırır.
+linktitle: Unprotect
+articleTitle: Unprotect
+second_title: Aspose.Words for .NET
+description: Document Unprotect yöntem. Paroladan bağımsız olarak belgedeki korumayı kaldırır C#'da.
 type: docs
-weight: 760
+weight: 740
 url: /tr/net/aspose.words/document/unprotect/
 ---
 ## Unprotect() {#unprotect_1}
@@ -14,13 +16,13 @@ Paroladan bağımsız olarak belgedeki korumayı kaldırır.
 public void Unprotect()
 ```
 
-### Notlar
+## Notlar
 
 Bu yöntem, koruma parolası olsa bile belgenin korumasını kaldırır.
 
 Belge korumasının yazma korumasından farklı olduğunu unutmayın. Yazma koruması,[`WriteProtection`](../writeprotection/).
 
-### Örnekler
+## Örnekler
 
 Bir belgenin nasıl korunacağını ve korumasının nasıl kaldırılacağını gösterir.
 
@@ -65,12 +67,12 @@ Assert.AreEqual(ProtectionType.NoProtection, doc.ProtectionType);
 ### Ayrıca bakınız
 
 * class [Document](../)
-* ad alanı [Aspose.Words](../../document/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## Unprotect(string) {#unprotect}
+## Unprotect(*string*) {#unprotect}
 
 Doğru parola belirtilirse belgedeki korumayı kaldırır.
 
@@ -86,13 +88,13 @@ public bool Unprotect(string password)
 
 `doğru` doğru bir parola belirtildiyse ve belge korumasızsa.
 
-### Notlar
+## Notlar
 
 Bu yöntem yalnızca doğru parola belirtildiğinde belgenin korumasını kaldırır.
 
 Belge korumasının yazma korumasından farklı olduğunu unutmayın. Yazma koruması,[`WriteProtection`](../writeprotection/).
 
-### Örnekler
+## Örnekler
 
 Bir belgenin nasıl korunacağını ve korumasının nasıl kaldırılacağını gösterir.
 
@@ -137,7 +139,5 @@ Assert.AreEqual(ProtectionType.NoProtection, doc.ProtectionType);
 ### Ayrıca bakınız
 
 * class [Document](../)
-* ad alanı [Aspose.Words](../../document/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

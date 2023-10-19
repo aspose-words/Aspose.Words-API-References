@@ -1,7 +1,9 @@
 ---
 title: FormField.Enabled
-second_title: Aspose.Words for .NET API Referansı
-description: FormField mülk. Form alanı etkinleştirilmişse doğrudur.
+linktitle: Enabled
+articleTitle: Enabled
+second_title: Aspose.Words for .NET
+description: FormField Enabled mülk. Form alanı etkinleştirilmişse doğrudur C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.fields/formfield/enabled/
@@ -14,11 +16,11 @@ Form alanı etkinleştirilmişse doğrudur.
 public bool Enabled { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bir form alanı etkinleştirilmişse, form doldurulurken içeriği değiştirilebilir.
 
-### Örnekler
+## Örnekler
 
 Bir belgeye farklı türde form alanlarının nasıl eklendiğini ve bunların bir belge ziyaretçi uygulaması kullanılarak nasıl işlendiğini gösterir.
 
@@ -152,7 +154,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Ayrıca bakınız
 
 * class [FormField](../)
-* ad alanı [Aspose.Words.Fields](../../formfield/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

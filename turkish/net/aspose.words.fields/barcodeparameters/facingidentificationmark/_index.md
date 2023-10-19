@@ -1,7 +1,9 @@
 ---
 title: BarcodeParameters.FacingIdentificationMark
-second_title: Aspose.Words for .NET API Referansı
-description: BarcodeParameters mülk. Karşılıklı Tanımlama İşaretinin FIM Türü.
+linktitle: FacingIdentificationMark
+articleTitle: FacingIdentificationMark
+second_title: Aspose.Words for .NET
+description: BarcodeParameters FacingIdentificationMark mülk. Karşılıklı Tanımlama İşaretinin FIM Türü C#'da.
 type: docs
 weight: 90
 url: /tr/net/aspose.words.fields/barcodeparameters/facingidentificationmark/
@@ -14,7 +16,7 @@ Karşılıklı Tanımlama İşaretinin (FIM) Türü.
 public string FacingIdentificationMark { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Barkod oluşturucunun nasıl kullanılacağını gösterir.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 ### Ayrıca bakınız
 
 * class [BarcodeParameters](../)
-* ad alanı [Aspose.Words.Fields](../../barcodeparameters/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ResourceLoadingArgs.Uri
-second_title: Aspose.Words for .NET API Referansı
-description: ResourceLoadingArgs mülk. İndirmek için kullanılan kaynağın URIsi iseResourceLoading şunu döndürürDefault.
+linktitle: Uri
+articleTitle: Uri
+second_title: Aspose.Words for .NET
+description: ResourceLoadingArgs Uri mülk. İndirmek için kullanılan kaynağın URIsi iseResourceLoading şunu döndürürDefault C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.loading/resourceloadingargs/uri/
@@ -19,7 +21,5 @@ public string Uri { get; set; }
 ### Ayrıca bakınız
 
 * class [ResourceLoadingArgs](../)
-* ad alanı [Aspose.Words.Loading](../../resourceloadingargs/)
+* ad alanı [Aspose.Words.Loading](../../../aspose.words.loading/)
 * toplantı [Aspose.Words](../../../)
-
-

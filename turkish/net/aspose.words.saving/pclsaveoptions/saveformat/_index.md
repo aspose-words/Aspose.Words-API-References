@@ -1,7 +1,9 @@
 ---
 title: PclSaveOptions.SaveFormat
-second_title: Aspose.Words for .NET API Referansı
-description: PclSaveOptions mülk. Bu kaydetme seçenekleri nesnesi kullanılırsa belgenin kaydedileceği biçimi belirtir. YalnızcaPcl .
+linktitle: SaveFormat
+articleTitle: SaveFormat
+second_title: Aspose.Words for .NET
+description: PclSaveOptions SaveFormat mülk. Bu kaydetme seçenekleri nesnesi kullanılırsa belgenin kaydedileceği biçimi belirtir. YalnızcaPcl  C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.saving/pclsaveoptions/saveformat/
@@ -14,7 +16,7 @@ Bu kaydetme seçenekleri nesnesi kullanılırsa belgenin kaydedileceği biçimi 
 public override SaveFormat SaveFormat { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi PCL'ye kaydederken karmaşık öğelerin nasıl rasterleştirileceğini gösterir.
 
@@ -34,7 +36,5 @@ doc.Save(ArtifactsDir + "PclSaveOptions.RasterizeElements.pcl", saveOptions);
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [PclSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../pclsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

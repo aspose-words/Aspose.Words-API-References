@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.RunSubentriesOnSameLine
-second_title: Aspose.Words for .NET API Referansı
-description: FieldIndex mülk. Alt girişlerin ana girişle aynı satırda çalıştırılıp çalıştırılmayacağını alır veya ayarlar.
+linktitle: RunSubentriesOnSameLine
+articleTitle: RunSubentriesOnSameLine
+second_title: Aspose.Words for .NET
+description: FieldIndex RunSubentriesOnSameLine mülk. Alt girişlerin ana girişle aynı satırda çalıştırılıp çalıştırılmayacağını alır veya ayarlar C#'da.
 type: docs
 weight: 140
 url: /tr/net/aspose.words.fields/fieldindex/runsubentriesonsameline/
@@ -14,7 +16,7 @@ Alt girişlerin ana girişle aynı satırda çalıştırılıp çalıştırılma
 public bool RunSubentriesOnSameLine { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 INDEX alanındaki alt girişlerle nasıl çalışılacağını gösterir.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + $"Field.INDEX.XE.Subheading.docx");
 ### Ayrıca bakınız
 
 * class [FieldIndex](../)
-* ad alanı [Aspose.Words.Fields](../../fieldindex/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

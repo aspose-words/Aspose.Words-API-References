@@ -1,7 +1,9 @@
 ---
 title: Paragraph.Runs
-second_title: Aspose.Words for .NET API Referansı
-description: Paragraph mülk. Paragrafın içinde yazılan metin parçaları koleksiyonuna erişim sağlar.
+linktitle: Runs
+articleTitle: Runs
+second_title: Aspose.Words for .NET
+description: Paragraph Runs mülk. Paragrafın içinde yazılan metin parçaları koleksiyonuna erişim sağlar C#'da.
 type: docs
 weight: 220
 url: /tr/net/aspose.words/paragraph/runs/
@@ -14,7 +16,7 @@ Paragrafın içinde yazılan metin parçaları koleksiyonuna erişim sağlar.
 public RunCollection Runs { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Satır içi düğümün revizyon türünün nasıl belirleneceğini gösterir.
 
@@ -71,7 +73,5 @@ Assert.IsTrue(runs[5].IsDeleteRevision);
 
 * class [RunCollection](../../runcollection/)
 * class [Paragraph](../)
-* ad alanı [Aspose.Words](../../paragraph/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

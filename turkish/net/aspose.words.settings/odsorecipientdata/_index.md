@@ -1,7 +1,9 @@
 ---
-title: Class OdsoRecipientData
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Settings.OdsoRecipientData sınıf. Dış veri kaynağı içindeki adresmektup birleştirmenin dışında tutulacak tek bir kayıt hakkındaki bilgileri temsil eder.
+title: OdsoRecipientData Class
+linktitle: OdsoRecipientData
+articleTitle: OdsoRecipientData
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Settings.OdsoRecipientData sınıf. Dış veri kaynağı içindeki adresmektup birleştirmenin dışında tutulacak tek bir kayıt hakkındaki bilgileri temsil eder C#'da.
 type: docs
 weight: 5930
 url: /tr/net/aspose.words.settings/odsorecipientdata/
@@ -37,11 +39,11 @@ public class OdsoRecipientData
 | --- | --- |
 | [Clone](../../aspose.words.settings/odsorecipientdata/clone/)() | Bu nesnenin derin bir kopyasını döndürür. |
 
-### Notlar
+## Notlar
 
 Bir kaydın birleştirilmiş bir belge halinde birleştirilmesi durumunda o kayda ilişkin herhangi bir bilgiye ihtiyaç duyulmaz. Bununla birlikte, belirli bir kayıt birleştirilmiş bir belgede birleştirilmeyecekse, bu kayıt için benzersiz anahtarının değeri,[`UniqueTag`](./uniquetag/)Bu hariç tutmayı belirtmek için bu nesnenin özelliği.
 
-### Örnekler
+## Örnekler
 
 Adres-mektup birleştirmenin hangi birleştirme veri kaynağı kayıtlarını hariç tutacağını belirleyen veri koleksiyonuna nasıl erişileceğini gösterir.
 
@@ -82,5 +84,3 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * ad alanı [Aspose.Words.Settings](../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../)
-
-

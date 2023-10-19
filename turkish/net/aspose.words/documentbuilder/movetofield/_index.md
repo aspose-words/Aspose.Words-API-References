@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.MoveToField
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentBuilder yöntem. İmleci belgedeki bir alana taşır.
+linktitle: MoveToField
+articleTitle: MoveToField
+second_title: Aspose.Words for .NET
+description: DocumentBuilder MoveToField yöntem. İmleci belgedeki bir alana taşır C#'da.
 type: docs
-weight: 540
+weight: 530
 url: /tr/net/aspose.words/documentbuilder/movetofield/
 ---
 ## DocumentBuilder.MoveToField method
@@ -19,7 +21,7 @@ public void MoveToField(Field field, bool isAfter)
 | field | Field | İmlecin taşınacağı alan. |
 | isAfter | Boolean | Ne zaman`doğru` , imleci alanın sonundan sonraya taşır. Ne zaman`YANLIŞ`, imleci alan başlangıcından önce olacak şekilde hareket ettirir. |
 
-### Örnekler
+## Örnekler
 
 Belge oluşturucunun düğüm ekleme noktası imlecinin belirli bir alana nasıl taşınacağını gösterir.
 
@@ -62,7 +64,5 @@ else
 
 * class [Field](../../../aspose.words.fields/field/)
 * class [DocumentBuilder](../)
-* ad alanı [Aspose.Words](../../documentbuilder/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.FontEmbeddingMode
-second_title: Aspose.Words for .NET API Referansı
-description: PdfSaveOptions mülk. Yazı tipi yerleştirme modunu belirtir.
+linktitle: FontEmbeddingMode
+articleTitle: FontEmbeddingMode
+second_title: Aspose.Words for .NET
+description: PdfSaveOptions FontEmbeddingMode mülk. Yazı tipi yerleştirme modunu belirtir C#'da.
 type: docs
 weight: 170
 url: /tr/net/aspose.words.saving/pdfsaveoptions/fontembeddingmode/
@@ -14,7 +16,7 @@ Yazı tipi yerleştirme modunu belirtir.
 public PdfFontEmbeddingMode FontEmbeddingMode { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:EmbedAll.
 
@@ -22,7 +24,7 @@ Bu ayar yalnızca ANSI (Windows-1252) kodlamasındaki metin için çalışır. B
 
 PDF/A ve PDF/UA uyumluluğu tüm yazı tiplerinin gömülmesini gerektirir. EmbedAll to PDF/A ve PDF/UA kaydedilirken değer otomatik olarak kullanılacaktır.
 
-### Örnekler
+## Örnekler
 
 Aspose.Words'ün Arial ve Times New Roman yazı tiplerini bir PDF belgesine yerleştirmeyi atlayacak şekilde nasıl ayarlanacağını gösterir.
 
@@ -68,7 +70,5 @@ switch (pdfFontEmbeddingMode)
 
 * enum [PdfFontEmbeddingMode](../../pdffontembeddingmode/)
 * class [PdfSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../pdfsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

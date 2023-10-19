@@ -1,7 +1,9 @@
 ---
-title: Enum PageLayoutEvent
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Layout.PageLayoutEvent Sıralama. Sayfa düzeni modeli oluşturma ve oluşturma sırasında ortaya çıkan bir olay kodu.
+title: PageLayoutEvent Enum
+linktitle: PageLayoutEvent
+articleTitle: PageLayoutEvent
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Layout.PageLayoutEvent Sıralama. Sayfa düzeni modeli oluşturma ve oluşturma sırasında ortaya çıkan bir olay kodu C#'da.
 type: docs
 weight: 3370
 url: /tr/net/aspose.words.layout/pagelayoutevent/
@@ -35,7 +37,7 @@ public enum PageLayoutEvent
 | PartRenderingStarted | `10` | Sayfanın oluşturulması başladı. Bu, sayfa başına bir kez tetiklenir. |
 | PartRenderingFinished | `11` | Sayfanın oluşturulması tamamlandı. Bu, sayfa başına bir kez tetiklenir. |
 
-### Örnekler
+## Örnekler
 
 Düzen geri çağrısıyla düzen değişikliklerinin nasıl izleneceğini gösterir.
 
@@ -102,5 +104,3 @@ private class RenderPageLayoutCallback : IPageLayoutCallback
 
 * ad alanı [Aspose.Words.Layout](../../aspose.words.layout/)
 * toplantı [Aspose.Words](../../)
-
-

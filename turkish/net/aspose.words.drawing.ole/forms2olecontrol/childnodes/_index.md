@@ -1,7 +1,9 @@
 ---
 title: Forms2OleControl.ChildNodes
-second_title: Aspose.Words for .NET API Referansı
-description: Forms2OleControl mülk. Anlık alt kontrollerin toplanmasını alır.
+linktitle: ChildNodes
+articleTitle: ChildNodes
+second_title: Aspose.Words for .NET
+description: Forms2OleControl ChildNodes mülk. Anlık alt kontrollerin toplanmasını alır C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.drawing.ole/forms2olecontrol/childnodes/
@@ -14,11 +16,11 @@ Anlık alt kontrollerin toplanmasını alır.
 public virtual Forms2OleControlCollection ChildNodes { get; }
 ```
 
-### Notlar
+## Notlar
 
 İadeler`hükümsüz` eğer bu kontrol çocuk sahibi olamazsa.
 
-### Örnekler
+## Örnekler
 
 ActiveX denetiminin özelliklerinin nasıl doğrulanacağını gösterir.
 
@@ -49,7 +51,5 @@ if (oleControl.IsForms2OleControl)
 
 * class [Forms2OleControlCollection](../../forms2olecontrolcollection/)
 * class [Forms2OleControl](../)
-* ad alanı [Aspose.Words.Drawing.Ole](../../forms2olecontrol/)
+* ad alanı [Aspose.Words.Drawing.Ole](../../../aspose.words.drawing.ole/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PdfEncryptionDetails.Permissions
-second_title: Aspose.Words for .NET API Referansı
-description: PdfEncryptionDetails mülk. Şifrelenmiş bir PDF belgesinde kullanıcıya izin verilen işlemleri belirtir. Varsayılan değerDisallowAll .
+linktitle: Permissions
+articleTitle: Permissions
+second_title: Aspose.Words for .NET
+description: PdfEncryptionDetails Permissions mülk. Şifrelenmiş bir PDF belgesinde kullanıcıya izin verilen işlemleri belirtir. Varsayılan değerDisallowAll  C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.saving/pdfencryptiondetails/permissions/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.saving/pdfencryptiondetails/permissions/
 public PdfPermissions Permissions { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Kaydedilmiş bir PDF belgesinde izinlerin nasıl ayarlanacağını gösterir.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.EncryptionPermissions.pdf", saveOptions)
 
 * enum [PdfPermissions](../../pdfpermissions/)
 * class [PdfEncryptionDetails](../)
-* ad alanı [Aspose.Words.Saving](../../pdfencryptiondetails/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

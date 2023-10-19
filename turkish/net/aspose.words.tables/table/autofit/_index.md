@@ -1,9 +1,11 @@
 ---
 title: Table.AutoFit
-second_title: Aspose.Words for .NET API Referansı
-description: Table yöntem. Belirtilen otomatik sığdırma davranışına göre tabloyu ve hücreleri yeniden boyutlandırır.
+linktitle: AutoFit
+articleTitle: AutoFit
+second_title: Aspose.Words for .NET
+description: Table AutoFit yöntem. Belirtilen otomatik sığdırma davranışına göre tabloyu ve hücreleri yeniden boyutlandırır C#'da.
 type: docs
-weight: 380
+weight: 360
 url: /tr/net/aspose.words.tables/table/autofit/
 ---
 ## Table.AutoFit method
@@ -18,11 +20,11 @@ public void AutoFit(AutoFitBehavior behavior)
 | --- | --- | --- |
 | behavior | AutoFitBehavior | Tablonun otomatik olarak nasıl sığdırılacağını belirtir. |
 
-### Notlar
+## Notlar
 
 Bu yöntem, Microsoft Word'deki bir tablo için Otomatik Sığdır menüsünde bulunan komutları taklit eder. Kullanılabilir komutlar şunlardır: "İçeriğe Otomatik Sığdır", "Pencereye Otomatik Sığdır" ve "Sabit Sütun Genişliği". Microsoft Word 'de bu komutlar ilgili tablo özelliklerini ayarlar ve ardından tablo düzenini günceller; Aspose.Words da aynısını sizin için yapar.
 
-### Örnekler
+## Örnekler
 
 Stil uygularken yeni bir tablonun nasıl oluşturulacağını gösterir.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTableWithStyle.docx");
 
 * enum [AutoFitBehavior](../../autofitbehavior/)
 * class [Table](../)
-* ad alanı [Aspose.Words.Tables](../../table/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

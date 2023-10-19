@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.LastSavedTime
-second_title: Aspose.Words for .NET API Referansı
-description: BuiltInDocumentProperties mülk. UTCdeki son kaydetmenin zamanını alır veya ayarlar.
+linktitle: LastSavedTime
+articleTitle: LastSavedTime
+second_title: Aspose.Words for .NET
+description: BuiltInDocumentProperties LastSavedTime mülk. UTCdeki son kaydetmenin zamanını alır veya ayarlar C#'da.
 type: docs
 weight: 170
 url: /tr/net/aspose.words.properties/builtindocumentproperties/lastsavedtime/
@@ -14,13 +16,13 @@ UTC'deki son kaydetmenin zamanını alır veya ayarlar.
 public DateTime LastSavedTime { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 RTF formatından oluşturulan belgeler için bu özellik, son kaydetme işleminin yerel saatini döndürür.
 
 Aspose.Words bu özelliği güncellemez.
 
-### Örnekler
+## Örnekler
 
 "Orijin" kategorisindeki belge özellikleriyle nasıl çalışılacağını gösterir.
 
@@ -97,7 +99,5 @@ doc.Save(ArtifactsDir + "Field.SAVEDATE.docx");
 ### Ayrıca bakınız
 
 * class [BuiltInDocumentProperties](../)
-* ad alanı [Aspose.Words.Properties](../../builtindocumentproperties/)
+* ad alanı [Aspose.Words.Properties](../../../aspose.words.properties/)
 * toplantı [Aspose.Words](../../../)
-
-

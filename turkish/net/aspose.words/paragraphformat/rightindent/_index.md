@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.RightIndent
-second_title: Aspose.Words for .NET API Referansı
-description: ParagraphFormat mülk. Paragraf için doğru girintiyi temsil eden değeri puan cinsinden alır veya ayarlar.
+linktitle: RightIndent
+articleTitle: RightIndent
+second_title: Aspose.Words for .NET
+description: ParagraphFormat RightIndent mülk. Paragraf için doğru girintiyi temsil eden değeri puan cinsinden alır veya ayarlar C#'da.
 type: docs
 weight: 270
 url: /tr/net/aspose.words/paragraphformat/rightindent/
@@ -14,7 +16,7 @@ Paragraf için doğru girintiyi temsil eden değeri (puan cinsinden) alır veya 
 public double RightIndent { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Merkezin dışında metin oluşturmak için paragraf formatının nasıl yapılandırılacağını gösterir.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.SetParagraphFormatting.docx");
 ### Ayrıca bakınız
 
 * class [ParagraphFormat](../)
-* ad alanı [Aspose.Words](../../paragraphformat/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

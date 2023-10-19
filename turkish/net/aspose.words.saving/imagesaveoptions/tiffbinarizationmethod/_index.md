@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.TiffBinarizationMethod
-second_title: Aspose.Words for .NET API Referansı
-description: ImageSaveOptions mülk. Görüntüleri 1 bpp format ye dönüştürürken kullanılan yöntemi alır veya ayarlar.SaveFormat dırdirTiff ve TiffCompression eşittirCcitt3 veyaCcitt4 .
+linktitle: TiffBinarizationMethod
+articleTitle: TiffBinarizationMethod
+second_title: Aspose.Words for .NET
+description: ImageSaveOptions TiffBinarizationMethod mülk. Görüntüleri 1 bpp format ye dönüştürürken kullanılan yöntemi alır veya ayarlar.SaveFormat dırdirTiff ve TiffCompression eşittirCcitt3 veyaCcitt4  C#'da.
 type: docs
 weight: 170
 url: /tr/net/aspose.words.saving/imagesaveoptions/tiffbinarizationmethod/
@@ -14,11 +16,11 @@ Görüntüleri 1 bpp format 'ye dönüştürürken kullanılan yöntemi alır ve
 public ImageBinarizationMethod TiffBinarizationMethod { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:Threshold.
 
-### Örnekler
+## Örnekler
 
 Bir TIFF görüntüsünü oluşturmak için Floyd-Steinberg yöntemini kullanırken TIFF ikilileştirme hatası eşiğinin nasıl ayarlanacağını gösterir.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.FloydSteinbergDithering.tiff", options
 
 * enum [ImageBinarizationMethod](../../imagebinarizationmethod/)
 * class [ImageSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../imagesaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

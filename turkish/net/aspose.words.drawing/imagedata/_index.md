@@ -1,7 +1,9 @@
 ---
-title: Class ImageData
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.ImageData sınıf. Bir şekle ilişkin görüntüyü tanımlar.
+title: ImageData Class
+linktitle: ImageData
+articleTitle: ImageData
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.ImageData sınıf. Bir şekle ilişkin görüntüyü tanımlar C#'da.
 type: docs
 weight: 1060
 url: /tr/net/aspose.words.drawing/imagedata/
@@ -43,17 +45,16 @@ public class ImageData
 
 | İsim | Tanım |
 | --- | --- |
-| [FitImageToShape](../../aspose.words.drawing/imagedata/fitimagetoshape/)() |  |
-| [Save](../../aspose.words.drawing/imagedata/save/#save)(Stream) | Görüntüyü belirtilen akışa kaydeder. |
-| [Save](../../aspose.words.drawing/imagedata/save/#save_1)(string) | Görüntüyü bir dosyaya kaydeder. |
-| [SetImage](../../aspose.words.drawing/imagedata/setimage/#setimage)(Image) | Şeklin görüntüleyeceği görüntüyü ayarlar. |
-| [SetImage](../../aspose.words.drawing/imagedata/setimage/#setimage_1)(Stream) | Şeklin görüntüleyeceği görüntüyü ayarlar. |
-| [SetImage](../../aspose.words.drawing/imagedata/setimage/#setimage_2)(string) | Şeklin görüntüleyeceği görüntüyü ayarlar. |
+| [Save](../../aspose.words.drawing/imagedata/save/#save)(*Stream*) | Görüntüyü belirtilen akışa kaydeder. |
+| [Save](../../aspose.words.drawing/imagedata/save/#save_1)(*string*) | Görüntüyü bir dosyaya kaydeder. |
+| [SetImage](../../aspose.words.drawing/imagedata/setimage/#setimage)(*Image*) | Şeklin görüntüleyeceği görüntüyü ayarlar. |
+| [SetImage](../../aspose.words.drawing/imagedata/setimage/#setimage_1)(*Stream*) | Şeklin görüntüleyeceği görüntüyü ayarlar. |
+| [SetImage](../../aspose.words.drawing/imagedata/setimage/#setimage_2)(*string*) | Şeklin görüntüleyeceği görüntüyü ayarlar. |
 | [ToByteArray](../../aspose.words.drawing/imagedata/tobytearray/)() | Görüntünün depolanmış veya bağlı olmasına bakılmaksızın herhangi bir görüntü için görüntü baytlarını döndürür. |
 | [ToImage](../../aspose.words.drawing/imagedata/toimage/)() | Şekilde saklanan görüntüyü bir dosya olarak alır.Image nesne. |
 | [ToStream](../../aspose.words.drawing/imagedata/tostream/)() | Görüntü baytlarını içeren bir akış oluşturur ve döndürür. |
 
-### Notlar
+## Notlar
 
 Kullan[`ImageData`](../shape/imagedata/) bir şeklin içindeki görüntüye erişmek ve onu değiştirmek için kullanılan özellik. `ImageData` doğrudan sınıf.
 
@@ -63,7 +64,7 @@ Görüntünün şeklin içinde mi yoksa bağlantılı mı saklandığına bakıl
 
 Bir resmi bir şeklin içinde saklamak için şunu kullanın:[`SetImage`](./setimage/) yöntem. Bir görüntüyü bir şekle bağlamak için[`SourceFullName`](./sourcefullname/) mülk.
 
-### Örnekler
+## Örnekler
 
 Bir belgeden görüntülerin nasıl çıkarılacağını ve bunların yerel dosya sistemine ayrı dosyalar olarak nasıl kaydedileceğini gösterir.
 
@@ -132,5 +133,3 @@ Assert.True(10000 > new FileInfo(ArtifactsDir + "Image.CreateLinkedImage.Linked.
 
 * ad alanı [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum TextPathAlignment
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.TextPathAlignment Sıralama. WordArt hizalaması.
+title: TextPathAlignment Enum
+linktitle: TextPathAlignment
+articleTitle: TextPathAlignment
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.TextPathAlignment Sıralama. WordArt hizalaması C#'da.
 type: docs
 weight: 1360
 url: /tr/net/aspose.words.drawing/textpathalignment/
@@ -25,7 +27,7 @@ public enum TextPathAlignment
 | LetterJustify | `4` | Harfleri genişliğe sığacak şekilde dağıtın. |
 | WordJustify | `5` | Kelimeleri genişliğe sığacak şekilde dağıtın. |
 
-### Örnekler
+## Örnekler
 
 WordArt'la nasıl çalışılacağını gösterir.
 
@@ -130,5 +132,3 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 * property [TextPathAlignment](../textpath/textpathalignment/)
 * ad alanı [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PageSetup.FirstPageTray
-second_title: Aspose.Words for .NET API Referansı
-description: PageSetup mülk. Bir bölümün ilk sayfası için kullanılacak kağıt tepsisini kutu alır veya ayarlar. Değer uygulamaya yazıcıya özeldir.
+linktitle: FirstPageTray
+articleTitle: FirstPageTray
+second_title: Aspose.Words for .NET
+description: PageSetup FirstPageTray mülk. Bir bölümün ilk sayfası için kullanılacak kağıt tepsisini kutu alır veya ayarlar. Değer uygulamaya yazıcıya özeldir C#'da.
 type: docs
 weight: 130
 url: /tr/net/aspose.words/pagesetup/firstpagetray/
@@ -14,7 +16,7 @@ Bir bölümün ilk sayfası için kullanılacak kağıt tepsisini (kutu) alır v
 public int FirstPageTray { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki tüm bölümlerin seçilen yazıcının varsayılan kağıt tepsisini kullanmasını nasıl sağlayacağınızı gösterir.
 
@@ -70,7 +72,5 @@ foreach (Section section in doc.Sections.OfType<Section>())
 ### Ayrıca bakınız
 
 * class [PageSetup](../)
-* ad alanı [Aspose.Words](../../pagesetup/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

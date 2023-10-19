@@ -1,7 +1,9 @@
 ---
 title: FieldDisplayBarcode.ScalingFactor
-second_title: Aspose.Words for .NET API Referansı
-description: FieldDisplayBarcode mülk. Sembol için bir ölçeklendirme faktörü alır veya ayarlar. Değer tam yüzdelik puan cinsindendir ve geçerli değerler şunlardır 10 1000
+linktitle: ScalingFactor
+articleTitle: ScalingFactor
+second_title: Aspose.Words for .NET
+description: FieldDisplayBarcode ScalingFactor mülk. Sembol için bir ölçeklendirme faktörü alır veya ayarlar. Değer tam yüzdelik puan cinsindendir ve geçerli değerler şunlardır 10 1000 C#'da.
 type: docs
 weight: 120
 url: /tr/net/aspose.words.fields/fielddisplaybarcode/scalingfactor/
@@ -14,7 +16,7 @@ Sembol için bir ölçeklendirme faktörü alır veya ayarlar. Değer tam yüzde
 public string ScalingFactor { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 DISPLAYBARCODE alanının nasıl ekleneceğini ve özelliklerinin nasıl ayarlanacağını gösterir.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Field.DISPLAYBARCODE.docx");
 ### Ayrıca bakınız
 
 * class [FieldDisplayBarcode](../)
-* ad alanı [Aspose.Words.Fields](../../fielddisplaybarcode/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

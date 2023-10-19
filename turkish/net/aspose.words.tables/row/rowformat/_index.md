@@ -1,7 +1,9 @@
 ---
 title: Row.RowFormat
-second_title: Aspose.Words for .NET API Referansı
-description: Row mülk. Satırın biçimlendirme özelliklerine erişim sağlar.
+linktitle: RowFormat
+articleTitle: RowFormat
+second_title: Aspose.Words for .NET
+description: Row RowFormat mülk. Satırın biçimlendirme özelliklerine erişim sağlar C#'da.
 type: docs
 weight: 110
 url: /tr/net/aspose.words.tables/row/rowformat/
@@ -14,7 +16,7 @@ Satırın biçimlendirme özelliklerine erişim sağlar.
 public RowFormat RowFormat { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir tablo satırının formatının nasıl değiştirileceğini gösterir.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Table.RowCellFormat.docx");
 
 * class [RowFormat](../../rowformat/)
 * class [Row](../)
-* ad alanı [Aspose.Words.Tables](../../row/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

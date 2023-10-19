@@ -1,7 +1,9 @@
 ---
 title: ListLevel.NumberPosition
-second_title: Aspose.Words for .NET API Referansı
-description: ListLevel mülk. Liste düzeyi için sayının veya madde işaretinin konumunu nokta cinsinden döndürür veya ayarlar.
+linktitle: NumberPosition
+articleTitle: NumberPosition
+second_title: Aspose.Words for .NET
+description: ListLevel NumberPosition mülk. Liste düzeyi için sayının veya madde işaretinin konumunu nokta cinsinden döndürür veya ayarlar C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words.lists/listlevel/numberposition/
@@ -14,11 +16,11 @@ Liste düzeyi için sayının veya madde işaretinin konumunu (nokta cinsinden) 
 public double NumberPosition { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 `NumberPosition` paragrafın LeftIndent artı FirstLineIndent'ine karşılık gelir.
 
-### Örnekler
+## Örnekler
 
 DocumentBuilder kullanılırken özel liste formatının paragraflara nasıl uygulanacağını gösterir.
 
@@ -77,7 +79,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 ### Ayrıca bakınız
 
 * class [ListLevel](../)
-* ad alanı [Aspose.Words.Lists](../../listlevel/)
+* ad alanı [Aspose.Words.Lists](../../../aspose.words.lists/)
 * toplantı [Aspose.Words](../../../)
-
-

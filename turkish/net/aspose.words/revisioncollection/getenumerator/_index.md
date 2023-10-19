@@ -1,7 +1,9 @@
 ---
 title: RevisionCollection.GetEnumerator
-second_title: Aspose.Words for .NET API Referansı
-description: RevisionCollection yöntem. Bir numaralandırıcı nesnesini döndürür.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words for .NET
+description: RevisionCollection GetEnumerator yöntem. Bir numaralandırıcı nesnesini döndürür C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words/revisioncollection/getenumerator/
@@ -14,7 +16,7 @@ Bir numaralandırıcı nesnesini döndürür.
 public IEnumerator<Revision> GetEnumerator()
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgenin düzeltme koleksiyonuyla nasıl çalışılacağını gösterir.
 
@@ -71,7 +73,5 @@ Assert.AreEqual(0, revisions.Count);
 
 * class [Revision](../../revision/)
 * class [RevisionCollection](../)
-* ad alanı [Aspose.Words](../../revisioncollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

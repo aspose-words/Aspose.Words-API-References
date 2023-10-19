@@ -1,7 +1,9 @@
 ---
-title: Enum EditorType
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.EditorType Sıralama. Geçerli kullanıcının bir belge içindeki düzenlenebilir bir aralık tarafından tanımlanan tek bir aralığını düzenlemesine izin verilip verilmeyeceğini belirlemek için takma ad olarak kullanılabilecek olası takma adlar veya düzenleme grupları kümesini belirtir.
+title: EditorType Enum
+linktitle: EditorType
+articleTitle: EditorType
+second_title: Aspose.Words for .NET
+description: Aspose.Words.EditorType Sıralama. Geçerli kullanıcının bir belge içindeki düzenlenebilir bir aralık tarafından tanımlanan tek bir aralığını düzenlemesine izin verilip verilmeyeceğini belirlemek için takma ad olarak kullanılabilecek olası takma adlar veya düzenleme grupları kümesini belirtir C#'da.
 type: docs
 weight: 1450
 url: /tr/net/aspose.words/editortype/
@@ -28,7 +30,7 @@ public enum EditorType
 | Owners | `7` | Sahipler grubuyla ilişkili kullanıcıların, belge koruması etkinleştirildiğinde this düzenleme türünü kullanarak düzenlenebilir aralıkları düzenlemelerine izin verileceğini belirtir. |
 | Default | `0` | Şununla aynıUnspecified . |
 
-### Örnekler
+## Örnekler
 
 Düzenlenebilir aralıkların düzenleme haklarının belirli bir grup/kullanıcıyla nasıl sınırlandırılacağını gösterir.
 
@@ -140,5 +142,3 @@ public class EditableRangePrinter : DocumentVisitor
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

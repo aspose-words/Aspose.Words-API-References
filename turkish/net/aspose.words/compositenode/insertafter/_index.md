@@ -1,23 +1,131 @@
 ---
 title: CompositeNode.InsertAfter
-second_title: Aspose.Words for .NET API Referansı
-description: CompositeNode yöntem. 
+linktitle: InsertAfter
+articleTitle: InsertAfter
+second_title: Aspose.Words for .NET
+description: CompositeNode InsertAfter yöntem. Belirtilen düğümü belirtilen referans düğümünün hemen sonrasına ekler C#'da.
 type: docs
-weight: 150
+weight: 130
 url: /tr/net/aspose.words/compositenode/insertafter/
 ---
-## CompositeNode.InsertAfter&lt;T&gt; method
+## CompositeNode.InsertAfter method
+
+Belirtilen düğümü, belirtilen referans düğümünün hemen sonrasına ekler.
 
 ```csharp
-public T InsertAfter<T>(T newChild, Node refChild)
-    where T : Node
+public Node InsertAfter(Node newChild, Node refChild)
+```
+
+| Parametre | Tip | Tanım |
+| --- | --- | --- |
+| newChild | Node | [`Node`](../../node/) eklemek için. |
+| refChild | Node | [`Node`](../../node/) bu referans düğümüdür.*newChild* sonra yerleştirilir*refChild*. |
+
+### Geri dönüş değeri
+
+Eklenen düğüm.
+
+## Notlar
+
+Eğer*refChild* dır-dir`hükümsüz` , ekler*newChild* alt düğümler listesinin başında.
+
+Eğer*newChild* zaten ağaçtaysa, önce kaldırılır.
+
+Eklenen düğüm başka bir belgeden oluşturulmuşsa kullanmalısınız[`ImportNode`](../../documentbase/importnode/) Düğümü geçerli belgeye aktarmak için. İçe aktarılan düğüm daha sonra geçerli belgeye eklenebilir.
+
+## Örnekler
+
+Tüm metin kutusu şekillerinin görüntü şekilleriyle nasıl değiştirileceğini gösterir.
+
+```csharp
+Document doc = new Document(MyDir + "Textboxes in drawing canvas.docx");
+
+Shape[] shapes = doc.GetChildNodes(NodeType.Shape, true).OfType<Shape>().ToArray();
+
+Assert.AreEqual(3, shapes.Count(s => s.ShapeType == ShapeType.TextBox));
+Assert.AreEqual(1, shapes.Count(s => s.ShapeType == ShapeType.Image));
+
+foreach (Shape shape in shapes)
+{
+    if (shape.ShapeType == ShapeType.TextBox)
+    {
+        Shape replacementShape = new Shape(doc, ShapeType.Image);
+        replacementShape.ImageData.SetImage(ImageDir + "Logo.jpg");
+        replacementShape.Left = shape.Left;
+        replacementShape.Top = shape.Top;
+        replacementShape.Width = shape.Width;
+        replacementShape.Height = shape.Height;
+        replacementShape.RelativeHorizontalPosition = shape.RelativeHorizontalPosition;
+        replacementShape.RelativeVerticalPosition = shape.RelativeVerticalPosition;
+        replacementShape.HorizontalAlignment = shape.HorizontalAlignment;
+        replacementShape.VerticalAlignment = shape.VerticalAlignment;
+        replacementShape.WrapType = shape.WrapType;
+        replacementShape.WrapSide = shape.WrapSide;
+
+        shape.ParentNode.InsertAfter(replacementShape, shape);
+        shape.Remove();
+    }
+}
+
+shapes = doc.GetChildNodes(NodeType.Shape, true).OfType<Shape>().ToArray();
+
+Assert.AreEqual(0, shapes.Count(s => s.ShapeType == ShapeType.TextBox));
+Assert.AreEqual(4, shapes.Count(s => s.ShapeType == ShapeType.Image));
+
+doc.Save(ArtifactsDir + "Shape.ReplaceTextboxesWithImages.docx");
+```
+
+CompositeNode'un alt öğeleri koleksiyonuna alt düğümlerin nasıl ekleneceğini, güncelleştirileceğini ve silineceğini gösterir.
+
+```csharp
+Document doc = new Document();
+
+// Boş bir belgede varsayılan olarak bir paragraf bulunur.
+Assert.AreEqual(1, doc.FirstSection.Body.Paragraphs.Count);
+
+// Paragrafımız gibi kompozit düğümler çocuk olarak diğer kompozit ve satır içi düğümleri de içerebilir.
+Paragraph paragraph = doc.FirstSection.Body.FirstParagraph;
+Run paragraphText = new Run(doc, "Initial text. ");
+paragraph.AppendChild(paragraphText);
+
+// Üç tane daha çalıştırma düğümü oluşturun.
+Run run1 = new Run(doc, "Run 1. ");
+Run run2 = new Run(doc, "Run 2. ");
+Run run3 = new Run(doc, "Run 3. ");
+
+// Belge gövdesi, biz bunları bir bileşik düğüme ekleyene kadar bu işlemleri görüntülemeyecektir
+// ilk çalıştırmada yaptığımız gibi bu da belgenin düğüm ağacının bir parçası.
+// Eklediğimiz düğümlerin metin içeriklerinin nerede olduğunu belirleyebiliriz
+// paragraftaki başka bir düğüme göre ekleme konumunu belirterek belgede görünür.
+Assert.AreEqual("Initial text.", paragraph.GetText().Trim());
+
+// İkinci çalıştırmayı paragrafın ilk çalıştırmanın önüne ekleyin.
+paragraph.InsertBefore(run2, paragraphText);
+
+Assert.AreEqual("Run 2. Initial text.", paragraph.GetText().Trim());
+
+// İlk çalıştırmadan sonra üçüncü çalıştırmayı ekleyin.
+paragraph.InsertAfter(run3, paragraphText);
+
+Assert.AreEqual("Run 2. Initial text. Run 3.", paragraph.GetText().Trim());
+
+// İlk çalıştırmayı paragrafın alt düğüm koleksiyonunun başlangıcına ekleyin.
+paragraph.PrependChild(run1);
+
+Assert.AreEqual("Run 1. Run 2. Initial text. Run 3.", paragraph.GetText().Trim());
+Assert.AreEqual(4, paragraph.GetChildNodes(NodeType.Any, true).Count);
+
+// Mevcut alt düğümleri düzenleyip silerek çalıştırmanın içeriğini değiştirebiliriz.
+((Run)paragraph.GetChildNodes(NodeType.Run, true)[1]).Text = "Updated run 2. ";
+paragraph.GetChildNodes(NodeType.Run, true).Remove(paragraphText);
+
+Assert.AreEqual("Run 1. Updated run 2. Run 3.", paragraph.GetText().Trim());
+Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, true).Count);
 ```
 
 ### Ayrıca bakınız
 
 * class [Node](../../node/)
 * class [CompositeNode](../)
-* ad alanı [Aspose.Words](../../compositenode/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

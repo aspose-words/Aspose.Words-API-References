@@ -1,7 +1,9 @@
 ---
 title: FieldTC.TypeIdentifier
-second_title: Aspose.Words for .NET API Referansı
-description: FieldTC mülk. Bu alan için bir tür tanımlayıcısı alır veya ayarlar bu genellikle bir harftir.
+linktitle: TypeIdentifier
+articleTitle: TypeIdentifier
+second_title: Aspose.Words for .NET
+description: FieldTC TypeIdentifier mülk. Bu alan için bir tür tanımlayıcısı alır veya ayarlar bu genellikle bir harftir C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.fields/fieldtc/typeidentifier/
@@ -14,7 +16,7 @@ Bu alan için bir tür tanımlayıcısı alır veya ayarlar (bu genellikle bir h
 public string TypeIdentifier { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 TOC alanının nasıl ekleneceğini ve hangi TC alanlarının giriş olarak sonuçlanacağını filtreleyeceğini gösterir.
 
@@ -66,7 +68,5 @@ public void InsertTocEntry(DocumentBuilder builder, string text, string typeIden
 ### Ayrıca bakınız
 
 * class [FieldTC](../)
-* ad alanı [Aspose.Words.Fields](../../fieldtc/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

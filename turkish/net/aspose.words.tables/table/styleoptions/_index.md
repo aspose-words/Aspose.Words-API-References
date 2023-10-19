@@ -1,7 +1,9 @@
 ---
 title: Table.StyleOptions
-second_title: Aspose.Words for .NET API Referansı
-description: Table mülk. Bir tablo stilinin bu tabloya nasıl uygulanacağını belirten bit bayraklarını alır veya ayarlar.
+linktitle: StyleOptions
+articleTitle: StyleOptions
+second_title: Aspose.Words for .NET
+description: Table StyleOptions mülk. Bir tablo stilinin bu tabloya nasıl uygulanacağını belirten bit bayraklarını alır veya ayarlar C#'da.
 type: docs
 weight: 300
 url: /tr/net/aspose.words.tables/table/styleoptions/
@@ -14,7 +16,7 @@ Bir tablo stilinin bu tabloya nasıl uygulanacağını belirten bit bayrakların
 public TableStyleOptions StyleOptions { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Stil uygularken yeni bir tablonun nasıl oluşturulacağını gösterir.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTableWithStyle.docx");
 
 * enum [TableStyleOptions](../../tablestyleoptions/)
 * class [Table](../)
-* ad alanı [Aspose.Words.Tables](../../table/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.NumberFormat
-second_title: Aspose.Words for .NET API Referansı
-description: ChartDataLabelCollection mülk. Bir alırChartNumberFormat the serisinin tamamının veri etiketleri için sayı formatını ayarlamaya izin veren örnek.
+linktitle: NumberFormat
+articleTitle: NumberFormat
+second_title: Aspose.Words for .NET
+description: ChartDataLabelCollection NumberFormat mülk. Bir alırChartNumberFormat the serisinin tamamının veri etiketleri için sayı formatını ayarlamaya izin veren örnek C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.drawing.charts/chartdatalabelcollection/numberformat/
@@ -14,7 +16,7 @@ Bir alır[`ChartNumberFormat`](../../chartnumberformat/) the serisinin tamamın�
 public ChartNumberFormat NumberFormat { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir grafik serisi için veri etiketlerinin nasıl etkinleştirileceğini ve yapılandırılacağını gösterir.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Charts.DataLabelNumberFormat.docx");
 
 * class [ChartNumberFormat](../../chartnumberformat/)
 * class [ChartDataLabelCollection](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: TableStyle.ColumnStripe
-second_title: Aspose.Words for .NET API Referansı
-description: TableStyle mülk. Stil tek/çift sütun bantlamasını belirttiğinde bantlamaya dahil edilecek sütun sayısını alır veya ayarlar.
+linktitle: ColumnStripe
+articleTitle: ColumnStripe
+second_title: Aspose.Words for .NET
+description: TableStyle ColumnStripe mülk. Stil tek/çift sütun bantlamasını belirttiğinde bantlamaya dahil edilecek sütun sayısını alır veya ayarlar C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words/tablestyle/columnstripe/
@@ -14,7 +16,7 @@ Stil tek/çift sütun bantlamasını belirttiğinde, bantlamaya dahil edilecek s
 public int ColumnStripe { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Satırlar arasında geçiş yapan koşullu tablo stillerinin nasıl oluşturulacağını gösterir.
 
@@ -69,7 +71,5 @@ doc.Save(ArtifactsDir + "Table.AlternatingRowStyles.docx");
 ### Ayrıca bakınız
 
 * class [TableStyle](../)
-* ad alanı [Aspose.Words](../../tablestyle/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

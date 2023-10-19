@@ -1,7 +1,9 @@
 ---
-title: Class SpecialChar
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.SpecialChar sınıf. Belgedeki özel karakterler için temel sınıf.
+title: SpecialChar Class
+linktitle: SpecialChar
+articleTitle: SpecialChar
+second_title: Aspose.Words for .NET
+description: Aspose.Words.SpecialChar sınıf. Belgedeki özel karakterler için temel sınıf C#'da.
 type: docs
 weight: 6100
 url: /tr/net/aspose.words/specialchar/
@@ -40,18 +42,18 @@ public class SpecialChar : Inline
 
 | İsim | Tanım |
 | --- | --- |
-| override [Accept](../../aspose.words/specialchar/accept/)(DocumentVisitor) | Ziyaretçi kabul eder. |
-| [Clone](../../aspose.words/node/clone/)(bool) | Düğümün bir kopyasını oluşturur. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Belirtilenin ilk atayı alır[`NodeType`](../nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Belirtilen nesne türünün ilk atayı alır. |
+| override [Accept](../../aspose.words/specialchar/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Ziyaretçi kabul eder. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Düğümün bir kopyasını oluşturur. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | Belirtilenin ilk atayı alır[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Belirtilen nesne türünün ilk atayı alır. |
 | override [GetText](../../aspose.words/specialchar/gettext/)() | Bu düğümün temsil ettiği özel karakteri alır. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Ön sipariş ağaç geçiş algoritmasına göre sonraki düğümü alır. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Ön sipariş ağaç geçiş algoritmasına göre önceki düğümü alır. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Ön sipariş ağaç geçiş algoritmasına göre sonraki düğümü alır. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Ön sipariş ağaç geçiş algoritmasına göre önceki düğümü alır. |
 | [Remove](../../aspose.words/node/remove/)() | Kendini üst öğeden kaldırır. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Düğümün içeriğini belirtilen formatta bir dizeye aktarır. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Belirtilen kaydetme seçeneklerini kullanarak düğümün içeriğini bir dizeye aktarır. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Düğümün içeriğini belirtilen formatta bir dizeye aktarır. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Belirtilen kaydetme seçeneklerini kullanarak düğümün içeriğini bir dizeye aktarır. |
 
-### Notlar
+## Notlar
 
 Bir Microsoft Word belgesi, alanları, form alanlarını, şekilleri, OLE nesnelerini, dipnotları vb. temsil eden bir dizi özel karakter (x000d_) içerebilir. Özel karakterlerin listesi için bkz.[`ControlChar`](../controlchar/).
 
@@ -59,7 +61,7 @@ Bir Microsoft Word belgesi, alanları, form alanlarını, şekilleri, OLE nesnel
 
 `SpecialChar` char, Aspose.Words'ün programatik erişim sağladığı özel karakterleri temsil eden daha spesifik sınıflar için temel sınıf olarak kullanılır. `SpecialChar` sınıfın kendisi ayrıca hangi Aspose.Words'ün ayrıntılı programatik erişim sağlamadığı özel karakteri temsil etmek için kullanılır.
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki tüm gizli içeriği kaldırmak için DocumentVisitor uygulamasının nasıl kullanılacağını gösterir.
 
@@ -257,5 +259,3 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
 * class [Inline](../inline/)
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

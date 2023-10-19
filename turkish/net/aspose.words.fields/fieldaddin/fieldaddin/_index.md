@@ -1,7 +1,9 @@
 ---
-title: FieldAddIn.FieldAddIn
-second_title: Aspose.Words for .NET API Referansı
-description: FieldAddIn inşaatçı. Default_Constructor
+title: FieldAddIn
+linktitle: FieldAddIn
+articleTitle: FieldAddIn
+second_title: Aspose.Words for .NET
+description: FieldAddIn inşaatçı. Default_Constructor C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fieldaddin/fieldaddin/
@@ -17,7 +19,5 @@ public FieldAddIn()
 ### Ayrıca bakınız
 
 * class [FieldAddIn](../)
-* ad alanı [Aspose.Words.Fields](../../fieldaddin/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

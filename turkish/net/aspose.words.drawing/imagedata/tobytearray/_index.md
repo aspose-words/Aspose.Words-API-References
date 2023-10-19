@@ -1,9 +1,11 @@
 ---
 title: ImageData.ToByteArray
-second_title: Aspose.Words for .NET API Referansı
-description: ImageData yöntem. Görüntünün depolanmış veya bağlı olmasına bakılmaksızın herhangi bir görüntü için görüntü baytlarını döndürür.
+linktitle: ToByteArray
+articleTitle: ToByteArray
+second_title: Aspose.Words for .NET
+description: ImageData ToByteArray yöntem. Görüntünün depolanmış veya bağlı olmasına bakılmaksızın herhangi bir görüntü için görüntü baytlarını döndürür C#'da.
 type: docs
-weight: 220
+weight: 210
 url: /tr/net/aspose.words.drawing/imagedata/tobytearray/
 ---
 ## ImageData.ToByteArray method
@@ -14,11 +16,11 @@ Görüntünün depolanmış veya bağlı olmasına bakılmaksızın herhangi bir
 public byte[] ToByteArray()
 ```
 
-### Notlar
+## Notlar
 
 Resim bağlantılıysa, her çağrıldığında resmi indirir.
 
-### Örnekler
+## Örnekler
 
 Bir şeklin ham görüntü verilerinden nasıl görüntü dosyası oluşturulacağını gösterir.
 
@@ -45,7 +47,5 @@ using (Stream imgStream = imgShape.ImageData.ToStream())
 ### Ayrıca bakınız
 
 * class [ImageData](../)
-* ad alanı [Aspose.Words.Drawing](../../imagedata/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

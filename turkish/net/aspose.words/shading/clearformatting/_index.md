@@ -1,7 +1,9 @@
 ---
 title: Shading.ClearFormatting
-second_title: Aspose.Words for .NET API Referansı
-description: Shading yöntem. Nesnedeki gölgelemeyi kaldırır.
+linktitle: ClearFormatting
+articleTitle: ClearFormatting
+second_title: Aspose.Words for .NET
+description: Shading ClearFormatting yöntem. Nesnedeki gölgelemeyi kaldırır C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words/shading/clearformatting/
@@ -14,7 +16,7 @@ Nesnedeki gölgelemeyi kaldırır.
 public void ClearFormatting()
 ```
 
-### Örnekler
+## Örnekler
 
 Özel kenarlıklara sahip bir tablonun nasıl oluşturulacağını gösterir.
 
@@ -80,7 +82,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 ### Ayrıca bakınız
 
 * class [Shading](../)
-* ad alanı [Aspose.Words](../../shading/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

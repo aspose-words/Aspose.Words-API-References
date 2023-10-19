@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitGlossaryDocumentStart
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentVisitor yöntem. Bir sözlük belgesinin numaralandırılması başlatıldığında çağrılır.
+linktitle: VisitGlossaryDocumentStart
+articleTitle: VisitGlossaryDocumentStart
+second_title: Aspose.Words for .NET
+description: DocumentVisitor VisitGlossaryDocumentStart yöntem. Bir sözlük belgesinin numaralandırılması başlatıldığında çağrılır C#'da.
 type: docs
 weight: 250
 url: /tr/net/aspose.words/documentvisitor/visitglossarydocumentstart/
@@ -22,11 +24,11 @@ public virtual VisitorAction VisitGlossaryDocumentStart(GlossaryDocument glossar
 
 A[`VisitorAction`](../../visitoraction/) numaralandırmaya nasıl devam edileceğini belirten değer.
 
-### Notlar
+## Notlar
 
 Not: Bir sözlük belgesi düğümü ve onun alt öğeleri, a Visitor'ı bir[`Document`](../../document/) . Bir Ziyaretçiyi a sözlük belgesi üzerinden yürütmek istiyorsanız,[`Accept`](../../../aspose.words.buildingblocks/glossarydocument/accept/) .
 
-### Örnekler
+## Örnekler
 
 Bir sözlük belgesinde yapı taşlarına erişmenin yollarını gösterir.
 
@@ -132,7 +134,5 @@ public class GlossaryDocVisitor : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [GlossaryDocument](../../../aspose.words.buildingblocks/glossarydocument/)
 * class [DocumentVisitor](../)
-* ad alanı [Aspose.Words](../../documentvisitor/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

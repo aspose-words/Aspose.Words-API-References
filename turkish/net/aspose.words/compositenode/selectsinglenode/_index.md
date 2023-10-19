@@ -1,9 +1,11 @@
 ---
 title: CompositeNode.SelectSingleNode
-second_title: Aspose.Words for .NET API Referansı
-description: CompositeNode yöntem. İlkini seçerNode XPath ifadesiyle eşleşen.
+linktitle: SelectSingleNode
+articleTitle: SelectSingleNode
+second_title: Aspose.Words for .NET
+description: CompositeNode SelectSingleNode yöntem. İlkini seçerNode XPath ifadesiyle eşleşen C#'da.
 type: docs
-weight: 220
+weight: 200
 url: /tr/net/aspose.words/compositenode/selectsinglenode/
 ---
 ## CompositeNode.SelectSingleNode method
@@ -22,11 +24,11 @@ public Node SelectSingleNode(string xpath)
 
 İlk[`Node`](../../node/) XPath sorgusuyla eşleşen veya`hükümsüz` eşleşen düğüm bulunamazsa.
 
-### Notlar
+## Notlar
 
 Şu anda yalnızca öğe adlarına sahip ifadeler desteklenmektedir. Öznitelik adlarını kullanan Expressions desteklenmez.
 
-### Örnekler
+## Örnekler
 
 XPath ifadesini kullanarak belirli düğümlerin nasıl seçileceğini gösterir.
 
@@ -60,7 +62,5 @@ Assert.AreEqual(typeof(Paragraph), node.GetType());
 
 * class [Node](../../node/)
 * class [CompositeNode](../)
-* ad alanı [Aspose.Words](../../compositenode/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

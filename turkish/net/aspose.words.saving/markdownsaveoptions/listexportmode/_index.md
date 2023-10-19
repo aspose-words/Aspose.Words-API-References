@@ -1,7 +1,9 @@
 ---
 title: MarkdownSaveOptions.ListExportMode
-second_title: Aspose.Words for .NET API Referansı
-description: MarkdownSaveOptions mülk. Liste öğelerinin çıktı dosyasına nasıl yazılacağını belirtir. Varsayılan değerMarkdownSyntax .
+linktitle: ListExportMode
+articleTitle: ListExportMode
+second_title: Aspose.Words for .NET
+description: MarkdownSaveOptions ListExportMode mülk. Liste öğelerinin çıktı dosyasına nasıl yazılacağını belirtir. Varsayılan değerMarkdownSyntax  C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.saving/markdownsaveoptions/listexportmode/
@@ -14,13 +16,13 @@ Liste öğelerinin çıktı dosyasına nasıl yazılacağını belirtir. Varsay�
 public MarkdownListExportMode ListExportMode { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özellik olarak ayarlandığındaPlainText tüm liste etiketleri are kullanılarak güncellendi[`UpdateListLabels`](../../../aspose.words/document/updatelistlabels/)gerçek değerleri ile ihraç edilmektedir. Bu tür listeler , Markdown formatıyla uyumlu olmayabilir ve bu durumda içe aktarma sırasında düz metin olarak tanınacaktır.
 
 Bu özellik olarak ayarlandığındaMarkdownSyntax, yazar Markdown tarafından otomatik modda liste öğelerinin numaralandırılmasına izin verecek şekildeexport liste öğelerini aktarmaya çalışır.
 
-### Örnekler
+## Örnekler
 
 Markdown belgesine yazılacak öğelerin nasıl listeleneceğini gösterir.
 
@@ -36,7 +38,5 @@ doc.Save(ArtifactsDir + "MarkdownSaveOptions.ListExportMode.md", options);
 
 * enum [MarkdownListExportMode](../../markdownlistexportmode/)
 * class [MarkdownSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../markdownsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

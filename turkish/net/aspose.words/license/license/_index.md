@@ -1,7 +1,9 @@
 ---
-title: License.License
-second_title: Aspose.Words for .NET API Referansı
-description: License inşaatçı. Bu sınıfın yeni bir örneğini başlatır.
+title: License
+linktitle: License
+articleTitle: License
+second_title: Aspose.Words for .NET
+description: License inşaatçı. Bu sınıfın yeni bir örneğini başlatır C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/license/license/
@@ -14,7 +16,7 @@ Bu sınıfın yeni bir örneğini başlatır.
 public License()
 ```
 
-### Örnekler
+## Örnekler
 
 Yerel dosya sistemindeki bir lisans dosyasını kullanarak Aspose.Words lisansının nasıl başlatıldığını gösterir.
 
@@ -38,7 +40,5 @@ license.SetLicense("Aspose.Words.NET.lic");
 ### Ayrıca bakınız
 
 * class [License](../)
-* ad alanı [Aspose.Words](../../license/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

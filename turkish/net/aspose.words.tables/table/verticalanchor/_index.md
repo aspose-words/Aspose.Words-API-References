@@ -1,7 +1,9 @@
 ---
 title: Table.VerticalAnchor
-second_title: Aspose.Words for .NET API Referansı
-description: Table mülk. Kayan tablonun dikey konumunun hesaplanması gereken temel nesneyi alır. Varsayılan değerMargin .
+linktitle: VerticalAnchor
+articleTitle: VerticalAnchor
+second_title: Aspose.Words for .NET
+description: Table VerticalAnchor mülk. Kayan tablonun dikey konumunun hesaplanması gereken temel nesneyi alır. Varsayılan değerMargin  C#'da.
 type: docs
 weight: 340
 url: /tr/net/aspose.words.tables/table/verticalanchor/
@@ -14,7 +16,7 @@ Kayan tablonun dikey konumunun hesaplanması gereken temel nesneyi alır. Varsay
 public RelativeVerticalPosition VerticalAnchor { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Kayan tablo özellikleriyle nasıl çalışılacağını gösterir.
 
@@ -43,7 +45,5 @@ if (table.TextWrapping == TextWrapping.Around)
 
 * enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
 * class [Table](../)
-* ad alanı [Aspose.Words.Tables](../../table/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

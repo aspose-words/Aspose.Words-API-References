@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitCommentStart
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentVisitor yöntem. Bir yorum metninin numaralandırılması başladığında çağrılır.
+linktitle: VisitCommentStart
+articleTitle: VisitCommentStart
+second_title: Aspose.Words for .NET
+description: DocumentVisitor VisitCommentStart yöntem. Bir yorum metninin numaralandırılması başladığında çağrılır C#'da.
 type: docs
 weight: 130
 url: /tr/net/aspose.words/documentvisitor/visitcommentstart/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitCommentStart(Comment comment)
 
 A[`VisitorAction`](../../visitoraction/) numaralandırmaya nasıl devam edileceğini belirten değer.
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki her yorumun ve yorum aralığının düğüm yapısının nasıl yazdırılacağını gösterir.
 
@@ -334,7 +336,5 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [Comment](../../comment/)
 * class [DocumentVisitor](../)
-* ad alanı [Aspose.Words](../../documentvisitor/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

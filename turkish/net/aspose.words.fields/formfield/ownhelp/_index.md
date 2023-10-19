@@ -1,7 +1,9 @@
 ---
 title: FormField.OwnHelp
-second_title: Aspose.Words for .NET API Referansı
-description: FormField mülk. Odak bir form alanına geldiğinde ve kullanıcı F1. tuşuna bastığında mesaj kutusunda görüntülenen metnin kaynağını belirtir.
+linktitle: OwnHelp
+articleTitle: OwnHelp
+second_title: Aspose.Words for .NET
+description: FormField OwnHelp mülk. Odak bir form alanına geldiğinde ve kullanıcı F1. tuşuna bastığında mesaj kutusunda görüntülenen metnin kaynağını belirtir C#'da.
 type: docs
 weight: 150
 url: /tr/net/aspose.words.fields/formfield/ownhelp/
@@ -14,11 +16,11 @@ Odak bir form alanına geldiğinde ve kullanıcı F1. tuşuna bastığında mesa
 public bool OwnHelp { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Eğer`doğru` tarafından belirtilen metin[`HelpText`](../helptext/) özelliği görüntülenir. If`YANLIŞ` tarafından belirtilen Otomatik Metin girdisindeki metin[`HelpText`](../helptext/) özellik görüntülenir.
 
-### Örnekler
+## Örnekler
 
 Bir belgeye farklı türde form alanlarının nasıl eklendiğini ve bunların bir belge ziyaretçi uygulaması kullanılarak nasıl işlendiğini gösterir.
 
@@ -152,7 +154,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Ayrıca bakınız
 
 * class [FormField](../)
-* ad alanı [Aspose.Words.Fields](../../formfield/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

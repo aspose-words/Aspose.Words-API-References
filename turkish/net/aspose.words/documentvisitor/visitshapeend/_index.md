@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitShapeEnd
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentVisitor yöntem. Bir şeklin numaralandırılması sona erdiğinde çağrılır.
+linktitle: VisitShapeEnd
+articleTitle: VisitShapeEnd
+second_title: Aspose.Words for .NET
+description: DocumentVisitor VisitShapeEnd yöntem. Bir şeklin numaralandırılması sona erdiğinde çağrılır C#'da.
 type: docs
 weight: 390
 url: /tr/net/aspose.words/documentvisitor/visitshapeend/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitShapeEnd(Shape shape)
 
 A[`VisitorAction`](../../visitoraction/) numaralandırmaya nasıl devam edileceğini belirten değer.
 
-### Örnekler
+## Örnekler
 
 Bir şekil grubunun nasıl oluşturulacağını ve bir belge ziyaretçisi kullanılarak içeriğinin nasıl yazdırılacağını gösterir.
 
@@ -115,7 +117,5 @@ public class ShapeGroupPrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentVisitor](../)
-* ad alanı [Aspose.Words](../../documentvisitor/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

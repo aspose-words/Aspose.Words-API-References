@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.CrossesAt
-second_title: Aspose.Words for .NET API Referansı
-description: ChartAxis mülk. Eksenin dik eksende nerede kesiştiğini belirtir.
+linktitle: CrossesAt
+articleTitle: CrossesAt
+second_title: Aspose.Words for .NET
+description: ChartAxis CrossesAt mülk. Eksenin dik eksende nerede kesiştiğini belirtir C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.drawing.charts/chartaxis/crossesat/
@@ -14,13 +16,13 @@ Eksenin dik eksende nerede kesiştiğini belirtir.
 public double CrossesAt { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Özelliğin yalnızca şu durumlarda etkisi vardır:[`Crosses`](../crosses/) şu şekilde ayarlandı:Custom. MS Office 2016 yeni çizelgeleri tarafından desteklenmemektedir.
 
 Birimler eksen türüne göre belirlenir. Eksen bir değer ekseni olduğunda, property özelliğinin değeri, değer ekseninde bir ondalık sayıdır. Eksen bir zaman kategorisi ekseni olduğunda değer, temel tarihe (30/12/1899) göre günlerin tam sayısı olan olarak tanımlanır. Bir metin kategorisi ekseni için değer, ilk kategori olarak 1 ile başlayan bir tamsayı kategori numarasıdır .
 
-### Örnekler
+## Örnekler
 
 Özel bir konumda kesişecek bir grafik ekseninin nasıl alınacağını gösterir.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Charts.AxisCross.docx");
 ### Ayrıca bakınız
 
 * class [ChartAxis](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

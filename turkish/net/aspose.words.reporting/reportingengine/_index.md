@@ -1,7 +1,9 @@
 ---
-title: Class ReportingEngine
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Reporting.ReportingEngine sınıf. Şablon belgelerini verilerle doldurmak için rutinler ve bu rutinleri kontrol etmek için bir dizi ayar sağlar.
+title: ReportingEngine Class
+linktitle: ReportingEngine
+articleTitle: ReportingEngine
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Reporting.ReportingEngine sınıf. Şablon belgelerini verilerle doldurmak için rutinler ve bu rutinleri kontrol etmek için bir dizi ayar sağlar C#'da.
 type: docs
 weight: 4730
 url: /tr/net/aspose.words.reporting/reportingengine/
@@ -34,15 +36,13 @@ public class ReportingEngine
 
 | İsim | Tanım |
 | --- | --- |
-| [BuildReport](../../aspose.words.reporting/reportingengine/buildreport/#buildreport)(Document, object) | Belirtilen şablon belgesini, belirtilen kaynaktan gelen verilerle doldurarak onu hazır bir rapor haline getirir. |
-| [BuildReport](../../aspose.words.reporting/reportingengine/buildreport/#buildreport_1)(Document, object, string) | Belirtilen şablon belgesini, belirtilen kaynaktan gelen verilerle doldurarak onu hazır bir rapor haline getirir. |
-| [BuildReport](../../aspose.words.reporting/reportingengine/buildreport/#buildreport_2)(Document, object[], string[]) | Belirtilen şablon belgeyi, belirtilen kaynaklardan alınan verilerle doldurarak onu hazır bir rapor haline getirir. |
-| [Equals](../../aspose.words.reporting/reportingengine/equals/)(object) | Belirtilen nesnenin değer olarak geçerli nesneye eşit olup olmadığını belirler. |
+| [BuildReport](../../aspose.words.reporting/reportingengine/buildreport/#buildreport)(*[Document](../../aspose.words/document/), object*) | Belirtilen şablon belgesini, belirtilen kaynaktan gelen verilerle doldurarak onu hazır bir rapor haline getirir. |
+| [BuildReport](../../aspose.words.reporting/reportingengine/buildreport/#buildreport_1)(*[Document](../../aspose.words/document/), object, string*) | Belirtilen şablon belgesini, belirtilen kaynaktan gelen verilerle doldurarak onu hazır bir rapor haline getirir. |
+| [BuildReport](../../aspose.words.reporting/reportingengine/buildreport/#buildreport_2)(*[Document](../../aspose.words/document/), object[], string[]*) | Belirtilen şablon belgeyi, belirtilen kaynaklardan alınan verilerle doldurarak onu hazır bir rapor haline getirir. |
+| [Equals](../../aspose.words.reporting/reportingengine/equals/)(*object*) | Belirtilen nesnenin değer olarak geçerli nesneye eşit olup olmadığını belirler. |
 | [GetHashCode](../../aspose.words.reporting/reportingengine/gethashcode/)() | Bu tür için karma işlevi görevi görür. |
 
 ### Ayrıca bakınız
 
 * ad alanı [Aspose.Words.Reporting](../../aspose.words.reporting/)
 * toplantı [Aspose.Words](../../)
-
-

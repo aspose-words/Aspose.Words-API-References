@@ -1,7 +1,9 @@
 ---
 title: Row.PreviousRow
-second_title: Aspose.Words for .NET API Referansı
-description: Row mülk. Öncekini alırRow düğüm.
+linktitle: PreviousRow
+articleTitle: PreviousRow
+second_title: Aspose.Words for .NET
+description: Row PreviousRow mülk. Öncekini alırRow düğüm C#'da.
 type: docs
 weight: 100
 url: /tr/net/aspose.words.tables/row/previousrow/
@@ -14,11 +16,11 @@ url: /tr/net/aspose.words.tables/row/previousrow/
 public Row PreviousRow { get; }
 ```
 
-### Notlar
+## Notlar
 
 Bu yöntem, tablo satırlarına erişim yazmanız gerektiğinde kullanılabilir. Eğer a [`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/)düğüm bir satır yerine bir tabloda bulunur, içinde yer alan bir satırı elde etmek için otomatik olarak geçilir.
 
-### Örnekler
+## Örnekler
 
 Tüm tablo hücrelerinin nasıl numaralandırılacağını gösterir.
 
@@ -39,7 +41,5 @@ for (Row row = table.FirstRow; row != null; row = row.NextRow)
 ### Ayrıca bakınız
 
 * class [Row](../)
-* ad alanı [Aspose.Words.Tables](../../row/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

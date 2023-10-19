@@ -1,12 +1,14 @@
 ---
 title: ConvertUtil.PointToPixel
-second_title: Aspose.Words for .NET API Referansı
-description: ConvertUtil yöntem. Noktaları 96 dpide piksellere dönüştürür.
+linktitle: PointToPixel
+articleTitle: PointToPixel
+second_title: Aspose.Words for .NET
+description: ConvertUtil PointToPixel yöntem. Noktaları 96 dpide piksellere dönüştürür C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words/convertutil/pointtopixel/
 ---
-## PointToPixel(double) {#pointtopixel}
+## PointToPixel(*double*) {#pointtopixel}
 
 Noktaları 96 dpi'de piksellere dönüştürür.
 
@@ -18,11 +20,11 @@ public static double PointToPixel(double points)
 | --- | --- | --- |
 | points | Double | Dönüştürülecek değer. |
 
-### Notlar
+## Notlar
 
 1 inç 72 noktaya eşittir.
 
-### Örnekler
+## Örnekler
 
 Sayfa özelliklerinin piksel cinsinden nasıl belirtileceğini gösterir.
 
@@ -58,12 +60,12 @@ doc.Save(ArtifactsDir + "UtilityClasses.PointsAndPixels.docx");
 ### Ayrıca bakınız
 
 * class [ConvertUtil](../)
-* ad alanı [Aspose.Words](../../convertutil/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## PointToPixel(double, double) {#pointtopixel_1}
+## PointToPixel(*double, double*) {#pointtopixel_1}
 
 Noktaları belirtilen piksel çözünürlüğünde piksellere dönüştürür.
 
@@ -76,11 +78,11 @@ public static double PointToPixel(double points, double resolution)
 | points | Double | Dönüştürülecek değer. |
 | resolution | Double | Dpi (inç başına nokta sayısı) çözünürlüğü. |
 
-### Notlar
+## Notlar
 
 1 inç 72 noktaya eşittir.
 
-### Örnekler
+## Örnekler
 
 Varsayılan ve özel çözünürlükle piksellere dönüştürme noktalarının nasıl kullanılacağını gösterir.
 
@@ -116,7 +118,5 @@ doc.Save(ArtifactsDir + "UtilityClasses.PointsAndPixelsDpi.docx");
 ### Ayrıca bakınız
 
 * class [ConvertUtil](../)
-* ad alanı [Aspose.Words](../../convertutil/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

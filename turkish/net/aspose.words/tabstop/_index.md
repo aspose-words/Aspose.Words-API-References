@@ -1,7 +1,9 @@
 ---
-title: Class TabStop
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.TabStop sınıf. Tek bir özel sekme durağını temsil eder.TabStopnesne the nin bir üyesidirTabStopCollection koleksiyon.
+title: TabStop Class
+linktitle: TabStop
+articleTitle: TabStop
+second_title: Aspose.Words for .NET
+description: Aspose.Words.TabStop sınıf. Tek bir özel sekme durağını temsil eder.TabStopnesne the nin bir üyesidirTabStopCollection koleksiyon C#'da.
 type: docs
 weight: 6200
 url: /tr/net/aspose.words/tabstop/
@@ -20,8 +22,8 @@ public sealed class TabStop
 
 | İsim | Tanım |
 | --- | --- |
-| [TabStop](tabstop/#constructor)(double) | Bu sınıfın yeni bir örneğini başlatır. |
-| [TabStop](tabstop/#constructor_1)(double, TabAlignment, TabLeader) | Bu sınıfın yeni bir örneğini başlatır. |
+| [TabStop](tabstop/#constructor)(*double*) | Bu sınıfın yeni bir örneğini başlatır. |
+| [TabStop](tabstop/#constructor_1)(*double, [TabAlignment](../tabalignment/), [TabLeader](../tableader/)*) | Bu sınıfın yeni bir örneğini başlatır. |
 
 ## Özellikleri
 
@@ -36,16 +38,16 @@ public sealed class TabStop
 
 | İsim | Tanım |
 | --- | --- |
-| [Equals](../../aspose.words/tabstop/equals/#equals)(TabStop) | Belirtilenle karşılaştırır`TabStop` . |
+| [Equals](../../aspose.words/tabstop/equals/#equals)(*TabStop*) | Belirtilenle karşılaştırır`TabStop` . |
 | override [GetHashCode](../../aspose.words/tabstop/gethashcode/)() | Bu nesnenin karma kodunu hesaplar. |
 
-### Notlar
+## Notlar
 
 Normalde sekme durağı, sekme durağının bulunduğu konumu belirtir. Ancak sekme durakları üst stillerden miras alınabildiğinden, alt object 'nin belirli bir konumda sekme durağı olmadığını açıkça tanımlaması gerekebilir. Belirli bir konumda devralınan bir sekme durağını clear için, bir`TabStop` nesne ve set [`Alignment`](./alignment/) ileClear.
 
 Daha fazla bilgi için bakınız[`TabStopCollection`](../tabstopcollection/).
 
-### Örnekler
+## Örnekler
 
 İçindekiler ile ilgili paragraflarda sağ sekme durağının konumunun nasıl değiştirileceğini gösterir.
 
@@ -72,5 +74,3 @@ doc.Save(ArtifactsDir + "Styles.ChangeTocsTabStops.docx");
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

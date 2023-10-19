@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.IsGroup
-second_title: Aspose.Words for .NET API Referansı
-description: ShapeBase mülk. İadelerdoğru eğer bu bir grup şekli ise.
+linktitle: IsGroup
+articleTitle: IsGroup
+second_title: Aspose.Words for .NET
+description: ShapeBase IsGroup mülk. İadelerdoğru eğer bu bir grup şekli ise C#'da.
 type: docs
 weight: 260
 url: /tr/net/aspose.words.drawing/shapebase/isgroup/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.drawing/shapebase/isgroup/
 public bool IsGroup { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir şekil grubunun nasıl oluşturulacağını ve bir belge ziyaretçisi kullanılarak içeriğinin nasıl yazdırılacağını gösterir.
 
@@ -105,7 +107,5 @@ public class ShapeGroupPrinter : DocumentVisitor
 ### Ayrıca bakınız
 
 * class [ShapeBase](../)
-* ad alanı [Aspose.Words.Drawing](../../shapebase/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

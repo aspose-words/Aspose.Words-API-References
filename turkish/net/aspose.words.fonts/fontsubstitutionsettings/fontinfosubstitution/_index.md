@@ -1,7 +1,9 @@
 ---
 title: FontSubstitutionSettings.FontInfoSubstitution
-second_title: Aspose.Words for .NET API Referansı
-description: FontSubstitutionSettings mülk. Yazı tipi bilgisi değiştirme kuralıyla ilgili ayarlar.
+linktitle: FontInfoSubstitution
+articleTitle: FontInfoSubstitution
+second_title: Aspose.Words for .NET
+description: FontSubstitutionSettings FontInfoSubstitution mülk. Yazı tipi bilgisi değiştirme kuralıyla ilgili ayarlar C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fonts/fontsubstitutionsettings/fontinfosubstitution/
@@ -14,7 +16,7 @@ Yazı tipi bilgisi değiştirme kuralıyla ilgili ayarlar.
 public FontInfoSubstitutionRule FontInfoSubstitution { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Mevcut yazı tipi kaynaklarından eksik bir yazı tipi için en yakın eşleşmeyi bulma özelliğinin nasıl ayarlanacağını gösterir.
 
@@ -75,7 +77,5 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 
 * class [FontInfoSubstitutionRule](../../fontinfosubstitutionrule/)
 * class [FontSubstitutionSettings](../)
-* ad alanı [Aspose.Words.Fonts](../../fontsubstitutionsettings/)
+* ad alanı [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../../)
-
-

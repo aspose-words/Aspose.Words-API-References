@@ -1,7 +1,9 @@
 ---
 title: ControlChar.ColumnBreakChar
-second_title: Aspose.Words for .NET API Referansı
-description: ControlChar alan. Sütun karakterinin sonu char14.
+linktitle: ColumnBreakChar
+articleTitle: ColumnBreakChar
+second_title: Aspose.Words for .NET
+description: ControlChar ColumnBreakChar alan. Sütun karakterinin sonu char14 C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words/controlchar/columnbreakchar/
@@ -14,7 +16,7 @@ Sütun karakterinin sonu: (char)14.
 public const char ColumnBreakChar;
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgeye çeşitli kontrol karakterlerinin nasıl ekleneceğini gösterir.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Ayrıca bakınız
 
 * class [ControlChar](../)
-* ad alanı [Aspose.Words](../../controlchar/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

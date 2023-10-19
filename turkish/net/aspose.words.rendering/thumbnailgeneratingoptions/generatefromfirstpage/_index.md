@@ -1,7 +1,9 @@
 ---
 title: ThumbnailGeneratingOptions.GenerateFromFirstPage
-second_title: Aspose.Words for .NET API Referansı
-description: ThumbnailGeneratingOptions mülk. Küçük resmin belgenin ilk sayfasından mı yoksa ilk görüntüden mi oluşturulacağını belirtir.
+linktitle: GenerateFromFirstPage
+articleTitle: GenerateFromFirstPage
+second_title: Aspose.Words for .NET
+description: ThumbnailGeneratingOptions GenerateFromFirstPage mülk. Küçük resmin belgenin ilk sayfasından mı yoksa ilk görüntüden mi oluşturulacağını belirtir C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.rendering/thumbnailgeneratingoptions/generatefromfirstpage/
@@ -14,11 +16,11 @@ Küçük resmin belgenin ilk sayfasından mı yoksa ilk görüntüden mi oluştu
 public bool GenerateFromFirstPage { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan:`doğru` , bu, küçük resmin belgenin ilk sayfasından oluşturulacağı anlamına gelir. Değer ise`YANLIŞ` ve belgede resim yoksa, belgenin ilk sayfasından küçük resim oluşturulacaktır.
 
-### Örnekler
+## Örnekler
 
 Bir belgenin küçük resminin nasıl güncelleneceğini gösterir.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstImage.epub");
 ### Ayrıca bakınız
 
 * class [ThumbnailGeneratingOptions](../)
-* ad alanı [Aspose.Words.Rendering](../../thumbnailgeneratingoptions/)
+* ad alanı [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * toplantı [Aspose.Words](../../../)
-
-

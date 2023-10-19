@@ -1,7 +1,9 @@
 ---
 title: Aspose.Words.Markup
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Markup ad alanı bir belgede müşteri tanımlı semantiği temsil eden sınıflarını içerir akıllı etiketler özel XML ve yapılandırılmış belge etiketleri içerik kontrolleri.
+linktitle: Aspose.Words.Markup
+articleTitle: Aspose.Words.Markup
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Markup ad alanı bir belgede müşteri tanımlı semantiği temsil eden sınıflarını içerir akıllı etiketler özel XML ve yapılandırılmış belge etiketleri içerik kontrolleri C#'da.
 type: docs
 weight: 160
 url: /tr/net/aspose.words.markup/
@@ -24,8 +26,8 @@ url: /tr/net/aspose.words.markup/
 | [SmartTag](./smarttag/) | Bu öğe, bir paragraf içindeki bir veya daha fazla satır içi yapı (çalıştırmalar, resimler, alanlar vb.) etrafında bir akıllı etiketin varlığını belirtir. |
 | [StructuredDocumentTag](./structureddocumenttag/) | Bir belgedeki yapılandırılmış belge etiketini (SDT veya içerik kontrolü) temsil eder. |
 | [StructuredDocumentTagCollection](./structureddocumenttagcollection/) | Bir koleksiyon[`IStructuredDocumentTag`](../aspose.words.markup/istructureddocumenttag/) belirtilen aralıktaki yapılandırılmış belge etiketlerini temsil eden örnekler. |
-| [StructuredDocumentTagRangeEnd](./structureddocumenttagrangeend/) | Sonunu temsil eder **aralıklı** çok bölümlü içeriği kabul eden yapılandırılmış belge etiketi. Ayrıca bkz.[`StructuredDocumentTagRangeStart`](../aspose.words.markup/structureddocumenttagrangestart/) düğüm. |
-| [StructuredDocumentTagRangeStart](./structureddocumenttagrangestart/) | Bir başlangıcı temsil eder **aralıklı** çok bölümlü içeriği kabul eden yapılandırılmış belge etiketi. Ayrıca bkz.[`StructuredDocumentTagRangeEnd`](../aspose.words.markup/structureddocumenttagrangeend/) . |
+| [StructuredDocumentTagRangeEnd](./structureddocumenttagrangeend/) | Sonunu temsil eder**aralıklı** çok bölümlü içeriği kabul eden yapılandırılmış belge etiketi. Ayrıca bkz.[`StructuredDocumentTagRangeStart`](../aspose.words.markup/structureddocumenttagrangestart/) düğüm. |
+| [StructuredDocumentTagRangeStart](./structureddocumenttagrangestart/) | Bir başlangıcı temsil eder**aralıklı** çok bölümlü içeriği kabul eden yapılandırılmış belge etiketi. Ayrıca bkz.[`StructuredDocumentTagRangeEnd`](../aspose.words.markup/structureddocumenttagrangeend/) . |
 | [XmlMapping](./xmlmapping/) | parent yapılandırılmış belge etiketi ile belgedeki özel bir XML veri bölümünde depolanan bir XML öğesi arasında eşleme oluşturmak için kullanılan bilgiyi belirtir. |
 ## Arayüzler
 
@@ -41,5 +43,3 @@ url: /tr/net/aspose.words.markup/
 | [SdtCalendarType](./sdtcalendartype/) | Belirlemek için kullanılabilecek olası takvim türlerini belirtir[`CalendarType`](../aspose.words.markup/structureddocumenttag/calendartype/) bir Office Açık XML belgesinde. |
 | [SdtDateStorageFormat](./sdtdatestorageformat/) | SDT, belgenin veri deposundaki bir XML düğümüne bağlandığında SDT tarihi için tarihin nasıl saklanacağını/alınacağını belirtir. |
 | [SdtType](./sdttype/) | Yapılandırılmış belge etiketi (SDT) düğümünün türünü belirtir. |
-
-

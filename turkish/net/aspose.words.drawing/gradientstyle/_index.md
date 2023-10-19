@@ -1,7 +1,9 @@
 ---
-title: Enum GradientStyle
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.GradientStyle Sıralama. Degrade dolgunun stilini belirtir.
+title: GradientStyle Enum
+linktitle: GradientStyle
+articleTitle: GradientStyle
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.GradientStyle Sıralama. Degrade dolgunun stilini belirtir C#'da.
 type: docs
 weight: 1000
 url: /tr/net/aspose.words.drawing/gradientstyle/
@@ -26,7 +28,7 @@ public enum GradientStyle
 | FromCorner | `5` | Bir köşeden diğer üç köşeye uzanan degrade. |
 | FromCenter | `6` | Merkezden köşelere doğru uzanan degrade. |
 
-### Örnekler
+## Örnekler
 
 Bir şeklin degradelerle nasıl doldurulacağını gösterir.
 
@@ -68,5 +70,3 @@ doc.Save(ArtifactsDir + "Shape.GradientFill.docx", saveOptions);
 
 * ad alanı [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../)
-
-

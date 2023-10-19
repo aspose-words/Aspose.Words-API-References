@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.MoveToBookmark
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentBuilder yöntem. İmleci bir yer imine taşır.
+linktitle: MoveToBookmark
+articleTitle: MoveToBookmark
+second_title: Aspose.Words for .NET
+description: DocumentBuilder MoveToBookmark yöntem. İmleci bir yer imine taşır C#'da.
 type: docs
-weight: 500
+weight: 490
 url: /tr/net/aspose.words/documentbuilder/movetobookmark/
 ---
-## MoveToBookmark(string) {#movetobookmark}
+## MoveToBookmark(*string*) {#movetobookmark}
 
 İmleci bir yer imine taşır.
 
@@ -22,7 +24,7 @@ public bool MoveToBookmark(string bookmarkName)
 
 `doğru` yer imi bulunursa;`YANLIŞ` aksi takdirde.
 
-### Notlar
+## Notlar
 
 İmleci, belirtilen adındaki yer iminin başlangıcından hemen sonraki bir konuma taşır.
 
@@ -32,7 +34,7 @@ Yeni metin eklemek, yer imindeki mevcut metnin yerini almaz.
 
 Belgedeki bazı yer imlerinin form alanlarına atandığını unutmayın. Böyle bir yer imine gitmek ve oraya metin eklemek, metni form alan koduna ekler. Bu, form alanını geçersiz kılmasa da, insert metni, alan kodunun bir parçası haline geldiğinden görünmeyecektir.
 
-### Örnekler
+## Örnekler
 
 Belge oluşturucunun imlecinin belgedeki farklı düğümlere nasıl taşınacağını gösterir.
 
@@ -86,12 +88,12 @@ Assert.IsTrue(builder.IsAtStartOfParagraph);
 ### Ayrıca bakınız
 
 * class [DocumentBuilder](../)
-* ad alanı [Aspose.Words](../../documentbuilder/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## MoveToBookmark(string, bool, bool) {#movetobookmark_1}
+## MoveToBookmark(*string, bool, bool*) {#movetobookmark_1}
 
 İmleci daha büyük bir hassasiyetle yer imine taşır.
 
@@ -109,7 +111,7 @@ public bool MoveToBookmark(string bookmarkName, bool isStart, bool isAfter)
 
 `doğru` yer imi bulunursa;`YANLIŞ` aksi takdirde.
 
-### Notlar
+## Notlar
 
 İmleci yer imi başlangıcından veya bitişinden önce veya sonra bir konuma taşır.
 
@@ -117,7 +119,7 @@ public bool MoveToBookmark(string bookmarkName, bool isStart, bool isAfter)
 
 Karşılaştırma büyük/küçük harfe duyarlı değildir. Yer imi bulunamazsa,`YANLIŞ` is döndürüldü ve imleç hareket etmiyor.
 
-### Örnekler
+## Örnekler
 
 Belge oluşturucunun düğüm ekleme noktası imlecinin bir yer imine nasıl taşınacağını gösterir.
 
@@ -166,7 +168,5 @@ Assert.AreEqual("1. 2. Hello world! 3. 4.", doc.GetText().Trim());
 ### Ayrıca bakınız
 
 * class [DocumentBuilder](../)
-* ad alanı [Aspose.Words](../../documentbuilder/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

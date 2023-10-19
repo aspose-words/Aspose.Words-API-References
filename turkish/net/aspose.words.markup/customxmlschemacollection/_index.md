@@ -1,7 +1,9 @@
 ---
-title: Class CustomXmlSchemaCollection
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Markup.CustomXmlSchemaCollection sınıf. Özel bir XML bölümüyle ilişkili XML şemalarını temsil eden dizelerden oluşan bir koleksiyon.
+title: CustomXmlSchemaCollection Class
+linktitle: CustomXmlSchemaCollection
+articleTitle: CustomXmlSchemaCollection
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Markup.CustomXmlSchemaCollection sınıf. Özel bir XML bölümüyle ilişkili XML şemalarını temsil eden dizelerden oluşan bir koleksiyon C#'da.
 type: docs
 weight: 3960
 url: /tr/net/aspose.words.markup/customxmlschemacollection/
@@ -27,19 +29,19 @@ public class CustomXmlSchemaCollection : IEnumerable<string>
 
 | İsim | Tanım |
 | --- | --- |
-| [Add](../../aspose.words.markup/customxmlschemacollection/add/)(string) | Koleksiyona bir öğe ekler. |
+| [Add](../../aspose.words.markup/customxmlschemacollection/add/)(*string*) | Koleksiyona bir öğe ekler. |
 | [Clear](../../aspose.words.markup/customxmlschemacollection/clear/)() | Koleksiyondaki tüm öğeleri kaldırır. |
 | [Clone](../../aspose.words.markup/customxmlschemacollection/clone/)() | Bu nesnenin derin bir klonunu oluşturur. |
 | [GetEnumerator](../../aspose.words.markup/customxmlschemacollection/getenumerator/)() | Koleksiyondaki tüm öğeler üzerinde yineleme yapmak için kullanılabilecek bir numaralandırıcı nesnesini döndürür. |
-| [IndexOf](../../aspose.words.markup/customxmlschemacollection/indexof/)(string) | Koleksiyonda belirtilen değerin sıfır tabanlı dizinini döndürür. |
-| [Remove](../../aspose.words.markup/customxmlschemacollection/remove/)(string) | Belirtilen değeri koleksiyondan kaldırır. |
-| [RemoveAt](../../aspose.words.markup/customxmlschemacollection/removeat/)(int) | Belirtilen dizindeki bir değeri kaldırır. |
+| [IndexOf](../../aspose.words.markup/customxmlschemacollection/indexof/)(*string*) | Koleksiyonda belirtilen değerin sıfır tabanlı dizinini döndürür. |
+| [Remove](../../aspose.words.markup/customxmlschemacollection/remove/)(*string*) | Belirtilen değeri koleksiyondan kaldırır. |
+| [RemoveAt](../../aspose.words.markup/customxmlschemacollection/removeat/)(*int*) | Belirtilen dizindeki bir değeri kaldırır. |
 
-### Notlar
+## Notlar
 
 Bu sınıfın örneklerini oluşturmazsınız. Özel bir XML part 'nin XML şemaları koleksiyonuna şu yolla erişebilirsiniz:[`Schemas`](../customxmlpart/schemas/) mülk.
 
-### Örnekler
+## Örnekler
 
 XML şeması koleksiyonuyla nasıl çalışılacağını gösterir.
 
@@ -86,5 +88,3 @@ Assert.AreEqual(0, schemas.Count);
 
 * ad alanı [Aspose.Words.Markup](../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../)
-
-

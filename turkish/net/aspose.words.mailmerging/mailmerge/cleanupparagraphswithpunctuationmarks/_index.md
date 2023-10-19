@@ -1,7 +1,9 @@
 ---
 title: MailMerge.CleanupParagraphsWithPunctuationMarks
-second_title: Aspose.Words for .NET API Referansı
-description: MailMerge mülk. Noktalama işaretli paragrafların boş olarak kabul edilip edilmeyeceğini ve eğerRemoveEmptyParagraphs seçenek belirtildi.
+linktitle: CleanupParagraphsWithPunctuationMarks
+articleTitle: CleanupParagraphsWithPunctuationMarks
+second_title: Aspose.Words for .NET
+description: MailMerge CleanupParagraphsWithPunctuationMarks mülk. Noktalama işaretli paragrafların boş olarak kabul edilip edilmeyeceğini ve eğerRemoveEmptyParagraphs seçenek belirtildi C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.mailmerging/mailmerge/cleanupparagraphswithpunctuationmarks/
@@ -14,7 +16,7 @@ Noktalama işaretli paragrafların boş olarak kabul edilip edilmeyeceğini ve e
 public bool CleanupParagraphsWithPunctuationMarks { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:`doğru` .
 
@@ -29,7 +31,7 @@ Temizlenebilir noktalama işaretlerinin tam listesi:
 * ¡
 * ¿
 
-### Örnekler
+## Örnekler
 
 Adres-mektup birleştirme işleminden sonra noktalama işaretli paragrafların nasıl kaldırılacağını gösterir.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "MailMerge.RemoveColonBetweenEmptyMergeFields.docx");
 ### Ayrıca bakınız
 
 * class [MailMerge](../)
-* ad alanı [Aspose.Words.MailMerging](../../mailmerge/)
+* ad alanı [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * toplantı [Aspose.Words](../../../)
-
-

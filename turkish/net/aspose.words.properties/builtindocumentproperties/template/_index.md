@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Template
-second_title: Aspose.Words for .NET API Referansı
-description: BuiltInDocumentProperties mülk. Belge şablonunun bilgilendirici adını alır veya ayarlar.
+linktitle: Template
+articleTitle: Template
+second_title: Aspose.Words for .NET
+description: BuiltInDocumentProperties Template mülk. Belge şablonunun bilgilendirici adını alır veya ayarlar C#'da.
 type: docs
 weight: 270
 url: /tr/net/aspose.words.properties/builtindocumentproperties/template/
@@ -14,7 +16,7 @@ Belge şablonunun bilgilendirici adını alır veya ayarlar.
 public string Template { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Microsoft Word'de bu özellik yalnızca bilgilendirme amaçlıdır ve genellikle yol olmadan yalnızca şablonun dosya adını içerir.
 
@@ -22,7 +24,7 @@ Boş dize, belgenin Normal şablona eklendiği anlamına gelir.
 
 Ekli şablonun gerçek adını almak veya ayarlamak için the kullanın[`AttachedTemplate`](../../../aspose.words/document/attachedtemplate/) mülk.
 
-### Örnekler
+## Örnekler
 
 "Orijin" kategorisindeki belge özellikleriyle nasıl çalışılacağını gösterir.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.Origin.docx");
 ### Ayrıca bakınız
 
 * class [BuiltInDocumentProperties](../)
-* ad alanı [Aspose.Words.Properties](../../builtindocumentproperties/)
+* ad alanı [Aspose.Words.Properties](../../../aspose.words.properties/)
 * toplantı [Aspose.Words](../../../)
-
-

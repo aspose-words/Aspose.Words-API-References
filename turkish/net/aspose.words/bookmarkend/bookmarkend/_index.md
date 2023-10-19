@@ -1,7 +1,9 @@
 ---
-title: BookmarkEnd.BookmarkEnd
-second_title: Aspose.Words for .NET API Referansı
-description: BookmarkEnd inşaatçı. Yeni bir örneğini başlatırBookmarkEnd class.
+title: BookmarkEnd
+linktitle: BookmarkEnd
+articleTitle: BookmarkEnd
+second_title: Aspose.Words for .NET
+description: BookmarkEnd inşaatçı. Yeni bir örneğini başlatırBookmarkEnd class C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/bookmarkend/bookmarkend/
@@ -19,7 +21,7 @@ public BookmarkEnd(DocumentBase doc, string name)
 | doc | DocumentBase | Sahibi belgesi. |
 | name | String | Yer iminin adı. Olamaz`hükümsüz`. |
 
-### Örnekler
+## Örnekler
 
 Yer işaretlerinin nasıl ekleneceğini ve içeriklerinin nasıl güncelleneceğini gösterir.
 
@@ -109,7 +111,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 * class [DocumentBase](../../documentbase/)
 * class [BookmarkEnd](../)
-* ad alanı [Aspose.Words](../../bookmarkend/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

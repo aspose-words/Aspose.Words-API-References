@@ -1,7 +1,9 @@
 ---
 title: GradientStopCollection.Remove
-second_title: Aspose.Words for .NET API Referansı
-description: GradientStopCollection yöntem. Belirtilen bir öğeyi kaldırırGradientStop koleksiyondan.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words for .NET
+description: GradientStopCollection Remove yöntem. Belirtilen bir öğeyi kaldırırGradientStop koleksiyondan C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.drawing/gradientstopcollection/remove/
@@ -18,7 +20,7 @@ public bool Remove(GradientStop gradientStop)
 
 `doğru` degrade durdurma başarıyla kaldırıldıysa, aksi takdirde`YANLIŞ`.
 
-### Örnekler
+## Örnekler
 
 Degrade dolgusuna degrade duraklarının nasıl ekleneceğini gösterir.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 
 * class [GradientStop](../../gradientstop/)
 * class [GradientStopCollection](../)
-* ad alanı [Aspose.Words.Drawing](../../gradientstopcollection/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.SequenceName
-second_title: Aspose.Words for .NET API Referansı
-description: FieldIndex mülk. Numarası sayfa numarasına dahil edilen bir dizinin adını alır veya ayarlar.
+linktitle: SequenceName
+articleTitle: SequenceName
+second_title: Aspose.Words for .NET
+description: FieldIndex SequenceName mülk. Numarası sayfa numarasına dahil edilen bir dizinin adını alır veya ayarlar C#'da.
 type: docs
 weight: 150
 url: /tr/net/aspose.words.fields/fieldindex/sequencename/
@@ -14,7 +16,7 @@ Numarası sayfa numarasına dahil edilen bir dizinin adını alır veya ayarlar.
 public string SequenceName { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 INDEX ve SEQ alanlarını birleştirerek bir belgenin nasıl bölümlere bölüneceğini gösterir.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Sequence.docx");
 ### Ayrıca bakınız
 
 * class [FieldIndex](../)
-* ad alanı [Aspose.Words.Fields](../../fieldindex/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

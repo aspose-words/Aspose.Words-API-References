@@ -1,7 +1,9 @@
 ---
-title: Class ChartSeries
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.Charts.ChartSeries sınıf. Grafik serisi özelliklerini temsil eder.
+title: ChartSeries Class
+linktitle: ChartSeries
+articleTitle: ChartSeries
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.Charts.ChartSeries sınıf. Grafik serisi özelliklerini temsil eder C#'da.
 type: docs
 weight: 780
 url: /tr/net/aspose.words.drawing.charts/chartseries/
@@ -40,18 +42,17 @@ public class ChartSeries : IChartDataPoint
 
 | İsim | Tanım |
 | --- | --- |
-| [Add](../../aspose.words.drawing.charts/chartseries/add/#add)(ChartXValue) | Belirtilen X değerini grafik serisine ekler. Seri, Y değerlerini ve kabarcık boyutlarını destekliyorsa, bunlar X değeri için boş olacaktır. |
-| [Add](../../aspose.words.drawing.charts/chartseries/add/#add_1)(ChartXValue, ChartYValue) | Belirtilen X ve Y değerlerini grafik serisine ekler. |
-| [Add](../../aspose.words.drawing.charts/chartseries/add/#add_2)(ChartXValue, ChartYValue, double) | Belirtilen X değerini, Y değerini ve kabarcık boyutunu grafik serisine ekler. |
+| [Add](../../aspose.words.drawing.charts/chartseries/add/#add)(*[ChartXValue](../chartxvalue/)*) | Belirtilen X değerini grafik serisine ekler. Seri, Y değerlerini ve kabarcık boyutlarını destekliyorsa, bunlar X değeri için boş olacaktır. |
+| [Add](../../aspose.words.drawing.charts/chartseries/add/#add_1)(*[ChartXValue](../chartxvalue/), [ChartYValue](../chartyvalue/)*) | Belirtilen X ve Y değerlerini grafik serisine ekler. |
+| [Add](../../aspose.words.drawing.charts/chartseries/add/#add_2)(*[ChartXValue](../chartxvalue/), [ChartYValue](../chartyvalue/), double*) | Belirtilen X değerini, Y değerini ve kabarcık boyutunu grafik serisine ekler. |
 | [Clear](../../aspose.words.drawing.charts/chartseries/clear/)() | Tüm veri değerlerini grafik serisinden kaldırır. Tüm bireysel veri noktalarının ve veri etiketlerinin formatı temizlendi. |
 | [ClearValues](../../aspose.words.drawing.charts/chartseries/clearvalues/)() | Veri noktalarının ve veri etiketlerinin formatını koruyarak tüm veri değerlerini grafik serisinden kaldırır. |
-| [CopyFormatFrom](../../aspose.words.drawing.charts/chartseries/copyformatfrom/)(int) |  |
-| [Insert](../../aspose.words.drawing.charts/chartseries/insert/#insert)(int, ChartXValue) | Belirtilen X değerini belirtilen dizindeki grafik serisine ekler. Seri, Y değerlerini ve kabarcık boyutlarını destekliyorsa, X değeri için boş olacaktır. |
-| [Insert](../../aspose.words.drawing.charts/chartseries/insert/#insert_1)(int, ChartXValue, ChartYValue) | Belirtilen X ve Y değerlerini belirtilen dizindeki grafik serisine ekler. |
-| [Insert](../../aspose.words.drawing.charts/chartseries/insert/#insert_2)(int, ChartXValue, ChartYValue, double) | Belirtilen X değerini, Y değerini ve kabarcık boyutunu belirtilen dizindeki grafik serisine ekler. |
-| [Remove](../../aspose.words.drawing.charts/chartseries/remove/)(int) | Belirtilen dizindeki grafik serisinden X değerini, Y değerini ve kabarcık boyutunu (destekleniyorsa) kaldırır. İlgili veri noktası ve veri etiketi de kaldırılır. |
+| [Insert](../../aspose.words.drawing.charts/chartseries/insert/#insert)(*int, [ChartXValue](../chartxvalue/)*) | Belirtilen X değerini belirtilen dizindeki grafik serisine ekler. Seri, Y değerlerini ve kabarcık boyutlarını destekliyorsa, X değeri için boş olacaktır. |
+| [Insert](../../aspose.words.drawing.charts/chartseries/insert/#insert_1)(*int, [ChartXValue](../chartxvalue/), [ChartYValue](../chartyvalue/)*) | Belirtilen X ve Y değerlerini belirtilen dizindeki grafik serisine ekler. |
+| [Insert](../../aspose.words.drawing.charts/chartseries/insert/#insert_2)(*int, [ChartXValue](../chartxvalue/), [ChartYValue](../chartyvalue/), double*) | Belirtilen X değerini, Y değerini ve kabarcık boyutunu belirtilen dizindeki grafik serisine ekler. |
+| [Remove](../../aspose.words.drawing.charts/chartseries/remove/)(*int*) | Belirtilen dizindeki grafik serisinden X değerini, Y değerini ve kabarcık boyutunu (destekleniyorsa) kaldırır. İlgili veri noktası ve veri etiketi de kaldırılır. |
 
-### Örnekler
+## Örnekler
 
 Çizgi grafikteki veri noktalarına etiketlerin nasıl uygulanacağını gösterir.
 
@@ -131,5 +132,3 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 * interface [IChartDataPoint](../ichartdatapoint/)
 * ad alanı [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../)
-
-

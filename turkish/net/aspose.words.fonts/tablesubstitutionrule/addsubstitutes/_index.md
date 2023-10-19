@@ -1,7 +1,9 @@
 ---
 title: TableSubstitutionRule.AddSubstitutes
-second_title: Aspose.Words for .NET API Referansı
-description: TableSubstitutionRule yöntem. Verilen orijinal yazı tipi adı için yedek yazı tipi adlarını ekler.
+linktitle: AddSubstitutes
+articleTitle: AddSubstitutes
+second_title: Aspose.Words for .NET
+description: TableSubstitutionRule AddSubstitutes yöntem. Verilen orijinal yazı tipi adı için yedek yazı tipi adlarını ekler C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fonts/tablesubstitutionrule/addsubstitutes/
@@ -19,7 +21,7 @@ public void AddSubstitutes(string originalFontName, params string[] substituteFo
 | originalFontName | String | Orijinal yazı tipi adı. |
 | substituteFontNames | String[] | Alternatif yazı tipi adlarının listesi. |
 
-### Örnekler
+## Örnekler
 
 Bir belgenin sistem yazı tipi kaynağına nasıl erişileceğini ve yazı tipi yedeklerinin nasıl ayarlanacağını gösterir.
 
@@ -131,7 +133,5 @@ doc.Save(ArtifactsDir + "FontSettings.TableSubstitutionRule.Custom.pdf");
 ### Ayrıca bakınız
 
 * class [TableSubstitutionRule](../)
-* ad alanı [Aspose.Words.Fonts](../../tablesubstitutionrule/)
+* ad alanı [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../../)
-
-

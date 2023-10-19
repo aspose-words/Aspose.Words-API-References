@@ -1,7 +1,9 @@
 ---
 title: Document.ViewOptions
-second_title: Aspose.Words for .NET API Referansı
-description: Document mülk. Belgenin Microsoft Wordde nasıl görüntüleneceğini kontrol etmek için seçenekler sunar.
+linktitle: ViewOptions
+articleTitle: ViewOptions
+second_title: Aspose.Words for .NET
+description: Document ViewOptions mülk. Belgenin Microsoft Wordde nasıl görüntüleneceğini kontrol etmek için seçenekler sunar C#'da.
 type: docs
 weight: 470
 url: /tr/net/aspose.words/document/viewoptions/
@@ -14,7 +16,7 @@ Belgenin Microsoft Word'de nasıl görüntüleneceğini kontrol etmek için seç
 public ViewOptions ViewOptions { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Microsoft Word'ün eski sürümlerinin yükleme sırasında bir belgeye uygulayacağı özel yakınlaştırma faktörünün nasıl ayarlanacağını gösterir.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "ViewOptions.SetZoomType.doc");
 
 * class [ViewOptions](../../../aspose.words.settings/viewoptions/)
 * class [Document](../)
-* ad alanı [Aspose.Words](../../document/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: CellFormat.PreferredWidth
-second_title: Aspose.Words for .NET API Referansı
-description: CellFormat mülk. Hücrenin tercih edilen genişliğini döndürür veya ayarlar.
+linktitle: PreferredWidth
+articleTitle: PreferredWidth
+second_title: Aspose.Words for .NET
+description: CellFormat PreferredWidth mülk. Hücrenin tercih edilen genişliğini döndürür veya ayarlar C#'da.
 type: docs
-weight: 80
+weight: 70
 url: /tr/net/aspose.words.tables/cellformat/preferredwidth/
 ---
 ## CellFormat.PreferredWidth property
@@ -14,7 +16,7 @@ Hücrenin tercih edilen genişliğini döndürür veya ayarlar.
 public PreferredWidth PreferredWidth { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Tercih edilen genişlik (tablonun Otomatik Sığdır seçeneğiyle birlikte), hücrenin gerçek genişliğinin tablo düzeni algoritması tarafından nasıl hesaplanacağını belirler. Tablo düzeni, belgeyi kaydederken Aspose.Words veya belgeyi görüntülerken Microsoft Word tarafından gerçekleştirilebilir.
 
@@ -22,7 +24,7 @@ Tercih edilen genişlik nokta veya yüzde olarak belirtilebilir. Tercih edilen w
 
 Varsayılan değer:[`Auto`](../../preferredwidth/auto/).
 
-### Örnekler
+## Örnekler
 
 Tablo hücreleri için tercih edilen genişliğin nasıl ayarlanacağını gösterir.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCellsWithPreferredWidths.docx");
 
 * class [PreferredWidth](../../preferredwidth/)
 * class [CellFormat](../)
-* ad alanı [Aspose.Words.Tables](../../cellformat/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

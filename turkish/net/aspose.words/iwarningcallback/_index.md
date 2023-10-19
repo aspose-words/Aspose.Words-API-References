@@ -1,7 +1,9 @@
 ---
-title: Interface IWarningCallback
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.IWarningCallback arayüz. Belge yükleme veya kaydetme sırasında oluşabilecek aslına uygunluk kaybı uyarılarını yakalamak için kendi özel yönteminizin çağrılmasını istiyorsanız bu arayüzü uygulayın.
+title: IWarningCallback Interface
+linktitle: IWarningCallback
+articleTitle: IWarningCallback
+second_title: Aspose.Words for .NET
+description: Aspose.Words.IWarningCallback arayüz. Belge yükleme veya kaydetme sırasında oluşabilecek aslına uygunluk kaybı uyarılarını yakalamak için kendi özel yönteminizin çağrılmasını istiyorsanız bu arayüzü uygulayın C#'da.
 type: docs
 weight: 3210
 url: /tr/net/aspose.words/iwarningcallback/
@@ -18,9 +20,9 @@ public interface IWarningCallback
 
 | İsim | Tanım |
 | --- | --- |
-| [Warning](../../aspose.words/iwarningcallback/warning/)(WarningInfo) | Aspose.Words, belgesini yüklerken veya kaydederken biçimlendirme veya veri doğruluğu kaybına yol açabilecek bir sorunla karşılaştığında bu yöntemi çağırır. |
+| [Warning](../../aspose.words/iwarningcallback/warning/)(*[WarningInfo](../warninginfo/)*) | Aspose.Words, belgesini yüklerken veya kaydederken biçimlendirme veya veri doğruluğu kaybına yol açabilecek bir sorunla karşılaştığında bu yöntemi çağırır. |
 
-### Örnekler
+## Örnekler
 
 Yazı tipi değiştirme uyarılarını izlemek için IWarningCallback arabiriminin nasıl kullanılacağını gösterir.
 
@@ -179,5 +181,3 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

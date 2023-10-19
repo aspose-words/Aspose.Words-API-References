@@ -1,7 +1,9 @@
 ---
-title: Enum SdtDateStorageFormat
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Markup.SdtDateStorageFormat Sıralama. SDT belgenin veri deposundaki bir XML düğümüne bağlandığında SDT tarihi için tarihin nasıl saklanacağını/alınacağını belirtir.
+title: SdtDateStorageFormat Enum
+linktitle: SdtDateStorageFormat
+articleTitle: SdtDateStorageFormat
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Markup.SdtDateStorageFormat Sıralama. SDT belgenin veri deposundaki bir XML düğümüne bağlandığında SDT tarihi için tarihin nasıl saklanacağını/alınacağını belirtir C#'da.
 type: docs
 weight: 4010
 url: /tr/net/aspose.words.markup/sdtdatestorageformat/
@@ -27,5 +29,3 @@ public enum SdtDateStorageFormat
 
 * ad alanı [Aspose.Words.Markup](../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../)
-
-

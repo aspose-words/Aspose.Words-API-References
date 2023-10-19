@@ -1,7 +1,9 @@
 ---
 title: CleanupOptions.UnusedLists
-second_title: Aspose.Words for .NET API Referansı
-description: CleanupOptions mülk. Kullanılmayan liste ve liste tanımlarının belgeden kaldırılıp kaldırılmayacağını belirtir. Varsayılan değerdoğru .
+linktitle: UnusedLists
+articleTitle: UnusedLists
+second_title: Aspose.Words for .NET
+description: CleanupOptions UnusedLists mülk. Kullanılmayan liste ve liste tanımlarının belgeden kaldırılıp kaldırılmayacağını belirtir. Varsayılan değerdoğru  C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words/cleanupoptions/unusedlists/
@@ -14,7 +16,7 @@ Kullanılmayan liste ve liste tanımlarının belgeden kaldırılıp kaldırılm
 public bool UnusedLists { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Kullanılmayan tüm özel stillerin bir belgeden nasıl kaldırılacağını gösterir.
 
@@ -63,7 +65,5 @@ Assert.AreEqual(2, doc.Styles.Count);
 ### Ayrıca bakınız
 
 * class [CleanupOptions](../)
-* ad alanı [Aspose.Words](../../cleanupoptions/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

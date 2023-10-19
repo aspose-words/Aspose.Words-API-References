@@ -1,7 +1,9 @@
 ---
 title: BookmarksOutlineLevelCollection.Remove
-second_title: Aspose.Words for .NET API Referansı
-description: BookmarksOutlineLevelCollection yöntem. Koleksiyondan belirtilen ada sahip bir yer işaretini kaldırır.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words for .NET
+description: BookmarksOutlineLevelCollection Remove yöntem. Koleksiyondan belirtilen ada sahip bir yer işaretini kaldırır C#'da.
 type: docs
 weight: 90
 url: /tr/net/aspose.words.saving/bookmarksoutlinelevelcollection/remove/
@@ -18,7 +20,7 @@ public void Remove(string name)
 | --- | --- | --- |
 | name | String | Yer işaretinin büyük/küçük harfe duyarlı olmayan adı. |
 
-### Örnekler
+## Örnekler
 
 Yer imleri için anahat düzeylerinin nasıl ayarlanacağını gösterir.
 
@@ -76,7 +78,5 @@ outlineLevels.Clear();
 ### Ayrıca bakınız
 
 * class [BookmarksOutlineLevelCollection](../)
-* ad alanı [Aspose.Words.Saving](../../bookmarksoutlinelevelcollection/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

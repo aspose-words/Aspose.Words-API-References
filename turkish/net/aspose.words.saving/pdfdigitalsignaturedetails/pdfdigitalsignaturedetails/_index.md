@@ -1,7 +1,9 @@
 ---
-title: PdfDigitalSignatureDetails.PdfDigitalSignatureDetails
-second_title: Aspose.Words for .NET API Referansı
-description: PdfDigitalSignatureDetails inşaatçı. Bu sınıfın bir örneğini başlatır.
+title: PdfDigitalSignatureDetails
+linktitle: PdfDigitalSignatureDetails
+articleTitle: PdfDigitalSignatureDetails
+second_title: Aspose.Words for .NET
+description: PdfDigitalSignatureDetails inşaatçı. Bu sınıfın bir örneğini başlatır C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.saving/pdfdigitalsignaturedetails/pdfdigitalsignaturedetails/
@@ -14,7 +16,7 @@ Bu sınıfın bir örneğini başlatır.
 public PdfDigitalSignatureDetails()
 ```
 
-### Örnekler
+## Örnekler
 
 Oluşturulan bir PDF belgesinin nasıl imzalanacağını gösterir.
 
@@ -46,12 +48,12 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 ### Ayrıca bakınız
 
 * class [PdfDigitalSignatureDetails](../)
-* ad alanı [Aspose.Words.Saving](../../pdfdigitalsignaturedetails/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## PdfDigitalSignatureDetails(CertificateHolder, string, string, DateTime) {#constructor_1}
+## PdfDigitalSignatureDetails(*[CertificateHolder](../../../aspose.words.digitalsignatures/certificateholder/), string, string, DateTime*) {#constructor_1}
 
 Bu sınıfın bir örneğini başlatır.
 
@@ -67,7 +69,7 @@ public PdfDigitalSignatureDetails(CertificateHolder certificateHolder, string re
 | location | String | İmzanın yeri. |
 | signatureDate | DateTime | İmzalama tarihi ve saati. |
 
-### Örnekler
+## Örnekler
 
 Oluşturulan bir PDF belgesinin nasıl imzalanacağını gösterir.
 
@@ -100,7 +102,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 
 * class [CertificateHolder](../../../aspose.words.digitalsignatures/certificateholder/)
 * class [PdfDigitalSignatureDetails](../)
-* ad alanı [Aspose.Words.Saving](../../pdfdigitalsignaturedetails/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ImageSize.WidthPixels
-second_title: Aspose.Words for .NET API Referansı
-description: ImageSize mülk. Görüntünün genişliğini piksel cinsinden alır.
+linktitle: WidthPixels
+articleTitle: WidthPixels
+second_title: Aspose.Words for .NET
+description: ImageSize WidthPixels mülk. Görüntünün genişliğini piksel cinsinden alır C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.drawing/imagesize/widthpixels/
@@ -14,7 +16,7 @@ Görüntünün genişliğini piksel cinsinden alır.
 public int WidthPixels { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir şekildeki görüntünün özelliklerinin nasıl okunacağını gösterir.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "Drawing.ImageSize.docx");
 ### Ayrıca bakınız
 
 * class [ImageSize](../)
-* ad alanı [Aspose.Words.Drawing](../../imagesize/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

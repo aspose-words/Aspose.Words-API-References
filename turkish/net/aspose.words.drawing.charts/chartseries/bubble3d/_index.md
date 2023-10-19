@@ -1,7 +1,9 @@
 ---
 title: ChartSeries.Bubble3D
-second_title: Aspose.Words for .NET API Referansı
-description: ChartSeries mülk. Kabarcık grafiğindeki baloncuklara 3 boyutlu efektin uygulanması gerekip gerekmediğini belirtir.
+linktitle: Bubble3D
+articleTitle: Bubble3D
+second_title: Aspose.Words for .NET
+description: ChartSeries Bubble3D mülk. Kabarcık grafiğindeki baloncuklara 3 boyutlu efektin uygulanması gerekip gerekmediğini belirtir C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.drawing.charts/chartseries/bubble3d/
@@ -17,7 +19,5 @@ public bool Bubble3D { get; set; }
 ### Ayrıca bakınız
 
 * class [ChartSeries](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartseries/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

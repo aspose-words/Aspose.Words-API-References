@@ -1,7 +1,9 @@
 ---
 title: OoxmlSaveOptions.KeepLegacyControlChars
-second_title: Aspose.Words for .NET API Referansı
-description: OoxmlSaveOptions mülk. Eski kontrol karakterlerinin orijinal temsilini korur.
+linktitle: KeepLegacyControlChars
+articleTitle: KeepLegacyControlChars
+second_title: Aspose.Words for .NET
+description: OoxmlSaveOptions KeepLegacyControlChars mülk. Eski kontrol karakterlerinin orijinal temsilini korur C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.saving/ooxmlsaveoptions/keeplegacycontrolchars/
@@ -14,7 +16,7 @@ Eski kontrol karakterlerinin orijinal temsilini korur.
 public bool KeepLegacyControlChars { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 .docx'e dönüştürürken eski kontrol karakterlerinin nasıl destekleneceğini gösterir.
 
@@ -41,7 +43,5 @@ Assert.AreEqual(keepLegacyControlChars ? "\u0013date \\@ \"MM/dd/yyyy\"\u0014\u0
 ### Ayrıca bakınız
 
 * class [OoxmlSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../ooxmlsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

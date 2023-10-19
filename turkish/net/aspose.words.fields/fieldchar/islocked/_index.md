@@ -1,7 +1,9 @@
 ---
 title: FieldChar.IsLocked
-second_title: Aspose.Words for .NET API Referansı
-description: FieldChar mülk. Ana alanın kilitli olup olmadığını alır veya ayarlar sonucu yeniden hesaplanmamalıdır.
+linktitle: IsLocked
+articleTitle: IsLocked
+second_title: Aspose.Words for .NET
+description: FieldChar IsLocked mülk. Ana alanın kilitli olup olmadığını alır veya ayarlar sonucu yeniden hesaplanmamalıdır C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fields/fieldchar/islocked/
@@ -14,7 +16,7 @@ Ana alanın kilitli olup olmadığını alır veya ayarlar (sonucu yeniden hesap
 public bool IsLocked { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 FieldStart düğümüyle nasıl çalışılacağını gösterir.
 
@@ -45,7 +47,5 @@ field.Update();
 ### Ayrıca bakınız
 
 * class [FieldChar](../)
-* ad alanı [Aspose.Words.Fields](../../fieldchar/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

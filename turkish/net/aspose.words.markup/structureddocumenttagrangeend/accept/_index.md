@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeEnd.Accept
-second_title: Aspose.Words for .NET API Referansı
-description: StructuredDocumentTagRangeEnd yöntem. Ziyaretçi kabul eder.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words for .NET
+description: StructuredDocumentTagRangeEnd Accept yöntem. Ziyaretçi kabul eder C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.markup/structureddocumenttagrangeend/accept/
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 Tüm düğümler ziyaret edilmişse doğrudur; yanlış ise[`DocumentVisitor`](../../../aspose.words/documentvisitor/) tüm düğümleri ziyaret etmeden işlemi durdurdu.
 
-### Notlar
+## Notlar
 
 Bu düğümü ve tüm alt öğelerini numaralandırır. Her düğüm kendisine karşılık gelen bir yöntemi çağırır.[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
@@ -32,7 +34,5 @@ Daha fazla bilgi için Ziyaretçi tasarım desenine bakın.
 
 * class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * class [StructuredDocumentTagRangeEnd](../)
-* ad alanı [Aspose.Words.Markup](../../structureddocumenttagrangeend/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

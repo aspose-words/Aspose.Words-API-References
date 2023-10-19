@@ -1,7 +1,9 @@
 ---
 title: Table.LeftPadding
-second_title: Aspose.Words for .NET API Referansı
-description: Table mülk. Hücre içeriğinin soluna eklenecek alan miktarını puan cinsinden alır veya ayarlar.
+linktitle: LeftPadding
+articleTitle: LeftPadding
+second_title: Aspose.Words for .NET
+description: Table LeftPadding mülk. Hücre içeriğinin soluna eklenecek alan miktarını puan cinsinden alır veya ayarlar C#'da.
 type: docs
 weight: 200
 url: /tr/net/aspose.words.tables/table/leftpadding/
@@ -14,7 +16,7 @@ Hücre içeriğinin soluna eklenecek alan miktarını (puan cinsinden) alır vey
 public double LeftPadding { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir tabloda içerik dolgusunun nasıl yapılandırılacağını gösterir.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.SetRowFormatting.docx");
 ### Ayrıca bakınız
 
 * class [Table](../)
-* ad alanı [Aspose.Words.Tables](../../table/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

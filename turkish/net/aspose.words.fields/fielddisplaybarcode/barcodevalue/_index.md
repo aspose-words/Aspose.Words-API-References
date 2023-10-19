@@ -1,7 +1,9 @@
 ---
 title: FieldDisplayBarcode.BarcodeValue
-second_title: Aspose.Words for .NET API Referansı
-description: FieldDisplayBarcode mülk. Barkod değerini alır veya ayarlar.
+linktitle: BarcodeValue
+articleTitle: BarcodeValue
+second_title: Aspose.Words for .NET
+description: FieldDisplayBarcode BarcodeValue mülk. Barkod değerini alır veya ayarlar C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.fields/fielddisplaybarcode/barcodevalue/
@@ -14,7 +16,7 @@ Barkod değerini alır veya ayarlar.
 public string BarcodeValue { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 DISPLAYBARCODE alanının nasıl ekleneceğini ve özelliklerinin nasıl ayarlanacağını gösterir.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Field.DISPLAYBARCODE.docx");
 ### Ayrıca bakınız
 
 * class [FieldDisplayBarcode](../)
-* ad alanı [Aspose.Words.Fields](../../fielddisplaybarcode/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

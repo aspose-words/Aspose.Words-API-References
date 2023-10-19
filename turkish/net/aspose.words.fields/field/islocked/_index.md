@@ -1,7 +1,9 @@
 ---
 title: Field.IsLocked
-second_title: Aspose.Words for .NET API Referansı
-description: Field mülk. Alanın kilitli olup olmadığını alır veya ayarlar sonucu yeniden hesaplanmamalıdır.
+linktitle: IsLocked
+articleTitle: IsLocked
+second_title: Aspose.Words for .NET
+description: Field IsLocked mülk. Alanın kilitli olup olmadığını alır veya ayarlar sonucu yeniden hesaplanmamalıdır C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.fields/field/islocked/
@@ -14,7 +16,7 @@ Alanın kilitli olup olmadığını alır veya ayarlar (sonucu yeniden hesaplanm
 public bool IsLocked { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 FieldStart düğümüyle nasıl çalışılacağını gösterir.
 
@@ -45,7 +47,5 @@ field.Update();
 ### Ayrıca bakınız
 
 * class [Field](../)
-* ad alanı [Aspose.Words.Fields](../../field/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

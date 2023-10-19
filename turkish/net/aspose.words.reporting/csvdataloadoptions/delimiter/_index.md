@@ -1,7 +1,9 @@
 ---
 title: CsvDataLoadOptions.Delimiter
-second_title: Aspose.Words for .NET API Referansı
-description: CsvDataLoadOptions mülk. Sütun sınırlayıcı olarak kullanılacak karakteri alır veya ayarlar.
+linktitle: Delimiter
+articleTitle: Delimiter
+second_title: Aspose.Words for .NET
+description: CsvDataLoadOptions Delimiter mülk. Sütun sınırlayıcı olarak kullanılacak karakteri alır veya ayarlar C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.reporting/csvdataloadoptions/delimiter/
@@ -14,14 +16,12 @@ Sütun sınırlayıcı olarak kullanılacak karakteri alır veya ayarlar.
 public char Delimiter { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer ',' (virgül) şeklindedir.
 
 ### Ayrıca bakınız
 
 * class [CsvDataLoadOptions](../)
-* ad alanı [Aspose.Words.Reporting](../../csvdataloadoptions/)
+* ad alanı [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * toplantı [Aspose.Words](../../../)
-
-

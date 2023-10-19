@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.ExportEmbeddedCss
-second_title: Aspose.Words for .NET API Referansı
-description: HtmlFixedSaveOptions mülk. CSSnin Basamaklı Stil Sayfası Html belgesine gömülmesi gerekip gerekmediğini belirtir.
+linktitle: ExportEmbeddedCss
+articleTitle: ExportEmbeddedCss
+second_title: Aspose.Words for .NET
+description: HtmlFixedSaveOptions ExportEmbeddedCss mülk. CSSnin Basamaklı Stil Sayfası Html belgesine gömülmesi gerekip gerekmediğini belirtir C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.saving/htmlfixedsaveoptions/exportembeddedcss/
@@ -14,7 +16,7 @@ CSS'nin (Basamaklı Stil Sayfası) Html belgesine gömülmesi gerekip gerekmedi�
 public bool ExportEmbeddedCss { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi Html'ye aktarırken CSS stil sayfalarının nerede saklanacağının nasıl belirleneceğini gösterir.
 
@@ -51,7 +53,5 @@ else
 ### Ayrıca bakınız
 
 * class [HtmlFixedSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

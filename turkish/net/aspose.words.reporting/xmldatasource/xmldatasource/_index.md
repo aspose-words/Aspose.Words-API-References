@@ -1,12 +1,14 @@
 ---
-title: XmlDataSource.XmlDataSource
-second_title: Aspose.Words for .NET API Referansı
-description: XmlDataSource inşaatçı. XML veri yüklemesi için varsayılan seçenekleri kullanarak XML dosyasındaki verilerle yeni bir veri kaynağı oluşturur.
+title: XmlDataSource
+linktitle: XmlDataSource
+articleTitle: XmlDataSource
+second_title: Aspose.Words for .NET
+description: XmlDataSource inşaatçı. XML veri yüklemesi için varsayılan seçenekleri kullanarak XML dosyasındaki verilerle yeni bir veri kaynağı oluşturur C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.reporting/xmldatasource/xmldatasource/
 ---
-## XmlDataSource(string) {#constructor_4}
+## XmlDataSource(*string*) {#constructor_4}
 
 XML veri yüklemesi için varsayılan seçenekleri kullanarak XML dosyasındaki verilerle yeni bir veri kaynağı oluşturur.
 
@@ -21,12 +23,12 @@ public XmlDataSource(string xmlPath)
 ### Ayrıca bakınız
 
 * class [XmlDataSource](../)
-* ad alanı [Aspose.Words.Reporting](../../xmldatasource/)
+* ad alanı [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## XmlDataSource(Stream) {#constructor}
+## XmlDataSource(*Stream*) {#constructor}
 
 XML veri yüklemesi için varsayılan seçenekleri kullanarak XML akışından gelen verilerle yeni bir veri kaynağı oluşturur.
 
@@ -41,12 +43,12 @@ public XmlDataSource(Stream xmlStream)
 ### Ayrıca bakınız
 
 * class [XmlDataSource](../)
-* ad alanı [Aspose.Words.Reporting](../../xmldatasource/)
+* ad alanı [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## XmlDataSource(string, string) {#constructor_6}
+## XmlDataSource(*string, string*) {#constructor_6}
 
 XML Şema Tanımı dosyasını kullanarak XML dosyasındaki verilerle yeni bir veri kaynağı oluşturur. XML verilerinin yüklenmesi için varsayılan options kullanılır.
 
@@ -62,12 +64,12 @@ public XmlDataSource(string xmlPath, string xmlSchemaPath)
 ### Ayrıca bakınız
 
 * class [XmlDataSource](../)
-* ad alanı [Aspose.Words.Reporting](../../xmldatasource/)
+* ad alanı [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## XmlDataSource(Stream, Stream) {#constructor_2}
+## XmlDataSource(*Stream, Stream*) {#constructor_2}
 
 XML Şema Tanımı akışını kullanarak XML akışındaki verilerle yeni bir veri kaynağı oluşturur. XML verilerinin yüklenmesi için varsayılan options kullanılır.
 
@@ -83,12 +85,12 @@ public XmlDataSource(Stream xmlStream, Stream xmlSchemaStream)
 ### Ayrıca bakınız
 
 * class [XmlDataSource](../)
-* ad alanı [Aspose.Words.Reporting](../../xmldatasource/)
+* ad alanı [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## XmlDataSource(string, XmlDataLoadOptions) {#constructor_5}
+## XmlDataSource(*string, [XmlDataLoadOptions](../../xmldataloadoptions/)*) {#constructor_5}
 
 XML veri yüklemesi için belirtilen seçenekleri kullanarak XML dosyasındaki verilerle yeni bir veri kaynağı oluşturur.
 
@@ -105,12 +107,12 @@ public XmlDataSource(string xmlPath, XmlDataLoadOptions options)
 
 * class [XmlDataLoadOptions](../../xmldataloadoptions/)
 * class [XmlDataSource](../)
-* ad alanı [Aspose.Words.Reporting](../../xmldatasource/)
+* ad alanı [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## XmlDataSource(Stream, XmlDataLoadOptions) {#constructor_1}
+## XmlDataSource(*Stream, [XmlDataLoadOptions](../../xmldataloadoptions/)*) {#constructor_1}
 
 XML veri yüklemesi için belirtilen seçenekleri kullanarak XML akışındaki verilerle yeni bir veri kaynağı oluşturur.
 
@@ -127,12 +129,12 @@ public XmlDataSource(Stream xmlStream, XmlDataLoadOptions options)
 
 * class [XmlDataLoadOptions](../../xmldataloadoptions/)
 * class [XmlDataSource](../)
-* ad alanı [Aspose.Words.Reporting](../../xmldatasource/)
+* ad alanı [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## XmlDataSource(string, string, XmlDataLoadOptions) {#constructor_7}
+## XmlDataSource(*string, string, [XmlDataLoadOptions](../../xmldataloadoptions/)*) {#constructor_7}
 
 XML Şema Tanımı dosyasını kullanarak XML dosyasındaki verilerle yeni bir veri kaynağı oluşturur. Belirtilen seçenekleri XML veri yüklemesi için kullanılır.
 
@@ -150,12 +152,12 @@ public XmlDataSource(string xmlPath, string xmlSchemaPath, XmlDataLoadOptions op
 
 * class [XmlDataLoadOptions](../../xmldataloadoptions/)
 * class [XmlDataSource](../)
-* ad alanı [Aspose.Words.Reporting](../../xmldatasource/)
+* ad alanı [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## XmlDataSource(Stream, Stream, XmlDataLoadOptions) {#constructor_3}
+## XmlDataSource(*Stream, Stream, [XmlDataLoadOptions](../../xmldataloadoptions/)*) {#constructor_3}
 
 XML Şema Tanımı akışını kullanarak XML akışındaki verilerle yeni bir veri kaynağı oluşturur. Belirtilen seçenekleri XML veri yüklemesi için kullanılır.
 
@@ -173,7 +175,5 @@ public XmlDataSource(Stream xmlStream, Stream xmlSchemaStream, XmlDataLoadOption
 
 * class [XmlDataLoadOptions](../../xmldataloadoptions/)
 * class [XmlDataSource](../)
-* ad alanı [Aspose.Words.Reporting](../../xmldatasource/)
+* ad alanı [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * toplantı [Aspose.Words](../../../)
-
-

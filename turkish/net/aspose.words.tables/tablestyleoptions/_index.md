@@ -1,7 +1,9 @@
 ---
-title: Enum TableStyleOptions
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Tables.TableStyleOptions Sıralama. Tablo stilinin bir tabloya nasıl uygulanacağını belirtir.
+title: TableStyleOptions Enum
+linktitle: TableStyleOptions
+articleTitle: TableStyleOptions
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Tables.TableStyleOptions Sıralama. Tablo stilinin bir tabloya nasıl uygulanacağını belirtir C#'da.
 type: docs
 weight: 6370
 url: /tr/net/aspose.words.tables/tablestyleoptions/
@@ -29,7 +31,7 @@ public enum TableStyleOptions
 | Default2003 | `600` | Satır ve sütun bantlaması uygulandı. Bu, DOC, WML ve RTF gibi eski formatlar için Microsoft Word'ün varsayılanıdır. |
 | Default | `2A0` | Bu, Microsoft Word varsayılanlarıdır. |
 
-### Örnekler
+## Örnekler
 
 Stil uygularken yeni bir tablonun nasıl oluşturulacağını gösterir.
 
@@ -82,5 +84,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTableWithStyle.docx");
 * property [StyleOptions](../table/styleoptions/)
 * ad alanı [Aspose.Words.Tables](../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../)
-
-

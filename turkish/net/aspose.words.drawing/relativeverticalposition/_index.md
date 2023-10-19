@@ -1,7 +1,9 @@
 ---
-title: Enum RelativeVerticalPosition
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.RelativeVerticalPosition Sıralama. Bir şeklin veya metin çerçevesinin dikey konumunun göreli olduğunu belirtir.
+title: RelativeVerticalPosition Enum
+linktitle: RelativeVerticalPosition
+articleTitle: RelativeVerticalPosition
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.RelativeVerticalPosition Sıralama. Bir şeklin veya metin çerçevesinin dikey konumunun göreli olduğunu belirtir C#'da.
 type: docs
 weight: 1210
 url: /tr/net/aspose.words.drawing/relativeverticalposition/
@@ -29,7 +31,7 @@ public enum RelativeVerticalPosition
 | TableDefault | `0` | Varsayılan değer:Margin . |
 | TextFrameDefault | `2` | Varsayılan değer:Paragraph . |
 
-### Örnekler
+## Örnekler
 
 Sayfanın ortasına kayan bir görüntünün nasıl ekleneceğini gösterir.
 
@@ -102,5 +104,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertWatermarkNetStandard2.docx");
 * property [RelativeVerticalPosition](../shapebase/relativeverticalposition/)
 * ad alanı [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../)
-
-

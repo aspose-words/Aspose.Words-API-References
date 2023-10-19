@@ -1,9 +1,11 @@
 ---
 title: Document.NormalizeFieldTypes
-second_title: Aspose.Words for .NET API Referansı
-description: Document yöntem. Alan türü değerlerini değiştirirFieldType ile ilgiliFieldStart FieldSeparator FieldEnd alan kodlarında yer alan alan türlerine karşılık gelecek şekilde tüm belgede.
+linktitle: NormalizeFieldTypes
+articleTitle: NormalizeFieldTypes
+second_title: Aspose.Words for .NET
+description: Document NormalizeFieldTypes yöntem. Alan türü değerlerini değiştirirFieldType ile ilgiliFieldStart FieldSeparator FieldEnd alan kodlarında yer alan alan türlerine karşılık gelecek şekilde tüm belgede C#'da.
 type: docs
-weight: 650
+weight: 630
 url: /tr/net/aspose.words/document/normalizefieldtypes/
 ---
 ## Document.NormalizeFieldTypes method
@@ -14,13 +16,13 @@ Alan türü değerlerini değiştirir[`FieldType`](../../../aspose.words.fields/
 public void NormalizeFieldTypes()
 ```
 
-### Notlar
+## Notlar
 
 Alan türlerini etkileyen belge değişikliklerinden sonra bu yöntemi kullanın.
 
 Belgenin belirli bir bölümündeki alan türü değerlerini değiştirmek için şunu kullanın:[`NormalizeFieldTypes`](../../range/normalizefieldtypes/).
 
-### Örnekler
+## Örnekler
 
 Bir alanın türünün alan koduyla nasıl güncel tutulacağını gösterir.
 
@@ -57,7 +59,5 @@ Assert.AreEqual(FieldType.FieldPage, field.End.FieldType);
 ### Ayrıca bakınız
 
 * class [Document](../)
-* ad alanı [Aspose.Words](../../document/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

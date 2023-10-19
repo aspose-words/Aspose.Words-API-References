@@ -1,7 +1,9 @@
 ---
 title: FieldToc.PreserveLineBreaks
-second_title: Aspose.Words for .NET API Referansı
-description: FieldToc mülk. Tablo girişlerinde yeni satır karakterlerinin korunup korunmayacağını alır veya ayarlar.
+linktitle: PreserveLineBreaks
+articleTitle: PreserveLineBreaks
+second_title: Aspose.Words for .NET
+description: FieldToc PreserveLineBreaks mülk. Tablo girişlerinde yeni satır karakterlerinin korunup korunmayacağını alır veya ayarlar C#'da.
 type: docs
 weight: 130
 url: /tr/net/aspose.words.fields/fieldtoc/preservelinebreaks/
@@ -14,7 +16,7 @@ Tablo girişlerinde yeni satır karakterlerinin korunup korunmayacağını alır
 public bool PreserveLineBreaks { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 İçindekiler tablosunun nasıl ekleneceğini ve başlık stillerine göre girdilerle nasıl doldurulacağını gösterir.
 
@@ -99,7 +101,5 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 ### Ayrıca bakınız
 
 * class [FieldToc](../)
-* ad alanı [Aspose.Words.Fields](../../fieldtoc/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

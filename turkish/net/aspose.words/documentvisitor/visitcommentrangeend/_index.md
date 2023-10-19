@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitCommentRangeEnd
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentVisitor yöntem. Yorum yapılan metin aralığının sonuna gelindiğinde çağrılır.
+linktitle: VisitCommentRangeEnd
+articleTitle: VisitCommentRangeEnd
+second_title: Aspose.Words for .NET
+description: DocumentVisitor VisitCommentRangeEnd yöntem. Yorum yapılan metin aralığının sonuna gelindiğinde çağrılır C#'da.
 type: docs
 weight: 110
 url: /tr/net/aspose.words/documentvisitor/visitcommentrangeend/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitCommentRangeEnd(CommentRangeEnd commentRangeEn
 
 A[`VisitorAction`](../../visitoraction/) numaralandırmaya nasıl devam edileceğini belirten değer.
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki her yorumun ve yorum aralığının düğüm yapısının nasıl yazdırılacağını gösterir.
 
@@ -143,7 +145,5 @@ public class CommentStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [CommentRangeEnd](../../commentrangeend/)
 * class [DocumentVisitor](../)
-* ad alanı [Aspose.Words](../../documentvisitor/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

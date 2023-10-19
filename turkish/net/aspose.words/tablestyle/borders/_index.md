@@ -1,7 +1,9 @@
 ---
 title: TableStyle.Borders
-second_title: Aspose.Words for .NET API Referansı
-description: TableStyle mülk. Stil için varsayılan hücre kenarlıklarının koleksiyonunu alır.
+linktitle: Borders
+articleTitle: Borders
+second_title: Aspose.Words for .NET
+description: TableStyle Borders mülk. Stil için varsayılan hücre kenarlıklarının koleksiyonunu alır C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words/tablestyle/borders/
@@ -14,7 +16,7 @@ Stil için varsayılan hücre kenarlıklarının koleksiyonunu alır.
 public BorderCollection Borders { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Tablo için özel stil ayarlarının nasıl oluşturulacağını gösterir.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "Table.TableStyleCreation.docx");
 
 * class [BorderCollection](../../bordercollection/)
 * class [TableStyle](../)
-* ad alanı [Aspose.Words](../../tablestyle/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

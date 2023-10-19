@@ -1,7 +1,9 @@
 ---
 title: CompareOptions.IgnoreHeadersAndFooters
-second_title: Aspose.Words for .NET API Referansı
-description: CompareOptions mülk. Doğru üstbilgi ve altbilgi içeriğinin göz ardı edildiğini belirtir. Varsayılan olarak üstbilgi ve altbilgiler göz ardı edilmez.
+linktitle: IgnoreHeadersAndFooters
+articleTitle: IgnoreHeadersAndFooters
+second_title: Aspose.Words for .NET
+description: CompareOptions IgnoreHeadersAndFooters mülk. Doğru üstbilgi ve altbilgi içeriğinin göz ardı edildiğini belirtir. Varsayılan olarak üstbilgi ve altbilgiler göz ardı edilmez C#'da.
 type: docs
 weight: 100
 url: /tr/net/aspose.words.comparing/compareoptions/ignoreheadersandfooters/
@@ -14,7 +16,7 @@ Doğru, üstbilgi ve altbilgi içeriğinin göz ardı edildiğini belirtir. Vars
 public bool IgnoreHeadersAndFooters { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Karşılaştırma yaparken belirli belge öğesi türlerinin nasıl filtreleneceğini gösterir.
 
@@ -88,7 +90,5 @@ docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
 ### Ayrıca bakınız
 
 * class [CompareOptions](../)
-* ad alanı [Aspose.Words.Comparing](../../compareoptions/)
+* ad alanı [Aspose.Words.Comparing](../../../aspose.words.comparing/)
 * toplantı [Aspose.Words](../../../)
-
-

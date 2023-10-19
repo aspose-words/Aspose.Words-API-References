@@ -1,7 +1,9 @@
 ---
 title: Table.AbsoluteVerticalDistance
-second_title: Aspose.Words for .NET API Referansı
-description: Table mülk. Tablo özellikleri tarafından belirtilen mutlak dikey kayan tablo konumunu puan cinsinden alır veya ayarlar. Varsayılan değer 0.
+linktitle: AbsoluteVerticalDistance
+articleTitle: AbsoluteVerticalDistance
+second_title: Aspose.Words for .NET
+description: Table AbsoluteVerticalDistance mülk. Tablo özellikleri tarafından belirtilen mutlak dikey kayan tablo konumunu puan cinsinden alır veya ayarlar. Varsayılan değer 0 C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.tables/table/absoluteverticaldistance/
@@ -14,7 +16,7 @@ Tablo özellikleri tarafından belirtilen mutlak dikey kayan tablo konumunu puan
 public double AbsoluteVerticalDistance { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Kayan tabloların konumunun nasıl ayarlandığını gösterir.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Table.ChangeFloatingTableProperties.docx");
 ### Ayrıca bakınız
 
 * class [Table](../)
-* ad alanı [Aspose.Words.Tables](../../table/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum OfficeMathJustification
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Math.OfficeMathJustification Sıralama. Denklemin gerekçesini belirtir.
+title: OfficeMathJustification Enum
+linktitle: OfficeMathJustification
+articleTitle: OfficeMathJustification
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Math.OfficeMathJustification Sıralama. Denklemin gerekçesini belirtir C#'da.
 type: docs
 weight: 4140
 url: /tr/net/aspose.words.math/officemathjustification/
@@ -25,7 +27,7 @@ public enum OfficeMathJustification
 | Inline | `7` | Math. 'nin satır içi konumu |
 | Default | `1` | Varsayılan değerCenterGroup . |
 
-### Örnekler
+## Örnekler
 
 Ofis matematik ekranı formatının nasıl ayarlanacağını gösterir.
 
@@ -51,5 +53,3 @@ doc.Save(ArtifactsDir + "Shape.OfficeMath.docx");
 
 * ad alanı [Aspose.Words.Math](../../aspose.words.math/)
 * toplantı [Aspose.Words](../../)
-
-

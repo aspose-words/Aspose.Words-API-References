@@ -1,7 +1,9 @@
 ---
 title: NodeRendererBase.RenderToScale
-second_title: Aspose.Words for .NET API Referansı
-description: NodeRendererBase yöntem. Şekli bir hale getirirGraphics belirtilen ölçeğe kadar nesne.
+linktitle: RenderToScale
+articleTitle: RenderToScale
+second_title: Aspose.Words for .NET
+description: NodeRendererBase RenderToScale yöntem. Şekli bir hale getirirGraphics belirtilen ölçeğe kadar nesne C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.rendering/noderendererbase/rendertoscale/
@@ -25,7 +27,7 @@ public SizeF RenderToScale(Graphics graphics, float x, float y, float scale)
 
 İşlenen şeklin genişliği ve yüksekliği (dünya birimleri cinsinden).
 
-### Örnekler
+## Örnekler
 
 Bir şeklin Graphics nesnesiyle nasıl oluşturulacağını ve Windows Formu kullanılarak nasıl görüntüleneceğini gösterir.
 
@@ -135,7 +137,5 @@ private class ShapeForm : Form
 ### Ayrıca bakınız
 
 * class [NodeRendererBase](../)
-* ad alanı [Aspose.Words.Rendering](../../noderendererbase/)
+* ad alanı [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * toplantı [Aspose.Words](../../../)
-
-

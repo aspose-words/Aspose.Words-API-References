@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.ClearFormat
-second_title: Aspose.Words for .NET API Referansı
-description: ChartDataLabel yöntem. Bu veri etiketinin biçimini temizler. Özellikler üst data etiket koleksiyonunda tanımlanan varsayılan değerlere ayarlanır.
+linktitle: ClearFormat
+articleTitle: ClearFormat
+second_title: Aspose.Words for .NET
+description: ChartDataLabel ClearFormat yöntem. Bu veri etiketinin biçimini temizler. Özellikler üst data etiket koleksiyonunda tanımlanan varsayılan değerlere ayarlanır C#'da.
 type: docs
 weight: 160
 url: /tr/net/aspose.words.drawing.charts/chartdatalabel/clearformat/
@@ -17,7 +19,5 @@ public void ClearFormat()
 ### Ayrıca bakınız
 
 * class [ChartDataLabel](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

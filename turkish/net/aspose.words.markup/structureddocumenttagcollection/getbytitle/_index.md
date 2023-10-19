@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagCollection.GetByTitle
-second_title: Aspose.Words for .NET API Referansı
-description: StructuredDocumentTagCollection yöntem. Koleksiyonda karşılaşılan ve belirtilen başlıktaki ilk yapılandırılmış belge etiketini döndürür.
+linktitle: GetByTitle
+articleTitle: GetByTitle
+second_title: Aspose.Words for .NET
+description: StructuredDocumentTagCollection GetByTitle yöntem. Koleksiyonda karşılaşılan ve belirtilen başlıktaki ilk yapılandırılmış belge etiketini döndürür C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.markup/structureddocumenttagcollection/getbytitle/
@@ -18,11 +20,11 @@ public IStructuredDocumentTag GetByTitle(string title)
 | --- | --- | --- |
 | title | String | Yapılandırılmış belge etiketinin başlığı. |
 
-### Notlar
+## Notlar
 
 Belirtilen başlığa sahip yapılandırılmış belge etiketi bulunamazsa null değerini döndürür.
 
-### Örnekler
+## Örnekler
 
 Yapılandırılmış belge etiketinin nasıl alınacağını gösterir.
 
@@ -43,7 +45,5 @@ Console.WriteLine(sdt.Id);
 
 * interface [IStructuredDocumentTag](../../istructureddocumenttag/)
 * class [StructuredDocumentTagCollection](../)
-* ad alanı [Aspose.Words.Markup](../../structureddocumenttagcollection/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

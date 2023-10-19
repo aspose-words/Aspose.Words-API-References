@@ -1,7 +1,9 @@
 ---
-title: Enum CellVerticalAlignment
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Tables.CellVerticalAlignment Sıralama. Bir tablo hücresi içindeki metnin dikey hizalamasını belirtir.
+title: CellVerticalAlignment Enum
+linktitle: CellVerticalAlignment
+articleTitle: CellVerticalAlignment
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Tables.CellVerticalAlignment Sıralama. Bir tablo hücresi içindeki metnin dikey hizalamasını belirtir C#'da.
 type: docs
 weight: 6280
 url: /tr/net/aspose.words.tables/cellverticalalignment/
@@ -22,7 +24,7 @@ public enum CellVerticalAlignment
 | Center | `1` | Metin hücrenin ortasına hizalanır. |
 | Bottom | `2` | Metin hücrenin altına hizalanır. |
 
-### Örnekler
+## Örnekler
 
 Biçimlendirilmiş bir 2x2 tablonun nasıl oluşturulacağını gösterir.
 
@@ -69,5 +71,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.BuildTable.docx");
 
 * ad alanı [Aspose.Words.Tables](../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../)
-
-

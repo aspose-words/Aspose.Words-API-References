@@ -1,7 +1,9 @@
 ---
-title: Enum ListTrailingCharacter
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Lists.ListTrailingCharacter Sıralama. Liste etiketini paragraf metninden ayıran karakteri belirtir.
+title: ListTrailingCharacter Enum
+linktitle: ListTrailingCharacter
+articleTitle: ListTrailingCharacter
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Lists.ListTrailingCharacter Sıralama. Liste etiketini paragraf metninden ayıran karakteri belirtir C#'da.
 type: docs
 weight: 3540
 url: /tr/net/aspose.words.lists/listtrailingcharacter/
@@ -22,11 +24,11 @@ public enum ListTrailingCharacter
 | Space | `1` | Liste etiketi ile paragraf metni arasına boşluk karakteri yerleştirilir. |
 | Nothing | `2` | Liste etiketi ile paragraf metni arasında ayırıcı karakter yoktur. |
 
-### Notlar
+## Notlar
 
 Bir değer olarak kullanılır[`TrailingCharacter`](../listlevel/trailingcharacter/) mülk.
 
-### Örnekler
+## Örnekler
 
 DocumentBuilder kullanılırken özel liste formatının paragraflara nasıl uygulanacağını gösterir.
 
@@ -86,5 +88,3 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 
 * ad alanı [Aspose.Words.Lists](../../aspose.words.lists/)
 * toplantı [Aspose.Words](../../)
-
-

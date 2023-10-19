@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.ImlRenderingMode
-second_title: Aspose.Words for .NET API Referansı
-description: SaveOptions mülk. Mürekkep InkML nesnelerinin nasıl oluşturulacağını belirleyen bir değer alır veya ayarlar.
+linktitle: ImlRenderingMode
+articleTitle: ImlRenderingMode
+second_title: Aspose.Words for .NET
+description: SaveOptions ImlRenderingMode mülk. Mürekkep InkML nesnelerinin nasıl oluşturulacağını belirleyen bir değer alır veya ayarlar C#'da.
 type: docs
 weight: 90
 url: /tr/net/aspose.words.saving/saveoptions/imlrenderingmode/
@@ -14,13 +16,13 @@ Mürekkep (InkML) nesnelerinin nasıl oluşturulacağını belirleyen bir değer
 public ImlRenderingMode ImlRenderingMode { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:InkML .
 
 Bu özellik, belge sabit sayfa formatlarına aktarıldığında kullanılır.
 
-### Örnekler
+## Örnekler
 
 Mürekkep nesnesinin nasıl oluşturulacağını gösterir.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.RenderInkObject.jpeg", saveOptions);
 
 * enum [ImlRenderingMode](../../imlrenderingmode/)
 * class [SaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../saveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

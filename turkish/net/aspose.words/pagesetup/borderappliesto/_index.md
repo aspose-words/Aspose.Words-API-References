@@ -1,7 +1,9 @@
 ---
 title: PageSetup.BorderAppliesTo
-second_title: Aspose.Words for .NET API Referansı
-description: PageSetup mülk. Sayfa kenarlığının hangi sayfalara yazdırılacağını belirtir.
+linktitle: BorderAppliesTo
+articleTitle: BorderAppliesTo
+second_title: Aspose.Words for .NET
+description: PageSetup BorderAppliesTo mülk. Sayfa kenarlığının hangi sayfalara yazdırılacağını belirtir C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/pagesetup/borderappliesto/
@@ -14,7 +16,7 @@ Sayfa kenarlığının hangi sayfalara yazdırılacağını belirtir.
 public PageBorderAppliesTo BorderAppliesTo { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 İlk sayfanın üst kısmında geniş mavi bant kenarlığının nasıl oluşturulacağını gösterir.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageBorderProperties.docx");
 
 * enum [PageBorderAppliesTo](../../pageborderappliesto/)
 * class [PageSetup](../)
-* ad alanı [Aspose.Words](../../pagesetup/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

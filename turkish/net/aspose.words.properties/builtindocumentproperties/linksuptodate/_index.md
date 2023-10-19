@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.LinksUpToDate
-second_title: Aspose.Words for .NET API Referansı
-description: BuiltInDocumentProperties mülk. Bir belgedeki köprülerin güncel olup olmadığını belirtir.
+linktitle: LinksUpToDate
+articleTitle: LinksUpToDate
+second_title: Aspose.Words for .NET
+description: BuiltInDocumentProperties LinksUpToDate mülk. Bir belgedeki köprülerin güncel olup olmadığını belirtir C#'da.
 type: docs
 weight: 190
 url: /tr/net/aspose.words.properties/builtindocumentproperties/linksuptodate/
@@ -14,11 +16,11 @@ Bir belgedeki köprülerin güncel olup olmadığını belirtir.
 public bool LinksUpToDate { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Aspose.Words bu özelliği güncellemez.
 
-### Örnekler
+## Örnekler
 
 "İçerik" kategorisinde belge özellikleriyle nasıl çalışılacağını gösterir.
 
@@ -128,7 +130,5 @@ private class LineCounter
 ### Ayrıca bakınız
 
 * class [BuiltInDocumentProperties](../)
-* ad alanı [Aspose.Words.Properties](../../builtindocumentproperties/)
+* ad alanı [Aspose.Words.Properties](../../../aspose.words.properties/)
 * toplantı [Aspose.Words](../../../)
-
-

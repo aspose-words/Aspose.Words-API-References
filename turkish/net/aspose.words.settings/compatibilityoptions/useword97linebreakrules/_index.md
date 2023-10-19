@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.UseWord97LineBreakRules
-second_title: Aspose.Words for .NET API Referansı
-description: CompatibilityOptions mülk. Word 97 Doğu Asya Satır Kırma Öykünmesi.
+linktitle: UseWord97LineBreakRules
+articleTitle: UseWord97LineBreakRules
+second_title: Aspose.Words for .NET
+description: CompatibilityOptions UseWord97LineBreakRules mülk. Word 97 Doğu Asya Satır Kırma Öykünmesi C#'da.
 type: docs
 weight: 680
 url: /tr/net/aspose.words.settings/compatibilityoptions/useword97linebreakrules/
@@ -17,7 +19,5 @@ public bool UseWord97LineBreakRules { get; set; }
 ### Ayrıca bakınız
 
 * class [CompatibilityOptions](../)
-* ad alanı [Aspose.Words.Settings](../../compatibilityoptions/)
+* ad alanı [Aspose.Words.Settings](../../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../../)
-
-

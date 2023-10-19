@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.UpdateFields
-second_title: Aspose.Words for .NET API Referansı
-description: SaveOptions mülk. Belgeyi sabit bir sayfa formatında kaydetmeden önce belirli türlerdeki alanların güncellenmesi gerekip gerekmediğini belirleyen bir değer alır veya ayarlar. Bu özellik için varsayılan değerdoğru .
+linktitle: UpdateFields
+articleTitle: UpdateFields
+second_title: Aspose.Words for .NET
+description: SaveOptions UpdateFields mülk. Belgeyi sabit bir sayfa formatında kaydetmeden önce belirli türlerdeki alanların güncellenmesi gerekip gerekmediğini belirleyen bir değer alır veya ayarlar. Bu özellik için varsayılan değerdoğru  C#'da.
 type: docs
 weight: 160
 url: /tr/net/aspose.words.saving/saveoptions/updatefields/
@@ -14,11 +16,11 @@ Belgeyi sabit bir sayfa formatında kaydetmeden önce belirli türlerdeki alanla
 public bool UpdateFields { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 MS Word davranışının taklit edilip edilmeyeceğini belirlemeye izin verir.
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki tüm alanların PDF'ye kaydedilmeden hemen önce nasıl güncelleneceğini gösterir.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.UpdateFields.pdf", options);
 ### Ayrıca bakınız
 
 * class [SaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../saveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

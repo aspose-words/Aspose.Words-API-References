@@ -1,7 +1,9 @@
 ---
 title: FormField.Accept
-second_title: Aspose.Words for .NET API Referansı
-description: FormField yöntem. Ziyaretçi kabul eder.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words for .NET
+description: FormField Accept yöntem. Ziyaretçi kabul eder C#'da.
 type: docs
 weight: 230
 url: /tr/net/aspose.words.fields/formfield/accept/
@@ -22,13 +24,13 @@ public override bool Accept(DocumentVisitor visitor)
 
 `YANLIŞ` ziyaretçi numaralandırmanın durdurulmasını talep ederse.
 
-### Notlar
+## Notlar
 
 Aramalar[`VisitFormField`](../../../aspose.words/documentvisitor/visitformfield/).
 
 Daha fazla bilgi için Ziyaretçi tasarım desenine bakın.
 
-### Örnekler
+## Örnekler
 
 Bir belgeye farklı türde form alanlarının nasıl eklendiğini ve bunların bir belge ziyaretçi uygulaması kullanılarak nasıl işlendiğini gösterir.
 
@@ -163,7 +165,5 @@ public class FormFieldVisitor : DocumentVisitor
 
 * class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * class [FormField](../)
-* ad alanı [Aspose.Words.Fields](../../formfield/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PdfEncryptionDetails.UserPassword
-second_title: Aspose.Words for .NET API Referansı
-description: PdfEncryptionDetails mülk. Şifrelenmiş PDF belgesini açmak için gereken kullanıcı şifresini belirtir.
+linktitle: UserPassword
+articleTitle: UserPassword
+second_title: Aspose.Words for .NET
+description: PdfEncryptionDetails UserPassword mülk. Şifrelenmiş PDF belgesini açmak için gereken kullanıcı şifresini belirtir C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.saving/pdfencryptiondetails/userpassword/
@@ -14,13 +16,13 @@ url: /tr/net/aspose.words.saving/pdfencryptiondetails/userpassword/
 public string UserPassword { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Görüntülemek üzere şifrelenmiş bir PDF belgesini açmak için kullanıcı parolası gerekecektir. 'de belirtilen izinler[`Permissions`](../permissions/) okuyucu yazılımı tarafından uygulanacaktır.
 
 Kullanıcı şifresi olabilir`hükümsüz` veya boş dize, bu durumda PDF belgesini açarken kullanıcıdan şifre istenmeyecektir. Kullanıcı parolası, sahip parolasıyla aynı olamaz.
 
-### Örnekler
+## Örnekler
 
 Kaydedilmiş bir PDF belgesinde izinlerin nasıl ayarlanacağını gösterir.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.EncryptionPermissions.pdf", saveOptions)
 ### Ayrıca bakınız
 
 * class [PdfEncryptionDetails](../)
-* ad alanı [Aspose.Words.Saving](../../pdfencryptiondetails/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

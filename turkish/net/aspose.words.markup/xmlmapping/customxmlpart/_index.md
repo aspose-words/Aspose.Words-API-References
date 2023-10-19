@@ -1,7 +1,9 @@
 ---
 title: XmlMapping.CustomXmlPart
-second_title: Aspose.Words for .NET API Referansı
-description: XmlMapping mülk. Üst yapılandırılmış belge etiketinin eşlendiği özel XML veri bölümünü döndürür.
+linktitle: CustomXmlPart
+articleTitle: CustomXmlPart
+second_title: Aspose.Words for .NET
+description: XmlMapping CustomXmlPart mülk. Üst yapılandırılmış belge etiketinin eşlendiği özel XML veri bölümünü döndürür C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.markup/xmlmapping/customxmlpart/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.markup/xmlmapping/customxmlpart/
 public CustomXmlPart CustomXmlPart { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Özel XML parçaları için XML eşlemelerinin nasıl ayarlanacağını gösterir.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.XmlMapping.docx");
 
 * class [CustomXmlPart](../../customxmlpart/)
 * class [XmlMapping](../)
-* ad alanı [Aspose.Words.Markup](../../xmlmapping/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

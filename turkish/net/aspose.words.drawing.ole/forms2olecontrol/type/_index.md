@@ -1,7 +1,9 @@
 ---
 title: Forms2OleControl.Type
-second_title: Aspose.Words for .NET API Referansı
-description: Forms2OleControl mülk. Forms 2.0 kontrolünün türünü alır.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words for .NET
+description: Forms2OleControl Type mülk. Forms 2.0 kontrolünün türünü alır C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.drawing.ole/forms2olecontrol/type/
@@ -14,7 +16,7 @@ Forms 2.0 kontrolünün türünü alır.
 public abstract Forms2OleControlType Type { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 ActiveX denetiminin özelliklerinin nasıl doğrulanacağını gösterir.
 
@@ -45,7 +47,5 @@ if (oleControl.IsForms2OleControl)
 
 * enum [Forms2OleControlType](../../forms2olecontroltype/)
 * class [Forms2OleControl](../)
-* ad alanı [Aspose.Words.Drawing.Ole](../../forms2olecontrol/)
+* ad alanı [Aspose.Words.Drawing.Ole](../../../aspose.words.drawing.ole/)
 * toplantı [Aspose.Words](../../../)
-
-

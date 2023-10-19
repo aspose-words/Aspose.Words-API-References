@@ -1,7 +1,9 @@
 ---
 title: ChartSeries.LegendEntry
-second_title: Aspose.Words for .NET API Referansı
-description: ChartSeries mülk. Bu grafik serisi için bir gösterge girişi alır.
+linktitle: LegendEntry
+articleTitle: LegendEntry
+second_title: Aspose.Words for .NET
+description: ChartSeries LegendEntry mülk. Bu grafik serisi için bir gösterge girişi alır C#'da.
 type: docs
 weight: 90
 url: /tr/net/aspose.words.drawing.charts/chartseries/legendentry/
@@ -18,7 +20,5 @@ public ChartLegendEntry LegendEntry { get; }
 
 * class [ChartLegendEntry](../../chartlegendentry/)
 * class [ChartSeries](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartseries/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

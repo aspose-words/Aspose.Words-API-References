@@ -1,12 +1,14 @@
 ---
 title: CustomXmlPartCollection.Add
-second_title: Aspose.Words for .NET API Referansı
-description: CustomXmlPartCollection yöntem. Koleksiyona bir öğe ekler.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words for .NET
+description: CustomXmlPartCollection Add yöntem. Koleksiyona bir öğe ekler C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.markup/customxmlpartcollection/add/
 ---
-## Add(CustomXmlPart) {#add_1}
+## Add(*[CustomXmlPart](../../customxmlpart/)*) {#add_1}
 
 Koleksiyona bir öğe ekler.
 
@@ -18,7 +20,7 @@ public void Add(CustomXmlPart part)
 | --- | --- | --- |
 | part | CustomXmlPart | Eklenecek özel XML bölümü. |
 
-### Örnekler
+## Örnekler
 
 Özel XML verileriyle yapılandırılmış bir belge etiketinin nasıl oluşturulacağını gösterir.
 
@@ -86,12 +88,12 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 
 * class [CustomXmlPart](../../customxmlpart/)
 * class [CustomXmlPartCollection](../)
-* ad alanı [Aspose.Words.Markup](../../customxmlpartcollection/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## Add(string, string) {#add}
+## Add(*string, string*) {#add}
 
 Belirtilen XML ile yeni bir XML parçası oluşturur ve bunu koleksiyona ekler.
 
@@ -108,7 +110,7 @@ public CustomXmlPart Add(string id, string xml)
 
 Özel XML bölümü oluşturuldu.
 
-### Örnekler
+## Örnekler
 
 Özel XML verileriyle yapılandırılmış bir belge etiketinin nasıl oluşturulacağını gösterir.
 
@@ -176,7 +178,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 
 * class [CustomXmlPart](../../customxmlpart/)
 * class [CustomXmlPartCollection](../)
-* ad alanı [Aspose.Words.Markup](../../customxmlpartcollection/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

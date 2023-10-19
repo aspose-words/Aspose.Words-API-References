@@ -1,7 +1,9 @@
 ---
-title: Enum ListLevelAlignment
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Lists.ListLevelAlignment Sıralama. Liste numarası veya madde işareti için hizalamayı belirtir.
+title: ListLevelAlignment Enum
+linktitle: ListLevelAlignment
+articleTitle: ListLevelAlignment
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Lists.ListLevelAlignment Sıralama. Liste numarası veya madde işareti için hizalamayı belirtir C#'da.
 type: docs
 weight: 3510
 url: /tr/net/aspose.words.lists/listlevelalignment/
@@ -22,11 +24,11 @@ public enum ListLevelAlignment
 | Center | `1` | Liste etiketi sayı konumunda ortalanır. |
 | Right | `2` | Bu liste etiketi sayı konumunun sağına hizalanır. |
 
-### Notlar
+## Notlar
 
 Bir değer olarak kullanılır[`Alignment`](../listlevel/alignment/) mülk.
 
-### Örnekler
+## Örnekler
 
 DocumentBuilder kullanılırken özel liste formatının paragraflara nasıl uygulanacağını gösterir.
 
@@ -86,5 +88,3 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 
 * ad alanı [Aspose.Words.Lists](../../aspose.words.lists/)
 * toplantı [Aspose.Words](../../)
-
-

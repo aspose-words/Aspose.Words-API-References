@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyle.Shading
-second_title: Aspose.Words for .NET API Referansı
-description: ConditionalStyle mülk. Bir alırShading bu koşullu stil için gölgelendirme formatını ifade eden nesne.
+linktitle: Shading
+articleTitle: Shading
+second_title: Aspose.Words for .NET
+description: ConditionalStyle Shading mülk. Bir alırShading bu koşullu stil için gölgelendirme formatını ifade eden nesne C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words/conditionalstyle/shading/
@@ -14,7 +16,7 @@ Bir alır[`Shading`](../../shading/) bu koşullu stil için gölgelendirme forma
 public Shading Shading { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir tablonun belirli alan stilleriyle nasıl çalışılacağını gösterir.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [Shading](../../shading/)
 * class [ConditionalStyle](../)
-* ad alanı [Aspose.Words](../../conditionalstyle/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

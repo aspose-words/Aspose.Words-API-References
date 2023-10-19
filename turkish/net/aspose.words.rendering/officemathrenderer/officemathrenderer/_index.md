@@ -1,7 +1,9 @@
 ---
-title: OfficeMathRenderer.OfficeMathRenderer
-second_title: Aspose.Words for .NET API Referansı
-description: OfficeMathRenderer inşaatçı. Bu sınıfın yeni bir örneğini başlatır.
+title: OfficeMathRenderer
+linktitle: OfficeMathRenderer
+articleTitle: OfficeMathRenderer
+second_title: Aspose.Words for .NET
+description: OfficeMathRenderer inşaatçı. Bu sınıfın yeni bir örneğini başlatır C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.rendering/officemathrenderer/officemathrenderer/
@@ -18,7 +20,7 @@ public OfficeMathRenderer(OfficeMath math)
 | --- | --- | --- |
 | math | OfficeMath | [`OfficeMath`](../../../aspose.words.math/officemath/) oluşturmak istediğiniz nesneyi seçin. |
 
-### Örnekler
+## Örnekler
 
 Şekillerin nasıl ölçüleceğini ve ölçeklendirileceğini gösterir.
 
@@ -66,7 +68,5 @@ Assert.AreEqual(30, bounds.Height);
 
 * class [OfficeMath](../../../aspose.words.math/officemath/)
 * class [OfficeMathRenderer](../)
-* ad alanı [Aspose.Words.Rendering](../../officemathrenderer/)
+* ad alanı [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * toplantı [Aspose.Words](../../../)
-
-

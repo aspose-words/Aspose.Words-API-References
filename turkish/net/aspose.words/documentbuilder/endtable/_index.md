@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.EndTable
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentBuilder yöntem. Belgedeki bir tabloyu sonlandırır.
+linktitle: EndTable
+articleTitle: EndTable
+second_title: Aspose.Words for .NET
+description: DocumentBuilder EndTable yöntem. Belgedeki bir tabloyu sonlandırır C#'da.
 type: docs
 weight: 250
 url: /tr/net/aspose.words/documentbuilder/endtable/
@@ -18,11 +20,11 @@ public Table EndTable()
 
 Yeni tamamlanan tablo düğümü.
 
-### Notlar
+## Notlar
 
 Bu yöntem yalnızca bir kez çağrılmalıdır[`EndRow`](../endrow/) aradı. Arandığında, `EndTable` imleci geçerli hücrenin dışına, tablonun hemen sonrasına taşır.
 
-### Örnekler
+## Örnekler
 
 Belge oluşturucuyla hücrelerin nasıl biçimlendirileceğini gösterir.
 
@@ -172,7 +174,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * class [Table](../../../aspose.words.tables/table/)
 * class [DocumentBuilder](../)
-* ad alanı [Aspose.Words](../../documentbuilder/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

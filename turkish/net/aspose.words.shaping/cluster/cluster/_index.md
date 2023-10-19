@@ -1,7 +1,9 @@
 ---
-title: Cluster.Cluster
-second_title: Aspose.Words for .NET API Referansı
-description: Cluster inşaatçı. Bu sınıfın yeni örneğini başlatır.
+title: Cluster
+linktitle: Cluster
+articleTitle: Cluster
+second_title: Aspose.Words for .NET
+description: Cluster inşaatçı. Bu sınıfın yeni örneğini başlatır C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.shaping/cluster/cluster/
@@ -23,7 +25,5 @@ public Cluster(int[] codepoints, Glyph[] glyphs)
 
 * class [Glyph](../../glyph/)
 * class [Cluster](../)
-* ad alanı [Aspose.Words.Shaping](../../cluster/)
+* ad alanı [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * toplantı [Aspose.Words](../../../)
-
-

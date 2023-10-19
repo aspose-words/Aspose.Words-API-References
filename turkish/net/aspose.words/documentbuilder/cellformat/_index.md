@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.CellFormat
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentBuilder mülk. Geçerli tablo hücresi biçimlendirme özelliklerini temsil eden bir nesneyi döndürür.
+linktitle: CellFormat
+articleTitle: CellFormat
+second_title: Aspose.Words for .NET
+description: DocumentBuilder CellFormat mülk. Geçerli tablo hücresi biçimlendirme özelliklerini temsil eden bir nesneyi döndürür C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/documentbuilder/cellformat/
@@ -14,7 +16,7 @@ Geçerli tablo hücresi biçimlendirme özelliklerini temsil eden bir nesneyi d�
 public CellFormat CellFormat { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Belge oluşturucuyla hücrelerin nasıl biçimlendirileceğini gösterir.
 
@@ -164,7 +166,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * class [CellFormat](../../../aspose.words.tables/cellformat/)
 * class [DocumentBuilder](../)
-* ad alanı [Aspose.Words](../../documentbuilder/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

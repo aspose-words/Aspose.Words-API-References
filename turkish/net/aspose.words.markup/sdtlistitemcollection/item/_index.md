@@ -1,7 +1,9 @@
 ---
 title: SdtListItemCollection.Item
-second_title: Aspose.Words for .NET API Referansı
-description: SdtListItemCollection mülk. Bir değeri döndürürSdtListItem koleksiyondaki sıfır tabanlı dizini verilen nesne.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words for .NET
+description: SdtListItemCollection Item mülk. Bir değeri döndürürSdtListItem koleksiyondaki sıfır tabanlı dizini verilen nesne C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.markup/sdtlistitemcollection/item/
@@ -14,7 +16,7 @@ Bir değeri döndürür[`SdtListItem`](../../sdtlistitem/) koleksiyondaki sıfı
 public SdtListItem this[int index] { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Açılır liste yapılandırılmış belge etiketleriyle nasıl çalışılacağını gösterir.
 
@@ -72,7 +74,5 @@ Assert.AreEqual(0, listItems.Count);
 
 * class [SdtListItem](../../sdtlistitem/)
 * class [SdtListItemCollection](../)
-* ad alanı [Aspose.Words.Markup](../../sdtlistitemcollection/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

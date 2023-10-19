@@ -1,7 +1,9 @@
 ---
 title: Shape.TextPath
-second_title: Aspose.Words for .NET API Referansı
-description: Shape mülk. Metin yolunun metnini bir WordArt nesnesinin tanımlar.
+linktitle: TextPath
+articleTitle: TextPath
+second_title: Aspose.Words for .NET
+description: Shape TextPath mülk. Metin yolunun metnini bir WordArt nesnesinin tanımlar C#'da.
 type: docs
 weight: 230
 url: /tr/net/aspose.words.drawing/shape/textpath/
@@ -14,7 +16,7 @@ Metin yolunun metnini (bir WordArt nesnesinin) tanımlar.
 public TextPath TextPath { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 WordArt'la nasıl çalışılacağını gösterir.
 
@@ -118,7 +120,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 
 * class [TextPath](../../textpath/)
 * class [Shape](../)
-* ad alanı [Aspose.Words.Drawing](../../shape/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

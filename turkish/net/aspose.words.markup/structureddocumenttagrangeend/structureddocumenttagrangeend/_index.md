@@ -1,14 +1,16 @@
 ---
-title: StructuredDocumentTagRangeEnd.StructuredDocumentTagRangeEnd
-second_title: Aspose.Words for .NET API Referansı
-description: StructuredDocumentTagRangeEnd inşaatçı. Yeni bir örneğini başlatır Yapılandırılmış belge etiketi aralığı sonu class.
+title: StructuredDocumentTagRangeEnd
+linktitle: StructuredDocumentTagRangeEnd
+articleTitle: StructuredDocumentTagRangeEnd
+second_title: Aspose.Words for .NET
+description: StructuredDocumentTagRangeEnd inşaatçı. Yeni bir örneğini başlatırYapılandırılmış belge etiketi aralığı sonu class C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.markup/structureddocumenttagrangeend/structureddocumenttagrangeend/
 ---
 ## StructuredDocumentTagRangeEnd constructor
 
-Yeni bir örneğini başlatır **Yapılandırılmış belge etiketi aralığı sonu** class.
+Yeni bir örneğini başlatır**Yapılandırılmış belge etiketi aralığı sonu** class.
 
 ```csharp
 public StructuredDocumentTagRangeEnd(DocumentBase doc, int id)
@@ -19,7 +21,7 @@ public StructuredDocumentTagRangeEnd(DocumentBase doc, int id)
 | doc | DocumentBase | Sahibi belgesi. |
 | id | Int32 | İlgili yapılandırılmış belge etiketi aralığı başlangıcının tanımlayıcısı. |
 
-### Örnekler
+## Örnekler
 
 Yapılandırılmış belge etiketinin ve içeriğinin nasıl oluşturulacağını/kaldırılacağını gösterir.
 
@@ -72,7 +74,5 @@ public void InsertStructuredDocumentTagRanges(Document doc, out StructuredDocume
 
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * class [StructuredDocumentTagRangeEnd](../)
-* ad alanı [Aspose.Words.Markup](../../structureddocumenttagrangeend/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

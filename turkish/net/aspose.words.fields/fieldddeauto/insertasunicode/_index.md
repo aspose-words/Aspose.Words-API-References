@@ -1,7 +1,9 @@
 ---
 title: FieldDdeAuto.InsertAsUnicode
-second_title: Aspose.Words for .NET API Referansı
-description: FieldDdeAuto mülk. Bağlı nesnenin Unicode metin olarak eklenip eklenmeyeceğini alır veya ayarlar.
+linktitle: InsertAsUnicode
+articleTitle: InsertAsUnicode
+second_title: Aspose.Words for .NET
+description: FieldDdeAuto InsertAsUnicode mülk. Bağlı nesnenin Unicode metin olarak eklenip eklenmeyeceğini alır veya ayarlar C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.fields/fieldddeauto/insertasunicode/
@@ -14,7 +16,7 @@ Bağlı nesnenin Unicode metin olarak eklenip eklenmeyeceğini alır veya ayarla
 public bool InsertAsUnicode { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Yerel dosya sistemindeki diğer belgelere bağlanmak ve içeriklerini görüntülemek için çeşitli alan türlerinin nasıl kullanılacağını gösterir.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### Ayrıca bakınız
 
 * class [FieldDdeAuto](../)
-* ad alanı [Aspose.Words.Fields](../../fieldddeauto/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

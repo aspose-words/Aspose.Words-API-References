@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.ShowValue
-second_title: Aspose.Words for .NET API Referansı
-description: ChartDataLabelCollection mülk. Tüm serinin veri etiketlerinde değerlerin görüntülenip görüntülenmeyeceğini belirlemeye izin verir. Varsayılan değerYANLIŞ .
+linktitle: ShowValue
+articleTitle: ShowValue
+second_title: Aspose.Words for .NET
+description: ChartDataLabelCollection ShowValue mülk. Tüm serinin veri etiketlerinde değerlerin görüntülenip görüntülenmeyeceğini belirlemeye izin verir. Varsayılan değerYANLIŞ  C#'da.
 type: docs
 weight: 140
 url: /tr/net/aspose.words.drawing.charts/chartdatalabelcollection/showvalue/
@@ -14,11 +16,11 @@ Tüm serinin veri etiketlerinde değerlerin görüntülenip görüntülenmeyece�
 public bool ShowValue { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özellik için tanımlanan değer, the kullanılarak tek bir veri etiketi için geçersiz kılınabilir[`ShowValue`](../../chartdatalabel/showvalue/) özellik.
 
-### Örnekler
+## Örnekler
 
 Pasta grafiğinin veri etiketleriyle nasıl çalışılacağını gösterir.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Charts.DataLabelsPieChart.docx");
 ### Ayrıca bakınız
 
 * class [ChartDataLabelCollection](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

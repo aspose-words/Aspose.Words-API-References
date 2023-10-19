@@ -1,7 +1,9 @@
 ---
-title: Class ListFormat
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Lists.ListFormat sınıf. Bir paragrafa hangi liste formatının uygulandığını kontrol etmeye izin verir.
+title: ListFormat Class
+linktitle: ListFormat
+articleTitle: ListFormat
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Lists.ListFormat sınıf. Bir paragrafa hangi liste formatının uygulandığını kontrol etmeye izin verir C#'da.
 type: docs
 weight: 3480
 url: /tr/net/aspose.words.lists/listformat/
@@ -35,7 +37,7 @@ public class ListFormat
 | [ListOutdent](../../aspose.words.lists/listformat/listoutdent/)() | Geçerli paragrafın liste düzeyini bir düzey azaltır. |
 | [RemoveNumbers](../../aspose.words.lists/listformat/removenumbers/)() | Geçerli paragraftaki sayıları veya madde işaretlerini kaldırır ve liste düzeyini sıfıra ayarlar. |
 
-### Notlar
+## Notlar
 
 Bir Microsoft Word belgesindeki bir paragraf madde işaretli veya numaralandırılmış olabilir. Bir paragraf madde işaretli veya numaralandırılmış olduğunda, paragrafa liste biçimlendirme uygulandığı söylenir.
 
@@ -51,7 +53,7 @@ Liste formatının kendisi bir dosyanın içinde saklanır.[`List`](../list/) Pa
 
 Paragraflar fiziksel olarak bir listeye ait değildir. Just paragrafları belirli bir liste nesnesine referans verir.[`List`](./list/) property ve listedeki belirli bir düzey[`ListLevelNumber`](./listlevelnumber/) property. Bu iki özelliği ayarlayarak, bir paragrafa hangi madde işaretlerinin ve numaralandırmanın uygulandığını kontrol edersiniz.
 
-### Örnekler
+## Örnekler
 
 Liste düzeyleriyle nasıl çalışılacağını gösterir.
 
@@ -105,5 +107,3 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 
 * ad alanı [Aspose.Words.Lists](../../aspose.words.lists/)
 * toplantı [Aspose.Words](../../)
-
-

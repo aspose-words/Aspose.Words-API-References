@@ -1,12 +1,14 @@
 ---
 title: Hyphenation.RegisterDictionary
-second_title: Aspose.Words for .NET API Referansı
-description: Hyphenation yöntem. Bir akıştan belirtilen dil için bir tireleme sözlüğünü kaydeder ve yükler. Sözlüğün okunamaması veya biçiminin geçersiz olması durumunda hata oluşur.
+linktitle: RegisterDictionary
+articleTitle: RegisterDictionary
+second_title: Aspose.Words for .NET
+description: Hyphenation RegisterDictionary yöntem. Bir akıştan belirtilen dil için bir tireleme sözlüğünü kaydeder ve yükler. Sözlüğün okunamaması veya biçiminin geçersiz olması durumunda hata oluşur C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words/hyphenation/registerdictionary/
 ---
-## RegisterDictionary(string, Stream) {#registerdictionary}
+## RegisterDictionary(*string, Stream*) {#registerdictionary}
 
 Bir akıştan belirtilen dil için bir tireleme sözlüğünü kaydeder ve yükler. Sözlüğün okunamaması veya biçiminin geçersiz olması durumunda hata oluşur.
 
@@ -19,7 +21,7 @@ public static void RegisterDictionary(string language, Stream stream)
 | language | String | Bir dil adı, örneğin "en-US". "Kültür adı" için .NET belgelerine ve ayrıntılar için RFC 4646'ya bakın. |
 | stream | Stream | OpenOffice biçimindeki sözlük dosyası için bir akış. |
 
-### Örnekler
+## Örnekler
 
 Bir dosyadan sözlüğün nasıl açılacağını ve kaydedileceğini gösterir.
 
@@ -95,12 +97,12 @@ private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 ### Ayrıca bakınız
 
 * class [Hyphenation](../)
-* ad alanı [Aspose.Words](../../hyphenation/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## RegisterDictionary(string, string) {#registerdictionary_1}
+## RegisterDictionary(*string, string*) {#registerdictionary_1}
 
 Dosyadan belirtilen dil için bir tireleme sözlüğünü kaydeder ve yükler. Sözlüğün okunamaması veya biçiminin geçersiz olması durumunda hata oluşur.
 
@@ -115,7 +117,7 @@ public static void RegisterDictionary(string language, string fileName)
 | language | String | Bir dil adı, örneğin "en-US". "Kültür adı" için .NET belgelerine ve ayrıntılar için RFC 4646'ya bakın. |
 | fileName | String | Open Office biçimindeki sözlük dosyasının yolu. |
 
-### Örnekler
+## Örnekler
 
 Bir tireleme sözlüğünün nasıl kaydedileceğini gösterir.
 
@@ -223,7 +225,5 @@ private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 ### Ayrıca bakınız
 
 * class [Hyphenation](../)
-* ad alanı [Aspose.Words](../../hyphenation/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

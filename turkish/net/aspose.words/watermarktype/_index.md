@@ -1,7 +1,9 @@
 ---
-title: Enum WatermarkType
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.WatermarkType Sıralama. Filigran türünü belirtir.
+title: WatermarkType Enum
+linktitle: WatermarkType
+articleTitle: WatermarkType
+second_title: Aspose.Words for .NET
+description: Aspose.Words.WatermarkType Sıralama. Filigran türünü belirtir C#'da.
 type: docs
 weight: 6690
 url: /tr/net/aspose.words/watermarktype/
@@ -22,7 +24,7 @@ public enum WatermarkType
 | Image | `1` | Resmin filigran olarak kullanılacağını belirtir. |
 | None | `2` | Filigranın ayarlanmadığını gösterir. |
 
-### Örnekler
+## Örnekler
 
 Metin filigranının nasıl oluşturulacağını gösterir.
 
@@ -54,5 +56,3 @@ if (doc.Watermark.Type == WatermarkType.Text)
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

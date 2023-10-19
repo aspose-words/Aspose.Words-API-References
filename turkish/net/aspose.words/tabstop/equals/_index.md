@@ -1,7 +1,9 @@
 ---
 title: TabStop.Equals
-second_title: Aspose.Words for .NET API Referansı
-description: TabStop yöntem. Belirtilenle karşılaştırırTabStop .
+linktitle: Equals
+articleTitle: Equals
+second_title: Aspose.Words for .NET
+description: TabStop Equals yöntem. Belirtilenle karşılaştırırTabStop  C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words/tabstop/equals/
@@ -14,7 +16,7 @@ Belirtilenle karşılaştırır[`TabStop`](../) .
 public bool Equals(TabStop rhs)
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgenin sekme durakları koleksiyonuyla nasıl çalışılacağını gösterir.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 ### Ayrıca bakınız
 
 * class [TabStop](../)
-* ad alanı [Aspose.Words](../../tabstop/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

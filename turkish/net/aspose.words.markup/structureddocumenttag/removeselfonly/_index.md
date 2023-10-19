@@ -1,9 +1,11 @@
 ---
 title: StructuredDocumentTag.RemoveSelfOnly
-second_title: Aspose.Words for .NET API Referansı
-description: StructuredDocumentTag yöntem. Yalnızca bu SDT düğümünün kendisini kaldırır ancak içeriğini belge ağacının içinde tutar.
+linktitle: RemoveSelfOnly
+articleTitle: RemoveSelfOnly
+second_title: Aspose.Words for .NET
+description: StructuredDocumentTag RemoveSelfOnly yöntem. Yalnızca bu SDT düğümünün kendisini kaldırır ancak içeriğini belge ağacının içinde tutar C#'da.
 type: docs
-weight: 370
+weight: 350
 url: /tr/net/aspose.words.markup/structureddocumenttag/removeselfonly/
 ---
 ## StructuredDocumentTag.RemoveSelfOnly method
@@ -14,7 +16,7 @@ Yalnızca bu SDT düğümünün kendisini kaldırır ancak içeriğini belge ağ
 public void RemoveSelfOnly()
 ```
 
-### Örnekler
+## Örnekler
 
 Düz metin kutusunda yapılandırılmış belge etiketinin nasıl oluşturulacağını ve görünümünün nasıl değiştirileceğini gösterir.
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");
 ### Ayrıca bakınız
 
 * class [StructuredDocumentTag](../)
-* ad alanı [Aspose.Words.Markup](../../structureddocumenttag/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

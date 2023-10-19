@@ -1,7 +1,9 @@
 ---
-title: Class MailMergeRegionInfo
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.MailMerging.MailMergeRegionInfo sınıf. Adresmektup birleştirme bölgesi hakkında bilgi içerir.
+title: MailMergeRegionInfo Class
+linktitle: MailMergeRegionInfo
+articleTitle: MailMergeRegionInfo
+second_title: Aspose.Words for .NET
+description: Aspose.Words.MailMerging.MailMergeRegionInfo sınıf. Adresmektup birleştirme bölgesi hakkında bilgi içerir C#'da.
 type: docs
 weight: 3860
 url: /tr/net/aspose.words.mailmerging/mailmergeregioninfo/
@@ -31,7 +33,7 @@ public class MailMergeRegionInfo
 | [StartField](../../aspose.words.mailmerging/mailmergeregioninfo/startfield/) { get; } | Bölge için bir başlangıç alanı döndürür. |
 | [StartMustacheTag](../../aspose.words.mailmerging/mailmergeregioninfo/startmustachetag/) { get; } | Bölge için bir başlangıç "bıyık" etiketi döndürür. |
 
-### Örnekler
+## Örnekler
 
 Adres-mektup birleştirme bölgelerinin nasıl doğrulanacağını gösterir.
 
@@ -77,5 +79,3 @@ Assert.AreEqual("TableEnd:NestedRegion1", endFieldMergeField.FieldName);
 
 * ad alanı [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * toplantı [Aspose.Words](../../)
-
-

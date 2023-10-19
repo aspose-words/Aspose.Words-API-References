@@ -1,7 +1,9 @@
 ---
 title: ThemeColors.Accent3
-second_title: Aspose.Words for .NET API Referansı
-description: ThemeColors mülk. Renk Vurgusunu belirtir 3.
+linktitle: Accent3
+articleTitle: Accent3
+second_title: Aspose.Words for .NET
+description: ThemeColors Accent3 mülk. Renk Vurgusunu belirtir 3 C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.themes/themecolors/accent3/
@@ -14,7 +16,7 @@ Renk Vurgusunu belirtir 3.
 public Color Accent3 { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Temalar için özel renklerin ve yazı tiplerinin nasıl ayarlanacağını gösterir.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 ### Ayrıca bakınız
 
 * class [ThemeColors](../)
-* ad alanı [Aspose.Words.Themes](../../themecolors/)
+* ad alanı [Aspose.Words.Themes](../../../aspose.words.themes/)
 * toplantı [Aspose.Words](../../../)
-
-

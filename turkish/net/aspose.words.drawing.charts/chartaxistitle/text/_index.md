@@ -1,9 +1,11 @@
 ---
 title: ChartAxisTitle.Text
-second_title: Aspose.Words for .NET API Referansı
-description: ChartAxisTitle mülk. Eksen başlığının metnini alır veya ayarlar. Ifhükümsüz veya boş değer belirtilirse otomatik oluşturulan başlık gösterilecektir.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words for .NET
+description: ChartAxisTitle Text mülk. Eksen başlığının metnini alır veya ayarlar. Ifhükümsüz veya boş değer belirtilirse otomatik oluşturulan başlık gösterilecektir C#'da.
 type: docs
-weight: 40
+weight: 30
 url: /tr/net/aspose.words.drawing.charts/chartaxistitle/text/
 ---
 ## ChartAxisTitle.Text property
@@ -14,11 +16,11 @@ Eksen başlığının metnini alır veya ayarlar. If`hükümsüz` veya boş değ
 public string Text { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Kullanmak[`Show`](../show/) başlığı göstermeniz gerekiyorsa bu seçeneği kullanın.
 
-### Örnekler
+## Örnekler
 
 Grafik ekseni başlığının nasıl ayarlanacağını gösterir.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Charts.ChartAxisTitle.docx");
 ### Ayrıca bakınız
 
 * class [ChartAxisTitle](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartaxistitle/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

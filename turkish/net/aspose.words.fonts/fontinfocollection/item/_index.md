@@ -1,7 +1,9 @@
 ---
 title: FontInfoCollection.Item
-second_title: Aspose.Words for .NET API Referansı
-description: FontInfoCollection mülk. Belirtilen ada sahip bir yazı tipini alır.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words for .NET
+description: FontInfoCollection Item mülk. Belirtilen ada sahip bir yazı tipini alır C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.fonts/fontinfocollection/item/
@@ -18,7 +20,7 @@ public FontInfo this[string name] { get; }
 | --- | --- |
 | name | Bulunacak yazı tipinin büyük/küçük harfe duyarlı olmayan adı. |
 
-### Örnekler
+## Örnekler
 
 Katıştırılmış bir yazı tipinin bir belgeden nasıl çıkarılacağını ve yerel dosya sistemine nasıl kaydedileceğini gösterir.
 
@@ -46,7 +48,7 @@ File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.otf", embeddedFon
 
 * class [FontInfo](../../fontinfo/)
 * class [FontInfoCollection](../)
-* ad alanı [Aspose.Words.Fonts](../../fontinfocollection/)
+* ad alanı [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../../)
 
 ---
@@ -63,7 +65,7 @@ public FontInfo this[int index] { get; }
 | --- | --- |
 | index | Yazı tipinin sıfır tabanlı dizini. |
 
-### Örnekler
+## Örnekler
 
 Katıştırılmış bir yazı tipinin bir belgeden nasıl çıkarılacağını ve yerel dosya sistemine nasıl kaydedileceğini gösterir.
 
@@ -91,7 +93,5 @@ File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.otf", embeddedFon
 
 * class [FontInfo](../../fontinfo/)
 * class [FontInfoCollection](../)
-* ad alanı [Aspose.Words.Fonts](../../fontinfocollection/)
+* ad alanı [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../../)
-
-

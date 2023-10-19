@@ -1,7 +1,9 @@
 ---
 title: CompositeNode.FirstChild
-second_title: Aspose.Words for .NET API Referansı
-description: CompositeNode mülk. Düğümün ilk çocuğunu alır.
+linktitle: FirstChild
+articleTitle: FirstChild
+second_title: Aspose.Words for .NET
+description: CompositeNode FirstChild mülk. Düğümün ilk çocuğunu alır C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/compositenode/firstchild/
@@ -14,11 +16,11 @@ Düğümün ilk çocuğunu alır.
 public Node FirstChild { get; }
 ```
 
-### Notlar
+## Notlar
 
 İlk alt düğüm yoksa, bir`hükümsüz` döndürülür.
 
-### Örnekler
+## Örnekler
 
 Bir düğümün NextSibling özelliğinin, doğrudan alt öğeleri aracılığıyla numaralandırmak için nasıl kullanılacağını gösterir.
 
@@ -81,7 +83,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * class [Node](../../node/)
 * class [CompositeNode](../)
-* ad alanı [Aspose.Words](../../compositenode/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

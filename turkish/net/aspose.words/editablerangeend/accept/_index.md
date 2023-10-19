@@ -1,7 +1,9 @@
 ---
 title: EditableRangeEnd.Accept
-second_title: Aspose.Words for .NET API Referansı
-description: EditableRangeEnd yöntem. Ziyaretçi kabul eder.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words for .NET
+description: EditableRangeEnd Accept yöntem. Ziyaretçi kabul eder C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words/editablerangeend/accept/
@@ -22,13 +24,13 @@ public override bool Accept(DocumentVisitor visitor)
 
 `YANLIŞ` ziyaretçi numaralandırmanın durdurulmasını talep ederse.
 
-### Notlar
+## Notlar
 
 Aramalar[`VisitEditableRangeEnd`](../../documentvisitor/visiteditablerangeend/).
 
 Daha fazla bilgi için Ziyaretçi tasarım desenine bakın.
 
-### Örnekler
+## Örnekler
 
 Düzenlenebilir aralıkların düzenleme haklarının belirli bir grup/kullanıcıyla nasıl sınırlandırılacağını gösterir.
 
@@ -140,7 +142,5 @@ public class EditableRangePrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../documentvisitor/)
 * class [EditableRangeEnd](../)
-* ad alanı [Aspose.Words](../../editablerangeend/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

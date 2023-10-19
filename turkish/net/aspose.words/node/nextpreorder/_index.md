@@ -1,7 +1,9 @@
 ---
 title: Node.NextPreOrder
-second_title: Aspose.Words for .NET API Referansı
-description: Node yöntem. Ön sipariş ağaç geçiş algoritmasına göre sonraki düğümü alır.
+linktitle: NextPreOrder
+articleTitle: NextPreOrder
+second_title: Aspose.Words for .NET
+description: Node NextPreOrder yöntem. Ön sipariş ağaç geçiş algoritmasına göre sonraki düğümü alır C#'da.
 type: docs
 weight: 130
 url: /tr/net/aspose.words/node/nextpreorder/
@@ -22,7 +24,7 @@ public Node NextPreOrder(Node rootNode)
 
 Ön sipariş sırasına göre sonraki düğüm. Ulaşıldığında boş*rootNode*.
 
-### Örnekler
+## Örnekler
 
 Ön sipariş geçiş algoritmasını kullanarak belgenin düğüm ağacında nasıl geçiş yapılacağını ve karşılaşılan herhangi bir şeklin görüntüyle nasıl silineceğini gösterir.
 
@@ -53,7 +55,5 @@ Assert.AreEqual(0,
 ### Ayrıca bakınız
 
 * class [Node](../)
-* ad alanı [Aspose.Words](../../node/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

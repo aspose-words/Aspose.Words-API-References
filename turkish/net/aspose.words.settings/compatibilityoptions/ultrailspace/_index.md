@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.UlTrailSpace
-second_title: Aspose.Words for .NET API Referansı
-description: CompatibilityOptions mülk. Tüm İzleyen Boşlukların Altını Çizin.
+linktitle: UlTrailSpace
+articleTitle: UlTrailSpace
+second_title: Aspose.Words for .NET
+description: CompatibilityOptions UlTrailSpace mülk. Tüm İzleyen Boşlukların Altını Çizin C#'da.
 type: docs
 weight: 580
 url: /tr/net/aspose.words.settings/compatibilityoptions/ultrailspace/
@@ -17,7 +19,5 @@ public bool UlTrailSpace { get; set; }
 ### Ayrıca bakınız
 
 * class [CompatibilityOptions](../)
-* ad alanı [Aspose.Words.Settings](../../compatibilityoptions/)
+* ad alanı [Aspose.Words.Settings](../../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../../)
-
-

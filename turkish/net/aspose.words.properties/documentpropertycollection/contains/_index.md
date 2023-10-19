@@ -1,7 +1,9 @@
 ---
 title: DocumentPropertyCollection.Contains
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentPropertyCollection yöntem. İadelerdoğru koleksiyonda belirtilen ada sahip bir özellik mevcutsa.
+linktitle: Contains
+articleTitle: Contains
+second_title: Aspose.Words for .NET
+description: DocumentPropertyCollection Contains yöntem. İadelerdoğru koleksiyonda belirtilen ada sahip bir özellik mevcutsa C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.properties/documentpropertycollection/contains/
@@ -22,7 +24,7 @@ public bool Contains(string name)
 
 `doğru` mülk koleksiyonda mevcutsa;`YANLIŞ` aksi takdirde.
 
-### Örnekler
+## Örnekler
 
 Bir belgenin özel özellikleriyle nasıl çalışılacağını gösterir.
 
@@ -82,7 +84,5 @@ Assert.AreEqual(0, properties.Count);
 ### Ayrıca bakınız
 
 * class [DocumentPropertyCollection](../)
-* ad alanı [Aspose.Words.Properties](../../documentpropertycollection/)
+* ad alanı [Aspose.Words.Properties](../../../aspose.words.properties/)
 * toplantı [Aspose.Words](../../../)
-
-

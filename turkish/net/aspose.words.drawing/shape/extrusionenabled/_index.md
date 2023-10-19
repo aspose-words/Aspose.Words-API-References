@@ -1,7 +1,9 @@
 ---
 title: Shape.ExtrusionEnabled
-second_title: Aspose.Words for .NET API Referansı
-description: Shape mülk. İadelerdoğru ekstrüzyon efekti etkinse.
+linktitle: ExtrusionEnabled
+articleTitle: ExtrusionEnabled
+second_title: Aspose.Words for .NET
+description: Shape ExtrusionEnabled mülk. İadelerdoğru ekstrüzyon efekti etkinse C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.drawing/shape/extrusionenabled/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.drawing/shape/extrusionenabled/
 public bool ExtrusionEnabled { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki tüm şekillerin nasıl yineleneceğini gösterir.
 
@@ -137,7 +139,5 @@ private class ShapeAppearancePrinter : DocumentVisitor
 ### Ayrıca bakınız
 
 * class [Shape](../)
-* ad alanı [Aspose.Words.Drawing](../../shape/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

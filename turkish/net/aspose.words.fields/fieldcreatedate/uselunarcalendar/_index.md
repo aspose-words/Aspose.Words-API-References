@@ -1,7 +1,9 @@
 ---
 title: FieldCreateDate.UseLunarCalendar
-second_title: Aspose.Words for .NET API Referansı
-description: FieldCreateDate mülk. Hicri Ay takviminin mi yoksa İbrani Ay takviminin mi kullanılacağını alır veya ayarlar.
+linktitle: UseLunarCalendar
+articleTitle: UseLunarCalendar
+second_title: Aspose.Words for .NET
+description: FieldCreateDate UseLunarCalendar mülk. Hicri Ay takviminin mi yoksa İbrani Ay takviminin mi kullanılacağını alır veya ayarlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fieldcreatedate/uselunarcalendar/
@@ -14,7 +16,7 @@ Hicri Ay takviminin mi yoksa İbrani Ay takviminin mi kullanılacağını alır 
 public bool UseLunarCalendar { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Belgenin oluşturulma tarihini/saatini görüntülemek için CREATEDATE alanının nasıl kullanılacağını gösterir.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "Field.CREATEDATE.docx");
 ### Ayrıca bakınız
 
 * class [FieldCreateDate](../)
-* ad alanı [Aspose.Words.Fields](../../fieldcreatedate/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

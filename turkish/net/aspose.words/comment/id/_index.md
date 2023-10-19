@@ -1,7 +1,9 @@
 ---
 title: Comment.Id
-second_title: Aspose.Words for .NET API Referansı
-description: Comment mülk. Yorum tanımlayıcısını alır.
+linktitle: Id
+articleTitle: Id
+second_title: Aspose.Words for .NET
+description: Comment Id mülk. Yorum tanımlayıcısını alır C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words/comment/id/
@@ -11,10 +13,10 @@ url: /tr/net/aspose.words/comment/id/
 Yorum tanımlayıcısını alır.
 
 ```csharp
-public int Id { get; set; }
+public int Id { get; }
 ```
 
-### Notlar
+## Notlar
 
 Yorum tanımlayıcı, bir yorumun belgedeki metnin bir bölgesine sabitlenmesine olanak tanır. Bölge,[`CommentRangeStart`](../../commentrangestart/) Ve[`CommentRangeEnd`](../../commentrangeend/) nesnesi aynı tanımlayıcı değerini paylaşıyor[`Comment`](../) nesne.
 
@@ -22,7 +24,7 @@ ararken bu değeri kullanırsınız.[`CommentRangeStart`](../../commentrangestar
 
 Yorum tanımlayıcılarının bir belge genelinde benzersiz olması gerekir ve Aspose.Words, belgeleri yüklerken, kaydederken ve birleştirirken otomatik olarak yorum tanımlayıcılarını korur.
 
-### Örnekler
+## Örnekler
 
 Bir belge ziyaretçisi kullanılarak tüm yorumların içeriğinin ve yorum aralıklarının nasıl yazdırıldığını gösterir.
 
@@ -183,7 +185,5 @@ public class CommentInfoPrinter : DocumentVisitor
 ### Ayrıca bakınız
 
 * class [Comment](../)
-* ad alanı [Aspose.Words](../../comment/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

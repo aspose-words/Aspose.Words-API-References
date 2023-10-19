@@ -1,7 +1,9 @@
 ---
 title: PageSetup.TopMargin
-second_title: Aspose.Words for .NET API Referansı
-description: PageSetup mülk. Sayfanın üst kenarı ile gövde metninin üst sınırı arasındaki mesafeyi nokta cinsinden döndürür veya ayarlar.
+linktitle: TopMargin
+articleTitle: TopMargin
+second_title: Aspose.Words for .NET
+description: PageSetup TopMargin mülk. Sayfanın üst kenarı ile gövde metninin üst sınırı arasındaki mesafeyi nokta cinsinden döndürür veya ayarlar C#'da.
 type: docs
 weight: 440
 url: /tr/net/aspose.words/pagesetup/topmargin/
@@ -14,7 +16,7 @@ Sayfanın üst kenarı ile gövde metninin üst sınırı arasındaki mesafeyi (
 public double TopMargin { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir bölüm için kağıt boyutunun, yönünün, kenar boşluklarının ve diğer ayarların nasıl ayarlanacağını gösterir.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageMargins.docx");
 ### Ayrıca bakınız
 
 * class [PageSetup](../)
-* ad alanı [Aspose.Words](../../pagesetup/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

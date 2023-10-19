@@ -1,7 +1,9 @@
 ---
 title: OoxmlSaveOptions.Compliance
-second_title: Aspose.Words for .NET API Referansı
-description: OoxmlSaveOptions mülk. Çıktı belgesinin OOXML sürümünü belirtir. Varsayılan değerEcma376_2006 .
+linktitle: Compliance
+articleTitle: Compliance
+second_title: Aspose.Words for .NET
+description: OoxmlSaveOptions Compliance mülk. Çıktı belgesinin OOXML sürümünü belirtir. Varsayılan değerEcma376_2006  C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.saving/ooxmlsaveoptions/compliance/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.saving/ooxmlsaveoptions/compliance/
 public OoxmlCompliance Compliance { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 DML şekillerinin bir belgeye nasıl ekleneceğini gösterir.
 
@@ -106,7 +108,5 @@ Assert.AreEqual(ShapeMarkupLanguage.Dml, ((Shape)doc.GetChild(NodeType.Shape, 0,
 
 * enum [OoxmlCompliance](../../ooxmlcompliance/)
 * class [OoxmlSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../ooxmlsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

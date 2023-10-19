@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.Shading
-second_title: Aspose.Words for .NET API Referansı
-description: ParagraphFormat mülk. Bir değeri döndürürShading paragrafın gölgelendirme formatını ifade eden nesne.
+linktitle: Shading
+articleTitle: Shading
+second_title: Aspose.Words for .NET
+description: ParagraphFormat Shading mülk. Bir değeri döndürürShading paragrafın gölgelendirme formatını ifade eden nesne C#'da.
 type: docs
 weight: 280
 url: /tr/net/aspose.words/paragraphformat/shading/
@@ -14,7 +16,7 @@ Bir değeri döndürür[`Shading`](../../shading/) paragrafın gölgelendirme fo
 public Shading Shading { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Metnin kenarlıklar ve gölgelendirmeyle nasıl süsleneceğini gösterir.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.ApplyBordersAndShading.docx");
 
 * class [Shading](../../shading/)
 * class [ParagraphFormat](../)
-* ad alanı [Aspose.Words](../../paragraphformat/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

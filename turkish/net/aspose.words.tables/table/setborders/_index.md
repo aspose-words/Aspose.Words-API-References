@@ -1,9 +1,11 @@
 ---
 title: Table.SetBorders
-second_title: Aspose.Words for .NET API Referansı
-description: Table yöntem. Tüm tablo kenarlıklarını belirtilen çizgi stiline genişliğine ve rengine ayarlar.
+linktitle: SetBorders
+articleTitle: SetBorders
+second_title: Aspose.Words for .NET
+description: Table SetBorders yöntem. Tüm tablo kenarlıklarını belirtilen çizgi stiline genişliğine ve rengine ayarlar C#'da.
 type: docs
-weight: 440
+weight: 420
 url: /tr/net/aspose.words.tables/table/setborders/
 ---
 ## Table.SetBorders method
@@ -20,7 +22,7 @@ public void SetBorders(LineStyle lineStyle, double lineWidth, Color color)
 | lineWidth | Double | Ayarlanacak çizgi genişliği (nokta cinsinden). |
 | color | Color | Kenarlık için kullanılacak renk. |
 
-### Örnekler
+## Örnekler
 
 Bir tablonun tüm kenarlarının aynı anda nasıl biçimlendirileceğini gösterir.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.TableBordersAndShading.docx");
 
 * enum [LineStyle](../../../aspose.words/linestyle/)
 * class [Table](../)
-* ad alanı [Aspose.Words.Tables](../../table/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

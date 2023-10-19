@@ -1,7 +1,9 @@
 ---
 title: DigitalSignature.SignatureValue
-second_title: Aspose.Words for .NET API Referansı
-description: DigitalSignature mülk. Bir imza değerini temsil eden bayt dizisini alır.
+linktitle: SignatureValue
+articleTitle: SignatureValue
+second_title: Aspose.Words for .NET
+description: DigitalSignature SignatureValue mülk. Bir imza değerini temsil eden bayt dizisini alır C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.digitalsignatures/digitalsignature/signaturevalue/
@@ -14,7 +16,7 @@ Bir imza değerini temsil eden bayt dizisini alır.
 public byte[] SignatureValue { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Dijital olarak imzalanmış bir belgeden dijital imza değerinin nasıl alınacağını gösterir.
 
@@ -33,7 +35,5 @@ foreach (DigitalSignature digitalSignature in doc.DigitalSignatures)
 ### Ayrıca bakınız
 
 * class [DigitalSignature](../)
-* ad alanı [Aspose.Words.DigitalSignatures](../../digitalsignature/)
+* ad alanı [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * toplantı [Aspose.Words](../../../)
-
-

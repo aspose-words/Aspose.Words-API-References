@@ -1,7 +1,9 @@
 ---
 title: BookmarkCollection.GetEnumerator
-second_title: Aspose.Words for .NET API Referansı
-description: BookmarkCollection yöntem. Bir numaralandırıcı nesnesini döndürür.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words for .NET
+description: BookmarkCollection GetEnumerator yöntem. Bir numaralandırıcı nesnesini döndürür C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words/bookmarkcollection/getenumerator/
@@ -14,7 +16,7 @@ Bir numaralandırıcı nesnesini döndürür.
 public IEnumerator<Bookmark> GetEnumerator()
 ```
 
-### Örnekler
+## Örnekler
 
 Yer işaretlerinin nasıl ekleneceğini ve içeriklerinin nasıl güncelleneceğini gösterir.
 
@@ -104,7 +106,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 * class [Bookmark](../../bookmark/)
 * class [BookmarkCollection](../)
-* ad alanı [Aspose.Words](../../bookmarkcollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

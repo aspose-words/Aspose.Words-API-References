@@ -1,7 +1,9 @@
 ---
 title: Forms2OleControl.Value
-second_title: Aspose.Words for .NET API Referansı
-description: Forms2OleControl mülk. Genellikle kontrol durumunu temsil eden temel Değer özelliğini alır. Örneğin işaretli seçenek düğmesi 1 değerine sahipken işaretlenmemişse 0 değerine sahiptir. Varsayılan değer boş bir dizedir.
+linktitle: Value
+articleTitle: Value
+second_title: Aspose.Words for .NET
+description: Forms2OleControl Value mülk. Genellikle kontrol durumunu temsil eden temel Değer özelliğini alır. Örneğin işaretli seçenek düğmesi 1 değerine sahipken işaretlenmemişse 0 değerine sahiptir. Varsayılan değer boş bir dizedir C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.drawing.ole/forms2olecontrol/value/
@@ -14,7 +16,7 @@ Genellikle kontrol durumunu temsil eden temel Değer özelliğini alır. Örneğ
 public string Value { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 ActiveX denetiminin özelliklerinin nasıl doğrulanacağını gösterir.
 
@@ -44,7 +46,5 @@ if (oleControl.IsForms2OleControl)
 ### Ayrıca bakınız
 
 * class [Forms2OleControl](../)
-* ad alanı [Aspose.Words.Drawing.Ole](../../forms2olecontrol/)
+* ad alanı [Aspose.Words.Drawing.Ole](../../../aspose.words.drawing.ole/)
 * toplantı [Aspose.Words](../../../)
-
-

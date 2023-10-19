@@ -1,7 +1,9 @@
 ---
 title: SignatureLine.AllowComments
-second_title: Aspose.Words for .NET API Referansı
-description: SignatureLine mülk. İmzalayanın İmza iletişim kutusuna yorum ekleyebileceğini belirten bir değer alır veya ayarlar. Bu özelliğin varsayılan değeriYANLIŞ .
+linktitle: AllowComments
+articleTitle: AllowComments
+second_title: Aspose.Words for .NET
+description: SignatureLine AllowComments mülk. İmzalayanın İmza iletişim kutusuna yorum ekleyebileceğini belirten bir değer alır veya ayarlar. Bu özelliğin varsayılan değeriYANLIŞ  C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.drawing/signatureline/allowcomments/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.drawing/signatureline/allowcomments/
 public bool AllowComments { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 İmza için nasıl satır oluşturulacağını ve bunun belgeye nasıl ekleneceğini gösterir.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "Shape.SignatureLine.docx");
 ### Ayrıca bakınız
 
 * class [SignatureLine](../)
-* ad alanı [Aspose.Words.Drawing](../../signatureline/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

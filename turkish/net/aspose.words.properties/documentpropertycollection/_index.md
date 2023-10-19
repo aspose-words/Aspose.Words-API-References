@@ -1,7 +1,9 @@
 ---
-title: Class DocumentPropertyCollection
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Properties.DocumentPropertyCollection sınıf. Temel sınıfBuiltInDocumentProperties VeCustomDocumentProperties koleksiyonlar.
+title: DocumentPropertyCollection Class
+linktitle: DocumentPropertyCollection
+articleTitle: DocumentPropertyCollection
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Properties.DocumentPropertyCollection sınıf. Temel sınıfBuiltInDocumentProperties VeCustomDocumentProperties koleksiyonlar C#'da.
 type: docs
 weight: 4480
 url: /tr/net/aspose.words.properties/documentpropertycollection/
@@ -29,19 +31,19 @@ public abstract class DocumentPropertyCollection : IEnumerable<DocumentProperty>
 | İsim | Tanım |
 | --- | --- |
 | [Clear](../../aspose.words.properties/documentpropertycollection/clear/)() | Koleksiyondaki tüm özellikleri kaldırır. |
-| [Contains](../../aspose.words.properties/documentpropertycollection/contains/)(string) | İadeler`doğru` koleksiyonda belirtilen ada sahip bir özellik mevcutsa. |
+| [Contains](../../aspose.words.properties/documentpropertycollection/contains/)(*string*) | İadeler`doğru` koleksiyonda belirtilen ada sahip bir özellik mevcutsa. |
 | [GetEnumerator](../../aspose.words.properties/documentpropertycollection/getenumerator/)() | Koleksiyondaki tüm öğeler üzerinde yineleme yapmak için kullanılabilecek bir numaralandırıcı nesnesini döndürür. |
-| [IndexOf](../../aspose.words.properties/documentpropertycollection/indexof/)(string) | Bir özelliğin dizinini ada göre alır. |
-| [Remove](../../aspose.words.properties/documentpropertycollection/remove/)(string) | Belirtilen ada sahip bir özelliği koleksiyondan kaldırır. |
-| [RemoveAt](../../aspose.words.properties/documentpropertycollection/removeat/)(int) | Belirtilen dizindeki bir özelliği kaldırır. |
+| [IndexOf](../../aspose.words.properties/documentpropertycollection/indexof/)(*string*) | Bir özelliğin dizinini ada göre alır. |
+| [Remove](../../aspose.words.properties/documentpropertycollection/remove/)(*string*) | Belirtilen ada sahip bir özelliği koleksiyondan kaldırır. |
+| [RemoveAt](../../aspose.words.properties/documentpropertycollection/removeat/)(*int*) | Belirtilen dizindeki bir özelliği kaldırır. |
 
-### Notlar
+## Notlar
 
 Özelliklerin adları büyük/küçük harfe duyarlı değildir.
 
 Koleksiyondaki özellikler ada göre alfabetik olarak sıralanmıştır.
 
-### Örnekler
+## Örnekler
 
 Bir belgenin özel özellikleriyle nasıl çalışılacağını gösterir.
 
@@ -105,5 +107,3 @@ Assert.AreEqual(0, properties.Count);
 * class [DocumentProperty](../documentproperty/)
 * ad alanı [Aspose.Words.Properties](../../aspose.words.properties/)
 * toplantı [Aspose.Words](../../)
-
-

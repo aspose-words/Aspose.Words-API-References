@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.MovePrevious
-second_title: Aspose.Words for .NET API Referansı
-description: LayoutEnumerator yöntem. Önceki kardeş varlığa gider.
+linktitle: MovePrevious
+articleTitle: MovePrevious
+second_title: Aspose.Words for .NET
+description: LayoutEnumerator MovePrevious yöntem. Önceki kardeş varlığa gider C#'da.
 type: docs
 weight: 150
 url: /tr/net/aspose.words.layout/layoutenumerator/moveprevious/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.layout/layoutenumerator/moveprevious/
 public bool MovePrevious()
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgenin düzen varlıkları arasında geçiş yapma yollarını gösterir.
 
@@ -159,7 +161,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 ### Ayrıca bakınız
 
 * class [LayoutEnumerator](../)
-* ad alanı [Aspose.Words.Layout](../../layoutenumerator/)
+* ad alanı [Aspose.Words.Layout](../../../aspose.words.layout/)
 * toplantı [Aspose.Words](../../../)
-
-

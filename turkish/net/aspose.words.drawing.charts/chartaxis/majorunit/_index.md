@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.MajorUnit
-second_title: Aspose.Words for .NET API Referansı
-description: ChartAxis mülk. Büyük onay işaretleri arasındaki mesafeyi döndürür veya ayarlar.
+linktitle: MajorUnit
+articleTitle: MajorUnit
+second_title: Aspose.Words for .NET
+description: ChartAxis MajorUnit mülk. Büyük onay işaretleri arasındaki mesafeyi döndürür veya ayarlar C#'da.
 type: docs
 weight: 120
 url: /tr/net/aspose.words.drawing.charts/chartaxis/majorunit/
@@ -14,13 +16,13 @@ Büyük onay işaretleri arasındaki mesafeyi döndürür veya ayarlar.
 public double MajorUnit { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bir değerin geçerli aralığı sıfırdan büyüktür. Özelliğin zaman kategorisi ve değer eksenleri üzerinde etkisi vardır.
 
 Bu özelliğin ayarlanması,[`MajorUnitIsAuto`](../majorunitisauto/) mülkiyet`YANLIŞ`.
 
-### Örnekler
+## Örnekler
 
 Grafiğin nasıl ekleneceğini ve eksenlerinin görünümünün nasıl değiştirileceğini gösterir.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 ### Ayrıca bakınız
 
 * class [ChartAxis](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

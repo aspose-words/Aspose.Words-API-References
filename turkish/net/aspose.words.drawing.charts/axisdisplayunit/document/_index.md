@@ -1,7 +1,9 @@
 ---
 title: AxisDisplayUnit.Document
-second_title: Aspose.Words for .NET API Referansı
-description: AxisDisplayUnit mülk. Tapu sahibinin ait olduğu Belgeyi döndürür.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words for .NET
+description: AxisDisplayUnit Document mülk. Tapu sahibinin ait olduğu Belgeyi döndürür C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.drawing.charts/axisdisplayunit/document/
@@ -18,7 +20,5 @@ public DocumentBase Document { get; }
 
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * class [AxisDisplayUnit](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../axisdisplayunit/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

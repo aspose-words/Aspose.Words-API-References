@@ -1,7 +1,9 @@
 ---
 title: FormField.Default
-second_title: Aspose.Words for .NET API Referansı
-description: FormField mülk. Onay kutusu form alanının varsayılan değerini alır veya ayarlar. Bu özelliğin varsayılan değeriYANLIŞ .
+linktitle: Default
+articleTitle: Default
+second_title: Aspose.Words for .NET
+description: FormField Default mülk. Onay kutusu form alanının varsayılan değerini alır veya ayarlar. Bu özelliğin varsayılan değeriYANLIŞ  C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.fields/formfield/default/
@@ -14,11 +16,11 @@ Onay kutusu form alanının varsayılan değerini alır veya ayarlar. Bu özelli
 public bool Default { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Yalnızca onay kutusu form alanı için geçerlidir.
 
-### Örnekler
+## Örnekler
 
 Bir belgeye farklı türde form alanlarının nasıl eklendiğini ve bunların bir belge ziyaretçi uygulaması kullanılarak nasıl işlendiğini gösterir.
 
@@ -152,7 +154,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Ayrıca bakınız
 
 * class [FormField](../)
-* ad alanı [Aspose.Words.Fields](../../formfield/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

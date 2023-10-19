@@ -1,7 +1,9 @@
 ---
 title: FootnoteOptions.StartNumber
-second_title: Aspose.Words for .NET API Referansı
-description: FootnoteOptions mülk. Otomatik olarak numaralandırılan ilk dipnotların başlangıç numarasını veya karakterini belirtir.
+linktitle: StartNumber
+articleTitle: StartNumber
+second_title: Aspose.Words for .NET
+description: FootnoteOptions StartNumber mülk. Otomatik olarak numaralandırılan ilk dipnotların başlangıç numarasını veya karakterini belirtir C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.notes/footnoteoptions/startnumber/
@@ -14,11 +16,11 @@ Otomatik olarak numaralandırılan ilk dipnotların başlangıç numarasını ve
 public int StartNumber { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özellik yalnızca şu durumlarda etkilidir:[`RestartRule`](../restartrule/) olarak ayarlandıContinuous.
 
-### Örnekler
+## Örnekler
 
 Belgenin dipnot/sonnot sayımına başlayacağı sayının nasıl ayarlanacağını gösterir.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "InlineStory.StartNumber.docx");
 ### Ayrıca bakınız
 
 * class [FootnoteOptions](../)
-* ad alanı [Aspose.Words.Notes](../../footnoteoptions/)
+* ad alanı [Aspose.Words.Notes](../../../aspose.words.notes/)
 * toplantı [Aspose.Words](../../../)
-
-

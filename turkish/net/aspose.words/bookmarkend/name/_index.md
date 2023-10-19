@@ -1,7 +1,9 @@
 ---
 title: BookmarkEnd.Name
-second_title: Aspose.Words for .NET API Referansı
-description: BookmarkEnd mülk. Yer imi adını alır veya ayarlar.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words for .NET
+description: BookmarkEnd Name mülk. Yer imi adını alır veya ayarlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/bookmarkend/name/
@@ -14,11 +16,11 @@ Yer imi adını alır veya ayarlar.
 public string Name { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Olamaz`hükümsüz`.
 
-### Örnekler
+## Örnekler
 
 Yer işaretlerinin nasıl ekleneceğini ve içeriklerinin nasıl güncelleneceğini gösterir.
 
@@ -107,7 +109,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 ### Ayrıca bakınız
 
 * class [BookmarkEnd](../)
-* ad alanı [Aspose.Words](../../bookmarkend/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

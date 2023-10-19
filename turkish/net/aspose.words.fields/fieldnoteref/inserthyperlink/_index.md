@@ -1,7 +1,9 @@
 ---
 title: FieldNoteRef.InsertHyperlink
-second_title: Aspose.Words for .NET API Referansı
-description: FieldNoteRef mülk. Yer imine eklenen paragrafa köprü eklenip eklenmeyeceğini alır veya ayarlar.
+linktitle: InsertHyperlink
+articleTitle: InsertHyperlink
+second_title: Aspose.Words for .NET
+description: FieldNoteRef InsertHyperlink mülk. Yer imine eklenen paragrafa köprü eklenip eklenmeyeceğini alır veya ayarlar C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fields/fieldnoteref/inserthyperlink/
@@ -14,7 +16,7 @@ Yer imine eklenen paragrafa köprü eklenip eklenmeyeceğini alır veya ayarlar.
 public bool InsertHyperlink { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 NOTEREF alanlarının eklenmesini ve görünümlerinin değiştirilmesini gösterir.
 
@@ -83,7 +85,5 @@ private static void InsertBookmarkWithFootnote(DocumentBuilder builder, string b
 ### Ayrıca bakınız
 
 * class [FieldNoteRef](../)
-* ad alanı [Aspose.Words.Fields](../../fieldnoteref/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

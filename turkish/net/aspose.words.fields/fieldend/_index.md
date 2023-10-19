@@ -1,7 +1,9 @@
 ---
-title: Class FieldEnd
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Fields.FieldEnd sınıf. Belgedeki Word alanının sonunu temsil eder.
+title: FieldEnd Class
+linktitle: FieldEnd
+articleTitle: FieldEnd
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Fields.FieldEnd sınıf. Belgedeki Word alanının sonunu temsil eder C#'da.
 type: docs
 weight: 1860
 url: /tr/net/aspose.words.fields/fieldend/
@@ -44,19 +46,19 @@ public class FieldEnd : FieldChar
 
 | İsim | Tanım |
 | --- | --- |
-| override [Accept](../../aspose.words.fields/fieldend/accept/)(DocumentVisitor) | Ziyaretçi kabul eder. |
-| [Clone](../../aspose.words/node/clone/)(bool) | Düğümün bir kopyasını oluşturur. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Belirtilenin ilk atayı alır[`NodeType`](../../aspose.words/nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Belirtilen nesne türünün ilk atayı alır. |
+| override [Accept](../../aspose.words.fields/fieldend/accept/)(*[DocumentVisitor](../../aspose.words/documentvisitor/)*) | Ziyaretçi kabul eder. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Düğümün bir kopyasını oluşturur. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../../aspose.words/nodetype/)*) | Belirtilenin ilk atayı alır[`NodeType`](../../aspose.words/nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Belirtilen nesne türünün ilk atayı alır. |
 | [GetField](../../aspose.words.fields/fieldchar/getfield/)() | char. alanı için bir alan döndürür |
 | override [GetText](../../aspose.words/specialchar/gettext/)() | Bu düğümün temsil ettiği özel karakteri alır. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Ön sipariş ağaç geçiş algoritmasına göre sonraki düğümü alır. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Ön sipariş ağaç geçiş algoritmasına göre önceki düğümü alır. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../../aspose.words/node/)*) | Ön sipariş ağaç geçiş algoritmasına göre sonraki düğümü alır. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../../aspose.words/node/)*) | Ön sipariş ağaç geçiş algoritmasına göre önceki düğümü alır. |
 | [Remove](../../aspose.words/node/remove/)() | Kendini üst öğeden kaldırır. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Düğümün içeriğini belirtilen formatta bir dizeye aktarır. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Belirtilen kaydetme seçeneklerini kullanarak düğümün içeriğini bir dizeye aktarır. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../../aspose.words/saveformat/)*) | Düğümün içeriğini belirtilen formatta bir dizeye aktarır. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Belirtilen kaydetme seçeneklerini kullanarak düğümün içeriğini bir dizeye aktarır. |
 
-### Notlar
+## Notlar
 
 `FieldEnd` satır içi düzeyde bir düğümdür ve tarafından temsil edilen [`FieldEndChar`](../../aspose.words/controlchar/fieldendchar/) Belgedeki kontrol karakteri.
 
@@ -66,7 +68,7 @@ Microsoft Word belgesindeki tam alan, bir alan başlangıç karakteri, alan kodu
 
 Belgeye kolayca yeni bir alan eklemek için[`InsertField`](../../aspose.words/documentbuilder/insertfield/) yöntemi.
 
-### Örnekler
+## Örnekler
 
 Bir alan koleksiyonuyla nasıl çalışılacağını gösterir.
 
@@ -171,5 +173,3 @@ public class FieldVisitor : DocumentVisitor
 * class [FieldChar](../fieldchar/)
 * ad alanı [Aspose.Words.Fields](../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../)
-
-

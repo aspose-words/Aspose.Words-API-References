@@ -1,7 +1,9 @@
 ---
 title: SvgSaveOptions.FitToViewPort
-second_title: Aspose.Words for .NET API Referansı
-description: SvgSaveOptions mülk. Çıkış SVGsinin mevcut görünüm alanını tarayıcı penceresi veya kapsayıcı doldurması gerekip gerekmediğini belirtir. Olarak ayarlandığındadoğru SVG çıkışının genişliği ve yüksekliği 100 olarak ayarlandı.
+linktitle: FitToViewPort
+articleTitle: FitToViewPort
+second_title: Aspose.Words for .NET
+description: SvgSaveOptions FitToViewPort mülk. Çıkış SVGsinin mevcut görünüm alanını tarayıcı penceresi veya kapsayıcı doldurması gerekip gerekmediğini belirtir. Olarak ayarlandığındadoğru SVG çıkışının genişliği ve yüksekliği 100 olarak ayarlandı C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.saving/svgsaveoptions/fittoviewport/
@@ -16,7 +18,7 @@ Varsayılan değer:`YANLIŞ`.
 public bool FitToViewPort { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir .docx belgesini .svg'ye dönüştürürken görüntülerin özelliklerinin nasıl taklit edileceğini gösterir.
 
@@ -37,7 +39,5 @@ doc.Save(ArtifactsDir + "SvgSaveOptions.SaveLikeImage.svg", options);
 ### Ayrıca bakınız
 
 * class [SvgSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../svgsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

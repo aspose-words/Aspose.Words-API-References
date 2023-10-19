@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPropertyCollection.Remove
-second_title: Aspose.Words for .NET API Referansı
-description: CustomXmlPropertyCollection yöntem. Belirtilen ada sahip bir özelliği koleksiyondan kaldırır.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words for .NET
+description: CustomXmlPropertyCollection Remove yöntem. Belirtilen ada sahip bir özelliği koleksiyondan kaldırır C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words.markup/customxmlpropertycollection/remove/
@@ -18,7 +20,7 @@ public void Remove(string name)
 | --- | --- | --- |
 | name | String | Özelliğin büyük/küçük harfe duyarlı adı. |
 
-### Örnekler
+## Örnekler
 
 Akıllı etiketler hakkında ayrıntılı bilgi almak için akıllı etiket özellikleriyle nasıl çalışılacağını gösterir.
 
@@ -75,7 +77,5 @@ Assert.AreEqual(0, properties.Count);
 ### Ayrıca bakınız
 
 * class [CustomXmlPropertyCollection](../)
-* ad alanı [Aspose.Words.Markup](../../customxmlpropertycollection/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum PageBorderAppliesTo
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.PageBorderAppliesTo Sıralama. Sayfa kenarlığının hangi sayfalara yazdırılacağını belirtir.
+title: PageBorderAppliesTo Enum
+linktitle: PageBorderAppliesTo
+articleTitle: PageBorderAppliesTo
+second_title: Aspose.Words for .NET
+description: Aspose.Words.PageBorderAppliesTo Sıralama. Sayfa kenarlığının hangi sayfalara yazdırılacağını belirtir C#'da.
 type: docs
 weight: 4340
 url: /tr/net/aspose.words/pageborderappliesto/
@@ -22,7 +24,7 @@ public enum PageBorderAppliesTo
 | FirstPage | `1` | Sayfa kenarlığı yalnızca bölümün ilk sayfasında gösterilir. |
 | OtherPages | `2` | Sayfa kenarlığı bölümün ilk sayfası dışındaki tüm sayfalarda gösterilir. |
 
-### Örnekler
+## Örnekler
 
 İlk sayfanın üst kısmında geniş mavi bant kenarlığının nasıl oluşturulacağını gösterir.
 
@@ -49,5 +51,3 @@ doc.Save(ArtifactsDir + "PageSetup.PageBorderProperties.docx");
 * property [BorderAppliesTo](../pagesetup/borderappliesto/)
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

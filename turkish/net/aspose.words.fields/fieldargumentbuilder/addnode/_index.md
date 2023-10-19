@@ -1,7 +1,9 @@
 ---
 title: FieldArgumentBuilder.AddNode
-second_title: Aspose.Words for .NET API Referansı
-description: FieldArgumentBuilder yöntem. Bağımsız değişkene bir düğüm ekler.
+linktitle: AddNode
+articleTitle: AddNode
+second_title: Aspose.Words for .NET
+description: FieldArgumentBuilder AddNode yöntem. Bağımsız değişkene bir düğüm ekler C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fields/fieldargumentbuilder/addnode/
@@ -14,11 +16,11 @@ Bağımsız değişkene bir düğüm ekler.
 public FieldArgumentBuilder AddNode(Inline node)
 ```
 
-### Notlar
+## Notlar
 
 Şu anda yalnızca metin düzeyindeki düğümler desteklenmektedir.
 
-### Örnekler
+## Örnekler
 
 Alan oluşturucu kullanarak alanların nasıl oluşturulacağını ve ardından bunların belgeye nasıl ekleneceğini gösterir.
 
@@ -102,7 +104,5 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 
 * class [Inline](../../../aspose.words/inline/)
 * class [FieldArgumentBuilder](../)
-* ad alanı [Aspose.Words.Fields](../../fieldargumentbuilder/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

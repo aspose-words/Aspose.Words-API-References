@@ -1,7 +1,9 @@
 ---
 title: FieldSkipIf.RightExpression
-second_title: Aspose.Words for .NET API Referansı
-description: FieldSkipIf mülk. Karşılaştırma ifadesinin doğru kısmını alır veya ayarlar.
+linktitle: RightExpression
+articleTitle: RightExpression
+second_title: Aspose.Words for .NET
+description: FieldSkipIf RightExpression mülk. Karşılaştırma ifadesinin doğru kısmını alır veya ayarlar C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.fields/fieldskipif/rightexpression/
@@ -14,7 +16,7 @@ Karşılaştırma ifadesinin doğru kısmını alır veya ayarlar.
 public string RightExpression { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 SKIPIF alanını kullanarak adres-mektup birleştirmede sayfaların nasıl atlanacağını gösterir.
 
@@ -107,7 +109,5 @@ doc.Save(ArtifactsDir + "Field.MERGEREC.MERGESEQ.docx");
 ### Ayrıca bakınız
 
 * class [FieldSkipIf](../)
-* ad alanı [Aspose.Words.Fields](../../fieldskipif/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Font.StyleName
-second_title: Aspose.Words for .NET API Referansı
-description: Font mülk. Bu biçimlendirmeye uygulanan karakter stilinin adını alır veya ayarlar.
+linktitle: StyleName
+articleTitle: StyleName
+second_title: Aspose.Words for .NET
+description: Font StyleName mülk. Bu biçimlendirmeye uygulanan karakter stilinin adını alır veya ayarlar C#'da.
 type: docs
 weight: 420
 url: /tr/net/aspose.words/font/stylename/
@@ -14,7 +16,7 @@ Bu biçimlendirmeye uygulanan karakter stilinin adını alır veya ayarlar.
 public string StyleName { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Mevcut metnin stilinin nasıl değiştirileceğini gösterir.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Font.ChangeStyle.docx");
 ### Ayrıca bakınız
 
 * class [Font](../)
-* ad alanı [Aspose.Words](../../font/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

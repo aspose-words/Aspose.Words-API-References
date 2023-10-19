@@ -1,7 +1,9 @@
 ---
 title: GraphicsQualityOptions.InterpolationMode
-second_title: Aspose.Words for .NET API Referansı
-description: GraphicsQualityOptions mülk. Bu Graphics. ile ilişkili enterpolasyon modunu alır veya ayarlar.
+linktitle: InterpolationMode
+articleTitle: InterpolationMode
+second_title: Aspose.Words for .NET
+description: GraphicsQualityOptions InterpolationMode mülk. Bu Graphics. ile ilişkili enterpolasyon modunu alır veya ayarlar C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.saving/graphicsqualityoptions/interpolationmode/
@@ -14,7 +16,7 @@ Bu Graphics. ile ilişkili enterpolasyon modunu alır veya ayarlar.
 public InterpolationMode? InterpolationMode { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Belgeleri görüntü formatlarına dönüştürürken işleme kalitesi seçeneklerinin nasıl ayarlanacağını gösterir.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.GraphicsQuality.jpg", saveOptions);
 ### Ayrıca bakınız
 
 * class [GraphicsQualityOptions](../)
-* ad alanı [Aspose.Words.Saving](../../graphicsqualityoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

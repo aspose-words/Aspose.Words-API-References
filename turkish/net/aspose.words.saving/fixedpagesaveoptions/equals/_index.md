@@ -1,7 +1,9 @@
 ---
 title: FixedPageSaveOptions.Equals
-second_title: Aspose.Words for .NET API Referansı
-description: FixedPageSaveOptions yöntem. Belirtilen nesnenin değer olarak geçerli nesneye eşit olup olmadığını belirler.
+linktitle: Equals
+articleTitle: Equals
+second_title: Aspose.Words for .NET
+description: FixedPageSaveOptions Equals yöntem. Belirtilen nesnenin değer olarak geçerli nesneye eşit olup olmadığını belirler C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words.saving/fixedpagesaveoptions/equals/
@@ -17,7 +19,5 @@ public override bool Equals(object obj)
 ### Ayrıca bakınız
 
 * class [FixedPageSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../fixedpagesaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BuildVersionInfo.Version
-second_title: Aspose.Words for .NET API Referansı
-description: BuildVersionInfo mülk. Ürün sürümünü alır.
+linktitle: Version
+articleTitle: Version
+second_title: Aspose.Words for .NET
+description: BuildVersionInfo Version mülk. Ürün sürümünü alır C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/buildversioninfo/version/
@@ -14,11 +16,11 @@ url: /tr/net/aspose.words/buildversioninfo/version/
 public static string Version { get; }
 ```
 
-### Notlar
+## Notlar
 
 Ürün sürümü "Major.Minor.Hotfix.0" formatındadır.
 
-### Örnekler
+## Örnekler
 
 Aspose.Words'ün kurulu sürümü hakkındaki bilgilerin nasıl görüntüleneceğini gösterir.
 
@@ -29,7 +31,5 @@ Console.WriteLine($"I am currently using {BuildVersionInfo.Product}, version num
 ### Ayrıca bakınız
 
 * class [BuildVersionInfo](../)
-* ad alanı [Aspose.Words](../../buildversioninfo/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

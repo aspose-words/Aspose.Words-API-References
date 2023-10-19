@@ -1,9 +1,11 @@
 ---
 title: Document.UpdateListLabels
-second_title: Aspose.Words for .NET API Referansı
-description: Document yöntem. Belgedeki tüm liste öğeleri için liste etiketlerini günceller.
+linktitle: UpdateListLabels
+articleTitle: UpdateListLabels
+second_title: Aspose.Words for .NET
+description: Document UpdateListLabels yöntem. Belgedeki tüm liste öğeleri için liste etiketlerini günceller C#'da.
 type: docs
-weight: 780
+weight: 760
 url: /tr/net/aspose.words/document/updatelistlabels/
 ---
 ## Document.UpdateListLabels method
@@ -14,13 +16,13 @@ Belgedeki tüm liste öğeleri için liste etiketlerini günceller.
 public void UpdateListLabels()
 ```
 
-### Notlar
+## Notlar
 
 Bu yöntem, aşağıdakiler gibi liste etiketi özelliklerini günceller:[`LabelValue`](../../../aspose.words.lists/listlabel/labelvalue/) ve [`LabelString`](../../../aspose.words.lists/listlabel/labelstring/) her biri için[`ListLabel`](../../paragraph/listlabel/)belgedeki nesne.
 
 Ayrıca bu yöntem bazen belgedeki alanlar güncellenirken dolaylı olarak çağrılır. Bu, gerekli 'dir çünkü liste numaralarına referans verebilecek bazı alanların (TOC veya REF gibi) güncel olması gerekir.
 
-### Örnekler
+## Örnekler
 
 Liste öğesi olan tüm paragrafların liste etiketlerinin nasıl çıkarılacağını gösterir.
 
@@ -55,7 +57,5 @@ foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListForma
 ### Ayrıca bakınız
 
 * class [Document](../)
-* ad alanı [Aspose.Words](../../document/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

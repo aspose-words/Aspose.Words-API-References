@@ -1,7 +1,9 @@
 ---
-title: Enum RelativeVerticalSize
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.RelativeVerticalSize Sıralama. Bir şeklin veya metin çerçevesinin yüksekliğinin dikey olarak ne kadar hesaplanacağını göreceli olarak belirtir.
+title: RelativeVerticalSize Enum
+linktitle: RelativeVerticalSize
+articleTitle: RelativeVerticalSize
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.RelativeVerticalSize Sıralama. Bir şeklin veya metin çerçevesinin yüksekliğinin dikey olarak ne kadar hesaplanacağını göreceli olarak belirtir C#'da.
 type: docs
 weight: 1220
 url: /tr/net/aspose.words.drawing/relativeverticalsize/
@@ -26,7 +28,7 @@ public enum RelativeVerticalSize
 | OuterMargin | `5` | Yüksekliğin dış kenar boşluğu alanı boyutuna, tek sayfalar için alt kenar boşluğu alanı boyutuna ve çift sayfalar için üst kenar boşluğu alanı boyutuna göre hesaplandığını belirtir. |
 | Default | `1` | Varsayılan değer:Margin . |
 
-### Örnekler
+## Örnekler
 
 Göreli boyut ve konumun nasıl ayarlanacağını gösterir.
 
@@ -83,5 +85,3 @@ doc.Save(ArtifactsDir + "Shape.RelativeSizeAndPosition.docx");
 * property [RelativeVerticalSize](../shapebase/relativeverticalsize/)
 * ad alanı [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../)
-
-

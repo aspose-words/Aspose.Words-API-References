@@ -1,7 +1,9 @@
 ---
-title: CommentRangeStart.CommentRangeStart
-second_title: Aspose.Words for .NET API Referansı
-description: CommentRangeStart inşaatçı. Bu sınıfın yeni bir örneğini başlatır.
+title: CommentRangeStart
+linktitle: CommentRangeStart
+articleTitle: CommentRangeStart
+second_title: Aspose.Words for .NET
+description: CommentRangeStart inşaatçı. Bu sınıfın yeni bir örneğini başlatır C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/commentrangestart/commentrangestart/
@@ -19,13 +21,13 @@ public CommentRangeStart(DocumentBase doc, int id)
 | doc | DocumentBase | Sahibi belgesi. |
 | id | Int32 | Bu nesnenin bağlı olduğu yorum tanımlayıcısı. |
 
-### Notlar
+## Notlar
 
 Ne zaman[`CommentRangeStart`](../) oluşturulduysa, belirtilen belgeye aittir ancak henüz değildir ve belgenin bir parçası değildir ve[`ParentNode`](../../node/parentnode/) dır-dir`hükümsüz`.
 
 Eklemek için[`CommentRangeStart`](../) belgede yorumun eklenmesini istediğiniz paragrafta InsertAfter veya InsertBefore kullanın.
 
-### Örnekler
+## Örnekler
 
 Bir belge ziyaretçisi kullanılarak tüm yorumların içeriğinin ve yorum aralıklarının nasıl yazdırıldığını gösterir.
 
@@ -187,7 +189,5 @@ public class CommentInfoPrinter : DocumentVisitor
 
 * class [DocumentBase](../../documentbase/)
 * class [CommentRangeStart](../)
-* ad alanı [Aspose.Words](../../commentrangestart/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

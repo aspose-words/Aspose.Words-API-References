@@ -1,7 +1,9 @@
 ---
 title: FieldDate.UseLunarCalendar
-second_title: Aspose.Words for .NET API Referansı
-description: FieldDate mülk. Hicri Ay takviminin mi yoksa İbrani Ay takviminin mi kullanılacağını alır veya ayarlar.
+linktitle: UseLunarCalendar
+articleTitle: UseLunarCalendar
+second_title: Aspose.Words for .NET
+description: FieldDate UseLunarCalendar mülk. Hicri Ay takviminin mi yoksa İbrani Ay takviminin mi kullanılacağını alır veya ayarlar C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fields/fielddate/uselunarcalendar/
@@ -14,7 +16,7 @@ Hicri Ay takviminin mi yoksa İbrani Ay takviminin mi kullanılacağını alır 
 public bool UseLunarCalendar { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Farklı takvim türlerine göre tarihleri görüntülemek için TARİH alanlarının nasıl kullanılacağını gösterir.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Field.DATE.docx");
 ### Ayrıca bakınız
 
 * class [FieldDate](../)
-* ad alanı [Aspose.Words.Fields](../../fielddate/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

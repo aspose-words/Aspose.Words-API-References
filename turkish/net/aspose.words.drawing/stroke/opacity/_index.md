@@ -1,9 +1,11 @@
 ---
 title: Stroke.Opacity
-second_title: Aspose.Words for .NET API Referansı
-description: Stroke mülk. Konturun şeffaflık miktarını tanımlar. Geçerli aralık 0 ila 1. arasındadır
+linktitle: Opacity
+articleTitle: Opacity
+second_title: Aspose.Words for .NET
+description: Stroke Opacity mülk. Konturun şeffaflık miktarını tanımlar. Geçerli aralık 0 ila 1. arasındadır C#'da.
 type: docs
-weight: 160
+weight: 150
 url: /tr/net/aspose.words.drawing/stroke/opacity/
 ---
 ## Stroke.Opacity property
@@ -14,11 +16,11 @@ Konturun şeffaflık miktarını tanımlar. Geçerli aralık 0 ila 1. arasındad
 public double Opacity { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer 1'dir.
 
-### Örnekler
+## Örnekler
 
 Çeşitli şekiller oluşturmayı gösterir.
 
@@ -93,7 +95,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 ### Ayrıca bakınız
 
 * class [Stroke](../)
-* ad alanı [Aspose.Words.Drawing](../../stroke/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

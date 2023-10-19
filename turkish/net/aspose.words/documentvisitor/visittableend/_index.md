@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitTableEnd
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentVisitor yöntem. Bir tablonun numaralandırılması sona erdiğinde çağrılır.
+linktitle: VisitTableEnd
+articleTitle: VisitTableEnd
+second_title: Aspose.Words for .NET
+description: DocumentVisitor VisitTableEnd yöntem. Bir tablonun numaralandırılması sona erdiğinde çağrılır C#'da.
 type: docs
 weight: 490
 url: /tr/net/aspose.words/documentvisitor/visittableend/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitTableEnd(Table table)
 
 A[`VisitorAction`](../../visitoraction/) numaralandırmaya nasıl devam edileceğini belirten değer.
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki her tablonun düğüm yapısının nasıl yazdırılacağını gösterir.
 
@@ -378,7 +380,5 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [Table](../../../aspose.words.tables/table/)
 * class [DocumentVisitor](../)
-* ad alanı [Aspose.Words](../../documentvisitor/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

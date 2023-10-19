@@ -1,12 +1,14 @@
 ---
 title: Document.CopyStylesFromTemplate
-second_title: Aspose.Words for .NET API Referansı
-description: Document yöntem. Stilleri belirtilen şablondan bir belgeye kopyalar.
+linktitle: CopyStylesFromTemplate
+articleTitle: CopyStylesFromTemplate
+second_title: Aspose.Words for .NET
+description: Document CopyStylesFromTemplate yöntem. Stilleri belirtilen şablondan bir belgeye kopyalar C#'da.
 type: docs
-weight: 590
+weight: 570
 url: /tr/net/aspose.words/document/copystylesfromtemplate/
 ---
-## CopyStylesFromTemplate(string) {#copystylesfromtemplate_1}
+## CopyStylesFromTemplate(*string*) {#copystylesfromtemplate_1}
 
 Stilleri belirtilen şablondan bir belgeye kopyalar.
 
@@ -14,11 +16,11 @@ Stilleri belirtilen şablondan bir belgeye kopyalar.
 public void CopyStylesFromTemplate(string template)
 ```
 
-### Notlar
+## Notlar
 
 Stiller bir şablondan bir belgeye kopyalandığında, belgedeki benzer isimli stiller, şablondaki stil açıklamalarıyla eşleşecek şekilde yeniden tanımlanır. Şablondaki benzersiz stiller belgeye kopyalanır. Belgedeki benzersiz stiller bozulmadan kalır.
 
-### Örnekler
+## Örnekler
 
 Stillerin bir belgeden diğerine nasıl kopyalanacağını gösterir.
 
@@ -70,12 +72,12 @@ Assert.AreEqual(21, target.Styles.Count);
 ### Ayrıca bakınız
 
 * class [Document](../)
-* ad alanı [Aspose.Words](../../document/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## CopyStylesFromTemplate(Document) {#copystylesfromtemplate}
+## CopyStylesFromTemplate(*[Document](../)*) {#copystylesfromtemplate}
 
 Stilleri belirtilen şablondan bir belgeye kopyalar.
 
@@ -83,11 +85,11 @@ Stilleri belirtilen şablondan bir belgeye kopyalar.
 public void CopyStylesFromTemplate(Document template)
 ```
 
-### Notlar
+## Notlar
 
 Stiller bir şablondan bir belgeye kopyalandığında, belgedeki benzer isimli stiller, şablondaki stil açıklamalarıyla eşleşecek şekilde yeniden tanımlanır. Şablondaki benzersiz stiller belgeye kopyalanır. Belgedeki benzersiz stiller bozulmadan kalır.
 
-### Örnekler
+## Örnekler
 
 Stillerin şablondan belgeye Belge aracılığıyla nasıl kopyalanacağını gösterir.
 
@@ -148,7 +150,5 @@ Assert.AreEqual(21, target.Styles.Count);
 ### Ayrıca bakınız
 
 * class [Document](../)
-* ad alanı [Aspose.Words](../../document/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

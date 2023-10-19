@@ -1,7 +1,9 @@
 ---
 title: EditableRange.EditableRangeEnd
-second_title: Aspose.Words for .NET API Referansı
-description: EditableRange mülk. Düzenlenebilir aralığın sonunu temsil eden düğümü alır.
+linktitle: EditableRangeEnd
+articleTitle: EditableRangeEnd
+second_title: Aspose.Words for .NET
+description: EditableRange EditableRangeEnd mülk. Düzenlenebilir aralığın sonunu temsil eden düğümü alır C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/editablerange/editablerangeend/
@@ -14,7 +16,7 @@ Düzenlenebilir aralığın sonunu temsil eden düğümü alır.
 public EditableRangeEnd EditableRangeEnd { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Düzenlenebilir bir aralıkla nasıl çalışılacağını gösterir.
 
@@ -61,7 +63,5 @@ editableRange.Remove();
 
 * class [EditableRangeEnd](../../editablerangeend/)
 * class [EditableRange](../)
-* ad alanı [Aspose.Words](../../editablerange/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

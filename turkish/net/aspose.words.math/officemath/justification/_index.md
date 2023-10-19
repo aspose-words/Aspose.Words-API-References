@@ -1,7 +1,9 @@
 ---
 title: OfficeMath.Justification
-second_title: Aspose.Words for .NET API Referansı
-description: OfficeMath mülk. Office Matematik gerekçesini alır/ayarlar.
+linktitle: Justification
+articleTitle: Justification
+second_title: Aspose.Words for .NET
+description: OfficeMath Justification mülk. Office Matematik gerekçesini alır/ayarlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.math/officemath/justification/
@@ -14,7 +16,7 @@ Office Matematik gerekçesini alır/ayarlar.
 public OfficeMathJustification Justification { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Gerekçe, görüntüleme biçimi türüyle Office Math'a ayarlanamazInline.
 
@@ -22,7 +24,7 @@ Satır içi yaslama, görüntüleme biçimi türüyle Office Math'a ayarlanamazD
 
 karşılık gelen[`DisplayType`](../displaytype/) Office Math gerekçesini ayarlamadan önce ayarlanması gerekir.
 
-### Örnekler
+## Örnekler
 
 Ofis matematik ekranı formatının nasıl ayarlanacağını gösterir.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Shape.OfficeMath.docx");
 
 * enum [OfficeMathJustification](../../officemathjustification/)
 * class [OfficeMath](../)
-* ad alanı [Aspose.Words.Math](../../officemath/)
+* ad alanı [Aspose.Words.Math](../../../aspose.words.math/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: TextColumnCollection.EvenlySpaced
-second_title: Aspose.Words for .NET API Referansı
-description: TextColumnCollection mülk. Metin sütunları eşit genişlikte ve eşit aralıklıysa doğrudur.
+linktitle: EvenlySpaced
+articleTitle: EvenlySpaced
+second_title: Aspose.Words for .NET
+description: TextColumnCollection EvenlySpaced mülk. Metin sütunları eşit genişlikte ve eşit aralıklıysa doğrudur C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/textcolumncollection/evenlyspaced/
@@ -14,7 +16,7 @@ Metin sütunları eşit genişlikte ve eşit aralıklıysa doğrudur.
 public bool EvenlySpaced { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Düzensiz aralıklı sütunların nasıl oluşturulacağını gösterir.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "PageSetup.CustomColumnWidth.docx");
 ### Ayrıca bakınız
 
 * class [TextColumnCollection](../)
-* ad alanı [Aspose.Words](../../textcolumncollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

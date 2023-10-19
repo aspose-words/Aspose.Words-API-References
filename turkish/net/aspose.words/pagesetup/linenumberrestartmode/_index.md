@@ -1,7 +1,9 @@
 ---
 title: PageSetup.LineNumberRestartMode
-second_title: Aspose.Words for .NET API Referansı
-description: PageSetup mülk. Satır numaralandırmanın çalışma şeklini alır veya ayarlar yani bir new sayfasının veya bölümünün başlangıcından mı başlasın yoksa sürekli mi çalışsın.
+linktitle: LineNumberRestartMode
+articleTitle: LineNumberRestartMode
+second_title: Aspose.Words for .NET
+description: PageSetup LineNumberRestartMode mülk. Satır numaralandırmanın çalışma şeklini alır veya ayarlar yani bir new sayfasının veya bölümünün başlangıcından mı başlasın yoksa sürekli mi çalışsın C#'da.
 type: docs
 weight: 230
 url: /tr/net/aspose.words/pagesetup/linenumberrestartmode/
@@ -14,7 +16,7 @@ Satır numaralandırmanın çalışma şeklini alır veya ayarlar; yani bir new 
 public LineNumberRestartMode LineNumberRestartMode { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir bölüm için satır numaralandırmanın nasıl etkinleştirileceğini gösterir.
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "PageSetup.LineNumbers.docx");
 
 * enum [LineNumberRestartMode](../../linenumberrestartmode/)
 * class [PageSetup](../)
-* ad alanı [Aspose.Words](../../pagesetup/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class ReplacingArgs
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Replacing.ReplacingArgs sınıf. Özel bir değiştirme işlemi için veri sağlar.
+title: ReplacingArgs Class
+linktitle: ReplacingArgs
+articleTitle: ReplacingArgs
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Replacing.ReplacingArgs sınıf. Özel bir değiştirme işlemi için veri sağlar C#'da.
 type: docs
 weight: 4650
 url: /tr/net/aspose.words.replacing/replacingargs/
@@ -22,12 +24,12 @@ public class ReplacingArgs
 | --- | --- |
 | [GroupIndex](../../aspose.words.replacing/replacingargs/groupindex/) { get; set; } | Dizinde yakalanan bir grubu tanımlar.[`Match`](./match/) ile değiştirilecek[`Replacement`](./replacement/) dize. |
 | [GroupName](../../aspose.words.replacing/replacingargs/groupname/) { get; set; } | Yakalanan bir grubu adıyla tanımlar.[`Match`](./match/) ile değiştirilecek[`Replacement`](./replacement/) dize. |
-| [Match](../../aspose.words.replacing/replacingargs/match/) { get; } | Match sırasında tek bir normal ifadesi eşleşmesinden kaynaklanır **Yer değiştirmek** . |
+| [Match](../../aspose.words.replacing/replacingargs/match/) { get; } | Match sırasında tek bir normal ifadesi eşleşmesinden kaynaklanır**Yer değiştirmek** . |
 | [MatchNode](../../aspose.words.replacing/replacingargs/matchnode/) { get; } | Eşleşmenin başlangıcını içeren düğümü alır. |
 | [MatchOffset](../../aspose.words.replacing/replacingargs/matchoffset/) { get; } | Eşleşmenin başlangıcını içeren düğümün başlangıcından itibaren eşleşmenin sıfır tabanlı başlangıç konumunu alır. |
 | [Replacement](../../aspose.words.replacing/replacingargs/replacement/) { get; set; } | Değiştirme dizesini alır veya ayarlar. |
 
-### Örnekler
+## Örnekler
 
 Tüm bu değiştirmeleri izlerken, düzenli ifade modelinin tüm oluşumlarının başka bir dizeyle nasıl değiştirileceğini gösterir.
 
@@ -156,5 +158,3 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
 * method [Replace](../../aspose.words/range/replace/)
 * ad alanı [Aspose.Words.Replacing](../../aspose.words.replacing/)
 * toplantı [Aspose.Words](../../)
-
-

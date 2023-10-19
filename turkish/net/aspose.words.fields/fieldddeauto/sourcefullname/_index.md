@@ -1,7 +1,9 @@
 ---
 title: FieldDdeAuto.SourceFullName
-second_title: Aspose.Words for .NET API Referansı
-description: FieldDdeAuto mülk. Kaynak dosyanın adını ve konumunu alır veya ayarlar.
+linktitle: SourceFullName
+articleTitle: SourceFullName
+second_title: Aspose.Words for .NET
+description: FieldDdeAuto SourceFullName mülk. Kaynak dosyanın adını ve konumunu alır veya ayarlar C#'da.
 type: docs
 weight: 100
 url: /tr/net/aspose.words.fields/fieldddeauto/sourcefullname/
@@ -14,7 +16,7 @@ Kaynak dosyanın adını ve konumunu alır veya ayarlar.
 public string SourceFullName { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Yerel dosya sistemindeki diğer belgelere bağlanmak ve içeriklerini görüntülemek için çeşitli alan türlerinin nasıl kullanılacağını gösterir.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### Ayrıca bakınız
 
 * class [FieldDdeAuto](../)
-* ad alanı [Aspose.Words.Fields](../../fieldddeauto/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

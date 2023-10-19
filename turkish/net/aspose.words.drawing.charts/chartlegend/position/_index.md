@@ -1,7 +1,9 @@
 ---
 title: ChartLegend.Position
-second_title: Aspose.Words for .NET API Referansı
-description: ChartLegend mülk. Göstergenin grafikteki konumunu belirtir. Varsayılan değerRight .
+linktitle: Position
+articleTitle: Position
+second_title: Aspose.Words for .NET
+description: ChartLegend Position mülk. Göstergenin grafikteki konumunu belirtir. Varsayılan değerRight  C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.drawing.charts/chartlegend/position/
@@ -14,7 +16,7 @@ Göstergenin grafikteki konumunu belirtir. Varsayılan değer:Right .
 public LegendPosition Position { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir grafiğin göstergesinin görünümünün nasıl düzenleneceğini gösterir.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Charts.ChartLegend.docx");
 
 * enum [LegendPosition](../../legendposition/)
 * class [ChartLegend](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartlegend/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

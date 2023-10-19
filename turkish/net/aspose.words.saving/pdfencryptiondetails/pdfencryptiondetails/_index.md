@@ -1,12 +1,14 @@
 ---
-title: PdfEncryptionDetails.PdfEncryptionDetails
-second_title: Aspose.Words for .NET API Referansı
-description: PdfEncryptionDetails inşaatçı. Bu sınıfın bir örneğini başlatır.
+title: PdfEncryptionDetails
+linktitle: PdfEncryptionDetails
+articleTitle: PdfEncryptionDetails
+second_title: Aspose.Words for .NET
+description: PdfEncryptionDetails inşaatçı. Bu sınıfın bir örneğini başlatır C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.saving/pdfencryptiondetails/pdfencryptiondetails/
 ---
-## PdfEncryptionDetails(string, string) {#constructor}
+## PdfEncryptionDetails(*string, string*) {#constructor}
 
 Bu sınıfın bir örneğini başlatır.
 
@@ -17,12 +19,12 @@ public PdfEncryptionDetails(string userPassword, string ownerPassword)
 ### Ayrıca bakınız
 
 * class [PdfEncryptionDetails](../)
-* ad alanı [Aspose.Words.Saving](../../pdfencryptiondetails/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## PdfEncryptionDetails(string, string, PdfPermissions) {#constructor_1}
+## PdfEncryptionDetails(*string, string, [PdfPermissions](../../pdfpermissions/)*) {#constructor_1}
 
 Bu sınıfın bir örneğini başlatır.
 
@@ -30,7 +32,7 @@ Bu sınıfın bir örneğini başlatır.
 public PdfEncryptionDetails(string userPassword, string ownerPassword, PdfPermissions permissions)
 ```
 
-### Örnekler
+## Örnekler
 
 Kaydedilmiş bir PDF belgesinde izinlerin nasıl ayarlanacağını gösterir.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.EncryptionPermissions.pdf", saveOptions)
 
 * enum [PdfPermissions](../../pdfpermissions/)
 * class [PdfEncryptionDetails](../)
-* ad alanı [Aspose.Words.Saving](../../pdfencryptiondetails/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

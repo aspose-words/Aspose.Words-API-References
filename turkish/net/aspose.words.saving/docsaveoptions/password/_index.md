@@ -1,7 +1,9 @@
 ---
 title: DocSaveOptions.Password
-second_title: Aspose.Words for .NET API Referansı
-description: DocSaveOptions mülk. Belgeyi RC4 şifreleme yöntemini kullanarak şifrelemek için bir parola alır/ayarlar.
+linktitle: Password
+articleTitle: Password
+second_title: Aspose.Words for .NET
+description: DocSaveOptions Password mülk. Belgeyi RC4 şifreleme yöntemini kullanarak şifrelemek için bir parola alır/ayarlar C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.saving/docsaveoptions/password/
@@ -14,11 +16,11 @@ Belgeyi RC4 şifreleme yöntemini kullanarak şifrelemek için bir parola alır/
 public string Password { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Belgeyi şifrelemeden kaydetmek için bu özelliğin şu şekilde olması gerekir:`hükümsüz` veya boş dize.
 
-### Örnekler
+## Örnekler
 
 Eski Microsoft Word formatları için kaydetme seçeneklerinin nasıl ayarlanacağını gösterir.
 
@@ -51,7 +53,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 ### Ayrıca bakınız
 
 * class [DocSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../docsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

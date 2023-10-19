@@ -1,7 +1,9 @@
 ---
 title: FieldDisplayBarcode.AddStartStopChar
-second_title: Aspose.Words for .NET API Referansı
-description: FieldDisplayBarcode mülk. NW7 ve CODE39 barkod türleri için Başlat/Durdur karakterlerinin eklenip eklenmeyeceğini alır veya ayarlar.
+linktitle: AddStartStopChar
+articleTitle: AddStartStopChar
+second_title: Aspose.Words for .NET
+description: FieldDisplayBarcode AddStartStopChar mülk. NW7 ve CODE39 barkod türleri için Başlat/Durdur karakterlerinin eklenip eklenmeyeceğini alır veya ayarlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fielddisplaybarcode/addstartstopchar/
@@ -14,7 +16,7 @@ NW7 ve CODE39 barkod türleri için Başlat/Durdur karakterlerinin eklenip eklen
 public bool AddStartStopChar { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 DISPLAYBARCODE alanının nasıl ekleneceğini ve özelliklerinin nasıl ayarlanacağını gösterir.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Field.DISPLAYBARCODE.docx");
 ### Ayrıca bakınız
 
 * class [FieldDisplayBarcode](../)
-* ad alanı [Aspose.Words.Fields](../../fielddisplaybarcode/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ImageData.HasImage
-second_title: Aspose.Words for .NET API Referansı
-description: ImageData mülk. İadelerdoğru şeklin görüntü baytları varsa veya bir görüntüye bağlantı veriyorsa.
+linktitle: HasImage
+articleTitle: HasImage
+second_title: Aspose.Words for .NET
+description: ImageData HasImage mülk. İadelerdoğru şeklin görüntü baytları varsa veya bir görüntüye bağlantı veriyorsa C#'da.
 type: docs
 weight: 110
 url: /tr/net/aspose.words.drawing/imagedata/hasimage/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.drawing/imagedata/hasimage/
 public bool HasImage { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki tüm görüntülerin dosya sistemine nasıl kaydedileceğini gösterir.
 
@@ -47,7 +49,5 @@ using (IEnumerator<Shape> enumerator = shapesWithImages.GetEnumerator())
 ### Ayrıca bakınız
 
 * class [ImageData](../)
-* ad alanı [Aspose.Words.Drawing](../../imagedata/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

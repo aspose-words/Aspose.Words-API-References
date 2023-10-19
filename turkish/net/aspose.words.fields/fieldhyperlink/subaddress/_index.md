@@ -1,7 +1,9 @@
 ---
 title: FieldHyperlink.SubAddress
-second_title: Aspose.Words for .NET API Referansı
-description: FieldHyperlink mülk. Dosyada bu köprünün atladığı yer işareti gibi bir konumu alır veya ayarlar.
+linktitle: SubAddress
+articleTitle: SubAddress
+second_title: Aspose.Words for .NET
+description: FieldHyperlink SubAddress mülk. Dosyada bu köprünün atladığı yer işareti gibi bir konumu alır veya ayarlar C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.fields/fieldhyperlink/subaddress/
@@ -14,7 +16,7 @@ Dosyada bu köprünün atladığı yer işareti gibi bir konumu alır veya ayarl
 public string SubAddress { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Yerel dosya sistemindeki belgelere bağlanmak için KÖPRÜ alanlarının nasıl kullanılacağını gösterir.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Field.HYPERLINK.docx");
 ### Ayrıca bakınız
 
 * class [FieldHyperlink](../)
-* ad alanı [Aspose.Words.Fields](../../fieldhyperlink/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

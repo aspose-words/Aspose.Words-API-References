@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportLanguageInformation
-second_title: Aspose.Words for .NET API Referansı
-description: HtmlSaveOptions mülk. Dil bilgilerinin HTMLye mi MHTMLye mi yoksa EPUBa mı aktarılacağını belirtir. VarsayılanYANLIŞ .
+linktitle: ExportLanguageInformation
+articleTitle: ExportLanguageInformation
+second_title: Aspose.Words for .NET
+description: HtmlSaveOptions ExportLanguageInformation mülk. Dil bilgilerinin HTMLye mi MHTMLye mi yoksa EPUBa mı aktarılacağını belirtir. VarsayılanYANLIŞ  C#'da.
 type: docs
 weight: 180
 url: /tr/net/aspose.words.saving/htmlsaveoptions/exportlanguageinformation/
@@ -14,11 +16,11 @@ Dil bilgilerinin HTML'ye mi, MHTML'ye mi yoksa EPUB'a mı aktarılacağını bel
 public bool ExportLanguageInformation { get; set; }
 ```
 
-### Notlar
+## Notlar
 
-Bu özellik olarak ayarlandığında`doğru` Aspose.Words çıktıları **uzun** document öğelerindeki dili belirten HTML özelliği. Dille ilgili anlambilimi korumak için buna ihtiyaç duyulabilir.
+Bu özellik olarak ayarlandığında`doğru` Aspose.Words çıktıları**uzun** document öğelerindeki dili belirten HTML özelliği. Dille ilgili anlambilimi korumak için buna ihtiyaç duyulabilir.
 
-### Örnekler
+## Örnekler
 
 .html'ye kaydederken dil bilgilerinin nasıl korunacağını gösterir.
 
@@ -69,7 +71,5 @@ else
 ### Ayrıca bakınız
 
 * class [HtmlSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../htmlsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

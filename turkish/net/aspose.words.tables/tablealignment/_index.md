@@ -1,7 +1,9 @@
 ---
-title: Enum TableAlignment
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Tables.TableAlignment Sıralama. Satır içi tablo için hizalamayı belirtir.
+title: TableAlignment Enum
+linktitle: TableAlignment
+articleTitle: TableAlignment
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Tables.TableAlignment Sıralama. Satır içi tablo için hizalamayı belirtir C#'da.
 type: docs
 weight: 6350
 url: /tr/net/aspose.words.tables/tablealignment/
@@ -22,7 +24,7 @@ public enum TableAlignment
 | Center | `1` | Tablo ortalanmıştır. |
 | Right | `2` | Tablo sağa hizalanmıştır. |
 
-### Örnekler
+## Örnekler
 
 Bir tabloya anahat kenarlığının nasıl uygulanacağını gösterir.
 
@@ -53,5 +55,3 @@ doc.Save(ArtifactsDir + "Table.SetOutlineBorders.docx");
 
 * ad alanı [Aspose.Words.Tables](../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../)
-
-

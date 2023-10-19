@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyleCollection.OddRowBanding
-second_title: Aspose.Words for .NET API Referansı
-description: ConditionalStyleCollection mülk. Tek satır şeritleme stilini alır.
+linktitle: OddRowBanding
+articleTitle: OddRowBanding
+second_title: Aspose.Words for .NET
+description: ConditionalStyleCollection OddRowBanding mülk. Tek satır şeritleme stilini alır C#'da.
 type: docs
 weight: 120
 url: /tr/net/aspose.words/conditionalstylecollection/oddrowbanding/
@@ -14,7 +16,7 @@ Tek satır şeritleme stilini alır.
 public ConditionalStyle OddRowBanding { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir tablonun belirli alan stilleriyle nasıl çalışılacağını gösterir.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [ConditionalStyle](../../conditionalstyle/)
 * class [ConditionalStyleCollection](../)
-* ad alanı [Aspose.Words](../../conditionalstylecollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldDatabase.FirstRecord
-second_title: Aspose.Words for .NET API Referansı
-description: FieldDatabase mülk. Eklenecek ilk veri kaydının integral kayıt numarasını alır veya ayarlar.
+linktitle: FirstRecord
+articleTitle: FirstRecord
+second_title: Aspose.Words for .NET
+description: FieldDatabase FirstRecord mülk. Eklenecek ilk veri kaydının integral kayıt numarasını alır veya ayarlar C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.fields/fielddatabase/firstrecord/
@@ -14,7 +16,7 @@ Eklenecek ilk veri kaydının integral kayıt numarasını alır veya ayarlar.
 public string FirstRecord { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Veritabanından verinin nasıl çıkarılacağını ve bunun bir alan olarak belgeye nasıl ekleneceğini gösterir.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Field.DATABASE.docx");
 ### Ayrıca bakınız
 
 * class [FieldDatabase](../)
-* ad alanı [Aspose.Words.Fields](../../fielddatabase/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

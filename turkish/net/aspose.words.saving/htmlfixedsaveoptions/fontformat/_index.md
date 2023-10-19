@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.FontFormat
-second_title: Aspose.Words for .NET API Referansı
-description: HtmlFixedSaveOptions mülk. Alır veya ayarlarExportFontFormat yazı tipi dışa aktarımı için kullanılır. Varsayılan değerWoff .
+linktitle: FontFormat
+articleTitle: FontFormat
+second_title: Aspose.Words for .NET
+description: HtmlFixedSaveOptions FontFormat mülk. Alır veya ayarlarExportFontFormat yazı tipi dışa aktarımı için kullanılır. Varsayılan değerWoff  C#'da.
 type: docs
 weight: 90
 url: /tr/net/aspose.words.saving/htmlfixedsaveoptions/fontformat/
@@ -14,7 +16,7 @@ Alır veya ayarlar[`ExportFontFormat`](../../exportfontformat/) yazı tipi dış
 public ExportFontFormat FontFormat { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi HTML'ye kaydederken yazı tiplerinin yalnızca hedef makineden nasıl kullanılacağını gösterir.
 
@@ -45,7 +47,5 @@ else
 
 * enum [ExportFontFormat](../../exportfontformat/)
 * class [HtmlFixedSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Aspose.Words.Loading
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Yükleniyorad alanı belgeleri yüklerken ek seçeneklerin belirtilmesine izin veren sınıflarını ve numaralandırmalarını sağlar.
+linktitle: Aspose.Words.Loading
+articleTitle: Aspose.Words.Loading
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Yükleniyorad alanı belgeleri yüklerken ek seçeneklerin belirtilmesine izin veren sınıflarını ve numaralandırmalarını sağlar C#'da.
 type: docs
 weight: 130
 url: /tr/net/aspose.words.loading/
@@ -39,5 +41,3 @@ url: /tr/net/aspose.words.loading/
 | [ResourceType](./resourcetype/) | Yüklenen kaynağın türü. |
 | [TxtLeadingSpacesOptions](./txtleadingspacesoptions/) | Şuradan içe aktarma sırasında önde gelen alan işleme için mevcut seçenekleri belirtir:Text dosya. |
 | [TxtTrailingSpacesOptions](./txttrailingspacesoptions/) | Şuradan içe aktarma sırasında sondaki boşlukların işlenmesi için mevcut seçenekleri belirtirText dosya. |
-
-

@@ -1,7 +1,9 @@
 ---
 title: PageSetup.LayoutMode
-second_title: Aspose.Words for .NET API Referansı
-description: PageSetup mülk. Bu bölümün düzen modunu alır veya ayarlar.
+linktitle: LayoutMode
+articleTitle: LayoutMode
+second_title: Aspose.Words for .NET
+description: PageSetup LayoutMode mülk. Bu bölümün düzen modunu alır veya ayarlar C#'da.
 type: docs
 weight: 190
 url: /tr/net/aspose.words/pagesetup/layoutmode/
@@ -14,7 +16,7 @@ Bu bölümün düzen modunu alır veya ayarlar.
 public SectionLayoutMode LayoutMode { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Her satırın sahip olabileceği karakter sayısı için nasıl belirtileceğini gösterir.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "PageSetup.LinesPerPage.docx");
 
 * enum [SectionLayoutMode](../../sectionlayoutmode/)
 * class [PageSetup](../)
-* ad alanı [Aspose.Words](../../pagesetup/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportHeadersFootersMode
-second_title: Aspose.Words for .NET API Referansı
-description: HtmlSaveOptions mülk. Üstbilgilerin ve altbilgilerin HTML MHTML veya EPUBa nasıl aktarılacağını belirtir. Varsayılan değerPerSection HTML/MHTML için veNone EPUB. için
+linktitle: ExportHeadersFootersMode
+articleTitle: ExportHeadersFootersMode
+second_title: Aspose.Words for .NET
+description: HtmlSaveOptions ExportHeadersFootersMode mülk. Üstbilgilerin ve altbilgilerin HTML MHTML veya EPUBa nasıl aktarılacağını belirtir. Varsayılan değerPerSection HTML/MHTML için veNone EPUB. için C#'da.
 type: docs
 weight: 160
 url: /tr/net/aspose.words.saving/htmlsaveoptions/exportheadersfootersmode/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.saving/htmlsaveoptions/exportheadersfootersmode/
 public ExportHeadersFootersMode ExportHeadersFootersMode { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 HTML sayfalara ayrılmadığından üstbilgileri ve altbilgileri anlamlı bir şekilde HTML'ye çıkarmak zordur.
 
@@ -24,7 +26,7 @@ Ne zamanFirstSectionHeaderLastSectionFooter yalnızca ilk birincil üstbilgi ve 
 
 Bu özelliği olarak ayarlayarak üstbilgilerin ve altbilgilerin dışa aktarılmasını tamamen devre dışı bırakabilirsiniz.None.
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi HTML'ye kaydederken üstbilgilerin/altbilgilerin nasıl atlanacağını gösterir.
 
@@ -53,7 +55,5 @@ Assert.IsFalse(doc.Range.Text.Contains("First header"));
 
 * enum [ExportHeadersFootersMode](../../exportheadersfootersmode/)
 * class [HtmlSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../htmlsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

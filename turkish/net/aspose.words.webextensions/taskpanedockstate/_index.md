@@ -1,7 +1,9 @@
 ---
-title: Enum TaskPaneDockState
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.WebExtensions.TaskPaneDockState Sıralama. Görev bölmesi nesnesinin kullanılabilir konumlarını numaralandırır.
+title: TaskPaneDockState Enum
+linktitle: TaskPaneDockState
+articleTitle: TaskPaneDockState
+second_title: Aspose.Words for .NET
+description: Aspose.Words.WebExtensions.TaskPaneDockState Sıralama. Görev bölmesi nesnesinin kullanılabilir konumlarını numaralandırır C#'da.
 type: docs
 weight: 6730
 url: /tr/net/aspose.words.webextensions/taskpanedockstate/
@@ -21,7 +23,7 @@ public enum TaskPaneDockState
 | Right | `0` | Görev bölmesini belge penceresinin sağ tarafına yerleştirin. |
 | Left | `1` | Görev bölmesini belge penceresinin sol tarafına yerleştirin. |
 
-### Örnekler
+## Örnekler
 
 Bir belgeye nasıl web uzantısı ekleneceğini gösterir.
 
@@ -67,5 +69,3 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * ad alanı [Aspose.Words.WebExtensions](../../aspose.words.webextensions/)
 * toplantı [Aspose.Words](../../)
-
-

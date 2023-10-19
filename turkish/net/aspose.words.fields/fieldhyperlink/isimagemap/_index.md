@@ -1,7 +1,9 @@
 ---
 title: FieldHyperlink.IsImageMap
-second_title: Aspose.Words for .NET API Referansı
-description: FieldHyperlink mülk. Sunucu tarafı görüntü haritası için koordinatların köprüye eklenip eklenmeyeceğini alır veya ayarlar.
+linktitle: IsImageMap
+articleTitle: IsImageMap
+second_title: Aspose.Words for .NET
+description: FieldHyperlink IsImageMap mülk. Sunucu tarafı görüntü haritası için koordinatların köprüye eklenip eklenmeyeceğini alır veya ayarlar C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fields/fieldhyperlink/isimagemap/
@@ -14,7 +16,7 @@ Sunucu tarafı görüntü haritası için koordinatların köprüye eklenip ekle
 public bool IsImageMap { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Yerel dosya sistemindeki belgelere bağlanmak için KÖPRÜ alanlarının nasıl kullanılacağını gösterir.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Field.HYPERLINK.docx");
 ### Ayrıca bakınız
 
 * class [FieldHyperlink](../)
-* ad alanı [Aspose.Words.Fields](../../fieldhyperlink/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

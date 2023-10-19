@@ -1,7 +1,9 @@
 ---
-title: Interface IBarcodeGenerator
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Fields.IBarcodeGenerator arayüz. Özel barkod oluşturucu için genel arayüz. Uygulama user. tarafından sağlanmalıdır.
+title: IBarcodeGenerator Interface
+linktitle: IBarcodeGenerator
+articleTitle: IBarcodeGenerator
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Fields.IBarcodeGenerator arayüz. Özel barkod oluşturucu için genel arayüz. Uygulama user. tarafından sağlanmalıdır C#'da.
 type: docs
 weight: 2660
 url: /tr/net/aspose.words.fields/ibarcodegenerator/
@@ -18,14 +20,14 @@ public interface IBarcodeGenerator
 
 | İsim | Tanım |
 | --- | --- |
-| [GetBarcodeImage](../../aspose.words.fields/ibarcodegenerator/getbarcodeimage/)(BarcodeParameters) | Parametre kümesini kullanarak barkod görüntüsü oluşturun (DisplayBarcode alanı için). |
-| [GetOldBarcodeImage](../../aspose.words.fields/ibarcodegenerator/getoldbarcodeimage/)(BarcodeParameters) | Parametre kümesini kullanarak barkod görüntüsü oluşturun (eski moda Barkod alanı için). |
+| [GetBarcodeImage](../../aspose.words.fields/ibarcodegenerator/getbarcodeimage/)(*[BarcodeParameters](../barcodeparameters/)*) | Parametre kümesini kullanarak barkod görüntüsü oluşturun (DisplayBarcode alanı için). |
+| [GetOldBarcodeImage](../../aspose.words.fields/ibarcodegenerator/getoldbarcodeimage/)(*[BarcodeParameters](../barcodeparameters/)*) | Parametre kümesini kullanarak barkod görüntüsü oluşturun (eski moda Barkod alanı için). |
 
-### Notlar
+## Notlar
 
 Jeneratör örneği,[`BarcodeGenerator`](../fieldoptions/barcodegenerator/) özellik.
 
-### Örnekler
+## Örnekler
 
 Barkod oluşturucunun nasıl kullanılacağını gösterir.
 
@@ -102,5 +104,3 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 
 * ad alanı [Aspose.Words.Fields](../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../)
-
-

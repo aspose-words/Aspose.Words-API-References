@@ -1,7 +1,9 @@
 ---
 title: Aspose.Words.Notes
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Notesad alanı sınıfların Microsoft Word son notları ve dipnotlarıyla çalışmasını sağlar.
+linktitle: Aspose.Words.Notes
+articleTitle: Aspose.Words.Notes
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Notesad alanı sınıfların Microsoft Word son notları ve dipnotlarıyla çalışmasını sağlar C#'da.
 type: docs
 weight: 180
 url: /tr/net/aspose.words.notes/
@@ -23,5 +25,3 @@ url: /tr/net/aspose.words.notes/
 | [FootnoteNumberingRule](./footnotenumberingrule/) | Otomatik dipnot veya sonnot numaralandırmanın ne zaman yeniden başlayacağını belirler. |
 | [FootnotePosition](./footnoteposition/) | Dipnot konumunu tanımlar. |
 | [FootnoteType](./footnotetype/) | Bunun dipnot mu yoksa son not mu olduğunu belirtir. |
-
-

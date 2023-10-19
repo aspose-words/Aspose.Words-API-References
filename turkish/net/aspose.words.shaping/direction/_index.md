@@ -1,7 +1,9 @@
 ---
-title: Enum Direction
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Shaping.Direction Sıralama. Metin yönü.
+title: Direction Enum
+linktitle: Direction
+articleTitle: Direction
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Shaping.Direction Sıralama. Metin yönü C#'da.
 type: docs
 weight: 6020
 url: /tr/net/aspose.words.shaping/direction/
@@ -28,5 +30,3 @@ public enum Direction
 
 * ad alanı [Aspose.Words.Shaping](../../aspose.words.shaping/)
 * toplantı [Aspose.Words](../../)
-
-

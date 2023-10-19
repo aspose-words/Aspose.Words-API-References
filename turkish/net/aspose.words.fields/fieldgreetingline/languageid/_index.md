@@ -1,7 +1,9 @@
 ---
 title: FieldGreetingLine.LanguageId
-second_title: Aspose.Words for .NET API Referansı
-description: FieldGreetingLine mülk. Adı biçimlendirmek için kullanılan dil kimliğini alır veya ayarlar.
+linktitle: LanguageId
+articleTitle: LanguageId
+second_title: Aspose.Words for .NET
+description: FieldGreetingLine LanguageId mülk. Adı biçimlendirmek için kullanılan dil kimliğini alır veya ayarlar C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fields/fieldgreetingline/languageid/
@@ -14,7 +16,7 @@ Adı biçimlendirmek için kullanılan dil kimliğini alır veya ayarlar.
 public string LanguageId { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 GREETINGLINE alanının nasıl ekleneceğini gösterir.
 
@@ -74,7 +76,5 @@ Assert.AreEqual("Dear Mr. Doe,\r\r\tThis is your custom greeting, created progra
 ### Ayrıca bakınız
 
 * class [FieldGreetingLine](../)
-* ad alanı [Aspose.Words.Fields](../../fieldgreetingline/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

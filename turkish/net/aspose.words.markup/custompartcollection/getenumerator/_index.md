@@ -1,7 +1,9 @@
 ---
 title: CustomPartCollection.GetEnumerator
-second_title: Aspose.Words for .NET API Referansı
-description: CustomPartCollection yöntem. Koleksiyondaki tüm öğeler üzerinde yineleme yapmak için kullanılabilecek bir numaralandırıcı nesnesini döndürür.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words for .NET
+description: CustomPartCollection GetEnumerator yöntem. Koleksiyondaki tüm öğeler üzerinde yineleme yapmak için kullanılabilecek bir numaralandırıcı nesnesini döndürür C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.markup/custompartcollection/getenumerator/
@@ -14,7 +16,7 @@ Koleksiyondaki tüm öğeler üzerinde yineleme yapmak için kullanılabilecek b
 public IEnumerator<CustomPart> GetEnumerator()
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgenin rastgele özel parça koleksiyonuna nasıl erişileceğini gösterir.
 
@@ -59,7 +61,5 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 
 * class [CustomPart](../../custompart/)
 * class [CustomPartCollection](../)
-* ad alanı [Aspose.Words.Markup](../../custompartcollection/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

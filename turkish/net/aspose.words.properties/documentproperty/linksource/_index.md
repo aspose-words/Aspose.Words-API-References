@@ -1,7 +1,9 @@
 ---
 title: DocumentProperty.LinkSource
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentProperty mülk. Bağlantılı özel belge özelliğinin kaynağını alır.
+linktitle: LinkSource
+articleTitle: LinkSource
+second_title: Aspose.Words for .NET
+description: DocumentProperty LinkSource mülk. Bağlantılı özel belge özelliğinin kaynağını alır C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.properties/documentproperty/linksource/
@@ -14,7 +16,7 @@ Bağlantılı özel belge özelliğinin kaynağını alır.
 public string LinkSource { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Özel bir belge özelliğinin bir yer imine nasıl bağlanacağını gösterir.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.LinkCustomDocumentPropertiesToBookma
 ### Ayrıca bakınız
 
 * class [DocumentProperty](../)
-* ad alanı [Aspose.Words.Properties](../../documentproperty/)
+* ad alanı [Aspose.Words.Properties](../../../aspose.words.properties/)
 * toplantı [Aspose.Words](../../../)
-
-

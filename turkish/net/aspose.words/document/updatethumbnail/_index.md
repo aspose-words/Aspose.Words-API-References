@@ -1,12 +1,14 @@
 ---
 title: Document.UpdateThumbnail
-second_title: Aspose.Words for .NET API Referansı
-description: Document yöntem. GüncellemelerThumbnail belirtilen seçeneklere göre belgenin.
+linktitle: UpdateThumbnail
+articleTitle: UpdateThumbnail
+second_title: Aspose.Words for .NET
+description: Document UpdateThumbnail yöntem. GüncellemelerThumbnail belirtilen seçeneklere göre belgenin C#'da.
 type: docs
-weight: 800
+weight: 780
 url: /tr/net/aspose.words/document/updatethumbnail/
 ---
-## UpdateThumbnail(ThumbnailGeneratingOptions) {#updatethumbnail_1}
+## UpdateThumbnail(*[ThumbnailGeneratingOptions](../../../aspose.words.rendering/thumbnailgeneratingoptions/)*) {#updatethumbnail_1}
 
 Güncellemeler[`Thumbnail`](../../../aspose.words.properties/builtindocumentproperties/thumbnail/) belirtilen seçeneklere göre belgenin.
 
@@ -18,11 +20,11 @@ public void UpdateThumbnail(ThumbnailGeneratingOptions options)
 | --- | --- | --- |
 | options | ThumbnailGeneratingOptions | Kullanılacak oluşturma seçenekleri. |
 
-### Notlar
+## Notlar
 
 [`ThumbnailGeneratingOptions`](../../../aspose.words.rendering/thumbnailgeneratingoptions/) küçük resmin kaynağını, boyutunu ve diğer seçenekleri belirtmenize olanak tanır. Küçük resim oluşturma girişimi başarısız olursa, birini değiştirmez.
 
-### Örnekler
+## Örnekler
 
 Bir belgenin küçük resminin nasıl güncelleneceğini gösterir.
 
@@ -51,7 +53,7 @@ doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstImage.epub");
 
 * class [ThumbnailGeneratingOptions](../../../aspose.words.rendering/thumbnailgeneratingoptions/)
 * class [Document](../)
-* ad alanı [Aspose.Words](../../document/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
 
 ---
@@ -64,7 +66,7 @@ Güncellemeler[`Thumbnail`](../../../aspose.words.properties/builtindocumentprop
 public void UpdateThumbnail()
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgenin küçük resminin nasıl güncelleneceğini gösterir.
 
@@ -92,7 +94,5 @@ doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstImage.epub");
 ### Ayrıca bakınız
 
 * class [Document](../)
-* ad alanı [Aspose.Words](../../document/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

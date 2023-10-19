@@ -1,7 +1,9 @@
 ---
 title: Font.NoProofing
-second_title: Aspose.Words for .NET API Referansı
-description: Font mülk. Biçimlendirilmiş karakterlerin yazım denetimi yapılmaması durumunda doğrudur.
+linktitle: NoProofing
+articleTitle: NoProofing
+second_title: Aspose.Words for .NET
+description: Font NoProofing mülk. Biçimlendirilmiş karakterlerin yazım denetimi yapılmaması durumunda doğrudur C#'da.
 type: docs
 weight: 280
 url: /tr/net/aspose.words/font/noproofing/
@@ -14,7 +16,7 @@ Biçimlendirilmiş karakterlerin yazım denetimi yapılmaması durumunda doğrud
 public bool NoProofing { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Metnin Microsoft Word tarafından yazım denetimi yapılmasının nasıl önleneceğini gösterir.
 
@@ -35,7 +37,5 @@ doc.Save(ArtifactsDir + "Font.NoProofing.docx");
 ### Ayrıca bakınız
 
 * class [Font](../)
-* ad alanı [Aspose.Words](../../font/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

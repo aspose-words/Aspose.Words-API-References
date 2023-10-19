@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.EmbedAttachments
-second_title: Aspose.Words for .NET API Referansı
-description: PdfSaveOptions mülk. Eklerin PDF belgesine gömülüp gömülmeyeceğini belirleyen bir değer alır veya ayarlar.
+linktitle: EmbedAttachments
+articleTitle: EmbedAttachments
+second_title: Aspose.Words for .NET
+description: PdfSaveOptions EmbedAttachments mülk. Eklerin PDF belgesine gömülüp gömülmeyeceğini belirleyen bir değer alır veya ayarlar C#'da.
 type: docs
 weight: 110
 url: /tr/net/aspose.words.saving/pdfsaveoptions/embedattachments/
@@ -14,7 +16,7 @@ Eklerin PDF belgesine gömülüp gömülmeyeceğini belirleyen bir değer alır 
 public bool EmbedAttachments { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:`YANLIŞ`ve ekler gömülü değildir.
 
@@ -24,7 +26,7 @@ PDF/A ve PDF/UA uyumluluğuna kaydederken eklerin gömülmesi desteklenmez. `YAN
 
 Şifreleme etkinleştirildiğinde eklerin eklenmesi desteklenmez.`YANLIŞ` value otomatik olarak kullanılacaktır.
 
-### Örnekler
+## Örnekler
 
 PDF belgesine gömme eklerinin nasıl ekleneceğini gösterir.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfEmbedAttachments.pdf", options);
 ### Ayrıca bakınız
 
 * class [PdfSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../pdfsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

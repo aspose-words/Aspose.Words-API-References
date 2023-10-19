@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.DefaultDocumentAuthor
-second_title: Aspose.Words for .NET API Referansı
-description: FieldOptions mülk. Varsayılan belge yazarının adını alır veya ayarlar. Yazarın adı yerleşik belge özelliklerinde zaten belirtilmişse bu seçenek dikkate alınmaz.
+linktitle: DefaultDocumentAuthor
+articleTitle: DefaultDocumentAuthor
+second_title: Aspose.Words for .NET
+description: FieldOptions DefaultDocumentAuthor mülk. Varsayılan belge yazarının adını alır veya ayarlar. Yazarın adı yerleşik belge özelliklerinde zaten belirtilmişse bu seçenek dikkate alınmaz C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.fields/fieldoptions/defaultdocumentauthor/
@@ -14,7 +16,7 @@ Varsayılan belge yazarının adını alır veya ayarlar. Yazarın adı yerleşi
 public string DefaultDocumentAuthor { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Belgeyi oluşturan kişinin adını görüntülemek için YAZAR alanının nasıl kullanılacağını gösterir.
 
@@ -69,7 +71,5 @@ doc.Save(ArtifactsDir + "Field.AUTHOR.docx");
 ### Ayrıca bakınız
 
 * class [FieldOptions](../)
-* ad alanı [Aspose.Words.Fields](../../fieldoptions/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

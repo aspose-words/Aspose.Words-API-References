@@ -1,7 +1,9 @@
 ---
-title: Enum TabLeader
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.TabLeader Sıralama. Sekme karakterinin altında görüntülenen lider çizgisinin türünü belirtir.
+title: TabLeader Enum
+linktitle: TabLeader
+articleTitle: TabLeader
+second_title: Aspose.Words for .NET
+description: Aspose.Words.TabLeader Sıralama. Sekme karakterinin altında görüntülenen lider çizgisinin türünü belirtir C#'da.
 type: docs
 weight: 6190
 url: /tr/net/aspose.words/tableader/
@@ -29,5 +31,3 @@ public enum TabLeader
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

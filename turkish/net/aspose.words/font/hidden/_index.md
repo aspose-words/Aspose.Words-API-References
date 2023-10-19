@@ -1,7 +1,9 @@
 ---
 title: Font.Hidden
-second_title: Aspose.Words for .NET API Referansı
-description: Font mülk. Yazı tipi gizli metin olarak biçimlendirilmişse doğrudur.
+linktitle: Hidden
+articleTitle: Hidden
+second_title: Aspose.Words for .NET
+description: Font Hidden mülk. Yazı tipi gizli metin olarak biçimlendirilmişse doğrudur C#'da.
 type: docs
 weight: 140
 url: /tr/net/aspose.words/font/hidden/
@@ -14,7 +16,7 @@ Yazı tipi gizli metin olarak biçimlendirilmişse doğrudur.
 public bool Hidden { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir dizi gizli metnin nasıl oluşturulacağını gösterir.
 
@@ -229,7 +231,5 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
 ### Ayrıca bakınız
 
 * class [Font](../)
-* ad alanı [Aspose.Words](../../font/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

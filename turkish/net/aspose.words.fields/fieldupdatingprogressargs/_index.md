@@ -1,7 +1,9 @@
 ---
-title: Class FieldUpdatingProgressArgs
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Fields.FieldUpdatingProgressArgs sınıf. Alan güncelleme ilerleme olayı için veri sağlar.
+title: FieldUpdatingProgressArgs Class
+linktitle: FieldUpdatingProgressArgs
+articleTitle: FieldUpdatingProgressArgs
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Fields.FieldUpdatingProgressArgs sınıf. Alan güncelleme ilerleme olayı için veri sağlar C#'da.
 type: docs
 weight: 2570
 url: /tr/net/aspose.words.fields/fieldupdatingprogressargs/
@@ -26,5 +28,3 @@ public sealed class FieldUpdatingProgressArgs
 
 * ad alanı [Aspose.Words.Fields](../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../)
-
-

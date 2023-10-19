@@ -1,7 +1,9 @@
 ---
 title: Font.Shading
-second_title: Aspose.Words for .NET API Referansı
-description: Font mülk. Bir değeri döndürürShading yazı tipinin gölgelendirme formatını ifade eden nesne.
+linktitle: Shading
+articleTitle: Shading
+second_title: Aspose.Words for .NET
+description: Font Shading mülk. Bir değeri döndürürShading yazı tipinin gölgelendirme formatını ifade eden nesne C#'da.
 type: docs
 weight: 320
 url: /tr/net/aspose.words/font/shading/
@@ -14,7 +16,7 @@ Bir değeri döndürür[`Shading`](../../shading/) yazı tipinin gölgelendirme 
 public Shading Shading { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Belge oluşturucu tarafından oluşturulan metne gölgelendirmenin nasıl uygulanacağını gösterir.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Font.Shading.docx");
 
 * class [Shading](../../shading/)
 * class [Font](../)
-* ad alanı [Aspose.Words](../../font/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

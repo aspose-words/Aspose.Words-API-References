@@ -1,7 +1,9 @@
 ---
 title: SvgSaveOptions.ShowPageBorder
-second_title: Aspose.Words for .NET API Referansı
-description: SvgSaveOptions mülk. Sayfanın ana hatlarına kenarlık eklenip eklenmeyeceğini kontrol eder. Varsayılandoğru .
+linktitle: ShowPageBorder
+articleTitle: ShowPageBorder
+second_title: Aspose.Words for .NET
+description: SvgSaveOptions ShowPageBorder mülk. Sayfanın ana hatlarına kenarlık eklenip eklenmeyeceğini kontrol eder. Varsayılandoğru  C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words.saving/svgsaveoptions/showpageborder/
@@ -14,7 +16,7 @@ Sayfanın ana hatlarına kenarlık eklenip eklenmeyeceğini kontrol eder. Varsay
 public bool ShowPageBorder { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir .docx belgesini .svg'ye dönüştürürken görüntülerin özelliklerinin nasıl taklit edileceğini gösterir.
 
@@ -35,7 +37,5 @@ doc.Save(ArtifactsDir + "SvgSaveOptions.SaveLikeImage.svg", options);
 ### Ayrıca bakınız
 
 * class [SvgSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../svgsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Paragraph.Accept
-second_title: Aspose.Words for .NET API Referansı
-description: Paragraph yöntem. Ziyaretçi kabul eder.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words for .NET
+description: Paragraph Accept yöntem. Ziyaretçi kabul eder C#'da.
 type: docs
 weight: 230
 url: /tr/net/aspose.words/paragraph/accept/
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 Tüm düğümler ziyaret edilmişse doğrudur; yanlış ise[`DocumentVisitor`](../../documentvisitor/) tüm düğümleri ziyaret etmeden işlemi durdurdu.
 
-### Notlar
+## Notlar
 
 Bu düğümü ve tüm alt öğelerini numaralandırır. Her düğüm kendisine karşılık gelen bir yöntemi çağırır.[`DocumentVisitor`](../../documentvisitor/).
 
@@ -30,7 +32,7 @@ Daha fazla bilgi için Ziyaretçi tasarım desenine bakın.
 
 Çağrılar[`VisitParagraphStart`](../../documentvisitor/visitparagraphstart/) , ardından arar[`Accept`](../../node/accept/) paragrafın ve çağrıların tüm alt düğümleri için[`VisitParagraphEnd`](../../documentvisitor/visitparagraphend/) sonunda.
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki tüm gizli içeriği kaldırmak için DocumentVisitor uygulamasının nasıl kullanılacağını gösterir.
 
@@ -227,7 +229,5 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
 
 * class [DocumentVisitor](../../documentvisitor/)
 * class [Paragraph](../)
-* ad alanı [Aspose.Words](../../paragraph/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

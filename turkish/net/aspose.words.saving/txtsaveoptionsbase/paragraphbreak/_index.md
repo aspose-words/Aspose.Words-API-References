@@ -1,7 +1,9 @@
 ---
 title: TxtSaveOptionsBase.ParagraphBreak
-second_title: Aspose.Words for .NET API Referansı
-description: TxtSaveOptionsBase mülk. Metin formatlarında dışa aktarırken paragraf sonu olarak kullanılacak dizeyi belirtir.
+linktitle: ParagraphBreak
+articleTitle: ParagraphBreak
+second_title: Aspose.Words for .NET
+description: TxtSaveOptionsBase ParagraphBreak mülk. Metin formatlarında dışa aktarırken paragraf sonu olarak kullanılacak dizeyi belirtir C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.saving/txtsaveoptionsbase/paragraphbreak/
@@ -14,11 +16,11 @@ Metin formatlarında dışa aktarırken paragraf sonu olarak kullanılacak dizey
 public string ParagraphBreak { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:[`CrLf`](../../../aspose.words/controlchar/crlf/).
 
-### Örnekler
+## Örnekler
 
 Bir .txt belgesinin özel paragraf sonuyla nasıl kaydedileceğini gösterir.
 
@@ -51,7 +53,5 @@ Assert.AreEqual("Paragraph 1. End of paragraph.\n\n\t" +
 ### Ayrıca bakınız
 
 * class [TxtSaveOptionsBase](../)
-* ad alanı [Aspose.Words.Saving](../../txtsaveoptionsbase/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

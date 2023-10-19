@@ -1,9 +1,11 @@
 ---
 title: Fill.Opacity
-second_title: Aspose.Words for .NET API Referansı
-description: Fill mülk. Belirtilen dolgunun opaklık derecesini 00 açık ile 10 opak arasında bir değer olarak alır veya ayarlar.
+linktitle: Opacity
+articleTitle: Opacity
+second_title: Aspose.Words for .NET
+description: Fill Opacity mülk. Belirtilen dolgunun opaklık derecesini 00 açık ile 10 opak arasında bir değer olarak alır veya ayarlar C#'da.
 type: docs
-weight: 150
+weight: 140
 url: /tr/net/aspose.words.drawing/fill/opacity/
 ---
 ## Fill.Opacity property
@@ -14,11 +16,11 @@ Belirtilen dolgunun opaklık derecesini 0,0 (açık) ile 1,0 (opak) arasında bi
 public double Opacity { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özellik mülkiyetin tam tersidir[`Transparency`](../transparency/).
 
-### Örnekler
+## Örnekler
 
 Bir şeklin düz renkle nasıl doldurulacağını gösterir.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Shape.Fill.docx");
 ### Ayrıca bakınız
 
 * class [Fill](../)
-* ad alanı [Aspose.Words.Drawing](../../fill/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

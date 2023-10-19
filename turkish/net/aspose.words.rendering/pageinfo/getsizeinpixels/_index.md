@@ -1,12 +1,14 @@
 ---
 title: PageInfo.GetSizeInPixels
-second_title: Aspose.Words for .NET API Referansı
-description: PageInfo yöntem. Belirtilen yakınlaştırma faktörü ve çözünürlük için sayfa boyutunu piksel cinsinden hesaplar.
+linktitle: GetSizeInPixels
+articleTitle: GetSizeInPixels
+second_title: Aspose.Words for .NET
+description: PageInfo GetSizeInPixels yöntem. Belirtilen yakınlaştırma faktörü ve çözünürlük için sayfa boyutunu piksel cinsinden hesaplar C#'da.
 type: docs
 weight: 90
 url: /tr/net/aspose.words.rendering/pageinfo/getsizeinpixels/
 ---
-## GetSizeInPixels(float, float) {#getsizeinpixels}
+## GetSizeInPixels(*float, float*) {#getsizeinpixels}
 
 Belirtilen yakınlaştırma faktörü ve çözünürlük için sayfa boyutunu piksel cinsinden hesaplar.
 
@@ -26,12 +28,12 @@ Sayfanın piksel cinsinden boyutu.
 ### Ayrıca bakınız
 
 * class [PageInfo](../)
-* ad alanı [Aspose.Words.Rendering](../../pageinfo/)
+* ad alanı [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## GetSizeInPixels(float, float, float) {#getsizeinpixels_1}
+## GetSizeInPixels(*float, float, float*) {#getsizeinpixels_1}
 
 Belirtilen yakınlaştırma faktörü ve çözünürlük için sayfa boyutunu piksel cinsinden hesaplar.
 
@@ -49,7 +51,7 @@ public Size GetSizeInPixels(float scale, float horizontalDpi, float verticalDpi)
 
 Sayfanın piksel cinsinden boyutu.
 
-### Örnekler
+## Örnekler
 
 Bir Word belgesindeki her sayfa için sayfa boyutu ve yön bilgilerinin nasıl yazdırılacağını gösterir.
 
@@ -91,7 +93,5 @@ for (int i = 0; i < doc.PageCount; i++)
 ### Ayrıca bakınız
 
 * class [PageInfo](../)
-* ad alanı [Aspose.Words.Rendering](../../pageinfo/)
+* ad alanı [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * toplantı [Aspose.Words](../../../)
-
-

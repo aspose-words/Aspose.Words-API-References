@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.Odso
-second_title: Aspose.Words for .NET API Referansı
-description: MailMergeSettings mülk. Office Veri Kaynağı Nesnesi ODSO ayarlarını belirten nesneyi alır veya ayarlar.
+linktitle: Odso
+articleTitle: Odso
+second_title: Aspose.Words for .NET
+description: MailMergeSettings Odso mülk. Office Veri Kaynağı Nesnesi ODSO ayarlarını belirten nesneyi alır veya ayarlar C#'da.
 type: docs
 weight: 150
 url: /tr/net/aspose.words.settings/mailmergesettings/odso/
@@ -14,11 +16,11 @@ Office Veri Kaynağı Nesnesi (ODSO) ayarlarını belirten nesneyi alır veya ay
 public Odso Odso { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu nesne asla`hükümsüz`.
 
-### Örnekler
+## Örnekler
 
 Bir Office Veri Kaynağı Nesnesinden alınan verilerle adres-mektup birleştirmenin nasıl yürütüleceğini gösterir.
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * class [Odso](../../odso/)
 * class [MailMergeSettings](../)
-* ad alanı [Aspose.Words.Settings](../../mailmergesettings/)
+* ad alanı [Aspose.Words.Settings](../../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../../)
-
-

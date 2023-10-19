@@ -1,7 +1,9 @@
 ---
 title: PrinterSettingsContainer.PaperSizes
-second_title: Aspose.Words for .NET API Referansı
-description: PrinterSettingsContainer mülk. Bkz.PaperSizes .
+linktitle: PaperSizes
+articleTitle: PaperSizes
+second_title: Aspose.Words for .NET
+description: PrinterSettingsContainer PaperSizes mülk. Bkz.PaperSizes  C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.rendering/printersettingscontainer/papersizes/
@@ -14,7 +16,7 @@ Bkz.PaperSizes .
 public PaperSizeCollection PaperSizes { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Yazıcınızın kağıt kaynaklarına ve boyutlarına nasıl erişeceğinizi ve bunları listeleyeceğinizi gösterir.
 
@@ -47,7 +49,5 @@ foreach (System.Drawing.Printing.PaperSize paperSize in container.PaperSizes)
 ### Ayrıca bakınız
 
 * class [PrinterSettingsContainer](../)
-* ad alanı [Aspose.Words.Rendering](../../printersettingscontainer/)
+* ad alanı [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ControlChar.SectionBreak
-second_title: Aspose.Words for .NET API Referansı
-description: ControlChar alan. Bölüm sonu karakteri x000c veya f. ile aynı değere sahip olduğunu unutmayın.PageBreak .
+linktitle: SectionBreak
+articleTitle: SectionBreak
+second_title: Aspose.Words for .NET
+description: ControlChar SectionBreak alan. Bölüm sonu karakteri x000c veya f. ile aynı değere sahip olduğunu unutmayın.PageBreak  C#'da.
 type: docs
 weight: 240
 url: /tr/net/aspose.words/controlchar/sectionbreak/
@@ -14,7 +16,7 @@ Bölüm sonu karakteri: "\x000c" veya "\f". ile aynı değere sahip olduğunu un
 public static readonly string SectionBreak;
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgeye çeşitli kontrol karakterlerinin nasıl ekleneceğini gösterir.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Ayrıca bakınız
 
 * class [ControlChar](../)
-* ad alanı [Aspose.Words](../../controlchar/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

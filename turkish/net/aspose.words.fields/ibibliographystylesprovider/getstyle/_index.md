@@ -1,7 +1,9 @@
 ---
 title: IBibliographyStylesProvider.GetStyle
-second_title: Aspose.Words for .NET API Referansı
-description: IBibliographyStylesProvider yöntem. Kaynakça stilini döndürür.
+linktitle: GetStyle
+articleTitle: GetStyle
+second_title: Aspose.Words for .NET
+description: IBibliographyStylesProvider GetStyle yöntem. Kaynakça stilini döndürür C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/ibibliographystylesprovider/getstyle/
@@ -22,14 +24,12 @@ public Stream GetStyle(string styleFileName)
 
 Stream kaynakça stili XSLT stil sayfasıyla.
 
-### Notlar
+## Notlar
 
 Uygulama geri dönmeli`hükümsüz` şunu belirtmek için belirtilen stilin MS Word sürümünün kullanılması gerekir.
 
 ### Ayrıca bakınız
 
 * interface [IBibliographyStylesProvider](../)
-* ad alanı [Aspose.Words.Fields](../../ibibliographystylesprovider/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

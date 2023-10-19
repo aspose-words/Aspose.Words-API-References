@@ -1,7 +1,9 @@
 ---
 title: TaskPane.WebExtension
-second_title: Aspose.Words for .NET API Referansı
-description: TaskPane mülk. Bir web uzantısı nesnesini temsil eder.
+linktitle: WebExtension
+articleTitle: WebExtension
+second_title: Aspose.Words for .NET
+description: TaskPane WebExtension mülk. Bir web uzantısı nesnesini temsil eder C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.webextensions/taskpane/webextension/
@@ -14,7 +16,7 @@ Bir web uzantısı nesnesini temsil eder.
 public WebExtension WebExtension { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgeye nasıl web uzantısı ekleneceğini gösterir.
 
@@ -60,7 +62,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * class [WebExtension](../../webextension/)
 * class [TaskPane](../)
-* ad alanı [Aspose.Words.WebExtensions](../../taskpane/)
+* ad alanı [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * toplantı [Aspose.Words](../../../)
-
-

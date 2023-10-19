@@ -1,7 +1,9 @@
 ---
 title: IFieldUpdatingProgressCallback.Notify
-second_title: Aspose.Words for .NET API Referansı
-description: IFieldUpdatingProgressCallback yöntem. Güncelleme ilerleme durumu değiştirildiğinde çağrılan kullanıcı tanımlı bir yöntem.
+linktitle: Notify
+articleTitle: Notify
+second_title: Aspose.Words for .NET
+description: IFieldUpdatingProgressCallback Notify yöntem. Güncelleme ilerleme durumu değiştirildiğinde çağrılan kullanıcı tanımlı bir yöntem C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/ifieldupdatingprogresscallback/notify/
@@ -14,7 +16,7 @@ Güncelleme ilerleme durumu değiştirildiğinde çağrılan kullanıcı tanıml
 public void Notify(FieldUpdatingProgressArgs args)
 ```
 
-### Örnekler
+## Örnekler
 
 Alan güncellemesi sırasında geri çağırma yöntemlerinin nasıl kullanılacağını gösterir.
 
@@ -83,7 +85,5 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgr
 
 * class [FieldUpdatingProgressArgs](../../fieldupdatingprogressargs/)
 * interface [IFieldUpdatingProgressCallback](../)
-* ad alanı [Aspose.Words.Fields](../../ifieldupdatingprogresscallback/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

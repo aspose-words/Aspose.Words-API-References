@@ -1,9 +1,11 @@
 ---
 title: Stroke.ImageBytes
-second_title: Aspose.Words for .NET API Referansı
-description: Stroke mülk. Kontur görüntüsü veya desen dolgusu için görüntüyü tanımlar.
+linktitle: ImageBytes
+articleTitle: ImageBytes
+second_title: Aspose.Words for .NET
+description: Stroke ImageBytes mülk. Kontur görüntüsü veya desen dolgusu için görüntüyü tanımlar C#'da.
 type: docs
-weight: 120
+weight: 110
 url: /tr/net/aspose.words.drawing/stroke/imagebytes/
 ---
 ## Stroke.ImageBytes property
@@ -14,7 +16,7 @@ Kontur görüntüsü veya desen dolgusu için görüntüyü tanımlar.
 public byte[] ImageBytes { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Şekil kontur özelliklerinin nasıl işleneceğini gösterir.
 
@@ -35,7 +37,5 @@ File.WriteAllBytes(ArtifactsDir + "Drawing.StrokePattern.png", stroke.ImageBytes
 ### Ayrıca bakınız
 
 * class [Stroke](../)
-* ad alanı [Aspose.Words.Drawing](../../stroke/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

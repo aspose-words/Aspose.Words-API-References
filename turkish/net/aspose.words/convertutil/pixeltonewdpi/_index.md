@@ -1,7 +1,9 @@
 ---
 title: ConvertUtil.PixelToNewDpi
-second_title: Aspose.Words for .NET API Referansı
-description: ConvertUtil yöntem. Pikselleri bir çözünürlükten diğerine dönüştürür.
+linktitle: PixelToNewDpi
+articleTitle: PixelToNewDpi
+second_title: Aspose.Words for .NET
+description: ConvertUtil PixelToNewDpi yöntem. Pikselleri bir çözünürlükten diğerine dönüştürür C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/convertutil/pixeltonewdpi/
@@ -20,7 +22,7 @@ public static int PixelToNewDpi(double pixels, double oldDpi, double newDpi)
 | oldDpi | Double | Geçerli dpi (inç başına nokta sayısı) çözünürlüğü. |
 | newDpi | Double | Yeni dpi (inç başına nokta sayısı) çözünürlüğü. |
 
-### Örnekler
+## Örnekler
 
 Varsayılan ve özel çözünürlükle piksellere dönüştürme noktalarının nasıl kullanılacağını gösterir.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "UtilityClasses.PointsAndPixelsDpi.docx");
 ### Ayrıca bakınız
 
 * class [ConvertUtil](../)
-* ad alanı [Aspose.Words](../../convertutil/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

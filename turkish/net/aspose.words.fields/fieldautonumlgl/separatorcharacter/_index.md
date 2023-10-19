@@ -1,7 +1,9 @@
 ---
 title: FieldAutoNumLgl.SeparatorCharacter
-second_title: Aspose.Words for .NET API Referansı
-description: FieldAutoNumLgl mülk. Kullanılacak ayırıcı karakteri alır veya ayarlar.
+linktitle: SeparatorCharacter
+articleTitle: SeparatorCharacter
+second_title: Aspose.Words for .NET
+description: FieldAutoNumLgl SeparatorCharacter mülk. Kullanılacak ayırıcı karakteri alır veya ayarlar C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fields/fieldautonumlgl/separatorcharacter/
@@ -14,7 +16,7 @@ Kullanılacak ayırıcı karakteri alır veya ayarlar.
 public string SeparatorCharacter { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 AUTONUMLGL alanlarını kullanarak bir belgenin nasıl düzenleneceğini gösterir.
 
@@ -90,7 +92,5 @@ private static void InsertNumberedClause(DocumentBuilder builder, string heading
 ### Ayrıca bakınız
 
 * class [FieldAutoNumLgl](../)
-* ad alanı [Aspose.Words.Fields](../../fieldautonumlgl/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

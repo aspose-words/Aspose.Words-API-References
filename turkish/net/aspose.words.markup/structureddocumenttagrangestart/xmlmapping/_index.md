@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.XmlMapping
-second_title: Aspose.Words for .NET API Referansı
-description: StructuredDocumentTagRangeStart mülk. Bu yapılandırılmış belge etiketi aralığının geçerli belgenin özel bir XML bölümündeki XML data ile eşlenmesini temsil eden bir nesne alır.
+linktitle: XmlMapping
+articleTitle: XmlMapping
+second_title: Aspose.Words for .NET
+description: StructuredDocumentTagRangeStart XmlMapping mülk. Bu yapılandırılmış belge etiketi aralığının geçerli belgenin özel bir XML bölümündeki XML data ile eşlenmesini temsil eden bir nesne alır C#'da.
 type: docs
 weight: 180
 url: /tr/net/aspose.words.markup/structureddocumenttagrangestart/xmlmapping/
@@ -14,11 +16,11 @@ Bu yapılandırılmış belge etiketi aralığının, geçerli belgenin özel bi
 public XmlMapping XmlMapping { get; }
 ```
 
-### Notlar
+## Notlar
 
 Kullanabilirsiniz[`SetMapping`](../../xmlmapping/setmapping/) yapılandırılmış bir belge etiketi aralığını XML verileriyle eşlemek için this nesnesinin yöntemi.
 
-### Örnekler
+## Örnekler
 
 Yapılandırılmış bir belge etiketinin aralık başlangıcı için XML eşlemelerinin nasıl ayarlanacağını gösterir.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.StructuredDocumentTagRangeStartXm
 
 * class [XmlMapping](../../xmlmapping/)
 * class [StructuredDocumentTagRangeStart](../)
-* ad alanı [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: MailMergeRegionInfo.EndMustacheTag
-second_title: Aspose.Words for .NET API Referansı
-description: MailMergeRegionInfo mülk. Bölge için bir bitiş bıyık etiketi döndürür.
+linktitle: EndMustacheTag
+articleTitle: EndMustacheTag
+second_title: Aspose.Words for .NET
+description: MailMergeRegionInfo EndMustacheTag mülk. Bölge için bir bitiş bıyık etiketi döndürür C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.mailmerging/mailmergeregioninfo/endmustachetag/
@@ -14,7 +16,7 @@ Bölge için bir bitiş "bıyık" etiketi döndürür.
 public MustacheTag EndMustacheTag { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bıyık etiketleriyle nasıl çalışılacağını gösterir.
 
@@ -42,7 +44,5 @@ foreach (MailMergeRegionInfo region in hierarchy.Regions)
 
 * class [MustacheTag](../../mustachetag/)
 * class [MailMergeRegionInfo](../)
-* ad alanı [Aspose.Words.MailMerging](../../mailmergeregioninfo/)
+* ad alanı [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * toplantı [Aspose.Words](../../../)
-
-

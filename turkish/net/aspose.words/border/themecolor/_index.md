@@ -1,7 +1,9 @@
 ---
 title: Border.ThemeColor
-second_title: Aspose.Words for .NET API Referansı
-description: Border mülk. Bu Border nesnesiyle ilişkili uygulanan renk şemasındaki tema rengini alır veya ayarlar.
+linktitle: ThemeColor
+articleTitle: ThemeColor
+second_title: Aspose.Words for .NET
+description: Border ThemeColor mülk. Bu Border nesnesiyle ilişkili uygulanan renk şemasındaki tema rengini alır veya ayarlar C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words/border/themecolor/
@@ -14,7 +16,7 @@ Bu Border nesnesiyle ilişkili uygulanan renk şemasındaki tema rengini alır v
 public ThemeColor ThemeColor { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Üst kenarlığı olan bir paragrafın nasıl ekleneceğini gösterir.
 
@@ -38,7 +40,5 @@ doc.Save(ArtifactsDir + "Border.ParagraphTopBorder.docx");
 
 * enum [ThemeColor](../../../aspose.words.themes/themecolor/)
 * class [Border](../)
-* ad alanı [Aspose.Words](../../border/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

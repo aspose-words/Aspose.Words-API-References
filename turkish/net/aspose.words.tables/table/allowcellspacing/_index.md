@@ -1,7 +1,9 @@
 ---
 title: Table.AllowCellSpacing
-second_title: Aspose.Words for .NET API Referansı
-description: Table mülk. Hücreler arasındaki boşluğa izin ver seçeneğini alır veya ayarlar.
+linktitle: AllowCellSpacing
+articleTitle: AllowCellSpacing
+second_title: Aspose.Words for .NET
+description: Table AllowCellSpacing mülk. Hücreler arasındaki boşluğa izin ver seçeneğini alır veya ayarlar C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.tables/table/allowcellspacing/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.tables/table/allowcellspacing/
 public bool AllowCellSpacing { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Tablodaki tek tek hücreler arasındaki boşluğun nasıl etkinleştirileceğini gösterir.
 
@@ -53,7 +55,5 @@ Assert.True(table.AllowCellSpacing);
 ### Ayrıca bakınız
 
 * class [Table](../)
-* ad alanı [Aspose.Words.Tables](../../table/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.ShowPercentage
-second_title: Aspose.Words for .NET API Referansı
-description: ChartDataLabelCollection mülk. Tüm serinin veri etiketleri için yüzde değerinin görüntülenip görüntülenmeyeceğini belirtmeye izin verir. Varsayılan değerYANLIŞ . Yalnızca Pasta grafikleri için geçerlidir.
+linktitle: ShowPercentage
+articleTitle: ShowPercentage
+second_title: Aspose.Words for .NET
+description: ChartDataLabelCollection ShowPercentage mülk. Tüm serinin veri etiketleri için yüzde değerinin görüntülenip görüntülenmeyeceğini belirtmeye izin verir. Varsayılan değerYANLIŞ . Yalnızca Pasta grafikleri için geçerlidir C#'da.
 type: docs
 weight: 120
 url: /tr/net/aspose.words.drawing.charts/chartdatalabelcollection/showpercentage/
@@ -14,11 +16,11 @@ Tüm serinin veri etiketleri için yüzde değerinin görüntülenip görüntül
 public bool ShowPercentage { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özellik için tanımlanan değer, the kullanılarak tek bir veri etiketi için geçersiz kılınabilir[`ShowPercentage`](../../chartdatalabel/showpercentage/) özellik.
 
-### Örnekler
+## Örnekler
 
 Pasta grafiğinin veri etiketleriyle nasıl çalışılacağını gösterir.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Charts.DataLabelsPieChart.docx");
 ### Ayrıca bakınız
 
 * class [ChartDataLabelCollection](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.FarEastLineBreakControl
-second_title: Aspose.Words for .NET API Referansı
-description: ParagraphFormat mülk. Geçerli paragrafa Doğu Asya satır sonu kurallarının uygulanıp uygulanmadığını belirten bir bayrak alır veya ayarlar.
+linktitle: FarEastLineBreakControl
+articleTitle: FarEastLineBreakControl
+second_title: Aspose.Words for .NET
+description: ParagraphFormat FarEastLineBreakControl mülk. Geçerli paragrafa Doğu Asya satır sonu kurallarının uygulanıp uygulanmadığını belirten bir bayrak alır veya ayarlar C#'da.
 type: docs
 weight: 110
 url: /tr/net/aspose.words/paragraphformat/fareastlinebreakcontrol/
@@ -14,7 +16,7 @@ Geçerli paragrafa Doğu Asya satır sonu kurallarının uygulanıp uygulanmadı
 public bool FarEastLineBreakControl { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Asya tipografisi için özel özelliklerin nasıl ayarlanacağını gösterir.
 
@@ -32,7 +34,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.AsianTypographyProperties.docx");
 ### Ayrıca bakınız
 
 * class [ParagraphFormat](../)
-* ad alanı [Aspose.Words](../../paragraphformat/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: Node.GetAncestor
-second_title: Aspose.Words for .NET API Referansı
-description: Node yöntem. Belirtilen nesne türünün ilk atayı alır.
+linktitle: GetAncestor
+articleTitle: GetAncestor
+second_title: Aspose.Words for .NET
+description: Node GetAncestor yöntem. Belirtilen nesne türünün ilk atayı alır C#'da.
 type: docs
 weight: 110
 url: /tr/net/aspose.words/node/getancestor/
 ---
-## GetAncestor(Type) {#getancestor_1}
+## GetAncestor(*Type*) {#getancestor_1}
 
 Belirtilen nesne türünün ilk atayı alır.
 
@@ -22,11 +24,11 @@ public CompositeNode GetAncestor(Type ancestorType)
 
 Belirtilen türün atası veya`hükümsüz` eğer bu türden bir ata bulunamazsa.
 
-### Notlar
+## Notlar
 
 Ata türü şuna eşitse eşleşir:*ancestorType* veya türetilmiş*ancestorType*.
 
-### Örnekler
+## Örnekler
 
 Bir tablonun iç içe olup olmadığının nasıl öğrenileceğini gösterir.
 
@@ -105,12 +107,12 @@ private static int GetChildTableCount(Table table)
 
 * class [CompositeNode](../../compositenode/)
 * class [Node](../)
-* ad alanı [Aspose.Words](../../node/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## GetAncestor(NodeType) {#getancestor}
+## GetAncestor(*[NodeType](../../nodetype/)*) {#getancestor}
 
 Belirtilenin ilk atayı alır[`NodeType`](../../nodetype/) .
 
@@ -126,7 +128,7 @@ public CompositeNode GetAncestor(NodeType ancestorType)
 
 Belirtilen türün atası veya`hükümsüz` eğer bu türden bir ata bulunamazsa.
 
-### Örnekler
+## Örnekler
 
 Bir tablonun iç içe olup olmadığının nasıl öğrenileceğini gösterir.
 
@@ -206,7 +208,5 @@ private static int GetChildTableCount(Table table)
 * class [CompositeNode](../../compositenode/)
 * enum [NodeType](../../nodetype/)
 * class [Node](../)
-* ad alanı [Aspose.Words](../../node/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

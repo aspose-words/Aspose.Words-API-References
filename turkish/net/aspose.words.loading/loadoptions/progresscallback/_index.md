@@ -1,7 +1,9 @@
 ---
 title: LoadOptions.ProgressCallback
-second_title: Aspose.Words for .NET API Referansı
-description: LoadOptions mülk. Bir belge yüklenirken çağrılır ve yükleme ilerlemesiyle ilgili verileri kabul eder.
+linktitle: ProgressCallback
+articleTitle: ProgressCallback
+second_title: Aspose.Words for .NET
+description: LoadOptions ProgressCallback mülk. Bir belge yüklenirken çağrılır ve yükleme ilerlemesiyle ilgili verileri kabul eder C#'da.
 type: docs
 weight: 130
 url: /tr/net/aspose.words.loading/loadoptions/progresscallback/
@@ -14,11 +16,11 @@ Bir belge yüklenirken çağrılır ve yükleme ilerlemesiyle ilgili verileri ka
 public IDocumentLoadingCallback ProgressCallback { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Docx ,FlatOpc ,Docm ,Dotm ,Dotx ,Markdown ,Rtf ,WordML ,Doc ,Dot ,Odt ,Ott desteklenen formatlar
 
-### Örnekler
+## Örnekler
 
 Belge yüklemesinin beklenen yükleme süresini aşması durumunda kullanıcıya nasıl bilgi verileceğini gösterir.
 
@@ -83,7 +85,5 @@ public class LoadingProgressCallback : IDocumentLoadingCallback
 
 * interface [IDocumentLoadingCallback](../../idocumentloadingcallback/)
 * class [LoadOptions](../)
-* ad alanı [Aspose.Words.Loading](../../loadoptions/)
+* ad alanı [Aspose.Words.Loading](../../../aspose.words.loading/)
 * toplantı [Aspose.Words](../../../)
-
-

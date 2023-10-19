@@ -1,7 +1,9 @@
 ---
 title: TaskPane.IsLocked
-second_title: Aspose.Words for .NET API Referansı
-description: TaskPane mülk. Görev bölmesinin kullanıcı arayüzündeki belgeye kilitli olup olmadığını ve kullanıcı tarafından kapatılıp kapatılamayacağını belirtir.
+linktitle: IsLocked
+articleTitle: IsLocked
+second_title: Aspose.Words for .NET
+description: TaskPane IsLocked mülk. Görev bölmesinin kullanıcı arayüzündeki belgeye kilitli olup olmadığını ve kullanıcı tarafından kapatılıp kapatılamayacağını belirtir C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.webextensions/taskpane/islocked/
@@ -14,7 +16,7 @@ Görev bölmesinin kullanıcı arayüzündeki belgeye kilitli olup olmadığın�
 public bool IsLocked { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgeye nasıl web uzantısı ekleneceğini gösterir.
 
@@ -59,7 +61,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### Ayrıca bakınız
 
 * class [TaskPane](../)
-* ad alanı [Aspose.Words.WebExtensions](../../taskpane/)
+* ad alanı [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * toplantı [Aspose.Words](../../../)
-
-

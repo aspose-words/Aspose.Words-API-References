@@ -1,7 +1,9 @@
 ---
 title: FieldSeq.SequenceIdentifier
-second_title: Aspose.Words for .NET API Referansı
-description: FieldSeq mülk. Numaralandırılacak öğe serisine atanan adı alır veya ayarlar.
+linktitle: SequenceIdentifier
+articleTitle: SequenceIdentifier
+second_title: Aspose.Words for .NET
+description: FieldSeq SequenceIdentifier mülk. Numaralandırılacak öğe serisine atanan adı alır veya ayarlar C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.fields/fieldseq/sequenceidentifier/
@@ -14,7 +16,7 @@ Numaralandırılacak öğe serisine atanan adı alır veya ayarlar.
 public string SequenceIdentifier { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 SEQ alanlarını kullanarak numaralandırma oluşturmayı gösterir.
 
@@ -149,7 +151,5 @@ doc.Save(ArtifactsDir + "Field.TOC.SEQ.docx");
 ### Ayrıca bakınız
 
 * class [FieldSeq](../)
-* ad alanı [Aspose.Words.Fields](../../fieldseq/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

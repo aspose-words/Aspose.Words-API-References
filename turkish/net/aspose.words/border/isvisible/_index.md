@@ -1,7 +1,9 @@
 ---
 title: Border.IsVisible
-second_title: Aspose.Words for .NET API Referansı
-description: Border mülk. İadelerdoğru EğerLineStyle değilNone .
+linktitle: IsVisible
+articleTitle: IsVisible
+second_title: Aspose.Words for .NET
+description: Border IsVisible mülk. İadelerdoğru EğerLineStyle değilNone  C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/border/isvisible/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words/border/isvisible/
 public bool IsVisible { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Paragraftaki kenarlıkların nasıl kaldırılacağını gösterir.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "Border.ClearFormatting.docx");
 ### Ayrıca bakınız
 
 * class [Border](../)
-* ad alanı [Aspose.Words](../../border/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

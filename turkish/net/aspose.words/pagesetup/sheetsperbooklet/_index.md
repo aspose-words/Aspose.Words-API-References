@@ -1,7 +1,9 @@
 ---
 title: PageSetup.SheetsPerBooklet
-second_title: Aspose.Words for .NET API Referansı
-description: PageSetup mülk. Her kitapçığa dahil edilecek sayfa sayısını döndürür veya ayarlar.
+linktitle: SheetsPerBooklet
+articleTitle: SheetsPerBooklet
+second_title: Aspose.Words for .NET
+description: PageSetup SheetsPerBooklet mülk. Her kitapçığa dahil edilecek sayfa sayısını döndürür veya ayarlar C#'da.
 type: docs
 weight: 400
 url: /tr/net/aspose.words/pagesetup/sheetsperbooklet/
@@ -14,7 +16,7 @@ Her kitapçığa dahil edilecek sayfa sayısını döndürür veya ayarlar.
 public int SheetsPerBooklet { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Kitap katlaması olarak yazdırılabilecek bir belgenin nasıl yapılandırılacağını gösterir.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "PageSetup.Booklet.docx");
 ### Ayrıca bakınız
 
 * class [PageSetup](../)
-* ad alanı [Aspose.Words](../../pagesetup/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ImageSavingArgs.ImageStream
-second_title: Aspose.Words for .NET API Referansı
-description: ImageSavingArgs mülk. Görüntünün kaydedileceği akışı belirtmeye izin verir.
+linktitle: ImageStream
+articleTitle: ImageStream
+second_title: Aspose.Words for .NET
+description: ImageSavingArgs ImageStream mülk. Görüntünün kaydedileceği akışı belirtmeye izin verir C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.saving/imagesavingargs/imagestream/
@@ -14,7 +16,7 @@ Görüntünün kaydedileceği akışı belirtmeye izin verir.
 public Stream ImageStream { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özellik, HTML sırasında görüntüleri dosyalar yerine akışlara kaydetmenize olanak tanır.
 
@@ -22,7 +24,7 @@ Varsayılan değer:`hükümsüz` . Bu özellik olduğunda`hükümsüz` görünt�
 
 Kullanma[`IImageSavingCallback`](../../iimagesavingcallback/) bir resmi başka bir resimle değiştiremezsiniz. Yalnızca görüntülerin kaydedileceği konumu kontrol etmek için tasarlanmıştır.
 
-### Örnekler
+## Örnekler
 
 Görüntü kaydetme geri aramasının HTML dönüştürme sürecine nasıl dahil edileceğini gösterir.
 
@@ -68,7 +70,5 @@ private class ImageShapePrinter : IImageSavingCallback
 ### Ayrıca bakınız
 
 * class [ImageSavingArgs](../)
-* ad alanı [Aspose.Words.Saving](../../imagesavingargs/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

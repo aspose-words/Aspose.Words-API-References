@@ -1,7 +1,9 @@
 ---
 title: Aspose.Words.Drawing.Ole
-second_title: Aspose.Words for .NET API Referansı
-description: Microsoft Word belgelerindeki OLE/ActiveX denetimleri ve formlarıyla çalışacak sınıfları içerir.
+linktitle: Aspose.Words.Drawing.Ole
+articleTitle: Aspose.Words.Drawing.Ole
+second_title: Aspose.Words for .NET
+description: Microsoft Word belgelerindeki OLE/ActiveX denetimleri ve formlarıyla çalışacak sınıfları içerir C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.drawing.ole/
@@ -20,5 +22,3 @@ Microsoft Word belgelerindeki OLE/ActiveX denetimleri ve formlarıyla çalışac
 | numaralandırma | Tanım |
 | --- | --- |
 | [Forms2OleControlType](./forms2olecontroltype/) | Forms 2.0 denetim türlerini numaralandırır. |
-
-

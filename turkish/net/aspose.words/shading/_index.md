@@ -1,7 +1,9 @@
 ---
-title: Class Shading
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Shading sınıf. Bir nesnenin gölgelendirme niteliklerini içerir.
+title: Shading Class
+linktitle: Shading
+articleTitle: Shading
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Shading sınıf. Bir nesnenin gölgelendirme niteliklerini içerir C#'da.
 type: docs
 weight: 5990
 url: /tr/net/aspose.words/shading/
@@ -33,11 +35,11 @@ public class Shading : InternableComplexAttr
 | İsim | Tanım |
 | --- | --- |
 | [ClearFormatting](../../aspose.words/shading/clearformatting/)() | Nesnedeki gölgelemeyi kaldırır. |
-| override [Equals](../../aspose.words/shading/equals/#equals_1)(object) | Belirtilen nesnenin değer olarak geçerli nesneye eşit olup olmadığını belirler. |
-| [Equals](../../aspose.words/shading/equals/#equals)(Shading) | Belirtilenin olup olmadığını belirler`Shading` şimdiki değere eşittir`Shading` . |
+| override [Equals](../../aspose.words/shading/equals/#equals_1)(*object*) | Belirtilen nesnenin değer olarak geçerli nesneye eşit olup olmadığını belirler. |
+| [Equals](../../aspose.words/shading/equals/#equals)(*Shading*) | Belirtilenin olup olmadığını belirler`Shading` şimdiki değere eşittir`Shading` . |
 | override [GetHashCode](../../aspose.words/shading/gethashcode/)() | Bu tür için karma işlevi görevi görür. |
 
-### Örnekler
+## Örnekler
 
 Metnin kenarlıklar ve gölgelendirmeyle nasıl süsleneceğini gösterir.
 
@@ -102,5 +104,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.TableBordersAndShading.docx");
 * class [InternableComplexAttr](../internablecomplexattr/)
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

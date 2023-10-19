@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPart.Data
-second_title: Aspose.Words for .NET API Referansı
-description: CustomXmlPart mülk. Bu Özel XML Veri Depolama Parçasının XML içeriğini alır veya ayarlar.
+linktitle: Data
+articleTitle: Data
+second_title: Aspose.Words for .NET
+description: CustomXmlPart Data mülk. Bu Özel XML Veri Depolama Parçasının XML içeriğini alır veya ayarlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.markup/customxmlpart/data/
@@ -14,11 +16,11 @@ Bu Özel XML Veri Depolama Parçasının XML içeriğini alır veya ayarlar.
 public byte[] Data { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer boş bir bayt dizisidir. Değer olamaz`hükümsüz`.
 
-### Örnekler
+## Örnekler
 
 Özel XML verileriyle yapılandırılmış bir belge etiketinin nasıl oluşturulacağını gösterir.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 ### Ayrıca bakınız
 
 * class [CustomXmlPart](../)
-* ad alanı [Aspose.Words.Markup](../../customxmlpart/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum PdfTextCompression
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Saving.PdfTextCompression Sıralama. PDF dosyasındaki resimler hariç tüm içeriğe uygulanan sıkıştırma türünü belirtir.
+title: PdfTextCompression Enum
+linktitle: PdfTextCompression
+articleTitle: PdfTextCompression
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Saving.PdfTextCompression Sıralama. PDF dosyasındaki resimler hariç tüm içeriğe uygulanan sıkıştırma türünü belirtir C#'da.
 type: docs
 weight: 5530
 url: /tr/net/aspose.words.saving/pdftextcompression/
@@ -21,7 +23,7 @@ public enum PdfTextCompression
 | None | `0` | Sıkıştırma yok. |
 | Flate | `1` | Düzleştir (ZIP) sıkıştırma. |
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi PDF'ye kaydederken metin sıkıştırmanın nasıl uygulanacağını gösterir.
 
@@ -50,5 +52,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.TextCompression.pdf", options);
 
 * ad alanı [Aspose.Words.Saving](../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../)
-
-

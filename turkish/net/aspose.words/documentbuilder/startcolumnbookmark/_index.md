@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.StartColumnBookmark
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentBuilder yöntem. Belgedeki geçerli konumu sütun yer işareti başlangıcı olarak işaretler. Konum bir tablo hücresinde olmalıdır.
+linktitle: StartColumnBookmark
+articleTitle: StartColumnBookmark
+second_title: Aspose.Words for .NET
+description: DocumentBuilder StartColumnBookmark yöntem. Belgedeki geçerli konumu sütun yer işareti başlangıcı olarak işaretler. Konum bir tablo hücresinde olmalıdır C#'da.
 type: docs
-weight: 630
+weight: 620
 url: /tr/net/aspose.words/documentbuilder/startcolumnbookmark/
 ---
 ## DocumentBuilder.StartColumnBookmark method
@@ -22,7 +24,7 @@ public BookmarkStart StartColumnBookmark(string bookmarkName)
 
 Yeni oluşturulan yer imi başlangıç düğümü.
 
-### Notlar
+## Notlar
 
 Sütun yer işareti, bir satır aralığındaki bir veya daha fazla sütunu kapsar. Geçerli bir yer imi oluşturmak için you her ikisini de aramanız gerekir`StartColumnBookmark` Ve[`EndColumnBookmark`](../endcolumnbookmark/) aynı ile*bookmarkName*parametre.
 
@@ -30,7 +32,7 @@ Kötü biçimlendirilmiş yer imleri veya yinelenen adlara sahip yer imleri, bel
 
 Takılan öğenin gerçek konumu[`BookmarkStart`](../../bookmarkstart/) düğümü geçerli document oluşturucu konumundan farklı olabilir.
 
-### Örnekler
+## Örnekler
 
 Sütun yer işaretinin nasıl oluşturulacağını gösterir.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "Bookmarks.CreateColumnBookmark.docx");
 
 * class [BookmarkStart](../../bookmarkstart/)
 * class [DocumentBuilder](../)
-* ad alanı [Aspose.Words](../../documentbuilder/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

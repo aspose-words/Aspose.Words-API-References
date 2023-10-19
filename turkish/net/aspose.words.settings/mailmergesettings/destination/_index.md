@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.Destination
-second_title: Aspose.Words for .NET API Referansı
-description: MailMergeSettings mülk. Microsoft Wordün adresmektup birleştirmenin sonuçlarını nasıl çıkaracağını belirtir. Varsayılan değerDefault .
+linktitle: Destination
+articleTitle: Destination
+second_title: Aspose.Words for .NET
+description: MailMergeSettings Destination mülk. Microsoft Wordün adresmektup birleştirmenin sonuçlarını nasıl çıkaracağını belirtir. Varsayılan değerDefault  C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words.settings/mailmergesettings/destination/
@@ -14,7 +16,7 @@ Microsoft Word'ün adres-mektup birleştirmenin sonuçlarını nasıl çıkaraca
 public MailMergeDestination Destination { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir Office Veri Kaynağı Nesnesinden alınan verilerle adres-mektup birleştirmenin nasıl yürütüleceğini gösterir.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * enum [MailMergeDestination](../../mailmergedestination/)
 * class [MailMergeSettings](../)
-* ad alanı [Aspose.Words.Settings](../../mailmergesettings/)
+* ad alanı [Aspose.Words.Settings](../../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: LoadOptions.ResourceLoadingCallback
-second_title: Aspose.Words for .NET API Referansı
-description: LoadOptions mülk. HTML MHTMLden bir belge içe aktarıldığında harici kaynakların resimler stil sayfaları nasıl yükleneceğini kontrol etmeye olanak tanır.
+linktitle: ResourceLoadingCallback
+articleTitle: ResourceLoadingCallback
+second_title: Aspose.Words for .NET
+description: LoadOptions ResourceLoadingCallback mülk. HTML MHTMLden bir belge içe aktarıldığında harici kaynakların resimler stil sayfaları nasıl yükleneceğini kontrol etmeye olanak tanır C#'da.
 type: docs
 weight: 140
 url: /tr/net/aspose.words.loading/loadoptions/resourceloadingcallback/
@@ -14,7 +16,7 @@ HTML, MHTML'den bir belge içe aktarıldığında harici kaynakların (resimler,
 public IResourceLoadingCallback ResourceLoadingCallback { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Html belgeleri yüklenirken harici kaynakların nasıl kullanılacağını gösterir.
 
@@ -65,7 +67,5 @@ private class HtmlLinkedResourceLoadingCallback : IResourceLoadingCallback
 
 * interface [IResourceLoadingCallback](../../iresourceloadingcallback/)
 * class [LoadOptions](../)
-* ad alanı [Aspose.Words.Loading](../../loadoptions/)
+* ad alanı [Aspose.Words.Loading](../../../aspose.words.loading/)
 * toplantı [Aspose.Words](../../../)
-
-

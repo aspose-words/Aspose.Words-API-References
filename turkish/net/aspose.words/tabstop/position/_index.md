@@ -1,7 +1,9 @@
 ---
 title: TabStop.Position
-second_title: Aspose.Words for .NET API Referansı
-description: TabStop mülk. Sekme durağının konumunu nokta olarak alır.
+linktitle: Position
+articleTitle: Position
+second_title: Aspose.Words for .NET
+description: TabStop Position mülk. Sekme durağının konumunu nokta olarak alır C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words/tabstop/position/
@@ -14,7 +16,7 @@ Sekme durağının konumunu nokta olarak alır.
 public double Position { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 İçindekiler ile ilgili paragraflarda sağ sekme durağının konumunun nasıl değiştirileceğini gösterir.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Styles.ChangeTocsTabStops.docx");
 ### Ayrıca bakınız
 
 * class [TabStop](../)
-* ad alanı [Aspose.Words](../../tabstop/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

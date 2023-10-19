@@ -1,7 +1,9 @@
 ---
 title: FieldTA.PageRangeBookmarkName
-second_title: Aspose.Words for .NET API Referansı
-description: FieldTA mülk. Girişin sayfa numarası olarak eklenen bir dizi sayfayı işaretleyen yer iminin adını alır veya ayarlar.
+linktitle: PageRangeBookmarkName
+articleTitle: PageRangeBookmarkName
+second_title: Aspose.Words for .NET
+description: FieldTA PageRangeBookmarkName mülk. Girişin sayfa numarası olarak eklenen bir dizi sayfayı işaretleyen yer iminin adını alır veya ayarlar C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.fields/fieldta/pagerangebookmarkname/
@@ -14,7 +16,7 @@ Girişin sayfa numarası olarak eklenen bir dizi sayfayı işaretleyen yer imini
 public string PageRangeBookmarkName { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 TOA ve TA alanlarını kullanarak bir yetki tablosunun nasıl oluşturulacağını ve özelleştirileceğini gösterir.
 
@@ -137,7 +139,5 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 ### Ayrıca bakınız
 
 * class [FieldTA](../)
-* ad alanı [Aspose.Words.Fields](../../fieldta/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.RowFormat
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentBuilder mülk. Geçerli tablo satırı biçimlendirme özelliklerini temsil eden bir nesneyi döndürür.
+linktitle: RowFormat
+articleTitle: RowFormat
+second_title: Aspose.Words for .NET
+description: DocumentBuilder RowFormat mülk. Geçerli tablo satırı biçimlendirme özelliklerini temsil eden bir nesneyi döndürür C#'da.
 type: docs
 weight: 180
 url: /tr/net/aspose.words/documentbuilder/rowformat/
@@ -14,7 +16,7 @@ Geçerli tablo satırı biçimlendirme özelliklerini temsil eden bir nesneyi d�
 public RowFormat RowFormat { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Satırların bir belge oluşturucuyla nasıl biçimlendirileceğini gösterir.
 
@@ -154,7 +156,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * class [RowFormat](../../../aspose.words.tables/rowformat/)
 * class [DocumentBuilder](../)
-* ad alanı [Aspose.Words](../../documentbuilder/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

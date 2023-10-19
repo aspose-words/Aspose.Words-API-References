@@ -1,7 +1,9 @@
 ---
-title: Class FontSourceBase
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Fonts.FontSourceBase sınıf. Bu kullanıcının çeşitli yazı tipi kaynaklarını belirlemesine olanak tanıyan sınıflar için soyut bir temel sınıftır.
+title: FontSourceBase Class
+linktitle: FontSourceBase
+articleTitle: FontSourceBase
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Fonts.FontSourceBase sınıf. Bu kullanıcının çeşitli yazı tipi kaynaklarını belirlemesine olanak tanıyan sınıflar için soyut bir temel sınıftır C#'da.
 type: docs
 weight: 2980
 url: /tr/net/aspose.words.fonts/fontsourcebase/
@@ -30,7 +32,7 @@ public abstract class FontSourceBase
 | --- | --- |
 | [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | Bu kaynak aracılığıyla kullanılabilen yazı tiplerinin listesini döndürür. |
 
-### Örnekler
+## Örnekler
 
 Yerel dosya sistemindeki bir yazı tipi dosyasının yazı tipi kaynağı olarak nasıl kullanılacağını gösterir.
 
@@ -50,5 +52,3 @@ Assert.AreEqual(0, fileFontSource.Priority);
 
 * ad alanı [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../)
-
-

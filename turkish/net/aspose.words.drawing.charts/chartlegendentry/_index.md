@@ -1,7 +1,9 @@
 ---
-title: Class ChartLegendEntry
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.Charts.ChartLegendEntry sınıf. Bir grafik açıklaması girişini temsil eder.
+title: ChartLegendEntry Class
+linktitle: ChartLegendEntry
+articleTitle: ChartLegendEntry
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.Charts.ChartLegendEntry sınıf. Bir grafik açıklaması girişini temsil eder C#'da.
 type: docs
 weight: 730
 url: /tr/net/aspose.words.drawing.charts/chartlegendentry/
@@ -21,9 +23,9 @@ public class ChartLegendEntry
 | İsim | Tanım |
 | --- | --- |
 | [Font](../../aspose.words.drawing.charts/chartlegendentry/font/) { get; } | Bu açıklama girişinin yazı tipi formatına erişim sağlar. |
-| [IsHidden](../../aspose.words.drawing.charts/chartlegendentry/ishidden/) { get; set; } | Bu girişin grafik açıklamasında gizli olup olmadığını belirten bir değer alır veya ayarlar. Varsayılan değer: **YANLIŞ** . |
+| [IsHidden](../../aspose.words.drawing.charts/chartlegendentry/ishidden/) { get; set; } | Bu girişin grafik açıklamasında gizli olup olmadığını belirten bir değer alır veya ayarlar. Varsayılan değer:**YANLIŞ** . |
 
-### Notlar
+## Notlar
 
 Bir açıklama girişi belirli bir grafik serisine veya trend çizgisine karşılık gelir.
 
@@ -33,5 +35,3 @@ Girişin metni serinin veya trend çizgisinin adıdır. Metin değiştirilemez.
 
 * ad alanı [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../)
-
-

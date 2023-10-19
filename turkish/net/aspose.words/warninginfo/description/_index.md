@@ -1,7 +1,9 @@
 ---
 title: WarningInfo.Description
-second_title: Aspose.Words for .NET API Referansı
-description: WarningInfo mülk. Uyarının açıklamasını döndürür.
+linktitle: Description
+articleTitle: Description
+second_title: Aspose.Words for .NET
+description: WarningInfo Description mülk. Uyarının açıklamasını döndürür C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/warninginfo/description/
@@ -14,7 +16,7 @@ Uyarının açıklamasını döndürür.
 public string Description { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Mevcut yazı tipi kaynaklarından eksik bir yazı tipi için en yakın eşleşmeyi bulma özelliğinin nasıl ayarlanacağını gösterir.
 
@@ -74,7 +76,5 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 ### Ayrıca bakınız
 
 * class [WarningInfo](../)
-* ad alanı [Aspose.Words](../../warninginfo/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

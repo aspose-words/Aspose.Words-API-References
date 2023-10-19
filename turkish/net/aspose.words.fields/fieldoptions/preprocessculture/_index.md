@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.PreProcessCulture
-second_title: Aspose.Words for .NET API Referansı
-description: FieldOptions mülk. Alan değerlerini ön işlemek için kültürü alır veya ayarlar.
+linktitle: PreProcessCulture
+articleTitle: PreProcessCulture
+second_title: Aspose.Words for .NET
+description: FieldOptions PreProcessCulture mülk. Alan değerlerini ön işlemek için kültürü alır veya ayarlar C#'da.
 type: docs
 weight: 170
 url: /tr/net/aspose.words.fields/fieldoptions/preprocessculture/
@@ -14,13 +16,13 @@ Alan değerlerini ön işlemek için kültürü alır veya ayarlar.
 public CultureInfo PreProcessCulture { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Şu anda bu özellik yalnızca[`FieldDocProperty`](../../fielddocproperty/) alan.
 
 Varsayılan değer:`hükümsüz` . Bu özellik olarak ayarlandığında`hükümsüz` ,[`FieldDocProperty`](../../fielddocproperty/)alanın değeri, kültür tarafından kontrol edilen preprocessed 'dir.[`FieldUpdateCultureSource`](../fieldupdateculturesource/) mülk.
 
-### Örnekler
+## Örnekler
 
 Önişleme kültürünün nasıl ayarlanacağını gösterir.
 
@@ -47,7 +49,5 @@ Assert.IsTrue(Regex.Match(field.Result, @"\d{2}[/]\d{2}[/]\d{4} \d{2}[:]\d{2}").
 ### Ayrıca bakınız
 
 * class [FieldOptions](../)
-* ad alanı [Aspose.Words.Fields](../../fieldoptions/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

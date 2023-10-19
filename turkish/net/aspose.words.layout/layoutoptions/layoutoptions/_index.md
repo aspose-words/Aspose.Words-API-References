@@ -1,7 +1,9 @@
 ---
-title: LayoutOptions.LayoutOptions
-second_title: Aspose.Words for .NET API Referansı
-description: LayoutOptions inşaatçı. Default_Constructor
+title: LayoutOptions
+linktitle: LayoutOptions
+articleTitle: LayoutOptions
+second_title: Aspose.Words for .NET
+description: LayoutOptions inşaatçı. Default_Constructor C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.layout/layoutoptions/layoutoptions/
@@ -17,7 +19,5 @@ public LayoutOptions()
 ### Ayrıca bakınız
 
 * class [LayoutOptions](../)
-* ad alanı [Aspose.Words.Layout](../../layoutoptions/)
+* ad alanı [Aspose.Words.Layout](../../../aspose.words.layout/)
 * toplantı [Aspose.Words](../../../)
-
-

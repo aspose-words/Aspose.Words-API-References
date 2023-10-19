@@ -1,7 +1,9 @@
 ---
 title: TxtLoadOptions.AutoNumberingDetection
-second_title: Aspose.Words for .NET API Referansı
-description: TxtLoadOptions mülk. Bir belge yüklenirken otomatik numaralandırma algılamasının gerçekleştirileceğini belirten bir boole değeri alır veya ayarlar. Varsayılan değerdoğru .
+linktitle: AutoNumberingDetection
+articleTitle: AutoNumberingDetection
+second_title: Aspose.Words for .NET
+description: TxtLoadOptions AutoNumberingDetection mülk. Bir belge yüklenirken otomatik numaralandırma algılamasının gerçekleştirileceğini belirten bir boole değeri alır veya ayarlar. Varsayılan değerdoğru  C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.loading/txtloadoptions/autonumberingdetection/
@@ -14,7 +16,7 @@ Bir belge yüklenirken otomatik numaralandırma algılamasının gerçekleştiri
 public bool AutoNumberingDetection { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Otomatik numaralandırma algılamasının nasıl devre dışı bırakılacağını gösterir.
 
@@ -26,7 +28,5 @@ Document doc = new Document(MyDir + "Number detection.txt", options);
 ### Ayrıca bakınız
 
 * class [TxtLoadOptions](../)
-* ad alanı [Aspose.Words.Loading](../../txtloadoptions/)
+* ad alanı [Aspose.Words.Loading](../../../aspose.words.loading/)
 * toplantı [Aspose.Words](../../../)
-
-

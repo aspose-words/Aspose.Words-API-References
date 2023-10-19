@@ -1,7 +1,9 @@
 ---
-title: Enum BuildingBlockBehavior
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.BuildingBlocks.BuildingBlockBehavior Sıralama. Ana belgeye eklendiğinde yapı bloğunun içeriğine uygulanacak davranışı belirtir.
+title: BuildingBlockBehavior Enum
+linktitle: BuildingBlockBehavior
+articleTitle: BuildingBlockBehavior
+second_title: Aspose.Words for .NET
+description: Aspose.Words.BuildingBlocks.BuildingBlockBehavior Sıralama. Ana belgeye eklendiğinde yapı bloğunun içeriğine uygulanacak davranışı belirtir C#'da.
 type: docs
 weight: 140
 url: /tr/net/aspose.words.buildingblocks/buildingblockbehavior/
@@ -23,11 +25,11 @@ public enum BuildingBlockBehavior
 | Page | `2` | Yapı bloğunun kendi sayfasına ekleneceği belirtir. |
 | Default | `0` | Şununla aynıContent . |
 
-### Notlar
+## Notlar
 
-karşılık gelir **ST_DocPartBehavior** OOXML yazın.
+karşılık gelir**ST_DocPartBehavior** OOXML yazın.
 
-### Örnekler
+## Örnekler
 
 Bir belgeye özel yapı taşının nasıl ekleneceğini gösterir.
 
@@ -125,5 +127,3 @@ public class BuildingBlockVisitor : DocumentVisitor
 
 * ad alanı [Aspose.Words.BuildingBlocks](../../aspose.words.buildingblocks/)
 * toplantı [Aspose.Words](../../)
-
-

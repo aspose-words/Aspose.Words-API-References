@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.DisplayDocTitle
-second_title: Aspose.Words for .NET API Referansı
-description: PdfSaveOptions mülk. Pencerenin başlık çubuğunun belge bilgileri sözlüğünün Başlık girişinden alınan belge başlığını görüntüleyip görüntülemeyeceğini belirten bir işaret.
+linktitle: DisplayDocTitle
+articleTitle: DisplayDocTitle
+second_title: Aspose.Words for .NET
+description: PdfSaveOptions DisplayDocTitle mülk. Pencerenin başlık çubuğunun belge bilgileri sözlüğünün Başlık girişinden alınan belge başlığını görüntüleyip görüntülemeyeceğini belirten bir işaret C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words.saving/pdfsaveoptions/displaydoctitle/
@@ -14,7 +16,7 @@ Pencerenin başlık çubuğunun, belge bilgileri sözlüğünün Başlık giriş
 public bool DisplayDocTitle { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Eğer`YANLIŞ`başlık çubuğunda bunun yerine belgeyi içeren PDF dosyasının adı görüntülenmelidir.
 
@@ -22,7 +24,7 @@ Bu işaret, PDF/UA uyumluluğu için gereklidir.`doğru` x000d_ PDF/UA'ya kayded
 
 Varsayılan değer:`YANLIŞ`.
 
-### Örnekler
+## Örnekler
 
 Belgenin başlığının başlık çubuğu olarak nasıl görüntüleneceğini gösterir.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.DocTitle.pdf", pdfSaveOptions);
 ### Ayrıca bakınız
 
 * class [PdfSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../pdfsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

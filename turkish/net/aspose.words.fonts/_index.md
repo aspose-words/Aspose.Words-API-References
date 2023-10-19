@@ -1,7 +1,9 @@
 ---
 title: Aspose.Words.Fonts
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Fonts ad alanı bir belgede kullanılan yazı tipleri hakkındaki bilgilere erişmek için sınıflar ve numaralandırmalar sağlar.
+linktitle: Aspose.Words.Fonts
+articleTitle: Aspose.Words.Fonts
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Fonts ad alanı bir belgede kullanılan yazı tipleri hakkındaki bilgilere erişmek için sınıflar ve numaralandırmalar sağlar C#'da.
 type: docs
 weight: 90
 url: /tr/net/aspose.words.fonts/
@@ -39,5 +41,3 @@ url: /tr/net/aspose.words.fonts/
 | [FontFamily](./fontfamily/) | Yazı tipi ailesini temsil eder. |
 | [FontPitch](./fontpitch/) | Yazı tipi aralığını temsil eder. |
 | [FontSourceType](./fontsourcetype/) | Yazı tipi kaynağının türünü belirtir. |
-
-

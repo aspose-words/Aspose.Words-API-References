@@ -1,7 +1,9 @@
 ---
-title: Class FontSavingArgs
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Saving.FontSavingArgs sınıf. Şunun için veri sağlarFontSaving olay.
+title: FontSavingArgs Class
+linktitle: FontSavingArgs
+articleTitle: FontSavingArgs
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Saving.FontSavingArgs sınıf. Şunun için veri sağlarFontSaving olay C#'da.
 type: docs
 weight: 5030
 url: /tr/net/aspose.words.saving/fontsavingargs/
@@ -32,7 +34,7 @@ public class FontSavingArgs
 | [OriginalFileName](../../aspose.words.saving/fontsavingargs/originalfilename/) { get; } | Uzantısıyla orijinal yazı tipi dosyasının adını alır. |
 | [OriginalFileSize](../../aspose.words.saving/fontsavingargs/originalfilesize/) { get; } | Orijinal yazı tipi dosyasının boyutunu alır. |
 
-### Notlar
+## Notlar
 
 Aspose.Words bir belgeyi HTML'ye veya ilgili formatlara kaydettiğinde ve[`ExportFontResources`](../htmlsaveoptions/exportfontresources/) şu şekilde ayarlandı`doğru`, her yazı tipi konusunu dışa aktarılmak üzere ayrı bir dosyaya kaydeder.
 
@@ -44,7 +46,7 @@ Belirli bir yazı tipi kaynağının kaydedilip kaydedilmeyeceğine karar vermek
 
 Yazı tiplerini dosyalar yerine akışlara kaydetmek için[`FontStream`](./fontstream/) mülk.
 
-### Örnekler
+## Örnekler
 
 HTML'ye kaydederken yazı tiplerini dışa aktarmak için özel mantığın nasıl tanımlanacağını gösterir.
 
@@ -105,5 +107,3 @@ public class HandleFontSaving : IFontSavingCallback
 
 * ad alanı [Aspose.Words.Saving](../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../)
-
-

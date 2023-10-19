@@ -1,7 +1,9 @@
 ---
 title: OdsoRecipientDataCollection.GetEnumerator
-second_title: Aspose.Words for .NET API Referansı
-description: OdsoRecipientDataCollection yöntem. Koleksiyondaki tüm öğeler üzerinde yineleme yapmak için kullanılabilecek bir numaralandırıcı nesnesini döndürür.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words for .NET
+description: OdsoRecipientDataCollection GetEnumerator yöntem. Koleksiyondaki tüm öğeler üzerinde yineleme yapmak için kullanılabilecek bir numaralandırıcı nesnesini döndürür C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.settings/odsorecipientdatacollection/getenumerator/
@@ -14,7 +16,7 @@ Koleksiyondaki tüm öğeler üzerinde yineleme yapmak için kullanılabilecek b
 public IEnumerator<OdsoRecipientData> GetEnumerator()
 ```
 
-### Örnekler
+## Örnekler
 
 Adres-mektup birleştirmenin hangi birleştirme veri kaynağı kayıtlarını hariç tutacağını belirleyen veri koleksiyonuna nasıl erişileceğini gösterir.
 
@@ -55,7 +57,5 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * class [OdsoRecipientData](../../odsorecipientdata/)
 * class [OdsoRecipientDataCollection](../)
-* ad alanı [Aspose.Words.Settings](../../odsorecipientdatacollection/)
+* ad alanı [Aspose.Words.Settings](../../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../../)
-
-

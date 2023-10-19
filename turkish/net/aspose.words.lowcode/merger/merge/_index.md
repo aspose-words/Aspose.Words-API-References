@@ -1,12 +1,14 @@
 ---
 title: Merger.Merge
-second_title: Aspose.Words for .NET API Referansı
-description: Merger yöntem. Belirtilen giriş ve çıkış dosyası adlarını kullanarak verilen giriş belgelerini tek bir çıkış belgesinde birleştirir.
+linktitle: Merge
+articleTitle: Merge
+second_title: Aspose.Words for .NET
+description: Merger Merge yöntem. Belirtilen giriş ve çıkış dosyası adlarını kullanarak verilen giriş belgelerini tek bir çıkış belgesinde birleştirir C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.lowcode/merger/merge/
 ---
-## Merge(string, string[]) {#merge_4}
+## Merge(*string, string[]*) {#merge_4}
 
 Belirtilen giriş ve çıkış dosyası adlarını kullanarak verilen giriş belgelerini tek bir çıkış belgesinde birleştirir.
 
@@ -19,11 +21,11 @@ public static void Merge(string outputFile, string[] inputFiles)
 | outputFile | String | Çıkış dosyası adı. |
 | inputFiles | String[] | Giriş dosyası adları. |
 
-### Notlar
+## Notlar
 
 Varsayılan olarakKeepSourceFormatting kullanıldı.
 
-### Örnekler
+## Örnekler
 
 Belgelerin tek bir çıktı belgesinde nasıl birleştirileceğini gösterir.
 
@@ -42,12 +44,12 @@ doc.Save(ArtifactsDir + "LowCode.MergeDocument.DocumentInstance.docx");
 ### Ayrıca bakınız
 
 * class [Merger](../)
-* ad alanı [Aspose.Words.LowCode](../../merger/)
+* ad alanı [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## Merge(string, string[], SaveFormat, MergeFormatMode) {#merge_5}
+## Merge(*string, string[], [SaveFormat](../../../aspose.words/saveformat/), [MergeFormatMode](../../mergeformatmode/)*) {#merge_5}
 
 Belirtilen giriş çıkış dosyası adlarını ve son belge formatını kullanarak verilen giriş belgelerini tek bir çıkış belgesinde birleştirir.
 
@@ -63,7 +65,7 @@ public static void Merge(string outputFile, string[] inputFiles, SaveFormat save
 | saveFormat | SaveFormat | Kaydetme formatı. |
 | mergeFormatMode | MergeFormatMode | Çakışan biçimlendirmenin nasıl birleştirileceğini belirtir. |
 
-### Örnekler
+## Örnekler
 
 Belgelerin tek bir çıktı belgesinde nasıl birleştirileceğini gösterir.
 
@@ -84,12 +86,12 @@ doc.Save(ArtifactsDir + "LowCode.MergeDocument.DocumentInstance.docx");
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * enum [MergeFormatMode](../../mergeformatmode/)
 * class [Merger](../)
-* ad alanı [Aspose.Words.LowCode](../../merger/)
+* ad alanı [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## Merge(string, string[], SaveOptions, MergeFormatMode) {#merge_6}
+## Merge(*string, string[], [SaveOptions](../../../aspose.words.saving/saveoptions/), [MergeFormatMode](../../mergeformatmode/)*) {#merge_6}
 
 Belirtilen giriş çıkış dosyası adlarını ve kaydetme seçeneklerini kullanarak verilen giriş belgelerini tek bir çıkış belgesinde birleştirir.
 
@@ -105,7 +107,7 @@ public static void Merge(string outputFile, string[] inputFiles, SaveOptions sav
 | saveOptions | SaveOptions | Kaydetme seçenekleri. |
 | mergeFormatMode | MergeFormatMode | Çakışan biçimlendirmenin nasıl birleştirileceğini belirtir. |
 
-### Örnekler
+## Örnekler
 
 Belgelerin tek bir çıktı belgesinde nasıl birleştirileceğini gösterir.
 
@@ -126,12 +128,12 @@ doc.Save(ArtifactsDir + "LowCode.MergeDocument.DocumentInstance.docx");
 * class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * enum [MergeFormatMode](../../mergeformatmode/)
 * class [Merger](../)
-* ad alanı [Aspose.Words.LowCode](../../merger/)
+* ad alanı [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## Merge(string[], MergeFormatMode) {#merge_1}
+## Merge(*string[], [MergeFormatMode](../../mergeformatmode/)*) {#merge_1}
 
 Verilen giriş belgelerini tek bir belgede birleştirir ve döndürür[`Document`](../../../aspose.words/document/) son belgenin örneği.
 
@@ -144,7 +146,7 @@ public static Document Merge(string[] inputFiles, MergeFormatMode mergeFormatMod
 | inputFiles | String[] | Giriş dosyası adları. |
 | mergeFormatMode | MergeFormatMode | Çakışan biçimlendirmenin nasıl birleştirileceğini belirtir. |
 
-### Örnekler
+## Örnekler
 
 Belgelerin tek bir çıktı belgesinde nasıl birleştirileceğini gösterir.
 
@@ -165,12 +167,12 @@ doc.Save(ArtifactsDir + "LowCode.MergeDocument.DocumentInstance.docx");
 * class [Document](../../../aspose.words/document/)
 * enum [MergeFormatMode](../../mergeformatmode/)
 * class [Merger](../)
-* ad alanı [Aspose.Words.LowCode](../../merger/)
+* ad alanı [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## Merge(Stream, Stream[], SaveFormat) {#merge_2}
+## Merge(*Stream, Stream[], [SaveFormat](../../../aspose.words/saveformat/)*) {#merge_2}
 
 Belirtilen giriş çıkış akışlarını ve son belge formatını kullanarak verilen giriş belgelerini tek bir çıkış belgesinde birleştirir.
 
@@ -184,7 +186,7 @@ public static void Merge(Stream outputStream, Stream[] inputStreams, SaveFormat 
 | inputStreams | Stream[] | Giriş akışları. |
 | saveFormat | SaveFormat | Kaydetme formatı. |
 
-### Örnekler
+## Örnekler
 
 Akıştaki belgelerin tek bir çıktı belgesinde nasıl birleştirileceğini gösterir.
 
@@ -210,12 +212,12 @@ using (FileStream firstStreamIn = new FileStream(MyDir + "Big document.docx", Fi
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [Merger](../)
-* ad alanı [Aspose.Words.LowCode](../../merger/)
+* ad alanı [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## Merge(Stream, Stream[], SaveOptions, MergeFormatMode) {#merge_3}
+## Merge(*Stream, Stream[], [SaveOptions](../../../aspose.words.saving/saveoptions/), [MergeFormatMode](../../mergeformatmode/)*) {#merge_3}
 
 Belirtilen giriş çıkış akışlarını ve kaydetme seçeneklerini kullanarak verilen giriş belgelerini tek bir çıkış belgesinde birleştirir.
 
@@ -231,7 +233,7 @@ public static void Merge(Stream outputStream, Stream[] inputStreams, SaveOptions
 | saveOptions | SaveOptions | Kaydetme seçenekleri. |
 | mergeFormatMode | MergeFormatMode | Çakışan biçimlendirmenin nasıl birleştirileceğini belirtir. |
 
-### Örnekler
+## Örnekler
 
 Akıştaki belgelerin tek bir çıktı belgesinde nasıl birleştirileceğini gösterir.
 
@@ -258,12 +260,12 @@ using (FileStream firstStreamIn = new FileStream(MyDir + "Big document.docx", Fi
 * class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * enum [MergeFormatMode](../../mergeformatmode/)
 * class [Merger](../)
-* ad alanı [Aspose.Words.LowCode](../../merger/)
+* ad alanı [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## Merge(Stream[], MergeFormatMode) {#merge}
+## Merge(*Stream[], [MergeFormatMode](../../mergeformatmode/)*) {#merge}
 
 Verilen giriş belgelerini tek bir belgede birleştirir ve döndürür[`Document`](../../../aspose.words/document/) son belgenin örneği.
 
@@ -276,7 +278,7 @@ public static Document Merge(Stream[] inputStreams, MergeFormatMode mergeFormatM
 | inputStreams | Stream[] | Giriş akışları. |
 | mergeFormatMode | MergeFormatMode | Çakışan biçimlendirmenin nasıl birleştirileceğini belirtir. |
 
-### Örnekler
+## Örnekler
 
 Akıştaki belgelerin tek bir çıktı belgesinde nasıl birleştirileceğini gösterir.
 
@@ -303,7 +305,5 @@ using (FileStream firstStreamIn = new FileStream(MyDir + "Big document.docx", Fi
 * class [Document](../../../aspose.words/document/)
 * enum [MergeFormatMode](../../mergeformatmode/)
 * class [Merger](../)
-* ad alanı [Aspose.Words.LowCode](../../merger/)
+* ad alanı [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
 * toplantı [Aspose.Words](../../../)
-
-

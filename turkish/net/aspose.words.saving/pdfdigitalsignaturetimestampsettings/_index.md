@@ -1,7 +1,9 @@
 ---
-title: Class PdfDigitalSignatureTimestampSettings
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Saving.PdfDigitalSignatureTimestampSettings sınıf. Dijital imza zaman damgasının ayarlarını içerir.
+title: PdfDigitalSignatureTimestampSettings Class
+linktitle: PdfDigitalSignatureTimestampSettings
+articleTitle: PdfDigitalSignatureTimestampSettings
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Saving.PdfDigitalSignatureTimestampSettings sınıf. Dijital imza zaman damgasının ayarlarını içerir C#'da.
 type: docs
 weight: 5450
 url: /tr/net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/
@@ -21,8 +23,8 @@ public class PdfDigitalSignatureTimestampSettings
 | İsim | Tanım |
 | --- | --- |
 | [PdfDigitalSignatureTimestampSettings](pdfdigitalsignaturetimestampsettings/#constructor)() | Bu sınıfın bir örneğini başlatır. |
-| [PdfDigitalSignatureTimestampSettings](pdfdigitalsignaturetimestampsettings/#constructor_1)(string, string, string) | Bu sınıfın bir örneğini başlatır. |
-| [PdfDigitalSignatureTimestampSettings](pdfdigitalsignaturetimestampsettings/#constructor_2)(string, string, string, TimeSpan) | Bu sınıfın bir örneğini başlatır. |
+| [PdfDigitalSignatureTimestampSettings](pdfdigitalsignaturetimestampsettings/#constructor_1)(*string, string, string*) | Bu sınıfın bir örneğini başlatır. |
+| [PdfDigitalSignatureTimestampSettings](pdfdigitalsignaturetimestampsettings/#constructor_2)(*string, string, string, TimeSpan*) | Bu sınıfın bir örneğini başlatır. |
 
 ## Özellikleri
 
@@ -33,7 +35,7 @@ public class PdfDigitalSignatureTimestampSettings
 | [Timeout](../../aspose.words.saving/pdfdigitalsignaturetimestampsettings/timeout/) { get; set; } | Zaman damgası sunucusuna erişim için zaman aşımı değeri. |
 | [UserName](../../aspose.words.saving/pdfdigitalsignaturetimestampsettings/username/) { get; set; } | Zaman damgası sunucusu kullanıcı adı. |
 
-### Örnekler
+## Örnekler
 
 Kaydedilmiş bir PDF belgesinin dijital olarak nasıl imzalanacağını ve ona zaman damgasının nasıl damgalanacağını gösterir.
 
@@ -74,5 +76,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", optio
 
 * ad alanı [Aspose.Words.Saving](../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class FieldNextIf
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Fields.FieldNextIf sınıf. NEXTIF alanını uygular.
+title: FieldNextIf Class
+linktitle: FieldNextIf
+articleTitle: FieldNextIf
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Fields.FieldNextIf sınıf. NEXTIF alanını uygular C#'da.
 type: docs
 weight: 2190
 url: /tr/net/aspose.words.fields/fieldnextif/
@@ -45,17 +47,17 @@ public class FieldNextIf : Field
 | İsim | Tanım |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Alan başlangıcı ile alan ayırıcı (veya ayırıcı yoksa alan sonu) arasındaki metni döndürür. Alt alanların hem alan kodu hem de alan sonucu dahil edilir. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Alan başlangıcı ile alan ayırıcı (veya ayırıcı yoksa alan sonu) arasındaki metni döndürür. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Alan başlangıcı ile alan ayırıcı (veya ayırıcı yoksa alan sonu) arasındaki metni döndürür. |
 | [Remove](../../aspose.words.fields/field/remove/)() | Alanı belgeden kaldırır. Alanın hemen ardından bir düğüm döndürür. Alanın sonu, üst düğümünün son child 'si ise, üst paragrafını döndürür. Alan zaten kaldırılmışsa şunu döndürür:`hükümsüz` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Alanın bağlantısını kaldırır. |
 | [Update](../../aspose.words.fields/field/update/)() | Alan güncellemesini gerçekleştirir. Alan zaten güncelleniyorsa atar. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Bir alan güncellemesi gerçekleştirir. Alan zaten güncelleniyorsa atar. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Bir alan güncellemesi gerçekleştirir. Alan zaten güncelleniyorsa atar. |
 
-### Notlar
+## Notlar
 
 İfadelerin belirlediği değerleri karşılaştırır[`LeftExpression`](./leftexpression/) Ve[`RightExpression`](./rightexpression/) ile belirtilen operatör kullanılarak karşılaştırıldığında[`ComparisonOperator`](./comparisonoperator/) . Karşılaştırma doğruysa, sonraki veri kaydı geçerli birleştirme belgesiyle birleştirilir. (Main belgesinde NEXTIF'i takip eden birleştirme alanları, geçerli veri kaydı yerine sonraki veri kaydındaki değerlerle değiştirilir.) Karşılaştırma yanlışsa, sonraki veri kaydı yeni bir birleştirme belgesinde birleştirilir.
 
-### Örnekler
+## Örnekler
 
 Adres-mektup birleştirme sırasında birden çok satırı tek sayfada birleştirmek için NEXT/NEXTIF alanlarının nasıl kullanılacağını gösterir.
 
@@ -139,5 +141,3 @@ public void InsertMergeField(DocumentBuilder builder, string fieldName, string t
 * class [Field](../field/)
 * ad alanı [Aspose.Words.Fields](../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: UserInformation.Name
-second_title: Aspose.Words for .NET API Referansı
-description: UserInformation mülk. Kullanıcının adını alır veya ayarlar.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words for .NET
+description: UserInformation Name mülk. Kullanıcının adını alır veya ayarlar C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.fields/userinformation/name/
@@ -14,7 +16,7 @@ Kullanıcının adını alır veya ayarlar.
 public string Name { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Kullanıcı ayrıntılarının nasıl ayarlanacağını ve alanları kullanarak bunların nasıl görüntüleneceğini gösterir.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "FieldOptions.CurrentUser.docx");
 ### Ayrıca bakınız
 
 * class [UserInformation](../)
-* ad alanı [Aspose.Words.Fields](../../userinformation/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

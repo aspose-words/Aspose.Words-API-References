@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.CanHaveImage
-second_title: Aspose.Words for .NET API Referansı
-description: ShapeBase mülk. İadelerdoğru şekil türü şeklin bir resme sahip olmasına izin veriyorsa.
+linktitle: CanHaveImage
+articleTitle: CanHaveImage
+second_title: Aspose.Words for .NET
+description: ShapeBase CanHaveImage mülk. İadelerdoğru şekil türü şeklin bir resme sahip olmasına izin veriyorsa C#'da.
 type: docs
 weight: 100
 url: /tr/net/aspose.words.drawing/shapebase/canhaveimage/
@@ -14,11 +16,11 @@ url: /tr/net/aspose.words.drawing/shapebase/canhaveimage/
 public bool CanHaveImage { get; }
 ```
 
-### Notlar
+## Notlar
 
 Microsoft Word'ün görüntüler için özel bir şekil türü olmasına rağmen, Microsoft Word belgelerinde grup şekli dışındaki herhangi bir şekil 'nin bir görüntüye sahip olabileceği görülmektedir, bu nedenle bu özellik şunu döndürür:`doğru` hariç tüm şekiller için[`GroupShape`](../../groupshape/).
 
-### Örnekler
+## Örnekler
 
 Bir görüntünün nasıl ekleneceğini ve döndürüleceğini gösterir.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Shape.Rotate.docx");
 ### Ayrıca bakınız
 
 * class [ShapeBase](../)
-* ad alanı [Aspose.Words.Drawing](../../shapebase/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: OfficeMath.Accept
-second_title: Aspose.Words for .NET API Referansı
-description: OfficeMath yöntem. Ziyaretçi kabul eder.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words for .NET
+description: OfficeMath Accept yöntem. Ziyaretçi kabul eder C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.math/officemath/accept/
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 Tüm düğümler ziyaret edilmişse doğrudur; yanlış ise[`DocumentVisitor`](../../../aspose.words/documentvisitor/) tüm düğümleri ziyaret etmeden işlemi durdurdu.
 
-### Notlar
+## Notlar
 
 Bu düğümü ve tüm alt öğelerini numaralandırır. Her düğüm kendisine karşılık gelen bir yöntemi çağırır.[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
@@ -30,7 +32,7 @@ Daha fazla bilgi için Ziyaretçi tasarım desenine bakın.
 
 Çağrılar[`VisitOfficeMathStart`](../../../aspose.words/documentvisitor/visitofficemathstart/) , ardından arar[`Accept`](../../../aspose.words/node/accept/) Office Math'ın all alt düğümleri ve çağrıları için[`VisitOfficeMathEnd`](../../../aspose.words/documentvisitor/visitofficemathend/) sonunda.
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki her ofis matematik düğümünün düğüm yapısının nasıl yazdırılacağını gösterir.
 
@@ -123,7 +125,5 @@ public class OfficeMathStructurePrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * class [OfficeMath](../)
-* ad alanı [Aspose.Words.Math](../../officemath/)
+* ad alanı [Aspose.Words.Math](../../../aspose.words.math/)
 * toplantı [Aspose.Words](../../../)
-
-

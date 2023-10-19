@@ -1,7 +1,9 @@
 ---
-title: Interface IFieldUserPromptRespondent
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Fields.IFieldUserPromptRespondent arayüz. Alan güncellemesi sırasında kullanıcı istemlerine yanıt veren kişiyi temsil eder.
+title: IFieldUserPromptRespondent Interface
+linktitle: IFieldUserPromptRespondent
+articleTitle: IFieldUserPromptRespondent
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Fields.IFieldUserPromptRespondent arayüz. Alan güncellemesi sırasında kullanıcı istemlerine yanıt veren kişiyi temsil eder C#'da.
 type: docs
 weight: 2740
 url: /tr/net/aspose.words.fields/ifielduserpromptrespondent/
@@ -18,13 +20,13 @@ public interface IFieldUserPromptRespondent
 
 | İsim | Tanım |
 | --- | --- |
-| [Respond](../../aspose.words.fields/ifielduserpromptrespondent/respond/)(string, string) | Uygulandığında, istem üzerine kullanıcıdan bir yanıt döndürür. Uygulamanız geri dönmelidir`hükümsüz` kullanıcının istem 'ye yanıt vermediğini belirtmek için (yani kullanıcı bilgi istemi penceresinde İptal düğmesine basmıştır). |
+| [Respond](../../aspose.words.fields/ifielduserpromptrespondent/respond/)(*string, string*) | Uygulandığında, istem üzerine kullanıcıdan bir yanıt döndürür. Uygulamanız geri dönmelidir`hükümsüz` kullanıcının istem 'ye yanıt vermediğini belirtmek için (yani kullanıcı bilgi istemi penceresinde İptal düğmesine basmıştır). |
 
-### Notlar
+## Notlar
 
 ASK ve FILLIN alanları kullanıcıdan yanıt isteyen alanlara örnektir. Bu arayüz 'yi uygulayın ve ona atayın.[`UserPromptRespondent`](../fieldoptions/userpromptrespondent/) update alanı ile kullanıcı. arasında etkileşim kurma özelliği
 
-### Örnekler
+## Örnekler
 
 ASK alanının nasıl oluşturulacağını ve özelliklerinin nasıl ayarlanacağını gösterir.
 
@@ -87,5 +89,3 @@ private class MyPromptRespondent : IFieldUserPromptRespondent
 
 * ad alanı [Aspose.Words.Fields](../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../)
-
-

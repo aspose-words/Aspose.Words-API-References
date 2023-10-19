@@ -1,7 +1,9 @@
 ---
 title: GeneralFormatCollection.Count
-second_title: Aspose.Words for .NET API Referansı
-description: GeneralFormatCollection mülk. Koleksiyondaki öğelerin toplam sayısını alır.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words for .NET
+description: GeneralFormatCollection Count mülk. Koleksiyondaki öğelerin toplam sayısını alır C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/generalformatcollection/count/
@@ -14,7 +16,7 @@ Koleksiyondaki öğelerin toplam sayısını alır.
 public int Count { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Alan sonuçlarının nasıl biçimlendirileceğini gösterir.
 
@@ -78,7 +80,5 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 ### Ayrıca bakınız
 
 * class [GeneralFormatCollection](../)
-* ad alanı [Aspose.Words.Fields](../../generalformatcollection/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

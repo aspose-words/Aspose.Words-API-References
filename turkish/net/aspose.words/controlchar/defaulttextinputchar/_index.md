@@ -1,7 +1,9 @@
 ---
 title: ControlChar.DefaultTextInputChar
-second_title: Aspose.Words for .NET API Referansı
-description: ControlChar alan. Metin giriş formu alanlarında varsayılan değer olarak kullanılan o karakteridir.
+linktitle: DefaultTextInputChar
+articleTitle: DefaultTextInputChar
+second_title: Aspose.Words for .NET
+description: ControlChar DefaultTextInputChar alan. Metin giriş formu alanlarında varsayılan değer olarak kullanılan o karakteridir C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words/controlchar/defaulttextinputchar/
@@ -14,7 +16,7 @@ Metin giriş formu alanlarında varsayılan değer olarak kullanılan "o" karakt
 public const char DefaultTextInputChar;
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgeye çeşitli kontrol karakterlerinin nasıl ekleneceğini gösterir.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Ayrıca bakınız
 
 * class [ControlChar](../)
-* ad alanı [Aspose.Words](../../controlchar/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

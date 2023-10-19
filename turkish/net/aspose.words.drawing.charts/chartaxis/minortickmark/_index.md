@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.MinorTickMark
-second_title: Aspose.Words for .NET API Referansı
-description: ChartAxis mülk. Eksen için küçük onay işaretlerini döndürür veya ayarlar.
+linktitle: MinorTickMark
+articleTitle: MinorTickMark
+second_title: Aspose.Words for .NET
+description: ChartAxis MinorTickMark mülk. Eksen için küçük onay işaretlerini döndürür veya ayarlar C#'da.
 type: docs
 weight: 150
 url: /tr/net/aspose.words.drawing.charts/chartaxis/minortickmark/
@@ -14,7 +16,7 @@ Eksen için küçük onay işaretlerini döndürür veya ayarlar.
 public AxisTickMark MinorTickMark { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Grafiğin nasıl ekleneceğini ve eksenlerinin görünümünün nasıl değiştirileceğini gösterir.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 
 * enum [AxisTickMark](../../axistickmark/)
 * class [ChartAxis](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

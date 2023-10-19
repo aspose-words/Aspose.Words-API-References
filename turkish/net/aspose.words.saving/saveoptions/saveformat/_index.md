@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.SaveFormat
-second_title: Aspose.Words for .NET API Referansı
-description: SaveOptions mülk. Bu kaydetme seçenekleri nesnesi kullanılırsa belgenin kaydedileceği biçimi belirtir.
+linktitle: SaveFormat
+articleTitle: SaveFormat
+second_title: Aspose.Words for .NET
+description: SaveOptions SaveFormat mülk. Bu kaydetme seçenekleri nesnesi kullanılırsa belgenin kaydedileceği biçimi belirtir C#'da.
 type: docs
 weight: 130
 url: /tr/net/aspose.words.saving/saveoptions/saveformat/
@@ -14,7 +16,7 @@ Bu kaydetme seçenekleri nesnesi kullanılırsa belgenin kaydedileceği biçimi 
 public abstract SaveFormat SaveFormat { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi .epub'a kaydederken belirli bir kodlamanın nasıl kullanılacağını gösterir.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions)
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [SaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../saveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

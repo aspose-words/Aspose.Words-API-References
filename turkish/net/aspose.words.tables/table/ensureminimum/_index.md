@@ -1,9 +1,11 @@
 ---
 title: Table.EnsureMinimum
-second_title: Aspose.Words for .NET API Referansı
-description: Table yöntem. Tabloda hiç satır yoksa bir tane oluşturur ve eklerRow .
+linktitle: EnsureMinimum
+articleTitle: EnsureMinimum
+second_title: Aspose.Words for .NET
+description: Table EnsureMinimum yöntem. Tabloda hiç satır yoksa bir tane oluşturur ve eklerRow  C#'da.
 type: docs
-weight: 420
+weight: 400
 url: /tr/net/aspose.words.tables/table/ensureminimum/
 ---
 ## Table.EnsureMinimum method
@@ -14,7 +16,7 @@ Tabloda hiç satır yoksa bir tane oluşturur ve ekler[`Row`](../../row/) .
 public void EnsureMinimum()
 ```
 
-### Örnekler
+## Örnekler
 
 Bir tablo düğümünün içerik eklemek için ihtiyaç duyduğumuz düğümleri içerdiğinden nasıl emin olacağımızı gösterir.
 
@@ -37,7 +39,5 @@ table.FirstRow.FirstCell.FirstParagraph.AppendChild(new Run(doc, "Hello world!")
 ### Ayrıca bakınız
 
 * class [Table](../)
-* ad alanı [Aspose.Words.Tables](../../table/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

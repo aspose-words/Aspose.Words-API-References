@@ -1,7 +1,9 @@
 ---
 title: PageSetup.PaperSize
-second_title: Aspose.Words for .NET API Referansı
-description: PageSetup mülk. Kağıt boyutunu döndürür veya ayarlar.
+linktitle: PaperSize
+articleTitle: PaperSize
+second_title: Aspose.Words for .NET
+description: PageSetup PaperSize mülk. Kağıt boyutunu döndürür veya ayarlar C#'da.
 type: docs
 weight: 350
 url: /tr/net/aspose.words/pagesetup/papersize/
@@ -14,11 +16,11 @@ Kağıt boyutunu döndürür veya ayarlar.
 public PaperSize PaperSize { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özellik güncellemelerini ayarlama[`PageWidth`](../pagewidth/) Ve[`PageHeight`](../pageheight/) değerler. Bu değer şu şekilde ayarlanıyor:Custom mevcut değerleri değiştirmez.
 
-### Örnekler
+## Örnekler
 
 Bir bölüm için kağıt boyutunun, yönünün, kenar boşluklarının ve diğer ayarların nasıl ayarlanacağını gösterir.
 
@@ -129,7 +131,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * enum [PaperSize](../../papersize/)
 * class [PageSetup](../)
-* ad alanı [Aspose.Words](../../pagesetup/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

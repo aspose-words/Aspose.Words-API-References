@@ -1,7 +1,9 @@
 ---
 title: ChartLegendEntryCollection.Count
-second_title: Aspose.Words for .NET API Referansı
-description: ChartLegendEntryCollection mülk. Sayıyı döndürürChartLegendEntry bu koleksiyonda.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words for .NET
+description: ChartLegendEntryCollection Count mülk. Sayıyı döndürürChartLegendEntry bu koleksiyonda C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.drawing.charts/chartlegendentrycollection/count/
@@ -17,7 +19,5 @@ public int Count { get; }
 ### Ayrıca bakınız
 
 * class [ChartLegendEntryCollection](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartlegendentrycollection/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

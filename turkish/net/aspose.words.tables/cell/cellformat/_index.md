@@ -1,7 +1,9 @@
 ---
 title: Cell.CellFormat
-second_title: Aspose.Words for .NET API Referansı
-description: Cell mülk. Hücrenin biçimlendirme özelliklerine erişim sağlar.
+linktitle: CellFormat
+articleTitle: CellFormat
+second_title: Aspose.Words for .NET
+description: Cell CellFormat mülk. Hücrenin biçimlendirme özelliklerine erişim sağlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.tables/cell/cellformat/
@@ -14,7 +16,7 @@ Hücrenin biçimlendirme özelliklerine erişim sağlar.
 public CellFormat CellFormat { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir tablo hücresinin formatının nasıl değiştirileceğini gösterir.
 
@@ -89,7 +91,5 @@ doc.Save(ArtifactsDir + "Table.RowCellFormat.docx");
 
 * class [CellFormat](../../cellformat/)
 * class [Cell](../)
-* ad alanı [Aspose.Words.Tables](../../cell/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

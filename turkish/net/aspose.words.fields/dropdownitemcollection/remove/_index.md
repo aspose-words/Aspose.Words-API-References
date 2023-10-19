@@ -1,7 +1,9 @@
 ---
 title: DropDownItemCollection.Remove
-second_title: Aspose.Words for .NET API Referansı
-description: DropDownItemCollection yöntem. Belirtilen değeri koleksiyondan kaldırır.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words for .NET
+description: DropDownItemCollection Remove yöntem. Belirtilen değeri koleksiyondan kaldırır C#'da.
 type: docs
 weight: 90
 url: /tr/net/aspose.words.fields/dropdownitemcollection/remove/
@@ -18,7 +20,7 @@ public void Remove(string name)
 | --- | --- | --- |
 | name | String | Kaldırılacak büyük/küçük harfe duyarlı değer. |
 
-### Örnekler
+## Örnekler
 
 Açılan kutu alanının nasıl ekleneceğini ve öğe koleksiyonundaki öğelerin nasıl düzenleneceğini gösterir.
 
@@ -72,7 +74,5 @@ dropDownItems.Clear();
 ### Ayrıca bakınız
 
 * class [DropDownItemCollection](../)
-* ad alanı [Aspose.Words.Fields](../../dropdownitemcollection/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

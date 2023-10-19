@@ -1,9 +1,11 @@
 ---
 title: Comment.Accept
-second_title: Aspose.Words for .NET API Referansı
-description: Comment yöntem. Ziyaretçi kabul eder.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words for .NET
+description: Comment Accept yöntem. Ziyaretçi kabul eder C#'da.
 type: docs
-weight: 120
+weight: 110
 url: /tr/net/aspose.words/comment/accept/
 ---
 ## Comment.Accept method
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 Tüm düğümler ziyaret edilmişse doğrudur; yanlış ise[`DocumentVisitor`](../../documentvisitor/) tüm düğümleri ziyaret etmeden işlemi durdurdu.
 
-### Notlar
+## Notlar
 
 Bu düğümü ve tüm alt öğelerini numaralandırır. Her düğüm kendisine karşılık gelen bir yöntemi çağırır.[`DocumentVisitor`](../../documentvisitor/).
 
@@ -30,7 +32,7 @@ Daha fazla bilgi için Ziyaretçi tasarım desenine bakın.
 
 Çağrılar[`VisitCommentStart`](../../documentvisitor/visitcommentstart/) , ardından arar[`Accept`](../../node/accept/) yorumun ve çağrıların all alt düğümleri için[`VisitCommentEnd`](../../documentvisitor/visitcommentend/) sonunda.
 
-### Örnekler
+## Örnekler
 
 Bir belge ziyaretçisi kullanılarak tüm yorumların içeriğinin ve yorum aralıklarının nasıl yazdırıldığını gösterir.
 
@@ -192,7 +194,5 @@ public class CommentInfoPrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../documentvisitor/)
 * class [Comment](../)
-* ad alanı [Aspose.Words](../../comment/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

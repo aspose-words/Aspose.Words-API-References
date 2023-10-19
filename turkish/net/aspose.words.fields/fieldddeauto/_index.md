@@ -1,7 +1,9 @@
 ---
-title: Class FieldDdeAuto
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Fields.FieldDdeAuto sınıf. DDEAUTO alanını uygular.
+title: FieldDdeAuto Class
+linktitle: FieldDdeAuto
+articleTitle: FieldDdeAuto
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Fields.FieldDdeAuto sınıf. DDEAUTO alanını uygular C#'da.
 type: docs
 weight: 1790
 url: /tr/net/aspose.words.fields/fieldddeauto/
@@ -52,17 +54,17 @@ public class FieldDdeAuto : Field
 | İsim | Tanım |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Alan başlangıcı ile alan ayırıcı (veya ayırıcı yoksa alan sonu) arasındaki metni döndürür. Alt alanların hem alan kodu hem de alan sonucu dahil edilir. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Alan başlangıcı ile alan ayırıcı (veya ayırıcı yoksa alan sonu) arasındaki metni döndürür. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Alan başlangıcı ile alan ayırıcı (veya ayırıcı yoksa alan sonu) arasındaki metni döndürür. |
 | [Remove](../../aspose.words.fields/field/remove/)() | Alanı belgeden kaldırır. Alanın hemen ardından bir düğüm döndürür. Alanın sonu, üst düğümünün son child 'si ise, üst paragrafını döndürür. Alan zaten kaldırılmışsa şunu döndürür:`hükümsüz` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Alanın bağlantısını kaldırır. |
 | [Update](../../aspose.words.fields/field/update/)() | Alan güncellemesini gerçekleştirir. Alan zaten güncelleniyorsa atar. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Bir alan güncellemesi gerçekleştirir. Alan zaten güncelleniyorsa atar. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Bir alan güncellemesi gerçekleştirir. Alan zaten güncelleniyorsa atar. |
 
-### Notlar
+## Notlar
 
 Başka bir uygulamadan kopyalanan bilgiler için bu alan, bu bilgiyi DDE kullanarak orijinal kaynak dosyasına bağlar ve otomatik olarak güncellenir.
 
-### Örnekler
+## Örnekler
 
 Yerel dosya sistemindeki diğer belgelere bağlanmak ve içeriklerini görüntülemek için çeşitli alan türlerinin nasıl kullanılacağını gösterir.
 
@@ -247,5 +249,3 @@ public enum InsertLinkedObjectAs
 * class [Field](../field/)
 * ad alanı [Aspose.Words.Fields](../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../)
-
-

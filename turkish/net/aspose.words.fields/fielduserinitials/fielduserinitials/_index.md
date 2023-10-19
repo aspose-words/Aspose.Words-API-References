@@ -1,7 +1,9 @@
 ---
-title: FieldUserInitials.FieldUserInitials
-second_title: Aspose.Words for .NET API Referansı
-description: FieldUserInitials inşaatçı. Default_Constructor
+title: FieldUserInitials
+linktitle: FieldUserInitials
+articleTitle: FieldUserInitials
+second_title: Aspose.Words for .NET
+description: FieldUserInitials inşaatçı. Default_Constructor C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fielduserinitials/fielduserinitials/
@@ -17,7 +19,5 @@ public FieldUserInitials()
 ### Ayrıca bakınız
 
 * class [FieldUserInitials](../)
-* ad alanı [Aspose.Words.Fields](../../fielduserinitials/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FontSettings.SetFontsFolder
-second_title: Aspose.Words for .NET API Referansı
-description: FontSettings yöntem. Aspose.Wordsün belgeleri oluştururken veya yazı tiplerini gömerken TrueType yazı tiplerini aradığı klasörü ayarlar. BuSetFontsFolders yalnızca bir yazı tipi dizini ayarlamak için.
+linktitle: SetFontsFolder
+articleTitle: SetFontsFolder
+second_title: Aspose.Words for .NET
+description: FontSettings SetFontsFolder yöntem. Aspose.Wordsün belgeleri oluştururken veya yazı tiplerini gömerken TrueType yazı tiplerini aradığı klasörü ayarlar. BuSetFontsFolders yalnızca bir yazı tipi dizini ayarlamak için C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words.fonts/fontsettings/setfontsfolder/
@@ -19,7 +21,7 @@ public void SetFontsFolder(string fontFolder, bool recursive)
 | fontFolder | String | TrueType yazı tiplerini içeren klasör. |
 | recursive | Boolean | Yazı tipleri için belirtilen klasörleri yinelemeli olarak taramak için True. |
 
-### Örnekler
+## Örnekler
 
 Bir yazı tipi kaynak dizininin nasıl ayarlanacağını gösterir.
 
@@ -78,7 +80,5 @@ FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 ### Ayrıca bakınız
 
 * class [FontSettings](../)
-* ad alanı [Aspose.Words.Fonts](../../fontsettings/)
+* ad alanı [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../../)
-
-

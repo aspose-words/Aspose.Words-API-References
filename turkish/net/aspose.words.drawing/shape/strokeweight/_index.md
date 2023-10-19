@@ -1,7 +1,9 @@
 ---
 title: Shape.StrokeWeight
-second_title: Aspose.Words for .NET API Referansı
-description: Shape mülk. Bir şeklin yolunu nokta olarak konturlayan fırça kalınlığını tanımlar.
+linktitle: StrokeWeight
+articleTitle: StrokeWeight
+second_title: Aspose.Words for .NET
+description: Shape StrokeWeight mülk. Bir şeklin yolunu nokta olarak konturlayan fırça kalınlığını tanımlar C#'da.
 type: docs
 weight: 210
 url: /tr/net/aspose.words.drawing/shape/strokeweight/
@@ -14,13 +16,13 @@ Bir şeklin yolunu nokta olarak konturlayan fırça kalınlığını tanımlar.
 public double StrokeWeight { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu, kısayol[`Weight`](../../stroke/weight/) mülk.
 
 Varsayılan değer 0,75'tir.
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki tüm şekillerin nasıl yineleneceğini gösterir.
 
@@ -143,7 +145,5 @@ private class ShapeAppearancePrinter : DocumentVisitor
 ### Ayrıca bakınız
 
 * class [Shape](../)
-* ad alanı [Aspose.Words.Drawing](../../shape/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

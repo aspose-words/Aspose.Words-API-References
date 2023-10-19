@@ -1,7 +1,9 @@
 ---
 title: OutlineOptions.DefaultBookmarksOutlineLevel
-second_title: Aspose.Words for .NET API Referansı
-description: OutlineOptions mülk. Belge anahattında Word yer işaretlerinin görüntüleneceği varsayılan düzeyi belirtir.
+linktitle: DefaultBookmarksOutlineLevel
+articleTitle: DefaultBookmarksOutlineLevel
+second_title: Aspose.Words for .NET
+description: OutlineOptions DefaultBookmarksOutlineLevel mülk. Belge anahattında Word yer işaretlerinin görüntüleneceği varsayılan düzeyi belirtir C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.saving/outlineoptions/defaultbookmarksoutlinelevel/
@@ -14,7 +16,7 @@ Belge anahattında Word yer işaretlerinin görüntüleneceği varsayılan düze
 public int DefaultBookmarksOutlineLevel { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bireysel yer imlerinin düzeyi kullanılarak belirtilebilir.[`BookmarksOutlineLevels`](../bookmarksoutlinelevels/) mülk.
 
@@ -22,7 +24,7 @@ Bireysel yer imlerinin düzeyi kullanılarak belirtilebilir.[`BookmarksOutlineLe
 
 Varsayılan 0'dır. Geçerli aralık 0 ila 9'dur.
 
-### Örnekler
+## Örnekler
 
 PDF'ye dönüştürdüğümüz bir belgedeki üstbilgi/altbilgilerdeki yer işaretlerinin işlenmesini gösterir.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.HeaderFooterBookmarksExportMode.pdf", sa
 ### Ayrıca bakınız
 
 * class [OutlineOptions](../)
-* ad alanı [Aspose.Words.Saving](../../outlineoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

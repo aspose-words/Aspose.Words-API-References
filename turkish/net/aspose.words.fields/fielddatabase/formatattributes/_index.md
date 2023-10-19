@@ -1,7 +1,9 @@
 ---
 title: FieldDatabase.FormatAttributes
-second_title: Aspose.Words for .NET API Referansı
-description: FieldDatabase mülk. Formatın hangi niteliklerinin tabloya uygulanacağını alır veya ayarlar.
+linktitle: FormatAttributes
+articleTitle: FormatAttributes
+second_title: Aspose.Words for .NET
+description: FieldDatabase FormatAttributes mülk. Formatın hangi niteliklerinin tabloya uygulanacağını alır veya ayarlar C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.fields/fielddatabase/formatattributes/
@@ -14,7 +16,7 @@ Formatın hangi niteliklerinin tabloya uygulanacağını alır veya ayarlar.
 public string FormatAttributes { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Veritabanından verinin nasıl çıkarılacağını ve bunun bir alan olarak belgeye nasıl ekleneceğini gösterir.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Field.DATABASE.docx");
 ### Ayrıca bakınız
 
 * class [FieldDatabase](../)
-* ad alanı [Aspose.Words.Fields](../../fielddatabase/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

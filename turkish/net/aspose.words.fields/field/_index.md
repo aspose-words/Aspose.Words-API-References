@@ -1,7 +1,9 @@
 ---
-title: Class Field
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Fields.Field sınıf. Bir Microsoft Word belge alanını temsil eder.
+title: Field Class
+linktitle: Field
+articleTitle: Field
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Fields.Field sınıf. Bir Microsoft Word belge alanını temsil eder C#'da.
 type: docs
 weight: 1510
 url: /tr/net/aspose.words.fields/field/
@@ -36,13 +38,13 @@ public class Field
 | İsim | Tanım |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/#getfieldcode)() | Alan başlangıcı ile alan ayırıcı (veya ayırıcı yoksa alan sonu) arasındaki metni döndürür. Alt alanların hem alan kodu hem de alan sonucu dahil edilir. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/#getfieldcode_1)(bool) | Alan başlangıcı ile alan ayırıcı (veya ayırıcı yoksa alan sonu) arasındaki metni döndürür. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/#getfieldcode_1)(*bool*) | Alan başlangıcı ile alan ayırıcı (veya ayırıcı yoksa alan sonu) arasındaki metni döndürür. |
 | [Remove](../../aspose.words.fields/field/remove/)() | Alanı belgeden kaldırır. Alanın hemen ardından bir düğüm döndürür. Alanın sonu, üst düğümünün son child 'si ise, üst paragrafını döndürür. Alan zaten kaldırılmışsa şunu döndürür:`hükümsüz` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Alanın bağlantısını kaldırır. |
 | [Update](../../aspose.words.fields/field/update/#update)() | Alan güncellemesini gerçekleştirir. Alan zaten güncelleniyorsa atar. |
-| [Update](../../aspose.words.fields/field/update/#update_1)(bool) | Bir alan güncellemesi gerçekleştirir. Alan zaten güncelleniyorsa atar. |
+| [Update](../../aspose.words.fields/field/update/#update_1)(*bool*) | Bir alan güncellemesi gerçekleştirir. Alan zaten güncelleniyorsa atar. |
 
-### Notlar
+## Notlar
 
 Bir Word belgesindeki alan, alan başlangıcı, alan kodu, alan ayırıcı, alan sonucu ve alan sonu içeren birden çok düğümden oluşan karmaşık bir yapıdır. Alanlar iç içe yerleştirilebilir, zengin içerik içerebilir ve bir belgede span birden fazla paragraf veya bölüm içerebilir.`Field` sınıf, bir alanla tek bir nesne olarak çalışmaya olanak tanıyan özelliklerini ve yöntemlerini sağlayan bir "cephe" nesnesidir.
 
@@ -56,7 +58,7 @@ Alan kodunun düz metin versiyonunu aşağıdaki komutu kullanarak alabilirsiniz
 
 Örneklerini oluşturmazsınız`Field` doğrudan sınıf. Yeni bir alan oluşturmak için şunu kullanın:[`InsertField`](../../aspose.words/documentbuilder/insertfield/) yöntem.
 
-### Örnekler
+## Örnekler
 
 Alan kodu kullanarak belgeye nasıl alan ekleneceğini gösterir.
 
@@ -77,5 +79,3 @@ Assert.That(DateTime.Parse(field.Result), Is.EqualTo(DateTime.Today).Within(1).D
 
 * ad alanı [Aspose.Words.Fields](../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../)
-
-

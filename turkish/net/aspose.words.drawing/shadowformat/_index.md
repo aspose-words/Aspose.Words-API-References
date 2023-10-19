@@ -1,7 +1,9 @@
 ---
-title: Class ShadowFormat
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.ShadowFormat sınıf. Bir nesnenin gölge biçimlendirmesini temsil eder.
+title: ShadowFormat Class
+linktitle: ShadowFormat
+articleTitle: ShadowFormat
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.ShadowFormat sınıf. Bir nesnenin gölge biçimlendirmesini temsil eder C#'da.
 type: docs
 weight: 1230
 url: /tr/net/aspose.words.drawing/shadowformat/
@@ -33,5 +35,3 @@ public class ShadowFormat
 
 * ad alanı [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../)
-
-

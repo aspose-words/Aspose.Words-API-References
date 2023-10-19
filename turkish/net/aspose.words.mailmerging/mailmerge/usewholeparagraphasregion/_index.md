@@ -1,24 +1,26 @@
 ---
 title: MailMerge.UseWholeParagraphAsRegion
-second_title: Aspose.Words for .NET API Referansı
-description: MailMerge mülk. Paragrafın tamamının olup olmadığını belirten bir değer alır veya ayarlar. TabloBaşlangıcı veya Tablo Sonu field veya arasındaki belirli aralık TabloBaşlangıcı Ve Tablo Sonu alanlar adresmektup birleştirme bölgesine dahil edilmelidir.
+linktitle: UseWholeParagraphAsRegion
+articleTitle: UseWholeParagraphAsRegion
+second_title: Aspose.Words for .NET
+description: MailMerge UseWholeParagraphAsRegion mülk. Paragrafın tamamının olup olmadığını belirten bir değer alır veya ayarlar.TabloBaşlangıcı veyaTablo Sonu field veya arasındaki belirli aralıkTabloBaşlangıcı VeTablo Sonu alanlar adresmektup birleştirme bölgesine dahil edilmelidir C#'da.
 type: docs
 weight: 160
 url: /tr/net/aspose.words.mailmerging/mailmerge/usewholeparagraphasregion/
 ---
 ## MailMerge.UseWholeParagraphAsRegion property
 
-Paragrafın tamamının olup olmadığını belirten bir değer alır veya ayarlar. **TabloBaşlangıcı** veya **Tablo Sonu** field veya arasındaki belirli aralık **TabloBaşlangıcı** Ve **Tablo Sonu** alanlar adres-mektup birleştirme bölgesine dahil edilmelidir.
+Paragrafın tamamının olup olmadığını belirten bir değer alır veya ayarlar.**TabloBaşlangıcı** veya**Tablo Sonu** field veya arasındaki belirli aralık**TabloBaşlangıcı** Ve**Tablo Sonu** alanlar adres-mektup birleştirme bölgesine dahil edilmelidir.
 
 ```csharp
 public bool UseWholeParagraphAsRegion { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:`doğru` .
 
-### Örnekler
+## Örnekler
 
 Adres-mektup birleştirme bölgeleri ve paragraflar arasındaki ilişkiyi gösterir.
 
@@ -85,7 +87,5 @@ private static DataTable CreateSourceTableDataTableForOneRegion()
 ### Ayrıca bakınız
 
 * class [MailMerge](../)
-* ad alanı [Aspose.Words.MailMerging](../../mailmerge/)
+* ad alanı [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * toplantı [Aspose.Words](../../../)
-
-

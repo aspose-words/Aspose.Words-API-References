@@ -1,7 +1,9 @@
 ---
 title: FieldToc.PageNumberOmittingLevelRange
-second_title: Aspose.Words for .NET API Referansı
-description: FieldToc mülk. Sayfa numaralarının atlanacağı içindekiler tablosu girişlerinin düzey aralığını alır veya ayarlar.
+linktitle: PageNumberOmittingLevelRange
+articleTitle: PageNumberOmittingLevelRange
+second_title: Aspose.Words for .NET
+description: FieldToc PageNumberOmittingLevelRange mülk. Sayfa numaralarının atlanacağı içindekiler tablosu girişlerinin düzey aralığını alır veya ayarlar C#'da.
 type: docs
 weight: 110
 url: /tr/net/aspose.words.fields/fieldtoc/pagenumberomittinglevelrange/
@@ -14,7 +16,7 @@ Sayfa numaralarının atlanacağı içindekiler tablosu girişlerinin düzey ara
 public string PageNumberOmittingLevelRange { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 İçindekiler tablosunun nasıl ekleneceğini ve başlık stillerine göre girdilerle nasıl doldurulacağını gösterir.
 
@@ -99,7 +101,5 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 ### Ayrıca bakınız
 
 * class [FieldToc](../)
-* ad alanı [Aspose.Words.Fields](../../fieldtoc/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

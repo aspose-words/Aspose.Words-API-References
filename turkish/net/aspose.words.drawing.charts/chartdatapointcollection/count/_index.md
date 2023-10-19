@@ -1,7 +1,9 @@
 ---
 title: ChartDataPointCollection.Count
-second_title: Aspose.Words for .NET API Referansı
-description: ChartDataPointCollection mülk. Sayıyı döndürürChartDataPoint bu koleksiyonda.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words for .NET
+description: ChartDataPointCollection Count mülk. Sayıyı döndürürChartDataPoint bu koleksiyonda C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.drawing.charts/chartdatapointcollection/count/
@@ -14,7 +16,7 @@ Sayıyı döndürür[`ChartDataPoint`](../../chartdatapoint/) bu koleksiyonda.
 public int Count { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Çizgi grafikte veri noktalarıyla nasıl çalışılacağını gösterir.
 
@@ -76,7 +78,5 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 ### Ayrıca bakınız
 
 * class [ChartDataPointCollection](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartdatapointcollection/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

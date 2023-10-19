@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.ShowRevisionMarks
-second_title: Aspose.Words for .NET API Referansı
-description: RevisionOptions mülk. Revizyon metninin özel biçimlendirme işaretlemesiyle işaretlenip işaretlenmeyeceğini belirtmeye izin verin. Varsayılan değerdoğru .
+linktitle: ShowRevisionMarks
+articleTitle: ShowRevisionMarks
+second_title: Aspose.Words for .NET
+description: RevisionOptions ShowRevisionMarks mülk. Revizyon metninin özel biçimlendirme işaretlemesiyle işaretlenip işaretlenmeyeceğini belirtmeye izin verin. Varsayılan değerdoğru  C#'da.
 type: docs
 weight: 190
 url: /tr/net/aspose.words.layout/revisionoptions/showrevisionmarks/
@@ -14,7 +16,7 @@ Revizyon metninin özel biçimlendirme işaretlemesiyle işaretlenip işaretlenm
 public bool ShowRevisionMarks { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Revizyonların görünümünün nasıl değiştirileceğini gösterir.
 
@@ -65,7 +67,5 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 ### Ayrıca bakınız
 
 * class [RevisionOptions](../)
-* ad alanı [Aspose.Words.Layout](../../revisionoptions/)
+* ad alanı [Aspose.Words.Layout](../../../aspose.words.layout/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class VbaModuleCollection
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Vba.VbaModuleCollection sınıf. Aşağıdakilerin bir koleksiyonunu temsil ederVbaModule nesneler.
+title: VbaModuleCollection Class
+linktitle: VbaModuleCollection
+articleTitle: VbaModuleCollection
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Vba.VbaModuleCollection sınıf. Aşağıdakilerin bir koleksiyonunu temsil ederVbaModule nesneler C#'da.
 type: docs
 weight: 6560
 url: /tr/net/aspose.words.vba/vbamodulecollection/
@@ -27,10 +29,10 @@ public sealed class VbaModuleCollection : IEnumerable<VbaModule>
 
 | İsim | Tanım |
 | --- | --- |
-| [Add](../../aspose.words.vba/vbamodulecollection/add/)(VbaModule) | Koleksiyona bir modül ekler. |
-| [Remove](../../aspose.words.vba/vbamodulecollection/remove/)(VbaModule) | Belirtilen modülü koleksiyondan kaldırır. |
+| [Add](../../aspose.words.vba/vbamodulecollection/add/)(*[VbaModule](../vbamodule/)*) | Koleksiyona bir modül ekler. |
+| [Remove](../../aspose.words.vba/vbamodulecollection/remove/)(*[VbaModule](../vbamodule/)*) | Belirtilen modülü koleksiyondan kaldırır. |
 
-### Örnekler
+## Örnekler
 
 Bir belgenin VBA proje bilgilerine nasıl erişileceğini gösterir.
 
@@ -63,5 +65,3 @@ vbaModules.Remove(vbaModules[2]);
 * class [VbaModule](../vbamodule/)
 * ad alanı [Aspose.Words.Vba](../../aspose.words.vba/)
 * toplantı [Aspose.Words](../../)
-
-

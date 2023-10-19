@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.DeletedTextEffect
-second_title: Aspose.Words for .NET API Referansı
-description: RevisionOptions mülk. Silinen içeriğe uygulanacak efektin belirtilmesine izin verirDeletion . Varsayılan değerStrikeThrough
+linktitle: DeletedTextEffect
+articleTitle: DeletedTextEffect
+second_title: Aspose.Words for .NET
+description: RevisionOptions DeletedTextEffect mülk. Silinen içeriğe uygulanacak efektin belirtilmesine izin verirDeletion . Varsayılan değerStrikeThrough C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.layout/revisionoptions/deletedtexteffect/
@@ -14,7 +16,7 @@ Silinen içeriğe uygulanacak efektin belirtilmesine izin verirDeletion . Varsay
 public RevisionTextEffect DeletedTextEffect { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Revizyonların görünümünün nasıl değiştirileceğini gösterir.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 
 * enum [RevisionTextEffect](../../revisiontexteffect/)
 * class [RevisionOptions](../)
-* ad alanı [Aspose.Words.Layout](../../revisionoptions/)
+* ad alanı [Aspose.Words.Layout](../../../aspose.words.layout/)
 * toplantı [Aspose.Words](../../../)
-
-

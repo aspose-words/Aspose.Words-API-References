@@ -1,7 +1,9 @@
 ---
-title: Class BookmarkCollection
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.BookmarkCollection sınıf. Bir koleksiyonBookmark belirtilen aralıktaki yer imlerini temsil eden nesneler.
+title: BookmarkCollection Class
+linktitle: BookmarkCollection
+articleTitle: BookmarkCollection
+second_title: Aspose.Words for .NET
+description: Aspose.Words.BookmarkCollection sınıf. Bir koleksiyonBookmark belirtilen aralıktaki yer imlerini temsil eden nesneler C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words/bookmarkcollection/
@@ -29,11 +31,11 @@ public class BookmarkCollection : IEnumerable<Bookmark>
 | --- | --- |
 | [Clear](../../aspose.words/bookmarkcollection/clear/)() | Bu koleksiyondaki ve belgedeki tüm yer işaretlerini kaldırır. |
 | [GetEnumerator](../../aspose.words/bookmarkcollection/getenumerator/)() | Bir numaralandırıcı nesnesini döndürür. |
-| [Remove](../../aspose.words/bookmarkcollection/remove/#remove)(Bookmark) | Belirtilen yer imini belgeden kaldırır. |
-| [Remove](../../aspose.words/bookmarkcollection/remove/#remove_1)(string) | Belirtilen ada sahip bir yer imini kaldırır. |
-| [RemoveAt](../../aspose.words/bookmarkcollection/removeat/)(int) | Belirtilen dizindeki yer imini kaldırır. |
+| [Remove](../../aspose.words/bookmarkcollection/remove/#remove)(*[Bookmark](../bookmark/)*) | Belirtilen yer imini belgeden kaldırır. |
+| [Remove](../../aspose.words/bookmarkcollection/remove/#remove_1)(*string*) | Belirtilen ada sahip bir yer imini kaldırır. |
+| [RemoveAt](../../aspose.words/bookmarkcollection/removeat/)(*int*) | Belirtilen dizindeki yer imini kaldırır. |
 
-### Örnekler
+## Örnekler
 
 Yer işaretlerinin nasıl ekleneceğini ve içeriklerinin nasıl güncelleneceğini gösterir.
 
@@ -124,5 +126,3 @@ public class BookmarkInfoPrinter : DocumentVisitor
 * class [Bookmark](../bookmark/)
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum WarningSource
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.WarningSource Sıralama. Belge yükleme veya kaydetme sırasında uyarı üreten modülü belirtir.
+title: WarningSource Enum
+linktitle: WarningSource
+articleTitle: WarningSource
+second_title: Aspose.Words for .NET
+description: Aspose.Words.WarningSource Sıralama. Belge yükleme veya kaydetme sırasında uyarı üreten modülü belirtir C#'da.
 type: docs
 weight: 6650
 url: /tr/net/aspose.words/warningsource/
@@ -51,5 +53,3 @@ public enum WarningSource
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

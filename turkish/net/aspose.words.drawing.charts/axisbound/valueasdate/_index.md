@@ -1,7 +1,9 @@
 ---
 title: AxisBound.ValueAsDate
-second_title: Aspose.Words for .NET API Referansı
-description: AxisBound mülk. Datetime olarak temsil edilen eksen sınırının değerini döndürür.
+linktitle: ValueAsDate
+articleTitle: ValueAsDate
+second_title: Aspose.Words for .NET
+description: AxisBound ValueAsDate mülk. Datetime olarak temsil edilen eksen sınırının değerini döndürür C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.drawing.charts/axisbound/valueasdate/
@@ -14,7 +16,7 @@ Datetime olarak temsil edilen eksen sınırının değerini döndürür.
 public DateTime ValueAsDate { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Özel eksen sınırlarının nasıl ayarlanacağını gösterir.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "Charts.AxisBound.docx");
 ### Ayrıca bakınız
 
 * class [AxisBound](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../axisbound/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

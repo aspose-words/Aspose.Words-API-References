@@ -1,7 +1,9 @@
 ---
 title: OdsoRecipientDataCollection.Add
-second_title: Aspose.Words for .NET API Referansı
-description: OdsoRecipientDataCollection yöntem. Bu koleksiyonun sonuna bir nesne ekler.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words for .NET
+description: OdsoRecipientDataCollection Add yöntem. Bu koleksiyonun sonuna bir nesne ekler C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.settings/odsorecipientdatacollection/add/
@@ -18,7 +20,7 @@ public int Add(OdsoRecipientData value)
 | --- | --- | --- |
 | value | OdsoRecipientData | Eklenecek nesne. Olamaz`hükümsüz`. |
 
-### Örnekler
+## Örnekler
 
 Adres-mektup birleştirmenin hangi birleştirme veri kaynağı kayıtlarını hariç tutacağını belirleyen veri koleksiyonuna nasıl erişileceğini gösterir.
 
@@ -59,7 +61,5 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * class [OdsoRecipientData](../../odsorecipientdata/)
 * class [OdsoRecipientDataCollection](../)
-* ad alanı [Aspose.Words.Settings](../../odsorecipientdatacollection/)
+* ad alanı [Aspose.Words.Settings](../../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../../)
-
-

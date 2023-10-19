@@ -1,7 +1,9 @@
 ---
 title: TxtSaveOptionsBase.ForcePageBreaks
-second_title: Aspose.Words for .NET API Referansı
-description: TxtSaveOptionsBase mülk. Dışa aktarma sırasında sayfa sonlarının korunup korunmayacağını belirtmenize olanak tanır.
+linktitle: ForcePageBreaks
+articleTitle: ForcePageBreaks
+second_title: Aspose.Words for .NET
+description: TxtSaveOptionsBase ForcePageBreaks mülk. Dışa aktarma sırasında sayfa sonlarının korunup korunmayacağını belirtmenize olanak tanır C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.saving/txtsaveoptionsbase/forcepagebreaks/
@@ -16,11 +18,11 @@ Varsayılan değer:`YANLIŞ`.
 public bool ForcePageBreaks { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özellik yalnızca belgeye açıkça eklenen sayfa sonlarını etkiler. MS Word'ün her sayfanın sonuna otomatik olarak eklediği sayfa sonlarıyla ilgisi yoktur.
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi düz metne dışa aktarırken sayfa sonlarının korunup korunmayacağının nasıl belirleneceğini gösterir.
 
@@ -56,7 +58,5 @@ Assert.AreEqual(forcePageBreaks ? 3 : 1, doc.PageCount);
 ### Ayrıca bakınız
 
 * class [TxtSaveOptionsBase](../)
-* ad alanı [Aspose.Words.Saving](../../txtsaveoptionsbase/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

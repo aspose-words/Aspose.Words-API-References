@@ -1,7 +1,9 @@
 ---
 title: FieldAsk.PromptOnceOnMailMerge
-second_title: Aspose.Words for .NET API Referansı
-description: FieldAsk mülk. Adresmektup birleştirme işlemi başına kullanıcı yanıtının bir kez alınması gerekip gerekmediğini alır veya ayarlar.
+linktitle: PromptOnceOnMailMerge
+articleTitle: PromptOnceOnMailMerge
+second_title: Aspose.Words for .NET
+description: FieldAsk PromptOnceOnMailMerge mülk. Adresmektup birleştirme işlemi başına kullanıcı yanıtının bir kez alınması gerekip gerekmediğini alır veya ayarlar C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.fields/fieldask/promptonceonmailmerge/
@@ -14,7 +16,7 @@ Adres-mektup birleştirme işlemi başına kullanıcı yanıtının bir kez alı
 public bool PromptOnceOnMailMerge { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 ASK alanının nasıl oluşturulacağını ve özelliklerinin nasıl ayarlanacağını gösterir.
 
@@ -76,7 +78,5 @@ private class MyPromptRespondent : IFieldUserPromptRespondent
 ### Ayrıca bakınız
 
 * class [FieldAsk](../)
-* ad alanı [Aspose.Words.Fields](../../fieldask/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

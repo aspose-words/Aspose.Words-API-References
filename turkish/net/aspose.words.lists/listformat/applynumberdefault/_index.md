@@ -1,7 +1,9 @@
 ---
 title: ListFormat.ApplyNumberDefault
-second_title: Aspose.Words for .NET API Referansı
-description: ListFormat yöntem. Yeni bir varsayılan numaralandırılmış liste başlatır ve bunu paragrafa uygular.
+linktitle: ApplyNumberDefault
+articleTitle: ApplyNumberDefault
+second_title: Aspose.Words for .NET
+description: ListFormat ApplyNumberDefault yöntem. Yeni bir varsayılan numaralandırılmış liste başlatır ve bunu paragrafa uygular C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.lists/listformat/applynumberdefault/
@@ -14,11 +16,11 @@ Yeni bir varsayılan numaralandırılmış liste başlatır ve bunu paragrafa uy
 public void ApplyNumberDefault()
 ```
 
-### Notlar
+## Notlar
 
 Bu, varsayılan numbered şablonunu kullanarak yeni bir liste oluşturan, bunu paragrafa uygulayan ve 1. liste düzeyini seçen bir kısayol yöntemidir.
 
-### Örnekler
+## Örnekler
 
 Madde işaretli ve numaralı listelerin nasıl oluşturulacağını gösterir.
 
@@ -103,7 +105,5 @@ doc.Save(ArtifactsDir + "Lists.ApplyDefaultBulletsAndNumbers.docx");
 ### Ayrıca bakınız
 
 * class [ListFormat](../)
-* ad alanı [Aspose.Words.Lists](../../listformat/)
+* ad alanı [Aspose.Words.Lists](../../../aspose.words.lists/)
 * toplantı [Aspose.Words](../../../)
-
-

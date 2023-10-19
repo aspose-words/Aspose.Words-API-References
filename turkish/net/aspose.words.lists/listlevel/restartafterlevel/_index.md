@@ -1,7 +1,9 @@
 ---
 title: ListLevel.RestartAfterLevel
-second_title: Aspose.Words for .NET API Referansı
-description: ListLevel mülk. Belirtilen liste düzeyi numaralandırmayı yeniden başlatmadan önce görünmesi gereken liste düzeyini ayarlar veya döndürür.
+linktitle: RestartAfterLevel
+articleTitle: RestartAfterLevel
+second_title: Aspose.Words for .NET
+description: ListLevel RestartAfterLevel mülk. Belirtilen liste düzeyi numaralandırmayı yeniden başlatmadan önce görünmesi gereken liste düzeyini ayarlar veya döndürür C#'da.
 type: docs
 weight: 100
 url: /tr/net/aspose.words.lists/listlevel/restartafterlevel/
@@ -14,11 +16,11 @@ Belirtilen liste düzeyi numaralandırmayı yeniden başlatmadan önce görünme
 public int RestartAfterLevel { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 -1 değeri numaralandırmanın devam edeceği anlamına gelir.
 
-### Örnekler
+## Örnekler
 
 Liste etiketlerini özelleştirmenin gelişmiş yollarını gösterir.
 
@@ -79,7 +81,5 @@ doc.Save(ArtifactsDir + "Lists.CreateListRestartAfterHigher.docx");
 ### Ayrıca bakınız
 
 * class [ListLevel](../)
-* ad alanı [Aspose.Words.Lists](../../listlevel/)
+* ad alanı [Aspose.Words.Lists](../../../aspose.words.lists/)
 * toplantı [Aspose.Words](../../../)
-
-

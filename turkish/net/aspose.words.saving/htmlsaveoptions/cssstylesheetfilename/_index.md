@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.CssStyleSheetFileName
-second_title: Aspose.Words for .NET API Referansı
-description: HtmlSaveOptions mülk. Bir document HTMLye aktarıldığında yazılan Basamaklı Stil Sayfası CSS dosyasının yolunu ve adını belirtir. Varsayılan boş bir dizedir.
+linktitle: CssStyleSheetFileName
+articleTitle: CssStyleSheetFileName
+second_title: Aspose.Words for .NET
+description: HtmlSaveOptions CssStyleSheetFileName mülk. Bir document HTMLye aktarıldığında yazılan Basamaklı Stil Sayfası CSS dosyasının yolunu ve adını belirtir. Varsayılan boş bir dizedir C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.saving/htmlsaveoptions/cssstylesheetfilename/
@@ -14,7 +16,7 @@ Bir document HTML'ye aktarıldığında yazılan Basamaklı Stil Sayfası (CSS) 
 public string CssStyleSheetFileName { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özellik yalnızca bir belge HTML biçiminde kaydedildiğinde ve harici CSS stil sayfası kullanılarak istendiğinde etkili olur.[`CssStyleSheetType`](../cssstylesheettype/).
 
@@ -26,7 +28,7 @@ Bu özellik tarafından belirtilen klasör mevcut değilse, CSS file kaydedilmed
 
 Harici CSS dosyasının kaydedildiği klasörü belirtmenin başka bir yolu da kullanmaktır.[`ResourceFolder`](../resourcefolder/) .
 
-### Örnekler
+## Örnekler
 
 Bir HTML dönüşümünün oluşturduğu CSS stil sayfalarıyla nasıl çalışılacağını gösterir.
 
@@ -87,7 +89,5 @@ private class CustomCssSavingCallback : ICssSavingCallback
 ### Ayrıca bakınız
 
 * class [HtmlSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../htmlsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

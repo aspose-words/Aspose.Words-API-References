@@ -1,7 +1,9 @@
 ---
-title: Enum HtmlVersion
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Saving.HtmlVersion Sıralama. Belgeyi kaydederken kullanılan HTML sürümünü belirtir.Html ve Mhtml formatlar.
+title: HtmlVersion Enum
+linktitle: HtmlVersion
+articleTitle: HtmlVersion
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Saving.HtmlVersion Sıralama. Belgeyi kaydederken kullanılan HTML sürümünü belirtir.Html ve Mhtml formatlar C#'da.
 type: docs
 weight: 5120
 url: /tr/net/aspose.words.saving/htmlversion/
@@ -21,7 +23,7 @@ public enum HtmlVersion
 | Xhtml | `0` | Belgeyi XHTML 1.0 Geçiş standardına uygun olarak kaydeder. |
 | Html5 | `1` | Belgeyi HTML 5 standardına uygun olarak kaydeder. |
 
-### Örnekler
+## Örnekler
 
 Belgeleri Xhtml 1.0 geçiş standardına dönüştürürken DOCTYPE başlığının nasıl görüntüleneceğini gösterir.
 
@@ -87,5 +89,3 @@ switch (htmlVersion)
 
 * ad alanı [Aspose.Words.Saving](../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class FieldBuilder
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Fields.FieldBuilder sınıf. Alan kodu belirteçlerinden bağımsız değişkenler ve anahtarlar bir alan oluşturur.
+title: FieldBuilder Class
+linktitle: FieldBuilder
+articleTitle: FieldBuilder
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Fields.FieldBuilder sınıf. Alan kodu belirteçlerinden bağımsız değişkenler ve anahtarlar bir alan oluşturur C#'da.
 type: docs
 weight: 1660
 url: /tr/net/aspose.words.fields/fieldbuilder/
@@ -20,25 +22,25 @@ public class FieldBuilder
 
 | İsim | Tanım |
 | --- | --- |
-| [FieldBuilder](fieldbuilder/)(FieldType) | Bir örneğini başlatır`FieldBuilder` class. |
+| [FieldBuilder](fieldbuilder/)(*[FieldType](../fieldtype/)*) | Bir örneğini başlatır`FieldBuilder` class. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_2)(double) | Alanın bağımsız değişkenini ekler. |
-| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument)(FieldArgumentBuilder) | Şununla temsil edilen bir alanın bağımsız değişkenini ekler:[`FieldArgumentBuilder`](../fieldargumentbuilder/) alanın koduna. |
-| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_1)(FieldBuilder) | Başka bir alan tarafından temsil edilen bir alt alan ekler`FieldBuilder` alanın koduna. |
-| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_3)(int) | Alanın bağımsız değişkenini ekler. |
-| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_4)(string) | Alanın bağımsız değişkenini ekler. |
-| [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch/#addswitch)(string) | Bir alanın anahtarını ekler. |
-| [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch/#addswitch_1)(string, double) | Bir alanın anahtarını ekler. |
-| [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch/#addswitch_2)(string, int) | Bir alanın anahtarını ekler. |
-| [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch/#addswitch_3)(string, string) | Bir alanın anahtarını ekler. |
-| [BuildAndInsert](../../aspose.words.fields/fieldbuilder/buildandinsert/#buildandinsert)(Inline) | Belirtilen satır içi düğümden önce bir alan oluşturur ve belgeye ekler. |
-| [BuildAndInsert](../../aspose.words.fields/fieldbuilder/buildandinsert/#buildandinsert_1)(Paragraph) | Belgeye belirtilen paragrafın sonuna kadar bir alan oluşturur ve ekler. |
+| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_2)(*double*) | Alanın bağımsız değişkenini ekler. |
+| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument)(*[FieldArgumentBuilder](../fieldargumentbuilder/)*) | Şununla temsil edilen bir alanın bağımsız değişkenini ekler:[`FieldArgumentBuilder`](../fieldargumentbuilder/) alanın koduna. |
+| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_1)(*FieldBuilder*) | Başka bir alan tarafından temsil edilen bir alt alan ekler`FieldBuilder` alanın koduna. |
+| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_3)(*int*) | Alanın bağımsız değişkenini ekler. |
+| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_4)(*string*) | Alanın bağımsız değişkenini ekler. |
+| [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch/#addswitch)(*string*) | Bir alanın anahtarını ekler. |
+| [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch/#addswitch_1)(*string, double*) | Bir alanın anahtarını ekler. |
+| [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch/#addswitch_2)(*string, int*) | Bir alanın anahtarını ekler. |
+| [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch/#addswitch_3)(*string, string*) | Bir alanın anahtarını ekler. |
+| [BuildAndInsert](../../aspose.words.fields/fieldbuilder/buildandinsert/#buildandinsert)(*[Inline](../../aspose.words/inline/)*) | Belirtilen satır içi düğümden önce bir alan oluşturur ve belgeye ekler. |
+| [BuildAndInsert](../../aspose.words.fields/fieldbuilder/buildandinsert/#buildandinsert_1)(*[Paragraph](../../aspose.words/paragraph/)*) | Belgeye belirtilen paragrafın sonuna kadar bir alan oluşturur ve ekler. |
 
-### Örnekler
+## Örnekler
 
 Alan oluşturucu kullanarak alanların nasıl oluşturulacağını ve ardından bunların belgeye nasıl ekleneceğini gösterir.
 
@@ -122,5 +124,3 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 
 * ad alanı [Aspose.Words.Fields](../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../)
-
-

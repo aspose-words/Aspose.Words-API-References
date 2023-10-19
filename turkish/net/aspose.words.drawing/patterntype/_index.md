@@ -1,7 +1,9 @@
 ---
-title: Enum PatternType
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.PatternType Sıralama. Bir şekli doldurmak için kullanılacak dolgu desenini belirtir.
+title: PatternType Enum
+linktitle: PatternType
+articleTitle: PatternType
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.PatternType Sıralama. Bir şekli doldurmak için kullanılacak dolgu desenini belirtir C#'da.
 type: docs
 weight: 1170
 url: /tr/net/aspose.words.drawing/patterntype/
@@ -78,5 +80,3 @@ public enum PatternType
 
 * ad alanı [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../)
-
-

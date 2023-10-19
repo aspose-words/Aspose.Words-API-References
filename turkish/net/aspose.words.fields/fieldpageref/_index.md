@@ -1,7 +1,9 @@
 ---
-title: Class FieldPageRef
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Fields.FieldPageRef sınıf. PAGEREF alanını uygular.
+title: FieldPageRef Class
+linktitle: FieldPageRef
+articleTitle: FieldPageRef
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Fields.FieldPageRef sınıf. PAGEREF alanını uygular C#'da.
 type: docs
 weight: 2270
 url: /tr/net/aspose.words.fields/fieldpageref/
@@ -45,17 +47,17 @@ public class FieldPageRef : Field
 | İsim | Tanım |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Alan başlangıcı ile alan ayırıcı (veya ayırıcı yoksa alan sonu) arasındaki metni döndürür. Alt alanların hem alan kodu hem de alan sonucu dahil edilir. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Alan başlangıcı ile alan ayırıcı (veya ayırıcı yoksa alan sonu) arasındaki metni döndürür. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Alan başlangıcı ile alan ayırıcı (veya ayırıcı yoksa alan sonu) arasındaki metni döndürür. |
 | [Remove](../../aspose.words.fields/field/remove/)() | Alanı belgeden kaldırır. Alanın hemen ardından bir düğüm döndürür. Alanın sonu, üst düğümünün son child 'si ise, üst paragrafını döndürür. Alan zaten kaldırılmışsa şunu döndürür:`hükümsüz` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Alanın bağlantısını kaldırır. |
 | [Update](../../aspose.words.fields/field/update/)() | Alan güncellemesini gerçekleştirir. Alan zaten güncelleniyorsa atar. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Bir alan güncellemesi gerçekleştirir. Alan zaten güncelleniyorsa atar. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Bir alan güncellemesi gerçekleştirir. Alan zaten güncelleniyorsa atar. |
 
-### Notlar
+## Notlar
 
 Çapraz referans için belirtilen yer işaretini içeren sayfanın numarasını ekler.
 
-### Örnekler
+## Örnekler
 
 Yer imlerinin göreceli konumunu görüntülemek için PAGEREF alanlarının eklenmesini gösterir.
 
@@ -127,5 +129,3 @@ private static void InsertAndNameBookmark(DocumentBuilder builder, string bookma
 * class [Field](../field/)
 * ad alanı [Aspose.Words.Fields](../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../)
-
-

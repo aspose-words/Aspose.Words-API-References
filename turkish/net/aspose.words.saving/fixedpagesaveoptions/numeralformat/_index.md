@@ -1,7 +1,9 @@
 ---
 title: FixedPageSaveOptions.NumeralFormat
-second_title: Aspose.Words for .NET API Referansı
-description: FixedPageSaveOptions mülk. Alır veya ayarlarNumeralFormat rakamların oluşturulması için kullanılır. Avrupa rakamları varsayılan olarak kullanılır.
+linktitle: NumeralFormat
+articleTitle: NumeralFormat
+second_title: Aspose.Words for .NET
+description: FixedPageSaveOptions NumeralFormat mülk. Alır veya ayarlarNumeralFormat rakamların oluşturulması için kullanılır. Avrupa rakamları varsayılan olarak kullanılır C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.saving/fixedpagesaveoptions/numeralformat/
@@ -14,11 +16,11 @@ Alır veya ayarlar[`NumeralFormat`](../../numeralformat/) rakamların oluşturul
 public NumeralFormat NumeralFormat { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özelliğin değeri değiştirilmişse ve sayfa düzeni zaten oluşturulmuşsa Then [`UpdatePageLayout`](../../../aspose.words/document/updatepagelayout/) herhangi bir değişikliği güncellemek için otomatik olarak çağrılır.
 
-### Örnekler
+## Örnekler
 
 PDF'ye kaydederken kullanılan sayı biçiminin nasıl ayarlanacağını gösterir.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.SetNumeralFormat.pdf", options);
 
 * enum [NumeralFormat](../../numeralformat/)
 * class [FixedPageSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../fixedpagesaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

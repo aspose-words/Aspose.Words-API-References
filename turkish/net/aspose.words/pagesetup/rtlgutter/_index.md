@@ -1,7 +1,9 @@
 ---
 title: PageSetup.RtlGutter
-second_title: Aspose.Words for .NET API Referansı
-description: PageSetup mülk. Microsoft Wordün bölüm için cilt paylarını sağdan sola dile mi yoksa soldan sağa dile mi dayalı olarak kullanacağını alır veya ayarlar.
+linktitle: RtlGutter
+articleTitle: RtlGutter
+second_title: Aspose.Words for .NET
+description: PageSetup RtlGutter mülk. Microsoft Wordün bölüm için cilt paylarını sağdan sola dile mi yoksa soldan sağa dile mi dayalı olarak kullanacağını alır veya ayarlar C#'da.
 type: docs
 weight: 380
 url: /tr/net/aspose.words/pagesetup/rtlgutter/
@@ -14,7 +16,7 @@ Microsoft Word'ün bölüm için cilt paylarını sağdan sola dile mi, yoksa so
 public bool RtlGutter { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Cilt payı marjlarının nasıl ayarlanacağını gösterir.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "PageSetup.Gutter.docx");
 ### Ayrıca bakınız
 
 * class [PageSetup](../)
-* ad alanı [Aspose.Words](../../pagesetup/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

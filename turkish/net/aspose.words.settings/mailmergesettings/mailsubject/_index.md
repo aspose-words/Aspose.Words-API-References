@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.MailSubject
-second_title: Aspose.Words for .NET API Referansı
-description: MailMergeSettings mülk. Adresmektup birleştirme sırasında üretilen eposta veya faksların konu satırında görünecek metni belirtir. Varsayılan değer boş bir dizedir.
+linktitle: MailSubject
+articleTitle: MailSubject
+second_title: Aspose.Words for .NET
+description: MailMergeSettings MailSubject mülk. Adresmektup birleştirme sırasında üretilen eposta veya faksların konu satırında görünecek metni belirtir. Varsayılan değer boş bir dizedir C#'da.
 type: docs
 weight: 130
 url: /tr/net/aspose.words.settings/mailmergesettings/mailsubject/
@@ -14,7 +16,7 @@ Adres-mektup birleştirme sırasında üretilen e-posta veya faksların konu sat
 public string MailSubject { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Dış veri kaynağına bağlanırken adres-mektup birleştirmenin nasıl yürütüleceğini gösterir.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");
 ### Ayrıca bakınız
 
 * class [MailMergeSettings](../)
-* ad alanı [Aspose.Words.Settings](../../mailmergesettings/)
+* ad alanı [Aspose.Words.Settings](../../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: IDocumentPartSavingCallback.DocumentPartSaving
-second_title: Aspose.Words for .NET API Referansı
-description: IDocumentPartSavingCallback yöntem. Aspose.Words bir belge bölümünü kaydetmek üzereyken çağrılır.
+linktitle: DocumentPartSaving
+articleTitle: DocumentPartSaving
+second_title: Aspose.Words for .NET
+description: IDocumentPartSavingCallback DocumentPartSaving yöntem. Aspose.Words bir belge bölümünü kaydetmek üzereyken çağrılır C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.saving/idocumentpartsavingcallback/documentpartsaving/
@@ -14,7 +16,7 @@ Aspose.Words bir belge bölümünü kaydetmek üzereyken çağrılır.
 public void DocumentPartSaving(DocumentPartSavingArgs args)
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgenin nasıl parçalara ayrılacağını ve kaydedileceğini gösterir.
 
@@ -132,7 +134,5 @@ public class SavedImageRename : IImageSavingCallback
 
 * class [DocumentPartSavingArgs](../../documentpartsavingargs/)
 * interface [IDocumentPartSavingCallback](../)
-* ad alanı [Aspose.Words.Saving](../../idocumentpartsavingcallback/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.UseAltKinsokuLineBreakRules
-second_title: Aspose.Words for .NET API Referansı
-description: CompatibilityOptions mülk. Alternatif Doğu Asya Sınır Aşma Kuralları Dizisini Kullanın.
+linktitle: UseAltKinsokuLineBreakRules
+articleTitle: UseAltKinsokuLineBreakRules
+second_title: Aspose.Words for .NET
+description: CompatibilityOptions UseAltKinsokuLineBreakRules mülk. Alternatif Doğu Asya Sınır Aşma Kuralları Dizisini Kullanın C#'da.
 type: docs
 weight: 600
 url: /tr/net/aspose.words.settings/compatibilityoptions/usealtkinsokulinebreakrules/
@@ -17,7 +19,5 @@ public bool UseAltKinsokuLineBreakRules { get; set; }
 ### Ayrıca bakınız
 
 * class [CompatibilityOptions](../)
-* ad alanı [Aspose.Words.Settings](../../compatibilityoptions/)
+* ad alanı [Aspose.Words.Settings](../../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../../)
-
-

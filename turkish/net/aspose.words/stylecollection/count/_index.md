@@ -1,7 +1,9 @@
 ---
 title: StyleCollection.Count
-second_title: Aspose.Words for .NET API Referansı
-description: StyleCollection mülk. Koleksiyondaki stillerin sayısını alır.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words for .NET
+description: StyleCollection Count mülk. Koleksiyondaki stillerin sayısını alır C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/stylecollection/count/
@@ -14,7 +16,7 @@ Koleksiyondaki stillerin sayısını alır.
 public int Count { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgenin stil koleksiyonuna nasıl Stil ekleneceğini gösterir.
 
@@ -37,7 +39,5 @@ Assert.AreEqual(15.0, styles["MyStyle"].ParagraphFormat.FirstLineIndent);
 ### Ayrıca bakınız
 
 * class [StyleCollection](../)
-* ad alanı [Aspose.Words](../../stylecollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

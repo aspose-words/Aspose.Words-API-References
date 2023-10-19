@@ -1,7 +1,9 @@
 ---
 title: FieldStart.FieldData
-second_title: Aspose.Words for .NET API Referansı
-description: FieldStart mülk. Alanla ilişkili özel alan verilerini alır.
+linktitle: FieldData
+articleTitle: FieldData
+second_title: Aspose.Words for .NET
+description: FieldStart FieldData mülk. Alanla ilişkili özel alan verilerini alır C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fieldstart/fielddata/
@@ -14,7 +16,7 @@ Alanla ilişkili özel alan verilerini alır.
 public byte[] FieldData { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Alanla ilişkili verilerin nasıl alınacağını gösterir.
 
@@ -28,7 +30,5 @@ Console.WriteLine(Encoding.Default.GetString(field.Start.FieldData));
 ### Ayrıca bakınız
 
 * class [FieldStart](../)
-* ad alanı [Aspose.Words.Fields](../../fieldstart/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

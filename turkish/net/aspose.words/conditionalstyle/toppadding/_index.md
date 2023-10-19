@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyle.TopPadding
-second_title: Aspose.Words for .NET API Referansı
-description: ConditionalStyle mülk. Tablo hücrelerinin içeriğinin üzerine eklenecek alan miktarını puan cinsinden alır veya ayarlar.
+linktitle: TopPadding
+articleTitle: TopPadding
+second_title: Aspose.Words for .NET
+description: ConditionalStyle TopPadding mülk. Tablo hücrelerinin içeriğinin üzerine eklenecek alan miktarını puan cinsinden alır veya ayarlar C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words/conditionalstyle/toppadding/
@@ -14,7 +16,7 @@ Tablo hücrelerinin içeriğinin üzerine eklenecek alan miktarını (puan cinsi
 public double TopPadding { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir tablonun belirli alan stilleriyle nasıl çalışılacağını gösterir.
 
@@ -84,7 +86,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 ### Ayrıca bakınız
 
 * class [ConditionalStyle](../)
-* ad alanı [Aspose.Words](../../conditionalstyle/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

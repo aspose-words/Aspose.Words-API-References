@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.DocumentSplitCriteria
-second_title: Aspose.Words for .NET API Referansı
-description: HtmlSaveOptions mülk. Belgeyi kaydederken nasıl bölünmesi gerektiğini belirtirHtml  Epub veyaAzw3 biçim. VarsayılanNone HTML ve içinHeadingParagraph EPUB ve AZW3. için
+linktitle: DocumentSplitCriteria
+articleTitle: DocumentSplitCriteria
+second_title: Aspose.Words for .NET
+description: HtmlSaveOptions DocumentSplitCriteria mülk. Belgeyi kaydederken nasıl bölünmesi gerektiğini belirtirHtml  Epub veyaAzw3 biçim. VarsayılanNone HTML ve içinHeadingParagraph EPUB ve AZW3. için C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words.saving/htmlsaveoptions/documentsplitcriteria/
@@ -14,13 +16,13 @@ Belgeyi kaydederken nasıl bölünmesi gerektiğini belirtirHtml , Epub veyaAzw3
 public DocumentSplitCriteria DocumentSplitCriteria { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Normalde bir belgenin HTML'ye tek bir dosya olarak kaydedilmesini istersiniz. Ancak bazı durumlarda çıktının birkaç küçük HTML sayfasına bölünmesi tercih edilir. HTML formatında kaydederken bu sayfalar ayrı dosyalara veya akışlara aktarılacaktır. EPUB formatında kaydederken ilgili paketlere dahil edileceklerdir.
 
 MHTML formatında kaydederken bir belge bölünemez.
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi .epub'a kaydederken belirli bir kodlamanın nasıl kullanılacağını gösterir.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions)
 
 * enum [DocumentSplitCriteria](../../documentsplitcriteria/)
 * class [HtmlSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../htmlsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

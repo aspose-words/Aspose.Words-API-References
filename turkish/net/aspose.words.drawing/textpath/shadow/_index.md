@@ -1,7 +1,9 @@
 ---
 title: TextPath.Shadow
-second_title: Aspose.Words for .NET API Referansı
-description: TextPath mülk. Metin yolundaki metne gölge uygulanıp uygulanmayacağını tanımlar.
+linktitle: Shadow
+articleTitle: Shadow
+second_title: Aspose.Words for .NET
+description: TextPath Shadow mülk. Metin yolundaki metne gölge uygulanıp uygulanmayacağını tanımlar C#'da.
 type: docs
 weight: 110
 url: /tr/net/aspose.words.drawing/textpath/shadow/
@@ -14,11 +16,11 @@ Metin yolundaki metne gölge uygulanıp uygulanmayacağını tanımlar.
 public bool Shadow { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:`YANLIŞ`.
 
-### Örnekler
+## Örnekler
 
 WordArt'la nasıl çalışılacağını gösterir.
 
@@ -121,7 +123,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### Ayrıca bakınız
 
 * class [TextPath](../)
-* ad alanı [Aspose.Words.Drawing](../../textpath/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

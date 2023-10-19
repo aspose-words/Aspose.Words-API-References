@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.CssSavingCallback
-second_title: Aspose.Words for .NET API Referansı
-description: HtmlSaveOptions mülk. Bir belge HTML MHTML veya EPUBa kaydedildiğinde CSS stillerinin nasıl kaydedileceğini kontrol etmenizi sağlar.
+linktitle: CssSavingCallback
+articleTitle: CssSavingCallback
+second_title: Aspose.Words for .NET
+description: HtmlSaveOptions CssSavingCallback mülk. Bir belge HTML MHTML veya EPUBa kaydedildiğinde CSS stillerinin nasıl kaydedileceğini kontrol etmenizi sağlar C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.saving/htmlsaveoptions/csssavingcallback/
@@ -14,7 +16,7 @@ Bir belge HTML, MHTML veya EPUB'a kaydedildiğinde CSS stillerinin nasıl kayded
 public ICssSavingCallback CssSavingCallback { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir HTML dönüşümünün oluşturduğu CSS stil sayfalarıyla nasıl çalışılacağını gösterir.
 
@@ -76,7 +78,5 @@ private class CustomCssSavingCallback : ICssSavingCallback
 
 * interface [ICssSavingCallback](../../icsssavingcallback/)
 * class [HtmlSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../htmlsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

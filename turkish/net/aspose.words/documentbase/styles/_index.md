@@ -1,7 +1,9 @@
 ---
 title: DocumentBase.Styles
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentBase mülk. Belgede tanımlanan stillerin bir koleksiyonunu döndürür.
+linktitle: Styles
+articleTitle: Styles
+second_title: Aspose.Words for .NET
+description: DocumentBase Styles mülk. Belgede tanımlanan stillerin bir koleksiyonunu döndürür C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words/documentbase/styles/
@@ -14,11 +16,11 @@ Belgede tanımlanan stillerin bir koleksiyonunu döndürür.
 public StyleCollection Styles { get; }
 ```
 
-### Notlar
+## Notlar
 
 Daha fazla bilgi için açıklamasına bakın[`StyleCollection`](../../stylecollection/) sınıf.
 
-### Örnekler
+## Örnekler
 
 Bir belgenin stil koleksiyonuna nasıl erişileceğini gösterir.
 
@@ -74,7 +76,5 @@ builder.Document.Save(ArtifactsDir + "Styles.ParagraphStyleBulletedList.docx");
 
 * class [StyleCollection](../../stylecollection/)
 * class [DocumentBase](../)
-* ad alanı [Aspose.Words](../../documentbase/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

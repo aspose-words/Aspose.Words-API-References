@@ -1,7 +1,9 @@
 ---
 title: BookmarkCollection.Clear
-second_title: Aspose.Words for .NET API Referansı
-description: BookmarkCollection yöntem. Bu koleksiyondaki ve belgedeki tüm yer işaretlerini kaldırır.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words for .NET
+description: BookmarkCollection Clear yöntem. Bu koleksiyondaki ve belgedeki tüm yer işaretlerini kaldırır C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/bookmarkcollection/clear/
@@ -14,7 +16,7 @@ Bu koleksiyondaki ve belgedeki tüm yer işaretlerini kaldırır.
 public void Clear()
 ```
 
-### Örnekler
+## Örnekler
 
 Yer işaretlerinin bir belgeden nasıl kaldırılacağını gösterir.
 
@@ -75,7 +77,5 @@ Assert.AreEqual("Text inside MyBookmark_1.\r" +
 ### Ayrıca bakınız
 
 * class [BookmarkCollection](../)
-* ad alanı [Aspose.Words](../../bookmarkcollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

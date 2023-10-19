@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitCellEnd
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentVisitor yöntem. Bir tablo hücresinin numaralandırılması sona erdiğinde çağrılır.
+linktitle: VisitCellEnd
+articleTitle: VisitCellEnd
+second_title: Aspose.Words for .NET
+description: DocumentVisitor VisitCellEnd yöntem. Bir tablo hücresinin numaralandırılması sona erdiğinde çağrılır C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words/documentvisitor/visitcellend/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitCellEnd(Cell cell)
 
 A[`VisitorAction`](../../visitoraction/) numaralandırmaya nasıl devam edileceğini belirten değer.
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki her tablonun düğüm yapısının nasıl yazdırılacağını gösterir.
 
@@ -378,7 +380,5 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [Cell](../../../aspose.words.tables/cell/)
 * class [DocumentVisitor](../)
-* ad alanı [Aspose.Words](../../documentvisitor/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.PlaceholderName
-second_title: Aspose.Words for .NET API Referansı
-description: StructuredDocumentTagRangeStart mülk. Adını alır veya ayarlarBuildingBlock yer tutucu metni içerir.
+linktitle: PlaceholderName
+articleTitle: PlaceholderName
+second_title: Aspose.Words for .NET
+description: StructuredDocumentTagRangeStart PlaceholderName mülk. Adını alır veya ayarlarBuildingBlock yer tutucu metni içerir C#'da.
 type: docs
 weight: 120
 url: /tr/net/aspose.words.markup/structureddocumenttagrangestart/placeholdername/
@@ -16,7 +18,7 @@ Adını alır veya ayarlar[`BuildingBlock`](../../../aspose.words.buildingblocks
 public string PlaceholderName { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Çok bölümlü yapılandırılmış belge etiketlerinin özelliklerinin nasıl alınacağını gösterir.
 
@@ -51,7 +53,5 @@ Console.WriteLine($"\t|NodeType: {rangeEndTag.NodeType}");
 ### Ayrıca bakınız
 
 * class [StructuredDocumentTagRangeStart](../)
-* ad alanı [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

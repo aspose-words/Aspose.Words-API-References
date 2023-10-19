@@ -1,7 +1,9 @@
 ---
 title: FieldChar.FieldType
-second_title: Aspose.Words for .NET API Referansı
-description: FieldChar mülk. Alanın türünü döndürür.
+linktitle: FieldType
+articleTitle: FieldType
+second_title: Aspose.Words for .NET
+description: FieldChar FieldType mülk. Alanın türünü döndürür C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fieldchar/fieldtype/
@@ -14,7 +16,7 @@ Alanın türünü döndürür.
 public FieldType FieldType { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 FieldStart düğümüyle nasıl çalışılacağını gösterir.
 
@@ -46,7 +48,5 @@ field.Update();
 
 * enum [FieldType](../../fieldtype/)
 * class [FieldChar](../)
-* ad alanı [Aspose.Words.Fields](../../fieldchar/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

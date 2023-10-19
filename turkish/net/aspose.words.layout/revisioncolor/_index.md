@@ -1,7 +1,9 @@
 ---
-title: Enum RevisionColor
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Layout.RevisionColor Sıralama. Belge revizyonlarının rengini belirlemeye izin verir.
+title: RevisionColor Enum
+linktitle: RevisionColor
+articleTitle: RevisionColor
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Layout.RevisionColor Sıralama. Belge revizyonlarının rengini belirlemeye izin verir C#'da.
 type: docs
 weight: 3380
 url: /tr/net/aspose.words.layout/revisioncolor/
@@ -40,7 +42,7 @@ public enum RevisionColor
 | NoHighlight | `19` | Revizyon değişikliklerini vurgulamak için renk kullanılmaz. |
 | ByAuthor | `20` | Her yazarın düzeltmeleri, önceden tanımlanmış yüksek kontrastlı renklerden oluşan bir setten vurgulanmak üzere kendi rengini alır. |
 
-### Örnekler
+## Örnekler
 
 İşlenmiş bir çıktı belgesindeki düzeltmelerin görünümünün nasıl değiştirileceğini gösterir.
 
@@ -66,5 +68,3 @@ doc.Save(ArtifactsDir + "Document.LayoutOptionsRevisions.pdf");
 
 * ad alanı [Aspose.Words.Layout](../../aspose.words.layout/)
 * toplantı [Aspose.Words](../../)
-
-

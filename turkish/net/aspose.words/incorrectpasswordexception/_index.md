@@ -1,7 +1,9 @@
 ---
-title: Class IncorrectPasswordException
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.IncorrectPasswordException sınıf. Belge bir parola ile şifrelenmişse ve belgeyi açarken belirtilen parola yanlış veya eksikse atılır.
+title: IncorrectPasswordException Class
+linktitle: IncorrectPasswordException
+articleTitle: IncorrectPasswordException
+second_title: Aspose.Words for .NET
+description: Aspose.Words.IncorrectPasswordException sınıf. Belge bir parola ile şifrelenmişse ve belgeyi açarken belirtilen parola yanlış veya eksikse atılır C#'da.
 type: docs
 weight: 3250
 url: /tr/net/aspose.words/incorrectpasswordexception/
@@ -20,5 +22,3 @@ public class IncorrectPasswordException : Exception
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: RevisionGroupCollection.Item
-second_title: Aspose.Words for .NET API Referansı
-description: RevisionGroupCollection mülk. Belirtilen dizindeki revizyon grubunu döndürür.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words for .NET
+description: RevisionGroupCollection Item mülk. Belirtilen dizindeki revizyon grubunu döndürür C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/revisiongroupcollection/item/
@@ -14,7 +16,7 @@ Belirtilen dizindeki revizyon grubunu döndürür.
 public RevisionGroup this[int index] { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgede bir grup revizyonun nasıl alınacağını gösterir.
 
@@ -28,7 +30,5 @@ RevisionGroup revisionGroup = doc.Revisions.Groups[0];
 
 * class [RevisionGroup](../../revisiongroup/)
 * class [RevisionGroupCollection](../)
-* ad alanı [Aspose.Words](../../revisiongroupcollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

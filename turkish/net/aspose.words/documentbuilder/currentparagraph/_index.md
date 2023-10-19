@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.CurrentParagraph
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentBuilder mülk. Bu bölümde o anda seçili olan paragrafı döndürürDocumentBuilder .
+linktitle: CurrentParagraph
+articleTitle: CurrentParagraph
+second_title: Aspose.Words for .NET
+description: DocumentBuilder CurrentParagraph mülk. Bu bölümde o anda seçili olan paragrafı döndürürDocumentBuilder  C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words/documentbuilder/currentparagraph/
@@ -14,11 +16,11 @@ Bu bölümde o anda seçili olan paragrafı döndürür[`DocumentBuilder`](../) 
 public Paragraph CurrentParagraph { get; }
 ```
 
-### Notlar
+## Notlar
 
 [`CurrentNode`](../currentnode/)
 
-### Örnekler
+## Örnekler
 
 Belge oluşturucunun imlecinin belgedeki farklı düğümlere nasıl taşınacağını gösterir.
 
@@ -73,7 +75,5 @@ Assert.IsTrue(builder.IsAtStartOfParagraph);
 
 * class [Paragraph](../../paragraph/)
 * class [DocumentBuilder](../)
-* ad alanı [Aspose.Words](../../documentbuilder/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

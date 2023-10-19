@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.IsInsertRevision
-second_title: Aspose.Words for .NET API Referansı
-description: ShapeBase mülk. Bu nesne Microsoft Worde değişiklik izleme etkinken eklenmişse doğru değerini döndürür.
+linktitle: IsInsertRevision
+articleTitle: IsInsertRevision
+second_title: Aspose.Words for .NET
+description: ShapeBase IsInsertRevision mülk. Bu nesne Microsoft Worde değişiklik izleme etkinken eklenmişse doğru değerini döndürür C#'da.
 type: docs
 weight: 300
 url: /tr/net/aspose.words.drawing/shapebase/isinsertrevision/
@@ -14,7 +16,7 @@ Bu nesne Microsoft Word'e değişiklik izleme etkinken eklenmişse doğru değer
 public bool IsInsertRevision { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Revizyon şekilleriyle nasıl çalışılacağını gösterir.
 
@@ -61,7 +63,5 @@ Assert.True(shapes[1].IsInsertRevision);
 ### Ayrıca bakınız
 
 * class [ShapeBase](../)
-* ad alanı [Aspose.Words.Drawing](../../shapebase/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

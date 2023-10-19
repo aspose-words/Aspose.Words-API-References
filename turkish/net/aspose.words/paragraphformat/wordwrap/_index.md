@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.WordWrap
-second_title: Aspose.Words for .NET API Referansı
-description: ParagraphFormat mülk. Bu özellik iseYANLIŞ  Bir kelimenin ortasındaki Latince metin geçerli paragraf için kaydırılabilir. Aksi takdirde Latince metin tam kelimelerle sarılır.
+linktitle: WordWrap
+articleTitle: WordWrap
+second_title: Aspose.Words for .NET
+description: ParagraphFormat WordWrap mülk. Bu özellik iseYANLIŞ  Bir kelimenin ortasındaki Latince metin geçerli paragraf için kaydırılabilir. Aksi takdirde Latince metin tam kelimelerle sarılır C#'da.
 type: docs
 weight: 410
 url: /tr/net/aspose.words/paragraphformat/wordwrap/
@@ -14,7 +16,7 @@ Bu özellik ise`YANLIŞ` , Bir kelimenin ortasındaki Latince metin geçerli par
 public bool WordWrap { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Asya tipografisi için özel özelliklerin nasıl ayarlanacağını gösterir.
 
@@ -32,7 +34,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.AsianTypographyProperties.docx");
 ### Ayrıca bakınız
 
 * class [ParagraphFormat](../)
-* ad alanı [Aspose.Words](../../paragraphformat/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.Left
-second_title: Aspose.Words for .NET API Referansı
-description: BorderCollection mülk. Sol kenarlığı alır.
+linktitle: Left
+articleTitle: Left
+second_title: Aspose.Words for .NET
+description: BorderCollection Left mülk. Sol kenarlığı alır C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words/bordercollection/left/
@@ -14,7 +16,7 @@ Sol kenarlığı alır.
 public Border Left { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Tablo oluştururken kenarlık ve gölgeleme renginin nasıl uygulanacağını gösterir.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.TableBordersAndShading.docx");
 
 * class [Border](../../border/)
 * class [BorderCollection](../)
-* ad alanı [Aspose.Words](../../bordercollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

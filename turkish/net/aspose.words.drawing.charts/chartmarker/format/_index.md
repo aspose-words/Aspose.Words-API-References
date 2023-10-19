@@ -1,7 +1,9 @@
 ---
 title: ChartMarker.Format
-second_title: Aspose.Words for .NET API Referansı
-description: ChartMarker mülk. Bu işaretleyicinin dolgu ve çizgi formatlamasına erişim sağlar.
+linktitle: Format
+articleTitle: Format
+second_title: Aspose.Words for .NET
+description: ChartMarker Format mülk. Bu işaretleyicinin dolgu ve çizgi formatlamasına erişim sağlar C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.drawing.charts/chartmarker/format/
@@ -14,7 +16,7 @@ Bu işaretleyicinin dolgu ve çizgi formatlamasına erişim sağlar.
 public ChartFormat Format { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 İşaretçi biçimlendirmesinin nasıl ayarlanacağını gösterin.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Charts.MarkerFormatting.docx");
 
 * class [ChartFormat](../../chartformat/)
 * class [ChartMarker](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartmarker/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

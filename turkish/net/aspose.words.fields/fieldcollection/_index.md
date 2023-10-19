@@ -1,7 +1,9 @@
 ---
-title: Class FieldCollection
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Fields.FieldCollection sınıf. Bir koleksiyonField belirtilen aralıktaki alanları temsil eden nesneler.
+title: FieldCollection Class
+linktitle: FieldCollection
+articleTitle: FieldCollection
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Fields.FieldCollection sınıf. Bir koleksiyonField belirtilen aralıktaki alanları temsil eden nesneler C#'da.
 type: docs
 weight: 1690
 url: /tr/net/aspose.words.fields/fieldcollection/
@@ -29,10 +31,10 @@ public class FieldCollection : IEnumerable<Field>
 | --- | --- |
 | [Clear](../../aspose.words.fields/fieldcollection/clear/)() | Bu koleksiyondaki tüm alanları belgeden ve bu koleksiyonun kendisinden kaldırır. |
 | [GetEnumerator](../../aspose.words.fields/fieldcollection/getenumerator/)() | Bir numaralandırıcı nesnesini döndürür. |
-| [Remove](../../aspose.words.fields/fieldcollection/remove/)(Field) | Belirtilen alanı bu koleksiyondan ve belgeden kaldırır. |
-| [RemoveAt](../../aspose.words.fields/fieldcollection/removeat/)(int) | Belirtilen dizindeki bir alanı bu koleksiyondan ve belgeden kaldırır. |
+| [Remove](../../aspose.words.fields/fieldcollection/remove/)(*[Field](../field/)*) | Belirtilen alanı bu koleksiyondan ve belgeden kaldırır. |
+| [RemoveAt](../../aspose.words.fields/fieldcollection/removeat/)(*int*) | Belirtilen dizindeki bir alanı bu koleksiyondan ve belgeden kaldırır. |
 
-### Notlar
+## Notlar
 
 Bu koleksiyonun bir örneği, belirtilen aralıkta başlayan alanları yineler.
 
@@ -40,7 +42,7 @@ Bu koleksiyonun bir örneği, belirtilen aralıkta başlayan alanları yineler.
 
 `FieldCollection` koleksiyon "canlıdır", yani oluşturulduğu object düğümünün alt öğelerinde yapılan değişiklikler, koleksiyon tarafından döndürülen alanlara anında yansıtılır.`FieldCollection` özellikleri ve yöntemleri.
 
-### Örnekler
+## Örnekler
 
 Alan koleksiyonundan alanların nasıl kaldırılacağını gösterir.
 
@@ -182,5 +184,3 @@ public class FieldVisitor : DocumentVisitor
 * class [Field](../field/)
 * ad alanı [Aspose.Words.Fields](../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../)
-
-

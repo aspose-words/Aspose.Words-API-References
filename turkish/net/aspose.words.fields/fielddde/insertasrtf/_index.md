@@ -1,7 +1,9 @@
 ---
 title: FieldDde.InsertAsRtf
-second_title: Aspose.Words for .NET API Referansı
-description: FieldDde mülk. Bağlantılı nesnenin zengin metin biçiminde RTF eklenip eklenmeyeceğini alır veya ayarlar.
+linktitle: InsertAsRtf
+articleTitle: InsertAsRtf
+second_title: Aspose.Words for .NET
+description: FieldDde InsertAsRtf mülk. Bağlantılı nesnenin zengin metin biçiminde RTF eklenip eklenmeyeceğini alır veya ayarlar C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.fields/fielddde/insertasrtf/
@@ -14,7 +16,7 @@ Bağlantılı nesnenin zengin metin biçiminde (RTF) eklenip eklenmeyeceğini al
 public bool InsertAsRtf { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Yerel dosya sistemindeki diğer belgelere bağlanmak ve içeriklerini görüntülemek için çeşitli alan türlerinin nasıl kullanılacağını gösterir.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### Ayrıca bakınız
 
 * class [FieldDde](../)
-* ad alanı [Aspose.Words.Fields](../../fielddde/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.RevisedPropertiesEffect
-second_title: Aspose.Words for .NET API Referansı
-description: RevisionOptions mülk. Biçimlendirme özelliklerinde değişiklik yapılarak içerik alanlarına yönelik efektin belirlenmesine olanak tanırFormatChange Varsayılan değerNone
+linktitle: RevisedPropertiesEffect
+articleTitle: RevisedPropertiesEffect
+second_title: Aspose.Words for .NET
+description: RevisionOptions RevisedPropertiesEffect mülk. Biçimlendirme özelliklerinde değişiklik yapılarak içerik alanlarına yönelik efektin belirlenmesine olanak tanırFormatChange Varsayılan değerNone C#'da.
 type: docs
 weight: 120
 url: /tr/net/aspose.words.layout/revisionoptions/revisedpropertieseffect/
@@ -14,11 +16,11 @@ Biçimlendirme özelliklerinde değişiklik yapılarak içerik alanlarına yöne
 public RevisionTextEffect RevisedPropertiesEffect { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Hiddenizin verilmez ve neden olurArgumentOutOfRangeException.
 
-### Örnekler
+## Örnekler
 
 Revizyonların görünümünün nasıl değiştirileceğini gösterir.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 
 * enum [RevisionTextEffect](../../revisiontexteffect/)
 * class [RevisionOptions](../)
-* ad alanı [Aspose.Words.Layout](../../revisionoptions/)
+* ad alanı [Aspose.Words.Layout](../../../aspose.words.layout/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: PreferredWidth.Equals
-second_title: Aspose.Words for .NET API Referansı
-description: PreferredWidth yöntem. Belirtilenin olup olmadığını belirlerPreferredWidth şimdiki değere eşittirPreferredWidth .
+linktitle: Equals
+articleTitle: Equals
+second_title: Aspose.Words for .NET
+description: PreferredWidth Equals yöntem. Belirtilenin olup olmadığını belirlerPreferredWidth şimdiki değere eşittirPreferredWidth  C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.tables/preferredwidth/equals/
 ---
-## Equals(PreferredWidth) {#equals}
+## Equals(*[PreferredWidth](../)*) {#equals}
 
 Belirtilenin olup olmadığını belirler[`PreferredWidth`](../) şimdiki değere eşittir[`PreferredWidth`](../) .
 
@@ -14,7 +16,7 @@ Belirtilenin olup olmadığını belirler[`PreferredWidth`](../) şimdiki değer
 public bool Equals(PreferredWidth other)
 ```
 
-### Örnekler
+## Örnekler
 
 Tablo hücreleri için tercih edilen genişliğin nasıl ayarlanacağını gösterir.
 
@@ -54,12 +56,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCellsWithPreferredWidths.docx");
 ### Ayrıca bakınız
 
 * class [PreferredWidth](../)
-* ad alanı [Aspose.Words.Tables](../../preferredwidth/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## Equals(object) {#equals_1}
+## Equals(*object*) {#equals_1}
 
 Belirtilen nesnenin değer olarak geçerli nesneye eşit olup olmadığını belirler.
 
@@ -67,7 +69,7 @@ Belirtilen nesnenin değer olarak geçerli nesneye eşit olup olmadığını bel
 public override bool Equals(object obj)
 ```
 
-### Örnekler
+## Örnekler
 
 Tablo hücreleri için tercih edilen genişliğin nasıl ayarlanacağını gösterir.
 
@@ -107,7 +109,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCellsWithPreferredWidths.docx");
 ### Ayrıca bakınız
 
 * class [PreferredWidth](../)
-* ad alanı [Aspose.Words.Tables](../../preferredwidth/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

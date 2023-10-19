@@ -1,7 +1,9 @@
 ---
-title: Class OutlineOptions
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Saving.OutlineOptions sınıf. Anahat seçeneklerini belirlemeye izin verir.
+title: OutlineOptions Class
+linktitle: OutlineOptions
+articleTitle: OutlineOptions
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Saving.OutlineOptions sınıf. Anahat seçeneklerini belirlemeye izin verir C#'da.
 type: docs
 weight: 5360
 url: /tr/net/aspose.words.saving/outlineoptions/
@@ -33,7 +35,7 @@ public class OutlineOptions
 | [ExpandedOutlineLevels](../../aspose.words.saving/outlineoptions/expandedoutlinelevels/) { get; set; } | Dosya görüntülendiğinde belge anahattında kaç düzeyin genişletilmiş olarak gösterileceğini belirtir. |
 | [HeadingsOutlineLevels](../../aspose.words.saving/outlineoptions/headingsoutlinelevels/) { get; set; } | belge taslağına kaç düzeyde başlık (Başlık stilleriyle biçimlendirilmiş paragraflar) ekleneceğini belirtir. |
 
-### Örnekler
+## Örnekler
 
 PDF'ye dönüştürdüğümüz bir belgedeki üstbilgi/altbilgilerdeki yer işaretlerinin işlenmesini gösterir.
 
@@ -66,5 +68,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.HeaderFooterBookmarksExportMode.pdf", sa
 
 * ad alanı [Aspose.Words.Saving](../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../)
-
-

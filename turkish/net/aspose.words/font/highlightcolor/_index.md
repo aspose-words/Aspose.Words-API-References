@@ -1,7 +1,9 @@
 ---
 title: Font.HighlightColor
-second_title: Aspose.Words for .NET API Referansı
-description: Font mülk. Vurgu işaretçi rengini alır veya ayarlar.
+linktitle: HighlightColor
+articleTitle: HighlightColor
+second_title: Aspose.Words for .NET
+description: Font HighlightColor mülk. Vurgu işaretçi rengini alır veya ayarlar C#'da.
 type: docs
 weight: 150
 url: /tr/net/aspose.words/font/highlightcolor/
@@ -14,7 +16,7 @@ Vurgu (işaretçi) rengini alır veya ayarlar.
 public Color HighlightColor { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Font özelliğini kullanarak bir metin dizisinin nasıl biçimlendirileceğini gösterir.
 
@@ -34,7 +36,5 @@ doc.Save(ArtifactsDir + "Font.CreateFormattedRun.docx");
 ### Ayrıca bakınız
 
 * class [Font](../)
-* ad alanı [Aspose.Words](../../font/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ImageData.ImageBytes
-second_title: Aspose.Words for .NET API Referansı
-description: ImageData mülk. Şekilde saklanan görüntünün ham baytlarını alır veya ayarlar.
+linktitle: ImageBytes
+articleTitle: ImageBytes
+second_title: Aspose.Words for .NET
+description: ImageData ImageBytes mülk. Şekilde saklanan görüntünün ham baytlarını alır veya ayarlar C#'da.
 type: docs
 weight: 120
 url: /tr/net/aspose.words.drawing/imagedata/imagebytes/
@@ -14,13 +16,13 @@ url: /tr/net/aspose.words.drawing/imagedata/imagebytes/
 public byte[] ImageBytes { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Değeri şu şekilde ayarlama:`hükümsüz` veya boş bir dizi, görüntüyü şekilden kaldıracaktır.
 
 İadeler`hükümsüz` görüntü belgede saklanmıyorsa (örneğin, bu durumda görüntü muhtemelen bağlantılıdır).
 
-### Örnekler
+## Örnekler
 
 Bir şeklin ham görüntü verilerinden nasıl görüntü dosyası oluşturulacağını gösterir.
 
@@ -47,7 +49,5 @@ using (Stream imgStream = imgShape.ImageData.ToStream())
 ### Ayrıca bakınız
 
 * class [ImageData](../)
-* ad alanı [Aspose.Words.Drawing](../../imagedata/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

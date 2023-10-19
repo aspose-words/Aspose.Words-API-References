@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.MoveParent
-second_title: Aspose.Words for .NET API Referansı
-description: LayoutEnumerator yöntem. Üst varlığa gider.
+linktitle: MoveParent
+articleTitle: MoveParent
+second_title: Aspose.Words for .NET
+description: LayoutEnumerator MoveParent yöntem. Üst varlığa gider C#'da.
 type: docs
 weight: 140
 url: /tr/net/aspose.words.layout/layoutenumerator/moveparent/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.layout/layoutenumerator/moveparent/
 public bool MoveParent()
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgenin düzen varlıkları arasında geçiş yapma yollarını gösterir.
 
@@ -159,12 +161,12 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 ### Ayrıca bakınız
 
 * class [LayoutEnumerator](../)
-* ad alanı [Aspose.Words.Layout](../../layoutenumerator/)
+* ad alanı [Aspose.Words.Layout](../../../aspose.words.layout/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## MoveParent(LayoutEntityType) {#moveparent_1}
+## MoveParent(*[LayoutEntityType](../../layoutentitytype/)*) {#moveparent_1}
 
 Belirtilen türdeki üst varlığa gider.
 
@@ -176,11 +178,11 @@ public bool MoveParent(LayoutEntityType types)
 | --- | --- | --- |
 | types | LayoutEntityType | Taşınacak üst varlık türü. Birden çok üst öğe türünü belirtmek için bitsel-VEYA'yı kullanın. |
 
-### Notlar
+## Notlar
 
 Varlığın hücresini, sütununu veya üstbilgi/altbilgisini bulmanız gerekiyorsa bu yöntem kullanışlıdır.
 
-### Örnekler
+## Örnekler
 
 Bir belgenin düzen varlıkları arasında geçiş yapma yollarını gösterir.
 
@@ -326,7 +328,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 
 * enum [LayoutEntityType](../../layoutentitytype/)
 * class [LayoutEnumerator](../)
-* ad alanı [Aspose.Words.Layout](../../layoutenumerator/)
+* ad alanı [Aspose.Words.Layout](../../../aspose.words.layout/)
 * toplantı [Aspose.Words](../../../)
-
-

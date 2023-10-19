@@ -1,9 +1,11 @@
 ---
 title: CellFormat.WrapText
-second_title: Aspose.Words for .NET API Referansı
-description: CellFormat mülk. Eğerdoğru  hücrenin metnini kaydır.
+linktitle: WrapText
+articleTitle: WrapText
+second_title: Aspose.Words for .NET
+description: CellFormat WrapText mülk. Eğerdoğru  hücrenin metnini kaydır C#'da.
 type: docs
-weight: 150
+weight: 140
 url: /tr/net/aspose.words.tables/cellformat/wraptext/
 ---
 ## CellFormat.WrapText property
@@ -14,7 +16,7 @@ Eğer`doğru` , hücrenin metnini kaydır.
 public bool WrapText { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Özel kenarlıklara sahip bir tablonun nasıl oluşturulacağını gösterir.
 
@@ -80,7 +82,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 ### Ayrıca bakınız
 
 * class [CellFormat](../)
-* ad alanı [Aspose.Words.Tables](../../cellformat/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

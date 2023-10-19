@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.TableWidthOutputMode
-second_title: Aspose.Words for .NET API Referansı
-description: HtmlSaveOptions mülk. Tablo satır ve hücre genişliklerinin HTML MHTML veya EPUBa nasıl aktarıldığını kontrol eder. Varsayılan değerAll .
+linktitle: TableWidthOutputMode
+articleTitle: TableWidthOutputMode
+second_title: Aspose.Words for .NET
+description: HtmlSaveOptions TableWidthOutputMode mülk. Tablo satır ve hücre genişliklerinin HTML MHTML veya EPUBa nasıl aktarıldığını kontrol eder. Varsayılan değerAll  C#'da.
 type: docs
 weight: 460
 url: /tr/net/aspose.words.saving/htmlsaveoptions/tablewidthoutputmode/
@@ -14,15 +16,15 @@ Tablo, satır ve hücre genişliklerinin HTML, MHTML veya EPUB'a nasıl aktarıl
 public HtmlElementSizeOutputMode TableWidthOutputMode { get; set; }
 ```
 
-### Notlar
+## Notlar
 
-HTML formatında tablo, satır ve hücre elemanları ( **&lt;tablo&gt;** , **&lt;tr&gt;** , **&lt;th&gt;** , **&lt;td&gt;**) 'nin genişlikleri bağıl (yüzde) veya mutlak birimlerle belirtilebilir. Aspose.Words'teki bir belgede tabloların, satırların ve hücrelerin genişlikleri göreceli veya mutlak birimler kullanılarak olarak belirtilebilir.
+HTML formatında tablo, satır ve hücre elemanları (**&lt;tablo&gt;** ,**&lt;tr&gt;** ,**&lt;th&gt;** ,**&lt;td&gt;**) 'nin genişlikleri bağıl (yüzde) veya mutlak birimlerle belirtilebilir. Aspose.Words'teki bir belgede tabloların, satırların ve hücrelerin genişlikleri göreceli veya mutlak birimler kullanılarak olarak belirtilebilir.
 
 Aspose.Words kullanarak bir belgeyi HTML'ye dönüştürdüğünüzde, ortaya çıkan belgenin görsel aracıda (örneğin bir tarayıcı veya görüntüleyici) nasıl görüntüleneceğini etkilemek için nasıl tablo, satır ve hücre genişliklerinin dışa aktarıldığını kontrol etmek isteyebilirsiniz.
 
 Hedef belgeye hangi tablo genişliği değerlerinin aktarılacağını belirtmek için bu özelliği filtre olarak kullanın. Örneğin, bir belgeyi EPUB'a dönüştürüyorsanız ve belgeyi mobil bir okuma cihazında görüntülemeyi düşünüyorsanız, muhtemelen bundan kaçınmak istersiniz mutlak genişlik değerlerini dışa aktarma. Bunu yapmak için çıkış modunu belirtmeniz gerekirRelativeOnly veyaNone böylece mobil cihazdaki izleyici, tabloyu ekranın genişliğine mümkün olan en iyi şekilde uyacak şekilde düzenleyebilir.
 
-### Örnekler
+## Örnekler
 
 .html çıktısında negatif girintilerin nasıl korunacağını gösterir.
 
@@ -85,7 +87,5 @@ else
 
 * enum [HtmlElementSizeOutputMode](../../htmlelementsizeoutputmode/)
 * class [HtmlSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../htmlsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

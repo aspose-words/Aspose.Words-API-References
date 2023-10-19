@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.UseYomi
-second_title: Aspose.Words for .NET API Referansı
-description: FieldIndex mülk. Dizin girişleri için yomi metni kullanımının etkinleştirilip etkinleştirilmeyeceğini alır veya ayarlar.
+linktitle: UseYomi
+articleTitle: UseYomi
+second_title: Aspose.Words for .NET
+description: FieldIndex UseYomi mülk. Dizin girişleri için yomi metni kullanımının etkinleştirilip etkinleştirilmeyeceğini alır veya ayarlar C#'da.
 type: docs
 weight: 170
 url: /tr/net/aspose.words.fields/fieldindex/useyomi/
@@ -14,7 +16,7 @@ Dizin girişleri için yomi metni kullanımının etkinleştirilip etkinleştiri
 public bool UseYomi { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 INDEX alanı girişlerinin fonetik olarak nasıl sıralanacağını gösterir.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Yomi.docx");
 ### Ayrıca bakınız
 
 * class [FieldIndex](../)
-* ad alanı [Aspose.Words.Fields](../../fieldindex/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

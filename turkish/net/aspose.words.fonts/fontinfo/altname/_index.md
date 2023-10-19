@@ -1,7 +1,9 @@
 ---
 title: FontInfo.AltName
-second_title: Aspose.Words for .NET API Referansı
-description: FontInfo mülk. Yazı tipinin alternatif adını alır veya ayarlar.
+linktitle: AltName
+articleTitle: AltName
+second_title: Aspose.Words for .NET
+description: FontInfo AltName mülk. Yazı tipinin alternatif adını alır veya ayarlar C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fonts/fontinfo/altname/
@@ -14,11 +16,11 @@ Yazı tipinin alternatif adını alır veya ayarlar.
 public string AltName { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Olamaz`hükümsüz`. Boş bir dize olabilir.
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki her yazı tipinin ayrıntılarına nasıl erişileceğini ve yazdırılacağını gösterir.
 
@@ -57,7 +59,5 @@ while (fontCollectionEnumerator.MoveNext())
 ### Ayrıca bakınız
 
 * class [FontInfo](../)
-* ad alanı [Aspose.Words.Fonts](../../fontinfo/)
+* ad alanı [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../../)
-
-

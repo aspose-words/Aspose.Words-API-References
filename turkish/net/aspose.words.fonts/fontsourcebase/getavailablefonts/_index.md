@@ -1,7 +1,9 @@
 ---
 title: FontSourceBase.GetAvailableFonts
-second_title: Aspose.Words for .NET API Referansı
-description: FontSourceBase yöntem. Bu kaynak aracılığıyla kullanılabilen yazı tiplerinin listesini döndürür.
+linktitle: GetAvailableFonts
+articleTitle: GetAvailableFonts
+second_title: Aspose.Words for .NET
+description: FontSourceBase GetAvailableFonts yöntem. Bu kaynak aracılığıyla kullanılabilen yazı tiplerinin listesini döndürür C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.fonts/fontsourcebase/getavailablefonts/
@@ -14,7 +16,7 @@ Bu kaynak aracılığıyla kullanılabilen yazı tiplerinin listesini döndürü
 public IList<PhysicalFontInfo> GetAvailableFonts()
 ```
 
-### Örnekler
+## Örnekler
 
 Kullanılabilir yazı tiplerinin nasıl listeleneceğini gösterir.
 
@@ -35,7 +37,5 @@ foreach (PhysicalFontInfo fontInfo in folderFontSource[0].GetAvailableFonts())
 
 * class [PhysicalFontInfo](../../physicalfontinfo/)
 * class [FontSourceBase](../)
-* ad alanı [Aspose.Words.Fonts](../../fontsourcebase/)
+* ad alanı [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../../)
-
-

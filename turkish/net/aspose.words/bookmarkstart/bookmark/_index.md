@@ -1,7 +1,9 @@
 ---
 title: BookmarkStart.Bookmark
-second_title: Aspose.Words for .NET API Referansı
-description: BookmarkStart mülk. Bu yer işaretinin başlangıcını ve bitişini kapsülleyen cephe nesnesini alır.
+linktitle: Bookmark
+articleTitle: Bookmark
+second_title: Aspose.Words for .NET
+description: BookmarkStart Bookmark mülk. Bu yer işaretinin başlangıcını ve bitişini kapsülleyen cephe nesnesini alır C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/bookmarkstart/bookmark/
@@ -14,7 +16,7 @@ Bu yer işaretinin başlangıcını ve bitişini kapsülleyen cephe nesnesini al
 public Bookmark Bookmark { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Yer işaretlerinin nasıl ekleneceğini ve içeriklerinin nasıl güncelleneceğini gösterir.
 
@@ -104,7 +106,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 * class [Bookmark](../../bookmark/)
 * class [BookmarkStart](../)
-* ad alanı [Aspose.Words](../../bookmarkstart/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

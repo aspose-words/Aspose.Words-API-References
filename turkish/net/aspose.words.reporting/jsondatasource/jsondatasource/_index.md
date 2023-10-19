@@ -1,12 +1,14 @@
 ---
-title: JsonDataSource.JsonDataSource
-second_title: Aspose.Words for .NET API Referansı
-description: JsonDataSource inşaatçı. JSON verilerini ayrıştırmak için varsayılan seçenekleri kullanarak bir JSON dosyasındaki verilerle yeni bir veri kaynağı oluşturur.
+title: JsonDataSource
+linktitle: JsonDataSource
+articleTitle: JsonDataSource
+second_title: Aspose.Words for .NET
+description: JsonDataSource inşaatçı. JSON verilerini ayrıştırmak için varsayılan seçenekleri kullanarak bir JSON dosyasındaki verilerle yeni bir veri kaynağı oluşturur C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.reporting/jsondatasource/jsondatasource/
 ---
-## JsonDataSource(string) {#constructor_2}
+## JsonDataSource(*string*) {#constructor_2}
 
 JSON verilerini ayrıştırmak için varsayılan seçenekleri kullanarak bir JSON dosyasındaki verilerle yeni bir veri kaynağı oluşturur.
 
@@ -21,12 +23,12 @@ public JsonDataSource(string jsonPath)
 ### Ayrıca bakınız
 
 * class [JsonDataSource](../)
-* ad alanı [Aspose.Words.Reporting](../../jsondatasource/)
+* ad alanı [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## JsonDataSource(Stream) {#constructor}
+## JsonDataSource(*Stream*) {#constructor}
 
 JSON verilerini ayrıştırmaya yönelik varsayılan seçenekleri kullanarak bir JSON akışından gelen verilerle yeni bir veri kaynağı oluşturur.
 
@@ -41,12 +43,12 @@ public JsonDataSource(Stream jsonStream)
 ### Ayrıca bakınız
 
 * class [JsonDataSource](../)
-* ad alanı [Aspose.Words.Reporting](../../jsondatasource/)
+* ad alanı [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## JsonDataSource(string, JsonDataLoadOptions) {#constructor_3}
+## JsonDataSource(*string, [JsonDataLoadOptions](../../jsondataloadoptions/)*) {#constructor_3}
 
 JSON verilerini ayrıştırmak için belirtilen seçenekleri kullanarak bir JSON dosyasındaki verilerle yeni bir veri kaynağı oluşturur.
 
@@ -63,12 +65,12 @@ public JsonDataSource(string jsonPath, JsonDataLoadOptions options)
 
 * class [JsonDataLoadOptions](../../jsondataloadoptions/)
 * class [JsonDataSource](../)
-* ad alanı [Aspose.Words.Reporting](../../jsondatasource/)
+* ad alanı [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## JsonDataSource(Stream, JsonDataLoadOptions) {#constructor_1}
+## JsonDataSource(*Stream, [JsonDataLoadOptions](../../jsondataloadoptions/)*) {#constructor_1}
 
 JSON verilerini ayrıştırmak için belirtilen seçenekleri kullanarak bir JSON akışından gelen verilerle yeni bir veri kaynağı oluşturur.
 
@@ -85,7 +87,5 @@ public JsonDataSource(Stream jsonStream, JsonDataLoadOptions options)
 
 * class [JsonDataLoadOptions](../../jsondataloadoptions/)
 * class [JsonDataSource](../)
-* ad alanı [Aspose.Words.Reporting](../../jsondatasource/)
+* ad alanı [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * toplantı [Aspose.Words](../../../)
-
-

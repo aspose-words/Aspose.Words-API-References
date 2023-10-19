@@ -1,7 +1,9 @@
 ---
 title: TabStopCollection.Before
-second_title: Aspose.Words for .NET API Referansı
-description: TabStopCollection yöntem. Belirtilen konumun solundaki ilk sekme durağını alır.
+linktitle: Before
+articleTitle: Before
+second_title: Aspose.Words for .NET
+description: TabStopCollection Before yöntem. Belirtilen konumun solundaki ilk sekme durağını alır C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words/tabstopcollection/before/
@@ -22,11 +24,11 @@ public TabStop Before(double position)
 
 Bir sekme durağı nesnesi veya`hükümsüz` uygun bir sekme durağı bulunamazsa.
 
-### Notlar
+## Notlar
 
 Sekme duraklarını atlar[`Alignment`](../../tabstop/alignment/) ayarlanırBar.
 
-### Örnekler
+## Örnekler
 
 Bir belgenin sekme durakları koleksiyonuyla nasıl çalışılacağını gösterir.
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 
 * class [TabStop](../../tabstop/)
 * class [TabStopCollection](../)
-* ad alanı [Aspose.Words](../../tabstopcollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

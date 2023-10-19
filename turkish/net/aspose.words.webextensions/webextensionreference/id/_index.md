@@ -1,7 +1,9 @@
 ---
 title: WebExtensionReference.Id
-second_title: Aspose.Words for .NET API Referansı
-description: WebExtensionReference mülk. Katalog sağlayıcı içindeki web uzantısıyla ilişkili tanımlayıcı.
+linktitle: Id
+articleTitle: Id
+second_title: Aspose.Words for .NET
+description: WebExtensionReference Id mülk. Katalog sağlayıcı içindeki web uzantısıyla ilişkili tanımlayıcı C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.webextensions/webextensionreference/id/
@@ -14,7 +16,7 @@ Katalog sağlayıcı içindeki web uzantısıyla ilişkili tanımlayıcı.
 public string Id { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgeye nasıl web uzantısı ekleneceğini gösterir.
 
@@ -59,7 +61,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### Ayrıca bakınız
 
 * class [WebExtensionReference](../)
-* ad alanı [Aspose.Words.WebExtensions](../../webextensionreference/)
+* ad alanı [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * toplantı [Aspose.Words](../../../)
-
-

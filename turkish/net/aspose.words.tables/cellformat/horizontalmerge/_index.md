@@ -1,9 +1,11 @@
 ---
 title: CellFormat.HorizontalMerge
-second_title: Aspose.Words for .NET API Referansı
-description: CellFormat mülk. Hücrenin satırdaki diğer hücrelerle yatay olarak nasıl birleştirileceğini belirtir.
+linktitle: HorizontalMerge
+articleTitle: HorizontalMerge
+second_title: Aspose.Words for .NET
+description: CellFormat HorizontalMerge mülk. Hücrenin satırdaki diğer hücrelerle yatay olarak nasıl birleştirileceğini belirtir C#'da.
 type: docs
-weight: 50
+weight: 40
 url: /tr/net/aspose.words.tables/cellformat/horizontalmerge/
 ---
 ## CellFormat.HorizontalMerge property
@@ -14,7 +16,7 @@ Hücrenin satırdaki diğer hücrelerle yatay olarak nasıl birleştirileceğini
 public CellMerge HorizontalMerge { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Tablo hücrelerinin yatay olarak nasıl birleştirileceğini gösterir.
 
@@ -80,7 +82,5 @@ public string PrintCellMergeType(Cell cell)
 * property [VerticalMerge](../verticalmerge/)
 * enum [CellMerge](../../cellmerge/)
 * class [CellFormat](../)
-* ad alanı [Aspose.Words.Tables](../../cellformat/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

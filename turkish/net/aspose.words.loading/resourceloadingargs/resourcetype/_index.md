@@ -1,7 +1,9 @@
 ---
 title: ResourceLoadingArgs.ResourceType
-second_title: Aspose.Words for .NET API Referansı
-description: ResourceLoadingArgs mülk. Kaynak türü.
+linktitle: ResourceType
+articleTitle: ResourceType
+second_title: Aspose.Words for .NET
+description: ResourceLoadingArgs ResourceType mülk. Kaynak türü C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.loading/resourceloadingargs/resourcetype/
@@ -14,7 +16,7 @@ Kaynak türü.
 public ResourceType ResourceType { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Dış kaynakları bir belgeye yükleme işleminin nasıl özelleştirileceğini gösterir.
 
@@ -78,7 +80,5 @@ private class ImageNameHandler : IResourceLoadingCallback
 
 * enum [ResourceType](../../resourcetype/)
 * class [ResourceLoadingArgs](../)
-* ad alanı [Aspose.Words.Loading](../../resourceloadingargs/)
+* ad alanı [Aspose.Words.Loading](../../../aspose.words.loading/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum PdfDigitalSignatureHashAlgorithm
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Saving.PdfDigitalSignatureHashAlgorithm Sıralama. Dijital imza tarafından kullanılan dijital karma algoritmayı belirtir.
+title: PdfDigitalSignatureHashAlgorithm Enum
+linktitle: PdfDigitalSignatureHashAlgorithm
+articleTitle: PdfDigitalSignatureHashAlgorithm
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Saving.PdfDigitalSignatureHashAlgorithm Sıralama. Dijital imza tarafından kullanılan dijital karma algoritmayı belirtir C#'da.
 type: docs
 weight: 5440
 url: /tr/net/aspose.words.saving/pdfdigitalsignaturehashalgorithm/
@@ -23,7 +25,7 @@ public enum PdfDigitalSignatureHashAlgorithm
 | Sha512 | `2` | SHA-512 karma algoritması. |
 | RipeMD160 | `3` | RIPEMD-160 karma algoritması. |
 
-### Örnekler
+## Örnekler
 
 Oluşturulan bir PDF belgesinin nasıl imzalanacağını gösterir.
 
@@ -56,5 +58,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 
 * ad alanı [Aspose.Words.Saving](../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../)
-
-

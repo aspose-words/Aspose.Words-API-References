@@ -1,7 +1,9 @@
 ---
-title: Enum ContentDisposition
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.ContentDisposition Sıralama. Belgeyi istemci tarayıcısında sunmanın farklı yollarını numaralandırır.
+title: ContentDisposition Enum
+linktitle: ContentDisposition
+articleTitle: ContentDisposition
+second_title: Aspose.Words for .NET
+description: Aspose.Words.ContentDisposition Sıralama. Belgeyi istemci tarayıcısında sunmanın farklı yollarını numaralandırır C#'da.
 type: docs
 weight: 340
 url: /tr/net/aspose.words/contentdisposition/
@@ -21,11 +23,11 @@ public enum ContentDisposition
 | Attachment | `0` | Belgeyi tarayıcıya gönderin ve belgeyi diske kaydetme veya belgenin uzantısıyla ilişkili uygulamada açma seçeneğini sunun. |
 | Inline | `1` | Belgeyi tarayıcıya gönderin ve belgeyi diske kaydetme veya tarayıcıda açma seçeneği sunar. |
 
-### Notlar
+## Notlar
 
 İstemci tarayıcısındaki gerçek davranışın, tarayıcının güvenlik yapılandırmasından etkilenebileceğini unutmayın.
 
-### Örnekler
+## Örnekler
 
 Adres-mektup birleştirmenin nasıl gerçekleştirileceğini ve ardından belgenin istemci tarayıcısına nasıl kaydedileceğini gösterir.
 
@@ -56,5 +58,3 @@ Assert.That(() => response.End(), Throws.TypeOf<NullReferenceException>());
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

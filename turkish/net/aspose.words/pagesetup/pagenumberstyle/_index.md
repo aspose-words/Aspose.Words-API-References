@@ -1,7 +1,9 @@
 ---
 title: PageSetup.PageNumberStyle
-second_title: Aspose.Words for .NET API Referansı
-description: PageSetup mülk. Sayfa numarası biçimini alır veya ayarlar.
+linktitle: PageNumberStyle
+articleTitle: PageNumberStyle
+second_title: Aspose.Words for .NET
+description: PageSetup PageNumberStyle mülk. Sayfa numarası biçimini alır veya ayarlar C#'da.
 type: docs
 weight: 320
 url: /tr/net/aspose.words/pagesetup/pagenumberstyle/
@@ -14,7 +16,7 @@ Sayfa numarası biçimini alır veya ayarlar.
 public NumberStyle PageNumberStyle { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir bölümde sayfa numaralandırmanın nasıl ayarlanacağını gösterir.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageNumbering.docx");
 
 * enum [NumberStyle](../../numberstyle/)
 * class [PageSetup](../)
-* ad alanı [Aspose.Words](../../pagesetup/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

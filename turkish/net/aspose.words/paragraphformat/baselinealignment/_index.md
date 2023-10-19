@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.BaselineAlignment
-second_title: Aspose.Words for .NET API Referansı
-description: ParagraphFormat mülk. Yazı tiplerinin bir satırdaki dikey konumunu alır veya ayarlar.
+linktitle: BaselineAlignment
+articleTitle: BaselineAlignment
+second_title: Aspose.Words for .NET
+description: ParagraphFormat BaselineAlignment mülk. Yazı tiplerinin bir satırdaki dikey konumunu alır veya ayarlar C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words/paragraphformat/baselinealignment/
@@ -14,7 +16,7 @@ Yazı tiplerinin bir satırdaki dikey konumunu alır veya ayarlar.
 public BaselineAlignment BaselineAlignment { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Yazı tiplerinin bir satırdaki dikey konumunun nasıl ayarlanacağını gösterir.
 
@@ -34,7 +36,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.ParagraphBaselineAlignment.docx");
 
 * enum [BaselineAlignment](../../baselinealignment/)
 * class [ParagraphFormat](../)
-* ad alanı [Aspose.Words](../../paragraphformat/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

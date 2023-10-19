@@ -1,7 +1,9 @@
 ---
 title: PageSavingArgs.KeepPageStreamOpen
-second_title: Aspose.Words for .NET API Referansı
-description: PageSavingArgs mülk. Aspose.Wordsün belge sayfasını kaydettikten sonra akışı açık mı tutması yoksa kapatması mı gerektiğini belirtir.
+linktitle: KeepPageStreamOpen
+articleTitle: KeepPageStreamOpen
+second_title: Aspose.Words for .NET
+description: PageSavingArgs KeepPageStreamOpen mülk. Aspose.Wordsün belge sayfasını kaydettikten sonra akışı açık mı tutması yoksa kapatması mı gerektiğini belirtir C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.saving/pagesavingargs/keeppagestreamopen/
@@ -14,11 +16,11 @@ Aspose.Words'ün belge sayfasını kaydettikten sonra akışı açık mı tutmas
 public bool KeepPageStreamOpen { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan:`YANLIŞ` ve Aspose.Words, sağladığınız akışını kapatacaktır.[`PageStream`](../pagestream/) içine bir belge sayfası yazdıktan sonra özellik. Belirt`doğru` Akışı açık tutmak için.
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi sayfa sayfa HTML'ye kaydetmek için geri aramanın nasıl kullanılacağını gösterir.
 
@@ -75,7 +77,5 @@ private class CustomFileNamePageSavingCallback : IPageSavingCallback
 ### Ayrıca bakınız
 
 * class [PageSavingArgs](../)
-* ad alanı [Aspose.Words.Saving](../../pagesavingargs/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

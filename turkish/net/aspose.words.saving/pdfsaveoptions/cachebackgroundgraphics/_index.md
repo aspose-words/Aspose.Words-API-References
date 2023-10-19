@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.CacheBackgroundGraphics
-second_title: Aspose.Words for .NET API Referansı
-description: PdfSaveOptions mülk. Belgenin arka planına yerleştirilen grafiklerin önbelleğe alınıp alınmayacağını belirleyen bir değer alır veya ayarlar.
+linktitle: CacheBackgroundGraphics
+articleTitle: CacheBackgroundGraphics
+second_title: Aspose.Words for .NET
+description: PdfSaveOptions CacheBackgroundGraphics mülk. Belgenin arka planına yerleştirilen grafiklerin önbelleğe alınıp alınmayacağını belirleyen bir değer alır veya ayarlar C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.saving/pdfsaveoptions/cachebackgroundgraphics/
@@ -14,7 +16,7 @@ Belgenin arka planına yerleştirilen grafiklerin önbelleğe alınıp alınmaya
 public bool CacheBackgroundGraphics { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:`doğru` ve arka plan grafikleri PDF belgesine xObject olarak yazılır.
 
@@ -24,7 +26,7 @@ Bazı şekiller önbelleğe alma için desteklenmez (alanlar, yer imleri, HRef'l
 
 Belge arka plan grafiği, bir sayfanın arka planı ve kenarlığının yanı sıra altbilgiye veya üstbilgiye yerleştirilen çeşitli şekiller, grafikler, resimlerdir.
 
-### Örnekler
+## Örnekler
 
 Belgenin arka planına yerleştirilen grafiklerin nasıl önbelleğe alınacağını gösterir.
 
@@ -45,7 +47,5 @@ Assert.Less(asposeToPdfSize, wordToPdfSize);
 ### Ayrıca bakınız
 
 * class [PdfSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../pdfsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

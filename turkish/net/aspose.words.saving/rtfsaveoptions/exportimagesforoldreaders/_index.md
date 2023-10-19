@@ -1,7 +1,9 @@
 ---
 title: RtfSaveOptions.ExportImagesForOldReaders
-second_title: Aspose.Words for .NET API Referansı
-description: RtfSaveOptions mülk. Eski okuyucular için anahtar kelimelerin RTFye yazılıp yazılmadığını belirtir. Bu RTF belgesinin boyutunu önemli ölçüde etkileyebilir. Varsayılan değerdoğru .
+linktitle: ExportImagesForOldReaders
+articleTitle: ExportImagesForOldReaders
+second_title: Aspose.Words for .NET
+description: RtfSaveOptions ExportImagesForOldReaders mülk. Eski okuyucular için anahtar kelimelerin RTFye yazılıp yazılmadığını belirtir. Bu RTF belgesinin boyutunu önemli ölçüde etkileyebilir. Varsayılan değerdoğru  C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.saving/rtfsaveoptions/exportimagesforoldreaders/
@@ -14,13 +16,13 @@ url: /tr/net/aspose.words.saving/rtfsaveoptions/exportimagesforoldreaders/
 public bool ExportImagesForOldReaders { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 "Eski okuyucular" Microsoft Word 97 öncesi uygulamalardır ve aynı zamanda WordPad'dir. Bu seçenek seçildiğinde`doğru` Aspose.Words ek RTF anahtar sözcükleri yazar. Bu anahtar sözcükler, belgenin "eski okuyucu" uygulamasında açıldığında doğru şekilde görüntülenmesini sağlar, ancak belgenin boyutunu önemli ölçüde artırabilir.
 
 Bu seçeneği şu şekilde ayarlarsanız`YANLIŞ`, bu durumda "eski okuyucularda" yalnızca WMF, EMF ve BMP formatlarındaki görüntüler görüntülenecektir.
 
-### Örnekler
+## Örnekler
 
 Özel seçeneklerle bir belgenin .rtf'ye nasıl kaydedileceğini gösterir.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "RtfSaveOptions.ExportImages.rtf", options);
 ### Ayrıca bakınız
 
 * class [RtfSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../rtfsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

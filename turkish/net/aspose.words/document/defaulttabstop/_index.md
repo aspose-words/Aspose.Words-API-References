@@ -1,7 +1,9 @@
 ---
 title: Document.DefaultTabStop
-second_title: Aspose.Words for .NET API Referansı
-description: Document mülk. Varsayılan sekme durakları arasındaki aralığı puan cinsinden alır veya ayarlar.
+linktitle: DefaultTabStop
+articleTitle: DefaultTabStop
+second_title: Aspose.Words for .NET
+description: Document DefaultTabStop mülk. Varsayılan sekme durakları arasındaki aralığı puan cinsinden alır veya ayarlar C#'da.
 type: docs
 weight: 90
 url: /tr/net/aspose.words/document/defaulttabstop/
@@ -14,7 +16,7 @@ Varsayılan sekme durakları arasındaki aralığı (puan cinsinden) alır veya 
 public double DefaultTabStop { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Sekme durağı konumları için özel aralığın nasıl ayarlanacağını gösterir.
 
@@ -35,7 +37,5 @@ builder.Writeln("Hello" + ControlChar.TabChar + "World!");
 * class [TabStopCollection](../../tabstopcollection/)
 * class [TabStop](../../tabstop/)
 * class [Document](../)
-* ad alanı [Aspose.Words](../../document/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Body.ParentSection
-second_title: Aspose.Words for .NET API Referansı
-description: Body mülk. Bu hikayenin ana bölümünü alır.
+linktitle: ParentSection
+articleTitle: ParentSection
+second_title: Aspose.Words for .NET
+description: Body ParentSection mülk. Bu hikayenin ana bölümünü alır C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/body/parentsection/
@@ -14,11 +16,11 @@ Bu hikayenin ana bölümünü alır.
 public Section ParentSection { get; }
 ```
 
-### Notlar
+## Notlar
 
 `ParentSection` eşdeğerdir[`ParentNode`](../../node/parentnode/) rol almak[`Section`](../../section/).
 
-### Örnekler
+## Örnekler
 
 Her bölümün sonunda son notların nasıl saklanacağını ve konumlarının nasıl değiştirileceğini gösterir.
 
@@ -78,7 +80,5 @@ private static void InsertSectionWithEndnote(Document doc, string sectionBodyTex
 
 * class [Section](../../section/)
 * class [Body](../)
-* ad alanı [Aspose.Words](../../body/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

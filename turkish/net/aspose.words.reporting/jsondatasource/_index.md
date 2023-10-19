@@ -1,7 +1,9 @@
 ---
-title: Class JsonDataSource
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Reporting.JsonDataSource sınıf. Bir raporda kullanılacak JSON dosyası veya akışına ait verilere erişim sağlar.
+title: JsonDataSource Class
+linktitle: JsonDataSource
+articleTitle: JsonDataSource
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Reporting.JsonDataSource sınıf. Bir raporda kullanılacak JSON dosyası veya akışına ait verilere erişim sağlar C#'da.
 type: docs
 weight: 4690
 url: /tr/net/aspose.words.reporting/jsondatasource/
@@ -20,12 +22,12 @@ public class JsonDataSource
 
 | İsim | Tanım |
 | --- | --- |
-| [JsonDataSource](jsondatasource/#constructor)(Stream) | JSON verilerini ayrıştırmaya yönelik varsayılan seçenekleri kullanarak bir JSON akışından gelen verilerle yeni bir veri kaynağı oluşturur. |
-| [JsonDataSource](jsondatasource/#constructor_2)(string) | JSON verilerini ayrıştırmak için varsayılan seçenekleri kullanarak bir JSON dosyasındaki verilerle yeni bir veri kaynağı oluşturur. |
-| [JsonDataSource](jsondatasource/#constructor_1)(Stream, JsonDataLoadOptions) | JSON verilerini ayrıştırmak için belirtilen seçenekleri kullanarak bir JSON akışından gelen verilerle yeni bir veri kaynağı oluşturur. |
-| [JsonDataSource](jsondatasource/#constructor_3)(string, JsonDataLoadOptions) | JSON verilerini ayrıştırmak için belirtilen seçenekleri kullanarak bir JSON dosyasındaki verilerle yeni bir veri kaynağı oluşturur. |
+| [JsonDataSource](jsondatasource/#constructor)(*Stream*) | JSON verilerini ayrıştırmaya yönelik varsayılan seçenekleri kullanarak bir JSON akışından gelen verilerle yeni bir veri kaynağı oluşturur. |
+| [JsonDataSource](jsondatasource/#constructor_2)(*string*) | JSON verilerini ayrıştırmak için varsayılan seçenekleri kullanarak bir JSON dosyasındaki verilerle yeni bir veri kaynağı oluşturur. |
+| [JsonDataSource](jsondatasource/#constructor_1)(*Stream, [JsonDataLoadOptions](../jsondataloadoptions/)*) | JSON verilerini ayrıştırmak için belirtilen seçenekleri kullanarak bir JSON akışından gelen verilerle yeni bir veri kaynağı oluşturur. |
+| [JsonDataSource](jsondatasource/#constructor_3)(*string, [JsonDataLoadOptions](../jsondataloadoptions/)*) | JSON verilerini ayrıştırmak için belirtilen seçenekleri kullanarak bir JSON dosyasındaki verilerle yeni bir veri kaynağı oluşturur. |
 
-### Notlar
+## Notlar
 
 Bir rapor oluştururken ilgili dosyanın veya akışın verilerine erişmek için, bu sınıfın bir örneğini as veri kaynağı olarak aşağıdakilerden birine iletin.[`ReportingEngine`](../reportingengine/) .BuildReport aşırı yüklemeleri.
 
@@ -47,5 +49,3 @@ JSON veri yüklemesinin varsayılan davranışını geçersiz kılmak için, bir
 
 * ad alanı [Aspose.Words.Reporting](../../aspose.words.reporting/)
 * toplantı [Aspose.Words](../../)
-
-

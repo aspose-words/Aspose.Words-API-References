@@ -1,7 +1,9 @@
 ---
 title: FieldXE.EntryType
-second_title: Aspose.Words for .NET API Referansı
-description: FieldXE mülk. Bir dizin giriş türünü alır veya ayarlar.
+linktitle: EntryType
+articleTitle: EntryType
+second_title: Aspose.Words for .NET
+description: FieldXE EntryType mülk. Bir dizin giriş türünü alır veya ayarlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fieldxe/entrytype/
@@ -14,7 +16,7 @@ Bir dizin giriş türünü alır veya ayarlar.
 public string EntryType { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir INDEX alanının nasıl oluşturulacağını ve ardından onu girişlerle doldurmak için XE alanlarının nasıl kullanılacağını gösterir.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Filtering.docx");
 ### Ayrıca bakınız
 
 * class [FieldXE](../)
-* ad alanı [Aspose.Words.Fields](../../fieldxe/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

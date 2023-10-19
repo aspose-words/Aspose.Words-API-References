@@ -1,7 +1,9 @@
 ---
 title: List.IsMultiLevel
-second_title: Aspose.Words for .NET API Referansı
-description: List mülk. İadelerdoğru liste 9 düzey içerdiğindeYANLIŞ 1 seviye olduğunda.
+linktitle: IsMultiLevel
+articleTitle: IsMultiLevel
+second_title: Aspose.Words for .NET
+description: List IsMultiLevel mülk. İadelerdoğru liste 9 düzey içerdiğindeYANLIŞ 1 seviye olduğunda C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.lists/list/ismultilevel/
@@ -14,13 +16,13 @@ url: /tr/net/aspose.words.lists/list/ismultilevel/
 public bool IsMultiLevel { get; }
 ```
 
-### Notlar
+## Notlar
 
 Aspose.Words ile oluşturduğunuz listeler her zaman çok seviyeli listelerdir ve 9 seviye içerirler.
 
 Microsoft Word 2003 ve sonraki sürümleri her zaman 9 düzeyli çok düzeyli listeler oluşturur. Ancak, Microsoft Word'ün önceki sürümleriyle oluşturulan bazı belgelerde yalnızca 1 düzeyi olan listelerle karşılaşabilirsiniz.
 
-### Örnekler
+## Örnekler
 
 Liste stilinin nasıl oluşturulacağını ve belgede nasıl kullanılacağını gösterir.
 
@@ -81,7 +83,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateAndUseListStyle.docx");
 ### Ayrıca bakınız
 
 * class [List](../)
-* ad alanı [Aspose.Words.Lists](../../list/)
+* ad alanı [Aspose.Words.Lists](../../../aspose.words.lists/)
 * toplantı [Aspose.Words](../../../)
-
-

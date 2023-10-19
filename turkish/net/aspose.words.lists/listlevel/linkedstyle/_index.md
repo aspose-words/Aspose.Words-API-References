@@ -1,7 +1,9 @@
 ---
 title: ListLevel.LinkedStyle
-second_title: Aspose.Words for .NET API Referansı
-description: ListLevel mülk. Bu liste düzeyine bağlı paragraf stilini alır veya ayarlar.
+linktitle: LinkedStyle
+articleTitle: LinkedStyle
+second_title: Aspose.Words for .NET
+description: ListLevel LinkedStyle mülk. Bu liste düzeyine bağlı paragraf stilini alır veya ayarlar C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.lists/listlevel/linkedstyle/
@@ -14,11 +16,11 @@ Bu liste düzeyine bağlı paragraf stilini alır veya ayarlar.
 public Style LinkedStyle { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu mülk`hükümsüz` liste düzeyi bir paragraf stiline bağlı olmadığında. Bu özellik şu şekilde ayarlanabilir:`hükümsüz`.
 
-### Örnekler
+## Örnekler
 
 Liste etiketlerini özelleştirmenin gelişmiş yollarını gösterir.
 
@@ -80,7 +82,5 @@ doc.Save(ArtifactsDir + "Lists.CreateListRestartAfterHigher.docx");
 
 * class [Style](../../../aspose.words/style/)
 * class [ListLevel](../)
-* ad alanı [Aspose.Words.Lists](../../listlevel/)
+* ad alanı [Aspose.Words.Lists](../../../aspose.words.lists/)
 * toplantı [Aspose.Words](../../../)
-
-

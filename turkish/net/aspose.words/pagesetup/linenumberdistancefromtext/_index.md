@@ -1,7 +1,9 @@
 ---
 title: PageSetup.LineNumberDistanceFromText
-second_title: Aspose.Words for .NET API Referansı
-description: PageSetup mülk. Satır numaralarının sağ kenarı ile belgenin sol kenarı arasındaki mesafeyi alır veya ayarlar.
+linktitle: LineNumberDistanceFromText
+articleTitle: LineNumberDistanceFromText
+second_title: Aspose.Words for .NET
+description: PageSetup LineNumberDistanceFromText mülk. Satır numaralarının sağ kenarı ile belgenin sol kenarı arasındaki mesafeyi alır veya ayarlar C#'da.
 type: docs
 weight: 220
 url: /tr/net/aspose.words/pagesetup/linenumberdistancefromtext/
@@ -14,11 +16,11 @@ Satır numaralarının sağ kenarı ile belgenin sol kenarı arasındaki mesafey
 public double LineNumberDistanceFromText { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Belgenin satır numaraları ile metni arasındaki otomatik mesafe için bu özelliği sıfıra ayarlayın.
 
-### Örnekler
+## Örnekler
 
 Bir bölüm için satır numaralandırmanın nasıl etkinleştirileceğini gösterir.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "PageSetup.LineNumbers.docx");
 ### Ayrıca bakınız
 
 * class [PageSetup](../)
-* ad alanı [Aspose.Words](../../pagesetup/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

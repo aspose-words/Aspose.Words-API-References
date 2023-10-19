@@ -1,7 +1,9 @@
 ---
 title: FieldMacroButton.DisplayText
-second_title: Aspose.Words for .NET API Referansı
-description: FieldMacroButton mülk. Metnin makroyu veya komutu çalıştırmak için seçilen düğme olarak görünmesini sağlar veya ayarlar.
+linktitle: DisplayText
+articleTitle: DisplayText
+second_title: Aspose.Words for .NET
+description: FieldMacroButton DisplayText mülk. Metnin makroyu veya komutu çalıştırmak için seçilen düğme olarak görünmesini sağlar veya ayarlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fieldmacrobutton/displaytext/
@@ -14,7 +16,7 @@ Metnin, makroyu veya komutu çalıştırmak için seçilen "düğme" olarak gör
 public string DisplayText { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Tıklayarak bir belgenin makrolarını çalıştırmamıza izin vermek için MACROBUTTON alanlarının nasıl kullanılacağını gösterir.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Field.MACROBUTTON.docm");
 ### Ayrıca bakınız
 
 * class [FieldMacroButton](../)
-* ad alanı [Aspose.Words.Fields](../../fieldmacrobutton/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

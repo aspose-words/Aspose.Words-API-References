@@ -1,7 +1,9 @@
 ---
 title: Range.Bookmarks
-second_title: Aspose.Words for .NET API Referansı
-description: Range mülk. Bir değeri döndürürBookmarks aralıktaki tüm yer işaretlerini temsil eden koleksiyon.
+linktitle: Bookmarks
+articleTitle: Bookmarks
+second_title: Aspose.Words for .NET
+description: Range Bookmarks mülk. Bir değeri döndürürBookmarks aralıktaki tüm yer işaretlerini temsil eden koleksiyon C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/range/bookmarks/
@@ -14,7 +16,7 @@ Bir değeri döndürür`Bookmarks` aralıktaki tüm yer işaretlerini temsil ede
 public BookmarkCollection Bookmarks { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Yer işaretlerinin nasıl ekleneceğini ve içeriklerinin nasıl güncelleneceğini gösterir.
 
@@ -104,7 +106,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 * class [BookmarkCollection](../../bookmarkcollection/)
 * class [Range](../)
-* ad alanı [Aspose.Words](../../range/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

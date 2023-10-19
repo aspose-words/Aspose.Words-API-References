@@ -1,7 +1,9 @@
 ---
 title: FieldAddressBlock.GetFieldNames
-second_title: Aspose.Words for .NET API Referansı
-description: FieldAddressBlock yöntem. Alan tarafından kullanılan adresmektup birleştirme alan adlarının bir koleksiyonunu döndürür.
+linktitle: GetFieldNames
+articleTitle: GetFieldNames
+second_title: Aspose.Words for .NET
+description: FieldAddressBlock GetFieldNames yöntem. Alan tarafından kullanılan adresmektup birleştirme alan adlarının bir koleksiyonunu döndürür C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.fields/fieldaddressblock/getfieldnames/
@@ -14,7 +16,7 @@ Alan tarafından kullanılan adres-mektup birleştirme alan adlarının bir kole
 public string[] GetFieldNames()
 ```
 
-### Örnekler
+## Örnekler
 
 Bir alan tarafından kullanılan adres-mektup birleştirme alan adlarının nasıl alınacağını gösterir.
 
@@ -34,7 +36,5 @@ string[] addressBlockFieldNames = addressBlockField.GetFieldNames();
 ### Ayrıca bakınız
 
 * class [FieldAddressBlock](../)
-* ad alanı [Aspose.Words.Fields](../../fieldaddressblock/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

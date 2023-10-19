@@ -1,9 +1,11 @@
 ---
 title: Cell.EnsureMinimum
-second_title: Aspose.Words for .NET API Referansı
-description: Cell yöntem. Son alt öğe bir paragraf değilse boş bir paragraf oluşturur ve ekler.
+linktitle: EnsureMinimum
+articleTitle: EnsureMinimum
+second_title: Aspose.Words for .NET
+description: Cell EnsureMinimum yöntem. Son alt öğe bir paragraf değilse boş bir paragraf oluşturur ve ekler C#'da.
 type: docs
-weight: 160
+weight: 140
 url: /tr/net/aspose.words.tables/cell/ensureminimum/
 ---
 ## Cell.EnsureMinimum method
@@ -14,7 +16,7 @@ Son alt öğe bir paragraf değilse, boş bir paragraf oluşturur ve ekler.
 public void EnsureMinimum()
 ```
 
-### Örnekler
+## Örnekler
 
 Bir hücre düğümünün, ona içerik eklemeye başlamak için ihtiyacımız olan düğümleri içerdiğinden nasıl emin olacağımızı gösterir.
 
@@ -40,7 +42,5 @@ cell.FirstParagraph.AppendChild(new Run(doc, "Hello world!"));
 ### Ayrıca bakınız
 
 * class [Cell](../)
-* ad alanı [Aspose.Words.Tables](../../cell/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

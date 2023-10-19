@@ -1,7 +1,9 @@
 ---
 title: Document.SpellingChecked
-second_title: Aspose.Words for .NET API Referansı
-description: Document mülk. İadelerdoğru belgenin yazım denetimi yapılmışsa.
+linktitle: SpellingChecked
+articleTitle: SpellingChecked
+second_title: Aspose.Words for .NET
+description: Document SpellingChecked mülk. İadelerdoğru belgenin yazım denetimi yapılmışsa C#'da.
 type: docs
 weight: 410
 url: /tr/net/aspose.words/document/spellingchecked/
@@ -14,11 +16,11 @@ url: /tr/net/aspose.words/document/spellingchecked/
 public bool SpellingChecked { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Belgedeki yazımı yeniden denetlemek için bu özelliği şu şekilde ayarlayın:`YANLIŞ` .
 
-### Örnekler
+## Örnekler
 
 Yazım veya dil bilgisi doğrulamanın nasıl ayarlanacağını gösterir.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Document.SpellingOrGrammar.docx");
 ### Ayrıca bakınız
 
 * class [Document](../)
-* ad alanı [Aspose.Words](../../document/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

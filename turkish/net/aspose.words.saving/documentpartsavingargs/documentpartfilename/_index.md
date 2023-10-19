@@ -1,7 +1,9 @@
 ---
 title: DocumentPartSavingArgs.DocumentPartFileName
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentPartSavingArgs mülk. Belge bölümünün kaydedileceği dosya adını yol olmadan alır veya ayarlar.
+linktitle: DocumentPartFileName
+articleTitle: DocumentPartFileName
+second_title: Aspose.Words for .NET
+description: DocumentPartSavingArgs DocumentPartFileName mülk. Belge bölümünün kaydedileceği dosya adını yol olmadan alır veya ayarlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.saving/documentpartsavingargs/documentpartfilename/
@@ -14,7 +16,7 @@ Belge bölümünün kaydedileceği dosya adını (yol olmadan) alır veya ayarla
 public string DocumentPartFileName { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özellik, HTML veya EPUB'a aktarma sırasında belge parçası dosya adlarının nasıl oluşturulduğunu yeniden tanımlamanıza olanak tanır.
 
@@ -22,7 +24,7 @@ Geri çağırma çağrıldığında bu özellik Aspose.Words tarafından oluştu
 
 `DocumentPartFileName` yol olmadan yalnızca dosya adını içermelidir. Aspose.Words, belge dosya adını kullanarak kaydetme yolunu belirler. Çıkış belgesi dosya adı belirtilmemişse, örneğin bir akışa kaydederken, bu dosya adı yalnızca belge bölümlerine referans vermek için kullanılır. EPUB formatında kaydederken de aynı durum geçerlidir.
 
-### Örnekler
+## Örnekler
 
 Bir belgenin nasıl parçalara ayrılacağını ve kaydedileceğini gösterir.
 
@@ -139,7 +141,5 @@ public class SavedImageRename : IImageSavingCallback
 ### Ayrıca bakınız
 
 * class [DocumentPartSavingArgs](../)
-* ad alanı [Aspose.Words.Saving](../../documentpartsavingargs/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

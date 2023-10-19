@@ -1,7 +1,9 @@
 ---
 title: FieldDdeAuto.IsLinked
-second_title: Aspose.Words for .NET API Referansı
-description: FieldDdeAuto mülk. Grafik verilerini belgede saklamayarak dosya boyutunun küçültülüp küçültülmeyeceğini alır veya ayarlar.
+linktitle: IsLinked
+articleTitle: IsLinked
+second_title: Aspose.Words for .NET
+description: FieldDdeAuto IsLinked mülk. Grafik verilerini belgede saklamayarak dosya boyutunun küçültülüp küçültülmeyeceğini alır veya ayarlar C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words.fields/fieldddeauto/islinked/
@@ -14,7 +16,7 @@ Grafik verilerini belgede saklamayarak dosya boyutunun küçültülüp küçült
 public bool IsLinked { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Yerel dosya sistemindeki diğer belgelere bağlanmak ve içeriklerini görüntülemek için çeşitli alan türlerinin nasıl kullanılacağını gösterir.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### Ayrıca bakınız
 
 * class [FieldDdeAuto](../)
-* ad alanı [Aspose.Words.Fields](../../fieldddeauto/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

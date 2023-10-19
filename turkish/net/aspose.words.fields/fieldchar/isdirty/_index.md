@@ -1,7 +1,9 @@
 ---
 title: FieldChar.IsDirty
-second_title: Aspose.Words for .NET API Referansı
-description: FieldChar mülk. Belgede yapılan diğer değişiklikler nedeniyle alanın geçerli sonucunun artık doğru eski olup olmadığını alır veya ayarlar.
+linktitle: IsDirty
+articleTitle: IsDirty
+second_title: Aspose.Words for .NET
+description: FieldChar IsDirty mülk. Belgede yapılan diğer değişiklikler nedeniyle alanın geçerli sonucunun artık doğru eski olup olmadığını alır veya ayarlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fieldchar/isdirty/
@@ -14,7 +16,7 @@ Belgede yapılan diğer değişiklikler nedeniyle alanın geçerli sonucunun art
 public bool IsDirty { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 FieldStart düğümüyle nasıl çalışılacağını gösterir.
 
@@ -45,7 +47,5 @@ field.Update();
 ### Ayrıca bakınız
 
 * class [FieldChar](../)
-* ad alanı [Aspose.Words.Fields](../../fieldchar/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

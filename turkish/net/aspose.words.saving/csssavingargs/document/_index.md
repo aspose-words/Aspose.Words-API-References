@@ -1,7 +1,9 @@
 ---
 title: CssSavingArgs.Document
-second_title: Aspose.Words for .NET API Referansı
-description: CssSavingArgs mülk. Şu anda kaydedilmekte olan belge nesnesini alır.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words for .NET
+description: CssSavingArgs Document mülk. Şu anda kaydedilmekte olan belge nesnesini alır C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.saving/csssavingargs/document/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.saving/csssavingargs/document/
 public Document Document { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir HTML dönüşümünün oluşturduğu CSS stil sayfalarıyla nasıl çalışılacağını gösterir.
 
@@ -76,7 +78,5 @@ private class CustomCssSavingCallback : ICssSavingCallback
 
 * class [Document](../../../aspose.words/document/)
 * class [CssSavingArgs](../)
-* ad alanı [Aspose.Words.Saving](../../csssavingargs/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

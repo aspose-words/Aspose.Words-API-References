@@ -1,7 +1,9 @@
 ---
-title: Enum RelativeHorizontalPosition
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.RelativeHorizontalPosition Sıralama. Bir şeklin veya metin çerçevesinin yatay konumunun göreli olduğunu belirtir.
+title: RelativeHorizontalPosition Enum
+linktitle: RelativeHorizontalPosition
+articleTitle: RelativeHorizontalPosition
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.RelativeHorizontalPosition Sıralama. Bir şeklin veya metin çerçevesinin yatay konumunun göreli olduğunu belirtir C#'da.
 type: docs
 weight: 1190
 url: /tr/net/aspose.words.drawing/relativehorizontalposition/
@@ -28,7 +30,7 @@ public enum RelativeHorizontalPosition
 | OutsideMargin | `7` | Yatay konumlandırmanın, geçerli sayfanın dış kenar boşluğuna göre olacağını belirtir (tek sayfalarda sağ kenar boşluğu, çift sayfalarda sol kenar boşluğu). |
 | Default | `2` | Varsayılan değer:Column . |
 
-### Örnekler
+## Örnekler
 
 Sayfanın ortasına kayan bir görüntünün nasıl ekleneceğini gösterir.
 
@@ -101,5 +103,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertWatermarkNetStandard2.docx");
 * property [RelativeHorizontalPosition](../shapebase/relativehorizontalposition/)
 * ad alanı [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../)
-
-

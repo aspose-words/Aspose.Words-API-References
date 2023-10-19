@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.MetafileFormat
-second_title: Aspose.Words for .NET API Referansı
-description: HtmlSaveOptions mülk. HTML MHTML veya EPUBa dışa aktarırken meta dosyalarının hangi formatta kaydedileceğini belirtir. Varsayılan değerPng  meta dosyalarının PNG görüntülerine raster olarak işlendiği anlamına gelir.
+linktitle: MetafileFormat
+articleTitle: MetafileFormat
+second_title: Aspose.Words for .NET
+description: HtmlSaveOptions MetafileFormat mülk. HTML MHTML veya EPUBa dışa aktarırken meta dosyalarının hangi formatta kaydedileceğini belirtir. Varsayılan değerPng  meta dosyalarının PNG görüntülerine raster olarak işlendiği anlamına gelir C#'da.
 type: docs
 weight: 380
 url: /tr/net/aspose.words.saving/htmlsaveoptions/metafileformat/
@@ -14,13 +16,13 @@ HTML, MHTML veya EPUB'a dışa aktarırken meta dosyalarının hangi formatta ka
 public HtmlMetafileFormat MetafileFormat { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Meta dosyalar orijinal olarak HTML tarayıcıları tarafından görüntülenmez. Aspose.Words, HTML'ye dışa aktarırken varsayılan olarak WMF ve EMF görüntülerini PNG dosyalarına dönüştürür. Diğer seçenekler meta dosyalarını SVG görüntülerine dönüştürmek veya bunları dönüştürme olmadan olduğu gibi dışa aktarmaktır.
 
 Bazı görüntü dönüştürmeleri, özellikle görüntü kırpma, eğer onlar dönüştürme olmadan HTML'ye aktarılırsa meta dosyası görüntülerine uygulanmayacaktır.
 
-### Örnekler
+## Örnekler
 
 HTML belgelerini kaydederken SVG nesnelerinin farklı bir formata nasıl dönüştürüleceğini gösterir.
 
@@ -82,7 +84,5 @@ switch (htmlMetafileFormat)
 * property [ScaleImageToShapeSize](../scaleimagetoshapesize/)
 * enum [HtmlMetafileFormat](../../htmlmetafileformat/)
 * class [HtmlSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../htmlsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

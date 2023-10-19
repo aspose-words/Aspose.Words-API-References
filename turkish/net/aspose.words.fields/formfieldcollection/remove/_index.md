@@ -1,7 +1,9 @@
 ---
 title: FormFieldCollection.Remove
-second_title: Aspose.Words for .NET API Referansı
-description: FormFieldCollection yöntem. Belirtilen ada sahip bir form alanını kaldırır.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words for .NET
+description: FormFieldCollection Remove yöntem. Belirtilen ada sahip bir form alanını kaldırır C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.fields/formfieldcollection/remove/
@@ -18,11 +20,11 @@ public void Remove(string formField)
 | --- | --- | --- |
 | formField | String | Kaldırılacak form alanının büyük/küçük harfe duyarlı olmayan adı. |
 
-### Notlar
+## Notlar
 
 Form alanıyla ilişkilendirilmiş bir yer imi varsa yer imi kaldırılmaz.
 
-### Örnekler
+## Örnekler
 
 Bir belgeye farklı türde form alanlarının nasıl eklendiğini ve bunların bir belge ziyaretçi uygulaması kullanılarak nasıl işlendiğini gösterir.
 
@@ -156,7 +158,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Ayrıca bakınız
 
 * class [FormFieldCollection](../)
-* ad alanı [Aspose.Words.Fields](../../formfieldcollection/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ReplacingArgs.MatchNode
-second_title: Aspose.Words for .NET API Referansı
-description: ReplacingArgs mülk. Eşleşmenin başlangıcını içeren düğümü alır.
+linktitle: MatchNode
+articleTitle: MatchNode
+second_title: Aspose.Words for .NET
+description: ReplacingArgs MatchNode mülk. Eşleşmenin başlangıcını içeren düğümü alır C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.replacing/replacingargs/matchnode/
@@ -14,7 +16,7 @@ Eşleşmenin başlangıcını içeren düğümü alır.
 public Node MatchNode { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bul ve değiştir işleminde bir eşleşmenin yerine belgenin içeriğinin tamamının nasıl ekleneceğini gösterir.
 
@@ -89,7 +91,5 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
 
 * class [Node](../../../aspose.words/node/)
 * class [ReplacingArgs](../)
-* ad alanı [Aspose.Words.Replacing](../../replacingargs/)
+* ad alanı [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * toplantı [Aspose.Words](../../../)
-
-

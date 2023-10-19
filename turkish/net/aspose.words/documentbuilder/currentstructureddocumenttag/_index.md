@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.CurrentStructuredDocumentTag
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentBuilder mülk. Şu anda seçili olan yapılandırılmış belge etiketini alır.DocumentBuilder .
+linktitle: CurrentStructuredDocumentTag
+articleTitle: CurrentStructuredDocumentTag
+second_title: Aspose.Words for .NET
+description: DocumentBuilder CurrentStructuredDocumentTag mülk. Şu anda seçili olan yapılandırılmış belge etiketini alır.DocumentBuilder  C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words/documentbuilder/currentstructureddocumenttag/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words/documentbuilder/currentstructureddocumenttag/
 public StructuredDocumentTag CurrentStructuredDocumentTag { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 DocumentBuilder imlecinin yapılandırılmış bir belge etiketi içinde nasıl hareket ettirileceğini gösterir.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "Document.MoveToStructuredDocumentTag.docx");
 
 * class [StructuredDocumentTag](../../../aspose.words.markup/structureddocumenttag/)
 * class [DocumentBuilder](../)
-* ad alanı [Aspose.Words](../../documentbuilder/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class CustomDocumentProperties
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Properties.CustomDocumentProperties sınıf. Özel belge özelliklerinden oluşan bir koleksiyon.
+title: CustomDocumentProperties Class
+linktitle: CustomDocumentProperties
+articleTitle: CustomDocumentProperties
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Properties.CustomDocumentProperties sınıf. Özel belge özelliklerinden oluşan bir koleksiyon C#'da.
 type: docs
 weight: 4460
 url: /tr/net/aspose.words.properties/customdocumentproperties/
@@ -28,20 +30,20 @@ public class CustomDocumentProperties : DocumentPropertyCollection
 
 | İsim | Tanım |
 | --- | --- |
-| [Add](../../aspose.words.properties/customdocumentproperties/add/#add)(string, bool) | Yeni bir özel belge özelliği oluşturur.Boolean veri türü. |
-| [Add](../../aspose.words.properties/customdocumentproperties/add/#add_3)(string, DateTime) | Yeni bir özel belge özelliği oluşturur.DateTime veri türü. |
-| [Add](../../aspose.words.properties/customdocumentproperties/add/#add_1)(string, double) | Yeni bir özel belge özelliği oluşturur.Double veri türü. |
-| [Add](../../aspose.words.properties/customdocumentproperties/add/#add_2)(string, int) | Yeni bir özel belge özelliği oluşturur.Number veri türü. |
-| [Add](../../aspose.words.properties/customdocumentproperties/add/#add_4)(string, string) | Yeni bir özel belge özelliği oluşturur.String veri türü. |
-| [AddLinkToContent](../../aspose.words.properties/customdocumentproperties/addlinktocontent/)(string, string) | İçeriğe bağlı yeni bir özel belge özelliği oluşturur. |
+| [Add](../../aspose.words.properties/customdocumentproperties/add/#add)(*string, bool*) | Yeni bir özel belge özelliği oluşturur.Boolean veri türü. |
+| [Add](../../aspose.words.properties/customdocumentproperties/add/#add_3)(*string, DateTime*) | Yeni bir özel belge özelliği oluşturur.DateTime veri türü. |
+| [Add](../../aspose.words.properties/customdocumentproperties/add/#add_1)(*string, double*) | Yeni bir özel belge özelliği oluşturur.Double veri türü. |
+| [Add](../../aspose.words.properties/customdocumentproperties/add/#add_2)(*string, int*) | Yeni bir özel belge özelliği oluşturur.Number veri türü. |
+| [Add](../../aspose.words.properties/customdocumentproperties/add/#add_4)(*string, string*) | Yeni bir özel belge özelliği oluşturur.String veri türü. |
+| [AddLinkToContent](../../aspose.words.properties/customdocumentproperties/addlinktocontent/)(*string, string*) | İçeriğe bağlı yeni bir özel belge özelliği oluşturur. |
 | [Clear](../../aspose.words.properties/documentpropertycollection/clear/)() | Koleksiyondaki tüm özellikleri kaldırır. |
-| [Contains](../../aspose.words.properties/documentpropertycollection/contains/)(string) | İadeler`doğru` koleksiyonda belirtilen ada sahip bir özellik mevcutsa. |
+| [Contains](../../aspose.words.properties/documentpropertycollection/contains/)(*string*) | İadeler`doğru` koleksiyonda belirtilen ada sahip bir özellik mevcutsa. |
 | [GetEnumerator](../../aspose.words.properties/documentpropertycollection/getenumerator/)() | Koleksiyondaki tüm öğeler üzerinde yineleme yapmak için kullanılabilecek bir numaralandırıcı nesnesini döndürür. |
-| [IndexOf](../../aspose.words.properties/documentpropertycollection/indexof/)(string) | Bir özelliğin dizinini ada göre alır. |
-| [Remove](../../aspose.words.properties/documentpropertycollection/remove/)(string) | Belirtilen ada sahip bir özelliği koleksiyondan kaldırır. |
-| [RemoveAt](../../aspose.words.properties/documentpropertycollection/removeat/)(int) | Belirtilen dizindeki bir özelliği kaldırır. |
+| [IndexOf](../../aspose.words.properties/documentpropertycollection/indexof/)(*string*) | Bir özelliğin dizinini ada göre alır. |
+| [Remove](../../aspose.words.properties/documentpropertycollection/remove/)(*string*) | Belirtilen ada sahip bir özelliği koleksiyondan kaldırır. |
+| [RemoveAt](../../aspose.words.properties/documentpropertycollection/removeat/)(*int*) | Belirtilen dizindeki bir özelliği kaldırır. |
 
-### Notlar
+## Notlar
 
 Her biri[`DocumentProperty`](../documentproperty/) nesne bir kapsayıcı belgenin özel bir özelliğini temsil eder.
 
@@ -49,7 +51,7 @@ Her biri[`DocumentProperty`](../documentproperty/) nesne bir kapsayıcı belgeni
 
 Koleksiyondaki özellikler ada göre alfabetik olarak sıralanmıştır.
 
-### Örnekler
+## Örnekler
 
 Özel belge özellikleriyle nasıl çalışılacağını gösterir.
 
@@ -79,5 +81,3 @@ foreach (var customDocumentProperty in doc.CustomDocumentProperties)
 * class [DocumentPropertyCollection](../documentpropertycollection/)
 * ad alanı [Aspose.Words.Properties](../../aspose.words.properties/)
 * toplantı [Aspose.Words](../../)
-
-

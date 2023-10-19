@@ -1,7 +1,9 @@
 ---
-title: FieldToa.FieldToa
-second_title: Aspose.Words for .NET API Referansı
-description: FieldToa inşaatçı. Default_Constructor
+title: FieldToa
+linktitle: FieldToa
+articleTitle: FieldToa
+second_title: Aspose.Words for .NET
+description: FieldToa inşaatçı. Default_Constructor C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fieldtoa/fieldtoa/
@@ -17,7 +19,5 @@ public FieldToa()
 ### Ayrıca bakınız
 
 * class [FieldToa](../)
-* ad alanı [Aspose.Words.Fields](../../fieldtoa/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

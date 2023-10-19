@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.FontsFolderAlias
-second_title: Aspose.Words for .NET API Referansı
-description: HtmlSaveOptions mülk. Bir HTML belgesine yazılan yazı tipi URIlerini oluşturmak için kullanılan klasörün adını belirtir. Varsayılan boş bir dizedir.
+linktitle: FontsFolderAlias
+articleTitle: FontsFolderAlias
+second_title: Aspose.Words for .NET
+description: HtmlSaveOptions FontsFolderAlias mülk. Bir HTML belgesine yazılan yazı tipi URIlerini oluşturmak için kullanılan klasörün adını belirtir. Varsayılan boş bir dizedir C#'da.
 type: docs
 weight: 320
 url: /tr/net/aspose.words.saving/htmlsaveoptions/fontsfolderalias/
@@ -14,7 +16,7 @@ Bir HTML belgesine yazılan yazı tipi URI'lerini oluşturmak için kullanılan 
 public string FontsFolderAlias { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bir kaydettiğinizde[`Document`](../../../aspose.words/document/) HTML formatında ve[`ExportFontResources`](../exportfontresources/) şu şekilde ayarlandı`doğru` , Aspose.Words'ün belgede kullanılan yazı tiplerini bağımsız dosyalar olarak kaydetmesi gerekir. [`FontsFolder`](../fontsfolder/) yazı tiplerinin nereye kaydedileceğini ve belirtmenizi sağlar`FontsFolderAlias` yazı tipi URI'lerinin nasıl oluşturulacağını belirlemeye olanak tanır.
 
@@ -26,7 +28,7 @@ Eğer`FontsFolderAlias`ayarlandı '.' (nokta) ise, diğer seçeneklere bakılmak
 
 URIs yazı tipini oluşturmak için klasörün adını belirtmenin alternatif yolu kullanmaktır[`ResourceFolderAlias`](../resourcefolderalias/).
 
-### Örnekler
+## Örnekler
 
 Aspose.Words'ün bir belgeyi HTML'ye kaydederken oluşturacağı harici olarak kaydedilen kaynaklar için klasörlerin ve klasör takma adlarının nasıl ayarlanacağını gösterir.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.FolderAlias.html", options);
 ### Ayrıca bakınız
 
 * class [HtmlSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../htmlsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

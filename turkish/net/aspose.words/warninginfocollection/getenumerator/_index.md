@@ -1,7 +1,9 @@
 ---
 title: WarningInfoCollection.GetEnumerator
-second_title: Aspose.Words for .NET API Referansı
-description: WarningInfoCollection yöntem. Koleksiyondaki tüm öğeler üzerinde yineleme yapmak için kullanılabilecek bir numaralandırıcı nesnesini döndürür.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words for .NET
+description: WarningInfoCollection GetEnumerator yöntem. Koleksiyondaki tüm öğeler üzerinde yineleme yapmak için kullanılabilecek bir numaralandırıcı nesnesini döndürür C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words/warninginfocollection/getenumerator/
@@ -14,7 +16,7 @@ Koleksiyondaki tüm öğeler üzerinde yineleme yapmak için kullanılabilecek b
 public IEnumerator<WarningInfo> GetEnumerator()
 ```
 
-### Örnekler
+## Örnekler
 
 Mevcut yazı tipi kaynaklarından eksik bir yazı tipi için en yakın eşleşmeyi bulma özelliğinin nasıl ayarlanacağını gösterir.
 
@@ -75,7 +77,5 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 
 * class [WarningInfo](../../warninginfo/)
 * class [WarningInfoCollection](../)
-* ad alanı [Aspose.Words](../../warninginfocollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

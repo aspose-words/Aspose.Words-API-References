@@ -1,7 +1,9 @@
 ---
 title: Table.HorizontalAnchor
-second_title: Aspose.Words for .NET API Referansı
-description: Table mülk. Kayan tablonun yatay konumunun hesaplanması gereken temel nesneyi alır. Varsayılan değerColumn .
+linktitle: HorizontalAnchor
+articleTitle: HorizontalAnchor
+second_title: Aspose.Words for .NET
+description: Table HorizontalAnchor mülk. Kayan tablonun yatay konumunun hesaplanması gereken temel nesneyi alır. Varsayılan değerColumn  C#'da.
 type: docs
 weight: 170
 url: /tr/net/aspose.words.tables/table/horizontalanchor/
@@ -14,7 +16,7 @@ Kayan tablonun yatay konumunun hesaplanması gereken temel nesneyi alır. Varsay
 public RelativeHorizontalPosition HorizontalAnchor { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Kayan tablo özellikleriyle nasıl çalışılacağını gösterir.
 
@@ -43,7 +45,5 @@ if (table.TextWrapping == TextWrapping.Around)
 
 * enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/)
 * class [Table](../)
-* ad alanı [Aspose.Words.Tables](../../table/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

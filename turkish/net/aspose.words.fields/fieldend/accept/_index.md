@@ -1,7 +1,9 @@
 ---
 title: FieldEnd.Accept
-second_title: Aspose.Words for .NET API Referansı
-description: FieldEnd yöntem. Ziyaretçi kabul eder.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words for .NET
+description: FieldEnd Accept yöntem. Ziyaretçi kabul eder C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fields/fieldend/accept/
@@ -22,13 +24,13 @@ public override bool Accept(DocumentVisitor visitor)
 
 **YANLIŞ** ziyaretçi numaralandırmanın durdurulmasını talep ederse.
 
-### Notlar
+## Notlar
 
 Aramalar[`VisitFieldEnd`](../../../aspose.words/documentvisitor/visitfieldend/).
 
 Daha fazla bilgi için Ziyaretçi tasarım desenine bakın.
 
-### Örnekler
+## Örnekler
 
 Bir alan koleksiyonuyla nasıl çalışılacağını gösterir.
 
@@ -132,7 +134,5 @@ public class FieldVisitor : DocumentVisitor
 
 * class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * class [FieldEnd](../)
-* ad alanı [Aspose.Words.Fields](../../fieldend/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

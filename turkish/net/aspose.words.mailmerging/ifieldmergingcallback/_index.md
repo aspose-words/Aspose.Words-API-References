@@ -1,7 +1,9 @@
 ---
-title: Interface IFieldMergingCallback
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.MailMerging.IFieldMergingCallback arayüz. Adresmektup birleştirme işlemi sırasında verilerin birleştirme alanlarına nasıl eklendiğini denetlemek istiyorsanız bu arayüzü uygulayın.
+title: IFieldMergingCallback Interface
+linktitle: IFieldMergingCallback
+articleTitle: IFieldMergingCallback
+second_title: Aspose.Words for .NET
+description: Aspose.Words.MailMerging.IFieldMergingCallback arayüz. Adresmektup birleştirme işlemi sırasında verilerin birleştirme alanlarına nasıl eklendiğini denetlemek istiyorsanız bu arayüzü uygulayın C#'da.
 type: docs
 weight: 3790
 url: /tr/net/aspose.words.mailmerging/ifieldmergingcallback/
@@ -18,10 +20,10 @@ public interface IFieldMergingCallback
 
 | İsim | Tanım |
 | --- | --- |
-| [FieldMerging](../../aspose.words.mailmerging/ifieldmergingcallback/fieldmerging/)(FieldMergingArgs) | Aspose.Words adres-mektup birleştirme motoru belgedeki birleştirme alanına veri eklemek üzereyken çağrılır. |
-| [ImageFieldMerging](../../aspose.words.mailmerging/ifieldmergingcallback/imagefieldmerging/)(ImageFieldMergingArgs) | Aspose.Words adres-mektup birleştirme motoru birleştirme alanına bir resim eklemek üzereyken çağrılır. |
+| [FieldMerging](../../aspose.words.mailmerging/ifieldmergingcallback/fieldmerging/)(*[FieldMergingArgs](../fieldmergingargs/)*) | Aspose.Words adres-mektup birleştirme motoru belgedeki birleştirme alanına veri eklemek üzereyken çağrılır. |
+| [ImageFieldMerging](../../aspose.words.mailmerging/ifieldmergingcallback/imagefieldmerging/)(*[ImageFieldMergingArgs](../imagefieldmergingargs/)*) | Aspose.Words adres-mektup birleştirme motoru birleştirme alanına bir resim eklemek üzereyken çağrılır. |
 
-### Örnekler
+## Örnekler
 
 Veritabanı BLOB alanında saklanan görüntülerin bir rapora nasıl ekleneceğini gösterir.
 
@@ -134,5 +136,3 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 
 * ad alanı [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * toplantı [Aspose.Words](../../)
-
-

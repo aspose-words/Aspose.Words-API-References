@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.TopRelative
-second_title: Aspose.Words for .NET API Referansı
-description: ShapeBase mülk. Şeklin göreli üst konumunu yüzde cinsinden temsil eden değeri alır veya ayarlar.
+linktitle: TopRelative
+articleTitle: TopRelative
+second_title: Aspose.Words for .NET
+description: ShapeBase TopRelative mülk. Şeklin göreli üst konumunu yüzde cinsinden temsil eden değeri alır veya ayarlar C#'da.
 type: docs
 weight: 550
 url: /tr/net/aspose.words.drawing/shapebase/toprelative/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.drawing/shapebase/toprelative/
 public float TopRelative { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Göreli boyut ve konumun nasıl ayarlanacağını gösterir.
 
@@ -69,7 +71,5 @@ doc.Save(ArtifactsDir + "Shape.RelativeSizeAndPosition.docx");
 ### Ayrıca bakınız
 
 * class [ShapeBase](../)
-* ad alanı [Aspose.Words.Drawing](../../shapebase/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

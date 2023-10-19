@@ -1,7 +1,9 @@
 ---
 title: CustomXmlProperty.Name
-second_title: Aspose.Words for .NET API Referansı
-description: CustomXmlProperty mülk. Özel XML niteliğinin veya akıllı etiket özelliğinin adını belirtir.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words for .NET
+description: CustomXmlProperty Name mülk. Özel XML niteliğinin veya akıllı etiket özelliğinin adını belirtir C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.markup/customxmlproperty/name/
@@ -14,13 +16,13 @@ url: /tr/net/aspose.words.markup/customxmlproperty/name/
 public string Name { get; }
 ```
 
-### Notlar
+## Notlar
 
 Olamaz`hükümsüz`.
 
 Varsayılan boş dizedir.
 
-### Örnekler
+## Örnekler
 
 Akıllı etiketlerin nasıl oluşturulacağını gösterir.
 
@@ -121,7 +123,5 @@ private class SmartTagPrinter : DocumentVisitor
 ### Ayrıca bakınız
 
 * class [CustomXmlProperty](../)
-* ad alanı [Aspose.Words.Markup](../../customxmlproperty/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

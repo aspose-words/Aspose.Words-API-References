@@ -1,7 +1,9 @@
 ---
 title: PageSetup.TextOrientation
-second_title: Aspose.Words for .NET API Referansı
-description: PageSetup mülk. Belirlemeye izin verirTextOrientation tüm sayfa için. Varsayılan değerHorizontal
+linktitle: TextOrientation
+articleTitle: TextOrientation
+second_title: Aspose.Words for .NET
+description: PageSetup TextOrientation mülk. Belirlemeye izin verirTextOrientation tüm sayfa için. Varsayılan değerHorizontal C#'da.
 type: docs
 weight: 430
 url: /tr/net/aspose.words/pagesetup/textorientation/
@@ -14,11 +16,11 @@ Belirlemeye izin verir`TextOrientation` tüm sayfa için. Varsayılan değer:Hor
 public TextOrientation TextOrientation { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özellik yalnızca MS Word yerel biçimleri DOCX, WML, RTF ve DOC için desteklenir.
 
-### Örnekler
+## Örnekler
 
 Metin yönünün nasıl ayarlanacağını gösterir.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "PageSetup.SetTextOrientation.docx");
 
 * enum [TextOrientation](../../textorientation/)
 * class [PageSetup](../)
-* ad alanı [Aspose.Words](../../pagesetup/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

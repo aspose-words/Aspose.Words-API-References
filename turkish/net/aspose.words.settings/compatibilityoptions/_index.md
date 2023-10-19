@@ -1,14 +1,16 @@
 ---
-title: Class CompatibilityOptions
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Settings.CompatibilityOptions sınıf. Uyumluluk seçeneklerini yani Uyumluluk sekmesi Seçenekler Microsoft Worddeki iletişim kutusu.
+title: CompatibilityOptions Class
+linktitle: CompatibilityOptions
+articleTitle: CompatibilityOptions
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Settings.CompatibilityOptions sınıf. Uyumluluk seçeneklerini yaniUyumluluk sekmesiSeçenekler Microsoft Worddeki iletişim kutusu C#'da.
 type: docs
 weight: 5780
 url: /tr/net/aspose.words.settings/compatibilityoptions/
 ---
 ## CompatibilityOptions class
 
-Uyumluluk seçeneklerini (yani, **Uyumluluk** sekmesi **Seçenekler** Microsoft Word'deki iletişim kutusu).
+Uyumluluk seçeneklerini (yani,**Uyumluluk** sekmesi**Seçenekler** Microsoft Word'deki iletişim kutusu).
 
 Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Dosya Formatını Algıla ve Format Uyumluluğunu Kontrol Et](https://docs.aspose.com/words/net/detect-file-format-and-check-format-compatibility/) dokümantasyon makalesi.
 
@@ -96,9 +98,9 @@ public class CompatibilityOptions
 
 | İsim | Tanım |
 | --- | --- |
-| [OptimizeFor](../../aspose.words.settings/compatibilityoptions/optimizefor/)(MsWordVersion) | Belge içeriklerinin yanı sıra varsayılan Aspose.Words davranışının MS Word'ün belirli bir sürümüne göre optimize edilmesine olanak tanır. |
+| [OptimizeFor](../../aspose.words.settings/compatibilityoptions/optimizefor/)(*[MsWordVersion](../mswordversion/)*) | Belge içeriklerinin yanı sıra varsayılan Aspose.Words davranışının MS Word'ün belirli bir sürümüne göre optimize edilmesine olanak tanır. |
 
-### Örnekler
+## Örnekler
 
 Bir metin kutusunun metin içeriğinin dikey olarak nasıl hizalanacağını gösterir.
 
@@ -214,5 +216,3 @@ private static void PrintCompatibilityOptions(CompatibilityOptions options)
 * property [CompatibilityOptions](../../aspose.words/document/compatibilityoptions/)
 * ad alanı [Aspose.Words.Settings](../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../)
-
-

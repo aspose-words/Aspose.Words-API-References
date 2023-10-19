@@ -1,7 +1,9 @@
 ---
 title: ThemeFonts.ComplexScript
-second_title: Aspose.Words for .NET API Referansı
-description: ThemeFonts mülk. ComplexScript karakterleri için yazı tipi adını belirtir.
+linktitle: ComplexScript
+articleTitle: ComplexScript
+second_title: Aspose.Words for .NET
+description: ThemeFonts ComplexScript mülk. ComplexScript karakterleri için yazı tipi adını belirtir C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.themes/themefonts/complexscript/
@@ -14,7 +16,7 @@ ComplexScript karakterleri için yazı tipi adını belirtir.
 public string ComplexScript { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Temalar için özel renklerin ve yazı tiplerinin nasıl ayarlanacağını gösterir.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 ### Ayrıca bakınız
 
 * class [ThemeFonts](../)
-* ad alanı [Aspose.Words.Themes](../../themefonts/)
+* ad alanı [Aspose.Words.Themes](../../../aspose.words.themes/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class ImageFieldMergingArgs
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.MailMerging.ImageFieldMergingArgs sınıf. Şunun için veri sağlarImageFieldMerging olay.
+title: ImageFieldMergingArgs Class
+linktitle: ImageFieldMergingArgs
+articleTitle: ImageFieldMergingArgs
+second_title: Aspose.Words for .NET
+description: Aspose.Words.MailMerging.ImageFieldMergingArgs sınıf. Şunun için veri sağlarImageFieldMerging olay C#'da.
 type: docs
 weight: 3830
 url: /tr/net/aspose.words.mailmerging/imagefieldmergingargs/
@@ -34,7 +36,7 @@ public class ImageFieldMergingArgs : FieldMergingArgsBase
 | [Shape](../../aspose.words.mailmerging/imagefieldmergingargs/shape/) { get; set; } | Adres-mektup birleştirme motorunun belgeye eklemesi gereken şekli belirtir. |
 | [TableName](../../aspose.words.mailmerging/fieldmergingargsbase/tablename/) { get; } | Geçerli birleştirme işlemi için veri tablosunun adını veya ad mevcut değilse boş dizeyi alır. |
 
-### Notlar
+## Notlar
 
 Bu olay, adres-mektup birleştirme sırasında, belgede bir resim adres-mektup birleştirme alanıyla karşılaşıldığında meydana gelir. a dosya adını, akışını veya bir akışını döndürmek için bu etkinliğe yanıt verebilirsiniz.Image adres-mektup birleştirme motoruna itiraz ederek belgeye eklenmesini sağlayın.
 
@@ -42,7 +44,7 @@ Bu olay, adres-mektup birleştirme sırasında, belgede bir resim adres-mektup b
 
 Word'deki bir belgeye resim adres-mektup birleştirme alanı eklemek için Ekle/Alan komutunu seçin, ardından MergeField'ı seçin ve Resim:AlanAdım yazın.
 
-### Örnekler
+## Örnekler
 
 Veritabanı BLOB alanında saklanan görüntülerin bir rapora nasıl ekleneceğini gösterir.
 
@@ -158,5 +160,3 @@ private class MergedImageResizer : IFieldMergingCallback
 * class [FieldMergingArgsBase](../fieldmergingargsbase/)
 * ad alanı [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * toplantı [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.IsSubsettingNeeded
-second_title: Aspose.Words for .NET API Referansı
-description: FontSavingArgs mülk. Geçerli yazı tipinin bir yazı tipi kaynağı olarak dışa aktarılmadan önce alt kümeye alınıp alınmayacağını belirlemeye izin verir.
+linktitle: IsSubsettingNeeded
+articleTitle: IsSubsettingNeeded
+second_title: Aspose.Words for .NET
+description: FontSavingArgs IsSubsettingNeeded mülk. Geçerli yazı tipinin bir yazı tipi kaynağı olarak dışa aktarılmadan önce alt kümeye alınıp alınmayacağını belirlemeye izin verir C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.saving/fontsavingargs/issubsettingneeded/
@@ -14,13 +16,13 @@ Geçerli yazı tipinin, bir yazı tipi kaynağı olarak dışa aktarılmadan ön
 public bool IsSubsettingNeeded { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Yazı tipleri, tam orijinal yazı tipi dosyaları olarak dışa aktarılabilir veya yalnızca belgede kullanılan karakterleri içerecek şekilde alt kümelere ayrılabilir. Alt kümeleme, ortaya çıkan yazı tipi kaynağı boyutunun azaltılmasına olanak tanır.
 
 Varsayılan olarak Aspose.Words, orijinal yazı tipi dosyasının boyutunu şurada belirtilenle karşılaştırarak alt kümeleme yapılıp yapılmayacağına karar verir.[`FontResourcesSubsettingSizeThreshold`](../../htmlsaveoptions/fontresourcessubsettingsizethreshold/) . Tek tek yazı tipleri için bu davranışı geçersiz kılabilirsiniz.`IsSubsettingNeeded` mülk.
 
-### Örnekler
+## Örnekler
 
 HTML'ye kaydederken yazı tiplerini dışa aktarmak için özel mantığın nasıl tanımlanacağını gösterir.
 
@@ -80,7 +82,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### Ayrıca bakınız
 
 * class [FontSavingArgs](../)
-* ad alanı [Aspose.Words.Saving](../../fontsavingargs/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

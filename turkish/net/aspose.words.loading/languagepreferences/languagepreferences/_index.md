@@ -1,7 +1,9 @@
 ---
-title: LanguagePreferences.LanguagePreferences
-second_title: Aspose.Words for .NET API Referansı
-description: LanguagePreferences inşaatçı. Default_Constructor
+title: LanguagePreferences
+linktitle: LanguagePreferences
+articleTitle: LanguagePreferences
+second_title: Aspose.Words for .NET
+description: LanguagePreferences inşaatçı. Default_Constructor C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.loading/languagepreferences/languagepreferences/
@@ -17,7 +19,5 @@ public LanguagePreferences()
 ### Ayrıca bakınız
 
 * class [LanguagePreferences](../)
-* ad alanı [Aspose.Words.Loading](../../languagepreferences/)
+* ad alanı [Aspose.Words.Loading](../../../aspose.words.loading/)
 * toplantı [Aspose.Words](../../../)
-
-

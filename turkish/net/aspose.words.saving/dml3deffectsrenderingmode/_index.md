@@ -1,7 +1,9 @@
 ---
-title: Enum Dml3DEffectsRenderingMode
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Saving.Dml3DEffectsRenderingMode Sıralama. 3B şekil efektlerinin nasıl oluşturulacağını belirtir.
+title: Dml3DEffectsRenderingMode Enum
+linktitle: Dml3DEffectsRenderingMode
+articleTitle: Dml3DEffectsRenderingMode
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Saving.Dml3DEffectsRenderingMode Sıralama. 3B şekil efektlerinin nasıl oluşturulacağını belirtir C#'da.
 type: docs
 weight: 4900
 url: /tr/net/aspose.words.saving/dml3deffectsrenderingmode/
@@ -25,5 +27,3 @@ public enum Dml3DEffectsRenderingMode
 
 * ad alanı [Aspose.Words.Saving](../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Field.LocaleId
-second_title: Aspose.Words for .NET API Referansı
-description: Field mülk. Alanın LCIDsini alır veya ayarlar.
+linktitle: LocaleId
+articleTitle: LocaleId
+second_title: Aspose.Words for .NET
+description: Field LocaleId mülk. Alanın LCIDsini alır veya ayarlar C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.fields/field/localeid/
@@ -14,7 +16,7 @@ Alanın LCID'sini alır veya ayarlar.
 public int LocaleId { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir alanın nasıl ekleneceğini ve yerel ayarıyla nasıl çalışılacağını gösterir.
 
@@ -42,7 +44,5 @@ Console.WriteLine($"Today's date, as displayed according to the \"{CultureInfo.G
 ### Ayrıca bakınız
 
 * class [Field](../)
-* ad alanı [Aspose.Words.Fields](../../field/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

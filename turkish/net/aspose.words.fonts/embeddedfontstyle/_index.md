@@ -1,7 +1,9 @@
 ---
-title: Enum EmbeddedFontStyle
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Fonts.EmbeddedFontStyle Sıralama. Bir dosyanın içindeki gömülü yazı tipinin stilini belirtir.FontInfo nesne.
+title: EmbeddedFontStyle Enum
+linktitle: EmbeddedFontStyle
+articleTitle: EmbeddedFontStyle
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Fonts.EmbeddedFontStyle Sıralama. Bir dosyanın içindeki gömülü yazı tipinin stilini belirtir.FontInfo nesne C#'da.
 type: docs
 weight: 2860
 url: /tr/net/aspose.words.fonts/embeddedfontstyle/
@@ -24,7 +26,7 @@ public enum EmbeddedFontStyle
 | Italic | `2` | İtalik gömülü yazı tipini belirtir. |
 | BoldItalic | `3` | Kalın-İtalik gömülü yazı tipini belirtir. |
 
-### Örnekler
+## Örnekler
 
 Katıştırılmış bir yazı tipinin bir belgeden nasıl çıkarılacağını ve yerel dosya sistemine nasıl kaydedileceğini gösterir.
 
@@ -52,5 +54,3 @@ File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.otf", embeddedFon
 
 * ad alanı [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../)
-
-

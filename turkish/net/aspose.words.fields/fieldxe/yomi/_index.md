@@ -1,7 +1,9 @@
 ---
 title: FieldXE.Yomi
-second_title: Aspose.Words for .NET API Referansı
-description: FieldXE mülk. Dizin girişi için yomiyi indeksleri sıralamak için ilk fonetik karakter alır veya ayarlar
+linktitle: Yomi
+articleTitle: Yomi
+second_title: Aspose.Words for .NET
+description: FieldXE Yomi mülk. Dizin girişi için yomiyi indeksleri sıralamak için ilk fonetik karakter alır veya ayarlar C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words.fields/fieldxe/yomi/
@@ -14,7 +16,7 @@ Dizin girişi için yomi'yi (indeksleri sıralamak için ilk fonetik karakter) a
 public string Yomi { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 INDEX alanı girişlerinin fonetik olarak nasıl sıralanacağını gösterir.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Yomi.docx");
 ### Ayrıca bakınız
 
 * class [FieldXE](../)
-* ad alanı [Aspose.Words.Fields](../../fieldxe/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

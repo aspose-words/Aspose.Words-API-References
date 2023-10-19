@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.SnapToGrid
-second_title: Aspose.Words for .NET API Referansı
-description: ParagraphFormat mülk. Geçerli paragrafın paragraftaki içerikleri düzenlerken sayfa başına belge ızgara çizgilerini kullanıp kullanmayacağını ayarlar belirtir.
+linktitle: SnapToGrid
+articleTitle: SnapToGrid
+second_title: Aspose.Words for .NET
+description: ParagraphFormat SnapToGrid mülk. Geçerli paragrafın paragraftaki içerikleri düzenlerken sayfa başına belge ızgara çizgilerini kullanıp kullanmayacağını ayarlar belirtir C#'da.
 type: docs
 weight: 290
 url: /tr/net/aspose.words/paragraphformat/snaptogrid/
@@ -14,7 +16,7 @@ Geçerli paragrafın, paragraftaki içerikleri düzenlerken sayfa başına belge
 public bool SnapToGrid { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Her sayfanın sahip olabileceği satır sayısına ilişkin sınırın nasıl belirleneceğini gösterir.
 
@@ -38,7 +40,5 @@ doc.Save(ArtifactsDir + "PageSetup.LinesPerPage.docx");
 ### Ayrıca bakınız
 
 * class [ParagraphFormat](../)
-* ad alanı [Aspose.Words](../../paragraphformat/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

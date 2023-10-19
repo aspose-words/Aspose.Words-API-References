@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.MoveFirstChild
-second_title: Aspose.Words for .NET API Referansı
-description: LayoutEnumerator yöntem. İlk alt varlığa gider.
+linktitle: MoveFirstChild
+articleTitle: MoveFirstChild
+second_title: Aspose.Words for .NET
+description: LayoutEnumerator MoveFirstChild yöntem. İlk alt varlığa gider C#'da.
 type: docs
 weight: 100
 url: /tr/net/aspose.words.layout/layoutenumerator/movefirstchild/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.layout/layoutenumerator/movefirstchild/
 public bool MoveFirstChild()
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgenin düzen varlıkları arasında geçiş yapma yollarını gösterir.
 
@@ -159,7 +161,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 ### Ayrıca bakınız
 
 * class [LayoutEnumerator](../)
-* ad alanı [Aspose.Words.Layout](../../layoutenumerator/)
+* ad alanı [Aspose.Words.Layout](../../../aspose.words.layout/)
 * toplantı [Aspose.Words](../../../)
-
-

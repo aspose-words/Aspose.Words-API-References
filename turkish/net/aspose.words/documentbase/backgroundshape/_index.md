@@ -1,7 +1,9 @@
 ---
 title: DocumentBase.BackgroundShape
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentBase mülk. Belgenin arka plan şeklini alır veya ayarlar. Olabilirhükümsüz .
+linktitle: BackgroundShape
+articleTitle: BackgroundShape
+second_title: Aspose.Words for .NET
+description: DocumentBase BackgroundShape mülk. Belgenin arka plan şeklini alır veya ayarlar. Olabilirhükümsüz  C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/documentbase/backgroundshape/
@@ -14,7 +16,7 @@ Belgenin arka plan şeklini alır veya ayarlar. Olabilir`hükümsüz` .
 public Shape BackgroundShape { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Microsoft Word yalnızca kendine ait bir şekle izin verir[`ShapeType`](../../../aspose.words.drawing/shapebase/shapetype/) özellik equal -Rectangle bir belge için arka plan şekli olarak kullanılacak.
 
@@ -22,7 +24,7 @@ Microsoft Word yalnızca arka plan şeklinin dolgu özelliklerini destekler. Di�
 
 Bu özelliğin null olmayan bir değere ayarlanması aynı zamanda[`DisplayBackgroundShape`](../../../aspose.words.settings/viewoptions/displaybackgroundshape/) ile`doğru`.
 
-### Örnekler
+## Örnekler
 
 Bir belgenin her sayfası için arka plan şeklinin nasıl ayarlanacağını gösterir.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "DocumentBase.BackgroundShape.Image.pdf", saveOptions);
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBase](../)
-* ad alanı [Aspose.Words](../../documentbase/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

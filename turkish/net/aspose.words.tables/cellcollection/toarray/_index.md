@@ -1,7 +1,9 @@
 ---
 title: CellCollection.ToArray
-second_title: Aspose.Words for .NET API Referansı
-description: CellCollection yöntem. Koleksiyondaki tüm hücreleri yeni bir hücre dizisine kopyalar.
+linktitle: ToArray
+articleTitle: ToArray
+second_title: Aspose.Words for .NET
+description: CellCollection ToArray yöntem. Koleksiyondaki tüm hücreleri yeni bir hücre dizisine kopyalar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.tables/cellcollection/toarray/
@@ -18,7 +20,7 @@ public Cell[] ToArray()
 
 Bir dizi hücre.
 
-### Örnekler
+## Örnekler
 
 Belgedeki tüm tabloların nasıl yineleneceğini ve her hücrenin içeriğinin nasıl yazdırılacağını gösterir.
 
@@ -65,7 +67,5 @@ for (int i = 0; i < tables.Count; i++)
 
 * class [Cell](../../cell/)
 * class [CellCollection](../)
-* ad alanı [Aspose.Words.Tables](../../cellcollection/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

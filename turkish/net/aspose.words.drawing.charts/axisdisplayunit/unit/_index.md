@@ -1,7 +1,9 @@
 ---
 title: AxisDisplayUnit.Unit
-second_title: Aspose.Words for .NET API Referansı
-description: AxisDisplayUnit mülk. Görüntü birimlerinin ölçeklendirme değerini önceden tanımlanmış değerlerden biri olarak alır veya ayarlar.
+linktitle: Unit
+articleTitle: Unit
+second_title: Aspose.Words for .NET
+description: AxisDisplayUnit Unit mülk. Görüntü birimlerinin ölçeklendirme değerini önceden tanımlanmış değerlerden biri olarak alır veya ayarlar C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.drawing.charts/axisdisplayunit/unit/
@@ -14,11 +16,11 @@ Görüntü birimlerinin ölçeklendirme değerini önceden tanımlanmış değer
 public AxisBuiltInUnit Unit { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:None .Custom ve Percentage değerler bazı grafik türlerinde mevcut değildir; bkz.x000d_[`AxisBuiltInUnit`](../../axisbuiltinunit/) daha fazla bilgi için.
 
-### Örnekler
+## Örnekler
 
 Bir grafik ekseninin onay işaretlerinin ve görüntülenen değerlerinin nasıl değiştirileceğini gösterir.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 
 * enum [AxisBuiltInUnit](../../axisbuiltinunit/)
 * class [AxisDisplayUnit](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../axisdisplayunit/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

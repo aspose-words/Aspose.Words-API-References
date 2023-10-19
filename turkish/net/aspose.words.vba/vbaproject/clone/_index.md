@@ -1,7 +1,9 @@
 ---
 title: VbaProject.Clone
-second_title: Aspose.Words for .NET API Referansı
-description: VbaProject yöntem. Bir kopyasını gerçekleştirirVbaProject .
+linktitle: Clone
+articleTitle: Clone
+second_title: Aspose.Words for .NET
+description: VbaProject Clone yöntem. Bir kopyasını gerçekleştirirVbaProject  C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.vba/vbaproject/clone/
@@ -18,7 +20,7 @@ public VbaProject Clone()
 
 Klonlanmış[`VbaProject`](../).
 
-### Örnekler
+## Örnekler
 
 Bir VBA projesinin ve modülünün nasıl derinlemesine klonlanacağını gösterir.
 
@@ -42,7 +44,5 @@ destDoc.Save(ArtifactsDir + "VbaProject.CloneVbaProject.docm");
 ### Ayrıca bakınız
 
 * class [VbaProject](../)
-* ad alanı [Aspose.Words.Vba](../../vbaproject/)
+* ad alanı [Aspose.Words.Vba](../../../aspose.words.vba/)
 * toplantı [Aspose.Words](../../../)
-
-

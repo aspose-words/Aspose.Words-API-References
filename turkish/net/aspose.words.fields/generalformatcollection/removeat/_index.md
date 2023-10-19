@@ -1,7 +1,9 @@
 ---
 title: GeneralFormatCollection.RemoveAt
-second_title: Aspose.Words for .NET API Referansı
-description: GeneralFormatCollection yöntem. Belirtilen dizindeki genel format oluşumunu kaldırır.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words for .NET
+description: GeneralFormatCollection RemoveAt yöntem. Belirtilen dizindeki genel format oluşumunu kaldırır C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.fields/generalformatcollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 |  |
 
-### Örnekler
+## Örnekler
 
 Alan sonuçlarının nasıl biçimlendirileceğini gösterir.
 
@@ -82,7 +84,5 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 ### Ayrıca bakınız
 
 * class [GeneralFormatCollection](../)
-* ad alanı [Aspose.Words.Fields](../../generalformatcollection/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CellCollection.Item
-second_title: Aspose.Words for .NET API Referansı
-description: CellCollection mülk. Bir öğeyi alırCell verilen dizinde.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words for .NET
+description: CellCollection Item mülk. Bir öğeyi alırCell verilen dizinde C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.tables/cellcollection/item/
@@ -18,7 +20,7 @@ public Cell this[int index] { get; }
 | --- | --- |
 | index | Koleksiyona bir dizin. |
 
-### Notlar
+## Notlar
 
 Endeks sıfır bazlıdır.
 
@@ -28,7 +30,7 @@ Dizin listedeki öğe sayısından büyük veya ona eşitse bu, boş bir başvur
 
 Dizin negatifse ve mutlak değeri listedeki öğe sayısından büyükse bu, boş bir başvuru döndürür.
 
-### Örnekler
+## Örnekler
 
 Belgedeki tüm tabloların nasıl yineleneceğini ve her hücrenin içeriğinin nasıl yazdırılacağını gösterir.
 
@@ -75,7 +77,5 @@ for (int i = 0; i < tables.Count; i++)
 
 * class [Cell](../../cell/)
 * class [CellCollection](../)
-* ad alanı [Aspose.Words.Tables](../../cellcollection/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

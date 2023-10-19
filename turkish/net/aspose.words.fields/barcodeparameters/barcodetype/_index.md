@@ -1,7 +1,9 @@
 ---
 title: BarcodeParameters.BarcodeType
-second_title: Aspose.Words for .NET API Referansı
-description: BarcodeParameters mülk. Barkod türü.
+linktitle: BarcodeType
+articleTitle: BarcodeType
+second_title: Aspose.Words for .NET
+description: BarcodeParameters BarcodeType mülk. Barkod türü C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.fields/barcodeparameters/barcodetype/
@@ -14,7 +16,7 @@ Barkod türü.
 public string BarcodeType { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Barkod oluşturucunun nasıl kullanılacağını gösterir.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 ### Ayrıca bakınız
 
 * class [BarcodeParameters](../)
-* ad alanı [Aspose.Words.Fields](../../barcodeparameters/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

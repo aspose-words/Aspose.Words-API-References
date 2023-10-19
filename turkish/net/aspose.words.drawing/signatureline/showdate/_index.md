@@ -1,7 +1,9 @@
 ---
 title: SignatureLine.ShowDate
-second_title: Aspose.Words for .NET API Referansı
-description: SignatureLine mülk. İmza satırında imza tarihinin gösterildiğini belirten bir değer alır veya ayarlar. Bu özelliğin varsayılan değeridoğru .
+linktitle: ShowDate
+articleTitle: ShowDate
+second_title: Aspose.Words for .NET
+description: SignatureLine ShowDate mülk. İmza satırında imza tarihinin gösterildiğini belirten bir değer alır veya ayarlar. Bu özelliğin varsayılan değeridoğru  C#'da.
 type: docs
 weight: 90
 url: /tr/net/aspose.words.drawing/signatureline/showdate/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.drawing/signatureline/showdate/
 public bool ShowDate { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 İmza için nasıl satır oluşturulacağını ve bunun belgeye nasıl ekleneceğini gösterir.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "Shape.SignatureLine.docx");
 ### Ayrıca bakınız
 
 * class [SignatureLine](../)
-* ad alanı [Aspose.Words.Drawing](../../signatureline/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

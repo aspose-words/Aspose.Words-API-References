@@ -1,12 +1,14 @@
 ---
 title: MailMerge.ExecuteWithRegions
-second_title: Aspose.Words for .NET API Referansı
-description: MailMerge yöntem. Adresmektup birleştirme bölgelerine sahip özel bir veri kaynağından adresmektup birleştirme gerçekleştirir.
+linktitle: ExecuteWithRegions
+articleTitle: ExecuteWithRegions
+second_title: Aspose.Words for .NET
+description: MailMerge ExecuteWithRegions yöntem. Adresmektup birleştirme bölgelerine sahip özel bir veri kaynağından adresmektup birleştirme gerçekleştirir C#'da.
 type: docs
 weight: 200
 url: /tr/net/aspose.words.mailmerging/mailmerge/executewithregions/
 ---
-## ExecuteWithRegions(IMailMergeDataSource) {#executewithregions}
+## ExecuteWithRegions(*[IMailMergeDataSource](../../imailmergedatasource/)*) {#executewithregions}
 
 Adres-mektup birleştirme bölgelerine sahip özel bir veri kaynağından adres-mektup birleştirme gerçekleştirir.
 
@@ -18,13 +20,13 @@ public void ExecuteWithRegions(IMailMergeDataSource dataSource)
 | --- | --- | --- |
 | dataSource | IMailMergeDataSource | Özel adres-mektup birleştirme veri kaynağı arayüzünü uygulayan bir nesne. |
 
-### Notlar
+## Notlar
 
 Belgedeki adres-mektup birleştirme alanlarını XML dosyası veya iş nesneleri koleksiyonları gibi herhangi bir özel veri kaynağından değerleriyle doldurmak için bu yöntemi kullanın. Bunu uygulayan your kendi sınıfını yazmanız gerekir.[`IMailMergeDataSource`](../../imailmergedatasource/) arayüz.
 
 Bu yöntemi yalnızca şu durumlarda kullanabilirsiniz:[`IsBidiTextSupportedOnUpdate`](../../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/) dır-dir`YANLIŞ`, yani Sağdan Sola dil (Arapça veya İbranice gibi) uyumluluğuna ihtiyacınız yoktur.
 
-### Örnekler
+## Örnekler
 
 İç içe adres-mektup birleştirmeyi yürütmek için adres-mektup birleştirme bölgelerinin nasıl kullanılacağını gösterir.
 
@@ -271,12 +273,12 @@ public class OrderMailMergeDataSource : IMailMergeDataSource
 
 * interface [IMailMergeDataSource](../../imailmergedatasource/)
 * class [MailMerge](../)
-* ad alanı [Aspose.Words.MailMerging](../../mailmerge/)
+* ad alanı [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## ExecuteWithRegions(IMailMergeDataSourceRoot) {#executewithregions_1}
+## ExecuteWithRegions(*[IMailMergeDataSourceRoot](../../imailmergedatasourceroot/)*) {#executewithregions_1}
 
 Adres-mektup birleştirme bölgelerine sahip özel bir veri kaynağından adres-mektup birleştirme gerçekleştirir.
 
@@ -288,13 +290,13 @@ public void ExecuteWithRegions(IMailMergeDataSourceRoot dataSourceRoot)
 | --- | --- | --- |
 | dataSourceRoot | IMailMergeDataSourceRoot | Özel adres-mektup birleştirme veri kaynağı kök arayüzünü uygulayan bir nesne. |
 
-### Notlar
+## Notlar
 
 Belgedeki adres-mektup birleştirme alanlarını XML dosyası veya iş nesneleri koleksiyonları gibi herhangi bir özel veri kaynağından değerleriyle doldurmak için bu yöntemi kullanın. Bunu uygulayan kendi class dosyanızı yazmanız gerekir.[`IMailMergeDataSourceRoot`](../../imailmergedatasourceroot/) Ve[`IMailMergeDataSource`](../../imailmergedatasource/) arayüzler.
 
 Bu yöntemi yalnızca şu durumlarda kullanabilirsiniz:[`IsBidiTextSupportedOnUpdate`](../../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/) dır-dir`YANLIŞ`, yani Sağdan Sola dil (Arapça veya İbranice gibi) uyumluluğuna ihtiyacınız yoktur.
 
-### Örnekler
+## Örnekler
 
 Ana ayrıntı verileriyle özel bir veri kaynağından adres-mektup birleştirme gerçekleştirir.
 
@@ -478,14 +480,14 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
 
 * interface [IMailMergeDataSourceRoot](../../imailmergedatasourceroot/)
 * class [MailMerge](../)
-* ad alanı [Aspose.Words.MailMerging](../../mailmerge/)
+* ad alanı [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## ExecuteWithRegions(DataSet) {#executewithregions_2}
+## ExecuteWithRegions(*DataSet*) {#executewithregions_2}
 
-Adres-mektup birleştirmeyi bir adresten gerçekleştirir. **Veri Kümesi** adres-mektup birleştirme bölgeleri olan bir belgeye.
+Adres-mektup birleştirmeyi bir adresten gerçekleştirir.**Veri Kümesi** adres-mektup birleştirme bölgeleri olan bir belgeye.
 
 ```csharp
 public void ExecuteWithRegions(DataSet dataSet)
@@ -495,31 +497,31 @@ public void ExecuteWithRegions(DataSet dataSet)
 | --- | --- | --- |
 | dataSet | DataSet | **Veri Kümesi** Adres-mektup birleştirme alanlarına eklenecek verileri içeren. |
 
-### Notlar
+## Notlar
 
 Bir veya daha fazla tablodan belgedeki tekrarlanabilir mail birleştirme bölgelerine adres-mektup birleştirme gerçekleştirmek için bu yöntemi kullanın. Belgenin içindeki adres-mektup birleştirme bölgeleri, karşılık gelen tablolardaki kayıtları barındıracak şekilde dinamik büyüyecektir.
 
-Her masada **Veri Kümesi** bir ismi olmalı.
+Her masada**Veri Kümesi** bir ismi olmalı.
 
-Belgenin, tablodaki tablo 'ye başvuran adlarla tanımlanmış adres-mektup birleştirme bölgelerine sahip olması gerekir. **Veri Kümesi**.
+Belgenin, tablodaki tablo 'ye başvuran adlarla tanımlanmış adres-mektup birleştirme bölgelerine sahip olması gerekir.**Veri Kümesi**.
 
 Belgede bir adres-mektup birleştirme bölgesi belirtmek için, adres-mektup birleştirme bölgesinin başlangıcını ve sonunu işaretlemek üzere iki adres-mektup birleştirme alanı eklemeniz gerekir.
 
-Adres-mektup birleştirme bölgesine dahil edilen tüm belge içeriği, bölgedeki her kayıt için otomatik olarak tekrarlanacaktır. **Veri tablosu**.
+Adres-mektup birleştirme bölgesine dahil edilen tüm belge içeriği, bölgedeki her kayıt için otomatik olarak tekrarlanacaktır.**Veri tablosu**.
 
-Adres-mektup birleştirme bölgesinin başlangıcını işaretlemek için TableStart:MyTable, adında bir MERGEFIELD ekleyin; burada MyTable, tablonuzdaki tablo adlarından birine karşılık gelir. **Veri Kümesi**.
+Adres-mektup birleştirme bölgesinin başlangıcını işaretlemek için TableStart:MyTable, adında bir MERGEFIELD ekleyin; burada MyTable, tablonuzdaki tablo adlarından birine karşılık gelir.**Veri Kümesi**.
 
 Adres-mektup birleştirme bölgesinin sonunu işaretlemek için TableEnd:MyTable adında başka bir MERGEFIELD ekleyin.
 
 Word'e bir MERGEFIELD eklemek için Ekle/Alan komutunu kullanın ve MergeField'ı seçin ve ardından alanın adını yazın.
 
-**TabloBaşlangıcı** Ve **Tablo Sonu** alanlar belgenizde aynı bölümün içinde olmalıdır.
+**TabloBaşlangıcı** Ve**Tablo Sonu** alanlar belgenizde aynı bölümün içinde olmalıdır.
 
-Bir masanın içinde kullanılıyorsa, **TabloBaşlangıcı** Ve **Tablo Sonu** tabloda aynı satırda olmalıdır.
+Bir masanın içinde kullanılıyorsa,**TabloBaşlangıcı** Ve**Tablo Sonu** tabloda aynı satırda olmalıdır.
 
-Bir belgedeki adres-mektup birleştirme bölgeleri iyi biçimlendirilmiş olmalıdır (her zaman bir çift eşleşen olması gerekir) **TabloBaşlangıcı** Ve **Tablo Sonu** aynı tablo adına sahip alanları birleştirin).
+Bir belgedeki adres-mektup birleştirme bölgeleri iyi biçimlendirilmiş olmalıdır (her zaman bir çift eşleşen olması gerekir)**TabloBaşlangıcı** Ve**Tablo Sonu** aynı tablo adına sahip alanları birleştirin).
 
-### Örnekler
+## Örnekler
 
 İki birleştirme bölgesi ve iki veri tablosuyla iç içe adres-mektup birleştirmenin nasıl yürütüleceğini gösterir.
 
@@ -603,14 +605,14 @@ private static DataSet CreateDataSet()
 ### Ayrıca bakınız
 
 * class [MailMerge](../)
-* ad alanı [Aspose.Words.MailMerging](../../mailmerge/)
+* ad alanı [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## ExecuteWithRegions(DataTable) {#executewithregions_3}
+## ExecuteWithRegions(*DataTable*) {#executewithregions_3}
 
-Adres-mektup birleştirmeyi bir adresten gerçekleştirir. **Veri tablosu** adres-mektup birleştirme bölgelerinin bulunduğu belgeye.
+Adres-mektup birleştirmeyi bir adresten gerçekleştirir.**Veri tablosu** adres-mektup birleştirme bölgelerinin bulunduğu belgeye.
 
 ```csharp
 public void ExecuteWithRegions(DataTable dataTable)
@@ -620,13 +622,13 @@ public void ExecuteWithRegions(DataTable dataTable)
 | --- | --- | --- |
 | dataTable | DataTable | Adres-mektup birleştirme işlemi için veri kaynağı. Tablonun olması gerekirTableName özellik seti. |
 
-### Notlar
+## Notlar
 
 Belgenin, ile eşleşen adla tanımlanmış bir adres-mektup birleştirme bölgesine sahip olması gerekirTableName.
 
 Belgede tanımlanmış başka adres-mektup birleştirme bölgeleri varsa, bunlar olduğu gibi bırakılır. Bu, birden fazla adres-mektup birleştirme işleminin gerçekleştirilmesine olanak sağlar.
 
-### Örnekler
+## Örnekler
 
 Adres-mektup birleştirme sırasında hücrelerin nasıl biçimlendirileceğini gösterir.
 
@@ -762,14 +764,14 @@ doc.Save(ArtifactsDir + "MailMerge.ExecuteWithRegionsConcurrent.docx");
 ### Ayrıca bakınız
 
 * class [MailMerge](../)
-* ad alanı [Aspose.Words.MailMerging](../../mailmerge/)
+* ad alanı [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## ExecuteWithRegions(DataView) {#executewithregions_4}
+## ExecuteWithRegions(*DataView*) {#executewithregions_4}
 
-Adres-mektup birleştirmeyi bir adresten gerçekleştirir. **Veri görünümü** adres-mektup birleştirme bölgelerinin bulunduğu belgeye.
+Adres-mektup birleştirmeyi bir adresten gerçekleştirir.**Veri görünümü** adres-mektup birleştirme bölgelerinin bulunduğu belgeye.
 
 ```csharp
 public void ExecuteWithRegions(DataView dataView)
@@ -777,17 +779,17 @@ public void ExecuteWithRegions(DataView dataView)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| dataView | DataView | Adres-mektup birleştirme işlemi için veri kaynağı. Kaynak table  **Veri görünümü** ona sahip olmalı **Tablo ismi** özellik seti. |
+| dataView | DataView | Adres-mektup birleştirme işlemi için veri kaynağı. Kaynak table **Veri görünümü** ona sahip olmalı**Tablo ismi** özellik seti. |
 
-### Notlar
+## Notlar
 
-Bu yöntem, verileri bir dosyaya alırsanız kullanışlıdır. **Veri tablosu** ancak Then adres-mektup birleştirmeden önce bir filtre uygulamanız veya sıralamanız gerekir.
+Bu yöntem, verileri bir dosyaya alırsanız kullanışlıdır.**Veri tablosu** ancak Then adres-mektup birleştirmeden önce bir filtre uygulamanız veya sıralamanız gerekir.
 
-Belgenin, ile eşleşen adla tanımlanmış bir adres-mektup birleştirme bölgesine sahip olması gerekir **DataView.Table.TableName**.
+Belgenin, ile eşleşen adla tanımlanmış bir adres-mektup birleştirme bölgesine sahip olması gerekir**DataView.Table.TableName**.
 
 Belgede tanımlanmış başka adres-mektup birleştirme bölgeleri varsa, bunlar olduğu gibi bırakılır. Bu, birden fazla adres-mektup birleştirme işleminin gerçekleştirilmesine olanak sağlar.
 
-### Örnekler
+## Örnekler
 
 Tek bir belgede iki ayrı adres-mektup birleştirmeyi yürütmek için bölgelerin nasıl kullanılacağını gösterir.
 
@@ -843,14 +845,14 @@ doc.Save(ArtifactsDir + "MailMerge.ExecuteWithRegionsConcurrent.docx");
 ### Ayrıca bakınız
 
 * class [MailMerge](../)
-* ad alanı [Aspose.Words.MailMerging](../../mailmerge/)
+* ad alanı [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## ExecuteWithRegions(IDataReader, string) {#executewithregions_5}
+## ExecuteWithRegions(*IDataReader, string*) {#executewithregions_5}
 
-Adres-mektup birleştirmeyi şuradan gerçekleştirir: **IDataReader** adres-mektup birleştirme bölgelerinin bulunduğu belgeye.
+Adres-mektup birleştirmeyi şuradan gerçekleştirir:**IDataReader** adres-mektup birleştirme bölgelerinin bulunduğu belgeye.
 
 ```csharp
 public void ExecuteWithRegions(IDataReader dataReader, string tableName)
@@ -858,14 +860,14 @@ public void ExecuteWithRegions(IDataReader dataReader, string tableName)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| dataReader | IDataReader | Adres-mektup birleştirmeye ilişkin veri kayıtlarının kaynağı, örneğin **OleDbDataReader** veya **SqlDataReader**. |
+| dataReader | IDataReader | Adres-mektup birleştirmeye ilişkin veri kayıtlarının kaynağı, örneğin**OleDbDataReader** veya**SqlDataReader**. |
 | tableName | String | Doldurulacak belgedeki adres-mektup birleştirme bölgesinin adı. |
 
-### Notlar
+## Notlar
 
-Geçebilirsin **SqlDataReader** veya **OleDbDataReader**this yöntemine parametre olarak itiraz edin çünkü ikisi de uygulandı **IDataReader** arayüz.
+Geçebilirsin**SqlDataReader** veya**OleDbDataReader**this yöntemine parametre olarak itiraz edin çünkü ikisi de uygulandı**IDataReader** arayüz.
 
-### Örnekler
+## Örnekler
 
 Veritabanı BLOB alanında saklanan görüntülerin bir rapora nasıl ekleneceğini gösterir.
 
@@ -914,7 +916,5 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 ### Ayrıca bakınız
 
 * class [MailMerge](../)
-* ad alanı [Aspose.Words.MailMerging](../../mailmerge/)
+* ad alanı [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.PixelFormat
-second_title: Aspose.Words for .NET API Referansı
-description: ImageSaveOptions mülk. Oluşturulan görüntülerin piksel biçimini alır veya ayarlar.
+linktitle: PixelFormat
+articleTitle: PixelFormat
+second_title: Aspose.Words for .NET
+description: ImageSaveOptions PixelFormat mülk. Oluşturulan görüntülerin piksel biçimini alır veya ayarlar C#'da.
 type: docs
 weight: 120
 url: /tr/net/aspose.words.saving/imagesaveoptions/pixelformat/
@@ -14,7 +16,7 @@ Oluşturulan görüntülerin piksel biçimini alır veya ayarlar.
 public ImagePixelFormat PixelFormat { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özellik yalnızca taramalı görüntü formatlarına kaydederken etkilidir.
 
@@ -22,7 +24,7 @@ Varsayılan değer:Format32BppArgb.
 
 Çıkış görüntüsünün piksel biçimi, GDI+ çalışması nedeniyle ayarlanan değerden farklı olabilir.
 
-### Örnekler
+## Örnekler
 
 Bir belgenin görüntüye dönüştürüleceği piksel başına bit oranının nasıl seçileceğini gösterir.
 
@@ -88,7 +90,5 @@ Document doc = new Document();
 
 * enum [ImagePixelFormat](../../imagepixelformat/)
 * class [ImageSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../imagesaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

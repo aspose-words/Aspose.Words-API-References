@@ -1,7 +1,9 @@
 ---
 title: Field.Result
-second_title: Aspose.Words for .NET API Referansı
-description: Field mülk. Alan ayırıcı ile alan sonu arasındaki metni alır veya ayarlar.
+linktitle: Result
+articleTitle: Result
+second_title: Aspose.Words for .NET
+description: Field Result mülk. Alan ayırıcı ile alan sonu arasındaki metni alır veya ayarlar C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.fields/field/result/
@@ -14,7 +16,7 @@ Alan ayırıcı ile alan sonu arasındaki metni alır veya ayarlar.
 public string Result { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Alan kodu kullanarak belgeye nasıl alan ekleneceğini gösterir.
 
@@ -34,7 +36,5 @@ Assert.That(DateTime.Parse(field.Result), Is.EqualTo(DateTime.Today).Within(1).D
 ### Ayrıca bakınız
 
 * class [Field](../)
-* ad alanı [Aspose.Words.Fields](../../field/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum RelativeHorizontalSize
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.RelativeHorizontalSize Sıralama. Bir şeklin veya metin çerçevesinin yatay olarak hesaplanan genişliğine göre göreceli olarak belirtir.
+title: RelativeHorizontalSize Enum
+linktitle: RelativeHorizontalSize
+articleTitle: RelativeHorizontalSize
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.RelativeHorizontalSize Sıralama. Bir şeklin veya metin çerçevesinin yatay olarak hesaplanan genişliğine göre göreceli olarak belirtir C#'da.
 type: docs
 weight: 1200
 url: /tr/net/aspose.words.drawing/relativehorizontalsize/
@@ -26,7 +28,7 @@ public enum RelativeHorizontalSize
 | OuterMargin | `5` | Genişliğin dış kenar boşluğu alanı boyutuna, tek sayfalar için sağ kenar boşluğu alanı boyutuna ve çift sayfalar için sol kenar boşluğu alanı boyutuna göre hesaplandığını belirtir. |
 | Default | `1` | Varsayılan değer:Margin . |
 
-### Örnekler
+## Örnekler
 
 Göreli boyut ve konumun nasıl ayarlanacağını gösterir.
 
@@ -83,5 +85,3 @@ doc.Save(ArtifactsDir + "Shape.RelativeSizeAndPosition.docx");
 * property [RelativeHorizontalSize](../shapebase/relativehorizontalsize/)
 * ad alanı [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Footnote.FootnoteType
-second_title: Aspose.Words for .NET API Referansı
-description: Footnote mülk. Bunun dipnot mu yoksa son not mu olduğunu belirten bir değer döndürür.
+linktitle: FootnoteType
+articleTitle: FootnoteType
+second_title: Aspose.Words for .NET
+description: Footnote FootnoteType mülk. Bunun dipnot mu yoksa son not mu olduğunu belirten bir değer döndürür C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.notes/footnote/footnotetype/
@@ -14,7 +16,7 @@ Bunun dipnot mu yoksa son not mu olduğunu belirten bir değer döndürür.
 public FootnoteType FootnoteType { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Dipnotlarla sonnotlar arasındaki farkı gösterir.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "InlineStory.FootnoteEndnote.docx");
 
 * enum [FootnoteType](../../footnotetype/)
 * class [Footnote](../)
-* ad alanı [Aspose.Words.Notes](../../footnote/)
+* ad alanı [Aspose.Words.Notes](../../../aspose.words.notes/)
 * toplantı [Aspose.Words](../../../)
-
-

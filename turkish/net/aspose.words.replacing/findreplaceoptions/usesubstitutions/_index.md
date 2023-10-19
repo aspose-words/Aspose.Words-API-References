@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.UseSubstitutions
-second_title: Aspose.Words for .NET API Referansı
-description: FindReplaceOptions mülk. Değiştirme kalıpları içindeki ikamelerin tanınıp kullanılmayacağını belirten bir boole değeri alır veya ayarlar. Varsayılan değerYANLIŞ .
+linktitle: UseSubstitutions
+articleTitle: UseSubstitutions
+second_title: Aspose.Words for .NET
+description: FindReplaceOptions UseSubstitutions mülk. Değiştirme kalıpları içindeki ikamelerin tanınıp kullanılmayacağını belirten bir boole değeri alır veya ayarlar. Varsayılan değerYANLIŞ  C#'da.
 type: docs
 weight: 180
 url: /tr/net/aspose.words.replacing/findreplaceoptions/usesubstitutions/
@@ -14,11 +16,11 @@ Değiştirme kalıpları içindeki ikamelerin tanınıp kullanılmayacağını b
 public bool UseSubstitutions { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 İkame öğeleriyle ilgili ayrıntılar için lütfen şu adrese bakın: https://docs.microsoft.com/en-us/dotnet/standard/base-types/substitutions-in-regular-expressions.
 
-### Örnekler
+## Örnekler
 
 Değiştirme kalıpları içindeki değiştirmelerin nasıl tanınacağını ve kullanılacağını gösterir.
 
@@ -70,7 +72,5 @@ Assert.AreEqual(
 ### Ayrıca bakınız
 
 * class [FindReplaceOptions](../)
-* ad alanı [Aspose.Words.Replacing](../../findreplaceoptions/)
+* ad alanı [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * toplantı [Aspose.Words](../../../)
-
-

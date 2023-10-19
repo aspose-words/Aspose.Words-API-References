@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.CreatedTime
-second_title: Aspose.Words for .NET API Referansı
-description: BuiltInDocumentProperties mülk. UTCde belgenin oluşturulma tarihini alır veya ayarlar.
+linktitle: CreatedTime
+articleTitle: CreatedTime
+second_title: Aspose.Words for .NET
+description: BuiltInDocumentProperties CreatedTime mülk. UTCde belgenin oluşturulma tarihini alır veya ayarlar C#'da.
 type: docs
 weight: 100
 url: /tr/net/aspose.words.properties/builtindocumentproperties/createdtime/
@@ -14,13 +16,13 @@ UTC'de belgenin oluşturulma tarihini alır veya ayarlar.
 public DateTime CreatedTime { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 RTF formatından oluşturulan belgeler için bu özellik, belgenin oluşturulduğu andaki yazarın makinesinin yerel saatini döndürür.
 
 Aspose.Words bu özelliği güncellemez.
 
-### Örnekler
+## Örnekler
 
 "Orijin" kategorisindeki belge özellikleriyle nasıl çalışılacağını gösterir.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.Origin.docx");
 ### Ayrıca bakınız
 
 * class [BuiltInDocumentProperties](../)
-* ad alanı [Aspose.Words.Properties](../../builtindocumentproperties/)
+* ad alanı [Aspose.Words.Properties](../../../aspose.words.properties/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum AutoFitBehavior
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Tables.AutoFitBehavior Sıralama. Aspose.Wordsün tabloyu çağırdığınızda tabloyu nasıl yeniden boyutlandıracağını belirler.AutoFit yöntem.
+title: AutoFitBehavior Enum
+linktitle: AutoFitBehavior
+articleTitle: AutoFitBehavior
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Tables.AutoFitBehavior Sıralama. Aspose.Wordsün tabloyu çağırdığınızda tabloyu nasıl yeniden boyutlandıracağını belirler.AutoFit yöntem C#'da.
 type: docs
 weight: 6230
 url: /tr/net/aspose.words.tables/autofitbehavior/
@@ -22,7 +24,7 @@ public enum AutoFitBehavior
 | AutoFitToWindow | `1` | Bu değeri kullandığınızda Aspose.Words, Otomatik Sığdır seçeneğini etkinleştirir, tablo için tercih edilen genişliği %100'e ayarlar, tercih edilen genişlikleri tüm hücrelerden kaldırır ve ardından tablo düzenini günceller. |
 | FixedColumnWidths | `2` | Aspose.Words, Otomatik Sığdır seçeneğini devre dışı bırakır ve tercih edilenleri tablodan kaldırır. |
 
-### Örnekler
+## Örnekler
 
 Stil uygularken yeni bir tablonun nasıl oluşturulacağını gösterir.
 
@@ -115,5 +117,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.BuildTable.docx");
 
 * ad alanı [Aspose.Words.Tables](../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../)
-
-

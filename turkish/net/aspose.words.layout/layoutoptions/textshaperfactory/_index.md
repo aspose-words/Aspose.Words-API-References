@@ -1,7 +1,9 @@
 ---
 title: LayoutOptions.TextShaperFactory
-second_title: Aspose.Words for .NET API Referansı
-description: LayoutOptions mülk. Alır veya ayarlarITextShaperFactory Gelişmiş Tipografi oluşturma özellikleri için kullanılan uygulama.
+linktitle: TextShaperFactory
+articleTitle: TextShaperFactory
+second_title: Aspose.Words for .NET
+description: LayoutOptions TextShaperFactory mülk. Alır veya ayarlarITextShaperFactory Gelişmiş Tipografi oluşturma özellikleri için kullanılan uygulama C#'da.
 type: docs
 weight: 100
 url: /tr/net/aspose.words.layout/layoutoptions/textshaperfactory/
@@ -14,7 +16,7 @@ Alır veya ayarlar[`ITextShaperFactory`](../../../aspose.words.shaping/itextshap
 public ITextShaperFactory TextShaperFactory { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 HarfBuzz metin şekillendirme motorunu kullanarak OpenType özelliklerinin nasıl destekleneceğini gösterir.
 
@@ -36,7 +38,5 @@ doc.Save(ArtifactsDir + "Document.OpenType.pdf");
 
 * interface [ITextShaperFactory](../../../aspose.words.shaping/itextshaperfactory/)
 * class [LayoutOptions](../)
-* ad alanı [Aspose.Words.Layout](../../layoutoptions/)
+* ad alanı [Aspose.Words.Layout](../../../aspose.words.layout/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: HtmlLoadOptions.HtmlLoadOptions
-second_title: Aspose.Words for .NET API Referansı
-description: HtmlLoadOptions inşaatçı. Bu sınıfın yeni bir örneğini varsayılan değerlerle başlatır.
+title: HtmlLoadOptions
+linktitle: HtmlLoadOptions
+articleTitle: HtmlLoadOptions
+second_title: Aspose.Words for .NET
+description: HtmlLoadOptions inşaatçı. Bu sınıfın yeni bir örneğini varsayılan değerlerle başlatır C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.loading/htmlloadoptions/htmlloadoptions/
@@ -14,7 +16,7 @@ Bu sınıfın yeni bir örneğini varsayılan değerlerle başlatır.
 public HtmlLoadOptions()
 ```
 
-### Örnekler
+## Örnekler
 
 Bir HTML belgesi yüklenirken koşullu yorumların nasıl destekleneceğini gösterir.
 
@@ -39,12 +41,12 @@ else
 ### Ayrıca bakınız
 
 * class [HtmlLoadOptions](../)
-* ad alanı [Aspose.Words.Loading](../../htmlloadoptions/)
+* ad alanı [Aspose.Words.Loading](../../../aspose.words.loading/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## HtmlLoadOptions(string) {#constructor_2}
+## HtmlLoadOptions(*string*) {#constructor_2}
 
 Şifrelenmiş bir belgeyi yüklemek için bu sınıfın yeni bir örneğini belirtilen parolayla başlatmak için kullanılan bir kısayol.
 
@@ -56,7 +58,7 @@ public HtmlLoadOptions(string password)
 | --- | --- | --- |
 | password | String | Şifrelenmiş bir belgeyi açmak için kullanılan parola. Olabilir`hükümsüz` veya boş dize. |
 
-### Örnekler
+## Örnekler
 
 Bir Html belgesinin nasıl şifreleneceğini ve ardından parola kullanılarak nasıl açılacağını gösterir.
 
@@ -89,12 +91,12 @@ Assert.AreEqual("Test encrypted document.", doc.GetText().Trim());
 ### Ayrıca bakınız
 
 * class [HtmlLoadOptions](../)
-* ad alanı [Aspose.Words.Loading](../../htmlloadoptions/)
+* ad alanı [Aspose.Words.Loading](../../../aspose.words.loading/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## HtmlLoadOptions(LoadFormat, string, string) {#constructor_1}
+## HtmlLoadOptions(*[LoadFormat](../../../aspose.words/loadformat/), string, string*) {#constructor_1}
 
 Özellikleri belirtilen değerlere ayarlanmış olarak bu sınıfın yeni bir örneğini başlatmak için kullanılan bir kısayol.
 
@@ -108,7 +110,7 @@ public HtmlLoadOptions(LoadFormat loadFormat, string password, string baseUri)
 | password | String | Şifrelenmiş bir belgeyi açmak için kullanılan parola. Olabilir`hükümsüz` veya boş dize. |
 | baseUri | String | Göreli URI'leri mutlak olarak çözümlemek için kullanılacak dize. Olabilir`hükümsüz` veya boş dize. |
 
-### Örnekler
+## Örnekler
 
 Bir html belgesini açarken temel URI'nin nasıl belirtileceğini gösterir.
 
@@ -134,7 +136,5 @@ doc.Save(ArtifactsDir + "HtmlLoadOptions.BaseUri.docx");
 
 * enum [LoadFormat](../../../aspose.words/loadformat/)
 * class [HtmlLoadOptions](../)
-* ad alanı [Aspose.Words.Loading](../../htmlloadoptions/)
+* ad alanı [Aspose.Words.Loading](../../../aspose.words.loading/)
 * toplantı [Aspose.Words](../../../)
-
-

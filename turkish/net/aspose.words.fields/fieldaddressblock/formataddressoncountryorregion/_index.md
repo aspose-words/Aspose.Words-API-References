@@ -1,7 +1,9 @@
 ---
 title: FieldAddressBlock.FormatAddressOnCountryOrRegion
-second_title: Aspose.Words for .NET API Referansı
-description: FieldAddressBlock mülk. Adresin POSTCODE Universal Postal Union 2006 tarafından tanımlandığı şekilde alıcının ülkesine/bölgesine göre biçimlendirilip biçimlendirilmeyeceğini alır veya ayarlar.
+linktitle: FormatAddressOnCountryOrRegion
+articleTitle: FormatAddressOnCountryOrRegion
+second_title: Aspose.Words for .NET
+description: FieldAddressBlock FormatAddressOnCountryOrRegion mülk. Adresin POSTCODE Universal Postal Union 2006 tarafından tanımlandığı şekilde alıcının ülkesine/bölgesine göre biçimlendirilip biçimlendirilmeyeceğini alır veya ayarlar C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fields/fieldaddressblock/formataddressoncountryorregion/
@@ -14,7 +16,7 @@ Adresin, POST*CODE (Universal Postal Union 2006) tarafından tanımlandığı ş
 public bool FormatAddressOnCountryOrRegion { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 ADRESSBLOCK alanının nasıl ekleneceğini gösterir.
 
@@ -45,7 +47,5 @@ Assert.AreEqual(
 ### Ayrıca bakınız
 
 * class [FieldAddressBlock](../)
-* ad alanı [Aspose.Words.Fields](../../fieldaddressblock/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

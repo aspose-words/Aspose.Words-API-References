@@ -1,7 +1,9 @@
 ---
 title: TaskPane.Width
-second_title: Aspose.Words for .NET API Referansı
-description: TaskPane mülk. Bu görev bölmesi örneği için varsayılan genişlik değerini belirtir.
+linktitle: Width
+articleTitle: Width
+second_title: Aspose.Words for .NET
+description: TaskPane Width mülk. Bu görev bölmesi örneği için varsayılan genişlik değerini belirtir C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.webextensions/taskpane/width/
@@ -14,7 +16,7 @@ Bu görev bölmesi örneği için varsayılan genişlik değerini belirtir.
 public double Width { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgeye nasıl web uzantısı ekleneceğini gösterir.
 
@@ -59,7 +61,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### Ayrıca bakınız
 
 * class [TaskPane](../)
-* ad alanı [Aspose.Words.WebExtensions](../../taskpane/)
+* ad alanı [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * toplantı [Aspose.Words](../../../)
-
-

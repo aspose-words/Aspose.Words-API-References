@@ -1,7 +1,9 @@
 ---
 title: FontFallbackSettings.LoadNotoFallbackSettings
-second_title: Aspose.Words for .NET API Referansı
-description: FontFallbackSettings yöntem. Google Noto yazı tiplerini kullanan önceden tanımlanmış yedek ayarları yükler.
+linktitle: LoadNotoFallbackSettings
+articleTitle: LoadNotoFallbackSettings
+second_title: Aspose.Words for .NET
+description: FontFallbackSettings LoadNotoFallbackSettings yöntem. Google Noto yazı tiplerini kullanan önceden tanımlanmış yedek ayarları yükler C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.fonts/fontfallbacksettings/loadnotofallbacksettings/
@@ -14,7 +16,7 @@ Google Noto yazı tiplerini kullanan önceden tanımlanmış yedek ayarları yü
 public void LoadNotoFallbackSettings()
 ```
 
-### Örnekler
+## Örnekler
 
 Google Noto yazı tipleri için önceden tanımlanmış yazı tipi geri dönüş ayarlarının nasıl ekleneceğini gösterir.
 
@@ -65,7 +67,5 @@ fontFallbackSettings.Save(ArtifactsDir + "FontSettings.FallbackSettings.LoadNoto
 ### Ayrıca bakınız
 
 * class [FontFallbackSettings](../)
-* ad alanı [Aspose.Words.Fonts](../../fontfallbacksettings/)
+* ad alanı [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../../)
-
-

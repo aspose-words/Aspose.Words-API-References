@@ -1,7 +1,9 @@
 ---
 title: FieldDate.UseLastFormat
-second_title: Aspose.Words for .NET API Referansı
-description: FieldDate mülk. Yeni bir DATE alanı eklenirken barındırma uygulaması tarafından en son kullanılan biçimin kullanılıp kullanılmayacağını alır veya ayarlar.
+linktitle: UseLastFormat
+articleTitle: UseLastFormat
+second_title: Aspose.Words for .NET
+description: FieldDate UseLastFormat mülk. Yeni bir DATE alanı eklenirken barındırma uygulaması tarafından en son kullanılan biçimin kullanılıp kullanılmayacağını alır veya ayarlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fielddate/uselastformat/
@@ -14,7 +16,7 @@ Yeni bir DATE alanı eklenirken barındırma uygulaması tarafından en son kull
 public bool UseLastFormat { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Farklı takvim türlerine göre tarihleri görüntülemek için TARİH alanlarının nasıl kullanılacağını gösterir.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Field.DATE.docx");
 ### Ayrıca bakınız
 
 * class [FieldDate](../)
-* ad alanı [Aspose.Words.Fields](../../fielddate/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.HyperlinkBase
-second_title: Aspose.Words for .NET API Referansı
-description: BuiltInDocumentProperties mülk. Bu belgedeki göreli köprüleri değerlendirmek için kullanılan temel dizeyi belirtir.
+linktitle: HyperlinkBase
+articleTitle: HyperlinkBase
+second_title: Aspose.Words for .NET
+description: BuiltInDocumentProperties HyperlinkBase mülk. Bu belgedeki göreli köprüleri değerlendirmek için kullanılan temel dizeyi belirtir C#'da.
 type: docs
 weight: 120
 url: /tr/net/aspose.words.properties/builtindocumentproperties/hyperlinkbase/
@@ -14,11 +16,11 @@ Bu belgedeki göreli köprüleri değerlendirmek için kullanılan temel dizeyi 
 public string HyperlinkBase { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Aspose.Words bu özelliği kullanmaz.
 
-### Örnekler
+## Örnekler
 
 Bir köprünün temel kısmının belgenin özelliklerinde nasıl saklanacağını gösterir.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.HyperlinkBase.WorkingLink.docx");
 ### Ayrıca bakınız
 
 * class [BuiltInDocumentProperties](../)
-* ad alanı [Aspose.Words.Properties](../../builtindocumentproperties/)
+* ad alanı [Aspose.Words.Properties](../../../aspose.words.properties/)
 * toplantı [Aspose.Words](../../../)
-
-

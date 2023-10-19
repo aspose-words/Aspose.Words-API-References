@@ -1,7 +1,9 @@
 ---
 title: SystemFontSource.GetSystemFontFolders
-second_title: Aspose.Words for .NET API Referansı
-description: SystemFontSource yöntem. Klasörlere erişilemiyorsa sistem yazı tipi klasörlerini veya boş diziyi döndürür.
+linktitle: GetSystemFontFolders
+articleTitle: GetSystemFontFolders
+second_title: Aspose.Words for .NET
+description: SystemFontSource GetSystemFontFolders yöntem. Klasörlere erişilemiyorsa sistem yazı tipi klasörlerini veya boş diziyi döndürür C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fonts/systemfontsource/getsystemfontfolders/
@@ -14,11 +16,11 @@ Klasörlere erişilemiyorsa sistem yazı tipi klasörlerini veya boş diziyi dö
 public static string[] GetSystemFontFolders()
 ```
 
-### Notlar
+## Notlar
 
 Bazı platformlarda Aspose.Words, sistem yazı tiplerini yalnızca klasörler arasında değil, diğer kaynaklarda da arayabilir. Örneğin Windows platformunda Aspose.Words yazı tiplerini kayıt defterinde de arar.
 
-### Örnekler
+## Örnekler
 
 Bir belgenin sistem yazı tipi kaynağına nasıl erişileceğini ve yazı tipi yedeklerinin nasıl ayarlanacağını gösterir.
 
@@ -74,7 +76,5 @@ Assert.AreEqual(1,
 ### Ayrıca bakınız
 
 * class [SystemFontSource](../)
-* ad alanı [Aspose.Words.Fonts](../../systemfontsource/)
+* ad alanı [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: CellFormat.VerticalAlignment
-second_title: Aspose.Words for .NET API Referansı
-description: CellFormat mülk. Hücredeki metnin dikey hizalamasını döndürür veya ayarlar.
+linktitle: VerticalAlignment
+articleTitle: VerticalAlignment
+second_title: Aspose.Words for .NET
+description: CellFormat VerticalAlignment mülk. Hücredeki metnin dikey hizalamasını döndürür veya ayarlar C#'da.
 type: docs
-weight: 120
+weight: 110
 url: /tr/net/aspose.words.tables/cellformat/verticalalignment/
 ---
 ## CellFormat.VerticalAlignment property
@@ -14,7 +16,7 @@ Hücredeki metnin dikey hizalamasını döndürür veya ayarlar.
 public CellVerticalAlignment VerticalAlignment { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Özel kenarlıklara sahip bir tablonun nasıl oluşturulacağını gösterir.
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * enum [CellVerticalAlignment](../../cellverticalalignment/)
 * class [CellFormat](../)
-* ad alanı [Aspose.Words.Tables](../../cellformat/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

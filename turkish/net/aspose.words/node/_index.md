@@ -1,7 +1,9 @@
 ---
-title: Class Node
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Node sınıf. Bir Word belgesinin tüm düğümleri için temel sınıf.
+title: Node Class
+linktitle: Node
+articleTitle: Node
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Node sınıf. Bir Word belgesinin tüm düğümleri için temel sınıf C#'da.
 type: docs
 weight: 4170
 url: /tr/net/aspose.words/node/
@@ -33,19 +35,19 @@ public abstract class Node
 
 | İsim | Tanım |
 | --- | --- |
-| abstract [Accept](../../aspose.words/node/accept/)(DocumentVisitor) | Ziyaretçi kabul eder. |
-| [Clone](../../aspose.words/node/clone/)(bool) | Düğümün bir kopyasını oluşturur. |
-| [GetAncestor](../../aspose.words/node/getancestor/#getancestor)(NodeType) | Belirtilenin ilk atayı alır[`NodeType`](../nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/#getancestor_1)(Type) | Belirtilen nesne türünün ilk atayı alır. |
+| abstract [Accept](../../aspose.words/node/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Ziyaretçi kabul eder. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Düğümün bir kopyasını oluşturur. |
+| [GetAncestor](../../aspose.words/node/getancestor/#getancestor)(*[NodeType](../nodetype/)*) | Belirtilenin ilk atayı alır[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/#getancestor_1)(*Type*) | Belirtilen nesne türünün ilk atayı alır. |
 | virtual [GetText](../../aspose.words/node/gettext/)() | Bu düğümün ve tüm alt öğelerinin metnini alır. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Ön sipariş ağaç geçiş algoritmasına göre sonraki düğümü alır. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Ön sipariş ağaç geçiş algoritmasına göre önceki düğümü alır. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*Node*) | Ön sipariş ağaç geçiş algoritmasına göre sonraki düğümü alır. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*Node*) | Ön sipariş ağaç geçiş algoritmasına göre önceki düğümü alır. |
 | [Remove](../../aspose.words/node/remove/)() | Kendini üst öğeden kaldırır. |
-| [ToString](../../aspose.words/node/tostring/#tostring_1)(SaveFormat) | Düğümün içeriğini belirtilen formatta bir dizeye aktarır. |
-| [ToString](../../aspose.words/node/tostring/#tostring_2)(SaveOptions) | Belirtilen kaydetme seçeneklerini kullanarak düğümün içeriğini bir dizeye aktarır. |
-| static [NodeTypeToString](../../aspose.words/node/nodetypetostring/)(NodeType) | Düğüm türü numaralandırma değerini kullanıcı dostu bir dizeye dönüştüren bir yardımcı program yöntemi. |
+| [ToString](../../aspose.words/node/tostring/#tostring_1)(*[SaveFormat](../saveformat/)*) | Düğümün içeriğini belirtilen formatta bir dizeye aktarır. |
+| [ToString](../../aspose.words/node/tostring/#tostring_2)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Belirtilen kaydetme seçeneklerini kullanarak düğümün içeriğini bir dizeye aktarır. |
+| static [NodeTypeToString](../../aspose.words/node/nodetypetostring/)(*[NodeType](../nodetype/)*) | Düğüm türü numaralandırma değerini kullanıcı dostu bir dizeye dönüştüren bir yardımcı program yöntemi. |
 
-### Notlar
+## Notlar
 
 Bir belge, DOM veya XmlDocument'e benzer şekilde bir düğüm ağacı olarak temsil edilir.
 
@@ -59,7 +61,7 @@ Daha fazla bilgi için Bileşik tasarım desenine bakın.
 * Ana düğüm ve sahip belge mekanizmalarını uygular.
 * Kardeş düğümlere erişimi uygular.
 
-### Örnekler
+## Örnekler
 
 Belirli bir türdeki tüm alt düğümlerin bileşik bir düğümden nasıl kaldırılacağını gösterir.
 
@@ -151,5 +153,3 @@ foreach (Node child in children)
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

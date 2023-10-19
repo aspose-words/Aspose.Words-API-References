@@ -1,7 +1,9 @@
 ---
 title: FieldMergeBarcode.ErrorCorrectionLevel
-second_title: Aspose.Words for .NET API Referansı
-description: FieldMergeBarcode mülk. QR Kodunun hata düzeltme düzeyini alır veya ayarlar. Geçerli değerler şunlardır 0 3.
+linktitle: ErrorCorrectionLevel
+articleTitle: ErrorCorrectionLevel
+second_title: Aspose.Words for .NET
+description: FieldMergeBarcode ErrorCorrectionLevel mülk. QR Kodunun hata düzeltme düzeyini alır veya ayarlar. Geçerli değerler şunlardır 0 3 C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words.fields/fieldmergebarcode/errorcorrectionlevel/
@@ -14,7 +16,7 @@ QR Kodunun hata düzeltme düzeyini alır veya ayarlar. Geçerli değerler şunl
 public string ErrorCorrectionLevel { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 QR barkodlarında adres-mektup birleştirmenin nasıl gerçekleştirileceğini gösterir.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Field.MERGEBARCODE.QR.docx");
 ### Ayrıca bakınız
 
 * class [FieldMergeBarcode](../)
-* ad alanı [Aspose.Words.Fields](../../fieldmergebarcode/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

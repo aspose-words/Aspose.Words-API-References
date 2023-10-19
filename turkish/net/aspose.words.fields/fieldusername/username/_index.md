@@ -1,7 +1,9 @@
 ---
 title: FieldUserName.UserName
-second_title: Aspose.Words for .NET API Referansı
-description: FieldUserName mülk. Geçerli kullanıcının adını hareket ettirin veya ayarlayın.
+linktitle: UserName
+articleTitle: UserName
+second_title: Aspose.Words for .NET
+description: FieldUserName UserName mülk. Geçerli kullanıcının adını hareket ettirin veya ayarlayın C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fieldusername/username/
@@ -14,7 +16,7 @@ Geçerli kullanıcının adını hareket ettirin veya ayarlayın.
 public string UserName { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 KULLANICI ADI alanının nasıl kullanılacağını gösterir.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Field.USERNAME.docx");
 ### Ayrıca bakınız
 
 * class [FieldUserName](../)
-* ad alanı [Aspose.Words.Fields](../../fieldusername/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

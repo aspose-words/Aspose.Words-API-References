@@ -1,7 +1,9 @@
 ---
 title: ImageData.ImageType
-second_title: Aspose.Words for .NET API Referansı
-description: ImageData mülk. Görüntünün türünü alır.
+linktitle: ImageType
+articleTitle: ImageType
+second_title: Aspose.Words for .NET
+description: ImageData ImageType mülk. Görüntünün türünü alır C#'da.
 type: docs
 weight: 140
 url: /tr/net/aspose.words.drawing/imagedata/imagetype/
@@ -14,7 +16,7 @@ Görüntünün türünü alır.
 public ImageType ImageType { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgeden görüntülerin nasıl çıkarılacağını ve bunların yerel dosya sistemine ayrı dosyalar olarak nasıl kaydedileceğini gösterir.
 
@@ -46,7 +48,5 @@ foreach (Shape shape in shapes.OfType<Shape>())
 
 * enum [ImageType](../../imagetype/)
 * class [ImageData](../)
-* ad alanı [Aspose.Words.Drawing](../../imagedata/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

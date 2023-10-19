@@ -1,7 +1,9 @@
 ---
-title: Class PdfLoadOptions
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Loading.PdfLoadOptions sınıf. Pdf belgesini bir dosyaya yüklerken ek seçenekleri belirtmenize olanak tanır.Document nesne.
+title: PdfLoadOptions Class
+linktitle: PdfLoadOptions
+articleTitle: PdfLoadOptions
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Loading.PdfLoadOptions sınıf. Pdf belgesini bir dosyaya yüklerken ek seçenekleri belirtmenize olanak tanır.Document nesne C#'da.
 type: docs
 weight: 3670
 url: /tr/net/aspose.words.loading/pdfloadoptions/
@@ -50,12 +52,10 @@ public class PdfLoadOptions : LoadOptions
 
 | İsim | Tanım |
 | --- | --- |
-| override [Equals](../../aspose.words.loading/loadoptions/equals/)(object) |  |
+| override [Equals](../../aspose.words.loading/loadoptions/equals/)(*object*) |  |
 
 ### Ayrıca bakınız
 
 * class [LoadOptions](../loadoptions/)
 * ad alanı [Aspose.Words.Loading](../../aspose.words.loading/)
 * toplantı [Aspose.Words](../../)
-
-

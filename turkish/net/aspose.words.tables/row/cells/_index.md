@@ -1,7 +1,9 @@
 ---
 title: Row.Cells
-second_title: Aspose.Words for .NET API Referansı
-description: Row mülk. Yazılı erişim sağlarCell satırın alt düğümleri.
+linktitle: Cells
+articleTitle: Cells
+second_title: Aspose.Words for .NET
+description: Row Cells mülk. Yazılı erişim sağlarCell satırın alt düğümleri C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.tables/row/cells/
@@ -14,7 +16,7 @@ Yazılı erişim sağlar[`Cell`](../../cell/) satırın alt düğümleri.
 public CellCollection Cells { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Belgedeki tüm tabloların nasıl yineleneceğini ve her hücrenin içeriğinin nasıl yazdırılacağını gösterir.
 
@@ -61,7 +63,5 @@ for (int i = 0; i < tables.Count; i++)
 
 * class [CellCollection](../../cellcollection/)
 * class [Row](../)
-* ad alanı [Aspose.Words.Tables](../../row/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

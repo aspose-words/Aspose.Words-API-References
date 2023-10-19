@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.InsertBreak
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentBuilder yöntem. Belirtilen türde bir sonu belgeye ekler.
+linktitle: InsertBreak
+articleTitle: InsertBreak
+second_title: Aspose.Words for .NET
+description: DocumentBuilder InsertBreak yöntem. Belirtilen türde bir sonu belgeye ekler C#'da.
 type: docs
 weight: 260
 url: /tr/net/aspose.words/documentbuilder/insertbreak/
@@ -18,11 +20,11 @@ public void InsertBreak(BreakType breakType)
 | --- | --- | --- |
 | breakType | BreakType | Eklenecek aranın türünü belirtir. |
 
-### Notlar
+## Notlar
 
 Belgeye paragraf, sayfa, sütun, bölüm veya satır sonu eklemek için bu yöntemi kullanın.
 
-### Örnekler
+## Örnekler
 
 DocumentBuilder'ı kullanarak bir belgede üstbilgilerin ve altbilgilerin nasıl oluşturulacağını gösterir.
 
@@ -132,7 +134,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertToc.docx");
 
 * enum [BreakType](../../breaktype/)
 * class [DocumentBuilder](../)
-* ad alanı [Aspose.Words](../../documentbuilder/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

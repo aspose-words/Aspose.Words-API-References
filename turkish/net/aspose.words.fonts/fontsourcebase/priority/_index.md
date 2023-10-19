@@ -1,7 +1,9 @@
 ---
 title: FontSourceBase.Priority
-second_title: Aspose.Words for .NET API Referansı
-description: FontSourceBase mülk. Yazı tipi kaynağı önceliğini döndürür.
+linktitle: Priority
+articleTitle: Priority
+second_title: Aspose.Words for .NET
+description: FontSourceBase Priority mülk. Yazı tipi kaynağı önceliğini döndürür C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fonts/fontsourcebase/priority/
@@ -14,13 +16,13 @@ Yazı tipi kaynağı önceliğini döndürür.
 public int Priority { get; }
 ```
 
-### Notlar
+## Notlar
 
 Bu değer, farklı font kaynaklarında aynı aile adı ve stiline sahip fontlar bulunduğunda kullanılır. Bu durumda Aspose.Words, kaynaktan öncelik değeri daha yüksek olan fontu seçer.
 
 Varsayılan değer 0'dır.
 
-### Örnekler
+## Örnekler
 
 Yerel dosya sistemindeki bir yazı tipi dosyasının yazı tipi kaynağı olarak nasıl kullanılacağını gösterir.
 
@@ -39,7 +41,5 @@ Assert.AreEqual(0, fileFontSource.Priority);
 ### Ayrıca bakınız
 
 * class [FontSourceBase](../)
-* ad alanı [Aspose.Words.Fonts](../../fontsourcebase/)
+* ad alanı [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../../)
-
-

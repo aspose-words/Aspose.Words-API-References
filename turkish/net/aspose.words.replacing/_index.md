@@ -1,7 +1,9 @@
 ---
 title: Aspose.Words.Replacing
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Değiştiriliyor ad alanı belge ağacı üzerinde bulma/değiştirme işlemleriyle manipüle için sınıflar sağlar.
+linktitle: Aspose.Words.Replacing
+articleTitle: Aspose.Words.Replacing
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Değiştiriliyor ad alanı belge ağacı üzerinde bulma/değiştirme işlemleriyle manipüle için sınıflar sağlar C#'da.
 type: docs
 weight: 210
 url: /tr/net/aspose.words.replacing/
@@ -25,5 +27,3 @@ url: /tr/net/aspose.words.replacing/
 | --- | --- |
 | [FindReplaceDirection](./findreplacedirection/) | Değiştirme işlemlerinin yönünü belirtir. |
 | [ReplaceAction](./replaceaction/) | Kullanıcının, değiştirme işlemi sırasında geçerli eşleşmeye ne olacağını belirlemesine olanak tanır. |
-
-

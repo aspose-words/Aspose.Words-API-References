@@ -1,7 +1,9 @@
 ---
 title: ListLevel.TextPosition
-second_title: Aspose.Words for .NET API Referansı
-description: ListLevel mülk. Liste düzeyi için metni kaydırmanın ikinci satırının konumunu nokta cinsinden döndürür veya ayarlar.
+linktitle: TextPosition
+articleTitle: TextPosition
+second_title: Aspose.Words for .NET
+description: ListLevel TextPosition mülk. Liste düzeyi için metni kaydırmanın ikinci satırının konumunu nokta cinsinden döndürür veya ayarlar C#'da.
 type: docs
 weight: 130
 url: /tr/net/aspose.words.lists/listlevel/textposition/
@@ -14,11 +16,11 @@ Liste düzeyi için metni kaydırmanın ikinci satırının konumunu (nokta cins
 public double TextPosition { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 `TextPosition` paragrafın LeftIndent'ine karşılık gelir.
 
-### Örnekler
+## Örnekler
 
 DocumentBuilder kullanılırken özel liste formatının paragraflara nasıl uygulanacağını gösterir.
 
@@ -77,7 +79,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 ### Ayrıca bakınız
 
 * class [ListLevel](../)
-* ad alanı [Aspose.Words.Lists](../../listlevel/)
+* ad alanı [Aspose.Words.Lists](../../../aspose.words.lists/)
 * toplantı [Aspose.Words](../../../)
-
-

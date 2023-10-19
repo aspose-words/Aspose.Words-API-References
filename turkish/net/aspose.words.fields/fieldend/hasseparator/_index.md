@@ -1,7 +1,9 @@
 ---
 title: FieldEnd.HasSeparator
-second_title: Aspose.Words for .NET API Referansı
-description: FieldEnd mülk. İadelerdoğrubu alanda bir ayırıcı varsa.
+linktitle: HasSeparator
+articleTitle: HasSeparator
+second_title: Aspose.Words for .NET
+description: FieldEnd HasSeparator mülk. İadelerdoğrubu alanda bir ayırıcı varsa C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fieldend/hasseparator/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.fields/fieldend/hasseparator/
 public bool HasSeparator { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir alan koleksiyonuyla nasıl çalışılacağını gösterir.
 
@@ -117,7 +119,5 @@ public class FieldVisitor : DocumentVisitor
 ### Ayrıca bakınız
 
 * class [FieldEnd](../)
-* ad alanı [Aspose.Words.Fields](../../fieldend/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

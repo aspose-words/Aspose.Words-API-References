@@ -1,7 +1,9 @@
 ---
 title: PreferredWidth.Type
-second_title: Aspose.Words for .NET API Referansı
-description: PreferredWidth mülk. Tercih edilen bu genişlik değeri için kullanılan ölçü birimini alır.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words for .NET
+description: PreferredWidth Type mülk. Tercih edilen bu genişlik değeri için kullanılan ölçü birimini alır C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.tables/preferredwidth/type/
@@ -14,7 +16,7 @@ Tercih edilen bu genişlik değeri için kullanılan ölçü birimini alır.
 public PreferredWidthType Type { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir tablo hücresinin tercih edilen genişlik tipinin ve değerinin nasıl doğrulanacağını gösterir.
 
@@ -32,7 +34,5 @@ Assert.AreEqual(11.16d, firstCell.CellFormat.PreferredWidth.Value);
 
 * enum [PreferredWidthType](../../preferredwidthtype/)
 * class [PreferredWidth](../)
-* ad alanı [Aspose.Words.Tables](../../preferredwidth/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

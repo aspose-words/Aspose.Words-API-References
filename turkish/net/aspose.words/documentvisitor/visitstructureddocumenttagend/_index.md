@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitStructuredDocumentTagEnd
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentVisitor yöntem. Yapılandırılmış bir belge etiketinin numaralandırılması sona erdiğinde çağrılır.
+linktitle: VisitStructuredDocumentTagEnd
+articleTitle: VisitStructuredDocumentTagEnd
+second_title: Aspose.Words for .NET
+description: DocumentVisitor VisitStructuredDocumentTagEnd yöntem. Yapılandırılmış bir belge etiketinin numaralandırılması sona erdiğinde çağrılır C#'da.
 type: docs
 weight: 440
 url: /tr/net/aspose.words/documentvisitor/visitstructureddocumenttagend/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitStructuredDocumentTagEnd(StructuredDocumentTag
 
 A[`VisitorAction`](../../visitoraction/) numaralandırmaya nasıl devam edileceğini belirten değer.
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki her yapılandırılmış belge etiketinin düğüm yapısının nasıl yazdırılacağını gösterir.
 
@@ -114,7 +116,5 @@ public class StructuredDocumentTagNodePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [StructuredDocumentTag](../../../aspose.words.markup/structureddocumenttag/)
 * class [DocumentVisitor](../)
-* ad alanı [Aspose.Words](../../documentvisitor/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

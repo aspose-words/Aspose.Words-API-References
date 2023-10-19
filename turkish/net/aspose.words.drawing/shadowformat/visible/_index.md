@@ -1,7 +1,9 @@
 ---
 title: ShadowFormat.Visible
-second_title: Aspose.Words for .NET API Referansı
-description: ShadowFormat mülk. İadelerdoğru bu örneğe uygulanan format görünürse.
+linktitle: Visible
+articleTitle: Visible
+second_title: Aspose.Words for .NET
+description: ShadowFormat Visible mülk. İadelerdoğru bu örneğe uygulanan format görünürse C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.drawing/shadowformat/visible/
@@ -14,11 +16,11 @@ url: /tr/net/aspose.words.drawing/shadowformat/visible/
 public bool Visible { get; }
 ```
 
-### Notlar
+## Notlar
 
 Beğenmedim[`Clear`](../clear/) , atama`YANLIŞ` Görünür, biçimlendirmeyi temizlemez, yalnızca şekil efektini gizler.
 
-### Örnekler
+## Örnekler
 
 Şeklin gölge formatıyla nasıl çalışılacağını gösterir.
 
@@ -36,7 +38,5 @@ if (shape.ShadowFormat.Type == ShadowType.ShadowMixed)
 ### Ayrıca bakınız
 
 * class [ShadowFormat](../)
-* ad alanı [Aspose.Words.Drawing](../../shadowformat/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.InsertStyleSeparator
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentBuilder yöntem. Belgeye stil ayırıcıyı ekler.
+linktitle: InsertStyleSeparator
+articleTitle: InsertStyleSeparator
+second_title: Aspose.Words for .NET
+description: DocumentBuilder InsertStyleSeparator yöntem. Belgeye stil ayırıcıyı ekler C#'da.
 type: docs
-weight: 460
+weight: 450
 url: /tr/net/aspose.words/documentbuilder/insertstyleseparator/
 ---
 ## DocumentBuilder.InsertStyleSeparator method
@@ -14,11 +16,11 @@ Belgeye stil ayırıcıyı ekler.
 public void InsertStyleSeparator()
 ```
 
-### Notlar
+## Notlar
 
 Bu yöntem, bir metin satırının iki farklı bölümüne farklı paragraf stillerinin uygulanmasına olanak tanır.
 
-### Örnekler
+## Örnekler
 
 Stil ayırıcılarla nasıl çalışılacağını gösterir.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertStyleSeparator.docx");
 ### Ayrıca bakınız
 
 * class [DocumentBuilder](../)
-* ad alanı [Aspose.Words](../../documentbuilder/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FileFormatInfo.IsEncrypted
-second_title: Aspose.Words for .NET API Referansı
-description: FileFormatInfo mülk. İadelerdoğru belge şifrelenmişse ve açmak için şifre gerektiriyorsa.
+linktitle: IsEncrypted
+articleTitle: IsEncrypted
+second_title: Aspose.Words for .NET
+description: FileFormatInfo IsEncrypted mülk. İadelerdoğru belge şifrelenmişse ve açmak için şifre gerektiriyorsa C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/fileformatinfo/isencrypted/
@@ -14,11 +16,11 @@ url: /tr/net/aspose.words/fileformatinfo/isencrypted/
 public bool IsEncrypted { get; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özellik, şifrelenmiş belgeleri şifrelenmemiş olanlardan ayırmanıza yardımcı olmak için mevcuttur. Aspose.Words'ü kullanarak şifrelenmiş bir belgeyi şifre girmeden yüklemeye çalışırsanız, bir istisnası oluşturulur. Bir belgenin parolasını gerektirip gerektirmediğini tespit etmek ve belgeyi yüklemeden önce kullanıcıdan parola istemek gibi bazı eylemler gerçekleştirmek için bu özelliği kullanabilirsiniz.
 
-### Örnekler
+## Örnekler
 
 Belge biçimini ve şifrelemeyi algılamak için FileFormatUtil sınıfının nasıl kullanılacağını gösterir.
 
@@ -42,7 +44,5 @@ Assert.True(info.IsEncrypted);
 ### Ayrıca bakınız
 
 * class [FileFormatInfo](../)
-* ad alanı [Aspose.Words](../../fileformatinfo/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ThumbnailGeneratingOptions.ThumbnailSize
-second_title: Aspose.Words for .NET API Referansı
-description: ThumbnailGeneratingOptions mülk. Oluşturulan küçük resmin piksel cinsinden boyutu. Varsayılan 600x900dür.
+linktitle: ThumbnailSize
+articleTitle: ThumbnailSize
+second_title: Aspose.Words for .NET
+description: ThumbnailGeneratingOptions ThumbnailSize mülk. Oluşturulan küçük resmin piksel cinsinden boyutu. Varsayılan 600x900dür C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.rendering/thumbnailgeneratingoptions/thumbnailsize/
@@ -14,7 +16,7 @@ Oluşturulan küçük resmin piksel cinsinden boyutu. Varsayılan 600x900'dür.
 public Size ThumbnailSize { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgenin küçük resminin nasıl güncelleneceğini gösterir.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstImage.epub");
 ### Ayrıca bakınız
 
 * class [ThumbnailGeneratingOptions](../)
-* ad alanı [Aspose.Words.Rendering](../../thumbnailgeneratingoptions/)
+* ad alanı [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * toplantı [Aspose.Words](../../../)
-
-

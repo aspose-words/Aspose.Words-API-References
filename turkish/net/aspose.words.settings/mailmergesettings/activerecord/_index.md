@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.ActiveRecord
-second_title: Aspose.Words for .NET API Referansı
-description: MailMergeSettings mülk. Microsoft Wordde görüntülenecek veri kaynağındaki kaydın tek tabanlı dizinini belirtir. Varsayılan değer 1. dir
+linktitle: ActiveRecord
+articleTitle: ActiveRecord
+second_title: Aspose.Words for .NET
+description: MailMergeSettings ActiveRecord mülk. Microsoft Wordde görüntülenecek veri kaynağındaki kaydın tek tabanlı dizinini belirtir. Varsayılan değer 1. dir C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.settings/mailmergesettings/activerecord/
@@ -14,7 +16,7 @@ Microsoft Word'de görüntülenecek veri kaynağındaki kaydın tek tabanlı diz
 public int ActiveRecord { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Dış veri kaynağına bağlanırken adres-mektup birleştirmenin nasıl yürütüleceğini gösterir.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");
 ### Ayrıca bakınız
 
 * class [MailMergeSettings](../)
-* ad alanı [Aspose.Words.Settings](../../mailmergesettings/)
+* ad alanı [Aspose.Words.Settings](../../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../../)
-
-

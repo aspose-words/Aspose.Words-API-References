@@ -1,7 +1,9 @@
 ---
 title: BuildingBlock.Behavior
-second_title: Aspose.Words for .NET API Referansı
-description: BuildingBlock mülk. Yapı taşı nin içeriği ana belgeye eklendiğinde uygulanacak davranışı belirtir.
+linktitle: Behavior
+articleTitle: Behavior
+second_title: Aspose.Words for .NET
+description: BuildingBlock Behavior mülk. Yapı taşı nin içeriği ana belgeye eklendiğinde uygulanacak davranışı belirtir C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.buildingblocks/buildingblock/behavior/
@@ -14,7 +16,7 @@ Yapı taşı 'nin içeriği ana belgeye eklendiğinde uygulanacak davranışı b
 public BuildingBlockBehavior Behavior { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgeye özel yapı taşının nasıl ekleneceğini gösterir.
 
@@ -112,7 +114,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 
 * enum [BuildingBlockBehavior](../../buildingblockbehavior/)
 * class [BuildingBlock](../)
-* ad alanı [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* ad alanı [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * toplantı [Aspose.Words](../../../)
-
-

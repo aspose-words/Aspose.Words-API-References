@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.FontStream
-second_title: Aspose.Words for .NET API Referansı
-description: FontSavingArgs mülk. Yazı tipinin kaydedileceği akışı belirtmeye izin verir.
+linktitle: FontStream
+articleTitle: FontStream
+second_title: Aspose.Words for .NET
+description: FontSavingArgs FontStream mülk. Yazı tipinin kaydedileceği akışı belirtmeye izin verir C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.saving/fontsavingargs/fontstream/
@@ -14,13 +16,13 @@ Yazı tipinin kaydedileceği akışı belirtmeye izin verir.
 public Stream FontStream { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özellik, HTML dışa aktarımı sırasında yazı tiplerini dosyalar yerine akışlara kaydetmenize olanak tanır.
 
 Varsayılan değer:`hükümsüz` . Bu özellik olduğunda`hükümsüz` yazı tipi, belirtilen dosyaya kaydedilecektir.[`FontFileName`](../fontfilename/) mülk.
 
-### Örnekler
+## Örnekler
 
 HTML'ye kaydederken yazı tiplerini dışa aktarmak için özel mantığın nasıl tanımlanacağını gösterir.
 
@@ -80,7 +82,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### Ayrıca bakınız
 
 * class [FontSavingArgs](../)
-* ad alanı [Aspose.Words.Saving](../../fontsavingargs/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

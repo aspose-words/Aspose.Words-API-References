@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.DistanceBottom
-second_title: Aspose.Words for .NET API Referansı
-description: ShapeBase mülk. Belge metni ile şeklin alt kenarı arasındaki mesafeyi nokta cinsinden döndürür veya ayarlar.
+linktitle: DistanceBottom
+articleTitle: DistanceBottom
+second_title: Aspose.Words for .NET
+description: ShapeBase DistanceBottom mülk. Belge metni ile şeklin alt kenarı arasındaki mesafeyi nokta cinsinden döndürür veya ayarlar C#'da.
 type: docs
 weight: 130
 url: /tr/net/aspose.words.drawing/shapebase/distancebottom/
@@ -14,13 +16,13 @@ Belge metni ile şeklin alt kenarı arasındaki mesafeyi (nokta cinsinden) dönd
 public double DistanceBottom { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer 0'dır.
 
 Yalnızca üst düzey şekiller için etkilidir.
 
-### Örnekler
+## Örnekler
 
 Bir şekli çevreleyen metnin sarma mesafesinin nasıl ayarlanacağını gösterir.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "Shape.Coordinates.docx");
 ### Ayrıca bakınız
 
 * class [ShapeBase](../)
-* ad alanı [Aspose.Words.Drawing](../../shapebase/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

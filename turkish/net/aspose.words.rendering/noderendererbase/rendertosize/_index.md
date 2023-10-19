@@ -1,7 +1,9 @@
 ---
 title: NodeRendererBase.RenderToSize
-second_title: Aspose.Words for .NET API Referansı
-description: NodeRendererBase yöntem. Şekli bir hale getirirGraphics nesneyi belirtilen boyuta getirin.
+linktitle: RenderToSize
+articleTitle: RenderToSize
+second_title: Aspose.Words for .NET
+description: NodeRendererBase RenderToSize yöntem. Şekli bir hale getirirGraphics nesneyi belirtilen boyuta getirin C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words.rendering/noderendererbase/rendertosize/
@@ -26,7 +28,7 @@ public float RenderToSize(Graphics graphics, float x, float y, float width, floa
 
 Oluşturulan şeklin belirtilen boyuta sığması için otomatik olarak hesaplanan ölçek.
 
-### Örnekler
+## Örnekler
 
 Bir şeklin Graphics nesnesiyle nasıl oluşturulacağını ve Windows Formu kullanılarak nasıl görüntüleneceğini gösterir.
 
@@ -136,7 +138,5 @@ private class ShapeForm : Form
 ### Ayrıca bakınız
 
 * class [NodeRendererBase](../)
-* ad alanı [Aspose.Words.Rendering](../../noderendererbase/)
+* ad alanı [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * toplantı [Aspose.Words](../../../)
-
-

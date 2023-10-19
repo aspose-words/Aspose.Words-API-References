@@ -1,7 +1,9 @@
 ---
-title: Class CompareOptions
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Comparing.CompareOptions sınıf. Belge karşılaştırma işlemi için gelişmiş seçeneklerin seçilmesine olanak tanır.
+title: CompareOptions Class
+linktitle: CompareOptions
+articleTitle: CompareOptions
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Comparing.CompareOptions sınıf. Belge karşılaştırma işlemi için gelişmiş seçeneklerin seçilmesine olanak tanır C#'da.
 type: docs
 weight: 270
 url: /tr/net/aspose.words.comparing/compareoptions/
@@ -39,7 +41,7 @@ public class CompareOptions
 | [IgnoreTextboxes](../../aspose.words.comparing/compareoptions/ignoretextboxes/) { get; set; } | Metin kutularının içerdiği verilerdeki farklılıkların karşılaştırılıp karşılaştırılmayacağını belirtir. Varsayılan olarak metin kutuları göz ardı edilmez. |
 | [Target](../../aspose.words.comparing/compareoptions/target/) { get; set; } | Karşılaştırma sırasında hangi belgenin hedef olarak kullanılacağını belirtir. |
 
-### Örnekler
+## Örnekler
 
 Karşılaştırma yaparken belirli belge öğesi türlerinin nasıl filtreleneceğini gösterir.
 
@@ -114,5 +116,3 @@ docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
 
 * ad alanı [Aspose.Words.Comparing](../../aspose.words.comparing/)
 * toplantı [Aspose.Words](../../)
-
-

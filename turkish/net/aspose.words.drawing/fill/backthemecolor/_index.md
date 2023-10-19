@@ -1,7 +1,9 @@
 ---
 title: Fill.BackThemeColor
-second_title: Aspose.Words for .NET API Referansı
-description: Fill mülk. Dolgunun arka plan rengini temsil eden bir ThemeColor nesnesini alır veya ayarlar.
+linktitle: BackThemeColor
+articleTitle: BackThemeColor
+second_title: Aspose.Words for .NET
+description: Fill BackThemeColor mülk. Dolgunun arka plan rengini temsil eden bir ThemeColor nesnesini alır veya ayarlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.drawing/fill/backthemecolor/
@@ -14,7 +16,7 @@ Dolgunun arka plan rengini temsil eden bir ThemeColor nesnesini alır veya ayarl
 public ThemeColor BackThemeColor { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Ön plan/arka plan şekli rengi için tema renginin nasıl ayarlanacağını gösterir.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Shape.FillThemeColor.docx");
 
 * enum [ThemeColor](../../../aspose.words.themes/themecolor/)
 * class [Fill](../)
-* ad alanı [Aspose.Words.Drawing](../../fill/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

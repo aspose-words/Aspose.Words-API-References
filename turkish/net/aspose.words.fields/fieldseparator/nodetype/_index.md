@@ -1,7 +1,9 @@
 ---
 title: FieldSeparator.NodeType
-second_title: Aspose.Words for .NET API Referansı
-description: FieldSeparator mülk. İadelerFieldSeparator .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words for .NET
+description: FieldSeparator NodeType mülk. İadelerFieldSeparator  C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fieldseparator/nodetype/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.fields/fieldseparator/nodetype/
 public override NodeType NodeType { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bileşik bir düğümün alt düğüm ağacında nasıl gezinileceğini gösterir.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [FieldSeparator](../)
-* ad alanı [Aspose.Words.Fields](../../fieldseparator/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

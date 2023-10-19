@@ -1,7 +1,9 @@
 ---
 title: VbaReferenceCollection.Item
-second_title: Aspose.Words for .NET API Referansı
-description: VbaReferenceCollection mülk. AlırVbaReference belirtilen dizindeki nesne.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words for .NET
+description: VbaReferenceCollection Item mülk. AlırVbaReference belirtilen dizindeki nesne C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.vba/vbareferencecollection/item/
@@ -22,7 +24,5 @@ public VbaReference this[int index] { get; }
 
 * class [VbaReference](../../vbareference/)
 * class [VbaReferenceCollection](../)
-* ad alanı [Aspose.Words.Vba](../../vbareferencecollection/)
+* ad alanı [Aspose.Words.Vba](../../../aspose.words.vba/)
 * toplantı [Aspose.Words](../../../)
-
-

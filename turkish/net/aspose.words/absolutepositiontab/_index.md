@@ -1,7 +1,9 @@
 ---
-title: Class AbsolutePositionTab
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.AbsolutePositionTab sınıf. Mutlak konum sekmesi bu WordprocessingML içeriğini görüntülerken geçerli metin satırındaki üzerindeki konumu ilerletmek için kullanılan bir karakterdir.
+title: AbsolutePositionTab Class
+linktitle: AbsolutePositionTab
+articleTitle: AbsolutePositionTab
+second_title: Aspose.Words for .NET
+description: Aspose.Words.AbsolutePositionTab sınıf. Mutlak konum sekmesi bu WordprocessingML içeriğini görüntülerken geçerli metin satırındaki üzerindeki konumu ilerletmek için kullanılan bir karakterdir C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/absolutepositiontab/
@@ -40,18 +42,18 @@ public class AbsolutePositionTab : SpecialChar
 
 | İsim | Tanım |
 | --- | --- |
-| override [Accept](../../aspose.words/absolutepositiontab/accept/)(DocumentVisitor) | Ziyaretçi kabul eder. |
-| [Clone](../../aspose.words/node/clone/)(bool) | Düğümün bir kopyasını oluşturur. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Belirtilenin ilk atayı alır[`NodeType`](../nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Belirtilen nesne türünün ilk atayı alır. |
+| override [Accept](../../aspose.words/absolutepositiontab/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Ziyaretçi kabul eder. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Düğümün bir kopyasını oluşturur. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | Belirtilenin ilk atayı alır[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Belirtilen nesne türünün ilk atayı alır. |
 | override [GetText](../../aspose.words/specialchar/gettext/)() | Bu düğümün temsil ettiği özel karakteri alır. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Ön sipariş ağaç geçiş algoritmasına göre sonraki düğümü alır. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Ön sipariş ağaç geçiş algoritmasına göre önceki düğümü alır. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Ön sipariş ağaç geçiş algoritmasına göre sonraki düğümü alır. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Ön sipariş ağaç geçiş algoritmasına göre önceki düğümü alır. |
 | [Remove](../../aspose.words/node/remove/)() | Kendini üst öğeden kaldırır. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Düğümün içeriğini belirtilen formatta bir dizeye aktarır. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Belirtilen kaydetme seçeneklerini kullanarak düğümün içeriğini bir dizeye aktarır. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Düğümün içeriğini belirtilen formatta bir dizeye aktarır. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Belirtilen kaydetme seçeneklerini kullanarak düğümün içeriğini bir dizeye aktarır. |
 
-### Örnekler
+## Örnekler
 
 Mutlak konum sekmesi karakterlerinin bir belge ziyaretçisiyle nasıl işleneceğini gösterir.
 
@@ -129,5 +131,3 @@ public class DocTextExtractor : DocumentVisitor
 * class [SpecialChar](../specialchar/)
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

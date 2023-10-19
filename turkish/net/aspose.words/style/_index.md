@@ -1,7 +1,9 @@
 ---
-title: Class Style
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Style sınıf. Tek bir yerleşik veya kullanıcı tanımlı stili temsil eder.
+title: Style Class
+linktitle: Style
+articleTitle: Style
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Style sınıf. Tek bir yerleşik veya kullanıcı tanımlı stili temsil eder C#'da.
 type: docs
 weight: 6130
 url: /tr/net/aspose.words/style/
@@ -31,7 +33,6 @@ public class Style
 | [LinkedStyleName](../../aspose.words/style/linkedstylename/) { get; } | Adını alır`Style` bununla bağlantılı. Hiçbir stil bağlı değilse boş dizeyi döndürür. |
 | [List](../../aspose.words/style/list/) { get; } | Bu liste stilinin biçimlendirmesini tanımlayan listeyi alır. |
 | [ListFormat](../../aspose.words/style/listformat/) { get; } | Paragraf stilinin liste biçimlendirme özelliklerine erişim sağlar. |
-| [Locked](../../aspose.words/style/locked/) { get; set; } |  |
 | [Name](../../aspose.words/style/name/) { get; set; } | Stilin adını alır veya ayarlar. |
 | [NextParagraphStyleName](../../aspose.words/style/nextparagraphstylename/) { get; set; } | Belirtilen stille biçimlendirilmiş a paragrafından sonra eklenen yeni paragrafa otomatik olarak uygulanacak stilin adını alır/ayarlar. |
 | [ParagraphFormat](../../aspose.words/style/paragraphformat/) { get; } | Stilin paragraf formatını alır. |
@@ -43,10 +44,10 @@ public class Style
 
 | İsim | Tanım |
 | --- | --- |
-| [Equals](../../aspose.words/style/equals/#equals)(Style) | Belirtilen stille karşılaştırır. Stiller Istd'ler yalnızca yerleşik stiller için karşılaştırılır. Stillerin varsayılanları karşılaştırmaya dahil edilmez. Temel stil, bağlantılı stil ve sonraki paragraf stili yinelemeli olarak karşılaştırılır. |
+| [Equals](../../aspose.words/style/equals/#equals)(*Style*) | Belirtilen stille karşılaştırır. Stiller Istd'ler yalnızca yerleşik stiller için karşılaştırılır. Stillerin varsayılanları karşılaştırmaya dahil edilmez. Temel stil, bağlantılı stil ve sonraki paragraf stili yinelemeli olarak karşılaştırılır. |
 | [Remove](../../aspose.words/style/remove/)() | Belirtilen stili belgeden kaldırır. |
 
-### Örnekler
+## Örnekler
 
 Liste formatıyla paragraf stilinin nasıl oluşturulacağını ve kullanılacağını gösterir.
 
@@ -113,5 +114,3 @@ Assert.AreEqual(Color.Empty.ToArgb(), firstParagraphStyle.Font.Color.ToArgb());
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

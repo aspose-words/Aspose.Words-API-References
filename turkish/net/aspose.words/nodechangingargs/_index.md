@@ -1,7 +1,9 @@
 ---
-title: Class NodeChangingArgs
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.NodeChangingArgs sınıf. Yöntemler için veri sağlarINodeChangingCallback arayüz.
+title: NodeChangingArgs Class
+linktitle: NodeChangingArgs
+articleTitle: NodeChangingArgs
+second_title: Aspose.Words for .NET
+description: Aspose.Words.NodeChangingArgs sınıf. Yöntemler için veri sağlarINodeChangingCallback arayüz C#'da.
 type: docs
 weight: 4190
 url: /tr/net/aspose.words/nodechangingargs/
@@ -25,7 +27,7 @@ public class NodeChangingArgs
 | [Node](../../aspose.words/nodechangingargs/node/) { get; } | Alır[`Node`](./node/) bu ekleniyor veya kaldırılıyor. |
 | [OldParent](../../aspose.words/nodechangingargs/oldparent/) { get; } | İşlem başlamadan önce düğümün ebeveynini alır. |
 
-### Örnekler
+## Örnekler
 
 Bir geri aramayla düğüm değişiminin nasıl özelleştirileceğini gösterir.
 
@@ -103,5 +105,3 @@ public class HandleNodeChangingFontChanger : INodeChangingCallback
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

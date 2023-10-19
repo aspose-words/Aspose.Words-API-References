@@ -1,7 +1,9 @@
 ---
 title: FontSourceBase.WarningCallback
-second_title: Aspose.Words for .NET API Referansı
-description: FontSourceBase mülk. Yazı tipi kaynağının işlenmesi sırasında biçimlendirmenin aslına uygunluk kaybına yol açabilecek bir sorun algılandığında çağrılır.
+linktitle: WarningCallback
+articleTitle: WarningCallback
+second_title: Aspose.Words for .NET
+description: FontSourceBase WarningCallback mülk. Yazı tipi kaynağının işlenmesi sırasında biçimlendirmenin aslına uygunluk kaybına yol açabilecek bir sorun algılandığında çağrılır C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fonts/fontsourcebase/warningcallback/
@@ -14,7 +16,7 @@ Yazı tipi kaynağının işlenmesi sırasında, biçimlendirmenin aslına uygun
 public IWarningCallback WarningCallback { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Yazı tipi kaynaklarıyla çalışırken uyarı geri aramasının nasıl çağrılacağını gösterir.
 
@@ -53,7 +55,5 @@ private class FontSourceWarningCollector : IWarningCallback
 
 * interface [IWarningCallback](../../../aspose.words/iwarningcallback/)
 * class [FontSourceBase](../)
-* ad alanı [Aspose.Words.Fonts](../../fontsourcebase/)
+* ad alanı [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../../)
-
-

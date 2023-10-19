@@ -1,7 +1,9 @@
 ---
 title: MailMergeRegionInfo.StartField
-second_title: Aspose.Words for .NET API Referansı
-description: MailMergeRegionInfo mülk. Bölge için bir başlangıç alanı döndürür.
+linktitle: StartField
+articleTitle: StartField
+second_title: Aspose.Words for .NET
+description: MailMergeRegionInfo StartField mülk. Bölge için bir başlangıç alanı döndürür C#'da.
 type: docs
 weight: 90
 url: /tr/net/aspose.words.mailmerging/mailmergeregioninfo/startfield/
@@ -14,7 +16,7 @@ Bölge için bir başlangıç alanı döndürür.
 public FieldMergeField StartField { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Adres-mektup birleştirme bölgelerinin nasıl doğrulanacağını gösterir.
 
@@ -60,7 +62,5 @@ Assert.AreEqual("TableEnd:NestedRegion1", endFieldMergeField.FieldName);
 
 * class [FieldMergeField](../../../aspose.words.fields/fieldmergefield/)
 * class [MailMergeRegionInfo](../)
-* ad alanı [Aspose.Words.MailMerging](../../mailmergeregioninfo/)
+* ad alanı [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * toplantı [Aspose.Words](../../../)
-
-

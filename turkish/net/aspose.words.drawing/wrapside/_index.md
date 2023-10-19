@@ -1,7 +1,9 @@
 ---
-title: Enum WrapSide
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.WrapSide Sıralama. Metnin şeklin veya resmin hangi taraflarını saracağını belirtir.
+title: WrapSide Enum
+linktitle: WrapSide
+articleTitle: WrapSide
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.WrapSide Sıralama. Metnin şeklin veya resmin hangi taraflarını saracağını belirtir C#'da.
 type: docs
 weight: 1390
 url: /tr/net/aspose.words.drawing/wrapside/
@@ -24,7 +26,7 @@ public enum WrapSide
 | Largest | `3` | Belge metni, şeklin sayfa kenar boşluğundan en uzak olan tarafına kaydırılır ve şeklin diğer tarafında metinsiz alan kalır. |
 | Default | `0` | Varsayılan değer:Both . |
 
-### Örnekler
+## Örnekler
 
 Tüm metin kutusu şekillerinin görüntü şekilleriyle nasıl değiştirileceğini gösterir.
 
@@ -71,5 +73,3 @@ doc.Save(ArtifactsDir + "Shape.ReplaceTextboxesWithImages.docx");
 * property [WrapSide](../shapebase/wrapside/)
 * ad alanı [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../)
-
-

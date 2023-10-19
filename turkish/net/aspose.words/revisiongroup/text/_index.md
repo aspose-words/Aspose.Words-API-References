@@ -1,7 +1,9 @@
 ---
 title: RevisionGroup.Text
-second_title: Aspose.Words for .NET API Referansı
-description: RevisionGroup mülk. Eklenen/silinen/taşınan metni veya biçim değişikliğinin açıklamasını döndürür.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words for .NET
+description: RevisionGroup Text mülk. Eklenen/silinen/taşınan metni veya biçim değişikliğinin açıklamasını döndürür C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/revisiongroup/text/
@@ -14,7 +16,7 @@ Eklenen/silinen/taşınan metni veya biçim değişikliğinin açıklamasını d
 public string Text { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki revizyon grubu hakkındaki bilgilerin nasıl yazdırılacağını gösterir.
 
@@ -33,7 +35,5 @@ foreach (RevisionGroup group in doc.Revisions.Groups)
 ### Ayrıca bakınız
 
 * class [RevisionGroup](../)
-* ad alanı [Aspose.Words](../../revisiongroup/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

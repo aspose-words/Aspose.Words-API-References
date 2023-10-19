@@ -1,7 +1,9 @@
 ---
 title: BuildingBlock.NodeType
-second_title: Aspose.Words for .NET API Referansı
-description: BuildingBlock mülk. Şunu döndürürBuildingBlock değer.
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words for .NET
+description: BuildingBlock NodeType mülk. Şunu döndürürBuildingBlock değer C#'da.
 type: docs
 weight: 100
 url: /tr/net/aspose.words.buildingblocks/buildingblock/nodetype/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.buildingblocks/buildingblock/nodetype/
 public override NodeType NodeType { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bileşik bir düğümün alt düğüm ağacında nasıl gezinileceğini gösterir.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [BuildingBlock](../)
-* ad alanı [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* ad alanı [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * toplantı [Aspose.Words](../../../)
-
-

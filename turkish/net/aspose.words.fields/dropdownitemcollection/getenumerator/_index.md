@@ -1,7 +1,9 @@
 ---
 title: DropDownItemCollection.GetEnumerator
-second_title: Aspose.Words for .NET API Referansı
-description: DropDownItemCollection yöntem. Koleksiyondaki tüm öğeler üzerinde yineleme yapmak için kullanılabilecek bir numaralandırıcı nesnesini döndürür.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words for .NET
+description: DropDownItemCollection GetEnumerator yöntem. Koleksiyondaki tüm öğeler üzerinde yineleme yapmak için kullanılabilecek bir numaralandırıcı nesnesini döndürür C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.fields/dropdownitemcollection/getenumerator/
@@ -14,7 +16,7 @@ Koleksiyondaki tüm öğeler üzerinde yineleme yapmak için kullanılabilecek b
 public IEnumerator<string> GetEnumerator()
 ```
 
-### Örnekler
+## Örnekler
 
 Açılan kutu alanının nasıl ekleneceğini ve öğe koleksiyonundaki öğelerin nasıl düzenleneceğini gösterir.
 
@@ -68,7 +70,5 @@ dropDownItems.Clear();
 ### Ayrıca bakınız
 
 * class [DropDownItemCollection](../)
-* ad alanı [Aspose.Words.Fields](../../dropdownitemcollection/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

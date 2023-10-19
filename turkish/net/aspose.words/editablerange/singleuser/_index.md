@@ -1,7 +1,9 @@
 ---
 title: EditableRange.SingleUser
-second_title: Aspose.Words for .NET API Referansı
-description: EditableRange mülk. Düzenlenebilir aralık için tek kullanıcıyı döndürür veya ayarlar.
+linktitle: SingleUser
+articleTitle: SingleUser
+second_title: Aspose.Words for .NET
+description: EditableRange SingleUser mülk. Düzenlenebilir aralık için tek kullanıcıyı döndürür veya ayarlar C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words/editablerange/singleuser/
@@ -14,7 +16,7 @@ Düzenlenebilir aralık için tek kullanıcıyı döndürür veya ayarlar.
 public string SingleUser { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu düzenleyici aşağıdaki formlardan birinde saklanabilir:
 
@@ -26,7 +28,7 @@ kullanıcı - erişimi geçerli kullanıcının makine kimlik bilgileri kullanı
 
 Belirli düzenlenebilir aralık için tek kullanıcı ve editör grubu aynı anda ayarlanamaz, biri ayarlanmışsa diğeri net olacaktır.
 
-### Örnekler
+## Örnekler
 
 Düzenlenebilir aralıkların düzenleme haklarının belirli bir grup/kullanıcıyla nasıl sınırlandırılacağını gösterir.
 
@@ -137,7 +139,5 @@ public class EditableRangePrinter : DocumentVisitor
 ### Ayrıca bakınız
 
 * class [EditableRange](../)
-* ad alanı [Aspose.Words](../../editablerange/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

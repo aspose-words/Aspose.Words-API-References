@@ -1,9 +1,11 @@
 ---
 title: CompositeNode.GetEnumerator
-second_title: Aspose.Words for .NET API Referansı
-description: CompositeNode yöntem. Bu düğümün alt düğümleri üzerindeki her stil yinelemesi için destek sağlar.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words for .NET
+description: CompositeNode GetEnumerator yöntem. Bu düğümün alt düğümleri üzerindeki her stil yinelemesi için destek sağlar C#'da.
 type: docs
-weight: 120
+weight: 100
 url: /tr/net/aspose.words/compositenode/getenumerator/
 ---
 ## CompositeNode.GetEnumerator method
@@ -14,7 +16,7 @@ Bu düğümün alt düğümleri üzerindeki her stil yinelemesi için destek sa�
 public IEnumerator<Node> GetEnumerator()
 ```
 
-### Örnekler
+## Örnekler
 
 Bileşik bir düğümün alt düğüm koleksiyonunda nasıl geçiş yapılacağını gösterir.
 
@@ -60,7 +62,5 @@ foreach (Node child in children)
 
 * class [Node](../../node/)
 * class [CompositeNode](../)
-* ad alanı [Aspose.Words](../../compositenode/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

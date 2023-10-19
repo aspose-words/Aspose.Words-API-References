@@ -1,7 +1,9 @@
 ---
 title: FieldMergeField.FieldName
-second_title: Aspose.Words for .NET API Referansı
-description: FieldMergeField mülk. Bir veri alanının adını alır veya ayarlar.
+linktitle: FieldName
+articleTitle: FieldName
+second_title: Aspose.Words for .NET
+description: FieldMergeField FieldName mülk. Bir veri alanının adını alır veya ayarlar C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fieldmergefield/fieldname/
@@ -14,7 +16,7 @@ Bir veri alanının adını alır veya ayarlar.
 public string FieldName { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Adres-mektup birleştirme gerçekleştirmek için MERGEFIELD alanlarının nasıl kullanılacağını gösterir.
 
@@ -56,7 +58,5 @@ Assert.AreEqual("Dear Mr. Doe:\u000cDear Mrs. Cardholder:", doc.GetText().Trim()
 ### Ayrıca bakınız
 
 * class [FieldMergeField](../)
-* ad alanı [Aspose.Words.Fields](../../fieldmergefield/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

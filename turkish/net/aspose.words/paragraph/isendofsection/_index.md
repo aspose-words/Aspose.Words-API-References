@@ -1,7 +1,9 @@
 ---
 title: Paragraph.IsEndOfSection
-second_title: Aspose.Words for .NET API Referansı
-description: Paragraph mülk. Bu paragraf paragraftaki son paragrafsa doğruBody ana metin hikayesi birSection  aksi halde yanlış.
+linktitle: IsEndOfSection
+articleTitle: IsEndOfSection
+second_title: Aspose.Words for .NET
+description: Paragraph IsEndOfSection mülk. Bu paragraf paragraftaki son paragrafsa doğruBody ana metin hikayesi birSection  aksi halde yanlış C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words/paragraph/isendofsection/
@@ -14,7 +16,7 @@ Bu paragraf paragraftaki son paragrafsa doğru[`Body`](../../body/) (ana metin h
 public bool IsEndOfSection { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgenin içeriğinin başka bir belgedeki yer imine nasıl ekleneceğini gösterir.
 
@@ -82,7 +84,5 @@ static void InsertDocument(Node insertionDestination, Document docToInsert)
 ### Ayrıca bakınız
 
 * class [Paragraph](../)
-* ad alanı [Aspose.Words](../../paragraph/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

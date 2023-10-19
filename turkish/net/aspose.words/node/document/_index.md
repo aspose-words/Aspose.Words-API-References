@@ -1,7 +1,9 @@
 ---
 title: Node.Document
-second_title: Aspose.Words for .NET API Referansı
-description: Node mülk. Bu düğümün ait olduğu belgeyi alır.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words for .NET
+description: Node Document mülk. Bu düğümün ait olduğu belgeyi alır C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/node/document/
@@ -14,11 +16,11 @@ Bu düğümün ait olduğu belgeyi alır.
 public virtual DocumentBase Document { get; }
 ```
 
-### Notlar
+## Notlar
 
 Düğüm, yeni oluşturulmuş olsa ve ağaca henüz eklenmemiş olsa veya ağaçtan kaldırılmış olsa bile her zaman bir belgeye aittir.
 
-### Örnekler
+## Örnekler
 
 Bir düğümün nasıl oluşturulacağını ve sahiplik belgesinin nasıl ayarlanacağını gösterir.
 
@@ -51,7 +53,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 
 * class [DocumentBase](../../documentbase/)
 * class [Node](../)
-* ad alanı [Aspose.Words](../../node/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

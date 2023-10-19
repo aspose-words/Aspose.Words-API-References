@@ -1,7 +1,9 @@
 ---
-title: Enum ResourceLoadingAction
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Loading.ResourceLoadingAction Sıralama. Kaynak yükleme modunu belirtir.
+title: ResourceLoadingAction Enum
+linktitle: ResourceLoadingAction
+articleTitle: ResourceLoadingAction
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Loading.ResourceLoadingAction Sıralama. Kaynak yükleme modunu belirtir C#'da.
 type: docs
 weight: 3680
 url: /tr/net/aspose.words.loading/resourceloadingaction/
@@ -24,7 +26,7 @@ public enum ResourceLoadingAction
 | Skip | `1` | Aspose.Words bu kaynağın yüklenmesini atlayacak. Bir görüntü için yalnızca veri içermeyen bağlantı saklanacak, HTML formatı için CSS stil sayfası göz ardı edilecek. |
 | UserProvided | `2` | Aspose.Words, kullanıcı tarafından sağlanan bayt dizisini kullanacaktır.[`SetData`](../resourceloadingargs/setdata/) kaynak verisi olarak. |
 
-### Örnekler
+## Örnekler
 
 Dış kaynakları bir belgeye yükleme işleminin nasıl özelleştirileceğini gösterir.
 
@@ -88,5 +90,3 @@ private class ImageNameHandler : IResourceLoadingCallback
 
 * ad alanı [Aspose.Words.Loading](../../aspose.words.loading/)
 * toplantı [Aspose.Words](../../)
-
-

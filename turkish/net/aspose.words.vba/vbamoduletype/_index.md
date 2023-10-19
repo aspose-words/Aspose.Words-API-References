@@ -1,7 +1,9 @@
 ---
-title: Enum VbaModuleType
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Vba.VbaModuleType Sıralama. VBA projesindeki modelin türünü belirtir.
+title: VbaModuleType Enum
+linktitle: VbaModuleType
+articleTitle: VbaModuleType
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Vba.VbaModuleType Sıralama. VBA projesindeki modelin türünü belirtir C#'da.
 type: docs
 weight: 6570
 url: /tr/net/aspose.words.vba/vbamoduletype/
@@ -23,7 +25,7 @@ public enum VbaModuleType
 | ClassModule | `2` | Yeni bir nesnenin tanımını içeren modül. Bir sınıfın her örneği yeni bir nesne ( ) oluşturur ve modülde tanımlanan prosedürler, nesnenin özellikleri ve yöntemleri haline gelir. |
 | DesignerModule | `3` | Projeye kayıtlı bir ActiveX denetiminin yöntemlerini ve özelliklerini genişleten bir VBA modülü. |
 
-### Örnekler
+## Örnekler
 
 Makroları kullanarak bir VBA projesinin nasıl oluşturulacağını gösterir.
 
@@ -51,5 +53,3 @@ doc.Save(ArtifactsDir + "VbaProject.CreateVBAMacros.docm");
 
 * ad alanı [Aspose.Words.Vba](../../aspose.words.vba/)
 * toplantı [Aspose.Words](../../)
-
-

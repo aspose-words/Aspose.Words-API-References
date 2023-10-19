@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.EndBookmark
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentBuilder yöntem. Belgedeki geçerli konumu yer imi sonu olarak işaretler.
+linktitle: EndBookmark
+articleTitle: EndBookmark
+second_title: Aspose.Words for .NET
+description: DocumentBuilder EndBookmark yöntem. Belgedeki geçerli konumu yer imi sonu olarak işaretler C#'da.
 type: docs
 weight: 210
 url: /tr/net/aspose.words/documentbuilder/endbookmark/
@@ -22,13 +24,13 @@ public BookmarkEnd EndBookmark(string bookmarkName)
 
 Yeni oluşturulan yer imi bitiş düğümü.
 
-### Notlar
+## Notlar
 
 Bir belgedeki yer imleri herhangi bir aralıkla örtüşebilir ve yayılabilir. Geçerli bir yer imi oluşturmak için her ikisini de aramanız gerekir[`StartBookmark`](../startbookmark/) Ve`EndBookmark` aynısıyla*bookmarkName* parametresi.
 
 Kötü biçimlendirilmiş yer imleri veya yinelenen adlara sahip yer imleri, belge kaydedildiğinde göz ardı edilecektir.
 
-### Örnekler
+## Örnekler
 
 Yer iminin nasıl oluşturulduğunu gösterir.
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlinkToLocalBookmark.docx");
 
 * class [BookmarkEnd](../../bookmarkend/)
 * class [DocumentBuilder](../)
-* ad alanı [Aspose.Words](../../documentbuilder/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

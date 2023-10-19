@@ -1,7 +1,9 @@
 ---
 title: FieldXE.IsBold
-second_title: Aspose.Words for .NET API Referansı
-description: FieldXE mülk. Girişin sayfa numarasına kalın biçimlendirmenin uygulanıp uygulanmayacağını alır veya ayarlar.
+linktitle: IsBold
+articleTitle: IsBold
+second_title: Aspose.Words for .NET
+description: FieldXE IsBold mülk. Girişin sayfa numarasına kalın biçimlendirmenin uygulanıp uygulanmayacağını alır veya ayarlar C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fields/fieldxe/isbold/
@@ -14,7 +16,7 @@ Girişin sayfa numarasına kalın biçimlendirmenin uygulanıp uygulanmayacağı
 public bool IsBold { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir INDEX alanının XE alanlarını kullanarak girişlerle nasıl doldurulacağını ve ayrıca görünümünün nasıl değiştirileceğini gösterir.
 
@@ -86,7 +88,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Formatting.docx");
 ### Ayrıca bakınız
 
 * class [FieldXE](../)
-* ad alanı [Aspose.Words.Fields](../../fieldxe/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

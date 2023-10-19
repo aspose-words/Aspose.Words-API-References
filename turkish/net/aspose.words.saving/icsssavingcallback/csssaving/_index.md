@@ -1,7 +1,9 @@
 ---
 title: ICssSavingCallback.CssSaving
-second_title: Aspose.Words for .NET API Referansı
-description: ICssSavingCallback yöntem. Aspose.Words bir CSSyi Basamaklı Stil Sayfası kaydettiğinde çağrılır.
+linktitle: CssSaving
+articleTitle: CssSaving
+second_title: Aspose.Words for .NET
+description: ICssSavingCallback CssSaving yöntem. Aspose.Words bir CSSyi Basamaklı Stil Sayfası kaydettiğinde çağrılır C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.saving/icsssavingcallback/csssaving/
@@ -14,7 +16,7 @@ Aspose.Words bir CSS'yi (Basamaklı Stil Sayfası) kaydettiğinde çağrılır.
 public void CssSaving(CssSavingArgs args)
 ```
 
-### Örnekler
+## Örnekler
 
 Bir HTML dönüşümünün oluşturduğu CSS stil sayfalarıyla nasıl çalışılacağını gösterir.
 
@@ -76,7 +78,5 @@ private class CustomCssSavingCallback : ICssSavingCallback
 
 * class [CssSavingArgs](../../csssavingargs/)
 * interface [ICssSavingCallback](../)
-* ad alanı [Aspose.Words.Saving](../../icsssavingcallback/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

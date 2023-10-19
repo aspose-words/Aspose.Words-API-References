@@ -1,7 +1,9 @@
 ---
-title: ThumbnailGeneratingOptions.ThumbnailGeneratingOptions
-second_title: Aspose.Words for .NET API Referansı
-description: ThumbnailGeneratingOptions inşaatçı. Default_Constructor
+title: ThumbnailGeneratingOptions
+linktitle: ThumbnailGeneratingOptions
+articleTitle: ThumbnailGeneratingOptions
+second_title: Aspose.Words for .NET
+description: ThumbnailGeneratingOptions inşaatçı. Default_Constructor C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.rendering/thumbnailgeneratingoptions/thumbnailgeneratingoptions/
@@ -17,7 +19,5 @@ public ThumbnailGeneratingOptions()
 ### Ayrıca bakınız
 
 * class [ThumbnailGeneratingOptions](../)
-* ad alanı [Aspose.Words.Rendering](../../thumbnailgeneratingoptions/)
+* ad alanı [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * toplantı [Aspose.Words](../../../)
-
-

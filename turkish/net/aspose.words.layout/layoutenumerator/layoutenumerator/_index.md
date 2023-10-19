@@ -1,7 +1,9 @@
 ---
-title: LayoutEnumerator.LayoutEnumerator
-second_title: Aspose.Words for .NET API Referansı
-description: LayoutEnumerator inşaatçı. Bu sınıfın yeni örneğini başlatır.
+title: LayoutEnumerator
+linktitle: LayoutEnumerator
+articleTitle: LayoutEnumerator
+second_title: Aspose.Words for .NET
+description: LayoutEnumerator inşaatçı. Bu sınıfın yeni örneğini başlatır C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.layout/layoutenumerator/layoutenumerator/
@@ -18,13 +20,13 @@ public LayoutEnumerator(Document document)
 | --- | --- | --- |
 | document | Document | Sayfa düzeni modeli numaralandırılacak bir belge. |
 
-### Notlar
+## Notlar
 
 Belgenin sayfa düzeni modeli oluşturulmamışsa numaralandırıcı çağrıları[`UpdatePageLayout`](../../../aspose.words/document/updatepagelayout/) onu inşa etmek.
 
 Belge güncellendiğinde ve yeni sayfa düzeni modeli oluşturulduğunda, ona erişmek için yeni bir numaralandırıcının kullanılması gerekir.
 
-### Örnekler
+## Örnekler
 
 Bir belgenin düzen varlıkları arasında geçiş yapma yollarını gösterir.
 
@@ -170,7 +172,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 
 * class [Document](../../../aspose.words/document/)
 * class [LayoutEnumerator](../)
-* ad alanı [Aspose.Words.Layout](../../layoutenumerator/)
+* ad alanı [Aspose.Words.Layout](../../../aspose.words.layout/)
 * toplantı [Aspose.Words](../../../)
-
-

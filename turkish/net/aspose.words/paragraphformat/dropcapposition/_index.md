@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.DropCapPosition
-second_title: Aspose.Words for .NET API Referansı
-description: ParagraphFormat mülk. Gömme metnin konumunu alır veya ayarlar.
+linktitle: DropCapPosition
+articleTitle: DropCapPosition
+second_title: Aspose.Words for .NET
+description: ParagraphFormat DropCapPosition mülk. Gömme metnin konumunu alır veya ayarlar C#'da.
 type: docs
 weight: 100
 url: /tr/net/aspose.words/paragraphformat/dropcapposition/
@@ -14,7 +16,7 @@ Gömme metnin konumunu alır veya ayarlar.
 public DropCapPosition DropCapPosition { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir listenin başka bir listenin içine nasıl yerleştirileceğini gösterir.
 
@@ -69,7 +71,5 @@ builder.Document.Save(ArtifactsDir + "Lists.NestedLists.docx");
 
 * enum [DropCapPosition](../../dropcapposition/)
 * class [ParagraphFormat](../)
-* ad alanı [Aspose.Words](../../paragraphformat/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

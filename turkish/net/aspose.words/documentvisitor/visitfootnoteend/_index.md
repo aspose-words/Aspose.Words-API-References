@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitFootnoteEnd
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentVisitor yöntem. Dipnot veya sonnot metninin numaralandırılması sona erdiğinde çağrılır.
+linktitle: VisitFootnoteEnd
+articleTitle: VisitFootnoteEnd
+second_title: Aspose.Words for .NET
+description: DocumentVisitor VisitFootnoteEnd yöntem. Dipnot veya sonnot metninin numaralandırılması sona erdiğinde çağrılır C#'da.
 type: docs
 weight: 210
 url: /tr/net/aspose.words/documentvisitor/visitfootnoteend/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitFootnoteEnd(Footnote footnote)
 
 A[`VisitorAction`](../../visitoraction/) numaralandırmaya nasıl devam edileceğini belirten değer.
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki her dipnotun düğüm yapısının nasıl yazdırılacağını gösterir.
 
@@ -116,7 +118,5 @@ public class FootnoteStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [Footnote](../../../aspose.words.notes/footnote/)
 * class [DocumentVisitor](../)
-* ad alanı [Aspose.Words](../../documentvisitor/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

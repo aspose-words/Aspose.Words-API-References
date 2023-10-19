@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.ShowBubbleSize
-second_title: Aspose.Words for .NET API Referansı
-description: ChartDataLabelCollection mülk. Tüm serinin veri etiketleri için kabarcık boyutunun görüntülenip görüntülenmeyeceğini belirlemeye izin verir. Yalnızca Kabarcık grafikleri için geçerlidir. Varsayılan değerYANLIŞ .
+linktitle: ShowBubbleSize
+articleTitle: ShowBubbleSize
+second_title: Aspose.Words for .NET
+description: ChartDataLabelCollection ShowBubbleSize mülk. Tüm serinin veri etiketleri için kabarcık boyutunun görüntülenip görüntülenmeyeceğini belirlemeye izin verir. Yalnızca Kabarcık grafikleri için geçerlidir. Varsayılan değerYANLIŞ  C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.drawing.charts/chartdatalabelcollection/showbubblesize/
@@ -14,11 +16,11 @@ Tüm serinin veri etiketleri için kabarcık boyutunun görüntülenip görünt�
 public bool ShowBubbleSize { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özellik için tanımlanan değer, the kullanılarak tek bir veri etiketi için geçersiz kılınabilir[`ShowBubbleSize`](../../chartdatalabel/showbubblesize/) özellik.
 
-### Örnekler
+## Örnekler
 
 Kabarcık grafiğinin veri etiketleriyle nasıl çalışılacağını gösterir.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Charts.DataLabelsBubbleChart.docx");
 ### Ayrıca bakınız
 
 * class [ChartDataLabelCollection](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ListLevel.Font
-second_title: Aspose.Words for .NET API Referansı
-description: ListLevel mülk. Liste etiketi için kullanılan karakter formatını belirtir.
+linktitle: Font
+articleTitle: Font
+second_title: Aspose.Words for .NET
+description: ListLevel Font mülk. Liste etiketi için kullanılan karakter formatını belirtir C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.lists/listlevel/font/
@@ -14,7 +16,7 @@ Liste etiketi için kullanılan karakter formatını belirtir.
 public Font Font { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 DocumentBuilder kullanılırken özel liste formatının paragraflara nasıl uygulanacağını gösterir.
 
@@ -74,7 +76,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 
 * class [Font](../../../aspose.words/font/)
 * class [ListLevel](../)
-* ad alanı [Aspose.Words.Lists](../../listlevel/)
+* ad alanı [Aspose.Words.Lists](../../../aspose.words.lists/)
 * toplantı [Aspose.Words](../../../)
-
-

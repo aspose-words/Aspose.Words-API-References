@@ -1,7 +1,9 @@
 ---
 title: CellFormat.BottomPadding
-second_title: Aspose.Words for .NET API Referansı
-description: CellFormat mülk. Hücre içeriğinin altına eklenecek alan miktarını nokta cinsinden döndürür veya ayarlar.
+linktitle: BottomPadding
+articleTitle: BottomPadding
+second_title: Aspose.Words for .NET
+description: CellFormat BottomPadding mülk. Hücre içeriğinin altına eklenecek alan miktarını nokta cinsinden döndürür veya ayarlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.tables/cellformat/bottompadding/
@@ -14,7 +16,7 @@ Hücre içeriğinin altına eklenecek alan miktarını (nokta cinsinden) döndü
 public double BottomPadding { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Belge oluşturucuyla hücrelerin nasıl biçimlendirileceğini gösterir.
 
@@ -61,7 +63,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.SetCellFormatting.docx");
 ### Ayrıca bakınız
 
 * class [CellFormat](../)
-* ad alanı [Aspose.Words.Tables](../../cellformat/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

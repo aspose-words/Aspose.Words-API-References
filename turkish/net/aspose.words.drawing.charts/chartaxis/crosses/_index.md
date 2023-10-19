@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.Crosses
-second_title: Aspose.Words for .NET API Referansı
-description: ChartAxis mülk. Bu eksenin dikey ekseni nasıl kestiğini belirtir.
+linktitle: Crosses
+articleTitle: Crosses
+second_title: Aspose.Words for .NET
+description: ChartAxis Crosses mülk. Bu eksenin dikey ekseni nasıl kestiğini belirtir C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.drawing.charts/chartaxis/crosses/
@@ -14,13 +16,13 @@ Bu eksenin dikey ekseni nasıl kestiğini belirtir.
 public AxisCrosses Crosses { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:Automatic.
 
 Bu özellik MS Office 2016 yeni çizelgeleri tarafından desteklenmemektedir.
 
-### Örnekler
+## Örnekler
 
 Grafiğin nasıl ekleneceğini ve eksenlerinin görünümünün nasıl değiştirileceğini gösterir.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 
 * enum [AxisCrosses](../../axiscrosses/)
 * class [ChartAxis](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Table.DistanceLeft
-second_title: Aspose.Words for .NET API Referansı
-description: Table mülk. Soldaki tablo ile çevresindeki metin arasındaki mesafeyi puan cinsinden alır veya ayarlar.
+linktitle: DistanceLeft
+articleTitle: DistanceLeft
+second_title: Aspose.Words for .NET
+description: Table DistanceLeft mülk. Soldaki tablo ile çevresindeki metin arasındaki mesafeyi puan cinsinden alır veya ayarlar C#'da.
 type: docs
 weight: 130
 url: /tr/net/aspose.words.tables/table/distanceleft/
@@ -14,7 +16,7 @@ Soldaki tablo ile çevresindeki metin arasındaki mesafeyi puan cinsinden alır 
 public double DistanceLeft { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Tablo sınırları ile metin arasındaki mesafenin nasıl ayarlanacağını gösterir.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Table.DistanceBetweenTableAndText.docx");
 ### Ayrıca bakınız
 
 * class [Table](../)
-* ad alanı [Aspose.Words.Tables](../../table/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

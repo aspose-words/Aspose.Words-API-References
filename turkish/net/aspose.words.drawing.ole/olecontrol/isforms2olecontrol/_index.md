@@ -1,7 +1,9 @@
 ---
 title: OleControl.IsForms2OleControl
-second_title: Aspose.Words for .NET API Referansı
-description: OleControl mülk. İadelerdoğru eğer kontrol birForms2OleControl .
+linktitle: IsForms2OleControl
+articleTitle: IsForms2OleControl
+second_title: Aspose.Words for .NET
+description: OleControl IsForms2OleControl mülk. İadelerdoğru eğer kontrol birForms2OleControl  C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.drawing.ole/olecontrol/isforms2olecontrol/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.drawing.ole/olecontrol/isforms2olecontrol/
 public bool IsForms2OleControl { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 ActiveX denetiminin özelliklerinin nasıl doğrulanacağını gösterir.
 
@@ -44,7 +46,5 @@ if (oleControl.IsForms2OleControl)
 ### Ayrıca bakınız
 
 * class [OleControl](../)
-* ad alanı [Aspose.Words.Drawing.Ole](../../olecontrol/)
+* ad alanı [Aspose.Words.Drawing.Ole](../../../aspose.words.drawing.ole/)
 * toplantı [Aspose.Words](../../../)
-
-

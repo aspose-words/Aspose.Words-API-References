@@ -1,7 +1,9 @@
 ---
 title: FontSettings.FallbackSettings
-second_title: Aspose.Words for .NET API Referansı
-description: FontSettings mülk. Yazı tipi geri dönüş mekanizmasıyla ilgili ayarlar.
+linktitle: FallbackSettings
+articleTitle: FallbackSettings
+second_title: Aspose.Words for .NET
+description: FontSettings FallbackSettings mülk. Yazı tipi geri dönüş mekanizmasıyla ilgili ayarlar C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fonts/fontsettings/fallbacksettings/
@@ -14,7 +16,7 @@ Yazı tipi geri dönüş mekanizmasıyla ilgili ayarlar.
 public FontFallbackSettings FallbackSettings { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Yedek yazı tiplerinin Unicode karakter kodu aralıklarına nasıl dağıtılacağını gösterir.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "FontSettings.FallbackSettingsCustom.pdf");
 
 * class [FontFallbackSettings](../../fontfallbacksettings/)
 * class [FontSettings](../)
-* ad alanı [Aspose.Words.Fonts](../../fontsettings/)
+* ad alanı [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../../)
-
-

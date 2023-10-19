@@ -1,7 +1,9 @@
 ---
 title: GraphicsQualityOptions.SmoothingMode
-second_title: Aspose.Words for .NET API Referansı
-description: GraphicsQualityOptions mülk. Bu Grafik için işleme kalitesini alır veya ayarlar.
+linktitle: SmoothingMode
+articleTitle: SmoothingMode
+second_title: Aspose.Words for .NET
+description: GraphicsQualityOptions SmoothingMode mülk. Bu Grafik için işleme kalitesini alır veya ayarlar C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.saving/graphicsqualityoptions/smoothingmode/
@@ -14,7 +16,7 @@ Bu Grafik için işleme kalitesini alır veya ayarlar.
 public SmoothingMode? SmoothingMode { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Belgeleri görüntü formatlarına dönüştürürken işleme kalitesi seçeneklerinin nasıl ayarlanacağını gösterir.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.GraphicsQuality.jpg", saveOptions);
 ### Ayrıca bakınız
 
 * class [GraphicsQualityOptions](../)
-* ad alanı [Aspose.Words.Saving](../../graphicsqualityoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

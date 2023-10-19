@@ -1,7 +1,9 @@
 ---
 title: LoadOptions.UpdateDirtyFields
-second_title: Aspose.Words for .NET API Referansı
-description: LoadOptions mülk. Alanların güncellenip güncellenmeyeceğini belirtir.kirli özellik.
+linktitle: UpdateDirtyFields
+articleTitle: UpdateDirtyFields
+second_title: Aspose.Words for .NET
+description: LoadOptions UpdateDirtyFields mülk. Alanların güncellenip güncellenmeyeceğini belirtir.kirli özellik C#'da.
 type: docs
 weight: 160
 url: /tr/net/aspose.words.loading/loadoptions/updatedirtyfields/
@@ -14,7 +16,7 @@ Alanların güncellenip güncellenmeyeceğini belirtir.`kirli` özellik.
 public bool UpdateDirtyFields { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Alan sonucunu güncellemek için özel özelliğin nasıl kullanılacağını gösterir.
 
@@ -71,7 +73,5 @@ using (MemoryStream docStream = new MemoryStream())
 ### Ayrıca bakınız
 
 * class [LoadOptions](../)
-* ad alanı [Aspose.Words.Loading](../../loadoptions/)
+* ad alanı [Aspose.Words.Loading](../../../aspose.words.loading/)
 * toplantı [Aspose.Words](../../../)
-
-

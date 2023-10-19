@@ -1,7 +1,9 @@
 ---
 title: MailMergeRegionInfo.ParentRegion
-second_title: Aspose.Words for .NET API Referansı
-description: MailMergeRegionInfo mülk. Üst bölge bilgisini döndürür üst düzey bölge için boş.
+linktitle: ParentRegion
+articleTitle: ParentRegion
+second_title: Aspose.Words for .NET
+description: MailMergeRegionInfo ParentRegion mülk. Üst bölge bilgisini döndürür üst düzey bölge için boş C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.mailmerging/mailmergeregioninfo/parentregion/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.mailmerging/mailmergeregioninfo/parentregion/
 public MailMergeRegionInfo ParentRegion { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Adres-mektup birleştirme bölgelerinin nasıl oluşturulacağını, listeleneceğini ve okunacağını gösterir.
 
@@ -69,7 +71,5 @@ Assert.AreEqual("Column2", mergeFieldNames[0]);
 ### Ayrıca bakınız
 
 * class [MailMergeRegionInfo](../)
-* ad alanı [Aspose.Words.MailMerging](../../mailmergeregioninfo/)
+* ad alanı [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * toplantı [Aspose.Words](../../../)
-
-

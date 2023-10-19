@@ -1,7 +1,9 @@
 ---
-title: Enum BorderType
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.BorderType Sıralama. Kenarlığın kenarlarını belirtir.
+title: BorderType Enum
+linktitle: BorderType
+articleTitle: BorderType
+second_title: Aspose.Words for .NET
+description: Aspose.Words.BorderType Sıralama. Kenarlığın kenarlarını belirtir C#'da.
 type: docs
 weight: 100
 url: /tr/net/aspose.words/bordertype/
@@ -30,7 +32,7 @@ public enum BorderType
 | DiagonalDown | `6` | Bir tablo hücresindeki çapraz kenarlığı belirtir. |
 | DiagonalUp | `7` | Bir tablo hücresindeki çapraz kenarlığı belirtir. |
 
-### Örnekler
+## Örnekler
 
 Üst kenarlığı olan bir paragrafın nasıl ekleneceğini gösterir.
 
@@ -54,5 +56,3 @@ doc.Save(ArtifactsDir + "Border.ParagraphTopBorder.docx");
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

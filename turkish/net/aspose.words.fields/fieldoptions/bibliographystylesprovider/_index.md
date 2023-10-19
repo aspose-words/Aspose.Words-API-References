@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.BibliographyStylesProvider
-second_title: Aspose.Words for .NET API Referansı
-description: FieldOptions mülk. için kaynakça stili döndüren bir sağlayıcıyı alır veya ayarlar.FieldBibliography VeFieldCitation alanlar.
+linktitle: BibliographyStylesProvider
+articleTitle: BibliographyStylesProvider
+second_title: Aspose.Words for .NET
+description: FieldOptions BibliographyStylesProvider mülk. için kaynakça stili döndüren bir sağlayıcıyı alır veya ayarlar.FieldBibliography VeFieldCitation alanlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fieldoptions/bibliographystylesprovider/
@@ -14,7 +16,7 @@ için kaynakça stili döndüren bir sağlayıcıyı alır veya ayarlar.[`FieldB
 public IBibliographyStylesProvider BibliographyStylesProvider { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Yerleşik stillerin nasıl geçersiz kılınacağını veya özel bir stilin nasıl sağlanacağını gösterir.
 
@@ -42,7 +44,5 @@ public class BibliographyStylesProvider : IBibliographyStylesProvider
 
 * interface [IBibliographyStylesProvider](../../ibibliographystylesprovider/)
 * class [FieldOptions](../)
-* ad alanı [Aspose.Words.Fields](../../fieldoptions/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Shape.HasSmartArt
-second_title: Aspose.Words for .NET API Referansı
-description: Shape mülk. İadelerdoğru Eğer buShape bir SmartArt nesnesi var.
+linktitle: HasSmartArt
+articleTitle: HasSmartArt
+second_title: Aspose.Words for .NET
+description: Shape HasSmartArt mülk. İadelerdoğru Eğer buShape bir SmartArt nesnesi var C#'da.
 type: docs
 weight: 90
 url: /tr/net/aspose.words.drawing/shape/hassmartart/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.drawing/shape/hassmartart/
 public bool HasSmartArt { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 SmartArt nesneleri içeren bir belgedeki şekillerin sayısının nasıl sayılacağını gösterir.
 
@@ -29,7 +31,5 @@ Assert.AreEqual(2, numberOfSmartArtShapes);
 ### Ayrıca bakınız
 
 * class [Shape](../)
-* ad alanı [Aspose.Words.Drawing](../../shape/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

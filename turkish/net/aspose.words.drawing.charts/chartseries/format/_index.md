@@ -1,7 +1,9 @@
 ---
 title: ChartSeries.Format
-second_title: Aspose.Words for .NET API Referansı
-description: ChartSeries mülk. Serinin dolgu ve çizgi formatlamasına erişim sağlar.
+linktitle: Format
+articleTitle: Format
+second_title: Aspose.Words for .NET
+description: ChartSeries Format mülk. Serinin dolgu ve çizgi formatlamasına erişim sağlar C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.drawing.charts/chartseries/format/
@@ -14,7 +16,7 @@ Serinin dolgu ve çizgi formatlamasına erişim sağlar.
 public ChartFormat Format { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Seri renginin nasıl ayarlanacağını anlatır.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Charts.SeriesColor.docx");
 
 * class [ChartFormat](../../chartformat/)
 * class [ChartSeries](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartseries/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

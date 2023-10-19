@@ -1,7 +1,9 @@
 ---
 title: PreferredWidth.GetHashCode
-second_title: Aspose.Words for .NET API Referansı
-description: PreferredWidth yöntem. Bu tür için karma işlevi görevi görür.
+linktitle: GetHashCode
+articleTitle: GetHashCode
+second_title: Aspose.Words for .NET
+description: PreferredWidth GetHashCode yöntem. Bu tür için karma işlevi görevi görür C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.tables/preferredwidth/gethashcode/
@@ -14,7 +16,7 @@ Bu tür için karma işlevi görevi görür.
 public override int GetHashCode()
 ```
 
-### Örnekler
+## Örnekler
 
 Tablo hücreleri için tercih edilen genişliğin nasıl ayarlanacağını gösterir.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCellsWithPreferredWidths.docx");
 ### Ayrıca bakınız
 
 * class [PreferredWidth](../)
-* ad alanı [Aspose.Words.Tables](../../preferredwidth/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

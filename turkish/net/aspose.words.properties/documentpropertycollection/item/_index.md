@@ -1,7 +1,9 @@
 ---
 title: DocumentPropertyCollection.Item
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentPropertyCollection mülk. Bir değeri döndürürDocumentProperty özelliğin adına göre nesne.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words for .NET
+description: DocumentPropertyCollection Item mülk. Bir değeri döndürürDocumentProperty özelliğin adına göre nesne C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.properties/documentpropertycollection/item/
@@ -18,11 +20,11 @@ public virtual DocumentProperty this[string name] { get; }
 | --- | --- |
 | name | Alınacak özelliğin büyük/küçük harfe duyarlı olmayan adı. |
 
-### Notlar
+## Notlar
 
 İadeler`hükümsüz` belirtilen ada sahip bir özellik bulunamazsa.
 
-### Örnekler
+## Örnekler
 
 Tarih ve saat içeren özel bir belge özelliğinin nasıl oluşturulacağını gösterir.
 
@@ -38,7 +40,7 @@ Console.WriteLine($"Document authorized on {doc.CustomDocumentProperties["Author
 
 * class [DocumentProperty](../../documentproperty/)
 * class [DocumentPropertyCollection](../)
-* ad alanı [Aspose.Words.Properties](../../documentpropertycollection/)
+* ad alanı [Aspose.Words.Properties](../../../aspose.words.properties/)
 * toplantı [Aspose.Words](../../../)
 
 ---
@@ -55,7 +57,7 @@ public DocumentProperty this[int index] { get; }
 | --- | --- |
 | index | Sıfır tabanlı endeks[`DocumentProperty`](../../documentproperty/) geri almak için. |
 
-### Örnekler
+## Örnekler
 
 Özel belge özellikleriyle nasıl çalışılacağını gösterir.
 
@@ -81,7 +83,5 @@ foreach (var customDocumentProperty in doc.CustomDocumentProperties)
 
 * class [DocumentProperty](../../documentproperty/)
 * class [DocumentPropertyCollection](../)
-* ad alanı [Aspose.Words.Properties](../../documentpropertycollection/)
+* ad alanı [Aspose.Words.Properties](../../../aspose.words.properties/)
 * toplantı [Aspose.Words](../../../)
-
-

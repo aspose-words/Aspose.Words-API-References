@@ -1,7 +1,9 @@
 ---
 title: TextPath.ReverseRows
-second_title: Aspose.Words for .NET API Referansı
-description: TextPath mülk. Satırların düzen sırasının tersine çevrilip çevrilmeyeceğini belirler.
+linktitle: ReverseRows
+articleTitle: ReverseRows
+second_title: Aspose.Words for .NET
+description: TextPath ReverseRows mülk. Satırların düzen sırasının tersine çevrilip çevrilmeyeceğini belirler C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words.drawing/textpath/reverserows/
@@ -14,13 +16,13 @@ Satırların düzen sırasının tersine çevrilip çevrilmeyeceğini belirler.
 public bool ReverseRows { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:`YANLIŞ`.
 
 Eğer`doğru`satırların düzen sırası tersine çevrilir. Bu özellik dikey metin düzeni için kullanılır.
 
-### Örnekler
+## Örnekler
 
 WordArt'la nasıl çalışılacağını gösterir.
 
@@ -123,7 +125,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### Ayrıca bakınız
 
 * class [TextPath](../)
-* ad alanı [Aspose.Words.Drawing](../../textpath/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

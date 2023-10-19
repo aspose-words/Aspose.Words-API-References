@@ -1,7 +1,9 @@
 ---
-title: Class FieldIndex
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Fields.FieldIndex sınıf. INDEX alanını uygular.
+title: FieldIndex Class
+linktitle: FieldIndex
+articleTitle: FieldIndex
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Fields.FieldIndex sınıf. INDEX alanını uygular C#'da.
 type: docs
 weight: 2060
 url: /tr/net/aspose.words.fields/fieldindex/
@@ -58,17 +60,17 @@ public class FieldIndex : Field
 | İsim | Tanım |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Alan başlangıcı ile alan ayırıcı (veya ayırıcı yoksa alan sonu) arasındaki metni döndürür. Alt alanların hem alan kodu hem de alan sonucu dahil edilir. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Alan başlangıcı ile alan ayırıcı (veya ayırıcı yoksa alan sonu) arasındaki metni döndürür. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Alan başlangıcı ile alan ayırıcı (veya ayırıcı yoksa alan sonu) arasındaki metni döndürür. |
 | [Remove](../../aspose.words.fields/field/remove/)() | Alanı belgeden kaldırır. Alanın hemen ardından bir düğüm döndürür. Alanın sonu, üst düğümünün son child 'si ise, üst paragrafını döndürür. Alan zaten kaldırılmışsa şunu döndürür:`hükümsüz` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Alanın bağlantısını kaldırır. |
 | [Update](../../aspose.words.fields/field/update/)() | Alan güncellemesini gerçekleştirir. Alan zaten güncelleniyorsa atar. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Bir alan güncellemesi gerçekleştirir. Alan zaten güncelleniyorsa atar. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Bir alan güncellemesi gerçekleştirir. Alan zaten güncelleniyorsa atar. |
 
-### Notlar
+## Notlar
 
 XE alanları tarafından belirtilen dizin girişlerini kullanarak bir dizin oluşturur ve bu dizini belgedeki bu yere ekler.
 
-### Örnekler
+## Örnekler
 
 Bir INDEX alanının nasıl oluşturulacağını ve ardından onu girişlerle doldurmak için XE alanlarının nasıl kullanılacağını gösterir.
 
@@ -196,5 +198,3 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Formatting.docx");
 * class [Field](../field/)
 * ad alanı [Aspose.Words.Fields](../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../)
-
-

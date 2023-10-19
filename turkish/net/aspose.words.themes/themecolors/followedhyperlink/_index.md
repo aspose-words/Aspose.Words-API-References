@@ -1,7 +1,9 @@
 ---
 title: ThemeColors.FollowedHyperlink
-second_title: Aspose.Words for .NET API Referansı
-description: ThemeColors mülk. Tıklanan köprünün rengini belirtir.
+linktitle: FollowedHyperlink
+articleTitle: FollowedHyperlink
+second_title: Aspose.Words for .NET
+description: ThemeColors FollowedHyperlink mülk. Tıklanan köprünün rengini belirtir C#'da.
 type: docs
 weight: 90
 url: /tr/net/aspose.words.themes/themecolors/followedhyperlink/
@@ -14,7 +16,7 @@ Tıklanan köprünün rengini belirtir.
 public Color FollowedHyperlink { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Temalar için özel renklerin ve yazı tiplerinin nasıl ayarlanacağını gösterir.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 ### Ayrıca bakınız
 
 * class [ThemeColors](../)
-* ad alanı [Aspose.Words.Themes](../../themecolors/)
+* ad alanı [Aspose.Words.Themes](../../../aspose.words.themes/)
 * toplantı [Aspose.Words](../../../)
-
-

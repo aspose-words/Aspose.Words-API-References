@@ -1,14 +1,16 @@
 ---
-title: Class FieldMergingArgs
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.MailMerging.FieldMergingArgs sınıf. Şunun için veri sağlar Birleştirme Alanı olay.
+title: FieldMergingArgs Class
+linktitle: FieldMergingArgs
+articleTitle: FieldMergingArgs
+second_title: Aspose.Words for .NET
+description: Aspose.Words.MailMerging.FieldMergingArgs sınıf. Şunun için veri sağlarBirleştirme Alanı olay C#'da.
 type: docs
 weight: 3770
 url: /tr/net/aspose.words.mailmerging/fieldmergingargs/
 ---
 ## FieldMergingArgs class
 
-Şunun için veri sağlar: **Birleştirme Alanı** olay.
+Şunun için veri sağlar:**Birleştirme Alanı** olay.
 
 Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Adres Mektup Birleştirme ve Raporlama](https://docs.aspose.com/words/net/mail-merge-and-reporting/) dokümantasyon makalesi.
 
@@ -29,11 +31,11 @@ public class FieldMergingArgs : FieldMergingArgsBase
 | [TableName](../../aspose.words.mailmerging/fieldmergingargsbase/tablename/) { get; } | Geçerli birleştirme işlemi için veri tablosunun adını veya ad mevcut değilse boş dizeyi alır. |
 | [Text](../../aspose.words.mailmerging/fieldmergingargs/text/) { get; set; } | Geçerli birleştirme alanı için belgeye eklenecek metni alır veya ayarlar. |
 
-### Notlar
+## Notlar
 
 **Birleştirme Alanı** olay, adres-mektup birleştirme sırasında belgede basit bir adres-mektup birleştirme alanıyla karşılaşıldığında meydana gelir. Adres-mektup birleştirme motorunun belgeye eklemesi için bu etkinliğe return metnine yanıt verebilirsiniz.
 
-### Örnekler
+## Örnekler
 
 HTML belgeleri biçimindeki birleştirme verilerini işleyen özel bir geri çağırma ile adres-mektup birleştirmenin nasıl yürütüleceğini gösterir.
 
@@ -103,5 +105,3 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 * class [FieldMergingArgsBase](../fieldmergingargsbase/)
 * ad alanı [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * toplantı [Aspose.Words](../../)
-
-

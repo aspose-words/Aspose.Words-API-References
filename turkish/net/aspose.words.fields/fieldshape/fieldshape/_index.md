@@ -1,7 +1,9 @@
 ---
-title: FieldShape.FieldShape
-second_title: Aspose.Words for .NET API Referansı
-description: FieldShape inşaatçı. Default_Constructor
+title: FieldShape
+linktitle: FieldShape
+articleTitle: FieldShape
+second_title: Aspose.Words for .NET
+description: FieldShape inşaatçı. Default_Constructor C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fieldshape/fieldshape/
@@ -17,7 +19,5 @@ public FieldShape()
 ### Ayrıca bakınız
 
 * class [FieldShape](../)
-* ad alanı [Aspose.Words.Fields](../../fieldshape/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.InterpolateImages
-second_title: Aspose.Words for .NET API Referansı
-description: PdfSaveOptions mülk. Görüntü enterpolasyonunun uyumlu bir okuyucu tarafından gerçekleştirilip gerçekleştirilmeyeceğini belirten bayrak. Ne zamanYANLIŞ belirtildiğinde çıkış belgesine bayrak yazılmaz ve bunun yerine okuyucunun varsayılan davranışı kullanılır.
+linktitle: InterpolateImages
+articleTitle: InterpolateImages
+second_title: Aspose.Words for .NET
+description: PdfSaveOptions InterpolateImages mülk. Görüntü enterpolasyonunun uyumlu bir okuyucu tarafından gerçekleştirilip gerçekleştirilmeyeceğini belirten bayrak. Ne zamanYANLIŞ belirtildiğinde çıkış belgesine bayrak yazılmaz ve bunun yerine okuyucunun varsayılan davranışı kullanılır C#'da.
 type: docs
 weight: 210
 url: /tr/net/aspose.words.saving/pdfsaveoptions/interpolateimages/
@@ -14,7 +16,7 @@ Görüntü enterpolasyonunun uyumlu bir okuyucu tarafından gerçekleştirilip g
 public bool InterpolateImages { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bir kaynak görüntünün çözünürlüğü çıkış cihazının çözünürlüğünden önemli ölçüde düşük olduğunda, her kaynak örneği birçok cihaz pikselini kapsar. Sonuç olarak, görüntüler pürüzlü veya bloklu görünebilir. Bu görsel yapaylıklar, oluşturma sırasında bir görüntü enterpolasyon algoritması uygulanarak azaltılabilir. Bir kaynak örneğinin kapsadığı tüm pikselleri aynı renkle boyamak yerine, görüntü enterpolasyonu düzgün bir görüntü oluşturmaya çalışır. bitişik örnek değerler arasında geçiş.
 
@@ -24,7 +26,7 @@ Varsayılan değer:`YANLIŞ`.
 
 Enterpolasyon bayrağı PDF/A uyumluluğu nedeniyle yasaklanmıştır.`YANLIŞ` PDF/A'ya kaydederken otomatik olarak değeri kullanılacaktır.
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi PDF'ye kaydederken görüntüler üzerinde enterpolasyonun nasıl gerçekleştirileceğini gösterir.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.InterpolateImagesNetStandard2.pdf", save
 ### Ayrıca bakınız
 
 * class [PdfSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../pdfsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum SdtCalendarType
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Markup.SdtCalendarType Sıralama. Belirlemek için kullanılabilecek olası takvim türlerini belirtirCalendarType bir Office Açık XML belgesinde.
+title: SdtCalendarType Enum
+linktitle: SdtCalendarType
+articleTitle: SdtCalendarType
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Markup.SdtCalendarType Sıralama. Belirlemek için kullanılabilecek olası takvim türlerini belirtirCalendarType bir Office Açık XML belgesinde C#'da.
 type: docs
 weight: 4000
 url: /tr/net/aspose.words.markup/sdtcalendartype/
@@ -38,5 +40,3 @@ public enum SdtCalendarType
 
 * ad alanı [Aspose.Words.Markup](../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ListFormat.ListLevel
-second_title: Aspose.Words for .NET API Referansı
-description: ListFormat mülk. Liste düzeyindeki biçimlendirmeyi ve geçerli paragrafa uygulanan biçimlendirme geçersiz kılmalarını döndürür.
+linktitle: ListLevel
+articleTitle: ListLevel
+second_title: Aspose.Words for .NET
+description: ListFormat ListLevel mülk. Liste düzeyindeki biçimlendirmeyi ve geçerli paragrafa uygulanan biçimlendirme geçersiz kılmalarını döndürür C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.lists/listformat/listlevel/
@@ -14,7 +16,7 @@ Liste düzeyindeki biçimlendirmeyi ve geçerli paragrafa uygulanan biçimlendir
 public ListLevel ListLevel { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 DocumentBuilder kullanılırken özel liste formatının paragraflara nasıl uygulanacağını gösterir.
 
@@ -74,7 +76,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 
 * class [ListLevel](../../listlevel/)
 * class [ListFormat](../)
-* ad alanı [Aspose.Words.Lists](../../listformat/)
+* ad alanı [Aspose.Words.Lists](../../../aspose.words.lists/)
 * toplantı [Aspose.Words](../../../)
-
-

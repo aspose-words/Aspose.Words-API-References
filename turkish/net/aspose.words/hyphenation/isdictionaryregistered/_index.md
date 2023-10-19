@@ -1,7 +1,9 @@
 ---
 title: Hyphenation.IsDictionaryRegistered
-second_title: Aspose.Words for .NET API Referansı
-description: Hyphenation yöntem. İadelerYANLIŞ belirtilen dil için kayıtlı sözlük yoksa veya kayıtlıysa Boş sözlük isedoğru aksi halde.
+linktitle: IsDictionaryRegistered
+articleTitle: IsDictionaryRegistered
+second_title: Aspose.Words for .NET
+description: Hyphenation IsDictionaryRegistered yöntem. İadelerYANLIŞ belirtilen dil için kayıtlı sözlük yoksa veya kayıtlıysa Boş sözlük isedoğru aksi halde C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/hyphenation/isdictionaryregistered/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words/hyphenation/isdictionaryregistered/
 public static bool IsDictionaryRegistered(string language)
 ```
 
-### Örnekler
+## Örnekler
 
 Bir tireleme sözlüğünün nasıl kaydedileceğini gösterir.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Hyphenation.Dictionary.Unregistered.pdf");
 ### Ayrıca bakınız
 
 * class [Hyphenation](../)
-* ad alanı [Aspose.Words](../../hyphenation/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

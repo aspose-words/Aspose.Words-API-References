@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyleCollection.GetEnumerator
-second_title: Aspose.Words for .NET API Referansı
-description: ConditionalStyleCollection yöntem. Koleksiyondaki tüm koşullu stilleri yinelemek için kullanılabilecek bir numaralandırıcı nesnesi döndürür.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words for .NET
+description: ConditionalStyleCollection GetEnumerator yöntem. Koleksiyondaki tüm koşullu stilleri yinelemek için kullanılabilecek bir numaralandırıcı nesnesi döndürür C#'da.
 type: docs
 weight: 160
 url: /tr/net/aspose.words/conditionalstylecollection/getenumerator/
@@ -14,7 +16,7 @@ Koleksiyondaki tüm koşullu stilleri yinelemek için kullanılabilecek bir numa
 public IEnumerator<ConditionalStyle> GetEnumerator()
 ```
 
-### Örnekler
+## Örnekler
 
 Bir tablonun belirli alan stilleriyle nasıl çalışılacağını gösterir.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [ConditionalStyle](../../conditionalstyle/)
 * class [ConditionalStyleCollection](../)
-* ad alanı [Aspose.Words](../../conditionalstylecollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ControlChar.Cr
-second_title: Aspose.Words for .NET API Referansı
-description: ControlChar alan. Satırbaşı karakteri x000d veya r. İle aynıParagraphBreak .
+linktitle: Cr
+articleTitle: Cr
+second_title: Aspose.Words for .NET
+description: ControlChar Cr alan. Satırbaşı karakteri x000d veya r. İle aynıParagraphBreak  C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words/controlchar/cr/
@@ -14,7 +16,7 @@ Satırbaşı karakteri: "\x000d" veya "\r". İle aynı[`ParagraphBreak`](../para
 public static readonly string Cr;
 ```
 
-### Örnekler
+## Örnekler
 
 Kontrol karakterlerinin nasıl kullanılacağını gösterir.
 
@@ -41,7 +43,5 @@ Assert.AreEqual($"Hello world!{ControlChar.Cr}" +
 ### Ayrıca bakınız
 
 * class [ControlChar](../)
-* ad alanı [Aspose.Words](../../controlchar/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

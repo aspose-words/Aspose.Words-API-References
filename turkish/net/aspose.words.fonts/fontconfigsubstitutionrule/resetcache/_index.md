@@ -1,7 +1,9 @@
 ---
 title: FontConfigSubstitutionRule.ResetCache
-second_title: Aspose.Words for .NET API Referansı
-description: FontConfigSubstitutionRule yöntem. Fontconfig çağırma sonuçlarının önbelleğini sıfırlar.
+linktitle: ResetCache
+articleTitle: ResetCache
+second_title: Aspose.Words for .NET
+description: FontConfigSubstitutionRule ResetCache yöntem. Fontconfig çağırma sonuçlarının önbelleğini sıfırlar C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fonts/fontconfigsubstitutionrule/resetcache/
@@ -14,7 +16,7 @@ Fontconfig çağırma sonuçlarının önbelleğini sıfırlar.
 public void ResetCache()
 ```
 
-### Örnekler
+## Örnekler
 
 İşletim sistemine bağlı yazı tipi yapılandırma değişikliğini gösterir.
 
@@ -50,7 +52,5 @@ if (isLinuxOrMac)
 ### Ayrıca bakınız
 
 * class [FontConfigSubstitutionRule](../)
-* ad alanı [Aspose.Words.Fonts](../../fontconfigsubstitutionrule/)
+* ad alanı [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../../)
-
-

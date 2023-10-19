@@ -1,7 +1,9 @@
 ---
-title: FieldDate.FieldDate
-second_title: Aspose.Words for .NET API Referansı
-description: FieldDate inşaatçı. Default_Constructor
+title: FieldDate
+linktitle: FieldDate
+articleTitle: FieldDate
+second_title: Aspose.Words for .NET
+description: FieldDate inşaatçı. Default_Constructor C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fielddate/fielddate/
@@ -17,7 +19,5 @@ public FieldDate()
 ### Ayrıca bakınız
 
 * class [FieldDate](../)
-* ad alanı [Aspose.Words.Fields](../../fielddate/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

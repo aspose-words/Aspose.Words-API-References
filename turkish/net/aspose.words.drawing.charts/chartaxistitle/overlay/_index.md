@@ -1,9 +1,11 @@
 ---
 title: ChartAxisTitle.Overlay
-second_title: Aspose.Words for .NET API Referansı
-description: ChartAxisTitle mülk. Diğer grafik öğelerinin başlıkla çakışmasına izin verilip verilmeyeceğini belirler. Varsayılan değerYANLIŞ .
+linktitle: Overlay
+articleTitle: Overlay
+second_title: Aspose.Words for .NET
+description: ChartAxisTitle Overlay mülk. Diğer grafik öğelerinin başlıkla çakışmasına izin verilip verilmeyeceğini belirler. Varsayılan değerYANLIŞ  C#'da.
 type: docs
-weight: 20
+weight: 10
 url: /tr/net/aspose.words.drawing.charts/chartaxistitle/overlay/
 ---
 ## ChartAxisTitle.Overlay property
@@ -14,7 +16,7 @@ Diğer grafik öğelerinin başlıkla çakışmasına izin verilip verilmeyeceğ
 public bool Overlay { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Grafik ekseni başlığının nasıl ayarlanacağını gösterir.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Charts.ChartAxisTitle.docx");
 ### Ayrıca bakınız
 
 * class [ChartAxisTitle](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartaxistitle/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CompareOptions.IgnoreComments
-second_title: Aspose.Words for .NET API Referansı
-description: CompareOptions mülk. Yorumlardaki farklılıkların karşılaştırılıp karşılaştırılmayacağını belirtir. Varsayılan olarak yorumlar dikkate alınmaz.
+linktitle: IgnoreComments
+articleTitle: IgnoreComments
+second_title: Aspose.Words for .NET
+description: CompareOptions IgnoreComments mülk. Yorumlardaki farklılıkların karşılaştırılıp karşılaştırılmayacağını belirtir. Varsayılan olarak yorumlar dikkate alınmaz C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.comparing/compareoptions/ignorecomments/
@@ -14,7 +16,7 @@ Yorumlardaki farklılıkların karşılaştırılıp karşılaştırılmayacağ�
 public bool IgnoreComments { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Karşılaştırma yaparken belirli belge öğesi türlerinin nasıl filtreleneceğini gösterir.
 
@@ -88,7 +90,5 @@ docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
 ### Ayrıca bakınız
 
 * class [CompareOptions](../)
-* ad alanı [Aspose.Words.Comparing](../../compareoptions/)
+* ad alanı [Aspose.Words.Comparing](../../../aspose.words.comparing/)
 * toplantı [Aspose.Words](../../../)
-
-

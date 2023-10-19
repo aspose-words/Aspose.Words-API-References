@@ -1,7 +1,9 @@
 ---
 title: Font.ThemeFontBi
-second_title: Aspose.Words for .NET API Referansı
-description: Font mülk. Bununla ilişkili uygulanan yazı tipi şemasındaki tema yazı tipini alır veya ayarlar.Font sağdan sola yazılan bir dil belgesinde object .
+linktitle: ThemeFontBi
+articleTitle: ThemeFontBi
+second_title: Aspose.Words for .NET
+description: Font ThemeFontBi mülk. Bununla ilişkili uygulanan yazı tipi şemasındaki tema yazı tipini alır veya ayarlar.Font sağdan sola yazılan bir dil belgesinde object  C#'da.
 type: docs
 weight: 490
 url: /tr/net/aspose.words/font/themefontbi/
@@ -14,7 +16,7 @@ Bununla ilişkili uygulanan yazı tipi şemasındaki tema yazı tipini alır vey
 public ThemeFont ThemeFontBi { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Tema yazı tipleri ve renkleri ile nasıl çalışılacağını gösterir.
 
@@ -101,7 +103,5 @@ Assert.AreEqual(Color.Blue.ToArgb(), font.Color.ToArgb());
 
 * enum [ThemeFont](../../../aspose.words.themes/themefont/)
 * class [Font](../)
-* ad alanı [Aspose.Words](../../font/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

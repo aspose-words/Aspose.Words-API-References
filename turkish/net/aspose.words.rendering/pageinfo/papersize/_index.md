@@ -1,7 +1,9 @@
 ---
 title: PageInfo.PaperSize
-second_title: Aspose.Words for .NET API Referansı
-description: PageInfo mülk. Numaralandırma olarak kağıt boyutunu alır.
+linktitle: PaperSize
+articleTitle: PaperSize
+second_title: Aspose.Words for .NET
+description: PageInfo PaperSize mülk. Numaralandırma olarak kağıt boyutunu alır C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.rendering/pageinfo/papersize/
@@ -14,7 +16,7 @@ Numaralandırma olarak kağıt boyutunu alır.
 public PaperSize PaperSize { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir Word belgesindeki her sayfa için sayfa boyutu ve yön bilgilerinin nasıl yazdırılacağını gösterir.
 
@@ -57,7 +59,5 @@ for (int i = 0; i < doc.PageCount; i++)
 
 * enum [PaperSize](../../../aspose.words/papersize/)
 * class [PageInfo](../)
-* ad alanı [Aspose.Words.Rendering](../../pageinfo/)
+* ad alanı [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * toplantı [Aspose.Words](../../../)
-
-

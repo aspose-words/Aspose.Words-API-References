@@ -1,7 +1,9 @@
 ---
 title: CommentRangeEnd.NodeType
-second_title: Aspose.Words for .NET API Referansı
-description: CommentRangeEnd mülk. İadelerCommentRangeEnd .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words for .NET
+description: CommentRangeEnd NodeType mülk. İadelerCommentRangeEnd  C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/commentrangeend/nodetype/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words/commentrangeend/nodetype/
 public override NodeType NodeType { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bileşik bir düğümün alt düğüm ağacında nasıl gezinileceğini gösterir.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../nodetype/)
 * class [CommentRangeEnd](../)
-* ad alanı [Aspose.Words](../../commentrangeend/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

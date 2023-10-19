@@ -1,7 +1,9 @@
 ---
 title: SystemFontSource.Type
-second_title: Aspose.Words for .NET API Referansı
-description: SystemFontSource mülk. Yazı tipi kaynağının türünü döndürür.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words for .NET
+description: SystemFontSource Type mülk. Yazı tipi kaynağının türünü döndürür C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fonts/systemfontsource/type/
@@ -14,7 +16,7 @@ Yazı tipi kaynağının türünü döndürür.
 public override FontSourceType Type { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgenin sistem yazı tipi kaynağına nasıl erişileceğini ve yazı tipi yedeklerinin nasıl ayarlanacağını gösterir.
 
@@ -71,7 +73,5 @@ Assert.AreEqual(1,
 
 * enum [FontSourceType](../../fontsourcetype/)
 * class [SystemFontSource](../)
-* ad alanı [Aspose.Words.Fonts](../../systemfontsource/)
+* ad alanı [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../../)
-
-

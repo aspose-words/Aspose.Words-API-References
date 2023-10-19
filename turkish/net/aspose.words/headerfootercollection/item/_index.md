@@ -1,7 +1,9 @@
 ---
 title: HeaderFooterCollection.Item
-second_title: Aspose.Words for .NET API Referansı
-description: HeaderFooterCollection mülk. Bir öğeyi alırHeaderFooter verilen dizinde.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words for .NET
+description: HeaderFooterCollection Item mülk. Bir öğeyi alırHeaderFooter verilen dizinde C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/headerfootercollection/item/
@@ -18,7 +20,7 @@ public HeaderFooter this[int index] { get; }
 | --- | --- |
 | index | Koleksiyona bir dizin. |
 
-### Notlar
+## Notlar
 
 Endeks sıfır bazlıdır.
 
@@ -28,7 +30,7 @@ Dizin listedeki öğe sayısından büyük veya ona eşitse bu, boş bir başvur
 
 Dizin negatifse ve mutlak değeri listedeki öğe sayısından büyükse bu, boş bir başvuru döndürür.
 
-### Örnekler
+## Örnekler
 
 Bölümler arasında üstbilgilerin ve altbilgilerin nasıl bağlanacağını gösterir.
 
@@ -94,7 +96,7 @@ doc.Save(ArtifactsDir + "HeaderFooter.Link.docx");
 
 * class [HeaderFooter](../../headerfooter/)
 * class [HeaderFooterCollection](../)
-* ad alanı [Aspose.Words](../../headerfootercollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
 
 ---
@@ -111,11 +113,11 @@ public HeaderFooter this[HeaderFooterType headerFooterType] { get; }
 | --- | --- |
 | headerFooterType | A[`HeaderFooterType`](../../headerfootertype/) alınacak üstbilgi/altbilginin türünü belirten value . |
 
-### Notlar
+## Notlar
 
 İadeler`hükümsüz` belirtilen türdeki üstbilgi/altbilgi bulunamazsa.
 
-### Örnekler
+## Örnekler
 
 Belgenin altbilgisindeki metnin nasıl değiştirileceğini gösterir.
 
@@ -169,7 +171,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.RemoveFooters.docx");
 * class [HeaderFooter](../../headerfooter/)
 * enum [HeaderFooterType](../../headerfootertype/)
 * class [HeaderFooterCollection](../)
-* ad alanı [Aspose.Words](../../headerfootercollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

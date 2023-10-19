@@ -1,7 +1,9 @@
 ---
-title: Enum ThemeFont
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Themes.ThemeFont Sıralama. Belge temaları için tema yazı tipi adlarının türlerini belirtir.
+title: ThemeFont Enum
+linktitle: ThemeFont
+articleTitle: ThemeFont
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Themes.ThemeFont Sıralama. Belge temaları için tema yazı tipi adlarının türlerini belirtir C#'da.
 type: docs
 weight: 6490
 url: /tr/net/aspose.words.themes/themefont/
@@ -22,11 +24,11 @@ public enum ThemeFont
 | Major | `1` | Ana tema yazı tipi. |
 | Minor | `2` | İkincil tema yazı tipi. |
 
-### Notlar
+## Notlar
 
 Ana nesne özelliklerinde tema yazı tipi olarak başvurulabilecek bir tema yazı tipini belirtir. Bu tema yazı tipi, belgenin Tema kısmında bulunan ve yazı tipi bilgilerinin belgede merkezi olarak ayarlanabilir.
 
-### Örnekler
+## Örnekler
 
 Temalı stilin nasıl oluşturulacağını ve kullanılacağını gösterir.
 
@@ -131,5 +133,3 @@ Assert.AreEqual(Color.Blue.ToArgb(), font.Color.ToArgb());
 
 * ad alanı [Aspose.Words.Themes](../../aspose.words.themes/)
 * toplantı [Aspose.Words](../../)
-
-

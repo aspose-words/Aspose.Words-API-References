@@ -1,7 +1,9 @@
 ---
 title: OutlineOptions.HeadingsOutlineLevels
-second_title: Aspose.Words for .NET API Referansı
-description: OutlineOptions mülk. belge taslağına kaç düzeyde başlık Başlık stilleriyle biçimlendirilmiş paragraflar ekleneceğini belirtir.
+linktitle: HeadingsOutlineLevels
+articleTitle: HeadingsOutlineLevels
+second_title: Aspose.Words for .NET
+description: OutlineOptions HeadingsOutlineLevels mülk. belge taslağına kaç düzeyde başlık Başlık stilleriyle biçimlendirilmiş paragraflar ekleneceğini belirtir C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.saving/outlineoptions/headingsoutlinelevels/
@@ -14,13 +16,13 @@ belge taslağına kaç düzeyde başlık (Başlık stilleriyle biçimlendirilmi�
 public int HeadingsOutlineLevels { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Anahatta başlık olmaması durumunda 0 belirtin; Anahattaki başlıkların bir düzeyi için 1'i belirtin ve bu şekilde devam edin.
 
 Varsayılan 0'dır. Geçerli aralık 0 ila 9'dur.
 
-### Örnekler
+## Örnekler
 
 Belgenin ana hatlarında üç düzeyde bir belgenin tamamının PDF'ye nasıl dönüştürüleceğini gösterir.
 
@@ -79,7 +81,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ExpandedOutlineLevels.pdf", options);
 ### Ayrıca bakınız
 
 * class [OutlineOptions](../)
-* ad alanı [Aspose.Words.Saving](../../outlineoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

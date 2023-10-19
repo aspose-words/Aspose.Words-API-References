@@ -1,9 +1,11 @@
 ---
 title: Document.UpdatePageLayout
-second_title: Aspose.Words for .NET API Referansı
-description: Document yöntem. Belgenin sayfa düzenini yeniden oluşturur.
+linktitle: UpdatePageLayout
+articleTitle: UpdatePageLayout
+second_title: Aspose.Words for .NET
+description: Document UpdatePageLayout yöntem. Belgenin sayfa düzenini yeniden oluşturur C#'da.
 type: docs
-weight: 790
+weight: 770
 url: /tr/net/aspose.words/document/updatepagelayout/
 ---
 ## Document.UpdatePageLayout method
@@ -14,13 +16,13 @@ Belgenin sayfa düzenini yeniden oluşturur.
 public void UpdatePageLayout()
 ```
 
-### Notlar
+## Notlar
 
 Bu yöntem, bir belgeyi sayfalar halinde biçimlendirir ve belgedeki PAGE, PAGES, PAGEREF ve REF gibi gibi sayfa numarasıyla ilgili alanları günceller. document dosyasının sabit sayfa formatlarına doğru şekilde işlenmesi için güncel sayfa düzeni bilgileri gereklidir.
 
 Bu yöntem, bir belgeyi ilk kez PDF'ye, XPS'ye, görüntüye dönüştürdüğünüzde veya yazdırdığınızda otomatik olarak çağrılır. Ancak, belgeyi oluşturduktan sonra değiştirirseniz ve tekrar oluşturmaya çalışırsanız - Aspose.Words sayfa düzenini otomatik olarak güncellemez. Bu durumda aramalısınız`UpdatePageLayout` before yeniden oluşturuluyor.
 
-### Örnekler
+## Örnekler
 
 Belgenin sayfa düzeninin ne zaman yeniden hesaplanacağını gösterir.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "Document.UpdatePageLayout.2.pdf");
 ### Ayrıca bakınız
 
 * class [Document](../)
-* ad alanı [Aspose.Words](../../document/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

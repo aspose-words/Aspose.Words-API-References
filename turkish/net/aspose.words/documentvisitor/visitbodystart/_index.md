@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitBodyStart
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentVisitor yöntem. Bir bölümdeki ana metin öyküsünün numaralandırılması başladığında çağrılır.
+linktitle: VisitBodyStart
+articleTitle: VisitBodyStart
+second_title: Aspose.Words for .NET
+description: DocumentVisitor VisitBodyStart yöntem. Bir bölümdeki ana metin öyküsünün numaralandırılması başladığında çağrılır C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/documentvisitor/visitbodystart/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitBodyStart(Body body)
 
 A[`VisitorAction`](../../visitoraction/) numaralandırmaya nasıl devam edileceğini belirten değer.
 
-### Örnekler
+## Örnekler
 
 Bir belgenin düğüm yapısını yazdırmak için belge ziyaretçisinin nasıl kullanılacağını gösterir.
 
@@ -193,7 +195,5 @@ public class DocStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [Body](../../body/)
 * class [DocumentVisitor](../)
-* ad alanı [Aspose.Words](../../documentvisitor/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

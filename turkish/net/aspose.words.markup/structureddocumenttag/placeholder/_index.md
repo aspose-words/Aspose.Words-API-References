@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTag.Placeholder
-second_title: Aspose.Words for .NET API Referansı
-description: StructuredDocumentTag mülk. AlırBuildingBlockBu SDT çalıştırma içerikleri boş olduğunda görüntülenmesi gereken yer tutucu metni içeren ilişkili eşlenen XML öğesiXmlMapping element veyaIsShowingPlaceholderText elemandoğru .
+linktitle: Placeholder
+articleTitle: Placeholder
+second_title: Aspose.Words for .NET
+description: StructuredDocumentTag Placeholder mülk. AlırBuildingBlockBu SDT çalıştırma içerikleri boş olduğunda görüntülenmesi gereken yer tutucu metni içeren ilişkili eşlenen XML öğesiXmlMapping element veyaIsShowingPlaceholderText elemandoğru  C#'da.
 type: docs
 weight: 230
 url: /tr/net/aspose.words.markup/structureddocumenttag/placeholder/
@@ -14,11 +16,11 @@ Alır[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock/)Bu SD
 public BuildingBlock Placeholder { get; }
 ```
 
-### Notlar
+## Notlar
 
 Olabilir`hükümsüz`, bu yer tutucunun bu Sdt için geçerli olmadığı anlamına gelir.
 
-### Örnekler
+## Örnekler
 
 Bir yapı taşının içeriğinin, yapılandırılmış bir belge etiketi için özel yer tutucu metin olarak nasıl kullanılacağını gösterir.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlaceholderBuildingBlock.docx");
 
 * class [BuildingBlock](../../../aspose.words.buildingblocks/buildingblock/)
 * class [StructuredDocumentTag](../)
-* ad alanı [Aspose.Words.Markup](../../structureddocumenttag/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

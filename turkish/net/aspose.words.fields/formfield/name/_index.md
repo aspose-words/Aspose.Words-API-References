@@ -1,7 +1,9 @@
 ---
 title: FormField.Name
-second_title: Aspose.Words for .NET API Referansı
-description: FormField mülk. Form alanı adını alır veya ayarlar.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words for .NET
+description: FormField Name mülk. Form alanı adını alır veya ayarlar C#'da.
 type: docs
 weight: 130
 url: /tr/net/aspose.words.fields/formfield/name/
@@ -14,11 +16,11 @@ Form alanı adını alır veya ayarlar.
 public string Name { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Microsoft Word, en fazla 20 karakterden oluşan dizelere izin verir.
 
-### Örnekler
+## Örnekler
 
 Açılan kutunun nasıl ekleneceğini gösterir.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "FormFields.Create.html");
 ### Ayrıca bakınız
 
 * class [FormField](../)
-* ad alanı [Aspose.Words.Fields](../../formfield/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

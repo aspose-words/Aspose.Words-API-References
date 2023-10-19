@@ -1,7 +1,9 @@
 ---
 title: IMailMergeDataSource.GetChildDataSource
-second_title: Aspose.Words for .NET API Referansı
-description: IMailMergeDataSource yöntem. Aspose.Words adresmektup birleştirme motoru iç içe adresmektup birleştirme bölgesinin başlangıcıyla karşılaştığında bu yöntemi çağırır.
+linktitle: GetChildDataSource
+articleTitle: GetChildDataSource
+second_title: Aspose.Words for .NET
+description: IMailMergeDataSource GetChildDataSource yöntem. Aspose.Words adresmektup birleştirme motoru iç içe adresmektup birleştirme bölgesinin başlangıcıyla karşılaştığında bu yöntemi çağırır C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.mailmerging/imailmergedatasource/getchilddatasource/
@@ -22,7 +24,7 @@ public IMailMergeDataSource GetChildDataSource(string tableName)
 
 Belirtilen tablonun veri kayıtlarına erişim sağlayacak bir veri kaynağı nesnesi.
 
-### Notlar
+## Notlar
 
 Aspose.Words adres-mektup birleştirme motorları bir adres-mektup birleştirme bölgesini verilerle doldurduğunda ve MERGEFIELD TableStart:TableName biçiminde bir Nested adres-mektup birleştirme bölgesinin başlangıcıyla karşılaştığında, onu çağırır.`GetChildDataSource` current veri kaynağı nesnesinde. Uygulamanızın, geçerli üst kaydın child kayıtlarına erişim sağlayacak yeni bir veri kaynağı nesnesi döndürmesi gerekiyor. Aspose.Words, iç içe adres-mektup birleştirme bölgesini doldurmak için döndürülen veri kaynağını kullanacaktır.
 
@@ -34,7 +36,7 @@ Bu veri kaynağı nesnesinin belirtilen addaki tabloyla ilişkisi yoksa, return 
 
 Belirtilen adda bir tablo mevcut değilse uygulamanız geri dönmelidir`hükümsüz` .
 
-### Örnekler
+## Örnekler
 
 Özel nesne biçimindeki bir veri kaynağıyla adres-mektup birleştirmenin nasıl yürütüleceğini gösterir.
 
@@ -148,7 +150,5 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
 ### Ayrıca bakınız
 
 * interface [IMailMergeDataSource](../)
-* ad alanı [Aspose.Words.MailMerging](../../imailmergedatasource/)
+* ad alanı [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * toplantı [Aspose.Words](../../../)
-
-

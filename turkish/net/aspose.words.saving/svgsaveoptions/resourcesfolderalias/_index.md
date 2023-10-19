@@ -1,7 +1,9 @@
 ---
 title: SvgSaveOptions.ResourcesFolderAlias
-second_title: Aspose.Words for .NET API Referansı
-description: SvgSaveOptions mülk. Bir SVG belgesine yazılan görüntü URIlerini oluşturmak için kullanılan klasörün adını belirtir. Varsayılanhükümsüz .
+linktitle: ResourcesFolderAlias
+articleTitle: ResourcesFolderAlias
+second_title: Aspose.Words for .NET
+description: SvgSaveOptions ResourcesFolderAlias mülk. Bir SVG belgesine yazılan görüntü URIlerini oluşturmak için kullanılan klasörün adını belirtir. Varsayılanhükümsüz  C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.saving/svgsaveoptions/resourcesfolderalias/
@@ -14,11 +16,11 @@ Bir SVG belgesine yazılan görüntü URI'lerini oluşturmak için kullanılan k
 public string ResourcesFolderAlias { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bir kaydettiğinizde[`Document`](../../../aspose.words/document/) SVG formatında Aspose.Words'ün belgeye gömülü all görüntülerini bağımsız dosyalar olarak kaydetmesi gerekir.[`ResourcesFolder`](../resourcesfolder/) görüntülerin nereye kaydedileceğini belirtmenize ve`ResourcesFolderAlias` , görüntü URI'lerinin nasıl oluşturulacağını belirtmeye olanak tanır.
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi .svg'ye dönüştürürken oluşturulan bağlantılı kaynakların URI'lerinin nasıl değiştirileceğini ve yazdırılacağını gösterir.
 
@@ -61,7 +63,5 @@ private class ResourceUriPrinter : IResourceSavingCallback
 ### Ayrıca bakınız
 
 * class [SvgSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../svgsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

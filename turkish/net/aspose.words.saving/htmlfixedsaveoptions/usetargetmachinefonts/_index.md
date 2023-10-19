@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.UseTargetMachineFonts
-second_title: Aspose.Words for .NET API Referansı
-description: HtmlFixedSaveOptions mülk. Bayrak belgeyi görüntülemek için hedef makinedeki yazı tiplerinin kullanılması gerekip gerekmediğini belirtir. Bu bayrak olarak ayarlanırsadoğru FontFormat VeExportEmbeddedFonts özelliklerin etkisi yoktur ayrıcaResourceSavingCallback yazı tipleri için tetiklenmez. VarsayılanYANLIŞ .
+linktitle: UseTargetMachineFonts
+articleTitle: UseTargetMachineFonts
+second_title: Aspose.Words for .NET
+description: HtmlFixedSaveOptions UseTargetMachineFonts mülk. Bayrak belgeyi görüntülemek için hedef makinedeki yazı tiplerinin kullanılması gerekip gerekmediğini belirtir. Bu bayrak olarak ayarlanırsadoğru FontFormat VeExportEmbeddedFonts özelliklerin etkisi yoktur ayrıcaResourceSavingCallback yazı tipleri için tetiklenmez. VarsayılanYANLIŞ  C#'da.
 type: docs
 weight: 190
 url: /tr/net/aspose.words.saving/htmlfixedsaveoptions/usetargetmachinefonts/
@@ -14,7 +16,7 @@ Bayrak, belgeyi görüntülemek için hedef makinedeki yazı tiplerinin kullanı
 public bool UseTargetMachineFonts { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi HTML'ye kaydederken yazı tiplerinin yalnızca hedef makineden nasıl kullanılacağını gösterir.
 
@@ -44,7 +46,5 @@ else
 ### Ayrıca bakınız
 
 * class [HtmlFixedSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

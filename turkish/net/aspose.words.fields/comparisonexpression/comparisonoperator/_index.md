@@ -1,7 +1,9 @@
 ---
 title: ComparisonExpression.ComparisonOperator
-second_title: Aspose.Words for .NET API Referansı
-description: ComparisonExpression mülk. Karşılaştırma operatörünü alır.
+linktitle: ComparisonOperator
+articleTitle: ComparisonOperator
+second_title: Aspose.Words for .NET
+description: ComparisonExpression ComparisonOperator mülk. Karşılaştırma operatörünü alır C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/comparisonexpression/comparisonoperator/
@@ -14,7 +16,7 @@ Karşılaştırma operatörünü alır.
 public string ComparisonOperator { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 IF ve COMPARE alanları için özel değerlendirmenin nasıl uygulanacağını gösterir.
 
@@ -98,7 +100,5 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 ### Ayrıca bakınız
 
 * class [ComparisonExpression](../)
-* ad alanı [Aspose.Words.Fields](../../comparisonexpression/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

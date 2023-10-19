@@ -1,7 +1,9 @@
 ---
 title: Font.LocaleId
-second_title: Aspose.Words for .NET API Referansı
-description: Font mülk. Biçimlendirilmiş karakterlerin yerel ayar tanımlayıcısını dili alır veya ayarlar.
+linktitle: LocaleId
+articleTitle: LocaleId
+second_title: Aspose.Words for .NET
+description: Font LocaleId mülk. Biçimlendirilmiş karakterlerin yerel ayar tanımlayıcısını dili alır veya ayarlar C#'da.
 type: docs
 weight: 200
 url: /tr/net/aspose.words/font/localeid/
@@ -14,11 +16,11 @@ Biçimlendirilmiş karakterlerin yerel ayar tanımlayıcısını (dili) alır ve
 public int LocaleId { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Yerel tanımlayıcıların listesi için bkz. https://msdn.microsoft.com/en-us/library/cc233965.aspx
 
-### Örnekler
+## Örnekler
 
 Belge oluşturucuyla eklediğimiz metnin yerel ayarının nasıl ayarlanacağını gösterir.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "Font.LocaleId.docx");
 ### Ayrıca bakınız
 
 * class [Font](../)
-* ad alanı [Aspose.Words](../../font/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
-title: FolderFontSource.FolderFontSource
-second_title: Aspose.Words for .NET API Referansı
-description: FolderFontSource inşaatçı. Ctor.
+title: FolderFontSource
+linktitle: FolderFontSource
+articleTitle: FolderFontSource
+second_title: Aspose.Words for .NET
+description: FolderFontSource inşaatçı. Ctor C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fonts/folderfontsource/folderfontsource/
 ---
-## FolderFontSource(string, bool) {#constructor}
+## FolderFontSource(*string, bool*) {#constructor}
 
 Ctor.
 
@@ -19,7 +21,7 @@ public FolderFontSource(string folderPath, bool scanSubfolders)
 | folderPath | String | Klasör yolu. |
 | scanSubfolders | Boolean | Alt klasörlerin taranıp taranmayacağını belirler. |
 
-### Örnekler
+## Örnekler
 
 Yazı tipi kaynağı olarak yazı tiplerini içeren yerel sistem klasörünün nasıl kullanılacağını gösterir.
 
@@ -40,12 +42,12 @@ Assert.AreEqual(1, folderFontSource.Priority);
 ### Ayrıca bakınız
 
 * class [FolderFontSource](../)
-* ad alanı [Aspose.Words.Fonts](../../folderfontsource/)
+* ad alanı [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## FolderFontSource(string, bool, int) {#constructor_1}
+## FolderFontSource(*string, bool, int*) {#constructor_1}
 
 Ctor.
 
@@ -59,7 +61,7 @@ public FolderFontSource(string folderPath, bool scanSubfolders, int priority)
 | scanSubfolders | Boolean | Alt klasörlerin taranıp taranmayacağını belirler. |
 | priority | Int32 | Yazı tipi kaynağı önceliği. Bkz.[`Priority`](../../fontsourcebase/priority/) Daha fazla bilgi için özellik açıklaması. |
 
-### Örnekler
+## Örnekler
 
 Yazı tipi kaynağı olarak yazı tiplerini içeren yerel sistem klasörünün nasıl kullanılacağını gösterir.
 
@@ -80,7 +82,5 @@ Assert.AreEqual(1, folderFontSource.Priority);
 ### Ayrıca bakınız
 
 * class [FolderFontSource](../)
-* ad alanı [Aspose.Words.Fonts](../../folderfontsource/)
+* ad alanı [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../../)
-
-

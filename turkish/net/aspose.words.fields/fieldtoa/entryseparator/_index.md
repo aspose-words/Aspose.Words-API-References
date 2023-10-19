@@ -1,7 +1,9 @@
 ---
 title: FieldToa.EntrySeparator
-second_title: Aspose.Words for .NET API Referansı
-description: FieldToa mülk. Yetkililer tablosu girişini ve sayfa numarasını ayırmak için kullanılan karakter dizisini alır veya ayarlar.
+linktitle: EntrySeparator
+articleTitle: EntrySeparator
+second_title: Aspose.Words for .NET
+description: FieldToa EntrySeparator mülk. Yetkililer tablosu girişini ve sayfa numarasını ayırmak için kullanılan karakter dizisini alır veya ayarlar C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.fields/fieldtoa/entryseparator/
@@ -14,7 +16,7 @@ Yetkililer tablosu girişini ve sayfa numarasını ayırmak için kullanılan ka
 public string EntrySeparator { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 TOA ve TA alanlarını kullanarak bir yetki tablosunun nasıl oluşturulacağını ve özelleştirileceğini gösterir.
 
@@ -137,7 +139,5 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 ### Ayrıca bakınız
 
 * class [FieldToa](../)
-* ad alanı [Aspose.Words.Fields](../../fieldtoa/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

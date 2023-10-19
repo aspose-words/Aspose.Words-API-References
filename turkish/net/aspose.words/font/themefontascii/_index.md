@@ -1,7 +1,9 @@
 ---
 title: Font.ThemeFontAscii
-second_title: Aspose.Words for .NET API Referansı
-description: Font mülk. Latince metin için kullanılan tema yazı tipini 0 sıfır ile 127 arasında karakter kodlarına sahip karakterler alır veya ayarlar. bununla ilişkili uygulanan yazı tipi şemasındaFont nesne.
+linktitle: ThemeFontAscii
+articleTitle: ThemeFontAscii
+second_title: Aspose.Words for .NET
+description: Font ThemeFontAscii mülk. Latince metin için kullanılan tema yazı tipini 0 sıfır ile 127 arasında karakter kodlarına sahip karakterler alır veya ayarlar. bununla ilişkili uygulanan yazı tipi şemasındaFont nesne C#'da.
 type: docs
 weight: 480
 url: /tr/net/aspose.words/font/themefontascii/
@@ -14,7 +16,7 @@ Latince metin için kullanılan tema yazı tipini (0 (sıfır) ile 127 arasında
 public ThemeFont ThemeFontAscii { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Tema yazı tipleri ve renkleri ile nasıl çalışılacağını gösterir.
 
@@ -101,7 +103,5 @@ Assert.AreEqual(Color.Blue.ToArgb(), font.Color.ToArgb());
 
 * enum [ThemeFont](../../../aspose.words.themes/themefont/)
 * class [Font](../)
-* ad alanı [Aspose.Words](../../font/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

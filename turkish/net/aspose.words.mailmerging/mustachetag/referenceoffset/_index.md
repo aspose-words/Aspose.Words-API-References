@@ -1,7 +1,9 @@
 ---
 title: MustacheTag.ReferenceOffset
-second_title: Aspose.Words for .NET API Referansı
-description: MustacheTag mülk. Etiketin başlangıcından itibaren sıfır tabanlı başlangıç konumunu alır.ReferenceRun .
+linktitle: ReferenceOffset
+articleTitle: ReferenceOffset
+second_title: Aspose.Words for .NET
+description: MustacheTag ReferenceOffset mülk. Etiketin başlangıcından itibaren sıfır tabanlı başlangıç konumunu alır.ReferenceRun  C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.mailmerging/mustachetag/referenceoffset/
@@ -14,7 +16,7 @@ Etiketin başlangıcından itibaren sıfır tabanlı başlangıç konumunu alır
 public int ReferenceOffset { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bıyık etiketleriyle nasıl çalışılacağını gösterir.
 
@@ -41,7 +43,5 @@ foreach (MailMergeRegionInfo region in hierarchy.Regions)
 ### Ayrıca bakınız
 
 * class [MustacheTag](../)
-* ad alanı [Aspose.Words.MailMerging](../../mustachetag/)
+* ad alanı [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * toplantı [Aspose.Words](../../../)
-
-

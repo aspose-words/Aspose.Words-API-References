@@ -1,7 +1,9 @@
 ---
 title: Font.NameBi
-second_title: Aspose.Words for .NET API Referansı
-description: Font mülk. Sağdan sola yazılan bir dil belgesindeki yazı tipinin adını döndürür veya ayarlar.
+linktitle: NameBi
+articleTitle: NameBi
+second_title: Aspose.Words for .NET
+description: Font NameBi mülk. Sağdan sola yazılan bir dil belgesindeki yazı tipinin adını döndürür veya ayarlar C#'da.
 type: docs
 weight: 250
 url: /tr/net/aspose.words/font/namebi/
@@ -14,7 +16,7 @@ Sağdan sola yazılan bir dil belgesindeki yazı tipinin adını döndürür vey
 public string NameBi { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Sağdan sola ve sağdan sola metin için ayrı yazı tipi ayarları kümelerinin nasıl tanımlanacağını gösterir.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "Font.Bidi.docx");
 
 * property [Name](../name/)
 * class [Font](../)
-* ad alanı [Aspose.Words](../../font/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

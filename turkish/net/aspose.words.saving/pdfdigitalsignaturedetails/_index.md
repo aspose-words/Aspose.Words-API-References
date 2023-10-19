@@ -1,7 +1,9 @@
 ---
-title: Class PdfDigitalSignatureDetails
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Saving.PdfDigitalSignatureDetails sınıf. PDF belgesini dijital imzayla imzalamaya ilişkin ayrıntıları içerir.
+title: PdfDigitalSignatureDetails Class
+linktitle: PdfDigitalSignatureDetails
+articleTitle: PdfDigitalSignatureDetails
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Saving.PdfDigitalSignatureDetails sınıf. PDF belgesini dijital imzayla imzalamaya ilişkin ayrıntıları içerir C#'da.
 type: docs
 weight: 5430
 url: /tr/net/aspose.words.saving/pdfdigitalsignaturedetails/
@@ -19,7 +21,7 @@ public class PdfDigitalSignatureDetails
 | İsim | Tanım |
 | --- | --- |
 | [PdfDigitalSignatureDetails](pdfdigitalsignaturedetails/#constructor)() | Bu sınıfın bir örneğini başlatır. |
-| [PdfDigitalSignatureDetails](pdfdigitalsignaturedetails/#constructor_1)(CertificateHolder, string, string, DateTime) | Bu sınıfın bir örneğini başlatır. |
+| [PdfDigitalSignatureDetails](pdfdigitalsignaturedetails/#constructor_1)(*[CertificateHolder](../../aspose.words.digitalsignatures/certificateholder/), string, string, DateTime*) | Bu sınıfın bir örneğini başlatır. |
 
 ## Özellikleri
 
@@ -32,7 +34,7 @@ public class PdfDigitalSignatureDetails
 | [SignatureDate](../../aspose.words.saving/pdfdigitalsignaturedetails/signaturedate/) { get; set; } | İmzalama tarihini alır veya ayarlar. |
 | [TimestampSettings](../../aspose.words.saving/pdfdigitalsignaturedetails/timestampsettings/) { get; set; } | Dijital imza zaman damgası ayarlarını alır veya ayarlar. |
 
-### Notlar
+## Notlar
 
 Şu anda PDF belgelerini dijital olarak imzalamak yalnızca .NET 2.0 veya üzeri sürümlerde mümkündür.
 
@@ -40,7 +42,7 @@ Aspose.Words tarafından oluşturulan bir PDF belgesini dijital olarak imzalamak
 
 Aspose.Words, tüm PDF belgesi üzerinde bir PKCS#7 imzası oluşturur ve dijital imza oluştururken "Adobe.PPKMS" filtresini ve "adbe.pkcs7.sha1" alt filtresini kullanır.
 
-### Örnekler
+## Örnekler
 
 Oluşturulan bir PDF belgesinin nasıl imzalanacağını gösterir.
 
@@ -73,5 +75,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 
 * ad alanı [Aspose.Words.Saving](../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum LegendPosition
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.Charts.LegendPosition Sıralama. Bir grafik açıklaması için olası konumları belirtir.
+title: LegendPosition Enum
+linktitle: LegendPosition
+articleTitle: LegendPosition
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.Charts.LegendPosition Sıralama. Bir grafik açıklaması için olası konumları belirtir C#'da.
 type: docs
 weight: 910
 url: /tr/net/aspose.words.drawing.charts/legendposition/
@@ -25,7 +27,7 @@ public enum LegendPosition
 | Top | `4` | Açıklamanın grafiğin üst kısmına çizileceğini belirtir. |
 | TopRight | `5` | Açıklamanın grafiğin sağ üst köşesine çizileceğini belirtir. |
 
-### Örnekler
+## Örnekler
 
 Bir grafiğin göstergesinin görünümünün nasıl düzenleneceğini gösterir.
 
@@ -55,5 +57,3 @@ doc.Save(ArtifactsDir + "Charts.ChartLegend.docx");
 
 * ad alanı [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../)
-
-

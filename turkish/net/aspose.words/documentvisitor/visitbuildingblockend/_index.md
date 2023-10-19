@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitBuildingBlockEnd
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentVisitor yöntem. Bir yapı taşının numaralandırılması sona erdiğinde çağrılır.
+linktitle: VisitBuildingBlockEnd
+articleTitle: VisitBuildingBlockEnd
+second_title: Aspose.Words for .NET
+description: DocumentVisitor VisitBuildingBlockEnd yöntem. Bir yapı taşının numaralandırılması sona erdiğinde çağrılır C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words/documentvisitor/visitbuildingblockend/
@@ -22,11 +24,11 @@ public virtual VisitorAction VisitBuildingBlockEnd(BuildingBlock block)
 
 A[`VisitorAction`](../../visitoraction/) numaralandırmaya nasıl devam edileceğini belirten değer.
 
-### Notlar
+## Notlar
 
 Not: Bir yapı bloğu düğümü ve onun alt öğeleri, a Visitor'ı bir ağ üzerinde çalıştırdığınızda ziyaret edilmez.[`Document`](../../document/) . Bir Ziyaretçiyi a yapı bloğu üzerinden yürütmek istiyorsanız, ziyaretçiyi[`GlossaryDocument`](../../../aspose.words.buildingblocks/glossarydocument/) or çağrısı[`Accept`](../../../aspose.words.buildingblocks/buildingblock/accept/) .
 
-### Örnekler
+## Örnekler
 
 Bir sözlük belgesinde yapı taşlarına erişmenin yollarını gösterir.
 
@@ -132,7 +134,5 @@ public class GlossaryDocVisitor : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [BuildingBlock](../../../aspose.words.buildingblocks/buildingblock/)
 * class [DocumentVisitor](../)
-* ad alanı [Aspose.Words](../../documentvisitor/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

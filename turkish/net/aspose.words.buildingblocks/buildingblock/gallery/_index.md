@@ -1,7 +1,9 @@
 ---
 title: BuildingBlock.Gallery
-second_title: Aspose.Words for .NET API Referansı
-description: BuildingBlock mülk. sınıflandırması veya kullanıcı arayüzü sıralaması amacıyla yapı taşı için birinci düzey kategorizasyonu belirtir.
+linktitle: Gallery
+articleTitle: Gallery
+second_title: Aspose.Words for .NET
+description: BuildingBlock Gallery mülk. sınıflandırması veya kullanıcı arayüzü sıralaması amacıyla yapı taşı için birinci düzey kategorizasyonu belirtir C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.buildingblocks/buildingblock/gallery/
@@ -14,13 +16,13 @@ sınıflandırması veya kullanıcı arayüzü sıralaması amacıyla yapı taş
 public BuildingBlockGallery Gallery { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Microsoft Word kullanıcı arayüzündeki yapı taşları Galeriler halinde olarak düzenlenmiştir. Her biri`Gallery` birden fazla Kategoriye sahip olabilir. a içindeki her blok[`Category`](../category/) bir var[`Name`](../name/).
 
-karşılık gelir **docPartPr.category.gallery** OOXML'deki öğe.
+karşılık gelir**docPartPr.category.gallery** OOXML'deki öğe.
 
-### Örnekler
+## Örnekler
 
 Bir belgeye özel yapı taşının nasıl ekleneceğini gösterir.
 
@@ -118,7 +120,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 
 * enum [BuildingBlockGallery](../../buildingblockgallery/)
 * class [BuildingBlock](../)
-* ad alanı [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* ad alanı [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.Format
-second_title: Aspose.Words for .NET API Referansı
-description: ChartDataLabel mülk. Veri etiketinin dolgu ve satır formatlamasına erişim sağlar.
+linktitle: Format
+articleTitle: Format
+second_title: Aspose.Words for .NET
+description: ChartDataLabel Format mülk. Veri etiketinin dolgu ve satır formatlamasına erişim sağlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.drawing.charts/chartdatalabel/format/
@@ -18,7 +20,5 @@ public ChartFormat Format { get; }
 
 * class [ChartFormat](../../chartformat/)
 * class [ChartDataLabel](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

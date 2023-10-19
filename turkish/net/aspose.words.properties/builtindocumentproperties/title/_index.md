@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Title
-second_title: Aspose.Words for .NET API Referansı
-description: BuiltInDocumentProperties mülk. Belgenin başlığını alır veya ayarlar.
+linktitle: Title
+articleTitle: Title
+second_title: Aspose.Words for .NET
+description: BuiltInDocumentProperties Title mülk. Belgenin başlığını alır veya ayarlar C#'da.
 type: docs
 weight: 290
 url: /tr/net/aspose.words.properties/builtindocumentproperties/title/
@@ -14,7 +16,7 @@ Belgenin başlığını alır veya ayarlar.
 public string Title { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 "Açıklama" kategorisinde yerleşik belge özellikleriyle nasıl çalışılacağını gösterir.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.Description.docx");
 ### Ayrıca bakınız
 
 * class [BuiltInDocumentProperties](../)
-* ad alanı [Aspose.Words.Properties](../../builtindocumentproperties/)
+* ad alanı [Aspose.Words.Properties](../../../aspose.words.properties/)
 * toplantı [Aspose.Words](../../../)
-
-

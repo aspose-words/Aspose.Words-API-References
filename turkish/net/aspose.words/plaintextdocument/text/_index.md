@@ -1,7 +1,9 @@
 ---
 title: PlainTextDocument.Text
-second_title: Aspose.Words for .NET API Referansı
-description: PlainTextDocument mülk. Belgenin metin içeriğini bir dize olarak birleştirir.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words for .NET
+description: PlainTextDocument Text mülk. Belgenin metin içeriğini bir dize olarak birleştirir C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words/plaintextdocument/text/
@@ -14,7 +16,7 @@ Belgenin metin içeriğini bir dize olarak birleştirir.
 public string Text { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir Microsoft Word belgesinin içeriğinin düz metin olarak nasıl yükleneceğini gösterir.
 
@@ -33,7 +35,5 @@ Assert.AreEqual("Hello world!", plaintext.Text.Trim());
 ### Ayrıca bakınız
 
 * class [PlainTextDocument](../)
-* ad alanı [Aspose.Words](../../plaintextdocument/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

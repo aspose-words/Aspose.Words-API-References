@@ -1,7 +1,9 @@
 ---
 title: BarcodeParameters.CaseCodeStyle
-second_title: Aspose.Words for .NET API Referansı
-description: BarcodeParameters mülk. ITF14 barkod tipi için Vaka Kodunun Stili. Geçerli değerler şunlardır STDEXTADD
+linktitle: CaseCodeStyle
+articleTitle: CaseCodeStyle
+second_title: Aspose.Words for .NET
+description: BarcodeParameters CaseCodeStyle mülk. ITF14 barkod tipi için Vaka Kodunun Stili. Geçerli değerler şunlardır STDEXTADD C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.fields/barcodeparameters/casecodestyle/
@@ -14,7 +16,7 @@ ITF14 barkod tipi için Vaka Kodunun Stili. Geçerli değerler şunlardır: [STD
 public string CaseCodeStyle { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Barkod oluşturucunun nasıl kullanılacağını gösterir.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 ### Ayrıca bakınız
 
 * class [BarcodeParameters](../)
-* ad alanı [Aspose.Words.Fields](../../barcodeparameters/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

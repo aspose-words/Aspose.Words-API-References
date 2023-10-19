@@ -1,20 +1,22 @@
 ---
 title: FieldCitation.AnotherSourceTag
-second_title: Aspose.Words for .NET API Referansı
-description: FieldCitation mülk. Eşleşen bir değer alır veya ayarlar. Etiket Alıntıya dahil edilecek başka bir kaynağın öğesinin değeri.
+linktitle: AnotherSourceTag
+articleTitle: AnotherSourceTag
+second_title: Aspose.Words for .NET
+description: FieldCitation AnotherSourceTag mülk. Eşleşen bir değer alır veya ayarlar.Etiket Alıntıya dahil edilecek başka bir kaynağın öğesinin değeri C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fieldcitation/anothersourcetag/
 ---
 ## FieldCitation.AnotherSourceTag property
 
-Eşleşen bir değer alır veya ayarlar. **Etiket** Alıntıya dahil edilecek başka bir kaynağın öğesinin değeri.
+Eşleşen bir değer alır veya ayarlar.**Etiket** Alıntıya dahil edilecek başka bir kaynağın öğesinin değeri.
 
 ```csharp
 public string AnotherSourceTag { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 CITATION ve KAYNAKÇA alanlarıyla nasıl çalışılacağını gösterir.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Field.CITATION.docx");
 ### Ayrıca bakınız
 
 * class [FieldCitation](../)
-* ad alanı [Aspose.Words.Fields](../../fieldcitation/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

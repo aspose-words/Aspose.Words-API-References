@@ -1,7 +1,9 @@
 ---
-title: Enum MailMergeDestination
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Settings.MailMergeDestination Sıralama. Bir belge üzerinde adresmektup birleştirme gerçekleştirildiğinde oluşturulabilecek olası sonuçları belirtir.
+title: MailMergeDestination Enum
+linktitle: MailMergeDestination
+articleTitle: MailMergeDestination
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Settings.MailMergeDestination Sıralama. Bir belge üzerinde adresmektup birleştirme gerçekleştirildiğinde oluşturulabilecek olası sonuçları belirtir C#'da.
 type: docs
 weight: 5830
 url: /tr/net/aspose.words.settings/mailmergedestination/
@@ -24,7 +26,7 @@ public enum MailMergeDestination
 | Fax | `4` | Uyumlu barındırma uygulamalarının, belirli bir belge içindeki alanları belirtilen harici veri kaynağından alınan verilerle doldurma sonucu ortaya çıkan belgeleri kullanarak faks oluşturacağını belirtir. |
 | Default | `0` | Şuna eşittir:NewDocument değer. |
 
-### Örnekler
+## Örnekler
 
 Bir Office Veri Kaynağı Nesnesinden alınan verilerle adres-mektup birleştirmenin nasıl yürütüleceğini gösterir.
 
@@ -78,5 +80,3 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 * property [Destination](../mailmergesettings/destination/)
 * ad alanı [Aspose.Words.Settings](../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../)
-
-

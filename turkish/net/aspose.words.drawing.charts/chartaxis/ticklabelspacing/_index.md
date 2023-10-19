@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.TickLabelSpacing
-second_title: Aspose.Words for .NET API Referansı
-description: ChartAxis mülk. Onay etiketlerinin çizildiği aralığı alır veya ayarlar.
+linktitle: TickLabelSpacing
+articleTitle: TickLabelSpacing
+second_title: Aspose.Words for .NET
+description: ChartAxis TickLabelSpacing mülk. Onay etiketlerinin çizildiği aralığı alır veya ayarlar C#'da.
 type: docs
 weight: 250
 url: /tr/net/aspose.words.drawing.charts/chartaxis/ticklabelspacing/
@@ -14,13 +16,13 @@ Onay etiketlerinin çizildiği aralığı alır veya ayarlar.
 public int TickLabelSpacing { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Özelliğin metin kategorisi ve seri eksenleri üzerinde etkisi vardır. MS Office 2016 yeni çizelgeleri tarafından desteklenmemektedir. Bir değerin geçerli aralığı 1'den büyük veya ona eşittir.
 
 Bu özelliğin ayarlanması,[`TickLabelSpacingIsAuto`](../ticklabelspacingisauto/) mülkiyet`YANLIŞ`.
 
-### Örnekler
+## Örnekler
 
 Bir grafik ekseninin onay işaretlerinin ve görüntülenen değerlerinin nasıl değiştirileceğini gösterir.
 
@@ -78,7 +80,5 @@ doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 ### Ayrıca bakınız
 
 * class [ChartAxis](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

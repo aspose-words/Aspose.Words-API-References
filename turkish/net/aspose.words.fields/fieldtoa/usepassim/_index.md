@@ -1,7 +1,9 @@
 ---
 title: FieldToa.UsePassim
-second_title: Aspose.Words for .NET API Referansı
-description: FieldToa mülk. Aynı yetkisine yönelik beş veya daha fazla farklı sayfa referansının alıntı yapılan çalışmada bir kelimenin veya pasajın sıklıkla geçtiğini belirtmek için kullanılan passim ile değiştirilip değiştirilmeyeceğini alır veya ayarlar.
+linktitle: UsePassim
+articleTitle: UsePassim
+second_title: Aspose.Words for .NET
+description: FieldToa UsePassim mülk. Aynı yetkisine yönelik beş veya daha fazla farklı sayfa referansının alıntı yapılan çalışmada bir kelimenin veya pasajın sıklıkla geçtiğini belirtmek için kullanılan passim ile değiştirilip değiştirilmeyeceğini alır veya ayarlar C#'da.
 type: docs
 weight: 110
 url: /tr/net/aspose.words.fields/fieldtoa/usepassim/
@@ -14,7 +16,7 @@ Aynı yetkisine yönelik beş veya daha fazla farklı sayfa referansının, alı
 public bool UsePassim { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 TOA ve TA alanlarını kullanarak bir yetki tablosunun nasıl oluşturulacağını ve özelleştirileceğini gösterir.
 
@@ -137,7 +139,5 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 ### Ayrıca bakınız
 
 * class [FieldToa](../)
-* ad alanı [Aspose.Words.Fields](../../fieldtoa/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

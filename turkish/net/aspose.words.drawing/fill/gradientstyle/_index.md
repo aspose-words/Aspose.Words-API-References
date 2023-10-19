@@ -1,9 +1,11 @@
 ---
 title: Fill.GradientStyle
-second_title: Aspose.Words for .NET API Referansı
-description: Fill mülk. Degrade stilini alırGradientStyle dolgu için.
+linktitle: GradientStyle
+articleTitle: GradientStyle
+second_title: Aspose.Words for .NET
+description: Fill GradientStyle mülk. Degrade stilini alırGradientStyle dolgu için C#'da.
 type: docs
-weight: 120
+weight: 110
 url: /tr/net/aspose.words.drawing/fill/gradientstyle/
 ---
 ## Fill.GradientStyle property
@@ -14,7 +16,7 @@ Degrade stilini alır[`GradientStyle`](../../gradientstyle/) dolgu için.
 public GradientStyle GradientStyle { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir şeklin degradelerle nasıl doldurulacağını gösterir.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Shape.GradientFill.docx", saveOptions);
 
 * enum [GradientStyle](../../gradientstyle/)
 * class [Fill](../)
-* ad alanı [Aspose.Words.Drawing](../../fill/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

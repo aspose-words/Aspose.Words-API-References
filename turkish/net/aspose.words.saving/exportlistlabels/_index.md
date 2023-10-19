@@ -1,7 +1,9 @@
 ---
-title: Enum ExportListLabels
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Saving.ExportListLabels Sıralama. Liste etiketlerinin HTML MHTML ve EPUBa nasıl aktarılacağını belirtir.
+title: ExportListLabels Enum
+linktitle: ExportListLabels
+articleTitle: ExportListLabels
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Saving.ExportListLabels Sıralama. Liste etiketlerinin HTML MHTML ve EPUBa nasıl aktarılacağını belirtir C#'da.
 type: docs
 weight: 5010
 url: /tr/net/aspose.words.saving/exportlistlabels/
@@ -22,7 +24,7 @@ public enum ExportListLabels
 | AsInlineText | `1` | Tüm liste etiketlerinin satır içi metin olarak çıktısını alır. |
 | ByHtmlTags | `2` | Tüm liste etiketlerinin çıktısını HTML yerel öğeleri olarak verir. |
 
-### Örnekler
+## Örnekler
 
 Listeyi HTML'ye aktarmanın nasıl yapılandırılacağını gösterir.
 
@@ -110,5 +112,3 @@ switch (exportListLabels)
 * property [ExportListLabels](../htmlsaveoptions/exportlistlabels/)
 * ad alanı [Aspose.Words.Saving](../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../)
-
-

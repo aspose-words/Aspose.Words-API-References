@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.MoveNext
-second_title: Aspose.Words for .NET API Referansı
-description: LayoutEnumerator yöntem. Görsel sırayla bir sonraki kardeş varlığa geçer. Sayfalara bölünmüş bir paragrafın satırları yinelenirken bu method sonraki sayfaya geçmez bunun yerine aynı sayfadaki sonraki varlığa geçer.
+linktitle: MoveNext
+articleTitle: MoveNext
+second_title: Aspose.Words for .NET
+description: LayoutEnumerator MoveNext yöntem. Görsel sırayla bir sonraki kardeş varlığa geçer. Sayfalara bölünmüş bir paragrafın satırları yinelenirken bu method sonraki sayfaya geçmez bunun yerine aynı sayfadaki sonraki varlığa geçer C#'da.
 type: docs
 weight: 120
 url: /tr/net/aspose.words.layout/layoutenumerator/movenext/
@@ -14,7 +16,7 @@ Görsel sırayla bir sonraki kardeş varlığa geçer. Sayfalara bölünmüş bi
 public bool MoveNext()
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgenin düzen varlıkları arasında geçiş yapma yollarını gösterir.
 
@@ -159,7 +161,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 ### Ayrıca bakınız
 
 * class [LayoutEnumerator](../)
-* ad alanı [Aspose.Words.Layout](../../layoutenumerator/)
+* ad alanı [Aspose.Words.Layout](../../../aspose.words.layout/)
 * toplantı [Aspose.Words](../../../)
-
-

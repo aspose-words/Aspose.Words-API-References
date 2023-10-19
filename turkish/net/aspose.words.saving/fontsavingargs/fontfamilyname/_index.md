@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.FontFamilyName
-second_title: Aspose.Words for .NET API Referansı
-description: FontSavingArgs mülk. Geçerli yazı tipi ailesinin adını belirtir.
+linktitle: FontFamilyName
+articleTitle: FontFamilyName
+second_title: Aspose.Words for .NET
+description: FontSavingArgs FontFamilyName mülk. Geçerli yazı tipi ailesinin adını belirtir C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.saving/fontsavingargs/fontfamilyname/
@@ -14,7 +16,7 @@ Geçerli yazı tipi ailesinin adını belirtir.
 public string FontFamilyName { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 HTML'ye kaydederken yazı tiplerini dışa aktarmak için özel mantığın nasıl tanımlanacağını gösterir.
 
@@ -74,7 +76,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### Ayrıca bakınız
 
 * class [FontSavingArgs](../)
-* ad alanı [Aspose.Words.Saving](../../fontsavingargs/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

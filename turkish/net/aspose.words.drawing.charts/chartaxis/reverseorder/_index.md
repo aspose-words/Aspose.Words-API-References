@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.ReverseOrder
-second_title: Aspose.Words for .NET API Referansı
-description: ChartAxis mülk. Eksen değerlerinin ters sırada görüntülenip görüntülenmeyeceğini belirten bir bayrağı döndürür veya ayarlar ie maksimumdan min. ye
+linktitle: ReverseOrder
+articleTitle: ReverseOrder
+second_title: Aspose.Words for .NET
+description: ChartAxis ReverseOrder mülk. Eksen değerlerinin ters sırada görüntülenip görüntülenmeyeceğini belirten bir bayrağı döndürür veya ayarlar ie maksimumdan min. ye C#'da.
 type: docs
 weight: 200
 url: /tr/net/aspose.words.drawing.charts/chartaxis/reverseorder/
@@ -14,11 +16,11 @@ Eksen değerlerinin ters sırada görüntülenip görüntülenmeyeceğini belirt
 public bool ReverseOrder { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özellik MS Office 2016 yeni çizelgeleri tarafından desteklenmemektedir. Varsayılan değer:`YANLIŞ` .
 
-### Örnekler
+## Örnekler
 
 Grafiğin nasıl ekleneceğini ve eksenlerinin görünümünün nasıl değiştirileceğini gösterir.
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 ### Ayrıca bakınız
 
 * class [ChartAxis](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Font.Underline
-second_title: Aspose.Words for .NET API Referansı
-description: Font mülk. Yazı tipine uygulanan alt çizgi türünü alır veya ayarlar.
+linktitle: Underline
+articleTitle: Underline
+second_title: Aspose.Words for .NET
+description: Font Underline mülk. Yazı tipine uygulanan alt çizgi türünü alır veya ayarlar C#'da.
 type: docs
 weight: 530
 url: /tr/net/aspose.words/font/underline/
@@ -14,7 +16,7 @@ Yazı tipine uygulanan alt çizgi türünü alır veya ayarlar.
 public Underline Underline { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Metnin alt çizgisinin stilinin ve renginin nasıl yapılandırılacağını gösterir.
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlink.docx");
 
 * enum [Underline](../../underline/)
 * class [Font](../)
-* ad alanı [Aspose.Words](../../font/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

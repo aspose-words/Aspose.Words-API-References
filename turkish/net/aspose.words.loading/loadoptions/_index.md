@@ -1,7 +1,9 @@
 ---
-title: Class LoadOptions
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Loading.LoadOptions sınıf. Bir belgeyi bir belgeye yüklerken ek seçeneklerin şifre veya temel URI gibi belirtilmesine izin verirDocument nesne.
+title: LoadOptions Class
+linktitle: LoadOptions
+articleTitle: LoadOptions
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Loading.LoadOptions sınıf. Bir belgeyi bir belgeye yüklerken ek seçeneklerin şifre veya temel URI gibi belirtilmesine izin verirDocument nesne C#'da.
 type: docs
 weight: 3660
 url: /tr/net/aspose.words.loading/loadoptions/
@@ -21,8 +23,8 @@ public class LoadOptions
 | İsim | Tanım |
 | --- | --- |
 | [LoadOptions](loadoptions/#constructor)() | Bu sınıfın yeni bir örneğini varsayılan değerlerle başlatır. |
-| [LoadOptions](loadoptions/#constructor_2)(string) | Şifrelenmiş bir belgeyi yüklemek için bu sınıfın yeni bir örneğini belirtilen parolayla başlatmak için kullanılan bir kısayol. |
-| [LoadOptions](loadoptions/#constructor_1)(LoadFormat, string, string) | Özellikleri belirtilen değerlere ayarlanmış olarak bu sınıfın yeni bir örneğini başlatmak için kullanılan bir kısayol. |
+| [LoadOptions](loadoptions/#constructor_2)(*string*) | Şifrelenmiş bir belgeyi yüklemek için bu sınıfın yeni bir örneğini belirtilen parolayla başlatmak için kullanılan bir kısayol. |
+| [LoadOptions](loadoptions/#constructor_1)(*[LoadFormat](../../aspose.words/loadformat/), string, string*) | Özellikleri belirtilen değerlere ayarlanmış olarak bu sınıfın yeni bir örneğini başlatmak için kullanılan bir kısayol. |
 
 ## Özellikleri
 
@@ -49,9 +51,9 @@ public class LoadOptions
 
 | İsim | Tanım |
 | --- | --- |
-| override [Equals](../../aspose.words.loading/loadoptions/equals/)(object) |  |
+| override [Equals](../../aspose.words.loading/loadoptions/equals/)(*object*) |  |
 
-### Örnekler
+## Örnekler
 
 Şifrelenmiş bir Microsoft Word belgesinin nasıl yükleneceğini gösterir.
 
@@ -78,5 +80,3 @@ using (Stream stream = File.OpenRead(MyDir + "Encrypted.docx"))
 
 * ad alanı [Aspose.Words.Loading](../../aspose.words.loading/)
 * toplantı [Aspose.Words](../../)
-
-

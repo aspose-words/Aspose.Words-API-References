@@ -1,7 +1,9 @@
 ---
 title: InlineStory.LastParagraph
-second_title: Aspose.Words for .NET API Referansı
-description: InlineStory mülk. Hikayedeki son paragrafı alır.
+linktitle: LastParagraph
+articleTitle: LastParagraph
+second_title: Aspose.Words for .NET
+description: InlineStory LastParagraph mülk. Hikayedeki son paragrafı alır C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words/inlinestory/lastparagraph/
@@ -14,7 +16,7 @@ Hikayedeki son paragrafı alır.
 public Paragraph LastParagraph { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 InlineStory düğümlerinin nasıl ekleneceğini gösterir.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "InlineStory.InsertInlineStoryNodes.docx");
 
 * class [Paragraph](../../paragraph/)
 * class [InlineStory](../)
-* ad alanı [Aspose.Words](../../inlinestory/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

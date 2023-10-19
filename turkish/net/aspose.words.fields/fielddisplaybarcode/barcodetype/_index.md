@@ -1,7 +1,9 @@
 ---
 title: FieldDisplayBarcode.BarcodeType
-second_title: Aspose.Words for .NET API Referansı
-description: FieldDisplayBarcode mülk. Barkod türünü QR vb. alır veya ayarlar.
+linktitle: BarcodeType
+articleTitle: BarcodeType
+second_title: Aspose.Words for .NET
+description: FieldDisplayBarcode BarcodeType mülk. Barkod türünü QR vb. alır veya ayarlar C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.fields/fielddisplaybarcode/barcodetype/
@@ -14,7 +16,7 @@ Barkod türünü (QR vb.) alır veya ayarlar.
 public string BarcodeType { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 DISPLAYBARCODE alanının nasıl ekleneceğini ve özelliklerinin nasıl ayarlanacağını gösterir.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Field.DISPLAYBARCODE.docx");
 ### Ayrıca bakınız
 
 * class [FieldDisplayBarcode](../)
-* ad alanı [Aspose.Words.Fields](../../fielddisplaybarcode/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

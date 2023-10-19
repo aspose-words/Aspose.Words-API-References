@@ -1,7 +1,9 @@
 ---
 title: Font.Name
-second_title: Aspose.Words for .NET API Referansı
-description: Font mülk. Yazı tipinin adını alır veya ayarlar.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words for .NET
+description: Font Name mülk. Yazı tipinin adını alır veya ayarlar C#'da.
 type: docs
 weight: 230
 url: /tr/net/aspose.words/font/name/
@@ -14,13 +16,13 @@ Yazı tipinin adını alır veya ayarlar.
 public string Name { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Alırken geri döner[`NameAscii`](../nameascii/).
 
 Ayar yaparken ayarlar[`NameAscii`](../nameascii/) ,[`NameBi`](../namebi/) ,[`NameFarEast`](../namefareast/) ve[`NameOther`](../nameother/) belirtilen değere.
 
-### Örnekler
+## Örnekler
 
 Font özelliğini kullanarak bir metin dizisinin nasıl biçimlendirileceğini gösterir.
 
@@ -57,7 +59,5 @@ builder.Write("Hello world!");
 ### Ayrıca bakınız
 
 * class [Font](../)
-* ad alanı [Aspose.Words](../../font/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

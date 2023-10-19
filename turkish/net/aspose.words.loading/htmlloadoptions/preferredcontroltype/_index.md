@@ -1,7 +1,9 @@
 ---
 title: HtmlLoadOptions.PreferredControlType
-second_title: Aspose.Words for .NET API Referansı
-description: HtmlLoadOptions mülk. İçe aktarılan giriş ve seçim öğelerini temsil edecek tercih edilen belge düğümü türünü alır veya ayarlar. Varsayılan değerFormField .
+linktitle: PreferredControlType
+articleTitle: PreferredControlType
+second_title: Aspose.Words for .NET
+description: HtmlLoadOptions PreferredControlType mülk. İçe aktarılan giriş ve seçim öğelerini temsil edecek tercih edilen belge düğümü türünü alır veya ayarlar. Varsayılan değerFormField  C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.loading/htmlloadoptions/preferredcontroltype/
@@ -14,11 +16,11 @@ url: /tr/net/aspose.words.loading/htmlloadoptions/preferredcontroltype/
 public HtmlControlType PreferredControlType { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Lütfen bu özelliğin ayarlanmasının içe aktarılan tüm kontrollerin belirtilen türde olacağını garanti etmediğini unutmayın. Bir HTML kontrolü tercih edilen türdeki belge düğümleriyle temsil edilemiyorsa, Aspose.Words uyumlu bir türde kullanacaktır.[`HtmlControlType`](../../htmlcontroltype/) bu kontrol için.
 
-### Örnekler
+## Örnekler
 
 İçe aktarılan &lt;input&gt; ve &lt;select&gt; öğelerini temsil edecek tercih edilen belge düğümü türünün nasıl ayarlanacağını gösterir.
 
@@ -45,7 +47,5 @@ StructuredDocumentTag tag = (StructuredDocumentTag) nodes[0];
 
 * enum [HtmlControlType](../../htmlcontroltype/)
 * class [HtmlLoadOptions](../)
-* ad alanı [Aspose.Words.Loading](../../htmlloadoptions/)
+* ad alanı [Aspose.Words.Loading](../../../aspose.words.loading/)
 * toplantı [Aspose.Words](../../../)
-
-

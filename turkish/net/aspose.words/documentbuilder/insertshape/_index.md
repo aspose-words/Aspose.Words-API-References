@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.InsertShape
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentBuilder yöntem. Belirtilen tür ve boyutta satır içi şekil ekler.
+linktitle: InsertShape
+articleTitle: InsertShape
+second_title: Aspose.Words for .NET
+description: DocumentBuilder InsertShape yöntem. Belirtilen tür ve boyutta satır içi şekil ekler C#'da.
 type: docs
-weight: 440
+weight: 430
 url: /tr/net/aspose.words/documentbuilder/insertshape/
 ---
-## InsertShape(ShapeType, double, double) {#insertshape_1}
+## InsertShape(*[ShapeType](../../../aspose.words.drawing/shapetype/), double, double*) {#insertshape_1}
 
 Belirtilen tür ve boyutta satır içi şekil ekler.
 
@@ -24,7 +26,7 @@ public Shape InsertShape(ShapeType shapeType, double width, double height)
 
 Eklenen şekil düğümü.
 
-### Örnekler
+## Örnekler
 
 DML şekillerinin bir belgeye nasıl ekleneceğini gösterir.
 
@@ -54,12 +56,12 @@ doc.Save(ArtifactsDir + "Shape.ShapeInsertion.docx", saveOptions);
 * class [Shape](../../../aspose.words.drawing/shape/)
 * enum [ShapeType](../../../aspose.words.drawing/shapetype/)
 * class [DocumentBuilder](../)
-* ad alanı [Aspose.Words](../../documentbuilder/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## InsertShape(ShapeType, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {#insertshape}
+## InsertShape(*[ShapeType](../../../aspose.words.drawing/shapetype/), [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/), double, [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/), double, double, double, [WrapType](../../../aspose.words.drawing/wraptype/)*) {#insertshape}
 
 Belirtilen konuma, boyuta ve metin sarma türüne sahip serbest kayan şekil ekler.
 
@@ -83,7 +85,7 @@ public Shape InsertShape(ShapeType shapeType, RelativeHorizontalPosition horzPos
 
 Eklenen şekil düğümü.
 
-### Örnekler
+## Örnekler
 
 DML şekillerinin bir belgeye nasıl ekleneceğini gösterir.
 
@@ -116,7 +118,5 @@ doc.Save(ArtifactsDir + "Shape.ShapeInsertion.docx", saveOptions);
 * enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
 * enum [WrapType](../../../aspose.words.drawing/wraptype/)
 * class [DocumentBuilder](../)
-* ad alanı [Aspose.Words](../../documentbuilder/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.HeightRelative
-second_title: Aspose.Words for .NET API Referansı
-description: ShapeBase mülk. Şeklin göreceli yüksekliğinin yüzdesini temsil eden değeri alır veya ayarlar.
+linktitle: HeightRelative
+articleTitle: HeightRelative
+second_title: Aspose.Words for .NET
+description: ShapeBase HeightRelative mülk. Şeklin göreceli yüksekliğinin yüzdesini temsil eden değeri alır veya ayarlar C#'da.
 type: docs
 weight: 210
 url: /tr/net/aspose.words.drawing/shapebase/heightrelative/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.drawing/shapebase/heightrelative/
 public float HeightRelative { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Göreli boyut ve konumun nasıl ayarlanacağını gösterir.
 
@@ -69,7 +71,5 @@ doc.Save(ArtifactsDir + "Shape.RelativeSizeAndPosition.docx");
 ### Ayrıca bakınız
 
 * class [ShapeBase](../)
-* ad alanı [Aspose.Words.Drawing](../../shapebase/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

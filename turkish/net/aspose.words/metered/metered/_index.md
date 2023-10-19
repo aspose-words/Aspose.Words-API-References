@@ -1,7 +1,9 @@
 ---
-title: Metered.Metered
-second_title: Aspose.Words for .NET API Referansı
-description: Metered inşaatçı. Bu sınıfın yeni bir örneğini başlatır.
+title: Metered
+linktitle: Metered
+articleTitle: Metered
+second_title: Aspose.Words for .NET
+description: Metered inşaatçı. Bu sınıfın yeni bir örneğini başlatır C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/metered/metered/
@@ -14,7 +16,7 @@ Bu sınıfın yeni bir örneğini başlatır.
 public Metered()
 ```
 
-### Örnekler
+## Örnekler
 
 Ölçülü lisansın nasıl etkinleştirileceğini ve kredinin/tüketimin nasıl izleneceğini gösterir.
 
@@ -41,7 +43,5 @@ Console.WriteLine($"Consumption quantity after operation: {Metered.GetConsumptio
 ### Ayrıca bakınız
 
 * class [Metered](../)
-* ad alanı [Aspose.Words](../../metered/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

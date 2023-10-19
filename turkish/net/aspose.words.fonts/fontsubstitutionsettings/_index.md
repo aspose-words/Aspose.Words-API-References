@@ -1,7 +1,9 @@
 ---
-title: Class FontSubstitutionSettings
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Fonts.FontSubstitutionSettings sınıf. Yazı tipi değiştirme mekanizması ayarlarını belirtir.
+title: FontSubstitutionSettings Class
+linktitle: FontSubstitutionSettings
+articleTitle: FontSubstitutionSettings
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Fonts.FontSubstitutionSettings sınıf. Yazı tipi değiştirme mekanizması ayarlarını belirtir C#'da.
 type: docs
 weight: 3010
 url: /tr/net/aspose.words.fonts/fontsubstitutionsettings/
@@ -26,7 +28,7 @@ public class FontSubstitutionSettings
 | [FontNameSubstitution](../../aspose.words.fonts/fontsubstitutionsettings/fontnamesubstitution/) { get; } | Yazı tipi adı değiştirme kuralıyla ilgili ayarlar. |
 | [TableSubstitution](../../aspose.words.fonts/fontsubstitutionsettings/tablesubstitution/) { get; } | Tablo değiştirme kuralıyla ilgili ayarlar. |
 
-### Notlar
+## Notlar
 
 Yazı tipi değiştirme işlemi belirli bir sırayla tek tek kontrol edilen birçok kuraldan oluşur. İlk kural yazı tipini çözemezse ikinci kural kontrol edilir ve bu şekilde devam eder.
 
@@ -36,7 +38,7 @@ Yazı tipi bilgisi değiştirme kuralının aşağıdaki durumlarda yazı tipini
 
 Yazı tipi yapılandırma değiştirme kuralının çoğu durumda yazı tipini çözeceğini ve dolayısıyla diğer tüm kuralları geçersiz kılacağını unutmayın.
 
-### Örnekler
+## Örnekler
 
 Bir belgenin sistem yazı tipi kaynağına nasıl erişileceğini ve yazı tipi yedeklerinin nasıl ayarlanacağını gösterir.
 
@@ -93,5 +95,3 @@ Assert.AreEqual(1,
 
 * ad alanı [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../)
-
-

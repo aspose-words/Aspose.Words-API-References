@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTag.XmlMapping
-second_title: Aspose.Words for .NET API Referansı
-description: StructuredDocumentTag mülk. Bu yapılandırılmış belge etiketinin geçerli belgenin özel bir XML bölümündeki XML data ile eşlenmesini temsil eden bir nesne alır.
+linktitle: XmlMapping
+articleTitle: XmlMapping
+second_title: Aspose.Words for .NET
+description: StructuredDocumentTag XmlMapping mülk. Bu yapılandırılmış belge etiketinin geçerli belgenin özel bir XML bölümündeki XML data ile eşlenmesini temsil eden bir nesne alır C#'da.
 type: docs
 weight: 320
 url: /tr/net/aspose.words.markup/structureddocumenttag/xmlmapping/
@@ -14,11 +16,11 @@ Bu yapılandırılmış belge etiketinin, geçerli belgenin özel bir XML bölü
 public XmlMapping XmlMapping { get; }
 ```
 
-### Notlar
+## Notlar
 
 Kullanabilirsiniz[`SetMapping`](../../xmlmapping/setmapping/) bu nesnenin yöntemini XML verilerine eşlemek için yapılandırılmış bir belge etiketi.
 
-### Örnekler
+## Örnekler
 
 Özel XML verileriyle yapılandırılmış bir belge etiketinin nasıl oluşturulacağını gösterir.
 
@@ -86,7 +88,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 
 * class [XmlMapping](../../xmlmapping/)
 * class [StructuredDocumentTag](../)
-* ad alanı [Aspose.Words.Markup](../../structureddocumenttag/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

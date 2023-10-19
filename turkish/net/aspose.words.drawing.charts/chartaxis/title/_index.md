@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.Title
-second_title: Aspose.Words for .NET API Referansı
-description: ChartAxis mülk. Eksen başlığı özelliklerine erişim sağlar.
+linktitle: Title
+articleTitle: Title
+second_title: Aspose.Words for .NET
+description: ChartAxis Title mülk. Eksen başlığı özelliklerine erişim sağlar C#'da.
 type: docs
 weight: 280
 url: /tr/net/aspose.words.drawing.charts/chartaxis/title/
@@ -18,7 +20,5 @@ public ChartAxisTitle Title { get; }
 
 * class [ChartAxisTitle](../../chartaxistitle/)
 * class [ChartAxis](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class ComparisonExpression
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Fields.ComparisonExpression sınıf. Karşılaştırma ifadesi.
+title: ComparisonExpression Class
+linktitle: ComparisonExpression
+articleTitle: ComparisonExpression
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Fields.ComparisonExpression sınıf. Karşılaştırma ifadesi C#'da.
 type: docs
 weight: 1490
 url: /tr/net/aspose.words.fields/comparisonexpression/
@@ -24,7 +26,7 @@ public sealed class ComparisonExpression
 | [LeftExpression](../../aspose.words.fields/comparisonexpression/leftexpression/) { get; } | Soldaki ifadeyi alır. |
 | [RightExpression](../../aspose.words.fields/comparisonexpression/rightexpression/) { get; } | Doğru ifadeyi alır. |
 
-### Örnekler
+## Örnekler
 
 IF ve COMPARE alanları için özel değerlendirmenin nasıl uygulanacağını gösterir.
 
@@ -109,5 +111,3 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 
 * ad alanı [Aspose.Words.Fields](../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../)
-
-

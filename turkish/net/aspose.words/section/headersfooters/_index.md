@@ -1,7 +1,9 @@
 ---
 title: Section.HeadersFooters
-second_title: Aspose.Words for .NET API Referansı
-description: Section mülk. Bölümün üst bilgi ve alt bilgi düğümlerine erişim sağlar.
+linktitle: HeadersFooters
+articleTitle: HeadersFooters
+second_title: Aspose.Words for .NET
+description: Section HeadersFooters mülk. Bölümün üst bilgi ve alt bilgi düğümlerine erişim sağlar C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/section/headersfooters/
@@ -14,7 +16,7 @@ Bölümün üst bilgi ve alt bilgi düğümlerine erişim sağlar.
 public HeaderFooterCollection HeadersFooters { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Belgenin altbilgisindeki metnin nasıl değiştirileceğini gösterir.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.RemoveFooters.docx");
 
 * class [HeaderFooterCollection](../../headerfootercollection/)
 * class [Section](../)
-* ad alanı [Aspose.Words](../../section/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

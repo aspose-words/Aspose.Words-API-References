@@ -1,7 +1,9 @@
 ---
 title: SubDocument.NodeType
-second_title: Aspose.Words for .NET API Referansı
-description: SubDocument mülk. İadelerSubDocument .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words for .NET
+description: SubDocument NodeType mülk. İadelerSubDocument  C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/subdocument/nodetype/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words/subdocument/nodetype/
 public override NodeType NodeType { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Ana belgenin alt belgesine nasıl erişileceğini gösterir.
 
@@ -32,7 +34,5 @@ Assert.False(subDocument.IsComposite);
 
 * enum [NodeType](../../nodetype/)
 * class [SubDocument](../)
-* ad alanı [Aspose.Words](../../subdocument/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

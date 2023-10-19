@@ -1,7 +1,9 @@
 ---
 title: GlossaryDocument.BuildingBlocks
-second_title: Aspose.Words for .NET API Referansı
-description: GlossaryDocument mülk. Sözlük belgesindeki tüm yapı taşlarını temsil eden yazılı bir koleksiyon döndürür.
+linktitle: BuildingBlocks
+articleTitle: BuildingBlocks
+second_title: Aspose.Words for .NET
+description: GlossaryDocument BuildingBlocks mülk. Sözlük belgesindeki tüm yapı taşlarını temsil eden yazılı bir koleksiyon döndürür C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.buildingblocks/glossarydocument/buildingblocks/
@@ -14,7 +16,7 @@ Sözlük belgesindeki tüm yapı taşlarını temsil eden yazılı bir koleksiyo
 public BuildingBlockCollection BuildingBlocks { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir sözlük belgesinde yapı taşlarına erişmenin yollarını gösterir.
 
@@ -119,7 +121,5 @@ public class GlossaryDocVisitor : DocumentVisitor
 
 * class [BuildingBlockCollection](../../buildingblockcollection/)
 * class [GlossaryDocument](../)
-* ad alanı [Aspose.Words.BuildingBlocks](../../glossarydocument/)
+* ad alanı [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * toplantı [Aspose.Words](../../../)
-
-

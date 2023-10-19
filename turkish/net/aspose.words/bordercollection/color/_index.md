@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.Color
-second_title: Aspose.Words for .NET API Referansı
-description: BorderCollection mülk. Kenarlık rengini alır veya ayarlar.
+linktitle: Color
+articleTitle: Color
+second_title: Aspose.Words for .NET
+description: BorderCollection Color mülk. Kenarlık rengini alır veya ayarlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/bordercollection/color/
@@ -14,13 +16,13 @@ Kenarlık rengini alır veya ayarlar.
 public Color Color { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Koleksiyondaki ilk kenarlığın rengini döndürür.
 
 Koleksiyondaki çapraz kenarlıklar hariç tüm kenarlıkların rengini ayarlar.
 
-### Örnekler
+## Örnekler
 
 Gölgeli yeşil dalgalı sayfa kenarlığının nasıl oluşturulacağını gösterir.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageBorders.docx");
 ### Ayrıca bakınız
 
 * class [BorderCollection](../)
-* ad alanı [Aspose.Words](../../bordercollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

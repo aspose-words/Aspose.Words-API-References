@@ -1,7 +1,9 @@
 ---
-title: Class ConvertUtil
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.ConvertUtil sınıf. Çeşitli ölçüm birimleri arasında dönüştürme yapmak için yardımcı işlevler sağlar.
+title: ConvertUtil Class
+linktitle: ConvertUtil
+articleTitle: ConvertUtil
+second_title: Aspose.Words for .NET
+description: Aspose.Words.ConvertUtil sınıf. Çeşitli ölçüm birimleri arasında dönüştürme yapmak için yardımcı işlevler sağlar C#'da.
 type: docs
 weight: 360
 url: /tr/net/aspose.words/convertutil/
@@ -20,16 +22,16 @@ public static class ConvertUtil
 
 | İsim | Tanım |
 | --- | --- |
-| static [InchToPoint](../../aspose.words/convertutil/inchtopoint/)(double) | İnçleri noktalara dönüştürür. |
-| static [MillimeterToPoint](../../aspose.words/convertutil/millimetertopoint/)(double) | Milimetreyi noktaya dönüştürür. |
-| static [PixelToNewDpi](../../aspose.words/convertutil/pixeltonewdpi/)(double, double, double) | Pikselleri bir çözünürlükten diğerine dönüştürür. |
-| static [PixelToPoint](../../aspose.words/convertutil/pixeltopoint/#pixeltopoint)(double) | Pikselleri 96 dpi'de noktalara dönüştürür. |
-| static [PixelToPoint](../../aspose.words/convertutil/pixeltopoint/#pixeltopoint_1)(double, double) | Belirtilen piksel çözünürlüğünde pikselleri noktalara dönüştürür. |
-| static [PointToInch](../../aspose.words/convertutil/pointtoinch/)(double) | Noktaları inç'e dönüştürür. |
-| static [PointToPixel](../../aspose.words/convertutil/pointtopixel/#pointtopixel)(double) | Noktaları 96 dpi'de piksellere dönüştürür. |
-| static [PointToPixel](../../aspose.words/convertutil/pointtopixel/#pointtopixel_1)(double, double) | Noktaları belirtilen piksel çözünürlüğünde piksellere dönüştürür. |
+| static [InchToPoint](../../aspose.words/convertutil/inchtopoint/)(*double*) | İnçleri noktalara dönüştürür. |
+| static [MillimeterToPoint](../../aspose.words/convertutil/millimetertopoint/)(*double*) | Milimetreyi noktaya dönüştürür. |
+| static [PixelToNewDpi](../../aspose.words/convertutil/pixeltonewdpi/)(*double, double, double*) | Pikselleri bir çözünürlükten diğerine dönüştürür. |
+| static [PixelToPoint](../../aspose.words/convertutil/pixeltopoint/#pixeltopoint)(*double*) | Pikselleri 96 dpi'de noktalara dönüştürür. |
+| static [PixelToPoint](../../aspose.words/convertutil/pixeltopoint/#pixeltopoint_1)(*double, double*) | Belirtilen piksel çözünürlüğünde pikselleri noktalara dönüştürür. |
+| static [PointToInch](../../aspose.words/convertutil/pointtoinch/)(*double*) | Noktaları inç'e dönüştürür. |
+| static [PointToPixel](../../aspose.words/convertutil/pointtopixel/#pointtopixel)(*double*) | Noktaları 96 dpi'de piksellere dönüştürür. |
+| static [PointToPixel](../../aspose.words/convertutil/pointtopixel/#pointtopixel_1)(*double, double*) | Noktaları belirtilen piksel çözünürlüğünde piksellere dönüştürür. |
 
-### Örnekler
+## Örnekler
 
 Bir bölüm için kağıt boyutunun, yönünün, kenar boşluklarının ve diğer ayarların nasıl ayarlanacağını gösterir.
 
@@ -83,5 +85,3 @@ doc.Save(ArtifactsDir + "UtilityClasses.PointsAndInches.docx");
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

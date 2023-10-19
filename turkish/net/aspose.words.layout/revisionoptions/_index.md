@@ -1,7 +1,9 @@
 ---
-title: Class RevisionOptions
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Layout.RevisionOptions sınıf. Düzenleme işlemi sırasında belge revizyonlarının nasıl ele alınacağını kontrol etmeye olanak tanır.
+title: RevisionOptions Class
+linktitle: RevisionOptions
+articleTitle: RevisionOptions
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Layout.RevisionOptions sınıf. Düzenleme işlemi sırasında belge revizyonlarının nasıl ele alınacağını kontrol etmeye olanak tanır C#'da.
 type: docs
 weight: 3390
 url: /tr/net/aspose.words.layout/revisionoptions/
@@ -40,7 +42,7 @@ public class RevisionOptions
 | [ShowRevisionBars](../../aspose.words.layout/revisionoptions/showrevisionbars/) { get; set; } | Revizyon çubuklarının revize edilmiş içeriği içeren satırların yakınında oluşturulup oluşturulmayacağını belirlemeye izin verir. Varsayılan değer:`doğru` . |
 | [ShowRevisionMarks](../../aspose.words.layout/revisionoptions/showrevisionmarks/) { get; set; } | Revizyon metninin özel biçimlendirme işaretlemesiyle işaretlenip işaretlenmeyeceğini belirtmeye izin verin. Varsayılan değer:`doğru` . |
 
-### Örnekler
+## Örnekler
 
 İşlenmiş bir çıktı belgesindeki düzeltmelerin görünümünün nasıl değiştirileceğini gösterir.
 
@@ -66,5 +68,3 @@ doc.Save(ArtifactsDir + "Document.LayoutOptionsRevisions.pdf");
 
 * ad alanı [Aspose.Words.Layout](../../aspose.words.layout/)
 * toplantı [Aspose.Words](../../)
-
-

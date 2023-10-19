@@ -1,7 +1,9 @@
 ---
 title: FieldXE.Text
-second_title: Aspose.Words for .NET API Referansı
-description: FieldXE mülk. Girişin metnini alır veya ayarlar.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words for .NET
+description: FieldXE Text mülk. Girişin metnini alır veya ayarlar C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.fields/fieldxe/text/
@@ -14,7 +16,7 @@ Girişin metnini alır veya ayarlar.
 public string Text { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir INDEX alanının nasıl oluşturulacağını ve ardından onu girişlerle doldurmak için XE alanlarının nasıl kullanılacağını gösterir.
 
@@ -140,7 +142,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Formatting.docx");
 ### Ayrıca bakınız
 
 * class [FieldXE](../)
-* ad alanı [Aspose.Words.Fields](../../fieldxe/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

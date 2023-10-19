@@ -1,7 +1,9 @@
 ---
 title: NodeList.ToArray
-second_title: Aspose.Words for .NET API Referansı
-description: NodeList yöntem. Koleksiyondaki tüm düğümleri yeni bir düğüm dizisine kopyalar.
+linktitle: ToArray
+articleTitle: ToArray
+second_title: Aspose.Words for .NET
+description: NodeList ToArray yöntem. Koleksiyondaki tüm düğümleri yeni bir düğüm dizisine kopyalar C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words/nodelist/toarray/
@@ -18,13 +20,13 @@ public Node[] ToArray()
 
 Bir dizi düğüm.
 
-### Notlar
+## Notlar
 
 Yineleyiciyi geçersiz kıldığından ve canlı koleksiyonlar için yenilemeler gerektirdiğinden, düğüm koleksiyonu üzerinde yineleme yaparken düğüm eklememeli/kaldırmamalısınız.
 
 Yineleme sırasında düğümleri ekleyebilmek/kaldırabilmek için, düğümlerini sabit boyutlu bir diziye kopyalamak ve ardından dizi üzerinde yineleme yapmak için bu yöntemi kullanın.
 
-### Örnekler
+## Örnekler
 
 XPath ifadesini kullanarak belirli düğümlerin nasıl seçileceğini gösterir.
 
@@ -58,7 +60,5 @@ Assert.AreEqual(typeof(Paragraph), node.GetType());
 
 * class [Node](../../node/)
 * class [NodeList](../)
-* ad alanı [Aspose.Words](../../nodelist/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

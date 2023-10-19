@@ -1,7 +1,9 @@
 ---
 title: Comment.Ancestor
-second_title: Aspose.Words for .NET API Referansı
-description: Comment mülk. Üst öğeyi döndürürComment nesne. İadelerhükümsüz üst düzey yorumlar için.
+linktitle: Ancestor
+articleTitle: Ancestor
+second_title: Aspose.Words for .NET
+description: Comment Ancestor mülk. Üst öğeyi döndürürComment nesne. İadelerhükümsüz üst düzey yorumlar için C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/comment/ancestor/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words/comment/ancestor/
 public Comment Ancestor { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki tüm yorumların ve yanıtların nasıl yazdırılacağını gösterir.
 
@@ -40,7 +42,5 @@ foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == 
 ### Ayrıca bakınız
 
 * class [Comment](../)
-* ad alanı [Aspose.Words](../../comment/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DigitalSignature.IsValid
-second_title: Aspose.Words for .NET API Referansı
-description: DigitalSignature mülk. İadelerdoğru bu dijital imza geçerliyse ve belgeye müdahale edilmemişse.
+linktitle: IsValid
+articleTitle: IsValid
+second_title: Aspose.Words for .NET
+description: DigitalSignature IsValid mülk. İadelerdoğru bu dijital imza geçerliyse ve belgeye müdahale edilmemişse C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.digitalsignatures/digitalsignature/isvalid/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.digitalsignatures/digitalsignature/isvalid/
 public bool IsValid { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki her imza hakkındaki bilgilerin nasıl doğrulanacağını ve görüntüleneceğini gösterir.
 
@@ -36,7 +38,5 @@ foreach (DigitalSignature signature in doc.DigitalSignatures)
 ### Ayrıca bakınız
 
 * class [DigitalSignature](../)
-* ad alanı [Aspose.Words.DigitalSignatures](../../digitalsignature/)
+* ad alanı [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * toplantı [Aspose.Words](../../../)
-
-

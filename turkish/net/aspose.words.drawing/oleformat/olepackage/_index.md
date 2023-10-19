@@ -1,7 +1,9 @@
 ---
 title: OleFormat.OlePackage
-second_title: Aspose.Words for .NET API Referansı
-description: OleFormat mülk. Erişim sağlaOlePackage OLE nesnesi bir OLE Paketi ise. Döndürürhükümsüz aksi halde.
+linktitle: OlePackage
+articleTitle: OlePackage
+second_title: Aspose.Words for .NET
+description: OleFormat OlePackage mülk. Erişim sağlaOlePackage OLE nesnesi bir OLE Paketi ise. Döndürürhükümsüz aksi halde C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words.drawing/oleformat/olepackage/
@@ -14,11 +16,11 @@ Erişim sağla[`OlePackage`](../../olepackage/) OLE nesnesi bir OLE Paketi ise. 
 public OlePackage OlePackage { get; }
 ```
 
-### Notlar
+## Notlar
 
 OLE Paketi, bir Windows sisteminin OLE kayıt defterinde bulunmayan herhangi bir dosya biçiminin, bir belgeye neredeyse her şeyin gömülmesine olanak tanıyan genel bir pakete sarılmasına olanak tanıyan eski bir teknolojidir. Bkz.[`OlePackage`](../../olepackage/) daha fazla bilgi için yazın.
 
-### Örnekler
+## Örnekler
 
 Bir OLE nesnesinin belgeye nasıl eklendiğini gösterir.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "Shape.InsertOlePackage.docx");
 
 * class [OlePackage](../../olepackage/)
 * class [OleFormat](../)
-* ad alanı [Aspose.Words.Drawing](../../oleformat/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

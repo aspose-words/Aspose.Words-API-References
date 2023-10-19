@@ -1,7 +1,9 @@
 ---
 title: VariableCollection.IndexOfKey
-second_title: Aspose.Words for .NET API Referansı
-description: VariableCollection yöntem. Koleksiyonda belirtilen belge değişkeninin sıfır tabanlı dizinini döndürür.
+linktitle: IndexOfKey
+articleTitle: IndexOfKey
+second_title: Aspose.Words for .NET
+description: VariableCollection IndexOfKey yöntem. Koleksiyonda belirtilen belge değişkeninin sıfır tabanlı dizinini döndürür C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words/variablecollection/indexofkey/
@@ -22,7 +24,7 @@ public int IndexOfKey(string name)
 
 Sıfır tabanlı endeks. Bulunamazsa negatif değer.
 
-### Örnekler
+## Örnekler
 
 Bir belgenin değişken koleksiyonuyla nasıl çalışılacağını gösterir.
 
@@ -89,7 +91,5 @@ Assert.That(variables, Is.Empty);
 ### Ayrıca bakınız
 
 * class [VariableCollection](../)
-* ad alanı [Aspose.Words](../../variablecollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

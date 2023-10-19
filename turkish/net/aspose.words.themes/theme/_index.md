@@ -1,7 +1,9 @@
 ---
-title: Class Theme
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Themes.Theme sınıf. Belge Temasını temsil eder ve aşağıdakiler dahil ana tema parçalarına erişim sağlarMajorFonts MinorFonts VeColors
+title: Theme Class
+linktitle: Theme
+articleTitle: Theme
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Themes.Theme sınıf. Belge Temasını temsil eder ve aşağıdakiler dahil ana tema parçalarına erişim sağlarMajorFonts MinorFonts VeColors C#'da.
 type: docs
 weight: 6460
 url: /tr/net/aspose.words.themes/theme/
@@ -30,7 +32,7 @@ public class Theme
 | [MajorFonts](../../aspose.words.themes/theme/majorfonts/) { get; } | Farklı diller için ana yazı tiplerini belirlemeye olanak tanır. |
 | [MinorFonts](../../aspose.words.themes/theme/minorfonts/) { get; } | Farklı diller için ikincil yazı tipleri kümesini belirlemeye olanak tanır. |
 
-### Örnekler
+## Örnekler
 
 Temalar için özel renklerin ve yazı tiplerinin nasıl ayarlanacağını gösterir.
 
@@ -79,5 +81,3 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 
 * ad alanı [Aspose.Words.Themes](../../aspose.words.themes/)
 * toplantı [Aspose.Words](../../)
-
-

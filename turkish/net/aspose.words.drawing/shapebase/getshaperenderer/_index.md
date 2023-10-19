@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.GetShapeRenderer
-second_title: Aspose.Words for .NET API Referansı
-description: ShapeBase yöntem. Bu şekli bir görüntüye dönüştürmek için kullanılabilecek bir nesne oluşturur ve döndürür.
+linktitle: GetShapeRenderer
+articleTitle: GetShapeRenderer
+second_title: Aspose.Words for .NET
+description: ShapeBase GetShapeRenderer yöntem. Bu şekli bir görüntüye dönüştürmek için kullanılabilecek bir nesne oluşturur ve döndürür C#'da.
 type: docs
 weight: 660
 url: /tr/net/aspose.words.drawing/shapebase/getshaperenderer/
@@ -18,11 +20,11 @@ public ShapeRenderer GetShapeRenderer()
 
 Bu şeklin oluşturucu nesnesi.
 
-### Notlar
+## Notlar
 
 Bu yöntem sadece şunu çağırır:[`ShapeRenderer`](../../../aspose.words.rendering/shaperenderer/) yapıcı ve bu nesneyi parametre olarak iletir.
 
-### Örnekler
+## Örnekler
 
 Şekilleri yerel dosya sistemindeki dosyalara aktarmak için şekil oluşturucunun nasıl kullanılacağını gösterir.
 
@@ -48,7 +50,5 @@ foreach (Shape shape in doc.GetChildNodes(NodeType.Shape, true).OfType<Shape>())
 
 * class [ShapeRenderer](../../../aspose.words.rendering/shaperenderer/)
 * class [ShapeBase](../)
-* ad alanı [Aspose.Words.Drawing](../../shapebase/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

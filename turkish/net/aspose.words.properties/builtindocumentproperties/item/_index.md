@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Item
-second_title: Aspose.Words for .NET API Referansı
-description: BuiltInDocumentProperties mülk. Bir değeri döndürürDocumentProperty özelliğin adına göre nesne.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words for .NET
+description: BuiltInDocumentProperties Item mülk. Bir değeri döndürürDocumentProperty özelliğin adına göre nesne C#'da.
 type: docs
 weight: 130
 url: /tr/net/aspose.words.properties/builtindocumentproperties/item/
@@ -18,7 +20,7 @@ public override DocumentProperty this[string name] { get; }
 | --- | --- |
 | name | Alınacak özelliğin büyük/küçük harfe duyarlı olmayan adı. |
 
-### Notlar
+## Notlar
 
 Özelliklerin dize adları, şurada mevcut olan typed özelliklerinin adlarına karşılık gelir.[`BuiltInDocumentProperties`](../).
 
@@ -26,7 +28,7 @@ Belgede bulunmayan bir özellik talep ederseniz ancak özelliğin name değeri g
 
 Belgede bulunmayan bir özellik talep ederseniz ve name yerleşik ad olarak tanınmıyorsa,`hükümsüz` Geri döndü.
 
-### Örnekler
+## Örnekler
 
 Özel belge özellikleriyle nasıl çalışılacağını gösterir.
 
@@ -52,7 +54,5 @@ foreach (var customDocumentProperty in doc.CustomDocumentProperties)
 
 * class [DocumentProperty](../../documentproperty/)
 * class [BuiltInDocumentProperties](../)
-* ad alanı [Aspose.Words.Properties](../../builtindocumentproperties/)
+* ad alanı [Aspose.Words.Properties](../../../aspose.words.properties/)
 * toplantı [Aspose.Words](../../../)
-
-

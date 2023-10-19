@@ -1,7 +1,9 @@
 ---
 title: BaseWebExtensionCollection1.Count
-second_title: Aspose.Words for .NET API Referansı
-description: BaseWebExtensionCollection mülk. Koleksiyonda yer alan öğelerin sayısını alır.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words for .NET
+description: BaseWebExtensionCollection Count mülk. Koleksiyonda yer alan öğelerin sayısını alır C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.webextensions/basewebextensioncollection-1/count/
@@ -14,7 +16,7 @@ Koleksiyonda yer alan öğelerin sayısını alır.
 public int Count { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgenin web uzantıları koleksiyonuyla nasıl çalışılacağını gösterir.
 
@@ -43,7 +45,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### Ayrıca bakınız
 
 * class [BaseWebExtensionCollection&lt;T&gt;](../)
-* ad alanı [Aspose.Words.WebExtensions](../../basewebextensioncollection-1/)
+* ad alanı [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * toplantı [Aspose.Words](../../../)
-
-

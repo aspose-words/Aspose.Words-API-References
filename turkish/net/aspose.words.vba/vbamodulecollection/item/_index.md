@@ -1,7 +1,9 @@
 ---
 title: VbaModuleCollection.Item
-second_title: Aspose.Words for .NET API Referansı
-description: VbaModuleCollection mülk. Bir öğeyi alırVbaModule indekse göre nesne.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words for .NET
+description: VbaModuleCollection Item mülk. Bir öğeyi alırVbaModule indekse göre nesne C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.vba/vbamodulecollection/item/
@@ -18,7 +20,7 @@ public VbaModule this[int index] { get; }
 | --- | --- |
 | index | Alınacak modülün sıfır tabanlı dizini. |
 
-### Örnekler
+## Örnekler
 
 Bir belgenin VBA proje bilgilerine nasıl erişileceğini gösterir.
 
@@ -50,7 +52,7 @@ vbaModules.Remove(vbaModules[2]);
 
 * class [VbaModule](../../vbamodule/)
 * class [VbaModuleCollection](../)
-* ad alanı [Aspose.Words.Vba](../../vbamodulecollection/)
+* ad alanı [Aspose.Words.Vba](../../../aspose.words.vba/)
 * toplantı [Aspose.Words](../../../)
 
 ---
@@ -63,7 +65,7 @@ Bir öğeyi alır[`VbaModule`](../../vbamodule/) ada göre nesne veya bulunamazs
 public VbaModule this[string name] { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgenin VBA proje bilgilerine nasıl erişileceğini gösterir.
 
@@ -95,7 +97,5 @@ vbaModules.Remove(vbaModules[2]);
 
 * class [VbaModule](../../vbamodule/)
 * class [VbaModuleCollection](../)
-* ad alanı [Aspose.Words.Vba](../../vbamodulecollection/)
+* ad alanı [Aspose.Words.Vba](../../../aspose.words.vba/)
 * toplantı [Aspose.Words](../../../)
-
-

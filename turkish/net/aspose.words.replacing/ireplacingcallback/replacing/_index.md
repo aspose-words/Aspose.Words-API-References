@@ -1,7 +1,9 @@
 ---
 title: IReplacingCallback.Replacing
-second_title: Aspose.Words for .NET API Referansı
-description: IReplacingCallback yöntem. Değiştirme işlemi sırasında değiştirme yapılmadan hemen önce bulunan her eşleşme için çağrılan kullanıcı tanımlı bir yöntem.
+linktitle: Replacing
+articleTitle: Replacing
+second_title: Aspose.Words for .NET
+description: IReplacingCallback Replacing yöntem. Değiştirme işlemi sırasında değiştirme yapılmadan hemen önce bulunan her eşleşme için çağrılan kullanıcı tanımlı bir yöntem C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.replacing/ireplacingcallback/replacing/
@@ -18,7 +20,7 @@ public ReplaceAction Replacing(ReplacingArgs args)
 
 A[`ReplaceAction`](../../replaceaction/) mevcut eşleşme için gerçekleştirilecek eylemi belirten değer.
 
-### Örnekler
+## Örnekler
 
 Tüm bu değiştirmeleri izlerken, düzenli ifade modelinin tüm oluşumlarının başka bir dizeyle nasıl değiştirileceğini gösterir.
 
@@ -145,7 +147,5 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
 * enum [ReplaceAction](../../replaceaction/)
 * class [ReplacingArgs](../../replacingargs/)
 * interface [IReplacingCallback](../)
-* ad alanı [Aspose.Words.Replacing](../../ireplacingcallback/)
+* ad alanı [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * toplantı [Aspose.Words](../../../)
-
-

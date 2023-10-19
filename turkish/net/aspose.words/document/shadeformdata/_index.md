@@ -1,7 +1,9 @@
 ---
 title: Document.ShadeFormData
-second_title: Aspose.Words for .NET API Referansı
-description: Document mülk. Form alanlarında gri gölgelemenin açılıp açılmayacağını belirtir.
+linktitle: ShadeFormData
+articleTitle: ShadeFormData
+second_title: Aspose.Words for .NET
+description: Document ShadeFormData mülk. Form alanlarında gri gölgelemenin açılıp açılmayacağını belirtir C#'da.
 type: docs
 weight: 380
 url: /tr/net/aspose.words/document/shadeformdata/
@@ -14,7 +16,7 @@ Form alanlarında gri gölgelemenin açılıp açılmayacağını belirtir.
 public bool ShadeFormData { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Form alanlarına gri gölgelemenin nasıl uygulanacağını gösterir.
 
@@ -33,7 +35,5 @@ doc.Save(ArtifactsDir + "Document.ShadeFormData.docx");
 ### Ayrıca bakınız
 
 * class [Document](../)
-* ad alanı [Aspose.Words](../../document/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

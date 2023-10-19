@@ -1,7 +1,9 @@
 ---
 title: TableStyle.TopPadding
-second_title: Aspose.Words for .NET API Referansı
-description: TableStyle mülk. Tablo hücrelerinin içeriğinin üzerine eklenecek alan miktarını puan cinsinden alır veya ayarlar.
+linktitle: TopPadding
+articleTitle: TopPadding
+second_title: Aspose.Words for .NET
+description: TableStyle TopPadding mülk. Tablo hücrelerinin içeriğinin üzerine eklenecek alan miktarını puan cinsinden alır veya ayarlar C#'da.
 type: docs
 weight: 140
 url: /tr/net/aspose.words/tablestyle/toppadding/
@@ -14,7 +16,7 @@ Tablo hücrelerinin içeriğinin üzerine eklenecek alan miktarını (puan cinsi
 public double TopPadding { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Tablo için özel stil ayarlarının nasıl oluşturulacağını gösterir.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "Table.TableStyleCreation.docx");
 ### Ayrıca bakınız
 
 * class [TableStyle](../)
-* ad alanı [Aspose.Words](../../tablestyle/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: RtfSaveOptions.SaveImagesAsWmf
-second_title: Aspose.Words for .NET API Referansı
-description: RtfSaveOptions mülk. Ne zamandoğru tüm resimler WMF. olarak kaydedilecek
+linktitle: SaveImagesAsWmf
+articleTitle: SaveImagesAsWmf
+second_title: Aspose.Words for .NET
+description: RtfSaveOptions SaveImagesAsWmf mülk. Ne zamandoğru tüm resimler WMF. olarak kaydedilecek C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.saving/rtfsaveoptions/saveimagesaswmf/
@@ -14,11 +16,11 @@ Ne zaman`doğru` tüm resimler WMF. olarak kaydedilecek
 public bool SaveImagesAsWmf { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu seçenek WordPad uyarı mesajlarının engellenmesine yardımcı olabilir.
 
-### Örnekler
+## Örnekler
 
 Belgeyi RTF olarak kaydettiğimizde, belgedeki tüm görüntülerin Windows Meta Dosyası biçimine nasıl dönüştürüleceğini gösterir.
 
@@ -67,7 +69,5 @@ else
 ### Ayrıca bakınız
 
 * class [RtfSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../rtfsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

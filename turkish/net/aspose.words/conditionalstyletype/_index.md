@@ -1,7 +1,9 @@
 ---
-title: Enum ConditionalStyleType
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.ConditionalStyleType Sıralama. Bir tablo stilinde koşullu biçimlendirmenin tanımlanabileceği olası tablo alanlarını temsil eder.
+title: ConditionalStyleType Enum
+linktitle: ConditionalStyleType
+articleTitle: ConditionalStyleType
+second_title: Aspose.Words for .NET
+description: Aspose.Words.ConditionalStyleType Sıralama. Bir tablo stilinde koşullu biçimlendirmenin tanımlanabileceği olası tablo alanlarını temsil eder C#'da.
 type: docs
 weight: 330
 url: /tr/net/aspose.words/conditionalstyletype/
@@ -31,7 +33,7 @@ public enum ConditionalStyleType
 | BottomLeftCell | `10` | Bir tablonun sol alt hücresinin formatını belirtir. |
 | BottomRightCell | `11` | Bir tablonun sağ alt hücresinin formatını belirtir. |
 
-### Örnekler
+## Örnekler
 
 Bir tablonun belirli alan stilleriyle nasıl çalışılacağını gösterir.
 
@@ -102,5 +104,3 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

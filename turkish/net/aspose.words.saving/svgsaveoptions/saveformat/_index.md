@@ -1,7 +1,9 @@
 ---
 title: SvgSaveOptions.SaveFormat
-second_title: Aspose.Words for .NET API Referansı
-description: SvgSaveOptions mülk. Bu kaydetme seçenekleri nesnesi kullanılırsa belgenin kaydedileceği biçimi belirtir. YalnızcaSvg .
+linktitle: SaveFormat
+articleTitle: SaveFormat
+second_title: Aspose.Words for .NET
+description: SvgSaveOptions SaveFormat mülk. Bu kaydetme seçenekleri nesnesi kullanılırsa belgenin kaydedileceği biçimi belirtir. YalnızcaSvg  C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.saving/svgsaveoptions/saveformat/
@@ -14,7 +16,7 @@ Bu kaydetme seçenekleri nesnesi kullanılırsa belgenin kaydedileceği biçimi 
 public override SaveFormat SaveFormat { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi .svg'ye dönüştürürken oluşturulan bağlantılı kaynakların URI'lerinin nasıl değiştirileceğini ve yazdırılacağını gösterir.
 
@@ -58,7 +60,5 @@ private class ResourceUriPrinter : IResourceSavingCallback
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [SvgSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../svgsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

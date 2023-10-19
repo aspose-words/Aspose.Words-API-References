@@ -1,7 +1,9 @@
 ---
 title: FieldPrintDate.UseLunarCalendar
-second_title: Aspose.Words for .NET API Referansı
-description: FieldPrintDate mülk. Hicri Ay takviminin mi yoksa İbrani Ay takviminin mi kullanılacağını alır veya ayarlar.
+linktitle: UseLunarCalendar
+articleTitle: UseLunarCalendar
+second_title: Aspose.Words for .NET
+description: FieldPrintDate UseLunarCalendar mülk. Hicri Ay takviminin mi yoksa İbrani Ay takviminin mi kullanılacağını alır veya ayarlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fieldprintdate/uselunarcalendar/
@@ -14,7 +16,7 @@ Hicri Ay takviminin mi yoksa İbrani Ay takviminin mi kullanılacağını alır 
 public bool UseLunarCalendar { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Okunan PRINTDATE alanlarını gösterir.
 
@@ -56,7 +58,5 @@ Assert.AreEqual(" PRINTDATE  \\s", field.GetFieldCode());
 ### Ayrıca bakınız
 
 * class [FieldPrintDate](../)
-* ad alanı [Aspose.Words.Fields](../../fieldprintdate/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

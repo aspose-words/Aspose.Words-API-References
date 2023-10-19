@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.CrossReferenceSeparator
-second_title: Aspose.Words for .NET API Referansı
-description: FieldIndex mülk. Çapraz referansları ve diğer girişleri ayırmak için kullanılan karakter dizisini alır veya ayarlar.
+linktitle: CrossReferenceSeparator
+articleTitle: CrossReferenceSeparator
+second_title: Aspose.Words for .NET
+description: FieldIndex CrossReferenceSeparator mülk. Çapraz referansları ve diğer girişleri ayırmak için kullanılan karakter dizisini alır veya ayarlar C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fields/fieldindex/crossreferenceseparator/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.fields/fieldindex/crossreferenceseparator/
 public string CrossReferenceSeparator { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir INDEX alanında çapraz referansların nasıl tanımlanacağını gösterir.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.CrossReferenceSeparator.docx");
 ### Ayrıca bakınız
 
 * class [FieldIndex](../)
-* ad alanı [Aspose.Words.Fields](../../fieldindex/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

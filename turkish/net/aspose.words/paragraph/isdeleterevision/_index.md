@@ -1,7 +1,9 @@
 ---
 title: Paragraph.IsDeleteRevision
-second_title: Aspose.Words for .NET API Referansı
-description: Paragraph mülk. Değişiklik izleme etkinken bu nesne Microsoft Wordde silinmişse true değerini döndürür.
+linktitle: IsDeleteRevision
+articleTitle: IsDeleteRevision
+second_title: Aspose.Words for .NET
+description: Paragraph IsDeleteRevision mülk. Değişiklik izleme etkinken bu nesne Microsoft Wordde silinmişse true değerini döndürür C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words/paragraph/isdeleterevision/
@@ -14,7 +16,7 @@ Değişiklik izleme etkinken bu nesne Microsoft Word'de silinmişse true değeri
 public bool IsDeleteRevision { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Revizyon paragraflarıyla nasıl çalışılacağını gösterir.
 
@@ -63,7 +65,5 @@ Assert.AreEqual(
 ### Ayrıca bakınız
 
 * class [Paragraph](../)
-* ad alanı [Aspose.Words](../../paragraph/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: FieldDdeAuto.FieldDdeAuto
-second_title: Aspose.Words for .NET API Referansı
-description: FieldDdeAuto inşaatçı. Default_Constructor
+title: FieldDdeAuto
+linktitle: FieldDdeAuto
+articleTitle: FieldDdeAuto
+second_title: Aspose.Words for .NET
+description: FieldDdeAuto inşaatçı. Default_Constructor C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fieldddeauto/fieldddeauto/
@@ -17,7 +19,5 @@ public FieldDdeAuto()
 ### Ayrıca bakınız
 
 * class [FieldDdeAuto](../)
-* ad alanı [Aspose.Words.Fields](../../fieldddeauto/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

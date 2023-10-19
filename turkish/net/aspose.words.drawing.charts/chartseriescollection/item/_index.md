@@ -1,7 +1,9 @@
 ---
 title: ChartSeriesCollection.Item
-second_title: Aspose.Words for .NET API Referansı
-description: ChartSeriesCollection mülk. Bir değeri döndürürChartSeries belirtilen dizinde.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words for .NET
+description: ChartSeriesCollection Item mülk. Bir değeri döndürürChartSeries belirtilen dizinde C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.drawing.charts/chartseriescollection/item/
@@ -18,7 +20,7 @@ public ChartSeries this[int index] { get; }
 | --- | --- |
 | index | Koleksiyona bir dizin. |
 
-### Notlar
+## Notlar
 
 Endeks sıfır bazlıdır.
 
@@ -28,7 +30,7 @@ Dizin listedeki öğe sayısından büyük veya ona eşitse bu, boş bir başvur
 
 Dizin negatifse ve mutlak değeri listedeki öğe sayısından büyükse bu, boş bir başvuru döndürür.
 
-### Örnekler
+## Örnekler
 
 Bir grafiğe seri verilerinin nasıl eklenip kaldırılacağını gösterir.
 
@@ -76,7 +78,5 @@ chartData.Clear();
 
 * class [ChartSeries](../../chartseries/)
 * class [ChartSeriesCollection](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartseriescollection/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

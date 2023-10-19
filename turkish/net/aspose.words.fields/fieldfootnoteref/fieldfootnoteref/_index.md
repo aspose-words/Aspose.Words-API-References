@@ -1,7 +1,9 @@
 ---
-title: FieldFootnoteRef.FieldFootnoteRef
-second_title: Aspose.Words for .NET API Referansı
-description: FieldFootnoteRef inşaatçı. Default_Constructor
+title: FieldFootnoteRef
+linktitle: FieldFootnoteRef
+articleTitle: FieldFootnoteRef
+second_title: Aspose.Words for .NET
+description: FieldFootnoteRef inşaatçı. Default_Constructor C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fieldfootnoteref/fieldfootnoteref/
@@ -17,7 +19,5 @@ public FieldFootnoteRef()
 ### Ayrıca bakınız
 
 * class [FieldFootnoteRef](../)
-* ad alanı [Aspose.Words.Fields](../../fieldfootnoteref/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

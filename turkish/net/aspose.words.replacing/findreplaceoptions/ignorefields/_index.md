@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.IgnoreFields
-second_title: Aspose.Words for .NET API Referansı
-description: FindReplaceOptions mülk. Alanların içindeki metnin yoksayılacağını belirten bir boole değeri alır veya ayarlar. Varsayılan değerYANLIŞ .
+linktitle: IgnoreFields
+articleTitle: IgnoreFields
+second_title: Aspose.Words for .NET
+description: FindReplaceOptions IgnoreFields mülk. Alanların içindeki metnin yoksayılacağını belirten bir boole değeri alır veya ayarlar. Varsayılan değerYANLIŞ  C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words.replacing/findreplaceoptions/ignorefields/
@@ -14,13 +16,13 @@ Alanların içindeki metnin yoksayılacağını belirten bir boole değeri alır
 public bool IgnoreFields { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu seçenek tüm alanı etkiler ( arasındaki tüm düğümler)FieldStart VeFieldEnd).
 
 Yalnızca alan kodlarını yok saymak için lütfen ilgili seçeneği kullanın[`IgnoreFieldCodes`](../ignorefieldcodes/).
 
-### Örnekler
+## Örnekler
 
 Alanların içindeki metnin nasıl yok sayılacağını gösterir.
 
@@ -51,7 +53,5 @@ Assert.AreEqual(
 ### Ayrıca bakınız
 
 * class [FindReplaceOptions](../)
-* ad alanı [Aspose.Words.Replacing](../../findreplaceoptions/)
+* ad alanı [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * toplantı [Aspose.Words](../../../)
-
-

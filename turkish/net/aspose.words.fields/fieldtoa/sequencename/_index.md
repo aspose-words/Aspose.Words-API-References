@@ -1,7 +1,9 @@
 ---
 title: FieldToa.SequenceName
-second_title: Aspose.Words for .NET API Referansı
-description: FieldToa mülk. Numarası sayfa numarasına dahil edilen bir dizinin adını alır veya ayarlar.
+linktitle: SequenceName
+articleTitle: SequenceName
+second_title: Aspose.Words for .NET
+description: FieldToa SequenceName mülk. Numarası sayfa numarasına dahil edilen bir dizinin adını alır veya ayarlar C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words.fields/fieldtoa/sequencename/
@@ -14,7 +16,7 @@ Numarası sayfa numarasına dahil edilen bir dizinin adını alır veya ayarlar.
 public string SequenceName { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 TOA ve TA alanlarını kullanarak bir yetki tablosunun nasıl oluşturulacağını ve özelleştirileceğini gösterir.
 
@@ -137,7 +139,5 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 ### Ayrıca bakınız
 
 * class [FieldToa](../)
-* ad alanı [Aspose.Words.Fields](../../fieldtoa/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldCollection.RemoveAt
-second_title: Aspose.Words for .NET API Referansı
-description: FieldCollection yöntem. Belirtilen dizindeki bir alanı bu koleksiyondan ve belgeden kaldırır.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words for .NET
+description: FieldCollection RemoveAt yöntem. Belirtilen dizindeki bir alanı bu koleksiyondan ve belgeden kaldırır C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.fields/fieldcollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | Koleksiyona bir dizin. |
 
-### Örnekler
+## Örnekler
 
 Alan koleksiyonundan alanların nasıl kaldırılacağını gösterir.
 
@@ -60,7 +62,5 @@ Assert.AreEqual(0, fields.Count);
 ### Ayrıca bakınız
 
 * class [FieldCollection](../)
-* ad alanı [Aspose.Words.Fields](../../fieldcollection/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

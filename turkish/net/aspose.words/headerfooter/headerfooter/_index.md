@@ -1,7 +1,9 @@
 ---
-title: HeaderFooter.HeaderFooter
-second_title: Aspose.Words for .NET API Referansı
-description: HeaderFooter inşaatçı. Belirtilen türde yeni bir üst bilgi veya alt bilgi oluşturur.
+title: HeaderFooter
+linktitle: HeaderFooter
+articleTitle: HeaderFooter
+second_title: Aspose.Words for .NET
+description: HeaderFooter inşaatçı. Belirtilen türde yeni bir üst bilgi veya alt bilgi oluşturur C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/headerfooter/headerfooter/
@@ -19,13 +21,13 @@ public HeaderFooter(DocumentBase doc, HeaderFooterType headerFooterType)
 | doc | DocumentBase | Sahibi belgesi. |
 | headerFooterType | HeaderFooterType | A[`HeaderFooterType`](../headerfootertype/) üstbilgi veya altbilginin türünü belirten value . |
 
-### Notlar
+## Notlar
 
 Ne zaman[`HeaderFooter`](../) oluşturulduysa, belirtilen belgeye aittir ancak henüz değildir ve belgenin bir parçası değildir ve[`ParentNode`](../../node/parentnode/) dır-dir`hükümsüz`.
 
-Eklemek[`HeaderFooter`](../)bir[`Section`](../../section/) kullanmakNode) ,Node) , veya[`HeadersFooters`](../../section/headersfooters/) özellik ve yöntemler[`Add`](../../nodecollection/add/) ,[`Insert`](../../nodecollection/insert/).
+Eklemek[`HeaderFooter`](../)bir[`Section`](../../section/) kullanmak[`InsertAfter`](../../compositenode/insertafter/) ,[`InsertBefore`](../../compositenode/insertbefore/) , veya[`HeadersFooters`](../../section/headersfooters/) özellik ve yöntemler[`Add`](../../nodecollection/add/) ,[`Insert`](../../nodecollection/insert/).
 
-### Örnekler
+## Örnekler
 
 Üstbilgi ve altbilginin nasıl oluşturulacağını gösterir.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Create.docx");
 * class [DocumentBase](../../documentbase/)
 * enum [HeaderFooterType](../../headerfootertype/)
 * class [HeaderFooter](../)
-* ad alanı [Aspose.Words](../../headerfooter/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CustomPart.Name
-second_title: Aspose.Words for .NET API Referansı
-description: CustomPart mülk. Bu parçanın OOXML paketi veya hedef URL içindeki mutlak adını alır veya ayarlar.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words for .NET
+description: CustomPart Name mülk. Bu parçanın OOXML paketi veya hedef URL içindeki mutlak adını alır veya ayarlar C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.markup/custompart/name/
@@ -14,13 +16,13 @@ Bu parçanın OOXML paketi veya hedef URL içindeki mutlak adını alır veya ay
 public string Name { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 İlişki hedefi dahili ise bu özellik paket içindeki mutlak parça adıdır. İlişki hedefi harici ise bu özellik hedef URL'dir.
 
 Varsayılan değer boş bir dizedir. Geçerli bir değer boş olmayan bir dize olmalıdır.
 
-### Örnekler
+## Örnekler
 
 Bir belgenin rastgele özel parça koleksiyonuna nasıl erişileceğini gösterir.
 
@@ -64,7 +66,5 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 ### Ayrıca bakınız
 
 * class [CustomPart](../)
-* ad alanı [Aspose.Words.Markup](../../custompart/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

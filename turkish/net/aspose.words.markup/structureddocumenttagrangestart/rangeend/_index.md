@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.RangeEnd
-second_title: Aspose.Words for .NET API Referansı
-description: StructuredDocumentTagRangeStart mülk. Aşağıdaki durumlarda aralığın sonunu belirtirStructuredDocumentTag aralıklı yapılandırılmış bir belge etiketidir. Aksi halde şunu döndürürhükümsüz .
+linktitle: RangeEnd
+articleTitle: RangeEnd
+second_title: Aspose.Words for .NET
+description: StructuredDocumentTagRangeStart RangeEnd mülk. Aşağıdaki durumlarda aralığın sonunu belirtirStructuredDocumentTag aralıklı yapılandırılmış bir belge etiketidir. Aksi halde şunu döndürürhükümsüz  C#'da.
 type: docs
 weight: 130
 url: /tr/net/aspose.words.markup/structureddocumenttagrangestart/rangeend/
@@ -14,7 +16,7 @@ Aşağıdaki durumlarda aralığın sonunu belirtir:[`StructuredDocumentTag`](..
 public StructuredDocumentTagRangeEnd RangeEnd { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Çok bölümlü yapılandırılmış belge etiketlerinin özelliklerinin nasıl alınacağını gösterir.
 
@@ -50,7 +52,5 @@ Console.WriteLine($"\t|NodeType: {rangeEndTag.NodeType}");
 
 * class [StructuredDocumentTagRangeEnd](../../structureddocumenttagrangeend/)
 * class [StructuredDocumentTagRangeStart](../)
-* ad alanı [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

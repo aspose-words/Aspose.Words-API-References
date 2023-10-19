@@ -1,7 +1,9 @@
 ---
 title: FieldRef.InsertRelativePosition
-second_title: Aspose.Words for .NET API Referansı
-description: FieldRef mülk. Başvurulan paragrafın göreli konumunun eklenip eklenmeyeceğini alır veya ayarlar.
+linktitle: InsertRelativePosition
+articleTitle: InsertRelativePosition
+second_title: Aspose.Words for .NET
+description: FieldRef InsertRelativePosition mülk. Başvurulan paragrafın göreli konumunun eklenip eklenmeyeceğini alır veya ayarlar C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words.fields/fieldref/insertrelativeposition/
@@ -14,7 +16,7 @@ Başvurulan paragrafın göreli konumunun eklenip eklenmeyeceğini alır veya ay
 public bool InsertRelativePosition { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Referans yer imlerine REF alanlarının nasıl ekleneceğini gösterir.
 
@@ -104,7 +106,5 @@ private static FieldRef InsertFieldRef(DocumentBuilder builder, string bookmarkN
 ### Ayrıca bakınız
 
 * class [FieldRef](../)
-* ad alanı [Aspose.Words.Fields](../../fieldref/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

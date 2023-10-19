@@ -1,7 +1,9 @@
 ---
 title: Aspose.Words.Fields
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Fields ad alanı bir belgedeki Microsoft Word alanlarını temsil eden sınıflarını içerir.
+linktitle: Aspose.Words.Fields
+articleTitle: Aspose.Words.Fields
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Fields ad alanı bir belgedeki Microsoft Word alanlarını temsil eden sınıflarını içerir C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words.fields/
@@ -153,5 +155,3 @@ url: /tr/net/aspose.words.fields/
 | [GeneralFormat](./generalformat/) | Sayısal, metin veya herhangi bir alan sonucuna uygulanan genel formatı belirtir. Bir alan, genel formatların bir kombinasyonuna sahip olabilir. |
 | [MergeFieldImageDimensionUnit](./mergefieldimagedimensionunit/) | Adres-mektup birleştirme işleminde kullanılan görüntü boyutunun birimini (yani genişlik veya yükseklik) belirtir. |
 | [TextFormFieldType](./textformfieldtype/) | Metin formu alanının türünü belirtir. |
-
-

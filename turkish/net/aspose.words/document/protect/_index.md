@@ -1,12 +1,14 @@
 ---
 title: Document.Protect
-second_title: Aspose.Words for .NET API Referansı
-description: Document yöntem. Mevcut şifreyi değiştirmeden belgeyi değişikliklere karşı korur veya rastgele bir şifre atar.
+linktitle: Protect
+articleTitle: Protect
+second_title: Aspose.Words for .NET
+description: Document Protect yöntem. Mevcut şifreyi değiştirmeden belgeyi değişikliklere karşı korur veya rastgele bir şifre atar C#'da.
 type: docs
-weight: 670
+weight: 650
 url: /tr/net/aspose.words/document/protect/
 ---
-## Protect(ProtectionType) {#protect}
+## Protect(*[ProtectionType](../../protectiontype/)*) {#protect}
 
 Mevcut şifreyi değiştirmeden belgeyi değişikliklere karşı korur veya rastgele bir şifre atar.
 
@@ -18,7 +20,7 @@ public void Protect(ProtectionType type)
 | --- | --- | --- |
 | type | ProtectionType | Belgenin koruma türünü belirtir. |
 
-### Notlar
+## Notlar
 
 Bir belge korunduğunda, kullanıcı açıklama ekleme, düzeltme yapma veya form doldurma gibi yalnızca sınırlı değişiklikler yapabilir.
 
@@ -26,7 +28,7 @@ Bir belgeyi koruduğunuzda ve belgenin zaten bir koruma parolası varsa, mevcut 
 
 Bir belgeyi koruduğunuzda ve belgenin bir koruma parolası yoksa, bu yöntem, Microsoft Word'de belgenin korumasını kaldırmayı imkansız hale getiren rastgele bir parola atar, ancak yine de Aspose.Words'de belgenin korumasını kaldırabilirsiniz, çünkü böyle bir şey yoktur korumayı kaldırırken şifre gerektirir.
 
-### Örnekler
+## Örnekler
 
 Bir bölüm için korumanın nasıl kapatılacağını gösterir.
 
@@ -56,12 +58,12 @@ doc.Save(ArtifactsDir + "Section.Protect.docx");
 
 * enum [ProtectionType](../../protectiontype/)
 * class [Document](../)
-* ad alanı [Aspose.Words](../../document/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## Protect(ProtectionType, string) {#protect_1}
+## Protect(*[ProtectionType](../../protectiontype/), string*) {#protect_1}
 
 Belgeyi değişikliklere karşı korur ve isteğe bağlı olarak bir koruma parolası ayarlar.
 
@@ -74,13 +76,13 @@ public void Protect(ProtectionType type, string password)
 | type | ProtectionType | Belgenin koruma türünü belirtir. |
 | password | String | Belgeyi koruma parolası. Belirtin`hükümsüz`veya belgeyi parola olmadan korumak istiyorsanız boş dize. |
 
-### Notlar
+## Notlar
 
 Bir belge korunduğunda, kullanıcı açıklama ekleme, düzeltme yapma veya form doldurma gibi yalnızca sınırlı değişiklikler yapabilir.
 
 Belge korumasının yazma korumasından farklı olduğunu unutmayın. Yazma koruması,[`WriteProtection`](../writeprotection/).
 
-### Örnekler
+## Örnekler
 
 Bir belgenin nasıl korunacağını ve korumasının nasıl kaldırılacağını gösterir.
 
@@ -126,7 +128,5 @@ Assert.AreEqual(ProtectionType.NoProtection, doc.ProtectionType);
 
 * enum [ProtectionType](../../protectiontype/)
 * class [Document](../)
-* ad alanı [Aspose.Words](../../document/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldCitation.SuppressTitle
-second_title: Aspose.Words for .NET API Referansı
-description: FieldCitation mülk. Başlık bilgilerinin alıntıdan gizlenip gizlenmeyeceğini alır veya ayarlar.
+linktitle: SuppressTitle
+articleTitle: SuppressTitle
+second_title: Aspose.Words for .NET
+description: FieldCitation SuppressTitle mülk. Başlık bilgilerinin alıntıdan gizlenip gizlenmeyeceğini alır veya ayarlar C#'da.
 type: docs
 weight: 90
 url: /tr/net/aspose.words.fields/fieldcitation/suppresstitle/
@@ -14,7 +16,7 @@ Başlık bilgilerinin alıntıdan gizlenip gizlenmeyeceğini alır veya ayarlar.
 public bool SuppressTitle { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 CITATION ve KAYNAKÇA alanlarıyla nasıl çalışılacağını gösterir.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Field.CITATION.docx");
 ### Ayrıca bakınız
 
 * class [FieldCitation](../)
-* ad alanı [Aspose.Words.Fields](../../fieldcitation/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

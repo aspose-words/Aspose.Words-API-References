@@ -1,7 +1,9 @@
 ---
 title: Document.OriginalLoadFormat
-second_title: Aspose.Words for .NET API Referansı
-description: Document mülk. Bu nesneye yüklenen orijinal belgenin biçimini alır.
+linktitle: OriginalLoadFormat
+articleTitle: OriginalLoadFormat
+second_title: Aspose.Words for .NET
+description: Document OriginalLoadFormat mülk. Bu nesneye yüklenen orijinal belgenin biçimini alır C#'da.
 type: docs
 weight: 300
 url: /tr/net/aspose.words/document/originalloadformat/
@@ -14,11 +16,11 @@ Bu nesneye yüklenen orijinal belgenin biçimini alır.
 public LoadFormat OriginalLoadFormat { get; }
 ```
 
-### Notlar
+## Notlar
 
 Yeni bir boş belge oluşturduysanız,Doc değer.
 
-### Örnekler
+## Örnekler
 
 Bir belgenin yükleme işleminin ayrıntılarının nasıl alınacağını gösterir.
 
@@ -33,7 +35,5 @@ Assert.AreEqual(LoadFormat.Docx, doc.OriginalLoadFormat);
 
 * enum [LoadFormat](../../loadformat/)
 * class [Document](../)
-* ad alanı [Aspose.Words](../../document/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

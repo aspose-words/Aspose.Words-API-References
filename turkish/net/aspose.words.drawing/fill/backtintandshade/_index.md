@@ -1,7 +1,9 @@
 ---
 title: Fill.BackTintAndShade
-second_title: Aspose.Words for .NET API Referansı
-description: Fill mülk. Arka plan rengini açan veya koyulaştıran double değerini alır veya ayarlar.
+linktitle: BackTintAndShade
+articleTitle: BackTintAndShade
+second_title: Aspose.Words for .NET
+description: Fill BackTintAndShade mülk. Arka plan rengini açan veya koyulaştıran double değerini alır veya ayarlar C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.drawing/fill/backtintandshade/
@@ -14,11 +16,11 @@ Arka plan rengini açan veya koyulaştıran double değerini alır veya ayarlar.
 public double BackTintAndShade { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özellik için izin verilen değerler -1 (en koyu) ila 1 (en açık) aralığındadır. Sıfır (0) nötrdür. Bu özelliği -1'den küçük veya 1 'den büyük bir değere ayarlamaya çalışmak şu sonuçlarla sonuçlanır:ArgumentOutOfRangeException.
 
-### Örnekler
+## Örnekler
 
 Ön plan/arka plan şekli rengi için tema renginin nasıl ayarlanacağını gösterir.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "Shape.FillThemeColor.docx");
 ### Ayrıca bakınız
 
 * class [Fill](../)
-* ad alanı [Aspose.Words.Drawing](../../fill/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

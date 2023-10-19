@@ -1,9 +1,11 @@
 ---
 title: Body.EnsureMinimum
-second_title: Aspose.Words for .NET API Referansı
-description: Body yöntem. Son alt öğe bir paragraf değilse boş bir paragraf oluşturur ve ekler.
+linktitle: EnsureMinimum
+articleTitle: EnsureMinimum
+second_title: Aspose.Words for .NET
+description: Body EnsureMinimum yöntem. Son alt öğe bir paragraf değilse boş bir paragraf oluşturur ve ekler C#'da.
 type: docs
-weight: 70
+weight: 50
 url: /tr/net/aspose.words/body/ensureminimum/
 ---
 ## Body.EnsureMinimum method
@@ -14,7 +16,7 @@ Son alt öğe bir paragraf değilse, boş bir paragraf oluşturur ve ekler.
 public void EnsureMinimum()
 ```
 
-### Örnekler
+## Örnekler
 
 Belgedeki tüm bölümlerdeki ana metni, bölümleri bırakarak temizler.
 
@@ -52,7 +54,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 ### Ayrıca bakınız
 
 * class [Body](../)
-* ad alanı [Aspose.Words](../../body/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

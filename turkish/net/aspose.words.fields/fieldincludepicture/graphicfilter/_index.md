@@ -1,7 +1,9 @@
 ---
 title: FieldIncludePicture.GraphicFilter
-second_title: Aspose.Words for .NET API Referansı
-description: FieldIncludePicture mülk. Eklenecek grafiğin formatına ilişkin filtrenin adını alır veya ayarlar.
+linktitle: GraphicFilter
+articleTitle: GraphicFilter
+second_title: Aspose.Words for .NET
+description: FieldIncludePicture GraphicFilter mülk. Eklenecek grafiğin formatına ilişkin filtrenin adını alır veya ayarlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fieldincludepicture/graphicfilter/
@@ -14,7 +16,7 @@ Eklenecek grafiğin formatına ilişkin filtrenin adını alır veya ayarlar.
 public string GraphicFilter { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 IMPORT ve INCLUDEPICTURE alanlarını kullanarak görüntülerin nasıl ekleneceğini gösterir.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Field.IMPORT.INCLUDEPICTURE.docx");
 ### Ayrıca bakınız
 
 * class [FieldIncludePicture](../)
-* ad alanı [Aspose.Words.Fields](../../fieldincludepicture/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

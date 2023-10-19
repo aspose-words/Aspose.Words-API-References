@@ -1,12 +1,14 @@
 ---
-title: PageSet.PageSet
-second_title: Aspose.Words for .NET API Referansı
-description: PageSet inşaatçı. Tam sayfa dizinine dayalı olarak tek sayfalık bir grup oluşturur.
+title: PageSet
+linktitle: PageSet
+articleTitle: PageSet
+second_title: Aspose.Words for .NET
+description: PageSet inşaatçı. Tam sayfa dizinine dayalı olarak tek sayfalık bir grup oluşturur C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.saving/pageset/pageset/
 ---
-## PageSet(int) {#constructor_1}
+## PageSet(*int*) {#constructor_1}
 
 Tam sayfa dizinine dayalı olarak tek sayfalık bir grup oluşturur.
 
@@ -18,19 +20,19 @@ public PageSet(int page)
 | --- | --- | --- |
 | page | Int32 | Sayfanın sıfır tabanlı dizini. |
 
-### Notlar
+## Notlar
 
 Belgede bulunmayan bir sayfayla karşılaşılırsa oluşturma sırasında bir istisna atılır. MaxValue belgedeki son sayfa anlamına gelir.
 
 ### Ayrıca bakınız
 
 * class [PageSet](../)
-* ad alanı [Aspose.Words.Saving](../../pageset/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## PageSet(params int[]) {#constructor_2}
+## PageSet(*params int[]*) {#constructor_2}
 
 Tam sayfa indekslerine dayalı bir sayfa seti oluşturur.
 
@@ -42,11 +44,11 @@ public PageSet(params int[] pages)
 | --- | --- | --- |
 | pages | Int32[] | Sıfır tabanlı sayfa dizinleri. |
 
-### Notlar
+## Notlar
 
 Belgede bulunmayan bir sayfayla karşılaşılırsa oluşturma sırasında bir istisna atılır. MaxValue belgedeki son sayfa anlamına gelir.
 
-### Örnekler
+## Örnekler
 
 Tam sayfa indekslerine göre sayfaların nasıl çıkarılacağını gösterir.
 
@@ -75,12 +77,12 @@ doc.Save(ArtifactsDir + "XpsSaveOptions.ExportExactPages.xps", xpsOptions);
 ### Ayrıca bakınız
 
 * class [PageSet](../)
-* ad alanı [Aspose.Words.Saving](../../pageset/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## PageSet(params PageRange[]) {#constructor}
+## PageSet(*params PageRange[]*) {#constructor}
 
 Aralıklara dayalı bir sayfa grubu oluşturur.
 
@@ -92,11 +94,11 @@ public PageSet(params PageRange[] ranges)
 | --- | --- | --- |
 | ranges | PageRange[] | Sayfa aralıkları dizisi. |
 
-### Notlar
+## Notlar
 
 Belgedeki son sayfadan sonra başlayan bir aralıkla karşılaşılırsa, oluşturma sırasında bir istisna atılır. Son sayfadan sonra biten tüm aralıklar belgeye sığacak şekilde kesilir.
 
-### Örnekler
+## Örnekler
 
 Tam sayfa aralıklarına göre sayfaların nasıl çıkarılacağını gösterir.
 
@@ -115,7 +117,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.ExportVariousPageRanges.tiff", imageOp
 
 * class [PageRange](../../pagerange/)
 * class [PageSet](../)
-* ad alanı [Aspose.Words.Saving](../../pageset/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

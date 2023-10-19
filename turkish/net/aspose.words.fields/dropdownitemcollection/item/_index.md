@@ -1,7 +1,9 @@
 ---
 title: DropDownItemCollection.Item
-second_title: Aspose.Words for .NET API Referansı
-description: DropDownItemCollection mülk. Belirtilen dizindeki öğeyi alır veya ayarlar.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words for .NET
+description: DropDownItemCollection Item mülk. Belirtilen dizindeki öğeyi alır veya ayarlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/dropdownitemcollection/item/
@@ -14,7 +16,7 @@ Belirtilen dizindeki öğeyi alır veya ayarlar.
 public string this[int index] { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Açılan kutu alanının nasıl ekleneceğini ve öğe koleksiyonundaki öğelerin nasıl düzenleneceğini gösterir.
 
@@ -68,7 +70,5 @@ dropDownItems.Clear();
 ### Ayrıca bakınız
 
 * class [DropDownItemCollection](../)
-* ad alanı [Aspose.Words.Fields](../../dropdownitemcollection/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

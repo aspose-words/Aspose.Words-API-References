@@ -1,7 +1,9 @@
 ---
 title: Paragraph.IsMoveFromRevision
-second_title: Aspose.Words for .NET API Referansı
-description: Paragraph mülk. İadelerdoğru değişiklik izleme etkinken bu nesne Microsoft Wordde taşındıysa silindiyse.
+linktitle: IsMoveFromRevision
+articleTitle: IsMoveFromRevision
+second_title: Aspose.Words for .NET
+description: Paragraph IsMoveFromRevision mülk. İadelerdoğru değişiklik izleme etkinken bu nesne Microsoft Wordde taşındıysa silindiyse C#'da.
 type: docs
 weight: 130
 url: /tr/net/aspose.words/paragraph/ismovefromrevision/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words/paragraph/ismovefromrevision/
 public bool IsMoveFromRevision { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir paragrafın taşıma düzeltmesi olup olmadığının nasıl kontrol edileceğini gösterir.
 
@@ -48,7 +50,5 @@ Assert.True(paragraphs[3].IsMoveToRevision);
 ### Ayrıca bakınız
 
 * class [Paragraph](../)
-* ad alanı [Aspose.Words](../../paragraph/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

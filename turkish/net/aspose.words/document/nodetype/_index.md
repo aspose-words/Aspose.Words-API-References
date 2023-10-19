@@ -1,7 +1,9 @@
 ---
 title: Document.NodeType
-second_title: Aspose.Words for .NET API Referansı
-description: Document mülk. İadelerDocument .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words for .NET
+description: Document NodeType mülk. İadelerDocument  C#'da.
 type: docs
 weight: 280
 url: /tr/net/aspose.words/document/nodetype/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words/document/nodetype/
 public override NodeType NodeType { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bileşik bir düğümün alt düğüm ağacında nasıl gezinileceğini gösterir.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../nodetype/)
 * class [Document](../)
-* ad alanı [Aspose.Words](../../document/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitSmartTagEnd
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentVisitor yöntem. Akıllı etiketin numaralandırılması sona erdiğinde çağrılır.
+linktitle: VisitSmartTagEnd
+articleTitle: VisitSmartTagEnd
+second_title: Aspose.Words for .NET
+description: DocumentVisitor VisitSmartTagEnd yöntem. Akıllı etiketin numaralandırılması sona erdiğinde çağrılır C#'da.
 type: docs
 weight: 410
 url: /tr/net/aspose.words/documentvisitor/visitsmarttagend/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitSmartTagEnd(SmartTag smartTag)
 
 A[`VisitorAction`](../../visitoraction/) numaralandırmaya nasıl devam edileceğini belirten değer.
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki her akıllı etiketin düğüm yapısının nasıl yazdırılacağını gösterir.
 
@@ -116,7 +118,5 @@ public class SmartTagStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [SmartTag](../../../aspose.words.markup/smarttag/)
 * class [DocumentVisitor](../)
-* ad alanı [Aspose.Words](../../documentvisitor/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

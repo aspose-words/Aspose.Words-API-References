@@ -1,7 +1,9 @@
 ---
 title: ViewOptions.DisplayBackgroundShape
-second_title: Aspose.Words for .NET API Referansı
-description: ViewOptions mülk. Yazdırma düzeni görünümünde arka plan şeklinin görüntülenmesini kontrol eder.
+linktitle: DisplayBackgroundShape
+articleTitle: DisplayBackgroundShape
+second_title: Aspose.Words for .NET
+description: ViewOptions DisplayBackgroundShape mülk. Yazdırma düzeni görünümünde arka plan şeklinin görüntülenmesini kontrol eder C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.settings/viewoptions/displaybackgroundshape/
@@ -14,7 +16,7 @@ Yazdırma düzeni görünümünde arka plan şeklinin görüntülenmesini kontro
 public bool DisplayBackgroundShape { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Görünüm seçeneklerinde belge arka plan resimlerinin nasıl gizleneceğini/görüntüleneceğini gösterir.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "ViewOptions.DisplayBackgroundShape.docx");
 ### Ayrıca bakınız
 
 * class [ViewOptions](../)
-* ad alanı [Aspose.Words.Settings](../../viewoptions/)
+* ad alanı [Aspose.Words.Settings](../../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../../)
-
-

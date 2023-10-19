@@ -1,7 +1,9 @@
 ---
 title: StreamFontSource.OpenFontDataStream
-second_title: Aspose.Words for .NET API Referansı
-description: StreamFontSource yöntem. Bu yöntem akışı isteğe bağlı olarak yazı tipi verileriyle açmalıdır.
+linktitle: OpenFontDataStream
+articleTitle: OpenFontDataStream
+second_title: Aspose.Words for .NET
+description: StreamFontSource OpenFontDataStream yöntem. Bu yöntem akışı isteğe bağlı olarak yazı tipi verileriyle açmalıdır C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fonts/streamfontsource/openfontdatastream/
@@ -18,11 +20,11 @@ public abstract Stream OpenFontDataStream()
 
 Yazı tipi veri akışı.
 
-### Notlar
+## Notlar
 
 Yayın okunduktan sonra kapatılacak. Açıkça kapatmanıza gerek yoktur.
 
-### Örnekler
+## Örnekler
 
 Akıştan yazı tiplerinin nasıl yükleneceğini gösterir.
 
@@ -56,7 +58,5 @@ private class StreamFontSourceFile : StreamFontSource
 ### Ayrıca bakınız
 
 * class [StreamFontSource](../)
-* ad alanı [Aspose.Words.Fonts](../../streamfontsource/)
+* ad alanı [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class PrinterSettingsContainer
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Rendering.PrinterSettingsContainer sınıf. Bazı parametreler için bir depolama alanını temsil ederPrinterSettings nesne.
+title: PrinterSettingsContainer Class
+linktitle: PrinterSettingsContainer
+articleTitle: PrinterSettingsContainer
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Rendering.PrinterSettingsContainer sınıf. Bazı parametreler için bir depolama alanını temsil ederPrinterSettings nesne C#'da.
 type: docs
 weight: 4580
 url: /tr/net/aspose.words.rendering/printersettingscontainer/
@@ -20,7 +22,7 @@ public class PrinterSettingsContainer
 
 | İsim | Tanım |
 | --- | --- |
-| [PrinterSettingsContainer](printersettingscontainer/)(PrinterSettings) | Şunun için bir kapsayıcı oluşturur:PrinterSettings . |
+| [PrinterSettingsContainer](printersettingscontainer/)(*PrinterSettings*) | Şunun için bir kapsayıcı oluşturur:PrinterSettings . |
 
 ## Özellikleri
 
@@ -30,11 +32,11 @@ public class PrinterSettingsContainer
 | [PaperSizes](../../aspose.words.rendering/printersettingscontainer/papersizes/) { get; } | Bkz.PaperSizes . |
 | [PaperSources](../../aspose.words.rendering/printersettingscontainer/papersources/) { get; } | Bkz.PaperSources . |
 
-### Notlar
+## Notlar
 
 Verilerine erişimPrinterSettings uzun zaman alır. `PrinterSettingsContainer` parametreleri önbelleğe alırPrinterSettings , böylece yazdırma daha hızlı çalışır.
 
-### Örnekler
+## Örnekler
 
 Yazıcınızın kağıt kaynaklarına ve boyutlarına nasıl erişeceğinizi ve bunları listeleyeceğinizi gösterir.
 
@@ -68,5 +70,3 @@ foreach (System.Drawing.Printing.PaperSize paperSize in container.PaperSizes)
 
 * ad alanı [Aspose.Words.Rendering](../../aspose.words.rendering/)
 * toplantı [Aspose.Words](../../)
-
-

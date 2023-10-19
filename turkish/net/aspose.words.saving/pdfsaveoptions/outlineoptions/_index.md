@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.OutlineOptions
-second_title: Aspose.Words for .NET API Referansı
-description: PdfSaveOptions mülk. Anahat seçeneklerini belirlemeye izin verir.
+linktitle: OutlineOptions
+articleTitle: OutlineOptions
+second_title: Aspose.Words for .NET
+description: PdfSaveOptions OutlineOptions mülk. Anahat seçeneklerini belirlemeye izin verir C#'da.
 type: docs
 weight: 240
 url: /tr/net/aspose.words.saving/pdfsaveoptions/outlineoptions/
@@ -14,7 +16,7 @@ Anahat seçeneklerini belirlemeye izin verir.
 public OutlineOptions OutlineOptions { get; }
 ```
 
-### Notlar
+## Notlar
 
 Ana hatlar başlıklardan ve yer imlerinden oluşturulabilir.
 
@@ -26,7 +28,7 @@ Yer imleri için anahat düzeyi, seçeneklerde tüm yer imleri için varsayılan
 
 Ayrıca ana hatlar aynı kullanılarak XPS formatına aktarılabilir.`OutlineOptions` sınıf.
 
-### Örnekler
+## Örnekler
 
 Kaydedilmiş bir PDF belgesinin ana hatlarında görünecek başlık düzeyinin nasıl sınırlanacağını gösterir.
 
@@ -107,7 +109,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.CreateMissingOutlineLevels.pdf", saveOpt
 
 * class [OutlineOptions](../../outlineoptions/)
 * class [PdfSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../pdfsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: VbaReference.Type
-second_title: Aspose.Words for .NET API Referansı
-description: VbaReference mülk. AlırVbaReferenceType referansın türünü belirten nesneVbaReference nesne temsil eder.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words for .NET
+description: VbaReference Type mülk. AlırVbaReferenceType referansın türünü belirten nesneVbaReference nesne temsil eder C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.vba/vbareference/type/
@@ -18,7 +20,5 @@ public abstract VbaReferenceType Type { get; }
 
 * enum [VbaReferenceType](../../vbareferencetype/)
 * class [VbaReference](../)
-* ad alanı [Aspose.Words.Vba](../../vbareference/)
+* ad alanı [Aspose.Words.Vba](../../../aspose.words.vba/)
 * toplantı [Aspose.Words](../../../)
-
-

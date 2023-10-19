@@ -1,7 +1,9 @@
 ---
-title: Class StyleCollection
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.StyleCollection sınıf. Bir koleksiyonStyle bir belgedeki hem yerleşik hem de kullanıcı tanımlı stilleri temsil eden nesneler.
+title: StyleCollection Class
+linktitle: StyleCollection
+articleTitle: StyleCollection
+second_title: Aspose.Words for .NET
+description: Aspose.Words.StyleCollection sınıf. Bir koleksiyonStyle bir belgedeki hem yerleşik hem de kullanıcı tanımlı stilleri temsil eden nesneler C#'da.
 type: docs
 weight: 6140
 url: /tr/net/aspose.words/stylecollection/
@@ -30,12 +32,12 @@ public class StyleCollection : IEnumerable<Style>
 
 | İsim | Tanım |
 | --- | --- |
-| [Add](../../aspose.words/stylecollection/add/)(StyleType, string) | Kullanıcı tanımlı yeni bir stil oluşturur ve onu koleksiyona ekler. |
-| [AddCopy](../../aspose.words/stylecollection/addcopy/)(Style) | Bu koleksiyona bir stil kopyalar. |
+| [Add](../../aspose.words/stylecollection/add/)(*[StyleType](../styletype/), string*) | Kullanıcı tanımlı yeni bir stil oluşturur ve onu koleksiyona ekler. |
+| [AddCopy](../../aspose.words/stylecollection/addcopy/)(*[Style](../style/)*) | Bu koleksiyona bir stil kopyalar. |
 | [ClearQuickStyleGallery](../../aspose.words/stylecollection/clearquickstylegallery/)() | Hızlı Stil Galerisi panelindeki tüm stilleri kaldırır. |
 | [GetEnumerator](../../aspose.words/stylecollection/getenumerator/)() | Stilleri adlarının alfabetik sırasına göre sıralayacak bir numaralandırıcı nesnesi alır. |
 
-### Örnekler
+## Örnekler
 
 Liste formatıyla paragraf stilinin nasıl oluşturulacağını ve kullanılacağını gösterir.
 
@@ -69,5 +71,3 @@ builder.Document.Save(ArtifactsDir + "Styles.ParagraphStyleBulletedList.docx");
 * class [Style](../style/)
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

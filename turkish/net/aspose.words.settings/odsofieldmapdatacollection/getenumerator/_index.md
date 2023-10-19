@@ -1,7 +1,9 @@
 ---
 title: OdsoFieldMapDataCollection.GetEnumerator
-second_title: Aspose.Words for .NET API Referansı
-description: OdsoFieldMapDataCollection yöntem. Koleksiyondaki tüm öğeler üzerinde yineleme yapmak için kullanılabilecek bir numaralandırıcı nesnesini döndürür.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words for .NET
+description: OdsoFieldMapDataCollection GetEnumerator yöntem. Koleksiyondaki tüm öğeler üzerinde yineleme yapmak için kullanılabilecek bir numaralandırıcı nesnesini döndürür C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.settings/odsofieldmapdatacollection/getenumerator/
@@ -14,7 +16,7 @@ Koleksiyondaki tüm öğeler üzerinde yineleme yapmak için kullanılabilecek b
 public IEnumerator<OdsoFieldMapData> GetEnumerator()
 ```
 
-### Örnekler
+## Örnekler
 
 Veri kaynağı sütunlarını birleştirme alanlarıyla eşleştiren veri koleksiyonuna nasıl erişileceğini gösterir.
 
@@ -58,7 +60,5 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * class [OdsoFieldMapData](../../odsofieldmapdata/)
 * class [OdsoFieldMapDataCollection](../)
-* ad alanı [Aspose.Words.Settings](../../odsofieldmapdatacollection/)
+* ad alanı [Aspose.Words.Settings](../../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../../)
-
-

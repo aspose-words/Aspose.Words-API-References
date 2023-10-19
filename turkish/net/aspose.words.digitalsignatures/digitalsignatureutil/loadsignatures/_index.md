@@ -1,12 +1,14 @@
 ---
 title: DigitalSignatureUtil.LoadSignatures
-second_title: Aspose.Words for .NET API Referansı
-description: DigitalSignatureUtil yöntem. Belgeden dijital imzaları yükler.
+linktitle: LoadSignatures
+articleTitle: LoadSignatures
+second_title: Aspose.Words for .NET
+description: DigitalSignatureUtil LoadSignatures yöntem. Belgeden dijital imzaları yükler C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.digitalsignatures/digitalsignatureutil/loadsignatures/
 ---
-## LoadSignatures(string) {#loadsignatures_1}
+## LoadSignatures(*string*) {#loadsignatures_1}
 
 Belgeden dijital imzaları yükler.
 
@@ -22,7 +24,7 @@ public static DigitalSignatureCollection LoadSignatures(string fileName)
 
 Dijital imzaların toplanması. Dosya imzalanmamışsa boş koleksiyonu döndürür.
 
-### Örnekler
+## Örnekler
 
 Dijital olarak imzalanmış bir belgeden imzaların nasıl yükleneceğini gösterir.
 
@@ -70,12 +72,12 @@ Assert.That(DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignature
 
 * class [DigitalSignatureCollection](../../digitalsignaturecollection/)
 * class [DigitalSignatureUtil](../)
-* ad alanı [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
+* ad alanı [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## LoadSignatures(Stream) {#loadsignatures}
+## LoadSignatures(*Stream*) {#loadsignatures}
 
 Belgeden dijital imzaları akışı kullanarak yükler.
 
@@ -91,7 +93,7 @@ public static DigitalSignatureCollection LoadSignatures(Stream stream)
 
 Dijital imzaların toplanması. Dosya imzalanmamışsa boş koleksiyonu döndürür.
 
-### Örnekler
+## Örnekler
 
 Dijital olarak imzalanmış bir belgeden imzaların nasıl yükleneceğini gösterir.
 
@@ -116,7 +118,5 @@ using (Stream stream = new FileStream(MyDir + "Digitally signed.docx", FileMode.
 
 * class [DigitalSignatureCollection](../../digitalsignaturecollection/)
 * class [DigitalSignatureUtil](../)
-* ad alanı [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
+* ad alanı [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * toplantı [Aspose.Words](../../../)
-
-

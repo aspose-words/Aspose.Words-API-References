@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPartCollection.Count
-second_title: Aspose.Words for .NET API Referansı
-description: CustomXmlPartCollection mülk. Koleksiyonda yer alan öğelerin sayısını alır.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words for .NET
+description: CustomXmlPartCollection Count mülk. Koleksiyonda yer alan öğelerin sayısını alır C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.markup/customxmlpartcollection/count/
@@ -14,7 +16,7 @@ Koleksiyonda yer alan öğelerin sayısını alır.
 public int Count { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Özel XML verileriyle yapılandırılmış bir belge etiketinin nasıl oluşturulacağını gösterir.
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 ### Ayrıca bakınız
 
 * class [CustomXmlPartCollection](../)
-* ad alanı [Aspose.Words.Markup](../../customxmlpartcollection/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

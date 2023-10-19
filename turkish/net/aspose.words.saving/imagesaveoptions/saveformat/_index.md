@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.SaveFormat
-second_title: Aspose.Words for .NET API Referansı
-description: ImageSaveOptions mülk. Bu kaydetme seçenekleri nesnesi kullanılırsa oluşturulan belge sayfalarının veya şekillerinin kaydedileceği biçimi belirtir. Raster olabilirTiff Png Bmp  Jpeg veya vektörEmf Eps  Svg .
+linktitle: SaveFormat
+articleTitle: SaveFormat
+second_title: Aspose.Words for .NET
+description: ImageSaveOptions SaveFormat mülk. Bu kaydetme seçenekleri nesnesi kullanılırsa oluşturulan belge sayfalarının veya şekillerinin kaydedileceği biçimi belirtir. Raster olabilirTiff Png Bmp  Jpeg veya vektörEmf Eps  Svg  C#'da.
 type: docs
 weight: 140
 url: /tr/net/aspose.words.saving/imagesaveoptions/saveformat/
@@ -14,13 +16,13 @@ Bu kaydetme seçenekleri nesnesi kullanılırsa, oluşturulan belge sayfaların�
 public override SaveFormat SaveFormat { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Diğer seçeneklerin sayısı seçilen formata bağlıdır.
 
 Ayrıca, hem aracılığıyla SVG'ye kaydetmek mümkündür[`ImageSaveOptions`](../) ve aracılığıyla[`SvgSaveOptions`](../../svgsaveoptions/).
 
-### Örnekler
+## Örnekler
 
 Aspose.Words bir belgeyi belgeye dönüştürürken görüntünün nasıl düzenleneceğini gösterir.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.EditImage.png", options);
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [ImageSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../imagesaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

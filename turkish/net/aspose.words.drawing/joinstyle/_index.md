@@ -1,7 +1,9 @@
 ---
-title: Enum JoinStyle
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.JoinStyle Sıralama. Satır birleştirme stili.
+title: JoinStyle Enum
+linktitle: JoinStyle
+articleTitle: JoinStyle
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.JoinStyle Sıralama. Satır birleştirme stili C#'da.
 type: docs
 weight: 1090
 url: /tr/net/aspose.words.drawing/joinstyle/
@@ -22,7 +24,7 @@ public enum JoinStyle
 | Miter | `1` | Kenarları birleşinceye kadar uzatın. |
 | Round | `2` | İki kenar arasına bir yay çizin. |
 
-### Örnekler
+## Örnekler
 
 Çeşitli şekiller oluşturmayı gösterir.
 
@@ -99,5 +101,3 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 * property [JoinStyle](../stroke/joinstyle/)
 * ad alanı [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../)
-
-

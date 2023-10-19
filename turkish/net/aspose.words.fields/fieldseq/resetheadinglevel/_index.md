@@ -1,7 +1,9 @@
 ---
 title: FieldSeq.ResetHeadingLevel
-second_title: Aspose.Words for .NET API Referansı
-description: FieldSeq mülk. Sıra numarasını sıfırlamak için başlık düzeyini temsil eden bir tam sayı alır veya ayarlar. Sayı yoksa 1 değerini döndürür.
+linktitle: ResetHeadingLevel
+articleTitle: ResetHeadingLevel
+second_title: Aspose.Words for .NET
+description: FieldSeq ResetHeadingLevel mülk. Sıra numarasını sıfırlamak için başlık düzeyini temsil eden bir tam sayı alır veya ayarlar. Sayı yoksa 1 değerini döndürür C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.fields/fieldseq/resetheadinglevel/
@@ -14,7 +16,7 @@ Sıra numarasını sıfırlamak için başlık düzeyini temsil eden bir tam say
 public string ResetHeadingLevel { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 SEQ alanlarını kullanarak numaralandırma oluşturmayı gösterir.
 
@@ -78,7 +80,5 @@ doc.Save(ArtifactsDir + "Field.SEQ.ResetNumbering.docx");
 ### Ayrıca bakınız
 
 * class [FieldSeq](../)
-* ad alanı [Aspose.Words.Fields](../../fieldseq/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

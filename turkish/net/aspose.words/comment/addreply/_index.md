@@ -1,9 +1,11 @@
 ---
 title: Comment.AddReply
-second_title: Aspose.Words for .NET API Referansı
-description: Comment yöntem. Bu yoruma bir yanıt ekler.
+linktitle: AddReply
+articleTitle: AddReply
+second_title: Aspose.Words for .NET
+description: Comment AddReply yöntem. Bu yoruma bir yanıt ekler C#'da.
 type: docs
-weight: 150
+weight: 120
 url: /tr/net/aspose.words/comment/addreply/
 ---
 ## Comment.AddReply method
@@ -25,11 +27,11 @@ public Comment AddReply(string author, string initial, DateTime dateTime, string
 
 Yaratılan[`Comment`](../) yanıt için düğüm.
 
-### Notlar
+## Notlar
 
 Mevcut MS Office sınırlamaları nedeniyle belgede yalnızca 1 düzeyde yanıta izin verilir. Bir tür istisnaInvalidOperationException bu yöntem mevcut Yanıt yorumunda olarak çağrılırsa tetiklenecektir.
 
-### Örnekler
+## Örnekler
 
 Bir belgeye nasıl yorum ekleneceğini ve ardından ona nasıl yanıt verileceğini gösterir.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "Comment.AddCommentWithReply.docx");
 ### Ayrıca bakınız
 
 * class [Comment](../)
-* ad alanı [Aspose.Words](../../comment/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

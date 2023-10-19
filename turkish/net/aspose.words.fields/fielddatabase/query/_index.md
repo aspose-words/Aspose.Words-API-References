@@ -1,7 +1,9 @@
 ---
 title: FieldDatabase.Query
-second_title: Aspose.Words for .NET API Referansı
-description: FieldDatabase mülk. Veritabanını sorgulayan bir dizi SQL talimatını alır veya ayarlar.
+linktitle: Query
+articleTitle: Query
+second_title: Aspose.Words for .NET
+description: FieldDatabase Query mülk. Veritabanını sorgulayan bir dizi SQL talimatını alır veya ayarlar C#'da.
 type: docs
 weight: 90
 url: /tr/net/aspose.words.fields/fielddatabase/query/
@@ -14,7 +16,7 @@ Veritabanını sorgulayan bir dizi SQL talimatını alır veya ayarlar.
 public string Query { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Veritabanından verinin nasıl çıkarılacağını ve bunun bir alan olarak belgeye nasıl ekleneceğini gösterir.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Field.DATABASE.docx");
 ### Ayrıca bakınız
 
 * class [FieldDatabase](../)
-* ad alanı [Aspose.Words.Fields](../../fielddatabase/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

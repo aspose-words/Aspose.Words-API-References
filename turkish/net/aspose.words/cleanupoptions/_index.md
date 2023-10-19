@@ -1,7 +1,9 @@
 ---
-title: Class CleanupOptions
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.CleanupOptions sınıf. Belge temizleme seçeneklerini belirlemeye izin verir.
+title: CleanupOptions Class
+linktitle: CleanupOptions
+articleTitle: CleanupOptions
+second_title: Aspose.Words for .NET
+description: Aspose.Words.CleanupOptions sınıf. Belge temizleme seçeneklerini belirlemeye izin verir C#'da.
 type: docs
 weight: 210
 url: /tr/net/aspose.words/cleanupoptions/
@@ -31,7 +33,7 @@ public class CleanupOptions
 | [UnusedLists](../../aspose.words/cleanupoptions/unusedlists/) { get; set; } | Kullanılmayan liste ve liste tanımlarının belgeden kaldırılıp kaldırılmayacağını belirtir. Varsayılan değer:`doğru` . |
 | [UnusedStyles](../../aspose.words/cleanupoptions/unusedstyles/) { get; set; } | Kullanılmayan stillerin belgeden kaldırılıp kaldırılmayacağını belirtir. Varsayılan değer:`doğru` . |
 
-### Örnekler
+## Örnekler
 
 Kullanılmayan tüm özel stillerin bir belgeden nasıl kaldırılacağını gösterir.
 
@@ -81,5 +83,3 @@ Assert.AreEqual(2, doc.Styles.Count);
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

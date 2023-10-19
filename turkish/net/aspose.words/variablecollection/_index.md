@@ -1,7 +1,9 @@
 ---
-title: Class VariableCollection
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.VariableCollection sınıf. Belge değişkenlerinden oluşan bir koleksiyon.
+title: VariableCollection Class
+linktitle: VariableCollection
+articleTitle: VariableCollection
+second_title: Aspose.Words for .NET
+description: Aspose.Words.VariableCollection sınıf. Belge değişkenlerinden oluşan bir koleksiyon C#'da.
 type: docs
 weight: 6530
 url: /tr/net/aspose.words/variablecollection/
@@ -27,21 +29,21 @@ public class VariableCollection : IEnumerable<KeyValuePair<string, string>>
 
 | İsim | Tanım |
 | --- | --- |
-| [Add](../../aspose.words/variablecollection/add/)(string, string) | Koleksiyona bir belge değişkeni ekler. |
+| [Add](../../aspose.words/variablecollection/add/)(*string, string*) | Koleksiyona bir belge değişkeni ekler. |
 | [Clear](../../aspose.words/variablecollection/clear/)() | Koleksiyondaki tüm öğeleri kaldırır. |
-| [Contains](../../aspose.words/variablecollection/contains/)(string) | Koleksiyonun verilen adda bir belge değişkeni içerip içermediğini belirler. |
+| [Contains](../../aspose.words/variablecollection/contains/)(*string*) | Koleksiyonun verilen adda bir belge değişkeni içerip içermediğini belirler. |
 | [GetEnumerator](../../aspose.words/variablecollection/getenumerator/)() | Koleksiyondaki tüm değişkenleri yinelemek için kullanılabilecek bir numaralandırıcı nesnesini döndürür. |
-| [IndexOfKey](../../aspose.words/variablecollection/indexofkey/)(string) | Koleksiyonda belirtilen belge değişkeninin sıfır tabanlı dizinini döndürür. |
-| [Remove](../../aspose.words/variablecollection/remove/)(string) | Koleksiyondan belirtilen ada sahip bir belge değişkenini kaldırır. |
-| [RemoveAt](../../aspose.words/variablecollection/removeat/)(int) | Belirtilen dizindeki bir belge değişkenini kaldırır. |
+| [IndexOfKey](../../aspose.words/variablecollection/indexofkey/)(*string*) | Koleksiyonda belirtilen belge değişkeninin sıfır tabanlı dizinini döndürür. |
+| [Remove](../../aspose.words/variablecollection/remove/)(*string*) | Koleksiyondan belirtilen ada sahip bir belge değişkenini kaldırır. |
+| [RemoveAt](../../aspose.words/variablecollection/removeat/)(*int*) | Belirtilen dizindeki bir belge değişkenini kaldırır. |
 
-### Notlar
+## Notlar
 
 Değişken adları ve değerleri dizelerdir.
 
 Değişken adları büyük/küçük harfe duyarlı değildir.
 
-### Örnekler
+## Örnekler
 
 Bir belgenin değişken koleksiyonuyla nasıl çalışılacağını gösterir.
 
@@ -109,5 +111,3 @@ Assert.That(variables, Is.Empty);
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

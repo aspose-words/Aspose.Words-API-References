@@ -1,7 +1,9 @@
 ---
 title: Cell.ParentRow
-second_title: Aspose.Words for .NET API Referansı
-description: Cell mülk. Hücrenin üst satırını döndürür.
+linktitle: ParentRow
+articleTitle: ParentRow
+second_title: Aspose.Words for .NET
+description: Cell ParentRow mülk. Hücrenin üst satırını döndürür C#'da.
 type: docs
 weight: 100
 url: /tr/net/aspose.words.tables/cell/parentrow/
@@ -14,11 +16,11 @@ Hücrenin üst satırını döndürür.
 public Row ParentRow { get; }
 ```
 
-### Notlar
+## Notlar
 
 EşittirFirstNonMarkupParentNode rol almak[`Row`](../../row/).
 
-### Örnekler
+## Örnekler
 
 Aynı sayfada bir arada kalacak bir tablonun nasıl ayarlanacağını gösterir.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Table.KeepTableTogether.docx");
 
 * class [Row](../../row/)
 * class [Cell](../)
-* ad alanı [Aspose.Words.Tables](../../cell/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

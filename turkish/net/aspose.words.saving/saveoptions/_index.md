@@ -1,7 +1,9 @@
 ---
-title: Class SaveOptions
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Saving.SaveOptions sınıf. Bu kullanıcının bir belgeyi belirli bir formatta kaydederken ek seçeneklerini belirlemesine olanak tanıyan sınıflara yönelik soyut bir temel sınıftır.
+title: SaveOptions Class
+linktitle: SaveOptions
+articleTitle: SaveOptions
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Saving.SaveOptions sınıf. Bu kullanıcının bir belgeyi belirli bir formatta kaydederken ek seçeneklerini belirlemesine olanak tanıyan sınıflara yönelik soyut bir temel sınıftır C#'da.
 type: docs
 weight: 5580
 url: /tr/net/aspose.words.saving/saveoptions/
@@ -22,7 +24,7 @@ public abstract class SaveOptions
 | --- | --- |
 | [AllowEmbeddingPostScriptFonts](../../aspose.words.saving/saveoptions/allowembeddingpostscriptfonts/) { get; set; } | Kaydedildikten sonra TrueType yazı tiplerini bir belgeye gömerken PostScript ana hatlarıyla yazı tiplerinin gömülmesine izin verilip verilmeyeceğini belirten bir boole değeri alır veya ayarlar. Varsayılan değer:`YANLIŞ` . |
 | [CustomTimeZoneInfo](../../aspose.words.saving/saveoptions/customtimezoneinfo/) { get; set; } | Tarih/saat alanları için kullanılan özel yerel saat dilimini alır veya ayarlar. |
-| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | Varsayılan şablonun yolunu alır veya ayarlar (dosya adı dahil). Bu özellik için varsayılan değer: **boş dize** (Empty). |
+| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | Varsayılan şablonun yolunu alır veya ayarlar (dosya adı dahil). Bu özellik için varsayılan değer:**boş dize** (Empty). |
 | [Dml3DEffectsRenderingMode](../../aspose.words.saving/saveoptions/dml3deffectsrenderingmode/) { get; set; } | 3B efektlerin nasıl oluşturulacağını belirleyen bir değer alır veya ayarlar. |
 | virtual [DmlEffectsRenderingMode](../../aspose.words.saving/saveoptions/dmleffectsrenderingmode/) { get; set; } | DrawingML efektlerinin nasıl oluşturulacağını belirleyen bir değer alır veya ayarlar. |
 | [DmlRenderingMode](../../aspose.words.saving/saveoptions/dmlrenderingmode/) { get; set; } | DrawingML şekillerinin nasıl oluşturulacağını belirleyen bir değer alır veya ayarlar. |
@@ -44,14 +46,14 @@ public abstract class SaveOptions
 
 | İsim | Tanım |
 | --- | --- |
-| static [CreateSaveOptions](../../aspose.words.saving/saveoptions/createsaveoptions/#createsaveoptions)(SaveFormat) | Belirtilen kaydetme biçimine uygun bir sınıfın kaydetme seçenekleri nesnesini oluşturur. |
-| static [CreateSaveOptions](../../aspose.words.saving/saveoptions/createsaveoptions/#createsaveoptions_1)(string) | Verilen dosya adında belirtilen dosya uzantısına uygun bir sınıfın kaydetme seçenekleri nesnesini oluşturur. |
+| static [CreateSaveOptions](../../aspose.words.saving/saveoptions/createsaveoptions/#createsaveoptions)(*[SaveFormat](../../aspose.words/saveformat/)*) | Belirtilen kaydetme biçimine uygun bir sınıfın kaydetme seçenekleri nesnesini oluşturur. |
+| static [CreateSaveOptions](../../aspose.words.saving/saveoptions/createsaveoptions/#createsaveoptions_1)(*string*) | Verilen dosya adında belirtilen dosya uzantısına uygun bir sınıfın kaydetme seçenekleri nesnesini oluşturur. |
 
-### Notlar
+## Notlar
 
 Bir örneği`SaveOptions` sınıf veya türetilmiş herhangi bir sınıf akışa aktarılır[`Save`](../../aspose.words/document/save/) veya dize[`Save`](../../aspose.words/document/save/) kullanıcının bir belgeyi kaydederken özel seçenekleri tanımlaması için aşırı yüklemeler.
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi .epub'a kaydederken belirli bir kodlamanın nasıl kullanılacağını gösterir.
 
@@ -79,5 +81,3 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions)
 
 * ad alanı [Aspose.Words.Saving](../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../)
-
-

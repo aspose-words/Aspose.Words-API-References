@@ -1,24 +1,26 @@
 ---
 title: ReplacingArgs.Match
-second_title: Aspose.Words for .NET API Referansı
-description: ReplacingArgs mülk. Match sırasında tek bir normal ifadesi eşleşmesinden kaynaklanır Yer değiştirmek .
+linktitle: Match
+articleTitle: Match
+second_title: Aspose.Words for .NET
+description: ReplacingArgs Match mülk. Match sırasında tek bir normal ifadesi eşleşmesinden kaynaklanırYer değiştirmek  C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.replacing/replacingargs/match/
 ---
 ## ReplacingArgs.Match property
 
-Match sırasında tek bir normal ifadesi eşleşmesinden kaynaklanır **Yer değiştirmek** .
+Match sırasında tek bir normal ifadesi eşleşmesinden kaynaklanır**Yer değiştirmek** .
 
 ```csharp
 public Match Match { get; }
 ```
 
-### Notlar
+## Notlar
 
 **Eşleşme Endeksi"** bulma ve değiştirme aralığının başlangıcından itibaren eşleşmenin sıfır tabanlı startup konumunu alır.
 
-### Örnekler
+## Örnekler
 
 FindReplaceOptions aracılığıyla yeni içeriğe farklı bir yazı tipinin nasıl uygulanacağını gösterir.
 
@@ -91,7 +93,5 @@ private class NumberHexer : IReplacingCallback
 ### Ayrıca bakınız
 
 * class [ReplacingArgs](../)
-* ad alanı [Aspose.Words.Replacing](../../replacingargs/)
+* ad alanı [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * toplantı [Aspose.Words](../../../)
-
-

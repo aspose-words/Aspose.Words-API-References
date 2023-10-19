@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.UseInvariantCultureNumberFormat
-second_title: Aspose.Words for .NET API Referansı
-description: FieldOptions mülk. Sayı biçiminin değişmez kültür veya not kullanılarak ayrıştırıldığını belirten değeri alır veya ayarlar.
+linktitle: UseInvariantCultureNumberFormat
+articleTitle: UseInvariantCultureNumberFormat
+second_title: Aspose.Words for .NET
+description: FieldOptions UseInvariantCultureNumberFormat mülk. Sayı biçiminin değişmez kültür veya not kullanılarak ayrıştırıldığını belirten değeri alır veya ayarlar C#'da.
 type: docs
 weight: 210
 url: /tr/net/aspose.words.fields/fieldoptions/useinvariantculturenumberformat/
@@ -14,7 +16,7 @@ Sayı biçiminin değişmez kültür veya not kullanılarak ayrıştırıldığ�
 public bool UseInvariantCultureNumberFormat { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özellik olarak ayarlandığında`doğru` , sayı formatı değişmez bir kültürden alınmıştır.
 
@@ -22,7 +24,7 @@ Bu özellik olarak ayarlandığında`YANLIŞ` , sayı biçimi geçerli ileti diz
 
 Varsayılan değer:`YANLIŞ`.
 
-### Örnekler
+## Örnekler
 
 Sayıların değişmez kültüre göre nasıl biçimlendirileceğini gösterir.
 
@@ -50,7 +52,5 @@ Assert.AreEqual("$1.234.567,89", field.Result);
 ### Ayrıca bakınız
 
 * class [FieldOptions](../)
-* ad alanı [Aspose.Words.Fields](../../fieldoptions/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

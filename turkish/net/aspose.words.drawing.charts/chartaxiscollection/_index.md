@@ -1,7 +1,9 @@
 ---
-title: Class ChartAxisCollection
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.Charts.ChartAxisCollection sınıf. Grafik eksenlerinin bir koleksiyonunu temsil eder.
+title: ChartAxisCollection Class
+linktitle: ChartAxisCollection
+articleTitle: ChartAxisCollection
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.Charts.ChartAxisCollection sınıf. Grafik eksenlerinin bir koleksiyonunu temsil eder C#'da.
 type: docs
 weight: 640
 url: /tr/net/aspose.words.drawing.charts/chartaxiscollection/
@@ -27,7 +29,7 @@ public class ChartAxisCollection : IEnumerable<ChartAxis>
 | --- | --- |
 | [GetEnumerator](../../aspose.words.drawing.charts/chartaxiscollection/getenumerator/)() | Bir numaralandırıcı nesnesini döndürür. |
 
-### Örnekler
+## Örnekler
 
 Eksen koleksiyonuyla nasıl çalışılacağını gösterir.
 
@@ -53,5 +55,3 @@ doc.Save(ArtifactsDir + "Charts.AxisCollection.docx");
 * class [ChartAxis](../chartaxis/)
 * ad alanı [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../)
-
-

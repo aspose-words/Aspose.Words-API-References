@@ -1,7 +1,9 @@
 ---
-title: Row.Row
-second_title: Aspose.Words for .NET API Referansı
-description: Row inşaatçı. Yeni bir örneğini başlatırRow class.
+title: Row
+linktitle: Row
+articleTitle: Row
+second_title: Aspose.Words for .NET
+description: Row inşaatçı. Yeni bir örneğini başlatırRow class C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.tables/row/row/
@@ -18,13 +20,13 @@ public Row(DocumentBase doc)
 | --- | --- | --- |
 | doc | DocumentBase | Sahibi belgesi. |
 
-### Notlar
+## Notlar
 
 Ne zaman[`Row`](../) oluşturulduysa, belirtilen belgeye aittir ancak henüz değildir ve belgenin bir parçası değildir ve[`ParentNode`](../../../aspose.words/node/parentnode/) dır-dir`hükümsüz`.
 
-Eklemek[`Row`](../) belge kullanımınaNode) veyaNode)Satırın eklenmesini istediğiniz tabloda .
+Eklemek[`Row`](../) belge kullanımına[`InsertAfter`](../../../aspose.words/compositenode/insertafter/) veya[`InsertBefore`](../../../aspose.words/compositenode/insertbefore/)Satırın eklenmesini istediğiniz tabloda .
 
-### Örnekler
+## Örnekler
 
 Belge oluşturucu kullanmadan iç içe tablonun nasıl oluşturulacağını gösterir.
 
@@ -81,7 +83,5 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
 
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * class [Row](../)
-* ad alanı [Aspose.Words.Tables](../../row/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

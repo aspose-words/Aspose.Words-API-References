@@ -1,7 +1,9 @@
 ---
-title: Enum ContinuousSectionRestart
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Layout.ContinuousSectionRestart Sıralama. Sayfa numaralandırmayı yeniden başlatan sürekli bir bölümde sayfa numaralarını hesaplarken farklı davranışları temsil eder.
+title: ContinuousSectionRestart Enum
+linktitle: ContinuousSectionRestart
+articleTitle: ContinuousSectionRestart
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Layout.ContinuousSectionRestart Sıralama. Sayfa numaralandırmayı yeniden başlatan sürekli bir bölümde sayfa numaralarını hesaplarken farklı davranışları temsil eder C#'da.
 type: docs
 weight: 3300
 url: /tr/net/aspose.words.layout/continuoussectionrestart/
@@ -21,7 +23,7 @@ public enum ContinuousSectionRestart
 | Always | `0` | Sayfa numaralandırma, içerik akışından bağımsız olarak her zaman yeniden başlar. |
 | FromNewPageOnly | `1` | Sayfa numaralandırma, yalnızca bölümün başladığı sayfada bölümden önce başka içerik bulunmadığında yeniden başlar. |
 
-### Örnekler
+## Örnekler
 
 Sürekli bir bölümde sayfa numaralandırmanın nasıl kontrol edileceğini gösterir.
 
@@ -42,5 +44,3 @@ doc.Save(ArtifactsDir + "Layout.RestartPageNumberingInContinuousSection.pdf");
 
 * ad alanı [Aspose.Words.Layout](../../aspose.words.layout/)
 * toplantı [Aspose.Words](../../)
-
-

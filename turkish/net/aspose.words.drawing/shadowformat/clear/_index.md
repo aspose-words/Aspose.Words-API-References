@@ -1,7 +1,9 @@
 ---
 title: ShadowFormat.Clear
-second_title: Aspose.Words for .NET API Referansı
-description: ShadowFormat yöntem. Gölge biçimini temizler.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words for .NET
+description: ShadowFormat Clear yöntem. Gölge biçimini temizler C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.drawing/shadowformat/clear/
@@ -14,7 +16,7 @@ Gölge biçimini temizler.
 public void Clear()
 ```
 
-### Örnekler
+## Örnekler
 
 Şeklin gölge formatıyla nasıl çalışılacağını gösterir.
 
@@ -32,7 +34,5 @@ if (shape.ShadowFormat.Type == ShadowType.ShadowMixed)
 ### Ayrıca bakınız
 
 * class [ShadowFormat](../)
-* ad alanı [Aspose.Words.Drawing](../../shadowformat/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

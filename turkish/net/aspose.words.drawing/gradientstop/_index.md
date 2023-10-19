@@ -1,7 +1,9 @@
 ---
-title: Class GradientStop
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.GradientStop sınıf. Bir degrade durağını temsil eder.
+title: GradientStop Class
+linktitle: GradientStop
+articleTitle: GradientStop
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.GradientStop sınıf. Bir degrade durağını temsil eder C#'da.
 type: docs
 weight: 980
 url: /tr/net/aspose.words.drawing/gradientstop/
@@ -20,8 +22,8 @@ public class GradientStop
 
 | İsim | Tanım |
 | --- | --- |
-| [GradientStop](gradientstop/#constructor)(Color, double) | Yeni bir örneğini başlatır`GradientStop` class. |
-| [GradientStop](gradientstop/#constructor_1)(Color, double, double) | Yeni bir örneğini başlatır`GradientStop` class. |
+| [GradientStop](gradientstop/#constructor)(*Color, double*) | Yeni bir örneğini başlatır`GradientStop` class. |
+| [GradientStop](gradientstop/#constructor_1)(*Color, double, double*) | Yeni bir örneğini başlatır`GradientStop` class. |
 
 ## Özellikleri
 
@@ -42,5 +44,3 @@ public class GradientStop
 
 * ad alanı [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../)
-
-

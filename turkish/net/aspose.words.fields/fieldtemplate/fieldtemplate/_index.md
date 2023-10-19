@@ -1,7 +1,9 @@
 ---
-title: FieldTemplate.FieldTemplate
-second_title: Aspose.Words for .NET API Referansı
-description: FieldTemplate inşaatçı. Default_Constructor
+title: FieldTemplate
+linktitle: FieldTemplate
+articleTitle: FieldTemplate
+second_title: Aspose.Words for .NET
+description: FieldTemplate inşaatçı. Default_Constructor C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fieldtemplate/fieldtemplate/
@@ -17,7 +19,5 @@ public FieldTemplate()
 ### Ayrıca bakınız
 
 * class [FieldTemplate](../)
-* ad alanı [Aspose.Words.Fields](../../fieldtemplate/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

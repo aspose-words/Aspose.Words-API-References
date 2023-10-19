@@ -1,7 +1,9 @@
 ---
 title: Style.IsQuickStyle
-second_title: Aspose.Words for .NET API Referansı
-description: Style mülk. Bu stilin MS Word kullanıcı arayüzündeki Hızlı Stil galerisinde gösterilip gösterilmeyeceğini belirtir.
+linktitle: IsQuickStyle
+articleTitle: IsQuickStyle
+second_title: Aspose.Words for .NET
+description: Style IsQuickStyle mülk. Bu stilin MS Word kullanıcı arayüzündeki Hızlı Stil galerisinde gösterilip gösterilmeyeceğini belirtir C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words/style/isquickstyle/
@@ -14,7 +16,7 @@ Bu stilin MS Word kullanıcı arayüzündeki Hızlı Stil galerisinde gösterili
 public bool IsQuickStyle { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgenin stil koleksiyonuna nasıl erişileceğini gösterir.
 
@@ -42,7 +44,5 @@ using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 ### Ayrıca bakınız
 
 * class [Style](../)
-* ad alanı [Aspose.Words](../../style/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

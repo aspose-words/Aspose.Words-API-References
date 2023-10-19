@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.DmlRenderingMode
-second_title: Aspose.Words for .NET API Referansı
-description: SaveOptions mülk. DrawingML şekillerinin nasıl oluşturulacağını belirleyen bir değer alır veya ayarlar.
+linktitle: DmlRenderingMode
+articleTitle: DmlRenderingMode
+second_title: Aspose.Words for .NET
+description: SaveOptions DmlRenderingMode mülk. DrawingML şekillerinin nasıl oluşturulacağını belirleyen bir değer alır veya ayarlar C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.saving/saveoptions/dmlrenderingmode/
@@ -14,13 +16,13 @@ DrawingML şekillerinin nasıl oluşturulacağını belirleyen bir değer alır 
 public DmlRenderingMode DmlRenderingMode { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:Fallback .
 
 Bu özellik, belge sabit sayfa formatlarına aktarıldığında kullanılır.
 
-### Örnekler
+## Örnekler
 
 PDF'ye kaydederken geri dönüş şekillerinin nasıl oluşturulacağını gösterir.
 
@@ -65,7 +67,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.DrawingMLEffects.pdf", options);
 
 * enum [DmlRenderingMode](../../dmlrenderingmode/)
 * class [SaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../saveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: Section.ClearHeadersFooters
-second_title: Aspose.Words for .NET API Referansı
-description: Section yöntem. Bu bölümün üstbilgilerini ve altbilgilerini temizler.
+linktitle: ClearHeadersFooters
+articleTitle: ClearHeadersFooters
+second_title: Aspose.Words for .NET
+description: Section ClearHeadersFooters yöntem. Bu bölümün üstbilgilerini ve altbilgilerini temizler C#'da.
 type: docs
-weight: 120
+weight: 100
 url: /tr/net/aspose.words/section/clearheadersfooters/
 ---
 ## Section.ClearHeadersFooters method
@@ -14,13 +16,13 @@ Bu bölümün üstbilgilerini ve altbilgilerini temizler.
 public void ClearHeadersFooters()
 ```
 
-### Notlar
+## Notlar
 
 Tüm üstbilgi ve altbilgilerin metni temizlenir, ancak[`HeaderFooter`](../../headerfooter/) nesnelerin kendisi kaldırılmaz.
 
 Bu, bu bölümün üstbilgilerini ve altbilgilerini önceki bölümün üstbilgilerine ve altbilgilerine bağlı hale getirir.
 
-### Örnekler
+## Örnekler
 
 Bir bölümdeki tüm üstbilgi ve altbilgilerin içeriğinin nasıl temizleneceğini gösterir.
 
@@ -54,7 +56,5 @@ Assert.AreEqual(string.Empty, doc.FirstSection.HeadersFooters[HeaderFooterType.F
 ### Ayrıca bakınız
 
 * class [Section](../)
-* ad alanı [Aspose.Words](../../section/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

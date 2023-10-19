@@ -1,7 +1,9 @@
 ---
 title: Shape.FillColor
-second_title: Aspose.Words for .NET API Referansı
-description: Shape mülk. Şeklin kapalı yolunu dolduran fırça rengini tanımlar.
+linktitle: FillColor
+articleTitle: FillColor
+second_title: Aspose.Words for .NET
+description: Shape FillColor mülk. Şeklin kapalı yolunu dolduran fırça rengini tanımlar C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.drawing/shape/fillcolor/
@@ -14,13 +16,13 @@ url: /tr/net/aspose.words.drawing/shape/fillcolor/
 public Color FillColor { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu, kısayol[`Color`](../../fill/color/) mülk.
 
 Varsayılan değer: White.
 
-### Örnekler
+## Örnekler
 
 Bir şeklin düz renkle nasıl doldurulacağını gösterir.
 
@@ -55,7 +57,5 @@ doc.Save(ArtifactsDir + "Shape.Fill.docx");
 ### Ayrıca bakınız
 
 * class [Shape](../)
-* ad alanı [Aspose.Words.Drawing](../../shape/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

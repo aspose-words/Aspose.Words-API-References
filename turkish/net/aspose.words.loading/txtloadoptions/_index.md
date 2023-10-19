@@ -1,7 +1,9 @@
 ---
-title: Class TxtLoadOptions
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Loading.TxtLoadOptions sınıf. Yükleme sırasında ek seçeneklerin belirtilmesine izin verirText bir belgeyeDocument nesne.
+title: TxtLoadOptions Class
+linktitle: TxtLoadOptions
+articleTitle: TxtLoadOptions
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Loading.TxtLoadOptions sınıf. Yükleme sırasında ek seçeneklerin belirtilmesine izin verirText bir belgeyeDocument nesne C#'da.
 type: docs
 weight: 3730
 url: /tr/net/aspose.words.loading/txtloadoptions/
@@ -30,7 +32,6 @@ public class TxtLoadOptions : LoadOptions
 | [BaseUri](../../aspose.words.loading/loadoptions/baseuri/) { get; set; } | Gerektiğinde belgede bulunan göreli URI'leri mutlak URI'lere çözümlemek için kullanılacak dizeyi alır veya ayarlar. Olabilir`hükümsüz` veya boş dize. Varsayılan:`hükümsüz` . |
 | [ConvertMetafilesToPng](../../aspose.words.loading/loadoptions/convertmetafilestopng/) { get; set; } | Meta dosyasının dönüştürülüp dönüştürülmeyeceğini alır veya ayarlar (Wmf veyaEmf ) görüntüleriPng resim formatı. |
 | [ConvertShapeToOfficeMath](../../aspose.words.loading/loadoptions/convertshapetoofficemath/) { get; set; } | EquationXML ile şekillerin Office Math nesnelerine dönüştürülüp dönüştürülmeyeceğini alır veya ayarlar. |
-| [DetectHyperlinks](../../aspose.words.loading/txtloadoptions/detecthyperlinks/) { get; set; } |  |
 | [DetectNumberingWithWhitespaces](../../aspose.words.loading/txtloadoptions/detectnumberingwithwhitespaces/) { get; set; } | Belge düz metin biçiminden içe aktarıldığında numaralı liste öğelerinin nasıl tanınacağını belirlemeye olanak tanır. Varsayılan değer:`doğru`. |
 | [DocumentDirection](../../aspose.words.loading/txtloadoptions/documentdirection/) { get; set; } | Belge yönünü alır veya ayarlar. Varsayılan değer:LeftToRight . |
 | [Encoding](../../aspose.words.loading/loadoptions/encoding/) { get; set; } | Belgede kodlama belirtilmemişse bir HTML, TXT veya CHM belgesini yüklemek için kullanılacak kodlamayı alır veya ayarlar. Olabilir`hükümsüz` . Varsayılan:`hükümsüz` . |
@@ -53,12 +54,10 @@ public class TxtLoadOptions : LoadOptions
 
 | İsim | Tanım |
 | --- | --- |
-| override [Equals](../../aspose.words.loading/loadoptions/equals/)(object) |  |
+| override [Equals](../../aspose.words.loading/loadoptions/equals/)(*object*) |  |
 
 ### Ayrıca bakınız
 
 * class [LoadOptions](../loadoptions/)
 * ad alanı [Aspose.Words.Loading](../../aspose.words.loading/)
 * toplantı [Aspose.Words](../../)
-
-

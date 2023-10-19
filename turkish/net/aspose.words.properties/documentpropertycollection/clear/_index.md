@@ -1,7 +1,9 @@
 ---
 title: DocumentPropertyCollection.Clear
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentPropertyCollection yöntem. Koleksiyondaki tüm özellikleri kaldırır.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words for .NET
+description: DocumentPropertyCollection Clear yöntem. Koleksiyondaki tüm özellikleri kaldırır C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.properties/documentpropertycollection/clear/
@@ -14,7 +16,7 @@ Koleksiyondaki tüm özellikleri kaldırır.
 public void Clear()
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgenin özel özellikleriyle nasıl çalışılacağını gösterir.
 
@@ -74,7 +76,5 @@ Assert.AreEqual(0, properties.Count);
 ### Ayrıca bakınız
 
 * class [DocumentPropertyCollection](../)
-* ad alanı [Aspose.Words.Properties](../../documentpropertycollection/)
+* ad alanı [Aspose.Words.Properties](../../../aspose.words.properties/)
 * toplantı [Aspose.Words](../../../)
-
-

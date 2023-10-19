@@ -1,9 +1,11 @@
 ---
 title: Document.Print
-second_title: Aspose.Words for .NET API Referansı
-description: Document yöntem. Belgenin tamamını varsayılan yazıcıya yazdırır.
+linktitle: Print
+articleTitle: Print
+second_title: Aspose.Words for .NET
+description: Document Print yöntem. Belgenin tamamını varsayılan yazıcıya yazdırır C#'da.
 type: docs
-weight: 660
+weight: 640
 url: /tr/net/aspose.words/document/print/
 ---
 ## Print() {#print}
@@ -14,7 +16,7 @@ Belgenin tamamını varsayılan yazıcıya yazdırır.
 public void Print()
 ```
 
-### Örnekler
+## Örnekler
 
 Varsayılan yazıcıyı kullanarak bir belgenin nasıl yazdırılacağını gösterir.
 
@@ -38,12 +40,12 @@ doc.Print(myPrinter);
 ### Ayrıca bakınız
 
 * class [Document](../)
-* ad alanı [Aspose.Words](../../document/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## Print(string) {#print_3}
+## Print(*string*) {#print_3}
 
 Standart (Kullanıcı Arayüzü olmayan) yazdırma denetleyicisini kullanarak belgenin tamamını belirtilen yazıcıya, yazdırın.
 
@@ -55,7 +57,7 @@ public void Print(string printerName)
 | --- | --- | --- |
 | printerName | String | Yazıcının adı. |
 
-### Örnekler
+## Örnekler
 
 Varsayılan yazıcıyı kullanarak bir belgenin nasıl yazdırılacağını gösterir.
 
@@ -79,12 +81,12 @@ doc.Print(myPrinter);
 ### Ayrıca bakınız
 
 * class [Document](../)
-* ad alanı [Aspose.Words](../../document/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## Print(PrinterSettings) {#print_1}
+## Print(*PrinterSettings*) {#print_1}
 
 Belgeyi belirtilen yazıcı ayarlarına göre standart (Kullanıcı Arayüzü yok) yazdırma denetleyicisini kullanarak yazdırır.
 
@@ -96,11 +98,11 @@ public void Print(PrinterSettings printerSettings)
 | --- | --- | --- |
 | printerSettings | PrinterSettings | Kullanılacak yazıcı ayarları. |
 
-### Notlar
+## Notlar
 
 PrinterSettings nesnesi, yazdırılacak yazıcıyı, yazdırılacak sayfa aralığını ve diğer seçenekleri belirtmenize olanak tanır.
 
-### Örnekler
+## Örnekler
 
 Bir dizi sayfanın nasıl yazdırılacağını gösterir.
 
@@ -131,12 +133,12 @@ doc.Print(printerSettings, "My rendered document");
 ### Ayrıca bakınız
 
 * class [Document](../)
-* ad alanı [Aspose.Words](../../document/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## Print(PrinterSettings, string) {#print_2}
+## Print(*PrinterSettings, string*) {#print_2}
 
 Belgeyi belirtilen yazıcı ayarlarına göre standart (Kullanıcı Arayüzü yok) yazdırma denetleyicisini ve belge adını kullanarak yazdırır.
 
@@ -149,11 +151,11 @@ public void Print(PrinterSettings printerSettings, string documentName)
 | printerSettings | PrinterSettings | Kullanılacak yazıcı ayarları. |
 | documentName | String | Belgeyi yazdırırken görüntülenecek belge adı (örneğin, yazdırma durumu iletişim kutusunda kutusunda veya yazıcı kuyruğunda). |
 
-### Notlar
+## Notlar
 
 PrinterSettings nesnesi, yazdırılacak yazıcıyı, yazdırılacak sayfa aralığını ve diğer seçenekleri belirtmenize olanak tanır.
 
-### Örnekler
+## Örnekler
 
 Bir dizi sayfanın nasıl yazdırılacağını gösterir.
 
@@ -184,7 +186,5 @@ doc.Print(printerSettings, "My rendered document");
 ### Ayrıca bakınız
 
 * class [Document](../)
-* ad alanı [Aspose.Words](../../document/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

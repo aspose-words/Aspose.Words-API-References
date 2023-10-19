@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.Index
-second_title: Aspose.Words for .NET API Referansı
-description: ChartDataLabel mülk. İçeren öğenin dizinini belirtir. Bu dizin bu öğenin ebeveynin alt koleksiyonundan hangisine uygulanacağını belirleyecektir. Varsayılan değer 0.
+linktitle: Index
+articleTitle: Index
+second_title: Aspose.Words for .NET
+description: ChartDataLabel Index mülk. İçeren öğenin dizinini belirtir. Bu dizin bu öğenin ebeveynin alt koleksiyonundan hangisine uygulanacağını belirleyecektir. Varsayılan değer 0 C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.drawing.charts/chartdatalabel/index/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.drawing.charts/chartdatalabel/index/
 public int Index { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Çizgi grafikteki veri noktalarına etiketlerin nasıl uygulanacağını gösterir.
 
@@ -92,7 +94,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 ### Ayrıca bakınız
 
 * class [ChartDataLabel](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

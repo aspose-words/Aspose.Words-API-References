@@ -1,7 +1,9 @@
 ---
 title: FieldSeq.InsertNextNumber
-second_title: Aspose.Words for .NET API Referansı
-description: FieldSeq mülk. Belirtilen öğe için bir sonraki sıra numarasının eklenip eklenmeyeceğini alır veya ayarlar.
+linktitle: InsertNextNumber
+articleTitle: InsertNextNumber
+second_title: Aspose.Words for .NET
+description: FieldSeq InsertNextNumber mülk. Belirtilen öğe için bir sonraki sıra numarasının eklenip eklenmeyeceğini alır veya ayarlar C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fields/fieldseq/insertnextnumber/
@@ -14,7 +16,7 @@ Belirtilen öğe için bir sonraki sıra numarasının eklenip eklenmeyeceğini 
 public bool InsertNextNumber { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 SEQ alanlarını kullanarak numaralandırma oluşturmayı gösterir.
 
@@ -78,7 +80,5 @@ doc.Save(ArtifactsDir + "Field.SEQ.ResetNumbering.docx");
 ### Ayrıca bakınız
 
 * class [FieldSeq](../)
-* ad alanı [Aspose.Words.Fields](../../fieldseq/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

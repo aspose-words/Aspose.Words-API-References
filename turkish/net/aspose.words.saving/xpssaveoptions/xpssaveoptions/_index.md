@@ -1,7 +1,9 @@
 ---
-title: XpsSaveOptions.XpsSaveOptions
-second_title: Aspose.Words for .NET API Referansı
-description: XpsSaveOptions inşaatçı. Bu sınıfın bir document dosyasını kaydetmek için kullanılabilecek yeni bir örneğini başlatır.Xps format.
+title: XpsSaveOptions
+linktitle: XpsSaveOptions
+articleTitle: XpsSaveOptions
+second_title: Aspose.Words for .NET
+description: XpsSaveOptions inşaatçı. Bu sınıfın bir document dosyasını kaydetmek için kullanılabilecek yeni bir örneğini başlatır.Xps format C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.saving/xpssaveoptions/xpssaveoptions/
@@ -14,7 +16,7 @@ Bu sınıfın, bir document dosyasını kaydetmek için kullanılabilecek yeni b
 public XpsSaveOptions()
 ```
 
-### Örnekler
+## Örnekler
 
 Kaydedilmiş bir XPS belgesinin ana hatlarında görünecek başlık düzeyinin nasıl sınırlanacağını gösterir.
 
@@ -57,12 +59,12 @@ doc.Save(ArtifactsDir + "XpsSaveOptions.OutlineLevels.xps", saveOptions);
 ### Ayrıca bakınız
 
 * class [XpsSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../xpssaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## XpsSaveOptions(SaveFormat) {#constructor_1}
+## XpsSaveOptions(*[SaveFormat](../../../aspose.words/saveformat/)*) {#constructor_1}
 
 Bu sınıfın, bir document dosyasını kaydetmek için kullanılabilecek yeni bir örneğini başlatır.Xps veyaOpenXps format.
 
@@ -70,7 +72,7 @@ Bu sınıfın, bir document dosyasını kaydetmek için kullanılabilecek yeni b
 public XpsSaveOptions(SaveFormat saveFormat)
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgenin XPS formatında kitap katlama biçiminde nasıl kaydedileceğini gösterir.
 
@@ -103,7 +105,5 @@ doc.Save(ArtifactsDir + "XpsSaveOptions.BookFold.xps", xpsOptions);
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [XpsSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../xpssaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

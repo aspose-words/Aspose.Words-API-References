@@ -1,7 +1,9 @@
 ---
 title: FieldNoteRef.InsertRelativePosition
-second_title: Aspose.Words for .NET API Referansı
-description: FieldNoteRef mülk. Yer imi eklenen paragrafın göreli konumunun eklenip eklenmeyeceğini alır veya ayarlar.
+linktitle: InsertRelativePosition
+articleTitle: InsertRelativePosition
+second_title: Aspose.Words for .NET
+description: FieldNoteRef InsertRelativePosition mülk. Yer imi eklenen paragrafın göreli konumunun eklenip eklenmeyeceğini alır veya ayarlar C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.fields/fieldnoteref/insertrelativeposition/
@@ -14,7 +16,7 @@ Yer imi eklenen paragrafın göreli konumunun eklenip eklenmeyeceğini alır vey
 public bool InsertRelativePosition { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 NOTEREF alanlarının eklenmesini ve görünümlerinin değiştirilmesini gösterir.
 
@@ -83,7 +85,5 @@ private static void InsertBookmarkWithFootnote(DocumentBuilder builder, string b
 ### Ayrıca bakınız
 
 * class [FieldNoteRef](../)
-* ad alanı [Aspose.Words.Fields](../../fieldnoteref/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

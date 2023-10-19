@@ -1,7 +1,9 @@
 ---
 title: Font.ItalicBi
-second_title: Aspose.Words for .NET API Referansı
-description: Font mülk. Sağdan sola metin italik olarak biçimlendirilmişse doğrudur.
+linktitle: ItalicBi
+articleTitle: ItalicBi
+second_title: Aspose.Words for .NET
+description: Font ItalicBi mülk. Sağdan sola metin italik olarak biçimlendirilmişse doğrudur C#'da.
 type: docs
 weight: 170
 url: /tr/net/aspose.words/font/italicbi/
@@ -14,7 +16,7 @@ Sağdan sola metin italik olarak biçimlendirilmişse doğrudur.
 public bool ItalicBi { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Sağdan sola ve sağdan sola metin için ayrı yazı tipi ayarları kümelerinin nasıl tanımlanacağını gösterir.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Font.Bidi.docx");
 ### Ayrıca bakınız
 
 * class [Font](../)
-* ad alanı [Aspose.Words](../../font/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum TxtLeadingSpacesOptions
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Loading.TxtLeadingSpacesOptions Sıralama. Şuradan içe aktarma sırasında önde gelen alan işleme için mevcut seçenekleri belirtirText dosya.
+title: TxtLeadingSpacesOptions Enum
+linktitle: TxtLeadingSpacesOptions
+articleTitle: TxtLeadingSpacesOptions
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Loading.TxtLeadingSpacesOptions Sıralama. Şuradan içe aktarma sırasında önde gelen alan işleme için mevcut seçenekleri belirtirText dosya C#'da.
 type: docs
 weight: 3720
 url: /tr/net/aspose.words.loading/txtleadingspacesoptions/
@@ -22,7 +24,7 @@ public enum TxtLeadingSpacesOptions
 | Trim | `1` |  |
 | Preserve | `2` |  |
 
-### Örnekler
+## Örnekler
 
 Düz metin belgeleri yüklerken boşlukların nasıl kırpılacağını gösterir.
 
@@ -99,5 +101,3 @@ switch (txtTrailingSpacesOptions)
 
 * ad alanı [Aspose.Words.Loading](../../aspose.words.loading/)
 * toplantı [Aspose.Words](../../)
-
-

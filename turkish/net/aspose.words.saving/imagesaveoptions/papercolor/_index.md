@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.PaperColor
-second_title: Aspose.Words for .NET API Referansı
-description: ImageSaveOptions mülk. Oluşturulan görüntüler için arka plan kağıt rengini alır veya ayarlar.
+linktitle: PaperColor
+articleTitle: PaperColor
+second_title: Aspose.Words for .NET
+description: ImageSaveOptions PaperColor mülk. Oluşturulan görüntüler için arka plan kağıt rengini alır veya ayarlar C#'da.
 type: docs
 weight: 110
 url: /tr/net/aspose.words.saving/imagesaveoptions/papercolor/
@@ -16,11 +18,11 @@ Varsayılan değer:White.
 public Color PaperColor { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Kendi arka plan rengini ( ) belirten bir belgenin sayfaları oluşturulurken, belgenin arka plan rengi bu özellik tarafından belirtilen rengi geçersiz kılacaktır.
 
-### Örnekler
+## Örnekler
 
 Word belgesinin bir sayfasını şeffaf veya renkli arka plana sahip bir görüntüye dönüştürür.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.PaperColor.LightCoral.png", imgOptions
 ### Ayrıca bakınız
 
 * class [ImageSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../imagesaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

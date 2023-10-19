@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.Document
-second_title: Aspose.Words for .NET API Referansı
-description: LayoutEnumerator mülk. Bu örneğin numaralandırdığı belgeyi alır.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words for .NET
+description: LayoutEnumerator Document mülk. Bu örneğin numaralandırdığı belgeyi alır C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.layout/layoutenumerator/document/
@@ -14,7 +16,7 @@ Bu örneğin numaralandırdığı belgeyi alır.
 public Document Document { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgenin düzen varlıkları arasında geçiş yapma yollarını gösterir.
 
@@ -160,7 +162,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 
 * class [Document](../../../aspose.words/document/)
 * class [LayoutEnumerator](../)
-* ad alanı [Aspose.Words.Layout](../../layoutenumerator/)
+* ad alanı [Aspose.Words.Layout](../../../aspose.words.layout/)
 * toplantı [Aspose.Words](../../../)
-
-

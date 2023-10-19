@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitBookmarkEnd
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentVisitor yöntem. Belgede bir yer iminin sonuna gelindiğinde çağrılır.
+linktitle: VisitBookmarkEnd
+articleTitle: VisitBookmarkEnd
+second_title: Aspose.Words for .NET
+description: DocumentVisitor VisitBookmarkEnd yöntem. Belgede bir yer iminin sonuna gelindiğinde çağrılır C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words/documentvisitor/visitbookmarkend/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitBookmarkEnd(BookmarkEnd bookmarkEnd)
 
 A[`VisitorAction`](../../visitoraction/) numaralandırmaya nasıl devam edileceğini belirten değer.
 
-### Örnekler
+## Örnekler
 
 Yer işaretlerinin nasıl ekleneceğini ve içeriklerinin nasıl güncelleneceğini gösterir.
 
@@ -113,7 +115,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [BookmarkEnd](../../bookmarkend/)
 * class [DocumentVisitor](../)
-* ad alanı [Aspose.Words](../../documentvisitor/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

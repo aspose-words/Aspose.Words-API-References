@@ -1,7 +1,9 @@
 ---
-title: Class Forms2OleControlCollection
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.Ole.Forms2OleControlCollection sınıf. Şunun koleksiyonunu temsil ederForms2OleControl nesneler.
+title: Forms2OleControlCollection Class
+linktitle: Forms2OleControlCollection
+articleTitle: Forms2OleControlCollection
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.Ole.Forms2OleControlCollection sınıf. Şunun koleksiyonunu temsil ederForms2OleControl nesneler C#'da.
 type: docs
 weight: 1120
 url: /tr/net/aspose.words.drawing.ole/forms2olecontrolcollection/
@@ -35,7 +37,7 @@ public class Forms2OleControlCollection : IEnumerable<Forms2OleControl>
 | --- | --- |
 | [GetEnumerator](../../aspose.words.drawing.ole/forms2olecontrolcollection/getenumerator/)() | Numaralandırıcıyı alır. |
 
-### Örnekler
+## Örnekler
 
 Bir belgeye katıştırılmış bir OLE denetimine ve onun alt denetimlerine nasıl erişileceğini gösterir.
 
@@ -69,5 +71,3 @@ Assert.AreEqual("0", oleControlCollection[2].Value);
 * class [Forms2OleControl](../forms2olecontrol/)
 * ad alanı [Aspose.Words.Drawing.Ole](../../aspose.words.drawing.ole/)
 * toplantı [Aspose.Words](../../)
-
-

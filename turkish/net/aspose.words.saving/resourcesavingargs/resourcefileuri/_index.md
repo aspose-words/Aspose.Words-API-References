@@ -1,7 +1,9 @@
 ---
 title: ResourceSavingArgs.ResourceFileUri
-second_title: Aspose.Words for .NET API Referansı
-description: ResourceSavingArgs mülk. Belgedeki kaynak dosyasına başvuruda bulunmak için kullanılan tek tip kaynak tanımlayıcıyı URI alır veya ayarlar.
+linktitle: ResourceFileUri
+articleTitle: ResourceFileUri
+second_title: Aspose.Words for .NET
+description: ResourceSavingArgs ResourceFileUri mülk. Belgedeki kaynak dosyasına başvuruda bulunmak için kullanılan tek tip kaynak tanımlayıcıyı URI alır veya ayarlar C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.saving/resourcesavingargs/resourcefileuri/
@@ -14,7 +16,7 @@ Belgedeki kaynak dosyasına başvuruda bulunmak için kullanılan tek tip kaynak
 public string ResourceFileUri { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özellik, sabit sayfalı HTML veya SVG belgelerine aktarılan kaynak dosyalarının URI'lerini değiştirmenize olanak tanır.
 
@@ -24,7 +26,7 @@ Etkinlik tetiklendiğinde bu özellik, Aspose.Words tarafından oluşturulan URI
 
 [`ResourcesFolder`](../../htmlfixedsaveoptions/resourcesfolder/)[`ResourcesFolder`](../../svgsaveoptions/resourcesfolder/)[`ResourcesFolderAlias`](../../htmlfixedsaveoptions/resourcesfolderalias/)[`ResourcesFolderAlias`](../../svgsaveoptions/resourcesfolderalias/)
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi HTML'ye dönüştürürken oluşturulan harici kaynakları izlemek için geri aramanın nasıl kullanılacağını gösterir.
 
@@ -69,7 +71,5 @@ private class FontSavingCallback : IResourceSavingCallback
 ### Ayrıca bakınız
 
 * class [ResourceSavingArgs](../)
-* ad alanı [Aspose.Words.Saving](../../resourcesavingargs/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

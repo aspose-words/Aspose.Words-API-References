@@ -1,7 +1,9 @@
 ---
 title: CustomXmlSchemaCollection.Clear
-second_title: Aspose.Words for .NET API Referansı
-description: CustomXmlSchemaCollection yöntem. Koleksiyondaki tüm öğeleri kaldırır.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words for .NET
+description: CustomXmlSchemaCollection Clear yöntem. Koleksiyondaki tüm öğeleri kaldırır C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.markup/customxmlschemacollection/clear/
@@ -14,7 +16,7 @@ Koleksiyondaki tüm öğeleri kaldırır.
 public void Clear()
 ```
 
-### Örnekler
+## Örnekler
 
 XML şeması koleksiyonuyla nasıl çalışılacağını gösterir.
 
@@ -60,7 +62,5 @@ Assert.AreEqual(0, schemas.Count);
 ### Ayrıca bakınız
 
 * class [CustomXmlSchemaCollection](../)
-* ad alanı [Aspose.Words.Markup](../../customxmlschemacollection/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

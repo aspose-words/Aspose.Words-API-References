@@ -1,7 +1,9 @@
 ---
 title: IWarningCallback.Warning
-second_title: Aspose.Words for .NET API Referansı
-description: IWarningCallback yöntem. Aspose.Words belgesini yüklerken veya kaydederken biçimlendirme veya veri doğruluğu kaybına yol açabilecek bir sorunla karşılaştığında bu yöntemi çağırır.
+linktitle: Warning
+articleTitle: Warning
+second_title: Aspose.Words for .NET
+description: IWarningCallback Warning yöntem. Aspose.Words belgesini yüklerken veya kaydederken biçimlendirme veya veri doğruluğu kaybına yol açabilecek bir sorunla karşılaştığında bu yöntemi çağırır C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/iwarningcallback/warning/
@@ -14,7 +16,7 @@ Aspose.Words, belgesini yüklerken veya kaydederken biçimlendirme veya veri do�
 public void Warning(WarningInfo info)
 ```
 
-### Örnekler
+## Örnekler
 
 Mevcut yazı tipi kaynaklarından eksik bir yazı tipi için en yakın eşleşmeyi bulma özelliğinin nasıl ayarlanacağını gösterir.
 
@@ -75,7 +77,5 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 
 * class [WarningInfo](../../warninginfo/)
 * interface [IWarningCallback](../)
-* ad alanı [Aspose.Words](../../iwarningcallback/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

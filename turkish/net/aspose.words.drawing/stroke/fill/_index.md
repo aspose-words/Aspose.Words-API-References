@@ -1,9 +1,11 @@
 ---
 title: Stroke.Fill
-second_title: Aspose.Words for .NET API Referansı
-description: Stroke mülk. Dolgu formatını alırStroke .
+linktitle: Fill
+articleTitle: Fill
+second_title: Aspose.Words for .NET
+description: Stroke Fill mülk. Dolgu formatını alırStroke  C#'da.
 type: docs
-weight: 100
+weight: 90
 url: /tr/net/aspose.words.drawing/stroke/fill/
 ---
 ## Stroke.Fill property
@@ -14,7 +16,7 @@ Dolgu formatını alır[`Stroke`](../) .
 public Fill Fill { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Kontur özelliklerinin nasıl değiştirildiğini gösterir.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Shape.Stroke.docx");
 
 * class [Fill](../../fill/)
 * class [Stroke](../)
-* ad alanı [Aspose.Words.Drawing](../../stroke/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

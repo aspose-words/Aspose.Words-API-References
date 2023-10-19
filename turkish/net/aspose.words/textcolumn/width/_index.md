@@ -1,7 +1,9 @@
 ---
 title: TextColumn.Width
-second_title: Aspose.Words for .NET API Referansı
-description: TextColumn mülk. Metin sütununun genişliğini nokta cinsinden alır veya ayarlar.
+linktitle: Width
+articleTitle: Width
+second_title: Aspose.Words for .NET
+description: TextColumn Width mülk. Metin sütununun genişliğini nokta cinsinden alır veya ayarlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/textcolumn/width/
@@ -14,7 +16,7 @@ Metin sütununun genişliğini nokta cinsinden alır veya ayarlar.
 public double Width { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Düzensiz aralıklı sütunların nasıl oluşturulacağını gösterir.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "PageSetup.CustomColumnWidth.docx");
 ### Ayrıca bakınız
 
 * class [TextColumn](../)
-* ad alanı [Aspose.Words](../../textcolumn/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

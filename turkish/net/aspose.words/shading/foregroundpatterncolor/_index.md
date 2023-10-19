@@ -1,7 +1,9 @@
 ---
 title: Shading.ForegroundPatternColor
-second_title: Aspose.Words for .NET API Referansı
-description: Shading mülk. Ön plana uygulanan rengi alır veya ayarlar.Shading nesne.
+linktitle: ForegroundPatternColor
+articleTitle: ForegroundPatternColor
+second_title: Aspose.Words for .NET
+description: Shading ForegroundPatternColor mülk. Ön plana uygulanan rengi alır veya ayarlar.Shading nesne C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words/shading/foregroundpatterncolor/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words/shading/foregroundpatterncolor/
 public Color ForegroundPatternColor { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Metnin kenarlıklar ve gölgelendirmeyle nasıl süsleneceğini gösterir.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.ApplyBordersAndShading.docx");
 ### Ayrıca bakınız
 
 * class [Shading](../)
-* ad alanı [Aspose.Words](../../shading/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

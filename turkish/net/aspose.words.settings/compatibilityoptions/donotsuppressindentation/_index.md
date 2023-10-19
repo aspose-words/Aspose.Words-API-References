@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.DoNotSuppressIndentation
-second_title: Aspose.Words for .NET API Referansı
-description: CompatibilityOptions mülk. Paragraf Girintisini Hesaplarken Kayan Nesneleri Göz Ardı Etmeyin.
+linktitle: DoNotSuppressIndentation
+articleTitle: DoNotSuppressIndentation
+second_title: Aspose.Words for .NET
+description: CompatibilityOptions DoNotSuppressIndentation mülk. Paragraf Girintisini Hesaplarken Kayan Nesneleri Göz Ardı Etmeyin C#'da.
 type: docs
 weight: 180
 url: /tr/net/aspose.words.settings/compatibilityoptions/donotsuppressindentation/
@@ -17,7 +19,5 @@ public bool DoNotSuppressIndentation { get; set; }
 ### Ayrıca bakınız
 
 * class [CompatibilityOptions](../)
-* ad alanı [Aspose.Words.Settings](../../compatibilityoptions/)
+* ad alanı [Aspose.Words.Settings](../../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.DoNotUseEastAsianBreakRules
-second_title: Aspose.Words for .NET API Referansı
-description: CompatibilityOptions mülk. Belge Izgarasını Kullanırken Sıkıştırılabilir Karakterleri Sıkıştırmayın.
+linktitle: DoNotUseEastAsianBreakRules
+articleTitle: DoNotUseEastAsianBreakRules
+second_title: Aspose.Words for .NET
+description: CompatibilityOptions DoNotUseEastAsianBreakRules mülk. Belge Izgarasını Kullanırken Sıkıştırılabilir Karakterleri Sıkıştırmayın C#'da.
 type: docs
 weight: 200
 url: /tr/net/aspose.words.settings/compatibilityoptions/donotuseeastasianbreakrules/
@@ -17,7 +19,5 @@ public bool DoNotUseEastAsianBreakRules { get; set; }
 ### Ayrıca bakınız
 
 * class [CompatibilityOptions](../)
-* ad alanı [Aspose.Words.Settings](../../compatibilityoptions/)
+* ad alanı [Aspose.Words.Settings](../../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Theme.MinorFonts
-second_title: Aspose.Words for .NET API Referansı
-description: Theme mülk. Farklı diller için ikincil yazı tipleri kümesini belirlemeye olanak tanır.
+linktitle: MinorFonts
+articleTitle: MinorFonts
+second_title: Aspose.Words for .NET
+description: Theme MinorFonts mülk. Farklı diller için ikincil yazı tipleri kümesini belirlemeye olanak tanır C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.themes/theme/minorfonts/
@@ -14,7 +16,7 @@ Farklı diller için ikincil yazı tipleri kümesini belirlemeye olanak tanır.
 public ThemeFonts MinorFonts { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Temalar için özel renklerin ve yazı tiplerinin nasıl ayarlanacağını gösterir.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 
 * class [ThemeFonts](../../themefonts/)
 * class [Theme](../)
-* ad alanı [Aspose.Words.Themes](../../theme/)
+* ad alanı [Aspose.Words.Themes](../../../aspose.words.themes/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldSeq.BookmarkName
-second_title: Aspose.Words for .NET API Referansı
-description: FieldSeq mülk. Geçerli konum yerine belgenin başka bir yerindeki bir öğeye başvuran bir yer imi adını alır veya ayarlar.
+linktitle: BookmarkName
+articleTitle: BookmarkName
+second_title: Aspose.Words for .NET
+description: FieldSeq BookmarkName mülk. Geçerli konum yerine belgenin başka bir yerindeki bir öğeye başvuran bir yer imi adını alır veya ayarlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fieldseq/bookmarkname/
@@ -14,7 +16,7 @@ Geçerli konum yerine belgenin başka bir yerindeki bir öğeye başvuran bir ye
 public string BookmarkName { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 İçindekiler tablosu ile sıra alanlarının nasıl birleştirileceğini gösterir.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "Field.SEQ.Bookmark.docx");
 ### Ayrıca bakınız
 
 * class [FieldSeq](../)
-* ad alanı [Aspose.Words.Fields](../../fieldseq/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

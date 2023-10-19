@@ -1,7 +1,9 @@
 ---
 title: OoxmlSaveOptions.Password
-second_title: Aspose.Words for .NET API Referansı
-description: OoxmlSaveOptions mülk. ECMA376 Standart şifreleme algoritmasını kullanarak belgeyi şifrelemek için bir parola alır/ayarlar.
+linktitle: Password
+articleTitle: Password
+second_title: Aspose.Words for .NET
+description: OoxmlSaveOptions Password mülk. ECMA376 Standart şifreleme algoritmasını kullanarak belgeyi şifrelemek için bir parola alır/ayarlar C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.saving/ooxmlsaveoptions/password/
@@ -14,11 +16,11 @@ ECMA376 Standart şifreleme algoritmasını kullanarak belgeyi şifrelemek için
 public string Password { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Belgeyi şifrelemeden kaydetmek için bu özelliğin şu şekilde olması gerekir:`hükümsüz` veya boş dize.
 
-### Örnekler
+## Örnekler
 
 Parolayla şifrelenmiş bir Office Açık XML belgesinin nasıl oluşturulacağını gösterir.
 
@@ -46,7 +48,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 ### Ayrıca bakınız
 
 * class [OoxmlSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../ooxmlsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,14 +1,16 @@
 ---
-title: Class SubDocument
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.SubDocument sınıf. Biri temsil eder Alt Belge  harici olarak saklanan bir belgeye referanstır.
+title: SubDocument Class
+linktitle: SubDocument
+articleTitle: SubDocument
+second_title: Aspose.Words for .NET
+description: Aspose.Words.SubDocument sınıf. Biri temsil ederAlt Belge  harici olarak saklanan bir belgeye referanstır C#'da.
 type: docs
 weight: 6170
 url: /tr/net/aspose.words/subdocument/
 ---
 ## SubDocument class
 
-Bir'i temsil eder **Alt Belge** - harici olarak saklanan bir belgeye referanstır.
+Bir'i temsil eder**Alt Belge** - harici olarak saklanan bir belgeye referanstır.
 
 Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Aspose.Words Belge Nesne Modeli (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) dokümantasyon makalesi.
 
@@ -33,24 +35,24 @@ public class SubDocument : Node
 
 | İsim | Tanım |
 | --- | --- |
-| override [Accept](../../aspose.words/subdocument/accept/)(DocumentVisitor) | Ziyaretçi kabul eder. |
-| [Clone](../../aspose.words/node/clone/)(bool) | Düğümün bir kopyasını oluşturur. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Belirtilenin ilk atayı alır[`NodeType`](../nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Belirtilen nesne türünün ilk atayı alır. |
+| override [Accept](../../aspose.words/subdocument/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Ziyaretçi kabul eder. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Düğümün bir kopyasını oluşturur. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | Belirtilenin ilk atayı alır[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Belirtilen nesne türünün ilk atayı alır. |
 | virtual [GetText](../../aspose.words/node/gettext/)() | Bu düğümün ve tüm alt öğelerinin metnini alır. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Ön sipariş ağaç geçiş algoritmasına göre sonraki düğümü alır. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Ön sipariş ağaç geçiş algoritmasına göre önceki düğümü alır. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Ön sipariş ağaç geçiş algoritmasına göre sonraki düğümü alır. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Ön sipariş ağaç geçiş algoritmasına göre önceki düğümü alır. |
 | [Remove](../../aspose.words/node/remove/)() | Kendini üst öğeden kaldırır. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Düğümün içeriğini belirtilen formatta bir dizeye aktarır. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Belirtilen kaydetme seçeneklerini kullanarak düğümün içeriğini bir dizeye aktarır. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Düğümün içeriğini belirtilen formatta bir dizeye aktarır. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Belirtilen kaydetme seçeneklerini kullanarak düğümün içeriğini bir dizeye aktarır. |
 
-### Notlar
+## Notlar
 
 Aspose.Words'ün bu sürümünde,`SubDocument` düğümler, bir alt belge oluşturmak veya değiştirmek için genel yöntemler ve özellikler sağlamaz. Bu sürümde, örnekleme işlemini gerçekleştiremezsiniz.`SubDocument` düğümleri silin veya bunları silmek dışında mevcut olanı değiştirin.
 
 `SubDocument` sadece çocuğu olabilir[`Paragraph`](../paragraph/).
 
-### Örnekler
+## Örnekler
 
 Ana belgenin alt belgesine nasıl erişileceğini gösterir.
 
@@ -69,5 +71,3 @@ Assert.False(subDocument.IsComposite);
 * class [Node](../node/)
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: XamlFlowSaveOptions.SaveFormat
-second_title: Aspose.Words for .NET API Referansı
-description: XamlFlowSaveOptions mülk. Bu kaydetme seçenekleri nesnesi kullanılırsa belgenin kaydedileceği biçimi belirtir. YalnızcaXamlFlow .
+linktitle: SaveFormat
+articleTitle: SaveFormat
+second_title: Aspose.Words for .NET
+description: XamlFlowSaveOptions SaveFormat mülk. Bu kaydetme seçenekleri nesnesi kullanılırsa belgenin kaydedileceği biçimi belirtir. YalnızcaXamlFlow  C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.saving/xamlflowsaveoptions/saveformat/
@@ -14,7 +16,7 @@ Bu kaydetme seçenekleri nesnesi kullanılırsa belgenin kaydedileceği biçimi 
 public override SaveFormat SaveFormat { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi akış formu .xaml'e dönüştürürken oluşturulan bağlantılı görüntülerin dosya adlarının nasıl yazdırılacağını gösterir.
 
@@ -81,7 +83,5 @@ private class ImageUriPrinter : IImageSavingCallback
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [XamlFlowSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../xamlflowsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

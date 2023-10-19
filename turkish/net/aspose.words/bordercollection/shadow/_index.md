@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.Shadow
-second_title: Aspose.Words for .NET API Referansı
-description: BorderCollection mülk. Kenarlığın gölgesi olup olmadığını belirten bir değer alır veya ayarlar.
+linktitle: Shadow
+articleTitle: Shadow
+second_title: Aspose.Words for .NET
+description: BorderCollection Shadow mülk. Kenarlığın gölgesi olup olmadığını belirten bir değer alır veya ayarlar C#'da.
 type: docs
 weight: 110
 url: /tr/net/aspose.words/bordercollection/shadow/
@@ -14,13 +16,13 @@ Kenarlığın gölgesi olup olmadığını belirten bir değer alır veya ayarla
 public bool Shadow { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Koleksiyondaki ilk kenarlıktan değeri alır.
 
 Koleksiyondaki çapraz kenarlıklar hariç tüm kenarlıkların değerini ayarlar.
 
-### Örnekler
+## Örnekler
 
 Gölgeli yeşil dalgalı sayfa kenarlığının nasıl oluşturulacağını gösterir.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageBorders.docx");
 ### Ayrıca bakınız
 
 * class [BorderCollection](../)
-* ad alanı [Aspose.Words](../../bordercollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

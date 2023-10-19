@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.VerticalResolution
-second_title: Aspose.Words for .NET API Referansı
-description: ImageSaveOptions mülk. Oluşturulan görüntülerin dikey çözünürlüğünü inç başına nokta cinsinden alır veya ayarlar.
+linktitle: VerticalResolution
+articleTitle: VerticalResolution
+second_title: Aspose.Words for .NET
+description: ImageSaveOptions VerticalResolution mülk. Oluşturulan görüntülerin dikey çözünürlüğünü inç başına nokta cinsinden alır veya ayarlar C#'da.
 type: docs
 weight: 200
 url: /tr/net/aspose.words.saving/imagesaveoptions/verticalresolution/
@@ -14,13 +16,13 @@ Oluşturulan görüntülerin dikey çözünürlüğünü inç başına nokta cin
 public float VerticalResolution { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özellik yalnızca taramalı görüntü formatlarına kaydederken etkilidir ve piksel cinsinden çıktı boyutunu etkiler.
 
 Varsayılan değer 96'dır.
 
-### Örnekler
+## Örnekler
 
 Aspose.Words bir belgeyi belgeye dönüştürürken görüntünün nasıl düzenleneceğini gösterir.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.EditImage.png", options);
 ### Ayrıca bakınız
 
 * class [ImageSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../imagesaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

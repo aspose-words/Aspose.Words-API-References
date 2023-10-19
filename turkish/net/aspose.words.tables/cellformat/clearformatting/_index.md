@@ -1,9 +1,11 @@
 ---
 title: CellFormat.ClearFormatting
-second_title: Aspose.Words for .NET API Referansı
-description: CellFormat yöntem. Varsayılan hücre formatına sıfırlar. Hücrenin genişliğini değiştirmez.
+linktitle: ClearFormatting
+articleTitle: ClearFormatting
+second_title: Aspose.Words for .NET
+description: CellFormat ClearFormatting yöntem. Varsayılan hücre formatına sıfırlar. Hücrenin genişliğini değiştirmez C#'da.
 type: docs
-weight: 160
+weight: 150
 url: /tr/net/aspose.words.tables/cellformat/clearformatting/
 ---
 ## CellFormat.ClearFormatting method
@@ -14,7 +16,7 @@ Varsayılan hücre formatına sıfırlar. Hücrenin genişliğini değiştirmez.
 public void ClearFormatting()
 ```
 
-### Örnekler
+## Örnekler
 
 İki tablodaki satırların nasıl birleştirileceğini gösterir.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "Table.CombineTables.docx");
 ### Ayrıca bakınız
 
 * class [CellFormat](../)
-* ad alanı [Aspose.Words.Tables](../../cellformat/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

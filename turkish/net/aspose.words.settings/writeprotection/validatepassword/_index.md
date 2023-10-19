@@ -1,7 +1,9 @@
 ---
 title: WriteProtection.ValidatePassword
-second_title: Aspose.Words for .NET API Referansı
-description: WriteProtection yöntem. İadelerdoğru belirtilen parola belgenin korunduğu yazma koruma parolasıyla aynıysa. Belge parolayla yazmaya karşı korumalı değilse o zaman şunu döndürürYANLIŞ .
+linktitle: ValidatePassword
+articleTitle: ValidatePassword
+second_title: Aspose.Words for .NET
+description: WriteProtection ValidatePassword yöntem. İadelerdoğru belirtilen parola belgenin korunduğu yazma koruma parolasıyla aynıysa. Belge parolayla yazmaya karşı korumalı değilse o zaman şunu döndürürYANLIŞ  C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.settings/writeprotection/validatepassword/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.settings/writeprotection/validatepassword/
 public bool ValidatePassword(string password)
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgenin parolayla nasıl korunacağını gösterir.
 
@@ -46,7 +48,5 @@ Assert.AreEqual("Hello world! This document is protected." +
 ### Ayrıca bakınız
 
 * class [WriteProtection](../)
-* ad alanı [Aspose.Words.Settings](../../writeprotection/)
+* ad alanı [Aspose.Words.Settings](../../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../../)
-
-

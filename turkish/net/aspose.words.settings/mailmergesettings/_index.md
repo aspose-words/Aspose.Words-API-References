@@ -1,7 +1,9 @@
 ---
-title: Class MailMergeSettings
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Settings.MailMergeSettings sınıf. Bir belgeye ilişkin tüm adresmektup birleştirme bilgilerini belirtir.
+title: MailMergeSettings Class
+linktitle: MailMergeSettings
+articleTitle: MailMergeSettings
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Settings.MailMergeSettings sınıf. Bir belgeye ilişkin tüm adresmektup birleştirme bilgilerini belirtir C#'da.
 type: docs
 weight: 5850
 url: /tr/net/aspose.words.settings/mailmergesettings/
@@ -50,7 +52,7 @@ public class MailMergeSettings
 | [Clear](../../aspose.words.settings/mailmergesettings/clear/)() | Adres-mektup birleştirme ayarlarını, belge kaydedildiğinde hiçbir adres-mektup birleştirme ayarı kaydedilmeyecek ve normal bir belge haline gelecek şekilde temizler. |
 | [Clone](../../aspose.words.settings/mailmergesettings/clone/)() | Bu nesnenin derin bir kopyasını döndürür. |
 
-### Notlar
+## Notlar
 
 Bu nesneyi bir belge için adres-mektup birleştirme veri kaynağı belirtmek için kullanabilirsiniz ve kullanıcı bu belgeyi açtığında bu information (mevcut veri alanlarıyla birlikte) Microsoft Word'de görünecektir. Veya bu nesneyi adres-mektup birleştirme ayarlarını sorgulamak için kullanabilirsiniz kullanıcının bu belge için Microsoft Word 'de belirttiği.
 
@@ -64,7 +66,7 @@ Bu nesnenin özelliklerinin nasıl kullanılacağını öğrenmenin en iyi yolu,
 
 Aspose.Words, belge 'yi yüklerken, kaydederken ve farklı formatlar arasında dönüştürürken adres-mektup birleştirme bilgilerini korur, ancak belgelerini farklı formatlar arasında dönüştürürken bu bilgiyi kullanmaz.[`MailMerge`](../../aspose.words.mailmerging/mailmerge/) nesne.
 
-### Örnekler
+## Örnekler
 
 Bir Office Veri Kaynağı Nesnesinden alınan verilerle adres-mektup birleştirmenin nasıl yürütüleceğini gösterir.
 
@@ -117,5 +119,3 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * ad alanı [Aspose.Words.Settings](../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../)
-
-

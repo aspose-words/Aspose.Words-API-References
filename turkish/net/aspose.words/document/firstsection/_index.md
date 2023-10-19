@@ -1,7 +1,9 @@
 ---
 title: Document.FirstSection
-second_title: Aspose.Words for .NET API Referansı
-description: Document mülk. Belgedeki ilk bölümü alır.
+linktitle: FirstSection
+articleTitle: FirstSection
+second_title: Aspose.Words for .NET
+description: Document FirstSection mülk. Belgedeki ilk bölümü alır C#'da.
 type: docs
 weight: 130
 url: /tr/net/aspose.words/document/firstsection/
@@ -14,11 +16,11 @@ Belgedeki ilk bölümü alır.
 public Section FirstSection { get; }
 ```
 
-### Notlar
+## Notlar
 
 İadeler`hükümsüz` bölüm yoksa.
 
-### Örnekler
+## Örnekler
 
 Belgenin altbilgisindeki metnin nasıl değiştirileceğini gösterir.
 
@@ -120,7 +122,5 @@ foreach (Node node in section)
 
 * class [Section](../../section/)
 * class [Document](../)
-* ad alanı [Aspose.Words](../../document/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

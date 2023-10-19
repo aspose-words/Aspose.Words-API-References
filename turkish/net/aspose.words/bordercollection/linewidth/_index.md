@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.LineWidth
-second_title: Aspose.Words for .NET API Referansı
-description: BorderCollection mülk. Kenarlık genişliğini nokta cinsinden alır veya ayarlar.
+linktitle: LineWidth
+articleTitle: LineWidth
+second_title: Aspose.Words for .NET
+description: BorderCollection LineWidth mülk. Kenarlık genişliğini nokta cinsinden alır veya ayarlar C#'da.
 type: docs
 weight: 90
 url: /tr/net/aspose.words/bordercollection/linewidth/
@@ -14,13 +16,13 @@ Kenarlık genişliğini nokta cinsinden alır veya ayarlar.
 public double LineWidth { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Koleksiyondaki ilk kenarlığın genişliğini döndürür.
 
 Koleksiyondaki çapraz kenarlıklar hariç tüm kenarlıkların genişliğini ayarlar.
 
-### Örnekler
+## Örnekler
 
 Gölgeli yeşil dalgalı sayfa kenarlığının nasıl oluşturulacağını gösterir.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageBorders.docx");
 ### Ayrıca bakınız
 
 * class [BorderCollection](../)
-* ad alanı [Aspose.Words](../../bordercollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

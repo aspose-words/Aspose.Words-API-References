@@ -1,7 +1,9 @@
 ---
 title: TaskPane.IsVisible
-second_title: Aspose.Words for .NET API Referansı
-description: TaskPane mülk. Belge açıldığında görev bölmesinin varsayılan olarak görünür olarak görünüp görünmeyeceğini belirtir.
+linktitle: IsVisible
+articleTitle: IsVisible
+second_title: Aspose.Words for .NET
+description: TaskPane IsVisible mülk. Belge açıldığında görev bölmesinin varsayılan olarak görünür olarak görünüp görünmeyeceğini belirtir C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.webextensions/taskpane/isvisible/
@@ -14,7 +16,7 @@ Belge açıldığında görev bölmesinin varsayılan olarak görünür olarak g
 public bool IsVisible { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgeye nasıl web uzantısı ekleneceğini gösterir.
 
@@ -59,7 +61,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### Ayrıca bakınız
 
 * class [TaskPane](../)
-* ad alanı [Aspose.Words.WebExtensions](../../taskpane/)
+* ad alanı [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * toplantı [Aspose.Words](../../../)
-
-

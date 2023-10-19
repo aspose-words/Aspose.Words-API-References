@@ -1,7 +1,9 @@
 ---
 title: FieldMergeField.IsVerticalFormatting
-second_title: Aspose.Words for .NET API Referansı
-description: FieldMergeField mülk. Dikey biçimlendirme için karakter dönüştürmenin etkinleştirilip etkinleştirilmeyeceğini alır veya ayarlar.
+linktitle: IsVerticalFormatting
+articleTitle: IsVerticalFormatting
+second_title: Aspose.Words for .NET
+description: FieldMergeField IsVerticalFormatting mülk. Dikey biçimlendirme için karakter dönüştürmenin etkinleştirilip etkinleştirilmeyeceğini alır veya ayarlar C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.fields/fieldmergefield/isverticalformatting/
@@ -14,7 +16,7 @@ Dikey biçimlendirme için karakter dönüştürmenin etkinleştirilip etkinleş
 public bool IsVerticalFormatting { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Adres-mektup birleştirme gerçekleştirmek için MERGEFIELD alanlarının nasıl kullanılacağını gösterir.
 
@@ -56,7 +58,5 @@ Assert.AreEqual("Dear Mr. Doe:\u000cDear Mrs. Cardholder:", doc.GetText().Trim()
 ### Ayrıca bakınız
 
 * class [FieldMergeField](../)
-* ad alanı [Aspose.Words.Fields](../../fieldmergefield/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

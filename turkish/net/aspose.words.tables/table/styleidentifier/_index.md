@@ -1,7 +1,9 @@
 ---
 title: Table.StyleIdentifier
-second_title: Aspose.Words for .NET API Referansı
-description: Table mülk. Bu tabloya uygulanan tablo stilinin yerel ayardan bağımsız stil tanımlayıcısını alır veya ayarlar.
+linktitle: StyleIdentifier
+articleTitle: StyleIdentifier
+second_title: Aspose.Words for .NET
+description: Table StyleIdentifier mülk. Bu tabloya uygulanan tablo stilinin yerel ayardan bağımsız stil tanımlayıcısını alır veya ayarlar C#'da.
 type: docs
 weight: 280
 url: /tr/net/aspose.words.tables/table/styleidentifier/
@@ -14,7 +16,7 @@ Bu tabloya uygulanan tablo stilinin yerel ayardan bağımsız stil tanımlayıc�
 public StyleIdentifier StyleIdentifier { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Stil uygularken yeni bir tablonun nasıl oluşturulacağını gösterir.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTableWithStyle.docx");
 
 * enum [StyleIdentifier](../../../aspose.words/styleidentifier/)
 * class [Table](../)
-* ad alanı [Aspose.Words.Tables](../../table/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

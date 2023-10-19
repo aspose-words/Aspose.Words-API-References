@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.RelativeHorizontalPosition
-second_title: Aspose.Words for .NET API Referansı
-description: ShapeBase mülk. Şeklin yatay olarak nasıl konumlandırılacağına göre belirtir.
+linktitle: RelativeHorizontalPosition
+articleTitle: RelativeHorizontalPosition
+second_title: Aspose.Words for .NET
+description: ShapeBase RelativeHorizontalPosition mülk. Şeklin yatay olarak nasıl konumlandırılacağına göre belirtir C#'da.
 type: docs
 weight: 420
 url: /tr/net/aspose.words.drawing/shapebase/relativehorizontalposition/
@@ -14,13 +16,13 @@ url: /tr/net/aspose.words.drawing/shapebase/relativehorizontalposition/
 public RelativeHorizontalPosition RelativeHorizontalPosition { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:Column.
 
 Yalnızca üst düzey kayan şekiller için etkilidir.
 
-### Örnekler
+## Örnekler
 
 Sayfanın ortasına kayan bir görüntünün nasıl ekleneceğini gösterir.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPageCenter.docx");
 
 * enum [RelativeHorizontalPosition](../../relativehorizontalposition/)
 * class [ShapeBase](../)
-* ad alanı [Aspose.Words.Drawing](../../shapebase/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

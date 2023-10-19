@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.IsImage
-second_title: Aspose.Words for .NET API Referansı
-description: ShapeBase mülk. İadelerdoğru bu şekil bir resim şekli ise.
+linktitle: IsImage
+articleTitle: IsImage
+second_title: Aspose.Words for .NET
+description: ShapeBase IsImage mülk. İadelerdoğru bu şekil bir resim şekli ise C#'da.
 type: docs
 weight: 280
 url: /tr/net/aspose.words.drawing/shapebase/isimage/
@@ -17,7 +19,5 @@ public bool IsImage { get; }
 ### Ayrıca bakınız
 
 * class [ShapeBase](../)
-* ad alanı [Aspose.Words.Drawing](../../shapebase/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

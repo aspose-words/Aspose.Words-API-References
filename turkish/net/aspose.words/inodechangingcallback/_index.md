@@ -1,7 +1,9 @@
 ---
-title: Interface INodeChangingCallback
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.INodeChangingCallback arayüz. Belgeye düğümler eklendiğinde veya kaldırıldığında bildirim almak istiyorsanız bu arayüzü uygulayın.
+title: INodeChangingCallback Interface
+linktitle: INodeChangingCallback
+articleTitle: INodeChangingCallback
+second_title: Aspose.Words for .NET
+description: Aspose.Words.INodeChangingCallback arayüz. Belgeye düğümler eklendiğinde veya kaldırıldığında bildirim almak istiyorsanız bu arayüzü uygulayın C#'da.
 type: docs
 weight: 3200
 url: /tr/net/aspose.words/inodechangingcallback/
@@ -18,12 +20,12 @@ public interface INodeChangingCallback
 
 | İsim | Tanım |
 | --- | --- |
-| [NodeInserted](../../aspose.words/inodechangingcallback/nodeinserted/)(NodeChangingArgs) | Bu belgeye ait bir düğüm başka bir düğüme eklendiğinde çağrılır. |
-| [NodeInserting](../../aspose.words/inodechangingcallback/nodeinserting/)(NodeChangingArgs) | Bu belgeye ait bir düğümün başka bir düğüme eklenmesinden hemen önce çağrılır. |
-| [NodeRemoved](../../aspose.words/inodechangingcallback/noderemoved/)(NodeChangingArgs) | Bu belgeye ait bir düğüm üst öğesinden kaldırıldığında çağrılır. |
-| [NodeRemoving](../../aspose.words/inodechangingcallback/noderemoving/)(NodeChangingArgs) | Bu belgeye ait bir düğümün belgeden kaldırılmasından hemen önce çağrılır. |
+| [NodeInserted](../../aspose.words/inodechangingcallback/nodeinserted/)(*[NodeChangingArgs](../nodechangingargs/)*) | Bu belgeye ait bir düğüm başka bir düğüme eklendiğinde çağrılır. |
+| [NodeInserting](../../aspose.words/inodechangingcallback/nodeinserting/)(*[NodeChangingArgs](../nodechangingargs/)*) | Bu belgeye ait bir düğümün başka bir düğüme eklenmesinden hemen önce çağrılır. |
+| [NodeRemoved](../../aspose.words/inodechangingcallback/noderemoved/)(*[NodeChangingArgs](../nodechangingargs/)*) | Bu belgeye ait bir düğüm üst öğesinden kaldırıldığında çağrılır. |
+| [NodeRemoving](../../aspose.words/inodechangingcallback/noderemoving/)(*[NodeChangingArgs](../nodechangingargs/)*) | Bu belgeye ait bir düğümün belgeden kaldırılmasından hemen önce çağrılır. |
 
-### Örnekler
+## Örnekler
 
 Bir geri aramayla düğüm değişiminin nasıl özelleştirileceğini gösterir.
 
@@ -101,5 +103,3 @@ public class HandleNodeChangingFontChanger : INodeChangingCallback
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

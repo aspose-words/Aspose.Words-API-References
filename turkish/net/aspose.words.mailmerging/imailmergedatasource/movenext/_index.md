@@ -1,7 +1,9 @@
 ---
 title: IMailMergeDataSource.MoveNext
-second_title: Aspose.Words for .NET API Referansı
-description: IMailMergeDataSource yöntem. Veri kaynağındaki bir sonraki kayda ilerler.
+linktitle: MoveNext
+articleTitle: MoveNext
+second_title: Aspose.Words for .NET
+description: IMailMergeDataSource MoveNext yöntem. Veri kaynağındaki bir sonraki kayda ilerler C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.mailmerging/imailmergedatasource/movenext/
@@ -18,7 +20,7 @@ public bool MoveNext()
 
 `doğru` başarılı bir şekilde sonraki kayda taşınırsa;`YANLIŞ` veri kaynağının sonuna ulaşılırsa.
 
-### Örnekler
+## Örnekler
 
 Özel nesne biçimindeki bir veri kaynağıyla adres-mektup birleştirmenin nasıl yürütüleceğini gösterir.
 
@@ -132,7 +134,5 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
 ### Ayrıca bakınız
 
 * interface [IMailMergeDataSource](../)
-* ad alanı [Aspose.Words.MailMerging](../../imailmergedatasource/)
+* ad alanı [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * toplantı [Aspose.Words](../../../)
-
-

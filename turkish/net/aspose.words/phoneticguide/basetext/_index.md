@@ -1,7 +1,9 @@
 ---
 title: PhoneticGuide.BaseText
-second_title: Aspose.Words for .NET API Referansı
-description: PhoneticGuide mülk. Fonetik kılavuzun temel metnini alır.
+linktitle: BaseText
+articleTitle: BaseText
+second_title: Aspose.Words for .NET
+description: PhoneticGuide BaseText mülk. Fonetik kılavuzun temel metnini alır C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/phoneticguide/basetext/
@@ -14,7 +16,7 @@ Fonetik kılavuzun temel metnini alır.
 public string BaseText { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Fonetik kılavuzun özelliklerinin nasıl alınacağını gösterir.
 
@@ -31,7 +33,5 @@ Assert.AreEqual("ruby", runs[0].PhoneticGuide.RubyText);
 ### Ayrıca bakınız
 
 * class [PhoneticGuide](../)
-* ad alanı [Aspose.Words](../../phoneticguide/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

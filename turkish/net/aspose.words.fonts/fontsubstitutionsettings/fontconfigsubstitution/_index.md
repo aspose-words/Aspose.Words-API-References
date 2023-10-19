@@ -1,7 +1,9 @@
 ---
 title: FontSubstitutionSettings.FontConfigSubstitution
-second_title: Aspose.Words for .NET API Referansı
-description: FontSubstitutionSettings mülk. Yazı tipi yapılandırma değiştirme kuralıyla ilgili ayarlar.
+linktitle: FontConfigSubstitution
+articleTitle: FontConfigSubstitution
+second_title: Aspose.Words for .NET
+description: FontSubstitutionSettings FontConfigSubstitution mülk. Yazı tipi yapılandırma değiştirme kuralıyla ilgili ayarlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fonts/fontsubstitutionsettings/fontconfigsubstitution/
@@ -14,7 +16,7 @@ Yazı tipi yapılandırma değiştirme kuralıyla ilgili ayarlar.
 public FontConfigSubstitutionRule FontConfigSubstitution { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 İşletim sistemine bağlı yazı tipi yapılandırma değişikliğini gösterir.
 
@@ -51,7 +53,5 @@ if (isLinuxOrMac)
 
 * class [FontConfigSubstitutionRule](../../fontconfigsubstitutionrule/)
 * class [FontSubstitutionSettings](../)
-* ad alanı [Aspose.Words.Fonts](../../fontsubstitutionsettings/)
+* ad alanı [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../../)
-
-

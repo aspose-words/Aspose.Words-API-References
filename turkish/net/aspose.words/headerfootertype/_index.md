@@ -1,7 +1,9 @@
 ---
-title: Enum HeaderFooterType
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.HeaderFooterType Sıralama. Word dosyasında bulunan üstbilgi veya altbilginin türünü tanımlar.
+title: HeaderFooterType Enum
+linktitle: HeaderFooterType
+articleTitle: HeaderFooterType
+second_title: Aspose.Words for .NET
+description: Aspose.Words.HeaderFooterType Sıralama. Word dosyasında bulunan üstbilgi veya altbilginin türünü tanımlar C#'da.
 type: docs
 weight: 3120
 url: /tr/net/aspose.words/headerfootertype/
@@ -25,7 +27,7 @@ public enum HeaderFooterType
 | HeaderFirst | `4` | Bölümün ilk sayfasının başlığı. |
 | FooterFirst | `5` | Bölümün ilk sayfası için alt bilgi. |
 
-### Örnekler
+## Örnekler
 
 DocumentBuilder'ı kullanarak bir belgede üstbilgilerin ve altbilgilerin nasıl oluşturulacağını gösterir.
 
@@ -59,5 +61,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.HeadersAndFooters.docx");
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

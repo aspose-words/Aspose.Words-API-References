@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.NameOfApplication
-second_title: Aspose.Words for .NET API Referansı
-description: BuiltInDocumentProperties mülk. Uygulamanın adını alır veya ayarlar.
+linktitle: NameOfApplication
+articleTitle: NameOfApplication
+second_title: Aspose.Words for .NET
+description: BuiltInDocumentProperties NameOfApplication mülk. Uygulamanın adını alır veya ayarlar C#'da.
 type: docs
 weight: 210
 url: /tr/net/aspose.words.properties/builtindocumentproperties/nameofapplication/
@@ -14,7 +16,7 @@ Uygulamanın adını alır veya ayarlar.
 public string NameOfApplication { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 "Orijin" kategorisindeki belge özellikleriyle nasıl çalışılacağını gösterir.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.Origin.docx");
 ### Ayrıca bakınız
 
 * class [BuiltInDocumentProperties](../)
-* ad alanı [Aspose.Words.Properties](../../builtindocumentproperties/)
+* ad alanı [Aspose.Words.Properties](../../../aspose.words.properties/)
 * toplantı [Aspose.Words](../../../)
-
-

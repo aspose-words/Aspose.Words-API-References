@@ -1,7 +1,9 @@
 ---
 title: PageInfo.Landscape
-second_title: Aspose.Words for .NET API Referansı
-description: PageInfo mülk. İadelerdoğru bu sayfa için belgede belirtilen sayfa yönü yatay ise.
+linktitle: Landscape
+articleTitle: Landscape
+second_title: Aspose.Words for .NET
+description: PageInfo Landscape mülk. İadelerdoğru bu sayfa için belgede belirtilen sayfa yönü yatay ise C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.rendering/pageinfo/landscape/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.rendering/pageinfo/landscape/
 public bool Landscape { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir Word belgesindeki her sayfa için sayfa boyutu ve yön bilgilerinin nasıl yazdırılacağını gösterir.
 
@@ -157,7 +159,5 @@ public class MyPrintDocument : PrintDocument
 ### Ayrıca bakınız
 
 * class [PageInfo](../)
-* ad alanı [Aspose.Words.Rendering](../../pageinfo/)
+* ad alanı [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * toplantı [Aspose.Words](../../../)
-
-

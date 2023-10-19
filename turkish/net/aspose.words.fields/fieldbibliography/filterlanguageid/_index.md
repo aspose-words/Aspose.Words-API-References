@@ -1,7 +1,9 @@
 ---
 title: FieldBibliography.FilterLanguageId
-second_title: Aspose.Words for .NET API Referansı
-description: FieldBibliography mülk. Bibliyografik verileri yalnızca belgedeki o dili kullanan kaynaklara göre filtrelemek için kullanılan dil kimliğini alır veya ayarlar.
+linktitle: FilterLanguageId
+articleTitle: FilterLanguageId
+second_title: Aspose.Words for .NET
+description: FieldBibliography FilterLanguageId mülk. Bibliyografik verileri yalnızca belgedeki o dili kullanan kaynaklara göre filtrelemek için kullanılan dil kimliğini alır veya ayarlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fieldbibliography/filterlanguageid/
@@ -17,7 +19,5 @@ public string FilterLanguageId { get; set; }
 ### Ayrıca bakınız
 
 * class [FieldBibliography](../)
-* ad alanı [Aspose.Words.Fields](../../fieldbibliography/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

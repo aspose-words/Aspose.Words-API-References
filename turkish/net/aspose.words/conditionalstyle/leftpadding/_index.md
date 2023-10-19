@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyle.LeftPadding
-second_title: Aspose.Words for .NET API Referansı
-description: ConditionalStyle mülk. Tablo hücrelerinin içeriğinin soluna eklenecek alan miktarını puan cinsinden alır veya ayarlar.
+linktitle: LeftPadding
+articleTitle: LeftPadding
+second_title: Aspose.Words for .NET
+description: ConditionalStyle LeftPadding mülk. Tablo hücrelerinin içeriğinin soluna eklenecek alan miktarını puan cinsinden alır veya ayarlar C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words/conditionalstyle/leftpadding/
@@ -14,7 +16,7 @@ Tablo hücrelerinin içeriğinin soluna eklenecek alan miktarını (puan cinsind
 public double LeftPadding { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir tablonun belirli alan stilleriyle nasıl çalışılacağını gösterir.
 
@@ -84,7 +86,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 ### Ayrıca bakınız
 
 * class [ConditionalStyle](../)
-* ad alanı [Aspose.Words](../../conditionalstyle/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

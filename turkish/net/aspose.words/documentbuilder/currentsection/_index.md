@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.CurrentSection
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentBuilder mülk. Bu bölümde o anda seçili olan bölümü döndürürDocumentBuilder .
+linktitle: CurrentSection
+articleTitle: CurrentSection
+second_title: Aspose.Words for .NET
+description: DocumentBuilder CurrentSection mülk. Bu bölümde o anda seçili olan bölümü döndürürDocumentBuilder  C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words/documentbuilder/currentsection/
@@ -14,7 +16,7 @@ Bu bölümde o anda seçili olan bölümü döndürür[`DocumentBuilder`](../) .
 public Section CurrentSection { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Kayan bir görüntünün nasıl ekleneceğini ve konumunun ve boyutunun nasıl belirleneceğini gösterir.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPositionSize.docx");
 
 * class [Section](../../section/)
 * class [DocumentBuilder](../)
-* ad alanı [Aspose.Words](../../documentbuilder/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

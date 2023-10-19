@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.HasPageNumberSeparator
-second_title: Aspose.Words for .NET API Referansı
-description: FieldIndex mülk. Alanın kodu aracılığıyla sayfa numarası ayırıcısının geçersiz kılınıp kılınmadığını belirten bir değer alır.
+linktitle: HasPageNumberSeparator
+articleTitle: HasPageNumberSeparator
+second_title: Aspose.Words for .NET
+description: FieldIndex HasPageNumberSeparator mülk. Alanın kodu aracılığıyla sayfa numarası ayırıcısının geçersiz kılınıp kılınmadığını belirten bir değer alır C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.fields/fieldindex/haspagenumberseparator/
@@ -14,7 +16,7 @@ Alanın kodu aracılığıyla sayfa numarası ayırıcısının geçersiz kılı
 public bool HasPageNumberSeparator { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir INDEX alanında sayfa numarası ayırıcısının nasıl düzenleneceğini gösterir.
 
@@ -61,7 +63,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.PageNumberList.docx");
 ### Ayrıca bakınız
 
 * class [FieldIndex](../)
-* ad alanı [Aspose.Words.Fields](../../fieldindex/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

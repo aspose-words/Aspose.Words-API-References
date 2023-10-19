@@ -1,7 +1,9 @@
 ---
 title: FieldMergingArgsBase.FieldValue
-second_title: Aspose.Words for .NET API Referansı
-description: FieldMergingArgsBase mülk. Alanın değerini veri kaynağından alır veya ayarlar.
+linktitle: FieldValue
+articleTitle: FieldValue
+second_title: Aspose.Words for .NET
+description: FieldMergingArgsBase FieldValue mülk. Alanın değerini veri kaynağından alır veya ayarlar C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.mailmerging/fieldmergingargsbase/fieldvalue/
@@ -14,11 +16,11 @@ Alanın değerini veri kaynağından alır veya ayarlar.
 public object FieldValue { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özellik, adres-mektup birleştirme motoru tarafından bu alan için veri kaynağınızdan seçilen bir değeri içerir. Ayrıca özelliği ayarlayarak değeri değiştirebilirsiniz.
 
-### Örnekler
+## Örnekler
 
 Adres-mektup birleştirme gerçekleşirken MERGEFIELD'lerin aldığı değerlerin nasıl düzenleneceğini gösterir.
 
@@ -71,7 +73,5 @@ private class FieldValueMergingCallback : IFieldMergingCallback
 ### Ayrıca bakınız
 
 * class [FieldMergingArgsBase](../)
-* ad alanı [Aspose.Words.MailMerging](../../fieldmergingargsbase/)
+* ad alanı [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.FileName
-second_title: Aspose.Words for .NET API Referansı
-description: FieldOptions mülk. Belgenin dosya adını alır veya ayarlar.
+linktitle: FileName
+articleTitle: FileName
+second_title: Aspose.Words for .NET
+description: FieldOptions FileName mülk. Belgenin dosya adını alır veya ayarlar C#'da.
 type: docs
 weight: 140
 url: /tr/net/aspose.words.fields/fieldoptions/filename/
@@ -14,11 +16,11 @@ Belgenin dosya adını alır veya ayarlar.
 public string FileName { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özellik şu kişi tarafından kullanılır:[`FieldFileName`](../../fieldfilename/) göre daha yüksek önceliğe sahip alan[`OriginalFileName`](../../../aspose.words/document/originalfilename/) mülk.
 
-### Örnekler
+## Örnekler
 
 FILENAME alanının varsayılan değerini geçersiz kılmak için FieldOptions'ın nasıl kullanılacağını gösterir.
 
@@ -61,7 +63,5 @@ doc.Save(ArtifactsDir + doc.FieldOptions.FileName);
 ### Ayrıca bakınız
 
 * class [FieldOptions](../)
-* ad alanı [Aspose.Words.Fields](../../fieldoptions/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

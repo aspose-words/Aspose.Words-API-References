@@ -1,7 +1,9 @@
 ---
 title: Odso.FieldMapDatas
-second_title: Aspose.Words for .NET API Referansı
-description: Odso mülk. Dış veri kaynağı deki sütunların belgedeki önceden tanımlanmış birleştirme alanı adlarıyla nasıl eşlendiğini belirten bir nesne koleksiyonunu alır veya ayarlar. Bu nesne hiçbir zamanhükümsüz .
+linktitle: FieldMapDatas
+articleTitle: FieldMapDatas
+second_title: Aspose.Words for .NET
+description: Odso FieldMapDatas mülk. Dış veri kaynağı deki sütunların belgedeki önceden tanımlanmış birleştirme alanı adlarıyla nasıl eşlendiğini belirten bir nesne koleksiyonunu alır veya ayarlar. Bu nesne hiçbir zamanhükümsüz  C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.settings/odso/fieldmapdatas/
@@ -14,7 +16,7 @@ Dış veri kaynağı 'deki sütunların belgedeki önceden tanımlanmış birle�
 public OdsoFieldMapDataCollection FieldMapDatas { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Veri kaynağı sütunlarını birleştirme alanlarıyla eşleştiren veri koleksiyonuna nasıl erişileceğini gösterir.
 
@@ -58,7 +60,5 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * class [OdsoFieldMapDataCollection](../../odsofieldmapdatacollection/)
 * class [Odso](../)
-* ad alanı [Aspose.Words.Settings](../../odso/)
+* ad alanı [Aspose.Words.Settings](../../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../../)
-
-

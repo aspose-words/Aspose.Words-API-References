@@ -1,7 +1,9 @@
 ---
 title: SdtListItemCollection.Add
-second_title: Aspose.Words for .NET API Referansı
-description: SdtListItemCollection yöntem. Bu koleksiyona bir öğe ekler.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words for .NET
+description: SdtListItemCollection Add yöntem. Bu koleksiyona bir öğe ekler C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.markup/sdtlistitemcollection/add/
@@ -14,7 +16,7 @@ Bu koleksiyona bir öğe ekler.
 public void Add(SdtListItem item)
 ```
 
-### Örnekler
+## Örnekler
 
 Açılır liste yapılandırılmış belge etiketleriyle nasıl çalışılacağını gösterir.
 
@@ -72,7 +74,5 @@ Assert.AreEqual(0, listItems.Count);
 
 * class [SdtListItem](../../sdtlistitem/)
 * class [SdtListItemCollection](../)
-* ad alanı [Aspose.Words.Markup](../../sdtlistitemcollection/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

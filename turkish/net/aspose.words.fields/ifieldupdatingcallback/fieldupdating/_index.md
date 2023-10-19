@@ -1,7 +1,9 @@
 ---
 title: IFieldUpdatingCallback.FieldUpdating
-second_title: Aspose.Words for .NET API Referansı
-description: IFieldUpdatingCallback yöntem. Bir alan güncellenmeden hemen önce çağrılan kullanıcı tanımlı bir yöntem.
+linktitle: FieldUpdating
+articleTitle: FieldUpdating
+second_title: Aspose.Words for .NET
+description: IFieldUpdatingCallback FieldUpdating yöntem. Bir alan güncellenmeden hemen önce çağrılan kullanıcı tanımlı bir yöntem C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/ifieldupdatingcallback/fieldupdating/
@@ -14,7 +16,7 @@ Bir alan güncellenmeden hemen önce çağrılan, kullanıcı tanımlı bir yön
 public void FieldUpdating(Field field)
 ```
 
-### Örnekler
+## Örnekler
 
 Alan güncellemesi sırasında geri çağırma yöntemlerinin nasıl kullanılacağını gösterir.
 
@@ -83,7 +85,5 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgr
 
 * class [Field](../../field/)
 * interface [IFieldUpdatingCallback](../)
-* ad alanı [Aspose.Words.Fields](../../ifieldupdatingcallback/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

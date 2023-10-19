@@ -1,7 +1,9 @@
 ---
 title: Paragraph.IsListItem
-second_title: Aspose.Words for .NET API Referansı
-description: Paragraph mülk. Paragrafın orijinal revizyondaki madde işaretli veya numaralı listedeki bir öğe olması durumunda doğrudur.
+linktitle: IsListItem
+articleTitle: IsListItem
+second_title: Aspose.Words for .NET
+description: Paragraph IsListItem mülk. Paragrafın orijinal revizyondaki madde işaretli veya numaralı listedeki bir öğe olması durumunda doğrudur C#'da.
 type: docs
 weight: 120
 url: /tr/net/aspose.words/paragraph/islistitem/
@@ -14,7 +16,7 @@ Paragrafın orijinal revizyondaki madde işaretli veya numaralı listedeki bir �
 public bool IsListItem { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir listenin başka bir listenin içine nasıl yerleştirileceğini gösterir.
 
@@ -68,7 +70,5 @@ builder.Document.Save(ArtifactsDir + "Lists.NestedLists.docx");
 ### Ayrıca bakınız
 
 * class [Paragraph](../)
-* ad alanı [Aspose.Words](../../paragraph/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Document.CustomDocumentProperties
-second_title: Aspose.Words for .NET API Referansı
-description: Document mülk. Belgenin tüm özel belge özelliklerini temsil eden bir koleksiyon döndürür.
+linktitle: CustomDocumentProperties
+articleTitle: CustomDocumentProperties
+second_title: Aspose.Words for .NET
+description: Document CustomDocumentProperties mülk. Belgenin tüm özel belge özelliklerini temsil eden bir koleksiyon döndürür C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words/document/customdocumentproperties/
@@ -14,7 +16,7 @@ Belgenin tüm özel belge özelliklerini temsil eden bir koleksiyon döndürür.
 public CustomDocumentProperties CustomDocumentProperties { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Yerleşik belge özellikleriyle nasıl çalışılacağını gösterir.
 
@@ -49,7 +51,5 @@ foreach (DocumentProperty docProperty in doc.BuiltInDocumentProperties)
 
 * class [CustomDocumentProperties](../../../aspose.words.properties/customdocumentproperties/)
 * class [Document](../)
-* ad alanı [Aspose.Words](../../document/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

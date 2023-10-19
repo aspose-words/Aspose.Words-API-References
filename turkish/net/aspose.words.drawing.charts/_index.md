@@ -1,7 +1,9 @@
 ---
 title: Aspose.Words.Drawing.Charts
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.Charts ad alanı Microsoft Word belgelerindeki grafiklere erişime izin veren sınıflar sağlar.
+linktitle: Aspose.Words.Drawing.Charts
+articleTitle: Aspose.Words.Drawing.Charts
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.Charts ad alanı Microsoft Word belgelerindeki grafiklere erişime izin veren sınıflar sağlar C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.drawing.charts/
@@ -62,5 +64,3 @@ url: /tr/net/aspose.words.drawing.charts/
 | [ChartYValueType](./chartyvaluetype/) | Bir grafik serisinin Y değerinin türünü belirtmeye izin verir. |
 | [LegendPosition](./legendposition/) | Bir grafik açıklaması için olası konumları belirtir. |
 | [MarkerSymbol](./markersymbol/) | İşaretçi sembolü stilini belirtir. |
-
-

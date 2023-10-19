@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.IsTopLevel
-second_title: Aspose.Words for .NET API Referansı
-description: ShapeBase mülk. İadelerdoğrubu şekil bir grup şeklinin alt öğesi değilse.
+linktitle: IsTopLevel
+articleTitle: IsTopLevel
+second_title: Aspose.Words for .NET
+description: ShapeBase IsTopLevel mülk. İadelerdoğrubu şekil bir grup şeklinin alt öğesi değilse C#'da.
 type: docs
 weight: 350
 url: /tr/net/aspose.words.drawing/shapebase/istoplevel/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.drawing/shapebase/istoplevel/
 public bool IsTopLevel { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir şeklin grup şeklinin parçası olup olmadığının nasıl anlaşılacağını gösterir.
 
@@ -39,7 +41,5 @@ Assert.False(shape.IsTopLevel);
 ### Ayrıca bakınız
 
 * class [ShapeBase](../)
-* ad alanı [Aspose.Words.Drawing](../../shapebase/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

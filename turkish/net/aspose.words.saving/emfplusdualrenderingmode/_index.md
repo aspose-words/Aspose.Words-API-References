@@ -1,7 +1,9 @@
 ---
-title: Enum EmfPlusDualRenderingMode
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Saving.EmfPlusDualRenderingMode Sıralama. Aspose.Wordsün EMF Dual meta dosyalarını nasıl oluşturacağını belirtir.
+title: EmfPlusDualRenderingMode Enum
+linktitle: EmfPlusDualRenderingMode
+articleTitle: EmfPlusDualRenderingMode
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Saving.EmfPlusDualRenderingMode Sıralama. Aspose.Wordsün EMF Dual meta dosyalarını nasıl oluşturacağını belirtir C#'da.
 type: docs
 weight: 4980
 url: /tr/net/aspose.words.saving/emfplusdualrenderingmode/
@@ -22,7 +24,7 @@ public enum EmfPlusDualRenderingMode
 | EmfPlus | `1` | Aspose.Words, EMF+ Dual meta dosyasının EMF+ kısmını oluşturur. |
 | Emf | `2` | Aspose.Words, EMF+ Dual meta dosyasının EMF kısmını oluşturur. |
 
-### Örnekler
+## Örnekler
 
 PDF'ye kaydederken Gelişmiş Windows Meta Dosyası ile ilgili işleme seçeneklerinin nasıl yapılandırılacağını gösterir.
 
@@ -53,5 +55,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.RenderMetafile.pdf", saveOptions);
 
 * ad alanı [Aspose.Words.Saving](../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Font.LocaleIdBi
-second_title: Aspose.Words for .NET API Referansı
-description: Font mülk. Biçimlendirilmiş sağdan sola karakterlerin yerel ayar tanımlayıcısını dili alır veya ayarlar.
+linktitle: LocaleIdBi
+articleTitle: LocaleIdBi
+second_title: Aspose.Words for .NET
+description: Font LocaleIdBi mülk. Biçimlendirilmiş sağdan sola karakterlerin yerel ayar tanımlayıcısını dili alır veya ayarlar C#'da.
 type: docs
 weight: 210
 url: /tr/net/aspose.words/font/localeidbi/
@@ -14,11 +16,11 @@ Biçimlendirilmiş sağdan sola karakterlerin yerel ayar tanımlayıcısını (d
 public int LocaleIdBi { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Yerel tanımlayıcıların listesi için bkz. https://msdn.microsoft.com/en-us/library/cc233965.aspx
 
-### Örnekler
+## Örnekler
 
 Sağdan sola ve sağdan sola metin için ayrı yazı tipi ayarları kümelerinin nasıl tanımlanacağını gösterir.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "Font.Bidi.docx");
 ### Ayrıca bakınız
 
 * class [Font](../)
-* ad alanı [Aspose.Words](../../font/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

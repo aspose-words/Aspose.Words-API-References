@@ -1,7 +1,9 @@
 ---
 title: TableStyle.Shading
-second_title: Aspose.Words for .NET API Referansı
-description: TableStyle mülk. Bir alırShading tablo hücrelerinin gölgelendirme formatını ifade eden nesne.
+linktitle: Shading
+articleTitle: Shading
+second_title: Aspose.Words for .NET
+description: TableStyle Shading mülk. Bir alırShading tablo hücrelerinin gölgelendirme formatını ifade eden nesne C#'da.
 type: docs
 weight: 130
 url: /tr/net/aspose.words/tablestyle/shading/
@@ -14,7 +16,7 @@ Bir alır[`Shading`](../../shading/) tablo hücrelerinin gölgelendirme formatı
 public Shading Shading { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Tablo için özel stil ayarlarının nasıl oluşturulacağını gösterir.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "Table.TableStyleCreation.docx");
 
 * class [Shading](../../shading/)
 * class [TableStyle](../)
-* ad alanı [Aspose.Words](../../tablestyle/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

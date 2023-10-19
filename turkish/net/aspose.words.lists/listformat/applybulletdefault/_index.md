@@ -1,7 +1,9 @@
 ---
 title: ListFormat.ApplyBulletDefault
-second_title: Aspose.Words for .NET API Referansı
-description: ListFormat yöntem. Yeni bir varsayılan madde işaretli liste başlatır ve bunu paragrafa uygular.
+linktitle: ApplyBulletDefault
+articleTitle: ApplyBulletDefault
+second_title: Aspose.Words for .NET
+description: ListFormat ApplyBulletDefault yöntem. Yeni bir varsayılan madde işaretli liste başlatır ve bunu paragrafa uygular C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.lists/listformat/applybulletdefault/
@@ -14,11 +16,11 @@ Yeni bir varsayılan madde işaretli liste başlatır ve bunu paragrafa uygular.
 public void ApplyBulletDefault()
 ```
 
-### Notlar
+## Notlar
 
 Bu, varsayılan bulleted şablonunu kullanarak yeni bir liste oluşturan, bunu paragrafa uygulayan ve 1. liste düzeyini seçen bir kısayol yöntemidir.
 
-### Örnekler
+## Örnekler
 
 Madde işaretli ve numaralı listelerin nasıl oluşturulacağını gösterir.
 
@@ -103,7 +105,5 @@ doc.Save(ArtifactsDir + "Lists.ApplyDefaultBulletsAndNumbers.docx");
 ### Ayrıca bakınız
 
 * class [ListFormat](../)
-* ad alanı [Aspose.Words.Lists](../../listformat/)
+* ad alanı [Aspose.Words.Lists](../../../aspose.words.lists/)
 * toplantı [Aspose.Words](../../../)
-
-

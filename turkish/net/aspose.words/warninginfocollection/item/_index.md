@@ -1,7 +1,9 @@
 ---
 title: WarningInfoCollection.Item
-second_title: Aspose.Words for .NET API Referansı
-description: WarningInfoCollection mülk. Belirtilen dizindeki bir öğeyi alır.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words for .NET
+description: WarningInfoCollection Item mülk. Belirtilen dizindeki bir öğeyi alır C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/warninginfocollection/item/
@@ -22,7 +24,5 @@ public WarningInfo this[int index] { get; }
 
 * class [WarningInfo](../../warninginfo/)
 * class [WarningInfoCollection](../)
-* ad alanı [Aspose.Words](../../warninginfocollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

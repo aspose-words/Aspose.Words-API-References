@@ -1,14 +1,16 @@
 ---
 title: CertificateHolder.Certificate
-second_title: Aspose.Words for .NET API Referansı
-description: CertificateHolder mülk. Örneğini döndürür X509Sertifika2 özel genel anahtarları ve sertifika zincirini tutan.
+linktitle: Certificate
+articleTitle: Certificate
+second_title: Aspose.Words for .NET
+description: CertificateHolder Certificate mülk. Örneğini döndürürX509Sertifika2 özel genel anahtarları ve sertifika zincirini tutan C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.digitalsignatures/certificateholder/certificate/
 ---
 ## CertificateHolder.Certificate property
 
-Örneğini döndürür **X509Sertifika2** özel, genel anahtarları ve sertifika zincirini tutan.
+Örneğini döndürür**X509Sertifika2** özel, genel anahtarları ve sertifika zincirini tutan.
 
 ```csharp
 public X509Certificate2 Certificate { get; }
@@ -18,7 +20,7 @@ public X509Certificate2 Certificate { get; }
 
 X509Certificate2 misal
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki her imza hakkındaki bilgilerin nasıl doğrulanacağını ve görüntüleneceğini gösterir.
 
@@ -40,7 +42,5 @@ foreach (DigitalSignature signature in doc.DigitalSignatures)
 ### Ayrıca bakınız
 
 * class [CertificateHolder](../)
-* ad alanı [Aspose.Words.DigitalSignatures](../../certificateholder/)
+* ad alanı [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * toplantı [Aspose.Words](../../../)
-
-

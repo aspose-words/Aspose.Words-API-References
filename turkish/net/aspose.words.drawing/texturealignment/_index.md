@@ -1,7 +1,9 @@
 ---
-title: Enum TextureAlignment
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.TextureAlignment Sıralama. Doku dolgusunun döşemesi için hizalamayı belirtir.
+title: TextureAlignment Enum
+linktitle: TextureAlignment
+articleTitle: TextureAlignment
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.TextureAlignment Sıralama. Doku dolgusunun döşemesi için hizalamayı belirtir C#'da.
 type: docs
 weight: 1370
 url: /tr/net/aspose.words.drawing/texturealignment/
@@ -29,7 +31,7 @@ public enum TextureAlignment
 | BottomRight | `8` | Sağ alt doku hizalaması. |
 | None | `9` | Hiçbiri doku hizalaması. |
 
-### Örnekler
+## Örnekler
 
 Şeklin içindeki dokunun nasıl doldurulacağını ve döşeneceğini gösterir.
 
@@ -54,5 +56,3 @@ doc.Save(ArtifactsDir + "Shape.TextureFill.docx", saveOptions);
 
 * ad alanı [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../)
-
-

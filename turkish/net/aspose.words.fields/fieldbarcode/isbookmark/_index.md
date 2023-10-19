@@ -1,7 +1,9 @@
 ---
 title: FieldBarcode.IsBookmark
-second_title: Aspose.Words for .NET API Referansı
-description: FieldBarcode mülk. Alır veya ayarlarPostalAddress bir yer iminin adıdır.
+linktitle: IsBookmark
+articleTitle: IsBookmark
+second_title: Aspose.Words for .NET
+description: FieldBarcode IsBookmark mülk. Alır veya ayarlarPostalAddress bir yer iminin adıdır C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fields/fieldbarcode/isbookmark/
@@ -14,7 +16,7 @@ Alır veya ayarlar[`PostalAddress`](../postaladdress/) bir yer iminin adıdır.
 public bool IsBookmark { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 ABD Posta kodlarını barkod biçiminde görüntülemek için BARKOD alanının nasıl kullanılacağını gösterir.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "Field.BARCODE.docx");
 ### Ayrıca bakınız
 
 * class [FieldBarcode](../)
-* ad alanı [Aspose.Words.Fields](../../fieldbarcode/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

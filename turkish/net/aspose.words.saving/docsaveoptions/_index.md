@@ -1,7 +1,9 @@
 ---
-title: Class DocSaveOptions
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Saving.DocSaveOptions sınıf. Bir belgeyi bilgisayara kaydederken ek seçenekleri belirlemek için kullanılabilir.Doc veya Dot format.
+title: DocSaveOptions Class
+linktitle: DocSaveOptions
+articleTitle: DocSaveOptions
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Saving.DocSaveOptions sınıf. Bir belgeyi bilgisayara kaydederken ek seçenekleri belirlemek için kullanılabilir.Doc veya Dot format C#'da.
 type: docs
 weight: 4930
 url: /tr/net/aspose.words.saving/docsaveoptions/
@@ -21,7 +23,7 @@ public class DocSaveOptions : SaveOptions
 | İsim | Tanım |
 | --- | --- |
 | [DocSaveOptions](docsaveoptions/#constructor)() | Bir belgeyi kaydetmek için kullanılabilecek bu sınıfın yeni bir örneğini başlatır.Doc format. |
-| [DocSaveOptions](docsaveoptions/#constructor_1)(SaveFormat) | Bir belgeyi kaydetmek için kullanılabilecek bu sınıfın yeni bir örneğini başlatır.Doc veya Dot format. |
+| [DocSaveOptions](docsaveoptions/#constructor_1)(*[SaveFormat](../../aspose.words/saveformat/)*) | Bir belgeyi kaydetmek için kullanılabilecek bu sınıfın yeni bir örneğini başlatır.Doc veya Dot format. |
 
 ## Özellikleri
 
@@ -30,7 +32,7 @@ public class DocSaveOptions : SaveOptions
 | [AllowEmbeddingPostScriptFonts](../../aspose.words.saving/saveoptions/allowembeddingpostscriptfonts/) { get; set; } | Kaydedildikten sonra TrueType yazı tiplerini bir belgeye gömerken PostScript ana hatlarıyla yazı tiplerinin gömülmesine izin verilip verilmeyeceğini belirten bir boole değeri alır veya ayarlar. Varsayılan değer:`YANLIŞ` . |
 | [AlwaysCompressMetafiles](../../aspose.words.saving/docsaveoptions/alwayscompressmetafiles/) { get; set; } | Ne zaman`YANLIŞ` , küçük meta dosyalar performans nedeniyle sıkıştırılmaz. Varsayılan değer:`doğru` , tüm meta dosyalar boyutuna bakılmaksızın sıkıştırılır. |
 | [CustomTimeZoneInfo](../../aspose.words.saving/saveoptions/customtimezoneinfo/) { get; set; } | Tarih/saat alanları için kullanılan özel yerel saat dilimini alır veya ayarlar. |
-| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | Varsayılan şablonun yolunu alır veya ayarlar (dosya adı dahil). Bu özellik için varsayılan değer: **boş dize** (Empty). |
+| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | Varsayılan şablonun yolunu alır veya ayarlar (dosya adı dahil). Bu özellik için varsayılan değer:**boş dize** (Empty). |
 | [Dml3DEffectsRenderingMode](../../aspose.words.saving/saveoptions/dml3deffectsrenderingmode/) { get; set; } | 3B efektlerin nasıl oluşturulacağını belirleyen bir değer alır veya ayarlar. |
 | virtual [DmlEffectsRenderingMode](../../aspose.words.saving/saveoptions/dmleffectsrenderingmode/) { get; set; } | DrawingML efektlerinin nasıl oluşturulacağını belirleyen bir değer alır veya ayarlar. |
 | [DmlRenderingMode](../../aspose.words.saving/saveoptions/dmlrenderingmode/) { get; set; } | DrawingML şekillerinin nasıl oluşturulacağını belirleyen bir değer alır veya ayarlar. |
@@ -51,11 +53,11 @@ public class DocSaveOptions : SaveOptions
 | [UseAntiAliasing](../../aspose.words.saving/saveoptions/useantialiasing/) { get; set; } | Oluşturma için kenar yumuşatma kullanılıp kullanılmayacağını belirleyen bir değer alır veya ayarlar. |
 | [UseHighQualityRendering](../../aspose.words.saving/saveoptions/usehighqualityrendering/) { get; set; } | Yüksek kaliteli (yani yavaş) oluşturma algoritmalarının kullanılıp kullanılmayacağını belirleyen bir değer alır veya ayarlar. |
 
-### Notlar
+## Notlar
 
 Şu anda yalnızca şunları sağlıyor:[`SaveFormat`](./saveformat/) özelliğidir, ancak gelecekte şifreleme parolası veya dijital imza ayarları gibi başka seçenekler de eklenecektir.
 
-### Örnekler
+## Örnekler
 
 Eski Microsoft Word formatları için kaydetme seçeneklerinin nasıl ayarlanacağını gösterir.
 
@@ -90,5 +92,3 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 * class [SaveOptions](../saveoptions/)
 * ad alanı [Aspose.Words.Saving](../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../)
-
-

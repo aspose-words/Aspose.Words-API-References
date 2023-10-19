@@ -1,7 +1,9 @@
 ---
 title: SpecialChar.NodeType
-second_title: Aspose.Words for .NET API Referansı
-description: SpecialChar mülk. İadelerSpecialChar .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words for .NET
+description: SpecialChar NodeType mülk. İadelerSpecialChar  C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/specialchar/nodetype/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words/specialchar/nodetype/
 public override NodeType NodeType { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bileşik bir düğümün alt düğüm ağacında nasıl gezinileceğini gösterir.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../nodetype/)
 * class [SpecialChar](../)
-* ad alanı [Aspose.Words](../../specialchar/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

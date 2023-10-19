@@ -1,9 +1,11 @@
 ---
 title: CellFormat.LeftPadding
-second_title: Aspose.Words for .NET API Referansı
-description: CellFormat mülk. Hücre içeriğinin soluna eklenecek alan miktarını nokta cinsinden döndürür veya ayarlar.
+linktitle: LeftPadding
+articleTitle: LeftPadding
+second_title: Aspose.Words for .NET
+description: CellFormat LeftPadding mülk. Hücre içeriğinin soluna eklenecek alan miktarını nokta cinsinden döndürür veya ayarlar C#'da.
 type: docs
-weight: 60
+weight: 50
 url: /tr/net/aspose.words.tables/cellformat/leftpadding/
 ---
 ## CellFormat.LeftPadding property
@@ -14,7 +16,7 @@ Hücre içeriğinin soluna eklenecek alan miktarını (nokta cinsinden) döndür
 public double LeftPadding { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Belge oluşturucuyla hücrelerin nasıl biçimlendirileceğini gösterir.
 
@@ -61,7 +63,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.SetCellFormatting.docx");
 ### Ayrıca bakınız
 
 * class [CellFormat](../)
-* ad alanı [Aspose.Words.Tables](../../cellformat/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

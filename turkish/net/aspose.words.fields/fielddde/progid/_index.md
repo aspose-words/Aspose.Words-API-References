@@ -1,7 +1,9 @@
 ---
 title: FieldDde.ProgId
-second_title: Aspose.Words for .NET API Referansı
-description: FieldDde mülk. Bağlantı bilgilerinin uygulama türünü alır veya ayarlar.
+linktitle: ProgId
+articleTitle: ProgId
+second_title: Aspose.Words for .NET
+description: FieldDde ProgId mülk. Bağlantı bilgilerinin uygulama türünü alır veya ayarlar C#'da.
 type: docs
 weight: 100
 url: /tr/net/aspose.words.fields/fielddde/progid/
@@ -14,7 +16,7 @@ Bağlantı bilgilerinin uygulama türünü alır veya ayarlar.
 public string ProgId { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Yerel dosya sistemindeki diğer belgelere bağlanmak ve içeriklerini görüntülemek için çeşitli alan türlerinin nasıl kullanılacağını gösterir.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### Ayrıca bakınız
 
 * class [FieldDde](../)
-* ad alanı [Aspose.Words.Fields](../../fielddde/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

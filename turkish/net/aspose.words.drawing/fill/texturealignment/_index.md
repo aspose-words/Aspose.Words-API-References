@@ -1,9 +1,11 @@
 ---
 title: Fill.TextureAlignment
-second_title: Aspose.Words for .NET API Referansı
-description: Fill mülk. Döşeme dokusu dolgusunun hizalamasını alır veya ayarlar.
+linktitle: TextureAlignment
+articleTitle: TextureAlignment
+second_title: Aspose.Words for .NET
+description: Fill TextureAlignment mülk. Döşeme dokusu dolgusunun hizalamasını alır veya ayarlar C#'da.
 type: docs
-weight: 190
+weight: 180
 url: /tr/net/aspose.words.drawing/fill/texturealignment/
 ---
 ## Fill.TextureAlignment property
@@ -14,7 +16,7 @@ Döşeme dokusu dolgusunun hizalamasını alır veya ayarlar.
 public TextureAlignment TextureAlignment { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Şeklin içindeki dokunun nasıl doldurulacağını ve döşeneceğini gösterir.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Shape.TextureFill.docx", saveOptions);
 
 * enum [TextureAlignment](../../texturealignment/)
 * class [Fill](../)
-* ad alanı [Aspose.Words.Drawing](../../fill/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

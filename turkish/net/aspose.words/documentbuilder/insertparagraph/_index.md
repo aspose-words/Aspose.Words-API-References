@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.InsertParagraph
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentBuilder yöntem. Belgeye paragraf sonu ekler.
+linktitle: InsertParagraph
+articleTitle: InsertParagraph
+second_title: Aspose.Words for .NET
+description: DocumentBuilder InsertParagraph yöntem. Belgeye paragraf sonu ekler C#'da.
 type: docs
-weight: 430
+weight: 420
 url: /tr/net/aspose.words/documentbuilder/insertparagraph/
 ---
 ## DocumentBuilder.InsertParagraph method
@@ -18,7 +20,7 @@ public Paragraph InsertParagraph()
 
 Az önce eklenen paragraf düğümü. Bu aynı düğüm[`CurrentParagraph`](../currentparagraph/).
 
-### Notlar
+## Notlar
 
 Tarafından belirtilen geçerli paragraf biçimlendirmesi[`ParagraphFormat`](../paragraphformat/) mülkiyet kullanılır.
 
@@ -26,7 +28,7 @@ Geçerli paragrafı ikiye böler. Paragrafı ekledikten sonra imleç yeni paragr
 
 Geçerli imleç konumuna paragraf sonu eklemek mümkün değilse bir istisna oluşturulur.
 
-### Örnekler
+## Örnekler
 
 Belgeye nasıl paragraf ekleneceğini gösterir.
 
@@ -59,7 +61,5 @@ Assert.True(builder.CurrentParagraph.IsEndOfDocument);
 
 * class [Paragraph](../../paragraph/)
 * class [DocumentBuilder](../)
-* ad alanı [Aspose.Words](../../documentbuilder/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

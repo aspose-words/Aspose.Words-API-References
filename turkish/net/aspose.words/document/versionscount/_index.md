@@ -1,7 +1,9 @@
 ---
 title: Document.VersionsCount
-second_title: Aspose.Words for .NET API Referansı
-description: Document mülk. DOC belgesinde saklanan belge sürümlerinin sayısını alır.
+linktitle: VersionsCount
+articleTitle: VersionsCount
+second_title: Aspose.Words for .NET
+description: Document VersionsCount mülk. DOC belgesinde saklanan belge sürümlerinin sayısını alır C#'da.
 type: docs
 weight: 460
 url: /tr/net/aspose.words/document/versionscount/
@@ -14,13 +16,13 @@ DOC belgesinde saklanan belge sürümlerinin sayısını alır.
 public int VersionsCount { get; }
 ```
 
-### Notlar
+## Notlar
 
 Microsoft Word'deki sürümlere Dosya/Sürümler menüsünden erişilir. Microsoft Word sürümlerini yalnızca DOC dosyaları için destekler.
 
 Bu özellik, Aspose.Words'de açılmadan önce bu document dosyasında saklanan belge sürümlerinin olup olmadığının tespit edilmesine olanak tanır. Aspose.Words, belge sürümleri için başka bir destek sağlamaz. Bu belgeyi Aspose.Words kullanarak kaydederseniz, belge sürümler olmadan kaydedilir.
 
-### Örnekler
+## Örnekler
 
 Eski Microsoft Word belgelerinin sürüm sayımı özelliğiyle nasıl çalışılacağını gösterir.
 
@@ -39,7 +41,5 @@ Assert.AreEqual(0, doc.VersionsCount);
 ### Ayrıca bakınız
 
 * class [Document](../)
-* ad alanı [Aspose.Words](../../document/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

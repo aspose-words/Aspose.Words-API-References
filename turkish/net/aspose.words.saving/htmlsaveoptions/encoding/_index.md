@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.Encoding
-second_title: Aspose.Words for .NET API Referansı
-description: HtmlSaveOptions mülk. HTML MHTML veya EPUBa dışa aktarırken kullanılacak kodlamayı belirtir. Varsayılan değeryeni UTF8Kodlamayanlış BOM olmadan UTF8.
+linktitle: Encoding
+articleTitle: Encoding
+second_title: Aspose.Words for .NET
+description: HtmlSaveOptions Encoding mülk. HTML MHTML veya EPUBa dışa aktarırken kullanılacak kodlamayı belirtir. Varsayılan değeryeni UTF8Kodlamayanlış BOM olmadan UTF8 C#'da.
 type: docs
 weight: 100
 url: /tr/net/aspose.words.saving/htmlsaveoptions/encoding/
@@ -14,7 +16,7 @@ HTML, MHTML veya EPUB'a dışa aktarırken kullanılacak kodlamayı belirtir. Va
 public Encoding Encoding { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi .epub'a kaydederken belirli bir kodlamanın nasıl kullanılacağını gösterir.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions)
 ### Ayrıca bakınız
 
 * class [HtmlSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../htmlsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

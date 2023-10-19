@@ -1,7 +1,9 @@
 ---
 title: BookmarksOutlineLevelCollection.Item
-second_title: Aspose.Words for .NET API Referansı
-description: BookmarksOutlineLevelCollection mülk. Yer imi adına göre bir yer imi anahat düzeyini alır veya ayarlar.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words for .NET
+description: BookmarksOutlineLevelCollection Item mülk. Yer imi adına göre bir yer imi anahat düzeyini alır veya ayarlar C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.saving/bookmarksoutlinelevelcollection/item/
@@ -22,7 +24,7 @@ public int this[string name] { get; set; }
 
 Yer iminin anahat düzeyi. Geçerli aralık 0 ila 9'dur.
 
-### Örnekler
+## Örnekler
 
 Yer imleri için anahat düzeylerinin nasıl ayarlanacağını gösterir.
 
@@ -80,7 +82,7 @@ outlineLevels.Clear();
 ### Ayrıca bakınız
 
 * class [BookmarksOutlineLevelCollection](../)
-* ad alanı [Aspose.Words.Saving](../../bookmarksoutlinelevelcollection/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
 
 ---
@@ -101,7 +103,7 @@ public int this[int index] { get; set; }
 
 Yer iminin anahat düzeyi. Geçerli aralık 0 ila 9'dur.
 
-### Örnekler
+## Örnekler
 
 Yer imleri için anahat düzeylerinin nasıl ayarlanacağını gösterir.
 
@@ -159,7 +161,5 @@ outlineLevels.Clear();
 ### Ayrıca bakınız
 
 * class [BookmarksOutlineLevelCollection](../)
-* ad alanı [Aspose.Words.Saving](../../bookmarksoutlinelevelcollection/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Font.ThemeFontFarEast
-second_title: Aspose.Words for .NET API Referansı
-description: Font mülk. Bu temayla ilişkili uygulanan yazı tipi şemasındaki Doğu Asya tema yazı tipini alır veya ayarlar.Font nesne.
+linktitle: ThemeFontFarEast
+articleTitle: ThemeFontFarEast
+second_title: Aspose.Words for .NET
+description: Font ThemeFontFarEast mülk. Bu temayla ilişkili uygulanan yazı tipi şemasındaki Doğu Asya tema yazı tipini alır veya ayarlar.Font nesne C#'da.
 type: docs
 weight: 500
 url: /tr/net/aspose.words/font/themefontfareast/
@@ -14,7 +16,7 @@ Bu temayla ilişkili uygulanan yazı tipi şemasındaki Doğu Asya tema yazı ti
 public ThemeFont ThemeFontFarEast { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Tema yazı tipleri ve renkleri ile nasıl çalışılacağını gösterir.
 
@@ -101,7 +103,5 @@ Assert.AreEqual(Color.Blue.ToArgb(), font.Color.ToArgb());
 
 * enum [ThemeFont](../../../aspose.words.themes/themefont/)
 * class [Font](../)
-* ad alanı [Aspose.Words](../../font/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

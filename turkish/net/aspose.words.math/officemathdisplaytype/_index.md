@@ -1,7 +1,9 @@
 ---
-title: Enum OfficeMathDisplayType
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Math.OfficeMathDisplayType Sıralama. Denklemin görüntüleme biçimi türünü belirtir.
+title: OfficeMathDisplayType Enum
+linktitle: OfficeMathDisplayType
+articleTitle: OfficeMathDisplayType
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Math.OfficeMathDisplayType Sıralama. Denklemin görüntüleme biçimi türünü belirtir C#'da.
 type: docs
 weight: 4130
 url: /tr/net/aspose.words.math/officemathdisplaytype/
@@ -21,7 +23,7 @@ public enum OfficeMathDisplayType
 | Display | `0` | Office Math kendi satırında görüntülenir. |
 | Inline | `1` | Office Math, metinle aynı satırda görüntülenir. |
 
-### Örnekler
+## Örnekler
 
 Ofis matematik ekranı formatının nasıl ayarlanacağını gösterir.
 
@@ -47,5 +49,3 @@ doc.Save(ArtifactsDir + "Shape.OfficeMath.docx");
 
 * ad alanı [Aspose.Words.Math](../../aspose.words.math/)
 * toplantı [Aspose.Words](../../)
-
-

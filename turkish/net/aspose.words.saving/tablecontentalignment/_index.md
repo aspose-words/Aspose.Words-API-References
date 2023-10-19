@@ -1,7 +1,9 @@
 ---
-title: Enum TableContentAlignment
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Saving.TableContentAlignment Sıralama. Markdown formatına dışa aktarırken kullanılacak tablo içeriğinin hizalamasını belirtmeye izin verir.
+title: TableContentAlignment Enum
+linktitle: TableContentAlignment
+articleTitle: TableContentAlignment
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Saving.TableContentAlignment Sıralama. Markdown formatına dışa aktarırken kullanılacak tablo içeriğinin hizalamasını belirtmeye izin verir C#'da.
 type: docs
 weight: 5620
 url: /tr/net/aspose.words.saving/tablecontentalignment/
@@ -27,5 +29,3 @@ public enum TableContentAlignment
 
 * ad alanı [Aspose.Words.Saving](../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../)
-
-

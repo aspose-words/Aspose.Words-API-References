@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.DisableOpenTypeFontFormattingFeatures
-second_title: Aspose.Words for .NET API Referansı
-description: CompatibilityOptions mülk. OpenType yazı tipi biçimlendirme özelliklerinin devre dışı bırakılacağını belirtir.
+linktitle: DisableOpenTypeFontFormattingFeatures
+articleTitle: DisableOpenTypeFontFormattingFeatures
+second_title: Aspose.Words for .NET
+description: CompatibilityOptions DisableOpenTypeFontFormattingFeatures mülk. OpenType yazı tipi biçimlendirme özelliklerinin devre dışı bırakılacağını belirtir C#'da.
 type: docs
 weight: 100
 url: /tr/net/aspose.words.settings/compatibilityoptions/disableopentypefontformattingfeatures/
@@ -17,7 +19,5 @@ public bool DisableOpenTypeFontFormattingFeatures { get; set; }
 ### Ayrıca bakınız
 
 * class [CompatibilityOptions](../)
-* ad alanı [Aspose.Words.Settings](../../compatibilityoptions/)
+* ad alanı [Aspose.Words.Settings](../../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../../)
-
-

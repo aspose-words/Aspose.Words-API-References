@@ -1,7 +1,9 @@
 ---
 title: SmartTag.Uri
-second_title: Aspose.Words for .NET API Referansı
-description: SmartTag mülk. Akıllı etiketin ad alanı URIsini belirtir.
+linktitle: Uri
+articleTitle: Uri
+second_title: Aspose.Words for .NET
+description: SmartTag Uri mülk. Akıllı etiketin ad alanı URIsini belirtir C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.markup/smarttag/uri/
@@ -14,13 +16,13 @@ Akıllı etiketin ad alanı URI'sini belirtir.
 public string Uri { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Olamaz`hükümsüz`.
 
 Varsayılan boş dizedir.
 
-### Örnekler
+## Örnekler
 
 Akıllı etiketlerin nasıl oluşturulacağını gösterir.
 
@@ -121,7 +123,5 @@ private class SmartTagPrinter : DocumentVisitor
 ### Ayrıca bakınız
 
 * class [SmartTag](../)
-* ad alanı [Aspose.Words.Markup](../../smarttag/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

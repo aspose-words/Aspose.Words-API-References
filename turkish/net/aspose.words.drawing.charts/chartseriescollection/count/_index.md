@@ -1,7 +1,9 @@
 ---
 title: ChartSeriesCollection.Count
-second_title: Aspose.Words for .NET API Referansı
-description: ChartSeriesCollection mülk. Sayıyı döndürürChartSeries bu koleksiyonda.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words for .NET
+description: ChartSeriesCollection Count mülk. Sayıyı döndürürChartSeries bu koleksiyonda C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.drawing.charts/chartseriescollection/count/
@@ -14,7 +16,7 @@ Sayıyı döndürür[`ChartSeries`](../../chartseries/) bu koleksiyonda.
 public int Count { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir grafiğe seri verilerinin nasıl eklenip kaldırılacağını gösterir.
 
@@ -61,7 +63,5 @@ chartData.Clear();
 ### Ayrıca bakınız
 
 * class [ChartSeriesCollection](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartseriescollection/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

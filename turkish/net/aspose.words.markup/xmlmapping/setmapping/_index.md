@@ -1,7 +1,9 @@
 ---
 title: XmlMapping.SetMapping
-second_title: Aspose.Words for .NET API Referansı
-description: XmlMapping yöntem. Ana yapılandırılmış belge etiketi ile özel bir XML veri bölümünün XML düğümü arasında bir eşleme ayarlar.
+linktitle: SetMapping
+articleTitle: SetMapping
+second_title: Aspose.Words for .NET
+description: XmlMapping SetMapping yöntem. Ana yapılandırılmış belge etiketi ile özel bir XML veri bölümünün XML düğümü arasında bir eşleme ayarlar C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.markup/xmlmapping/setmapping/
@@ -24,7 +26,7 @@ public bool SetMapping(CustomXmlPart customXmlPart, string xPath, string prefixM
 
 Üst yapılandırılmış belge etiketinin XML düğümüne başarıyla eşlenip eşlenmediğini gösteren bayrak.
 
-### Örnekler
+## Örnekler
 
 Özel XML verileriyle yapılandırılmış bir belge etiketinin nasıl oluşturulacağını gösterir.
 
@@ -92,7 +94,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 
 * class [CustomXmlPart](../../customxmlpart/)
 * class [XmlMapping](../)
-* ad alanı [Aspose.Words.Markup](../../xmlmapping/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

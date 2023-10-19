@@ -1,7 +1,9 @@
 ---
 title: OdsoFieldMapDataCollection.RemoveAt
-second_title: Aspose.Words for .NET API Referansı
-description: OdsoFieldMapDataCollection yöntem. Belirtilen dizindeki öğeyi kaldırır.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words for .NET
+description: OdsoFieldMapDataCollection RemoveAt yöntem. Belirtilen dizindeki öğeyi kaldırır C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.settings/odsofieldmapdatacollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | Öğenin sıfır tabanlı dizini. |
 
-### Örnekler
+## Örnekler
 
 Veri kaynağı sütunlarını birleştirme alanlarıyla eşleştiren veri koleksiyonuna nasıl erişileceğini gösterir.
 
@@ -61,7 +63,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Ayrıca bakınız
 
 * class [OdsoFieldMapDataCollection](../)
-* ad alanı [Aspose.Words.Settings](../../odsofieldmapdatacollection/)
+* ad alanı [Aspose.Words.Settings](../../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../../)
-
-

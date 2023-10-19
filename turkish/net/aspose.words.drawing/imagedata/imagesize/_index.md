@@ -1,7 +1,9 @@
 ---
 title: ImageData.ImageSize
-second_title: Aspose.Words for .NET API Referansı
-description: ImageData mülk. Görüntü boyutu ve çözünürlüğü hakkında bilgi alır.
+linktitle: ImageSize
+articleTitle: ImageSize
+second_title: Aspose.Words for .NET
+description: ImageData ImageSize mülk. Görüntü boyutu ve çözünürlüğü hakkında bilgi alır C#'da.
 type: docs
 weight: 130
 url: /tr/net/aspose.words.drawing/imagedata/imagesize/
@@ -14,11 +16,11 @@ Görüntü boyutu ve çözünürlüğü hakkında bilgi alır.
 public ImageSize ImageSize { get; }
 ```
 
-### Notlar
+## Notlar
 
 Görüntü yalnızca bağlantılıysa ve belgede saklanmıyorsa sıfır boyut döndürür.
 
-### Örnekler
+## Örnekler
 
 Bir şeklin resimle nasıl yeniden boyutlandırılacağını gösterir.
 
@@ -76,7 +78,5 @@ Bir şeklin resimle nasıl yeniden boyutlandırılacağını gösterir.
 
 * class [ImageSize](../../imagesize/)
 * class [ImageData](../)
-* ad alanı [Aspose.Words.Drawing](../../imagedata/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

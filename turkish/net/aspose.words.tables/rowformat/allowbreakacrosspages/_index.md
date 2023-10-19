@@ -1,7 +1,9 @@
 ---
 title: RowFormat.AllowBreakAcrossPages
-second_title: Aspose.Words for .NET API Referansı
-description: RowFormat mülk. Tablo satırındaki metnin sayfa sonu boyunca bölünmesine izin veriliyorsa doğrudur.
+linktitle: AllowBreakAcrossPages
+articleTitle: AllowBreakAcrossPages
+second_title: Aspose.Words for .NET
+description: RowFormat AllowBreakAcrossPages mülk. Tablo satırındaki metnin sayfa sonu boyunca bölünmesine izin veriliyorsa doğrudur C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.tables/rowformat/allowbreakacrosspages/
@@ -14,7 +16,7 @@ Tablo satırındaki metnin sayfa sonu boyunca bölünmesine izin veriliyorsa do�
 public bool AllowBreakAcrossPages { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir tablodaki her satır için satırların sayfalar arasında bölünmesinin nasıl devre dışı bırakılacağını gösterir.
 
@@ -35,7 +37,5 @@ doc.Save(ArtifactsDir + "Table.AllowBreakAcrossPages.docx");
 ### Ayrıca bakınız
 
 * class [RowFormat](../)
-* ad alanı [Aspose.Words.Tables](../../rowformat/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

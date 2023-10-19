@@ -1,7 +1,9 @@
 ---
 title: BookmarkStart.NodeType
-second_title: Aspose.Words for .NET API Referansı
-description: BookmarkStart mülk. İadelerBookmarkStart .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words for .NET
+description: BookmarkStart NodeType mülk. İadelerBookmarkStart  C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words/bookmarkstart/nodetype/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words/bookmarkstart/nodetype/
 public override NodeType NodeType { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bileşik bir düğümün alt düğüm ağacında nasıl gezinileceğini gösterir.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../nodetype/)
 * class [BookmarkStart](../)
-* ad alanı [Aspose.Words](../../bookmarkstart/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

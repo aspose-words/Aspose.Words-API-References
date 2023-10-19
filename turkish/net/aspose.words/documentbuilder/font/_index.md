@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.Font
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentBuilder mülk. Geçerli yazı tipi biçimlendirme özelliklerini temsil eden bir nesneyi döndürür.
+linktitle: Font
+articleTitle: Font
+second_title: Aspose.Words for .NET
+description: DocumentBuilder Font mülk. Geçerli yazı tipi biçimlendirme özelliklerini temsil eden bir nesneyi döndürür C#'da.
 type: docs
 weight: 100
 url: /tr/net/aspose.words/documentbuilder/font/
@@ -14,13 +16,13 @@ Geçerli yazı tipi biçimlendirme özelliklerini temsil eden bir nesneyi dönd�
 public Font Font { get; }
 ```
 
-### Notlar
+## Notlar
 
 Kullanmak`Font` yazı tipi biçimlendirme özelliklerine erişmek ve bunları değiştirmek için.
 
 Metin eklemeden önce yazı tipi formatını belirtin.
 
-### Örnekler
+## Örnekler
 
 Kenarlıkla çevrelenmiş bir dizenin belgeye nasıl ekleneceğini gösterir.
 
@@ -99,7 +101,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.CreateFormattedTable.docx");
 
 * class [Font](../../font/)
 * class [DocumentBuilder](../)
-* ad alanı [Aspose.Words](../../documentbuilder/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPartCollection.GetById
-second_title: Aspose.Words for .NET API Referansı
-description: CustomXmlPartCollection yöntem. Özel bir XML parçasını tanımlayıcısına göre bulur ve döndürür.
+linktitle: GetById
+articleTitle: GetById
+second_title: Aspose.Words for .NET
+description: CustomXmlPartCollection GetById yöntem. Özel bir XML parçasını tanımlayıcısına göre bulur ve döndürür C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.markup/customxmlpartcollection/getbyid/
@@ -22,7 +24,7 @@ public CustomXmlPart GetById(string id)
 
 İadeler`hükümsüz` belirtilen tanımlayıcıya sahip özel bir XML parçası bulunamazsa.
 
-### Örnekler
+## Örnekler
 
 Özel XML verileriyle yapılandırılmış bir belge etiketinin nasıl oluşturulacağını gösterir.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 
 * class [CustomXmlPart](../../customxmlpart/)
 * class [CustomXmlPartCollection](../)
-* ad alanı [Aspose.Words.Markup](../../customxmlpartcollection/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

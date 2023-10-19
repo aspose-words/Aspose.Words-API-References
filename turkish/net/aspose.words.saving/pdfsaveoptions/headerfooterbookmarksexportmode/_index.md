@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.HeaderFooterBookmarksExportMode
-second_title: Aspose.Words for .NET API Referansı
-description: PdfSaveOptions mülk. Üstbilgi/altbilgilerdeki yer işaretlerinin nasıl dışa aktarılacağını belirler.
+linktitle: HeaderFooterBookmarksExportMode
+articleTitle: HeaderFooterBookmarksExportMode
+second_title: Aspose.Words for .NET
+description: PdfSaveOptions HeaderFooterBookmarksExportMode mülk. Üstbilgi/altbilgilerdeki yer işaretlerinin nasıl dışa aktarılacağını belirler C#'da.
 type: docs
 weight: 180
 url: /tr/net/aspose.words.saving/pdfsaveoptions/headerfooterbookmarksexportmode/
@@ -14,13 +16,13 @@ url: /tr/net/aspose.words.saving/pdfsaveoptions/headerfooterbookmarksexportmode/
 public HeaderFooterBookmarksExportMode HeaderFooterBookmarksExportMode { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:All.
 
 Bu özellik aşağıdakilerle birlikte kullanılır:[`OutlineOptions`](../outlineoptions/) seçenek.
 
-### Örnekler
+## Örnekler
 
 PDF'ye dönüştürdüğümüz bir belgedeki üstbilgi/altbilgilerdeki yer işaretlerinin işlenmesini gösterir.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.HeaderFooterBookmarksExportMode.pdf", sa
 
 * enum [HeaderFooterBookmarksExportMode](../../headerfooterbookmarksexportmode/)
 * class [PdfSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../pdfsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

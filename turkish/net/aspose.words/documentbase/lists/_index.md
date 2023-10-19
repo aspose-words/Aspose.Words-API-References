@@ -1,7 +1,9 @@
 ---
 title: DocumentBase.Lists
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentBase mülk. Belgede kullanılan liste formatına erişim sağlar.
+linktitle: Lists
+articleTitle: Lists
+second_title: Aspose.Words for .NET
+description: DocumentBase Lists mülk. Belgede kullanılan liste formatına erişim sağlar C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words/documentbase/lists/
@@ -14,11 +16,11 @@ Belgede kullanılan liste formatına erişim sağlar.
 public ListCollection Lists { get; }
 ```
 
-### Notlar
+## Notlar
 
 Daha fazla bilgi için açıklamasına bakın[`ListCollection`](../../../aspose.words.lists/listcollection/) sınıf.
 
-### Örnekler
+## Örnekler
 
 Liste düzeyleriyle nasıl çalışılacağını gösterir.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 
 * class [ListCollection](../../../aspose.words.lists/listcollection/)
 * class [DocumentBase](../)
-* ad alanı [Aspose.Words](../../documentbase/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

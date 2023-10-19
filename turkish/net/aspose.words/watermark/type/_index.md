@@ -1,7 +1,9 @@
 ---
 title: Watermark.Type
-second_title: Aspose.Words for .NET API Referansı
-description: Watermark mülk. Filigran türünü alır.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words for .NET
+description: Watermark Type mülk. Filigran türünü alır C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/watermark/type/
@@ -18,7 +20,5 @@ public WatermarkType Type { get; }
 
 * enum [WatermarkType](../../watermarktype/)
 * class [Watermark](../)
-* ad alanı [Aspose.Words](../../watermark/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PdfDigitalSignatureDetails.CertificateHolder
-second_title: Aspose.Words for .NET API Referansı
-description: PdfDigitalSignatureDetails mülk. Belgeyi imzalamak için kullanılan sertifikayı içeren sertifika sahibi nesnesini döndürür.
+linktitle: CertificateHolder
+articleTitle: CertificateHolder
+second_title: Aspose.Words for .NET
+description: PdfDigitalSignatureDetails CertificateHolder mülk. Belgeyi imzalamak için kullanılan sertifikayı içeren sertifika sahibi nesnesini döndürür C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.saving/pdfdigitalsignaturedetails/certificateholder/
@@ -18,7 +20,5 @@ public CertificateHolder CertificateHolder { get; set; }
 
 * class [CertificateHolder](../../../aspose.words.digitalsignatures/certificateholder/)
 * class [PdfDigitalSignatureDetails](../)
-* ad alanı [Aspose.Words.Saving](../../pdfdigitalsignaturedetails/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FontInfo.Charset
-second_title: Aspose.Words for .NET API Referansı
-description: FontInfo mülk. Yazı tipi için karakter kümesini alır veya ayarlar.
+linktitle: Charset
+articleTitle: Charset
+second_title: Aspose.Words for .NET
+description: FontInfo Charset mülk. Yazı tipi için karakter kümesini alır veya ayarlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fonts/fontinfo/charset/
@@ -14,7 +16,7 @@ Yazı tipi için karakter kümesini alır veya ayarlar.
 public int Charset { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki her yazı tipinin ayrıntılarına nasıl erişileceğini ve yazdırılacağını gösterir.
 
@@ -53,7 +55,5 @@ while (fontCollectionEnumerator.MoveNext())
 ### Ayrıca bakınız
 
 * class [FontInfo](../)
-* ad alanı [Aspose.Words.Fonts](../../fontinfo/)
+* ad alanı [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.WordOpenXML
-second_title: Aspose.Words for .NET API Referansı
-description: StructuredDocumentTagRangeStart mülk. Düğümdeki düğümün içerdiği XMLi temsil eden bir dize alır.FlatOpc format.
+linktitle: WordOpenXML
+articleTitle: WordOpenXML
+second_title: Aspose.Words for .NET
+description: StructuredDocumentTagRangeStart WordOpenXML mülk. Düğümdeki düğümün içerdiği XMLi temsil eden bir dize alır.FlatOpc format C#'da.
 type: docs
 weight: 170
 url: /tr/net/aspose.words.markup/structureddocumenttagrangestart/wordopenxml/
@@ -14,7 +16,7 @@ Düğümdeki düğümün içerdiği XML'i temsil eden bir dize alır.FlatOpc for
 public string WordOpenXML { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Çok bölümlü yapılandırılmış belge etiketlerinin özelliklerinin nasıl alınacağını gösterir.
 
@@ -49,7 +51,5 @@ Console.WriteLine($"\t|NodeType: {rangeEndTag.NodeType}");
 ### Ayrıca bakınız
 
 * class [StructuredDocumentTagRangeStart](../)
-* ad alanı [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

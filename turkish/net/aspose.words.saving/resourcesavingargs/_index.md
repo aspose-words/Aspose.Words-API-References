@@ -1,7 +1,9 @@
 ---
-title: Class ResourceSavingArgs
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Saving.ResourceSavingArgs sınıf. Şunun için veri sağlarResourceSaving olay.
+title: ResourceSavingArgs Class
+linktitle: ResourceSavingArgs
+articleTitle: ResourceSavingArgs
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Saving.ResourceSavingArgs sınıf. Şunun için veri sağlarResourceSaving olay C#'da.
 type: docs
 weight: 5560
 url: /tr/net/aspose.words.saving/resourcesavingargs/
@@ -26,7 +28,7 @@ public class ResourceSavingArgs
 | [ResourceFileUri](../../aspose.words.saving/resourcesavingargs/resourcefileuri/) { get; set; } | Belgedeki kaynak dosyasına başvuruda bulunmak için kullanılan tek tip kaynak tanımlayıcıyı (URI) alır veya ayarlar. |
 | [ResourceStream](../../aspose.words.saving/resourcesavingargs/resourcestream/) { get; set; } | Kaynağın kaydedileceği akışı belirtmeye izin verir. |
 
-### Notlar
+## Notlar
 
 Varsayılan olarak Aspose.Words bir belgeyi sabit sayfa HTML'sine veya SVG'ye kaydettiğinde, her kaynağı ayrı bir dosyaya kaydeder. Aspose.Words, belgede bulunan her kaynak için benzersiz bir dosya adı oluşturmak amacıyla belge dosya adını ve benzersiz bir numarayı kullanır.
 
@@ -36,7 +38,7 @@ Kaynak dosya adlarını oluşturmak için kendi mantığınızı uygulamak için
 
 Kaynakları dosyalar yerine akışlara kaydetmek için[`ResourceStream`](./resourcestream/) mülk.
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi HTML'ye dönüştürürken oluşturulan harici kaynakları izlemek için geri aramanın nasıl kullanılacağını gösterir.
 
@@ -82,5 +84,3 @@ private class FontSavingCallback : IResourceSavingCallback
 
 * ad alanı [Aspose.Words.Saving](../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../)
-
-

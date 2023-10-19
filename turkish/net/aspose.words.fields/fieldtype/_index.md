@@ -1,7 +1,9 @@
 ---
-title: Enum FieldType
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Fields.FieldType Sıralama. Microsoft Word alan türlerini belirtir.
+title: FieldType Enum
+linktitle: FieldType
+articleTitle: FieldType
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Fields.FieldType Sıralama. Microsoft Word alan türlerini belirtir C#'da.
 type: docs
 weight: 2540
 url: /tr/net/aspose.words.fields/fieldtype/
@@ -116,7 +118,7 @@ public enum FieldType
 | FieldUserInitials | `61` | USERINITIALS alanını belirtir. |
 | FieldUserName | `60` | KULLANICI ADI alanını belirtir. |
 
-### Örnekler
+## Örnekler
 
 Alan kodu kullanarak belgeye nasıl alan ekleneceğini gösterir.
 
@@ -163,5 +165,3 @@ field.Update();
 
 * ad alanı [Aspose.Words.Fields](../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../)
-
-

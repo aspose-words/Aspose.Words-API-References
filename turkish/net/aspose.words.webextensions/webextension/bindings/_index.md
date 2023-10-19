@@ -1,7 +1,9 @@
 ---
 title: WebExtension.Bindings
-second_title: Aspose.Words for .NET API Referansı
-description: WebExtension mülk. Web uzantısı bağlamalarının listesini belirtir.
+linktitle: Bindings
+articleTitle: Bindings
+second_title: Aspose.Words for .NET
+description: WebExtension Bindings mülk. Web uzantısı bağlamalarının listesini belirtir C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.webextensions/webextension/bindings/
@@ -14,7 +16,7 @@ Web uzantısı bağlamalarının listesini belirtir.
 public WebExtensionBindingCollection Bindings { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgeye nasıl web uzantısı ekleneceğini gösterir.
 
@@ -60,7 +62,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * class [WebExtensionBindingCollection](../../webextensionbindingcollection/)
 * class [WebExtension](../)
-* ad alanı [Aspose.Words.WebExtensions](../../webextension/)
+* ad alanı [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * toplantı [Aspose.Words](../../../)
-
-

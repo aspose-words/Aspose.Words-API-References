@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.Right
-second_title: Aspose.Words for .NET API Referansı
-description: BorderCollection mülk. Doğru kenarlığı alır.
+linktitle: Right
+articleTitle: Right
+second_title: Aspose.Words for .NET
+description: BorderCollection Right mülk. Doğru kenarlığı alır C#'da.
 type: docs
 weight: 100
 url: /tr/net/aspose.words/bordercollection/right/
@@ -14,7 +16,7 @@ Doğru kenarlığı alır.
 public Border Right { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Tablo oluştururken kenarlık ve gölgeleme renginin nasıl uygulanacağını gösterir.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.TableBordersAndShading.docx");
 
 * class [Border](../../border/)
 * class [BorderCollection](../)
-* ad alanı [Aspose.Words](../../bordercollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

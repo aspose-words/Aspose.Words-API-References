@@ -1,7 +1,9 @@
 ---
 title: FormField.OwnStatus
-second_title: Aspose.Words for .NET API Referansı
-description: FormField mülk. Odak noktası bir form alanı olduğunda durum çubuğunda görüntülenen metnin kaynağını belirtir.
+linktitle: OwnStatus
+articleTitle: OwnStatus
+second_title: Aspose.Words for .NET
+description: FormField OwnStatus mülk. Odak noktası bir form alanı olduğunda durum çubuğunda görüntülenen metnin kaynağını belirtir C#'da.
 type: docs
 weight: 160
 url: /tr/net/aspose.words.fields/formfield/ownstatus/
@@ -14,11 +16,11 @@ Odak noktası bir form alanı olduğunda durum çubuğunda görüntülenen metni
 public bool OwnStatus { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Eğer`doğru` tarafından belirtilen metin[`StatusText`](../statustext/) özelliği görüntülenir. If`YANLIŞ` tarafından belirtilen Otomatik Metin girişinin metni[`StatusText`](../statustext/) özellik görüntülenir.
 
-### Örnekler
+## Örnekler
 
 Bir belgeye farklı türde form alanlarının nasıl eklendiğini ve bunların bir belge ziyaretçi uygulaması kullanılarak nasıl işlendiğini gösterir.
 
@@ -152,7 +154,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Ayrıca bakınız
 
 * class [FormField](../)
-* ad alanı [Aspose.Words.Fields](../../formfield/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum WebExtensionBindingType
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.WebExtensions.WebExtensionBindingType Sıralama. Bir web uzantısı ile belgedeki veriler arasındaki mevcut bağlama türlerini sıralar.
+title: WebExtensionBindingType Enum
+linktitle: WebExtensionBindingType
+articleTitle: WebExtensionBindingType
+second_title: Aspose.Words for .NET
+description: Aspose.Words.WebExtensions.WebExtensionBindingType Sıralama. Bir web uzantısı ile belgedeki veriler arasındaki mevcut bağlama türlerini sıralar C#'da.
 type: docs
 weight: 6770
 url: /tr/net/aspose.words.webextensions/webextensionbindingtype/
@@ -23,7 +25,7 @@ public enum WebExtensionBindingType
 | Text | `2` | Düz metin. |
 | Default | `0` |  |
 
-### Örnekler
+## Örnekler
 
 Bir belgeye nasıl web uzantısı ekleneceğini gösterir.
 
@@ -69,5 +71,3 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * ad alanı [Aspose.Words.WebExtensions](../../aspose.words.webextensions/)
 * toplantı [Aspose.Words](../../)
-
-

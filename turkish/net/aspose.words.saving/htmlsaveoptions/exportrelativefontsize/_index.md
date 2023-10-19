@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportRelativeFontSize
-second_title: Aspose.Words for .NET API Referansı
-description: HtmlSaveOptions mülk. HTML MHTML veya EPUBa kaydederken yazı tipi boyutlarının göreli birimler halinde çıkarılıp çıkarılmayacağını belirtir. VarsayılanYANLIŞ .
+linktitle: ExportRelativeFontSize
+articleTitle: ExportRelativeFontSize
+second_title: Aspose.Words for .NET
+description: HtmlSaveOptions ExportRelativeFontSize mülk. HTML MHTML veya EPUBa kaydederken yazı tipi boyutlarının göreli birimler halinde çıkarılıp çıkarılmayacağını belirtir. VarsayılanYANLIŞ  C#'da.
 type: docs
 weight: 230
 url: /tr/net/aspose.words.saving/htmlsaveoptions/exportrelativefontsize/
@@ -14,15 +16,15 @@ HTML, MHTML veya EPUB'a kaydederken yazı tipi boyutlarının göreli birimler h
 public bool ExportRelativeFontSize { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Mevcut birçok belgede (HTML, IDPF EPUB) yazı tipi boyutları göreceli birimlerle belirtilir. Bu, uygulamalarının belgeleri görüntülerken/işlerken metin boyutunu ayarlamasına olanak tanır. Örneğin, Microsoft Internet Explorer 'nin "Görünüm-&gt;Metin Boyutu" alt menüsü vardır, Adobe Digital Editions'ın iki düğmesi vardır: Metin Boyutunu Artır/Azalt. Bu işlevin çalışmasını bekliyorsanız o zaman ayarlayın`ExportRelativeFontSize` mülkiyet`doğru` .
 
-Aspose Words belge modeli yalnızca mutlak yazı tipi boyutu birimlerini içerir ve bunlarla çalışır. Göreli birimlerin bazı başlangıç (standart) boyutlardan yeniden hesaplanması için ek mantığa ihtiyacı vardır. Yazı tipi boyutu **Normal** belge stili standart olarak alınır. Örneğin, eğer **Normal** 12 puntoluk yazı tipi varsa ve bazı metinler 18 punto ise, olarak çıkarılacaktır. **1.5em.** HTML'ye.
+Aspose Words belge modeli yalnızca mutlak yazı tipi boyutu birimlerini içerir ve bunlarla çalışır. Göreli birimlerin bazı başlangıç (standart) boyutlardan yeniden hesaplanması için ek mantığa ihtiyacı vardır. Yazı tipi boyutu**Normal** belge stili standart olarak alınır. Örneğin, eğer**Normal** 12 puntoluk yazı tipi varsa ve bazı metinler 18 punto ise, olarak çıkarılacaktır.**1.5em.** HTML'ye.
 
 Bu seçenek etkinleştirildiğinde, metin dışındaki belge öğeleri hâlâ mutlak boyutlara sahip olacaktır. Ayrıca metinle ilgili bazı nitelikler mutlak olarak ifade edilebilir. Özellikle, "tam olarak" kuralı ile belirtilen satır aralığı, metni ölçeklendirirken istenmeyen sonuçlar doğurabilir. Bu nedenle, kaynak belgeler dışa aktarılırken doğru şekilde tasarlanmalı ve test edilmelidir.`ExportRelativeFontSize` ayarlanır`doğru`.
 
-### Örnekler
+## Örnekler
 
 .html'ye kaydederken göreli yazı tipi boyutlarının nasıl kullanılacağını gösterir.
 
@@ -87,7 +89,5 @@ else
 ### Ayrıca bakınız
 
 * class [HtmlSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../htmlsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

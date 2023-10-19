@@ -1,7 +1,9 @@
 ---
 title: TextPath.XScale
-second_title: Aspose.Words for .NET API Referansı
-description: TextPath mülk. Şekil yolu yerine düz metin yolunun kullanılıp kullanılmayacağını belirler.
+linktitle: XScale
+articleTitle: XScale
+second_title: Aspose.Words for .NET
+description: TextPath XScale mülk. Şekil yolu yerine düz metin yolunun kullanılıp kullanılmayacağını belirler C#'da.
 type: docs
 weight: 200
 url: /tr/net/aspose.words.drawing/textpath/xscale/
@@ -14,13 +16,13 @@ url: /tr/net/aspose.words.drawing/textpath/xscale/
 public bool XScale { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:`YANLIŞ`.
 
 Eğer`doğru`metin şeklin alt sınırı olan 'nin x değeri boyunca soldan sağa doğru bir yol boyunca ilerler.
 
-### Örnekler
+## Örnekler
 
 WordArt'la nasıl çalışılacağını gösterir.
 
@@ -123,7 +125,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### Ayrıca bakınız
 
 * class [TextPath](../)
-* ad alanı [Aspose.Words.Drawing](../../textpath/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

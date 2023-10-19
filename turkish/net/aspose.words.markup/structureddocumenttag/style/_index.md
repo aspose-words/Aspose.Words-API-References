@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTag.Style
-second_title: Aspose.Words for .NET API Referansı
-description: StructuredDocumentTag mülk. Yapılandırılmış belge etiketinin Stilini alır veya ayarlar.
+linktitle: Style
+articleTitle: Style
+second_title: Aspose.Words for .NET
+description: StructuredDocumentTag Style mülk. Yapılandırılmış belge etiketinin Stilini alır veya ayarlar C#'da.
 type: docs
 weight: 260
 url: /tr/net/aspose.words.markup/structureddocumenttag/style/
@@ -14,11 +16,11 @@ Yapılandırılmış belge etiketinin Stilini alır veya ayarlar.
 public Style Style { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Yalnızca Character stil veyaParagraph bağlantılı karakter stiline sahip stil ayarlanabilir.
 
-### Örnekler
+## Örnekler
 
 İçerik kontrol öğelerine ilişkin stillerle nasıl çalışılacağını gösterir.
 
@@ -58,7 +60,5 @@ foreach (Node node in tags)
 
 * class [Style](../../../aspose.words/style/)
 * class [StructuredDocumentTag](../)
-* ad alanı [Aspose.Words.Markup](../../structureddocumenttag/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

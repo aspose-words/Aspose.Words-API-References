@@ -1,7 +1,9 @@
 ---
 title: MappedDataFieldCollection.Remove
-second_title: Aspose.Words for .NET API Referansı
-description: MappedDataFieldCollection yöntem. Alan eşlemesini kaldırır.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words for .NET
+description: MappedDataFieldCollection Remove yöntem. Alan eşlemesini kaldırır C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words.mailmerging/mappeddatafieldcollection/remove/
@@ -18,7 +20,7 @@ public void Remove(string documentFieldName)
 | --- | --- | --- |
 | documentFieldName | String | Belgedeki adres-mektup birleştirme alanının büyük/küçük harfe duyarlı adı. |
 
-### Örnekler
+## Örnekler
 
 Adres-mektup birleştirme sırasında verilerin aralarında aktarılması için veri sütunlarının ve MERGEFIELD'lerin farklı adlarla nasıl eşleneceğini gösterir.
 
@@ -103,7 +105,5 @@ private static DataTable CreateSourceTableMappedDataFields()
 ### Ayrıca bakınız
 
 * class [MappedDataFieldCollection](../)
-* ad alanı [Aspose.Words.MailMerging](../../mappeddatafieldcollection/)
+* ad alanı [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * toplantı [Aspose.Words](../../../)
-
-

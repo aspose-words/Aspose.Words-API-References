@@ -1,9 +1,11 @@
 ---
 title: Stroke.StartArrowType
-second_title: Aspose.Words for .NET API Referansı
-description: Stroke mülk. Konturun başlangıcı için ok ucunu tanımlar.
+linktitle: StartArrowType
+articleTitle: StartArrowType
+second_title: Aspose.Words for .NET
+description: Stroke StartArrowType mülk. Konturun başlangıcı için ok ucunu tanımlar C#'da.
 type: docs
-weight: 180
+weight: 170
 url: /tr/net/aspose.words.drawing/stroke/startarrowtype/
 ---
 ## Stroke.StartArrowType property
@@ -14,11 +16,11 @@ Konturun başlangıcı için ok ucunu tanımlar.
 public ArrowType StartArrowType { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:None.
 
-### Örnekler
+## Örnekler
 
 Çeşitli şekiller oluşturmayı gösterir.
 
@@ -94,7 +96,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 
 * enum [ArrowType](../../arrowtype/)
 * class [Stroke](../)
-* ad alanı [Aspose.Words.Drawing](../../stroke/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

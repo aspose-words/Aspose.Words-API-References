@@ -1,7 +1,9 @@
 ---
 title: GradientStop.Transparency
-second_title: Aspose.Words for .NET API Referansı
-description: GradientStop mülk. 00 ila 10 aralığında yüzde olarak ifade edilen degrade dolgusunun şeffaflığını temsil eden bir değer alır veya ayarlar.
+linktitle: Transparency
+articleTitle: Transparency
+second_title: Aspose.Words for .NET
+description: GradientStop Transparency mülk. 00 ila 10 aralığında yüzde olarak ifade edilen degrade dolgusunun şeffaflığını temsil eden bir değer alır veya ayarlar C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.drawing/gradientstop/transparency/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.drawing/gradientstop/transparency/
 public double Transparency { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Degrade dolgusuna degrade duraklarının nasıl ekleneceğini gösterir.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 ### Ayrıca bakınız
 
 * class [GradientStop](../)
-* ad alanı [Aspose.Words.Drawing](../../gradientstop/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

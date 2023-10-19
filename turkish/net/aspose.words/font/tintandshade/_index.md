@@ -1,7 +1,9 @@
 ---
 title: Font.TintAndShade
-second_title: Aspose.Words for .NET API Referansı
-description: Font mülk. Bir rengi açan veya koyulaştıran double değerini alır veya ayarlar.
+linktitle: TintAndShade
+articleTitle: TintAndShade
+second_title: Aspose.Words for .NET
+description: Font TintAndShade mülk. Bir rengi açan veya koyulaştıran double değerini alır veya ayarlar C#'da.
 type: docs
 weight: 520
 url: /tr/net/aspose.words/font/tintandshade/
@@ -14,13 +16,13 @@ Bir rengi açan veya koyulaştıran double değerini alır veya ayarlar.
 public double TintAndShade { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özellik için izin verilen değerler -1 (en koyu) ile 1 (en açık) arasındadır. Sıfır (0) nötrdür. Bu özelliği -1'den küçük veya 1 'den büyük bir değere ayarlamaya çalışmak,ArgumentOutOfRangeException.
 
 Bu özelliğin ayarlanması[`Font`](../) tema dışı renklere sahip nesne,InvalidOperationException.
 
-### Örnekler
+## Örnekler
 
 Temalı stilin nasıl oluşturulacağını ve kullanılacağını gösterir.
 
@@ -43,7 +45,5 @@ builder.Writeln("Text with themed style");
 ### Ayrıca bakınız
 
 * class [Font](../)
-* ad alanı [Aspose.Words](../../font/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

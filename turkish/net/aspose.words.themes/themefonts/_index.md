@@ -1,7 +1,9 @@
 ---
-title: Class ThemeFonts
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Themes.ThemeFonts sınıf. Yazı tipi şemasındaki yazı tiplerinin bir koleksiyonunu temsil eder ve farklı diller için farklı yazı tipleri belirlemeye olanak tanırLatin EastAsian VeComplexScript .
+title: ThemeFonts Class
+linktitle: ThemeFonts
+articleTitle: ThemeFonts
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Themes.ThemeFonts sınıf. Yazı tipi şemasındaki yazı tiplerinin bir koleksiyonunu temsil eder ve farklı diller için farklı yazı tipleri belirlemeye olanak tanırLatin EastAsian VeComplexScript  C#'da.
 type: docs
 weight: 6500
 url: /tr/net/aspose.words.themes/themefonts/
@@ -24,7 +26,7 @@ public class ThemeFonts
 | [EastAsian](../../aspose.words.themes/themefonts/eastasian/) { get; set; } | DoğuAsya karakterleri için yazı tipi adını belirtir. |
 | [Latin](../../aspose.words.themes/themefonts/latin/) { get; set; } | Latin karakterler için yazı tipi adını belirtir. |
 
-### Örnekler
+## Örnekler
 
 Temalar için özel renklerin ve yazı tiplerinin nasıl ayarlanacağını gösterir.
 
@@ -73,5 +75,3 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 
 * ad alanı [Aspose.Words.Themes](../../aspose.words.themes/)
 * toplantı [Aspose.Words](../../)
-
-

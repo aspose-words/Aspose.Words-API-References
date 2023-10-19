@@ -1,7 +1,9 @@
 ---
 title: DownsampleOptions.DownsampleImages
-second_title: Aspose.Words for .NET API Referansı
-description: DownsampleOptions mülk. Görüntülerin altörneklenmesi gerekip gerekmediğini belirtir.
+linktitle: DownsampleImages
+articleTitle: DownsampleImages
+second_title: Aspose.Words for .NET
+description: DownsampleOptions DownsampleImages mülk. Görüntülerin altörneklenmesi gerekip gerekmediğini belirtir C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.saving/downsampleoptions/downsampleimages/
@@ -14,11 +16,11 @@ Görüntülerin altörneklenmesi gerekip gerekmediğini belirtir.
 public bool DownsampleImages { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:`doğru` .
 
-### Örnekler
+## Örnekler
 
 PDF belgesindeki görüntülerin çözünürlüğünün nasıl değiştirileceğini gösterir.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.DownsampleOptions.LowerResolution.pdf", 
 ### Ayrıca bakınız
 
 * class [DownsampleOptions](../)
-* ad alanı [Aspose.Words.Saving](../../downsampleoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

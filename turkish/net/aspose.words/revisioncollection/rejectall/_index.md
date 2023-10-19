@@ -1,7 +1,9 @@
 ---
 title: RevisionCollection.RejectAll
-second_title: Aspose.Words for .NET API Referansı
-description: RevisionCollection yöntem. Bu koleksiyondaki tüm düzeltmeleri reddeder.
+linktitle: RejectAll
+articleTitle: RejectAll
+second_title: Aspose.Words for .NET
+description: RevisionCollection RejectAll yöntem. Bu koleksiyondaki tüm düzeltmeleri reddeder C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words/revisioncollection/rejectall/
@@ -14,7 +16,7 @@ Bu koleksiyondaki tüm düzeltmeleri reddeder.
 public void RejectAll()
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgenin düzeltme koleksiyonuyla nasıl çalışılacağını gösterir.
 
@@ -70,7 +72,5 @@ Assert.AreEqual(0, revisions.Count);
 ### Ayrıca bakınız
 
 * class [RevisionCollection](../)
-* ad alanı [Aspose.Words](../../revisioncollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

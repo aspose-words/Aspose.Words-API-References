@@ -1,7 +1,9 @@
 ---
 title: FieldSymbol.IsUnicode
-second_title: Aspose.Words for .NET API Referansı
-description: FieldSymbol mülk. Karakter kodunun bir Unicode karakterin değeri olarak yorumlanıp yorumlanmayacağını alır veya ayarlar.
+linktitle: IsUnicode
+articleTitle: IsUnicode
+second_title: Aspose.Words for .NET
+description: FieldSymbol IsUnicode mülk. Karakter kodunun bir Unicode karakterin değeri olarak yorumlanıp yorumlanmayacağını alır veya ayarlar C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words.fields/fieldsymbol/isunicode/
@@ -14,7 +16,7 @@ Karakter kodunun bir Unicode karakterin değeri olarak yorumlanıp yorumlanmayac
 public bool IsUnicode { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 SEMBOL alanının nasıl kullanılacağını gösterir.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### Ayrıca bakınız
 
 * class [FieldSymbol](../)
-* ad alanı [Aspose.Words.Fields](../../fieldsymbol/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

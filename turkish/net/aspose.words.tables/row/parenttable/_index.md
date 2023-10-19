@@ -1,7 +1,9 @@
 ---
 title: Row.ParentTable
-second_title: Aspose.Words for .NET API Referansı
-description: Row mülk. Satırın doğrudan üst tablosunu döndürür.
+linktitle: ParentTable
+articleTitle: ParentTable
+second_title: Aspose.Words for .NET
+description: Row ParentTable mülk. Satırın doğrudan üst tablosunu döndürür C#'da.
 type: docs
 weight: 90
 url: /tr/net/aspose.words.tables/row/parenttable/
@@ -14,11 +16,11 @@ Satırın doğrudan üst tablosunu döndürür.
 public Table ParentTable { get; }
 ```
 
-### Notlar
+## Notlar
 
 EşittirFirstNonMarkupParentNode rol almak[`Table`](../../table/).
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki her tablonun düğüm yapısının nasıl yazdırılacağını gösterir.
 
@@ -182,7 +184,5 @@ public class TableStructurePrinter : DocumentVisitor
 
 * class [Table](../../table/)
 * class [Row](../)
-* ad alanı [Aspose.Words.Tables](../../row/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

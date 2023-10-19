@@ -1,7 +1,9 @@
 ---
 title: GraphicsQualityOptions.CompositingMode
-second_title: Aspose.Words for .NET API Referansı
-description: GraphicsQualityOptions mülk. Birleştirilmiş görüntülerin bu Grafiğe nasıl çizildiğini belirten bir değer alır veya ayarlar.
+linktitle: CompositingMode
+articleTitle: CompositingMode
+second_title: Aspose.Words for .NET
+description: GraphicsQualityOptions CompositingMode mülk. Birleştirilmiş görüntülerin bu Grafiğe nasıl çizildiğini belirten bir değer alır veya ayarlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.saving/graphicsqualityoptions/compositingmode/
@@ -14,7 +16,7 @@ Birleştirilmiş görüntülerin bu Grafiğe nasıl çizildiğini belirten bir d
 public CompositingMode? CompositingMode { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Belgeleri görüntü formatlarına dönüştürürken işleme kalitesi seçeneklerinin nasıl ayarlanacağını gösterir.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.GraphicsQuality.jpg", saveOptions);
 ### Ayrıca bakınız
 
 * class [GraphicsQualityOptions](../)
-* ad alanı [Aspose.Words.Saving](../../graphicsqualityoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

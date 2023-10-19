@@ -1,7 +1,9 @@
 ---
 title: IStructuredDocumentTag.IsRanged
-second_title: Aspose.Words for .NET API Referansı
-description: IStructuredDocumentTag yöntem. Bu örneğin aralıklı yapılandırılmış bir belge etiketi olması durumunda true değerini döndürür.
+linktitle: IsRanged
+articleTitle: IsRanged
+second_title: Aspose.Words for .NET
+description: IStructuredDocumentTag IsRanged yöntem. Bu örneğin aralıklı yapılandırılmış bir belge etiketi olması durumunda true değerini döndürür C#'da.
 type: docs
 weight: 140
 url: /tr/net/aspose.words.markup/istructureddocumenttag/isranged/
@@ -14,7 +16,7 @@ Bu örneğin aralıklı yapılandırılmış bir belge etiketi olması durumunda
 public bool IsRanged()
 ```
 
-### Örnekler
+## Örnekler
 
 Yapılandırılmış belge etiketinin nasıl alınacağını gösterir.
 
@@ -34,7 +36,5 @@ Console.WriteLine(sdt.Id);
 ### Ayrıca bakınız
 
 * interface [IStructuredDocumentTag](../)
-* ad alanı [Aspose.Words.Markup](../../istructureddocumenttag/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

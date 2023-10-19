@@ -1,9 +1,11 @@
 ---
 title: Fill.ForeColor
-second_title: Aspose.Words for .NET API Referansı
-description: Fill mülk. Dolgunun ön plan rengini temsil eden bir Color nesnesini alır veya ayarlar.
+linktitle: ForeColor
+articleTitle: ForeColor
+second_title: Aspose.Words for .NET
+description: Fill ForeColor mülk. Dolgunun ön plan rengini temsil eden bir Color nesnesini alır veya ayarlar C#'da.
 type: docs
-weight: 70
+weight: 60
 url: /tr/net/aspose.words.drawing/fill/forecolor/
 ---
 ## Fill.ForeColor property
@@ -14,11 +16,11 @@ Dolgunun ön plan rengini temsil eden bir Color nesnesini alır veya ayarlar.
 public Color ForeColor { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özellik alfa bileşenini sıfırlar.Color tam opak renge farklı olarak[`Color`](../color/) onu koruyan mülkiyettir.
 
-### Örnekler
+## Örnekler
 
 Çeşitli şekiller oluşturmayı gösterir.
 
@@ -93,7 +95,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 ### Ayrıca bakınız
 
 * class [Fill](../)
-* ad alanı [Aspose.Words.Drawing](../../fill/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

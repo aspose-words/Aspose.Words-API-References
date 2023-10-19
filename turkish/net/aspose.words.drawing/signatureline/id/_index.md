@@ -1,7 +1,9 @@
 ---
 title: SignatureLine.Id
-second_title: Aspose.Words for .NET API Referansı
-description: SignatureLine mülk. Bu imza satırının tanımlayıcısını alır veya ayarlar.
+linktitle: Id
+articleTitle: Id
+second_title: Aspose.Words for .NET
+description: SignatureLine Id mülk. Bu imza satırının tanımlayıcısını alır veya ayarlar C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.drawing/signatureline/id/
@@ -16,7 +18,7 @@ Bu tanımlayıcı, belgeyi kullanarak imzalarken dijital imzayla ilişkilendiril
 public Guid Id { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgeye imza satırının nasıl ekleneceğini ve ardından dijital sertifika kullanarak nasıl imzalanacağını gösterir.
 
@@ -132,7 +134,5 @@ Bir belgeye imza satırının nasıl ekleneceğini ve ardından dijital sertifik
 ### Ayrıca bakınız
 
 * class [SignatureLine](../)
-* ad alanı [Aspose.Words.Drawing](../../signatureline/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

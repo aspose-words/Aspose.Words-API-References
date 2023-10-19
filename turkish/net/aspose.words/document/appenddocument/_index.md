@@ -1,12 +1,14 @@
 ---
 title: Document.AppendDocument
-second_title: Aspose.Words for .NET API Referansı
-description: Document yöntem. Belirtilen belgeyi bu belgenin sonuna ekler.
+linktitle: AppendDocument
+articleTitle: AppendDocument
+second_title: Aspose.Words for .NET
+description: Document AppendDocument yöntem. Belirtilen belgeyi bu belgenin sonuna ekler C#'da.
 type: docs
-weight: 550
+weight: 530
 url: /tr/net/aspose.words/document/appenddocument/
 ---
-## AppendDocument(Document, ImportFormatMode) {#appenddocument}
+## AppendDocument(*[Document](../), [ImportFormatMode](../../importformatmode/)*) {#appenddocument}
 
 Belirtilen belgeyi bu belgenin sonuna ekler.
 
@@ -19,7 +21,7 @@ public void AppendDocument(Document srcDoc, ImportFormatMode importFormatMode)
 | srcDoc | Document | Eklenecek belge. |
 | importFormatMode | ImportFormatMode | Çakışan stil formatlamasının nasıl birleştirileceğini belirtir. |
 
-### Örnekler
+## Örnekler
 
 Bir belgenin başka bir belgenin sonuna nasıl ekleneceğini gösterir.
 
@@ -66,12 +68,12 @@ dstDoc.Save(ArtifactsDir + "Document.AppendAllDocumentsInFolder.doc");
 
 * enum [ImportFormatMode](../../importformatmode/)
 * class [Document](../)
-* ad alanı [Aspose.Words](../../document/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## AppendDocument(Document, ImportFormatMode, ImportFormatOptions) {#appenddocument_1}
+## AppendDocument(*[Document](../), [ImportFormatMode](../../importformatmode/), [ImportFormatOptions](../../importformatoptions/)*) {#appenddocument_1}
 
 Belirtilen belgeyi bu belgenin sonuna ekler.
 
@@ -86,7 +88,7 @@ public void AppendDocument(Document srcDoc, ImportFormatMode importFormatMode,
 | importFormatMode | ImportFormatMode | Çakışan stil formatlamasının nasıl birleştirileceğini belirtir. |
 | importFormatOptions | ImportFormatOptions | Sonuç belgesinin biçimlendirmesini etkileyen seçenekleri belirtmenize olanak sağlar. |
 
-### Örnekler
+## Örnekler
 
 Bir belgenin kopyasını kendisine eklerken liste stili çakışmalarının nasıl yönetileceğini gösterir.
 
@@ -170,7 +172,5 @@ dstDoc.Save(ArtifactsDir + "DocumentBuilder.AppendDocumentAndResolveStyles.docx"
 * enum [ImportFormatMode](../../importformatmode/)
 * class [ImportFormatOptions](../../importformatoptions/)
 * class [Document](../)
-* ad alanı [Aspose.Words](../../document/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

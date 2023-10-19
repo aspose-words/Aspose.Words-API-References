@@ -1,7 +1,9 @@
 ---
 title: OfficeMath.NodeType
-second_title: Aspose.Words for .NET API Referansı
-description: OfficeMath mülk. İadelerOfficeMath .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words for .NET
+description: OfficeMath NodeType mülk. İadelerOfficeMath  C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.math/officemath/nodetype/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.math/officemath/nodetype/
 public override NodeType NodeType { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Ofis matematik ekranı formatının nasıl ayarlanacağını gösterir.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Shape.OfficeMath.docx");
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [OfficeMath](../)
-* ad alanı [Aspose.Words.Math](../../officemath/)
+* ad alanı [Aspose.Words.Math](../../../aspose.words.math/)
 * toplantı [Aspose.Words](../../../)
-
-

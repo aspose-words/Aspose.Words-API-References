@@ -1,7 +1,9 @@
 ---
 title: PdfEncryptionDetails.OwnerPassword
-second_title: Aspose.Words for .NET API Referansı
-description: PdfEncryptionDetails mülk. Şifrelenmiş PDF belgesinin sahip parolasını belirtir.
+linktitle: OwnerPassword
+articleTitle: OwnerPassword
+second_title: Aspose.Words for .NET
+description: PdfEncryptionDetails OwnerPassword mülk. Şifrelenmiş PDF belgesinin sahip parolasını belirtir C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.saving/pdfencryptiondetails/ownerpassword/
@@ -14,13 +16,13 @@ url: /tr/net/aspose.words.saving/pdfencryptiondetails/ownerpassword/
 public string OwnerPassword { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Sahip parolası, kullanıcının şifrelenmiş bir PDF belgesini, şurada belirtilen herhangi bir erişim kısıtlaması olmadan açmasına olanak tanır:[`Permissions`](../permissions/).
 
 Sahip parolası kullanıcı parolasıyla aynı olamaz.
 
-### Örnekler
+## Örnekler
 
 Kaydedilmiş bir PDF belgesinde izinlerin nasıl ayarlanacağını gösterir.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.EncryptionPermissions.pdf", saveOptions)
 ### Ayrıca bakınız
 
 * class [PdfEncryptionDetails](../)
-* ad alanı [Aspose.Words.Saving](../../pdfencryptiondetails/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

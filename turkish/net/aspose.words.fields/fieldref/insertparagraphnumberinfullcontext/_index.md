@@ -1,7 +1,9 @@
 ---
 title: FieldRef.InsertParagraphNumberInFullContext
-second_title: Aspose.Words for .NET API Referansı
-description: FieldRef mülk. Başvurulan paragrafın paragraf numarasının tam bağlamda eklenip eklenmeyeceğini alır veya ayarlar.
+linktitle: InsertParagraphNumberInFullContext
+articleTitle: InsertParagraphNumberInFullContext
+second_title: Aspose.Words for .NET
+description: FieldRef InsertParagraphNumberInFullContext mülk. Başvurulan paragrafın paragraf numarasının tam bağlamda eklenip eklenmeyeceğini alır veya ayarlar C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.fields/fieldref/insertparagraphnumberinfullcontext/
@@ -14,7 +16,7 @@ Başvurulan paragrafın paragraf numarasının tam bağlamda eklenip eklenmeyece
 public bool InsertParagraphNumberInFullContext { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Referans yer imlerine REF alanlarının nasıl ekleneceğini gösterir.
 
@@ -104,7 +106,5 @@ private static FieldRef InsertFieldRef(DocumentBuilder builder, string bookmarkN
 ### Ayrıca bakınız
 
 * class [FieldRef](../)
-* ad alanı [Aspose.Words.Fields](../../fieldref/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.UseGdiEmfRenderer
-second_title: Aspose.Words for .NET API Referansı
-description: ImageSaveOptions mülk. EMF. ye kaydederken GDI veya Aspose.Words meta dosyası oluşturucusunun kullanılıp kullanılmayacağını belirleyen bir değer alır veya ayarlar.
+linktitle: UseGdiEmfRenderer
+articleTitle: UseGdiEmfRenderer
+second_title: Aspose.Words for .NET
+description: ImageSaveOptions UseGdiEmfRenderer mülk. EMF. ye kaydederken GDI veya Aspose.Words meta dosyası oluşturucusunun kullanılıp kullanılmayacağını belirleyen bir değer alır veya ayarlar C#'da.
 type: docs
 weight: 190
 url: /tr/net/aspose.words.saving/imagesaveoptions/usegdiemfrenderer/
@@ -14,7 +16,7 @@ EMF. 'ye kaydederken GDI+ veya Aspose.Words meta dosyası oluşturucusunun kulla
 public bool UseGdiEmfRenderer { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Eğer ayarlanmışsa`doğru` GDI+ meta dosyası oluşturucusu kullanılır. Yani içerik GDI+ Graphics nesnesine yazılır ve meta dosyasına kaydedilir.
 
@@ -26,7 +28,7 @@ GDI+ kaydetme yalnızca .NET'te çalışır.
 
 Varsayılan değer:`doğru`.
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi .emf'ye dönüştürürken oluşturucunun nasıl seçileceğini gösterir.
 
@@ -60,7 +62,5 @@ Document doc = new Document();
 ### Ayrıca bakınız
 
 * class [ImageSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../imagesaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

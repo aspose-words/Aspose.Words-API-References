@@ -1,7 +1,9 @@
 ---
 title: FieldFillIn.PromptOnceOnMailMerge
-second_title: Aspose.Words for .NET API Referansı
-description: FieldFillIn mülk. Adresmektup birleştirme işlemi başına kullanıcı yanıtının bir kez alınması gerekip gerekmediğini alır veya ayarlar.
+linktitle: PromptOnceOnMailMerge
+articleTitle: PromptOnceOnMailMerge
+second_title: Aspose.Words for .NET
+description: FieldFillIn PromptOnceOnMailMerge mülk. Adresmektup birleştirme işlemi başına kullanıcı yanıtının bir kez alınması gerekip gerekmediğini alır veya ayarlar C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fields/fieldfillin/promptonceonmailmerge/
@@ -14,7 +16,7 @@ Adres-mektup birleştirme işlemi başına kullanıcı yanıtının bir kez alı
 public bool PromptOnceOnMailMerge { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Kullanıcıdan yanıt istemek için FILLIN alanının nasıl kullanılacağını gösterir.
 
@@ -63,7 +65,5 @@ private class PromptRespondent : IFieldUserPromptRespondent
 ### Ayrıca bakınız
 
 * class [FieldFillIn](../)
-* ad alanı [Aspose.Words.Fields](../../fieldfillin/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

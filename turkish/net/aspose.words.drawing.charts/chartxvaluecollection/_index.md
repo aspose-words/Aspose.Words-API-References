@@ -1,7 +1,9 @@
 ---
-title: Class ChartXValueCollection
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.Charts.ChartXValueCollection sınıf. Bir grafik serisi için X değerlerinden oluşan bir koleksiyonu temsil eder.
+title: ChartXValueCollection Class
+linktitle: ChartXValueCollection
+articleTitle: ChartXValueCollection
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.Charts.ChartXValueCollection sınıf. Bir grafik serisi için X değerlerinden oluşan bir koleksiyonu temsil eder C#'da.
 type: docs
 weight: 850
 url: /tr/net/aspose.words.drawing.charts/chartxvaluecollection/
@@ -27,13 +29,13 @@ public class ChartXValueCollection : IEnumerable<ChartXValue>
 | --- | --- |
 | [GetEnumerator](../../aspose.words.drawing.charts/chartxvaluecollection/getenumerator/)() | Bir numaralandırıcı nesnesini döndürür. |
 
-### Notlar
+## Notlar
 
-Koleksiyonun dışındaki tüm öğeleri **hükümsüz** aynısı olmalı[`ValueType`](../chartxvalue/valuetype/).
+Koleksiyonun dışındaki tüm öğeleri**hükümsüz** aynısı olmalı[`ValueType`](../chartxvalue/valuetype/).
 
 Koleksiyon yalnızca X değerlerinin değiştirilmesine izin verir. Bir grafik serisine yeni değerler eklemek veya değerleri kaldırmak için uygun yöntemleri kullanın.[`ChartSeries`](../chartseries/) sınıf kullanılabilir.
 
-### Örnekler
+## Örnekler
 
 Grafik serisi verilerinin nasıl alınacağını gösterir.
 
@@ -89,5 +91,3 @@ doc.Save(ArtifactsDir + "Charts.GetChartSeriesData.docx");
 * class [ChartXValue](../chartxvalue/)
 * ad alanı [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../)
-
-

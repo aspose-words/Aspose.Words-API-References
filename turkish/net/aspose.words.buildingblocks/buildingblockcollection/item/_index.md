@@ -1,7 +1,9 @@
 ---
 title: BuildingBlockCollection.Item
-second_title: Aspose.Words for .NET API Referansı
-description: BuildingBlockCollection mülk. Verilen dizindeki yapı taşını alır.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words for .NET
+description: BuildingBlockCollection Item mülk. Verilen dizindeki yapı taşını alır C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.buildingblocks/buildingblockcollection/item/
@@ -18,7 +20,7 @@ public BuildingBlock this[int index] { get; }
 | --- | --- |
 | index | Yapı taşları listesine bir dizin. |
 
-### Notlar
+## Notlar
 
 Endeks sıfır bazlıdır.
 
@@ -28,7 +30,7 @@ Dizin listedeki öğe sayısından büyük veya ona eşitse bu, boş bir başvur
 
 Dizin negatifse ve mutlak değeri listedeki öğe sayısından büyükse bu, boş bir başvuru döndürür.
 
-### Örnekler
+## Örnekler
 
 Bir sözlük belgesinde yapı taşlarına erişmenin yollarını gösterir.
 
@@ -133,7 +135,5 @@ public class GlossaryDocVisitor : DocumentVisitor
 
 * class [BuildingBlock](../../buildingblock/)
 * class [BuildingBlockCollection](../)
-* ad alanı [Aspose.Words.BuildingBlocks](../../buildingblockcollection/)
+* ad alanı [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Footnote.IsAuto
-second_title: Aspose.Words for .NET API Referansı
-description: Footnote mülk. Bunun otomatik numaralandırılmış bir dipnot mu yoksa kullanıcı tanımlı özel referans işaretli dipnot mu olduğunu belirten bir değer içerir.
+linktitle: IsAuto
+articleTitle: IsAuto
+second_title: Aspose.Words for .NET
+description: Footnote IsAuto mülk. Bunun otomatik numaralandırılmış bir dipnot mu yoksa kullanıcı tanımlı özel referans işaretli dipnot mu olduğunu belirten bir değer içerir C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.notes/footnote/isauto/
@@ -14,11 +16,11 @@ Bunun otomatik numaralandırılmış bir dipnot mu yoksa kullanıcı tanımlı �
 public bool IsAuto { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 [`ReferenceMark`](../referencemark/)eğer boş dizeyle başlatıldı`IsAuto` ayarlanır`YANLIŞ` .
 
-### Örnekler
+## Örnekler
 
 Dipnotların nasıl ekleneceğini ve özelleştirileceğini gösterir.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "InlineStory.AddFootnote.docx");
 ### Ayrıca bakınız
 
 * class [Footnote](../)
-* ad alanı [Aspose.Words.Notes](../../footnote/)
+* ad alanı [Aspose.Words.Notes](../../../aspose.words.notes/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: CustomDocumentProperties.Add
-second_title: Aspose.Words for .NET API Referansı
-description: CustomDocumentProperties yöntem. Yeni bir özel belge özelliği oluşturur.String veri türü.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words for .NET
+description: CustomDocumentProperties Add yöntem. Yeni bir özel belge özelliği oluşturur.String veri türü C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.properties/customdocumentproperties/add/
 ---
-## Add(string, string) {#add_4}
+## Add(*string, string*) {#add_4}
 
 Yeni bir özel belge özelliği oluşturur.String veri türü.
 
@@ -23,7 +25,7 @@ public DocumentProperty Add(string name, string value)
 
 Yeni oluşturulan özellik nesnesi.
 
-### Örnekler
+## Örnekler
 
 Bir belgenin özel özellikleriyle nasıl çalışılacağını gösterir.
 
@@ -84,12 +86,12 @@ Assert.AreEqual(0, properties.Count);
 
 * class [DocumentProperty](../../documentproperty/)
 * class [CustomDocumentProperties](../)
-* ad alanı [Aspose.Words.Properties](../../customdocumentproperties/)
+* ad alanı [Aspose.Words.Properties](../../../aspose.words.properties/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## Add(string, int) {#add_2}
+## Add(*string, int*) {#add_2}
 
 Yeni bir özel belge özelliği oluşturur.Number veri türü.
 
@@ -106,7 +108,7 @@ public DocumentProperty Add(string name, int value)
 
 Yeni oluşturulan özellik nesnesi.
 
-### Örnekler
+## Örnekler
 
 Bir belgenin özel özellikleriyle nasıl çalışılacağını gösterir.
 
@@ -167,12 +169,12 @@ Assert.AreEqual(0, properties.Count);
 
 * class [DocumentProperty](../../documentproperty/)
 * class [CustomDocumentProperties](../)
-* ad alanı [Aspose.Words.Properties](../../customdocumentproperties/)
+* ad alanı [Aspose.Words.Properties](../../../aspose.words.properties/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## Add(string, DateTime) {#add_3}
+## Add(*string, DateTime*) {#add_3}
 
 Yeni bir özel belge özelliği oluşturur.DateTime veri türü.
 
@@ -189,7 +191,7 @@ public DocumentProperty Add(string name, DateTime value)
 
 Yeni oluşturulan özellik nesnesi.
 
-### Örnekler
+## Örnekler
 
 Tarih ve saat içeren özel bir belge özelliğinin nasıl oluşturulacağını gösterir.
 
@@ -260,12 +262,12 @@ Assert.AreEqual(0, properties.Count);
 
 * class [DocumentProperty](../../documentproperty/)
 * class [CustomDocumentProperties](../)
-* ad alanı [Aspose.Words.Properties](../../customdocumentproperties/)
+* ad alanı [Aspose.Words.Properties](../../../aspose.words.properties/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## Add(string, bool) {#add}
+## Add(*string, bool*) {#add}
 
 Yeni bir özel belge özelliği oluşturur.Boolean veri türü.
 
@@ -282,7 +284,7 @@ public DocumentProperty Add(string name, bool value)
 
 Yeni oluşturulan özellik nesnesi.
 
-### Örnekler
+## Örnekler
 
 Bir belgenin özel özellikleriyle nasıl çalışılacağını gösterir.
 
@@ -343,12 +345,12 @@ Assert.AreEqual(0, properties.Count);
 
 * class [DocumentProperty](../../documentproperty/)
 * class [CustomDocumentProperties](../)
-* ad alanı [Aspose.Words.Properties](../../customdocumentproperties/)
+* ad alanı [Aspose.Words.Properties](../../../aspose.words.properties/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## Add(string, double) {#add_1}
+## Add(*string, double*) {#add_1}
 
 Yeni bir özel belge özelliği oluşturur.Double veri türü.
 
@@ -365,7 +367,7 @@ public DocumentProperty Add(string name, double value)
 
 Yeni oluşturulan özellik nesnesi.
 
-### Örnekler
+## Örnekler
 
 Bir belgenin özel özellikleriyle nasıl çalışılacağını gösterir.
 
@@ -426,7 +428,5 @@ Assert.AreEqual(0, properties.Count);
 
 * class [DocumentProperty](../../documentproperty/)
 * class [CustomDocumentProperties](../)
-* ad alanı [Aspose.Words.Properties](../../customdocumentproperties/)
+* ad alanı [Aspose.Words.Properties](../../../aspose.words.properties/)
 * toplantı [Aspose.Words](../../../)
-
-

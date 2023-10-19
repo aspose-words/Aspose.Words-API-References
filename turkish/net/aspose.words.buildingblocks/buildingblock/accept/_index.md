@@ -1,7 +1,9 @@
 ---
 title: BuildingBlock.Accept
-second_title: Aspose.Words for .NET API Referansı
-description: BuildingBlock yöntem. Ziyaretçi kabul eder.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words for .NET
+description: BuildingBlock Accept yöntem. Ziyaretçi kabul eder C#'da.
 type: docs
 weight: 130
 url: /tr/net/aspose.words.buildingblocks/buildingblock/accept/
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 Tüm düğümler ziyaret edilmişse doğrudur; yanlış ise[`DocumentVisitor`](../../../aspose.words/documentvisitor/) tüm düğümleri ziyaret etmeden işlemi durdurdu.
 
-### Notlar
+## Notlar
 
 Bu düğümü ve tüm alt öğelerini numaralandırır. Her düğüm kendisine karşılık gelen bir yöntemi çağırır.[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
@@ -32,7 +34,7 @@ Aramalar[`VisitBuildingBlockStart`](../../../aspose.words/documentvisitor/visitb
 
 Not: Bir yapı bloğu düğümü ve onun alt öğeleri, a Visitor'ı bir ağ üzerinde çalıştırdığınızda ziyaret edilmez.[`Document`](../../../aspose.words/document/) . Bir Ziyaretçiyi a yapı bloğu üzerinden yürütmek istiyorsanız, ziyaretçiyi[`GlossaryDocument`](../../glossarydocument/) or çağrısı`Accept` .
 
-### Örnekler
+## Örnekler
 
 Bir belgeye özel yapı taşının nasıl ekleneceğini gösterir.
 
@@ -130,7 +132,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 
 * class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * class [BuildingBlock](../)
-* ad alanı [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* ad alanı [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * toplantı [Aspose.Words](../../../)
-
-

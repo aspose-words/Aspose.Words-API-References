@@ -1,7 +1,9 @@
 ---
-title: Class SystemFontSource
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Fonts.SystemFontSource sınıf. Sisteme yüklenen tüm TrueType yazı tiplerini temsil eder.
+title: SystemFontSource Class
+linktitle: SystemFontSource
+articleTitle: SystemFontSource
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Fonts.SystemFontSource sınıf. Sisteme yüklenen tüm TrueType yazı tiplerini temsil eder C#'da.
 type: docs
 weight: 3050
 url: /tr/net/aspose.words.fonts/systemfontsource/
@@ -21,7 +23,7 @@ public class SystemFontSource : FontSourceBase
 | İsim | Tanım |
 | --- | --- |
 | [SystemFontSource](systemfontsource/#constructor)() | Ctor. |
-| [SystemFontSource](systemfontsource/#constructor_1)(int) | Ctor. |
+| [SystemFontSource](systemfontsource/#constructor_1)(*int*) | Ctor. |
 
 ## Özellikleri
 
@@ -38,7 +40,7 @@ public class SystemFontSource : FontSourceBase
 | [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | Bu kaynak aracılığıyla kullanılabilen yazı tiplerinin listesini döndürür. |
 | static [GetSystemFontFolders](../../aspose.words.fonts/systemfontsource/getsystemfontfolders/)() | Klasörlere erişilemiyorsa sistem yazı tipi klasörlerini veya boş diziyi döndürür. |
 
-### Örnekler
+## Örnekler
 
 Bir belgenin sistem yazı tipi kaynağına nasıl erişileceğini ve yazı tipi yedeklerinin nasıl ayarlanacağını gösterir.
 
@@ -96,5 +98,3 @@ Assert.AreEqual(1,
 * class [FontSourceBase](../fontsourcebase/)
 * ad alanı [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../)
-
-

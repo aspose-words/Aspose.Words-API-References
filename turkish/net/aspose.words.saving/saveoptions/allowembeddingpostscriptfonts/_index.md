@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.AllowEmbeddingPostScriptFonts
-second_title: Aspose.Words for .NET API Referansı
-description: SaveOptions mülk. Kaydedildikten sonra TrueType yazı tiplerini bir belgeye gömerken PostScript ana hatlarıyla yazı tiplerinin gömülmesine izin verilip verilmeyeceğini belirten bir boole değeri alır veya ayarlar. Varsayılan değerYANLIŞ .
+linktitle: AllowEmbeddingPostScriptFonts
+articleTitle: AllowEmbeddingPostScriptFonts
+second_title: Aspose.Words for .NET
+description: SaveOptions AllowEmbeddingPostScriptFonts mülk. Kaydedildikten sonra TrueType yazı tiplerini bir belgeye gömerken PostScript ana hatlarıyla yazı tiplerinin gömülmesine izin verilip verilmeyeceğini belirten bir boole değeri alır veya ayarlar. Varsayılan değerYANLIŞ  C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.saving/saveoptions/allowembeddingpostscriptfonts/
@@ -14,13 +16,13 @@ Kaydedildikten sonra TrueType yazı tiplerini bir belgeye gömerken PostScript a
 public bool AllowEmbeddingPostScriptFonts { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Word'ün PostScript yazı tiplerini katıştırmadığını ancak bu türden katıştırılmış yazı tiplerine sahip belgeleri açabileceğini unutmayın.
 
 Bu seçenek yalnızca şu durumlarda çalışır:[`EmbedTrueTypeFonts`](../../../aspose.words.fonts/fontinfocollection/embedtruetypefonts/) of the [`FontInfos`](../../../aspose.words/documentbase/fontinfos/) özellik şu şekilde ayarlandı:`doğru`.
 
-### Örnekler
+## Örnekler
 
 Belgenin PostScript yazı tipiyle nasıl kaydedileceğini gösterir.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Document.AllowEmbeddingPostScriptFonts.docx", saveOptio
 ### Ayrıca bakınız
 
 * class [SaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../saveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

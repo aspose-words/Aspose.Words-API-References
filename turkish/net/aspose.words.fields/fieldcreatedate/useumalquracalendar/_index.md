@@ -1,7 +1,9 @@
 ---
 title: FieldCreateDate.UseUmAlQuraCalendar
-second_title: Aspose.Words for .NET API Referansı
-description: FieldCreateDate mülk. UmalQura takviminin kullanılıp kullanılmayacağını alır veya ayarlar.
+linktitle: UseUmAlQuraCalendar
+articleTitle: UseUmAlQuraCalendar
+second_title: Aspose.Words for .NET
+description: FieldCreateDate UseUmAlQuraCalendar mülk. UmalQura takviminin kullanılıp kullanılmayacağını alır veya ayarlar C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.fields/fieldcreatedate/useumalquracalendar/
@@ -14,7 +16,7 @@ Um-al-Qura takviminin kullanılıp kullanılmayacağını alır veya ayarlar.
 public bool UseUmAlQuraCalendar { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Belgenin oluşturulma tarihini/saatini görüntülemek için CREATEDATE alanının nasıl kullanılacağını gösterir.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "Field.CREATEDATE.docx");
 ### Ayrıca bakınız
 
 * class [FieldCreateDate](../)
-* ad alanı [Aspose.Words.Fields](../../fieldcreatedate/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

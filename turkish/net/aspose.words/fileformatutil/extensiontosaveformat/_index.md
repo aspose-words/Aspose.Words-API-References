@@ -1,7 +1,9 @@
 ---
 title: FileFormatUtil.ExtensionToSaveFormat
-second_title: Aspose.Words for .NET API Referansı
-description: FileFormatUtil yöntem. Dosya adı uzantısını bir dosya adı uzantısına dönüştürürSaveFormat değer.
+linktitle: ExtensionToSaveFormat
+articleTitle: ExtensionToSaveFormat
+second_title: Aspose.Words for .NET
+description: FileFormatUtil ExtensionToSaveFormat yöntem. Dosya adı uzantısını bir dosya adı uzantısına dönüştürürSaveFormat değer C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words/fileformatutil/extensiontosaveformat/
@@ -24,11 +26,11 @@ public static SaveFormat ExtensionToSaveFormat(string extension)
 | --- | --- |
 | ArgumentNullException | Parametre şu şekildeyse atar`hükümsüz`. |
 
-### Notlar
+## Notlar
 
 Uzantı tanınamıyorsa şunu döndürür:Unknown.
 
-### Örnekler
+## Örnekler
 
 Bir belgenin biçimini algılamak için FileFormatUtil yöntemlerinin nasıl kullanılacağını gösterir.
 
@@ -62,7 +64,5 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
 
 * enum [SaveFormat](../../saveformat/)
 * class [FileFormatUtil](../)
-* ad alanı [Aspose.Words](../../fileformatutil/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CssSavingArgs.IsExportNeeded
-second_title: Aspose.Words for .NET API Referansı
-description: CssSavingArgs mülk. CSSnin dosyaya aktarılıp aktarılmayacağını ve HTML belgesine gömülüp gömülmeyeceğini belirlemeye izin verir. Varsayılandoğru . Bu özellik kullanıldığındaYANLIŞ  CSS bilgileri bir CSS dosyasına kaydedilmeyecek ve HTML belgesine gömülmeyecektir.
+linktitle: IsExportNeeded
+articleTitle: IsExportNeeded
+second_title: Aspose.Words for .NET
+description: CssSavingArgs IsExportNeeded mülk. CSSnin dosyaya aktarılıp aktarılmayacağını ve HTML belgesine gömülüp gömülmeyeceğini belirlemeye izin verir. Varsayılandoğru . Bu özellik kullanıldığındaYANLIŞ  CSS bilgileri bir CSS dosyasına kaydedilmeyecek ve HTML belgesine gömülmeyecektir C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.saving/csssavingargs/isexportneeded/
@@ -14,7 +16,7 @@ CSS'nin dosyaya aktarılıp aktarılmayacağını ve HTML belgesine gömülüp g
 public bool IsExportNeeded { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir HTML dönüşümünün oluşturduğu CSS stil sayfalarıyla nasıl çalışılacağını gösterir.
 
@@ -75,7 +77,5 @@ private class CustomCssSavingCallback : ICssSavingCallback
 ### Ayrıca bakınız
 
 * class [CssSavingArgs](../)
-* ad alanı [Aspose.Words.Saving](../../csssavingargs/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

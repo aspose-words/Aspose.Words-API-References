@@ -1,7 +1,9 @@
 ---
-title: Enum HtmlMetafileFormat
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Saving.HtmlMetafileFormat Sıralama. Meta dosyalarının HTML belgelerine kaydedildiği biçimi belirtir.
+title: HtmlMetafileFormat Enum
+linktitle: HtmlMetafileFormat
+articleTitle: HtmlMetafileFormat
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Saving.HtmlMetafileFormat Sıralama. Meta dosyalarının HTML belgelerine kaydedildiği biçimi belirtir C#'da.
 type: docs
 weight: 5090
 url: /tr/net/aspose.words.saving/htmlmetafileformat/
@@ -22,7 +24,7 @@ public enum HtmlMetafileFormat
 | Svg | `1` | Meta dosyalar vektör SVG görsellerine dönüştürülür. |
 | EmfOrWmf | `2` | Meta dosyalar, dönüştürme yapılmadan olduğu gibi kaydedilir. |
 
-### Örnekler
+## Örnekler
 
 HTML belgelerini kaydederken SVG nesnelerinin farklı bir formata nasıl dönüştürüleceğini gösterir.
 
@@ -82,5 +84,3 @@ switch (htmlMetafileFormat)
 
 * ad alanı [Aspose.Words.Saving](../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Interface IBibliographyStylesProvider
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Fields.IBibliographyStylesProvider arayüz. için kaynakça stili sağlamak üzere bu arayüzü uygulayın FieldBibliography VeFieldCitation güncellendiklerinde alanlar.
+title: IBibliographyStylesProvider Interface
+linktitle: IBibliographyStylesProvider
+articleTitle: IBibliographyStylesProvider
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Fields.IBibliographyStylesProvider arayüz. için kaynakça stili sağlamak üzere bu arayüzü uygulayın FieldBibliography VeFieldCitation güncellendiklerinde alanlar C#'da.
 type: docs
 weight: 2670
 url: /tr/net/aspose.words.fields/ibibliographystylesprovider/
@@ -18,9 +20,9 @@ public interface IBibliographyStylesProvider
 
 | İsim | Tanım |
 | --- | --- |
-| [GetStyle](../../aspose.words.fields/ibibliographystylesprovider/getstyle/)(string) | Kaynakça stilini döndürür. |
+| [GetStyle](../../aspose.words.fields/ibibliographystylesprovider/getstyle/)(*string*) | Kaynakça stilini döndürür. |
 
-### Örnekler
+## Örnekler
 
 Yerleşik stillerin nasıl geçersiz kılınacağını veya özel bir stilin nasıl sağlanacağını gösterir.
 
@@ -48,5 +50,3 @@ public class BibliographyStylesProvider : IBibliographyStylesProvider
 
 * ad alanı [Aspose.Words.Fields](../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../)
-
-

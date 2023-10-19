@@ -1,7 +1,9 @@
 ---
 title: AxisBound.IsAuto
-second_title: Aspose.Words for .NET API Referansı
-description: AxisBound mülk. Eksen sınırının otomatik olarak belirlenmesi gerektiğini belirten bir bayrak döndürür.
+linktitle: IsAuto
+articleTitle: IsAuto
+second_title: Aspose.Words for .NET
+description: AxisBound IsAuto mülk. Eksen sınırının otomatik olarak belirlenmesi gerektiğini belirten bir bayrak döndürür C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.drawing.charts/axisbound/isauto/
@@ -14,7 +16,7 @@ Eksen sınırının otomatik olarak belirlenmesi gerektiğini belirten bir bayra
 public bool IsAuto { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Özel eksen sınırlarının nasıl ayarlanacağını gösterir.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "Charts.AxisBound.docx");
 ### Ayrıca bakınız
 
 * class [AxisBound](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../axisbound/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

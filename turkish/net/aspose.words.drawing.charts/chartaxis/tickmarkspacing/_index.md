@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.TickMarkSpacing
-second_title: Aspose.Words for .NET API Referansı
-description: ChartAxis mülk. Onay işaretlerinin çizildiği aralığı alır veya ayarlar.
+linktitle: TickMarkSpacing
+articleTitle: TickMarkSpacing
+second_title: Aspose.Words for .NET
+description: ChartAxis TickMarkSpacing mülk. Onay işaretlerinin çizildiği aralığı alır veya ayarlar C#'da.
 type: docs
 weight: 270
 url: /tr/net/aspose.words.drawing.charts/chartaxis/tickmarkspacing/
@@ -14,13 +16,13 @@ Onay işaretlerinin çizildiği aralığı alır veya ayarlar.
 public int TickMarkSpacing { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Özelliğin metin kategorisi ve seri eksenleri üzerinde etkisi vardır. MS Office 2016 yeni çizelgeleri tarafından desteklenmemektedir.
 
 Bir değerin geçerli aralığı 1'den büyük veya ona eşittir.
 
-### Örnekler
+## Örnekler
 
 Grafiğin nasıl ekleneceğini ve eksenlerinin görünümünün nasıl değiştirileceğini gösterir.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 ### Ayrıca bakınız
 
 * class [ChartAxis](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

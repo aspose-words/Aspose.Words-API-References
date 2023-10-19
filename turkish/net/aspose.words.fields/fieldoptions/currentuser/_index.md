@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.CurrentUser
-second_title: Aspose.Words for .NET API Referansı
-description: FieldOptions mülk. Geçerli kullanıcı bilgilerini alır veya ayarlar.
+linktitle: CurrentUser
+articleTitle: CurrentUser
+second_title: Aspose.Words for .NET
+description: FieldOptions CurrentUser mülk. Geçerli kullanıcı bilgilerini alır veya ayarlar C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.fields/fieldoptions/currentuser/
@@ -14,7 +16,7 @@ Geçerli kullanıcı bilgilerini alır veya ayarlar.
 public UserInformation CurrentUser { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Kullanıcı ayrıntılarının nasıl ayarlanacağını ve alanları kullanarak bunların nasıl görüntüleneceğini gösterir.
 
@@ -55,7 +57,5 @@ doc.Save(ArtifactsDir + "FieldOptions.CurrentUser.docx");
 
 * class [UserInformation](../../userinformation/)
 * class [FieldOptions](../)
-* ad alanı [Aspose.Words.Fields](../../fieldoptions/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

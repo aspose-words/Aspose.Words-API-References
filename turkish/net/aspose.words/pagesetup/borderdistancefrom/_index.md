@@ -1,7 +1,9 @@
 ---
 title: PageSetup.BorderDistanceFrom
-second_title: Aspose.Words for .NET API Referansı
-description: PageSetup mülk. Belirtilen sayfa kenarlığının sayfanın kenarından mı yoksa onu çevreleyen metinden mi ölçüldüğünü belirten bir değer alır veya ayarlar.
+linktitle: BorderDistanceFrom
+articleTitle: BorderDistanceFrom
+second_title: Aspose.Words for .NET
+description: PageSetup BorderDistanceFrom mülk. Belirtilen sayfa kenarlığının sayfanın kenarından mı yoksa onu çevreleyen metinden mi ölçüldüğünü belirten bir değer alır veya ayarlar C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words/pagesetup/borderdistancefrom/
@@ -14,7 +16,7 @@ Belirtilen sayfa kenarlığının sayfanın kenarından mı yoksa onu çevreleye
 public PageBorderDistanceFrom BorderDistanceFrom { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 İlk sayfanın üst kısmında geniş mavi bant kenarlığının nasıl oluşturulacağını gösterir.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageBorderProperties.docx");
 
 * enum [PageBorderDistanceFrom](../../pageborderdistancefrom/)
 * class [PageSetup](../)
-* ad alanı [Aspose.Words](../../pagesetup/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

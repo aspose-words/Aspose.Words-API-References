@@ -1,7 +1,9 @@
 ---
 title: EndnoteOptions.NumberStyle
-second_title: Aspose.Words for .NET API Referansı
-description: EndnoteOptions mülk. Otomatik olarak numaralandırılan son notlar için sayı biçimini belirtir.
+linktitle: NumberStyle
+articleTitle: NumberStyle
+second_title: Aspose.Words for .NET
+description: EndnoteOptions NumberStyle mülk. Otomatik olarak numaralandırılan son notlar için sayı biçimini belirtir C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.notes/endnoteoptions/numberstyle/
@@ -14,11 +16,11 @@ Otomatik olarak numaralandırılan son notlar için sayı biçimini belirtir.
 public NumberStyle NumberStyle { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özellik için tüm sayı stilleri geçerli değildir. Uygulanabilir sayı stillerinin listesi için Microsoft Word'deki Dipnot veya Sonnot Ekle iletişim kutusuna bakın. Uygun olmayan bir sayı stilini seçerseniz, Microsoft Word varsayılan değere geri döner.
 
-### Örnekler
+## Örnekler
 
 Dipnot/sonnot referans işaretlerinin sayı stilinin nasıl değiştirileceğini gösterir.
 
@@ -69,7 +71,5 @@ doc.Save(ArtifactsDir + "InlineStory.RefMarkNumberStyle.docx");
 
 * enum [NumberStyle](../../../aspose.words/numberstyle/)
 * class [EndnoteOptions](../)
-* ad alanı [Aspose.Words.Notes](../../endnoteoptions/)
+* ad alanı [Aspose.Words.Notes](../../../aspose.words.notes/)
 * toplantı [Aspose.Words](../../../)
-
-

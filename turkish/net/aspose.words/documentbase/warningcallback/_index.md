@@ -1,7 +1,9 @@
 ---
 title: DocumentBase.WarningCallback
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentBase mülk. Çeşitli belge işleme prosedürleri sırasında verilerde veya formatta uygunluk kaybıyla sonuçlanabilecek bir sorun algılandığında çağrılır.
+linktitle: WarningCallback
+articleTitle: WarningCallback
+second_title: Aspose.Words for .NET
+description: DocumentBase WarningCallback mülk. Çeşitli belge işleme prosedürleri sırasında verilerde veya formatta uygunluk kaybıyla sonuçlanabilecek bir sorun algılandığında çağrılır C#'da.
 type: docs
 weight: 90
 url: /tr/net/aspose.words/documentbase/warningcallback/
@@ -14,11 +16,11 @@ url: /tr/net/aspose.words/documentbase/warningcallback/
 public IWarningCallback WarningCallback { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Belge, varlığının herhangi bir aşamasında uyarılar oluşturabilir; bu nedenle, uyarıların kaybolmasını önlemek için uyarı geri çağrısını mümkün olduğunca erken olarak ayarlamak önemlidir. Örneğin aşağıdaki gibi özellikler[`PageCount`](../../document/pagecount/) aslında daha sonra oluşturma için kullanılacak olan belge düzenini oluşturur ve yalnızca daha sonraki oluşturma çağrıları için uyarı geri çağrısı belirtilirse düzen uyarıları kaybolabilir.
 
-### Örnekler
+## Örnekler
 
 Yazı tipi değiştirme uyarılarını izlemek için IWarningCallback arabiriminin nasıl kullanılacağını gösterir.
 
@@ -127,7 +129,5 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 
 * interface [IWarningCallback](../../iwarningcallback/)
 * class [DocumentBase](../)
-* ad alanı [Aspose.Words](../../documentbase/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

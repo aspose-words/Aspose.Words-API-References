@@ -1,7 +1,9 @@
 ---
-title: Class GeneralFormatCollection
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Fields.GeneralFormatCollection sınıf. Genel biçimlerin yazılı bir koleksiyonunu temsil eder.
+title: GeneralFormatCollection Class
+linktitle: GeneralFormatCollection
+articleTitle: GeneralFormatCollection
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Fields.GeneralFormatCollection sınıf. Genel biçimlerin yazılı bir koleksiyonunu temsil eder C#'da.
 type: docs
 weight: 2650
 url: /tr/net/aspose.words.fields/generalformatcollection/
@@ -27,12 +29,12 @@ public class GeneralFormatCollection : IEnumerable<GeneralFormat>
 
 | İsim | Tanım |
 | --- | --- |
-| [Add](../../aspose.words.fields/generalformatcollection/add/)(GeneralFormat) | Koleksiyona genel bir format ekler. |
+| [Add](../../aspose.words.fields/generalformatcollection/add/)(*[GeneralFormat](../generalformat/)*) | Koleksiyona genel bir format ekler. |
 | [GetEnumerator](../../aspose.words.fields/generalformatcollection/getenumerator/)() | Bir numaralandırıcı nesnesini döndürür. |
-| [Remove](../../aspose.words.fields/generalformatcollection/remove/)(GeneralFormat) | Belirtilen genel formatın tüm oluşumlarını koleksiyondan kaldırır. |
-| [RemoveAt](../../aspose.words.fields/generalformatcollection/removeat/)(int) | Belirtilen dizindeki genel format oluşumunu kaldırır. |
+| [Remove](../../aspose.words.fields/generalformatcollection/remove/)(*[GeneralFormat](../generalformat/)*) | Belirtilen genel formatın tüm oluşumlarını koleksiyondan kaldırır. |
+| [RemoveAt](../../aspose.words.fields/generalformatcollection/removeat/)(*int*) | Belirtilen dizindeki genel format oluşumunu kaldırır. |
 
-### Örnekler
+## Örnekler
 
 Alan sonuçlarının nasıl biçimlendirileceğini gösterir.
 
@@ -98,5 +100,3 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 * enum [GeneralFormat](../generalformat/)
 * ad alanı [Aspose.Words.Fields](../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../)
-
-

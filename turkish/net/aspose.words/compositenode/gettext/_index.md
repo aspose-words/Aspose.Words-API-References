@@ -1,9 +1,11 @@
 ---
 title: CompositeNode.GetText
-second_title: Aspose.Words for .NET API Referansı
-description: CompositeNode yöntem. Bu düğümün ve tüm alt öğelerinin metnini alır.
+linktitle: GetText
+articleTitle: GetText
+second_title: Aspose.Words for .NET
+description: CompositeNode GetText yöntem. Bu düğümün ve tüm alt öğelerinin metnini alır C#'da.
 type: docs
-weight: 130
+weight: 110
 url: /tr/net/aspose.words/compositenode/gettext/
 ---
 ## CompositeNode.GetText method
@@ -14,11 +16,11 @@ Bu düğümün ve tüm alt öğelerinin metnini alır.
 public override string GetText()
 ```
 
-### Notlar
+## Notlar
 
 Döndürülen dize, yukarıda açıklandığı gibi tüm kontrol ve özel karakterleri içerir.[`ControlChar`](../../controlchar/).
 
-### Örnekler
+## Örnekler
 
 Bir düğümde GetText ve ToString yöntemlerinin çağrılması arasındaki farkı gösterir.
 
@@ -65,7 +67,5 @@ foreach (Paragraph para in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsL
 ### Ayrıca bakınız
 
 * class [CompositeNode](../)
-* ad alanı [Aspose.Words](../../compositenode/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

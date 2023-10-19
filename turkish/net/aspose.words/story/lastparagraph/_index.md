@@ -1,7 +1,9 @@
 ---
 title: Story.LastParagraph
-second_title: Aspose.Words for .NET API Referansı
-description: Story mülk. Hikayedeki son paragrafı alır.
+linktitle: LastParagraph
+articleTitle: LastParagraph
+second_title: Aspose.Words for .NET
+description: Story LastParagraph mülk. Hikayedeki son paragrafı alır C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/story/lastparagraph/
@@ -14,7 +16,7 @@ Hikayedeki son paragrafı alır.
 public Paragraph LastParagraph { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 DocumentBuilder'ın imleç konumunun belirli bir düğüme nasıl taşınacağını gösterir.
 
@@ -47,7 +49,5 @@ Assert.AreEqual("Run 2. \rRun 1. \rRun 3.", doc.GetText().Trim());
 
 * class [Paragraph](../../paragraph/)
 * class [Story](../)
-* ad alanı [Aspose.Words](../../story/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

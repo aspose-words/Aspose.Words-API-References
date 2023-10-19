@@ -1,7 +1,9 @@
 ---
 title: ListLevel.NumberFormat
-second_title: Aspose.Words for .NET API Referansı
-description: ListLevel mülk. Liste düzeyi için sayı biçimini döndürür veya ayarlar.
+linktitle: NumberFormat
+articleTitle: NumberFormat
+second_title: Aspose.Words for .NET
+description: ListLevel NumberFormat mülk. Liste düzeyi için sayı biçimini döndürür veya ayarlar C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.lists/listlevel/numberformat/
@@ -14,7 +16,7 @@ Liste düzeyi için sayı biçimini döndürür veya ayarlar.
 public string NumberFormat { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Normal metin karakterleri arasında dize, karşılık gelen liste düzeylerindeki sayıları temsil eden \x0000 ila \x0008 yer tutucu karakterlerini içerebilir.
 
@@ -22,7 +24,7 @@ Normal metin karakterleri arasında dize, karşılık gelen liste düzeylerindek
 
 Boş değere izin verilmez, ancak hiçbir sayının geçerli olmadığı anlamına gelen boş bir dize.
 
-### Örnekler
+## Örnekler
 
 DocumentBuilder kullanılırken özel liste formatının paragraflara nasıl uygulanacağını gösterir.
 
@@ -137,7 +139,5 @@ doc.Save(ArtifactsDir + "Lists.CreateListRestartAfterHigher.docx");
 ### Ayrıca bakınız
 
 * class [ListLevel](../)
-* ad alanı [Aspose.Words.Lists](../../listlevel/)
+* ad alanı [Aspose.Words.Lists](../../../aspose.words.lists/)
 * toplantı [Aspose.Words](../../../)
-
-

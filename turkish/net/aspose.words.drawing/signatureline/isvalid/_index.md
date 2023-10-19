@@ -1,7 +1,9 @@
 ---
 title: SignatureLine.IsValid
-second_title: Aspose.Words for .NET API Referansı
-description: SignatureLine mülk. İmza satırının dijital imza ile imzalandığını ve bu dijital imzanın geçerli olduğunu belirtir.
+linktitle: IsValid
+articleTitle: IsValid
+second_title: Aspose.Words for .NET
+description: SignatureLine IsValid mülk. İmza satırının dijital imza ile imzalandığını ve bu dijital imzanın geçerli olduğunu belirtir C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.drawing/signatureline/isvalid/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.drawing/signatureline/isvalid/
 public bool IsValid { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Kişisel sertifika ve imza satırı içeren bir belgenin nasıl imzalanacağını gösterir.
 
@@ -67,7 +69,5 @@ Assert.True(signatureLine.IsValid);
 ### Ayrıca bakınız
 
 * class [SignatureLine](../)
-* ad alanı [Aspose.Words.Drawing](../../signatureline/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

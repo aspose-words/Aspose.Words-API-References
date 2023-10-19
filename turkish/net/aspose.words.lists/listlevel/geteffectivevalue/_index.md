@@ -1,7 +1,9 @@
 ---
 title: ListLevel.GetEffectiveValue
-second_title: Aspose.Words for .NET API Referansı
-description: ListLevel yöntem. Dizi gösterimini bildirir.ListLevelliste öğesinin belirtilen index nesnesi. Parametreler şunları belirtirNumberStyle ve aşağıdaki durumlarda kullanılan isteğe bağlı bir format string Custom belirtildi.
+linktitle: GetEffectiveValue
+articleTitle: GetEffectiveValue
+second_title: Aspose.Words for .NET
+description: ListLevel GetEffectiveValue yöntem. Dizi gösterimini bildirir.ListLevelliste öğesinin belirtilen index nesnesi. Parametreler şunları belirtirNumberStyle ve aşağıdaki durumlarda kullanılan isteğe bağlı bir format string Custom belirtildi C#'da.
 type: docs
 weight: 190
 url: /tr/net/aspose.words.lists/listlevel/geteffectivevalue/
@@ -32,7 +34,7 @@ Dizi gösterimi[`ListLevel`](../) tarafından tanımlanan nesne*numberStyle* par
 | ArgumentException | *customNumberStyleFormat* dır-dir`hükümsüz` veya boş olduğunda*numberStyle* özeldir.-veya- *customNumberStyleFormat* değil`hükümsüz` veya boş olduğunda*numberStyle* özel değildir.-or- *customNumberStyleFormat* geçersiz. |
 | ArgumentOutOfRangeException | indeks aralık dışında. |
 
-### Örnekler
+## Örnekler
 
 Özel sayı stiline sahip bir listenin biçiminin nasıl alınacağını gösterir.
 
@@ -57,7 +59,5 @@ Assert.AreEqual("005", ListLevel.GetEffectiveValue(5, NumberStyle.Custom, custom
 
 * enum [NumberStyle](../../../aspose.words/numberstyle/)
 * class [ListLevel](../)
-* ad alanı [Aspose.Words.Lists](../../listlevel/)
+* ad alanı [Aspose.Words.Lists](../../../aspose.words.lists/)
 * toplantı [Aspose.Words](../../../)
-
-

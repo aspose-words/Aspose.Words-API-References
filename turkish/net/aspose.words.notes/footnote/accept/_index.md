@@ -1,7 +1,9 @@
 ---
 title: Footnote.Accept
-second_title: Aspose.Words for .NET API Referansı
-description: Footnote yöntem. Ziyaretçi kabul eder.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words for .NET
+description: Footnote Accept yöntem. Ziyaretçi kabul eder C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.notes/footnote/accept/
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 Tüm düğümler ziyaret edilmişse doğrudur; yanlış ise[`DocumentVisitor`](../../../aspose.words/documentvisitor/) tüm düğümleri ziyaret etmeden işlemi durdurdu.
 
-### Notlar
+## Notlar
 
 Bu düğümü ve tüm alt öğelerini numaralandırır. Her düğüm kendisine karşılık gelen bir yöntemi çağırır.[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
@@ -30,7 +32,7 @@ Daha fazla bilgi için Ziyaretçi tasarım desenine bakın.
 
 DocumentVisitor.VisitFootnoteStart'ı çağırır, ardından footnote 'nin tüm alt düğümleri için Accept'i çağırır ve sonunda DocumentVisitor.VisitFootnoteEnd'i çağırır.
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki her dipnotun düğüm yapısının nasıl yazdırılacağını gösterir.
 
@@ -123,7 +125,5 @@ public class FootnoteStructurePrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * class [Footnote](../)
-* ad alanı [Aspose.Words.Notes](../../footnote/)
+* ad alanı [Aspose.Words.Notes](../../../aspose.words.notes/)
 * toplantı [Aspose.Words](../../../)
-
-

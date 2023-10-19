@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.Top
-second_title: Aspose.Words for .NET API Referansı
-description: BorderCollection mülk. Üst kenarlığı alır.
+linktitle: Top
+articleTitle: Top
+second_title: Aspose.Words for .NET
+description: BorderCollection Top mülk. Üst kenarlığı alır C#'da.
 type: docs
 weight: 120
 url: /tr/net/aspose.words/bordercollection/top/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words/bordercollection/top/
 public Border Top { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Tablo oluştururken kenarlık ve gölgeleme renginin nasıl uygulanacağını gösterir.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.TableBordersAndShading.docx");
 
 * class [Border](../../border/)
 * class [BorderCollection](../)
-* ad alanı [Aspose.Words](../../bordercollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

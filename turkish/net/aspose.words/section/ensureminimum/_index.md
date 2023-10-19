@@ -1,9 +1,11 @@
 ---
 title: Section.EnsureMinimum
-second_title: Aspose.Words for .NET API Referansı
-description: Section yöntem. Bölümün sahip olmasını sağlarBody biriyleParagraph .
+linktitle: EnsureMinimum
+articleTitle: EnsureMinimum
+second_title: Aspose.Words for .NET
+description: Section EnsureMinimum yöntem. Bölümün sahip olmasını sağlarBody biriyleParagraph  C#'da.
 type: docs
-weight: 150
+weight: 130
 url: /tr/net/aspose.words/section/ensureminimum/
 ---
 ## Section.EnsureMinimum method
@@ -14,7 +16,7 @@ Bölümün sahip olmasını sağlar[`Body`](../body/) biriyle[`Paragraph`](../..
 public void EnsureMinimum()
 ```
 
-### Örnekler
+## Örnekler
 
 Düzenleme için yeni bir bölüm düğümünün nasıl hazırlanacağını gösterir.
 
@@ -46,7 +48,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 ### Ayrıca bakınız
 
 * class [Section](../)
-* ad alanı [Aspose.Words](../../section/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

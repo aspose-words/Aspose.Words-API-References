@@ -1,7 +1,9 @@
 ---
 title: FieldMergeBarcode.SymbolRotation
-second_title: Aspose.Words for .NET API Referansı
-description: FieldMergeBarcode mülk. Barkod sembolünün dönüşünü alır veya ayarlar. Geçerli değerler şunlardır 0 3
+linktitle: SymbolRotation
+articleTitle: SymbolRotation
+second_title: Aspose.Words for .NET
+description: FieldMergeBarcode SymbolRotation mülk. Barkod sembolünün dönüşünü alır veya ayarlar. Geçerli değerler şunlardır 0 3 C#'da.
 type: docs
 weight: 140
 url: /tr/net/aspose.words.fields/fieldmergebarcode/symbolrotation/
@@ -14,7 +16,7 @@ Barkod sembolünün dönüşünü alır veya ayarlar. Geçerli değerler şunlar
 public string SymbolRotation { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 QR barkodlarında adres-mektup birleştirmenin nasıl gerçekleştirileceğini gösterir.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Field.MERGEBARCODE.QR.docx");
 ### Ayrıca bakınız
 
 * class [FieldMergeBarcode](../)
-* ad alanı [Aspose.Words.Fields](../../fieldmergebarcode/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

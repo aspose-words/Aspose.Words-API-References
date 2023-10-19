@@ -1,7 +1,9 @@
 ---
-title: Enum PageBorderDistanceFrom
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.PageBorderDistanceFrom Sıralama. Sayfa kenarlığının sayfa kenar boşluğuna göre konumunu belirtir.
+title: PageBorderDistanceFrom Enum
+linktitle: PageBorderDistanceFrom
+articleTitle: PageBorderDistanceFrom
+second_title: Aspose.Words for .NET
+description: Aspose.Words.PageBorderDistanceFrom Sıralama. Sayfa kenarlığının sayfa kenar boşluğuna göre konumunu belirtir C#'da.
 type: docs
 weight: 4350
 url: /tr/net/aspose.words/pageborderdistancefrom/
@@ -21,7 +23,7 @@ public enum PageBorderDistanceFrom
 | Text | `0` | Kenarlık konumu sayfa kenar boşluğundan ölçülür. |
 | PageEdge | `1` | Kenarlık konumu sayfa kenarından ölçülür. |
 
-### Örnekler
+## Örnekler
 
 İlk sayfanın üst kısmında geniş mavi bant kenarlığının nasıl oluşturulacağını gösterir.
 
@@ -48,5 +50,3 @@ doc.Save(ArtifactsDir + "PageSetup.PageBorderProperties.docx");
 * property [BorderDistanceFrom](../pagesetup/borderdistancefrom/)
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

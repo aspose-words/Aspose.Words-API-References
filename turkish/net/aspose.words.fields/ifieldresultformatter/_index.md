@@ -1,7 +1,9 @@
 ---
-title: Interface IFieldResultFormatter
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Fields.IFieldResultFormatter arayüz. Alan sonucunun nasıl biçimlendirileceğini kontrol etmek istiyorsanız bu arayüzü uygulayın.
+title: IFieldResultFormatter Interface
+linktitle: IFieldResultFormatter
+articleTitle: IFieldResultFormatter
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Fields.IFieldResultFormatter arayüz. Alan sonucunun nasıl biçimlendirileceğini kontrol etmek istiyorsanız bu arayüzü uygulayın C#'da.
 type: docs
 weight: 2700
 url: /tr/net/aspose.words.fields/ifieldresultformatter/
@@ -18,12 +20,12 @@ public interface IFieldResultFormatter
 
 | İsim | Tanım |
 | --- | --- |
-| [Format](../../aspose.words.fields/ifieldresultformatter/format/#format)(double, GeneralFormat) | Aspose.Words bir sayı formatı anahtarı uyguladığında çağrılır, yani \* Ordinal. |
-| [Format](../../aspose.words.fields/ifieldresultformatter/format/#format_1)(string, GeneralFormat) | Aspose.Words büyük harf biçimini değiştirdiğinde çağrılır, yani \* Upper. |
-| [FormatDateTime](../../aspose.words.fields/ifieldresultformatter/formatdatetime/)(DateTime, string, CalendarType) | Aspose.Words tarih/saat formatı geçişini uyguladığında çağrılır, yani \@ "dd.MM.yyyy". |
-| [FormatNumeric](../../aspose.words.fields/ifieldresultformatter/formatnumeric/)(double, string) | Aspose.Words sayısal bir format anahtarı uyguladığında çağrılır, yani \# "#.##". |
+| [Format](../../aspose.words.fields/ifieldresultformatter/format/#format)(*double, [GeneralFormat](../generalformat/)*) | Aspose.Words bir sayı formatı anahtarı uyguladığında çağrılır, yani \* Ordinal. |
+| [Format](../../aspose.words.fields/ifieldresultformatter/format/#format_1)(*string, [GeneralFormat](../generalformat/)*) | Aspose.Words büyük harf biçimini değiştirdiğinde çağrılır, yani \* Upper. |
+| [FormatDateTime](../../aspose.words.fields/ifieldresultformatter/formatdatetime/)(*DateTime, string, [CalendarType](../../aspose.words/calendartype/)*) | Aspose.Words tarih/saat formatı geçişini uyguladığında çağrılır, yani \@ "dd.MM.yyyy". |
+| [FormatNumeric](../../aspose.words.fields/ifieldresultformatter/formatnumeric/)(*double, string*) | Aspose.Words sayısal bir format anahtarı uyguladığında çağrılır, yani \# "#.##". |
 
-### Örnekler
+## Örnekler
 
 Alanlar güncellenirken özel bir biçimin alan sonuçlarına otomatik olarak nasıl uygulanacağını gösterir.
 
@@ -161,5 +163,3 @@ private class FieldResultFormatter : IFieldResultFormatter
 
 * ad alanı [Aspose.Words.Fields](../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../)
-
-

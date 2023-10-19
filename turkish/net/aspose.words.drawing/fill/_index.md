@@ -1,7 +1,9 @@
 ---
-title: Class Fill
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.Fill sınıf. Bir nesnenin dolgu biçimlendirmesini temsil eder.
+title: Fill Class
+linktitle: Fill
+articleTitle: Fill
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.Fill sınıf. Bir nesnenin dolgu biçimlendirmesini temsil eder C#'da.
 type: docs
 weight: 950
 url: /tr/net/aspose.words.drawing/fill/
@@ -23,7 +25,6 @@ public class Fill
 | [BackColor](../../aspose.words.drawing/fill/backcolor/) { get; set; } | Dolgunun arka plan rengini temsil eden bir Color nesnesini alır veya ayarlar. |
 | [BackThemeColor](../../aspose.words.drawing/fill/backthemecolor/) { get; set; } | Dolgunun arka plan rengini temsil eden bir ThemeColor nesnesini alır veya ayarlar. |
 | [BackTintAndShade](../../aspose.words.drawing/fill/backtintandshade/) { get; set; } | Arka plan rengini açan veya koyulaştıran double değerini alır veya ayarlar. |
-| [BaseForeColor](../../aspose.words.drawing/fill/baseforecolor/) { get; } |  |
 | [Color](../../aspose.words.drawing/fill/color/) { get; set; } | Dolgunun ön plan rengini temsil eden bir Color nesnesini alır veya ayarlar. |
 | [FillType](../../aspose.words.drawing/fill/filltype/) { get; } | Bir dolgu türü alır. |
 | [ForeColor](../../aspose.words.drawing/fill/forecolor/) { get; set; } | Dolgunun ön plan rengini temsil eden bir Color nesnesini alır veya ayarlar. |
@@ -46,24 +47,24 @@ public class Fill
 
 | İsim | Tanım |
 | --- | --- |
-| [OneColorGradient](../../aspose.words.drawing/fill/onecolorgradient/#onecolorgradient)(GradientStyle, GradientVariant, double) | Belirtilen dolguyu tek renkli bir degradeye ayarlar. |
-| [OneColorGradient](../../aspose.words.drawing/fill/onecolorgradient/#onecolorgradient_1)(Color, GradientStyle, GradientVariant, double) | Belirtilen rengi kullanarak, belirtilen dolguyu tek renkli bir degradeye ayarlar. |
-| [Patterned](../../aspose.words.drawing/fill/patterned/#patterned)(PatternType) | Belirtilen dolguyu bir desene ayarlar. |
-| [Patterned](../../aspose.words.drawing/fill/patterned/#patterned_1)(PatternType, Color, Color) | Belirtilen dolguyu bir desene ayarlar. |
-| [PresetTextured](../../aspose.words.drawing/fill/presettextured/)(PresetTexture) | Dolguyu önceden ayarlanmış bir dokuya ayarlar. |
-| [SetImage](../../aspose.words.drawing/fill/setimage/#setimage)(byte[]) | Doldurma türünü tek görüntü olarak değiştirir. |
-| [SetImage](../../aspose.words.drawing/fill/setimage/#setimage_1)(Stream) | Doldurma türünü tek görüntü olarak değiştirir. |
-| [SetImage](../../aspose.words.drawing/fill/setimage/#setimage_2)(string) | Doldurma türünü tek görüntü olarak değiştirir. |
+| [OneColorGradient](../../aspose.words.drawing/fill/onecolorgradient/#onecolorgradient)(*[GradientStyle](../gradientstyle/), [GradientVariant](../gradientvariant/), double*) | Belirtilen dolguyu tek renkli bir degradeye ayarlar. |
+| [OneColorGradient](../../aspose.words.drawing/fill/onecolorgradient/#onecolorgradient_1)(*Color, [GradientStyle](../gradientstyle/), [GradientVariant](../gradientvariant/), double*) | Belirtilen rengi kullanarak, belirtilen dolguyu tek renkli bir degradeye ayarlar. |
+| [Patterned](../../aspose.words.drawing/fill/patterned/#patterned)(*[PatternType](../patterntype/)*) | Belirtilen dolguyu bir desene ayarlar. |
+| [Patterned](../../aspose.words.drawing/fill/patterned/#patterned_1)(*[PatternType](../patterntype/), Color, Color*) | Belirtilen dolguyu bir desene ayarlar. |
+| [PresetTextured](../../aspose.words.drawing/fill/presettextured/)(*[PresetTexture](../presettexture/)*) | Dolguyu önceden ayarlanmış bir dokuya ayarlar. |
+| [SetImage](../../aspose.words.drawing/fill/setimage/#setimage)(*byte[]*) | Doldurma türünü tek görüntü olarak değiştirir. |
+| [SetImage](../../aspose.words.drawing/fill/setimage/#setimage_1)(*Stream*) | Doldurma türünü tek görüntü olarak değiştirir. |
+| [SetImage](../../aspose.words.drawing/fill/setimage/#setimage_2)(*string*) | Doldurma türünü tek görüntü olarak değiştirir. |
 | [Solid](../../aspose.words.drawing/fill/solid/#solid)() | Dolguyu tek tip bir renge ayarlar. |
-| [Solid](../../aspose.words.drawing/fill/solid/#solid_1)(Color) | Dolguyu belirtilen tekdüze renge ayarlar. |
-| [TwoColorGradient](../../aspose.words.drawing/fill/twocolorgradient/#twocolorgradient)(GradientStyle, GradientVariant) | Belirtilen dolguyu iki renkli degradeye ayarlar. |
-| [TwoColorGradient](../../aspose.words.drawing/fill/twocolorgradient/#twocolorgradient_1)(Color, Color, GradientStyle, GradientVariant) | Belirtilen dolguyu iki renkli degradeye ayarlar. |
+| [Solid](../../aspose.words.drawing/fill/solid/#solid_1)(*Color*) | Dolguyu belirtilen tekdüze renge ayarlar. |
+| [TwoColorGradient](../../aspose.words.drawing/fill/twocolorgradient/#twocolorgradient)(*[GradientStyle](../gradientstyle/), [GradientVariant](../gradientvariant/)*) | Belirtilen dolguyu iki renkli degradeye ayarlar. |
+| [TwoColorGradient](../../aspose.words.drawing/fill/twocolorgradient/#twocolorgradient_1)(*Color, Color, [GradientStyle](../gradientstyle/), [GradientVariant](../gradientvariant/)*) | Belirtilen dolguyu iki renkli degradeye ayarlar. |
 
-### Notlar
+## Notlar
 
 Kullan[`Fill`](../shapebase/fill/) veya[`Fill`](../../aspose.words/font/fill/) bir nesnenin dolgu özelliklerine erişim özelliği. Örneklerini oluşturmazsınız`Fill` doğrudan sınıf.
 
-### Örnekler
+## Örnekler
 
 Bir şeklin düz renkle nasıl doldurulacağını gösterir.
 
@@ -99,5 +100,3 @@ doc.Save(ArtifactsDir + "Shape.Fill.docx");
 
 * ad alanı [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../)
-
-

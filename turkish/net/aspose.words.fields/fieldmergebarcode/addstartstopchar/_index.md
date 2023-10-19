@@ -1,7 +1,9 @@
 ---
 title: FieldMergeBarcode.AddStartStopChar
-second_title: Aspose.Words for .NET API Referansı
-description: FieldMergeBarcode mülk. NW7 ve CODE39 barkod türleri için Başlat/Durdur karakterlerinin eklenip eklenmeyeceğini alır veya ayarlar.
+linktitle: AddStartStopChar
+articleTitle: AddStartStopChar
+second_title: Aspose.Words for .NET
+description: FieldMergeBarcode AddStartStopChar mülk. NW7 ve CODE39 barkod türleri için Başlat/Durdur karakterlerinin eklenip eklenmeyeceğini alır veya ayarlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fieldmergebarcode/addstartstopchar/
@@ -14,7 +16,7 @@ NW7 ve CODE39 barkod türleri için Başlat/Durdur karakterlerinin eklenip eklen
 public bool AddStartStopChar { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 CODE39 barkodlarında adres-mektup birleştirmenin nasıl gerçekleştirileceğini gösterir.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "Field.MERGEBARCODE.CODE39.docx");
 ### Ayrıca bakınız
 
 * class [FieldMergeBarcode](../)
-* ad alanı [Aspose.Words.Fields](../../fieldmergebarcode/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

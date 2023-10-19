@@ -1,7 +1,9 @@
 ---
 title: FieldListNum.HasListName
-second_title: Aspose.Words for .NET API Referansı
-description: FieldListNum mülk. Soyut numaralandırma tanımının adının alanın kodu tarafından sağlanıp sağlanmadığını belirten bir değer döndürür.
+linktitle: HasListName
+articleTitle: HasListName
+second_title: Aspose.Words for .NET
+description: FieldListNum HasListName mülk. Soyut numaralandırma tanımının adının alanın kodu tarafından sağlanıp sağlanmadığını belirten bir değer döndürür C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fieldlistnum/haslistname/
@@ -14,7 +16,7 @@ Soyut numaralandırma tanımının adının alanın kodu tarafından sağlanıp 
 public bool HasListName { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 LISTNUM alanlarıyla paragrafların nasıl numaralandırılacağını gösterir.
 
@@ -84,7 +86,5 @@ doc.Save(ArtifactsDir + "Field.LISTNUM.docx");
 ### Ayrıca bakınız
 
 * class [FieldListNum](../)
-* ad alanı [Aspose.Words.Fields](../../fieldlistnum/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

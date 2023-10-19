@@ -1,7 +1,9 @@
 ---
 title: FieldFillIn.PromptText
-second_title: Aspose.Words for .NET API Referansı
-description: FieldFillIn mülk. Bilgi istemi metnini bilgi istemi penceresinin başlığı alır veya ayarlar.
+linktitle: PromptText
+articleTitle: PromptText
+second_title: Aspose.Words for .NET
+description: FieldFillIn PromptText mülk. Bilgi istemi metnini bilgi istemi penceresinin başlığı alır veya ayarlar C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.fields/fieldfillin/prompttext/
@@ -14,7 +16,7 @@ Bilgi istemi metnini (bilgi istemi penceresinin başlığı) alır veya ayarlar.
 public string PromptText { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Kullanıcıdan yanıt istemek için FILLIN alanının nasıl kullanılacağını gösterir.
 
@@ -63,7 +65,5 @@ private class PromptRespondent : IFieldUserPromptRespondent
 ### Ayrıca bakınız
 
 * class [FieldFillIn](../)
-* ad alanı [Aspose.Words.Fields](../../fieldfillin/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

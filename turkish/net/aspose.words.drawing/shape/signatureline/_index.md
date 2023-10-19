@@ -1,7 +1,9 @@
 ---
 title: Shape.SignatureLine
-second_title: Aspose.Words for .NET API Referansı
-description: Shape mülk. AlırSignatureLine Şekil bir imza çizgisiyse nesne. İadelerhükümsüz aksi halde.
+linktitle: SignatureLine
+articleTitle: SignatureLine
+second_title: Aspose.Words for .NET
+description: Shape SignatureLine mülk. AlırSignatureLine Şekil bir imza çizgisiyse nesne. İadelerhükümsüz aksi halde C#'da.
 type: docs
 weight: 160
 url: /tr/net/aspose.words.drawing/shape/signatureline/
@@ -14,11 +16,11 @@ Alır[`SignatureLine`](../../signatureline/) Şekil bir imza çizgisiyse nesne. 
 public SignatureLine SignatureLine { get; }
 ```
 
-### Notlar
+## Notlar
 
 Yeni ekleyebilirsiniz[`SignatureLine`](../../signatureline/) kullanarak belgeye[`InsertSignatureLine`](../../../aspose.words/documentbuilder/insertsignatureline/) ve
 
-### Örnekler
+## Örnekler
 
 İmza için nasıl satır oluşturulacağını ve bunun belgeye nasıl ekleneceğini gösterir.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Shape.SignatureLine.docx");
 
 * class [SignatureLine](../../signatureline/)
 * class [Shape](../)
-* ad alanı [Aspose.Words.Drawing](../../shape/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

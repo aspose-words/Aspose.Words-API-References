@@ -1,7 +1,9 @@
 ---
 title: ChartXValue.FromMultilevelValue
-second_title: Aspose.Words for .NET API Referansı
-description: ChartXValue yöntem. Bir oluştururChartXValue örneğiMultilevel type.
+linktitle: FromMultilevelValue
+articleTitle: FromMultilevelValue
+second_title: Aspose.Words for .NET
+description: ChartXValue FromMultilevelValue yöntem. Bir oluştururChartXValue örneğiMultilevel type C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.drawing.charts/chartxvalue/frommultilevelvalue/
@@ -18,7 +20,5 @@ public static ChartXValue FromMultilevelValue(ChartMultilevelValue value)
 
 * class [ChartMultilevelValue](../../chartmultilevelvalue/)
 * class [ChartXValue](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartxvalue/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

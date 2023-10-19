@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.TitlesOfParts
-second_title: Aspose.Words for .NET API Referansı
-description: BuiltInDocumentProperties mülk. Dizideki her dize belgedeki bir parçanın adını belirtir.
+linktitle: TitlesOfParts
+articleTitle: TitlesOfParts
+second_title: Aspose.Words for .NET
+description: BuiltInDocumentProperties TitlesOfParts mülk. Dizideki her dize belgedeki bir parçanın adını belirtir C#'da.
 type: docs
 weight: 300
 url: /tr/net/aspose.words.properties/builtindocumentproperties/titlesofparts/
@@ -14,11 +16,11 @@ Dizideki her dize, belgedeki bir parçanın adını belirtir.
 public string[] TitlesOfParts { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Aspose.Words bu özelliği güncellemez.
 
-### Örnekler
+## Örnekler
 
 "HeadingPairs" ve "TitlesOfParts" özellikleri arasındaki ilişkiyi gösterir.
 
@@ -49,7 +51,5 @@ while (headingPairsIndex < headingPairs.Length)
 ### Ayrıca bakınız
 
 * class [BuiltInDocumentProperties](../)
-* ad alanı [Aspose.Words.Properties](../../builtindocumentproperties/)
+* ad alanı [Aspose.Words.Properties](../../../aspose.words.properties/)
 * toplantı [Aspose.Words](../../../)
-
-

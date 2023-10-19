@@ -1,7 +1,9 @@
 ---
 title: IMailMergeDataSourceRoot.GetDataSource
-second_title: Aspose.Words for .NET API Referansı
-description: IMailMergeDataSourceRoot yöntem. Aspose.Words adresmektup birleştirme motoru üst düzey adresmektup birleştirme bölgesinin başlangıcıyla karşılaştığında bu yöntemi çağırır.
+linktitle: GetDataSource
+articleTitle: GetDataSource
+second_title: Aspose.Words for .NET
+description: IMailMergeDataSourceRoot GetDataSource yöntem. Aspose.Words adresmektup birleştirme motoru üst düzey adresmektup birleştirme bölgesinin başlangıcıyla karşılaştığında bu yöntemi çağırır C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.mailmerging/imailmergedatasourceroot/getdatasource/
@@ -22,13 +24,13 @@ public IMailMergeDataSource GetDataSource(string tableName)
 
 Belirtilen tablonun veri kayıtlarına erişim sağlayacak bir veri kaynağı nesnesi.
 
-### Notlar
+## Notlar
 
 Aspose.Words adres-mektup birleştirme motorları bir belgeyi verilerle doldurduğunda ve MERGEFIELD TableStart:TableName, ile karşılaştığında, onu çağırır`GetDataSource` bu nesne üzerinde. Uygulamanızın yeni bir veri kaynağı nesnesi döndürmesi gerekiyor. Aspose.Words, adres-mektup birleştirme bölgesini doldurmak için döndürülen veri kaynağını kullanacaktır.
 
 Belirtilen adda bir veri kaynağı (tablo) mevcut değilse uygulamanız geri dönmelidir`hükümsüz` .
 
-### Örnekler
+## Örnekler
 
 Ana ayrıntı verileriyle özel bir veri kaynağından adres-mektup birleştirme gerçekleştirir.
 
@@ -212,7 +214,5 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
 
 * interface [IMailMergeDataSource](../../imailmergedatasource/)
 * interface [IMailMergeDataSourceRoot](../)
-* ad alanı [Aspose.Words.MailMerging](../../imailmergedatasourceroot/)
+* ad alanı [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * toplantı [Aspose.Words](../../../)
-
-

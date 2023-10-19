@@ -1,7 +1,9 @@
 ---
 title: ShadowFormat.Type
-second_title: Aspose.Words for .NET API Referansı
-description: ShadowFormat mülk. Belirtilen değeri alır veya ayarlarShadowType ShadowFormat. için
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words for .NET
+description: ShadowFormat Type mülk. Belirtilen değeri alır veya ayarlarShadowType ShadowFormat. için C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.drawing/shadowformat/type/
@@ -18,7 +20,5 @@ public ShadowType Type { get; set; }
 
 * enum [ShadowType](../../shadowtype/)
 * class [ShadowFormat](../)
-* ad alanı [Aspose.Words.Drawing](../../shadowformat/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

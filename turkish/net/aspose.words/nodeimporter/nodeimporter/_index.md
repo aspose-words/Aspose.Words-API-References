@@ -1,12 +1,14 @@
 ---
-title: NodeImporter.NodeImporter
-second_title: Aspose.Words for .NET API Referansı
-description: NodeImporter inşaatçı. Yeni bir örneğini başlatırNodeImporter class.
+title: NodeImporter
+linktitle: NodeImporter
+articleTitle: NodeImporter
+second_title: Aspose.Words for .NET
+description: NodeImporter inşaatçı. Yeni bir örneğini başlatırNodeImporter class C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/nodeimporter/nodeimporter/
 ---
-## NodeImporter(DocumentBase, DocumentBase, ImportFormatMode) {#constructor}
+## NodeImporter(*[DocumentBase](../../documentbase/), [DocumentBase](../../documentbase/), [ImportFormatMode](../../importformatmode/)*) {#constructor}
 
 Yeni bir örneğini başlatır[`NodeImporter`](../) class.
 
@@ -20,7 +22,7 @@ public NodeImporter(DocumentBase srcDoc, DocumentBase dstDoc, ImportFormatMode i
 | dstDoc | DocumentBase | İçe aktarılan düğümlerin sahibi olacak hedef belge. |
 | importFormatMode | ImportFormatMode | Çakışan stil formatlamasının nasıl birleştirileceğini belirtir. |
 
-### Örnekler
+## Örnekler
 
 Bir belgenin içeriğinin başka bir belgedeki yer imine nasıl ekleneceğini gösterir.
 
@@ -90,12 +92,12 @@ static void InsertDocument(Node insertionDestination, Document docToInsert)
 * class [DocumentBase](../../documentbase/)
 * enum [ImportFormatMode](../../importformatmode/)
 * class [NodeImporter](../)
-* ad alanı [Aspose.Words](../../nodeimporter/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## NodeImporter(DocumentBase, DocumentBase, ImportFormatMode, ImportFormatOptions) {#constructor_1}
+## NodeImporter(*[DocumentBase](../../documentbase/), [DocumentBase](../../documentbase/), [ImportFormatMode](../../importformatmode/), [ImportFormatOptions](../../importformatoptions/)*) {#constructor_1}
 
 Yeni bir örneğini başlatır[`NodeImporter`](../) class.
 
@@ -111,7 +113,7 @@ public NodeImporter(DocumentBase srcDoc, DocumentBase dstDoc, ImportFormatMode i
 | importFormatMode | ImportFormatMode | Çakışan stil formatlamasının nasıl birleştirileceğini belirtir. |
 | importFormatOptions | ImportFormatOptions | İçe aktarılan düğümü biçimlendirmek için çeşitli seçenekleri belirtir. |
 
-### Örnekler
+## Örnekler
 
 Aynı liste tanımı tanımlayıcısına sahip listeleri içe aktarırken çakışmanın nasıl çözüleceğini gösterir.
 
@@ -186,7 +188,5 @@ else
 * enum [ImportFormatMode](../../importformatmode/)
 * class [ImportFormatOptions](../../importformatoptions/)
 * class [NodeImporter](../)
-* ad alanı [Aspose.Words](../../nodeimporter/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

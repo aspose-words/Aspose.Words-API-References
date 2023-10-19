@@ -1,7 +1,9 @@
 ---
 title: OdtSaveOptions.MeasureUnit
-second_title: Aspose.Words for .NET API Referansı
-description: OdtSaveOptions mülk. Belge içeriğine uygulanacak ölçü birimlerinin belirtilmesine izin verir. Varsayılan değerCentimeters
+linktitle: MeasureUnit
+articleTitle: MeasureUnit
+second_title: Aspose.Words for .NET
+description: OdtSaveOptions MeasureUnit mülk. Belge içeriğine uygulanacak ölçü birimlerinin belirtilmesine izin verir. Varsayılan değerCentimeters C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.saving/odtsaveoptions/measureunit/
@@ -14,11 +16,11 @@ Belge içeriğine uygulanacak ölçü birimlerinin belirtilmesine izin verir. Va
 public OdtSaveMeasureUnit MeasureUnit { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Open Office, belgelerde uzunlukları, genişlikleri ve diğer ölçülebilir biçimlendirmeleri ve içerik özelliklerini belirtirken santimetreyi kullanırken, MS Office inç kullanır.
 
-### Örnekler
+## Örnekler
 
 Kaydedilmiş bir ODT belgesinin stil parametrelerini tanımlamak için farklı ölçü birimlerinin nasıl kullanılacağını gösterir.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "OdtSaveOptions.Odt11Schema.odt", saveOptions);
 
 * enum [OdtSaveMeasureUnit](../../odtsavemeasureunit/)
 * class [OdtSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../odtsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

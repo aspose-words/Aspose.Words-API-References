@@ -1,12 +1,14 @@
 ---
 title: Document.StartTrackRevisions
-second_title: Aspose.Words for .NET API Referansı
-description: Document yöntem. Belgede yaptığınız diğer tüm değişiklikleri otomatik olarak revizyon değişiklikleri olarak işaretlemeye başlar.
+linktitle: StartTrackRevisions
+articleTitle: StartTrackRevisions
+second_title: Aspose.Words for .NET
+description: Document StartTrackRevisions yöntem. Belgede yaptığınız diğer tüm değişiklikleri otomatik olarak revizyon değişiklikleri olarak işaretlemeye başlar C#'da.
 type: docs
-weight: 730
+weight: 710
 url: /tr/net/aspose.words/document/starttrackrevisions/
 ---
-## StartTrackRevisions(string, DateTime) {#starttrackrevisions_1}
+## StartTrackRevisions(*string, DateTime*) {#starttrackrevisions_1}
 
 Belgede yaptığınız diğer tüm değişiklikleri otomatik olarak revizyon değişiklikleri olarak işaretlemeye başlar.
 
@@ -19,7 +21,7 @@ public void StartTrackRevisions(string author, DateTime dateTime)
 | author | String | Düzeltmelerde kullanılacak yazarın baş harfleri. |
 | dateTime | DateTime | Düzeltmeler için kullanılacak tarih ve saat. |
 
-### Notlar
+## Notlar
 
 Bu yöntemi çağırıp daha sonra programlı olarak belgede bazı değişiklikler yaparsanız, belgeyi kaydedin ve daha sonra belgeyi MS Word'de açarsanız bu değişiklikleri revizyon olarak göreceksiniz.
 
@@ -29,7 +31,7 @@ Değişikliklerin otomatik olarak izlenmesi, hem bu belge manipülasyonları dü
 
 Bu yöntem değiştirmez[`TrackRevisions`](../trackrevisions/) seçeneğidir ve value değerini revizyon izleme amacıyla kullanmaz.
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi düzenlerken revizyonların nasıl izleneceğini gösterir.
 
@@ -78,12 +80,12 @@ doc.Save(ArtifactsDir + "Document.StartTrackRevisions.docx");
 
 * method [StopTrackRevisions](../stoptrackrevisions/)
 * class [Document](../)
-* ad alanı [Aspose.Words](../../document/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## StartTrackRevisions(string) {#starttrackrevisions}
+## StartTrackRevisions(*string*) {#starttrackrevisions}
 
 Belgede yaptığınız diğer tüm değişiklikleri otomatik olarak revizyon değişiklikleri olarak işaretlemeye başlar.
 
@@ -95,7 +97,7 @@ public void StartTrackRevisions(string author)
 | --- | --- | --- |
 | author | String | Düzeltmelerde kullanılacak yazarın baş harfleri. |
 
-### Notlar
+## Notlar
 
 Bu yöntemi çağırıp daha sonra programlı olarak belgede bazı değişiklikler yaparsanız, belgeyi kaydedin ve daha sonra belgeyi MS Word'de açarsanız bu değişiklikleri revizyon olarak göreceksiniz.
 
@@ -105,7 +107,7 @@ Değişikliklerin otomatik olarak izlenmesi, hem bu belge manipülasyonları dü
 
 Bu yöntem değiştirmez[`TrackRevisions`](../trackrevisions/) seçeneğidir ve value değerini revizyon izleme amacıyla kullanmaz.
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi düzenlerken revizyonların nasıl izleneceğini gösterir.
 
@@ -154,7 +156,5 @@ doc.Save(ArtifactsDir + "Document.StartTrackRevisions.docx");
 
 * method [StopTrackRevisions](../stoptrackrevisions/)
 * class [Document](../)
-* ad alanı [Aspose.Words](../../document/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

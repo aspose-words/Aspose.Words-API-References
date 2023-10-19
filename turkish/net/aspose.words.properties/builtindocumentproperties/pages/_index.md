@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Pages
-second_title: Aspose.Words for .NET API Referansı
-description: BuiltInDocumentProperties mülk. Belgedeki sayfa sayısına ilişkin bir tahmindir.
+linktitle: Pages
+articleTitle: Pages
+second_title: Aspose.Words for .NET
+description: BuiltInDocumentProperties Pages mülk. Belgedeki sayfa sayısına ilişkin bir tahmindir C#'da.
 type: docs
 weight: 220
 url: /tr/net/aspose.words.properties/builtindocumentproperties/pages/
@@ -14,11 +16,11 @@ Belgedeki sayfa sayısına ilişkin bir tahmindir.
 public int Pages { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Aspose.Words aradığınızda bu özelliği günceller[`UpdatePageLayout`](../../../aspose.words/document/updatepagelayout/).
 
-### Örnekler
+## Örnekler
 
 "İçerik" kategorisinde belge özellikleriyle nasıl çalışılacağını gösterir.
 
@@ -128,7 +130,5 @@ private class LineCounter
 ### Ayrıca bakınız
 
 * class [BuiltInDocumentProperties](../)
-* ad alanı [Aspose.Words.Properties](../../builtindocumentproperties/)
+* ad alanı [Aspose.Words.Properties](../../../aspose.words.properties/)
 * toplantı [Aspose.Words](../../../)
-
-

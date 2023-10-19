@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.TemplateName
-second_title: Aspose.Words for .NET API Referansı
-description: FieldOptions mülk. Belge tarafından kullanılan şablonun dosya adını alır veya ayarlar.
+linktitle: TemplateName
+articleTitle: TemplateName
+second_title: Aspose.Words for .NET
+description: FieldOptions TemplateName mülk. Belge tarafından kullanılan şablonun dosya adını alır veya ayarlar C#'da.
 type: docs
 weight: 190
 url: /tr/net/aspose.words.fields/fieldoptions/templatename/
@@ -14,13 +16,13 @@ Belge tarafından kullanılan şablonun dosya adını alır veya ayarlar.
 public string TemplateName { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özellik şu kişi tarafından kullanılır:[`FieldTemplate`](../../fieldtemplate/) alan ise[`AttachedTemplate`](../../../aspose.words/document/attachedtemplate/) mülk boş.
 
 Bu özellik boşsa varsayılan şablon dosyası adı`Normal.dotm` kullanıldı.
 
-### Örnekler
+## Örnekler
 
 Bir belgenin şablonunun yerel dosya sistemi konumunu görüntülemek için ŞABLON alanının nasıl kullanılacağını gösterir.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Field.TEMPLATE.docx");
 ### Ayrıca bakınız
 
 * class [FieldOptions](../)
-* ad alanı [Aspose.Words.Fields](../../fieldoptions/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

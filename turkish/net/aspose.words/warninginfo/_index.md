@@ -1,7 +1,9 @@
 ---
-title: Class WarningInfo
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.WarningInfo sınıf. Aspose.Wordsün belge yükleme veya kaydetme sırasında verdiği uyarı hakkında bilgi içerir.
+title: WarningInfo Class
+linktitle: WarningInfo
+articleTitle: WarningInfo
+second_title: Aspose.Words for .NET
+description: Aspose.Words.WarningInfo sınıf. Aspose.Wordsün belge yükleme veya kaydetme sırasında verdiği uyarı hakkında bilgi içerir C#'da.
 type: docs
 weight: 6630
 url: /tr/net/aspose.words/warninginfo/
@@ -24,11 +26,11 @@ public class WarningInfo
 | [Source](../../aspose.words/warninginfo/source/) { get; } | Uyarının kaynağını döndürür. |
 | [WarningType](../../aspose.words/warninginfo/warningtype/) { get; } | Uyarının türünü döndürür. |
 
-### Notlar
+## Notlar
 
 Bu sınıfın örneklerini oluşturmazsınız. Bu sınıfın nesneleri created olarak oluşturulur ve Aspose.Words tarafından[`Warning`](../iwarningcallback/warning/) yöntem.
 
-### Örnekler
+## Örnekler
 
 Mevcut yazı tipi kaynaklarından eksik bir yazı tipi için en yakın eşleşmeyi bulma özelliğinin nasıl ayarlanacağını gösterir.
 
@@ -89,5 +91,3 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

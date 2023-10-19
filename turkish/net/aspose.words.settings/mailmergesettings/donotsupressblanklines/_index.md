@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.DoNotSupressBlankLines
-second_title: Aspose.Words for .NET API Referansı
-description: MailMergeSettings mülk. Adresmektup birleştirmeyi gerçekleştiren bir uygulamanın birleştirilmiş belgelerde adresmektup birleştirmeden kaynaklanan boş satırları nasıl işleyeceğini belirtir. Varsayılan değerYANLIŞ .
+linktitle: DoNotSupressBlankLines
+articleTitle: DoNotSupressBlankLines
+second_title: Aspose.Words for .NET
+description: MailMergeSettings DoNotSupressBlankLines mülk. Adresmektup birleştirmeyi gerçekleştiren bir uygulamanın birleştirilmiş belgelerde adresmektup birleştirmeden kaynaklanan boş satırları nasıl işleyeceğini belirtir. Varsayılan değerYANLIŞ  C#'da.
 type: docs
 weight: 90
 url: /tr/net/aspose.words.settings/mailmergesettings/donotsupressblanklines/
@@ -14,7 +16,7 @@ Adres-mektup birleştirmeyi gerçekleştiren bir uygulamanın, birleştirilmiş 
 public bool DoNotSupressBlankLines { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir Office Veri Kaynağı Nesnesinden alınan verilerle adres-mektup birleştirmenin nasıl yürütüleceğini gösterir.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ### Ayrıca bakınız
 
 * class [MailMergeSettings](../)
-* ad alanı [Aspose.Words.Settings](../../mailmergesettings/)
+* ad alanı [Aspose.Words.Settings](../../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../../)
-
-

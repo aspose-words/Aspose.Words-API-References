@@ -1,9 +1,11 @@
 ---
 title: Section.ClearContent
-second_title: Aspose.Words for .NET API Referansı
-description: Section yöntem. Bölümü temizler.
+linktitle: ClearContent
+articleTitle: ClearContent
+second_title: Aspose.Words for .NET
+description: Section ClearContent yöntem. Bölümü temizler C#'da.
 type: docs
-weight: 110
+weight: 90
 url: /tr/net/aspose.words/section/clearcontent/
 ---
 ## Section.ClearContent method
@@ -14,13 +16,13 @@ Bölümü temizler.
 public void ClearContent()
 ```
 
-### Notlar
+## Notlar
 
 metni[`Body`](../body/) temizlendiğinde, bölüm sonunu temsil eden yalnızca bir boş paragraf kalır.
 
 Tüm üstbilgi ve altbilgilerin metni temizlenir, ancak[`HeaderFooter`](../../headerfooter/) nesnelerin kendisi kaldırılmaz.
 
-### Örnekler
+## Örnekler
 
 Bir bölümün içeriğinin nasıl temizleneceğini gösterir.
 
@@ -44,7 +46,5 @@ Assert.AreEqual(1, doc.FirstSection.Body.Paragraphs.Count);
 ### Ayrıca bakınız
 
 * class [Section](../)
-* ad alanı [Aspose.Words](../../section/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

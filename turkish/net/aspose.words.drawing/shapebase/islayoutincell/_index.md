@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.IsLayoutInCell
-second_title: Aspose.Words for .NET API Referansı
-description: ShapeBase mülk. Şeklin tablonun içinde mi yoksa dışında mı görüntüleneceğini belirten bir bayrak alır veya ayarlar.
+linktitle: IsLayoutInCell
+articleTitle: IsLayoutInCell
+second_title: Aspose.Words for .NET
+description: ShapeBase IsLayoutInCell mülk. Şeklin tablonun içinde mi yoksa dışında mı görüntüleneceğini belirten bir bayrak alır veya ayarlar C#'da.
 type: docs
 weight: 310
 url: /tr/net/aspose.words.drawing/shapebase/islayoutincell/
@@ -14,13 +16,13 @@ url: /tr/net/aspose.words.drawing/shapebase/islayoutincell/
 public bool IsLayoutInCell { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:`doğru`.
 
 Yalnızca üst düzey şekillere etki eder; özellik[`WrapType`](../wraptype/) bunlardan biri, dışında value olarak ayarlanmış[`Inline`](../../../aspose.words/inline/).
 
-### Örnekler
+## Örnekler
 
 Tablo hücresinde bir şeklin nasıl görüntüleneceğinin nasıl belirleneceğini gösterir.
 
@@ -65,7 +67,5 @@ doc.Save(ArtifactsDir + "Shape.LayoutInTableCell.docx");
 ### Ayrıca bakınız
 
 * class [ShapeBase](../)
-* ad alanı [Aspose.Words.Drawing](../../shapebase/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

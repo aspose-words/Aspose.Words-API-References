@@ -1,7 +1,9 @@
 ---
 title: FieldBarcode.IsUSPostalAddress
-second_title: Aspose.Words for .NET API Referansı
-description: FieldBarcode mülk. Alır veya ayarlarPostalAddress ABD posta adresidir.
+linktitle: IsUSPostalAddress
+articleTitle: IsUSPostalAddress
+second_title: Aspose.Words for .NET
+description: FieldBarcode IsUSPostalAddress mülk. Alır veya ayarlarPostalAddress ABD posta adresidir C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.fields/fieldbarcode/isuspostaladdress/
@@ -14,7 +16,7 @@ Alır veya ayarlar[`PostalAddress`](../postaladdress/) ABD posta adresidir.
 public bool IsUSPostalAddress { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 ABD Posta kodlarını barkod biçiminde görüntülemek için BARKOD alanının nasıl kullanılacağını gösterir.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "Field.BARCODE.docx");
 ### Ayrıca bakınız
 
 * class [FieldBarcode](../)
-* ad alanı [Aspose.Words.Fields](../../fieldbarcode/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

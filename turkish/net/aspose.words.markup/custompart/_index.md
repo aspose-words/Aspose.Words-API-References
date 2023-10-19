@@ -1,7 +1,9 @@
 ---
-title: Class CustomPart
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Markup.CustomPart sınıf. ISO/IEC 29500 standardı tarafından tanımlanmayan özel rastgele içerik bir parçayı temsil eder.
+title: CustomPart Class
+linktitle: CustomPart
+articleTitle: CustomPart
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Markup.CustomPart sınıf. ISO/IEC 29500 standardı tarafından tanımlanmayan özel rastgele içerik bir parçayı temsil eder C#'da.
 type: docs
 weight: 3900
 url: /tr/net/aspose.words.markup/custompart/
@@ -38,7 +40,7 @@ public class CustomPart
 | --- | --- |
 | [Clone](../../aspose.words.markup/custompart/clone/)() | Nesnenin "yeterince derin" bir kopyasını oluşturur. Baytları çoğaltmaz[`Data`](./data/) değer. |
 
-### Notlar
+## Notlar
 
 Bu sınıf, "bilinmeyen bir ilişkinin" hedefi olan bir OOXML parçasını temsil eder. ISO/IEC 29500'de tanımlanmayan tüm ilişkiler, "bilinmeyen ilişkiler" olarak kabul edilir. Bir Office Açık XML belgesinde, uyumlu olmaları koşuluyla, bilinmeyen ilişkilere izin verilir. ilişki işaretleme yönergelerine.
 
@@ -48,7 +50,7 @@ Aspose.Words ayrıca özel parçalara gidiş dönüş sağlar ve ayrıca bu tür
 
 Özel parçaları Özel XML Verileriyle karıştırmayın. Kullanmak[`CustomXmlPart`](../customxmlpart/) Özel XML Verilerine erişmek için 'ye ihtiyacınız varsa.
 
-### Örnekler
+## Örnekler
 
 Bir belgenin rastgele özel parça koleksiyonuna nasıl erişileceğini gösterir.
 
@@ -93,5 +95,3 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 
 * ad alanı [Aspose.Words.Markup](../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../)
-
-

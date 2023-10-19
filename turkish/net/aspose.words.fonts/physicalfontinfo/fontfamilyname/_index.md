@@ -1,7 +1,9 @@
 ---
 title: PhysicalFontInfo.FontFamilyName
-second_title: Aspose.Words for .NET API Referansı
-description: PhysicalFontInfo mülk. Yazı tipinin aile adı.
+linktitle: FontFamilyName
+articleTitle: FontFamilyName
+second_title: Aspose.Words for .NET
+description: PhysicalFontInfo FontFamilyName mülk. Yazı tipinin aile adı C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fonts/physicalfontinfo/fontfamilyname/
@@ -14,7 +16,7 @@ Yazı tipinin aile adı.
 public string FontFamilyName { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Kullanılabilir yazı tiplerinin nasıl listeleneceğini gösterir.
 
@@ -34,7 +36,5 @@ foreach (PhysicalFontInfo fontInfo in folderFontSource[0].GetAvailableFonts())
 ### Ayrıca bakınız
 
 * class [PhysicalFontInfo](../)
-* ad alanı [Aspose.Words.Fonts](../../physicalfontinfo/)
+* ad alanı [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../../)
-
-

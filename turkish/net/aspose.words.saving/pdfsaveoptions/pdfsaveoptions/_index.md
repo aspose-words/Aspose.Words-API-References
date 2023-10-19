@@ -1,7 +1,9 @@
 ---
-title: PdfSaveOptions.PdfSaveOptions
-second_title: Aspose.Words for .NET API Referansı
-description: PdfSaveOptions inşaatçı. Bir belgeyi ye kaydetmek için kullanılabilecek bu sınıfın yeni bir örneğini başlatır.Pdf format.
+title: PdfSaveOptions
+linktitle: PdfSaveOptions
+articleTitle: PdfSaveOptions
+second_title: Aspose.Words for .NET
+description: PdfSaveOptions inşaatçı. Bir belgeyi ye kaydetmek için kullanılabilecek bu sınıfın yeni bir örneğini başlatır.Pdf format C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.saving/pdfsaveoptions/pdfsaveoptions/
@@ -14,7 +16,7 @@ Bir belgeyi 'ye kaydetmek için kullanılabilecek bu sınıfın yeni bir örneğ
 public PdfSaveOptions()
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi PDF'ye dönüştürürken yazı tiplerini gömerken alt kümelemenin nasıl etkinleştirileceğini veya devre dışı bırakılacağını gösterir.
 
@@ -62,7 +64,5 @@ FontSettings.DefaultInstance.SetFontsSources(originalFontsSources);
 ### Ayrıca bakınız
 
 * class [PdfSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../pdfsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

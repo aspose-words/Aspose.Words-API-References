@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.IsHorizontalRule
-second_title: Aspose.Words for .NET API Referansı
-description: ShapeBase mülk. İadelerdoğru eğer bu şekil yatay bir kural ise.
+linktitle: IsHorizontalRule
+articleTitle: IsHorizontalRule
+second_title: Aspose.Words for .NET
+description: ShapeBase IsHorizontalRule mülk. İadelerdoğru eğer bu şekil yatay bir kural ise C#'da.
 type: docs
 weight: 270
 url: /tr/net/aspose.words.drawing/shapebase/ishorizontalrule/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.drawing/shapebase/ishorizontalrule/
 public bool IsHorizontalRule { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Yatay kural şeklinin nasıl ekleneceğini ve biçimlendirmesinin nasıl özelleştirileceğini gösterir.
 
@@ -37,7 +39,5 @@ Assert.True(shape.HorizontalRuleFormat.NoShade);
 ### Ayrıca bakınız
 
 * class [ShapeBase](../)
-* ad alanı [Aspose.Words.Drawing](../../shapebase/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

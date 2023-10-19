@@ -1,7 +1,9 @@
 ---
 title: FieldInclude.TextConverter
-second_title: Aspose.Words for .NET API Referansı
-description: FieldInclude mülk. Dahil edilen dosyanın biçimi için metin dönüştürücünün adını alır veya ayarlar.
+linktitle: TextConverter
+articleTitle: TextConverter
+second_title: Aspose.Words for .NET
+description: FieldInclude TextConverter mülk. Dahil edilen dosyanın biçimi için metin dönüştürücünün adını alır veya ayarlar C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.fields/fieldinclude/textconverter/
@@ -14,7 +16,7 @@ Dahil edilen dosyanın biçimi için metin dönüştürücünün adını alır v
 public string TextConverter { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 INCLUDE alanının nasıl oluşturulacağını ve özelliklerinin nasıl ayarlanacağını gösterir.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Field.INCLUDE.docx");
 ### Ayrıca bakınız
 
 * class [FieldInclude](../)
-* ad alanı [Aspose.Words.Fields](../../fieldinclude/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

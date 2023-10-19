@@ -1,7 +1,9 @@
 ---
 title: Shape.StrokeColor
-second_title: Aspose.Words for .NET API Referansı
-description: Shape mülk. Konturun rengini tanımlar.
+linktitle: StrokeColor
+articleTitle: StrokeColor
+second_title: Aspose.Words for .NET
+description: Shape StrokeColor mülk. Konturun rengini tanımlar C#'da.
 type: docs
 weight: 190
 url: /tr/net/aspose.words.drawing/shape/strokecolor/
@@ -14,13 +16,13 @@ Konturun rengini tanımlar.
 public Color StrokeColor { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu, kısayol[`Color`](../../stroke/color/) mülk.
 
 Varsayılan değer: Black.
 
-### Örnekler
+## Örnekler
 
 Bir şeklin düz renkle nasıl doldurulacağını gösterir.
 
@@ -173,7 +175,5 @@ private class ShapeAppearancePrinter : DocumentVisitor
 ### Ayrıca bakınız
 
 * class [Shape](../)
-* ad alanı [Aspose.Words.Drawing](../../shape/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

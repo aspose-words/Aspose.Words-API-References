@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.RelativeVerticalPosition
-second_title: Aspose.Words for .NET API Referansı
-description: ShapeBase mülk. Şeklin dikey olarak neye göre konumlandırıldığını belirtir.
+linktitle: RelativeVerticalPosition
+articleTitle: RelativeVerticalPosition
+second_title: Aspose.Words for .NET
+description: ShapeBase RelativeVerticalPosition mülk. Şeklin dikey olarak neye göre konumlandırıldığını belirtir C#'da.
 type: docs
 weight: 440
 url: /tr/net/aspose.words.drawing/shapebase/relativeverticalposition/
@@ -14,13 +16,13 @@ url: /tr/net/aspose.words.drawing/shapebase/relativeverticalposition/
 public RelativeVerticalPosition RelativeVerticalPosition { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:Paragraph.
 
 Yalnızca üst düzey kayan şekiller için etkilidir.
 
-### Örnekler
+## Örnekler
 
 Sayfanın ortasına kayan bir görüntünün nasıl ekleneceğini gösterir.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPageCenter.docx");
 
 * enum [RelativeVerticalPosition](../../relativeverticalposition/)
 * class [ShapeBase](../)
-* ad alanı [Aspose.Words.Drawing](../../shapebase/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

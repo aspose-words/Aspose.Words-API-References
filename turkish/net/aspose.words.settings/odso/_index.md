@@ -1,7 +1,9 @@
 ---
-title: Class Odso
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Settings.Odso sınıf. Adresmektup birleştirme veri kaynağı için Office Veri Kaynağı Nesnesi ODSO ayarlarını belirtir.
+title: Odso Class
+linktitle: Odso
+articleTitle: Odso
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Settings.Odso sınıf. Adresmektup birleştirme veri kaynağı için Office Veri Kaynağı Nesnesi ODSO ayarlarını belirtir C#'da.
 type: docs
 weight: 5880
 url: /tr/net/aspose.words.settings/odso/
@@ -41,7 +43,7 @@ public class Odso
 | --- | --- |
 | [Clone](../../aspose.words.settings/odso/clone/)() | Bu nesnenin derin bir kopyasını döndürür. |
 
-### Notlar
+## Notlar
 
 ODSO, daha yeni Microsoft Word sürümlerinin adres-mektup birleştirme belgesi için belirli veri kaynağı türlerini belirtirken kullanmayı tercih ettiği "yeni" yöntem gibi görünüyor. ODSO muhtemelen ilk olarak Microsoft Word 2000'de ortaya çıktı.
 
@@ -49,7 +51,7 @@ ODSO'nun kullanımı yeterince belgelenmemiştir ve bu nesnesinin özelliklerini
 
 ODSO settings dosyasına her zaman erişilebildiğinden normalde bu sınıfın nesnelerini doğrudan oluşturmanıza gerek yoktur.[`Odso`](../mailmergesettings/odso/) mülk.
 
-### Örnekler
+## Örnekler
 
 Bir Office Veri Kaynağı Nesnesinden alınan verilerle adres-mektup birleştirmenin nasıl yürütüleceğini gösterir.
 
@@ -102,5 +104,3 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * ad alanı [Aspose.Words.Settings](../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../)
-
-

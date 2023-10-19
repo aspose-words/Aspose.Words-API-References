@@ -1,7 +1,9 @@
 ---
-title: Enum ShapeLineStyle
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.ShapeLineStyle Sıralama. Bir öğenin bileşik çizgi stilini belirtir.Shape .
+title: ShapeLineStyle Enum
+linktitle: ShapeLineStyle
+articleTitle: ShapeLineStyle
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.ShapeLineStyle Sıralama. Bir öğenin bileşik çizgi stilini belirtir.Shape  C#'da.
 type: docs
 weight: 1270
 url: /tr/net/aspose.words.drawing/shapelinestyle/
@@ -25,7 +27,7 @@ public enum ShapeLineStyle
 | Triple | `4` | Üç çizgi, ince, kalın, ince. |
 | Default | `0` | Varsayılan değer:Single . |
 
-### Örnekler
+## Örnekler
 
 Kontur özelliklerinin nasıl değiştirildiğini gösterir.
 
@@ -60,5 +62,3 @@ doc.Save(ArtifactsDir + "Shape.Stroke.docx");
 * property [LineStyle](../stroke/linestyle/)
 * ad alanı [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../)
-
-

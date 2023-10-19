@@ -1,7 +1,9 @@
 ---
 title: FieldAddressBlock.NameAndAddressFormat
-second_title: Aspose.Words for .NET API Referansı
-description: FieldAddressBlock mülk. Ad ve adres biçimini alır veya ayarlar.
+linktitle: NameAndAddressFormat
+articleTitle: NameAndAddressFormat
+second_title: Aspose.Words for .NET
+description: FieldAddressBlock NameAndAddressFormat mülk. Ad ve adres biçimini alır veya ayarlar C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.fields/fieldaddressblock/nameandaddressformat/
@@ -14,7 +16,7 @@ Ad ve adres biçimini alır veya ayarlar.
 public string NameAndAddressFormat { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 ADRESSBLOCK alanının nasıl ekleneceğini gösterir.
 
@@ -45,7 +47,5 @@ Assert.AreEqual(
 ### Ayrıca bakınız
 
 * class [FieldAddressBlock](../)
-* ad alanı [Aspose.Words.Fields](../../fieldaddressblock/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class BookmarksOutlineLevelCollection
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Saving.BookmarksOutlineLevelCollection sınıf. Bireysel yer imlerinin anahat düzeyinden oluşan bir koleksiyon.
+title: BookmarksOutlineLevelCollection Class
+linktitle: BookmarksOutlineLevelCollection
+articleTitle: BookmarksOutlineLevelCollection
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Saving.BookmarksOutlineLevelCollection sınıf. Bireysel yer imlerinin anahat düzeyinden oluşan bir koleksiyon C#'da.
 type: docs
 weight: 4850
 url: /tr/net/aspose.words.saving/bookmarksoutlinelevelcollection/
@@ -33,21 +35,21 @@ public class BookmarksOutlineLevelCollection : IEnumerable<KeyValuePair<string, 
 
 | İsim | Tanım |
 | --- | --- |
-| [Add](../../aspose.words.saving/bookmarksoutlinelevelcollection/add/)(string, int) | Koleksiyona bir yer işareti ekler. |
+| [Add](../../aspose.words.saving/bookmarksoutlinelevelcollection/add/)(*string, int*) | Koleksiyona bir yer işareti ekler. |
 | [Clear](../../aspose.words.saving/bookmarksoutlinelevelcollection/clear/)() | Koleksiyondaki tüm öğeleri kaldırır. |
-| [Contains](../../aspose.words.saving/bookmarksoutlinelevelcollection/contains/)(string) | Koleksiyonun belirtilen adda bir yer işareti içerip içermediğini belirler. |
+| [Contains](../../aspose.words.saving/bookmarksoutlinelevelcollection/contains/)(*string*) | Koleksiyonun belirtilen adda bir yer işareti içerip içermediğini belirler. |
 | [GetEnumerator](../../aspose.words.saving/bookmarksoutlinelevelcollection/getenumerator/)() | Koleksiyondaki tüm öğeler üzerinde yineleme yapmak için kullanılabilecek bir numaralandırıcı nesnesini döndürür. |
-| [IndexOfKey](../../aspose.words.saving/bookmarksoutlinelevelcollection/indexofkey/)(string) | Koleksiyonda belirtilen yer iminin sıfır tabanlı dizinini döndürür. |
-| [Remove](../../aspose.words.saving/bookmarksoutlinelevelcollection/remove/)(string) | Koleksiyondan belirtilen ada sahip bir yer işaretini kaldırır. |
-| [RemoveAt](../../aspose.words.saving/bookmarksoutlinelevelcollection/removeat/)(int) | Belirtilen dizindeki yer imini kaldırır. |
+| [IndexOfKey](../../aspose.words.saving/bookmarksoutlinelevelcollection/indexofkey/)(*string*) | Koleksiyonda belirtilen yer iminin sıfır tabanlı dizinini döndürür. |
+| [Remove](../../aspose.words.saving/bookmarksoutlinelevelcollection/remove/)(*string*) | Koleksiyondan belirtilen ada sahip bir yer işaretini kaldırır. |
+| [RemoveAt](../../aspose.words.saving/bookmarksoutlinelevelcollection/removeat/)(*int*) | Belirtilen dizindeki yer imini kaldırır. |
 
-### Notlar
+## Notlar
 
 Anahtar, büyük/küçük harfe duyarlı olmayan bir dize yer imi adıdır. Değer, int yer imi anahat düzeyidir.
 
 Yer imi anahat düzeyi 0 ile 9 arasında bir değer olabilir. 0 belirtin; Word yer imi belge anahattında görüntülenmez. 1 belirtin ve Word yer imi belge anahattı içinde düzey 1'de görüntülenecektir; 2. seviye için 2 vb.
 
-### Örnekler
+## Örnekler
 
 Yer imleri için anahat düzeylerinin nasıl ayarlanacağını gösterir.
 
@@ -106,5 +108,3 @@ outlineLevels.Clear();
 
 * ad alanı [Aspose.Words.Saving](../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../)
-
-

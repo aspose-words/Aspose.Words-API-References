@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.Item
-second_title: Aspose.Words for .NET API Referansı
-description: BorderCollection mülk. Bir öğeyi alırBorder kenarlık türüne göre nesne.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words for .NET
+description: BorderCollection Item mülk. Bir öğeyi alırBorder kenarlık türüne göre nesne C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words/bordercollection/item/
@@ -18,11 +20,11 @@ public Border this[BorderType borderType] { get; }
 | --- | --- |
 | borderType | A[`BorderType`](../../bordertype/) Alınacak kenarlığın türünü belirten değer . |
 
-### Notlar
+## Notlar
 
 Farklı belge öğeleri için tüm kenarlıkların mevcut olmadığını unutmayın. Geçerli nesneye uygulanamayan bir kenarlık talep ederseniz bu yöntem bir istisna atar.
 
-### Örnekler
+## Örnekler
 
 Metnin kenarlıklar ve gölgelendirmeyle nasıl süsleneceğini gösterir.
 
@@ -51,7 +53,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.ApplyBordersAndShading.docx");
 * class [Border](../../border/)
 * enum [BorderType](../../bordertype/)
 * class [BorderCollection](../)
-* ad alanı [Aspose.Words](../../bordercollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
 
 ---
@@ -68,7 +70,7 @@ public Border this[int index] { get; }
 | --- | --- |
 | index | Alınacak sınırın sıfır tabanlı dizini. |
 
-### Örnekler
+## Örnekler
 
 Kenarlık koleksiyonlarının öğeleri nasıl paylaşabildiğini gösterir.
 
@@ -111,7 +113,5 @@ doc.Save(ArtifactsDir + "Border.SharedElements.docx");
 
 * class [Border](../../border/)
 * class [BorderCollection](../)
-* ad alanı [Aspose.Words](../../bordercollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: Fill.SetImage
-second_title: Aspose.Words for .NET API Referansı
-description: Fill yöntem. Doldurma türünü tek görüntü olarak değiştirir.
+linktitle: SetImage
+articleTitle: SetImage
+second_title: Aspose.Words for .NET
+description: Fill SetImage yöntem. Doldurma türünü tek görüntü olarak değiştirir C#'da.
 type: docs
-weight: 250
+weight: 240
 url: /tr/net/aspose.words.drawing/fill/setimage/
 ---
-## SetImage(string) {#setimage_2}
+## SetImage(*string*) {#setimage_2}
 
 Doldurma türünü tek görüntü olarak değiştirir.
 
@@ -18,7 +20,7 @@ public void SetImage(string fileName)
 | --- | --- | --- |
 | fileName | String | Resim dosyasının yolu. |
 
-### Örnekler
+## Örnekler
 
 Şekil dolgu türünün görüntü olarak nasıl ayarlanacağını gösterir.
 
@@ -45,12 +47,12 @@ doc.Save(ArtifactsDir + "Shape.FillImage.Stream.docx");
 ### Ayrıca bakınız
 
 * class [Fill](../)
-* ad alanı [Aspose.Words.Drawing](../../fill/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## SetImage(Stream) {#setimage_1}
+## SetImage(*Stream*) {#setimage_1}
 
 Doldurma türünü tek görüntü olarak değiştirir.
 
@@ -65,12 +67,12 @@ public void SetImage(Stream stream)
 ### Ayrıca bakınız
 
 * class [Fill](../)
-* ad alanı [Aspose.Words.Drawing](../../fill/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## SetImage(byte[]) {#setimage}
+## SetImage(*byte[]*) {#setimage}
 
 Doldurma türünü tek görüntü olarak değiştirir.
 
@@ -85,7 +87,5 @@ public void SetImage(byte[] imageBytes)
 ### Ayrıca bakınız
 
 * class [Fill](../)
-* ad alanı [Aspose.Words.Drawing](../../fill/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

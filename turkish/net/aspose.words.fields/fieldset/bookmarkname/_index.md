@@ -1,7 +1,9 @@
 ---
 title: FieldSet.BookmarkName
-second_title: Aspose.Words for .NET API Referansı
-description: FieldSet mülk. Yer iminin adını alır veya ayarlar.
+linktitle: BookmarkName
+articleTitle: BookmarkName
+second_title: Aspose.Words for .NET
+description: FieldSet BookmarkName mülk. Yer iminin adını alır veya ayarlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fieldset/bookmarkname/
@@ -14,7 +16,7 @@ Yer iminin adını alır veya ayarlar.
 public string BookmarkName { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 SET alanıyla yer imli metnin nasıl oluşturulacağını ve ardından REF alanını kullanarak belgede nasıl görüntüleneceğini gösterir.
 
@@ -45,7 +47,5 @@ doc.Save(ArtifactsDir + "Field.SET.REF.docx");
 ### Ayrıca bakınız
 
 * class [FieldSet](../)
-* ad alanı [Aspose.Words.Fields](../../fieldset/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

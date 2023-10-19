@@ -1,7 +1,9 @@
 ---
 title: BookmarkStart.GetText
-second_title: Aspose.Words for .NET API Referansı
-description: BookmarkStart yöntem. Boş bir dize döndürür.
+linktitle: GetText
+articleTitle: GetText
+second_title: Aspose.Words for .NET
+description: BookmarkStart GetText yöntem. Boş bir dize döndürür C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words/bookmarkstart/gettext/
@@ -18,7 +20,7 @@ public override string GetText()
 
 Boş bir dize.
 
-### Örnekler
+## Örnekler
 
 Yer işaretlerinin nasıl ekleneceğini ve içeriklerinin nasıl güncelleneceğini gösterir.
 
@@ -107,7 +109,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 ### Ayrıca bakınız
 
 * class [BookmarkStart](../)
-* ad alanı [Aspose.Words](../../bookmarkstart/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

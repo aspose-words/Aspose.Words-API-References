@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.ClearFormatting
-second_title: Aspose.Words for .NET API Referansı
-description: BorderCollection yöntem. Bir nesnenin tüm kenarlıklarını kaldırır.
+linktitle: ClearFormatting
+articleTitle: ClearFormatting
+second_title: Aspose.Words for .NET
+description: BorderCollection ClearFormatting yöntem. Bir nesnenin tüm kenarlıklarını kaldırır C#'da.
 type: docs
 weight: 140
 url: /tr/net/aspose.words/bordercollection/clearformatting/
@@ -14,7 +16,7 @@ Bir nesnenin tüm kenarlıklarını kaldırır.
 public void ClearFormatting()
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki tüm paragraflardaki kenarlıkların nasıl kaldırılacağını gösterir.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "BorderCollection.RemoveAllBorders.docx");
 ### Ayrıca bakınız
 
 * class [BorderCollection](../)
-* ad alanı [Aspose.Words](../../bordercollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

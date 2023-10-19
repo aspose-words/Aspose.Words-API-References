@@ -1,7 +1,9 @@
 ---
-title: Interface IMailMergeDataSourceRoot
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.MailMerging.IMailMergeDataSourceRoot arayüz. Ana ayrıntı verileriyle özel bir veri kaynağından adresmektup birleştirmeye izin vermek için bu arayüzü uygulayın.
+title: IMailMergeDataSourceRoot Interface
+linktitle: IMailMergeDataSourceRoot
+articleTitle: IMailMergeDataSourceRoot
+second_title: Aspose.Words for .NET
+description: Aspose.Words.MailMerging.IMailMergeDataSourceRoot arayüz. Ana ayrıntı verileriyle özel bir veri kaynağından adresmektup birleştirmeye izin vermek için bu arayüzü uygulayın C#'da.
 type: docs
 weight: 3820
 url: /tr/net/aspose.words.mailmerging/imailmergedatasourceroot/
@@ -18,9 +20,9 @@ public interface IMailMergeDataSourceRoot
 
 | İsim | Tanım |
 | --- | --- |
-| [GetDataSource](../../aspose.words.mailmerging/imailmergedatasourceroot/getdatasource/)(string) | Aspose.Words adres-mektup birleştirme motoru, üst düzey adres-mektup birleştirme bölgesinin başlangıcıyla karşılaştığında bu yöntemi çağırır. |
+| [GetDataSource](../../aspose.words.mailmerging/imailmergedatasourceroot/getdatasource/)(*string*) | Aspose.Words adres-mektup birleştirme motoru, üst düzey adres-mektup birleştirme bölgesinin başlangıcıyla karşılaştığında bu yöntemi çağırır. |
 
-### Örnekler
+## Örnekler
 
 Ana ayrıntı verileriyle özel bir veri kaynağından adres-mektup birleştirme gerçekleştirir.
 
@@ -204,5 +206,3 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
 
 * ad alanı [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * toplantı [Aspose.Words](../../)
-
-

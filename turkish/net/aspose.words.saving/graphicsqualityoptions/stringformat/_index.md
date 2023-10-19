@@ -1,7 +1,9 @@
 ---
 title: GraphicsQualityOptions.StringFormat
-second_title: Aspose.Words for .NET API Referansı
-description: GraphicsQualityOptions mülk. Metin düzeni bilgilerini hizalama yönlendirme ve sekme durakları gibi görüntüleme işlemlerini üç nokta ekleme ve ulusal rakam değiştirme gibi ve OpenType özelliklerini alır veya ayarlar.
+linktitle: StringFormat
+articleTitle: StringFormat
+second_title: Aspose.Words for .NET
+description: GraphicsQualityOptions StringFormat mülk. Metin düzeni bilgilerini hizalama yönlendirme ve sekme durakları gibi görüntüleme işlemlerini üç nokta ekleme ve ulusal rakam değiştirme gibi ve OpenType özelliklerini alır veya ayarlar C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.saving/graphicsqualityoptions/stringformat/
@@ -14,7 +16,7 @@ Metin düzeni bilgilerini (hizalama, yönlendirme ve sekme durakları gibi), gö
 public StringFormat StringFormat { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Belgeleri görüntü formatlarına dönüştürürken işleme kalitesi seçeneklerinin nasıl ayarlanacağını gösterir.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.GraphicsQuality.jpg", saveOptions);
 ### Ayrıca bakınız
 
 * class [GraphicsQualityOptions](../)
-* ad alanı [Aspose.Words.Saving](../../graphicsqualityoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

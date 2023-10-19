@@ -1,7 +1,9 @@
 ---
 title: ChartDataPointCollection.Item
-second_title: Aspose.Words for .NET API Referansı
-description: ChartDataPointCollection mülk. İadelerChartDataPoint belirtilen dizin için.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words for .NET
+description: ChartDataPointCollection Item mülk. İadelerChartDataPoint belirtilen dizin için C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.drawing.charts/chartdatapointcollection/item/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.drawing.charts/chartdatapointcollection/item/
 public ChartDataPoint this[int index] { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Çizgi grafikte veri noktalarıyla nasıl çalışılacağını gösterir.
 
@@ -77,7 +79,5 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 
 * class [ChartDataPoint](../../chartdatapoint/)
 * class [ChartDataPointCollection](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartdatapointcollection/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

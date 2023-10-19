@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.CustomTocStyleSeparator
-second_title: Aspose.Words for .NET API Referansı
-description: FieldOptions mülk. t anahtarı için özel stil ayırıcıyı alır veya ayarlarFieldToc alan.
+linktitle: CustomTocStyleSeparator
+articleTitle: CustomTocStyleSeparator
+second_title: Aspose.Words for .NET
+description: FieldOptions CustomTocStyleSeparator mülk. t anahtarı için özel stil ayırıcıyı alır veya ayarlarFieldToc alan C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.fields/fieldoptions/customtocstyleseparator/
@@ -14,11 +16,11 @@ url: /tr/net/aspose.words.fields/fieldoptions/customtocstyleseparator/
 public string CustomTocStyleSeparator { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan olarak, \t anahtarıyla tanımlanan özel stiller[`FieldToc`](../../fieldtoc/)alanlar geçerli kültürden alınan bir sınırlayıcıyla ayrılır. Bu özellik, kullanıcı tanımlı bir sınırlayıcı belirterek bu davranışı geçersiz kılar.
 
-### Örnekler
+## Örnekler
 
 İçindekiler tablosunun nasıl ekleneceğini ve başlık stillerine göre girdilerle nasıl doldurulacağını gösterir.
 
@@ -103,7 +105,5 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 ### Ayrıca bakınız
 
 * class [FieldOptions](../)
-* ad alanı [Aspose.Words.Fields](../../fieldoptions/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

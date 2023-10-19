@@ -1,7 +1,9 @@
 ---
 title: Node.NodeType
-second_title: Aspose.Words for .NET API Referansı
-description: Node mülk. Bu düğümün türünü alır.
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words for .NET
+description: Node NodeType mülk. Bu düğümün türünü alır C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words/node/nodetype/
@@ -14,7 +16,7 @@ Bu düğümün türünü alır.
 public abstract NodeType NodeType { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir düğümün NextSibling özelliğinin, doğrudan alt öğeleri aracılığıyla numaralandırmak için nasıl kullanılacağını gösterir.
 
@@ -102,7 +104,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../nodetype/)
 * class [Node](../)
-* ad alanı [Aspose.Words](../../node/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

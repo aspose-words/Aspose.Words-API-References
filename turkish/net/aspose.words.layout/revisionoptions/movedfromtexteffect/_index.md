@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.MovedFromTextEffect
-second_title: Aspose.Words for .NET API Referansı
-description: RevisionOptions mülk. İçeriğin taşındığı alanlara uygulanacak efekti belirtmeye olanak tanırMoving . Varsayılan değerDoubleStrikeThrough
+linktitle: MovedFromTextEffect
+articleTitle: MovedFromTextEffect
+second_title: Aspose.Words for .NET
+description: RevisionOptions MovedFromTextEffect mülk. İçeriğin taşındığı alanlara uygulanacak efekti belirtmeye olanak tanırMoving . Varsayılan değerDoubleStrikeThrough C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words.layout/revisionoptions/movedfromtexteffect/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.layout/revisionoptions/movedfromtexteffect/
 public RevisionTextEffect MovedFromTextEffect { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Revizyonların görünümünün nasıl değiştirileceğini gösterir.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 
 * enum [RevisionTextEffect](../../revisiontexteffect/)
 * class [RevisionOptions](../)
-* ad alanı [Aspose.Words.Layout](../../revisionoptions/)
+* ad alanı [Aspose.Words.Layout](../../../aspose.words.layout/)
 * toplantı [Aspose.Words](../../../)
-
-

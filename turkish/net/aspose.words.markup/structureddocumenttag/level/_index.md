@@ -1,20 +1,22 @@
 ---
 title: StructuredDocumentTag.Level
-second_title: Aspose.Words for .NET API Referansı
-description: StructuredDocumentTag mülk. Bunun hangi düzeyde olduğunu alır SDT belge ağacında oluşur.
+linktitle: Level
+articleTitle: Level
+second_title: Aspose.Words for .NET
+description: StructuredDocumentTag Level mülk. Bunun hangi düzeyde olduğunu alırSDT belge ağacında oluşur C#'da.
 type: docs
 weight: 170
 url: /tr/net/aspose.words.markup/structureddocumenttag/level/
 ---
 ## StructuredDocumentTag.Level property
 
-Bunun hangi düzeyde olduğunu alır **SDT** belge ağacında oluşur.
+Bunun hangi düzeyde olduğunu alır**SDT** belge ağacında oluşur.
 
 ```csharp
 public MarkupLevel Level { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Düz metin kutusunda yapılandırılmış belge etiketinin nasıl oluşturulacağını ve görünümünün nasıl değiştirileceğini gösterir.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");
 
 * enum [MarkupLevel](../../markuplevel/)
 * class [StructuredDocumentTag](../)
-* ad alanı [Aspose.Words.Markup](../../structureddocumenttag/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Interface IDocumentLoadingCallback
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Loading.IDocumentLoadingCallback arayüz. Bir belgeyi yüklerken kendi özel yönteminizin çağrılmasını istiyorsanız bu arayüzü uygulayın.
+title: IDocumentLoadingCallback Interface
+linktitle: IDocumentLoadingCallback
+articleTitle: IDocumentLoadingCallback
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Loading.IDocumentLoadingCallback arayüz. Bir belgeyi yüklerken kendi özel yönteminizin çağrılmasını istiyorsanız bu arayüzü uygulayın C#'da.
 type: docs
 weight: 3630
 url: /tr/net/aspose.words.loading/idocumentloadingcallback/
@@ -18,9 +20,9 @@ public interface IDocumentLoadingCallback
 
 | İsim | Tanım |
 | --- | --- |
-| [Notify](../../aspose.words.loading/idocumentloadingcallback/notify/)(DocumentLoadingArgs) | Bu, belge yükleme işleminin ilerlemesini bildirmek için çağrılır. |
+| [Notify](../../aspose.words.loading/idocumentloadingcallback/notify/)(*[DocumentLoadingArgs](../documentloadingargs/)*) | Bu, belge yükleme işleminin ilerlemesini bildirmek için çağrılır. |
 
-### Örnekler
+## Örnekler
 
 Belge yüklemesinin beklenen yükleme süresini aşması durumunda kullanıcıya nasıl bilgi verileceğini gösterir.
 
@@ -85,5 +87,3 @@ public class LoadingProgressCallback : IDocumentLoadingCallback
 
 * ad alanı [Aspose.Words.Loading](../../aspose.words.loading/)
 * toplantı [Aspose.Words](../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: Paragraph.AppendField
-second_title: Aspose.Words for .NET API Referansı
-description: Paragraph yöntem. Bu paragrafa bir alan ekler.
+linktitle: AppendField
+articleTitle: AppendField
+second_title: Aspose.Words for .NET
+description: Paragraph AppendField yöntem. Bu paragrafa bir alan ekler C#'da.
 type: docs
-weight: 260
+weight: 240
 url: /tr/net/aspose.words/paragraph/appendfield/
 ---
-## AppendField(FieldType, bool) {#appendfield}
+## AppendField(*[FieldType](../../../aspose.words.fields/fieldtype/), bool*) {#appendfield}
 
 Bu paragrafa bir alan ekler.
 
@@ -23,7 +25,7 @@ public Field AppendField(FieldType fieldType, bool updateField)
 
 A[`Field`](../../../aspose.words.fields/field/) eklenen alanı temsil eden nesne.
 
-### Örnekler
+## Örnekler
 
 Bir paragrafa alan eklemenin çeşitli yollarını gösterir.
 
@@ -56,12 +58,12 @@ doc.Save(ArtifactsDir + "Paragraph.AppendField.docx");
 * class [Field](../../../aspose.words.fields/field/)
 * enum [FieldType](../../../aspose.words.fields/fieldtype/)
 * class [Paragraph](../)
-* ad alanı [Aspose.Words](../../paragraph/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## AppendField(string) {#appendfield_1}
+## AppendField(*string*) {#appendfield_1}
 
 Bu paragrafa bir alan ekler.
 
@@ -77,7 +79,7 @@ public Field AppendField(string fieldCode)
 
 A[`Field`](../../../aspose.words.fields/field/) eklenen alanı temsil eden nesne.
 
-### Örnekler
+## Örnekler
 
 Bir paragrafa alan eklemenin çeşitli yollarını gösterir.
 
@@ -109,12 +111,12 @@ doc.Save(ArtifactsDir + "Paragraph.AppendField.docx");
 
 * class [Field](../../../aspose.words.fields/field/)
 * class [Paragraph](../)
-* ad alanı [Aspose.Words](../../paragraph/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## AppendField(string, string) {#appendfield_2}
+## AppendField(*string, string*) {#appendfield_2}
 
 Bu paragrafa bir alan ekler.
 
@@ -131,7 +133,7 @@ public Field AppendField(string fieldCode, string fieldValue)
 
 A[`Field`](../../../aspose.words.fields/field/) eklenen alanı temsil eden nesne.
 
-### Örnekler
+## Örnekler
 
 Bir paragrafa alan eklemenin çeşitli yollarını gösterir.
 
@@ -163,7 +165,5 @@ doc.Save(ArtifactsDir + "Paragraph.AppendField.docx");
 
 * class [Field](../../../aspose.words.fields/field/)
 * class [Paragraph](../)
-* ad alanı [Aspose.Words](../../paragraph/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

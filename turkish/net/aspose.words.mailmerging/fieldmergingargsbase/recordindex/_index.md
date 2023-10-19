@@ -1,7 +1,9 @@
 ---
 title: FieldMergingArgsBase.RecordIndex
-second_title: Aspose.Words for .NET API Referansı
-description: FieldMergingArgsBase mülk. Birleştirilecek kaydın sıfır tabanlı dizinini alır.
+linktitle: RecordIndex
+articleTitle: RecordIndex
+second_title: Aspose.Words for .NET
+description: FieldMergingArgsBase RecordIndex mülk. Birleştirilecek kaydın sıfır tabanlı dizinini alır C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.mailmerging/fieldmergingargsbase/recordindex/
@@ -14,7 +16,7 @@ Birleştirilecek kaydın sıfır tabanlı dizinini alır.
 public int RecordIndex { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Adres-mektup birleştirme sırasında onay kutusu form alanlarının MERGEFIELD'lere birleştirme verileri olarak nasıl ekleneceğini gösterir.
 
@@ -100,7 +102,5 @@ private static DataTable GetStudentCourseDataTable()
 ### Ayrıca bakınız
 
 * class [FieldMergingArgsBase](../)
-* ad alanı [Aspose.Words.MailMerging](../../fieldmergingargsbase/)
+* ad alanı [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: OdsoRecipientDataCollection.Count
-second_title: Aspose.Words for .NET API Referansı
-description: OdsoRecipientDataCollection mülk. Koleksiyonda yer alan öğelerin sayısını alır.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words for .NET
+description: OdsoRecipientDataCollection Count mülk. Koleksiyonda yer alan öğelerin sayısını alır C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.settings/odsorecipientdatacollection/count/
@@ -14,7 +16,7 @@ Koleksiyonda yer alan öğelerin sayısını alır.
 public int Count { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Adres-mektup birleştirmenin hangi birleştirme veri kaynağı kayıtlarını hariç tutacağını belirleyen veri koleksiyonuna nasıl erişileceğini gösterir.
 
@@ -54,7 +56,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Ayrıca bakınız
 
 * class [OdsoRecipientDataCollection](../)
-* ad alanı [Aspose.Words.Settings](../../odsorecipientdatacollection/)
+* ad alanı [Aspose.Words.Settings](../../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../../)
-
-

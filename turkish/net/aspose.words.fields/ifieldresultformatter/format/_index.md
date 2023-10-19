@@ -1,12 +1,14 @@
 ---
 title: IFieldResultFormatter.Format
-second_title: Aspose.Words for .NET API Referansı
-description: IFieldResultFormatter yöntem. Aspose.Words büyük harf biçimini değiştirdiğinde çağrılır yani  Upper.
+linktitle: Format
+articleTitle: Format
+second_title: Aspose.Words for .NET
+description: IFieldResultFormatter Format yöntem. Aspose.Words büyük harf biçimini değiştirdiğinde çağrılır yani  Upper C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/ifieldresultformatter/format/
 ---
-## Format(string, GeneralFormat) {#format_1}
+## Format(*string, [GeneralFormat](../../generalformat/)*) {#format_1}
 
 Aspose.Words büyük harf biçimini değiştirdiğinde çağrılır, yani \* Upper.
 
@@ -14,11 +16,11 @@ Aspose.Words büyük harf biçimini değiştirdiğinde çağrılır, yani \* Upp
 public string Format(string value, GeneralFormat format)
 ```
 
-### Notlar
+## Notlar
 
 Uygulama geri dönmeli`hükümsüz` varsayılan biçimlendirmenin uygulanması gerektiğini belirtmek için.
 
-### Örnekler
+## Örnekler
 
 Alanlar güncellenirken özel bir biçimin alan sonuçlarına otomatik olarak nasıl uygulanacağını gösterir.
 
@@ -156,12 +158,12 @@ private class FieldResultFormatter : IFieldResultFormatter
 
 * enum [GeneralFormat](../../generalformat/)
 * interface [IFieldResultFormatter](../)
-* ad alanı [Aspose.Words.Fields](../../ifieldresultformatter/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## Format(double, GeneralFormat) {#format}
+## Format(*double, [GeneralFormat](../../generalformat/)*) {#format}
 
 Aspose.Words bir sayı formatı anahtarı uyguladığında çağrılır, yani \* Ordinal.
 
@@ -169,11 +171,11 @@ Aspose.Words bir sayı formatı anahtarı uyguladığında çağrılır, yani \*
 public string Format(double value, GeneralFormat format)
 ```
 
-### Notlar
+## Notlar
 
 Uygulama geri dönmeli`hükümsüz` varsayılan biçimlendirmenin uygulanması gerektiğini belirtmek için.
 
-### Örnekler
+## Örnekler
 
 Alanlar güncellenirken özel bir biçimin alan sonuçlarına otomatik olarak nasıl uygulanacağını gösterir.
 
@@ -311,7 +313,5 @@ private class FieldResultFormatter : IFieldResultFormatter
 
 * enum [GeneralFormat](../../generalformat/)
 * interface [IFieldResultFormatter](../)
-* ad alanı [Aspose.Words.Fields](../../ifieldresultformatter/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

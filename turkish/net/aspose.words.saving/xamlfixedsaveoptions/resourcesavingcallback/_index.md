@@ -1,7 +1,9 @@
 ---
 title: XamlFixedSaveOptions.ResourceSavingCallback
-second_title: Aspose.Words for .NET API Referansı
-description: XamlFixedSaveOptions mülk. Bir belge sabit sayfa Xaml biçimine aktarıldığında kaynakların resimler ve yazı tipleri nasıl kaydedileceğini kontrol etmenize olanak tanır.
+linktitle: ResourceSavingCallback
+articleTitle: ResourceSavingCallback
+second_title: Aspose.Words for .NET
+description: XamlFixedSaveOptions ResourceSavingCallback mülk. Bir belge sabit sayfa Xaml biçimine aktarıldığında kaynakların resimler ve yazı tipleri nasıl kaydedileceğini kontrol etmenize olanak tanır C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.saving/xamlfixedsaveoptions/resourcesavingcallback/
@@ -14,7 +16,7 @@ Bir belge sabit sayfa Xaml biçimine aktarıldığında kaynakların (resimler v
 public IResourceSavingCallback ResourceSavingCallback { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi sabit biçimli .xaml dosyasına dönüştürürken oluşturulan bağlantılı kaynakların URI'lerinin nasıl yazdırılacağını gösterir.
 
@@ -78,7 +80,5 @@ private class ResourceUriPrinter : IResourceSavingCallback
 
 * interface [IResourceSavingCallback](../../iresourcesavingcallback/)
 * class [XamlFixedSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../xamlfixedsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

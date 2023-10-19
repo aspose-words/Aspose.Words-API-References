@@ -1,7 +1,9 @@
 ---
 title: OlePackage.DisplayName
-second_title: Aspose.Words for .NET API Referansı
-description: OlePackage mülk. OLE Paketinin görünen adını alır veya ayarlar.
+linktitle: DisplayName
+articleTitle: DisplayName
+second_title: Aspose.Words for .NET
+description: OlePackage DisplayName mülk. OLE Paketinin görünen adını alır veya ayarlar C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.drawing/olepackage/displayname/
@@ -14,7 +16,7 @@ OLE Paketinin görünen adını alır veya ayarlar.
 public string DisplayName { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir OLE nesnesinin belgeye nasıl eklendiğini gösterir.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "Shape.InsertOlePackage.docx");
 ### Ayrıca bakınız
 
 * class [OlePackage](../)
-* ad alanı [Aspose.Words.Drawing](../../olepackage/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PageLayoutCallbackArgs.PageIndex
-second_title: Aspose.Words for .NET API Referansı
-description: PageLayoutCallbackArgs mülk. Bu olayın ilgili olduğu belgedeki sayfanın 0 tabanlı dizinini alır. İlişkili sayfa yoksa veya sayfa yeniden düzenleme sırasında kaldırılmışsa negatif değer döndürür.
+linktitle: PageIndex
+articleTitle: PageIndex
+second_title: Aspose.Words for .NET
+description: PageLayoutCallbackArgs PageIndex mülk. Bu olayın ilgili olduğu belgedeki sayfanın 0 tabanlı dizinini alır. İlişkili sayfa yoksa veya sayfa yeniden düzenleme sırasında kaldırılmışsa negatif değer döndürür C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.layout/pagelayoutcallbackargs/pageindex/
@@ -14,7 +16,7 @@ Bu olayın ilgili olduğu belgedeki sayfanın 0 tabanlı dizinini alır. İlişk
 public int PageIndex { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Düzen geri çağrısıyla düzen değişikliklerinin nasıl izleneceğini gösterir.
 
@@ -80,7 +82,5 @@ private class RenderPageLayoutCallback : IPageLayoutCallback
 ### Ayrıca bakınız
 
 * class [PageLayoutCallbackArgs](../)
-* ad alanı [Aspose.Words.Layout](../../pagelayoutcallbackargs/)
+* ad alanı [Aspose.Words.Layout](../../../aspose.words.layout/)
 * toplantı [Aspose.Words](../../../)
-
-

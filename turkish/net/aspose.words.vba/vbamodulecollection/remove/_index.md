@@ -1,7 +1,9 @@
 ---
 title: VbaModuleCollection.Remove
-second_title: Aspose.Words for .NET API Referansı
-description: VbaModuleCollection yöntem. Belirtilen modülü koleksiyondan kaldırır.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words for .NET
+description: VbaModuleCollection Remove yöntem. Belirtilen modülü koleksiyondan kaldırır C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.vba/vbamodulecollection/remove/
@@ -18,7 +20,7 @@ public void Remove(VbaModule module)
 | --- | --- | --- |
 | module | VbaModule | Kaldırılacak modül. |
 
-### Örnekler
+## Örnekler
 
 Bir belgenin VBA proje bilgilerine nasıl erişileceğini gösterir.
 
@@ -50,7 +52,5 @@ vbaModules.Remove(vbaModules[2]);
 
 * class [VbaModule](../../vbamodule/)
 * class [VbaModuleCollection](../)
-* ad alanı [Aspose.Words.Vba](../../vbamodulecollection/)
+* ad alanı [Aspose.Words.Vba](../../../aspose.words.vba/)
 * toplantı [Aspose.Words](../../../)
-
-

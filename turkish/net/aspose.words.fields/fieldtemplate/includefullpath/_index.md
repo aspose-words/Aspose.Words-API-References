@@ -1,7 +1,9 @@
 ---
 title: FieldTemplate.IncludeFullPath
-second_title: Aspose.Words for .NET API Referansı
-description: FieldTemplate mülk. Tam dosya yolu adının dahil edilip edilmeyeceğini alır veya ayarlar.
+linktitle: IncludeFullPath
+articleTitle: IncludeFullPath
+second_title: Aspose.Words for .NET
+description: FieldTemplate IncludeFullPath mülk. Tam dosya yolu adının dahil edilip edilmeyeceğini alır veya ayarlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fieldtemplate/includefullpath/
@@ -14,7 +16,7 @@ Tam dosya yolu adının dahil edilip edilmeyeceğini alır veya ayarlar.
 public bool IncludeFullPath { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgenin şablonunun yerel dosya sistemi konumunu görüntülemek için ŞABLON alanının nasıl kullanılacağını gösterir.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "Field.TEMPLATE.docx");
 ### Ayrıca bakınız
 
 * class [FieldTemplate](../)
-* ad alanı [Aspose.Words.Fields](../../fieldtemplate/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

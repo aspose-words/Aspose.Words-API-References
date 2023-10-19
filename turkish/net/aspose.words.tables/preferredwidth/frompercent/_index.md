@@ -1,7 +1,9 @@
 ---
 title: PreferredWidth.FromPercent
-second_title: Aspose.Words for .NET API Referansı
-description: PreferredWidth yöntem. Yüzde olarak belirtilen tercih edilen genişliği temsil eden yeni bir örneği döndüren bir oluşturma yöntemi.
+linktitle: FromPercent
+articleTitle: FromPercent
+second_title: Aspose.Words for .NET
+description: PreferredWidth FromPercent yöntem. Yüzde olarak belirtilen tercih edilen genişliği temsil eden yeni bir örneği döndüren bir oluşturma yöntemi C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.tables/preferredwidth/frompercent/
@@ -18,7 +20,7 @@ public static PreferredWidth FromPercent(double percent)
 | --- | --- | --- |
 | percent | Double | Değer 0 ila 100 arasında olmalıdır. |
 
-### Örnekler
+## Örnekler
 
 Bir tablonun sayfa genişliğinin %50'sine otomatik olarak sığacak şekilde nasıl ayarlanacağını gösterir.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCellsWithPreferredWidths.docx");
 ### Ayrıca bakınız
 
 * class [PreferredWidth](../)
-* ad alanı [Aspose.Words.Tables](../../preferredwidth/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

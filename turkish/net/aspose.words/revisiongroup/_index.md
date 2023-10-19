@@ -1,7 +1,9 @@
 ---
-title: Class RevisionGroup
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.RevisionGroup sınıf. Sıralı bir grup temsil ederRevision nesneler.
+title: RevisionGroup Class
+linktitle: RevisionGroup
+articleTitle: RevisionGroup
+second_title: Aspose.Words for .NET
+description: Aspose.Words.RevisionGroup sınıf. Sıralı bir grup temsil ederRevision nesneler C#'da.
 type: docs
 weight: 4780
 url: /tr/net/aspose.words/revisiongroup/
@@ -24,7 +26,7 @@ public class RevisionGroup
 | [RevisionType](../../aspose.words/revisiongroup/revisiontype/) { get; } | Bu gruba dahil olan revizyonların türünü alır. |
 | [Text](../../aspose.words/revisiongroup/text/) { get; } | Eklenen/silinen/taşınan metni veya biçim değişikliğinin açıklamasını döndürür. |
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki revizyon grubu hakkındaki bilgilerin nasıl yazdırılacağını gösterir.
 
@@ -44,5 +46,3 @@ foreach (RevisionGroup group in doc.Revisions.Groups)
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

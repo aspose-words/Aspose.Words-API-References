@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.Bold
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentBuilder mülk. Yazı tipi kalın olarak biçimlendirilmişse doğrudur.
+linktitle: Bold
+articleTitle: Bold
+second_title: Aspose.Words for .NET
+description: DocumentBuilder Bold mülk. Yazı tipi kalın olarak biçimlendirilmişse doğrudur C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/documentbuilder/bold/
@@ -14,7 +16,7 @@ Yazı tipi kalın olarak biçimlendirilmişse doğrudur.
 public bool Bold { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Adres-mektup birleştirme yerine belge oluşturucuyla MERGEFIELD'lerin verilerle nasıl doldurulacağını gösterir.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.FillMergeFields.docx");
 ### Ayrıca bakınız
 
 * class [DocumentBuilder](../)
-* ad alanı [Aspose.Words](../../documentbuilder/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

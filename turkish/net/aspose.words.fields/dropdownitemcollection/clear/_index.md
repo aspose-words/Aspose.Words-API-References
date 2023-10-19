@@ -1,7 +1,9 @@
 ---
 title: DropDownItemCollection.Clear
-second_title: Aspose.Words for .NET API Referansı
-description: DropDownItemCollection yöntem. Koleksiyondaki tüm öğeleri kaldırır.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words for .NET
+description: DropDownItemCollection Clear yöntem. Koleksiyondaki tüm öğeleri kaldırır C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.fields/dropdownitemcollection/clear/
@@ -14,7 +16,7 @@ Koleksiyondaki tüm öğeleri kaldırır.
 public void Clear()
 ```
 
-### Örnekler
+## Örnekler
 
 Açılan kutu alanının nasıl ekleneceğini ve öğe koleksiyonundaki öğelerin nasıl düzenleneceğini gösterir.
 
@@ -68,7 +70,5 @@ dropDownItems.Clear();
 ### Ayrıca bakınız
 
 * class [DropDownItemCollection](../)
-* ad alanı [Aspose.Words.Fields](../../dropdownitemcollection/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.FieldIndexFormat
-second_title: Aspose.Words for .NET API Referansı
-description: FieldOptions mülk. Bir değeri alır veya ayarlarFieldIndexFormat bu biçimlendirmeyi temsil ederFieldIndex belgedeki alanlar.
+linktitle: FieldIndexFormat
+articleTitle: FieldIndexFormat
+second_title: Aspose.Words for .NET
+description: FieldOptions FieldIndexFormat mülk. Bir değeri alır veya ayarlarFieldIndexFormat bu biçimlendirmeyi temsil ederFieldIndex belgedeki alanlar C#'da.
 type: docs
 weight: 90
 url: /tr/net/aspose.words.fields/fieldoptions/fieldindexformat/
@@ -14,7 +16,7 @@ Bir değeri alır veya ayarlar`FieldIndexFormat` bu, biçimlendirmeyi temsil ede
 public FieldIndexFormat FieldIndexFormat { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 FieldIndex alanlarının nasıl biçimlendirileceğini gösterir.
 
@@ -38,7 +40,5 @@ doc.Save(ArtifactsDir + "Field.SetFieldIndexFormat.docx");
 
 * enum [FieldIndexFormat](../../fieldindexformat/)
 * class [FieldOptions](../)
-* ad alanı [Aspose.Words.Fields](../../fieldoptions/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

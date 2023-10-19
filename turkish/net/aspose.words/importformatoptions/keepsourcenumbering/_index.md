@@ -1,7 +1,9 @@
 ---
 title: ImportFormatOptions.KeepSourceNumbering
-second_title: Aspose.Words for .NET API Referansı
-description: ImportFormatOptions mülk. Kaynak ve hedef belgelerde çakıştığında numaralandırmanın nasıl içe aktarılacağını belirten bir boole değeri alır veya ayarlar. Varsayılan değerYANLIŞ .
+linktitle: KeepSourceNumbering
+articleTitle: KeepSourceNumbering
+second_title: Aspose.Words for .NET
+description: ImportFormatOptions KeepSourceNumbering mülk. Kaynak ve hedef belgelerde çakıştığında numaralandırmanın nasıl içe aktarılacağını belirten bir boole değeri alır veya ayarlar. Varsayılan değerYANLIŞ  C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words/importformatoptions/keepsourcenumbering/
@@ -14,7 +16,7 @@ Kaynak ve hedef belgelerde çakıştığında numaralandırmanın nasıl içe ak
 public bool KeepSourceNumbering { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Aynı liste tanımı tanımlayıcısına sahip listeleri içe aktarırken çakışmanın nasıl çözüleceğini gösterir.
 
@@ -108,7 +110,5 @@ else
 ### Ayrıca bakınız
 
 * class [ImportFormatOptions](../)
-* ad alanı [Aspose.Words](../../importformatoptions/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

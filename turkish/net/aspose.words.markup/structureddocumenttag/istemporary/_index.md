@@ -1,20 +1,22 @@
 ---
 title: StructuredDocumentTag.IsTemporary
-second_title: Aspose.Words for .NET API Referansı
-description: StructuredDocumentTag mülk. Bunun olup olmadığını belirtir SDT içeriği değiştirildiğinde WordProcessingML belgesinden kaldırılacaktır.
+linktitle: IsTemporary
+articleTitle: IsTemporary
+second_title: Aspose.Words for .NET
+description: StructuredDocumentTag IsTemporary mülk. Bunun olup olmadığını belirtirSDT içeriği değiştirildiğinde WordProcessingML belgesinden kaldırılacaktır C#'da.
 type: docs
 weight: 160
 url: /tr/net/aspose.words.markup/structureddocumenttag/istemporary/
 ---
 ## StructuredDocumentTag.IsTemporary property
 
-Bunun olup olmadığını belirtir **SDT** içeriği değiştirildiğinde WordProcessingML belgesinden kaldırılacaktır.
+Bunun olup olmadığını belirtir**SDT** içeriği değiştirildiğinde WordProcessingML belgesinden kaldırılacaktır.
 
 ```csharp
 public bool IsTemporary { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Tek kullanımlık kontrollerin nasıl yapılacağını gösterir.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.IsTemporary.docx");
 ### Ayrıca bakınız
 
 * class [StructuredDocumentTag](../)
-* ad alanı [Aspose.Words.Markup](../../structureddocumenttag/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldDde.InsertAsText
-second_title: Aspose.Words for .NET API Referansı
-description: FieldDde mülk. Bağlı nesnenin salt metin biçiminde eklenip eklenmeyeceğini alır veya ayarlar.
+linktitle: InsertAsText
+articleTitle: InsertAsText
+second_title: Aspose.Words for .NET
+description: FieldDde InsertAsText mülk. Bağlı nesnenin salt metin biçiminde eklenip eklenmeyeceğini alır veya ayarlar C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.fields/fielddde/insertastext/
@@ -14,7 +16,7 @@ Bağlı nesnenin salt metin biçiminde eklenip eklenmeyeceğini alır veya ayarl
 public bool InsertAsText { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Yerel dosya sistemindeki diğer belgelere bağlanmak ve içeriklerini görüntülemek için çeşitli alan türlerinin nasıl kullanılacağını gösterir.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### Ayrıca bakınız
 
 * class [FieldDde](../)
-* ad alanı [Aspose.Words.Fields](../../fielddde/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class CustomXmlPropertyCollection
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Markup.CustomXmlPropertyCollection sınıf. Özel XML niteliklerinin veya akıllı etiket özelliklerinin bir koleksiyonunu temsil eder.
+title: CustomXmlPropertyCollection Class
+linktitle: CustomXmlPropertyCollection
+articleTitle: CustomXmlPropertyCollection
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Markup.CustomXmlPropertyCollection sınıf. Özel XML niteliklerinin veya akıllı etiket özelliklerinin bir koleksiyonunu temsil eder C#'da.
 type: docs
 weight: 3950
 url: /tr/net/aspose.words.markup/customxmlpropertycollection/
@@ -27,19 +29,19 @@ public class CustomXmlPropertyCollection : IEnumerable<CustomXmlProperty>
 
 | İsim | Tanım |
 | --- | --- |
-| [Add](../../aspose.words.markup/customxmlpropertycollection/add/)(CustomXmlProperty) | Koleksiyona bir özellik ekler. |
+| [Add](../../aspose.words.markup/customxmlpropertycollection/add/)(*[CustomXmlProperty](../customxmlproperty/)*) | Koleksiyona bir özellik ekler. |
 | [Clear](../../aspose.words.markup/customxmlpropertycollection/clear/)() | Koleksiyondaki tüm öğeleri kaldırır. |
-| [Contains](../../aspose.words.markup/customxmlpropertycollection/contains/)(string) | Koleksiyonun verilen adda bir özellik içerip içermediğini belirler. |
+| [Contains](../../aspose.words.markup/customxmlpropertycollection/contains/)(*string*) | Koleksiyonun verilen adda bir özellik içerip içermediğini belirler. |
 | [GetEnumerator](../../aspose.words.markup/customxmlpropertycollection/getenumerator/)() | Koleksiyondaki tüm öğeler üzerinde yineleme yapmak için kullanılabilecek bir numaralandırıcı nesnesini döndürür. |
-| [IndexOfKey](../../aspose.words.markup/customxmlpropertycollection/indexofkey/)(string) | Koleksiyonda belirtilen özelliğin sıfır tabanlı dizinini döndürür. |
-| [Remove](../../aspose.words.markup/customxmlpropertycollection/remove/)(string) | Belirtilen ada sahip bir özelliği koleksiyondan kaldırır. |
-| [RemoveAt](../../aspose.words.markup/customxmlpropertycollection/removeat/)(int) | Belirtilen dizindeki bir özelliği kaldırır. |
+| [IndexOfKey](../../aspose.words.markup/customxmlpropertycollection/indexofkey/)(*string*) | Koleksiyonda belirtilen özelliğin sıfır tabanlı dizinini döndürür. |
+| [Remove](../../aspose.words.markup/customxmlpropertycollection/remove/)(*string*) | Belirtilen ada sahip bir özelliği koleksiyondan kaldırır. |
+| [RemoveAt](../../aspose.words.markup/customxmlpropertycollection/removeat/)(*int*) | Belirtilen dizindeki bir özelliği kaldırır. |
 
-### Notlar
+## Notlar
 
 Öğeler[`CustomXmlProperty`](../customxmlproperty/) nesneler.
 
-### Örnekler
+## Örnekler
 
 Akıllı etiketler hakkında ayrıntılı bilgi almak için akıllı etiket özellikleriyle nasıl çalışılacağını gösterir.
 
@@ -98,5 +100,3 @@ Assert.AreEqual(0, properties.Count);
 * class [CustomXmlProperty](../customxmlproperty/)
 * ad alanı [Aspose.Words.Markup](../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../)
-
-

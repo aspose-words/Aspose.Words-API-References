@@ -1,7 +1,9 @@
 ---
 title: UserInformation.Initials
-second_title: Aspose.Words for .NET API Referansı
-description: UserInformation mülk. Kullanıcının baş harflerini alır veya ayarlar.
+linktitle: Initials
+articleTitle: Initials
+second_title: Aspose.Words for .NET
+description: UserInformation Initials mülk. Kullanıcının baş harflerini alır veya ayarlar C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.fields/userinformation/initials/
@@ -14,7 +16,7 @@ Kullanıcının baş harflerini alır veya ayarlar.
 public string Initials { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Kullanıcı ayrıntılarının nasıl ayarlanacağını ve alanları kullanarak bunların nasıl görüntüleneceğini gösterir.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "FieldOptions.CurrentUser.docx");
 ### Ayrıca bakınız
 
 * class [UserInformation](../)
-* ad alanı [Aspose.Words.Fields](../../userinformation/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

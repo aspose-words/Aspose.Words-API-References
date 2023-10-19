@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportCidUrlsForMhtmlResources
-second_title: Aspose.Words for .NET API Referansı
-description: HtmlSaveOptions mülk. MHTML belgelerinde bulunan kaynaklara resimler yazı tipleri CSS başvurmak için CID İçerik Kimliği URLlerinin kullanılıp kullanılmayacağını belirtir. Varsayılan değerYANLIŞ .
+linktitle: ExportCidUrlsForMhtmlResources
+articleTitle: ExportCidUrlsForMhtmlResources
+second_title: Aspose.Words for .NET
+description: HtmlSaveOptions ExportCidUrlsForMhtmlResources mülk. MHTML belgelerinde bulunan kaynaklara resimler yazı tipleri CSS başvurmak için CID İçerik Kimliği URLlerinin kullanılıp kullanılmayacağını belirtir. Varsayılan değerYANLIŞ  C#'da.
 type: docs
 weight: 110
 url: /tr/net/aspose.words.saving/htmlsaveoptions/exportcidurlsformhtmlresources/
@@ -14,7 +16,7 @@ MHTML belgelerinde bulunan kaynaklara (resimler, yazı tipleri, CSS) başvurmak 
 public bool ExportCidUrlsForMhtmlResources { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu seçenek yalnızca MHTML'ye kaydedilen belgeleri etkiler.
 
@@ -24,7 +26,7 @@ Bu seçenek, kaynak dosyalarına yapılan referansların CID (Content-ID) URL'le
 
 Teorik olarak, iki referanslama yöntemi arasında hiçbir fark olmamalıdır ve her ikisi de herhangi bir tarayıcıda veya posta aracısında fine çalışmalıdır. Ancak uygulamada bazı aracılar kaynakları dosya adına göre getirmede başarısız olur. Eğer tarayıcınız veya posta aracınız bir MTHML belgesinde yer alan kaynakları yüklemeyi reddediyorsa (resimleri göstermiyor veya CSS stillerini yüklemiyorsa), belgeyi CID URL'leri ile dışa aktarmayı deneyin.
 
-### Örnekler
+## Örnekler
 
 Çıkış MHTML belgeleri için içerik kimliklerinin nasıl etkinleştirileceğini gösterir.
 
@@ -64,7 +66,5 @@ else
 ### Ayrıca bakınız
 
 * class [HtmlSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../htmlsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

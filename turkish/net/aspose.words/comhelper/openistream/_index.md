@@ -1,7 +1,9 @@
 ---
 title: ComHelper.OpenIStream
-second_title: Aspose.Words for .NET API Referansı
-description: ComHelper yöntem. COM uygulamasının bir dosya yüklemesine izin verir.Document bir IStream nesnesinden.
+linktitle: OpenIStream
+articleTitle: OpenIStream
+second_title: Aspose.Words for .NET
+description: ComHelper OpenIStream yöntem. COM uygulamasının bir dosya yüklemesine izin verir.Document bir IStream nesnesinden C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/comhelper/openistream/
@@ -26,7 +28,5 @@ A[`Document`](../../document/)Bir Word belgesini temsil eden nesne.
 
 * class [Document](../../document/)
 * class [ComHelper](../)
-* ad alanı [Aspose.Words](../../comhelper/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

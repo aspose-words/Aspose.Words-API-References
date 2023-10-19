@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.BehindText
-second_title: Aspose.Words for .NET API Referansı
-description: ShapeBase mülk. Şeklin metnin altında mı yoksa üstünde mi olacağını belirtir.
+linktitle: BehindText
+articleTitle: BehindText
+second_title: Aspose.Words for .NET
+description: ShapeBase BehindText mülk. Şeklin metnin altında mı yoksa üstünde mi olacağını belirtir C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.drawing/shapebase/behindtext/
@@ -14,13 +16,13 @@ url: /tr/net/aspose.words.drawing/shapebase/behindtext/
 public bool BehindText { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Yalnızca üst düzey şekiller için etkilidir.
 
 Varsayılan değer:`YANLIŞ`.
 
-### Örnekler
+## Örnekler
 
 Sayfanın ortasına kayan bir görüntünün nasıl ekleneceğini gösterir.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPageCenter.docx");
 ### Ayrıca bakınız
 
 * class [ShapeBase](../)
-* ad alanı [Aspose.Words.Drawing](../../shapebase/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

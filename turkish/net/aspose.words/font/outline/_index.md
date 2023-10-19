@@ -1,7 +1,9 @@
 ---
 title: Font.Outline
-second_title: Aspose.Words for .NET API Referansı
-description: Font mülk. Yazı tipi anahat olarak biçimlendirilmişse doğrudur.
+linktitle: Outline
+articleTitle: Outline
+second_title: Aspose.Words for .NET
+description: Font Outline mülk. Yazı tipi anahat olarak biçimlendirilmişse doğrudur C#'da.
 type: docs
 weight: 290
 url: /tr/net/aspose.words/font/outline/
@@ -14,7 +16,7 @@ Yazı tipi anahat olarak biçimlendirilmişse doğrudur.
 public bool Outline { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Anahat olarak biçimlendirilmiş bir metin dizisinin nasıl oluşturulacağını gösterir.
 
@@ -36,7 +38,5 @@ doc.Save(ArtifactsDir + "Font.Outline.docx");
 ### Ayrıca bakınız
 
 * class [Font](../)
-* ad alanı [Aspose.Words](../../font/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

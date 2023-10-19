@@ -1,7 +1,9 @@
 ---
-title: FieldBuilder.FieldBuilder
-second_title: Aspose.Words for .NET API Referansı
-description: FieldBuilder inşaatçı. Bir örneğini başlatırFieldBuilder class.
+title: FieldBuilder
+linktitle: FieldBuilder
+articleTitle: FieldBuilder
+second_title: Aspose.Words for .NET
+description: FieldBuilder inşaatçı. Bir örneğini başlatırFieldBuilder class C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fieldbuilder/fieldbuilder/
@@ -18,7 +20,7 @@ public FieldBuilder(FieldType fieldType)
 | --- | --- | --- |
 | fieldType | FieldType | İnşa edilecek alanın türü. |
 
-### Örnekler
+## Örnekler
 
 Alan oluşturucuyu kullanarak alanın nasıl oluşturulacağını ve ekleneceğini gösterir.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "Field.CreateWithFieldBuilder.docx");
 
 * enum [FieldType](../../fieldtype/)
 * class [FieldBuilder](../)
-* ad alanı [Aspose.Words.Fields](../../fieldbuilder/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

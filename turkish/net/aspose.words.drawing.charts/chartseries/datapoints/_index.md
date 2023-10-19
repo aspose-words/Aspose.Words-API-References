@@ -1,7 +1,9 @@
 ---
 title: ChartSeries.DataPoints
-second_title: Aspose.Words for .NET API Referansı
-description: ChartSeries mülk. Bu serideki tüm veri noktaları için biçimlendirme nesnelerinin bir koleksiyonunu döndürür.
+linktitle: DataPoints
+articleTitle: DataPoints
+second_title: Aspose.Words for .NET
+description: ChartSeries DataPoints mülk. Bu serideki tüm veri noktaları için biçimlendirme nesnelerinin bir koleksiyonunu döndürür C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.drawing.charts/chartseries/datapoints/
@@ -14,7 +16,7 @@ Bu serideki tüm veri noktaları için biçimlendirme nesnelerinin bir koleksiyo
 public ChartDataPointCollection DataPoints { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Çizgi grafikteki veri noktalarına etiketlerin nasıl uygulanacağını gösterir.
 
@@ -93,7 +95,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 
 * class [ChartDataPointCollection](../../chartdatapointcollection/)
 * class [ChartSeries](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartseries/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

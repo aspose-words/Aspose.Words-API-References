@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.AdjustWithEffects
-second_title: Aspose.Words for .NET API Referansı
-description: ShapeBase yöntem. Efekt kapsamının kaynak dikdörtgen değerlerine eklenir ve son dikdörtgeni döndürür.
+linktitle: AdjustWithEffects
+articleTitle: AdjustWithEffects
+second_title: Aspose.Words for .NET
+description: ShapeBase AdjustWithEffects yöntem. Efekt kapsamının kaynak dikdörtgen değerlerine eklenir ve son dikdörtgeni döndürür C#'da.
 type: docs
 weight: 620
 url: /tr/net/aspose.words.drawing/shapebase/adjustwitheffects/
@@ -14,7 +16,7 @@ Efekt kapsamının kaynak dikdörtgen değerlerine eklenir ve son dikdörtgeni d
 public RectangleF AdjustWithEffects(RectangleF source)
 ```
 
-### Örnekler
+## Örnekler
 
 Bir şeklin sınırlarının şekil efektlerinden nasıl etkilendiğinin nasıl kontrol edileceğini gösterir.
 
@@ -83,7 +85,5 @@ Assert.AreEqual(279, shape.BoundsWithEffects.Height);
 ### Ayrıca bakınız
 
 * class [ShapeBase](../)
-* ad alanı [Aspose.Words.Drawing](../../shapebase/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FormField.EntryMacro
-second_title: Aspose.Words for .NET API Referansı
-description: FormField mülk. Form alanı için bir giriş makrosu adı döndürür veya ayarlar.
+linktitle: EntryMacro
+articleTitle: EntryMacro
+second_title: Aspose.Words for .NET
+description: FormField EntryMacro mülk. Form alanı için bir giriş makrosu adı döndürür veya ayarlar C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words.fields/formfield/entrymacro/
@@ -14,13 +16,13 @@ Form alanı için bir giriş makrosu adı döndürür veya ayarlar.
 public string EntryMacro { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Giriş makrosu, Microsoft Word'de form alanı odak noktasına geldiğinde çalışır.
 
 Microsoft Word, en fazla 32 karakterden oluşan dizelere izin verir.
 
-### Örnekler
+## Örnekler
 
 Bir belgeye farklı türde form alanlarının nasıl eklendiğini ve bunların bir belge ziyaretçi uygulaması kullanılarak nasıl işlendiğini gösterir.
 
@@ -154,7 +156,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Ayrıca bakınız
 
 * class [FormField](../)
-* ad alanı [Aspose.Words.Fields](../../formfield/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

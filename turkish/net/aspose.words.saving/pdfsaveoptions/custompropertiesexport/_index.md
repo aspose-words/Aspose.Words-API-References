@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.CustomPropertiesExport
-second_title: Aspose.Words for .NET API Referansı
-description: PdfSaveOptions mülk. Yolu belirleyen bir değer alır veya ayarlarCustomDocumentProperties PDF dosyasına aktarılır.
+linktitle: CustomPropertiesExport
+articleTitle: CustomPropertiesExport
+second_title: Aspose.Words for .NET
+description: PdfSaveOptions CustomPropertiesExport mülk. Yolu belirleyen bir değer alır veya ayarlarCustomDocumentProperties PDF dosyasına aktarılır C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.saving/pdfsaveoptions/custompropertiesexport/
@@ -14,7 +16,7 @@ Yolu belirleyen bir değer alır veya ayarlar[`CustomDocumentProperties`](../../
 public PdfCustomPropertiesExport CustomPropertiesExport { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:None.
 
@@ -22,7 +24,7 @@ Metadata PDF/A'ya kaydederken değer desteklenmez. Standard bunun yerine PDF/A-1
 
 Standard PDF 2.0. 'ye kaydederken değer desteklenmiyorMetadata onun yerine kullanılacaktır.
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi PDF'ye dönüştürürken özel özelliklerin nasıl dışa aktarılacağını gösterir.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.CustomPropertiesExport.pdf", options);
 
 * enum [PdfCustomPropertiesExport](../../pdfcustompropertiesexport/)
 * class [PdfSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../pdfsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

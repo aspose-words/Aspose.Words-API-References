@@ -1,7 +1,9 @@
 ---
 title: ImportFormatOptions.SmartStyleBehavior
-second_title: Aspose.Words for .NET API Referansı
-description: ImportFormatOptions mülk. Kaynak ve hedef belgelerde eşit adlara sahip olduklarında stillerin nasıl içe aktarılacağını belirten bir boole değeri alır veya ayarlar . Varsayılan değerYANLIŞ .
+linktitle: SmartStyleBehavior
+articleTitle: SmartStyleBehavior
+second_title: Aspose.Words for .NET
+description: ImportFormatOptions SmartStyleBehavior mülk. Kaynak ve hedef belgelerde eşit adlara sahip olduklarında stillerin nasıl içe aktarılacağını belirten bir boole değeri alır veya ayarlar . Varsayılan değerYANLIŞ  C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words/importformatoptions/smartstylebehavior/
@@ -14,13 +16,13 @@ Kaynak ve hedef belgelerde eşit adlara sahip olduklarında stillerin nasıl iç
 public bool SmartStyleBehavior { get; set; }
 ```
 
-### Notlar
+## Notlar
 
-Bu seçenek olduğunda **etkinleştirilmiş** kaynak stili a hedef belgesinin içindeki doğrudan niteliklere genişletilecektir, eğerKeepSourceFormatting içe aktarma modu kullanılır.
+Bu seçenek olduğunda**etkinleştirilmiş** kaynak stili a hedef belgesinin içindeki doğrudan niteliklere genişletilecektir, eğerKeepSourceFormatting içe aktarma modu kullanılır.
 
-Bu seçenek olduğunda **engelli**kaynak stili yalnızca numaralandırılmışsa genişletilecektir. Listeler dahil, Existing hedef nitelikleri geçersiz kılınmayacak.
+Bu seçenek olduğunda**engelli**kaynak stili yalnızca numaralandırılmışsa genişletilecektir. Listeler dahil, Existing hedef nitelikleri geçersiz kılınmayacak.
 
-### Örnekler
+## Örnekler
 
 Belgeleri eklerken yinelenen stillerin nasıl çözüleceğini gösterir.
 
@@ -55,7 +57,5 @@ dstDoc.Save(ArtifactsDir + "DocumentBuilder.SmartStyleBehavior.docx");
 ### Ayrıca bakınız
 
 * class [ImportFormatOptions](../)
-* ad alanı [Aspose.Words](../../importformatoptions/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

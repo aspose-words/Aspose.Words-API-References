@@ -1,7 +1,9 @@
 ---
 title: CustomPartCollection.Item
-second_title: Aspose.Words for .NET API Referansı
-description: CustomPartCollection mülk. Belirtilen dizindeki bir öğeyi alır veya ayarlar.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words for .NET
+description: CustomPartCollection Item mülk. Belirtilen dizindeki bir öğeyi alır veya ayarlar C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.markup/custompartcollection/item/
@@ -18,7 +20,7 @@ public CustomPart this[int index] { get; set; }
 | --- | --- |
 | index | Öğenin sıfır tabanlı dizini. |
 
-### Örnekler
+## Örnekler
 
 Bir belgenin rastgele özel parça koleksiyonuna nasıl erişileceğini gösterir.
 
@@ -63,7 +65,5 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 
 * class [CustomPart](../../custompart/)
 * class [CustomPartCollection](../)
-* ad alanı [Aspose.Words.Markup](../../custompartcollection/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

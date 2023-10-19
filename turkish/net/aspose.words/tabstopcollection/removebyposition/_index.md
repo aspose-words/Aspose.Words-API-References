@@ -1,7 +1,9 @@
 ---
 title: TabStopCollection.RemoveByPosition
-second_title: Aspose.Words for .NET API Referansı
-description: TabStopCollection yöntem. Koleksiyondan belirtilen konumdaki sekme durağını kaldırır.
+linktitle: RemoveByPosition
+articleTitle: RemoveByPosition
+second_title: Aspose.Words for .NET
+description: TabStopCollection RemoveByPosition yöntem. Koleksiyondan belirtilen konumdaki sekme durağını kaldırır C#'da.
 type: docs
 weight: 120
 url: /tr/net/aspose.words/tabstopcollection/removebyposition/
@@ -18,7 +20,7 @@ public void RemoveByPosition(double position)
 | --- | --- | --- |
 | position | Double | Kaldırılacak sekme durağının konumu (nokta cinsinden). |
 
-### Örnekler
+## Örnekler
 
 İçindekiler ile ilgili paragraflarda sağ sekme durağının konumunun nasıl değiştirileceğini gösterir.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Styles.ChangeTocsTabStops.docx");
 ### Ayrıca bakınız
 
 * class [TabStopCollection](../)
-* ad alanı [Aspose.Words](../../tabstopcollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

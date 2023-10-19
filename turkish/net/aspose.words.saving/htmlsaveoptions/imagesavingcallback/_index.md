@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ImageSavingCallback
-second_title: Aspose.Words for .NET API Referansı
-description: HtmlSaveOptions mülk. Bir belge HTML MHTML veya EPUBa kaydedildiğinde görüntülerin nasıl kaydedileceğini kontrol etmenizi sağlar.
+linktitle: ImageSavingCallback
+articleTitle: ImageSavingCallback
+second_title: Aspose.Words for .NET
+description: HtmlSaveOptions ImageSavingCallback mülk. Bir belge HTML MHTML veya EPUBa kaydedildiğinde görüntülerin nasıl kaydedileceğini kontrol etmenizi sağlar C#'da.
 type: docs
 weight: 350
 url: /tr/net/aspose.words.saving/htmlsaveoptions/imagesavingcallback/
@@ -14,7 +16,7 @@ Bir belge HTML, MHTML veya EPUB'a kaydedildiğinde görüntülerin nasıl kayded
 public IImageSavingCallback ImageSavingCallback { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgenin nasıl parçalara ayrılacağını ve kaydedileceğini gösterir.
 
@@ -132,7 +134,5 @@ public class SavedImageRename : IImageSavingCallback
 
 * interface [IImageSavingCallback](../../iimagesavingcallback/)
 * class [HtmlSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../htmlsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

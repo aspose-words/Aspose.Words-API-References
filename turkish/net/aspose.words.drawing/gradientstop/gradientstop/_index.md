@@ -1,12 +1,14 @@
 ---
-title: GradientStop.GradientStop
-second_title: Aspose.Words for .NET API Referansı
-description: GradientStop inşaatçı. Yeni bir örneğini başlatırGradientStop class.
+title: GradientStop
+linktitle: GradientStop
+articleTitle: GradientStop
+second_title: Aspose.Words for .NET
+description: GradientStop inşaatçı. Yeni bir örneğini başlatırGradientStop class C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.drawing/gradientstop/gradientstop/
 ---
-## GradientStop(Color, double) {#constructor}
+## GradientStop(*Color, double*) {#constructor}
 
 Yeni bir örneğini başlatır[`GradientStop`](../) class.
 
@@ -19,7 +21,7 @@ public GradientStop(Color color, double position)
 | color | Color | Degrade durağının rengini temsil eder. |
 | position | Double | 0,0 ila 1,0 aralığında yüzde olarak ifade edilen eğim içindeki bir durağın konumunu temsil eder. |
 
-### Örnekler
+## Örnekler
 
 Degrade dolgusuna degrade duraklarının nasıl ekleneceğini gösterir.
 
@@ -72,12 +74,12 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 ### Ayrıca bakınız
 
 * class [GradientStop](../)
-* ad alanı [Aspose.Words.Drawing](../../gradientstop/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## GradientStop(Color, double, double) {#constructor_1}
+## GradientStop(*Color, double, double*) {#constructor_1}
 
 Yeni bir örneğini başlatır[`GradientStop`](../) class.
 
@@ -91,7 +93,7 @@ public GradientStop(Color color, double position, double transparency)
 | position | Double | 0,0 ila 1,0 aralığında yüzde olarak ifade edilen eğim içindeki bir durağın konumunu temsil eder. |
 | transparency | Double | 0,0 ila 1,0 aralığında yüzde olarak ifade edilen degrade içindeki bir durağın şeffaflığını temsil eder. |
 
-### Örnekler
+## Örnekler
 
 Degrade dolgusuna degrade duraklarının nasıl ekleneceğini gösterir.
 
@@ -144,7 +146,5 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 ### Ayrıca bakınız
 
 * class [GradientStop](../)
-* ad alanı [Aspose.Words.Drawing](../../gradientstop/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: MailMerge.UnconditionalMergeFieldsAndRegions
-second_title: Aspose.Words for .NET API Referansı
-description: MailMerge mülk. Ana IF alanının durumuna bakılmaksızın birleştirme alanları ve birleştirme bölgelerinin birleştirilip birleştirilmeyeceğini belirten bir değer alır veya ayarlar.
+linktitle: UnconditionalMergeFieldsAndRegions
+articleTitle: UnconditionalMergeFieldsAndRegions
+second_title: Aspose.Words for .NET
+description: MailMerge UnconditionalMergeFieldsAndRegions mülk. Ana IF alanının durumuna bakılmaksızın birleştirme alanları ve birleştirme bölgelerinin birleştirilip birleştirilmeyeceğini belirten bir değer alır veya ayarlar C#'da.
 type: docs
 weight: 140
 url: /tr/net/aspose.words.mailmerging/mailmerge/unconditionalmergefieldsandregions/
@@ -14,11 +16,11 @@ Ana IF alanının durumuna bakılmaksızın birleştirme alanları ve birleştir
 public bool UnconditionalMergeFieldsAndRegions { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:`YANLIŞ` .
 
-### Örnekler
+## Örnekler
 
 Üst IF alanının durumuna bakılmaksızın alanların veya bölgelerin nasıl birleştirileceğini gösterir.
 
@@ -57,7 +59,5 @@ Assert.AreEqual(
 ### Ayrıca bakınız
 
 * class [MailMerge](../)
-* ad alanı [Aspose.Words.MailMerging](../../mailmerge/)
+* ad alanı [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * toplantı [Aspose.Words](../../../)
-
-

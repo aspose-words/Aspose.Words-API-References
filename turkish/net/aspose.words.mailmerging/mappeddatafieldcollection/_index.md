@@ -1,7 +1,9 @@
 ---
-title: Class MappedDataFieldCollection
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.MailMerging.MappedDataFieldCollection sınıf. Veri kaynağınızdaki alan adları ile belgedeki adresmektup birleştirme alanlarının adları arasında otomatik olarak eşleme yapılmasına olanak tanır.
+title: MappedDataFieldCollection Class
+linktitle: MappedDataFieldCollection
+articleTitle: MappedDataFieldCollection
+second_title: Aspose.Words for .NET
+description: Aspose.Words.MailMerging.MappedDataFieldCollection sınıf. Veri kaynağınızdaki alan adları ile belgedeki adresmektup birleştirme alanlarının adları arasında otomatik olarak eşleme yapılmasına olanak tanır C#'da.
 type: docs
 weight: 3870
 url: /tr/net/aspose.words.mailmerging/mappeddatafieldcollection/
@@ -27,18 +29,18 @@ public class MappedDataFieldCollection : IEnumerable<KeyValuePair<string, string
 
 | İsim | Tanım |
 | --- | --- |
-| [Add](../../aspose.words.mailmerging/mappeddatafieldcollection/add/)(string, string) | Yeni bir alan eşlemesi ekler. |
+| [Add](../../aspose.words.mailmerging/mappeddatafieldcollection/add/)(*string, string*) | Yeni bir alan eşlemesi ekler. |
 | [Clear](../../aspose.words.mailmerging/mappeddatafieldcollection/clear/)() | Koleksiyondaki tüm öğeleri kaldırır. |
-| [ContainsKey](../../aspose.words.mailmerging/mappeddatafieldcollection/containskey/)(string) | Koleksiyonda belgede belirtilen alandan bir eşlemenin mevcut olup olmadığını belirler. |
-| [ContainsValue](../../aspose.words.mailmerging/mappeddatafieldcollection/containsvalue/)(string) | Koleksiyonda veri kaynağındaki belirtilen alandan bir eşlemenin mevcut olup olmadığını belirler. |
+| [ContainsKey](../../aspose.words.mailmerging/mappeddatafieldcollection/containskey/)(*string*) | Koleksiyonda belgede belirtilen alandan bir eşlemenin mevcut olup olmadığını belirler. |
+| [ContainsValue](../../aspose.words.mailmerging/mappeddatafieldcollection/containsvalue/)(*string*) | Koleksiyonda veri kaynağındaki belirtilen alandan bir eşlemenin mevcut olup olmadığını belirler. |
 | [GetEnumerator](../../aspose.words.mailmerging/mappeddatafieldcollection/getenumerator/)() | Koleksiyondaki tüm öğeler üzerinde yineleme yapmak için kullanılabilecek bir sözlük numaralandırıcı nesnesini döndürür. |
-| [Remove](../../aspose.words.mailmerging/mappeddatafieldcollection/remove/)(string) | Alan eşlemesini kaldırır. |
+| [Remove](../../aspose.words.mailmerging/mappeddatafieldcollection/remove/)(*string*) | Alan eşlemesini kaldırır. |
 
-### Notlar
+## Notlar
 
 Bu, dize anahtarlarının dize değerlerine toplanması olarak uygulanır. Anahtarlar, belgedeki adres-mektup birleştirme alanlarının adlarıdır ve değerler , veri kaynağınızdaki alanların adlarıdır.
 
-### Örnekler
+## Örnekler
 
 Adres-mektup birleştirme sırasında verilerin aralarında aktarılması için veri sütunlarının ve MERGEFIELD'lerin farklı adlarla nasıl eşleneceğini gösterir.
 
@@ -124,5 +126,3 @@ private static DataTable CreateSourceTableMappedDataFields()
 
 * ad alanı [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * toplantı [Aspose.Words](../../)
-
-

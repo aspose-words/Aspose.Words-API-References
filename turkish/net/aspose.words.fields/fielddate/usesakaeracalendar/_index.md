@@ -1,7 +1,9 @@
 ---
 title: FieldDate.UseSakaEraCalendar
-second_title: Aspose.Words for .NET API Referansı
-description: FieldDate mülk. Saka Dönemi takviminin kullanılıp kullanılmayacağını alır veya ayarlar.
+linktitle: UseSakaEraCalendar
+articleTitle: UseSakaEraCalendar
+second_title: Aspose.Words for .NET
+description: FieldDate UseSakaEraCalendar mülk. Saka Dönemi takviminin kullanılıp kullanılmayacağını alır veya ayarlar C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.fields/fielddate/usesakaeracalendar/
@@ -14,7 +16,7 @@ Saka Dönemi takviminin kullanılıp kullanılmayacağını alır veya ayarlar.
 public bool UseSakaEraCalendar { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Farklı takvim türlerine göre tarihleri görüntülemek için TARİH alanlarının nasıl kullanılacağını gösterir.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Field.DATE.docx");
 ### Ayrıca bakınız
 
 * class [FieldDate](../)
-* ad alanı [Aspose.Words.Fields](../../fielddate/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

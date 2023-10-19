@@ -1,7 +1,9 @@
 ---
 title: WebExtension.IsFrozen
-second_title: Aspose.Words for .NET API Referansı
-description: WebExtension mülk. Kullanıcının web uzantısıyla etkileşimde bulunup bulunamayacağını belirtir.
+linktitle: IsFrozen
+articleTitle: IsFrozen
+second_title: Aspose.Words for .NET
+description: WebExtension IsFrozen mülk. Kullanıcının web uzantısıyla etkileşimde bulunup bulunamayacağını belirtir C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.webextensions/webextension/isfrozen/
@@ -14,7 +16,7 @@ Kullanıcının web uzantısıyla etkileşimde bulunup bulunamayacağını belir
 public bool IsFrozen { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgeye nasıl web uzantısı ekleneceğini gösterir.
 
@@ -59,7 +61,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### Ayrıca bakınız
 
 * class [WebExtension](../)
-* ad alanı [Aspose.Words.WebExtensions](../../webextension/)
+* ad alanı [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * toplantı [Aspose.Words](../../../)
-
-

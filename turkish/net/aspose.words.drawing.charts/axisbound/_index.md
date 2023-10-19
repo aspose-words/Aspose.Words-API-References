@@ -1,7 +1,9 @@
 ---
-title: Class AxisBound
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.Charts.AxisBound sınıf. Eksen değerlerinin minimum veya maksimum sınırını temsil eder.
+title: AxisBound Class
+linktitle: AxisBound
+articleTitle: AxisBound
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.Charts.AxisBound sınıf. Eksen değerlerinin minimum veya maksimum sınırını temsil eder C#'da.
 type: docs
 weight: 510
 url: /tr/net/aspose.words.drawing.charts/axisbound/
@@ -21,8 +23,8 @@ public sealed class AxisBound
 | İsim | Tanım |
 | --- | --- |
 | [AxisBound](axisbound/#constructor)() | Eksen sınırının bir kelime işlemci uygulaması tarafından otomatik olarak belirlenmesi gerektiğini belirten yeni bir örnek oluşturur. |
-| [AxisBound](axisbound/#constructor_2)(DateTime) | Datetime değeri olarak temsil edilen bir eksen sınırı oluşturur. |
-| [AxisBound](axisbound/#constructor_1)(double) | Sayı olarak temsil edilen bir eksen sınırı oluşturur. |
+| [AxisBound](axisbound/#constructor_2)(*DateTime*) | Datetime değeri olarak temsil edilen bir eksen sınırı oluşturur. |
+| [AxisBound](axisbound/#constructor_1)(*double*) | Sayı olarak temsil edilen bir eksen sınırı oluşturur. |
 
 ## Özellikleri
 
@@ -36,17 +38,17 @@ public sealed class AxisBound
 
 | İsim | Tanım |
 | --- | --- |
-| override [Equals](../../aspose.words.drawing.charts/axisbound/equals/)(object) | Belirtilen nesnenin değer olarak geçerli nesneye eşit olup olmadığını belirler. |
+| override [Equals](../../aspose.words.drawing.charts/axisbound/equals/)(*object*) | Belirtilen nesnenin değer olarak geçerli nesneye eşit olup olmadığını belirler. |
 | override [GetHashCode](../../aspose.words.drawing.charts/axisbound/gethashcode/)() | Bu tür için karma işlevi görevi görür. |
 | override [ToString](../../aspose.words.drawing.charts/axisbound/tostring/)() | Bu nesnenin değerini görüntüleyen kullanıcı dostu bir dize döndürür. |
 
-### Notlar
+## Notlar
 
 Sınır; sayısal, tarihsaat veya özel bir "otomatik" değer olarak belirtilebilir.
 
 Bu sınıfın örnekleri değişmezdir.
 
-### Örnekler
+## Örnekler
 
 Tarih/saat değerleriyle grafiğin nasıl ekleneceğini gösterir.
 
@@ -101,5 +103,3 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 
 * ad alanı [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../)
-
-

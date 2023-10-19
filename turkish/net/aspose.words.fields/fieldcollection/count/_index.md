@@ -1,7 +1,9 @@
 ---
 title: FieldCollection.Count
-second_title: Aspose.Words for .NET API Referansı
-description: FieldCollection mülk. Koleksiyondaki alanların sayısını döndürür.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words for .NET
+description: FieldCollection Count mülk. Koleksiyondaki alanların sayısını döndürür C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fieldcollection/count/
@@ -14,7 +16,7 @@ Koleksiyondaki alanların sayısını döndürür.
 public int Count { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Alan koleksiyonundan alanların nasıl kaldırılacağını gösterir.
 
@@ -154,7 +156,5 @@ public class FieldVisitor : DocumentVisitor
 ### Ayrıca bakınız
 
 * class [FieldCollection](../)
-* ad alanı [Aspose.Words.Fields](../../fieldcollection/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

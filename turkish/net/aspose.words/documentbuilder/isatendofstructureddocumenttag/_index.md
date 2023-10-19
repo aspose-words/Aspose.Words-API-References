@@ -1,20 +1,22 @@
 ---
 title: DocumentBuilder.IsAtEndOfStructuredDocumentTag
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentBuilder mülk. İadeler doğru imleç yapılandırılmış bir belge etiketinin sonundaysa.
+linktitle: IsAtEndOfStructuredDocumentTag
+articleTitle: IsAtEndOfStructuredDocumentTag
+second_title: Aspose.Words for .NET
+description: DocumentBuilder IsAtEndOfStructuredDocumentTag mülk. İadelerdoğru imleç yapılandırılmış bir belge etiketinin sonundaysa C#'da.
 type: docs
 weight: 120
 url: /tr/net/aspose.words/documentbuilder/isatendofstructureddocumenttag/
 ---
 ## DocumentBuilder.IsAtEndOfStructuredDocumentTag property
 
-İadeler **doğru** imleç yapılandırılmış bir belge etiketinin sonundaysa.
+İadeler**doğru** imleç yapılandırılmış bir belge etiketinin sonundaysa.
 
 ```csharp
 public bool IsAtEndOfStructuredDocumentTag { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 DocumentBuilder imlecinin yapılandırılmış bir belge etiketi içinde nasıl hareket ettirileceğini gösterir.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "Document.MoveToStructuredDocumentTag.docx");
 ### Ayrıca bakınız
 
 * class [DocumentBuilder](../)
-* ad alanı [Aspose.Words](../../documentbuilder/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

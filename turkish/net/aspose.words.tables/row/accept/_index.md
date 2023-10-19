@@ -1,7 +1,9 @@
 ---
 title: Row.Accept
-second_title: Aspose.Words for .NET API Referansı
-description: Row yöntem. Ziyaretçi kabul eder.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words for .NET
+description: Row Accept yöntem. Ziyaretçi kabul eder C#'da.
 type: docs
 weight: 120
 url: /tr/net/aspose.words.tables/row/accept/
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 Tüm düğümler ziyaret edilmişse doğrudur; yanlış ise[`DocumentVisitor`](../../../aspose.words/documentvisitor/) tüm düğümleri ziyaret etmeden işlemi durdurdu.
 
-### Notlar
+## Notlar
 
 Bu düğümü ve tüm alt öğelerini numaralandırır. Her düğüm kendisine karşılık gelen bir yöntemi çağırır.[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
@@ -30,7 +32,7 @@ Daha fazla bilgi için Ziyaretçi tasarım desenine bakın.
 
 Çağrılar[`VisitRowStart`](../../../aspose.words/documentvisitor/visitrowstart/) , ardından arar[`Accept`](../../../aspose.words/node/accept/) bölümün tüm alt düğümleri için ve çağrılar[`VisitRowEnd`](../../../aspose.words/documentvisitor/visitrowend/) sonunda.
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki her tablonun düğüm yapısının nasıl yazdırılacağını gösterir.
 
@@ -194,7 +196,5 @@ public class TableStructurePrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * class [Row](../)
-* ad alanı [Aspose.Words.Tables](../../row/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

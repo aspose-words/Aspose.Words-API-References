@@ -1,7 +1,9 @@
 ---
 title: Bookmark.Remove
-second_title: Aspose.Words for .NET API Referansı
-description: Bookmark yöntem. Yer imini belgeden kaldırır. Yer işaretinin içindeki metni kaldırmaz.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words for .NET
+description: Bookmark Remove yöntem. Yer imini belgeden kaldırır. Yer işaretinin içindeki metni kaldırmaz C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words/bookmark/remove/
@@ -14,7 +16,7 @@ Yer imini belgeden kaldırır. Yer işaretinin içindeki metni kaldırmaz.
 public void Remove()
 ```
 
-### Örnekler
+## Örnekler
 
 Yer işaretlerinin bir belgeden nasıl kaldırılacağını gösterir.
 
@@ -75,7 +77,5 @@ Assert.AreEqual("Text inside MyBookmark_1.\r" +
 ### Ayrıca bakınız
 
 * class [Bookmark](../)
-* ad alanı [Aspose.Words](../../bookmark/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

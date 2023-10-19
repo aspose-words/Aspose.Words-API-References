@@ -1,7 +1,9 @@
 ---
-title: Class DocumentSavingArgs
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Saving.DocumentSavingArgs sınıf. Bir argüman aktarıldıNotify .
+title: DocumentSavingArgs Class
+linktitle: DocumentSavingArgs
+articleTitle: DocumentSavingArgs
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Saving.DocumentSavingArgs sınıf. Bir argüman aktarıldıNotify  C#'da.
 type: docs
 weight: 4950
 url: /tr/net/aspose.words.saving/documentsavingargs/
@@ -26,5 +28,3 @@ public sealed class DocumentSavingArgs
 
 * ad alanı [Aspose.Words.Saving](../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../)
-
-

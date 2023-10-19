@@ -1,7 +1,9 @@
 ---
 title: PdfDigitalSignatureDetails.Location
-second_title: Aspose.Words for .NET API Referansı
-description: PdfDigitalSignatureDetails mülk. İmzalamanın konumunu alır veya ayarlar.
+linktitle: Location
+articleTitle: Location
+second_title: Aspose.Words for .NET
+description: PdfDigitalSignatureDetails Location mülk. İmzalamanın konumunu alır veya ayarlar C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.saving/pdfdigitalsignaturedetails/location/
@@ -14,11 +16,11 @@ url: /tr/net/aspose.words.saving/pdfdigitalsignaturedetails/location/
 public string Location { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:`hükümsüz` .
 
-### Örnekler
+## Örnekler
 
 Oluşturulan bir PDF belgesinin nasıl imzalanacağını gösterir.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 ### Ayrıca bakınız
 
 * class [PdfDigitalSignatureDetails](../)
-* ad alanı [Aspose.Words.Saving](../../pdfdigitalsignaturedetails/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

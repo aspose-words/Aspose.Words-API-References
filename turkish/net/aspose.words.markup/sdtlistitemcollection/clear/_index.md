@@ -1,7 +1,9 @@
 ---
 title: SdtListItemCollection.Clear
-second_title: Aspose.Words for .NET API Referansı
-description: SdtListItemCollection yöntem. Bu koleksiyondaki tüm öğeleri temizler.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words for .NET
+description: SdtListItemCollection Clear yöntem. Bu koleksiyondaki tüm öğeleri temizler C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.markup/sdtlistitemcollection/clear/
@@ -14,7 +16,7 @@ Bu koleksiyondaki tüm öğeleri temizler.
 public void Clear()
 ```
 
-### Örnekler
+## Örnekler
 
 Açılır liste yapılandırılmış belge etiketleriyle nasıl çalışılacağını gösterir.
 
@@ -71,7 +73,5 @@ Assert.AreEqual(0, listItems.Count);
 ### Ayrıca bakınız
 
 * class [SdtListItemCollection](../)
-* ad alanı [Aspose.Words.Markup](../../sdtlistitemcollection/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

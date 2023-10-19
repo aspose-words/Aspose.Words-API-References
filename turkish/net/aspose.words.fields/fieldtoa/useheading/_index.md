@@ -1,7 +1,9 @@
 ---
 title: FieldToa.UseHeading
-second_title: Aspose.Words for .NET API Referansı
-description: FieldToa mülk. Yetki tablosundaki girdilere ilişkin kategori başlığının eklenip eklenmeyeceğini alır veya ayarlar.
+linktitle: UseHeading
+articleTitle: UseHeading
+second_title: Aspose.Words for .NET
+description: FieldToa UseHeading mülk. Yetki tablosundaki girdilere ilişkin kategori başlığının eklenip eklenmeyeceğini alır veya ayarlar C#'da.
 type: docs
 weight: 100
 url: /tr/net/aspose.words.fields/fieldtoa/useheading/
@@ -14,7 +16,7 @@ Yetki tablosundaki girdilere ilişkin kategori başlığının eklenip eklenmeye
 public bool UseHeading { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 TOA ve TA alanlarını kullanarak bir yetki tablosunun nasıl oluşturulacağını ve özelleştirileceğini gösterir.
 
@@ -137,7 +139,5 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 ### Ayrıca bakınız
 
 * class [FieldToa](../)
-* ad alanı [Aspose.Words.Fields](../../fieldtoa/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

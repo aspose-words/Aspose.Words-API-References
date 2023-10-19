@@ -1,7 +1,9 @@
 ---
-title: Enum PdfCustomPropertiesExport
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Saving.PdfCustomPropertiesExport Sıralama. Yolu belirtirCustomDocumentProperties PDF dosyasına aktarılır.
+title: PdfCustomPropertiesExport Enum
+linktitle: PdfCustomPropertiesExport
+articleTitle: PdfCustomPropertiesExport
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Saving.PdfCustomPropertiesExport Sıralama. Yolu belirtirCustomDocumentProperties PDF dosyasına aktarılır C#'da.
 type: docs
 weight: 5420
 url: /tr/net/aspose.words.saving/pdfcustompropertiesexport/
@@ -22,7 +24,7 @@ public enum PdfCustomPropertiesExport
 | Standard | `1` | Özel özellikler /Info sözlüğünde girişler olarak dışa aktarılır. |
 | Metadata | `2` | Özel özellikler Meta Verilerdir. |
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi PDF'ye dönüştürürken özel özelliklerin nasıl dışa aktarılacağını gösterir.
 
@@ -50,5 +52,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.CustomPropertiesExport.pdf", options);
 
 * ad alanı [Aspose.Words.Saving](../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../)
-
-

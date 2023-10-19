@@ -1,7 +1,9 @@
 ---
 title: FormField.HelpText
-second_title: Aspose.Words for .NET API Referansı
-description: FormField mülk. Odak form alanı olduğunda ve kullanıcı F1. tuşuna bastığında mesaj kutusunda görüntülenen metni döndürür veya ayarlar.
+linktitle: HelpText
+articleTitle: HelpText
+second_title: Aspose.Words for .NET
+description: FormField HelpText mülk. Odak form alanı olduğunda ve kullanıcı F1. tuşuna bastığında mesaj kutusunda görüntülenen metni döndürür veya ayarlar C#'da.
 type: docs
 weight: 100
 url: /tr/net/aspose.words.fields/formfield/helptext/
@@ -14,13 +16,13 @@ Odak form alanı olduğunda ve kullanıcı F1. tuşuna bastığında mesaj kutus
 public string HelpText { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Eğer[`OwnHelp`](../ownhelp/) özellik şu şekilde ayarlandı:`doğru` ,`HelpText` metin dizesi değerini belirtir. If[`OwnHelp`](../ownhelp/) ayarlandı`YANLIŞ` ,`HelpText`form alanı için help metnini içeren Otomatik Metin girişinin adını belirtir.
 
 Microsoft Word, en fazla 255 karakterden oluşan dizelere izin verir.
 
-### Örnekler
+## Örnekler
 
 Bir belgeye farklı türde form alanlarının nasıl eklendiğini ve bunların bir belge ziyaretçi uygulaması kullanılarak nasıl işlendiğini gösterir.
 
@@ -154,7 +156,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Ayrıca bakınız
 
 * class [FormField](../)
-* ad alanı [Aspose.Words.Fields](../../formfield/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

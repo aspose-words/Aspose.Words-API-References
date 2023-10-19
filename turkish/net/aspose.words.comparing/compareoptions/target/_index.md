@@ -1,7 +1,9 @@
 ---
 title: CompareOptions.Target
-second_title: Aspose.Words for .NET API Referansı
-description: CompareOptions mülk. Karşılaştırma sırasında hangi belgenin hedef olarak kullanılacağını belirtir.
+linktitle: Target
+articleTitle: Target
+second_title: Aspose.Words for .NET
+description: CompareOptions Target mülk. Karşılaştırma sırasında hangi belgenin hedef olarak kullanılacağını belirtir C#'da.
 type: docs
 weight: 130
 url: /tr/net/aspose.words.comparing/compareoptions/target/
@@ -14,7 +16,7 @@ Karşılaştırma sırasında hangi belgenin hedef olarak kullanılacağını be
 public ComparisonTargetType Target { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Karşılaştırma yaparken belirli belge öğesi türlerinin nasıl filtreleneceğini gösterir.
 
@@ -89,7 +91,5 @@ docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
 
 * enum [ComparisonTargetType](../../comparisontargettype/)
 * class [CompareOptions](../)
-* ad alanı [Aspose.Words.Comparing](../../compareoptions/)
+* ad alanı [Aspose.Words.Comparing](../../../aspose.words.comparing/)
 * toplantı [Aspose.Words](../../../)
-
-

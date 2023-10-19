@@ -1,7 +1,9 @@
 ---
-title: Class Revision
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Revision sınıf. Bir belge düğümünde veya stilinde bir revizyonu izlenen değişiklik temsil eder. KullanımRevisionType bu revizyonun türünü kontrol etmek için.
+title: Revision Class
+linktitle: Revision
+articleTitle: Revision
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Revision sınıf. Bir belge düğümünde veya stilinde bir revizyonu izlenen değişiklik temsil eder. KullanımRevisionType bu revizyonun türünü kontrol etmek için C#'da.
 type: docs
 weight: 4760
 url: /tr/net/aspose.words/revision/
@@ -34,7 +36,7 @@ public class Revision
 | [Accept](../../aspose.words/revision/accept/)() | Bu düzeltmeyi kabul eder. |
 | [Reject](../../aspose.words/revision/reject/)() | Bu düzeltmeyi reddet. |
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki düzeltmelerle nasıl çalışılacağını gösterir.
 
@@ -118,5 +120,3 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

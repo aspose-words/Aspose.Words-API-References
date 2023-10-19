@@ -1,7 +1,9 @@
 ---
 title: Story.DeleteShapes
-second_title: Aspose.Words for .NET API Referansı
-description: Story yöntem. Bu hikayenin metnindeki tüm şekilleri siler.
+linktitle: DeleteShapes
+articleTitle: DeleteShapes
+second_title: Aspose.Words for .NET
+description: Story DeleteShapes yöntem. Bu hikayenin metnindeki tüm şekilleri siler C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words/story/deleteshapes/
@@ -14,7 +16,7 @@ Bu hikayenin metnindeki tüm şekilleri siler.
 public void DeleteShapes()
 ```
 
-### Örnekler
+## Örnekler
 
 Bir düğümdeki tüm şekillerin nasıl kaldırılacağını gösterir.
 
@@ -38,7 +40,5 @@ Assert.AreEqual(0, doc.GetChildNodes(NodeType.Shape, true).Count);
 ### Ayrıca bakınız
 
 * class [Story](../)
-* ad alanı [Aspose.Words](../../story/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

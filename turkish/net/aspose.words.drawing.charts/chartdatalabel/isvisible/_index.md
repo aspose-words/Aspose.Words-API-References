@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.IsVisible
-second_title: Aspose.Words for .NET API Referansı
-description: ChartDataLabel mülk. İadelerdoğru bu veri etiketinde görüntülenecek bir şey varsa.
+linktitle: IsVisible
+articleTitle: IsVisible
+second_title: Aspose.Words for .NET
+description: ChartDataLabel IsVisible mülk. İadelerdoğru bu veri etiketinde görüntülenecek bir şey varsa C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.drawing.charts/chartdatalabel/isvisible/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.drawing.charts/chartdatalabel/isvisible/
 public bool IsVisible { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Çizgi grafikteki veri noktalarına etiketlerin nasıl uygulanacağını gösterir.
 
@@ -92,7 +94,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 ### Ayrıca bakınız
 
 * class [ChartDataLabel](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

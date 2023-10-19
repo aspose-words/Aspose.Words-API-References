@@ -1,7 +1,9 @@
 ---
 title: DocumentBase.FontInfos
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentBase mülk. Bu belgede kullanılan yazı tiplerinin özelliklerine erişim sağlar.
+linktitle: FontInfos
+articleTitle: FontInfos
+second_title: Aspose.Words for .NET
+description: DocumentBase FontInfos mülk. Bu belgede kullanılan yazı tiplerinin özelliklerine erişim sağlar C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/documentbase/fontinfos/
@@ -14,13 +16,13 @@ Bu belgede kullanılan yazı tiplerinin özelliklerine erişim sağlar.
 public FontInfoCollection FontInfos { get; }
 ```
 
-### Notlar
+## Notlar
 
 Bu yazı tipi tanımları koleksiyonu belgedeki haliyle yüklenmiştir. Yazı tipi tanımları bazı belgelerde isteğe bağlı, eksik veya eksik olabilir.
 
 Belgede belirli bir yazı tipinin kullanıldığını tespit etmek için bu koleksiyona güvenmeyin. Bu koleksiyonu yalnızca belgede kullanılabilecek yazı tipleri hakkında bilgi almak için kullanmalısınız.
 
-### Örnekler
+## Örnekler
 
 Bir belgede hangi yazı tiplerinin mevcut olduğuna ilişkin ayrıntıların nasıl yazdırılacağını gösterir.
 
@@ -59,7 +61,5 @@ else
 
 * class [FontInfoCollection](../../../aspose.words.fonts/fontinfocollection/)
 * class [DocumentBase](../)
-* ad alanı [Aspose.Words](../../documentbase/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

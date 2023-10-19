@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.BoundsWithEffects
-second_title: Aspose.Words for .NET API Referansı
-description: ShapeBase mülk. Çizim efektleri uygulandıktan sonra bu şekil nesnesinin sahip olduğu son boyutu alır. Değer nokta cinsinden ölçülür.
+linktitle: BoundsWithEffects
+articleTitle: BoundsWithEffects
+second_title: Aspose.Words for .NET
+description: ShapeBase BoundsWithEffects mülk. Çizim efektleri uygulandıktan sonra bu şekil nesnesinin sahip olduğu son boyutu alır. Değer nokta cinsinden ölçülür C#'da.
 type: docs
 weight: 90
 url: /tr/net/aspose.words.drawing/shapebase/boundswitheffects/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.drawing/shapebase/boundswitheffects/
 public RectangleF BoundsWithEffects { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir şeklin sınırlarının şekil efektlerinden nasıl etkilendiğinin nasıl kontrol edileceğini gösterir.
 
@@ -83,7 +85,5 @@ Assert.AreEqual(279, shape.BoundsWithEffects.Height);
 ### Ayrıca bakınız
 
 * class [ShapeBase](../)
-* ad alanı [Aspose.Words.Drawing](../../shapebase/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

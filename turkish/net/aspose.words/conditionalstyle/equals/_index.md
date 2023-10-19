@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyle.Equals
-second_title: Aspose.Words for .NET API Referansı
-description: ConditionalStyle yöntem. Bu koşullu stili belirtilen nesneyle karşılaştırır.
+linktitle: Equals
+articleTitle: Equals
+second_title: Aspose.Words for .NET
+description: ConditionalStyle Equals yöntem. Bu koşullu stili belirtilen nesneyle karşılaştırır C#'da.
 type: docs
 weight: 110
 url: /tr/net/aspose.words/conditionalstyle/equals/
@@ -17,7 +19,5 @@ public override bool Equals(object obj)
 ### Ayrıca bakınız
 
 * class [ConditionalStyle](../)
-* ad alanı [Aspose.Words](../../conditionalstyle/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

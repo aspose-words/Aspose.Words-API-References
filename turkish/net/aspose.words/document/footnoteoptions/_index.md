@@ -1,7 +1,9 @@
 ---
 title: Document.FootnoteOptions
-second_title: Aspose.Words for .NET API Referansı
-description: Document mülk. Bu belgedeki dipnotların numaralandırılmasını ve konumlandırılmasını kontrol eden seçenekler sunar.
+linktitle: FootnoteOptions
+articleTitle: FootnoteOptions
+second_title: Aspose.Words for .NET
+description: Document FootnoteOptions mülk. Bu belgedeki dipnotların numaralandırılmasını ve konumlandırılmasını kontrol eden seçenekler sunar C#'da.
 type: docs
 weight: 150
 url: /tr/net/aspose.words/document/footnoteoptions/
@@ -14,7 +16,7 @@ Bu belgedeki dipnotların numaralandırılmasını ve konumlandırılmasını ko
 public FootnoteOptions FootnoteOptions { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Belgenin dipnotlarını toplayıp görüntüleyeceği farklı bir yerin nasıl seçileceğini gösterir.
 
@@ -186,7 +188,5 @@ doc.Save(ArtifactsDir + "InlineStory.NumberingRule.docx");
 
 * class [FootnoteOptions](../../../aspose.words.notes/footnoteoptions/)
 * class [Document](../)
-* ad alanı [Aspose.Words](../../document/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

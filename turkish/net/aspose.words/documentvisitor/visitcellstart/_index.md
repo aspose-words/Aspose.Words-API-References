@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitCellStart
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentVisitor yöntem. Bir tablo hücresinin numaralandırılması başladığında çağrılır.
+linktitle: VisitCellStart
+articleTitle: VisitCellStart
+second_title: Aspose.Words for .NET
+description: DocumentVisitor VisitCellStart yöntem. Bir tablo hücresinin numaralandırılması başladığında çağrılır C#'da.
 type: docs
 weight: 90
 url: /tr/net/aspose.words/documentvisitor/visitcellstart/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitCellStart(Cell cell)
 
 A[`VisitorAction`](../../visitoraction/) numaralandırmaya nasıl devam edileceğini belirten değer.
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki her tablonun düğüm yapısının nasıl yazdırılacağını gösterir.
 
@@ -187,7 +189,5 @@ public class TableStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [Cell](../../../aspose.words.tables/cell/)
 * class [DocumentVisitor](../)
-* ad alanı [Aspose.Words](../../documentvisitor/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

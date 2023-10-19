@@ -1,7 +1,9 @@
 ---
 title: PageSetup.Gutter
-second_title: Aspose.Words for .NET API Referansı
-description: PageSetup mülk. Belge ciltleme için kenar boşluğuna eklenen ekstra alan miktarını alır veya ayarlar.
+linktitle: Gutter
+articleTitle: Gutter
+second_title: Aspose.Words for .NET
+description: PageSetup Gutter mülk. Belge ciltleme için kenar boşluğuna eklenen ekstra alan miktarını alır veya ayarlar C#'da.
 type: docs
 weight: 160
 url: /tr/net/aspose.words/pagesetup/gutter/
@@ -14,7 +16,7 @@ Belge ciltleme için kenar boşluğuna eklenen ekstra alan miktarını alır vey
 public double Gutter { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Kitap katlaması olarak yazdırılabilecek bir belgenin nasıl yapılandırılacağını gösterir.
 
@@ -79,7 +81,5 @@ doc.Save(ArtifactsDir + "PageSetup.Gutter.docx");
 ### Ayrıca bakınız
 
 * class [PageSetup](../)
-* ad alanı [Aspose.Words](../../pagesetup/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

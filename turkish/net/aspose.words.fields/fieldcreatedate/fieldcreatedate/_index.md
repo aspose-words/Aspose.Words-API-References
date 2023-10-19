@@ -1,7 +1,9 @@
 ---
-title: FieldCreateDate.FieldCreateDate
-second_title: Aspose.Words for .NET API Referansı
-description: FieldCreateDate inşaatçı. Default_Constructor
+title: FieldCreateDate
+linktitle: FieldCreateDate
+articleTitle: FieldCreateDate
+second_title: Aspose.Words for .NET
+description: FieldCreateDate inşaatçı. Default_Constructor C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fieldcreatedate/fieldcreatedate/
@@ -17,7 +19,5 @@ public FieldCreateDate()
 ### Ayrıca bakınız
 
 * class [FieldCreateDate](../)
-* ad alanı [Aspose.Words.Fields](../../fieldcreatedate/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

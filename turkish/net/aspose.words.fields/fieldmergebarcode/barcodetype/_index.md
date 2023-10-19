@@ -1,7 +1,9 @@
 ---
 title: FieldMergeBarcode.BarcodeType
-second_title: Aspose.Words for .NET API Referansı
-description: FieldMergeBarcode mülk. Barkod türünü QR vb. alır veya ayarlar.
+linktitle: BarcodeType
+articleTitle: BarcodeType
+second_title: Aspose.Words for .NET
+description: FieldMergeBarcode BarcodeType mülk. Barkod türünü QR vb. alır veya ayarlar C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.fields/fieldmergebarcode/barcodetype/
@@ -14,7 +16,7 @@ Barkod türünü (QR vb.) alır veya ayarlar.
 public string BarcodeType { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 ITF14 barkodlarında adres-mektup birleştirmenin nasıl gerçekleştirileceğini gösterir.
 
@@ -180,7 +182,5 @@ doc.Save(ArtifactsDir + "Field.MERGEBARCODE.QR.docx");
 ### Ayrıca bakınız
 
 * class [FieldMergeBarcode](../)
-* ad alanı [Aspose.Words.Fields](../../fieldmergebarcode/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

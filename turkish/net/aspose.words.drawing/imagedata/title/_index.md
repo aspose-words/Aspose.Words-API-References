@@ -1,7 +1,9 @@
 ---
 title: ImageData.Title
-second_title: Aspose.Words for .NET API Referansı
-description: ImageData mülk. Bir görüntünün başlığını tanımlar.
+linktitle: Title
+articleTitle: Title
+second_title: Aspose.Words for .NET
+description: ImageData Title mülk. Bir görüntünün başlığını tanımlar C#'da.
 type: docs
 weight: 180
 url: /tr/net/aspose.words.drawing/imagedata/title/
@@ -14,11 +16,11 @@ Bir görüntünün başlığını tanımlar.
 public string Title { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer boş bir dizedir.
 
-### Örnekler
+## Örnekler
 
 Bir şeklin görüntü verilerinin nasıl düzenleneceğini gösterir.
 
@@ -81,7 +83,5 @@ dstDoc.Save(ArtifactsDir + "Drawing.ImageData.docx");
 ### Ayrıca bakınız
 
 * class [ImageData](../)
-* ad alanı [Aspose.Words.Drawing](../../imagedata/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.MajorTickMark
-second_title: Aspose.Words for .NET API Referansı
-description: ChartAxis mülk. Ana onay işaretlerini döndürür veya ayarlar.
+linktitle: MajorTickMark
+articleTitle: MajorTickMark
+second_title: Aspose.Words for .NET
+description: ChartAxis MajorTickMark mülk. Ana onay işaretlerini döndürür veya ayarlar C#'da.
 type: docs
 weight: 110
 url: /tr/net/aspose.words.drawing.charts/chartaxis/majortickmark/
@@ -14,7 +16,7 @@ Ana onay işaretlerini döndürür veya ayarlar.
 public AxisTickMark MajorTickMark { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Grafiğin nasıl ekleneceğini ve eksenlerinin görünümünün nasıl değiştirileceğini gösterir.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 
 * enum [AxisTickMark](../../axistickmark/)
 * class [ChartAxis](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

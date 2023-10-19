@@ -1,7 +1,9 @@
 ---
 title: CssSavingArgs.KeepCssStreamOpen
-second_title: Aspose.Words for .NET API Referansı
-description: CssSavingArgs mülk. Aspose.Wordsün CSS bilgilerini kaydettikten sonra akışı açık mı tutması yoksa kapatması mı gerektiğini belirtir.
+linktitle: KeepCssStreamOpen
+articleTitle: KeepCssStreamOpen
+second_title: Aspose.Words for .NET
+description: CssSavingArgs KeepCssStreamOpen mülk. Aspose.Wordsün CSS bilgilerini kaydettikten sonra akışı açık mı tutması yoksa kapatması mı gerektiğini belirtir C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.saving/csssavingargs/keepcssstreamopen/
@@ -14,11 +16,11 @@ Aspose.Words'ün CSS bilgilerini kaydettikten sonra akışı açık mı tutması
 public bool KeepCssStreamOpen { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan:`YANLIŞ` ve Aspose.Words, sağladığınız akışını kapatacaktır.[`CssStream`](../cssstream/) içine bir CSS bilgisi yazdıktan sonra özellik. Belirt`doğru` Akışı açık tutmak için.
 
-### Örnekler
+## Örnekler
 
 Bir HTML dönüşümünün oluşturduğu CSS stil sayfalarıyla nasıl çalışılacağını gösterir.
 
@@ -79,7 +81,5 @@ private class CustomCssSavingCallback : ICssSavingCallback
 ### Ayrıca bakınız
 
 * class [CssSavingArgs](../)
-* ad alanı [Aspose.Words.Saving](../../csssavingargs/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

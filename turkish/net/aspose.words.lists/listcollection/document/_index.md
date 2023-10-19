@@ -1,7 +1,9 @@
 ---
 title: ListCollection.Document
-second_title: Aspose.Words for .NET API Referansı
-description: ListCollection mülk. Sahip belgesini alır.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words for .NET
+description: ListCollection Document mülk. Sahip belgesini alır C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.lists/listcollection/document/
@@ -14,7 +16,7 @@ Sahip belgesini alır.
 public DocumentBase Document { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Listelerin sahip belge özelliklerinin nasıl doğrulanacağını gösterir.
 
@@ -37,7 +39,5 @@ Console.WriteLine("List is the same by ListId: " + (lists.GetListByListId(1).Equ
 
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * class [ListCollection](../)
-* ad alanı [Aspose.Words.Lists](../../listcollection/)
+* ad alanı [Aspose.Words.Lists](../../../aspose.words.lists/)
 * toplantı [Aspose.Words](../../../)
-
-

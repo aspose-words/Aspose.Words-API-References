@@ -1,7 +1,9 @@
 ---
 title: ImportFormatOptions.IgnoreTextBoxes
-second_title: Aspose.Words for .NET API Referansı
-description: ImportFormatOptions mülk. Metin kutusu içeriğinin kaynak biçimlendirmesinin göz ardı edildiğini belirten bir boole değeri alır veya ayarlar ifKeepSourceFormatting modu kullanılır. Varsayılan değerdoğru .
+linktitle: IgnoreTextBoxes
+articleTitle: IgnoreTextBoxes
+second_title: Aspose.Words for .NET
+description: ImportFormatOptions IgnoreTextBoxes mülk. Metin kutusu içeriğinin kaynak biçimlendirmesinin göz ardı edildiğini belirten bir boole değeri alır veya ayarlar ifKeepSourceFormatting modu kullanılır. Varsayılan değerdoğru  C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words/importformatoptions/ignoretextboxes/
@@ -14,7 +16,7 @@ Metin kutusu içeriğinin kaynak biçimlendirmesinin göz ardı edildiğini beli
 public bool IgnoreTextBoxes { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Belge eklerken metin kutusu formatının nasıl yönetileceğini gösterir.
 
@@ -63,7 +65,5 @@ dstDoc.Save(ArtifactsDir + "DocumentBuilder.IgnoreTextBoxes.docx");
 ### Ayrıca bakınız
 
 * class [ImportFormatOptions](../)
-* ad alanı [Aspose.Words](../../importformatoptions/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

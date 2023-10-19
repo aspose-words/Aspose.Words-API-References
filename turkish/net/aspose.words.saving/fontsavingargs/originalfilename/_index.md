@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.OriginalFileName
-second_title: Aspose.Words for .NET API Referansı
-description: FontSavingArgs mülk. Uzantısıyla orijinal yazı tipi dosyasının adını alır.
+linktitle: OriginalFileName
+articleTitle: OriginalFileName
+second_title: Aspose.Words for .NET
+description: FontSavingArgs OriginalFileName mülk. Uzantısıyla orijinal yazı tipi dosyasının adını alır C#'da.
 type: docs
 weight: 100
 url: /tr/net/aspose.words.saving/fontsavingargs/originalfilename/
@@ -14,11 +16,11 @@ Uzantısıyla orijinal yazı tipi dosyasının adını alır.
 public string OriginalFileName { get; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özellik, biliniyorsa geçerli yazı tipinin orijinal dosya adını içerir. Aksi takdirde boş bir dize olabilir.
 
-### Örnekler
+## Örnekler
 
 HTML'ye kaydederken yazı tiplerini dışa aktarmak için özel mantığın nasıl tanımlanacağını gösterir.
 
@@ -78,7 +80,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### Ayrıca bakınız
 
 * class [FontSavingArgs](../)
-* ad alanı [Aspose.Words.Saving](../../fontsavingargs/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.ShowOriginalRevision
-second_title: Aspose.Words for .NET API Referansı
-description: RevisionOptions mülk. Revize edilmiş metin yerine orijinal metnin gösterilip gösterilmeyeceğini belirlemeye izin verir. Varsayılan değerYANLIŞ .
+linktitle: ShowOriginalRevision
+articleTitle: ShowOriginalRevision
+second_title: Aspose.Words for .NET
+description: RevisionOptions ShowOriginalRevision mülk. Revize edilmiş metin yerine orijinal metnin gösterilip gösterilmeyeceğini belirlemeye izin verir. Varsayılan değerYANLIŞ  C#'da.
 type: docs
 weight: 170
 url: /tr/net/aspose.words.layout/revisionoptions/showoriginalrevision/
@@ -14,7 +16,7 @@ Revize edilmiş metin yerine orijinal metnin gösterilip gösterilmeyeceğini be
 public bool ShowOriginalRevision { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Revizyonların görünümünün nasıl değiştirileceğini gösterir.
 
@@ -65,7 +67,5 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 ### Ayrıca bakınız
 
 * class [RevisionOptions](../)
-* ad alanı [Aspose.Words.Layout](../../revisionoptions/)
+* ad alanı [Aspose.Words.Layout](../../../aspose.words.layout/)
 * toplantı [Aspose.Words](../../../)
-
-

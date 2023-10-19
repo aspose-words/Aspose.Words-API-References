@@ -1,7 +1,9 @@
 ---
 title: ListLevelCollection.GetEnumerator
-second_title: Aspose.Words for .NET API Referansı
-description: ListLevelCollection yöntem. Bu listedeki düzeyleri numaralandıracak numaralandırıcı nesnesini alır.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words for .NET
+description: ListLevelCollection GetEnumerator yöntem. Bu listedeki düzeyleri numaralandıracak numaralandırıcı nesnesini alır C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.lists/listlevelcollection/getenumerator/
@@ -14,7 +16,7 @@ Bu listedeki düzeyleri numaralandıracak numaralandırıcı nesnesini alır.
 public IEnumerator<ListLevel> GetEnumerator()
 ```
 
-### Örnekler
+## Örnekler
 
 Liste etiketlerini özelleştirmenin gelişmiş yollarını gösterir.
 
@@ -76,7 +78,5 @@ doc.Save(ArtifactsDir + "Lists.CreateListRestartAfterHigher.docx");
 
 * class [ListLevel](../../listlevel/)
 * class [ListLevelCollection](../)
-* ad alanı [Aspose.Words.Lists](../../listlevelcollection/)
+* ad alanı [Aspose.Words.Lists](../../../aspose.words.lists/)
 * toplantı [Aspose.Words](../../../)
-
-

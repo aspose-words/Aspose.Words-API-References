@@ -1,7 +1,9 @@
 ---
 title: UserInformation.Address
-second_title: Aspose.Words for .NET API Referansı
-description: UserInformation mülk. Kullanıcının posta adresini alır veya ayarlar.
+linktitle: Address
+articleTitle: Address
+second_title: Aspose.Words for .NET
+description: UserInformation Address mülk. Kullanıcının posta adresini alır veya ayarlar C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fields/userinformation/address/
@@ -14,7 +16,7 @@ Kullanıcının posta adresini alır veya ayarlar.
 public string Address { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Kullanıcı ayrıntılarının nasıl ayarlanacağını ve alanları kullanarak bunların nasıl görüntüleneceğini gösterir.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "FieldOptions.CurrentUser.docx");
 ### Ayrıca bakınız
 
 * class [UserInformation](../)
-* ad alanı [Aspose.Words.Fields](../../userinformation/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Font.NameFarEast
-second_title: Aspose.Words for .NET API Referansı
-description: Font mülk. Doğu Asya yazı tipi adını döndürür veya ayarlar.
+linktitle: NameFarEast
+articleTitle: NameFarEast
+second_title: Aspose.Words for .NET
+description: Font NameFarEast mülk. Doğu Asya yazı tipi adını döndürür veya ayarlar C#'da.
 type: docs
 weight: 260
 url: /tr/net/aspose.words/font/namefareast/
@@ -14,7 +16,7 @@ Doğu Asya yazı tipi adını döndürür veya ayarlar.
 public string NameFarEast { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Uzak Doğu dilinde metnin nasıl ekleneceğini ve biçimlendirileceğini gösterir.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "Font.FarEast.docx");
 
 * property [Name](../name/)
 * class [Font](../)
-* ad alanı [Aspose.Words](../../font/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

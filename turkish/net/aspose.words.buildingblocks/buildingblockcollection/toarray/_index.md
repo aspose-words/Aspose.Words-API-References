@@ -1,7 +1,9 @@
 ---
 title: BuildingBlockCollection.ToArray
-second_title: Aspose.Words for .NET API Referansı
-description: BuildingBlockCollection yöntem. Koleksiyondaki tüm yapı taşlarını yeni bir yapı taşı dizisine kopyalar.
+linktitle: ToArray
+articleTitle: ToArray
+second_title: Aspose.Words for .NET
+description: BuildingBlockCollection ToArray yöntem. Koleksiyondaki tüm yapı taşlarını yeni bir yapı taşı dizisine kopyalar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.buildingblocks/buildingblockcollection/toarray/
@@ -18,7 +20,7 @@ public BuildingBlock[] ToArray()
 
 Bir dizi yapı taşı.
 
-### Örnekler
+## Örnekler
 
 Bir sözlük belgesinde yapı taşlarına erişmenin yollarını gösterir.
 
@@ -123,7 +125,5 @@ public class GlossaryDocVisitor : DocumentVisitor
 
 * class [BuildingBlock](../../buildingblock/)
 * class [BuildingBlockCollection](../)
-* ad alanı [Aspose.Words.BuildingBlocks](../../buildingblockcollection/)
+* ad alanı [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * toplantı [Aspose.Words](../../../)
-
-

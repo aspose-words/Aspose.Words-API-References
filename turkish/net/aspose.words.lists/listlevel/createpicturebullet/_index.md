@@ -1,7 +1,9 @@
 ---
 title: ListLevel.CreatePictureBullet
-second_title: Aspose.Words for .NET API Referansı
-description: ListLevel yöntem. Geçerli liste düzeyi için resim madde işareti şeklini oluşturur.
+linktitle: CreatePictureBullet
+articleTitle: CreatePictureBullet
+second_title: Aspose.Words for .NET
+description: ListLevel CreatePictureBullet yöntem. Geçerli liste düzeyi için resim madde işareti şeklini oluşturur C#'da.
 type: docs
 weight: 150
 url: /tr/net/aspose.words.lists/listlevel/createpicturebullet/
@@ -14,11 +16,11 @@ Geçerli liste düzeyi için resim madde işareti şeklini oluşturur.
 public void CreatePictureBullet()
 ```
 
-### Notlar
+## Notlar
 
 Lütfen aklınızda bulundurun,[`NumberStyle`](../numberstyle/) şu şekilde ayarlanacak:Bullet ve [`NumberFormat`](../numberformat/) Resim işaretini düzgün bir şekilde görüntülemek için "\xF0B7" olarak ayarlayın. Kırmızı haç resmi, oluşturma sırasında resim işaret resmi olarak ayarlanacaktır. Değiştirmek için lütfen şunu kullanın:[`ImageData`](../imagedata/).
 
-### Örnekler
+## Örnekler
 
 Liste öğesi etiketleri için özel bir görüntü simgesinin nasıl ayarlanacağını gösterir.
 
@@ -50,7 +52,5 @@ Assert.IsNull(list.ListLevels[0].ImageData);
 ### Ayrıca bakınız
 
 * class [ListLevel](../)
-* ad alanı [Aspose.Words.Lists](../../listlevel/)
+* ad alanı [Aspose.Words.Lists](../../../aspose.words.lists/)
 * toplantı [Aspose.Words](../../../)
-
-

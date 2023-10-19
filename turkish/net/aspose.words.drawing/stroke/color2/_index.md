@@ -1,9 +1,11 @@
 ---
 title: Stroke.Color2
-second_title: Aspose.Words for .NET API Referansı
-description: Stroke mülk. Kontur için ikinci rengi tanımlar.
+linktitle: Color2
+articleTitle: Color2
+second_title: Aspose.Words for .NET
+description: Stroke Color2 mülk. Kontur için ikinci rengi tanımlar C#'da.
 type: docs
-weight: 40
+weight: 30
 url: /tr/net/aspose.words.drawing/stroke/color2/
 ---
 ## Stroke.Color2 property
@@ -14,11 +16,11 @@ Kontur için ikinci rengi tanımlar.
 public Color Color2 { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bir için varsayılan değer[`Shape`](../../shape/) is White.
 
-### Örnekler
+## Örnekler
 
 Şekil kontur özelliklerinin nasıl işleneceğini gösterir.
 
@@ -39,7 +41,5 @@ File.WriteAllBytes(ArtifactsDir + "Drawing.StrokePattern.png", stroke.ImageBytes
 ### Ayrıca bakınız
 
 * class [Stroke](../)
-* ad alanı [Aspose.Words.Drawing](../../stroke/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

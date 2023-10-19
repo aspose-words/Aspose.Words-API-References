@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.IsSignatureLine
-second_title: Aspose.Words for .NET API Referansı
-description: ShapeBase mülk. Şeklin bir olduğunu belirtirSignatureLine .
+linktitle: IsSignatureLine
+articleTitle: IsSignatureLine
+second_title: Aspose.Words for .NET
+description: ShapeBase IsSignatureLine mülk. Şeklin bir olduğunu belirtirSignatureLine  C#'da.
 type: docs
 weight: 340
 url: /tr/net/aspose.words.drawing/shapebase/issignatureline/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.drawing/shapebase/issignatureline/
 public bool IsSignatureLine { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 İmza için nasıl satır oluşturulacağını ve bunun belgeye nasıl ekleneceğini gösterir.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "Shape.SignatureLine.docx");
 ### Ayrıca bakınız
 
 * class [ShapeBase](../)
-* ad alanı [Aspose.Words.Drawing](../../shapebase/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

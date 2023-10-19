@@ -1,7 +1,9 @@
 ---
 title: Table.TopPadding
-second_title: Aspose.Words for .NET API Referansı
-description: Table mülk. Hücre içeriğinin üzerine eklenecek alan miktarını puan cinsinden alır veya ayarlar.
+linktitle: TopPadding
+articleTitle: TopPadding
+second_title: Aspose.Words for .NET
+description: Table TopPadding mülk. Hücre içeriğinin üzerine eklenecek alan miktarını puan cinsinden alır veya ayarlar C#'da.
 type: docs
 weight: 330
 url: /tr/net/aspose.words.tables/table/toppadding/
@@ -14,7 +16,7 @@ Hücre içeriğinin üzerine eklenecek alan miktarını (puan cinsinden) alır v
 public double TopPadding { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir tabloda içerik dolgusunun nasıl yapılandırılacağını gösterir.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.SetRowFormatting.docx");
 ### Ayrıca bakınız
 
 * class [Table](../)
-* ad alanı [Aspose.Words.Tables](../../table/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

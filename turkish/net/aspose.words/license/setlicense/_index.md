@@ -1,12 +1,14 @@
 ---
 title: License.SetLicense
-second_title: Aspose.Words for .NET API Referansı
-description: License yöntem. Bileşeni lisanslar.
+linktitle: SetLicense
+articleTitle: SetLicense
+second_title: Aspose.Words for .NET
+description: License SetLicense yöntem. Bileşeni lisanslar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/license/setlicense/
 ---
-## SetLicense(string) {#setlicense_1}
+## SetLicense(*string*) {#setlicense_1}
 
 Bileşeni lisanslar.
 
@@ -18,7 +20,7 @@ public void SetLicense(string licenseName)
 | --- | --- | --- |
 | licenseName | String | Tam veya kısa dosya adı veya gömülü kaynağın adı olabilir. Değerlendirme moduna geçmek için boş bir dize kullanın. |
 
-### Notlar
+## Notlar
 
 Lisansı aşağıdaki konumlarda bulmaya çalışır:
 
@@ -38,7 +40,7 @@ Lisansı aşağıdaki konumlarda bulmaya çalışır:
 
 2. İstemcinin çağıran derlemesindeki yerleşik bir kaynak.
 
-### Örnekler
+## Örnekler
 
 Yerel dosya sistemindeki bir lisans dosyasını kullanarak Aspose.Words lisansının nasıl başlatıldığını gösterir.
 
@@ -62,12 +64,12 @@ license.SetLicense("Aspose.Words.NET.lic");
 ### Ayrıca bakınız
 
 * class [License](../)
-* ad alanı [Aspose.Words](../../license/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## SetLicense(Stream) {#setlicense}
+## SetLicense(*Stream*) {#setlicense}
 
 Bileşeni lisanslar.
 
@@ -79,11 +81,11 @@ public void SetLicense(Stream stream)
 | --- | --- | --- |
 | stream | Stream | Lisansı içeren bir akış. |
 
-### Notlar
+## Notlar
 
 Bir akıştan lisans yüklemek için bu yöntemi kullanın.
 
-### Örnekler
+## Örnekler
 
 Aspose.Words lisansının bir akıştan nasıl başlatılacağını gösterir.
 
@@ -99,7 +101,5 @@ using (Stream myStream = File.OpenRead(Path.Combine(LicenseDir, "Aspose.Words.NE
 ### Ayrıca bakınız
 
 * class [License](../)
-* ad alanı [Aspose.Words](../../license/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ImageFieldMergingArgs.ImageFileName
-second_title: Aspose.Words for .NET API Referansı
-description: ImageFieldMergingArgs mülk. Adresmektup birleştirme motorunun belgeye eklemesi gereken resmin dosya adını ayarlar.
+linktitle: ImageFileName
+articleTitle: ImageFileName
+second_title: Aspose.Words for .NET
+description: ImageFieldMergingArgs ImageFileName mülk. Adresmektup birleştirme motorunun belgeye eklemesi gereken resmin dosya adını ayarlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.mailmerging/imagefieldmergingargs/imagefilename/
@@ -14,7 +16,7 @@ Adres-mektup birleştirme motorunun belgeye eklemesi gereken resmin dosya adın�
 public string ImageFileName { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Adres-mektup birleştirme sırasında MERGEFIELDS'in kabul ettiği görüntülerin boyutlarının nasıl ayarlanacağını gösterir.
 
@@ -84,7 +86,5 @@ private class MergedImageResizer : IFieldMergingCallback
 ### Ayrıca bakınız
 
 * class [ImageFieldMergingArgs](../)
-* ad alanı [Aspose.Words.MailMerging](../../imagefieldmergingargs/)
+* ad alanı [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * toplantı [Aspose.Words](../../../)
-
-

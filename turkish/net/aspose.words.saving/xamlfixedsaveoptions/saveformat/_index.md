@@ -1,7 +1,9 @@
 ---
 title: XamlFixedSaveOptions.SaveFormat
-second_title: Aspose.Words for .NET API Referansı
-description: XamlFixedSaveOptions mülk. Bu kaydetme seçenekleri nesnesi kullanılırsa belgenin kaydedileceği biçimi belirtir. YalnızcaXamlFixed .
+linktitle: SaveFormat
+articleTitle: SaveFormat
+second_title: Aspose.Words for .NET
+description: XamlFixedSaveOptions SaveFormat mülk. Bu kaydetme seçenekleri nesnesi kullanılırsa belgenin kaydedileceği biçimi belirtir. YalnızcaXamlFixed  C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.saving/xamlfixedsaveoptions/saveformat/
@@ -14,7 +16,7 @@ Bu kaydetme seçenekleri nesnesi kullanılırsa belgenin kaydedileceği biçimi 
 public override SaveFormat SaveFormat { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi sabit biçimli .xaml dosyasına dönüştürürken oluşturulan bağlantılı kaynakların URI'lerinin nasıl yazdırılacağını gösterir.
 
@@ -78,7 +80,5 @@ private class ResourceUriPrinter : IResourceSavingCallback
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [XamlFixedSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../xamlfixedsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

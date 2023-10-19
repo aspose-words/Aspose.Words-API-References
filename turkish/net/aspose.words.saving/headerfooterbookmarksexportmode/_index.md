@@ -1,7 +1,9 @@
 ---
-title: Enum HeaderFooterBookmarksExportMode
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Saving.HeaderFooterBookmarksExportMode Sıralama. Üstbilgi/altbilgilerdeki yer işaretlerinin nasıl dışa aktarılacağını belirtir.
+title: HeaderFooterBookmarksExportMode Enum
+linktitle: HeaderFooterBookmarksExportMode
+articleTitle: HeaderFooterBookmarksExportMode
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Saving.HeaderFooterBookmarksExportMode Sıralama. Üstbilgi/altbilgilerdeki yer işaretlerinin nasıl dışa aktarılacağını belirtir C#'da.
 type: docs
 weight: 5050
 url: /tr/net/aspose.words.saving/headerfooterbookmarksexportmode/
@@ -22,7 +24,7 @@ public enum HeaderFooterBookmarksExportMode
 | First | `1` | Yalnızca bölümün ilk üstbilgi/altbilgisindeki yer imi dışa aktarılır. |
 | All | `2` | Tüm üstbilgi/altbilgilerdeki yer işaretleri dışa aktarılır. |
 
-### Örnekler
+## Örnekler
 
 PDF'ye dönüştürdüğümüz bir belgedeki üstbilgi/altbilgilerdeki yer işaretlerinin işlenmesini gösterir.
 
@@ -55,5 +57,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.HeaderFooterBookmarksExportMode.pdf", sa
 
 * ad alanı [Aspose.Words.Saving](../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../)
-
-

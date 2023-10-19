@@ -1,7 +1,9 @@
 ---
 title: Font.SmallCaps
-second_title: Aspose.Words for .NET API Referansı
-description: Font mülk. Yazı tipi küçük büyük harflerle biçimlendirilmişse doğrudur.
+linktitle: SmallCaps
+articleTitle: SmallCaps
+second_title: Aspose.Words for .NET
+description: Font SmallCaps mülk. Yazı tipi küçük büyük harflerle biçimlendirilmişse doğrudur C#'da.
 type: docs
 weight: 360
 url: /tr/net/aspose.words/font/smallcaps/
@@ -14,7 +16,7 @@ Yazı tipi küçük büyük harflerle biçimlendirilmişse doğrudur.
 public bool SmallCaps { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir çalıştırmanın içeriğini büyük harflerle görüntüleyecek şekilde nasıl biçimlendirileceğini gösterir.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Font.Caps.docx");
 ### Ayrıca bakınız
 
 * class [Font](../)
-* ad alanı [Aspose.Words](../../font/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

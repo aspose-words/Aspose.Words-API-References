@@ -1,7 +1,9 @@
 ---
 title: JsonDataLoadOptions.PreserveSpaces
-second_title: Aspose.Words for .NET API Referansı
-description: JsonDataLoadOptions mülk. JSON verilerinin string değerleri yüklenirken baştaki ve sondaki boşlukların korunması gerekip gerekmediğini belirten bir bayrağı alır veya ayarlar.
+linktitle: PreserveSpaces
+articleTitle: PreserveSpaces
+second_title: Aspose.Words for .NET
+description: JsonDataLoadOptions PreserveSpaces mülk. JSON verilerinin string değerleri yüklenirken baştaki ve sondaki boşlukların korunması gerekip gerekmediğini belirten bir bayrağı alır veya ayarlar C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.reporting/jsondataloadoptions/preservespaces/
@@ -14,14 +16,12 @@ JSON verilerinin string değerleri yüklenirken baştaki ve sondaki boşlukları
 public bool PreserveSpaces { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:`YANLIŞ` .
 
 ### Ayrıca bakınız
 
 * class [JsonDataLoadOptions](../)
-* ad alanı [Aspose.Words.Reporting](../../jsondataloadoptions/)
+* ad alanı [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * toplantı [Aspose.Words](../../../)
-
-

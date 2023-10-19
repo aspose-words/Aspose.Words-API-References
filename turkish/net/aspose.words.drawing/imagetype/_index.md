@@ -1,7 +1,9 @@
 ---
-title: Enum ImageType
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.ImageType Sıralama. Microsoft Word belgesindeki görüntünün türünü biçimini belirtir.
+title: ImageType Enum
+linktitle: ImageType
+articleTitle: ImageType
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.ImageType Sıralama. Microsoft Word belgesindeki görüntünün türünü biçimini belirtir C#'da.
 type: docs
 weight: 1080
 url: /tr/net/aspose.words.drawing/imagetype/
@@ -28,7 +30,7 @@ public enum ImageType
 | Bmp | `7` | Windows Bitmap. |
 | Eps | `8` | Encapsulated PostScript. |
 
-### Örnekler
+## Örnekler
 
 Bir şekle nasıl resim ekleneceğini ve tipinin nasıl kontrol edileceğini gösterir.
 
@@ -53,5 +55,3 @@ using (MemoryStream stream = new MemoryStream(imageBytes))
 * property [ImageType](../imagedata/imagetype/)
 * ad alanı [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../)
-
-

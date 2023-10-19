@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.FontSavingCallback
-second_title: Aspose.Words for .NET API Referansı
-description: HtmlSaveOptions mülk. Bir belge HTML MHTML veya EPUBa kaydedildiğinde yazı tiplerinin nasıl kaydedileceğini kontrol etmenizi sağlar.
+linktitle: FontSavingCallback
+articleTitle: FontSavingCallback
+second_title: Aspose.Words for .NET
+description: HtmlSaveOptions FontSavingCallback mülk. Bir belge HTML MHTML veya EPUBa kaydedildiğinde yazı tiplerinin nasıl kaydedileceğini kontrol etmenizi sağlar C#'da.
 type: docs
 weight: 300
 url: /tr/net/aspose.words.saving/htmlsaveoptions/fontsavingcallback/
@@ -14,7 +16,7 @@ Bir belge HTML, MHTML veya EPUB'a kaydedildiğinde yazı tiplerinin nasıl kayde
 public IFontSavingCallback FontSavingCallback { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 HTML'ye kaydederken yazı tiplerini dışa aktarmak için özel mantığın nasıl tanımlanacağını gösterir.
 
@@ -75,7 +77,5 @@ public class HandleFontSaving : IFontSavingCallback
 
 * interface [IFontSavingCallback](../../ifontsavingcallback/)
 * class [HtmlSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../htmlsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

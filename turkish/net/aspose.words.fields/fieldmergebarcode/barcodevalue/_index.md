@@ -1,7 +1,9 @@
 ---
 title: FieldMergeBarcode.BarcodeValue
-second_title: Aspose.Words for .NET API Referansı
-description: FieldMergeBarcode mülk. Barkod değerini alır veya ayarlar.
+linktitle: BarcodeValue
+articleTitle: BarcodeValue
+second_title: Aspose.Words for .NET
+description: FieldMergeBarcode BarcodeValue mülk. Barkod değerini alır veya ayarlar C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.fields/fieldmergebarcode/barcodevalue/
@@ -14,7 +16,7 @@ Barkod değerini alır veya ayarlar.
 public string BarcodeValue { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 EAN13 barkodlarında adres-mektup birleştirmenin nasıl gerçekleştirileceğini gösterir.
 
@@ -105,7 +107,5 @@ doc.Save(ArtifactsDir + "Field.MERGEBARCODE.QR.docx");
 ### Ayrıca bakınız
 
 * class [FieldMergeBarcode](../)
-* ad alanı [Aspose.Words.Fields](../../fieldmergebarcode/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

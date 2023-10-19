@@ -1,12 +1,14 @@
 ---
-title: PlainTextDocument.PlainTextDocument
-second_title: Aspose.Words for .NET API Referansı
-description: PlainTextDocument inşaatçı. Bir dosyadan düz metin belgesi oluşturur. Dosya biçimini otomatik olarak algılar.
+title: PlainTextDocument
+linktitle: PlainTextDocument
+articleTitle: PlainTextDocument
+second_title: Aspose.Words for .NET
+description: PlainTextDocument inşaatçı. Bir dosyadan düz metin belgesi oluşturur. Dosya biçimini otomatik olarak algılar C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/plaintextdocument/plaintextdocument/
 ---
-## PlainTextDocument(string) {#constructor_2}
+## PlainTextDocument(*string*) {#constructor_2}
 
 Bir dosyadan düz metin belgesi oluşturur. Dosya biçimini otomatik olarak algılar.
 
@@ -29,7 +31,7 @@ public PlainTextDocument(string fileName)
 | [IncorrectPasswordException](../../incorrectpasswordexception/) | Belge şifrelenmiş ve açılması için parola gerekiyor, ancak yanlış parola girdiniz. |
 | ArgumentException | Dosyanın adı boş veya boş dize olamaz. |
 
-### Örnekler
+## Örnekler
 
 Bir Microsoft Word belgesinin içeriğinin düz metin olarak nasıl yükleneceğini gösterir.
 
@@ -48,12 +50,12 @@ Assert.AreEqual("Hello world!", plaintext.Text.Trim());
 ### Ayrıca bakınız
 
 * class [PlainTextDocument](../)
-* ad alanı [Aspose.Words](../../plaintextdocument/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## PlainTextDocument(string, LoadOptions) {#constructor_3}
+## PlainTextDocument(*string, [LoadOptions](../../../aspose.words.loading/loadoptions/)*) {#constructor_3}
 
 Bir dosyadan düz metin belgesi oluşturur. Şifreleme şifresi gibi ek seçeneklerin belirtilmesine olanak tanır.
 
@@ -77,7 +79,7 @@ public PlainTextDocument(string fileName, LoadOptions loadOptions)
 | [IncorrectPasswordException](../../incorrectpasswordexception/) | Belge şifrelenmiş ve açılması için parola gerekiyor, ancak yanlış parola girdiniz. |
 | ArgumentException | Dosyanın adı boş veya boş dize olamaz. |
 
-### Örnekler
+## Örnekler
 
 Şifrelenmiş bir Microsoft Word belgesinin içeriğinin düz metin olarak nasıl yükleneceğini gösterir.
 
@@ -103,12 +105,12 @@ Assert.AreEqual("Hello world!", plaintext.Text.Trim());
 
 * class [LoadOptions](../../../aspose.words.loading/loadoptions/)
 * class [PlainTextDocument](../)
-* ad alanı [Aspose.Words](../../plaintextdocument/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## PlainTextDocument(Stream) {#constructor}
+## PlainTextDocument(*Stream*) {#constructor}
 
 Bir akıştan düz metin belgesi oluşturur. Dosya biçimini otomatik olarak algılar.
 
@@ -133,11 +135,11 @@ public PlainTextDocument(Stream stream)
 | NotSupportedException | Akış, okumayı veya aramayı desteklemiyor. |
 | ObjectDisposedException | Akış, atılmış bir nesnedir. |
 
-### Notlar
+## Notlar
 
 Belge akışın başında saklanmalıdır. Akış rastgele konumlandırmayı desteklemelidir.
 
-### Örnekler
+## Örnekler
 
 Akış kullanılarak bir Microsoft Word belgesinin içeriğinin düz metin olarak nasıl yükleneceğini gösterir.
 
@@ -159,12 +161,12 @@ using (FileStream stream = new FileStream(ArtifactsDir + "PlainTextDocument.Load
 ### Ayrıca bakınız
 
 * class [PlainTextDocument](../)
-* ad alanı [Aspose.Words](../../plaintextdocument/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## PlainTextDocument(Stream, LoadOptions) {#constructor_1}
+## PlainTextDocument(*Stream, [LoadOptions](../../../aspose.words.loading/loadoptions/)*) {#constructor_1}
 
 Bir akıştan düz metin belgesi oluşturur. Şifreleme şifresi gibi ek seçeneklerin belirtilmesine olanak tanır.
 
@@ -190,11 +192,11 @@ public PlainTextDocument(Stream stream, LoadOptions loadOptions)
 | NotSupportedException | Akış, okumayı veya aramayı desteklemiyor. |
 | ObjectDisposedException | Akış, atılmış bir nesnedir. |
 
-### Notlar
+## Notlar
 
 Belge akışın başında saklanmalıdır. Akış rastgele konumlandırmayı desteklemelidir.
 
-### Örnekler
+## Örnekler
 
 Akış kullanılarak şifrelenmiş bir Microsoft Word belgesinin içeriğinin düz metin olarak nasıl yükleneceğini gösterir.
 
@@ -224,7 +226,5 @@ using (FileStream stream = new FileStream(ArtifactsDir + "PlainTextDocument.Load
 
 * class [LoadOptions](../../../aspose.words.loading/loadoptions/)
 * class [PlainTextDocument](../)
-* ad alanı [Aspose.Words](../../plaintextdocument/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.ShowCategoryName
-second_title: Aspose.Words for .NET API Referansı
-description: ChartDataLabelCollection mülk. Tüm serinin veri etiketleri için kategori adının görüntülenip görüntülenmeyeceğini belirlemeye izin verir. Varsayılan değerYANLIŞ .
+linktitle: ShowCategoryName
+articleTitle: ShowCategoryName
+second_title: Aspose.Words for .NET
+description: ChartDataLabelCollection ShowCategoryName mülk. Tüm serinin veri etiketleri için kategori adının görüntülenip görüntülenmeyeceğini belirlemeye izin verir. Varsayılan değerYANLIŞ  C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words.drawing.charts/chartdatalabelcollection/showcategoryname/
@@ -14,11 +16,11 @@ Tüm serinin veri etiketleri için kategori adının görüntülenip görüntül
 public bool ShowCategoryName { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özellik için tanımlanan değer, the kullanılarak tek bir veri etiketi için geçersiz kılınabilir[`ShowCategoryName`](../../chartdatalabel/showcategoryname/) özellik.
 
-### Örnekler
+## Örnekler
 
 Kabarcık grafiğinin veri etiketleriyle nasıl çalışılacağını gösterir.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Charts.DataLabelsBubbleChart.docx");
 ### Ayrıca bakınız
 
 * class [ChartDataLabelCollection](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

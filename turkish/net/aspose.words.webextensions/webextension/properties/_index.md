@@ -1,7 +1,9 @@
 ---
 title: WebExtension.Properties
-second_title: Aspose.Words for .NET API Referansı
-description: WebExtension mülk. Bir dizi web uzantısı özel özelliğini temsil eder.
+linktitle: Properties
+articleTitle: Properties
+second_title: Aspose.Words for .NET
+description: WebExtension Properties mülk. Bir dizi web uzantısı özel özelliğini temsil eder C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.webextensions/webextension/properties/
@@ -14,7 +16,7 @@ Bir dizi web uzantısı özel özelliğini temsil eder.
 public WebExtensionPropertyCollection Properties { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgeye nasıl web uzantısı ekleneceğini gösterir.
 
@@ -60,7 +62,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * class [WebExtensionPropertyCollection](../../webextensionpropertycollection/)
 * class [WebExtension](../)
-* ad alanı [Aspose.Words.WebExtensions](../../webextension/)
+* ad alanı [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * toplantı [Aspose.Words](../../../)
-
-

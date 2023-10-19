@@ -1,7 +1,9 @@
 ---
 title: VbaReference.LibId
-second_title: Aspose.Words for .NET API Referansı
-description: VbaReference mülk. Otomasyon türü kitaplığının tanımlayıcısını içeren bir dize değeri alır.
+linktitle: LibId
+articleTitle: LibId
+second_title: Aspose.Words for .NET
+description: VbaReference LibId mülk. Otomasyon türü kitaplığının tanımlayıcısını içeren bir dize değeri alır C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.vba/vbareference/libid/
@@ -14,14 +16,14 @@ Otomasyon türü kitaplığının tanımlayıcısını içeren bir dize değeri 
 public abstract string LibId { get; }
 ```
 
-### Notlar
+## Notlar
 
 Referans türüne bağlı olarak bu özelliğin değeri şu şekilde olabilir:
 
 * 2.1.1.8 [MS-OVBA] LibidReferansında belirtilen bir LibidReferansı: https://docs.microsoft.com/en-us/openspecs/office_file_formats/ms-ovba/3737ef6e-d819-4186-a5f2-6e258ddf66a5
 * [MS-OVBA]'nın 2.1.1.12 Proje Referansı'nda belirtilen bir Proje Referansı: https://docs.microsoft.com/en-us/openspecs/office_file_formats/ms-ovba/9a45ac1a-f1ff-4ebd-958e-537701aa8131
 
-### Örnekler
+## Örnekler
 
 VBA referans koleksiyonundan bir öğenin nasıl alınacağını/kaldırılacağını gösterir.
 
@@ -95,7 +97,5 @@ private static string GetLibIdProjectPath(string libIdProject)
 ### Ayrıca bakınız
 
 * class [VbaReference](../)
-* ad alanı [Aspose.Words.Vba](../../vbareference/)
+* ad alanı [Aspose.Words.Vba](../../../aspose.words.vba/)
 * toplantı [Aspose.Words](../../../)
-
-

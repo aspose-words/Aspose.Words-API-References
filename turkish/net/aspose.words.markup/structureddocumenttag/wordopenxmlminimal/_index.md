@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTag.WordOpenXMLMinimal
-second_title: Aspose.Words for .NET API Referansı
-description: StructuredDocumentTag mülk. Düğümdeki düğümün içerdiği XMLi temsil eden bir dize alır.FlatOpc format. Şunun aksineWordOpenXMLözelliğinden yararlanarak bu yöntem içerikle ilgili olmayan bölümleri hariç tutan sadeleştirilmiş bir belge oluşturur.
+linktitle: WordOpenXMLMinimal
+articleTitle: WordOpenXMLMinimal
+second_title: Aspose.Words for .NET
+description: StructuredDocumentTag WordOpenXMLMinimal mülk. Düğümdeki düğümün içerdiği XMLi temsil eden bir dize alır.FlatOpc format. Şunun aksineWordOpenXMLözelliğinden yararlanarak bu yöntem içerikle ilgili olmayan bölümleri hariç tutan sadeleştirilmiş bir belge oluşturur C#'da.
 type: docs
 weight: 310
 url: /tr/net/aspose.words.markup/structureddocumenttag/wordopenxmlminimal/
@@ -14,7 +16,7 @@ Düğümdeki düğümün içerdiği XML'i temsil eden bir dize alır.FlatOpc for
 public string WordOpenXMLMinimal { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 İçerik kontrol öğelerine ilişkin stillerle nasıl çalışılacağını gösterir.
 
@@ -53,7 +55,5 @@ foreach (Node node in tags)
 ### Ayrıca bakınız
 
 * class [StructuredDocumentTag](../)
-* ad alanı [Aspose.Words.Markup](../../structureddocumenttag/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

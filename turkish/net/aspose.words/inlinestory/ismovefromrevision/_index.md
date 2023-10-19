@@ -1,7 +1,9 @@
 ---
 title: InlineStory.IsMoveFromRevision
-second_title: Aspose.Words for .NET API Referansı
-description: InlineStory mülk. İadelerdoğru değişiklik izleme etkinken bu nesne Microsoft Wordde taşındıysa silindiyse.
+linktitle: IsMoveFromRevision
+articleTitle: IsMoveFromRevision
+second_title: Aspose.Words for .NET
+description: InlineStory IsMoveFromRevision mülk. İadelerdoğru değişiklik izleme etkinken bu nesne Microsoft Wordde taşındıysa silindiyse C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words/inlinestory/ismovefromrevision/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words/inlinestory/ismovefromrevision/
 public bool IsMoveFromRevision { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 InlineStory düğümlerinin revizyonla ilgili özelliklerinin nasıl görüntüleneceğini gösterir.
 
@@ -62,7 +64,5 @@ Assert.IsTrue(footnotes[3].IsDeleteRevision);
 ### Ayrıca bakınız
 
 * class [InlineStory](../)
-* ad alanı [Aspose.Words](../../inlinestory/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

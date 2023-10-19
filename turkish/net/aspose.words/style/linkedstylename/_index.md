@@ -1,7 +1,9 @@
 ---
 title: Style.LinkedStyleName
-second_title: Aspose.Words for .NET API Referansı
-description: Style mülk. Adını alırStyle bununla bağlantılı. Hiçbir stil bağlı değilse boş dizeyi döndürür.
+linktitle: LinkedStyleName
+articleTitle: LinkedStyleName
+second_title: Aspose.Words for .NET
+description: Style LinkedStyleName mülk. Adını alırStyle bununla bağlantılı. Hiçbir stil bağlı değilse boş dizeyi döndürür C#'da.
 type: docs
 weight: 90
 url: /tr/net/aspose.words/style/linkedstylename/
@@ -14,7 +16,7 @@ Adını alır[`Style`](../) bununla bağlantılı. Hiçbir stil bağlı değilse
 public string LinkedStyleName { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Stil takma adlarının nasıl kullanılacağını gösterir.
 
@@ -45,7 +47,5 @@ Assert.AreEqual(doc.FirstSection.Body.Paragraphs[0].ParagraphFormat.Style,
 ### Ayrıca bakınız
 
 * class [Style](../)
-* ad alanı [Aspose.Words](../../style/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

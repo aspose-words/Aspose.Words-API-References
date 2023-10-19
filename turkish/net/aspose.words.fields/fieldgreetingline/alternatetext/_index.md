@@ -1,7 +1,9 @@
 ---
 title: FieldGreetingLine.AlternateText
-second_title: Aspose.Words for .NET API Referansı
-description: FieldGreetingLine mülk. Adın boş olması durumunda alana eklenecek metni alır veya ayarlar.
+linktitle: AlternateText
+articleTitle: AlternateText
+second_title: Aspose.Words for .NET
+description: FieldGreetingLine AlternateText mülk. Adın boş olması durumunda alana eklenecek metni alır veya ayarlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fieldgreetingline/alternatetext/
@@ -14,7 +16,7 @@ Adın boş olması durumunda alana eklenecek metni alır veya ayarlar.
 public string AlternateText { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 GREETINGLINE alanının nasıl ekleneceğini gösterir.
 
@@ -74,7 +76,5 @@ Assert.AreEqual("Dear Mr. Doe,\r\r\tThis is your custom greeting, created progra
 ### Ayrıca bakınız
 
 * class [FieldGreetingLine](../)
-* ad alanı [Aspose.Words.Fields](../../fieldgreetingline/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

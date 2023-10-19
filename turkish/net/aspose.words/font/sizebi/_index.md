@@ -1,7 +1,9 @@
 ---
 title: Font.SizeBi
-second_title: Aspose.Words for .NET API Referansı
-description: Font mülk. Sağdan sola yazılan bir belgede kullanılan punto cinsinden yazı tipi boyutunu alır veya ayarlar.
+linktitle: SizeBi
+articleTitle: SizeBi
+second_title: Aspose.Words for .NET
+description: Font SizeBi mülk. Sağdan sola yazılan bir belgede kullanılan punto cinsinden yazı tipi boyutunu alır veya ayarlar C#'da.
 type: docs
 weight: 350
 url: /tr/net/aspose.words/font/sizebi/
@@ -14,7 +16,7 @@ Sağdan sola yazılan bir belgede kullanılan punto cinsinden yazı tipi boyutun
 public double SizeBi { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Sağdan sola ve sağdan sola metin için ayrı yazı tipi ayarları kümelerinin nasıl tanımlanacağını gösterir.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Font.Bidi.docx");
 ### Ayrıca bakınız
 
 * class [Font](../)
-* ad alanı [Aspose.Words](../../font/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

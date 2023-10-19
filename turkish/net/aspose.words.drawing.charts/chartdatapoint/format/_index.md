@@ -1,7 +1,9 @@
 ---
 title: ChartDataPoint.Format
-second_title: Aspose.Words for .NET API Referansı
-description: ChartDataPoint mülk. Bu veri noktasının dolgu ve satır formatlamasına erişim sağlar.
+linktitle: Format
+articleTitle: Format
+second_title: Aspose.Words for .NET
+description: ChartDataPoint Format mülk. Bu veri noktasının dolgu ve satır formatlamasına erişim sağlar C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.drawing.charts/chartdatapoint/format/
@@ -14,7 +16,7 @@ Bu veri noktasının dolgu ve satır formatlamasına erişim sağlar.
 public ChartFormat Format { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Sütun grafiğinin kategorileri için ayrı ayrı biçimlendirmenin nasıl ayarlanacağını gösterir.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "Charts.DataPointsFormatting.docx");
 
 * class [ChartFormat](../../chartformat/)
 * class [ChartDataPoint](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartdatapoint/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

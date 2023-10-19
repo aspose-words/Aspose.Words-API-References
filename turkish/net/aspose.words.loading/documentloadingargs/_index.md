@@ -1,7 +1,9 @@
 ---
-title: Class DocumentLoadingArgs
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Loading.DocumentLoadingArgs sınıf. Bir argüman aktarıldıNotify .
+title: DocumentLoadingArgs Class
+linktitle: DocumentLoadingArgs
+articleTitle: DocumentLoadingArgs
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Loading.DocumentLoadingArgs sınıf. Bir argüman aktarıldıNotify  C#'da.
 type: docs
 weight: 3590
 url: /tr/net/aspose.words.loading/documentloadingargs/
@@ -26,5 +28,3 @@ public sealed class DocumentLoadingArgs
 
 * ad alanı [Aspose.Words.Loading](../../aspose.words.loading/)
 * toplantı [Aspose.Words](../../)
-
-

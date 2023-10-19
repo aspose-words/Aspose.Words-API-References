@@ -1,7 +1,9 @@
 ---
 title: Aspose.Words.Saving
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Saving ad alanı belgeleri kaydetmek veya dönüştürmek için ek seçenekleri belirtmeye izin veren sınıflar ve numaralandırmalar sağlar.
+linktitle: Aspose.Words.Saving
+articleTitle: Aspose.Words.Saving
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Saving ad alanı belgeleri kaydetmek veya dönüştürmek için ek seçenekleri belirtmeye izin veren sınıflar ve numaralandırmalar sağlar C#'da.
 type: docs
 weight: 230
 url: /tr/net/aspose.words.saving/
@@ -108,5 +110,3 @@ url: /tr/net/aspose.words.saving/
 | [TableContentAlignment](./tablecontentalignment/) | Markdown formatına dışa aktarırken kullanılacak tablo içeriğinin hizalamasını belirtmeye izin verir. |
 | [TiffCompression](./tiffcompression/) | Sayfa görüntülerini bir TIFF dosyasına kaydederken ne tür sıkıştırmanın uygulanacağını belirtir. |
 | [TxtExportHeadersFootersMode](./txtexportheadersfootersmode/) | Üstbilgilerin ve altbilgilerin düz metin biçiminde dışa aktarılma yöntemini belirtir. |
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class SignatureLine
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.SignatureLine sınıf. İmza satırı özelliklerine erişim sağlar.
+title: SignatureLine Class
+linktitle: SignatureLine
+articleTitle: SignatureLine
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.SignatureLine sınıf. İmza satırı özelliklerine erişim sağlar C#'da.
 type: docs
 weight: 1300
 url: /tr/net/aspose.words.drawing/signatureline/
@@ -22,17 +24,17 @@ public class SignatureLine
 | --- | --- |
 | [AllowComments](../../aspose.words.drawing/signatureline/allowcomments/) { get; set; } | İmzalayanın İmza iletişim kutusuna yorum ekleyebileceğini belirten bir değer alır veya ayarlar. Bu özelliğin varsayılan değeri:`YANLIŞ` . |
 | [DefaultInstructions](../../aspose.words.drawing/signatureline/defaultinstructions/) { get; set; } | İmza iletişim kutusunda varsayılan talimatların gösterildiğini belirten bir değer alır veya ayarlar. Bu özelliğin varsayılan değeri:`doğru` . |
-| [Email](../../aspose.words.drawing/signatureline/email/) { get; set; } | Önerilen imzalayanın e-posta adresini alır veya ayarlar. Bu özelliğin varsayılan değeri: **boş dize** (Empty). |
+| [Email](../../aspose.words.drawing/signatureline/email/) { get; set; } | Önerilen imzalayanın e-posta adresini alır veya ayarlar. Bu özelliğin varsayılan değeri:**boş dize** (Empty). |
 | [Id](../../aspose.words.drawing/signatureline/id/) { get; set; } | Bu imza satırının tanımlayıcısını alır veya ayarlar. |
-| [Instructions](../../aspose.words.drawing/signatureline/instructions/) { get; set; } | İmza satırını imzalarken görüntülenen imzalayana yönelik talimatları alır veya ayarlar. Aşağıdaki durumlarda bu özellik yoksayılır:[`DefaultInstructions`](./defaultinstructions/)ayarlandı. Bu özelliğin varsayılan değeri: **boş dize** (Empty). |
+| [Instructions](../../aspose.words.drawing/signatureline/instructions/) { get; set; } | İmza satırını imzalarken görüntülenen imzalayana yönelik talimatları alır veya ayarlar. Aşağıdaki durumlarda bu özellik yoksayılır:[`DefaultInstructions`](./defaultinstructions/)ayarlandı. Bu özelliğin varsayılan değeri:**boş dize** (Empty). |
 | [IsSigned](../../aspose.words.drawing/signatureline/issigned/) { get; } | İmza satırının dijital imza ile imzalandığını belirtir. |
 | [IsValid](../../aspose.words.drawing/signatureline/isvalid/) { get; } | İmza satırının dijital imza ile imzalandığını ve bu dijital imzanın geçerli olduğunu belirtir. |
 | [ProviderId](../../aspose.words.drawing/signatureline/providerid/) { get; set; } | Bu imza satırı için imza sağlayıcı tanımlayıcısını alır veya ayarlar. Varsayılan değer: "{00000000-0000-0000-0000-000000000000}". |
 | [ShowDate](../../aspose.words.drawing/signatureline/showdate/) { get; set; } | İmza satırında imza tarihinin gösterildiğini belirten bir değer alır veya ayarlar. Bu özelliğin varsayılan değeri:`doğru` . |
-| [Signer](../../aspose.words.drawing/signatureline/signer/) { get; set; } | İmza satırının önerilen imzalayanını alır veya ayarlar. Bu özelliğin varsayılan değeri: **boş dize** (Empty). |
-| [SignerTitle](../../aspose.words.drawing/signatureline/signertitle/) { get; set; } | Önerilen imzalayanın unvanını alır veya ayarlar (örneğin, Yönetici). Bu özellik için varsayılan değer: **boş dize** (Empty). |
+| [Signer](../../aspose.words.drawing/signatureline/signer/) { get; set; } | İmza satırının önerilen imzalayanını alır veya ayarlar. Bu özelliğin varsayılan değeri:**boş dize** (Empty). |
+| [SignerTitle](../../aspose.words.drawing/signatureline/signertitle/) { get; set; } | Önerilen imzalayanın unvanını alır veya ayarlar (örneğin, Yönetici). Bu özellik için varsayılan değer:**boş dize** (Empty). |
 
-### Örnekler
+## Örnekler
 
 İmza için nasıl satır oluşturulacağını ve bunun belgeye nasıl ekleneceğini gösterir.
 
@@ -78,5 +80,3 @@ doc.Save(ArtifactsDir + "Shape.SignatureLine.docx");
 
 * ad alanı [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../)
-
-

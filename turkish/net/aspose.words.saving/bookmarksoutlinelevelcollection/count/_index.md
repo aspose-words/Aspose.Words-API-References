@@ -1,7 +1,9 @@
 ---
 title: BookmarksOutlineLevelCollection.Count
-second_title: Aspose.Words for .NET API Referansı
-description: BookmarksOutlineLevelCollection mülk. Koleksiyonda yer alan öğelerin sayısını alır.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words for .NET
+description: BookmarksOutlineLevelCollection Count mülk. Koleksiyonda yer alan öğelerin sayısını alır C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.saving/bookmarksoutlinelevelcollection/count/
@@ -14,7 +16,7 @@ Koleksiyonda yer alan öğelerin sayısını alır.
 public int Count { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Yer imleri için anahat düzeylerinin nasıl ayarlanacağını gösterir.
 
@@ -72,7 +74,5 @@ outlineLevels.Clear();
 ### Ayrıca bakınız
 
 * class [BookmarksOutlineLevelCollection](../)
-* ad alanı [Aspose.Words.Saving](../../bookmarksoutlinelevelcollection/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

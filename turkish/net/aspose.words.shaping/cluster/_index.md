@@ -1,7 +1,9 @@
 ---
-title: Class Cluster
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Shaping.Cluster sınıf. Bir grafik oluşturan kod noktalarını ve glifleri kapsüller.
+title: Cluster Class
+linktitle: Cluster
+articleTitle: Cluster
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Shaping.Cluster sınıf. Bir grafik oluşturan kod noktalarını ve glifleri kapsüller C#'da.
 type: docs
 weight: 6010
 url: /tr/net/aspose.words.shaping/cluster/
@@ -18,7 +20,7 @@ public class Cluster
 
 | İsim | Tanım |
 | --- | --- |
-| [Cluster](cluster/)(int[], Glyph[]) | Bu sınıfın yeni örneğini başlatır. |
+| [Cluster](cluster/)(*int[], Glyph[]*) | Bu sınıfın yeni örneğini başlatır. |
 
 ## Özellikleri
 
@@ -34,12 +36,10 @@ public class Cluster
 | --- | --- |
 | [DeepClone](../../aspose.words.shaping/cluster/deepclone/)() | Bu örneğin derin bir kopyasını döndürür. |
 | [GetString](../../aspose.words.shaping/cluster/getstring/)() | OluştururString bu kümedeki kod noktaları kullanılıyor. |
-| [GetWidth](../../aspose.words.shaping/cluster/getwidth/)(int, float) | Kümenin genişliğini döndürür. |
-| static [GetString](../../aspose.words.shaping/cluster/getstring/)(Cluster[]) | OluştururString belirtilen kümelerdeki kod noktalarını kullanma. |
+| [GetWidth](../../aspose.words.shaping/cluster/getwidth/)(*int, float*) | Kümenin genişliğini döndürür. |
+| static [GetString](../../aspose.words.shaping/cluster/getstring/)(*Cluster[]*) | OluştururString belirtilen kümelerdeki kod noktalarını kullanma. |
 
 ### Ayrıca bakınız
 
 * ad alanı [Aspose.Words.Shaping](../../aspose.words.shaping/)
 * toplantı [Aspose.Words](../../)
-
-

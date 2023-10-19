@@ -1,7 +1,9 @@
 ---
 title: LoadOptions.Encoding
-second_title: Aspose.Words for .NET API Referansı
-description: LoadOptions mülk. Belgede kodlama belirtilmemişse bir HTML TXT veya CHM belgesini yüklemek için kullanılacak kodlamayı alır veya ayarlar. Olabilirhükümsüz . Varsayılanhükümsüz .
+linktitle: Encoding
+articleTitle: Encoding
+second_title: Aspose.Words for .NET
+description: LoadOptions Encoding mülk. Belgede kodlama belirtilmemişse bir HTML TXT veya CHM belgesini yüklemek için kullanılacak kodlamayı alır veya ayarlar. Olabilirhükümsüz . Varsayılanhükümsüz  C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.loading/loadoptions/encoding/
@@ -14,13 +16,13 @@ Belgede kodlama belirtilmemişse bir HTML, TXT veya CHM belgesini yüklemek içi
 public Encoding Encoding { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özellik yalnızca HTML, TXT veya CHM belgeleri yüklenirken kullanılır.
 
 Belgede kodlama belirtilmemişse ve bu özellik`hükümsüz`ardından sistem to kodlamayı otomatik olarak algılamaya çalışacaktır.
 
-### Örnekler
+## Örnekler
 
 Bir belgenin açılacağı kodlamanın nasıl ayarlanacağını gösterir.
 
@@ -39,7 +41,5 @@ Assert.True(doc.ToString(SaveFormat.Text).Contains("This is a sample text in Eng
 ### Ayrıca bakınız
 
 * class [LoadOptions](../)
-* ad alanı [Aspose.Words.Loading](../../loadoptions/)
+* ad alanı [Aspose.Words.Loading](../../../aspose.words.loading/)
 * toplantı [Aspose.Words](../../../)
-
-

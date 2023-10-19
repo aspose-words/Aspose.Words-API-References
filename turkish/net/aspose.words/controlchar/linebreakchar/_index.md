@@ -1,7 +1,9 @@
 ---
 title: ControlChar.LineBreakChar
-second_title: Aspose.Words for .NET API Referansı
-description: ControlChar alan. Satır sonu karakteri char11 veya v.
+linktitle: LineBreakChar
+articleTitle: LineBreakChar
+second_title: Aspose.Words for .NET
+description: ControlChar LineBreakChar alan. Satır sonu karakteri char11 veya v C#'da.
 type: docs
 weight: 130
 url: /tr/net/aspose.words/controlchar/linebreakchar/
@@ -14,7 +16,7 @@ Satır sonu karakteri: (char)11 veya "\v".
 public const char LineBreakChar;
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgeye çeşitli kontrol karakterlerinin nasıl ekleneceğini gösterir.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Ayrıca bakınız
 
 * class [ControlChar](../)
-* ad alanı [Aspose.Words](../../controlchar/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

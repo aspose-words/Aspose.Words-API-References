@@ -1,7 +1,9 @@
 ---
-title: Class MarkdownSaveOptions
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Saving.MarkdownSaveOptions sınıf. Bir belgeyi kaydederken ek seçenekleri belirtmek için sınıfMarkdown format.
+title: MarkdownSaveOptions Class
+linktitle: MarkdownSaveOptions
+articleTitle: MarkdownSaveOptions
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Saving.MarkdownSaveOptions sınıf. Bir belgeyi kaydederken ek seçenekleri belirtmek için sınıfMarkdown format C#'da.
 type: docs
 weight: 5280
 url: /tr/net/aspose.words.saving/markdownsaveoptions/
@@ -28,11 +30,11 @@ public class MarkdownSaveOptions : TxtSaveOptionsBase
 | --- | --- |
 | [AllowEmbeddingPostScriptFonts](../../aspose.words.saving/saveoptions/allowembeddingpostscriptfonts/) { get; set; } | Kaydedildikten sonra TrueType yazı tiplerini bir belgeye gömerken PostScript ana hatlarıyla yazı tiplerinin gömülmesine izin verilip verilmeyeceğini belirten bir boole değeri alır veya ayarlar. Varsayılan değer:`YANLIŞ` . |
 | [CustomTimeZoneInfo](../../aspose.words.saving/saveoptions/customtimezoneinfo/) { get; set; } | Tarih/saat alanları için kullanılan özel yerel saat dilimini alır veya ayarlar. |
-| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | Varsayılan şablonun yolunu alır veya ayarlar (dosya adı dahil). Bu özellik için varsayılan değer: **boş dize** (Empty). |
+| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | Varsayılan şablonun yolunu alır veya ayarlar (dosya adı dahil). Bu özellik için varsayılan değer:**boş dize** (Empty). |
 | [Dml3DEffectsRenderingMode](../../aspose.words.saving/saveoptions/dml3deffectsrenderingmode/) { get; set; } | 3B efektlerin nasıl oluşturulacağını belirleyen bir değer alır veya ayarlar. |
 | virtual [DmlEffectsRenderingMode](../../aspose.words.saving/saveoptions/dmleffectsrenderingmode/) { get; set; } | DrawingML efektlerinin nasıl oluşturulacağını belirleyen bir değer alır veya ayarlar. |
 | [DmlRenderingMode](../../aspose.words.saving/saveoptions/dmlrenderingmode/) { get; set; } | DrawingML şekillerinin nasıl oluşturulacağını belirleyen bir değer alır veya ayarlar. |
-| [Encoding](../../aspose.words.saving/txtsaveoptionsbase/encoding/) { get; set; } | Metin formatlarında dışa aktarırken kullanılacak kodlamayı belirtir. Varsayılan değer: **Kodlama.UTF8** . |
+| [Encoding](../../aspose.words.saving/txtsaveoptionsbase/encoding/) { get; set; } | Metin formatlarında dışa aktarırken kullanılacak kodlamayı belirtir. Varsayılan değer:**Kodlama.UTF8** . |
 | [ExportGeneratorName](../../aspose.words.saving/saveoptions/exportgeneratorname/) { get; set; } | Ne zaman`doğru` , Aspose.Words'ün adının ve sürümünün üretilen dosyalara yerleştirilmesine neden olur. Varsayılan değer:`doğru` . |
 | [ExportHeadersFootersMode](../../aspose.words.saving/txtsaveoptionsbase/exportheadersfootersmode/) { get; set; } | Üstbilgilerin ve altbilgilerin metin formatlarına aktarılma yöntemini belirtir. Varsayılan değer:PrimaryOnly . |
 | [ExportImagesAsBase64](../../aspose.words.saving/markdownsaveoptions/exportimagesasbase64/) { get; set; } | Görüntülerin çıktı dosyasına Base64 formatında kaydedilip kaydedilmeyeceğini belirtir. Varsayılan değer:`YANLIŞ` . |
@@ -61,5 +63,3 @@ public class MarkdownSaveOptions : TxtSaveOptionsBase
 * class [TxtSaveOptionsBase](../txtsaveoptionsbase/)
 * ad alanı [Aspose.Words.Saving](../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../)
-
-

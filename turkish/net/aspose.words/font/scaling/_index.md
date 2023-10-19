@@ -1,7 +1,9 @@
 ---
 title: Font.Scaling
-second_title: Aspose.Words for .NET API Referansı
-description: Font mülk. Karakter genişliği ölçeklendirmesini yüzde cinsinden alır veya ayarlar.
+linktitle: Scaling
+articleTitle: Scaling
+second_title: Aspose.Words for .NET
+description: Font Scaling mülk. Karakter genişliği ölçeklendirmesini yüzde cinsinden alır veya ayarlar C#'da.
 type: docs
 weight: 310
 url: /tr/net/aspose.words/font/scaling/
@@ -14,7 +16,7 @@ Karakter genişliği ölçeklendirmesini yüzde cinsinden alır veya ayarlar.
 public int Scaling { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Karakterler için yatay ölçeklendirmenin ve aralığın nasıl ayarlanacağını gösterir.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Font.ScalingSpacing.docx");
 ### Ayrıca bakınız
 
 * class [Font](../)
-* ad alanı [Aspose.Words](../../font/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

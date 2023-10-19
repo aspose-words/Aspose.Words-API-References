@@ -1,7 +1,9 @@
 ---
-title: Enum StoryType
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.StoryType Sıralama. Bir Word belgesinin metni hikayelerde saklanır.StoryType bir hikayeyi tanımlar.
+title: StoryType Enum
+linktitle: StoryType
+articleTitle: StoryType
+second_title: Aspose.Words for .NET
+description: Aspose.Words.StoryType Sıralama. Bir Word belgesinin metni hikayelerde saklanır.StoryType bir hikayeyi tanımlar C#'da.
 type: docs
 weight: 6120
 url: /tr/net/aspose.words/storytype/
@@ -37,7 +39,7 @@ public enum StoryType
 | EndnoteContinuationSeparator | `16` | Son not devam ayırıcısının metnini içerir; şu şekilde temsil edilir:FootnoteSeparator . |
 | EndnoteContinuationNotice | `17` | Son not devam bildirimi ayırıcısının metnini içerir; şu şekilde temsil edilir:FootnoteSeparator . |
 
-### Örnekler
+## Örnekler
 
 Bir düğümdeki tüm şekillerin nasıl kaldırılacağını gösterir.
 
@@ -62,5 +64,3 @@ Assert.AreEqual(0, doc.GetChildNodes(NodeType.Shape, true).Count);
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: MappedDataFieldCollection.GetEnumerator
-second_title: Aspose.Words for .NET API Referansı
-description: MappedDataFieldCollection yöntem. Koleksiyondaki tüm öğeler üzerinde yineleme yapmak için kullanılabilecek bir sözlük numaralandırıcı nesnesini döndürür.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words for .NET
+description: MappedDataFieldCollection GetEnumerator yöntem. Koleksiyondaki tüm öğeler üzerinde yineleme yapmak için kullanılabilecek bir sözlük numaralandırıcı nesnesini döndürür C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.mailmerging/mappeddatafieldcollection/getenumerator/
@@ -14,7 +16,7 @@ Koleksiyondaki tüm öğeler üzerinde yineleme yapmak için kullanılabilecek b
 public IEnumerator<KeyValuePair<string, string>> GetEnumerator()
 ```
 
-### Örnekler
+## Örnekler
 
 Adres-mektup birleştirme sırasında verilerin aralarında aktarılması için veri sütunlarının ve MERGEFIELD'lerin farklı adlarla nasıl eşleneceğini gösterir.
 
@@ -99,7 +101,5 @@ private static DataTable CreateSourceTableMappedDataFields()
 ### Ayrıca bakınız
 
 * class [MappedDataFieldCollection](../)
-* ad alanı [Aspose.Words.MailMerging](../../mappeddatafieldcollection/)
+* ad alanı [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * toplantı [Aspose.Words](../../../)
-
-

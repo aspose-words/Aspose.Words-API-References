@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.Document
-second_title: Aspose.Words for .NET API Referansı
-description: FontSavingArgs mülk. Kaydedilen belge nesnesini alır.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words for .NET
+description: FontSavingArgs Document mülk. Kaydedilen belge nesnesini alır C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.saving/fontsavingargs/document/
@@ -14,7 +16,7 @@ Kaydedilen belge nesnesini alır.
 public Document Document { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 HTML'ye kaydederken yazı tiplerini dışa aktarmak için özel mantığın nasıl tanımlanacağını gösterir.
 
@@ -75,7 +77,5 @@ public class HandleFontSaving : IFontSavingCallback
 
 * class [Document](../../../aspose.words/document/)
 * class [FontSavingArgs](../)
-* ad alanı [Aspose.Words.Saving](../../fontsavingargs/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

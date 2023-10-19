@@ -1,7 +1,9 @@
 ---
 title: PageSetup.BorderSurroundsFooter
-second_title: Aspose.Words for .NET API Referansı
-description: PageSetup mülk. Sayfa kenarlığının alt bilgiyi içerip içermediğini veya hariç tuttuğunu belirtir.
+linktitle: BorderSurroundsFooter
+articleTitle: BorderSurroundsFooter
+second_title: Aspose.Words for .NET
+description: PageSetup BorderSurroundsFooter mülk. Sayfa kenarlığının alt bilgiyi içerip içermediğini veya hariç tuttuğunu belirtir C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words/pagesetup/bordersurroundsfooter/
@@ -14,11 +16,11 @@ Sayfa kenarlığının alt bilgiyi içerip içermediğini veya hariç tuttuğunu
 public bool BorderSurroundsFooter { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özelliğin değiştirilmesinin belgedeki tüm bölümleri etkileyeceğini unutmayın.
 
-### Örnekler
+## Örnekler
 
 Sayfaya ve üstbilgi/altbilgiye nasıl kenarlık uygulanacağını gösterir.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageBorder.docx");
 ### Ayrıca bakınız
 
 * class [PageSetup](../)
-* ad alanı [Aspose.Words](../../pagesetup/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

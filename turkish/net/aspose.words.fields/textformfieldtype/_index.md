@@ -1,7 +1,9 @@
 ---
-title: Enum TextFormFieldType
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Fields.TextFormFieldType Sıralama. Metin formu alanının türünü belirtir.
+title: TextFormFieldType Enum
+linktitle: TextFormFieldType
+articleTitle: TextFormFieldType
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Fields.TextFormFieldType Sıralama. Metin formu alanının türünü belirtir C#'da.
 type: docs
 weight: 2770
 url: /tr/net/aspose.words.fields/textformfieldtype/
@@ -25,7 +27,7 @@ public enum TextFormFieldType
 | CurrentTime | `4` | Metin formu alanı değeri, alanın güncellendiği geçerli zamandır. |
 | Calculated | `5` | Metin formu alanı değeri, 'de belirtilen ifadeden hesaplanır.[`TextInputDefault`](../formfield/textinputdefault/) özellik. |
 
-### Örnekler
+## Örnekler
 
 Form alanlarının nasıl oluşturulacağını gösterir.
 
@@ -54,5 +56,3 @@ builder.Document.Save(ArtifactsDir + "DocumentBuilder.CreateForm.docx");
 
 * ad alanı [Aspose.Words.Fields](../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../)
-
-

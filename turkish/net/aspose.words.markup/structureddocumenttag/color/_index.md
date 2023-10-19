@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTag.Color
-second_title: Aspose.Words for .NET API Referansı
-description: StructuredDocumentTag mülk. Yapılandırılmış belge etiketinin rengini alır veya ayarlar.
+linktitle: Color
+articleTitle: Color
+second_title: Aspose.Words for .NET
+description: StructuredDocumentTag Color mülk. Yapılandırılmış belge etiketinin rengini alır veya ayarlar C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.markup/structureddocumenttag/color/
@@ -14,7 +16,7 @@ Yapılandırılmış belge etiketinin rengini alır veya ayarlar.
 public Color Color { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Düz metin kutusunda yapılandırılmış belge etiketinin nasıl oluşturulacağını ve görünümünün nasıl değiştirileceğini gösterir.
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");
 ### Ayrıca bakınız
 
 * class [StructuredDocumentTag](../)
-* ad alanı [Aspose.Words.Markup](../../structureddocumenttag/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

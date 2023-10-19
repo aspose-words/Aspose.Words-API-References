@@ -1,7 +1,9 @@
 ---
-title: Class GraphicsQualityOptions
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Saving.GraphicsQualityOptions sınıf. Ek belirtmeye izin verirGraphics kalite seçenekleri.
+title: GraphicsQualityOptions Class
+linktitle: GraphicsQualityOptions
+articleTitle: GraphicsQualityOptions
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Saving.GraphicsQualityOptions sınıf. Ek belirtmeye izin verirGraphics kalite seçenekleri C#'da.
 type: docs
 weight: 5040
 url: /tr/net/aspose.words.saving/graphicsqualityoptions/
@@ -34,7 +36,7 @@ public class GraphicsQualityOptions
 | [TextRenderingHint](../../aspose.words.saving/graphicsqualityoptions/textrenderinghint/) { get; set; } | Bu Grafikle ilişkili metin için oluşturma modunu alır veya ayarlar. |
 | [UseTileFlipMode](../../aspose.words.saving/graphicsqualityoptions/usetileflipmode/) { get; set; } | WrapMode'un TileFlipXY olup olmadığını belirten bir bayrağı alır veya ayarlar. |
 
-### Örnekler
+## Örnekler
 
 Belgeleri görüntü formatlarına dönüştürürken işleme kalitesi seçeneklerinin nasıl ayarlanacağını gösterir.
 
@@ -61,5 +63,3 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.GraphicsQuality.jpg", saveOptions);
 
 * ad alanı [Aspose.Words.Saving](../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: IDocumentSavingCallback.Notify
-second_title: Aspose.Words for .NET API Referansı
-description: IDocumentSavingCallback yöntem. Bu belge kaydetme işleminin ilerlemesini bildirmek için çağrılır.
+linktitle: Notify
+articleTitle: Notify
+second_title: Aspose.Words for .NET
+description: IDocumentSavingCallback Notify yöntem. Bu belge kaydetme işleminin ilerlemesini bildirmek için çağrılır C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.saving/idocumentsavingcallback/notify/
@@ -18,13 +20,13 @@ public void Notify(DocumentSavingArgs args)
 | --- | --- | --- |
 | args | DocumentSavingArgs | Olayın bir argümanı. |
 
-### Notlar
+## Notlar
 
 Bu arayüzün birincil kullanımları, uygulama kodunun ilerleme durumunu elde etmesine ve kaydetme işlemini iptal etmesine izin vermektir.
 
 Kürtaj için Progress geri çağrısından bir istisna atılmalı ve tüketici koduna yakalanmalıdır.
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi html'ye kaydederken nasıl yönetileceğini gösterir.
 
@@ -195,7 +197,5 @@ public class SavingProgressCallback : IDocumentSavingCallback
 
 * class [DocumentSavingArgs](../../documentsavingargs/)
 * interface [IDocumentSavingCallback](../)
-* ad alanı [Aspose.Words.Saving](../../idocumentsavingcallback/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

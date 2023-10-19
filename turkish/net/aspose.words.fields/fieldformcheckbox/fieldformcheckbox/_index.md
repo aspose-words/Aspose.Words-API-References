@@ -1,7 +1,9 @@
 ---
-title: FieldFormCheckBox.FieldFormCheckBox
-second_title: Aspose.Words for .NET API Referansı
-description: FieldFormCheckBox inşaatçı. Default_Constructor
+title: FieldFormCheckBox
+linktitle: FieldFormCheckBox
+articleTitle: FieldFormCheckBox
+second_title: Aspose.Words for .NET
+description: FieldFormCheckBox inşaatçı. Default_Constructor C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fieldformcheckbox/fieldformcheckbox/
@@ -17,7 +19,5 @@ public FieldFormCheckBox()
 ### Ayrıca bakınız
 
 * class [FieldFormCheckBox](../)
-* ad alanı [Aspose.Words.Fields](../../fieldformcheckbox/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

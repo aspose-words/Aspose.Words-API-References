@@ -1,7 +1,9 @@
 ---
 title: LayoutCollector.GetStartPageIndex
-second_title: Aspose.Words for .NET API Referansı
-description: LayoutCollector yöntem. Düğümün başladığı sayfanın 1 tabanlı dizinini alır. Düğüm bir sayfaya eşlenemiyorsa 0 değerini döndürür.
+linktitle: GetStartPageIndex
+articleTitle: GetStartPageIndex
+second_title: Aspose.Words for .NET
+description: LayoutCollector GetStartPageIndex yöntem. Düğümün başladığı sayfanın 1 tabanlı dizinini alır. Düğüm bir sayfaya eşlenemiyorsa 0 değerini döndürür C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.layout/layoutcollector/getstartpageindex/
@@ -14,7 +16,7 @@ Düğümün başladığı sayfanın 1 tabanlı dizinini alır. Düğüm bir sayf
 public int GetStartPageIndex(Node node)
 ```
 
-### Örnekler
+## Örnekler
 
 Bir düğümün kapsadığı sayfa aralıklarının nasıl görüleceğini gösterir.
 
@@ -73,7 +75,5 @@ Assert.AreEqual("¶", layoutEnumerator.Text);
 
 * class [Node](../../../aspose.words/node/)
 * class [LayoutCollector](../)
-* ad alanı [Aspose.Words.Layout](../../layoutcollector/)
+* ad alanı [Aspose.Words.Layout](../../../aspose.words.layout/)
 * toplantı [Aspose.Words](../../../)
-
-

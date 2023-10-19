@@ -1,7 +1,9 @@
 ---
-title: Class MetafileRenderingOptions
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Saving.MetafileRenderingOptions sınıf. Ek meta dosyası oluşturma seçeneklerini belirlemeye izin verir.
+title: MetafileRenderingOptions Class
+linktitle: MetafileRenderingOptions
+articleTitle: MetafileRenderingOptions
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Saving.MetafileRenderingOptions sınıf. Ek meta dosyası oluşturma seçeneklerini belirlemeye izin verir C#'da.
 type: docs
 weight: 5300
 url: /tr/net/aspose.words.saving/metafilerenderingoptions/
@@ -34,7 +36,7 @@ public class MetafileRenderingOptions
 | [UseEmfEmbeddedToWmf](../../aspose.words.saving/metafilerenderingoptions/useemfembeddedtowmf/) { get; set; } | Gömülü EMF meta dosyalarına sahip WMF meta dosyalarının nasıl işlenmesi gerektiğini belirleyen bir değer alır veya ayarlar. |
 | [UseGdiRasterOperationsEmulation](../../aspose.words.saving/metafilerenderingoptions/usegdirasteroperationsemulation/) { get; set; } | Tarama işlemleri emülasyonu için GDI+'nın kullanılıp kullanılmayacağını belirleyen bir değer alır veya ayarlar. |
 
-### Örnekler
+## Örnekler
 
 Gösteriler, bitmap oluşturmaya bir geri dönüş ekledi ve desteklenmeyen meta dosyası kayıtlarıyla ilgili uyarı türlerini değiştirdi.
 
@@ -90,5 +92,3 @@ public class HandleDocumentWarnings : IWarningCallback
 
 * ad alanı [Aspose.Words.Saving](../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../)
-
-

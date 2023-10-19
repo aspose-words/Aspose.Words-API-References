@@ -1,7 +1,9 @@
 ---
-title: Enum PaperSize
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.PaperSize Sıralama. Kağıt boyutunu belirtir.
+title: PaperSize Enum
+linktitle: PaperSize
+articleTitle: PaperSize
+second_title: Aspose.Words for .NET
+description: Aspose.Words.PaperSize Sıralama. Kağıt boyutunu belirtir C#'da.
 type: docs
 weight: 4380
 url: /tr/net/aspose.words/papersize/
@@ -37,7 +39,7 @@ public enum PaperSize
 | Number10Envelope | `16` | 4,125 x 9,5 inç. |
 | Custom | `17` | Özel kağıt boyutu. |
 
-### Örnekler
+## Örnekler
 
 Bir bölüm için kağıt boyutunun, yönünün, kenar boşluklarının ve diğer ayarların nasıl ayarlanacağını gösterir.
 
@@ -148,5 +150,3 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

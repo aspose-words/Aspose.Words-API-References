@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.CreateNoteHyperlinks
-second_title: Aspose.Words for .NET API Referansı
-description: PdfSaveOptions mülk. Ana metin öyküsündeki dipnot/sonnot referanslarının etkin köprülere dönüştürülüp dönüştürülmeyeceğini belirtir. Köprü tıklandığında ilgili dipnot/sonnota yönlendirir. VarsayılanYANLIŞ .
+linktitle: CreateNoteHyperlinks
+articleTitle: CreateNoteHyperlinks
+second_title: Aspose.Words for .NET
+description: PdfSaveOptions CreateNoteHyperlinks mülk. Ana metin öyküsündeki dipnot/sonnot referanslarının etkin köprülere dönüştürülüp dönüştürülmeyeceğini belirtir. Köprü tıklandığında ilgili dipnot/sonnota yönlendirir. VarsayılanYANLIŞ  C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.saving/pdfsaveoptions/createnotehyperlinks/
@@ -14,7 +16,7 @@ Ana metin öyküsündeki dipnot/sonnot referanslarının etkin köprülere dön�
 public bool CreateNoteHyperlinks { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Dipnotların ve son notların köprü işlevi görmesini nasıl sağlayacağınızı gösterir.
 
@@ -36,7 +38,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.NoteHyperlinks.pdf", options);
 ### Ayrıca bakınız
 
 * class [PdfSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../pdfsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

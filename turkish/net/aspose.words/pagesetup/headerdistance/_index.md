@@ -1,7 +1,9 @@
 ---
 title: PageSetup.HeaderDistance
-second_title: Aspose.Words for .NET API Referansı
-description: PageSetup mülk. Başlık ile sayfanın üstü arasındaki mesafeyi nokta cinsinden döndürür veya ayarlar.
+linktitle: HeaderDistance
+articleTitle: HeaderDistance
+second_title: Aspose.Words for .NET
+description: PageSetup HeaderDistance mülk. Başlık ile sayfanın üstü arasındaki mesafeyi nokta cinsinden döndürür veya ayarlar C#'da.
 type: docs
 weight: 170
 url: /tr/net/aspose.words/pagesetup/headerdistance/
@@ -14,7 +16,7 @@ Başlık ile sayfanın üstü arasındaki mesafeyi (nokta cinsinden) döndürür
 public double HeaderDistance { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir bölüm için kağıt boyutunun, yönünün, kenar boşluklarının ve diğer ayarların nasıl ayarlanacağını gösterir.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageMargins.docx");
 ### Ayrıca bakınız
 
 * class [PageSetup](../)
-* ad alanı [Aspose.Words](../../pagesetup/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

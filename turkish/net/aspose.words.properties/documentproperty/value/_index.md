@@ -1,7 +1,9 @@
 ---
 title: DocumentProperty.Value
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentProperty mülk. Özelliğin değerini alır veya ayarlar.
+linktitle: Value
+articleTitle: Value
+second_title: Aspose.Words for .NET
+description: DocumentProperty Value mülk. Özelliğin değerini alır veya ayarlar C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.properties/documentproperty/value/
@@ -14,11 +16,11 @@ url: /tr/net/aspose.words.properties/documentproperty/value/
 public object Value { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Olamaz`hükümsüz`.
 
-### Örnekler
+## Örnekler
 
 Yerleşik belge özellikleriyle nasıl çalışılacağını gösterir.
 
@@ -52,7 +54,5 @@ foreach (DocumentProperty docProperty in doc.BuiltInDocumentProperties)
 ### Ayrıca bakınız
 
 * class [DocumentProperty](../)
-* ad alanı [Aspose.Words.Properties](../../documentproperty/)
+* ad alanı [Aspose.Words.Properties](../../../aspose.words.properties/)
 * toplantı [Aspose.Words](../../../)
-
-

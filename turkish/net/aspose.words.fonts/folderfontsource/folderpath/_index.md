@@ -1,7 +1,9 @@
 ---
 title: FolderFontSource.FolderPath
-second_title: Aspose.Words for .NET API Referansı
-description: FolderFontSource mülk. Klasörün yolu.
+linktitle: FolderPath
+articleTitle: FolderPath
+second_title: Aspose.Words for .NET
+description: FolderFontSource FolderPath mülk. Klasörün yolu C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fonts/folderfontsource/folderpath/
@@ -14,7 +16,7 @@ Klasörün yolu.
 public string FolderPath { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Yazı tipi kaynağı olarak yazı tiplerini içeren yerel sistem klasörünün nasıl kullanılacağını gösterir.
 
@@ -35,7 +37,5 @@ Assert.AreEqual(1, folderFontSource.Priority);
 ### Ayrıca bakınız
 
 * class [FolderFontSource](../)
-* ad alanı [Aspose.Words.Fonts](../../folderfontsource/)
+* ad alanı [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../../)
-
-

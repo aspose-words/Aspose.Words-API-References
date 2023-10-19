@@ -1,7 +1,9 @@
 ---
-title: Enum FontFeature
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Shaping.FontFeature Sıralama. Özellikler bir komut dosyasını oluşturmak için bir yazı tipinde gliflerin nasıl kullanıldığı hakkında bilgi sağlar. https//docs.microsoft.com/enus/typography/opentype/spec/featuretags
+title: FontFeature Enum
+linktitle: FontFeature
+articleTitle: FontFeature
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Shaping.FontFeature Sıralama. Özellikler bir komut dosyasını oluşturmak için bir yazı tipinde gliflerin nasıl kullanıldığı hakkında bilgi sağlar. https//docs.microsoft.com/enus/typography/opentype/spec/featuretags C#'da.
 type: docs
 weight: 6030
 url: /tr/net/aspose.words.shaping/fontfeature/
@@ -56,5 +58,3 @@ public enum FontFeature
 
 * ad alanı [Aspose.Words.Shaping](../../aspose.words.shaping/)
 * toplantı [Aspose.Words](../../)
-
-

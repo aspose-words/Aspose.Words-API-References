@@ -1,7 +1,9 @@
 ---
 title: FieldToc.CustomStyles
-second_title: Aspose.Words for .NET API Referansı
-description: FieldToc mülk. Yerleşik başlık stilleri dışındaki stillerin listesini içindekiler tablosuna dahil etmek için alır veya ayarlar.
+linktitle: CustomStyles
+articleTitle: CustomStyles
+second_title: Aspose.Words for .NET
+description: FieldToc CustomStyles mülk. Yerleşik başlık stilleri dışındaki stillerin listesini içindekiler tablosuna dahil etmek için alır veya ayarlar C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.fields/fieldtoc/customstyles/
@@ -14,7 +16,7 @@ Yerleşik başlık stilleri dışındaki stillerin listesini içindekiler tablos
 public string CustomStyles { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 İçindekiler tablosunun nasıl ekleneceğini ve başlık stillerine göre girdilerle nasıl doldurulacağını gösterir.
 
@@ -99,7 +101,5 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 ### Ayrıca bakınız
 
 * class [FieldToc](../)
-* ad alanı [Aspose.Words.Fields](../../fieldtoc/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

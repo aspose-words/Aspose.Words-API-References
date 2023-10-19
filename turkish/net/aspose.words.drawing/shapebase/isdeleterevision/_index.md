@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.IsDeleteRevision
-second_title: Aspose.Words for .NET API Referansı
-description: ShapeBase mülk. Değişiklik izleme etkinken bu nesne Microsoft Wordde silinmişse true değerini döndürür.
+linktitle: IsDeleteRevision
+articleTitle: IsDeleteRevision
+second_title: Aspose.Words for .NET
+description: ShapeBase IsDeleteRevision mülk. Değişiklik izleme etkinken bu nesne Microsoft Wordde silinmişse true değerini döndürür C#'da.
 type: docs
 weight: 250
 url: /tr/net/aspose.words.drawing/shapebase/isdeleterevision/
@@ -14,7 +16,7 @@ Değişiklik izleme etkinken bu nesne Microsoft Word'de silinmişse true değeri
 public bool IsDeleteRevision { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Revizyon şekilleriyle nasıl çalışılacağını gösterir.
 
@@ -61,7 +63,5 @@ Assert.True(shapes[1].IsInsertRevision);
 ### Ayrıca bakınız
 
 * class [ShapeBase](../)
-* ad alanı [Aspose.Words.Drawing](../../shapebase/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: SdtListItemCollection.SelectedValue
-second_title: Aspose.Words for .NET API Referansı
-description: SdtListItemCollection mülk. Bu listede mevcut seçili değeri belirtir. Boş değere izin verilir bu şu anda seçili hiçbir girişin bu liste öğesi koleksiyonuyla ilişkili olmadığı anlamına gelir.
+linktitle: SelectedValue
+articleTitle: SelectedValue
+second_title: Aspose.Words for .NET
+description: SdtListItemCollection SelectedValue mülk. Bu listede mevcut seçili değeri belirtir. Boş değere izin verilir bu şu anda seçili hiçbir girişin bu liste öğesi koleksiyonuyla ilişkili olmadığı anlamına gelir C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.markup/sdtlistitemcollection/selectedvalue/
@@ -14,7 +16,7 @@ Bu listede mevcut seçili değeri belirtir. Boş değere izin verilir; bu, şu a
 public SdtListItem SelectedValue { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Açılır liste yapılandırılmış belge etiketleriyle nasıl çalışılacağını gösterir.
 
@@ -72,7 +74,5 @@ Assert.AreEqual(0, listItems.Count);
 
 * class [SdtListItem](../../sdtlistitem/)
 * class [SdtListItemCollection](../)
-* ad alanı [Aspose.Words.Markup](../../sdtlistitemcollection/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

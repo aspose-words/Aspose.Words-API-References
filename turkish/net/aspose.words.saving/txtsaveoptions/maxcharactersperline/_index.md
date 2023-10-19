@@ -1,7 +1,9 @@
 ---
 title: TxtSaveOptions.MaxCharactersPerLine
-second_title: Aspose.Words for .NET API Referansı
-description: TxtSaveOptions mülk. Bir satır başına maksimum karakter sayısını belirten bir tamsayı değeri alır veya ayarlar. Varsayılan değer 0dır yani sınır yoktur.
+linktitle: MaxCharactersPerLine
+articleTitle: MaxCharactersPerLine
+second_title: Aspose.Words for .NET
+description: TxtSaveOptions MaxCharactersPerLine mülk. Bir satır başına maksimum karakter sayısını belirten bir tamsayı değeri alır veya ayarlar. Varsayılan değer 0dır yani sınır yoktur C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.saving/txtsaveoptions/maxcharactersperline/
@@ -14,7 +16,7 @@ Bir satır başına maksimum karakter sayısını belirten bir tamsayı değeri 
 public int MaxCharactersPerLine { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Satır başına maksimum karakter sayısının nasıl ayarlanacağını gösterir.
 
@@ -34,7 +36,5 @@ doc.Save(ArtifactsDir + "TxtSaveOptions.MaxCharactersPerLine.txt", saveOptions);
 ### Ayrıca bakınız
 
 * class [TxtSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../txtsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

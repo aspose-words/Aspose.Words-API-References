@@ -1,7 +1,9 @@
 ---
-title: Class SdtListItemCollection
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Markup.SdtListItemCollection sınıf. Şunlara erişim sağlarSdtListItem yapılandırılmış bir belge etiketinin öğeleri.
+title: SdtListItemCollection Class
+linktitle: SdtListItemCollection
+articleTitle: SdtListItemCollection
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Markup.SdtListItemCollection sınıf. Şunlara erişim sağlarSdtListItem yapılandırılmış bir belge etiketinin öğeleri C#'da.
 type: docs
 weight: 4030
 url: /tr/net/aspose.words.markup/sdtlistitemcollection/
@@ -28,12 +30,12 @@ public class SdtListItemCollection : IEnumerable<SdtListItem>
 
 | İsim | Tanım |
 | --- | --- |
-| [Add](../../aspose.words.markup/sdtlistitemcollection/add/)(SdtListItem) | Bu koleksiyona bir öğe ekler. |
+| [Add](../../aspose.words.markup/sdtlistitemcollection/add/)(*[SdtListItem](../sdtlistitem/)*) | Bu koleksiyona bir öğe ekler. |
 | [Clear](../../aspose.words.markup/sdtlistitemcollection/clear/)() | Bu koleksiyondaki tüm öğeleri temizler. |
 | [GetEnumerator](../../aspose.words.markup/sdtlistitemcollection/getenumerator/)() | Koleksiyondaki tüm öğeler üzerinde yineleme yapmak için kullanılabilecek bir numaralandırıcı nesnesini döndürür. |
-| [RemoveAt](../../aspose.words.markup/sdtlistitemcollection/removeat/)(int) | Belirtilen dizindeki bir liste öğesini kaldırır. |
+| [RemoveAt](../../aspose.words.markup/sdtlistitemcollection/removeat/)(*int*) | Belirtilen dizindeki bir liste öğesini kaldırır. |
 
-### Örnekler
+## Örnekler
 
 Açılır liste yapılandırılmış belge etiketleriyle nasıl çalışılacağını gösterir.
 
@@ -92,5 +94,3 @@ Assert.AreEqual(0, listItems.Count);
 * class [SdtListItem](../sdtlistitem/)
 * ad alanı [Aspose.Words.Markup](../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../)
-
-

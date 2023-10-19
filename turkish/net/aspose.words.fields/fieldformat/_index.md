@@ -1,7 +1,9 @@
 ---
-title: Class FieldFormat
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Fields.FieldFormat sınıf. Alanın sayısal bilgilerine tarih ve saatine ve genel biçimlendirmesine yazılı erişim sağlar.
+title: FieldFormat Class
+linktitle: FieldFormat
+articleTitle: FieldFormat
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Fields.FieldFormat sınıf. Alanın sayısal bilgilerine tarih ve saatine ve genel biçimlendirmesine yazılı erişim sağlar C#'da.
 type: docs
 weight: 1940
 url: /tr/net/aspose.words.fields/fieldformat/
@@ -24,7 +26,7 @@ public class FieldFormat
 | [GeneralFormats](../../aspose.words.fields/fieldformat/generalformats/) { get; } | Sayısal, metin veya herhangi bir alan sonucuna uygulanan genel formatların bir koleksiyonunu alır. \* anahtarlarına karşılık gelir. |
 | [NumericFormat](../../aspose.words.fields/fieldformat/numericformat/) { get; set; } | Sayısal alan sonucuna uygulanan biçimlendirmeyi alır veya ayarlar. \# anahtarına karşılık gelir. |
 
-### Örnekler
+## Örnekler
 
 Alan sonuçlarının nasıl biçimlendirileceğini gösterir.
 
@@ -89,5 +91,3 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 
 * ad alanı [Aspose.Words.Fields](../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../)
-
-

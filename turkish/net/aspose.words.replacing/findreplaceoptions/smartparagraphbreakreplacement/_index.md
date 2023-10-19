@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.SmartParagraphBreakReplacement
-second_title: Aspose.Words for .NET API Referansı
-description: FindReplaceOptions mülk. Sonraki eş paragraf olmadığında break paragrafının değiştirilmesine izin verildiğini belirten bir boole değeri alır veya ayarlar.
+linktitle: SmartParagraphBreakReplacement
+articleTitle: SmartParagraphBreakReplacement
+second_title: Aspose.Words for .NET
+description: FindReplaceOptions SmartParagraphBreakReplacement mülk. Sonraki eş paragraf olmadığında break paragrafının değiştirilmesine izin verildiğini belirten bir boole değeri alır veya ayarlar C#'da.
 type: docs
 weight: 160
 url: /tr/net/aspose.words.replacing/findreplaceoptions/smartparagraphbreakreplacement/
@@ -16,11 +18,11 @@ Varsayılan değer:`YANLIŞ`.
 public bool SmartParagraphBreakReplacement { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu seçenek, tüm alt düğümlerinin taşınabileceği bir sonraki kardeş paragraf olmadığında, paragraf değiştirildikten sonra herhangi bir sonraki paragrafı (kardeş olması gerekmez) bularak paragraf sonunun değiştirilmesine olanak tanır.
 
-### Örnekler
+## Örnekler
 
 İç içe tablo içeren bir tablo hücresinden paragrafın nasıl kaldırılacağını gösterir.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Table.RemoveParagraphTextAndMark.docx");
 ### Ayrıca bakınız
 
 * class [FindReplaceOptions](../)
-* ad alanı [Aspose.Words.Replacing](../../findreplaceoptions/)
+* ad alanı [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * toplantı [Aspose.Words](../../../)
-
-

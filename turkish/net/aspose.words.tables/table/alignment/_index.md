@@ -1,7 +1,9 @@
 ---
 title: Table.Alignment
-second_title: Aspose.Words for .NET API Referansı
-description: Table mülk. Satır içi tablonun belgede nasıl hizalanacağını belirtir.
+linktitle: Alignment
+articleTitle: Alignment
+second_title: Aspose.Words for .NET
+description: Table Alignment mülk. Satır içi tablonun belgede nasıl hizalanacağını belirtir C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.tables/table/alignment/
@@ -14,11 +16,11 @@ Satır içi tablonun belgede nasıl hizalanacağını belirtir.
 public TableAlignment Alignment { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:Left.
 
-### Örnekler
+## Örnekler
 
 Bir tabloya anahat kenarlığının nasıl uygulanacağını gösterir.
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "Table.SetOutlineBorders.docx");
 
 * enum [TableAlignment](../../tablealignment/)
 * class [Table](../)
-* ad alanı [Aspose.Words.Tables](../../table/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

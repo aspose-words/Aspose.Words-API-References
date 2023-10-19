@@ -1,7 +1,9 @@
 ---
 title: EditableRangeEnd.Id
-second_title: Aspose.Words for .NET API Referansı
-description: EditableRangeEnd mülk. Düzenlenebilir aralığın tanımlayıcısını belirtir.
+linktitle: Id
+articleTitle: Id
+second_title: Aspose.Words for .NET
+description: EditableRangeEnd Id mülk. Düzenlenebilir aralığın tanımlayıcısını belirtir C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/editablerangeend/id/
@@ -14,7 +16,7 @@ Düzenlenebilir aralığın tanımlayıcısını belirtir.
 public int Id { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Düzenlenebilir bir aralıkla nasıl çalışılacağını gösterir.
 
@@ -60,7 +62,5 @@ editableRange.Remove();
 ### Ayrıca bakınız
 
 * class [EditableRangeEnd](../)
-* ad alanı [Aspose.Words](../../editablerangeend/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum PdfPermissions
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Saving.PdfPermissions Sıralama. Şifrelenmiş bir PDF belgesinde kullanıcıya izin verilen işlemleri belirtir.
+title: PdfPermissions Enum
+linktitle: PdfPermissions
+articleTitle: PdfPermissions
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Saving.PdfPermissions Sıralama. Şifrelenmiş bir PDF belgesinde kullanıcıya izin verilen işlemleri belirtir C#'da.
 type: docs
 weight: 5510
 url: /tr/net/aspose.words.saving/pdfpermissions/
@@ -30,7 +32,7 @@ public enum PdfPermissions
 | Printing | `4` | Belgeyi yazdırın ( olup olmadığına bağlı olarak muhtemelen en yüksek kalite düzeyinde değil)HighResolutionPrinting ayrıca ayarlanmıştır). |
 | HighResolutionPrinting | `804` | Belgeyi, uygulamaya bağlı bir algoritmaya dayalı olarak PDF içeriğinin aslına sadık bir dijital kopyasının oluşturulabileceği bir temsile yazdırın. Bu bayrak temiz olduğunda (and Printing ayarlandığında), yazdırma, görünümün düşük seviyeli temsiliyle sınırlı olacaktır, muhtemelen kalitesi düşmüş. |
 
-### Örnekler
+## Örnekler
 
 Kaydedilmiş bir PDF belgesinde izinlerin nasıl ayarlanacağını gösterir.
 
@@ -58,5 +60,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.EncryptionPermissions.pdf", saveOptions)
 
 * ad alanı [Aspose.Words.Saving](../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../)
-
-

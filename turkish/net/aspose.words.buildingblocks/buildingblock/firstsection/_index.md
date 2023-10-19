@@ -1,7 +1,9 @@
 ---
 title: BuildingBlock.FirstSection
-second_title: Aspose.Words for .NET API Referansı
-description: BuildingBlock mülk. Yapı bloğundaki ilk bölümü alır.
+linktitle: FirstSection
+articleTitle: FirstSection
+second_title: Aspose.Words for .NET
+description: BuildingBlock FirstSection mülk. Yapı bloğundaki ilk bölümü alır C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.buildingblocks/buildingblock/firstsection/
@@ -14,11 +16,11 @@ Yapı bloğundaki ilk bölümü alır.
 public Section FirstSection { get; }
 ```
 
-### Notlar
+## Notlar
 
 İadeler`hükümsüz` bölüm yoksa.
 
-### Örnekler
+## Örnekler
 
 Bir belgeye özel yapı taşının nasıl ekleneceğini gösterir.
 
@@ -116,7 +118,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 
 * class [Section](../../../aspose.words/section/)
 * class [BuildingBlock](../)
-* ad alanı [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* ad alanı [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Frameset.IsFrameLinkToFile
-second_title: Aspose.Words for .NET API Referansı
-description: Frameset mülk. Web sayfası veya belge dosya adının the de belirtilip belirtilmediğini belirten bir değer alır veya ayarlar.FrameDefaultUrl özellik çerçevenin bağlı olduğu harici bir kaynaktır.
+linktitle: IsFrameLinkToFile
+articleTitle: IsFrameLinkToFile
+second_title: Aspose.Words for .NET
+description: Frameset IsFrameLinkToFile mülk. Web sayfası veya belge dosya adının the de belirtilip belirtilmediğini belirten bir değer alır veya ayarlar.FrameDefaultUrl özellik çerçevenin bağlı olduğu harici bir kaynaktır C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.framesets/frameset/isframelinktofile/
@@ -14,7 +16,7 @@ Web sayfası veya belge dosya adının the 'de belirtilip belirtilmediğini beli
 public bool IsFrameLinkToFile { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Sayfadaki çerçevelere nasıl erişileceğini gösterir.
 
@@ -39,7 +41,5 @@ doc.Frameset.ChildFramesets[0].ChildFramesets[0].IsFrameLinkToFile = false;
 ### Ayrıca bakınız
 
 * class [Frameset](../)
-* ad alanı [Aspose.Words.Framesets](../../frameset/)
+* ad alanı [Aspose.Words.Framesets](../../../aspose.words.framesets/)
 * toplantı [Aspose.Words](../../../)
-
-

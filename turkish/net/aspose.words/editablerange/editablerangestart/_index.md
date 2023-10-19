@@ -1,7 +1,9 @@
 ---
 title: EditableRange.EditableRangeStart
-second_title: Aspose.Words for .NET API Referansı
-description: EditableRange mülk. Düzenlenebilir aralığın başlangıcını temsil eden düğümü alır.
+linktitle: EditableRangeStart
+articleTitle: EditableRangeStart
+second_title: Aspose.Words for .NET
+description: EditableRange EditableRangeStart mülk. Düzenlenebilir aralığın başlangıcını temsil eden düğümü alır C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/editablerange/editablerangestart/
@@ -14,7 +16,7 @@ Düzenlenebilir aralığın başlangıcını temsil eden düğümü alır.
 public EditableRangeStart EditableRangeStart { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Düzenlenebilir bir aralıkla nasıl çalışılacağını gösterir.
 
@@ -61,7 +63,5 @@ editableRange.Remove();
 
 * class [EditableRangeStart](../../editablerangestart/)
 * class [EditableRange](../)
-* ad alanı [Aspose.Words](../../editablerange/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

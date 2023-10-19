@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.BookmarkName
-second_title: Aspose.Words for .NET API Referansı
-description: FieldIndex mülk. Dizini oluşturmak için kullanılan belgenin bölümünü işaretleyen yer işaretinin adını alır veya ayarlar.
+linktitle: BookmarkName
+articleTitle: BookmarkName
+second_title: Aspose.Words for .NET
+description: FieldIndex BookmarkName mülk. Dizini oluşturmak için kullanılan belgenin bölümünü işaretleyen yer işaretinin adını alır veya ayarlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fieldindex/bookmarkname/
@@ -14,7 +16,7 @@ Dizini oluşturmak için kullanılan belgenin bölümünü işaretleyen yer işa
 public string BookmarkName { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir INDEX alanının nasıl oluşturulacağını ve ardından onu girişlerle doldurmak için XE alanlarının nasıl kullanılacağını gösterir.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Filtering.docx");
 ### Ayrıca bakınız
 
 * class [FieldIndex](../)
-* ad alanı [Aspose.Words.Fields](../../fieldindex/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

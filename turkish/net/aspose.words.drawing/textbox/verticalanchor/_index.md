@@ -1,7 +1,9 @@
 ---
 title: TextBox.VerticalAnchor
-second_title: Aspose.Words for .NET API Referansı
-description: TextBox mülk. Bir şekil içindeki metnin dikey hizalamasını belirtir.
+linktitle: VerticalAnchor
+articleTitle: VerticalAnchor
+second_title: Aspose.Words for .NET
+description: TextBox VerticalAnchor mülk. Bir şekil içindeki metnin dikey hizalamasını belirtir C#'da.
 type: docs
 weight: 120
 url: /tr/net/aspose.words.drawing/textbox/verticalanchor/
@@ -14,11 +16,11 @@ Bir şekil içindeki metnin dikey hizalamasını belirtir.
 public TextBoxAnchor VerticalAnchor { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:Top.
 
-### Örnekler
+## Örnekler
 
 Bir metin kutusunun metin içeriğinin dikey olarak nasıl hizalanacağını gösterir.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Shape.VerticalAnchor.docx");
 
 * enum [TextBoxAnchor](../../textboxanchor/)
 * class [TextBox](../)
-* ad alanı [Aspose.Words.Drawing](../../textbox/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

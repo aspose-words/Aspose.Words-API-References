@@ -1,7 +1,9 @@
 ---
 title: Shape.HasChart
-second_title: Aspose.Words for .NET API Referansı
-description: Shape mülk. İadelerdoğru Eğer buShape bir varChart .
+linktitle: HasChart
+articleTitle: HasChart
+second_title: Aspose.Words for .NET
+description: Shape HasChart mülk. İadelerdoğru Eğer buShape bir varChart  C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.drawing/shape/haschart/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.drawing/shape/haschart/
 public bool HasChart { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki tüm şekillerin nasıl yineleneceğini gösterir.
 
@@ -137,7 +139,5 @@ private class ShapeAppearancePrinter : DocumentVisitor
 ### Ayrıca bakınız
 
 * class [Shape](../)
-* ad alanı [Aspose.Words.Drawing](../../shape/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

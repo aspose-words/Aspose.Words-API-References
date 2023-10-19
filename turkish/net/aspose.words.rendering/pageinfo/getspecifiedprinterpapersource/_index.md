@@ -1,7 +1,9 @@
 ---
 title: PageInfo.GetSpecifiedPrinterPaperSource
-second_title: Aspose.Words for .NET API Referansı
-description: PageInfo yöntem. AlırPaperSource yazdırmaya uygun nesne bununla temsil edilen sayfaPageInfo .
+linktitle: GetSpecifiedPrinterPaperSource
+articleTitle: GetSpecifiedPrinterPaperSource
+second_title: Aspose.Words for .NET
+description: PageInfo GetSpecifiedPrinterPaperSource yöntem. AlırPaperSource yazdırmaya uygun nesne bununla temsil edilen sayfaPageInfo  C#'da.
 type: docs
 weight: 100
 url: /tr/net/aspose.words.rendering/pageinfo/getspecifiedprinterpapersource/
@@ -24,11 +26,11 @@ public PaperSource GetSpecifiedPrinterPaperSource(PaperSourceCollection paperSou
 
 Kağıt kaynağını belirtmek için .NET yazdırma çerçevesinde kullanabileceğiniz bir nesne.
 
-### Notlar
+## Notlar
 
 Bu yöntem .NET Framework 2.0 veya üstünü gerektirir.
 
-### Örnekler
+## Örnekler
 
 Bir Word belgesindeki her sayfa için sayfa boyutu ve yön bilgilerinin nasıl yazdırılacağını gösterir.
 
@@ -70,7 +72,5 @@ for (int i = 0; i < doc.PageCount; i++)
 ### Ayrıca bakınız
 
 * class [PageInfo](../)
-* ad alanı [Aspose.Words.Rendering](../../pageinfo/)
+* ad alanı [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * toplantı [Aspose.Words](../../../)
-
-

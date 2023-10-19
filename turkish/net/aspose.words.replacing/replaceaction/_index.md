@@ -1,7 +1,9 @@
 ---
-title: Enum ReplaceAction
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Replacing.ReplaceAction Sıralama. Kullanıcının değiştirme işlemi sırasında geçerli eşleşmeye ne olacağını belirlemesine olanak tanır.
+title: ReplaceAction Enum
+linktitle: ReplaceAction
+articleTitle: ReplaceAction
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Replacing.ReplaceAction Sıralama. Kullanıcının değiştirme işlemi sırasında geçerli eşleşmeye ne olacağını belirlemesine olanak tanır C#'da.
 type: docs
 weight: 4640
 url: /tr/net/aspose.words.replacing/replaceaction/
@@ -22,7 +24,7 @@ public enum ReplaceAction
 | Skip | `1` | Mevcut eşleşmeyi atla. |
 | Stop | `2` | Değiştirme işlemini sonlandırın. |
 
-### Örnekler
+## Örnekler
 
 Bul ve değiştir işleminde bir eşleşmenin yerine belgenin içeriğinin tamamının nasıl ekleneceğini gösterir.
 
@@ -100,5 +102,3 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
 * method [Replace](../../aspose.words/range/replace/)
 * ad alanı [Aspose.Words.Replacing](../../aspose.words.replacing/)
 * toplantı [Aspose.Words](../../)
-
-

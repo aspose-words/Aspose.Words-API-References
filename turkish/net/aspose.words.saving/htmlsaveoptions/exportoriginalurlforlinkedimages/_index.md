@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportOriginalUrlForLinkedImages
-second_title: Aspose.Words for .NET API Referansı
-description: HtmlSaveOptions mülk. Bağlantılı görsellerin URLsi olarak orijinal URLnin kullanılıp kullanılmayacağını belirtir. Varsayılan değerYANLIŞ .
+linktitle: ExportOriginalUrlForLinkedImages
+articleTitle: ExportOriginalUrlForLinkedImages
+second_title: Aspose.Words for .NET
+description: HtmlSaveOptions ExportOriginalUrlForLinkedImages mülk. Bağlantılı görsellerin URLsi olarak orijinal URLnin kullanılıp kullanılmayacağını belirtir. Varsayılan değerYANLIŞ  C#'da.
 type: docs
 weight: 200
 url: /tr/net/aspose.words.saving/htmlsaveoptions/exportoriginalurlforlinkedimages/
@@ -14,13 +16,13 @@ Bağlantılı görsellerin URL'si olarak orijinal URL'nin kullanılıp kullanıl
 public bool ExportOriginalUrlForLinkedImages { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Değer olarak ayarlanmışsa`doğru`[`SourceFullName`](../../../aspose.words.drawing/imagedata/sourcefullname/) Bağlantılı görsellerin URL'si ve bağlantılı görseller belgenin klasörüne yüklenmediğinden değer use şeklindedir veya[`ImagesFolder`](../imagesfolder/).
 
 Değer olarak ayarlanmışsa`YANLIŞ`bağlantılı resimler belgenin klasörüne veya yüklenir[`ImagesFolder`](../imagesfolder/) ve bağlantılı her görüntünün URL'si, belgenin klasörüne bağlı olarak oluşturulur,[`ImagesFolder`](../imagesfolder/) ve[`ImagesFolderAlias`](../imagesfolderalias/) özellikler.
 
-### Örnekler
+## Örnekler
 
 Aspose.Words'ün bir belgeyi HTML'ye kaydederken oluşturacağı harici olarak kaydedilen kaynaklar için klasörlerin ve klasör takma adlarının nasıl ayarlanacağını gösterir.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.FolderAlias.html", options);
 ### Ayrıca bakınız
 
 * class [HtmlSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../htmlsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

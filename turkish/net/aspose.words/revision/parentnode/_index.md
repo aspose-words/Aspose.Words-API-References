@@ -1,7 +1,9 @@
 ---
 title: Revision.ParentNode
-second_title: Aspose.Words for .NET API Referansı
-description: Revision mülk. Bu revizyonun doğrudan üst düğümünü sahibini alır. Bu özellik aşağıdakiler dışındaki tüm revizyon türleri için çalışacaktırStyleDefinitionChange .
+linktitle: ParentNode
+articleTitle: ParentNode
+second_title: Aspose.Words for .NET
+description: Revision ParentNode mülk. Bu revizyonun doğrudan üst düğümünü sahibini alır. Bu özellik aşağıdakiler dışındaki tüm revizyon türleri için çalışacaktırStyleDefinitionChange  C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words/revision/parentnode/
@@ -14,11 +16,11 @@ Bu revizyonun doğrudan üst düğümünü (sahibini) alır. Bu özellik, aşağ
 public Node ParentNode { get; }
 ```
 
-### Notlar
+## Notlar
 
 Bu revizyon Stil formatının değişikliğiyle ilgiliyse şunu kullanın:[`ParentStyle`](../parentstyle/) bunun yerine.
 
-### Örnekler
+## Örnekler
 
 Satır içi düğümün revizyon türünün nasıl belirleneceğini gösterir.
 
@@ -75,7 +77,5 @@ Assert.IsTrue(runs[5].IsDeleteRevision);
 
 * class [Node](../../node/)
 * class [Revision](../)
-* ad alanı [Aspose.Words](../../revision/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

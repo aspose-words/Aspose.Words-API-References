@@ -1,7 +1,9 @@
 ---
 title: ChartYValueCollection.Count
-second_title: Aspose.Words for .NET API Referansı
-description: ChartYValueCollection mülk. Bu koleksiyondaki öğelerin sayısını alır.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words for .NET
+description: ChartYValueCollection Count mülk. Bu koleksiyondaki öğelerin sayısını alır C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.drawing.charts/chartyvaluecollection/count/
@@ -17,7 +19,5 @@ public int Count { get; }
 ### Ayrıca bakınız
 
 * class [ChartYValueCollection](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartyvaluecollection/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

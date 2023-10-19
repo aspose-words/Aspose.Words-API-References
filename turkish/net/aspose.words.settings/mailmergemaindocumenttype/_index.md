@@ -1,7 +1,9 @@
 ---
-title: Enum MailMergeMainDocumentType
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Settings.MailMergeMainDocumentType Sıralama. Adresmektup birleştirme kaynak belgesinin olası türlerini belirtir.
+title: MailMergeMainDocumentType Enum
+linktitle: MailMergeMainDocumentType
+articleTitle: MailMergeMainDocumentType
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Settings.MailMergeMainDocumentType Sıralama. Adresmektup birleştirme kaynak belgesinin olası türlerini belirtir C#'da.
 type: docs
 weight: 5840
 url: /tr/net/aspose.words.settings/mailmergemaindocumenttype/
@@ -27,7 +29,7 @@ public enum MailMergeMainDocumentType
 | Fax | `32` | Adres-mektup birleştirme kaynak belgesinin faks türünde olduğunu belirtir. |
 | Default | `0` | Şuna eşittir:NotAMergeDocument |
 
-### Örnekler
+## Örnekler
 
 Bir Office Veri Kaynağı Nesnesinden alınan verilerle adres-mektup birleştirmenin nasıl yürütüleceğini gösterir.
 
@@ -81,5 +83,3 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 * property [MainDocumentType](../mailmergesettings/maindocumenttype/)
 * ad alanı [Aspose.Words.Settings](../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../)
-
-

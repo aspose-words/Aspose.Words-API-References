@@ -1,7 +1,9 @@
 ---
 title: FieldToc.PrefixedSequenceIdentifier
-second_title: Aspose.Words for .NET API Referansı
-description: FieldToc mülk. Girişin sayfa numarasına bir önekin eklenmesi gereken bir sıranın tanımlayıcısını alır veya ayarlar.
+linktitle: PrefixedSequenceIdentifier
+articleTitle: PrefixedSequenceIdentifier
+second_title: Aspose.Words for .NET
+description: FieldToc PrefixedSequenceIdentifier mülk. Girişin sayfa numarasına bir önekin eklenmesi gereken bir sıranın tanımlayıcısını alır veya ayarlar C#'da.
 type: docs
 weight: 120
 url: /tr/net/aspose.words.fields/fieldtoc/prefixedsequenceidentifier/
@@ -14,7 +16,7 @@ Girişin sayfa numarasına bir önekin eklenmesi gereken bir sıranın tanımlay
 public string PrefixedSequenceIdentifier { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir TOC alanının SEQ alanlarını kullanarak girişlerle nasıl doldurulacağını gösterir.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "Field.TOC.SEQ.docx");
 ### Ayrıca bakınız
 
 * class [FieldToc](../)
-* ad alanı [Aspose.Words.Fields](../../fieldtoc/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Bookmark.Name
-second_title: Aspose.Words for .NET API Referansı
-description: Bookmark mülk. Yer iminin adını alır veya ayarlar.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words for .NET
+description: Bookmark Name mülk. Yer iminin adını alır veya ayarlar C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words/bookmark/name/
@@ -14,11 +16,11 @@ Yer iminin adını alır veya ayarlar.
 public string Name { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bir yer iminin adını, belgede zaten mevcut olan bir adla değiştirirseniz, herhangi bir hata verilmeyeceğini ve belgeyi kaydettiğinizde yalnızca ilk yer iminin saklanacağını unutmayın.
 
-### Örnekler
+## Örnekler
 
 Yer iminin nasıl ekleneceğini gösterir.
 
@@ -127,7 +129,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 ### Ayrıca bakınız
 
 * class [Bookmark](../)
-* ad alanı [Aspose.Words](../../bookmark/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

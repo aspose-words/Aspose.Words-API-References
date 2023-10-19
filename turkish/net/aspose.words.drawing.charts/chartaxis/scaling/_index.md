@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.Scaling
-second_title: Aspose.Words for .NET API Referansı
-description: ChartAxis mülk. Eksenin ölçeklendirme seçeneklerine erişim sağlar.
+linktitle: Scaling
+articleTitle: Scaling
+second_title: Aspose.Words for .NET
+description: ChartAxis Scaling mülk. Eksenin ölçeklendirme seçeneklerine erişim sağlar C#'da.
 type: docs
 weight: 210
 url: /tr/net/aspose.words.drawing.charts/chartaxis/scaling/
@@ -14,7 +16,7 @@ Eksenin ölçeklendirme seçeneklerine erişim sağlar.
 public AxisScaling Scaling { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Tarih/saat değerleriyle grafiğin nasıl ekleneceğini gösterir.
 
@@ -69,7 +71,5 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 
 * class [AxisScaling](../../axisscaling/)
 * class [ChartAxis](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

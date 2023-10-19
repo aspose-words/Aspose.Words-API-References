@@ -1,7 +1,9 @@
 ---
-title: Class PageRange
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Saving.PageRange sınıf. Sürekli bir sayfa aralığını temsil eder.
+title: PageRange Class
+linktitle: PageRange
+articleTitle: PageRange
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Saving.PageRange sınıf. Sürekli bir sayfa aralığını temsil eder C#'da.
 type: docs
 weight: 5370
 url: /tr/net/aspose.words.saving/pagerange/
@@ -20,11 +22,9 @@ public sealed class PageRange
 
 | İsim | Tanım |
 | --- | --- |
-| [PageRange](pagerange/)(int, int) | Yeni bir sayfa aralığı nesnesi oluşturur. |
+| [PageRange](pagerange/)(*int, int*) | Yeni bir sayfa aralığı nesnesi oluşturur. |
 
 ### Ayrıca bakınız
 
 * ad alanı [Aspose.Words.Saving](../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../)
-
-

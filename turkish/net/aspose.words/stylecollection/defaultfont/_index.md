@@ -1,7 +1,9 @@
 ---
 title: StyleCollection.DefaultFont
-second_title: Aspose.Words for .NET API Referansı
-description: StyleCollection mülk. Belgenin varsayılan metin formatını alır.
+linktitle: DefaultFont
+articleTitle: DefaultFont
+second_title: Aspose.Words for .NET
+description: StyleCollection DefaultFont mülk. Belgenin varsayılan metin formatını alır C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/stylecollection/defaultfont/
@@ -14,11 +16,11 @@ Belgenin varsayılan metin formatını alır.
 public Font DefaultFont { get; }
 ```
 
-### Notlar
+## Notlar
 
 Belge genelindeki varsayılanların Microsoft Word 2007'de sunulduğunu ve OOXML formatlarında tam olarak desteklendiğini unutmayın (Docx) yalnızca. Önceki belge biçimlerinin bu özellik için sınırlı desteği vardır ve yalnızca yazı tipi adları saklanabilir.
 
-### Örnekler
+## Örnekler
 
 Bir belgenin stil koleksiyonuna nasıl Stil ekleneceğini gösterir.
 
@@ -42,7 +44,5 @@ Assert.AreEqual(15.0, styles["MyStyle"].ParagraphFormat.FirstLineIndent);
 
 * class [Font](../../font/)
 * class [StyleCollection](../)
-* ad alanı [Aspose.Words](../../stylecollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

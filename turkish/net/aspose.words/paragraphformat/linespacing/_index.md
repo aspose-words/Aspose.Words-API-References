@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.LineSpacing
-second_title: Aspose.Words for .NET API Referansı
-description: ParagraphFormat mülk. Paragrafın satır aralığını nokta cinsinden alır veya ayarlar.
+linktitle: LineSpacing
+articleTitle: LineSpacing
+second_title: Aspose.Words for .NET
+description: ParagraphFormat LineSpacing mülk. Paragrafın satır aralığını nokta cinsinden alır veya ayarlar C#'da.
 type: docs
 weight: 190
 url: /tr/net/aspose.words/paragraphformat/linespacing/
@@ -14,13 +16,13 @@ Paragrafın satır aralığını (nokta cinsinden) alır veya ayarlar.
 public double LineSpacing { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Ne zaman[`LineSpacingRule`](../linespacingrule/) özellik şu şekilde ayarlandı:AtLeast satır aralığı, 'den büyük veya ona eşit olabilir ancak asla belirtilenden az olamaz`LineSpacing` değer.
 
 Ne zaman[`LineSpacingRule`](../linespacingrule/) özellik şu şekilde ayarlandı:Exactly , satır aralığı hiçbir zaman belirtilen from değişmez`LineSpacing` Paragrafta daha büyük bir yazı tipi kullanılsa bile değer.
 
-### Örnekler
+## Örnekler
 
 Satır aralığıyla nasıl çalışılacağını gösterir.
 
@@ -61,7 +63,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.LineSpacing.docx");
 ### Ayrıca bakınız
 
 * class [ParagraphFormat](../)
-* ad alanı [Aspose.Words](../../paragraphformat/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

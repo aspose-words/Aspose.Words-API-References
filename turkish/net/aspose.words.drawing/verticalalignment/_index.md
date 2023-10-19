@@ -1,7 +1,9 @@
 ---
-title: Enum VerticalAlignment
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.VerticalAlignment Sıralama. Kayan bir şeklin metin çerçevesinin veya kayan bir tablonun dikey hizalamasını belirtir.
+title: VerticalAlignment Enum
+linktitle: VerticalAlignment
+articleTitle: VerticalAlignment
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.VerticalAlignment Sıralama. Kayan bir şeklin metin çerçevesinin veya kayan bir tablonun dikey hizalamasını belirtir C#'da.
 type: docs
 weight: 1380
 url: /tr/net/aspose.words.drawing/verticalalignment/
@@ -18,7 +20,7 @@ public enum VerticalAlignment
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| None | `0` | Nesne, genellikle kendi özelliği kullanılarak açıkça konumlandırılır. **Tepe** özellik. |
+| None | `0` | Nesne, genellikle kendi özelliği kullanılarak açıkça konumlandırılır.**Tepe** özellik. |
 | Top | `1` | Nesnenin dikey hizalama tabanının üstünde olacağını belirtir. |
 | Center | `2` | Nesnenin dikey hizalama tabanına göre ortalanacağını belirtir. |
 | Bottom | `3` | Nesnenin dikey hizalama tabanının altında olacağını belirtir. |
@@ -27,7 +29,7 @@ public enum VerticalAlignment
 | Inline | `-1` | Belgelenmedi. Kayan paragraflar ve tablolar için olası bir değer gibi görünüyor. |
 | Default | `0` | Şununla aynıNone . |
 
-### Örnekler
+## Örnekler
 
 Sayfanın ortasına kayan bir görüntünün nasıl ekleneceğini gösterir.
 
@@ -52,5 +54,3 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPageCenter.docx");
 * property [VerticalAlignment](../shapebase/verticalalignment/)
 * ad alanı [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../)
-
-

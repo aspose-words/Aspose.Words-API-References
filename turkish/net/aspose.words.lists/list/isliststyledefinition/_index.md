@@ -1,7 +1,9 @@
 ---
 title: List.IsListStyleDefinition
-second_title: Aspose.Words for .NET API Referansı
-description: List mülk. İadelerdoğru bu liste bir liste stilinin tanımıysa.
+linktitle: IsListStyleDefinition
+articleTitle: IsListStyleDefinition
+second_title: Aspose.Words for .NET
+description: List IsListStyleDefinition mülk. İadelerdoğru bu liste bir liste stilinin tanımıysa C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.lists/list/isliststyledefinition/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.lists/list/isliststyledefinition/
 public bool IsListStyleDefinition { get; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özellik olduğunda`doğru` ,[`Style`](../style/) özelliği, bu listenin tanımladığı liste stilini döndürür.
 
@@ -22,7 +24,7 @@ Liste stilini tanımlayan bir listenin özelliklerini değiştirerek, liste stil
 
 Liste stilinin tanımı olan bir liste, paragraf 'yi numaralandırmak için doğrudan uygulanamaz.
 
-### Örnekler
+## Örnekler
 
 Liste stilinin nasıl oluşturulacağını ve belgede nasıl kullanılacağını gösterir.
 
@@ -83,7 +85,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateAndUseListStyle.docx");
 ### Ayrıca bakınız
 
 * class [List](../)
-* ad alanı [Aspose.Words.Lists](../../list/)
+* ad alanı [Aspose.Words.Lists](../../../aspose.words.lists/)
 * toplantı [Aspose.Words](../../../)
-
-

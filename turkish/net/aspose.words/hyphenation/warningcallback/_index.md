@@ -1,7 +1,9 @@
 ---
 title: Hyphenation.WarningCallback
-second_title: Aspose.Words for .NET API Referansı
-description: Hyphenation mülk. Yük tireleme desenleri sırasında biçimlendirme aslına uygunluk kaybına yol açabilecek bir sorun algılandığında çağrılır.
+linktitle: WarningCallback
+articleTitle: WarningCallback
+second_title: Aspose.Words for .NET
+description: Hyphenation WarningCallback mülk. Yük tireleme desenleri sırasında biçimlendirme aslına uygunluk kaybına yol açabilecek bir sorun algılandığında çağrılır C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/hyphenation/warningcallback/
@@ -14,7 +16,7 @@ Yük tireleme desenleri sırasında, biçimlendirme aslına uygunluk kaybına yo
 public static IWarningCallback WarningCallback { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir dosyadan sözlüğün nasıl açılacağını ve kaydedileceğini gösterir.
 
@@ -91,7 +93,5 @@ private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 
 * interface [IWarningCallback](../../iwarningcallback/)
 * class [Hyphenation](../)
-* ad alanı [Aspose.Words](../../hyphenation/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

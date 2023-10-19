@@ -1,7 +1,9 @@
 ---
 title: StyleCollection.AddCopy
-second_title: Aspose.Words for .NET API Referansı
-description: StyleCollection yöntem. Bu koleksiyona bir stil kopyalar.
+linktitle: AddCopy
+articleTitle: AddCopy
+second_title: Aspose.Words for .NET
+description: StyleCollection AddCopy yöntem. Bu koleksiyona bir stil kopyalar C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words/stylecollection/addcopy/
@@ -22,7 +24,7 @@ public Style AddCopy(Style style)
 
 Kopyalanan stil kullanıma hazır.
 
-### Notlar
+## Notlar
 
 Kopyalanacak stil aynı belgeye ait olabileceği gibi farklı bir belgeye de ait olabilir.
 
@@ -32,7 +34,7 @@ Bu yöntem temel stilleri kopyalamaz.
 
 Koleksiyon zaten aynı ada sahip bir stil içeriyorsa, yeni ad is , 0'dan başlayarak "_number" son eki eklenerek otomatik olarak oluşturulur; örneğin "Normal_0", "Başlık 1_1" vb. Kullan[`Name`](../../style/name/) içe aktarılan stilin adını değiştirmek için ayarlayıcı.
 
-### Örnekler
+## Örnekler
 
 Bir stilin bir belgeden farklı bir belgeye nasıl aktarılacağını gösterir.
 
@@ -81,7 +83,5 @@ Assert.AreNotEqual(doc.Styles["Heading 1"].Font.Color, newStyle.Font.Color);
 
 * class [Style](../../style/)
 * class [StyleCollection](../)
-* ad alanı [Aspose.Words](../../stylecollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.SpaceBeforeAuto
-second_title: Aspose.Words for .NET API Referansı
-description: ParagraphFormat mülk. Paragraftan önceki boşluk miktarı otomatik olarak ayarlanıyorsa doğrudur.
+linktitle: SpaceBeforeAuto
+articleTitle: SpaceBeforeAuto
+second_title: Aspose.Words for .NET
+description: ParagraphFormat SpaceBeforeAuto mülk. Paragraftan önceki boşluk miktarı otomatik olarak ayarlanıyorsa doğrudur C#'da.
 type: docs
 weight: 330
 url: /tr/net/aspose.words/paragraphformat/spacebeforeauto/
@@ -14,7 +16,7 @@ Paragraftan önceki boşluk miktarı otomatik olarak ayarlanıyorsa doğrudur.
 public bool SpaceBeforeAuto { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 olarak ayarlandığında`doğru` etkisini geçersiz kılar[`SpaceBefore`](../spacebefore/).
 
@@ -27,7 +29,7 @@ Paragraf Öncesindeki Boşluk ve Sonraki Boşluk'u Otomatik olarak ayarladığı
 * Tablo hücresindeki son blok ise tablodan sonra boşluk eklenmez.
 * Tablo hücresinde son paragraftan sonra boşluk eklenmez.
 
-### Örnekler
+## Örnekler
 
 Otomatik paragraf aralığının nasıl ayarlanacağını gösterir.
 
@@ -55,7 +57,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.ParagraphSpacingAuto.docx");
 ### Ayrıca bakınız
 
 * class [ParagraphFormat](../)
-* ad alanı [Aspose.Words](../../paragraphformat/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: TableStyle.Bidi
-second_title: Aspose.Words for .NET API Referansı
-description: TableStyle mülk. Bunun sağdan sola tabloya yönelik bir stil olup olmadığını alır veya ayarlar.
+linktitle: Bidi
+articleTitle: Bidi
+second_title: Aspose.Words for .NET
+description: TableStyle Bidi mülk. Bunun sağdan sola tabloya yönelik bir stil olup olmadığını alır veya ayarlar C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/tablestyle/bidi/
@@ -14,13 +16,13 @@ Bunun sağdan sola tabloya yönelik bir stil olup olmadığını alır veya ayar
 public bool Bidi { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Ne zaman`doğru`, satırlardaki hücreler sağdan sola doğru düzenlenir.
 
 Varsayılan değer:`YANLIŞ`.
 
-### Örnekler
+## Örnekler
 
 Tablo için özel stil ayarlarının nasıl oluşturulacağını gösterir.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Table.TableStyleCreation.docx");
 ### Ayrıca bakınız
 
 * class [TableStyle](../)
-* ad alanı [Aspose.Words](../../tablestyle/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

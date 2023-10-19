@@ -1,7 +1,9 @@
 ---
-title: Class Section
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Section sınıf. Bir belgedeki tek bir bölümü temsil eder.
+title: Section Class
+linktitle: Section
+articleTitle: Section
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Section sınıf. Bir belgedeki tek bir bölümü temsil eder C#'da.
 type: docs
 weight: 5730
 url: /tr/net/aspose.words/section/
@@ -20,7 +22,7 @@ public sealed class Section : CompositeNode
 
 | İsim | Tanım |
 | --- | --- |
-| [Section](section/)(DocumentBase) | Bölüm sınıfının yeni bir örneğini başlatır. |
+| [Section](section/)(*[DocumentBase](../documentbase/)*) | Bölüm sınıfının yeni bir örneğini başlatır. |
 
 ## Özellikleri
 
@@ -47,41 +49,39 @@ public sealed class Section : CompositeNode
 
 | İsim | Tanım |
 | --- | --- |
-| override [Accept](../../aspose.words/section/accept/)(DocumentVisitor) | Ziyaretçi kabul eder. |
-| override [AcceptEnd](../../aspose.words/section/acceptend/)(DocumentVisitor) |  |
-| override [AcceptStart](../../aspose.words/section/acceptstart/)(DocumentVisitor) |  |
-| [AppendChild&lt;T&gt;](../../aspose.words/compositenode/appendchild/)(T) |  |
-| [AppendContent](../../aspose.words/section/appendcontent/)(Section) | Kaynak bölümünün içeriğinin bir kopyasını bu bölümün sonuna ekler. |
+| override [Accept](../../aspose.words/section/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Ziyaretçi kabul eder. |
+| [AppendChild](../../aspose.words/compositenode/appendchild/)(*[Node](../node/)*) | Belirtilen düğümü, bu düğüm için alt düğümler listesinin sonuna ekler. |
+| [AppendContent](../../aspose.words/section/appendcontent/)(*Section*) | Kaynak bölümünün içeriğinin bir kopyasını bu bölümün sonuna ekler. |
 | [ClearContent](../../aspose.words/section/clearcontent/)() | Bölümü temizler. |
 | [ClearHeadersFooters](../../aspose.words/section/clearheadersfooters/)() | Bu bölümün üstbilgilerini ve altbilgilerini temizler. |
 | [Clone](../../aspose.words/section/clone/#clone_1)() | Bu bölümün bir kopyasını oluşturur. |
-| [Clone](../../aspose.words/node/clone/)(bool) | Düğümün bir kopyasını oluşturur. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Düğümün bir kopyasını oluşturur. |
 | [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Düğümlerin arasında geçiş yapmak ve düğümleri okumak için kullanılabilecek gezgini oluşturur. |
 | [DeleteHeaderFooterShapes](../../aspose.words/section/deleteheaderfootershapes/)() | Bu bölümün üst bilgilerinden ve alt bilgilerinden tüm şekilleri (çizim nesneleri) siler. |
 | [EnsureMinimum](../../aspose.words/section/ensureminimum/)() | Bölümün sahip olmasını sağlar[`Body`](./body/) biriyle[`Paragraph`](../paragraph/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Belirtilenin ilk atayı alır[`NodeType`](../nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Belirtilen nesne türünün ilk atayı alır. |
-| [GetChild](../../aspose.words/compositenode/getchild/)(NodeType, int, bool) | Belirtilen türle eşleşen N'inci alt düğümü döndürür. |
-| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(NodeType, bool) | Belirtilen türle eşleşen alt düğümlerin canlı bir koleksiyonunu döndürür. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | Belirtilenin ilk atayı alır[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Belirtilen nesne türünün ilk atayı alır. |
+| [GetChild](../../aspose.words/compositenode/getchild/)(*[NodeType](../nodetype/), int, bool*) | Belirtilen türle eşleşen N'inci alt düğümü döndürür. |
+| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(*[NodeType](../nodetype/), bool*) | Belirtilen türle eşleşen alt düğümlerin canlı bir koleksiyonunu döndürür. |
 | [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() | Bu düğümün alt düğümleri üzerindeki her stil yinelemesi için destek sağlar. |
 | override [GetText](../../aspose.words/compositenode/gettext/)() | Bu düğümün ve tüm alt öğelerinin metnini alır. |
-| [IndexOf](../../aspose.words/compositenode/indexof/)(Node) | Alt düğüm dizisinde belirtilen alt düğümün dizinini döndürür. |
-| [InsertAfter&lt;T&gt;](../../aspose.words/compositenode/insertafter/)(T, Node) |  |
-| [InsertBefore&lt;T&gt;](../../aspose.words/compositenode/insertbefore/)(T, Node) |  |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Ön sipariş ağaç geçiş algoritmasına göre sonraki düğümü alır. |
-| [PrependChild&lt;T&gt;](../../aspose.words/compositenode/prependchild/)(T) |  |
-| [PrependContent](../../aspose.words/section/prependcontent/)(Section) | Kaynak bölümünün içeriğinin bir kopyasını bu bölümün başına ekler. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Ön sipariş ağaç geçiş algoritmasına göre önceki düğümü alır. |
+| [IndexOf](../../aspose.words/compositenode/indexof/)(*[Node](../node/)*) | Alt düğüm dizisinde belirtilen alt düğümün dizinini döndürür. |
+| [InsertAfter](../../aspose.words/compositenode/insertafter/)(*[Node](../node/), [Node](../node/)*) | Belirtilen düğümü, belirtilen referans düğümünün hemen sonrasına ekler. |
+| [InsertBefore](../../aspose.words/compositenode/insertbefore/)(*[Node](../node/), [Node](../node/)*) | Belirtilen düğümü, belirtilen referans düğümünün hemen öncesine ekler. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Ön sipariş ağaç geçiş algoritmasına göre sonraki düğümü alır. |
+| [PrependChild](../../aspose.words/compositenode/prependchild/)(*[Node](../node/)*) | Belirtilen düğümü, bu düğüm için alt düğümler listesinin başına ekler. |
+| [PrependContent](../../aspose.words/section/prependcontent/)(*Section*) | Kaynak bölümünün içeriğinin bir kopyasını bu bölümün başına ekler. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Ön sipariş ağaç geçiş algoritmasına göre önceki düğümü alır. |
 | [Remove](../../aspose.words/node/remove/)() | Kendini üst öğeden kaldırır. |
 | [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | Geçerli düğümün tüm alt düğümlerini kaldırır. |
-| [RemoveChild&lt;T&gt;](../../aspose.words/compositenode/removechild/)(T) |  |
+| [RemoveChild](../../aspose.words/compositenode/removechild/)(*[Node](../node/)*) | Belirtilen alt düğümü kaldırır. |
 | [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Tümünü kaldırır[`SmartTag`](../../aspose.words.markup/smarttag/)Geçerli düğümün alt düğümleri. |
-| [SelectNodes](../../aspose.words/compositenode/selectnodes/)(string) | XPath ifadesiyle eşleşen düğümlerin listesini seçer. |
-| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | İlkini seçer[`Node`](../node/) XPath ifadesiyle eşleşen. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Düğümün içeriğini belirtilen formatta bir dizeye aktarır. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Belirtilen kaydetme seçeneklerini kullanarak düğümün içeriğini bir dizeye aktarır. |
+| [SelectNodes](../../aspose.words/compositenode/selectnodes/)(*string*) | XPath ifadesiyle eşleşen düğümlerin listesini seçer. |
+| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(*string*) | İlkini seçer[`Node`](../node/) XPath ifadesiyle eşleşen. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Düğümün içeriğini belirtilen formatta bir dizeye aktarır. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Belirtilen kaydetme seçeneklerini kullanarak düğümün içeriğini bir dizeye aktarır. |
 
-### Notlar
+## Notlar
 
 `Section` bir tane olabilir[`Body`](../body/) ve maksimum bir[`HeaderFooter`](../headerfooter/) her birinden [`HeaderFooterType`](../headerfootertype/) .[`Body`](../body/) Ve[`HeaderFooter`](../headerfooter/) nodes içeride herhangi bir sırada olabilir`Section`.
 
@@ -95,7 +95,7 @@ Bölüm sonu ve bölüm özellikleri de dahil olmak üzere bir bölümün tamam�
 
 Break bölümü ve bölüm özellikleri hariç, yalnızca bölümün içeriğini kopyalamak ve eklemek için şunu kullanın:[`AppendContent`](./appendcontent/) Ve[`PrependContent`](./prependcontent/) yöntemler.
 
-### Örnekler
+## Örnekler
 
 Aspose.Words belgesinin elle nasıl oluşturulacağını gösterir.
 
@@ -147,5 +147,3 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 * class [CompositeNode](../compositenode/)
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

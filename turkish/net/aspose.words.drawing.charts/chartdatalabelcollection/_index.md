@@ -1,7 +1,9 @@
 ---
-title: Class ChartDataLabelCollection
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.Charts.ChartDataLabelCollection sınıf. Aşağıdakilerin bir koleksiyonunu temsil ederChartDataLabel .
+title: ChartDataLabelCollection Class
+linktitle: ChartDataLabelCollection
+articleTitle: ChartDataLabelCollection
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.Charts.ChartDataLabelCollection sınıf. Aşağıdakilerin bir koleksiyonunu temsil ederChartDataLabel  C#'da.
 type: docs
 weight: 680
 url: /tr/net/aspose.words.drawing.charts/chartdatalabelcollection/
@@ -42,7 +44,7 @@ public class ChartDataLabelCollection : IEnumerable<ChartDataLabel>
 | [ClearFormat](../../aspose.words.drawing.charts/chartdatalabelcollection/clearformat/)() | Tümünün biçimini temizler[`ChartDataLabel`](../chartdatalabel/) bu koleksiyonda. |
 | [GetEnumerator](../../aspose.words.drawing.charts/chartdatalabelcollection/getenumerator/)() | Bir numaralandırıcı nesnesini döndürür. |
 
-### Örnekler
+## Örnekler
 
 Çizgi grafikteki veri noktalarına etiketlerin nasıl uygulanacağını gösterir.
 
@@ -122,5 +124,3 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 * class [ChartDataLabel](../chartdatalabel/)
 * ad alanı [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../)
-
-

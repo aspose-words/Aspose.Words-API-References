@@ -1,7 +1,9 @@
 ---
-title: Class FileFormatInfo
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.FileFormatInfo sınıf. Tarafından döndürülen verileri içerirFileFormatUtil belge biçimi algılama yöntemleri.
+title: FileFormatInfo Class
+linktitle: FileFormatInfo
+articleTitle: FileFormatInfo
+second_title: Aspose.Words for .NET
+description: Aspose.Words.FileFormatInfo sınıf. Tarafından döndürülen verileri içerirFileFormatUtil belge biçimi algılama yöntemleri C#'da.
 type: docs
 weight: 2810
 url: /tr/net/aspose.words/fileformatinfo/
@@ -25,11 +27,11 @@ public class FileFormatInfo
 | [IsEncrypted](../../aspose.words/fileformatinfo/isencrypted/) { get; } | İadeler`doğru` belge şifrelenmişse ve açmak için şifre gerektiriyorsa. |
 | [LoadFormat](../../aspose.words/fileformatinfo/loadformat/) { get; } | Algılanan belge biçimini alır. |
 
-### Notlar
+## Notlar
 
 Bu sınıfın örneklerini doğrudan oluşturmazsınız. Bu sınıfın nesneleri tarafından döndürülür[`DetectFileFormat`](../fileformatutil/detectfileformat/) yöntemler.
 
-### Örnekler
+## Örnekler
 
 Belge biçimini ve şifrelemeyi algılamak için FileFormatUtil sınıfının nasıl kullanılacağını gösterir.
 
@@ -76,5 +78,3 @@ Assert.AreEqual(1, DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "File.Dete
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

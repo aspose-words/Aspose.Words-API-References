@@ -1,7 +1,9 @@
 ---
 title: DropDownItemCollection.RemoveAt
-second_title: Aspose.Words for .NET API Referansı
-description: DropDownItemCollection yöntem. Belirtilen dizindeki bir değeri kaldırır.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words for .NET
+description: DropDownItemCollection RemoveAt yöntem. Belirtilen dizindeki bir değeri kaldırır C#'da.
 type: docs
 weight: 100
 url: /tr/net/aspose.words.fields/dropdownitemcollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | Sıfır tabanlı endeks. |
 
-### Örnekler
+## Örnekler
 
 Açılan kutu alanının nasıl ekleneceğini ve öğe koleksiyonundaki öğelerin nasıl düzenleneceğini gösterir.
 
@@ -72,7 +74,5 @@ dropDownItems.Clear();
 ### Ayrıca bakınız
 
 * class [DropDownItemCollection](../)
-* ad alanı [Aspose.Words.Fields](../../dropdownitemcollection/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Interface IDocumentPartSavingCallback
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Saving.IDocumentPartSavingCallback arayüz. Bildirim almak ve nasıl yapılacağını kontrol etmek istiyorsanız bu arayüzü uygulayın Aspose.Words bir belgeyi dışa aktarırken belgenin bölümlerini kaydederHtml veyaEpub format.
+title: IDocumentPartSavingCallback Interface
+linktitle: IDocumentPartSavingCallback
+articleTitle: IDocumentPartSavingCallback
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Saving.IDocumentPartSavingCallback arayüz. Bildirim almak ve nasıl yapılacağını kontrol etmek istiyorsanız bu arayüzü uygulayın Aspose.Words bir belgeyi dışa aktarırken belgenin bölümlerini kaydederHtml veyaEpub format C#'da.
 type: docs
 weight: 5140
 url: /tr/net/aspose.words.saving/idocumentpartsavingcallback/
@@ -18,9 +20,9 @@ public interface IDocumentPartSavingCallback
 
 | İsim | Tanım |
 | --- | --- |
-| [DocumentPartSaving](../../aspose.words.saving/idocumentpartsavingcallback/documentpartsaving/)(DocumentPartSavingArgs) | Aspose.Words bir belge bölümünü kaydetmek üzereyken çağrılır. |
+| [DocumentPartSaving](../../aspose.words.saving/idocumentpartsavingcallback/documentpartsaving/)(*[DocumentPartSavingArgs](../documentpartsavingargs/)*) | Aspose.Words bir belge bölümünü kaydetmek üzereyken çağrılır. |
 
-### Örnekler
+## Örnekler
 
 Bir belgenin nasıl parçalara ayrılacağını ve kaydedileceğini gösterir.
 
@@ -138,5 +140,3 @@ public class SavedImageRename : IImageSavingCallback
 
 * ad alanı [Aspose.Words.Saving](../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../)
-
-

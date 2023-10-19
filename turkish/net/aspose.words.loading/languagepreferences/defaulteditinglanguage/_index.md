@@ -1,7 +1,9 @@
 ---
 title: LanguagePreferences.DefaultEditingLanguage
-second_title: Aspose.Words for .NET API Referansı
-description: LanguagePreferences mülk. Varsayılan düzenleme dilini alır veya ayarlar.
+linktitle: DefaultEditingLanguage
+articleTitle: DefaultEditingLanguage
+second_title: Aspose.Words for .NET
+description: LanguagePreferences DefaultEditingLanguage mülk. Varsayılan düzenleme dilini alır veya ayarlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.loading/languagepreferences/defaulteditinglanguage/
@@ -16,7 +18,7 @@ Varsayılan değer:EnglishUS.
 public EditingLanguage DefaultEditingLanguage { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi yüklerken varsayılan dilin nasıl ayarlanacağını gösterir.
 
@@ -36,7 +38,5 @@ Console.WriteLine(localeId == (int)EditingLanguage.Russian
 
 * enum [EditingLanguage](../../editinglanguage/)
 * class [LanguagePreferences](../)
-* ad alanı [Aspose.Words.Loading](../../languagepreferences/)
+* ad alanı [Aspose.Words.Loading](../../../aspose.words.loading/)
 * toplantı [Aspose.Words](../../../)
-
-

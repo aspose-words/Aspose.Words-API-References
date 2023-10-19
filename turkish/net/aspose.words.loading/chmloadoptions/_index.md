@@ -1,7 +1,9 @@
 ---
-title: Class ChmLoadOptions
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Loading.ChmLoadOptions sınıf. CHM belgesini bir dosyaya yüklerken ek seçeneklerin belirtilmesine izin verirDocument nesne.
+title: ChmLoadOptions Class
+linktitle: ChmLoadOptions
+articleTitle: ChmLoadOptions
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Loading.ChmLoadOptions sınıf. CHM belgesini bir dosyaya yüklerken ek seçeneklerin belirtilmesine izin verirDocument nesne C#'da.
 type: docs
 weight: 3570
 url: /tr/net/aspose.words.loading/chmloadoptions/
@@ -48,12 +50,10 @@ public class ChmLoadOptions : LoadOptions
 
 | İsim | Tanım |
 | --- | --- |
-| override [Equals](../../aspose.words.loading/loadoptions/equals/)(object) |  |
+| override [Equals](../../aspose.words.loading/loadoptions/equals/)(*object*) |  |
 
 ### Ayrıca bakınız
 
 * class [LoadOptions](../loadoptions/)
 * ad alanı [Aspose.Words.Loading](../../aspose.words.loading/)
 * toplantı [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Document.PageCount
-second_title: Aspose.Words for .NET API Referansı
-description: Document mülk. En son sayfa düzeni işlemiyle hesaplanan belgedeki sayfa sayısını alır.
+linktitle: PageCount
+articleTitle: PageCount
+second_title: Aspose.Words for .NET
+description: Document PageCount mülk. En son sayfa düzeni işlemiyle hesaplanan belgedeki sayfa sayısını alır C#'da.
 type: docs
 weight: 320
 url: /tr/net/aspose.words/document/pagecount/
@@ -14,7 +16,7 @@ En son sayfa düzeni işlemiyle hesaplanan belgedeki sayfa sayısını alır.
 public int PageCount { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Belgedeki sayfa sayısının nasıl sayılacağını gösterir.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "Document.GetPageCount.pdf");
 
 * method [UpdatePageLayout](../updatepagelayout/)
 * class [Document](../)
-* ad alanı [Aspose.Words](../../document/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-
