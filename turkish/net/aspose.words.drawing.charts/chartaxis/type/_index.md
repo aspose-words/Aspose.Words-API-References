@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.Type
-second_title: Aspose.Words for .NET API Referansı
-description: ChartAxis mülk. Eksenin türünü döndürür.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words for .NET
+description: ChartAxis Type mülk. Eksenin türünü döndürür C#'da.
 type: docs
 weight: 290
 url: /tr/net/aspose.words.drawing.charts/chartaxis/type/
@@ -14,7 +16,7 @@ Eksenin türünü döndürür.
 public ChartAxisType Type { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir grafik türü için uygun türde bir grafik serisinin nasıl oluşturulacağını gösterir.
 
@@ -104,7 +106,5 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 * enum [ChartAxisType](../../chartaxistype/)
 * class [ChartAxis](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum AxisCategoryType
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.Charts.AxisCategoryType Sıralama. Kategori ekseninin türünü belirtir.
+title: AxisCategoryType Enum
+linktitle: AxisCategoryType
+articleTitle: AxisCategoryType
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.Charts.AxisCategoryType Sıralama. Kategori ekseninin türünü belirtir C#'da.
 type: docs
 weight: 530
 url: /tr/net/aspose.words.drawing.charts/axiscategorytype/
@@ -22,7 +24,7 @@ public enum AxisCategoryType
 | Category | `1` | Rastgele bir kategori kümesinin eksenini belirtir. |
 | Time | `2` | Bir zaman kategorisi eksenini belirtir. |
 
-### Örnekler
+## Örnekler
 
 Grafiğin nasıl ekleneceğini ve eksenlerinin görünümünün nasıl değiştirileceğini gösterir.
 
@@ -76,5 +78,3 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 
 * ad alanı [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../)
-
-

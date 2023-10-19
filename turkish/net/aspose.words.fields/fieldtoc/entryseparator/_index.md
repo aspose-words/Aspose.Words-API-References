@@ -1,7 +1,9 @@
 ---
 title: FieldToc.EntrySeparator
-second_title: Aspose.Words for .NET API Referansı
-description: FieldToc mülk. Bir girişi ve onun sayfa numarasını ayıran bir karakter dizisini alır veya ayarlar.
+linktitle: EntrySeparator
+articleTitle: EntrySeparator
+second_title: Aspose.Words for .NET
+description: FieldToc EntrySeparator mülk. Bir girişi ve onun sayfa numarasını ayıran bir karakter dizisini alır veya ayarlar C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.fields/fieldtoc/entryseparator/
@@ -14,7 +16,7 @@ Bir girişi ve onun sayfa numarasını ayıran bir karakter dizisini alır veya 
 public string EntrySeparator { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 İçindekiler tablosunun nasıl ekleneceğini ve başlık stillerine göre girdilerle nasıl doldurulacağını gösterir.
 
@@ -99,7 +101,5 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 ### Ayrıca bakınız
 
 * class [FieldToc](../)
-* ad alanı [Aspose.Words.Fields](../../fieldtoc/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

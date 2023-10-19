@@ -1,7 +1,9 @@
 ---
 title: Paragraph.ParentStory
-second_title: Aspose.Words for .NET API Referansı
-description: Paragraph mülk. Oluşturulabilecek ana bölüm düzeyindeki öyküyü alır.Body veyaHeaderFooter .
+linktitle: ParentStory
+articleTitle: ParentStory
+second_title: Aspose.Words for .NET
+description: Paragraph ParentStory mülk. Oluşturulabilecek ana bölüm düzeyindeki öyküyü alır.Body veyaHeaderFooter  C#'da.
 type: docs
 weight: 210
 url: /tr/net/aspose.words/paragraph/parentstory/
@@ -14,7 +16,7 @@ Oluşturulabilecek ana bölüm düzeyindeki öyküyü alır.[`Body`](../../body/
 public Story ParentStory { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Üstbilgi ve altbilginin nasıl oluşturulacağını gösterir.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Create.docx");
 
 * class [Story](../../story/)
 * class [Paragraph](../)
-* ad alanı [Aspose.Words](../../paragraph/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

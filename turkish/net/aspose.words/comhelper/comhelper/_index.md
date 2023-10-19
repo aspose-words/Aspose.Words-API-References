@@ -1,7 +1,9 @@
 ---
-title: ComHelper.ComHelper
-second_title: Aspose.Words for .NET API Referansı
-description: ComHelper inşaatçı. Bu sınıfın yeni bir örneğini başlatır.
+title: ComHelper
+linktitle: ComHelper
+articleTitle: ComHelper
+second_title: Aspose.Words for .NET
+description: ComHelper inşaatçı. Bu sınıfın yeni bir örneğini başlatır C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/comhelper/comhelper/
@@ -14,7 +16,7 @@ Bu sınıfın yeni bir örneğini başlatır.
 public ComHelper()
 ```
 
-### Örnekler
+## Örnekler
 
 ComHelper sınıfını kullanarak belgelerin nasıl açılacağını gösterir.
 
@@ -39,7 +41,5 @@ using (FileStream stream = new FileStream(MyDir + "Document.docx", FileMode.Open
 ### Ayrıca bakınız
 
 * class [ComHelper](../)
-* ad alanı [Aspose.Words](../../comhelper/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

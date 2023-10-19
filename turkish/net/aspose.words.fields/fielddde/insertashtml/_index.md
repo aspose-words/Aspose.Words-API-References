@@ -1,7 +1,9 @@
 ---
 title: FieldDde.InsertAsHtml
-second_title: Aspose.Words for .NET API Referansı
-description: FieldDde mülk. Bağlantılı nesnenin HTML biçimindeki metin olarak eklenip eklenmeyeceğini alır veya ayarlar.
+linktitle: InsertAsHtml
+articleTitle: InsertAsHtml
+second_title: Aspose.Words for .NET
+description: FieldDde InsertAsHtml mülk. Bağlantılı nesnenin HTML biçimindeki metin olarak eklenip eklenmeyeceğini alır veya ayarlar C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.fields/fielddde/insertashtml/
@@ -14,7 +16,7 @@ Bağlantılı nesnenin HTML biçimindeki metin olarak eklenip eklenmeyeceğini a
 public bool InsertAsHtml { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Yerel dosya sistemindeki diğer belgelere bağlanmak ve içeriklerini görüntülemek için çeşitli alan türlerinin nasıl kullanılacağını gösterir.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### Ayrıca bakınız
 
 * class [FieldDde](../)
-* ad alanı [Aspose.Words.Fields](../../fielddde/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

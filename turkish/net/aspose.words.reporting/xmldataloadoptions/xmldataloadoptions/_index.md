@@ -1,7 +1,9 @@
 ---
-title: XmlDataLoadOptions.XmlDataLoadOptions
-second_title: Aspose.Words for .NET API Referansı
-description: XmlDataLoadOptions inşaatçı. Bu sınıfın yeni bir örneğini varsayılan seçeneklerle başlatır.
+title: XmlDataLoadOptions
+linktitle: XmlDataLoadOptions
+articleTitle: XmlDataLoadOptions
+second_title: Aspose.Words for .NET
+description: XmlDataLoadOptions inşaatçı. Bu sınıfın yeni bir örneğini varsayılan seçeneklerle başlatır C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.reporting/xmldataloadoptions/xmldataloadoptions/
@@ -17,7 +19,5 @@ public XmlDataLoadOptions()
 ### Ayrıca bakınız
 
 * class [XmlDataLoadOptions](../)
-* ad alanı [Aspose.Words.Reporting](../../xmldataloadoptions/)
+* ad alanı [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * toplantı [Aspose.Words](../../../)
-
-

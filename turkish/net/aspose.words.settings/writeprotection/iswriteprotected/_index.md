@@ -1,7 +1,9 @@
 ---
 title: WriteProtection.IsWriteProtected
-second_title: Aspose.Words for .NET API Referansı
-description: WriteProtection mülk. İadelerdoğru yazma koruması şifresi ayarlandığında.
+linktitle: IsWriteProtected
+articleTitle: IsWriteProtected
+second_title: Aspose.Words for .NET
+description: WriteProtection IsWriteProtected mülk. İadelerdoğru yazma koruması şifresi ayarlandığında C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.settings/writeprotection/iswriteprotected/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.settings/writeprotection/iswriteprotected/
 public bool IsWriteProtected { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgenin parolayla nasıl korunacağını gösterir.
 
@@ -46,7 +48,5 @@ Assert.AreEqual("Hello world! This document is protected." +
 ### Ayrıca bakınız
 
 * class [WriteProtection](../)
-* ad alanı [Aspose.Words.Settings](../../writeprotection/)
+* ad alanı [Aspose.Words.Settings](../../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../../)
-
-

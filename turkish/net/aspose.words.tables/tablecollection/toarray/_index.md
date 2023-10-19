@@ -1,7 +1,9 @@
 ---
 title: TableCollection.ToArray
-second_title: Aspose.Words for .NET API Referansı
-description: TableCollection yöntem. Koleksiyondaki tüm tabloları yeni bir tablo dizisine kopyalar.
+linktitle: ToArray
+articleTitle: ToArray
+second_title: Aspose.Words for .NET
+description: TableCollection ToArray yöntem. Koleksiyondaki tüm tabloları yeni bir tablo dizisine kopyalar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.tables/tablecollection/toarray/
@@ -18,7 +20,7 @@ public Table[] ToArray()
 
 Bir dizi tablo.
 
-### Örnekler
+## Örnekler
 
 Belgedeki tüm tabloların nasıl yineleneceğini ve her hücrenin içeriğinin nasıl yazdırılacağını gösterir.
 
@@ -65,7 +67,5 @@ for (int i = 0; i < tables.Count; i++)
 
 * class [Table](../../table/)
 * class [TableCollection](../)
-* ad alanı [Aspose.Words.Tables](../../tablecollection/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

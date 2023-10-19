@@ -1,9 +1,11 @@
 ---
 title: Stroke.JoinStyle
-second_title: Aspose.Words for .NET API Referansı
-description: Stroke mülk. Sürekli çizginin birleştirme stilini tanımlar.
+linktitle: JoinStyle
+articleTitle: JoinStyle
+second_title: Aspose.Words for .NET
+description: Stroke JoinStyle mülk. Sürekli çizginin birleştirme stilini tanımlar C#'da.
 type: docs
-weight: 130
+weight: 120
 url: /tr/net/aspose.words.drawing/stroke/joinstyle/
 ---
 ## Stroke.JoinStyle property
@@ -14,11 +16,11 @@ Sürekli çizginin birleştirme stilini tanımlar.
 public JoinStyle JoinStyle { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:Round.
 
-### Örnekler
+## Örnekler
 
 Kontur özelliklerinin nasıl değiştirildiğini gösterir.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Shape.Stroke.docx");
 
 * enum [JoinStyle](../../joinstyle/)
 * class [Stroke](../)
-* ad alanı [Aspose.Words.Drawing](../../stroke/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

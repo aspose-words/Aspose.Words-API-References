@@ -1,7 +1,9 @@
 ---
-title: Class FrameFormat
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.FrameFormat sınıf. Bir paragrafın çerçeveyle ilgili biçimlendirmesini temsil eder.
+title: FrameFormat Class
+linktitle: FrameFormat
+articleTitle: FrameFormat
+second_title: Aspose.Words for .NET
+description: Aspose.Words.FrameFormat sınıf. Bir paragrafın çerçeveyle ilgili biçimlendirmesini temsil eder C#'da.
 type: docs
 weight: 3070
 url: /tr/net/aspose.words/frameformat/
@@ -31,13 +33,13 @@ public class FrameFormat
 | [VerticalPosition](../../aspose.words/frameformat/verticalposition/) { get; } | Çerçevenin kenarı ile öğe tarafından belirtilen öğe arasındaki dikey mesafeyi alır.[`RelativeVerticalPosition`](./relativeverticalposition/) özellik. |
 | [Width](../../aspose.words/frameformat/width/) { get; } | Belirtilen çerçevenin genişliğini nokta cinsinden alır. |
 
-### Notlar
+## Notlar
 
 Bu nesne her zaman oluşturulur. Paragraf bir çerçeve ise, tüm özellikler ilgili değerleri içerecektir, aksi takdirde tüm özellikler varsayılan değerlerine ayarlanır.
 
 Kullanmak[`IsFrame`](./isframe/) Paragrafın bir çerçeve olup olmadığını kontrol etmek için.
 
-### Örnekler
+## Örnekler
 
 Çerçeve olan paragrafların biçimlendirme özellikleri hakkında nasıl bilgi alınacağını gösterir.
 
@@ -63,5 +65,3 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

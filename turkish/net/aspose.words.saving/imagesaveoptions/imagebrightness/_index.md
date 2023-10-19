@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.ImageBrightness
-second_title: Aspose.Words for .NET API Referansı
-description: ImageSaveOptions mülk. Oluşturulan görüntülerin parlaklığını alır veya ayarlar.
+linktitle: ImageBrightness
+articleTitle: ImageBrightness
+second_title: Aspose.Words for .NET
+description: ImageSaveOptions ImageBrightness mülk. Oluşturulan görüntülerin parlaklığını alır veya ayarlar C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.saving/imagesaveoptions/imagebrightness/
@@ -14,13 +16,13 @@ Oluşturulan görüntülerin parlaklığını alır veya ayarlar.
 public float ImageBrightness { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özellik yalnızca taramalı görüntü formatlarına kaydederken etkilidir.
 
 Varsayılan değer 0,5'tir. Değer 0 ile 1 arasında olmalıdır.
 
-### Örnekler
+## Örnekler
 
 Aspose.Words bir belgeyi belgeye dönüştürürken görüntünün nasıl düzenleneceğini gösterir.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.EditImage.png", options);
 ### Ayrıca bakınız
 
 * class [ImageSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../imagesaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

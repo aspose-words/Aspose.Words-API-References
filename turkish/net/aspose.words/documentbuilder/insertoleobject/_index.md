@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.InsertOleObject
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentBuilder yöntem. Bir akıştan katıştırılmış bir OLE nesnesini belgeye ekler.
+linktitle: InsertOleObject
+articleTitle: InsertOleObject
+second_title: Aspose.Words for .NET
+description: DocumentBuilder InsertOleObject yöntem. Bir akıştan katıştırılmış bir OLE nesnesini belgeye ekler C#'da.
 type: docs
-weight: 400
+weight: 390
 url: /tr/net/aspose.words/documentbuilder/insertoleobject/
 ---
-## InsertOleObject(Stream, string, bool, Stream) {#insertoleobject}
+## InsertOleObject(*Stream, string, bool, Stream*) {#insertoleobject}
 
 Bir akıştan katıştırılmış bir OLE nesnesini belgeye ekler.
 
@@ -25,7 +27,7 @@ public Shape InsertOleObject(Stream stream, string progId, bool asIcon, Stream p
 
 Ole nesnesini içeren ve geçerli Oluşturucu konumuna eklenen şekil düğümü.
 
-### Örnekler
+## Örnekler
 
 OLE nesnelerini bir belgeye katıştırmak için belge oluşturucunun nasıl kullanılacağını gösterir.
 
@@ -69,12 +71,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOleObjects.docx");
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* ad alanı [Aspose.Words](../../documentbuilder/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## InsertOleObject(string, bool, bool, Stream) {#insertoleobject_1}
+## InsertOleObject(*string, bool, bool, Stream*) {#insertoleobject_1}
 
 Katıştırılmış veya bağlantılı bir OLE nesnesini bir dosyadan belgeye ekler. Dosya uzantısını kullanarak OLE nesne türünü algılar.
 
@@ -93,7 +95,7 @@ public Shape InsertOleObject(string fileName, bool isLinked, bool asIcon, Stream
 
 Ole nesnesini içeren ve geçerli Oluşturucu konumuna eklenen şekil düğümü.
 
-### Örnekler
+## Örnekler
 
 Bir OLE nesnesinin belgeye nasıl ekleneceğini gösterir.
 
@@ -130,12 +132,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOleObject.docx");
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* ad alanı [Aspose.Words](../../documentbuilder/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## InsertOleObject(string, string, bool, bool, Stream) {#insertoleobject_2}
+## InsertOleObject(*string, string, bool, bool, Stream*) {#insertoleobject_2}
 
 Katıştırılmış veya bağlantılı bir OLE nesnesini bir dosyadan belgeye ekler. Verilen progID parametresini kullanarak OLE nesne türünü algılar.
 
@@ -156,7 +158,7 @@ public Shape InsertOleObject(string fileName, string progId, bool isLinked, bool
 
 Ole nesnesini içeren ve geçerli Oluşturucu konumuna eklenen şekil düğümü.
 
-### Örnekler
+## Örnekler
 
 Bir OLE nesnesinin belgeye nasıl ekleneceğini gösterir.
 
@@ -193,7 +195,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOleObject.docx");
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* ad alanı [Aspose.Words](../../documentbuilder/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

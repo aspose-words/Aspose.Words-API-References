@@ -1,7 +1,9 @@
 ---
 title: MappedDataFieldCollection.Item
-second_title: Aspose.Words for .NET API Referansı
-description: MappedDataFieldCollection mülk. Belirtilen adresmektup birleştirme alanıyla ilişkili veri kaynağındaki alanın adını alır veya ayarlar.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words for .NET
+description: MappedDataFieldCollection Item mülk. Belirtilen adresmektup birleştirme alanıyla ilişkili veri kaynağındaki alanın adını alır veya ayarlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.mailmerging/mappeddatafieldcollection/item/
@@ -14,7 +16,7 @@ Belirtilen adres-mektup birleştirme alanıyla ilişkili veri kaynağındaki ala
 public string this[string documentFieldName] { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Adres-mektup birleştirme sırasında verilerin aralarında aktarılması için veri sütunlarının ve MERGEFIELD'lerin farklı adlarla nasıl eşleneceğini gösterir.
 
@@ -99,7 +101,5 @@ private static DataTable CreateSourceTableMappedDataFields()
 ### Ayrıca bakınız
 
 * class [MappedDataFieldCollection](../)
-* ad alanı [Aspose.Words.MailMerging](../../mappeddatafieldcollection/)
+* ad alanı [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * toplantı [Aspose.Words](../../../)
-
-

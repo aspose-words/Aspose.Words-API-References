@@ -1,9 +1,11 @@
 ---
 title: ChartTitle.Show
-second_title: Aspose.Words for .NET API Referansı
-description: ChartTitle mülk. Bu grafikte başlığın gösterilip gösterilmeyeceğini belirler. Varsayılan değerdoğru .
+linktitle: Show
+articleTitle: Show
+second_title: Aspose.Words for .NET
+description: ChartTitle Show mülk. Bu grafikte başlığın gösterilip gösterilmeyeceğini belirler. Varsayılan değerdoğru  C#'da.
 type: docs
-weight: 30
+weight: 20
 url: /tr/net/aspose.words.drawing.charts/charttitle/show/
 ---
 ## ChartTitle.Show property
@@ -14,7 +16,7 @@ Bu grafikte başlığın gösterilip gösterilmeyeceğini belirler. Varsayılan 
 public bool Show { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Grafiğin nasıl ekleneceğini ve başlığın nasıl ayarlanacağını gösterir.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "Charts.ChartTitle.docx");
 ### Ayrıca bakınız
 
 * class [ChartTitle](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../charttitle/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

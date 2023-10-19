@@ -1,7 +1,9 @@
 ---
 title: DocumentProperty.ToByteArray
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentProperty yöntem. Özellik değerini bayt dizisi olarak döndürür.
+linktitle: ToByteArray
+articleTitle: ToByteArray
+second_title: Aspose.Words for .NET
+description: DocumentProperty ToByteArray yöntem. Özellik değerini bayt dizisi olarak döndürür C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.properties/documentproperty/tobytearray/
@@ -14,11 +16,11 @@ url: /tr/net/aspose.words.properties/documentproperty/tobytearray/
 public byte[] ToByteArray()
 ```
 
-### Notlar
+## Notlar
 
 Özellik türü değilse bir istisna atarByteArray.
 
-### Örnekler
+## Örnekler
 
 Epub olarak kaydettiğimiz bir belgeye nasıl küçük resim ekleneceğini gösterir.
 
@@ -44,7 +46,5 @@ File.WriteAllBytes(ArtifactsDir + "DocumentProperties.Thumbnail.gif", thumbnail.
 ### Ayrıca bakınız
 
 * class [DocumentProperty](../)
-* ad alanı [Aspose.Words.Properties](../../documentproperty/)
+* ad alanı [Aspose.Words.Properties](../../../aspose.words.properties/)
 * toplantı [Aspose.Words](../../../)
-
-

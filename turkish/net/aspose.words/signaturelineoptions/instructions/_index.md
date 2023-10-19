@@ -1,20 +1,22 @@
 ---
 title: SignatureLineOptions.Instructions
-second_title: Aspose.Words for .NET API Referansı
-description: SignatureLineOptions mülk. İmza satırını imzalarken görüntülenen imzalayana yönelik talimatları alır veya ayarlar. Bu özelliğin varsayılan değeri boş dize Empty.
+linktitle: Instructions
+articleTitle: Instructions
+second_title: Aspose.Words for .NET
+description: SignatureLineOptions Instructions mülk. İmza satırını imzalarken görüntülenen imzalayana yönelik talimatları alır veya ayarlar. Bu özelliğin varsayılan değeriboş dize Empty C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words/signaturelineoptions/instructions/
 ---
 ## SignatureLineOptions.Instructions property
 
-İmza satırını imzalarken görüntülenen imzalayana yönelik talimatları alır veya ayarlar. Bu özelliğin varsayılan değeri: **boş dize** (Empty).
+İmza satırını imzalarken görüntülenen imzalayana yönelik talimatları alır veya ayarlar. Bu özelliğin varsayılan değeri:**boş dize** (Empty).
 
 ```csharp
 public string Instructions { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Kişisel sertifika ve imza satırı içeren bir belgenin nasıl imzalanacağını gösterir.
 
@@ -67,7 +69,5 @@ Assert.True(signatureLine.IsValid);
 ### Ayrıca bakınız
 
 * class [SignatureLineOptions](../)
-* ad alanı [Aspose.Words](../../signaturelineoptions/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

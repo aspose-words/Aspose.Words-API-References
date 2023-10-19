@@ -1,7 +1,9 @@
 ---
 title: Font.SnapToGrid
-second_title: Aspose.Words for .NET API Referansı
-description: Font mülk. Geçerli yazı tipinin mizanpaj sırasında satır başına belge ızgara karakterlerini kullanıp kullanmayacağını ayarlar belirtir.
+linktitle: SnapToGrid
+articleTitle: SnapToGrid
+second_title: Aspose.Words for .NET
+description: Font SnapToGrid mülk. Geçerli yazı tipinin mizanpaj sırasında satır başına belge ızgara karakterlerini kullanıp kullanmayacağını ayarlar belirtir C#'da.
 type: docs
 weight: 370
 url: /tr/net/aspose.words/font/snaptogrid/
@@ -17,7 +19,5 @@ public bool SnapToGrid { get; set; }
 ### Ayrıca bakınız
 
 * class [Font](../)
-* ad alanı [Aspose.Words](../../font/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum VisitorAction
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.VisitorAction Sıralama. Ziyaretçinin düğüm numaralandırmasını kontrol etmesine izin verir.
+title: VisitorAction Enum
+linktitle: VisitorAction
+articleTitle: VisitorAction
+second_title: Aspose.Words for .NET
+description: Aspose.Words.VisitorAction Sıralama. Ziyaretçinin düğüm numaralandırmasını kontrol etmesine izin verir C#'da.
 type: docs
 weight: 6620
 url: /tr/net/aspose.words/visitoraction/
@@ -26,5 +28,3 @@ public enum VisitorAction
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

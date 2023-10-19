@@ -1,12 +1,14 @@
 ---
 title: Fill.Patterned
-second_title: Aspose.Words for .NET API Referansı
-description: Fill yöntem. Belirtilen dolguyu bir desene ayarlar.
+linktitle: Patterned
+articleTitle: Patterned
+second_title: Aspose.Words for .NET
+description: Fill Patterned yöntem. Belirtilen dolguyu bir desene ayarlar C#'da.
 type: docs
-weight: 230
+weight: 220
 url: /tr/net/aspose.words.drawing/fill/patterned/
 ---
-## Patterned(PatternType) {#patterned}
+## Patterned(*[PatternType](../../patterntype/)*) {#patterned}
 
 Belirtilen dolguyu bir desene ayarlar.
 
@@ -18,7 +20,7 @@ public void Patterned(PatternType patternType)
 | --- | --- | --- |
 | patternType | PatternType | [`PatternType`](../../patterntype/) |
 
-### Örnekler
+## Örnekler
 
 Bir şekil için desenin nasıl ayarlanacağını gösterir.
 
@@ -44,12 +46,12 @@ doc.Save(ArtifactsDir + "Shape.FillPattern.docx");
 
 * enum [PatternType](../../patterntype/)
 * class [Fill](../)
-* ad alanı [Aspose.Words.Drawing](../../fill/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## Patterned(PatternType, Color, Color) {#patterned_1}
+## Patterned(*[PatternType](../../patterntype/), Color, Color*) {#patterned_1}
 
 Belirtilen dolguyu bir desene ayarlar.
 
@@ -63,7 +65,7 @@ public void Patterned(PatternType patternType, Color foreColor, Color backColor)
 | foreColor | Color | Ön plan dolgusunun rengi. |
 | backColor | Color | Arka plan dolgusunun rengi. |
 
-### Örnekler
+## Örnekler
 
 Bir şekil için desenin nasıl ayarlanacağını gösterir.
 
@@ -89,7 +91,5 @@ doc.Save(ArtifactsDir + "Shape.FillPattern.docx");
 
 * enum [PatternType](../../patterntype/)
 * class [Fill](../)
-* ad alanı [Aspose.Words.Drawing](../../fill/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

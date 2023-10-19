@@ -1,7 +1,9 @@
 ---
 title: ImageData.Brightness
-second_title: Aspose.Words for .NET API Referansı
-description: ImageData mülk. Resmin parlaklığını alır veya ayarlar. Bu özelliğin değeri 00 en soluk ila 10 en parlak arasında bir sayı olmalıdır.
+linktitle: Brightness
+articleTitle: Brightness
+second_title: Aspose.Words for .NET
+description: ImageData Brightness mülk. Resmin parlaklığını alır veya ayarlar. Bu özelliğin değeri 00 en soluk ila 10 en parlak arasında bir sayı olmalıdır C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.drawing/imagedata/brightness/
@@ -14,11 +16,11 @@ Resmin parlaklığını alır veya ayarlar. Bu özelliğin değeri 0,0 (en soluk
 public double Brightness { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer 0,5'tir.
 
-### Örnekler
+## Örnekler
 
 Bir şeklin görüntü verilerinin nasıl düzenleneceğini gösterir.
 
@@ -81,7 +83,5 @@ dstDoc.Save(ArtifactsDir + "Drawing.ImageData.docx");
 ### Ayrıca bakınız
 
 * class [ImageData](../)
-* ad alanı [Aspose.Words.Drawing](../../imagedata/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

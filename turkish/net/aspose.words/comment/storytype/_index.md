@@ -1,9 +1,11 @@
 ---
 title: Comment.StoryType
-second_title: Aspose.Words for .NET API Referansı
-description: Comment mülk. İadelerComments .
+linktitle: StoryType
+articleTitle: StoryType
+second_title: Aspose.Words for .NET
+description: Comment StoryType mülk. İadelerComments  C#'da.
 type: docs
-weight: 110
+weight: 100
 url: /tr/net/aspose.words/comment/storytype/
 ---
 ## Comment.StoryType property
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words/comment/storytype/
 public override StoryType StoryType { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 InlineStory düğümlerinin nasıl ekleneceğini gösterir.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "InlineStory.InsertInlineStoryNodes.docx");
 
 * enum [StoryType](../../storytype/)
 * class [Comment](../)
-* ad alanı [Aspose.Words](../../comment/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

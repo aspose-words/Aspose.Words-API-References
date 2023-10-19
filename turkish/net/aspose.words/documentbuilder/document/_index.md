@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.Document
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentBuilder mülk. Alır veya ayarlarDocumentbu nesnenin eklendiği nesne.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words for .NET
+description: DocumentBuilder Document mülk. Alır veya ayarlarDocumentbu nesnenin eklendiği nesne C#'da.
 type: docs
 weight: 90
 url: /tr/net/aspose.words/documentbuilder/document/
@@ -14,7 +16,7 @@ Alır veya ayarlar`Document`bu nesnenin eklendiği nesne.
 public Document Document { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Sayfa yapısı ayarlarının bir belgedeki bölümlere nasıl uygulanacağını ve geri döndürüleceğini gösterir.
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "PageSetup.ClearFormatting.docx");
 
 * class [Document](../../document/)
 * class [DocumentBuilder](../)
-* ad alanı [Aspose.Words](../../documentbuilder/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

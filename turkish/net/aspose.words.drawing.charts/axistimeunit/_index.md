@@ -1,7 +1,9 @@
 ---
-title: Enum AxisTimeUnit
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.Charts.AxisTimeUnit Sıralama. Eksenler için zaman birimini belirtir.
+title: AxisTimeUnit Enum
+linktitle: AxisTimeUnit
+articleTitle: AxisTimeUnit
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.Charts.AxisTimeUnit Sıralama. Eksenler için zaman birimini belirtir C#'da.
 type: docs
 weight: 600
 url: /tr/net/aspose.words.drawing.charts/axistimeunit/
@@ -23,7 +25,7 @@ public enum AxisTimeUnit
 | Months | `2` | Grafik verilerinin ay cinsinden gösterileceğini belirtir. |
 | Years | `3` | Grafik verilerinin yıl cinsinden gösterileceğini belirtir. |
 
-### Örnekler
+## Örnekler
 
 Tarih/saat değerleriyle grafiğin nasıl ekleneceğini gösterir.
 
@@ -78,5 +80,3 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 
 * ad alanı [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../)
-
-

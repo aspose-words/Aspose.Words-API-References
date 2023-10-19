@@ -1,7 +1,9 @@
 ---
 title: SvgSaveOptions.ExportEmbeddedImages
-second_title: Aspose.Words for .NET API Referansı
-description: SvgSaveOptions mülk. Görüntülerin SVG belgesine base64 olarak gömülüp gömülmeyeceğini belirtti. Bu bayrağın ayarlanmasının çıktı SVG dosyasının boyutunu önemli ölçüde artırabileceğini unutmayın.
+linktitle: ExportEmbeddedImages
+articleTitle: ExportEmbeddedImages
+second_title: Aspose.Words for .NET
+description: SvgSaveOptions ExportEmbeddedImages mülk. Görüntülerin SVG belgesine base64 olarak gömülüp gömülmeyeceğini belirtti. Bu bayrağın ayarlanmasının çıktı SVG dosyasının boyutunu önemli ölçüde artırabileceğini unutmayın C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.saving/svgsaveoptions/exportembeddedimages/
@@ -14,7 +16,7 @@ Görüntülerin SVG belgesine base64 olarak gömülüp gömülmeyeceğini belirt
 public bool ExportEmbeddedImages { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi .svg'ye dönüştürürken oluşturulan bağlantılı kaynakların URI'lerinin nasıl değiştirileceğini ve yazdırılacağını gösterir.
 
@@ -57,7 +59,5 @@ private class ResourceUriPrinter : IResourceSavingCallback
 ### Ayrıca bakınız
 
 * class [SvgSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../svgsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: MailMerge.GetFieldNamesForRegion
-second_title: Aspose.Words for .NET API Referansı
-description: MailMerge yöntem. Bölgede mevcut olan adresmektup birleştirme alan adlarının bir koleksiyonunu döndürür.
+linktitle: GetFieldNamesForRegion
+articleTitle: GetFieldNamesForRegion
+second_title: Aspose.Words for .NET
+description: MailMerge GetFieldNamesForRegion yöntem. Bölgede mevcut olan adresmektup birleştirme alan adlarının bir koleksiyonunu döndürür C#'da.
 type: docs
 weight: 230
 url: /tr/net/aspose.words.mailmerging/mailmerge/getfieldnamesforregion/
 ---
-## GetFieldNamesForRegion(string) {#getfieldnamesforregion}
+## GetFieldNamesForRegion(*string*) {#getfieldnamesforregion}
 
 Bölgede mevcut olan adres-mektup birleştirme alan adlarının bir koleksiyonunu döndürür.
 
@@ -18,7 +20,7 @@ public string[] GetFieldNamesForRegion(string regionName)
 | --- | --- | --- |
 | regionName | String | Bölge adı (büyük/küçük harfe duyarlı değil). |
 
-### Notlar
+## Notlar
 
 İsteğe bağlı önek de dahil olmak üzere tam birleştirme alanı adlarını döndürür. Yinelenen alan adlarını ortadan kaldırmaz.
 
@@ -26,7 +28,7 @@ Belge aynı ada sahip birden fazla bölge içeriyorsa ilk bölge işlenir.
 
 Her çağrıda yeni bir dize dizisi oluşturulur.
 
-### Örnekler
+## Örnekler
 
 Adres-mektup birleştirme bölgelerinin nasıl oluşturulacağını, listeleneceğini ve okunacağını gösterir.
 
@@ -81,12 +83,12 @@ Assert.AreEqual("Column2", mergeFieldNames[0]);
 ### Ayrıca bakınız
 
 * class [MailMerge](../)
-* ad alanı [Aspose.Words.MailMerging](../../mailmerge/)
+* ad alanı [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## GetFieldNamesForRegion(string, int) {#getfieldnamesforregion_1}
+## GetFieldNamesForRegion(*string, int*) {#getfieldnamesforregion_1}
 
 Bölgede mevcut olan adres-mektup birleştirme alan adlarının bir koleksiyonunu döndürür.
 
@@ -99,7 +101,7 @@ public string[] GetFieldNamesForRegion(string regionName, int regionIndex)
 | regionName | String | Bölge adı (büyük/küçük harfe duyarlı değil). |
 | regionIndex | Int32 | Bölge dizini (sıfır tabanlı). |
 
-### Notlar
+## Notlar
 
 İsteğe bağlı önek de dahil olmak üzere tam birleştirme alanı adlarını döndürür. Yinelenen alan adlarını ortadan kaldırmaz.
 
@@ -107,7 +109,7 @@ Belge aynı ada sahip birden fazla bölge içeriyorsa, N'inci bölge (sıfır ta
 
 Her çağrıda yeni bir dize dizisi oluşturulur.
 
-### Örnekler
+## Örnekler
 
 Adres-mektup birleştirme bölgelerinin nasıl oluşturulacağını, listeleneceğini ve okunacağını gösterir.
 
@@ -162,7 +164,5 @@ Assert.AreEqual("Column2", mergeFieldNames[0]);
 ### Ayrıca bakınız
 
 * class [MailMerge](../)
-* ad alanı [Aspose.Words.MailMerging](../../mailmerge/)
+* ad alanı [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * toplantı [Aspose.Words](../../../)
-
-

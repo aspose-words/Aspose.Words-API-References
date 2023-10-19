@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.Document
-second_title: Aspose.Words for .NET API Referansı
-description: ChartAxis mülk. Tapu sahibinin ait olduğu Belgeyi döndürür.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words for .NET
+description: ChartAxis Document mülk. Tapu sahibinin ait olduğu Belgeyi döndürür C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.drawing.charts/chartaxis/document/
@@ -18,7 +20,5 @@ public DocumentBase Document { get; }
 
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * class [ChartAxis](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

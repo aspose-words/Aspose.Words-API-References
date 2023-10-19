@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.Fill
-second_title: Aspose.Words for .NET API Referansı
-description: ShapeBase mülk. Şeklin dolgu formatını alır.
+linktitle: Fill
+articleTitle: Fill
+second_title: Aspose.Words for .NET
+description: ShapeBase Fill mülk. Şeklin dolgu formatını alır C#'da.
 type: docs
 weight: 170
 url: /tr/net/aspose.words.drawing/shapebase/fill/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.drawing/shapebase/fill/
 public Fill Fill { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir şeklin düz renkle nasıl doldurulacağını gösterir.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Shape.Fill.docx");
 
 * class [Fill](../../fill/)
 * class [ShapeBase](../)
-* ad alanı [Aspose.Words.Drawing](../../shapebase/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: FieldData.FieldData
-second_title: Aspose.Words for .NET API Referansı
-description: FieldData inşaatçı. Default_Constructor
+title: FieldData
+linktitle: FieldData
+articleTitle: FieldData
+second_title: Aspose.Words for .NET
+description: FieldData inşaatçı. Default_Constructor C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fielddata/fielddata/
@@ -17,7 +19,5 @@ public FieldData()
 ### Ayrıca bakınız
 
 * class [FieldData](../)
-* ad alanı [Aspose.Words.Fields](../../fielddata/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

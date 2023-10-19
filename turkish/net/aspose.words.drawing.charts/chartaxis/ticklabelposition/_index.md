@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.TickLabelPosition
-second_title: Aspose.Words for .NET API Referansı
-description: ChartAxis mülk. Onay etiketlerinin eksen üzerindeki konumunu döndürür veya ayarlar.
+linktitle: TickLabelPosition
+articleTitle: TickLabelPosition
+second_title: Aspose.Words for .NET
+description: ChartAxis TickLabelPosition mülk. Onay etiketlerinin eksen üzerindeki konumunu döndürür veya ayarlar C#'da.
 type: docs
 weight: 240
 url: /tr/net/aspose.words.drawing.charts/chartaxis/ticklabelposition/
@@ -14,11 +16,11 @@ Onay etiketlerinin eksen üzerindeki konumunu döndürür veya ayarlar.
 public AxisTickLabelPosition TickLabelPosition { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özellik MS Office 2016 yeni çizelgeleri tarafından desteklenmemektedir.
 
-### Örnekler
+## Örnekler
 
 Grafiğin nasıl ekleneceğini ve eksenlerinin görünümünün nasıl değiştirileceğini gösterir.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 
 * enum [AxisTickLabelPosition](../../axisticklabelposition/)
 * class [ChartAxis](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

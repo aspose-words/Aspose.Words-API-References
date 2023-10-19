@@ -1,20 +1,22 @@
 ---
 title: IStructuredDocumentTag.Title
-second_title: Aspose.Words for .NET API Referansı
-description: IStructuredDocumentTag mülk. Bununla ilişkili kolay adı belirtir SDT . Boş olamaz.
+linktitle: Title
+articleTitle: Title
+second_title: Aspose.Words for .NET
+description: IStructuredDocumentTag Title mülk. Bununla ilişkili kolay adı belirtirSDT . Boş olamaz C#'da.
 type: docs
 weight: 110
 url: /tr/net/aspose.words.markup/istructureddocumenttag/title/
 ---
 ## IStructuredDocumentTag.Title property
 
-Bununla ilişkili kolay adı belirtir **SDT** . Boş olamaz.
+Bununla ilişkili kolay adı belirtir**SDT** . Boş olamaz.
 
 ```csharp
 public string Title { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Yapılandırılmış belge etiketinin nasıl alınacağını gösterir.
 
@@ -34,7 +36,5 @@ Console.WriteLine(sdt.Id);
 ### Ayrıca bakınız
 
 * interface [IStructuredDocumentTag](../)
-* ad alanı [Aspose.Words.Markup](../../istructureddocumenttag/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

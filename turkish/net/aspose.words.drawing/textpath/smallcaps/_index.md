@@ -1,7 +1,9 @@
 ---
 title: TextPath.SmallCaps
-second_title: Aspose.Words for .NET API Referansı
-description: TextPath mülk. Yazı tipi küçük büyük harflerle biçimlendirilmişse doğrudur.
+linktitle: SmallCaps
+articleTitle: SmallCaps
+second_title: Aspose.Words for .NET
+description: TextPath SmallCaps mülk. Yazı tipi küçük büyük harflerle biçimlendirilmişse doğrudur C#'da.
 type: docs
 weight: 130
 url: /tr/net/aspose.words.drawing/textpath/smallcaps/
@@ -14,11 +16,11 @@ Yazı tipi küçük büyük harflerle biçimlendirilmişse doğrudur.
 public bool SmallCaps { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:`YANLIŞ`.
 
-### Örnekler
+## Örnekler
 
 WordArt'la nasıl çalışılacağını gösterir.
 
@@ -121,7 +123,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### Ayrıca bakınız
 
 * class [TextPath](../)
-* ad alanı [Aspose.Words.Drawing](../../textpath/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

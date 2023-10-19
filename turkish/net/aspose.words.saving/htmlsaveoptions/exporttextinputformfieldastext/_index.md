@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportTextInputFormFieldAsText
-second_title: Aspose.Words for .NET API Referansı
-description: HtmlSaveOptions mülk. Metin girişi form alanlarının HTML veya MHTMLye nasıl kaydedileceğini kontrol eder. Varsayılan değerYANLIŞ .
+linktitle: ExportTextInputFormFieldAsText
+articleTitle: ExportTextInputFormFieldAsText
+second_title: Aspose.Words for .NET
+description: HtmlSaveOptions ExportTextInputFormFieldAsText mülk. Metin girişi form alanlarının HTML veya MHTMLye nasıl kaydedileceğini kontrol eder. Varsayılan değerYANLIŞ  C#'da.
 type: docs
 weight: 260
 url: /tr/net/aspose.words.saving/htmlsaveoptions/exporttextinputformfieldastext/
@@ -14,13 +16,13 @@ Metin girişi form alanlarının HTML veya MHTML'ye nasıl kaydedileceğini kont
 public bool ExportTextInputFormFieldAsText { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 olarak ayarlandığında`doğru` , metin giriş formu alanlarını normal metin olarak dışa aktarır. Ne zaman`YANLIŞ`, Word metni giriş formu alanlarını HTML'deki INPUT öğeleri olarak dışa aktarır.
 
 EPUB'a dışa aktarırken, metin giriş formu alanları bu formatın gereklilikleri nedeniyle nedeniyle her zaman metin olarak kaydedilir.
 
-### Örnekler
+## Örnekler
 
 Bağlantılı görsellerin .html'ye kaydedildikten sonra saklanacağı klasörün nasıl belirleneceğini gösterir.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.SaveHtmlWithOptions.html", options);
 ### Ayrıca bakınız
 
 * class [HtmlSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../htmlsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

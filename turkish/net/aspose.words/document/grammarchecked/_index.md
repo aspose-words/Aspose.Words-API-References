@@ -1,7 +1,9 @@
 ---
 title: Document.GrammarChecked
-second_title: Aspose.Words for .NET API Referansı
-description: Document mülk. İadelerdoğru belge dilbilgisi açısından kontrol edilmişse.
+linktitle: GrammarChecked
+articleTitle: GrammarChecked
+second_title: Aspose.Words for .NET
+description: Document GrammarChecked mülk. İadelerdoğru belge dilbilgisi açısından kontrol edilmişse C#'da.
 type: docs
 weight: 180
 url: /tr/net/aspose.words/document/grammarchecked/
@@ -14,11 +16,11 @@ url: /tr/net/aspose.words/document/grammarchecked/
 public bool GrammarChecked { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Belgedeki dilbilgisini yeniden kontrol etmek için bu özelliği şu şekilde ayarlayın:`YANLIŞ` .
 
-### Örnekler
+## Örnekler
 
 Yazım veya dil bilgisi doğrulamanın nasıl ayarlanacağını gösterir.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Document.SpellingOrGrammar.docx");
 ### Ayrıca bakınız
 
 * class [Document](../)
-* ad alanı [Aspose.Words](../../document/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

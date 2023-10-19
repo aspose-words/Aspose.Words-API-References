@@ -1,7 +1,9 @@
 ---
 title: FontConfigSubstitutionRule.IsFontConfigAvailable
-second_title: Aspose.Words for .NET API Referansı
-description: FontConfigSubstitutionRule yöntem. Fontconfig yardımcı programının mevcut olup olmadığını kontrol edin.
+linktitle: IsFontConfigAvailable
+articleTitle: IsFontConfigAvailable
+second_title: Aspose.Words for .NET
+description: FontConfigSubstitutionRule IsFontConfigAvailable yöntem. Fontconfig yardımcı programının mevcut olup olmadığını kontrol edin C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fonts/fontconfigsubstitutionrule/isfontconfigavailable/
@@ -14,7 +16,7 @@ Fontconfig yardımcı programının mevcut olup olmadığını kontrol edin.
 public bool IsFontConfigAvailable()
 ```
 
-### Örnekler
+## Örnekler
 
 İşletim sistemine bağlı yazı tipi yapılandırma değişikliğini gösterir.
 
@@ -50,7 +52,5 @@ if (isLinuxOrMac)
 ### Ayrıca bakınız
 
 * class [FontConfigSubstitutionRule](../)
-* ad alanı [Aspose.Words.Fonts](../../fontconfigsubstitutionrule/)
+* ad alanı [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../../)
-
-

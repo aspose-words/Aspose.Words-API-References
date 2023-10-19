@@ -1,7 +1,9 @@
 ---
-title: Enum NodeType
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.NodeType Sıralama. Word belgesi düğümünün türünü belirtir.
+title: NodeType Enum
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words for .NET
+description: Aspose.Words.NodeType Sıralama. Word belgesi düğümünün türünü belirtir C#'da.
 type: docs
 weight: 4230
 url: /tr/net/aspose.words/nodetype/
@@ -47,8 +49,8 @@ public enum NodeType
 | SpecialChar | `26` | Daha spesifik özel karakter türlerinden biri olmayan özel bir karakter. |
 | SmartTag | `27` | Bir paragraf içindeki bir veya daha fazla satır içi yapıyı (çalışmalar, resimler, alanlar vb.) çevreleyen akıllı etiket |
 | StructuredDocumentTag | `28` | Müşteriye özel bilgilerin ve sunum araçlarının tanımlanmasına olanak sağlar. |
-| StructuredDocumentTagRangeStart | `29` | Bir başlangıç **aralıklı** çok bölümlü içeriği kabul eden yapılandırılmış belge etiketi. |
-| StructuredDocumentTagRangeEnd | `30` | bir sonu **aralıklı** çok bölümlü içeriği kabul eden yapılandırılmış belge etiketi. |
+| StructuredDocumentTagRangeStart | `29` | Bir başlangıç**aralıklı** çok bölümlü içeriği kabul eden yapılandırılmış belge etiketi. |
+| StructuredDocumentTagRangeEnd | `30` | bir sonu**aralıklı** çok bölümlü içeriği kabul eden yapılandırılmış belge etiketi. |
 | GlossaryDocument | `31` | Ana belge içindeki bir sözlük belgesi. |
 | BuildingBlock | `32` | Bir sözlük belgesindeki yapı taşı (örneğin sözlük belgesi girişi). |
 | CommentRangeStart | `33` | Yorumlanmış bir aralığın başlangıcını temsil eden bir işaretleyici düğüm. |
@@ -58,7 +60,7 @@ public enum NodeType
 | System | `37` | Aspose.Words tarafından dahili kullanım için ayrılmıştır. |
 | Null | `38` | Aspose.Words tarafından dahili kullanım için ayrılmıştır. |
 
-### Örnekler
+## Örnekler
 
 Bileşik bir düğümün alt düğüm koleksiyonunda nasıl geçiş yapılacağını gösterir.
 
@@ -104,5 +106,3 @@ foreach (Node child in children)
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

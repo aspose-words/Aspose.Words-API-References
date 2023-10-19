@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportRoundtripInformation
-second_title: Aspose.Words for .NET API Referansı
-description: HtmlSaveOptions mülk. HTML MHTML veya EPUBa kaydederken gidişdönüş bilgilerinin yazıp yazmayacağını belirtir. Varsayılan değerdoğru HTML için veYANLIŞ MHTML ve EPUB. için
+linktitle: ExportRoundtripInformation
+articleTitle: ExportRoundtripInformation
+second_title: Aspose.Words for .NET
+description: HtmlSaveOptions ExportRoundtripInformation mülk. HTML MHTML veya EPUBa kaydederken gidişdönüş bilgilerinin yazıp yazmayacağını belirtir. Varsayılan değerdoğru HTML için veYANLIŞ MHTML ve EPUB. için C#'da.
 type: docs
 weight: 240
 url: /tr/net/aspose.words.saving/htmlsaveoptions/exportroundtripinformation/
@@ -14,7 +16,7 @@ HTML, MHTML veya EPUB'a kaydederken gidiş-dönüş bilgilerinin yazıp yazmayac
 public bool ExportRoundtripInformation { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Gidiş dönüş bilgilerinin kaydedilmesi, HTML belgelerinin bir bilgisayara geri yüklenmesi sırasında sekme durakları, yorumlar, üstbilgiler ve altbilgiler gibi belge özelliklerinin geri yüklenmesine olanak tanır.[`Document`](../../../aspose.words/document/) nesne.
 
@@ -22,7 +24,7 @@ Ne zaman`doğru`, gidiş dönüş bilgileri karşılık gelen HTML öğelerinin 
 
 Ne zaman`YANLIŞ`, üretilen dosyalara hiçbir gidiş-dönüş bilgisinin gönderilmesine neden olmaz.
 
-### Örnekler
+## Örnekler
 
 .html'ye dönüştürürken gizli öğelerin nasıl korunacağını gösterir.
 
@@ -99,7 +101,5 @@ else
 ### Ayrıca bakınız
 
 * class [HtmlSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../htmlsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

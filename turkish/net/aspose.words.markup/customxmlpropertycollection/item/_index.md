@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPropertyCollection.Item
-second_title: Aspose.Words for .NET API Referansı
-description: CustomXmlPropertyCollection mülk. Belirtilen ada sahip bir özelliği alır.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words for .NET
+description: CustomXmlPropertyCollection Item mülk. Belirtilen ada sahip bir özelliği alır C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.markup/customxmlpropertycollection/item/
@@ -18,7 +20,7 @@ public CustomXmlProperty this[string name] { get; }
 | --- | --- |
 | name | Bulunacak özelliğin büyük/küçük harfe duyarlı adı. |
 
-### Örnekler
+## Örnekler
 
 Akıllı etiketler hakkında ayrıntılı bilgi almak için akıllı etiket özellikleriyle nasıl çalışılacağını gösterir.
 
@@ -76,7 +78,7 @@ Assert.AreEqual(0, properties.Count);
 
 * class [CustomXmlProperty](../../customxmlproperty/)
 * class [CustomXmlPropertyCollection](../)
-* ad alanı [Aspose.Words.Markup](../../customxmlpropertycollection/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
 
 ---
@@ -93,7 +95,7 @@ public CustomXmlProperty this[int index] { get; }
 | --- | --- |
 | index | Özelliğin sıfır tabanlı dizini. |
 
-### Örnekler
+## Örnekler
 
 Akıllı etiketler hakkında ayrıntılı bilgi almak için akıllı etiket özellikleriyle nasıl çalışılacağını gösterir.
 
@@ -151,7 +153,5 @@ Assert.AreEqual(0, properties.Count);
 
 * class [CustomXmlProperty](../../customxmlproperty/)
 * class [CustomXmlPropertyCollection](../)
-* ad alanı [Aspose.Words.Markup](../../customxmlpropertycollection/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

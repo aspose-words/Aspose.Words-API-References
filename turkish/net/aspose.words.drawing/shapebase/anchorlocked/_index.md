@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.AnchorLocked
-second_title: Aspose.Words for .NET API Referansı
-description: ShapeBase mülk. Şeklin bağlantısının kilitli olup olmadığını belirtir.
+linktitle: AnchorLocked
+articleTitle: AnchorLocked
+second_title: Aspose.Words for .NET
+description: ShapeBase AnchorLocked mülk. Şeklin bağlantısının kilitli olup olmadığını belirtir C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.drawing/shapebase/anchorlocked/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.drawing/shapebase/anchorlocked/
 public bool AnchorLocked { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:`YANLIŞ`.
 
@@ -22,7 +24,7 @@ Yalnızca üst düzey şekiller için etkilidir.
 
 Bu özellik, şeklin bağlantısının Microsoft Word'deki davranışını etkiler. Bağlantı kilitli olmadığında, şeklin Microsoft Word'de taşınması, şeklin bağlantısının da taşınması olabilir.
 
-### Örnekler
+## Örnekler
 
 Bir şeklin paragraf bağlantısının nasıl kilitleneceğini veya kilidinin açılacağını gösterir.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Shape.AnchorLocked.docx");
 ### Ayrıca bakınız
 
 * class [ShapeBase](../)
-* ad alanı [Aspose.Words.Drawing](../../shapebase/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

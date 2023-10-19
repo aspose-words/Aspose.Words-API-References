@@ -1,7 +1,9 @@
 ---
 title: FieldPageRef.InsertRelativePosition
-second_title: Aspose.Words for .NET API Referansı
-description: FieldPageRef mülk. Yer imi eklenen paragrafın göreli konumunun eklenip eklenmeyeceğini alır veya ayarlar.
+linktitle: InsertRelativePosition
+articleTitle: InsertRelativePosition
+second_title: Aspose.Words for .NET
+description: FieldPageRef InsertRelativePosition mülk. Yer imi eklenen paragrafın göreli konumunun eklenip eklenmeyeceğini alır veya ayarlar C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.fields/fieldpageref/insertrelativeposition/
@@ -14,7 +16,7 @@ Yer imi eklenen paragrafın göreli konumunun eklenip eklenmeyeceğini alır vey
 public bool InsertRelativePosition { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Yer imlerinin göreceli konumunu görüntülemek için PAGEREF alanlarının eklenmesini gösterir.
 
@@ -84,7 +86,5 @@ private static void InsertAndNameBookmark(DocumentBuilder builder, string bookma
 ### Ayrıca bakınız
 
 * class [FieldPageRef](../)
-* ad alanı [Aspose.Words.Fields](../../fieldpageref/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

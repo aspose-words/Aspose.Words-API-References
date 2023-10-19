@@ -1,20 +1,22 @@
 ---
 title: StructuredDocumentTag.LockContents
-second_title: Aspose.Words for .NET API Referansı
-description: StructuredDocumentTag mülk. Olarak ayarlandığındadoğru  bu özellik kullanıcının bu içeriği düzenlemesini yasaklar SDT .
+linktitle: LockContents
+articleTitle: LockContents
+second_title: Aspose.Words for .NET
+description: StructuredDocumentTag LockContents mülk. Olarak ayarlandığındadoğru  bu özellik kullanıcının bu içeriği düzenlemesini yasaklarSDT  C#'da.
 type: docs
 weight: 200
 url: /tr/net/aspose.words.markup/structureddocumenttag/lockcontents/
 ---
 ## StructuredDocumentTag.LockContents property
 
-Olarak ayarlandığında`doğru` , bu özellik kullanıcının bu içeriği düzenlemesini yasaklar **SDT** .
+Olarak ayarlandığında`doğru` , bu özellik kullanıcının bu içeriği düzenlemesini yasaklar**SDT** .
 
 ```csharp
 public bool LockContents { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Yapılandırılmış belge etiketlerine düzenleme kısıtlamalarının nasıl uygulanacağını gösterir.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.Lock.docx");
 ### Ayrıca bakınız
 
 * class [StructuredDocumentTag](../)
-* ad alanı [Aspose.Words.Markup](../../structureddocumenttag/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

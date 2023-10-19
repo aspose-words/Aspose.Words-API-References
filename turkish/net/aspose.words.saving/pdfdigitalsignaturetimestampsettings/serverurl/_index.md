@@ -1,7 +1,9 @@
 ---
 title: PdfDigitalSignatureTimestampSettings.ServerUrl
-second_title: Aspose.Words for .NET API Referansı
-description: PdfDigitalSignatureTimestampSettings mülk. Zaman damgası sunucusu URLsi.
+linktitle: ServerUrl
+articleTitle: ServerUrl
+second_title: Aspose.Words for .NET
+description: PdfDigitalSignatureTimestampSettings ServerUrl mülk. Zaman damgası sunucusu URLsi C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/serverurl/
@@ -14,11 +16,11 @@ Zaman damgası sunucusu URL'si.
 public string ServerUrl { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:`hükümsüz` . Eğer`hükümsüz` , bu durumda dijital imzaya zaman damgası eklenmez.
 
-### Örnekler
+## Örnekler
 
 Kaydedilmiş bir PDF belgesinin dijital olarak nasıl imzalanacağını ve ona zaman damgasının nasıl damgalanacağını gösterir.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", optio
 ### Ayrıca bakınız
 
 * class [PdfDigitalSignatureTimestampSettings](../)
-* ad alanı [Aspose.Words.Saving](../../pdfdigitalsignaturetimestampsettings/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

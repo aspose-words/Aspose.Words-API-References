@@ -1,7 +1,9 @@
 ---
-title: Class LayoutCollector
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Layout.LayoutCollector sınıf. Bu sınıf belge düğümlerinin sayfa numaralarının hesaplanmasına olanak tanır.
+title: LayoutCollector Class
+linktitle: LayoutCollector
+articleTitle: LayoutCollector
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Layout.LayoutCollector sınıf. Bu sınıf belge düğümlerinin sayfa numaralarının hesaplanmasına olanak tanır C#'da.
 type: docs
 weight: 3320
 url: /tr/net/aspose.words.layout/layoutcollector/
@@ -20,7 +22,7 @@ public class LayoutCollector
 
 | İsim | Tanım |
 | --- | --- |
-| [LayoutCollector](layoutcollector/)(Document) | Bu sınıfın bir örneğini başlatır. |
+| [LayoutCollector](layoutcollector/)(*[Document](../../aspose.words/document/)*) | Bu sınıfın bir örneğini başlatır. |
 
 ## Özellikleri
 
@@ -33,12 +35,12 @@ public class LayoutCollector
 | İsim | Tanım |
 | --- | --- |
 | [Clear](../../aspose.words.layout/layoutcollector/clear/)() | Toplanan tüm düzen verilerini temizler. Belge manuel olarak güncellendikten veya düzen yeniden oluşturulduktan sonra bu yöntemi çağırın. |
-| [GetEndPageIndex](../../aspose.words.layout/layoutcollector/getendpageindex/)(Node) | Düğümün bittiği sayfanın 1 tabanlı dizinini alır. Düğüm bir sayfaya eşlenemiyorsa 0 değerini döndürür. |
-| [GetEntity](../../aspose.words.layout/layoutcollector/getentity/)(Node) | Nesnenin opak konumunu döndürür[`LayoutEnumerator`](../layoutenumerator/) belirtilen düğüme karşılık gelir. Döndürülen değeri argüman olarak kullanabilirsiniz.[`Current`](../layoutenumerator/current/) belgenin numaralandırıldığı ve düğümün belgesinin aynı olduğu göz önüne alındığında. |
-| [GetNumPagesSpanned](../../aspose.words.layout/layoutcollector/getnumpagesspanned/)(Node) | Belirtilen düğümün kapsadığı sayfa sayısını alır. Düğüm tek bir sayfadaysa 0. Bu, şununla aynıdır:[`GetEndPageIndex`](./getendpageindex/) -[`GetStartPageIndex`](./getstartpageindex/) . |
-| [GetStartPageIndex](../../aspose.words.layout/layoutcollector/getstartpageindex/)(Node) | Düğümün başladığı sayfanın 1 tabanlı dizinini alır. Düğüm bir sayfaya eşlenemiyorsa 0 değerini döndürür. |
+| [GetEndPageIndex](../../aspose.words.layout/layoutcollector/getendpageindex/)(*[Node](../../aspose.words/node/)*) | Düğümün bittiği sayfanın 1 tabanlı dizinini alır. Düğüm bir sayfaya eşlenemiyorsa 0 değerini döndürür. |
+| [GetEntity](../../aspose.words.layout/layoutcollector/getentity/)(*[Node](../../aspose.words/node/)*) | Nesnenin opak konumunu döndürür[`LayoutEnumerator`](../layoutenumerator/) belirtilen düğüme karşılık gelir. Döndürülen değeri argüman olarak kullanabilirsiniz.[`Current`](../layoutenumerator/current/) belgenin numaralandırıldığı ve düğümün belgesinin aynı olduğu göz önüne alındığında. |
+| [GetNumPagesSpanned](../../aspose.words.layout/layoutcollector/getnumpagesspanned/)(*[Node](../../aspose.words/node/)*) | Belirtilen düğümün kapsadığı sayfa sayısını alır. Düğüm tek bir sayfadaysa 0. Bu, şununla aynıdır:[`GetEndPageIndex`](./getendpageindex/) -[`GetStartPageIndex`](./getstartpageindex/) . |
+| [GetStartPageIndex](../../aspose.words.layout/layoutcollector/getstartpageindex/)(*[Node](../../aspose.words/node/)*) | Düğümün başladığı sayfanın 1 tabanlı dizinini alır. Düğüm bir sayfaya eşlenemiyorsa 0 değerini döndürür. |
 
-### Notlar
+## Notlar
 
 Bir oluşturduğunuz zaman`LayoutCollector` ve bir belirtin[`Document`](../../aspose.words/document/) Eklenecek belge nesnesi , belge sayfalar halinde formatlandığında, toplayıcı belge düğümlerinin düzen nesnelerine eşlenmesini kaydeder.
 
@@ -46,7 +48,7 @@ Belirli bir belge düğümünün (örneğin çalıştırma, paragraf veya tablo 
 
 Artık düzen bilgilerini toplamanız gerekmediğinde, en iyisi[`Document`](./document/) mülkiyet`hükümsüz` Daha fazla düzen eşlemesinin gereksiz şekilde toplanmasını önlemek için .
 
-### Örnekler
+## Örnekler
 
 Bir düğümün kapsadığı sayfa aralıklarının nasıl görüleceğini gösterir.
 
@@ -105,5 +107,3 @@ Assert.AreEqual("¶", layoutEnumerator.Text);
 
 * ad alanı [Aspose.Words.Layout](../../aspose.words.layout/)
 * toplantı [Aspose.Words](../../)
-
-

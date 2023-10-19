@@ -1,7 +1,9 @@
 ---
 title: AsposeWordsPrintDocument.ColorPagesPrinted
-second_title: Aspose.Words for .NET API Referansı
-description: AsposeWordsPrintDocument mülk. Renkli olarak yazdırılan sayfa sayısını alır ör.Color true olarak ayarlandı.
+linktitle: ColorPagesPrinted
+articleTitle: ColorPagesPrinted
+second_title: Aspose.Words for .NET
+description: AsposeWordsPrintDocument ColorPagesPrinted mülk. Renkli olarak yazdırılan sayfa sayısını alır ör.Color true olarak ayarlandı C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.rendering/asposewordsprintdocument/colorpagesprinted/
@@ -14,7 +16,7 @@ Renkli olarak yazdırılan sayfa sayısını alır (ör.Color true olarak ayarla
 public int ColorPagesPrinted { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Belgenin yazdırılacağı sayfa aralığının ve yazıcının nasıl seçileceğini ve ardından bir baskı önizlemesinin nasıl açılacağını gösterir.
 
@@ -63,7 +65,5 @@ Console.WriteLine($"The numer of pages printed in color are {awPrintDoc.ColorPag
 ### Ayrıca bakınız
 
 * class [AsposeWordsPrintDocument](../)
-* ad alanı [Aspose.Words.Rendering](../../asposewordsprintdocument/)
+* ad alanı [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * toplantı [Aspose.Words](../../../)
-
-

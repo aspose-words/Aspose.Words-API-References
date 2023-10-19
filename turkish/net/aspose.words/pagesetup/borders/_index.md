@@ -1,7 +1,9 @@
 ---
 title: PageSetup.Borders
-second_title: Aspose.Words for .NET API Referansı
-description: PageSetup mülk. Sayfa kenarlıklarının bir koleksiyonunu alır.
+linktitle: Borders
+articleTitle: Borders
+second_title: Aspose.Words for .NET
+description: PageSetup Borders mülk. Sayfa kenarlıklarının bir koleksiyonunu alır C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words/pagesetup/borders/
@@ -14,7 +16,7 @@ Sayfa kenarlıklarının bir koleksiyonunu alır.
 public BorderCollection Borders { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Gölgeli yeşil dalgalı sayfa kenarlığının nasıl oluşturulacağını gösterir.
 
@@ -35,7 +37,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageBorders.docx");
 
 * class [BorderCollection](../../bordercollection/)
 * class [PageSetup](../)
-* ad alanı [Aspose.Words](../../pagesetup/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

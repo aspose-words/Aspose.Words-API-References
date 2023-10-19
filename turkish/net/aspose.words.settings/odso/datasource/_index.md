@@ -1,7 +1,9 @@
 ---
 title: Odso.DataSource
-second_title: Aspose.Words for .NET API Referansı
-description: Odso mülk. Adresmektup birleştirmeyi gerçekleştirmek için bir belgeye bağlanacak harici veri kaynağının konumunu belirtir. Varsayılan değer boş bir dizedir.
+linktitle: DataSource
+articleTitle: DataSource
+second_title: Aspose.Words for .NET
+description: Odso DataSource mülk. Adresmektup birleştirmeyi gerçekleştirmek için bir belgeye bağlanacak harici veri kaynağının konumunu belirtir. Varsayılan değer boş bir dizedir C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.settings/odso/datasource/
@@ -14,7 +16,7 @@ Adres-mektup birleştirmeyi gerçekleştirmek için bir belgeye bağlanacak hari
 public string DataSource { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir Office Veri Kaynağı Nesnesinden alınan verilerle adres-mektup birleştirmenin nasıl yürütüleceğini gösterir.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ### Ayrıca bakınız
 
 * class [Odso](../)
-* ad alanı [Aspose.Words.Settings](../../odso/)
+* ad alanı [Aspose.Words.Settings](../../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../../)
-
-

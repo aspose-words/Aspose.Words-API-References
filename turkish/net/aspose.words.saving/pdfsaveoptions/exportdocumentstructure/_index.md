@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.ExportDocumentStructure
-second_title: Aspose.Words for .NET API Referansı
-description: PdfSaveOptions mülk. Belge yapısının dışa aktarılıp aktarılmayacağını belirleyen bir değer alır veya ayarlar.
+linktitle: ExportDocumentStructure
+articleTitle: ExportDocumentStructure
+second_title: Aspose.Words for .NET
+description: PdfSaveOptions ExportDocumentStructure mülk. Belge yapısının dışa aktarılıp aktarılmayacağını belirleyen bir değer alır veya ayarlar C#'da.
 type: docs
 weight: 140
 url: /tr/net/aspose.words.saving/pdfsaveoptions/exportdocumentstructure/
@@ -14,13 +16,13 @@ Belge yapısının dışa aktarılıp aktarılmayacağını belirleyen bir değe
 public bool ExportDocumentStructure { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu uyumluluk için belge yapısı gerekli olduğundan, PDF/A-1a, PDF/A-2a ve PDF/UA-1'e kaydederken bu değer göz ardı edilir.
 
 Belge yapısını dışa aktarmanın, özellikle büyük belgeler için olmak üzere bellek tüketimini önemli ölçüde artırdığını unutmayın.
 
-### Örnekler
+## Örnekler
 
 Belgemizin programlı olarak yorumlanmasına yardımcı olabilecek belge yapısı öğelerinin nasıl korunacağını gösterir.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ExportDocumentStructure.pdf", options);
 ### Ayrıca bakınız
 
 * class [PdfSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../pdfsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

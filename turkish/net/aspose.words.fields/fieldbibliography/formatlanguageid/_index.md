@@ -1,7 +1,9 @@
 ---
 title: FieldBibliography.FormatLanguageId
-second_title: Aspose.Words for .NET API Referansı
-description: FieldBibliography mülk. Belgedeki bibliyografik kaynakları biçimlendirmek için kullanılan dil kimliğini alır veya ayarlar.
+linktitle: FormatLanguageId
+articleTitle: FormatLanguageId
+second_title: Aspose.Words for .NET
+description: FieldBibliography FormatLanguageId mülk. Belgedeki bibliyografik kaynakları biçimlendirmek için kullanılan dil kimliğini alır veya ayarlar C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fields/fieldbibliography/formatlanguageid/
@@ -14,7 +16,7 @@ Belgedeki bibliyografik kaynakları biçimlendirmek için kullanılan dil kimli�
 public string FormatLanguageId { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 CITATION ve KAYNAKÇA alanlarıyla nasıl çalışılacağını gösterir.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Field.CITATION.docx");
 ### Ayrıca bakınız
 
 * class [FieldBibliography](../)
-* ad alanı [Aspose.Words.Fields](../../fieldbibliography/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

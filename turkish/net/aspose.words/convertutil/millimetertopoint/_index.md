@@ -1,7 +1,9 @@
 ---
 title: ConvertUtil.MillimeterToPoint
-second_title: Aspose.Words for .NET API Referansı
-description: ConvertUtil yöntem. Milimetreyi noktaya dönüştürür.
+linktitle: MillimeterToPoint
+articleTitle: MillimeterToPoint
+second_title: Aspose.Words for .NET
+description: ConvertUtil MillimeterToPoint yöntem. Milimetreyi noktaya dönüştürür C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/convertutil/millimetertopoint/
@@ -18,11 +20,11 @@ public static double MillimeterToPoint(double millimeters)
 | --- | --- | --- |
 | millimeters | Double | Dönüştürülecek değer. |
 
-### Notlar
+## Notlar
 
 1 inç, 25,4 milimetreye eşittir. 1 inç 72 puana eşittir.
 
-### Örnekler
+## Örnekler
 
 Sayfa özelliklerinin milimetre cinsinden nasıl belirtileceğini gösterir.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "UtilityClasses.PointsAndMillimeters.docx");
 ### Ayrıca bakınız
 
 * class [ConvertUtil](../)
-* ad alanı [Aspose.Words](../../convertutil/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

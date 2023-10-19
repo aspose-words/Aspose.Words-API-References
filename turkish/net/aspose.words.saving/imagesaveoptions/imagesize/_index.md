@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.ImageSize
-second_title: Aspose.Words for .NET API Referansı
-description: ImageSaveOptions mülk. Oluşturulan görüntünün boyutunu piksel cinsinden alır veya ayarlar.
+linktitle: ImageSize
+articleTitle: ImageSize
+second_title: Aspose.Words for .NET
+description: ImageSaveOptions ImageSize mülk. Oluşturulan görüntünün boyutunu piksel cinsinden alır veya ayarlar C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.saving/imagesaveoptions/imagesize/
@@ -14,13 +16,13 @@ Oluşturulan görüntünün boyutunu piksel cinsinden alır veya ayarlar.
 public Size ImageSize { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özellik yalnızca taramalı görüntü formatlarına kaydederken etkilidir.
 
 Varsayılan değer (0 x 0)'dır; bu, oluşturulan görüntünün boyutunun, görüntünün nokta cinsinden boyutuna, belirtilen çözünürlüğe ve ölçeğe göre hesaplanacağı anlamına gelir.
 
-### Örnekler
+## Örnekler
 
 Bir belgenin her sayfasının ayrı bir TIFF görüntüsüne nasıl dönüştürüleceğini gösterir.
 
@@ -55,7 +57,5 @@ for (int i = 0; i < doc.PageCount; i++)
 ### Ayrıca bakınız
 
 * class [ImageSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../imagesaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

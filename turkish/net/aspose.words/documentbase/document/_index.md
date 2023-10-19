@@ -1,7 +1,9 @@
 ---
 title: DocumentBase.Document
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentBase mülk. Bu örneği alır.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words for .NET
+description: DocumentBase Document mülk. Bu örneği alır C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/documentbase/document/
@@ -17,7 +19,5 @@ public override DocumentBase Document { get; }
 ### Ayrıca bakınız
 
 * class [DocumentBase](../)
-* ad alanı [Aspose.Words](../../documentbase/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

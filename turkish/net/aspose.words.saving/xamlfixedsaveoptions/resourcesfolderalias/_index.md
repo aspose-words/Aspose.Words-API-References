@@ -1,7 +1,9 @@
 ---
 title: XamlFixedSaveOptions.ResourcesFolderAlias
-second_title: Aspose.Words for .NET API Referansı
-description: XamlFixedSaveOptions mülk. Sabit sayfalı bir Xaml belgesine yazılan görüntü URIlerini oluşturmak için kullanılan klasörün adını belirtir. Varsayılanhükümsüz .
+linktitle: ResourcesFolderAlias
+articleTitle: ResourcesFolderAlias
+second_title: Aspose.Words for .NET
+description: XamlFixedSaveOptions ResourcesFolderAlias mülk. Sabit sayfalı bir Xaml belgesine yazılan görüntü URIlerini oluşturmak için kullanılan klasörün adını belirtir. Varsayılanhükümsüz  C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.saving/xamlfixedsaveoptions/resourcesfolderalias/
@@ -14,11 +16,11 @@ Sabit sayfalı bir Xaml belgesine yazılan görüntü URI'lerini oluşturmak iç
 public string ResourcesFolderAlias { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bir kaydettiğinizde[`Document`](../../../aspose.words/document/) sabit sayfa Xaml formatında, Aspose.Words'ün belgeye gömülü all görüntülerini bağımsız dosyalar olarak kaydetmesi gerekir.[`ResourcesFolder`](../resourcesfolder/) görüntülerin nereye kaydedileceğini belirtmenize ve`ResourcesFolderAlias` , görüntü URI'lerinin nasıl oluşturulacağını belirtmeye olanak tanır.
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi sabit biçimli .xaml dosyasına dönüştürürken oluşturulan bağlantılı kaynakların URI'lerinin nasıl yazdırılacağını gösterir.
 
@@ -81,7 +83,5 @@ private class ResourceUriPrinter : IResourceSavingCallback
 ### Ayrıca bakınız
 
 * class [XamlFixedSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../xamlfixedsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

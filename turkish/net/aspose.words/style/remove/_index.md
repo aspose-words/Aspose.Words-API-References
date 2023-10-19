@@ -1,9 +1,11 @@
 ---
 title: Style.Remove
-second_title: Aspose.Words for .NET API Referansı
-description: Style yöntem. Belirtilen stili belgeden kaldırır.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words for .NET
+description: Style Remove yöntem. Belirtilen stili belgeden kaldırır C#'da.
 type: docs
-weight: 200
+weight: 190
 url: /tr/net/aspose.words/style/remove/
 ---
 ## Style.Remove method
@@ -14,7 +16,7 @@ Belirtilen stili belgeden kaldırır.
 public void Remove()
 ```
 
-### Notlar
+## Notlar
 
 Stil kaldırmanın belge modeli üzerinde aşağıdaki etkileri vardır:
 
@@ -22,7 +24,7 @@ Stil kaldırmanın belge modeli üzerinde aşağıdaki etkileri vardır:
 * Temel stil kaldırılırsa biçimlendirmesi alt stillere taşınır.
 * Silinecek stilin bağlantılı bir stili varsa her ikisi de silinir.
 
-### Örnekler
+## Örnekler
 
 Özel bir stilin nasıl oluşturulacağını ve uygulanacağını gösterir.
 
@@ -61,7 +63,5 @@ Assert.AreEqual(Color.Empty.ToArgb(), firstParagraphStyle.Font.Color.ToArgb());
 ### Ayrıca bakınız
 
 * class [Style](../)
-* ad alanı [Aspose.Words](../../style/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

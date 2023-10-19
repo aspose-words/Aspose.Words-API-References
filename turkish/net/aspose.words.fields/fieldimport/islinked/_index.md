@@ -1,7 +1,9 @@
 ---
 title: FieldImport.IsLinked
-second_title: Aspose.Words for .NET API Referansı
-description: FieldImport mülk. Grafik verilerini belgede saklamayarak dosya boyutunun küçültülüp küçültülmeyeceğini alır veya ayarlar.
+linktitle: IsLinked
+articleTitle: IsLinked
+second_title: Aspose.Words for .NET
+description: FieldImport IsLinked mülk. Grafik verilerini belgede saklamayarak dosya boyutunun küçültülüp küçültülmeyeceğini alır veya ayarlar C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fields/fieldimport/islinked/
@@ -14,7 +16,7 @@ Grafik verilerini belgede saklamayarak dosya boyutunun küçültülüp küçült
 public bool IsLinked { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 IMPORT ve INCLUDEPICTURE alanlarını kullanarak görüntülerin nasıl ekleneceğini gösterir.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Field.IMPORT.INCLUDEPICTURE.docx");
 ### Ayrıca bakınız
 
 * class [FieldImport](../)
-* ad alanı [Aspose.Words.Fields](../../fieldimport/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

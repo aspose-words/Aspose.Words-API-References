@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPart.Id
-second_title: Aspose.Words for .NET API Referansı
-description: CustomXmlPart mülk. Bir OOXML belgesi içindeki bu özel XML bölümünü tanımlayan dizeyi alır veya ayarlar.
+linktitle: Id
+articleTitle: Id
+second_title: Aspose.Words for .NET
+description: CustomXmlPart Id mülk. Bir OOXML belgesi içindeki bu özel XML bölümünü tanımlayan dizeyi alır veya ayarlar C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.markup/customxmlpart/id/
@@ -14,7 +16,7 @@ Bir OOXML belgesi içindeki bu özel XML bölümünü tanımlayan dizeyi alır v
 public string Id { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 ISO/IEC 29500, bu değerin bir GUID olduğunu belirtir, ancak Microsoft Word'ün eski sürümleri burada any dizesine izin veriyordu. Aspose.Words aynısını ECMA-376 formatı için de yapar. Ancak Microsoft Word Online'ın GUID olmayan bir değerle oluşturulmuş bir belgeyi açmakta başarısız olduğunu unutmayın. Bu nedenle, bu özellik için bir GUID tercih edilen değerdir.
 
@@ -22,7 +24,7 @@ Geçerli bir değer, bu belgedeki tüm özel XML veri parçaları arasında benz
 
 Varsayılan değer boş bir dizedir. Değer olamaz`hükümsüz`.
 
-### Örnekler
+## Örnekler
 
 Özel XML verileriyle yapılandırılmış bir belge etiketinin nasıl oluşturulacağını gösterir.
 
@@ -89,7 +91,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 ### Ayrıca bakınız
 
 * class [CustomXmlPart](../)
-* ad alanı [Aspose.Words.Markup](../../customxmlpart/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

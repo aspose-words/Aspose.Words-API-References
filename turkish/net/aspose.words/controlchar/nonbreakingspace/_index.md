@@ -1,7 +1,9 @@
 ---
 title: ControlChar.NonBreakingSpace
-second_title: Aspose.Words for .NET API Referansı
-description: ControlChar alan. Bölünemeyen boşluk karakteri x00a0.
+linktitle: NonBreakingSpace
+articleTitle: NonBreakingSpace
+second_title: Aspose.Words for .NET
+description: ControlChar NonBreakingSpace alan. Bölünemeyen boşluk karakteri x00a0 C#'da.
 type: docs
 weight: 170
 url: /tr/net/aspose.words/controlchar/nonbreakingspace/
@@ -14,7 +16,7 @@ Bölünemeyen boşluk karakteri: "\x00a0".
 public static readonly string NonBreakingSpace;
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgeye çeşitli kontrol karakterlerinin nasıl ekleneceğini gösterir.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Ayrıca bakınız
 
 * class [ControlChar](../)
-* ad alanı [Aspose.Words](../../controlchar/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

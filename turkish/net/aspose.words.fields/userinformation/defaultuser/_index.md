@@ -1,7 +1,9 @@
 ---
 title: UserInformation.DefaultUser
-second_title: Aspose.Words for .NET API Referansı
-description: UserInformation mülk. Varsayılan kullanıcı bilgisi.
+linktitle: DefaultUser
+articleTitle: DefaultUser
+second_title: Aspose.Words for .NET
+description: UserInformation DefaultUser mülk. Varsayılan kullanıcı bilgisi C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/userinformation/defaultuser/
@@ -14,11 +16,11 @@ Varsayılan kullanıcı bilgisi.
 public static UserInformation DefaultUser { get; }
 ```
 
-### Notlar
+## Notlar
 
 Kullan[`CurrentUser`](../../fieldoptions/currentuser/) Tek bir belge için kullanıcı bilgilerini belirtme özelliği.
 
-### Örnekler
+## Örnekler
 
 Kullanıcı ayrıntılarının nasıl ayarlanacağını ve alanları kullanarak bunların nasıl görüntüleneceğini gösterir.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "FieldOptions.CurrentUser.docx");
 ### Ayrıca bakınız
 
 * class [UserInformation](../)
-* ad alanı [Aspose.Words.Fields](../../userinformation/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

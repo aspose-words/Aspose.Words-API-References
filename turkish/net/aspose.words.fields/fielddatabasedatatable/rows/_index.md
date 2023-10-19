@@ -1,7 +1,9 @@
 ---
 title: FieldDatabaseDataTable.Rows
-second_title: Aspose.Words for .NET API Referansı
-description: FieldDatabaseDataTable mülk. Bu tabloya ait satırları döndürür.
+linktitle: Rows
+articleTitle: Rows
+second_title: Aspose.Words for .NET
+description: FieldDatabaseDataTable Rows mülk. Bu tabloya ait satırları döndürür C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.fields/fielddatabasedatatable/rows/
@@ -18,7 +20,5 @@ public IList<FieldDatabaseDataRow> Rows { get; }
 
 * class [FieldDatabaseDataRow](../../fielddatabasedatarow/)
 * class [FieldDatabaseDataTable](../)
-* ad alanı [Aspose.Words.Fields](../../fielddatabasedatatable/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

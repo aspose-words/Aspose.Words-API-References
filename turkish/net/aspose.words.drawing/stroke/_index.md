@@ -1,7 +1,9 @@
 ---
-title: Class Stroke
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.Stroke sınıf. Bir şeklin konturunu tanımlar.
+title: Stroke Class
+linktitle: Stroke
+articleTitle: Stroke
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.Stroke sınıf. Bir şeklin konturunu tanımlar C#'da.
 type: docs
 weight: 1310
 url: /tr/net/aspose.words.drawing/stroke/
@@ -21,7 +23,6 @@ public class Stroke
 | İsim | Tanım |
 | --- | --- |
 | [BackColor](../../aspose.words.drawing/stroke/backcolor/) { get; set; } | Konturun arka plan rengini alır veya ayarlar. |
-| [BaseForeColor](../../aspose.words.drawing/stroke/baseforecolor/) { get; } |  |
 | [Color](../../aspose.words.drawing/stroke/color/) { get; set; } | Konturun rengini tanımlar. |
 | [Color2](../../aspose.words.drawing/stroke/color2/) { get; set; } | Kontur için ikinci rengi tanımlar. |
 | [DashStyle](../../aspose.words.drawing/stroke/dashstyle/) { get; set; } | Kontur için nokta ve çizgi desenini belirtir. |
@@ -43,11 +44,11 @@ public class Stroke
 | [Visible](../../aspose.words.drawing/stroke/visible/) { get; set; } | Konturun görünür olup olmadığını belirten bir bayrak alır veya ayarlar. |
 | [Weight](../../aspose.words.drawing/stroke/weight/) { get; set; } | Bir şeklin yolunu nokta olarak konturlayan fırça kalınlığını tanımlar. |
 
-### Notlar
+## Notlar
 
 Kullan[`Stroke`](../shape/stroke/) bir şeklin kontur özelliklerine erişim özelliği. `Stroke` doğrudan sınıf.
 
-### Örnekler
+## Örnekler
 
 Kontur özelliklerinin nasıl değiştirildiğini gösterir.
 
@@ -81,5 +82,3 @@ doc.Save(ArtifactsDir + "Shape.Stroke.docx");
 
 * ad alanı [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../)
-
-

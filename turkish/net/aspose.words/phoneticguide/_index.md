@@ -1,7 +1,9 @@
 ---
-title: Class PhoneticGuide
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.PhoneticGuide sınıf. Fonetik Kılavuzu temsil eder.
+title: PhoneticGuide Class
+linktitle: PhoneticGuide
+articleTitle: PhoneticGuide
+second_title: Aspose.Words for .NET
+description: Aspose.Words.PhoneticGuide sınıf. Fonetik Kılavuzu temsil eder C#'da.
 type: docs
 weight: 4430
 url: /tr/net/aspose.words/phoneticguide/
@@ -25,5 +27,3 @@ public class PhoneticGuide
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.ShowPercentage
-second_title: Aspose.Words for .NET API Referansı
-description: ChartDataLabel mülk. Bir grafikteki veri etiketleri için yüzde değerinin görüntülenip görüntülenmeyeceğini belirlemeye olanak sağlar. Varsayılan değerYANLIŞ .
+linktitle: ShowPercentage
+articleTitle: ShowPercentage
+second_title: Aspose.Words for .NET
+description: ChartDataLabel ShowPercentage mülk. Bir grafikteki veri etiketleri için yüzde değerinin görüntülenip görüntülenmeyeceğini belirlemeye olanak sağlar. Varsayılan değerYANLIŞ  C#'da.
 type: docs
 weight: 130
 url: /tr/net/aspose.words.drawing.charts/chartdatalabel/showpercentage/
@@ -14,7 +16,7 @@ Bir grafikteki veri etiketleri için yüzde değerinin görüntülenip görünt�
 public bool ShowPercentage { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Çizgi grafikteki veri noktalarına etiketlerin nasıl uygulanacağını gösterir.
 
@@ -92,7 +94,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 ### Ayrıca bakınız
 
 * class [ChartDataLabel](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

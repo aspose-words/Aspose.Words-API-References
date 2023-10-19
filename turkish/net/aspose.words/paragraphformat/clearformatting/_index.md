@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.ClearFormatting
-second_title: Aspose.Words for .NET API Referansı
-description: ParagraphFormat yöntem. Varsayılan paragraf formatına sıfırlar.
+linktitle: ClearFormatting
+articleTitle: ClearFormatting
+second_title: Aspose.Words for .NET
+description: ParagraphFormat ClearFormatting yöntem. Varsayılan paragraf formatına sıfırlar C#'da.
 type: docs
 weight: 420
 url: /tr/net/aspose.words/paragraphformat/clearformatting/
@@ -14,11 +16,11 @@ Varsayılan paragraf formatına sıfırlar.
 public void ClearFormatting()
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan paragraf formatı Normal stildir, sola hizalanmış, girintisiz, boşluk yok, kenarlık yok ve gölge yok.
 
-### Örnekler
+## Örnekler
 
 Bir listenin başka bir listenin içine nasıl yerleştirileceğini gösterir.
 
@@ -72,7 +74,5 @@ builder.Document.Save(ArtifactsDir + "Lists.NestedLists.docx");
 ### Ayrıca bakınız
 
 * class [ParagraphFormat](../)
-* ad alanı [Aspose.Words](../../paragraphformat/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: MailMerge.MailMergeCallback
-second_title: Aspose.Words for .NET API Referansı
-description: MailMerge mülk. Adresmektup birleştirme sırasında belirli olayların işlenmesine izin verir.
+linktitle: MailMergeCallback
+articleTitle: MailMergeCallback
+second_title: Aspose.Words for .NET
+description: MailMerge MailMergeCallback mülk. Adresmektup birleştirme sırasında belirli olayların işlenmesine izin verir C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.mailmerging/mailmerge/mailmergecallback/
@@ -14,7 +16,7 @@ Adres-mektup birleştirme sırasında belirli olayların işlenmesine izin verir
 public IMailMergeCallback MailMergeCallback { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Adres-mektup birleştirme sırasında olayların işlenmesi için özel mantığın nasıl tanımlanacağını gösterir.
 
@@ -66,7 +68,5 @@ private class MailMergeTagReplacementCounter : IMailMergeCallback
 
 * interface [IMailMergeCallback](../../imailmergecallback/)
 * class [MailMerge](../)
-* ad alanı [Aspose.Words.MailMerging](../../mailmerge/)
+* ad alanı [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * toplantı [Aspose.Words](../../../)
-
-

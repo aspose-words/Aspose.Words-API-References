@@ -1,7 +1,9 @@
 ---
-title: Interface IImageSavingCallback
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Saving.IImageSavingCallback arayüz. Bir belgeyi HTMLye kaydederken Aspose.Wordsün görüntüleri nasıl kaydettiğini kontrol etmek istiyorsanız bu arayüzü uygulayın. Diğer formatlar tarafından kullanılabilir.
+title: IImageSavingCallback Interface
+linktitle: IImageSavingCallback
+articleTitle: IImageSavingCallback
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Saving.IImageSavingCallback arayüz. Bir belgeyi HTMLye kaydederken Aspose.Wordsün görüntüleri nasıl kaydettiğini kontrol etmek istiyorsanız bu arayüzü uygulayın. Diğer formatlar tarafından kullanılabilir C#'da.
 type: docs
 weight: 5170
 url: /tr/net/aspose.words.saving/iimagesavingcallback/
@@ -18,9 +20,9 @@ public interface IImageSavingCallback
 
 | İsim | Tanım |
 | --- | --- |
-| [ImageSaving](../../aspose.words.saving/iimagesavingcallback/imagesaving/)(ImageSavingArgs) | Aspose.Words bir görüntüyü HTML'ye kaydettiğinde çağrılır. |
+| [ImageSaving](../../aspose.words.saving/iimagesavingcallback/imagesaving/)(*[ImageSavingArgs](../imagesavingargs/)*) | Aspose.Words bir görüntüyü HTML'ye kaydettiğinde çağrılır. |
 
-### Örnekler
+## Örnekler
 
 Markdown belgesine kaydederken görüntü adının nasıl yeniden adlandırılacağını gösterir.
 
@@ -192,5 +194,3 @@ public class SavedImageRename : IImageSavingCallback
 
 * ad alanı [Aspose.Words.Saving](../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../)
-
-

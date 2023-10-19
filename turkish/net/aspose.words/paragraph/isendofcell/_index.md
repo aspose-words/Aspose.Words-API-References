@@ -1,7 +1,9 @@
 ---
 title: Paragraph.IsEndOfCell
-second_title: Aspose.Words for .NET API Referansı
-description: Paragraph mülk. Bu paragraf bir paragraftaki son paragrafsa doğrudurCell  aksi halde yanlış.
+linktitle: IsEndOfCell
+articleTitle: IsEndOfCell
+second_title: Aspose.Words for .NET
+description: Paragraph IsEndOfCell mülk. Bu paragraf bir paragraftaki son paragrafsa doğrudurCell  aksi halde yanlış C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words/paragraph/isendofcell/
@@ -14,7 +16,7 @@ Bu paragraf bir paragraftaki son paragrafsa doğrudur[`Cell`](../../../aspose.wo
 public bool IsEndOfCell { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Aynı sayfada bir arada kalacak bir tablonun nasıl ayarlanacağını gösterir.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Table.KeepTableTogether.docx");
 ### Ayrıca bakınız
 
 * class [Paragraph](../)
-* ad alanı [Aspose.Words](../../paragraph/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

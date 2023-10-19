@@ -1,7 +1,9 @@
 ---
 title: FieldListNum.ListLevel
-second_title: Aspose.Words for .NET API Referansı
-description: FieldListNum mülk. Alanın varsayılan davranışını geçersiz kılarak listedeki düzeyi alır veya ayarlar.
+linktitle: ListLevel
+articleTitle: ListLevel
+second_title: Aspose.Words for .NET
+description: FieldListNum ListLevel mülk. Alanın varsayılan davranışını geçersiz kılarak listedeki düzeyi alır veya ayarlar C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fields/fieldlistnum/listlevel/
@@ -14,7 +16,7 @@ Alanın varsayılan davranışını geçersiz kılarak listedeki düzeyi alır v
 public string ListLevel { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 LISTNUM alanlarıyla paragrafların nasıl numaralandırılacağını gösterir.
 
@@ -84,7 +86,5 @@ doc.Save(ArtifactsDir + "Field.LISTNUM.docx");
 ### Ayrıca bakınız
 
 * class [FieldListNum](../)
-* ad alanı [Aspose.Words.Fields](../../fieldlistnum/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

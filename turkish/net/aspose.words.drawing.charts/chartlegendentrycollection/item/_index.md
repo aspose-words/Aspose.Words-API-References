@@ -1,7 +1,9 @@
 ---
 title: ChartLegendEntryCollection.Item
-second_title: Aspose.Words for .NET API Referansı
-description: ChartLegendEntryCollection mülk. İadelerChartLegendEntry belirtilen dizin için.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words for .NET
+description: ChartLegendEntryCollection Item mülk. İadelerChartLegendEntry belirtilen dizin için C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.drawing.charts/chartlegendentrycollection/item/
@@ -18,7 +20,5 @@ public ChartLegendEntry this[int index] { get; }
 
 * class [ChartLegendEntry](../../chartlegendentry/)
 * class [ChartLegendEntryCollection](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartlegendentrycollection/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,26 +1,28 @@
 ---
 title: StructuredDocumentTag.Multiline
-second_title: Aspose.Words for .NET API Referansı
-description: StructuredDocumentTag mülk. Bunun olup olmadığını belirtir SDT birden fazla metin satırına izin verir.
+linktitle: Multiline
+articleTitle: Multiline
+second_title: Aspose.Words for .NET
+description: StructuredDocumentTag Multiline mülk. Bunun olup olmadığını belirtirSDT birden fazla metin satırına izin verir C#'da.
 type: docs
 weight: 210
 url: /tr/net/aspose.words.markup/structureddocumenttag/multiline/
 ---
 ## StructuredDocumentTag.Multiline property
 
-Bunun olup olmadığını belirtir **SDT** birden fazla metin satırına izin verir.
+Bunun olup olmadığını belirtir**SDT** birden fazla metin satırına izin verir.
 
 ```csharp
 public bool Multiline { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özelliğe erişim yalnızca şunun için işe yarayacaktır:RichText VePlainText SDT türü.
 
 Diğer tüm SDT türleri için istisna meydana gelecektir.
 
-### Örnekler
+## Örnekler
 
 Düz metin kutusunda yapılandırılmış belge etiketinin nasıl oluşturulacağını ve görünümünün nasıl değiştirileceğini gösterir.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");
 ### Ayrıca bakınız
 
 * class [StructuredDocumentTag](../)
-* ad alanı [Aspose.Words.Markup](../../structureddocumenttag/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

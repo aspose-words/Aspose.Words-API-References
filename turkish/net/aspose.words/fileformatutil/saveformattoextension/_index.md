@@ -1,7 +1,9 @@
 ---
 title: FileFormatUtil.SaveFormatToExtension
-second_title: Aspose.Words for .NET API Referansı
-description: FileFormatUtil yöntem. Kayıt biçimi numaralandırılmış değerini bir dosya uzantısına dönüştürür. Döndürülen uzantı başında nokta bulunan küçük harfli bir dizedir.
+linktitle: SaveFormatToExtension
+articleTitle: SaveFormatToExtension
+second_title: Aspose.Words for .NET
+description: FileFormatUtil SaveFormatToExtension yöntem. Kayıt biçimi numaralandırılmış değerini bir dosya uzantısına dönüştürür. Döndürülen uzantı başında nokta bulunan küçük harfli bir dizedir C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words/fileformatutil/saveformattoextension/
@@ -20,13 +22,13 @@ public static string SaveFormatToExtension(SaveFormat saveFormat)
 | --- | --- |
 | ArgumentException | Dönüştürülemediğinde atar. |
 
-### Notlar
+## Notlar
 
 WordML değer ".wml"ye dönüştürülür.
 
 FlatOpc değer ".fopc"e dönüştürülür.
 
-### Örnekler
+## Örnekler
 
 Bir belgenin biçimini algılamak için FileFormatUtil yöntemlerinin nasıl kullanılacağını gösterir.
 
@@ -60,7 +62,5 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
 
 * enum [SaveFormat](../../saveformat/)
 * class [FileFormatUtil](../)
-* ad alanı [Aspose.Words](../../fileformatutil/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

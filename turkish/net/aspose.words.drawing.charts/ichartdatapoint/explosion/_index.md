@@ -1,7 +1,9 @@
 ---
 title: IChartDataPoint.Explosion
-second_title: Aspose.Words for .NET API Referansı
-description: IChartDataPoint mülk. Veri noktasının pastanın merkezinden ne kadar uzağa taşınacağını belirtir. Negatif olabilir negatif özelliğin ayarlanmadığı ve hiçbir patlamanın uygulanmaması gerektiği anlamına gelir. Yalnızca Pasta grafikleri için geçerlidir.
+linktitle: Explosion
+articleTitle: Explosion
+second_title: Aspose.Words for .NET
+description: IChartDataPoint Explosion mülk. Veri noktasının pastanın merkezinden ne kadar uzağa taşınacağını belirtir. Negatif olabilir negatif özelliğin ayarlanmadığı ve hiçbir patlamanın uygulanmaması gerektiği anlamına gelir. Yalnızca Pasta grafikleri için geçerlidir C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.drawing.charts/ichartdatapoint/explosion/
@@ -14,7 +16,7 @@ Veri noktasının pastanın merkezinden ne kadar uzağa taşınacağını belirt
 public int Explosion { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Pasta grafiğinin dilimlerinin merkezden nasıl uzağa taşınacağını gösterir.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Charts.PieChartExplosion.docx");
 ### Ayrıca bakınız
 
 * interface [IChartDataPoint](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../ichartdatapoint/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

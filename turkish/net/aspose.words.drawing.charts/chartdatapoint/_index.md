@@ -1,7 +1,9 @@
 ---
-title: Class ChartDataPoint
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.Charts.ChartDataPoint sınıf. Grafikteki tek bir veri noktasının formatını belirtmeye izin verir.
+title: ChartDataPoint Class
+linktitle: ChartDataPoint
+articleTitle: ChartDataPoint
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.Charts.ChartDataPoint sınıf. Grafikteki tek bir veri noktasının formatını belirtmeye izin verir C#'da.
 type: docs
 weight: 690
 url: /tr/net/aspose.words.drawing.charts/chartdatapoint/
@@ -33,11 +35,11 @@ public class ChartDataPoint : IChartDataPoint
 | --- | --- |
 | [ClearFormat](../../aspose.words.drawing.charts/chartdatapoint/clearformat/)() | Bu veri noktasının biçimini temizler. Özellikler üst seride tanımlanan varsayılan değerlere ayarlanır. |
 
-### Notlar
+## Notlar
 
 Bir seride,`ChartDataPoint` nesnenin bir üyesidir[`ChartDataPointCollection`](../chartdatapointcollection/) . [`ChartDataPointCollection`](../chartdatapointcollection/) içerir`ChartDataPoint` Her nokta için nesne.
 
-### Örnekler
+## Örnekler
 
 Çizgi grafikte veri noktalarıyla nasıl çalışılacağını gösterir.
 
@@ -101,5 +103,3 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 * interface [IChartDataPoint](../ichartdatapoint/)
 * ad alanı [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../)
-
-

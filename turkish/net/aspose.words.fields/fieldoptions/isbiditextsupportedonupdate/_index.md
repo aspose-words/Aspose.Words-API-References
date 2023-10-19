@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.IsBidiTextSupportedOnUpdate
-second_title: Aspose.Words for .NET API Referansı
-description: FieldOptions mülk. Çift yönlü metnin alan güncellemesi sırasında tam olarak desteklenip desteklenmediğini belirten değeri alır veya ayarlar.
+linktitle: IsBidiTextSupportedOnUpdate
+articleTitle: IsBidiTextSupportedOnUpdate
+second_title: Aspose.Words for .NET
+description: FieldOptions IsBidiTextSupportedOnUpdate mülk. Çift yönlü metnin alan güncellemesi sırasında tam olarak desteklenip desteklenmediğini belirten değeri alır veya ayarlar C#'da.
 type: docs
 weight: 150
 url: /tr/net/aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/
 public bool IsBidiTextSupportedOnUpdate { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özellik olarak ayarlandığında`doğru`, güncellemesi sırasında Sağdan Sola language (yani Arapça veya İbranice) uyumlu alan sonucu üretmek için ek adımlar gerçekleştirilir.
 
@@ -22,7 +24,7 @@ Bu özellik olarak ayarlandığında`YANLIŞ` ve Sağdan Sola dili kullanıldı�
 
 Varsayılan değer:`YANLIŞ`.
 
-### Örnekler
+## Örnekler
 
 Alan güncellemesinin çift yönlü metni tam olarak desteklediğinden emin olmak için FieldOptions'ın nasıl kullanılacağını gösterir.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "FieldOptions.Bidi.docx");
 ### Ayrıca bakınız
 
 * class [FieldOptions](../)
-* ad alanı [Aspose.Words.Fields](../../fieldoptions/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

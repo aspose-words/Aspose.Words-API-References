@@ -1,7 +1,9 @@
 ---
-title: Class Forms2OleControl
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.Ole.Forms2OleControl sınıf. Microsoft Forms 2.0 OLE kontrolünü temsil eder.
+title: Forms2OleControl Class
+linktitle: Forms2OleControl
+articleTitle: Forms2OleControl
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.Ole.Forms2OleControl sınıf. Microsoft Forms 2.0 OLE kontrolünü temsil eder C#'da.
 type: docs
 weight: 1110
 url: /tr/net/aspose.words.drawing.ole/forms2olecontrol/
@@ -29,7 +31,7 @@ public abstract class Forms2OleControl : OleControl
 | abstract [Type](../../aspose.words.drawing.ole/forms2olecontrol/type/) { get; } | Forms 2.0 kontrolünün türünü alır. |
 | [Value](../../aspose.words.drawing.ole/forms2olecontrol/value/) { get; } | Genellikle kontrol durumunu temsil eden temel Değer özelliğini alır. Örneğin işaretli seçenek düğmesi '1' değerine sahipken, işaretlenmemişse '0' değerine sahiptir. Varsayılan değer boş bir dizedir. |
 
-### Örnekler
+## Örnekler
 
 ActiveX denetiminin özelliklerinin nasıl doğrulanacağını gösterir.
 
@@ -61,5 +63,3 @@ if (oleControl.IsForms2OleControl)
 * class [OleControl](../olecontrol/)
 * ad alanı [Aspose.Words.Drawing.Ole](../../aspose.words.drawing.ole/)
 * toplantı [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitEditableRangeEnd
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentVisitor yöntem. Belgede düzenlenebilir bir aralığın sonuna gelindiğinde çağrılır.
+linktitle: VisitEditableRangeEnd
+articleTitle: VisitEditableRangeEnd
+second_title: Aspose.Words for .NET
+description: DocumentVisitor VisitEditableRangeEnd yöntem. Belgede düzenlenebilir bir aralığın sonuna gelindiğinde çağrılır C#'da.
 type: docs
 weight: 160
 url: /tr/net/aspose.words/documentvisitor/visiteditablerangeend/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitEditableRangeEnd(EditableRangeEnd editableRang
 
 A[`VisitorAction`](../../visitoraction/) numaralandırmaya nasıl devam edileceğini belirten değer.
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki düzenlenebilir her aralığın düğüm yapısının nasıl yazdırılacağını gösterir.
 
@@ -118,7 +120,5 @@ public class EditableRangeStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [EditableRangeEnd](../../editablerangeend/)
 * class [DocumentVisitor](../)
-* ad alanı [Aspose.Words](../../documentvisitor/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

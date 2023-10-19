@@ -1,7 +1,9 @@
 ---
 title: Run.PhoneticGuide
-second_title: Aspose.Words for .NET API Referansı
-description: Run mülk. Bir alırPhoneticGuide nesne.
+linktitle: PhoneticGuide
+articleTitle: PhoneticGuide
+second_title: Aspose.Words for .NET
+description: Run PhoneticGuide mülk. Bir alırPhoneticGuide nesne C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words/run/phoneticguide/
@@ -14,7 +16,7 @@ Bir alır`PhoneticGuide` nesne.
 public PhoneticGuide PhoneticGuide { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Fonetik kılavuzun özelliklerinin nasıl alınacağını gösterir.
 
@@ -32,7 +34,5 @@ Assert.AreEqual("ruby", runs[0].PhoneticGuide.RubyText);
 
 * class [PhoneticGuide](../../phoneticguide/)
 * class [Run](../)
-* ad alanı [Aspose.Words](../../run/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.ShowLegendKey
-second_title: Aspose.Words for .NET API Referansı
-description: ChartDataLabelCollection mülk. Tüm serinin veri etiketleri için açıklama anahtarının görüntülenip görüntülenmeyeceğini belirlemeye izin verir. Varsayılan değerYANLIŞ .
+linktitle: ShowLegendKey
+articleTitle: ShowLegendKey
+second_title: Aspose.Words for .NET
+description: ChartDataLabelCollection ShowLegendKey mülk. Tüm serinin veri etiketleri için açıklama anahtarının görüntülenip görüntülenmeyeceğini belirlemeye izin verir. Varsayılan değerYANLIŞ  C#'da.
 type: docs
 weight: 110
 url: /tr/net/aspose.words.drawing.charts/chartdatalabelcollection/showlegendkey/
@@ -14,11 +16,11 @@ Tüm serinin veri etiketleri için açıklama anahtarının görüntülenip gör
 public bool ShowLegendKey { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özellik için tanımlanan değer, the kullanılarak tek bir veri etiketi için geçersiz kılınabilir[`ShowLegendKey`](../../chartdatalabel/showlegendkey/) özellik.
 
-### Örnekler
+## Örnekler
 
 Pasta grafiğinin veri etiketleriyle nasıl çalışılacağını gösterir.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Charts.DataLabelsPieChart.docx");
 ### Ayrıca bakınız
 
 * class [ChartDataLabelCollection](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

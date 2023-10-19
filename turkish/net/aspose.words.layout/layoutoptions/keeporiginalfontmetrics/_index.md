@@ -1,7 +1,9 @@
 ---
 title: LayoutOptions.KeepOriginalFontMetrics
-second_title: Aspose.Words for .NET API Referansı
-description: LayoutOptions mülk. Yazı tipi değişiminden sonra orijinal yazı tipi ölçümlerinin kullanılıp kullanılmaması gerektiğine ilişkin bir gösterge alır veya ayarlar. Varsayılandoğru .
+linktitle: KeepOriginalFontMetrics
+articleTitle: KeepOriginalFontMetrics
+second_title: Aspose.Words for .NET
+description: LayoutOptions KeepOriginalFontMetrics mülk. Yazı tipi değişiminden sonra orijinal yazı tipi ölçümlerinin kullanılıp kullanılmaması gerektiğine ilişkin bir gösterge alır veya ayarlar. Varsayılandoğru  C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.layout/layoutoptions/keeporiginalfontmetrics/
@@ -14,7 +16,7 @@ Yazı tipi değişiminden sonra orijinal yazı tipi ölçümlerinin kullanılıp
 public bool KeepOriginalFontMetrics { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Mevcut yazı tipi kaynaklarından eksik bir yazı tipi için en yakın eşleşmeyi bulma özelliğinin nasıl ayarlanacağını gösterir.
 
@@ -74,7 +76,5 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 ### Ayrıca bakınız
 
 * class [LayoutOptions](../)
-* ad alanı [Aspose.Words.Layout](../../layoutoptions/)
+* ad alanı [Aspose.Words.Layout](../../../aspose.words.layout/)
 * toplantı [Aspose.Words](../../../)
-
-

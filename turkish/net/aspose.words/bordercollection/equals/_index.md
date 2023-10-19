@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.Equals
-second_title: Aspose.Words for .NET API Referansı
-description: BorderCollection yöntem. Kenarlık koleksiyonlarını karşılaştırır.
+linktitle: Equals
+articleTitle: Equals
+second_title: Aspose.Words for .NET
+description: BorderCollection Equals yöntem. Kenarlık koleksiyonlarını karşılaştırır C#'da.
 type: docs
 weight: 150
 url: /tr/net/aspose.words/bordercollection/equals/
@@ -14,7 +16,7 @@ Kenarlık koleksiyonlarını karşılaştırır.
 public bool Equals(BorderCollection brColl)
 ```
 
-### Örnekler
+## Örnekler
 
 Kenarlık koleksiyonlarının öğeleri nasıl paylaşabildiğini gösterir.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Border.SharedElements.docx");
 ### Ayrıca bakınız
 
 * class [BorderCollection](../)
-* ad alanı [Aspose.Words](../../bordercollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

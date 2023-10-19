@@ -1,7 +1,9 @@
 ---
-title: Class ChartAxis
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.Charts.ChartAxis sınıf. Grafiğin eksen seçeneklerini temsil eder.
+title: ChartAxis Class
+linktitle: ChartAxis
+articleTitle: ChartAxis
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.Charts.ChartAxis sınıf. Grafiğin eksen seçeneklerini temsil eder C#'da.
 type: docs
 weight: 630
 url: /tr/net/aspose.words.drawing.charts/chartaxis/
@@ -50,7 +52,7 @@ public class ChartAxis
 | [Title](../../aspose.words.drawing.charts/chartaxis/title/) { get; } | Eksen başlığı özelliklerine erişim sağlar. |
 | [Type](../../aspose.words.drawing.charts/chartaxis/type/) { get; } | Eksenin türünü döndürür. |
 
-### Örnekler
+## Örnekler
 
 Grafiğin nasıl ekleneceğini ve eksenlerinin görünümünün nasıl değiştirileceğini gösterir.
 
@@ -104,5 +106,3 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 
 * ad alanı [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Interface IHyphenationCallback
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.IHyphenationCallback arayüz. Tireleme sözlüklerini kaydedebilen sınıflar tarafından uygulanır.
+title: IHyphenationCallback Interface
+linktitle: IHyphenationCallback
+articleTitle: IHyphenationCallback
+second_title: Aspose.Words for .NET
+description: Aspose.Words.IHyphenationCallback arayüz. Tireleme sözlüklerini kaydedebilen sınıflar tarafından uygulanır C#'da.
 type: docs
 weight: 3190
 url: /tr/net/aspose.words/ihyphenationcallback/
@@ -18,9 +20,9 @@ public interface IHyphenationCallback
 
 | İsim | Tanım |
 | --- | --- |
-| [RequestDictionary](../../aspose.words/ihyphenationcallback/requestdictionary/)(string) | Belirtilen dil için tireleme sözlüğünün bulunamadığını ve kaydedilmesi gerekebileceğini uygulamaya bildirir. |
+| [RequestDictionary](../../aspose.words/ihyphenationcallback/requestdictionary/)(*string*) | Belirtilen dil için tireleme sözlüğünün bulunamadığını ve kaydedilmesi gerekebileceğini uygulamaya bildirir. |
 
-### Örnekler
+## Örnekler
 
 Bir dosyadan sözlüğün nasıl açılacağını ve kaydedileceğini gösterir.
 
@@ -97,5 +99,3 @@ private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

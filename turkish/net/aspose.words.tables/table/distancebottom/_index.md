@@ -1,7 +1,9 @@
 ---
 title: Table.DistanceBottom
-second_title: Aspose.Words for .NET API Referansı
-description: Table mülk. Tablonun alt kısmı ile onu çevreleyen metin arasındaki mesafeyi nokta cinsinden alır veya ayarlar.
+linktitle: DistanceBottom
+articleTitle: DistanceBottom
+second_title: Aspose.Words for .NET
+description: Table DistanceBottom mülk. Tablonun alt kısmı ile onu çevreleyen metin arasındaki mesafeyi nokta cinsinden alır veya ayarlar C#'da.
 type: docs
 weight: 120
 url: /tr/net/aspose.words.tables/table/distancebottom/
@@ -14,7 +16,7 @@ Tablonun alt kısmı ile onu çevreleyen metin arasındaki mesafeyi nokta cinsin
 public double DistanceBottom { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Tablo sınırları ile metin arasındaki mesafenin nasıl ayarlanacağını gösterir.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Table.DistanceBetweenTableAndText.docx");
 ### Ayrıca bakınız
 
 * class [Table](../)
-* ad alanı [Aspose.Words.Tables](../../table/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

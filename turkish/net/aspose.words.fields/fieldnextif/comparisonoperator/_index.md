@@ -1,7 +1,9 @@
 ---
 title: FieldNextIf.ComparisonOperator
-second_title: Aspose.Words for .NET API Referansı
-description: FieldNextIf mülk. Karşılaştırma operatörünü alır veya ayarlar.
+linktitle: ComparisonOperator
+articleTitle: ComparisonOperator
+second_title: Aspose.Words for .NET
+description: FieldNextIf ComparisonOperator mülk. Karşılaştırma operatörünü alır veya ayarlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fieldnextif/comparisonoperator/
@@ -14,7 +16,7 @@ Karşılaştırma operatörünü alır veya ayarlar.
 public string ComparisonOperator { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Adres-mektup birleştirme sırasında birden çok satırı tek sayfada birleştirmek için NEXT/NEXTIF alanlarının nasıl kullanılacağını gösterir.
 
@@ -96,7 +98,5 @@ public void InsertMergeField(DocumentBuilder builder, string fieldName, string t
 ### Ayrıca bakınız
 
 * class [FieldNextIf](../)
-* ad alanı [Aspose.Words.Fields](../../fieldnextif/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

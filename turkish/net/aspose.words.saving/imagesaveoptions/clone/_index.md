@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.Clone
-second_title: Aspose.Words for .NET API Referansı
-description: ImageSaveOptions yöntem. Bu nesnenin derin bir kopyasını oluşturur.
+linktitle: Clone
+articleTitle: Clone
+second_title: Aspose.Words for .NET
+description: ImageSaveOptions Clone yöntem. Bu nesnenin derin bir kopyasını oluşturur C#'da.
 type: docs
 weight: 210
 url: /tr/net/aspose.words.saving/imagesaveoptions/clone/
@@ -14,7 +16,7 @@ Bu nesnenin derin bir kopyasını oluşturur.
 public ImageSaveOptions Clone()
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgenin görüntüye dönüştürüleceği piksel başına bit oranının nasıl seçileceğini gösterir.
 
@@ -79,7 +81,5 @@ Document doc = new Document();
 ### Ayrıca bakınız
 
 * class [ImageSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../imagesaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

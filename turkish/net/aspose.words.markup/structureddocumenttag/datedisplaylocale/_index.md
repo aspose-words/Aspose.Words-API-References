@@ -1,26 +1,28 @@
 ---
 title: StructuredDocumentTag.DateDisplayLocale
-second_title: Aspose.Words for .NET API Referansı
-description: StructuredDocumentTag mülk. Burada görüntülenen tarih için dil biçimini ayarlamanıza/almanıza olanak tanır. SDT .
+linktitle: DateDisplayLocale
+articleTitle: DateDisplayLocale
+second_title: Aspose.Words for .NET
+description: StructuredDocumentTag DateDisplayLocale mülk. Burada görüntülenen tarih için dil biçimini ayarlamanıza/almanıza olanak tanır.SDT  C#'da.
 type: docs
 weight: 100
 url: /tr/net/aspose.words.markup/structureddocumenttag/datedisplaylocale/
 ---
 ## StructuredDocumentTag.DateDisplayLocale property
 
-Burada görüntülenen tarih için dil biçimini ayarlamanıza/almanıza olanak tanır. **SDT** .
+Burada görüntülenen tarih için dil biçimini ayarlamanıza/almanıza olanak tanır.**SDT** .
 
 ```csharp
 public int DateDisplayLocale { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özelliğe erişim yalnızca şunun için işe yarayacaktır:Date SDT türü.
 
 Diğer tüm SDT türleri için istisna meydana gelecektir.
 
-### Örnekler
+## Örnekler
 
 Yapılandırılmış belge etiketiyle kullanıcıdan tarih girmesinin nasıl isteneceğini gösterir.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.Date.docx");
 ### Ayrıca bakınız
 
 * class [StructuredDocumentTag](../)
-* ad alanı [Aspose.Words.Markup](../../structureddocumenttag/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

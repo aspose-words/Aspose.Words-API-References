@@ -1,7 +1,9 @@
 ---
 title: ParagraphCollection.ToArray
-second_title: Aspose.Words for .NET API Referansı
-description: ParagraphCollection yöntem. Koleksiyondaki tüm paragrafları yeni bir paragraf dizisine kopyalar.
+linktitle: ToArray
+articleTitle: ToArray
+second_title: Aspose.Words for .NET
+description: ParagraphCollection ToArray yöntem. Koleksiyondaki tüm paragrafları yeni bir paragraf dizisine kopyalar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/paragraphcollection/toarray/
@@ -18,7 +20,7 @@ public Paragraph[] ToArray()
 
 Bir dizi paragraf.
 
-### Örnekler
+## Örnekler
 
 NodeCollection'dan nasıl dizi oluşturulacağını gösterir.
 
@@ -53,7 +55,5 @@ Assert.False(doc.GetText().Contains("The third paragraph"));
 
 * class [Paragraph](../../paragraph/)
 * class [ParagraphCollection](../)
-* ad alanı [Aspose.Words](../../paragraphcollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

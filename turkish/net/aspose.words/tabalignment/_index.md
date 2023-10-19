@@ -1,7 +1,9 @@
 ---
-title: Enum TabAlignment
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.TabAlignment Sıralama. Sekme durağının hizalamasını/tipini belirtir.
+title: TabAlignment Enum
+linktitle: TabAlignment
+articleTitle: TabAlignment
+second_title: Aspose.Words for .NET
+description: Aspose.Words.TabAlignment Sıralama. Sekme durağının hizalamasını/tipini belirtir C#'da.
 type: docs
 weight: 6180
 url: /tr/net/aspose.words/tabalignment/
@@ -30,5 +32,3 @@ public enum TabAlignment
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

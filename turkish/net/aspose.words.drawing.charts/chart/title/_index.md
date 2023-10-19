@@ -1,7 +1,9 @@
 ---
 title: Chart.Title
-second_title: Aspose.Words for .NET API Referansı
-description: Chart mülk. Grafik başlığı özelliklerine erişim sağlar.
+linktitle: Title
+articleTitle: Title
+second_title: Aspose.Words for .NET
+description: Chart Title mülk. Grafik başlığı özelliklerine erişim sağlar C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words.drawing.charts/chart/title/
@@ -14,7 +16,7 @@ Grafik başlığı özelliklerine erişim sağlar.
 public ChartTitle Title { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Grafiğin nasıl ekleneceğini ve başlığın nasıl ayarlanacağını gösterir.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Charts.ChartTitle.docx");
 
 * class [ChartTitle](../../charttitle/)
 * class [Chart](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chart/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum TxtExportHeadersFootersMode
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Saving.TxtExportHeadersFootersMode Sıralama. Üstbilgilerin ve altbilgilerin düz metin biçiminde dışa aktarılma yöntemini belirtir.
+title: TxtExportHeadersFootersMode Enum
+linktitle: TxtExportHeadersFootersMode
+articleTitle: TxtExportHeadersFootersMode
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Saving.TxtExportHeadersFootersMode Sıralama. Üstbilgilerin ve altbilgilerin düz metin biçiminde dışa aktarılma yöntemini belirtir C#'da.
 type: docs
 weight: 5640
 url: /tr/net/aspose.words.saving/txtexportheadersfootersmode/
@@ -22,7 +24,7 @@ public enum TxtExportHeadersFootersMode
 | PrimaryOnly | `1` | Her bölümün başında ve sonunda yalnızca birincil üstbilgiler ve altbilgiler dışa aktarılır. |
 | AllAtEnd | `2` | Tüm üstbilgiler ve altbilgiler, belgenin en sonundaki tüm bölüm gövdelerinden sonra yerleştirilir. |
 
-### Örnekler
+## Örnekler
 
 Üstbilgilerin ve altbilgilerin düz metin biçimine nasıl aktarılacağının nasıl belirleneceğini gösterir.
 
@@ -94,5 +96,3 @@ switch (txtExportHeadersFootersMode)
 
 * ad alanı [Aspose.Words.Saving](../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../)
-
-

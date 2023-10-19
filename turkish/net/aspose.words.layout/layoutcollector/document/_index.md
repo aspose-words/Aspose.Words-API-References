@@ -1,7 +1,9 @@
 ---
 title: LayoutCollector.Document
-second_title: Aspose.Words for .NET API Referansı
-description: LayoutCollector mülk. Bu toplayıcı örneğinin eklendiği belgeyi alır veya ayarlar.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words for .NET
+description: LayoutCollector Document mülk. Bu toplayıcı örneğinin eklendiği belgeyi alır veya ayarlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.layout/layoutcollector/document/
@@ -14,11 +16,11 @@ Bu toplayıcı örneğinin eklendiği belgeyi alır veya ayarlar.
 public Document Document { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Belge düğümlerinin sayfa dizinlerine erişmeniz gerekiyorsa, belgenin sayfa düzeni oluşturulmadan önce bu özelliği bir belge örneğine, işaret edecek şekilde ayarlamanız gerekir. Bu özelliği şu şekilde ayarlamak en iyisidir:`hükümsüz` daha sonra aksi takdirde toplayıcı, belgenin sayfa düzeninin sonraki yeniden oluşturmalarından bilgi toplamaya devam eder.
 
-### Örnekler
+## Örnekler
 
 Bir düğümün kapsadığı sayfa aralıklarının nasıl görüleceğini gösterir.
 
@@ -77,7 +79,5 @@ Assert.AreEqual("¶", layoutEnumerator.Text);
 
 * class [Document](../../../aspose.words/document/)
 * class [LayoutCollector](../)
-* ad alanı [Aspose.Words.Layout](../../layoutcollector/)
+* ad alanı [Aspose.Words.Layout](../../../aspose.words.layout/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Chart.AxisX
-second_title: Aspose.Words for .NET API Referansı
-description: Chart mülk. Grafiğin X ekseninin özelliklerine erişim sağlar.
+linktitle: AxisX
+articleTitle: AxisX
+second_title: Aspose.Words for .NET
+description: Chart AxisX mülk. Grafiğin X ekseninin özelliklerine erişim sağlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.drawing.charts/chart/axisx/
@@ -14,7 +16,7 @@ Grafiğin X ekseninin özelliklerine erişim sağlar.
 public ChartAxis AxisX { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Grafiğin nasıl ekleneceğini ve eksenlerinin görünümünün nasıl değiştirileceğini gösterir.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 
 * class [ChartAxis](../../chartaxis/)
 * class [Chart](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chart/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

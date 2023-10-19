@@ -1,7 +1,9 @@
 ---
 title: VariableCollection.Contains
-second_title: Aspose.Words for .NET API Referansı
-description: VariableCollection yöntem. Koleksiyonun verilen adda bir belge değişkeni içerip içermediğini belirler.
+linktitle: Contains
+articleTitle: Contains
+second_title: Aspose.Words for .NET
+description: VariableCollection Contains yöntem. Koleksiyonun verilen adda bir belge değişkeni içerip içermediğini belirler C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words/variablecollection/contains/
@@ -22,7 +24,7 @@ public bool Contains(string name)
 
 `doğru` koleksiyonda öğe bulunursa; aksi takdirde,`YANLIŞ`.
 
-### Örnekler
+## Örnekler
 
 Bir belgenin değişken koleksiyonuyla nasıl çalışılacağını gösterir.
 
@@ -89,7 +91,5 @@ Assert.That(variables, Is.Empty);
 ### Ayrıca bakınız
 
 * class [VariableCollection](../)
-* ad alanı [Aspose.Words](../../variablecollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

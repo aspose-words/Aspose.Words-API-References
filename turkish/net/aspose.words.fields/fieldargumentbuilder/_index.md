@@ -1,7 +1,9 @@
 ---
-title: Class FieldArgumentBuilder
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Fields.FieldArgumentBuilder sınıf. Alanlardan düğümlerden ve düz metinden oluşan karmaşık bir alan bağımsız değişkeni oluşturur.
+title: FieldArgumentBuilder Class
+linktitle: FieldArgumentBuilder
+articleTitle: FieldArgumentBuilder
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Fields.FieldArgumentBuilder sınıf. Alanlardan düğümlerden ve düz metinden oluşan karmaşık bir alan bağımsız değişkeni oluşturur C#'da.
 type: docs
 weight: 1550
 url: /tr/net/aspose.words.fields/fieldargumentbuilder/
@@ -26,11 +28,11 @@ public class FieldArgumentBuilder
 
 | İsim | Tanım |
 | --- | --- |
-| [AddField](../../aspose.words.fields/fieldargumentbuilder/addfield/)(FieldBuilder) | Bir ile temsil edilen bir alan ekler[`FieldBuilder`](../fieldbuilder/) argümana. |
-| [AddNode](../../aspose.words.fields/fieldargumentbuilder/addnode/)(Inline) | Bağımsız değişkene bir düğüm ekler. |
-| [AddText](../../aspose.words.fields/fieldargumentbuilder/addtext/)(string) | Bağımsız değişkene düz metin ekler. |
+| [AddField](../../aspose.words.fields/fieldargumentbuilder/addfield/)(*[FieldBuilder](../fieldbuilder/)*) | Bir ile temsil edilen bir alan ekler[`FieldBuilder`](../fieldbuilder/) argümana. |
+| [AddNode](../../aspose.words.fields/fieldargumentbuilder/addnode/)(*[Inline](../../aspose.words/inline/)*) | Bağımsız değişkene bir düğüm ekler. |
+| [AddText](../../aspose.words.fields/fieldargumentbuilder/addtext/)(*string*) | Bağımsız değişkene düz metin ekler. |
 
-### Örnekler
+## Örnekler
 
 Alan oluşturucu kullanarak alanların nasıl oluşturulacağını ve ardından bunların belgeye nasıl ekleneceğini gösterir.
 
@@ -114,5 +116,3 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 
 * ad alanı [Aspose.Words.Fields](../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../)
-
-

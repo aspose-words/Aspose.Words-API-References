@@ -1,7 +1,9 @@
 ---
 title: DigitalSignature.SubjectName
-second_title: Aspose.Words for .NET API Referansı
-description: DigitalSignature mülk. Belgeyi imzalamak için kullanılan sertifikanın konu ayırt edici adını döndürür.
+linktitle: SubjectName
+articleTitle: SubjectName
+second_title: Aspose.Words for .NET
+description: DigitalSignature SubjectName mülk. Belgeyi imzalamak için kullanılan sertifikanın konu ayırt edici adını döndürür C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words.digitalsignatures/digitalsignature/subjectname/
@@ -14,7 +16,7 @@ Belgeyi imzalamak için kullanılan sertifikanın konu ayırt edici adını dön
 public string SubjectName { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 X.509 sertifikalarına sahip belgelerin nasıl imzalanacağını gösterir.
 
@@ -57,7 +59,5 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 ### Ayrıca bakınız
 
 * class [DigitalSignature](../)
-* ad alanı [Aspose.Words.DigitalSignatures](../../digitalsignature/)
+* ad alanı [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * toplantı [Aspose.Words](../../../)
-
-

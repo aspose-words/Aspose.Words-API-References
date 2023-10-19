@@ -1,7 +1,9 @@
 ---
 title: FieldDisplayBarcode.SymbolRotation
-second_title: Aspose.Words for .NET API Referansı
-description: FieldDisplayBarcode mülk. Barkod sembolünün dönüşünü alır veya ayarlar. Geçerli değerler şunlardır 0 3
+linktitle: SymbolRotation
+articleTitle: SymbolRotation
+second_title: Aspose.Words for .NET
+description: FieldDisplayBarcode SymbolRotation mülk. Barkod sembolünün dönüşünü alır veya ayarlar. Geçerli değerler şunlardır 0 3 C#'da.
 type: docs
 weight: 140
 url: /tr/net/aspose.words.fields/fielddisplaybarcode/symbolrotation/
@@ -14,7 +16,7 @@ Barkod sembolünün dönüşünü alır veya ayarlar. Geçerli değerler şunlar
 public string SymbolRotation { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 DISPLAYBARCODE alanının nasıl ekleneceğini ve özelliklerinin nasıl ayarlanacağını gösterir.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Field.DISPLAYBARCODE.docx");
 ### Ayrıca bakınız
 
 * class [FieldDisplayBarcode](../)
-* ad alanı [Aspose.Words.Fields](../../fielddisplaybarcode/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

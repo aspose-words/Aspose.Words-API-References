@@ -1,12 +1,14 @@
 ---
 title: FontSettings.SetFontsSources
-second_title: Aspose.Words for .NET API Referansı
-description: FontSettings yöntem. Aspose.Wordsün belgeleri oluştururken veya yazı tiplerini gömerken TrueType yazı tiplerini aradığı kaynakları ayarlar.
+linktitle: SetFontsSources
+articleTitle: SetFontsSources
+second_title: Aspose.Words for .NET
+description: FontSettings SetFontsSources yöntem. Aspose.Wordsün belgeleri oluştururken veya yazı tiplerini gömerken TrueType yazı tiplerini aradığı kaynakları ayarlar C#'da.
 type: docs
 weight: 100
 url: /tr/net/aspose.words.fonts/fontsettings/setfontssources/
 ---
-## SetFontsSources(FontSourceBase[]) {#setfontssources}
+## SetFontsSources(*FontSourceBase[]*) {#setfontssources}
 
 Aspose.Words'ün belgeleri oluştururken veya yazı tiplerini gömerken TrueType yazı tiplerini aradığı kaynakları ayarlar.
 
@@ -18,13 +20,13 @@ public void SetFontsSources(FontSourceBase[] sources)
 | --- | --- | --- |
 | sources | FontSourceBase[] | TrueType yazı tiplerini içeren bir dizi kaynak. |
 
-### Notlar
+## Notlar
 
 Aspose.Words varsayılan olarak sistemde yüklü olan yazı tiplerini arar.
 
 Bu özelliğin ayarlanması önceden yüklenen tüm yazı tiplerinin önbelleğini sıfırlar.
 
-### Örnekler
+## Örnekler
 
 Mevcut yazı tipi kaynaklarımıza nasıl yazı tipi kaynağı ekleneceğini gösterir.
 
@@ -74,12 +76,12 @@ FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 
 * class [FontSourceBase](../../fontsourcebase/)
 * class [FontSettings](../)
-* ad alanı [Aspose.Words.Fonts](../../fontsettings/)
+* ad alanı [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## SetFontsSources(FontSourceBase[], Stream) {#setfontssources_1}
+## SetFontsSources(*FontSourceBase[], Stream*) {#setfontssources_1}
 
 Aspose.Words'ün TrueType yazı tiplerini aradığı ve ayrıca önceden kaydedilmiş yazı tipi arama önbelleğini yüklediği kaynakları ayarlar.
 
@@ -92,7 +94,7 @@ public void SetFontsSources(FontSourceBase[] sources, Stream cacheInputStream)
 | sources | FontSourceBase[] | TrueType yazı tiplerini içeren bir dizi kaynak. |
 | cacheInputStream | Stream | Kaydedilmiş yazı tipi arama önbelleğiyle giriş akışı. |
 
-### Notlar
+## Notlar
 
 Önceden kaydedilmiş yazı tipi arama önbelleğinin yüklenmesi, yazı tipi önbelleği başlatma sürecini hızlandıracaktır. is özellikle yazı tipi kaynaklarına erişimin karmaşık olduğu durumlarda faydalıdır (örn. yazı tipleri ağ üzerinden yüklendiğinde).
 
@@ -100,7 +102,7 @@ Yazı tipi arama önbelleği kaydedilirken ve yüklenirken, sağlanan kaynaklard
 
 Önbellek yüklenirken, önbelleğin kaydedildiği andaki yazı tipi kaynaklarının aynısının sağlanması önemle tavsiye edilir. Yazı tipi kaynaklarındaki herhangi bir değişiklik (örn. yeni yazı tipleri eklemek, yazı tipi dosyalarını taşımak veya önbellek anahtarını değiştirmek), yazı tipinin hatalı olmasına yol açabilir Aspose.Words ile çözülüyor.
 
-### Örnekler
+## Örnekler
 
 Yazı tipi önbelleği başlatma işleminin nasıl hızlandırılacağını gösterir.
 
@@ -152,7 +154,5 @@ private class SearchCacheStream : StreamFontSource
 
 * class [FontSourceBase](../../fontsourcebase/)
 * class [FontSettings](../)
-* ad alanı [Aspose.Words.Fonts](../../fontsettings/)
+* ad alanı [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../../)
-
-

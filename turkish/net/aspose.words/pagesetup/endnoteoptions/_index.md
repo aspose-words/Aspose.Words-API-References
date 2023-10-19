@@ -1,7 +1,9 @@
 ---
 title: PageSetup.EndnoteOptions
-second_title: Aspose.Words for .NET API Referansı
-description: PageSetup mülk. Bu bölümdeki son notların numaralandırılmasını ve konumlandırılmasını kontrol eden seçenekler sunar.
+linktitle: EndnoteOptions
+articleTitle: EndnoteOptions
+second_title: Aspose.Words for .NET
+description: PageSetup EndnoteOptions mülk. Bu bölümdeki son notların numaralandırılmasını ve konumlandırılmasını kontrol eden seçenekler sunar C#'da.
 type: docs
 weight: 120
 url: /tr/net/aspose.words/pagesetup/endnoteoptions/
@@ -14,7 +16,7 @@ Bu bölümdeki son notların numaralandırılmasını ve konumlandırılmasını
 public EndnoteOptions EndnoteOptions { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir bölümdeki dipnotları/sonnotları etkileyen seçeneklerin nasıl yapılandırılacağını gösterir.
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "PageSetup.FootnoteOptions.docx");
 
 * class [EndnoteOptions](../../../aspose.words.notes/endnoteoptions/)
 * class [PageSetup](../)
-* ad alanı [Aspose.Words](../../pagesetup/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

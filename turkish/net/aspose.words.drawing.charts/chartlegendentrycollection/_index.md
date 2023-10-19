@@ -1,7 +1,9 @@
 ---
-title: Class ChartLegendEntryCollection
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.Charts.ChartLegendEntryCollection sınıf. Grafik açıklama girişlerinin bir koleksiyonunu temsil eder.
+title: ChartLegendEntryCollection Class
+linktitle: ChartLegendEntryCollection
+articleTitle: ChartLegendEntryCollection
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.Charts.ChartLegendEntryCollection sınıf. Grafik açıklama girişlerinin bir koleksiyonunu temsil eder C#'da.
 type: docs
 weight: 740
 url: /tr/net/aspose.words.drawing.charts/chartlegendentrycollection/
@@ -29,7 +31,7 @@ public class ChartLegendEntryCollection : IEnumerable<ChartLegendEntry>
 | --- | --- |
 | [GetEnumerator](../../aspose.words.drawing.charts/chartlegendentrycollection/getenumerator/)() | Bir numaralandırıcı nesnesini döndürür. |
 
-### Örnekler
+## Örnekler
 
 Grafik serileri için bir açıklama girişiyle nasıl çalışılacağını gösterir.
 
@@ -66,5 +68,3 @@ doc.Save(ArtifactsDir + "Charts.LegendEntries.docx");
 * class [ChartLegendEntry](../chartlegendentry/)
 * ad alanı [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../)
-
-

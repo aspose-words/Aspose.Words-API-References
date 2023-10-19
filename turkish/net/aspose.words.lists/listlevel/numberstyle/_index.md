@@ -1,7 +1,9 @@
 ---
 title: ListLevel.NumberStyle
-second_title: Aspose.Words for .NET API Referansı
-description: ListLevel mülk. Bu liste düzeyi için sayı stilini döndürür veya ayarlar.
+linktitle: NumberStyle
+articleTitle: NumberStyle
+second_title: Aspose.Words for .NET
+description: ListLevel NumberStyle mülk. Bu liste düzeyi için sayı stilini döndürür veya ayarlar C#'da.
 type: docs
 weight: 90
 url: /tr/net/aspose.words.lists/listlevel/numberstyle/
@@ -14,7 +16,7 @@ Bu liste düzeyi için sayı stilini döndürür veya ayarlar.
 public NumberStyle NumberStyle { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 DocumentBuilder kullanılırken özel liste formatının paragraflara nasıl uygulanacağını gösterir.
 
@@ -130,7 +132,5 @@ doc.Save(ArtifactsDir + "Lists.CreateListRestartAfterHigher.docx");
 
 * enum [NumberStyle](../../../aspose.words/numberstyle/)
 * class [ListLevel](../)
-* ad alanı [Aspose.Words.Lists](../../listlevel/)
+* ad alanı [Aspose.Words.Lists](../../../aspose.words.lists/)
 * toplantı [Aspose.Words](../../../)
-
-

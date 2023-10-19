@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.InsertCheckBox
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentBuilder yöntem. Geçerli konuma bir onay kutusu form alanı ekler.
+linktitle: InsertCheckBox
+articleTitle: InsertCheckBox
+second_title: Aspose.Words for .NET
+description: DocumentBuilder InsertCheckBox yöntem. Geçerli konuma bir onay kutusu form alanı ekler C#'da.
 type: docs
 weight: 290
 url: /tr/net/aspose.words/documentbuilder/insertcheckbox/
 ---
-## InsertCheckBox(string, bool, int) {#insertcheckbox_1}
+## InsertCheckBox(*string, bool, int*) {#insertcheckbox_1}
 
 Geçerli konuma bir onay kutusu form alanı ekler.
 
@@ -24,11 +26,11 @@ public FormField InsertCheckBox(string name, bool checkedValue, int size)
 
 Yeni eklenen form alanı düğümü.
 
-### Notlar
+## Notlar
 
 Form alanı için bir ad belirlerseniz aynı adla otomatik olarak bir yer imi oluşturulur.
 
-### Örnekler
+## Örnekler
 
 Onay kutularının belgeye nasıl ekleneceğini gösterir.
 
@@ -59,12 +61,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCheckBox.docx");
 
 * class [FormField](../../../aspose.words.fields/formfield/)
 * class [DocumentBuilder](../)
-* ad alanı [Aspose.Words](../../documentbuilder/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## InsertCheckBox(string, bool, bool, int) {#insertcheckbox}
+## InsertCheckBox(*string, bool, bool, int*) {#insertcheckbox}
 
 Geçerli konuma bir onay kutusu form alanı ekler.
 
@@ -83,11 +85,11 @@ public FormField InsertCheckBox(string name, bool defaultValue, bool checkedValu
 
 Yeni eklenen form alanı düğümü.
 
-### Notlar
+## Notlar
 
 Form alanı için bir ad belirlerseniz aynı adla otomatik olarak bir yer imi oluşturulur.
 
-### Örnekler
+## Örnekler
 
 Onay kutularının belgeye nasıl ekleneceğini gösterir.
 
@@ -118,7 +120,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCheckBox.docx");
 
 * class [FormField](../../../aspose.words.fields/formfield/)
 * class [DocumentBuilder](../)
-* ad alanı [Aspose.Words](../../documentbuilder/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

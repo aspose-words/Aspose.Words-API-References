@@ -1,7 +1,9 @@
 ---
 title: Style.IsHeading
-second_title: Aspose.Words for .NET API Referansı
-description: Style mülk. Stil yerleşik Başlık stillerinden biri olduğunda doğrudur.
+linktitle: IsHeading
+articleTitle: IsHeading
+second_title: Aspose.Words for .NET
+description: Style IsHeading mülk. Stil yerleşik Başlık stillerinden biri olduğunda doğrudur C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words/style/isheading/
@@ -14,7 +16,7 @@ Stil yerleşik Başlık stillerinden biri olduğunda doğrudur.
 public bool IsHeading { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgenin stil koleksiyonuna nasıl erişileceğini gösterir.
 
@@ -42,7 +44,5 @@ using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 ### Ayrıca bakınız
 
 * class [Style](../)
-* ad alanı [Aspose.Words](../../style/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

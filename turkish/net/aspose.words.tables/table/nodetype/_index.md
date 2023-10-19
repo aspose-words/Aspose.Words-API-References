@@ -1,7 +1,9 @@
 ---
 title: Table.NodeType
-second_title: Aspose.Words for .NET API Referansı
-description: Table mülk. İadelerTable .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words for .NET
+description: Table NodeType mülk. İadelerTable  C#'da.
 type: docs
 weight: 210
 url: /tr/net/aspose.words.tables/table/nodetype/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.tables/table/nodetype/
 public override NodeType NodeType { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bileşik bir düğümün alt düğüm ağacında nasıl gezinileceğini gösterir.
 
@@ -135,7 +137,5 @@ private static int GetChildTableCount(Table table)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [Table](../)
-* ad alanı [Aspose.Words.Tables](../../table/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

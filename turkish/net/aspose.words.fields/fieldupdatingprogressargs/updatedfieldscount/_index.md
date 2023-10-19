@@ -1,7 +1,9 @@
 ---
 title: FieldUpdatingProgressArgs.UpdatedFieldsCount
-second_title: Aspose.Words for .NET API Referansı
-description: FieldUpdatingProgressArgs mülk. Güncellenen alanların sayısını alır.
+linktitle: UpdatedFieldsCount
+articleTitle: UpdatedFieldsCount
+second_title: Aspose.Words for .NET
+description: FieldUpdatingProgressArgs UpdatedFieldsCount mülk. Güncellenen alanların sayısını alır C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fields/fieldupdatingprogressargs/updatedfieldscount/
@@ -14,7 +16,7 @@ Güncellenen alanların sayısını alır.
 public int UpdatedFieldsCount { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Alan güncellemesi sırasında geri çağırma yöntemlerinin nasıl kullanılacağını gösterir.
 
@@ -82,7 +84,5 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgr
 ### Ayrıca bakınız
 
 * class [FieldUpdatingProgressArgs](../)
-* ad alanı [Aspose.Words.Fields](../../fieldupdatingprogressargs/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

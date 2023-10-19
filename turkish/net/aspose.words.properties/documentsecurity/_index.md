@@ -1,7 +1,9 @@
 ---
-title: Enum DocumentSecurity
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Properties.DocumentSecurity Sıralama. Değer olarak kullanılırSecurity özellik. Bir belgenin güvenlik düzeyini sayısal bir değer olarak belirtir.
+title: DocumentSecurity Enum
+linktitle: DocumentSecurity
+articleTitle: DocumentSecurity
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Properties.DocumentSecurity Sıralama. Değer olarak kullanılırSecurity özellik. Bir belgenin güvenlik düzeyini sayısal bir değer olarak belirtir C#'da.
 type: docs
 weight: 4490
 url: /tr/net/aspose.words.properties/documentsecurity/
@@ -25,7 +27,7 @@ public enum DocumentSecurity
 | ReadOnlyEnforced | `4` | Her zaman salt okunur olarak açılacak belge. |
 | ReadOnlyExceptAnnotations | `8` | Ek açıklamalar dışında her zaman salt okunur olarak açılacak belge. |
 
-### Örnekler
+## Örnekler
 
 Bir belgenin güvenlik düzeyini görüntülemek için belge özelliklerinin nasıl kullanılacağını gösterir.
 
@@ -71,5 +73,3 @@ Assert.AreEqual(DocumentSecurity.ReadOnlyExceptAnnotations,
 
 * ad alanı [Aspose.Words.Properties](../../aspose.words.properties/)
 * toplantı [Aspose.Words](../../)
-
-

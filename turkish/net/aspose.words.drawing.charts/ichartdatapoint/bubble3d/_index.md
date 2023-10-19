@@ -1,7 +1,9 @@
 ---
 title: IChartDataPoint.Bubble3D
-second_title: Aspose.Words for .NET API Referansı
-description: IChartDataPoint mülk. Kabarcık grafiğindeki baloncuklara 3 boyutlu efektin uygulanması gerekip gerekmediğini belirtir.
+linktitle: Bubble3D
+articleTitle: Bubble3D
+second_title: Aspose.Words for .NET
+description: IChartDataPoint Bubble3D mülk. Kabarcık grafiğindeki baloncuklara 3 boyutlu efektin uygulanması gerekip gerekmediğini belirtir C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.drawing.charts/ichartdatapoint/bubble3d/
@@ -14,7 +16,7 @@ Kabarcık grafiğindeki baloncuklara 3 boyutlu efektin uygulanması gerekip gere
 public bool Bubble3D { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Kabarcık grafikleriyle 3B efektlerin nasıl kullanılacağını gösterir.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Charts.Bubble3D.docx");
 ### Ayrıca bakınız
 
 * interface [IChartDataPoint](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../ichartdatapoint/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

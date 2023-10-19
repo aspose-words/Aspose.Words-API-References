@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTag.PlaceholderName
-second_title: Aspose.Words for .NET API Referansı
-description: StructuredDocumentTag mülk. Adını alır veya ayarlarBuildingBlock yer tutucu metni içerir.
+linktitle: PlaceholderName
+articleTitle: PlaceholderName
+second_title: Aspose.Words for .NET
+description: StructuredDocumentTag PlaceholderName mülk. Adını alır veya ayarlarBuildingBlock yer tutucu metni içerir C#'da.
 type: docs
 weight: 240
 url: /tr/net/aspose.words.markup/structureddocumenttag/placeholdername/
@@ -16,7 +18,7 @@ Adını alır veya ayarlar[`BuildingBlock`](../../../aspose.words.buildingblocks
 public string PlaceholderName { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir yapı taşının içeriğinin, yapılandırılmış bir belge etiketi için özel yer tutucu metin olarak nasıl kullanılacağını gösterir.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlaceholderBuildingBlock.docx");
 ### Ayrıca bakınız
 
 * class [StructuredDocumentTag](../)
-* ad alanı [Aspose.Words.Markup](../../structureddocumenttag/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

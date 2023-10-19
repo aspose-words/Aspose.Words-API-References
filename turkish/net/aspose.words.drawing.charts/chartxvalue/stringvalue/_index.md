@@ -1,7 +1,9 @@
 ---
 title: ChartXValue.StringValue
-second_title: Aspose.Words for .NET API Referansı
-description: ChartXValue mülk. Saklanan dize değerini alır.
+linktitle: StringValue
+articleTitle: StringValue
+second_title: Aspose.Words for .NET
+description: ChartXValue StringValue mülk. Saklanan dize değerini alır C#'da.
 type: docs
 weight: 90
 url: /tr/net/aspose.words.drawing.charts/chartxvalue/stringvalue/
@@ -17,7 +19,5 @@ public string StringValue { get; }
 ### Ayrıca bakınız
 
 * class [ChartXValue](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartxvalue/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

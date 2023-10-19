@@ -1,7 +1,9 @@
 ---
 title: CommentRangeStart.Id
-second_title: Aspose.Words for .NET API Referansı
-description: CommentRangeStart mülk. Bu bölgenin bağlı olduğu yorumun tanımlayıcısını belirtir.
+linktitle: Id
+articleTitle: Id
+second_title: Aspose.Words for .NET
+description: CommentRangeStart Id mülk. Bu bölgenin bağlı olduğu yorumun tanımlayıcısını belirtir C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/commentrangestart/id/
@@ -14,7 +16,7 @@ Bu bölgenin bağlı olduğu yorumun tanımlayıcısını belirtir.
 public int Id { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belge ziyaretçisi kullanılarak tüm yorumların içeriğinin ve yorum aralıklarının nasıl yazdırıldığını gösterir.
 
@@ -175,7 +177,5 @@ public class CommentInfoPrinter : DocumentVisitor
 ### Ayrıca bakınız
 
 * class [CommentRangeStart](../)
-* ad alanı [Aspose.Words](../../commentrangestart/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

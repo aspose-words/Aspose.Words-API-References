@@ -1,7 +1,9 @@
 ---
-title: Enum TextWrapping
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Tables.TextWrapping Sıralama. Metnin tablonun etrafına nasıl sarılacağını belirtir.
+title: TextWrapping Enum
+linktitle: TextWrapping
+articleTitle: TextWrapping
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Tables.TextWrapping Sıralama. Metnin tablonun etrafına nasıl sarılacağını belirtir C#'da.
 type: docs
 weight: 6380
 url: /tr/net/aspose.words.tables/textwrapping/
@@ -22,7 +24,7 @@ public enum TextWrapping
 | Around | `1` | Metin masanın çevresine sarılarak yan taraftaki boş alanı kaplar. |
 | Default | `0` | Varsayılan değer. |
 
-### Örnekler
+## Örnekler
 
 Tablo metni kaydırmayla nasıl çalışılacağını gösterir.
 
@@ -54,5 +56,3 @@ doc.Save(ArtifactsDir + "Table.WrapText.docx");
 
 * ad alanı [Aspose.Words.Tables](../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../)
-
-

@@ -1,26 +1,28 @@
 ---
 title: StructuredDocumentTag.FullDate
-second_title: Aspose.Words for .NET API Referansı
-description: StructuredDocumentTag mülk. Buna en son girilen tam tarih ve saati belirtir SDT .
+linktitle: FullDate
+articleTitle: FullDate
+second_title: Aspose.Words for .NET
+description: StructuredDocumentTag FullDate mülk. Buna en son girilen tam tarih ve saati belirtirSDT  C#'da.
 type: docs
 weight: 130
 url: /tr/net/aspose.words.markup/structureddocumenttag/fulldate/
 ---
 ## StructuredDocumentTag.FullDate property
 
-Buna en son girilen tam tarih ve saati belirtir **SDT** .
+Buna en son girilen tam tarih ve saati belirtir**SDT** .
 
 ```csharp
 public DateTime FullDate { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özelliğe erişim yalnızca şunun için işe yarayacaktır:Date SDT türü.
 
 Diğer tüm SDT türleri için istisna meydana gelecektir.
 
-### Örnekler
+## Örnekler
 
 Yapılandırılmış belge etiketiyle kullanıcıdan tarih girmesinin nasıl isteneceğini gösterir.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.Date.docx");
 ### Ayrıca bakınız
 
 * class [StructuredDocumentTag](../)
-* ad alanı [Aspose.Words.Markup](../../structureddocumenttag/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

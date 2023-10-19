@@ -1,7 +1,9 @@
 ---
 title: Aspose.Words.Properties
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Properties ad alanı başlık anahtar sözcükler şirket vb. gibi özel ve yerleşik belge özelliklerine sahip work ye sınıflar sağlar.
+linktitle: Aspose.Words.Properties
+articleTitle: Aspose.Words.Properties
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Properties ad alanı başlık anahtar sözcükler şirket vb. gibi özel ve yerleşik belge özelliklerine sahip work ye sınıflar sağlar C#'da.
 type: docs
 weight: 190
 url: /tr/net/aspose.words.properties/
@@ -22,5 +24,3 @@ url: /tr/net/aspose.words.properties/
 | --- | --- |
 | [DocumentSecurity](./documentsecurity/) | Değer olarak kullanılır[`Security`](../aspose.words.properties/builtindocumentproperties/security/) özellik. Bir belgenin güvenlik düzeyini sayısal bir değer olarak belirtir. |
 | [PropertyType](./propertytype/) | Bir belge özelliğinin veri türünü belirtir. |
-
-

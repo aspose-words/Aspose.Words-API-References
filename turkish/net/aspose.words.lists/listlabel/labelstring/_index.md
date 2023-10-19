@@ -1,7 +1,9 @@
 ---
 title: ListLabel.LabelString
-second_title: Aspose.Words for .NET API Referansı
-description: ListLabel mülk. Liste etiketinin dize temsilini alır.
+linktitle: LabelString
+articleTitle: LabelString
+second_title: Aspose.Words for .NET
+description: ListLabel LabelString mülk. Liste etiketinin dize temsilini alır C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.lists/listlabel/labelstring/
@@ -14,7 +16,7 @@ Liste etiketinin dize temsilini alır.
 public string LabelString { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Liste öğesi olan tüm paragrafların liste etiketlerinin nasıl çıkarılacağını gösterir.
 
@@ -49,7 +51,5 @@ foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListForma
 ### Ayrıca bakınız
 
 * class [ListLabel](../)
-* ad alanı [Aspose.Words.Lists](../../listlabel/)
+* ad alanı [Aspose.Words.Lists](../../../aspose.words.lists/)
 * toplantı [Aspose.Words](../../../)
-
-

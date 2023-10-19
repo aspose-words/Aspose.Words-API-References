@@ -1,7 +1,9 @@
 ---
 title: TabStopCollection.Clear
-second_title: Aspose.Words for .NET API Referansı
-description: TabStopCollection yöntem. Tüm sekme durağı konumlarını siler.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words for .NET
+description: TabStopCollection Clear yöntem. Tüm sekme durağı konumlarını siler C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words/tabstopcollection/clear/
@@ -14,7 +16,7 @@ Tüm sekme durağı konumlarını siler.
 public void Clear()
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgenin sekme durakları koleksiyonuyla nasıl çalışılacağını gösterir.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 ### Ayrıca bakınız
 
 * class [TabStopCollection](../)
-* ad alanı [Aspose.Words](../../tabstopcollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

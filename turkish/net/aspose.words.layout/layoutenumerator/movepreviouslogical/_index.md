@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.MovePreviousLogical
-second_title: Aspose.Words for .NET API Referansı
-description: LayoutEnumerator yöntem. Mantıksal bir sırayla önceki kardeş varlığa gider. Sayfalara bölünmüş bir paragrafın satırları yinelenirken bu method başka bir sayfada bulunsa bile önceki satıra gider.
+linktitle: MovePreviousLogical
+articleTitle: MovePreviousLogical
+second_title: Aspose.Words for .NET
+description: LayoutEnumerator MovePreviousLogical yöntem. Mantıksal bir sırayla önceki kardeş varlığa gider. Sayfalara bölünmüş bir paragrafın satırları yinelenirken bu method başka bir sayfada bulunsa bile önceki satıra gider C#'da.
 type: docs
 weight: 160
 url: /tr/net/aspose.words.layout/layoutenumerator/movepreviouslogical/
@@ -14,11 +16,11 @@ Mantıksal bir sırayla önceki kardeş varlığa gider. Sayfalara bölünmüş 
 public bool MovePreviousLogical()
 ```
 
-### Notlar
+## Notlar
 
 Hepsinin olduğunu unutmayınSpan varlıklar birbirine bağlanır, böylece[`Current`](../current/) varlığı aralıklıdır, bu yöntemin tekrar tekrar çağrılması belgenin tüm hikayesini yineleyecektir.
 
-### Örnekler
+## Örnekler
 
 Bir belgenin düzen varlıkları arasında geçiş yapma yollarını gösterir.
 
@@ -163,7 +165,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 ### Ayrıca bakınız
 
 * class [LayoutEnumerator](../)
-* ad alanı [Aspose.Words.Layout](../../layoutenumerator/)
+* ad alanı [Aspose.Words.Layout](../../../aspose.words.layout/)
 * toplantı [Aspose.Words](../../../)
-
-

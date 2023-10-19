@@ -1,7 +1,9 @@
 ---
-title: Enum PresetTexture
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.PresetTexture Sıralama. Bir şekli doldurmak için kullanılacak dokuyu belirtir.
+title: PresetTexture Enum
+linktitle: PresetTexture
+articleTitle: PresetTexture
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.PresetTexture Sıralama. Bir şekli doldurmak için kullanılacak dokuyu belirtir C#'da.
 type: docs
 weight: 1180
 url: /tr/net/aspose.words.drawing/presettexture/
@@ -48,5 +50,3 @@ public enum PresetTexture
 
 * ad alanı [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../)
-
-

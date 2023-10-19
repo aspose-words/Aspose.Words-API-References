@@ -1,7 +1,9 @@
 ---
 title: Shading.ForegroundPatternThemeColor
-second_title: Aspose.Words for .NET API Referansı
-description: Shading mülk. Bununla ilişkili uygulanan renk şemasında ön plan deseni tema rengini alır veya ayarlar.Shading nesne.
+linktitle: ForegroundPatternThemeColor
+articleTitle: ForegroundPatternThemeColor
+second_title: Aspose.Words for .NET
+description: Shading ForegroundPatternThemeColor mülk. Bununla ilişkili uygulanan renk şemasında ön plan deseni tema rengini alır veya ayarlar.Shading nesne C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words/shading/foregroundpatternthemecolor/
@@ -14,7 +16,7 @@ Bununla ilişkili uygulanan renk şemasında ön plan deseni tema rengini alır 
 public ThemeColor ForegroundPatternThemeColor { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Gölgelendirme dokusu için ön plan ve arka plan renklerinin nasıl ayarlanacağını gösterir.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Font.ForegroundAndBackground.docx");
 
 * enum [ThemeColor](../../../aspose.words.themes/themecolor/)
 * class [Shading](../)
-* ad alanı [Aspose.Words](../../shading/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

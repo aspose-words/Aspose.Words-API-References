@@ -1,7 +1,9 @@
 ---
 title: FieldIncludePicture.ResizeVertically
-second_title: Aspose.Words for .NET API Referansı
-description: FieldIncludePicture mülk. Resmin kaynaktan dikey olarak yeniden boyutlandırılıp yeniden boyutlandırılmayacağını alır veya ayarlar.
+linktitle: ResizeVertically
+articleTitle: ResizeVertically
+second_title: Aspose.Words for .NET
+description: FieldIncludePicture ResizeVertically mülk. Resmin kaynaktan dikey olarak yeniden boyutlandırılıp yeniden boyutlandırılmayacağını alır veya ayarlar C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.fields/fieldincludepicture/resizevertically/
@@ -14,7 +16,7 @@ Resmin kaynaktan dikey olarak yeniden boyutlandırılıp yeniden boyutlandırıl
 public bool ResizeVertically { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 IMPORT ve INCLUDEPICTURE alanlarını kullanarak görüntülerin nasıl ekleneceğini gösterir.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Field.IMPORT.INCLUDEPICTURE.docx");
 ### Ayrıca bakınız
 
 * class [FieldIncludePicture](../)
-* ad alanı [Aspose.Words.Fields](../../fieldincludepicture/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

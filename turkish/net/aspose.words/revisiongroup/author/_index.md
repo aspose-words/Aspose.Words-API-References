@@ -1,7 +1,9 @@
 ---
 title: RevisionGroup.Author
-second_title: Aspose.Words for .NET API Referansı
-description: RevisionGroup mülk. Bu revizyon grubunun yazarını döndürür.
+linktitle: Author
+articleTitle: Author
+second_title: Aspose.Words for .NET
+description: RevisionGroup Author mülk. Bu revizyon grubunun yazarını döndürür C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/revisiongroup/author/
@@ -14,7 +16,7 @@ Bu revizyon grubunun yazarını döndürür.
 public string Author { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki revizyon grubu hakkındaki bilgilerin nasıl yazdırılacağını gösterir.
 
@@ -33,7 +35,5 @@ foreach (RevisionGroup group in doc.Revisions.Groups)
 ### Ayrıca bakınız
 
 * class [RevisionGroup](../)
-* ad alanı [Aspose.Words](../../revisiongroup/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

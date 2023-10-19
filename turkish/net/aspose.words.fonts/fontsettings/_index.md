@@ -1,7 +1,9 @@
 ---
-title: Class FontSettings
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Fonts.FontSettings sınıf. Bir belgenin yazı tipi ayarlarını belirtir.
+title: FontSettings Class
+linktitle: FontSettings
+articleTitle: FontSettings
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Fonts.FontSettings sınıf. Bir belgenin yazı tipi ayarlarını belirtir C#'da.
 type: docs
 weight: 2970
 url: /tr/net/aspose.words.fonts/fontsettings/
@@ -36,13 +38,13 @@ public class FontSettings
 | --- | --- |
 | [GetFontsSources](../../aspose.words.fonts/fontsettings/getfontssources/)() | Aspose.Words'ün TrueType yazı tiplerini aradığı kaynakların listesini içeren dizinin bir kopyasını alır. |
 | [ResetFontSources](../../aspose.words.fonts/fontsettings/resetfontsources/)() | Yazı tipi kaynaklarını sistem varsayılanına sıfırlar. |
-| [SaveSearchCache](../../aspose.words.fonts/fontsettings/savesearchcache/)(Stream) | Yazı tipi arama önbelleğini akışa kaydeder. |
-| [SetFontsFolder](../../aspose.words.fonts/fontsettings/setfontsfolder/)(string, bool) | Aspose.Words'ün belgeleri oluştururken veya yazı tiplerini gömerken TrueType yazı tiplerini aradığı klasörü ayarlar. Bu,[`SetFontsFolders`](./setfontsfolders/) yalnızca bir yazı tipi dizini ayarlamak için. |
-| [SetFontsFolders](../../aspose.words.fonts/fontsettings/setfontsfolders/)(string[], bool) | Aspose.Words'ün belgeleri oluştururken veya yazı tiplerini gömerken TrueType yazı tiplerini arayacağı klasörleri ayarlar. |
-| [SetFontsSources](../../aspose.words.fonts/fontsettings/setfontssources/#setfontssources)(FontSourceBase[]) | Aspose.Words'ün belgeleri oluştururken veya yazı tiplerini gömerken TrueType yazı tiplerini aradığı kaynakları ayarlar. |
-| [SetFontsSources](../../aspose.words.fonts/fontsettings/setfontssources/#setfontssources_1)(FontSourceBase[], Stream) | Aspose.Words'ün TrueType yazı tiplerini aradığı ve ayrıca önceden kaydedilmiş yazı tipi arama önbelleğini yüklediği kaynakları ayarlar. |
+| [SaveSearchCache](../../aspose.words.fonts/fontsettings/savesearchcache/)(*Stream*) | Yazı tipi arama önbelleğini akışa kaydeder. |
+| [SetFontsFolder](../../aspose.words.fonts/fontsettings/setfontsfolder/)(*string, bool*) | Aspose.Words'ün belgeleri oluştururken veya yazı tiplerini gömerken TrueType yazı tiplerini aradığı klasörü ayarlar. Bu,[`SetFontsFolders`](./setfontsfolders/) yalnızca bir yazı tipi dizini ayarlamak için. |
+| [SetFontsFolders](../../aspose.words.fonts/fontsettings/setfontsfolders/)(*string[], bool*) | Aspose.Words'ün belgeleri oluştururken veya yazı tiplerini gömerken TrueType yazı tiplerini arayacağı klasörleri ayarlar. |
+| [SetFontsSources](../../aspose.words.fonts/fontsettings/setfontssources/#setfontssources)(*FontSourceBase[]*) | Aspose.Words'ün belgeleri oluştururken veya yazı tiplerini gömerken TrueType yazı tiplerini aradığı kaynakları ayarlar. |
+| [SetFontsSources](../../aspose.words.fonts/fontsettings/setfontssources/#setfontssources_1)(*FontSourceBase[], Stream*) | Aspose.Words'ün TrueType yazı tiplerini aradığı ve ayrıca önceden kaydedilmiş yazı tipi arama önbelleğini yüklediği kaynakları ayarlar. |
 
-### Notlar
+## Notlar
 
 Aspose.Words, belgedeki yazı tiplerini çözümlemek için yazı tipi ayarlarını kullanır. Yazı tipleri çoğunlukla belge düzeni oluşturulurken veya sabit sayfa formatlarında oluşturulurken çözümlenir. Ancak bazı formatları yüklerken Aspose.Words'ün yazı tiplerini de çözmesi gerekebilir. Örneğin, HTML belgelerinin yüklenmesi sırasında When Aspose.Words, yazı tipi geri dönüşünü gerçekleştirmek için yazı tiplerini çözebilir. Bu nedenle yazı tipi ayarlarını şeklinde ayarlamanız önerilir.[`LoadOptions`](../../aspose.words.loading/loadoptions/) Belgeyi yüklerken. Veya en azından düzeni oluşturmadan veya belgeyi sabit sayfa formatına dönüştürmeden önce.
 
@@ -50,7 +52,7 @@ Varsayılan olarak tüm belgeler tek bir statik yazı tipi ayarları örneğini 
 
 Yazı tipi ayarlarını değiştirmek istediğiniz zaman herhangi bir başlıktan güvenlidir. Ancak bu ayarları kullanan bazı belgeleri işlerken yazı tipi ayarlarını değiştirmemeniz önerilir. Bu, aynı yazı tipinin belgenin farklı bölümlerinde farklı şekilde çözümlenmesine yol açabilir.
 
-### Örnekler
+## Örnekler
 
 Mevcut yazı tipi kaynaklarımıza nasıl yazı tipi kaynağı ekleneceğini gösterir.
 
@@ -209,5 +211,3 @@ FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 
 * ad alanı [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: MailMerge.RetainFirstSectionStart
-second_title: Aspose.Words for .NET API Referansı
-description: MailMerge mülk. Olup olmadığını belirten bir değer alır veya ayarlar.SectionStart ilk belge bölümünün ve sonraki veri kaynağı satırları için kopyaları adresmektup birleştirme sırasında korunur veya MS Word davranışına göre güncellenir.
+linktitle: RetainFirstSectionStart
+articleTitle: RetainFirstSectionStart
+second_title: Aspose.Words for .NET
+description: MailMerge RetainFirstSectionStart mülk. Olup olmadığını belirten bir değer alır veya ayarlar.SectionStart ilk belge bölümünün ve sonraki veri kaynağı satırları için kopyaları adresmektup birleştirme sırasında korunur veya MS Word davranışına göre güncellenir C#'da.
 type: docs
 weight: 120
 url: /tr/net/aspose.words.mailmerging/mailmerge/retainfirstsectionstart/
@@ -14,14 +16,12 @@ Olup olmadığını belirten bir değer alır veya ayarlar.[`SectionStart`](../.
 public bool RetainFirstSectionStart { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:`doğru` .
 
 ### Ayrıca bakınız
 
 * class [MailMerge](../)
-* ad alanı [Aspose.Words.MailMerging](../../mailmerge/)
+* ad alanı [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * toplantı [Aspose.Words](../../../)
-
-

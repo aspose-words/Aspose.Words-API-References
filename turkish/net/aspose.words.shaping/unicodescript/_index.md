@@ -1,7 +1,9 @@
 ---
-title: Enum UnicodeScript
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Shaping.UnicodeScript Sıralama. Unicode Karakter Veritabanı özelliği Komut Dosyası sc.
+title: UnicodeScript Enum
+linktitle: UnicodeScript
+articleTitle: UnicodeScript
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Shaping.UnicodeScript Sıralama. Unicode Karakter Veritabanı özelliği Komut Dosyası sc C#'da.
 type: docs
 weight: 6080
 url: /tr/net/aspose.words.shaping/unicodescript/
@@ -177,7 +179,7 @@ public enum UnicodeScript
 | Common | `1517910393` | Ortak komut dosyası. |
 | Unknown | `1517976186` | Bilinmeyen komut dosyası. |
 
-### Notlar
+## Notlar
 
 http://www.unicode.org/reports/tr24/tr24-29.html https://www.unicode.org/iso15924/ http://goo.gl/x9ilM
 
@@ -185,5 +187,3 @@ http://www.unicode.org/reports/tr24/tr24-29.html https://www.unicode.org/iso1592
 
 * ad alanı [Aspose.Words.Shaping](../../aspose.words.shaping/)
 * toplantı [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ListFormat.ListOutdent
-second_title: Aspose.Words for .NET API Referansı
-description: ListFormat yöntem. Geçerli paragrafın liste düzeyini bir düzey azaltır.
+linktitle: ListOutdent
+articleTitle: ListOutdent
+second_title: Aspose.Words for .NET
+description: ListFormat ListOutdent yöntem. Geçerli paragrafın liste düzeyini bir düzey azaltır C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words.lists/listformat/listoutdent/
@@ -14,13 +16,13 @@ Geçerli paragrafın liste düzeyini bir düzey azaltır.
 public void ListOutdent()
 ```
 
-### Notlar
+## Notlar
 
 Bu yöntem, liste düzeyini değiştirir ve yeni düzeyin biçimlendirme özelliklerini uygular.
 
 Word belgelerinde listeler en fazla dokuz düzeyden oluşabilir. Her düzey için biçimlendirme listesi, hangi madde işaretinin veya sayının kullanıldığını, sol girintiyi, madde işareti ve metin arasındaki boşluğu vb. belirtir.
 
-### Örnekler
+## Örnekler
 
 Madde işaretli ve numaralı listelerin nasıl oluşturulacağını gösterir.
 
@@ -105,7 +107,5 @@ doc.Save(ArtifactsDir + "Lists.ApplyDefaultBulletsAndNumbers.docx");
 ### Ayrıca bakınız
 
 * class [ListFormat](../)
-* ad alanı [Aspose.Words.Lists](../../listformat/)
+* ad alanı [Aspose.Words.Lists](../../../aspose.words.lists/)
 * toplantı [Aspose.Words](../../../)
-
-

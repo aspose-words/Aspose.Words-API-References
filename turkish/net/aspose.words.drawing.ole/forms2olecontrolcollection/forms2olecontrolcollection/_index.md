@@ -1,7 +1,9 @@
 ---
-title: Forms2OleControlCollection.Forms2OleControlCollection
-second_title: Aspose.Words for .NET API Referansı
-description: Forms2OleControlCollection inşaatçı. Default_Constructor
+title: Forms2OleControlCollection
+linktitle: Forms2OleControlCollection
+articleTitle: Forms2OleControlCollection
+second_title: Aspose.Words for .NET
+description: Forms2OleControlCollection inşaatçı. Default_Constructor C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.drawing.ole/forms2olecontrolcollection/forms2olecontrolcollection/
@@ -17,7 +19,5 @@ public Forms2OleControlCollection()
 ### Ayrıca bakınız
 
 * class [Forms2OleControlCollection](../)
-* ad alanı [Aspose.Words.Drawing.Ole](../../forms2olecontrolcollection/)
+* ad alanı [Aspose.Words.Drawing.Ole](../../../aspose.words.drawing.ole/)
 * toplantı [Aspose.Words](../../../)
-
-

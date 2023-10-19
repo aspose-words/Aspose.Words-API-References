@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPropertyCollection.GetEnumerator
-second_title: Aspose.Words for .NET API Referansı
-description: CustomXmlPropertyCollection yöntem. Koleksiyondaki tüm öğeler üzerinde yineleme yapmak için kullanılabilecek bir numaralandırıcı nesnesini döndürür.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words for .NET
+description: CustomXmlPropertyCollection GetEnumerator yöntem. Koleksiyondaki tüm öğeler üzerinde yineleme yapmak için kullanılabilecek bir numaralandırıcı nesnesini döndürür C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.markup/customxmlpropertycollection/getenumerator/
@@ -14,7 +16,7 @@ Koleksiyondaki tüm öğeler üzerinde yineleme yapmak için kullanılabilecek b
 public IEnumerator<CustomXmlProperty> GetEnumerator()
 ```
 
-### Örnekler
+## Örnekler
 
 Akıllı etiketler hakkında ayrıntılı bilgi almak için akıllı etiket özellikleriyle nasıl çalışılacağını gösterir.
 
@@ -72,7 +74,5 @@ Assert.AreEqual(0, properties.Count);
 
 * class [CustomXmlProperty](../../customxmlproperty/)
 * class [CustomXmlPropertyCollection](../)
-* ad alanı [Aspose.Words.Markup](../../customxmlpropertycollection/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

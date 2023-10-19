@@ -1,7 +1,9 @@
 ---
 title: NodeRendererBase.SizeInPoints
-second_title: Aspose.Words for .NET API Referansı
-description: NodeRendererBase mülk. Şeklin gerçek boyutunu nokta cinsinden alır.
+linktitle: SizeInPoints
+articleTitle: SizeInPoints
+second_title: Aspose.Words for .NET
+description: NodeRendererBase SizeInPoints mülk. Şeklin gerçek boyutunu nokta cinsinden alır C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.rendering/noderendererbase/sizeinpoints/
@@ -14,11 +16,11 @@ url: /tr/net/aspose.words.rendering/noderendererbase/sizeinpoints/
 public SizeF SizeInPoints { get; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özellik, şeklin gerçek (sayfada oluşturulduğu şekliyle) sınırlayıcı kutusunun boyutunu döndürür. Boyut, şeklin dönüşünü (varsa) hesaba katar.
 
-### Örnekler
+## Örnekler
 
 Şekillerin nasıl ölçüleceğini ve ölçeklendirileceğini gösterir.
 
@@ -65,7 +67,5 @@ Assert.AreEqual(30, bounds.Height);
 ### Ayrıca bakınız
 
 * class [NodeRendererBase](../)
-* ad alanı [Aspose.Words.Rendering](../../noderendererbase/)
+* ad alanı [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * toplantı [Aspose.Words](../../../)
-
-

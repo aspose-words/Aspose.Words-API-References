@@ -1,7 +1,9 @@
 ---
 title: FieldToc.HideInWebLayout
-second_title: Aspose.Words for .NET API Referansı
-description: FieldToc mülk. Web düzeni görünümünde sekme liderinin ve sayfa numaralarının gizlenip gizlenmeyeceğini alır veya ayarlar.
+linktitle: HideInWebLayout
+articleTitle: HideInWebLayout
+second_title: Aspose.Words for .NET
+description: FieldToc HideInWebLayout mülk. Web düzeni görünümünde sekme liderinin ve sayfa numaralarının gizlenip gizlenmeyeceğini alır veya ayarlar C#'da.
 type: docs
 weight: 90
 url: /tr/net/aspose.words.fields/fieldtoc/hideinweblayout/
@@ -14,7 +16,7 @@ Web düzeni görünümünde sekme liderinin ve sayfa numaralarının gizlenip gi
 public bool HideInWebLayout { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 İçindekiler tablosunun nasıl ekleneceğini ve başlık stillerine göre girdilerle nasıl doldurulacağını gösterir.
 
@@ -99,7 +101,5 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 ### Ayrıca bakınız
 
 * class [FieldToc](../)
-* ad alanı [Aspose.Words.Fields](../../fieldtoc/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

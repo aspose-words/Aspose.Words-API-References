@@ -1,7 +1,9 @@
 ---
 title: EditableRange.Remove
-second_title: Aspose.Words for .NET API Referansı
-description: EditableRange yöntem. Düzenlenebilir aralığı belgeden kaldırır. Düzenlenebilir aralık içindeki içeriği kaldırmaz.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words for .NET
+description: EditableRange Remove yöntem. Düzenlenebilir aralığı belgeden kaldırır. Düzenlenebilir aralık içindeki içeriği kaldırmaz C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words/editablerange/remove/
@@ -14,7 +16,7 @@ Düzenlenebilir aralığı belgeden kaldırır. Düzenlenebilir aralık içindek
 public void Remove()
 ```
 
-### Örnekler
+## Örnekler
 
 Düzenlenebilir bir aralıkla nasıl çalışılacağını gösterir.
 
@@ -60,7 +62,5 @@ editableRange.Remove();
 ### Ayrıca bakınız
 
 * class [EditableRange](../)
-* ad alanı [Aspose.Words](../../editablerange/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

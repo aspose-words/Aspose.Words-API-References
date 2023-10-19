@@ -1,7 +1,9 @@
 ---
 title: Style.Font
-second_title: Aspose.Words for .NET API Referansı
-description: Style mülk. Stilin karakter formatını alır.
+linktitle: Font
+articleTitle: Font
+second_title: Aspose.Words for .NET
+description: Style Font mülk. Stilin karakter formatını alır C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words/style/font/
@@ -14,11 +16,11 @@ Stilin karakter formatını alır.
 public Font Font { get; }
 ```
 
-### Notlar
+## Notlar
 
 Liste stilleri için bu özellik şunu döndürür:`hükümsüz`.
 
-### Örnekler
+## Örnekler
 
 Liste formatıyla paragraf stilinin nasıl oluşturulacağını ve kullanılacağını gösterir.
 
@@ -85,7 +87,5 @@ Assert.AreEqual(Color.Empty.ToArgb(), firstParagraphStyle.Font.Color.ToArgb());
 
 * class [Font](../../font/)
 * class [Style](../)
-* ad alanı [Aspose.Words](../../style/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

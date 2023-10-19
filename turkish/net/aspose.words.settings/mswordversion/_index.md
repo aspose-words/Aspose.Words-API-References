@@ -1,7 +1,9 @@
 ---
-title: Enum MsWordVersion
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Settings.MsWordVersion Sıralama. Aspose.Wodsun MS Word sürümüne özel uygulama davranışını taklit etmesini sağlar.
+title: MsWordVersion Enum
+linktitle: MsWordVersion
+articleTitle: MsWordVersion
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Settings.MsWordVersion Sıralama. Aspose.Wodsun MS Word sürümüne özel uygulama davranışını taklit etmesini sağlar C#'da.
 type: docs
 weight: 5860
 url: /tr/net/aspose.words.settings/mswordversion/
@@ -27,7 +29,7 @@ public enum MsWordVersion
 | Word2016 | `6` | Aspose.Words davranışını MS Word 2016 sürümüyle eşleşecek şekilde optimize edin. |
 | Word2019 | `7` | Aspose.Words davranışını MS Word 2019 sürümüyle eşleşecek şekilde optimize edin. |
 
-### Örnekler
+## Örnekler
 
 Belgenin Microsoft Word'ün farklı sürümleri için nasıl optimize edileceğini gösterir.
 
@@ -87,5 +89,3 @@ private static void PrintCompatibilityOptions(CompatibilityOptions options)
 
 * ad alanı [Aspose.Words.Settings](../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../)
-
-

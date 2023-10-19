@@ -1,7 +1,9 @@
 ---
 title: LayoutOptions.CommentDisplayMode
-second_title: Aspose.Words for .NET API Referansı
-description: LayoutOptions mülk. Yorumların oluşturulma şeklini alır veya ayarlar. Varsayılan değerShowInBalloons .
+linktitle: CommentDisplayMode
+articleTitle: CommentDisplayMode
+second_title: Aspose.Words for .NET
+description: LayoutOptions CommentDisplayMode mülk. Yorumların oluşturulma şeklini alır veya ayarlar. Varsayılan değerShowInBalloons  C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.layout/layoutoptions/commentdisplaymode/
@@ -14,11 +16,11 @@ Yorumların oluşturulma şeklini alır veya ayarlar. Varsayılan değer:ShowInB
 public CommentDisplayMode CommentDisplayMode { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Düzeltmelerin balonlarda görüntülenmediğini unutmayın.ShowInAnnotations .
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi işlenmiş formatta kaydederken yorumların nasıl gösterileceğini gösterir.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Document.ShowCommentsInBalloons.pdf");
 
 * enum [CommentDisplayMode](../../commentdisplaymode/)
 * class [LayoutOptions](../)
-* ad alanı [Aspose.Words.Layout](../../layoutoptions/)
+* ad alanı [Aspose.Words.Layout](../../../aspose.words.layout/)
 * toplantı [Aspose.Words](../../../)
-
-

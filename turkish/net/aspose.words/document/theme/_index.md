@@ -1,7 +1,9 @@
 ---
 title: Document.Theme
-second_title: Aspose.Words for .NET API Referansı
-description: Document mülk. AlırTheme bu belgeye ait nesne.
+linktitle: Theme
+articleTitle: Theme
+second_title: Aspose.Words for .NET
+description: Document Theme mülk. AlırTheme bu belgeye ait nesne C#'da.
 type: docs
 weight: 420
 url: /tr/net/aspose.words/document/theme/
@@ -14,7 +16,7 @@ Alır`Theme` bu belgeye ait nesne.
 public Theme Theme { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Temalar için özel renklerin ve yazı tiplerinin nasıl ayarlanacağını gösterir.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 
 * class [Theme](../../../aspose.words.themes/theme/)
 * class [Document](../)
-* ad alanı [Aspose.Words](../../document/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

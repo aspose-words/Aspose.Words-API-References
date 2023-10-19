@@ -1,7 +1,9 @@
 ---
 title: RowFormat.HeightRule
-second_title: Aspose.Words for .NET API Referansı
-description: RowFormat mülk. Tablo satırının yüksekliğini belirlemek için kuralı alır veya ayarlar.
+linktitle: HeightRule
+articleTitle: HeightRule
+second_title: Aspose.Words for .NET
+description: RowFormat HeightRule mülk. Tablo satırının yüksekliğini belirlemek için kuralı alır veya ayarlar C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.tables/rowformat/heightrule/
@@ -14,7 +16,7 @@ Tablo satırının yüksekliğini belirlemek için kuralı alır veya ayarlar.
 public HeightRule HeightRule { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Satırların bir belge oluşturucuyla nasıl biçimlendirileceğini gösterir.
 
@@ -110,7 +112,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.CreateFormattedTable.docx");
 
 * enum [HeightRule](../../../aspose.words/heightrule/)
 * class [RowFormat](../)
-* ad alanı [Aspose.Words.Tables](../../rowformat/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

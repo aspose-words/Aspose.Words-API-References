@@ -1,7 +1,9 @@
 ---
 title: Aspose.Words.DigitalSignatures
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.DigitalSignatures ad alanı belgeleri imzalamak ve imzaları doğrulamak için sınıflar sağlar.
+linktitle: Aspose.Words.DigitalSignatures
+articleTitle: Aspose.Words.DigitalSignatures
+second_title: Aspose.Words for .NET
+description: Aspose.Words.DigitalSignatures ad alanı belgeleri imzalamak ve imzaları doğrulamak için sınıflar sağlar C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.digitalsignatures/
@@ -12,7 +14,7 @@ url: /tr/net/aspose.words.digitalsignatures/
 
 | Sınıf | Tanım |
 | --- | --- |
-| [CertificateHolder](./certificateholder/) | Sahibini temsil eder **X509Sertifika2** örnek. |
+| [CertificateHolder](./certificateholder/) | Sahibini temsil eder**X509Sertifika2** örnek. |
 | [DigitalSignature](./digitalsignature/) | Bir belgedeki dijital imzayı ve doğrulamasının sonucunu temsil eder. |
 | [DigitalSignatureCollection](./digitalsignaturecollection/) | Bir belgeye eklenen dijital imzaların salt okunur bir koleksiyonunu sağlar. |
 | [DigitalSignatureUtil](./digitalsignatureutil/) | Belgeyi imzalamak için yöntemler sağlar. |
@@ -22,5 +24,3 @@ url: /tr/net/aspose.words.digitalsignatures/
 | numaralandırma | Tanım |
 | --- | --- |
 | [DigitalSignatureType](./digitalsignaturetype/) | Dijital imzanın türünü belirtir. |
-
-

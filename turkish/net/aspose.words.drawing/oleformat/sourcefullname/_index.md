@@ -1,7 +1,9 @@
 ---
 title: OleFormat.SourceFullName
-second_title: Aspose.Words for .NET API Referansı
-description: OleFormat mülk. Bağlantılı OLE nesnesine ilişkin kaynak dosyanın yolunu ve adını alır veya ayarlar.
+linktitle: SourceFullName
+articleTitle: SourceFullName
+second_title: Aspose.Words for .NET
+description: OleFormat SourceFullName mülk. Bağlantılı OLE nesnesine ilişkin kaynak dosyanın yolunu ve adını alır veya ayarlar C#'da.
 type: docs
 weight: 100
 url: /tr/net/aspose.words.drawing/oleformat/sourcefullname/
@@ -14,13 +16,13 @@ Bağlantılı OLE nesnesine ilişkin kaynak dosyanın yolunu ve adını alır ve
 public string SourceFullName { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer boş bir dizedir.
 
 Eğer`SourceFullName` boş bir dize değil, OLE nesnesi bağlantılı.
 
-### Örnekler
+## Örnekler
 
 Bağlı ve bağlantısız OLE nesnelerinin nasıl ekleneceğini gösterir.
 
@@ -70,7 +72,5 @@ using (MemoryStream stream = oleFormat.GetOleEntry("\x0001CompObj"))
 ### Ayrıca bakınız
 
 * class [OleFormat](../)
-* ad alanı [Aspose.Words.Drawing](../../oleformat/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

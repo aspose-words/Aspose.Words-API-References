@@ -1,7 +1,9 @@
 ---
 title: Font.Engrave
-second_title: Aspose.Words for .NET API Referansı
-description: Font mülk. Yazı tipi gravür olarak biçimlendirilmişse doğrudur.
+linktitle: Engrave
+articleTitle: Engrave
+second_title: Aspose.Words for .NET
+description: Font Engrave mülk. Yazı tipi gravür olarak biçimlendirilmişse doğrudur C#'da.
 type: docs
 weight: 120
 url: /tr/net/aspose.words/font/engrave/
@@ -14,7 +16,7 @@ Yazı tipi gravür olarak biçimlendirilmişse doğrudur.
 public bool Engrave { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Metne gravür/kabartma efektlerinin nasıl uygulanacağını gösterir.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Font.EngraveEmboss.docx");
 ### Ayrıca bakınız
 
 * class [Font](../)
-* ad alanı [Aspose.Words](../../font/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Frameset.FrameDefaultUrl
-second_title: Aspose.Words for .NET API Referansı
-description: Frameset mülk. Bu çerçevede görüntülenecek web sayfası URLsini veya belge dosyası adını alır veya ayarlar.
+linktitle: FrameDefaultUrl
+articleTitle: FrameDefaultUrl
+second_title: Aspose.Words for .NET
+description: Frameset FrameDefaultUrl mülk. Bu çerçevede görüntülenecek web sayfası URLsini veya belge dosyası adını alır veya ayarlar C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.framesets/frameset/framedefaulturl/
@@ -14,7 +16,7 @@ Bu çerçevede görüntülenecek web sayfası URL'sini veya belge dosyası adın
 public string FrameDefaultUrl { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Sayfadaki çerçevelere nasıl erişileceğini gösterir.
 
@@ -39,7 +41,5 @@ doc.Frameset.ChildFramesets[0].ChildFramesets[0].IsFrameLinkToFile = false;
 ### Ayrıca bakınız
 
 * class [Frameset](../)
-* ad alanı [Aspose.Words.Framesets](../../frameset/)
+* ad alanı [Aspose.Words.Framesets](../../../aspose.words.framesets/)
 * toplantı [Aspose.Words](../../../)
-
-

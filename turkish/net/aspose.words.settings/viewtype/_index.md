@@ -1,7 +1,9 @@
 ---
-title: Enum ViewType
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Settings.ViewType Sıralama. Microsoft Worddeki görüntüleme modu için olası değerler.
+title: ViewType Enum
+linktitle: ViewType
+articleTitle: ViewType
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Settings.ViewType Sıralama. Microsoft Worddeki görüntüleme modu için olası değerler C#'da.
 type: docs
 weight: 5960
 url: /tr/net/aspose.words.settings/viewtype/
@@ -25,7 +27,7 @@ public enum ViewType
 | Normal | `4` | Belge, uzun belgelerin ana hatlarını çizmek veya oluşturmak için optimize edilmiş bir görünümde oluşturulacaktır. |
 | Web | `5` | Belge, bu belgenin bir web sayfasında görüntülenme şeklini taklit eden bir görünümde oluşturulacaktır. |
 
-### Örnekler
+## Örnekler
 
 Microsoft Word'ün eski sürümlerinin yükleme sırasında bir belgeye uygulayacağı özel yakınlaştırma faktörünün nasıl ayarlanacağını gösterir.
 
@@ -49,5 +51,3 @@ doc.Save(ArtifactsDir + "ViewOptions.SetZoomPercentage.doc");
 * property [ViewType](../viewoptions/viewtype/)
 * ad alanı [Aspose.Words.Settings](../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../)
-
-

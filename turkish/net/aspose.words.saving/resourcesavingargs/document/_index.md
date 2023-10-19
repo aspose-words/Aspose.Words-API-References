@@ -1,7 +1,9 @@
 ---
 title: ResourceSavingArgs.Document
-second_title: Aspose.Words for .NET API Referansı
-description: ResourceSavingArgs mülk. Şu anda kaydedilmekte olan belge nesnesini alır.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words for .NET
+description: ResourceSavingArgs Document mülk. Şu anda kaydedilmekte olan belge nesnesini alır C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.saving/resourcesavingargs/document/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.saving/resourcesavingargs/document/
 public Document Document { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi HTML'ye dönüştürürken oluşturulan harici kaynakları izlemek için geri aramanın nasıl kullanılacağını gösterir.
 
@@ -60,7 +62,5 @@ private class FontSavingCallback : IResourceSavingCallback
 
 * class [Document](../../../aspose.words/document/)
 * class [ResourceSavingArgs](../)
-* ad alanı [Aspose.Words.Saving](../../resourcesavingargs/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

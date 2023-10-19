@@ -1,7 +1,9 @@
 ---
-title: Class ChartFormat
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.Charts.ChartFormat sınıf. Bir grafik öğesinin biçimlendirmesini temsil eder.
+title: ChartFormat Class
+linktitle: ChartFormat
+articleTitle: ChartFormat
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.Charts.ChartFormat sınıf. Bir grafik öğesinin biçimlendirmesini temsil eder C#'da.
 type: docs
 weight: 710
 url: /tr/net/aspose.words.drawing.charts/chartformat/
@@ -21,19 +23,10 @@ public class ChartFormat
 | İsim | Tanım |
 | --- | --- |
 | [Fill](../../aspose.words.drawing.charts/chartformat/fill/) { get; } | Ana grafik öğesi için dolgu formatını alır. |
-| [IsDefined](../../aspose.words.drawing.charts/chartformat/isdefined/) { get; } |  |
 | [ShapeType](../../aspose.words.drawing.charts/chartformat/shapetype/) { get; set; } | Üst grafik öğesinin şekil türünü alır veya ayarlar. |
 | [Stroke](../../aspose.words.drawing.charts/chartformat/stroke/) { get; } | Üst grafik öğesi için satır formatını alır. |
-
-## yöntemler
-
-| İsim | Tanım |
-| --- | --- |
-| [SetDefaultFill](../../aspose.words.drawing.charts/chartformat/setdefaultfill/)() |  |
 
 ### Ayrıca bakınız
 
 * ad alanı [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../)
-
-

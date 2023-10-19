@@ -1,7 +1,9 @@
 ---
 title: Aspose.Words.Rendering
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Rendering ad alanı to belgelerin yazdırılmasını veya görüntülenmesini özelleştirmeye izin veren sınıflar sağlar.
+linktitle: Aspose.Words.Rendering
+articleTitle: Aspose.Words.Rendering
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Rendering ad alanı to belgelerin yazdırılmasını veya görüntülenmesini özelleştirmeye izin veren sınıflar sağlar C#'da.
 type: docs
 weight: 200
 url: /tr/net/aspose.words.rendering/
@@ -24,5 +26,3 @@ url: /tr/net/aspose.words.rendering/
 | numaralandırma | Tanım |
 | --- | --- |
 | [ColorPrintMode](./colorprintmode/) | Aygıtın renkli yazdırmayı desteklemesi durumunda, renkli olmayan sayfaların nasıl yazdırılacağını belirtir. |
-
-

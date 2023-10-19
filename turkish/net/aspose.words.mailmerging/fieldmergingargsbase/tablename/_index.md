@@ -1,7 +1,9 @@
 ---
 title: FieldMergingArgsBase.TableName
-second_title: Aspose.Words for .NET API Referansı
-description: FieldMergingArgsBase mülk. Geçerli birleştirme işlemi için veri tablosunun adını veya ad mevcut değilse boş dizeyi alır.
+linktitle: TableName
+articleTitle: TableName
+second_title: Aspose.Words for .NET
+description: FieldMergingArgsBase TableName mülk. Geçerli birleştirme işlemi için veri tablosunun adını veya ad mevcut değilse boş dizeyi alır C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.mailmerging/fieldmergingargsbase/tablename/
@@ -14,7 +16,7 @@ Geçerli birleştirme işlemi için veri tablosunun adını veya ad mevcut deği
 public string TableName { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Adres-mektup birleştirme sırasında onay kutusu form alanlarının MERGEFIELD'lere birleştirme verileri olarak nasıl ekleneceğini gösterir.
 
@@ -100,7 +102,5 @@ private static DataTable GetStudentCourseDataTable()
 ### Ayrıca bakınız
 
 * class [FieldMergingArgsBase](../)
-* ad alanı [Aspose.Words.MailMerging](../../fieldmergingargsbase/)
+* ad alanı [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * toplantı [Aspose.Words](../../../)
-
-

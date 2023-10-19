@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitRun
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentVisitor yöntem. Dosyada bir metin dizisiyle karşılaşıldığında çağrılır.
+linktitle: VisitRun
+articleTitle: VisitRun
+second_title: Aspose.Words for .NET
+description: DocumentVisitor VisitRun yöntem. Dosyada bir metin dizisiyle karşılaşıldığında çağrılır C#'da.
 type: docs
 weight: 360
 url: /tr/net/aspose.words/documentvisitor/visitrun/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitRun(Run run)
 
 A[`VisitorAction`](../../visitoraction/) numaralandırmaya nasıl devam edileceğini belirten değer.
 
-### Örnekler
+## Örnekler
 
 Bir belgenin düğüm yapısını yazdırmak için belge ziyaretçisinin nasıl kullanılacağını gösterir.
 
@@ -193,7 +195,5 @@ public class DocStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [Run](../../run/)
 * class [DocumentVisitor](../)
-* ad alanı [Aspose.Words](../../documentvisitor/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

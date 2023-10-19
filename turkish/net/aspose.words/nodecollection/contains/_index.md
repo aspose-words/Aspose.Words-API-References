@@ -1,7 +1,9 @@
 ---
 title: NodeCollection.Contains
-second_title: Aspose.Words for .NET API Referansı
-description: NodeCollection yöntem. Bir düğümün koleksiyonda olup olmadığını belirler.
+linktitle: Contains
+articleTitle: Contains
+second_title: Aspose.Words for .NET
+description: NodeCollection Contains yöntem. Bir düğümün koleksiyonda olup olmadığını belirler C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words/nodecollection/contains/
@@ -22,11 +24,11 @@ public bool Contains(Node node)
 
 `doğru` koleksiyonda öğe bulunursa; aksi takdirde,`YANLIŞ`.
 
-### Notlar
+## Notlar
 
 Bu yöntem doğrusal bir arama gerçekleştirir; bu nedenle, ortalama yürütme süresi orantılıdır[`Count`](../count/).
 
-### Örnekler
+## Örnekler
 
 NodeCollection ile nasıl çalışılacağını gösterir.
 
@@ -64,7 +66,5 @@ Assert.False(runs.Contains(run));
 
 * class [Node](../../node/)
 * class [NodeCollection](../)
-* ad alanı [Aspose.Words](../../nodecollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

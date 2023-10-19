@@ -1,9 +1,11 @@
 ---
 title: Stroke.Transparency
-second_title: Aspose.Words for .NET API Referansı
-description: Stroke mülk. Konturun şeffaflık derecesini temsil eden 00 opak ile 10 şeffaf arasında bir değer alır veya ayarlar.
+linktitle: Transparency
+articleTitle: Transparency
+second_title: Aspose.Words for .NET
+description: Stroke Transparency mülk. Konturun şeffaflık derecesini temsil eden 00 opak ile 10 şeffaf arasında bir değer alır veya ayarlar C#'da.
 type: docs
-weight: 200
+weight: 190
 url: /tr/net/aspose.words.drawing/stroke/transparency/
 ---
 ## Stroke.Transparency property
@@ -14,11 +16,11 @@ Konturun şeffaflık derecesini temsil eden 0,0 (opak) ile 1,0 (şeffaf) arasın
 public double Transparency { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer 0. 'dir
 
-### Örnekler
+## Örnekler
 
 İşaretçi biçimlendirmesinin nasıl ayarlanacağını gösterin.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Charts.MarkerFormatting.docx");
 ### Ayrıca bakınız
 
 * class [Stroke](../)
-* ad alanı [Aspose.Words.Drawing](../../stroke/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

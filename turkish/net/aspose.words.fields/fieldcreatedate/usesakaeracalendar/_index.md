@@ -1,7 +1,9 @@
 ---
 title: FieldCreateDate.UseSakaEraCalendar
-second_title: Aspose.Words for .NET API Referansı
-description: FieldCreateDate mülk. Saka Dönemi takviminin kullanılıp kullanılmayacağını alır veya ayarlar.
+linktitle: UseSakaEraCalendar
+articleTitle: UseSakaEraCalendar
+second_title: Aspose.Words for .NET
+description: FieldCreateDate UseSakaEraCalendar mülk. Saka Dönemi takviminin kullanılıp kullanılmayacağını alır veya ayarlar C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fields/fieldcreatedate/usesakaeracalendar/
@@ -14,7 +16,7 @@ Saka Dönemi takviminin kullanılıp kullanılmayacağını alır veya ayarlar.
 public bool UseSakaEraCalendar { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Belgenin oluşturulma tarihini/saatini görüntülemek için CREATEDATE alanının nasıl kullanılacağını gösterir.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "Field.CREATEDATE.docx");
 ### Ayrıca bakınız
 
 * class [FieldCreateDate](../)
-* ad alanı [Aspose.Words.Fields](../../fieldcreatedate/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

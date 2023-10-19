@@ -1,7 +1,9 @@
 ---
-title: Class ConditionalStyle
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.ConditionalStyle sınıf. Atanan tablo stiliyle tablonun bazı alanlarına uygulanan özel biçimlendirmeyi temsil eder.
+title: ConditionalStyle Class
+linktitle: ConditionalStyle
+articleTitle: ConditionalStyle
+second_title: Aspose.Words for .NET
+description: Aspose.Words.ConditionalStyle sınıf. Atanan tablo stiliyle tablonun bazı alanlarına uygulanan özel biçimlendirmeyi temsil eder C#'da.
 type: docs
 weight: 310
 url: /tr/net/aspose.words/conditionalstyle/
@@ -35,10 +37,10 @@ public sealed class ConditionalStyle
 | İsim | Tanım |
 | --- | --- |
 | [ClearFormatting](../../aspose.words/conditionalstyle/clearformatting/)() | Bu koşullu stilin biçimlendirmesini temizler. |
-| override [Equals](../../aspose.words/conditionalstyle/equals/)(object) | Bu koşullu stili belirtilen nesneyle karşılaştırır. |
+| override [Equals](../../aspose.words/conditionalstyle/equals/)(*object*) | Bu koşullu stili belirtilen nesneyle karşılaştırır. |
 | override [GetHashCode](../../aspose.words/conditionalstyle/gethashcode/)() | Bu nesnenin karma kodunu hesaplar. |
 
-### Örnekler
+## Örnekler
 
 Bir tablonun belirli alan stilleriyle nasıl çalışılacağını gösterir.
 
@@ -109,5 +111,3 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

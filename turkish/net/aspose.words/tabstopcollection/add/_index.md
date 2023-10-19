@@ -1,12 +1,14 @@
 ---
 title: TabStopCollection.Add
-second_title: Aspose.Words for .NET API Referansı
-description: TabStopCollection yöntem. Koleksiyona bir sekme durağı ekler veya değiştirir.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words for .NET
+description: TabStopCollection Add yöntem. Koleksiyona bir sekme durağı ekler veya değiştirir C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/tabstopcollection/add/
 ---
-## Add(TabStop) {#add}
+## Add(*[TabStop](../../tabstop/)*) {#add}
 
 Koleksiyona bir sekme durağı ekler veya değiştirir.
 
@@ -18,11 +20,11 @@ public void Add(TabStop tabStop)
 | --- | --- | --- |
 | tabStop | TabStop | Eklenecek bir sekme durağı nesnesi. |
 
-### Notlar
+## Notlar
 
 Belirtilen konumda zaten bir sekme durağı varsa değiştirilir.
 
-### Örnekler
+## Örnekler
 
 Bir belgeye özel sekme duraklarının nasıl ekleneceğini gösterir.
 
@@ -57,12 +59,12 @@ doc.Save(ArtifactsDir + "TabStopCollection.AddTabStops.docx");
 
 * class [TabStop](../../tabstop/)
 * class [TabStopCollection](../)
-* ad alanı [Aspose.Words](../../tabstopcollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## Add(double, TabAlignment, TabLeader) {#add_1}
+## Add(*double, [TabAlignment](../../tabalignment/), [TabLeader](../../tableader/)*) {#add_1}
 
 Koleksiyona bir sekme durağı ekler veya değiştirir.
 
@@ -76,11 +78,11 @@ public void Add(double position, TabAlignment alignment, TabLeader leader)
 | alignment | TabAlignment | A[`TabAlignment`](../../tabalignment/) that değeri, sekme durağındaki metnin hizalamasını belirtir. |
 | leader | TabLeader | A[`TabLeader`](../../tableader/) değer that sekme karakterinin altında görüntülenen lider çizgisinin türünü belirtir. |
 
-### Notlar
+## Notlar
 
 Belirtilen konumda zaten bir sekme durağı varsa değiştirilir.
 
-### Örnekler
+## Örnekler
 
 Bir belgeye özel sekme duraklarının nasıl ekleneceğini gösterir.
 
@@ -116,7 +118,5 @@ doc.Save(ArtifactsDir + "TabStopCollection.AddTabStops.docx");
 * enum [TabAlignment](../../tabalignment/)
 * enum [TabLeader](../../tableader/)
 * class [TabStopCollection](../)
-* ad alanı [Aspose.Words](../../tabstopcollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

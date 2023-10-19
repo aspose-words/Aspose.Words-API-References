@@ -1,7 +1,9 @@
 ---
 title: IDocumentReaderPlugin.Read
-second_title: Aspose.Words for .NET API Referansı
-description: IDocumentReaderPlugin yöntem. Belirtilen akıştaki verileri okur.Document örnek.
+linktitle: Read
+articleTitle: Read
+second_title: Aspose.Words for .NET
+description: IDocumentReaderPlugin Read yöntem. Belirtilen akıştaki verileri okur.Document örnek C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/idocumentreaderplugin/read/
@@ -25,7 +27,5 @@ public void Read(Stream src, LoadOptions loadOptions, Document document)
 * class [LoadOptions](../../../aspose.words.loading/loadoptions/)
 * class [Document](../../document/)
 * interface [IDocumentReaderPlugin](../)
-* ad alanı [Aspose.Words](../../idocumentreaderplugin/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

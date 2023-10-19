@@ -1,7 +1,9 @@
 ---
-title: Enum SdtType
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Markup.SdtType Sıralama. Yapılandırılmış belge etiketi SDT düğümünün türünü belirtir.
+title: SdtType Enum
+linktitle: SdtType
+articleTitle: SdtType
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Markup.SdtType Sıralama. Yapılandırılmış belge etiketi SDT düğümünün türünü belirtir C#'da.
 type: docs
 weight: 4040
 url: /tr/net/aspose.words.markup/sdttype/
@@ -36,7 +38,7 @@ public enum SdtType
 | RepeatingSectionItem | `15` | SDT yinelenen bölüm öğesini temsil eder. |
 | EntityPicker | `16` | SDT, kullanıcının harici içerik türünün bir örneğini seçmesine olanak tanıyan bir varlık seçiciyi temsil eder. |
 
-### Örnekler
+## Örnekler
 
 Satır düzeyinde grup yapılandırılmış belge etiketinin nasıl oluşturulacağını gösterir.
 
@@ -172,5 +174,3 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.RepeatingSectionItem.docx");
 
 * ad alanı [Aspose.Words.Markup](../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../)
-
-

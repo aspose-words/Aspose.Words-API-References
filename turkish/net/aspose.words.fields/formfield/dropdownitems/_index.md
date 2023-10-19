@@ -1,7 +1,9 @@
 ---
 title: FormField.DropDownItems
-second_title: Aspose.Words for .NET API Referansı
-description: FormField mülk. Açılır form alanının öğelerine erişim sağlar.
+linktitle: DropDownItems
+articleTitle: DropDownItems
+second_title: Aspose.Words for .NET
+description: FormField DropDownItems mülk. Açılır form alanının öğelerine erişim sağlar C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.fields/formfield/dropdownitems/
@@ -14,11 +16,11 @@ Açılır form alanının öğelerine erişim sağlar.
 public DropDownItemCollection DropDownItems { get; }
 ```
 
-### Notlar
+## Notlar
 
 Microsoft Word, açılır form alanında en fazla 25 öğeye izin verir.
 
-### Örnekler
+## Örnekler
 
 Bir belgeye farklı türde form alanlarının nasıl eklendiğini ve bunların bir belge ziyaretçi uygulaması kullanılarak nasıl işlendiğini gösterir.
 
@@ -153,7 +155,5 @@ public class FormFieldVisitor : DocumentVisitor
 
 * class [DropDownItemCollection](../../dropdownitemcollection/)
 * class [FormField](../)
-* ad alanı [Aspose.Words.Fields](../../formfield/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

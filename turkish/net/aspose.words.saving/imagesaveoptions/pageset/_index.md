@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.PageSet
-second_title: Aspose.Words for .NET API Referansı
-description: ImageSaveOptions mülk. Oluşturulacak sayfaları alır veya ayarlar. Varsayılan belgedeki tüm sayfalardır.
+linktitle: PageSet
+articleTitle: PageSet
+second_title: Aspose.Words for .NET
+description: ImageSaveOptions PageSet mülk. Oluşturulacak sayfaları alır veya ayarlar. Varsayılan belgedeki tüm sayfalardır C#'da.
 type: docs
 weight: 100
 url: /tr/net/aspose.words.saving/imagesaveoptions/pageset/
@@ -14,11 +16,11 @@ Oluşturulacak sayfaları alır veya ayarlar. Varsayılan, belgedeki tüm sayfal
 public PageSet PageSet { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özellik yalnızca belge sayfaları oluşturulurken etkilidir. Şekiller görüntülere dönüştürülürken bu özellik göz ardı edilir.
 
-### Örnekler
+## Örnekler
 
 Tam sayfa aralıklarına göre sayfaların nasıl çıkarılacağını gösterir.
 
@@ -122,7 +124,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.OnePage.jpg", options);
 
 * class [PageSet](../../pageset/)
 * class [ImageSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../imagesaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

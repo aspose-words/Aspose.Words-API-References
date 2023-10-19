@@ -1,7 +1,9 @@
 ---
 title: Section.Body
-second_title: Aspose.Words for .NET API Referansı
-description: Section mülk. Şunu döndürürBody bölümün alt düğümü.
+linktitle: Body
+articleTitle: Body
+second_title: Aspose.Words for .NET
+description: Section Body mülk. Şunu döndürürBody bölümün alt düğümü C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/section/body/
@@ -14,13 +16,13 @@ url: /tr/net/aspose.words/section/body/
 public Body Body { get; }
 ```
 
-### Notlar
+## Notlar
 
 [`Body`](../../body/) bölümün ana metnini içerir.
 
 İadeler`hükümsüz` eğer bölüm yoksa[`Body`](../../body/) çocukları arasındaki düğüm.
 
-### Örnekler
+## Örnekler
 
 Belgedeki tüm bölümlerdeki ana metni, bölümleri bırakarak temizler.
 
@@ -59,7 +61,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 
 * class [Body](../../body/)
 * class [Section](../)
-* ad alanı [Aspose.Words](../../section/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

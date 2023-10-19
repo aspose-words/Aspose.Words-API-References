@@ -1,7 +1,9 @@
 ---
-title: Class XmlMapping
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Markup.XmlMapping sınıf. parent yapılandırılmış belge etiketi ile belgedeki özel bir XML veri bölümünde depolanan bir XML öğesi arasında eşleme oluşturmak için kullanılan bilgiyi belirtir.
+title: XmlMapping Class
+linktitle: XmlMapping
+articleTitle: XmlMapping
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Markup.XmlMapping sınıf. parent yapılandırılmış belge etiketi ile belgedeki özel bir XML veri bölümünde depolanan bir XML öğesi arasında eşleme oluşturmak için kullanılan bilgiyi belirtir C#'da.
 type: docs
 weight: 4100
 url: /tr/net/aspose.words.markup/xmlmapping/
@@ -31,9 +33,9 @@ public class XmlMapping
 | İsim | Tanım |
 | --- | --- |
 | [Delete](../../aspose.words.markup/xmlmapping/delete/)() | Ana yapılandırılmış belgenin XML verileriyle eşlenmesini siler. |
-| [SetMapping](../../aspose.words.markup/xmlmapping/setmapping/)(CustomXmlPart, string, string) | Ana yapılandırılmış belge etiketi ile özel bir XML veri bölümünün XML düğümü arasında bir eşleme ayarlar. |
+| [SetMapping](../../aspose.words.markup/xmlmapping/setmapping/)(*[CustomXmlPart](../customxmlpart/), string, string*) | Ana yapılandırılmış belge etiketi ile özel bir XML veri bölümünün XML düğümü arasında bir eşleme ayarlar. |
 
-### Örnekler
+## Örnekler
 
 Özel XML parçaları için XML eşlemelerinin nasıl ayarlanacağını gösterir.
 
@@ -70,5 +72,3 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.XmlMapping.docx");
 
 * ad alanı [Aspose.Words.Markup](../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../)
-
-

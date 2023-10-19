@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.LineSpacingRule
-second_title: Aspose.Words for .NET API Referansı
-description: ParagraphFormat mülk. Paragrafın satır aralığını alır veya ayarlar.
+linktitle: LineSpacingRule
+articleTitle: LineSpacingRule
+second_title: Aspose.Words for .NET
+description: ParagraphFormat LineSpacingRule mülk. Paragrafın satır aralığını alır veya ayarlar C#'da.
 type: docs
 weight: 200
 url: /tr/net/aspose.words/paragraphformat/linespacingrule/
@@ -14,7 +16,7 @@ Paragrafın satır aralığını alır veya ayarlar.
 public LineSpacingRule LineSpacingRule { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Satır aralığıyla nasıl çalışılacağını gösterir.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.LineSpacing.docx");
 
 * enum [LineSpacingRule](../../linespacingrule/)
 * class [ParagraphFormat](../)
-* ad alanı [Aspose.Words](../../paragraphformat/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

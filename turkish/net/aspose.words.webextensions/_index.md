@@ -1,7 +1,9 @@
 ---
 title: Aspose.Words.WebExtensions
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.WebExtensionsad alanı to nin Office Eklentilerini temsil etmek için XML kelime dağarcığını genişleten öğeleri ve nitelikleri özelleştirmesine olanak tanıyan sınıflar sağlar.
+linktitle: Aspose.Words.WebExtensions
+articleTitle: Aspose.Words.WebExtensions
+second_title: Aspose.Words for .NET
+description: Aspose.Words.WebExtensionsad alanı to nin Office Eklentilerini temsil etmek için XML kelime dağarcığını genişleten öğeleri ve nitelikleri özelleştirmesine olanak tanıyan sınıflar sağlar C#'da.
 type: docs
 weight: 290
 url: /tr/net/aspose.words.webextensions/
@@ -29,5 +31,3 @@ url: /tr/net/aspose.words.webextensions/
 | [TaskPaneDockState](./taskpanedockstate/) | Görev bölmesi nesnesinin kullanılabilir konumlarını numaralandırır. |
 | [WebExtensionBindingType](./webextensionbindingtype/) | Bir web uzantısı ile belgedeki veriler arasındaki mevcut bağlama türlerini sıralar. |
 | [WebExtensionStoreType](./webextensionstoretype/) | Web uzantısı deposunun kullanılabilir türlerini numaralandırır. |
-
-

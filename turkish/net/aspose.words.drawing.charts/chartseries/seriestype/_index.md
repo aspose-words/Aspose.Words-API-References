@@ -1,7 +1,9 @@
 ---
 title: ChartSeries.SeriesType
-second_title: Aspose.Words for .NET API Referansı
-description: ChartSeries mülk. Bu grafik serisinin türünü alır.
+linktitle: SeriesType
+articleTitle: SeriesType
+second_title: Aspose.Words for .NET
+description: ChartSeries SeriesType mülk. Bu grafik serisinin türünü alır C#'da.
 type: docs
 weight: 120
 url: /tr/net/aspose.words.drawing.charts/chartseries/seriestype/
@@ -14,7 +16,7 @@ Bu grafik serisinin türünü alır.
 public ChartSeriesType SeriesType { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Nasıl yapılacağını gösterir
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "Charts.RemoveSpecificChartSeries.docx");
 
 * enum [ChartSeriesType](../../chartseriestype/)
 * class [ChartSeries](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartseries/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldStyleRef.InsertParagraphNumber
-second_title: Aspose.Words for .NET API Referansı
-description: FieldStyleRef mülk. Başvurulan paragrafın paragraf numarasının tam olarak belgede göründüğü gibi eklenip eklenmeyeceğini alır veya ayarlar.
+linktitle: InsertParagraphNumber
+articleTitle: InsertParagraphNumber
+second_title: Aspose.Words for .NET
+description: FieldStyleRef InsertParagraphNumber mülk. Başvurulan paragrafın paragraf numarasının tam olarak belgede göründüğü gibi eklenip eklenmeyeceğini alır veya ayarlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fieldstyleref/insertparagraphnumber/
@@ -14,7 +16,7 @@ Başvurulan paragrafın paragraf numarasının tam olarak belgede göründüğü
 public bool InsertParagraphNumber { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 STYLEREF alanlarının nasıl kullanılacağını gösterir.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Field.STYLEREF.docx");
 ### Ayrıca bakınız
 
 * class [FieldStyleRef](../)
-* ad alanı [Aspose.Words.Fields](../../fieldstyleref/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

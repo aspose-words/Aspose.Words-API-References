@@ -1,9 +1,11 @@
 ---
 title: Style.StyleIdentifier
-second_title: Aspose.Words for .NET API Referansı
-description: Style mülk. Yerleşik bir stil için yerel ayardan bağımsız stil tanımlayıcısını alır.
+linktitle: StyleIdentifier
+articleTitle: StyleIdentifier
+second_title: Aspose.Words for .NET
+description: Style StyleIdentifier mülk. Yerleşik bir stil için yerel ayardan bağımsız stil tanımlayıcısını alır C#'da.
 type: docs
-weight: 160
+weight: 150
 url: /tr/net/aspose.words/style/styleidentifier/
 ---
 ## Style.StyleIdentifier property
@@ -14,11 +16,11 @@ Yerleşik bir stil için yerel ayardan bağımsız stil tanımlayıcısını al�
 public StyleIdentifier StyleIdentifier { get; }
 ```
 
-### Notlar
+## Notlar
 
 Kullanıcı tanımlı (özel) stiller için bu özellik şunu döndürür:User.
 
-### Örnekler
+## Örnekler
 
 İçindekiler ile ilgili paragraflarda sağ sekme durağının konumunun nasıl değiştirileceğini gösterir.
 
@@ -45,7 +47,5 @@ doc.Save(ArtifactsDir + "Styles.ChangeTocsTabStops.docx");
 
 * enum [StyleIdentifier](../../styleidentifier/)
 * class [Style](../)
-* ad alanı [Aspose.Words](../../style/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

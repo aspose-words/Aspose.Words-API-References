@@ -1,7 +1,9 @@
 ---
 title: XamlFlowSaveOptions.ImagesFolder
-second_title: Aspose.Words for .NET API Referansı
-description: XamlFlowSaveOptions mülk. Bir belgeyi XAML biçimine dışa aktarırken görüntülerin kaydedildiği fiziksel klasörü belirtir. Varsayılan boş bir dizedir.
+linktitle: ImagesFolder
+articleTitle: ImagesFolder
+second_title: Aspose.Words for .NET
+description: XamlFlowSaveOptions ImagesFolder mülk. Bir belgeyi XAML biçimine dışa aktarırken görüntülerin kaydedildiği fiziksel klasörü belirtir. Varsayılan boş bir dizedir C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.saving/xamlflowsaveoptions/imagesfolder/
@@ -14,7 +16,7 @@ Bir belgeyi XAML biçimine dışa aktarırken görüntülerin kaydedildiği fizi
 public string ImagesFolder { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bir kaydettiğinizde[`Document`](../../../aspose.words/document/) XAML formatında Aspose.Words'ün belgeye gömülü tüm görsellerini bağımsız dosyalar olarak kaydetmesi gerekir.`ImagesFolder` görüntülerin nereye kaydedileceğini belirtmenize ve[`ImagesFolderAlias`](../imagesfolderalias/) , görüntü URI'lerinin nasıl oluşturulacağını belirtmeye olanak tanır.
 
@@ -22,7 +24,7 @@ Bir belgeyi bir dosyaya kaydederseniz ve bir dosya adı sağlarsanız, Aspose.Wo
 
 Bir belgeyi bir akışa kaydederseniz, Aspose.Words'de görüntülerin kaydedileceği bir klasör yoktur ( ), ancak yine de görüntüleri bir yere kaydetmesi gerekir. Bu durumda, erişilebilir bir klasör belirtmeniz gerekir.`ImagesFolder` özelliği veya aracılığıyla özel akışlar sağlayın[`ImageSavingCallback`](../imagesavingcallback/) olay işleyicisi.
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi akış formu .xaml'e dönüştürürken oluşturulan bağlantılı görüntülerin dosya adlarının nasıl yazdırılacağını gösterir.
 
@@ -88,7 +90,5 @@ private class ImageUriPrinter : IImageSavingCallback
 ### Ayrıca bakınız
 
 * class [XamlFlowSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../xamlflowsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

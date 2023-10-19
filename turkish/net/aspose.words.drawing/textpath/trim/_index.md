@@ -1,7 +1,9 @@
 ---
 title: TextPath.Trim
-second_title: Aspose.Words for .NET API Referansı
-description: TextPath mülk. Metnin üstünde ve altında fazladan boşluğun kaldırılıp kaldırılmayacağını belirler.
+linktitle: Trim
+articleTitle: Trim
+second_title: Aspose.Words for .NET
+description: TextPath Trim mülk. Metnin üstünde ve altında fazladan boşluğun kaldırılıp kaldırılmayacağını belirler C#'da.
 type: docs
 weight: 180
 url: /tr/net/aspose.words.drawing/textpath/trim/
@@ -14,11 +16,11 @@ Metnin üstünde ve altında fazladan boşluğun kaldırılıp kaldırılmayaca�
 public bool Trim { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:`YANLIŞ`.
 
-### Örnekler
+## Örnekler
 
 WordArt'la nasıl çalışılacağını gösterir.
 
@@ -121,7 +123,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### Ayrıca bakınız
 
 * class [TextPath](../)
-* ad alanı [Aspose.Words.Drawing](../../textpath/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

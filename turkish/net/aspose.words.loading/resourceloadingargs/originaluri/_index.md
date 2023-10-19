@@ -1,7 +1,9 @@
 ---
 title: ResourceLoadingArgs.OriginalUri
-second_title: Aspose.Words for .NET API Referansı
-description: ResourceLoadingArgs mülk. İçe aktarılan belgede belirtildiği şekliyle kaynağın orijinal URIsi.
+linktitle: OriginalUri
+articleTitle: OriginalUri
+second_title: Aspose.Words for .NET
+description: ResourceLoadingArgs OriginalUri mülk. İçe aktarılan belgede belirtildiği şekliyle kaynağın orijinal URIsi C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.loading/resourceloadingargs/originaluri/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.loading/resourceloadingargs/originaluri/
 public string OriginalUri { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Dış kaynakları bir belgeye yükleme işleminin nasıl özelleştirileceğini gösterir.
 
@@ -77,7 +79,5 @@ private class ImageNameHandler : IResourceLoadingCallback
 ### Ayrıca bakınız
 
 * class [ResourceLoadingArgs](../)
-* ad alanı [Aspose.Words.Loading](../../resourceloadingargs/)
+* ad alanı [Aspose.Words.Loading](../../../aspose.words.loading/)
 * toplantı [Aspose.Words](../../../)
-
-

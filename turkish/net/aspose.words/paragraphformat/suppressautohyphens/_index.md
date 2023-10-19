@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.SuppressAutoHyphens
-second_title: Aspose.Words for .NET API Referansı
-description: ParagraphFormat mülk. Geçerli paragrafın belge ayarlarında uygulanan herhangi bir tirelemeden muaf tutulması gerekip gerekmediğini belirtir.
+linktitle: SuppressAutoHyphens
+articleTitle: SuppressAutoHyphens
+second_title: Aspose.Words for .NET
+description: ParagraphFormat SuppressAutoHyphens mülk. Geçerli paragrafın belge ayarlarında uygulanan herhangi bir tirelemeden muaf tutulması gerekip gerekmediğini belirtir C#'da.
 type: docs
 weight: 370
 url: /tr/net/aspose.words/paragraphformat/suppressautohyphens/
@@ -14,7 +16,7 @@ Geçerli paragrafın, belge ayarlarında uygulanan herhangi bir tirelemeden muaf
 public bool SuppressAutoHyphens { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir paragrafta tirelemenin nasıl bastırılacağını gösterir.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.SuppressHyphens.pdf");
 ### Ayrıca bakınız
 
 * class [ParagraphFormat](../)
-* ad alanı [Aspose.Words](../../paragraphformat/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

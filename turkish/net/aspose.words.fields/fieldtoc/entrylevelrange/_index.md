@@ -1,7 +1,9 @@
 ---
 title: FieldToc.EntryLevelRange
-second_title: Aspose.Words for .NET API Referansı
-description: FieldToc mülk. Dahil edilecek içindekiler tablosu girişlerinin düzey aralığını alır veya ayarlar.
+linktitle: EntryLevelRange
+articleTitle: EntryLevelRange
+second_title: Aspose.Words for .NET
+description: FieldToc EntryLevelRange mülk. Dahil edilecek içindekiler tablosu girişlerinin düzey aralığını alır veya ayarlar C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.fields/fieldtoc/entrylevelrange/
@@ -14,7 +16,7 @@ Dahil edilecek içindekiler tablosu girişlerinin düzey aralığını alır vey
 public string EntryLevelRange { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 TOC alanının nasıl ekleneceğini ve hangi TC alanlarının giriş olarak sonuçlanacağını filtreleyeceğini gösterir.
 
@@ -66,7 +68,5 @@ public void InsertTocEntry(DocumentBuilder builder, string text, string typeIden
 ### Ayrıca bakınız
 
 * class [FieldToc](../)
-* ad alanı [Aspose.Words.Fields](../../fieldtoc/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

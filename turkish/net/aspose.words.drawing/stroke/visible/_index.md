@@ -1,9 +1,11 @@
 ---
 title: Stroke.Visible
-second_title: Aspose.Words for .NET API Referansı
-description: Stroke mülk. Konturun görünür olup olmadığını belirten bir bayrak alır veya ayarlar.
+linktitle: Visible
+articleTitle: Visible
+second_title: Aspose.Words for .NET
+description: Stroke Visible mülk. Konturun görünür olup olmadığını belirten bir bayrak alır veya ayarlar C#'da.
 type: docs
-weight: 210
+weight: 200
 url: /tr/net/aspose.words.drawing/stroke/visible/
 ---
 ## Stroke.Visible property
@@ -14,11 +16,11 @@ Konturun görünür olup olmadığını belirten bir bayrak alır veya ayarlar.
 public bool Visible { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bir için varsayılan değer[`Shape`](../../shape/) dır-dir`doğru` .
 
-### Örnekler
+## Örnekler
 
 İşaretçi biçimlendirmesinin nasıl ayarlanacağını gösterin.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Charts.MarkerFormatting.docx");
 ### Ayrıca bakınız
 
 * class [Stroke](../)
-* ad alanı [Aspose.Words.Drawing](../../stroke/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

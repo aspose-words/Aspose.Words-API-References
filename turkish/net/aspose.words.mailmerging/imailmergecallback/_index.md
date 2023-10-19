@@ -1,7 +1,9 @@
 ---
-title: Interface IMailMergeCallback
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.MailMerging.IMailMergeCallback arayüz. Adresmektup birleştirme işlemi gerçekleştirilirken bildirim almak istiyorsanız bu arayüzü uygulayın.
+title: IMailMergeCallback Interface
+linktitle: IMailMergeCallback
+articleTitle: IMailMergeCallback
+second_title: Aspose.Words for .NET
+description: Aspose.Words.MailMerging.IMailMergeCallback arayüz. Adresmektup birleştirme işlemi gerçekleştirilirken bildirim almak istiyorsanız bu arayüzü uygulayın C#'da.
 type: docs
 weight: 3800
 url: /tr/net/aspose.words.mailmerging/imailmergecallback/
@@ -20,7 +22,7 @@ public interface IMailMergeCallback
 | --- | --- |
 | [TagsReplaced](../../aspose.words.mailmerging/imailmergecallback/tagsreplaced/)() | "Bıyık" metin etiketleri MERGEFIELD alanlarıyla değiştirildiğinde çağrılır. |
 
-### Örnekler
+## Örnekler
 
 Adres-mektup birleştirme sırasında olayların işlenmesi için özel mantığın nasıl tanımlanacağını gösterir.
 
@@ -72,5 +74,3 @@ private class MailMergeTagReplacementCounter : IMailMergeCallback
 
 * ad alanı [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * toplantı [Aspose.Words](../../)
-
-

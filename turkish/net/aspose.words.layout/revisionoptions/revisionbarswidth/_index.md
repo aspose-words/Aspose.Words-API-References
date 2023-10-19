@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.RevisionBarsWidth
-second_title: Aspose.Words for .NET API Referansı
-description: RevisionOptions mülk. Revizyon çubuklarının noktaların genişliğini alır veya ayarlar.
+linktitle: RevisionBarsWidth
+articleTitle: RevisionBarsWidth
+second_title: Aspose.Words for .NET
+description: RevisionOptions RevisionBarsWidth mülk. Revizyon çubuklarının noktaların genişliğini alır veya ayarlar C#'da.
 type: docs
 weight: 150
 url: /tr/net/aspose.words.layout/revisionoptions/revisionbarswidth/
@@ -14,7 +16,7 @@ Revizyon çubuklarının, noktaların genişliğini alır veya ayarlar.
 public float RevisionBarsWidth { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Revizyonların görünümünün nasıl değiştirileceğini gösterir.
 
@@ -65,7 +67,5 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 ### Ayrıca bakınız
 
 * class [RevisionOptions](../)
-* ad alanı [Aspose.Words.Layout](../../revisionoptions/)
+* ad alanı [Aspose.Words.Layout](../../../aspose.words.layout/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Company
-second_title: Aspose.Words for .NET API Referansı
-description: BuiltInDocumentProperties mülk. Şirket özelliğini alır veya ayarlar.
+linktitle: Company
+articleTitle: Company
+second_title: Aspose.Words for .NET
+description: BuiltInDocumentProperties Company mülk. Şirket özelliğini alır veya ayarlar C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.properties/builtindocumentproperties/company/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.properties/builtindocumentproperties/company/
 public string Company { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 "Orijin" kategorisindeki belge özellikleriyle nasıl çalışılacağını gösterir.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.Origin.docx");
 ### Ayrıca bakınız
 
 * class [BuiltInDocumentProperties](../)
-* ad alanı [Aspose.Words.Properties](../../builtindocumentproperties/)
+* ad alanı [Aspose.Words.Properties](../../../aspose.words.properties/)
 * toplantı [Aspose.Words](../../../)
-
-

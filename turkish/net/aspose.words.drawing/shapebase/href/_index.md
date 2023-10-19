@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.HRef
-second_title: Aspose.Words for .NET API Referansı
-description: ShapeBase mülk. Bir şeklin tam köprü adresini alır veya ayarlar.
+linktitle: HRef
+articleTitle: HRef
+second_title: Aspose.Words for .NET
+description: ShapeBase HRef mülk. Bir şeklin tam köprü adresini alır veya ayarlar C#'da.
 type: docs
 weight: 230
 url: /tr/net/aspose.words.drawing/shapebase/href/
@@ -14,7 +16,7 @@ Bir şeklin tam köprü adresini alır veya ayarlar.
 public string HRef { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer boş bir dizedir.
 
@@ -32,7 +34,7 @@ Başka bir belgeye yer işareti koyun:`https://www.aspose.com/Products/Default.a
 
 Bu belgedeki yer işareti:`#KitapmakAdı`.
 
-### Örnekler
+## Örnekler
 
 Görüntü içeren ve aynı zamanda köprü olan bir şeklin nasıl ekleneceğini gösterir.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Image.InsertImageWithHyperlink.docx");
 ### Ayrıca bakınız
 
 * class [ShapeBase](../)
-* ad alanı [Aspose.Words.Drawing](../../shapebase/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

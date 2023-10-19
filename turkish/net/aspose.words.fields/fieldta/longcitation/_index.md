@@ -1,7 +1,9 @@
 ---
 title: FieldTA.LongCitation
-second_title: Aspose.Words for .NET API Referansı
-description: FieldTA mülk. Girişin uzun alıntısını alır veya ayarlar.
+linktitle: LongCitation
+articleTitle: LongCitation
+second_title: Aspose.Words for .NET
+description: FieldTA LongCitation mülk. Girişin uzun alıntısını alır veya ayarlar C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.fields/fieldta/longcitation/
@@ -14,7 +16,7 @@ Girişin uzun alıntısını alır veya ayarlar.
 public string LongCitation { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 TOA ve TA alanlarını kullanarak bir yetki tablosunun nasıl oluşturulacağını ve özelleştirileceğini gösterir.
 
@@ -137,7 +139,5 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 ### Ayrıca bakınız
 
 * class [FieldTA](../)
-* ad alanı [Aspose.Words.Fields](../../fieldta/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.CharactersWithSpaces
-second_title: Aspose.Words for .NET API Referansı
-description: BuiltInDocumentProperties mülk. Belgedeki karakter sayısına boşluklar dahil ilişkin bir tahmindir.
+linktitle: CharactersWithSpaces
+articleTitle: CharactersWithSpaces
+second_title: Aspose.Words for .NET
+description: BuiltInDocumentProperties CharactersWithSpaces mülk. Belgedeki karakter sayısına boşluklar dahil ilişkin bir tahmindir C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.properties/builtindocumentproperties/characterswithspaces/
@@ -14,11 +16,11 @@ Belgedeki karakter sayısına (boşluklar dahil) ilişkin bir tahmindir.
 public int CharactersWithSpaces { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Aspose.Words aradığınızda bu özelliği günceller[`UpdateWordCount`](../../../aspose.words/document/updatewordcount/).
 
-### Örnekler
+## Örnekler
 
 "İçerik" kategorisinde belge özellikleriyle nasıl çalışılacağını gösterir.
 
@@ -128,7 +130,5 @@ private class LineCounter
 ### Ayrıca bakınız
 
 * class [BuiltInDocumentProperties](../)
-* ad alanı [Aspose.Words.Properties](../../builtindocumentproperties/)
+* ad alanı [Aspose.Words.Properties](../../../aspose.words.properties/)
 * toplantı [Aspose.Words](../../../)
-
-

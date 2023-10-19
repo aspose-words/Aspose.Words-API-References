@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagCollection.GetById
-second_title: Aspose.Words for .NET API Referansı
-description: StructuredDocumentTagCollection yöntem. Yapılandırılmış belge etiketini tanımlayıcıya göre döndürür.
+linktitle: GetById
+articleTitle: GetById
+second_title: Aspose.Words for .NET
+description: StructuredDocumentTagCollection GetById yöntem. Yapılandırılmış belge etiketini tanımlayıcıya göre döndürür C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.markup/structureddocumenttagcollection/getbyid/
@@ -18,11 +20,11 @@ public IStructuredDocumentTag GetById(int id)
 | --- | --- | --- |
 | id | Int32 | Yapılandırılmış belge etiketi tanımlayıcısı. |
 
-### Notlar
+## Notlar
 
 Belirtilen tanımlayıcıya sahip yapılandırılmış belge etiketi bulunamazsa null değerini döndürür.
 
-### Örnekler
+## Örnekler
 
 Yapılandırılmış belge etiketinin nasıl alınacağını gösterir.
 
@@ -43,7 +45,5 @@ Console.WriteLine(sdt.Id);
 
 * interface [IStructuredDocumentTag](../../istructureddocumenttag/)
 * class [StructuredDocumentTagCollection](../)
-* ad alanı [Aspose.Words.Markup](../../structureddocumenttagcollection/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

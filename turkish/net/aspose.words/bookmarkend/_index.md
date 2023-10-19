@@ -1,7 +1,9 @@
 ---
-title: Class BookmarkEnd
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.BookmarkEnd sınıf. Bir Word belgesindeki yer işaretinin sonunu temsil eder.
+title: BookmarkEnd Class
+linktitle: BookmarkEnd
+articleTitle: BookmarkEnd
+second_title: Aspose.Words for .NET
+description: Aspose.Words.BookmarkEnd sınıf. Bir Word belgesindeki yer işaretinin sonunu temsil eder C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words/bookmarkend/
@@ -20,7 +22,7 @@ public class BookmarkEnd : Node
 
 | İsim | Tanım |
 | --- | --- |
-| [BookmarkEnd](bookmarkend/)(DocumentBase, string) | Yeni bir örneğini başlatır`BookmarkEnd` class. |
+| [BookmarkEnd](bookmarkend/)(*[DocumentBase](../documentbase/), string*) | Yeni bir örneğini başlatır`BookmarkEnd` class. |
 
 ## Özellikleri
 
@@ -40,18 +42,18 @@ public class BookmarkEnd : Node
 
 | İsim | Tanım |
 | --- | --- |
-| override [Accept](../../aspose.words/bookmarkend/accept/)(DocumentVisitor) | Ziyaretçi kabul eder. |
-| [Clone](../../aspose.words/node/clone/)(bool) | Düğümün bir kopyasını oluşturur. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Belirtilenin ilk atayı alır[`NodeType`](../nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Belirtilen nesne türünün ilk atayı alır. |
+| override [Accept](../../aspose.words/bookmarkend/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Ziyaretçi kabul eder. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Düğümün bir kopyasını oluşturur. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | Belirtilenin ilk atayı alır[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Belirtilen nesne türünün ilk atayı alır. |
 | virtual [GetText](../../aspose.words/node/gettext/)() | Bu düğümün ve tüm alt öğelerinin metnini alır. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Ön sipariş ağaç geçiş algoritmasına göre sonraki düğümü alır. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Ön sipariş ağaç geçiş algoritmasına göre önceki düğümü alır. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Ön sipariş ağaç geçiş algoritmasına göre sonraki düğümü alır. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Ön sipariş ağaç geçiş algoritmasına göre önceki düğümü alır. |
 | [Remove](../../aspose.words/node/remove/)() | Kendini üst öğeden kaldırır. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Düğümün içeriğini belirtilen formatta bir dizeye aktarır. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Belirtilen kaydetme seçeneklerini kullanarak düğümün içeriğini bir dizeye aktarır. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Düğümün içeriğini belirtilen formatta bir dizeye aktarır. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Belirtilen kaydetme seçeneklerini kullanarak düğümün içeriğini bir dizeye aktarır. |
 
-### Notlar
+## Notlar
 
 Bir Word belgesindeki tam bir yer imi şunlardan oluşur:[`BookmarkStart`](../bookmarkstart/) ve eşleşen bir`BookmarkEnd` aynı yer imi adıyla.
 
@@ -59,7 +61,7 @@ Bir Word belgesindeki tam bir yer imi şunlardan oluşur:[`BookmarkStart`](../bo
 
 Kullan[`Bookmark`](../bookmark/) Bookmark ile tek bir nesne olarak çalışmak için sınıfı bir "cephe" olarak kullanın.
 
-### Örnekler
+## Örnekler
 
 Yer işaretlerinin nasıl ekleneceğini ve içeriklerinin nasıl güncelleneceğini gösterir.
 
@@ -150,5 +152,3 @@ public class BookmarkInfoPrinter : DocumentVisitor
 * class [Node](../node/)
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

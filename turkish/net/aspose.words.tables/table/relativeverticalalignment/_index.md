@@ -1,7 +1,9 @@
 ---
 title: Table.RelativeVerticalAlignment
-second_title: Aspose.Words for .NET API Referansı
-description: Table mülk. Kayan tablonun göreli dikey hizalamasını alır veya ayarlar.
+linktitle: RelativeVerticalAlignment
+articleTitle: RelativeVerticalAlignment
+second_title: Aspose.Words for .NET
+description: Table RelativeVerticalAlignment mülk. Kayan tablonun göreli dikey hizalamasını alır veya ayarlar C#'da.
 type: docs
 weight: 240
 url: /tr/net/aspose.words.tables/table/relativeverticalalignment/
@@ -14,7 +16,7 @@ Kayan tablonun göreli dikey hizalamasını alır veya ayarlar.
 public VerticalAlignment RelativeVerticalAlignment { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Kayan tabloların konumunun nasıl ayarlandığını gösterir.
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "Table.ChangeFloatingTableProperties.docx");
 
 * enum [VerticalAlignment](../../../aspose.words.drawing/verticalalignment/)
 * class [Table](../)
-* ad alanı [Aspose.Words.Tables](../../table/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: CompositeNode.RemoveSmartTags
-second_title: Aspose.Words for .NET API Referansı
-description: CompositeNode yöntem. Tümünü kaldırırSmartTagGeçerli düğümün alt düğümleri.
+linktitle: RemoveSmartTags
+articleTitle: RemoveSmartTags
+second_title: Aspose.Words for .NET
+description: CompositeNode RemoveSmartTags yöntem. Tümünü kaldırırSmartTagGeçerli düğümün alt düğümleri C#'da.
 type: docs
-weight: 200
+weight: 180
 url: /tr/net/aspose.words/compositenode/removesmarttags/
 ---
 ## CompositeNode.RemoveSmartTags method
@@ -14,11 +16,11 @@ Tümünü kaldırır[`SmartTag`](../../../aspose.words.markup/smarttag/)Geçerli
 public void RemoveSmartTags()
 ```
 
-### Notlar
+## Notlar
 
 Bu yöntem akıllı etiketlerin içeriğini kaldırmaz.
 
-### Örnekler
+## Örnekler
 
 Bileşik bir düğümün alt düğümlerindeki tüm akıllı etiketleri kaldırır.
 
@@ -131,7 +133,5 @@ private class SmartTagPrinter : DocumentVisitor
 ### Ayrıca bakınız
 
 * class [CompositeNode](../)
-* ad alanı [Aspose.Words](../../compositenode/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

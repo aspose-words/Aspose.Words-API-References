@@ -1,7 +1,9 @@
 ---
 title: HeaderFooter.HeaderFooterType
-second_title: Aspose.Words for .NET API Referansı
-description: HeaderFooter mülk. Bu üstbilgi/altbilginin türünü alır.
+linktitle: HeaderFooterType
+articleTitle: HeaderFooterType
+second_title: Aspose.Words for .NET
+description: HeaderFooter HeaderFooterType mülk. Bu üstbilgi/altbilginin türünü alır C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/headerfooter/headerfootertype/
@@ -14,7 +16,7 @@ Bu üstbilgi/altbilginin türünü alır.
 public HeaderFooterType HeaderFooterType { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Üstbilgi ve altbilginin nasıl oluşturulacağını gösterir.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Create.docx");
 
 * enum [HeaderFooterType](../../headerfootertype/)
 * class [HeaderFooter](../)
-* ad alanı [Aspose.Words](../../headerfooter/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

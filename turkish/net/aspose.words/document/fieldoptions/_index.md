@@ -1,7 +1,9 @@
 ---
 title: Document.FieldOptions
-second_title: Aspose.Words for .NET API Referansı
-description: Document mülk. Bir alırFieldOptions belgedeki alan işlemeyi kontrol etme seçeneklerini temsil eden nesne.
+linktitle: FieldOptions
+articleTitle: FieldOptions
+second_title: Aspose.Words for .NET
+description: Document FieldOptions mülk. Bir alırFieldOptions belgedeki alan işlemeyi kontrol etme seçeneklerini temsil eden nesne C#'da.
 type: docs
 weight: 120
 url: /tr/net/aspose.words/document/fieldoptions/
@@ -14,7 +16,7 @@ Bir alır[`FieldOptions`](../../../aspose.words.fields/fieldoptions/) belgedeki 
 public FieldOptions FieldOptions { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Alan güncelleştirmesi veya adres-mektup birleştirme sırasında tarih biçimlendirmesi için kullanılan kültürün kaynağının nasıl belirtileceğini gösterir.
 
@@ -50,7 +52,5 @@ Thread.CurrentThread.CurrentCulture = currentCulture;
 
 * class [FieldOptions](../../../aspose.words.fields/fieldoptions/)
 * class [Document](../)
-* ad alanı [Aspose.Words](../../document/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

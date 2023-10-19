@@ -1,7 +1,9 @@
 ---
-title: RtfLoadOptions.RtfLoadOptions
-second_title: Aspose.Words for .NET API Referansı
-description: RtfLoadOptions inşaatçı. Bu sınıfın yeni bir örneğini varsayılan değerlerle başlatır.
+title: RtfLoadOptions
+linktitle: RtfLoadOptions
+articleTitle: RtfLoadOptions
+second_title: Aspose.Words for .NET
+description: RtfLoadOptions inşaatçı. Bu sınıfın yeni bir örneğini varsayılan değerlerle başlatır C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.loading/rtfloadoptions/rtfloadoptions/
@@ -14,7 +16,7 @@ Bu sınıfın yeni bir örneğini varsayılan değerlerle başlatır.
 public RtfLoadOptions()
 ```
 
-### Örnekler
+## Örnekler
 
 Bir RTF belgesi yüklenirken UTF-8 karakterlerinin nasıl algılanacağını gösterir.
 
@@ -41,7 +43,5 @@ Assert.AreEqual(
 ### Ayrıca bakınız
 
 * class [RtfLoadOptions](../)
-* ad alanı [Aspose.Words.Loading](../../rtfloadoptions/)
+* ad alanı [Aspose.Words.Loading](../../../aspose.words.loading/)
 * toplantı [Aspose.Words](../../../)
-
-

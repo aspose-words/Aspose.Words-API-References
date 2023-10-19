@@ -1,7 +1,9 @@
 ---
-title: Class BubbleSizeCollection
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.Charts.BubbleSizeCollection sınıf. Bir grafik serisi için kabarcık boyutları koleksiyonunu temsil eder.
+title: BubbleSizeCollection Class
+linktitle: BubbleSizeCollection
+articleTitle: BubbleSizeCollection
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.Charts.BubbleSizeCollection sınıf. Bir grafik serisi için kabarcık boyutları koleksiyonunu temsil eder C#'da.
 type: docs
 weight: 610
 url: /tr/net/aspose.words.drawing.charts/bubblesizecollection/
@@ -27,7 +29,7 @@ public class BubbleSizeCollection : IEnumerable<double>
 | --- | --- |
 | [GetEnumerator](../../aspose.words.drawing.charts/bubblesizecollection/getenumerator/)() | Bir numaralandırıcı nesnesini döndürür. |
 
-### Notlar
+## Notlar
 
 Koleksiyon yalnızca kabarcık boyutlarının değiştirilmesine izin verir. Bir grafik serisine yeni değerler eklemek veya eklemek için ya da kaldırma değerleri için uygun yöntemler[`ChartSeries`](../chartseries/) sınıf kullanılabilir.
 
@@ -44,5 +46,3 @@ Boş kabarcık boyutu değerleri şu şekilde temsil edilir:NaN.
 * method [Remove](../chartseries/remove/)
 * ad alanı [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../)
-
-

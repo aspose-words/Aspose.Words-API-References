@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.MoveToHeaderFooter
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentBuilder yöntem. İmleci geçerli bölümdeki üstbilgi veya altbilginin başlangıcına taşır.
+linktitle: MoveToHeaderFooter
+articleTitle: MoveToHeaderFooter
+second_title: Aspose.Words for .NET
+description: DocumentBuilder MoveToHeaderFooter yöntem. İmleci geçerli bölümdeki üstbilgi veya altbilginin başlangıcına taşır C#'da.
 type: docs
-weight: 550
+weight: 540
 url: /tr/net/aspose.words/documentbuilder/movetoheaderfooter/
 ---
 ## DocumentBuilder.MoveToHeaderFooter method
@@ -18,7 +20,7 @@ public void MoveToHeaderFooter(HeaderFooterType headerFooterType)
 | --- | --- | --- |
 | headerFooterType | HeaderFooterType | Taşınacak üstbilgi veya altbilgiyi belirtir. |
 
-### Notlar
+## Notlar
 
 İmleci bir üstbilgi veya altbilgiye taşıdıktan sonra geri kalanını kullanabilirsiniz.[`DocumentBuilder`](../) Üstbilgi veya altbilginin içeriğini değiştirmek için yöntemleri.
 
@@ -28,7 +30,7 @@ public void MoveToHeaderFooter(HeaderFooterType headerFooterType)
 
 Kullanmak[`MoveToSection`](../movetosection/) başlıktan ana metne geçmek için.
 
-### Örnekler
+## Örnekler
 
 Bir görüntünün nasıl ekleneceğini ve filigran olarak nasıl kullanılacağını gösterir.
 
@@ -110,7 +112,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.HeadersAndFooters.docx");
 
 * enum [HeaderFooterType](../../headerfootertype/)
 * class [DocumentBuilder](../)
-* ad alanı [Aspose.Words](../../documentbuilder/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

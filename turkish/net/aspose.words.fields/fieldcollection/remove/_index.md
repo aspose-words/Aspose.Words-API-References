@@ -1,7 +1,9 @@
 ---
 title: FieldCollection.Remove
-second_title: Aspose.Words for .NET API Referansı
-description: FieldCollection yöntem. Belirtilen alanı bu koleksiyondan ve belgeden kaldırır.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words for .NET
+description: FieldCollection Remove yöntem. Belirtilen alanı bu koleksiyondan ve belgeden kaldırır C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.fields/fieldcollection/remove/
@@ -18,7 +20,7 @@ public void Remove(Field field)
 | --- | --- | --- |
 | field | Field | Kaldırılacak bir alan. |
 
-### Örnekler
+## Örnekler
 
 Alan koleksiyonundan alanların nasıl kaldırılacağını gösterir.
 
@@ -61,7 +63,5 @@ Assert.AreEqual(0, fields.Count);
 
 * class [Field](../../field/)
 * class [FieldCollection](../)
-* ad alanı [Aspose.Words.Fields](../../fieldcollection/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

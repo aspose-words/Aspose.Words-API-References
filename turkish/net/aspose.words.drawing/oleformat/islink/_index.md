@@ -1,7 +1,9 @@
 ---
 title: OleFormat.IsLink
-second_title: Aspose.Words for .NET API Referansı
-description: OleFormat mülk. İadelerdoğru OLE nesnesi bağlıysa ne zamanSourceFullName belirtildi.
+linktitle: IsLink
+articleTitle: IsLink
+second_title: Aspose.Words for .NET
+description: OleFormat IsLink mülk. İadelerdoğru OLE nesnesi bağlıysa ne zamanSourceFullName belirtildi C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.drawing/oleformat/islink/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.drawing/oleformat/islink/
 public bool IsLink { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bağlı ve bağlantısız OLE nesnelerinin nasıl ekleneceğini gösterir.
 
@@ -64,7 +66,5 @@ using (MemoryStream stream = oleFormat.GetOleEntry("\x0001CompObj"))
 ### Ayrıca bakınız
 
 * class [OleFormat](../)
-* ad alanı [Aspose.Words.Drawing](../../oleformat/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Table.DistanceRight
-second_title: Aspose.Words for .NET API Referansı
-description: Table mülk. Tablonun sağı ile onu çevreleyen metin arasındaki mesafeyi nokta cinsinden alır veya ayarlar.
+linktitle: DistanceRight
+articleTitle: DistanceRight
+second_title: Aspose.Words for .NET
+description: Table DistanceRight mülk. Tablonun sağı ile onu çevreleyen metin arasındaki mesafeyi nokta cinsinden alır veya ayarlar C#'da.
 type: docs
 weight: 140
 url: /tr/net/aspose.words.tables/table/distanceright/
@@ -14,7 +16,7 @@ Tablonun sağı ile onu çevreleyen metin arasındaki mesafeyi nokta cinsinden a
 public double DistanceRight { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Tablo sınırları ile metin arasındaki mesafenin nasıl ayarlanacağını gösterir.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Table.DistanceBetweenTableAndText.docx");
 ### Ayrıca bakınız
 
 * class [Table](../)
-* ad alanı [Aspose.Words.Tables](../../table/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

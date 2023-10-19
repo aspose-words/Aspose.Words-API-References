@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.ShowBubbleSize
-second_title: Aspose.Words for .NET API Referansı
-description: ChartDataLabel mülk. Bir grafikteki veri etiketleri için kabarcık boyutunun görüntülenip görüntülenmeyeceğini belirtmeye olanak tanır. Yalnızca Kabarcık grafikleri için geçerlidir. Varsayılan değerYANLIŞ .
+linktitle: ShowBubbleSize
+articleTitle: ShowBubbleSize
+second_title: Aspose.Words for .NET
+description: ChartDataLabel ShowBubbleSize mülk. Bir grafikteki veri etiketleri için kabarcık boyutunun görüntülenip görüntülenmeyeceğini belirtmeye olanak tanır. Yalnızca Kabarcık grafikleri için geçerlidir. Varsayılan değerYANLIŞ  C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words.drawing.charts/chartdatalabel/showbubblesize/
@@ -14,7 +16,7 @@ Bir grafikteki veri etiketleri için kabarcık boyutunun görüntülenip görün
 public bool ShowBubbleSize { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Kabarcık grafikleriyle 3B efektlerin nasıl kullanılacağını gösterir.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Charts.Bubble3D.docx");
 ### Ayrıca bakınız
 
 * class [ChartDataLabel](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

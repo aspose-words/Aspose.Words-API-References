@@ -1,20 +1,22 @@
 ---
 title: TxtSaveOptionsBase.Encoding
-second_title: Aspose.Words for .NET API Referansı
-description: TxtSaveOptionsBase mülk. Metin formatlarında dışa aktarırken kullanılacak kodlamayı belirtir. Varsayılan değer Kodlama.UTF8 .
+linktitle: Encoding
+articleTitle: Encoding
+second_title: Aspose.Words for .NET
+description: TxtSaveOptionsBase Encoding mülk. Metin formatlarında dışa aktarırken kullanılacak kodlamayı belirtir. Varsayılan değerKodlama.UTF8  C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.saving/txtsaveoptionsbase/encoding/
 ---
 ## TxtSaveOptionsBase.Encoding property
 
-Metin formatlarında dışa aktarırken kullanılacak kodlamayı belirtir. Varsayılan değer: **Kodlama.UTF8** .
+Metin formatlarında dışa aktarırken kullanılacak kodlamayı belirtir. Varsayılan değer:**Kodlama.UTF8** .
 
 ```csharp
 public Encoding Encoding { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir .txt çıktı belgesi için kodlamanın nasıl ayarlanacağını gösterir.
 
@@ -49,7 +51,5 @@ Assert.AreEqual("? ? ? ? ?.\r\n", docText);
 ### Ayrıca bakınız
 
 * class [TxtSaveOptionsBase](../)
-* ad alanı [Aspose.Words.Saving](../../txtsaveoptionsbase/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

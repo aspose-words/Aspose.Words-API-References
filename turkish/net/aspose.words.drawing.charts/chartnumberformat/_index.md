@@ -1,7 +1,9 @@
 ---
-title: Class ChartNumberFormat
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.Charts.ChartNumberFormat sınıf. Ana öğenin sayı biçimlendirmesini temsil eder.
+title: ChartNumberFormat Class
+linktitle: ChartNumberFormat
+articleTitle: ChartNumberFormat
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.Charts.ChartNumberFormat sınıf. Ana öğenin sayı biçimlendirmesini temsil eder C#'da.
 type: docs
 weight: 770
 url: /tr/net/aspose.words.drawing.charts/chartnumberformat/
@@ -23,7 +25,7 @@ public class ChartNumberFormat
 | [FormatCode](../../aspose.words.drawing.charts/chartnumberformat/formatcode/) { get; set; } | Bir veri etiketine uygulanan biçim kodunu alır veya ayarlar. |
 | [IsLinkedToSource](../../aspose.words.drawing.charts/chartnumberformat/islinkedtosource/) { get; set; } | Biçim kodunun bir kaynak hücreye bağlı olup olmadığını belirtir. Varsayılan doğrudur. |
 
-### Örnekler
+## Örnekler
 
 Grafik değerleri için biçimlendirmenin nasıl ayarlanacağını gösterir.
 
@@ -56,5 +58,3 @@ doc.Save(ArtifactsDir + "Charts.SetNumberFormatToChartAxis.docx");
 
 * ad alanı [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum DashStyle
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.DashStyle Sıralama. Kesikli çizgi stili.
+title: DashStyle Enum
+linktitle: DashStyle
+articleTitle: DashStyle
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.DashStyle Sıralama. Kesikli çizgi stili C#'da.
 type: docs
 weight: 930
 url: /tr/net/aspose.words.drawing/dashstyle/
@@ -31,7 +33,7 @@ public enum DashStyle
 | LongDashDotDot | `10` | Uzun çizgi kısa çizgi kısa çizgi. |
 | Default | `0` | Şununla aynıSolid . |
 
-### Örnekler
+## Örnekler
 
 Çeşitli şekiller oluşturmayı gösterir.
 
@@ -108,5 +110,3 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 * property [DashStyle](../stroke/dashstyle/)
 * ad alanı [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../)
-
-

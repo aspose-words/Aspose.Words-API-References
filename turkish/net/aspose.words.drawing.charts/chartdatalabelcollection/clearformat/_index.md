@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.ClearFormat
-second_title: Aspose.Words for .NET API Referansı
-description: ChartDataLabelCollection yöntem. Tümünün biçimini temizlerChartDataLabel bu koleksiyonda.
+linktitle: ClearFormat
+articleTitle: ClearFormat
+second_title: Aspose.Words for .NET
+description: ChartDataLabelCollection ClearFormat yöntem. Tümünün biçimini temizlerChartDataLabel bu koleksiyonda C#'da.
 type: docs
 weight: 150
 url: /tr/net/aspose.words.drawing.charts/chartdatalabelcollection/clearformat/
@@ -14,7 +16,7 @@ Tümünün biçimini temizler[`ChartDataLabel`](../../chartdatalabel/) bu koleks
 public void ClearFormat()
 ```
 
-### Örnekler
+## Örnekler
 
 Çizgi grafikteki veri noktalarına etiketlerin nasıl uygulanacağını gösterir.
 
@@ -92,7 +94,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 ### Ayrıca bakınız
 
 * class [ChartDataLabelCollection](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

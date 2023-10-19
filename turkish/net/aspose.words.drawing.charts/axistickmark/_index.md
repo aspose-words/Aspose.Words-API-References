@@ -1,7 +1,9 @@
 ---
-title: Enum AxisTickMark
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.Charts.AxisTickMark Sıralama. Onay işaretlerinin olası konumlarını belirtir.
+title: AxisTickMark Enum
+linktitle: AxisTickMark
+articleTitle: AxisTickMark
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.Charts.AxisTickMark Sıralama. Onay işaretlerinin olası konumlarını belirtir C#'da.
 type: docs
 weight: 590
 url: /tr/net/aspose.words.drawing.charts/axistickmark/
@@ -23,7 +25,7 @@ public enum AxisTickMark
 | Outside | `2` | Onay işaretlerinin çizim alanının dışında olacağını belirtir. |
 | None | `3` | Hiçbir onay işaretinin olmayacağını belirtir. |
 
-### Örnekler
+## Örnekler
 
 Tarih/saat değerleriyle grafiğin nasıl ekleneceğini gösterir.
 
@@ -78,5 +80,3 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 
 * ad alanı [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../)
-
-

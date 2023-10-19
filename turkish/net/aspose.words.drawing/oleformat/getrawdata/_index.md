@@ -1,7 +1,9 @@
 ---
 title: OleFormat.GetRawData
-second_title: Aspose.Words for .NET API Referansı
-description: OleFormat yöntem. OLE nesnesinin ham verilerini alır.
+linktitle: GetRawData
+articleTitle: GetRawData
+second_title: Aspose.Words for .NET
+description: OleFormat GetRawData yöntem. OLE nesnesinin ham verilerini alır C#'da.
 type: docs
 weight: 150
 url: /tr/net/aspose.words.drawing/oleformat/getrawdata/
@@ -14,7 +16,7 @@ OLE nesnesinin ham verilerini alır.
 public byte[] GetRawData()
 ```
 
-### Örnekler
+## Örnekler
 
 Katıştırılmış bir OLE nesnesinin ham verilerine nasıl erişileceğini gösterir.
 
@@ -37,7 +39,5 @@ foreach (Shape shape in doc.GetChildNodes(NodeType.Shape, true))
 ### Ayrıca bakınız
 
 * class [OleFormat](../)
-* ad alanı [Aspose.Words.Drawing](../../oleformat/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

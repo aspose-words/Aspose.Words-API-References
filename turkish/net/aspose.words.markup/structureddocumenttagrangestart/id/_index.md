@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.Id
-second_title: Aspose.Words for .NET API Referansı
-description: StructuredDocumentTagRangeStart mülk. Bu yapılandırılmış belge etiketi için benzersiz salt okunur kalıcı bir sayısal kimlik belirtir.
+linktitle: Id
+articleTitle: Id
+second_title: Aspose.Words for .NET
+description: StructuredDocumentTagRangeStart Id mülk. Bu yapılandırılmış belge etiketi için benzersiz salt okunur kalıcı bir sayısal kimlik belirtir C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.markup/structureddocumenttagrangestart/id/
@@ -14,7 +16,7 @@ Bu yapılandırılmış belge etiketi için benzersiz, salt okunur, kalıcı bir
 public int Id { get; }
 ```
 
-### Notlar
+## Notlar
 
 Kimlik özelliği şu kurallara uymalıdır:
 
@@ -24,7 +26,7 @@ Kimlik özelliği şu kurallara uymalıdır:
 * Bağımsız yapılandırılmış belge etiketi sırasındaINodeCloningListener)klonlanmış yapılandırılmış belge etiketi düğümü için yeni benzersiz kimlik işlemi be oluşturulacaktır.
 * Kaynak belgede kimlik belirtilmemişse, yapılandırılmış belge etiket düğümüne, belge yüklendiğinde kendisine atanan yeni bir benzersiz tanımlayıcıya sahip olacaktır.
 
-### Örnekler
+## Örnekler
 
 Çok bölümlü yapılandırılmış belge etiketlerinin özelliklerinin nasıl alınacağını gösterir.
 
@@ -59,7 +61,5 @@ Console.WriteLine($"\t|NodeType: {rangeEndTag.NodeType}");
 ### Ayrıca bakınız
 
 * class [StructuredDocumentTagRangeStart](../)
-* ad alanı [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

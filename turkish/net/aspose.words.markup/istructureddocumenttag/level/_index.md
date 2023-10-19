@@ -1,14 +1,16 @@
 ---
 title: IStructuredDocumentTag.Level
-second_title: Aspose.Words for .NET API Referansı
-description: IStructuredDocumentTag mülk. Bunun hangi düzeyde olduğunu alır SDT belge ağacında oluşur.
+linktitle: Level
+articleTitle: Level
+second_title: Aspose.Words for .NET
+description: IStructuredDocumentTag Level mülk. Bunun hangi düzeyde olduğunu alırSDT belge ağacında oluşur C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.markup/istructureddocumenttag/level/
 ---
 ## IStructuredDocumentTag.Level property
 
-Bunun hangi düzeyde olduğunu alır **SDT** belge ağacında oluşur.
+Bunun hangi düzeyde olduğunu alır**SDT** belge ağacında oluşur.
 
 ```csharp
 public MarkupLevel Level { get; }
@@ -18,7 +20,5 @@ public MarkupLevel Level { get; }
 
 * enum [MarkupLevel](../../markuplevel/)
 * interface [IStructuredDocumentTag](../)
-* ad alanı [Aspose.Words.Markup](../../istructureddocumenttag/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

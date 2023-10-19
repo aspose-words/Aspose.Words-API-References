@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.ComparisonExpressionEvaluator
-second_title: Aspose.Words for .NET API Referansı
-description: FieldOptions mülk. Alan karşılaştırma ifadeleri değerlendiricisini alır veya ayarlar.
+linktitle: ComparisonExpressionEvaluator
+articleTitle: ComparisonExpressionEvaluator
+second_title: Aspose.Words for .NET
+description: FieldOptions ComparisonExpressionEvaluator mülk. Alan karşılaştırma ifadeleri değerlendiricisini alır veya ayarlar C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.fields/fieldoptions/comparisonexpressionevaluator/
@@ -14,7 +16,7 @@ Alan karşılaştırma ifadeleri değerlendiricisini alır veya ayarlar.
 public IComparisonExpressionEvaluator ComparisonExpressionEvaluator { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 IF ve COMPARE alanları için özel değerlendirmenin nasıl uygulanacağını gösterir.
 
@@ -99,7 +101,5 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 
 * interface [IComparisonExpressionEvaluator](../../icomparisonexpressionevaluator/)
 * class [FieldOptions](../)
-* ad alanı [Aspose.Words.Fields](../../fieldoptions/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

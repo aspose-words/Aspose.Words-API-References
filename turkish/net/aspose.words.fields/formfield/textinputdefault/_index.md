@@ -1,7 +1,9 @@
 ---
 title: FormField.TextInputDefault
-second_title: Aspose.Words for .NET API Referansı
-description: FormField mülk. Bir metin formu alanının varsayılan dizesini veya hesaplama ifadesini alır veya ayarlar.
+linktitle: TextInputDefault
+articleTitle: TextInputDefault
+second_title: Aspose.Words for .NET
+description: FormField TextInputDefault mülk. Bir metin formu alanının varsayılan dizesini veya hesaplama ifadesini alır veya ayarlar C#'da.
 type: docs
 weight: 190
 url: /tr/net/aspose.words.fields/formfield/textinputdefault/
@@ -14,7 +16,7 @@ Bir metin formu alanının varsayılan dizesini veya hesaplama ifadesini alır v
 public string TextInputDefault { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özelliğin anlamı, değerine bağlıdır.[`TextInputType`](../textinputtype/) mülk.
 
@@ -24,7 +26,7 @@ Ne zaman[`TextInputType`](../textinputtype/) dır-dirCalculated, bu dize hesapla
 
 Microsoft Word, en fazla 255 karakterden oluşan dizelere izin verir.
 
-### Örnekler
+## Örnekler
 
 Bir belgeye farklı türde form alanlarının nasıl eklendiğini ve bunların bir belge ziyaretçi uygulaması kullanılarak nasıl işlendiğini gösterir.
 
@@ -158,7 +160,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Ayrıca bakınız
 
 * class [FormField](../)
-* ad alanı [Aspose.Words.Fields](../../formfield/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

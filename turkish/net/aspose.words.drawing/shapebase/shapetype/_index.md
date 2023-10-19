@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.ShapeType
-second_title: Aspose.Words for .NET API Referansı
-description: ShapeBase mülk. Şekil türünü alır.
+linktitle: ShapeType
+articleTitle: ShapeType
+second_title: Aspose.Words for .NET
+description: ShapeBase ShapeType mülk. Şekil türünü alır C#'da.
 type: docs
 weight: 500
 url: /tr/net/aspose.words.drawing/shapebase/shapetype/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.drawing/shapebase/shapetype/
 public ShapeType ShapeType { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir şekil grubunun nasıl oluşturulacağını ve bir belge ziyaretçisi kullanılarak içeriğinin nasıl yazdırılacağını gösterir.
 
@@ -106,7 +108,5 @@ public class ShapeGroupPrinter : DocumentVisitor
 
 * enum [ShapeType](../../shapetype/)
 * class [ShapeBase](../)
-* ad alanı [Aspose.Words.Drawing](../../shapebase/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: RevisionGroup.RevisionType
-second_title: Aspose.Words for .NET API Referansı
-description: RevisionGroup mülk. Bu gruba dahil olan revizyonların türünü alır.
+linktitle: RevisionType
+articleTitle: RevisionType
+second_title: Aspose.Words for .NET
+description: RevisionGroup RevisionType mülk. Bu gruba dahil olan revizyonların türünü alır C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/revisiongroup/revisiontype/
@@ -14,7 +16,7 @@ Bu gruba dahil olan revizyonların türünü alır.
 public RevisionType RevisionType { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki revizyon grubu hakkındaki bilgilerin nasıl yazdırılacağını gösterir.
 
@@ -34,7 +36,5 @@ foreach (RevisionGroup group in doc.Revisions.Groups)
 
 * enum [RevisionType](../../revisiontype/)
 * class [RevisionGroup](../)
-* ad alanı [Aspose.Words](../../revisiongroup/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

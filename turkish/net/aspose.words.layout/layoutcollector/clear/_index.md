@@ -1,7 +1,9 @@
 ---
 title: LayoutCollector.Clear
-second_title: Aspose.Words for .NET API Referansı
-description: LayoutCollector yöntem. Toplanan tüm düzen verilerini temizler. Belge manuel olarak güncellendikten veya düzen yeniden oluşturulduktan sonra bu yöntemi çağırın.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words for .NET
+description: LayoutCollector Clear yöntem. Toplanan tüm düzen verilerini temizler. Belge manuel olarak güncellendikten veya düzen yeniden oluşturulduktan sonra bu yöntemi çağırın C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.layout/layoutcollector/clear/
@@ -14,7 +16,7 @@ Toplanan tüm düzen verilerini temizler. Belge manuel olarak güncellendikten v
 public void Clear()
 ```
 
-### Örnekler
+## Örnekler
 
 Bir düğümün kapsadığı sayfa aralıklarının nasıl görüleceğini gösterir.
 
@@ -72,7 +74,5 @@ Assert.AreEqual("¶", layoutEnumerator.Text);
 ### Ayrıca bakınız
 
 * class [LayoutCollector](../)
-* ad alanı [Aspose.Words.Layout](../../layoutcollector/)
+* ad alanı [Aspose.Words.Layout](../../../aspose.words.layout/)
 * toplantı [Aspose.Words](../../../)
-
-

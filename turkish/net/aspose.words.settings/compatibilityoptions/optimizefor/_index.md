@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.OptimizeFor
-second_title: Aspose.Words for .NET API Referansı
-description: CompatibilityOptions yöntem. Belge içeriklerinin yanı sıra varsayılan Aspose.Words davranışının MS Wordün belirli bir sürümüne göre optimize edilmesine olanak tanır.
+linktitle: OptimizeFor
+articleTitle: OptimizeFor
+second_title: Aspose.Words for .NET
+description: CompatibilityOptions OptimizeFor yöntem. Belge içeriklerinin yanı sıra varsayılan Aspose.Words davranışının MS Wordün belirli bir sürümüne göre optimize edilmesine olanak tanır C#'da.
 type: docs
 weight: 720
 url: /tr/net/aspose.words.settings/compatibilityoptions/optimizefor/
@@ -16,7 +18,7 @@ Belge yüklenirken MS Word'ün "Uyumluluk modu" şeridini görüntülemesini ön
 public void OptimizeFor(MsWordVersion version)
 ```
 
-### Örnekler
+## Örnekler
 
 Bir metin kutusunun metin içeriğinin dikey olarak nasıl hizalanacağını gösterir.
 
@@ -130,7 +132,5 @@ private static void PrintCompatibilityOptions(CompatibilityOptions options)
 
 * enum [MsWordVersion](../../mswordversion/)
 * class [CompatibilityOptions](../)
-* ad alanı [Aspose.Words.Settings](../../compatibilityoptions/)
+* ad alanı [Aspose.Words.Settings](../../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../../)
-
-

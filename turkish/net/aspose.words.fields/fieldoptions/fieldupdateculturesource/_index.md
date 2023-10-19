@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.FieldUpdateCultureSource
-second_title: Aspose.Words for .NET API Referansı
-description: FieldOptions mülk. Alan sonucunu biçimlendirmek için hangi kültürün kullanılacağını belirtir.
+linktitle: FieldUpdateCultureSource
+articleTitle: FieldUpdateCultureSource
+second_title: Aspose.Words for .NET
+description: FieldOptions FieldUpdateCultureSource mülk. Alan sonucunu biçimlendirmek için hangi kültürün kullanılacağını belirtir C#'da.
 type: docs
 weight: 110
 url: /tr/net/aspose.words.fields/fieldoptions/fieldupdateculturesource/
@@ -14,13 +16,13 @@ Alan sonucunu biçimlendirmek için hangi kültürün kullanılacağını belirt
 public FieldUpdateCultureSource FieldUpdateCultureSource { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan olarak geçerli iş parçacığının kültürü kullanılır.
 
 Ayar yalnızca \\@ format anahtarına sahip tarih/saat alanlarını etkiler.
 
-### Örnekler
+## Örnekler
 
 Alan güncelleştirmesi veya adres-mektup birleştirme sırasında tarih biçimlendirmesi için kullanılan kültürün kaynağının nasıl belirtileceğini gösterir.
 
@@ -56,7 +58,5 @@ Thread.CurrentThread.CurrentCulture = currentCulture;
 
 * enum [FieldUpdateCultureSource](../../fieldupdateculturesource/)
 * class [FieldOptions](../)
-* ad alanı [Aspose.Words.Fields](../../fieldoptions/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitStructuredDocumentTagRangeEnd
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentVisitor yöntem. StructuredDocumentTagRangeEnd ile karşılaşıldığında çağrılır.
+linktitle: VisitStructuredDocumentTagRangeEnd
+articleTitle: VisitStructuredDocumentTagRangeEnd
+second_title: Aspose.Words for .NET
+description: DocumentVisitor VisitStructuredDocumentTagRangeEnd yöntem. StructuredDocumentTagRangeEnd ile karşılaşıldığında çağrılır C#'da.
 type: docs
 weight: 450
 url: /tr/net/aspose.words/documentvisitor/visitstructureddocumenttagrangeend/
@@ -20,7 +22,5 @@ public virtual VisitorAction VisitStructuredDocumentTagRangeEnd(
 * enum [VisitorAction](../../visitoraction/)
 * class [StructuredDocumentTagRangeEnd](../../../aspose.words.markup/structureddocumenttagrangeend/)
 * class [DocumentVisitor](../)
-* ad alanı [Aspose.Words](../../documentvisitor/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

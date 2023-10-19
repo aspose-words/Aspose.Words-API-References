@@ -1,7 +1,9 @@
 ---
 title: CustomPart.RelationshipType
-second_title: Aspose.Words for .NET API Referansı
-description: CustomPart mülk. Üst parçadan bu özel parçaya ilişkin ilişki türünü alır veya ayarlar.
+linktitle: RelationshipType
+articleTitle: RelationshipType
+second_title: Aspose.Words for .NET
+description: CustomPart RelationshipType mülk. Üst parçadan bu özel parçaya ilişkin ilişki türünü alır veya ayarlar C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.markup/custompart/relationshiptype/
@@ -14,13 +16,13 @@ url: /tr/net/aspose.words.markup/custompart/relationshiptype/
 public string RelationshipType { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Özel bir parçanın ilişki türü "bilinmeyen" olmalıdır; örneğin özel bir ilişki türü, , ISO/IEC 29500'de tanımlanan ilişki türlerinden biri değil.
 
 Varsayılan değer boş bir dizedir. Geçerli bir değer boş olmayan bir dize olmalıdır.
 
-### Örnekler
+## Örnekler
 
 Bir belgenin rastgele özel parça koleksiyonuna nasıl erişileceğini gösterir.
 
@@ -64,7 +66,5 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 ### Ayrıca bakınız
 
 * class [CustomPart](../)
-* ad alanı [Aspose.Words.Markup](../../custompart/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

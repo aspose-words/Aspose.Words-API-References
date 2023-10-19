@@ -1,9 +1,11 @@
 ---
 title: CellFormat.Orientation
-second_title: Aspose.Words for .NET API Referansı
-description: CellFormat mülk. Bir tablo hücresindeki metnin yönünü döndürür veya ayarlar.
+linktitle: Orientation
+articleTitle: Orientation
+second_title: Aspose.Words for .NET
+description: CellFormat Orientation mülk. Bir tablo hücresindeki metnin yönünü döndürür veya ayarlar C#'da.
 type: docs
-weight: 70
+weight: 60
 url: /tr/net/aspose.words.tables/cellformat/orientation/
 ---
 ## CellFormat.Orientation property
@@ -14,7 +16,7 @@ Bir tablo hücresindeki metnin yönünü döndürür veya ayarlar.
 public TextOrientation Orientation { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Biçimlendirilmiş bir 2x2 tablonun nasıl oluşturulacağını gösterir.
 
@@ -122,7 +124,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * enum [TextOrientation](../../../aspose.words/textorientation/)
 * class [CellFormat](../)
-* ad alanı [Aspose.Words.Tables](../../cellformat/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

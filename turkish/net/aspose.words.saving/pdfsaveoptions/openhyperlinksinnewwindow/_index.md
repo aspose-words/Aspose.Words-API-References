@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.OpenHyperlinksInNewWindow
-second_title: Aspose.Words for .NET API Referansı
-description: PdfSaveOptions mülk. Pdf document çıktısındaki köprülerin tarayıcının yeni bir penceresinde veya sekmesinde açılmaya zorlanıp zorlanmayacağını belirleyen bir değer alır veya ayarlar.
+linktitle: OpenHyperlinksInNewWindow
+articleTitle: OpenHyperlinksInNewWindow
+second_title: Aspose.Words for .NET
+description: PdfSaveOptions OpenHyperlinksInNewWindow mülk. Pdf document çıktısındaki köprülerin tarayıcının yeni bir penceresinde veya sekmesinde açılmaya zorlanıp zorlanmayacağını belirleyen bir değer alır veya ayarlar C#'da.
 type: docs
 weight: 230
 url: /tr/net/aspose.words.saving/pdfsaveoptions/openhyperlinksinnewwindow/
@@ -14,7 +16,7 @@ Pdf document çıktısındaki köprülerin tarayıcının yeni bir penceresinde 
 public bool OpenHyperlinksInNewWindow { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:`YANLIŞ` . Bu değer şu şekilde ayarlandığında`doğru` köprüler JavaScript kodu kullanılarak kaydedilir. JavaScript kodu`app.launchURL("URL", doğru);` , nerede`URL'si` bir köprüdür.
 
@@ -22,7 +24,7 @@ Bu seçeneğin şu şekilde ayarlandığını unutmayın:`doğru` köprüler Chr
 
 JavaScript eylemleri PDF/A-1 ve PDF/A-2 uyumluluğu nedeniyle yasaklanmıştır.`YANLIŞ` PDF/A-1 ve PDF/A-2'ye kaydedildiğinde otomatik olarak kullanılacaktır.
 
-### Örnekler
+## Örnekler
 
 PDF'ye dönüştürdüğümüz bir belgedeki köprülerin, üzerlerine tıkladığımızda yeni sayfalar açmaları için nasıl kaydedileceğini gösterir.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.OpenHyperlinksInNewWindow.pdf", options)
 ### Ayrıca bakınız
 
 * class [PdfSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../pdfsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

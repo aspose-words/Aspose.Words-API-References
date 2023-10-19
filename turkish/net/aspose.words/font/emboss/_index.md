@@ -1,7 +1,9 @@
 ---
 title: Font.Emboss
-second_title: Aspose.Words for .NET API Referansı
-description: Font mülk. Yazı tipi kabartmalı olarak biçimlendirilmişse doğrudur.
+linktitle: Emboss
+articleTitle: Emboss
+second_title: Aspose.Words for .NET
+description: Font Emboss mülk. Yazı tipi kabartmalı olarak biçimlendirilmişse doğrudur C#'da.
 type: docs
 weight: 100
 url: /tr/net/aspose.words/font/emboss/
@@ -14,7 +16,7 @@ Yazı tipi kabartmalı olarak biçimlendirilmişse doğrudur.
 public bool Emboss { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Metne gravür/kabartma efektlerinin nasıl uygulanacağını gösterir.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Font.EngraveEmboss.docx");
 ### Ayrıca bakınız
 
 * class [Font](../)
-* ad alanı [Aspose.Words](../../font/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

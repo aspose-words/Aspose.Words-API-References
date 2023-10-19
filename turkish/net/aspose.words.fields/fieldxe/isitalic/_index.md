@@ -1,7 +1,9 @@
 ---
 title: FieldXE.IsItalic
-second_title: Aspose.Words for .NET API Referansı
-description: FieldXE mülk. Girişin sayfa numarasına italik biçimlendirmenin uygulanıp uygulanmayacağını alır veya ayarlar.
+linktitle: IsItalic
+articleTitle: IsItalic
+second_title: Aspose.Words for .NET
+description: FieldXE IsItalic mülk. Girişin sayfa numarasına italik biçimlendirmenin uygulanıp uygulanmayacağını alır veya ayarlar C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.fields/fieldxe/isitalic/
@@ -14,7 +16,7 @@ Girişin sayfa numarasına italik biçimlendirmenin uygulanıp uygulanmayacağı
 public bool IsItalic { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir INDEX alanının XE alanlarını kullanarak girişlerle nasıl doldurulacağını ve ayrıca görünümünün nasıl değiştirileceğini gösterir.
 
@@ -86,7 +88,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Formatting.docx");
 ### Ayrıca bakınız
 
 * class [FieldXE](../)
-* ad alanı [Aspose.Words.Fields](../../fieldxe/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Node.Clone
-second_title: Aspose.Words for .NET API Referansı
-description: Node yöntem. Düğümün bir kopyasını oluşturur.
+linktitle: Clone
+articleTitle: Clone
+second_title: Aspose.Words for .NET
+description: Node Clone yöntem. Düğümün bir kopyasını oluşturur C#'da.
 type: docs
 weight: 100
 url: /tr/net/aspose.words/node/clone/
@@ -22,13 +24,13 @@ public Node Clone(bool isCloneChildren)
 
 Klonlanmış düğüm.
 
-### Notlar
+## Notlar
 
 Bu yöntem, düğümler için bir kopya oluşturucu görevi görür. Klonlanan düğümün üst öğesi yoktur ancak orijinal düğümle aynı belgeye aittir.
 
 Bu yöntem her zaman düğümün derin bir kopyasını gerçekleştirir.*isCloneChildren* parametre tüm alt düğümlerin de kopyalanıp kopyalanmayacağını belirtir.
 
-### Örnekler
+## Örnekler
 
 Bileşik düğümün nasıl kopyalanacağını gösterir.
 
@@ -54,7 +56,5 @@ Assert.AreEqual(string.Empty, cloneWithoutChildren.GetText().Trim());
 ### Ayrıca bakınız
 
 * class [Node](../)
-* ad alanı [Aspose.Words](../../node/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

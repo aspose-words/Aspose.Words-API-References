@@ -1,7 +1,9 @@
 ---
 title: FieldAutoTextList.EntryName
-second_title: Aspose.Words for .NET API Referansı
-description: FieldAutoTextList mülk. Otomatik Metin girişinin adını alır veya ayarlar.
+linktitle: EntryName
+articleTitle: EntryName
+second_title: Aspose.Words for .NET
+description: FieldAutoTextList EntryName mülk. Otomatik Metin girişinin adını alır veya ayarlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fieldautotextlist/entryname/
@@ -14,7 +16,7 @@ Otomatik Metin girişinin adını alır veya ayarlar.
 public string EntryName { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Otomatik Metin girişleri listesinden seçim yapmak için AUTOTEXTLIST alanının nasıl kullanılacağını gösterir.
 
@@ -69,7 +71,5 @@ private static void AppendAutoTextEntry(GlossaryDocument glossaryDoc, string nam
 ### Ayrıca bakınız
 
 * class [FieldAutoTextList](../)
-* ad alanı [Aspose.Words.Fields](../../fieldautotextlist/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

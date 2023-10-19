@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPartCollection.Clone
-second_title: Aspose.Words for .NET API Referansı
-description: CustomXmlPartCollection yöntem. Bu koleksiyonun ve içindeki öğelerin derin bir kopyasını oluşturur.
+linktitle: Clone
+articleTitle: Clone
+second_title: Aspose.Words for .NET
+description: CustomXmlPartCollection Clone yöntem. Bu koleksiyonun ve içindeki öğelerin derin bir kopyasını oluşturur C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.markup/customxmlpartcollection/clone/
@@ -14,7 +16,7 @@ Bu koleksiyonun ve içindeki öğelerin derin bir kopyasını oluşturur.
 public CustomXmlPartCollection Clone()
 ```
 
-### Örnekler
+## Örnekler
 
 Özel XML verileriyle yapılandırılmış bir belge etiketinin nasıl oluşturulacağını gösterir.
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 ### Ayrıca bakınız
 
 * class [CustomXmlPartCollection](../)
-* ad alanı [Aspose.Words.Markup](../../customxmlpartcollection/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

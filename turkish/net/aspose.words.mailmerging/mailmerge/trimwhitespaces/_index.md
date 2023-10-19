@@ -1,7 +1,9 @@
 ---
 title: MailMerge.TrimWhitespaces
-second_title: Aspose.Words for .NET API Referansı
-description: MailMerge mülk. Adresmektup birleştirme değerlerinden sondaki ve baştaki boşlukların kırpılıp kırpılmadığını belirten bir değer alır veya ayarlar.
+linktitle: TrimWhitespaces
+articleTitle: TrimWhitespaces
+second_title: Aspose.Words for .NET
+description: MailMerge TrimWhitespaces mülk. Adresmektup birleştirme değerlerinden sondaki ve baştaki boşlukların kırpılıp kırpılmadığını belirten bir değer alır veya ayarlar C#'da.
 type: docs
 weight: 130
 url: /tr/net/aspose.words.mailmerging/mailmerge/trimwhitespaces/
@@ -14,11 +16,11 @@ Adres-mektup birleştirme değerlerinden sondaki ve baştaki boşlukların kırp
 public bool TrimWhitespaces { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:`doğru` .
 
-### Örnekler
+## Örnekler
 
 Adres-mektup birleştirme yürütülürken bir veri kaynağının değerlerindeki boşlukların nasıl kırpılacağını gösterir.
 
@@ -37,7 +39,5 @@ Assert.AreEqual(trimWhitespaces ? "hello world!\f" : "\t hello world! \f", doc.G
 ### Ayrıca bakınız
 
 * class [MailMerge](../)
-* ad alanı [Aspose.Words.MailMerging](../../mailmerge/)
+* ad alanı [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * toplantı [Aspose.Words](../../../)
-
-

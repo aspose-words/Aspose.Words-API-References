@@ -1,7 +1,9 @@
 ---
 title: NodeImporter.ImportNode
-second_title: Aspose.Words for .NET API Referansı
-description: NodeImporter yöntem. Bir belgedeki düğümü diğerine aktarır.
+linktitle: ImportNode
+articleTitle: ImportNode
+second_title: Aspose.Words for .NET
+description: NodeImporter ImportNode yöntem. Bir belgedeki düğümü diğerine aktarır C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/nodeimporter/importnode/
@@ -23,15 +25,15 @@ public Node ImportNode(Node srcNode, bool isImportChildren)
 
 Klonlanmış, içe aktarılmış düğüm. Düğüm hedef belgeye aittir ancak üst öğesi yoktur.
 
-### Notlar
+## Notlar
 
 Bir düğümün içe aktarılması, içe aktarılan belgeye ait kaynak düğümün bir kopyasını oluşturur. Döndürülen düğümün üst öğesi yok. Kaynak düğüm değiştirilmez veya orijinal belgeden kaldırılmaz.
 
-Başka bir belgedeki bir düğümün bu belgeye eklenmeden önce içe aktarılması gerekir. İçe aktarma sırasında, stillere ve listelere yapılan referanslar gibi belgeye özgü özellikler orijinalden içe aktarılan belgeye çevrilir . Düğüm içe aktarıldıktan sonra, kullanılarak belgedeki uygun yere eklenebilir.Node) veya Node).
+Başka bir belgedeki bir düğümün bu belgeye eklenmeden önce içe aktarılması gerekir. İçe aktarma sırasında, stillere ve listelere yapılan referanslar gibi belgeye özgü özellikler orijinalden içe aktarılan belgeye çevrilir . Düğüm içe aktarıldıktan sonra, kullanılarak belgedeki uygun yere eklenebilir.[`InsertBefore`](../../compositenode/insertbefore/) veya [`InsertAfter`](../../compositenode/insertafter/).
 
 Kaynak düğüm zaten hedef belgeye aitse, kaynak düğümün derin clone 'si oluşturulur.
 
-### Örnekler
+## Örnekler
 
 Bir belgenin içeriğinin başka bir belgedeki yer imine nasıl ekleneceğini gösterir.
 
@@ -100,7 +102,5 @@ static void InsertDocument(Node insertionDestination, Document docToInsert)
 
 * class [Node](../../node/)
 * class [NodeImporter](../)
-* ad alanı [Aspose.Words](../../nodeimporter/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

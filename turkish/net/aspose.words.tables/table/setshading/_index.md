@@ -1,9 +1,11 @@
 ---
 title: Table.SetShading
-second_title: Aspose.Words for .NET API Referansı
-description: Table yöntem. Gölgelendirmeyi tüm tablo üzerinde belirtilen değerlere ayarlar.
+linktitle: SetShading
+articleTitle: SetShading
+second_title: Aspose.Words for .NET
+description: Table SetShading yöntem. Gölgelendirmeyi tüm tablo üzerinde belirtilen değerlere ayarlar C#'da.
 type: docs
-weight: 450
+weight: 430
 url: /tr/net/aspose.words.tables/table/setshading/
 ---
 ## Table.SetShading method
@@ -20,7 +22,7 @@ public void SetShading(TextureIndex texture, Color foregroundColor, Color backgr
 | foregroundColor | Color | Dokunun rengi. |
 | backgroundColor | Color | Arka plan dolgusunun rengi. |
 
-### Örnekler
+## Örnekler
 
 Bir tabloya anahat kenarlığının nasıl uygulanacağını gösterir.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Table.SetOutlineBorders.docx");
 
 * enum [TextureIndex](../../../aspose.words/textureindex/)
 * class [Table](../)
-* ad alanı [Aspose.Words.Tables](../../table/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

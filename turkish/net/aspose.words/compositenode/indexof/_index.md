@@ -1,9 +1,11 @@
 ---
 title: CompositeNode.IndexOf
-second_title: Aspose.Words for .NET API Referansı
-description: CompositeNode yöntem. Alt düğüm dizisinde belirtilen alt düğümün dizinini döndürür.
+linktitle: IndexOf
+articleTitle: IndexOf
+second_title: Aspose.Words for .NET
+description: CompositeNode IndexOf yöntem. Alt düğüm dizisinde belirtilen alt düğümün dizinini döndürür C#'da.
 type: docs
-weight: 140
+weight: 120
 url: /tr/net/aspose.words/compositenode/indexof/
 ---
 ## CompositeNode.IndexOf method
@@ -14,11 +16,11 @@ Alt düğüm dizisinde belirtilen alt düğümün dizinini döndürür.
 public int IndexOf(Node child)
 ```
 
-### Notlar
+## Notlar
 
 Düğüm alt düğümlerde bulunamazsa -1 değerini döndürür.
 
-### Örnekler
+## Örnekler
 
 Belirli bir alt düğümün dizininin üst öğesinden nasıl alınacağını gösterir.
 
@@ -35,7 +37,5 @@ Assert.AreEqual(24, body.GetChildNodes(NodeType.Any, false).IndexOf(body.LastPar
 
 * class [Node](../../node/)
 * class [CompositeNode](../)
-* ad alanı [Aspose.Words](../../compositenode/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

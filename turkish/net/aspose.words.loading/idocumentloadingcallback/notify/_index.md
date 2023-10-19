@@ -1,7 +1,9 @@
 ---
 title: IDocumentLoadingCallback.Notify
-second_title: Aspose.Words for .NET API Referansı
-description: IDocumentLoadingCallback yöntem. Bu belge yükleme işleminin ilerlemesini bildirmek için çağrılır.
+linktitle: Notify
+articleTitle: Notify
+second_title: Aspose.Words for .NET
+description: IDocumentLoadingCallback Notify yöntem. Bu belge yükleme işleminin ilerlemesini bildirmek için çağrılır C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.loading/idocumentloadingcallback/notify/
@@ -18,13 +20,13 @@ public void Notify(DocumentLoadingArgs args)
 | --- | --- | --- |
 | args | DocumentLoadingArgs | Olayın bir argümanı. |
 
-### Notlar
+## Notlar
 
 Bu arayüzün birincil kullanımları, uygulama kodunun ilerleme durumunu elde etmesine ve yükleme işlemini iptal etmesine izin vermektir.
 
 Kürtaj için Progress geri çağrısından bir istisna atılmalı ve tüketici koduna yakalanmalıdır.
 
-### Örnekler
+## Örnekler
 
 Belge yüklemesinin beklenen yükleme süresini aşması durumunda kullanıcıya nasıl bilgi verileceğini gösterir.
 
@@ -90,7 +92,5 @@ public class LoadingProgressCallback : IDocumentLoadingCallback
 * property [ProgressCallback](../../loadoptions/progresscallback/)
 * class [DocumentLoadingArgs](../../documentloadingargs/)
 * interface [IDocumentLoadingCallback](../)
-* ad alanı [Aspose.Words.Loading](../../idocumentloadingcallback/)
+* ad alanı [Aspose.Words.Loading](../../../aspose.words.loading/)
 * toplantı [Aspose.Words](../../../)
-
-

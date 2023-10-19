@@ -1,7 +1,9 @@
 ---
 title: ImageSavingArgs.CurrentShape
-second_title: Aspose.Words for .NET API Referansı
-description: ImageSavingArgs mülk. AlırShapeBase kaydedilmek üzere olan şekline veya grup şekline karşılık gelen nesne.
+linktitle: CurrentShape
+articleTitle: CurrentShape
+second_title: Aspose.Words for .NET
+description: ImageSavingArgs CurrentShape mülk. AlırShapeBase kaydedilmek üzere olan şekline veya grup şekline karşılık gelen nesne C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.saving/imagesavingargs/currentshape/
@@ -14,7 +16,7 @@ Alır[`ShapeBase`](../../../aspose.words.drawing/shapebase/) kaydedilmek üzere 
 public ShapeBase CurrentShape { get; }
 ```
 
-### Notlar
+## Notlar
 
 [`IImageSavingCallback`](../../iimagesavingcallback/) bir şekil veya grup şekli kaydedilirken tetiklenebilir. Bu nedenle mülkte[`ShapeBase`](../../../aspose.words.drawing/shapebase/) tip. 'yi karşılaştıran bir grup şekli olup olmadığını kontrol edebilirsiniz.[`ShapeType`](../../../aspose.words.drawing/shapebase/shapetype/) ileGroup veya türetilmiş sınıflardan birine aktararak: [`Shape`](../../../aspose.words.drawing/shape/) veya[`GroupShape`](../../../aspose.words.drawing/groupshape/).
 
@@ -22,7 +24,7 @@ Aspose.Words, belgede bulunan her görüntü için benzersiz dosya adı oluştur
 
 Belgedeki bazı resimler kullanılamayabilir. Resmin kullanılabilirliğini kontrol etmek için şunu kullanın:[`IsImageAvailable`](../isimageavailable/) mülk.
 
-### Örnekler
+## Örnekler
 
 Görüntü kaydetme geri aramasının HTML dönüştürme sürecine nasıl dahil edileceğini gösterir.
 
@@ -69,7 +71,5 @@ private class ImageShapePrinter : IImageSavingCallback
 
 * class [ShapeBase](../../../aspose.words.drawing/shapebase/)
 * class [ImageSavingArgs](../)
-* ad alanı [Aspose.Words.Saving](../../imagesavingargs/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

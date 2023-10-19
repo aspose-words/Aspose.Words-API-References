@@ -1,7 +1,9 @@
 ---
 title: OutlineOptions.BookmarksOutlineLevels
-second_title: Aspose.Words for .NET API Referansı
-description: OutlineOptions mülk. Bireysel yer imlerinin anahat düzeyini belirlemeye olanak tanır.
+linktitle: BookmarksOutlineLevels
+articleTitle: BookmarksOutlineLevels
+second_title: Aspose.Words for .NET
+description: OutlineOptions BookmarksOutlineLevels mülk. Bireysel yer imlerinin anahat düzeyini belirlemeye olanak tanır C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.saving/outlineoptions/bookmarksoutlinelevels/
@@ -14,11 +16,11 @@ Bireysel yer imlerinin anahat düzeyini belirlemeye olanak tanır.
 public BookmarksOutlineLevelCollection BookmarksOutlineLevels { get; }
 ```
 
-### Notlar
+## Notlar
 
 Bu koleksiyonda yer imi düzeyi belirtilmemişse o zaman[`DefaultBookmarksOutlineLevel`](../defaultbookmarksoutlinelevel/) değer kullanılır.
 
-### Örnekler
+## Örnekler
 
 Yer imleri için anahat düzeylerinin nasıl ayarlanacağını gösterir.
 
@@ -77,7 +79,5 @@ outlineLevels.Clear();
 
 * class [BookmarksOutlineLevelCollection](../../bookmarksoutlinelevelcollection/)
 * class [OutlineOptions](../)
-* ad alanı [Aspose.Words.Saving](../../outlineoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

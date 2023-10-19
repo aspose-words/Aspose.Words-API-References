@@ -1,7 +1,9 @@
 ---
 title: FieldDatabase.LastRecord
-second_title: Aspose.Words for .NET API Referansı
-description: FieldDatabase mülk. Eklenecek son veri kaydının integral kayıt numarasını alır veya ayarlar.
+linktitle: LastRecord
+articleTitle: LastRecord
+second_title: Aspose.Words for .NET
+description: FieldDatabase LastRecord mülk. Eklenecek son veri kaydının integral kayıt numarasını alır veya ayarlar C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words.fields/fielddatabase/lastrecord/
@@ -14,7 +16,7 @@ Eklenecek son veri kaydının integral kayıt numarasını alır veya ayarlar.
 public string LastRecord { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Veritabanından verinin nasıl çıkarılacağını ve bunun bir alan olarak belgeye nasıl ekleneceğini gösterir.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Field.DATABASE.docx");
 ### Ayrıca bakınız
 
 * class [FieldDatabase](../)
-* ad alanı [Aspose.Words.Fields](../../fielddatabase/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

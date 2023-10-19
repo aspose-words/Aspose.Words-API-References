@@ -1,12 +1,14 @@
 ---
 title: Paragraph.InsertField
-second_title: Aspose.Words for .NET API Referansı
-description: Paragraph yöntem. Bu paragrafa bir alan ekler.
+linktitle: InsertField
+articleTitle: InsertField
+second_title: Aspose.Words for .NET
+description: Paragraph InsertField yöntem. Bu paragrafa bir alan ekler C#'da.
 type: docs
-weight: 290
+weight: 270
 url: /tr/net/aspose.words/paragraph/insertfield/
 ---
-## InsertField(FieldType, bool, Node, bool) {#insertfield}
+## InsertField(*[FieldType](../../../aspose.words.fields/fieldtype/), bool, [Node](../../node/), bool*) {#insertfield}
 
 Bu paragrafa bir alan ekler.
 
@@ -25,7 +27,7 @@ public Field InsertField(FieldType fieldType, bool updateField, Node refNode, bo
 
 A[`Field`](../../../aspose.words.fields/field/) eklenen alanı temsil eden nesne.
 
-### Örnekler
+## Örnekler
 
 Bir paragrafa alan eklemenin çeşitli yollarını gösterir.
 
@@ -67,12 +69,12 @@ doc.Save(ArtifactsDir + "Paragraph.InsertField.docx");
 * enum [FieldType](../../../aspose.words.fields/fieldtype/)
 * class [Node](../../node/)
 * class [Paragraph](../)
-* ad alanı [Aspose.Words](../../paragraph/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## InsertField(string, Node, bool) {#insertfield_1}
+## InsertField(*string, [Node](../../node/), bool*) {#insertfield_1}
 
 Bu paragrafa bir alan ekler.
 
@@ -90,7 +92,7 @@ public Field InsertField(string fieldCode, Node refNode, bool isAfter)
 
 A[`Field`](../../../aspose.words.fields/field/) eklenen alanı temsil eden nesne.
 
-### Örnekler
+## Örnekler
 
 Bir paragrafa alan eklemenin çeşitli yollarını gösterir.
 
@@ -131,12 +133,12 @@ doc.Save(ArtifactsDir + "Paragraph.InsertField.docx");
 * class [Field](../../../aspose.words.fields/field/)
 * class [Node](../../node/)
 * class [Paragraph](../)
-* ad alanı [Aspose.Words](../../paragraph/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## InsertField(string, string, Node, bool) {#insertfield_2}
+## InsertField(*string, string, [Node](../../node/), bool*) {#insertfield_2}
 
 Bu paragrafa bir alan ekler.
 
@@ -155,7 +157,7 @@ public Field InsertField(string fieldCode, string fieldValue, Node refNode, bool
 
 A[`Field`](../../../aspose.words.fields/field/) eklenen alanı temsil eden nesne.
 
-### Örnekler
+## Örnekler
 
 Bir paragrafa alan eklemenin çeşitli yollarını gösterir.
 
@@ -196,7 +198,5 @@ doc.Save(ArtifactsDir + "Paragraph.InsertField.docx");
 * class [Field](../../../aspose.words.fields/field/)
 * class [Node](../../node/)
 * class [Paragraph](../)
-* ad alanı [Aspose.Words](../../paragraph/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

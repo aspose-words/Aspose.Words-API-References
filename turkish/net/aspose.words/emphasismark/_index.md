@@ -1,7 +1,9 @@
 ---
-title: Enum EmphasisMark
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.EmphasisMark Sıralama. Olası vurgu işareti türlerini belirtir.
+title: EmphasisMark Enum
+linktitle: EmphasisMark
+articleTitle: EmphasisMark
+second_title: Aspose.Words for .NET
+description: Aspose.Words.EmphasisMark Sıralama. Olası vurgu işareti türlerini belirtir C#'da.
 type: docs
 weight: 1460
 url: /tr/net/aspose.words/emphasismark/
@@ -24,7 +26,7 @@ public enum EmphasisMark
 | OverWhiteCircle | `3` | Vurgu işareti metnin üzerinde görüntülenen boş beyaz bir dairedir. |
 | UnderSolidCircle | `4` | Vurgu işareti, metnin altında görüntülenen düz siyah bir dairedir. |
 
-### Örnekler
+## Örnekler
 
 Glif karakterinin üstünde/altında oluşturulan ek karakterlerin nasıl ekleneceğini gösterir.
 
@@ -47,5 +49,3 @@ builder.Document.Save(ArtifactsDir + "Fonts.SetEmphasisMark.docx");
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

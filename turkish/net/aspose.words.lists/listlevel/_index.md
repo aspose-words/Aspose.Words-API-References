@@ -1,7 +1,9 @@
 ---
-title: Class ListLevel
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Lists.ListLevel sınıf. Liste düzeyi için biçimlendirmeyi tanımlar.
+title: ListLevel Class
+linktitle: ListLevel
+articleTitle: ListLevel
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Lists.ListLevel sınıf. Liste düzeyi için biçimlendirmeyi tanımlar C#'da.
 type: docs
 weight: 3500
 url: /tr/net/aspose.words.lists/listlevel/
@@ -41,17 +43,17 @@ public class ListLevel
 | --- | --- |
 | [CreatePictureBullet](../../aspose.words.lists/listlevel/createpicturebullet/)() | Geçerli liste düzeyi için resim madde işareti şeklini oluşturur. |
 | [DeletePictureBullet](../../aspose.words.lists/listlevel/deletepicturebullet/)() | Geçerli liste düzeyine ilişkin resim madde işaretini siler. |
-| [Equals](../../aspose.words.lists/listlevel/equals/#equals)(ListLevel) | Belirtilen ListLevel. ile karşılaştırır |
+| [Equals](../../aspose.words.lists/listlevel/equals/#equals)(*ListLevel*) | Belirtilen ListLevel. ile karşılaştırır |
 | override [GetHashCode](../../aspose.words.lists/listlevel/gethashcode/)() | Bu nesnenin karma kodunu hesaplar. |
-| static [GetEffectiveValue](../../aspose.words.lists/listlevel/geteffectivevalue/)(int, NumberStyle, string) | Dizi gösterimini bildirir.`ListLevel`liste öğesinin belirtilen index nesnesi. Parametreler şunları belirtir:[`NumberStyle`](../../aspose.words/numberstyle/) ve aşağıdaki durumlarda kullanılan isteğe bağlı bir format string Custom belirtildi. |
+| static [GetEffectiveValue](../../aspose.words.lists/listlevel/geteffectivevalue/)(*int, [NumberStyle](../../aspose.words/numberstyle/), string*) | Dizi gösterimini bildirir.`ListLevel`liste öğesinin belirtilen index nesnesi. Parametreler şunları belirtir:[`NumberStyle`](../../aspose.words/numberstyle/) ve aşağıdaki durumlarda kullanılan isteğe bağlı bir format string Custom belirtildi. |
 
-### Notlar
+## Notlar
 
 Bu sınıfın nesnelerini yaratmazsınız. Liste düzeyindeki nesneler, bir liste oluşturulduğunda otomatik olarak oluşturulur. Erişiyorsun`ListLevel` the aracılığıyla nesneler[`ListLevelCollection`](../listlevelcollection/) Toplamak.
 
 Özelliklerini kullanın`ListLevel` ayrı liste düzeyleri için liste biçimlendirmesi 'yi belirtmek için.
 
-### Örnekler
+## Örnekler
 
 DocumentBuilder kullanılırken özel liste formatının paragraflara nasıl uygulanacağını gösterir.
 
@@ -111,5 +113,3 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 
 * ad alanı [Aspose.Words.Lists](../../aspose.words.lists/)
 * toplantı [Aspose.Words](../../)
-
-

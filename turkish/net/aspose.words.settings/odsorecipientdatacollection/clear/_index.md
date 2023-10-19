@@ -1,7 +1,9 @@
 ---
 title: OdsoRecipientDataCollection.Clear
-second_title: Aspose.Words for .NET API Referansı
-description: OdsoRecipientDataCollection yöntem. Bu koleksiyondaki tüm öğeleri kaldırır.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words for .NET
+description: OdsoRecipientDataCollection Clear yöntem. Bu koleksiyondaki tüm öğeleri kaldırır C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.settings/odsorecipientdatacollection/clear/
@@ -14,7 +16,7 @@ Bu koleksiyondaki tüm öğeleri kaldırır.
 public void Clear()
 ```
 
-### Örnekler
+## Örnekler
 
 Adres-mektup birleştirmenin hangi birleştirme veri kaynağı kayıtlarını hariç tutacağını belirleyen veri koleksiyonuna nasıl erişileceğini gösterir.
 
@@ -54,7 +56,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Ayrıca bakınız
 
 * class [OdsoRecipientDataCollection](../)
-* ad alanı [Aspose.Words.Settings](../../odsorecipientdatacollection/)
+* ad alanı [Aspose.Words.Settings](../../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../../)
-
-

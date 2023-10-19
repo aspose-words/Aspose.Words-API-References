@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.PageSetup
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentBuilder mülk. Geçerli sayfa düzenini ve bölüm özelliklerini temsil eden bir nesneyi döndürür.
+linktitle: PageSetup
+articleTitle: PageSetup
+second_title: Aspose.Words for .NET
+description: DocumentBuilder PageSetup mülk. Geçerli sayfa düzenini ve bölüm özelliklerini temsil eden bir nesneyi döndürür C#'da.
 type: docs
 weight: 160
 url: /tr/net/aspose.words/documentbuilder/pagesetup/
@@ -14,7 +16,7 @@ Geçerli sayfa düzenini ve bölüm özelliklerini temsil eden bir nesneyi dönd
 public PageSetup PageSetup { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Sayfa yapısı ayarlarının bir belgedeki bölümlere nasıl uygulanacağını ve geri döndürüleceğini gösterir.
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "PageSetup.ClearFormatting.docx");
 
 * class [PageSetup](../../pagesetup/)
 * class [DocumentBuilder](../)
-* ad alanı [Aspose.Words](../../documentbuilder/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Paragraph.Paragraph
-second_title: Aspose.Words for .NET API Referansı
-description: Paragraph inşaatçı. Yeni bir örneğini başlatırParagraph class.
+title: Paragraph
+linktitle: Paragraph
+articleTitle: Paragraph
+second_title: Aspose.Words for .NET
+description: Paragraph inşaatçı. Yeni bir örneğini başlatırParagraph class C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/paragraph/paragraph/
@@ -18,13 +20,13 @@ public Paragraph(DocumentBase doc)
 | --- | --- | --- |
 | doc | DocumentBase | Sahibi belgesi. |
 
-### Notlar
+## Notlar
 
 Ne zaman[`Paragraph`](../) oluşturulduysa, belirtilen belgeye aittir ancak henüz değildir ve belgenin bir parçası değildir ve[`ParentNode`](../../node/parentnode/) dır-dir`hükümsüz`.
 
-Eklemek[`Paragraph`](../) belge kullanımınaNode) veyaNode) Hikayede paragrafın eklenmesini istediğiniz yere .
+Eklemek[`Paragraph`](../) belge kullanımına[`InsertAfter`](../../compositenode/insertafter/) veya[`InsertBefore`](../../compositenode/insertbefore/) Hikayede paragrafın eklenmesini istediğiniz yere .
 
-### Örnekler
+## Örnekler
 
 Aspose.Words belgesinin elle nasıl oluşturulacağını gösterir.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * class [DocumentBase](../../documentbase/)
 * class [Paragraph](../)
-* ad alanı [Aspose.Words](../../paragraph/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

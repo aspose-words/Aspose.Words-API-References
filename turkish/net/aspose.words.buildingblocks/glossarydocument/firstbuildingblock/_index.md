@@ -1,7 +1,9 @@
 ---
 title: GlossaryDocument.FirstBuildingBlock
-second_title: Aspose.Words for .NET API Referansı
-description: GlossaryDocument mülk. Sözlük belgesindeki ilk yapı taşını alır.
+linktitle: FirstBuildingBlock
+articleTitle: FirstBuildingBlock
+second_title: Aspose.Words for .NET
+description: GlossaryDocument FirstBuildingBlock mülk. Sözlük belgesindeki ilk yapı taşını alır C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.buildingblocks/glossarydocument/firstbuildingblock/
@@ -14,11 +16,11 @@ Sözlük belgesindeki ilk yapı taşını alır.
 public BuildingBlock FirstBuildingBlock { get; }
 ```
 
-### Notlar
+## Notlar
 
 İadeler`hükümsüz` mevcut yapı taşı yoksa.
 
-### Örnekler
+## Örnekler
 
 Bir sözlük belgesinde yapı taşlarına erişmenin yollarını gösterir.
 
@@ -123,7 +125,5 @@ public class GlossaryDocVisitor : DocumentVisitor
 
 * class [BuildingBlock](../../buildingblock/)
 * class [GlossaryDocument](../)
-* ad alanı [Aspose.Words.BuildingBlocks](../../glossarydocument/)
+* ad alanı [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * toplantı [Aspose.Words](../../../)
-
-

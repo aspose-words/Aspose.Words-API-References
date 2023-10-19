@@ -1,7 +1,9 @@
 ---
 title: Range.UpdateFields
-second_title: Aspose.Words for .NET API Referansı
-description: Range yöntem. Bu aralıktaki belge alanlarının değerlerini günceller.
+linktitle: UpdateFields
+articleTitle: UpdateFields
+second_title: Aspose.Words for .NET
+description: Range UpdateFields yöntem. Bu aralıktaki belge alanlarının değerlerini günceller C#'da.
 type: docs
 weight: 120
 url: /tr/net/aspose.words/range/updatefields/
@@ -14,7 +16,7 @@ Bu aralıktaki belge alanlarının değerlerini günceller.
 public void UpdateFields()
 ```
 
-### Notlar
+## Notlar
 
 Bir belgeyi açtığınızda, değiştirdiğinizde ve ardından kaydettiğinizde Aspose.Words, alanları otomatik olarak güncellemez, onları olduğu gibi tutar. Bu nedenle, document dosyasını programlı olarak değiştirdiyseniz ve emin olmak istiyorsanız, genellikle kaydetmeden önce bu yöntemi çağırmak istersiniz. kaydedilen belgede uygun (hesaplanan) alan değerleri görünür.
 
@@ -26,7 +28,7 @@ Bu yöntem, sayfa düzeni algoritmalarıyla ilgili alanları (örn. PAGE, PAGES,
 
 Belgenin tamamındaki alanları güncellemek için şunu kullanın:[`UpdateFields`](../../document/updatefields/).
 
-### Örnekler
+## Örnekler
 
 Bir aralıktaki tüm alanların nasıl güncelleştirileceğini gösterir.
 
@@ -55,7 +57,5 @@ Assert.AreEqual(string.Empty, doc.Range.Fields[1].Result);
 ### Ayrıca bakınız
 
 * class [Range](../)
-* ad alanı [Aspose.Words](../../range/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

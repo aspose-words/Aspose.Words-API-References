@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.ApplyFont
-second_title: Aspose.Words for .NET API Referansı
-description: FindReplaceOptions mülk. Yeni içeriğe uygulanan metin formatı.
+linktitle: ApplyFont
+articleTitle: ApplyFont
+second_title: Aspose.Words for .NET
+description: FindReplaceOptions ApplyFont mülk. Yeni içeriğe uygulanan metin formatı C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.replacing/findreplaceoptions/applyfont/
@@ -14,7 +16,7 @@ Yeni içeriğe uygulanan metin formatı.
 public Font ApplyFont { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 FindReplaceOptions aracılığıyla yeni içeriğe farklı bir yazı tipinin nasıl uygulanacağını gösterir.
 
@@ -88,7 +90,5 @@ private class NumberHexer : IReplacingCallback
 
 * class [Font](../../../aspose.words/font/)
 * class [FindReplaceOptions](../)
-* ad alanı [Aspose.Words.Replacing](../../findreplaceoptions/)
+* ad alanı [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * toplantı [Aspose.Words](../../../)
-
-

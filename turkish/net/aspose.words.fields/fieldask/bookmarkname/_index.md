@@ -1,7 +1,9 @@
 ---
 title: FieldAsk.BookmarkName
-second_title: Aspose.Words for .NET API Referansı
-description: FieldAsk mülk. Yer iminin adını alır veya ayarlar.
+linktitle: BookmarkName
+articleTitle: BookmarkName
+second_title: Aspose.Words for .NET
+description: FieldAsk BookmarkName mülk. Yer iminin adını alır veya ayarlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fieldask/bookmarkname/
@@ -14,7 +16,7 @@ Yer iminin adını alır veya ayarlar.
 public string BookmarkName { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 ASK alanının nasıl oluşturulacağını ve özelliklerinin nasıl ayarlanacağını gösterir.
 
@@ -76,7 +78,5 @@ private class MyPromptRespondent : IFieldUserPromptRespondent
 ### Ayrıca bakınız
 
 * class [FieldAsk](../)
-* ad alanı [Aspose.Words.Fields](../../fieldask/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

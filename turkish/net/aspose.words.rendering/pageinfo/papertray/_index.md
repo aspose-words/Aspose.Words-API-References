@@ -1,7 +1,9 @@
 ---
 title: PageInfo.PaperTray
-second_title: Aspose.Words for .NET API Referansı
-description: PageInfo mülk. Belgede belirtildiği gibi bu sayfa için kağıt tepsisini kutuyu alır. Değer uygulamaya yazıcıya özeldir.
+linktitle: PaperTray
+articleTitle: PaperTray
+second_title: Aspose.Words for .NET
+description: PageInfo PaperTray mülk. Belgede belirtildiği gibi bu sayfa için kağıt tepsisini kutuyu alır. Değer uygulamaya yazıcıya özeldir C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.rendering/pageinfo/papertray/
@@ -14,7 +16,7 @@ Belgede belirtildiği gibi bu sayfa için kağıt tepsisini (kutuyu) alır. Değ
 public int PaperTray { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir Word belgesindeki her sayfa için sayfa boyutu ve yön bilgilerinin nasıl yazdırılacağını gösterir.
 
@@ -56,7 +58,5 @@ for (int i = 0; i < doc.PageCount; i++)
 ### Ayrıca bakınız
 
 * class [PageInfo](../)
-* ad alanı [Aspose.Words.Rendering](../../pageinfo/)
+* ad alanı [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * toplantı [Aspose.Words](../../../)
-
-

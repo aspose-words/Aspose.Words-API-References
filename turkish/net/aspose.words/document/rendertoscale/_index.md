@@ -1,9 +1,11 @@
 ---
 title: Document.RenderToScale
-second_title: Aspose.Words for .NET API Referansı
-description: Document yöntem. Bir belge sayfasını birGraphics belirtilen ölçeğe itiraz.
+linktitle: RenderToScale
+articleTitle: RenderToScale
+second_title: Aspose.Words for .NET
+description: Document RenderToScale yöntem. Bir belge sayfasını birGraphics belirtilen ölçeğe itiraz C#'da.
 type: docs
-weight: 700
+weight: 680
 url: /tr/net/aspose.words/document/rendertoscale/
 ---
 ## Document.RenderToScale method
@@ -26,7 +28,7 @@ public SizeF RenderToScale(int pageIndex, Graphics graphics, float x, float y, f
 
 İşlenen sayfanın genişliği ve yüksekliği (dünya birimleri cinsinden).
 
-### Örnekler
+## Örnekler
 
 Tüm sayfaların küçük resimleriyle tek bir görüntü oluşturmak için bir belgenin ayrı ayrı sayfalarının grafiklere nasıl dönüştürüleceğini gösterir.
 
@@ -133,7 +135,5 @@ using (SKBitmap bitmap = new SKBitmap(imgWidth, imgHeight))
 ### Ayrıca bakınız
 
 * class [Document](../)
-* ad alanı [Aspose.Words](../../document/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

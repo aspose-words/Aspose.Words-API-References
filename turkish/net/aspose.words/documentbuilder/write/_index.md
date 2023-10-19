@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.Write
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentBuilder yöntem. Belgeye geçerli ekleme konumunda bir dize ekler.
+linktitle: Write
+articleTitle: Write
+second_title: Aspose.Words for .NET
+description: DocumentBuilder Write yöntem. Belgeye geçerli ekleme konumunda bir dize ekler C#'da.
 type: docs
-weight: 660
+weight: 650
 url: /tr/net/aspose.words/documentbuilder/write/
 ---
 ## DocumentBuilder.Write method
@@ -18,11 +20,11 @@ public void Write(string text)
 | --- | --- | --- |
 | text | String | Belgeye eklenecek dize. |
 
-### Notlar
+## Notlar
 
 Geçerli yazı tipi formatı,[`Font`](../font/) özellik kullanılıyor.
 
-### Örnekler
+## Örnekler
 
 Kenarlıkla çevrelenmiş bir dizenin belgeye nasıl ekleneceğini gösterir.
 
@@ -168,7 +170,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 ### Ayrıca bakınız
 
 * class [DocumentBuilder](../)
-* ad alanı [Aspose.Words](../../documentbuilder/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

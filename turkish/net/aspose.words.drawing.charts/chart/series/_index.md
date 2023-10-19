@@ -1,7 +1,9 @@
 ---
 title: Chart.Series
-second_title: Aspose.Words for .NET API Referansı
-description: Chart mülk. Seri koleksiyonuna erişim sağlar.
+linktitle: Series
+articleTitle: Series
+second_title: Aspose.Words for .NET
+description: Chart Series mülk. Seri koleksiyonuna erişim sağlar C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.drawing.charts/chart/series/
@@ -14,7 +16,7 @@ Seri koleksiyonuna erişim sağlar.
 public ChartSeriesCollection Series { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir grafik türü için uygun türde bir grafik serisinin nasıl oluşturulacağını gösterir.
 
@@ -104,7 +106,5 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 * class [ChartSeriesCollection](../../chartseriescollection/)
 * class [Chart](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chart/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

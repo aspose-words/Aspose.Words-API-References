@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.ForgetLastTabAlignment
-second_title: Aspose.Words for .NET API Referansı
-description: CompatibilityOptions mülk. Paragraf Hizalanırken Sola Hizalanmamışsa Son Sekme Durağının Genişliğini Yoksay.
+linktitle: ForgetLastTabAlignment
+articleTitle: ForgetLastTabAlignment
+second_title: Aspose.Words for .NET
+description: CompatibilityOptions ForgetLastTabAlignment mülk. Paragraf Hizalanırken Sola Hizalanmamışsa Son Sekme Durağının Genişliğini Yoksay C#'da.
 type: docs
 weight: 270
 url: /tr/net/aspose.words.settings/compatibilityoptions/forgetlasttabalignment/
@@ -17,7 +19,5 @@ public bool ForgetLastTabAlignment { get; set; }
 ### Ayrıca bakınız
 
 * class [CompatibilityOptions](../)
-* ad alanı [Aspose.Words.Settings](../../compatibilityoptions/)
+* ad alanı [Aspose.Words.Settings](../../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../../)
-
-

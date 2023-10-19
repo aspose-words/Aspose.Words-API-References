@@ -1,7 +1,9 @@
 ---
 title: RowFormat.Height
-second_title: Aspose.Words for .NET API Referansı
-description: RowFormat mülk. Tablo satırının yüksekliğini nokta cinsinden alır veya ayarlar.
+linktitle: Height
+articleTitle: Height
+second_title: Aspose.Words for .NET
+description: RowFormat Height mülk. Tablo satırının yüksekliğini nokta cinsinden alır veya ayarlar C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.tables/rowformat/height/
@@ -14,7 +16,7 @@ Tablo satırının yüksekliğini nokta cinsinden alır veya ayarlar.
 public double Height { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Satırların bir belge oluşturucuyla nasıl biçimlendirileceğini gösterir.
 
@@ -109,7 +111,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.CreateFormattedTable.docx");
 ### Ayrıca bakınız
 
 * class [RowFormat](../)
-* ad alanı [Aspose.Words.Tables](../../rowformat/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

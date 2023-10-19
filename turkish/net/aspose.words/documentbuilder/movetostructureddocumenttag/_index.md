@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.MoveToStructuredDocumentTag
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentBuilder yöntem. İmleci geçerli bölümdeki yapılandırılmış belge etiketine taşır.
+linktitle: MoveToStructuredDocumentTag
+articleTitle: MoveToStructuredDocumentTag
+second_title: Aspose.Words for .NET
+description: DocumentBuilder MoveToStructuredDocumentTag yöntem. İmleci geçerli bölümdeki yapılandırılmış belge etiketine taşır C#'da.
 type: docs
-weight: 590
+weight: 580
 url: /tr/net/aspose.words/documentbuilder/movetostructureddocumenttag/
 ---
-## MoveToStructuredDocumentTag(int, int) {#movetostructureddocumenttag_1}
+## MoveToStructuredDocumentTag(*int, int*) {#movetostructureddocumenttag_1}
 
 İmleci geçerli bölümdeki yapılandırılmış belge etiketine taşır.
 
@@ -19,13 +21,13 @@ public void MoveToStructuredDocumentTag(int structuredDocumentTagIndex, int char
 | structuredDocumentTagIndex | Int32 | Taşınacak yapılandırılmış belge etiketinin dizini. |
 | characterIndex | Int32 | Yapılandırılmış belge etiketinin içindeki karakterin dizini. Negatif bir değer, yapılandırılmış belge etiketinin sonundan itibaren bir konum belirtmenize olanak tanır. Yapılandırılmış belge etiketinin sonuna gitmek için -1 to komutunu kullanın. Yapılandırılmış belge etiketi blok düzeyindeyse ve imleci son paragrafının sonuna taşımak istiyorsanız -2'yi belirtin. |
 
-### Notlar
+## Notlar
 
 Gezinme, geçerli bölümün geçerli öyküsü içinde gerçekleştirilir. Yani, the imlecini ilk bölümün birincil başlığına taşıdıysanız, o zaman*structuredDocumentTagIndex* , o bölümün başlığının içindeki yapılandırılmış belge etiketinin dizinini belirtti.
 
 Ne zaman*structuredDocumentTagIndex* 0'dan büyük veya ona eşitse, 0'ın ilk yapılandırılmış belge etiketi olduğu bölümün başından itibaren bir index belirtir. When *structuredDocumentTagIndex* 0'dan küçükse, son yapılandırılmış belge etiketi olan -1 ile the bölümünün sonundan itibaren bir dizin belirtti.
 
-### Örnekler
+## Örnekler
 
 DocumentBuilder imlecinin yapılandırılmış bir belge etiketi içinde nasıl hareket ettirileceğini gösterir.
 
@@ -57,12 +59,12 @@ doc.Save(ArtifactsDir + "Document.MoveToStructuredDocumentTag.docx");
 ### Ayrıca bakınız
 
 * class [DocumentBuilder](../)
-* ad alanı [Aspose.Words](../../documentbuilder/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## MoveToStructuredDocumentTag(StructuredDocumentTag, int) {#movetostructureddocumenttag}
+## MoveToStructuredDocumentTag(*[StructuredDocumentTag](../../../aspose.words.markup/structureddocumenttag/), int*) {#movetostructureddocumenttag}
 
 İmleci yapılandırılmış belge etiketine taşır.
 
@@ -76,7 +78,7 @@ public void MoveToStructuredDocumentTag(StructuredDocumentTag structuredDocument
 | structuredDocumentTag | StructuredDocumentTag | Taşınacak yapılandırılmış belge etiketi. |
 | characterIndex | Int32 | Yapılandırılmış belge etiketinin içindeki karakterin dizini. Negatif bir değer, yapılandırılmış belge etiketinin sonundan itibaren bir konum belirtmenize olanak tanır. Yapılandırılmış belge etiketinin sonuna gitmek için -1 to komutunu kullanın. Yapılandırılmış belge etiketi blok düzeyindeyse ve imleci son paragrafının sonuna taşımak istiyorsanız -2'yi belirtin. |
 
-### Örnekler
+## Örnekler
 
 DocumentBuilder imlecinin yapılandırılmış bir belge etiketi içinde nasıl hareket ettirileceğini gösterir.
 
@@ -109,7 +111,5 @@ doc.Save(ArtifactsDir + "Document.MoveToStructuredDocumentTag.docx");
 
 * class [StructuredDocumentTag](../../../aspose.words.markup/structureddocumenttag/)
 * class [DocumentBuilder](../)
-* ad alanı [Aspose.Words](../../documentbuilder/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

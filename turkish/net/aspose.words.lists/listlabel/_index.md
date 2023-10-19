@@ -1,7 +1,9 @@
 ---
-title: Class ListLabel
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Lists.ListLabel sınıf. Liste etiketine özgü özellikleri tanımlar.
+title: ListLabel Class
+linktitle: ListLabel
+articleTitle: ListLabel
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Lists.ListLabel sınıf. Liste etiketine özgü özellikleri tanımlar C#'da.
 type: docs
 weight: 3490
 url: /tr/net/aspose.words.lists/listlabel/
@@ -24,7 +26,7 @@ public class ListLabel
 | [LabelString](../../aspose.words.lists/listlabel/labelstring/) { get; } | Liste etiketinin dize temsilini alır. |
 | [LabelValue](../../aspose.words.lists/listlabel/labelvalue/) { get; } | Bu etiket için sayısal bir değer alır. |
 
-### Örnekler
+## Örnekler
 
 Liste öğesi olan tüm paragrafların liste etiketlerinin nasıl çıkarılacağını gösterir.
 
@@ -60,5 +62,3 @@ foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListForma
 
 * ad alanı [Aspose.Words.Lists](../../aspose.words.lists/)
 * toplantı [Aspose.Words](../../)
-
-

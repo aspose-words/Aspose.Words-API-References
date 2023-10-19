@@ -1,7 +1,9 @@
 ---
 title: PageSetup.SuppressEndnotes
-second_title: Aspose.Words for .NET API Referansı
-description: PageSetup mülk. Son notlar son notları gizlemeyen bir sonraki bölümün sonunda yazdırılıyorsa doğrudur. Bastırılmış son notlar o bölümdeki son notlardan önce yazdırılır.
+linktitle: SuppressEndnotes
+articleTitle: SuppressEndnotes
+second_title: Aspose.Words for .NET
+description: PageSetup SuppressEndnotes mülk. Son notlar son notları gizlemeyen bir sonraki bölümün sonunda yazdırılıyorsa doğrudur. Bastırılmış son notlar o bölümdeki son notlardan önce yazdırılır C#'da.
 type: docs
 weight: 410
 url: /tr/net/aspose.words/pagesetup/suppressendnotes/
@@ -14,7 +16,7 @@ Son notlar, son notları gizlemeyen bir sonraki bölümün sonunda yazdırılıy
 public bool SuppressEndnotes { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Her bölümün sonunda son notların nasıl saklanacağını ve konumlarının nasıl değiştirileceğini gösterir.
 
@@ -73,7 +75,5 @@ private static void InsertSectionWithEndnote(Document doc, string sectionBodyTex
 ### Ayrıca bakınız
 
 * class [PageSetup](../)
-* ad alanı [Aspose.Words](../../pagesetup/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

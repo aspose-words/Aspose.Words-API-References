@@ -1,7 +1,9 @@
 ---
 title: DocumentBase.PageColor
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentBase mülk. Belgenin sayfa rengini alır veya ayarlar. Bu özellik daha basit bir versiyonudurBackgroundShape .
+linktitle: PageColor
+articleTitle: PageColor
+second_title: Aspose.Words for .NET
+description: DocumentBase PageColor mülk. Belgenin sayfa rengini alır veya ayarlar. Bu özellik daha basit bir versiyonudurBackgroundShape  C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words/documentbase/pagecolor/
@@ -14,13 +16,13 @@ Belgenin sayfa rengini alır veya ayarlar. Bu özellik, daha basit bir versiyonu
 public Color PageColor { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özellik, belge için düz sayfa rengi belirlemenin basit bir yolunu sağlar. Bu özelliğin ayarlanması, uygun bir renk oluşturur ve ayarlar.[`BackgroundShape`](../backgroundshape/).
 
 Sayfa rengi ayarlanmamışsa (örn. belgede arka plan şekli yoksa) döndürür Empty.
 
-### Örnekler
+## Örnekler
 
 Bir belgenin tüm sayfaları için arka plan renginin nasıl ayarlanacağını gösterir.
 
@@ -37,7 +39,5 @@ doc.Save(ArtifactsDir + "DocumentBase.SetPageColor.docx");
 ### Ayrıca bakınız
 
 * class [DocumentBase](../)
-* ad alanı [Aspose.Words](../../documentbase/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

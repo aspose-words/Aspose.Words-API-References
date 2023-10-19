@@ -1,7 +1,9 @@
 ---
 title: DocSaveOptions.SaveRoutingSlip
-second_title: Aspose.Words for .NET API Referansı
-description: DocSaveOptions mülk. Ne zamanYANLIŞ  RoutingSlip verileri çıktı belgesine kaydedilmez. Varsayılan değerdoğru .
+linktitle: SaveRoutingSlip
+articleTitle: SaveRoutingSlip
+second_title: Aspose.Words for .NET
+description: DocSaveOptions SaveRoutingSlip mülk. Ne zamanYANLIŞ  RoutingSlip verileri çıktı belgesine kaydedilmez. Varsayılan değerdoğru  C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.saving/docsaveoptions/saveroutingslip/
@@ -14,7 +16,7 @@ Ne zaman`YANLIŞ` , RoutingSlip verileri çıktı belgesine kaydedilmez. Varsay�
 public bool SaveRoutingSlip { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Eski Microsoft Word formatları için kaydetme seçeneklerinin nasıl ayarlanacağını gösterir.
 
@@ -47,7 +49,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 ### Ayrıca bakınız
 
 * class [DocSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../docsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

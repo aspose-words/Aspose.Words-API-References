@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.ExportEmbeddedImages
-second_title: Aspose.Words for .NET API Referansı
-description: HtmlFixedSaveOptions mülk. Görüntülerin Html belgesine Base64 biçiminde gömülmesi gerekip gerekmediğini belirtir. Bu bayrağın ayarlanmasının çıktı Html dosyasının boyutunu önemli ölçüde artırabileceğini unutmayın.
+linktitle: ExportEmbeddedImages
+articleTitle: ExportEmbeddedImages
+second_title: Aspose.Words for .NET
+description: HtmlFixedSaveOptions ExportEmbeddedImages mülk. Görüntülerin Html belgesine Base64 biçiminde gömülmesi gerekip gerekmediğini belirtir. Bu bayrağın ayarlanmasının çıktı Html dosyasının boyutunu önemli ölçüde artırabileceğini unutmayın C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.saving/htmlfixedsaveoptions/exportembeddedimages/
@@ -14,7 +16,7 @@ Görüntülerin Html belgesine Base64 biçiminde gömülmesi gerekip gerekmediğ
 public bool ExportEmbeddedImages { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi Html'ye aktarırken görüntülerin nerede saklanacağının nasıl belirleneceğini gösterir.
 
@@ -54,7 +56,5 @@ else
 ### Ayrıca bakınız
 
 * class [HtmlFixedSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.Dml3DEffectsRenderingMode
-second_title: Aspose.Words for .NET API Referansı
-description: SaveOptions mülk. 3B efektlerin nasıl oluşturulacağını belirleyen bir değer alır veya ayarlar.
+linktitle: Dml3DEffectsRenderingMode
+articleTitle: Dml3DEffectsRenderingMode
+second_title: Aspose.Words for .NET
+description: SaveOptions Dml3DEffectsRenderingMode mülk. 3B efektlerin nasıl oluşturulacağını belirleyen bir değer alır veya ayarlar C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.saving/saveoptions/dml3deffectsrenderingmode/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.saving/saveoptions/dml3deffectsrenderingmode/
 public Dml3DEffectsRenderingMode Dml3DEffectsRenderingMode { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:Basic .
 
@@ -22,7 +24,5 @@ Varsayılan değer:Basic .
 
 * enum [Dml3DEffectsRenderingMode](../../dml3deffectsrenderingmode/)
 * class [SaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../saveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

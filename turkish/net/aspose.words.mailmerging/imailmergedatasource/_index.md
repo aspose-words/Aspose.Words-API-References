@@ -1,7 +1,9 @@
 ---
-title: Interface IMailMergeDataSource
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.MailMerging.IMailMergeDataSource arayüz. Nesne listesi gibi özel bir veri kaynağından adresmektup birleştirmeye izin vermek için bu arayüzü uygulayın. Ana detay verileri de desteklenmektedir.
+title: IMailMergeDataSource Interface
+linktitle: IMailMergeDataSource
+articleTitle: IMailMergeDataSource
+second_title: Aspose.Words for .NET
+description: Aspose.Words.MailMerging.IMailMergeDataSource arayüz. Nesne listesi gibi özel bir veri kaynağından adresmektup birleştirmeye izin vermek için bu arayüzü uygulayın. Ana detay verileri de desteklenmektedir C#'da.
 type: docs
 weight: 3810
 url: /tr/net/aspose.words.mailmerging/imailmergedatasource/
@@ -24,15 +26,15 @@ public interface IMailMergeDataSource
 
 | İsim | Tanım |
 | --- | --- |
-| [GetChildDataSource](../../aspose.words.mailmerging/imailmergedatasource/getchilddatasource/)(string) | Aspose.Words adres-mektup birleştirme motoru, iç içe adres-mektup birleştirme bölgesinin başlangıcıyla karşılaştığında bu yöntemi çağırır. |
-| [GetValue](../../aspose.words.mailmerging/imailmergedatasource/getvalue/)(string, out object) | Belirtilen alan adı için bir değer döndürür veya`YANLIŞ` alan bulunamazsa. |
+| [GetChildDataSource](../../aspose.words.mailmerging/imailmergedatasource/getchilddatasource/)(*string*) | Aspose.Words adres-mektup birleştirme motoru, iç içe adres-mektup birleştirme bölgesinin başlangıcıyla karşılaştığında bu yöntemi çağırır. |
+| [GetValue](../../aspose.words.mailmerging/imailmergedatasource/getvalue/)(*string, out object*) | Belirtilen alan adı için bir değer döndürür veya`YANLIŞ` alan bulunamazsa. |
 | [MoveNext](../../aspose.words.mailmerging/imailmergedatasource/movenext/)() | Veri kaynağındaki bir sonraki kayda ilerler. |
 
-### Notlar
+## Notlar
 
 Bir veri kaynağı oluşturulduğunda, BOF'u işaret edecek şekilde başlatılmalıdır (ilk kayıttan önce). Aspose.Words adres-mektup birleştirme motoru,[`MoveNext`](./movenext/) sonraki kayda ilerlemek için and ardından çağırın[`GetValue`](./getvalue/) belgede veya geçerli adres-mektup birleştirme bölgesinde karşılaştığı her birleştirme alanı için.
 
-### Örnekler
+## Örnekler
 
 Özel nesne biçimindeki bir veri kaynağıyla adres-mektup birleştirmenin nasıl yürütüleceğini gösterir.
 
@@ -147,5 +149,3 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
 
 * ad alanı [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * toplantı [Aspose.Words](../../)
-
-

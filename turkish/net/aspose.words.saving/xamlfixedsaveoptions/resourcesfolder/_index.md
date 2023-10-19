@@ -1,7 +1,9 @@
 ---
 title: XamlFixedSaveOptions.ResourcesFolder
-second_title: Aspose.Words for .NET API Referansı
-description: XamlFixedSaveOptions mülk. Bir belgeyi sabit sayfa Xaml biçimine aktarırken kaynakların resimler ve yazı tipleri kaydedildiği fiziksel klasörü belirtir. Varsayılanhükümsüz .
+linktitle: ResourcesFolder
+articleTitle: ResourcesFolder
+second_title: Aspose.Words for .NET
+description: XamlFixedSaveOptions ResourcesFolder mülk. Bir belgeyi sabit sayfa Xaml biçimine aktarırken kaynakların resimler ve yazı tipleri kaydedildiği fiziksel klasörü belirtir. Varsayılanhükümsüz  C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.saving/xamlfixedsaveoptions/resourcesfolder/
@@ -14,7 +16,7 @@ Bir belgeyi sabit sayfa Xaml biçimine aktarırken kaynakların (resimler ve yaz
 public string ResourcesFolder { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bir kaydettiğinizde[`Document`](../../../aspose.words/document/) sabit sayfa Xaml formatında, Aspose.Words'ün belgeye gömülü all görüntülerini bağımsız dosyalar olarak kaydetmesi gerekir.`ResourcesFolder` görüntülerin nereye kaydedileceğini belirtmenize ve[`ResourcesFolderAlias`](../resourcesfolderalias/) , görüntü URI'lerinin nasıl oluşturulacağını belirtmeye olanak tanır.
 
@@ -22,7 +24,7 @@ Bir belgeyi bir dosyaya kaydederseniz ve bir dosya adı sağlarsanız, Aspose.Wo
 
 Bir belgeyi bir akışa kaydederseniz, Aspose.Words'de görüntülerin kaydedileceği bir klasör yoktur, ancak yine de görüntüleri bir yere kaydetmesi gerekir. Bu durumda, erişilebilir bir klasör belirtmeniz gerekir.`ResourcesFolder` mülk
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi sabit biçimli .xaml dosyasına dönüştürürken oluşturulan bağlantılı kaynakların URI'lerinin nasıl yazdırılacağını gösterir.
 
@@ -85,7 +87,5 @@ private class ResourceUriPrinter : IResourceSavingCallback
 ### Ayrıca bakınız
 
 * class [XamlFixedSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../xamlfixedsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

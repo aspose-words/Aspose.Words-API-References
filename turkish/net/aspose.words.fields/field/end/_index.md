@@ -1,7 +1,9 @@
 ---
 title: Field.End
-second_title: Aspose.Words for .NET API Referansı
-description: Field mülk. Alan sonunu temsil eden düğümü alır.
+linktitle: End
+articleTitle: End
+second_title: Aspose.Words for .NET
+description: Field End mülk. Alan sonunu temsil eden düğümü alır C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/field/end/
@@ -14,7 +16,7 @@ Alan sonunu temsil eden düğümü alır.
 public FieldEnd End { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir alan koleksiyonuyla nasıl çalışılacağını gösterir.
 
@@ -118,7 +120,5 @@ public class FieldVisitor : DocumentVisitor
 
 * class [FieldEnd](../../fieldend/)
 * class [Field](../)
-* ad alanı [Aspose.Words.Fields](../../field/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: HeaderFooter.ParentSection
-second_title: Aspose.Words for .NET API Referansı
-description: HeaderFooter mülk. Bu hikayenin ana bölümünü alır.
+linktitle: ParentSection
+articleTitle: ParentSection
+second_title: Aspose.Words for .NET
+description: HeaderFooter ParentSection mülk. Bu hikayenin ana bölümünü alır C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words/headerfooter/parentsection/
@@ -14,11 +16,11 @@ Bu hikayenin ana bölümünü alır.
 public Section ParentSection { get; }
 ```
 
-### Notlar
+## Notlar
 
 `ParentSection` eşdeğerdir[`ParentNode`](../../node/parentnode/) rol almak[`Section`](../../section/).
 
-### Örnekler
+## Örnekler
 
 Bölümler arasında üstbilgilerin ve altbilgilerin nasıl bağlanacağını gösterir.
 
@@ -84,7 +86,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Link.docx");
 
 * class [Section](../../section/)
 * class [HeaderFooter](../)
-* ad alanı [Aspose.Words](../../headerfooter/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

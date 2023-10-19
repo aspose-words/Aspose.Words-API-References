@@ -1,7 +1,9 @@
 ---
-title: Class MustacheTag
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.MailMerging.MustacheTag sınıf. Bıyık etiketini temsil eder.
+title: MustacheTag Class
+linktitle: MustacheTag
+articleTitle: MustacheTag
+second_title: Aspose.Words for .NET
+description: Aspose.Words.MailMerging.MustacheTag sınıf. Bıyık etiketini temsil eder C#'da.
 type: docs
 weight: 3880
 url: /tr/net/aspose.words.mailmerging/mustachetag/
@@ -26,5 +28,3 @@ public class MustacheTag
 
 * ad alanı [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * toplantı [Aspose.Words](../../)
-
-

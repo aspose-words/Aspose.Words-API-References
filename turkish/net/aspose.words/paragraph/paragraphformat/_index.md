@@ -1,7 +1,9 @@
 ---
 title: Paragraph.ParagraphFormat
-second_title: Aspose.Words for .NET API Referansı
-description: Paragraph mülk. Paragraf biçimlendirme özelliklerine erişim sağlar.
+linktitle: ParagraphFormat
+articleTitle: ParagraphFormat
+second_title: Aspose.Words for .NET
+description: Paragraph ParagraphFormat mülk. Paragraf biçimlendirme özelliklerine erişim sağlar C#'da.
 type: docs
 weight: 190
 url: /tr/net/aspose.words/paragraph/paragraphformat/
@@ -14,7 +16,7 @@ Paragraf biçimlendirme özelliklerine erişim sağlar.
 public ParagraphFormat ParagraphFormat { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Aspose.Words belgesinin elle nasıl oluşturulacağını gösterir.
 
@@ -65,7 +67,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * class [ParagraphFormat](../../paragraphformat/)
 * class [Paragraph](../)
-* ad alanı [Aspose.Words](../../paragraph/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FileFormatUtil.SaveFormatToLoadFormat
-second_title: Aspose.Words for .NET API Referansı
-description: FileFormatUtil yöntem. Biri dönüştürürSaveFormat bir değerLoadFormat mümkünse değer.
+linktitle: SaveFormatToLoadFormat
+articleTitle: SaveFormatToLoadFormat
+second_title: Aspose.Words for .NET
+description: FileFormatUtil SaveFormatToLoadFormat yöntem. Biri dönüştürürSaveFormat bir değerLoadFormat mümkünse değer C#'da.
 type: docs
 weight: 90
 url: /tr/net/aspose.words/fileformatutil/saveformattoloadformat/
@@ -20,7 +22,7 @@ public static LoadFormat SaveFormatToLoadFormat(SaveFormat saveFormat)
 | --- | --- |
 | ArgumentException | Dönüştürülemediğinde atar. |
 
-### Örnekler
+## Örnekler
 
 Bir kaydetme biçiminin karşılık gelen yükleme biçimine nasıl dönüştürüleceğini gösterir.
 
@@ -37,7 +39,5 @@ Assert.Throws<ArgumentException>(() => FileFormatUtil.SaveFormatToLoadFormat(Sav
 * enum [LoadFormat](../../loadformat/)
 * enum [SaveFormat](../../saveformat/)
 * class [FileFormatUtil](../)
-* ad alanı [Aspose.Words](../../fileformatutil/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

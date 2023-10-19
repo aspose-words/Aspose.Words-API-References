@@ -1,7 +1,9 @@
 ---
 title: PageSetup.TextColumns
-second_title: Aspose.Words for .NET API Referansı
-description: PageSetup mülk. Metin sütunları kümesini temsil eden bir koleksiyon döndürür.
+linktitle: TextColumns
+articleTitle: TextColumns
+second_title: Aspose.Words for .NET
+description: PageSetup TextColumns mülk. Metin sütunları kümesini temsil eden bir koleksiyon döndürür C#'da.
 type: docs
 weight: 420
 url: /tr/net/aspose.words/pagesetup/textcolumns/
@@ -14,7 +16,7 @@ Metin sütunları kümesini temsil eden bir koleksiyon döndürür.
 public TextColumnCollection TextColumns { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir bölümde birden çok eşit aralıklı sütunun nasıl oluşturulacağını gösterir.
 
@@ -37,7 +39,5 @@ doc.Save(ArtifactsDir + "PageSetup.ColumnsSameWidth.docx");
 
 * class [TextColumnCollection](../../textcolumncollection/)
 * class [PageSetup](../)
-* ad alanı [Aspose.Words](../../pagesetup/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

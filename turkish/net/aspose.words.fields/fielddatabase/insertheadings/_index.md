@@ -1,7 +1,9 @@
 ---
 title: FieldDatabase.InsertHeadings
-second_title: Aspose.Words for .NET API Referansı
-description: FieldDatabase mülk. Veritabanındaki alan adlarının sonuç tablosundaki sütun başlıkları olarak eklenip eklenmeyeceğini alır veya ayarlar.
+linktitle: InsertHeadings
+articleTitle: InsertHeadings
+second_title: Aspose.Words for .NET
+description: FieldDatabase InsertHeadings mülk. Veritabanındaki alan adlarının sonuç tablosundaki sütun başlıkları olarak eklenip eklenmeyeceğini alır veya ayarlar C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.fields/fielddatabase/insertheadings/
@@ -14,7 +16,7 @@ Veritabanındaki alan adlarının sonuç tablosundaki sütun başlıkları olara
 public bool InsertHeadings { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Veritabanından verinin nasıl çıkarılacağını ve bunun bir alan olarak belgeye nasıl ekleneceğini gösterir.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Field.DATABASE.docx");
 ### Ayrıca bakınız
 
 * class [FieldDatabase](../)
-* ad alanı [Aspose.Words.Fields](../../fielddatabase/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: GeneralFormatCollection.Item
-second_title: Aspose.Words for .NET API Referansı
-description: GeneralFormatCollection mülk. Belirtilen dizinde genel bir format alır.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words for .NET
+description: GeneralFormatCollection Item mülk. Belirtilen dizinde genel bir format alır C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/generalformatcollection/item/
@@ -22,7 +24,7 @@ public GeneralFormat this[int index] { get; }
 
 Genel bir format.
 
-### Örnekler
+## Örnekler
 
 Alan sonuçlarının nasıl biçimlendirileceğini gösterir.
 
@@ -87,7 +89,5 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 
 * enum [GeneralFormat](../../generalformat/)
 * class [GeneralFormatCollection](../)
-* ad alanı [Aspose.Words.Fields](../../generalformatcollection/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

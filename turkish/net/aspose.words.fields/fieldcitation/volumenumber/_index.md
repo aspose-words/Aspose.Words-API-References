@@ -1,7 +1,9 @@
 ---
 title: FieldCitation.VolumeNumber
-second_title: Aspose.Words for .NET API Referansı
-description: FieldCitation mülk. Alıntıyla ilişkili cilt numarasını alır veya ayarlar.
+linktitle: VolumeNumber
+articleTitle: VolumeNumber
+second_title: Aspose.Words for .NET
+description: FieldCitation VolumeNumber mülk. Alıntıyla ilişkili cilt numarasını alır veya ayarlar C#'da.
 type: docs
 weight: 110
 url: /tr/net/aspose.words.fields/fieldcitation/volumenumber/
@@ -14,7 +16,7 @@ Alıntıyla ilişkili cilt numarasını alır veya ayarlar.
 public string VolumeNumber { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 CITATION ve KAYNAKÇA alanlarıyla nasıl çalışılacağını gösterir.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Field.CITATION.docx");
 ### Ayrıca bakınız
 
 * class [FieldCitation](../)
-* ad alanı [Aspose.Words.Fields](../../fieldcitation/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

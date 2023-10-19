@@ -1,7 +1,9 @@
 ---
 title: Shape.ShadowEnabled
-second_title: Aspose.Words for .NET API Referansı
-description: Shape mülk. İadelerdoğru gölge efekti etkinse.
+linktitle: ShadowEnabled
+articleTitle: ShadowEnabled
+second_title: Aspose.Words for .NET
+description: Shape ShadowEnabled mülk. İadelerdoğru gölge efekti etkinse C#'da.
 type: docs
 weight: 150
 url: /tr/net/aspose.words.drawing/shape/shadowenabled/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.drawing/shape/shadowenabled/
 public bool ShadowEnabled { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki tüm şekillerin nasıl yineleneceğini gösterir.
 
@@ -137,7 +139,5 @@ private class ShapeAppearancePrinter : DocumentVisitor
 ### Ayrıca bakınız
 
 * class [Shape](../)
-* ad alanı [Aspose.Words.Drawing](../../shape/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

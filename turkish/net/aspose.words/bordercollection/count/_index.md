@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.Count
-second_title: Aspose.Words for .NET API Referansı
-description: BorderCollection mülk. Koleksiyondaki kenarlık sayısını alır.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words for .NET
+description: BorderCollection Count mülk. Koleksiyondaki kenarlık sayısını alır C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/bordercollection/count/
@@ -14,7 +16,7 @@ Koleksiyondaki kenarlık sayısını alır.
 public int Count { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Kenarlık koleksiyonlarının öğeleri nasıl paylaşabildiğini gösterir.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Border.SharedElements.docx");
 ### Ayrıca bakınız
 
 * class [BorderCollection](../)
-* ad alanı [Aspose.Words](../../bordercollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

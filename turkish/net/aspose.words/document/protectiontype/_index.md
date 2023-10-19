@@ -1,7 +1,9 @@
 ---
 title: Document.ProtectionType
-second_title: Aspose.Words for .NET API Referansı
-description: Document mülk. Şu anda etkin olan belge koruma türünü alır.
+linktitle: ProtectionType
+articleTitle: ProtectionType
+second_title: Aspose.Words for .NET
+description: Document ProtectionType mülk. Şu anda etkin olan belge koruma türünü alır C#'da.
 type: docs
 weight: 330
 url: /tr/net/aspose.words/document/protectiontype/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words/document/protectiontype/
 public ProtectionType ProtectionType { get; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özellik, halihazırda ayarlanmış olan belge koruma tipinin alınmasına olanak sağlar. Belge koruma tipini değiştirmek için şunu kullanın:[`Protect`](../protect/) ve[`Unprotect`](../unprotect/) yöntemler.
 
@@ -22,7 +24,7 @@ Bir belge korunduğunda, kullanıcı açıklama ekleme, düzeltme yapma veya for
 
 Belge korumasının yazma korumasından farklı olduğunu unutmayın. Yazma koruması,[`WriteProtection`](../writeprotection/)
 
-### Örnekler
+## Örnekler
 
 Bir belgenin nasıl korunacağını ve korumasının nasıl kaldırılacağını gösterir.
 
@@ -68,7 +70,5 @@ Assert.AreEqual(ProtectionType.NoProtection, doc.ProtectionType);
 
 * enum [ProtectionType](../../protectiontype/)
 * class [Document](../)
-* ad alanı [Aspose.Words](../../document/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

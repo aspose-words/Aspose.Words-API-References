@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportXhtmlTransitional
-second_title: Aspose.Words for .NET API Referansı
-description: HtmlSaveOptions mülk. HTMLye veya MHTMLye kaydederken DOCTYPE bildiriminin yazıp yazmayacağını belirtir. Ne zamandoğru  belgede kök öğeden önce bir DOCTYPE bildirimi yazar. Varsayılan değerYANLIŞ. EPUB veya HTML5e kaydederken Html5  DOCTYPE bildirimi her zaman yazılır.
+linktitle: ExportXhtmlTransitional
+articleTitle: ExportXhtmlTransitional
+second_title: Aspose.Words for .NET
+description: HtmlSaveOptions ExportXhtmlTransitional mülk. HTMLye veya MHTMLye kaydederken DOCTYPE bildiriminin yazıp yazmayacağını belirtir. Ne zamandoğru  belgede kök öğeden önce bir DOCTYPE bildirimi yazar. Varsayılan değerYANLIŞ. EPUB veya HTML5e kaydederken Html5  DOCTYPE bildirimi her zaman yazılır C#'da.
 type: docs
 weight: 280
 url: /tr/net/aspose.words.saving/htmlsaveoptions/exportxhtmltransitional/
@@ -14,7 +16,7 @@ HTML'ye veya MHTML'ye kaydederken DOCTYPE bildiriminin yazıp yazmayacağını b
 public bool ExportXhtmlTransitional { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Aspose.Words bu ayardan bağımsız olarak her zaman iyi biçimlendirilmiş HTML yazar.
 
@@ -30,7 +32,7 @@ Aspose.Words, XHTML 1.0 Transitional spesifikasyonuna ( ) göre XHTML çıktıs�
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="tr" lang="tr">
 ```
 
-### Örnekler
+## Örnekler
 
 Belgeleri Xhtml 1.0 geçiş standardına dönüştürürken DOCTYPE başlığının nasıl görüntüleneceğini gösterir.
 
@@ -64,7 +66,5 @@ else
 ### Ayrıca bakınız
 
 * class [HtmlSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../htmlsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Section.Section
-second_title: Aspose.Words for .NET API Referansı
-description: Section inşaatçı. Bölüm sınıfının yeni bir örneğini başlatır.
+title: Section
+linktitle: Section
+articleTitle: Section
+second_title: Aspose.Words for .NET
+description: Section inşaatçı. Bölüm sınıfının yeni bir örneğini başlatır C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/section/section/
@@ -18,13 +20,13 @@ public Section(DocumentBase doc)
 | --- | --- | --- |
 | doc | DocumentBase | Sahibi belgesi. |
 
-### Notlar
+## Notlar
 
 Bölüm oluşturulduğunda belirtilen belgeye aittir ancak henüz değildir ve belgenin bir parçası değildir ve[`ParentNode`](../../node/parentnode/) dır-dir`hükümsüz`.
 
-İçermek[`Section`](../) bir belge kullanımınaNode) ve Node) yöntemleri[`Document`](../../document/) OR [`Add`](../../nodecollection/add/) Ve[`Insert`](../../nodecollection/insert/) yöntemleri[`Sections`](../../document/sections/) mülk.
+İçermek[`Section`](../) bir belge kullanımına[`InsertAfter`](../../compositenode/insertafter/) ve [`InsertBefore`](../../compositenode/insertbefore/) yöntemleri[`Document`](../../document/) OR [`Add`](../../nodecollection/add/) Ve[`Insert`](../../nodecollection/insert/) yöntemleri[`Sections`](../../document/sections/) mülk.
 
-### Örnekler
+## Örnekler
 
 Aspose.Words belgesinin elle nasıl oluşturulacağını gösterir.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * class [DocumentBase](../../documentbase/)
 * class [Section](../)
-* ad alanı [Aspose.Words](../../section/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

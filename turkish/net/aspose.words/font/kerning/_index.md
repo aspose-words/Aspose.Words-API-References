@@ -1,7 +1,9 @@
 ---
 title: Font.Kerning
-second_title: Aspose.Words for .NET API Referansı
-description: Font mülk. Karakter aralığının başlayacağı yazı tipi boyutunu alır veya ayarlar.
+linktitle: Kerning
+articleTitle: Kerning
+second_title: Aspose.Words for .NET
+description: Font Kerning mülk. Karakter aralığının başlayacağı yazı tipi boyutunu alır veya ayarlar C#'da.
 type: docs
 weight: 180
 url: /tr/net/aspose.words/font/kerning/
@@ -14,7 +16,7 @@ Karakter aralığının başlayacağı yazı tipi boyutunu alır veya ayarlar.
 public double Kerning { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Karakter aralığının etkili olmaya başlayacağı yazı tipi boyutunun nasıl belirleneceğini gösterir.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Font.Kerning.docx");
 ### Ayrıca bakınız
 
 * class [Font](../)
-* ad alanı [Aspose.Words](../../font/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

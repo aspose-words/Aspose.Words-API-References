@@ -1,7 +1,9 @@
 ---
 title: RevisionCollection.Groups
-second_title: Aspose.Words for .NET API Referansı
-description: RevisionCollection mülk. Revizyon gruplarının toplanması.
+linktitle: Groups
+articleTitle: Groups
+second_title: Aspose.Words for .NET
+description: RevisionCollection Groups mülk. Revizyon gruplarının toplanması C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/revisioncollection/groups/
@@ -14,7 +16,7 @@ Revizyon gruplarının toplanması.
 public RevisionGroupCollection Groups { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgenin düzeltme koleksiyonuyla nasıl çalışılacağını gösterir.
 
@@ -71,7 +73,5 @@ Assert.AreEqual(0, revisions.Count);
 
 * class [RevisionGroupCollection](../../revisiongroupcollection/)
 * class [RevisionCollection](../)
-* ad alanı [Aspose.Words](../../revisioncollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldToc.TableOfFiguresLabel
-second_title: Aspose.Words for .NET API Referansı
-description: FieldToc mülk. Şekiller tablosu oluştururken kullanılan sıra tanımlayıcının adını alır veya ayarlar.
+linktitle: TableOfFiguresLabel
+articleTitle: TableOfFiguresLabel
+second_title: Aspose.Words for .NET
+description: FieldToc TableOfFiguresLabel mülk. Şekiller tablosu oluştururken kullanılan sıra tanımlayıcının adını alır veya ayarlar C#'da.
 type: docs
 weight: 160
 url: /tr/net/aspose.words.fields/fieldtoc/tableoffigureslabel/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.fields/fieldtoc/tableoffigureslabel/
 public string TableOfFiguresLabel { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir TOC alanının SEQ alanlarını kullanarak girişlerle nasıl doldurulacağını gösterir.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "Field.TOC.SEQ.docx");
 ### Ayrıca bakınız
 
 * class [FieldToc](../)
-* ad alanı [Aspose.Words.Fields](../../fieldtoc/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

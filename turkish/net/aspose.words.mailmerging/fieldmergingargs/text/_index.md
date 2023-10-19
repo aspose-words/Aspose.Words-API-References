@@ -1,7 +1,9 @@
 ---
 title: FieldMergingArgs.Text
-second_title: Aspose.Words for .NET API Referansı
-description: FieldMergingArgs mülk. Geçerli birleştirme alanı için belgeye eklenecek metni alır veya ayarlar.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words for .NET
+description: FieldMergingArgs Text mülk. Geçerli birleştirme alanı için belgeye eklenecek metni alır veya ayarlar C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.mailmerging/fieldmergingargs/text/
@@ -14,7 +16,7 @@ Geçerli birleştirme alanı için belgeye eklenecek metni alır veya ayarlar.
 public string Text { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Olay işleyiciniz çağrıldığında bu özellik şu şekilde ayarlanır:`hükümsüz`.
 
@@ -22,7 +24,7 @@ Metni farklı bırakırsanız`hükümsüz` , adres-mektup birleştirme motoru ek
 
 Metni herhangi bir dizeye (boş dahil) ayarlarsanız, dize belgeye birleştirme alanının yerine eklenir.
 
-### Örnekler
+## Örnekler
 
 HTML belgeleri biçimindeki birleştirme verilerini işleyen özel bir geri çağırma ile adres-mektup birleştirmenin nasıl yürütüleceğini gösterir.
 
@@ -90,7 +92,5 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 ### Ayrıca bakınız
 
 * class [FieldMergingArgs](../)
-* ad alanı [Aspose.Words.MailMerging](../../fieldmergingargs/)
+* ad alanı [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.Horizontal
-second_title: Aspose.Words for .NET API Referansı
-description: BorderCollection mülk. Hücreler veya uyumlu paragraflar arasında kullanılan yatay kenarlığı alır.
+linktitle: Horizontal
+articleTitle: Horizontal
+second_title: Aspose.Words for .NET
+description: BorderCollection Horizontal mülk. Hücreler veya uyumlu paragraflar arasında kullanılan yatay kenarlığı alır C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words/bordercollection/horizontal/
@@ -14,7 +16,7 @@ Hücreler veya uyumlu paragraflar arasında kullanılan yatay kenarlığı alır
 public Border Horizontal { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Ayarların yatay kenarlıklara paragraf formatına nasıl uygulanacağını gösterir.
 
@@ -83,7 +85,5 @@ doc.Save(ArtifactsDir + "Border.VerticalBorders.docx");
 
 * class [Border](../../border/)
 * class [BorderCollection](../)
-* ad alanı [Aspose.Words](../../bordercollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

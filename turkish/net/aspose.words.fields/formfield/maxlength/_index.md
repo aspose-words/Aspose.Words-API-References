@@ -1,7 +1,9 @@
 ---
 title: FormField.MaxLength
-second_title: Aspose.Words for .NET API Referansı
-description: FormField mülk. Metin alanı için maksimum uzunluk. Uzunluk sınırlı olmadığında sıfır.
+linktitle: MaxLength
+articleTitle: MaxLength
+second_title: Aspose.Words for .NET
+description: FormField MaxLength mülk. Metin alanı için maksimum uzunluk. Uzunluk sınırlı olmadığında sıfır C#'da.
 type: docs
 weight: 120
 url: /tr/net/aspose.words.fields/formfield/maxlength/
@@ -14,7 +16,7 @@ Metin alanı için maksimum uzunluk. Uzunluk sınırlı olmadığında sıfır.
 public int MaxLength { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgeye farklı türde form alanlarının nasıl eklendiğini ve bunların bir belge ziyaretçi uygulaması kullanılarak nasıl işlendiğini gösterir.
 
@@ -148,7 +150,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Ayrıca bakınız
 
 * class [FormField](../)
-* ad alanı [Aspose.Words.Fields](../../formfield/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

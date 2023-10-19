@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.JpegQuality
-second_title: Aspose.Words for .NET API Referansı
-description: PdfSaveOptions mülk. PDF belgesi içindeki JPEG görüntülerinin kalitesini belirleyen bir değer alır veya ayarlar.
+linktitle: JpegQuality
+articleTitle: JpegQuality
+second_title: Aspose.Words for .NET
+description: PdfSaveOptions JpegQuality mülk. PDF belgesi içindeki JPEG görüntülerinin kalitesini belirleyen bir değer alır veya ayarlar C#'da.
 type: docs
 weight: 220
 url: /tr/net/aspose.words.saving/pdfsaveoptions/jpegquality/
@@ -14,7 +16,7 @@ PDF belgesi içindeki JPEG görüntülerinin kalitesini belirleyen bir değer al
 public int JpegQuality { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer 100'dür.
 
@@ -24,7 +26,7 @@ Yalnızca bir belge JPEG görüntüleri içerdiğinde etkili olur.
 
 PDF formatında kaydederken belge içindeki görüntülerin kalitesini almak veya ayarlamak için bu özelliği kullanın. Değer 0 ila 100 arasında değişebilir; burada 0 en kötü kalite ancak maksimum sıkıştırma anlamına gelir ve 100 en iyi kalite ancak minimum sıkıştırma anlamına gelir. Kalite ise 100'dür ve kaynak görüntü JPEG'dir, bu sıkıştırma olmadığı anlamına gelir - orijinal baytlar kaydedilecektir.
 
-### Örnekler
+## Örnekler
 
 PDF'ye dönüştürdüğümüz bir belgedeki tüm görüntüler için sıkıştırma türünün nasıl belirleneceğini gösterir.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ImageCompression.pdf", pdfSaveOptions);
 ### Ayrıca bakınız
 
 * class [PdfSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../pdfsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

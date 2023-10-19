@@ -1,7 +1,9 @@
 ---
 title: ImageData.GrayScale
-second_title: Aspose.Words for .NET API Referansı
-description: ImageData mülk. Bir resmin gri tonlamalı modda görüntülenip görüntülenmeyeceğini belirler.
+linktitle: GrayScale
+articleTitle: GrayScale
+second_title: Aspose.Words for .NET
+description: ImageData GrayScale mülk. Bir resmin gri tonlamalı modda görüntülenip görüntülenmeyeceğini belirler C#'da.
 type: docs
 weight: 100
 url: /tr/net/aspose.words.drawing/imagedata/grayscale/
@@ -14,11 +16,11 @@ Bir resmin gri tonlamalı modda görüntülenip görüntülenmeyeceğini belirle
 public bool GrayScale { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:`YANLIŞ`.
 
-### Örnekler
+## Örnekler
 
 Bir şeklin görüntü verilerinin nasıl düzenleneceğini gösterir.
 
@@ -81,7 +83,5 @@ dstDoc.Save(ArtifactsDir + "Drawing.ImageData.docx");
 ### Ayrıca bakınız
 
 * class [ImageData](../)
-* ad alanı [Aspose.Words.Drawing](../../imagedata/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

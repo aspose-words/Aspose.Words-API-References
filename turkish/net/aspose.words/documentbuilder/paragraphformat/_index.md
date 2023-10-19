@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.ParagraphFormat
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentBuilder mülk. Geçerli paragraf biçimlendirme özelliklerini temsil eden bir nesneyi döndürür.
+linktitle: ParagraphFormat
+articleTitle: ParagraphFormat
+second_title: Aspose.Words for .NET
+description: DocumentBuilder ParagraphFormat mülk. Geçerli paragraf biçimlendirme özelliklerini temsil eden bir nesneyi döndürür C#'da.
 type: docs
 weight: 170
 url: /tr/net/aspose.words/documentbuilder/paragraphformat/
@@ -14,7 +16,7 @@ Geçerli paragraf biçimlendirme özelliklerini temsil eden bir nesneyi döndür
 public ParagraphFormat ParagraphFormat { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 DocumentBuilder kullanılarak biçimlendirilmiş bir tablonun nasıl oluşturulacağını gösterir.
 
@@ -78,7 +80,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.CreateFormattedTable.docx");
 
 * class [ParagraphFormat](../../paragraphformat/)
 * class [DocumentBuilder](../)
-* ad alanı [Aspose.Words](../../documentbuilder/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

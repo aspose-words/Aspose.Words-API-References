@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.Count
-second_title: Aspose.Words for .NET API Referansı
-description: ChartDataLabelCollection mülk. Sayıyı döndürürChartDataLabel bu koleksiyonda.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words for .NET
+description: ChartDataLabelCollection Count mülk. Sayıyı döndürürChartDataLabel bu koleksiyonda C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.drawing.charts/chartdatalabelcollection/count/
@@ -14,7 +16,7 @@ Sayıyı döndürür[`ChartDataLabel`](../../chartdatalabel/) bu koleksiyonda.
 public int Count { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Çizgi grafikteki veri noktalarına etiketlerin nasıl uygulanacağını gösterir.
 
@@ -92,7 +94,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 ### Ayrıca bakınız
 
 * class [ChartDataLabelCollection](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

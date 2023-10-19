@@ -1,7 +1,9 @@
 ---
 title: NodeChangingArgs.Node
-second_title: Aspose.Words for .NET API Referansı
-description: NodeChangingArgs mülk. AlırNode bu ekleniyor veya kaldırılıyor.
+linktitle: Node
+articleTitle: Node
+second_title: Aspose.Words for .NET
+description: NodeChangingArgs Node mülk. AlırNode bu ekleniyor veya kaldırılıyor C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/nodechangingargs/node/
@@ -14,7 +16,7 @@ Alır`Node` bu ekleniyor veya kaldırılıyor.
 public Node Node { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir geri aramayla düğüm değişiminin nasıl özelleştirileceğini gösterir.
 
@@ -92,7 +94,5 @@ public class HandleNodeChangingFontChanger : INodeChangingCallback
 
 * class [Node](../../node/)
 * class [NodeChangingArgs](../)
-* ad alanı [Aspose.Words](../../nodechangingargs/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

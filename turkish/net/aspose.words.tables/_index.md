@@ -1,7 +1,9 @@
 ---
 title: Aspose.Words.Tables
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Tablolar ad alanı tabloları satırları hücreleri ve bunların biçimlendirmesini temsil eden sınıflarını içerir.
+linktitle: Aspose.Words.Tables
+articleTitle: Aspose.Words.Tables
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Tablolar ad alanı tabloları satırları hücreleri ve bunların biçimlendirmesini temsil eden sınıflarını içerir C#'da.
 type: docs
 weight: 260
 url: /tr/net/aspose.words.tables/
@@ -32,5 +34,3 @@ url: /tr/net/aspose.words.tables/
 | [TableAlignment](./tablealignment/) | Satır içi tablo için hizalamayı belirtir. |
 | [TableStyleOptions](./tablestyleoptions/) | Tablo stilinin bir tabloya nasıl uygulanacağını belirtir. |
 | [TextWrapping](./textwrapping/) | Metnin tablonun etrafına nasıl sarılacağını belirtir. |
-
-

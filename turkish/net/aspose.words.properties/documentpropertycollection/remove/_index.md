@@ -1,7 +1,9 @@
 ---
 title: DocumentPropertyCollection.Remove
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentPropertyCollection yöntem. Belirtilen ada sahip bir özelliği koleksiyondan kaldırır.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words for .NET
+description: DocumentPropertyCollection Remove yöntem. Belirtilen ada sahip bir özelliği koleksiyondan kaldırır C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.properties/documentpropertycollection/remove/
@@ -18,7 +20,7 @@ public void Remove(string name)
 | --- | --- | --- |
 | name | String | Özelliğin büyük/küçük harfe duyarlı olmayan adı. |
 
-### Örnekler
+## Örnekler
 
 Bir belgenin özel özellikleriyle nasıl çalışılacağını gösterir.
 
@@ -78,7 +80,5 @@ Assert.AreEqual(0, properties.Count);
 ### Ayrıca bakınız
 
 * class [DocumentPropertyCollection](../)
-* ad alanı [Aspose.Words.Properties](../../documentpropertycollection/)
+* ad alanı [Aspose.Words.Properties](../../../aspose.words.properties/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class XmlDataSource
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Reporting.XmlDataSource sınıf. Bir raporda kullanılacak XML dosyası veya akışının verilerine erişim sağlar.
+title: XmlDataSource Class
+linktitle: XmlDataSource
+articleTitle: XmlDataSource
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Reporting.XmlDataSource sınıf. Bir raporda kullanılacak XML dosyası veya akışının verilerine erişim sağlar C#'da.
 type: docs
 weight: 4750
 url: /tr/net/aspose.words.reporting/xmldatasource/
@@ -20,16 +22,16 @@ public class XmlDataSource
 
 | İsim | Tanım |
 | --- | --- |
-| [XmlDataSource](xmldatasource/#constructor)(Stream) | XML veri yüklemesi için varsayılan seçenekleri kullanarak XML akışından gelen verilerle yeni bir veri kaynağı oluşturur. |
-| [XmlDataSource](xmldatasource/#constructor_4)(string) | XML veri yüklemesi için varsayılan seçenekleri kullanarak XML dosyasındaki verilerle yeni bir veri kaynağı oluşturur. |
-| [XmlDataSource](xmldatasource/#constructor_2)(Stream, Stream) | XML Şema Tanımı akışını kullanarak XML akışındaki verilerle yeni bir veri kaynağı oluşturur. XML verilerinin yüklenmesi için varsayılan options kullanılır. |
-| [XmlDataSource](xmldatasource/#constructor_1)(Stream, XmlDataLoadOptions) | XML veri yüklemesi için belirtilen seçenekleri kullanarak XML akışındaki verilerle yeni bir veri kaynağı oluşturur. |
-| [XmlDataSource](xmldatasource/#constructor_6)(string, string) | XML Şema Tanımı dosyasını kullanarak XML dosyasındaki verilerle yeni bir veri kaynağı oluşturur. XML verilerinin yüklenmesi için varsayılan options kullanılır. |
-| [XmlDataSource](xmldatasource/#constructor_5)(string, XmlDataLoadOptions) | XML veri yüklemesi için belirtilen seçenekleri kullanarak XML dosyasındaki verilerle yeni bir veri kaynağı oluşturur. |
-| [XmlDataSource](xmldatasource/#constructor_3)(Stream, Stream, XmlDataLoadOptions) | XML Şema Tanımı akışını kullanarak XML akışındaki verilerle yeni bir veri kaynağı oluşturur. Belirtilen seçenekleri XML veri yüklemesi için kullanılır. |
-| [XmlDataSource](xmldatasource/#constructor_7)(string, string, XmlDataLoadOptions) | XML Şema Tanımı dosyasını kullanarak XML dosyasındaki verilerle yeni bir veri kaynağı oluşturur. Belirtilen seçenekleri XML veri yüklemesi için kullanılır. |
+| [XmlDataSource](xmldatasource/#constructor)(*Stream*) | XML veri yüklemesi için varsayılan seçenekleri kullanarak XML akışından gelen verilerle yeni bir veri kaynağı oluşturur. |
+| [XmlDataSource](xmldatasource/#constructor_4)(*string*) | XML veri yüklemesi için varsayılan seçenekleri kullanarak XML dosyasındaki verilerle yeni bir veri kaynağı oluşturur. |
+| [XmlDataSource](xmldatasource/#constructor_2)(*Stream, Stream*) | XML Şema Tanımı akışını kullanarak XML akışındaki verilerle yeni bir veri kaynağı oluşturur. XML verilerinin yüklenmesi için varsayılan options kullanılır. |
+| [XmlDataSource](xmldatasource/#constructor_1)(*Stream, [XmlDataLoadOptions](../xmldataloadoptions/)*) | XML veri yüklemesi için belirtilen seçenekleri kullanarak XML akışındaki verilerle yeni bir veri kaynağı oluşturur. |
+| [XmlDataSource](xmldatasource/#constructor_6)(*string, string*) | XML Şema Tanımı dosyasını kullanarak XML dosyasındaki verilerle yeni bir veri kaynağı oluşturur. XML verilerinin yüklenmesi için varsayılan options kullanılır. |
+| [XmlDataSource](xmldatasource/#constructor_5)(*string, [XmlDataLoadOptions](../xmldataloadoptions/)*) | XML veri yüklemesi için belirtilen seçenekleri kullanarak XML dosyasındaki verilerle yeni bir veri kaynağı oluşturur. |
+| [XmlDataSource](xmldatasource/#constructor_3)(*Stream, Stream, [XmlDataLoadOptions](../xmldataloadoptions/)*) | XML Şema Tanımı akışını kullanarak XML akışındaki verilerle yeni bir veri kaynağı oluşturur. Belirtilen seçenekleri XML veri yüklemesi için kullanılır. |
+| [XmlDataSource](xmldatasource/#constructor_7)(*string, string, [XmlDataLoadOptions](../xmldataloadoptions/)*) | XML Şema Tanımı dosyasını kullanarak XML dosyasındaki verilerle yeni bir veri kaynağı oluşturur. Belirtilen seçenekleri XML veri yüklemesi için kullanılır. |
 
-### Notlar
+## Notlar
 
 Bir rapor oluştururken ilgili dosyanın veya akışın verilerine erişmek için, bu sınıfın bir örneğini as veri kaynağı olarak aşağıdakilerden birine iletin.[`ReportingEngine`](../reportingengine/) .BuildReport aşırı yüklemeleri.
 
@@ -53,5 +55,3 @@ XML veri yüklemesinin varsayılan davranışını geçersiz kılmak için, bir 
 
 * ad alanı [Aspose.Words.Reporting](../../aspose.words.reporting/)
 * toplantı [Aspose.Words](../../)
-
-

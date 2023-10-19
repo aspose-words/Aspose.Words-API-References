@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.RemoveSelfOnly
-second_title: Aspose.Words for .NET API Referansı
-description: StructuredDocumentTagRangeStart yöntem. Yapılandırılmış belge etiketinin bu aralık başlangıç ve uygun aralık sonu düğümlerini kaldırır ancak içeriğini belge ağacının içinde tutar.
+linktitle: RemoveSelfOnly
+articleTitle: RemoveSelfOnly
+second_title: Aspose.Words for .NET
+description: StructuredDocumentTagRangeStart RemoveSelfOnly yöntem. Yapılandırılmış belge etiketinin bu aralık başlangıç ve uygun aralık sonu düğümlerini kaldırır ancak içeriğini belge ağacının içinde tutar C#'da.
 type: docs
 weight: 240
 url: /tr/net/aspose.words.markup/structureddocumenttagrangestart/removeselfonly/
@@ -14,7 +16,7 @@ Yapılandırılmış belge etiketinin, bu aralık başlangıç ve uygun aralık 
 public void RemoveSelfOnly()
 ```
 
-### Örnekler
+## Örnekler
 
 Yapılandırılmış belge etiketinin ve içeriğinin nasıl oluşturulacağını/kaldırılacağını gösterir.
 
@@ -66,7 +68,5 @@ public void InsertStructuredDocumentTagRanges(Document doc, out StructuredDocume
 ### Ayrıca bakınız
 
 * class [StructuredDocumentTagRangeStart](../)
-* ad alanı [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

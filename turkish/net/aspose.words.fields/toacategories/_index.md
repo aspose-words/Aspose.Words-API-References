@@ -1,7 +1,9 @@
 ---
-title: Class ToaCategories
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Fields.ToaCategories sınıf. Yetki kategorileri tablosunu temsil eder.
+title: ToaCategories Class
+linktitle: ToaCategories
+articleTitle: ToaCategories
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Fields.ToaCategories sınıf. Yetki kategorileri tablosunu temsil eder C#'da.
 type: docs
 weight: 2780
 url: /tr/net/aspose.words.fields/toacategories/
@@ -29,7 +31,7 @@ public class ToaCategories
 | static [DefaultCategories](../../aspose.words.fields/toacategories/defaultcategories/) { get; } | Yetki kategorilerinin varsayılan tablosunu alır. |
 | [Item](../../aspose.words.fields/toacategories/item/) { get; set; } | Kategori başlığını kategori numarasına göre alır veya ayarlar. |
 
-### Örnekler
+## Örnekler
 
 TOA alanları için bir kategori kümesinin nasıl belirtileceğini gösterir.
 
@@ -78,5 +80,3 @@ doc.Save(ArtifactsDir + "FieldOptions.TOA.Categories.docx");
 
 * ad alanı [Aspose.Words.Fields](../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../)
-
-

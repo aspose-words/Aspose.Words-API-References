@@ -1,7 +1,9 @@
 ---
 title: PhysicalFontInfo.FilePath
-second_title: Aspose.Words for .NET API Referansı
-description: PhysicalFontInfo mülk. Varsa yazı tipi dosyasının yolu.
+linktitle: FilePath
+articleTitle: FilePath
+second_title: Aspose.Words for .NET
+description: PhysicalFontInfo FilePath mülk. Varsa yazı tipi dosyasının yolu C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fonts/physicalfontinfo/filepath/
@@ -14,7 +16,7 @@ Varsa yazı tipi dosyasının yolu.
 public string FilePath { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Kullanılabilir yazı tiplerinin nasıl listeleneceğini gösterir.
 
@@ -34,7 +36,5 @@ foreach (PhysicalFontInfo fontInfo in folderFontSource[0].GetAvailableFonts())
 ### Ayrıca bakınız
 
 * class [PhysicalFontInfo](../)
-* ad alanı [Aspose.Words.Fonts](../../physicalfontinfo/)
+* ad alanı [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../../)
-
-

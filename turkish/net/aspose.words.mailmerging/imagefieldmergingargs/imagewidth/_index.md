@@ -1,7 +1,9 @@
 ---
 title: ImageFieldMergingArgs.ImageWidth
-second_title: Aspose.Words for .NET API Referansı
-description: ImageFieldMergingArgs mülk. Belgeye eklenecek görüntünün görüntü genişliğini belirtir.
+linktitle: ImageWidth
+articleTitle: ImageWidth
+second_title: Aspose.Words for .NET
+description: ImageFieldMergingArgs ImageWidth mülk. Belgeye eklenecek görüntünün görüntü genişliğini belirtir C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.mailmerging/imagefieldmergingargs/imagewidth/
@@ -14,13 +16,13 @@ Belgeye eklenecek görüntünün görüntü genişliğini belirtir.
 public MergeFieldImageDimension ImageWidth { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özelliğin değeri başlangıçta the şablon belgesinde yer alan karşılık gelen MERGEFIELD kodundan gelir. Başlangıç değerini geçersiz kılmak için bir örneğini atamalısınız[`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension/) sınıfını bu özelliğe ayarlayın veya example öğesinin özelliklerini ayarlayın.[`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension/) bu özellik tarafından döndürülen sınıf.
 
 Görüntü genişliğinin orijinal değerinin uygulanması gerektiğini belirtmek için`hükümsüz` Bu özelliğe değerini ayarlayın veya[`Value`](../../../aspose.words.fields/mergefieldimagedimension/value/) example için özellik[`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension/) Bu özellik tarafından döndürülen sınıf negatif bir değere döner.
 
-### Örnekler
+## Örnekler
 
 Adres-mektup birleştirme sırasında MERGEFIELDS'in kabul ettiği görüntülerin boyutlarının nasıl ayarlanacağını gösterir.
 
@@ -91,7 +93,5 @@ private class MergedImageResizer : IFieldMergingCallback
 
 * class [MergeFieldImageDimension](../../../aspose.words.fields/mergefieldimagedimension/)
 * class [ImageFieldMergingArgs](../)
-* ad alanı [Aspose.Words.MailMerging](../../imagefieldmergingargs/)
+* ad alanı [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * toplantı [Aspose.Words](../../../)
-
-

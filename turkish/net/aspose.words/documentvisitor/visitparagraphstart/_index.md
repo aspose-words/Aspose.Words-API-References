@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitParagraphStart
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentVisitor yöntem. Bir paragrafın numaralandırılması başladığında çağrılır.
+linktitle: VisitParagraphStart
+articleTitle: VisitParagraphStart
+second_title: Aspose.Words for .NET
+description: DocumentVisitor VisitParagraphStart yöntem. Bir paragrafın numaralandırılması başladığında çağrılır C#'da.
 type: docs
 weight: 330
 url: /tr/net/aspose.words/documentvisitor/visitparagraphstart/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitParagraphStart(Paragraph paragraph)
 
 A[`VisitorAction`](../../visitoraction/) numaralandırmaya nasıl devam edileceğini belirten değer.
 
-### Örnekler
+## Örnekler
 
 Bir belgenin düğüm yapısını yazdırmak için belge ziyaretçisinin nasıl kullanılacağını gösterir.
 
@@ -384,7 +386,5 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [Paragraph](../../paragraph/)
 * class [DocumentVisitor](../)
-* ad alanı [Aspose.Words](../../documentvisitor/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

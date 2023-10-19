@@ -1,7 +1,9 @@
 ---
 title: Footnote.StoryType
-second_title: Aspose.Words for .NET API Referansı
-description: Footnote mülk. İadelerFootnotes veyaEndnotes .
+linktitle: StoryType
+articleTitle: StoryType
+second_title: Aspose.Words for .NET
+description: Footnote StoryType mülk. İadelerFootnotes veyaEndnotes  C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.notes/footnote/storytype/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.notes/footnote/storytype/
 public override StoryType StoryType { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 InlineStory düğümlerinin nasıl ekleneceğini gösterir.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "InlineStory.InsertInlineStoryNodes.docx");
 
 * enum [StoryType](../../../aspose.words/storytype/)
 * class [Footnote](../)
-* ad alanı [Aspose.Words.Notes](../../footnote/)
+* ad alanı [Aspose.Words.Notes](../../../aspose.words.notes/)
 * toplantı [Aspose.Words](../../../)
-
-

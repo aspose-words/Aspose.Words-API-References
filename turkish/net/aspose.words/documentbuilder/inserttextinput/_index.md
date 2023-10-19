@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.InsertTextInput
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentBuilder yöntem. Geçerli konuma bir metin formu alanı ekler.
+linktitle: InsertTextInput
+articleTitle: InsertTextInput
+second_title: Aspose.Words for .NET
+description: DocumentBuilder InsertTextInput yöntem. Geçerli konuma bir metin formu alanı ekler C#'da.
 type: docs
-weight: 480
+weight: 470
 url: /tr/net/aspose.words/documentbuilder/inserttextinput/
 ---
 ## DocumentBuilder.InsertTextInput method
@@ -27,11 +29,11 @@ public FormField InsertTextInput(string name, TextFormFieldType type, string for
 
 Yeni eklenen form alanı düğümü.
 
-### Notlar
+## Notlar
 
 Form alanı için bir ad belirlerseniz aynı adla otomatik olarak bir yer imi oluşturulur.
 
-### Örnekler
+## Örnekler
 
 Bir belgeye metin giriş formu alanının nasıl ekleneceğini gösterir.
 
@@ -90,7 +92,5 @@ builder.Document.Save(ArtifactsDir + "DocumentBuilder.CreateForm.docx");
 * class [FormField](../../../aspose.words.fields/formfield/)
 * enum [TextFormFieldType](../../../aspose.words.fields/textformfieldtype/)
 * class [DocumentBuilder](../)
-* ad alanı [Aspose.Words](../../documentbuilder/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

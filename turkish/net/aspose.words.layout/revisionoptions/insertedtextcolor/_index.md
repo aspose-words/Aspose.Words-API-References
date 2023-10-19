@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.InsertedTextColor
-second_title: Aspose.Words for .NET API Referansı
-description: RevisionOptions mülk. Eklenen içerik için kullanılacak rengi belirlemeye olanak tanırInsertion . Varsayılan değerByAuthor .
+linktitle: InsertedTextColor
+articleTitle: InsertedTextColor
+second_title: Aspose.Words for .NET
+description: RevisionOptions InsertedTextColor mülk. Eklenen içerik için kullanılacak rengi belirlemeye olanak tanırInsertion . Varsayılan değerByAuthor  C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.layout/revisionoptions/insertedtextcolor/
@@ -14,7 +16,7 @@ Eklenen içerik için kullanılacak rengi belirlemeye olanak tanırInsertion . V
 public RevisionColor InsertedTextColor { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 İşlenmiş bir çıktı belgesindeki düzeltmelerin görünümünün nasıl değiştirileceğini gösterir.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Document.LayoutOptionsRevisions.pdf");
 
 * enum [RevisionColor](../../revisioncolor/)
 * class [RevisionOptions](../)
-* ad alanı [Aspose.Words.Layout](../../revisionoptions/)
+* ad alanı [Aspose.Words.Layout](../../../aspose.words.layout/)
 * toplantı [Aspose.Words](../../../)
-
-

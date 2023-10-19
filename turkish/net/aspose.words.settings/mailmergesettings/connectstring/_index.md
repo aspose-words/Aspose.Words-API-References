@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.ConnectString
-second_title: Aspose.Words for .NET API Referansı
-description: MailMergeSettings mülk. Harici bir veri kaynağına bağlanmak için kullanılan bağlantı dizesini belirtir. Varsayılan değer boş bir dizedir.
+linktitle: ConnectString
+articleTitle: ConnectString
+second_title: Aspose.Words for .NET
+description: MailMergeSettings ConnectString mülk. Harici bir veri kaynağına bağlanmak için kullanılan bağlantı dizesini belirtir. Varsayılan değer boş bir dizedir C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.settings/mailmergesettings/connectstring/
@@ -14,7 +16,7 @@ Harici bir veri kaynağına bağlanmak için kullanılan bağlantı dizesini bel
 public string ConnectString { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Dış veri kaynağına bağlanırken adres-mektup birleştirmenin nasıl yürütüleceğini gösterir.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");
 ### Ayrıca bakınız
 
 * class [MailMergeSettings](../)
-* ad alanı [Aspose.Words.Settings](../../mailmergesettings/)
+* ad alanı [Aspose.Words.Settings](../../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class ChartYValue
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.Charts.ChartYValue sınıf. Bir grafik serisi için Y değerini temsil eder.
+title: ChartYValue Class
+linktitle: ChartYValue
+articleTitle: ChartYValue
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.Charts.ChartYValue sınıf. Bir grafik serisi için Y değerini temsil eder C#'da.
 type: docs
 weight: 870
 url: /tr/net/aspose.words.drawing.charts/chartyvalue/
@@ -27,13 +29,13 @@ public class ChartYValue
 
 | İsim | Tanım |
 | --- | --- |
-| static [FromDateTime](../../aspose.words.drawing.charts/chartyvalue/fromdatetime/)(DateTime) | Bir oluşturur`ChartYValue` örneğiDateTime type. |
-| static [FromDouble](../../aspose.words.drawing.charts/chartyvalue/fromdouble/)(double) | Bir oluşturur`ChartYValue` örneğiDouble type. |
-| static [FromTimeSpan](../../aspose.words.drawing.charts/chartyvalue/fromtimespan/)(TimeSpan) | Bir oluşturur`ChartYValue` örneğiTime type. |
-| override [Equals](../../aspose.words.drawing.charts/chartyvalue/equals/)(object) | Belirtilen nesnenin geçerli Y değeri nesnesine eşit olup olmadığını gösteren bir bayrak alır. |
+| static [FromDateTime](../../aspose.words.drawing.charts/chartyvalue/fromdatetime/)(*DateTime*) | Bir oluşturur`ChartYValue` örneğiDateTime type. |
+| static [FromDouble](../../aspose.words.drawing.charts/chartyvalue/fromdouble/)(*double*) | Bir oluşturur`ChartYValue` örneğiDouble type. |
+| static [FromTimeSpan](../../aspose.words.drawing.charts/chartyvalue/fromtimespan/)(*TimeSpan*) | Bir oluşturur`ChartYValue` örneğiTime type. |
+| override [Equals](../../aspose.words.drawing.charts/chartyvalue/equals/)(*object*) | Belirtilen nesnenin geçerli Y değeri nesnesine eşit olup olmadığını gösteren bir bayrak alır. |
 | override [GetHashCode](../../aspose.words.drawing.charts/chartyvalue/gethashcode/)() | Geçerli Y değeri nesnesi için karma kodu alır. |
 
-### Notlar
+## Notlar
 
 Bu sınıf, belirli bir türde Y değeri oluşturmak için bir dizi statik yöntem içerir. The [`ValueType`](./valuetype/) özelliği, mevcut bir Y değerinin türünü belirlemenizi sağlar.
 
@@ -43,5 +45,3 @@ Bir grafik serisinin boş olmayan tüm Y değerleri aynı olmalıdır[`ChartYVal
 
 * ad alanı [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../)
-
-

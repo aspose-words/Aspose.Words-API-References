@@ -1,7 +1,9 @@
 ---
-title: XamlFixedSaveOptions.XamlFixedSaveOptions
-second_title: Aspose.Words for .NET API Referansı
-description: XamlFixedSaveOptions inşaatçı. Default_Constructor
+title: XamlFixedSaveOptions
+linktitle: XamlFixedSaveOptions
+articleTitle: XamlFixedSaveOptions
+second_title: Aspose.Words for .NET
+description: XamlFixedSaveOptions inşaatçı. Default_Constructor C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.saving/xamlfixedsaveoptions/xamlfixedsaveoptions/
@@ -17,7 +19,5 @@ public XamlFixedSaveOptions()
 ### Ayrıca bakınız
 
 * class [XamlFixedSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../xamlfixedsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

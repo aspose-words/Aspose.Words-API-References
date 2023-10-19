@@ -1,12 +1,14 @@
 ---
 title: DigitalSignatureUtil.RemoveAllSignatures
-second_title: Aspose.Words for .NET API Referansı
-description: DigitalSignatureUtil yöntem. Kaynak dosyadaki tüm dijital imzaları kaldırır ve imzasız dosyayı hedef dosyaya yazar.
+linktitle: RemoveAllSignatures
+articleTitle: RemoveAllSignatures
+second_title: Aspose.Words for .NET
+description: DigitalSignatureUtil RemoveAllSignatures yöntem. Kaynak dosyadaki tüm dijital imzaları kaldırır ve imzasız dosyayı hedef dosyaya yazar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.digitalsignatures/digitalsignatureutil/removeallsignatures/
 ---
-## RemoveAllSignatures(string, string) {#removeallsignatures_1}
+## RemoveAllSignatures(*string, string*) {#removeallsignatures_1}
 
 Kaynak dosyadaki tüm dijital imzaları kaldırır ve imzasız dosyayı hedef dosyaya yazar.
 
@@ -16,7 +18,7 @@ Aşağıdaki formatlar dijital imza kaldırma için uyumludur: Doc , Dot , Docx 
 public static void RemoveAllSignatures(string srcFileName, string dstFileName)
 ```
 
-### Örnekler
+## Örnekler
 
 Dijital imzalı bir belgeden dijital imzaların nasıl kaldırılacağını gösterir.
 
@@ -44,12 +46,12 @@ Assert.That(DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignature
 ### Ayrıca bakınız
 
 * class [DigitalSignatureUtil](../)
-* ad alanı [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
+* ad alanı [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## RemoveAllSignatures(Stream, Stream) {#removeallsignatures}
+## RemoveAllSignatures(*Stream, Stream*) {#removeallsignatures}
 
 Kaynak akışındaki belgedeki tüm dijital imzaları kaldırır ve imzasız belgeyi hedef akışa yazar.
 
@@ -61,7 +63,7 @@ Aşağıdaki formatlar dijital imza kaldırma için uyumludur: Doc , Dot , Docx 
 public static void RemoveAllSignatures(Stream srcStream, Stream dstStream)
 ```
 
-### Örnekler
+## Örnekler
 
 Dijital imzalı bir belgeden dijital imzaların nasıl kaldırılacağını gösterir.
 
@@ -89,7 +91,5 @@ Assert.That(DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignature
 ### Ayrıca bakınız
 
 * class [DigitalSignatureUtil](../)
-* ad alanı [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
+* ad alanı [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * toplantı [Aspose.Words](../../../)
-
-

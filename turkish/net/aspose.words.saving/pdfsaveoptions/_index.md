@@ -1,7 +1,9 @@
 ---
-title: Class PdfSaveOptions
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Saving.PdfSaveOptions sınıf. Bir belgeyi bilgisayara kaydederken ek seçenekleri belirlemek için kullanılabilir.Pdf format.
+title: PdfSaveOptions Class
+linktitle: PdfSaveOptions
+articleTitle: PdfSaveOptions
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Saving.PdfSaveOptions sınıf. Bir belgeyi bilgisayara kaydederken ek seçenekleri belirlemek için kullanılabilir.Pdf format C#'da.
 type: docs
 weight: 5520
 url: /tr/net/aspose.words.saving/pdfsaveoptions/
@@ -34,7 +36,7 @@ public class PdfSaveOptions : FixedPageSaveOptions
 | [CreateNoteHyperlinks](../../aspose.words.saving/pdfsaveoptions/createnotehyperlinks/) { get; set; } | Ana metin öyküsündeki dipnot/sonnot referanslarının etkin köprülere dönüştürülüp dönüştürülmeyeceğini belirtir. Köprü tıklandığında ilgili dipnot/sonnota yönlendirir. Varsayılan:`YANLIŞ` . |
 | [CustomPropertiesExport](../../aspose.words.saving/pdfsaveoptions/custompropertiesexport/) { get; set; } | Yolu belirleyen bir değer alır veya ayarlar[`CustomDocumentProperties`](../../aspose.words/document/customdocumentproperties/) PDF dosyasına aktarılır. |
 | [CustomTimeZoneInfo](../../aspose.words.saving/saveoptions/customtimezoneinfo/) { get; set; } | Tarih/saat alanları için kullanılan özel yerel saat dilimini alır veya ayarlar. |
-| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | Varsayılan şablonun yolunu alır veya ayarlar (dosya adı dahil). Bu özellik için varsayılan değer: **boş dize** (Empty). |
+| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | Varsayılan şablonun yolunu alır veya ayarlar (dosya adı dahil). Bu özellik için varsayılan değer:**boş dize** (Empty). |
 | [DigitalSignatureDetails](../../aspose.words.saving/pdfsaveoptions/digitalsignaturedetails/) { get; set; } | Çıktı PDF belgesinin imzalanmasıyla ilgili ayrıntıları alır veya ayarlar. |
 | [DisplayDocTitle](../../aspose.words.saving/pdfsaveoptions/displaydoctitle/) { get; set; } | Pencerenin başlık çubuğunun, belge bilgileri sözlüğünün Başlık girişinden alınan belge başlığını görüntüleyip görüntülemeyeceğini belirten bir işaret. |
 | [Dml3DEffectsRenderingMode](../../aspose.words.saving/saveoptions/dml3deffectsrenderingmode/) { get; set; } | 3B efektlerin nasıl oluşturulacağını belirleyen bir değer alır veya ayarlar. |
@@ -87,9 +89,9 @@ public class PdfSaveOptions : FixedPageSaveOptions
 | İsim | Tanım |
 | --- | --- |
 | [Clone](../../aspose.words.saving/pdfsaveoptions/clone/)() | Bu nesnenin derin bir kopyasını oluşturur. |
-| override [Equals](../../aspose.words.saving/fixedpagesaveoptions/equals/)(object) | Belirtilen nesnenin değer olarak geçerli nesneye eşit olup olmadığını belirler. |
+| override [Equals](../../aspose.words.saving/fixedpagesaveoptions/equals/)(*object*) | Belirtilen nesnenin değer olarak geçerli nesneye eşit olup olmadığını belirler. |
 
-### Örnekler
+## Örnekler
 
 Kaydetme seçenekleri özelliğiyle görüntü renginin nasıl değiştirileceğini gösterir.
 
@@ -188,5 +190,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ExpandedOutlineLevels.pdf", options);
 * class [FixedPageSaveOptions](../fixedpagesaveoptions/)
 * ad alanı [Aspose.Words.Saving](../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../)
-
-

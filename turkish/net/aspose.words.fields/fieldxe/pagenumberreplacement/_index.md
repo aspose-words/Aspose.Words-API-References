@@ -1,7 +1,9 @@
 ---
 title: FieldXE.PageNumberReplacement
-second_title: Aspose.Words for .NET API Referansı
-description: FieldXE mülk. Sayfa numarası yerine kullanılan metni alır veya ayarlar.
+linktitle: PageNumberReplacement
+articleTitle: PageNumberReplacement
+second_title: Aspose.Words for .NET
+description: FieldXE PageNumberReplacement mülk. Sayfa numarası yerine kullanılan metni alır veya ayarlar C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.fields/fieldxe/pagenumberreplacement/
@@ -14,7 +16,7 @@ Sayfa numarası yerine kullanılan metni alır veya ayarlar.
 public string PageNumberReplacement { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir INDEX alanında çapraz referansların nasıl tanımlanacağını gösterir.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.CrossReferenceSeparator.docx");
 ### Ayrıca bakınız
 
 * class [FieldXE](../)
-* ad alanı [Aspose.Words.Fields](../../fieldxe/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

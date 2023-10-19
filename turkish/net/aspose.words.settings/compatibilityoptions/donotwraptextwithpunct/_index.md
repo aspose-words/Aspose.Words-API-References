@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.DoNotWrapTextWithPunct
-second_title: Aspose.Words for .NET API Referansı
-description: CompatibilityOptions mülk. Karakter Izgarasında Noktalama İşaretlerinin Asılmasına İzin Verme.
+linktitle: DoNotWrapTextWithPunct
+articleTitle: DoNotWrapTextWithPunct
+second_title: Aspose.Words for .NET
+description: CompatibilityOptions DoNotWrapTextWithPunct mülk. Karakter Izgarasında Noktalama İşaretlerinin Asılmasına İzin Verme C#'da.
 type: docs
 weight: 250
 url: /tr/net/aspose.words.settings/compatibilityoptions/donotwraptextwithpunct/
@@ -17,7 +19,5 @@ public bool DoNotWrapTextWithPunct { get; set; }
 ### Ayrıca bakınız
 
 * class [CompatibilityOptions](../)
-* ad alanı [Aspose.Words.Settings](../../compatibilityoptions/)
+* ad alanı [Aspose.Words.Settings](../../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../../)
-
-

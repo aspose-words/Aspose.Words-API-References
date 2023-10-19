@@ -1,7 +1,9 @@
 ---
-title: Class BuildVersionInfo
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.BuildVersionInfo sınıf. Geçerli ürün adı ve sürümü hakkında bilgi sağlar.
+title: BuildVersionInfo Class
+linktitle: BuildVersionInfo
+articleTitle: BuildVersionInfo
+second_title: Aspose.Words for .NET
+description: Aspose.Words.BuildVersionInfo sınıf. Geçerli ürün adı ve sürümü hakkında bilgi sağlar C#'da.
 type: docs
 weight: 120
 url: /tr/net/aspose.words/buildversioninfo/
@@ -23,7 +25,7 @@ public static class BuildVersionInfo
 | static [Product](../../aspose.words/buildversioninfo/product/) { get; } | Ürünün tam adını alır. |
 | static [Version](../../aspose.words/buildversioninfo/version/) { get; } | Ürün sürümünü alır. |
 
-### Örnekler
+## Örnekler
 
 Aspose.Words'ün kurulu sürümü hakkındaki bilgilerin nasıl görüntüleneceğini gösterir.
 
@@ -35,5 +37,3 @@ Console.WriteLine($"I am currently using {BuildVersionInfo.Product}, version num
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

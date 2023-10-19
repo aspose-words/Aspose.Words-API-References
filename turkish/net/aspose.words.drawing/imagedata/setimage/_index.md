@@ -1,12 +1,14 @@
 ---
 title: ImageData.SetImage
-second_title: Aspose.Words for .NET API Referansı
-description: ImageData yöntem. Şeklin görüntüleyeceği görüntüyü ayarlar.
+linktitle: SetImage
+articleTitle: SetImage
+second_title: Aspose.Words for .NET
+description: ImageData SetImage yöntem. Şeklin görüntüleyeceği görüntüyü ayarlar C#'da.
 type: docs
-weight: 210
+weight: 200
 url: /tr/net/aspose.words.drawing/imagedata/setimage/
 ---
-## SetImage(Image) {#setimage}
+## SetImage(*Image*) {#setimage}
 
 Şeklin görüntüleyeceği görüntüyü ayarlar.
 
@@ -18,7 +20,7 @@ public void SetImage(Image image)
 | --- | --- | --- |
 | image | Image | Görüntü nesnesi. |
 
-### Örnekler
+## Örnekler
 
 Yerel dosya sistemindeki görüntülerin bir belgede nasıl görüntüleneceğini gösterir.
 
@@ -53,12 +55,12 @@ doc.Save(ArtifactsDir + "Drawing.ImportImage.docx");
 ### Ayrıca bakınız
 
 * class [ImageData](../)
-* ad alanı [Aspose.Words.Drawing](../../imagedata/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## SetImage(Stream) {#setimage_1}
+## SetImage(*Stream*) {#setimage_1}
 
 Şeklin görüntüleyeceği görüntüyü ayarlar.
 
@@ -70,7 +72,7 @@ public void SetImage(Stream stream)
 | --- | --- | --- |
 | stream | Stream | Resmi içeren akış. |
 
-### Örnekler
+## Örnekler
 
 Yerel dosya sistemindeki görüntülerin bir belgede nasıl görüntüleneceğini gösterir.
 
@@ -105,12 +107,12 @@ doc.Save(ArtifactsDir + "Drawing.ImportImage.docx");
 ### Ayrıca bakınız
 
 * class [ImageData](../)
-* ad alanı [Aspose.Words.Drawing](../../imagedata/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## SetImage(string) {#setimage_2}
+## SetImage(*string*) {#setimage_2}
 
 Şeklin görüntüleyeceği görüntüyü ayarlar.
 
@@ -122,7 +124,7 @@ public void SetImage(string fileName)
 | --- | --- | --- |
 | fileName | String | Görüntü dosyası. Bir dosya adı veya URL olabilir. |
 
-### Örnekler
+## Örnekler
 
 Bağlantılı bir görüntünün belgeye nasıl ekleneceğini gösterir.
 
@@ -164,7 +166,5 @@ Assert.True(10000 > new FileInfo(ArtifactsDir + "Image.CreateLinkedImage.Linked.
 ### Ayrıca bakınız
 
 * class [ImageData](../)
-* ad alanı [Aspose.Words.Drawing](../../imagedata/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

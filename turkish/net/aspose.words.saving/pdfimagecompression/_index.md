@@ -1,7 +1,9 @@
 ---
-title: Enum PdfImageCompression
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Saving.PdfImageCompression Sıralama. PDF dosyasındaki görüntülere uygulanan sıkıştırma türünü belirtir.
+title: PdfImageCompression Enum
+linktitle: PdfImageCompression
+articleTitle: PdfImageCompression
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Saving.PdfImageCompression Sıralama. PDF dosyasındaki görüntülere uygulanan sıkıştırma türünü belirtir C#'da.
 type: docs
 weight: 5490
 url: /tr/net/aspose.words.saving/pdfimagecompression/
@@ -21,7 +23,7 @@ public enum PdfImageCompression
 | Auto | `0` | Her görüntü için en uygun sıkıştırmayı otomatik olarak seçer. |
 | Jpeg | `1` | Jpeg sıkıştırması. Şeffaflığı desteklemez. |
 
-### Örnekler
+## Örnekler
 
 PDF'ye dönüştürdüğümüz bir belgedeki tüm görüntüler için sıkıştırma türünün nasıl belirleneceğini gösterir.
 
@@ -55,5 +57,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ImageCompression.pdf", pdfSaveOptions);
 
 * ad alanı [Aspose.Words.Saving](../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../)
-
-

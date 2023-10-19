@@ -1,7 +1,9 @@
 ---
-title: Class EditableRange
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.EditableRange sınıf. Düzenlenebilir tek bir aralığı temsil eder.
+title: EditableRange Class
+linktitle: EditableRange
+articleTitle: EditableRange
+second_title: Aspose.Words for .NET
+description: Aspose.Words.EditableRange sınıf. Düzenlenebilir tek bir aralığı temsil eder C#'da.
 type: docs
 weight: 1420
 url: /tr/net/aspose.words/editablerange/
@@ -32,11 +34,11 @@ public class EditableRange
 | --- | --- |
 | [Remove](../../aspose.words/editablerange/remove/)() | Düzenlenebilir aralığı belgeden kaldırır. Düzenlenebilir aralık içindeki içeriği kaldırmaz. |
 
-### Notlar
+## Notlar
 
 `EditableRange` iki düğümü kapsayan bir "cephe" nesnesidir[`EditableRangeStart`](./editablerangestart/) ve[`EditableRangeEnd`](./editablerangeend/) bir belge ağacında düzenlenebilir bir aralıkla tek bir nesne olarak çalışmaya olanak tanır.
 
-### Örnekler
+## Örnekler
 
 Düzenlenebilir bir aralıkla nasıl çalışılacağını gösterir.
 
@@ -189,5 +191,3 @@ public class EditableRangePrinter : DocumentVisitor
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

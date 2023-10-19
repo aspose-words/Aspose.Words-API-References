@@ -1,7 +1,9 @@
 ---
 title: Document.Compliance
-second_title: Aspose.Words for .NET API Referansı
-description: Document mülk. Yüklenen belge içeriğinden belirlenen OOXML uyumluluk sürümünü alır. Yalnızca OOXML belgeleri için anlamlıdır.
+linktitle: Compliance
+articleTitle: Compliance
+second_title: Aspose.Words for .NET
+description: Document Compliance mülk. Yüklenen belge içeriğinden belirlenen OOXML uyumluluk sürümünü alır. Yalnızca OOXML belgeleri için anlamlıdır C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words/document/compliance/
@@ -14,11 +16,11 @@ Yüklenen belge içeriğinden belirlenen OOXML uyumluluk sürümünü alır. Yal
 public OoxmlCompliance Compliance { get; }
 ```
 
-### Notlar
+## Notlar
 
 Yeni bir boş belge oluşturduysanız veya OOXML olmayan bir belge yüklediyseniz document şunu döndürür:Ecma376_2006 değer.
 
-### Örnekler
+## Örnekler
 
 Yüklenen bir belgenin Open Office XML uyumluluk sürümünün nasıl okunacağını gösterir.
 
@@ -37,7 +39,5 @@ Assert.AreEqual(doc.Compliance, OoxmlCompliance.Iso29500_2008_Transitional);
 
 * enum [OoxmlCompliance](../../../aspose.words.saving/ooxmlcompliance/)
 * class [Document](../)
-* ad alanı [Aspose.Words](../../document/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

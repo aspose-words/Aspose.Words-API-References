@@ -1,7 +1,9 @@
 ---
 title: FieldStart.Accept
-second_title: Aspose.Words for .NET API Referansı
-description: FieldStart yöntem. Ziyaretçi kabul eder.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words for .NET
+description: FieldStart Accept yöntem. Ziyaretçi kabul eder C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fields/fieldstart/accept/
@@ -22,13 +24,13 @@ public override bool Accept(DocumentVisitor visitor)
 
 **YANLIŞ** ziyaretçi numaralandırmanın durdurulmasını talep ederse.
 
-### Notlar
+## Notlar
 
 Aramalar[`VisitFieldStart`](../../../aspose.words/documentvisitor/visitfieldstart/).
 
 Daha fazla bilgi için Ziyaretçi tasarım desenine bakın.
 
-### Örnekler
+## Örnekler
 
 Bir alan koleksiyonuyla nasıl çalışılacağını gösterir.
 
@@ -132,7 +134,5 @@ public class FieldVisitor : DocumentVisitor
 
 * class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * class [FieldStart](../)
-* ad alanı [Aspose.Words.Fields](../../fieldstart/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

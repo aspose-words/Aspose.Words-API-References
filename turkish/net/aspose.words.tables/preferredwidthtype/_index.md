@@ -1,7 +1,9 @@
 ---
-title: Enum PreferredWidthType
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Tables.PreferredWidthType Sıralama. Bir tablo veya hücrenin tercih edilen genişliği için ölçü birimini belirtir.
+title: PreferredWidthType Enum
+linktitle: PreferredWidthType
+articleTitle: PreferredWidthType
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Tables.PreferredWidthType Sıralama. Bir tablo veya hücrenin tercih edilen genişliği için ölçü birimini belirtir C#'da.
 type: docs
 weight: 6300
 url: /tr/net/aspose.words.tables/preferredwidthtype/
@@ -22,7 +24,7 @@ public enum PreferredWidthType
 | Percent | `2` | Belirtilen yüzdeyi kullanarak geçerli öğe genişliğini ölçün. |
 | Points | `3` | Belirtilen sayıda noktayı (1/72 inç) kullanarak geçerli öğe genişliğini ölçün. |
 
-### Örnekler
+## Örnekler
 
 Bir tablo hücresinin tercih edilen genişlik tipinin ve değerinin nasıl doğrulanacağını gösterir.
 
@@ -41,5 +43,3 @@ Assert.AreEqual(11.16d, firstCell.CellFormat.PreferredWidth.Value);
 * class [PreferredWidth](../preferredwidth/)
 * ad alanı [Aspose.Words.Tables](../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../)
-
-

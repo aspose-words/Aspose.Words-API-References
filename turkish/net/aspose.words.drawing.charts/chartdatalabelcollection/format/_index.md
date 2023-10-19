@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.Format
-second_title: Aspose.Words for .NET API Referansı
-description: ChartDataLabelCollection mülk. Veri etiketlerinin dolgu ve satır formatına erişim sağlar.
+linktitle: Format
+articleTitle: Format
+second_title: Aspose.Words for .NET
+description: ChartDataLabelCollection Format mülk. Veri etiketlerinin dolgu ve satır formatına erişim sağlar C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.drawing.charts/chartdatalabelcollection/format/
@@ -14,7 +16,7 @@ Veri etiketlerinin dolgu ve satır formatına erişim sağlar.
 public ChartFormat Format { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Grafik veri etiketleri için dolgu, kontur ve belirtme çizgisi formatının nasıl ayarlanacağını gösterir.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Charts.FormatDataLables.docx");
 
 * class [ChartFormat](../../chartformat/)
 * class [ChartDataLabelCollection](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

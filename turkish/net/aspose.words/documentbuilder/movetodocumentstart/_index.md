@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.MoveToDocumentStart
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentBuilder yöntem. İmleci belgenin başına taşır.
+linktitle: MoveToDocumentStart
+articleTitle: MoveToDocumentStart
+second_title: Aspose.Words for .NET
+description: DocumentBuilder MoveToDocumentStart yöntem. İmleci belgenin başına taşır C#'da.
 type: docs
-weight: 530
+weight: 520
 url: /tr/net/aspose.words/documentbuilder/movetodocumentstart/
 ---
 ## DocumentBuilder.MoveToDocumentStart method
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words/documentbuilder/movetodocumentstart/
 public void MoveToDocumentStart()
 ```
 
-### Örnekler
+## Örnekler
 
 Belge oluşturucunun imlecinin belgedeki farklı düğümlere nasıl taşınacağını gösterir.
 
@@ -68,7 +70,5 @@ Assert.IsTrue(builder.IsAtStartOfParagraph);
 ### Ayrıca bakınız
 
 * class [DocumentBuilder](../)
-* ad alanı [Aspose.Words](../../documentbuilder/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

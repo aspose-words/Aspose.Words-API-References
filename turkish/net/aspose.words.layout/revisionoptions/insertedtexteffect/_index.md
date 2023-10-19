@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.InsertedTextEffect
-second_title: Aspose.Words for .NET API Referansı
-description: RevisionOptions mülk. Eklenen içeriğe uygulanacak efekti belirtmeye olanak tanırInsertion . Varsayılan değerUnderline .
+linktitle: InsertedTextEffect
+articleTitle: InsertedTextEffect
+second_title: Aspose.Words for .NET
+description: RevisionOptions InsertedTextEffect mülk. Eklenen içeriğe uygulanacak efekti belirtmeye olanak tanırInsertion . Varsayılan değerUnderline  C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.layout/revisionoptions/insertedtexteffect/
@@ -14,11 +16,11 @@ Eklenen içeriğe uygulanacak efekti belirtmeye olanak tanırInsertion . Varsay�
 public RevisionTextEffect InsertedTextEffect { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 DeğerleriHidden VeDoubleStrikeThrough 'ye izin verilmiyor ve neden olacakArgumentOutOfRangeException.
 
-### Örnekler
+## Örnekler
 
 Revizyonların görünümünün nasıl değiştirileceğini gösterir.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 
 * enum [RevisionTextEffect](../../revisiontexteffect/)
 * class [RevisionOptions](../)
-* ad alanı [Aspose.Words.Layout](../../revisionoptions/)
+* ad alanı [Aspose.Words.Layout](../../../aspose.words.layout/)
 * toplantı [Aspose.Words](../../../)
-
-

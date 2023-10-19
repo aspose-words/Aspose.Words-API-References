@@ -1,7 +1,9 @@
 ---
 title: Range.FormFields
-second_title: Aspose.Words for .NET API Referansı
-description: Range mülk. Bir değeri döndürürFormFields aralıktaki tüm form alanlarını temsil eden koleksiyon.
+linktitle: FormFields
+articleTitle: FormFields
+second_title: Aspose.Words for .NET
+description: Range FormFields mülk. Bir değeri döndürürFormFields aralıktaki tüm form alanlarını temsil eden koleksiyon C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/range/formfields/
@@ -14,7 +16,7 @@ Bir değeri döndürür`FormFields` aralıktaki tüm form alanlarını temsil ed
 public FormFieldCollection FormFields { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgeye farklı türde form alanlarının nasıl eklendiğini ve bunların bir belge ziyaretçi uygulaması kullanılarak nasıl işlendiğini gösterir.
 
@@ -149,7 +151,5 @@ public class FormFieldVisitor : DocumentVisitor
 
 * class [FormFieldCollection](../../../aspose.words.fields/formfieldcollection/)
 * class [Range](../)
-* ad alanı [Aspose.Words](../../range/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

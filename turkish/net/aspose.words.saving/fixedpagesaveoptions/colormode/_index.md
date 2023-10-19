@@ -1,7 +1,9 @@
 ---
 title: FixedPageSaveOptions.ColorMode
-second_title: Aspose.Words for .NET API Referansı
-description: FixedPageSaveOptions mülk. Renklerin nasıl oluşturulacağını belirleyen bir değer alır veya ayarlar.
+linktitle: ColorMode
+articleTitle: ColorMode
+second_title: Aspose.Words for .NET
+description: FixedPageSaveOptions ColorMode mülk. Renklerin nasıl oluşturulacağını belirleyen bir değer alır veya ayarlar C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.saving/fixedpagesaveoptions/colormode/
@@ -14,11 +16,11 @@ Renklerin nasıl oluşturulacağını belirleyen bir değer alır veya ayarlar.
 public ColorMode ColorMode { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:Normal .
 
-### Örnekler
+## Örnekler
 
 Kaydetme seçenekleri özelliğiyle görüntü renginin nasıl değiştirileceğini gösterir.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ColorRendering.pdf", pdfSaveOptions);
 
 * enum [ColorMode](../../colormode/)
 * class [FixedPageSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../fixedpagesaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

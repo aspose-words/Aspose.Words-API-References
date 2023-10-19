@@ -1,7 +1,9 @@
 ---
 title: FormField.TextInputType
-second_title: Aspose.Words for .NET API Referansı
-description: FormField mülk. Metin form alanının türünü alır veya ayarlar.
+linktitle: TextInputType
+articleTitle: TextInputType
+second_title: Aspose.Words for .NET
+description: FormField TextInputType mülk. Metin form alanının türünü alır veya ayarlar C#'da.
 type: docs
 weight: 210
 url: /tr/net/aspose.words.fields/formfield/textinputtype/
@@ -14,7 +16,7 @@ Metin form alanının türünü alır veya ayarlar.
 public TextFormFieldType TextInputType { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgeye farklı türde form alanlarının nasıl eklendiğini ve bunların bir belge ziyaretçi uygulaması kullanılarak nasıl işlendiğini gösterir.
 
@@ -149,7 +151,5 @@ public class FormFieldVisitor : DocumentVisitor
 
 * enum [TextFormFieldType](../../textformfieldtype/)
 * class [FormField](../)
-* ad alanı [Aspose.Words.Fields](../../formfield/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

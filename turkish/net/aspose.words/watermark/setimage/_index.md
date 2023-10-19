@@ -1,12 +1,14 @@
 ---
 title: Watermark.SetImage
-second_title: Aspose.Words for .NET API Referansı
-description: Watermark yöntem. Belgeye Resim filigranı ekler.
+linktitle: SetImage
+articleTitle: SetImage
+second_title: Aspose.Words for .NET
+description: Watermark SetImage yöntem. Belgeye Resim filigranı ekler C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/watermark/setimage/
 ---
-## SetImage(Image) {#setimage}
+## SetImage(*Image*) {#setimage}
 
 Belgeye Resim filigranı ekler.
 
@@ -27,12 +29,12 @@ public void SetImage(Image image)
 ### Ayrıca bakınız
 
 * class [Watermark](../)
-* ad alanı [Aspose.Words](../../watermark/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## SetImage(Image, ImageWatermarkOptions) {#setimage_1}
+## SetImage(*Image, [ImageWatermarkOptions](../../imagewatermarkoptions/)*) {#setimage_1}
 
 Belgeye Resim filigranı ekler.
 
@@ -51,11 +53,11 @@ public void SetImage(Image image, ImageWatermarkOptions options)
 | --- | --- |
 | ArgumentNullException | Görüntü`hükümsüz` . |
 
-### Notlar
+## Notlar
 
 Eğer[`ImageWatermarkOptions`](../../imagewatermarkoptions/) dır-dir`hükümsüz`filigran varsayılan seçeneklerle ayarlanacaktır.
 
-### Örnekler
+## Örnekler
 
 Yerel dosya sistemindeki bir görüntüden nasıl filigran oluşturulacağını gösterir.
 
@@ -84,12 +86,12 @@ Document doc = new Document();
 
 * class [ImageWatermarkOptions](../../imagewatermarkoptions/)
 * class [Watermark](../)
-* ad alanı [Aspose.Words](../../watermark/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## SetImage(string, ImageWatermarkOptions) {#setimage_2}
+## SetImage(*string, [ImageWatermarkOptions](../../imagewatermarkoptions/)*) {#setimage_2}
 
 Belgeye Resim filigranı ekler.
 
@@ -108,7 +110,7 @@ public void SetImage(string imagePath, ImageWatermarkOptions options)
 | --- | --- |
 | ArgumentNullException | Yol olduğunda atar`hükümsüz` . |
 
-### Notlar
+## Notlar
 
 Eğer[`ImageWatermarkOptions`](../../imagewatermarkoptions/) dır-dir`hükümsüz`filigran varsayılan seçeneklerle ayarlanacaktır.
 
@@ -116,7 +118,5 @@ Eğer[`ImageWatermarkOptions`](../../imagewatermarkoptions/) dır-dir`hükümsü
 
 * class [ImageWatermarkOptions](../../imagewatermarkoptions/)
 * class [Watermark](../)
-* ad alanı [Aspose.Words](../../watermark/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

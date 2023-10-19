@@ -1,7 +1,9 @@
 ---
 title: Table.AllowOverlap
-second_title: Aspose.Words for .NET API Referansı
-description: Table mülk. Bir kayan tablonun belge içindeki diğer kayan nesnelerin görüntülendiğinde kapsamlarıyla çakışmasına izin verip vermeyeceğini alır. Varsayılan değerdoğru .
+linktitle: AllowOverlap
+articleTitle: AllowOverlap
+second_title: Aspose.Words for .NET
+description: Table AllowOverlap mülk. Bir kayan tablonun belge içindeki diğer kayan nesnelerin görüntülendiğinde kapsamlarıyla çakışmasına izin verip vermeyeceğini alır. Varsayılan değerdoğru  C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.tables/table/allowoverlap/
@@ -14,7 +16,7 @@ Bir kayan tablonun, belge içindeki diğer kayan nesnelerin görüntülendiğind
 public bool AllowOverlap { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Kayan tablo özellikleriyle nasıl çalışılacağını gösterir.
 
@@ -42,7 +44,5 @@ if (table.TextWrapping == TextWrapping.Around)
 ### Ayrıca bakınız
 
 * class [Table](../)
-* ad alanı [Aspose.Words.Tables](../../table/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

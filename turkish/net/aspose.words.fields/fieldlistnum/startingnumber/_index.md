@@ -1,7 +1,9 @@
 ---
 title: FieldListNum.StartingNumber
-second_title: Aspose.Words for .NET API Referansı
-description: FieldListNum mülk. Bu alanın başlangıç değerini alır veya ayarlar.
+linktitle: StartingNumber
+articleTitle: StartingNumber
+second_title: Aspose.Words for .NET
+description: FieldListNum StartingNumber mülk. Bu alanın başlangıç değerini alır veya ayarlar C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.fields/fieldlistnum/startingnumber/
@@ -14,7 +16,7 @@ Bu alanın başlangıç değerini alır veya ayarlar.
 public string StartingNumber { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 LISTNUM alanlarıyla paragrafların nasıl numaralandırılacağını gösterir.
 
@@ -84,7 +86,5 @@ doc.Save(ArtifactsDir + "Field.LISTNUM.docx");
 ### Ayrıca bakınız
 
 * class [FieldListNum](../)
-* ad alanı [Aspose.Words.Fields](../../fieldlistnum/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

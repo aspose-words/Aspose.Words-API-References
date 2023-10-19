@@ -1,9 +1,11 @@
 ---
 title: Row.EnsureMinimum
-second_title: Aspose.Words for .NET API Referansı
-description: Row yöntem. EğerRow hiç hücresi yoktur bir tane oluşturur ve eklerCell .
+linktitle: EnsureMinimum
+articleTitle: EnsureMinimum
+second_title: Aspose.Words for .NET
+description: Row EnsureMinimum yöntem. EğerRow hiç hücresi yoktur bir tane oluşturur ve eklerCell  C#'da.
 type: docs
-weight: 150
+weight: 130
 url: /tr/net/aspose.words.tables/row/ensureminimum/
 ---
 ## Row.EnsureMinimum method
@@ -14,7 +16,7 @@ Eğer[`Row`](../) hiç hücresi yoktur, bir tane oluşturur ve ekler[`Cell`](../
 public void EnsureMinimum()
 ```
 
-### Örnekler
+## Örnekler
 
 Bir satır düğümünün, ona içerik eklemeye başlamamız için gereken düğümleri içerdiğinden nasıl emin olacağımızı gösterir.
 
@@ -38,7 +40,5 @@ row.FirstCell.FirstParagraph.AppendChild(new Run(doc, "Hello world!"));
 ### Ayrıca bakınız
 
 * class [Row](../)
-* ad alanı [Aspose.Words.Tables](../../row/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

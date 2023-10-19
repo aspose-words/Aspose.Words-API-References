@@ -1,7 +1,9 @@
 ---
 title: Table.FirstRow
-second_title: Aspose.Words for .NET API Referansı
-description: Table mülk. İlkini döndürürRow tablodaki düğüm.
+linktitle: FirstRow
+articleTitle: FirstRow
+second_title: Aspose.Words for .NET
+description: Table FirstRow mülk. İlkini döndürürRow tablodaki düğüm C#'da.
 type: docs
 weight: 160
 url: /tr/net/aspose.words.tables/table/firstrow/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.tables/table/firstrow/
 public Row FirstRow { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki tüm tabloların ilk ve son satırlarının nasıl kaldırılacağını gösterir.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Table.CombineTables.docx");
 
 * class [Row](../../row/)
 * class [Table](../)
-* ad alanı [Aspose.Words.Tables](../../table/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

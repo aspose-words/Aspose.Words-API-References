@@ -1,7 +1,9 @@
 ---
-title: Class SdtListItem
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Markup.SdtListItem sınıf. Bu öğe bir üst öğe içindeki tek bir liste öğesini belirtirComboBox veyaDropDownList yapılandırılmış belge etiketi.
+title: SdtListItem Class
+linktitle: SdtListItem
+articleTitle: SdtListItem
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Markup.SdtListItem sınıf. Bu öğe bir üst öğe içindeki tek bir liste öğesini belirtirComboBox veyaDropDownList yapılandırılmış belge etiketi C#'da.
 type: docs
 weight: 4020
 url: /tr/net/aspose.words.markup/sdtlistitem/
@@ -20,8 +22,8 @@ public class SdtListItem
 
 | İsim | Tanım |
 | --- | --- |
-| [SdtListItem](sdtlistitem/#constructor)(string) | Bu sınıfın yeni bir örneğini başlatır. |
-| [SdtListItem](sdtlistitem/#constructor_1)(string, string) | Bu sınıfın yeni bir örneğini başlatır. |
+| [SdtListItem](sdtlistitem/#constructor)(*string*) | Bu sınıfın yeni bir örneğini başlatır. |
+| [SdtListItem](sdtlistitem/#constructor_1)(*string, string*) | Bu sınıfın yeni bir örneğini başlatır. |
 
 ## Özellikleri
 
@@ -30,7 +32,7 @@ public class SdtListItem
 | [DisplayText](../../aspose.words.markup/sdtlistitem/displaytext/) { get; } | Çalıştırma içeriğinde yerine görüntülenecek metni alır[`Value`](./value/) bu liste öğesinin içeriğini öznitelik. |
 | [Value](../../aspose.words.markup/sdtlistitem/value/) { get; } | Bu liste öğesinin değerini alır. |
 
-### Örnekler
+## Örnekler
 
 Açılır liste yapılandırılmış belge etiketleriyle nasıl çalışılacağını gösterir.
 
@@ -88,5 +90,3 @@ Assert.AreEqual(0, listItems.Count);
 
 * ad alanı [Aspose.Words.Markup](../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../)
-
-

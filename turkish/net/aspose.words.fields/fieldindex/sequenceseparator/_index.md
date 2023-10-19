@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.SequenceSeparator
-second_title: Aspose.Words for .NET API Referansı
-description: FieldIndex mülk. Sıra numaralarını ve sayfa numaralarını ayırmak için kullanılan karakter sırasını alır veya ayarlar.
+linktitle: SequenceSeparator
+articleTitle: SequenceSeparator
+second_title: Aspose.Words for .NET
+description: FieldIndex SequenceSeparator mülk. Sıra numaralarını ve sayfa numaralarını ayırmak için kullanılan karakter sırasını alır veya ayarlar C#'da.
 type: docs
 weight: 160
 url: /tr/net/aspose.words.fields/fieldindex/sequenceseparator/
@@ -14,7 +16,7 @@ Sıra numaralarını ve sayfa numaralarını ayırmak için kullanılan karakter
 public string SequenceSeparator { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 INDEX ve SEQ alanlarını birleştirerek bir belgenin nasıl bölümlere bölüneceğini gösterir.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Sequence.docx");
 ### Ayrıca bakınız
 
 * class [FieldIndex](../)
-* ad alanı [Aspose.Words.Fields](../../fieldindex/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

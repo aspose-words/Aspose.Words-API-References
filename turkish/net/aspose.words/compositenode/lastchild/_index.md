@@ -1,7 +1,9 @@
 ---
 title: CompositeNode.LastChild
-second_title: Aspose.Words for .NET API Referansı
-description: CompositeNode mülk. Düğümün son çocuğunu alır.
+linktitle: LastChild
+articleTitle: LastChild
+second_title: Aspose.Words for .NET
+description: CompositeNode LastChild mülk. Düğümün son çocuğunu alır C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words/compositenode/lastchild/
@@ -14,11 +16,11 @@ Düğümün son çocuğunu alır.
 public Node LastChild { get; }
 ```
 
-### Notlar
+## Notlar
 
 Son alt düğüm yoksa, bir`hükümsüz` döndürülür.
 
-### Örnekler
+## Örnekler
 
 Belgedeki son bölümden önceki bölümü kaldırmak için Node ve CompositeNode yöntemlerinin nasıl kullanılacağını gösterir.
 
@@ -46,7 +48,5 @@ Assert.AreEqual("Section 2 text.", doc.GetText().Trim());
 
 * class [Node](../../node/)
 * class [CompositeNode](../)
-* ad alanı [Aspose.Words](../../compositenode/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

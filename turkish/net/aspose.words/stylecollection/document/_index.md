@@ -1,7 +1,9 @@
 ---
 title: StyleCollection.Document
-second_title: Aspose.Words for .NET API Referansı
-description: StyleCollection mülk. Sahip belgesini alır.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words for .NET
+description: StyleCollection Document mülk. Sahip belgesini alır C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words/stylecollection/document/
@@ -14,7 +16,7 @@ Sahip belgesini alır.
 public DocumentBase Document { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgenin stil koleksiyonuna nasıl erişileceğini gösterir.
 
@@ -43,7 +45,5 @@ using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 
 * class [DocumentBase](../../documentbase/)
 * class [StyleCollection](../)
-* ad alanı [Aspose.Words](../../stylecollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

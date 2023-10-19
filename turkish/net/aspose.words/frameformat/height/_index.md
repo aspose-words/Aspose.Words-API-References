@@ -1,7 +1,9 @@
 ---
 title: FrameFormat.Height
-second_title: Aspose.Words for .NET API Referansı
-description: FrameFormat mülk. Belirtilen çerçevenin yüksekliğini alır.
+linktitle: Height
+articleTitle: Height
+second_title: Aspose.Words for .NET
+description: FrameFormat Height mülk. Belirtilen çerçevenin yüksekliğini alır C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/frameformat/height/
@@ -14,7 +16,7 @@ Belirtilen çerçevenin yüksekliğini alır.
 public double Height { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Çerçeve olan paragrafların biçimlendirme özellikleri hakkında nasıl bilgi alınacağını gösterir.
 
@@ -39,7 +41,5 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 ### Ayrıca bakınız
 
 * class [FrameFormat](../)
-* ad alanı [Aspose.Words](../../frameformat/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

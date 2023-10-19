@@ -1,7 +1,9 @@
 ---
 title: SdtListItemCollection.RemoveAt
-second_title: Aspose.Words for .NET API Referansı
-description: SdtListItemCollection yöntem. Belirtilen dizindeki bir liste öğesini kaldırır.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words for .NET
+description: SdtListItemCollection RemoveAt yöntem. Belirtilen dizindeki bir liste öğesini kaldırır C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.markup/sdtlistitemcollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | Kaldırılacak öğenin sıfır tabanlı dizini. |
 
-### Örnekler
+## Örnekler
 
 Açılır liste yapılandırılmış belge etiketleriyle nasıl çalışılacağını gösterir.
 
@@ -75,7 +77,5 @@ Assert.AreEqual(0, listItems.Count);
 ### Ayrıca bakınız
 
 * class [SdtListItemCollection](../)
-* ad alanı [Aspose.Words.Markup](../../sdtlistitemcollection/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

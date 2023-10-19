@@ -1,7 +1,9 @@
 ---
 title: LoadOptions.Password
-second_title: Aspose.Words for .NET API Referansı
-description: LoadOptions mülk. Şifrelenmiş bir belgeyi açmak için parolayı alır veya ayarlar. Olabilirhükümsüz veya boş dize. Varsayılanhükümsüz .
+linktitle: Password
+articleTitle: Password
+second_title: Aspose.Words for .NET
+description: LoadOptions Password mülk. Şifrelenmiş bir belgeyi açmak için parolayı alır veya ayarlar. Olabilirhükümsüz veya boş dize. Varsayılanhükümsüz  C#'da.
 type: docs
 weight: 110
 url: /tr/net/aspose.words.loading/loadoptions/password/
@@ -14,11 +16,11 @@ url: /tr/net/aspose.words.loading/loadoptions/password/
 public string Password { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Şifrelenmiş bir belgeyi açmak için şifreyi bilmeniz gerekir. Belge şifrelenmemişse bunu şu şekilde ayarlayın:`hükümsüz` veya boş dize.
 
-### Örnekler
+## Örnekler
 
 Şifrelenmiş belge dosyasının nasıl imzalanacağını gösterir.
 
@@ -44,7 +46,5 @@ DigitalSignatureUtil.Sign(inputFileName, outputFileName, certificateHolder, sign
 ### Ayrıca bakınız
 
 * class [LoadOptions](../)
-* ad alanı [Aspose.Words.Loading](../../loadoptions/)
+* ad alanı [Aspose.Words.Loading](../../../aspose.words.loading/)
 * toplantı [Aspose.Words](../../../)
-
-

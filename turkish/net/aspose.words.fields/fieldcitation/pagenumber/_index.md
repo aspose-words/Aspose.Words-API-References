@@ -1,7 +1,9 @@
 ---
 title: FieldCitation.PageNumber
-second_title: Aspose.Words for .NET API Referansı
-description: FieldCitation mülk. Alıntıyla ilişkili sayfa numarasını alır veya ayarlar.
+linktitle: PageNumber
+articleTitle: PageNumber
+second_title: Aspose.Words for .NET
+description: FieldCitation PageNumber mülk. Alıntıyla ilişkili sayfa numarasını alır veya ayarlar C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.fields/fieldcitation/pagenumber/
@@ -14,7 +16,7 @@ Alıntıyla ilişkili sayfa numarasını alır veya ayarlar.
 public string PageNumber { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 CITATION ve KAYNAKÇA alanlarıyla nasıl çalışılacağını gösterir.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Field.CITATION.docx");
 ### Ayrıca bakınız
 
 * class [FieldCitation](../)
-* ad alanı [Aspose.Words.Fields](../../fieldcitation/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

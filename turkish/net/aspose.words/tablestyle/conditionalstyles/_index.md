@@ -1,7 +1,9 @@
 ---
 title: TableStyle.ConditionalStyles
-second_title: Aspose.Words for .NET API Referansı
-description: TableStyle mülk. Bu tablo stili için tanımlanabilecek koşullu stiller koleksiyonu.
+linktitle: ConditionalStyles
+articleTitle: ConditionalStyles
+second_title: Aspose.Words for .NET
+description: TableStyle ConditionalStyles mülk. Bu tablo stili için tanımlanabilecek koşullu stiller koleksiyonu C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words/tablestyle/conditionalstyles/
@@ -14,7 +16,7 @@ Bu tablo stili için tanımlanabilecek koşullu stiller koleksiyonu.
 public ConditionalStyleCollection ConditionalStyles { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir tablonun belirli alan stilleriyle nasıl çalışılacağını gösterir.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [ConditionalStyleCollection](../../conditionalstylecollection/)
 * class [TableStyle](../)
-* ad alanı [Aspose.Words](../../tablestyle/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

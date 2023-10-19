@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.SuppressLineNumbers
-second_title: Aspose.Words for .NET API Referansı
-description: ParagraphFormat mülk. Geçerli paragrafın satırlarının üst bölümde uygulanan satır numaralandırma den muaf tutulması gerekip gerekmediğini belirtir.
+linktitle: SuppressLineNumbers
+articleTitle: SuppressLineNumbers
+second_title: Aspose.Words for .NET
+description: ParagraphFormat SuppressLineNumbers mülk. Geçerli paragrafın satırlarının üst bölümde uygulanan satır numaralandırma den muaf tutulması gerekip gerekmediğini belirtir C#'da.
 type: docs
 weight: 380
 url: /tr/net/aspose.words/paragraphformat/suppresslinenumbers/
@@ -14,7 +16,7 @@ Geçerli paragrafın satırlarının üst bölümde uygulanan satır numaraland�
 public bool SuppressLineNumbers { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir bölüm için satır numaralandırmanın nasıl etkinleştirileceğini gösterir.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "PageSetup.LineNumbers.docx");
 ### Ayrıca bakınız
 
 * class [ParagraphFormat](../)
-* ad alanı [Aspose.Words](../../paragraphformat/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

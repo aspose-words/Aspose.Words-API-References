@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.ShowInBalloons
-second_title: Aspose.Words for .NET API Referansı
-description: RevisionOptions mülk. Revizyonların balonlarda oluşturulup oluşturulmayacağını belirlemeye izin verir. Varsayılan değerNone .
+linktitle: ShowInBalloons
+articleTitle: ShowInBalloons
+second_title: Aspose.Words for .NET
+description: RevisionOptions ShowInBalloons mülk. Revizyonların balonlarda oluşturulup oluşturulmayacağını belirlemeye izin verir. Varsayılan değerNone  C#'da.
 type: docs
 weight: 160
 url: /tr/net/aspose.words.layout/revisionoptions/showinballoons/
@@ -14,11 +16,11 @@ Revizyonların balonlarda oluşturulup oluşturulmayacağını belirlemeye izin 
 public ShowInBalloons ShowInBalloons { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Düzeltmelerin balonlarda görüntülenmediğini unutmayın.ShowInAnnotations .
 
-### Örnekler
+## Örnekler
 
 Balonlarda revizyonların nasıl görüntüleneceğini gösterir.
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 
 * enum [ShowInBalloons](../../showinballoons/)
 * class [RevisionOptions](../)
-* ad alanı [Aspose.Words.Layout](../../revisionoptions/)
+* ad alanı [Aspose.Words.Layout](../../../aspose.words.layout/)
 * toplantı [Aspose.Words](../../../)
-
-

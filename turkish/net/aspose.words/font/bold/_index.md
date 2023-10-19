@@ -1,7 +1,9 @@
 ---
 title: Font.Bold
-second_title: Aspose.Words for .NET API Referansı
-description: Font mülk. Yazı tipi kalın olarak biçimlendirilmişse doğrudur.
+linktitle: Bold
+articleTitle: Bold
+second_title: Aspose.Words for .NET
+description: Font Bold mülk. Yazı tipi kalın olarak biçimlendirilmişse doğrudur C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words/font/bold/
@@ -14,7 +16,7 @@ Yazı tipi kalın olarak biçimlendirilmişse doğrudur.
 public bool Bold { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 DocumentBuilder kullanılarak biçimlendirilmiş metnin nasıl ekleneceğini gösterir.
 
@@ -36,7 +38,5 @@ builder.Write("Hello world!");
 ### Ayrıca bakınız
 
 * class [Font](../)
-* ad alanı [Aspose.Words](../../font/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

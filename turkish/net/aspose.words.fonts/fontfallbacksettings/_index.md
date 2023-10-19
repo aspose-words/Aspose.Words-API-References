@@ -1,7 +1,9 @@
 ---
-title: Class FontFallbackSettings
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Fonts.FontFallbackSettings sınıf. Yazı tipi geri dönüş mekanizması ayarlarını belirtir.
+title: FontFallbackSettings Class
+linktitle: FontFallbackSettings
+articleTitle: FontFallbackSettings
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Fonts.FontFallbackSettings sınıf. Yazı tipi geri dönüş mekanizması ayarlarını belirtir C#'da.
 type: docs
 weight: 2900
 url: /tr/net/aspose.words.fonts/fontfallbacksettings/
@@ -21,18 +23,18 @@ public class FontFallbackSettings
 | İsim | Tanım |
 | --- | --- |
 | [BuildAutomatic](../../aspose.words.fonts/fontfallbacksettings/buildautomatic/)() | Mevcut yazı tiplerini tarayarak yedek ayarları otomatik olarak oluşturur. |
-| [Load](../../aspose.words.fonts/fontfallbacksettings/load/#load)(Stream) | XML akışından geri dönüş ayarlarını yükler. |
-| [Load](../../aspose.words.fonts/fontfallbacksettings/load/#load_1)(string) | XML dosyasından yazı tipi yedek ayarlarını yükler. |
+| [Load](../../aspose.words.fonts/fontfallbacksettings/load/#load)(*Stream*) | XML akışından geri dönüş ayarlarını yükler. |
+| [Load](../../aspose.words.fonts/fontfallbacksettings/load/#load_1)(*string*) | XML dosyasından yazı tipi yedek ayarlarını yükler. |
 | [LoadMsOfficeFallbackSettings](../../aspose.words.fonts/fontfallbacksettings/loadmsofficefallbacksettings/)() | Microsoft Word geri dönüşünü taklit eden ve Microsoft Office yazı tiplerini kullanan önceden tanımlanmış geri dönüş ayarlarını yükler. |
 | [LoadNotoFallbackSettings](../../aspose.words.fonts/fontfallbacksettings/loadnotofallbacksettings/)() | Google Noto yazı tiplerini kullanan önceden tanımlanmış yedek ayarları yükler. |
-| [Save](../../aspose.words.fonts/fontfallbacksettings/save/#save)(Stream) | Geçerli geri dönüş ayarlarını akışa kaydeder. |
-| [Save](../../aspose.words.fonts/fontfallbacksettings/save/#save_1)(string) | Geçerli geri dönüş ayarlarını dosyaya kaydeder. |
+| [Save](../../aspose.words.fonts/fontfallbacksettings/save/#save)(*Stream*) | Geçerli geri dönüş ayarlarını akışa kaydeder. |
+| [Save](../../aspose.words.fonts/fontfallbacksettings/save/#save_1)(*string*) | Geçerli geri dönüş ayarlarını dosyaya kaydeder. |
 
-### Notlar
+## Notlar
 
 Varsayılan olarak geri dönüş ayarları, Microsoft Word geri dönüşünü taklit eden önceden tanımlanmış ayarlarla başlatılır.
 
-### Örnekler
+## Örnekler
 
 Yedek yazı tiplerinin Unicode karakter kodu aralıklarına nasıl dağıtılacağını gösterir.
 
@@ -92,5 +94,3 @@ doc.Save(ArtifactsDir + "FontSettings.FallbackSettingsCustom.pdf");
 
 * ad alanı [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../)
-
-

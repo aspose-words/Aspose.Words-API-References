@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.ShowValue
-second_title: Aspose.Words for .NET API Referansı
-description: ChartDataLabel mülk. Veri etiketlerinde değerlerin görüntülenip görüntülenmeyeceğini belirtmeye olanak tanır. Varsayılan değerYANLIŞ .
+linktitle: ShowValue
+articleTitle: ShowValue
+second_title: Aspose.Words for .NET
+description: ChartDataLabel ShowValue mülk. Veri etiketlerinde değerlerin görüntülenip görüntülenmeyeceğini belirtmeye olanak tanır. Varsayılan değerYANLIŞ  C#'da.
 type: docs
 weight: 150
 url: /tr/net/aspose.words.drawing.charts/chartdatalabel/showvalue/
@@ -14,7 +16,7 @@ Veri etiketlerinde değerlerin görüntülenip görüntülenmeyeceğini belirtme
 public bool ShowValue { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Çizgi grafikteki veri noktalarına etiketlerin nasıl uygulanacağını gösterir.
 
@@ -92,7 +94,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 ### Ayrıca bakınız
 
 * class [ChartDataLabel](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.UpdateLastPrintedProperty
-second_title: Aspose.Words for .NET API Referansı
-description: SaveOptions mülk. Bir değer alır veya ayarlar.LastPrinted özellik kaydedilmeden önce güncellenir.
+linktitle: UpdateLastPrintedProperty
+articleTitle: UpdateLastPrintedProperty
+second_title: Aspose.Words for .NET
+description: SaveOptions UpdateLastPrintedProperty mülk. Bir değer alır veya ayarlar.LastPrinted özellik kaydedilmeden önce güncellenir C#'da.
 type: docs
 weight: 170
 url: /tr/net/aspose.words.saving/saveoptions/updatelastprintedproperty/
@@ -14,7 +16,7 @@ Bir değer alır veya ayarlar.[`LastPrinted`](../../../aspose.words.properties/b
 public bool UpdateLastPrintedProperty { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Kaydederken bir belgenin "CreatedTime" özelliğinin nasıl güncelleneceğini gösterir.
 
@@ -61,7 +63,5 @@ Assert.AreNotEqual(isUpdateLastPrintedProperty, new DateTime(2019, 12, 20) == do
 ### Ayrıca bakınız
 
 * class [SaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../saveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

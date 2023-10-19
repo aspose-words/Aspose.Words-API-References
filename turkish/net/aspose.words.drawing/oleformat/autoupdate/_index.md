@@ -1,7 +1,9 @@
 ---
 title: OleFormat.AutoUpdate
-second_title: Aspose.Words for .NET API Referansı
-description: OleFormat mülk. OLE nesnesine olan bağlantının Microsoft Wordde otomatik olarak güncelleştirilip güncelleştirilmeyeceğini belirtir.
+linktitle: AutoUpdate
+articleTitle: AutoUpdate
+second_title: Aspose.Words for .NET
+description: OleFormat AutoUpdate mülk. OLE nesnesine olan bağlantının Microsoft Wordde otomatik olarak güncelleştirilip güncelleştirilmeyeceğini belirtir C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.drawing/oleformat/autoupdate/
@@ -14,11 +16,11 @@ OLE nesnesine olan bağlantının Microsoft Word'de otomatik olarak güncelleşt
 public bool AutoUpdate { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:`YANLIŞ`.
 
-### Örnekler
+## Örnekler
 
 Katıştırılmış OLE nesnelerinin dosyalara nasıl çıkartılacağını gösterir.
 
@@ -53,7 +55,5 @@ oleFormat.Save(ArtifactsDir + "OLE spreadsheet saved directly" + oleFormat.Sugge
 ### Ayrıca bakınız
 
 * class [OleFormat](../)
-* ad alanı [Aspose.Words.Drawing](../../oleformat/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

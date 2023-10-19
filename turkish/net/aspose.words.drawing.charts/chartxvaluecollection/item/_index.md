@@ -1,7 +1,9 @@
 ---
 title: ChartXValueCollection.Item
-second_title: Aspose.Words for .NET API Referansı
-description: ChartXValueCollection mülk. Belirtilen dizindeki X değerini alır veya ayarlar.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words for .NET
+description: ChartXValueCollection Item mülk. Belirtilen dizindeki X değerini alır veya ayarlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.drawing.charts/chartxvaluecollection/item/
@@ -14,15 +16,13 @@ Belirtilen dizindeki X değerini alır veya ayarlar.
 public ChartXValue this[int index] { get; set; }
 ```
 
-### Notlar
+## Notlar
 
-Boş değerler şu şekilde temsil edilir: **hükümsüz** .
+Boş değerler şu şekilde temsil edilir:**hükümsüz** .
 
 ### Ayrıca bakınız
 
 * class [ChartXValue](../../chartxvalue/)
 * class [ChartXValueCollection](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartxvaluecollection/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

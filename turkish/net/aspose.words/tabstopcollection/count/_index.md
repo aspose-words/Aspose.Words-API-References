@@ -1,7 +1,9 @@
 ---
 title: TabStopCollection.Count
-second_title: Aspose.Words for .NET API Referansı
-description: TabStopCollection mülk. Koleksiyondaki sekme duraklarının sayısını alır.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words for .NET
+description: TabStopCollection Count mülk. Koleksiyondaki sekme duraklarının sayısını alır C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/tabstopcollection/count/
@@ -14,7 +16,7 @@ Koleksiyondaki sekme duraklarının sayısını alır.
 public int Count { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgenin sekme durakları koleksiyonuyla nasıl çalışılacağını gösterir.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 ### Ayrıca bakınız
 
 * class [TabStopCollection](../)
-* ad alanı [Aspose.Words](../../tabstopcollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Document.Document
-second_title: Aspose.Words for .NET API Referansı
-description: Document inşaatçı. Boş bir Word belgesi oluşturur.
+title: Document
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words for .NET
+description: Document inşaatçı. Boş bir Word belgesi oluşturur C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/document/document/
@@ -14,13 +16,13 @@ Boş bir Word belgesi oluşturur.
 public Document()
 ```
 
-### Notlar
+## Notlar
 
 Belge kağıt boyutu varsayılan olarak Letter'dır. Sayfa düzenini değiştirmek istiyorsanız kullanın[`PageSetup`](../../section/pagesetup/).
 
 Oluşturduktan sonra kullanabilirsiniz[`DocumentBuilder`](../../documentbuilder/) belge içeriğini kolayca eklemek için.
 
-### Örnekler
+## Örnekler
 
 Font özelliğini kullanarak bir metin dizisinin nasıl biçimlendirileceğini gösterir.
 
@@ -64,12 +66,12 @@ Assert.AreEqual("Test encrypted document.", doc.FirstSection.Body.FirstParagraph
 ### Ayrıca bakınız
 
 * class [Document](../)
-* ad alanı [Aspose.Words](../../document/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## Document(string) {#constructor_3}
+## Document(*string*) {#constructor_3}
 
 Bir dosyadan mevcut bir belgeyi açar. Dosya biçimini otomatik olarak algılar.
 
@@ -92,7 +94,7 @@ public Document(string fileName)
 | [IncorrectPasswordException](../../incorrectpasswordexception/) | Belge şifrelenmiş ve açılması için parola gerekiyor, ancak yanlış parola girdiniz. |
 | ArgumentException | Dosyanın adı boş veya boş dize olamaz. |
 
-### Örnekler
+## Örnekler
 
 Bir belgenin nasıl açılacağını ve .PDF'ye nasıl dönüştürüleceğini gösterir.
 
@@ -146,12 +148,12 @@ Assert.AreEqual("Hello world!", textFragmentAbsorber.Text.Trim());
 ### Ayrıca bakınız
 
 * class [Document](../)
-* ad alanı [Aspose.Words](../../document/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## Document(string, LoadOptions) {#constructor_4}
+## Document(*string, [LoadOptions](../../../aspose.words.loading/loadoptions/)*) {#constructor_4}
 
 Bir dosyadan mevcut bir belgeyi açar. Şifreleme şifresi gibi ek seçeneklerin belirtilmesine olanak tanır.
 
@@ -175,7 +177,7 @@ public Document(string fileName, LoadOptions loadOptions)
 | [IncorrectPasswordException](../../incorrectpasswordexception/) | Belge şifrelenmiş ve açılması için parola gerekiyor, ancak yanlış parola girdiniz. |
 | ArgumentException | Dosyanın adı boş veya boş dize olamaz. |
 
-### Örnekler
+## Örnekler
 
 Şifrelenmiş bir Microsoft Word belgesinin nasıl yükleneceğini gösterir.
 
@@ -226,12 +228,12 @@ Assert.AreEqual("Test encrypted document.", doc.FirstSection.Body.FirstParagraph
 
 * class [LoadOptions](../../../aspose.words.loading/loadoptions/)
 * class [Document](../)
-* ad alanı [Aspose.Words](../../document/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## Document(Stream) {#constructor_1}
+## Document(*Stream*) {#constructor_1}
 
 Bir akıştan mevcut bir belgeyi açar. Dosya biçimini otomatik olarak algılar.
 
@@ -256,11 +258,11 @@ public Document(Stream stream)
 | NotSupportedException | Akış, okumayı veya aramayı desteklemiyor. |
 | ObjectDisposedException | Akış, atılmış bir nesnedir. |
 
-### Notlar
+## Notlar
 
 Belge akışın başında saklanmalıdır. Akış rastgele konumlandırmayı desteklemelidir.
 
-### Örnekler
+## Örnekler
 
 Akış kullanarak bir belgenin nasıl yükleneceğini gösterir.
 
@@ -302,12 +304,12 @@ using (HttpClient webClient = new HttpClient())
 ### Ayrıca bakınız
 
 * class [Document](../)
-* ad alanı [Aspose.Words](../../document/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## Document(Stream, LoadOptions) {#constructor_2}
+## Document(*Stream, [LoadOptions](../../../aspose.words.loading/loadoptions/)*) {#constructor_2}
 
 Bir akıştan mevcut bir belgeyi açar. Şifreleme şifresi gibi ek seçeneklerin belirtilmesine olanak tanır.
 
@@ -333,11 +335,11 @@ public Document(Stream stream, LoadOptions loadOptions)
 | NotSupportedException | Akış, okumayı veya aramayı desteklemiyor. |
 | ObjectDisposedException | Akış, atılmış bir nesnedir. |
 
-### Notlar
+## Notlar
 
 Belge akışın başında saklanmalıdır. Akış rastgele konumlandırmayı desteklemelidir.
 
-### Örnekler
+## Örnekler
 
 Temel URI kullanarak bir akıştan görüntüler içeren bir HTML belgesinin nasıl açılacağını gösterir.
 
@@ -408,7 +410,5 @@ using (Stream stream = File.OpenRead(MyDir + "Encrypted.docx"))
 
 * class [LoadOptions](../../../aspose.words.loading/loadoptions/)
 * class [Document](../)
-* ad alanı [Aspose.Words](../../document/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

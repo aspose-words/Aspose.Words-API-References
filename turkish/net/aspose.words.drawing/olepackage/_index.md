@@ -1,7 +1,9 @@
 ---
-title: Class OlePackage
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.OlePackage sınıf. OLE Paketi özelliklerine erişim sağlar.
+title: OlePackage Class
+linktitle: OlePackage
+articleTitle: OlePackage
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.OlePackage sınıf. OLE Paketi özelliklerine erişim sağlar C#'da.
 type: docs
 weight: 1160
 url: /tr/net/aspose.words.drawing/olepackage/
@@ -23,11 +25,11 @@ public class OlePackage
 | [DisplayName](../../aspose.words.drawing/olepackage/displayname/) { get; set; } | OLE Paketinin görünen adını alır veya ayarlar. |
 | [FileName](../../aspose.words.drawing/olepackage/filename/) { get; set; } | OLE Paketi dosya adını alır veya ayarlar. |
 
-### Notlar
+## Notlar
 
 OLE paketi, OLE işleyicisi bilinmiyorsa gömülü nesneyi depolamanın eski ve "belgelenmemiş" bir yoludur. Windows 3.1, 95 ve 98 gibi ilk Windows sürümlerinde, her türlü veriyi belgeye gömmek için kullanılabilecek Packager.exe uygulaması vardı . Artık bu uygulama Windows'un dışında bırakıldı ancak MS Word ve diğer uygulamalar, OLE işleyicisi eksik veya bilinmiyorsa verileri gömmek için hala onu kullanıyor.
 
-### Örnekler
+## Örnekler
 
 Bir OLE nesnesinin belgeye nasıl eklendiğini gösterir.
 
@@ -55,5 +57,3 @@ doc.Save(ArtifactsDir + "Shape.InsertOlePackage.docx");
 
 * ad alanı [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../)
-
-

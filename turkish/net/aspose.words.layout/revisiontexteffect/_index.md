@@ -1,7 +1,9 @@
 ---
-title: Enum RevisionTextEffect
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Layout.RevisionTextEffect Sıralama. Belge metninin revizyonları için dekorasyon efektini belirtmeye olanak tanır.
+title: RevisionTextEffect Enum
+linktitle: RevisionTextEffect
+articleTitle: RevisionTextEffect
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Layout.RevisionTextEffect Sıralama. Belge metninin revizyonları için dekorasyon efektini belirtmeye olanak tanır C#'da.
 type: docs
 weight: 3400
 url: /tr/net/aspose.words.layout/revisiontexteffect/
@@ -28,7 +30,7 @@ public enum RevisionTextEffect
 | DoubleStrikeThrough | `7` | Revize edilmiş içerik çift vuruşlu ve renklidir. |
 | Hidden | `8` | Revize edilen içerik gizlendi. |
 
-### Örnekler
+## Örnekler
 
 Revizyonların görünümünün nasıl değiştirileceğini gösterir.
 
@@ -80,5 +82,3 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 
 * ad alanı [Aspose.Words.Layout](../../aspose.words.layout/)
 * toplantı [Aspose.Words](../../)
-
-

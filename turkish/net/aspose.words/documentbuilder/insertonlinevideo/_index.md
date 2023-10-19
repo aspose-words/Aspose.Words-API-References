@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.InsertOnlineVideo
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentBuilder yöntem. Belgeye bir çevrimiçi video nesnesi ekler ve bunu belirtilen boyuta ölçeklendirir.
+linktitle: InsertOnlineVideo
+articleTitle: InsertOnlineVideo
+second_title: Aspose.Words for .NET
+description: DocumentBuilder InsertOnlineVideo yöntem. Belgeye bir çevrimiçi video nesnesi ekler ve bunu belirtilen boyuta ölçeklendirir C#'da.
 type: docs
-weight: 420
+weight: 410
 url: /tr/net/aspose.words/documentbuilder/insertonlinevideo/
 ---
-## InsertOnlineVideo(string, double, double) {#insertonlinevideo_1}
+## InsertOnlineVideo(*string, double, double*) {#insertonlinevideo_1}
 
 Belgeye bir çevrimiçi video nesnesi ekler ve bunu belirtilen boyuta ölçeklendirir.
 
@@ -24,7 +26,7 @@ public Shape InsertOnlineVideo(string videoUrl, double width, double height)
 
 Yeni eklenen görüntü düğümü.
 
-### Notlar
+## Notlar
 
 'yi kullanarak görüntü boyutunu, konumunu, konumlandırma yöntemini ve diğer ayarları değiştirebilirsiniz.[`Shape`](../../../aspose.words.drawing/shape/) Bu yöntemle döndürülen nesne.
 
@@ -37,7 +39,7 @@ Aşağıdaki kaynaklardan çevrimiçi video eklenmesi desteklenir:
 
 Video yerleştirme kodu sağlayıcılar arasında değişiklik gösterebilir; ayrıntılar için ilgili sağlayıcınıza danışın.
 
-### Örnekler
+## Örnekler
 
 URL kullanarak çevrimiçi bir videonun bir belgeye nasıl ekleneceğini gösterir.
 
@@ -55,12 +57,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertVideoWithUrl.docx");
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* ad alanı [Aspose.Words](../../documentbuilder/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## InsertOnlineVideo(string, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {#insertonlinevideo}
+## InsertOnlineVideo(*string, [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/), double, [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/), double, double, double, [WrapType](../../../aspose.words.drawing/wraptype/)*) {#insertonlinevideo}
 
 Belgeye bir çevrimiçi video nesnesi ekler ve bunu belirtilen boyuta ölçeklendirir.
 
@@ -84,7 +86,7 @@ public Shape InsertOnlineVideo(string videoUrl, RelativeHorizontalPosition horzP
 
 Yeni eklenen görüntü düğümü.
 
-### Notlar
+## Notlar
 
 'yi kullanarak görüntü boyutunu, konumunu, konumlandırma yöntemini ve diğer ayarları değiştirebilirsiniz.[`Shape`](../../../aspose.words.drawing/shape/) Bu yöntemle döndürülen nesne.
 
@@ -97,7 +99,7 @@ Aşağıdaki kaynaklardan çevrimiçi video eklenmesi desteklenir:
 
 Video yerleştirme kodu sağlayıcılar arasında değişiklik gösterebilir; ayrıntılar için ilgili sağlayıcınıza danışın.
 
-### Örnekler
+## Örnekler
 
 Çevrimiçi videonun bir belgeye nasıl ekleneceğini gösterir.
 
@@ -124,12 +126,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOnlineVideo.docx");
 * enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
 * enum [WrapType](../../../aspose.words.drawing/wraptype/)
 * class [DocumentBuilder](../)
-* ad alanı [Aspose.Words](../../documentbuilder/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## InsertOnlineVideo(string, string, byte[], double, double) {#insertonlinevideo_3}
+## InsertOnlineVideo(*string, string, byte[], double, double*) {#insertonlinevideo_3}
 
 Belgeye bir çevrimiçi video nesnesi ekler ve bunu belirtilen boyuta ölçeklendirir.
 
@@ -150,11 +152,11 @@ public Shape InsertOnlineVideo(string videoUrl, string videoEmbedCode, byte[] th
 
 Yeni eklenen görüntü düğümü.
 
-### Notlar
+## Notlar
 
 'yi kullanarak görüntü boyutunu, konumunu, konumlandırma yöntemini ve diğer ayarları değiştirebilirsiniz.[`Shape`](../../../aspose.words.drawing/shape/) Bu yöntemle döndürülen nesne.
 
-### Örnekler
+## Örnekler
 
 Özel küçük resim içeren bir belgeye çevrimiçi videonun nasıl ekleneceğini gösterir.
 
@@ -197,12 +199,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOnlineVideoCustomThumbnail.docx")
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* ad alanı [Aspose.Words](../../documentbuilder/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## InsertOnlineVideo(string, string, byte[], RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {#insertonlinevideo_2}
+## InsertOnlineVideo(*string, string, byte[], [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/), double, [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/), double, double, double, [WrapType](../../../aspose.words.drawing/wraptype/)*) {#insertonlinevideo_2}
 
 Belgeye bir çevrimiçi video nesnesi ekler ve bunu belirtilen boyuta ölçeklendirir.
 
@@ -229,11 +231,11 @@ public Shape InsertOnlineVideo(string videoUrl, string videoEmbedCode, byte[] th
 
 Yeni eklenen görüntü düğümü.
 
-### Notlar
+## Notlar
 
 'yi kullanarak görüntü boyutunu, konumunu, konumlandırma yöntemini ve diğer ayarları değiştirebilirsiniz.[`Shape`](../../../aspose.words.drawing/shape/) Bu yöntemle döndürülen nesne.
 
-### Örnekler
+## Örnekler
 
 Özel küçük resim içeren bir belgeye çevrimiçi videonun nasıl ekleneceğini gösterir.
 
@@ -279,7 +281,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOnlineVideoCustomThumbnail.docx")
 * enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
 * enum [WrapType](../../../aspose.words.drawing/wraptype/)
 * class [DocumentBuilder](../)
-* ad alanı [Aspose.Words](../../documentbuilder/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

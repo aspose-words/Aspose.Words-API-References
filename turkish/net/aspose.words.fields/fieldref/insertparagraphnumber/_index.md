@@ -1,7 +1,9 @@
 ---
 title: FieldRef.InsertParagraphNumber
-second_title: Aspose.Words for .NET API Referansı
-description: FieldRef mülk. Başvurulan paragrafın paragraf numarasının tam olarak belgede göründüğü gibi eklenip eklenmeyeceğini alır veya ayarlar.
+linktitle: InsertParagraphNumber
+articleTitle: InsertParagraphNumber
+second_title: Aspose.Words for .NET
+description: FieldRef InsertParagraphNumber mülk. Başvurulan paragrafın paragraf numarasının tam olarak belgede göründüğü gibi eklenip eklenmeyeceğini alır veya ayarlar C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.fields/fieldref/insertparagraphnumber/
@@ -14,7 +16,7 @@ Başvurulan paragrafın paragraf numarasının tam olarak belgede göründüğü
 public bool InsertParagraphNumber { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Referans yer imlerine REF alanlarının nasıl ekleneceğini gösterir.
 
@@ -104,7 +106,5 @@ private static FieldRef InsertFieldRef(DocumentBuilder builder, string bookmarkN
 ### Ayrıca bakınız
 
 * class [FieldRef](../)
-* ad alanı [Aspose.Words.Fields](../../fieldref/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

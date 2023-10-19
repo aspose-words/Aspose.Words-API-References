@@ -1,7 +1,9 @@
 ---
-title: Enum ChartShapeType
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.Charts.ChartShapeType Sıralama. Grafik öğelerinin şekil türünü belirtir.
+title: ChartShapeType Enum
+linktitle: ChartShapeType
+articleTitle: ChartShapeType
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.Charts.ChartShapeType Sıralama. Grafik öğelerinin şekil türünü belirtir C#'da.
 type: docs
 weight: 810
 url: /tr/net/aspose.words.drawing.charts/chartshapetype/
@@ -207,7 +209,7 @@ public enum ChartShapeType
 | ChartStar | `186` | Grafik yıldızı. |
 | ChartX | `187` | Grafik X. |
 
-### Örnekler
+## Örnekler
 
 Grafik veri etiketleri için dolgu, kontur ve belirtme çizgisi formatının nasıl ayarlanacağını gösterir.
 
@@ -250,5 +252,3 @@ doc.Save(ArtifactsDir + "Charts.FormatDataLables.docx");
 * property [ShapeType](../chartformat/shapetype/)
 * ad alanı [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../)
-
-

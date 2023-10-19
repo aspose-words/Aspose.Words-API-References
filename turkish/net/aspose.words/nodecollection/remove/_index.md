@@ -1,7 +1,9 @@
 ---
 title: NodeCollection.Remove
-second_title: Aspose.Words for .NET API Referansı
-description: NodeCollection yöntem. Düğümü koleksiyondan ve belgeden kaldırır.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words for .NET
+description: NodeCollection Remove yöntem. Düğümü koleksiyondan ve belgeden kaldırır C#'da.
 type: docs
 weight: 90
 url: /tr/net/aspose.words/nodecollection/remove/
@@ -18,7 +20,7 @@ public void Remove(Node node)
 | --- | --- | --- |
 | node | Node | Kaldırılacak düğüm. |
 
-### Örnekler
+## Örnekler
 
 NodeCollection ile nasıl çalışılacağını gösterir.
 
@@ -56,7 +58,5 @@ Assert.False(runs.Contains(run));
 
 * class [Node](../../node/)
 * class [NodeCollection](../)
-* ad alanı [Aspose.Words](../../nodecollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

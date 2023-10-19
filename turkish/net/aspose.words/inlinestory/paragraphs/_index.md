@@ -1,7 +1,9 @@
 ---
 title: InlineStory.Paragraphs
-second_title: Aspose.Words for .NET API Referansı
-description: InlineStory mülk. Hikayenin doğrudan alt öğeleri olan paragrafların bir koleksiyonunu alır.
+linktitle: Paragraphs
+articleTitle: Paragraphs
+second_title: Aspose.Words for .NET
+description: InlineStory Paragraphs mülk. Hikayenin doğrudan alt öğeleri olan paragrafların bir koleksiyonunu alır C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words/inlinestory/paragraphs/
@@ -14,7 +16,7 @@ Hikayenin doğrudan alt öğeleri olan paragrafların bir koleksiyonunu alır.
 public ParagraphCollection Paragraphs { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir paragrafa nasıl yorum ekleneceğini gösterir.
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "InlineStory.AddFootnote.docx");
 
 * class [ParagraphCollection](../../paragraphcollection/)
 * class [InlineStory](../)
-* ad alanı [Aspose.Words](../../inlinestory/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

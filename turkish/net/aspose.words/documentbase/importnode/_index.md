@@ -1,12 +1,14 @@
 ---
 title: DocumentBase.ImportNode
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentBase yöntem. Başka bir belgedeki bir düğümü geçerli belgeye aktarır.
+linktitle: ImportNode
+articleTitle: ImportNode
+second_title: Aspose.Words for .NET
+description: DocumentBase ImportNode yöntem. Başka bir belgedeki bir düğümü geçerli belgeye aktarır C#'da.
 type: docs
 weight: 100
 url: /tr/net/aspose.words/documentbase/importnode/
 ---
-## ImportNode(Node, bool) {#importnode}
+## ImportNode(*[Node](../../node/), bool*) {#importnode}
 
 Başka bir belgedeki bir düğümü geçerli belgeye aktarır.
 
@@ -23,17 +25,17 @@ public Node ImportNode(Node srcNode, bool isImportChildren)
 
 Geçerli belgeye ait klonlanmış düğüm.
 
-### Notlar
+## Notlar
 
 Bu yöntem şunları kullanır:UseDestinationStyles biçimlendirmeyi çözme seçeneği.
 
 Bir düğümün içe aktarılması, içe aktarılan belgeye ait kaynak düğümün bir kopyasını oluşturur. Döndürülen düğümün üst öğesi yok. Kaynak düğüm değiştirilmez veya orijinal belgeden kaldırılmaz.
 
-Başka bir belgedeki bir düğümün bu belgeye eklenmeden önce içe aktarılması gerekir. İçe aktarma sırasında, stillere ve listelere yapılan referanslar gibi belgeye özgü özellikler orijinalden içe aktarılan belgeye çevrilir . Düğüm içe aktarıldıktan sonra, kullanılarak belgedeki uygun yere eklenebilir.Node) veya Node).
+Başka bir belgedeki bir düğümün bu belgeye eklenmeden önce içe aktarılması gerekir. İçe aktarma sırasında, stillere ve listelere yapılan referanslar gibi belgeye özgü özellikler orijinalden içe aktarılan belgeye çevrilir . Düğüm içe aktarıldıktan sonra, kullanılarak belgedeki uygun yere eklenebilir.[`InsertBefore`](../../compositenode/insertbefore/) veya [`InsertAfter`](../../compositenode/insertafter/).
 
 Kaynak düğüm zaten hedef belgeye aitse, kaynak düğümün derin clone 'si oluşturulur.
 
-### Örnekler
+## Örnekler
 
 Bir düğümün bir belgeden diğerine nasıl aktarılacağını gösterir.
 
@@ -68,12 +70,12 @@ Assert.AreEqual("Destination document first paragraph text.\r\nSource document f
 
 * class [Node](../../node/)
 * class [DocumentBase](../)
-* ad alanı [Aspose.Words](../../documentbase/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## ImportNode(Node, bool, ImportFormatMode) {#importnode_1}
+## ImportNode(*[Node](../../node/), bool, [ImportFormatMode](../../importformatmode/)*) {#importnode_1}
 
 Biçimlendirmeyi kontrol etme seçeneğiyle birlikte başka bir belgedeki bir düğümü geçerli belgeye aktarır.
 
@@ -91,17 +93,17 @@ public Node ImportNode(Node srcNode, bool isImportChildren, ImportFormatMode imp
 
 Klonlanmış, içe aktarılmış düğüm. Düğüm hedef belgeye aittir ancak üst öğesi yoktur.
 
-### Notlar
+## Notlar
 
 Bu aşırı yükleme, stillerin ve liste formatının nasıl içe aktarıldığını kontrol etmek için kullanışlıdır.
 
 Bir düğümün içe aktarılması, içe aktarılan belgeye ait kaynak düğümün bir kopyasını oluşturur. Döndürülen düğümün üst öğesi yok. Kaynak düğüm değiştirilmez veya orijinal belgeden kaldırılmaz.
 
-Başka bir belgedeki bir düğümün bu belgeye eklenmeden önce içe aktarılması gerekir. İçe aktarma sırasında, stillere ve listelere yapılan referanslar gibi belgeye özgü özellikler orijinalden içe aktarılan belgeye çevrilir . Düğüm içe aktarıldıktan sonra, kullanılarak belgedeki uygun yere eklenebilir.Node) veya Node).
+Başka bir belgedeki bir düğümün bu belgeye eklenmeden önce içe aktarılması gerekir. İçe aktarma sırasında, stillere ve listelere yapılan referanslar gibi belgeye özgü özellikler orijinalden içe aktarılan belgeye çevrilir . Düğüm içe aktarıldıktan sonra, kullanılarak belgedeki uygun yere eklenebilir.[`InsertBefore`](../../compositenode/insertbefore/) veya [`InsertAfter`](../../compositenode/insertafter/).
 
 Kaynak düğüm zaten hedef belgeye aitse, kaynak düğümün derin clone 'si oluşturulur.
 
-### Örnekler
+## Örnekler
 
 Düğümün kaynak belgeden hedef belgeye belirli seçeneklerle nasıl aktarılacağını gösterir.
 
@@ -141,7 +143,5 @@ Assert.AreEqual(srcStyle.Font.Name, dstDoc.Styles["My style_0"].Font.Name);
 * class [Node](../../node/)
 * enum [ImportFormatMode](../../importformatmode/)
 * class [DocumentBase](../)
-* ad alanı [Aspose.Words](../../documentbase/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: Fill.ImageBytes
-second_title: Aspose.Words for .NET API Referansı
-description: Fill mülk. Dolgu dokusunun veya deseninin ham baytlarını alır.
+linktitle: ImageBytes
+articleTitle: ImageBytes
+second_title: Aspose.Words for .NET
+description: Fill ImageBytes mülk. Dolgu dokusunun veya deseninin ham baytlarını alır C#'da.
 type: docs
-weight: 140
+weight: 130
 url: /tr/net/aspose.words.drawing/fill/imagebytes/
 ---
 ## Fill.ImageBytes property
@@ -14,11 +16,11 @@ Dolgu dokusunun veya deseninin ham baytlarını alır.
 public byte[] ImageBytes { get; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:`hükümsüz`.
 
-### Örnekler
+## Örnekler
 
 Çeşitli şekiller oluşturmayı gösterir.
 
@@ -93,7 +95,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 ### Ayrıca bakınız
 
 * class [Fill](../)
-* ad alanı [Aspose.Words.Drawing](../../fill/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: TableSubstitutionRule.GetSubstitutes
-second_title: Aspose.Words for .NET API Referansı
-description: TableSubstitutionRule yöntem. Belirtilen orijinal yazı tipi adı için yedek yazı tipi adlarını içeren diziyi döndürür.
+linktitle: GetSubstitutes
+articleTitle: GetSubstitutes
+second_title: Aspose.Words for .NET
+description: TableSubstitutionRule GetSubstitutes yöntem. Belirtilen orijinal yazı tipi adı için yedek yazı tipi adlarını içeren diziyi döndürür C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fonts/tablesubstitutionrule/getsubstitutes/
@@ -22,7 +24,7 @@ public IEnumerable<string> GetSubstitutes(string originalFontName)
 
 Alternatif yazı tipi adlarının listesi.
 
-### Örnekler
+## Örnekler
 
 Bir belgenin sistem yazı tipi kaynağına nasıl erişileceğini ve yazı tipi yedeklerinin nasıl ayarlanacağını gösterir.
 
@@ -134,7 +136,5 @@ doc.Save(ArtifactsDir + "FontSettings.TableSubstitutionRule.Custom.pdf");
 ### Ayrıca bakınız
 
 * class [TableSubstitutionRule](../)
-* ad alanı [Aspose.Words.Fonts](../../tablesubstitutionrule/)
+* ad alanı [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../../)
-
-

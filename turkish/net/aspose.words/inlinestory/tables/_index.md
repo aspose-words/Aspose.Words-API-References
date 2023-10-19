@@ -1,7 +1,9 @@
 ---
 title: InlineStory.Tables
-second_title: Aspose.Words for .NET API Referansı
-description: InlineStory mülk. Hikayenin doğrudan alt öğeleri olan tabloların bir koleksiyonunu alır.
+linktitle: Tables
+articleTitle: Tables
+second_title: Aspose.Words for .NET
+description: InlineStory Tables mülk. Hikayenin doğrudan alt öğeleri olan tabloların bir koleksiyonunu alır C#'da.
 type: docs
 weight: 110
 url: /tr/net/aspose.words/inlinestory/tables/
@@ -14,7 +16,7 @@ Hikayenin doğrudan alt öğeleri olan tabloların bir koleksiyonunu alır.
 public TableCollection Tables { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 InlineStory düğümlerinin nasıl ekleneceğini gösterir.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "InlineStory.InsertInlineStoryNodes.docx");
 
 * class [TableCollection](../../../aspose.words.tables/tablecollection/)
 * class [InlineStory](../)
-* ad alanı [Aspose.Words](../../inlinestory/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: ChartFormat.Stroke
-second_title: Aspose.Words for .NET API Referansı
-description: ChartFormat mülk. Üst grafik öğesi için satır formatını alır.
+linktitle: Stroke
+articleTitle: Stroke
+second_title: Aspose.Words for .NET
+description: ChartFormat Stroke mülk. Üst grafik öğesi için satır formatını alır C#'da.
 type: docs
-weight: 40
+weight: 30
 url: /tr/net/aspose.words.drawing.charts/chartformat/stroke/
 ---
 ## ChartFormat.Stroke property
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.drawing.charts/chartformat/stroke/
 public Stroke Stroke { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 İşaretçi biçimlendirmesinin nasıl ayarlanacağını gösterin.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Charts.MarkerFormatting.docx");
 
 * class [Stroke](../../../aspose.words.drawing/stroke/)
 * class [ChartFormat](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartformat/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

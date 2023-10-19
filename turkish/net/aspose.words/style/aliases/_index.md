@@ -1,7 +1,9 @@
 ---
 title: Style.Aliases
-second_title: Aspose.Words for .NET API Referansı
-description: Style mülk. Bu stilin tüm takma adlarını alır. Stilin takma adı yoksa boş dize dizisi döndürülür.
+linktitle: Aliases
+articleTitle: Aliases
+second_title: Aspose.Words for .NET
+description: Style Aliases mülk. Bu stilin tüm takma adlarını alır. Stilin takma adı yoksa boş dize dizisi döndürülür C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/style/aliases/
@@ -14,7 +16,7 @@ Bu stilin tüm takma adlarını alır. Stilin takma adı yoksa boş dize dizisi 
 public string[] Aliases { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Stil takma adlarının nasıl kullanılacağını gösterir.
 
@@ -45,7 +47,5 @@ Assert.AreEqual(doc.FirstSection.Body.Paragraphs[0].ParagraphFormat.Style,
 ### Ayrıca bakınız
 
 * class [Style](../)
-* ad alanı [Aspose.Words](../../style/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

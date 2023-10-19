@@ -1,7 +1,9 @@
 ---
 title: MailMergeRegionInfo.Level
-second_title: Aspose.Words for .NET API Referansı
-description: MailMergeRegionInfo mülk. Bölgenin iç içe geçme düzeyini döndürür.
+linktitle: Level
+articleTitle: Level
+second_title: Aspose.Words for .NET
+description: MailMergeRegionInfo Level mülk. Bölgenin iç içe geçme düzeyini döndürür C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.mailmerging/mailmergeregioninfo/level/
@@ -14,7 +16,7 @@ Bölgenin iç içe geçme düzeyini döndürür.
 public int Level { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Adres-mektup birleştirme bölgelerinin nasıl doğrulanacağını gösterir.
 
@@ -59,7 +61,5 @@ Assert.AreEqual("TableEnd:NestedRegion1", endFieldMergeField.FieldName);
 ### Ayrıca bakınız
 
 * class [MailMergeRegionInfo](../)
-* ad alanı [Aspose.Words.MailMerging](../../mailmergeregioninfo/)
+* ad alanı [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldToc.EntryIdentifier
-second_title: Aspose.Words for .NET API Referansı
-description: FieldToc mülk. Dahil edilen TC alanlarının tür tanımlayıcılarıyla eşleşmesi gereken bir dizeyi alır veya ayarlar.
+linktitle: EntryIdentifier
+articleTitle: EntryIdentifier
+second_title: Aspose.Words for .NET
+description: FieldToc EntryIdentifier mülk. Dahil edilen TC alanlarının tür tanımlayıcılarıyla eşleşmesi gereken bir dizeyi alır veya ayarlar C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.fields/fieldtoc/entryidentifier/
@@ -14,7 +16,7 @@ Dahil edilen TC alanlarının tür tanımlayıcılarıyla eşleşmesi gereken bi
 public string EntryIdentifier { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 TOC alanının nasıl ekleneceğini ve hangi TC alanlarının giriş olarak sonuçlanacağını filtreleyeceğini gösterir.
 
@@ -66,7 +68,5 @@ public void InsertTocEntry(DocumentBuilder builder, string text, string typeIden
 ### Ayrıca bakınız
 
 * class [FieldToc](../)
-* ad alanı [Aspose.Words.Fields](../../fieldtoc/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

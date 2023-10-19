@@ -1,7 +1,9 @@
 ---
 title: OdsoFieldMapDataCollection.Item
-second_title: Aspose.Words for .NET API Referansı
-description: OdsoFieldMapDataCollection mülk. Bu koleksiyondaki bir öğeyi alır veya ayarlar.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words for .NET
+description: OdsoFieldMapDataCollection Item mülk. Bu koleksiyondaki bir öğeyi alır veya ayarlar C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.settings/odsofieldmapdatacollection/item/
@@ -14,7 +16,7 @@ Bu koleksiyondaki bir öğeyi alır veya ayarlar.
 public OdsoFieldMapData this[int index] { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Veri kaynağı sütunlarını birleştirme alanlarıyla eşleştiren veri koleksiyonuna nasıl erişileceğini gösterir.
 
@@ -58,7 +60,5 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * class [OdsoFieldMapData](../../odsofieldmapdata/)
 * class [OdsoFieldMapDataCollection](../)
-* ad alanı [Aspose.Words.Settings](../../odsofieldmapdatacollection/)
+* ad alanı [Aspose.Words.Settings](../../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../../)
-
-

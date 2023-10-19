@@ -1,7 +1,9 @@
 ---
 title: VariableCollection.GetEnumerator
-second_title: Aspose.Words for .NET API Referansı
-description: VariableCollection yöntem. Koleksiyondaki tüm değişkenleri yinelemek için kullanılabilecek bir numaralandırıcı nesnesini döndürür.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words for .NET
+description: VariableCollection GetEnumerator yöntem. Koleksiyondaki tüm değişkenleri yinelemek için kullanılabilecek bir numaralandırıcı nesnesini döndürür C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words/variablecollection/getenumerator/
@@ -14,7 +16,7 @@ Koleksiyondaki tüm değişkenleri yinelemek için kullanılabilecek bir numaral
 public IEnumerator<KeyValuePair<string, string>> GetEnumerator()
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgenin değişken koleksiyonuyla nasıl çalışılacağını gösterir.
 
@@ -81,7 +83,5 @@ Assert.That(variables, Is.Empty);
 ### Ayrıca bakınız
 
 * class [VariableCollection](../)
-* ad alanı [Aspose.Words](../../variablecollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

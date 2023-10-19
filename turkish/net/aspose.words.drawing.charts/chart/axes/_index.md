@@ -1,7 +1,9 @@
 ---
 title: Chart.Axes
-second_title: Aspose.Words for .NET API Referansı
-description: Chart mülk. Bu grafiğin tüm eksenlerinin bir koleksiyonunu alır.
+linktitle: Axes
+articleTitle: Axes
+second_title: Aspose.Words for .NET
+description: Chart Axes mülk. Bu grafiğin tüm eksenlerinin bir koleksiyonunu alır C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.drawing.charts/chart/axes/
@@ -14,7 +16,7 @@ Bu grafiğin tüm eksenlerinin bir koleksiyonunu alır.
 public ChartAxisCollection Axes { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Eksen koleksiyonuyla nasıl çalışılacağını gösterir.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Charts.AxisCollection.docx");
 
 * class [ChartAxisCollection](../../chartaxiscollection/)
 * class [Chart](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chart/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

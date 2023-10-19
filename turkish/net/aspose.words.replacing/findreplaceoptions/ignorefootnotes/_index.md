@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.IgnoreFootnotes
-second_title: Aspose.Words for .NET API Referansı
-description: FindReplaceOptions mülk. Dipnotların yoksayılacağını belirten bir boole değeri alır veya ayarlar. Varsayılan değerYANLIŞ .
+linktitle: IgnoreFootnotes
+articleTitle: IgnoreFootnotes
+second_title: Aspose.Words for .NET
+description: FindReplaceOptions IgnoreFootnotes mülk. Dipnotların yoksayılacağını belirten bir boole değeri alır veya ayarlar. Varsayılan değerYANLIŞ  C#'da.
 type: docs
 weight: 90
 url: /tr/net/aspose.words.replacing/findreplaceoptions/ignorefootnotes/
@@ -14,7 +16,7 @@ Dipnotların yoksayılacağını belirten bir boole değeri alır veya ayarlar. 
 public bool IgnoreFootnotes { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bul ve değiştir işlemi sırasında dipnotların nasıl yok sayılacağını gösterir.
 
@@ -41,7 +43,5 @@ doc.Range.Replace("Lorem ipsum", "Replaced Lorem ipsum", options);
 ### Ayrıca bakınız
 
 * class [FindReplaceOptions](../)
-* ad alanı [Aspose.Words.Replacing](../../findreplaceoptions/)
+* ad alanı [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * toplantı [Aspose.Words](../../../)
-
-

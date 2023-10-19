@@ -1,7 +1,9 @@
 ---
 title: TxtSaveOptions.AddBidiMarks
-second_title: Aspose.Words for .NET API Referansı
-description: TxtSaveOptions mülk. Düz metin biçiminde dışa aktarırken her BiDi çalıştırmadan önce çift yönlü işaretlerin eklenip eklenmeyeceğini belirtir.
+linktitle: AddBidiMarks
+articleTitle: AddBidiMarks
+second_title: Aspose.Words for .NET
+description: TxtSaveOptions AddBidiMarks mülk. Düz metin biçiminde dışa aktarırken her BiDi çalıştırmadan önce çift yönlü işaretlerin eklenip eklenmeyeceğini belirtir C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.saving/txtsaveoptions/addbidimarks/
@@ -16,7 +18,7 @@ Varsayılan değer:`YANLIŞ`.
 public bool AddBidiMarks { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Metindeki her çift yönlü Çalıştırma'dan önce 'SAĞDAN SOL İŞARETİ' (U+200F) Unicode Karakterinin nasıl ekleneceğini gösterir.
 
@@ -58,7 +60,5 @@ else
 ### Ayrıca bakınız
 
 * class [TxtSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../txtsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

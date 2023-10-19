@@ -1,7 +1,9 @@
 ---
 title: PdfDigitalSignatureDetails.SignatureDate
-second_title: Aspose.Words for .NET API Referansı
-description: PdfDigitalSignatureDetails mülk. İmzalama tarihini alır veya ayarlar.
+linktitle: SignatureDate
+articleTitle: SignatureDate
+second_title: Aspose.Words for .NET
+description: PdfDigitalSignatureDetails SignatureDate mülk. İmzalama tarihini alır veya ayarlar C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.saving/pdfdigitalsignaturedetails/signaturedate/
@@ -14,13 +16,13 @@ url: /tr/net/aspose.words.saving/pdfdigitalsignaturedetails/signaturedate/
 public DateTime SignatureDate { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer geçerli saattir.
 
 Bu değer dijital imzada doğrulanmamış bir bilgisayar saati olarak görünecektir.
 
-### Örnekler
+## Örnekler
 
 Oluşturulan bir PDF belgesinin nasıl imzalanacağını gösterir.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 ### Ayrıca bakınız
 
 * class [PdfDigitalSignatureDetails](../)
-* ad alanı [Aspose.Words.Saving](../../pdfdigitalsignaturedetails/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

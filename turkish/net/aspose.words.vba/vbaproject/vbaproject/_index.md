@@ -1,7 +1,9 @@
 ---
-title: VbaProject.VbaProject
-second_title: Aspose.Words for .NET API Referansı
-description: VbaProject inşaatçı. Bir boşluk oluştururVbaProject .
+title: VbaProject
+linktitle: VbaProject
+articleTitle: VbaProject
+second_title: Aspose.Words for .NET
+description: VbaProject inşaatçı. Bir boşluk oluştururVbaProject  C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.vba/vbaproject/vbaproject/
@@ -14,7 +16,7 @@ Bir boşluk oluşturur[`VbaProject`](../) .
 public VbaProject()
 ```
 
-### Örnekler
+## Örnekler
 
 Makroları kullanarak bir VBA projesinin nasıl oluşturulacağını gösterir.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "VbaProject.CreateVBAMacros.docm");
 ### Ayrıca bakınız
 
 * class [VbaProject](../)
-* ad alanı [Aspose.Words.Vba](../../vbaproject/)
+* ad alanı [Aspose.Words.Vba](../../../aspose.words.vba/)
 * toplantı [Aspose.Words](../../../)
-
-

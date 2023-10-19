@@ -1,7 +1,9 @@
 ---
-title: Class HyphenationOptions
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Settings.HyphenationOptions sınıf. Belge tireleme seçeneklerini yapılandırmaya izin verir.
+title: HyphenationOptions Class
+linktitle: HyphenationOptions
+articleTitle: HyphenationOptions
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Settings.HyphenationOptions sınıf. Belge tireleme seçeneklerini yapılandırmaya izin verir C#'da.
 type: docs
 weight: 5790
 url: /tr/net/aspose.words.settings/hyphenationoptions/
@@ -31,7 +33,7 @@ public class HyphenationOptions
 | [HyphenateCaps](../../aspose.words.settings/hyphenationoptions/hyphenatecaps/) { get; set; } | Tamamı büyük harflerle yazılan kelimelerin tireli olup olmayacağını belirleyen değeri alır veya ayarlar. Bu özelliğin varsayılan değeri:`doğru` . |
 | [HyphenationZone](../../aspose.words.settings/hyphenationoptions/hyphenationzone/) { get; set; } | Sağ kenar boşluğundan, sözcükleri tirelemesini istemediğiniz noktanın 1/20'si kadar mesafeyi alır veya ayarlar. . Bu özellik için varsayılan değer 360'tır (0,25 inç). |
 
-### Örnekler
+## Örnekler
 
 Otomatik tirelemenin nasıl yapılandırılacağını gösterir.
 
@@ -55,5 +57,3 @@ doc.Save(ArtifactsDir + "Document.HyphenationOptions.docx");
 
 * ad alanı [Aspose.Words.Settings](../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../)
-
-

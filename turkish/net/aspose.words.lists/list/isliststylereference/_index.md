@@ -1,7 +1,9 @@
 ---
 title: List.IsListStyleReference
-second_title: Aspose.Words for .NET API Referansı
-description: List mülk. İadelerdoğru bu liste bir liste stiline referans ise.
+linktitle: IsListStyleReference
+articleTitle: IsListStyleReference
+second_title: Aspose.Words for .NET
+description: List IsListStyleReference mülk. İadelerdoğru bu liste bir liste stiline referans ise C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.lists/list/isliststylereference/
@@ -14,11 +16,11 @@ url: /tr/net/aspose.words.lists/list/isliststylereference/
 public bool IsListStyleReference { get; }
 ```
 
-### Notlar
+## Notlar
 
 Liste stiline referans olan bir listenin özelliklerini değiştirmenin hiçbir etkisi olmayacağını unutmayın. Liste stilinde belirtilen liste formatı her zaman önceliklidir.
 
-### Örnekler
+## Örnekler
 
 Liste stilinin nasıl oluşturulacağını ve belgede nasıl kullanılacağını gösterir.
 
@@ -79,7 +81,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateAndUseListStyle.docx");
 ### Ayrıca bakınız
 
 * class [List](../)
-* ad alanı [Aspose.Words.Lists](../../list/)
+* ad alanı [Aspose.Words.Lists](../../../aspose.words.lists/)
 * toplantı [Aspose.Words](../../../)
-
-

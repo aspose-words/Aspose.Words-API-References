@@ -1,12 +1,14 @@
 ---
 title: NodeRendererBase.GetSizeInPixels
-second_title: Aspose.Words for .NET API Referansı
-description: NodeRendererBase yöntem. Belirtilen yakınlaştırma faktörü ve çözünürlük için şeklin boyutunu piksel cinsinden hesaplar.
+linktitle: GetSizeInPixels
+articleTitle: GetSizeInPixels
+second_title: Aspose.Words for .NET
+description: NodeRendererBase GetSizeInPixels yöntem. Belirtilen yakınlaştırma faktörü ve çözünürlük için şeklin boyutunu piksel cinsinden hesaplar C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.rendering/noderendererbase/getsizeinpixels/
 ---
-## GetSizeInPixels(float, float) {#getsizeinpixels}
+## GetSizeInPixels(*float, float*) {#getsizeinpixels}
 
 Belirtilen yakınlaştırma faktörü ve çözünürlük için şeklin boyutunu piksel cinsinden hesaplar.
 
@@ -23,11 +25,11 @@ public Size GetSizeInPixels(float scale, float dpi)
 
 Şeklin piksel cinsinden boyutu.
 
-### Notlar
+## Notlar
 
 Bu yöntem dönüştürür[`SizeInPoints`](../sizeinpoints/) Piksel cinsinden boyuta dönüştürür ve şekli bitmap üzerinde düzgün bir şekilde oluşturmak için bir bitmap oluşturmak istediğinizde yararlı kullanışlıdır.
 
-### Örnekler
+## Örnekler
 
 Şekillerin nasıl ölçüleceğini ve ölçeklendirileceğini gösterir.
 
@@ -74,12 +76,12 @@ Assert.AreEqual(30, bounds.Height);
 ### Ayrıca bakınız
 
 * class [NodeRendererBase](../)
-* ad alanı [Aspose.Words.Rendering](../../noderendererbase/)
+* ad alanı [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## GetSizeInPixels(float, float, float) {#getsizeinpixels_1}
+## GetSizeInPixels(*float, float, float*) {#getsizeinpixels_1}
 
 Belirtilen yakınlaştırma faktörü ve çözünürlük için şeklin boyutunu piksel cinsinden hesaplar.
 
@@ -97,11 +99,11 @@ public Size GetSizeInPixels(float scale, float horizontalDpi, float verticalDpi)
 
 Şeklin piksel cinsinden boyutu.
 
-### Notlar
+## Notlar
 
 Bu yöntem dönüştürür[`SizeInPoints`](../sizeinpoints/) Piksel cinsinden boyuta dönüştürür ve şekli bitmap üzerinde düzgün bir şekilde oluşturmak için bir bitmap oluşturmak istediğinizde yararlı kullanışlıdır.
 
-### Örnekler
+## Örnekler
 
 Şekillerin nasıl ölçüleceğini ve ölçeklendirileceğini gösterir.
 
@@ -148,7 +150,5 @@ Assert.AreEqual(30, bounds.Height);
 ### Ayrıca bakınız
 
 * class [NodeRendererBase](../)
-* ad alanı [Aspose.Words.Rendering](../../noderendererbase/)
+* ad alanı [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * toplantı [Aspose.Words](../../../)
-
-

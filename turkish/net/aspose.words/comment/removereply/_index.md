@@ -1,9 +1,11 @@
 ---
 title: Comment.RemoveReply
-second_title: Aspose.Words for .NET API Referansı
-description: Comment yöntem. Bu yoruma verilen belirtilen yanıtı kaldırır.
+linktitle: RemoveReply
+articleTitle: RemoveReply
+second_title: Aspose.Words for .NET
+description: Comment RemoveReply yöntem. Bu yoruma verilen belirtilen yanıtı kaldırır C#'da.
 type: docs
-weight: 170
+weight: 140
 url: /tr/net/aspose.words/comment/removereply/
 ---
 ## Comment.RemoveReply method
@@ -18,11 +20,11 @@ public void RemoveReply(Comment reply)
 | --- | --- | --- |
 | reply | Comment | Silme yanıtının yorum düğümü. |
 
-### Notlar
+## Notlar
 
 Yanıtın tüm bileşen düğümleri belgeden silinecektir.
 
-### Örnekler
+## Örnekler
 
 Yorum yanıtlarının nasıl kaldırılacağını gösterir.
 
@@ -54,7 +56,5 @@ Assert.AreEqual(0, comment.Replies.Count());
 ### Ayrıca bakınız
 
 * class [Comment](../)
-* ad alanı [Aspose.Words](../../comment/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class RowFormat
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Tables.RowFormat sınıf. Bir tablo satırının tüm biçimlendirmesini temsil eder.
+title: RowFormat Class
+linktitle: RowFormat
+articleTitle: RowFormat
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Tables.RowFormat sınıf. Bir tablo satırının tüm biçimlendirmesini temsil eder C#'da.
 type: docs
 weight: 6330
 url: /tr/net/aspose.words.tables/rowformat/
@@ -32,7 +34,7 @@ public class RowFormat
 | --- | --- |
 | [ClearFormatting](../../aspose.words.tables/rowformat/clearformatting/)() | Varsayılan satır formatına sıfırlar. |
 
-### Örnekler
+## Örnekler
 
 Bir tablo satırının formatının nasıl değiştirileceğini gösterir.
 
@@ -146,5 +148,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * ad alanı [Aspose.Words.Tables](../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../)
-
-

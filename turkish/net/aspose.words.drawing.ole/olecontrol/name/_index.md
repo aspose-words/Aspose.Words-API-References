@@ -1,7 +1,9 @@
 ---
 title: OleControl.Name
-second_title: Aspose.Words for .NET API Referansı
-description: OleControl mülk. ActiveX denetiminin adını alır veya ayarlar.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words for .NET
+description: OleControl Name mülk. ActiveX denetiminin adını alır veya ayarlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.drawing.ole/olecontrol/name/
@@ -14,7 +16,7 @@ ActiveX denetiminin adını alır veya ayarlar.
 public string Name { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 ActiveX denetiminin özelliklerinin nasıl doğrulanacağını gösterir.
 
@@ -44,7 +46,5 @@ if (oleControl.IsForms2OleControl)
 ### Ayrıca bakınız
 
 * class [OleControl](../)
-* ad alanı [Aspose.Words.Drawing.Ole](../../olecontrol/)
+* ad alanı [Aspose.Words.Drawing.Ole](../../../aspose.words.drawing.ole/)
 * toplantı [Aspose.Words](../../../)
-
-

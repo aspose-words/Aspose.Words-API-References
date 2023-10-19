@@ -1,7 +1,9 @@
 ---
 title: FileFontSource.Type
-second_title: Aspose.Words for .NET API Referansı
-description: FileFontSource mülk. Yazı tipi kaynağının türünü döndürür.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words for .NET
+description: FileFontSource Type mülk. Yazı tipi kaynağının türünü döndürür C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.fonts/filefontsource/type/
@@ -14,7 +16,7 @@ Yazı tipi kaynağının türünü döndürür.
 public override FontSourceType Type { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Yerel dosya sistemindeki bir yazı tipi dosyasının yazı tipi kaynağı olarak nasıl kullanılacağını gösterir.
 
@@ -34,7 +36,5 @@ Assert.AreEqual(0, fileFontSource.Priority);
 
 * enum [FontSourceType](../../fontsourcetype/)
 * class [FileFontSource](../)
-* ad alanı [Aspose.Words.Fonts](../../filefontsource/)
+* ad alanı [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../../)
-
-

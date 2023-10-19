@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.BarcodeGenerator
-second_title: Aspose.Words for .NET API Referansı
-description: FieldOptions mülk. Özel barkod oluşturucuyu alır veya ayarlar.
+linktitle: BarcodeGenerator
+articleTitle: BarcodeGenerator
+second_title: Aspose.Words for .NET
+description: FieldOptions BarcodeGenerator mülk. Özel barkod oluşturucuyu alır veya ayarlar C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fieldoptions/barcodegenerator/
@@ -14,11 +16,11 @@ url: /tr/net/aspose.words.fields/fieldoptions/barcodegenerator/
 public IBarcodeGenerator BarcodeGenerator { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Özel barkod oluşturucu genel arayüzü uygulamalıdır[`IBarcodeGenerator`](../../ibarcodegenerator/) .
 
-### Örnekler
+## Örnekler
 
 Barkod oluşturucunun nasıl kullanılacağını gösterir.
 
@@ -95,7 +97,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 
 * interface [IBarcodeGenerator](../../ibarcodegenerator/)
 * class [FieldOptions](../)
-* ad alanı [Aspose.Words.Fields](../../fieldoptions/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

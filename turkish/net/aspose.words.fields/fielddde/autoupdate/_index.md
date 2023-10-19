@@ -1,7 +1,9 @@
 ---
 title: FieldDde.AutoUpdate
-second_title: Aspose.Words for .NET API Referansı
-description: FieldDde mülk. Bu alanın otomatik olarak güncellenip güncellenmeyeceğini alır veya ayarlar.
+linktitle: AutoUpdate
+articleTitle: AutoUpdate
+second_title: Aspose.Words for .NET
+description: FieldDde AutoUpdate mülk. Bu alanın otomatik olarak güncellenip güncellenmeyeceğini alır veya ayarlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fielddde/autoupdate/
@@ -14,7 +16,7 @@ Bu alanın otomatik olarak güncellenip güncellenmeyeceğini alır veya ayarlar
 public bool AutoUpdate { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Yerel dosya sistemindeki diğer belgelere bağlanmak ve içeriklerini görüntülemek için çeşitli alan türlerinin nasıl kullanılacağını gösterir.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### Ayrıca bakınız
 
 * class [FieldDde](../)
-* ad alanı [Aspose.Words.Fields](../../fielddde/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

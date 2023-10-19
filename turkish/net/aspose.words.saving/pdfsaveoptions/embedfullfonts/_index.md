@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.EmbedFullFonts
-second_title: Aspose.Words for .NET API Referansı
-description: PdfSaveOptions mülk. Fontların elde edilen PDF belgelerine nasıl gömüleceğini kontrol eder.
+linktitle: EmbedFullFonts
+articleTitle: EmbedFullFonts
+second_title: Aspose.Words for .NET
+description: PdfSaveOptions EmbedFullFonts mülk. Fontların elde edilen PDF belgelerine nasıl gömüleceğini kontrol eder C#'da.
 type: docs
 weight: 120
 url: /tr/net/aspose.words.saving/pdfsaveoptions/embedfullfonts/
@@ -14,7 +16,7 @@ Fontların elde edilen PDF belgelerine nasıl gömüleceğini kontrol eder.
 public bool EmbedFullFonts { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:`YANLIŞ`bu, yazı tiplerinin yerleştirmeden önce alt kümelere ayrıldığı anlamına gelir. Çıktı dosyasının boyutunu daha küçük tutmak istiyorsanız alt kümeleme kullanışlıdır. Alt kümeleme, all kullanılmayan glifleri bir yazı tipinden kaldırır.
 
@@ -22,7 +24,7 @@ Bu değer şu şekilde ayarlandığında`doğru`, tam bir yazı tipi dosyası, a
 
 Bazı yazı tipleri büyüktür (birkaç megabayt) ve bunları subsetting olmadan gömmek, büyük çıktı belgeleriyle sonuçlanacaktır.
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi PDF'ye dönüştürürken yazı tiplerini gömerken alt kümelemenin nasıl etkinleştirileceğini veya devre dışı bırakılacağını gösterir.
 
@@ -70,7 +72,5 @@ FontSettings.DefaultInstance.SetFontsSources(originalFontsSources);
 ### Ayrıca bakınız
 
 * class [PdfSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../pdfsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

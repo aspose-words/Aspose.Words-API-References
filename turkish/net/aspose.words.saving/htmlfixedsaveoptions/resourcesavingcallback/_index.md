@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.ResourceSavingCallback
-second_title: Aspose.Words for .NET API Referansı
-description: HtmlFixedSaveOptions mülk. Bir belge sabit sayfa Html formatına aktarıldığında kaynakların resimler yazı tipleri ve css nasıl kaydedileceğini kontrol etmeye olanak tanır.
+linktitle: ResourceSavingCallback
+articleTitle: ResourceSavingCallback
+second_title: Aspose.Words for .NET
+description: HtmlFixedSaveOptions ResourceSavingCallback mülk. Bir belge sabit sayfa Html formatına aktarıldığında kaynakların resimler yazı tipleri ve css nasıl kaydedileceğini kontrol etmeye olanak tanır C#'da.
 type: docs
 weight: 130
 url: /tr/net/aspose.words.saving/htmlfixedsaveoptions/resourcesavingcallback/
@@ -14,7 +16,7 @@ Bir belge sabit sayfa Html formatına aktarıldığında kaynakların (resimler,
 public IResourceSavingCallback ResourceSavingCallback { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi HTML'ye dönüştürürken oluşturulan dış kaynakların URI'lerini yazdırmak için geri aramanın nasıl kullanılacağını gösterir.
 
@@ -94,7 +96,5 @@ private class ResourceUriPrinter : IResourceSavingCallback
 
 * interface [IResourceSavingCallback](../../iresourcesavingcallback/)
 * class [HtmlFixedSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

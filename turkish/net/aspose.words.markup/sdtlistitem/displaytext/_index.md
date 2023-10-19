@@ -1,7 +1,9 @@
 ---
 title: SdtListItem.DisplayText
-second_title: Aspose.Words for .NET API Referansı
-description: SdtListItem mülk. Çalıştırma içeriğinde yerine görüntülenecek metni alırValue bu liste öğesinin içeriğini öznitelik.
+linktitle: DisplayText
+articleTitle: DisplayText
+second_title: Aspose.Words for .NET
+description: SdtListItem DisplayText mülk. Çalıştırma içeriğinde yerine görüntülenecek metni alırValue bu liste öğesinin içeriğini öznitelik C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.markup/sdtlistitem/displaytext/
@@ -14,11 +16,11 @@ url: /tr/net/aspose.words.markup/sdtlistitem/displaytext/
 public string DisplayText { get; }
 ```
 
-### Notlar
+## Notlar
 
 Olamaz`hükümsüz` ve boş bir dize olamaz.
 
-### Örnekler
+## Örnekler
 
 Açılır liste yapılandırılmış belge etiketleriyle nasıl çalışılacağını gösterir.
 
@@ -75,7 +77,5 @@ Assert.AreEqual(0, listItems.Count);
 ### Ayrıca bakınız
 
 * class [SdtListItem](../)
-* ad alanı [Aspose.Words.Markup](../../sdtlistitem/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

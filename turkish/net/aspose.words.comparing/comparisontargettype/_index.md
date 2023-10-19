@@ -1,7 +1,9 @@
 ---
-title: Enum ComparisonTargetType
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Comparing.ComparisonTargetType Sıralama. Karşılaştırma sırasında kullanılacak temel belgenin belirtilmesine olanak tanır. Varsayılan değerCurrent .
+title: ComparisonTargetType Enum
+linktitle: ComparisonTargetType
+articleTitle: ComparisonTargetType
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Comparing.ComparisonTargetType Sıralama. Karşılaştırma sırasında kullanılacak temel belgenin belirtilmesine olanak tanır. Varsayılan değerCurrent  C#'da.
 type: docs
 weight: 280
 url: /tr/net/aspose.words.comparing/comparisontargettype/
@@ -21,11 +23,11 @@ public enum ComparisonTargetType
 | Current | `0` | Bu belge karşılaştırma sırasında temel olarak kullanılır. |
 | New | `1` | Karşılaştırma sırasında diğer belge temel olarak kullanılır. |
 
-### Notlar
+## Notlar
 
 "Belgeleri Karşılaştır" iletişim kutusundaki Microsoft Word "Değişiklikleri göster" seçeneğiyle ilgilidir.
 
-### Örnekler
+## Örnekler
 
 Karşılaştırma yaparken belirli belge öğesi türlerinin nasıl filtreleneceğini gösterir.
 
@@ -100,5 +102,3 @@ docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
 
 * ad alanı [Aspose.Words.Comparing](../../aspose.words.comparing/)
 * toplantı [Aspose.Words](../../)
-
-

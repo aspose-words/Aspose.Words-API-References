@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.IsMoveFromRevision
-second_title: Aspose.Words for .NET API Referansı
-description: ShapeBase mülk. İadelerdoğru değişiklik izleme etkinken bu nesne Microsoft Wordde taşındıysa silindiyse.
+linktitle: IsMoveFromRevision
+articleTitle: IsMoveFromRevision
+second_title: Aspose.Words for .NET
+description: ShapeBase IsMoveFromRevision mülk. İadelerdoğru değişiklik izleme etkinken bu nesne Microsoft Wordde taşındıysa silindiyse C#'da.
 type: docs
 weight: 320
 url: /tr/net/aspose.words.drawing/shapebase/ismovefromrevision/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.drawing/shapebase/ismovefromrevision/
 public bool IsMoveFromRevision { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Revizyon şekillerini taşımanın nasıl tanımlanacağını gösterir.
 
@@ -46,7 +48,5 @@ Assert.False(shapes[1].IsMoveToRevision);
 ### Ayrıca bakınız
 
 * class [ShapeBase](../)
-* ad alanı [Aspose.Words.Drawing](../../shapebase/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

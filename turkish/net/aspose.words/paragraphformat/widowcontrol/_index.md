@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.WidowControl
-second_title: Aspose.Words for .NET API Referansı
-description: ParagraphFormat mülk. Paragraftaki ilk ve son satırlar paragrafın geri kalanıyla aynı sayfada kalacaksa doğrudur.
+linktitle: WidowControl
+articleTitle: WidowControl
+second_title: Aspose.Words for .NET
+description: ParagraphFormat WidowControl mülk. Paragraftaki ilk ve son satırlar paragrafın geri kalanıyla aynı sayfada kalacaksa doğrudur C#'da.
 type: docs
 weight: 400
 url: /tr/net/aspose.words/paragraphformat/widowcontrol/
@@ -14,7 +16,7 @@ Paragraftaki ilk ve son satırlar paragrafın geri kalanıyla aynı sayfada kala
 public bool WidowControl { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir paragraf için dul/yetim kontrolünün nasıl etkinleştirileceğini gösterir.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.WidowControl.docx");
 ### Ayrıca bakınız
 
 * class [ParagraphFormat](../)
-* ad alanı [Aspose.Words](../../paragraphformat/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

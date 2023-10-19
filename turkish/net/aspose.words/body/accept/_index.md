@@ -1,7 +1,9 @@
 ---
 title: Body.Accept
-second_title: Aspose.Words for .NET API Referansı
-description: Body yöntem. Ziyaretçi kabul eder.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words for .NET
+description: Body Accept yöntem. Ziyaretçi kabul eder C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words/body/accept/
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 Tüm düğümler ziyaret edilmişse doğrudur; yanlış ise[`DocumentVisitor`](../../documentvisitor/) tüm düğümleri ziyaret etmeden işlemi durdurdu.
 
-### Notlar
+## Notlar
 
 Bu düğümü ve tüm alt öğelerini numaralandırır. Her düğüm kendisine karşılık gelen bir yöntemi çağırır.[`DocumentVisitor`](../../documentvisitor/).
 
@@ -30,7 +32,7 @@ Daha fazla bilgi için Ziyaretçi tasarım desenine bakın.
 
 Çağrılar[`VisitBodyStart`](../../documentvisitor/visitbodystart/) , ardından arar[`Accept`](../../node/accept/) bölümün tüm alt düğümleri için ve çağrılar[`VisitBodyEnd`](../../documentvisitor/visitbodyend/) sonunda.
 
-### Örnekler
+## Örnekler
 
 Bir belgenin düğüm yapısını yazdırmak için belge ziyaretçisinin nasıl kullanılacağını gösterir.
 
@@ -200,7 +202,5 @@ public class DocStructurePrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../documentvisitor/)
 * class [Body](../)
-* ad alanı [Aspose.Words](../../body/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

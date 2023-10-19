@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.ListFormat
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentBuilder mülk. Geçerli liste biçimlendirme özelliklerini temsil eden bir nesneyi döndürür.
+linktitle: ListFormat
+articleTitle: ListFormat
+second_title: Aspose.Words for .NET
+description: DocumentBuilder ListFormat mülk. Geçerli liste biçimlendirme özelliklerini temsil eden bir nesneyi döndürür C#'da.
 type: docs
 weight: 150
 url: /tr/net/aspose.words/documentbuilder/listformat/
@@ -14,7 +16,7 @@ Geçerli liste biçimlendirme özelliklerini temsil eden bir nesneyi döndürür
 public ListFormat ListFormat { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Madde işaretli ve numaralı listelerin nasıl oluşturulacağını gösterir.
 
@@ -100,7 +102,5 @@ doc.Save(ArtifactsDir + "Lists.ApplyDefaultBulletsAndNumbers.docx");
 
 * class [ListFormat](../../../aspose.words.lists/listformat/)
 * class [DocumentBuilder](../)
-* ad alanı [Aspose.Words](../../documentbuilder/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class FieldInfo
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Fields.FieldInfo sınıf. INFO alanını uygular.
+title: FieldInfo Class
+linktitle: FieldInfo
+articleTitle: FieldInfo
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Fields.FieldInfo sınıf. INFO alanını uygular C#'da.
 type: docs
 weight: 2080
 url: /tr/net/aspose.words.fields/fieldinfo/
@@ -44,17 +46,17 @@ public class FieldInfo : Field
 | İsim | Tanım |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Alan başlangıcı ile alan ayırıcı (veya ayırıcı yoksa alan sonu) arasındaki metni döndürür. Alt alanların hem alan kodu hem de alan sonucu dahil edilir. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Alan başlangıcı ile alan ayırıcı (veya ayırıcı yoksa alan sonu) arasındaki metni döndürür. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Alan başlangıcı ile alan ayırıcı (veya ayırıcı yoksa alan sonu) arasındaki metni döndürür. |
 | [Remove](../../aspose.words.fields/field/remove/)() | Alanı belgeden kaldırır. Alanın hemen ardından bir düğüm döndürür. Alanın sonu, üst düğümünün son child 'si ise, üst paragrafını döndürür. Alan zaten kaldırılmışsa şunu döndürür:`hükümsüz` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Alanın bağlantısını kaldırır. |
 | [Update](../../aspose.words.fields/field/update/)() | Alan güncellemesini gerçekleştirir. Alan zaten güncelleniyorsa atar. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Bir alan güncellemesi gerçekleştirir. Alan zaten güncelleniyorsa atar. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Bir alan güncellemesi gerçekleştirir. Alan zaten güncelleniyorsa atar. |
 
-### Notlar
+## Notlar
 
 Bir belge özelliği hakkında bilgi ekler.
 
-### Örnekler
+## Örnekler
 
 INFO alanlarıyla nasıl çalışılacağını gösterir.
 
@@ -92,5 +94,3 @@ doc.Save(ArtifactsDir + "Field.INFO.docx");
 * class [Field](../field/)
 * ad alanı [Aspose.Words.Fields](../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../)
-
-

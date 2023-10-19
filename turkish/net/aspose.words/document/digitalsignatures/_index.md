@@ -1,7 +1,9 @@
 ---
 title: Document.DigitalSignatures
-second_title: Aspose.Words for .NET API Referansı
-description: Document mülk. Bu belge için dijital imzaların toplanmasını ve doğrulama sonuçlarını alır.
+linktitle: DigitalSignatures
+articleTitle: DigitalSignatures
+second_title: Aspose.Words for .NET
+description: Document DigitalSignatures mülk. Bu belge için dijital imzaların toplanmasını ve doğrulama sonuçlarını alır C#'da.
 type: docs
 weight: 100
 url: /tr/net/aspose.words/document/digitalsignatures/
@@ -14,13 +16,13 @@ Bu belge için dijital imzaların toplanmasını ve doğrulama sonuçlarını al
 public DigitalSignatureCollection DigitalSignatures { get; }
 ```
 
-### Notlar
+## Notlar
 
 Bu koleksiyon orijinal belgeden yüklenen dijital imzaları içeriyor. Bunu kaydettiğinizde bu dijital imzalar kaydedilmeyecek[`Document`](../) nesne 'yi bir dosyaya veya akışa aktarın; çünkü kaydetme veya dönüştürme, the orijinalinden farklı bir belge üretecek ve orijinal dijital imzalar artık geçerli olmayacaktır.
 
 Bu koleksiyon asla`hükümsüz`. Belge imzalanmamışsa sıfır öğe içerecektir.
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki her imza hakkındaki bilgilerin nasıl doğrulanacağını ve görüntüleneceğini gösterir.
 
@@ -81,7 +83,5 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 
 * class [DigitalSignatureCollection](../../../aspose.words.digitalsignatures/digitalsignaturecollection/)
 * class [Document](../)
-* ad alanı [Aspose.Words](../../document/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.HangingPunctuation
-second_title: Aspose.Words for .NET API Referansı
-description: ParagraphFormat mülk. Geçerli paragraf için asılı noktalama işaretlerinin etkinleştirilip etkinleştirilmediğini gösteren bir bayrak alır veya ayarlar.
+linktitle: HangingPunctuation
+articleTitle: HangingPunctuation
+second_title: Aspose.Words for .NET
+description: ParagraphFormat HangingPunctuation mülk. Geçerli paragraf için asılı noktalama işaretlerinin etkinleştirilip etkinleştirilmediğini gösteren bir bayrak alır veya ayarlar C#'da.
 type: docs
 weight: 130
 url: /tr/net/aspose.words/paragraphformat/hangingpunctuation/
@@ -14,7 +16,7 @@ Geçerli paragraf için asılı noktalama işaretlerinin etkinleştirilip etkinl
 public bool HangingPunctuation { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Asya tipografisi için özel özelliklerin nasıl ayarlanacağını gösterir.
 
@@ -32,7 +34,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.AsianTypographyProperties.docx");
 ### Ayrıca bakınız
 
 * class [ParagraphFormat](../)
-* ad alanı [Aspose.Words](../../paragraphformat/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

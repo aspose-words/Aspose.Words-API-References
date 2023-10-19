@@ -1,7 +1,9 @@
 ---
 title: FieldTC.OmitPageNumber
-second_title: Aspose.Words for .NET API Referansı
-description: FieldTC mülk. Bu alan için TOCdeki sayfa numarasının atlanıp atlanmayacağını alır veya ayarlar.
+linktitle: OmitPageNumber
+articleTitle: OmitPageNumber
+second_title: Aspose.Words for .NET
+description: FieldTC OmitPageNumber mülk. Bu alan için TOCdeki sayfa numarasının atlanıp atlanmayacağını alır veya ayarlar C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fields/fieldtc/omitpagenumber/
@@ -14,7 +16,7 @@ Bu alan için TOC'deki sayfa numarasının atlanıp atlanmayacağını alır vey
 public bool OmitPageNumber { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 TOC alanının nasıl ekleneceğini ve hangi TC alanlarının giriş olarak sonuçlanacağını filtreleyeceğini gösterir.
 
@@ -66,7 +68,5 @@ public void InsertTocEntry(DocumentBuilder builder, string text, string typeIden
 ### Ayrıca bakınız
 
 * class [FieldTC](../)
-* ad alanı [Aspose.Words.Fields](../../fieldtc/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

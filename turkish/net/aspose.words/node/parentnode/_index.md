@@ -1,7 +1,9 @@
 ---
 title: Node.ParentNode
-second_title: Aspose.Words for .NET API Referansı
-description: Node mülk. Bu düğümün doğrudan ebeveynini alır.
+linktitle: ParentNode
+articleTitle: ParentNode
+second_title: Aspose.Words for .NET
+description: Node ParentNode mülk. Bu düğümün doğrudan ebeveynini alır C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words/node/parentnode/
@@ -14,11 +16,11 @@ Bu düğümün doğrudan ebeveynini alır.
 public CompositeNode ParentNode { get; }
 ```
 
-### Notlar
+## Notlar
 
 Bir düğüm yeni oluşturulmuş ve ağaca henüz eklenmemişse, veya ağaçtan kaldırılmışsa ebeveyn düğümdür.`hükümsüz`.
 
-### Örnekler
+## Örnekler
 
 Bir düğümün üst düğümüne nasıl erişileceğini gösterir.
 
@@ -69,7 +71,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 
 * class [CompositeNode](../../compositenode/)
 * class [Node](../)
-* ad alanı [Aspose.Words](../../node/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

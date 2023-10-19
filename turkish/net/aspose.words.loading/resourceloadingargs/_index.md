@@ -1,7 +1,9 @@
 ---
-title: Class ResourceLoadingArgs
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Loading.ResourceLoadingArgs sınıf. Şunun için veri sağlarResourceLoading yöntem.
+title: ResourceLoadingArgs Class
+linktitle: ResourceLoadingArgs
+articleTitle: ResourceLoadingArgs
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Loading.ResourceLoadingArgs sınıf. Şunun için veri sağlarResourceLoading yöntem C#'da.
 type: docs
 weight: 3690
 url: /tr/net/aspose.words.loading/resourceloadingargs/
@@ -26,9 +28,9 @@ public class ResourceLoadingArgs
 
 | İsim | Tanım |
 | --- | --- |
-| [SetData](../../aspose.words.loading/resourceloadingargs/setdata/)(byte[]) | Aşağıdaki durumlarda kullanılan kaynağın kullanıcı tarafından sağlanan verilerini ayarlar:[`ResourceLoading`](../iresourceloadingcallback/resourceloading/) şunu döndürürUserProvided . |
+| [SetData](../../aspose.words.loading/resourceloadingargs/setdata/)(*byte[]*) | Aşağıdaki durumlarda kullanılan kaynağın kullanıcı tarafından sağlanan verilerini ayarlar:[`ResourceLoading`](../iresourceloadingcallback/resourceloading/) şunu döndürürUserProvided . |
 
-### Örnekler
+## Örnekler
 
 Dış kaynakları bir belgeye yükleme işleminin nasıl özelleştirileceğini gösterir.
 
@@ -92,5 +94,3 @@ private class ImageNameHandler : IResourceLoadingCallback
 
 * ad alanı [Aspose.Words.Loading](../../aspose.words.loading/)
 * toplantı [Aspose.Words](../../)
-
-

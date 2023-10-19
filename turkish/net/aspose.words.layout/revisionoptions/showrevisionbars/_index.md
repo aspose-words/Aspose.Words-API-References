@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.ShowRevisionBars
-second_title: Aspose.Words for .NET API Referansı
-description: RevisionOptions mülk. Revizyon çubuklarının revize edilmiş içeriği içeren satırların yakınında oluşturulup oluşturulmayacağını belirlemeye izin verir. Varsayılan değerdoğru .
+linktitle: ShowRevisionBars
+articleTitle: ShowRevisionBars
+second_title: Aspose.Words for .NET
+description: RevisionOptions ShowRevisionBars mülk. Revizyon çubuklarının revize edilmiş içeriği içeren satırların yakınında oluşturulup oluşturulmayacağını belirlemeye izin verir. Varsayılan değerdoğru  C#'da.
 type: docs
 weight: 180
 url: /tr/net/aspose.words.layout/revisionoptions/showrevisionbars/
@@ -14,7 +16,7 @@ Revizyon çubuklarının revize edilmiş içeriği içeren satırların yakını
 public bool ShowRevisionBars { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 İşlenmiş bir çıktı belgesindeki düzeltmelerin görünümünün nasıl değiştirileceğini gösterir.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Document.LayoutOptionsRevisions.pdf");
 ### Ayrıca bakınız
 
 * class [RevisionOptions](../)
-* ad alanı [Aspose.Words.Layout](../../revisionoptions/)
+* ad alanı [Aspose.Words.Layout](../../../aspose.words.layout/)
 * toplantı [Aspose.Words](../../../)
-
-

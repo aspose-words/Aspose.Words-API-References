@@ -1,7 +1,9 @@
 ---
-title: Class FieldIf
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Fields.FieldIf sınıf. IF alanını uygular.
+title: FieldIf Class
+linktitle: FieldIf
+articleTitle: FieldIf
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Fields.FieldIf sınıf. IF alanını uygular C#'da.
 type: docs
 weight: 2000
 url: /tr/net/aspose.words.fields/fieldif/
@@ -48,19 +50,19 @@ public class FieldIf : Field
 | --- | --- |
 | [EvaluateCondition](../../aspose.words.fields/fieldif/evaluatecondition/)() | Durumu değerlendirir. |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Alan başlangıcı ile alan ayırıcı (veya ayırıcı yoksa alan sonu) arasındaki metni döndürür. Alt alanların hem alan kodu hem de alan sonucu dahil edilir. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Alan başlangıcı ile alan ayırıcı (veya ayırıcı yoksa alan sonu) arasındaki metni döndürür. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Alan başlangıcı ile alan ayırıcı (veya ayırıcı yoksa alan sonu) arasındaki metni döndürür. |
 | [Remove](../../aspose.words.fields/field/remove/)() | Alanı belgeden kaldırır. Alanın hemen ardından bir düğüm döndürür. Alanın sonu, üst düğümünün son child 'si ise, üst paragrafını döndürür. Alan zaten kaldırılmışsa şunu döndürür:`hükümsüz` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Alanın bağlantısını kaldırır. |
 | [Update](../../aspose.words.fields/field/update/)() | Alan güncellemesini gerçekleştirir. Alan zaten güncelleniyorsa atar. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Bir alan güncellemesi gerçekleştirir. Alan zaten güncelleniyorsa atar. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Bir alan güncellemesi gerçekleştirir. Alan zaten güncelleniyorsa atar. |
 
-### Notlar
+## Notlar
 
 İfadelerin belirlediği değerleri karşılaştırır[`LeftExpression`](./leftexpression/) Ve[`RightExpression`](./rightexpression/) ile belirtilen operatör kullanılarak karşılaştırıldığında[`ComparisonOperator`](./comparisonoperator/).
 
 Adres-mektup birleştirme kaynağı olarak aşağıdaki biçimde bir alan kullanılacaktır: { IF 0 = 0 "{PatientsNameFML}" "" \* MERGEFORMAT }
 
-### Örnekler
+## Örnekler
 
 IF alanının nasıl ekleneceğini gösterir.
 
@@ -108,5 +110,3 @@ doc.Save(ArtifactsDir + "Field.IF.docx");
 * class [Field](../field/)
 * ad alanı [Aspose.Words.Fields](../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../)
-
-

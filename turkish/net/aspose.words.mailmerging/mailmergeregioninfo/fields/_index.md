@@ -1,7 +1,9 @@
 ---
 title: MailMergeRegionInfo.Fields
-second_title: Aspose.Words for .NET API Referansı
-description: MailMergeRegionInfo mülk. Alt alanların listesini döndürür.
+linktitle: Fields
+articleTitle: Fields
+second_title: Aspose.Words for .NET
+description: MailMergeRegionInfo Fields mülk. Alt alanların listesini döndürür C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.mailmerging/mailmergeregioninfo/fields/
@@ -14,7 +16,7 @@ Alt alanların listesini döndürür.
 public IList<Field> Fields { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Adres-mektup birleştirme bölgelerinin nasıl doğrulanacağını gösterir.
 
@@ -60,7 +62,5 @@ Assert.AreEqual("TableEnd:NestedRegion1", endFieldMergeField.FieldName);
 
 * class [Field](../../../aspose.words.fields/field/)
 * class [MailMergeRegionInfo](../)
-* ad alanı [Aspose.Words.MailMerging](../../mailmergeregioninfo/)
+* ad alanı [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * toplantı [Aspose.Words](../../../)
-
-

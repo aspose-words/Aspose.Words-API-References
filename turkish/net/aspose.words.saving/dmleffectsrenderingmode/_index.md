@@ -1,7 +1,9 @@
 ---
-title: Enum DmlEffectsRenderingMode
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Saving.DmlEffectsRenderingMode Sıralama. DrawingML efektlerinin sabit sayfa formatlarına nasıl aktarılacağını belirtir.
+title: DmlEffectsRenderingMode Enum
+linktitle: DmlEffectsRenderingMode
+articleTitle: DmlEffectsRenderingMode
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Saving.DmlEffectsRenderingMode Sıralama. DrawingML efektlerinin sabit sayfa formatlarına nasıl aktarılacağını belirtir C#'da.
 type: docs
 weight: 4910
 url: /tr/net/aspose.words.saving/dmleffectsrenderingmode/
@@ -22,7 +24,7 @@ public enum DmlEffectsRenderingMode
 | None | `1` | Hiçbir DrawingML efekti oluşturulmaz. |
 | Fine | `2` | DrawingML efektleri, gelişmiş işlemeyi içeren hassas modda oluşturulur. Bu modda efektlerin oluşturulması, daha iyi sonuçlar verir ancak daha yüksek bir performans maliyetiyle sağlanır.Simplified mode. |
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi PDF'ye kaydederken, DrawingML efektlerinin görüntü oluşturma kalitesinin nasıl yapılandırılacağını gösterir.
 
@@ -49,5 +51,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.DrawingMLEffects.pdf", options);
 
 * ad alanı [Aspose.Words.Saving](../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../)
-
-

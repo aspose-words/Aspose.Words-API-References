@@ -1,7 +1,9 @@
 ---
-title: Class PageSavingArgs
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Saving.PageSavingArgs sınıf. Şunun için veri sağlarPageSaving olay.
+title: PageSavingArgs Class
+linktitle: PageSavingArgs
+articleTitle: PageSavingArgs
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Saving.PageSavingArgs sınıf. Şunun için veri sağlarPageSaving olay C#'da.
 type: docs
 weight: 5380
 url: /tr/net/aspose.words.saving/pagesavingargs/
@@ -31,7 +33,7 @@ public class PageSavingArgs
 | [PageIndex](../../aspose.words.saving/pagesavingargs/pageindex/) { get; } | Geçerli sayfa dizini. |
 | [PageStream](../../aspose.words.saving/pagesavingargs/pagestream/) { get; set; } | Belge sayfasının kaydedileceği akışı belirtmeye izin verir. |
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi sayfa sayfa HTML'ye kaydetmek için geri aramanın nasıl kullanılacağını gösterir.
 
@@ -89,5 +91,3 @@ private class CustomFileNamePageSavingCallback : IPageSavingCallback
 
 * ad alanı [Aspose.Words.Saving](../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../)
-
-

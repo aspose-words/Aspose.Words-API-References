@@ -1,12 +1,14 @@
 ---
 title: ChartSeriesCollection.Add
-second_title: Aspose.Words for .NET API Referansı
-description: ChartSeriesCollection yöntem. Yeni eklerChartSeries bu koleksiyona. Herhangi bir Çubuk Sütun Çizgi ve Yüzey grafiğine seri eklemek için bu yöntemi kullanın.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words for .NET
+description: ChartSeriesCollection Add yöntem. Yeni eklerChartSeries bu koleksiyona. Herhangi bir Çubuk Sütun Çizgi ve Yüzey grafiğine seri eklemek için bu yöntemi kullanın C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.drawing.charts/chartseriescollection/add/
 ---
-## Add(string, string[], double[]) {#add_3}
+## Add(*string, string[], double[]*) {#add_3}
 
 Yeni ekler[`ChartSeries`](../../chartseries/) bu koleksiyona. Herhangi bir Çubuk, Sütun, Çizgi ve Yüzey grafiğine seri eklemek için bu yöntemi kullanın.
 
@@ -18,7 +20,7 @@ public ChartSeries Add(string seriesName, string[] categories, double[] values)
 
 Son eklenen[`ChartSeries`](../../chartseries/) nesne.
 
-### Örnekler
+## Örnekler
 
 Bir grafik türü için uygun türde bir grafik serisinin nasıl oluşturulacağını gösterir.
 
@@ -108,12 +110,12 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 * class [ChartSeries](../../chartseries/)
 * class [ChartSeriesCollection](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartseriescollection/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## Add(string, double[], double[]) {#add}
+## Add(*string, double[], double[]*) {#add}
 
 Yeni ekler[`ChartSeries`](../../chartseries/) bu koleksiyona. Herhangi bir Dağılım grafiği türüne seri eklemek için bu yöntemi kullanın.
 
@@ -125,7 +127,7 @@ public ChartSeries Add(string seriesName, double[] xValues, double[] yValues)
 
 Son eklenen[`ChartSeries`](../../chartseries/) nesne.
 
-### Örnekler
+## Örnekler
 
 Bir grafik türü için uygun türde bir grafik serisinin nasıl oluşturulacağını gösterir.
 
@@ -215,12 +217,12 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 * class [ChartSeries](../../chartseries/)
 * class [ChartSeriesCollection](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartseriescollection/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## Add(string, DateTime[], double[]) {#add_2}
+## Add(*string, DateTime[], double[]*) {#add_2}
 
 Yeni ekler[`ChartSeries`](../../chartseries/) bu koleksiyona. Her türlü Alan, Radar ve Hisse senedi grafiğine seri eklemek için bu yöntemi kullanın.
 
@@ -228,7 +230,7 @@ Yeni ekler[`ChartSeries`](../../chartseries/) bu koleksiyona. Her türlü Alan, 
 public ChartSeries Add(string seriesName, DateTime[] dates, double[] values)
 ```
 
-### Örnekler
+## Örnekler
 
 Bir grafik türü için uygun türde bir grafik serisinin nasıl oluşturulacağını gösterir.
 
@@ -318,12 +320,12 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 * class [ChartSeries](../../chartseries/)
 * class [ChartSeriesCollection](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartseriescollection/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## Add(string, double[], double[], double[]) {#add_1}
+## Add(*string, double[], double[], double[]*) {#add_1}
 
 Yeni ekler[`ChartSeries`](../../chartseries/)bu koleksiyona. Herhangi bir Kabarcık grafiği türüne seri eklemek için bu yöntemi kullanın.
 
@@ -335,7 +337,7 @@ public ChartSeries Add(string seriesName, double[] xValues, double[] yValues, do
 
 Son eklenen[`ChartSeries`](../../chartseries/) nesne.
 
-### Örnekler
+## Örnekler
 
 Bir grafik türü için uygun türde bir grafik serisinin nasıl oluşturulacağını gösterir.
 
@@ -425,7 +427,5 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 * class [ChartSeries](../../chartseries/)
 * class [ChartSeriesCollection](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartseriescollection/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

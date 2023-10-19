@@ -1,7 +1,9 @@
 ---
-title: Class PageSet
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Saving.PageSet sınıf. Rastgele bir sayfa kümesini açıklar.
+title: PageSet Class
+linktitle: PageSet
+articleTitle: PageSet
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Saving.PageSet sınıf. Rastgele bir sayfa kümesini açıklar C#'da.
 type: docs
 weight: 5390
 url: /tr/net/aspose.words.saving/pageset/
@@ -20,9 +22,9 @@ public sealed class PageSet
 
 | İsim | Tanım |
 | --- | --- |
-| [PageSet](pageset/#constructor_1)(int) | Tam sayfa dizinine dayalı olarak tek sayfalık bir grup oluşturur. |
-| [PageSet](pageset/#constructor_2)(params int[]) | Tam sayfa indekslerine dayalı bir sayfa seti oluşturur. |
-| [PageSet](pageset/#constructor)(params PageRange[]) | Aralıklara dayalı bir sayfa grubu oluşturur. |
+| [PageSet](pageset/#constructor_1)(*int*) | Tam sayfa dizinine dayalı olarak tek sayfalık bir grup oluşturur. |
+| [PageSet](pageset/#constructor_2)(*params int[]*) | Tam sayfa indekslerine dayalı bir sayfa seti oluşturur. |
+| [PageSet](pageset/#constructor)(*params PageRange[]*) | Aralıklara dayalı bir sayfa grubu oluşturur. |
 
 ## Özellikleri
 
@@ -36,5 +38,3 @@ public sealed class PageSet
 
 * ad alanı [Aspose.Words.Saving](../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../)
-
-

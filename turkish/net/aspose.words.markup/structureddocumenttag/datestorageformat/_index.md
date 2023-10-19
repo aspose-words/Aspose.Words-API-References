@@ -1,26 +1,28 @@
 ---
 title: StructuredDocumentTag.DateStorageFormat
-second_title: Aspose.Words for .NET API Referansı
-description: StructuredDocumentTag mülk. SDTnin saklandığı tarih için tarihin biçimini alır/ayarlar. SDTbelgenin veri deposundaki bir XML düğümüne bağlanır. Varsayılan değerDateTime
+linktitle: DateStorageFormat
+articleTitle: DateStorageFormat
+second_title: Aspose.Words for .NET
+description: StructuredDocumentTag DateStorageFormat mülk. SDTnin saklandığı tarih için tarihin biçimini alır/ayarlar.SDTbelgenin veri deposundaki bir XML düğümüne bağlanır. Varsayılan değerDateTime C#'da.
 type: docs
 weight: 110
 url: /tr/net/aspose.words.markup/structureddocumenttag/datestorageformat/
 ---
 ## StructuredDocumentTag.DateStorageFormat property
 
-SDT'nin saklandığı tarih için tarihin biçimini alır/ayarlar. **SDT**belgenin veri deposundaki bir XML düğümüne bağlanır. Varsayılan değer:DateTime
+SDT'nin saklandığı tarih için tarihin biçimini alır/ayarlar.**SDT**belgenin veri deposundaki bir XML düğümüne bağlanır. Varsayılan değer:DateTime
 
 ```csharp
 public SdtDateStorageFormat DateStorageFormat { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özelliğe erişim yalnızca şunun için işe yarayacaktır:Date SDT türü.
 
 Diğer tüm SDT türleri için istisna meydana gelecektir.
 
-### Örnekler
+## Örnekler
 
 Yapılandırılmış belge etiketiyle kullanıcıdan tarih girmesinin nasıl isteneceğini gösterir.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.Date.docx");
 
 * enum [SdtDateStorageFormat](../../sdtdatestorageformat/)
 * class [StructuredDocumentTag](../)
-* ad alanı [Aspose.Words.Markup](../../structureddocumenttag/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

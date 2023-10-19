@@ -1,7 +1,9 @@
 ---
 title: Run.GetText
-second_title: Aspose.Words for .NET API Referansı
-description: Run yöntem. Çalıştırmanın metnini alır.
+linktitle: GetText
+articleTitle: GetText
+second_title: Aspose.Words for .NET
+description: Run GetText yöntem. Çalıştırmanın metnini alır C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words/run/gettext/
@@ -18,7 +20,7 @@ public override string GetText()
 
 Çalıştırmanın metni.
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki her üstbilgi ve altbilginin düğüm yapısının nasıl yazdırılacağını gösterir.
 
@@ -111,7 +113,5 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
 ### Ayrıca bakınız
 
 * class [Run](../)
-* ad alanı [Aspose.Words](../../run/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

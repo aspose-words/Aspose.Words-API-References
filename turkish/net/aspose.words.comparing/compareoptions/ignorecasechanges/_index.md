@@ -1,7 +1,9 @@
 ---
 title: CompareOptions.IgnoreCaseChanges
-second_title: Aspose.Words for .NET API Referansı
-description: CompareOptions mülk. True belge karşılaştırmasının büyük/küçük harfe duyarlı olmadığını belirtir. Karşılaştırma varsayılan olarak büyük/küçük harfe duyarlıdır.
+linktitle: IgnoreCaseChanges
+articleTitle: IgnoreCaseChanges
+second_title: Aspose.Words for .NET
+description: CompareOptions IgnoreCaseChanges mülk. True belge karşılaştırmasının büyük/küçük harfe duyarlı olmadığını belirtir. Karşılaştırma varsayılan olarak büyük/küçük harfe duyarlıdır C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.comparing/compareoptions/ignorecasechanges/
@@ -14,7 +16,7 @@ True, belge karşılaştırmasının büyük/küçük harfe duyarlı olmadığı
 public bool IgnoreCaseChanges { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Karşılaştırma yaparken belirli belge öğesi türlerinin nasıl filtreleneceğini gösterir.
 
@@ -88,7 +90,5 @@ docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
 ### Ayrıca bakınız
 
 * class [CompareOptions](../)
-* ad alanı [Aspose.Words.Comparing](../../compareoptions/)
+* ad alanı [Aspose.Words.Comparing](../../../aspose.words.comparing/)
 * toplantı [Aspose.Words](../../../)
-
-

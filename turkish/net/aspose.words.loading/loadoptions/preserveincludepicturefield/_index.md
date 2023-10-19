@@ -1,7 +1,9 @@
 ---
 title: LoadOptions.PreserveIncludePictureField
-second_title: Aspose.Words for .NET API Referansı
-description: LoadOptions mülk. Microsoft Word formatlarını okurken INCLUDEPICTURE alanının korunup korunmayacağını alır veya ayarlar. Varsayılan değerYANLIŞ .
+linktitle: PreserveIncludePictureField
+articleTitle: PreserveIncludePictureField
+second_title: Aspose.Words for .NET
+description: LoadOptions PreserveIncludePictureField mülk. Microsoft Word formatlarını okurken INCLUDEPICTURE alanının korunup korunmayacağını alır veya ayarlar. Varsayılan değerYANLIŞ  C#'da.
 type: docs
 weight: 120
 url: /tr/net/aspose.words.loading/loadoptions/preserveincludepicturefield/
@@ -14,13 +16,13 @@ Microsoft Word formatlarını okurken INCLUDEPICTURE alanının korunup korunmay
 public bool PreserveIncludePictureField { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan olarak INCLUDEPICTURE alanı bir şekil nesnesine dönüştürülür. Korunacak alana ihtiyacınız varsa, örneğin alanı programlı olarak güncellemek istiyorsanız bunu geçersiz kılabilirsiniz. Ancak this yaklaşımının Aspose.Words için yaygın olmadığını unutmayın. Riski size ait olmak üzere kullanın.
 
 Olası kullanım durumlarından biri, resmin kaynak path yolunu dinamik olarak değiştirmek için MERGEFIELD'ı alt alan olarak kullanmak olabilir. Bu durumda modelde korunacak INCLUDEPICTURE'a ihtiyacınız var.
 
-### Örnekler
+## Örnekler
 
 Bir belge yüklenirken INCLUDEPICTURE alanlarının nasıl korunacağını veya atılacağını gösterir.
 
@@ -62,7 +64,5 @@ using (MemoryStream docStream = new MemoryStream())
 ### Ayrıca bakınız
 
 * class [LoadOptions](../)
-* ad alanı [Aspose.Words.Loading](../../loadoptions/)
+* ad alanı [Aspose.Words.Loading](../../../aspose.words.loading/)
 * toplantı [Aspose.Words](../../../)
-
-

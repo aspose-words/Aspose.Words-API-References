@@ -1,9 +1,11 @@
 ---
 title: Fill.GradientAngle
-second_title: Aspose.Words for .NET API Referansı
-description: Fill mülk. Degrade dolgunun açısını alır veya ayarlar.
+linktitle: GradientAngle
+articleTitle: GradientAngle
+second_title: Aspose.Words for .NET
+description: Fill GradientAngle mülk. Degrade dolgunun açısını alır veya ayarlar C#'da.
 type: docs
-weight: 100
+weight: 90
 url: /tr/net/aspose.words.drawing/fill/gradientangle/
 ---
 ## Fill.GradientAngle property
@@ -14,7 +16,7 @@ Degrade dolgunun açısını alır veya ayarlar.
 public double GradientAngle { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir şeklin degradelerle nasıl doldurulacağını gösterir.
 
@@ -55,7 +57,5 @@ doc.Save(ArtifactsDir + "Shape.GradientFill.docx", saveOptions);
 ### Ayrıca bakınız
 
 * class [Fill](../)
-* ad alanı [Aspose.Words.Drawing](../../fill/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

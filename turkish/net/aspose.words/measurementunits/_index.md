@@ -1,7 +1,9 @@
 ---
-title: Enum MeasurementUnits
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.MeasurementUnits Sıralama. Ölçü birimini belirtir.
+title: MeasurementUnits Enum
+linktitle: MeasurementUnits
+articleTitle: MeasurementUnits
+second_title: Aspose.Words for .NET
+description: Aspose.Words.MeasurementUnits Sıralama. Ölçü birimini belirtir C#'da.
 type: docs
 weight: 4150
 url: /tr/net/aspose.words/measurementunits/
@@ -28,5 +30,3 @@ public enum MeasurementUnits
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

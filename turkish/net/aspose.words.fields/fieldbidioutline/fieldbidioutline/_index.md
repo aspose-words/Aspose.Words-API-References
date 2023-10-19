@@ -1,7 +1,9 @@
 ---
-title: FieldBidiOutline.FieldBidiOutline
-second_title: Aspose.Words for .NET API Referansı
-description: FieldBidiOutline inşaatçı. Default_Constructor
+title: FieldBidiOutline
+linktitle: FieldBidiOutline
+articleTitle: FieldBidiOutline
+second_title: Aspose.Words for .NET
+description: FieldBidiOutline inşaatçı. Default_Constructor C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fieldbidioutline/fieldbidioutline/
@@ -17,7 +19,5 @@ public FieldBidiOutline()
 ### Ayrıca bakınız
 
 * class [FieldBidiOutline](../)
-* ad alanı [Aspose.Words.Fields](../../fieldbidioutline/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

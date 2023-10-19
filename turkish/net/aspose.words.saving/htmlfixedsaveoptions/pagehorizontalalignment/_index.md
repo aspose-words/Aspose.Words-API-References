@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.PageHorizontalAlignment
-second_title: Aspose.Words for .NET API Referansı
-description: HtmlFixedSaveOptions mülk. Bir HTML belgesindeki sayfaların yatay hizalamasını belirtir. Varsayılan değerCenter .
+linktitle: PageHorizontalAlignment
+articleTitle: PageHorizontalAlignment
+second_title: Aspose.Words for .NET
+description: HtmlFixedSaveOptions PageHorizontalAlignment mülk. Bir HTML belgesindeki sayfaların yatay hizalamasını belirtir. Varsayılan değerCenter  C#'da.
 type: docs
 weight: 110
 url: /tr/net/aspose.words.saving/htmlfixedsaveoptions/pagehorizontalalignment/
@@ -14,7 +16,7 @@ Bir HTML belgesindeki sayfaların yatay hizalamasını belirtir. Varsayılan de�
 public HtmlFixedPageHorizontalAlignment PageHorizontalAlignment { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi HTML'ye kaydederken sayfaların yatay hizalamasının nasıl ayarlanacağını gösterir.
 
@@ -51,7 +53,5 @@ switch (pageHorizontalAlignment)
 
 * enum [HtmlFixedPageHorizontalAlignment](../../htmlfixedpagehorizontalalignment/)
 * class [HtmlFixedSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

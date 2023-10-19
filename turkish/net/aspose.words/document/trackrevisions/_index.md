@@ -1,7 +1,9 @@
 ---
 title: Document.TrackRevisions
-second_title: Aspose.Words for .NET API Referansı
-description: Document mülk. Bu belge Microsoft Wordde düzenlenirken değişiklikler izleniyorsa doğrudur.
+linktitle: TrackRevisions
+articleTitle: TrackRevisions
+second_title: Aspose.Words for .NET
+description: Document TrackRevisions mülk. Bu belge Microsoft Wordde düzenlenirken değişiklikler izleniyorsa doğrudur C#'da.
 type: docs
 weight: 430
 url: /tr/net/aspose.words/document/trackrevisions/
@@ -14,13 +16,13 @@ Bu belge Microsoft Word'de düzenlenirken değişiklikler izleniyorsa doğrudur.
 public bool TrackRevisions { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu seçeneğin ayarlanması yalnızca Microsoft Word'e, change parçasının açık mı yoksa kapalı mı olduğu bilgisini verir. Bu özelliğin, Aspose.Words aracılığıyla programlı olarak make belgenizde yaptığınız değişiklikler üzerinde hiçbir etkisi yoktur.
 
 Bu belgede Aspose.Words tarafından programlı olarak yapılan değişiklikleri otomatik olarak izlemek istiyorsanız şunu kullanın:[`StartTrackRevisions`](../starttrackrevisions/) yöntem.
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki düzeltmelerle nasıl çalışılacağını gösterir.
 
@@ -103,7 +105,5 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 ### Ayrıca bakınız
 
 * class [Document](../)
-* ad alanı [Aspose.Words](../../document/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

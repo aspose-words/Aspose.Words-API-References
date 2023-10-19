@@ -1,7 +1,9 @@
 ---
 title: NodeList.Count
-second_title: Aspose.Words for .NET API Referansı
-description: NodeList mülk. Listedeki düğüm sayısını alır.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words for .NET
+description: NodeList Count mülk. Listedeki düğüm sayısını alır C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/nodelist/count/
@@ -14,7 +16,7 @@ Listedeki düğüm sayısını alır.
 public int Count { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir NodeList'te gezinmek için XPath'ların nasıl kullanılacağını gösterir.
 
@@ -72,7 +74,5 @@ Assert.True(shape.HasImage);
 ### Ayrıca bakınız
 
 * class [NodeList](../)
-* ad alanı [Aspose.Words](../../nodelist/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

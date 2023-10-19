@@ -1,7 +1,9 @@
 ---
 title: LayoutOptions.ShowHiddenText
-second_title: Aspose.Words for .NET API Referansı
-description: LayoutOptions mülk. Belgedeki gizli metnin oluşturulup oluşturulmayacağına ilişkin göstergeyi alır veya ayarlar. VarsayılanYANLIŞ .
+linktitle: ShowHiddenText
+articleTitle: ShowHiddenText
+second_title: Aspose.Words for .NET
+description: LayoutOptions ShowHiddenText mülk. Belgedeki gizli metnin oluşturulup oluşturulmayacağına ilişkin göstergeyi alır veya ayarlar. VarsayılanYANLIŞ  C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words.layout/layoutoptions/showhiddentext/
@@ -14,11 +16,11 @@ Belgedeki gizli metnin oluşturulup oluşturulmayacağına ilişkin göstergeyi 
 public bool ShowHiddenText { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özellik yalnızca metni değil tüm gizli içeriği etkiler.
 
-### Örnekler
+## Örnekler
 
 İşlenmiş bir çıktı belgesindeki metnin nasıl gizleneceğini gösterir.
 
@@ -38,7 +40,5 @@ doc.Save(ArtifactsDir + "Document.LayoutOptionsHiddenText.pdf");
 ### Ayrıca bakınız
 
 * class [LayoutOptions](../)
-* ad alanı [Aspose.Words.Layout](../../layoutoptions/)
+* ad alanı [Aspose.Words.Layout](../../../aspose.words.layout/)
 * toplantı [Aspose.Words](../../../)
-
-

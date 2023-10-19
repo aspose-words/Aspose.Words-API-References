@@ -1,7 +1,9 @@
 ---
 title: Aspose.Words.Math
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Math Ad alanı Office Math öğelerini temsil eden sınıfları içerir.
+linktitle: Aspose.Words.Math
+articleTitle: Aspose.Words.Math
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Math Ad alanı Office Math öğelerini temsil eden sınıfları içerir C#'da.
 type: docs
 weight: 170
 url: /tr/net/aspose.words.math/
@@ -20,5 +22,3 @@ url: /tr/net/aspose.words.math/
 | [MathObjectType](./mathobjecttype/) | Office Math nesnesinin türünü belirtir. |
 | [OfficeMathDisplayType](./officemathdisplaytype/) | Denklemin görüntüleme biçimi türünü belirtir. |
 | [OfficeMathJustification](./officemathjustification/) | Denklemin gerekçesini belirtir. |
-
-

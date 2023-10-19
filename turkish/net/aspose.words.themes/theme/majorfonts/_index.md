@@ -1,7 +1,9 @@
 ---
 title: Theme.MajorFonts
-second_title: Aspose.Words for .NET API Referansı
-description: Theme mülk. Farklı diller için ana yazı tiplerini belirlemeye olanak tanır.
+linktitle: MajorFonts
+articleTitle: MajorFonts
+second_title: Aspose.Words for .NET
+description: Theme MajorFonts mülk. Farklı diller için ana yazı tiplerini belirlemeye olanak tanır C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.themes/theme/majorfonts/
@@ -14,7 +16,7 @@ Farklı diller için ana yazı tiplerini belirlemeye olanak tanır.
 public ThemeFonts MajorFonts { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Temalar için özel renklerin ve yazı tiplerinin nasıl ayarlanacağını gösterir.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 
 * class [ThemeFonts](../../themefonts/)
 * class [Theme](../)
-* ad alanı [Aspose.Words.Themes](../../theme/)
+* ad alanı [Aspose.Words.Themes](../../../aspose.words.themes/)
 * toplantı [Aspose.Words](../../../)
-
-

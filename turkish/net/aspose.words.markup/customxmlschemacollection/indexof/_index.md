@@ -1,7 +1,9 @@
 ---
 title: CustomXmlSchemaCollection.IndexOf
-second_title: Aspose.Words for .NET API Referansı
-description: CustomXmlSchemaCollection yöntem. Koleksiyonda belirtilen değerin sıfır tabanlı dizinini döndürür.
+linktitle: IndexOf
+articleTitle: IndexOf
+second_title: Aspose.Words for .NET
+description: CustomXmlSchemaCollection IndexOf yöntem. Koleksiyonda belirtilen değerin sıfır tabanlı dizinini döndürür C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.markup/customxmlschemacollection/indexof/
@@ -22,7 +24,7 @@ public int IndexOf(string value)
 
 Sıfır tabanlı endeks. Bulunamazsa negatif değer.
 
-### Örnekler
+## Örnekler
 
 XML şeması koleksiyonuyla nasıl çalışılacağını gösterir.
 
@@ -68,7 +70,5 @@ Assert.AreEqual(0, schemas.Count);
 ### Ayrıca bakınız
 
 * class [CustomXmlSchemaCollection](../)
-* ad alanı [Aspose.Words.Markup](../../customxmlschemacollection/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

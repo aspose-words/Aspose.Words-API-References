@@ -1,9 +1,11 @@
 ---
 title: Section.Clone
-second_title: Aspose.Words for .NET API Referansı
-description: Section yöntem. Bu bölümün bir kopyasını oluşturur.
+linktitle: Clone
+articleTitle: Clone
+second_title: Aspose.Words for .NET
+description: Section Clone yöntem. Bu bölümün bir kopyasını oluşturur C#'da.
 type: docs
-weight: 130
+weight: 110
 url: /tr/net/aspose.words/section/clone/
 ---
 ## Section.Clone method
@@ -14,7 +16,7 @@ Bu bölümün bir kopyasını oluşturur.
 public Section Clone()
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgede bölümlerin nasıl eklenip kaldırılacağını gösterir.
 
@@ -44,7 +46,5 @@ Assert.AreEqual("Section 2\x000cSection 2", doc.GetText().Trim());
 ### Ayrıca bakınız
 
 * class [Section](../)
-* ad alanı [Aspose.Words](../../section/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

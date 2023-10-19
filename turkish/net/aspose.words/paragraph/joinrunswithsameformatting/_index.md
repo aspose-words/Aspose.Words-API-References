@@ -1,9 +1,11 @@
 ---
 title: Paragraph.JoinRunsWithSameFormatting
-second_title: Aspose.Words for .NET API Referansı
-description: Paragraph yöntem. Birleştirmeler paragrafta aynı biçimlendirmeyle çalışır.
+linktitle: JoinRunsWithSameFormatting
+articleTitle: JoinRunsWithSameFormatting
+second_title: Aspose.Words for .NET
+description: Paragraph JoinRunsWithSameFormatting yöntem. Birleştirmeler paragrafta aynı biçimlendirmeyle çalışır C#'da.
 type: docs
-weight: 300
+weight: 280
 url: /tr/net/aspose.words/paragraph/joinrunswithsameformatting/
 ---
 ## Paragraph.JoinRunsWithSameFormatting method
@@ -16,9 +18,9 @@ public int JoinRunsWithSameFormatting()
 
 ### Geri dönüş değeri
 
-Gerçekleştirilen birleştirme sayısı. Ne zaman **N** bitişik koşular birleştiriliyor, sayılırlar **N - 1** katıldı.
+Gerçekleştirilen birleştirme sayısı. Ne zaman**N** bitişik koşular birleştiriliyor, sayılırlar**N - 1** katıldı.
 
-### Örnekler
+## Örnekler
 
 Gereksiz çalıştırmaları birleştirerek paragrafların nasıl basitleştirileceğini gösterir.
 
@@ -59,7 +61,5 @@ Assert.AreEqual("Run 4. ", para.Runs[1].Text);
 ### Ayrıca bakınız
 
 * class [Paragraph](../)
-* ad alanı [Aspose.Words](../../paragraph/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

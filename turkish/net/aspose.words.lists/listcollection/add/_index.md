@@ -1,12 +1,14 @@
 ---
 title: ListCollection.Add
-second_title: Aspose.Words for .NET API Referansı
-description: ListCollection yöntem. Önceden tanımlanmış bir şablonu temel alarak yeni bir liste oluşturur ve bunu belgedeki liste koleksiyonuna ekler.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words for .NET
+description: ListCollection Add yöntem. Önceden tanımlanmış bir şablonu temel alarak yeni bir liste oluşturur ve bunu belgedeki liste koleksiyonuna ekler C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.lists/listcollection/add/
 ---
-## Add(ListTemplate) {#add}
+## Add(*[ListTemplate](../../listtemplate/)*) {#add}
 
 Önceden tanımlanmış bir şablonu temel alarak yeni bir liste oluşturur ve bunu belgedeki liste koleksiyonuna ekler.
 
@@ -22,13 +24,13 @@ public List Add(ListTemplate listTemplate)
 
 Yeni oluşturulan liste.
 
-### Notlar
+## Notlar
 
 Aspose.Words liste şablonları, Microsoft Word 2003'teki Madde İşaretleri ve Numaralandırma iletişim kutusunda bulunan 21 liste şablonuna karşılık gelir .
 
 Bu yöntemle oluşturulan tüm listelerin 9 liste düzeyi vardır.
 
-### Örnekler
+## Örnekler
 
 Bir paragraf koleksiyonuna yeni bir liste formatı uygulayarak listenin nasıl oluşturulacağını gösterir.
 
@@ -147,12 +149,12 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 * class [List](../../list/)
 * enum [ListTemplate](../../listtemplate/)
 * class [ListCollection](../)
-* ad alanı [Aspose.Words.Lists](../../listcollection/)
+* ad alanı [Aspose.Words.Lists](../../../aspose.words.lists/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## Add(Style) {#add_1}
+## Add(*[Style](../../../aspose.words/style/)*) {#add_1}
 
 Bir liste stiline başvuran yeni bir liste oluşturur ve bunu belgedeki liste koleksiyonuna ekler.
 
@@ -168,11 +170,11 @@ public List Add(Style listStyle)
 
 Yeni oluşturulan liste.
 
-### Notlar
+## Notlar
 
 Yeni oluşturulan liste, liste stiline referans verir. list stilinin özelliklerini değiştirirseniz bu, listenin özelliklerine yansıtılır. Tam tersi, listenin özellikleri değerini değiştirirseniz, bu liste stilinin özelliklerine yansıtılır.
 
-### Örnekler
+## Örnekler
 
 Liste stilinin nasıl oluşturulacağını ve belgede nasıl kullanılacağını gösterir.
 
@@ -235,7 +237,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateAndUseListStyle.docx");
 * class [List](../../list/)
 * class [Style](../../../aspose.words/style/)
 * class [ListCollection](../)
-* ad alanı [Aspose.Words.Lists](../../listcollection/)
+* ad alanı [Aspose.Words.Lists](../../../aspose.words.lists/)
 * toplantı [Aspose.Words](../../../)
-
-

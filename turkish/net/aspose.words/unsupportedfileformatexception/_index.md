@@ -1,7 +1,9 @@
 ---
-title: Class UnsupportedFileFormatException
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.UnsupportedFileFormatException sınıf. Belge formatı Aspose.Words tarafından tanınmadığında veya desteklenmediğinde belge yükleme sırasında atılır.
+title: UnsupportedFileFormatException Class
+linktitle: UnsupportedFileFormatException
+articleTitle: UnsupportedFileFormatException
+second_title: Aspose.Words for .NET
+description: Aspose.Words.UnsupportedFileFormatException sınıf. Belge formatı Aspose.Words tarafından tanınmadığında veya desteklenmediğinde belge yükleme sırasında atılır C#'da.
 type: docs
 weight: 6520
 url: /tr/net/aspose.words/unsupportedfileformatexception/
@@ -20,5 +22,3 @@ public class UnsupportedFileFormatException : Exception
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyleCollection.LastRow
-second_title: Aspose.Words for .NET API Referansı
-description: ConditionalStyleCollection mülk. Son satırın stilini alır.
+linktitle: LastRow
+articleTitle: LastRow
+second_title: Aspose.Words for .NET
+description: ConditionalStyleCollection LastRow mülk. Son satırın stilini alır C#'da.
 type: docs
 weight: 100
 url: /tr/net/aspose.words/conditionalstylecollection/lastrow/
@@ -14,7 +16,7 @@ Son satırın stilini alır.
 public ConditionalStyle LastRow { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir tablonun belirli alan stilleriyle nasıl çalışılacağını gösterir.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [ConditionalStyle](../../conditionalstyle/)
 * class [ConditionalStyleCollection](../)
-* ad alanı [Aspose.Words](../../conditionalstylecollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum CssStyleSheetType
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Saving.CssStyleSheetType Sıralama. CSS Basamaklı Stil Sayfası stillerinin HTMLye nasıl aktarılacağını belirtir.
+title: CssStyleSheetType Enum
+linktitle: CssStyleSheetType
+articleTitle: CssStyleSheetType
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Saving.CssStyleSheetType Sıralama. CSS Basamaklı Stil Sayfası stillerinin HTMLye nasıl aktarılacağını belirtir C#'da.
 type: docs
 weight: 4890
 url: /tr/net/aspose.words.saving/cssstylesheettype/
@@ -18,11 +20,11 @@ public enum CssStyleSheetType
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| Inline | `0` | CSS stilleri satır içi olarak yazılır ( **stil** her öğedeki özellik). |
+| Inline | `0` | CSS stilleri satır içi olarak yazılır (**stil** her öğedeki özellik). |
 | Embedded | `1` | CSS stilleri, HTML dosyasına gömülü bir stil sayfasında içerikten ayrı olarak yazılır. |
 | External | `2` | CSS stilleri, harici bir dosyadaki stil sayfasındaki içerikten ayrı olarak yazılır. HTML dosyası stil sayfasına bağlanır. |
 
-### Örnekler
+## Örnekler
 
 Bir HTML dönüşümünün oluşturduğu CSS stil sayfalarıyla nasıl çalışılacağını gösterir.
 
@@ -85,5 +87,3 @@ private class CustomCssSavingCallback : ICssSavingCallback
 * property [CssStyleSheetType](../htmlsaveoptions/cssstylesheettype/)
 * ad alanı [Aspose.Words.Saving](../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../)
-
-

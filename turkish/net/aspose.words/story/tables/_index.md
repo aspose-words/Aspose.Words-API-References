@@ -1,7 +1,9 @@
 ---
 title: Story.Tables
-second_title: Aspose.Words for .NET API Referansı
-description: Story mülk. Hikayenin doğrudan alt öğeleri olan tabloların bir koleksiyonunu alır.
+linktitle: Tables
+articleTitle: Tables
+second_title: Aspose.Words for .NET
+description: Story Tables mülk. Hikayenin doğrudan alt öğeleri olan tabloların bir koleksiyonunu alır C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words/story/tables/
@@ -14,7 +16,7 @@ Hikayenin doğrudan alt öğeleri olan tabloların bir koleksiyonunu alır.
 public TableCollection Tables { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki tüm tabloların ilk ve son satırlarının nasıl kaldırılacağını gösterir.
 
@@ -40,7 +42,5 @@ Assert.AreEqual(2, tables[1].Rows.Count);
 
 * class [TableCollection](../../../aspose.words.tables/tablecollection/)
 * class [Story](../)
-* ad alanı [Aspose.Words](../../story/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

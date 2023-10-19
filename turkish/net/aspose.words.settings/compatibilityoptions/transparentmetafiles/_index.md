@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.TransparentMetafiles
-second_title: Aspose.Words for .NET API Referansı
-description: CompatibilityOptions mülk. Meta dosyası resimlerinin arkasındaki alanın boşaltılmayacağını belirtir.
+linktitle: TransparentMetafiles
+articleTitle: TransparentMetafiles
+second_title: Aspose.Words for .NET
+description: CompatibilityOptions TransparentMetafiles mülk. Meta dosyası resimlerinin arkasındaki alanın boşaltılmayacağını belirtir C#'da.
 type: docs
 weight: 550
 url: /tr/net/aspose.words.settings/compatibilityoptions/transparentmetafiles/
@@ -17,7 +19,5 @@ public bool TransparentMetafiles { get; set; }
 ### Ayrıca bakınız
 
 * class [CompatibilityOptions](../)
-* ad alanı [Aspose.Words.Settings](../../compatibilityoptions/)
+* ad alanı [Aspose.Words.Settings](../../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../../)
-
-

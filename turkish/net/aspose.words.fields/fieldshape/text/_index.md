@@ -1,7 +1,9 @@
 ---
 title: FieldShape.Text
-second_title: Aspose.Words for .NET API Referansı
-description: FieldShape mülk. Alınacak metni alır veya ayarlar.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words for .NET
+description: FieldShape Text mülk. Alınacak metni alır veya ayarlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fieldshape/text/
@@ -14,7 +16,7 @@ Alınacak metni alır veya ayarlar.
 public string Text { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 BIDIOUTLINE alanlarıyla sağdan sola dil uyumlu listelerin nasıl oluşturulacağını gösterir.
 
@@ -83,7 +85,5 @@ Assert.AreEqual(ShapeType.OleObject, shape.ShapeType);
 ### Ayrıca bakınız
 
 * class [FieldShape](../)
-* ad alanı [Aspose.Words.Fields](../../fieldshape/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

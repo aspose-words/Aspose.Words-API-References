@@ -1,7 +1,9 @@
 ---
 title: ResourceSavingArgs.ResourceFileName
-second_title: Aspose.Words for .NET API Referansı
-description: ResourceSavingArgs mülk. Kaynağın kaydedileceği dosya adını yol olmadan alır veya ayarlar.
+linktitle: ResourceFileName
+articleTitle: ResourceFileName
+second_title: Aspose.Words for .NET
+description: ResourceSavingArgs ResourceFileName mülk. Kaynağın kaydedileceği dosya adını yol olmadan alır veya ayarlar C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.saving/resourcesavingargs/resourcefilename/
@@ -14,7 +16,7 @@ Kaynağın kaydedileceği dosya adını (yol olmadan) alır veya ayarlar.
 public string ResourceFileName { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özellik, sabit sayfa HTML'sine veya SVG'ye dışa aktarma sırasında kaynak dosya adlarının nasıl oluşturulduğunu yeniden tanımlamanıza olanak tanır.
 
@@ -30,7 +32,7 @@ Bir belgeyi bir akışa kaydederken oluşturulan kaynak dosya adı gibi görün�
 
 [`ResourcesFolder`](../../htmlfixedsaveoptions/resourcesfolder/)[`ResourcesFolder`](../../svgsaveoptions/resourcesfolder/)[`ResourcesFolderAlias`](../../htmlfixedsaveoptions/resourcesfolderalias/)[`ResourcesFolderAlias`](../../svgsaveoptions/resourcesfolderalias/)
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi HTML'ye dönüştürürken oluşturulan harici kaynakları izlemek için geri aramanın nasıl kullanılacağını gösterir.
 
@@ -75,7 +77,5 @@ private class FontSavingCallback : IResourceSavingCallback
 ### Ayrıca bakınız
 
 * class [ResourceSavingArgs](../)
-* ad alanı [Aspose.Words.Saving](../../resourcesavingargs/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

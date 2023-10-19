@@ -1,7 +1,9 @@
 ---
-title: Enum WatermarkLayout
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.WatermarkLayout Sıralama. Filigranın düzenini filigran merkezine göre tanımlar.
+title: WatermarkLayout Enum
+linktitle: WatermarkLayout
+articleTitle: WatermarkLayout
+second_title: Aspose.Words for .NET
+description: Aspose.Words.WatermarkLayout Sıralama. Filigranın düzenini filigran merkezine göre tanımlar C#'da.
 type: docs
 weight: 6680
 url: /tr/net/aspose.words/watermarklayout/
@@ -21,7 +23,7 @@ public enum WatermarkLayout
 | Horizontal | `0` | Yatay filigran düzeni. 0 derecelik dönüşe karşılık gelir. |
 | Diagonal | `315` | Çapraz filigran düzeni. 315 derecelik dönüşe karşılık gelir. |
 
-### Örnekler
+## Örnekler
 
 Metin filigranının nasıl oluşturulacağını gösterir.
 
@@ -53,5 +55,3 @@ if (doc.Watermark.Type == WatermarkType.Text)
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

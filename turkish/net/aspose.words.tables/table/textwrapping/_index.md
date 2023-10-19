@@ -1,7 +1,9 @@
 ---
 title: Table.TextWrapping
-second_title: Aspose.Words for .NET API Referansı
-description: Table mülk. Alır veya ayarlarTextWrapping tablo. için
+linktitle: TextWrapping
+articleTitle: TextWrapping
+second_title: Aspose.Words for .NET
+description: Table TextWrapping mülk. Alır veya ayarlarTextWrapping tablo. için C#'da.
 type: docs
 weight: 310
 url: /tr/net/aspose.words.tables/table/textwrapping/
@@ -14,7 +16,7 @@ Alır veya ayarlar`TextWrapping` tablo. için
 public TextWrapping TextWrapping { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Tablo metni kaydırmayla nasıl çalışılacağını gösterir.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "Table.WrapText.docx");
 
 * enum [TextWrapping](../../textwrapping/)
 * class [Table](../)
-* ad alanı [Aspose.Words.Tables](../../table/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

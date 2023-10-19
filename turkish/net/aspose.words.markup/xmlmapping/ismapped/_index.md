@@ -1,7 +1,9 @@
 ---
 title: XmlMapping.IsMapped
-second_title: Aspose.Words for .NET API Referansı
-description: XmlMapping mülk. İadelerdoğru ana yapılandırılmış belge etiketi XML verileriyle başarıyla eşlendiyse.
+linktitle: IsMapped
+articleTitle: IsMapped
+second_title: Aspose.Words for .NET
+description: XmlMapping IsMapped mülk. İadelerdoğru ana yapılandırılmış belge etiketi XML verileriyle başarıyla eşlendiyse C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.markup/xmlmapping/ismapped/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.markup/xmlmapping/ismapped/
 public bool IsMapped { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Özel XML parçaları için XML eşlemelerinin nasıl ayarlanacağını gösterir.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.XmlMapping.docx");
 ### Ayrıca bakınız
 
 * class [XmlMapping](../)
-* ad alanı [Aspose.Words.Markup](../../xmlmapping/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

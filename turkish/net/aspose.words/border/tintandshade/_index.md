@@ -1,7 +1,9 @@
 ---
 title: Border.TintAndShade
-second_title: Aspose.Words for .NET API Referansı
-description: Border mülk. Bir rengi açan veya koyulaştıran double değerini alır veya ayarlar.
+linktitle: TintAndShade
+articleTitle: TintAndShade
+second_title: Aspose.Words for .NET
+description: Border TintAndShade mülk. Bir rengi açan veya koyulaştıran double değerini alır veya ayarlar C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words/border/tintandshade/
@@ -14,13 +16,13 @@ Bir rengi açan veya koyulaştıran double değerini alır veya ayarlar.
 public double TintAndShade { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özellik için izin verilen değerler -1 (en koyu) ila 1 (en açık) aralığındadır. Sıfır (0) nötrdür. Bu özelliği -1'den küçük veya 1 'den büyük bir değere ayarlamaya çalışmak şu sonuçlarla sonuçlanır:ArgumentOutOfRangeException.
 
 Bu özelliğin Border nesnesi için tema dışı colours ile ayarlanması şu sonucu doğurur:InvalidOperationException.
 
-### Örnekler
+## Örnekler
 
 Üst kenarlığı olan bir paragrafın nasıl ekleneceğini gösterir.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Border.ParagraphTopBorder.docx");
 ### Ayrıca bakınız
 
 * class [Border](../)
-* ad alanı [Aspose.Words](../../border/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

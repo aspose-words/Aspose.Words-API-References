@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.ShowSeriesName
-second_title: Aspose.Words for .NET API Referansı
-description: ChartDataLabelCollection mülk. Tüm serinin veri etiketleri için seri adı görüntüleme davranışını belirtmek üzere bir Boole değeri döndürür veya ayarlar. doğru seri adını göstermek içinYANLIŞ saklanmak. Varsayılan olarakYANLIŞ .
+linktitle: ShowSeriesName
+articleTitle: ShowSeriesName
+second_title: Aspose.Words for .NET
+description: ChartDataLabelCollection ShowSeriesName mülk. Tüm serinin veri etiketleri için seri adı görüntüleme davranışını belirtmek üzere bir Boole değeri döndürür veya ayarlar. doğru seri adını göstermek içinYANLIŞ saklanmak. Varsayılan olarakYANLIŞ  C#'da.
 type: docs
 weight: 130
 url: /tr/net/aspose.words.drawing.charts/chartdatalabelcollection/showseriesname/
@@ -14,11 +16,11 @@ Tüm serinin veri etiketleri için seri adı görüntüleme davranışını beli
 public bool ShowSeriesName { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özellik için tanımlanan değer, the kullanılarak tek bir veri etiketi için geçersiz kılınabilir[`ShowSeriesName`](../../chartdatalabel/showseriesname/) özellik.
 
-### Örnekler
+## Örnekler
 
 Kabarcık grafiğinin veri etiketleriyle nasıl çalışılacağını gösterir.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Charts.DataLabelsBubbleChart.docx");
 ### Ayrıca bakınız
 
 * class [ChartDataLabelCollection](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

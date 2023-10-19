@@ -1,7 +1,9 @@
 ---
-title: Enum ShowInBalloons
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Layout.ShowInBalloons Sıralama. Balonlarda hangi revizyonların oluşturulacağını belirtir.
+title: ShowInBalloons Enum
+linktitle: ShowInBalloons
+articleTitle: ShowInBalloons
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Layout.ShowInBalloons Sıralama. Balonlarda hangi revizyonların oluşturulacağını belirtir C#'da.
 type: docs
 weight: 3410
 url: /tr/net/aspose.words.layout/showinballoons/
@@ -22,11 +24,11 @@ public enum ShowInBalloons
 | Format | `1` | Revizyonları satır içi olarak ekler ve siler, revizyonları balonlarda biçimlendirir. |
 | FormatAndDelete | `2` | Revizyonları satır içi olarak ekler, revizyonları balonlarda siler ve biçimlendirir. |
 
-### Notlar
+## Notlar
 
 Düzeltmelerin balonlarda görüntülenmediğini unutmayın.ShowInAnnotations .
 
-### Örnekler
+## Örnekler
 
 Revizyonların görünümünün nasıl değiştirileceğini gösterir.
 
@@ -78,5 +80,3 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 
 * ad alanı [Aspose.Words.Layout](../../aspose.words.layout/)
 * toplantı [Aspose.Words](../../)
-
-

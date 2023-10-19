@@ -1,7 +1,9 @@
 ---
 title: FieldGoToButton.Location
-second_title: Aspose.Words for .NET API Referansı
-description: FieldGoToButton mülk. Bir yer iminin sayfa numarasının veya atlanacak başka bir öğenin adını alır veya ayarlar.
+linktitle: Location
+articleTitle: Location
+second_title: Aspose.Words for .NET
+description: FieldGoToButton Location mülk. Bir yer iminin sayfa numarasının veya atlanacak başka bir öğenin adını alır veya ayarlar C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fields/fieldgotobutton/location/
@@ -14,7 +16,7 @@ Bir yer iminin, sayfa numarasının veya atlanacak başka bir öğenin adını a
 public string Location { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 GOTOBUTTON alanı eklemeyi gösterir.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Field.GOTOBUTTON.docx");
 ### Ayrıca bakınız
 
 * class [FieldGoToButton](../)
-* ad alanı [Aspose.Words.Fields](../../fieldgotobutton/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

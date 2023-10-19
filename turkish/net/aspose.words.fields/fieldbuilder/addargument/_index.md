@@ -1,12 +1,14 @@
 ---
 title: FieldBuilder.AddArgument
-second_title: Aspose.Words for .NET API Referansı
-description: FieldBuilder yöntem. Alanın bağımsız değişkenini ekler.
+linktitle: AddArgument
+articleTitle: AddArgument
+second_title: Aspose.Words for .NET
+description: FieldBuilder AddArgument yöntem. Alanın bağımsız değişkenini ekler C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fieldbuilder/addargument/
 ---
-## AddArgument(string) {#addargument_4}
+## AddArgument(*string*) {#addargument_4}
 
 Alanın bağımsız değişkenini ekler.
 
@@ -18,7 +20,7 @@ public FieldBuilder AddArgument(string argument)
 | --- | --- | --- |
 | argument | String | Argüman değeri. |
 
-### Örnekler
+## Örnekler
 
 Alan oluşturucu kullanarak alanların nasıl oluşturulacağını ve ardından bunların belgeye nasıl ekleneceğini gösterir.
 
@@ -101,12 +103,12 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### Ayrıca bakınız
 
 * class [FieldBuilder](../)
-* ad alanı [Aspose.Words.Fields](../../fieldbuilder/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## AddArgument(int) {#addargument_3}
+## AddArgument(*int*) {#addargument_3}
 
 Alanın bağımsız değişkenini ekler.
 
@@ -118,7 +120,7 @@ public FieldBuilder AddArgument(int argument)
 | --- | --- | --- |
 | argument | Int32 | Argüman değeri. |
 
-### Örnekler
+## Örnekler
 
 Alan oluşturucu kullanarak alanların nasıl oluşturulacağını ve ardından bunların belgeye nasıl ekleneceğini gösterir.
 
@@ -201,12 +203,12 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### Ayrıca bakınız
 
 * class [FieldBuilder](../)
-* ad alanı [Aspose.Words.Fields](../../fieldbuilder/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## AddArgument(double) {#addargument_2}
+## AddArgument(*double*) {#addargument_2}
 
 Alanın bağımsız değişkenini ekler.
 
@@ -218,7 +220,7 @@ public FieldBuilder AddArgument(double argument)
 | --- | --- | --- |
 | argument | Double | Argüman değeri. |
 
-### Örnekler
+## Örnekler
 
 Alan oluşturucu kullanarak alanların nasıl oluşturulacağını ve ardından bunların belgeye nasıl ekleneceğini gösterir.
 
@@ -301,12 +303,12 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### Ayrıca bakınız
 
 * class [FieldBuilder](../)
-* ad alanı [Aspose.Words.Fields](../../fieldbuilder/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## AddArgument(FieldBuilder) {#addargument_1}
+## AddArgument(*[FieldBuilder](../)*) {#addargument_1}
 
 Başka bir alan tarafından temsil edilen bir alt alan ekler[`FieldBuilder`](../) alanın koduna.
 
@@ -314,11 +316,11 @@ Başka bir alan tarafından temsil edilen bir alt alan ekler[`FieldBuilder`](../
 public FieldBuilder AddArgument(FieldBuilder argument)
 ```
 
-### Notlar
+## Notlar
 
 Bu aşırı yükleme, argüman tek bir alt alandan oluştuğunda kullanılır.
 
-### Örnekler
+## Örnekler
 
 Alan oluşturucu kullanarak alanların nasıl oluşturulacağını ve ardından bunların belgeye nasıl ekleneceğini gösterir.
 
@@ -401,12 +403,12 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### Ayrıca bakınız
 
 * class [FieldBuilder](../)
-* ad alanı [Aspose.Words.Fields](../../fieldbuilder/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## AddArgument(FieldArgumentBuilder) {#addargument}
+## AddArgument(*[FieldArgumentBuilder](../../fieldargumentbuilder/)*) {#addargument}
 
 Şununla temsil edilen bir alanın bağımsız değişkenini ekler:[`FieldArgumentBuilder`](../../fieldargumentbuilder/) alanın koduna.
 
@@ -414,11 +416,11 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 public FieldBuilder AddArgument(FieldArgumentBuilder argument)
 ```
 
-### Notlar
+## Notlar
 
 Bu aşırı yükleme, bağımsız değişken alt alanlar, düğümler ve düz metin gibi farklı parçaların bir karışımından oluştuğunda kullanılır.
 
-### Örnekler
+## Örnekler
 
 Alan oluşturucu kullanarak alanların nasıl oluşturulacağını ve ardından bunların belgeye nasıl ekleneceğini gösterir.
 
@@ -502,7 +504,5 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 
 * class [FieldArgumentBuilder](../../fieldargumentbuilder/)
 * class [FieldBuilder](../)
-* ad alanı [Aspose.Words.Fields](../../fieldbuilder/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

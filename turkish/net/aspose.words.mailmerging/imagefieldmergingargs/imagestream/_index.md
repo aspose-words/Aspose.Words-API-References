@@ -1,7 +1,9 @@
 ---
 title: ImageFieldMergingArgs.ImageStream
-second_title: Aspose.Words for .NET API Referansı
-description: ImageFieldMergingArgs mülk. Adresmektup birleştirme motorunun bir görüntüyü okuyacağı akışı belirtir.
+linktitle: ImageStream
+articleTitle: ImageStream
+second_title: Aspose.Words for .NET
+description: ImageFieldMergingArgs ImageStream mülk. Adresmektup birleştirme motorunun bir görüntüyü okuyacağı akışı belirtir C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.mailmerging/imagefieldmergingargs/imagestream/
@@ -14,11 +16,11 @@ Adres-mektup birleştirme motorunun bir görüntüyü okuyacağı akışı belir
 public Stream ImageStream { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Aspose.Words, görüntüyü belgeyle birleştirdikten sonra bu akışı kapatır.
 
-### Örnekler
+## Örnekler
 
 Veritabanı BLOB alanında saklanan görüntülerin bir rapora nasıl ekleneceğini gösterir.
 
@@ -67,7 +69,5 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 ### Ayrıca bakınız
 
 * class [ImageFieldMergingArgs](../)
-* ad alanı [Aspose.Words.MailMerging](../../imagefieldmergingargs/)
+* ad alanı [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * toplantı [Aspose.Words](../../../)
-
-

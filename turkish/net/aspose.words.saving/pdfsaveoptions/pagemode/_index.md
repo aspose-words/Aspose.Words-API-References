@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.PageMode
-second_title: Aspose.Words for .NET API Referansı
-description: PdfSaveOptions mülk. PDF belgesinin PDF okuyucuda açıldığında nasıl görüntülenmesi gerektiğini belirtir.
+linktitle: PageMode
+articleTitle: PageMode
+second_title: Aspose.Words for .NET
+description: PdfSaveOptions PageMode mülk. PDF belgesinin PDF okuyucuda açıldığında nasıl görüntülenmesi gerektiğini belirtir C#'da.
 type: docs
 weight: 250
 url: /tr/net/aspose.words.saving/pdfsaveoptions/pagemode/
@@ -14,11 +16,11 @@ PDF belgesinin PDF okuyucuda açıldığında nasıl görüntülenmesi gerektiğ
 public PdfPageMode PageMode { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:UseOutlines .
 
-### Örnekler
+## Örnekler
 
 Bazı PDF okuyucularının bir çıktı belgesini açarken izleyeceği talimatların nasıl ayarlanacağını gösterir.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.HeaderFooterBookmarksExportMode.pdf", sa
 
 * enum [PdfPageMode](../../pdfpagemode/)
 * class [PdfSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../pdfsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

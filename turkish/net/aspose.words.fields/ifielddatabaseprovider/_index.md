@@ -1,7 +1,9 @@
 ---
-title: Interface IFieldDatabaseProvider
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Fields.IFieldDatabaseProvider arayüz. Veri sağlamak için bu arayüzü uygulayın.FieldDatabase güncellendiğinde alan.
+title: IFieldDatabaseProvider Interface
+linktitle: IFieldDatabaseProvider
+articleTitle: IFieldDatabaseProvider
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Fields.IFieldDatabaseProvider arayüz. Veri sağlamak için bu arayüzü uygulayın.FieldDatabase güncellendiğinde alan C#'da.
 type: docs
 weight: 2690
 url: /tr/net/aspose.words.fields/ifielddatabaseprovider/
@@ -18,11 +20,9 @@ public interface IFieldDatabaseProvider
 
 | İsim | Tanım |
 | --- | --- |
-| [GetQueryResult](../../aspose.words.fields/ifielddatabaseprovider/getqueryresult/)(string, string, string, FieldDatabase) | Sorgu sonucunu döndürür. |
+| [GetQueryResult](../../aspose.words.fields/ifielddatabaseprovider/getqueryresult/)(*string, string, string, [FieldDatabase](../fielddatabase/)*) | Sorgu sonucunu döndürür. |
 
 ### Ayrıca bakınız
 
 * ad alanı [Aspose.Words.Fields](../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../)
-
-

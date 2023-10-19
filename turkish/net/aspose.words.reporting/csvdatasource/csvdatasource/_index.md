@@ -1,12 +1,14 @@
 ---
-title: CsvDataSource.CsvDataSource
-second_title: Aspose.Words for .NET API Referansı
-description: CsvDataSource inşaatçı. CSV verilerini ayrıştırmak için varsayılan seçenekleri kullanarak CSV dosyasındaki verilerle yeni bir veri kaynağı oluşturur.
+title: CsvDataSource
+linktitle: CsvDataSource
+articleTitle: CsvDataSource
+second_title: Aspose.Words for .NET
+description: CsvDataSource inşaatçı. CSV verilerini ayrıştırmak için varsayılan seçenekleri kullanarak CSV dosyasındaki verilerle yeni bir veri kaynağı oluşturur C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.reporting/csvdatasource/csvdatasource/
 ---
-## CsvDataSource(string) {#constructor_2}
+## CsvDataSource(*string*) {#constructor_2}
 
 CSV verilerini ayrıştırmak için varsayılan seçenekleri kullanarak CSV dosyasındaki verilerle yeni bir veri kaynağı oluşturur.
 
@@ -21,12 +23,12 @@ public CsvDataSource(string csvPath)
 ### Ayrıca bakınız
 
 * class [CsvDataSource](../)
-* ad alanı [Aspose.Words.Reporting](../../csvdatasource/)
+* ad alanı [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## CsvDataSource(string, CsvDataLoadOptions) {#constructor_3}
+## CsvDataSource(*string, [CsvDataLoadOptions](../../csvdataloadoptions/)*) {#constructor_3}
 
 CSV verilerini ayrıştırmak için belirtilen seçenekleri kullanarak CSV dosyasındaki verilerle yeni bir veri kaynağı oluşturur.
 
@@ -43,12 +45,12 @@ public CsvDataSource(string csvPath, CsvDataLoadOptions options)
 
 * class [CsvDataLoadOptions](../../csvdataloadoptions/)
 * class [CsvDataSource](../)
-* ad alanı [Aspose.Words.Reporting](../../csvdatasource/)
+* ad alanı [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## CsvDataSource(Stream) {#constructor}
+## CsvDataSource(*Stream*) {#constructor}
 
 CSV verilerini ayrıştırmaya yönelik varsayılan seçenekleri kullanarak CSV akışındaki verilerle yeni bir veri kaynağı oluşturur.
 
@@ -63,12 +65,12 @@ public CsvDataSource(Stream csvStream)
 ### Ayrıca bakınız
 
 * class [CsvDataSource](../)
-* ad alanı [Aspose.Words.Reporting](../../csvdatasource/)
+* ad alanı [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## CsvDataSource(Stream, CsvDataLoadOptions) {#constructor_1}
+## CsvDataSource(*Stream, [CsvDataLoadOptions](../../csvdataloadoptions/)*) {#constructor_1}
 
 CSV verilerini ayrıştırmak için belirtilen seçenekleri kullanarak CSV akışından gelen verilerle yeni bir veri kaynağı oluşturur.
 
@@ -85,7 +87,5 @@ public CsvDataSource(Stream csvStream, CsvDataLoadOptions options)
 
 * class [CsvDataLoadOptions](../../csvdataloadoptions/)
 * class [CsvDataSource](../)
-* ad alanı [Aspose.Words.Reporting](../../csvdatasource/)
+* ad alanı [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * toplantı [Aspose.Words](../../../)
-
-

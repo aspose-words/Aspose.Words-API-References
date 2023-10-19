@@ -1,7 +1,9 @@
 ---
 title: FieldArgumentBuilder.AddField
-second_title: Aspose.Words for .NET API Referansı
-description: FieldArgumentBuilder yöntem. Bir ile temsil edilen bir alan eklerFieldBuilder argümana.
+linktitle: AddField
+articleTitle: AddField
+second_title: Aspose.Words for .NET
+description: FieldArgumentBuilder AddField yöntem. Bir ile temsil edilen bir alan eklerFieldBuilder argümana C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fieldargumentbuilder/addfield/
@@ -14,7 +16,7 @@ Bir ile temsil edilen bir alan ekler[`FieldBuilder`](../../fieldbuilder/) argüm
 public FieldArgumentBuilder AddField(FieldBuilder fieldBuilder)
 ```
 
-### Örnekler
+## Örnekler
 
 Alan oluşturucu kullanarak alanların nasıl oluşturulacağını ve ardından bunların belgeye nasıl ekleneceğini gösterir.
 
@@ -98,7 +100,5 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 
 * class [FieldBuilder](../../fieldbuilder/)
 * class [FieldArgumentBuilder](../)
-* ad alanı [Aspose.Words.Fields](../../fieldargumentbuilder/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

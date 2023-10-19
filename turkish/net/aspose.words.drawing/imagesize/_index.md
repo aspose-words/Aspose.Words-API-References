@@ -1,7 +1,9 @@
 ---
-title: Class ImageSize
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.ImageSize sınıf. Görüntü boyutu ve çözünürlüğü hakkında bilgi içerir.
+title: ImageSize Class
+linktitle: ImageSize
+articleTitle: ImageSize
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.ImageSize sınıf. Görüntü boyutu ve çözünürlüğü hakkında bilgi içerir C#'da.
 type: docs
 weight: 1070
 url: /tr/net/aspose.words.drawing/imagesize/
@@ -20,8 +22,8 @@ public class ImageSize
 
 | İsim | Tanım |
 | --- | --- |
-| [ImageSize](imagesize/#constructor)(int, int) | Genişlik ve yüksekliği piksel cinsinden verilen değerlere göre başlatır. Çözünürlüğü 96 dpi olarak başlatır. |
-| [ImageSize](imagesize/#constructor_1)(int, int, double, double) | Genişliği, yüksekliği ve çözünürlüğü verilen değerlere göre başlatır. |
+| [ImageSize](imagesize/#constructor)(*int, int*) | Genişlik ve yüksekliği piksel cinsinden verilen değerlere göre başlatır. Çözünürlüğü 96 dpi olarak başlatır. |
+| [ImageSize](imagesize/#constructor_1)(*int, int, double, double*) | Genişliği, yüksekliği ve çözünürlüğü verilen değerlere göre başlatır. |
 
 ## Özellikleri
 
@@ -34,7 +36,7 @@ public class ImageSize
 | [WidthPixels](../../aspose.words.drawing/imagesize/widthpixels/) { get; } | Görüntünün genişliğini piksel cinsinden alır. |
 | [WidthPoints](../../aspose.words.drawing/imagesize/widthpoints/) { get; } | Görüntünün genişliğini nokta cinsinden alır. 1 punto 1/72 inçtir. |
 
-### Örnekler
+## Örnekler
 
 Bir şeklin resimle nasıl yeniden boyutlandırılacağını gösterir.
 
@@ -93,5 +95,3 @@ Bir şeklin resimle nasıl yeniden boyutlandırılacağını gösterir.
 * property [ImageSize](../imagedata/imagesize/)
 * ad alanı [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../)
-
-

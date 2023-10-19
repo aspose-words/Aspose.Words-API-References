@@ -1,12 +1,14 @@
 ---
 title: TableSubstitutionRule.Save
-second_title: Aspose.Words for .NET API Referansı
-description: TableSubstitutionRule yöntem. Geçerli tablo değiştirme ayarlarını dosyaya kaydeder.
+linktitle: Save
+articleTitle: Save
+second_title: Aspose.Words for .NET
+description: TableSubstitutionRule Save yöntem. Geçerli tablo değiştirme ayarlarını dosyaya kaydeder C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.fonts/tablesubstitutionrule/save/
 ---
-## Save(string) {#save_1}
+## Save(*string*) {#save_1}
 
 Geçerli tablo değiştirme ayarlarını dosyaya kaydeder.
 
@@ -18,7 +20,7 @@ public void Save(string fileName)
 | --- | --- | --- |
 | fileName | String | Çıkış dosyası adı. |
 
-### Örnekler
+## Örnekler
 
 Windows ve Linux için yazı tipi değiştirme tablolarına nasıl erişileceğini gösterir.
 
@@ -57,12 +59,12 @@ using (FileStream fileStream = new FileStream(ArtifactsDir + "FontSettings.Table
 ### Ayrıca bakınız
 
 * class [TableSubstitutionRule](../)
-* ad alanı [Aspose.Words.Fonts](../../tablesubstitutionrule/)
+* ad alanı [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## Save(Stream) {#save}
+## Save(*Stream*) {#save}
 
 Geçerli tablo değiştirme ayarlarını akışa kaydeder.
 
@@ -74,7 +76,7 @@ public void Save(Stream outputStream)
 | --- | --- | --- |
 | outputStream | Stream | Çıkış akışı. |
 
-### Örnekler
+## Örnekler
 
 Windows ve Linux için yazı tipi değiştirme tablolarına nasıl erişileceğini gösterir.
 
@@ -113,7 +115,5 @@ using (FileStream fileStream = new FileStream(ArtifactsDir + "FontSettings.Table
 ### Ayrıca bakınız
 
 * class [TableSubstitutionRule](../)
-* ad alanı [Aspose.Words.Fonts](../../tablesubstitutionrule/)
+* ad alanı [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../../)
-
-

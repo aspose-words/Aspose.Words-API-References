@@ -1,7 +1,9 @@
 ---
-title: Enum MailMergeDataType
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Settings.MailMergeDataType Sıralama. Harici adresmektup birleştirme veri kaynağının türünü belirtir.
+title: MailMergeDataType Enum
+linktitle: MailMergeDataType
+articleTitle: MailMergeDataType
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Settings.MailMergeDataType Sıralama. Harici adresmektup birleştirme veri kaynağının türünü belirtir C#'da.
 type: docs
 weight: 5820
 url: /tr/net/aspose.words.settings/mailmergedatatype/
@@ -27,7 +29,7 @@ public enum MailMergeDataType
 | Native | `5` | Belirli bir belgenin, Office Veri Kaynağı Nesnesi (ODSO) arabirimi aracılığıyla harici bir veri kaynağına bağlandığını belirtir. |
 | Default | `-1` | Şuna eşittir:None . |
 
-### Örnekler
+## Örnekler
 
 Bir Office Veri Kaynağı Nesnesinden alınan verilerle adres-mektup birleştirmenin nasıl yürütüleceğini gösterir.
 
@@ -81,5 +83,3 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 * property [DataType](../mailmergesettings/datatype/)
 * ad alanı [Aspose.Words.Settings](../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../)
-
-

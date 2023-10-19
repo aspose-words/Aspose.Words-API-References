@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.StartBookmark
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentBuilder yöntem. Belgedeki geçerli konumu yer imi başlangıcı olarak işaretler.
+linktitle: StartBookmark
+articleTitle: StartBookmark
+second_title: Aspose.Words for .NET
+description: DocumentBuilder StartBookmark yöntem. Belgedeki geçerli konumu yer imi başlangıcı olarak işaretler C#'da.
 type: docs
-weight: 620
+weight: 610
 url: /tr/net/aspose.words/documentbuilder/startbookmark/
 ---
 ## DocumentBuilder.StartBookmark method
@@ -22,13 +24,13 @@ public BookmarkStart StartBookmark(string bookmarkName)
 
 Yeni oluşturulan yer imi başlangıç düğümü.
 
-### Notlar
+## Notlar
 
 Bir belgedeki yer imleri herhangi bir aralıkla örtüşebilir ve yayılabilir. Geçerli bir yer imi oluşturmak için her ikisini de aramanız gerekir`StartBookmark` Ve[`EndBookmark`](../endbookmark/) aynısıyla*bookmarkName* parametresi.
 
 Kötü biçimlendirilmiş yer imleri veya yinelenen adlara sahip yer imleri, belge kaydedildiğinde göz ardı edilecektir.
 
-### Örnekler
+## Örnekler
 
 Yer iminin nasıl oluşturulduğunu gösterir.
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlinkToLocalBookmark.docx");
 
 * class [BookmarkStart](../../bookmarkstart/)
 * class [DocumentBuilder](../)
-* ad alanı [Aspose.Words](../../documentbuilder/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: MailMergeRegionInfo.EndField
-second_title: Aspose.Words for .NET API Referansı
-description: MailMergeRegionInfo mülk. Bölge için bir bitiş alanı döndürür.
+linktitle: EndField
+articleTitle: EndField
+second_title: Aspose.Words for .NET
+description: MailMergeRegionInfo EndField mülk. Bölge için bir bitiş alanı döndürür C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.mailmerging/mailmergeregioninfo/endfield/
@@ -14,7 +16,7 @@ Bölge için bir bitiş alanı döndürür.
 public FieldMergeField EndField { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Adres-mektup birleştirme bölgelerinin nasıl doğrulanacağını gösterir.
 
@@ -60,7 +62,5 @@ Assert.AreEqual("TableEnd:NestedRegion1", endFieldMergeField.FieldName);
 
 * class [FieldMergeField](../../../aspose.words.fields/fieldmergefield/)
 * class [MailMergeRegionInfo](../)
-* ad alanı [Aspose.Words.MailMerging](../../mailmergeregioninfo/)
+* ad alanı [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * toplantı [Aspose.Words](../../../)
-
-

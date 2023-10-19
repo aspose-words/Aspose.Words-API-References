@@ -1,7 +1,9 @@
 ---
 title: FieldFileSize.IsInKilobytes
-second_title: Aspose.Words for .NET API Referansı
-description: FieldFileSize mülk. Dosya boyutunun kilobayt cinsinden görüntülenip görüntülenmeyeceğini alır veya ayarlar.
+linktitle: IsInKilobytes
+articleTitle: IsInKilobytes
+second_title: Aspose.Words for .NET
+description: FieldFileSize IsInKilobytes mülk. Dosya boyutunun kilobayt cinsinden görüntülenip görüntülenmeyeceğini alır veya ayarlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fieldfilesize/isinkilobytes/
@@ -14,7 +16,7 @@ Dosya boyutunun kilobayt cinsinden görüntülenip görüntülenmeyeceğini alı
 public bool IsInKilobytes { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 FILESIZE alanıyla bir belgenin dosya boyutunun nasıl görüntüleneceğini gösterir.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Field.FILESIZE.docx");
 ### Ayrıca bakınız
 
 * class [FieldFileSize](../)
-* ad alanı [Aspose.Words.Fields](../../fieldfilesize/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

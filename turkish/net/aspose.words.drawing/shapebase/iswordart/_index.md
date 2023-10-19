@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.IsWordArt
-second_title: Aspose.Words for .NET API Referansı
-description: ShapeBase mülk. İadelerdoğru bu şekil bir WordArt nesnesiyse.
+linktitle: IsWordArt
+articleTitle: IsWordArt
+second_title: Aspose.Words for .NET
+description: ShapeBase IsWordArt mülk. İadelerdoğru bu şekil bir WordArt nesnesiyse C#'da.
 type: docs
 weight: 360
 url: /tr/net/aspose.words.drawing/shapebase/iswordart/
@@ -14,11 +16,11 @@ url: /tr/net/aspose.words.drawing/shapebase/iswordart/
 public bool IsWordArt { get; }
 ```
 
-### Notlar
+## Notlar
 
 2007 uyumluluk moduna kadar çalışır. 2010 ve üzeri uyumluluk modunda, WordArt yalnızca süslü yazı tiplerine sahip bir TextBox'tur.
 
-### Örnekler
+## Örnekler
 
 WordArt'la nasıl çalışılacağını gösterir.
 
@@ -121,7 +123,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### Ayrıca bakınız
 
 * class [ShapeBase](../)
-* ad alanı [Aspose.Words.Drawing](../../shapebase/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

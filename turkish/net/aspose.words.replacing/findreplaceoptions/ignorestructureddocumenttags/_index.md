@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.IgnoreStructuredDocumentTags
-second_title: Aspose.Words for .NET API Referansı
-description: FindReplaceOptions mülk. İçeriğin yoksayılacağını belirten bir boole değeri alır veya ayarlar.StructuredDocumentTag . Varsayılan değerYANLIŞ .
+linktitle: IgnoreStructuredDocumentTags
+articleTitle: IgnoreStructuredDocumentTags
+second_title: Aspose.Words for .NET
+description: FindReplaceOptions IgnoreStructuredDocumentTags mülk. İçeriğin yoksayılacağını belirten bir boole değeri alır veya ayarlar.StructuredDocumentTag . Varsayılan değerYANLIŞ  C#'da.
 type: docs
 weight: 120
 url: /tr/net/aspose.words.replacing/findreplaceoptions/ignorestructureddocumenttags/
@@ -14,13 +16,13 @@ url: /tr/net/aspose.words.replacing/findreplaceoptions/ignorestructureddocumentt
 public bool IgnoreStructuredDocumentTags { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu seçenek olarak ayarlandığında`doğru` , içeriği[`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) basit bir metin olarak değerlendirilecektir.
 
 Aksi takdirde,[`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) bağımsız Story olarak işlenecek ve değiştirilen desen her biri için ayrı ayrı aranacak[`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/), böylece desen bir noktayı geçerse[`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) , bu durumda böyle bir model için değiştirme gerçekleştirilmeyecektir.
 
-### Örnekler
+## Örnekler
 
 Etiketlerin içeriğinin değiştirilmeden nasıl yok sayılacağını gösterir.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.IgnoreStructuredDocumentTags.docx
 ### Ayrıca bakınız
 
 * class [FindReplaceOptions](../)
-* ad alanı [Aspose.Words.Replacing](../../findreplaceoptions/)
+* ad alanı [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * toplantı [Aspose.Words](../../../)
-
-

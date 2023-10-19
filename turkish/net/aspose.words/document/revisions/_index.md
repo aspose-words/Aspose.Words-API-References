@@ -1,7 +1,9 @@
 ---
 title: Document.Revisions
-second_title: Aspose.Words for .NET API Referansı
-description: Document mülk. Bu belgede mevcut olan revizyonların izlenen değişiklikler bir koleksiyonunu alır.
+linktitle: Revisions
+articleTitle: Revisions
+second_title: Aspose.Words for .NET
+description: Document Revisions mülk. Bu belgede mevcut olan revizyonların izlenen değişiklikler bir koleksiyonunu alır C#'da.
 type: docs
 weight: 350
 url: /tr/net/aspose.words/document/revisions/
@@ -14,11 +16,11 @@ Bu belgede mevcut olan revizyonların (izlenen değişiklikler) bir koleksiyonun
 public RevisionCollection Revisions { get; }
 ```
 
-### Notlar
+## Notlar
 
 Döndürülen koleksiyon "canlı" bir koleksiyondur; yani bir belgenin düzeltmelerini içeren bölümlerini kaldırırsanız, silinen düzeltmeler bu koleksiyondan otomatik olarak kaybolacaktır.
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki düzeltmelerle nasıl çalışılacağını gösterir.
 
@@ -102,7 +104,5 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 
 * class [RevisionCollection](../../revisioncollection/)
 * class [Document](../)
-* ad alanı [Aspose.Words](../../document/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

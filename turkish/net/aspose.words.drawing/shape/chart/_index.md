@@ -1,7 +1,9 @@
 ---
 title: Shape.Chart
-second_title: Aspose.Words for .NET API Referansı
-description: Shape mülk. Bu şeklin bir özelliği varsa grafik özelliklerine erişim sağlarChart .
+linktitle: Chart
+articleTitle: Chart
+second_title: Aspose.Words for .NET
+description: Shape Chart mülk. Bu şeklin bir özelliği varsa grafik özelliklerine erişim sağlarChart  C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.drawing/shape/chart/
@@ -14,11 +16,11 @@ Bu şeklin bir özelliği varsa grafik özelliklerine erişim sağlar[`Chart`](.
 public Chart Chart { get; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özellik şunu döndürecektir:[`Chart`](../../../aspose.words.drawing.charts/chart/) yalnızca şu durumda itiraz edin[`HasChart`](../haschart/) özelliği:`doğru` bunun için[`Shape`](../)ve aksi takdirde bir istisna atacaktır.
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki tüm şekillerin nasıl yineleneceğini gösterir.
 
@@ -142,7 +144,5 @@ private class ShapeAppearancePrinter : DocumentVisitor
 
 * class [Chart](../../../aspose.words.drawing.charts/chart/)
 * class [Shape](../)
-* ad alanı [Aspose.Words.Drawing](../../shape/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

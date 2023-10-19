@@ -1,7 +1,9 @@
 ---
 title: TextBox.IsValidLinkTarget
-second_title: Aspose.Words for .NET API Referansı
-description: TextBox yöntem. Bunun olup olmadığını belirlerTextBox hedefe bağlanabilirTextBox .
+linktitle: IsValidLinkTarget
+articleTitle: IsValidLinkTarget
+second_title: Aspose.Words for .NET
+description: TextBox IsValidLinkTarget yöntem. Bunun olup olmadığını belirlerTextBox hedefe bağlanabilirTextBox  C#'da.
 type: docs
 weight: 140
 url: /tr/net/aspose.words.drawing/textbox/isvalidlinktarget/
@@ -14,7 +16,7 @@ Bunun olup olmadığını belirler[`TextBox`](../) hedefe bağlanabilir[`TextBox
 public bool IsValidLinkTarget(TextBox target)
 ```
 
-### Örnekler
+## Örnekler
 
 Metin kutularının nasıl bağlanacağını gösterir.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "Shape.CreateLinkBetweenTextBoxes.docx");
 ### Ayrıca bakınız
 
 * class [TextBox](../)
-* ad alanı [Aspose.Words.Drawing](../../textbox/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

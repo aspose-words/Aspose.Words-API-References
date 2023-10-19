@@ -1,7 +1,9 @@
 ---
 title: BookmarksOutlineLevelCollection.Contains
-second_title: Aspose.Words for .NET API Referansı
-description: BookmarksOutlineLevelCollection yöntem. Koleksiyonun belirtilen adda bir yer işareti içerip içermediğini belirler.
+linktitle: Contains
+articleTitle: Contains
+second_title: Aspose.Words for .NET
+description: BookmarksOutlineLevelCollection Contains yöntem. Koleksiyonun belirtilen adda bir yer işareti içerip içermediğini belirler C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.saving/bookmarksoutlinelevelcollection/contains/
@@ -22,7 +24,7 @@ public bool Contains(string name)
 
 `doğru` koleksiyonda öğe bulunursa; aksi takdirde,`YANLIŞ`.
 
-### Örnekler
+## Örnekler
 
 Yer imleri için anahat düzeylerinin nasıl ayarlanacağını gösterir.
 
@@ -80,7 +82,5 @@ outlineLevels.Clear();
 ### Ayrıca bakınız
 
 * class [BookmarksOutlineLevelCollection](../)
-* ad alanı [Aspose.Words.Saving](../../bookmarksoutlinelevelcollection/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

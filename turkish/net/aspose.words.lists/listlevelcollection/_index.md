@@ -1,7 +1,9 @@
 ---
-title: Class ListLevelCollection
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Lists.ListLevelCollection sınıf. Bir listedeki her düzey için liste biçimlendirme koleksiyonu.
+title: ListLevelCollection Class
+linktitle: ListLevelCollection
+articleTitle: ListLevelCollection
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Lists.ListLevelCollection sınıf. Bir listedeki her düzey için liste biçimlendirme koleksiyonu C#'da.
 type: docs
 weight: 3520
 url: /tr/net/aspose.words.lists/listlevelcollection/
@@ -29,7 +31,7 @@ public class ListLevelCollection : IEnumerable<ListLevel>
 | --- | --- |
 | [GetEnumerator](../../aspose.words.lists/listlevelcollection/getenumerator/)() | Bu listedeki düzeyleri numaralandıracak numaralandırıcı nesnesini alır. |
 
-### Örnekler
+## Örnekler
 
 Liste stilinin nasıl oluşturulacağını ve belgede nasıl kullanılacağını gösterir.
 
@@ -146,5 +148,3 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 * class [ListLevel](../listlevel/)
 * ad alanı [Aspose.Words.Lists](../../aspose.words.lists/)
 * toplantı [Aspose.Words](../../)
-
-

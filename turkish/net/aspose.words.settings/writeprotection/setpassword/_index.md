@@ -1,7 +1,9 @@
 ---
 title: WriteProtection.SetPassword
-second_title: Aspose.Words for .NET API Referansı
-description: WriteProtection yöntem. Belgenin yazma koruması parolasını ayarlar.
+linktitle: SetPassword
+articleTitle: SetPassword
+second_title: Aspose.Words for .NET
+description: WriteProtection SetPassword yöntem. Belgenin yazma koruması parolasını ayarlar C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.settings/writeprotection/setpassword/
@@ -18,11 +20,11 @@ public void SetPassword(string password)
 | --- | --- | --- |
 | password | String | Ayarlanacak şifre. Olamaz`hükümsüz`, ancak boş bir dize olabilir. |
 
-### Notlar
+## Notlar
 
 Bir parola ayarlanmışsa, Microsoft Word kullanıcının parolayı girmesini veya belgeyi salt okunur olarak açmasını gerektirir.
 
-### Örnekler
+## Örnekler
 
 Bir belgenin parolayla nasıl korunacağını gösterir.
 
@@ -54,7 +56,5 @@ Assert.AreEqual("Hello world! This document is protected." +
 ### Ayrıca bakınız
 
 * class [WriteProtection](../)
-* ad alanı [Aspose.Words.Settings](../../writeprotection/)
+* ad alanı [Aspose.Words.Settings](../../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../../)
-
-

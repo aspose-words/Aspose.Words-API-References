@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.AspectRatioLocked
-second_title: Aspose.Words for .NET API Referansı
-description: ShapeBase mülk. Şeklin en boy oranının kilitli olup olmadığını belirtir.
+linktitle: AspectRatioLocked
+articleTitle: AspectRatioLocked
+second_title: Aspose.Words for .NET
+description: ShapeBase AspectRatioLocked mülk. Şeklin en boy oranının kilitli olup olmadığını belirtir C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.drawing/shapebase/aspectratiolocked/
@@ -14,13 +16,13 @@ url: /tr/net/aspose.words.drawing/shapebase/aspectratiolocked/
 public bool AspectRatioLocked { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer şunlara bağlıdır:[`ShapeType`](../../shapetype/) , içinImage bu`doğru` ancak diğer şekil türleri için öyle`YANLIŞ`.
 
 Yalnızca üst düzey şekiller için etkilidir.
 
-### Örnekler
+## Örnekler
 
 Bir şeklin en boy oranının nasıl kilitleneceğini/kilidinin açılacağını gösterir.
 
@@ -45,7 +47,5 @@ doc.Save(ArtifactsDir + "Shape.AspectRatio.docx");
 ### Ayrıca bakınız
 
 * class [ShapeBase](../)
-* ad alanı [Aspose.Words.Drawing](../../shapebase/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

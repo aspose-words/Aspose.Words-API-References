@@ -1,7 +1,9 @@
 ---
 title: Document.RemovePersonalInformation
-second_title: Aspose.Words for .NET API Referansı
-description: Document mülk. Belgeyi kaydettikten sonra Microsoft Wordün yorumlardan düzeltmelerden ve belge özelliklerinden tüm kullanıcı bilgilerini kaldıracağını belirten bir işaret alır veya ayarlar.
+linktitle: RemovePersonalInformation
+articleTitle: RemovePersonalInformation
+second_title: Aspose.Words for .NET
+description: Document RemovePersonalInformation mülk. Belgeyi kaydettikten sonra Microsoft Wordün yorumlardan düzeltmelerden ve belge özelliklerinden tüm kullanıcı bilgilerini kaldıracağını belirten bir işaret alır veya ayarlar C#'da.
 type: docs
 weight: 340
 url: /tr/net/aspose.words/document/removepersonalinformation/
@@ -14,7 +16,7 @@ Belgeyi kaydettikten sonra Microsoft Word'ün yorumlardan, düzeltmelerden ve be
 public bool RemovePersonalInformation { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Manuel kaydetme sırasında kişisel bilgilerin kaldırılmasının nasıl etkinleştirileceğini gösterir.
 
@@ -48,7 +50,5 @@ Assert.AreEqual("John Doe", doc.Revisions[0].Author);
 ### Ayrıca bakınız
 
 * class [Document](../)
-* ad alanı [Aspose.Words](../../document/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

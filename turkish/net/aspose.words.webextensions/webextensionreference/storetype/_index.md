@@ -1,7 +1,9 @@
 ---
 title: WebExtensionReference.StoreType
-second_title: Aspose.Words for .NET API Referansı
-description: WebExtensionReference mülk. Pazar yerinin türünü belirtir.
+linktitle: StoreType
+articleTitle: StoreType
+second_title: Aspose.Words for .NET
+description: WebExtensionReference StoreType mülk. Pazar yerinin türünü belirtir C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.webextensions/webextensionreference/storetype/
@@ -14,7 +16,7 @@ Pazar yerinin türünü belirtir.
 public WebExtensionStoreType StoreType { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgeye nasıl web uzantısı ekleneceğini gösterir.
 
@@ -60,7 +62,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * enum [WebExtensionStoreType](../../webextensionstoretype/)
 * class [WebExtensionReference](../)
-* ad alanı [Aspose.Words.WebExtensions](../../webextensionreference/)
+* ad alanı [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * toplantı [Aspose.Words](../../../)
-
-

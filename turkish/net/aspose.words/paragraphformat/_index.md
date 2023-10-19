@@ -1,7 +1,9 @@
 ---
-title: Class ParagraphFormat
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.ParagraphFormat sınıf. Bir paragrafın tüm biçimlendirmesini temsil eder.
+title: ParagraphFormat Class
+linktitle: ParagraphFormat
+articleTitle: ParagraphFormat
+second_title: Aspose.Words for .NET
+description: Aspose.Words.ParagraphFormat sınıf. Bir paragrafın tüm biçimlendirmesini temsil eder C#'da.
 type: docs
 weight: 4420
 url: /tr/net/aspose.words/paragraphformat/
@@ -68,7 +70,7 @@ public class ParagraphFormat
 | --- | --- |
 | [ClearFormatting](../../aspose.words/paragraphformat/clearformatting/)() | Varsayılan paragraf formatına sıfırlar. |
 
-### Örnekler
+## Örnekler
 
 Aspose.Words belgesinin elle nasıl oluşturulacağını gösterir.
 
@@ -119,5 +121,3 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldRef.IncludeNoteOrComment
-second_title: Aspose.Words for .NET API Referansı
-description: FieldRef mülk. Yer işaretiyle işaretlenen dipnot sonnot ve ek açıklama numaralarının artırılıp artırılmayacağını ve karşılık gelen dipnot sonnot ve yorum metninin eklenip eklenmeyeceğini alır veya ayarlar.
+linktitle: IncludeNoteOrComment
+articleTitle: IncludeNoteOrComment
+second_title: Aspose.Words for .NET
+description: FieldRef IncludeNoteOrComment mülk. Yer işaretiyle işaretlenen dipnot sonnot ve ek açıklama numaralarının artırılıp artırılmayacağını ve karşılık gelen dipnot sonnot ve yorum metninin eklenip eklenmeyeceğini alır veya ayarlar C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fields/fieldref/includenoteorcomment/
@@ -14,7 +16,7 @@ Yer işaretiyle işaretlenen dipnot, sonnot ve ek açıklama numaralarının art
 public bool IncludeNoteOrComment { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Referans yer imlerine REF alanlarının nasıl ekleneceğini gösterir.
 
@@ -104,7 +106,5 @@ private static FieldRef InsertFieldRef(DocumentBuilder builder, string bookmarkN
 ### Ayrıca bakınız
 
 * class [FieldRef](../)
-* ad alanı [Aspose.Words.Fields](../../fieldref/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

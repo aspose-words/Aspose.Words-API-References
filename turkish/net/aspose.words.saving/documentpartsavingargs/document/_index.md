@@ -1,7 +1,9 @@
 ---
 title: DocumentPartSavingArgs.Document
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentPartSavingArgs mülk. Kaydedilen belge nesnesini alır.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words for .NET
+description: DocumentPartSavingArgs Document mülk. Kaydedilen belge nesnesini alır C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.saving/documentpartsavingargs/document/
@@ -14,7 +16,7 @@ Kaydedilen belge nesnesini alır.
 public Document Document { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgenin nasıl parçalara ayrılacağını ve kaydedileceğini gösterir.
 
@@ -132,7 +134,5 @@ public class SavedImageRename : IImageSavingCallback
 
 * class [Document](../../../aspose.words/document/)
 * class [DocumentPartSavingArgs](../)
-* ad alanı [Aspose.Words.Saving](../../documentpartsavingargs/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

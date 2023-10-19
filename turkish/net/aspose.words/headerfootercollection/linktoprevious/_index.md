@@ -1,12 +1,14 @@
 ---
 title: HeaderFooterCollection.LinkToPrevious
-second_title: Aspose.Words for .NET API Referansı
-description: HeaderFooterCollection yöntem. Tüm üstbilgileri ve altbilgileri önceki bölümdeki karşılık gelen üstbilgilerine ve altbilgilerine bağlar veya bağlantısını kaldırır.
+linktitle: LinkToPrevious
+articleTitle: LinkToPrevious
+second_title: Aspose.Words for .NET
+description: HeaderFooterCollection LinkToPrevious yöntem. Tüm üstbilgileri ve altbilgileri önceki bölümdeki karşılık gelen üstbilgilerine ve altbilgilerine bağlar veya bağlantısını kaldırır C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/headerfootercollection/linktoprevious/
 ---
-## LinkToPrevious(bool) {#linktoprevious_1}
+## LinkToPrevious(*bool*) {#linktoprevious_1}
 
 Tüm üstbilgileri ve altbilgileri önceki bölümdeki karşılık gelen üstbilgilerine ve altbilgilerine bağlar veya bağlantısını kaldırır.
 
@@ -18,11 +20,11 @@ public void LinkToPrevious(bool isLinkToPrevious)
 | --- | --- | --- |
 | isLinkToPrevious | Boolean | `doğru` üstbilgileri ve altbilgileri önceki bölüme bağlamak için; `YANLIŞ` bunların bağlantısını kaldırmak için. |
 
-### Notlar
+## Notlar
 
 Üstbilgi veya altbilgilerden herhangi biri mevcut değilse bunları otomatik olarak oluşturur.
 
-### Örnekler
+## Örnekler
 
 Bölümler arasında üstbilgilerin ve altbilgilerin nasıl bağlanacağını gösterir.
 
@@ -87,12 +89,12 @@ doc.Save(ArtifactsDir + "HeaderFooter.Link.docx");
 ### Ayrıca bakınız
 
 * class [HeaderFooterCollection](../)
-* ad alanı [Aspose.Words](../../headerfootercollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## LinkToPrevious(HeaderFooterType, bool) {#linktoprevious}
+## LinkToPrevious(*[HeaderFooterType](../../headerfootertype/), bool*) {#linktoprevious}
 
 Belirtilen üstbilgiyi veya altbilgiyi önceki bölümdeki ilgili üstbilgiye veya altbilgiye bağlar veya bağlantısını kaldırır.
 
@@ -105,11 +107,11 @@ public void LinkToPrevious(HeaderFooterType headerFooterType, bool isLinkToPrevi
 | headerFooterType | HeaderFooterType | A[`HeaderFooterType`](../../headerfootertype/) Bağlanacak/bağlantıyı kaldıracak üstbilgiyi veya altbilgiyi belirten value . |
 | isLinkToPrevious | Boolean | `doğru`üstbilgiyi veya altbilgiyi önceki bölüme bağlamak için; `YANLIŞ` bağlantıyı kaldırmak için. |
 
-### Notlar
+## Notlar
 
 Belirtilen türde üstbilgi veya altbilgi yoksa otomatik olarak oluşturur.
 
-### Örnekler
+## Örnekler
 
 Bölümler arasında üstbilgilerin ve altbilgilerin nasıl bağlanacağını gösterir.
 
@@ -175,7 +177,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Link.docx");
 
 * enum [HeaderFooterType](../../headerfootertype/)
 * class [HeaderFooterCollection](../)
-* ad alanı [Aspose.Words](../../headerfootercollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

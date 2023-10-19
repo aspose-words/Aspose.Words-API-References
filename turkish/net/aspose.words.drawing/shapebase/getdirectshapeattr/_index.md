@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.GetDirectShapeAttr
-second_title: Aspose.Words for .NET API Referansı
-description: ShapeBase yöntem. Sistem kullanımı için ayrılmıştır. IShapeAttrSource.
+linktitle: GetDirectShapeAttr
+articleTitle: GetDirectShapeAttr
+second_title: Aspose.Words for .NET
+description: ShapeBase GetDirectShapeAttr yöntem. Sistem kullanımı için ayrılmıştır. IShapeAttrSource C#'da.
 type: docs
 weight: 650
 url: /tr/net/aspose.words.drawing/shapebase/getdirectshapeattr/
@@ -18,7 +20,5 @@ public object GetDirectShapeAttr(int key)
 ### Ayrıca bakınız
 
 * class [ShapeBase](../)
-* ad alanı [Aspose.Words.Drawing](../../shapebase/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: TextPath.Underline
-second_title: Aspose.Words for .NET API Referansı
-description: TextPath mülk. Yazı tipinin altı çiziliyse doğrudur.
+linktitle: Underline
+articleTitle: Underline
+second_title: Aspose.Words for .NET
+description: TextPath Underline mülk. Yazı tipinin altı çiziliyse doğrudur C#'da.
 type: docs
 weight: 190
 url: /tr/net/aspose.words.drawing/textpath/underline/
@@ -14,11 +16,11 @@ Yazı tipinin altı çiziliyse doğrudur.
 public bool Underline { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:`YANLIŞ`.
 
-### Örnekler
+## Örnekler
 
 WordArt'la nasıl çalışılacağını gösterir.
 
@@ -121,7 +123,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### Ayrıca bakınız
 
 * class [TextPath](../)
-* ad alanı [Aspose.Words.Drawing](../../textpath/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

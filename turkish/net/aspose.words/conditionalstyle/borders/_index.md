@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyle.Borders
-second_title: Aspose.Words for .NET API Referansı
-description: ConditionalStyle mülk. Koşullu stil için varsayılan hücre kenarlıklarının koleksiyonunu alır.
+linktitle: Borders
+articleTitle: Borders
+second_title: Aspose.Words for .NET
+description: ConditionalStyle Borders mülk. Koşullu stil için varsayılan hücre kenarlıklarının koleksiyonunu alır C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/conditionalstyle/borders/
@@ -14,7 +16,7 @@ Koşullu stil için varsayılan hücre kenarlıklarının koleksiyonunu alır.
 public BorderCollection Borders { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir tablonun belirli alan stilleriyle nasıl çalışılacağını gösterir.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [BorderCollection](../../bordercollection/)
 * class [ConditionalStyle](../)
-* ad alanı [Aspose.Words](../../conditionalstyle/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Manager
-second_title: Aspose.Words for .NET API Referansı
-description: BuiltInDocumentProperties mülk. Yönetici özelliğini alır veya ayarlar.
+linktitle: Manager
+articleTitle: Manager
+second_title: Aspose.Words for .NET
+description: BuiltInDocumentProperties Manager mülk. Yönetici özelliğini alır veya ayarlar C#'da.
 type: docs
 weight: 200
 url: /tr/net/aspose.words.properties/builtindocumentproperties/manager/
@@ -14,7 +16,7 @@ Yönetici özelliğini alır veya ayarlar.
 public string Manager { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 "Orijin" kategorisindeki belge özellikleriyle nasıl çalışılacağını gösterir.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.Origin.docx");
 ### Ayrıca bakınız
 
 * class [BuiltInDocumentProperties](../)
-* ad alanı [Aspose.Words.Properties](../../builtindocumentproperties/)
+* ad alanı [Aspose.Words.Properties](../../../aspose.words.properties/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PageLayoutCallbackArgs.Document
-second_title: Aspose.Words for .NET API Referansı
-description: PageLayoutCallbackArgs mülk. Belgeyi alır.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words for .NET
+description: PageLayoutCallbackArgs Document mülk. Belgeyi alır C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.layout/pagelayoutcallbackargs/document/
@@ -14,7 +16,7 @@ Belgeyi alır.
 public Document Document { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Düzen geri çağrısıyla düzen değişikliklerinin nasıl izleneceğini gösterir.
 
@@ -81,7 +83,5 @@ private class RenderPageLayoutCallback : IPageLayoutCallback
 
 * class [Document](../../../aspose.words/document/)
 * class [PageLayoutCallbackArgs](../)
-* ad alanı [Aspose.Words.Layout](../../pagelayoutcallbackargs/)
+* ad alanı [Aspose.Words.Layout](../../../aspose.words.layout/)
 * toplantı [Aspose.Words](../../../)
-
-

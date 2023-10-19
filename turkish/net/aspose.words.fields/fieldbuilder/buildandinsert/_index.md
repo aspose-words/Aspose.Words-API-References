@@ -1,12 +1,14 @@
 ---
 title: FieldBuilder.BuildAndInsert
-second_title: Aspose.Words for .NET API Referansı
-description: FieldBuilder yöntem. Belirtilen satır içi düğümden önce bir alan oluşturur ve belgeye ekler.
+linktitle: BuildAndInsert
+articleTitle: BuildAndInsert
+second_title: Aspose.Words for .NET
+description: FieldBuilder BuildAndInsert yöntem. Belirtilen satır içi düğümden önce bir alan oluşturur ve belgeye ekler C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.fields/fieldbuilder/buildandinsert/
 ---
-## BuildAndInsert(Inline) {#buildandinsert}
+## BuildAndInsert(*[Inline](../../../aspose.words/inline/)*) {#buildandinsert}
 
 Belirtilen satır içi düğümden önce bir alan oluşturur ve belgeye ekler.
 
@@ -18,7 +20,7 @@ public Field BuildAndInsert(Inline refNode)
 
 A[`Field`](../../field/) eklenen alanı temsil eden nesne.
 
-### Örnekler
+## Örnekler
 
 Alan oluşturucuyu kullanarak alanın nasıl oluşturulacağını ve ekleneceğini gösterir.
 
@@ -48,12 +50,12 @@ doc.Save(ArtifactsDir + "Field.CreateWithFieldBuilder.docx");
 * class [Field](../../field/)
 * class [Inline](../../../aspose.words/inline/)
 * class [FieldBuilder](../)
-* ad alanı [Aspose.Words.Fields](../../fieldbuilder/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## BuildAndInsert(Paragraph) {#buildandinsert_1}
+## BuildAndInsert(*[Paragraph](../../../aspose.words/paragraph/)*) {#buildandinsert_1}
 
 Belgeye belirtilen paragrafın sonuna kadar bir alan oluşturur ve ekler.
 
@@ -65,7 +67,7 @@ public Field BuildAndInsert(Paragraph refNode)
 
 A[`Field`](../../field/) eklenen alanı temsil eden nesne.
 
-### Örnekler
+## Örnekler
 
 Alan oluşturucu kullanarak alanların nasıl oluşturulacağını ve ardından bunların belgeye nasıl ekleneceğini gösterir.
 
@@ -150,7 +152,5 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 * class [Field](../../field/)
 * class [Paragraph](../../../aspose.words/paragraph/)
 * class [FieldBuilder](../)
-* ad alanı [Aspose.Words.Fields](../../fieldbuilder/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

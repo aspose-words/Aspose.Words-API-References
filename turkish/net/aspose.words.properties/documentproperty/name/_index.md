@@ -1,7 +1,9 @@
 ---
 title: DocumentProperty.Name
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentProperty mülk. Özelliğin adını döndürür.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words for .NET
+description: DocumentProperty Name mülk. Özelliğin adını döndürür C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.properties/documentproperty/name/
@@ -14,11 +16,11 @@ url: /tr/net/aspose.words.properties/documentproperty/name/
 public string Name { get; }
 ```
 
-### Notlar
+## Notlar
 
 Olamaz`hükümsüz` ve boş bir dize olamaz.
 
-### Örnekler
+## Örnekler
 
 Yerleşik belge özellikleriyle nasıl çalışılacağını gösterir.
 
@@ -52,7 +54,5 @@ foreach (DocumentProperty docProperty in doc.BuiltInDocumentProperties)
 ### Ayrıca bakınız
 
 * class [DocumentProperty](../)
-* ad alanı [Aspose.Words.Properties](../../documentproperty/)
+* ad alanı [Aspose.Words.Properties](../../../aspose.words.properties/)
 * toplantı [Aspose.Words](../../../)
-
-

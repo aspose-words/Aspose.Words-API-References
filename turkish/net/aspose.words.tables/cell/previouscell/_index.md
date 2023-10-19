@@ -1,7 +1,9 @@
 ---
 title: Cell.PreviousCell
-second_title: Aspose.Words for .NET API Referansı
-description: Cell mülk. Öncekini alırCell düğüm.
+linktitle: PreviousCell
+articleTitle: PreviousCell
+second_title: Aspose.Words for .NET
+description: Cell PreviousCell mülk. Öncekini alırCell düğüm C#'da.
 type: docs
 weight: 110
 url: /tr/net/aspose.words.tables/cell/previouscell/
@@ -14,11 +16,11 @@ url: /tr/net/aspose.words.tables/cell/previouscell/
 public Cell PreviousCell { get; }
 ```
 
-### Notlar
+## Notlar
 
 Bu yöntem, bir hücrenin hücrelerine yazarak erişmeniz gerektiğinde kullanılabilir.[`Row`](../../row/) . Eğer a [`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) düğüm bir hücre yerine bir satırda bulunursa, içinde yer alan bir hücreyi elde etmek için otomatik olarak geçilir.
 
-### Örnekler
+## Örnekler
 
 Tüm tablo hücrelerinin nasıl numaralandırılacağını gösterir.
 
@@ -39,7 +41,5 @@ for (Row row = table.FirstRow; row != null; row = row.NextRow)
 ### Ayrıca bakınız
 
 * class [Cell](../)
-* ad alanı [Aspose.Words.Tables](../../cell/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

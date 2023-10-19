@@ -1,7 +1,9 @@
 ---
 title: WarningInfoCollection.Count
-second_title: Aspose.Words for .NET API Referansı
-description: WarningInfoCollection mülk. Koleksiyonda yer alan öğelerin sayısını alır.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words for .NET
+description: WarningInfoCollection Count mülk. Koleksiyonda yer alan öğelerin sayısını alır C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/warninginfocollection/count/
@@ -17,7 +19,5 @@ public int Count { get; }
 ### Ayrıca bakınız
 
 * class [WarningInfoCollection](../)
-* ad alanı [Aspose.Words](../../warninginfocollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

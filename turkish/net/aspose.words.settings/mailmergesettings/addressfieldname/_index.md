@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.AddressFieldName
-second_title: Aspose.Words for .NET API Referansı
-description: MailMergeSettings mülk. Veri kaynağı içindeki eposta adreslerini içeren sütunu belirtir. Varsayılan değer boş bir dizedir.
+linktitle: AddressFieldName
+articleTitle: AddressFieldName
+second_title: Aspose.Words for .NET
+description: MailMergeSettings AddressFieldName mülk. Veri kaynağı içindeki eposta adreslerini içeren sütunu belirtir. Varsayılan değer boş bir dizedir C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.settings/mailmergesettings/addressfieldname/
@@ -14,7 +16,7 @@ Veri kaynağı içindeki e-posta adreslerini içeren sütunu belirtir. Varsayıl
 public string AddressFieldName { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Dış veri kaynağına bağlanırken adres-mektup birleştirmenin nasıl yürütüleceğini gösterir.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");
 ### Ayrıca bakınız
 
 * class [MailMergeSettings](../)
-* ad alanı [Aspose.Words.Settings](../../mailmergesettings/)
+* ad alanı [Aspose.Words.Settings](../../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../../)
-
-

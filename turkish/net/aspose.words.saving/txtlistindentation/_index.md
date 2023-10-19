@@ -1,7 +1,9 @@
 ---
-title: Class TxtListIndentation
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Saving.TxtListIndentation sınıf. Belge dışa aktarılırken liste düzeylerinin nasıl girintileneceğini belirtirText format.
+title: TxtListIndentation Class
+linktitle: TxtListIndentation
+articleTitle: TxtListIndentation
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Saving.TxtListIndentation sınıf. Belge dışa aktarılırken liste düzeylerinin nasıl girintileneceğini belirtirText format C#'da.
 type: docs
 weight: 5650
 url: /tr/net/aspose.words.saving/txtlistindentation/
@@ -29,7 +31,7 @@ public class TxtListIndentation
 | [Character](../../aspose.words.saving/txtlistindentation/character/) { get; set; } | Liste düzeylerini girintilemek için hangi karakterin kullanılacağını alır veya ayarlar. Varsayılan değer '\0'dır, yani girinti yoktur. |
 | [Count](../../aspose.words.saving/txtlistindentation/count/) { get; set; } | Kaç tane olduğunu alır veya ayarlar[`Character`](./character/) bir liste düzeyi başına girinti olarak kullanılacak. Varsayılan değer 0'dır; bu, girinti olmadığı anlamına gelir. |
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi düz metne kaydederken liste girintisinin nasıl yapılandırılacağını gösterir.
 
@@ -70,5 +72,3 @@ Assert.AreEqual("1. Item 1\r\n" +
 
 * ad alanı [Aspose.Words.Saving](../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: VbaModule.Name
-second_title: Aspose.Words for .NET API Referansı
-description: VbaModule mülk. VBA proje modülü adını alır veya ayarlar.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words for .NET
+description: VbaModule Name mülk. VBA proje modülü adını alır veya ayarlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.vba/vbamodule/name/
@@ -14,7 +16,7 @@ VBA proje modülü adını alır veya ayarlar.
 public string Name { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Makroları kullanarak bir VBA projesinin nasıl oluşturulacağını gösterir.
 
@@ -67,7 +69,5 @@ vbaModules.Remove(vbaModules[2]);
 ### Ayrıca bakınız
 
 * class [VbaModule](../)
-* ad alanı [Aspose.Words.Vba](../../vbamodule/)
+* ad alanı [Aspose.Words.Vba](../../../aspose.words.vba/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldListNum.ListName
-second_title: Aspose.Words for .NET API Referansı
-description: FieldListNum mülk. Numaralandırma için kullanılan soyut numaralandırma tanımının adını alır veya ayarlar.
+linktitle: ListName
+articleTitle: ListName
+second_title: Aspose.Words for .NET
+description: FieldListNum ListName mülk. Numaralandırma için kullanılan soyut numaralandırma tanımının adını alır veya ayarlar C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.fields/fieldlistnum/listname/
@@ -14,7 +16,7 @@ Numaralandırma için kullanılan soyut numaralandırma tanımının adını al�
 public string ListName { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 LISTNUM alanlarıyla paragrafların nasıl numaralandırılacağını gösterir.
 
@@ -84,7 +86,5 @@ doc.Save(ArtifactsDir + "Field.LISTNUM.docx");
 ### Ayrıca bakınız
 
 * class [FieldListNum](../)
-* ad alanı [Aspose.Words.Fields](../../fieldlistnum/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

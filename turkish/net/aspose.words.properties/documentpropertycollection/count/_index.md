@@ -1,7 +1,9 @@
 ---
 title: DocumentPropertyCollection.Count
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentPropertyCollection mülk. Koleksiyondaki öğelerin sayısını alır.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words for .NET
+description: DocumentPropertyCollection Count mülk. Koleksiyondaki öğelerin sayısını alır C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.properties/documentpropertycollection/count/
@@ -14,7 +16,7 @@ Koleksiyondaki öğelerin sayısını alır.
 public int Count { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Özel belge özellikleriyle nasıl çalışılacağını gösterir.
 
@@ -39,7 +41,5 @@ foreach (var customDocumentProperty in doc.CustomDocumentProperties)
 ### Ayrıca bakınız
 
 * class [DocumentPropertyCollection](../)
-* ad alanı [Aspose.Words.Properties](../../documentpropertycollection/)
+* ad alanı [Aspose.Words.Properties](../../../aspose.words.properties/)
 * toplantı [Aspose.Words](../../../)
-
-

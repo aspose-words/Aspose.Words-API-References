@@ -1,7 +1,9 @@
 ---
 title: Document.MailMerge
-second_title: Aspose.Words for .NET API Referansı
-description: Document mülk. Bir değeri döndürürMailMerge belgenin adresmektup birleştirme işlevini temsil eden nesne.
+linktitle: MailMerge
+articleTitle: MailMerge
+second_title: Aspose.Words for .NET
+description: Document MailMerge mülk. Bir değeri döndürürMailMerge belgenin adresmektup birleştirme işlevini temsil eden nesne C#'da.
 type: docs
 weight: 260
 url: /tr/net/aspose.words/document/mailmerge/
@@ -14,7 +16,7 @@ Bir değeri döndürür[`MailMerge`](../../../aspose.words.mailmerging/mailmerge
 public MailMerge MailMerge { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 DataTable'daki verilerle adres-mektup birleştirmenin nasıl yürütüleceğini gösterir.
 
@@ -63,7 +65,5 @@ private static Document CreateSourceDocExecuteDataTable()
 
 * class [MailMerge](../../../aspose.words.mailmerging/mailmerge/)
 * class [Document](../)
-* ad alanı [Aspose.Words](../../document/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

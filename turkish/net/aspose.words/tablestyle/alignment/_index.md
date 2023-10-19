@@ -1,7 +1,9 @@
 ---
 title: TableStyle.Alignment
-second_title: Aspose.Words for .NET API Referansı
-description: TableStyle mülk. Tablo stilinin hizalamasını belirtir.
+linktitle: Alignment
+articleTitle: Alignment
+second_title: Aspose.Words for .NET
+description: TableStyle Alignment mülk. Tablo stilinin hizalamasını belirtir C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/tablestyle/alignment/
@@ -14,11 +16,11 @@ Tablo stilinin hizalamasını belirtir.
 public TableAlignment Alignment { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:Left .
 
-### Örnekler
+## Örnekler
 
 Bir tablonun konumunun nasıl ayarlanacağını gösterir.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "Table.SetTableAlignment.docx");
 
 * enum [TableAlignment](../../../aspose.words.tables/tablealignment/)
 * class [TableStyle](../)
-* ad alanı [Aspose.Words](../../tablestyle/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

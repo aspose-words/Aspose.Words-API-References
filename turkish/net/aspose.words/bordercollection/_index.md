@@ -1,7 +1,9 @@
 ---
-title: Class BorderCollection
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.BorderCollection sınıf. Bir koleksiyonBorder nesneler.
+title: BorderCollection Class
+linktitle: BorderCollection
+articleTitle: BorderCollection
+second_title: Aspose.Words for .NET
+description: Aspose.Words.BorderCollection sınıf. Bir koleksiyonBorder nesneler C#'da.
 type: docs
 weight: 90
 url: /tr/net/aspose.words/bordercollection/
@@ -39,14 +41,14 @@ public sealed class BorderCollection : IEnumerable<Border>
 | İsim | Tanım |
 | --- | --- |
 | [ClearFormatting](../../aspose.words/bordercollection/clearformatting/)() | Bir nesnenin tüm kenarlıklarını kaldırır. |
-| [Equals](../../aspose.words/bordercollection/equals/#equals)(BorderCollection) | Kenarlık koleksiyonlarını karşılaştırır. |
+| [Equals](../../aspose.words/bordercollection/equals/#equals)(*BorderCollection*) | Kenarlık koleksiyonlarını karşılaştırır. |
 | [GetEnumerator](../../aspose.words/bordercollection/getenumerator/)() | Koleksiyondaki tüm kenarlıklar üzerinde yineleme yapmak için kullanılabilecek bir numaralandırıcı nesnesini döndürür. |
 
-### Notlar
+## Notlar
 
 Farklı belge öğelerinin farklı sınırları vardır. Örneğin,[`ParagraphFormat`](../paragraphformat/)sahip olmak[`Bottom`](./bottom/) ,[`Left`](./left/) ,[`Right`](./right/) Ve[`Top`](./top/) sınırlar. Her kenarlık için bağımsız olarak farklı biçimlendirme belirtebilirsiniz veya tüm kenarlıkları numaralandırıp aynı biçimlendirmeyi uygulayabilirsiniz.
 
-### Örnekler
+## Örnekler
 
 Üst kenarlığı olan bir paragrafın nasıl ekleneceğini gösterir.
 
@@ -71,5 +73,3 @@ doc.Save(ArtifactsDir + "Border.ParagraphTopBorder.docx");
 * class [Border](../border/)
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.LineStyle
-second_title: Aspose.Words for .NET API Referansı
-description: BorderCollection mülk. Kenarlık stilini alır veya ayarlar.
+linktitle: LineStyle
+articleTitle: LineStyle
+second_title: Aspose.Words for .NET
+description: BorderCollection LineStyle mülk. Kenarlık stilini alır veya ayarlar C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words/bordercollection/linestyle/
@@ -14,13 +16,13 @@ Kenarlık stilini alır veya ayarlar.
 public LineStyle LineStyle { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Koleksiyondaki ilk kenarlığın stilini döndürür.
 
 Koleksiyondaki çapraz kenarlıklar hariç tüm kenarlıkların stilini ayarlar.
 
-### Örnekler
+## Örnekler
 
 Gölgeli yeşil dalgalı sayfa kenarlığının nasıl oluşturulacağını gösterir.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageBorders.docx");
 
 * enum [LineStyle](../../linestyle/)
 * class [BorderCollection](../)
-* ad alanı [Aspose.Words](../../bordercollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

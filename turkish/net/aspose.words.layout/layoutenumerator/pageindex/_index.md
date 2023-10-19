@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.PageIndex
-second_title: Aspose.Words for .NET API Referansı
-description: LayoutEnumerator mülk. Geçerli varlığı içeren bir sayfanın 1 tabanlı dizinini alır.
+linktitle: PageIndex
+articleTitle: PageIndex
+second_title: Aspose.Words for .NET
+description: LayoutEnumerator PageIndex mülk. Geçerli varlığı içeren bir sayfanın 1 tabanlı dizinini alır C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.layout/layoutenumerator/pageindex/
@@ -14,7 +16,7 @@ Geçerli varlığı içeren bir sayfanın 1 tabanlı dizinini alır.
 public int PageIndex { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgenin düzen varlıkları arasında geçiş yapma yollarını gösterir.
 
@@ -159,7 +161,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 ### Ayrıca bakınız
 
 * class [LayoutEnumerator](../)
-* ad alanı [Aspose.Words.Layout](../../layoutenumerator/)
+* ad alanı [Aspose.Words.Layout](../../../aspose.words.layout/)
 * toplantı [Aspose.Words](../../../)
-
-

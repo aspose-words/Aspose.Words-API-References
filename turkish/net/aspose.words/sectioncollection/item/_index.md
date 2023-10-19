@@ -1,7 +1,9 @@
 ---
 title: SectionCollection.Item
-second_title: Aspose.Words for .NET API Referansı
-description: SectionCollection mülk. Verilen dizindeki bir bölümü alır.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words for .NET
+description: SectionCollection Item mülk. Verilen dizindeki bir bölümü alır C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/sectioncollection/item/
@@ -18,7 +20,7 @@ public Section this[int index] { get; }
 | --- | --- |
 | index | Bölüm listesine bir dizin. |
 
-### Notlar
+## Notlar
 
 Endeks sıfır bazlıdır.
 
@@ -28,7 +30,7 @@ Dizin listedeki öğe sayısından büyük veya ona eşitse bu, boş bir başvur
 
 Dizin negatifse ve mutlak değeri listedeki öğe sayısından büyükse bu, boş bir başvuru döndürür.
 
-### Örnekler
+## Örnekler
 
 Belgenin sayfa düzeninin ne zaman yeniden hesaplanacağını gösterir.
 
@@ -83,7 +85,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 
 * class [Section](../../section/)
 * class [SectionCollection](../)
-* ad alanı [Aspose.Words](../../sectioncollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

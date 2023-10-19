@@ -1,7 +1,9 @@
 ---
 title: PageSavingArgs.PageIndex
-second_title: Aspose.Words for .NET API Referansı
-description: PageSavingArgs mülk. Geçerli sayfa dizini.
+linktitle: PageIndex
+articleTitle: PageIndex
+second_title: Aspose.Words for .NET
+description: PageSavingArgs PageIndex mülk. Geçerli sayfa dizini C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.saving/pagesavingargs/pageindex/
@@ -14,7 +16,7 @@ Geçerli sayfa dizini.
 public int PageIndex { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi sayfa sayfa HTML'ye kaydetmek için geri aramanın nasıl kullanılacağını gösterir.
 
@@ -71,7 +73,5 @@ private class CustomFileNamePageSavingCallback : IPageSavingCallback
 ### Ayrıca bakınız
 
 * class [PageSavingArgs](../)
-* ad alanı [Aspose.Words.Saving](../../pagesavingargs/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

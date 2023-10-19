@@ -1,9 +1,11 @@
 ---
 title: Fill.Solid
-second_title: Aspose.Words for .NET API Referansı
-description: Fill yöntem. Dolguyu tek tip bir renge ayarlar.
+linktitle: Solid
+articleTitle: Solid
+second_title: Aspose.Words for .NET
+description: Fill Solid yöntem. Dolguyu tek tip bir renge ayarlar C#'da.
 type: docs
-weight: 260
+weight: 250
 url: /tr/net/aspose.words.drawing/fill/solid/
 ---
 ## Solid() {#solid}
@@ -14,19 +16,19 @@ Dolguyu tek tip bir renge ayarlar.
 public void Solid()
 ```
 
-### Notlar
+## Notlar
 
 Dolgulardan herhangi birini tekrar katı dolguya dönüştürmek için bu yöntemi kullanın.
 
 ### Ayrıca bakınız
 
 * class [Fill](../)
-* ad alanı [Aspose.Words.Drawing](../../fill/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## Solid(Color) {#solid_1}
+## Solid(*Color*) {#solid_1}
 
 Dolguyu belirtilen tekdüze renge ayarlar.
 
@@ -34,11 +36,11 @@ Dolguyu belirtilen tekdüze renge ayarlar.
 public void Solid(Color color)
 ```
 
-### Notlar
+## Notlar
 
 Dolgulardan herhangi birini tekrar katı dolguya dönüştürmek için bu yöntemi kullanın.
 
-### Örnekler
+## Örnekler
 
 Herhangi bir dolgunun tekrar katı dolguya nasıl dönüştürüleceğini gösterir.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "Drawing.FillSolid.docx");
 ### Ayrıca bakınız
 
 * class [Fill](../)
-* ad alanı [Aspose.Words.Drawing](../../fill/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

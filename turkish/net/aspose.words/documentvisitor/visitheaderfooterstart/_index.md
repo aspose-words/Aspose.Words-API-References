@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitHeaderFooterStart
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentVisitor yöntem. Bir bölümdeki üstbilgi veya altbilginin numaralandırılması başladığında çağrılır.
+linktitle: VisitHeaderFooterStart
+articleTitle: VisitHeaderFooterStart
+second_title: Aspose.Words for .NET
+description: DocumentVisitor VisitHeaderFooterStart yöntem. Bir bölümdeki üstbilgi veya altbilginin numaralandırılması başladığında çağrılır C#'da.
 type: docs
 weight: 290
 url: /tr/net/aspose.words/documentvisitor/visitheaderfooterstart/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitHeaderFooterStart(HeaderFooter headerFooter)
 
 A[`VisitorAction`](../../visitoraction/) numaralandırmaya nasıl devam edileceğini belirten değer.
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki her üstbilgi ve altbilginin düğüm yapısının nasıl yazdırılacağını gösterir.
 
@@ -117,7 +119,5 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [HeaderFooter](../../headerfooter/)
 * class [DocumentVisitor](../)
-* ad alanı [Aspose.Words](../../documentvisitor/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

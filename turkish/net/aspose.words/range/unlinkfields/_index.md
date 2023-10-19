@@ -1,7 +1,9 @@
 ---
 title: Range.UnlinkFields
-second_title: Aspose.Words for .NET API Referansı
-description: Range yöntem. Bu aralıktaki alanların bağlantısını kaldırır.
+linktitle: UnlinkFields
+articleTitle: UnlinkFields
+second_title: Aspose.Words for .NET
+description: Range UnlinkFields yöntem. Bu aralıktaki alanların bağlantısını kaldırır C#'da.
 type: docs
 weight: 110
 url: /tr/net/aspose.words/range/unlinkfields/
@@ -14,13 +16,13 @@ Bu aralıktaki alanların bağlantısını kaldırır.
 public void UnlinkFields()
 ```
 
-### Notlar
+## Notlar
 
 Bu aralıktaki tüm alanları en son sonuçlarıyla değiştirir.
 
 Tüm belgedeki alanların bağlantısını kaldırmak için şunu kullanın:`UnlinkFields`.
 
-### Örnekler
+## Örnekler
 
 Bir aralıktaki tüm alanların bağlantısının nasıl kaldırılacağını gösterir.
 
@@ -36,7 +38,5 @@ doc.Sections[1].Range.UnlinkFields();
 ### Ayrıca bakınız
 
 * class [Range](../)
-* ad alanı [Aspose.Words](../../range/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

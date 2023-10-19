@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.MoveToMergeField
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentBuilder yöntem. İmleci belirtilen birleştirme alanının hemen ötesindeki bir konuma taşır ve birleştirme alanını kaldırır.
+linktitle: MoveToMergeField
+articleTitle: MoveToMergeField
+second_title: Aspose.Words for .NET
+description: DocumentBuilder MoveToMergeField yöntem. İmleci belirtilen birleştirme alanının hemen ötesindeki bir konuma taşır ve birleştirme alanını kaldırır C#'da.
 type: docs
-weight: 560
+weight: 550
 url: /tr/net/aspose.words/documentbuilder/movetomergefield/
 ---
-## MoveToMergeField(string) {#movetomergefield}
+## MoveToMergeField(*string*) {#movetomergefield}
 
 İmleci belirtilen birleştirme alanının hemen ötesindeki bir konuma taşır ve birleştirme alanını kaldırır.
 
@@ -22,11 +24,11 @@ public bool MoveToMergeField(string fieldName)
 
 `doğru` birleştirme alanı bulunmuşsa ve imleç hareket ettirilmişse;`YANLIŞ` aksi takdirde.
 
-### Notlar
+## Notlar
 
 Bu yöntemin, imleci hareket ettirdikten sonra birleştirme alanını belgeden sildiğini unutmayın.
 
-### Örnekler
+## Örnekler
 
 Adres-mektup birleştirme yerine belge oluşturucuyla MERGEFIELD'lerin verilerle nasıl doldurulacağını gösterir.
 
@@ -139,12 +141,12 @@ private static DataTable GetStudentCourseDataTable()
 ### Ayrıca bakınız
 
 * class [DocumentBuilder](../)
-* ad alanı [Aspose.Words](../../documentbuilder/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## MoveToMergeField(string, bool, bool) {#movetomergefield_1}
+## MoveToMergeField(*string, bool, bool*) {#movetomergefield_1}
 
 Birleştirme alanını belirtilen birleştirme alanına taşır.
 
@@ -162,7 +164,7 @@ public bool MoveToMergeField(string fieldName, bool isAfter, bool isDeleteField)
 
 `doğru` birleştirme alanı bulunmuşsa ve imleç hareket ettirilmişse;`YANLIŞ` aksi takdirde.
 
-### Örnekler
+## Örnekler
 
 Alanların nasıl ekleneceğini ve belge oluşturucunun imlecinin bu alanlara nasıl taşınacağını gösterir.
 
@@ -191,7 +193,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.MergeFields.docx");
 ### Ayrıca bakınız
 
 * class [DocumentBuilder](../)
-* ad alanı [Aspose.Words](../../documentbuilder/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

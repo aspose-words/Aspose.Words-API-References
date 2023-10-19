@@ -1,9 +1,11 @@
 ---
 title: TxtLoadOptions.DocumentDirection
-second_title: Aspose.Words for .NET API Referansı
-description: TxtLoadOptions mülk. Belge yönünü alır veya ayarlar. Varsayılan değerLeftToRight .
+linktitle: DocumentDirection
+articleTitle: DocumentDirection
+second_title: Aspose.Words for .NET
+description: TxtLoadOptions DocumentDirection mülk. Belge yönünü alır veya ayarlar. Varsayılan değerLeftToRight  C#'da.
 type: docs
-weight: 50
+weight: 40
 url: /tr/net/aspose.words.loading/txtloadoptions/documentdirection/
 ---
 ## TxtLoadOptions.DocumentDirection property
@@ -14,7 +16,7 @@ Belge yönünü alır veya ayarlar. Varsayılan değer:LeftToRight .
 public DocumentDirection DocumentDirection { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Düz metin belgesinin metin yönünün nasıl algılanacağını gösterir.
 
@@ -43,7 +45,5 @@ Assert.False(doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Bidi);
 
 * enum [DocumentDirection](../../documentdirection/)
 * class [TxtLoadOptions](../)
-* ad alanı [Aspose.Words.Loading](../../txtloadoptions/)
+* ad alanı [Aspose.Words.Loading](../../../aspose.words.loading/)
 * toplantı [Aspose.Words](../../../)
-
-

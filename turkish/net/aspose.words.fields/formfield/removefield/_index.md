@@ -1,7 +1,9 @@
 ---
 title: FormField.RemoveField
-second_title: Aspose.Words for .NET API Referansı
-description: FormField yöntem. Yalnızca form alanı özel karakterini değil tüm form alanını kaldırır.
+linktitle: RemoveField
+articleTitle: RemoveField
+second_title: Aspose.Words for .NET
+description: FormField RemoveField yöntem. Yalnızca form alanı özel karakterini değil tüm form alanını kaldırır C#'da.
 type: docs
 weight: 240
 url: /tr/net/aspose.words.fields/formfield/removefield/
@@ -14,11 +16,11 @@ Yalnızca form alanı özel karakterini değil, tüm form alanını kaldırır.
 public void RemoveField()
 ```
 
-### Notlar
+## Notlar
 
 Form alanıyla ilişkilendirilmiş bir yer imi varsa yer imi kaldırılmaz.
 
-### Örnekler
+## Örnekler
 
 Bir form alanının nasıl silineceğini gösterir.
 
@@ -32,7 +34,5 @@ formField.RemoveField();
 ### Ayrıca bakınız
 
 * class [FormField](../)
-* ad alanı [Aspose.Words.Fields](../../formfield/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

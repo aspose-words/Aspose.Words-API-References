@@ -1,7 +1,9 @@
 ---
-title: Enum ShapeMarkupLanguage
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.ShapeMarkupLanguage Sıralama. Şekil için kullanılan İşaretleme dilini belirtir.
+title: ShapeMarkupLanguage Enum
+linktitle: ShapeMarkupLanguage
+articleTitle: ShapeMarkupLanguage
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.ShapeMarkupLanguage Sıralama. Şekil için kullanılan İşaretleme dilini belirtir C#'da.
 type: docs
 weight: 1280
 url: /tr/net/aspose.words.drawing/shapemarkuplanguage/
@@ -21,7 +23,7 @@ public enum ShapeMarkupLanguage : byte
 | Dml | `0` | Şekli tanımlamak için Çizim İşaretleme Dili kullanılır. |
 | Vml | `1` | Şekli tanımlamak için Vektör İşaretleme Dili kullanılır. |
 
-### Örnekler
+## Örnekler
 
 Kaydedilen bir belge için uyulması gereken OOXML uyumluluk spesifikasyonunun nasıl ayarlanacağını gösterir.
 
@@ -57,5 +59,3 @@ Assert.AreEqual(ShapeMarkupLanguage.Dml, ((Shape)doc.GetChild(NodeType.Shape, 0,
 
 * ad alanı [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../)
-
-

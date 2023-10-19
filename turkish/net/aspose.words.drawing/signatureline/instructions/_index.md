@@ -1,20 +1,22 @@
 ---
 title: SignatureLine.Instructions
-second_title: Aspose.Words for .NET API Referansı
-description: SignatureLine mülk. İmza satırını imzalarken görüntülenen imzalayana yönelik talimatları alır veya ayarlar. Aşağıdaki durumlarda bu özellik yoksayılırDefaultInstructionsayarlandı. Bu özelliğin varsayılan değeri boş dize Empty.
+linktitle: Instructions
+articleTitle: Instructions
+second_title: Aspose.Words for .NET
+description: SignatureLine Instructions mülk. İmza satırını imzalarken görüntülenen imzalayana yönelik talimatları alır veya ayarlar. Aşağıdaki durumlarda bu özellik yoksayılırDefaultInstructionsayarlandı. Bu özelliğin varsayılan değeriboş dize Empty C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.drawing/signatureline/instructions/
 ---
 ## SignatureLine.Instructions property
 
-İmza satırını imzalarken görüntülenen imzalayana yönelik talimatları alır veya ayarlar. Aşağıdaki durumlarda bu özellik yoksayılır:[`DefaultInstructions`](../defaultinstructions/)ayarlandı. Bu özelliğin varsayılan değeri: **boş dize** (Empty).
+İmza satırını imzalarken görüntülenen imzalayana yönelik talimatları alır veya ayarlar. Aşağıdaki durumlarda bu özellik yoksayılır:[`DefaultInstructions`](../defaultinstructions/)ayarlandı. Bu özelliğin varsayılan değeri:**boş dize** (Empty).
 
 ```csharp
 public string Instructions { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 İmza için nasıl satır oluşturulacağını ve bunun belgeye nasıl ekleneceğini gösterir.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "Shape.SignatureLine.docx");
 ### Ayrıca bakınız
 
 * class [SignatureLine](../)
-* ad alanı [Aspose.Words.Drawing](../../signatureline/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

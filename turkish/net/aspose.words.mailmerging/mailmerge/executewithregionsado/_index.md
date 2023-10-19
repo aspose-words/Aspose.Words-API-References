@@ -1,7 +1,9 @@
 ---
 title: MailMerge.ExecuteWithRegionsADO
-second_title: Aspose.Words for .NET API Referansı
-description: MailMerge yöntem. Bir ADO Recordset nesnesinden adresmektup birleştirme bölgelerine sahip belgeye adresmektup birleştirme gerçekleştirir.
+linktitle: ExecuteWithRegionsADO
+articleTitle: ExecuteWithRegionsADO
+second_title: Aspose.Words for .NET
+description: MailMerge ExecuteWithRegionsADO yöntem. Bir ADO Recordset nesnesinden adresmektup birleştirme bölgelerine sahip belgeye adresmektup birleştirme gerçekleştirir C#'da.
 type: docs
 weight: 210
 url: /tr/net/aspose.words.mailmerging/mailmerge/executewithregionsado/
@@ -19,13 +21,13 @@ public void ExecuteWithRegionsADO(object recordset, string tableName)
 | recordset | Object | ADO Kayıt Kümesi veya Kayıt nesnesi. |
 | tableName | String | Doldurulacak belgedeki adres-mektup birleştirme bölgesinin adı. |
 
-### Notlar
+## Notlar
 
 Bu yöntem, Aspose.Words sınıflarını as COM nesnelerini, örneğin ASP veya Visual Basic 6.0 kullanılarak oluşturulan bir uygulama gibi yönetilmeyen koddan kullanmayı planladığınızda kullanışlıdır.
 
 Daha fazla bilgi için açıklamasına bakın[`ExecuteWithRegions`](../executewithregions/).
 
-### Örnekler
+## Örnekler
 
 ```csharp
 [VBScript]
@@ -120,7 +122,5 @@ private static Document CreateSourceDocADOMailMergeWithRegions()
 ### Ayrıca bakınız
 
 * class [MailMerge](../)
-* ad alanı [Aspose.Words.MailMerging](../../mailmerge/)
+* ad alanı [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * toplantı [Aspose.Words](../../../)
-
-

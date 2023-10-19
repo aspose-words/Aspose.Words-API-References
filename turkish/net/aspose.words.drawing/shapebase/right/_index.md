@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.Right
-second_title: Aspose.Words for .NET API Referansı
-description: ShapeBase mülk. Şeklin içeren bloğunun sağ kenarının konumunu alır.
+linktitle: Right
+articleTitle: Right
+second_title: Aspose.Words for .NET
+description: ShapeBase Right mülk. Şeklin içeren bloğunun sağ kenarının konumunu alır C#'da.
 type: docs
 weight: 460
 url: /tr/net/aspose.words.drawing/shapebase/right/
@@ -14,13 +16,13 @@ url: /tr/net/aspose.words.drawing/shapebase/right/
 public double Right { get; }
 ```
 
-### Notlar
+## Notlar
 
 Üst düzey bir şekil için değer nokta cinsindendir ve şekil bağlantısına göredir.
 
 Bir gruptaki şekiller için değer, üst grubun koordinat alanında ve birimlerindedir.
 
-### Örnekler
+## Örnekler
 
 Kayan bir görüntünün nasıl ekleneceğini ve konumunun ve boyutunun nasıl belirleneceğini gösterir.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPositionSize.docx");
 ### Ayrıca bakınız
 
 * class [ShapeBase](../)
-* ad alanı [Aspose.Words.Drawing](../../shapebase/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

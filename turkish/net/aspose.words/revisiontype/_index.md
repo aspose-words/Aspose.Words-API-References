@@ -1,7 +1,9 @@
 ---
-title: Enum RevisionType
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.RevisionType Sıralama. İzlenen değişikliğin türünü belirtirRevision .
+title: RevisionType Enum
+linktitle: RevisionType
+articleTitle: RevisionType
+second_title: Aspose.Words for .NET
+description: Aspose.Words.RevisionType Sıralama. İzlenen değişikliğin türünü belirtirRevision  C#'da.
 type: docs
 weight: 4800
 url: /tr/net/aspose.words/revisiontype/
@@ -24,7 +26,7 @@ public enum RevisionType
 | StyleDefinitionChange | `3` | Ana stile biçimlendirme değişikliği uygulandı. |
 | Moving | `4` | İçerik belgeye taşındı. |
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki düzeltmelerle nasıl çalışılacağını gösterir.
 
@@ -108,5 +110,3 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: GradientStopCollection.Insert
-second_title: Aspose.Words for .NET API Referansı
-description: GradientStopCollection yöntem. Bir eklerGradientStop belirtilen indeksteki koleksiyona.
+linktitle: Insert
+articleTitle: Insert
+second_title: Aspose.Words for .NET
+description: GradientStopCollection Insert yöntem. Bir eklerGradientStop belirtilen indeksteki koleksiyona C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.drawing/gradientstopcollection/insert/
@@ -14,7 +16,7 @@ Bir ekler[`GradientStop`](../../gradientstop/) belirtilen indeksteki koleksiyona
 public GradientStop Insert(int index, GradientStop gradientStop)
 ```
 
-### Örnekler
+## Örnekler
 
 Degrade dolgusuna degrade duraklarının nasıl ekleneceğini gösterir.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 
 * class [GradientStop](../../gradientstop/)
 * class [GradientStopCollection](../)
-* ad alanı [Aspose.Words.Drawing](../../gradientstopcollection/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

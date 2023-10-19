@@ -1,7 +1,9 @@
 ---
-title: FieldSet.FieldSet
-second_title: Aspose.Words for .NET API Referansı
-description: FieldSet inşaatçı. Default_Constructor
+title: FieldSet
+linktitle: FieldSet
+articleTitle: FieldSet
+second_title: Aspose.Words for .NET
+description: FieldSet inşaatçı. Default_Constructor C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fieldset/fieldset/
@@ -17,7 +19,5 @@ public FieldSet()
 ### Ayrıca bakınız
 
 * class [FieldSet](../)
-* ad alanı [Aspose.Words.Fields](../../fieldset/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

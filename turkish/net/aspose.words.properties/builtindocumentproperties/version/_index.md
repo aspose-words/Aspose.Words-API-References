@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Version
-second_title: Aspose.Words for .NET API Referansı
-description: BuiltInDocumentProperties mülk. Belgeyi oluşturan uygulamanın sürüm numarasını temsil eder.
+linktitle: Version
+articleTitle: Version
+second_title: Aspose.Words for .NET
+description: BuiltInDocumentProperties Version mülk. Belgeyi oluşturan uygulamanın sürüm numarasını temsil eder C#'da.
 type: docs
 weight: 320
 url: /tr/net/aspose.words.properties/builtindocumentproperties/version/
@@ -14,11 +16,11 @@ Belgeyi oluşturan uygulamanın sürüm numarasını temsil eder.
 public int Version { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bir belge Microsoft Word tarafından oluşturulduğunda, yüksek 16 bit ana sürümü temsil eder ve düşük 16 bit ise yapı numarasını temsil eder.
 
-### Örnekler
+## Örnekler
 
 "Orijin" kategorisindeki belge özellikleriyle nasıl çalışılacağını gösterir.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.Origin.docx");
 ### Ayrıca bakınız
 
 * class [BuiltInDocumentProperties](../)
-* ad alanı [Aspose.Words.Properties](../../builtindocumentproperties/)
+* ad alanı [Aspose.Words.Properties](../../../aspose.words.properties/)
 * toplantı [Aspose.Words](../../../)
-
-

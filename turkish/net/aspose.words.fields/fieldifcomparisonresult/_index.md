@@ -1,7 +1,9 @@
 ---
-title: Enum FieldIfComparisonResult
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Fields.FieldIfComparisonResult Sıralama. IF alanı koşulu değerlendirmesinin sonucunu belirtir.
+title: FieldIfComparisonResult Enum
+linktitle: FieldIfComparisonResult
+articleTitle: FieldIfComparisonResult
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Fields.FieldIfComparisonResult Sıralama. IF alanı koşulu değerlendirmesinin sonucunu belirtir C#'da.
 type: docs
 weight: 2010
 url: /tr/net/aspose.words.fields/fieldifcomparisonresult/
@@ -22,7 +24,7 @@ public enum FieldIfComparisonResult
 | True | `1` | Koşul:`doğru` . |
 | False | `2` | Koşul:`YANLIŞ` . |
 
-### Örnekler
+## Örnekler
 
 IF alanının nasıl ekleneceğini gösterir.
 
@@ -69,5 +71,3 @@ doc.Save(ArtifactsDir + "Field.IF.docx");
 
 * ad alanı [Aspose.Words.Fields](../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../)
-
-

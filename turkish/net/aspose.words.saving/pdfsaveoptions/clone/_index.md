@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.Clone
-second_title: Aspose.Words for .NET API Referansı
-description: PdfSaveOptions yöntem. Bu nesnenin derin bir kopyasını oluşturur.
+linktitle: Clone
+articleTitle: Clone
+second_title: Aspose.Words for .NET
+description: PdfSaveOptions Clone yöntem. Bu nesnenin derin bir kopyasını oluşturur C#'da.
 type: docs
 weight: 340
 url: /tr/net/aspose.words.saving/pdfsaveoptions/clone/
@@ -14,7 +16,7 @@ Bu nesnenin derin bir kopyasını oluşturur.
 public PdfSaveOptions Clone()
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki tüm alanların PDF'ye kaydedilmeden hemen önce nasıl güncelleneceğini gösterir.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.UpdateFields.pdf", options);
 ### Ayrıca bakınız
 
 * class [PdfSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../pdfsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

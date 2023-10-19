@@ -1,7 +1,9 @@
 ---
-title: Enum FootnotePosition
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Notes.FootnotePosition Sıralama. Dipnot konumunu tanımlar.
+title: FootnotePosition Enum
+linktitle: FootnotePosition
+articleTitle: FootnotePosition
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Notes.FootnotePosition Sıralama. Dipnot konumunu tanımlar C#'da.
 type: docs
 weight: 4290
 url: /tr/net/aspose.words.notes/footnoteposition/
@@ -21,7 +23,7 @@ public enum FootnotePosition
 | BottomOfPage | `1` | Dipnotlar her sayfanın altında görüntülenir. |
 | BeneathText | `2` | Dipnotlar her sayfadaki metnin altında görüntülenir. |
 
-### Örnekler
+## Örnekler
 
 Belgenin dipnotlarını toplayıp görüntüleyeceği farklı bir yerin nasıl seçileceğini gösterir.
 
@@ -54,5 +56,3 @@ doc.Save(ArtifactsDir + "InlineStory.PositionFootnote.docx");
 * class [FootnoteOptions](../footnoteoptions/)
 * ad alanı [Aspose.Words.Notes](../../aspose.words.notes/)
 * toplantı [Aspose.Words](../../)
-
-

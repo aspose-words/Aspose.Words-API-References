@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.BuiltInTemplatesPaths
-second_title: Aspose.Words for .NET API Referansı
-description: FieldOptions mülk. MS Word yerleşik şablonlarının yollarını alır veya ayarlar.
+linktitle: BuiltInTemplatesPaths
+articleTitle: BuiltInTemplatesPaths
+second_title: Aspose.Words for .NET
+description: FieldOptions BuiltInTemplatesPaths mülk. MS Word yerleşik şablonlarının yollarını alır veya ayarlar C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fields/fieldoptions/builtintemplatespaths/
@@ -14,13 +16,13 @@ MS Word yerleşik şablonlarının yollarını alır veya ayarlar.
 public string[] BuiltInTemplatesPaths { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özellik şu kişi tarafından kullanılır:[`FieldAutoText`](../../fieldautotext/) Ve[`FieldGlossary`](../../fieldglossary/) alanlarda referans verilen otomatik metin girişi bulunamazsa[`AttachedTemplate`](../../../aspose.words/document/attachedtemplate/) şablon.
 
 MS Word, varsayılan olarak yerleşik şablonları c:\Users\&lt;kullanıcı adı&gt;\AppData\Roaming\Microsoft\Document Building Blocks\1033\16\Built-In Building Blocks.dotx ve C:\Users\&lt;kullanıcı adı&gt;\ konumunda saklar. AppData\Roaming\Microsoft\Templates\Normal.dotm dosyaları.
 
-### Örnekler
+## Örnekler
 
 OTOMETİN ve SÖZLÜK alanlarıyla bir yapı taşının nasıl görüntüleneceğini gösterir.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Field.AUTOTEXT.GLOSSARY.dotx");
 ### Ayrıca bakınız
 
 * class [FieldOptions](../)
-* ad alanı [Aspose.Words.Fields](../../fieldoptions/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

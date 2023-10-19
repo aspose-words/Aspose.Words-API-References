@@ -1,7 +1,9 @@
 ---
 title: Font.Color
-second_title: Aspose.Words for .NET API Referansı
-description: Font mülk. Yazı tipinin rengini alır veya ayarlar.
+linktitle: Color
+articleTitle: Color
+second_title: Aspose.Words for .NET
+description: Font Color mülk. Yazı tipinin rengini alır veya ayarlar C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words/font/color/
@@ -14,7 +16,7 @@ Yazı tipinin rengini alır veya ayarlar.
 public Color Color { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 DocumentBuilder kullanılarak biçimlendirilmiş metnin nasıl ekleneceğini gösterir.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlink.docx");
 ### Ayrıca bakınız
 
 * class [Font](../)
-* ad alanı [Aspose.Words](../../font/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

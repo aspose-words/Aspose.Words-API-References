@@ -1,7 +1,9 @@
 ---
 title: GradientStopCollection.Count
-second_title: Aspose.Words for .NET API Referansı
-description: GradientStopCollection mülk. Koleksiyondaki öğelerin sayısını belirten bir tamsayı değeri alır.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words for .NET
+description: GradientStopCollection Count mülk. Koleksiyondaki öğelerin sayısını belirten bir tamsayı değeri alır C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.drawing/gradientstopcollection/count/
@@ -14,7 +16,7 @@ Koleksiyondaki öğelerin sayısını belirten bir tamsayı değeri alır.
 public int Count { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Degrade dolgusuna degrade duraklarının nasıl ekleneceğini gösterir.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 ### Ayrıca bakınız
 
 * class [GradientStopCollection](../)
-* ad alanı [Aspose.Words.Drawing](../../gradientstopcollection/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum AxisScaleType
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.Charts.AxisScaleType Sıralama. Bir eksen için olası ölçek türlerini belirtir.
+title: AxisScaleType Enum
+linktitle: AxisScaleType
+articleTitle: AxisScaleType
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.Charts.AxisScaleType Sıralama. Bir eksen için olası ölçek türlerini belirtir C#'da.
 type: docs
 weight: 560
 url: /tr/net/aspose.words.drawing.charts/axisscaletype/
@@ -21,7 +23,7 @@ public enum AxisScaleType
 | Linear | `0` | Doğrusal ölçeklendirme. |
 | Logarithmic | `1` | Logaritmik ölçeklendirme. |
 
-### Örnekler
+## Örnekler
 
 Logaritmik ölçeklendirmenin bir grafik eksenine nasıl uygulanacağını gösterir.
 
@@ -56,5 +58,3 @@ doc.Save(ArtifactsDir + "Charts.AxisScaling.docx");
 
 * ad alanı [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Table.RelativeHorizontalAlignment
-second_title: Aspose.Words for .NET API Referansı
-description: Table mülk. Kayan tablonun göreceli yatay hizalamasını alır veya ayarlar.
+linktitle: RelativeHorizontalAlignment
+articleTitle: RelativeHorizontalAlignment
+second_title: Aspose.Words for .NET
+description: Table RelativeHorizontalAlignment mülk. Kayan tablonun göreceli yatay hizalamasını alır veya ayarlar C#'da.
 type: docs
 weight: 230
 url: /tr/net/aspose.words.tables/table/relativehorizontalalignment/
@@ -14,7 +16,7 @@ Kayan tablonun göreceli yatay hizalamasını alır veya ayarlar.
 public HorizontalAlignment RelativeHorizontalAlignment { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Kayan tabloların konumunun nasıl ayarlandığını gösterir.
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "Table.ChangeFloatingTableProperties.docx");
 
 * enum [HorizontalAlignment](../../../aspose.words.drawing/horizontalalignment/)
 * class [Table](../)
-* ad alanı [Aspose.Words.Tables](../../table/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldCompare.RightExpression
-second_title: Aspose.Words for .NET API Referansı
-description: FieldCompare mülk. Karşılaştırma ifadesinin doğru kısmını alır veya ayarlar.
+linktitle: RightExpression
+articleTitle: RightExpression
+second_title: Aspose.Words for .NET
+description: FieldCompare RightExpression mülk. Karşılaştırma ifadesinin doğru kısmını alır veya ayarlar C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.fields/fieldcompare/rightexpression/
@@ -14,7 +16,7 @@ Karşılaştırma ifadesinin doğru kısmını alır veya ayarlar.
 public string RightExpression { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 KARŞILAŞTIRMA alanı kullanılarak ifadelerin nasıl karşılaştırılacağını gösterir.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Field.COMPARE.docx");
 ### Ayrıca bakınız
 
 * class [FieldCompare](../)
-* ad alanı [Aspose.Words.Fields](../../fieldcompare/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FolderFontSource.Type
-second_title: Aspose.Words for .NET API Referansı
-description: FolderFontSource mülk. Yazı tipi kaynağının türünü döndürür.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words for .NET
+description: FolderFontSource Type mülk. Yazı tipi kaynağının türünü döndürür C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.fonts/folderfontsource/type/
@@ -14,7 +16,7 @@ Yazı tipi kaynağının türünü döndürür.
 public override FontSourceType Type { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Yazı tipi kaynağı olarak yazı tiplerini içeren yerel sistem klasörünün nasıl kullanılacağını gösterir.
 
@@ -36,7 +38,5 @@ Assert.AreEqual(1, folderFontSource.Priority);
 
 * enum [FontSourceType](../../fontsourcetype/)
 * class [FolderFontSource](../)
-* ad alanı [Aspose.Words.Fonts](../../folderfontsource/)
+* ad alanı [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../../)
-
-

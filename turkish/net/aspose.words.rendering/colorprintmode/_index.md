@@ -1,7 +1,9 @@
 ---
-title: Enum ColorPrintMode
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Rendering.ColorPrintMode Sıralama. Aygıtın renkli yazdırmayı desteklemesi durumunda renkli olmayan sayfaların nasıl yazdırılacağını belirtir.
+title: ColorPrintMode Enum
+linktitle: ColorPrintMode
+articleTitle: ColorPrintMode
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Rendering.ColorPrintMode Sıralama. Aygıtın renkli yazdırmayı desteklemesi durumunda renkli olmayan sayfaların nasıl yazdırılacağını belirtir C#'da.
 type: docs
 weight: 4540
 url: /tr/net/aspose.words.rendering/colorprintmode/
@@ -21,7 +23,7 @@ public enum ColorPrintMode
 | Normal | `0` | Tüm sayfalar yazıcının yeteneklerine ve ayarlarına göre yazdırılır. |
 | GrayscaleAuto | `1` | Renkli olmayan sayfalar tespit edilirse gri tonlamalı olarak yazdırılır. |
 
-### Örnekler
+## Örnekler
 
 Belgenin yazdırılacağı sayfa aralığının ve yazıcının nasıl seçileceğini ve ardından bir baskı önizlemesinin nasıl açılacağını gösterir.
 
@@ -71,5 +73,3 @@ Console.WriteLine($"The numer of pages printed in color are {awPrintDoc.ColorPag
 
 * ad alanı [Aspose.Words.Rendering](../../aspose.words.rendering/)
 * toplantı [Aspose.Words](../../)
-
-

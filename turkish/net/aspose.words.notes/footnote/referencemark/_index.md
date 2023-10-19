@@ -1,26 +1,28 @@
 ---
 title: Footnote.ReferenceMark
-second_title: Aspose.Words for .NET API Referansı
-description: Footnote mülk. Bu dipnot için kullanılacak özel referans işaretini alır/ayarlar. Varsayılan değer boş dize Empty  otomatik numaralandırılmış dipnotların kullanıldığı anlamına gelir.
+linktitle: ReferenceMark
+articleTitle: ReferenceMark
+second_title: Aspose.Words for .NET
+description: Footnote ReferenceMark mülk. Bu dipnot için kullanılacak özel referans işaretini alır/ayarlar. Varsayılan değerboş dize Empty  otomatik numaralandırılmış dipnotların kullanıldığı anlamına gelir C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.notes/footnote/referencemark/
 ---
 ## Footnote.ReferenceMark property
 
-Bu dipnot için kullanılacak özel referans işaretini alır/ayarlar. Varsayılan değer: **boş dize** (Empty ), otomatik numaralandırılmış dipnotların kullanıldığı anlamına gelir.
+Bu dipnot için kullanılacak özel referans işaretini alır/ayarlar. Varsayılan değer:**boş dize** (Empty ), otomatik numaralandırılmış dipnotların kullanıldığı anlamına gelir.
 
 ```csharp
 public string ReferenceMark { get; set; }
 ```
 
-### Notlar
+## Notlar
 
-Bu özellik şu şekilde ayarlanırsa **boş dize** (Empty ) veya`hükümsüz` , Daha sonra[`IsAuto`](../isauto/) özellik otomatik olarak şu şekilde ayarlanacaktır:`doğru` , başka bir şeye ayarlanmışsa o zaman[`IsAuto`](../isauto/) şu şekilde ayarlanacak:`YANLIŞ` .
+Bu özellik şu şekilde ayarlanırsa**boş dize** (Empty ) veya`hükümsüz` , Daha sonra[`IsAuto`](../isauto/) özellik otomatik olarak şu şekilde ayarlanacaktır:`doğru` , başka bir şeye ayarlanmışsa o zaman[`IsAuto`](../isauto/) şu şekilde ayarlanacak:`YANLIŞ` .
 
 RTF-formatı özel referans işareti olarak yalnızca 1 sembolü saklayabilir, dolayısıyla dışa aktarma sırasında yalnızca ilk sembol yazılacak, diğerleri atılacaktır.
 
-### Örnekler
+## Örnekler
 
 Dipnotların nasıl ekleneceğini ve özelleştirileceğini gösterir.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "InlineStory.AddFootnote.docx");
 ### Ayrıca bakınız
 
 * class [Footnote](../)
-* ad alanı [Aspose.Words.Notes](../../footnote/)
+* ad alanı [Aspose.Words.Notes](../../../aspose.words.notes/)
 * toplantı [Aspose.Words](../../../)
-
-

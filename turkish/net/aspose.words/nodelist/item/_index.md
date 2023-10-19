@@ -1,7 +1,9 @@
 ---
 title: NodeList.Item
-second_title: Aspose.Words for .NET API Referansı
-description: NodeList mülk. Verilen dizindeki bir düğümü alır.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words for .NET
+description: NodeList Item mülk. Verilen dizindeki bir düğümü alır C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/nodelist/item/
@@ -18,7 +20,7 @@ public Node this[int index] { get; }
 | --- | --- |
 | index | Düğümler listesine bir dizin. |
 
-### Notlar
+## Notlar
 
 Endeks sıfır bazlıdır.
 
@@ -28,7 +30,7 @@ Dizin listedeki öğe sayısından büyük veya ona eşitse bu, boş bir başvur
 
 Dizin negatifse ve mutlak değeri listedeki öğe sayısından büyükse bu, boş bir başvuru döndürür.
 
-### Örnekler
+## Örnekler
 
 Bir NodeList'te gezinmek için XPath'ların nasıl kullanılacağını gösterir.
 
@@ -87,7 +89,5 @@ Assert.True(shape.HasImage);
 
 * class [Node](../../node/)
 * class [NodeList](../)
-* ad alanı [Aspose.Words](../../nodelist/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

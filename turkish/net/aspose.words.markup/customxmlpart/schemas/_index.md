@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPart.Schemas
-second_title: Aspose.Words for .NET API Referansı
-description: CustomXmlPart mülk. Bu özel XML bölümüyle ilişkili XML şemaları kümesini belirtir.
+linktitle: Schemas
+articleTitle: Schemas
+second_title: Aspose.Words for .NET
+description: CustomXmlPart Schemas mülk. Bu özel XML bölümüyle ilişkili XML şemaları kümesini belirtir C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.markup/customxmlpart/schemas/
@@ -14,7 +16,7 @@ Bu özel XML bölümüyle ilişkili XML şemaları kümesini belirtir.
 public CustomXmlSchemaCollection Schemas { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Özel XML verileriyle yapılandırılmış bir belge etiketinin nasıl oluşturulacağını gösterir.
 
@@ -82,7 +84,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 
 * class [CustomXmlSchemaCollection](../../customxmlschemacollection/)
 * class [CustomXmlPart](../)
-* ad alanı [Aspose.Words.Markup](../../customxmlpart/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

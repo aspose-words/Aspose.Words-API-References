@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.SwapInsideAndOutsideForMirrorIndentsAndRelativePositioning
-second_title: Aspose.Words for .NET API Referansı
-description: CompatibilityOptions mülk. Ayna girintileri ve göreli konumlandırma için iç ve dış mekan değişimini belirtir.
+linktitle: SwapInsideAndOutsideForMirrorIndentsAndRelativePositioning
+articleTitle: SwapInsideAndOutsideForMirrorIndentsAndRelativePositioning
+second_title: Aspose.Words for .NET
+description: CompatibilityOptions SwapInsideAndOutsideForMirrorIndentsAndRelativePositioning mülk. Ayna girintileri ve göreli konumlandırma için iç ve dış mekan değişimini belirtir C#'da.
 type: docs
 weight: 540
 url: /tr/net/aspose.words.settings/compatibilityoptions/swapinsideandoutsideformirrorindentsandrelativepositioning/
@@ -17,7 +19,5 @@ public bool SwapInsideAndOutsideForMirrorIndentsAndRelativePositioning { get; se
 ### Ayrıca bakınız
 
 * class [CompatibilityOptions](../)
-* ad alanı [Aspose.Words.Settings](../../compatibilityoptions/)
+* ad alanı [Aspose.Words.Settings](../../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../../)
-
-

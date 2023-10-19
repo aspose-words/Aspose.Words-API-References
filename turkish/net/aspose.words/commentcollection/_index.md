@@ -1,7 +1,9 @@
 ---
-title: Class CommentCollection
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.CommentCollection sınıf. Bir koleksiyona yazılı erişim sağlarComment düğümler.
+title: CommentCollection Class
+linktitle: CommentCollection
+articleTitle: CommentCollection
+second_title: Aspose.Words for .NET
+description: Aspose.Words.CommentCollection sınıf. Bir koleksiyona yazılı erişim sağlarComment düğümler C#'da.
 type: docs
 weight: 240
 url: /tr/net/aspose.words/commentcollection/
@@ -27,17 +29,17 @@ public class CommentCollection : NodeCollection
 
 | İsim | Tanım |
 | --- | --- |
-| [Add](../../aspose.words/nodecollection/add/)(Node) | Koleksiyonun sonuna bir düğüm ekler. |
+| [Add](../../aspose.words/nodecollection/add/)(*[Node](../node/)*) | Koleksiyonun sonuna bir düğüm ekler. |
 | [Clear](../../aspose.words/nodecollection/clear/)() | Tüm düğümleri bu koleksiyondan ve belgeden kaldırır. |
-| [Contains](../../aspose.words/nodecollection/contains/)(Node) | Bir düğümün koleksiyonda olup olmadığını belirler. |
+| [Contains](../../aspose.words/nodecollection/contains/)(*[Node](../node/)*) | Bir düğümün koleksiyonda olup olmadığını belirler. |
 | [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Düğümlerin koleksiyonu üzerinde basit bir "foreach" stili yinelemesi sağlar. |
-| [IndexOf](../../aspose.words/nodecollection/indexof/)(Node) | Belirtilen düğümün sıfır tabanlı dizinini döndürür. |
-| [Insert](../../aspose.words/nodecollection/insert/)(int, Node) | Belirtilen dizindeki koleksiyona bir düğüm ekler. |
-| [Remove](../../aspose.words/nodecollection/remove/)(Node) | Düğümü koleksiyondan ve belgeden kaldırır. |
-| [RemoveAt](../../aspose.words/nodecollection/removeat/)(int) | Belirtilen dizindeki düğümü koleksiyondan ve belgeden kaldırır. |
+| [IndexOf](../../aspose.words/nodecollection/indexof/)(*[Node](../node/)*) | Belirtilen düğümün sıfır tabanlı dizinini döndürür. |
+| [Insert](../../aspose.words/nodecollection/insert/)(*int, [Node](../node/)*) | Belirtilen dizindeki koleksiyona bir düğüm ekler. |
+| [Remove](../../aspose.words/nodecollection/remove/)(*[Node](../node/)*) | Düğümü koleksiyondan ve belgeden kaldırır. |
+| [RemoveAt](../../aspose.words/nodecollection/removeat/)(*int*) | Belirtilen dizindeki düğümü koleksiyondan ve belgeden kaldırır. |
 | [ToArray](../../aspose.words/nodecollection/toarray/)() | Koleksiyondaki tüm düğümleri yeni bir düğüm dizisine kopyalar. |
 
-### Örnekler
+## Örnekler
 
 Bir yorumun nasıl "tamamlandı" olarak işaretleneceğini gösterir.
 
@@ -73,5 +75,3 @@ doc.Save(ArtifactsDir + "Comment.Done.docx");
 * class [NodeCollection](../nodecollection/)
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

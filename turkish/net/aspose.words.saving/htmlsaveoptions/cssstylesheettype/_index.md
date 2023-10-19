@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.CssStyleSheetType
-second_title: Aspose.Words for .NET API Referansı
-description: HtmlSaveOptions mülk. CSS Basamaklı Stil Sayfası stillerinin HTML MHTML veya EPUBa nasıl aktarılacağını belirtir. Varsayılan değerInline HTML/MHTML ve içinExternal EPUB. için
+linktitle: CssStyleSheetType
+articleTitle: CssStyleSheetType
+second_title: Aspose.Words for .NET
+description: HtmlSaveOptions CssStyleSheetType mülk. CSS Basamaklı Stil Sayfası stillerinin HTML MHTML veya EPUBa nasıl aktarılacağını belirtir. Varsayılan değerInline HTML/MHTML ve içinExternal EPUB. için C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.saving/htmlsaveoptions/cssstylesheettype/
@@ -14,11 +16,11 @@ CSS (Basamaklı Stil Sayfası) stillerinin HTML, MHTML veya EPUB'a nasıl aktar�
 public CssStyleSheetType CssStyleSheetType { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 CSS stil sayfasını harici bir dosyaya kaydetmek yalnızca HTML'ye kaydederken desteklenir. Kapsayıcı formatlardan birine (EPUB veya MHTML) dışa aktarırken ve belirtirkenExternal, CSS dosyası çıktı paketine olarak kapsüllenecektir.
 
-### Örnekler
+## Örnekler
 
 Bir HTML dönüşümünün oluşturduğu CSS stil sayfalarıyla nasıl çalışılacağını gösterir.
 
@@ -81,7 +83,5 @@ private class CustomCssSavingCallback : ICssSavingCallback
 * property [CssStyleSheetFileName](../cssstylesheetfilename/)
 * enum [CssStyleSheetType](../../cssstylesheettype/)
 * class [HtmlSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../htmlsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

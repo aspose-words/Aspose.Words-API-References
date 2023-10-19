@@ -1,7 +1,9 @@
 ---
 title: FieldInfo.NewValue
-second_title: Aspose.Words for .NET API Referansı
-description: FieldInfo mülk. Özelliği güncelleyen isteğe bağlı bir değeri alır veya ayarlar.
+linktitle: NewValue
+articleTitle: NewValue
+second_title: Aspose.Words for .NET
+description: FieldInfo NewValue mülk. Özelliği güncelleyen isteğe bağlı bir değeri alır veya ayarlar C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fields/fieldinfo/newvalue/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.fields/fieldinfo/newvalue/
 public string NewValue { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 INFO alanlarıyla nasıl çalışılacağını gösterir.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Field.INFO.docx");
 ### Ayrıca bakınız
 
 * class [FieldInfo](../)
-* ad alanı [Aspose.Words.Fields](../../fieldinfo/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

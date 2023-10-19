@@ -1,7 +1,9 @@
 ---
 title: FontInfoCollection.SaveSubsetFonts
-second_title: Aspose.Words for .NET API Referansı
-description: FontInfoCollection mülk. Katıştırılmış TrueType yazı tiplerinin bir alt kümesinin belgeyle birlikte kaydedilip kaydedilmeyeceğini belirtir. Bu özelliğin varsayılan değeriYANLIŞ.
+linktitle: SaveSubsetFonts
+articleTitle: SaveSubsetFonts
+second_title: Aspose.Words for .NET
+description: FontInfoCollection SaveSubsetFonts mülk. Katıştırılmış TrueType yazı tiplerinin bir alt kümesinin belgeyle birlikte kaydedilip kaydedilmeyeceğini belirtir. Bu özelliğin varsayılan değeriYANLIŞ C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.fonts/fontinfocollection/savesubsetfonts/
@@ -16,11 +18,11 @@ Bu seçenek yalnızca şu durumlarda çalışır:[`EmbedTrueTypeFonts`](../embed
 public bool SaveSubsetFonts { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu seçenek yalnızca DOC, DOCX ve RTF formatları için çalışır.
 
-### Örnekler
+## Örnekler
 
 Gömülü TrueType yazı tiplerine sahip bir belgenin nasıl kaydedileceğini gösterir.
 
@@ -43,7 +45,5 @@ else
 ### Ayrıca bakınız
 
 * class [FontInfoCollection](../)
-* ad alanı [Aspose.Words.Fonts](../../fontinfocollection/)
+* ad alanı [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../../)
-
-

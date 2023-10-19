@@ -1,7 +1,9 @@
 ---
 title: ChartXValue.FromString
-second_title: Aspose.Words for .NET API Referansı
-description: ChartXValue yöntem. Bir oluştururChartXValue örneğiString type.
+linktitle: FromString
+articleTitle: FromString
+second_title: Aspose.Words for .NET
+description: ChartXValue FromString yöntem. Bir oluştururChartXValue örneğiString type C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.drawing.charts/chartxvalue/fromstring/
@@ -14,7 +16,7 @@ Bir oluşturur[`ChartXValue`](../) örneğiString type.
 public static ChartXValue FromString(string value)
 ```
 
-### Örnekler
+## Örnekler
 
 Grafik veri değerlerinin nasıl ekleneceğini/kaldırılacağını gösterir.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "Charts.ChartDataValues.docx");
 ### Ayrıca bakınız
 
 * class [ChartXValue](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartxvalue/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

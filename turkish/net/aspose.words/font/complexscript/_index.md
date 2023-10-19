@@ -1,7 +1,9 @@
 ---
 title: Font.ComplexScript
-second_title: Aspose.Words for .NET API Referansı
-description: Font mülk. Bu çalıştırmanın formatını belirlerken Unicode karakter değerlerinden bağımsız olarak bu çalıştırmanın içeriğinin karmaşık komut dosyası metni olarak değerlendirilip değerlendirilmeyeceğini belirtir.
+linktitle: ComplexScript
+articleTitle: ComplexScript
+second_title: Aspose.Words for .NET
+description: Font ComplexScript mülk. Bu çalıştırmanın formatını belirlerken Unicode karakter değerlerinden bağımsız olarak bu çalıştırmanın içeriğinin karmaşık komut dosyası metni olarak değerlendirilip değerlendirilmeyeceğini belirtir C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words/font/complexscript/
@@ -14,7 +16,7 @@ Bu çalıştırmanın formatını belirlerken Unicode karakter değerlerinden ba
 public bool ComplexScript { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Her zaman karmaşık komut dosyası olarak değerlendirilen metnin nasıl ekleneceğini gösterir.
 
@@ -32,7 +34,5 @@ doc.Save(ArtifactsDir + "Font.ComplexScript.docx");
 ### Ayrıca bakınız
 
 * class [Font](../)
-* ad alanı [Aspose.Words](../../font/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

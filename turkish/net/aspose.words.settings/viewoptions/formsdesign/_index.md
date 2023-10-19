@@ -1,7 +1,9 @@
 ---
 title: ViewOptions.FormsDesign
-second_title: Aspose.Words for .NET API Referansı
-description: ViewOptions mülk. Belgenin form tasarımı modunda olup olmadığını belirtir.
+linktitle: FormsDesign
+articleTitle: FormsDesign
+second_title: Aspose.Words for .NET
+description: ViewOptions FormsDesign mülk. Belgenin form tasarımı modunda olup olmadığını belirtir C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.settings/viewoptions/formsdesign/
@@ -14,11 +16,11 @@ Belgenin form tasarımı modunda olup olmadığını belirtir.
 public bool FormsDesign { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Şu anda yalnızca WordML biçimindeki belgeler için çalışmaktadır.
 
-### Örnekler
+## Örnekler
 
 Form tasarım modunun nasıl etkinleştirileceğini/devre dışı bırakılacağını gösterir.
 
@@ -40,7 +42,5 @@ Assert.AreEqual(useFormsDesign,
 ### Ayrıca bakınız
 
 * class [ViewOptions](../)
-* ad alanı [Aspose.Words.Settings](../../viewoptions/)
+* ad alanı [Aspose.Words.Settings](../../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../../)
-
-

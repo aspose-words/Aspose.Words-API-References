@@ -1,7 +1,9 @@
 ---
-title: Class SectionCollection
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.SectionCollection sınıf. Bir koleksiyonSection belgedeki nesneler.
+title: SectionCollection Class
+linktitle: SectionCollection
+articleTitle: SectionCollection
+second_title: Aspose.Words for .NET
+description: Aspose.Words.SectionCollection sınıf. Bir koleksiyonSection belgedeki nesneler C#'da.
 type: docs
 weight: 5740
 url: /tr/net/aspose.words/sectioncollection/
@@ -27,23 +29,23 @@ public class SectionCollection : NodeCollection
 
 | İsim | Tanım |
 | --- | --- |
-| [Add](../../aspose.words/nodecollection/add/)(Node) | Koleksiyonun sonuna bir düğüm ekler. |
+| [Add](../../aspose.words/nodecollection/add/)(*[Node](../node/)*) | Koleksiyonun sonuna bir düğüm ekler. |
 | [Clear](../../aspose.words/nodecollection/clear/)() | Tüm düğümleri bu koleksiyondan ve belgeden kaldırır. |
-| [Contains](../../aspose.words/nodecollection/contains/)(Node) | Bir düğümün koleksiyonda olup olmadığını belirler. |
+| [Contains](../../aspose.words/nodecollection/contains/)(*[Node](../node/)*) | Bir düğümün koleksiyonda olup olmadığını belirler. |
 | [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Düğümlerin koleksiyonu üzerinde basit bir "foreach" stili yinelemesi sağlar. |
-| [IndexOf](../../aspose.words/nodecollection/indexof/)(Node) | Belirtilen düğümün sıfır tabanlı dizinini döndürür. |
-| [Insert](../../aspose.words/nodecollection/insert/)(int, Node) | Belirtilen dizindeki koleksiyona bir düğüm ekler. |
-| [Remove](../../aspose.words/nodecollection/remove/)(Node) | Düğümü koleksiyondan ve belgeden kaldırır. |
-| [RemoveAt](../../aspose.words/nodecollection/removeat/)(int) | Belirtilen dizindeki düğümü koleksiyondan ve belgeden kaldırır. |
+| [IndexOf](../../aspose.words/nodecollection/indexof/)(*[Node](../node/)*) | Belirtilen düğümün sıfır tabanlı dizinini döndürür. |
+| [Insert](../../aspose.words/nodecollection/insert/)(*int, [Node](../node/)*) | Belirtilen dizindeki koleksiyona bir düğüm ekler. |
+| [Remove](../../aspose.words/nodecollection/remove/)(*[Node](../node/)*) | Düğümü koleksiyondan ve belgeden kaldırır. |
+| [RemoveAt](../../aspose.words/nodecollection/removeat/)(*int*) | Belirtilen dizindeki düğümü koleksiyondan ve belgeden kaldırır. |
 | [ToArray](../../aspose.words/sectioncollection/toarray/#toarray_1)() | Koleksiyondaki tüm bölümleri yeni bir bölüm dizisine kopyalar. (2 methods) |
 
-### Notlar
+## Notlar
 
 Bir Microsoft Word belgesi birden fazla bölüm içerebilir. Microsoft Word'de bir bölüm oluşturmak için Ekle/Bırak komutunu seçin ve bir kesme türü seçin. Ara, bölümün ile yeni bir sayfada mı yoksa aynı sayfada mı başlayacağını belirtir.
 
 Adres-mektup birleştirme sırasında üretilen belgelerini özelleştirmek için programlı olarak bölüm ekleme ve kaldırma kullanılabilir. Bir belgenin bazı kriterlere bağlı olarak farklı içeriğe veya the içeriğinin bölümlerine sahip olması gerekiyorsa, o zaman birden fazla bölüm içeren bir "ana" belge oluşturabilir ve adres-mektup birleştirmeden önce veya sonra bazı bölümleri silebilirsiniz.
 
-### Örnekler
+## Örnekler
 
 Bir belgede bölümlerin nasıl eklenip kaldırılacağını gösterir.
 
@@ -75,5 +77,3 @@ Assert.AreEqual("Section 2\x000cSection 2", doc.GetText().Trim());
 * class [NodeCollection](../nodecollection/)
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

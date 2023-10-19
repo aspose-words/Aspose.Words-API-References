@@ -1,7 +1,9 @@
 ---
 title: ReplacingArgs.GroupIndex
-second_title: Aspose.Words for .NET API Referansı
-description: ReplacingArgs mülk. Dizinde yakalanan bir grubu tanımlar.Match ile değiştirilecekReplacement dize.
+linktitle: GroupIndex
+articleTitle: GroupIndex
+second_title: Aspose.Words for .NET
+description: ReplacingArgs GroupIndex mülk. Dizinde yakalanan bir grubu tanımlar.Match ile değiştirilecekReplacement dize C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.replacing/replacingargs/groupindex/
@@ -14,13 +16,13 @@ Dizinde yakalanan bir grubu tanımlar.[`Match`](../match/) ile değiştirilecek[
 public int GroupIndex { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 `GroupIndex`yalnızca şu durumlarda etkili olur:[`GroupName`](../groupname/) dır-dir`hükümsüz`.
 
 Varsayılan sıfırdır.
 
-### Örnekler
+## Örnekler
 
 FindReplaceOptions aracılığıyla yeni içeriğe farklı bir yazı tipinin nasıl uygulanacağını gösterir.
 
@@ -93,7 +95,5 @@ private class NumberHexer : IReplacingCallback
 ### Ayrıca bakınız
 
 * class [ReplacingArgs](../)
-* ad alanı [Aspose.Words.Replacing](../../replacingargs/)
+* ad alanı [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * toplantı [Aspose.Words](../../../)
-
-

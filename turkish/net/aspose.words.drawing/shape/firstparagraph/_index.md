@@ -1,7 +1,9 @@
 ---
 title: Shape.FirstParagraph
-second_title: Aspose.Words for .NET API Referansı
-description: Shape mülk. Şeklin ilk paragrafını alır.
+linktitle: FirstParagraph
+articleTitle: FirstParagraph
+second_title: Aspose.Words for .NET
+description: Shape FirstParagraph mülk. Şeklin ilk paragrafını alır C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.drawing/shape/firstparagraph/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.drawing/shape/firstparagraph/
 public Paragraph FirstParagraph { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Metin kutusunun nasıl oluşturulacağını ve biçimlendirileceğini gösterir.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Shape.CreateTextBox.docx");
 
 * class [Paragraph](../../../aspose.words/paragraph/)
 * class [Shape](../)
-* ad alanı [Aspose.Words.Drawing](../../shape/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

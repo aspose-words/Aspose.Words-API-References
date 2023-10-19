@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.TotalEditingTime
-second_title: Aspose.Words for .NET API Referansı
-description: BuiltInDocumentProperties mülk. Toplam düzenleme süresini dakika cinsinden alır veya ayarlar.
+linktitle: TotalEditingTime
+articleTitle: TotalEditingTime
+second_title: Aspose.Words for .NET
+description: BuiltInDocumentProperties TotalEditingTime mülk. Toplam düzenleme süresini dakika cinsinden alır veya ayarlar C#'da.
 type: docs
 weight: 310
 url: /tr/net/aspose.words.properties/builtindocumentproperties/totaleditingtime/
@@ -14,7 +16,7 @@ Toplam düzenleme süresini dakika cinsinden alır veya ayarlar.
 public int TotalEditingTime { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 "Orijin" kategorisindeki belge özellikleriyle nasıl çalışılacağını gösterir.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.Origin.docx");
 ### Ayrıca bakınız
 
 * class [BuiltInDocumentProperties](../)
-* ad alanı [Aspose.Words.Properties](../../builtindocumentproperties/)
+* ad alanı [Aspose.Words.Properties](../../../aspose.words.properties/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: FieldPage.FieldPage
-second_title: Aspose.Words for .NET API Referansı
-description: FieldPage inşaatçı. Default_Constructor
+title: FieldPage
+linktitle: FieldPage
+articleTitle: FieldPage
+second_title: Aspose.Words for .NET
+description: FieldPage inşaatçı. Default_Constructor C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fieldpage/fieldpage/
@@ -17,7 +19,5 @@ public FieldPage()
 ### Ayrıca bakınız
 
 * class [FieldPage](../)
-* ad alanı [Aspose.Words.Fields](../../fieldpage/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

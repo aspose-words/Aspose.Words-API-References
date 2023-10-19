@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.DeleteRow
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentBuilder yöntem. Tablodan bir satırı siler.
+linktitle: DeleteRow
+articleTitle: DeleteRow
+second_title: Aspose.Words for .NET
+description: DocumentBuilder DeleteRow yöntem. Tablodan bir satırı siler C#'da.
 type: docs
 weight: 200
 url: /tr/net/aspose.words/documentbuilder/deleterow/
@@ -23,7 +25,7 @@ public Row DeleteRow(int tableIndex, int rowIndex)
 
 Az önce kaldırılan satır düğümü.
 
-### Notlar
+## Notlar
 
 İmleç silinen satırın içindeyse, imleç dışarı doğru bir sonraki satıra veya tablodan sonraki bir sonraki paragrafa taşınır.
 
@@ -31,7 +33,7 @@ Yalnızca bir satır içeren bir tablodan bir satırı silerseniz, bütün tablo
 
 İndeks parametreleri için, indeks 0'dan büyük veya ona eşit olduğunda, ilk öğe 0 olacak şekilde başlangıç 'den bir indeks belirtir. İndeks 0'dan küçük olduğunda, son öğe -1 olacak şekilde, from dizini belirtilir.
 
-### Örnekler
+## Örnekler
 
 Tablodan bir satırın nasıl silineceğini gösterir.
 
@@ -64,7 +66,5 @@ Assert.AreEqual("Row 2, cell 1.\aRow 2, cell 2.\a\a", table.GetText().Trim());
 
 * class [Row](../../../aspose.words.tables/row/)
 * class [DocumentBuilder](../)
-* ad alanı [Aspose.Words](../../documentbuilder/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

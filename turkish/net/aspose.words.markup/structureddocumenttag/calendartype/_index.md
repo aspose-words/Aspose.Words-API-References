@@ -1,26 +1,28 @@
 ---
 title: StructuredDocumentTag.CalendarType
-second_title: Aspose.Words for .NET API Referansı
-description: StructuredDocumentTag mülk. Bunun için takvim türünü belirtir SDT . VarsayılanDefault
+linktitle: CalendarType
+articleTitle: CalendarType
+second_title: Aspose.Words for .NET
+description: StructuredDocumentTag CalendarType mülk. Bunun için takvim türünü belirtirSDT . VarsayılanDefault C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.markup/structureddocumenttag/calendartype/
 ---
 ## StructuredDocumentTag.CalendarType property
 
-Bunun için takvim türünü belirtir **SDT** . Varsayılan:Default
+Bunun için takvim türünü belirtir**SDT** . Varsayılan:Default
 
 ```csharp
 public SdtCalendarType CalendarType { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özelliğe erişim yalnızca şunun için işe yarayacaktır:Date SDT türü.
 
 Diğer tüm SDT türleri için istisna meydana gelecektir.
 
-### Örnekler
+## Örnekler
 
 Yapılandırılmış belge etiketiyle kullanıcıdan tarih girmesinin nasıl isteneceğini gösterir.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.Date.docx");
 
 * enum [SdtCalendarType](../../sdtcalendartype/)
 * class [StructuredDocumentTag](../)
-* ad alanı [Aspose.Words.Markup](../../structureddocumenttag/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: MetafileRenderingOptions.EmulateRenderingToSizeOnPageResolution
-second_title: Aspose.Words for .NET API Referansı
-description: MetafileRenderingOptions mülk. Meta dosyası oluşturmanın sayfadaki boyuta emülasyonu için çözünürlüğü inç başına piksel cinsinden alır veya ayarlar.
+linktitle: EmulateRenderingToSizeOnPageResolution
+articleTitle: EmulateRenderingToSizeOnPageResolution
+second_title: Aspose.Words for .NET
+description: MetafileRenderingOptions EmulateRenderingToSizeOnPageResolution mülk. Meta dosyası oluşturmanın sayfadaki boyuta emülasyonu için çözünürlüğü inç başına piksel cinsinden alır veya ayarlar C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.saving/metafilerenderingoptions/emulaterenderingtosizeonpageresolution/
@@ -14,13 +16,13 @@ Meta dosyası oluşturmanın sayfadaki boyuta emülasyonu için çözünürlüğ
 public int EmulateRenderingToSizeOnPageResolution { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu seçenek yalnızca şu durumlarda kullanılır:[`EmulateRenderingToSizeOnPage`](../emulaterenderingtosizeonpage/) ayarlandı`doğru`.
 
 Varsayılan değer 96'dır. Bu, varsayılan ekran çözünürlüğüdür. Yani meta dosya oluşturma, MS Word'deki meta dosyasının görüntüsünü %100 yakınlaştırma faktörüyle taklit edecektir.
 
-### Örnekler
+## Örnekler
 
 Meta dosyasının sayfadaki boyutuna göre nasıl görüntüleneceğini gösterir.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.EmulateRenderingToSizeOnPage.pdf", saveO
 ### Ayrıca bakınız
 
 * class [MetafileRenderingOptions](../)
-* ad alanı [Aspose.Words.Saving](../../metafilerenderingoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

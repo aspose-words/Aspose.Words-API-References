@@ -1,7 +1,9 @@
 ---
 title: MustacheTag.ReferenceRun
-second_title: Aspose.Words for .NET API Referansı
-description: MustacheTag mülk. Etiketin başlangıcını içeren çalıştırmayı alır.
+linktitle: ReferenceRun
+articleTitle: ReferenceRun
+second_title: Aspose.Words for .NET
+description: MustacheTag ReferenceRun mülk. Etiketin başlangıcını içeren çalıştırmayı alır C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.mailmerging/mustachetag/referencerun/
@@ -14,7 +16,7 @@ Etiketin başlangıcını içeren çalıştırmayı alır.
 public Run ReferenceRun { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bıyık etiketleriyle nasıl çalışılacağını gösterir.
 
@@ -42,7 +44,5 @@ foreach (MailMergeRegionInfo region in hierarchy.Regions)
 
 * class [Run](../../../aspose.words/run/)
 * class [MustacheTag](../)
-* ad alanı [Aspose.Words.MailMerging](../../mustachetag/)
+* ad alanı [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * toplantı [Aspose.Words](../../../)
-
-

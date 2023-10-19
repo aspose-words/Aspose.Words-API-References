@@ -1,7 +1,9 @@
 ---
 title: ChartXValue.TimeValue
-second_title: Aspose.Words for .NET API Referansı
-description: ChartXValue mülk. Saklanan zaman değerini alır.
+linktitle: TimeValue
+articleTitle: TimeValue
+second_title: Aspose.Words for .NET
+description: ChartXValue TimeValue mülk. Saklanan zaman değerini alır C#'da.
 type: docs
 weight: 100
 url: /tr/net/aspose.words.drawing.charts/chartxvalue/timevalue/
@@ -17,7 +19,5 @@ public TimeSpan TimeValue { get; }
 ### Ayrıca bakınız
 
 * class [ChartXValue](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartxvalue/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

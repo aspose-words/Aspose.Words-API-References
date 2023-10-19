@@ -1,7 +1,9 @@
 ---
 title: CompareOptions.Granularity
-second_title: Aspose.Words for .NET API Referansı
-description: CompareOptions mülk. Değişikliklerin karaktere göre mi yoksa kelimeye göre mi izleneceğini belirtir. Varsayılan değerWordLevel .
+linktitle: Granularity
+articleTitle: Granularity
+second_title: Aspose.Words for .NET
+description: CompareOptions Granularity mülk. Değişikliklerin karaktere göre mi yoksa kelimeye göre mi izleneceğini belirtir. Varsayılan değerWordLevel  C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.comparing/compareoptions/granularity/
@@ -14,7 +16,7 @@ Değişikliklerin karaktere göre mi yoksa kelimeye göre mi izleneceğini belir
 public Granularity Granularity { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Belgeleri karşılaştırırken ayrıntı düzeyini belirtmeyi gösterir.
 
@@ -43,7 +45,5 @@ Assert.AreEqual(5, groups.Count);
 
 * enum [Granularity](../../granularity/)
 * class [CompareOptions](../)
-* ad alanı [Aspose.Words.Comparing](../../compareoptions/)
+* ad alanı [Aspose.Words.Comparing](../../../aspose.words.comparing/)
 * toplantı [Aspose.Words](../../../)
-
-

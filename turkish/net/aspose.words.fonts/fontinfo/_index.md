@@ -1,7 +1,9 @@
 ---
-title: Class FontInfo
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Fonts.FontInfo sınıf. Belgede kullanılan yazı tipiyle ilgili bilgileri belirtir.
+title: FontInfo Class
+linktitle: FontInfo
+articleTitle: FontInfo
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Fonts.FontInfo sınıf. Belgede kullanılan yazı tipiyle ilgili bilgileri belirtir C#'da.
 type: docs
 weight: 2920
 url: /tr/net/aspose.words.fonts/fontinfo/
@@ -32,14 +34,14 @@ public class FontInfo
 
 | İsim | Tanım |
 | --- | --- |
-| [GetEmbeddedFont](../../aspose.words.fonts/fontinfo/getembeddedfont/)(EmbeddedFontFormat, EmbeddedFontStyle) | Belirli bir gömülü yazı tipi dosyasını alır. |
-| [GetEmbeddedFontAsOpenType](../../aspose.words.fonts/fontinfo/getembeddedfontasopentype/)(EmbeddedFontStyle) | OpenType formatında gömülü bir yazı tipi dosyası alır. Gömülü OpenType biçimindeki yazı tipleri OpenType. 'ye dönüştürülür |
+| [GetEmbeddedFont](../../aspose.words.fonts/fontinfo/getembeddedfont/)(*[EmbeddedFontFormat](../embeddedfontformat/), [EmbeddedFontStyle](../embeddedfontstyle/)*) | Belirli bir gömülü yazı tipi dosyasını alır. |
+| [GetEmbeddedFontAsOpenType](../../aspose.words.fonts/fontinfo/getembeddedfontasopentype/)(*[EmbeddedFontStyle](../embeddedfontstyle/)*) | OpenType formatında gömülü bir yazı tipi dosyası alır. Gömülü OpenType biçimindeki yazı tipleri OpenType. 'ye dönüştürülür |
 
-### Notlar
+## Notlar
 
 Bu sınıfın örneklerini doğrudan oluşturmazsınız. Kullan[`FontInfos`](../../aspose.words/documentbase/fontinfos/) Bir belgede tanımlanan yazı tiplerinin koleksiyonuna erişme özelliği.
 
-### Örnekler
+## Örnekler
 
 Bir belgede hangi yazı tiplerinin mevcut olduğuna ilişkin ayrıntıların nasıl yazdırılacağını gösterir.
 
@@ -60,5 +62,3 @@ for (int i = 0; i < allFonts.Count; i++)
 
 * ad alanı [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../)
-
-

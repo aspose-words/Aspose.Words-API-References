@@ -1,7 +1,9 @@
 ---
-title: Enum FillType
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.FillType Sıralama. Doldurulabilir bir nesnenin doldurma türünü belirtir.
+title: FillType Enum
+linktitle: FillType
+articleTitle: FillType
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.FillType Sıralama. Doldurulabilir bir nesnenin doldurma türünü belirtir C#'da.
 type: docs
 weight: 960
 url: /tr/net/aspose.words.drawing/filltype/
@@ -29,5 +31,3 @@ public enum FillType
 
 * ad alanı [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../)
-
-

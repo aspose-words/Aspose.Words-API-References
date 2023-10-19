@@ -1,7 +1,9 @@
 ---
 title: IFieldResultFormatter.FormatNumeric
-second_title: Aspose.Words for .NET API Referansı
-description: IFieldResultFormatter yöntem. Aspose.Words sayısal bir format anahtarı uyguladığında çağrılır yani  ..
+linktitle: FormatNumeric
+articleTitle: FormatNumeric
+second_title: Aspose.Words for .NET
+description: IFieldResultFormatter FormatNumeric yöntem. Aspose.Words sayısal bir format anahtarı uyguladığında çağrılır yani   C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fields/ifieldresultformatter/formatnumeric/
@@ -14,11 +16,11 @@ Aspose.Words sayısal bir format anahtarı uyguladığında çağrılır, yani \
 public string FormatNumeric(double value, string format)
 ```
 
-### Notlar
+## Notlar
 
 Uygulama geri dönmeli`hükümsüz` varsayılan biçimlendirmenin uygulanması gerektiğini belirtmek için.
 
-### Örnekler
+## Örnekler
 
 Alanlar güncellenirken özel bir biçimin alan sonuçlarına otomatik olarak nasıl uygulanacağını gösterir.
 
@@ -155,7 +157,5 @@ private class FieldResultFormatter : IFieldResultFormatter
 ### Ayrıca bakınız
 
 * interface [IFieldResultFormatter](../)
-* ad alanı [Aspose.Words.Fields](../../ifieldresultformatter/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

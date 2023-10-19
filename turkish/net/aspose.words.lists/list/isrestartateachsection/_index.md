@@ -1,7 +1,9 @@
 ---
 title: List.IsRestartAtEachSection
-second_title: Aspose.Words for .NET API Referansı
-description: List mülk. Listenin her bölümde yeniden başlatılıp başlatılmayacağını belirtir. Varsayılan değerYANLIŞ .
+linktitle: IsRestartAtEachSection
+articleTitle: IsRestartAtEachSection
+second_title: Aspose.Words for .NET
+description: List IsRestartAtEachSection mülk. Listenin her bölümde yeniden başlatılıp başlatılmayacağını belirtir. Varsayılan değerYANLIŞ  C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.lists/list/isrestartateachsection/
@@ -14,13 +16,13 @@ Listenin her bölümde yeniden başlatılıp başlatılmayacağını belirtir. V
 public bool IsRestartAtEachSection { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu seçenek yalnızca RTF, DOC ve DOCX belge formatlarında desteklenir.
 
 Bu seçenek yalnızca şu durumlarda DOCX'e yazılacaktır:[`OoxmlCompliance`](../../../aspose.words.saving/ooxmlcompliance/) o zaman daha yüksekEcma376_2006.
 
-### Örnekler
+## Örnekler
 
 Her bölümde numaralandırmayı yeniden başlatmak için bir listenin nasıl yapılandırılacağını gösterir.
 
@@ -58,7 +60,5 @@ Assert.AreEqual(restartListAtEachSection, doc.Lists[0].IsRestartAtEachSection);
 ### Ayrıca bakınız
 
 * class [List](../)
-* ad alanı [Aspose.Words.Lists](../../list/)
+* ad alanı [Aspose.Words.Lists](../../../aspose.words.lists/)
 * toplantı [Aspose.Words](../../../)
-
-

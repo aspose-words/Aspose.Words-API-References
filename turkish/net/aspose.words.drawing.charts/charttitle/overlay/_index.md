@@ -1,9 +1,11 @@
 ---
 title: ChartTitle.Overlay
-second_title: Aspose.Words for .NET API Referansı
-description: ChartTitle mülk. Diğer grafik öğelerinin başlıkla örtüşmesine izin verilip verilmeyeceğini belirler. Varsayılan olarak yer paylaşımıYANLIŞ .
+linktitle: Overlay
+articleTitle: Overlay
+second_title: Aspose.Words for .NET
+description: ChartTitle Overlay mülk. Diğer grafik öğelerinin başlıkla örtüşmesine izin verilip verilmeyeceğini belirler. Varsayılan olarak yer paylaşımıYANLIŞ  C#'da.
 type: docs
-weight: 20
+weight: 10
 url: /tr/net/aspose.words.drawing.charts/charttitle/overlay/
 ---
 ## ChartTitle.Overlay property
@@ -14,7 +16,7 @@ Diğer grafik öğelerinin başlıkla örtüşmesine izin verilip verilmeyeceği
 public bool Overlay { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Grafiğin nasıl ekleneceğini ve başlığın nasıl ayarlanacağını gösterir.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "Charts.ChartTitle.docx");
 ### Ayrıca bakınız
 
 * class [ChartTitle](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../charttitle/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

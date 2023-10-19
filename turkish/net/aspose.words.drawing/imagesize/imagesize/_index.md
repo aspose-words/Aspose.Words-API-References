@@ -1,12 +1,14 @@
 ---
-title: ImageSize.ImageSize
-second_title: Aspose.Words for .NET API Referansı
-description: ImageSize inşaatçı. Genişlik ve yüksekliği piksel cinsinden verilen değerlere göre başlatır. Çözünürlüğü 96 dpi olarak başlatır.
+title: ImageSize
+linktitle: ImageSize
+articleTitle: ImageSize
+second_title: Aspose.Words for .NET
+description: ImageSize inşaatçı. Genişlik ve yüksekliği piksel cinsinden verilen değerlere göre başlatır. Çözünürlüğü 96 dpi olarak başlatır C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.drawing/imagesize/imagesize/
 ---
-## ImageSize(int, int) {#constructor}
+## ImageSize(*int, int*) {#constructor}
 
 Genişlik ve yüksekliği piksel cinsinden verilen değerlere göre başlatır. Çözünürlüğü 96 dpi olarak başlatır.
 
@@ -22,12 +24,12 @@ public ImageSize(int widthPixels, int heightPixels)
 ### Ayrıca bakınız
 
 * class [ImageSize](../)
-* ad alanı [Aspose.Words.Drawing](../../imagesize/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## ImageSize(int, int, double, double) {#constructor_1}
+## ImageSize(*int, int, double, double*) {#constructor_1}
 
 Genişliği, yüksekliği ve çözünürlüğü verilen değerlere göre başlatır.
 
@@ -46,7 +48,5 @@ public ImageSize(int widthPixels, int heightPixels, double horizontalResolution,
 ### Ayrıca bakınız
 
 * class [ImageSize](../)
-* ad alanı [Aspose.Words.Drawing](../../imagesize/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

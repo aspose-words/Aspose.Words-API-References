@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.PreblendImages
-second_title: Aspose.Words for .NET API Referansı
-description: PdfSaveOptions mülk. Saydam görüntülerin siyah arka plan rengiyle önceden karıştırılıp karıştırılmayacağını belirleyen bir değer alır veya ayarlar.
+linktitle: PreblendImages
+articleTitle: PreblendImages
+second_title: Aspose.Words for .NET
+description: PdfSaveOptions PreblendImages mülk. Saydam görüntülerin siyah arka plan rengiyle önceden karıştırılıp karıştırılmayacağını belirleyen bir değer alır veya ayarlar C#'da.
 type: docs
 weight: 260
 url: /tr/net/aspose.words.saving/pdfsaveoptions/preblendimages/
@@ -14,7 +16,7 @@ Saydam görüntülerin siyah arka plan rengiyle önceden karıştırılıp karı
 public bool PreblendImages { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Görüntülerin önceden harmanlanması, Adobe Reader'da PDF belgesinin görsel görünümünü iyileştirebilir ve kenar yumuşatma bozulmalarını ortadan kaldırabilir.
 
@@ -22,7 +24,7 @@ Görüntülerin önceden harmanlanması, Adobe Reader'da PDF belgesinin görsel 
 
 Varsayılan değer:`YANLIŞ`.
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi PDF'ye kaydederken şeffaf arka planlı görüntülerin nasıl önceden karıştırılacağını gösterir.
 
@@ -69,7 +71,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PreblendImagesNetStandard2.pdf", options
 ### Ayrıca bakınız
 
 * class [PdfSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../pdfsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

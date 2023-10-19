@@ -1,7 +1,9 @@
 ---
-title: Enum BlockImportMode
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Loading.BlockImportMode Sıralama. Blok düzeyindeki öğelerin özelliklerinin HTML tabanlı belgelerden nasıl içe aktarıldığını belirtir.
+title: BlockImportMode Enum
+linktitle: BlockImportMode
+articleTitle: BlockImportMode
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Loading.BlockImportMode Sıralama. Blok düzeyindeki öğelerin özelliklerinin HTML tabanlı belgelerden nasıl içe aktarıldığını belirtir C#'da.
 type: docs
 weight: 3560
 url: /tr/net/aspose.words.loading/blockimportmode/
@@ -21,7 +23,7 @@ public enum BlockImportMode
 | Merge | `0` | Ana blokların özellikleri birleştirilir ve alt öğelerde (örn. paragraflar veya tablolar) saklanır. |
 | Preserve | `1` | Ana blokların özellikleri özel bir mantıksal yapıya aktarılır ve belge düğümlerinden ayrı olarak depolanır. |
 
-### Örnekler
+## Örnekler
 
 Blok düzeyindeki öğelerin özelliklerinin HTML tabanlı belgelerden nasıl içe aktarıldığını gösterir.
 
@@ -49,5 +51,3 @@ doc.Save(ArtifactsDir + "HtmlLoadOptions.BlockImport.docx");
 
 * ad alanı [Aspose.Words.Loading](../../aspose.words.loading/)
 * toplantı [Aspose.Words](../../)
-
-

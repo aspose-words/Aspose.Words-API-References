@@ -1,7 +1,9 @@
 ---
-title: CommentRangeEnd.CommentRangeEnd
-second_title: Aspose.Words for .NET API Referansı
-description: CommentRangeEnd inşaatçı. Bu sınıfın yeni bir örneğini başlatır.
+title: CommentRangeEnd
+linktitle: CommentRangeEnd
+articleTitle: CommentRangeEnd
+second_title: Aspose.Words for .NET
+description: CommentRangeEnd inşaatçı. Bu sınıfın yeni bir örneğini başlatır C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/commentrangeend/commentrangeend/
@@ -19,13 +21,13 @@ public CommentRangeEnd(DocumentBase doc, int id)
 | doc | DocumentBase | Sahibi belgesi. |
 | id | Int32 | Bu nesnenin bağlı olduğu yorum tanımlayıcısı. |
 
-### Notlar
+## Notlar
 
 Ne zaman[`CommentRangeEnd`](../) oluşturulduysa, belirtilen belgeye aittir ancak henüz değildir ve belgenin bir parçası değildir ve[`ParentNode`](../../node/parentnode/) dır-dir`hükümsüz`.
 
 Eklemek için[`CommentRangeEnd`](../) belgede yorumun eklenmesini istediğiniz paragrafta InsertAfter veya InsertBefore kullanın.
 
-### Örnekler
+## Örnekler
 
 Bir belge ziyaretçisi kullanılarak tüm yorumların içeriğinin ve yorum aralıklarının nasıl yazdırıldığını gösterir.
 
@@ -187,7 +189,5 @@ public class CommentInfoPrinter : DocumentVisitor
 
 * class [DocumentBase](../../documentbase/)
 * class [CommentRangeEnd](../)
-* ad alanı [Aspose.Words](../../commentrangeend/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

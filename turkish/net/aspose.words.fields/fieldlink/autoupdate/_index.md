@@ -1,7 +1,9 @@
 ---
 title: FieldLink.AutoUpdate
-second_title: Aspose.Words for .NET API Referansı
-description: FieldLink mülk. Bu alanın otomatik olarak güncellenip güncellenmeyeceğini alır veya ayarlar.
+linktitle: AutoUpdate
+articleTitle: AutoUpdate
+second_title: Aspose.Words for .NET
+description: FieldLink AutoUpdate mülk. Bu alanın otomatik olarak güncellenip güncellenmeyeceğini alır veya ayarlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fieldlink/autoupdate/
@@ -14,7 +16,7 @@ Bu alanın otomatik olarak güncellenip güncellenmeyeceğini alır veya ayarlar
 public bool AutoUpdate { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Yerel dosya sistemindeki diğer belgelere bağlanmak ve içeriklerini görüntülemek için çeşitli alan türlerinin nasıl kullanılacağını gösterir.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### Ayrıca bakınız
 
 * class [FieldLink](../)
-* ad alanı [Aspose.Words.Fields](../../fieldlink/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

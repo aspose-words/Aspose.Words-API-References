@@ -1,7 +1,9 @@
 ---
 title: FieldMergeBarcode.CaseCodeStyle
-second_title: Aspose.Words for .NET API Referansı
-description: FieldMergeBarcode mülk. ITF14 barkod tipi için Vaka Kodunun stilini alır veya ayarlar. Geçerli değerler şunlardır STDEXTADD
+linktitle: CaseCodeStyle
+articleTitle: CaseCodeStyle
+second_title: Aspose.Words for .NET
+description: FieldMergeBarcode CaseCodeStyle mülk. ITF14 barkod tipi için Vaka Kodunun stilini alır veya ayarlar. Geçerli değerler şunlardır STDEXTADD C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.fields/fieldmergebarcode/casecodestyle/
@@ -14,7 +16,7 @@ ITF14 barkod tipi için Vaka Kodunun stilini alır veya ayarlar. Geçerli değer
 public string CaseCodeStyle { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 ITF14 barkodlarında adres-mektup birleştirmenin nasıl gerçekleştirileceğini gösterir.
 
@@ -55,7 +57,5 @@ doc.Save(ArtifactsDir + "Field.MERGEBARCODE.ITF14.docx");
 ### Ayrıca bakınız
 
 * class [FieldMergeBarcode](../)
-* ad alanı [Aspose.Words.Fields](../../fieldmergebarcode/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: GroupShape.GroupShape
-second_title: Aspose.Words for .NET API Referansı
-description: GroupShape inşaatçı. Yeni bir grup şekli oluşturur.
+title: GroupShape
+linktitle: GroupShape
+articleTitle: GroupShape
+second_title: Aspose.Words for .NET
+description: GroupShape inşaatçı. Yeni bir grup şekli oluşturur C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.drawing/groupshape/groupshape/
@@ -18,13 +20,13 @@ public GroupShape(DocumentBase doc)
 | --- | --- | --- |
 | doc | DocumentBase | Sahibi belgesi. |
 
-### Notlar
+## Notlar
 
 Varsayılan olarak şekil kayandır ve varsayılan konuma ve boyuta sahiptir.
 
 Şekil oluşturduktan sonra istediğiniz şekil özelliklerini belirtmelisiniz.
 
-### Örnekler
+## Örnekler
 
 Bir şekil grubunun nasıl oluşturulacağını ve bir belge ziyaretçisi kullanılarak içeriğinin nasıl yazdırılacağını gösterir.
 
@@ -116,7 +118,5 @@ public class ShapeGroupPrinter : DocumentVisitor
 
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * class [GroupShape](../)
-* ad alanı [Aspose.Words.Drawing](../../groupshape/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

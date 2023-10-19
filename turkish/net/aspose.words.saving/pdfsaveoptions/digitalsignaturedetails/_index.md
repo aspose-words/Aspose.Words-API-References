@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.DigitalSignatureDetails
-second_title: Aspose.Words for .NET API Referansı
-description: PdfSaveOptions mülk. Çıktı PDF belgesinin imzalanmasıyla ilgili ayrıntıları alır veya ayarlar.
+linktitle: DigitalSignatureDetails
+articleTitle: DigitalSignatureDetails
+second_title: Aspose.Words for .NET
+description: PdfSaveOptions DigitalSignatureDetails mülk. Çıktı PDF belgesinin imzalanmasıyla ilgili ayrıntıları alır veya ayarlar C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.saving/pdfsaveoptions/digitalsignaturedetails/
@@ -14,11 +16,11 @@ url: /tr/net/aspose.words.saving/pdfsaveoptions/digitalsignaturedetails/
 public PdfDigitalSignatureDetails DigitalSignatureDetails { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:`hükümsüz`ve çıktı belgesi imzalanmayacaktır. Bu özellik geçerli bir değere ayarlandığında[`PdfDigitalSignatureDetails`](../../pdfdigitalsignaturedetails/) object, sonra çıktı PDF belgesi dijital olarak imzalanacaktır.
 
-### Örnekler
+## Örnekler
 
 Oluşturulan bir PDF belgesinin nasıl imzalanacağını gösterir.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 
 * class [PdfDigitalSignatureDetails](../../pdfdigitalsignaturedetails/)
 * class [PdfSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../pdfsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

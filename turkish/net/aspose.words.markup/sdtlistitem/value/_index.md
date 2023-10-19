@@ -1,7 +1,9 @@
 ---
 title: SdtListItem.Value
-second_title: Aspose.Words for .NET API Referansı
-description: SdtListItem mülk. Bu liste öğesinin değerini alır.
+linktitle: Value
+articleTitle: Value
+second_title: Aspose.Words for .NET
+description: SdtListItem Value mülk. Bu liste öğesinin değerini alır C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.markup/sdtlistitem/value/
@@ -14,11 +16,11 @@ Bu liste öğesinin değerini alır.
 public string Value { get; }
 ```
 
-### Notlar
+## Notlar
 
 Olamaz`hükümsüz` ve boş bir dize olamaz.
 
-### Örnekler
+## Örnekler
 
 Açılır liste yapılandırılmış belge etiketleriyle nasıl çalışılacağını gösterir.
 
@@ -75,7 +77,5 @@ Assert.AreEqual(0, listItems.Count);
 ### Ayrıca bakınız
 
 * class [SdtListItem](../)
-* ad alanı [Aspose.Words.Markup](../../sdtlistitem/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

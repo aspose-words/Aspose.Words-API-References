@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.LocalToParent
-second_title: Aspose.Words for .NET API Referansı
-description: ShapeBase yöntem. Yerel koordinat alanından bir değeri üst şeklin koordinat alanına dönüştürür.
+linktitle: LocalToParent
+articleTitle: LocalToParent
+second_title: Aspose.Words for .NET
+description: ShapeBase LocalToParent yöntem. Yerel koordinat alanından bir değeri üst şeklin koordinat alanına dönüştürür C#'da.
 type: docs
 weight: 670
 url: /tr/net/aspose.words.drawing/shapebase/localtoparent/
@@ -14,7 +16,7 @@ Yerel koordinat alanından bir değeri üst şeklin koordinat alanına dönüşt
 public PointF LocalToParent(PointF value)
 ```
 
-### Örnekler
+## Örnekler
 
 Bir şeklin koordinat düzlemindeki x ve y koordinat konumunun üst şeklin koordinat düzlemindeki bir konuma nasıl çevrileceğini gösterir.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Shape.LocalToParent.docx");
 ### Ayrıca bakınız
 
 * class [ShapeBase](../)
-* ad alanı [Aspose.Words.Drawing](../../shapebase/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

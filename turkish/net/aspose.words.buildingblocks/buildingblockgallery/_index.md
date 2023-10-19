@@ -1,7 +1,9 @@
 ---
-title: Enum BuildingBlockGallery
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.BuildingBlocks.BuildingBlockGallery Sıralama. Bir yapı bloğunun sınıflandırıldığı önceden tanımlanmış galeriyi belirtir.
+title: BuildingBlockGallery Enum
+linktitle: BuildingBlockGallery
+articleTitle: BuildingBlockGallery
+second_title: Aspose.Words for .NET
+description: Aspose.Words.BuildingBlocks.BuildingBlockGallery Sıralama. Bir yapı bloğunun sınıflandırıldığı önceden tanımlanmış galeriyi belirtir C#'da.
 type: docs
 weight: 160
 url: /tr/net/aspose.words.buildingblocks/buildingblockgallery/
@@ -58,11 +60,11 @@ public enum BuildingBlockGallery
 | Watermarks | `37` |  |
 | Default | `0` | Şununla aynıAll . |
 
-### Notlar
+## Notlar
 
-karşılık gelir **ST_DocPartGalerisi** OOXML yazın.
+karşılık gelir**ST_DocPartGalerisi** OOXML yazın.
 
-### Örnekler
+## Örnekler
 
 Bir sözlük belgesinde yapı taşlarına erişmenin yollarını gösterir.
 
@@ -167,5 +169,3 @@ public class GlossaryDocVisitor : DocumentVisitor
 
 * ad alanı [Aspose.Words.BuildingBlocks](../../aspose.words.buildingblocks/)
 * toplantı [Aspose.Words](../../)
-
-

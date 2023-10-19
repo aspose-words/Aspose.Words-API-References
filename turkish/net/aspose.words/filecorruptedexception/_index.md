@@ -1,7 +1,9 @@
 ---
-title: Class FileCorruptedException
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.FileCorruptedException sınıf. Belge yükleme sırasında belge bozuk göründüğünde ve yüklenmesi imkansız olduğunda atılır.
+title: FileCorruptedException Class
+linktitle: FileCorruptedException
+articleTitle: FileCorruptedException
+second_title: Aspose.Words for .NET
+description: Aspose.Words.FileCorruptedException sınıf. Belge yükleme sırasında belge bozuk göründüğünde ve yüklenmesi imkansız olduğunda atılır C#'da.
 type: docs
 weight: 2800
 url: /tr/net/aspose.words/filecorruptedexception/
@@ -16,7 +18,7 @@ Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Belgelerle Programlam
 public class FileCorruptedException : Exception
 ```
 
-### Örnekler
+## Örnekler
 
 FileCorruptedException'ın nasıl yakalanacağını gösterir.
 
@@ -37,5 +39,3 @@ catch (FileCorruptedException e)
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

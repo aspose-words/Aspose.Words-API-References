@@ -1,7 +1,9 @@
 ---
-title: Class ComHelper
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.ComHelper sınıf. COM istemcilerinin Aspose.Wordse belge yüklemesi için yöntemler sağlar.
+title: ComHelper Class
+linktitle: ComHelper
+articleTitle: ComHelper
+second_title: Aspose.Words for .NET
+description: Aspose.Words.ComHelper sınıf. COM istemcilerinin Aspose.Wordse belge yüklemesi için yöntemler sağlar C#'da.
 type: docs
 weight: 220
 url: /tr/net/aspose.words/comhelper/
@@ -24,17 +26,17 @@ public class ComHelper
 
 | İsim | Tanım |
 | --- | --- |
-| [Open](../../aspose.words/comhelper/open/#open)(Stream) | Bir COM uygulamasının yüklenmesine izin verir[`Document`](../document/) bir akıştan. |
-| [Open](../../aspose.words/comhelper/open/#open_1)(string) | COM uygulamasının bir dosya yüklemesine izin verir.[`Document`](../document/) bir dosyadan. |
-| [OpenIStream](../../aspose.words/comhelper/openistream/)(IStream) | COM uygulamasının bir dosya yüklemesine izin verir.[`Document`](../document/) bir IStream nesnesinden. |
+| [Open](../../aspose.words/comhelper/open/#open)(*Stream*) | Bir COM uygulamasının yüklenmesine izin verir[`Document`](../document/) bir akıştan. |
+| [Open](../../aspose.words/comhelper/open/#open_1)(*string*) | COM uygulamasının bir dosya yüklemesine izin verir.[`Document`](../document/) bir dosyadan. |
+| [OpenIStream](../../aspose.words/comhelper/openistream/)(*IStream*) | COM uygulamasının bir dosya yüklemesine izin verir.[`Document`](../document/) bir IStream nesnesinden. |
 
-### Notlar
+## Notlar
 
 Kullan`ComHelper` bir dosyadan veya akıştan bir belgeyi 'ye yüklemek için sınıf[`Document`](../document/) COM uygulamasındaki nesne.
 
 [`Document`](../document/) sınıfı, yeni bir document oluşturmak için varsayılan bir kurucu sağlar ve ayrıca bir dosyadan veya akıştan belge yüklemek için aşırı yüklenmiş kurucular sağlar. Aspose.Words'ü bir .NET uygulamasından kullanıyorsanız, tüm[`Document`](../document/) yapıcılarını doğrudan kullanın, ancak Aspose.Words'ü bir COM uygulamasından kullanıyorsanız, yalnızca varsayılandır[`Document`](../document/) yapıcı mevcuttur.
 
-### Örnekler
+## Örnekler
 
 ```csharp
 [VBScript]
@@ -70,5 +72,3 @@ using (FileStream stream = new FileStream(MyDir + "Document.docx", FileMode.Open
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PageSetup.Bidi
-second_title: Aspose.Words for .NET API Referansı
-description: PageSetup mülk. Bu bölümün çift yönlü karmaşık komut dosyaları metin içerdiğini belirtir.
+linktitle: Bidi
+articleTitle: Bidi
+second_title: Aspose.Words for .NET
+description: PageSetup Bidi mülk. Bu bölümün çift yönlü karmaşık komut dosyaları metin içerdiğini belirtir C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/pagesetup/bidi/
@@ -14,11 +16,11 @@ Bu bölümün çift yönlü (karmaşık komut dosyaları) metin içerdiğini bel
 public bool Bidi { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Ne zaman`doğru`bu bölümdeki sütunlar sağdan sola doğru düzenlenmiştir.
 
-### Örnekler
+## Örnekler
 
 Bir bölümdeki metin sütunlarının sırasının nasıl ayarlanacağını gösterir.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "PageSetup.Bidi.docx");
 ### Ayrıca bakınız
 
 * class [PageSetup](../)
-* ad alanı [Aspose.Words](../../pagesetup/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

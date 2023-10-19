@@ -1,7 +1,9 @@
 ---
-title: Class FontInfoSubstitutionRule
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Fonts.FontInfoSubstitutionRule sınıf. Yazı tipi bilgisi değiştirme kuralı.
+title: FontInfoSubstitutionRule Class
+linktitle: FontInfoSubstitutionRule
+articleTitle: FontInfoSubstitutionRule
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Fonts.FontInfoSubstitutionRule sınıf. Yazı tipi bilgisi değiştirme kuralı C#'da.
 type: docs
 weight: 2940
 url: /tr/net/aspose.words.fonts/fontinfosubstitutionrule/
@@ -22,11 +24,11 @@ public class FontInfoSubstitutionRule : FontSubstitutionRule
 | --- | --- |
 | virtual [Enabled](../../aspose.words.fonts/fontsubstitutionrule/enabled/) { get; set; } | Kuralın etkin olup olmadığını belirtir. |
 
-### Notlar
+## Notlar
 
 Aspose.Words bu kurala göre ilgili tüm alanları değerlendirir.[`FontInfo`](../fontinfo/) (Panose, Sig vb.) for eksik yazı tipini bulur ve mevcut yazı tipi kaynakları arasında en yakın eşleşmeyi bulur. Eğer[`FontInfo`](../fontinfo/)eksik yazı tipi için not mevcut değilse hiçbir şey yapılmayacaktır.
 
-### Örnekler
+## Örnekler
 
 Mevcut yazı tipi kaynaklarından eksik bir yazı tipi için en yakın eşleşmeyi bulma özelliğinin nasıl ayarlanacağını gösterir.
 
@@ -88,5 +90,3 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 * class [FontSubstitutionRule](../fontsubstitutionrule/)
 * ad alanı [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../)
-
-

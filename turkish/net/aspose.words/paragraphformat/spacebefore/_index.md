@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.SpaceBefore
-second_title: Aspose.Words for .NET API Referansı
-description: ParagraphFormat mülk. Paragraftan önceki boşluk miktarını nokta cinsinden alır veya ayarlar.
+linktitle: SpaceBefore
+articleTitle: SpaceBefore
+second_title: Aspose.Words for .NET
+description: ParagraphFormat SpaceBefore mülk. Paragraftan önceki boşluk miktarını nokta cinsinden alır veya ayarlar C#'da.
 type: docs
 weight: 320
 url: /tr/net/aspose.words/paragraphformat/spacebefore/
@@ -20,13 +22,13 @@ public double SpaceBefore { get; set; }
 | --- | --- |
 | ArgumentOutOfRangeException | Bağımsız değişken geçerli değerler aralığının dışında olduğunda atar. |
 
-### Notlar
+## Notlar
 
 Hiçbir etkisi yoktur[`SpaceBeforeAuto`](../spacebeforeauto/) dır-dir`doğru`.
 
 Geçerli değerler 0 ila 1584 (dahil) arasındadır.
 
-### Örnekler
+## Örnekler
 
 Otomatik paragraf aralığının nasıl ayarlanacağını gösterir.
 
@@ -84,7 +86,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.ParagraphSpacingSameStyle.docx");
 ### Ayrıca bakınız
 
 * class [ParagraphFormat](../)
-* ad alanı [Aspose.Words](../../paragraphformat/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

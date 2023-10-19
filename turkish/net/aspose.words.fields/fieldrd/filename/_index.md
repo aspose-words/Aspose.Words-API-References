@@ -1,7 +1,9 @@
 ---
 title: FieldRD.FileName
-second_title: Aspose.Words for .NET API Referansı
-description: FieldRD mülk. İçindekiler tablosu yetki tablosu veya dizin oluşturulurken eklenecek dosyanın adını alır veya ayarlar.
+linktitle: FileName
+articleTitle: FileName
+second_title: Aspose.Words for .NET
+description: FieldRD FileName mülk. İçindekiler tablosu yetki tablosu veya dizin oluşturulurken eklenecek dosyanın adını alır veya ayarlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fieldrd/filename/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.fields/fieldrd/filename/
 public string FileName { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Diğer belgelerdeki başlıklardan bir içindekiler tablosu girişleri oluşturmak için RD alanının nasıl kullanılacağını gösterir.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Field.RD.docx");
 ### Ayrıca bakınız
 
 * class [FieldRD](../)
-* ad alanı [Aspose.Words.Fields](../../fieldrd/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

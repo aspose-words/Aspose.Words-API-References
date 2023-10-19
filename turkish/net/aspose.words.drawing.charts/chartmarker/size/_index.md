@@ -1,7 +1,9 @@
 ---
 title: ChartMarker.Size
-second_title: Aspose.Words for .NET API Referansı
-description: ChartMarker mülk. Grafik işaretleyici boyutunu alır veya ayarlar. Varsayılan değer 7.
+linktitle: Size
+articleTitle: Size
+second_title: Aspose.Words for .NET
+description: ChartMarker Size mülk. Grafik işaretleyici boyutunu alır veya ayarlar. Varsayılan değer 7 C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.drawing.charts/chartmarker/size/
@@ -14,7 +16,7 @@ Grafik işaretleyici boyutunu alır veya ayarlar. Varsayılan değer 7.
 public int Size { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Çizgi grafikte veri noktalarıyla nasıl çalışılacağını gösterir.
 
@@ -76,7 +78,5 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 ### Ayrıca bakınız
 
 * class [ChartMarker](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartmarker/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

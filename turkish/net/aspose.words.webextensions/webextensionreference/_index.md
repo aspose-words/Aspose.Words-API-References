@@ -1,7 +1,9 @@
 ---
-title: Class WebExtensionReference
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.WebExtensions.WebExtensionReference sınıf. Bir web uzantısına yapılan başvuruyu temsil eder. Referans the extension. sağlayıcı konumunu ve sürümünü tanımlamak için kullanılır.
+title: WebExtensionReference Class
+linktitle: WebExtensionReference
+articleTitle: WebExtensionReference
+second_title: Aspose.Words for .NET
+description: Aspose.Words.WebExtensions.WebExtensionReference sınıf. Bir web uzantısına yapılan başvuruyu temsil eder. Referans the extension. sağlayıcı konumunu ve sürümünü tanımlamak için kullanılır C#'da.
 type: docs
 weight: 6800
 url: /tr/net/aspose.words.webextensions/webextensionreference/
@@ -35,5 +37,3 @@ public class WebExtensionReference
 
 * ad alanı [Aspose.Words.WebExtensions](../../aspose.words.webextensions/)
 * toplantı [Aspose.Words](../../)
-
-

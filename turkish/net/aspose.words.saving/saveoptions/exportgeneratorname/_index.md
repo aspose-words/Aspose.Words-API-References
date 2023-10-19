@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.ExportGeneratorName
-second_title: Aspose.Words for .NET API Referansı
-description: SaveOptions mülk. Ne zamandoğru  Aspose.Wordsün adının ve sürümünün üretilen dosyalara yerleştirilmesine neden olur. Varsayılan değerdoğru .
+linktitle: ExportGeneratorName
+articleTitle: ExportGeneratorName
+second_title: Aspose.Words for .NET
+description: SaveOptions ExportGeneratorName mülk. Ne zamandoğru  Aspose.Wordsün adının ve sürümünün üretilen dosyalara yerleştirilmesine neden olur. Varsayılan değerdoğru  C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words.saving/saveoptions/exportgeneratorname/
@@ -14,7 +16,7 @@ Ne zaman`doğru` , Aspose.Words'ün adının ve sürümünün üretilen dosyalar
 public bool ExportGeneratorName { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Aspose.Words'ün adının ve sürümünün üretilen dosyalara eklenmesinin nasıl devre dışı bırakılacağını gösterir.
 
@@ -30,7 +32,5 @@ doc.Save(ArtifactsDir + "OoxmlSaveOptions.ExportGeneratorName.docx", saveOptions
 ### Ayrıca bakınız
 
 * class [SaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../saveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

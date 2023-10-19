@@ -1,7 +1,9 @@
 ---
-title: Class Metered
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Metered sınıf. Ölçülü anahtarı ayarlamak için yöntemler sağlar.
+title: Metered Class
+linktitle: Metered
+articleTitle: Metered
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Metered sınıf. Ölçülü anahtarı ayarlamak için yöntemler sağlar C#'da.
 type: docs
 weight: 4160
 url: /tr/net/aspose.words/metered/
@@ -26,11 +28,11 @@ public class Metered
 
 | İsim | Tanım |
 | --- | --- |
-| [SetMeteredKey](../../aspose.words/metered/setmeteredkey/)(string, string) | Ölçülü genel ve özel anahtarı ayarlar. Ölçülü lisans satın aldıysanız uygulamayı başlattığınızda bu API'nin çağrılması gerekir, normalde bu yeterlidir. Bununla birlikte, tüketim verilerinin yüklenmesinde her zaman başarısız olunması ve 24 saatin aşılması durumunda, lisans değerlendirme durumuna ayarlanacaktır, böyle bir durumu önlemek için, lisans durumunu düzenli olarak kontrol etmelisiniz, değerlendirme durumu ise bu API'yi tekrar çağırın. |
+| [SetMeteredKey](../../aspose.words/metered/setmeteredkey/)(*string, string*) | Ölçülü genel ve özel anahtarı ayarlar. Ölçülü lisans satın aldıysanız uygulamayı başlattığınızda bu API'nin çağrılması gerekir, normalde bu yeterlidir. Bununla birlikte, tüketim verilerinin yüklenmesinde her zaman başarısız olunması ve 24 saatin aşılması durumunda, lisans değerlendirme durumuna ayarlanacaktır, böyle bir durumu önlemek için, lisans durumunu düzenli olarak kontrol etmelisiniz, değerlendirme durumu ise bu API'yi tekrar çağırın. |
 | static [GetConsumptionCredit](../../aspose.words/metered/getconsumptioncredit/)() | Tüketim kredisi alır |
 | static [GetConsumptionQuantity](../../aspose.words/metered/getconsumptionquantity/)() | Tüketim dosyasının boyutunu alır |
 
-### Örnekler
+## Örnekler
 
 Bu örnekte, ölçülü genel ve özel anahtar ayarlanmaya çalışılacaktır
 
@@ -73,5 +75,3 @@ Console.WriteLine($"Consumption quantity after operation: {Metered.GetConsumptio
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

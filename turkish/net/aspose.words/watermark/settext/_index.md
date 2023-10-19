@@ -1,12 +1,14 @@
 ---
 title: Watermark.SetText
-second_title: Aspose.Words for .NET API Referansı
-description: Watermark yöntem. Belgeye Metin filigranı ekler.
+linktitle: SetText
+articleTitle: SetText
+second_title: Aspose.Words for .NET
+description: Watermark SetText yöntem. Belgeye Metin filigranı ekler C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words/watermark/settext/
 ---
-## SetText(string) {#settext}
+## SetText(*string*) {#settext}
 
 Belgeye Metin filigranı ekler.
 
@@ -25,11 +27,11 @@ public void SetText(string text)
 | ArgumentOutOfRangeException | Metin uzunluğu aralık dışında olduğunda veya metin yalnızca boşluklar içerdiğinde atar. |
 | ArgumentNullException | Metin olduğunda atar`hükümsüz` . |
 
-### Notlar
+## Notlar
 
 Metin uzunluğu 1 ile 200 arasında olmalıdır. Metin değiştirilemez`hükümsüz` veya yalnızca boşluk içerir.
 
-### Örnekler
+## Örnekler
 
 Metin filigranının nasıl oluşturulacağını gösterir.
 
@@ -60,12 +62,12 @@ if (doc.Watermark.Type == WatermarkType.Text)
 ### Ayrıca bakınız
 
 * class [Watermark](../)
-* ad alanı [Aspose.Words](../../watermark/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## SetText(string, TextWatermarkOptions) {#settext_1}
+## SetText(*string, [TextWatermarkOptions](../../textwatermarkoptions/)*) {#settext_1}
 
 Belgeye Metin filigranı ekler.
 
@@ -85,13 +87,13 @@ public void SetText(string text, TextWatermarkOptions options)
 | ArgumentOutOfRangeException | Metin uzunluğu aralık dışında olduğunda veya metin yalnızca boşluklar içerdiğinde atar. |
 | ArgumentNullException | Metin olduğunda atar`hükümsüz` . |
 
-### Notlar
+## Notlar
 
 Metin uzunluğu 1 ile 200 arasında olmalıdır. Metin değiştirilemez`hükümsüz` veya yalnızca boşluk içerir.
 
 Eğer[`TextWatermarkOptions`](../../textwatermarkoptions/) dır-dir`hükümsüz`filigran varsayılan seçeneklerle ayarlanacaktır.
 
-### Örnekler
+## Örnekler
 
 Metin filigranının nasıl oluşturulacağını gösterir.
 
@@ -123,7 +125,5 @@ if (doc.Watermark.Type == WatermarkType.Text)
 
 * class [TextWatermarkOptions](../../textwatermarkoptions/)
 * class [Watermark](../)
-* ad alanı [Aspose.Words](../../watermark/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

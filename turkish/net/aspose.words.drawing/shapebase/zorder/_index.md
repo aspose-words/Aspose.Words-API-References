@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.ZOrder
-second_title: Aspose.Words for .NET API Referansı
-description: ShapeBase mülk. Çakışan şekillerin görüntülenme sırasını belirler.
+linktitle: ZOrder
+articleTitle: ZOrder
+second_title: Aspose.Words for .NET
+description: ShapeBase ZOrder mülk. Çakışan şekillerin görüntülenme sırasını belirler C#'da.
 type: docs
 weight: 610
 url: /tr/net/aspose.words.drawing/shapebase/zorder/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.drawing/shapebase/zorder/
 public int ZOrder { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Yalnızca üst düzey şekiller için etkilidir.
 
@@ -26,7 +28,7 @@ Sayı istifleme önceliğini temsil eder. Daha yüksek sayıya sahip bir şekil,
 
 Bir grup şeklindeki alt şekillerin görüntülenme sırası, grup şekli içindeki order ile belirlenir.
 
-### Örnekler
+## Örnekler
 
 Şekillerin sırasının nasıl değiştirileceğini gösterir.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Shape.ZOrder.docx");
 ### Ayrıca bakınız
 
 * class [ShapeBase](../)
-* ad alanı [Aspose.Words.Drawing](../../shapebase/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

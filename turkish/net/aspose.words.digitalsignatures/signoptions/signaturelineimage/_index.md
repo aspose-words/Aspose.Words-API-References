@@ -1,7 +1,9 @@
 ---
 title: SignOptions.SignatureLineImage
-second_title: Aspose.Words for .NET API Referansı
-description: SignOptions mülk. İlgili alanda gösterilecek resimSignatureLine . Varsayılan değerhükümsüz .
+linktitle: SignatureLineImage
+articleTitle: SignatureLineImage
+second_title: Aspose.Words for .NET
+description: SignOptions SignatureLineImage mülk. İlgili alanda gösterilecek resimSignatureLine . Varsayılan değerhükümsüz  C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.digitalsignatures/signoptions/signaturelineimage/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.digitalsignatures/signoptions/signaturelineimage/
 public byte[] SignatureLineImage { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgeye imza satırının nasıl ekleneceğini ve ardından dijital sertifika kullanarak nasıl imzalanacağını gösterir.
 
@@ -130,7 +132,5 @@ Bir belgeye imza satırının nasıl ekleneceğini ve ardından dijital sertifik
 ### Ayrıca bakınız
 
 * class [SignOptions](../)
-* ad alanı [Aspose.Words.DigitalSignatures](../../signoptions/)
+* ad alanı [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * toplantı [Aspose.Words](../../../)
-
-

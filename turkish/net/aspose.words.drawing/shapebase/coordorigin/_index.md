@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.CoordOrigin
-second_title: Aspose.Words for .NET API Referansı
-description: ShapeBase mülk. Bu şeklin bulunduğu bloğun sol üst köşesindeki koordinatlar.
+linktitle: CoordOrigin
+articleTitle: CoordOrigin
+second_title: Aspose.Words for .NET
+description: ShapeBase CoordOrigin mülk. Bu şeklin bulunduğu bloğun sol üst köşesindeki koordinatlar C#'da.
 type: docs
 weight: 110
 url: /tr/net/aspose.words.drawing/shapebase/coordorigin/
@@ -14,11 +16,11 @@ Bu şeklin bulunduğu bloğun sol üst köşesindeki koordinatlar.
 public Point CoordOrigin { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer (0,0)'dır.
 
-### Örnekler
+## Örnekler
 
 Bir şeklin koordinat düzlemindeki x ve y koordinat konumunun üst şeklin koordinat düzlemindeki bir konuma nasıl çevrileceğini gösterir.
 
@@ -164,7 +166,5 @@ doc.Save(ArtifactsDir + "Shape.GroupShape.docx");
 ### Ayrıca bakınız
 
 * class [ShapeBase](../)
-* ad alanı [Aspose.Words.Drawing](../../shapebase/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

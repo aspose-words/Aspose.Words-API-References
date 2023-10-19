@@ -1,7 +1,9 @@
 ---
 title: WebExtension.Reference
-second_title: Aspose.Words for .NET API Referansı
-description: WebExtension mülk. Bir web uzantısına yönelik birincil referansı belirtir.
+linktitle: Reference
+articleTitle: Reference
+second_title: Aspose.Words for .NET
+description: WebExtension Reference mülk. Bir web uzantısına yönelik birincil referansı belirtir C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.webextensions/webextension/reference/
@@ -14,7 +16,7 @@ Bir web uzantısına yönelik birincil referansı belirtir.
 public WebExtensionReference Reference { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgeye nasıl web uzantısı ekleneceğini gösterir.
 
@@ -60,7 +62,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * class [WebExtensionReference](../../webextensionreference/)
 * class [WebExtension](../)
-* ad alanı [Aspose.Words.WebExtensions](../../webextension/)
+* ad alanı [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * toplantı [Aspose.Words](../../../)
-
-

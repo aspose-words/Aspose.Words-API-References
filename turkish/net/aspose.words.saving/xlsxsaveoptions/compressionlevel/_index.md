@@ -1,7 +1,9 @@
 ---
 title: XlsxSaveOptions.CompressionLevel
-second_title: Aspose.Words for .NET API Referansı
-description: XlsxSaveOptions mülk. Belgeyi kaydetmek için kullanılan sıkıştırma düzeyini belirtir. Varsayılan değerNormal .
+linktitle: CompressionLevel
+articleTitle: CompressionLevel
+second_title: Aspose.Words for .NET
+description: XlsxSaveOptions CompressionLevel mülk. Belgeyi kaydetmek için kullanılan sıkıştırma düzeyini belirtir. Varsayılan değerNormal  C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.saving/xlsxsaveoptions/compressionlevel/
@@ -14,7 +16,7 @@ Belgeyi kaydetmek için kullanılan sıkıştırma düzeyini belirtir. Varsayıl
 public CompressionLevel CompressionLevel { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 XLSX belgesinin nasıl sıkıştırılacağını gösterir.
 
@@ -31,7 +33,5 @@ doc.Save(ArtifactsDir + "XlsxSaveOptions.CompressXlsx.xlsx", xlsxSaveOptions);
 
 * enum [CompressionLevel](../../compressionlevel/)
 * class [XlsxSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../xlsxsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

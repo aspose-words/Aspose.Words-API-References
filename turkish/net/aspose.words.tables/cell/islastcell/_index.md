@@ -1,7 +1,9 @@
 ---
 title: Cell.IsLastCell
-second_title: Aspose.Words for .NET API Referansı
-description: Cell mülk. Bu bir satırın içindeki son hücreyse doğrudur aksi halde yanlış.
+linktitle: IsLastCell
+articleTitle: IsLastCell
+second_title: Aspose.Words for .NET
+description: Cell IsLastCell mülk. Bu bir satırın içindeki son hücreyse doğrudur aksi halde yanlış C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.tables/cell/islastcell/
@@ -14,7 +16,7 @@ Bu, bir satırın içindeki son hücreyse doğrudur; aksi halde yanlış.
 public bool IsLastCell { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki her tablonun düğüm yapısının nasıl yazdırılacağını gösterir.
 
@@ -177,7 +179,5 @@ public class TableStructurePrinter : DocumentVisitor
 ### Ayrıca bakınız
 
 * class [Cell](../)
-* ad alanı [Aspose.Words.Tables](../../cell/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

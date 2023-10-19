@@ -1,7 +1,9 @@
 ---
 title: Font.Bidi
-second_title: Aspose.Words for .NET API Referansı
-description: Font mülk. Bu çalıştırmanın içeriğinin sağdan sola özelliklerine sahip olup olmayacağını belirtir.
+linktitle: Bidi
+articleTitle: Bidi
+second_title: Aspose.Words for .NET
+description: Font Bidi mülk. Bu çalıştırmanın içeriğinin sağdan sola özelliklerine sahip olup olmayacağını belirtir C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/font/bidi/
@@ -14,7 +16,7 @@ Bu çalıştırmanın içeriğinin sağdan sola özelliklerine sahip olup olmaya
 public bool Bidi { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özellik açıkken soldan sağa güçlü metinlerle kullanılmayacaktır. Bu koşul altında herhangi bir davranış belirtilmemiştir. Bu özellik kapalıyken sağdan sola güçlü metinlerle kullanılmayacaktır. Bu koşul altındaki herhangi bir davranış belirtilmemiştir.
 
@@ -22,7 +24,7 @@ Bu çalıştırmanın içeriği görüntülendiğinde, tüm karakterler, biçiml
 
 Ayrıca, bu çalıştırmanın içeriği görüntülendiğinde bu özellik, "zayıf türler" ve "nötr türler" olarak sınıflandırılan karakterler için sağdan sola geçersiz kılma işlevi görür.
 
-### Örnekler
+## Örnekler
 
 Sağdan sola ve sağdan sola metin için ayrı yazı tipi ayarları kümelerinin nasıl tanımlanacağını gösterir.
 
@@ -61,7 +63,5 @@ doc.Save(ArtifactsDir + "Font.Bidi.docx");
 ### Ayrıca bakınız
 
 * class [Font](../)
-* ad alanı [Aspose.Words](../../font/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

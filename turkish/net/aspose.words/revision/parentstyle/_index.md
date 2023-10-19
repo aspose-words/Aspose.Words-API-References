@@ -1,7 +1,9 @@
 ---
 title: Revision.ParentStyle
-second_title: Aspose.Words for .NET API Referansı
-description: Revision mülk. Bu revizyonun doğrudan ana stilini sahibini alır. Bu özellik yalnızcaStyleDefinitionChange revizyon tipi.
+linktitle: ParentStyle
+articleTitle: ParentStyle
+second_title: Aspose.Words for .NET
+description: Revision ParentStyle mülk. Bu revizyonun doğrudan ana stilini sahibini alır. Bu özellik yalnızcaStyleDefinitionChange revizyon tipi C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words/revision/parentstyle/
@@ -14,11 +16,11 @@ Bu revizyonun doğrudan ana stilini (sahibini) alır. Bu özellik yalnızcaStyle
 public Style ParentStyle { get; }
 ```
 
-### Notlar
+## Notlar
 
 Bu revizyon belge düğümlerindeki değişikliklerle ilgiliyse şunu kullanın:[`ParentNode`](../parentnode/) bunun yerine.
 
-### Örnekler
+## Örnekler
 
 Bir belgenin düzeltme koleksiyonuyla nasıl çalışılacağını gösterir.
 
@@ -75,7 +77,5 @@ Assert.AreEqual(0, revisions.Count);
 
 * class [Style](../../style/)
 * class [Revision](../)
-* ad alanı [Aspose.Words](../../revision/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

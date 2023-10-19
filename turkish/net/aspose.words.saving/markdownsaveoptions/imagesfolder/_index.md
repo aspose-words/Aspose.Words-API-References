@@ -1,7 +1,9 @@
 ---
 title: MarkdownSaveOptions.ImagesFolder
-second_title: Aspose.Words for .NET API Referansı
-description: MarkdownSaveOptions mülk. Bir belgeyi ye aktarırken görüntülerin kaydedildiği fiziksel klasörü belirtir.Markdown biçim. Varsayılan boş bir dizedir.
+linktitle: ImagesFolder
+articleTitle: ImagesFolder
+second_title: Aspose.Words for .NET
+description: MarkdownSaveOptions ImagesFolder mülk. Bir belgeyi ye aktarırken görüntülerin kaydedildiği fiziksel klasörü belirtir.Markdown biçim. Varsayılan boş bir dizedir C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.saving/markdownsaveoptions/imagesfolder/
@@ -14,7 +16,7 @@ Bir belgeyi 'ye aktarırken görüntülerin kaydedildiği fiziksel klasörü bel
 public string ImagesFolder { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bir dosyayı kaydettiğinizde[`Document`](../../../aspose.words/document/) içindeMarkdownformat, Aspose.Words'ün belgeye gömülü tüm görselleri bağımsız dosyalar olarak kaydetmesi gerekiyor. `ImagesFolder` görüntülerin nereye kaydedileceğini belirtmenizi sağlar.
 
@@ -24,7 +26,7 @@ Bir belgeyi bir akışa kaydederseniz, Aspose.Words'de görüntülerin kaydedile
 
 Eğer belirtilen klasör`ImagesFolder` mevcut değil, otomatik olarak oluşturulacak.
 
-### Örnekler
+## Örnekler
 
 Görüntü URI'lerini oluşturmak için kullanılan klasörün adının nasıl belirleneceğini gösterir.
 
@@ -69,7 +71,5 @@ builder.Document.Save(ArtifactsDir + "MarkdownSaveOptions.ImagesFolder.md", save
 ### Ayrıca bakınız
 
 * class [MarkdownSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../markdownsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Theme.Theme
-second_title: Aspose.Words for .NET API Referansı
-description: Theme inşaatçı. Default_Constructor
+title: Theme
+linktitle: Theme
+articleTitle: Theme
+second_title: Aspose.Words for .NET
+description: Theme inşaatçı. Default_Constructor C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.themes/theme/theme/
@@ -17,7 +19,5 @@ public Theme()
 ### Ayrıca bakınız
 
 * class [Theme](../)
-* ad alanı [Aspose.Words.Themes](../../theme/)
+* ad alanı [Aspose.Words.Themes](../../../aspose.words.themes/)
 * toplantı [Aspose.Words](../../../)
-
-

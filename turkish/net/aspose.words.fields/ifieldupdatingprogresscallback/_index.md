@@ -1,7 +1,9 @@
 ---
-title: Interface IFieldUpdatingProgressCallback
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Fields.IFieldUpdatingProgressCallback arayüz. Saha güncelleme sürecini izlemek istiyorsanız bu arayüzü uygulayın.
+title: IFieldUpdatingProgressCallback Interface
+linktitle: IFieldUpdatingProgressCallback
+articleTitle: IFieldUpdatingProgressCallback
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Fields.IFieldUpdatingProgressCallback arayüz. Saha güncelleme sürecini izlemek istiyorsanız bu arayüzü uygulayın C#'da.
 type: docs
 weight: 2730
 url: /tr/net/aspose.words.fields/ifieldupdatingprogresscallback/
@@ -18,9 +20,9 @@ public interface IFieldUpdatingProgressCallback
 
 | İsim | Tanım |
 | --- | --- |
-| [Notify](../../aspose.words.fields/ifieldupdatingprogresscallback/notify/)(FieldUpdatingProgressArgs) | Güncelleme ilerleme durumu değiştirildiğinde çağrılan kullanıcı tanımlı bir yöntem. |
+| [Notify](../../aspose.words.fields/ifieldupdatingprogresscallback/notify/)(*[FieldUpdatingProgressArgs](../fieldupdatingprogressargs/)*) | Güncelleme ilerleme durumu değiştirildiğinde çağrılan kullanıcı tanımlı bir yöntem. |
 
-### Örnekler
+## Örnekler
 
 Alan güncellemesi sırasında geri çağırma yöntemlerinin nasıl kullanılacağını gösterir.
 
@@ -89,5 +91,3 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgr
 
 * ad alanı [Aspose.Words.Fields](../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../)
-
-

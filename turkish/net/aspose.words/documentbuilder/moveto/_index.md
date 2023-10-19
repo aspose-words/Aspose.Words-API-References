@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.MoveTo
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentBuilder yöntem. İmleci satır içi düğüme veya paragrafın sonuna taşır.
+linktitle: MoveTo
+articleTitle: MoveTo
+second_title: Aspose.Words for .NET
+description: DocumentBuilder MoveTo yöntem. İmleci satır içi düğüme veya paragrafın sonuna taşır C#'da.
 type: docs
-weight: 490
+weight: 480
 url: /tr/net/aspose.words/documentbuilder/moveto/
 ---
 ## DocumentBuilder.MoveTo method
@@ -18,7 +20,7 @@ public void MoveTo(Node node)
 | --- | --- | --- |
 | node | Node | Düğüm bir paragraf veya paragrafın doğrudan alt öğesi olmalıdır. |
 
-### Notlar
+## Notlar
 
 Ne zamandüğüm satır içi düzeyde bir düğümdür, imleç bu node 'ye taşınır ve bu düğümden önce daha fazla içerik eklenir.
 
@@ -26,7 +28,7 @@ Ne zamandüğüm bir[`Paragraph`](../../paragraph/), imleç paragraf 'nin sonuna
 
 Ne zamandüğüm blok düzeyinde bir düğümdür ancak[`Paragraph`](../../paragraph/), imleç ilk paragrafın sonuna, blok düzeyindeki düğüm 'ye taşınır ve paragraf sonunun hemen öncesine daha fazla içerik eklenir.
 
-### Örnekler
+## Örnekler
 
 DocumentBuilder'ın imleç konumunun belirli bir düğüme nasıl taşınacağını gösterir.
 
@@ -108,7 +110,5 @@ Assert.IsTrue(builder.IsAtStartOfParagraph);
 
 * class [Node](../../node/)
 * class [DocumentBuilder](../)
-* ad alanı [Aspose.Words](../../documentbuilder/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

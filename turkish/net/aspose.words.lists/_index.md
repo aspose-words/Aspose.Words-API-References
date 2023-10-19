@@ -1,7 +1,9 @@
 ---
 title: Aspose.Words.Lists
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Lists ad alanı bir belgede tanımlanmış madde işaretli ve numaralı listelerle birlikte çalışma için sınıflar içerir.
+linktitle: Aspose.Words.Lists
+articleTitle: Aspose.Words.Lists
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Lists ad alanı bir belgede tanımlanmış madde işaretli ve numaralı listelerle birlikte çalışma için sınıflar içerir C#'da.
 type: docs
 weight: 120
 url: /tr/net/aspose.words.lists/
@@ -25,5 +27,3 @@ url: /tr/net/aspose.words.lists/
 | [ListLevelAlignment](./listlevelalignment/) | Liste numarası veya madde işareti için hizalamayı belirtir. |
 | [ListTemplate](./listtemplate/) | Microsoft Word'de bulunan önceden tanımlanmış liste formatlarından birini belirtir. |
 | [ListTrailingCharacter](./listtrailingcharacter/) | Liste etiketini paragraf metninden ayıran karakteri belirtir. |
-
-

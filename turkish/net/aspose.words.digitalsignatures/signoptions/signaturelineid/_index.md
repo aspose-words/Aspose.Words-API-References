@@ -1,24 +1,26 @@
 ---
 title: SignOptions.SignatureLineId
-second_title: Aspose.Words for .NET API Referansı
-description: SignOptions mülk. İmza satırı tanımlayıcısı. Varsayılan değer Boş tümü sıfır Kılavuz .
+linktitle: SignatureLineId
+articleTitle: SignatureLineId
+second_title: Aspose.Words for .NET
+description: SignOptions SignatureLineId mülk. İmza satırı tanımlayıcısı. Varsayılan değerBoş tümü sıfır Kılavuz  C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.digitalsignatures/signoptions/signaturelineid/
 ---
 ## SignOptions.SignatureLineId property
 
-İmza satırı tanımlayıcısı. Varsayılan değer: **Boş (tümü sıfır) Kılavuz** .
+İmza satırı tanımlayıcısı. Varsayılan değer:**Boş (tümü sıfır) Kılavuz** .
 
 ```csharp
 public Guid SignatureLineId { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Ayarlandığında ilişkilendirilir[`SignatureLine`](../../../aspose.words.drawing/signatureline/) karşılık gelen[`DigitalSignature`](../../digitalsignature/) .
 
-### Örnekler
+## Örnekler
 
 Bir belgeye imza satırının nasıl ekleneceğini ve ardından dijital sertifika kullanarak nasıl imzalanacağını gösterir.
 
@@ -134,7 +136,5 @@ Bir belgeye imza satırının nasıl ekleneceğini ve ardından dijital sertifik
 ### Ayrıca bakınız
 
 * class [SignOptions](../)
-* ad alanı [Aspose.Words.DigitalSignatures](../../signoptions/)
+* ad alanı [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * toplantı [Aspose.Words](../../../)
-
-

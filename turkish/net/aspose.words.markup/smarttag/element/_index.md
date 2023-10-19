@@ -1,7 +1,9 @@
 ---
 title: SmartTag.Element
-second_title: Aspose.Words for .NET API Referansı
-description: SmartTag mülk. Belge içindeki akıllı etiketin adını belirtir.
+linktitle: Element
+articleTitle: Element
+second_title: Aspose.Words for .NET
+description: SmartTag Element mülk. Belge içindeki akıllı etiketin adını belirtir C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.markup/smarttag/element/
@@ -14,13 +16,13 @@ Belge içindeki akıllı etiketin adını belirtir.
 public string Element { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Olamaz`hükümsüz`.
 
 Varsayılan boş dizedir.
 
-### Örnekler
+## Örnekler
 
 Akıllı etiketlerin nasıl oluşturulacağını gösterir.
 
@@ -121,7 +123,5 @@ private class SmartTagPrinter : DocumentVisitor
 ### Ayrıca bakınız
 
 * class [SmartTag](../)
-* ad alanı [Aspose.Words.Markup](../../smarttag/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

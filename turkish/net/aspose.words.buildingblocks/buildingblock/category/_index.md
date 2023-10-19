@@ -1,7 +1,9 @@
 ---
 title: BuildingBlock.Category
-second_title: Aspose.Words for .NET API Referansı
-description: BuildingBlock mülk. Yapı taşı için ikinci düzey kategorizasyonu belirtir.
+linktitle: Category
+articleTitle: Category
+second_title: Aspose.Words for .NET
+description: BuildingBlock Category mülk. Yapı taşı için ikinci düzey kategorizasyonu belirtir C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.buildingblocks/buildingblock/category/
@@ -14,15 +16,15 @@ Yapı taşı için ikinci düzey kategorizasyonu belirtir.
 public string Category { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Microsoft Word kullanıcı arayüzündeki yapı taşları Galeriler halinde olarak düzenlenmiştir. Her biri[`Gallery`](../gallery/) birden fazla Kategoriye sahip olabilir. a içindeki her blok`Category` bir var[`Name`](../name/).
 
 Olamaz`hükümsüz` ve boş bir dize olamaz.
 
-karşılık gelir **docPartPr.kategori.adı** OOXML'deki öğe.
+karşılık gelir**docPartPr.kategori.adı** OOXML'deki öğe.
 
-### Örnekler
+## Örnekler
 
 Bir belgeye özel yapı taşının nasıl ekleneceğini gösterir.
 
@@ -119,7 +121,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 ### Ayrıca bakınız
 
 * class [BuildingBlock](../)
-* ad alanı [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* ad alanı [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * toplantı [Aspose.Words](../../../)
-
-

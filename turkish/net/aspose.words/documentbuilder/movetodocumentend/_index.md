@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.MoveToDocumentEnd
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentBuilder yöntem. İmleci belgenin sonuna taşır.
+linktitle: MoveToDocumentEnd
+articleTitle: MoveToDocumentEnd
+second_title: Aspose.Words for .NET
+description: DocumentBuilder MoveToDocumentEnd yöntem. İmleci belgenin sonuna taşır C#'da.
 type: docs
-weight: 520
+weight: 510
 url: /tr/net/aspose.words/documentbuilder/movetodocumentend/
 ---
 ## DocumentBuilder.MoveToDocumentEnd method
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words/documentbuilder/movetodocumentend/
 public void MoveToDocumentEnd()
 ```
 
-### Örnekler
+## Örnekler
 
 Belge oluşturucunun imlecinin belgedeki farklı düğümlere nasıl taşınacağını gösterir.
 
@@ -68,7 +70,5 @@ Assert.IsTrue(builder.IsAtStartOfParagraph);
 ### Ayrıca bakınız
 
 * class [DocumentBuilder](../)
-* ad alanı [Aspose.Words](../../documentbuilder/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

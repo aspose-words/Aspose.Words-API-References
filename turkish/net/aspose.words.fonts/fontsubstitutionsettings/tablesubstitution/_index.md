@@ -1,7 +1,9 @@
 ---
 title: FontSubstitutionSettings.TableSubstitution
-second_title: Aspose.Words for .NET API Referansı
-description: FontSubstitutionSettings mülk. Tablo değiştirme kuralıyla ilgili ayarlar.
+linktitle: TableSubstitution
+articleTitle: TableSubstitution
+second_title: Aspose.Words for .NET
+description: FontSubstitutionSettings TableSubstitution mülk. Tablo değiştirme kuralıyla ilgili ayarlar C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.fonts/fontsubstitutionsettings/tablesubstitution/
@@ -14,7 +16,7 @@ Tablo değiştirme kuralıyla ilgili ayarlar.
 public TableSubstitutionRule TableSubstitution { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Özel yazı tipi değiştirme tablolarıyla nasıl çalışılacağını gösterir.
 
@@ -76,7 +78,5 @@ doc.Save(ArtifactsDir + "FontSettings.TableSubstitutionRule.Custom.pdf");
 
 * class [TableSubstitutionRule](../../tablesubstitutionrule/)
 * class [FontSubstitutionSettings](../)
-* ad alanı [Aspose.Words.Fonts](../../fontsubstitutionsettings/)
+* ad alanı [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../../)
-
-

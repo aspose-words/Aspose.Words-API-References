@@ -1,7 +1,9 @@
 ---
 title: GradientStop.BaseColor
-second_title: Aspose.Words for .NET API Referansı
-description: GradientStop mülk. Herhangi bir değiştirici olmadan degrade durağının rengini temsil eden bir değer alır.
+linktitle: BaseColor
+articleTitle: BaseColor
+second_title: Aspose.Words for .NET
+description: GradientStop BaseColor mülk. Herhangi bir değiştirici olmadan degrade durağının rengini temsil eden bir değer alır C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.drawing/gradientstop/basecolor/
@@ -14,7 +16,7 @@ Herhangi bir değiştirici olmadan degrade durağının rengini temsil eden bir 
 public Color BaseColor { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Degrade dolgusuna degrade duraklarının nasıl ekleneceğini gösterir.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 ### Ayrıca bakınız
 
 * class [GradientStop](../)
-* ad alanı [Aspose.Words.Drawing](../../gradientstop/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

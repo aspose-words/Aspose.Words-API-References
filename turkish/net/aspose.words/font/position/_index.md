@@ -1,7 +1,9 @@
 ---
 title: Font.Position
-second_title: Aspose.Words for .NET API Referansı
-description: Font mülk. Metnin konumunu nokta cinsinden taban çizgisine göre alır veya ayarlar. Pozitif bir sayı metni yükseltir negatif bir sayı ise alçaltır.
+linktitle: Position
+articleTitle: Position
+second_title: Aspose.Words for .NET
+description: Font Position mülk. Metnin konumunu nokta cinsinden taban çizgisine göre alır veya ayarlar. Pozitif bir sayı metni yükseltir negatif bir sayı ise alçaltır C#'da.
 type: docs
 weight: 300
 url: /tr/net/aspose.words/font/position/
@@ -14,7 +16,7 @@ Metnin konumunu (nokta cinsinden) taban çizgisine göre alır veya ayarlar. Poz
 public double Position { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Konumunu dengelemek için metnin nasıl biçimlendirileceğini gösterir.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Font.PositionSubscript.docx");
 ### Ayrıca bakınız
 
 * class [Font](../)
-* ad alanı [Aspose.Words](../../font/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

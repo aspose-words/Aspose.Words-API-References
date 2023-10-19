@@ -1,7 +1,9 @@
 ---
 title: DocumentPropertyCollection.RemoveAt
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentPropertyCollection yöntem. Belirtilen dizindeki bir özelliği kaldırır.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words for .NET
+description: DocumentPropertyCollection RemoveAt yöntem. Belirtilen dizindeki bir özelliği kaldırır C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words.properties/documentpropertycollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | Sıfır tabanlı endeks. |
 
-### Örnekler
+## Örnekler
 
 Bir belgenin özel özellikleriyle nasıl çalışılacağını gösterir.
 
@@ -78,7 +80,5 @@ Assert.AreEqual(0, properties.Count);
 ### Ayrıca bakınız
 
 * class [DocumentPropertyCollection](../)
-* ad alanı [Aspose.Words.Properties](../../documentpropertycollection/)
+* ad alanı [Aspose.Words.Properties](../../../aspose.words.properties/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Paragraph.BreakIsStyleSeparator
-second_title: Aspose.Words for .NET API Referansı
-description: Paragraph mülk. Bu paragraf sonu bir Stil Ayırıcı ise doğrudur. Stil ayırıcı one paragrafının farklı paragraf stillerine sahip parçalardan oluşmasına olanak tanır.
+linktitle: BreakIsStyleSeparator
+articleTitle: BreakIsStyleSeparator
+second_title: Aspose.Words for .NET
+description: Paragraph BreakIsStyleSeparator mülk. Bu paragraf sonu bir Stil Ayırıcı ise doğrudur. Stil ayırıcı one paragrafının farklı paragraf stillerine sahip parçalardan oluşmasına olanak tanır C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/paragraph/breakisstyleseparator/
@@ -14,7 +16,7 @@ Bu paragraf sonu bir Stil Ayırıcı ise doğrudur. Stil ayırıcı, one paragra
 public bool BreakIsStyleSeparator { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 İçindekiler başlığıyla aynı satıra nasıl metin yazılacağını ve içindekiler tablosunda görünmesinin nasıl sağlanacağını gösterir.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Paragraph.BreakIsStyleSeparator.docx");
 ### Ayrıca bakınız
 
 * class [Paragraph](../)
-* ad alanı [Aspose.Words](../../paragraph/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

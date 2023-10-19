@@ -1,7 +1,9 @@
 ---
 title: Document.LastSection
-second_title: Aspose.Words for .NET API Referansı
-description: Document mülk. Belgedeki son bölümü alır.
+linktitle: LastSection
+articleTitle: LastSection
+second_title: Aspose.Words for .NET
+description: Document LastSection mülk. Belgedeki son bölümü alır C#'da.
 type: docs
 weight: 240
 url: /tr/net/aspose.words/document/lastsection/
@@ -14,11 +16,11 @@ Belgedeki son bölümü alır.
 public Section LastSection { get; }
 ```
 
-### Notlar
+## Notlar
 
 İadeler`hükümsüz` bölüm yoksa.
 
-### Örnekler
+## Örnekler
 
 Belge oluşturucuyla yeni bir bölümün nasıl oluşturulacağını gösterir.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Section.Create.docx");
 
 * class [Section](../../section/)
 * class [Document](../)
-* ad alanı [Aspose.Words](../../document/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

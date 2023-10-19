@@ -1,7 +1,9 @@
 ---
 title: FontInfoCollection.Contains
-second_title: Aspose.Words for .NET API Referansı
-description: FontInfoCollection yöntem. Koleksiyonun verilen adda bir yazı tipi içerip içermediğini belirler.
+linktitle: Contains
+articleTitle: Contains
+second_title: Aspose.Words for .NET
+description: FontInfoCollection Contains yöntem. Koleksiyonun verilen adda bir yazı tipi içerip içermediğini belirler C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.fonts/fontinfocollection/contains/
@@ -22,7 +24,7 @@ public bool Contains(string name)
 
 `doğru` öğe koleksiyonda bulunursa; aksi takdirde,`YANLIŞ`.
 
-### Örnekler
+## Örnekler
 
 Boş belgede bulunan yazı tipleri hakkındaki bilgileri gösterir.
 
@@ -43,7 +45,5 @@ Assert.True(doc.FontInfos.Contains("Arial"));
 ### Ayrıca bakınız
 
 * class [FontInfoCollection](../)
-* ad alanı [Aspose.Words.Fonts](../../fontinfocollection/)
+* ad alanı [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../../)
-
-

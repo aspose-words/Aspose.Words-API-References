@@ -1,7 +1,9 @@
 ---
 title: FieldToc.UpdatePageNumbers
-second_title: Aspose.Words for .NET API Referansı
-description: FieldToc yöntem. Bu içindekiler tablosundaki öğelerin sayfa numaralarını günceller.
+linktitle: UpdatePageNumbers
+articleTitle: UpdatePageNumbers
+second_title: Aspose.Words for .NET
+description: FieldToc UpdatePageNumbers yöntem. Bu içindekiler tablosundaki öğelerin sayfa numaralarını günceller C#'da.
 type: docs
 weight: 180
 url: /tr/net/aspose.words.fields/fieldtoc/updatepagenumbers/
@@ -18,7 +20,7 @@ public bool UpdatePageNumbers()
 
 `doğru` operasyon başarılı olursa. İlgili TOC yer işaretlerinden herhangi biri kaldırılmışsa,`YANLIŞ` iade edilecektir.
 
-### Örnekler
+## Örnekler
 
 İçindekiler tablosunun nasıl ekleneceğini ve başlık stillerine göre girdilerle nasıl doldurulacağını gösterir.
 
@@ -103,7 +105,5 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 ### Ayrıca bakınız
 
 * class [FieldToc](../)
-* ad alanı [Aspose.Words.Fields](../../fieldtoc/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

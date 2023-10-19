@@ -1,7 +1,9 @@
 ---
 title: FieldHyperlink.OpenInNewWindow
-second_title: Aspose.Words for .NET API Referansı
-description: FieldHyperlink mülk. Hedef sitenin yeni bir web tarayıcı penceresinde açılıp açılmayacağını alır veya ayarlar.
+linktitle: OpenInNewWindow
+articleTitle: OpenInNewWindow
+second_title: Aspose.Words for .NET
+description: FieldHyperlink OpenInNewWindow mülk. Hedef sitenin yeni bir web tarayıcı penceresinde açılıp açılmayacağını alır veya ayarlar C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.fields/fieldhyperlink/openinnewwindow/
@@ -14,7 +16,7 @@ Hedef sitenin yeni bir web tarayıcı penceresinde açılıp açılmayacağını
 public bool OpenInNewWindow { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Yerel dosya sistemindeki belgelere bağlanmak için KÖPRÜ alanlarının nasıl kullanılacağını gösterir.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Field.HYPERLINK.docx");
 ### Ayrıca bakınız
 
 * class [FieldHyperlink](../)
-* ad alanı [Aspose.Words.Fields](../../fieldhyperlink/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

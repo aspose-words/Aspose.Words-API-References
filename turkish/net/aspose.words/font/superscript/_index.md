@@ -1,7 +1,9 @@
 ---
 title: Font.Superscript
-second_title: Aspose.Words for .NET API Referansı
-description: Font mülk. Yazı tipi üst simge olarak biçimlendirilmişse doğrudur.
+linktitle: Superscript
+articleTitle: Superscript
+second_title: Aspose.Words for .NET
+description: Font Superscript mülk. Yazı tipi üst simge olarak biçimlendirilmişse doğrudur C#'da.
 type: docs
 weight: 440
 url: /tr/net/aspose.words/font/superscript/
@@ -14,7 +16,7 @@ Yazı tipi üst simge olarak biçimlendirilmişse doğrudur.
 public bool Superscript { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Konumunu dengelemek için metnin nasıl biçimlendirileceğini gösterir.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Font.PositionSubscript.docx");
 ### Ayrıca bakınız
 
 * class [Font](../)
-* ad alanı [Aspose.Words](../../font/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

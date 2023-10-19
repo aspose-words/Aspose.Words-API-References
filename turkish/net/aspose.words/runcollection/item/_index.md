@@ -1,7 +1,9 @@
 ---
 title: RunCollection.Item
-second_title: Aspose.Words for .NET API Referansı
-description: RunCollection mülk. Bir öğeyi alırRun verilen dizinde.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words for .NET
+description: RunCollection Item mülk. Bir öğeyi alırRun verilen dizinde C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/runcollection/item/
@@ -18,7 +20,7 @@ public Run this[int index] { get; }
 | --- | --- |
 | index | Koleksiyona bir dizin. |
 
-### Notlar
+## Notlar
 
 Endeks sıfır bazlıdır.
 
@@ -28,7 +30,7 @@ Dizin listedeki öğe sayısından büyük veya ona eşitse bu, boş bir başvur
 
 Dizin negatifse ve mutlak değeri listedeki öğe sayısından büyükse bu, boş bir başvuru döndürür.
 
-### Örnekler
+## Örnekler
 
 Satır içi düğümün revizyon türünün nasıl belirleneceğini gösterir.
 
@@ -85,7 +87,5 @@ Assert.IsTrue(runs[5].IsDeleteRevision);
 
 * class [Run](../../run/)
 * class [RunCollection](../)
-* ad alanı [Aspose.Words](../../runcollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

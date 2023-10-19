@@ -1,9 +1,11 @@
 ---
 title: TxtLoadOptions.TrailingSpacesOptions
-second_title: Aspose.Words for .NET API Referansı
-description: TxtLoadOptions mülk. Sondaki boşluk işlemenin tercih edilen seçeneğini alır veya ayarlar. Varsayılan değerTrim .
+linktitle: TrailingSpacesOptions
+articleTitle: TrailingSpacesOptions
+second_title: Aspose.Words for .NET
+description: TxtLoadOptions TrailingSpacesOptions mülk. Sondaki boşluk işlemenin tercih edilen seçeneğini alır veya ayarlar. Varsayılan değerTrim  C#'da.
 type: docs
-weight: 70
+weight: 60
 url: /tr/net/aspose.words.loading/txtloadoptions/trailingspacesoptions/
 ---
 ## TxtLoadOptions.TrailingSpacesOptions property
@@ -14,7 +16,7 @@ Sondaki boşluk işlemenin tercih edilen seçeneğini alır veya ayarlar. Varsay
 public TxtTrailingSpacesOptions TrailingSpacesOptions { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Düz metin belgeleri yüklerken boşlukların nasıl kırpılacağını gösterir.
 
@@ -91,7 +93,5 @@ switch (txtTrailingSpacesOptions)
 
 * enum [TxtTrailingSpacesOptions](../../txttrailingspacesoptions/)
 * class [TxtLoadOptions](../)
-* ad alanı [Aspose.Words.Loading](../../txtloadoptions/)
+* ad alanı [Aspose.Words.Loading](../../../aspose.words.loading/)
 * toplantı [Aspose.Words](../../../)
-
-

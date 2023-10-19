@@ -1,7 +1,9 @@
 ---
 title: PageSetup.OddAndEvenPagesHeaderFooter
-second_title: Aspose.Words for .NET API Referansı
-description: PageSetup mülk. Belgenin tek sayılı ve çift sayılı sayfalar için farklı üstbilgileri ve altbilgileri varsa doğrudur.
+linktitle: OddAndEvenPagesHeaderFooter
+articleTitle: OddAndEvenPagesHeaderFooter
+second_title: Aspose.Words for .NET
+description: PageSetup OddAndEvenPagesHeaderFooter mülk. Belgenin tek sayılı ve çift sayılı sayfalar için farklı üstbilgileri ve altbilgileri varsa doğrudur C#'da.
 type: docs
 weight: 280
 url: /tr/net/aspose.words/pagesetup/oddandevenpagesheaderfooter/
@@ -14,11 +16,11 @@ Belgenin tek sayılı ve çift sayılı sayfalar için farklı üstbilgileri ve 
 public bool OddAndEvenPagesHeaderFooter { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özelliğin değiştirilmesinin belgedeki tüm bölümleri etkileyeceğini unutmayın.
 
-### Örnekler
+## Örnekler
 
 DocumentBuilder'ı kullanarak bir belgede üstbilgilerin ve altbilgilerin nasıl oluşturulacağını gösterir.
 
@@ -91,7 +93,5 @@ doc.Save(ArtifactsDir + "PageSetup.OddAndEvenPagesHeaderFooter.docx");
 ### Ayrıca bakınız
 
 * class [PageSetup](../)
-* ad alanı [Aspose.Words](../../pagesetup/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

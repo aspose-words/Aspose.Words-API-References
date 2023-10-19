@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.PageNumberSeparator
-second_title: Aspose.Words for .NET API Referansı
-description: FieldIndex mülk. Bir dizin girişini ve onun sayfa numarasını ayırmak için kullanılan karakter sırasını alır veya ayarlar.
+linktitle: PageNumberSeparator
+articleTitle: PageNumberSeparator
+second_title: Aspose.Words for .NET
+description: FieldIndex PageNumberSeparator mülk. Bir dizin girişini ve onun sayfa numarasını ayırmak için kullanılan karakter sırasını alır veya ayarlar C#'da.
 type: docs
 weight: 120
 url: /tr/net/aspose.words.fields/fieldindex/pagenumberseparator/
@@ -14,7 +16,7 @@ Bir dizin girişini ve onun sayfa numarasını ayırmak için kullanılan karakt
 public string PageNumberSeparator { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir INDEX alanında sayfa numarası ayırıcısının nasıl düzenleneceğini gösterir.
 
@@ -61,7 +63,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.PageNumberList.docx");
 ### Ayrıca bakınız
 
 * class [FieldIndex](../)
-* ad alanı [Aspose.Words.Fields](../../fieldindex/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

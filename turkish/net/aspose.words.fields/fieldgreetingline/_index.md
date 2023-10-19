@@ -1,7 +1,9 @@
 ---
-title: Class FieldGreetingLine
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Fields.FieldGreetingLine sınıf. GREETINGLINE alanını uygular.
+title: FieldGreetingLine Class
+linktitle: FieldGreetingLine
+articleTitle: FieldGreetingLine
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Fields.FieldGreetingLine sınıf. GREETINGLINE alanını uygular C#'da.
 type: docs
 weight: 1980
 url: /tr/net/aspose.words.fields/fieldgreetingline/
@@ -45,18 +47,18 @@ public class FieldGreetingLine : Field
 | İsim | Tanım |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Alan başlangıcı ile alan ayırıcı (veya ayırıcı yoksa alan sonu) arasındaki metni döndürür. Alt alanların hem alan kodu hem de alan sonucu dahil edilir. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Alan başlangıcı ile alan ayırıcı (veya ayırıcı yoksa alan sonu) arasındaki metni döndürür. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Alan başlangıcı ile alan ayırıcı (veya ayırıcı yoksa alan sonu) arasındaki metni döndürür. |
 | [GetFieldNames](../../aspose.words.fields/fieldgreetingline/getfieldnames/)() | Alan tarafından kullanılan adres-mektup birleştirme alan adlarının bir koleksiyonunu döndürür. |
 | [Remove](../../aspose.words.fields/field/remove/)() | Alanı belgeden kaldırır. Alanın hemen ardından bir düğüm döndürür. Alanın sonu, üst düğümünün son child 'si ise, üst paragrafını döndürür. Alan zaten kaldırılmışsa şunu döndürür:`hükümsüz` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Alanın bağlantısını kaldırır. |
 | [Update](../../aspose.words.fields/field/update/)() | Alan güncellemesini gerçekleştirir. Alan zaten güncelleniyorsa atar. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Bir alan güncellemesi gerçekleştirir. Alan zaten güncelleniyorsa atar. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Bir alan güncellemesi gerçekleştirir. Alan zaten güncelleniyorsa atar. |
 
-### Notlar
+## Notlar
 
 Adres mektup birleştirme karşılama satırı ekler.
 
-### Örnekler
+## Örnekler
 
 GREETINGLINE alanının nasıl ekleneceğini gösterir.
 
@@ -118,5 +120,3 @@ Assert.AreEqual("Dear Mr. Doe,\r\r\tThis is your custom greeting, created progra
 * class [Field](../field/)
 * ad alanı [Aspose.Words.Fields](../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../)
-
-

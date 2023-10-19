@@ -1,7 +1,9 @@
 ---
 title: Field.GetFieldCode
-second_title: Aspose.Words for .NET API Referansı
-description: Field yöntem. Alan başlangıcı ile alan ayırıcı veya ayırıcı yoksa alan sonu arasındaki metni döndürür. Alt alanların hem alan kodu hem de alan sonucu dahil edilir.
+linktitle: GetFieldCode
+articleTitle: GetFieldCode
+second_title: Aspose.Words for .NET
+description: Field GetFieldCode yöntem. Alan başlangıcı ile alan ayırıcı veya ayırıcı yoksa alan sonu arasındaki metni döndürür. Alt alanların hem alan kodu hem de alan sonucu dahil edilir C#'da.
 type: docs
 weight: 110
 url: /tr/net/aspose.words.fields/field/getfieldcode/
@@ -14,7 +16,7 @@ Alan başlangıcı ile alan ayırıcı (veya ayırıcı yoksa alan sonu) arasın
 public string GetFieldCode()
 ```
 
-### Örnekler
+## Örnekler
 
 Alan kodu kullanarak belgeye nasıl alan ekleneceğini gösterir.
 
@@ -53,12 +55,12 @@ Assert.AreEqual(fieldIf.GetFieldCode(), fieldIf.GetFieldCode(true));
 ### Ayrıca bakınız
 
 * class [Field](../)
-* ad alanı [Aspose.Words.Fields](../../field/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## GetFieldCode(bool) {#getfieldcode_1}
+## GetFieldCode(*bool*) {#getfieldcode_1}
 
 Alan başlangıcı ile alan ayırıcı (veya ayırıcı yoksa alan sonu) arasındaki metni döndürür.
 
@@ -70,7 +72,7 @@ public string GetFieldCode(bool includeChildFieldCodes)
 | --- | --- | --- |
 | includeChildFieldCodes | Boolean | `doğru` alt alan kodları dahil edilmeliyse. |
 
-### Örnekler
+## Örnekler
 
 Bir alanın alan kodunun nasıl alınacağını gösterir.
 
@@ -94,7 +96,5 @@ Assert.AreEqual(fieldIf.GetFieldCode(), fieldIf.GetFieldCode(true));
 ### Ayrıca bakınız
 
 * class [Field](../)
-* ad alanı [Aspose.Words.Fields](../../field/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

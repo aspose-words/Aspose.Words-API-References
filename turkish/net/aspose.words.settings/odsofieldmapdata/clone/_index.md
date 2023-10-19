@@ -1,7 +1,9 @@
 ---
 title: OdsoFieldMapData.Clone
-second_title: Aspose.Words for .NET API Referansı
-description: OdsoFieldMapData yöntem. Bu nesnenin derin bir kopyasını döndürür.
+linktitle: Clone
+articleTitle: Clone
+second_title: Aspose.Words for .NET
+description: OdsoFieldMapData Clone yöntem. Bu nesnenin derin bir kopyasını döndürür C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.settings/odsofieldmapdata/clone/
@@ -14,7 +16,7 @@ Bu nesnenin derin bir kopyasını döndürür.
 public OdsoFieldMapData Clone()
 ```
 
-### Örnekler
+## Örnekler
 
 Veri kaynağı sütunlarını birleştirme alanlarıyla eşleştiren veri koleksiyonuna nasıl erişileceğini gösterir.
 
@@ -57,7 +59,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Ayrıca bakınız
 
 * class [OdsoFieldMapData](../)
-* ad alanı [Aspose.Words.Settings](../../odsofieldmapdata/)
+* ad alanı [Aspose.Words.Settings](../../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../../)
-
-

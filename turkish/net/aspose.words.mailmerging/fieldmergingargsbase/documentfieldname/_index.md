@@ -1,7 +1,9 @@
 ---
 title: FieldMergingArgsBase.DocumentFieldName
-second_title: Aspose.Words for .NET API Referansı
-description: FieldMergingArgsBase mülk. Belgede belirtildiği gibi birleştirme alanının adını alır.
+linktitle: DocumentFieldName
+articleTitle: DocumentFieldName
+second_title: Aspose.Words for .NET
+description: FieldMergingArgsBase DocumentFieldName mülk. Belgede belirtildiği gibi birleştirme alanının adını alır C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.mailmerging/fieldmergingargsbase/documentfieldname/
@@ -14,13 +16,13 @@ Belgede belirtildiği gibi birleştirme alanının adını alır.
 public string DocumentFieldName { get; }
 ```
 
-### Notlar
+## Notlar
 
 Bir belge alan adından farklı bir veri kaynağı alan adına ( ) eşlemeniz varsa bu, belgede belirtilen orijinal alan adıdır.
 
 Belgede "Resim:AlanAdım" gibi bir alan adı öneki belirttiyseniz, ardından`DocumentFieldName` "AlanAdım" öneki olmadan alan adını döndürür.
 
-### Örnekler
+## Örnekler
 
 HTML belgeleri biçimindeki birleştirme verilerini işleyen özel bir geri çağırma ile adres-mektup birleştirmenin nasıl yürütüleceğini gösterir.
 
@@ -88,7 +90,5 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 ### Ayrıca bakınız
 
 * class [FieldMergingArgsBase](../)
-* ad alanı [Aspose.Words.MailMerging](../../fieldmergingargsbase/)
+* ad alanı [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * toplantı [Aspose.Words](../../../)
-
-

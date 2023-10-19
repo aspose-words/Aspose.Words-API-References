@@ -1,7 +1,9 @@
 ---
-title: Class NodeList
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.NodeList sınıf. kullanılarak yürütülen bir XPath sorgusuyla eşleşen düğümlerin bir koleksiyonunu temsil eder.SelectNodes yöntem.
+title: NodeList Class
+linktitle: NodeList
+articleTitle: NodeList
+second_title: Aspose.Words for .NET
+description: Aspose.Words.NodeList sınıf. kullanılarak yürütülen bir XPath sorgusuyla eşleşen düğümlerin bir koleksiyonunu temsil eder.SelectNodes yöntem C#'da.
 type: docs
 weight: 4220
 url: /tr/net/aspose.words/nodelist/
@@ -30,7 +32,7 @@ public class NodeList : IEnumerable<Node>
 | [GetEnumerator](../../aspose.words/nodelist/getenumerator/)() | Düğümlerin koleksiyonu üzerinde basit bir "foreach" stili yinelemesi sağlar. |
 | [ToArray](../../aspose.words/nodelist/toarray/)() | Koleksiyondaki tüm düğümleri yeni bir düğüm dizisine kopyalar. |
 
-### Notlar
+## Notlar
 
 `NodeList` tarafından iade edilir[`SelectNodes`](../compositenode/selectnodes/) ve XPath sorgusuyla eşleşen bir koleksiyon düğüm içerir.
 
@@ -38,7 +40,7 @@ public class NodeList : IEnumerable<Node>
 
 Tedavi et`NodeList` koleksiyonu bir "anlık görüntü" koleksiyonu olarak.`NodeList`başlar , "canlı" bir koleksiyon olarak başlar çünkü XPath sorgusu çalıştırıldığında düğümler gerçekte alınmaz. Düğümler yalnızca erişim üzerine alınır ve şu anda düğüm ve ondan önceki tüm düğümler, bir "anlık görüntü" koleksiyonu oluşturacak şekilde önbelleğe alınır.
 
-### Örnekler
+## Örnekler
 
 Bir Word belgesindeki tüm köprülerin nasıl bulunacağını ve ardından URL'lerinin ve görünen adlarının nasıl değiştirileceğini gösterir.
 
@@ -257,5 +259,3 @@ namespace ApiExamples
 * class [Node](../node/)
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

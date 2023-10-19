@@ -1,7 +1,9 @@
 ---
 title: AbsolutePositionTab.Accept
-second_title: Aspose.Words for .NET API Referansı
-description: AbsolutePositionTab yöntem. Ziyaretçi kabul eder.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words for .NET
+description: AbsolutePositionTab Accept yöntem. Ziyaretçi kabul eder C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/absolutepositiontab/accept/
@@ -22,13 +24,13 @@ public override bool Accept(DocumentVisitor visitor)
 
 `YANLIŞ` ziyaretçi numaralandırmanın durdurulmasını talep ederse.
 
-### Notlar
+## Notlar
 
 Aramalar[`VisitAbsolutePositionTab`](../../documentvisitor/visitabsolutepositiontab/).
 
 Daha fazla bilgi için Ziyaretçi tasarım desenine bakın.
 
-### Örnekler
+## Örnekler
 
 Mutlak konum sekmesi karakterlerinin bir belge ziyaretçisiyle nasıl işleneceğini gösterir.
 
@@ -105,7 +107,5 @@ public class DocTextExtractor : DocumentVisitor
 
 * class [DocumentVisitor](../../documentvisitor/)
 * class [AbsolutePositionTab](../)
-* ad alanı [Aspose.Words](../../absolutepositiontab/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

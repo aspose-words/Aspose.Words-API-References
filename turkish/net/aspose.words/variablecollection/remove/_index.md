@@ -1,7 +1,9 @@
 ---
 title: VariableCollection.Remove
-second_title: Aspose.Words for .NET API Referansı
-description: VariableCollection yöntem. Koleksiyondan belirtilen ada sahip bir belge değişkenini kaldırır.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words for .NET
+description: VariableCollection Remove yöntem. Koleksiyondan belirtilen ada sahip bir belge değişkenini kaldırır C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words/variablecollection/remove/
@@ -18,7 +20,7 @@ public void Remove(string name)
 | --- | --- | --- |
 | name | String | Değişkenin büyük/küçük harfe duyarlı olmayan adı. |
 
-### Örnekler
+## Örnekler
 
 Bir belgenin değişken koleksiyonuyla nasıl çalışılacağını gösterir.
 
@@ -85,7 +87,5 @@ Assert.That(variables, Is.Empty);
 ### Ayrıca bakınız
 
 * class [VariableCollection](../)
-* ad alanı [Aspose.Words](../../variablecollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

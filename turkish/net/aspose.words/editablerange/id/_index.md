@@ -1,7 +1,9 @@
 ---
 title: EditableRange.Id
-second_title: Aspose.Words for .NET API Referansı
-description: EditableRange mülk. Düzenlenebilir aralık tanımlayıcısını alır.
+linktitle: Id
+articleTitle: Id
+second_title: Aspose.Words for .NET
+description: EditableRange Id mülk. Düzenlenebilir aralık tanımlayıcısını alır C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words/editablerange/id/
@@ -14,13 +16,13 @@ Düzenlenebilir aralık tanımlayıcısını alır.
 public int Id { get; }
 ```
 
-### Notlar
+## Notlar
 
 Bölgenin sınırları şu şekilde belirlenmelidir:[`EditableRangeStart`](../editablerangestart/) Ve[`EditableRangeEnd`](../editablerangeend/)
 
 Düzenlenebilir aralık tanımlayıcılarının bir belge genelinde benzersiz olması gerekir ve Aspose.Words, belgeleri yüklerken, kaydederken ve birleştirirken otomatik olarak düzenlenebilir aralık tanımlayıcılarını korur.
 
-### Örnekler
+## Örnekler
 
 Düzenlenebilir bir aralıkla nasıl çalışılacağını gösterir.
 
@@ -66,7 +68,5 @@ editableRange.Remove();
 ### Ayrıca bakınız
 
 * class [EditableRange](../)
-* ad alanı [Aspose.Words](../../editablerange/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: XlsxSaveOptions.XlsxSaveOptions
-second_title: Aspose.Words for .NET API Referansı
-description: XlsxSaveOptions inşaatçı. Default_Constructor
+title: XlsxSaveOptions
+linktitle: XlsxSaveOptions
+articleTitle: XlsxSaveOptions
+second_title: Aspose.Words for .NET
+description: XlsxSaveOptions inşaatçı. Default_Constructor C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.saving/xlsxsaveoptions/xlsxsaveoptions/
@@ -17,7 +19,5 @@ public XlsxSaveOptions()
 ### Ayrıca bakınız
 
 * class [XlsxSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../xlsxsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

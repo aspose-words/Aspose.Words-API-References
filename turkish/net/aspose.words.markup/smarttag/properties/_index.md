@@ -1,7 +1,9 @@
 ---
 title: SmartTag.Properties
-second_title: Aspose.Words for .NET API Referansı
-description: SmartTag mülk. Akıllı etiket özelliklerinin bir koleksiyonu.
+linktitle: Properties
+articleTitle: Properties
+second_title: Aspose.Words for .NET
+description: SmartTag Properties mülk. Akıllı etiket özelliklerinin bir koleksiyonu C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.markup/smarttag/properties/
@@ -14,11 +16,11 @@ Akıllı etiket özelliklerinin bir koleksiyonu.
 public CustomXmlPropertyCollection Properties { get; }
 ```
 
-### Notlar
+## Notlar
 
 Olamaz`hükümsüz`.
 
-### Örnekler
+## Örnekler
 
 Akıllı etiketlerin nasıl oluşturulacağını gösterir.
 
@@ -120,7 +122,5 @@ private class SmartTagPrinter : DocumentVisitor
 
 * class [CustomXmlPropertyCollection](../../customxmlpropertycollection/)
 * class [SmartTag](../)
-* ad alanı [Aspose.Words.Markup](../../smarttag/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

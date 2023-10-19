@@ -1,7 +1,9 @@
 ---
-title: Body.Body
-second_title: Aspose.Words for .NET API Referansı
-description: Body inşaatçı. Yeni bir örneğini başlatırBody class.
+title: Body
+linktitle: Body
+articleTitle: Body
+second_title: Aspose.Words for .NET
+description: Body inşaatçı. Yeni bir örneğini başlatırBody class C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/body/body/
@@ -18,13 +20,13 @@ public Body(DocumentBase doc)
 | --- | --- | --- |
 | doc | DocumentBase | Sahibi belgesi. |
 
-### Notlar
+## Notlar
 
 Ne zaman[`Body`](../) oluşturulduysa, belirtilen belgeye aittir ancak henüz değildir ve belgenin bir parçası değildir ve[`ParentNode`](../../node/parentnode/) dır-dir`hükümsüz`.
 
-Eklemek[`Body`](../)bir[`Section`](../../section/) kullanmakÇocuk Ekle , Sonrasına Ekle veyaInsertÖnce yöntemler.
+Eklemek[`Body`](../)bir[`Section`](../../section/) kullanmak[`Çocuk Ekle`](../../compositenode/appendchild/) , [`Sonrasına Ekle`](../../compositenode/insertafter/) veya[`InsertÖnce`](../../compositenode/insertbefore/) yöntemler.
 
-### Örnekler
+## Örnekler
 
 Aspose.Words belgesinin elle nasıl oluşturulacağını gösterir.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * class [DocumentBase](../../documentbase/)
 * class [Body](../)
-* ad alanı [Aspose.Words](../../body/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

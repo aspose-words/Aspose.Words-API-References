@@ -1,7 +1,9 @@
 ---
 title: FieldChar.GetField
-second_title: Aspose.Words for .NET API Referansı
-description: FieldChar yöntem. char. alanı için bir alan döndürür
+linktitle: GetField
+articleTitle: GetField
+second_title: Aspose.Words for .NET
+description: FieldChar GetField yöntem. char. alanı için bir alan döndürür C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.fields/fieldchar/getfield/
@@ -18,11 +20,11 @@ public Field GetField()
 
 Alan karakteri için bir alan.
 
-### Notlar
+## Notlar
 
 Yeni bir[`Field`](../../field/) Yöntem her çağrıldığında nesne oluşturulur.
 
-### Örnekler
+## Örnekler
 
 FieldStart düğümüyle nasıl çalışılacağını gösterir.
 
@@ -54,7 +56,5 @@ field.Update();
 
 * class [Field](../../field/)
 * class [FieldChar](../)
-* ad alanı [Aspose.Words.Fields](../../fieldchar/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

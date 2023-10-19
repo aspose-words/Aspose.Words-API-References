@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.UpdateLastSavedTimeProperty
-second_title: Aspose.Words for .NET API Referansı
-description: SaveOptions mülk. Bir değer alır veya ayarlar.LastSavedTime özellik kaydedilmeden önce güncellenir.
+linktitle: UpdateLastSavedTimeProperty
+articleTitle: UpdateLastSavedTimeProperty
+second_title: Aspose.Words for .NET
+description: SaveOptions UpdateLastSavedTimeProperty mülk. Bir değer alır veya ayarlar.LastSavedTime özellik kaydedilmeden önce güncellenir C#'da.
 type: docs
 weight: 180
 url: /tr/net/aspose.words.saving/saveoptions/updatelastsavedtimeproperty/
@@ -14,7 +16,7 @@ Bir değer alır veya ayarlar.[`LastSavedTime`](../../../aspose.words.properties
 public bool UpdateLastSavedTimeProperty { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Kaydederken belgenin "Son kaydedilen zaman" özelliğinin korunup korunmayacağının nasıl belirleneceğini gösterir.
 
@@ -48,7 +50,5 @@ else
 ### Ayrıca bakınız
 
 * class [SaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../saveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

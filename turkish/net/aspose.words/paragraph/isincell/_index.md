@@ -1,7 +1,9 @@
 ---
 title: Paragraph.IsInCell
-second_title: Aspose.Words for .NET API Referansı
-description: Paragraph mülk. Bu paragrafın doğrudan alt öğesi ise doğrudurCell  aksi halde yanlış.
+linktitle: IsInCell
+articleTitle: IsInCell
+second_title: Aspose.Words for .NET
+description: Paragraph IsInCell mülk. Bu paragrafın doğrudan alt öğesi ise doğrudurCell  aksi halde yanlış C#'da.
 type: docs
 weight: 100
 url: /tr/net/aspose.words/paragraph/isincell/
@@ -14,7 +16,7 @@ Bu paragrafın doğrudan alt öğesi ise doğrudur[`Cell`](../../../aspose.words
 public bool IsInCell { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Aynı sayfada bir arada kalacak bir tablonun nasıl ayarlanacağını gösterir.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Table.KeepTableTogether.docx");
 ### Ayrıca bakınız
 
 * class [Paragraph](../)
-* ad alanı [Aspose.Words](../../paragraph/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

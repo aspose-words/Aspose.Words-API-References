@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ScaleImageToShapeSize
-second_title: Aspose.Words for .NET API Referansı
-description: HtmlSaveOptions mülk. Görüntülerin HTML MHTML veya EPUBa aktarılırken Aspose.Words tarafından sınırlayıcı şekil boyutuna ölçeklenip ölçeklenmeyeceğini belirtir. Varsayılan değerdoğru .
+linktitle: ScaleImageToShapeSize
+articleTitle: ScaleImageToShapeSize
+second_title: Aspose.Words for .NET
+description: HtmlSaveOptions ScaleImageToShapeSize mülk. Görüntülerin HTML MHTML veya EPUBa aktarılırken Aspose.Words tarafından sınırlayıcı şekil boyutuna ölçeklenip ölçeklenmeyeceğini belirtir. Varsayılan değerdoğru  C#'da.
 type: docs
 weight: 450
 url: /tr/net/aspose.words.saving/htmlsaveoptions/scaleimagetoshapesize/
@@ -14,7 +16,7 @@ Görüntülerin HTML, MHTML veya EPUB'a aktarılırken Aspose.Words tarafından 
 public bool ScaleImageToShapeSize { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Microsoft Word belgesindeki görüntü bir şekildir. Şeklin bir boyutu vardır ve image 'nin kendi boyutu vardır. Boyutlar doğrudan bağlantılı değildir. Örneğin görsel 1024x786 piksel, olabilir ama bu görseli gösteren şekil 400x300 punto olabilir.
 
@@ -26,7 +28,7 @@ Genel olarak tarayıcılar hızlı ve kalitesiz ölçeklendirme yaparlar. Sonuç
 
 Bu seçenek, ayrı tarama görüntüleri içeren şekillere ek olarak, x000d_ tarama görüntülerinden oluşan grup şekillerini de etkiler. Eğer`ScaleImageToShapeSize` dır-dir`YANLIŞ` ve bir grup şekli, içsel çözünürlüğü belirtilen değerden daha yüksek olan raster görüntüler içerir[`ImageResolution`](../imageresolution/), Aspose.Words bu grup için görüntü oluşturma çözünürlüğünü artıracaktır. Bu, HTML'ye kaydederken gruplandırılmış yüksek çözünürlüklü görüntülerin kalitesinin daha iyi korunmasına olanak tanır.
 
-### Örnekler
+## Örnekler
 
 .html'ye kaydederken görüntülerin üst şekil boyutlarına ölçeklendirilmesinin nasıl devre dışı bırakılacağını gösterir.
 
@@ -82,7 +84,5 @@ Document doc = new Document();
 
 * property [ImageResolution](../imageresolution/)
 * class [HtmlSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../htmlsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

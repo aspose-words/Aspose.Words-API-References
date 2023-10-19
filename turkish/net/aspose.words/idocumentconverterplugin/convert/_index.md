@@ -1,7 +1,9 @@
 ---
 title: IDocumentConverterPlugin.Convert
-second_title: Aspose.Words for .NET API Referansı
-description: IDocumentConverterPlugin yöntem. Belirtilen giriş çıkış akışlarını ve kaydetme seçeneklerini kullanarak belgeyi dönüştürür.
+linktitle: Convert
+articleTitle: Convert
+second_title: Aspose.Words for .NET
+description: IDocumentConverterPlugin Convert yöntem. Belirtilen giriş çıkış akışlarını ve kaydetme seçeneklerini kullanarak belgeyi dönüştürür C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/idocumentconverterplugin/convert/
@@ -24,7 +26,5 @@ public void Convert(Stream inputStream, Stream outputStream, SaveOptions saveOpt
 
 * class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * interface [IDocumentConverterPlugin](../)
-* ad alanı [Aspose.Words](../../idocumentconverterplugin/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

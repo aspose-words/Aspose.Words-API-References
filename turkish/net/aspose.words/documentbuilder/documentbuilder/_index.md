@@ -1,7 +1,9 @@
 ---
-title: DocumentBuilder.DocumentBuilder
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentBuilder inşaatçı. Bu sınıfın yeni bir örneğini başlatır.
+title: DocumentBuilder
+linktitle: DocumentBuilder
+articleTitle: DocumentBuilder
+second_title: Aspose.Words for .NET
+description: DocumentBuilder inşaatçı. Bu sınıfın yeni bir örneğini başlatır C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/documentbuilder/documentbuilder/
@@ -14,11 +16,11 @@ Bu sınıfın yeni bir örneğini başlatır.
 public DocumentBuilder()
 ```
 
-### Notlar
+## Notlar
 
 Yeni bir tane oluşturur[`DocumentBuilder`](../) nesneyi alır ve onu yeni bir nesneye ekler[`Document`](../../document/) nesne.
 
-### Örnekler
+## Örnekler
 
 DocumentBuilder kullanılarak biçimlendirilmiş metnin nasıl ekleneceğini gösterir.
 
@@ -40,12 +42,12 @@ builder.Write("Hello world!");
 ### Ayrıca bakınız
 
 * class [DocumentBuilder](../)
-* ad alanı [Aspose.Words](../../documentbuilder/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## DocumentBuilder(Document) {#constructor_1}
+## DocumentBuilder(*[Document](../../document/)*) {#constructor_1}
 
 Bu sınıfın yeni bir örneğini başlatır.
 
@@ -57,11 +59,11 @@ public DocumentBuilder(Document doc)
 | --- | --- | --- |
 | doc | Document | [`Document`](../../document/) eklenecek nesne. |
 
-### Notlar
+## Notlar
 
 Yeni bir tane oluşturur[`DocumentBuilder`](../) nesne, belirtilene eklenir[`Document`](../../document/)object. İmleç belgenin başına konumlandırılır.
 
-### Örnekler
+## Örnekler
 
 DocumentBuilder'ı kullanarak bir belgede üstbilgilerin ve altbilgilerin nasıl oluşturulacağını gösterir.
 
@@ -142,7 +144,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertToc.docx");
 
 * class [Document](../../document/)
 * class [DocumentBuilder](../)
-* ad alanı [Aspose.Words](../../documentbuilder/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

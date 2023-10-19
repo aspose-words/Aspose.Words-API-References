@@ -1,7 +1,9 @@
 ---
-title: PdfDigitalSignatureTimestampSettings.PdfDigitalSignatureTimestampSettings
-second_title: Aspose.Words for .NET API Referansı
-description: PdfDigitalSignatureTimestampSettings inşaatçı. Bu sınıfın bir örneğini başlatır.
+title: PdfDigitalSignatureTimestampSettings
+linktitle: PdfDigitalSignatureTimestampSettings
+articleTitle: PdfDigitalSignatureTimestampSettings
+second_title: Aspose.Words for .NET
+description: PdfDigitalSignatureTimestampSettings inşaatçı. Bu sınıfın bir örneğini başlatır C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/pdfdigitalsignaturetimestampsettings/
@@ -14,7 +16,7 @@ Bu sınıfın bir örneğini başlatır.
 public PdfDigitalSignatureTimestampSettings()
 ```
 
-### Örnekler
+## Örnekler
 
 Kaydedilmiş bir PDF belgesinin dijital olarak nasıl imzalanacağını ve ona zaman damgasının nasıl damgalanacağını gösterir.
 
@@ -54,12 +56,12 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", optio
 ### Ayrıca bakınız
 
 * class [PdfDigitalSignatureTimestampSettings](../)
-* ad alanı [Aspose.Words.Saving](../../pdfdigitalsignaturetimestampsettings/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## PdfDigitalSignatureTimestampSettings(string, string, string) {#constructor_1}
+## PdfDigitalSignatureTimestampSettings(*string, string, string*) {#constructor_1}
 
 Bu sınıfın bir örneğini başlatır.
 
@@ -73,7 +75,7 @@ public PdfDigitalSignatureTimestampSettings(string serverUrl, string userName, s
 | userName | String | Zaman damgası sunucusu kullanıcı adı. |
 | password | String | Zaman damgası sunucusu şifresi. |
 
-### Örnekler
+## Örnekler
 
 Kaydedilmiş bir PDF belgesinin dijital olarak nasıl imzalanacağını ve ona zaman damgasının nasıl damgalanacağını gösterir.
 
@@ -113,12 +115,12 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", optio
 ### Ayrıca bakınız
 
 * class [PdfDigitalSignatureTimestampSettings](../)
-* ad alanı [Aspose.Words.Saving](../../pdfdigitalsignaturetimestampsettings/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## PdfDigitalSignatureTimestampSettings(string, string, string, TimeSpan) {#constructor_2}
+## PdfDigitalSignatureTimestampSettings(*string, string, string, TimeSpan*) {#constructor_2}
 
 Bu sınıfın bir örneğini başlatır.
 
@@ -134,7 +136,7 @@ public PdfDigitalSignatureTimestampSettings(string serverUrl, string userName, s
 | password | String | Zaman damgası sunucusu şifresi. |
 | timeout | TimeSpan | Zaman damgası sunucusuna erişim için zaman aşımı değeri. |
 
-### Örnekler
+## Örnekler
 
 Kaydedilmiş bir PDF belgesinin dijital olarak nasıl imzalanacağını ve ona zaman damgasının nasıl damgalanacağını gösterir.
 
@@ -174,7 +176,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", optio
 ### Ayrıca bakınız
 
 * class [PdfDigitalSignatureTimestampSettings](../)
-* ad alanı [Aspose.Words.Saving](../../pdfdigitalsignaturetimestampsettings/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

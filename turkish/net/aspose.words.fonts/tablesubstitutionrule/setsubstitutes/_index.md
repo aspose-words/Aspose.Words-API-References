@@ -1,7 +1,9 @@
 ---
 title: TableSubstitutionRule.SetSubstitutes
-second_title: Aspose.Words for .NET API Referansı
-description: TableSubstitutionRule yöntem. Verilen orijinal yazı tipi adı için yedek yazı tipi adlarını geçersiz kıl.
+linktitle: SetSubstitutes
+articleTitle: SetSubstitutes
+second_title: Aspose.Words for .NET
+description: TableSubstitutionRule SetSubstitutes yöntem. Verilen orijinal yazı tipi adı için yedek yazı tipi adlarını geçersiz kıl C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words.fonts/tablesubstitutionrule/setsubstitutes/
@@ -19,7 +21,7 @@ public void SetSubstitutes(string originalFontName, params string[] substituteFo
 | originalFontName | String | Orijinal yazı tipi adı. |
 | substituteFontNames | String[] | Alternatif yazı tipi adlarının listesi. |
 
-### Örnekler
+## Örnekler
 
 Yazı tipi değiştirme kurallarının nasıl ayarlandığını gösterir.
 
@@ -118,7 +120,5 @@ doc.Save(ArtifactsDir + "FontSettings.TableSubstitutionRule.Custom.pdf");
 ### Ayrıca bakınız
 
 * class [TableSubstitutionRule](../)
-* ad alanı [Aspose.Words.Fonts](../../tablesubstitutionrule/)
+* ad alanı [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../../)
-
-

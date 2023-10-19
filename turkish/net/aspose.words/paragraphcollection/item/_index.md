@@ -1,7 +1,9 @@
 ---
 title: ParagraphCollection.Item
-second_title: Aspose.Words for .NET API Referansı
-description: ParagraphCollection mülk. Bir öğeyi alırParagraph verilen dizinde.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words for .NET
+description: ParagraphCollection Item mülk. Bir öğeyi alırParagraph verilen dizinde C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/paragraphcollection/item/
@@ -18,7 +20,7 @@ public Paragraph this[int index] { get; }
 | --- | --- |
 | index | Koleksiyona bir dizin. |
 
-### Notlar
+## Notlar
 
 Endeks sıfır bazlıdır.
 
@@ -28,7 +30,7 @@ Dizin listedeki öğe sayısından büyük veya ona eşitse bu, boş bir başvur
 
 Dizin negatifse ve mutlak değeri listedeki öğe sayısından büyükse bu, boş bir başvuru döndürür.
 
-### Örnekler
+## Örnekler
 
 Bir paragrafın taşıma düzeltmesi olup olmadığının nasıl kontrol edileceğini gösterir.
 
@@ -63,7 +65,5 @@ Assert.True(paragraphs[3].IsMoveToRevision);
 
 * class [Paragraph](../../paragraph/)
 * class [ParagraphCollection](../)
-* ad alanı [Aspose.Words](../../paragraphcollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

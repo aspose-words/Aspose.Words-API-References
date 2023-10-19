@@ -1,7 +1,9 @@
 ---
 title: FieldToc.UseParagraphOutlineLevel
-second_title: Aspose.Words for .NET API Referansı
-description: FieldToc mülk. Uygulanan paragraf anahat düzeyinin kullanılıp kullanılmayacağını alır veya ayarlar.
+linktitle: UseParagraphOutlineLevel
+articleTitle: UseParagraphOutlineLevel
+second_title: Aspose.Words for .NET
+description: FieldToc UseParagraphOutlineLevel mülk. Uygulanan paragraf anahat düzeyinin kullanılıp kullanılmayacağını alır veya ayarlar C#'da.
 type: docs
 weight: 170
 url: /tr/net/aspose.words.fields/fieldtoc/useparagraphoutlinelevel/
@@ -14,7 +16,7 @@ Uygulanan paragraf anahat düzeyinin kullanılıp kullanılmayacağını alır v
 public bool UseParagraphOutlineLevel { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 İçindekiler tablosunun nasıl ekleneceğini ve başlık stillerine göre girdilerle nasıl doldurulacağını gösterir.
 
@@ -99,7 +101,5 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 ### Ayrıca bakınız
 
 * class [FieldToc](../)
-* ad alanı [Aspose.Words.Fields](../../fieldtoc/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

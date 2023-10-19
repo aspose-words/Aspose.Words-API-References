@@ -1,7 +1,9 @@
 ---
 title: VbaProject.CodePage
-second_title: Aspose.Words for .NET API Referansı
-description: VbaProject mülk. VBA projesinin kod sayfasını alır veya ayarlar.
+linktitle: CodePage
+articleTitle: CodePage
+second_title: Aspose.Words for .NET
+description: VbaProject CodePage mülk. VBA projesinin kod sayfasını alır veya ayarlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.vba/vbaproject/codepage/
@@ -14,11 +16,11 @@ VBA projesinin kod sayfasını alır veya ayarlar.
 public int CodePage { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 VBA'nın Unicode öncesi bir özellik olduğunu ve bölgesel karakter kümelerini korumak için açıkça uygun kod sayfasını ayarlamanız gerektiğini lütfen unutmayın.
 
-### Örnekler
+## Örnekler
 
 Bir belgenin VBA proje bilgilerine nasıl erişileceğini gösterir.
 
@@ -49,7 +51,5 @@ vbaModules.Remove(vbaModules[2]);
 ### Ayrıca bakınız
 
 * class [VbaProject](../)
-* ad alanı [Aspose.Words.Vba](../../vbaproject/)
+* ad alanı [Aspose.Words.Vba](../../../aspose.words.vba/)
 * toplantı [Aspose.Words](../../../)
-
-

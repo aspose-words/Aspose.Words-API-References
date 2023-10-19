@@ -1,7 +1,9 @@
 ---
-title: Class SignOptions
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.DigitalSignatures.SignOptions sınıf. Belge imzalama seçeneklerinin belirlenmesine olanak tanır.
+title: SignOptions Class
+linktitle: SignOptions
+articleTitle: SignOptions
+second_title: Aspose.Words for .NET
+description: Aspose.Words.DigitalSignatures.SignOptions sınıf. Belge imzalama seçeneklerinin belirlenmesine olanak tanır C#'da.
 type: docs
 weight: 420
 url: /tr/net/aspose.words.digitalsignatures/signoptions/
@@ -26,16 +28,14 @@ public class SignOptions
 
 | İsim | Tanım |
 | --- | --- |
-| [Comments](../../aspose.words.digitalsignatures/signoptions/comments/) { get; set; } | Dijital imzadaki yorumları belirtir. Varsayılan değer: **boş dize** (Empty). |
-| [DecryptionPassword](../../aspose.words.digitalsignatures/signoptions/decryptionpassword/) { get; set; } | Kaynak belgenin şifresini çözmek için kullanılan parola. Varsayılan değer: **boş dize** (Empty). |
-| [ProviderId](../../aspose.words.digitalsignatures/signoptions/providerid/) { get; set; } | İmza sağlayıcının sınıf kimliğini belirtir. Varsayılan değer: **Boş (tümü sıfır) Kılavuz** . |
-| [SignatureLineId](../../aspose.words.digitalsignatures/signoptions/signaturelineid/) { get; set; } | İmza satırı tanımlayıcısı. Varsayılan değer: **Boş (tümü sıfır) Kılavuz** . |
+| [Comments](../../aspose.words.digitalsignatures/signoptions/comments/) { get; set; } | Dijital imzadaki yorumları belirtir. Varsayılan değer:**boş dize** (Empty). |
+| [DecryptionPassword](../../aspose.words.digitalsignatures/signoptions/decryptionpassword/) { get; set; } | Kaynak belgenin şifresini çözmek için kullanılan parola. Varsayılan değer:**boş dize** (Empty). |
+| [ProviderId](../../aspose.words.digitalsignatures/signoptions/providerid/) { get; set; } | İmza sağlayıcının sınıf kimliğini belirtir. Varsayılan değer:**Boş (tümü sıfır) Kılavuz** . |
+| [SignatureLineId](../../aspose.words.digitalsignatures/signoptions/signaturelineid/) { get; set; } | İmza satırı tanımlayıcısı. Varsayılan değer:**Boş (tümü sıfır) Kılavuz** . |
 | [SignatureLineImage](../../aspose.words.digitalsignatures/signoptions/signaturelineimage/) { get; set; } | İlgili alanda gösterilecek resim[`SignatureLine`](../../aspose.words.drawing/signatureline/) . Varsayılan değer:`hükümsüz` . |
-| [SignTime](../../aspose.words.digitalsignatures/signoptions/signtime/) { get; set; } | İmzalama tarihi. Varsayılan değer: **şimdiki zaman** (Now). |
+| [SignTime](../../aspose.words.digitalsignatures/signoptions/signtime/) { get; set; } | İmzalama tarihi. Varsayılan değer:**şimdiki zaman** (Now). |
 
 ### Ayrıca bakınız
 
 * ad alanı [Aspose.Words.DigitalSignatures](../../aspose.words.digitalsignatures/)
 * toplantı [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum HtmlOfficeMathOutputMode
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Saving.HtmlOfficeMathOutputMode Sıralama. Aspose.Wordsün OfficeMathi HTML MHTML ve EPUBa nasıl aktardığını belirtir.
+title: HtmlOfficeMathOutputMode Enum
+linktitle: HtmlOfficeMathOutputMode
+articleTitle: HtmlOfficeMathOutputMode
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Saving.HtmlOfficeMathOutputMode Sıralama. Aspose.Wordsün OfficeMathi HTML MHTML ve EPUBa nasıl aktardığını belirtir C#'da.
 type: docs
 weight: 5100
 url: /tr/net/aspose.words.saving/htmlofficemathoutputmode/
@@ -22,7 +24,7 @@ public enum HtmlOfficeMathOutputMode
 | MathML | `1` | OfficeMath, MathML. kullanılarak HTML'ye dönüştürülür |
 | Text | `2` | OfficeMath, &lt;span&gt; etiketleri tarafından belirtilen çalıştırma sırası olarak HTML'ye dönüştürülür. |
 
-### Örnekler
+## Örnekler
 
 Microsoft OfficeMath nesnelerinin HTML'ye nasıl aktarılacağının nasıl belirleneceğini gösterir.
 
@@ -78,5 +80,3 @@ switch (htmlOfficeMathOutputMode)
 
 * ad alanı [Aspose.Words.Saving](../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../)
-
-

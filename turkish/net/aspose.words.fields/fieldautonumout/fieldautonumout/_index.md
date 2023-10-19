@@ -1,7 +1,9 @@
 ---
-title: FieldAutoNumOut.FieldAutoNumOut
-second_title: Aspose.Words for .NET API Referansı
-description: FieldAutoNumOut inşaatçı. Default_Constructor
+title: FieldAutoNumOut
+linktitle: FieldAutoNumOut
+articleTitle: FieldAutoNumOut
+second_title: Aspose.Words for .NET
+description: FieldAutoNumOut inşaatçı. Default_Constructor C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fieldautonumout/fieldautonumout/
@@ -17,7 +19,5 @@ public FieldAutoNumOut()
 ### Ayrıca bakınız
 
 * class [FieldAutoNumOut](../)
-* ad alanı [Aspose.Words.Fields](../../fieldautonumout/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

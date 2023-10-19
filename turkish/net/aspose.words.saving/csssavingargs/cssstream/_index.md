@@ -1,7 +1,9 @@
 ---
 title: CssSavingArgs.CssStream
-second_title: Aspose.Words for .NET API Referansı
-description: CssSavingArgs mülk. CSS bilgilerinin kaydedileceği akışı belirtmeye izin verir.
+linktitle: CssStream
+articleTitle: CssStream
+second_title: Aspose.Words for .NET
+description: CssSavingArgs CssStream mülk. CSS bilgilerinin kaydedileceği akışı belirtmeye izin verir C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.saving/csssavingargs/cssstream/
@@ -14,7 +16,7 @@ CSS bilgilerinin kaydedileceği akışı belirtmeye izin verir.
 public Stream CssStream { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özellik CSS bilgilerini bir akışa kaydetmenize olanak tanır.
 
@@ -22,7 +24,7 @@ Varsayılan değer:`hükümsüz` . Bu özellik, CSS bilgilerinin bir dosyaya kay
 
 Kullanma[`ICssSavingCallback`](../../icsssavingcallback/) CSS'yi başka bir ile değiştiremezsiniz. Yalnızca CSS'yi bir akışa kaydetmek için tasarlanmıştır.
 
-### Örnekler
+## Örnekler
 
 Bir HTML dönüşümünün oluşturduğu CSS stil sayfalarıyla nasıl çalışılacağını gösterir.
 
@@ -83,7 +85,5 @@ private class CustomCssSavingCallback : ICssSavingCallback
 ### Ayrıca bakınız
 
 * class [CssSavingArgs](../)
-* ad alanı [Aspose.Words.Saving](../../csssavingargs/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

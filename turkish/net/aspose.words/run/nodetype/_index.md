@@ -1,7 +1,9 @@
 ---
 title: Run.NodeType
-second_title: Aspose.Words for .NET API Referansı
-description: Run mülk. İadelerRun .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words for .NET
+description: Run NodeType mülk. İadelerRun  C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/run/nodetype/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words/run/nodetype/
 public override NodeType NodeType { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bileşik bir düğümün alt düğüm ağacında nasıl gezinileceğini gösterir.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../nodetype/)
 * class [Run](../)
-* ad alanı [Aspose.Words](../../run/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

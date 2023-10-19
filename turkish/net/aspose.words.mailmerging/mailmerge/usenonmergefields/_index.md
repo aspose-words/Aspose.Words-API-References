@@ -1,7 +1,9 @@
 ---
 title: MailMerge.UseNonMergeFields
-second_title: Aspose.Words for .NET API Referansı
-description: MailMerge mülk. Ne zamandoğru MERGEFIELD alanlarına ek olarak diğer bazı alan türlerinde ve ayrıca fieldName etiketlerinde adresmektup birleştirme işleminin gerçekleştirildiğini belirtir.
+linktitle: UseNonMergeFields
+articleTitle: UseNonMergeFields
+second_title: Aspose.Words for .NET
+description: MailMerge UseNonMergeFields mülk. Ne zamandoğru MERGEFIELD alanlarına ek olarak diğer bazı alan türlerinde ve ayrıca fieldName etiketlerinde adresmektup birleştirme işleminin gerçekleştirildiğini belirtir C#'da.
 type: docs
 weight: 150
 url: /tr/net/aspose.words.mailmerging/mailmerge/usenonmergefields/
@@ -14,7 +16,7 @@ Ne zaman`doğru` MERGEFIELD alanlarına ek olarak diğer bazı alan türlerinde 
 public bool UseNonMergeFields { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Normalde, adres-mektup birleştirme yalnızca MERGEFIELD alanlarında gerçekleştirilir, ancak bazı müşterilerin kendi report 'leri diğer alanları kullanarak oluşturulmuş ve birçok belge bu şekilde oluşturulmuştur. Geçişi basitleştirmek için (ve this yaklaşımı birçok müşteri tarafından bağımsız olarak kullanıldığından) diğer alanlara adres-mektup birleştirme özelliği getirildi.
 
@@ -28,7 +30,7 @@ IF 0 = 0 "{FieldName}" ""
 
 Ayrıca ne zaman`UseNonMergeFields` ayarlandı`doğru`Aspose.Words, tags "{{fieldName}}" metnine adres-mektup birleştirme işlemini gerçekleştirecektir. Bunlar alanlar değil, yalnızca metin etiketleridir.
 
-### Örnekler
+## Örnekler
 
 Adres-mektup birleştirme sırasında kullanılmayan alternatif adres-mektup birleştirme etiketlerinin görünümünün nasıl korunacağını gösterir.
 
@@ -92,7 +94,5 @@ private static DataTable CreateSourceTablePreserveUnusedTags()
 ### Ayrıca bakınız
 
 * class [MailMerge](../)
-* ad alanı [Aspose.Words.MailMerging](../../mailmerge/)
+* ad alanı [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * toplantı [Aspose.Words](../../../)
-
-

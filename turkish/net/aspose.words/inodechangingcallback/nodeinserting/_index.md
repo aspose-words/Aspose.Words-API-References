@@ -1,7 +1,9 @@
 ---
 title: INodeChangingCallback.NodeInserting
-second_title: Aspose.Words for .NET API Referansı
-description: INodeChangingCallback yöntem. Bu belgeye ait bir düğümün başka bir düğüme eklenmesinden hemen önce çağrılır.
+linktitle: NodeInserting
+articleTitle: NodeInserting
+second_title: Aspose.Words for .NET
+description: INodeChangingCallback NodeInserting yöntem. Bu belgeye ait bir düğümün başka bir düğüme eklenmesinden hemen önce çağrılır C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/inodechangingcallback/nodeinserting/
@@ -14,7 +16,7 @@ Bu belgeye ait bir düğümün başka bir düğüme eklenmesinden hemen önce ç
 public void NodeInserting(NodeChangingArgs args)
 ```
 
-### Örnekler
+## Örnekler
 
 Bir geri aramayla düğüm değişiminin nasıl özelleştirileceğini gösterir.
 
@@ -92,7 +94,5 @@ public class HandleNodeChangingFontChanger : INodeChangingCallback
 
 * class [NodeChangingArgs](../../nodechangingargs/)
 * interface [INodeChangingCallback](../)
-* ad alanı [Aspose.Words](../../inodechangingcallback/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: InlineStory.IsInsertRevision
-second_title: Aspose.Words for .NET API Referansı
-description: InlineStory mülk. Bu nesne Microsoft Worde değişiklik izleme etkinken eklenmişse doğru değerini döndürür.
+linktitle: IsInsertRevision
+articleTitle: IsInsertRevision
+second_title: Aspose.Words for .NET
+description: InlineStory IsInsertRevision mülk. Bu nesne Microsoft Worde değişiklik izleme etkinken eklenmişse doğru değerini döndürür C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words/inlinestory/isinsertrevision/
@@ -14,7 +16,7 @@ Bu nesne Microsoft Word'e değişiklik izleme etkinken eklenmişse doğru değer
 public bool IsInsertRevision { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 InlineStory düğümlerinin revizyonla ilgili özelliklerinin nasıl görüntüleneceğini gösterir.
 
@@ -62,7 +64,5 @@ Assert.IsTrue(footnotes[3].IsDeleteRevision);
 ### Ayrıca bakınız
 
 * class [InlineStory](../)
-* ad alanı [Aspose.Words](../../inlinestory/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

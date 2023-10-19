@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPropertyCollection.RemoveAt
-second_title: Aspose.Words for .NET API Referansı
-description: CustomXmlPropertyCollection yöntem. Belirtilen dizindeki bir özelliği kaldırır.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words for .NET
+description: CustomXmlPropertyCollection RemoveAt yöntem. Belirtilen dizindeki bir özelliği kaldırır C#'da.
 type: docs
 weight: 90
 url: /tr/net/aspose.words.markup/customxmlpropertycollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | Sıfır tabanlı endeks. |
 
-### Örnekler
+## Örnekler
 
 Akıllı etiketler hakkında ayrıntılı bilgi almak için akıllı etiket özellikleriyle nasıl çalışılacağını gösterir.
 
@@ -75,7 +77,5 @@ Assert.AreEqual(0, properties.Count);
 ### Ayrıca bakınız
 
 * class [CustomXmlPropertyCollection](../)
-* ad alanı [Aspose.Words.Markup](../../customxmlpropertycollection/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

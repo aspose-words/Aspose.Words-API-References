@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.CoordSize
-second_title: Aspose.Words for .NET API Referansı
-description: ShapeBase mülk. Bu şeklin bulunduğu bloğun içindeki koordinat alanının genişliği ve yüksekliği.
+linktitle: CoordSize
+articleTitle: CoordSize
+second_title: Aspose.Words for .NET
+description: ShapeBase CoordSize mülk. Bu şeklin bulunduğu bloğun içindeki koordinat alanının genişliği ve yüksekliği C#'da.
 type: docs
 weight: 120
 url: /tr/net/aspose.words.drawing/shapebase/coordsize/
@@ -14,11 +16,11 @@ Bu şeklin bulunduğu bloğun içindeki koordinat alanının genişliği ve yük
 public Size CoordSize { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer (1000, 1000)'dir.
 
-### Örnekler
+## Örnekler
 
 Bir şeklin koordinat düzlemindeki x ve y koordinat konumunun üst şeklin koordinat düzlemindeki bir konuma nasıl çevrileceğini gösterir.
 
@@ -164,7 +166,5 @@ doc.Save(ArtifactsDir + "Shape.GroupShape.docx");
 ### Ayrıca bakınız
 
 * class [ShapeBase](../)
-* ad alanı [Aspose.Words.Drawing](../../shapebase/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

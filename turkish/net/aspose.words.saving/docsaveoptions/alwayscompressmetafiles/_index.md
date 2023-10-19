@@ -1,7 +1,9 @@
 ---
 title: DocSaveOptions.AlwaysCompressMetafiles
-second_title: Aspose.Words for .NET API Referansı
-description: DocSaveOptions mülk. Ne zamanYANLIŞ  küçük meta dosyalar performans nedeniyle sıkıştırılmaz. Varsayılan değerdoğru  tüm meta dosyalar boyutuna bakılmaksızın sıkıştırılır.
+linktitle: AlwaysCompressMetafiles
+articleTitle: AlwaysCompressMetafiles
+second_title: Aspose.Words for .NET
+description: DocSaveOptions AlwaysCompressMetafiles mülk. Ne zamanYANLIŞ  küçük meta dosyalar performans nedeniyle sıkıştırılmaz. Varsayılan değerdoğru  tüm meta dosyalar boyutuna bakılmaksızın sıkıştırılır C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.saving/docsaveoptions/alwayscompressmetafiles/
@@ -14,7 +16,7 @@ Ne zaman`YANLIŞ` , küçük meta dosyalar performans nedeniyle sıkıştırılm
 public bool AlwaysCompressMetafiles { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi kaydederken meta dosya sıkıştırmasının nasıl değiştirileceğini gösterir.
 
@@ -39,7 +41,5 @@ else
 ### Ayrıca bakınız
 
 * class [DocSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../docsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

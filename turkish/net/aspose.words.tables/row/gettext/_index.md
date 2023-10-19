@@ -1,9 +1,11 @@
 ---
 title: Row.GetText
-second_title: Aspose.Words for .NET API Referansı
-description: Row yöntem. Satır sonu karakteri de dahil olmak üzere bu satırdaki tüm hücrelerin metnini alır.
+linktitle: GetText
+articleTitle: GetText
+second_title: Aspose.Words for .NET
+description: Row GetText yöntem. Satır sonu karakteri de dahil olmak üzere bu satırdaki tüm hücrelerin metnini alır C#'da.
 type: docs
-weight: 160
+weight: 140
 url: /tr/net/aspose.words.tables/row/gettext/
 ---
 ## Row.GetText method
@@ -14,13 +16,13 @@ Satır sonu karakteri de dahil olmak üzere bu satırdaki tüm hücrelerin metni
 public override string GetText()
 ```
 
-### Notlar
+## Notlar
 
 Satır sonu karakteri olan tüm alt düğümlerin birleştirilmiş metnini döndürür[`Cell`](../../../aspose.words/controlchar/cell/) sonuna eklenmiştir.
 
 Döndürülen dize, yukarıda açıklandığı gibi tüm kontrol ve özel karakterleri içerir.[`ControlChar`](../../../aspose.words/controlchar/).
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki her tablonun düğüm yapısının nasıl yazdırılacağını gösterir.
 
@@ -183,7 +185,5 @@ public class TableStructurePrinter : DocumentVisitor
 ### Ayrıca bakınız
 
 * class [Row](../)
-* ad alanı [Aspose.Words.Tables](../../row/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

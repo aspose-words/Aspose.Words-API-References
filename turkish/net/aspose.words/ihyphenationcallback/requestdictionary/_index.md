@@ -1,7 +1,9 @@
 ---
 title: IHyphenationCallback.RequestDictionary
-second_title: Aspose.Words for .NET API Referansı
-description: IHyphenationCallback yöntem. Belirtilen dil için tireleme sözlüğünün bulunamadığını ve kaydedilmesi gerekebileceğini uygulamaya bildirir.
+linktitle: RequestDictionary
+articleTitle: RequestDictionary
+second_title: Aspose.Words for .NET
+description: IHyphenationCallback RequestDictionary yöntem. Belirtilen dil için tireleme sözlüğünün bulunamadığını ve kaydedilmesi gerekebileceğini uygulamaya bildirir C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/ihyphenationcallback/requestdictionary/
@@ -22,11 +24,11 @@ public void RequestDictionary(string language)
 | --- | --- | --- |
 | language | String | Bir dil adı, örneğin "en-US". "Kültür adı" için .NET belgelerine ve ayrıntılar için RFC 4646'ya bakın. |
 
-### Notlar
+## Notlar
 
 Bu yöntemle oluşturulan istisnalar, sayfa düzeni işleminin yürütülmesini iptal edecektir.
 
-### Örnekler
+## Örnekler
 
 Bir dosyadan sözlüğün nasıl açılacağını ve kaydedileceğini gösterir.
 
@@ -102,7 +104,5 @@ private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 ### Ayrıca bakınız
 
 * interface [IHyphenationCallback](../)
-* ad alanı [Aspose.Words](../../ihyphenationcallback/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

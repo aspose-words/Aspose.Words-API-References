@@ -1,7 +1,9 @@
 ---
-title: Class OdsoFieldMapDataCollection
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Settings.OdsoFieldMapDataCollection sınıf. Yazılı bir koleksiyonOdsoFieldMapData nesneler.
+title: OdsoFieldMapDataCollection Class
+linktitle: OdsoFieldMapDataCollection
+articleTitle: OdsoFieldMapDataCollection
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Settings.OdsoFieldMapDataCollection sınıf. Yazılı bir koleksiyonOdsoFieldMapData nesneler C#'da.
 type: docs
 weight: 5910
 url: /tr/net/aspose.words.settings/odsofieldmapdatacollection/
@@ -33,12 +35,12 @@ public class OdsoFieldMapDataCollection : IEnumerable<OdsoFieldMapData>
 
 | İsim | Tanım |
 | --- | --- |
-| [Add](../../aspose.words.settings/odsofieldmapdatacollection/add/)(OdsoFieldMapData) | Bu koleksiyonun sonuna bir nesne ekler. |
+| [Add](../../aspose.words.settings/odsofieldmapdatacollection/add/)(*[OdsoFieldMapData](../odsofieldmapdata/)*) | Bu koleksiyonun sonuna bir nesne ekler. |
 | [Clear](../../aspose.words.settings/odsofieldmapdatacollection/clear/)() | Bu koleksiyondaki tüm öğeleri kaldırır. |
 | [GetEnumerator](../../aspose.words.settings/odsofieldmapdatacollection/getenumerator/)() | Koleksiyondaki tüm öğeler üzerinde yineleme yapmak için kullanılabilecek bir numaralandırıcı nesnesini döndürür. |
-| [RemoveAt](../../aspose.words.settings/odsofieldmapdatacollection/removeat/)(int) | Belirtilen dizindeki öğeyi kaldırır. |
+| [RemoveAt](../../aspose.words.settings/odsofieldmapdatacollection/removeat/)(*int*) | Belirtilen dizindeki öğeyi kaldırır. |
 
-### Örnekler
+## Örnekler
 
 Veri kaynağı sütunlarını birleştirme alanlarıyla eşleştiren veri koleksiyonuna nasıl erişileceğini gösterir.
 
@@ -84,5 +86,3 @@ Assert.AreEqual(0, dataCollection.Count);
 * property [FieldMapDatas](../odso/fieldmapdatas/)
 * ad alanı [Aspose.Words.Settings](../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../)
-
-

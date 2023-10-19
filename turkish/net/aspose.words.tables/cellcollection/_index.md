@@ -1,7 +1,9 @@
 ---
-title: Class CellCollection
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Tables.CellCollection sınıf. Bir koleksiyona yazılı erişim sağlarCell düğümler.
+title: CellCollection Class
+linktitle: CellCollection
+articleTitle: CellCollection
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Tables.CellCollection sınıf. Bir koleksiyona yazılı erişim sağlarCell düğümler C#'da.
 type: docs
 weight: 6250
 url: /tr/net/aspose.words.tables/cellcollection/
@@ -27,17 +29,17 @@ public class CellCollection : NodeCollection
 
 | İsim | Tanım |
 | --- | --- |
-| [Add](../../aspose.words/nodecollection/add/)(Node) | Koleksiyonun sonuna bir düğüm ekler. |
+| [Add](../../aspose.words/nodecollection/add/)(*[Node](../../aspose.words/node/)*) | Koleksiyonun sonuna bir düğüm ekler. |
 | [Clear](../../aspose.words/nodecollection/clear/)() | Tüm düğümleri bu koleksiyondan ve belgeden kaldırır. |
-| [Contains](../../aspose.words/nodecollection/contains/)(Node) | Bir düğümün koleksiyonda olup olmadığını belirler. |
+| [Contains](../../aspose.words/nodecollection/contains/)(*[Node](../../aspose.words/node/)*) | Bir düğümün koleksiyonda olup olmadığını belirler. |
 | [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Düğümlerin koleksiyonu üzerinde basit bir "foreach" stili yinelemesi sağlar. |
-| [IndexOf](../../aspose.words/nodecollection/indexof/)(Node) | Belirtilen düğümün sıfır tabanlı dizinini döndürür. |
-| [Insert](../../aspose.words/nodecollection/insert/)(int, Node) | Belirtilen dizindeki koleksiyona bir düğüm ekler. |
-| [Remove](../../aspose.words/nodecollection/remove/)(Node) | Düğümü koleksiyondan ve belgeden kaldırır. |
-| [RemoveAt](../../aspose.words/nodecollection/removeat/)(int) | Belirtilen dizindeki düğümü koleksiyondan ve belgeden kaldırır. |
+| [IndexOf](../../aspose.words/nodecollection/indexof/)(*[Node](../../aspose.words/node/)*) | Belirtilen düğümün sıfır tabanlı dizinini döndürür. |
+| [Insert](../../aspose.words/nodecollection/insert/)(*int, [Node](../../aspose.words/node/)*) | Belirtilen dizindeki koleksiyona bir düğüm ekler. |
+| [Remove](../../aspose.words/nodecollection/remove/)(*[Node](../../aspose.words/node/)*) | Düğümü koleksiyondan ve belgeden kaldırır. |
+| [RemoveAt](../../aspose.words/nodecollection/removeat/)(*int*) | Belirtilen dizindeki düğümü koleksiyondan ve belgeden kaldırır. |
 | [ToArray](../../aspose.words.tables/cellcollection/toarray/#toarray_1)() | Koleksiyondaki tüm hücreleri yeni bir hücre dizisine kopyalar. (2 methods) |
 
-### Örnekler
+## Örnekler
 
 Belgedeki tüm tabloların nasıl yineleneceğini ve her hücrenin içeriğinin nasıl yazdırılacağını gösterir.
 
@@ -85,5 +87,3 @@ for (int i = 0; i < tables.Count; i++)
 * class [NodeCollection](../../aspose.words/nodecollection/)
 * ad alanı [Aspose.Words.Tables](../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../)
-
-

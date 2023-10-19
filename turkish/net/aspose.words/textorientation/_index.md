@@ -1,7 +1,9 @@
 ---
-title: Enum TextOrientation
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.TextOrientation Sıralama. Bir sayfadaki bir tablo hücresindeki veya bir metin çerçevesindeki metnin yönünü belirtir.
+title: TextOrientation Enum
+linktitle: TextOrientation
+articleTitle: TextOrientation
+second_title: Aspose.Words for .NET
+description: Aspose.Words.TextOrientation Sıralama. Bir sayfadaki bir tablo hücresindeki veya bir metin çerçevesindeki metnin yönünü belirtir C#'da.
 type: docs
 weight: 6430
 url: /tr/net/aspose.words/textorientation/
@@ -25,7 +27,7 @@ public enum TextOrientation
 | VerticalFarEast | `5` | Uzak Doğu karakterleri dikey görünür, diğer metinler yukarıdan aşağıya doğru görünecek şekilde 90 derece sağa döndürülür (tb-rl-v). |
 | VerticalRotatedFarEast | `7` | Uzak Doğu karakterleri dikey görünür, diğer metinler dikey olarak yukarıdan aşağıya, ardından yatay olarak soldan sağa görünecek şekilde 90 derece sağa döndürülür (tb-lr-v). |
 
-### Örnekler
+## Örnekler
 
 Biçimlendirilmiş bir 2x2 tablonun nasıl oluşturulacağını gösterir.
 
@@ -72,5 +74,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.BuildTable.docx");
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: CleanupOptions.CleanupOptions
-second_title: Aspose.Words for .NET API Referansı
-description: CleanupOptions inşaatçı. Default_Constructor
+title: CleanupOptions
+linktitle: CleanupOptions
+articleTitle: CleanupOptions
+second_title: Aspose.Words for .NET
+description: CleanupOptions inşaatçı. Default_Constructor C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/cleanupoptions/cleanupoptions/
@@ -17,7 +19,5 @@ public CleanupOptions()
 ### Ayrıca bakınız
 
 * class [CleanupOptions](../)
-* ad alanı [Aspose.Words](../../cleanupoptions/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

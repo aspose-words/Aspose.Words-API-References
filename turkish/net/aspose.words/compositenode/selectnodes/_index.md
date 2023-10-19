@@ -1,9 +1,11 @@
 ---
 title: CompositeNode.SelectNodes
-second_title: Aspose.Words for .NET API Referansı
-description: CompositeNode yöntem. XPath ifadesiyle eşleşen düğümlerin listesini seçer.
+linktitle: SelectNodes
+articleTitle: SelectNodes
+second_title: Aspose.Words for .NET
+description: CompositeNode SelectNodes yöntem. XPath ifadesiyle eşleşen düğümlerin listesini seçer C#'da.
 type: docs
-weight: 210
+weight: 190
 url: /tr/net/aspose.words/compositenode/selectnodes/
 ---
 ## CompositeNode.SelectNodes method
@@ -22,11 +24,11 @@ public NodeList SelectNodes(string xpath)
 
 XPath sorgusuyla eşleşen düğümlerin listesi.
 
-### Notlar
+## Notlar
 
 Şu anda yalnızca öğe adlarına sahip ifadeler desteklenmektedir. Öznitelik adlarını kullanan Expressions desteklenmez.
 
-### Örnekler
+## Örnekler
 
 Bir düğümün bir alanın içinde olup olmadığını test etmek için XPath ifadesinin nasıl kullanılacağını gösterir.
 
@@ -75,7 +77,5 @@ Assert.AreEqual(typeof(Paragraph), node.GetType());
 
 * class [NodeList](../../nodelist/)
 * class [CompositeNode](../)
-* ad alanı [Aspose.Words](../../compositenode/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

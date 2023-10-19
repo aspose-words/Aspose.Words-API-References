@@ -1,7 +1,9 @@
 ---
 title: Field.Remove
-second_title: Aspose.Words for .NET API Referansı
-description: Field yöntem. Alanı belgeden kaldırır. Alanın hemen ardından bir düğüm döndürür. Alanın sonu üst düğümünün son child si ise üst paragrafını döndürür. Alan zaten kaldırılmışsa şunu döndürürhükümsüz .
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words for .NET
+description: Field Remove yöntem. Alanı belgeden kaldırır. Alanın hemen ardından bir düğüm döndürür. Alanın sonu üst düğümünün son child si ise üst paragrafını döndürür. Alan zaten kaldırılmışsa şunu döndürürhükümsüz  C#'da.
 type: docs
 weight: 120
 url: /tr/net/aspose.words.fields/field/remove/
@@ -14,7 +16,7 @@ Alanı belgeden kaldırır. Alanın hemen ardından bir düğüm döndürür. Al
 public Node Remove()
 ```
 
-### Örnekler
+## Örnekler
 
 Alan koleksiyonundan alanların nasıl kaldırılacağını gösterir.
 
@@ -123,7 +125,5 @@ public class FieldPrivateRemover : DocumentVisitor
 
 * class [Node](../../../aspose.words/node/)
 * class [Field](../)
-* ad alanı [Aspose.Words.Fields](../../field/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

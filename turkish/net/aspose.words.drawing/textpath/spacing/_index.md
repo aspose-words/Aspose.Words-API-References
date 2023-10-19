@@ -1,7 +1,9 @@
 ---
 title: TextPath.Spacing
-second_title: Aspose.Words for .NET API Referansı
-description: TextPath mülk. Metin için boşluk miktarını tanımlar. 1 100 anlamına gelir.
+linktitle: Spacing
+articleTitle: Spacing
+second_title: Aspose.Words for .NET
+description: TextPath Spacing mülk. Metin için boşluk miktarını tanımlar. 1 100 anlamına gelir C#'da.
 type: docs
 weight: 140
 url: /tr/net/aspose.words.drawing/textpath/spacing/
@@ -14,11 +16,11 @@ Metin için boşluk miktarını tanımlar. 1, %100 anlamına gelir.
 public double Spacing { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer 1'dir.
 
-### Örnekler
+## Örnekler
 
 WordArt'la nasıl çalışılacağını gösterir.
 
@@ -121,7 +123,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### Ayrıca bakınız
 
 * class [TextPath](../)
-* ad alanı [Aspose.Words.Drawing](../../textpath/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

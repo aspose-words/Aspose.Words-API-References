@@ -1,7 +1,9 @@
 ---
 title: IFieldUserPromptRespondent.Respond
-second_title: Aspose.Words for .NET API Referansı
-description: IFieldUserPromptRespondent yöntem. Uygulandığında istem üzerine kullanıcıdan bir yanıt döndürür. Uygulamanız geri dönmelidirhükümsüz kullanıcının istem ye yanıt vermediğini belirtmek için yani kullanıcı bilgi istemi penceresinde İptal düğmesine basmıştır.
+linktitle: Respond
+articleTitle: Respond
+second_title: Aspose.Words for .NET
+description: IFieldUserPromptRespondent Respond yöntem. Uygulandığında istem üzerine kullanıcıdan bir yanıt döndürür. Uygulamanız geri dönmelidirhükümsüz kullanıcının istem ye yanıt vermediğini belirtmek için yani kullanıcı bilgi istemi penceresinde İptal düğmesine basmıştır C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/ifielduserpromptrespondent/respond/
@@ -23,7 +25,7 @@ public string Respond(string promptText, string defaultResponse)
 
 Kullanıcı yanıtı (yani bilgi istemi penceresinde yer alan onaylanmış değer).
 
-### Örnekler
+## Örnekler
 
 ASK alanının nasıl oluşturulacağını ve özelliklerinin nasıl ayarlanacağını gösterir.
 
@@ -85,7 +87,5 @@ private class MyPromptRespondent : IFieldUserPromptRespondent
 ### Ayrıca bakınız
 
 * interface [IFieldUserPromptRespondent](../)
-* ad alanı [Aspose.Words.Fields](../../ifielduserpromptrespondent/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.ApplyParagraphFormat
-second_title: Aspose.Words for .NET API Referansı
-description: FindReplaceOptions mülk. Yeni içeriğe paragraf biçimlendirmesi uygulandı.
+linktitle: ApplyParagraphFormat
+articleTitle: ApplyParagraphFormat
+second_title: Aspose.Words for .NET
+description: FindReplaceOptions ApplyParagraphFormat mülk. Yeni içeriğe paragraf biçimlendirmesi uygulandı C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.replacing/findreplaceoptions/applyparagraphformat/
@@ -14,7 +16,7 @@ Yeni içeriğe paragraf biçimlendirmesi uygulandı.
 public ParagraphFormat ApplyParagraphFormat { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bul ve değiştir işleminin eşleşme bulduğu paragraflara biçimlendirmenin nasıl ekleneceğini gösterir.
 
@@ -55,7 +57,5 @@ Assert.AreEqual("Every paragraph that ends with a full stop like this one will b
 
 * class [ParagraphFormat](../../../aspose.words/paragraphformat/)
 * class [FindReplaceOptions](../)
-* ad alanı [Aspose.Words.Replacing](../../findreplaceoptions/)
+* ad alanı [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * toplantı [Aspose.Words](../../../)
-
-

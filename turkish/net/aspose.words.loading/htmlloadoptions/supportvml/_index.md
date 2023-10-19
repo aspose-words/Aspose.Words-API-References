@@ -1,7 +1,9 @@
 ---
 title: HtmlLoadOptions.SupportVml
-second_title: Aspose.Words for .NET API Referansı
-description: HtmlLoadOptions mülk. VML görüntülerinin desteklenip desteklenmeyeceğini belirten bir değer alır veya ayarlar.
+linktitle: SupportVml
+articleTitle: SupportVml
+second_title: Aspose.Words for .NET
+description: HtmlLoadOptions SupportVml mülk. VML görüntülerinin desteklenip desteklenmeyeceğini belirten bir değer alır veya ayarlar C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.loading/htmlloadoptions/supportvml/
@@ -14,7 +16,7 @@ VML görüntülerinin desteklenip desteklenmeyeceğini belirten bir değer alır
 public bool SupportVml { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir HTML belgesi yüklenirken koşullu yorumların nasıl destekleneceğini gösterir.
 
@@ -39,7 +41,5 @@ else
 ### Ayrıca bakınız
 
 * class [HtmlLoadOptions](../)
-* ad alanı [Aspose.Words.Loading](../../htmlloadoptions/)
+* ad alanı [Aspose.Words.Loading](../../../aspose.words.loading/)
 * toplantı [Aspose.Words](../../../)
-
-

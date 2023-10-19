@@ -1,7 +1,9 @@
 ---
-title: Class WriteProtection
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Settings.WriteProtection sınıf. Bir belgenin yazma koruması ayarlarını belirtir.
+title: WriteProtection Class
+linktitle: WriteProtection
+articleTitle: WriteProtection
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Settings.WriteProtection sınıf. Bir belgenin yazma koruması ayarlarını belirtir C#'da.
 type: docs
 weight: 5970
 url: /tr/net/aspose.words.settings/writeprotection/
@@ -27,10 +29,10 @@ public class WriteProtection
 
 | İsim | Tanım |
 | --- | --- |
-| [SetPassword](../../aspose.words.settings/writeprotection/setpassword/)(string) | Belgenin yazma koruması parolasını ayarlar. |
-| [ValidatePassword](../../aspose.words.settings/writeprotection/validatepassword/)(string) | İadeler`doğru` belirtilen parola belgenin korunduğu yazma koruma parolasıyla aynıysa. Belge parolayla yazmaya karşı korumalı değilse o zaman şunu döndürür:`YANLIŞ` . |
+| [SetPassword](../../aspose.words.settings/writeprotection/setpassword/)(*string*) | Belgenin yazma koruması parolasını ayarlar. |
+| [ValidatePassword](../../aspose.words.settings/writeprotection/validatepassword/)(*string*) | İadeler`doğru` belirtilen parola belgenin korunduğu yazma koruma parolasıyla aynıysa. Belge parolayla yazmaya karşı korumalı değilse o zaman şunu döndürür:`YANLIŞ` . |
 
-### Notlar
+## Notlar
 
 Yazma koruması, yazarın belgesinin salt okunur olarak açılmasını ve/veya bir belgeyi değiştirmek için parola gerektirmesini önerip önermediğini belirtir.
 
@@ -38,7 +40,7 @@ Yazma koruması belge korumasından farklıdır. Yazma koruması, Farklı Kaydet
 
 Bu sınıfın örneklerini doğrudan oluşturmazsınız. Belge koruma ayarlarına üzerinden erişebilirsiniz.[`WriteProtection`](../../aspose.words/document/writeprotection/) mülk.
 
-### Örnekler
+## Örnekler
 
 Bir belgenin parolayla nasıl korunacağını gösterir.
 
@@ -71,5 +73,3 @@ Assert.AreEqual("Hello world! This document is protected." +
 
 * ad alanı [Aspose.Words.Settings](../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../)
-
-

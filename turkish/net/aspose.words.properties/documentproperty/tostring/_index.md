@@ -1,7 +1,9 @@
 ---
 title: DocumentProperty.ToString
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentProperty yöntem. Özellik değerini geçerli yerel ayara göre biçimlendirilmiş bir dize olarak döndürür.
+linktitle: ToString
+articleTitle: ToString
+second_title: Aspose.Words for .NET
+description: DocumentProperty ToString yöntem. Özellik değerini geçerli yerel ayara göre biçimlendirilmiş bir dize olarak döndürür C#'da.
 type: docs
 weight: 110
 url: /tr/net/aspose.words.properties/documentproperty/tostring/
@@ -14,11 +16,11 @@ url: /tr/net/aspose.words.properties/documentproperty/tostring/
 public override string ToString()
 ```
 
-### Notlar
+## Notlar
 
 Bir boole özelliğini "Y" veya "N"ye dönüştürür. Bir tarih özelliğini kısa bir tarih dizesine dönüştürür. Diğer tüm türler için bir özelliği Object.ToString() kullanarak dönüştürür.
 
-### Örnekler
+## Örnekler
 
 Özel belge özelliklerinin çeşitli tür dönüştürme yöntemlerini gösterir.
 
@@ -63,7 +65,5 @@ foreach (var customDocumentProperty in doc.CustomDocumentProperties)
 ### Ayrıca bakınız
 
 * class [DocumentProperty](../)
-* ad alanı [Aspose.Words.Properties](../../documentproperty/)
+* ad alanı [Aspose.Words.Properties](../../../aspose.words.properties/)
 * toplantı [Aspose.Words](../../../)
-
-

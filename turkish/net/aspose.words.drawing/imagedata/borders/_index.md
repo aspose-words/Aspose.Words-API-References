@@ -1,7 +1,9 @@
 ---
 title: ImageData.Borders
-second_title: Aspose.Words for .NET API Referansı
-description: ImageData mülk. Görüntünün kenarlıklarının koleksiyonunu alır. Kenarlıklar yalnızca satır içi resimlerde etkilidir.
+linktitle: Borders
+articleTitle: Borders
+second_title: Aspose.Words for .NET
+description: ImageData Borders mülk. Görüntünün kenarlıklarının koleksiyonunu alır. Kenarlıklar yalnızca satır içi resimlerde etkilidir C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.drawing/imagedata/borders/
@@ -14,7 +16,7 @@ Görüntünün kenarlıklarının koleksiyonunu alır. Kenarlıklar yalnızca sa
 public BorderCollection Borders { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir şeklin görüntü verilerinin nasıl düzenleneceğini gösterir.
 
@@ -78,7 +80,5 @@ dstDoc.Save(ArtifactsDir + "Drawing.ImageData.docx");
 
 * class [BorderCollection](../../../aspose.words/bordercollection/)
 * class [ImageData](../)
-* ad alanı [Aspose.Words.Drawing](../../imagedata/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

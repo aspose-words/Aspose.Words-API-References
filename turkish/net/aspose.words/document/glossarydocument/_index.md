@@ -1,7 +1,9 @@
 ---
 title: Document.GlossaryDocument
-second_title: Aspose.Words for .NET API Referansı
-description: Document mülk. Bu belge veya şablon içindeki sözlük belgesini alır veya ayarlar. Sözlük belgesi bir belgede tanımlanan Otomatik Metin Otomatik Düzeltme ve Yapı Taşı girişleri için bir depolama dir.
+linktitle: GlossaryDocument
+articleTitle: GlossaryDocument
+second_title: Aspose.Words for .NET
+description: Document GlossaryDocument mülk. Bu belge veya şablon içindeki sözlük belgesini alır veya ayarlar. Sözlük belgesi bir belgede tanımlanan Otomatik Metin Otomatik Düzeltme ve Yapı Taşı girişleri için bir depolama dir C#'da.
 type: docs
 weight: 170
 url: /tr/net/aspose.words/document/glossarydocument/
@@ -14,13 +16,13 @@ Bu belge veya şablon içindeki sözlük belgesini alır veya ayarlar. Sözlük 
 public GlossaryDocument GlossaryDocument { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özellik şunu döndürür:`hükümsüz` belgenin sözlük belgesi yoksa.
 
 a oluşturarak bir belgeye sözlük belgesi ekleyebilirsiniz.[`GlossaryDocument`](../../../aspose.words.buildingblocks/glossarydocument/) nesne ve bu özelliğe atama.
 
-### Örnekler
+## Örnekler
 
 Bir belgeye özel yapı taşının nasıl ekleneceğini gösterir.
 
@@ -118,7 +120,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 
 * class [GlossaryDocument](../../../aspose.words.buildingblocks/glossarydocument/)
 * class [Document](../)
-* ad alanı [Aspose.Words](../../document/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Aspose.Words.Vba
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Vba ad alanı sınıfların VBA projeleriyle çalışmasını sağlar.
+linktitle: Aspose.Words.Vba
+articleTitle: Aspose.Words.Vba
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Vba ad alanı sınıfların VBA projeleriyle çalışmasını sağlar C#'da.
 type: docs
 weight: 280
 url: /tr/net/aspose.words.vba/
@@ -24,5 +26,3 @@ url: /tr/net/aspose.words.vba/
 | --- | --- |
 | [VbaModuleType](./vbamoduletype/) | VBA projesindeki modelin türünü belirtir. |
 | [VbaReferenceType](./vbareferencetype/) | Bir türün belirtilmesine izin verir[`VbaReference`](../aspose.words.vba/vbareference/) nesne. |
-
-

@@ -1,7 +1,9 @@
 ---
 title: Table.LeftIndent
-second_title: Aspose.Words for .NET API Referansı
-description: Table mülk. Tablonun sol girintisini temsil eden değeri alır veya ayarlar.
+linktitle: LeftIndent
+articleTitle: LeftIndent
+second_title: Aspose.Words for .NET
+description: Table LeftIndent mülk. Tablonun sol girintisini temsil eden değeri alır veya ayarlar C#'da.
 type: docs
 weight: 190
 url: /tr/net/aspose.words.tables/table/leftindent/
@@ -14,7 +16,7 @@ Tablonun sol girintisini temsil eden değeri alır veya ayarlar.
 public double LeftIndent { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 DocumentBuilder kullanılarak biçimlendirilmiş bir tablonun nasıl oluşturulacağını gösterir.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.CreateFormattedTable.docx");
 ### Ayrıca bakınız
 
 * class [Table](../)
-* ad alanı [Aspose.Words.Tables](../../table/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

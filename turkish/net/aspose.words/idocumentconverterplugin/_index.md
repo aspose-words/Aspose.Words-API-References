@@ -1,7 +1,9 @@
 ---
-title: Interface IDocumentConverterPlugin
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.IDocumentConverterPlugin arayüz. Harici dönüştürücü eklentisi için bir arayüz tanımlar.
+title: IDocumentConverterPlugin Interface
+linktitle: IDocumentConverterPlugin
+articleTitle: IDocumentConverterPlugin
+second_title: Aspose.Words for .NET
+description: Aspose.Words.IDocumentConverterPlugin arayüz. Harici dönüştürücü eklentisi için bir arayüz tanımlar C#'da.
 type: docs
 weight: 3160
 url: /tr/net/aspose.words/idocumentconverterplugin/
@@ -18,11 +20,9 @@ public interface IDocumentConverterPlugin
 
 | İsim | Tanım |
 | --- | --- |
-| [Convert](../../aspose.words/idocumentconverterplugin/convert/)(Stream, Stream, SaveOptions) | Belirtilen giriş çıkış akışlarını ve kaydetme seçeneklerini kullanarak belgeyi dönüştürür. |
+| [Convert](../../aspose.words/idocumentconverterplugin/convert/)(*Stream, Stream, [SaveOptions](../../aspose.words.saving/saveoptions/)*) | Belirtilen giriş çıkış akışlarını ve kaydetme seçeneklerini kullanarak belgeyi dönüştürür. |
 
 ### Ayrıca bakınız
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

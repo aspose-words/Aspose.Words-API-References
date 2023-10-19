@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.LeftRelative
-second_title: Aspose.Words for .NET API Referansı
-description: ShapeBase mülk. Şeklin göreceli sol konumunu yüzde cinsinden temsil eden değeri alır veya ayarlar.
+linktitle: LeftRelative
+articleTitle: LeftRelative
+second_title: Aspose.Words for .NET
+description: ShapeBase LeftRelative mülk. Şeklin göreceli sol konumunu yüzde cinsinden temsil eden değeri alır veya ayarlar C#'da.
 type: docs
 weight: 380
 url: /tr/net/aspose.words.drawing/shapebase/leftrelative/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.drawing/shapebase/leftrelative/
 public float LeftRelative { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Göreli boyut ve konumun nasıl ayarlanacağını gösterir.
 
@@ -69,7 +71,5 @@ doc.Save(ArtifactsDir + "Shape.RelativeSizeAndPosition.docx");
 ### Ayrıca bakınız
 
 * class [ShapeBase](../)
-* ad alanı [Aspose.Words.Drawing](../../shapebase/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

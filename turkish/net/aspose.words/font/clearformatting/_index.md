@@ -1,7 +1,9 @@
 ---
 title: Font.ClearFormatting
-second_title: Aspose.Words for .NET API Referansı
-description: Font yöntem. Varsayılan yazı tipi formatına sıfırlar.
+linktitle: ClearFormatting
+articleTitle: ClearFormatting
+second_title: Aspose.Words for .NET
+description: Font ClearFormatting yöntem. Varsayılan yazı tipi formatına sıfırlar C#'da.
 type: docs
 weight: 550
 url: /tr/net/aspose.words/font/clearformatting/
@@ -14,11 +16,11 @@ Varsayılan yazı tipi formatına sıfırlar.
 public void ClearFormatting()
 ```
 
-### Notlar
+## Notlar
 
 Where nesnesinde açıkça belirtilen tüm yazı tipi formatlarını kaldırır[`Font`](../) yazı tipi formatının uygun ebeveynden devralınması için elde edildi.
 
-### Örnekler
+## Örnekler
 
 Köprü alanının nasıl ekleneceğini gösterir.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlink.docx");
 ### Ayrıca bakınız
 
 * class [Font](../)
-* ad alanı [Aspose.Words](../../font/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CleanupOptions.UnusedStyles
-second_title: Aspose.Words for .NET API Referansı
-description: CleanupOptions mülk. Kullanılmayan stillerin belgeden kaldırılıp kaldırılmayacağını belirtir. Varsayılan değerdoğru .
+linktitle: UnusedStyles
+articleTitle: UnusedStyles
+second_title: Aspose.Words for .NET
+description: CleanupOptions UnusedStyles mülk. Kullanılmayan stillerin belgeden kaldırılıp kaldırılmayacağını belirtir. Varsayılan değerdoğru  C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words/cleanupoptions/unusedstyles/
@@ -14,7 +16,7 @@ Kullanılmayan stillerin belgeden kaldırılıp kaldırılmayacağını belirtir
 public bool UnusedStyles { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Kullanılmayan tüm özel stillerin bir belgeden nasıl kaldırılacağını gösterir.
 
@@ -63,7 +65,5 @@ Assert.AreEqual(2, doc.Styles.Count);
 ### Ayrıca bakınız
 
 * class [CleanupOptions](../)
-* ad alanı [Aspose.Words](../../cleanupoptions/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

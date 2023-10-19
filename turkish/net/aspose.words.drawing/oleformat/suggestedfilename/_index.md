@@ -1,7 +1,9 @@
 ---
 title: OleFormat.SuggestedFileName
-second_title: Aspose.Words for .NET API Referansı
-description: OleFormat mülk. Geçerli gömülü nesneyi bir dosyaya kaydetmek istiyorsanız önerilen dosya adını alır.
+linktitle: SuggestedFileName
+articleTitle: SuggestedFileName
+second_title: Aspose.Words for .NET
+description: OleFormat SuggestedFileName mülk. Geçerli gömülü nesneyi bir dosyaya kaydetmek istiyorsanız önerilen dosya adını alır C#'da.
 type: docs
 weight: 130
 url: /tr/net/aspose.words.drawing/oleformat/suggestedfilename/
@@ -14,7 +16,7 @@ Geçerli gömülü nesneyi bir dosyaya kaydetmek istiyorsanız, önerilen dosya 
 public string SuggestedFileName { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir OLE nesnesinin önerilen dosya adının nasıl alınacağını gösterir.
 
@@ -38,7 +40,5 @@ using (FileStream fileStream = new FileStream(ArtifactsDir + suggestedFileName, 
 ### Ayrıca bakınız
 
 * class [OleFormat](../)
-* ad alanı [Aspose.Words.Drawing](../../oleformat/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

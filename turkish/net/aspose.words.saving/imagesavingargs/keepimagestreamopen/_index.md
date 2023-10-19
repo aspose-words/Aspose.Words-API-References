@@ -1,7 +1,9 @@
 ---
 title: ImageSavingArgs.KeepImageStreamOpen
-second_title: Aspose.Words for .NET API Referansı
-description: ImageSavingArgs mülk. Aspose.Wordsün görüntüyü kaydettikten sonra akışı açık mı tutması yoksa kapatması mı gerektiğini belirtir.
+linktitle: KeepImageStreamOpen
+articleTitle: KeepImageStreamOpen
+second_title: Aspose.Words for .NET
+description: ImageSavingArgs KeepImageStreamOpen mülk. Aspose.Wordsün görüntüyü kaydettikten sonra akışı açık mı tutması yoksa kapatması mı gerektiğini belirtir C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.saving/imagesavingargs/keepimagestreamopen/
@@ -14,11 +16,11 @@ Aspose.Words'ün görüntüyü kaydettikten sonra akışı açık mı tutması y
 public bool KeepImageStreamOpen { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan:`YANLIŞ` ve Aspose.Words, sağladığınız akışını kapatacaktır.[`ImageStream`](../imagestream/) içine bir resim yazdıktan sonra özellik. Belirtin`doğru` Akışı açık tutmak için.
 
-### Örnekler
+## Örnekler
 
 Görüntü kaydetme geri aramasının HTML dönüştürme sürecine nasıl dahil edileceğini gösterir.
 
@@ -64,7 +66,5 @@ private class ImageShapePrinter : IImageSavingCallback
 ### Ayrıca bakınız
 
 * class [ImageSavingArgs](../)
-* ad alanı [Aspose.Words.Saving](../../imagesavingargs/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

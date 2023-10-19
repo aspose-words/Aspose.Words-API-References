@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.OptimizeOutput
-second_title: Aspose.Words for .NET API Referansı
-description: HtmlFixedSaveOptions mülk. Bayrak çıktıyı optimize etmenin gerekli olup olmadığını belirtir. Bu bayrak ayarlanırsa yedekli iç içe tuvaller ve boş tuvaller kaldırılır aynı biçimlendirmeye sahip komşu glifler de birleştirilir. Not Aşağıdaki durumlarda içerik görüntüsünün doğruluğu etkilenebilir bu özellik şu şekilde ayarlandıdoğru . Varsayılandoğru .
+linktitle: OptimizeOutput
+articleTitle: OptimizeOutput
+second_title: Aspose.Words for .NET
+description: HtmlFixedSaveOptions OptimizeOutput mülk. Bayrak çıktıyı optimize etmenin gerekli olup olmadığını belirtir. Bu bayrak ayarlanırsa yedekli iç içe tuvaller ve boş tuvaller kaldırılır aynı biçimlendirmeye sahip komşu glifler de birleştirilir. Not Aşağıdaki durumlarda içerik görüntüsünün doğruluğu etkilenebilir bu özellik şu şekilde ayarlandıdoğru . Varsayılandoğru  C#'da.
 type: docs
 weight: 100
 url: /tr/net/aspose.words.saving/htmlfixedsaveoptions/optimizeoutput/
@@ -14,7 +16,7 @@ Bayrak, çıktıyı optimize etmenin gerekli olup olmadığını belirtir. Bu ba
 public override bool OptimizeOutput { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Çeşitli gereksiz nesneleri kaldırarak bir belgeyi HTML'ye kaydederken nasıl basitleştirileceğini gösterir.
 
@@ -33,7 +35,5 @@ Assert.AreEqual(optimizeOutput ? 62521 : 191770,
 ### Ayrıca bakınız
 
 * class [HtmlFixedSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

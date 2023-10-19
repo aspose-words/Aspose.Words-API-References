@@ -1,7 +1,9 @@
 ---
 title: BarcodeParameters.FixCheckDigit
-second_title: Aspose.Words for .NET API Referansı
-description: BarcodeParameters mülk. Geçersizse kontrol basamağının düzeltilip düzeltilmeyeceği.
+linktitle: FixCheckDigit
+articleTitle: FixCheckDigit
+second_title: Aspose.Words for .NET
+description: BarcodeParameters FixCheckDigit mülk. Geçersizse kontrol basamağının düzeltilip düzeltilmeyeceği C#'da.
 type: docs
 weight: 100
 url: /tr/net/aspose.words.fields/barcodeparameters/fixcheckdigit/
@@ -14,7 +16,7 @@ Geçersizse kontrol basamağının düzeltilip düzeltilmeyeceği.
 public bool FixCheckDigit { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Barkod oluşturucunun nasıl kullanılacağını gösterir.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 ### Ayrıca bakınız
 
 * class [BarcodeParameters](../)
-* ad alanı [Aspose.Words.Fields](../../barcodeparameters/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

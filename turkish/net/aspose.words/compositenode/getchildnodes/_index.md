@@ -1,9 +1,11 @@
 ---
 title: CompositeNode.GetChildNodes
-second_title: Aspose.Words for .NET API Referansı
-description: CompositeNode yöntem. Belirtilen türle eşleşen alt düğümlerin canlı bir koleksiyonunu döndürür.
+linktitle: GetChildNodes
+articleTitle: GetChildNodes
+second_title: Aspose.Words for .NET
+description: CompositeNode GetChildNodes yöntem. Belirtilen türle eşleşen alt düğümlerin canlı bir koleksiyonunu döndürür C#'da.
 type: docs
-weight: 110
+weight: 90
 url: /tr/net/aspose.words/compositenode/getchildnodes/
 ---
 ## CompositeNode.GetChildNodes method
@@ -23,13 +25,13 @@ public NodeCollection GetChildNodes(NodeType nodeType, bool isDeep)
 
 Belirtilen türdeki alt düğümlerin canlı koleksiyonu.
 
-### Notlar
+## Notlar
 
 Bu yöntemle döndürülen düğümlerin koleksiyonu her zaman yayındadır.
 
 Canlı bir koleksiyon her zaman belgeyle senkronizedir. Örneğin, bir belgedeki tüm bölümleri siz seçtiyseniz ve bölümleri silerek koleksiyon aracılığıyla numaralandırırsanız, bölüm, belgeden kaldırıldığında derhal koleksiyondan kaldırılır.
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki tüm yorumların ve yanıtların nasıl yazdırılacağını gösterir.
 
@@ -171,7 +173,5 @@ Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, true).Count);
 * class [NodeCollection](../../nodecollection/)
 * enum [NodeType](../../nodetype/)
 * class [CompositeNode](../)
-* ad alanı [Aspose.Words](../../compositenode/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

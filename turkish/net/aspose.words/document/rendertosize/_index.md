@@ -1,9 +1,11 @@
 ---
 title: Document.RenderToSize
-second_title: Aspose.Words for .NET API Referansı
-description: Document yöntem. Bir belge sayfasını birGraphics belirtilen boyuta nesne.
+linktitle: RenderToSize
+articleTitle: RenderToSize
+second_title: Aspose.Words for .NET
+description: Document RenderToSize yöntem. Bir belge sayfasını birGraphics belirtilen boyuta nesne C#'da.
 type: docs
-weight: 710
+weight: 690
 url: /tr/net/aspose.words/document/rendertosize/
 ---
 ## Document.RenderToSize method
@@ -28,7 +30,7 @@ public float RenderToSize(int pageIndex, Graphics graphics, float x, float y, fl
 
 Oluşturulan sayfanın belirtilen boyuta sığması için otomatik olarak hesaplanan ölçek.
 
-### Örnekler
+## Örnekler
 
 Belgenin belirli bir konumda ve boyutta (.NetStandard 2.0) bit eşlem olarak nasıl oluşturulacağını gösterir.
 
@@ -144,7 +146,5 @@ using (Bitmap bmp = new Bitmap(700, 700))
 ### Ayrıca bakınız
 
 * class [Document](../)
-* ad alanı [Aspose.Words](../../document/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

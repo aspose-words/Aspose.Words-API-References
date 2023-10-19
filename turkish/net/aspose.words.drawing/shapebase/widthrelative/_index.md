@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.WidthRelative
-second_title: Aspose.Words for .NET API Referansı
-description: ShapeBase mülk. Şeklin göreceli genişliğinin yüzdesini temsil eden değeri alır veya ayarlar.
+linktitle: WidthRelative
+articleTitle: WidthRelative
+second_title: Aspose.Words for .NET
+description: ShapeBase WidthRelative mülk. Şeklin göreceli genişliğinin yüzdesini temsil eden değeri alır veya ayarlar C#'da.
 type: docs
 weight: 580
 url: /tr/net/aspose.words.drawing/shapebase/widthrelative/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.drawing/shapebase/widthrelative/
 public float WidthRelative { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Göreli boyut ve konumun nasıl ayarlanacağını gösterir.
 
@@ -69,7 +71,5 @@ doc.Save(ArtifactsDir + "Shape.RelativeSizeAndPosition.docx");
 ### Ayrıca bakınız
 
 * class [ShapeBase](../)
-* ad alanı [Aspose.Words.Drawing](../../shapebase/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

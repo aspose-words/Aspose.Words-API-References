@@ -1,7 +1,9 @@
 ---
-title: Enum FontPitch
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Fonts.FontPitch Sıralama. Yazı tipi aralığını temsil eder.
+title: FontPitch Enum
+linktitle: FontPitch
+articleTitle: FontPitch
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Fonts.FontPitch Sıralama. Yazı tipi aralığını temsil eder C#'da.
 type: docs
 weight: 2960
 url: /tr/net/aspose.words.fonts/fontpitch/
@@ -22,11 +24,11 @@ public enum FontPitch
 | Fixed | `1` | Bunun sabit genişlikte bir yazı tipi olduğunu belirtir. |
 | Variable | `2` | Bunun orantılı genişlikte bir yazı tipi olduğunu belirtir. |
 
-### Notlar
+## Notlar
 
 Karakter aralığı, yazı tipinin sabit aralıklı mı, orantılı aralıklı mı olduğunu yoksa varsayılan bir ayara mı dayandığını belirtir.
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki her yazı tipinin ayrıntılarına nasıl erişileceğini ve yazdırılacağını gösterir.
 
@@ -66,5 +68,3 @@ while (fontCollectionEnumerator.MoveNext())
 
 * ad alanı [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../)
-
-

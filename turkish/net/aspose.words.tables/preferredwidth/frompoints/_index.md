@@ -1,7 +1,9 @@
 ---
 title: PreferredWidth.FromPoints
-second_title: Aspose.Words for .NET API Referansı
-description: PreferredWidth yöntem. Bir dizi nokta kullanılarak belirtilen tercih edilen genişliği temsil eden yeni bir örneği döndüren bir oluşturma yöntemi.
+linktitle: FromPoints
+articleTitle: FromPoints
+second_title: Aspose.Words for .NET
+description: PreferredWidth FromPoints yöntem. Bir dizi nokta kullanılarak belirtilen tercih edilen genişliği temsil eden yeni bir örneği döndüren bir oluşturma yöntemi C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.tables/preferredwidth/frompoints/
@@ -18,7 +20,7 @@ public static PreferredWidth FromPoints(double points)
 | --- | --- | --- |
 | points | Double | Değer 0 ila 22 inç (22 * 72 puan) arasında olmalıdır. |
 
-### Örnekler
+## Örnekler
 
 Bir hücre için tercih edilen genişliği belirlerken birim dönüştürme araçlarının nasıl kullanılacağını gösterir.
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCellsWithPreferredWidths.docx");
 ### Ayrıca bakınız
 
 * class [PreferredWidth](../)
-* ad alanı [Aspose.Words.Tables](../../preferredwidth/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

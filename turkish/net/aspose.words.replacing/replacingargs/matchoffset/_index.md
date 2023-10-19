@@ -1,7 +1,9 @@
 ---
 title: ReplacingArgs.MatchOffset
-second_title: Aspose.Words for .NET API Referansı
-description: ReplacingArgs mülk. Eşleşmenin başlangıcını içeren düğümün başlangıcından itibaren eşleşmenin sıfır tabanlı başlangıç konumunu alır.
+linktitle: MatchOffset
+articleTitle: MatchOffset
+second_title: Aspose.Words for .NET
+description: ReplacingArgs MatchOffset mülk. Eşleşmenin başlangıcını içeren düğümün başlangıcından itibaren eşleşmenin sıfır tabanlı başlangıç konumunu alır C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.replacing/replacingargs/matchoffset/
@@ -14,7 +16,7 @@ Eşleşmenin başlangıcını içeren düğümün başlangıcından itibaren eş
 public int MatchOffset { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 FindReplaceOptions aracılığıyla yeni içeriğe farklı bir yazı tipinin nasıl uygulanacağını gösterir.
 
@@ -87,7 +89,5 @@ private class NumberHexer : IReplacingCallback
 ### Ayrıca bakınız
 
 * class [ReplacingArgs](../)
-* ad alanı [Aspose.Words.Replacing](../../replacingargs/)
+* ad alanı [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * toplantı [Aspose.Words](../../../)
-
-

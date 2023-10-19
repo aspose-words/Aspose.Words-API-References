@@ -1,7 +1,9 @@
 ---
 title: LoadOptions.BaseUri
-second_title: Aspose.Words for .NET API Referansı
-description: LoadOptions mülk. Gerektiğinde belgede bulunan göreli URIleri mutlak URIlere çözümlemek için kullanılacak dizeyi alır veya ayarlar. Olabilirhükümsüz veya boş dize. Varsayılanhükümsüz .
+linktitle: BaseUri
+articleTitle: BaseUri
+second_title: Aspose.Words for .NET
+description: LoadOptions BaseUri mülk. Gerektiğinde belgede bulunan göreli URIleri mutlak URIlere çözümlemek için kullanılacak dizeyi alır veya ayarlar. Olabilirhükümsüz veya boş dize. Varsayılanhükümsüz  C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.loading/loadoptions/baseuri/
@@ -14,14 +16,14 @@ Gerektiğinde belgede bulunan göreli URI'leri mutlak URI'lere çözümlemek iç
 public string BaseUri { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özellik, aşağıdaki durumlarda göreceli URI'leri mutlak olarak çözümlemek için kullanılır:
 
 1. Bir akıştan bir HTML belgesi yüklerken ve belge göreli URI'leri olan görüntüler içeriyor ve BASE HTML öğesinde belirtilen bir temel URI'ye sahip değil.
 2. Bir belgeyi PDF'ye ve diğer formatlara kaydederken, ilgili URIs kullanılarak bağlanan görüntüleri almak ve böylece görüntülerin çıktı belgesine kaydedilmesini sağlamak.
 
-### Örnekler
+## Örnekler
 
 Temel URI kullanarak bir akıştan görüntüler içeren bir HTML belgesinin nasıl açılacağını gösterir.
 
@@ -48,7 +50,5 @@ using (Stream stream = File.OpenRead(MyDir + "Document.html"))
 ### Ayrıca bakınız
 
 * class [LoadOptions](../)
-* ad alanı [Aspose.Words.Loading](../../loadoptions/)
+* ad alanı [Aspose.Words.Loading](../../../aspose.words.loading/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldGreetingLine.GetFieldNames
-second_title: Aspose.Words for .NET API Referansı
-description: FieldGreetingLine yöntem. Alan tarafından kullanılan adresmektup birleştirme alan adlarının bir koleksiyonunu döndürür.
+linktitle: GetFieldNames
+articleTitle: GetFieldNames
+second_title: Aspose.Words for .NET
+description: FieldGreetingLine GetFieldNames yöntem. Alan tarafından kullanılan adresmektup birleştirme alan adlarının bir koleksiyonunu döndürür C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.fields/fieldgreetingline/getfieldnames/
@@ -14,7 +16,7 @@ Alan tarafından kullanılan adres-mektup birleştirme alan adlarının bir kole
 public string[] GetFieldNames()
 ```
 
-### Örnekler
+## Örnekler
 
 GREETINGLINE alanının nasıl ekleneceğini gösterir.
 
@@ -74,7 +76,5 @@ Assert.AreEqual("Dear Mr. Doe,\r\r\tThis is your custom greeting, created progra
 ### Ayrıca bakınız
 
 * class [FieldGreetingLine](../)
-* ad alanı [Aspose.Words.Fields](../../fieldgreetingline/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

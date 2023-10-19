@@ -1,7 +1,9 @@
 ---
 title: Cell.Tables
-second_title: Aspose.Words for .NET API Referansı
-description: Cell mülk. Hücrenin doğrudan alt öğeleri olan tabloların bir koleksiyonunu alır.
+linktitle: Tables
+articleTitle: Tables
+second_title: Aspose.Words for .NET
+description: Cell Tables mülk. Hücrenin doğrudan alt öğeleri olan tabloların bir koleksiyonunu alır C#'da.
 type: docs
 weight: 120
 url: /tr/net/aspose.words.tables/cell/tables/
@@ -14,7 +16,7 @@ Hücrenin doğrudan alt öğeleri olan tabloların bir koleksiyonunu alır.
 public TableCollection Tables { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir tablonun iç içe olup olmadığının nasıl öğrenileceğini gösterir.
 
@@ -93,7 +95,5 @@ private static int GetChildTableCount(Table table)
 
 * class [TableCollection](../../tablecollection/)
 * class [Cell](../)
-* ad alanı [Aspose.Words.Tables](../../cell/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

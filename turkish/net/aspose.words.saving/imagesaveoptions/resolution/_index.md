@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.Resolution
-second_title: Aspose.Words for .NET API Referansı
-description: ImageSaveOptions mülk. Oluşturulan görüntüler için inç başına nokta sayısı cinsinden hem yatay hem de dikey çözünürlüğü ayarlar.
+linktitle: Resolution
+articleTitle: Resolution
+second_title: Aspose.Words for .NET
+description: ImageSaveOptions Resolution mülk. Oluşturulan görüntüler için inç başına nokta sayısı cinsinden hem yatay hem de dikey çözünürlüğü ayarlar C#'da.
 type: docs
 weight: 130
 url: /tr/net/aspose.words.saving/imagesaveoptions/resolution/
@@ -14,11 +16,11 @@ Oluşturulan görüntüler için inç başına nokta sayısı cinsinden hem yata
 public float Resolution { set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özellik yalnızca taramalı görüntü formatlarına kaydederken etkilidir.
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi PNG'ye dönüştürürken çözünürlüğün nasıl belirleneceğini gösterir.
 
@@ -79,7 +81,5 @@ Document doc = new Document();
 ### Ayrıca bakınız
 
 * class [ImageSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../imagesaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: VbaProject.References
-second_title: Aspose.Words for .NET API Referansı
-description: VbaProject mülk. VBA proje referanslarının bir koleksiyonunu alır.
+linktitle: References
+articleTitle: References
+second_title: Aspose.Words for .NET
+description: VbaProject References mülk. VBA proje referanslarının bir koleksiyonunu alır C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.vba/vbaproject/references/
@@ -18,7 +20,5 @@ public VbaReferenceCollection References { get; }
 
 * class [VbaReferenceCollection](../../vbareferencecollection/)
 * class [VbaProject](../)
-* ad alanı [Aspose.Words.Vba](../../vbaproject/)
+* ad alanı [Aspose.Words.Vba](../../../aspose.words.vba/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.HasMajorGridlines
-second_title: Aspose.Words for .NET API Referansı
-description: ChartAxis mülk. Eksenin ana kılavuz çizgilerine sahip olup olmadığını gösteren bir bayrağı alır veya ayarlar.
+linktitle: HasMajorGridlines
+articleTitle: HasMajorGridlines
+second_title: Aspose.Words for .NET
+description: ChartAxis HasMajorGridlines mülk. Eksenin ana kılavuz çizgilerine sahip olup olmadığını gösteren bir bayrağı alır veya ayarlar C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words.drawing.charts/chartaxis/hasmajorgridlines/
@@ -14,7 +16,7 @@ Eksenin ana kılavuz çizgilerine sahip olup olmadığını gösteren bir bayra�
 public bool HasMajorGridlines { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Tarih/saat değerleriyle grafiğin nasıl ekleneceğini gösterir.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 ### Ayrıca bakınız
 
 * class [ChartAxis](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

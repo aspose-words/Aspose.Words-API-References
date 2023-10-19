@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.Bounds
-second_title: Aspose.Words for .NET API Referansı
-description: ShapeBase mülk. Şeklin bulunduğu bloğun konumunu ve boyutunu alır veya ayarlar.
+linktitle: Bounds
+articleTitle: Bounds
+second_title: Aspose.Words for .NET
+description: ShapeBase Bounds mülk. Şeklin bulunduğu bloğun konumunu ve boyutunu alır veya ayarlar C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.drawing/shapebase/bounds/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.drawing/shapebase/bounds/
 public RectangleF Bounds { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Ayarlama sonrasında en boy oranı kilidini yok sayar.
 
@@ -22,7 +24,7 @@ Ayarlama sonrasında en boy oranı kilidini yok sayar.
 
 Bir gruptaki şekiller için değer, üst grubun koordinat alanında ve birimlerindedir.
 
-### Örnekler
+## Örnekler
 
 Blok sınırlarını içeren şeklin nasıl doğrulanacağını gösterir.
 
@@ -179,7 +181,5 @@ doc.Save(ArtifactsDir + "Shape.GroupShape.docx");
 ### Ayrıca bakınız
 
 * class [ShapeBase](../)
-* ad alanı [Aspose.Words.Drawing](../../shapebase/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: OdsoRecipientData.UniqueTag
-second_title: Aspose.Words for .NET API Referansı
-description: OdsoRecipientData mülk. Benzersiz verileri içeren sütundaki belirli bir kaydın içeriğini belirtir. Varsayılan değerhükümsüz .
+linktitle: UniqueTag
+articleTitle: UniqueTag
+second_title: Aspose.Words for .NET
+description: OdsoRecipientData UniqueTag mülk. Benzersiz verileri içeren sütundaki belirli bir kaydın içeriğini belirtir. Varsayılan değerhükümsüz  C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.settings/odsorecipientdata/uniquetag/
@@ -14,7 +16,7 @@ Benzersiz verileri içeren sütundaki belirli bir kaydın içeriğini belirtir. 
 public byte[] UniqueTag { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Adres-mektup birleştirmenin hangi birleştirme veri kaynağı kayıtlarını hariç tutacağını belirleyen veri koleksiyonuna nasıl erişileceğini gösterir.
 
@@ -54,7 +56,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Ayrıca bakınız
 
 * class [OdsoRecipientData](../)
-* ad alanı [Aspose.Words.Settings](../../odsorecipientdata/)
+* ad alanı [Aspose.Words.Settings](../../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../../)
-
-

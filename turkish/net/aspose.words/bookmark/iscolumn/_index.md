@@ -1,7 +1,9 @@
 ---
 title: Bookmark.IsColumn
-second_title: Aspose.Words for .NET API Referansı
-description: Bookmark mülk. İadelerdoğru bu yer imi bir tablo sütunu yer imi ise.
+linktitle: IsColumn
+articleTitle: IsColumn
+second_title: Aspose.Words for .NET
+description: Bookmark IsColumn mülk. İadelerdoğru bu yer imi bir tablo sütunu yer imi ise C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words/bookmark/iscolumn/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words/bookmark/iscolumn/
 public bool IsColumn { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Tablo sütunu yer imleri hakkında nasıl bilgi alınacağını gösterir.
 
@@ -41,7 +43,5 @@ foreach (Bookmark bookmark in doc.Range.Bookmarks)
 ### Ayrıca bakınız
 
 * class [Bookmark](../)
-* ad alanı [Aspose.Words](../../bookmark/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

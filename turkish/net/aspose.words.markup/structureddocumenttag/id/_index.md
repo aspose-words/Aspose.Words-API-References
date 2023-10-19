@@ -1,20 +1,22 @@
 ---
 title: StructuredDocumentTag.Id
-second_title: Aspose.Words for .NET API Referansı
-description: StructuredDocumentTag mülk. Bunun için benzersiz bir salt okunur kalıcı sayısal kimlik belirtir SDT.
+linktitle: Id
+articleTitle: Id
+second_title: Aspose.Words for .NET
+description: StructuredDocumentTag Id mülk. Bunun için benzersiz bir salt okunur kalıcı sayısal kimlik belirtirSDT C#'da.
 type: docs
 weight: 140
 url: /tr/net/aspose.words.markup/structureddocumenttag/id/
 ---
 ## StructuredDocumentTag.Id property
 
-Bunun için benzersiz bir salt okunur kalıcı sayısal kimlik belirtir **SDT**.
+Bunun için benzersiz bir salt okunur kalıcı sayısal kimlik belirtir**SDT**.
 
 ```csharp
 public int Id { get; }
 ```
 
-### Notlar
+## Notlar
 
 Kimlik özelliği şu kurallara uymalıdır:
 
@@ -24,7 +26,7 @@ Kimlik özelliği şu kurallara uymalıdır:
 * Bağımsız SDT sırasındaINodeCloningListener) işlem klonlanan SDT düğümü için yeni benzersiz kimlik oluşturulacaktır.
 * Kaynak belgede kimlik belirtilmemişse, belge yüklendiğinde SDT düğümüne yeni bir benzersiz tanımlayıcı atanacaktır.
 
-### Örnekler
+## Örnekler
 
 Düz metin kutusunda yapılandırılmış belge etiketinin nasıl oluşturulacağını ve görünümünün nasıl değiştirileceğini gösterir.
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");
 ### Ayrıca bakınız
 
 * class [StructuredDocumentTag](../)
-* ad alanı [Aspose.Words.Markup](../../structureddocumenttag/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

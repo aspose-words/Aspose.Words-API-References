@@ -1,7 +1,9 @@
 ---
 title: OdsoFieldMapData.MappedName
-second_title: Aspose.Words for .NET API Referansı
-description: OdsoFieldMapData mülk. Tarafından belirtilen sütun numarasına eşlenecek önceden tanımlanmış birleştirme alanı adını belirtir.Column bu alan eşlemesindeki özellik. Varsayılan değer boş bir dizedir.
+linktitle: MappedName
+articleTitle: MappedName
+second_title: Aspose.Words for .NET
+description: OdsoFieldMapData MappedName mülk. Tarafından belirtilen sütun numarasına eşlenecek önceden tanımlanmış birleştirme alanı adını belirtir.Column bu alan eşlemesindeki özellik. Varsayılan değer boş bir dizedir C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.settings/odsofieldmapdata/mappedname/
@@ -14,7 +16,7 @@ Tarafından belirtilen sütun numarasına eşlenecek önceden tanımlanmış bir
 public string MappedName { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Veri kaynağı sütunlarını birleştirme alanlarıyla eşleştiren veri koleksiyonuna nasıl erişileceğini gösterir.
 
@@ -57,7 +59,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Ayrıca bakınız
 
 * class [OdsoFieldMapData](../)
-* ad alanı [Aspose.Words.Settings](../../odsofieldmapdata/)
+* ad alanı [Aspose.Words.Settings](../../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../../)
-
-

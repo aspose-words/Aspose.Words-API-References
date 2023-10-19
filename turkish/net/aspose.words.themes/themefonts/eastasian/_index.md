@@ -1,7 +1,9 @@
 ---
 title: ThemeFonts.EastAsian
-second_title: Aspose.Words for .NET API Referansı
-description: ThemeFonts mülk. DoğuAsya karakterleri için yazı tipi adını belirtir.
+linktitle: EastAsian
+articleTitle: EastAsian
+second_title: Aspose.Words for .NET
+description: ThemeFonts EastAsian mülk. DoğuAsya karakterleri için yazı tipi adını belirtir C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.themes/themefonts/eastasian/
@@ -14,7 +16,7 @@ DoğuAsya karakterleri için yazı tipi adını belirtir.
 public string EastAsian { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Temalar için özel renklerin ve yazı tiplerinin nasıl ayarlanacağını gösterir.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 ### Ayrıca bakınız
 
 * class [ThemeFonts](../)
-* ad alanı [Aspose.Words.Themes](../../themefonts/)
+* ad alanı [Aspose.Words.Themes](../../../aspose.words.themes/)
 * toplantı [Aspose.Words](../../../)
-
-

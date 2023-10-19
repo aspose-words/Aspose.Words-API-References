@@ -1,7 +1,9 @@
 ---
 title: Node.Remove
-second_title: Aspose.Words for .NET API Referansı
-description: Node yöntem. Kendini üst öğeden kaldırır.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words for .NET
+description: Node Remove yöntem. Kendini üst öğeden kaldırır C#'da.
 type: docs
 weight: 150
 url: /tr/net/aspose.words/node/remove/
@@ -14,7 +16,7 @@ Kendini üst öğeden kaldırır.
 public void Remove()
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki resim içeren tüm şekillerin nasıl silineceğini gösterir.
 
@@ -59,7 +61,5 @@ Assert.AreEqual(0, doc.GetChildNodes(NodeType.Table, true).Count);
 ### Ayrıca bakınız
 
 * class [Node](../)
-* ad alanı [Aspose.Words](../../node/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

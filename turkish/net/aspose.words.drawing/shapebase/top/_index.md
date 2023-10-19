@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.Top
-second_title: Aspose.Words for .NET API Referansı
-description: ShapeBase mülk. Şeklin içeren bloğunun üst kenarının konumunu alır veya ayarlar.
+linktitle: Top
+articleTitle: Top
+second_title: Aspose.Words for .NET
+description: ShapeBase Top mülk. Şeklin içeren bloğunun üst kenarının konumunu alır veya ayarlar C#'da.
 type: docs
 weight: 540
 url: /tr/net/aspose.words.drawing/shapebase/top/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.drawing/shapebase/top/
 public double Top { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Üst düzey bir şekil için değer nokta cinsindendir ve şekil bağlantısına göredir.
 
@@ -24,7 +26,7 @@ Varsayılan değer 0'dır.
 
 Yalnızca kayan şekiller için etkilidir.
 
-### Örnekler
+## Örnekler
 
 Kayan bir görüntünün nasıl ekleneceğini ve konumunun ve boyutunun nasıl belirleneceğini gösterir.
 
@@ -61,7 +63,5 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPositionSize.docx");
 ### Ayrıca bakınız
 
 * class [ShapeBase](../)
-* ad alanı [Aspose.Words.Drawing](../../shapebase/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

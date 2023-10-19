@@ -1,7 +1,9 @@
 ---
 title: VariableCollection.Item
-second_title: Aspose.Words for .NET API Referansı
-description: VariableCollection mülk. Büyük/küçük harfe duyarlı olmayan ada göre bir belge değişkenini alır veya ayarlar. hükümsüz atamanın sağ tarafında değerlere izin verilmez ve bunlar boş dizeyle değiştirilecektir.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words for .NET
+description: VariableCollection Item mülk. Büyük/küçük harfe duyarlı olmayan ada göre bir belge değişkenini alır veya ayarlar. hükümsüz atamanın sağ tarafında değerlere izin verilmez ve bunlar boş dizeyle değiştirilecektir C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/variablecollection/item/
@@ -17,7 +19,7 @@ public string this[string name] { get; set; }
 ### Ayrıca bakınız
 
 * class [VariableCollection](../)
-* ad alanı [Aspose.Words](../../variablecollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
 
 ---
@@ -37,7 +39,5 @@ public string this[int index] { get; set; }
 ### Ayrıca bakınız
 
 * class [VariableCollection](../)
-* ad alanı [Aspose.Words](../../variablecollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

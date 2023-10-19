@@ -1,7 +1,9 @@
 ---
 title: SignatureLineOptions.ShowDate
-second_title: Aspose.Words for .NET API Referansı
-description: SignatureLineOptions mülk. İmza satırında imza tarihinin gösterildiğini belirten bir değer alır veya ayarlar. Bu özelliğin varsayılan değeridoğru .
+linktitle: ShowDate
+articleTitle: ShowDate
+second_title: Aspose.Words for .NET
+description: SignatureLineOptions ShowDate mülk. İmza satırında imza tarihinin gösterildiğini belirten bir değer alır veya ayarlar. Bu özelliğin varsayılan değeridoğru  C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words/signaturelineoptions/showdate/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words/signaturelineoptions/showdate/
 public bool ShowDate { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Kişisel sertifika ve imza satırı içeren bir belgenin nasıl imzalanacağını gösterir.
 
@@ -67,7 +69,5 @@ Assert.True(signatureLine.IsValid);
 ### Ayrıca bakınız
 
 * class [SignatureLineOptions](../)
-* ad alanı [Aspose.Words](../../signaturelineoptions/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitCommentRangeStart
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentVisitor yöntem. Yorum yapılan bir metin aralığının başlangıcıyla karşılaşıldığında çağrılır.
+linktitle: VisitCommentRangeStart
+articleTitle: VisitCommentRangeStart
+second_title: Aspose.Words for .NET
+description: DocumentVisitor VisitCommentRangeStart yöntem. Yorum yapılan bir metin aralığının başlangıcıyla karşılaşıldığında çağrılır C#'da.
 type: docs
 weight: 120
 url: /tr/net/aspose.words/documentvisitor/visitcommentrangestart/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitCommentRangeStart(CommentRangeStart commentRan
 
 A[`VisitorAction`](../../visitoraction/) numaralandırmaya nasıl devam edileceğini belirten değer.
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki her yorumun ve yorum aralığının düğüm yapısının nasıl yazdırılacağını gösterir.
 
@@ -143,7 +145,5 @@ public class CommentStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [CommentRangeStart](../../commentrangestart/)
 * class [DocumentVisitor](../)
-* ad alanı [Aspose.Words](../../documentvisitor/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

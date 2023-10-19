@@ -1,7 +1,9 @@
 ---
-title: Interface IFieldUpdateCultureProvider
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Fields.IFieldUpdateCultureProvider arayüz. UygulandığındaCultureInfo belirli bir alanın güncellenmesi sırasında kullanılması gereken nesne.
+title: IFieldUpdateCultureProvider Interface
+linktitle: IFieldUpdateCultureProvider
+articleTitle: IFieldUpdateCultureProvider
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Fields.IFieldUpdateCultureProvider arayüz. UygulandığındaCultureInfo belirli bir alanın güncellenmesi sırasında kullanılması gereken nesne C#'da.
 type: docs
 weight: 2710
 url: /tr/net/aspose.words.fields/ifieldupdatecultureprovider/
@@ -18,9 +20,9 @@ public interface IFieldUpdateCultureProvider
 
 | İsim | Tanım |
 | --- | --- |
-| [GetCulture](../../aspose.words.fields/ifieldupdatecultureprovider/getculture/)(string, Field) | Bir değeri döndürürCultureInfoalanın güncellenmesi sırasında kullanılacak nesne. |
+| [GetCulture](../../aspose.words.fields/ifieldupdatecultureprovider/getculture/)(*string, [Field](../field/)*) | Bir değeri döndürürCultureInfoalanın güncellenmesi sırasında kullanılacak nesne. |
 
-### Örnekler
+## Örnekler
 
 Her alan için tarih/saat biçimlendirmesini ayrıştıran bir kültürün nasıl belirtileceğini gösterir.
 
@@ -92,5 +94,3 @@ private class FieldUpdateCultureProvider : IFieldUpdateCultureProvider
 
 * ad alanı [Aspose.Words.Fields](../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../)
-
-

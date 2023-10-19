@@ -1,7 +1,9 @@
 ---
 title: TextPath.TextPathAlignment
-second_title: Aspose.Words for .NET API Referansı
-description: TextPath mülk. Metnin hizalamasını tanımlar.
+linktitle: TextPathAlignment
+articleTitle: TextPathAlignment
+second_title: Aspose.Words for .NET
+description: TextPath TextPathAlignment mülk. Metnin hizalamasını tanımlar C#'da.
 type: docs
 weight: 170
 url: /tr/net/aspose.words.drawing/textpath/textpathalignment/
@@ -14,11 +16,11 @@ Metnin hizalamasını tanımlar.
 public TextPathAlignment TextPathAlignment { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:Center.
 
-### Örnekler
+## Örnekler
 
 WordArt'la nasıl çalışılacağını gösterir.
 
@@ -122,7 +124,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 
 * enum [TextPathAlignment](../../textpathalignment/)
 * class [TextPath](../)
-* ad alanı [Aspose.Words.Drawing](../../textpath/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

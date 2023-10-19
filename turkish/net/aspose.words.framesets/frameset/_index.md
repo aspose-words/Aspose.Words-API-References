@@ -1,7 +1,9 @@
 ---
-title: Class Frameset
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Framesets.Frameset sınıf. Bir çerçeve sayfasını veya çerçeveler sayfasındaki tek bir çerçeveyi temsil eder.
+title: Frameset Class
+linktitle: Frameset
+articleTitle: Frameset
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Framesets.Frameset sınıf. Bir çerçeve sayfasını veya çerçeveler sayfasındaki tek bir çerçeveyi temsil eder C#'da.
 type: docs
 weight: 3080
 url: /tr/net/aspose.words.framesets/frameset/
@@ -30,11 +32,11 @@ public class Frameset
 | [FrameDefaultUrl](../../aspose.words.framesets/frameset/framedefaulturl/) { get; set; } | Bu çerçevede görüntülenecek web sayfası URL'sini veya belge dosyası adını alır veya ayarlar. |
 | [IsFrameLinkToFile](../../aspose.words.framesets/frameset/isframelinktofile/) { get; set; } | Web sayfası veya belge dosya adının the 'de belirtilip belirtilmediğini belirten bir değer alır veya ayarlar.[`FrameDefaultUrl`](./framedefaulturl/) özellik, çerçevenin bağlı olduğu harici bir kaynaktır. |
 
-### Notlar
+## Notlar
 
 Eğer[`ChildFramesets`](./childframesets/) özelliği öğeler içeriyor, bu örnek bir çerçeve sayfasıdır, aksi takdirde tek bir çerçevedir.
 
-### Örnekler
+## Örnekler
 
 Sayfadaki çerçevelere nasıl erişileceğini gösterir.
 
@@ -60,5 +62,3 @@ doc.Frameset.ChildFramesets[0].ChildFramesets[0].IsFrameLinkToFile = false;
 
 * ad alanı [Aspose.Words.Framesets](../../aspose.words.framesets/)
 * toplantı [Aspose.Words](../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: ImageData.ToStream
-second_title: Aspose.Words for .NET API Referansı
-description: ImageData yöntem. Görüntü baytlarını içeren bir akış oluşturur ve döndürür.
+linktitle: ToStream
+articleTitle: ToStream
+second_title: Aspose.Words for .NET
+description: ImageData ToStream yöntem. Görüntü baytlarını içeren bir akış oluşturur ve döndürür C#'da.
 type: docs
-weight: 240
+weight: 230
 url: /tr/net/aspose.words.drawing/imagedata/tostream/
 ---
 ## ImageData.ToStream method
@@ -14,7 +16,7 @@ Görüntü baytlarını içeren bir akış oluşturur ve döndürür.
 public Stream ToStream()
 ```
 
-### Notlar
+## Notlar
 
 Görüntü baytları şekilde depolanıyorsa, birMemoryStream nesne.
 
@@ -24,7 +26,7 @@ Resim bağlantılıysa ve harici bir URL'de saklanıyorsa dosyayı indirir ve bi
 
 Akış nesnesini elden çıkarmak arayanın sorumluluğunda mıdır?
 
-### Örnekler
+## Örnekler
 
 Bir şeklin ham görüntü verilerinden nasıl görüntü dosyası oluşturulacağını gösterir.
 
@@ -51,7 +53,5 @@ using (Stream imgStream = imgShape.ImageData.ToStream())
 ### Ayrıca bakınız
 
 * class [ImageData](../)
-* ad alanı [Aspose.Words.Drawing](../../imagedata/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

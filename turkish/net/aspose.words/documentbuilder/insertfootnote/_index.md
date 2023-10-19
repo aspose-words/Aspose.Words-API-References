@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.InsertFootnote
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentBuilder yöntem. Belgeye dipnot veya son not ekler.
+linktitle: InsertFootnote
+articleTitle: InsertFootnote
+second_title: Aspose.Words for .NET
+description: DocumentBuilder InsertFootnote yöntem. Belgeye dipnot veya son not ekler C#'da.
 type: docs
-weight: 340
+weight: 330
 url: /tr/net/aspose.words/documentbuilder/insertfootnote/
 ---
-## InsertFootnote(FootnoteType, string) {#insertfootnote}
+## InsertFootnote(*[FootnoteType](../../../aspose.words.notes/footnotetype/), string*) {#insertfootnote}
 
 Belgeye dipnot veya son not ekler.
 
@@ -23,7 +25,7 @@ public Footnote InsertFootnote(FootnoteType footnoteType, string footnoteText)
 
 Yeni oluşturulan bir dipnot nesnesini döndürür.
 
-### Örnekler
+## Örnekler
 
 Dipnot ve son not içeren metne nasıl başvurulacağını gösterir.
 
@@ -56,12 +58,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertFootnote.docx");
 * class [Footnote](../../../aspose.words.notes/footnote/)
 * enum [FootnoteType](../../../aspose.words.notes/footnotetype/)
 * class [DocumentBuilder](../)
-* ad alanı [Aspose.Words](../../documentbuilder/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## InsertFootnote(FootnoteType, string, string) {#insertfootnote_1}
+## InsertFootnote(*[FootnoteType](../../../aspose.words.notes/footnotetype/), string, string*) {#insertfootnote_1}
 
 Belgeye dipnot veya son not ekler.
 
@@ -79,7 +81,7 @@ public Footnote InsertFootnote(FootnoteType footnoteType, string footnoteText, s
 
 Yeni oluşturulan bir dipnot nesnesini döndürür.
 
-### Örnekler
+## Örnekler
 
 Dipnot ve son not içeren metne nasıl başvurulacağını gösterir.
 
@@ -112,7 +114,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertFootnote.docx");
 * class [Footnote](../../../aspose.words.notes/footnote/)
 * enum [FootnoteType](../../../aspose.words.notes/footnotetype/)
 * class [DocumentBuilder](../)
-* ad alanı [Aspose.Words](../../documentbuilder/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

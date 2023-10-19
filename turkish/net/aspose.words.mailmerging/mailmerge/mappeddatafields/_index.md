@@ -1,7 +1,9 @@
 ---
 title: MailMerge.MappedDataFields
-second_title: Aspose.Words for .NET API Referansı
-description: MailMerge mülk. Adresmektup birleştirme işlemi için eşlenen veri alanlarını temsil eden bir koleksiyon döndürür.
+linktitle: MappedDataFields
+articleTitle: MappedDataFields
+second_title: Aspose.Words for .NET
+description: MailMerge MappedDataFields mülk. Adresmektup birleştirme işlemi için eşlenen veri alanlarını temsil eden bir koleksiyon döndürür C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.mailmerging/mailmerge/mappeddatafields/
@@ -14,11 +16,11 @@ Adres-mektup birleştirme işlemi için eşlenen veri alanlarını temsil eden b
 public MappedDataFieldCollection MappedDataFields { get; }
 ```
 
-### Notlar
+## Notlar
 
 Eşlenen veri alanları, veri kaynağınızdaki alan adları ile belgedeki adres-mektup birleştirme alanlarının adları arasında otomatik olarak eşleme yapılmasına olanak tanır.
 
-### Örnekler
+## Örnekler
 
 Adres-mektup birleştirme sırasında verilerin aralarında aktarılması için veri sütunlarının ve MERGEFIELD'lerin farklı adlarla nasıl eşleneceğini gösterir.
 
@@ -104,7 +106,5 @@ private static DataTable CreateSourceTableMappedDataFields()
 
 * class [MappedDataFieldCollection](../../mappeddatafieldcollection/)
 * class [MailMerge](../)
-* ad alanı [Aspose.Words.MailMerging](../../mailmerge/)
+* ad alanı [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * toplantı [Aspose.Words](../../../)
-
-

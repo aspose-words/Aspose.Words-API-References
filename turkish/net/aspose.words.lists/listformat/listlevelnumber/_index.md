@@ -1,7 +1,9 @@
 ---
 title: ListFormat.ListLevelNumber
-second_title: Aspose.Words for .NET API Referansı
-description: ListFormat mülk. Paragrafın liste düzeyi numarasını 0 ila 8 alır veya ayarlar.
+linktitle: ListLevelNumber
+articleTitle: ListLevelNumber
+second_title: Aspose.Words for .NET
+description: ListFormat ListLevelNumber mülk. Paragrafın liste düzeyi numarasını 0 ila 8 alır veya ayarlar C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.lists/listformat/listlevelnumber/
@@ -14,13 +16,13 @@ Paragrafın liste düzeyi numarasını (0 ila 8) alır veya ayarlar.
 public int ListLevelNumber { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Word belgelerinde listeler 0'dan 8'e kadar numaralandırılmış 1 veya 9 düzeyden oluşabilir.
 
 Yalnızca şu durumlarda etkili olur:[`List`](../list/) özellik geçerli bir listeye referans verecek şekilde ayarlandı.
 
-### Örnekler
+## Örnekler
 
 Liste düzeyleriyle nasıl çalışılacağını gösterir.
 
@@ -153,7 +155,5 @@ doc.Save(ArtifactsDir + "Lists.ApplyDefaultBulletsAndNumbers.docx");
 ### Ayrıca bakınız
 
 * class [ListFormat](../)
-* ad alanı [Aspose.Words.Lists](../../listformat/)
+* ad alanı [Aspose.Words.Lists](../../../aspose.words.lists/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum MailMergeCheckErrors
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Settings.MailMergeCheckErrors Sıralama. Microsoft Wordün adresmektup birleştirme sırasında algılanan hataları nasıl bildireceğini belirtir.
+title: MailMergeCheckErrors Enum
+linktitle: MailMergeCheckErrors
+articleTitle: MailMergeCheckErrors
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Settings.MailMergeCheckErrors Sıralama. Microsoft Wordün adresmektup birleştirme sırasında algılanan hataları nasıl bildireceğini belirtir C#'da.
 type: docs
 weight: 5810
 url: /tr/net/aspose.words.settings/mailmergecheckerrors/
@@ -23,7 +25,7 @@ public enum MailMergeCheckErrors
 | CollectErrors | `3` | Birleştirme işlemini tamamlayın ve hataları yeni bir belgede bildirin. |
 | Default | `2` | Şuna eşittir:PauseOnError değer. |
 
-### Örnekler
+## Örnekler
 
 Bir Office Veri Kaynağı Nesnesinden alınan verilerle adres-mektup birleştirmenin nasıl yürütüleceğini gösterir.
 
@@ -77,5 +79,3 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 * property [CheckErrors](../mailmergesettings/checkerrors/)
 * ad alanı [Aspose.Words.Settings](../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../)
-
-

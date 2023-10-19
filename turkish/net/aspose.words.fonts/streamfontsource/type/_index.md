@@ -1,7 +1,9 @@
 ---
 title: StreamFontSource.Type
-second_title: Aspose.Words for .NET API Referansı
-description: StreamFontSource mülk. Yazı tipi kaynağının türünü döndürür.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words for .NET
+description: StreamFontSource Type mülk. Yazı tipi kaynağının türünü döndürür C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fonts/streamfontsource/type/
@@ -18,7 +20,5 @@ public FontSourceType Type { get; }
 
 * enum [FontSourceType](../../fontsourcetype/)
 * class [StreamFontSource](../)
-* ad alanı [Aspose.Words.Fonts](../../streamfontsource/)
+* ad alanı [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../../)
-
-

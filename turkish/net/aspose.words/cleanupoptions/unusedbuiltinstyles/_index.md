@@ -1,7 +1,9 @@
 ---
 title: CleanupOptions.UnusedBuiltinStyles
-second_title: Aspose.Words for .NET API Referansı
-description: CleanupOptions mülk. Kullanılmadığını belirtirBuiltIn stiller belgeden kaldırılmalıdır.
+linktitle: UnusedBuiltinStyles
+articleTitle: UnusedBuiltinStyles
+second_title: Aspose.Words for .NET
+description: CleanupOptions UnusedBuiltinStyles mülk. Kullanılmadığını belirtirBuiltIn stiller belgeden kaldırılmalıdır C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/cleanupoptions/unusedbuiltinstyles/
@@ -14,7 +16,7 @@ Kullanılmadığını belirtir[`BuiltIn`](../../style/builtin/) stiller belgeden
 public bool UnusedBuiltinStyles { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Kullanılmayan tüm özel stillerin bir belgeden nasıl kaldırılacağını gösterir.
 
@@ -63,7 +65,5 @@ Assert.AreEqual(2, doc.Styles.Count);
 ### Ayrıca bakınız
 
 * class [CleanupOptions](../)
-* ad alanı [Aspose.Words](../../cleanupoptions/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

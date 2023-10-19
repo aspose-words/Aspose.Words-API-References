@@ -1,7 +1,9 @@
 ---
 title: TextBox.LayoutFlow
-second_title: Aspose.Words for .NET API Referansı
-description: TextBox mülk. Şekildeki metin düzeninin akışını belirler.
+linktitle: LayoutFlow
+articleTitle: LayoutFlow
+second_title: Aspose.Words for .NET
+description: TextBox LayoutFlow mülk. Şekildeki metin düzeninin akışını belirler C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.drawing/textbox/layoutflow/
@@ -14,11 +16,11 @@ url: /tr/net/aspose.words.drawing/textbox/layoutflow/
 public LayoutFlow LayoutFlow { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:Horizontal.
 
-### Örnekler
+## Örnekler
 
 Bir metin kutusu içindeki metnin yönünün nasıl ayarlanacağını gösterir.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Shape.TextBoxLayoutFlow.docx");
 
 * enum [LayoutFlow](../../layoutflow/)
 * class [TextBox](../)
-* ad alanı [Aspose.Words.Drawing](../../textbox/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.MajorUnitScale
-second_title: Aspose.Words for .NET API Referansı
-description: ChartAxis mülk. Zaman kategorisi eksenindeki ana onay işaretleri için ölçek değerini döndürür veya ayarlar.
+linktitle: MajorUnitScale
+articleTitle: MajorUnitScale
+second_title: Aspose.Words for .NET
+description: ChartAxis MajorUnitScale mülk. Zaman kategorisi eksenindeki ana onay işaretleri için ölçek değerini döndürür veya ayarlar C#'da.
 type: docs
 weight: 140
 url: /tr/net/aspose.words.drawing.charts/chartaxis/majorunitscale/
@@ -14,11 +16,11 @@ Zaman kategorisi eksenindeki ana onay işaretleri için ölçek değerini dönd�
 public AxisTimeUnit MajorUnitScale { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Özelliğin yalnızca zaman kategorisi eksenleri için etkisi vardır.
 
-### Örnekler
+## Örnekler
 
 Bir grafik ekseninin onay işaretlerinin ve görüntülenen değerlerinin nasıl değiştirileceğini gösterir.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 
 * enum [AxisTimeUnit](../../axistimeunit/)
 * class [ChartAxis](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

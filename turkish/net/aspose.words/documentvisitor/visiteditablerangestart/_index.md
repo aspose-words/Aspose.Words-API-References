@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitEditableRangeStart
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentVisitor yöntem. Belgede düzenlenebilir bir aralığın başlangıcıyla karşılaşıldığında çağrılır.
+linktitle: VisitEditableRangeStart
+articleTitle: VisitEditableRangeStart
+second_title: Aspose.Words for .NET
+description: DocumentVisitor VisitEditableRangeStart yöntem. Belgede düzenlenebilir bir aralığın başlangıcıyla karşılaşıldığında çağrılır C#'da.
 type: docs
 weight: 170
 url: /tr/net/aspose.words/documentvisitor/visiteditablerangestart/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitEditableRangeStart(EditableRangeStart editable
 
 A[`VisitorAction`](../../visitoraction/) numaralandırmaya nasıl devam edileceğini belirten değer.
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki düzenlenebilir her aralığın düğüm yapısının nasıl yazdırılacağını gösterir.
 
@@ -118,7 +120,5 @@ public class EditableRangeStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [EditableRangeStart](../../editablerangestart/)
 * class [DocumentVisitor](../)
-* ad alanı [Aspose.Words](../../documentvisitor/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

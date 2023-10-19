@@ -1,7 +1,9 @@
 ---
 title: FieldStyleRef.StyleName
-second_title: Aspose.Words for .NET API Referansı
-description: FieldStyleRef mülk. Aranacak metnin formatlanacağı stilin adını alır veya ayarlar.
+linktitle: StyleName
+articleTitle: StyleName
+second_title: Aspose.Words for .NET
+description: FieldStyleRef StyleName mülk. Aranacak metnin formatlanacağı stilin adını alır veya ayarlar C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.fields/fieldstyleref/stylename/
@@ -14,7 +16,7 @@ Aranacak metnin formatlanacağı stilin adını alır veya ayarlar.
 public string StyleName { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 STYLEREF alanlarının nasıl kullanılacağını gösterir.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Field.STYLEREF.docx");
 ### Ayrıca bakınız
 
 * class [FieldStyleRef](../)
-* ad alanı [Aspose.Words.Fields](../../fieldstyleref/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

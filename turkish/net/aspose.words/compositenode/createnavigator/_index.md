@@ -1,9 +1,11 @@
 ---
 title: CompositeNode.CreateNavigator
-second_title: Aspose.Words for .NET API Referansı
-description: CompositeNode yöntem. Düğümlerin arasında geçiş yapmak ve düğümleri okumak için kullanılabilecek gezgini oluşturur.
+linktitle: CreateNavigator
+articleTitle: CreateNavigator
+second_title: Aspose.Words for .NET
+description: CompositeNode CreateNavigator yöntem. Düğümlerin arasında geçiş yapmak ve düğümleri okumak için kullanılabilecek gezgini oluşturur C#'da.
 type: docs
-weight: 90
+weight: 70
 url: /tr/net/aspose.words/compositenode/createnavigator/
 ---
 ## CompositeNode.CreateNavigator method
@@ -15,7 +17,7 @@ Düğümlerin arasında geçiş yapmak ve düğümleri okumak için kullanılabi
 public XPathNavigator CreateNavigator()
 ```
 
-### Örnekler
+## Örnekler
 
 Bir XPathNavigator'ın nasıl oluşturulacağını ve ardından düğümlerin arasında geçiş yapmak ve düğümleri okumak için nasıl kullanılacağını gösterir.
 
@@ -81,7 +83,5 @@ private static void MapDocument(XPathNavigator navigator, StringBuilder stringBu
 ### Ayrıca bakınız
 
 * class [CompositeNode](../)
-* ad alanı [Aspose.Words](../../compositenode/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

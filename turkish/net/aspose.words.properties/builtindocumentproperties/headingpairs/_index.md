@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.HeadingPairs
-second_title: Aspose.Words for .NET API Referansı
-description: BuiltInDocumentProperties mülk. Belge başlıklarını ve adlarını belirtir.
+linktitle: HeadingPairs
+articleTitle: HeadingPairs
+second_title: Aspose.Words for .NET
+description: BuiltInDocumentProperties HeadingPairs mülk. Belge başlıklarını ve adlarını belirtir C#'da.
 type: docs
 weight: 110
 url: /tr/net/aspose.words.properties/builtindocumentproperties/headingpairs/
@@ -14,7 +16,7 @@ Belge başlıklarını ve adlarını belirtir.
 public object[] HeadingPairs { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Her başlık çifti bu dizide iki öğeyi kaplar.
 
@@ -24,7 +26,7 @@ Bu özellikteki tüm başlık çiftleri için toplam sayım toplamı, içindeki 
 
 Aspose.Words bu özelliği güncellemez.
 
-### Örnekler
+## Örnekler
 
 "HeadingPairs" ve "TitlesOfParts" özellikleri arasındaki ilişkiyi gösterir.
 
@@ -55,7 +57,5 @@ while (headingPairsIndex < headingPairs.Length)
 ### Ayrıca bakınız
 
 * class [BuiltInDocumentProperties](../)
-* ad alanı [Aspose.Words.Properties](../../builtindocumentproperties/)
+* ad alanı [Aspose.Words.Properties](../../../aspose.words.properties/)
 * toplantı [Aspose.Words](../../../)
-
-

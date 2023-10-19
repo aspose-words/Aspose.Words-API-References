@@ -1,7 +1,9 @@
 ---
 title: ImageWatermarkOptions.IsWashout
-second_title: Aspose.Words for .NET API Referansı
-description: ImageWatermarkOptions mülk. Filigranın silinme etkisinden sorumlu olan bir boole değeri alır veya ayarlar. Varsayılan değerdoğru .
+linktitle: IsWashout
+articleTitle: IsWashout
+second_title: Aspose.Words for .NET
+description: ImageWatermarkOptions IsWashout mülk. Filigranın silinme etkisinden sorumlu olan bir boole değeri alır veya ayarlar. Varsayılan değerdoğru  C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/imagewatermarkoptions/iswashout/
@@ -14,7 +16,7 @@ Filigranın silinme etkisinden sorumlu olan bir boole değeri alır veya ayarlar
 public bool IsWashout { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Yerel dosya sistemindeki bir görüntüden nasıl filigran oluşturulacağını gösterir.
 
@@ -42,7 +44,5 @@ Document doc = new Document();
 ### Ayrıca bakınız
 
 * class [ImageWatermarkOptions](../)
-* ad alanı [Aspose.Words](../../imagewatermarkoptions/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: BuildingBlock.BuildingBlock
-second_title: Aspose.Words for .NET API Referansı
-description: BuildingBlock inşaatçı. Bu sınıfın yeni bir örneğini başlatır.
+title: BuildingBlock
+linktitle: BuildingBlock
+articleTitle: BuildingBlock
+second_title: Aspose.Words for .NET
+description: BuildingBlock inşaatçı. Bu sınıfın yeni bir örneğini başlatır C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.buildingblocks/buildingblock/buildingblock/
@@ -18,13 +20,13 @@ public BuildingBlock(GlossaryDocument glossaryDoc)
 | --- | --- | --- |
 | glossaryDoc | GlossaryDocument | Sahibi belgesi. |
 
-### Notlar
+## Notlar
 
 Ne zaman[`BuildingBlock`](../)oluşturulduğunda, belirtilen sözlük belgesine ( ) aittir ancak henüz sözlük belgesinin bir parçası değildir ve[`ParentNode`](../../../aspose.words/node/parentnode/) dır-dir`hükümsüz`.
 
-Eklemek[`BuildingBlock`](../)bir[`GlossaryDocument`](../../glossarydocument/) 'yi kullanNode).
+Eklemek[`BuildingBlock`](../)bir[`GlossaryDocument`](../../glossarydocument/) 'yi kullan[`AppendChild`](../../../aspose.words/compositenode/appendchild/).
 
-### Örnekler
+## Örnekler
 
 Bir belgeye özel yapı taşının nasıl ekleneceğini gösterir.
 
@@ -122,7 +124,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 
 * class [GlossaryDocument](../../glossarydocument/)
 * class [BuildingBlock](../)
-* ad alanı [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* ad alanı [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * toplantı [Aspose.Words](../../../)
-
-

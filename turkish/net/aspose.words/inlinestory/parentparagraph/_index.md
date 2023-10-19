@@ -1,7 +1,9 @@
 ---
 title: InlineStory.ParentParagraph
-second_title: Aspose.Words for .NET API Referansı
-description: InlineStory mülk. Üst öğeyi alırParagraph bu düğümün.
+linktitle: ParentParagraph
+articleTitle: ParentParagraph
+second_title: Aspose.Words for .NET
+description: InlineStory ParentParagraph mülk. Üst öğeyi alırParagraph bu düğümün C#'da.
 type: docs
 weight: 90
 url: /tr/net/aspose.words/inlinestory/parentparagraph/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words/inlinestory/parentparagraph/
 public Paragraph ParentParagraph { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 InlineStory düğümlerinin nasıl ekleneceğini gösterir.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "InlineStory.InsertInlineStoryNodes.docx");
 
 * class [Paragraph](../../paragraph/)
 * class [InlineStory](../)
-* ad alanı [Aspose.Words](../../inlinestory/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

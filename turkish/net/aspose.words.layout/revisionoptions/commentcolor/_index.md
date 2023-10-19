@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.CommentColor
-second_title: Aspose.Words for .NET API Referansı
-description: RevisionOptions mülk. Yorumlar için kullanılacak rengi belirlemeye izin verir. Varsayılan değerRed .
+linktitle: CommentColor
+articleTitle: CommentColor
+second_title: Aspose.Words for .NET
+description: RevisionOptions CommentColor mülk. Yorumlar için kullanılacak rengi belirlemeye izin verir. Varsayılan değerRed  C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.layout/revisionoptions/commentcolor/
@@ -14,11 +16,11 @@ Yorumlar için kullanılacak rengi belirlemeye izin verir. Varsayılan değer:Re
 public RevisionColor CommentColor { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özelliği şu şekilde ayarlarsanız:ByAuthor veyaNoHighlight değerler, sonuç olarak bu özellik varsayılan renge ayarlanacaktır.
 
-### Örnekler
+## Örnekler
 
 Revizyonların görünümünün nasıl değiştirileceğini gösterir.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 
 * enum [RevisionColor](../../revisioncolor/)
 * class [RevisionOptions](../)
-* ad alanı [Aspose.Words.Layout](../../revisionoptions/)
+* ad alanı [Aspose.Words.Layout](../../../aspose.words.layout/)
 * toplantı [Aspose.Words](../../../)
-
-

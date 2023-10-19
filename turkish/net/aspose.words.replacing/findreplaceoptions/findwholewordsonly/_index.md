@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.FindWholeWordsOnly
-second_title: Aspose.Words for .NET API Referansı
-description: FindReplaceOptions mülk. True eskiDeğerin bağımsız bir sözcük olması gerektiğini belirtir.
+linktitle: FindWholeWordsOnly
+articleTitle: FindWholeWordsOnly
+second_title: Aspose.Words for .NET
+description: FindReplaceOptions FindWholeWordsOnly mülk. True eskiDeğerin bağımsız bir sözcük olması gerektiğini belirtir C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.replacing/findreplaceoptions/findwholewordsonly/
@@ -14,7 +16,7 @@ True, eskiDeğer'in bağımsız bir sözcük olması gerektiğini belirtir.
 public bool FindWholeWordsOnly { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bağımsız salt sözcük bul ve değiştir işlemlerinin nasıl değiştirileceğini gösterir.
 
@@ -41,7 +43,5 @@ Assert.AreEqual(
 ### Ayrıca bakınız
 
 * class [FindReplaceOptions](../)
-* ad alanı [Aspose.Words.Replacing](../../findreplaceoptions/)
+* ad alanı [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * toplantı [Aspose.Words](../../../)
-
-

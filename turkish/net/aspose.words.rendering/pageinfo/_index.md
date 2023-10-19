@@ -1,7 +1,9 @@
 ---
-title: Class PageInfo
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Rendering.PageInfo sınıf. Belirli bir belge sayfası hakkındaki bilgileri temsil eder.
+title: PageInfo Class
+linktitle: PageInfo
+articleTitle: PageInfo
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Rendering.PageInfo sınıf. Belirli bir belge sayfası hakkındaki bilgileri temsil eder C#'da.
 type: docs
 weight: 4570
 url: /tr/net/aspose.words.rendering/pageinfo/
@@ -32,16 +34,16 @@ public class PageInfo
 
 | İsim | Tanım |
 | --- | --- |
-| [GetDotNetPaperSize](../../aspose.words.rendering/pageinfo/getdotnetpapersize/)(PaperSizeCollection) | AlırPaperSize yazdırmaya uygun nesne bununla temsil edilen sayfa`PageInfo` . |
-| [GetSizeInPixels](../../aspose.words.rendering/pageinfo/getsizeinpixels/#getsizeinpixels)(float, float) | Belirtilen yakınlaştırma faktörü ve çözünürlük için sayfa boyutunu piksel cinsinden hesaplar. |
-| [GetSizeInPixels](../../aspose.words.rendering/pageinfo/getsizeinpixels/#getsizeinpixels_1)(float, float, float) | Belirtilen yakınlaştırma faktörü ve çözünürlük için sayfa boyutunu piksel cinsinden hesaplar. |
-| [GetSpecifiedPrinterPaperSource](../../aspose.words.rendering/pageinfo/getspecifiedprinterpapersource/)(PaperSourceCollection, PaperSource) | AlırPaperSource yazdırmaya uygun nesne bununla temsil edilen sayfa`PageInfo` . |
+| [GetDotNetPaperSize](../../aspose.words.rendering/pageinfo/getdotnetpapersize/)(*PaperSizeCollection*) | AlırPaperSize yazdırmaya uygun nesne bununla temsil edilen sayfa`PageInfo` . |
+| [GetSizeInPixels](../../aspose.words.rendering/pageinfo/getsizeinpixels/#getsizeinpixels)(*float, float*) | Belirtilen yakınlaştırma faktörü ve çözünürlük için sayfa boyutunu piksel cinsinden hesaplar. |
+| [GetSizeInPixels](../../aspose.words.rendering/pageinfo/getsizeinpixels/#getsizeinpixels_1)(*float, float, float*) | Belirtilen yakınlaştırma faktörü ve çözünürlük için sayfa boyutunu piksel cinsinden hesaplar. |
+| [GetSpecifiedPrinterPaperSource](../../aspose.words.rendering/pageinfo/getspecifiedprinterpapersource/)(*PaperSourceCollection, PaperSource*) | AlırPaperSource yazdırmaya uygun nesne bununla temsil edilen sayfa`PageInfo` . |
 
-### Notlar
+## Notlar
 
 Bu nesnenin döndürdüğü sayfa genişliği ve yüksekliği sayfanın "son" boyutunu temsil eder; örneğin bunlar zaten doğru yöne döndürülmüş 'dir.
 
-### Örnekler
+## Örnekler
 
 Bir Word belgesindeki her sayfa için sayfa boyutu ve yön bilgilerinin nasıl yazdırılacağını gösterir.
 
@@ -84,5 +86,3 @@ for (int i = 0; i < doc.PageCount; i++)
 
 * ad alanı [Aspose.Words.Rendering](../../aspose.words.rendering/)
 * toplantı [Aspose.Words](../../)
-
-

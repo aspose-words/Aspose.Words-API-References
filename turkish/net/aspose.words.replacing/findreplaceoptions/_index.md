@@ -1,7 +1,9 @@
 ---
-title: Class FindReplaceOptions
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Replacing.FindReplaceOptions sınıf. Bul/değiştir işlemlerine ilişkin seçenekleri belirtir.
+title: FindReplaceOptions Class
+linktitle: FindReplaceOptions
+articleTitle: FindReplaceOptions
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Replacing.FindReplaceOptions sınıf. Bul/değiştir işlemlerine ilişkin seçenekleri belirtir C#'da.
 type: docs
 weight: 4620
 url: /tr/net/aspose.words.replacing/findreplaceoptions/
@@ -21,9 +23,9 @@ public class FindReplaceOptions
 | İsim | Tanım |
 | --- | --- |
 | [FindReplaceOptions](findreplaceoptions/#constructor)() | Default_Constructor |
-| [FindReplaceOptions](findreplaceoptions/#constructor_1)(FindReplaceDirection) |  |
-| [FindReplaceOptions](findreplaceoptions/#constructor_3)(IReplacingCallback) |  |
-| [FindReplaceOptions](findreplaceoptions/#constructor_2)(FindReplaceDirection, IReplacingCallback) |  |
+| [FindReplaceOptions](findreplaceoptions/#constructor_1)(*[FindReplaceDirection](../findreplacedirection/)*) |  |
+| [FindReplaceOptions](findreplaceoptions/#constructor_3)(*[IReplacingCallback](../ireplacingcallback/)*) |  |
+| [FindReplaceOptions](findreplaceoptions/#constructor_2)(*[FindReplaceDirection](../findreplacedirection/), [IReplacingCallback](../ireplacingcallback/)*) |  |
 
 ## Özellikleri
 
@@ -47,7 +49,7 @@ public class FindReplaceOptions
 | [UseLegacyOrder](../../aspose.words.replacing/findreplaceoptions/uselegacyorder/) { get; set; } | True, metin kutuları dikkate alınarak yukarıdan aşağıya doğru sırayla metin araması yapıldığını belirtir. Varsayılan değer:`YANLIŞ` . |
 | [UseSubstitutions](../../aspose.words.replacing/findreplaceoptions/usesubstitutions/) { get; set; } | Değiştirme kalıpları içindeki ikamelerin tanınıp kullanılmayacağını belirten bir boole değeri alır veya ayarlar. Varsayılan değer:`YANLIŞ` . |
 
-### Örnekler
+## Örnekler
 
 Bul ve değiştir işlemi gerçekleştirirken büyük/küçük harf duyarlılığının nasıl değiştirileceğini gösterir.
 
@@ -96,5 +98,3 @@ Assert.AreEqual(
 
 * ad alanı [Aspose.Words.Replacing](../../aspose.words.replacing/)
 * toplantı [Aspose.Words](../../)
-
-

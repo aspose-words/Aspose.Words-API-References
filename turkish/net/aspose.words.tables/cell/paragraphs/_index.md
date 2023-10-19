@@ -1,7 +1,9 @@
 ---
 title: Cell.Paragraphs
-second_title: Aspose.Words for .NET API Referansı
-description: Cell mülk. Hücrenin doğrudan alt öğeleri olan paragrafların bir koleksiyonunu alır.
+linktitle: Paragraphs
+articleTitle: Paragraphs
+second_title: Aspose.Words for .NET
+description: Cell Paragraphs mülk. Hücrenin doğrudan alt öğeleri olan paragrafların bir koleksiyonunu alır C#'da.
 type: docs
 weight: 90
 url: /tr/net/aspose.words.tables/cell/paragraphs/
@@ -14,7 +16,7 @@ Hücrenin doğrudan alt öğeleri olan paragrafların bir koleksiyonunu alır.
 public ParagraphCollection Paragraphs { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Aynı sayfada bir arada kalacak bir tablonun nasıl ayarlanacağını gösterir.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Table.KeepTableTogether.docx");
 
 * class [ParagraphCollection](../../../aspose.words/paragraphcollection/)
 * class [Cell](../)
-* ad alanı [Aspose.Words.Tables](../../cell/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

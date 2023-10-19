@@ -1,7 +1,9 @@
 ---
 title: Field.Separator
-second_title: Aspose.Words for .NET API Referansı
-description: Field mülk. Alan ayırıcıyı temsil eden düğümü alır. Olabilirhükümsüz .
+linktitle: Separator
+articleTitle: Separator
+second_title: Aspose.Words for .NET
+description: Field Separator mülk. Alan ayırıcıyı temsil eden düğümü alır. Olabilirhükümsüz  C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words.fields/field/separator/
@@ -14,7 +16,7 @@ Alan ayırıcıyı temsil eden düğümü alır. Olabilir`hükümsüz` .
 public FieldSeparator Separator { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir alan koleksiyonuyla nasıl çalışılacağını gösterir.
 
@@ -118,7 +120,5 @@ public class FieldVisitor : DocumentVisitor
 
 * class [FieldSeparator](../../fieldseparator/)
 * class [Field](../)
-* ad alanı [Aspose.Words.Fields](../../field/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: TextColumnCollection.Width
-second_title: Aspose.Words for .NET API Referansı
-description: TextColumnCollection mülk. Sütunlar eşit aralıklarla yerleştirildiğinde sütunların genişliğini alır.
+linktitle: Width
+articleTitle: Width
+second_title: Aspose.Words for .NET
+description: TextColumnCollection Width mülk. Sütunlar eşit aralıklarla yerleştirildiğinde sütunların genişliğini alır C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words/textcolumncollection/width/
@@ -14,14 +16,12 @@ Sütunlar eşit aralıklarla yerleştirildiğinde sütunların genişliğini al�
 public double Width { get; }
 ```
 
-### Notlar
+## Notlar
 
 Yalnızca şu durumlarda etkili olur:[`EvenlySpaced`](../evenlyspaced/) ayarlandı`doğru`.
 
 ### Ayrıca bakınız
 
 * class [TextColumnCollection](../)
-* ad alanı [Aspose.Words](../../textcolumncollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

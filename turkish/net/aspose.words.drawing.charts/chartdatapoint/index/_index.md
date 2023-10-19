@@ -1,7 +1,9 @@
 ---
 title: ChartDataPoint.Index
-second_title: Aspose.Words for .NET API Referansı
-description: ChartDataPoint mülk. Bu nesnenin biçimlendirmeyi uyguladığı veri noktasının dizini.
+linktitle: Index
+articleTitle: Index
+second_title: Aspose.Words for .NET
+description: ChartDataPoint Index mülk. Bu nesnenin biçimlendirmeyi uyguladığı veri noktasının dizini C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.drawing.charts/chartdatapoint/index/
@@ -14,7 +16,7 @@ Bu nesnenin biçimlendirmeyi uyguladığı veri noktasının dizini.
 public int Index { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Çizgi grafikte veri noktalarıyla nasıl çalışılacağını gösterir.
 
@@ -76,7 +78,5 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 ### Ayrıca bakınız
 
 * class [ChartDataPoint](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartdatapoint/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: GraphicsQualityOptions.TextRenderingHint
-second_title: Aspose.Words for .NET API Referansı
-description: GraphicsQualityOptions mülk. Bu Grafikle ilişkili metin için oluşturma modunu alır veya ayarlar.
+linktitle: TextRenderingHint
+articleTitle: TextRenderingHint
+second_title: Aspose.Words for .NET
+description: GraphicsQualityOptions TextRenderingHint mülk. Bu Grafikle ilişkili metin için oluşturma modunu alır veya ayarlar C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.saving/graphicsqualityoptions/textrenderinghint/
@@ -14,7 +16,7 @@ Bu Grafikle ilişkili metin için oluşturma modunu alır veya ayarlar.
 public TextRenderingHint? TextRenderingHint { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Belgeleri görüntü formatlarına dönüştürürken işleme kalitesi seçeneklerinin nasıl ayarlanacağını gösterir.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.GraphicsQuality.jpg", saveOptions);
 ### Ayrıca bakınız
 
 * class [GraphicsQualityOptions](../)
-* ad alanı [Aspose.Words.Saving](../../graphicsqualityoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

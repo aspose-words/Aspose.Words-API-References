@@ -1,7 +1,9 @@
 ---
 title: MetafileRenderingOptions.UseEmfEmbeddedToWmf
-second_title: Aspose.Words for .NET API Referansı
-description: MetafileRenderingOptions mülk. Gömülü EMF meta dosyalarına sahip WMF meta dosyalarının nasıl işlenmesi gerektiğini belirleyen bir değer alır veya ayarlar.
+linktitle: UseEmfEmbeddedToWmf
+articleTitle: UseEmfEmbeddedToWmf
+second_title: Aspose.Words for .NET
+description: MetafileRenderingOptions UseEmfEmbeddedToWmf mülk. Gömülü EMF meta dosyalarına sahip WMF meta dosyalarının nasıl işlenmesi gerektiğini belirleyen bir değer alır veya ayarlar C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.saving/metafilerenderingoptions/useemfembeddedtowmf/
@@ -14,7 +16,7 @@ Gömülü EMF meta dosyalarına sahip WMF meta dosyalarının nasıl işlenmesi 
 public bool UseEmfEmbeddedToWmf { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 WMF meta dosyaları gömülü EMF verilerini içerebilir. MS Word çoğu durumda gömülü EMF verilerini kullanır. GDI+ her zaman WMF verilerini kullanır.
 
@@ -26,7 +28,7 @@ Bu seçenek yalnızca meta dosyası vektör grafikleri olarak işlendiğinde kul
 
 Varsayılan değer:`doğru`.
 
-### Örnekler
+## Örnekler
 
 PDF'ye kaydederken Gelişmiş Windows Meta Dosyası ile ilgili işleme seçeneklerinin nasıl yapılandırılacağını gösterir.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.RenderMetafile.pdf", saveOptions);
 ### Ayrıca bakınız
 
 * class [MetafileRenderingOptions](../)
-* ad alanı [Aspose.Words.Saving](../../metafilerenderingoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PlainTextDocument.CustomDocumentProperties
-second_title: Aspose.Words for .NET API Referansı
-description: PlainTextDocument mülk. AlırCustomDocumentProperties belgenin.
+linktitle: CustomDocumentProperties
+articleTitle: CustomDocumentProperties
+second_title: Aspose.Words for .NET
+description: PlainTextDocument CustomDocumentProperties mülk. AlırCustomDocumentProperties belgenin C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/plaintextdocument/customdocumentproperties/
@@ -14,7 +16,7 @@ Alır`CustomDocumentProperties` belgenin.
 public CustomDocumentProperties CustomDocumentProperties { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir Microsoft Word belgesinin içeriğinin düz metin olarak nasıl yükleneceğini ve ardından orijinal belgenin özel özelliklerine nasıl erişileceğini gösterir.
 
@@ -37,7 +39,5 @@ Assert.AreEqual("123 Main St, London, UK", plaintext.CustomDocumentProperties["L
 
 * class [CustomDocumentProperties](../../../aspose.words.properties/customdocumentproperties/)
 * class [PlainTextDocument](../)
-* ad alanı [Aspose.Words](../../plaintextdocument/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

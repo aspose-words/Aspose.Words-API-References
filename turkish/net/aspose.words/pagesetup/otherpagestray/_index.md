@@ -1,7 +1,9 @@
 ---
 title: PageSetup.OtherPagesTray
-second_title: Aspose.Words for .NET API Referansı
-description: PageSetup mülk. Bir bölümün ilk sayfası dışındaki tüm sayfalar için kullanılacak kağıt tepsisini bölme alır veya ayarlar. Değer uygulamaya yazıcıya özeldir.
+linktitle: OtherPagesTray
+articleTitle: OtherPagesTray
+second_title: Aspose.Words for .NET
+description: PageSetup OtherPagesTray mülk. Bir bölümün ilk sayfası dışındaki tüm sayfalar için kullanılacak kağıt tepsisini bölme alır veya ayarlar. Değer uygulamaya yazıcıya özeldir C#'da.
 type: docs
 weight: 300
 url: /tr/net/aspose.words/pagesetup/otherpagestray/
@@ -14,7 +16,7 @@ Bir bölümün ilk sayfası dışındaki tüm sayfalar için kullanılacak kağ�
 public int OtherPagesTray { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki tüm bölümlerin seçilen yazıcının varsayılan kağıt tepsisini kullanmasını nasıl sağlayacağınızı gösterir.
 
@@ -70,7 +72,5 @@ foreach (Section section in doc.Sections.OfType<Section>())
 ### Ayrıca bakınız
 
 * class [PageSetup](../)
-* ad alanı [Aspose.Words](../../pagesetup/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

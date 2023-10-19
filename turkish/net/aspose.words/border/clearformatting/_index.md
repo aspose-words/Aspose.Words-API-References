@@ -1,7 +1,9 @@
 ---
 title: Border.ClearFormatting
-second_title: Aspose.Words for .NET API Referansı
-description: Border yöntem. Kenarlık özelliklerini varsayılan değerlere sıfırlar.
+linktitle: ClearFormatting
+articleTitle: ClearFormatting
+second_title: Aspose.Words for .NET
+description: Border ClearFormatting yöntem. Kenarlık özelliklerini varsayılan değerlere sıfırlar C#'da.
 type: docs
 weight: 90
 url: /tr/net/aspose.words/border/clearformatting/
@@ -14,11 +16,11 @@ Kenarlık özelliklerini varsayılan değerlere sıfırlar.
 public void ClearFormatting()
 ```
 
-### Notlar
+## Notlar
 
 Kenarlık özellikleri varsayılan değerlere sıfırlandığında kenarlık görünmez.
 
-### Örnekler
+## Örnekler
 
 Paragraftaki kenarlıkların nasıl kaldırılacağını gösterir.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Border.ClearFormatting.docx");
 ### Ayrıca bakınız
 
 * class [Border](../)
-* ad alanı [Aspose.Words](../../border/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

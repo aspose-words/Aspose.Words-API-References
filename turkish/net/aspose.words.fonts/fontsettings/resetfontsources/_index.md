@@ -1,7 +1,9 @@
 ---
 title: FontSettings.ResetFontSources
-second_title: Aspose.Words for .NET API Referansı
-description: FontSettings yöntem. Yazı tipi kaynaklarını sistem varsayılanına sıfırlar.
+linktitle: ResetFontSources
+articleTitle: ResetFontSources
+second_title: Aspose.Words for .NET
+description: FontSettings ResetFontSources yöntem. Yazı tipi kaynaklarını sistem varsayılanına sıfırlar C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.fonts/fontsettings/resetfontsources/
@@ -14,7 +16,7 @@ Yazı tipi kaynaklarını sistem varsayılanına sıfırlar.
 public void ResetFontSources()
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgenin sistem yazı tipi kaynağına nasıl erişileceğini ve yazı tipi yedeklerinin nasıl ayarlanacağını gösterir.
 
@@ -70,7 +72,5 @@ Assert.AreEqual(1,
 ### Ayrıca bakınız
 
 * class [FontSettings](../)
-* ad alanı [Aspose.Words.Fonts](../../fontsettings/)
+* ad alanı [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CellFormat.Borders
-second_title: Aspose.Words for .NET API Referansı
-description: CellFormat mülk. Hücrenin sınırlarının toplanmasını alır.
+linktitle: Borders
+articleTitle: Borders
+second_title: Aspose.Words for .NET
+description: CellFormat Borders mülk. Hücrenin sınırlarının toplanmasını alır C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.tables/cellformat/borders/
@@ -14,7 +16,7 @@ Hücrenin sınırlarının toplanmasını alır.
 public BorderCollection Borders { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 İki tablodaki satırların nasıl birleştirileceğini gösterir.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "Table.CombineTables.docx");
 
 * class [BorderCollection](../../../aspose.words/bordercollection/)
 * class [CellFormat](../)
-* ad alanı [Aspose.Words.Tables](../../cellformat/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

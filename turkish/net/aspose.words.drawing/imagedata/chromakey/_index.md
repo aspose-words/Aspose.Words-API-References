@@ -1,7 +1,9 @@
 ---
 title: ImageData.ChromaKey
-second_title: Aspose.Words for .NET API Referansı
-description: ImageData mülk. Şeffaf olarak değerlendirilecek görüntünün renk değerini tanımlar.
+linktitle: ChromaKey
+articleTitle: ChromaKey
+second_title: Aspose.Words for .NET
+description: ImageData ChromaKey mülk. Şeffaf olarak değerlendirilecek görüntünün renk değerini tanımlar C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.drawing/imagedata/chromakey/
@@ -14,11 +16,11 @@ url: /tr/net/aspose.words.drawing/imagedata/chromakey/
 public Color ChromaKey { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer 0'dır.
 
-### Örnekler
+## Örnekler
 
 Bir şeklin görüntü verilerinin nasıl düzenleneceğini gösterir.
 
@@ -81,7 +83,5 @@ dstDoc.Save(ArtifactsDir + "Drawing.ImageData.docx");
 ### Ayrıca bakınız
 
 * class [ImageData](../)
-* ad alanı [Aspose.Words.Drawing](../../imagedata/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

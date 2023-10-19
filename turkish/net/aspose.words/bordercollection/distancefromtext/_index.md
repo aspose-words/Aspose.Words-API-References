@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.DistanceFromText
-second_title: Aspose.Words for .NET API Referansı
-description: BorderCollection mülk. Kenarlığın metinden uzaklığını nokta cinsinden alır veya ayarlar.
+linktitle: DistanceFromText
+articleTitle: DistanceFromText
+second_title: Aspose.Words for .NET
+description: BorderCollection DistanceFromText mülk. Kenarlığın metinden uzaklığını nokta cinsinden alır veya ayarlar C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words/bordercollection/distancefromtext/
@@ -14,7 +16,7 @@ Kenarlığın metinden uzaklığını nokta cinsinden alır veya ayarlar.
 public double DistanceFromText { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 İlk kenarlık için metinden uzaklığı alır.
 
@@ -22,7 +24,7 @@ public double DistanceFromText { get; set; }
 
 Hiçbir etkisi yoktur ve tablo hücrelerinin kenarlıkları otomatik olarak sıfırlanır.
 
-### Örnekler
+## Örnekler
 
 Gölgeli yeşil dalgalı sayfa kenarlığının nasıl oluşturulacağını gösterir.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageBorders.docx");
 ### Ayrıca bakınız
 
 * class [BorderCollection](../)
-* ad alanı [Aspose.Words](../../bordercollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

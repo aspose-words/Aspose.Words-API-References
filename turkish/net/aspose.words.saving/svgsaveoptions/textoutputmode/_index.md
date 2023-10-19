@@ -1,7 +1,9 @@
 ---
 title: SvgSaveOptions.TextOutputMode
-second_title: Aspose.Words for .NET API Referansı
-description: SvgSaveOptions mülk. Metnin SVGde nasıl oluşturulması gerektiğini belirleyen bir değer alır veya ayarlar.
+linktitle: TextOutputMode
+articleTitle: TextOutputMode
+second_title: Aspose.Words for .NET
+description: SvgSaveOptions TextOutputMode mülk. Metnin SVGde nasıl oluşturulması gerektiğini belirleyen bir değer alır veya ayarlar C#'da.
 type: docs
 weight: 90
 url: /tr/net/aspose.words.saving/svgsaveoptions/textoutputmode/
@@ -14,13 +16,13 @@ Metnin SVG'de nasıl oluşturulması gerektiğini belirleyen bir değer alır ve
 public SvgTextOutputMode TextOutputMode { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 SVG formatında kaydederken bir belge içindeki metnin nasıl render olması gerektiğine ilişkin modu almak veya ayarlamak için bu özelliği kullanın.
 
 Varsayılan değer:UseTargetMachineFonts.
 
-### Örnekler
+## Örnekler
 
 Bir .docx belgesini .svg'ye dönüştürürken görüntülerin özelliklerinin nasıl taklit edileceğini gösterir.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "SvgSaveOptions.SaveLikeImage.svg", options);
 
 * enum [SvgTextOutputMode](../../svgtextoutputmode/)
 * class [SvgSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../svgsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

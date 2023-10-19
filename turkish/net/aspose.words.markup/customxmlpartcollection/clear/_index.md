@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPartCollection.Clear
-second_title: Aspose.Words for .NET API Referansı
-description: CustomXmlPartCollection yöntem. Koleksiyondaki tüm öğeleri kaldırır.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words for .NET
+description: CustomXmlPartCollection Clear yöntem. Koleksiyondaki tüm öğeleri kaldırır C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.markup/customxmlpartcollection/clear/
@@ -14,7 +16,7 @@ Koleksiyondaki tüm öğeleri kaldırır.
 public void Clear()
 ```
 
-### Örnekler
+## Örnekler
 
 Özel XML verileriyle yapılandırılmış bir belge etiketinin nasıl oluşturulacağını gösterir.
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 ### Ayrıca bakınız
 
 * class [CustomXmlPartCollection](../)
-* ad alanı [Aspose.Words.Markup](../../customxmlpartcollection/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

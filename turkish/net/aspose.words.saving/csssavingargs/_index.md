@@ -1,7 +1,9 @@
 ---
-title: Class CssSavingArgs
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Saving.CssSavingArgs sınıf. Şunun için veri sağlarCssSaving olay.
+title: CssSavingArgs Class
+linktitle: CssSavingArgs
+articleTitle: CssSavingArgs
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Saving.CssSavingArgs sınıf. Şunun için veri sağlarCssSaving olay C#'da.
 type: docs
 weight: 4880
 url: /tr/net/aspose.words.saving/csssavingargs/
@@ -25,9 +27,9 @@ public class CssSavingArgs
 | [IsExportNeeded](../../aspose.words.saving/csssavingargs/isexportneeded/) { get; set; } | CSS'nin dosyaya aktarılıp aktarılmayacağını ve HTML belgesine gömülüp gömülmeyeceğini belirlemeye izin verir. Varsayılan:`doğru` . Bu özellik kullanıldığında`YANLIŞ` , CSS bilgileri bir CSS dosyasına kaydedilmeyecek ve HTML belgesine gömülmeyecektir. |
 | [KeepCssStreamOpen](../../aspose.words.saving/csssavingargs/keepcssstreamopen/) { get; set; } | Aspose.Words'ün CSS bilgilerini kaydettikten sonra akışı açık mı tutması yoksa kapatması mı gerektiğini belirtir. |
 
-### Notlar
+## Notlar
 
-Varsayılan olarak Aspose.Words bir belgeyi HTML'ye kaydettiğinde CSS bilgilerini inline (bir değer olarak) kaydeder. **stil** her öğedeki özellik).
+Varsayılan olarak Aspose.Words bir belgeyi HTML'ye kaydettiğinde CSS bilgilerini inline (bir değer olarak) kaydeder.**stil** her öğedeki özellik).
 
 `CssSavingArgs`kendi akış nesnenizi sağlayarak CSS bilgilerini dosyaya kaydetmenize olanak tanır.
 
@@ -35,7 +37,7 @@ CSS'yi akışa kaydetmek için şunu kullanın:[`CssStream`](./cssstream/) mülk
 
 CSS'nin bir dosyaya kaydedilmesini ve HTML belgesine gömülmesini engellemek için şunu kullanın:[`IsExportNeeded`](./isexportneeded/) mülk.
 
-### Örnekler
+## Örnekler
 
 Bir HTML dönüşümünün oluşturduğu CSS stil sayfalarıyla nasıl çalışılacağını gösterir.
 
@@ -97,5 +99,3 @@ private class CustomCssSavingCallback : ICssSavingCallback
 
 * ad alanı [Aspose.Words.Saving](../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../)
-
-

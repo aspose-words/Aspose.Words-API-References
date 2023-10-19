@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.LinkToQuery
-second_title: Aspose.Words for .NET API Referansı
-description: MailMergeSettings mülk. Bundan emin değilim. Microsoft Word Otomasyon Referansı bunun belgesi Microsoft Wordde her açıldığında sorgunun yürütüldüğünü belirttiğini öne sürüyor. Ancak OOXML spesifikasyonu bunun sorgunun gerçek sorguyu içeren harici bir sorgu dosyasına referans içerdiğini belirttiğini öne sürer. Varsayılan değerYANLIŞ .
+linktitle: LinkToQuery
+articleTitle: LinkToQuery
+second_title: Aspose.Words for .NET
+description: MailMergeSettings LinkToQuery mülk. Bundan emin değilim. Microsoft Word Otomasyon Referansı bunun belgesi Microsoft Wordde her açıldığında sorgunun yürütüldüğünü belirttiğini öne sürüyor. Ancak OOXML spesifikasyonu bunun sorgunun gerçek sorguyu içeren harici bir sorgu dosyasına referans içerdiğini belirttiğini öne sürer. Varsayılan değerYANLIŞ  C#'da.
 type: docs
 weight: 110
 url: /tr/net/aspose.words.settings/mailmergesettings/linktoquery/
@@ -14,7 +16,7 @@ Bundan emin değilim. Microsoft Word Otomasyon Referansı, bunun, belgesi Micros
 public bool LinkToQuery { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir Office Veri Kaynağı Nesnesinden alınan verilerle adres-mektup birleştirmenin nasıl yürütüleceğini gösterir.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ### Ayrıca bakınız
 
 * class [MailMergeSettings](../)
-* ad alanı [Aspose.Words.Settings](../../mailmergesettings/)
+* ad alanı [Aspose.Words.Settings](../../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: SvgSaveOptions.ResourcesFolder
-second_title: Aspose.Words for .NET API Referansı
-description: SvgSaveOptions mülk. Bir belge Svg formatında dışa aktarılırken kaynakların görüntülerin kaydedildiği fiziksel klasörü belirtir. Varsayılanhükümsüz .
+linktitle: ResourcesFolder
+articleTitle: ResourcesFolder
+second_title: Aspose.Words for .NET
+description: SvgSaveOptions ResourcesFolder mülk. Bir belge Svg formatında dışa aktarılırken kaynakların görüntülerin kaydedildiği fiziksel klasörü belirtir. Varsayılanhükümsüz  C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.saving/svgsaveoptions/resourcesfolder/
@@ -14,7 +16,7 @@ Bir belge Svg formatında dışa aktarılırken kaynakların (görüntülerin) k
 public string ResourcesFolder { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Yalnızca şu durumlarda etkilidir:[`ExportEmbeddedImages`](../exportembeddedimages/) mülkiyet`YANLIŞ`.
 
@@ -24,7 +26,7 @@ Bir belgeyi bir dosyaya kaydederseniz ve bir dosya adı sağlarsanız, Aspose.Wo
 
 Bir belgeyi bir akışa kaydederseniz, Aspose.Words'de görüntülerin kaydedileceği bir klasör yoktur, ancak yine de görüntüleri bir yere kaydetmesi gerekir. Bu durumda, erişilebilir bir klasör belirtmeniz gerekir.`ResourcesFolder` mülk
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi .svg'ye dönüştürürken oluşturulan bağlantılı kaynakların URI'lerinin nasıl değiştirileceğini ve yazdırılacağını gösterir.
 
@@ -67,7 +69,5 @@ private class ResourceUriPrinter : IResourceSavingCallback
 ### Ayrıca bakınız
 
 * class [SvgSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../svgsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

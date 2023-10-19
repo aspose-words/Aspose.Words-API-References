@@ -1,7 +1,9 @@
 ---
-title: Class MergeFieldImageDimension
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Fields.MergeFieldImageDimension sınıf. Adresmektup birleştirme işleminde kullanılan görüntü boyutunu yani genişlik veya yükseklik temsil eder.
+title: MergeFieldImageDimension Class
+linktitle: MergeFieldImageDimension
+articleTitle: MergeFieldImageDimension
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Fields.MergeFieldImageDimension sınıf. Adresmektup birleştirme işleminde kullanılan görüntü boyutunu yani genişlik veya yükseklik temsil eder C#'da.
 type: docs
 weight: 2750
 url: /tr/net/aspose.words.fields/mergefieldimagedimension/
@@ -20,8 +22,8 @@ public class MergeFieldImageDimension
 
 | İsim | Tanım |
 | --- | --- |
-| [MergeFieldImageDimension](mergefieldimagedimension/#constructor)(double) | Nokta cinsinden verilen değerle bir görüntü boyutu örneği oluşturur. |
-| [MergeFieldImageDimension](mergefieldimagedimension/#constructor_1)(double, MergeFieldImageDimensionUnit) | Verilen değer ve verilen birimle bir görüntü boyutu örneği oluşturur. |
+| [MergeFieldImageDimension](mergefieldimagedimension/#constructor)(*double*) | Nokta cinsinden verilen değerle bir görüntü boyutu örneği oluşturur. |
+| [MergeFieldImageDimension](mergefieldimagedimension/#constructor_1)(*double, [MergeFieldImageDimensionUnit](../mergefieldimagedimensionunit/)*) | Verilen değer ve verilen birimle bir görüntü boyutu örneği oluşturur. |
 
 ## Özellikleri
 
@@ -30,11 +32,11 @@ public class MergeFieldImageDimension
 | [Unit](../../aspose.words.fields/mergefieldimagedimension/unit/) { get; set; } | Birim. |
 | [Value](../../aspose.words.fields/mergefieldimagedimension/value/) { get; set; } | Değer. |
 
-### Notlar
+## Notlar
 
 Adres-mektup birleştirme sırasında resmin orijinal boyutuyla eklenmesi gerektiğini belirtmek için, öğesine negatif bir değer atamalısınız.[`Value`](./value/) özellik.
 
-### Örnekler
+## Örnekler
 
 Adres-mektup birleştirme sırasında MERGEFIELDS'in kabul ettiği görüntülerin boyutlarının nasıl ayarlanacağını gösterir.
 
@@ -105,5 +107,3 @@ private class MergedImageResizer : IFieldMergingCallback
 
 * ad alanı [Aspose.Words.Fields](../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../)
-
-

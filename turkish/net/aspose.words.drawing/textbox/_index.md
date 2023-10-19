@@ -1,7 +1,9 @@
 ---
-title: Class TextBox
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.TextBox sınıf. Metnin şeklin içinde nasıl görüntüleneceğini belirten nitelikleri tanımlar.
+title: TextBox Class
+linktitle: TextBox
+articleTitle: TextBox
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.TextBox sınıf. Metnin şeklin içinde nasıl görüntüleneceğini belirten nitelikleri tanımlar C#'da.
 type: docs
 weight: 1320
 url: /tr/net/aspose.words.drawing/textbox/
@@ -38,13 +40,13 @@ public class TextBox
 | İsim | Tanım |
 | --- | --- |
 | [BreakForwardLink](../../aspose.words.drawing/textbox/breakforwardlink/)() | Sonrakine olan bağlantıyı keser`TextBox` . |
-| [IsValidLinkTarget](../../aspose.words.drawing/textbox/isvalidlinktarget/)(TextBox) | Bunun olup olmadığını belirler`TextBox` hedefe bağlanabilir`TextBox` . |
+| [IsValidLinkTarget](../../aspose.words.drawing/textbox/isvalidlinktarget/)(*TextBox*) | Bunun olup olmadığını belirler`TextBox` hedefe bağlanabilir`TextBox` . |
 
-### Notlar
+## Notlar
 
 Kullan[`TextBox`](../shape/textbox/) bir şeklin metin özelliklerine erişim özelliği. Şeklin örneklerini oluşturmazsınız`TextBox` doğrudan sınıf.
 
-### Örnekler
+## Örnekler
 
 Bir metin kutusu için iç kenar boşluklarının nasıl ayarlanacağını gösterir.
 
@@ -110,5 +112,3 @@ doc.Save(ArtifactsDir + "Shape.TextBoxFitShapeToText.docx");
 
 * ad alanı [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../)
-
-

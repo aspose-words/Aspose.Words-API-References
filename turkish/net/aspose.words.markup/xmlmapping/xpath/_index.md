@@ -1,7 +1,9 @@
 ---
 title: XmlMapping.XPath
-second_title: Aspose.Words for .NET API Referansı
-description: XmlMapping mülk. Üst yapılandırılmış belge etiketiyle eşlenen özel XML node yi bulmak için değerlendirilen XPath ifadesini döndürür.
+linktitle: XPath
+articleTitle: XPath
+second_title: Aspose.Words for .NET
+description: XmlMapping XPath mülk. Üst yapılandırılmış belge etiketiyle eşlenen özel XML node yi bulmak için değerlendirilen XPath ifadesini döndürür C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.markup/xmlmapping/xpath/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.markup/xmlmapping/xpath/
 public string XPath { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Özel XML parçaları için XML eşlemelerinin nasıl ayarlanacağını gösterir.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.XmlMapping.docx");
 ### Ayrıca bakınız
 
 * class [XmlMapping](../)
-* ad alanı [Aspose.Words.Markup](../../xmlmapping/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

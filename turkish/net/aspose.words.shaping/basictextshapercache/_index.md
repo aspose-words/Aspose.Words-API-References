@@ -1,7 +1,9 @@
 ---
-title: Class BasicTextShaperCache
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Shaping.BasicTextShaperCache sınıf. Temel önbelleği uygularITextShaper örnekler. Bu sınıf iş parçacığı açısından güvenlidir.
+title: BasicTextShaperCache Class
+linktitle: BasicTextShaperCache
+articleTitle: BasicTextShaperCache
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Shaping.BasicTextShaperCache sınıf. Temel önbelleği uygularITextShaper örnekler. Bu sınıf iş parçacığı açısından güvenlidir C#'da.
 type: docs
 weight: 6000
 url: /tr/net/aspose.words.shaping/basictextshapercache/
@@ -18,7 +20,7 @@ public sealed class BasicTextShaperCache : IDisposable, ITextShaperFactory
 
 | İsim | Tanım |
 | --- | --- |
-| [BasicTextShaperCache](basictextshapercache/)(ITextShaperFactory) | Sararlar*factory* ve önbellekler[`GetTextShaper`](../itextshaperfactory/gettextshaper/) sonuçlar. |
+| [BasicTextShaperCache](basictextshapercache/)(*[ITextShaperFactory](../itextshaperfactory/)*) | Sararlar*factory* ve önbellekler[`GetTextShaper`](../itextshaperfactory/gettextshaper/) sonuçlar. |
 
 ## yöntemler
 
@@ -31,5 +33,3 @@ public sealed class BasicTextShaperCache : IDisposable, ITextShaperFactory
 * interface [ITextShaperFactory](../itextshaperfactory/)
 * ad alanı [Aspose.Words.Shaping](../../aspose.words.shaping/)
 * toplantı [Aspose.Words](../../)
-
-

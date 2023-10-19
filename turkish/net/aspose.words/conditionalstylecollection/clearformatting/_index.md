@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyleCollection.ClearFormatting
-second_title: Aspose.Words for .NET API Referansı
-description: ConditionalStyleCollection yöntem. Tablo stilinin tüm koşullu stillerini temizler.
+linktitle: ClearFormatting
+articleTitle: ClearFormatting
+second_title: Aspose.Words for .NET
+description: ConditionalStyleCollection ClearFormatting yöntem. Tablo stilinin tüm koşullu stillerini temizler C#'da.
 type: docs
 weight: 150
 url: /tr/net/aspose.words/conditionalstylecollection/clearformatting/
@@ -14,7 +16,7 @@ Tablo stilinin tüm koşullu stillerini temizler.
 public void ClearFormatting()
 ```
 
-### Örnekler
+## Örnekler
 
 Koşullu tablo stillerinin nasıl sıfırlanacağını gösterir.
 
@@ -54,7 +56,5 @@ Assert.True(tableStyle.ConditionalStyles.All(s => s.Borders.Color == Color.Empty
 ### Ayrıca bakınız
 
 * class [ConditionalStyleCollection](../)
-* ad alanı [Aspose.Words](../../conditionalstylecollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

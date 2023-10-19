@@ -1,7 +1,9 @@
 ---
 title: WarningInfoCollection.Warning
-second_title: Aspose.Words for .NET API Referansı
-description: WarningInfoCollection yöntem. UygularIWarningCallback arayüz. Bu koleksiyona bir uyarı ekler.
+linktitle: Warning
+articleTitle: Warning
+second_title: Aspose.Words for .NET
+description: WarningInfoCollection Warning yöntem. UygularIWarningCallback arayüz. Bu koleksiyona bir uyarı ekler C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words/warninginfocollection/warning/
@@ -14,7 +16,7 @@ Uygular[`IWarningCallback`](../../iwarningcallback/) arayüz. Bu koleksiyona bir
 public void Warning(WarningInfo info)
 ```
 
-### Örnekler
+## Örnekler
 
 Mevcut yazı tipi kaynaklarından eksik bir yazı tipi için en yakın eşleşmeyi bulma özelliğinin nasıl ayarlanacağını gösterir.
 
@@ -75,7 +77,5 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 
 * class [WarningInfo](../../warninginfo/)
 * class [WarningInfoCollection](../)
-* ad alanı [Aspose.Words](../../warninginfocollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

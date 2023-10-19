@@ -1,7 +1,9 @@
 ---
-title: Enum FieldUpdateCultureSource
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Fields.FieldUpdateCultureSource Sıralama. Alan güncellemesi sırasında hangi kültürün kullanılacağını belirtir.
+title: FieldUpdateCultureSource Enum
+linktitle: FieldUpdateCultureSource
+articleTitle: FieldUpdateCultureSource
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Fields.FieldUpdateCultureSource Sıralama. Alan güncellemesi sırasında hangi kültürün kullanılacağını belirtir C#'da.
 type: docs
 weight: 2560
 url: /tr/net/aspose.words.fields/fieldupdateculturesource/
@@ -21,7 +23,7 @@ public enum FieldUpdateCultureSource
 | CurrentThread | `0` | Geçerli yürütme iş parçacığının kültürü, alanları güncellemek için kullanılır. |
 | FieldCode | `1` | Dil ayarı aracılığıyla alan biçimlendirme özelliklerinde belirtilen kültür kullanılır. |
 
-### Örnekler
+## Örnekler
 
 Alan güncelleştirmesi veya adres-mektup birleştirme sırasında tarih biçimlendirmesi için kullanılan kültürün kaynağının nasıl belirtileceğini gösterir.
 
@@ -57,5 +59,3 @@ Thread.CurrentThread.CurrentCulture = currentCulture;
 
 * ad alanı [Aspose.Words.Fields](../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../)
-
-

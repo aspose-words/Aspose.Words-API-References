@@ -1,7 +1,9 @@
 ---
-title: CompareOptions.CompareOptions
-second_title: Aspose.Words for .NET API Referansı
-description: CompareOptions inşaatçı. Default_Constructor
+title: CompareOptions
+linktitle: CompareOptions
+articleTitle: CompareOptions
+second_title: Aspose.Words for .NET
+description: CompareOptions inşaatçı. Default_Constructor C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.comparing/compareoptions/compareoptions/
@@ -17,7 +19,5 @@ public CompareOptions()
 ### Ayrıca bakınız
 
 * class [CompareOptions](../)
-* ad alanı [Aspose.Words.Comparing](../../compareoptions/)
+* ad alanı [Aspose.Words.Comparing](../../../aspose.words.comparing/)
 * toplantı [Aspose.Words](../../../)
-
-

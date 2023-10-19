@@ -1,7 +1,9 @@
 ---
 title: Bookmark.BookmarkEnd
-second_title: Aspose.Words for .NET API Referansı
-description: Bookmark mülk. Yer iminin sonunu temsil eden düğümü alır.
+linktitle: BookmarkEnd
+articleTitle: BookmarkEnd
+second_title: Aspose.Words for .NET
+description: Bookmark BookmarkEnd mülk. Yer iminin sonunu temsil eden düğümü alır C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/bookmark/bookmarkend/
@@ -14,7 +16,7 @@ Yer iminin sonunu temsil eden düğümü alır.
 public BookmarkEnd BookmarkEnd { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Yer işaretlerinin nasıl ekleneceğini ve içeriklerinin nasıl güncelleneceğini gösterir.
 
@@ -104,7 +106,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 * class [BookmarkEnd](../../bookmarkend/)
 * class [Bookmark](../)
-* ad alanı [Aspose.Words](../../bookmark/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

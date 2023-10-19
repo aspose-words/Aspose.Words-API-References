@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyleCollection.Count
-second_title: Aspose.Words for .NET API Referansı
-description: ConditionalStyleCollection mülk. Koleksiyondaki koşullu stillerin sayısını alır.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words for .NET
+description: ConditionalStyleCollection Count mülk. Koleksiyondaki koşullu stillerin sayısını alır C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/conditionalstylecollection/count/
@@ -14,7 +16,7 @@ Koleksiyondaki koşullu stillerin sayısını alır.
 public int Count { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir tablonun belirli alan stilleriyle nasıl çalışılacağını gösterir.
 
@@ -84,7 +86,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 ### Ayrıca bakınız
 
 * class [ConditionalStyleCollection](../)
-* ad alanı [Aspose.Words](../../conditionalstylecollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DigitalSignature.Comments
-second_title: Aspose.Words for .NET API Referansı
-description: DigitalSignature mülk. İmzalama amacı yorumunu alır.
+linktitle: Comments
+articleTitle: Comments
+second_title: Aspose.Words for .NET
+description: DigitalSignature Comments mülk. İmzalama amacı yorumunu alır C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.digitalsignatures/digitalsignature/comments/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.digitalsignatures/digitalsignature/comments/
 public string Comments { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki her imza hakkındaki bilgilerin nasıl doğrulanacağını ve görüntüleneceğini gösterir.
 
@@ -36,7 +38,5 @@ foreach (DigitalSignature signature in doc.DigitalSignatures)
 ### Ayrıca bakınız
 
 * class [DigitalSignature](../)
-* ad alanı [Aspose.Words.DigitalSignatures](../../digitalsignature/)
+* ad alanı [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * toplantı [Aspose.Words](../../../)
-
-

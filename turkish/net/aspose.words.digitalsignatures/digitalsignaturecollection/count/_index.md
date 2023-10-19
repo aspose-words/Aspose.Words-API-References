@@ -1,7 +1,9 @@
 ---
 title: DigitalSignatureCollection.Count
-second_title: Aspose.Words for .NET API Referansı
-description: DigitalSignatureCollection mülk. Koleksiyonda yer alan öğelerin sayısını alır.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words for .NET
+description: DigitalSignatureCollection Count mülk. Koleksiyonda yer alan öğelerin sayısını alır C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.digitalsignatures/digitalsignaturecollection/count/
@@ -14,7 +16,7 @@ Koleksiyonda yer alan öğelerin sayısını alır.
 public int Count { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 X.509 sertifikalarına sahip belgelerin nasıl imzalanacağını gösterir.
 
@@ -57,7 +59,5 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 ### Ayrıca bakınız
 
 * class [DigitalSignatureCollection](../)
-* ad alanı [Aspose.Words.DigitalSignatures](../../digitalsignaturecollection/)
+* ad alanı [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * toplantı [Aspose.Words](../../../)
-
-

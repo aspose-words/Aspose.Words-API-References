@@ -1,7 +1,9 @@
 ---
 title: Aspose.Words.Drawing
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Çizim ad alanı çizim nesnelerinin oluşturulmasına ve değiştirilmesine izin veren sınıflar sağlar.
+linktitle: Aspose.Words.Drawing
+articleTitle: Aspose.Words.Drawing
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Çizim ad alanı çizim nesnelerinin oluşturulmasına ve değiştirilmesine izin veren sınıflar sağlar C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.drawing/
@@ -63,5 +65,3 @@ url: /tr/net/aspose.words.drawing/
 | [VerticalAlignment](./verticalalignment/) | Kayan bir şeklin, metin çerçevesinin veya kayan bir tablonun dikey hizalamasını belirtir. |
 | [WrapSide](./wrapside/) | Metnin şeklin veya resmin hangi taraflarını saracağını belirtir. |
 | [WrapType](./wraptype/) | Metnin bir şeklin veya resmin etrafına nasıl sarılacağını belirtir. |
-
-

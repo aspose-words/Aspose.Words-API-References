@@ -1,12 +1,14 @@
 ---
 title: ComHelper.Open
-second_title: Aspose.Words for .NET API Referansı
-description: ComHelper yöntem. COM uygulamasının bir dosya yüklemesine izin verir.Document bir dosyadan.
+linktitle: Open
+articleTitle: Open
+second_title: Aspose.Words for .NET
+description: ComHelper Open yöntem. COM uygulamasının bir dosya yüklemesine izin verir.Document bir dosyadan C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/comhelper/open/
 ---
-## Open(string) {#open_1}
+## Open(*string*) {#open_1}
 
 COM uygulamasının bir dosya yüklemesine izin verir.[`Document`](../../document/) bir dosyadan.
 
@@ -22,11 +24,11 @@ public Document Open(string fileName)
 
 A[`Document`](../../document/)Bir Word belgesini temsil eden nesne.
 
-### Notlar
+## Notlar
 
 Bu yöntem çağrı yapmakla aynıdır.[`Document`](../../document/) dosya adı parametresine sahip yapıcı.
 
-### Örnekler
+## Örnekler
 
 ```csharp
 [VBScript]
@@ -62,12 +64,12 @@ using (FileStream stream = new FileStream(MyDir + "Document.docx", FileMode.Open
 
 * class [Document](../../document/)
 * class [ComHelper](../)
-* ad alanı [Aspose.Words](../../comhelper/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## Open(Stream) {#open}
+## Open(*Stream*) {#open}
 
 Bir COM uygulamasının yüklenmesine izin verir[`Document`](../../document/) bir akıştan.
 
@@ -83,11 +85,11 @@ public Document Open(Stream stream)
 
 A[`Document`](../../document/)Bir Word belgesini temsil eden nesne.
 
-### Notlar
+## Notlar
 
 Bu yöntem çağrı yapmakla aynıdır.[`Document`](../../document/) akış parametresine sahip yapıcı.
 
-### Örnekler
+## Örnekler
 
 ComHelper sınıfını kullanarak belgelerin nasıl açılacağını gösterir.
 
@@ -113,7 +115,5 @@ using (FileStream stream = new FileStream(MyDir + "Document.docx", FileMode.Open
 
 * class [Document](../../document/)
 * class [ComHelper](../)
-* ad alanı [Aspose.Words](../../comhelper/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

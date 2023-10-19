@@ -1,7 +1,9 @@
 ---
-title: Cell.Cell
-second_title: Aspose.Words for .NET API Referansı
-description: Cell inşaatçı. Yeni bir örneğini başlatırCell class.
+title: Cell
+linktitle: Cell
+articleTitle: Cell
+second_title: Aspose.Words for .NET
+description: Cell inşaatçı. Yeni bir örneğini başlatırCell class C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.tables/cell/cell/
@@ -18,13 +20,13 @@ public Cell(DocumentBase doc)
 | --- | --- | --- |
 | doc | DocumentBase | Sahibi belgesi. |
 
-### Notlar
+## Notlar
 
 Ne zaman[`Cell`](../) oluşturulduysa, belirtilen belgeye aittir ancak henüz değildir ve belgenin bir parçası değildir ve[`ParentNode`](../../../aspose.words/node/parentnode/) dır-dir`hükümsüz`.
 
-Eklemek[`Cell`](../) belge kullanımınaNode) veyaNode) hücrenin eklenmesini istediğiniz satırda.
+Eklemek[`Cell`](../) belge kullanımına[`InsertAfter`](../../../aspose.words/compositenode/insertafter/) veya[`InsertBefore`](../../../aspose.words/compositenode/insertbefore/) hücrenin eklenmesini istediğiniz satırda.
 
-### Örnekler
+## Örnekler
 
 Belge oluşturucu kullanmadan iç içe tablonun nasıl oluşturulacağını gösterir.
 
@@ -81,7 +83,5 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
 
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * class [Cell](../)
-* ad alanı [Aspose.Words.Tables](../../cell/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

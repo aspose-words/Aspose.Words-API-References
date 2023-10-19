@@ -1,7 +1,9 @@
 ---
 title: XmlMapping.PrefixMappings
-second_title: Aspose.Words for .NET API Referansı
-description: XmlMapping mülk. Değerlendirmek için XML ad alanı öneki eşlemelerini döndürürXPath .
+linktitle: PrefixMappings
+articleTitle: PrefixMappings
+second_title: Aspose.Words for .NET
+description: XmlMapping PrefixMappings mülk. Değerlendirmek için XML ad alanı öneki eşlemelerini döndürürXPath  C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.markup/xmlmapping/prefixmappings/
@@ -14,11 +16,11 @@ Değerlendirmek için XML ad alanı öneki eşlemelerini döndürür[`XPath`](..
 public string PrefixMappings { get; }
 ```
 
-### Notlar
+## Notlar
 
 XPath ifadesi belgedeki özel XML veri bölümlerine göre değerlendirildiğinde XPath ifadesini yorumlamak için kullanılacak önek eşlemeleri kümesini belirtir.
 
-### Örnekler
+## Örnekler
 
 Özel XML parçaları için XML eşlemelerinin nasıl ayarlanacağını gösterir.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.XmlMapping.docx");
 ### Ayrıca bakınız
 
 * class [XmlMapping](../)
-* ad alanı [Aspose.Words.Markup](../../xmlmapping/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

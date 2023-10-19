@@ -1,7 +1,9 @@
 ---
 title: Font.TextEffect
-second_title: Aspose.Words for .NET API Referansı
-description: Font mülk. Yazı tipi animasyon efektini alır veya ayarlar.
+linktitle: TextEffect
+articleTitle: TextEffect
+second_title: Aspose.Words for .NET
+description: Font TextEffect mülk. Yazı tipi animasyon efektini alır veya ayarlar C#'da.
 type: docs
 weight: 450
 url: /tr/net/aspose.words/font/texteffect/
@@ -14,7 +16,7 @@ Yazı tipi animasyon efektini alır veya ayarlar.
 public TextEffect TextEffect { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir koşuya görsel efektin nasıl uygulanacağını gösterir.
 
@@ -35,7 +37,5 @@ doc.Save(ArtifactsDir + "Font.SparklingText.doc");
 
 * enum [TextEffect](../../texteffect/)
 * class [Font](../)
-* ad alanı [Aspose.Words](../../font/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

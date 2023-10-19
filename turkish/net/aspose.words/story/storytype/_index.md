@@ -1,7 +1,9 @@
 ---
 title: Story.StoryType
-second_title: Aspose.Words for .NET API Referansı
-description: Story mülk. Bu hikayenin türünü alır.
+linktitle: StoryType
+articleTitle: StoryType
+second_title: Aspose.Words for .NET
+description: Story StoryType mülk. Bu hikayenin türünü alır C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words/story/storytype/
@@ -14,7 +16,7 @@ Bu hikayenin türünü alır.
 public StoryType StoryType { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir düğümdeki tüm şekillerin nasıl kaldırılacağını gösterir.
 
@@ -39,7 +41,5 @@ Assert.AreEqual(0, doc.GetChildNodes(NodeType.Shape, true).Count);
 
 * enum [StoryType](../../storytype/)
 * class [Story](../)
-* ad alanı [Aspose.Words](../../story/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

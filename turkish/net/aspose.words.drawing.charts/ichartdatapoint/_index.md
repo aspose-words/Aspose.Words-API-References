@@ -1,7 +1,9 @@
 ---
-title: Interface IChartDataPoint
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.Charts.IChartDataPoint arayüz. Grafikteki tek bir veri noktasının özelliklerini içerir.
+title: IChartDataPoint Interface
+linktitle: IChartDataPoint
+articleTitle: IChartDataPoint
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.Charts.IChartDataPoint arayüz. Grafikteki tek bir veri noktasının özelliklerini içerir C#'da.
 type: docs
 weight: 900
 url: /tr/net/aspose.words.drawing.charts/ichartdatapoint/
@@ -23,7 +25,7 @@ public interface IChartDataPoint
 | [InvertIfNegative](../../aspose.words.drawing.charts/ichartdatapoint/invertifnegative/) { get; set; } | Değer negatifse ana öğenin renklerini ters çevirip çevirmeyeceğini belirtir. |
 | [Marker](../../aspose.words.drawing.charts/ichartdatapoint/marker/) { get; } | Bir veri işaretçisini belirtir. İşaretleyici istendiğinde otomatik olarak oluşturulur. |
 
-### Örnekler
+## Örnekler
 
 Çizgi grafikte veri noktalarıyla nasıl çalışılacağını gösterir.
 
@@ -86,5 +88,3 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 
 * ad alanı [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../)
-
-

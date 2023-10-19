@@ -1,7 +1,9 @@
 ---
-title: Enum NumberStyle
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.NumberStyle Sıralama. Bir listenin dipnotların ve son notların sayfa numaralarının sayı stilini belirtir.
+title: NumberStyle Enum
+linktitle: NumberStyle
+articleTitle: NumberStyle
+second_title: Aspose.Words for .NET
+description: Aspose.Words.NumberStyle Sıralama. Bir listenin dipnotların ve son notların sayfa numaralarının sayı stilini belirtir C#'da.
 type: docs
 weight: 4310
 url: /tr/net/aspose.words/numberstyle/
@@ -81,7 +83,7 @@ public enum NumberStyle
 | None | `255` | Madde işareti veya numara yok. |
 | Custom | `65280` | Özel sayı biçimi. Yalnızca DOCX formatı tarafından desteklenir. |
 
-### Örnekler
+## Örnekler
 
 DocumentBuilder kullanılırken özel liste formatının paragraflara nasıl uygulanacağını gösterir.
 
@@ -141,5 +143,3 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

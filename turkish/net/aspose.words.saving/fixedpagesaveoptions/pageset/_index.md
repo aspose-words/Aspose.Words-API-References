@@ -1,7 +1,9 @@
 ---
 title: FixedPageSaveOptions.PageSet
-second_title: Aspose.Words for .NET API Referansı
-description: FixedPageSaveOptions mülk. Oluşturulacak sayfaları alır veya ayarlar. Varsayılan belgedeki tüm sayfalardır.
+linktitle: PageSet
+articleTitle: PageSet
+second_title: Aspose.Words for .NET
+description: FixedPageSaveOptions PageSet mülk. Oluşturulacak sayfaları alır veya ayarlar. Varsayılan belgedeki tüm sayfalardır C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.saving/fixedpagesaveoptions/pageset/
@@ -14,7 +16,7 @@ Oluşturulacak sayfaları alır veya ayarlar. Varsayılan, belgedeki tüm sayfal
 public PageSet PageSet { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Tam sayfa indekslerine göre sayfaların nasıl çıkarılacağını gösterir.
 
@@ -105,7 +107,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ExportPageSet.All.pdf", options);
 
 * class [PageSet](../../pageset/)
 * class [FixedPageSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../fixedpagesaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTag.NodeType
-second_title: Aspose.Words for .NET API Referansı
-description: StructuredDocumentTag mülk. İadelerStructuredDocumentTag .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words for .NET
+description: StructuredDocumentTag NodeType mülk. İadelerStructuredDocumentTag  C#'da.
 type: docs
 weight: 220
 url: /tr/net/aspose.words.markup/structureddocumenttag/nodetype/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.markup/structureddocumenttag/nodetype/
 public override NodeType NodeType { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 İçerik kontrol öğelerine ilişkin stillerle nasıl çalışılacağını gösterir.
 
@@ -54,7 +56,5 @@ foreach (Node node in tags)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [StructuredDocumentTag](../)
-* ad alanı [Aspose.Words.Markup](../../structureddocumenttag/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

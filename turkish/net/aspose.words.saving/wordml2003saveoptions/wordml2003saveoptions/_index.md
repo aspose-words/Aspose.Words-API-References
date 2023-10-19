@@ -1,7 +1,9 @@
 ---
-title: WordML2003SaveOptions.WordML2003SaveOptions
-second_title: Aspose.Words for .NET API Referansı
-description: WordML2003SaveOptions inşaatçı. Default_Constructor
+title: WordML2003SaveOptions
+linktitle: WordML2003SaveOptions
+articleTitle: WordML2003SaveOptions
+second_title: Aspose.Words for .NET
+description: WordML2003SaveOptions inşaatçı. Default_Constructor C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.saving/wordml2003saveoptions/wordml2003saveoptions/
@@ -17,7 +19,5 @@ public WordML2003SaveOptions()
 ### Ayrıca bakınız
 
 * class [WordML2003SaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../wordml2003saveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

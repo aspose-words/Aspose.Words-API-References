@@ -1,7 +1,9 @@
 ---
 title: PageSavingArgs.PageStream
-second_title: Aspose.Words for .NET API Referansı
-description: PageSavingArgs mülk. Belge sayfasının kaydedileceği akışı belirtmeye izin verir.
+linktitle: PageStream
+articleTitle: PageStream
+second_title: Aspose.Words for .NET
+description: PageSavingArgs PageStream mülk. Belge sayfasının kaydedileceği akışı belirtmeye izin verir C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.saving/pagesavingargs/pagestream/
@@ -14,7 +16,7 @@ Belge sayfasının kaydedileceği akışı belirtmeye izin verir.
 public Stream PageStream { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özellik, belge sayfalarını dosyalar yerine akışlara kaydetmenize olanak tanır.
 
@@ -22,7 +24,7 @@ Varsayılan değer:`hükümsüz` . Bu özellik olduğunda`hükümsüz` belge say
 
 İkisi de olursa`PageStream` Ve[`PageFileName`](../pagefilename/) ayarlandığında PageStream kullanılacaktır.
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi sayfa sayfa HTML'ye kaydetmek için geri aramanın nasıl kullanılacağını gösterir.
 
@@ -79,7 +81,5 @@ private class CustomFileNamePageSavingCallback : IPageSavingCallback
 ### Ayrıca bakınız
 
 * class [PageSavingArgs](../)
-* ad alanı [Aspose.Words.Saving](../../pagesavingargs/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

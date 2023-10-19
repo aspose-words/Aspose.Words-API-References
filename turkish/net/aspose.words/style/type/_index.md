@@ -1,9 +1,11 @@
 ---
 title: Style.Type
-second_title: Aspose.Words for .NET API Referansı
-description: Style mülk. Stil türünü paragraf veya karakter alır.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words for .NET
+description: Style Type mülk. Stil türünü paragraf veya karakter alır C#'da.
 type: docs
-weight: 180
+weight: 170
 url: /tr/net/aspose.words/style/type/
 ---
 ## Style.Type property
@@ -14,7 +16,7 @@ Stil türünü (paragraf veya karakter) alır.
 public StyleType Type { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgenin stil koleksiyonuna nasıl erişileceğini gösterir.
 
@@ -43,7 +45,5 @@ using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 
 * enum [StyleType](../../styletype/)
 * class [Style](../)
-* ad alanı [Aspose.Words](../../style/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

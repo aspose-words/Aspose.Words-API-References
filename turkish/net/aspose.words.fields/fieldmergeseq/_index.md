@@ -1,7 +1,9 @@
 ---
-title: Class FieldMergeSeq
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Fields.FieldMergeSeq sınıf. MERGESEQ alanını uygular.
+title: FieldMergeSeq Class
+linktitle: FieldMergeSeq
+articleTitle: FieldMergeSeq
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Fields.FieldMergeSeq sınıf. MERGESEQ alanını uygular C#'da.
 type: docs
 weight: 2170
 url: /tr/net/aspose.words.fields/fieldmergeseq/
@@ -42,17 +44,17 @@ public class FieldMergeSeq : Field
 | İsim | Tanım |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Alan başlangıcı ile alan ayırıcı (veya ayırıcı yoksa alan sonu) arasındaki metni döndürür. Alt alanların hem alan kodu hem de alan sonucu dahil edilir. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Alan başlangıcı ile alan ayırıcı (veya ayırıcı yoksa alan sonu) arasındaki metni döndürür. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Alan başlangıcı ile alan ayırıcı (veya ayırıcı yoksa alan sonu) arasındaki metni döndürür. |
 | [Remove](../../aspose.words.fields/field/remove/)() | Alanı belgeden kaldırır. Alanın hemen ardından bir düğüm döndürür. Alanın sonu, üst düğümünün son child 'si ise, üst paragrafını döndürür. Alan zaten kaldırılmışsa şunu döndürür:`hükümsüz` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Alanın bağlantısını kaldırır. |
 | [Update](../../aspose.words.fields/field/update/)() | Alan güncellemesini gerçekleştirir. Alan zaten güncelleniyorsa atar. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Bir alan güncellemesi gerçekleştirir. Alan zaten güncelleniyorsa atar. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Bir alan güncellemesi gerçekleştirir. Alan zaten güncelleniyorsa atar. |
 
-### Notlar
+## Notlar
 
 Şu anda MERGEREC ve MERGESEQ alanları aynı işlevi uyguluyor çünkü Aspose.Words adres-mektup birleştirmede kayıtların nasıl atlanacağını sure bilmiyoruz.
 
-### Örnekler
+## Örnekler
 
 Adres-mektup birleştirmenin çıktı belgelerindeki adres-mektup birleştirme kayıtlarını numaralandırmak ve saymak için MERGEREC ve MERGESEQ alanlarının nasıl kullanılacağını gösterir.
 
@@ -106,5 +108,3 @@ doc.Save(ArtifactsDir + "Field.MERGEREC.MERGESEQ.docx");
 * class [Field](../field/)
 * ad alanı [Aspose.Words.Fields](../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PdfLoadOptions.PageIndex
-second_title: Aspose.Words for .NET API Referansı
-description: PdfLoadOptions mülk. Okunacak ilk sayfanın 0 tabanlı dizinini alır veya ayarlar. Varsayılan 0. dir
+linktitle: PageIndex
+articleTitle: PageIndex
+second_title: Aspose.Words for .NET
+description: PdfLoadOptions PageIndex mülk. Okunacak ilk sayfanın 0 tabanlı dizinini alır veya ayarlar. Varsayılan 0. dir C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.loading/pdfloadoptions/pageindex/
@@ -17,7 +19,5 @@ public int PageIndex { get; set; }
 ### Ayrıca bakınız
 
 * class [PdfLoadOptions](../)
-* ad alanı [Aspose.Words.Loading](../../pdfloadoptions/)
+* ad alanı [Aspose.Words.Loading](../../../aspose.words.loading/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum MergeFormatMode
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.LowCode.MergeFormatMode Sıralama. Birden fazla belge birleştirildiğinde biçimlendirmenin nasıl birleştirileceğini belirtir.
+title: MergeFormatMode Enum
+linktitle: MergeFormatMode
+articleTitle: MergeFormatMode
+second_title: Aspose.Words for .NET
+description: Aspose.Words.LowCode.MergeFormatMode Sıralama. Birden fazla belge birleştirildiğinde biçimlendirmenin nasıl birleştirileceğini belirtir C#'da.
 type: docs
 weight: 3750
 url: /tr/net/aspose.words.lowcode/mergeformatmode/
@@ -26,5 +28,3 @@ public enum MergeFormatMode
 
 * ad alanı [Aspose.Words.LowCode](../../aspose.words.lowcode/)
 * toplantı [Aspose.Words](../../)
-
-

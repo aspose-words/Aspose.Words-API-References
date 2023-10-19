@@ -1,7 +1,9 @@
 ---
-title: Enum EndCap
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.EndCap Sıralama. Satır sınırı stilini belirtir.
+title: EndCap Enum
+linktitle: EndCap
+articleTitle: EndCap
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.EndCap Sıralama. Satır sınırı stilini belirtir C#'da.
 type: docs
 weight: 940
 url: /tr/net/aspose.words.drawing/endcap/
@@ -23,7 +25,7 @@ public enum EndCap
 | Flat | `2` | Çizgi bitiş noktasında biter. |
 | Default | `2` | Varsayılan değer:Flat . |
 
-### Örnekler
+## Örnekler
 
 Çeşitli şekiller oluşturmayı gösterir.
 
@@ -100,5 +102,3 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 * property [EndCap](../stroke/endcap/)
 * ad alanı [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: StyleCollection.DefaultParagraphFormat
-second_title: Aspose.Words for .NET API Referansı
-description: StyleCollection mülk. Belgenin varsayılan paragraf formatını alır.
+linktitle: DefaultParagraphFormat
+articleTitle: DefaultParagraphFormat
+second_title: Aspose.Words for .NET
+description: StyleCollection DefaultParagraphFormat mülk. Belgenin varsayılan paragraf formatını alır C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/stylecollection/defaultparagraphformat/
@@ -14,11 +16,11 @@ Belgenin varsayılan paragraf formatını alır.
 public ParagraphFormat DefaultParagraphFormat { get; }
 ```
 
-### Notlar
+## Notlar
 
 Belge genelindeki varsayılanların Microsoft Word 2007'de sunulduğunu ve OOXML formatlarında tam olarak desteklendiğini unutmayın (Docx) yalnızca. Önceki belge formatlarında, belgenin varsayılan paragraf formatı desteği yoktur.
 
-### Örnekler
+## Örnekler
 
 Bir belgenin stil koleksiyonuna nasıl Stil ekleneceğini gösterir.
 
@@ -42,7 +44,5 @@ Assert.AreEqual(15.0, styles["MyStyle"].ParagraphFormat.FirstLineIndent);
 
 * class [ParagraphFormat](../../paragraphformat/)
 * class [StyleCollection](../)
-* ad alanı [Aspose.Words](../../stylecollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

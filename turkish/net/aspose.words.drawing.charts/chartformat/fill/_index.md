@@ -1,7 +1,9 @@
 ---
 title: ChartFormat.Fill
-second_title: Aspose.Words for .NET API Referansı
-description: ChartFormat mülk. Ana grafik öğesi için dolgu formatını alır.
+linktitle: Fill
+articleTitle: Fill
+second_title: Aspose.Words for .NET
+description: ChartFormat Fill mülk. Ana grafik öğesi için dolgu formatını alır C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.drawing.charts/chartformat/fill/
@@ -14,7 +16,7 @@ Ana grafik öğesi için dolgu formatını alır.
 public Fill Fill { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 İşaretçi biçimlendirmesinin nasıl ayarlanacağını gösterin.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Charts.MarkerFormatting.docx");
 
 * class [Fill](../../../aspose.words.drawing/fill/)
 * class [ChartFormat](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartformat/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

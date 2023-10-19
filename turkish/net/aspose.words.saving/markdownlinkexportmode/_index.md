@@ -1,7 +1,9 @@
 ---
-title: Enum MarkdownLinkExportMode
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Saving.MarkdownLinkExportMode Sıralama. Bağlantıları hedef belgeye aktarma modu.
+title: MarkdownLinkExportMode Enum
+linktitle: MarkdownLinkExportMode
+articleTitle: MarkdownLinkExportMode
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Saving.MarkdownLinkExportMode Sıralama. Bağlantıları hedef belgeye aktarma modu C#'da.
 type: docs
 weight: 5260
 url: /tr/net/aspose.words.saving/markdownlinkexportmode/
@@ -26,5 +28,3 @@ public enum MarkdownLinkExportMode
 
 * ad alanı [Aspose.Words.Saving](../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../)
-
-

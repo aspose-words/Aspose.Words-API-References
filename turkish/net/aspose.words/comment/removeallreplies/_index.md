@@ -1,9 +1,11 @@
 ---
 title: Comment.RemoveAllReplies
-second_title: Aspose.Words for .NET API Referansı
-description: Comment yöntem. Bu yoruma verilen tüm yanıtları kaldırır.
+linktitle: RemoveAllReplies
+articleTitle: RemoveAllReplies
+second_title: Aspose.Words for .NET
+description: Comment RemoveAllReplies yöntem. Bu yoruma verilen tüm yanıtları kaldırır C#'da.
 type: docs
-weight: 160
+weight: 130
 url: /tr/net/aspose.words/comment/removeallreplies/
 ---
 ## Comment.RemoveAllReplies method
@@ -14,11 +16,11 @@ Bu yoruma verilen tüm yanıtları kaldırır.
 public void RemoveAllReplies()
 ```
 
-### Notlar
+## Notlar
 
 Yanıtların tüm bileşen düğümleri belgeden silinecektir.
 
-### Örnekler
+## Örnekler
 
 Yorum yanıtlarının nasıl kaldırılacağını gösterir.
 
@@ -50,7 +52,5 @@ Assert.AreEqual(0, comment.Replies.Count());
 ### Ayrıca bakınız
 
 * class [Comment](../)
-* ad alanı [Aspose.Words](../../comment/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

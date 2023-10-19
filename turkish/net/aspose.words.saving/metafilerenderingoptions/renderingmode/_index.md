@@ -1,7 +1,9 @@
 ---
 title: MetafileRenderingOptions.RenderingMode
-second_title: Aspose.Words for .NET API Referansı
-description: MetafileRenderingOptions mülk. Meta dosyası görüntülerinin nasıl oluşturulması gerektiğini belirleyen bir değer alır veya ayarlar.
+linktitle: RenderingMode
+articleTitle: RenderingMode
+second_title: Aspose.Words for .NET
+description: MetafileRenderingOptions RenderingMode mülk. Meta dosyası görüntülerinin nasıl oluşturulması gerektiğini belirleyen bir değer alır veya ayarlar C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.saving/metafilerenderingoptions/renderingmode/
@@ -14,11 +16,11 @@ Meta dosyası görüntülerinin nasıl oluşturulması gerektiğini belirleyen b
 public MetafileRenderingMode RenderingMode { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer kaydetme biçimine bağlıdır. Görüntüler için öyleBitmap . Diğer formatlar içinVectorWithFallback.
 
-### Örnekler
+## Örnekler
 
 Gösteriler, bitmap oluşturmaya bir geri dönüş ekledi ve desteklenmeyen meta dosyası kayıtlarıyla ilgili uyarı türlerini değiştirdi.
 
@@ -74,7 +76,5 @@ public class HandleDocumentWarnings : IWarningCallback
 
 * enum [MetafileRenderingMode](../../metafilerenderingmode/)
 * class [MetafileRenderingOptions](../)
-* ad alanı [Aspose.Words.Saving](../../metafilerenderingoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

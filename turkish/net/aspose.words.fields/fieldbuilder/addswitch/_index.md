@@ -1,12 +1,14 @@
 ---
 title: FieldBuilder.AddSwitch
-second_title: Aspose.Words for .NET API Referansı
-description: FieldBuilder yöntem. Bir alanın anahtarını ekler.
+linktitle: AddSwitch
+articleTitle: AddSwitch
+second_title: Aspose.Words for .NET
+description: FieldBuilder AddSwitch yöntem. Bir alanın anahtarını ekler C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fields/fieldbuilder/addswitch/
 ---
-## AddSwitch(string) {#addswitch}
+## AddSwitch(*string*) {#addswitch}
 
 Bir alanın anahtarını ekler.
 
@@ -18,11 +20,11 @@ public FieldBuilder AddSwitch(string switchName)
 | --- | --- | --- |
 | switchName | String | Anahtar adı. |
 
-### Notlar
+## Notlar
 
 Bu aşırı yük bir bayrak ekler (argümansız geçiş).
 
-### Örnekler
+## Örnekler
 
 Alan oluşturucu kullanarak alanların nasıl oluşturulacağını ve ardından bunların belgeye nasıl ekleneceğini gösterir.
 
@@ -105,12 +107,12 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### Ayrıca bakınız
 
 * class [FieldBuilder](../)
-* ad alanı [Aspose.Words.Fields](../../fieldbuilder/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## AddSwitch(string, string) {#addswitch_3}
+## AddSwitch(*string, string*) {#addswitch_3}
 
 Bir alanın anahtarını ekler.
 
@@ -123,7 +125,7 @@ public FieldBuilder AddSwitch(string switchName, string switchArgument)
 | switchName | String | Anahtar adı. |
 | switchArgument | String | Anahtar değeri. |
 
-### Örnekler
+## Örnekler
 
 Alan oluşturucu kullanarak alanların nasıl oluşturulacağını ve ardından bunların belgeye nasıl ekleneceğini gösterir.
 
@@ -206,12 +208,12 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### Ayrıca bakınız
 
 * class [FieldBuilder](../)
-* ad alanı [Aspose.Words.Fields](../../fieldbuilder/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## AddSwitch(string, int) {#addswitch_2}
+## AddSwitch(*string, int*) {#addswitch_2}
 
 Bir alanın anahtarını ekler.
 
@@ -224,7 +226,7 @@ public FieldBuilder AddSwitch(string switchName, int switchArgument)
 | switchName | String | Anahtar adı. |
 | switchArgument | Int32 | Anahtar değeri. |
 
-### Örnekler
+## Örnekler
 
 Alan oluşturucu kullanarak alanların nasıl oluşturulacağını ve ardından bunların belgeye nasıl ekleneceğini gösterir.
 
@@ -307,12 +309,12 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### Ayrıca bakınız
 
 * class [FieldBuilder](../)
-* ad alanı [Aspose.Words.Fields](../../fieldbuilder/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## AddSwitch(string, double) {#addswitch_1}
+## AddSwitch(*string, double*) {#addswitch_1}
 
 Bir alanın anahtarını ekler.
 
@@ -325,7 +327,7 @@ public FieldBuilder AddSwitch(string switchName, double switchArgument)
 | switchName | String | Anahtar adı. |
 | switchArgument | Double | Anahtar değeri. |
 
-### Örnekler
+## Örnekler
 
 Alan oluşturucu kullanarak alanların nasıl oluşturulacağını ve ardından bunların belgeye nasıl ekleneceğini gösterir.
 
@@ -408,7 +410,5 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### Ayrıca bakınız
 
 * class [FieldBuilder](../)
-* ad alanı [Aspose.Words.Fields](../../fieldbuilder/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

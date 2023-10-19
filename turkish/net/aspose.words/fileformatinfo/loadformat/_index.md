@@ -1,7 +1,9 @@
 ---
 title: FileFormatInfo.LoadFormat
-second_title: Aspose.Words for .NET API Referansı
-description: FileFormatInfo mülk. Algılanan belge biçimini alır.
+linktitle: LoadFormat
+articleTitle: LoadFormat
+second_title: Aspose.Words for .NET
+description: FileFormatInfo LoadFormat mülk. Algılanan belge biçimini alır C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words/fileformatinfo/loadformat/
@@ -14,11 +16,11 @@ Algılanan belge biçimini alır.
 public LoadFormat LoadFormat { get; }
 ```
 
-### Notlar
+## Notlar
 
 Bir OOXML belgesi şifrelendiğinde, önce şifresini çözmeden bunun bir Excel, Word veya PowerPoint belgesi olup olmadığını tespit etmek mümkün değildir, dolayısıyla şifrelenmiş bir OOXML belgesi için bu özellik her zaman geri dönecektirDocx.
 
-### Örnekler
+## Örnekler
 
 Belge biçimini ve şifrelemeyi algılamak için FileFormatUtil sınıfının nasıl kullanılacağını gösterir.
 
@@ -93,7 +95,5 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
 
 * enum [LoadFormat](../../loadformat/)
 * class [FileFormatInfo](../)
-* ad alanı [Aspose.Words](../../fileformatinfo/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

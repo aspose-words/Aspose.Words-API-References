@@ -1,7 +1,9 @@
 ---
-title: Enum EmbeddedFontFormat
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Fonts.EmbeddedFontFormat Sıralama. İçerideki belirli gömülü yazı tipinin biçimini belirtirFontInfo nesne.
+title: EmbeddedFontFormat Enum
+linktitle: EmbeddedFontFormat
+articleTitle: EmbeddedFontFormat
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Fonts.EmbeddedFontFormat Sıralama. İçerideki belirli gömülü yazı tipinin biçimini belirtirFontInfo nesne C#'da.
 type: docs
 weight: 2850
 url: /tr/net/aspose.words.fonts/embeddedfontformat/
@@ -23,7 +25,7 @@ public enum EmbeddedFontFormat
 | EmbeddedOpenType | `0` | Katıştırılmış OpenType (EOT) Dosya Formatını belirtir. |
 | OpenType | `1` | OpenType (TrueType) yazı tipi dosyasının düz kopyası olarak gömülü yazı tipini belirtir. |
 
-### Örnekler
+## Örnekler
 
 Katıştırılmış bir yazı tipinin bir belgeden nasıl çıkarılacağını ve yerel dosya sistemine nasıl kaydedileceğini gösterir.
 
@@ -51,5 +53,3 @@ File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.otf", embeddedFon
 
 * ad alanı [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../)
-
-

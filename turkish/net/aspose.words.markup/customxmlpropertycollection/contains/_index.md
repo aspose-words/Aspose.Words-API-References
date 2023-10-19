@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPropertyCollection.Contains
-second_title: Aspose.Words for .NET API Referansı
-description: CustomXmlPropertyCollection yöntem. Koleksiyonun verilen adda bir özellik içerip içermediğini belirler.
+linktitle: Contains
+articleTitle: Contains
+second_title: Aspose.Words for .NET
+description: CustomXmlPropertyCollection Contains yöntem. Koleksiyonun verilen adda bir özellik içerip içermediğini belirler C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.markup/customxmlpropertycollection/contains/
@@ -22,7 +24,7 @@ public bool Contains(string name)
 
 `doğru` öğe koleksiyonda bulunursa; aksi takdirde,`YANLIŞ`.
 
-### Örnekler
+## Örnekler
 
 Akıllı etiketler hakkında ayrıntılı bilgi almak için akıllı etiket özellikleriyle nasıl çalışılacağını gösterir.
 
@@ -79,7 +81,5 @@ Assert.AreEqual(0, properties.Count);
 ### Ayrıca bakınız
 
 * class [CustomXmlPropertyCollection](../)
-* ad alanı [Aspose.Words.Markup](../../customxmlpropertycollection/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

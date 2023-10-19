@@ -1,9 +1,11 @@
 ---
 title: Fill.GradientVariant
-second_title: Aspose.Words for .NET API Referansı
-description: Fill mülk. Degrade değişkenini alırGradientVariant dolgu için.
+linktitle: GradientVariant
+articleTitle: GradientVariant
+second_title: Aspose.Words for .NET
+description: Fill GradientVariant mülk. Degrade değişkenini alırGradientVariant dolgu için C#'da.
 type: docs
-weight: 130
+weight: 120
 url: /tr/net/aspose.words.drawing/fill/gradientvariant/
 ---
 ## Fill.GradientVariant property
@@ -14,7 +16,7 @@ Degrade değişkenini alır[`GradientVariant`](../../gradientvariant/) dolgu iç
 public GradientVariant GradientVariant { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir şeklin degradelerle nasıl doldurulacağını gösterir.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Shape.GradientFill.docx", saveOptions);
 
 * enum [GradientVariant](../../gradientvariant/)
 * class [Fill](../)
-* ad alanı [Aspose.Words.Drawing](../../fill/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

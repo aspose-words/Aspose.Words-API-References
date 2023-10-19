@@ -1,7 +1,9 @@
 ---
 title: FieldToc.HeadingLevelRange
-second_title: Aspose.Words for .NET API Referansı
-description: FieldToc mülk. Dahil edilecek başlık düzeyleri aralığını alır veya ayarlar.
+linktitle: HeadingLevelRange
+articleTitle: HeadingLevelRange
+second_title: Aspose.Words for .NET
+description: FieldToc HeadingLevelRange mülk. Dahil edilecek başlık düzeyleri aralığını alır veya ayarlar C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words.fields/fieldtoc/headinglevelrange/
@@ -14,7 +16,7 @@ Dahil edilecek başlık düzeyleri aralığını alır veya ayarlar.
 public string HeadingLevelRange { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 İçindekiler tablosunun nasıl ekleneceğini ve başlık stillerine göre girdilerle nasıl doldurulacağını gösterir.
 
@@ -99,7 +101,5 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 ### Ayrıca bakınız
 
 * class [FieldToc](../)
-* ad alanı [Aspose.Words.Fields](../../fieldtoc/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

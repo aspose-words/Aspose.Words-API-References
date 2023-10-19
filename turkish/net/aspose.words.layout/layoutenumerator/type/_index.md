@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.Type
-second_title: Aspose.Words for .NET API Referansı
-description: LayoutEnumerator mülk. Geçerli varlığın türünü alır.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words for .NET
+description: LayoutEnumerator Type mülk. Geçerli varlığın türünü alır C#'da.
 type: docs
 weight: 90
 url: /tr/net/aspose.words.layout/layoutenumerator/type/
@@ -14,7 +16,7 @@ Geçerli varlığın türünü alır.
 public LayoutEntityType Type { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgenin düzen varlıkları arasında geçiş yapma yollarını gösterir.
 
@@ -160,7 +162,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 
 * enum [LayoutEntityType](../../layoutentitytype/)
 * class [LayoutEnumerator](../)
-* ad alanı [Aspose.Words.Layout](../../layoutenumerator/)
+* ad alanı [Aspose.Words.Layout](../../../aspose.words.layout/)
 * toplantı [Aspose.Words](../../../)
-
-

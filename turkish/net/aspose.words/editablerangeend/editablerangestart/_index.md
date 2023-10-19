@@ -1,7 +1,9 @@
 ---
 title: EditableRangeEnd.EditableRangeStart
-second_title: Aspose.Words for .NET API Referansı
-description: EditableRangeEnd mülk. Karşılık gelenEditableRangeStart  ID. tarafından alındı
+linktitle: EditableRangeStart
+articleTitle: EditableRangeStart
+second_title: Aspose.Words for .NET
+description: EditableRangeEnd EditableRangeStart mülk. Karşılık gelenEditableRangeStart  ID. tarafından alındı C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/editablerangeend/editablerangestart/
@@ -14,7 +16,7 @@ Karşılık gelen[`EditableRangeStart`](../../editablerangestart/) , ID. tarafı
 public EditableRangeStart EditableRangeStart { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Düzenlenebilir bir aralıkla nasıl çalışılacağını gösterir.
 
@@ -61,7 +63,5 @@ editableRange.Remove();
 
 * class [EditableRangeStart](../../editablerangestart/)
 * class [EditableRangeEnd](../)
-* ad alanı [Aspose.Words](../../editablerangeend/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldPrint.PrinterInstructions
-second_title: Aspose.Words for .NET API Referansı
-description: FieldPrint mülk. Yazıcıya özel kontrol kodu karakterlerini veya PostScript talimatlarını alır veya ayarlar.
+linktitle: PrinterInstructions
+articleTitle: PrinterInstructions
+second_title: Aspose.Words for .NET
+description: FieldPrint PrinterInstructions mülk. Yazıcıya özel kontrol kodu karakterlerini veya PostScript talimatlarını alır veya ayarlar C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fields/fieldprint/printerinstructions/
@@ -14,7 +16,7 @@ Yazıcıya özel kontrol kodu karakterlerini veya PostScript talimatlarını al�
 public string PrinterInstructions { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 PRINT alanının eklenmesini gösterir.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Field.PRINT.docx");
 ### Ayrıca bakınız
 
 * class [FieldPrint](../)
-* ad alanı [Aspose.Words.Fields](../../fieldprint/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

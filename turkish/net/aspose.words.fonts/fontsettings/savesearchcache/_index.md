@@ -1,7 +1,9 @@
 ---
 title: FontSettings.SaveSearchCache
-second_title: Aspose.Words for .NET API Referansı
-description: FontSettings yöntem. Yazı tipi arama önbelleğini akışa kaydeder.
+linktitle: SaveSearchCache
+articleTitle: SaveSearchCache
+second_title: Aspose.Words for .NET
+description: FontSettings SaveSearchCache yöntem. Yazı tipi arama önbelleğini akışa kaydeder C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.fonts/fontsettings/savesearchcache/
@@ -18,11 +20,11 @@ public void SaveSearchCache(Stream outputStream)
 | --- | --- | --- |
 | outputStream | Stream | Çıkış akışı. |
 
-### Notlar
+## Notlar
 
 Görmek[`SetFontsSources`](../setfontssources/) Daha fazla bilgi için yöntem açıklaması.
 
-### Örnekler
+## Örnekler
 
 Yazı tipi önbelleği başlatma işleminin nasıl hızlandırılacağını gösterir.
 
@@ -73,7 +75,5 @@ private class SearchCacheStream : StreamFontSource
 ### Ayrıca bakınız
 
 * class [FontSettings](../)
-* ad alanı [Aspose.Words.Fonts](../../fontsettings/)
+* ad alanı [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../../)
-
-

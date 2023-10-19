@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.DocumentSplitHeadingLevel
-second_title: Aspose.Words for .NET API Referansı
-description: HtmlSaveOptions mülk. Belgenin bölüneceği maksimum başlık düzeyini belirtir. Varsayılan değer2 .
+linktitle: DocumentSplitHeadingLevel
+articleTitle: DocumentSplitHeadingLevel
+second_title: Aspose.Words for .NET
+description: HtmlSaveOptions DocumentSplitHeadingLevel mülk. Belgenin bölüneceği maksimum başlık düzeyini belirtir. Varsayılan değer2  C#'da.
 type: docs
 weight: 90
 url: /tr/net/aspose.words.saving/htmlsaveoptions/documentsplitheadinglevel/
@@ -14,13 +16,13 @@ Belgenin bölüneceği maksimum başlık düzeyini belirtir. Varsayılan değer:
 public int DocumentSplitHeadingLevel { get; set; }
 ```
 
-### Notlar
+## Notlar
 
-Ne zaman[`DocumentSplitCriteria`](../documentsplitcriteria/) içerirHeadingParagraph ve bu özellik 1'den 9'a kadar bir değere ayarlandığında, belge kullanılarak biçimlendirilmiş paragraflara bölünecektir. **Başlık 1** , **Başlık 2** , **Başlık 3**vb. stilleri belirtilen başlık seviyesine kadar.
+Ne zaman[`DocumentSplitCriteria`](../documentsplitcriteria/) içerirHeadingParagraph ve bu özellik 1'den 9'a kadar bir değere ayarlandığında, belge kullanılarak biçimlendirilmiş paragraflara bölünecektir.**Başlık 1** ,**Başlık 2** ,**Başlık 3**vb. stilleri belirtilen başlık seviyesine kadar.
 
-Varsayılan olarak yalnızca **Başlık 1** Ve **Başlık 2** paragraflar belgenin bölünmesine neden olur. Bu özelliğin sıfıra ayarlanması, belgenin başlık paragraflarında hiç bölünmemesine neden olur.
+Varsayılan olarak yalnızca**Başlık 1** Ve**Başlık 2** paragraflar belgenin bölünmesine neden olur. Bu özelliğin sıfıra ayarlanması, belgenin başlık paragraflarında hiç bölünmemesine neden olur.
 
-### Örnekler
+## Örnekler
 
 Bir çıktı HTML belgesinin başlıklara göre birkaç parçaya nasıl bölüneceğini gösterir.
 
@@ -82,7 +84,5 @@ Assert.AreEqual("Heading #5\r" +
 ### Ayrıca bakınız
 
 * class [HtmlSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../htmlsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PdfDigitalSignatureTimestampSettings.Timeout
-second_title: Aspose.Words for .NET API Referansı
-description: PdfDigitalSignatureTimestampSettings mülk. Zaman damgası sunucusuna erişim için zaman aşımı değeri.
+linktitle: Timeout
+articleTitle: Timeout
+second_title: Aspose.Words for .NET
+description: PdfDigitalSignatureTimestampSettings Timeout mülk. Zaman damgası sunucusuna erişim için zaman aşımı değeri C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/timeout/
@@ -14,11 +16,11 @@ Zaman damgası sunucusuna erişim için zaman aşımı değeri.
 public TimeSpan Timeout { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer 100 saniyedir.
 
-### Örnekler
+## Örnekler
 
 Kaydedilmiş bir PDF belgesinin dijital olarak nasıl imzalanacağını ve ona zaman damgasının nasıl damgalanacağını gösterir.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", optio
 ### Ayrıca bakınız
 
 * class [PdfDigitalSignatureTimestampSettings](../)
-* ad alanı [Aspose.Words.Saving](../../pdfdigitalsignaturetimestampsettings/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: Fill.PresetTextured
-second_title: Aspose.Words for .NET API Referansı
-description: Fill yöntem. Dolguyu önceden ayarlanmış bir dokuya ayarlar.
+linktitle: PresetTextured
+articleTitle: PresetTextured
+second_title: Aspose.Words for .NET
+description: Fill PresetTextured yöntem. Dolguyu önceden ayarlanmış bir dokuya ayarlar C#'da.
 type: docs
-weight: 240
+weight: 230
 url: /tr/net/aspose.words.drawing/fill/presettextured/
 ---
 ## Fill.PresetTextured method
@@ -18,7 +20,7 @@ public void PresetTextured(PresetTexture presetTexture)
 | --- | --- | --- |
 | presetTexture | PresetTexture | [`PresetTexture`](../../presettexture/) |
 
-### Örnekler
+## Örnekler
 
 İşaretçi biçimlendirmesinin nasıl ayarlanacağını gösterin.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "Charts.MarkerFormatting.docx");
 
 * enum [PresetTexture](../../presettexture/)
 * class [Fill](../)
-* ad alanı [Aspose.Words.Drawing](../../fill/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: Stroke.StartArrowLength
-second_title: Aspose.Words for .NET API Referansı
-description: Stroke mülk. Bir vuruşun başlangıcı için ok ucu uzunluğunu tanımlar.
+linktitle: StartArrowLength
+articleTitle: StartArrowLength
+second_title: Aspose.Words for .NET
+description: Stroke StartArrowLength mülk. Bir vuruşun başlangıcı için ok ucu uzunluğunu tanımlar C#'da.
 type: docs
-weight: 170
+weight: 160
 url: /tr/net/aspose.words.drawing/stroke/startarrowlength/
 ---
 ## Stroke.StartArrowLength property
@@ -14,11 +16,11 @@ Bir vuruşun başlangıcı için ok ucu uzunluğunu tanımlar.
 public ArrowLength StartArrowLength { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:Medium.
 
-### Örnekler
+## Örnekler
 
 Çeşitli şekiller oluşturmayı gösterir.
 
@@ -94,7 +96,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 
 * enum [ArrowLength](../../arrowlength/)
 * class [Stroke](../)
-* ad alanı [Aspose.Words.Drawing](../../stroke/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

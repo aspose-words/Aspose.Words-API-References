@@ -1,7 +1,9 @@
 ---
 title: EndnoteOptions.StartNumber
-second_title: Aspose.Words for .NET API Referansı
-description: EndnoteOptions mülk. Otomatik olarak numaralandırılan ilk son notların başlangıç numarasını veya karakterini belirtir.
+linktitle: StartNumber
+articleTitle: StartNumber
+second_title: Aspose.Words for .NET
+description: EndnoteOptions StartNumber mülk. Otomatik olarak numaralandırılan ilk son notların başlangıç numarasını veya karakterini belirtir C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.notes/endnoteoptions/startnumber/
@@ -14,11 +16,11 @@ Otomatik olarak numaralandırılan ilk son notların başlangıç numarasını v
 public int StartNumber { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özellik yalnızca şu durumlarda etkilidir:[`RestartRule`](../restartrule/) olarak ayarlandıContinuous.
 
-### Örnekler
+## Örnekler
 
 Belgenin dipnot/sonnot sayımına başlayacağı sayının nasıl ayarlanacağını gösterir.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "InlineStory.StartNumber.docx");
 ### Ayrıca bakınız
 
 * class [EndnoteOptions](../)
-* ad alanı [Aspose.Words.Notes](../../endnoteoptions/)
+* ad alanı [Aspose.Words.Notes](../../../aspose.words.notes/)
 * toplantı [Aspose.Words](../../../)
-
-

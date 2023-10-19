@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Bytes
-second_title: Aspose.Words for .NET API Referansı
-description: BuiltInDocumentProperties mülk. Belgedeki bayt sayısına ilişkin bir tahmindir.
+linktitle: Bytes
+articleTitle: Bytes
+second_title: Aspose.Words for .NET
+description: BuiltInDocumentProperties Bytes mülk. Belgedeki bayt sayısına ilişkin bir tahmindir C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.properties/builtindocumentproperties/bytes/
@@ -14,13 +16,13 @@ Belgedeki bayt sayısına ilişkin bir tahmindir.
 public int Bytes { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Microsoft Word her zaman bu özelliği ayarlamaz.
 
 Aspose.Words bu özelliği güncellemez.
 
-### Örnekler
+## Örnekler
 
 "İçerik" kategorisinde belge özellikleriyle nasıl çalışılacağını gösterir.
 
@@ -130,7 +132,5 @@ private class LineCounter
 ### Ayrıca bakınız
 
 * class [BuiltInDocumentProperties](../)
-* ad alanı [Aspose.Words.Properties](../../builtindocumentproperties/)
+* ad alanı [Aspose.Words.Properties](../../../aspose.words.properties/)
 * toplantı [Aspose.Words](../../../)
-
-

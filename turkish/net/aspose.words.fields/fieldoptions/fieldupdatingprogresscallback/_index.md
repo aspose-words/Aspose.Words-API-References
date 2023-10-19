@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.FieldUpdatingProgressCallback
-second_title: Aspose.Words for .NET API Referansı
-description: FieldOptions mülk. Alır veya ayarlarIFieldUpdatingProgressCallback uygulama.
+linktitle: FieldUpdatingProgressCallback
+articleTitle: FieldUpdatingProgressCallback
+second_title: Aspose.Words for .NET
+description: FieldOptions FieldUpdatingProgressCallback mülk. Alır veya ayarlarIFieldUpdatingProgressCallback uygulama C#'da.
 type: docs
 weight: 130
 url: /tr/net/aspose.words.fields/fieldoptions/fieldupdatingprogresscallback/
@@ -18,7 +20,5 @@ public IFieldUpdatingProgressCallback FieldUpdatingProgressCallback { get; set; 
 
 * interface [IFieldUpdatingProgressCallback](../../ifieldupdatingprogresscallback/)
 * class [FieldOptions](../)
-* ad alanı [Aspose.Words.Fields](../../fieldoptions/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

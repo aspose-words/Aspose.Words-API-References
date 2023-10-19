@@ -1,7 +1,9 @@
 ---
 title: PageSetup.ChapterPageSeparator
-second_title: Aspose.Words for .NET API Referansı
-description: PageSetup mülk. Bölüm numarası ile sayfa numarası arasında görünen ayırıcı karakteri alır veya ayarlar.
+linktitle: ChapterPageSeparator
+articleTitle: ChapterPageSeparator
+second_title: Aspose.Words for .NET
+description: PageSetup ChapterPageSeparator mülk. Bölüm numarası ile sayfa numarası arasında görünen ayırıcı karakteri alır veya ayarlar C#'da.
 type: docs
 weight: 90
 url: /tr/net/aspose.words/pagesetup/chapterpageseparator/
@@ -14,11 +16,11 @@ Bölüm numarası ile sayfa numarası arasında görünen ayırıcı karakteri a
 public ChapterPageSeparator ChapterPageSeparator { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bölüm numaralarını içeren sayfa numaralarını oluşturabilmeniz için, belge başlıklarına numaralı anahat biçiminin uygulanması gerekir.
 
-### Örnekler
+## Örnekler
 
 Sayfa bölümleriyle nasıl çalışılacağını gösterir.
 
@@ -36,7 +38,5 @@ pageSetup.HeadingLevelForChapter = 1;
 
 * enum [ChapterPageSeparator](../../chapterpageseparator/)
 * class [PageSetup](../)
-* ad alanı [Aspose.Words](../../pagesetup/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

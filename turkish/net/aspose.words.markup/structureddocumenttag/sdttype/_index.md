@@ -1,20 +1,22 @@
 ---
 title: StructuredDocumentTag.SdtType
-second_title: Aspose.Words for .NET API Referansı
-description: StructuredDocumentTag mülk. Bunun türünü alır Yapılandırılmış belge etiketi .
+linktitle: SdtType
+articleTitle: SdtType
+second_title: Aspose.Words for .NET
+description: StructuredDocumentTag SdtType mülk. Bunun türünü alırYapılandırılmış belge etiketi  C#'da.
 type: docs
 weight: 250
 url: /tr/net/aspose.words.markup/structureddocumenttag/sdttype/
 ---
 ## StructuredDocumentTag.SdtType property
 
-Bunun türünü alır **Yapılandırılmış belge etiketi** .
+Bunun türünü alır**Yapılandırılmış belge etiketi** .
 
 ```csharp
 public SdtType SdtType { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Yapılandırılmış belge etiketi türünün nasıl alınacağını gösterir.
 
@@ -33,7 +35,5 @@ Assert.AreEqual(SdtType.RichText, tags[2].SdtType);
 
 * enum [SdtType](../../sdttype/)
 * class [StructuredDocumentTag](../)
-* ad alanı [Aspose.Words.Markup](../../structureddocumenttag/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: IResourceLoadingCallback.ResourceLoading
-second_title: Aspose.Words for .NET API Referansı
-description: IResourceLoadingCallback yöntem. Aspose.Words herhangi bir harici kaynağı yüklediğinde çağrılır.
+linktitle: ResourceLoading
+articleTitle: ResourceLoading
+second_title: Aspose.Words for .NET
+description: IResourceLoadingCallback ResourceLoading yöntem. Aspose.Words herhangi bir harici kaynağı yüklediğinde çağrılır C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.loading/iresourceloadingcallback/resourceloading/
@@ -14,7 +16,7 @@ Aspose.Words herhangi bir harici kaynağı yüklediğinde çağrılır.
 public ResourceLoadingAction ResourceLoading(ResourceLoadingArgs args)
 ```
 
-### Örnekler
+## Örnekler
 
 Dış kaynakları bir belgeye yükleme işleminin nasıl özelleştirileceğini gösterir.
 
@@ -79,7 +81,5 @@ private class ImageNameHandler : IResourceLoadingCallback
 * enum [ResourceLoadingAction](../../resourceloadingaction/)
 * class [ResourceLoadingArgs](../../resourceloadingargs/)
 * interface [IResourceLoadingCallback](../)
-* ad alanı [Aspose.Words.Loading](../../iresourceloadingcallback/)
+* ad alanı [Aspose.Words.Loading](../../../aspose.words.loading/)
 * toplantı [Aspose.Words](../../../)
-
-

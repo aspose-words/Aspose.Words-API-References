@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.Vertical
-second_title: Aspose.Words for .NET API Referansı
-description: BorderCollection mülk. Hücreler arasında kullanılan dikey kenarlığı alır.
+linktitle: Vertical
+articleTitle: Vertical
+second_title: Aspose.Words for .NET
+description: BorderCollection Vertical mülk. Hücreler arasında kullanılan dikey kenarlığı alır C#'da.
 type: docs
 weight: 130
 url: /tr/net/aspose.words/bordercollection/vertical/
@@ -14,7 +16,7 @@ Hücreler arasında kullanılan dikey kenarlığı alır.
 public Border Vertical { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Ayarların dikey kenarlıklara bir tablo satırı biçimine nasıl uygulanacağını gösterir.
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "Border.VerticalBorders.docx");
 
 * class [Border](../../border/)
 * class [BorderCollection](../)
-* ad alanı [Aspose.Words](../../bordercollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

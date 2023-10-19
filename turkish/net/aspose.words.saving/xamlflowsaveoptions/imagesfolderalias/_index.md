@@ -1,7 +1,9 @@
 ---
 title: XamlFlowSaveOptions.ImagesFolderAlias
-second_title: Aspose.Words for .NET API Referansı
-description: XamlFlowSaveOptions mülk. Bir XAML belgesine yazılan görüntü URIlerini oluşturmak için kullanılan klasörün adını belirtir. Varsayılan boş bir dizedir.
+linktitle: ImagesFolderAlias
+articleTitle: ImagesFolderAlias
+second_title: Aspose.Words for .NET
+description: XamlFlowSaveOptions ImagesFolderAlias mülk. Bir XAML belgesine yazılan görüntü URIlerini oluşturmak için kullanılan klasörün adını belirtir. Varsayılan boş bir dizedir C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.saving/xamlflowsaveoptions/imagesfolderalias/
@@ -14,7 +16,7 @@ Bir XAML belgesine yazılan görüntü URI'lerini oluşturmak için kullanılan 
 public string ImagesFolderAlias { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bir kaydettiğinizde[`Document`](../../../aspose.words/document/) XAML formatında Aspose.Words'ün belgeye gömülü tüm görsellerini bağımsız dosyalar olarak kaydetmesi gerekir.[`ImagesFolder`](../imagesfolder/) görüntülerin nereye kaydedileceğini belirtmenize ve`ImagesFolderAlias` , görüntü URI'lerinin nasıl oluşturulacağını belirtmeye olanak tanır.
 
@@ -24,7 +26,7 @@ Eğer`ImagesFolderAlias`boş bir dize ise, XAML'ye yazılan görüntü URI'si ş
 
 Eğer`ImagesFolderAlias` ayarlandı '.' (nokta), ardından görüntü dosyası adı, diğer seçeneklerden bağımsız olarak XAML'ye yol olmadan yazılacaktır.
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi akış formu .xaml'e dönüştürürken oluşturulan bağlantılı görüntülerin dosya adlarının nasıl yazdırılacağını gösterir.
 
@@ -90,7 +92,5 @@ private class ImageUriPrinter : IImageSavingCallback
 ### Ayrıca bakınız
 
 * class [XamlFlowSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../xamlflowsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum TextureIndex
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.TextureIndex Sıralama. Gölgeleme dokusunu belirtir.
+title: TextureIndex Enum
+linktitle: TextureIndex
+articleTitle: TextureIndex
+second_title: Aspose.Words for .NET
+description: Aspose.Words.TextureIndex Sıralama. Gölgeleme dokusunu belirtir C#'da.
 type: docs
 weight: 6450
 url: /tr/net/aspose.words/textureindex/
@@ -73,7 +75,7 @@ public enum TextureIndex
 | TextureVertical | `21` |  |
 | TextureNil | `65535` | Mevcut gölgeli bölge üzerinde herhangi bir desen kullanılmayacağını belirtir (yani desen, arka plan rengiyle tam bir dolgu olacaktır). |
 
-### Örnekler
+## Örnekler
 
 Metnin kenarlıklar ve gölgelendirmeyle nasıl süsleneceğini gösterir.
 
@@ -126,5 +128,3 @@ doc.Save(ArtifactsDir + "Table.SetOutlineBorders.docx");
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

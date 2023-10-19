@@ -1,12 +1,14 @@
 ---
-title: Comment.Comment
-second_title: Aspose.Words for .NET API Referansı
-description: Comment inşaatçı. Yeni bir örneğini başlatırComment class.
+title: Comment
+linktitle: Comment
+articleTitle: Comment
+second_title: Aspose.Words for .NET
+description: Comment inşaatçı. Yeni bir örneğini başlatırComment class C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/comment/comment/
 ---
-## Comment(DocumentBase) {#constructor}
+## Comment(*[DocumentBase](../../documentbase/)*) {#constructor}
 
 Yeni bir örneğini başlatır[`Comment`](../) class.
 
@@ -18,15 +20,15 @@ public Comment(DocumentBase doc)
 | --- | --- | --- |
 | doc | DocumentBase | Sahibi belgesi. |
 
-### Notlar
+## Notlar
 
 Ne zaman[`Comment`](../) oluşturulduysa, belirtilen belgeye aittir ancak henüz değildir ve belgenin bir parçası değildir ve[`ParentNode`](../../node/parentnode/) dır-dir`hükümsüz`.
 
-Eklemek[`Comment`](../) belge kullanımınaNode) veyaNode) Yorumun eklenmesini istediğiniz paragrafta .
+Eklemek[`Comment`](../) belge kullanımına[`InsertAfter`](../../compositenode/insertafter/) veya[`InsertBefore`](../../compositenode/insertbefore/) Yorumun eklenmesini istediğiniz paragrafta .
 
 Yorum oluşturduktan sonra yorumunu ayarlamayı unutmayın.[`Author`](../author/) , [`Initial`](../initial/) Ve[`DateTime`](../datetime/) özellikler.
 
-### Örnekler
+## Örnekler
 
 Bir belge ziyaretçisi kullanılarak tüm yorumların içeriğinin ve yorum aralıklarının nasıl yazdırıldığını gösterir.
 
@@ -188,12 +190,12 @@ public class CommentInfoPrinter : DocumentVisitor
 
 * class [DocumentBase](../../documentbase/)
 * class [Comment](../)
-* ad alanı [Aspose.Words](../../comment/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## Comment(DocumentBase, string, string, DateTime) {#constructor_1}
+## Comment(*[DocumentBase](../../documentbase/), string, string, DateTime*) {#constructor_1}
 
 Yeni bir örneğini başlatır[`Comment`](../) class.
 
@@ -208,7 +210,7 @@ public Comment(DocumentBase doc, string author, string initial, DateTime dateTim
 | initial | String | Yorumun yazarının baş harfleri. Olamaz`hükümsüz`. |
 | dateTime | DateTime | Yorumun tarihi ve saati. |
 
-### Örnekler
+## Örnekler
 
 Bir paragrafa nasıl yorum ekleneceğini gösterir.
 
@@ -232,7 +234,5 @@ doc.Save(ArtifactsDir + "InlineStory.AddComment.docx");
 
 * class [DocumentBase](../../documentbase/)
 * class [Comment](../)
-* ad alanı [Aspose.Words](../../comment/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum ParagraphAlignment
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.ParagraphAlignment Sıralama. Bir paragraftaki metin hizalamasını belirtir.
+title: ParagraphAlignment Enum
+linktitle: ParagraphAlignment
+articleTitle: ParagraphAlignment
+second_title: Aspose.Words for .NET
+description: Aspose.Words.ParagraphAlignment Sıralama. Bir paragraftaki metin hizalamasını belirtir C#'da.
 type: docs
 weight: 4400
 url: /tr/net/aspose.words/paragraphalignment/
@@ -29,7 +31,7 @@ public enum ParagraphAlignment
 | ThaiDistributed | `9` | Yalnızca Tay dili. Metin Tay dili için bir optimizasyonla iki yana yaslanmıştır. |
 | MathElementCenterAsGroup | `10` | Bir satırdaki 'Grup Olarak Ortalanmış' olarak hizalanan tek Matematik öğesi. |
 
-### Örnekler
+## Örnekler
 
 Aspose.Words belgesinin elle nasıl oluşturulacağını gösterir.
 
@@ -80,5 +82,3 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

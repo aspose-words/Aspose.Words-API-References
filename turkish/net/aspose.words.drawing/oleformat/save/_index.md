@@ -1,12 +1,14 @@
 ---
 title: OleFormat.Save
-second_title: Aspose.Words for .NET API Referansı
-description: OleFormat yöntem. Gömülü nesnenin verilerini belirtilen akışa kaydeder.
+linktitle: Save
+articleTitle: Save
+second_title: Aspose.Words for .NET
+description: OleFormat Save yöntem. Gömülü nesnenin verilerini belirtilen akışa kaydeder C#'da.
 type: docs
 weight: 160
 url: /tr/net/aspose.words.drawing/oleformat/save/
 ---
-## Save(Stream) {#save}
+## Save(*Stream*) {#save}
 
 Gömülü nesnenin verilerini belirtilen akışa kaydeder.
 
@@ -24,11 +26,11 @@ public void Save(Stream stream)
 | --- | --- |
 | InvalidOperationException | Bağlantılı bir nesneyi kaydetmeye çalışırsanız fırlatılır. |
 
-### Notlar
+## Notlar
 
 Akışın imha edilmesi arayanın sorumluluğundadır.
 
-### Örnekler
+## Örnekler
 
 Katıştırılmış OLE nesnelerinin dosyalara nasıl çıkartılacağını gösterir.
 
@@ -63,12 +65,12 @@ oleFormat.Save(ArtifactsDir + "OLE spreadsheet saved directly" + oleFormat.Sugge
 ### Ayrıca bakınız
 
 * class [OleFormat](../)
-* ad alanı [Aspose.Words.Drawing](../../oleformat/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## Save(string) {#save_1}
+## Save(*string*) {#save_1}
 
 Gömülü nesnenin verilerini belirtilen adda bir dosyaya kaydeder.
 
@@ -86,7 +88,7 @@ public void Save(string fileName)
 | --- | --- |
 | InvalidOperationException | Bağlantılı bir nesneyi kaydetmeye çalışırsanız fırlatılır. |
 
-### Örnekler
+## Örnekler
 
 Katıştırılmış OLE nesnelerinin dosyalara nasıl çıkartılacağını gösterir.
 
@@ -121,7 +123,5 @@ oleFormat.Save(ArtifactsDir + "OLE spreadsheet saved directly" + oleFormat.Sugge
 ### Ayrıca bakınız
 
 * class [OleFormat](../)
-* ad alanı [Aspose.Words.Drawing](../../oleformat/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitOfficeMathStart
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentVisitor yöntem. Bir Office Math nesnesinin numaralandırılması başlatıldığında çağrılır.
+linktitle: VisitOfficeMathStart
+articleTitle: VisitOfficeMathStart
+second_title: Aspose.Words for .NET
+description: DocumentVisitor VisitOfficeMathStart yöntem. Bir Office Math nesnesinin numaralandırılması başlatıldığında çağrılır C#'da.
 type: docs
 weight: 310
 url: /tr/net/aspose.words/documentvisitor/visitofficemathstart/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitOfficeMathStart(OfficeMath officeMath)
 
 A[`VisitorAction`](../../visitoraction/) numaralandırmaya nasıl devam edileceğini belirten değer.
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki her ofis matematik düğümünün düğüm yapısının nasıl yazdırılacağını gösterir.
 
@@ -116,7 +118,5 @@ public class OfficeMathStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [OfficeMath](../../../aspose.words.math/officemath/)
 * class [DocumentVisitor](../)
-* ad alanı [Aspose.Words](../../documentvisitor/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

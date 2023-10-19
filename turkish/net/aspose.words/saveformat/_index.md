@@ -1,7 +1,9 @@
 ---
-title: Enum SaveFormat
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.SaveFormat Sıralama. Belgenin kaydedildiği biçimi belirtir.
+title: SaveFormat Enum
+linktitle: SaveFormat
+articleTitle: SaveFormat
+second_title: Aspose.Words for .NET
+description: Aspose.Words.SaveFormat Sıralama. Belgenin kaydedildiği biçimi belirtir C#'da.
 type: docs
 weight: 4840
 url: /tr/net/aspose.words/saveformat/
@@ -59,7 +61,7 @@ public enum SaveFormat
 | Gif | `105` | Belgenin bir sayfasını oluşturur ve GIF dosyası olarak kaydeder. |
 | Eps | `106` | Belgenin bir sayfasını oluşturur ve bunu bir EPS dosyası olarak kaydeder. |
 
-### Örnekler
+## Örnekler
 
 DOCX'ten HTML biçimine nasıl dönüştürüleceğini gösterir.
 
@@ -75,5 +77,3 @@ doc.Save(ArtifactsDir + "Document.ConvertToHtml.html", SaveFormat.Html);
 * class [SaveOptions](../../aspose.words.saving/saveoptions/)
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

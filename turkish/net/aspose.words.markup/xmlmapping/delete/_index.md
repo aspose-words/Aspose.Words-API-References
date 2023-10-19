@@ -1,7 +1,9 @@
 ---
 title: XmlMapping.Delete
-second_title: Aspose.Words for .NET API Referansı
-description: XmlMapping yöntem. Ana yapılandırılmış belgenin XML verileriyle eşlenmesini siler.
+linktitle: Delete
+articleTitle: Delete
+second_title: Aspose.Words for .NET
+description: XmlMapping Delete yöntem. Ana yapılandırılmış belgenin XML verileriyle eşlenmesini siler C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.markup/xmlmapping/delete/
@@ -14,7 +16,7 @@ Ana yapılandırılmış belgenin XML verileriyle eşlenmesini siler.
 public void Delete()
 ```
 
-### Örnekler
+## Örnekler
 
 Özel XML parçaları için XML eşlemelerinin nasıl ayarlanacağını gösterir.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.XmlMapping.docx");
 ### Ayrıca bakınız
 
 * class [XmlMapping](../)
-* ad alanı [Aspose.Words.Markup](../../xmlmapping/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FontInfoCollection.Count
-second_title: Aspose.Words for .NET API Referansı
-description: FontInfoCollection mülk. Koleksiyonda yer alan öğelerin sayısını alır.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words for .NET
+description: FontInfoCollection Count mülk. Koleksiyonda yer alan öğelerin sayısını alır C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fonts/fontinfocollection/count/
@@ -14,7 +16,7 @@ Koleksiyonda yer alan öğelerin sayısını alır.
 public int Count { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Boş belgede bulunan yazı tipleri hakkındaki bilgileri gösterir.
 
@@ -35,7 +37,5 @@ Assert.True(doc.FontInfos.Contains("Arial"));
 ### Ayrıca bakınız
 
 * class [FontInfoCollection](../)
-* ad alanı [Aspose.Words.Fonts](../../fontinfocollection/)
+* ad alanı [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../../)
-
-

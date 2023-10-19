@@ -1,7 +1,9 @@
 ---
 title: XlsxSaveOptions.SaveFormat
-second_title: Aspose.Words for .NET API Referansı
-description: XlsxSaveOptions mülk. Bu kaydetme seçenekleri nesnesi kullanılırsa belgenin kaydedileceği biçimi belirtir. YalnızcaXlsx .
+linktitle: SaveFormat
+articleTitle: SaveFormat
+second_title: Aspose.Words for .NET
+description: XlsxSaveOptions SaveFormat mülk. Bu kaydetme seçenekleri nesnesi kullanılırsa belgenin kaydedileceği biçimi belirtir. YalnızcaXlsx  C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.saving/xlsxsaveoptions/saveformat/
@@ -18,7 +20,5 @@ public override SaveFormat SaveFormat { get; set; }
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [XlsxSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../xlsxsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

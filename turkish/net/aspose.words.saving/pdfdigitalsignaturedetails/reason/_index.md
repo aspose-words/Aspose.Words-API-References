@@ -1,7 +1,9 @@
 ---
 title: PdfDigitalSignatureDetails.Reason
-second_title: Aspose.Words for .NET API Referansı
-description: PdfDigitalSignatureDetails mülk. İmzalama nedenini alır veya ayarlar.
+linktitle: Reason
+articleTitle: Reason
+second_title: Aspose.Words for .NET
+description: PdfDigitalSignatureDetails Reason mülk. İmzalama nedenini alır veya ayarlar C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.saving/pdfdigitalsignaturedetails/reason/
@@ -14,11 +16,11 @@ url: /tr/net/aspose.words.saving/pdfdigitalsignaturedetails/reason/
 public string Reason { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:`hükümsüz` .
 
-### Örnekler
+## Örnekler
 
 Oluşturulan bir PDF belgesinin nasıl imzalanacağını gösterir.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 ### Ayrıca bakınız
 
 * class [PdfDigitalSignatureDetails](../)
-* ad alanı [Aspose.Words.Saving](../../pdfdigitalsignaturedetails/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

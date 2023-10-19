@@ -1,7 +1,9 @@
 ---
 title: PageSetup.FootnoteOptions
-second_title: Aspose.Words for .NET API Referansı
-description: PageSetup mülk. Bu bölümdeki dipnotların numaralandırılmasını ve konumlandırılmasını kontrol eden seçenekler sunar.
+linktitle: FootnoteOptions
+articleTitle: FootnoteOptions
+second_title: Aspose.Words for .NET
+description: PageSetup FootnoteOptions mülk. Bu bölümdeki dipnotların numaralandırılmasını ve konumlandırılmasını kontrol eden seçenekler sunar C#'da.
 type: docs
 weight: 150
 url: /tr/net/aspose.words/pagesetup/footnoteoptions/
@@ -14,7 +16,7 @@ Bu bölümdeki dipnotların numaralandırılmasını ve konumlandırılmasını 
 public FootnoteOptions FootnoteOptions { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir bölümdeki dipnotları/sonnotları etkileyen seçeneklerin nasıl yapılandırılacağını gösterir.
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "PageSetup.FootnoteOptions.docx");
 
 * class [FootnoteOptions](../../../aspose.words.notes/footnoteoptions/)
 * class [PageSetup](../)
-* ad alanı [Aspose.Words](../../pagesetup/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

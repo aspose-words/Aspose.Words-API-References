@@ -1,7 +1,9 @@
 ---
-title: Enum MergeFieldImageDimensionUnit
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Fields.MergeFieldImageDimensionUnit Sıralama. Adresmektup birleştirme işleminde kullanılan görüntü boyutunun birimini yani genişlik veya yükseklik belirtir.
+title: MergeFieldImageDimensionUnit Enum
+linktitle: MergeFieldImageDimensionUnit
+articleTitle: MergeFieldImageDimensionUnit
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Fields.MergeFieldImageDimensionUnit Sıralama. Adresmektup birleştirme işleminde kullanılan görüntü boyutunun birimini yani genişlik veya yükseklik belirtir C#'da.
 type: docs
 weight: 2760
 url: /tr/net/aspose.words.fields/mergefieldimagedimensionunit/
@@ -21,7 +23,7 @@ public enum MergeFieldImageDimensionUnit
 | Point | `0` | Nokta (yani 1/72 inç). |
 | Percent | `1` | Orijinal resim boyut değerinin yüzdesi. |
 
-### Örnekler
+## Örnekler
 
 Adres-mektup birleştirme sırasında MERGEFIELDS'in kabul ettiği görüntülerin boyutlarının nasıl ayarlanacağını gösterir.
 
@@ -92,5 +94,3 @@ private class MergedImageResizer : IFieldMergingCallback
 
 * ad alanı [Aspose.Words.Fields](../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../)
-
-

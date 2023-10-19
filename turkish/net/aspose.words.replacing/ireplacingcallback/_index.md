@@ -1,7 +1,9 @@
 ---
-title: Interface IReplacingCallback
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Replacing.IReplacingCallback arayüz. Bul ve değiştir işlemi sırasında kendi özel yönteminizin çağrılmasını istiyorsanız bu arayüzü uygulayın.
+title: IReplacingCallback Interface
+linktitle: IReplacingCallback
+articleTitle: IReplacingCallback
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Replacing.IReplacingCallback arayüz. Bul ve değiştir işlemi sırasında kendi özel yönteminizin çağrılmasını istiyorsanız bu arayüzü uygulayın C#'da.
 type: docs
 weight: 4630
 url: /tr/net/aspose.words.replacing/ireplacingcallback/
@@ -18,9 +20,9 @@ public interface IReplacingCallback
 
 | İsim | Tanım |
 | --- | --- |
-| [Replacing](../../aspose.words.replacing/ireplacingcallback/replacing/)(ReplacingArgs) | Değiştirme işlemi sırasında, değiştirme yapılmadan hemen önce bulunan her eşleşme için çağrılan, kullanıcı tanımlı bir yöntem. |
+| [Replacing](../../aspose.words.replacing/ireplacingcallback/replacing/)(*[ReplacingArgs](../replacingargs/)*) | Değiştirme işlemi sırasında, değiştirme yapılmadan hemen önce bulunan her eşleşme için çağrılan, kullanıcı tanımlı bir yöntem. |
 
-### Örnekler
+## Örnekler
 
 Tüm bu değiştirmeleri izlerken, düzenli ifade modelinin tüm oluşumlarının başka bir dizeyle nasıl değiştirileceğini gösterir.
 
@@ -196,5 +198,3 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
 
 * ad alanı [Aspose.Words.Replacing](../../aspose.words.replacing/)
 * toplantı [Aspose.Words](../../)
-
-

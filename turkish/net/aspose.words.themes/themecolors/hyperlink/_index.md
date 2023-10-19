@@ -1,7 +1,9 @@
 ---
 title: ThemeColors.Hyperlink
-second_title: Aspose.Words for .NET API Referansı
-description: ThemeColors mülk. Köprünün rengini belirtir.
+linktitle: Hyperlink
+articleTitle: Hyperlink
+second_title: Aspose.Words for .NET
+description: ThemeColors Hyperlink mülk. Köprünün rengini belirtir C#'da.
 type: docs
 weight: 100
 url: /tr/net/aspose.words.themes/themecolors/hyperlink/
@@ -14,7 +16,7 @@ Köprünün rengini belirtir.
 public Color Hyperlink { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Temalar için özel renklerin ve yazı tiplerinin nasıl ayarlanacağını gösterir.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 ### Ayrıca bakınız
 
 * class [ThemeColors](../)
-* ad alanı [Aspose.Words.Themes](../../themecolors/)
+* ad alanı [Aspose.Words.Themes](../../../aspose.words.themes/)
 * toplantı [Aspose.Words](../../../)
-
-

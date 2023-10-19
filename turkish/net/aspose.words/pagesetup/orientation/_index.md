@@ -1,7 +1,9 @@
 ---
 title: PageSetup.Orientation
-second_title: Aspose.Words for .NET API Referansı
-description: PageSetup mülk. Sayfanın yönünü döndürür veya ayarlar.
+linktitle: Orientation
+articleTitle: Orientation
+second_title: Aspose.Words for .NET
+description: PageSetup Orientation mülk. Sayfanın yönünü döndürür veya ayarlar C#'da.
 type: docs
 weight: 290
 url: /tr/net/aspose.words/pagesetup/orientation/
@@ -14,11 +16,11 @@ Sayfanın yönünü döndürür veya ayarlar.
 public Orientation Orientation { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Değiştirme`Orientation` takaslar[`PageWidth`](../pagewidth/) Ve[`PageHeight`](../pageheight/).
 
-### Örnekler
+## Örnekler
 
 Bir bölüm için kağıt boyutunun, yönünün, kenar boşluklarının ve diğer ayarların nasıl ayarlanacağını gösterir.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "PageSetup.ClearFormatting.docx");
 
 * enum [Orientation](../../orientation/)
 * class [PageSetup](../)
-* ad alanı [Aspose.Words](../../pagesetup/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

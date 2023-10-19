@@ -1,7 +1,9 @@
 ---
-title: Class ImportFormatOptions
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.ImportFormatOptions sınıf. Çıktıyı biçimlendirmek için çeşitli içe aktarma seçeneklerinin belirtilmesine olanak tanır.
+title: ImportFormatOptions Class
+linktitle: ImportFormatOptions
+articleTitle: ImportFormatOptions
+second_title: Aspose.Words for .NET
+description: Aspose.Words.ImportFormatOptions sınıf. Çıktıyı biçimlendirmek için çeşitli içe aktarma seçeneklerinin belirtilmesine olanak tanır C#'da.
 type: docs
 weight: 3240
 url: /tr/net/aspose.words/importformatoptions/
@@ -34,7 +36,7 @@ public class ImportFormatOptions
 | [MergePastedLists](../../aspose.words/importformatoptions/mergepastedlists/) { get; set; } | Yapıştırılan listelerin çevresindeki listelerle birleştirilip birleştirilmeyeceğini belirten bir boole değeri alır veya ayarlar. Varsayılan değer:`YANLIŞ` . |
 | [SmartStyleBehavior](../../aspose.words/importformatoptions/smartstylebehavior/) { get; set; } | Kaynak ve hedef belgelerde eşit adlara sahip olduklarında stillerin nasıl içe aktarılacağını belirten bir boole değeri alır veya ayarlar . Varsayılan değer:`YANLIŞ` . |
 
-### Örnekler
+## Örnekler
 
 Belgeleri eklerken yinelenen stillerin nasıl çözüleceğini gösterir.
 
@@ -70,5 +72,3 @@ dstDoc.Save(ArtifactsDir + "DocumentBuilder.SmartStyleBehavior.docx");
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

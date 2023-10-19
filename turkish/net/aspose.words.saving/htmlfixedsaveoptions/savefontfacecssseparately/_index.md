@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.SaveFontFaceCssSeparately
-second_title: Aspose.Words for .NET API Referansı
-description: HtmlFixedSaveOptions mülk. Bayrak bir belge harici stil sayfasıyla kaydedilirken fontface CSS kurallarının ayrı bir fontFaces.css dosyasına yerleştirilmesi gerekip gerekmediğini belirtir yaniExportEmbeddedCss YANLIŞ . Varsayılan değerYANLIŞ  tüm CSS kuralları tek bir styles.css dosyasına yazılır.
+linktitle: SaveFontFaceCssSeparately
+articleTitle: SaveFontFaceCssSeparately
+second_title: Aspose.Words for .NET
+description: HtmlFixedSaveOptions SaveFontFaceCssSeparately mülk. Bayrak bir belge harici stil sayfasıyla kaydedilirken fontface CSS kurallarının ayrı bir fontFaces.css dosyasına yerleştirilmesi gerekip gerekmediğini belirtir yaniExportEmbeddedCss YANLIŞ . Varsayılan değerYANLIŞ  tüm CSS kuralları tek bir styles.css dosyasına yazılır C#'da.
 type: docs
 weight: 160
 url: /tr/net/aspose.words.saving/htmlfixedsaveoptions/savefontfacecssseparately/
@@ -14,11 +16,11 @@ Bayrak, bir belge harici stil sayfasıyla kaydedilirken "@font-face" CSS kuralla
 public bool SaveFontFaceCssSeparately { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özelliği şuna ayarlıyoruz:`doğru` eski kodla uyumluluk için eski davranışı (ayrı dosyalar) geri yükler.
 
-### Örnekler
+## Örnekler
 
 CSS'nin ayrı bir dosyaya nasıl yerleştirileceğini ve tüm CSS sınıfı adlarına nasıl önek ekleneceğini gösterir.
 
@@ -50,7 +52,5 @@ Assert.True(Regex.Match(outDocContents,
 ### Ayrıca bakınız
 
 * class [HtmlFixedSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

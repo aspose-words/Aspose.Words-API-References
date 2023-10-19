@@ -1,7 +1,9 @@
 ---
 title: OleFormat.OleIcon
-second_title: Aspose.Words for .NET API Referansı
-description: OleFormat mülk. OLE nesnesinin çizim yönünü alır. Ne zamandoğru OLE nesnesi bir simge olarak görüntülenir. Ne zamanYANLIŞ OLE nesnesi content. olarak görüntülenir.
+linktitle: OleIcon
+articleTitle: OleIcon
+second_title: Aspose.Words for .NET
+description: OleFormat OleIcon mülk. OLE nesnesinin çizim yönünü alır. Ne zamandoğru OLE nesnesi bir simge olarak görüntülenir. Ne zamanYANLIŞ OLE nesnesi content. olarak görüntülenir C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.drawing/oleformat/oleicon/
@@ -14,11 +16,11 @@ OLE nesnesinin çizim yönünü alır. Ne zaman`doğru` OLE nesnesi bir simge ol
 public bool OleIcon { get; }
 ```
 
-### Notlar
+## Notlar
 
 Aspose.Words karışıklığı önlemek için bu özelliğin ayarlanmasına izin vermez. Aspose.Words'de çizim boyutunu değiştirebilseydiniz , Microsoft Word, siz Microsoft Word'de OLE nesnesini düzenleyene veya güncelleyene kadar OLE nesnesini orijinal çizim boyutunda görüntülemeye devam ederdi.
 
-### Örnekler
+## Örnekler
 
 Bağlı ve bağlantısız OLE nesnelerinin nasıl ekleneceğini gösterir.
 
@@ -68,7 +70,5 @@ using (MemoryStream stream = oleFormat.GetOleEntry("\x0001CompObj"))
 ### Ayrıca bakınız
 
 * class [OleFormat](../)
-* ad alanı [Aspose.Words.Drawing](../../oleformat/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

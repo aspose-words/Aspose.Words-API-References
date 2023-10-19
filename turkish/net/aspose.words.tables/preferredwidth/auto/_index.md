@@ -1,7 +1,9 @@
 ---
 title: PreferredWidth.Auto
-second_title: Aspose.Words for .NET API Referansı
-description: PreferredWidth alan. Tercih edilen genişlik belirtilmedi değerini temsil eden bir örneği döndürür.
+linktitle: Auto
+articleTitle: Auto
+second_title: Aspose.Words for .NET
+description: PreferredWidth Auto alan. Tercih edilen genişlik belirtilmedi değerini temsil eden bir örneği döndürür C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.tables/preferredwidth/auto/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.tables/preferredwidth/auto/
 public static readonly PreferredWidth Auto;
 ```
 
-### Örnekler
+## Örnekler
 
 Tablo hücreleri için tercih edilen genişliğin nasıl ayarlanacağını gösterir.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCellsWithPreferredWidths.docx");
 ### Ayrıca bakınız
 
 * class [PreferredWidth](../)
-* ad alanı [Aspose.Words.Tables](../../preferredwidth/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

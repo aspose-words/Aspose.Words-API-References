@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.MainDocumentType
-second_title: Aspose.Words for .NET API Referansı
-description: MailMergeSettings mülk. Adresmektup birleştirme ana belge türünü belirtir. Varsayılan değerDefault .
+linktitle: MainDocumentType
+articleTitle: MainDocumentType
+second_title: Aspose.Words for .NET
+description: MailMergeSettings MainDocumentType mülk. Adresmektup birleştirme ana belge türünü belirtir. Varsayılan değerDefault  C#'da.
 type: docs
 weight: 140
 url: /tr/net/aspose.words.settings/mailmergesettings/maindocumenttype/
@@ -14,11 +16,11 @@ Adres-mektup birleştirme ana belge türünü belirtir. Varsayılan değer:Defau
 public MailMergeMainDocumentType MainDocumentType { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Ana belge, birleştirilmiş belgenin her sürümü için aynı olan bilgileri içeren belgedir.
 
-### Örnekler
+## Örnekler
 
 Bir Office Veri Kaynağı Nesnesinden alınan verilerle adres-mektup birleştirmenin nasıl yürütüleceğini gösterir.
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * enum [MailMergeMainDocumentType](../../mailmergemaindocumenttype/)
 * class [MailMergeSettings](../)
-* ad alanı [Aspose.Words.Settings](../../mailmergesettings/)
+* ad alanı [Aspose.Words.Settings](../../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldMergingArgsBase.Field
-second_title: Aspose.Words for .NET API Referansı
-description: FieldMergingArgsBase mülk. Geçerli birleştirme alanını temsil eden nesneyi alır.
+linktitle: Field
+articleTitle: Field
+second_title: Aspose.Words for .NET
+description: FieldMergingArgsBase Field mülk. Geçerli birleştirme alanını temsil eden nesneyi alır C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.mailmerging/fieldmergingargsbase/field/
@@ -14,7 +16,7 @@ Geçerli birleştirme alanını temsil eden nesneyi alır.
 public FieldMergeField Field { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 HTML belgeleri biçimindeki birleştirme verilerini işleyen özel bir geri çağırma ile adres-mektup birleştirmenin nasıl yürütüleceğini gösterir.
 
@@ -83,7 +85,5 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 
 * class [FieldMergeField](../../../aspose.words.fields/fieldmergefield/)
 * class [FieldMergingArgsBase](../)
-* ad alanı [Aspose.Words.MailMerging](../../fieldmergingargsbase/)
+* ad alanı [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * toplantı [Aspose.Words](../../../)
-
-

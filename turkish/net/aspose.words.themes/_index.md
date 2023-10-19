@@ -1,7 +1,9 @@
 ---
 title: Aspose.Words.Themes
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Themes ad alanı Microsoft Word belgelerindeki tema bilgilerine erişime izin veren sınıflar sağlar.
+linktitle: Aspose.Words.Themes
+articleTitle: Aspose.Words.Themes
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Themes ad alanı Microsoft Word belgelerindeki tema bilgilerine erişime izin veren sınıflar sağlar C#'da.
 type: docs
 weight: 270
 url: /tr/net/aspose.words.themes/
@@ -21,5 +23,3 @@ url: /tr/net/aspose.words.themes/
 | --- | --- |
 | [ThemeColor](./themecolor/) | Belge temaları için tema renklerini belirtir. |
 | [ThemeFont](./themefont/) | Belge temaları için tema yazı tipi adlarının türlerini belirtir. |
-
-

@@ -1,7 +1,9 @@
 ---
 title: GraphicsQualityOptions.UseTileFlipMode
-second_title: Aspose.Words for .NET API Referansı
-description: GraphicsQualityOptions mülk. WrapModeun TileFlipXY olup olmadığını belirten bir bayrağı alır veya ayarlar.
+linktitle: UseTileFlipMode
+articleTitle: UseTileFlipMode
+second_title: Aspose.Words for .NET
+description: GraphicsQualityOptions UseTileFlipMode mülk. WrapModeun TileFlipXY olup olmadığını belirten bir bayrağı alır veya ayarlar C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words.saving/graphicsqualityoptions/usetileflipmode/
@@ -14,7 +16,7 @@ WrapMode'un TileFlipXY olup olmadığını belirten bir bayrağı alır veya aya
 public bool UseTileFlipMode { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 WrapMode doldurulan alandan daha küçük olduğunda bir doku veya degradenin nasıl döşeneceğini belirtir.
 
@@ -22,7 +24,7 @@ Varsayılan olarak kullanımlarTile (çevirmeden döşemeyi belirtir). Bu, ölç
 
 Bu özellik WrapMode'un şu şekilde değiştirilmesine izin verir:TileFlipXY (bir satır boyunca hareket ederken döşemelerin yatay olarak çevrildiğini ve bir sütun boyunca hareket ederken dikey olarak çevrildiğini belirtir).
 
-### Örnekler
+## Örnekler
 
 Yüksek çözünürlükte görüntü oluştururken beyaz çizginin görünmesinin nasıl önleneceğini gösterir.
 
@@ -42,7 +44,5 @@ renderer.Save(ArtifactsDir + "ImageSaveOptions.UseTileFlipMode.png", saveOptions
 ### Ayrıca bakınız
 
 * class [GraphicsQualityOptions](../)
-* ad alanı [Aspose.Words.Saving](../../graphicsqualityoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

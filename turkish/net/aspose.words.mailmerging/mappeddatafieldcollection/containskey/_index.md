@@ -1,7 +1,9 @@
 ---
 title: MappedDataFieldCollection.ContainsKey
-second_title: Aspose.Words for .NET API Referansı
-description: MappedDataFieldCollection yöntem. Koleksiyonda belgede belirtilen alandan bir eşlemenin mevcut olup olmadığını belirler.
+linktitle: ContainsKey
+articleTitle: ContainsKey
+second_title: Aspose.Words for .NET
+description: MappedDataFieldCollection ContainsKey yöntem. Koleksiyonda belgede belirtilen alandan bir eşlemenin mevcut olup olmadığını belirler C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.mailmerging/mappeddatafieldcollection/containskey/
@@ -22,7 +24,7 @@ public bool ContainsKey(string documentFieldName)
 
 `doğru` koleksiyonda öğe bulunursa; aksi takdirde,`YANLIŞ`.
 
-### Örnekler
+## Örnekler
 
 Adres-mektup birleştirme sırasında verilerin aralarında aktarılması için veri sütunlarının ve MERGEFIELD'lerin farklı adlarla nasıl eşleneceğini gösterir.
 
@@ -107,7 +109,5 @@ private static DataTable CreateSourceTableMappedDataFields()
 ### Ayrıca bakınız
 
 * class [MappedDataFieldCollection](../)
-* ad alanı [Aspose.Words.MailMerging](../../mappeddatafieldcollection/)
+* ad alanı [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * toplantı [Aspose.Words](../../../)
-
-

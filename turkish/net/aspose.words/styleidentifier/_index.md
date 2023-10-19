@@ -1,7 +1,9 @@
 ---
-title: Enum StyleIdentifier
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.StyleIdentifier Sıralama. Yerel ayardan bağımsız stil tanımlayıcı.
+title: StyleIdentifier Enum
+linktitle: StyleIdentifier
+articleTitle: StyleIdentifier
+second_title: Aspose.Words for .NET
+description: Aspose.Words.StyleIdentifier Sıralama. Yerel ayardan bağımsız stil tanımlayıcı C#'da.
 type: docs
 weight: 6150
 url: /tr/net/aspose.words/styleidentifier/
@@ -397,13 +399,13 @@ public enum StyleIdentifier
 | User | `4094` | Kullanıcı tanımlı bir stil. |
 | Nil | `12287` | Dahili kullanım için ayrılmıştır. |
 
-### Notlar
+## Notlar
 
 MS Word'deki yerleşik stillerin adları farklı diller için yerelleştirilmiştir. Bir stil tanımlayıcı kullanarak, belgenin dilinden bağımsız olarak doğru stili bulabilirsiniz.
 
 Tüm kullanıcı tanımlı stillereUser değer.
 
-### Örnekler
+## Örnekler
 
 Mevcut metnin stilinin nasıl değiştirileceğini gösterir.
 
@@ -438,5 +440,3 @@ doc.Save(ArtifactsDir + "Font.ChangeStyle.docx");
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

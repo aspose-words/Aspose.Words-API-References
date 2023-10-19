@@ -1,7 +1,9 @@
 ---
 title: HeaderFooter.NodeType
-second_title: Aspose.Words for .NET API Referansı
-description: HeaderFooter mülk. İadelerHeaderFooter .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words for .NET
+description: HeaderFooter NodeType mülk. İadelerHeaderFooter  C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words/headerfooter/nodetype/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words/headerfooter/nodetype/
 public override NodeType NodeType { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bileşik bir düğümün çocukları arasında nasıl yineleme yapılacağını gösterir.
 
@@ -64,7 +66,5 @@ foreach (Node node in section)
 
 * enum [NodeType](../../nodetype/)
 * class [HeaderFooter](../)
-* ad alanı [Aspose.Words](../../headerfooter/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

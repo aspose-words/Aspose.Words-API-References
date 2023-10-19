@@ -1,9 +1,11 @@
 ---
 title: Fill.ForeThemeColor
-second_title: Aspose.Words for .NET API Referansı
-description: Fill mülk. Dolgunun ön plan rengini temsil eden ThemeColor nesnesini alır veya ayarlar.
+linktitle: ForeThemeColor
+articleTitle: ForeThemeColor
+second_title: Aspose.Words for .NET
+description: Fill ForeThemeColor mülk. Dolgunun ön plan rengini temsil eden ThemeColor nesnesini alır veya ayarlar C#'da.
 type: docs
-weight: 80
+weight: 70
 url: /tr/net/aspose.words.drawing/fill/forethemecolor/
 ---
 ## Fill.ForeThemeColor property
@@ -14,7 +16,7 @@ Dolgunun ön plan rengini temsil eden ThemeColor nesnesini alır veya ayarlar.
 public ThemeColor ForeThemeColor { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Ön plan/arka plan şekli rengi için tema renginin nasıl ayarlanacağını gösterir.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Shape.FillThemeColor.docx");
 
 * enum [ThemeColor](../../../aspose.words.themes/themecolor/)
 * class [Fill](../)
-* ad alanı [Aspose.Words.Drawing](../../fill/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

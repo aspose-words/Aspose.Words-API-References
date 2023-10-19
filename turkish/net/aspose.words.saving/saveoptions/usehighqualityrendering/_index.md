@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.UseHighQualityRendering
-second_title: Aspose.Words for .NET API Referansı
-description: SaveOptions mülk. Yüksek kaliteli yani yavaş oluşturma algoritmalarının kullanılıp kullanılmayacağını belirleyen bir değer alır veya ayarlar.
+linktitle: UseHighQualityRendering
+articleTitle: UseHighQualityRendering
+second_title: Aspose.Words for .NET
+description: SaveOptions UseHighQualityRendering mülk. Yüksek kaliteli yani yavaş oluşturma algoritmalarının kullanılıp kullanılmayacağını belirleyen bir değer alır veya ayarlar C#'da.
 type: docs
 weight: 200
 url: /tr/net/aspose.words.saving/saveoptions/usehighqualityrendering/
@@ -14,13 +16,13 @@ Yüksek kaliteli (yani yavaş) oluşturma algoritmalarının kullanılıp kullan
 public bool UseHighQualityRendering { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:`YANLIŞ` .
 
 Bu özellik, belge görüntü formatlarına aktarıldığında kullanılır: Tiff ,Png ,Bmp , Jpeg ,Emf.
 
-### Örnekler
+## Örnekler
 
 İşlenen bir belgenin kalitesinin SaveOptions ile nasıl iyileştirileceğini gösterir.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Document.ImageSaveOptions.HighQuality.jpg", options);
 ### Ayrıca bakınız
 
 * class [SaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../saveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

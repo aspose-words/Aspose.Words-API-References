@@ -1,7 +1,9 @@
 ---
 title: OleFormat.ProgId
-second_title: Aspose.Words for .NET API Referansı
-description: OleFormat mülk. OLE nesnesinin ProgIDsini alır veya ayarlar.
+linktitle: ProgId
+articleTitle: ProgId
+second_title: Aspose.Words for .NET
+description: OleFormat ProgId mülk. OLE nesnesinin ProgIDsini alır veya ayarlar C#'da.
 type: docs
 weight: 90
 url: /tr/net/aspose.words.drawing/oleformat/progid/
@@ -14,7 +16,7 @@ OLE nesnesinin ProgID'sini alır veya ayarlar.
 public string ProgId { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 ProgID özelliği Microsoft Word belgelerinde her zaman mevcut değildir ve bu özelliğe güvenilemez.
 
@@ -22,7 +24,7 @@ Olamaz`hükümsüz`.
 
 Varsayılan değer boş bir dizedir.
 
-### Örnekler
+## Örnekler
 
 Katıştırılmış OLE nesnelerinin dosyalara nasıl çıkartılacağını gösterir.
 
@@ -57,7 +59,5 @@ oleFormat.Save(ArtifactsDir + "OLE spreadsheet saved directly" + oleFormat.Sugge
 ### Ayrıca bakınız
 
 * class [OleFormat](../)
-* ad alanı [Aspose.Words.Drawing](../../oleformat/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

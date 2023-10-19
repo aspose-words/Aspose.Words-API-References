@@ -1,7 +1,9 @@
 ---
 title: NodeCollection.ToArray
-second_title: Aspose.Words for .NET API Referansı
-description: NodeCollection yöntem. Koleksiyondaki tüm düğümleri yeni bir düğüm dizisine kopyalar.
+linktitle: ToArray
+articleTitle: ToArray
+second_title: Aspose.Words for .NET
+description: NodeCollection ToArray yöntem. Koleksiyondaki tüm düğümleri yeni bir düğüm dizisine kopyalar C#'da.
 type: docs
 weight: 110
 url: /tr/net/aspose.words/nodecollection/toarray/
@@ -18,13 +20,13 @@ public Node[] ToArray()
 
 Bir dizi düğüm.
 
-### Notlar
+## Notlar
 
 Yineleyiciyi geçersiz kıldığından ve canlı koleksiyonlar için yenilemeler gerektirdiğinden, düğüm koleksiyonu üzerinde yineleme yaparken düğüm eklememeli/kaldırmamalısınız.
 
 Yineleme sırasında düğümleri ekleyebilmek/kaldırabilmek için, düğümlerini sabit boyutlu bir diziye kopyalamak ve ardından dizi üzerinde yineleme yapmak için bu yöntemi kullanın.
 
-### Örnekler
+## Örnekler
 
 Tüm metin kutusu şekillerinin görüntü şekilleriyle nasıl değiştirileceğini gösterir.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Shape.ReplaceTextboxesWithImages.docx");
 
 * class [Node](../../node/)
 * class [NodeCollection](../)
-* ad alanı [Aspose.Words](../../nodecollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

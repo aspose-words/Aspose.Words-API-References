@@ -1,7 +1,9 @@
 ---
-title: Enum LineSpacingRule
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.LineSpacingRule Sıralama. Bir paragraf için satır aralığı değerlerini belirtir.
+title: LineSpacingRule Enum
+linktitle: LineSpacingRule
+articleTitle: LineSpacingRule
+second_title: Aspose.Words for .NET
+description: Aspose.Words.LineSpacingRule Sıralama. Bir paragraf için satır aralığı değerlerini belirtir C#'da.
 type: docs
 weight: 3440
 url: /tr/net/aspose.words/linespacingrule/
@@ -26,5 +28,3 @@ public enum LineSpacingRule
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

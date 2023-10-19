@@ -1,7 +1,9 @@
 ---
 title: ListLevelCollection.Count
-second_title: Aspose.Words for .NET API Referansı
-description: ListLevelCollection mülk. Bu listedeki düzey sayısını alır.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words for .NET
+description: ListLevelCollection Count mülk. Bu listedeki düzey sayısını alır C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.lists/listlevelcollection/count/
@@ -14,11 +16,11 @@ Bu listedeki düzey sayısını alır.
 public int Count { get; }
 ```
 
-### Notlar
+## Notlar
 
 Bir listede 1 veya 9 seviye olabilir.
 
-### Örnekler
+## Örnekler
 
 Liste stilinin nasıl oluşturulacağını ve belgede nasıl kullanılacağını gösterir.
 
@@ -79,7 +81,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateAndUseListStyle.docx");
 ### Ayrıca bakınız
 
 * class [ListLevelCollection](../)
-* ad alanı [Aspose.Words.Lists](../../listlevelcollection/)
+* ad alanı [Aspose.Words.Lists](../../../aspose.words.lists/)
 * toplantı [Aspose.Words](../../../)
-
-

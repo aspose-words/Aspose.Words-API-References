@@ -1,7 +1,9 @@
 ---
 title: BarcodeParameters.IsBookmark
-second_title: Aspose.Words for .NET API Referansı
-description: BarcodeParameters mülk. İsterPostalAddress bir yer iminin adıdır.
+linktitle: IsBookmark
+articleTitle: IsBookmark
+second_title: Aspose.Words for .NET
+description: BarcodeParameters IsBookmark mülk. İsterPostalAddress bir yer iminin adıdır C#'da.
 type: docs
 weight: 120
 url: /tr/net/aspose.words.fields/barcodeparameters/isbookmark/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.fields/barcodeparameters/isbookmark/
 public bool IsBookmark { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Barkod oluşturucunun nasıl kullanılacağını gösterir.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 ### Ayrıca bakınız
 
 * class [BarcodeParameters](../)
-* ad alanı [Aspose.Words.Fields](../../barcodeparameters/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

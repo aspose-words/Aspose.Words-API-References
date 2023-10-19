@@ -1,7 +1,9 @@
 ---
 title: ComparisonEvaluationResult.Result
-second_title: Aspose.Words for .NET API Referansı
-description: ComparisonEvaluationResult mülk. Karşılaştırma değerlendirme sonucunu alır.
+linktitle: Result
+articleTitle: Result
+second_title: Aspose.Words for .NET
+description: ComparisonEvaluationResult Result mülk. Karşılaştırma değerlendirme sonucunu alır C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fields/comparisonevaluationresult/result/
@@ -17,7 +19,5 @@ public bool Result { get; }
 ### Ayrıca bakınız
 
 * class [ComparisonEvaluationResult](../)
-* ad alanı [Aspose.Words.Fields](../../comparisonevaluationresult/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

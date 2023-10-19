@@ -1,7 +1,9 @@
 ---
-title: ImageSaveOptions.ImageSaveOptions
-second_title: Aspose.Words for .NET API Referansı
-description: ImageSaveOptions inşaatçı. Oluşturulan görüntüleri the ye kaydetmek için kullanılabilecek bu sınıfın yeni bir örneğini başlatır.Tiff Png Bmp  Jpeg Emf Eps veyaSvg format.
+title: ImageSaveOptions
+linktitle: ImageSaveOptions
+articleTitle: ImageSaveOptions
+second_title: Aspose.Words for .NET
+description: ImageSaveOptions inşaatçı. Oluşturulan görüntüleri the ye kaydetmek için kullanılabilecek bu sınıfın yeni bir örneğini başlatır.Tiff Png Bmp  Jpeg Emf Eps veyaSvg format C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.saving/imagesaveoptions/imagesaveoptions/
@@ -18,7 +20,7 @@ public ImageSaveOptions(SaveFormat saveFormat)
 | --- | --- | --- |
 | saveFormat | SaveFormat | olabilirTiff ,Png ,Bmp , Jpeg ,Emf ,Eps veyaSvg format. |
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi JPEG olarak kaydederken sıkıştırmanın nasıl yapılandırılacağını gösterir.
 
@@ -52,7 +54,5 @@ Assert.That(60000, Is.LessThan(new FileInfo(ArtifactsDir + "ImageSaveOptions.Jpe
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [ImageSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../imagesaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

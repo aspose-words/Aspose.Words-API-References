@@ -1,7 +1,9 @@
 ---
 title: Range.NormalizeFieldTypes
-second_title: Aspose.Words for .NET API Referansı
-description: Range yöntem. Alan türü değerlerini değiştirirFieldType ile ilgiliFieldStart FieldSeparator FieldEnd alan kodlarında yer alan alan türlerine karşılık gelecek şekilde bu aralıkta.
+linktitle: NormalizeFieldTypes
+articleTitle: NormalizeFieldTypes
+second_title: Aspose.Words for .NET
+description: Range NormalizeFieldTypes yöntem. Alan türü değerlerini değiştirirFieldType ile ilgiliFieldStart FieldSeparator FieldEnd alan kodlarında yer alan alan türlerine karşılık gelecek şekilde bu aralıkta C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words/range/normalizefieldtypes/
@@ -14,7 +16,7 @@ Alan türü değerlerini değiştirir[`FieldType`](../../../aspose.words.fields/
 public void NormalizeFieldTypes()
 ```
 
-### Notlar
+## Notlar
 
 Alan türlerini etkileyen belge değişikliklerinden sonra bu yöntemi kullanın.
 
@@ -23,7 +25,5 @@ Tüm belgedeki alan türü değerlerini değiştirmek için şunu kullanın:[`No
 ### Ayrıca bakınız
 
 * class [Range](../)
-* ad alanı [Aspose.Words](../../range/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

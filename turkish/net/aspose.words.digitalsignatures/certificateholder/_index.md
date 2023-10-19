@@ -1,14 +1,16 @@
 ---
-title: Class CertificateHolder
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.DigitalSignatures.CertificateHolder sınıf. Sahibini temsil eder X509Sertifika2 örnek.
+title: CertificateHolder Class
+linktitle: CertificateHolder
+articleTitle: CertificateHolder
+second_title: Aspose.Words for .NET
+description: Aspose.Words.DigitalSignatures.CertificateHolder sınıf. Sahibini temsil ederX509Sertifika2 örnek C#'da.
 type: docs
 weight: 370
 url: /tr/net/aspose.words.digitalsignatures/certificateholder/
 ---
 ## CertificateHolder class
 
-Sahibini temsil eder **X509Sertifika2** örnek.
+Sahibini temsil eder**X509Sertifika2** örnek.
 
 Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Dijital İmzalarla Çalışma](https://docs.aspose.com/words/net/working-with-digital-signatures/) dokümantasyon makalesi.
 
@@ -20,22 +22,22 @@ public class CertificateHolder
 
 | İsim | Tanım |
 | --- | --- |
-| [Certificate](../../aspose.words.digitalsignatures/certificateholder/certificate/) { get; } | Örneğini döndürür **X509Sertifika2** özel, genel anahtarları ve sertifika zincirini tutan. |
+| [Certificate](../../aspose.words.digitalsignatures/certificateholder/certificate/) { get; } | Örneğini döndürür**X509Sertifika2** özel, genel anahtarları ve sertifika zincirini tutan. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create)(byte[], SecureString) | Oluşturur`CertificateHolder` PKCS12 deposunun bayt dizisini ve parolasını kullanan nesne. |
-| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create_1)(byte[], string) | Oluşturur`CertificateHolder` PKCS12 deposunun bayt dizisini ve parolasını kullanan nesne. |
-| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create_2)(string, string) | Oluşturur`CertificateHolder` PKCS12 deposunun yolunu ve şifresini kullanan nesne. |
-| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create_3)(string, string, string) | Oluşturur`CertificateHolder` PKCS12 deposunun yolunu, şifresini ve takma adını kullanarak hangi özel anahtar ve sertifikanın bulunacağını kullanan nesne. |
+| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create)(*byte[], SecureString*) | Oluşturur`CertificateHolder` PKCS12 deposunun bayt dizisini ve parolasını kullanan nesne. |
+| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create_1)(*byte[], string*) | Oluşturur`CertificateHolder` PKCS12 deposunun bayt dizisini ve parolasını kullanan nesne. |
+| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create_2)(*string, string*) | Oluşturur`CertificateHolder` PKCS12 deposunun yolunu ve şifresini kullanan nesne. |
+| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create_3)(*string, string, string*) | Oluşturur`CertificateHolder` PKCS12 deposunun yolunu, şifresini ve takma adını kullanarak hangi özel anahtar ve sertifikanın bulunacağını kullanan nesne. |
 
-### Notlar
+## Notlar
 
-`CertificateHolder` yalnızca statik fabrika yöntemleriyle oluşturulabilir. Bir örneğini içerir **X509Sertifika2** sisteme özel, genel anahtarlar ve sertifika zincirlerini tanıtmak için kullanılır. Bu sınıf,[`DigitalSignatureUtil`](../digitalsignatureutil/) Ve[`PdfDigitalSignatureDetails`](../../aspose.words.saving/pdfdigitalsignaturedetails/) ile eski yöntemler yerineX509Certificate2 parametreler olarak.
+`CertificateHolder` yalnızca statik fabrika yöntemleriyle oluşturulabilir. Bir örneğini içerir**X509Sertifika2** sisteme özel, genel anahtarlar ve sertifika zincirlerini tanıtmak için kullanılır. Bu sınıf,[`DigitalSignatureUtil`](../digitalsignatureutil/) Ve[`PdfDigitalSignatureDetails`](../../aspose.words.saving/pdfdigitalsignaturedetails/) ile eski yöntemler yerineX509Certificate2 parametreler olarak.
 
-### Örnekler
+## Örnekler
 
 Şifrelenmiş belge dosyasının nasıl imzalanacağını gösterir.
 
@@ -197,5 +199,3 @@ Bir belgeye imza satırının nasıl ekleneceğini ve ardından dijital sertifik
 
 * ad alanı [Aspose.Words.DigitalSignatures](../../aspose.words.digitalsignatures/)
 * toplantı [Aspose.Words](../../)
-
-

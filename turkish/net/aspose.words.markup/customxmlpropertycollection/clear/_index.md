@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPropertyCollection.Clear
-second_title: Aspose.Words for .NET API Referansı
-description: CustomXmlPropertyCollection yöntem. Koleksiyondaki tüm öğeleri kaldırır.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words for .NET
+description: CustomXmlPropertyCollection Clear yöntem. Koleksiyondaki tüm öğeleri kaldırır C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.markup/customxmlpropertycollection/clear/
@@ -14,7 +16,7 @@ Koleksiyondaki tüm öğeleri kaldırır.
 public void Clear()
 ```
 
-### Örnekler
+## Örnekler
 
 Akıllı etiketler hakkında ayrıntılı bilgi almak için akıllı etiket özellikleriyle nasıl çalışılacağını gösterir.
 
@@ -71,7 +73,5 @@ Assert.AreEqual(0, properties.Count);
 ### Ayrıca bakınız
 
 * class [CustomXmlPropertyCollection](../)
-* ad alanı [Aspose.Words.Markup](../../customxmlpropertycollection/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

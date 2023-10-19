@@ -1,7 +1,9 @@
 ---
 title: FieldAsk.PromptText
-second_title: Aspose.Words for .NET API Referansı
-description: FieldAsk mülk. Bilgi istemi metnini bilgi istemi penceresinin başlığı alır veya ayarlar.
+linktitle: PromptText
+articleTitle: PromptText
+second_title: Aspose.Words for .NET
+description: FieldAsk PromptText mülk. Bilgi istemi metnini bilgi istemi penceresinin başlığı alır veya ayarlar C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.fields/fieldask/prompttext/
@@ -14,7 +16,7 @@ Bilgi istemi metnini (bilgi istemi penceresinin başlığı) alır veya ayarlar.
 public string PromptText { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 ASK alanının nasıl oluşturulacağını ve özelliklerinin nasıl ayarlanacağını gösterir.
 
@@ -76,7 +78,5 @@ private class MyPromptRespondent : IFieldUserPromptRespondent
 ### Ayrıca bakınız
 
 * class [FieldAsk](../)
-* ad alanı [Aspose.Words.Fields](../../fieldask/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

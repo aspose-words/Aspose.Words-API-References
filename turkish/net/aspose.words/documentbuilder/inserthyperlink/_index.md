@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.InsertHyperlink
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentBuilder yöntem. Belgeye bir köprü ekler.
+linktitle: InsertHyperlink
+articleTitle: InsertHyperlink
+second_title: Aspose.Words for .NET
+description: DocumentBuilder InsertHyperlink yöntem. Belgeye bir köprü ekler C#'da.
 type: docs
-weight: 370
+weight: 360
 url: /tr/net/aspose.words/documentbuilder/inserthyperlink/
 ---
 ## DocumentBuilder.InsertHyperlink method
@@ -24,13 +26,13 @@ public Field InsertHyperlink(string displayText, string urlOrBookmark, bool isBo
 
 A[`Field`](../../../aspose.words.fields/field/) eklenen alanı temsil eden nesne.
 
-### Notlar
+## Notlar
 
 Köprü görüntüleme metni için yazı tipi formatını açıkça kullanarak belirtmeniz gerektiğini unutmayın.[`Font`](../font/) mülk.
 
 Bu yöntemler dahili olarak çağırır[`InsertField`](../insertfield/) belgeye bir MS Word HYPERLINK field eklemek için.
 
-### Örnekler
+## Örnekler
 
 Yerel bir yer imine başvuran bir köprünün nasıl ekleneceğini gösterir.
 
@@ -108,7 +110,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.PushPopFont.docx");
 
 * class [Field](../../../aspose.words.fields/field/)
 * class [DocumentBuilder](../)
-* ad alanı [Aspose.Words](../../documentbuilder/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

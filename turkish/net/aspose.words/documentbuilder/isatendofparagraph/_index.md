@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.IsAtEndOfParagraph
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentBuilder mülk. İadelerdoğru İmleç geçerli paragrafın sonundaysa.
+linktitle: IsAtEndOfParagraph
+articleTitle: IsAtEndOfParagraph
+second_title: Aspose.Words for .NET
+description: DocumentBuilder IsAtEndOfParagraph mülk. İadelerdoğru İmleç geçerli paragrafın sonundaysa C#'da.
 type: docs
 weight: 110
 url: /tr/net/aspose.words/documentbuilder/isatendofparagraph/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words/documentbuilder/isatendofparagraph/
 public bool IsAtEndOfParagraph { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Belge oluşturucunun imlecinin belgedeki farklı düğümlere nasıl taşınacağını gösterir.
 
@@ -68,7 +70,5 @@ Assert.IsTrue(builder.IsAtStartOfParagraph);
 ### Ayrıca bakınız
 
 * class [DocumentBuilder](../)
-* ad alanı [Aspose.Words](../../documentbuilder/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

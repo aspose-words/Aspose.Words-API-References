@@ -1,9 +1,11 @@
 ---
 title: ChartTitle.Text
-second_title: Aspose.Words for .NET API Referansı
-description: ChartTitle mülk. Grafik başlığının metnini alır veya ayarlar. Ifhükümsüz veya boş değer belirtilirse otomatik oluşturulan başlık gösterilecektir.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words for .NET
+description: ChartTitle Text mülk. Grafik başlığının metnini alır veya ayarlar. Ifhükümsüz veya boş değer belirtilirse otomatik oluşturulan başlık gösterilecektir C#'da.
 type: docs
-weight: 40
+weight: 30
 url: /tr/net/aspose.words.drawing.charts/charttitle/text/
 ---
 ## ChartTitle.Text property
@@ -14,11 +16,11 @@ Grafik başlığının metnini alır veya ayarlar. If`hükümsüz` veya boş de�
 public string Text { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Kullanmak[`Show`](../show/) Başlığı gizlemeniz gerekiyorsa bu seçeneği kullanın.
 
-### Örnekler
+## Örnekler
 
 Grafiğin nasıl ekleneceğini ve başlığın nasıl ayarlanacağını gösterir.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "Charts.ChartTitle.docx");
 ### Ayrıca bakınız
 
 * class [ChartTitle](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../charttitle/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

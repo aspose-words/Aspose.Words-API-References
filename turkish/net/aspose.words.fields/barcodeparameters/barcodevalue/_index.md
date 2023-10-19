@@ -1,7 +1,9 @@
 ---
 title: BarcodeParameters.BarcodeValue
-second_title: Aspose.Words for .NET API Referansı
-description: BarcodeParameters mülk. Kodlanacak veriler.
+linktitle: BarcodeValue
+articleTitle: BarcodeValue
+second_title: Aspose.Words for .NET
+description: BarcodeParameters BarcodeValue mülk. Kodlanacak veriler C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.fields/barcodeparameters/barcodevalue/
@@ -14,7 +16,7 @@ Kodlanacak veriler.
 public string BarcodeValue { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Barkod oluşturucunun nasıl kullanılacağını gösterir.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 ### Ayrıca bakınız
 
 * class [BarcodeParameters](../)
-* ad alanı [Aspose.Words.Fields](../../barcodeparameters/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

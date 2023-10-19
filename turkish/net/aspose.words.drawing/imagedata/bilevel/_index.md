@@ -1,7 +1,9 @@
 ---
 title: ImageData.BiLevel
-second_title: Aspose.Words for .NET API Referansı
-description: ImageData mülk. Bir görüntünün siyah beyaz görüntülenip görüntülenmeyeceğini belirler.
+linktitle: BiLevel
+articleTitle: BiLevel
+second_title: Aspose.Words for .NET
+description: ImageData BiLevel mülk. Bir görüntünün siyah beyaz görüntülenip görüntülenmeyeceğini belirler C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.drawing/imagedata/bilevel/
@@ -14,11 +16,11 @@ Bir görüntünün siyah beyaz görüntülenip görüntülenmeyeceğini belirler
 public bool BiLevel { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:`YANLIŞ`.
 
-### Örnekler
+## Örnekler
 
 Bir şeklin görüntü verilerinin nasıl düzenleneceğini gösterir.
 
@@ -81,7 +83,5 @@ dstDoc.Save(ArtifactsDir + "Drawing.ImageData.docx");
 ### Ayrıca bakınız
 
 * class [ImageData](../)
-* ad alanı [Aspose.Words.Drawing](../../imagedata/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

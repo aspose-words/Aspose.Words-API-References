@@ -1,7 +1,9 @@
 ---
 title: FileFormatUtil.ContentTypeToLoadFormat
-second_title: Aspose.Words for .NET API Referansı
-description: FileFormatUtil yöntem. IANA içerik türünü yükleme biçiminde numaralandırılmış bir değere dönüştürür.
+linktitle: ContentTypeToLoadFormat
+articleTitle: ContentTypeToLoadFormat
+second_title: Aspose.Words for .NET
+description: FileFormatUtil ContentTypeToLoadFormat yöntem. IANA içerik türünü yükleme biçiminde numaralandırılmış bir değere dönüştürür C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/fileformatutil/contenttypetoloadformat/
@@ -20,7 +22,7 @@ public static LoadFormat ContentTypeToLoadFormat(string contentType)
 | --- | --- |
 | ArgumentException | Dönüştürülemediğinde atar. |
 
-### Örnekler
+## Örnekler
 
 Her ortam türü dizesinden karşılık gelen Aspose yükleme/kaydetme formatının nasıl bulunacağını gösterir.
 
@@ -75,7 +77,5 @@ Assert.AreEqual(SaveFormat.Mhtml, FileFormatUtil.ContentTypeToSaveFormat("multip
 
 * enum [LoadFormat](../../loadformat/)
 * class [FileFormatUtil](../)
-* ad alanı [Aspose.Words](../../fileformatutil/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

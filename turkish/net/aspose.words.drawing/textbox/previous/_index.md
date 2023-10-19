@@ -1,7 +1,9 @@
 ---
 title: TextBox.Previous
-second_title: Aspose.Words for .NET API Referansı
-description: TextBox mülk. Bir değeri döndürürTextBox öncekini temsil edenTextBox bir dizi şekil halinde.
+linktitle: Previous
+articleTitle: Previous
+second_title: Aspose.Words for .NET
+description: TextBox Previous mülk. Bir değeri döndürürTextBox öncekini temsil edenTextBox bir dizi şekil halinde C#'da.
 type: docs
 weight: 100
 url: /tr/net/aspose.words.drawing/textbox/previous/
@@ -14,7 +16,7 @@ Bir değeri döndürür[`TextBox`](../) öncekini temsil eden[`TextBox`](../) bi
 public TextBox Previous { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Metin kutularının nasıl bağlanacağını gösterir.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "Shape.CreateLinkBetweenTextBoxes.docx");
 ### Ayrıca bakınız
 
 * class [TextBox](../)
-* ad alanı [Aspose.Words.Drawing](../../textbox/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

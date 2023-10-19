@@ -1,7 +1,9 @@
 ---
 title: Run.Accept
-second_title: Aspose.Words for .NET API Referansı
-description: Run yöntem. Ziyaretçi kabul eder.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words for .NET
+description: Run Accept yöntem. Ziyaretçi kabul eder C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words/run/accept/
@@ -22,13 +24,13 @@ public override bool Accept(DocumentVisitor visitor)
 
 `YANLIŞ` ziyaretçi numaralandırmanın durdurulmasını talep ederse.
 
-### Notlar
+## Notlar
 
 Aramalar[`VisitRun`](../../documentvisitor/visitrun/).
 
 Daha fazla bilgi için Ziyaretçi tasarım desenine bakın.
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki her üstbilgi ve altbilginin düğüm yapısının nasıl yazdırılacağını gösterir.
 
@@ -122,7 +124,5 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../documentvisitor/)
 * class [Run](../)
-* ad alanı [Aspose.Words](../../run/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

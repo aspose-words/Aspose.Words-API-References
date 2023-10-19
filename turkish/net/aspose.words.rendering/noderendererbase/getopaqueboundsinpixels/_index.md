@@ -1,12 +1,14 @@
 ---
 title: NodeRendererBase.GetOpaqueBoundsInPixels
-second_title: Aspose.Words for .NET API Referansı
-description: NodeRendererBase yöntem. Belirtilen yakınlaştırma faktörü ve çözünürlük için şeklin opak sınırlarını piksel cinsinden hesaplar.
+linktitle: GetOpaqueBoundsInPixels
+articleTitle: GetOpaqueBoundsInPixels
+second_title: Aspose.Words for .NET
+description: NodeRendererBase GetOpaqueBoundsInPixels yöntem. Belirtilen yakınlaştırma faktörü ve çözünürlük için şeklin opak sınırlarını piksel cinsinden hesaplar C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.rendering/noderendererbase/getopaqueboundsinpixels/
 ---
-## GetOpaqueBoundsInPixels(float, float) {#getopaqueboundsinpixels}
+## GetOpaqueBoundsInPixels(*float, float*) {#getopaqueboundsinpixels}
 
 Belirtilen yakınlaştırma faktörü ve çözünürlük için şeklin opak sınırlarını piksel cinsinden hesaplar.
 
@@ -23,11 +25,11 @@ public Rectangle GetOpaqueBoundsInPixels(float scale, float dpi)
 
 Şeklin piksel cinsinden opak dikdörtgeni.
 
-### Notlar
+## Notlar
 
 Bu yöntem dönüştürür[`OpaqueBoundsInPoints`](../opaqueboundsinpoints/) piksel cinsinden dikdörtgene dönüştürür ve şekli yalnızca opak kısmıyla oluşturmak için bir bitmap oluşturmak istediğinizde kullanışlı kullanışlıdır.
 
-### Örnekler
+## Örnekler
 
 Şekillerin nasıl ölçüleceğini ve ölçeklendirileceğini gösterir.
 
@@ -74,12 +76,12 @@ Assert.AreEqual(30, bounds.Height);
 ### Ayrıca bakınız
 
 * class [NodeRendererBase](../)
-* ad alanı [Aspose.Words.Rendering](../../noderendererbase/)
+* ad alanı [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## GetOpaqueBoundsInPixels(float, float, float) {#getopaqueboundsinpixels_1}
+## GetOpaqueBoundsInPixels(*float, float, float*) {#getopaqueboundsinpixels_1}
 
 Belirtilen yakınlaştırma faktörü ve çözünürlük için şeklin opak sınırlarını piksel cinsinden hesaplar.
 
@@ -97,11 +99,11 @@ public Rectangle GetOpaqueBoundsInPixels(float scale, float horizontalDpi, float
 
 Şeklin piksel cinsinden opak dikdörtgeni.
 
-### Notlar
+## Notlar
 
 Bu yöntem dönüştürür[`OpaqueBoundsInPoints`](../opaqueboundsinpoints/) piksel cinsinden dikdörtgene dönüştürür ve şekli yalnızca opak kısmıyla oluşturmak için bir bitmap oluşturmak istediğinizde kullanışlı kullanışlıdır.
 
-### Örnekler
+## Örnekler
 
 Şekillerin nasıl ölçüleceğini ve ölçeklendirileceğini gösterir.
 
@@ -148,7 +150,5 @@ Assert.AreEqual(30, bounds.Height);
 ### Ayrıca bakınız
 
 * class [NodeRendererBase](../)
-* ad alanı [Aspose.Words.Rendering](../../noderendererbase/)
+* ad alanı [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * toplantı [Aspose.Words](../../../)
-
-

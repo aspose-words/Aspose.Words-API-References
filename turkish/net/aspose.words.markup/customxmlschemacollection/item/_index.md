@@ -1,7 +1,9 @@
 ---
 title: CustomXmlSchemaCollection.Item
-second_title: Aspose.Words for .NET API Referansı
-description: CustomXmlSchemaCollection mülk. Belirtilen dizindeki öğeyi alır veya ayarlar.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words for .NET
+description: CustomXmlSchemaCollection Item mülk. Belirtilen dizindeki öğeyi alır veya ayarlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.markup/customxmlschemacollection/item/
@@ -14,7 +16,7 @@ Belirtilen dizindeki öğeyi alır veya ayarlar.
 public string this[int index] { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 XML şeması koleksiyonuyla nasıl çalışılacağını gösterir.
 
@@ -60,7 +62,5 @@ Assert.AreEqual(0, schemas.Count);
 ### Ayrıca bakınız
 
 * class [CustomXmlSchemaCollection](../)
-* ad alanı [Aspose.Words.Markup](../../customxmlschemacollection/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

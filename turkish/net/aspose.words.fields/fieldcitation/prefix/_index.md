@@ -1,7 +1,9 @@
 ---
 title: FieldCitation.Prefix
-second_title: Aspose.Words for .NET API Referansı
-description: FieldCitation mülk. Alıntıya eklenen öneki alır veya ayarlar.
+linktitle: Prefix
+articleTitle: Prefix
+second_title: Aspose.Words for .NET
+description: FieldCitation Prefix mülk. Alıntıya eklenen öneki alır veya ayarlar C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.fields/fieldcitation/prefix/
@@ -14,7 +16,7 @@ Alıntıya eklenen öneki alır veya ayarlar.
 public string Prefix { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 CITATION ve KAYNAKÇA alanlarıyla nasıl çalışılacağını gösterir.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Field.CITATION.docx");
 ### Ayrıca bakınız
 
 * class [FieldCitation](../)
-* ad alanı [Aspose.Words.Fields](../../fieldcitation/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PageSetup.DifferentFirstPageHeaderFooter
-second_title: Aspose.Words for .NET API Referansı
-description: PageSetup mülk. İlk sayfada farklı bir üst bilgi veya alt bilgi kullanılmışsa doğrudur.
+linktitle: DifferentFirstPageHeaderFooter
+articleTitle: DifferentFirstPageHeaderFooter
+second_title: Aspose.Words for .NET
+description: PageSetup DifferentFirstPageHeaderFooter mülk. İlk sayfada farklı bir üst bilgi veya alt bilgi kullanılmışsa doğrudur C#'da.
 type: docs
 weight: 110
 url: /tr/net/aspose.words/pagesetup/differentfirstpageheaderfooter/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words/pagesetup/differentfirstpageheaderfooter/
 public bool DifferentFirstPageHeaderFooter { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 DocumentBuilder'ı kullanarak bir belgede üstbilgilerin ve altbilgilerin nasıl oluşturulacağını gösterir.
 
@@ -136,7 +138,5 @@ public void Order(bool differentFirstPageHeaderFooter)
 ### Ayrıca bakınız
 
 * class [PageSetup](../)
-* ad alanı [Aspose.Words](../../pagesetup/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

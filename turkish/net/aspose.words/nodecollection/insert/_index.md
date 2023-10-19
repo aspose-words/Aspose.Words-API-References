@@ -1,7 +1,9 @@
 ---
 title: NodeCollection.Insert
-second_title: Aspose.Words for .NET API Referansı
-description: NodeCollection yöntem. Belirtilen dizindeki koleksiyona bir düğüm ekler.
+linktitle: Insert
+articleTitle: Insert
+second_title: Aspose.Words for .NET
+description: NodeCollection Insert yöntem. Belirtilen dizindeki koleksiyona bir düğüm ekler C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words/nodecollection/insert/
@@ -25,7 +27,7 @@ public void Insert(int index, Node node)
 | --- | --- |
 | NotSupportedException | [`NodeCollection`](../) "derin" bir koleksiyondur. |
 
-### Notlar
+## Notlar
 
 Düğüm, koleksiyonun oluşturulduğu düğüm nesnesine alt öğe olarak eklenir.
 
@@ -35,7 +37,7 @@ Endeks negatifse ve mutlak değeri şundan büyükse:[`Count`](../count/)düğü
 
 Eklenen düğüm başka bir belgeden oluşturulmuşsa kullanmalısınız[`ImportNode`](../../documentbase/importnode/) Düğümü geçerli belgeye aktarmak için. İçe aktarılan düğüm daha sonra geçerli belgeye eklenebilir.
 
-### Örnekler
+## Örnekler
 
 NodeCollection ile nasıl çalışılacağını gösterir.
 
@@ -73,7 +75,5 @@ Assert.False(runs.Contains(run));
 
 * class [Node](../../node/)
 * class [NodeCollection](../)
-* ad alanı [Aspose.Words](../../nodecollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

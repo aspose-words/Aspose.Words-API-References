@@ -1,7 +1,9 @@
 ---
 title: BookmarksOutlineLevelCollection.Add
-second_title: Aspose.Words for .NET API Referansı
-description: BookmarksOutlineLevelCollection yöntem. Koleksiyona bir yer işareti ekler.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words for .NET
+description: BookmarksOutlineLevelCollection Add yöntem. Koleksiyona bir yer işareti ekler C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.saving/bookmarksoutlinelevelcollection/add/
@@ -19,7 +21,7 @@ public void Add(string name, int outlineLevel)
 | name | String | Eklenecek yer işaretinin büyük/küçük harfe duyarlı olmayan adı. |
 | outlineLevel | Int32 | Yer iminin anahat düzeyi. Geçerli aralık 0 ila 9'dur. |
 
-### Örnekler
+## Örnekler
 
 Yer imleri için anahat düzeylerinin nasıl ayarlanacağını gösterir.
 
@@ -77,7 +79,5 @@ outlineLevels.Clear();
 ### Ayrıca bakınız
 
 * class [BookmarksOutlineLevelCollection](../)
-* ad alanı [Aspose.Words.Saving](../../bookmarksoutlinelevelcollection/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

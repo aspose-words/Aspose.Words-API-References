@@ -1,7 +1,9 @@
 ---
-title: Class DigitalSignature
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.DigitalSignatures.DigitalSignature sınıf. Bir belgedeki dijital imzayı ve doğrulamasının sonucunu temsil eder.
+title: DigitalSignature Class
+linktitle: DigitalSignature
+articleTitle: DigitalSignature
+second_title: Aspose.Words for .NET
+description: Aspose.Words.DigitalSignatures.DigitalSignature sınıf. Bir belgedeki dijital imzayı ve doğrulamasının sonucunu temsil eder C#'da.
 type: docs
 weight: 380
 url: /tr/net/aspose.words.digitalsignatures/digitalsignature/
@@ -35,7 +37,7 @@ public class DigitalSignature
 | --- | --- |
 | override [ToString](../../aspose.words.digitalsignatures/digitalsignature/tostring/)() | Bu nesnenin değerini görüntüleyen kullanıcı dostu bir dize döndürür. |
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki her imza hakkındaki bilgilerin nasıl doğrulanacağını ve görüntüleneceğini gösterir.
 
@@ -58,5 +60,3 @@ foreach (DigitalSignature signature in doc.DigitalSignatures)
 
 * ad alanı [Aspose.Words.DigitalSignatures](../../aspose.words.digitalsignatures/)
 * toplantı [Aspose.Words](../../)
-
-

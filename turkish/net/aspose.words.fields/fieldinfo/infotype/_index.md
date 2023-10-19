@@ -1,7 +1,9 @@
 ---
 title: FieldInfo.InfoType
-second_title: Aspose.Words for .NET API Referansı
-description: FieldInfo mülk. Eklenecek belge özelliğinin türünü alır veya ayarlar.
+linktitle: InfoType
+articleTitle: InfoType
+second_title: Aspose.Words for .NET
+description: FieldInfo InfoType mülk. Eklenecek belge özelliğinin türünü alır veya ayarlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fieldinfo/infotype/
@@ -14,7 +16,7 @@ Eklenecek belge özelliğinin türünü alır veya ayarlar.
 public string InfoType { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 INFO alanlarıyla nasıl çalışılacağını gösterir.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Field.INFO.docx");
 ### Ayrıca bakınız
 
 * class [FieldInfo](../)
-* ad alanı [Aspose.Words.Fields](../../fieldinfo/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

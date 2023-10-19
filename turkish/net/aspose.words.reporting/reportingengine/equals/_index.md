@@ -1,7 +1,9 @@
 ---
 title: ReportingEngine.Equals
-second_title: Aspose.Words for .NET API Referansı
-description: ReportingEngine yöntem. Belirtilen nesnenin değer olarak geçerli nesneye eşit olup olmadığını belirler.
+linktitle: Equals
+articleTitle: Equals
+second_title: Aspose.Words for .NET
+description: ReportingEngine Equals yöntem. Belirtilen nesnenin değer olarak geçerli nesneye eşit olup olmadığını belirler C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.reporting/reportingengine/equals/
@@ -17,7 +19,5 @@ public bool Equals(object obj)
 ### Ayrıca bakınız
 
 * class [ReportingEngine](../)
-* ad alanı [Aspose.Words.Reporting](../../reportingengine/)
+* ad alanı [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * toplantı [Aspose.Words](../../../)
-
-

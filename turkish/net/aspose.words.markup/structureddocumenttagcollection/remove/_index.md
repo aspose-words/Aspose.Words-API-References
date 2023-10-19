@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagCollection.Remove
-second_title: Aspose.Words for .NET API Referansı
-description: StructuredDocumentTagCollection yöntem. Belirtilen tanımlayıcıya sahip yapılandırılmış belge etiketini kaldırır.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words for .NET
+description: StructuredDocumentTagCollection Remove yöntem. Belirtilen tanımlayıcıya sahip yapılandırılmış belge etiketini kaldırır C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.markup/structureddocumenttagcollection/remove/
@@ -18,7 +20,7 @@ public void Remove(int id)
 | --- | --- | --- |
 | id | Int32 | Yapılandırılmış belge etiketi tanımlayıcısı. |
 
-### Örnekler
+## Örnekler
 
 Yapılandırılmış belge etiketinin nasıl kaldırılacağını gösterir.
 
@@ -47,7 +49,5 @@ Assert.AreEqual(3, structuredDocumentTags.Count);
 ### Ayrıca bakınız
 
 * class [StructuredDocumentTagCollection](../)
-* ad alanı [Aspose.Words.Markup](../../structureddocumenttagcollection/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.FlipOrientation
-second_title: Aspose.Words for .NET API Referansı
-description: ShapeBase mülk. Şeklin yönünü değiştirir.
+linktitle: FlipOrientation
+articleTitle: FlipOrientation
+second_title: Aspose.Words for .NET
+description: ShapeBase FlipOrientation mülk. Şeklin yönünü değiştirir C#'da.
 type: docs
 weight: 180
 url: /tr/net/aspose.words.drawing/shapebase/fliporientation/
@@ -14,11 +16,11 @@ url: /tr/net/aspose.words.drawing/shapebase/fliporientation/
 public FlipOrientation FlipOrientation { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:None.
 
-### Örnekler
+## Örnekler
 
 Bir şeklin eksen üzerinde nasıl çevrileceğini gösterir.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Shape.FlipShapeOrientation.docx");
 
 * enum [FlipOrientation](../../fliporientation/)
 * class [ShapeBase](../)
-* ad alanı [Aspose.Words.Drawing](../../shapebase/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: FieldLink.FieldLink
-second_title: Aspose.Words for .NET API Referansı
-description: FieldLink inşaatçı. Default_Constructor
+title: FieldLink
+linktitle: FieldLink
+articleTitle: FieldLink
+second_title: Aspose.Words for .NET
+description: FieldLink inşaatçı. Default_Constructor C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fieldlink/fieldlink/
@@ -17,7 +19,5 @@ public FieldLink()
 ### Ayrıca bakınız
 
 * class [FieldLink](../)
-* ad alanı [Aspose.Words.Fields](../../fieldlink/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class GradientStopCollection
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.GradientStopCollection sınıf. Şunların bir koleksiyonunu içerirGradientStop nesneler.
+title: GradientStopCollection Class
+linktitle: GradientStopCollection
+articleTitle: GradientStopCollection
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.GradientStopCollection sınıf. Şunların bir koleksiyonunu içerirGradientStop nesneler C#'da.
 type: docs
 weight: 990
 url: /tr/net/aspose.words.drawing/gradientstopcollection/
@@ -27,17 +29,17 @@ public class GradientStopCollection : IEnumerable<GradientStop>
 
 | İsim | Tanım |
 | --- | --- |
-| [Add](../../aspose.words.drawing/gradientstopcollection/add/)(GradientStop) | Belirtilen değeri ekler[`GradientStop`](../gradientstop/) bir degradeye. |
+| [Add](../../aspose.words.drawing/gradientstopcollection/add/)(*[GradientStop](../gradientstop/)*) | Belirtilen değeri ekler[`GradientStop`](../gradientstop/) bir degradeye. |
 | [GetEnumerator](../../aspose.words.drawing/gradientstopcollection/getenumerator/)() | Koleksiyonda yinelenen bir numaralandırıcı döndürür. |
-| [Insert](../../aspose.words.drawing/gradientstopcollection/insert/)(int, GradientStop) | Bir ekler[`GradientStop`](../gradientstop/) belirtilen indeksteki koleksiyona. |
-| [Remove](../../aspose.words.drawing/gradientstopcollection/remove/)(GradientStop) | Belirtilen bir öğeyi kaldırır[`GradientStop`](../gradientstop/) koleksiyondan. |
-| [RemoveAt](../../aspose.words.drawing/gradientstopcollection/removeat/)(int) | Bir'i kaldırır[`GradientStop`](../gradientstop/) belirtilen dizindeki koleksiyondan. |
+| [Insert](../../aspose.words.drawing/gradientstopcollection/insert/)(*int, [GradientStop](../gradientstop/)*) | Bir ekler[`GradientStop`](../gradientstop/) belirtilen indeksteki koleksiyona. |
+| [Remove](../../aspose.words.drawing/gradientstopcollection/remove/)(*[GradientStop](../gradientstop/)*) | Belirtilen bir öğeyi kaldırır[`GradientStop`](../gradientstop/) koleksiyondan. |
+| [RemoveAt](../../aspose.words.drawing/gradientstopcollection/removeat/)(*int*) | Bir'i kaldırır[`GradientStop`](../gradientstop/) belirtilen dizindeki koleksiyondan. |
 
-### Notlar
+## Notlar
 
 Bu sınıfın örneklerini doğrudan oluşturmazsınız. [`GradientStops`](../fill/gradientstops/)dolgu nesnelerinin degrade duraklarına erişme özelliği.
 
-### Örnekler
+## Örnekler
 
 Degrade dolgusuna degrade duraklarının nasıl ekleneceğini gösterir.
 
@@ -92,5 +94,3 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 * class [GradientStop](../gradientstop/)
 * ad alanı [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../)
-
-

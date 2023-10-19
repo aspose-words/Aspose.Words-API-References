@@ -1,7 +1,9 @@
 ---
 title: Aspose.Words.Shaping
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Shaping ad alanı harici metin şekillendirme motorlarını kullanan OpenType özelliklerine destek sağlayacak sınıfları içerir.
+linktitle: Aspose.Words.Shaping
+articleTitle: Aspose.Words.Shaping
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Shaping ad alanı harici metin şekillendirme motorlarını kullanan OpenType özelliklerine destek sağlayacak sınıfları içerir C#'da.
 type: docs
 weight: 250
 url: /tr/net/aspose.words.shaping/
@@ -29,5 +31,3 @@ url: /tr/net/aspose.words.shaping/
 | [FontFeature](./fontfeature/) | Özellikler, bir komut dosyasını oluşturmak için bir yazı tipinde gliflerin nasıl kullanıldığı hakkında bilgi sağlar. https://docs.microsoft.com/en-us/typography/opentype/spec/featuretags |
 | [ScriptShapingLevel](./scriptshapinglevel/) | Bir komut dosyasının gerektirdiği şekillendirme düzeylerini açıklar. |
 | [UnicodeScript](./unicodescript/) | Unicode Karakter Veritabanı özelliği: Komut Dosyası (sc). |
-
-

@@ -1,7 +1,9 @@
 ---
 title: FormFieldCollection.Count
-second_title: Aspose.Words for .NET API Referansı
-description: FormFieldCollection mülk. Koleksiyondaki form alanlarının sayısını döndürür.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words for .NET
+description: FormFieldCollection Count mülk. Koleksiyondaki form alanlarının sayısını döndürür C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/formfieldcollection/count/
@@ -14,7 +16,7 @@ Koleksiyondaki form alanlarının sayısını döndürür.
 public int Count { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgeye farklı türde form alanlarının nasıl eklendiğini ve bunların bir belge ziyaretçi uygulaması kullanılarak nasıl işlendiğini gösterir.
 
@@ -148,7 +150,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Ayrıca bakınız
 
 * class [FormFieldCollection](../)
-* ad alanı [Aspose.Words.Fields](../../formfieldcollection/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

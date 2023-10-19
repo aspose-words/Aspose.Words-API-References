@@ -1,7 +1,9 @@
 ---
 title: WebExtensionBinding.BindingType
-second_title: Aspose.Words for .NET API Referansı
-description: WebExtensionBinding mülk. Bağlama türünü belirtir.
+linktitle: BindingType
+articleTitle: BindingType
+second_title: Aspose.Words for .NET
+description: WebExtensionBinding BindingType mülk. Bağlama türünü belirtir C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.webextensions/webextensionbinding/bindingtype/
@@ -18,7 +20,5 @@ public WebExtensionBindingType BindingType { get; set; }
 
 * enum [WebExtensionBindingType](../../webextensionbindingtype/)
 * class [WebExtensionBinding](../)
-* ad alanı [Aspose.Words.WebExtensions](../../webextensionbinding/)
+* ad alanı [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * toplantı [Aspose.Words](../../../)
-
-

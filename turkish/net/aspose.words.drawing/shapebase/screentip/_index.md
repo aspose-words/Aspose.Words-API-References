@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.ScreenTip
-second_title: Aspose.Words for .NET API Referansı
-description: ShapeBase mülk. Fare işaretçisi şeklin üzerine geldiğinde görüntülenecek metni tanımlar.
+linktitle: ScreenTip
+articleTitle: ScreenTip
+second_title: Aspose.Words for .NET
+description: ShapeBase ScreenTip mülk. Fare işaretçisi şeklin üzerine geldiğinde görüntülenecek metni tanımlar C#'da.
 type: docs
 weight: 480
 url: /tr/net/aspose.words.drawing/shapebase/screentip/
@@ -14,11 +16,11 @@ Fare işaretçisi şeklin üzerine geldiğinde görüntülenecek metni tanımlar
 public string ScreenTip { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer boş bir dizedir.
 
-### Örnekler
+## Örnekler
 
 Görüntü içeren ve aynı zamanda köprü olan bir şeklin nasıl ekleneceğini gösterir.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Image.InsertImageWithHyperlink.docx");
 ### Ayrıca bakınız
 
 * class [ShapeBase](../)
-* ad alanı [Aspose.Words.Drawing](../../shapebase/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

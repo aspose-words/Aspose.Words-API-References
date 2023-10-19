@@ -1,7 +1,9 @@
 ---
 title: OlePackage.FileName
-second_title: Aspose.Words for .NET API Referansı
-description: OlePackage mülk. OLE Paketi dosya adını alır veya ayarlar.
+linktitle: FileName
+articleTitle: FileName
+second_title: Aspose.Words for .NET
+description: OlePackage FileName mülk. OLE Paketi dosya adını alır veya ayarlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.drawing/olepackage/filename/
@@ -14,7 +16,7 @@ OLE Paketi dosya adını alır veya ayarlar.
 public string FileName { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir OLE nesnesinin belgeye nasıl eklendiğini gösterir.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "Shape.InsertOlePackage.docx");
 ### Ayrıca bakınız
 
 * class [OlePackage](../)
-* ad alanı [Aspose.Words.Drawing](../../olepackage/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

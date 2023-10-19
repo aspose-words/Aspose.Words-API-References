@@ -1,7 +1,9 @@
 ---
 title: TextWatermarkOptions.Layout
-second_title: Aspose.Words for .NET API Referansı
-description: TextWatermarkOptions mülk. Filigranın düzenini alır veya ayarlar. Varsayılan değerDiagonal .
+linktitle: Layout
+articleTitle: Layout
+second_title: Aspose.Words for .NET
+description: TextWatermarkOptions Layout mülk. Filigranın düzenini alır veya ayarlar. Varsayılan değerDiagonal  C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words/textwatermarkoptions/layout/
@@ -14,7 +16,7 @@ Filigranın düzenini alır veya ayarlar. Varsayılan değer:Diagonal .
 public WatermarkLayout Layout { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Metin filigranının nasıl oluşturulacağını gösterir.
 
@@ -46,7 +48,5 @@ if (doc.Watermark.Type == WatermarkType.Text)
 
 * enum [WatermarkLayout](../../watermarklayout/)
 * class [TextWatermarkOptions](../)
-* ad alanı [Aspose.Words](../../textwatermarkoptions/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

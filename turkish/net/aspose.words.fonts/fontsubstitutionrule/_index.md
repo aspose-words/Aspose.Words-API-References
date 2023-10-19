@@ -1,7 +1,9 @@
 ---
-title: Class FontSubstitutionRule
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Fonts.FontSubstitutionRule sınıf. Bu yazı tipi değiştirme kuralı için soyut bir temel sınıftır.
+title: FontSubstitutionRule Class
+linktitle: FontSubstitutionRule
+articleTitle: FontSubstitutionRule
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Fonts.FontSubstitutionRule sınıf. Bu yazı tipi değiştirme kuralı için soyut bir temel sınıftır C#'da.
 type: docs
 weight: 3000
 url: /tr/net/aspose.words.fonts/fontsubstitutionrule/
@@ -22,7 +24,7 @@ public abstract class FontSubstitutionRule
 | --- | --- |
 | virtual [Enabled](../../aspose.words.fonts/fontsubstitutionrule/enabled/) { get; set; } | Kuralın etkin olup olmadığını belirtir. |
 
-### Örnekler
+## Örnekler
 
 İşletim sistemine bağlı yazı tipi yapılandırma değişikliğini gösterir.
 
@@ -59,5 +61,3 @@ if (isLinuxOrMac)
 
 * ad alanı [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../)
-
-

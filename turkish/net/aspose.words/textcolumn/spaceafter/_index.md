@@ -1,7 +1,9 @@
 ---
 title: TextColumn.SpaceAfter
-second_title: Aspose.Words for .NET API Referansı
-description: TextColumn mülk. Bu sütun ile sonraki sütun arasındaki boşluğu nokta cinsinden alır veya ayarlar. Son sütun için gerekli değildir.
+linktitle: SpaceAfter
+articleTitle: SpaceAfter
+second_title: Aspose.Words for .NET
+description: TextColumn SpaceAfter mülk. Bu sütun ile sonraki sütun arasındaki boşluğu nokta cinsinden alır veya ayarlar. Son sütun için gerekli değildir C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/textcolumn/spaceafter/
@@ -14,7 +16,7 @@ Bu sütun ile sonraki sütun arasındaki boşluğu nokta cinsinden alır veya ay
 public double SpaceAfter { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Düzensiz aralıklı sütunların nasıl oluşturulacağını gösterir.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "PageSetup.CustomColumnWidth.docx");
 ### Ayrıca bakınız
 
 * class [TextColumn](../)
-* ad alanı [Aspose.Words](../../textcolumn/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: Table.ClearBorders
-second_title: Aspose.Words for .NET API Referansı
-description: Table yöntem. Bu tablodaki tüm tablo ve hücre kenarlıklarını kaldırır.
+linktitle: ClearBorders
+articleTitle: ClearBorders
+second_title: Aspose.Words for .NET
+description: Table ClearBorders yöntem. Bu tablodaki tüm tablo ve hücre kenarlıklarını kaldırır C#'da.
 type: docs
-weight: 390
+weight: 370
 url: /tr/net/aspose.words.tables/table/clearborders/
 ---
 ## Table.ClearBorders method
@@ -14,7 +16,7 @@ Bu tablodaki tüm tablo ve hücre kenarlıklarını kaldırır.
 public void ClearBorders()
 ```
 
-### Örnekler
+## Örnekler
 
 Bir tabloya anahat kenarlığının nasıl uygulanacağını gösterir.
 
@@ -77,7 +79,5 @@ Assert.AreEqual(LineStyle.None, topBorder.LineStyle);
 ### Ayrıca bakınız
 
 * class [Table](../)
-* ad alanı [Aspose.Words.Tables](../../table/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

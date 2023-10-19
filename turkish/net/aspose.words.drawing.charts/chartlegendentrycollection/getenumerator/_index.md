@@ -1,7 +1,9 @@
 ---
 title: ChartLegendEntryCollection.GetEnumerator
-second_title: Aspose.Words for .NET API Referansı
-description: ChartLegendEntryCollection yöntem. Bir numaralandırıcı nesnesini döndürür.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words for .NET
+description: ChartLegendEntryCollection GetEnumerator yöntem. Bir numaralandırıcı nesnesini döndürür C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.drawing.charts/chartlegendentrycollection/getenumerator/
@@ -18,7 +20,5 @@ public IEnumerator<ChartLegendEntry> GetEnumerator()
 
 * class [ChartLegendEntry](../../chartlegendentry/)
 * class [ChartLegendEntryCollection](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartlegendentrycollection/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

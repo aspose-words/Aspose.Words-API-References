@@ -1,9 +1,11 @@
 ---
 title: TxtLoadOptions.DetectNumberingWithWhitespaces
-second_title: Aspose.Words for .NET API Referansı
-description: TxtLoadOptions mülk. Belge düz metin biçiminden içe aktarıldığında numaralı liste öğelerinin nasıl tanınacağını belirlemeye olanak tanır. Varsayılan değerdoğru.
+linktitle: DetectNumberingWithWhitespaces
+articleTitle: DetectNumberingWithWhitespaces
+second_title: Aspose.Words for .NET
+description: TxtLoadOptions DetectNumberingWithWhitespaces mülk. Belge düz metin biçiminden içe aktarıldığında numaralı liste öğelerinin nasıl tanınacağını belirlemeye olanak tanır. Varsayılan değerdoğru C#'da.
 type: docs
-weight: 40
+weight: 30
 url: /tr/net/aspose.words.loading/txtloadoptions/detectnumberingwithwhitespaces/
 ---
 ## TxtLoadOptions.DetectNumberingWithWhitespaces property
@@ -14,13 +16,13 @@ Belge düz metin biçiminden içe aktarıldığında numaralı liste öğelerini
 public bool DetectNumberingWithWhitespaces { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu seçenek olarak ayarlanmışsa`YANLIŞ`, liste tanıma algoritması, liste numaraları nokta, sağ köşeli parantez veya madde işareti simgeleriyle ("•", "*", "-" veya "o" gibi) ile bittiğinde liste paragraflarını algılar.
 
 Bu seçenek olarak ayarlanmışsa`doğru`boşluklar aynı zamanda liste numarası sınırlayıcıları olarak da kullanılır: Arapça stil numaralandırma için liste tanıma algoritması (1., 1.1.2.) hem boşlukları hem de nokta (".") sembollerini kullanır.
 
-### Örnekler
+## Örnekler
 
 Düz metin belgeleri yüklenirken listelerin nasıl algılanacağını gösterir.
 
@@ -74,7 +76,5 @@ else
 ### Ayrıca bakınız
 
 * class [TxtLoadOptions](../)
-* ad alanı [Aspose.Words.Loading](../../txtloadoptions/)
+* ad alanı [Aspose.Words.Loading](../../../aspose.words.loading/)
 * toplantı [Aspose.Words](../../../)
-
-

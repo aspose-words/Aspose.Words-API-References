@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportShapesAsSvg
-second_title: Aspose.Words for .NET API Referansı
-description: HtmlSaveOptions mülk. olup olmadığını kontrol ederShapedüğümler yi HTML MHTML EPUB veya AZW3e kaydederken SVG görüntülerine dönüştürülür. Varsayılan değerYANLIŞ .
+linktitle: ExportShapesAsSvg
+articleTitle: ExportShapesAsSvg
+second_title: Aspose.Words for .NET
+description: HtmlSaveOptions ExportShapesAsSvg mülk. olup olmadığını kontrol ederShapedüğümler yi HTML MHTML EPUB veya AZW3e kaydederken SVG görüntülerine dönüştürülür. Varsayılan değerYANLIŞ  C#'da.
 type: docs
 weight: 250
 url: /tr/net/aspose.words.saving/htmlsaveoptions/exportshapesassvg/
@@ -14,11 +16,11 @@ olup olmadığını kontrol eder[`Shape`](../../../aspose.words.drawing/shape/)d
 public bool ExportShapesAsSvg { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu seçenek şu şekilde ayarlanırsa`doğru` ,[`Shape`](../../../aspose.words.drawing/shape/) düğümler &lt;svg&gt; öğeleri olarak dışa aktarılır. Aksi takdirde, bitmaplere dönüştürülür ve &lt;img&gt; öğeleri olarak dışa aktarılır.
 
-### Örnekler
+## Örnekler
 
 Şeklin ölçeklenebilir vektör grafikleri olarak nasıl dışa aktarılacağını gösterir.
 
@@ -61,7 +63,5 @@ else
 ### Ayrıca bakınız
 
 * class [HtmlSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../htmlsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PageSetup.LinesPerPage
-second_title: Aspose.Words for .NET API Referansı
-description: PageSetup mülk. Belge kılavuzundaki sayfa başına satır sayısını alır veya ayarlar.
+linktitle: LinesPerPage
+articleTitle: LinesPerPage
+second_title: Aspose.Words for .NET
+description: PageSetup LinesPerPage mülk. Belge kılavuzundaki sayfa başına satır sayısını alır veya ayarlar C#'da.
 type: docs
 weight: 240
 url: /tr/net/aspose.words/pagesetup/linesperpage/
@@ -14,13 +16,13 @@ Belge kılavuzundaki sayfa başına satır sayısını alır veya ayarlar.
 public int LinesPerPage { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Özelliğin minimum değeri 1'dir. Maksimum değer, Normal stilinin sayfa yüksekliğine ve yazı tipi boyutuna bağlıdır. Minimum satır aralığı yazı tipi boyutunun yüzde 136'sıdır. Örneğin, bir inç kenar boşluklarına sahip bir Letter sayfasının sayfası başına maksimum satır sayısı 39'dur.
 
 Varsayılan olarak özellik, satır aralığının Normal stildeki yazı tipi boyutundan 1,5 kat daha büyük olduğu bir değere sahiptir.
 
-### Örnekler
+## Örnekler
 
 Her sayfanın sahip olabileceği satır sayısına ilişkin sınırın nasıl belirleneceğini gösterir.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "PageSetup.LinesPerPage.docx");
 ### Ayrıca bakınız
 
 * class [PageSetup](../)
-* ad alanı [Aspose.Words](../../pagesetup/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

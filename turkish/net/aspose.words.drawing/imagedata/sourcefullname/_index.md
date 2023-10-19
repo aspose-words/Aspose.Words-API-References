@@ -1,7 +1,9 @@
 ---
 title: ImageData.SourceFullName
-second_title: Aspose.Words for .NET API Referansı
-description: ImageData mülk. Bağlı görüntünün kaynak dosyasının yolunu ve adını alır veya ayarlar.
+linktitle: SourceFullName
+articleTitle: SourceFullName
+second_title: Aspose.Words for .NET
+description: ImageData SourceFullName mülk. Bağlı görüntünün kaynak dosyasının yolunu ve adını alır veya ayarlar C#'da.
 type: docs
 weight: 170
 url: /tr/net/aspose.words.drawing/imagedata/sourcefullname/
@@ -14,13 +16,13 @@ Bağlı görüntünün kaynak dosyasının yolunu ve adını alır veya ayarlar.
 public string SourceFullName { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer boş bir dizedir.
 
 Eğer`SourceFullName` boş bir dize değil, görüntü bağlantılı.
 
-### Örnekler
+## Örnekler
 
 Bağlantılı bir görüntünün belgeye nasıl ekleneceğini gösterir.
 
@@ -62,7 +64,5 @@ Assert.True(10000 > new FileInfo(ArtifactsDir + "Image.CreateLinkedImage.Linked.
 ### Ayrıca bakınız
 
 * class [ImageData](../)
-* ad alanı [Aspose.Words.Drawing](../../imagedata/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

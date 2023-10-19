@@ -1,7 +1,9 @@
 ---
 title: Field.Start
-second_title: Aspose.Words for .NET API Referansı
-description: Field mülk. Alanın başlangıcını temsil eden düğümü alır.
+linktitle: Start
+articleTitle: Start
+second_title: Aspose.Words for .NET
+description: Field Start mülk. Alanın başlangıcını temsil eden düğümü alır C#'da.
 type: docs
 weight: 90
 url: /tr/net/aspose.words.fields/field/start/
@@ -14,7 +16,7 @@ Alanın başlangıcını temsil eden düğümü alır.
 public FieldStart Start { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir alan koleksiyonuyla nasıl çalışılacağını gösterir.
 
@@ -118,7 +120,5 @@ public class FieldVisitor : DocumentVisitor
 
 * class [FieldStart](../../fieldstart/)
 * class [Field](../)
-* ad alanı [Aspose.Words.Fields](../../field/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

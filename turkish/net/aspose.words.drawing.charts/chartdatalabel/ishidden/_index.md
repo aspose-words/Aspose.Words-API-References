@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.IsHidden
-second_title: Aspose.Words for .NET API Referansı
-description: ChartDataLabel mülk. Bu etiketin gizli olup olmadığını belirten bir bayrak alır/ayarlar. Varsayılan değerYANLIŞ .
+linktitle: IsHidden
+articleTitle: IsHidden
+second_title: Aspose.Words for .NET
+description: ChartDataLabel IsHidden mülk. Bu etiketin gizli olup olmadığını belirten bir bayrak alır/ayarlar. Varsayılan değerYANLIŞ  C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.drawing.charts/chartdatalabel/ishidden/
@@ -14,7 +16,7 @@ Bu etiketin gizli olup olmadığını belirten bir bayrak alır/ayarlar. Varsay�
 public bool IsHidden { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Çizgi grafikteki veri noktalarına etiketlerin nasıl uygulanacağını gösterir.
 
@@ -92,7 +94,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 ### Ayrıca bakınız
 
 * class [ChartDataLabel](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

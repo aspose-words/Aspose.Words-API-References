@@ -1,9 +1,11 @@
 ---
 title: Comment.Replies
-second_title: Aspose.Words for .NET API Referansı
-description: Comment mülk. Şunların bir koleksiyonunu döndürürComment belirtilen yorumun doğrudan alt öğeleri olan nesneler.
+linktitle: Replies
+articleTitle: Replies
+second_title: Aspose.Words for .NET
+description: Comment Replies mülk. Şunların bir koleksiyonunu döndürürComment belirtilen yorumun doğrudan alt öğeleri olan nesneler C#'da.
 type: docs
-weight: 100
+weight: 90
 url: /tr/net/aspose.words/comment/replies/
 ---
 ## Comment.Replies property
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words/comment/replies/
 public CommentCollection Replies { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki tüm yorumların ve yanıtların nasıl yazdırılacağını gösterir.
 
@@ -41,7 +43,5 @@ foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == 
 
 * class [CommentCollection](../../commentcollection/)
 * class [Comment](../)
-* ad alanı [Aspose.Words](../../comment/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

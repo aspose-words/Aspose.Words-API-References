@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.TabStops
-second_title: Aspose.Words for .NET API Referansı
-description: ParagraphFormat mülk. Bu nesne için tanımlanan özel sekme duraklarının koleksiyonunu alır.
+linktitle: TabStops
+articleTitle: TabStops
+second_title: Aspose.Words for .NET
+description: ParagraphFormat TabStops mülk. Bu nesne için tanımlanan özel sekme duraklarının koleksiyonunu alır C#'da.
 type: docs
 weight: 390
 url: /tr/net/aspose.words/paragraphformat/tabstops/
@@ -14,7 +16,7 @@ Bu nesne için tanımlanan özel sekme duraklarının koleksiyonunu alır.
 public TabStopCollection TabStops { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 İçindekiler ile ilgili paragraflarda sağ sekme durağının konumunun nasıl değiştirileceğini gösterir.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "Styles.ChangeTocsTabStops.docx");
 
 * class [TabStopCollection](../../tabstopcollection/)
 * class [ParagraphFormat](../)
-* ad alanı [Aspose.Words](../../paragraphformat/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

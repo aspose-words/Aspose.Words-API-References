@@ -1,7 +1,9 @@
 ---
-title: Class ChartXValue
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.Charts.ChartXValue sınıf. Bir grafik serisi için bir X değerini temsil eder.
+title: ChartXValue Class
+linktitle: ChartXValue
+articleTitle: ChartXValue
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.Charts.ChartXValue sınıf. Bir grafik serisi için bir X değerini temsil eder C#'da.
 type: docs
 weight: 840
 url: /tr/net/aspose.words.drawing.charts/chartxvalue/
@@ -29,15 +31,15 @@ public class ChartXValue
 
 | İsim | Tanım |
 | --- | --- |
-| static [FromDateTime](../../aspose.words.drawing.charts/chartxvalue/fromdatetime/)(DateTime) | Bir oluşturur`ChartXValue` örneğiDateTime type. |
-| static [FromDouble](../../aspose.words.drawing.charts/chartxvalue/fromdouble/)(double) | Bir oluşturur`ChartXValue` örneğiDouble type. |
-| static [FromMultilevelValue](../../aspose.words.drawing.charts/chartxvalue/frommultilevelvalue/)(ChartMultilevelValue) | Bir oluşturur`ChartXValue` örneğiMultilevel type. |
-| static [FromString](../../aspose.words.drawing.charts/chartxvalue/fromstring/)(string) | Bir oluşturur`ChartXValue` örneğiString type. |
-| static [FromTimeSpan](../../aspose.words.drawing.charts/chartxvalue/fromtimespan/)(TimeSpan) | Bir oluşturur`ChartXValue` örneğiTime type. |
-| override [Equals](../../aspose.words.drawing.charts/chartxvalue/equals/)(object) | Belirtilen nesnenin geçerli X değeri nesnesine eşit olup olmadığını gösteren bir bayrak alır. |
+| static [FromDateTime](../../aspose.words.drawing.charts/chartxvalue/fromdatetime/)(*DateTime*) | Bir oluşturur`ChartXValue` örneğiDateTime type. |
+| static [FromDouble](../../aspose.words.drawing.charts/chartxvalue/fromdouble/)(*double*) | Bir oluşturur`ChartXValue` örneğiDouble type. |
+| static [FromMultilevelValue](../../aspose.words.drawing.charts/chartxvalue/frommultilevelvalue/)(*[ChartMultilevelValue](../chartmultilevelvalue/)*) | Bir oluşturur`ChartXValue` örneğiMultilevel type. |
+| static [FromString](../../aspose.words.drawing.charts/chartxvalue/fromstring/)(*string*) | Bir oluşturur`ChartXValue` örneğiString type. |
+| static [FromTimeSpan](../../aspose.words.drawing.charts/chartxvalue/fromtimespan/)(*TimeSpan*) | Bir oluşturur`ChartXValue` örneğiTime type. |
+| override [Equals](../../aspose.words.drawing.charts/chartxvalue/equals/)(*object*) | Belirtilen nesnenin geçerli X değeri nesnesine eşit olup olmadığını gösteren bir bayrak alır. |
 | override [GetHashCode](../../aspose.words.drawing.charts/chartxvalue/gethashcode/)() | Geçerli X değeri nesnesi için karma kodu alır. |
 
-### Notlar
+## Notlar
 
 Bu sınıf, belirli bir türde X değeri oluşturmaya yönelik bir dizi statik yöntem içerir. The [`ValueType`](./valuetype/) özelliği, mevcut bir X değerinin türünü belirlemenizi sağlar.
 
@@ -47,5 +49,3 @@ Bir grafik serisinin boş olmayan tüm X değerleri aynı olmalıdır[`ChartXVal
 
 * ad alanı [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../)
-
-

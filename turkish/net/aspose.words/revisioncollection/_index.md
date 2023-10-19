@@ -1,7 +1,9 @@
 ---
-title: Class RevisionCollection
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.RevisionCollection sınıf. Bir koleksiyonRevision belgedeki revizyonları temsil eden nesneler.
+title: RevisionCollection Class
+linktitle: RevisionCollection
+articleTitle: RevisionCollection
+second_title: Aspose.Words for .NET
+description: Aspose.Words.RevisionCollection sınıf. Bir koleksiyonRevision belgedeki revizyonları temsil eden nesneler C#'da.
 type: docs
 weight: 4770
 url: /tr/net/aspose.words/revisioncollection/
@@ -32,11 +34,11 @@ public class RevisionCollection : IEnumerable<Revision>
 | [GetEnumerator](../../aspose.words/revisioncollection/getenumerator/)() | Bir numaralandırıcı nesnesini döndürür. |
 | [RejectAll](../../aspose.words/revisioncollection/rejectall/)() | Bu koleksiyondaki tüm düzeltmeleri reddeder. |
 
-### Notlar
+## Notlar
 
 Bu sınıfın örneklerini doğrudan oluşturmazsınız. Kullan[`Revisions`](../document/revisions/) Bir belgede revizyonların bulunmasını sağlayan özellik.
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki düzeltmelerle nasıl çalışılacağını gösterir.
 
@@ -121,5 +123,3 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 * class [Revision](../revision/)
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

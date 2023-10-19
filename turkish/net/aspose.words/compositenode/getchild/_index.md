@@ -1,9 +1,11 @@
 ---
 title: CompositeNode.GetChild
-second_title: Aspose.Words for .NET API Referansı
-description: CompositeNode yöntem. Belirtilen türle eşleşen Ninci alt düğümü döndürür.
+linktitle: GetChild
+articleTitle: GetChild
+second_title: Aspose.Words for .NET
+description: CompositeNode GetChild yöntem. Belirtilen türle eşleşen Ninci alt düğümü döndürür C#'da.
 type: docs
-weight: 100
+weight: 80
 url: /tr/net/aspose.words/compositenode/getchild/
 ---
 ## CompositeNode.GetChild method
@@ -24,13 +26,13 @@ public Node GetChild(NodeType nodeType, int index, bool isDeep)
 
 Kriterlerle eşleşen alt düğüm veya`hükümsüz` eşleşen düğüm bulunamazsa.
 
-### Notlar
+## Notlar
 
 Dizin aralık dışındaysa,`hükümsüz` Geri döndü.
 
 İşaretleme düğümlerinin (StructuredDocumentTag VeSmartTag ) geçildiğinde bile*isDeep* =`YANLIŞ` Ve`GetChild` biçimlendirme dışı düğüm türü için çağrılır. Örneğin para 'deki ilk çalıştırma bir içine sarılmışsa[`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) , yine de iade edilecek`GetChild`(Run 0,`YANLIŞ`).
 
-### Örnekler
+## Örnekler
 
 Bir tablonun stilinin özelliklerinin doğrudan tablonun öğelerine nasıl uygulanacağını gösterir.
 
@@ -103,7 +105,5 @@ foreach (Node child in children)
 * class [Node](../../node/)
 * enum [NodeType](../../nodetype/)
 * class [CompositeNode](../)
-* ad alanı [Aspose.Words](../../compositenode/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

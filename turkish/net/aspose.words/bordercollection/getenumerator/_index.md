@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.GetEnumerator
-second_title: Aspose.Words for .NET API Referansı
-description: BorderCollection yöntem. Koleksiyondaki tüm kenarlıklar üzerinde yineleme yapmak için kullanılabilecek bir numaralandırıcı nesnesini döndürür.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words for .NET
+description: BorderCollection GetEnumerator yöntem. Koleksiyondaki tüm kenarlıklar üzerinde yineleme yapmak için kullanılabilecek bir numaralandırıcı nesnesini döndürür C#'da.
 type: docs
 weight: 160
 url: /tr/net/aspose.words/bordercollection/getenumerator/
@@ -14,7 +16,7 @@ Koleksiyondaki tüm kenarlıklar üzerinde yineleme yapmak için kullanılabilec
 public IEnumerator<Border> GetEnumerator()
 ```
 
-### Örnekler
+## Örnekler
 
 Bir paragraf formatı nesnesindeki tüm kenarlıkların nasıl yineleneceğini ve düzenleneceğini gösterir.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "BorderCollection.GetBordersEnumerator.docx");
 
 * class [Border](../../border/)
 * class [BorderCollection](../)
-* ad alanı [Aspose.Words](../../bordercollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

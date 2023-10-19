@@ -1,9 +1,11 @@
 ---
 title: Fill.GradientStops
-second_title: Aspose.Words for .NET API Referansı
-description: Fill mülk. Şunlardan oluşan bir koleksiyon alırGradientStop dolgu için nesneler.
+linktitle: GradientStops
+articleTitle: GradientStops
+second_title: Aspose.Words for .NET
+description: Fill GradientStops mülk. Şunlardan oluşan bir koleksiyon alırGradientStop dolgu için nesneler C#'da.
 type: docs
-weight: 110
+weight: 100
 url: /tr/net/aspose.words.drawing/fill/gradientstops/
 ---
 ## Fill.GradientStops property
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.drawing/fill/gradientstops/
 public GradientStopCollection GradientStops { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Degrade dolgusuna degrade duraklarının nasıl ekleneceğini gösterir.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 
 * class [GradientStopCollection](../../gradientstopcollection/)
 * class [Fill](../)
-* ad alanı [Aspose.Words.Drawing](../../fill/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

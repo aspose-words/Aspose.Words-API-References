@@ -1,7 +1,9 @@
 ---
-title: Class FieldMergeField
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Fields.FieldMergeField sınıf. MERGEFIELD alanını uygular.
+title: FieldMergeField Class
+linktitle: FieldMergeField
+articleTitle: FieldMergeField
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Fields.FieldMergeField sınıf. MERGEFIELD alanını uygular C#'da.
 type: docs
 weight: 2150
 url: /tr/net/aspose.words.fields/fieldmergefield/
@@ -42,17 +44,17 @@ public class FieldMergeField : Field
 | İsim | Tanım |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Alan başlangıcı ile alan ayırıcı (veya ayırıcı yoksa alan sonu) arasındaki metni döndürür. Alt alanların hem alan kodu hem de alan sonucu dahil edilir. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Alan başlangıcı ile alan ayırıcı (veya ayırıcı yoksa alan sonu) arasındaki metni döndürür. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Alan başlangıcı ile alan ayırıcı (veya ayırıcı yoksa alan sonu) arasındaki metni döndürür. |
 | [Remove](../../aspose.words.fields/field/remove/)() | Alanı belgeden kaldırır. Alanın hemen ardından bir düğüm döndürür. Alanın sonu, üst düğümünün son child 'si ise, üst paragrafını döndürür. Alan zaten kaldırılmışsa şunu döndürür:`hükümsüz` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Alanın bağlantısını kaldırır. |
 | [Update](../../aspose.words.fields/field/update/)() | Alan güncellemesini gerçekleştirir. Alan zaten güncelleniyorsa atar. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Bir alan güncellemesi gerçekleştirir. Alan zaten güncelleniyorsa atar. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Bir alan güncellemesi gerçekleştirir. Alan zaten güncelleniyorsa atar. |
 
-### Notlar
+## Notlar
 
 Adres-mektup birleştirme ana belgesindeki birleştirme karakterleri içindeki bir veri alanının adını alır. Ana belge seçilen veri kaynağıyla birleştirildiğinde, birleştirme alanının yerine belirtilen veri alanındaki bilgiler eklenir.
 
-### Örnekler
+## Örnekler
 
 Adres-mektup birleştirme gerçekleştirmek için MERGEFIELD alanlarının nasıl kullanılacağını gösterir.
 
@@ -96,5 +98,3 @@ Assert.AreEqual("Dear Mr. Doe:\u000cDear Mrs. Cardholder:", doc.GetText().Trim()
 * class [Field](../field/)
 * ad alanı [Aspose.Words.Fields](../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../)
-
-

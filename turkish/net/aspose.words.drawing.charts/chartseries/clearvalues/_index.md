@@ -1,7 +1,9 @@
 ---
 title: ChartSeries.ClearValues
-second_title: Aspose.Words for .NET API Referansı
-description: ChartSeries yöntem. Veri noktalarının ve veri etiketlerinin formatını koruyarak tüm veri değerlerini grafik serisinden kaldırır.
+linktitle: ClearValues
+articleTitle: ClearValues
+second_title: Aspose.Words for .NET
+description: ChartSeries ClearValues yöntem. Veri noktalarının ve veri etiketlerinin formatını koruyarak tüm veri değerlerini grafik serisinden kaldırır C#'da.
 type: docs
 weight: 180
 url: /tr/net/aspose.words.drawing.charts/chartseries/clearvalues/
@@ -17,7 +19,5 @@ public void ClearValues()
 ### Ayrıca bakınız
 
 * class [ChartSeries](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartseries/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

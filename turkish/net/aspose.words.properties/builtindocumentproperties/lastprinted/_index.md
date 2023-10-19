@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.LastPrinted
-second_title: Aspose.Words for .NET API Referansı
-description: BuiltInDocumentProperties mülk. Belgenin en son UTCde yazdırıldığı tarihi alır veya ayarlar.
+linktitle: LastPrinted
+articleTitle: LastPrinted
+second_title: Aspose.Words for .NET
+description: BuiltInDocumentProperties LastPrinted mülk. Belgenin en son UTCde yazdırıldığı tarihi alır veya ayarlar C#'da.
 type: docs
 weight: 150
 url: /tr/net/aspose.words.properties/builtindocumentproperties/lastprinted/
@@ -14,7 +16,7 @@ Belgenin en son UTC'de yazdırıldığı tarihi alır veya ayarlar.
 public DateTime LastPrinted { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 RTF formatından oluşturulan belgeler için bu özellik, son yazdırma işleminin yerel saatini döndürür.
 
@@ -22,7 +24,7 @@ Belge hiç yazdırılmadıysa bu özellik DateTime.MinValue değerini döndürü
 
 Aspose.Words bu özelliği güncellemez.
 
-### Örnekler
+## Örnekler
 
 "Orijin" kategorisindeki belge özellikleriyle nasıl çalışılacağını gösterir.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.Origin.docx");
 ### Ayrıca bakınız
 
 * class [BuiltInDocumentProperties](../)
-* ad alanı [Aspose.Words.Properties](../../builtindocumentproperties/)
+* ad alanı [Aspose.Words.Properties](../../../aspose.words.properties/)
 * toplantı [Aspose.Words](../../../)
-
-

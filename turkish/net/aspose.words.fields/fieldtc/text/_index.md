@@ -1,7 +1,9 @@
 ---
 title: FieldTC.Text
-second_title: Aspose.Words for .NET API Referansı
-description: FieldTC mülk. Girişin metnini alır veya ayarlar.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words for .NET
+description: FieldTC Text mülk. Girişin metnini alır veya ayarlar C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.fields/fieldtc/text/
@@ -14,7 +16,7 @@ Girişin metnini alır veya ayarlar.
 public string Text { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 TOC alanının nasıl ekleneceğini ve hangi TC alanlarının giriş olarak sonuçlanacağını filtreleyeceğini gösterir.
 
@@ -66,7 +68,5 @@ public void InsertTocEntry(DocumentBuilder builder, string text, string typeIden
 ### Ayrıca bakınız
 
 * class [FieldTC](../)
-* ad alanı [Aspose.Words.Fields](../../fieldtc/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

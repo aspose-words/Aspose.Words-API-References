@@ -1,7 +1,9 @@
 ---
 title: Table.Title
-second_title: Aspose.Words for .NET API Referansı
-description: Table mülk. Bu tablonun başlığını alır veya ayarlar. Tabloda yer alan bilgilerin alternatif metin gösterimini sağlar.
+linktitle: Title
+articleTitle: Title
+second_title: Aspose.Words for .NET
+description: Table Title mülk. Bu tablonun başlığını alır veya ayarlar. Tabloda yer alan bilgilerin alternatif metin gösterimini sağlar C#'da.
 type: docs
 weight: 320
 url: /tr/net/aspose.words.tables/table/title/
@@ -14,13 +16,13 @@ Bu tablonun başlığını alır veya ayarlar. Tabloda yer alan bilgilerin alter
 public string Title { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer boş bir dizedir.
 
 Bu özellik ISO/IEC 29500 uyumlu DOCX belgeleri ( için anlamlıdır.[`OoxmlCompliance`](../../../aspose.words.saving/ooxmlcompliance/)). ISO/IEC 29500 öncesi formatlara kaydedildiğinde özellik göz ardı edilir.
 
-### Örnekler
+## Örnekler
 
 Belge oluşturucu kullanmadan iç içe tablonun nasıl oluşturulacağını gösterir.
 
@@ -76,7 +78,5 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
 ### Ayrıca bakınız
 
 * class [Table](../)
-* ad alanı [Aspose.Words.Tables](../../table/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

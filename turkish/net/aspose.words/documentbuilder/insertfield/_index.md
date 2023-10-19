@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.InsertField
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentBuilder yöntem. Belgeye bir Word alanı ekler ve isteğe bağlı olarak alan sonucunu günceller.
+linktitle: InsertField
+articleTitle: InsertField
+second_title: Aspose.Words for .NET
+description: DocumentBuilder InsertField yöntem. Belgeye bir Word alanı ekler ve isteğe bağlı olarak alan sonucunu günceller C#'da.
 type: docs
-weight: 330
+weight: 320
 url: /tr/net/aspose.words/documentbuilder/insertfield/
 ---
-## InsertField(FieldType, bool) {#insertfield}
+## InsertField(*[FieldType](../../../aspose.words.fields/fieldtype/), bool*) {#insertfield}
 
 Belgeye bir Word alanı ekler ve isteğe bağlı olarak alan sonucunu günceller.
 
@@ -23,11 +25,11 @@ public Field InsertField(FieldType fieldType, bool updateField)
 
 A[`Field`](../../../aspose.words.fields/field/) eklenen alanı temsil eden nesne.
 
-### Notlar
+## Notlar
 
 Bu yöntem bir belgeye alan ekler. Aspose.Words çoğu türdeki alanları güncelleyebilir, ancak hepsini güncelleyemez. Daha fazla ayrıntı için the 'ye bakın`InsertField` aşırı yükleme.
 
-### Örnekler
+## Örnekler
 
 FieldType kullanılarak bir belgeye nasıl alan ekleneceğini gösterir.
 
@@ -74,12 +76,12 @@ else
 * class [Field](../../../aspose.words.fields/field/)
 * enum [FieldType](../../../aspose.words.fields/fieldtype/)
 * class [DocumentBuilder](../)
-* ad alanı [Aspose.Words](../../documentbuilder/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## InsertField(string) {#insertfield_1}
+## InsertField(*string*) {#insertfield_1}
 
 Belgeye bir Word alanı ekler ve alan sonucunu günceller.
 
@@ -95,11 +97,11 @@ public Field InsertField(string fieldCode)
 
 A[`Field`](../../../aspose.words.fields/field/) eklenen alanı temsil eden nesne.
 
-### Notlar
+## Notlar
 
 Bu yöntem bir belgeye alan ekler ve alan sonucunu hemen günceller. Aspose.Words çoğu türdeki alanları güncelleyebilir, ancak hepsini güncelleyemez. Daha fazla ayrıntı için the 'ye bakın`InsertField` aşırı yükleme.
 
-### Örnekler
+## Örnekler
 
 Alan kodu kullanarak belgeye nasıl alan ekleneceğini gösterir.
 
@@ -144,12 +146,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.MergeFields.docx");
 
 * class [Field](../../../aspose.words.fields/field/)
 * class [DocumentBuilder](../)
-* ad alanı [Aspose.Words](../../documentbuilder/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## InsertField(string, string) {#insertfield_2}
+## InsertField(*string, string*) {#insertfield_2}
 
 Alan sonucunu güncellemeden belgeye bir Word alanı ekler.
 
@@ -166,7 +168,7 @@ public Field InsertField(string fieldCode, string fieldValue)
 
 A[`Field`](../../../aspose.words.fields/field/) eklenen alanı temsil eden nesne.
 
-### Notlar
+## Notlar
 
 Microsoft Word belgelerindeki alanlar, alan kodu ve alan sonucundan oluşur. Alan kodu bir formül gibidir ve alan sonucu, formülün ürettiği that değeri gibidir. Alan kodu ayrıca, belirli bir eylemi gerçekleştirmek için ek talimatlara benzeyen switch alanını da içerebilir.
 
@@ -176,7 +178,7 @@ Bir alan oluşturmak için bir alan türü, alan kodu ve bir "yer tutucu" alan d
 
 Aspose.Words çoğu alan türü için alan sonuçlarını hesaplayabilir ancak bu method alan sonucunu otomatik olarak güncellemez. Alan sonucu otomatik olarak hesaplanmadığından, alan sonucuna eklenecek bir dize değeri (hatta boş bir dize) iletmeniz beklenir. Bu değer, alan oluşturulana kadar yer tutucu olarak alan sonucunda kalacaktır. güncellendi. Alan sonucunu güncellemek için arayabilirsiniz[`Update`](../../../aspose.words.fields/field/update/)size döndürülen alan nesnesinde veya[`UpdateFields`](../../document/updatefields/) Tüm belgedeki alanları güncellemek için.
 
-### Örnekler
+## Örnekler
 
 Bir bölümde sayfa numaralandırmanın nasıl ayarlanacağını gösterir.
 
@@ -234,7 +236,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageNumbering.docx");
 
 * class [Field](../../../aspose.words.fields/field/)
 * class [DocumentBuilder](../)
-* ad alanı [Aspose.Words](../../documentbuilder/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

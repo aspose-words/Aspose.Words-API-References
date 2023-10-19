@@ -1,7 +1,9 @@
 ---
 title: Cell.LastParagraph
-second_title: Aspose.Words for .NET API Referansı
-description: Cell mülk. Hemen alt öğeler arasındaki son paragrafı alır.
+linktitle: LastParagraph
+articleTitle: LastParagraph
+second_title: Aspose.Words for .NET
+description: Cell LastParagraph mülk. Hemen alt öğeler arasındaki son paragrafı alır C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.tables/cell/lastparagraph/
@@ -14,7 +16,7 @@ Hemen alt öğeler arasındaki son paragrafı alır.
 public Paragraph LastParagraph { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Ayarların dikey kenarlıklara bir tablo satırı biçimine nasıl uygulanacağını gösterir.
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "Border.VerticalBorders.docx");
 
 * class [Paragraph](../../../aspose.words/paragraph/)
 * class [Cell](../)
-* ad alanı [Aspose.Words.Tables](../../cell/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

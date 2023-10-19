@@ -1,7 +1,9 @@
 ---
 title: FieldMergeField.IsMapped
-second_title: Aspose.Words for .NET API Referansı
-description: FieldMergeField mülk. Bu alanın eşlenmiş bir alan olup olmadığını alır veya ayarlar.
+linktitle: IsMapped
+articleTitle: IsMapped
+second_title: Aspose.Words for .NET
+description: FieldMergeField IsMapped mülk. Bu alanın eşlenmiş bir alan olup olmadığını alır veya ayarlar C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fields/fieldmergefield/ismapped/
@@ -14,7 +16,7 @@ Bu alanın eşlenmiş bir alan olup olmadığını alır veya ayarlar.
 public bool IsMapped { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Adres-mektup birleştirme gerçekleştirmek için MERGEFIELD alanlarının nasıl kullanılacağını gösterir.
 
@@ -56,7 +58,5 @@ Assert.AreEqual("Dear Mr. Doe:\u000cDear Mrs. Cardholder:", doc.GetText().Trim()
 ### Ayrıca bakınız
 
 * class [FieldMergeField](../)
-* ad alanı [Aspose.Words.Fields](../../fieldmergefield/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PageInfo.Colored
-second_title: Aspose.Words for .NET API Referansı
-description: PageInfo mülk. İadelerdoğru sayfa renkli içerik içeriyorsa.
+linktitle: Colored
+articleTitle: Colored
+second_title: Aspose.Words for .NET
+description: PageInfo Colored mülk. İadelerdoğru sayfa renkli içerik içeriyorsa C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.rendering/pageinfo/colored/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.rendering/pageinfo/colored/
 public bool Colored { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Sayfanın renkli olup olmadığının nasıl kontrol edileceğini gösterir.
 
@@ -28,7 +30,5 @@ Assert.IsFalse(doc.GetPageInfo(0).Colored);
 ### Ayrıca bakınız
 
 * class [PageInfo](../)
-* ad alanı [Aspose.Words.Rendering](../../pageinfo/)
+* ad alanı [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * toplantı [Aspose.Words](../../../)
-
-

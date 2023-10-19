@@ -1,7 +1,9 @@
 ---
-title: Enum Orientation
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Orientation Sıralama. Sayfa yönünü belirtir.
+title: Orientation Enum
+linktitle: Orientation
+articleTitle: Orientation
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Orientation Sıralama. Sayfa yönünü belirtir C#'da.
 type: docs
 weight: 4320
 url: /tr/net/aspose.words/orientation/
@@ -21,7 +23,7 @@ public enum Orientation
 | Portrait | `1` | Dikey sayfa yönü (dar ve uzun). |
 | Landscape | `2` | Yatay sayfa yönlendirmesi (geniş ve kısa). |
 
-### Örnekler
+## Örnekler
 
 Sayfa yapısı ayarlarının bir belgedeki bölümlere nasıl uygulanacağını ve geri döndürüleceğini gösterir.
 
@@ -56,5 +58,3 @@ doc.Save(ArtifactsDir + "PageSetup.ClearFormatting.docx");
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

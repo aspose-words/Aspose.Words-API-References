@@ -1,7 +1,9 @@
 ---
 title: List.HasSameTemplate
-second_title: Aspose.Words for .NET API Referansı
-description: List yöntem. Geçerli liste ile verilen liste aynı şablondan oluşturulmuşsa true değerini döndürür.
+linktitle: HasSameTemplate
+articleTitle: HasSameTemplate
+second_title: Aspose.Words for .NET
+description: List HasSameTemplate yöntem. Geçerli liste ile verilen liste aynı şablondan oluşturulmuşsa true değerini döndürür C#'da.
 type: docs
 weight: 120
 url: /tr/net/aspose.words.lists/list/hassametemplate/
@@ -14,7 +16,7 @@ Geçerli liste ile verilen liste aynı şablondan oluşturulmuşsa true değerin
 public bool HasSameTemplate(List other)
 ```
 
-### Örnekler
+## Örnekler
 
 Aynı ListDefId'ye sahip listelerin nasıl tanımlanacağını gösterir.
 
@@ -28,7 +30,5 @@ Assert.False(doc.Lists[1].HasSameTemplate(doc.Lists[2]));
 ### Ayrıca bakınız
 
 * class [List](../)
-* ad alanı [Aspose.Words.Lists](../../list/)
+* ad alanı [Aspose.Words.Lists](../../../aspose.words.lists/)
 * toplantı [Aspose.Words](../../../)
-
-

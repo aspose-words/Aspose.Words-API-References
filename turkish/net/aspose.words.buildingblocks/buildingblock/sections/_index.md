@@ -1,7 +1,9 @@
 ---
 title: BuildingBlock.Sections
-second_title: Aspose.Words for .NET API Referansı
-description: BuildingBlock mülk. Yapı bloğundaki tüm bölümleri temsil eden bir koleksiyon döndürür.
+linktitle: Sections
+articleTitle: Sections
+second_title: Aspose.Words for .NET
+description: BuildingBlock Sections mülk. Yapı bloğundaki tüm bölümleri temsil eden bir koleksiyon döndürür C#'da.
 type: docs
 weight: 110
 url: /tr/net/aspose.words.buildingblocks/buildingblock/sections/
@@ -14,7 +16,7 @@ Yapı bloğundaki tüm bölümleri temsil eden bir koleksiyon döndürür.
 public SectionCollection Sections { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgeye özel yapı taşının nasıl ekleneceğini gösterir.
 
@@ -112,7 +114,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 
 * class [SectionCollection](../../../aspose.words/sectioncollection/)
 * class [BuildingBlock](../)
-* ad alanı [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* ad alanı [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * toplantı [Aspose.Words](../../../)
-
-

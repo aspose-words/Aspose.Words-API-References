@@ -1,9 +1,11 @@
 ---
 title: Document.RemoveMacros
-second_title: Aspose.Words for .NET API Referansı
-description: Document yöntem. Tüm makroların VBA projesinin yanı sıra araç çubuklarını ve komut özelleştirmelerini belgeden kaldırır.
+linktitle: RemoveMacros
+articleTitle: RemoveMacros
+second_title: Aspose.Words for .NET
+description: Document RemoveMacros yöntem. Tüm makroların VBA projesinin yanı sıra araç çubuklarını ve komut özelleştirmelerini belgeden kaldırır C#'da.
 type: docs
-weight: 690
+weight: 670
 url: /tr/net/aspose.words/document/removemacros/
 ---
 ## Document.RemoveMacros method
@@ -14,11 +16,11 @@ Tüm makroların (VBA projesinin) yanı sıra araç çubuklarını ve komut öze
 public void RemoveMacros()
 ```
 
-### Notlar
+## Notlar
 
 Bir belgedeki tüm makroları kaldırarak, belgenin makro virüsü içermediğinden emin olabilirsiniz.
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki tüm makroların nasıl kaldırılacağını gösterir.
 
@@ -38,7 +40,5 @@ Assert.Null(doc.VbaProject);
 ### Ayrıca bakınız
 
 * class [Document](../)
-* ad alanı [Aspose.Words](../../document/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

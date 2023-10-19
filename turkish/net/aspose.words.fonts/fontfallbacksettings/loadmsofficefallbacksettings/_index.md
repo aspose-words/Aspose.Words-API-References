@@ -1,7 +1,9 @@
 ---
 title: FontFallbackSettings.LoadMsOfficeFallbackSettings
-second_title: Aspose.Words for .NET API Referansı
-description: FontFallbackSettings yöntem. Microsoft Word geri dönüşünü taklit eden ve Microsoft Office yazı tiplerini kullanan önceden tanımlanmış geri dönüş ayarlarını yükler.
+linktitle: LoadMsOfficeFallbackSettings
+articleTitle: LoadMsOfficeFallbackSettings
+second_title: Aspose.Words for .NET
+description: FontFallbackSettings LoadMsOfficeFallbackSettings yöntem. Microsoft Word geri dönüşünü taklit eden ve Microsoft Office yazı tiplerini kullanan önceden tanımlanmış geri dönüş ayarlarını yükler C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fonts/fontfallbacksettings/loadmsofficefallbacksettings/
@@ -14,7 +16,7 @@ Microsoft Word geri dönüşünü taklit eden ve Microsoft Office yazı tiplerin
 public void LoadMsOfficeFallbackSettings()
 ```
 
-### Örnekler
+## Örnekler
 
 Önceden tanımlanmış yedek yazı tipi ayarlarının nasıl yükleneceğini gösterir.
 
@@ -44,7 +46,5 @@ fontFallbackSettings.Save(ArtifactsDir + "FontSettings.FallbackSettings.LoadNoto
 ### Ayrıca bakınız
 
 * class [FontFallbackSettings](../)
-* ad alanı [Aspose.Words.Fonts](../../fontfallbacksettings/)
+* ad alanı [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../../)
-
-

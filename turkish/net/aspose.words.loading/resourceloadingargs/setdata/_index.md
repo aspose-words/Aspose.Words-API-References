@@ -1,7 +1,9 @@
 ---
 title: ResourceLoadingArgs.SetData
-second_title: Aspose.Words for .NET API Referansı
-description: ResourceLoadingArgs yöntem. Aşağıdaki durumlarda kullanılan kaynağın kullanıcı tarafından sağlanan verilerini ayarlarResourceLoading şunu döndürürUserProvided .
+linktitle: SetData
+articleTitle: SetData
+second_title: Aspose.Words for .NET
+description: ResourceLoadingArgs SetData yöntem. Aşağıdaki durumlarda kullanılan kaynağın kullanıcı tarafından sağlanan verilerini ayarlarResourceLoading şunu döndürürUserProvided  C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.loading/resourceloadingargs/setdata/
@@ -14,7 +16,7 @@ Aşağıdaki durumlarda kullanılan kaynağın kullanıcı tarafından sağlanan
 public void SetData(byte[] data)
 ```
 
-### Örnekler
+## Örnekler
 
 Dış kaynakları bir belgeye yükleme işleminin nasıl özelleştirileceğini gösterir.
 
@@ -77,7 +79,5 @@ private class ImageNameHandler : IResourceLoadingCallback
 ### Ayrıca bakınız
 
 * class [ResourceLoadingArgs](../)
-* ad alanı [Aspose.Words.Loading](../../resourceloadingargs/)
+* ad alanı [Aspose.Words.Loading](../../../aspose.words.loading/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PageSetup.Margins
-second_title: Aspose.Words for .NET API Referansı
-description: PageSetup mülk. Ön ayarı döndürür veya ayarlarMargins sayfanın.
+linktitle: Margins
+articleTitle: Margins
+second_title: Aspose.Words for .NET
+description: PageSetup Margins mülk. Ön ayarı döndürür veya ayarlarMargins sayfanın C#'da.
 type: docs
 weight: 260
 url: /tr/net/aspose.words/pagesetup/margins/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words/pagesetup/margins/
 public Margins Margins { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Belgenin sayfa düzeninin ne zaman yeniden hesaplanacağını gösterir.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "Document.UpdatePageLayout.2.pdf");
 
 * enum [Margins](../../margins/)
 * class [PageSetup](../)
-* ad alanı [Aspose.Words](../../pagesetup/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

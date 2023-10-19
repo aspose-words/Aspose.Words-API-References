@@ -1,7 +1,9 @@
 ---
 title: TabStop.Alignment
-second_title: Aspose.Words for .NET API Referansı
-description: TabStop mülk. Bu sekme durağındaki metnin hizalamasını alır veya ayarlar.
+linktitle: Alignment
+articleTitle: Alignment
+second_title: Aspose.Words for .NET
+description: TabStop Alignment mülk. Bu sekme durağındaki metnin hizalamasını alır veya ayarlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/tabstop/alignment/
@@ -14,7 +16,7 @@ Bu sekme durağındaki metnin hizalamasını alır veya ayarlar.
 public TabAlignment Alignment { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 İçindekiler ile ilgili paragraflarda sağ sekme durağının konumunun nasıl değiştirileceğini gösterir.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "Styles.ChangeTocsTabStops.docx");
 
 * enum [TabAlignment](../../tabalignment/)
 * class [TabStop](../)
-* ad alanı [Aspose.Words](../../tabstop/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

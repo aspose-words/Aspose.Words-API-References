@@ -1,7 +1,9 @@
 ---
 title: Body.NodeType
-second_title: Aspose.Words for .NET API Referansı
-description: Body mülk. İadelerBody .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words for .NET
+description: Body NodeType mülk. İadelerBody  C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/body/nodetype/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words/body/nodetype/
 public override NodeType NodeType { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bileşik bir düğümün çocukları arasında nasıl yineleme yapılacağını gösterir.
 
@@ -64,7 +66,5 @@ foreach (Node node in section)
 
 * enum [NodeType](../../nodetype/)
 * class [Body](../)
-* ad alanı [Aspose.Words](../../body/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

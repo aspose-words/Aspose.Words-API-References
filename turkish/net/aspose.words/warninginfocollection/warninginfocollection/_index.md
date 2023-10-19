@@ -1,7 +1,9 @@
 ---
-title: WarningInfoCollection.WarningInfoCollection
-second_title: Aspose.Words for .NET API Referansı
-description: WarningInfoCollection inşaatçı. Default_Constructor
+title: WarningInfoCollection
+linktitle: WarningInfoCollection
+articleTitle: WarningInfoCollection
+second_title: Aspose.Words for .NET
+description: WarningInfoCollection inşaatçı. Default_Constructor C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/warninginfocollection/warninginfocollection/
@@ -17,7 +19,5 @@ public WarningInfoCollection()
 ### Ayrıca bakınız
 
 * class [WarningInfoCollection](../)
-* ad alanı [Aspose.Words](../../warninginfocollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

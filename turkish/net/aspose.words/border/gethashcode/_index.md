@@ -1,7 +1,9 @@
 ---
 title: Border.GetHashCode
-second_title: Aspose.Words for .NET API Referansı
-description: Border yöntem. Bu tür için karma işlevi görevi görür.
+linktitle: GetHashCode
+articleTitle: GetHashCode
+second_title: Aspose.Words for .NET
+description: Border GetHashCode yöntem. Bu tür için karma işlevi görevi görür C#'da.
 type: docs
 weight: 110
 url: /tr/net/aspose.words/border/gethashcode/
@@ -14,7 +16,7 @@ Bu tür için karma işlevi görevi görür.
 public override int GetHashCode()
 ```
 
-### Örnekler
+## Örnekler
 
 Kenarlık koleksiyonlarının öğeleri nasıl paylaşabildiğini gösterir.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Border.SharedElements.docx");
 ### Ayrıca bakınız
 
 * class [Border](../)
-* ad alanı [Aspose.Words](../../border/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

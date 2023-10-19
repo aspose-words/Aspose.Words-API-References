@@ -1,7 +1,9 @@
 ---
 title: FieldCollection.Clear
-second_title: Aspose.Words for .NET API Referansı
-description: FieldCollection yöntem. Bu koleksiyondaki tüm alanları belgeden ve bu koleksiyonun kendisinden kaldırır.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words for .NET
+description: FieldCollection Clear yöntem. Bu koleksiyondaki tüm alanları belgeden ve bu koleksiyonun kendisinden kaldırır C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fields/fieldcollection/clear/
@@ -14,7 +16,7 @@ Bu koleksiyondaki tüm alanları belgeden ve bu koleksiyonun kendisinden kaldır
 public void Clear()
 ```
 
-### Örnekler
+## Örnekler
 
 Alan koleksiyonundan alanların nasıl kaldırılacağını gösterir.
 
@@ -56,7 +58,5 @@ Assert.AreEqual(0, fields.Count);
 ### Ayrıca bakınız
 
 * class [FieldCollection](../)
-* ad alanı [Aspose.Words.Fields](../../fieldcollection/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

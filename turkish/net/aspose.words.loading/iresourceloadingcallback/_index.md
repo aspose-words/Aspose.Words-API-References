@@ -1,7 +1,9 @@
 ---
-title: Interface IResourceLoadingCallback
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Loading.IResourceLoadingCallback arayüz. Aspose.Wordsün bir belgeyi içe aktarırken ve görüntüleri eklerken sırasında harici kaynağı nasıl yükleyeceğini kontrol etmek istiyorsanız bu arayüzü uygulayın.DocumentBuilder .
+title: IResourceLoadingCallback Interface
+linktitle: IResourceLoadingCallback
+articleTitle: IResourceLoadingCallback
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Loading.IResourceLoadingCallback arayüz. Aspose.Wordsün bir belgeyi içe aktarırken ve görüntüleri eklerken sırasında harici kaynağı nasıl yükleyeceğini kontrol etmek istiyorsanız bu arayüzü uygulayın.DocumentBuilder  C#'da.
 type: docs
 weight: 3640
 url: /tr/net/aspose.words.loading/iresourceloadingcallback/
@@ -18,9 +20,9 @@ public interface IResourceLoadingCallback
 
 | İsim | Tanım |
 | --- | --- |
-| [ResourceLoading](../../aspose.words.loading/iresourceloadingcallback/resourceloading/)(ResourceLoadingArgs) | Aspose.Words herhangi bir harici kaynağı yüklediğinde çağrılır. |
+| [ResourceLoading](../../aspose.words.loading/iresourceloadingcallback/resourceloading/)(*[ResourceLoadingArgs](../resourceloadingargs/)*) | Aspose.Words herhangi bir harici kaynağı yüklediğinde çağrılır. |
 
-### Örnekler
+## Örnekler
 
 Dış kaynakları bir belgeye yükleme işleminin nasıl özelleştirileceğini gösterir.
 
@@ -84,5 +86,3 @@ private class ImageNameHandler : IResourceLoadingCallback
 
 * ad alanı [Aspose.Words.Loading](../../aspose.words.loading/)
 * toplantı [Aspose.Words](../../)
-
-

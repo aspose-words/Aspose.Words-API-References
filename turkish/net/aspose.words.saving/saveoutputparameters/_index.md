@@ -1,7 +1,9 @@
 ---
-title: Class SaveOutputParameters
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Saving.SaveOutputParameters sınıf. Bu nesne bir belge kaydedildikten sonra arayan kişiye döndürülür ve kaydetme işlemi sırasında nin oluşturulduğu veya hesaplandığı ek bilgileri içerir. Arayan kişi bu nesneyi kullanabilir veya yok sayabilir.
+title: SaveOutputParameters Class
+linktitle: SaveOutputParameters
+articleTitle: SaveOutputParameters
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Saving.SaveOutputParameters sınıf. Bu nesne bir belge kaydedildikten sonra arayan kişiye döndürülür ve kaydetme işlemi sırasında nin oluşturulduğu veya hesaplandığı ek bilgileri içerir. Arayan kişi bu nesneyi kullanabilir veya yok sayabilir C#'da.
 type: docs
 weight: 5590
 url: /tr/net/aspose.words.saving/saveoutputparameters/
@@ -22,7 +24,7 @@ public class SaveOutputParameters
 | --- | --- |
 | [ContentType](../../aspose.words.saving/saveoutputparameters/contenttype/) { get; } | Kaydedilen belgenin türünü tanımlayan İçerik Türü dizesini (İnternet Medya Türü) döndürür. |
 
-### Örnekler
+## Örnekler
 
 Bir belgenin kaydetme işleminin çıktı parametrelerine nasıl erişileceğini gösterir.
 
@@ -46,5 +48,3 @@ Assert.AreEqual("application/pdf", parameters.ContentType);
 
 * ad alanı [Aspose.Words.Saving](../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../)
-
-

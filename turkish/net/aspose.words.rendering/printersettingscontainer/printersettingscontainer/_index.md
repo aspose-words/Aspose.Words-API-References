@@ -1,7 +1,9 @@
 ---
-title: PrinterSettingsContainer.PrinterSettingsContainer
-second_title: Aspose.Words for .NET API Referansı
-description: PrinterSettingsContainer inşaatçı. Şunun için bir kapsayıcı oluştururPrinterSettings .
+title: PrinterSettingsContainer
+linktitle: PrinterSettingsContainer
+articleTitle: PrinterSettingsContainer
+second_title: Aspose.Words for .NET
+description: PrinterSettingsContainer inşaatçı. Şunun için bir kapsayıcı oluştururPrinterSettings  C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.rendering/printersettingscontainer/printersettingscontainer/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.rendering/printersettingscontainer/printersettingscont
 public PrinterSettingsContainer(PrinterSettings settings)
 ```
 
-### Örnekler
+## Örnekler
 
 Yazıcınızın kağıt kaynaklarına ve boyutlarına nasıl erişeceğinizi ve bunları listeleyeceğinizi gösterir.
 
@@ -47,7 +49,5 @@ foreach (System.Drawing.Printing.PaperSize paperSize in container.PaperSizes)
 ### Ayrıca bakınız
 
 * class [PrinterSettingsContainer](../)
-* ad alanı [Aspose.Words.Rendering](../../printersettingscontainer/)
+* ad alanı [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * toplantı [Aspose.Words](../../../)
-
-

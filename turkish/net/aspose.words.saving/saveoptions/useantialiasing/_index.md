@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.UseAntiAliasing
-second_title: Aspose.Words for .NET API Referansı
-description: SaveOptions mülk. Oluşturma için kenar yumuşatma kullanılıp kullanılmayacağını belirleyen bir değer alır veya ayarlar.
+linktitle: UseAntiAliasing
+articleTitle: UseAntiAliasing
+second_title: Aspose.Words for .NET
+description: SaveOptions UseAntiAliasing mülk. Oluşturma için kenar yumuşatma kullanılıp kullanılmayacağını belirleyen bir değer alır veya ayarlar C#'da.
 type: docs
 weight: 190
 url: /tr/net/aspose.words.saving/saveoptions/useantialiasing/
@@ -14,13 +16,13 @@ Oluşturma için kenar yumuşatma kullanılıp kullanılmayacağını belirleyen
 public bool UseAntiAliasing { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:`YANLIŞ` . Bu değer şu şekilde ayarlandığında`doğru` kenar yumuşatma is oluşturma için kullanılır.
 
 Bu özellik, belge şu formatlara aktarıldığında kullanılır: Tiff ,Png ,Bmp , Jpeg ,Emf . Belge the 'ye aktarıldığındaHtml ,Mhtml , Epub ,Azw3 veyaMobi formatlarında bu seçenek raster görüntüler için kullanılır.
 
-### Örnekler
+## Örnekler
 
 İşlenen bir belgenin kalitesinin SaveOptions ile nasıl iyileştirileceğini gösterir.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Document.ImageSaveOptions.HighQuality.jpg", options);
 ### Ayrıca bakınız
 
 * class [SaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../saveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

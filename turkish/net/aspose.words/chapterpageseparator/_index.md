@@ -1,7 +1,9 @@
 ---
-title: Enum ChapterPageSeparator
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.ChapterPageSeparator Sıralama. Bölüm ve sayfa numarası arasında görünen ayırıcı karakteri tanımlar.
+title: ChapterPageSeparator Enum
+linktitle: ChapterPageSeparator
+articleTitle: ChapterPageSeparator
+second_title: Aspose.Words for .NET
+description: Aspose.Words.ChapterPageSeparator Sıralama. Bölüm ve sayfa numarası arasında görünen ayırıcı karakteri tanımlar C#'da.
 type: docs
 weight: 200
 url: /tr/net/aspose.words/chapterpageseparator/
@@ -24,7 +26,7 @@ public enum ChapterPageSeparator
 | EmDash | `3` | Vurgulanan bir çizgi. |
 | EnDash | `4` | Standart bir çizgi. |
 
-### Örnekler
+## Örnekler
 
 Sayfa bölümleriyle nasıl çalışılacağını gösterir.
 
@@ -44,5 +46,3 @@ pageSetup.HeadingLevelForChapter = 1;
 * property [ChapterPageSeparator](../pagesetup/chapterpageseparator/)
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

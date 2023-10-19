@@ -1,7 +1,9 @@
 ---
 title: Table.AllowAutoFit
-second_title: Aspose.Words for .NET API Referansı
-description: Table mülk. Microsoft Word ve Aspose.Wordsün tablodaki hücreleri içeriklerine uyacak şekilde otomatik olarak yeniden boyutlandırmasına olanak tanır.
+linktitle: AllowAutoFit
+articleTitle: AllowAutoFit
+second_title: Aspose.Words for .NET
+description: Table AllowAutoFit mülk. Microsoft Word ve Aspose.Wordsün tablodaki hücreleri içeriklerine uyacak şekilde otomatik olarak yeniden boyutlandırmasına olanak tanır C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.tables/table/allowautofit/
@@ -14,11 +16,11 @@ Microsoft Word ve Aspose.Words'ün tablodaki hücreleri içeriklerine uyacak şe
 public bool AllowAutoFit { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:`doğru`.
 
-### Örnekler
+## Örnekler
 
 Otomatik tablo hücresi yeniden boyutlandırmanın nasıl etkinleştirileceğini/devre dışı bırakılacağını gösterir.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Table.AllowAutoFitOnTable.html");
 ### Ayrıca bakınız
 
 * class [Table](../)
-* ad alanı [Aspose.Words.Tables](../../table/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

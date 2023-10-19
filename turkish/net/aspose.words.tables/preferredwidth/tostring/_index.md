@@ -1,7 +1,9 @@
 ---
 title: PreferredWidth.ToString
-second_title: Aspose.Words for .NET API Referansı
-description: PreferredWidth yöntem. Bu nesnenin değerini görüntüleyen kullanıcı dostu bir dize döndürür.
+linktitle: ToString
+articleTitle: ToString
+second_title: Aspose.Words for .NET
+description: PreferredWidth ToString yöntem. Bu nesnenin değerini görüntüleyen kullanıcı dostu bir dize döndürür C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words.tables/preferredwidth/tostring/
@@ -14,7 +16,7 @@ Bu nesnenin değerini görüntüleyen kullanıcı dostu bir dize döndürür.
 public override string ToString()
 ```
 
-### Örnekler
+## Örnekler
 
 Tablo hücreleri için tercih edilen genişliğin nasıl ayarlanacağını gösterir.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCellsWithPreferredWidths.docx");
 ### Ayrıca bakınız
 
 * class [PreferredWidth](../)
-* ad alanı [Aspose.Words.Tables](../../preferredwidth/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

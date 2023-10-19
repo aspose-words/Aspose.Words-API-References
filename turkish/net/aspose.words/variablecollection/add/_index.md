@@ -1,7 +1,9 @@
 ---
 title: VariableCollection.Add
-second_title: Aspose.Words for .NET API Referansı
-description: VariableCollection yöntem. Koleksiyona bir belge değişkeni ekler.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words for .NET
+description: VariableCollection Add yöntem. Koleksiyona bir belge değişkeni ekler C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/variablecollection/add/
@@ -19,7 +21,7 @@ public void Add(string name, string value)
 | name | String | Eklenecek değişkenin büyük/küçük harfe duyarlı olmayan adı. |
 | value | String | Değişkenin değeri. Değer olamaz`hükümsüz`, eğer değer null ise bunun yerine boş dize kullanılacaktır. |
 
-### Örnekler
+## Örnekler
 
 Bir belgenin değişken koleksiyonuyla nasıl çalışılacağını gösterir.
 
@@ -86,7 +88,5 @@ Assert.That(variables, Is.Empty);
 ### Ayrıca bakınız
 
 * class [VariableCollection](../)
-* ad alanı [Aspose.Words](../../variablecollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

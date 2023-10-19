@@ -1,7 +1,9 @@
 ---
 title: FormField.Type
-second_title: Aspose.Words for .NET API Referansı
-description: FormField mülk. Form alanı türünü döndürür.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words for .NET
+description: FormField Type mülk. Form alanı türünü döndürür C#'da.
 type: docs
 weight: 220
 url: /tr/net/aspose.words.fields/formfield/type/
@@ -14,7 +16,7 @@ Form alanı türünü döndürür.
 public FieldType Type { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Açılan kutunun nasıl ekleneceğini gösterir.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "FormFields.Create.html");
 
 * enum [FieldType](../../fieldtype/)
 * class [FormField](../)
-* ad alanı [Aspose.Words.Fields](../../formfield/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

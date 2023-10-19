@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Lines
-second_title: Aspose.Words for .NET API Referansı
-description: BuiltInDocumentProperties mülk. Belgedeki satır sayısına ilişkin bir tahmindir.
+linktitle: Lines
+articleTitle: Lines
+second_title: Aspose.Words for .NET
+description: BuiltInDocumentProperties Lines mülk. Belgedeki satır sayısına ilişkin bir tahmindir C#'da.
 type: docs
 weight: 180
 url: /tr/net/aspose.words.properties/builtindocumentproperties/lines/
@@ -14,11 +16,11 @@ Belgedeki satır sayısına ilişkin bir tahmindir.
 public int Lines { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Aspose.Words aradığınızda bu özelliği günceller[`UpdateWordCount`](../../../aspose.words/document/updatewordcount/).
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki tüm liste etiketlerinin nasıl güncelleştirileceğini gösterir.
 
@@ -160,7 +162,5 @@ private class LineCounter
 ### Ayrıca bakınız
 
 * class [BuiltInDocumentProperties](../)
-* ad alanı [Aspose.Words.Properties](../../builtindocumentproperties/)
+* ad alanı [Aspose.Words.Properties](../../../aspose.words.properties/)
 * toplantı [Aspose.Words](../../../)
-
-

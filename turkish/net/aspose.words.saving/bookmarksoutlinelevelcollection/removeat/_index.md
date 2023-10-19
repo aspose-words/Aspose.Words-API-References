@@ -1,7 +1,9 @@
 ---
 title: BookmarksOutlineLevelCollection.RemoveAt
-second_title: Aspose.Words for .NET API Referansı
-description: BookmarksOutlineLevelCollection yöntem. Belirtilen dizindeki yer imini kaldırır.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words for .NET
+description: BookmarksOutlineLevelCollection RemoveAt yöntem. Belirtilen dizindeki yer imini kaldırır C#'da.
 type: docs
 weight: 100
 url: /tr/net/aspose.words.saving/bookmarksoutlinelevelcollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | Sıfır tabanlı endeks. |
 
-### Örnekler
+## Örnekler
 
 Yer imleri için anahat düzeylerinin nasıl ayarlanacağını gösterir.
 
@@ -76,7 +78,5 @@ outlineLevels.Clear();
 ### Ayrıca bakınız
 
 * class [BookmarksOutlineLevelCollection](../)
-* ad alanı [Aspose.Words.Saving](../../bookmarksoutlinelevelcollection/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

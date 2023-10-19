@@ -1,7 +1,9 @@
 ---
 title: RowFormat.HeadingFormat
-second_title: Aspose.Words for .NET API Referansı
-description: RowFormat mülk. Tablo birden fazla sayfaya yayıldığında satır her sayfada tablo başlığı olarak tekrarlanıyorsa doğrudur.
+linktitle: HeadingFormat
+articleTitle: HeadingFormat
+second_title: Aspose.Words for .NET
+description: RowFormat HeadingFormat mülk. Tablo birden fazla sayfaya yayıldığında satır her sayfada tablo başlığı olarak tekrarlanıyorsa doğrudur C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.tables/rowformat/headingformat/
@@ -14,7 +16,7 @@ Tablo birden fazla sayfaya yayıldığında satır her sayfada tablo başlığı
 public bool HeadingFormat { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Her sayfada tekrarlanan satırlardan oluşan bir tablonun nasıl oluşturulacağını gösterir.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTableSetHeadingRow.docx");
 ### Ayrıca bakınız
 
 * class [RowFormat](../)
-* ad alanı [Aspose.Words.Tables](../../rowformat/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

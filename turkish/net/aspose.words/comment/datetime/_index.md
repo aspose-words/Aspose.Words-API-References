@@ -1,7 +1,9 @@
 ---
 title: Comment.DateTime
-second_title: Aspose.Words for .NET API Referansı
-description: Comment mülk. Yorumun yapıldığı tarih ve saati alır.
+linktitle: DateTime
+articleTitle: DateTime
+second_title: Aspose.Words for .NET
+description: Comment DateTime mülk. Yorumun yapıldığı tarih ve saati alır C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words/comment/datetime/
@@ -14,11 +16,11 @@ Yorumun yapıldığı tarih ve saati alır.
 public DateTime DateTime { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan:MinValue.
 
-### Örnekler
+## Örnekler
 
 Bir belge ziyaretçisi kullanılarak tüm yorumların içeriğinin ve yorum aralıklarının nasıl yazdırıldığını gösterir.
 
@@ -179,7 +181,5 @@ public class CommentInfoPrinter : DocumentVisitor
 ### Ayrıca bakınız
 
 * class [Comment](../)
-* ad alanı [Aspose.Words](../../comment/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: OdsoRecipientData.Column
-second_title: Aspose.Words for .NET API Referansı
-description: OdsoRecipientData mülk. Geçerli kayıt için benzersiz verileri içeren veri kaynağı içindeki sütunu belirtir. Varsayılan değer 0. dir
+linktitle: Column
+articleTitle: Column
+second_title: Aspose.Words for .NET
+description: OdsoRecipientData Column mülk. Geçerli kayıt için benzersiz verileri içeren veri kaynağı içindeki sütunu belirtir. Varsayılan değer 0. dir C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.settings/odsorecipientdata/column/
@@ -14,7 +16,7 @@ Geçerli kayıt için benzersiz verileri içeren veri kaynağı içindeki sütun
 public int Column { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Adres-mektup birleştirmenin hangi birleştirme veri kaynağı kayıtlarını hariç tutacağını belirleyen veri koleksiyonuna nasıl erişileceğini gösterir.
 
@@ -54,7 +56,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Ayrıca bakınız
 
 * class [OdsoRecipientData](../)
-* ad alanı [Aspose.Words.Settings](../../odsorecipientdata/)
+* ad alanı [Aspose.Words.Settings](../../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../../)
-
-

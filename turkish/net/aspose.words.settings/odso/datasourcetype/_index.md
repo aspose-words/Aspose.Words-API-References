@@ -1,7 +1,9 @@
 ---
 title: Odso.DataSourceType
-second_title: Aspose.Words for .NET API Referansı
-description: Odso mülk. Bu adresmektup birleştirme için ODSO bağlantı bilgilerinin bir parçası olarak bağlanılacak dış veri kaynağının türünü belirtir. Varsayılan değerDefault .
+linktitle: DataSourceType
+articleTitle: DataSourceType
+second_title: Aspose.Words for .NET
+description: Odso DataSourceType mülk. Bu adresmektup birleştirme için ODSO bağlantı bilgilerinin bir parçası olarak bağlanılacak dış veri kaynağının türünü belirtir. Varsayılan değerDefault  C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.settings/odso/datasourcetype/
@@ -14,11 +16,11 @@ Bu adres-mektup birleştirme için ODSO bağlantı bilgilerinin bir parçası ol
 public OdsoDataSourceType DataSourceType { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu ayar yalnızca bu adres-mektup birleştirme için kullanılan veri kaynağı türüne ilişkin bir öneridir.
 
-### Örnekler
+## Örnekler
 
 Bir Office Veri Kaynağı Nesnesinden alınan verilerle adres-mektup birleştirmenin nasıl yürütüleceğini gösterir.
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * enum [OdsoDataSourceType](../../odsodatasourcetype/)
 * class [Odso](../)
-* ad alanı [Aspose.Words.Settings](../../odso/)
+* ad alanı [Aspose.Words.Settings](../../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../../)
-
-

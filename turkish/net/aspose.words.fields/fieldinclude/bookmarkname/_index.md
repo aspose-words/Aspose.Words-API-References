@@ -1,7 +1,9 @@
 ---
 title: FieldInclude.BookmarkName
-second_title: Aspose.Words for .NET API Referansı
-description: FieldInclude mülk. Belgeye eklenecek yer işaretinin adını alır veya ayarlar.
+linktitle: BookmarkName
+articleTitle: BookmarkName
+second_title: Aspose.Words for .NET
+description: FieldInclude BookmarkName mülk. Belgeye eklenecek yer işaretinin adını alır veya ayarlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fieldinclude/bookmarkname/
@@ -14,7 +16,7 @@ Belgeye eklenecek yer işaretinin adını alır veya ayarlar.
 public string BookmarkName { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 INCLUDE alanının nasıl oluşturulacağını ve özelliklerinin nasıl ayarlanacağını gösterir.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Field.INCLUDE.docx");
 ### Ayrıca bakınız
 
 * class [FieldInclude](../)
-* ad alanı [Aspose.Words.Fields](../../fieldinclude/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

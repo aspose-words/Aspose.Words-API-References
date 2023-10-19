@@ -1,7 +1,9 @@
 ---
-title: Class ControlChar
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.ControlChar sınıf. Belgelerde sıklıkla karşılaşılan kontrol karakterleri.
+title: ControlChar Class
+linktitle: ControlChar
+articleTitle: ControlChar
+second_title: Aspose.Words for .NET
+description: Aspose.Words.ControlChar sınıf. Belgelerde sıklıkla karşılaşılan kontrol karakterleri C#'da.
 type: docs
 weight: 350
 url: /tr/net/aspose.words/controlchar/
@@ -49,11 +51,11 @@ public static class ControlChar
 | static readonly [Tab](../../aspose.words/controlchar/tab/) | Sekme karakteri: "\x0009" veya "\t". |
 | const [TabChar](../../aspose.words/controlchar/tabchar/) | Sekme karakteri: (char)9 veya "\t". |
 
-### Notlar
+## Notlar
 
 Aynı sabitlerin hem karakter hem de dize versiyonlarını sağlar. Örneğin: dize[`LineBreak`](./linebreak/) ve karakter[`LineBreakChar`](./linebreakchar/) aynı değere sahip.
 
-### Örnekler
+## Örnekler
 
 Kontrol karakterlerinin nasıl kullanılacağını gösterir.
 
@@ -81,5 +83,3 @@ Assert.AreEqual($"Hello world!{ControlChar.Cr}" +
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

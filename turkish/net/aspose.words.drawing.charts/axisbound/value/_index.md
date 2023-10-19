@@ -1,7 +1,9 @@
 ---
 title: AxisBound.Value
-second_title: Aspose.Words for .NET API Referansı
-description: AxisBound mülk. Sınırlanan eksenin sayısal değerini döndürür.
+linktitle: Value
+articleTitle: Value
+second_title: Aspose.Words for .NET
+description: AxisBound Value mülk. Sınırlanan eksenin sayısal değerini döndürür C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.drawing.charts/axisbound/value/
@@ -14,7 +16,7 @@ Sınırlanan eksenin sayısal değerini döndürür.
 public double Value { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Özel eksen sınırlarının nasıl ayarlanacağını gösterir.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "Charts.AxisBound.docx");
 ### Ayrıca bakınız
 
 * class [AxisBound](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../axisbound/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

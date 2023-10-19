@@ -1,7 +1,9 @@
 ---
 title: FileFormatInfo.Encoding
-second_title: Aspose.Words for .NET API Referansı
-description: FileFormatInfo mülk. Geçerli belge biçimine uygunsa algılanan kodlamayı alır. Şu anda yalnızca HTML belgeleri için kodlamayı algılar.
+linktitle: Encoding
+articleTitle: Encoding
+second_title: Aspose.Words for .NET
+description: FileFormatInfo Encoding mülk. Geçerli belge biçimine uygunsa algılanan kodlamayı alır. Şu anda yalnızca HTML belgeleri için kodlamayı algılar C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/fileformatinfo/encoding/
@@ -14,7 +16,7 @@ Geçerli belge biçimine uygunsa, algılanan kodlamayı alır. Şu anda yalnızc
 public Encoding Encoding { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir html dosyasındaki kodlamanın nasıl algılanacağını gösterir.
 
@@ -31,7 +33,5 @@ Assert.AreEqual(1252, info.Encoding.CodePage);
 ### Ayrıca bakınız
 
 * class [FileFormatInfo](../)
-* ad alanı [Aspose.Words](../../fileformatinfo/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

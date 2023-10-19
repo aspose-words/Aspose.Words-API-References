@@ -1,7 +1,9 @@
 ---
 title: ChartDataPoint.InvertIfNegative
-second_title: Aspose.Words for .NET API Referansı
-description: ChartDataPoint mülk. Değer negatifse ana öğenin renklerini ters çevirip çevirmeyeceğini belirtir.
+linktitle: InvertIfNegative
+articleTitle: InvertIfNegative
+second_title: Aspose.Words for .NET
+description: ChartDataPoint InvertIfNegative mülk. Değer negatifse ana öğenin renklerini ters çevirip çevirmeyeceğini belirtir C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.drawing.charts/chartdatapoint/invertifnegative/
@@ -17,7 +19,5 @@ public bool InvertIfNegative { get; set; }
 ### Ayrıca bakınız
 
 * class [ChartDataPoint](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartdatapoint/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

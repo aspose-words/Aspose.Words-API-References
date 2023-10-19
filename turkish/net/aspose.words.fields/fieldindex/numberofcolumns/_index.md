@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.NumberOfColumns
-second_title: Aspose.Words for .NET API Referansı
-description: FieldIndex mülk. Dizini oluştururken sayfa başına kullanılan sütun sayısını alır veya ayarlar.
+linktitle: NumberOfColumns
+articleTitle: NumberOfColumns
+second_title: Aspose.Words for .NET
+description: FieldIndex NumberOfColumns mülk. Dizini oluştururken sayfa başına kullanılan sütun sayısını alır veya ayarlar C#'da.
 type: docs
 weight: 100
 url: /tr/net/aspose.words.fields/fieldindex/numberofcolumns/
@@ -14,7 +16,7 @@ Dizini oluştururken sayfa başına kullanılan sütun sayısını alır veya ay
 public string NumberOfColumns { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir INDEX alanının XE alanlarını kullanarak girişlerle nasıl doldurulacağını ve ayrıca görünümünün nasıl değiştirileceğini gösterir.
 
@@ -86,7 +88,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Formatting.docx");
 ### Ayrıca bakınız
 
 * class [FieldIndex](../)
-* ad alanı [Aspose.Words.Fields](../../fieldindex/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

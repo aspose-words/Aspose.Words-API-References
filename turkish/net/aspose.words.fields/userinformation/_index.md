@@ -1,7 +1,9 @@
 ---
-title: Class UserInformation
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Fields.UserInformation sınıf. Kullanıcı hakkındaki bilgileri belirtir.
+title: UserInformation Class
+linktitle: UserInformation
+articleTitle: UserInformation
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Fields.UserInformation sınıf. Kullanıcı hakkındaki bilgileri belirtir C#'da.
 type: docs
 weight: 2790
 url: /tr/net/aspose.words.fields/userinformation/
@@ -31,7 +33,7 @@ public class UserInformation
 | [Initials](../../aspose.words.fields/userinformation/initials/) { get; set; } | Kullanıcının baş harflerini alır veya ayarlar. |
 | [Name](../../aspose.words.fields/userinformation/name/) { get; set; } | Kullanıcının adını alır veya ayarlar. |
 
-### Örnekler
+## Örnekler
 
 Kullanıcı ayrıntılarının nasıl ayarlanacağını ve alanları kullanarak bunların nasıl görüntüleneceğini gösterir.
 
@@ -72,5 +74,3 @@ doc.Save(ArtifactsDir + "FieldOptions.CurrentUser.docx");
 
 * ad alanı [Aspose.Words.Fields](../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../)
-
-

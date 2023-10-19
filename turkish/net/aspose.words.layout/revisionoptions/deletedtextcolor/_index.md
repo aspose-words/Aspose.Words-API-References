@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.DeletedTextColor
-second_title: Aspose.Words for .NET API Referansı
-description: RevisionOptions mülk. Silinen içerik için kullanılacak rengi belirlemeye izin verirDeletion . Varsayılan değerByAuthor .
+linktitle: DeletedTextColor
+articleTitle: DeletedTextColor
+second_title: Aspose.Words for .NET
+description: RevisionOptions DeletedTextColor mülk. Silinen içerik için kullanılacak rengi belirlemeye izin verirDeletion . Varsayılan değerByAuthor  C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.layout/revisionoptions/deletedtextcolor/
@@ -14,7 +16,7 @@ Silinen içerik için kullanılacak rengi belirlemeye izin verirDeletion . Varsa
 public RevisionColor DeletedTextColor { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Revizyonların görünümünün nasıl değiştirileceğini gösterir.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 
 * enum [RevisionColor](../../revisioncolor/)
 * class [RevisionOptions](../)
-* ad alanı [Aspose.Words.Layout](../../revisionoptions/)
+* ad alanı [Aspose.Words.Layout](../../../aspose.words.layout/)
 * toplantı [Aspose.Words](../../../)
-
-

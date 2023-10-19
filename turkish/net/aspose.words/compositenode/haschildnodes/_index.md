@@ -1,7 +1,9 @@
 ---
 title: CompositeNode.HasChildNodes
-second_title: Aspose.Words for .NET API Referansı
-description: CompositeNode mülk. İadelerdoğru bu düğümün herhangi bir alt düğümü varsa.
+linktitle: HasChildNodes
+articleTitle: HasChildNodes
+second_title: Aspose.Words for .NET
+description: CompositeNode HasChildNodes mülk. İadelerdoğru bu düğümün herhangi bir alt düğümü varsa C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/compositenode/haschildnodes/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words/compositenode/haschildnodes/
 public bool HasChildNodes { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 İki tablodaki satırların nasıl birleştirileceğini gösterir.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "Table.CombineTables.docx");
 ### Ayrıca bakınız
 
 * class [CompositeNode](../)
-* ad alanı [Aspose.Words](../../compositenode/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: TaskPane.Row
-second_title: Aspose.Words for .NET API Referansı
-description: TaskPane mülk. Aynı varsayılan konuma yerleştirilmiş diğer persisted görev bölmeleri arasında bu görev bölmesinin dışarıdan içeriye doğru numaralandırılan dizinini belirtir.
+linktitle: Row
+articleTitle: Row
+second_title: Aspose.Words for .NET
+description: TaskPane Row mülk. Aynı varsayılan konuma yerleştirilmiş diğer persisted görev bölmeleri arasında bu görev bölmesinin dışarıdan içeriye doğru numaralandırılan dizinini belirtir C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.webextensions/taskpane/row/
@@ -14,7 +16,7 @@ Aynı varsayılan konuma yerleştirilmiş diğer persisted görev bölmeleri ara
 public int Row { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgeye nasıl web uzantısı ekleneceğini gösterir.
 
@@ -59,7 +61,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### Ayrıca bakınız
 
 * class [TaskPane](../)
-* ad alanı [Aspose.Words.WebExtensions](../../taskpane/)
+* ad alanı [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * toplantı [Aspose.Words](../../../)
-
-

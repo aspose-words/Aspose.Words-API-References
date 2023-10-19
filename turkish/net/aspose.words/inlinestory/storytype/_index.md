@@ -1,7 +1,9 @@
 ---
 title: InlineStory.StoryType
-second_title: Aspose.Words for .NET API Referansı
-description: InlineStory mülk. Hikayenin türünü döndürür.
+linktitle: StoryType
+articleTitle: StoryType
+second_title: Aspose.Words for .NET
+description: InlineStory StoryType mülk. Hikayenin türünü döndürür C#'da.
 type: docs
 weight: 100
 url: /tr/net/aspose.words/inlinestory/storytype/
@@ -14,7 +16,7 @@ Hikayenin türünü döndürür.
 public abstract StoryType StoryType { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 InlineStory düğümlerinin nasıl ekleneceğini gösterir.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "InlineStory.InsertInlineStoryNodes.docx");
 
 * enum [StoryType](../../storytype/)
 * class [InlineStory](../)
-* ad alanı [Aspose.Words](../../inlinestory/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FrameFormat.VerticalAlignment
-second_title: Aspose.Words for .NET API Referansı
-description: FrameFormat mülk. Belirtilen çerçevenin dikey hizalamasını alır.
+linktitle: VerticalAlignment
+articleTitle: VerticalAlignment
+second_title: Aspose.Words for .NET
+description: FrameFormat VerticalAlignment mülk. Belirtilen çerçevenin dikey hizalamasını alır C#'da.
 type: docs
 weight: 90
 url: /tr/net/aspose.words/frameformat/verticalalignment/
@@ -14,7 +16,7 @@ Belirtilen çerçevenin dikey hizalamasını alır.
 public VerticalAlignment VerticalAlignment { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Çerçeve olan paragrafların biçimlendirme özellikleri hakkında nasıl bilgi alınacağını gösterir.
 
@@ -40,7 +42,5 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 
 * enum [VerticalAlignment](../../../aspose.words.drawing/verticalalignment/)
 * class [FrameFormat](../)
-* ad alanı [Aspose.Words](../../frameformat/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

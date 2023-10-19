@@ -1,7 +1,9 @@
 ---
-title: Class AxisScaling
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.Charts.AxisScaling sınıf. Eksenin ölçeklendirme seçeneklerini temsil eder.
+title: AxisScaling Class
+linktitle: AxisScaling
+articleTitle: AxisScaling
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.Charts.AxisScaling sınıf. Eksenin ölçeklendirme seçeneklerini temsil eder C#'da.
 type: docs
 weight: 570
 url: /tr/net/aspose.words.drawing.charts/axisscaling/
@@ -31,7 +33,7 @@ public class AxisScaling
 | [Minimum](../../aspose.words.drawing.charts/axisscaling/minimum/) { get; set; } | Eksenin minimum değerini alır veya ayarlar. |
 | [Type](../../aspose.words.drawing.charts/axisscaling/type/) { get; set; } | Eksenin ölçeklendirme türünü alır veya ayarlar. |
 
-### Örnekler
+## Örnekler
 
 Logaritmik ölçeklendirmenin bir grafik eksenine nasıl uygulanacağını gösterir.
 
@@ -66,5 +68,3 @@ doc.Save(ArtifactsDir + "Charts.AxisScaling.docx");
 
 * ad alanı [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../)
-
-

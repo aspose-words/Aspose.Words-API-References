@@ -1,7 +1,9 @@
 ---
-title: FieldPrintDate.FieldPrintDate
-second_title: Aspose.Words for .NET API Referansı
-description: FieldPrintDate inşaatçı. Default_Constructor
+title: FieldPrintDate
+linktitle: FieldPrintDate
+articleTitle: FieldPrintDate
+second_title: Aspose.Words for .NET
+description: FieldPrintDate inşaatçı. Default_Constructor C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fieldprintdate/fieldprintdate/
@@ -17,7 +19,5 @@ public FieldPrintDate()
 ### Ayrıca bakınız
 
 * class [FieldPrintDate](../)
-* ad alanı [Aspose.Words.Fields](../../fieldprintdate/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

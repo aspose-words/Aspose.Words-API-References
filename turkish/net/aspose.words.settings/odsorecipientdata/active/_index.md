@@ -1,7 +1,9 @@
 ---
 title: OdsoRecipientData.Active
-second_title: Aspose.Words for .NET API Referansı
-description: OdsoRecipientData mülk. Adresmektup birleştirme gerçekleştirilirken veri kaynağındaki kaydın bir belgeye aktarılıp aktarılmayacağını belirtir. Varsayılan değerdoğru .
+linktitle: Active
+articleTitle: Active
+second_title: Aspose.Words for .NET
+description: OdsoRecipientData Active mülk. Adresmektup birleştirme gerçekleştirilirken veri kaynağındaki kaydın bir belgeye aktarılıp aktarılmayacağını belirtir. Varsayılan değerdoğru  C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.settings/odsorecipientdata/active/
@@ -14,7 +16,7 @@ Adres-mektup birleştirme gerçekleştirilirken veri kaynağındaki kaydın bir 
 public bool Active { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Adres-mektup birleştirmenin hangi birleştirme veri kaynağı kayıtlarını hariç tutacağını belirleyen veri koleksiyonuna nasıl erişileceğini gösterir.
 
@@ -54,7 +56,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Ayrıca bakınız
 
 * class [OdsoRecipientData](../)
-* ad alanı [Aspose.Words.Settings](../../odsorecipientdata/)
+* ad alanı [Aspose.Words.Settings](../../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../../)
-
-

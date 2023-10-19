@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.EndEditableRange
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentBuilder yöntem. Belgedeki geçerli konumu düzenlenebilir aralık sonu olarak işaretler.
+linktitle: EndEditableRange
+articleTitle: EndEditableRange
+second_title: Aspose.Words for .NET
+description: DocumentBuilder EndEditableRange yöntem. Belgedeki geçerli konumu düzenlenebilir aralık sonu olarak işaretler C#'da.
 type: docs
 weight: 230
 url: /tr/net/aspose.words/documentbuilder/endeditablerange/
@@ -18,13 +20,13 @@ public EditableRangeEnd EndEditableRange()
 
 Yeni oluşturulan düzenlenebilir aralık bitiş düğümü.
 
-### Notlar
+## Notlar
 
 Bir belgedeki düzenlenebilir aralık herhangi bir aralıkla örtüşebilir ve kapsanabilir. Geçerli bir düzenlenebilir aralık oluşturmak için her ikisini de çağırmanız gerekir[`StartEditableRange`](../starteditablerange/) Ve`EndEditableRange` veya`EndEditableRange` yöntemler.
 
 Belge kaydedildiğinde, kötü biçimlendirilmiş düzenlenebilir aralık göz ardı edilecektir.
 
-### Örnekler
+## Örnekler
 
 Düzenlenebilir bir aralıkla nasıl çalışılacağını gösterir.
 
@@ -71,12 +73,12 @@ editableRange.Remove();
 
 * class [EditableRangeEnd](../../editablerangeend/)
 * class [DocumentBuilder](../)
-* ad alanı [Aspose.Words](../../documentbuilder/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## EndEditableRange(EditableRangeStart) {#endeditablerange_1}
+## EndEditableRange(*[EditableRangeStart](../../editablerangestart/)*) {#endeditablerange_1}
 
 Belgedeki geçerli konumu düzenlenebilir aralık sonu olarak işaretler.
 
@@ -92,7 +94,7 @@ public EditableRangeEnd EndEditableRange(EditableRangeStart start)
 
 Yeni oluşturulan düzenlenebilir aralık bitiş düğümü.
 
-### Notlar
+## Notlar
 
 İç içe düzenlenebilir aralıklar oluştururken bu aşırı yüklemeyi kullanın.
 
@@ -100,7 +102,7 @@ Bir belgedeki düzenlenebilir aralık herhangi bir aralıkla örtüşebilir ve k
 
 Belge kaydedildiğinde, kötü biçimlendirilmiş düzenlenebilir aralık göz ardı edilecektir.
 
-### Örnekler
+## Örnekler
 
 İç içe düzenlenebilir aralıkların nasıl oluşturulacağını gösterir.
 
@@ -143,7 +145,5 @@ doc.Save(ArtifactsDir + "EditableRange.Nested.docx");
 * class [EditableRangeEnd](../../editablerangeend/)
 * class [EditableRangeStart](../../editablerangestart/)
 * class [DocumentBuilder](../)
-* ad alanı [Aspose.Words](../../documentbuilder/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FormFieldCollection.GetEnumerator
-second_title: Aspose.Words for .NET API Referansı
-description: FormFieldCollection yöntem. Bir numaralandırıcı nesnesini döndürür.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words for .NET
+description: FormFieldCollection GetEnumerator yöntem. Bir numaralandırıcı nesnesini döndürür C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.fields/formfieldcollection/getenumerator/
@@ -14,7 +16,7 @@ Bir numaralandırıcı nesnesini döndürür.
 public IEnumerator<FormField> GetEnumerator()
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgeye farklı türde form alanlarının nasıl eklendiğini ve bunların bir belge ziyaretçi uygulaması kullanılarak nasıl işlendiğini gösterir.
 
@@ -149,7 +151,5 @@ public class FormFieldVisitor : DocumentVisitor
 
 * class [FormField](../../formfield/)
 * class [FormFieldCollection](../)
-* ad alanı [Aspose.Words.Fields](../../formfieldcollection/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: OdsoFieldMapDataCollection.Clear
-second_title: Aspose.Words for .NET API Referansı
-description: OdsoFieldMapDataCollection yöntem. Bu koleksiyondaki tüm öğeleri kaldırır.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words for .NET
+description: OdsoFieldMapDataCollection Clear yöntem. Bu koleksiyondaki tüm öğeleri kaldırır C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.settings/odsofieldmapdatacollection/clear/
@@ -14,7 +16,7 @@ Bu koleksiyondaki tüm öğeleri kaldırır.
 public void Clear()
 ```
 
-### Örnekler
+## Örnekler
 
 Veri kaynağı sütunlarını birleştirme alanlarıyla eşleştiren veri koleksiyonuna nasıl erişileceğini gösterir.
 
@@ -57,7 +59,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Ayrıca bakınız
 
 * class [OdsoFieldMapDataCollection](../)
-* ad alanı [Aspose.Words.Settings](../../odsofieldmapdatacollection/)
+* ad alanı [Aspose.Words.Settings](../../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FontSettings.SubstitutionSettings
-second_title: Aspose.Words for .NET API Referansı
-description: FontSettings mülk. Yazı tipi değiştirme mekanizmasıyla ilgili ayarlar.
+linktitle: SubstitutionSettings
+articleTitle: SubstitutionSettings
+second_title: Aspose.Words for .NET
+description: FontSettings SubstitutionSettings mülk. Yazı tipi değiştirme mekanizmasıyla ilgili ayarlar C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.fonts/fontsettings/substitutionsettings/
@@ -14,7 +16,7 @@ Yazı tipi değiştirme mekanizmasıyla ilgili ayarlar.
 public FontSubstitutionSettings SubstitutionSettings { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgenin sistem yazı tipi kaynağına nasıl erişileceğini ve yazı tipi yedeklerinin nasıl ayarlanacağını gösterir.
 
@@ -71,7 +73,5 @@ Assert.AreEqual(1,
 
 * class [FontSubstitutionSettings](../../fontsubstitutionsettings/)
 * class [FontSettings](../)
-* ad alanı [Aspose.Words.Fonts](../../fontsettings/)
+* ad alanı [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: CertificateHolder.Create
-second_title: Aspose.Words for .NET API Referansı
-description: CertificateHolder yöntem. OluştururCertificateHolder PKCS12 deposunun bayt dizisini ve parolasını kullanan nesne.
+linktitle: Create
+articleTitle: Create
+second_title: Aspose.Words for .NET
+description: CertificateHolder Create yöntem. OluştururCertificateHolder PKCS12 deposunun bayt dizisini ve parolasını kullanan nesne C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.digitalsignatures/certificateholder/create/
 ---
-## Create(byte[], SecureString) {#create}
+## Create(*byte[], SecureString*) {#create}
 
 Oluşturur[`CertificateHolder`](../) PKCS12 deposunun bayt dizisini ve parolasını kullanan nesne.
 
@@ -32,7 +34,7 @@ Bir örneği[`CertificateHolder`](../)
 | SecurityException | PKCS12 deposunda takma ad yoksa atılır |
 | IOException | Yanlış şifre veya bozuk dosya varsa atılır. |
 
-### Örnekler
+## Örnekler
 
 SertifikaHolder nesnelerinin nasıl oluşturulacağını gösterir.
 
@@ -77,12 +79,12 @@ CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 ### Ayrıca bakınız
 
 * class [CertificateHolder](../)
-* ad alanı [Aspose.Words.DigitalSignatures](../../certificateholder/)
+* ad alanı [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## Create(byte[], string) {#create_1}
+## Create(*byte[], string*) {#create_1}
 
 Oluşturur[`CertificateHolder`](../) PKCS12 deposunun bayt dizisini ve parolasını kullanan nesne.
 
@@ -108,7 +110,7 @@ Bir örneği[`CertificateHolder`](../)
 | SecurityException | PKCS12 deposunda takma ad yoksa atılır |
 | IOException | Yanlış şifre veya bozuk dosya varsa atılır. |
 
-### Örnekler
+## Örnekler
 
 SertifikaHolder nesnelerinin nasıl oluşturulacağını gösterir.
 
@@ -153,12 +155,12 @@ CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 ### Ayrıca bakınız
 
 * class [CertificateHolder](../)
-* ad alanı [Aspose.Words.DigitalSignatures](../../certificateholder/)
+* ad alanı [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## Create(string, string) {#create_2}
+## Create(*string, string*) {#create_2}
 
 Oluşturur[`CertificateHolder`](../) PKCS12 deposunun yolunu ve şifresini kullanan nesne.
 
@@ -184,7 +186,7 @@ Bir örneği[`CertificateHolder`](../)
 | SecurityException | PKCS12 deposunda takma ad yoksa atılır |
 | IOException | Yanlış şifre veya bozuk dosya varsa atılır. |
 
-### Örnekler
+## Örnekler
 
 Belgelerin dijital olarak nasıl imzalanacağını gösterir.
 
@@ -213,12 +215,12 @@ using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 ### Ayrıca bakınız
 
 * class [CertificateHolder](../)
-* ad alanı [Aspose.Words.DigitalSignatures](../../certificateholder/)
+* ad alanı [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## Create(string, string, string) {#create_3}
+## Create(*string, string, string*) {#create_3}
 
 Oluşturur[`CertificateHolder`](../) PKCS12 deposunun yolunu, şifresini ve takma adını kullanarak hangi özel anahtar ve sertifikanın bulunacağını kullanan nesne.
 
@@ -246,7 +248,7 @@ Bir örneği[`CertificateHolder`](../)
 | IOException | Yanlış şifre veya bozuk dosya varsa atılır. |
 | SecurityException | Belirtilen takma adda özel anahtar yoksa atılır |
 
-### Örnekler
+## Örnekler
 
 SertifikaHolder nesnelerinin nasıl oluşturulacağını gösterir.
 
@@ -291,7 +293,5 @@ CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 ### Ayrıca bakınız
 
 * class [CertificateHolder](../)
-* ad alanı [Aspose.Words.DigitalSignatures](../../certificateholder/)
+* ad alanı [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * toplantı [Aspose.Words](../../../)
-
-

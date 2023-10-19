@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.PageMargins
-second_title: Aspose.Words for .NET API Referansı
-description: HtmlFixedSaveOptions mülk. Bir HTML belgesindeki sayfaların etrafındaki kenar boşluklarını belirtir. Kenar boşlukları değeri nokta cinsinden ölçülür ve 0a eşit veya daha büyük olmalıdır. Varsayılan değer 10 puntodur.
+linktitle: PageMargins
+articleTitle: PageMargins
+second_title: Aspose.Words for .NET
+description: HtmlFixedSaveOptions PageMargins mülk. Bir HTML belgesindeki sayfaların etrafındaki kenar boşluklarını belirtir. Kenar boşlukları değeri nokta cinsinden ölçülür ve 0a eşit veya daha büyük olmalıdır. Varsayılan değer 10 puntodur C#'da.
 type: docs
 weight: 120
 url: /tr/net/aspose.words.saving/htmlfixedsaveoptions/pagemargins/
@@ -14,7 +16,7 @@ Bir HTML belgesindeki sayfaların etrafındaki kenar boşluklarını belirtir. K
 public double PageMargins { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Değerine bağlıdır[`PageHorizontalAlignment`](../pagehorizontalalignment/) mülk:
 
@@ -22,7 +24,7 @@ Değerine bağlıdır[`PageHorizontalAlignment`](../pagehorizontalalignment/) m�
 * Değer şu şekildeyse üst, alt ve sağ sayfa kenar boşluklarını tanımlarRight .
 * Değer şu şekildeyse üst ve alt sayfa kenar boşluklarını tanımlar:Center .
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi HTML'ye kaydederken sayfa kenar boşluklarının nasıl ayarlanacağını gösterir.
 
@@ -45,7 +47,5 @@ Assert.True(Regex.Match(outDocContents,
 ### Ayrıca bakınız
 
 * class [HtmlFixedSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

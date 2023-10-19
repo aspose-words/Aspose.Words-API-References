@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.Query
-second_title: Aspose.Words for .NET API Referansı
-description: MailMergeSettings mülk. Adres mektup birleştirme işlemi gerçekleştirildiğinde belgeye aktarılacak kayıt kümesini döndürmek için belirtilen harici veri kaynağına karşı çalıştırılacak Yapılandırılmış Sorgu Dili dizesini içerir. Varsayılan değer boş bir dizedir.
+linktitle: Query
+articleTitle: Query
+second_title: Aspose.Words for .NET
+description: MailMergeSettings Query mülk. Adres mektup birleştirme işlemi gerçekleştirildiğinde belgeye aktarılacak kayıt kümesini döndürmek için belirtilen harici veri kaynağına karşı çalıştırılacak Yapılandırılmış Sorgu Dili dizesini içerir. Varsayılan değer boş bir dizedir C#'da.
 type: docs
 weight: 160
 url: /tr/net/aspose.words.settings/mailmergesettings/query/
@@ -14,7 +16,7 @@ Adres mektup birleştirme işlemi gerçekleştirildiğinde belgeye aktarılacak 
 public string Query { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir Office Veri Kaynağı Nesnesinden alınan verilerle adres-mektup birleştirmenin nasıl yürütüleceğini gösterir.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ### Ayrıca bakınız
 
 * class [MailMergeSettings](../)
-* ad alanı [Aspose.Words.Settings](../../mailmergesettings/)
+* ad alanı [Aspose.Words.Settings](../../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../../)
-
-

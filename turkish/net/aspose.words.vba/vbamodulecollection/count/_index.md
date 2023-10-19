@@ -1,7 +1,9 @@
 ---
 title: VbaModuleCollection.Count
-second_title: Aspose.Words for .NET API Referansı
-description: VbaModuleCollection mülk. Koleksiyondaki VBA modüllerinin sayısını döndürür.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words for .NET
+description: VbaModuleCollection Count mülk. Koleksiyondaki VBA modüllerinin sayısını döndürür C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.vba/vbamodulecollection/count/
@@ -14,7 +16,7 @@ Koleksiyondaki VBA modüllerinin sayısını döndürür.
 public int Count { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgenin VBA proje bilgilerine nasıl erişileceğini gösterir.
 
@@ -45,7 +47,5 @@ vbaModules.Remove(vbaModules[2]);
 ### Ayrıca bakınız
 
 * class [VbaModuleCollection](../)
-* ad alanı [Aspose.Words.Vba](../../vbamodulecollection/)
+* ad alanı [Aspose.Words.Vba](../../../aspose.words.vba/)
 * toplantı [Aspose.Words](../../../)
-
-

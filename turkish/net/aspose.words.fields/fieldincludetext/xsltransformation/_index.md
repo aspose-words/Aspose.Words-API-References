@@ -1,7 +1,9 @@
 ---
 title: FieldIncludeText.XslTransformation
-second_title: Aspose.Words for .NET API Referansı
-description: FieldIncludeText mülk. XML verilerini biçimlendirmek için XSL Dönüşümünün konumunu alır veya ayarlar.
+linktitle: XslTransformation
+articleTitle: XslTransformation
+second_title: Aspose.Words for .NET
+description: FieldIncludeText XslTransformation mülk. XML verilerini biçimlendirmek için XSL Dönüşümünün konumunu alır veya ayarlar C#'da.
 type: docs
 weight: 100
 url: /tr/net/aspose.words.fields/fieldincludetext/xsltransformation/
@@ -14,7 +16,7 @@ XML verilerini biçimlendirmek için XSL Dönüşümünün konumunu alır veya a
 public string XslTransformation { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 INCLUDETEXT alanının nasıl oluşturulacağını ve özelliklerinin nasıl ayarlanacağını gösterir.
 
@@ -59,7 +61,5 @@ public FieldIncludeText CreateFieldIncludeText(DocumentBuilder builder, string s
 ### Ayrıca bakınız
 
 * class [FieldIncludeText](../)
-* ad alanı [Aspose.Words.Fields](../../fieldincludetext/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

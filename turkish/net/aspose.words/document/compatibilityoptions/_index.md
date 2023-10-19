@@ -1,20 +1,22 @@
 ---
 title: Document.CompatibilityOptions
-second_title: Aspose.Words for .NET API Referansı
-description: Document mülk. Belge uyumluluk seçeneklerine yani Uyumluluk sekmesi Seçenekler Worddeki iletişim kutusu.
+linktitle: CompatibilityOptions
+articleTitle: CompatibilityOptions
+second_title: Aspose.Words for .NET
+description: Document CompatibilityOptions mülk. Belge uyumluluk seçeneklerine yaniUyumluluk sekmesiSeçenekler Worddeki iletişim kutusu C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words/document/compatibilityoptions/
 ---
 ## Document.CompatibilityOptions property
 
-Belge uyumluluk seçeneklerine (yani, **Uyumluluk** sekmesi **Seçenekler** Word'deki iletişim kutusu).
+Belge uyumluluk seçeneklerine (yani,**Uyumluluk** sekmesi**Seçenekler** Word'deki iletişim kutusu).
 
 ```csharp
 public CompatibilityOptions CompatibilityOptions { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Belgenin Microsoft Word'ün farklı sürümleri için nasıl optimize edileceğini gösterir.
 
@@ -74,7 +76,5 @@ private static void PrintCompatibilityOptions(CompatibilityOptions options)
 
 * class [CompatibilityOptions](../../../aspose.words.settings/compatibilityoptions/)
 * class [Document](../)
-* ad alanı [Aspose.Words](../../document/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PageLayoutCallbackArgs.Event
-second_title: Aspose.Words for .NET API Referansı
-description: PageLayoutCallbackArgs mülk. Olayı alır.
+linktitle: Event
+articleTitle: Event
+second_title: Aspose.Words for .NET
+description: PageLayoutCallbackArgs Event mülk. Olayı alır C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.layout/pagelayoutcallbackargs/event/
@@ -14,7 +16,7 @@ Olayı alır.
 public PageLayoutEvent Event { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Düzen geri çağrısıyla düzen değişikliklerinin nasıl izleneceğini gösterir.
 
@@ -81,7 +83,5 @@ private class RenderPageLayoutCallback : IPageLayoutCallback
 
 * enum [PageLayoutEvent](../../pagelayoutevent/)
 * class [PageLayoutCallbackArgs](../)
-* ad alanı [Aspose.Words.Layout](../../pagelayoutcallbackargs/)
+* ad alanı [Aspose.Words.Layout](../../../aspose.words.layout/)
 * toplantı [Aspose.Words](../../../)
-
-

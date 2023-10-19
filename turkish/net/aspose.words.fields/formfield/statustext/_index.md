@@ -1,7 +1,9 @@
 ---
 title: FormField.StatusText
-second_title: Aspose.Words for .NET API Referansı
-description: FormField mülk. Odak noktası bir form alanı olduğunda durum çubuğunda görüntülenen metni döndürür veya ayarlar.
+linktitle: StatusText
+articleTitle: StatusText
+second_title: Aspose.Words for .NET
+description: FormField StatusText mülk. Odak noktası bir form alanı olduğunda durum çubuğunda görüntülenen metni döndürür veya ayarlar C#'da.
 type: docs
 weight: 180
 url: /tr/net/aspose.words.fields/formfield/statustext/
@@ -14,13 +16,13 @@ Odak noktası bir form alanı olduğunda durum çubuğunda görüntülenen metni
 public string StatusText { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Eğer[`OwnStatus`](../ownstatus/) özellik şu şekilde ayarlandı:`doğru` ,`StatusText` özelliği durum çubuğu metnini belirtir. Eğer[`OwnStatus`](../ownstatus/) özellik şu şekilde ayarlandı:`YANLIŞ` ,`StatusText` özelliği, form alanı için durum çubuğu metnini içeren AutoText girişinin adını belirtir.
 
 Microsoft Word, en fazla 138 karakterden oluşan dizelere izin verir.
 
-### Örnekler
+## Örnekler
 
 Bir belgeye farklı türde form alanlarının nasıl eklendiğini ve bunların bir belge ziyaretçi uygulaması kullanılarak nasıl işlendiğini gösterir.
 
@@ -154,7 +156,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Ayrıca bakınız
 
 * class [FormField](../)
-* ad alanı [Aspose.Words.Fields](../../formfield/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

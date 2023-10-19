@@ -1,7 +1,9 @@
 ---
-title: Enum PdfZoomBehavior
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Saving.PdfZoomBehavior Sıralama. PDF görüntüleyicide açıldığında PDF belgesine uygulanan yakınlaştırma türünü belirtir.
+title: PdfZoomBehavior Enum
+linktitle: PdfZoomBehavior
+articleTitle: PdfZoomBehavior
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Saving.PdfZoomBehavior Sıralama. PDF görüntüleyicide açıldığında PDF belgesine uygulanan yakınlaştırma türünü belirtir C#'da.
 type: docs
 weight: 5540
 url: /tr/net/aspose.words.saving/pdfzoombehavior/
@@ -25,7 +27,7 @@ public enum PdfZoomBehavior
 | FitHeight | `4` | Sayfanın yüksekliğine sığdırır. |
 | FitBox | `5` | Sınırlayıcı kutuya sığar (sayfadaki tüm görünür öğeleri içeren dikdörtgen). |
 
-### Örnekler
+## Örnekler
 
 Okuyucunun işlenmiş bir PDF belgesini açarken uyguladığı varsayılan yakınlaştırmanın nasıl ayarlanacağını gösterir.
 
@@ -53,5 +55,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ZoomBehaviour.pdf", options);
 
 * ad alanı [Aspose.Words.Saving](../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../)
-
-

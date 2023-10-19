@@ -1,7 +1,9 @@
 ---
 title: Paragraph.ParentSection
-second_title: Aspose.Words for .NET API Referansı
-description: Paragraph mülk. Üst öğeyi alırSection paragrafın.
+linktitle: ParentSection
+articleTitle: ParentSection
+second_title: Aspose.Words for .NET
+description: Paragraph ParentSection mülk. Üst öğeyi alırSection paragrafın C#'da.
 type: docs
 weight: 200
 url: /tr/net/aspose.words/paragraph/parentsection/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words/paragraph/parentsection/
 public Section ParentSection { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Üstbilgi ve altbilginin nasıl oluşturulacağını gösterir.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Create.docx");
 
 * class [Section](../../section/)
 * class [Paragraph](../)
-* ad alanı [Aspose.Words](../../paragraph/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

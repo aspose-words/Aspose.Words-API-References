@@ -1,7 +1,9 @@
 ---
-title: Class CellFormat
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Tables.CellFormat sınıf. Bir tablo hücresinin tüm biçimlendirmesini temsil eder.
+title: CellFormat Class
+linktitle: CellFormat
+articleTitle: CellFormat
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Tables.CellFormat sınıf. Bir tablo hücresinin tüm biçimlendirmesini temsil eder C#'da.
 type: docs
 weight: 6260
 url: /tr/net/aspose.words.tables/cellformat/
@@ -23,7 +25,6 @@ public class CellFormat
 | [Borders](../../aspose.words.tables/cellformat/borders/) { get; } | Hücrenin sınırlarının toplanmasını alır. |
 | [BottomPadding](../../aspose.words.tables/cellformat/bottompadding/) { get; set; } | Hücre içeriğinin altına eklenecek alan miktarını (nokta cinsinden) döndürür veya ayarlar. |
 | [FitText](../../aspose.words.tables/cellformat/fittext/) { get; set; } | Eğer`doğru` , her paragrafı hücrenin genişliğine sıkıştırarak metni hücreye sığdırır. |
-| [HideMark](../../aspose.words.tables/cellformat/hidemark/) { get; set; } |  |
 | [HorizontalMerge](../../aspose.words.tables/cellformat/horizontalmerge/) { get; set; } | Hücrenin satırdaki diğer hücrelerle yatay olarak nasıl birleştirileceğini belirtir. |
 | [LeftPadding](../../aspose.words.tables/cellformat/leftpadding/) { get; set; } | Hücre içeriğinin soluna eklenecek alan miktarını (nokta cinsinden) döndürür veya ayarlar. |
 | [Orientation](../../aspose.words.tables/cellformat/orientation/) { get; set; } | Bir tablo hücresindeki metnin yönünü döndürür veya ayarlar. |
@@ -41,9 +42,9 @@ public class CellFormat
 | İsim | Tanım |
 | --- | --- |
 | [ClearFormatting](../../aspose.words.tables/cellformat/clearformatting/)() | Varsayılan hücre formatına sıfırlar. Hücrenin genişliğini değiştirmez. |
-| [SetPaddings](../../aspose.words.tables/cellformat/setpaddings/)(double, double, double, double) | Hücre içeriğinin sol/üst/sağ/alt kısmına eklenecek alan miktarını (nokta cinsinden) ayarlar. |
+| [SetPaddings](../../aspose.words.tables/cellformat/setpaddings/)(*double, double, double, double*) | Hücre içeriğinin sol/üst/sağ/alt kısmına eklenecek alan miktarını (nokta cinsinden) ayarlar. |
 
-### Örnekler
+## Örnekler
 
 Bir tablo hücresinin formatının nasıl değiştirileceğini gösterir.
 
@@ -157,5 +158,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * ad alanı [Aspose.Words.Tables](../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../)
-
-

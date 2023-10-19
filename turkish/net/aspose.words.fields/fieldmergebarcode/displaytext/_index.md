@@ -1,7 +1,9 @@
 ---
 title: FieldMergeBarcode.DisplayText
-second_title: Aspose.Words for .NET API Referansı
-description: FieldMergeBarcode mülk. Resimle birlikte barkod verilerinin metin görüntülenip görüntülenmeyeceğini alır veya ayarlar.
+linktitle: DisplayText
+articleTitle: DisplayText
+second_title: Aspose.Words for .NET
+description: FieldMergeBarcode DisplayText mülk. Resimle birlikte barkod verilerinin metin görüntülenip görüntülenmeyeceğini alır veya ayarlar C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.fields/fieldmergebarcode/displaytext/
@@ -14,7 +16,7 @@ Resimle birlikte barkod verilerinin (metin) görüntülenip görüntülenmeyece�
 public bool DisplayText { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 EAN13 barkodlarında adres-mektup birleştirmenin nasıl gerçekleştirileceğini gösterir.
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "Field.MERGEBARCODE.EAN13.docx");
 ### Ayrıca bakınız
 
 * class [FieldMergeBarcode](../)
-* ad alanı [Aspose.Words.Fields](../../fieldmergebarcode/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

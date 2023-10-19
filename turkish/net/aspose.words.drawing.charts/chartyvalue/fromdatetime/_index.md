@@ -1,7 +1,9 @@
 ---
 title: ChartYValue.FromDateTime
-second_title: Aspose.Words for .NET API Referansı
-description: ChartYValue yöntem. Bir oluştururChartYValue örneğiDateTime type.
+linktitle: FromDateTime
+articleTitle: FromDateTime
+second_title: Aspose.Words for .NET
+description: ChartYValue FromDateTime yöntem. Bir oluştururChartYValue örneğiDateTime type C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.drawing.charts/chartyvalue/fromdatetime/
@@ -17,7 +19,5 @@ public static ChartYValue FromDateTime(DateTime value)
 ### Ayrıca bakınız
 
 * class [ChartYValue](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartyvalue/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

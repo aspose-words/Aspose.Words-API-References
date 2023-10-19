@@ -1,7 +1,9 @@
 ---
 title: TableSubstitutionRule.LoadLinuxSettings
-second_title: Aspose.Words for .NET API Referansı
-description: TableSubstitutionRule yöntem. Linux platformu için önceden tanımlanmış tablo değiştirme ayarlarını yükler.
+linktitle: LoadLinuxSettings
+articleTitle: LoadLinuxSettings
+second_title: Aspose.Words for .NET
+description: TableSubstitutionRule LoadLinuxSettings yöntem. Linux platformu için önceden tanımlanmış tablo değiştirme ayarlarını yükler C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.fonts/tablesubstitutionrule/loadlinuxsettings/
@@ -14,7 +16,7 @@ Linux platformu için önceden tanımlanmış tablo değiştirme ayarlarını y�
 public void LoadLinuxSettings()
 ```
 
-### Örnekler
+## Örnekler
 
 Windows ve Linux için yazı tipi değiştirme tablolarına nasıl erişileceğini gösterir.
 
@@ -53,7 +55,5 @@ using (FileStream fileStream = new FileStream(ArtifactsDir + "FontSettings.Table
 ### Ayrıca bakınız
 
 * class [TableSubstitutionRule](../)
-* ad alanı [Aspose.Words.Fonts](../../tablesubstitutionrule/)
+* ad alanı [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../../)
-
-

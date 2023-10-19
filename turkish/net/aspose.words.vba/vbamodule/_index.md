@@ -1,7 +1,9 @@
 ---
-title: Class VbaModule
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Vba.VbaModule sınıf. VBA proje modülüne erişim sağlar.
+title: VbaModule Class
+linktitle: VbaModule
+articleTitle: VbaModule
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Vba.VbaModule sınıf. VBA proje modülüne erişim sağlar C#'da.
 type: docs
 weight: 6550
 url: /tr/net/aspose.words.vba/vbamodule/
@@ -36,7 +38,7 @@ public class VbaModule
 | --- | --- |
 | [Clone](../../aspose.words.vba/vbamodule/clone/)() | Bir kopyasını gerçekleştirir`VbaModule` . |
 
-### Örnekler
+## Örnekler
 
 Bir belgenin VBA proje bilgilerine nasıl erişileceğini gösterir.
 
@@ -68,5 +70,3 @@ vbaModules.Remove(vbaModules[2]);
 
 * ad alanı [Aspose.Words.Vba](../../aspose.words.vba/)
 * toplantı [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CompareOptions.IgnoreTextboxes
-second_title: Aspose.Words for .NET API Referansı
-description: CompareOptions mülk. Metin kutularının içerdiği verilerdeki farklılıkların karşılaştırılıp karşılaştırılmayacağını belirtir. Varsayılan olarak metin kutuları göz ardı edilmez.
+linktitle: IgnoreTextboxes
+articleTitle: IgnoreTextboxes
+second_title: Aspose.Words for .NET
+description: CompareOptions IgnoreTextboxes mülk. Metin kutularının içerdiği verilerdeki farklılıkların karşılaştırılıp karşılaştırılmayacağını belirtir. Varsayılan olarak metin kutuları göz ardı edilmez C#'da.
 type: docs
 weight: 120
 url: /tr/net/aspose.words.comparing/compareoptions/ignoretextboxes/
@@ -14,7 +16,7 @@ Metin kutularının içerdiği verilerdeki farklılıkların karşılaştırıl�
 public bool IgnoreTextboxes { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Karşılaştırma yaparken belirli belge öğesi türlerinin nasıl filtreleneceğini gösterir.
 
@@ -88,7 +90,5 @@ docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
 ### Ayrıca bakınız
 
 * class [CompareOptions](../)
-* ad alanı [Aspose.Words.Comparing](../../compareoptions/)
+* ad alanı [Aspose.Words.Comparing](../../../aspose.words.comparing/)
 * toplantı [Aspose.Words](../../../)
-
-

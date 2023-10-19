@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.EndRow
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentBuilder yöntem. Belgedeki bir tablo satırını sonlandırır.
+linktitle: EndRow
+articleTitle: EndRow
+second_title: Aspose.Words for .NET
+description: DocumentBuilder EndRow yöntem. Belgedeki bir tablo satırını sonlandırır C#'da.
 type: docs
 weight: 240
 url: /tr/net/aspose.words/documentbuilder/endrow/
@@ -18,13 +20,13 @@ public Row EndRow()
 
 Yeni tamamlanan satır düğümü.
 
-### Notlar
+## Notlar
 
 Arama`EndRow` bir tablo satırını sonlandırmak için. Eğer ararsan[`InsertCell`](../insertcell/) bundan hemen sonra , ardından tablo yeni bir satırda devam eder.
 
 Kullan[`RowFormat`](../rowformat/) Satır biçimlendirmesini belirtme özelliği.
 
-### Örnekler
+## Örnekler
 
 Tablo hücrelerinin dikey olarak nasıl birleştirileceğini gösterir.
 
@@ -166,7 +168,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * class [Row](../../../aspose.words.tables/row/)
 * class [DocumentBuilder](../)
-* ad alanı [Aspose.Words](../../documentbuilder/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

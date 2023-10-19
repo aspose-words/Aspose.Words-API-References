@@ -1,7 +1,9 @@
 ---
-title: Enum GradientVariant
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.GradientVariant Sıralama. Degrade dolgunun çeşidini belirtir.
+title: GradientVariant Enum
+linktitle: GradientVariant
+articleTitle: GradientVariant
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.GradientVariant Sıralama. Degrade dolgunun çeşidini belirtir C#'da.
 type: docs
 weight: 1010
 url: /tr/net/aspose.words.drawing/gradientvariant/
@@ -24,11 +26,11 @@ public enum GradientVariant
 | Variant3 | `3` | Gradyan varyantı 3. |
 | Variant4 | `4` | Gradyan çeşidi 4. |
 
-### Notlar
+## Notlar
 
 Word'deki Dolgu Efektleri iletişim kutusundaki Degrade sekmesindeki dört değişkene karşılık gelir.
 
-### Örnekler
+## Örnekler
 
 Bir şeklin degradelerle nasıl doldurulacağını gösterir.
 
@@ -70,5 +72,3 @@ doc.Save(ArtifactsDir + "Shape.GradientFill.docx", saveOptions);
 
 * ad alanı [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../)
-
-

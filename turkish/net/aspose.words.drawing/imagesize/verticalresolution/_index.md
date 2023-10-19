@@ -1,7 +1,9 @@
 ---
 title: ImageSize.VerticalResolution
-second_title: Aspose.Words for .NET API Referansı
-description: ImageSize mülk. Dikey çözünürlüğü DPI cinsinden alır.
+linktitle: VerticalResolution
+articleTitle: VerticalResolution
+second_title: Aspose.Words for .NET
+description: ImageSize VerticalResolution mülk. Dikey çözünürlüğü DPI cinsinden alır C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.drawing/imagesize/verticalresolution/
@@ -14,7 +16,7 @@ Dikey çözünürlüğü DPI cinsinden alır.
 public double VerticalResolution { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir şekildeki görüntünün özelliklerinin nasıl okunacağını gösterir.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "Drawing.ImageSize.docx");
 ### Ayrıca bakınız
 
 * class [ImageSize](../)
-* ad alanı [Aspose.Words.Drawing](../../imagesize/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

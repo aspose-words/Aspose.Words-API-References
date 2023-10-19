@@ -1,7 +1,9 @@
 ---
 title: TextBox.BreakForwardLink
-second_title: Aspose.Words for .NET API Referansı
-description: TextBox yöntem. Sonrakine olan bağlantıyı keserTextBox .
+linktitle: BreakForwardLink
+articleTitle: BreakForwardLink
+second_title: Aspose.Words for .NET
+description: TextBox BreakForwardLink yöntem. Sonrakine olan bağlantıyı keserTextBox  C#'da.
 type: docs
 weight: 130
 url: /tr/net/aspose.words.drawing/textbox/breakforwardlink/
@@ -14,11 +16,11 @@ Sonrakine olan bağlantıyı keser[`TextBox`](../) .
 public void BreakForwardLink()
 ```
 
-### Notlar
+## Notlar
 
 `BreakForwardLink`geçerli şekil dizisindeki diğer tüm bağlantıları kesmez. Örneğin: 1-2-3-4 dizisi ve`BreakForwardLink` 2. metin kutusunda, 1-2, 3-4. olmak üzere iki dizi oluşturulacak
 
-### Örnekler
+## Örnekler
 
 Metin kutularının nasıl bağlanacağını gösterir.
 
@@ -79,7 +81,5 @@ doc.Save(ArtifactsDir + "Shape.CreateLinkBetweenTextBoxes.docx");
 ### Ayrıca bakınız
 
 * class [TextBox](../)
-* ad alanı [Aspose.Words.Drawing](../../textbox/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

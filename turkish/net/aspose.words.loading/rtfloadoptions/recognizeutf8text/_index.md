@@ -1,7 +1,9 @@
 ---
 title: RtfLoadOptions.RecognizeUtf8Text
-second_title: Aspose.Words for .NET API Referansı
-description: RtfLoadOptions mülk. olarak ayarlandığındadoğru CharsetDetector UTF8 karakterlerini tespit etmeye çalışacak bunlar içe aktarma sırasında korunacak.
+linktitle: RecognizeUtf8Text
+articleTitle: RecognizeUtf8Text
+second_title: Aspose.Words for .NET
+description: RtfLoadOptions RecognizeUtf8Text mülk. olarak ayarlandığındadoğru CharsetDetector UTF8 karakterlerini tespit etmeye çalışacak bunlar içe aktarma sırasında korunacak C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.loading/rtfloadoptions/recognizeutf8text/
@@ -16,7 +18,7 @@ Varsayılan değer:`YANLIŞ` .
 public bool RecognizeUtf8Text { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir RTF belgesi yüklenirken UTF-8 karakterlerinin nasıl algılanacağını gösterir.
 
@@ -43,7 +45,5 @@ Assert.AreEqual(
 ### Ayrıca bakınız
 
 * class [RtfLoadOptions](../)
-* ad alanı [Aspose.Words.Loading](../../rtfloadoptions/)
+* ad alanı [Aspose.Words.Loading](../../../aspose.words.loading/)
 * toplantı [Aspose.Words](../../../)
-
-

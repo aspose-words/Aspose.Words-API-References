@@ -1,7 +1,9 @@
 ---
 title: FootnoteOptions.Columns
-second_title: Aspose.Words for .NET API Referansı
-description: FootnoteOptions mülk. Dipnot alanının formatlanacağı sütun sayısını belirtir.
+linktitle: Columns
+articleTitle: Columns
+second_title: Aspose.Words for .NET
+description: FootnoteOptions Columns mülk. Dipnot alanının formatlanacağı sütun sayısını belirtir C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.notes/footnoteoptions/columns/
@@ -14,11 +16,11 @@ Dipnot alanının formatlanacağı sütun sayısını belirtir.
 public int Columns { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özelliğin değeri 0 ise dipnot alanı, görüntülenen sayfadaki sütun sayısına bağlı olarak bir dizi sütunla biçimlendirilir. Varsayılan değer 0. 'dir
 
-### Örnekler
+## Örnekler
 
 Dipnot bölümünün belirli sayıda sütuna nasıl bölüneceğini gösterir.
 
@@ -31,7 +33,5 @@ doc.Save(ArtifactsDir + "Document.FootnoteColumns.docx");
 ### Ayrıca bakınız
 
 * class [FootnoteOptions](../)
-* ad alanı [Aspose.Words.Notes](../../footnoteoptions/)
+* ad alanı [Aspose.Words.Notes](../../../aspose.words.notes/)
 * toplantı [Aspose.Words](../../../)
-
-

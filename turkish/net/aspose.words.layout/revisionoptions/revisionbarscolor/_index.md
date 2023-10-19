@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.RevisionBarsColor
-second_title: Aspose.Words for .NET API Referansı
-description: RevisionOptions mülk. Revize edilmiş bilgileri içeren belge satırlarını tanımlayan kenar çubukları için kullanılacak rengi belirlemeye olanak sağlar. Varsayılan değerRed .
+linktitle: RevisionBarsColor
+articleTitle: RevisionBarsColor
+second_title: Aspose.Words for .NET
+description: RevisionOptions RevisionBarsColor mülk. Revize edilmiş bilgileri içeren belge satırlarını tanımlayan kenar çubukları için kullanılacak rengi belirlemeye olanak sağlar. Varsayılan değerRed  C#'da.
 type: docs
 weight: 130
 url: /tr/net/aspose.words.layout/revisionoptions/revisionbarscolor/
@@ -14,11 +16,11 @@ Revize edilmiş bilgileri içeren belge satırlarını tanımlayan kenar çubukl
 public RevisionColor RevisionBarsColor { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özelliği şu şekilde ayarlamakByAuthor veyaNoHighlight values , revizyon çubuklarının düzenden gizlenmesine neden olacaktır.
 
-### Örnekler
+## Örnekler
 
 Revizyonların görünümünün nasıl değiştirileceğini gösterir.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 
 * enum [RevisionColor](../../revisioncolor/)
 * class [RevisionOptions](../)
-* ad alanı [Aspose.Words.Layout](../../revisionoptions/)
+* ad alanı [Aspose.Words.Layout](../../../aspose.words.layout/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class OdsoFieldMapData
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Settings.OdsoFieldMapData sınıf. Harici veri kaynağındaki bir sütunun belge içindeki önceden tanımlanmış birleştirme alanlarıyla nasıl eşleneceğini belirtir.
+title: OdsoFieldMapData Class
+linktitle: OdsoFieldMapData
+articleTitle: OdsoFieldMapData
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Settings.OdsoFieldMapData sınıf. Harici veri kaynağındaki bir sütunun belge içindeki önceden tanımlanmış birleştirme alanlarıyla nasıl eşleneceğini belirtir C#'da.
 type: docs
 weight: 5900
 url: /tr/net/aspose.words.settings/odsofieldmapdata/
@@ -37,11 +39,11 @@ public class OdsoFieldMapData
 | --- | --- |
 | [Clone](../../aspose.words.settings/odsofieldmapdata/clone/)() | Bu nesnenin derin bir kopyasını döndürür. |
 
-### Notlar
+## Notlar
 
 Microsoft Word, ADDRESSBLOCK veya GREETINGLINE alanlarında MERGEFIELD veya kullanımı olarak bir belgeye eklenmesine olanak tanıyan önceden tanımlanmış bazı birleştirme alanı adları sağlar. Belirtilen bilgiler`OdsoFieldMapData` , harici veri kaynağındaki bir sütunun önceden tanımlanmış tek bir birleştirme alanına eşlenmesine olanak tanır.
 
-### Örnekler
+## Örnekler
 
 Veri kaynağı sütunlarını birleştirme alanlarıyla eşleştiren veri koleksiyonuna nasıl erişileceğini gösterir.
 
@@ -85,5 +87,3 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * ad alanı [Aspose.Words.Settings](../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: GradientStopCollection.Item
-second_title: Aspose.Words for .NET API Referansı
-description: GradientStopCollection mülk. Bir değeri alır veya ayarlarGradientStop koleksiyondaki nesne.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words for .NET
+description: GradientStopCollection Item mülk. Bir değeri alır veya ayarlarGradientStop koleksiyondaki nesne C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.drawing/gradientstopcollection/item/
@@ -14,7 +16,7 @@ Bir değeri alır veya ayarlar[`GradientStop`](../../gradientstop/) koleksiyonda
 public GradientStop this[int index] { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Degrade dolgusuna degrade duraklarının nasıl ekleneceğini gösterir.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 
 * class [GradientStop](../../gradientstop/)
 * class [GradientStopCollection](../)
-* ad alanı [Aspose.Words.Drawing](../../gradientstopcollection/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

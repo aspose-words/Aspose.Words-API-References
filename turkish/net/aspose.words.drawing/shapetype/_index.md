@@ -1,7 +1,9 @@
 ---
-title: Enum ShapeType
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.ShapeType Sıralama. Microsoft Word belgesindeki şeklin türünü belirtir.
+title: ShapeType Enum
+linktitle: ShapeType
+articleTitle: ShapeType
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.ShapeType Sıralama. Microsoft Word belgesindeki şeklin türünü belirtir C#'da.
 type: docs
 weight: 1290
 url: /tr/net/aspose.words.drawing/shapetype/
@@ -269,7 +271,7 @@ public enum ShapeType
 | ChartX | `246` | Grafik X. |
 | MinValue | `-2` | Sistem kullanımı için ayrılmıştır. |
 
-### Örnekler
+## Örnekler
 
 Yerel dosya sisteminden bir görüntü içeren şeklin belgeye nasıl ekleneceğini gösterir.
 
@@ -328,5 +330,3 @@ foreach (Shape shape in shapes)
 * property [ShapeType](../shapebase/shapetype/)
 * ad alanı [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../)
-
-

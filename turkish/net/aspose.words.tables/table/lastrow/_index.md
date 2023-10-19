@@ -1,7 +1,9 @@
 ---
 title: Table.LastRow
-second_title: Aspose.Words for .NET API Referansı
-description: Table mülk. Sonuncuyu döndürürRow tablodaki düğüm.
+linktitle: LastRow
+articleTitle: LastRow
+second_title: Aspose.Words for .NET
+description: Table LastRow mülk. Sonuncuyu döndürürRow tablodaki düğüm C#'da.
 type: docs
 weight: 180
 url: /tr/net/aspose.words.tables/table/lastrow/
@@ -14,7 +16,7 @@ Sonuncuyu döndürür[`Row`](../../row/) tablodaki düğüm.
 public Row LastRow { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki tüm tabloların ilk ve son satırlarının nasıl kaldırılacağını gösterir.
 
@@ -40,7 +42,5 @@ Assert.AreEqual(2, tables[1].Rows.Count);
 
 * class [Row](../../row/)
 * class [Table](../)
-* ad alanı [Aspose.Words.Tables](../../table/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

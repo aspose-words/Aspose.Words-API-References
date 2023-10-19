@@ -1,7 +1,9 @@
 ---
 title: LayoutCollector.GetNumPagesSpanned
-second_title: Aspose.Words for .NET API Referansı
-description: LayoutCollector yöntem. Belirtilen düğümün kapsadığı sayfa sayısını alır. Düğüm tek bir sayfadaysa 0. Bu şununla aynıdırGetEndPageIndex GetStartPageIndex .
+linktitle: GetNumPagesSpanned
+articleTitle: GetNumPagesSpanned
+second_title: Aspose.Words for .NET
+description: LayoutCollector GetNumPagesSpanned yöntem. Belirtilen düğümün kapsadığı sayfa sayısını alır. Düğüm tek bir sayfadaysa 0. Bu şununla aynıdırGetEndPageIndex GetStartPageIndex  C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.layout/layoutcollector/getnumpagesspanned/
@@ -14,7 +16,7 @@ Belirtilen düğümün kapsadığı sayfa sayısını alır. Düğüm tek bir sa
 public int GetNumPagesSpanned(Node node)
 ```
 
-### Örnekler
+## Örnekler
 
 Bir düğümün kapsadığı sayfa aralıklarının nasıl görüleceğini gösterir.
 
@@ -73,7 +75,5 @@ Assert.AreEqual("¶", layoutEnumerator.Text);
 
 * class [Node](../../../aspose.words/node/)
 * class [LayoutCollector](../)
-* ad alanı [Aspose.Words.Layout](../../layoutcollector/)
+* ad alanı [Aspose.Words.Layout](../../../aspose.words.layout/)
 * toplantı [Aspose.Words](../../../)
-
-

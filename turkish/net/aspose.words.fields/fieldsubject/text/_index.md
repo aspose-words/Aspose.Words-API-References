@@ -1,7 +1,9 @@
 ---
 title: FieldSubject.Text
-second_title: Aspose.Words for .NET API Referansı
-description: FieldSubject mülk. Konunun metnini alır veya ayarlar.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words for .NET
+description: FieldSubject Text mülk. Konunun metnini alır veya ayarlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fieldsubject/text/
@@ -14,7 +16,7 @@ Konunun metnini alır veya ayarlar.
 public string Text { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 KONU alanının nasıl kullanılacağını gösterir.
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "Field.SUBJECT.docx");
 ### Ayrıca bakınız
 
 * class [FieldSubject](../)
-* ad alanı [Aspose.Words.Fields](../../fieldsubject/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

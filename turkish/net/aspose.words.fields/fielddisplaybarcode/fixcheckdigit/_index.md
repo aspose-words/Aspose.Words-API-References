@@ -1,7 +1,9 @@
 ---
 title: FieldDisplayBarcode.FixCheckDigit
-second_title: Aspose.Words for .NET API Referansı
-description: FieldDisplayBarcode mülk. Geçersiz olması durumunda kontrol basamağının düzeltilip düzeltilmeyeceğini alır veya ayarlar.
+linktitle: FixCheckDigit
+articleTitle: FixCheckDigit
+second_title: Aspose.Words for .NET
+description: FieldDisplayBarcode FixCheckDigit mülk. Geçersiz olması durumunda kontrol basamağının düzeltilip düzeltilmeyeceğini alır veya ayarlar C#'da.
 type: docs
 weight: 90
 url: /tr/net/aspose.words.fields/fielddisplaybarcode/fixcheckdigit/
@@ -14,7 +16,7 @@ Geçersiz olması durumunda kontrol basamağının düzeltilip düzeltilmeyeceğ
 public bool FixCheckDigit { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 DISPLAYBARCODE alanının nasıl ekleneceğini ve özelliklerinin nasıl ayarlanacağını gösterir.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Field.DISPLAYBARCODE.docx");
 ### Ayrıca bakınız
 
 * class [FieldDisplayBarcode](../)
-* ad alanı [Aspose.Words.Fields](../../fielddisplaybarcode/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

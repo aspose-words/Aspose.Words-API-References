@@ -1,7 +1,9 @@
 ---
 title: FieldAdvance.VerticalPosition
-second_title: Aspose.Words for .NET API Referansı
-description: FieldAdvance mülk. Alanı takip eden metnin sayfanın üst kenarından dikey olarak taşınması gereken nokta sayısını alır veya ayarlar.
+linktitle: VerticalPosition
+articleTitle: VerticalPosition
+second_title: Aspose.Words for .NET
+description: FieldAdvance VerticalPosition mülk. Alanı takip eden metnin sayfanın üst kenarından dikey olarak taşınması gereken nokta sayısını alır veya ayarlar C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.fields/fieldadvance/verticalposition/
@@ -14,7 +16,7 @@ Alanı takip eden metnin sayfanın üst kenarından dikey olarak taşınması ge
 public string VerticalPosition { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 ADVANCE alanının nasıl ekleneceğini ve özelliklerinin nasıl düzenleneceğini gösterir.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "Field.ADVANCE.docx");
 ### Ayrıca bakınız
 
 * class [FieldAdvance](../)
-* ad alanı [Aspose.Words.Fields](../../fieldadvance/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

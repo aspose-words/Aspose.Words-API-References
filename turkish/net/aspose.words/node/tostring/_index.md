@@ -1,12 +1,14 @@
 ---
 title: Node.ToString
-second_title: Aspose.Words for .NET API Referansı
-description: Node yöntem. Düğümün içeriğini belirtilen formatta bir dizeye aktarır.
+linktitle: ToString
+articleTitle: ToString
+second_title: Aspose.Words for .NET
+description: Node ToString yöntem. Düğümün içeriğini belirtilen formatta bir dizeye aktarır C#'da.
 type: docs
 weight: 160
 url: /tr/net/aspose.words/node/tostring/
 ---
-## ToString(SaveFormat) {#tostring_1}
+## ToString(*[SaveFormat](../../saveformat/)*) {#tostring_1}
 
 Düğümün içeriğini belirtilen formatta bir dizeye aktarır.
 
@@ -18,7 +20,7 @@ public string ToString(SaveFormat saveFormat)
 
 Belirtilen formattaki düğümün içeriği.
 
-### Örnekler
+## Örnekler
 
 Bir düğümde GetText ve ToString yöntemlerinin çağrılması arasındaki farkı gösterir.
 
@@ -91,12 +93,12 @@ foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListForma
 
 * enum [SaveFormat](../../saveformat/)
 * class [Node](../)
-* ad alanı [Aspose.Words](../../node/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## ToString(SaveOptions) {#tostring_2}
+## ToString(*[SaveOptions](../../../aspose.words.saving/saveoptions/)*) {#tostring_2}
 
 Belirtilen kaydetme seçeneklerini kullanarak düğümün içeriğini bir dizeye aktarır.
 
@@ -112,7 +114,7 @@ public string ToString(SaveOptions saveOptions)
 
 Belirtilen formattaki düğümün içeriği.
 
-### Örnekler
+## Örnekler
 
 Bir düğümün içeriğini HTML formatında String'e aktarır.
 
@@ -140,7 +142,5 @@ Assert.AreEqual("<p style=\"margin-top:0pt; margin-bottom:8pt; line-height:108%\
 
 * class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * class [Node](../)
-* ad alanı [Aspose.Words](../../node/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

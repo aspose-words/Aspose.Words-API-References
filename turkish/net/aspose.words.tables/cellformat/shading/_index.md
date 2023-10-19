@@ -1,9 +1,11 @@
 ---
 title: CellFormat.Shading
-second_title: Aspose.Words for .NET API Referansı
-description: CellFormat mülk. Bir değeri döndürürShading hücrenin gölgelendirme formatını ifade eden nesne.
+linktitle: Shading
+articleTitle: Shading
+second_title: Aspose.Words for .NET
+description: CellFormat Shading mülk. Bir değeri döndürürShading hücrenin gölgelendirme formatını ifade eden nesne C#'da.
 type: docs
-weight: 100
+weight: 90
 url: /tr/net/aspose.words.tables/cellformat/shading/
 ---
 ## CellFormat.Shading property
@@ -14,7 +16,7 @@ Bir değeri döndürür[`Shading`](../../../aspose.words/shading/) hücrenin gö
 public Shading Shading { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir tablodaki satırların ve hücrelerin biçiminin nasıl değiştirileceğini gösterir.
 
@@ -113,7 +115,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * class [Shading](../../../aspose.words/shading/)
 * class [CellFormat](../)
-* ad alanı [Aspose.Words.Tables](../../cellformat/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: TabStopCollection.Item
-second_title: Aspose.Words for .NET API Referansı
-description: TabStopCollection mülk. Verilen dizinde bir sekme durağı alır.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words for .NET
+description: TabStopCollection Item mülk. Verilen dizinde bir sekme durağı alır C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/tabstopcollection/item/
@@ -18,7 +20,7 @@ public TabStop this[int index] { get; }
 | --- | --- |
 | index | Sekme duraklarının koleksiyonuna ilişkin bir dizin. |
 
-### Örnekler
+## Örnekler
 
 Bir belgenin sekme durakları koleksiyonuyla nasıl çalışılacağını gösterir.
 
@@ -63,7 +65,7 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 
 * class [TabStop](../../tabstop/)
 * class [TabStopCollection](../)
-* ad alanı [Aspose.Words](../../tabstopcollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
 
 ---
@@ -80,11 +82,11 @@ public TabStop this[double position] { get; }
 | --- | --- |
 | position | Sekme durağının konumu (nokta cinsinden). |
 
-### Notlar
+## Notlar
 
 İadeler`hükümsüz` belirtilen konumda sekme durağı bulunamazsa.
 
-### Örnekler
+## Örnekler
 
 Bir belgenin sekme durakları koleksiyonuyla nasıl çalışılacağını gösterir.
 
@@ -129,7 +131,5 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 
 * class [TabStop](../../tabstop/)
 * class [TabStopCollection](../)
-* ad alanı [Aspose.Words](../../tabstopcollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: VbaModule.VbaModule
-second_title: Aspose.Words for .NET API Referansı
-description: VbaModule inşaatçı. Boş bir modül oluşturur.
+title: VbaModule
+linktitle: VbaModule
+articleTitle: VbaModule
+second_title: Aspose.Words for .NET
+description: VbaModule inşaatçı. Boş bir modül oluşturur C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.vba/vbamodule/vbamodule/
@@ -14,7 +16,7 @@ Boş bir modül oluşturur.
 public VbaModule()
 ```
 
-### Örnekler
+## Örnekler
 
 Makroları kullanarak bir VBA projesinin nasıl oluşturulacağını gösterir.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "VbaProject.CreateVBAMacros.docm");
 ### Ayrıca bakınız
 
 * class [VbaModule](../)
-* ad alanı [Aspose.Words.Vba](../../vbamodule/)
+* ad alanı [Aspose.Words.Vba](../../../aspose.words.vba/)
 * toplantı [Aspose.Words](../../../)
-
-

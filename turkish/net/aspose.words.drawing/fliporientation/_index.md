@@ -1,7 +1,9 @@
 ---
-title: Enum FlipOrientation
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.FlipOrientation Sıralama. Şeklin yönüne ilişkin olası değerler.
+title: FlipOrientation Enum
+linktitle: FlipOrientation
+articleTitle: FlipOrientation
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.FlipOrientation Sıralama. Şeklin yönüne ilişkin olası değerler C#'da.
 type: docs
 weight: 970
 url: /tr/net/aspose.words.drawing/fliporientation/
@@ -24,7 +26,7 @@ public enum FlipOrientation
 | Vertical | `2` | Y koordinatlarını ters çevirerek x ekseni boyunca çevirin. |
 | Both | `3` | Hem y hem de x ekseni boyunca çevirin. |
 
-### Örnekler
+## Örnekler
 
 Bir şeklin eksen üzerinde nasıl çevrileceğini gösterir.
 
@@ -71,5 +73,3 @@ doc.Save(ArtifactsDir + "Shape.FlipShapeOrientation.docx");
 * property [FlipOrientation](../shapebase/fliporientation/)
 * ad alanı [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../)
-
-

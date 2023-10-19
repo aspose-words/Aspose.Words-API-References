@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagCollection.Item
-second_title: Aspose.Words for .NET API Referansı
-description: StructuredDocumentTagCollection mülk. Belirtilen dizindeki yapılandırılmış belge etiketini döndürür.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words for .NET
+description: StructuredDocumentTagCollection Item mülk. Belirtilen dizindeki yapılandırılmış belge etiketini döndürür C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.markup/structureddocumenttagcollection/item/
@@ -22,7 +24,5 @@ public IStructuredDocumentTag this[int index] { get; }
 
 * interface [IStructuredDocumentTag](../../istructureddocumenttag/)
 * class [StructuredDocumentTagCollection](../)
-* ad alanı [Aspose.Words.Markup](../../structureddocumenttagcollection/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

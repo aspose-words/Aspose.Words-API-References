@@ -1,7 +1,9 @@
 ---
-title: Enum ThemeColor
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Themes.ThemeColor Sıralama. Belge temaları için tema renklerini belirtir.
+title: ThemeColor Enum
+linktitle: ThemeColor
+articleTitle: ThemeColor
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Themes.ThemeColor Sıralama. Belge temaları için tema renklerini belirtir C#'da.
 type: docs
 weight: 6470
 url: /tr/net/aspose.words.themes/themecolor/
@@ -38,11 +40,11 @@ public enum ThemeColor
 | Background1 | `14` | Arka plan rengi 1. |
 | Background2 | `15` | Arka plan rengi 2. |
 
-### Notlar
+## Notlar
 
 Belirtilen tema rengi, renk bilgilerinin belgede merkezi olarak ayarlanmasına olanak tanıyan belgenin Tema bölümünde bulunan önceden tanımlanmış tema renklerinden birine referanstır.
 
-### Örnekler
+## Örnekler
 
 Temalı stilin nasıl oluşturulacağını ve kullanılacağını gösterir.
 
@@ -147,5 +149,3 @@ Assert.AreEqual(Color.Blue.ToArgb(), font.Color.ToArgb());
 
 * ad alanı [Aspose.Words.Themes](../../aspose.words.themes/)
 * toplantı [Aspose.Words](../../)
-
-

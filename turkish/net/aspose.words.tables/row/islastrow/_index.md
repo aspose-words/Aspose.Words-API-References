@@ -1,7 +1,9 @@
 ---
 title: Row.IsLastRow
-second_title: Aspose.Words for .NET API Referansı
-description: Row mülk. Bu tablodaki son satırsa doğrudur aksi halde yanlış.
+linktitle: IsLastRow
+articleTitle: IsLastRow
+second_title: Aspose.Words for .NET
+description: Row IsLastRow mülk. Bu tablodaki son satırsa doğrudur aksi halde yanlış C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.tables/row/islastrow/
@@ -14,7 +16,7 @@ Bu, tablodaki son satırsa doğrudur; aksi halde yanlış.
 public bool IsLastRow { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Aynı sayfada bir arada kalacak bir tablonun nasıl ayarlanacağını gösterir.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Table.KeepTableTogether.docx");
 ### Ayrıca bakınız
 
 * class [Row](../)
-* ad alanı [Aspose.Words.Tables](../../row/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

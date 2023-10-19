@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.PageBreakBefore
-second_title: Aspose.Words for .NET API Referansı
-description: ParagraphFormat mülk. Paragraftan önce sayfa sonu zorunluysa doğrudur.
+linktitle: PageBreakBefore
+articleTitle: PageBreakBefore
+second_title: Aspose.Words for .NET
+description: ParagraphFormat PageBreakBefore mülk. Paragraftan önce sayfa sonu zorunluysa doğrudur C#'da.
 type: docs
 weight: 260
 url: /tr/net/aspose.words/paragraphformat/pagebreakbefore/
@@ -14,7 +16,7 @@ Paragraftan önce sayfa sonu zorunluysa doğrudur.
 public bool PageBreakBefore { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Başında sayfa sonları bulunan paragrafların nasıl oluşturulacağını gösterir.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.PageBreakBefore.docx");
 ### Ayrıca bakınız
 
 * class [ParagraphFormat](../)
-* ad alanı [Aspose.Words](../../paragraphformat/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

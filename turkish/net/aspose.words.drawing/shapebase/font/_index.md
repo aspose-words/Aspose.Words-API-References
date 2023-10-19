@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.Font
-second_title: Aspose.Words for .NET API Referansı
-description: ShapeBase mülk. Bu nesnenin yazı tipi formatlamasına erişim sağlar.
+linktitle: Font
+articleTitle: Font
+second_title: Aspose.Words for .NET
+description: ShapeBase Font mülk. Bu nesnenin yazı tipi formatlamasına erişim sağlar C#'da.
 type: docs
 weight: 190
 url: /tr/net/aspose.words.drawing/shapebase/font/
@@ -14,7 +16,7 @@ Bu nesnenin yazı tipi formatlamasına erişim sağlar.
 public Font Font { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Metin kutusunun nasıl ekleneceğini ve içeriğinin yazı tipinin nasıl ayarlanacağını gösterir.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Shape.Font.docx");
 
 * class [Font](../../../aspose.words/font/)
 * class [ShapeBase](../)
-* ad alanı [Aspose.Words.Drawing](../../shapebase/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

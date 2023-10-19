@@ -1,7 +1,9 @@
 ---
 title: Revision.Accept
-second_title: Aspose.Words for .NET API Referansı
-description: Revision yöntem. Bu düzeltmeyi kabul eder.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words for .NET
+description: Revision Accept yöntem. Bu düzeltmeyi kabul eder C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words/revision/accept/
@@ -14,7 +16,7 @@ Bu düzeltmeyi kabul eder.
 public void Accept()
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki düzeltmelerle nasıl çalışılacağını gösterir.
 
@@ -97,7 +99,5 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 ### Ayrıca bakınız
 
 * class [Revision](../)
-* ad alanı [Aspose.Words](../../revision/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: IImageSavingCallback.ImageSaving
-second_title: Aspose.Words for .NET API Referansı
-description: IImageSavingCallback yöntem. Aspose.Words bir görüntüyü HTMLye kaydettiğinde çağrılır.
+linktitle: ImageSaving
+articleTitle: ImageSaving
+second_title: Aspose.Words for .NET
+description: IImageSavingCallback ImageSaving yöntem. Aspose.Words bir görüntüyü HTMLye kaydettiğinde çağrılır C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.saving/iimagesavingcallback/imagesaving/
@@ -14,7 +16,7 @@ Aspose.Words bir görüntüyü HTML'ye kaydettiğinde çağrılır.
 public void ImageSaving(ImageSavingArgs args)
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgenin nasıl parçalara ayrılacağını ve kaydedileceğini gösterir.
 
@@ -132,7 +134,5 @@ public class SavedImageRename : IImageSavingCallback
 
 * class [ImageSavingArgs](../../imagesavingargs/)
 * interface [IImageSavingCallback](../)
-* ad alanı [Aspose.Words.Saving](../../iimagesavingcallback/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

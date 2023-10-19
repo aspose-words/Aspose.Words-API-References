@@ -1,7 +1,9 @@
 ---
-title: Enum MathObjectType
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Math.MathObjectType Sıralama. Office Math nesnesinin türünü belirtir.
+title: MathObjectType Enum
+linktitle: MathObjectType
+articleTitle: MathObjectType
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Math.MathObjectType Sıralama. Office Math nesnesinin türünü belirtir C#'da.
 type: docs
 weight: 4110
 url: /tr/net/aspose.words.math/mathobjecttype/
@@ -49,7 +51,7 @@ public enum MathObjectType
 | SubSuperscript | `28` | Bir temel öğeden, aşağıya ve sağa yerleştirilen küçültülmüş boyutlu bir komut dosyasından ve yukarıya ve sağa yerleştirilen küçültülmüş boyutlu bir komut dosyasından oluşan alt üst simge nesnesi. |
 | Supercript | `29` | Bir temel öğeden ve yukarıya ve sağa yerleştirilen küçültülmüş boyutlu bir komut dosyasından oluşan üst simge nesnesi. |
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki her ofis matematik düğümünün düğüm yapısının nasıl yazdırılacağını gösterir.
 
@@ -142,5 +144,3 @@ public class OfficeMathStructurePrinter : DocumentVisitor
 
 * ad alanı [Aspose.Words.Math](../../aspose.words.math/)
 * toplantı [Aspose.Words](../../)
-
-

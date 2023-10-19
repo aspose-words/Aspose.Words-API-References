@@ -1,7 +1,9 @@
 ---
 title: TextWatermarkOptions.IsSemitrasparent
-second_title: Aspose.Words for .NET API Referansı
-description: TextWatermarkOptions mülk. Filigranın opaklığından sorumlu olan bir boole değeri alır veya ayarlar. Varsayılan değerdoğru .
+linktitle: IsSemitrasparent
+articleTitle: IsSemitrasparent
+second_title: Aspose.Words for .NET
+description: TextWatermarkOptions IsSemitrasparent mülk. Filigranın opaklığından sorumlu olan bir boole değeri alır veya ayarlar. Varsayılan değerdoğru  C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words/textwatermarkoptions/issemitrasparent/
@@ -14,7 +16,7 @@ Filigranın opaklığından sorumlu olan bir boole değeri alır veya ayarlar. V
 public bool IsSemitrasparent { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Metin filigranının nasıl oluşturulacağını gösterir.
 
@@ -45,7 +47,5 @@ if (doc.Watermark.Type == WatermarkType.Text)
 ### Ayrıca bakınız
 
 * class [TextWatermarkOptions](../)
-* ad alanı [Aspose.Words](../../textwatermarkoptions/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

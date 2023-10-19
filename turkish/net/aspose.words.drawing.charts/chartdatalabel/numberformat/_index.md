@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.NumberFormat
-second_title: Aspose.Words for .NET API Referansı
-description: ChartDataLabel mülk. Ana öğenin sayı biçimini döndürür.
+linktitle: NumberFormat
+articleTitle: NumberFormat
+second_title: Aspose.Words for .NET
+description: ChartDataLabel NumberFormat mülk. Ana öğenin sayı biçimini döndürür C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.drawing.charts/chartdatalabel/numberformat/
@@ -14,7 +16,7 @@ Ana öğenin sayı biçimini döndürür.
 public ChartNumberFormat NumberFormat { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Çizgi grafikteki veri noktalarına etiketlerin nasıl uygulanacağını gösterir.
 
@@ -93,7 +95,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 
 * class [ChartNumberFormat](../../chartnumberformat/)
 * class [ChartDataLabel](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

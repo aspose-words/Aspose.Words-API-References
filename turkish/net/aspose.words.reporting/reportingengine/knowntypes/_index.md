@@ -1,7 +1,9 @@
 ---
 title: ReportingEngine.KnownTypes
-second_title: Aspose.Words for .NET API Referansı
-description: ReportingEngine mülk. Aşağıdakileri içeren sırasız bir kümeyi yani benzersiz öğelerden oluşan bir koleksiyon alırTypekarşılık gelen türlerin statik üyelerini çağırmak tür dönüştürmeleri gerçekleştirmek vb. için bu motor örneği tarafından işlenen rapor şablonları içinde tamamen veya kısmen nitelenmiş adların kullanılabileceği nesneler .
+linktitle: KnownTypes
+articleTitle: KnownTypes
+second_title: Aspose.Words for .NET
+description: ReportingEngine KnownTypes mülk. Aşağıdakileri içeren sırasız bir kümeyi yani benzersiz öğelerden oluşan bir koleksiyon alırTypekarşılık gelen türlerin statik üyelerini çağırmak tür dönüştürmeleri gerçekleştirmek vb. için bu motor örneği tarafından işlenen rapor şablonları içinde tamamen veya kısmen nitelenmiş adların kullanılabileceği nesneler  C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.reporting/reportingengine/knowntypes/
@@ -18,7 +20,5 @@ public KnownTypeSet KnownTypes { get; }
 
 * class [KnownTypeSet](../../knowntypeset/)
 * class [ReportingEngine](../)
-* ad alanı [Aspose.Words.Reporting](../../reportingengine/)
+* ad alanı [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * toplantı [Aspose.Words](../../../)
-
-

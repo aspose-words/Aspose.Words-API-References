@@ -1,7 +1,9 @@
 ---
-title: Class ImageWatermarkOptions
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.ImageWatermarkOptions sınıf. Resimle filigran eklenirken belirlenebilecek seçenekleri içerir.
+title: ImageWatermarkOptions Class
+linktitle: ImageWatermarkOptions
+articleTitle: ImageWatermarkOptions
+second_title: Aspose.Words for .NET
+description: Aspose.Words.ImageWatermarkOptions sınıf. Resimle filigran eklenirken belirlenebilecek seçenekleri içerir C#'da.
 type: docs
 weight: 3220
 url: /tr/net/aspose.words/imagewatermarkoptions/
@@ -33,5 +35,3 @@ public class ImageWatermarkOptions
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

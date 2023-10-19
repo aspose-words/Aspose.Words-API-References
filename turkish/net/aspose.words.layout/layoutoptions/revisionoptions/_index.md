@@ -1,7 +1,9 @@
 ---
 title: LayoutOptions.RevisionOptions
-second_title: Aspose.Words for .NET API Referansı
-description: LayoutOptions mülk. Revizyon seçeneklerini alır.
+linktitle: RevisionOptions
+articleTitle: RevisionOptions
+second_title: Aspose.Words for .NET
+description: LayoutOptions RevisionOptions mülk. Revizyon seçeneklerini alır C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.layout/layoutoptions/revisionoptions/
@@ -14,7 +16,7 @@ Revizyon seçeneklerini alır.
 public RevisionOptions RevisionOptions { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 İşlenmiş bir çıktı belgesindeki düzeltmelerin görünümünün nasıl değiştirileceğini gösterir.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Document.LayoutOptionsRevisions.pdf");
 
 * class [RevisionOptions](../../revisionoptions/)
 * class [LayoutOptions](../)
-* ad alanı [Aspose.Words.Layout](../../layoutoptions/)
+* ad alanı [Aspose.Words.Layout](../../../aspose.words.layout/)
 * toplantı [Aspose.Words](../../../)
-
-

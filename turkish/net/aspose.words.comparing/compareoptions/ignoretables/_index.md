@@ -1,7 +1,9 @@
 ---
 title: CompareOptions.IgnoreTables
-second_title: Aspose.Words for .NET API Referansı
-description: CompareOptions mülk. Tablolarda bulunan verilerdeki farklılıkların karşılaştırılıp karşılaştırılmayacağını belirtir. Varsayılan olarak tablolar göz ardı edilmez.
+linktitle: IgnoreTables
+articleTitle: IgnoreTables
+second_title: Aspose.Words for .NET
+description: CompareOptions IgnoreTables mülk. Tablolarda bulunan verilerdeki farklılıkların karşılaştırılıp karşılaştırılmayacağını belirtir. Varsayılan olarak tablolar göz ardı edilmez C#'da.
 type: docs
 weight: 110
 url: /tr/net/aspose.words.comparing/compareoptions/ignoretables/
@@ -14,7 +16,7 @@ Tablolarda bulunan verilerdeki farklılıkların karşılaştırılıp karşıla
 public bool IgnoreTables { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Karşılaştırma yaparken belirli belge öğesi türlerinin nasıl filtreleneceğini gösterir.
 
@@ -88,7 +90,5 @@ docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
 ### Ayrıca bakınız
 
 * class [CompareOptions](../)
-* ad alanı [Aspose.Words.Comparing](../../compareoptions/)
+* ad alanı [Aspose.Words.Comparing](../../../aspose.words.comparing/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Aspose.Words.Layout
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Layout ad alanı belge sayfalar halinde formatlandığında belirli belge öğelerinin   hangi sayfada ve sayfada nerede konumlandırıldığı gibi bilgilerine erişime izin veren sınıflar sağlar.
+linktitle: Aspose.Words.Layout
+articleTitle: Aspose.Words.Layout
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Layout ad alanı belge sayfalar halinde formatlandığında belirli belge öğelerinin   hangi sayfada ve sayfada nerede konumlandırıldığı gibi bilgilerine erişime izin veren sınıflar sağlar C#'da.
 type: docs
 weight: 110
 url: /tr/net/aspose.words.layout/
@@ -33,5 +35,3 @@ url: /tr/net/aspose.words.layout/
 | [RevisionColor](./revisioncolor/) | Belge revizyonlarının rengini belirlemeye izin verir. |
 | [RevisionTextEffect](./revisiontexteffect/) | Belge metninin revizyonları için dekorasyon efektini belirtmeye olanak tanır. |
 | [ShowInBalloons](./showinballoons/) | Balonlarda hangi revizyonların oluşturulacağını belirtir. |
-
-

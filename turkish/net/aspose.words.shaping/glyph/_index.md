@@ -1,7 +1,9 @@
 ---
-title: Class Glyph
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Shaping.Glyph sınıf. Bir glifi temsil eder
+title: Glyph Class
+linktitle: Glyph
+articleTitle: Glyph
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Shaping.Glyph sınıf. Bir glifi temsil eder C#'da.
 type: docs
 weight: 6040
 url: /tr/net/aspose.words.shaping/glyph/
@@ -18,7 +20,7 @@ public class Glyph
 
 | İsim | Tanım |
 | --- | --- |
-| [Glyph](glyph/)(int, short, short, short) | Bu sınıfın yeni örneğini başlatır. |
+| [Glyph](glyph/)(*int, short, short, short*) | Bu sınıfın yeni örneğini başlatır. |
 
 ## Özellikleri
 
@@ -34,11 +36,9 @@ public class Glyph
 | İsim | Tanım |
 | --- | --- |
 | virtual [Clone](../../aspose.words.shaping/glyph/clone/)() | Bu örneğin bir kopyasını döndürür. |
-| virtual [GetWidth](../../aspose.words.shaping/glyph/getwidth/)(int, float) | Glifin genişliğini (ilerlemesini) nokta cinsinden döndürür. |
+| virtual [GetWidth](../../aspose.words.shaping/glyph/getwidth/)(*int, float*) | Glifin genişliğini (ilerlemesini) nokta cinsinden döndürür. |
 
 ### Ayrıca bakınız
 
 * ad alanı [Aspose.Words.Shaping](../../aspose.words.shaping/)
 * toplantı [Aspose.Words](../../)
-
-

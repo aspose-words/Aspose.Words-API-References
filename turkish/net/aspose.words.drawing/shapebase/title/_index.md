@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.Title
-second_title: Aspose.Words for .NET API Referansı
-description: ShapeBase mülk. Geçerli şekil nesnesinin başlığını başlığını alır veya ayarlar.
+linktitle: Title
+articleTitle: Title
+second_title: Aspose.Words for .NET
+description: ShapeBase Title mülk. Geçerli şekil nesnesinin başlığını başlığını alır veya ayarlar C#'da.
 type: docs
 weight: 530
 url: /tr/net/aspose.words.drawing/shapebase/title/
@@ -14,13 +16,13 @@ Geçerli şekil nesnesinin başlığını (başlığını) alır veya ayarlar.
 public string Title { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan boş dizedir.
 
 Olamaz`hükümsüz`, ancak boş bir dize olabilir.
 
-### Örnekler
+## Örnekler
 
 Bir şeklin başlığının nasıl ayarlanacağını gösterir.
 
@@ -50,7 +52,5 @@ Assert.AreEqual("Title: My cube", shape.AlternativeText);
 ### Ayrıca bakınız
 
 * class [ShapeBase](../)
-* ad alanı [Aspose.Words.Drawing](../../shapebase/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

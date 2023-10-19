@@ -1,7 +1,9 @@
 ---
 title: SectionCollection.ToArray
-second_title: Aspose.Words for .NET API Referansı
-description: SectionCollection yöntem. Koleksiyondaki tüm bölümleri yeni bir bölüm dizisine kopyalar.
+linktitle: ToArray
+articleTitle: ToArray
+second_title: Aspose.Words for .NET
+description: SectionCollection ToArray yöntem. Koleksiyondaki tüm bölümleri yeni bir bölüm dizisine kopyalar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/sectioncollection/toarray/
@@ -22,7 +24,5 @@ Bir dizi bölüm.
 
 * class [Section](../../section/)
 * class [SectionCollection](../)
-* ad alanı [Aspose.Words](../../sectioncollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

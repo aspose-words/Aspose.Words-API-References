@@ -1,7 +1,9 @@
 ---
-title: Enum OdsoDataSourceType
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Settings.OdsoDataSourceType Sıralama. ODSO bağlantı bilgilerinin bir parçası olarak bağlanılacak harici veri kaynağının türünü belirtir.
+title: OdsoDataSourceType Enum
+linktitle: OdsoDataSourceType
+articleTitle: OdsoDataSourceType
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Settings.OdsoDataSourceType Sıralama. ODSO bağlantı bilgilerinin bir parçası olarak bağlanılacak harici veri kaynağının türünü belirtir C#'da.
 type: docs
 weight: 5890
 url: /tr/net/aspose.words.settings/odsodatasourcetype/
@@ -30,11 +32,11 @@ public enum OdsoDataSourceType
 | Master | `9` | Belirli bir belgenin, diğer veri kaynaklarını toplayan bir veri kaynağına bağlandığını belirtir. |
 | Default | `7` | Şuna eşittir:None . |
 
-### Notlar
+## Notlar
 
 Bu numaralandırma için OOXML spesifikasyonu oldukça belirsizdir. Sanırım WdMergeSubType numaralandırmasına http://msdn.microsoft.com/en-us/library/bb237801.aspx karşılık gelebilir.
 
-### Örnekler
+## Örnekler
 
 Bir Office Veri Kaynağı Nesnesinden alınan verilerle adres-mektup birleştirmenin nasıl yürütüleceğini gösterir.
 
@@ -87,5 +89,3 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * ad alanı [Aspose.Words.Settings](../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../)
-
-

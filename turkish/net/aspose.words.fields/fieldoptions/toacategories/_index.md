@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.ToaCategories
-second_title: Aspose.Words for .NET API Referansı
-description: FieldOptions mülk. Yetki kategorileri tablosunu alır veya ayarlar.
+linktitle: ToaCategories
+articleTitle: ToaCategories
+second_title: Aspose.Words for .NET
+description: FieldOptions ToaCategories mülk. Yetki kategorileri tablosunu alır veya ayarlar C#'da.
 type: docs
 weight: 200
 url: /tr/net/aspose.words.fields/fieldoptions/toacategories/
@@ -14,7 +16,7 @@ Yetki kategorileri tablosunu alır veya ayarlar.
 public ToaCategories ToaCategories { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 TOA alanları için bir kategori kümesinin nasıl belirtileceğini gösterir.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "FieldOptions.TOA.Categories.docx");
 
 * class [ToaCategories](../../toacategories/)
 * class [FieldOptions](../)
-* ad alanı [Aspose.Words.Fields](../../fieldoptions/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

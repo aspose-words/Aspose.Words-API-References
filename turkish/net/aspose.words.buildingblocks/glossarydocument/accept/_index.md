@@ -1,7 +1,9 @@
 ---
 title: GlossaryDocument.Accept
-second_title: Aspose.Words for .NET API Referansı
-description: GlossaryDocument yöntem. Ziyaretçi kabul eder.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words for .NET
+description: GlossaryDocument Accept yöntem. Ziyaretçi kabul eder C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.buildingblocks/glossarydocument/accept/
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 Tüm düğümler ziyaret edilmişse doğrudur; yanlış ise[`DocumentVisitor`](../../../aspose.words/documentvisitor/) tüm düğümleri ziyaret etmeden işlemi durdurdu.
 
-### Notlar
+## Notlar
 
 Bu düğümü ve tüm alt öğelerini numaralandırır. Her düğüm kendisine karşılık gelen bir yöntemi çağırır.[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
@@ -32,7 +34,7 @@ Aramalar[`VisitGlossaryDocumentStart`](../../../aspose.words/documentvisitor/vis
 
 Not: Bir sözlük belgesi düğümü ve onun alt öğeleri, a Visitor'ı bir[`Document`](../../../aspose.words/document/) . Bir Ziyaretçiyi a sözlük belgesi üzerinden yürütmek istiyorsanız,`Accept` .
 
-### Örnekler
+## Örnekler
 
 Bir sözlük belgesinde yapı taşlarına erişmenin yollarını gösterir.
 
@@ -137,7 +139,5 @@ public class GlossaryDocVisitor : DocumentVisitor
 
 * class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * class [GlossaryDocument](../)
-* ad alanı [Aspose.Words.BuildingBlocks](../../glossarydocument/)
+* ad alanı [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * toplantı [Aspose.Words](../../../)
-
-

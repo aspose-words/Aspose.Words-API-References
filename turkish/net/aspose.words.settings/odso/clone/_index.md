@@ -1,7 +1,9 @@
 ---
 title: Odso.Clone
-second_title: Aspose.Words for .NET API Referansı
-description: Odso yöntem. Bu nesnenin derin bir kopyasını döndürür.
+linktitle: Clone
+articleTitle: Clone
+second_title: Aspose.Words for .NET
+description: Odso Clone yöntem. Bu nesnenin derin bir kopyasını döndürür C#'da.
 type: docs
 weight: 100
 url: /tr/net/aspose.words.settings/odso/clone/
@@ -14,7 +16,7 @@ Bu nesnenin derin bir kopyasını döndürür.
 public Odso Clone()
 ```
 
-### Örnekler
+## Örnekler
 
 Bir Office Veri Kaynağı Nesnesinden alınan verilerle adres-mektup birleştirmenin nasıl yürütüleceğini gösterir.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ### Ayrıca bakınız
 
 * class [Odso](../)
-* ad alanı [Aspose.Words.Settings](../../odso/)
+* ad alanı [Aspose.Words.Settings](../../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DefaultFontSubstitutionRule.DefaultFontName
-second_title: Aspose.Words for .NET API Referansı
-description: DefaultFontSubstitutionRule mülk. Varsayılan yazı tipi adını alır veya ayarlar.
+linktitle: DefaultFontName
+articleTitle: DefaultFontName
+second_title: Aspose.Words for .NET
+description: DefaultFontSubstitutionRule DefaultFontName mülk. Varsayılan yazı tipi adını alır veya ayarlar C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fonts/defaultfontsubstitutionrule/defaultfontname/
@@ -14,11 +16,11 @@ Varsayılan yazı tipi adını alır veya ayarlar.
 public string DefaultFontName { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer 'Times New Roman'dır.
 
-### Örnekler
+## Örnekler
 
 Varsayılan yazı tipi değiştirme kuralının nasıl ayarlanacağını gösterir.
 
@@ -78,7 +80,5 @@ doc.Save(ArtifactsDir + "FontSettings.DefaultFontName.pdf");
 ### Ayrıca bakınız
 
 * class [DefaultFontSubstitutionRule](../)
-* ad alanı [Aspose.Words.Fonts](../../defaultfontsubstitutionrule/)
+* ad alanı [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../../)
-
-

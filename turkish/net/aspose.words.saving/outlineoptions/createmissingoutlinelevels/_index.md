@@ -1,7 +1,9 @@
 ---
 title: OutlineOptions.CreateMissingOutlineLevels
-second_title: Aspose.Words for .NET API Referansı
-description: OutlineOptions mülk. Belge dışa aktarıldığında eksik anahat düzeylerinin oluşturulup oluşturulmayacağını belirleyen bir değer alır veya ayarlar.
+linktitle: CreateMissingOutlineLevels
+articleTitle: CreateMissingOutlineLevels
+second_title: Aspose.Words for .NET
+description: OutlineOptions CreateMissingOutlineLevels mülk. Belge dışa aktarıldığında eksik anahat düzeylerinin oluşturulup oluşturulmayacağını belirleyen bir değer alır veya ayarlar C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.saving/outlineoptions/createmissingoutlinelevels/
@@ -16,7 +18,7 @@ Bu özellik için varsayılan değer:`YANLIŞ`.
 public bool CreateMissingOutlineLevels { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir PDF belgesini kaydederken karşılık gelen başlıklar içermeyen anahat düzeyleriyle nasıl çalışılacağını gösterir.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.CreateMissingOutlineLevels.pdf", saveOpt
 ### Ayrıca bakınız
 
 * class [OutlineOptions](../)
-* ad alanı [Aspose.Words.Saving](../../outlineoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

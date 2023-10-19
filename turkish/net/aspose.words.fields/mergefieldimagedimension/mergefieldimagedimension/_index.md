@@ -1,12 +1,14 @@
 ---
-title: MergeFieldImageDimension.MergeFieldImageDimension
-second_title: Aspose.Words for .NET API Referansı
-description: MergeFieldImageDimension inşaatçı. Nokta cinsinden verilen değerle bir görüntü boyutu örneği oluşturur.
+title: MergeFieldImageDimension
+linktitle: MergeFieldImageDimension
+articleTitle: MergeFieldImageDimension
+second_title: Aspose.Words for .NET
+description: MergeFieldImageDimension inşaatçı. Nokta cinsinden verilen değerle bir görüntü boyutu örneği oluşturur C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/mergefieldimagedimension/mergefieldimagedimension/
 ---
-## MergeFieldImageDimension(double) {#constructor}
+## MergeFieldImageDimension(*double*) {#constructor}
 
 Nokta cinsinden verilen değerle bir görüntü boyutu örneği oluşturur.
 
@@ -18,11 +20,11 @@ public MergeFieldImageDimension(double value)
 | --- | --- | --- |
 | value | Double | Değer. |
 
-### Notlar
+## Notlar
 
 İlgili görüntü boyutunun orijinal değerinin uygulanması gerektiğini belirtmek için negatif bir değer kullanmalısınız.
 
-### Örnekler
+## Örnekler
 
 Adres-mektup birleştirme sırasında MERGEFIELDS'in kabul ettiği görüntülerin boyutlarının nasıl ayarlanacağını gösterir.
 
@@ -92,12 +94,12 @@ private class MergedImageResizer : IFieldMergingCallback
 ### Ayrıca bakınız
 
 * class [MergeFieldImageDimension](../)
-* ad alanı [Aspose.Words.Fields](../../mergefieldimagedimension/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## MergeFieldImageDimension(double, MergeFieldImageDimensionUnit) {#constructor_1}
+## MergeFieldImageDimension(*double, [MergeFieldImageDimensionUnit](../../mergefieldimagedimensionunit/)*) {#constructor_1}
 
 Verilen değer ve verilen birimle bir görüntü boyutu örneği oluşturur.
 
@@ -110,11 +112,11 @@ public MergeFieldImageDimension(double value, MergeFieldImageDimensionUnit unit)
 | value | Double | Değer. |
 | unit | MergeFieldImageDimensionUnit | Birim. |
 
-### Notlar
+## Notlar
 
 İlgili görüntü boyutunun orijinal değerinin uygulanması gerektiğini belirtmek için negatif bir değer kullanmalısınız.
 
-### Örnekler
+## Örnekler
 
 Adres-mektup birleştirme sırasında MERGEFIELDS'in kabul ettiği görüntülerin boyutlarının nasıl ayarlanacağını gösterir.
 
@@ -185,7 +187,5 @@ private class MergedImageResizer : IFieldMergingCallback
 
 * enum [MergeFieldImageDimensionUnit](../../mergefieldimagedimensionunit/)
 * class [MergeFieldImageDimension](../)
-* ad alanı [Aspose.Words.Fields](../../mergefieldimagedimension/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

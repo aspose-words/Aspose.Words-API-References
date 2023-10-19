@@ -1,7 +1,9 @@
 ---
-title: Class OleFormat
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.OleFormat sınıf. Bir OLE nesnesinin veya ActiveX denetiminin verilerine erişim sağlar.
+title: OleFormat Class
+linktitle: OleFormat
+articleTitle: OleFormat
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.OleFormat sınıf. Bir OLE nesnesinin veya ActiveX denetiminin verilerine erişim sağlar C#'da.
 type: docs
 weight: 1150
 url: /tr/net/aspose.words.drawing/oleformat/
@@ -38,16 +40,16 @@ public class OleFormat
 
 | İsim | Tanım |
 | --- | --- |
-| [GetOleEntry](../../aspose.words.drawing/oleformat/getoleentry/)(string) | OLE nesnesi veri girişini alır. |
+| [GetOleEntry](../../aspose.words.drawing/oleformat/getoleentry/)(*string*) | OLE nesnesi veri girişini alır. |
 | [GetRawData](../../aspose.words.drawing/oleformat/getrawdata/)() | OLE nesnesinin ham verilerini alır. |
-| [Save](../../aspose.words.drawing/oleformat/save/#save)(Stream) | Gömülü nesnenin verilerini belirtilen akışa kaydeder. |
-| [Save](../../aspose.words.drawing/oleformat/save/#save_1)(string) | Gömülü nesnenin verilerini belirtilen adda bir dosyaya kaydeder. |
+| [Save](../../aspose.words.drawing/oleformat/save/#save)(*Stream*) | Gömülü nesnenin verilerini belirtilen akışa kaydeder. |
+| [Save](../../aspose.words.drawing/oleformat/save/#save_1)(*string*) | Gömülü nesnenin verilerini belirtilen adda bir dosyaya kaydeder. |
 
-### Notlar
+## Notlar
 
 Kullan[`OleFormat`](../shape/oleformat/)OLE nesnesinin verilerine erişme özelliği. Örneklerini oluşturmazsınız`OleFormat` doğrudan sınıf.
 
-### Örnekler
+## Örnekler
 
 Katıştırılmış OLE nesnelerinin dosyalara nasıl çıkartılacağını gösterir.
 
@@ -83,5 +85,3 @@ oleFormat.Save(ArtifactsDir + "OLE spreadsheet saved directly" + oleFormat.Sugge
 
 * ad alanı [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../)
-
-

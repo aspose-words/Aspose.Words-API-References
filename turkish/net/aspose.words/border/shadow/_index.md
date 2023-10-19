@@ -1,7 +1,9 @@
 ---
 title: Border.Shadow
-second_title: Aspose.Words for .NET API Referansı
-description: Border mülk. Kenarlığın gölgesi olup olmadığını belirten bir değer alır veya ayarlar.
+linktitle: Shadow
+articleTitle: Shadow
+second_title: Aspose.Words for .NET
+description: Border Shadow mülk. Kenarlığın gölgesi olup olmadığını belirten bir değer alır veya ayarlar C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words/border/shadow/
@@ -14,11 +16,11 @@ Kenarlığın gölgesi olup olmadığını belirten bir değer alır veya ayarla
 public bool Shadow { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Microsoft Word'de, bir kenarlığın gölgeye sahip olması için, dört kenardaki (sol, üst, sağ ve alt) kenarlıkların aynı türde, genişlikte ve renkte olması ve hepsinde Shadow özelliğinin olarak ayarlanması gerekir`doğru`.
 
-### Örnekler
+## Örnekler
 
 Gölgeli yeşil dalgalı sayfa kenarlığının nasıl oluşturulacağını gösterir.
 
@@ -38,7 +40,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageBorders.docx");
 ### Ayrıca bakınız
 
 * class [Border](../)
-* ad alanı [Aspose.Words](../../border/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

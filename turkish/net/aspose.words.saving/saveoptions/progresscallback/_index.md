@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.ProgressCallback
-second_title: Aspose.Words for .NET API Referansı
-description: SaveOptions mülk. Bir belge kaydedilirken çağrılır ve kaydetme işlemiyle ilgili verileri kabul eder.
+linktitle: ProgressCallback
+articleTitle: ProgressCallback
+second_title: Aspose.Words for .NET
+description: SaveOptions ProgressCallback mülk. Bir belge kaydedilirken çağrılır ve kaydetme işlemiyle ilgili verileri kabul eder C#'da.
 type: docs
 weight: 120
 url: /tr/net/aspose.words.saving/saveoptions/progresscallback/
@@ -14,11 +16,11 @@ Bir belge kaydedilirken çağrılır ve kaydetme işlemiyle ilgili verileri kabu
 public IDocumentSavingCallback ProgressCallback { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Şuraya kaydederken ilerleme raporlanır:Docx ,FlatOpc , Docm ,Dotm ,Dotx , Doc ,Dot , Html ,Mhtml ,Epub , XamlFlow , veyaXamlFlowPack .
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi html'ye kaydederken nasıl yönetileceğini gösterir.
 
@@ -189,7 +191,5 @@ public class SavingProgressCallback : IDocumentSavingCallback
 
 * interface [IDocumentSavingCallback](../../idocumentsavingcallback/)
 * class [SaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../saveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

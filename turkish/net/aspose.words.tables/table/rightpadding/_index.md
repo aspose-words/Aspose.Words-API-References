@@ -1,7 +1,9 @@
 ---
 title: Table.RightPadding
-second_title: Aspose.Words for .NET API Referansı
-description: Table mülk. Hücre içeriğinin sağına eklenecek alan miktarını puan cinsinden alır veya ayarlar.
+linktitle: RightPadding
+articleTitle: RightPadding
+second_title: Aspose.Words for .NET
+description: Table RightPadding mülk. Hücre içeriğinin sağına eklenecek alan miktarını puan cinsinden alır veya ayarlar C#'da.
 type: docs
 weight: 250
 url: /tr/net/aspose.words.tables/table/rightpadding/
@@ -14,7 +16,7 @@ Hücre içeriğinin sağına eklenecek alan miktarını (puan cinsinden) alır v
 public double RightPadding { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir tabloda içerik dolgusunun nasıl yapılandırılacağını gösterir.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.SetRowFormatting.docx");
 ### Ayrıca bakınız
 
 * class [Table](../)
-* ad alanı [Aspose.Words.Tables](../../table/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class ChartLegend
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.Charts.ChartLegend sınıf. Grafik açıklama özelliklerini temsil eder.
+title: ChartLegend Class
+linktitle: ChartLegend
+articleTitle: ChartLegend
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.Charts.ChartLegend sınıf. Grafik açıklama özelliklerini temsil eder C#'da.
 type: docs
 weight: 720
 url: /tr/net/aspose.words.drawing.charts/chartlegend/
@@ -24,7 +26,7 @@ public class ChartLegend
 | [Overlay](../../aspose.words.drawing.charts/chartlegend/overlay/) { get; set; } | Diğer grafik öğelerinin göstergelerle çakışmasına izin verilip verilmeyeceğini belirler. Varsayılan değer:`YANLIŞ` . |
 | [Position](../../aspose.words.drawing.charts/chartlegend/position/) { get; set; } | Göstergenin grafikteki konumunu belirtir. Varsayılan değer:Right . |
 
-### Örnekler
+## Örnekler
 
 Bir grafiğin göstergesinin görünümünün nasıl düzenleneceğini gösterir.
 
@@ -54,5 +56,3 @@ doc.Save(ArtifactsDir + "Charts.ChartLegend.docx");
 
 * ad alanı [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../)
-
-

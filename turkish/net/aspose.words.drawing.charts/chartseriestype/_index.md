@@ -1,7 +1,9 @@
 ---
-title: Enum ChartSeriesType
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.Charts.ChartSeriesType Sıralama. Bir grafik serisinin türünü belirtir.
+title: ChartSeriesType Enum
+linktitle: ChartSeriesType
+articleTitle: ChartSeriesType
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.Charts.ChartSeriesType Sıralama. Bir grafik serisinin türünü belirtir C#'da.
 type: docs
 weight: 800
 url: /tr/net/aspose.words.drawing.charts/chartseriestype/
@@ -63,7 +65,7 @@ public enum ChartSeriesType
 | Funnel | `42` | Bir Huni grafik serisini temsil eder. |
 | RegionMap | `43` | Bölge Haritası grafik serisini temsil eder. |
 
-### Örnekler
+## Örnekler
 
 Nasıl yapılacağını gösterir
 
@@ -90,5 +92,3 @@ doc.Save(ArtifactsDir + "Charts.RemoveSpecificChartSeries.docx");
 
 * ad alanı [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../)
-
-

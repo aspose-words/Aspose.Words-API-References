@@ -1,7 +1,9 @@
 ---
-title: OdsoFieldMapData.OdsoFieldMapData
-second_title: Aspose.Words for .NET API Referansı
-description: OdsoFieldMapData inşaatçı. Default_Constructor
+title: OdsoFieldMapData
+linktitle: OdsoFieldMapData
+articleTitle: OdsoFieldMapData
+second_title: Aspose.Words for .NET
+description: OdsoFieldMapData inşaatçı. Default_Constructor C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.settings/odsofieldmapdata/odsofieldmapdata/
@@ -17,7 +19,5 @@ public OdsoFieldMapData()
 ### Ayrıca bakınız
 
 * class [OdsoFieldMapData](../)
-* ad alanı [Aspose.Words.Settings](../../odsofieldmapdata/)
+* ad alanı [Aspose.Words.Settings](../../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../../)
-
-

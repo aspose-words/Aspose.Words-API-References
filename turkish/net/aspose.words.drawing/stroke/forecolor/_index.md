@@ -1,9 +1,11 @@
 ---
 title: Stroke.ForeColor
-second_title: Aspose.Words for .NET API Referansı
-description: Stroke mülk. Konturun ön plan rengini alır veya ayarlar.
+linktitle: ForeColor
+articleTitle: ForeColor
+second_title: Aspose.Words for .NET
+description: Stroke ForeColor mülk. Konturun ön plan rengini alır veya ayarlar C#'da.
 type: docs
-weight: 110
+weight: 100
 url: /tr/net/aspose.words.drawing/stroke/forecolor/
 ---
 ## Stroke.ForeColor property
@@ -14,11 +16,11 @@ Konturun ön plan rengini alır veya ayarlar.
 public Color ForeColor { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bir için varsayılan değer[`Shape`](../../shape/) is Black.
 
-### Örnekler
+## Örnekler
 
 İşaretçi biçimlendirmesinin nasıl ayarlanacağını gösterin.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Charts.MarkerFormatting.docx");
 ### Ayrıca bakınız
 
 * class [Stroke](../)
-* ad alanı [Aspose.Words.Drawing](../../stroke/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

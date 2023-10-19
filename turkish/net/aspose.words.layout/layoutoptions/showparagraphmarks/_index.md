@@ -1,7 +1,9 @@
 ---
 title: LayoutOptions.ShowParagraphMarks
-second_title: Aspose.Words for .NET API Referansı
-description: LayoutOptions mülk. Paragraf işaretlerinin oluşturulup oluşturulmayacağına ilişkin göstergeyi alır veya ayarlar. VarsayılanYANLIŞ .
+linktitle: ShowParagraphMarks
+articleTitle: ShowParagraphMarks
+second_title: Aspose.Words for .NET
+description: LayoutOptions ShowParagraphMarks mülk. Paragraf işaretlerinin oluşturulup oluşturulmayacağına ilişkin göstergeyi alır veya ayarlar. VarsayılanYANLIŞ  C#'da.
 type: docs
 weight: 90
 url: /tr/net/aspose.words.layout/layoutoptions/showparagraphmarks/
@@ -14,7 +16,7 @@ Paragraf işaretlerinin oluşturulup oluşturulmayacağına ilişkin göstergeyi
 public bool ShowParagraphMarks { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 İşlenmiş bir çıktı belgesinde paragraf işaretlerinin nasıl gösterileceğini gösterir.
 
@@ -34,7 +36,5 @@ doc.Save(ArtifactsDir + "Document.LayoutOptionsParagraphMarks.pdf");
 ### Ayrıca bakınız
 
 * class [LayoutOptions](../)
-* ad alanı [Aspose.Words.Layout](../../layoutoptions/)
+* ad alanı [Aspose.Words.Layout](../../../aspose.words.layout/)
 * toplantı [Aspose.Words](../../../)
-
-

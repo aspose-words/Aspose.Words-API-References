@@ -1,7 +1,9 @@
 ---
-title: Class TextColumnCollection
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.TextColumnCollection sınıf. Bir koleksiyonTextColumn bir belgenin bir bölümündeki metnin tüm sütunlarını temsil eden nesneler.
+title: TextColumnCollection Class
+linktitle: TextColumnCollection
+articleTitle: TextColumnCollection
+second_title: Aspose.Words for .NET
+description: Aspose.Words.TextColumnCollection sınıf. Bir koleksiyonTextColumn bir belgenin bir bölümündeki metnin tüm sütunlarını temsil eden nesneler C#'da.
 type: docs
 weight: 6400
 url: /tr/net/aspose.words/textcolumncollection/
@@ -31,9 +33,9 @@ public class TextColumnCollection
 
 | İsim | Tanım |
 | --- | --- |
-| [SetCount](../../aspose.words/textcolumncollection/setcount/)(int) | Metni belirtilen sayıda metin sütunu halinde düzenler. |
+| [SetCount](../../aspose.words/textcolumncollection/setcount/)(*int*) | Metni belirtilen sayıda metin sütunu halinde düzenler. |
 
-### Notlar
+## Notlar
 
 Kullanmak[`SetCount`](./setcount/) Metin sütunlarının sayısını ayarlamak için.
 
@@ -43,7 +45,7 @@ eğer varsa[`EvenlySpaced`](./evenlyspaced/) ayarlanır`YANLIŞ` , her sütunu i
 
 Özel sütun genişlikleri kullanırken, tüm sütun genişliklerinin ve aralarındaki aralıkların (x000d_) toplamının, sayfa genişliği eksi sol ve sağ sayfa kenar boşluklarına eşit olduğundan emin olun.
 
-### Örnekler
+## Örnekler
 
 Bir bölümde birden çok eşit aralıklı sütunun nasıl oluşturulacağını gösterir.
 
@@ -66,5 +68,3 @@ doc.Save(ArtifactsDir + "PageSetup.ColumnsSameWidth.docx");
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

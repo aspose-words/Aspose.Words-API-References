@@ -1,7 +1,9 @@
 ---
 title: Style.AutomaticallyUpdate
-second_title: Aspose.Words for .NET API Referansı
-description: Style mülk. Bu stilin uygun değere göre otomatik olarak yeniden tanımlanıp tanımlanmayacağını belirtir.
+linktitle: AutomaticallyUpdate
+articleTitle: AutomaticallyUpdate
+second_title: Aspose.Words for .NET
+description: Style AutomaticallyUpdate mülk. Bu stilin uygun değere göre otomatik olarak yeniden tanımlanıp tanımlanmayacağını belirtir C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/style/automaticallyupdate/
@@ -14,7 +16,7 @@ Bu stilin uygun değere göre otomatik olarak yeniden tanımlanıp tanımlanmaya
 public bool AutomaticallyUpdate { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Özellik değeri true olarak ayarlanırsa, uygun paragraf formatı değiştirildiğinde MS Word geçerli stili otomatik olarak yeniden tanımlar.
 
@@ -22,7 +24,7 @@ Otomatik Güncelleme özelliği yalnızca paragraf stillerine uygulanabilir.
 
 Varsayılan değer:`YANLIŞ`.
 
-### Örnekler
+## Örnekler
 
 Özel bir stilin nasıl oluşturulacağını ve uygulanacağını gösterir.
 
@@ -61,7 +63,5 @@ Assert.AreEqual(Color.Empty.ToArgb(), firstParagraphStyle.Font.Color.ToArgb());
 ### Ayrıca bakınız
 
 * class [Style](../)
-* ad alanı [Aspose.Words](../../style/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

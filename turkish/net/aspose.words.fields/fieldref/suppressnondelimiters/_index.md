@@ -1,7 +1,9 @@
 ---
 title: FieldRef.SuppressNonDelimiters
-second_title: Aspose.Words for .NET API Referansı
-description: FieldRef mülk. Sınırlayıcı olmayan karakterlerin gizlenip gizlenmeyeceğini alır veya ayarlar.
+linktitle: SuppressNonDelimiters
+articleTitle: SuppressNonDelimiters
+second_title: Aspose.Words for .NET
+description: FieldRef SuppressNonDelimiters mülk. Sınırlayıcı olmayan karakterlerin gizlenip gizlenmeyeceğini alır veya ayarlar C#'da.
 type: docs
 weight: 100
 url: /tr/net/aspose.words.fields/fieldref/suppressnondelimiters/
@@ -14,7 +16,7 @@ Sınırlayıcı olmayan karakterlerin gizlenip gizlenmeyeceğini alır veya ayar
 public bool SuppressNonDelimiters { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Referans yer imlerine REF alanlarının nasıl ekleneceğini gösterir.
 
@@ -104,7 +106,5 @@ private static FieldRef InsertFieldRef(DocumentBuilder builder, string bookmarkN
 ### Ayrıca bakınız
 
 * class [FieldRef](../)
-* ad alanı [Aspose.Words.Fields](../../fieldref/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

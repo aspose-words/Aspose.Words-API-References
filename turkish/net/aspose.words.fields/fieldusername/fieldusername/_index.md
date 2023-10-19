@@ -1,7 +1,9 @@
 ---
-title: FieldUserName.FieldUserName
-second_title: Aspose.Words for .NET API Referansı
-description: FieldUserName inşaatçı. Default_Constructor
+title: FieldUserName
+linktitle: FieldUserName
+articleTitle: FieldUserName
+second_title: Aspose.Words for .NET
+description: FieldUserName inşaatçı. Default_Constructor C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fieldusername/fieldusername/
@@ -17,7 +19,5 @@ public FieldUserName()
 ### Ayrıca bakınız
 
 * class [FieldUserName](../)
-* ad alanı [Aspose.Words.Fields](../../fieldusername/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

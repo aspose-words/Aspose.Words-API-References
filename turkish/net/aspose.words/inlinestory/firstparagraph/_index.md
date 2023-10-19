@@ -1,7 +1,9 @@
 ---
 title: InlineStory.FirstParagraph
-second_title: Aspose.Words for .NET API Referansı
-description: InlineStory mülk. Hikayedeki ilk paragrafı alır.
+linktitle: FirstParagraph
+articleTitle: FirstParagraph
+second_title: Aspose.Words for .NET
+description: InlineStory FirstParagraph mülk. Hikayedeki ilk paragrafı alır C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/inlinestory/firstparagraph/
@@ -14,7 +16,7 @@ Hikayedeki ilk paragrafı alır.
 public Paragraph FirstParagraph { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir paragrafa nasıl yorum ekleneceğini gösterir.
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "InlineStory.AddFootnote.docx");
 
 * class [Paragraph](../../paragraph/)
 * class [InlineStory](../)
-* ad alanı [Aspose.Words](../../inlinestory/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.ImageCompression
-second_title: Aspose.Words for .NET API Referansı
-description: PdfSaveOptions mülk. Belgedeki tüm görüntüler için kullanılacak sıkıştırma türünü belirtir.
+linktitle: ImageCompression
+articleTitle: ImageCompression
+second_title: Aspose.Words for .NET
+description: PdfSaveOptions ImageCompression mülk. Belgedeki tüm görüntüler için kullanılacak sıkıştırma türünü belirtir C#'da.
 type: docs
 weight: 200
 url: /tr/net/aspose.words.saving/pdfsaveoptions/imagecompression/
@@ -14,7 +16,7 @@ Belgedeki tüm görüntüler için kullanılacak sıkıştırma türünü belirt
 public PdfImageCompression ImageCompression { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan:Auto.
 
@@ -24,7 +26,7 @@ KullanmaJpeg diğer sıkıştırma türlerinin performansıyla karşılaştırı
 
 KullanmaAuto aracılığıyla çıktı belgesindeki Jpeg kalitesinin kontrol edilmesini sağlar.[`JpegQuality`](../jpegquality/)özelliği, ancak diğer formatlar için ham piksel verileri Flate sıkıştırmasıyla çıkarılır ve kaydedilir. Bu durum Jpeg dönüşümünden daha yavaştır ancak kayıpsızdır.
 
-### Örnekler
+## Örnekler
 
 PDF'ye dönüştürdüğümüz bir belgedeki tüm görüntüler için sıkıştırma türünün nasıl belirleneceğini gösterir.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ImageCompression.pdf", pdfSaveOptions);
 
 * enum [PdfImageCompression](../../pdfimagecompression/)
 * class [PdfSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../pdfsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

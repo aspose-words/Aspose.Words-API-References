@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.CurrentStory
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentBuilder mülk. Bu bölümde o anda seçili olan hikayeyi getirirDocumentBuilder .
+linktitle: CurrentStory
+articleTitle: CurrentStory
+second_title: Aspose.Words for .NET
+description: DocumentBuilder CurrentStory mülk. Bu bölümde o anda seçili olan hikayeyi getirirDocumentBuilder  C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words/documentbuilder/currentstory/
@@ -14,7 +16,7 @@ Bu bölümde o anda seçili olan hikayeyi getirir[`DocumentBuilder`](../) .
 public Story CurrentStory { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Belge oluşturucunun güncel hikayesiyle nasıl çalışılacağını gösterir.
 
@@ -44,7 +46,5 @@ Assert.IsTrue(builder.CurrentStory.Tables.Contains(table));
 
 * class [Story](../../story/)
 * class [DocumentBuilder](../)
-* ad alanı [Aspose.Words](../../documentbuilder/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

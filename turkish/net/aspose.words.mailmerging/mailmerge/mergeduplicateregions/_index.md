@@ -1,7 +1,9 @@
 ---
 title: MailMerge.MergeDuplicateRegions
-second_title: Aspose.Words for .NET API Referansı
-description: MailMerge mülk. Veri kaynağına karşı bölgelerle adresmektup birleştirme yürütülürken veri kaynağı adına sahip tüm belge adresmektup birleştirme bölgelerinin mi yoksa yalnızca ilkinin mi birleştirilmesi gerektiğini belirten bir değer alır veya ayarlar.
+linktitle: MergeDuplicateRegions
+articleTitle: MergeDuplicateRegions
+second_title: Aspose.Words for .NET
+description: MailMerge MergeDuplicateRegions mülk. Veri kaynağına karşı bölgelerle adresmektup birleştirme yürütülürken veri kaynağı adına sahip tüm belge adresmektup birleştirme bölgelerinin mi yoksa yalnızca ilkinin mi birleştirilmesi gerektiğini belirten bir değer alır veya ayarlar C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.mailmerging/mailmerge/mergeduplicateregions/
@@ -14,11 +16,11 @@ Veri kaynağına karşı bölgelerle adres-mektup birleştirme yürütülürken,
 public bool MergeDuplicateRegions { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:`YANLIŞ` .
 
-### Örnekler
+## Örnekler
 
 Yinelenen adres-mektup birleştirme bölgeleriyle nasıl çalışılacağını gösterir.
 
@@ -76,7 +78,5 @@ private static DataTable CreateSourceTableMergeDuplicateRegions()
 ### Ayrıca bakınız
 
 * class [MailMerge](../)
-* ad alanı [Aspose.Words.MailMerging](../../mailmerge/)
+* ad alanı [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: NodeCollection.Count
-second_title: Aspose.Words for .NET API Referansı
-description: NodeCollection mülk. Koleksiyondaki düğüm sayısını alır.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words for .NET
+description: NodeCollection Count mülk. Koleksiyondaki düğüm sayısını alır C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/nodecollection/count/
@@ -14,7 +16,7 @@ Koleksiyondaki düğüm sayısını alır.
 public int Count { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bileşik bir düğümün alt düğüm koleksiyonunda nasıl geçiş yapılacağını gösterir.
 
@@ -132,7 +134,5 @@ private static int GetChildTableCount(Table table)
 ### Ayrıca bakınız
 
 * class [NodeCollection](../)
-* ad alanı [Aspose.Words](../../nodecollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

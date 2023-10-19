@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.DownsampleOptions
-second_title: Aspose.Words for .NET API Referansı
-description: PdfSaveOptions mülk. Altörnekleme seçeneklerini belirlemeye izin verir.
+linktitle: DownsampleOptions
+articleTitle: DownsampleOptions
+second_title: Aspose.Words for .NET
+description: PdfSaveOptions DownsampleOptions mülk. Altörnekleme seçeneklerini belirlemeye izin verir C#'da.
 type: docs
 weight: 100
 url: /tr/net/aspose.words.saving/pdfsaveoptions/downsampleoptions/
@@ -14,7 +16,7 @@ Altörnekleme seçeneklerini belirlemeye izin verir.
 public DownsampleOptions DownsampleOptions { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 PDF belgesindeki görüntülerin çözünürlüğünün nasıl değiştirileceğini gösterir.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.DownsampleOptions.LowerResolution.pdf", 
 
 * class [DownsampleOptions](../../downsampleoptions/)
 * class [PdfSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../pdfsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

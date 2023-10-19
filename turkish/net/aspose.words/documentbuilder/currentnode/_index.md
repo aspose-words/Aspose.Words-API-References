@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.CurrentNode
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentBuilder mülk. Bu DocumentBuilderda seçili olan düğümü alır.
+linktitle: CurrentNode
+articleTitle: CurrentNode
+second_title: Aspose.Words for .NET
+description: DocumentBuilder CurrentNode mülk. Bu DocumentBuilderda seçili olan düğümü alır C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words/documentbuilder/currentnode/
@@ -14,13 +16,13 @@ Bu DocumentBuilder'da seçili olan düğümü alır.
 public Node CurrentNode { get; }
 ```
 
-### Notlar
+## Notlar
 
 `CurrentNode` bir imleçtir[`DocumentBuilder`](../) ve bir noktaya işaret ediyor[`Node`](../../node/) bu doğrudan bir alt öğedir[`Paragraph`](../../paragraph/) . kullanarak gerçekleştirdiğiniz tüm ekleme işlemleri[`DocumentBuilder`](../) önce eklenecek`CurrentNode`.
 
 Geçerli paragraf boş olduğunda veya imleç bir paragrafın veya yapılandırılmış belge etiketinin sonundan hemen önce konumlandırıldığında,`CurrentNode` İadeler`hükümsüz`.
 
-### Örnekler
+## Örnekler
 
 Belge oluşturucunun imlecinin belgedeki farklı düğümlere nasıl taşınacağını gösterir.
 
@@ -75,7 +77,5 @@ Assert.IsTrue(builder.IsAtStartOfParagraph);
 
 * class [Node](../../node/)
 * class [DocumentBuilder](../)
-* ad alanı [Aspose.Words](../../documentbuilder/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

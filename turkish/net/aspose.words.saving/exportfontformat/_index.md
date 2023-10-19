@@ -1,7 +1,9 @@
 ---
-title: Enum ExportFontFormat
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Saving.ExportFontFormat Sıralama. Sabit HTML biçimine dönüştürülürken yazı tiplerini dışa aktarmak için kullanılan biçimi belirtir.
+title: ExportFontFormat Enum
+linktitle: ExportFontFormat
+articleTitle: ExportFontFormat
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Saving.ExportFontFormat Sıralama. Sabit HTML biçimine dönüştürülürken yazı tiplerini dışa aktarmak için kullanılan biçimi belirtir C#'da.
 type: docs
 weight: 4990
 url: /tr/net/aspose.words.saving/exportfontformat/
@@ -21,7 +23,7 @@ public enum ExportFontFormat
 | Woff | `0` | WOFF (Web Açık Yazı Tipi Formatı). |
 | Ttf | `1` | TTF (TrueType Yazı Tipi formatı). |
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi HTML'ye kaydederken yazı tiplerinin yalnızca hedef makineden nasıl kullanılacağını gösterir.
 
@@ -53,5 +55,3 @@ else
 * property [FontFormat](../htmlfixedsaveoptions/fontformat/)
 * ad alanı [Aspose.Words.Saving](../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../)
-
-

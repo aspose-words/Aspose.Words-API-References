@@ -1,7 +1,9 @@
 ---
 title: Document.PackageCustomParts
-second_title: Aspose.Words for .NET API Referansı
-description: Document mülk. Bilinmeyen ilişkiler kullanılarak OOXML paketine bağlanan özel parçaların rastgele içerik koleksiyonunu alır veya ayarlar.
+linktitle: PackageCustomParts
+articleTitle: PackageCustomParts
+second_title: Aspose.Words for .NET
+description: Document PackageCustomParts mülk. Bilinmeyen ilişkiler kullanılarak OOXML paketine bağlanan özel parçaların rastgele içerik koleksiyonunu alır veya ayarlar C#'da.
 type: docs
 weight: 310
 url: /tr/net/aspose.words/document/packagecustomparts/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words/document/packagecustomparts/
 public CustomPartCollection PackageCustomParts { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özel parçaları Özel XML Verileriyle karıştırmayın. Özel XML bölümlerine erişmeniz gerekiyorsa, şunu kullanın:[`CustomXmlParts`](../customxmlparts/) mülk.
 
@@ -24,7 +26,7 @@ Aspose.Words özel parçaları yalnızca OOXML belgelerine yükler ve kaydeder.
 
 Bu özellik olamaz`hükümsüz`.
 
-### Örnekler
+## Örnekler
 
 Bir belgenin rastgele özel parça koleksiyonuna nasıl erişileceğini gösterir.
 
@@ -69,7 +71,5 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 
 * class [CustomPartCollection](../../../aspose.words.markup/custompartcollection/)
 * class [Document](../)
-* ad alanı [Aspose.Words](../../document/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

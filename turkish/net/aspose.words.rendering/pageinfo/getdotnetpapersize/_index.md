@@ -1,7 +1,9 @@
 ---
 title: PageInfo.GetDotNetPaperSize
-second_title: Aspose.Words for .NET API Referansı
-description: PageInfo yöntem. AlırPaperSize yazdırmaya uygun nesne bununla temsil edilen sayfaPageInfo .
+linktitle: GetDotNetPaperSize
+articleTitle: GetDotNetPaperSize
+second_title: Aspose.Words for .NET
+description: PageInfo GetDotNetPaperSize yöntem. AlırPaperSize yazdırmaya uygun nesne bununla temsil edilen sayfaPageInfo  C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words.rendering/pageinfo/getdotnetpapersize/
@@ -22,7 +24,7 @@ public PaperSize GetDotNetPaperSize(PaperSizeCollection paperSizes)
 
 Kağıt boyutunu belirtmek için .NET yazdırma çerçevesinde kullanabileceğiniz bir nesne.
 
-### Örnekler
+## Örnekler
 
 Aspose.Words belgelerinin yazdırılmasının nasıl özelleştirileceğini gösterir.
 
@@ -128,7 +130,5 @@ public class MyPrintDocument : PrintDocument
 ### Ayrıca bakınız
 
 * class [PageInfo](../)
-* ad alanı [Aspose.Words.Rendering](../../pageinfo/)
+* ad alanı [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * toplantı [Aspose.Words](../../../)
-
-

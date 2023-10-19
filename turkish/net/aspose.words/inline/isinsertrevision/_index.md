@@ -1,7 +1,9 @@
 ---
 title: Inline.IsInsertRevision
-second_title: Aspose.Words for .NET API Referansı
-description: Inline mülk. Bu nesne Microsoft Worde değişiklik izleme etkinken eklenmişse doğru değerini döndürür.
+linktitle: IsInsertRevision
+articleTitle: IsInsertRevision
+second_title: Aspose.Words for .NET
+description: Inline IsInsertRevision mülk. Bu nesne Microsoft Worde değişiklik izleme etkinken eklenmişse doğru değerini döndürür C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words/inline/isinsertrevision/
@@ -14,7 +16,7 @@ Bu nesne Microsoft Word'e değişiklik izleme etkinken eklenmişse doğru değer
 public bool IsInsertRevision { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Satır içi düğümün revizyon türünün nasıl belirleneceğini gösterir.
 
@@ -70,7 +72,5 @@ Assert.IsTrue(runs[5].IsDeleteRevision);
 ### Ayrıca bakınız
 
 * class [Inline](../)
-* ad alanı [Aspose.Words](../../inline/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

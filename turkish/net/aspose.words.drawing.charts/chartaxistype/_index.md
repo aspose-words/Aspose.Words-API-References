@@ -1,7 +1,9 @@
 ---
-title: Enum ChartAxisType
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.Charts.ChartAxisType Sıralama. Grafik ekseninin türünü belirtir.
+title: ChartAxisType Enum
+linktitle: ChartAxisType
+articleTitle: ChartAxisType
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.Charts.ChartAxisType Sıralama. Grafik ekseninin türünü belirtir C#'da.
 type: docs
 weight: 660
 url: /tr/net/aspose.words.drawing.charts/chartaxistype/
@@ -22,7 +24,7 @@ public enum ChartAxisType
 | Series | `1` | Grafiğin seri ekseni. |
 | Value | `2` | Grafiğin değer ekseni. |
 
-### Örnekler
+## Örnekler
 
 Bir grafik türü için uygun türde bir grafik serisinin nasıl oluşturulacağını gösterir.
 
@@ -112,5 +114,3 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 * ad alanı [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../)
-
-

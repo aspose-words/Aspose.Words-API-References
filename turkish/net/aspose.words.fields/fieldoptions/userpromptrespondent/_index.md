@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.UserPromptRespondent
-second_title: Aspose.Words for .NET API Referansı
-description: FieldOptions mülk. Alan güncellemesi sırasında kullanıcı istemlerine yanıt vereni alır veya ayarlar.
+linktitle: UserPromptRespondent
+articleTitle: UserPromptRespondent
+second_title: Aspose.Words for .NET
+description: FieldOptions UserPromptRespondent mülk. Alan güncellemesi sırasında kullanıcı istemlerine yanıt vereni alır veya ayarlar C#'da.
 type: docs
 weight: 220
 url: /tr/net/aspose.words.fields/fieldoptions/userpromptrespondent/
@@ -14,13 +16,13 @@ Alan güncellemesi sırasında kullanıcı istemlerine yanıt vereni alır veya 
 public IFieldUserPromptRespondent UserPromptRespondent { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özelliğin değeri şu şekilde ayarlanmışsa`hükümsüz` , istem 'de kullanıcı yanıtı gerektiren alanlar (örneğin[`FieldAsk`](../../fieldask/) veya[`FieldFillIn`](../../fieldfillin/)) güncellenmez.
 
 Varsayılan değer:`hükümsüz`.
 
-### Örnekler
+## Örnekler
 
 ASK alanının nasıl oluşturulacağını ve özelliklerinin nasıl ayarlanacağını gösterir.
 
@@ -83,7 +85,5 @@ private class MyPromptRespondent : IFieldUserPromptRespondent
 
 * interface [IFieldUserPromptRespondent](../../ifielduserpromptrespondent/)
 * class [FieldOptions](../)
-* ad alanı [Aspose.Words.Fields](../../fieldoptions/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

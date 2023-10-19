@@ -1,7 +1,9 @@
 ---
-title: Class MailMerge
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.MailMerging.MailMerge sınıf. Adresmektup birleştirme işlevini temsil eder.
+title: MailMerge Class
+linktitle: MailMerge
+articleTitle: MailMerge
+second_title: Aspose.Words for .NET
+description: Aspose.Words.MailMerging.MailMerge sınıf. Adresmektup birleştirme işlevini temsil eder C#'da.
 type: docs
 weight: 3840
 url: /tr/net/aspose.words.mailmerging/mailmerge/
@@ -35,48 +37,48 @@ public class MailMerge
 | [TrimWhitespaces](../../aspose.words.mailmerging/mailmerge/trimwhitespaces/) { get; set; } | Adres-mektup birleştirme değerlerinden sondaki ve baştaki boşlukların kırpılıp kırpılmadığını belirten bir değer alır veya ayarlar. |
 | [UnconditionalMergeFieldsAndRegions](../../aspose.words.mailmerging/mailmerge/unconditionalmergefieldsandregions/) { get; set; } | Ana IF alanının durumuna bakılmaksızın birleştirme alanları ve birleştirme bölgelerinin birleştirilip birleştirilmeyeceğini belirten bir değer alır veya ayarlar. |
 | [UseNonMergeFields](../../aspose.words.mailmerging/mailmerge/usenonmergefields/) { get; set; } | Ne zaman`doğru` MERGEFIELD alanlarına ek olarak diğer bazı alan türlerinde ve ayrıca "{{fieldName}}" etiketlerinde adres-mektup birleştirme işleminin gerçekleştirildiğini belirtir. |
-| [UseWholeParagraphAsRegion](../../aspose.words.mailmerging/mailmerge/usewholeparagraphasregion/) { get; set; } | Paragrafın tamamının olup olmadığını belirten bir değer alır veya ayarlar. **TabloBaşlangıcı** veya **Tablo Sonu** field veya arasındaki belirli aralık **TabloBaşlangıcı** Ve **Tablo Sonu** alanlar adres-mektup birleştirme bölgesine dahil edilmelidir. |
+| [UseWholeParagraphAsRegion](../../aspose.words.mailmerging/mailmerge/usewholeparagraphasregion/) { get; set; } | Paragrafın tamamının olup olmadığını belirten bir değer alır veya ayarlar.**TabloBaşlangıcı** veya**Tablo Sonu** field veya arasındaki belirli aralık**TabloBaşlangıcı** Ve**Tablo Sonu** alanlar adres-mektup birleştirme bölgesine dahil edilmelidir. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
 | [DeleteFields](../../aspose.words.mailmerging/mailmerge/deletefields/)() | Adres-mektup birleştirmeyle ilgili alanları belgeden kaldırır. |
-| [Execute](../../aspose.words.mailmerging/mailmerge/execute/#execute_1)(DataRow) | Adres-mektup birleştirmeyi bir adresten gerçekleştirir. **Veri Satırı** belgeye. |
-| [Execute](../../aspose.words.mailmerging/mailmerge/execute/#execute_2)(DataTable) | DataTable'dan belgeye adres-mektup birleştirme gerçekleştirir. |
-| [Execute](../../aspose.words.mailmerging/mailmerge/execute/#execute_3)(DataView) | Adres-mektup birleştirmeyi bir adresten gerçekleştirir. **Veri görünümü** belgeye. |
-| [Execute](../../aspose.words.mailmerging/mailmerge/execute/#execute_4)(IDataReader) | Adres-mektup birleştirmeyi şuradan gerçekleştirir: **IDataReader** belgeye. |
-| [Execute](../../aspose.words.mailmerging/mailmerge/execute/#execute)(IMailMergeDataSource) | Özel bir veri kaynağından adres-mektup birleştirme gerçekleştirir. |
-| [Execute](../../aspose.words.mailmerging/mailmerge/execute/#execute_5)(string[], object[]) | Tek bir kayıt için adres-mektup birleştirme işlemi gerçekleştirir. |
-| [ExecuteADO](../../aspose.words.mailmerging/mailmerge/executeado/)(object) | Bir ADO Recordset nesnesinden belgeye adres-mektup birleştirme gerçekleştirir. |
-| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions_2)(DataSet) | Adres-mektup birleştirmeyi bir adresten gerçekleştirir. **Veri Kümesi** adres-mektup birleştirme bölgeleri olan bir belgeye. |
-| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions_3)(DataTable) | Adres-mektup birleştirmeyi bir adresten gerçekleştirir. **Veri tablosu** adres-mektup birleştirme bölgelerinin bulunduğu belgeye. |
-| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions_4)(DataView) | Adres-mektup birleştirmeyi bir adresten gerçekleştirir. **Veri görünümü** adres-mektup birleştirme bölgelerinin bulunduğu belgeye. |
-| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions)(IMailMergeDataSource) | Adres-mektup birleştirme bölgelerine sahip özel bir veri kaynağından adres-mektup birleştirme gerçekleştirir. |
-| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions_1)(IMailMergeDataSourceRoot) | Adres-mektup birleştirme bölgelerine sahip özel bir veri kaynağından adres-mektup birleştirme gerçekleştirir. |
-| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions_5)(IDataReader, string) | Adres-mektup birleştirmeyi şuradan gerçekleştirir: **IDataReader** adres-mektup birleştirme bölgelerinin bulunduğu belgeye. |
-| [ExecuteWithRegionsADO](../../aspose.words.mailmerging/mailmerge/executewithregionsado/)(object, string) | Bir ADO Recordset nesnesinden adres-mektup birleştirme bölgelerine sahip belgeye adres-mektup birleştirme gerçekleştirir. |
+| [Execute](../../aspose.words.mailmerging/mailmerge/execute/#execute_1)(*DataRow*) | Adres-mektup birleştirmeyi bir adresten gerçekleştirir.**Veri Satırı** belgeye. |
+| [Execute](../../aspose.words.mailmerging/mailmerge/execute/#execute_2)(*DataTable*) | DataTable'dan belgeye adres-mektup birleştirme gerçekleştirir. |
+| [Execute](../../aspose.words.mailmerging/mailmerge/execute/#execute_3)(*DataView*) | Adres-mektup birleştirmeyi bir adresten gerçekleştirir.**Veri görünümü** belgeye. |
+| [Execute](../../aspose.words.mailmerging/mailmerge/execute/#execute_4)(*IDataReader*) | Adres-mektup birleştirmeyi şuradan gerçekleştirir:**IDataReader** belgeye. |
+| [Execute](../../aspose.words.mailmerging/mailmerge/execute/#execute)(*[IMailMergeDataSource](../imailmergedatasource/)*) | Özel bir veri kaynağından adres-mektup birleştirme gerçekleştirir. |
+| [Execute](../../aspose.words.mailmerging/mailmerge/execute/#execute_5)(*string[], object[]*) | Tek bir kayıt için adres-mektup birleştirme işlemi gerçekleştirir. |
+| [ExecuteADO](../../aspose.words.mailmerging/mailmerge/executeado/)(*object*) | Bir ADO Recordset nesnesinden belgeye adres-mektup birleştirme gerçekleştirir. |
+| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions_2)(*DataSet*) | Adres-mektup birleştirmeyi bir adresten gerçekleştirir.**Veri Kümesi** adres-mektup birleştirme bölgeleri olan bir belgeye. |
+| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions_3)(*DataTable*) | Adres-mektup birleştirmeyi bir adresten gerçekleştirir.**Veri tablosu** adres-mektup birleştirme bölgelerinin bulunduğu belgeye. |
+| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions_4)(*DataView*) | Adres-mektup birleştirmeyi bir adresten gerçekleştirir.**Veri görünümü** adres-mektup birleştirme bölgelerinin bulunduğu belgeye. |
+| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions)(*[IMailMergeDataSource](../imailmergedatasource/)*) | Adres-mektup birleştirme bölgelerine sahip özel bir veri kaynağından adres-mektup birleştirme gerçekleştirir. |
+| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions_1)(*[IMailMergeDataSourceRoot](../imailmergedatasourceroot/)*) | Adres-mektup birleştirme bölgelerine sahip özel bir veri kaynağından adres-mektup birleştirme gerçekleştirir. |
+| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions_5)(*IDataReader, string*) | Adres-mektup birleştirmeyi şuradan gerçekleştirir:**IDataReader** adres-mektup birleştirme bölgelerinin bulunduğu belgeye. |
+| [ExecuteWithRegionsADO](../../aspose.words.mailmerging/mailmerge/executewithregionsado/)(*object, string*) | Bir ADO Recordset nesnesinden adres-mektup birleştirme bölgelerine sahip belgeye adres-mektup birleştirme gerçekleştirir. |
 | [GetFieldNames](../../aspose.words.mailmerging/mailmerge/getfieldnames/)() | Belgede bulunan adres-mektup birleştirme alan adlarının bir koleksiyonunu döndürür. |
-| [GetFieldNamesForRegion](../../aspose.words.mailmerging/mailmerge/getfieldnamesforregion/#getfieldnamesforregion)(string) | Bölgede mevcut olan adres-mektup birleştirme alan adlarının bir koleksiyonunu döndürür. |
-| [GetFieldNamesForRegion](../../aspose.words.mailmerging/mailmerge/getfieldnamesforregion/#getfieldnamesforregion_1)(string, int) | Bölgede mevcut olan adres-mektup birleştirme alan adlarının bir koleksiyonunu döndürür. |
-| [GetRegionsByName](../../aspose.words.mailmerging/mailmerge/getregionsbyname/)(string) | Belirtilen ada sahip adres-mektup birleştirme bölgelerinin bir koleksiyonunu döndürür. |
+| [GetFieldNamesForRegion](../../aspose.words.mailmerging/mailmerge/getfieldnamesforregion/#getfieldnamesforregion)(*string*) | Bölgede mevcut olan adres-mektup birleştirme alan adlarının bir koleksiyonunu döndürür. |
+| [GetFieldNamesForRegion](../../aspose.words.mailmerging/mailmerge/getfieldnamesforregion/#getfieldnamesforregion_1)(*string, int*) | Bölgede mevcut olan adres-mektup birleştirme alan adlarının bir koleksiyonunu döndürür. |
+| [GetRegionsByName](../../aspose.words.mailmerging/mailmerge/getregionsbyname/)(*string*) | Belirtilen ada sahip adres-mektup birleştirme bölgelerinin bir koleksiyonunu döndürür. |
 | [GetRegionsHierarchy](../../aspose.words.mailmerging/mailmerge/getregionshierarchy/)() | Belgede bulunan bölgelerin (alanlarla birlikte) tam hiyerarşisini döndürür. |
 
-### Notlar
+## Notlar
 
 Adres-mektup birleştirme işleminin çalışması için belgenin Word MERGEFIELD ve isteğe bağlı olarak NEXT alanlarını içermesi gerekir. Adres-mektup birleştirme işlemi sırasında, belgedeki birleştirme alanları are , veri kaynağınızdaki değerlerle değiştirilir.
 
 Adres-mektup birleştirmeyi kullanmanın iki farklı yolu vardır: adres-mektup birleştirme bölgeleri olan ve olmayan.
 
-En basit adres-mektup birleştirme bölgesizdir ve adres-mektup birleştirme 'nin Word'deki çalışma şekline çok benzer. KullanmakUygulamak some veri kaynağındaki bilgileri birleştirme yöntemleri, örneğin **Veri tablosu** , **Veri Kümesi** , **Veri görünümü** , **IDataReader** veya bir dizi nesneyi belgenize ekleyin. The `MailMerge` nesne, veri kaynağının tüm kayıtlarını işler ve her kayıt için belgenin tamamını kopyalayıp extensions içeriğini işler.
+En basit adres-mektup birleştirme bölgesizdir ve adres-mektup birleştirme 'nin Word'deki çalışma şekline çok benzer. KullanmakUygulamak some veri kaynağındaki bilgileri birleştirme yöntemleri, örneğin**Veri tablosu** ,**Veri Kümesi** ,**Veri görünümü** ,**IDataReader** veya bir dizi nesneyi belgenize ekleyin. The `MailMerge` nesne, veri kaynağının tüm kayıtlarını işler ve her kayıt için belgenin tamamını kopyalayıp extensions içeriğini işler.
 
 Ne zaman olduğunu unutmayın`MailMerge` nesne bir NEXT alanıyla karşılaştığında, veri kaynağındaki sonraki kayıt 'yi seçer ve herhangi bir içeriği kopyalamadan birleştirmeye devam eder.
 
-Kullanmak[`ExecuteWithRegions`](./executewithregions/) ve adres-mektup birleştirme bölgeleri tanımlanmış olarak bilgileri a belgesine birleştirmek için diğer aşırı yüklemeler. kullanabilirsiniz **Veri Kümesi** , **Veri tablosu** , **Veri görünümü** veya **IDataReader** Bu işlem için veri kaynağı olarak .
+Kullanmak[`ExecuteWithRegions`](./executewithregions/) ve adres-mektup birleştirme bölgeleri tanımlanmış olarak bilgileri a belgesine birleştirmek için diğer aşırı yüklemeler. kullanabilirsiniz**Veri Kümesi** ,**Veri tablosu** ,**Veri görünümü** veya**IDataReader** Bu işlem için veri kaynağı olarak .
 
 belgesinin içindeki bölümleri dinamik olarak büyütmek istiyorsanız adres-mektup birleştirme bölgelerini kullanmanız gerekir. Adres-mektup birleştirme bölgeleri olmadan, belgenin tamamı veri kaynağının her kaydı için tekrarlanacaktır.
 
-### Örnekler
+## Örnekler
 
 DataTable'daki verilerle adres-mektup birleştirmenin nasıl yürütüleceğini gösterir.
 
@@ -125,5 +127,3 @@ private static Document CreateSourceDocExecuteDataTable()
 
 * ad alanı [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * toplantı [Aspose.Words](../../)
-
-

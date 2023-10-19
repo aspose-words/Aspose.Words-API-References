@@ -1,7 +1,9 @@
 ---
 title: FieldDatabase.TableFormat
-second_title: Aspose.Words for .NET API Referansı
-description: FieldDatabase mülk. Veritabanı sorgusunun sonucuna uygulanacak formatı alır veya ayarlar.
+linktitle: TableFormat
+articleTitle: TableFormat
+second_title: Aspose.Words for .NET
+description: FieldDatabase TableFormat mülk. Veritabanı sorgusunun sonucuna uygulanacak formatı alır veya ayarlar C#'da.
 type: docs
 weight: 100
 url: /tr/net/aspose.words.fields/fielddatabase/tableformat/
@@ -14,7 +16,7 @@ Veritabanı sorgusunun sonucuna uygulanacak formatı alır veya ayarlar.
 public string TableFormat { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Veritabanından verinin nasıl çıkarılacağını ve bunun bir alan olarak belgeye nasıl ekleneceğini gösterir.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Field.DATABASE.docx");
 ### Ayrıca bakınız
 
 * class [FieldDatabase](../)
-* ad alanı [Aspose.Words.Fields](../../fielddatabase/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

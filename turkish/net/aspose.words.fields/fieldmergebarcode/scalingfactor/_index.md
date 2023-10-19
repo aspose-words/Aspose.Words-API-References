@@ -1,7 +1,9 @@
 ---
 title: FieldMergeBarcode.ScalingFactor
-second_title: Aspose.Words for .NET API Referansı
-description: FieldMergeBarcode mülk. Sembol için bir ölçeklendirme faktörü alır veya ayarlar. Değer tam yüzdelik puan cinsindendir ve geçerli değerler şunlardır 10 1000
+linktitle: ScalingFactor
+articleTitle: ScalingFactor
+second_title: Aspose.Words for .NET
+description: FieldMergeBarcode ScalingFactor mülk. Sembol için bir ölçeklendirme faktörü alır veya ayarlar. Değer tam yüzdelik puan cinsindendir ve geçerli değerler şunlardır 10 1000 C#'da.
 type: docs
 weight: 120
 url: /tr/net/aspose.words.fields/fieldmergebarcode/scalingfactor/
@@ -14,7 +16,7 @@ Sembol için bir ölçeklendirme faktörü alır veya ayarlar. Değer tam yüzde
 public string ScalingFactor { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 QR barkodlarında adres-mektup birleştirmenin nasıl gerçekleştirileceğini gösterir.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Field.MERGEBARCODE.QR.docx");
 ### Ayrıca bakınız
 
 * class [FieldMergeBarcode](../)
-* ad alanı [Aspose.Words.Fields](../../fieldmergebarcode/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

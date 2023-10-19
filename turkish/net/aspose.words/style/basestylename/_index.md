@@ -1,7 +1,9 @@
 ---
 title: Style.BaseStyleName
-second_title: Aspose.Words for .NET API Referansı
-description: Style mülk. Bu stilin temel aldığı stilin adını alır/ayarlar.
+linktitle: BaseStyleName
+articleTitle: BaseStyleName
+second_title: Aspose.Words for .NET
+description: Style BaseStyleName mülk. Bu stilin temel aldığı stilin adını alır/ayarlar C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/style/basestylename/
@@ -14,11 +16,11 @@ Bu stilin temel aldığı stilin adını alır/ayarlar.
 public string BaseStyleName { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Stil başka bir stili temel almıyorsa ve boş bir dizeye set olarak ayarlanabiliyorsa, bu boş bir dize olacaktır.
 
-### Örnekler
+## Örnekler
 
 Stil takma adlarının nasıl kullanılacağını gösterir.
 
@@ -49,7 +51,5 @@ Assert.AreEqual(doc.FirstSection.Body.Paragraphs[0].ParagraphFormat.Style,
 ### Ayrıca bakınız
 
 * class [Style](../)
-* ad alanı [Aspose.Words](../../style/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-
